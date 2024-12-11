@@ -1,114 +1,114 @@
-// tag-#anon#ST[*{SYM#tag-#anon#ST[S16'x'||S16'y'||SYM#tag-#anon#ST[BF{S32}$S32$'decal_for_dir'||BF{S32}$S32$'size'|]#'side'||ARR6{SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}$S32$'dir'||BF{S32}$S32$'grad'|]#'state'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}$S32$'dir'||BF{S32}$S32$'grad'|]#'state'|]#$'info'||ARR12{*{V}$V$}$*{V}$V$$'link'|]#}$SYM#tag-#anon#ST[S16'x'||S16'y'||SYM#tag-#anon#ST[BF{S32}$S32$'decal_for_dir'||BF{S32}$S32$'size'|]#'side'||ARR6{SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}$S32$'dir'||BF{S32}$S32$'grad'|]#'state'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}$S32$'dir'||BF{S32}$S32$'grad'|]#'state'|]#$'info'||ARR12{*{V}$V$}$*{V}$V$$'link'|]#$'mesh'||*{SYM#tag-#anon#ST[S16'x'||S16'y'||S16'health'||S8'team'||S8'last_dir'|]#}$SYM#tag-#anon#ST[S16'x'||S16'y'||S16'health'||S8'team'||S8'last_dir'|]#$'fighter'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[S16'x'||S16'y'||SYM#tag-#anon#ST[BF{S32}_S32_'decal_for_dir'||BF{S32}_S32_'size'|]#'side'||ARR6{SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}_S32_'dir'||BF{S32}_S32_'grad'|]#'state'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}_S32_'dir'||BF{S32}_S32_'grad'|]#'state'|]#_'info'||ARR12{*{V}_V_}_*{V}_V__'link'|]#}_SYM#tag-#anon#ST[S16'x'||S16'y'||SYM#tag-#anon#ST[BF{S32}_S32_'decal_for_dir'||BF{S32}_S32_'size'|]#'side'||ARR6{SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}_S32_'dir'||BF{S32}_S32_'grad'|]#'state'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}_S32_'dir'||BF{S32}_S32_'grad'|]#'state'|]#_'info'||ARR12{*{V}_V_}_*{V}_V__'link'|]#_'mesh'||*{SYM#tag-#anon#ST[S16'x'||S16'y'||S16'health'||S8'team'||S8'last_dir'|]#}_SYM#tag-#anon#ST[S16'x'||S16'y'||S16'health'||S8'team'||S8'last_dir'|]#_'fighter'|]
 // file area.h line 74
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{U8}$U8$'data'||S32'len'||U32'$pad0'|]
+// tag-#anon#ST[*{U8}_U8_'data'||S32'len'||U32'_pad0'|]
 // file /usr/include/allegro/midi.h line 36
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[*{V}$V$'data'|]
+// tag-#anon#ST[*{V}_V_'data'|]
 // file mutxgen.h line 57
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[ARR11{S8}$S8$'author'||ARR81{S8}$S8$'content'|]
+// tag-#anon#ST[ARR11{S8}_S8_'author'||ARR81{S8}_S8_'content'|]
 // file chat.h line 70
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[ARR50{S8}$S8$'label'||ARR16{S8}$S8$'ip'||U16'$pad0'||S32'port'||S32'uptime'||S32'busy_players'||S32'max_players'||S32'password'||ARR101{S8}$S8$'comment'||U24'$pad1'||S32'ping_delay'|]
+// tag-#anon#ST[ARR50{S8}_S8_'label'||ARR16{S8}_S8_'ip'||U16'_pad0'||S32'port'||S32'uptime'||S32'busy_players'||S32'max_players'||S32'password'||ARR101{S8}_S8_'comment'||U24'_pad1'||S32'ping_delay'|]
 // file wwwcli.h line 68
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[ARR6{S32}$S32$'key_states'||S32'cmd'||S32'arg'||U32'checksum'|]
+// tag-#anon#ST[ARR6{S32}_S32_'key_states'||S32'cmd'||S32'arg'||U32'checksum'|]
 // file netkey.h line 74
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[BF{S32}$S32$'decal_for_dir'||BF{S32}$S32$'size'|]
+// tag-#anon#ST[BF{S32}_S32_'decal_for_dir'||BF{S32}_S32_'size'|]
 // file mesh.h line 96
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[BF{S32}$S32$'dir'||BF{S32}$S32$'grad'|]
+// tag-#anon#ST[BF{S32}_S32_'dir'||BF{S32}_S32_'grad'|]
 // file mesh.h line 82
-struct anonymous$18;
+struct anonymous_18;
 
 // tag-#anon#ST[S16'x'||S16'y'|]
 // file mesh.h line 73
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[S16'x'||S16'y'||S16'health'||S8'team'||S8'last_dir'|]
 // file area.h line 64
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S16'x'||S16'y'||SYM#tag-#anon#ST[BF{S32}$S32$'decal_for_dir'||BF{S32}$S32$'size'|]#'side'||ARR6{SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}$S32$'dir'||BF{S32}$S32$'grad'|]#'state'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}$S32$'dir'||BF{S32}$S32$'grad'|]#'state'|]#$'info'||ARR12{*{V}$V$}$*{V}$V$$'link'|]
+// tag-#anon#ST[S16'x'||S16'y'||SYM#tag-#anon#ST[BF{S32}_S32_'decal_for_dir'||BF{S32}_S32_'size'|]#'side'||ARR6{SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}_S32_'dir'||BF{S32}_S32_'grad'|]#'state'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}_S32_'dir'||BF{S32}_S32_'grad'|]#'state'|]#_'info'||ARR12{*{V}_V_}_*{V}_V__'link'|]
 // file mesh.h line 107
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'active'||S32'network'||S32'server_id'||S32'control_type'||S32'color'||S32'part'||ARR11{S8}$S8$'name'||U8'$pad0'|]
+// tag-#anon#ST[S32'active'||S32'network'||S32'server_id'||S32'control_type'||S32'color'||S32'part'||ARR11{S8}_S8_'name'||U8'_pad0'|]
 // file network.h line 64
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'active'||S32'start'||ARR11{S8}$S8$'name'||U8'$pad0'|]
+// tag-#anon#ST[S32'active'||S32'start'||ARR11{S8}_S8_'name'||U8'_pad0'|]
 // file startinf.h line 63
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'argc'||S32'code'||*{*{S8}$S8$}$*{S8}$S8$$'argv'|]
+// tag-#anon#ST[S32'argc'||S32'code'||*{*{S8}_S8_}_*{S8}_S8__'argv'|]
 // file netmess.h line 66
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S32'cursor_increase_speed'||S32'fighter_attack'||S32'fighter_defense'||S32'fighter_new_health'||S32'number_influence'||S32'fighter_number'||S32'game_time'||S32'cpu_advantage'||S32'cpu_vs_human'||S32'asm_algorithm'||S32'min_map_res'|]
 // file netconf.h line 64
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'n'||ARR20{SYM#tag-#anon#ST[ARR11{S8}$S8$'author'||ARR81{S8}$S8$'content'|]#}$SYM#tag-#anon#ST[ARR11{S8}$S8$'author'||ARR81{S8}$S8$'content'|]#$'messages'|]
+// tag-#anon#ST[S32'n'||ARR20{SYM#tag-#anon#ST[ARR11{S8}_S8_'author'||ARR81{S8}_S8_'content'|]#}_SYM#tag-#anon#ST[ARR11{S8}_S8_'author'||ARR81{S8}_S8_'content'|]#_'messages'|]
 // file chat.h line 77
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'sock'||ARR16{S8}$S8$'address'||S32'port'||S32'allow_exit'||S32'done'||S32'result'|]
+// tag-#anon#ST[S32'sock'||ARR16{S8}_S8_'address'||S32'port'||S32'allow_exit'||S32'done'||S32'result'|]
 // file ping.c line 89
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'sock'||ARR16{S8}$S8$'address'||S32'port'||S32'running'||S32'allow_exit'||S32'free_data'||S32'result'|]
+// tag-#anon#ST[S32'sock'||ARR16{S8}_S8_'address'||S32'port'||S32'running'||S32'allow_exit'||S32'free_data'||S32'result'|]
 // file netplay.c line 92
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'sock'||ARR6{SYM#tag-#anon#ST[S32'active'||S32'start'||ARR11{S8}$S8$'name'||U8'$pad0'|]#}$SYM#tag-#anon#ST[S32'active'||S32'start'||ARR11{S8}$S8$'name'||U8'$pad0'|]#$'team_start_info'||S32'waited_teams'||S32'start'||S32'force_start'||S32'thread_running'||S32'result'||S32'finished'||ARR81{S8}$S8$'chat_buffer'||U24'$pad0'||SYM#tag-#anon#ST[S32'n'||ARR20{SYM#tag-#anon#ST[ARR11{S8}$S8$'author'||ARR81{S8}$S8$'content'|]#}$SYM#tag-#anon#ST[ARR11{S8}$S8$'author'||ARR81{S8}$S8$'content'|]#$'messages'|]#'chat_history'||S32'chat_send'|]
+// tag-#anon#ST[S32'sock'||ARR6{SYM#tag-#anon#ST[S32'active'||S32'start'||ARR11{S8}_S8_'name'||U8'_pad0'|]#}_SYM#tag-#anon#ST[S32'active'||S32'start'||ARR11{S8}_S8_'name'||U8'_pad0'|]#_'team_start_info'||S32'waited_teams'||S32'start'||S32'force_start'||S32'thread_running'||S32'result'||S32'finished'||ARR81{S8}_S8_'chat_buffer'||U24'_pad0'||SYM#tag-#anon#ST[S32'n'||ARR20{SYM#tag-#anon#ST[ARR11{S8}_S8_'author'||ARR81{S8}_S8_'content'|]#}_SYM#tag-#anon#ST[ARR11{S8}_S8_'author'||ARR81{S8}_S8_'content'|]#_'messages'|]#'chat_history'||S32'chat_send'|]
 // file connect.c line 92
-struct anonymous$25;
+struct anonymous_25;
 
 // tag-#anon#ST[S32'start'||S32'record_number'||S32'total_time'|]
 // file profile.c line 64
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'val'||S32'x'||S32'y'||S32'active'||S32'team'||S32'loose_time'||S32'score_order'||S32'color_entry'||S32'key_state'||S32'control_type'||S32'from_network'||ARR11{S8}$S8$'name'||U8'$pad0'|]
+// tag-#anon#ST[S32'val'||S32'x'||S32'y'||S32'active'||S32'team'||S32'loose_time'||S32'score_order'||S32'color_entry'||S32'key_state'||S32'control_type'||S32'from_network'||ARR11{S8}_S8_'name'||U8'_pad0'|]
 // file cursor.h line 64
-struct anonymous$23;
+struct anonymous_23;
 
 // tag-#anon#ST[S32'x'||S32'y'||S32'color'||S32'row'|]
 // file pion.c line 71
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S8'used'||U8'$pad0'||S16'size'||U32'$pad1'||ARR12{*{V}$V$}$*{V}$V$$'link'||S32'corres'||U32'$pad2'|]
+// tag-#anon#ST[S8'used'||U8'_pad0'||S16'size'||U32'_pad1'||ARR12{*{V}_V_}_*{V}_V__'link'||S32'corres'||U32'_pad2'|]
 // file mesh.c line 68
 struct anonymous;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}$S32$'dir'||BF{S32}$S32$'grad'|]#'state'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]#'update'||SYM#tag-#anon#ST[BF{S32}_S32_'dir'||BF{S32}_S32_'grad'|]#'state'|]
 // file mesh.h line 89
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$3;
+union anonymous_3;
 
 // tag-#anon#UN[S32'time'||SYM#tag-#anon#ST[S16'x'||S16'y'|]#'cursor'|]
 // file mesh.h line 70
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-BITMAP
 // file /usr/include/allegro/system.h line 31
@@ -290,24 +290,24 @@ extern void * __rawmemchr(const void *, signed int);
 // _allegro_hline
 // file /usr/include/allegro/inline/draw.inl line 54
 static inline void _allegro_hline(struct BITMAP *bmp, signed int x1, signed int y, signed int x2, signed int color);
-// _allegro_hline$link1
+// _allegro_hline_link1
 // file /usr/include/allegro/inline/draw.inl line 54
-static inline void _allegro_hline$link1(struct BITMAP *bmp$link1, signed int x1$link1, signed int y$link1, signed int x2$link1, signed int color$link1);
-// _allegro_hline$link2
+static inline void _allegro_hline_link1(struct BITMAP *bmp_link1, signed int x1_link1, signed int y_link1, signed int x2_link1, signed int color_link1);
+// _allegro_hline_link2
 // file /usr/include/allegro/inline/draw.inl line 54
-static inline void _allegro_hline$link2(struct BITMAP *bmp$link2, signed int x1$link2, signed int y$link2, signed int x2$link2, signed int color$link2);
+static inline void _allegro_hline_link2(struct BITMAP *bmp_link2, signed int x1_link2, signed int y_link2, signed int x2_link2, signed int color_link2);
 // _allegro_vline
 // file /usr/include/allegro/inline/draw.inl line 46
 static inline void _allegro_vline(struct BITMAP *bmp, signed int x, signed int y_1, signed int y2, signed int color);
-// _allegro_vline$link1
+// _allegro_vline_link1
 // file /usr/include/allegro/inline/draw.inl line 46
-static inline void _allegro_vline$link1(struct BITMAP *bmp$link1, signed int x$link1, signed int y_1$link1, signed int y2$link1, signed int color$link1);
-// _allegro_vline$link2
+static inline void _allegro_vline_link1(struct BITMAP *bmp_link1, signed int x_link1, signed int y_1_link1, signed int y2_link1, signed int color_link1);
+// _allegro_vline_link2
 // file /usr/include/allegro/inline/draw.inl line 46
-static inline void _allegro_vline$link2(struct BITMAP *bmp$link2, signed int x$link2, signed int y_1$link2, signed int y2$link2, signed int color$link2);
-// _allegro_vline$link3
+static inline void _allegro_vline_link2(struct BITMAP *bmp_link2, signed int x_link2, signed int y_1_link2, signed int y2_link2, signed int color_link2);
+// _allegro_vline_link3
 // file /usr/include/allegro/inline/draw.inl line 46
-static inline void _allegro_vline$link3(struct BITMAP *bmp$link3, signed int x$link3, signed int y_1$link3, signed int y2$link3, signed int color$link3);
+static inline void _allegro_vline_link3(struct BITMAP *bmp_link3, signed int x_link3, signed int y_1_link3, signed int y2_link3, signed int color_link3);
 // _draw_scrollable_frame
 // file alleg2.c line 71
 extern void _draw_scrollable_frame(struct DIALOG *, signed int, signed int, signed int, signed int, signed int);
@@ -322,7 +322,7 @@ extern signed int abs(signed int);
 extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add_fighter
 // file army.c line 97
-static signed int add_fighter(struct anonymous$21 *f, signed int team, signed int x, signed int y, signed int health);
+static signed int add_fighter(struct anonymous_21 *f, signed int team, signed int x, signed int y, signed int health);
 // advanced_options
 // file advanced.c line 119
 signed int advanced_options(void);
@@ -341,18 +341,18 @@ extern signed int atexit(void (*)(void));
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1);
-// atoi$link2
+static inline signed int atoi_link1(const char *__nptr_link1);
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2);
-// atoi$link3
+static inline signed int atoi_link2(const char *__nptr_link2);
+// atoi_link3
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link3(const char *__nptr$link3);
-// atoi$link4
+static inline signed int atoi_link3(const char *__nptr_link3);
+// atoi_link4
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link4(const char *__nptr$link4);
+static inline signed int atoi_link4(const char *__nptr_link4);
 // auto_cursor
 // file cursor.h line 135
 void auto_cursor(signed int index, signed int team, char *name);
@@ -544,7 +544,7 @@ signed int d_button_proc(signed int, struct DIALOG *, signed int);
 signed int d_keyboard_proc(signed int, struct DIALOG *, signed int);
 // decode
 // file netkey.c line 198
-static void decode(struct anonymous$5 *dst, unsigned char *src);
+static void decode(struct anonymous_5 *dst, unsigned char *src);
 // delete_file
 // file /usr/include/allegro/file.h line 44
 signed int delete_file(const char *);
@@ -577,7 +577,7 @@ void disp_distorted_area(void);
 static void disp_error_message(void);
 // disp_fighter
 // file fighter.c line 137
-static void disp_fighter(struct anonymous$21 *f);
+static void disp_fighter(struct anonymous_21 *f);
 // disp_graphics_fail_message
 // file exit.c line 253
 static void disp_graphics_fail_message(void);
@@ -659,12 +659,12 @@ static signed int draw_score_bitmap(struct BITMAP *bitmap, signed int cursor, si
 // draw_sprite
 // file /usr/include/allegro/inline/draw.inl line 238
 static inline void draw_sprite(struct BITMAP *bmp, struct BITMAP *sprite, signed int x, signed int y);
-// draw_sprite$link1
+// draw_sprite_link1
 // file /usr/include/allegro/inline/draw.inl line 238
-static inline void draw_sprite$link1(struct BITMAP *bmp$link1, struct BITMAP *sprite$link1, signed int x$link1, signed int y$link1);
-// draw_sprite$link2
+static inline void draw_sprite_link1(struct BITMAP *bmp_link1, struct BITMAP *sprite_link1, signed int x_link1, signed int y_link1);
+// draw_sprite_link2
 // file /usr/include/allegro/inline/draw.inl line 238
-static inline void draw_sprite$link2(struct BITMAP *bmp$link2, struct BITMAP *sprite$link2, signed int x$link2, signed int y$link2);
+static inline void draw_sprite_link2(struct BITMAP *bmp_link2, struct BITMAP *sprite_link2, signed int x_link2, signed int y_link2);
 // eat_space
 // file netmess.c line 91
 static signed int eat_space(char **message);
@@ -679,10 +679,10 @@ static inline void ellipse(struct BITMAP *bmp, signed int x, signed int y, signe
 static inline void ellipsefill(struct BITMAP *bmp, signed int x, signed int y, signed int rx, signed int ry, signed int color);
 // encode
 // file netkey.c line 160
-static void encode(unsigned char *dst, struct anonymous$5 *src);
+static void encode(unsigned char *dst, struct anonymous_5 *src);
 // erase_fighter
 // file fighter.c line 129
-static void erase_fighter(struct anonymous$21 *f);
+static void erase_fighter(struct anonymous_21 *f);
 // error_bad_config_range
 // file error.c line 206
 signed int error_bad_config_range(void);
@@ -824,12 +824,12 @@ static inline signed int fsin(signed int x);
 // fsqrt
 // file /usr/include/allegro/alcompat.h line 57
 static inline signed int fsqrt(signed int x);
-// fsqrt$link1
+// fsqrt_link1
 // file /usr/include/allegro/alcompat.h line 57
-static inline signed int fsqrt$link1(signed int x$link1);
-// fsqrt$link2
+static inline signed int fsqrt_link1(signed int x_link1);
+// fsqrt_link2
 // file /usr/include/allegro/alcompat.h line 57
-static inline signed int fsqrt$link2(signed int x$link2);
+static inline signed int fsqrt_link2(signed int x_link2);
 // ftofix
 // file /usr/include/allegro/inline/fmaths.inl line 32
 static inline signed int ftofix(double x);
@@ -865,7 +865,7 @@ static char * get_asm_algorithm_str(void);
 static signed int get_battle_room(void);
 // get_close_dir
 // file fighter.c line 271
-static signed int get_close_dir(struct anonymous$0 *mesh, struct anonymous$21 *f, signed int team, signed int sens, signed int start);
+static signed int get_close_dir(struct anonymous_0 *mesh, struct anonymous_21 *f, signed int team, signed int sens, signed int start);
 // get_code
 // file netmess.c line 197
 static signed int get_code(char **message);
@@ -901,7 +901,7 @@ static char * get_key_name(signed int num);
 signed int get_logic_rate(void);
 // get_main_dir
 // file fighter.h line 70
-signed int get_main_dir(struct anonymous$0 *mesh, signed int team, signed int sens, signed int start);
+signed int get_main_dir(struct anonymous_0 *mesh, signed int team, signed int sens, signed int start);
 // get_menu_res_str
 // file graphics.c line 95
 static char * get_menu_res_str(void);
@@ -935,24 +935,24 @@ extern struct hostent * gethostbyname(const char *);
 // getpixel
 // file /usr/include/allegro/inline/draw.inl line 30
 static inline signed int getpixel(struct BITMAP *bmp, signed int x, signed int y);
-// getpixel$link1
+// getpixel_link1
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link1(struct BITMAP *bmp$link1, signed int x$link1, signed int y$link1);
-// getpixel$link2
+static inline signed int getpixel_link1(struct BITMAP *bmp_link1, signed int x_link1, signed int y_link1);
+// getpixel_link2
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link2(struct BITMAP *bmp$link2, signed int x$link2, signed int y$link2);
-// getpixel$link3
+static inline signed int getpixel_link2(struct BITMAP *bmp_link2, signed int x_link2, signed int y_link2);
+// getpixel_link3
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link3(struct BITMAP *bmp$link3, signed int x$link3, signed int y$link3);
-// getpixel$link4
+static inline signed int getpixel_link3(struct BITMAP *bmp_link3, signed int x_link3, signed int y_link3);
+// getpixel_link4
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link4(struct BITMAP *bmp$link4, signed int x$link4, signed int y$link4);
-// getpixel$link5
+static inline signed int getpixel_link4(struct BITMAP *bmp_link4, signed int x_link4, signed int y_link4);
+// getpixel_link5
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link5(struct BITMAP *bmp$link5, signed int x$link5, signed int y$link5);
-// getpixel$link6
+static inline signed int getpixel_link5(struct BITMAP *bmp_link5, signed int x_link5, signed int y_link5);
+// getpixel_link6
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link6(struct BITMAP *bmp$link6, signed int x$link6, signed int y$link6);
+static inline signed int getpixel_link6(struct BITMAP *bmp_link6, signed int x_link6, signed int y_link6);
 // graphic_options
 // file graphics.c line 187
 signed int graphic_options(void);
@@ -962,27 +962,27 @@ static signed int group_mesher(struct anonymous *mesher, struct BITMAP *map, sig
 // gui_get_screen
 // file /usr/include/allegro/gui.h line 197
 struct BITMAP * gui_get_screen(void);
-// gui_mouse_b$object
+// gui_mouse_b_object
 //
-signed int gui_mouse_b$object(void);
-// gui_mouse_x$object
+signed int gui_mouse_b_object(void);
+// gui_mouse_x_object
 //
-signed int gui_mouse_x$object(void);
-// gui_mouse_y$object
+signed int gui_mouse_x_object(void);
+// gui_mouse_y_object
 //
-signed int gui_mouse_y$object(void);
+signed int gui_mouse_y_object(void);
 // gui_textout_ex
 // file /usr/include/allegro/gui.h line 198
 signed int gui_textout_ex(struct BITMAP *, const char *, signed int, signed int, signed int, signed int, signed int);
 // hline
 // file /usr/include/allegro/inline/draw.inl line 68
 static inline void hline(struct BITMAP *bmp, signed int x1, signed int y, signed int x2, signed int color);
-// hline$link1
+// hline_link1
 // file /usr/include/allegro/inline/draw.inl line 68
-static inline void hline$link1(struct BITMAP *bmp$link1, signed int x1$link1, signed int y$link1, signed int x2$link1, signed int color$link1);
-// hline$link2
+static inline void hline_link1(struct BITMAP *bmp_link1, signed int x1_link1, signed int y_link1, signed int x2_link1, signed int color_link1);
+// hline_link2
 // file /usr/include/allegro/inline/draw.inl line 68
-static inline void hline$link2(struct BITMAP *bmp$link2, signed int x1$link2, signed int y$link2, signed int x2$link2, signed int color$link2);
+static inline void hline_link2(struct BITMAP *bmp_link2, signed int x1_link2, signed int y_link2, signed int x2_link2, signed int color_link2);
 // hsv_to_rgb
 // file /usr/include/allegro/color.h line 122
 void hsv_to_rgb(float, float, float, signed int *, signed int *, signed int *);
@@ -1067,9 +1067,9 @@ signed int is_touched_key(signed int i);
 // itofix
 // file /usr/include/allegro/inline/fmaths.inl line 181
 static inline signed int itofix(signed int x);
-// itofix$link1
+// itofix_link1
 // file /usr/include/allegro/inline/fmaths.inl line 181
-static inline signed int itofix$link1(signed int x$link1);
+static inline signed int itofix_link1(signed int x_link1);
 // keypressed
 // file /usr/include/allegro/keyboard.h line 68
 signed int keypressed(void);
@@ -1192,19 +1192,19 @@ extern signed int lw_capture_get_mode();
 extern void lw_capture_set_mode(signed int mode);
 // lw_chat_get
 // file chat.c line 135
-signed int lw_chat_get(struct anonymous$13 *history, struct anonymous$24 *message, signed int i);
+signed int lw_chat_get(struct anonymous_13 *history, struct anonymous_24 *message, signed int i);
 // lw_chat_pop
 // file chat.c line 105
-signed int lw_chat_pop(struct anonymous$13 *history, struct anonymous$24 *message);
+signed int lw_chat_pop(struct anonymous_13 *history, struct anonymous_24 *message);
 // lw_chat_push
 // file chat.c line 79
-void lw_chat_push(struct anonymous$13 *history, char *author, char *content);
+void lw_chat_push(struct anonymous_13 *history, char *author, char *content);
 // lw_chat_reset
 // file chat.c line 69
-void lw_chat_reset(struct anonymous$13 *history);
+void lw_chat_reset(struct anonymous_13 *history);
 // lw_checksum_calc
 // file checksum.c line 81
-signed int lw_checksum_calc(struct anonymous$21 *army, signed int army_size);
+signed int lw_checksum_calc(struct anonymous_21 *army, signed int army_size);
 // lw_config_set_current_rules_to_default
 // file config.c line 627
 void lw_config_set_current_rules_to_default(void);
@@ -1231,7 +1231,7 @@ void lw_info_get_room_for_viewport(signed int *x, signed int *y, signed int *w, 
 void lw_keyboard_reset_hack(void);
 // lw_keyexch_flush
 // file keyexch.c line 173
-signed int lw_keyexch_flush(struct anonymous$23 *cursors, unsigned int checksum);
+signed int lw_keyexch_flush(struct anonymous_23 *cursors, unsigned int checksum);
 // lw_lang_auto
 // file lang.c line 156
 extern signed int lw_lang_auto();
@@ -1327,40 +1327,40 @@ void lw_mouse_update_control(void);
 void lw_mouse_update_show_hide(void);
 // lw_mutex_init
 // file mutxunix.c line 78
-signed int lw_mutex_init(struct anonymous$1 *mutex);
+signed int lw_mutex_init(struct anonymous_1 *mutex);
 // lw_mutex_lock
 // file mutxgen.h line 68
-signed int lw_mutex_lock(struct anonymous$1 *mutex);
+signed int lw_mutex_lock(struct anonymous_1 *mutex);
 // lw_mutex_trylock
 // file mutxgen.h line 69
-signed int lw_mutex_trylock(struct anonymous$1 *mutex);
+signed int lw_mutex_trylock(struct anonymous_1 *mutex);
 // lw_mutex_unlock
 // file mutxgen.h line 70
-signed int lw_mutex_unlock(struct anonymous$1 *mutex);
+signed int lw_mutex_unlock(struct anonymous_1 *mutex);
 // lw_netconf_check
 // file netconf.h line 86
-signed int lw_netconf_check(struct anonymous$4 *config);
+signed int lw_netconf_check(struct anonymous_4 *config);
 // lw_netconf_print
 // file netconf.c line 266
-void lw_netconf_print(struct anonymous$4 *config);
+void lw_netconf_print(struct anonymous_4 *config);
 // lw_netconf_recv
 // file netconf.c line 178
-signed int lw_netconf_recv(signed int *sock, struct anonymous$4 *config);
+signed int lw_netconf_recv(signed int *sock, struct anonymous_4 *config);
 // lw_netconf_send
 // file netconf.c line 112
-signed int lw_netconf_send(signed int *sock, struct anonymous$4 *config);
+signed int lw_netconf_send(signed int *sock, struct anonymous_4 *config);
 // lw_netkey_peek
 // file netkey.h line 90
 signed int lw_netkey_peek(signed int *sock, signed int num);
 // lw_netkey_recv
 // file netkey.h line 89
-signed int lw_netkey_recv(signed int *sock, struct anonymous$5 *netkey);
+signed int lw_netkey_recv(signed int *sock, struct anonymous_5 *netkey);
 // lw_netkey_reset
 // file netkey.h line 87
-void lw_netkey_reset(struct anonymous$5 *netkey);
+void lw_netkey_reset(struct anonymous_5 *netkey);
 // lw_netkey_send
 // file netkey.h line 88
-signed int lw_netkey_send(signed int *sock, struct anonymous$5 *netkey);
+signed int lw_netkey_send(signed int *sock, struct anonymous_5 *netkey);
 // lw_netmap_recv
 // file netmap.c line 140
 signed int lw_netmap_recv(signed int *sock, void **netmap);
@@ -1372,10 +1372,10 @@ signed int lw_netmap_send(signed int *sock, void *netmap);
 extern void lw_netmess_cleanup_arg(char *string);
 // lw_netmess_free
 // file netmess.c line 432
-extern void lw_netmess_free(struct anonymous$6 *ptr);
+extern void lw_netmess_free(struct anonymous_6 *ptr);
 // lw_netmess_read
 // file netmess.c line 411
-extern struct anonymous$6 * lw_netmess_read(char *message);
+extern struct anonymous_6 * lw_netmess_read(char *message);
 // lw_network_attribute_colors
 // file network.h line 89
 extern void lw_network_attribute_colors();
@@ -1393,13 +1393,13 @@ signed int lw_ping_try_server(char *address, signed int port);
 signed int lw_protocol_ask_free_teams(signed int *sock, signed int *nb);
 // lw_protocol_ask_teamstartinfo
 // file protocol.h line 96
-signed int lw_protocol_ask_teamstartinfo(signed int *sock, signed int team, struct anonymous$12 *team_start_info);
+signed int lw_protocol_ask_teamstartinfo(signed int *sock, signed int team, struct anonymous_12 *team_start_info);
 // lw_protocol_ask_who
 // file protocol.h line 87
-signed int lw_protocol_ask_who(signed int *sock, signed int num, struct anonymous$8 *who);
+signed int lw_protocol_ask_who(signed int *sock, signed int num, struct anonymous_8 *who);
 // lw_protocol_chat_listen
 // file protocol.h line 99
-signed int lw_protocol_chat_listen(signed int *sock, struct anonymous$13 *chat_history);
+signed int lw_protocol_chat_listen(signed int *sock, struct anonymous_13 *chat_history);
 // lw_protocol_chat_talk
 // file protocol.h line 98
 signed int lw_protocol_chat_talk(signed int *sock, char *text);
@@ -1487,9 +1487,9 @@ signed int lw_sock_exit();
 // lw_sock_init
 // file sockgen.h line 57
 signed int lw_sock_init();
-// lw_sock_init::$tmp::return_value_signal$1$object
+// lw_sock_init::_tmp::return_value_signal_1_object
 //
-void return_value_signal$1$object(signed int);
+void return_value_signal_1_object(signed int);
 // lw_sock_listen
 // file sockunix.c line 142
 signed int lw_sock_listen(signed int *sock, signed int port);
@@ -1525,7 +1525,7 @@ signed int lw_sock_send_str(signed int *sock, char *str);
 signed int lw_sock_send_str_ex(signed int *sock, char *str);
 // lw_teamstartinfo_reset
 // file startinf.h line 71
-void lw_teamstartinfo_reset(struct anonymous$12 *teamstartinfo);
+void lw_teamstartinfo_reset(struct anonymous_12 *teamstartinfo);
 // lw_texture_archive_raw
 // file texture.h line 71
 void * lw_texture_archive_raw(const char *filename);
@@ -1541,15 +1541,15 @@ char * lw_texture_get_system_name(signed int num);
 // lw_thread_start
 // file thrdgen.h line 53
 signed int lw_thread_start(void (*func)(void *), void *args);
-// lw_thread_start::func$object
+// lw_thread_start::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // lw_viewport_register_change
 // file viewport.h line 78
 void lw_viewport_register_change(signed int count);
 // lw_wwwcli_get_games
 // file wwwcli.h line 86
-signed int lw_wwwcli_get_games(struct anonymous$15 *buffer, signed int *size);
+signed int lw_wwwcli_get_games(struct anonymous_15 *buffer, signed int *size);
 // main_info
 // file dialog.c line 249
 void main_info(struct DIALOG *d, char *str);
@@ -1591,7 +1591,7 @@ signed int menu_real_x(signed int x);
 signed int menu_real_y(signed int y);
 // mesher_to_mesh
 // file mesh.c line 240
-static struct anonymous$0 * mesher_to_mesh(struct anonymous *mesher, struct BITMAP *map, signed int *size, signed int *w, signed int *h);
+static struct anonymous_0 * mesher_to_mesh(struct anonymous *mesher, struct BITMAP *map, signed int *size, signed int *w, signed int *h);
 // message_int
 // file message.c line 146
 void message_int(signed int val);
@@ -1688,9 +1688,9 @@ void my_set_palette(void);
 // my_slider_proc
 // file alleg2.h line 72
 signed int my_slider_proc(signed int msg, struct DIALOG *d, signed int c);
-// my_slider_proc::1::proc$object
+// my_slider_proc::1::proc_object
 //
-signed int proc$object(void *, signed int);
+signed int proc_object(void *, signed int);
 // my_text_proc
 // file alleg2.c line 617
 signed int my_text_proc(signed int msg, struct DIALOG *d, signed int c);
@@ -1729,7 +1729,7 @@ struct BITMAP * page_flip(void);
 static void palette_128(struct DIALOG *d, signed int x, signed int y, signed int w, signed int h);
 // parse_line
 // file wwwcli.c line 199
-static signed int parse_line(struct anonymous$15 *result, char **str);
+static signed int parse_line(struct anonymous_15 *result, char **str);
 // place_all_team
 // file army.c line 192
 void place_all_team(void);
@@ -1801,43 +1801,43 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_detach(unsigned long int);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$3 *);
+extern signed int pthread_mutex_init(union anonymous_2 *, const union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$2 *);
+extern signed int pthread_mutex_trylock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // putpixel
 // file /usr/include/allegro/inline/draw.inl line 38
 static inline void putpixel(struct BITMAP *bmp, signed int x, signed int y, signed int color);
-// putpixel$link1
+// putpixel_link1
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link1(struct BITMAP *bmp$link1, signed int x$link1, signed int y$link1, signed int color$link1);
-// putpixel$link2
+static inline void putpixel_link1(struct BITMAP *bmp_link1, signed int x_link1, signed int y_link1, signed int color_link1);
+// putpixel_link2
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link2(struct BITMAP *bmp$link2, signed int x$link2, signed int y$link2, signed int color$link2);
-// putpixel$link3
+static inline void putpixel_link2(struct BITMAP *bmp_link2, signed int x_link2, signed int y_link2, signed int color_link2);
+// putpixel_link3
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link3(struct BITMAP *bmp$link3, signed int x$link3, signed int y$link3, signed int color$link3);
-// putpixel$link4
+static inline void putpixel_link3(struct BITMAP *bmp_link3, signed int x_link3, signed int y_link3, signed int color_link3);
+// putpixel_link4
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link4(struct BITMAP *bmp$link4, signed int x$link4, signed int y$link4, signed int color$link4);
-// putpixel$link5
+static inline void putpixel_link4(struct BITMAP *bmp_link4, signed int x_link4, signed int y_link4, signed int color_link4);
+// putpixel_link5
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link5(struct BITMAP *bmp$link5, signed int x$link5, signed int y$link5, signed int color$link5);
-// putpixel$link6
+static inline void putpixel_link5(struct BITMAP *bmp_link5, signed int x_link5, signed int y_link5, signed int color_link5);
+// putpixel_link6
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link6(struct BITMAP *bmp$link6, signed int x$link6, signed int y$link6, signed int color$link6);
-// putpixel$link7
+static inline void putpixel_link6(struct BITMAP *bmp_link6, signed int x_link6, signed int y_link6, signed int color_link6);
+// putpixel_link7
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link7(struct BITMAP *bmp$link7, signed int x$link7, signed int y$link7, signed int color$link7);
-// putpixel$link8
+static inline void putpixel_link7(struct BITMAP *bmp_link7, signed int x_link7, signed int y_link7, signed int color_link7);
+// putpixel_link8
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link8(struct BITMAP *bmp$link8, signed int x$link8, signed int y$link8, signed int color$link8);
+static inline void putpixel_link8(struct BITMAP *bmp_link8, signed int x_link8, signed int y_link8, signed int color_link8);
 // quick_buttons
 // file dialog.h line 107
 void quick_buttons(struct DIALOG *d);
@@ -1880,9 +1880,9 @@ static void read_music_dat(struct DATAFILE *df);
 // read_separator
 // file netmess.c line 109
 static signed int read_separator(char **message);
-// read_separator$link1
+// read_separator_link1
 // file wwwcli.c line 340
-static signed int read_separator$link1(char **str);
+static signed int read_separator_link1(char **str);
 // read_sfx_dat
 // file disk.c line 138
 static void read_sfx_dat(struct DATAFILE *df);
@@ -1907,33 +1907,33 @@ static signed int recalculate_number_of_colors(signed int max_number, struct BIT
 // rect
 // file /usr/include/allegro/inline/draw.inl line 112
 static inline void rect(struct BITMAP *bmp, signed int x1, signed int y_1, signed int x2, signed int y2, signed int color);
-// rect$link1
+// rect_link1
 // file /usr/include/allegro/inline/draw.inl line 112
-static inline void rect$link1(struct BITMAP *bmp$link1, signed int x1$link1, signed int y_1$link1, signed int x2$link1, signed int y2$link1, signed int color$link1);
+static inline void rect_link1(struct BITMAP *bmp_link1, signed int x1_link1, signed int y_1_link1, signed int x2_link1, signed int y2_link1, signed int color_link1);
 // rect_for_viewport
 // file viewport.h line 75
 void rect_for_viewport(void);
 // rectfill
 // file /usr/include/allegro/inline/draw.inl line 88
 static inline void rectfill(struct BITMAP *bmp, signed int x1, signed int y_1, signed int x2, signed int y2, signed int color);
-// rectfill$link1
+// rectfill_link1
 // file /usr/include/allegro/inline/draw.inl line 88
-static inline void rectfill$link1(struct BITMAP *bmp$link1, signed int x1$link1, signed int y_1$link1, signed int x2$link1, signed int y2$link1, signed int color$link1);
-// rectfill$link2
+static inline void rectfill_link1(struct BITMAP *bmp_link1, signed int x1_link1, signed int y_1_link1, signed int x2_link1, signed int y2_link1, signed int color_link1);
+// rectfill_link2
 // file /usr/include/allegro/inline/draw.inl line 88
-static inline void rectfill$link2(struct BITMAP *bmp$link2, signed int x1$link2, signed int y_1$link2, signed int x2$link2, signed int y2$link2, signed int color$link2);
-// rectfill$link3
+static inline void rectfill_link2(struct BITMAP *bmp_link2, signed int x1_link2, signed int y_1_link2, signed int x2_link2, signed int y2_link2, signed int color_link2);
+// rectfill_link3
 // file /usr/include/allegro/inline/draw.inl line 88
-static inline void rectfill$link3(struct BITMAP *bmp$link3, signed int x1$link3, signed int y_1$link3, signed int x2$link3, signed int y2$link3, signed int color$link3);
-// rectfill$link4
+static inline void rectfill_link3(struct BITMAP *bmp_link3, signed int x1_link3, signed int y_1_link3, signed int x2_link3, signed int y2_link3, signed int color_link3);
+// rectfill_link4
 // file /usr/include/allegro/inline/draw.inl line 88
-static inline void rectfill$link4(struct BITMAP *bmp$link4, signed int x1$link4, signed int y_1$link4, signed int x2$link4, signed int y2$link4, signed int color$link4);
+static inline void rectfill_link4(struct BITMAP *bmp_link4, signed int x1_link4, signed int y_1_link4, signed int x2_link4, signed int y2_link4, signed int color_link4);
 // recv
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 156
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recv_keys
 // file keyexch.c line 136
-static signed int recv_keys(signed int *sock, struct anonymous$23 *cursors);
+static signed int recv_keys(signed int *sock, struct anonymous_23 *cursors);
 // recv_ok
 // file protocol.c line 79
 static signed int recv_ok(signed int *sock);
@@ -2011,13 +2011,13 @@ void scare_mouse(void);
 signed int scroll_screen(signed int, signed int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$14 *, struct anonymous$14 *, struct anonymous$14 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_14 *, struct anonymous_14 *, struct anonymous_14 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
 // send_keys
 // file keyexch.c line 85
-static signed int send_keys(signed int *sock, struct anonymous$23 *cursors, unsigned int checksum);
+static signed int send_keys(signed int *sock, struct anonymous_23 *cursors, unsigned int checksum);
 // set_auto_check
 // file startup.c line 243
 static void set_auto_check(void);
@@ -2293,7 +2293,7 @@ void test_army(void);
 void test_mesh(void);
 // test_one_mesh
 // file mesh.c line 306
-static void test_one_mesh(struct anonymous$0 *test);
+static void test_one_mesh(struct anonymous_0 *test);
 // text_height
 // file /usr/include/allegro/text.h line 45
 signed int text_height(struct FONT *);
@@ -2324,18 +2324,18 @@ static void try_server_callback(void *arg);
 // ugetat
 // file /usr/include/allegro/unicode.h line 60
 signed int ugetat(const char *, signed int);
-// ugetc$object
+// ugetc_object
 //
-signed int ugetc$object(const char *);
-// ugetx$object
+signed int ugetc_object(const char *);
+// ugetx_object
 //
-signed int ugetx$object(char **);
+signed int ugetx_object(char **);
 // uinsert
 // file /usr/include/allegro/unicode.h line 62
 signed int uinsert(char *, signed int, signed int);
-// uisok$object
+// uisok_object
 //
-signed int uisok$object(signed int);
+signed int uisok_object(signed int);
 // uisspace
 // file /usr/include/allegro/unicode.h line 66
 signed int uisspace(signed int);
@@ -2356,7 +2356,7 @@ signed int uoffset(const char *, signed int);
 static void update_choose_map(struct DIALOG *d, signed int map, signed int fg, signed int bg, signed int random, signed int use_default_texture);
 // update_connect_menu
 // file connect.c line 331
-static signed int update_connect_menu(struct DIALOG *d, signed int waited_teams, struct anonymous$12 *team_start_info, struct anonymous$13 *chat_history, signed int *connected_teams_prev);
+static signed int update_connect_menu(struct DIALOG *d, signed int waited_teams, struct anonymous_12 *team_start_info, struct anonymous_13 *chat_history, signed int *connected_teams_prev);
 // update_dialog
 // file /usr/include/allegro/gui.h line 211
 signed int update_dialog(struct DIALOG_PLAYER *);
@@ -2402,9 +2402,9 @@ signed int uremove(char *, signed int);
 // usetat
 // file /usr/include/allegro/unicode.h line 61
 signed int usetat(char *, signed int, signed int);
-// usetc$object
+// usetc_object
 //
-signed int usetc$object(char *, signed int);
+signed int usetc_object(char *, signed int);
 // usleep
 // file /usr/include/unistd.h line 460
 extern signed int usleep(unsigned int);
@@ -2414,21 +2414,21 @@ signed int ustrlen(const char *);
 // ustrzcpy
 // file /usr/include/allegro/unicode.h line 71
 char * ustrzcpy(char *, signed int, const char *);
-// uwidth$object
+// uwidth_object
 //
-signed int uwidth$object(const char *);
+signed int uwidth_object(const char *);
 // vline
 // file /usr/include/allegro/inline/draw.inl line 67
 static inline void vline(struct BITMAP *bmp, signed int x, signed int y_1, signed int y2, signed int color);
-// vline$link1
+// vline_link1
 // file /usr/include/allegro/inline/draw.inl line 67
-static inline void vline$link1(struct BITMAP *bmp$link1, signed int x$link1, signed int y_1$link1, signed int y2$link1, signed int color$link1);
-// vline$link2
+static inline void vline_link1(struct BITMAP *bmp_link1, signed int x_link1, signed int y_1_link1, signed int y2_link1, signed int color_link1);
+// vline_link2
 // file /usr/include/allegro/inline/draw.inl line 67
-static inline void vline$link2(struct BITMAP *bmp$link2, signed int x$link2, signed int y_1$link2, signed int y2$link2, signed int color$link2);
-// vline$link3
+static inline void vline_link2(struct BITMAP *bmp_link2, signed int x_link2, signed int y_1_link2, signed int y2_link2, signed int color_link2);
+// vline_link3
 // file /usr/include/allegro/inline/draw.inl line 67
-static inline void vline$link3(struct BITMAP *bmp$link3, signed int x$link3, signed int y_1$link3, signed int y2$link3, signed int color$link3);
+static inline void vline_link3(struct BITMAP *bmp_link3, signed int x_link3, signed int y_1_link3, signed int y2_link3, signed int color_link3);
 // wait_key_pressed
 // file keyboard.c line 231
 signed int wait_key_pressed(void);
@@ -2472,15 +2472,15 @@ void write_time(signed int time, char *buffer);
 // file rules.c line 118
 static void write_time_setting(struct DIALOG *d);
 
-struct anonymous$22
+struct anonymous_22
 {
   // mesh
-  struct anonymous$0 *mesh;
+  struct anonymous_0 *mesh;
   // fighter
-  struct anonymous$21 *fighter;
+  struct anonymous_21 *fighter;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // data
   unsigned char *data;
@@ -2488,13 +2488,13 @@ struct anonymous$26
   signed int len;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // data
   void *data;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // author
   char author[11l];
@@ -2502,13 +2502,13 @@ struct anonymous$24
   char content[81l];
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // label
   char label[50l];
@@ -2530,7 +2530,7 @@ struct anonymous$15
   signed int ping_delay;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // key_states
   signed int key_states[6l];
@@ -2542,7 +2542,7 @@ struct anonymous$5
   unsigned int checksum;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // decal_for_dir
   signed int decal_for_dir : 8;
@@ -2550,7 +2550,7 @@ struct anonymous$20
   signed int size : 24;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // dir
   signed int dir : 8;
@@ -2558,7 +2558,7 @@ struct anonymous$18
   signed int grad : 24;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // x
   signed short int x;
@@ -2566,7 +2566,7 @@ struct anonymous$16
   signed short int y;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // x
   signed short int x;
@@ -2580,37 +2580,37 @@ struct anonymous$21
   char last_dir;
 };
 
-union anonymous$17
+union anonymous_17
 {
   // time
   signed int time;
   // cursor
-  struct anonymous$16 cursor;
+  struct anonymous_16 cursor;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // update
-  union anonymous$17 update;
+  union anonymous_17 update;
   // state
-  struct anonymous$18 state;
+  struct anonymous_18 state;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // x
   signed short int x;
   // y
   signed short int y;
   // side
-  struct anonymous$20 side;
+  struct anonymous_20 side;
   // info
-  struct anonymous$19 info[6l];
+  struct anonymous_19 info[6l];
   // link
   void *link[12l];
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // active
   signed int active;
@@ -2628,7 +2628,7 @@ struct anonymous$8
   char name[11l];
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // active
   signed int active;
@@ -2638,7 +2638,7 @@ struct anonymous$12
   char name[11l];
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // argc
   signed int argc;
@@ -2648,7 +2648,7 @@ struct anonymous$6
   char **argv;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // cursor_increase_speed
   signed int cursor_increase_speed;
@@ -2674,15 +2674,15 @@ struct anonymous$4
   signed int min_map_res;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // n
   signed int n;
   // messages
-  struct anonymous$24 messages[20l];
+  struct anonymous_24 messages[20l];
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // sock
   signed int sock;
@@ -2698,7 +2698,7 @@ struct anonymous$9
   signed int result;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // sock
   signed int sock;
@@ -2716,12 +2716,12 @@ struct anonymous$7
   signed int result;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // sock
   signed int sock;
   // team_start_info
-  struct anonymous$12 team_start_info[6l];
+  struct anonymous_12 team_start_info[6l];
   // waited_teams
   signed int waited_teams;
   // start
@@ -2737,12 +2737,12 @@ struct anonymous$25
   // chat_buffer
   char chat_buffer[81l];
   // chat_history
-  struct anonymous$13 chat_history;
+  struct anonymous_13 chat_history;
   // chat_send
   signed int chat_send;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // start
   signed int start;
@@ -2752,7 +2752,7 @@ struct anonymous$11
   signed int total_time;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // val
   signed int val;
@@ -2780,7 +2780,7 @@ struct anonymous$23
   char name[11l];
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // x
   signed int x;
@@ -2804,7 +2804,7 @@ struct anonymous
   signed int corres;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __size
   char __size[4l];
@@ -2840,7 +2840,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -3411,7 +3411,7 @@ struct MIDI
   // divisions
   signed int divisions;
   // track
-  struct anonymous$26 track[32l];
+  struct anonymous_26 track[32l];
 };
 
 struct MIDI_DRIVER
@@ -4042,7 +4042,7 @@ signed int CONFIG_WAVE_ON;
 signed int CONFIG_WAVE_SPEED[4l];
 // CURRENT_AREA
 // file area.c line 64
-struct anonymous$22 *CURRENT_AREA = (struct anonymous$22 *)(void *)0;
+struct anonymous_22 *CURRENT_AREA = (struct anonymous_22 *)(void *)0;
 // CURRENT_AREA_BACK
 // file mesh.c line 91
 struct BITMAP *CURRENT_AREA_BACK = (struct BITMAP *)(void *)0;
@@ -4057,16 +4057,16 @@ signed int CURRENT_AREA_H = 0;
 signed int CURRENT_AREA_W = 0;
 // CURRENT_ARMY
 // file army.c line 75
-struct anonymous$21 *CURRENT_ARMY = (struct anonymous$21 *)(void *)0;
+struct anonymous_21 *CURRENT_ARMY = (struct anonymous_21 *)(void *)0;
 // CURRENT_ARMY_SIZE
 // file army.c line 76
 signed int CURRENT_ARMY_SIZE = 0;
 // CURRENT_CURSOR
 // file cursor.c line 75
-struct anonymous$23 CURRENT_CURSOR[6l];
+struct anonymous_23 CURRENT_CURSOR[6l];
 // CURRENT_MESH
 // file mesh.c line 86
-struct anonymous$0 *CURRENT_MESH = (struct anonymous$0 *)(void *)0;
+struct anonymous_0 *CURRENT_MESH = (struct anonymous_0 *)(void *)0;
 // CURRENT_MESH_SIZE
 // file mesh.c line 87
 signed int CURRENT_MESH_SIZE = 0;
@@ -4081,7 +4081,7 @@ static char CURSOR_COLOR_MAP[32l];
 static char CURSOR_GRAPHIC_MEMORY[6l][68l];
 // CURSOR_LAYOUT
 // file pion.c line 97
-static struct anonymous$10 CURSOR_LAYOUT[68l] = { { .x=0, .y=-3, .color=0, .row=0 }, { .x=0, .y=-4, .color=0, .row=2 }, { .x=0, .y=-5, .color=0, .row=3 }, { .x=1, .y=-4, .color=1, .row=1 }, { .x=1, .y=-5, .color=1, .row=3 }, { .x=1, .y=-3, .color=2, .row=0 }, { .x=2, .y=-4, .color=2, .row=3 }, { .x=2, .y=-3, .color=3, .row=1 }, { .x=3, .y=-4, .color=3, .row=3 }, { .x=2, .y=-2, .color=4, .row=0 }, { .x=3, .y=-3, .color=4, .row=2 }, { .x=3, .y=-2, .color=5, .row=1 }, { .x=4, .y=-3, .color=5, .row=3 }, { .x=3, .y=-1, .color=6, .row=0 }, { .x=4, .y=-2, .color=6, .row=3 }, { .x=4, .y=-1, .color=7, .row=1 }, { .x=5, .y=-1, .color=7, .row=3 }, { .x=3, .y=0, .color=8, .row=0 }, { .x=4, .y=0, .color=8, .row=2 }, { .x=5, .y=0, .color=8, .row=3 }, { .x=4, .y=1, .color=9, .row=1 }, { .x=5, .y=1, .color=9, .row=3 }, { .x=3, .y=1, .color=10, .row=0 }, { .x=4, .y=2, .color=10, .row=3 }, { .x=3, .y=2, .color=11, .row=1 }, { .x=4, .y=3, .color=11, .row=3 }, { .x=2, .y=2, .color=12, .row=0 }, { .x=3, .y=3, .color=12, .row=2 }, { .x=2, .y=3, .color=13, .row=1 }, { .x=3, .y=4, .color=13, .row=3 }, { .x=1, .y=3, .color=14, .row=0 }, { .x=2, .y=4, .color=14, .row=3 }, { .x=1, .y=4, .color=15, .row=1 }, { .x=1, .y=5, .color=15, .row=3 }, { .x=-0, .y=3, .color=16, .row=0 }, { .x=-0, .y=4, .color=16, .row=2 }, { .x=-0, .y=5, .color=16, .row=3 }, { .x=-1, .y=4, .color=17, .row=1 }, { .x=-1, .y=5, .color=17, .row=3 }, { .x=-1, .y=3, .color=18, .row=0 }, { .x=-2, .y=4, .color=18, .row=3 }, { .x=-2, .y=3, .color=19, .row=1 }, { .x=-3, .y=4, .color=19, .row=3 }, { .x=-2, .y=2, .color=20, .row=0 }, { .x=-3, .y=3, .color=20, .row=2 }, { .x=-3, .y=2, .color=21, .row=1 }, { .x=-4, .y=3, .color=21, .row=3 }, { .x=-3, .y=1, .color=22, .row=0 }, { .x=-4, .y=2, .color=22, .row=3 }, { .x=-4, .y=1, .color=23, .row=1 }, { .x=-5, .y=1, .color=23, .row=3 }, { .x=-3, .y=-0, .color=8, .row=0 }, { .x=-4, .y=-0, .color=24, .row=2 }, { .x=-5, .y=-0, .color=25, .row=3 }, { .x=-4, .y=-1, .color=25, .row=1 }, { .x=-5, .y=-1, .color=26, .row=3 }, { .x=-3, .y=-1, .color=10, .row=0 }, { .x=-4, .y=-2, .color=27, .row=3 }, { .x=-3, .y=-2, .color=27, .row=1 }, { .x=-4, .y=-3, .color=28, .row=3 }, { .x=-2, .y=-2, .color=12, .row=0 }, { .x=-3, .y=-3, .color=28, .row=2 }, { .x=-2, .y=-3, .color=29, .row=1 }, { .x=-3, .y=-4, .color=29, .row=3 }, { .x=-1, .y=-3, .color=14, .row=0 }, { .x=-2, .y=-4, .color=30, .row=3 }, { .x=-1, .y=-4, .color=31, .row=1 }, { .x=-1, .y=-5, .color=31, .row=3 } };
+static struct anonymous_10 CURSOR_LAYOUT[68l] = { { .x=0, .y=-3, .color=0, .row=0 }, { .x=0, .y=-4, .color=0, .row=2 }, { .x=0, .y=-5, .color=0, .row=3 }, { .x=1, .y=-4, .color=1, .row=1 }, { .x=1, .y=-5, .color=1, .row=3 }, { .x=1, .y=-3, .color=2, .row=0 }, { .x=2, .y=-4, .color=2, .row=3 }, { .x=2, .y=-3, .color=3, .row=1 }, { .x=3, .y=-4, .color=3, .row=3 }, { .x=2, .y=-2, .color=4, .row=0 }, { .x=3, .y=-3, .color=4, .row=2 }, { .x=3, .y=-2, .color=5, .row=1 }, { .x=4, .y=-3, .color=5, .row=3 }, { .x=3, .y=-1, .color=6, .row=0 }, { .x=4, .y=-2, .color=6, .row=3 }, { .x=4, .y=-1, .color=7, .row=1 }, { .x=5, .y=-1, .color=7, .row=3 }, { .x=3, .y=0, .color=8, .row=0 }, { .x=4, .y=0, .color=8, .row=2 }, { .x=5, .y=0, .color=8, .row=3 }, { .x=4, .y=1, .color=9, .row=1 }, { .x=5, .y=1, .color=9, .row=3 }, { .x=3, .y=1, .color=10, .row=0 }, { .x=4, .y=2, .color=10, .row=3 }, { .x=3, .y=2, .color=11, .row=1 }, { .x=4, .y=3, .color=11, .row=3 }, { .x=2, .y=2, .color=12, .row=0 }, { .x=3, .y=3, .color=12, .row=2 }, { .x=2, .y=3, .color=13, .row=1 }, { .x=3, .y=4, .color=13, .row=3 }, { .x=1, .y=3, .color=14, .row=0 }, { .x=2, .y=4, .color=14, .row=3 }, { .x=1, .y=4, .color=15, .row=1 }, { .x=1, .y=5, .color=15, .row=3 }, { .x=-0, .y=3, .color=16, .row=0 }, { .x=-0, .y=4, .color=16, .row=2 }, { .x=-0, .y=5, .color=16, .row=3 }, { .x=-1, .y=4, .color=17, .row=1 }, { .x=-1, .y=5, .color=17, .row=3 }, { .x=-1, .y=3, .color=18, .row=0 }, { .x=-2, .y=4, .color=18, .row=3 }, { .x=-2, .y=3, .color=19, .row=1 }, { .x=-3, .y=4, .color=19, .row=3 }, { .x=-2, .y=2, .color=20, .row=0 }, { .x=-3, .y=3, .color=20, .row=2 }, { .x=-3, .y=2, .color=21, .row=1 }, { .x=-4, .y=3, .color=21, .row=3 }, { .x=-3, .y=1, .color=22, .row=0 }, { .x=-4, .y=2, .color=22, .row=3 }, { .x=-4, .y=1, .color=23, .row=1 }, { .x=-5, .y=1, .color=23, .row=3 }, { .x=-3, .y=-0, .color=8, .row=0 }, { .x=-4, .y=-0, .color=24, .row=2 }, { .x=-5, .y=-0, .color=25, .row=3 }, { .x=-4, .y=-1, .color=25, .row=1 }, { .x=-5, .y=-1, .color=26, .row=3 }, { .x=-3, .y=-1, .color=10, .row=0 }, { .x=-4, .y=-2, .color=27, .row=3 }, { .x=-3, .y=-2, .color=27, .row=1 }, { .x=-4, .y=-3, .color=28, .row=3 }, { .x=-2, .y=-2, .color=12, .row=0 }, { .x=-3, .y=-3, .color=28, .row=2 }, { .x=-2, .y=-3, .color=29, .row=1 }, { .x=-3, .y=-4, .color=29, .row=3 }, { .x=-1, .y=-3, .color=14, .row=0 }, { .x=-2, .y=-4, .color=30, .row=3 }, { .x=-1, .y=-4, .color=31, .row=1 }, { .x=-1, .y=-5, .color=31, .row=3 } };
 // CUSTOM_MAP_OK
 // file disk.c line 117
 static signed int CUSTOM_MAP_OK = 0;
@@ -4181,7 +4181,7 @@ signed int GFX_MODE_W[5l] = { 320, 512, 640, 800, 1024 };
 signed int GLOBAL_CLOCK = 0;
 // GLOBAL_CONNECT_DATA
 // file connect.c line 108
-struct anonymous$25 GLOBAL_CONNECT_DATA;
+struct anonymous_25 GLOBAL_CONNECT_DATA;
 // GLOBAL_PALETTE
 // file palette.c line 75
 struct RGB GLOBAL_PALETTE[256l];
@@ -4325,13 +4325,13 @@ signed int LOGIC_DELAY_MIN[9l] = { 0, 1, 2, 5, 10, 15, 20, 33, 50 };
 static signed int LOGIC_NUMBER;
 // LOG_MUTEX
 // file logcli.c line 90
-static struct anonymous$1 LOG_MUTEX = { .data=(void *)0 };
+static struct anonymous_1 LOG_MUTEX = { .data=(void *)0 };
 // LW_CAPTURE_MODE
 // file capture.c line 79
 static signed int LW_CAPTURE_MODE = 0;
 // LW_CONFIG_CURRENT_RULES
 // file config.c line 173
-struct anonymous$4 LW_CONFIG_CURRENT_RULES;
+struct anonymous_4 LW_CONFIG_CURRENT_RULES;
 // LW_EXIT_FORCE_SHUTDOWN
 // file exit.c line 84
 static signed int LW_EXIT_FORCE_SHUTDOWN = 0;
@@ -4364,7 +4364,7 @@ signed int LW_LOG_BEEP = 1;
 signed int LW_NETWORK_ERROR_DETECTED = 0;
 // LW_NETWORK_INFO
 // file network.c line 75
-struct anonymous$8 LW_NETWORK_INFO[6l];
+struct anonymous_8 LW_NETWORK_INFO[6l];
 // LW_NETWORK_ON
 // file network.c line 74
 signed int LW_NETWORK_ON = 0;
@@ -4457,7 +4457,7 @@ signed int PAUSE_ON = 0;
 signed int PLAYING_TEAMS = 0;
 // PROFILE_DATA
 // file profile.c line 78
-static struct anonymous$11 PROFILE_DATA[256l];
+static struct anonymous_11 PROFILE_DATA[256l];
 // RAW_MAP
 // file disk.c line 99
 void *RAW_MAP[1024l];
@@ -4745,7 +4745,7 @@ extern volatile signed int key_shifts;
 extern struct KEYBOARD_DRIVER *keyboard_driver;
 // list_data
 // file internet.c line 89
-static struct anonymous$15 *list_data = (struct anonymous$15 *)(void *)0;
+static struct anonymous_15 *list_data = (struct anonymous_15 *)(void *)0;
 // list_size
 // file internet.c line 90
 static signed int *list_size = (signed int *)(void *)0;
@@ -4802,18 +4802,18 @@ static inline void _allegro_hline(struct BITMAP *bmp, signed int x1, signed int 
   bmp->vtable->hline(bmp, x1, y, x2, color);
 }
 
-// _allegro_hline$link1
+// _allegro_hline_link1
 // file /usr/include/allegro/inline/draw.inl line 54
-static inline void _allegro_hline$link1(struct BITMAP *bmp$link1, signed int x1$link1, signed int y$link1, signed int x2$link1, signed int color$link1)
+static inline void _allegro_hline_link1(struct BITMAP *bmp_link1, signed int x1_link1, signed int y_link1, signed int x2_link1, signed int color_link1)
 {
-  bmp$link1->vtable->hline(bmp$link1, x1$link1, y$link1, x2$link1, color$link1);
+  bmp_link1->vtable->hline(bmp_link1, x1_link1, y_link1, x2_link1, color_link1);
 }
 
-// _allegro_hline$link2
+// _allegro_hline_link2
 // file /usr/include/allegro/inline/draw.inl line 54
-static inline void _allegro_hline$link2(struct BITMAP *bmp$link2, signed int x1$link2, signed int y$link2, signed int x2$link2, signed int color$link2)
+static inline void _allegro_hline_link2(struct BITMAP *bmp_link2, signed int x1_link2, signed int y_link2, signed int x2_link2, signed int color_link2)
 {
-  bmp$link2->vtable->hline(bmp$link2, x1$link2, y$link2, x2$link2, color$link2);
+  bmp_link2->vtable->hline(bmp_link2, x1_link2, y_link2, x2_link2, color_link2);
 }
 
 // _allegro_vline
@@ -4823,39 +4823,39 @@ static inline void _allegro_vline(struct BITMAP *bmp, signed int x, signed int y
   bmp->vtable->vline(bmp, x, y_1, y2, color);
 }
 
-// _allegro_vline$link1
+// _allegro_vline_link1
 // file /usr/include/allegro/inline/draw.inl line 46
-static inline void _allegro_vline$link1(struct BITMAP *bmp$link1, signed int x$link1, signed int y_1$link1, signed int y2$link1, signed int color$link1)
+static inline void _allegro_vline_link1(struct BITMAP *bmp_link1, signed int x_link1, signed int y_1_link1, signed int y2_link1, signed int color_link1)
 {
-  bmp$link1->vtable->vline(bmp$link1, x$link1, y_1$link1, y2$link1, color$link1);
+  bmp_link1->vtable->vline(bmp_link1, x_link1, y_1_link1, y2_link1, color_link1);
 }
 
-// _allegro_vline$link2
+// _allegro_vline_link2
 // file /usr/include/allegro/inline/draw.inl line 46
-static inline void _allegro_vline$link2(struct BITMAP *bmp$link2, signed int x$link2, signed int y_1$link2, signed int y2$link2, signed int color$link2)
+static inline void _allegro_vline_link2(struct BITMAP *bmp_link2, signed int x_link2, signed int y_1_link2, signed int y2_link2, signed int color_link2)
 {
-  bmp$link2->vtable->vline(bmp$link2, x$link2, y_1$link2, y2$link2, color$link2);
+  bmp_link2->vtable->vline(bmp_link2, x_link2, y_1_link2, y2_link2, color_link2);
 }
 
-// _allegro_vline$link3
+// _allegro_vline_link3
 // file /usr/include/allegro/inline/draw.inl line 46
-static inline void _allegro_vline$link3(struct BITMAP *bmp$link3, signed int x$link3, signed int y_1$link3, signed int y2$link3, signed int color$link3)
+static inline void _allegro_vline_link3(struct BITMAP *bmp_link3, signed int x_link3, signed int y_1_link3, signed int y2_link3, signed int color_link3)
 {
-  bmp$link3->vtable->vline(bmp$link3, x$link3, y_1$link3, y2$link3, color$link3);
+  bmp_link3->vtable->vline(bmp_link3, x_link3, y_1_link3, y2_link3, color_link3);
 }
 
 // add_fighter
 // file army.c line 97
-static signed int add_fighter(struct anonymous$21 *f, signed int team, signed int x, signed int y, signed int health)
+static signed int add_fighter(struct anonymous_21 *f, signed int team, signed int x, signed int y, signed int health)
 {
   signed int j = y * CURRENT_AREA_W + x;
-  _Bool tmp_if_expr$1;
-  if(!((CURRENT_AREA + (signed long int)j)->mesh == ((struct anonymous$0 *)NULL)))
-    tmp_if_expr$1 = !((CURRENT_AREA + (signed long int)j)->fighter != ((struct anonymous$21 *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!((CURRENT_AREA + (signed long int)j)->mesh == ((struct anonymous_0 *)NULL)))
+    tmp_if_expr_1 = !((CURRENT_AREA + (signed long int)j)->fighter != ((struct anonymous_21 *)NULL)) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     (CURRENT_AREA + (signed long int)j)->fighter = f;
     f->health = (signed short int)health;
@@ -4897,30 +4897,30 @@ signed int advanced_options(void)
   d[(signed long int)18].proc = d[(signed long int)19].proc;
   d[(signed long int)17].proc = d[(signed long int)18].proc;
   quick_buttons(d);
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(62);
-  d[(signed long int)4].dp = (void *)return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
-  return_value_lw_lang_string$2=lw_lang_string(63);
-  d[(signed long int)5].dp = (void *)return_value_lw_lang_string$2;
-  char *return_value_lw_lang_string$3;
-  return_value_lw_lang_string$3=lw_lang_string(64);
-  d[(signed long int)6].dp = (void *)return_value_lw_lang_string$3;
-  char *return_value_lw_lang_string$4;
-  return_value_lw_lang_string$4=lw_lang_string(65);
-  d[(signed long int)7].dp = (void *)return_value_lw_lang_string$4;
-  char *return_value_lw_lang_string$5;
-  return_value_lw_lang_string$5=lw_lang_string(66);
-  d[(signed long int)8].dp = (void *)return_value_lw_lang_string$5;
-  char *return_value_lw_lang_string$6;
-  return_value_lw_lang_string$6=lw_lang_string(67);
-  d[(signed long int)9].dp = (void *)return_value_lw_lang_string$6;
-  char *return_value_lw_lang_string$7;
-  return_value_lw_lang_string$7=lw_lang_string(74);
-  d[(signed long int)10].dp = (void *)return_value_lw_lang_string$7;
-  char *return_value_lw_lang_string$8;
-  return_value_lw_lang_string$8=lw_lang_string(71);
-  d[(signed long int)11].dp = (void *)return_value_lw_lang_string$8;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(62);
+  d[(signed long int)4].dp = (void *)return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
+  return_value_lw_lang_string_2=lw_lang_string(63);
+  d[(signed long int)5].dp = (void *)return_value_lw_lang_string_2;
+  char *return_value_lw_lang_string_3;
+  return_value_lw_lang_string_3=lw_lang_string(64);
+  d[(signed long int)6].dp = (void *)return_value_lw_lang_string_3;
+  char *return_value_lw_lang_string_4;
+  return_value_lw_lang_string_4=lw_lang_string(65);
+  d[(signed long int)7].dp = (void *)return_value_lw_lang_string_4;
+  char *return_value_lw_lang_string_5;
+  return_value_lw_lang_string_5=lw_lang_string(66);
+  d[(signed long int)8].dp = (void *)return_value_lw_lang_string_5;
+  char *return_value_lw_lang_string_6;
+  return_value_lw_lang_string_6=lw_lang_string(67);
+  d[(signed long int)9].dp = (void *)return_value_lw_lang_string_6;
+  char *return_value_lw_lang_string_7;
+  return_value_lw_lang_string_7=lw_lang_string(74);
+  d[(signed long int)10].dp = (void *)return_value_lw_lang_string_7;
+  char *return_value_lw_lang_string_8;
+  return_value_lw_lang_string_8=lw_lang_string(71);
+  d[(signed long int)11].dp = (void *)return_value_lw_lang_string_8;
   d[(signed long int)15].d1 = 16;
   d[(signed long int)14].d1 = d[(signed long int)15].d1;
   d[(signed long int)13].d1 = d[(signed long int)14].d1;
@@ -4931,15 +4931,15 @@ signed int advanced_options(void)
   d[(signed long int)14].dp3 = (void *)&CONFIG_FIGHTER_NEW_HEALTH;
   d[(signed long int)15].dp3 = (void *)&CONFIG_NUMBER_INFLUENCE;
   d[(signed long int)16].dp3 = (void *)&CONFIG_CPU_ADVANTAGE;
-  char *return_value_get_cpu_vs_human_str$9;
-  return_value_get_cpu_vs_human_str$9=get_cpu_vs_human_str();
-  d[(signed long int)17].dp = (void *)return_value_get_cpu_vs_human_str$9;
-  char *return_value_get_allow_network_bots_str$10;
-  return_value_get_allow_network_bots_str$10=get_allow_network_bots_str();
-  d[(signed long int)18].dp = (void *)return_value_get_allow_network_bots_str$10;
-  char *return_value_get_asm_algorithm_str$11;
-  return_value_get_asm_algorithm_str$11=get_asm_algorithm_str();
-  d[(signed long int)19].dp = (void *)return_value_get_asm_algorithm_str$11;
+  char *return_value_get_cpu_vs_human_str_9;
+  return_value_get_cpu_vs_human_str_9=get_cpu_vs_human_str();
+  d[(signed long int)17].dp = (void *)return_value_get_cpu_vs_human_str_9;
+  char *return_value_get_allow_network_bots_str_10;
+  return_value_get_allow_network_bots_str_10=get_allow_network_bots_str();
+  d[(signed long int)18].dp = (void *)return_value_get_allow_network_bots_str_10;
+  char *return_value_get_asm_algorithm_str_11;
+  return_value_get_asm_algorithm_str_11=get_asm_algorithm_str();
+  d[(signed long int)19].dp = (void *)return_value_get_asm_algorithm_str_11;
   i = 12;
   for( ; !(i >= 17); i = i + 1)
   {
@@ -4988,9 +4988,9 @@ signed int advanced_options(void)
 
     __CPROVER_DUMP_L10:
       ;
-      signed int return_value_confirm_quit$12;
-      return_value_confirm_quit$12=confirm_quit();
-      if(!(return_value_confirm_quit$12 == 0))
+      signed int return_value_confirm_quit_12;
+      return_value_confirm_quit_12=confirm_quit();
+      if(!(return_value_confirm_quit_12 == 0))
         retour = -2;
 
       continue;
@@ -5003,9 +5003,9 @@ signed int advanced_options(void)
     __CPROVER_DUMP_L13:
       ;
       CONFIG_CPU_VS_HUMAN = (CONFIG_CPU_VS_HUMAN + 1) % 3;
-      char *return_value_get_cpu_vs_human_str$13;
-      return_value_get_cpu_vs_human_str$13=get_cpu_vs_human_str();
-      d[(signed long int)17].dp = (void *)return_value_get_cpu_vs_human_str$13;
+      char *return_value_get_cpu_vs_human_str_13;
+      return_value_get_cpu_vs_human_str_13=get_cpu_vs_human_str();
+      d[(signed long int)17].dp = (void *)return_value_get_cpu_vs_human_str_13;
       scare_mouse();
       my_button_proc(3, d + (signed long int)17, 0);
       unscare_mouse();
@@ -5014,9 +5014,9 @@ signed int advanced_options(void)
     __CPROVER_DUMP_L14:
       ;
       CONFIG_ALLOW_NETWORK_BOTS = CONFIG_ALLOW_NETWORK_BOTS != 0 ? 0 : 1;
-      char *return_value_get_allow_network_bots_str$14;
-      return_value_get_allow_network_bots_str$14=get_allow_network_bots_str();
-      d[(signed long int)18].dp = (void *)return_value_get_allow_network_bots_str$14;
+      char *return_value_get_allow_network_bots_str_14;
+      return_value_get_allow_network_bots_str_14=get_allow_network_bots_str();
+      d[(signed long int)18].dp = (void *)return_value_get_allow_network_bots_str_14;
       scare_mouse();
       my_button_proc(3, d + (signed long int)18, 0);
       unscare_mouse();
@@ -5025,9 +5025,9 @@ signed int advanced_options(void)
     __CPROVER_DUMP_L15:
       ;
       CONFIG_ASM_ALGORITHM = CONFIG_ASM_ALGORITHM != 0 ? 0 : 1;
-      char *return_value_get_asm_algorithm_str$15;
-      return_value_get_asm_algorithm_str$15=get_asm_algorithm_str();
-      d[(signed long int)19].dp = (void *)return_value_get_asm_algorithm_str$15;
+      char *return_value_get_asm_algorithm_str_15;
+      return_value_get_asm_algorithm_str_15=get_asm_algorithm_str();
+      d[(signed long int)19].dp = (void *)return_value_get_asm_algorithm_str_15;
       scare_mouse();
       my_button_proc(3, d + (signed long int)19, 0);
       unscare_mouse();
@@ -5046,7 +5046,7 @@ void apply_all_cursor(void)
   signed int i;
   signed int x;
   signed int y;
-  struct anonymous$0 *temp;
+  struct anonymous_0 *temp;
   i = 0;
   for( ; !(i >= 6); i = i + 1)
     if(!(CURRENT_CURSOR[(signed long int)i].active == 0))
@@ -5054,7 +5054,7 @@ void apply_all_cursor(void)
       x = CURRENT_CURSOR[(signed long int)i].x;
       y = CURRENT_CURSOR[(signed long int)i].y;
       temp = (CURRENT_AREA + (signed long int)(y * CURRENT_AREA_W + x))->mesh;
-      if(!(temp == ((struct anonymous$0 *)NULL)))
+      if(!(temp == ((struct anonymous_0 *)NULL)))
         temp->info[(signed long int)CURRENT_CURSOR[(signed long int)i].team].state.grad = CURRENT_CURSOR[(signed long int)i].val;
 
     }
@@ -5079,45 +5079,45 @@ static signed int ascii_hexa_to_int(char src)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1)
+static inline signed int atoi_link1(const char *__nptr_link1)
 {
-  signed long int return_value_strtol$1$link1;
-  return_value_strtol$1$link1=strtol(__nptr$link1, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1;
+  signed long int return_value_strtol_1_link1;
+  return_value_strtol_1_link1=strtol(__nptr_link1, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1;
 }
 
-// atoi$link2
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2)
+static inline signed int atoi_link2(const char *__nptr_link2)
 {
-  signed long int return_value_strtol$1$link2;
-  return_value_strtol$1$link2=strtol(__nptr$link2, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link2;
+  signed long int return_value_strtol_1_link2;
+  return_value_strtol_1_link2=strtol(__nptr_link2, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link2;
 }
 
-// atoi$link3
+// atoi_link3
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link3(const char *__nptr$link3)
+static inline signed int atoi_link3(const char *__nptr_link3)
 {
-  signed long int return_value_strtol$1$link3;
-  return_value_strtol$1$link3=strtol(__nptr$link3, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link3;
+  signed long int return_value_strtol_1_link3;
+  return_value_strtol_1_link3=strtol(__nptr_link3, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link3;
 }
 
-// atoi$link4
+// atoi_link4
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link4(const char *__nptr$link4)
+static inline signed int atoi_link4(const char *__nptr_link4)
 {
-  signed long int return_value_strtol$1$link4;
-  return_value_strtol$1$link4=strtol(__nptr$link4, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link4;
+  signed long int return_value_strtol_1_link4;
+  return_value_strtol_1_link4=strtol(__nptr_link4, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link4;
 }
 
 // auto_cursor
@@ -5159,7 +5159,7 @@ void auto_cursor(signed int index, signed int team, char *name)
   {
     x = x_min;
     for( ; ok == 0 && x_max >= x; x = x + 1)
-      if(!((CURRENT_AREA + (signed long int)(CURRENT_AREA_W * y + x))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)(CURRENT_AREA_W * y + x))->mesh == ((struct anonymous_0 *)NULL)))
       {
         ok = 1;
         x0 = x;
@@ -5171,7 +5171,7 @@ void auto_cursor(signed int index, signed int team, char *name)
 
     y = y_min;
     for( ; ok == 0 && y_max >= y; y = y + 1)
-      if(!((CURRENT_AREA + (signed long int)(CURRENT_AREA_W * y + x))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)(CURRENT_AREA_W * y + x))->mesh == ((struct anonymous_0 *)NULL)))
       {
         ok = 1;
         x0 = x;
@@ -5183,7 +5183,7 @@ void auto_cursor(signed int index, signed int team, char *name)
 
     x = x_max;
     for( ; ok == 0 && x >= x_min; x = x - 1)
-      if(!((CURRENT_AREA + (signed long int)(CURRENT_AREA_W * y + x))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)(CURRENT_AREA_W * y + x))->mesh == ((struct anonymous_0 *)NULL)))
       {
         ok = 1;
         x0 = x;
@@ -5195,7 +5195,7 @@ void auto_cursor(signed int index, signed int team, char *name)
 
     y = y_max;
     for( ; ok == 0 && y >= y_min; y = y - 1)
-      if(!((CURRENT_AREA + (signed long int)(CURRENT_AREA_W * y + x))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)(CURRENT_AREA_W * y + x))->mesh == ((struct anonymous_0 *)NULL)))
       {
         ok = 1;
         x0 = x;
@@ -5220,9 +5220,9 @@ static inline signed int bitmap_color_depth(struct BITMAP *bmp)
 // file game.c line 459
 signed int blank_round(void)
 {
-  struct BITMAP *return_value_page_flip$1;
-  return_value_page_flip$1=page_flip();
-  if(!(return_value_page_flip$1 == ((struct BITMAP *)NULL)))
+  struct BITMAP *return_value_page_flip_1;
+  return_value_page_flip_1=page_flip();
+  if(!(return_value_page_flip_1 == ((struct BITMAP *)NULL)))
   {
     init_distorsion_displayer();
     display_back_image();
@@ -5302,17 +5302,17 @@ static void box_for_choose_map(void)
     d[(signed long int)i].w = d[(signed long int)i].w + 2;
     d[(signed long int)i].h = d[(signed long int)i].h + 2;
   }
-  signed int return_value_lw_maptex_is_custom_texture_used$1;
-  return_value_lw_maptex_is_custom_texture_used$1=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
-  if(!(return_value_lw_maptex_is_custom_texture_used$1 == 0))
+  signed int return_value_lw_maptex_is_custom_texture_used_1;
+  return_value_lw_maptex_is_custom_texture_used_1=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
+  if(!(return_value_lw_maptex_is_custom_texture_used_1 == 0))
   {
     d[(signed long int)4].flags = d[(signed long int)4].flags | 16;
     d[(signed long int)1].flags = d[(signed long int)4].flags;
   }
 
-  signed int return_value_lw_maptex_is_custom_texture_used$2;
-  return_value_lw_maptex_is_custom_texture_used$2=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_BG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
-  if(!(return_value_lw_maptex_is_custom_texture_used$2 == 0))
+  signed int return_value_lw_maptex_is_custom_texture_used_2;
+  return_value_lw_maptex_is_custom_texture_used_2=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_BG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
+  if(!(return_value_lw_maptex_is_custom_texture_used_2 == 0))
   {
     d[(signed long int)5].flags = d[(signed long int)5].flags | 16;
     d[(signed long int)2].flags = d[(signed long int)5].flags;
@@ -5354,8 +5354,8 @@ static signed int calc_real_texture_number(signed int num, signed int texture, s
   signed int real_texture;
   *found = 0;
   real_texture = texture;
-  _Bool tmp_if_expr$1;
-  signed int tmp_statement_expression$2;
+  _Bool tmp_if_expr_1;
+  signed int tmp_statement_expression_2;
   if(!(use_default_texture == 0))
   {
     map_name=lw_map_get_system_name(num, network, random);
@@ -5363,21 +5363,21 @@ static signed int calc_real_texture_number(signed int num, signed int texture, s
     do
     {
       if(!(i >= 128 + RAW_MAPTEX_NUMBER + RAW_TEXTURE_NUMBER))
-        tmp_if_expr$1 = !(*found != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = !(*found != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      char *return_value_lw_texture_get_system_name$3;
-      return_value_lw_texture_get_system_name$3=lw_texture_get_system_name(i);
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(map_name, return_value_lw_texture_get_system_name$3);
-      tmp_statement_expression$2 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$2 == 0)
+      char *return_value_lw_texture_get_system_name_3;
+      return_value_lw_texture_get_system_name_3=lw_texture_get_system_name(i);
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(map_name, return_value_lw_texture_get_system_name_3);
+      tmp_statement_expression_2 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_2 == 0)
       {
         *found = 1;
         real_texture = i;
@@ -5424,8 +5424,8 @@ static void calculate_computer_path(signed int dst_x, signed int dst_y, signed i
   signed int y;
   signed int dx;
   signed int dy;
-  struct anonymous$0 *path_mesh;
-  struct anonymous$0 *src_mesh;
+  struct anonymous_0 *path_mesh;
+  struct anonymous_0 *src_mesh;
   signed int sens;
   signed int start;
   signed int table = GLOBAL_CLOCK % 2;
@@ -5439,7 +5439,7 @@ static void calculate_computer_path(signed int dst_x, signed int dst_y, signed i
   start = 0;
   sens = start;
   pos = sens;
-  while(!(path_mesh == ((struct anonymous$0 *)NULL)) && !(path_mesh == src_mesh) && !(pos >= 1024))
+  while(!(path_mesh == ((struct anonymous_0 *)NULL)) && !(path_mesh == src_mesh) && !(pos >= 1024))
   {
     dir=get_main_dir(path_mesh, team, sens, start);
     dx = FIGHTER_MOVE_X[(signed long int)table][(signed long int)dir][(signed long int)0];
@@ -5447,7 +5447,7 @@ static void calculate_computer_path(signed int dst_x, signed int dst_y, signed i
     dy = FIGHTER_MOVE_Y[(signed long int)table][(signed long int)dir][(signed long int)0];
     y = y + dy;
     path_mesh = (CURRENT_AREA + (signed long int)(y * CURRENT_AREA_W + x))->mesh;
-    if(!(path_mesh == ((struct anonymous$0 *)NULL)))
+    if(!(path_mesh == ((struct anonymous_0 *)NULL)))
     {
       COMPUTER_PATH_KEYS[(signed long int)cursor][(signed long int)pos] = (char)0;
       if(dy >= 1)
@@ -5530,9 +5530,9 @@ static void change_key(struct DIALOG *d, signed int *val)
   *val=wait_key_pressed();
   play_click();
   clear_keybuf();
-  char *return_value_get_key_name$1;
-  return_value_get_key_name$1=get_key_name(*val);
-  d->dp = (void *)return_value_get_key_name$1;
+  char *return_value_get_key_name_1;
+  return_value_get_key_name_1=get_key_name(*val);
+  d->dp = (void *)return_value_get_key_name_1;
 }
 
 // change_palette_brightness
@@ -5557,28 +5557,28 @@ static void change_palette_brightness(struct RGB *old_pal, struct RGB *new_pal)
       b = (signed int)rgb->b * 4;
       if(brightness >= 1)
       {
-        signed int return_value_sqrt255$1;
-        return_value_sqrt255$1=sqrt255(r);
-        r = (brightness * return_value_sqrt255$1 + (8 - brightness) * r) / 8;
-        signed int return_value_sqrt255$2;
-        return_value_sqrt255$2=sqrt255(g);
-        g = (brightness * return_value_sqrt255$2 + (8 - brightness) * g) / 8;
-        signed int return_value_sqrt255$3;
-        return_value_sqrt255$3=sqrt255(b);
-        b = (brightness * return_value_sqrt255$3 + (8 - brightness) * b) / 8;
+        signed int return_value_sqrt255_1;
+        return_value_sqrt255_1=sqrt255(r);
+        r = (brightness * return_value_sqrt255_1 + (8 - brightness) * r) / 8;
+        signed int return_value_sqrt255_2;
+        return_value_sqrt255_2=sqrt255(g);
+        g = (brightness * return_value_sqrt255_2 + (8 - brightness) * g) / 8;
+        signed int return_value_sqrt255_3;
+        return_value_sqrt255_3=sqrt255(b);
+        b = (brightness * return_value_sqrt255_3 + (8 - brightness) * b) / 8;
       }
 
       if(!(brightness >= 0))
       {
-        signed int return_value_sqr255$4;
-        return_value_sqr255$4=sqr255(r);
-        r = (-brightness * return_value_sqr255$4 + (8 + brightness) * r) / 8;
-        signed int return_value_sqr255$5;
-        return_value_sqr255$5=sqr255(g);
-        g = (-brightness * return_value_sqr255$5 + (8 + brightness) * g) / 8;
-        signed int return_value_sqr255$6;
-        return_value_sqr255$6=sqr255(b);
-        b = (-brightness * return_value_sqr255$6 + (8 + brightness) * b) / 8;
+        signed int return_value_sqr255_4;
+        return_value_sqr255_4=sqr255(r);
+        r = (-brightness * return_value_sqr255_4 + (8 + brightness) * r) / 8;
+        signed int return_value_sqr255_5;
+        return_value_sqr255_5=sqr255(g);
+        g = (-brightness * return_value_sqr255_5 + (8 + brightness) * g) / 8;
+        signed int return_value_sqr255_6;
+        return_value_sqr255_6=sqr255(b);
+        b = (-brightness * return_value_sqr255_6 + (8 + brightness) * b) / 8;
       }
 
       rgb = new_pal + (signed long int)i;
@@ -5607,17 +5607,17 @@ static void check_boolean_codes(void)
       if(!(PAUSE_ON == 0))
       {
         PAUSE_ON = 0;
-        char *return_value_lw_lang_string$1;
-        return_value_lw_lang_string$1=lw_lang_string(154);
-        message_str(return_value_lw_lang_string$1);
+        char *return_value_lw_lang_string_1;
+        return_value_lw_lang_string_1=lw_lang_string(154);
+        message_str(return_value_lw_lang_string_1);
       }
 
       else
       {
         PAUSE_ON = 1;
-        char *return_value_lw_lang_string$2;
-        return_value_lw_lang_string$2=lw_lang_string(155);
-        message_str(return_value_lw_lang_string$2);
+        char *return_value_lw_lang_string_2;
+        return_value_lw_lang_string_2=lw_lang_string(155);
+        message_str(return_value_lw_lang_string_2);
       }
     }
 
@@ -5628,38 +5628,38 @@ static void check_boolean_codes(void)
     if(!(CONFIG_WAVE_ON == 0))
     {
       CONFIG_WAVE_ON = 0;
-      char *return_value_lw_lang_string$3;
-      return_value_lw_lang_string$3=lw_lang_string(156);
-      message_str(return_value_lw_lang_string$3);
+      char *return_value_lw_lang_string_3;
+      return_value_lw_lang_string_3=lw_lang_string(156);
+      message_str(return_value_lw_lang_string_3);
     }
 
     else
     {
       CONFIG_WAVE_ON = 1;
-      char *return_value_lw_lang_string$4;
-      return_value_lw_lang_string$4=lw_lang_string(157);
-      message_str(return_value_lw_lang_string$4);
+      char *return_value_lw_lang_string_4;
+      return_value_lw_lang_string_4=lw_lang_string(157);
+      message_str(return_value_lw_lang_string_4);
     }
   }
 
   if(!(WATCHDOG_SCANCODE[55l] == 0))
   {
-    signed int return_value_lw_capture_get_mode$7;
-    return_value_lw_capture_get_mode$7=lw_capture_get_mode();
-    if(!(return_value_lw_capture_get_mode$7 == 0))
+    signed int return_value_lw_capture_get_mode_7;
+    return_value_lw_capture_get_mode_7=lw_capture_get_mode();
+    if(!(return_value_lw_capture_get_mode_7 == 0))
     {
       lw_capture_set_mode(0);
-      char *return_value_lw_lang_string$5;
-      return_value_lw_lang_string$5=lw_lang_string(158);
-      message_str(return_value_lw_lang_string$5);
+      char *return_value_lw_lang_string_5;
+      return_value_lw_lang_string_5=lw_lang_string(158);
+      message_str(return_value_lw_lang_string_5);
     }
 
     else
     {
       lw_capture_set_mode(1);
-      char *return_value_lw_lang_string$6;
-      return_value_lw_lang_string$6=lw_lang_string(159);
-      message_str(return_value_lw_lang_string$6);
+      char *return_value_lw_lang_string_6;
+      return_value_lw_lang_string_6=lw_lang_string(159);
+      message_str(return_value_lw_lang_string_6);
     }
   }
 
@@ -5717,79 +5717,79 @@ static void check_grad_to_disp(void)
   for( ; !(i >= 9); i = i + 1)
   {
     grad_codes[(signed long int)4] = (char)(48 + i);
-    signed int return_value_watchdog_is_keyword$1;
-    return_value_watchdog_is_keyword$1=watchdog_is_keyword(grad_codes);
-    if(!(return_value_watchdog_is_keyword$1 == 0))
+    signed int return_value_watchdog_is_keyword_1;
+    return_value_watchdog_is_keyword_1=watchdog_is_keyword(grad_codes);
+    if(!(return_value_watchdog_is_keyword_1 == 0))
       GRAD_TO_DISP = i;
 
   }
   if(GRAD_TO_DISP >= 1 && !(GRAD_TO_DISP >= 7) && !(PLAYING_TEAMS >= GRAD_TO_DISP))
     GRAD_TO_DISP = 0;
 
-  char *return_value_lw_lang_string$2;
-  char *return_value_lw_lang_string$3;
-  char *return_value_lw_lang_string$4;
-  char *return_value_lw_lang_string$5;
-  char *return_value_lw_lang_string$6;
-  char *return_value_lw_lang_string$7;
-  char *return_value_lw_lang_string$8;
-  char *return_value_lw_lang_string$9;
-  char *return_value_lw_lang_string$10;
+  char *return_value_lw_lang_string_2;
+  char *return_value_lw_lang_string_3;
+  char *return_value_lw_lang_string_4;
+  char *return_value_lw_lang_string_5;
+  char *return_value_lw_lang_string_6;
+  char *return_value_lw_lang_string_7;
+  char *return_value_lw_lang_string_8;
+  char *return_value_lw_lang_string_9;
+  char *return_value_lw_lang_string_10;
   if(!(old == GRAD_TO_DISP))
     switch(GRAD_TO_DISP)
     {
       case 0:
       {
-        return_value_lw_lang_string$2=lw_lang_string(145);
-        message_str(return_value_lw_lang_string$2);
+        return_value_lw_lang_string_2=lw_lang_string(145);
+        message_str(return_value_lw_lang_string_2);
         break;
       }
       case 1:
       {
-        return_value_lw_lang_string$3=lw_lang_string(146);
-        message_str(return_value_lw_lang_string$3);
+        return_value_lw_lang_string_3=lw_lang_string(146);
+        message_str(return_value_lw_lang_string_3);
         break;
       }
       case 2:
       {
-        return_value_lw_lang_string$4=lw_lang_string(147);
-        message_str(return_value_lw_lang_string$4);
+        return_value_lw_lang_string_4=lw_lang_string(147);
+        message_str(return_value_lw_lang_string_4);
         break;
       }
       case 3:
       {
-        return_value_lw_lang_string$5=lw_lang_string(148);
-        message_str(return_value_lw_lang_string$5);
+        return_value_lw_lang_string_5=lw_lang_string(148);
+        message_str(return_value_lw_lang_string_5);
         break;
       }
       case 4:
       {
-        return_value_lw_lang_string$6=lw_lang_string(149);
-        message_str(return_value_lw_lang_string$6);
+        return_value_lw_lang_string_6=lw_lang_string(149);
+        message_str(return_value_lw_lang_string_6);
         break;
       }
       case 5:
       {
-        return_value_lw_lang_string$7=lw_lang_string(150);
-        message_str(return_value_lw_lang_string$7);
+        return_value_lw_lang_string_7=lw_lang_string(150);
+        message_str(return_value_lw_lang_string_7);
         break;
       }
       case 6:
       {
-        return_value_lw_lang_string$8=lw_lang_string(151);
-        message_str(return_value_lw_lang_string$8);
+        return_value_lw_lang_string_8=lw_lang_string(151);
+        message_str(return_value_lw_lang_string_8);
         break;
       }
       case 7:
       {
-        return_value_lw_lang_string$9=lw_lang_string(152);
-        message_str(return_value_lw_lang_string$9);
+        return_value_lw_lang_string_9=lw_lang_string(152);
+        message_str(return_value_lw_lang_string_9);
         break;
       }
       case 8:
       {
-        return_value_lw_lang_string$10=lw_lang_string(153);
-        message_str(return_value_lw_lang_string$10);
+        return_value_lw_lang_string_10=lw_lang_string(153);
+        message_str(return_value_lw_lang_string_10);
       }
     }
 
@@ -5805,21 +5805,21 @@ static signed int check_if_playable(struct BITMAP *bmp)
   signed int y0;
   signed int unplayable = 0;
   signed int playable_place = 0;
-  hline$link2(bmp, 0, 0, bmp->w - 1, 0);
-  hline$link2(bmp, 0, bmp->h - 1, bmp->w - 1, 0);
-  vline$link2(bmp, 0, 0, bmp->h - 1, 0);
-  vline$link2(bmp, bmp->w - 1, 0, bmp->h - 1, 0);
+  hline_link2(bmp, 0, 0, bmp->w - 1, 0);
+  hline_link2(bmp, 0, bmp->h - 1, bmp->w - 1, 0);
+  vline_link2(bmp, 0, 0, bmp->h - 1, 0);
+  vline_link2(bmp, bmp->w - 1, 0, bmp->h - 1, 0);
   y0 = -1;
   x0 = y0;
   y = 0;
-  signed int return_value_getpixel$1;
+  signed int return_value_getpixel_1;
   for( ; !(y >= bmp->h) && !(y0 >= 0); y = y + 1)
   {
     x = 0;
     for( ; !(x >= bmp->w) && !(x0 >= 0); x = x + 1)
     {
-      return_value_getpixel$1=getpixel$link3(bmp, x, y);
-      if(return_value_getpixel$1 == 2)
+      return_value_getpixel_1=getpixel_link3(bmp, x, y);
+      if(return_value_getpixel_1 == 2)
       {
         x0 = x;
         y0 = y;
@@ -5827,16 +5827,16 @@ static signed int check_if_playable(struct BITMAP *bmp)
 
     }
   }
-  signed int return_value_spread_color_down$2;
-  signed int return_value_spread_color_up$3;
+  signed int return_value_spread_color_down_2;
+  signed int return_value_spread_color_up_3;
   if(x0 >= 1 && y0 >= 1)
   {
-    putpixel$link6(bmp, x, y, 1);
+    putpixel_link6(bmp, x, y, 1);
     do
     {
-      return_value_spread_color_down$2=spread_color_down(bmp, 2, 1);
-      return_value_spread_color_up$3=spread_color_up(bmp, 2, 1);
-      if(return_value_spread_color_down$2 + return_value_spread_color_up$3 == 0)
+      return_value_spread_color_down_2=spread_color_down(bmp, 2, 1);
+      return_value_spread_color_up_3=spread_color_up(bmp, 2, 1);
+      if(return_value_spread_color_down_2 + return_value_spread_color_up_3 == 0)
         break;
 
     }
@@ -5846,14 +5846,14 @@ static signed int check_if_playable(struct BITMAP *bmp)
   else
     unplayable = unplayable | 1;
   y = 0;
-  signed int return_value_getpixel$4;
+  signed int return_value_getpixel_4;
   for( ; !(y >= bmp->h); y = y + 1)
   {
     x = 0;
     for( ; !(x >= bmp->w); x = x + 1)
     {
-      return_value_getpixel$4=getpixel$link3(bmp, x, y);
-      if(return_value_getpixel$4 == 1)
+      return_value_getpixel_4=getpixel_link3(bmp, x, y);
+      if(return_value_getpixel_4 == 1)
         playable_place = playable_place + 1;
 
     }
@@ -6118,9 +6118,9 @@ signed int choose_map(void)
   d[(signed long int)18].w = (x6 - x1) - 3;
   d[(signed long int)18].h = 15;
   d[(signed long int)18].flags = 0;
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(131);
-  d[(signed long int)18].dp = (void *)return_value_lw_lang_string$1;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(131);
+  d[(signed long int)18].dp = (void *)return_value_lw_lang_string_1;
   d[(signed long int)19].proc = my_button_proc;
   d[(signed long int)19].x = x6;
   d[(signed long int)19].y = y7;
@@ -6134,42 +6134,42 @@ signed int choose_map(void)
   d[(signed long int)20].w = (x8 - x3) - 3;
   d[(signed long int)20].h = 15;
   d[(signed long int)20].flags = 1;
-  char *return_value_lw_lang_string$2;
-  return_value_lw_lang_string$2=lw_lang_string(134);
-  d[(signed long int)20].dp = (void *)return_value_lw_lang_string$2;
+  char *return_value_lw_lang_string_2;
+  return_value_lw_lang_string_2=lw_lang_string(134);
+  d[(signed long int)20].dp = (void *)return_value_lw_lang_string_2;
   i = 4;
   for( ; !(i >= 21); i = i + 1)
   {
     color_one_dialog(d + (signed long int)i);
     menu_real_coord(d + (signed long int)i);
   }
-  signed int return_value_menu_real_x$3;
-  return_value_menu_real_x$3=menu_real_x(x1);
-  signed int return_value_menu_real_y$4;
-  return_value_menu_real_y$4=menu_real_y(y3);
-  signed int return_value_menu_real_x$5;
-  return_value_menu_real_x$5=menu_real_x(40);
-  signed int return_value_menu_real_y$6;
-  return_value_menu_real_y$6=menu_real_y((y4 - y3) - 3);
-  palette_128(d + (signed long int)21, return_value_menu_real_x$3, return_value_menu_real_y$4, return_value_menu_real_x$5, return_value_menu_real_y$6);
-  signed int return_value_menu_real_x$7;
-  return_value_menu_real_x$7=menu_real_x(x8);
-  signed int return_value_menu_real_y$8;
-  return_value_menu_real_y$8=menu_real_y(y3);
-  signed int return_value_menu_real_x$9;
-  return_value_menu_real_x$9=menu_real_x(40);
-  signed int return_value_menu_real_y$10;
-  return_value_menu_real_y$10=menu_real_y((y4 - y3) - 3);
-  palette_128(d + (signed long int)149, return_value_menu_real_x$7, return_value_menu_real_y$8, return_value_menu_real_x$9, return_value_menu_real_y$10);
+  signed int return_value_menu_real_x_3;
+  return_value_menu_real_x_3=menu_real_x(x1);
+  signed int return_value_menu_real_y_4;
+  return_value_menu_real_y_4=menu_real_y(y3);
+  signed int return_value_menu_real_x_5;
+  return_value_menu_real_x_5=menu_real_x(40);
+  signed int return_value_menu_real_y_6;
+  return_value_menu_real_y_6=menu_real_y((y4 - y3) - 3);
+  palette_128(d + (signed long int)21, return_value_menu_real_x_3, return_value_menu_real_y_4, return_value_menu_real_x_5, return_value_menu_real_y_6);
+  signed int return_value_menu_real_x_7;
+  return_value_menu_real_x_7=menu_real_x(x8);
+  signed int return_value_menu_real_y_8;
+  return_value_menu_real_y_8=menu_real_y(y3);
+  signed int return_value_menu_real_x_9;
+  return_value_menu_real_x_9=menu_real_x(40);
+  signed int return_value_menu_real_y_10;
+  return_value_menu_real_y_10=menu_real_y((y4 - y3) - 3);
+  palette_128(d + (signed long int)149, return_value_menu_real_x_7, return_value_menu_real_y_8, return_value_menu_real_x_9, return_value_menu_real_y_10);
   box_for_choose_map();
   d[(signed long int)277].proc = (signed int (*)(signed int, struct DIALOG *, signed int))(void *)0;
   update_use_default_texture_state(d);
   update_choose_map(d, CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, CONFIG_LEVEL_BG, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
-  signed int return_value_confirm_quit$11;
-  signed int return_value_atoi$12;
-  signed int return_value_atoi$13;
-  signed int return_value_atoi$14;
-  signed int return_value_lw_random_generate_map$15;
+  signed int return_value_confirm_quit_11;
+  signed int return_value_atoi_12;
+  signed int return_value_atoi_13;
+  signed int return_value_atoi_14;
+  signed int return_value_lw_random_generate_map_15;
   while(retour == 0)
   {
     choix=my_do_dialog_no_clear(d, choix);
@@ -6231,8 +6231,8 @@ signed int choose_map(void)
 
     __CPROVER_DUMP_L8:
       ;
-      return_value_confirm_quit$11=confirm_quit();
-      if(!(return_value_confirm_quit$11 == 0))
+      return_value_confirm_quit_11=confirm_quit();
+      if(!(return_value_confirm_quit_11 == 0))
         retour = -2;
 
       else
@@ -6304,8 +6304,8 @@ signed int choose_map(void)
 
     __CPROVER_DUMP_L24:
       ;
-      return_value_atoi$12=atoi((const char *)d[(signed long int)13].dp);
-      i = return_value_atoi$12 - 1;
+      return_value_atoi_12=atoi((const char *)d[(signed long int)13].dp);
+      i = return_value_atoi_12 - 1;
       if(!(i >= 0) || i >= RAW_MAP_NUMBER)
         i = CONFIG_LEVEL_MAP;
 
@@ -6315,8 +6315,8 @@ signed int choose_map(void)
 
     __CPROVER_DUMP_L26:
       ;
-      return_value_atoi$13=atoi((const char *)d[(signed long int)14].dp);
-      i = return_value_atoi$13 - 1;
+      return_value_atoi_13=atoi((const char *)d[(signed long int)14].dp);
+      i = return_value_atoi_13 - 1;
       if(!(i >= 0) || i >= 128 + RAW_TEXTURE_NUMBER)
         i = CONFIG_LEVEL_FG;
 
@@ -6326,8 +6326,8 @@ signed int choose_map(void)
 
     __CPROVER_DUMP_L28:
       ;
-      return_value_atoi$14=atoi((const char *)d[(signed long int)15].dp);
-      i = return_value_atoi$14 - 1;
+      return_value_atoi_14=atoi((const char *)d[(signed long int)15].dp);
+      i = return_value_atoi_14 - 1;
       if(!(i >= 0) || i >= 128 + RAW_TEXTURE_NUMBER)
         i = CONFIG_LEVEL_BG;
 
@@ -6344,8 +6344,8 @@ signed int choose_map(void)
 
     __CPROVER_DUMP_L31:
       ;
-      return_value_lw_random_generate_map$15=lw_random_generate_map();
-      if(!(return_value_lw_random_generate_map$15 == 0))
+      return_value_lw_random_generate_map_15=lw_random_generate_map();
+      if(!(return_value_lw_random_generate_map_15 == 0))
         update_choose_map(d, CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, CONFIG_LEVEL_BG, 1, CONFIG_USE_DEFAULT_TEXTURE);
 
       continue;
@@ -6406,7 +6406,7 @@ signed int choose_teams(void)
   set_palette_for_choose_color();
   my_set_palette();
   display_back_image();
-  signed int return_value_confirm_quit$1;
+  signed int return_value_confirm_quit_1;
   while(retour == 0)
   {
     choix=my_do_dialog_no_clear(d, choix);
@@ -6435,8 +6435,8 @@ signed int choose_teams(void)
 
     __CPROVER_DUMP_L4:
       ;
-      return_value_confirm_quit$1=confirm_quit();
-      if(!(return_value_confirm_quit$1 == 0))
+      return_value_confirm_quit_1=confirm_quit();
+      if(!(return_value_confirm_quit_1 == 0))
         retour = -2;
 
       else
@@ -6519,9 +6519,9 @@ static void clean_buffer(char *buffer, signed int len)
   signed int i = 0;
   for( ; !(i >= len); i = i + 1)
   {
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)buffer[(signed long int)i]]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)buffer[(signed long int)i]]) == 0)
     {
       if(!((signed int)buffer[(signed long int)i] == 45))
       {
@@ -6568,20 +6568,20 @@ signed int confirm_quit(void)
   d[(signed long int)2].proc = (signed int (*)(signed int, struct DIALOG *, signed int))(void *)0;
   standard_button(d, 0, 0, 2, 1);
   standard_button(d + (signed long int)1, 1, 0, 2, 1);
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(12);
-  d[(signed long int)0].dp = (void *)return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
-  return_value_lw_lang_string$2=lw_lang_string(15);
-  d[(signed long int)0].dp = (void *)return_value_lw_lang_string$2;
-  char *return_value_lw_lang_string$3;
-  return_value_lw_lang_string$3=lw_lang_string(16);
-  d[(signed long int)1].dp = (void *)return_value_lw_lang_string$3;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(12);
+  d[(signed long int)0].dp = (void *)return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
+  return_value_lw_lang_string_2=lw_lang_string(15);
+  d[(signed long int)0].dp = (void *)return_value_lw_lang_string_2;
+  char *return_value_lw_lang_string_3;
+  return_value_lw_lang_string_3=lw_lang_string(16);
+  d[(signed long int)1].dp = (void *)return_value_lw_lang_string_3;
   d[(signed long int)0].key = 100;
   d[(signed long int)1].key = 119;
-  signed int return_value_my_do_dialog$4;
-  return_value_my_do_dialog$4=my_do_dialog(d, 0);
-  return (signed int)(return_value_my_do_dialog$4 == 0);
+  signed int return_value_my_do_dialog_4;
+  return_value_my_do_dialog_4=my_do_dialog(d, 0);
+  return (signed int)(return_value_my_do_dialog_4 == 0);
 }
 
 // connect_on_server_continue
@@ -6593,12 +6593,12 @@ static signed int connect_on_server_continue(signed int sock)
   signed int i;
   if(result == 1)
   {
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(119);
-    display_center_message(return_value_lw_lang_string$1);
-    signed int return_value_lw_protocol_do_ping$2;
-    return_value_lw_protocol_do_ping$2=lw_protocol_do_ping(&sock);
-    if(return_value_lw_protocol_do_ping$2 == 0)
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(119);
+    display_center_message(return_value_lw_lang_string_1);
+    signed int return_value_lw_protocol_do_ping_2;
+    return_value_lw_protocol_do_ping_2=lw_protocol_do_ping(&sock);
+    if(return_value_lw_protocol_do_ping_2 == 0)
     {
       result = 0;
       error_not_a_liquidwar_server();
@@ -6608,12 +6608,12 @@ static signed int connect_on_server_continue(signed int sock)
 
   if(result == 1)
   {
-    char *return_value_lw_lang_string$3;
-    return_value_lw_lang_string$3=lw_lang_string(120);
-    display_center_message(return_value_lw_lang_string$3);
-    signed int return_value_lw_protocol_tell_program$4;
-    return_value_lw_protocol_tell_program$4=lw_protocol_tell_program(&sock, "liquidwar");
-    if(return_value_lw_protocol_tell_program$4 == 0)
+    char *return_value_lw_lang_string_3;
+    return_value_lw_lang_string_3=lw_lang_string(120);
+    display_center_message(return_value_lw_lang_string_3);
+    signed int return_value_lw_protocol_tell_program_4;
+    return_value_lw_protocol_tell_program_4=lw_protocol_tell_program(&sock, "liquidwar");
+    if(return_value_lw_protocol_tell_program_4 == 0)
     {
       result = 0;
       error_not_a_liquidwar_server();
@@ -6623,12 +6623,12 @@ static signed int connect_on_server_continue(signed int sock)
 
   if(result == 1)
   {
-    char *return_value_lw_lang_string$5;
-    return_value_lw_lang_string$5=lw_lang_string(121);
-    display_center_message(return_value_lw_lang_string$5);
-    signed int return_value_lw_protocol_tell_version$6;
-    return_value_lw_protocol_tell_version$6=lw_protocol_tell_version(&sock, "5.6.4");
-    if(return_value_lw_protocol_tell_version$6 == 0)
+    char *return_value_lw_lang_string_5;
+    return_value_lw_lang_string_5=lw_lang_string(121);
+    display_center_message(return_value_lw_lang_string_5);
+    signed int return_value_lw_protocol_tell_version_6;
+    return_value_lw_protocol_tell_version_6=lw_protocol_tell_version(&sock, "5.6.4");
+    if(return_value_lw_protocol_tell_version_6 == 0)
     {
       result = 0;
       error_wrong_version();
@@ -6638,12 +6638,12 @@ static signed int connect_on_server_continue(signed int sock)
 
   if(result == 1)
   {
-    char *return_value_lw_lang_string$7;
-    return_value_lw_lang_string$7=lw_lang_string(122);
-    display_center_message(return_value_lw_lang_string$7);
-    signed int return_value_lw_protocol_tell_password$8;
-    return_value_lw_protocol_tell_password$8=lw_protocol_tell_password(&sock, CONFIG_PASSWORD);
-    if(return_value_lw_protocol_tell_password$8 == 0)
+    char *return_value_lw_lang_string_7;
+    return_value_lw_lang_string_7=lw_lang_string(122);
+    display_center_message(return_value_lw_lang_string_7);
+    signed int return_value_lw_protocol_tell_password_8;
+    return_value_lw_protocol_tell_password_8=lw_protocol_tell_password(&sock, CONFIG_PASSWORD);
+    if(return_value_lw_protocol_tell_password_8 == 0)
     {
       result = 0;
       error_bad_password();
@@ -6653,12 +6653,12 @@ static signed int connect_on_server_continue(signed int sock)
 
   if(result == 1)
   {
-    char *return_value_lw_lang_string$9;
-    return_value_lw_lang_string$9=lw_lang_string(123);
-    display_center_message(return_value_lw_lang_string$9);
-    signed int return_value_lw_protocol_ask_free_teams$10;
-    return_value_lw_protocol_ask_free_teams$10=lw_protocol_ask_free_teams(&sock, &free_teams);
-    if(!(return_value_lw_protocol_ask_free_teams$10 == 0))
+    char *return_value_lw_lang_string_9;
+    return_value_lw_lang_string_9=lw_lang_string(123);
+    display_center_message(return_value_lw_lang_string_9);
+    signed int return_value_lw_protocol_ask_free_teams_10;
+    return_value_lw_protocol_ask_free_teams_10=lw_protocol_ask_free_teams(&sock, &free_teams);
+    if(!(return_value_lw_protocol_ask_free_teams_10 == 0))
     {
       if(!(free_teams >= 1))
       {
@@ -6675,25 +6675,25 @@ static signed int connect_on_server_continue(signed int sock)
     }
   }
 
-  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr_13;
   if(result == 1)
   {
-    char *return_value_lw_lang_string$11;
-    return_value_lw_lang_string$11=lw_lang_string(124);
-    display_center_message(return_value_lw_lang_string$11);
+    char *return_value_lw_lang_string_11;
+    return_value_lw_lang_string_11=lw_lang_string(124);
+    display_center_message(return_value_lw_lang_string_11);
     i = 0;
     for( ; result == 1 && free_teams >= 1 && !(i >= 6); i = i + 1)
     {
       if(CONFIG_CONTROL_TYPE[(signed long int)i] == 1)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_13 = (_Bool)1;
 
       else
-        tmp_if_expr$13 = (CONFIG_CONTROL_TYPE[(signed long int)i] == 2 ? (CONFIG_ALLOW_NETWORK_BOTS != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$13)
+        tmp_if_expr_13 = (CONFIG_CONTROL_TYPE[(signed long int)i] == 2 ? (CONFIG_ALLOW_NETWORK_BOTS != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_13)
       {
-        signed int return_value_lw_protocol_reserve_team$12;
-        return_value_lw_protocol_reserve_team$12=lw_protocol_reserve_team(&sock, i, CONFIG_CONTROL_TYPE[(signed long int)i], CONFIG_PLAYER_NAME[(signed long int)i]);
-        if(!(return_value_lw_protocol_reserve_team$12 == 0))
+        signed int return_value_lw_protocol_reserve_team_12;
+        return_value_lw_protocol_reserve_team_12=lw_protocol_reserve_team(&sock, i, CONFIG_CONTROL_TYPE[(signed long int)i], CONFIG_PLAYER_NAME[(signed long int)i]);
+        if(!(return_value_lw_protocol_reserve_team_12 == 0))
           free_teams = free_teams - 1;
 
         else
@@ -6708,12 +6708,12 @@ static signed int connect_on_server_continue(signed int sock)
 
   if(result == 1)
   {
-    char *return_value_lw_lang_string$14;
-    return_value_lw_lang_string$14=lw_lang_string(125);
-    display_center_message(return_value_lw_lang_string$14);
-    signed int return_value_lw_protocol_send_config$15;
-    return_value_lw_protocol_send_config$15=lw_protocol_send_config(&sock);
-    if(return_value_lw_protocol_send_config$15 == 0)
+    char *return_value_lw_lang_string_14;
+    return_value_lw_lang_string_14=lw_lang_string(125);
+    display_center_message(return_value_lw_lang_string_14);
+    signed int return_value_lw_protocol_send_config_15;
+    return_value_lw_protocol_send_config_15=lw_protocol_send_config(&sock);
+    if(return_value_lw_protocol_send_config_15 == 0)
     {
       result = 0;
       error_network_problem();
@@ -6721,20 +6721,20 @@ static signed int connect_on_server_continue(signed int sock)
 
   }
 
-  void *tmp_if_expr$17;
+  void *tmp_if_expr_17;
   if(result == 1)
   {
-    char *return_value_lw_lang_string$16;
-    return_value_lw_lang_string$16=lw_lang_string(126);
-    display_center_message(return_value_lw_lang_string$16);
+    char *return_value_lw_lang_string_16;
+    return_value_lw_lang_string_16=lw_lang_string(126);
+    display_center_message(return_value_lw_lang_string_16);
     if(!(LW_RANDOM_ON == 0))
-      tmp_if_expr$17 = LW_RANDOM_RAW_MAP;
+      tmp_if_expr_17 = LW_RANDOM_RAW_MAP;
 
     else
-      tmp_if_expr$17 = RAW_MAP_ORDERED[(signed long int)CONFIG_LEVEL_MAP];
-    signed int return_value_lw_protocol_send_map$18;
-    return_value_lw_protocol_send_map$18=lw_protocol_send_map(&sock, tmp_if_expr$17);
-    if(return_value_lw_protocol_send_map$18 == 0)
+      tmp_if_expr_17 = RAW_MAP_ORDERED[(signed long int)CONFIG_LEVEL_MAP];
+    signed int return_value_lw_protocol_send_map_18;
+    return_value_lw_protocol_send_map_18=lw_protocol_send_map(&sock, tmp_if_expr_17);
+    if(return_value_lw_protocol_send_map_18 == 0)
     {
       result = 0;
       error_cant_send_map();
@@ -6744,12 +6744,12 @@ static signed int connect_on_server_continue(signed int sock)
 
   if(result == 1)
   {
-    char *return_value_lw_lang_string$19;
-    return_value_lw_lang_string$19=lw_lang_string(127);
-    display_center_message(return_value_lw_lang_string$19);
-    signed int return_value_lw_protocol_i_am_ready$20;
-    return_value_lw_protocol_i_am_ready$20=lw_protocol_i_am_ready(&sock);
-    if(return_value_lw_protocol_i_am_ready$20 == 0)
+    char *return_value_lw_lang_string_19;
+    return_value_lw_lang_string_19=lw_lang_string(127);
+    display_center_message(return_value_lw_lang_string_19);
+    signed int return_value_lw_protocol_i_am_ready_20;
+    return_value_lw_protocol_i_am_ready_20=lw_protocol_i_am_ready(&sock);
+    if(return_value_lw_protocol_i_am_ready_20 == 0)
     {
       result = 0;
       error_network_problem();
@@ -6776,15 +6776,15 @@ static signed int connect_on_server_finish(signed int sock)
   signed int i;
   if(result == 1)
   {
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(128);
-    display_center_message(return_value_lw_lang_string$1);
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(128);
+    display_center_message(return_value_lw_lang_string_1);
     i = 0;
     for( ; result == 1 && !(i >= 6); i = i + 1)
     {
-      signed int return_value_lw_protocol_ask_who$2;
-      return_value_lw_protocol_ask_who$2=lw_protocol_ask_who(&sock, i, &LW_NETWORK_INFO[(signed long int)i]);
-      if(return_value_lw_protocol_ask_who$2 == 0)
+      signed int return_value_lw_protocol_ask_who_2;
+      return_value_lw_protocol_ask_who_2=lw_protocol_ask_who(&sock, i, &LW_NETWORK_INFO[(signed long int)i]);
+      if(return_value_lw_protocol_ask_who_2 == 0)
       {
         result = 0;
         error_network_problem();
@@ -6795,12 +6795,12 @@ static signed int connect_on_server_finish(signed int sock)
 
   if(result == 1)
   {
-    char *return_value_lw_lang_string$3;
-    return_value_lw_lang_string$3=lw_lang_string(129);
-    display_center_message(return_value_lw_lang_string$3);
-    signed int return_value_lw_protocol_recv_config$4;
-    return_value_lw_protocol_recv_config$4=lw_protocol_recv_config(&sock);
-    if(return_value_lw_protocol_recv_config$4 == 0)
+    char *return_value_lw_lang_string_3;
+    return_value_lw_lang_string_3=lw_lang_string(129);
+    display_center_message(return_value_lw_lang_string_3);
+    signed int return_value_lw_protocol_recv_config_4;
+    return_value_lw_protocol_recv_config_4=lw_protocol_recv_config(&sock);
+    if(return_value_lw_protocol_recv_config_4 == 0)
     {
       result = 0;
       error_network_problem();
@@ -6810,9 +6810,9 @@ static signed int connect_on_server_finish(signed int sock)
 
   if(result == 1)
   {
-    signed int return_value_lw_netconf_check$5;
-    return_value_lw_netconf_check$5=lw_netconf_check(&LW_CONFIG_CURRENT_RULES);
-    if(return_value_lw_netconf_check$5 == 0)
+    signed int return_value_lw_netconf_check_5;
+    return_value_lw_netconf_check_5=lw_netconf_check(&LW_CONFIG_CURRENT_RULES);
+    if(return_value_lw_netconf_check_5 == 0)
     {
       result = 0;
       error_bad_config_range();
@@ -6822,12 +6822,12 @@ static signed int connect_on_server_finish(signed int sock)
 
   if(result == 1)
   {
-    char *return_value_lw_lang_string$6;
-    return_value_lw_lang_string$6=lw_lang_string(130);
-    display_center_message(return_value_lw_lang_string$6);
-    signed int return_value_lw_protocol_recv_map$7;
-    return_value_lw_protocol_recv_map$7=lw_protocol_recv_map(&sock, &LW_NETWORK_RAW_MAP);
-    if(return_value_lw_protocol_recv_map$7 == 0)
+    char *return_value_lw_lang_string_6;
+    return_value_lw_lang_string_6=lw_lang_string(130);
+    display_center_message(return_value_lw_lang_string_6);
+    signed int return_value_lw_protocol_recv_map_7;
+    return_value_lw_protocol_recv_map_7=lw_protocol_recv_map(&sock, &LW_NETWORK_RAW_MAP);
+    if(return_value_lw_protocol_recv_map_7 == 0)
     {
       result = 0;
       error_cant_receive_map();
@@ -6837,12 +6837,12 @@ static signed int connect_on_server_finish(signed int sock)
 
   if(result == 1)
   {
-    char *return_value_lw_lang_string$8;
-    return_value_lw_lang_string$8=lw_lang_string(127);
-    display_center_message(return_value_lw_lang_string$8);
-    signed int return_value_lw_protocol_i_am_ready$9;
-    return_value_lw_protocol_i_am_ready$9=lw_protocol_i_am_ready(&sock);
-    if(return_value_lw_protocol_i_am_ready$9 == 0)
+    char *return_value_lw_lang_string_8;
+    return_value_lw_lang_string_8=lw_lang_string(127);
+    display_center_message(return_value_lw_lang_string_8);
+    signed int return_value_lw_protocol_i_am_ready_9;
+    return_value_lw_protocol_i_am_ready_9=lw_protocol_i_am_ready(&sock);
+    if(return_value_lw_protocol_i_am_ready_9 == 0)
     {
       result = 0;
       error_network_problem();
@@ -6865,14 +6865,14 @@ static void connect_on_server_keepalive(void *arg)
 {
   signed int result = 1;
   signed int i;
-  struct anonymous$25 *data = (struct anonymous$25 *)arg;
+  struct anonymous_25 *data = (struct anonymous_25 *)arg;
   if(data->finished == 0)
   {
     if(result == 1)
     {
-      signed int return_value_lw_protocol_waiting$1;
-      return_value_lw_protocol_waiting$1=lw_protocol_waiting(&data->sock, &data->waited_teams);
-      if(return_value_lw_protocol_waiting$1 == 0)
+      signed int return_value_lw_protocol_waiting_1;
+      return_value_lw_protocol_waiting_1=lw_protocol_waiting(&data->sock, &data->waited_teams);
+      if(return_value_lw_protocol_waiting_1 == 0)
         result = 0;
 
     }
@@ -6885,9 +6885,9 @@ static void connect_on_server_keepalive(void *arg)
         for( ; !(i >= 6); i = i + 1)
           if(result == 1)
           {
-            signed int return_value_lw_protocol_ask_teamstartinfo$2;
-            return_value_lw_protocol_ask_teamstartinfo$2=lw_protocol_ask_teamstartinfo(&data->sock, i, &data->team_start_info[(signed long int)i]);
-            if(return_value_lw_protocol_ask_teamstartinfo$2 == 0)
+            signed int return_value_lw_protocol_ask_teamstartinfo_2;
+            return_value_lw_protocol_ask_teamstartinfo_2=lw_protocol_ask_teamstartinfo(&data->sock, i, &data->team_start_info[(signed long int)i]);
+            if(return_value_lw_protocol_ask_teamstartinfo_2 == 0)
               result = 0;
 
           }
@@ -6897,9 +6897,9 @@ static void connect_on_server_keepalive(void *arg)
           if(!(data->chat_send == 0))
           {
             lw_netmess_cleanup_arg(data->chat_buffer);
-            signed int return_value_lw_protocol_chat_talk$3;
-            return_value_lw_protocol_chat_talk$3=lw_protocol_chat_talk(&data->sock, data->chat_buffer);
-            if(return_value_lw_protocol_chat_talk$3 == 0)
+            signed int return_value_lw_protocol_chat_talk_3;
+            return_value_lw_protocol_chat_talk_3=lw_protocol_chat_talk(&data->sock, data->chat_buffer);
+            if(return_value_lw_protocol_chat_talk_3 == 0)
               result = 0;
 
             data->chat_send = 0;
@@ -6909,9 +6909,9 @@ static void connect_on_server_keepalive(void *arg)
 
         if(result == 1)
         {
-          signed int return_value_lw_protocol_chat_listen$4;
-          return_value_lw_protocol_chat_listen$4=lw_protocol_chat_listen(&data->sock, &data->chat_history);
-          if(return_value_lw_protocol_chat_listen$4 == 0)
+          signed int return_value_lw_protocol_chat_listen_4;
+          return_value_lw_protocol_chat_listen_4=lw_protocol_chat_listen(&data->sock, &data->chat_history);
+          if(return_value_lw_protocol_chat_listen_4 == 0)
             result = 0;
 
         }
@@ -6920,9 +6920,9 @@ static void connect_on_server_keepalive(void *arg)
         {
           if(!(data->force_start == 0))
           {
-            signed int return_value_lw_protocol_force_start$5;
-            return_value_lw_protocol_force_start$5=lw_protocol_force_start(&data->sock);
-            if(return_value_lw_protocol_force_start$5 == 0)
+            signed int return_value_lw_protocol_force_start_5;
+            return_value_lw_protocol_force_start_5=lw_protocol_force_start(&data->sock);
+            if(return_value_lw_protocol_force_start_5 == 0)
               result = 0;
 
             data->force_start = 0;
@@ -6932,9 +6932,9 @@ static void connect_on_server_keepalive(void *arg)
 
         if(result == 1)
         {
-          signed int return_value_lw_protocol_next$6;
-          return_value_lw_protocol_next$6=lw_protocol_next(&data->sock);
-          if(return_value_lw_protocol_next$6 == 0)
+          signed int return_value_lw_protocol_next_6;
+          return_value_lw_protocol_next_6=lw_protocol_next(&data->sock);
+          if(return_value_lw_protocol_next_6 == 0)
             result = 0;
 
         }
@@ -6944,9 +6944,9 @@ static void connect_on_server_keepalive(void *arg)
       else
         if(result == 1)
         {
-          signed int return_value_lw_protocol_i_am_ready$7;
-          return_value_lw_protocol_i_am_ready$7=lw_protocol_i_am_ready(&data->sock);
-          if(return_value_lw_protocol_i_am_ready$7 == 0)
+          signed int return_value_lw_protocol_i_am_ready_7;
+          return_value_lw_protocol_i_am_ready_7=lw_protocol_i_am_ready(&data->sock);
+          if(return_value_lw_protocol_i_am_ready_7 == 0)
             result = 0;
 
           data->finished = 1;
@@ -6965,14 +6965,14 @@ static void connect_on_server_keepalive(void *arg)
 static signed int connect_on_server_start(signed int *sock, char *address, signed int port)
 {
   signed int result = 1;
-  struct anonymous$7 *connect_data;
-  struct anonymous$7 connect_data_stack;
+  struct anonymous_7 *connect_data;
+  struct anonymous_7 connect_data_stack;
   signed int esc_pressed = 0;
   signed int dummy;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$7) /*40ul*/ );
-  connect_data = (struct anonymous$7 *)return_value_malloc$1;
-  if(connect_data == ((struct anonymous$7 *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_7) /*40ul*/ );
+  connect_data = (struct anonymous_7 *)return_value_malloc_1;
+  if(connect_data == ((struct anonymous_7 *)NULL))
     connect_data = &connect_data_stack;
 
   connect_data->sock = -1;
@@ -6983,21 +6983,21 @@ static signed int connect_on_server_start(signed int *sock, char *address, signe
   connect_data->allow_exit = 0;
   connect_data->free_data = 1;
   connect_data->result = 0;
-  char *return_value_lw_lang_string$2;
-  return_value_lw_lang_string$2=lw_lang_string(118);
-  display_center_message(return_value_lw_lang_string$2);
+  char *return_value_lw_lang_string_2;
+  return_value_lw_lang_string_2=lw_lang_string(118);
+  display_center_message(return_value_lw_lang_string_2);
   connect_data->running = 1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_lw_thread_start$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_lw_thread_start_3;
   if(!(connect_data == &connect_data_stack))
   {
-    return_value_lw_thread_start$3=lw_thread_start(connect_on_server_start_callback, (void *)connect_data);
-    tmp_if_expr$4 = return_value_lw_thread_start$3 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_lw_thread_start_3=lw_thread_start(connect_on_server_start_callback, (void *)connect_data);
+    tmp_if_expr_4 = return_value_lw_thread_start_3 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  if(!tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  if(!tmp_if_expr_4)
   {
     connect_data->free_data = 0;
     connect_on_server_start_callback((void *)connect_data);
@@ -7034,7 +7034,7 @@ static signed int connect_on_server_start(signed int *sock, char *address, signe
 // file netplay.c line 259
 static void connect_on_server_start_callback(void *arg)
 {
-  struct anonymous$7 *connect_data = (struct anonymous$7 *)arg;
+  struct anonymous_7 *connect_data = (struct anonymous_7 *)arg;
   connect_data->result=lw_sock_connect(&connect_data->sock, connect_data->address, connect_data->port);
   connect_data->running = 0;
   while(connect_data->allow_exit == 0)
@@ -7052,10 +7052,10 @@ signed int controls_options(void)
   signed int choix = 4;
   signed int retour = 0;
   memset((void *)d, 0, sizeof(struct DIALOG [9l]) /*648ul*/ );
-  char *return_value_lw_lang_string$2;
-  char *return_value_lw_lang_string$3;
-  char *return_value_lw_lang_string$4;
-  char *return_value_lw_lang_string$5;
+  char *return_value_lw_lang_string_2;
+  char *return_value_lw_lang_string_3;
+  char *return_value_lw_lang_string_4;
+  char *return_value_lw_lang_string_5;
   while(retour == 0)
   {
     standard_button(d + (signed long int)4, 0, 0, 2, 4);
@@ -7064,39 +7064,39 @@ signed int controls_options(void)
     standard_button(d + (signed long int)7, 0, 3, 1, 4);
     quick_buttons(d);
     d[(signed long int)4].proc = my_textbox_proc;
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(81);
-    d[(signed long int)4].dp = (void *)return_value_lw_lang_string$1;
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(81);
+    d[(signed long int)4].dp = (void *)return_value_lw_lang_string_1;
     switch(CONFIG_JOYSTICK_ON)
     {
       case 1:
       {
-        return_value_lw_lang_string$2=lw_lang_string(83);
-        d[(signed long int)5].dp = (void *)return_value_lw_lang_string$2;
+        return_value_lw_lang_string_2=lw_lang_string(83);
+        d[(signed long int)5].dp = (void *)return_value_lw_lang_string_2;
         break;
       }
       case 2:
       {
-        return_value_lw_lang_string$3=lw_lang_string(84);
-        d[(signed long int)5].dp = (void *)return_value_lw_lang_string$3;
+        return_value_lw_lang_string_3=lw_lang_string(84);
+        d[(signed long int)5].dp = (void *)return_value_lw_lang_string_3;
         break;
       }
       case 3:
       {
-        return_value_lw_lang_string$4=lw_lang_string(85);
-        d[(signed long int)5].dp = (void *)return_value_lw_lang_string$4;
+        return_value_lw_lang_string_4=lw_lang_string(85);
+        d[(signed long int)5].dp = (void *)return_value_lw_lang_string_4;
         break;
       }
       default:
       {
-        return_value_lw_lang_string$5=lw_lang_string(82);
-        d[(signed long int)5].dp = (void *)return_value_lw_lang_string$5;
+        return_value_lw_lang_string_5=lw_lang_string(82);
+        d[(signed long int)5].dp = (void *)return_value_lw_lang_string_5;
       }
     }
     d[(signed long int)6].proc = my_textbox_proc;
-    char *return_value_lw_lang_string$6;
-    return_value_lw_lang_string$6=lw_lang_string(86);
-    d[(signed long int)6].dp = (void *)return_value_lw_lang_string$6;
+    char *return_value_lw_lang_string_6;
+    return_value_lw_lang_string_6=lw_lang_string(86);
+    d[(signed long int)6].dp = (void *)return_value_lw_lang_string_6;
     d[(signed long int)7].proc = my_slider_proc;
     d[(signed long int)7].dp = (void *)0;
     d[(signed long int)7].d1 = 8;
@@ -7133,9 +7133,9 @@ signed int controls_options(void)
 
     __CPROVER_DUMP_L9:
       ;
-      signed int return_value_confirm_quit$7;
-      return_value_confirm_quit$7=confirm_quit();
-      if(!(return_value_confirm_quit$7 == 0))
+      signed int return_value_confirm_quit_7;
+      return_value_confirm_quit_7=confirm_quit();
+      if(!(return_value_confirm_quit_7 == 0))
         retour = -2;
 
       else
@@ -7178,8 +7178,8 @@ static void convert_to_buffer(struct BITMAP *bmp, char *buffer, signed int *size
   pos_src = 0;
   *size = 0;
   *bg_size = 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   while(!(pos_src >= wh))
   {
     l = 0;
@@ -7195,9 +7195,9 @@ static void convert_to_buffer(struct BITMAP *bmp, char *buffer, signed int *size
 
         l = l + 1;
       }
-      tmp_post$1 = *size;
+      tmp_post_1 = *size;
       *size = *size + 1;
-      buffer[(signed long int)tmp_post$1] = (char)l;
+      buffer[(signed long int)tmp_post_1] = (char)l;
     }
 
     else
@@ -7212,15 +7212,15 @@ static void convert_to_buffer(struct BITMAP *bmp, char *buffer, signed int *size
 
         l = l + 1;
       }
-      tmp_post$2 = *size;
+      tmp_post_2 = *size;
       *size = *size + 1;
-      buffer[(signed long int)tmp_post$2] = (char)-l;
+      buffer[(signed long int)tmp_post_2] = (char)-l;
       *bg_size = *bg_size + l;
     }
   }
-  signed int tmp_post$3 = *size;
+  signed int tmp_post_3 = *size;
   *size = *size + 1;
-  buffer[(signed long int)tmp_post$3] = (char)0;
+  buffer[(signed long int)tmp_post_3] = (char)0;
 }
 
 // correct_palette
@@ -7249,9 +7249,9 @@ static void correct_path_dir(char *path)
 {
   signed int l;
   char c;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  l = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  l = (signed int)return_value_strlen_1;
   if(l >= 1)
   {
     c = path[(signed long int)(l - 1)];
@@ -7282,18 +7282,18 @@ signed int create_army(void)
   signed int ret = -1;
   signed int i;
   signed int fill_table[33l] = { 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 14, 16, 18, 20, 22, 24, 25, 27, 29, 31, 33, 36, 40, 45, 50, 55, 60, 65, 70, 75, 80, 90, 99 };
-  signed int return_value_get_battle_room$1;
-  return_value_get_battle_room$1=get_battle_room();
-  CURRENT_ARMY_SIZE = (return_value_get_battle_room$1 * fill_table[(signed long int)LW_CONFIG_CURRENT_RULES.fighter_number]) / 100;
+  signed int return_value_get_battle_room_1;
+  return_value_get_battle_room_1=get_battle_room();
+  CURRENT_ARMY_SIZE = (return_value_get_battle_room_1 * fill_table[(signed long int)LW_CONFIG_CURRENT_RULES.fighter_number]) / 100;
   CURRENT_ARMY_SIZE = CURRENT_ARMY_SIZE / PLAYING_TEAMS;
   if(!(CURRENT_ARMY_SIZE >= 1))
     CURRENT_ARMY_SIZE = 1;
 
   CURRENT_ARMY_SIZE = CURRENT_ARMY_SIZE * PLAYING_TEAMS;
-  void *return_value_malloc_in_big_data_bottom$2;
-  return_value_malloc_in_big_data_bottom$2=malloc_in_big_data_bottom((signed int)((unsigned long int)CURRENT_ARMY_SIZE * sizeof(struct anonymous$21) /*8ul*/ ));
-  CURRENT_ARMY = (struct anonymous$21 *)return_value_malloc_in_big_data_bottom$2;
-  if(!(CURRENT_ARMY == ((struct anonymous$21 *)NULL)))
+  void *return_value_malloc_in_big_data_bottom_2;
+  return_value_malloc_in_big_data_bottom_2=malloc_in_big_data_bottom((signed int)((unsigned long int)CURRENT_ARMY_SIZE * sizeof(struct anonymous_21) /*8ul*/ ));
+  CURRENT_ARMY = (struct anonymous_21 *)return_value_malloc_in_big_data_bottom_2;
+  if(!(CURRENT_ARMY == ((struct anonymous_21 *)NULL)))
   {
     i = 0;
     for( ; !(i >= CURRENT_ARMY_SIZE); i = i + 1)
@@ -7320,11 +7320,11 @@ static void create_converted_bitmap(struct BITMAP *bmp, struct RGB *dst, struct 
   signed int y;
   signed int index;
   i = 0;
-  signed int return_value_bestfit_color$1;
+  signed int return_value_bestfit_color_1;
   for( ; !(i >= 256); i = i + 1)
   {
-    return_value_bestfit_color$1=bestfit_color(dst, (signed int)(src + (signed long int)i)->r, (signed int)(src + (signed long int)i)->g, (signed int)(src + (signed long int)i)->b);
-    corres[(signed long int)i] = (char)return_value_bestfit_color$1;
+    return_value_bestfit_color_1=bestfit_color(dst, (signed int)(src + (signed long int)i)->r, (signed int)(src + (signed long int)i)->g, (signed int)(src + (signed long int)i)->b);
+    corres[(signed long int)i] = (char)return_value_bestfit_color_1;
   }
   y = 0;
   for( ; !(y >= bmp->h); y = y + 1)
@@ -7332,11 +7332,11 @@ static void create_converted_bitmap(struct BITMAP *bmp, struct RGB *dst, struct 
     x = 0;
     for( ; !(x >= bmp->w); x = x + 1)
     {
-      signed int return_value_getpixel$2;
-      return_value_getpixel$2=getpixel$link6(bmp, x, y);
-      index = (signed int)corres[(signed long int)return_value_getpixel$2];
+      signed int return_value_getpixel_2;
+      return_value_getpixel_2=getpixel_link6(bmp, x, y);
+      index = (signed int)corres[(signed long int)return_value_getpixel_2];
       index = index < first_color || index >= first_color + number_of_colors ? first_color : index;
-      putpixel$link8(bmp, x, y, index);
+      putpixel_link8(bmp, x, y, index);
     }
   }
 }
@@ -7351,7 +7351,7 @@ static void create_default_back(void)
   back_coul.g = (unsigned char)1;
   back_coul.b = (unsigned char)8;
   BACK_IMAGE=my_create_bitmap(1, 1);
-  putpixel$link1(BACK_IMAGE, 0, 0, 18);
+  putpixel_link1(BACK_IMAGE, 0, 0, 18);
   GLOBAL_PALETTE[(signed long int)18] = back_coul;
 }
 
@@ -7363,21 +7363,21 @@ struct BITMAP * create_dir_bitmap(signed int team)
   signed int x;
   signed int y;
   signed int i;
-  struct anonymous$0 *temp;
+  struct anonymous_0 *temp;
   result=my_create_bitmap(CURRENT_AREA_W, CURRENT_AREA_H);
   i = 0;
   y = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(y >= CURRENT_AREA_H); y = y + 1)
   {
     x = 0;
     for( ; !(x >= CURRENT_AREA_W); x = x + 1)
     {
-      tmp_post$1 = i;
+      tmp_post_1 = i;
       i = i + 1;
-      temp = (CURRENT_AREA + (signed long int)tmp_post$1)->mesh;
-      if(!(temp == ((struct anonymous$0 *)NULL)))
-        putpixel$link4(result, x, y, 134 + ((signed int)temp->info[(signed long int)team].state.dir / 4) * 42 + ((signed int)temp->info[(signed long int)team].state.dir % 4) * 10);
+      temp = (CURRENT_AREA + (signed long int)tmp_post_1)->mesh;
+      if(!(temp == ((struct anonymous_0 *)NULL)))
+        putpixel_link4(result, x, y, 134 + ((signed int)temp->info[(signed long int)team].state.dir / 4) * 42 + ((signed int)temp->info[(signed long int)team].state.dir % 4) * 10);
 
     }
   }
@@ -7399,10 +7399,10 @@ static struct anonymous * create_first_mesher(struct BITMAP *map)
   w = map->w;
   h = map->h;
   size = h * w;
-  void *return_value_malloc_in_big_data_top$1;
-  return_value_malloc_in_big_data_top$1=malloc_in_big_data_top((signed int)((unsigned long int)size * sizeof(struct anonymous) /*112ul*/ ));
-  result = (struct anonymous *)return_value_malloc_in_big_data_top$1;
-  signed int return_value_getpixel$2;
+  void *return_value_malloc_in_big_data_top_1;
+  return_value_malloc_in_big_data_top_1=malloc_in_big_data_top((signed int)((unsigned long int)size * sizeof(struct anonymous) /*112ul*/ ));
+  result = (struct anonymous *)return_value_malloc_in_big_data_top_1;
+  signed int return_value_getpixel_2;
   if(!(result == ((struct anonymous *)NULL)))
   {
     i = 0;
@@ -7420,8 +7420,8 @@ static struct anonymous * create_first_mesher(struct BITMAP *map)
       x = 0;
       for( ; !(x >= w); x = x + 1)
       {
-        return_value_getpixel$2=getpixel$link4(map, x, y);
-        (result + (signed long int)(y * w + x))->used = (char)(return_value_getpixel$2 == 1 ? 0 : 1);
+        return_value_getpixel_2=getpixel_link4(map, x, y);
+        (result + (signed long int)(y * w + x))->used = (char)(return_value_getpixel_2 == 1 ? 0 : 1);
       }
     }
     y = 1;
@@ -7486,10 +7486,10 @@ signed int create_game_area(void)
   signed int y;
   signed int i;
   signed int test;
-  void *return_value_malloc_in_big_data_bottom$1;
-  return_value_malloc_in_big_data_bottom$1=malloc_in_big_data_bottom((signed int)((unsigned long int)(CURRENT_AREA_W * CURRENT_AREA_H) * sizeof(struct anonymous$22) /*16ul*/ ));
-  CURRENT_AREA = (struct anonymous$22 *)return_value_malloc_in_big_data_bottom$1;
-  if(!(CURRENT_AREA == ((struct anonymous$22 *)NULL)) && !(CURRENT_MESH == ((struct anonymous$0 *)NULL)))
+  void *return_value_malloc_in_big_data_bottom_1;
+  return_value_malloc_in_big_data_bottom_1=malloc_in_big_data_bottom((signed int)((unsigned long int)(CURRENT_AREA_W * CURRENT_AREA_H) * sizeof(struct anonymous_22) /*16ul*/ ));
+  CURRENT_AREA = (struct anonymous_22 *)return_value_malloc_in_big_data_bottom_1;
+  if(!(CURRENT_AREA == ((struct anonymous_22 *)NULL)) && !(CURRENT_MESH == ((struct anonymous_0 *)NULL)))
   {
     i = 0;
     y = 0;
@@ -7498,8 +7498,8 @@ signed int create_game_area(void)
       x = 0;
       for( ; !(x >= CURRENT_AREA_W); x = x + 1)
       {
-        (CURRENT_AREA + (signed long int)i)->mesh = (struct anonymous$0 *)(void *)0;
-        (CURRENT_AREA + (signed long int)i)->fighter = (struct anonymous$21 *)(void *)0;
+        (CURRENT_AREA + (signed long int)i)->mesh = (struct anonymous_0 *)(void *)0;
+        (CURRENT_AREA + (signed long int)i)->fighter = (struct anonymous_21 *)(void *)0;
         i = i + 1;
       }
     }
@@ -7519,7 +7519,7 @@ signed int create_game_area(void)
     }
   }
 
-  return CURRENT_AREA != ((struct anonymous$22 *)NULL) ? 0 : -1;
+  return CURRENT_AREA != ((struct anonymous_22 *)NULL) ? 0 : -1;
 }
 
 // create_gradient_bitmap
@@ -7531,9 +7531,9 @@ struct BITMAP * create_gradient_bitmap(signed int team)
   signed int y;
   signed int i;
   signed int color;
-  struct anonymous$0 *temp;
+  struct anonymous_0 *temp;
   result=my_create_bitmap(CURRENT_AREA_W, CURRENT_AREA_H);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(result == ((struct BITMAP *)NULL)))
   {
     i = 0;
@@ -7543,17 +7543,17 @@ struct BITMAP * create_gradient_bitmap(signed int team)
       x = 0;
       for( ; !(x >= CURRENT_AREA_W); x = x + 1)
       {
-        tmp_post$1 = i;
+        tmp_post_1 = i;
         i = i + 1;
-        temp = (CURRENT_AREA + (signed long int)tmp_post$1)->mesh;
-        if(!(temp == ((struct anonymous$0 *)NULL)))
+        temp = (CURRENT_AREA + (signed long int)tmp_post_1)->mesh;
+        if(!(temp == ((struct anonymous_0 *)NULL)))
         {
           color = ((signed int)temp->info[(signed long int)team].state.grad + 2000000) % COLORS_PER_TEAM;
-          putpixel$link4(result, x, y, color + COLOR_FIRST_ENTRY[(signed long int)team]);
+          putpixel_link4(result, x, y, color + COLOR_FIRST_ENTRY[(signed long int)team]);
         }
 
         else
-          putpixel$link4(result, x, y, 16);
+          putpixel_link4(result, x, y, 16);
       }
     }
   }
@@ -7570,12 +7570,12 @@ signed int create_mesh(void)
   struct BITMAP *map;
   struct anonymous *mesher;
   signed int zoom_factor = 1;
-  CURRENT_MESH = (struct anonymous$0 *)(void *)0;
+  CURRENT_MESH = (struct anonymous_0 *)(void *)0;
   CURRENT_MESH_SIZE = 0;
   CURRENT_AREA_W = 0;
   CURRENT_AREA_H = 0;
   map=lw_map_create_bicolor(CONFIG_LEVEL_MAP, 1, 2, LW_NETWORK_ON, LW_RANDOM_ON, MIN_MAP_RES_W[(signed long int)LW_CONFIG_CURRENT_RULES.min_map_res], MIN_MAP_RES_H[(signed long int)LW_CONFIG_CURRENT_RULES.min_map_res], &zoom_factor);
-  signed int return_value_group_mesher$1;
+  signed int return_value_group_mesher_1;
   if(!(map == ((struct BITMAP *)NULL)))
   {
     mesher=create_first_mesher(map);
@@ -7584,8 +7584,8 @@ signed int create_mesh(void)
       i = 1;
       for( ; !(i >= 9); i = i * 2)
       {
-        return_value_group_mesher$1=group_mesher(mesher, map, i);
-        if(return_value_group_mesher$1 == 0)
+        return_value_group_mesher_1=group_mesher(mesher, map, i);
+        if(return_value_group_mesher_1 == 0)
           break;
 
       }
@@ -7596,7 +7596,7 @@ signed int create_mesh(void)
     destroy_bitmap(map);
   }
 
-  if(CURRENT_MESH == ((struct anonymous$0 *)NULL))
+  if(CURRENT_MESH == ((struct anonymous_0 *)NULL))
     retour = -1;
 
   return retour;
@@ -7629,7 +7629,7 @@ struct BITMAP * create_mesh_bitmap(signed int mode)
 
     __CPROVER_DUMP_L6:
       ;
-      rectfill$link3(result, (signed int)(CURRENT_MESH + (signed long int)i)->x, (signed int)(CURRENT_MESH + (signed long int)i)->y, ((signed int)(CURRENT_MESH + (signed long int)i)->x + (signed int)(CURRENT_MESH + (signed long int)i)->side.size) - 1, ((signed int)(CURRENT_MESH + (signed long int)i)->y + (signed int)(CURRENT_MESH + (signed long int)i)->side.size) - 1, 96 + color % 32);
+      rectfill_link3(result, (signed int)(CURRENT_MESH + (signed long int)i)->x, (signed int)(CURRENT_MESH + (signed long int)i)->y, ((signed int)(CURRENT_MESH + (signed long int)i)->x + (signed int)(CURRENT_MESH + (signed long int)i)->side.size) - 1, ((signed int)(CURRENT_MESH + (signed long int)i)->y + (signed int)(CURRENT_MESH + (signed long int)i)->side.size) - 1, 96 + color % 32);
     }
   }
 
@@ -7642,7 +7642,7 @@ static struct BITMAP * create_mono_texture(signed int first)
 {
   struct BITMAP *result;
   result=my_create_bitmap(1, 1);
-  putpixel$link8(result, 0, 0, first);
+  putpixel_link8(result, 0, 0, first);
   return result;
 }
 
@@ -7656,37 +7656,37 @@ static void create_new_palette(struct RGB *dst, struct RGB *src, struct BITMAP *
   signed int index;
   signed int nb_retries = 0;
   struct RGB color;
-  signed long int return_value_random$1;
-  return_value_random$1=random();
-  x = (signed int)(return_value_random$1 % (signed long int)bmp->w);
-  signed long int return_value_random$2;
-  return_value_random$2=random();
-  y = (signed int)(return_value_random$2 % (signed long int)bmp->h);
-  signed int return_value_getpixel$3;
-  return_value_getpixel$3=getpixel$link6(bmp, x, y);
-  color = src[(signed long int)return_value_getpixel$3];
+  signed long int return_value_random_1;
+  return_value_random_1=random();
+  x = (signed int)(return_value_random_1 % (signed long int)bmp->w);
+  signed long int return_value_random_2;
+  return_value_random_2=random();
+  y = (signed int)(return_value_random_2 % (signed long int)bmp->h);
+  signed int return_value_getpixel_3;
+  return_value_getpixel_3=getpixel_link6(bmp, x, y);
+  color = src[(signed long int)return_value_getpixel_3];
   i = 0;
   for( ; !(i >= 256); i = i + 1)
     dst[(signed long int)i] = color;
   i = 1;
-  signed int tmp_post$6;
+  signed int tmp_post_6;
   while(!(i >= number_of_colors))
   {
-    signed long int return_value_random$4;
-    return_value_random$4=random();
-    x = (signed int)(return_value_random$4 % (signed long int)bmp->w);
-    signed long int return_value_random$5;
-    return_value_random$5=random();
-    y = (signed int)(return_value_random$5 % (signed long int)bmp->h);
-    index=getpixel$link6(bmp, x, y);
+    signed long int return_value_random_4;
+    return_value_random_4=random();
+    x = (signed int)(return_value_random_4 % (signed long int)bmp->w);
+    signed long int return_value_random_5;
+    return_value_random_5=random();
+    y = (signed int)(return_value_random_5 % (signed long int)bmp->h);
+    index=getpixel_link6(bmp, x, y);
     color = src[(signed long int)index];
-    signed int return_value_exist_color$7;
-    return_value_exist_color$7=exist_color(dst, color);
-    if(return_value_exist_color$7 == 0 || nb_retries >= 10001)
+    signed int return_value_exist_color_7;
+    return_value_exist_color_7=exist_color(dst, color);
+    if(return_value_exist_color_7 == 0 || nb_retries >= 10001)
     {
-      tmp_post$6 = i;
+      tmp_post_6 = i;
       i = i + 1;
-      dst[(signed long int)(first_color + tmp_post$6)] = color;
+      dst[(signed long int)(first_color + tmp_post_6)] = color;
       nb_retries = 0;
     }
 
@@ -7722,7 +7722,7 @@ static struct BITMAP * create_raw_texture(void *ptr, signed int first)
       {
         totest = (char)(1 << pos8);
         color = first + (((signed int)data[(signed long int)0] & (signed int)totest) != 0 ? 1 : 0) + (((signed int)data[(signed long int)1] & (signed int)totest) != 0 ? 2 : 0) + (((signed int)data[(signed long int)2] & (signed int)totest) != 0 ? 4 : 0) + (((signed int)data[(signed long int)3] & (signed int)totest) != 0 ? 8 : 0) + (((signed int)data[(signed long int)4] & (signed int)totest) != 0 ? 16 : 0);
-        putpixel$link8(result, x, y, color);
+        putpixel_link8(result, x, y, color);
         if(pos8 == 7)
         {
           data = data + (signed long int)5;
@@ -7796,29 +7796,29 @@ static void create_wave_line(signed int *buffer, signed int length, signed int n
   cycle_tmp = 65536;
   for( ; speed >= 1; speed = speed - 1)
     cycle_tmp = cycle_tmp / 2;
-  signed int return_value_fsqrt$1;
-  return_value_fsqrt$1=fsqrt(cycle_tmp);
-  signed int return_value_fsqrt$2;
-  return_value_fsqrt$2=fsqrt(return_value_fsqrt$1);
-  cycle_tmp = return_value_fsqrt$2 / 2;
-  signed int tmp_if_expr$3;
+  signed int return_value_fsqrt_1;
+  return_value_fsqrt_1=fsqrt(cycle_tmp);
+  signed int return_value_fsqrt_2;
+  return_value_fsqrt_2=fsqrt(return_value_fsqrt_1);
+  cycle_tmp = return_value_fsqrt_2 / 2;
+  signed int tmp_if_expr_3;
   if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-    tmp_if_expr$3 = gfx_driver->w;
+    tmp_if_expr_3 = gfx_driver->w;
 
   else
-    tmp_if_expr$3 = 0;
-  cycle_tmp = cycle_tmp / tmp_if_expr$3;
+    tmp_if_expr_3 = 0;
+  cycle_tmp = cycle_tmp / tmp_if_expr_3;
   cycle_tmp = cycle_tmp * period;
   if(!(cycle_tmp >= 1))
     cycle_tmp = 1;
 
-  signed int return_value_itofix$4;
-  return_value_itofix$4=itofix$link1(GLOBAL_TICKER % cycle_tmp);
-  cycle_coef = sens * 256 * (return_value_itofix$4 / cycle_tmp);
+  signed int return_value_itofix_4;
+  return_value_itofix_4=itofix_link1(GLOBAL_TICKER % cycle_tmp);
+  cycle_coef = sens * 256 * (return_value_itofix_4 / cycle_tmp);
   f0=fsin(cycle_coef + freq_coef * period2);
-  signed int return_value_fcos$5;
-  return_value_fcos$5=fcos(cycle_coef + freq_coef * period2);
-  fp0x0 = (3217 * return_value_fcos$5) / 1024;
+  signed int return_value_fcos_5;
+  return_value_fcos_5=fcos(cycle_coef + freq_coef * period2);
+  fp0x0 = (3217 * return_value_fcos_5) / 1024;
   alphax03 = (ampli_cst / 256) * ((fp0x0 - 2 * f0) / 256);
   betax02 = (ampli_cst / 256) * ((-fp0x0 + 3 * f0) / 256);
   i = 0;
@@ -7831,9 +7831,9 @@ static void create_wave_line(signed int *buffer, signed int length, signed int n
   i = period2;
   for( ; !(i >= real_length + -period2); i = i + 1)
   {
-    signed int return_value_fcos$6;
-    return_value_fcos$6=fcos(cycle_coef + freq_coef * i);
-    temp = (ampli_cos / 256) * (return_value_fcos$6 / 256);
+    signed int return_value_fcos_6;
+    return_value_fcos_6=fcos(cycle_coef + freq_coef * i);
+    temp = (ampli_cos / 256) * (return_value_fcos_6 / 256);
     buffer2[(signed long int)i] = temp / 4;
   }
   alphax03 = (ampli_cst / 256) * ((-fp0x0 - 2 * f0) / 256);
@@ -7856,7 +7856,7 @@ static void create_wave_line(signed int *buffer, signed int length, signed int n
 
 // decode
 // file netkey.c line 198
-static void decode(struct anonymous$5 *dst, unsigned char *src)
+static void decode(struct anonymous_5 *dst, unsigned char *src)
 {
   signed int i = 0;
   for( ; !(i >= 6); i = i + 1)
@@ -7954,9 +7954,9 @@ static void disp_cursor(signed int number)
   {
     x = x0 + CURSOR_LAYOUT[(signed long int)i].x;
     y = y0 + CURSOR_LAYOUT[(signed long int)i].y;
-    signed int return_value_getpixel$1;
-    return_value_getpixel$1=getpixel$link5(CURRENT_AREA_DISP, x, y);
-    CURSOR_GRAPHIC_MEMORY[(signed long int)number][(signed long int)i] = (char)return_value_getpixel$1;
+    signed int return_value_getpixel_1;
+    return_value_getpixel_1=getpixel_link5(CURRENT_AREA_DISP, x, y);
+    CURSOR_GRAPHIC_MEMORY[(signed long int)number][(signed long int)i] = (char)return_value_getpixel_1;
     switch(CURSOR_LAYOUT[(signed long int)i].row)
     {
       case 3:
@@ -7965,11 +7965,11 @@ static void disp_cursor(signed int number)
 
       case 1:
       {
-        putpixel$link7(CURRENT_AREA_DISP, x, y, (signed int)CURSOR_COLOR_MAP[(signed long int)CURSOR_LAYOUT[(signed long int)i].color] + color_offset);
+        putpixel_link7(CURRENT_AREA_DISP, x, y, (signed int)CURSOR_COLOR_MAP[(signed long int)CURSOR_LAYOUT[(signed long int)i].color] + color_offset);
         break;
       }
       case 2:
-        putpixel$link7(CURRENT_AREA_DISP, x, y, (signed int)CURSOR_COLOR_BACK[(signed long int)CURSOR_LAYOUT[(signed long int)i].color]);
+        putpixel_link7(CURRENT_AREA_DISP, x, y, (signed int)CURSOR_COLOR_BACK[(signed long int)CURSOR_LAYOUT[(signed long int)i].color]);
     }
   }
 }
@@ -8041,7 +8041,7 @@ void disp_distorted_area(void)
     x = 0;
     for( ; !(x >= w); x = x + 1)
     {
-      putpixel$link2(DISTORSION_TARGET, x, y, (signed int)*src);
+      putpixel_link2(DISTORSION_TARGET, x, y, (signed int)*src);
       fp_x0[(signed long int)x] = fp_x0[(signed long int)x] + WAVE_SHAPE_X_CORRES[(signed long int)x][(signed long int)y];
       reste_x = fp_x0[(signed long int)x];
       fp_x = fp_x + WAVE_SHAPE_WX[(signed long int)x];
@@ -8071,9 +8071,9 @@ static void disp_error_message(void)
 
 // disp_fighter
 // file fighter.c line 137
-static void disp_fighter(struct anonymous$21 *f)
+static void disp_fighter(struct anonymous_21 *f)
 {
-  putpixel$link3(CURRENT_AREA_DISP, (signed int)f->x, (signed int)f->y, COLOR_FIRST_ENTRY[(signed long int)(signed int)f->team] + ((signed int)f->health * COLORS_PER_TEAM) / 16384);
+  putpixel_link3(CURRENT_AREA_DISP, (signed int)f->x, (signed int)f->y, COLOR_FIRST_ENTRY[(signed long int)(signed int)f->team] + ((signed int)f->health * COLORS_PER_TEAM) / 16384);
 }
 
 // disp_graphics_fail_message
@@ -8148,9 +8148,9 @@ static void display(void)
   stop_profile(2);
   check_info_state();
   update_play_time();
-  signed int return_value_lw_capture_get_mode$1;
-  return_value_lw_capture_get_mode$1=lw_capture_get_mode();
-  if(!(return_value_lw_capture_get_mode$1 == 0))
+  signed int return_value_lw_capture_get_mode_1;
+  return_value_lw_capture_get_mode_1=lw_capture_get_mode();
+  if(!(return_value_lw_capture_get_mode_1 == 0))
   {
     display_info();
     lw_capture_dump_game();
@@ -8172,19 +8172,19 @@ static void display(void)
 void display_a_back_image(struct BITMAP *bmp)
 {
   scare_mouse();
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-    tmp_if_expr$1 = gfx_driver->w;
+    tmp_if_expr_1 = gfx_driver->w;
 
   else
-    tmp_if_expr$1 = 0;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = 0;
+  signed int tmp_if_expr_2;
   if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-    tmp_if_expr$2 = gfx_driver->h;
+    tmp_if_expr_2 = gfx_driver->h;
 
   else
-    tmp_if_expr$2 = 0;
-  stretch_blit(bmp, screen, 0, 0, bmp->w, bmp->h, 0, PAGE_FLIP_H, tmp_if_expr$1, tmp_if_expr$2);
+    tmp_if_expr_2 = 0;
+  stretch_blit(bmp, screen, 0, 0, bmp->w, bmp->h, 0, PAGE_FLIP_H, tmp_if_expr_1, tmp_if_expr_2);
   unscare_mouse();
 }
 
@@ -8192,25 +8192,25 @@ void display_a_back_image(struct BITMAP *bmp)
 // file disp.c line 82
 void display_area(void)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(CONFIG_WAVE_AMPLI[0l] == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = CONFIG_WAVE_AMPLI[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = CONFIG_WAVE_AMPLI[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = CONFIG_WAVE_AMPLI[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = CONFIG_WAVE_AMPLI[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = CONFIG_WAVE_AMPLI[(signed long int)3] != 0 ? (_Bool)1 : (_Bool)0;
-  if(!(CONFIG_WAVE_ON == 0) && tmp_if_expr$3)
+    tmp_if_expr_3 = CONFIG_WAVE_AMPLI[(signed long int)3] != 0 ? (_Bool)1 : (_Bool)0;
+  if(!(CONFIG_WAVE_ON == 0) && tmp_if_expr_3)
     disp_distorted_area();
 
   else
@@ -8269,15 +8269,15 @@ static void display_chosen_level(void)
   signed int bmp_h;
   struct BITMAP *pour_voir;
   retrieve_choose_level_xy(&x1, &x2, &x3, &x4, &x5, &x6, &x7, &x8, &y1, &y2, &y3, &y4, &y5, &y6, &y7, &y8);
-  signed int return_value_menu_real_x$1;
-  return_value_menu_real_x$1=menu_real_x(x4);
-  signed int return_value_menu_real_y$2;
-  return_value_menu_real_y$2=menu_real_y(y1);
-  signed int return_value_menu_real_x$3;
-  return_value_menu_real_x$3=menu_real_x(x4 + 160);
-  signed int return_value_menu_real_y$4;
-  return_value_menu_real_y$4=menu_real_y(y1 + 120);
-  rectfill$link2(screen, return_value_menu_real_x$1, return_value_menu_real_y$2, return_value_menu_real_x$3 - 1, return_value_menu_real_y$4 - 1, 16);
+  signed int return_value_menu_real_x_1;
+  return_value_menu_real_x_1=menu_real_x(x4);
+  signed int return_value_menu_real_y_2;
+  return_value_menu_real_y_2=menu_real_y(y1);
+  signed int return_value_menu_real_x_3;
+  return_value_menu_real_x_3=menu_real_x(x4 + 160);
+  signed int return_value_menu_real_y_4;
+  return_value_menu_real_y_4=menu_real_y(y1 + 120);
+  rectfill_link2(screen, return_value_menu_real_x_1, return_value_menu_real_y_2, return_value_menu_real_x_3 - 1, return_value_menu_real_y_4 - 1, 16);
   lw_maptex_set_fg_palette(CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
   lw_maptex_set_bg_palette(CONFIG_LEVEL_MAP, CONFIG_LEVEL_BG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
   my_set_palette();
@@ -8299,71 +8299,71 @@ static void display_chosen_level(void)
       sample_w = (max_h * bmp_w) / bmp_h;
       sample_h = max_h;
     }
-    signed int return_value_menu_real_x$5;
-    return_value_menu_real_x$5=menu_real_x(x4);
-    sample_x = return_value_menu_real_x$5 + (max_w - sample_w) / 2;
-    signed int return_value_menu_real_y$6;
-    return_value_menu_real_y$6=menu_real_y(y1);
-    sample_y = return_value_menu_real_y$6 + (max_h - sample_h) / 2;
+    signed int return_value_menu_real_x_5;
+    return_value_menu_real_x_5=menu_real_x(x4);
+    sample_x = return_value_menu_real_x_5 + (max_w - sample_w) / 2;
+    signed int return_value_menu_real_y_6;
+    return_value_menu_real_y_6=menu_real_y(y1);
+    sample_y = return_value_menu_real_y_6 + (max_h - sample_h) / 2;
     stretch_blit(pour_voir, screen, 0, 0, bmp_w, bmp_h, sample_x, sample_y, sample_w, sample_h);
     destroy_bitmap(pour_voir);
   }
 
-  signed int return_value_lw_maptex_is_custom_texture_used$15;
-  return_value_lw_maptex_is_custom_texture_used$15=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
-  if(return_value_lw_maptex_is_custom_texture_used$15 == 0)
+  signed int return_value_lw_maptex_is_custom_texture_used_15;
+  return_value_lw_maptex_is_custom_texture_used_15=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
+  if(return_value_lw_maptex_is_custom_texture_used_15 == 0)
   {
-    signed int return_value_menu_real_x$7;
-    return_value_menu_real_x$7=menu_real_x(x1);
-    signed int return_value_menu_real_y$8;
-    return_value_menu_real_y$8=menu_real_y(y1);
-    signed int return_value_menu_real_x$9;
-    return_value_menu_real_x$9=menu_real_x(x1 + 40);
-    signed int return_value_menu_real_y$10;
-    return_value_menu_real_y$10=menu_real_y(y1 + 40);
-    rectfill$link2(screen, return_value_menu_real_x$7, return_value_menu_real_y$8, return_value_menu_real_x$9 - 1, return_value_menu_real_y$10 - 1, 16);
+    signed int return_value_menu_real_x_7;
+    return_value_menu_real_x_7=menu_real_x(x1);
+    signed int return_value_menu_real_y_8;
+    return_value_menu_real_y_8=menu_real_y(y1);
+    signed int return_value_menu_real_x_9;
+    return_value_menu_real_x_9=menu_real_x(x1 + 40);
+    signed int return_value_menu_real_y_10;
+    return_value_menu_real_y_10=menu_real_y(y1 + 40);
+    rectfill_link2(screen, return_value_menu_real_x_7, return_value_menu_real_y_8, return_value_menu_real_x_9 - 1, return_value_menu_real_y_10 - 1, 16);
     pour_voir=lw_maptex_create_fg(CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
     if(!(pour_voir == ((struct BITMAP *)NULL)))
     {
-      signed int return_value_menu_real_x$11;
-      return_value_menu_real_x$11=menu_real_x(x1);
-      signed int return_value_menu_real_x$12;
-      return_value_menu_real_x$12=menu_real_x(y1);
-      signed int return_value_menu_real_x$13;
-      return_value_menu_real_x$13=menu_real_x(40);
-      signed int return_value_menu_real_x$14;
-      return_value_menu_real_x$14=menu_real_x(40);
-      stretch_blit(pour_voir, screen, 0, 0, pour_voir->w, pour_voir->h, return_value_menu_real_x$11, return_value_menu_real_x$12, return_value_menu_real_x$13, return_value_menu_real_x$14);
+      signed int return_value_menu_real_x_11;
+      return_value_menu_real_x_11=menu_real_x(x1);
+      signed int return_value_menu_real_x_12;
+      return_value_menu_real_x_12=menu_real_x(y1);
+      signed int return_value_menu_real_x_13;
+      return_value_menu_real_x_13=menu_real_x(40);
+      signed int return_value_menu_real_x_14;
+      return_value_menu_real_x_14=menu_real_x(40);
+      stretch_blit(pour_voir, screen, 0, 0, pour_voir->w, pour_voir->h, return_value_menu_real_x_11, return_value_menu_real_x_12, return_value_menu_real_x_13, return_value_menu_real_x_14);
       destroy_bitmap(pour_voir);
     }
 
   }
 
-  signed int return_value_lw_maptex_is_custom_texture_used$24;
-  return_value_lw_maptex_is_custom_texture_used$24=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_BG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
-  if(return_value_lw_maptex_is_custom_texture_used$24 == 0)
+  signed int return_value_lw_maptex_is_custom_texture_used_24;
+  return_value_lw_maptex_is_custom_texture_used_24=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_BG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
+  if(return_value_lw_maptex_is_custom_texture_used_24 == 0)
   {
-    signed int return_value_menu_real_x$16;
-    return_value_menu_real_x$16=menu_real_x(x8);
-    signed int return_value_menu_real_y$17;
-    return_value_menu_real_y$17=menu_real_y(y1);
-    signed int return_value_menu_real_x$18;
-    return_value_menu_real_x$18=menu_real_x(x8 + 40);
-    signed int return_value_menu_real_y$19;
-    return_value_menu_real_y$19=menu_real_y(y1 + 40);
-    rectfill$link2(screen, return_value_menu_real_x$16, return_value_menu_real_y$17, return_value_menu_real_x$18 - 1, return_value_menu_real_y$19 - 1, 16);
+    signed int return_value_menu_real_x_16;
+    return_value_menu_real_x_16=menu_real_x(x8);
+    signed int return_value_menu_real_y_17;
+    return_value_menu_real_y_17=menu_real_y(y1);
+    signed int return_value_menu_real_x_18;
+    return_value_menu_real_x_18=menu_real_x(x8 + 40);
+    signed int return_value_menu_real_y_19;
+    return_value_menu_real_y_19=menu_real_y(y1 + 40);
+    rectfill_link2(screen, return_value_menu_real_x_16, return_value_menu_real_y_17, return_value_menu_real_x_18 - 1, return_value_menu_real_y_19 - 1, 16);
     pour_voir=lw_maptex_create_bg(CONFIG_LEVEL_MAP, CONFIG_LEVEL_BG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
     if(!(pour_voir == ((struct BITMAP *)NULL)))
     {
-      signed int return_value_menu_real_x$20;
-      return_value_menu_real_x$20=menu_real_x(x8);
-      signed int return_value_menu_real_x$21;
-      return_value_menu_real_x$21=menu_real_x(y1);
-      signed int return_value_menu_real_x$22;
-      return_value_menu_real_x$22=menu_real_x(40);
-      signed int return_value_menu_real_x$23;
-      return_value_menu_real_x$23=menu_real_x(40);
-      stretch_blit(pour_voir, screen, 0, 0, pour_voir->w, pour_voir->h, return_value_menu_real_x$20, return_value_menu_real_x$21, return_value_menu_real_x$22, return_value_menu_real_x$23);
+      signed int return_value_menu_real_x_20;
+      return_value_menu_real_x_20=menu_real_x(x8);
+      signed int return_value_menu_real_x_21;
+      return_value_menu_real_x_21=menu_real_x(y1);
+      signed int return_value_menu_real_x_22;
+      return_value_menu_real_x_22=menu_real_x(40);
+      signed int return_value_menu_real_x_23;
+      return_value_menu_real_x_23=menu_real_x(40);
+      stretch_blit(pour_voir, screen, 0, 0, pour_voir->w, pour_voir->h, return_value_menu_real_x_20, return_value_menu_real_x_21, return_value_menu_real_x_22, return_value_menu_real_x_23);
       destroy_bitmap(pour_voir);
     }
 
@@ -8428,9 +8428,9 @@ signed int display_help(char *str)
 
     __CPROVER_DUMP_L5:
       ;
-      signed int return_value_confirm_quit$1;
-      return_value_confirm_quit$1=confirm_quit();
-      if(!(return_value_confirm_quit$1 == 0))
+      signed int return_value_confirm_quit_1;
+      return_value_confirm_quit_1=confirm_quit();
+      if(!(return_value_confirm_quit_1 == 0))
         retour = -2;
 
     }
@@ -8457,7 +8457,7 @@ static void display_horizontal_info(signed int w, signed int h, signed int epais
     barre_w = (ACTIVE_FIGHTERS[(signed long int)i] * (INFO_BAR_POS_W - 1)) / CURRENT_ARMY_SIZE + 1;
     barre_x = (INFO_BAR_POS_X[(signed long int)i] + INFO_BAR_POS_W) - barre_w;
     barre_y = INFO_BAR_POS_Y[(signed long int)i];
-    rectfill$link1(INFO_BAR, barre_x, barre_y, (barre_x + barre_w) - 1, (barre_y + INFO_BAR_POS_H) - 1, (COLOR_FIRST_ENTRY[(signed long int)i] + COLORS_PER_TEAM) - 1);
+    rectfill_link1(INFO_BAR, barre_x, barre_y, (barre_x + barre_w) - 1, (barre_y + INFO_BAR_POS_H) - 1, (COLOR_FIRST_ENTRY[(signed long int)i] + COLORS_PER_TEAM) - 1);
   }
 }
 
@@ -8472,18 +8472,18 @@ void display_info(void)
   signed int epaisseur;
   signed int temp_h;
   signed int temp_w;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
   if((4 & CONFIG_INFO_BAR) == 0)
   {
-    signed int return_value_text_length$1;
-    return_value_text_length$1=text_length(font, "00:00");
-    temp_w = return_value_text_length$1 + 2;
-    signed int return_value_text_height$2;
-    return_value_text_height$2=text_height(font);
-    temp_h = return_value_text_height$2 + 2;
+    signed int return_value_text_length_1;
+    return_value_text_length_1=text_length(font, "00:00");
+    temp_w = return_value_text_length_1 + 2;
+    signed int return_value_text_height_2;
+    return_value_text_height_2=text_height(font);
+    temp_h = return_value_text_height_2 + 2;
     if(!(CONFIG_INFO_BAR == 0) && !(CONFIG_INFO_BAR == 2))
     {
       if(CONFIG_INFO_BAR == 1)
@@ -8494,11 +8494,11 @@ void display_info(void)
     else
     {
       if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-        tmp_if_expr$3 = gfx_driver->w;
+        tmp_if_expr_3 = gfx_driver->w;
 
       else
-        tmp_if_expr$3 = 0;
-      w = tmp_if_expr$3;
+        tmp_if_expr_3 = 0;
+      w = tmp_if_expr_3;
       h = temp_h;
       if(!(h >= 13))
         h = 13;
@@ -8514,11 +8514,11 @@ void display_info(void)
       w = 13;
 
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$4 = gfx_driver->h;
+      tmp_if_expr_4 = gfx_driver->h;
 
     else
-      tmp_if_expr$4 = 0;
-    h = tmp_if_expr$4;
+      tmp_if_expr_4 = 0;
+    h = tmp_if_expr_4;
     epaisseur = temp_h;
 
   __CPROVER_DUMP_L9:
@@ -8526,27 +8526,27 @@ void display_info(void)
     if(INFO_BAR == ((struct BITMAP *)NULL))
       init_info_bar(w, h, epaisseur);
 
-    draw_sprite$link1(INFO_BAR, INFO_BAR_BACK, 0, 0);
+    draw_sprite_link1(INFO_BAR, INFO_BAR_BACK, 0, 0);
     switch(CONFIG_INFO_BAR)
     {
       case 0:
       {
         x = 0;
         y = PAGE_FLIP_H;
-        hline$link1(screen, x, y + h, (x + w) - 1, 17);
+        hline_link1(screen, x, y + h, (x + w) - 1, 17);
         display_horizontal_info(w, h, epaisseur);
         break;
       }
       case 1:
       {
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$5 = gfx_driver->w;
+          tmp_if_expr_5 = gfx_driver->w;
 
         else
-          tmp_if_expr$5 = 0;
-        x = tmp_if_expr$5 - w;
+          tmp_if_expr_5 = 0;
+        x = tmp_if_expr_5 - w;
         y = PAGE_FLIP_H;
-        vline$link1(screen, x - 1, y, (y + h) - 1, 17);
+        vline_link1(screen, x - 1, y, (y + h) - 1, 17);
         display_vertical_info(w, h, epaisseur);
         break;
       }
@@ -8554,12 +8554,12 @@ void display_info(void)
       {
         x = 0;
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$6 = gfx_driver->h;
+          tmp_if_expr_6 = gfx_driver->h;
 
         else
-          tmp_if_expr$6 = 0;
-        y = (PAGE_FLIP_H + tmp_if_expr$6) - h;
-        hline$link1(screen, x, y - 1, (x + w) - 1, 17);
+          tmp_if_expr_6 = 0;
+        y = (PAGE_FLIP_H + tmp_if_expr_6) - h;
+        hline_link1(screen, x, y - 1, (x + w) - 1, 17);
         display_horizontal_info(w, h, epaisseur);
         break;
       }
@@ -8567,11 +8567,11 @@ void display_info(void)
       {
         x = 0;
         y = PAGE_FLIP_H;
-        vline$link1(screen, x + w, y, (y + h) - 1, 17);
+        vline_link1(screen, x + w, y, (y + h) - 1, 17);
         display_vertical_info(w, h, epaisseur);
       }
     }
-    draw_sprite$link1(screen, INFO_BAR, x, y);
+    draw_sprite_link1(screen, INFO_BAR, x, y);
   }
 
 }
@@ -8628,11 +8628,11 @@ void display_message(void)
   }
   h=text_height(font);
   i = 0;
-  signed int return_value_text_length$1;
+  signed int return_value_text_length_1;
   for( ; !(i >= MESSAGE_NB); i = i + 1)
   {
-    return_value_text_length$1=text_length(font, MESSAGE[(signed long int)i]);
-    textout_ex(NEXT_SCREEN, font, MESSAGE[(signed long int)i], NEXT_SCREEN->w - return_value_text_length$1, NEXT_SCREEN->h - (MESSAGE_NB - i) * h, -1, -1);
+    return_value_text_length_1=text_length(font, MESSAGE[(signed long int)i]);
+    textout_ex(NEXT_SCREEN, font, MESSAGE[(signed long int)i], NEXT_SCREEN->w - return_value_text_length_1, NEXT_SCREEN->h - (MESSAGE_NB - i) * h, -1, -1);
   }
 }
 
@@ -8686,16 +8686,16 @@ signed int display_scores(void)
   d[(signed long int)10].proc = (signed int (*)(signed int, struct DIALOG *, signed int))(void *)0;
   init_tombola();
   ellipse_h = d[(signed long int)4].h;
-  signed int return_value_menu_real_y$1;
-  return_value_menu_real_y$1=menu_real_y(3);
-  y = d[(signed long int)4].y - return_value_menu_real_y$1;
-  signed int tmp_if_expr$2;
+  signed int return_value_menu_real_y_1;
+  return_value_menu_real_y_1=menu_real_y(3);
+  y = d[(signed long int)4].y - return_value_menu_real_y_1;
+  signed int tmp_if_expr_2;
   if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-    tmp_if_expr$2 = gfx_driver->h;
+    tmp_if_expr_2 = gfx_driver->h;
 
   else
-    tmp_if_expr$2 = 0;
-  h[(signed long int)1] = 2 * y - tmp_if_expr$2;
+    tmp_if_expr_2 = 0;
+  h[(signed long int)1] = 2 * y - tmp_if_expr_2;
   h[(signed long int)0] = h[(signed long int)1] / 2;
   h[(signed long int)2] = (3 * h[(signed long int)1]) / 4;
   w = d[(signed long int)4].w;
@@ -8722,8 +8722,8 @@ signed int display_scores(void)
   my_fade_in();
   play_win();
   first_ticker=get_ticker();
-  signed int return_value_my_update_dialog$3;
-  signed int tmp_statement_expression$5;
+  signed int return_value_my_update_dialog_3;
+  signed int tmp_statement_expression_5;
   while(retour == 0)
   {
     if(last_draw_done == 0)
@@ -8731,17 +8731,17 @@ signed int display_scores(void)
       dp=my_init_dialog(d, choix);
       do
       {
-        return_value_my_update_dialog$3=my_update_dialog(dp);
-        if(return_value_my_update_dialog$3 == 0)
+        return_value_my_update_dialog_3=my_update_dialog(dp);
+        if(return_value_my_update_dialog_3 == 0)
           break;
 
         if(!(last_draw_done == 0))
           break;
 
         scare_mouse();
-        signed int return_value_get_ticker$4;
-        return_value_get_ticker$4=get_ticker();
-        diff_ticker = return_value_get_ticker$4 - first_ticker;
+        signed int return_value_get_ticker_4;
+        return_value_get_ticker_4=get_ticker();
+        diff_ticker = return_value_get_ticker_4 - first_ticker;
         if(!(cursor[0l] >= 0))
           diff_ticker = diff_ticker + 1000;
 
@@ -8750,20 +8750,20 @@ signed int display_scores(void)
           if(done[(signed long int)i] == 0)
           {
             fill_level = diff_ticker - time_delay[(signed long int)i];
-            signed int return_value_draw_score_bitmap$7;
-            return_value_draw_score_bitmap$7=draw_score_bitmap(eprouvette[(signed long int)i], cursor[(signed long int)i], ellipse_h, fill_level);
-            if(!(return_value_draw_score_bitmap$7 == 0))
+            signed int return_value_draw_score_bitmap_7;
+            return_value_draw_score_bitmap_7=draw_score_bitmap(eprouvette[(signed long int)i], cursor[(signed long int)i], ellipse_h, fill_level);
+            if(!(return_value_draw_score_bitmap_7 == 0))
             {
-              draw_sprite$link2(screen, eprouvette[(signed long int)i], x[(signed long int)i], y - h[(signed long int)i]);
+              draw_sprite_link2(screen, eprouvette[(signed long int)i], x[(signed long int)i], y - h[(signed long int)i]);
               if(fill_level >= 1)
               {
                 write_score(cursor[(signed long int)i], buf[(signed long int)i], fill_level);
                 unsigned long int __s1_len;
                 unsigned long int __s2_len;
-                signed int return_value___builtin_strcmp$6;
-                return_value___builtin_strcmp$6=__builtin_strcmp(buf[(signed long int)i], buf_old[(signed long int)i]);
-                tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-                if(!(tmp_statement_expression$5 == 0))
+                signed int return_value___builtin_strcmp_6;
+                return_value___builtin_strcmp_6=__builtin_strcmp(buf[(signed long int)i], buf_old[(signed long int)i]);
+                tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+                if(!(tmp_statement_expression_5 == 0))
                 {
                   d[(signed long int)(4 + i)].dp = (void *)buf[(signed long int)i];
                   d[(signed long int)(4 + i)].proc(3, d + (signed long int)4 + (signed long int)i, 0);
@@ -8800,7 +8800,7 @@ signed int display_scores(void)
       scare_mouse();
       i = 0;
       for( ; !(i >= 3); i = i + 1)
-        draw_sprite$link2(screen, eprouvette[(signed long int)i], x[(signed long int)i], y - h[(signed long int)i]);
+        draw_sprite_link2(screen, eprouvette[(signed long int)i], x[(signed long int)i], y - h[(signed long int)i]);
       unscare_mouse();
       d[(signed long int)0].flags = 1;
       d[(signed long int)1].flags = 1;
@@ -8833,9 +8833,9 @@ signed int display_scores(void)
 
     __CPROVER_DUMP_L26:
       ;
-      signed int return_value_confirm_quit$8;
-      return_value_confirm_quit$8=confirm_quit();
-      if(!(return_value_confirm_quit$8 == 0))
+      signed int return_value_confirm_quit_8;
+      return_value_confirm_quit_8=confirm_quit();
+      if(!(return_value_confirm_quit_8 == 0))
         retour = -2;
 
       else
@@ -8871,9 +8871,9 @@ static void display_special_info(void)
     if(!(global >= 1))
       global = 1;
 
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(135);
-    message_str_int(return_value_lw_lang_string$1, 1000 / global);
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(135);
+    message_str_int(return_value_lw_lang_string_1, 1000 / global);
   }
 
   if(!(WATCHDOG_SCANCODE[52l] == 0))
@@ -8882,9 +8882,9 @@ static void display_special_info(void)
     if(!(global >= 1))
       global = 1;
 
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(136);
-    message_str_int(return_value_lw_lang_string$2, 1000 / global);
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(136);
+    message_str_int(return_value_lw_lang_string_2, 1000 / global);
   }
 
   if(!(WATCHDOG_SCANCODE[53l] == 0))
@@ -8895,9 +8895,9 @@ static void display_special_info(void)
     if(!(global >= 1))
       global = 1;
 
-    char *return_value_lw_lang_string$3;
-    return_value_lw_lang_string$3=lw_lang_string(137);
-    message_str_int(return_value_lw_lang_string$3, (100 * (spread + move)) / global);
+    char *return_value_lw_lang_string_3;
+    return_value_lw_lang_string_3=lw_lang_string(137);
+    message_str_int(return_value_lw_lang_string_3, (100 * (spread + move)) / global);
   }
 
   if(!(WATCHDOG_SCANCODE[54l] == 0))
@@ -8908,38 +8908,38 @@ static void display_special_info(void)
     if(!(global >= 1))
       global = 1;
 
-    char *return_value_lw_lang_string$4;
-    return_value_lw_lang_string$4=lw_lang_string(138);
-    message_str_int(return_value_lw_lang_string$4, (100 * (disp + flip)) / global);
+    char *return_value_lw_lang_string_4;
+    return_value_lw_lang_string_4=lw_lang_string(138);
+    message_str_int(return_value_lw_lang_string_4, (100 * (disp + flip)) / global);
   }
 
-  signed int return_value_watchdog_is_keyword$11;
-  return_value_watchdog_is_keyword$11=watchdog_is_keyword("speed");
-  if(!(return_value_watchdog_is_keyword$11 == 0))
+  signed int return_value_watchdog_is_keyword_11;
+  return_value_watchdog_is_keyword_11=watchdog_is_keyword("speed");
+  if(!(return_value_watchdog_is_keyword_11 == 0))
   {
     global=get_profile(4);
     spread=get_profile(0);
     move=get_profile(1);
     disp=get_profile(2);
     flip=get_profile(3);
-    char *return_value_lw_lang_string$5;
-    return_value_lw_lang_string$5=lw_lang_string(139);
-    message_str_int(return_value_lw_lang_string$5, spread);
-    char *return_value_lw_lang_string$6;
-    return_value_lw_lang_string$6=lw_lang_string(140);
-    message_str_int(return_value_lw_lang_string$6, move);
-    char *return_value_lw_lang_string$7;
-    return_value_lw_lang_string$7=lw_lang_string(141);
-    message_str_int(return_value_lw_lang_string$7, disp);
-    char *return_value_lw_lang_string$8;
-    return_value_lw_lang_string$8=lw_lang_string(142);
-    message_str_int(return_value_lw_lang_string$8, flip);
-    char *return_value_lw_lang_string$9;
-    return_value_lw_lang_string$9=lw_lang_string(143);
-    message_str_int(return_value_lw_lang_string$9, (((global - spread) - move) - disp) - flip);
-    char *return_value_lw_lang_string$10;
-    return_value_lw_lang_string$10=lw_lang_string(144);
-    message_str_int(return_value_lw_lang_string$10, global);
+    char *return_value_lw_lang_string_5;
+    return_value_lw_lang_string_5=lw_lang_string(139);
+    message_str_int(return_value_lw_lang_string_5, spread);
+    char *return_value_lw_lang_string_6;
+    return_value_lw_lang_string_6=lw_lang_string(140);
+    message_str_int(return_value_lw_lang_string_6, move);
+    char *return_value_lw_lang_string_7;
+    return_value_lw_lang_string_7=lw_lang_string(141);
+    message_str_int(return_value_lw_lang_string_7, disp);
+    char *return_value_lw_lang_string_8;
+    return_value_lw_lang_string_8=lw_lang_string(142);
+    message_str_int(return_value_lw_lang_string_8, flip);
+    char *return_value_lw_lang_string_9;
+    return_value_lw_lang_string_9=lw_lang_string(143);
+    message_str_int(return_value_lw_lang_string_9, (((global - spread) - move) - disp) - flip);
+    char *return_value_lw_lang_string_10;
+    return_value_lw_lang_string_10=lw_lang_string(144);
+    message_str_int(return_value_lw_lang_string_10, global);
   }
 
 }
@@ -8973,15 +8973,15 @@ static void display_time(signed int x, signed int y, signed int w, signed int h)
   char buffer[6l];
   signed int min;
   signed int sec;
-  signed int display_time$$1$$time;
+  signed int display_time__1__time;
   w = w;
   h = h;
-  display_time$$1$$time = TIME_LEFT;
-  if(!(display_time$$1$$time >= 0))
-    display_time$$1$$time = 0;
+  display_time__1__time = TIME_LEFT;
+  if(!(display_time__1__time >= 0))
+    display_time__1__time = 0;
 
-  min = display_time$$1$$time / 60;
-  sec = display_time$$1$$time % 60;
+  min = display_time__1__time / 60;
+  sec = display_time__1__time % 60;
   buffer[(signed long int)0] = (char)(48 + min / 10);
   buffer[(signed long int)1] = (char)(48 + min % 10);
   buffer[(signed long int)2] = (char)58;
@@ -9007,7 +9007,7 @@ static void display_vertical_info(signed int w, signed int h, signed int epaisse
     barre_h = (ACTIVE_FIGHTERS[(signed long int)i] * (INFO_BAR_POS_H - 1)) / CURRENT_ARMY_SIZE + 1;
     barre_y = (INFO_BAR_POS_Y[(signed long int)i] + INFO_BAR_POS_H) - barre_h;
     barre_x = INFO_BAR_POS_X[(signed long int)i];
-    rectfill$link1(INFO_BAR, barre_x, barre_y, (barre_x + INFO_BAR_POS_W) - 1, (barre_y + barre_h) - 1, (COLOR_FIRST_ENTRY[(signed long int)i] + COLORS_PER_TEAM) - 1);
+    rectfill_link1(INFO_BAR, barre_x, barre_y, (barre_x + INFO_BAR_POS_W) - 1, (barre_y + barre_h) - 1, (COLOR_FIRST_ENTRY[(signed long int)i] + COLORS_PER_TEAM) - 1);
   }
 }
 
@@ -9073,19 +9073,19 @@ static signed int draw_score_bitmap(struct BITMAP *bitmap, signed int cursor, si
     fill_level = fill_level * (h - 3 * y_rect1);
     fill_level = fill_level / 1000;
     fill_level = fill_level + 2 * y_rect1;
-    rectfill$link4(bitmap, 0, 0, w, h, 0);
+    rectfill_link4(bitmap, 0, 0, w, h, 0);
     if(!(to_be_filled == 0))
       ellipsefill(bitmap, x_mid, y_rect2, x_mid, ellipse_h / 2, color1);
 
     ellipse(bitmap, x_mid, y_rect2, x_mid, ellipse_h / 2, 17);
     if(!(to_be_filled == 0))
     {
-      rectfill$link4(bitmap, 1, fill_level, x_mid * 2 - 1, y_rect2 - 1, color1);
+      rectfill_link4(bitmap, 1, fill_level, x_mid * 2 - 1, y_rect2 - 1, color1);
       ellipsefill(bitmap, x_mid, fill_level, x_mid - 1, ellipse_h / 2 - 1, color2);
     }
 
-    vline$link3(bitmap, 0, y_rect1, y_rect2, 17);
-    vline$link3(bitmap, x_mid * 2, y_rect1, y_rect2, 17);
+    vline_link3(bitmap, 0, y_rect1, y_rect2, 17);
+    vline_link3(bitmap, x_mid * 2, y_rect1, y_rect2, 17);
     ellipse(bitmap, x_mid, y_rect1, x_mid, ellipse_h / 2, 17);
   }
 
@@ -9103,26 +9103,26 @@ static inline void draw_sprite(struct BITMAP *bmp, struct BITMAP *sprite, signed
     bmp->vtable->draw_sprite(bmp, sprite, x, y);
 }
 
-// draw_sprite$link1
+// draw_sprite_link1
 // file /usr/include/allegro/inline/draw.inl line 238
-static inline void draw_sprite$link1(struct BITMAP *bmp$link1, struct BITMAP *sprite$link1, signed int x$link1, signed int y$link1)
+static inline void draw_sprite_link1(struct BITMAP *bmp_link1, struct BITMAP *sprite_link1, signed int x_link1, signed int y_link1)
 {
-  if(sprite$link1->vtable->color_depth == 8)
-    bmp$link1->vtable->draw_256_sprite(bmp$link1, sprite$link1, x$link1, y$link1);
+  if(sprite_link1->vtable->color_depth == 8)
+    bmp_link1->vtable->draw_256_sprite(bmp_link1, sprite_link1, x_link1, y_link1);
 
   else
-    bmp$link1->vtable->draw_sprite(bmp$link1, sprite$link1, x$link1, y$link1);
+    bmp_link1->vtable->draw_sprite(bmp_link1, sprite_link1, x_link1, y_link1);
 }
 
-// draw_sprite$link2
+// draw_sprite_link2
 // file /usr/include/allegro/inline/draw.inl line 238
-static inline void draw_sprite$link2(struct BITMAP *bmp$link2, struct BITMAP *sprite$link2, signed int x$link2, signed int y$link2)
+static inline void draw_sprite_link2(struct BITMAP *bmp_link2, struct BITMAP *sprite_link2, signed int x_link2, signed int y_link2)
 {
-  if(sprite$link2->vtable->color_depth == 8)
-    bmp$link2->vtable->draw_256_sprite(bmp$link2, sprite$link2, x$link2, y$link2);
+  if(sprite_link2->vtable->color_depth == 8)
+    bmp_link2->vtable->draw_256_sprite(bmp_link2, sprite_link2, x_link2, y_link2);
 
   else
-    bmp$link2->vtable->draw_sprite(bmp$link2, sprite$link2, x$link2, y$link2);
+    bmp_link2->vtable->draw_sprite(bmp_link2, sprite_link2, x_link2, y_link2);
 }
 
 // eat_space
@@ -9130,11 +9130,11 @@ static inline void draw_sprite$link2(struct BITMAP *bmp$link2, struct BITMAP *sp
 static signed int eat_space(char **message)
 {
   signed int result = 0;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*(*message)]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*(*message)]) == 0)
       break;
 
     result = result + 1;
@@ -9208,19 +9208,19 @@ static inline void ellipsefill(struct BITMAP *bmp, signed int x, signed int y, s
 
 // encode
 // file netkey.c line 160
-static void encode(unsigned char *dst, struct anonymous$5 *src)
+static void encode(unsigned char *dst, struct anonymous_5 *src)
 {
   signed int i = 0;
   for( ; !(i >= 6); i = i + 1)
   {
-    char return_value_int_to_ascii_hexa$1;
-    return_value_int_to_ascii_hexa$1=int_to_ascii_hexa(src->key_states[(signed long int)i]);
-    dst[(signed long int)i] = (unsigned char)return_value_int_to_ascii_hexa$1;
+    char return_value_int_to_ascii_hexa_1;
+    return_value_int_to_ascii_hexa_1=int_to_ascii_hexa(src->key_states[(signed long int)i]);
+    dst[(signed long int)i] = (unsigned char)return_value_int_to_ascii_hexa_1;
   }
   dst[(signed long int)6] = (unsigned char)src->cmd;
-  char return_value_int_to_ascii_hexa$2;
-  return_value_int_to_ascii_hexa$2=int_to_ascii_hexa(src->arg);
-  dst[(signed long int)(6 + 1)] = (unsigned char)return_value_int_to_ascii_hexa$2;
+  char return_value_int_to_ascii_hexa_2;
+  return_value_int_to_ascii_hexa_2=int_to_ascii_hexa(src->arg);
+  dst[(signed long int)(6 + 1)] = (unsigned char)return_value_int_to_ascii_hexa_2;
   dst[(signed long int)(6 + 2 + 0)] = (unsigned char)(src->checksum & (unsigned int)0xFF);
   dst[(signed long int)(6 + 2 + 1)] = (unsigned char)(src->checksum >> 8 & (unsigned int)0xFF);
   dst[(signed long int)(6 + 2 + 2)] = (unsigned char)(src->checksum >> 16 & (unsigned int)0xFF);
@@ -9229,154 +9229,154 @@ static void encode(unsigned char *dst, struct anonymous$5 *src)
 
 // erase_fighter
 // file fighter.c line 129
-static void erase_fighter(struct anonymous$21 *f)
+static void erase_fighter(struct anonymous_21 *f)
 {
-  signed int return_value_getpixel$1;
-  return_value_getpixel$1=getpixel$link1(CURRENT_AREA_BACK, (signed int)f->x, (signed int)f->y);
-  putpixel$link3(CURRENT_AREA_DISP, (signed int)f->x, (signed int)f->y, return_value_getpixel$1);
+  signed int return_value_getpixel_1;
+  return_value_getpixel_1=getpixel_link1(CURRENT_AREA_BACK, (signed int)f->x, (signed int)f->y);
+  putpixel_link3(CURRENT_AREA_DISP, (signed int)f->x, (signed int)f->y, return_value_getpixel_1);
 }
 
 // error_bad_config_range
 // file error.c line 206
 signed int error_bad_config_range(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(178);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(178);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_bad_password
 // file error.c line 199
 signed int error_bad_password(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(177);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(177);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_cant_receive_map
 // file error.c line 184
 signed int error_cant_receive_map(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(175);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(175);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_cant_send_map
 // file error.c line 177
 signed int error_cant_send_map(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(174);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(174);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_graphics_init_failed
 // file error.c line 129
 signed int error_graphics_init_failed(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(168);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(168);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_network_problem
 // file error.h line 73
 signed int error_network_problem(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(173);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(173);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_no_network_support
 // file error.c line 137
 signed int error_no_network_support(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(169);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(169);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_not_a_liquidwar_server
 // file error.c line 153
 signed int error_not_a_liquidwar_server(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(171);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(171);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_not_enough_big_data
 // file error.c line 121
 signed int error_not_enough_big_data(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(167);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(167);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_not_enough_teams
 // file error.c line 113
 signed int error_not_enough_teams(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(166);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(166);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_server_full
 // file error.c line 192
 signed int error_server_full(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(176);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(176);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_unable_to_connect
 // file error.c line 145
 signed int error_unable_to_connect(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(170);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(170);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // error_wrong_version
 // file error.c line 161
 signed int error_wrong_version(void)
 {
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(172);
-  signed int return_value_standard_error$2;
-  return_value_standard_error$2=standard_error(return_value_lw_lang_string$1);
-  return return_value_standard_error$2;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(172);
+  signed int return_value_standard_error_2;
+  return_value_standard_error_2=standard_error(return_value_lw_lang_string_1);
+  return return_value_standard_error_2;
 }
 
 // exist_argument
@@ -9386,15 +9386,15 @@ signed int exist_argument(char *str)
   signed int i;
   signed int found = 0;
   i = 0;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; found == 0 && !(i >= 256); i = i + 1)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(str, ARGUMENT_NAME[(signed long int)i]);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    found = (signed int)!(tmp_statement_expression$1 != 0);
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(str, ARGUMENT_NAME[(signed long int)i]);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    found = (signed int)!(tmp_statement_expression_1 != 0);
   }
   return found;
 }
@@ -9406,29 +9406,29 @@ signed int exist_argument_value(char *str)
   signed int i;
   signed int found = 0;
   i = 0;
-  signed int tmp_statement_expression$1;
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_1;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_3;
   for( ; found == 0 && !(i >= 256); i = i + 1)
   {
-    unsigned long int exist_argument_value$$1$$1$$1$$__s1_len;
-    unsigned long int exist_argument_value$$1$$1$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(str, ARGUMENT_NAME[(signed long int)i]);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    unsigned long int exist_argument_value__1__1__1____s1_len;
+    unsigned long int exist_argument_value__1__1__1____s2_len;
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(str, ARGUMENT_NAME[(signed long int)i]);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp("", ARGUMENT_VALUE[(signed long int)i]);
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      tmp_if_expr$5 = tmp_statement_expression$3 != 0 ? (_Bool)1 : (_Bool)0;
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp("", ARGUMENT_VALUE[(signed long int)i]);
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      tmp_if_expr_5 = tmp_statement_expression_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    found = (signed int)tmp_if_expr$5;
+      tmp_if_expr_5 = (_Bool)0;
+    found = (signed int)tmp_if_expr_5;
   }
   return found;
 }
@@ -9437,9 +9437,9 @@ signed int exist_argument_value(char *str)
 // file texture.c line 97
 static signed int exist_color(struct RGB *pal, struct RGB rgb)
 {
-  signed int return_value_find_color$1;
-  return_value_find_color$1=find_color(pal, rgb);
-  return (signed int)(return_value_find_color$1 >= 0);
+  signed int return_value_find_color_1;
+  return_value_find_color_1=find_color(pal, rgb);
+  return (signed int)(return_value_find_color_1 >= 0);
 }
 
 // exit_all
@@ -9484,14 +9484,14 @@ static struct BITMAP * extract_significant_part(struct BITMAP *src)
   signed int y;
   struct BITMAP *result;
   y = 0;
-  signed int return_value_getpixel$1;
+  signed int return_value_getpixel_1;
   for( ; !(y >= src->h); y = y + 1)
   {
     x = 0;
     for( ; !(x >= src->w); x = x + 1)
     {
-      return_value_getpixel$1=getpixel$link3(src, x, y);
-      if(return_value_getpixel$1 == 0)
+      return_value_getpixel_1=getpixel_link3(src, x, y);
+      if(return_value_getpixel_1 == 0)
       {
         if(!(x >= min_x))
           min_x = x;
@@ -9530,9 +9530,9 @@ static struct BITMAP * extract_significant_part(struct BITMAP *src)
 // file /usr/include/allegro/alcompat.h line 50
 static inline signed int fcos(signed int x)
 {
-  signed int return_value_fixcos$1;
-  return_value_fixcos$1=fixcos(x);
-  return return_value_fixcos$1;
+  signed int return_value_fixcos_1;
+  return_value_fixcos_1=fixcos(x);
+  return return_value_fixcos_1;
 }
 
 // fill_next_screen
@@ -9565,9 +9565,9 @@ static void fill_with_fg_and_bg(struct BITMAP *bmp, signed int fg, signed int bg
     x = 0;
     for( ; !(x >= bmp->w); x = x + 1)
     {
-      signed int return_value_getpixel$1;
-      return_value_getpixel$1=getpixel$link3(bmp, x, y);
-      putpixel$link6(bmp, x, y, return_value_getpixel$1 == 1 ? bg : fg);
+      signed int return_value_getpixel_1;
+      return_value_getpixel_1=getpixel_link3(bmp, x, y);
+      putpixel_link6(bmp, x, y, return_value_getpixel_1 == 1 ? bg : fg);
     }
   }
 }
@@ -9614,9 +9614,9 @@ static inline signed int fixcos(signed int x)
 // file /usr/include/allegro/inline/fmaths.inl line 147
 static inline signed int fixdiv(signed int x, signed int y)
 {
-  double return_value_fixtof$1;
-  double return_value_fixtof$2;
-  signed int return_value_ftofix$3;
+  double return_value_fixtof_1;
+  double return_value_fixtof_2;
+  signed int return_value_ftofix_3;
   if(y == 0)
   {
     *allegro_errno = 34;
@@ -9625,10 +9625,10 @@ static inline signed int fixdiv(signed int x, signed int y)
 
   else
   {
-    return_value_fixtof$1=fixtof(x);
-    return_value_fixtof$2=fixtof(y);
-    return_value_ftofix$3=ftofix(return_value_fixtof$1 / return_value_fixtof$2);
-    return return_value_ftofix$3;
+    return_value_fixtof_1=fixtof(x);
+    return_value_fixtof_2=fixtof(y);
+    return_value_ftofix_3=ftofix(return_value_fixtof_1 / return_value_fixtof_2);
+    return return_value_ftofix_3;
   }
 }
 
@@ -9661,9 +9661,9 @@ static inline double fixtof(signed int x)
 // file /usr/include/allegro/inline/fmaths.inl line 187
 static inline signed int fixtoi(signed int x)
 {
-  signed int return_value_fixfloor$1;
-  return_value_fixfloor$1=fixfloor(x);
-  return return_value_fixfloor$1 + ((x & 0x8000) >> 15);
+  signed int return_value_fixfloor_1;
+  return_value_fixfloor_1=fixfloor(x);
+  return return_value_fixfloor_1 + ((x & 0x8000) >> 15);
 }
 
 // free_game_memory
@@ -9726,36 +9726,36 @@ void free_last_big_data_top(void)
 // file /usr/include/allegro/alcompat.h line 51
 static inline signed int fsin(signed int x)
 {
-  signed int return_value_fixsin$1;
-  return_value_fixsin$1=fixsin(x);
-  return return_value_fixsin$1;
+  signed int return_value_fixsin_1;
+  return_value_fixsin_1=fixsin(x);
+  return return_value_fixsin_1;
 }
 
 // fsqrt
 // file /usr/include/allegro/alcompat.h line 57
 static inline signed int fsqrt(signed int x)
 {
-  signed int return_value_fixsqrt$1;
-  return_value_fixsqrt$1=fixsqrt(x);
-  return return_value_fixsqrt$1;
+  signed int return_value_fixsqrt_1;
+  return_value_fixsqrt_1=fixsqrt(x);
+  return return_value_fixsqrt_1;
 }
 
-// fsqrt$link1
+// fsqrt_link1
 // file /usr/include/allegro/alcompat.h line 57
-static inline signed int fsqrt$link1(signed int x$link1)
+static inline signed int fsqrt_link1(signed int x_link1)
 {
-  signed int return_value_fixsqrt$1$link1;
-  return_value_fixsqrt$1$link1=fixsqrt(x$link1);
-  return return_value_fixsqrt$1$link1;
+  signed int return_value_fixsqrt_1_link1;
+  return_value_fixsqrt_1_link1=fixsqrt(x_link1);
+  return return_value_fixsqrt_1_link1;
 }
 
-// fsqrt$link2
+// fsqrt_link2
 // file /usr/include/allegro/alcompat.h line 57
-static inline signed int fsqrt$link2(signed int x$link2)
+static inline signed int fsqrt_link2(signed int x_link2)
 {
-  signed int return_value_fixsqrt$1$link2;
-  return_value_fixsqrt$1$link2=fixsqrt(x$link2);
-  return return_value_fixsqrt$1$link2;
+  signed int return_value_fixsqrt_1_link2;
+  return_value_fixsqrt_1_link2=fixsqrt(x_link2);
+  return return_value_fixsqrt_1_link2;
 }
 
 // ftofix
@@ -9796,9 +9796,9 @@ signed int game(void)
   reset_computer_path();
   reset_all_profile();
   play_go();
-  signed int return_value_get_ticker$3;
-  _Bool tmp_if_expr$2;
-  signed int return_value_get_ticker$1;
+  signed int return_value_get_ticker_3;
+  _Bool tmp_if_expr_2;
+  signed int return_value_get_ticker_1;
   while(WATCHDOG_SCANCODE[59l] == 0)
   {
     if(!(PLAYING_TEAMS >= 2))
@@ -9817,8 +9817,8 @@ signed int game(void)
       logic();
       do
       {
-        return_value_get_ticker$3=get_ticker();
-        if(return_value_get_ticker$3 >= LOGIC_DELAY_MIN[(signed long int)CONFIG_ROUNDS_PER_SEC_LIMIT] + last_logic_time)
+        return_value_get_ticker_3=get_ticker();
+        if(return_value_get_ticker_3 >= LOGIC_DELAY_MIN[(signed long int)CONFIG_ROUNDS_PER_SEC_LIMIT] + last_logic_time)
           break;
 
         usleep((unsigned int)1000);
@@ -9828,14 +9828,14 @@ signed int game(void)
       lr = lr + 1;
       if(!(CONFIG_FRAMES_PER_SEC_LIMIT == 0))
       {
-        return_value_get_ticker$1=get_ticker();
-        tmp_if_expr$2 = return_value_get_ticker$1 < last_display_time + DISPLAY_DELAY_MIN[(signed long int)CONFIG_FRAMES_PER_SEC_LIMIT] ? (_Bool)1 : (_Bool)0;
+        return_value_get_ticker_1=get_ticker();
+        tmp_if_expr_2 = return_value_get_ticker_1 < last_display_time + DISPLAY_DELAY_MIN[(signed long int)CONFIG_FRAMES_PER_SEC_LIMIT] ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
     update_logic_rate(lr);
     last_display_time=get_ticker();
     display();
@@ -9857,13 +9857,13 @@ static struct BITMAP * generate_bitmap()
   char command[1000l];
   signed int size;
   signed int ok = 0;
-  signed long int return_value_random$1;
-  return_value_random$1=random();
-  size = (signed int)(return_value_random$1 % (signed long int)6);
+  signed long int return_value_random_1;
+  return_value_random_1=random();
+  size = (signed int)(return_value_random_1 % (signed long int)6);
   memset((void *)filename, 0, sizeof(char [1000l]) /*1000ul*/ );
-  char *return_value_tmpnam$2;
-  return_value_tmpnam$2=tmpnam((char *)(void *)0);
-  snprintf(filename, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%s.bmp", return_value_tmpnam$2);
+  char *return_value_tmpnam_2;
+  return_value_tmpnam_2=tmpnam((char *)(void *)0);
+  snprintf(filename, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%s.bmp", return_value_tmpnam_2);
   filename[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   memset((void *)command, 0, sizeof(char [1000l]) /*1000ul*/ );
   snprintf(command, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%s --out %s --size %d%s", (const void *)STARTUP_GEN_PATH, (const void *)filename, size, (const void *)" > /dev/null 2>&1");
@@ -9899,18 +9899,18 @@ static void generate_bw_palette(struct RGB *pal)
 // file advanced.c line 105
 static char * get_allow_network_bots_str(void)
 {
-  char *return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
+  char *return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
   if(!(CONFIG_ALLOW_NETWORK_BOTS == 0))
   {
-    return_value_lw_lang_string$1=lw_lang_string(75);
-    return return_value_lw_lang_string$1;
+    return_value_lw_lang_string_1=lw_lang_string(75);
+    return return_value_lw_lang_string_1;
   }
 
   else
   {
-    return_value_lw_lang_string$2=lw_lang_string(76);
-    return return_value_lw_lang_string$2;
+    return_value_lw_lang_string_2=lw_lang_string(76);
+    return return_value_lw_lang_string_2;
   }
 }
 
@@ -9921,10 +9921,10 @@ static signed int get_argc(char *message)
   signed int result = 0;
   char *word = (char *)(void *)0;
   signed int null_arg = 0;
-  signed int return_value_read_separator$2;
-  return_value_read_separator$2=read_separator(&message);
-  signed int return_value_read_separator$1;
-  if(return_value_read_separator$2 == 0)
+  signed int return_value_read_separator_2;
+  return_value_read_separator_2=read_separator(&message);
+  signed int return_value_read_separator_1;
+  if(return_value_read_separator_2 == 0)
   {
     if((signed int)*message == 0)
       null_arg = 1;
@@ -9936,8 +9936,8 @@ static signed int get_argc(char *message)
       result = 1;
       do
       {
-        return_value_read_separator$1=read_separator(&message);
-        if(!(return_value_read_separator$1 == 1))
+        return_value_read_separator_1=read_separator(&message);
+        if(!(return_value_read_separator_1 == 1))
           break;
 
         word=read_word(&message);
@@ -9963,11 +9963,11 @@ static signed int get_argc(char *message)
 // file parser.c line 169
 signed int get_argument_int(char *str)
 {
-  char *return_value_get_argument_str$1;
-  return_value_get_argument_str$1=get_argument_str(str);
-  signed int return_value_atoi$2;
-  return_value_atoi$2=atoi$link3(return_value_get_argument_str$1);
-  return return_value_atoi$2;
+  char *return_value_get_argument_str_1;
+  return_value_get_argument_str_1=get_argument_str(str);
+  signed int return_value_atoi_2;
+  return_value_atoi_2=atoi_link3(return_value_get_argument_str_1);
+  return return_value_atoi_2;
 }
 
 // get_argument_str
@@ -9978,15 +9978,15 @@ char * get_argument_str(char *str)
   signed int place = 0;
   signed int found = 0;
   i = 0;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; found == 0 && !(i >= 256); i = i + 1)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(str, ARGUMENT_NAME[(signed long int)i]);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    found = (signed int)!(tmp_statement_expression$1 != 0);
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(str, ARGUMENT_NAME[(signed long int)i]);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    found = (signed int)!(tmp_statement_expression_1 != 0);
     if(!(found == 0))
       place = i;
 
@@ -10005,16 +10005,16 @@ static char ** get_argv(char *message, signed int argc)
   char **result = (char **)(void *)0;
   char *word;
   signed int i = 0;
-  signed int return_value_read_separator$3;
-  signed int return_value_read_separator$2;
+  signed int return_value_read_separator_3;
+  signed int return_value_read_separator_2;
   if(argc >= 1)
   {
-    return_value_read_separator$3=read_separator(&message);
-    if(return_value_read_separator$3 == 0)
+    return_value_read_separator_3=read_separator(&message);
+    if(return_value_read_separator_3 == 0)
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)argc * sizeof(char *) /*8ul*/ );
-      result = (char **)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)argc * sizeof(char *) /*8ul*/ );
+      result = (char **)return_value_malloc_1;
       if(!(result == ((char **)NULL)))
       {
         word=read_word(&message);
@@ -10024,8 +10024,8 @@ static char ** get_argv(char *message, signed int argc)
           i = 1;
           while(!(i >= argc))
           {
-            return_value_read_separator$2=read_separator(&message);
-            if(!(return_value_read_separator$2 == 1))
+            return_value_read_separator_2=read_separator(&message);
+            if(!(return_value_read_separator_2 == 1))
               break;
 
             word=read_word(&message);
@@ -10057,18 +10057,18 @@ static char ** get_argv(char *message, signed int argc)
 // file advanced.c line 73
 static char * get_asm_algorithm_str(void)
 {
-  char *return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
+  char *return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
   if(!(CONFIG_ASM_ALGORITHM == 0))
   {
-    return_value_lw_lang_string$1=lw_lang_string(72);
-    return return_value_lw_lang_string$1;
+    return_value_lw_lang_string_1=lw_lang_string(72);
+    return return_value_lw_lang_string_1;
   }
 
   else
   {
-    return_value_lw_lang_string$2=lw_lang_string(73);
-    return return_value_lw_lang_string$2;
+    return_value_lw_lang_string_2=lw_lang_string(73);
+    return return_value_lw_lang_string_2;
   }
 }
 
@@ -10086,7 +10086,7 @@ static signed int get_battle_room(void)
 
 // get_close_dir
 // file fighter.c line 271
-static signed int get_close_dir(struct anonymous$0 *mesh, struct anonymous$21 *f, signed int team, signed int sens, signed int start)
+static signed int get_close_dir(struct anonymous_0 *mesh, struct anonymous_21 *f, signed int team, signed int sens, signed int start)
 {
   signed int cursor_x;
   signed int cursor_y;
@@ -10124,284 +10124,284 @@ static signed int get_code(char **message)
 {
   char *command;
   signed int result = 0;
-  signed int return_value_read_separator$51;
-  return_value_read_separator$51=read_separator(message);
-  signed int tmp_statement_expression$49;
-  signed int tmp_statement_expression$47;
-  signed int tmp_statement_expression$45;
-  signed int tmp_statement_expression$43;
-  signed int tmp_statement_expression$41;
-  signed int tmp_statement_expression$39;
-  signed int tmp_statement_expression$37;
-  signed int tmp_statement_expression$35;
-  signed int tmp_statement_expression$33;
-  signed int tmp_statement_expression$31;
-  signed int tmp_statement_expression$29;
-  signed int tmp_statement_expression$27;
-  signed int tmp_statement_expression$25;
-  signed int tmp_statement_expression$23;
-  signed int tmp_statement_expression$21;
-  signed int tmp_statement_expression$19;
-  signed int tmp_statement_expression$17;
-  signed int tmp_statement_expression$15;
-  signed int tmp_statement_expression$13;
-  signed int tmp_statement_expression$11;
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$7;
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
-  if(return_value_read_separator$51 == 0)
+  signed int return_value_read_separator_51;
+  return_value_read_separator_51=read_separator(message);
+  signed int tmp_statement_expression_49;
+  signed int tmp_statement_expression_47;
+  signed int tmp_statement_expression_45;
+  signed int tmp_statement_expression_43;
+  signed int tmp_statement_expression_41;
+  signed int tmp_statement_expression_39;
+  signed int tmp_statement_expression_37;
+  signed int tmp_statement_expression_35;
+  signed int tmp_statement_expression_33;
+  signed int tmp_statement_expression_31;
+  signed int tmp_statement_expression_29;
+  signed int tmp_statement_expression_27;
+  signed int tmp_statement_expression_25;
+  signed int tmp_statement_expression_23;
+  signed int tmp_statement_expression_21;
+  signed int tmp_statement_expression_19;
+  signed int tmp_statement_expression_17;
+  signed int tmp_statement_expression_15;
+  signed int tmp_statement_expression_13;
+  signed int tmp_statement_expression_11;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_7;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
+  if(return_value_read_separator_51 == 0)
   {
     command=read_word(message);
     if(!(command == ((char *)NULL)))
     {
-      unsigned long int get_code$$1$$1$$1$$1$$__s1_len;
-      unsigned long int get_code$$1$$1$$1$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$50;
-      return_value___builtin_strcmp$50=__builtin_strcmp(command, "OK");
-      tmp_statement_expression$49 = return_value___builtin_strcmp$50;
-      if(tmp_statement_expression$49 == 0)
+      unsigned long int get_code__1__1__1__1____s1_len;
+      unsigned long int get_code__1__1__1__1____s2_len;
+      signed int return_value___builtin_strcmp_50;
+      return_value___builtin_strcmp_50=__builtin_strcmp(command, "OK");
+      tmp_statement_expression_49 = return_value___builtin_strcmp_50;
+      if(tmp_statement_expression_49 == 0)
         result = 1;
 
       else
       {
-        unsigned long int get_code$$1$$1$$1$$3$$__s1_len;
-        unsigned long int get_code$$1$$1$$1$$3$$__s2_len;
-        signed int return_value___builtin_strcmp$48;
-        return_value___builtin_strcmp$48=__builtin_strcmp(command, "ERR");
-        tmp_statement_expression$47 = return_value___builtin_strcmp$48;
-        if(tmp_statement_expression$47 == 0)
+        unsigned long int get_code__1__1__1__3____s1_len;
+        unsigned long int get_code__1__1__1__3____s2_len;
+        signed int return_value___builtin_strcmp_48;
+        return_value___builtin_strcmp_48=__builtin_strcmp(command, "ERR");
+        tmp_statement_expression_47 = return_value___builtin_strcmp_48;
+        if(tmp_statement_expression_47 == 0)
           result = 2;
 
         else
         {
-          unsigned long int get_code$$1$$1$$1$$5$$__s1_len;
-          unsigned long int get_code$$1$$1$$1$$5$$__s2_len;
-          signed int return_value___builtin_strcmp$46;
-          return_value___builtin_strcmp$46=__builtin_strcmp(command, "PING");
-          tmp_statement_expression$45 = return_value___builtin_strcmp$46;
-          if(tmp_statement_expression$45 == 0)
+          unsigned long int get_code__1__1__1__5____s1_len;
+          unsigned long int get_code__1__1__1__5____s2_len;
+          signed int return_value___builtin_strcmp_46;
+          return_value___builtin_strcmp_46=__builtin_strcmp(command, "PING");
+          tmp_statement_expression_45 = return_value___builtin_strcmp_46;
+          if(tmp_statement_expression_45 == 0)
             result = 3;
 
           else
           {
-            unsigned long int get_code$$1$$1$$1$$7$$__s1_len;
-            unsigned long int get_code$$1$$1$$1$$7$$__s2_len;
-            signed int return_value___builtin_strcmp$44;
-            return_value___builtin_strcmp$44=__builtin_strcmp(command, "ECHO");
-            tmp_statement_expression$43 = return_value___builtin_strcmp$44;
-            if(tmp_statement_expression$43 == 0)
+            unsigned long int get_code__1__1__1__7____s1_len;
+            unsigned long int get_code__1__1__1__7____s2_len;
+            signed int return_value___builtin_strcmp_44;
+            return_value___builtin_strcmp_44=__builtin_strcmp(command, "ECHO");
+            tmp_statement_expression_43 = return_value___builtin_strcmp_44;
+            if(tmp_statement_expression_43 == 0)
               result = 4;
 
             else
             {
-              unsigned long int get_code$$1$$1$$1$$9$$__s1_len;
-              unsigned long int get_code$$1$$1$$1$$9$$__s2_len;
-              signed int return_value___builtin_strcmp$42;
-              return_value___builtin_strcmp$42=__builtin_strcmp(command, "PROGRAM");
-              tmp_statement_expression$41 = return_value___builtin_strcmp$42;
-              if(tmp_statement_expression$41 == 0)
+              unsigned long int get_code__1__1__1__9____s1_len;
+              unsigned long int get_code__1__1__1__9____s2_len;
+              signed int return_value___builtin_strcmp_42;
+              return_value___builtin_strcmp_42=__builtin_strcmp(command, "PROGRAM");
+              tmp_statement_expression_41 = return_value___builtin_strcmp_42;
+              if(tmp_statement_expression_41 == 0)
                 result = 5;
 
               else
               {
-                unsigned long int get_code$$1$$1$$1$$11$$__s1_len;
-                unsigned long int get_code$$1$$1$$1$$11$$__s2_len;
-                signed int return_value___builtin_strcmp$40;
-                return_value___builtin_strcmp$40=__builtin_strcmp(command, "VERSION");
-                tmp_statement_expression$39 = return_value___builtin_strcmp$40;
-                if(tmp_statement_expression$39 == 0)
+                unsigned long int get_code__1__1__1__11____s1_len;
+                unsigned long int get_code__1__1__1__11____s2_len;
+                signed int return_value___builtin_strcmp_40;
+                return_value___builtin_strcmp_40=__builtin_strcmp(command, "VERSION");
+                tmp_statement_expression_39 = return_value___builtin_strcmp_40;
+                if(tmp_statement_expression_39 == 0)
                   result = 6;
 
                 else
                 {
-                  unsigned long int get_code$$1$$1$$1$$13$$__s1_len;
-                  unsigned long int get_code$$1$$1$$1$$13$$__s2_len;
-                  signed int return_value___builtin_strcmp$38;
-                  return_value___builtin_strcmp$38=__builtin_strcmp(command, "PASSWORD");
-                  tmp_statement_expression$37 = return_value___builtin_strcmp$38;
-                  if(tmp_statement_expression$37 == 0)
+                  unsigned long int get_code__1__1__1__13____s1_len;
+                  unsigned long int get_code__1__1__1__13____s2_len;
+                  signed int return_value___builtin_strcmp_38;
+                  return_value___builtin_strcmp_38=__builtin_strcmp(command, "PASSWORD");
+                  tmp_statement_expression_37 = return_value___builtin_strcmp_38;
+                  if(tmp_statement_expression_37 == 0)
                     result = 7;
 
                   else
                   {
-                    unsigned long int get_code$$1$$1$$1$$15$$__s1_len;
-                    unsigned long int get_code$$1$$1$$1$$15$$__s2_len;
-                    signed int return_value___builtin_strcmp$36;
-                    return_value___builtin_strcmp$36=__builtin_strcmp(command, "FREE");
-                    tmp_statement_expression$35 = return_value___builtin_strcmp$36;
-                    if(tmp_statement_expression$35 == 0)
+                    unsigned long int get_code__1__1__1__15____s1_len;
+                    unsigned long int get_code__1__1__1__15____s2_len;
+                    signed int return_value___builtin_strcmp_36;
+                    return_value___builtin_strcmp_36=__builtin_strcmp(command, "FREE");
+                    tmp_statement_expression_35 = return_value___builtin_strcmp_36;
+                    if(tmp_statement_expression_35 == 0)
                       result = 8;
 
                     else
                     {
-                      unsigned long int get_code$$1$$1$$1$$17$$__s1_len;
-                      unsigned long int get_code$$1$$1$$1$$17$$__s2_len;
-                      signed int return_value___builtin_strcmp$34;
-                      return_value___builtin_strcmp$34=__builtin_strcmp(command, "TEAM");
-                      tmp_statement_expression$33 = return_value___builtin_strcmp$34;
-                      if(tmp_statement_expression$33 == 0)
+                      unsigned long int get_code__1__1__1__17____s1_len;
+                      unsigned long int get_code__1__1__1__17____s2_len;
+                      signed int return_value___builtin_strcmp_34;
+                      return_value___builtin_strcmp_34=__builtin_strcmp(command, "TEAM");
+                      tmp_statement_expression_33 = return_value___builtin_strcmp_34;
+                      if(tmp_statement_expression_33 == 0)
                         result = 9;
 
                       else
                       {
-                        unsigned long int get_code$$1$$1$$1$$19$$__s1_len;
-                        unsigned long int get_code$$1$$1$$1$$19$$__s2_len;
-                        signed int return_value___builtin_strcmp$32;
-                        return_value___builtin_strcmp$32=__builtin_strcmp(command, "READY");
-                        tmp_statement_expression$31 = return_value___builtin_strcmp$32;
-                        if(tmp_statement_expression$31 == 0)
+                        unsigned long int get_code__1__1__1__19____s1_len;
+                        unsigned long int get_code__1__1__1__19____s2_len;
+                        signed int return_value___builtin_strcmp_32;
+                        return_value___builtin_strcmp_32=__builtin_strcmp(command, "READY");
+                        tmp_statement_expression_31 = return_value___builtin_strcmp_32;
+                        if(tmp_statement_expression_31 == 0)
                           result = 10;
 
                         else
                         {
-                          unsigned long int get_code$$1$$1$$1$$21$$__s1_len;
-                          unsigned long int get_code$$1$$1$$1$$21$$__s2_len;
-                          signed int return_value___builtin_strcmp$30;
-                          return_value___builtin_strcmp$30=__builtin_strcmp(command, "START");
-                          tmp_statement_expression$29 = return_value___builtin_strcmp$30;
-                          if(tmp_statement_expression$29 == 0)
+                          unsigned long int get_code__1__1__1__21____s1_len;
+                          unsigned long int get_code__1__1__1__21____s2_len;
+                          signed int return_value___builtin_strcmp_30;
+                          return_value___builtin_strcmp_30=__builtin_strcmp(command, "START");
+                          tmp_statement_expression_29 = return_value___builtin_strcmp_30;
+                          if(tmp_statement_expression_29 == 0)
                             result = 11;
 
                           else
                           {
-                            unsigned long int get_code$$1$$1$$1$$23$$__s1_len;
-                            unsigned long int get_code$$1$$1$$1$$23$$__s2_len;
-                            signed int return_value___builtin_strcmp$28;
-                            return_value___builtin_strcmp$28=__builtin_strcmp(command, "WAITING");
-                            tmp_statement_expression$27 = return_value___builtin_strcmp$28;
-                            if(tmp_statement_expression$27 == 0)
+                            unsigned long int get_code__1__1__1__23____s1_len;
+                            unsigned long int get_code__1__1__1__23____s2_len;
+                            signed int return_value___builtin_strcmp_28;
+                            return_value___builtin_strcmp_28=__builtin_strcmp(command, "WAITING");
+                            tmp_statement_expression_27 = return_value___builtin_strcmp_28;
+                            if(tmp_statement_expression_27 == 0)
                               result = 12;
 
                             else
                             {
-                              unsigned long int get_code$$1$$1$$1$$25$$__s1_len;
-                              unsigned long int get_code$$1$$1$$1$$25$$__s2_len;
-                              signed int return_value___builtin_strcmp$26;
-                              return_value___builtin_strcmp$26=__builtin_strcmp(command, "NEXT");
-                              tmp_statement_expression$25 = return_value___builtin_strcmp$26;
-                              if(tmp_statement_expression$25 == 0)
+                              unsigned long int get_code__1__1__1__25____s1_len;
+                              unsigned long int get_code__1__1__1__25____s2_len;
+                              signed int return_value___builtin_strcmp_26;
+                              return_value___builtin_strcmp_26=__builtin_strcmp(command, "NEXT");
+                              tmp_statement_expression_25 = return_value___builtin_strcmp_26;
+                              if(tmp_statement_expression_25 == 0)
                                 result = 13;
 
                               else
                               {
-                                unsigned long int get_code$$1$$1$$1$$27$$__s1_len;
-                                unsigned long int get_code$$1$$1$$1$$27$$__s2_len;
-                                signed int return_value___builtin_strcmp$24;
-                                return_value___builtin_strcmp$24=__builtin_strcmp(command, "TEAMSTARTINFO");
-                                tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-                                if(tmp_statement_expression$23 == 0)
+                                unsigned long int get_code__1__1__1__27____s1_len;
+                                unsigned long int get_code__1__1__1__27____s2_len;
+                                signed int return_value___builtin_strcmp_24;
+                                return_value___builtin_strcmp_24=__builtin_strcmp(command, "TEAMSTARTINFO");
+                                tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+                                if(tmp_statement_expression_23 == 0)
                                   result = 14;
 
                                 else
                                 {
-                                  unsigned long int get_code$$1$$1$$1$$29$$__s1_len;
-                                  unsigned long int get_code$$1$$1$$1$$29$$__s2_len;
-                                  signed int return_value___builtin_strcmp$22;
-                                  return_value___builtin_strcmp$22=__builtin_strcmp(command, "WHO");
-                                  tmp_statement_expression$21 = return_value___builtin_strcmp$22;
-                                  if(tmp_statement_expression$21 == 0)
+                                  unsigned long int get_code__1__1__1__29____s1_len;
+                                  unsigned long int get_code__1__1__1__29____s2_len;
+                                  signed int return_value___builtin_strcmp_22;
+                                  return_value___builtin_strcmp_22=__builtin_strcmp(command, "WHO");
+                                  tmp_statement_expression_21 = return_value___builtin_strcmp_22;
+                                  if(tmp_statement_expression_21 == 0)
                                     result = 15;
 
                                   else
                                   {
-                                    unsigned long int get_code$$1$$1$$1$$31$$__s1_len;
-                                    unsigned long int get_code$$1$$1$$1$$31$$__s2_len;
-                                    signed int return_value___builtin_strcmp$20;
-                                    return_value___builtin_strcmp$20=__builtin_strcmp(command, "LOCAL");
-                                    tmp_statement_expression$19 = return_value___builtin_strcmp$20;
-                                    if(tmp_statement_expression$19 == 0)
+                                    unsigned long int get_code__1__1__1__31____s1_len;
+                                    unsigned long int get_code__1__1__1__31____s2_len;
+                                    signed int return_value___builtin_strcmp_20;
+                                    return_value___builtin_strcmp_20=__builtin_strcmp(command, "LOCAL");
+                                    tmp_statement_expression_19 = return_value___builtin_strcmp_20;
+                                    if(tmp_statement_expression_19 == 0)
                                       result = 16;
 
                                     else
                                     {
-                                      unsigned long int get_code$$1$$1$$1$$33$$__s1_len;
-                                      unsigned long int get_code$$1$$1$$1$$33$$__s2_len;
-                                      signed int return_value___builtin_strcmp$18;
-                                      return_value___builtin_strcmp$18=__builtin_strcmp(command, "NETWORK");
-                                      tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-                                      if(tmp_statement_expression$17 == 0)
+                                      unsigned long int get_code__1__1__1__33____s1_len;
+                                      unsigned long int get_code__1__1__1__33____s2_len;
+                                      signed int return_value___builtin_strcmp_18;
+                                      return_value___builtin_strcmp_18=__builtin_strcmp(command, "NETWORK");
+                                      tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+                                      if(tmp_statement_expression_17 == 0)
                                         result = 17;
 
                                       else
                                       {
-                                        unsigned long int get_code$$1$$1$$1$$35$$__s1_len;
-                                        unsigned long int get_code$$1$$1$$1$$35$$__s2_len;
-                                        signed int return_value___builtin_strcmp$16;
-                                        return_value___builtin_strcmp$16=__builtin_strcmp(command, "NOBODY");
-                                        tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-                                        if(tmp_statement_expression$15 == 0)
+                                        unsigned long int get_code__1__1__1__35____s1_len;
+                                        unsigned long int get_code__1__1__1__35____s2_len;
+                                        signed int return_value___builtin_strcmp_16;
+                                        return_value___builtin_strcmp_16=__builtin_strcmp(command, "NOBODY");
+                                        tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+                                        if(tmp_statement_expression_15 == 0)
                                           result = 18;
 
                                         else
                                         {
-                                          unsigned long int get_code$$1$$1$$1$$37$$__s1_len;
-                                          unsigned long int get_code$$1$$1$$1$$37$$__s2_len;
-                                          signed int return_value___builtin_strcmp$14;
-                                          return_value___builtin_strcmp$14=__builtin_strcmp(command, "SENDMAP");
-                                          tmp_statement_expression$13 = return_value___builtin_strcmp$14;
-                                          if(tmp_statement_expression$13 == 0)
+                                          unsigned long int get_code__1__1__1__37____s1_len;
+                                          unsigned long int get_code__1__1__1__37____s2_len;
+                                          signed int return_value___builtin_strcmp_14;
+                                          return_value___builtin_strcmp_14=__builtin_strcmp(command, "SENDMAP");
+                                          tmp_statement_expression_13 = return_value___builtin_strcmp_14;
+                                          if(tmp_statement_expression_13 == 0)
                                             result = 19;
 
                                           else
                                           {
                                             unsigned long int __s1_len;
                                             unsigned long int __s2_len;
-                                            signed int return_value___builtin_strcmp$12;
-                                            return_value___builtin_strcmp$12=__builtin_strcmp(command, "RECVMAP");
-                                            tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-                                            if(tmp_statement_expression$11 == 0)
+                                            signed int return_value___builtin_strcmp_12;
+                                            return_value___builtin_strcmp_12=__builtin_strcmp(command, "RECVMAP");
+                                            tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+                                            if(tmp_statement_expression_11 == 0)
                                               result = 20;
 
                                             else
                                             {
-                                              unsigned long int get_code$$1$$1$$1$$41$$__s1_len;
-                                              unsigned long int get_code$$1$$1$$1$$41$$__s2_len;
-                                              signed int return_value___builtin_strcmp$10;
-                                              return_value___builtin_strcmp$10=__builtin_strcmp(command, "SENDCONFIG");
-                                              tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-                                              if(tmp_statement_expression$9 == 0)
+                                              unsigned long int get_code__1__1__1__41____s1_len;
+                                              unsigned long int get_code__1__1__1__41____s2_len;
+                                              signed int return_value___builtin_strcmp_10;
+                                              return_value___builtin_strcmp_10=__builtin_strcmp(command, "SENDCONFIG");
+                                              tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+                                              if(tmp_statement_expression_9 == 0)
                                                 result = 21;
 
                                               else
                                               {
-                                                unsigned long int get_code$$1$$1$$1$$43$$__s1_len;
-                                                unsigned long int get_code$$1$$1$$1$$43$$__s2_len;
-                                                signed int return_value___builtin_strcmp$8;
-                                                return_value___builtin_strcmp$8=__builtin_strcmp(command, "RECVCONFIG");
-                                                tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-                                                if(tmp_statement_expression$7 == 0)
+                                                unsigned long int get_code__1__1__1__43____s1_len;
+                                                unsigned long int get_code__1__1__1__43____s2_len;
+                                                signed int return_value___builtin_strcmp_8;
+                                                return_value___builtin_strcmp_8=__builtin_strcmp(command, "RECVCONFIG");
+                                                tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+                                                if(tmp_statement_expression_7 == 0)
                                                   result = 22;
 
                                                 else
                                                 {
-                                                  unsigned long int get_code$$1$$1$$1$$45$$__s1_len;
-                                                  unsigned long int get_code$$1$$1$$1$$45$$__s2_len;
-                                                  signed int return_value___builtin_strcmp$6;
-                                                  return_value___builtin_strcmp$6=__builtin_strcmp(command, "CHATTALK");
-                                                  tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-                                                  if(tmp_statement_expression$5 == 0)
+                                                  unsigned long int get_code__1__1__1__45____s1_len;
+                                                  unsigned long int get_code__1__1__1__45____s2_len;
+                                                  signed int return_value___builtin_strcmp_6;
+                                                  return_value___builtin_strcmp_6=__builtin_strcmp(command, "CHATTALK");
+                                                  tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+                                                  if(tmp_statement_expression_5 == 0)
                                                     result = 23;
 
                                                   else
                                                   {
-                                                    unsigned long int get_code$$1$$1$$1$$47$$__s1_len;
-                                                    unsigned long int get_code$$1$$1$$1$$47$$__s2_len;
-                                                    signed int return_value___builtin_strcmp$4;
-                                                    return_value___builtin_strcmp$4=__builtin_strcmp(command, "CHATLISTEN");
-                                                    tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-                                                    if(tmp_statement_expression$3 == 0)
+                                                    unsigned long int get_code__1__1__1__47____s1_len;
+                                                    unsigned long int get_code__1__1__1__47____s2_len;
+                                                    signed int return_value___builtin_strcmp_4;
+                                                    return_value___builtin_strcmp_4=__builtin_strcmp(command, "CHATLISTEN");
+                                                    tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+                                                    if(tmp_statement_expression_3 == 0)
                                                       result = 24;
 
                                                     else
                                                     {
-                                                      unsigned long int get_code$$1$$1$$1$$49$$__s1_len;
-                                                      unsigned long int get_code$$1$$1$$1$$49$$__s2_len;
-                                                      signed int return_value___builtin_strcmp$2;
-                                                      return_value___builtin_strcmp$2=__builtin_strcmp(command, "QUIT");
-                                                      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-                                                      if(tmp_statement_expression$1 == 0)
+                                                      unsigned long int get_code__1__1__1__49____s1_len;
+                                                      unsigned long int get_code__1__1__1__49____s2_len;
+                                                      signed int return_value___builtin_strcmp_2;
+                                                      return_value___builtin_strcmp_2=__builtin_strcmp(command, "QUIT");
+                                                      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+                                                      if(tmp_statement_expression_1 == 0)
                                                         result = 25;
 
                                                     }
@@ -10440,7 +10440,7 @@ static signed int get_code(char **message)
 // file autoplay.c line 273
 char get_computer_next_move(signed int cursor)
 {
-  struct anonymous$21 *f;
+  struct anonymous_21 *f;
   char key_info;
   signed int x;
   signed int y;
@@ -10457,7 +10457,7 @@ char get_computer_next_move(signed int cursor)
     key_info = (char)0;
     team = CURRENT_CURSOR[(signed long int)cursor].team;
     f = (CURRENT_AREA + (signed long int)(CURRENT_CURSOR[(signed long int)cursor].y * CURRENT_AREA_W + CURRENT_CURSOR[(signed long int)cursor].x))->fighter;
-    if(!(f == ((struct anonymous$21 *)NULL)))
+    if(!(f == ((struct anonymous_21 *)NULL)))
       meme_equipe = (signed int)((signed int)f->team == team);
 
     else
@@ -10533,16 +10533,16 @@ static signed int get_cursor(signed int classement)
     }
 
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= 6); i = i + 1)
     if(CURRENT_CURSOR[(signed long int)i].score_order == classement)
     {
       if(!(CURRENT_CURSOR[(signed long int)i].active == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = CURRENT_CURSOR[(signed long int)i].loose_time >= 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = CURRENT_CURSOR[(signed long int)i].loose_time >= 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         indice_curseur = i;
 
     }
@@ -10568,18 +10568,18 @@ signed int get_cursor_from_team(signed int team)
 // file graphics.c line 129
 static char * get_fullscreen_str(void)
 {
-  char *return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
+  char *return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
   if(!(CONFIG_FULLSCREEN == 0))
   {
-    return_value_lw_lang_string$1=lw_lang_string(43);
-    return return_value_lw_lang_string$1;
+    return_value_lw_lang_string_1=lw_lang_string(43);
+    return return_value_lw_lang_string_1;
   }
 
   else
   {
-    return_value_lw_lang_string$2=lw_lang_string(44);
-    return return_value_lw_lang_string$2;
+    return_value_lw_lang_string_2=lw_lang_string(44);
+    return return_value_lw_lang_string_2;
   }
 }
 
@@ -10589,9 +10589,9 @@ static char * get_game_res_str(void)
 {
   static char str[30l];
   memset((void *)str, 0, sizeof(char [30l]) /*30ul*/ );
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(39);
-  snprintf(str, sizeof(char [30l]) /*30ul*/  - (unsigned long int)1, "%s:%dx%d", return_value_lw_lang_string$1, GFX_MODE_W[(signed long int)CONFIG_GFX_GAME], GFX_MODE_H[(signed long int)CONFIG_GFX_GAME]);
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(39);
+  snprintf(str, sizeof(char [30l]) /*30ul*/  - (unsigned long int)1, "%s:%dx%d", return_value_lw_lang_string_1, GFX_MODE_W[(signed long int)CONFIG_GFX_GAME], GFX_MODE_H[(signed long int)CONFIG_GFX_GAME]);
   str[(signed long int)(sizeof(char [30l]) /*30ul*/  - (unsigned long int)1)] = (char)0;
   return str;
 }
@@ -10611,27 +10611,27 @@ static char * get_key_name(signed int num)
 // file profile.h line 76
 signed int get_logic_rate(void)
 {
-  signed int return_value_get_profile$1;
-  return_value_get_profile$1=get_profile(4);
-  return (return_value_get_profile$1 * DISPLAY_NUMBER) / LOGIC_NUMBER;
+  signed int return_value_get_profile_1;
+  return_value_get_profile_1=get_profile(4);
+  return (return_value_get_profile_1 * DISPLAY_NUMBER) / LOGIC_NUMBER;
 }
 
 // get_main_dir
 // file fighter.h line 70
-signed int get_main_dir(struct anonymous$0 *mesh, signed int team, signed int sens, signed int start)
+signed int get_main_dir(struct anonymous_0 *mesh, signed int team, signed int sens, signed int start)
 {
   signed int i;
   signed int dir;
   signed int dist;
-  struct anonymous$0 *mesh2;
+  struct anonymous_0 *mesh2;
   dist = 2000000;
   dir = -1;
   i = start;
   if(!(sens == 0))
     do
     {
-      mesh2 = (struct anonymous$0 *)mesh->link[(signed long int)i];
-      if(!(mesh2 == ((struct anonymous$0 *)NULL)))
+      mesh2 = (struct anonymous_0 *)mesh->link[(signed long int)i];
+      if(!(mesh2 == ((struct anonymous_0 *)NULL)))
       {
         if(!((signed int)mesh2->info[(signed long int)team].state.grad >= dist))
         {
@@ -10648,8 +10648,8 @@ signed int get_main_dir(struct anonymous$0 *mesh, signed int team, signed int se
   else
     do
     {
-      mesh2 = (struct anonymous$0 *)mesh->link[(signed long int)i];
-      if(!(mesh2 == ((struct anonymous$0 *)NULL)))
+      mesh2 = (struct anonymous_0 *)mesh->link[(signed long int)i];
+      if(!(mesh2 == ((struct anonymous_0 *)NULL)))
       {
         if(!((signed int)mesh2->info[(signed long int)team].state.grad >= dist))
         {
@@ -10675,9 +10675,9 @@ static char * get_menu_res_str(void)
 {
   static char str[30l];
   memset((void *)str, 0, sizeof(char [30l]) /*30ul*/ );
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(40);
-  snprintf(str, sizeof(char [30l]) /*30ul*/  - (unsigned long int)1, "%s:%dx%d", return_value_lw_lang_string$1, GFX_MODE_W[(signed long int)CONFIG_GFX_MENU], GFX_MODE_H[(signed long int)CONFIG_GFX_MENU]);
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(40);
+  snprintf(str, sizeof(char [30l]) /*30ul*/  - (unsigned long int)1, "%s:%dx%d", return_value_lw_lang_string_1, GFX_MODE_W[(signed long int)CONFIG_GFX_MENU], GFX_MODE_H[(signed long int)CONFIG_GFX_MENU]);
   str[(signed long int)(sizeof(char [30l]) /*30ul*/  - (unsigned long int)1)] = (char)0;
   return str;
 }
@@ -10725,18 +10725,18 @@ static void get_mono_texture_color(struct RGB *rgb, signed int num)
 // file graphics.c line 119
 static char * get_page_flip_str(void)
 {
-  char *return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
+  char *return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
   if(!(CONFIG_PAGE_FLIP == 0))
   {
-    return_value_lw_lang_string$1=lw_lang_string(41);
-    return return_value_lw_lang_string$1;
+    return_value_lw_lang_string_1=lw_lang_string(41);
+    return return_value_lw_lang_string_1;
   }
 
   else
   {
-    return_value_lw_lang_string$2=lw_lang_string(42);
-    return return_value_lw_lang_string$2;
+    return_value_lw_lang_string_2=lw_lang_string(42);
+    return return_value_lw_lang_string_2;
   }
 }
 
@@ -10779,18 +10779,18 @@ signed int get_ticker(void)
 // file graphics.c line 109
 static char * get_wave_mode_str(void)
 {
-  char *return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
+  char *return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
   if(!(CONFIG_WAVE_ON == 0))
   {
-    return_value_lw_lang_string$1=lw_lang_string(41);
-    return return_value_lw_lang_string$1;
+    return_value_lw_lang_string_1=lw_lang_string(41);
+    return return_value_lw_lang_string_1;
   }
 
   else
   {
-    return_value_lw_lang_string$2=lw_lang_string(42);
-    return return_value_lw_lang_string$2;
+    return_value_lw_lang_string_2=lw_lang_string(42);
+    return return_value_lw_lang_string_2;
   }
 }
 
@@ -10803,58 +10803,58 @@ static inline signed int getpixel(struct BITMAP *bmp, signed int x, signed int y
   return return_value;
 }
 
-// getpixel$link1
+// getpixel_link1
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link1(struct BITMAP *bmp$link1, signed int x$link1, signed int y$link1)
+static inline signed int getpixel_link1(struct BITMAP *bmp_link1, signed int x_link1, signed int y_link1)
 {
-  signed int return_value$link1;
-  return_value$link1=bmp$link1->vtable->getpixel(bmp$link1, x$link1, y$link1);
-  return return_value$link1;
+  signed int return_value_link1;
+  return_value_link1=bmp_link1->vtable->getpixel(bmp_link1, x_link1, y_link1);
+  return return_value_link1;
 }
 
-// getpixel$link2
+// getpixel_link2
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link2(struct BITMAP *bmp$link2, signed int x$link2, signed int y$link2)
+static inline signed int getpixel_link2(struct BITMAP *bmp_link2, signed int x_link2, signed int y_link2)
 {
-  signed int return_value$link2;
-  return_value$link2=bmp$link2->vtable->getpixel(bmp$link2, x$link2, y$link2);
-  return return_value$link2;
+  signed int return_value_link2;
+  return_value_link2=bmp_link2->vtable->getpixel(bmp_link2, x_link2, y_link2);
+  return return_value_link2;
 }
 
-// getpixel$link3
+// getpixel_link3
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link3(struct BITMAP *bmp$link3, signed int x$link3, signed int y$link3)
+static inline signed int getpixel_link3(struct BITMAP *bmp_link3, signed int x_link3, signed int y_link3)
 {
-  signed int return_value$link3;
-  return_value$link3=bmp$link3->vtable->getpixel(bmp$link3, x$link3, y$link3);
-  return return_value$link3;
+  signed int return_value_link3;
+  return_value_link3=bmp_link3->vtable->getpixel(bmp_link3, x_link3, y_link3);
+  return return_value_link3;
 }
 
-// getpixel$link4
+// getpixel_link4
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link4(struct BITMAP *bmp$link4, signed int x$link4, signed int y$link4)
+static inline signed int getpixel_link4(struct BITMAP *bmp_link4, signed int x_link4, signed int y_link4)
 {
-  signed int return_value$link4;
-  return_value$link4=bmp$link4->vtable->getpixel(bmp$link4, x$link4, y$link4);
-  return return_value$link4;
+  signed int return_value_link4;
+  return_value_link4=bmp_link4->vtable->getpixel(bmp_link4, x_link4, y_link4);
+  return return_value_link4;
 }
 
-// getpixel$link5
+// getpixel_link5
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link5(struct BITMAP *bmp$link5, signed int x$link5, signed int y$link5)
+static inline signed int getpixel_link5(struct BITMAP *bmp_link5, signed int x_link5, signed int y_link5)
 {
-  signed int return_value$link5;
-  return_value$link5=bmp$link5->vtable->getpixel(bmp$link5, x$link5, y$link5);
-  return return_value$link5;
+  signed int return_value_link5;
+  return_value_link5=bmp_link5->vtable->getpixel(bmp_link5, x_link5, y_link5);
+  return return_value_link5;
 }
 
-// getpixel$link6
+// getpixel_link6
 // file /usr/include/allegro/inline/draw.inl line 30
-static inline signed int getpixel$link6(struct BITMAP *bmp$link6, signed int x$link6, signed int y$link6)
+static inline signed int getpixel_link6(struct BITMAP *bmp_link6, signed int x_link6, signed int y_link6)
 {
-  signed int return_value$link6;
-  return_value$link6=bmp$link6->vtable->getpixel(bmp$link6, x$link6, y$link6);
-  return return_value$link6;
+  signed int return_value_link6;
+  return_value_link6=bmp_link6->vtable->getpixel(bmp_link6, x_link6, y_link6);
+  return return_value_link6;
 }
 
 // graphic_options
@@ -10872,7 +10872,7 @@ signed int graphic_options(void)
   signed int *temp;
   memset((void *)d, 0, sizeof(struct DIALOG [20l]) /*1440ul*/ );
   display_back_image();
-  signed int return_value_my_update_dialog$12;
+  signed int return_value_my_update_dialog_12;
   while(retour == 0)
   {
     i = 0;
@@ -10889,31 +10889,31 @@ signed int graphic_options(void)
       d[(signed long int)(i + 11)].proc = my_slider_proc;
     }
     standard_button(d + (signed long int)18, 0, 9, 1, 10);
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(45);
-    d[(signed long int)18].dp = (void *)return_value_lw_lang_string$1;
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(45);
+    d[(signed long int)18].dp = (void *)return_value_lw_lang_string_1;
     quick_buttons(d);
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(46);
-    d[(signed long int)4].dp = (void *)return_value_lw_lang_string$2;
-    char *return_value_lw_lang_string$3;
-    return_value_lw_lang_string$3=lw_lang_string(47);
-    d[(signed long int)5].dp = (void *)return_value_lw_lang_string$3;
-    char *return_value_get_menu_res_str$4;
-    return_value_get_menu_res_str$4=get_menu_res_str();
-    d[(signed long int)6].dp = (void *)return_value_get_menu_res_str$4;
-    char *return_value_get_game_res_str$5;
-    return_value_get_game_res_str$5=get_game_res_str();
-    d[(signed long int)7].dp = (void *)return_value_get_game_res_str$5;
-    char *return_value_lw_lang_string$6;
-    return_value_lw_lang_string$6=lw_lang_string(48);
-    d[(signed long int)8].dp = (void *)return_value_lw_lang_string$6;
-    char *return_value_lw_lang_string$7;
-    return_value_lw_lang_string$7=lw_lang_string(49);
-    d[(signed long int)9].dp = (void *)return_value_lw_lang_string$7;
-    char *return_value_lw_lang_string$8;
-    return_value_lw_lang_string$8=lw_lang_string(50);
-    d[(signed long int)10].dp = (void *)return_value_lw_lang_string$8;
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(46);
+    d[(signed long int)4].dp = (void *)return_value_lw_lang_string_2;
+    char *return_value_lw_lang_string_3;
+    return_value_lw_lang_string_3=lw_lang_string(47);
+    d[(signed long int)5].dp = (void *)return_value_lw_lang_string_3;
+    char *return_value_get_menu_res_str_4;
+    return_value_get_menu_res_str_4=get_menu_res_str();
+    d[(signed long int)6].dp = (void *)return_value_get_menu_res_str_4;
+    char *return_value_get_game_res_str_5;
+    return_value_get_game_res_str_5=get_game_res_str();
+    d[(signed long int)7].dp = (void *)return_value_get_game_res_str_5;
+    char *return_value_lw_lang_string_6;
+    return_value_lw_lang_string_6=lw_lang_string(48);
+    d[(signed long int)8].dp = (void *)return_value_lw_lang_string_6;
+    char *return_value_lw_lang_string_7;
+    return_value_lw_lang_string_7=lw_lang_string(49);
+    d[(signed long int)9].dp = (void *)return_value_lw_lang_string_7;
+    char *return_value_lw_lang_string_8;
+    return_value_lw_lang_string_8=lw_lang_string(50);
+    d[(signed long int)10].dp = (void *)return_value_lw_lang_string_8;
     d[(signed long int)17].dp = (void *)0;
     d[(signed long int)16].dp = d[(signed long int)17].dp;
     d[(signed long int)15].dp = d[(signed long int)16].dp;
@@ -10947,19 +10947,19 @@ signed int graphic_options(void)
     d[(signed long int)13].dp3 = (void *)&menu_res_changed;
     d[(signed long int)14].dp3 = (void *)&game_res_changed;
     d[(signed long int)11].proc = my_button_proc;
-    char *return_value_get_fullscreen_str$9;
-    return_value_get_fullscreen_str$9=get_fullscreen_str();
-    d[(signed long int)11].dp = (void *)return_value_get_fullscreen_str$9;
+    char *return_value_get_fullscreen_str_9;
+    return_value_get_fullscreen_str_9=get_fullscreen_str();
+    d[(signed long int)11].dp = (void *)return_value_get_fullscreen_str_9;
     d[(signed long int)11].flags = 1;
     d[(signed long int)16].proc = my_button_proc;
-    char *return_value_get_page_flip_str$10;
-    return_value_get_page_flip_str$10=get_page_flip_str();
-    d[(signed long int)16].dp = (void *)return_value_get_page_flip_str$10;
+    char *return_value_get_page_flip_str_10;
+    return_value_get_page_flip_str_10=get_page_flip_str();
+    d[(signed long int)16].dp = (void *)return_value_get_page_flip_str_10;
     d[(signed long int)16].flags = 1;
     d[(signed long int)17].proc = my_button_proc;
-    char *return_value_get_wave_mode_str$11;
-    return_value_get_wave_mode_str$11=get_wave_mode_str();
-    d[(signed long int)17].dp = (void *)return_value_get_wave_mode_str$11;
+    char *return_value_get_wave_mode_str_11;
+    return_value_get_wave_mode_str_11=get_wave_mode_str();
+    d[(signed long int)17].dp = (void *)return_value_get_wave_mode_str_11;
     d[(signed long int)17].flags = 1;
     d[(signed long int)19].proc = ((signed int (*)(signed int, struct DIALOG *, signed int))NULL);
     game_res_changed = 0;
@@ -10980,8 +10980,8 @@ signed int graphic_options(void)
       if(!(game_res_changed == 0))
         break;
 
-      return_value_my_update_dialog$12=my_update_dialog(dp);
-      if(return_value_my_update_dialog$12 == 0)
+      return_value_my_update_dialog_12=my_update_dialog(dp);
+      if(return_value_my_update_dialog_12 == 0)
         break;
 
     }
@@ -10991,27 +10991,27 @@ signed int graphic_options(void)
       if(!(d[13l].d2 == CONFIG_GFX_MENU))
       {
         my_fade_out();
-        signed int return_value_set_resolution$13;
-        return_value_set_resolution$13=set_resolution(d[(signed long int)13].d2, 0, CONFIG_FULLSCREEN, (signed int *)(void *)0);
-        if(!(return_value_set_resolution$13 == 0))
+        signed int return_value_set_resolution_13;
+        return_value_set_resolution_13=set_resolution(d[(signed long int)13].d2, 0, CONFIG_FULLSCREEN, (signed int *)(void *)0);
+        if(!(return_value_set_resolution_13 == 0))
           CONFIG_GFX_MENU = 0;
 
         else
           CONFIG_GFX_MENU = d[(signed long int)13].d2;
       }
 
-      char *return_value_get_menu_res_str$14;
-      return_value_get_menu_res_str$14=get_menu_res_str();
-      d[(signed long int)13].dp = (void *)return_value_get_menu_res_str$14;
+      char *return_value_get_menu_res_str_14;
+      return_value_get_menu_res_str_14=get_menu_res_str();
+      d[(signed long int)13].dp = (void *)return_value_get_menu_res_str_14;
     }
 
     else
       if(!(game_res_changed == 0))
       {
         CONFIG_GFX_GAME = d[(signed long int)14].d2;
-        char *return_value_get_game_res_str$15;
-        return_value_get_game_res_str$15=get_game_res_str();
-        d[(signed long int)14].dp = (void *)return_value_get_game_res_str$15;
+        char *return_value_get_game_res_str_15;
+        return_value_get_game_res_str_15=get_game_res_str();
+        d[(signed long int)14].dp = (void *)return_value_get_game_res_str_15;
         retour = 0;
       }
 
@@ -11055,9 +11055,9 @@ signed int graphic_options(void)
 
         __CPROVER_DUMP_L19:
           ;
-          signed int return_value_confirm_quit$16;
-          return_value_confirm_quit$16=confirm_quit();
-          if(!(return_value_confirm_quit$16 == 0))
+          signed int return_value_confirm_quit_16;
+          return_value_confirm_quit_16=confirm_quit();
+          if(!(return_value_confirm_quit_16 == 0))
             retour = -2;
 
           else
@@ -11072,9 +11072,9 @@ signed int graphic_options(void)
         __CPROVER_DUMP_L23:
           ;
           CONFIG_FULLSCREEN = CONFIG_FULLSCREEN != 0 ? 0 : 1;
-          char *return_value_get_fullscreen_str$17;
-          return_value_get_fullscreen_str$17=get_fullscreen_str();
-          d[(signed long int)11].dp = (void *)return_value_get_fullscreen_str$17;
+          char *return_value_get_fullscreen_str_17;
+          return_value_get_fullscreen_str_17=get_fullscreen_str();
+          d[(signed long int)11].dp = (void *)return_value_get_fullscreen_str_17;
           scare_mouse();
           my_button_proc(3, d + (signed long int)11, 0);
           unscare_mouse();
@@ -11086,9 +11086,9 @@ signed int graphic_options(void)
         __CPROVER_DUMP_L24:
           ;
           CONFIG_PAGE_FLIP = CONFIG_PAGE_FLIP != 0 ? 0 : 1;
-          char *return_value_get_page_flip_str$18;
-          return_value_get_page_flip_str$18=get_page_flip_str();
-          d[(signed long int)16].dp = (void *)return_value_get_page_flip_str$18;
+          char *return_value_get_page_flip_str_18;
+          return_value_get_page_flip_str_18=get_page_flip_str();
+          d[(signed long int)16].dp = (void *)return_value_get_page_flip_str_18;
           scare_mouse();
           my_button_proc(3, d + (signed long int)16, 0);
           unscare_mouse();
@@ -11097,9 +11097,9 @@ signed int graphic_options(void)
         __CPROVER_DUMP_L25:
           ;
           CONFIG_WAVE_ON = CONFIG_WAVE_ON != 0 ? 0 : 1;
-          char *return_value_get_wave_mode_str$19;
-          return_value_get_wave_mode_str$19=get_wave_mode_str();
-          d[(signed long int)17].dp = (void *)return_value_get_wave_mode_str$19;
+          char *return_value_get_wave_mode_str_19;
+          return_value_get_wave_mode_str_19=get_wave_mode_str();
+          d[(signed long int)17].dp = (void *)return_value_get_wave_mode_str_19;
           scare_mouse();
           my_button_proc(3, d + (signed long int)17, 0);
           unscare_mouse();
@@ -11273,18 +11273,18 @@ static inline void hline(struct BITMAP *bmp, signed int x1, signed int y, signed
   _allegro_hline(bmp, x1, y, x2, color);
 }
 
-// hline$link1
+// hline_link1
 // file /usr/include/allegro/inline/draw.inl line 68
-static inline void hline$link1(struct BITMAP *bmp$link1, signed int x1$link1, signed int y$link1, signed int x2$link1, signed int color$link1)
+static inline void hline_link1(struct BITMAP *bmp_link1, signed int x1_link1, signed int y_link1, signed int x2_link1, signed int color_link1)
 {
-  _allegro_hline$link1(bmp$link1, x1$link1, y$link1, x2$link1, color$link1);
+  _allegro_hline_link1(bmp_link1, x1_link1, y_link1, x2_link1, color_link1);
 }
 
-// hline$link2
+// hline_link2
 // file /usr/include/allegro/inline/draw.inl line 68
-static inline void hline$link2(struct BITMAP *bmp$link2, signed int x1$link2, signed int y$link2, signed int x2$link2, signed int color$link2)
+static inline void hline_link2(struct BITMAP *bmp_link2, signed int x1_link2, signed int y_link2, signed int x2_link2, signed int color_link2)
 {
-  _allegro_hline$link2(bmp$link2, x1$link2, y$link2, x2$link2, color$link2);
+  _allegro_hline_link2(bmp_link2, x1_link2, y_link2, x2_link2, color_link2);
 }
 
 // init_all
@@ -11301,22 +11301,22 @@ signed int init_all()
   signed int sound = 1;
   signed int joystick = 1;
   signed int network = 1;
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  srandom((unsigned int)return_value_time$1);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  srandom((unsigned int)return_value_time_1);
   set_startup();
   log_init();
   lw_lang_init();
   set_uformat(65 << 24 | 83 << 16 | 67 << 8 | 56);
   log_print_str("Starting Allegro (http://www.talula.demon.co.uk/allegro)");
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  signed int return_value__install_allegro_version_check$3;
-  return_value__install_allegro_version_check$3=_install_allegro_version_check(0, &(*return_value___errno_location$2), (signed int (*)(void (*)(void)))atexit, 4 << 16 | 4 << 8 | 2);
-  graphics = (signed int)!(return_value__install_allegro_version_check$3 != 0);
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  signed int return_value__install_allegro_version_check_3;
+  return_value__install_allegro_version_check_3=_install_allegro_version_check(0, &(*return_value___errno_location_2), (signed int (*)(void (*)(void)))atexit, 4 << 16 | 4 << 8 | 2);
+  graphics = (signed int)!(return_value__install_allegro_version_check_3 != 0);
   display_success(graphics);
   log_println();
-  signed int return_value_my_initialise_joystick$9;
+  signed int return_value_my_initialise_joystick_9;
   if(!(graphics == 0))
   {
     LW_INIT_ALLEGRO_OK = 1;
@@ -11333,9 +11333,9 @@ signed int init_all()
     config=load_config_options();
     display_success(config);
     log_print_str("Installing timer");
-    signed int return_value_install_timer$4;
-    return_value_install_timer$4=install_timer();
-    timer = (signed int)!(return_value_install_timer$4 != 0);
+    signed int return_value_install_timer_4;
+    return_value_install_timer_4=install_timer();
+    timer = (signed int)!(return_value_install_timer_4 != 0);
     if(!(timer == 0))
       display_success_driver((char *)timer_driver->ascii_name);
 
@@ -11343,18 +11343,18 @@ signed int init_all()
       display_success(0);
     start_ticker();
     log_print_str("Installing keyboard");
-    signed int return_value_install_keyboard$5;
-    return_value_install_keyboard$5=install_keyboard();
-    keyboard = (signed int)!(return_value_install_keyboard$5 != 0);
+    signed int return_value_install_keyboard_5;
+    return_value_install_keyboard_5=install_keyboard();
+    keyboard = (signed int)!(return_value_install_keyboard_5 != 0);
     if(!(keyboard == 0))
       display_success_driver((char *)keyboard_driver->ascii_name);
 
     else
       display_success(0);
     log_print_str("Installing mouse");
-    signed int return_value_install_mouse$6;
-    return_value_install_mouse$6=install_mouse();
-    mouse = (signed int)(return_value_install_mouse$6 != -1);
+    signed int return_value_install_mouse_6;
+    return_value_install_mouse_6=install_mouse();
+    mouse = (signed int)(return_value_install_mouse_6 != -1);
     if(!(mouse == 0))
       display_success_driver((char *)mouse_driver->ascii_name);
 
@@ -11363,14 +11363,14 @@ signed int init_all()
     if(!(STARTUP_DIGI_CARD == 0) || !(STARTUP_MIDI_CARD == 0))
     {
       log_print_str("Installing sound");
-      signed int return_value_install_sound$7;
-      return_value_install_sound$7=install_sound(STARTUP_DIGI_CARD, STARTUP_MIDI_CARD, "");
-      sound = (signed int)!(return_value_install_sound$7 != 0);
+      signed int return_value_install_sound_7;
+      return_value_install_sound_7=install_sound(STARTUP_DIGI_CARD, STARTUP_MIDI_CARD, "");
+      sound = (signed int)!(return_value_install_sound_7 != 0);
       if(sound == 0)
       {
-        signed int return_value_install_sound$8;
-        return_value_install_sound$8=install_sound(STARTUP_DIGI_CARD, 0, "");
-        sound = (signed int)!(return_value_install_sound$8 != 0);
+        signed int return_value_install_sound_8;
+        return_value_install_sound_8=install_sound(STARTUP_DIGI_CARD, 0, "");
+        sound = (signed int)!(return_value_install_sound_8 != 0);
       }
 
       if(!(sound == 0))
@@ -11390,8 +11390,8 @@ signed int init_all()
       log_print_str("Installing joystick");
       if(!(STARTUP_JOYSTICK_ON == 0))
       {
-        return_value_my_initialise_joystick$9=my_initialise_joystick();
-        joystick = (signed int)!(return_value_my_initialise_joystick$9 != 0);
+        return_value_my_initialise_joystick_9=my_initialise_joystick();
+        joystick = (signed int)!(return_value_my_initialise_joystick_9 != 0);
       }
 
       if(!(joystick == 0))
@@ -11460,13 +11460,13 @@ void init_disp_cursor(void)
     color_back = 0;
     while(color_back >= 32 || !(color_back >= 64))
     {
-      signed long int return_value_random$1;
-      return_value_random$1=random();
-      x = (signed int)(return_value_random$1 % (signed long int)CURRENT_AREA_W);
-      signed long int return_value_random$2;
-      return_value_random$2=random();
-      y = (signed int)(return_value_random$2 % (signed long int)CURRENT_AREA_H);
-      color_back=getpixel$link5(CURRENT_AREA_BACK, x, y);
+      signed long int return_value_random_1;
+      return_value_random_1=random();
+      x = (signed int)(return_value_random_1 % (signed long int)CURRENT_AREA_W);
+      signed long int return_value_random_2;
+      return_value_random_2=random();
+      y = (signed int)(return_value_random_2 % (signed long int)CURRENT_AREA_H);
+      color_back=getpixel_link5(CURRENT_AREA_BACK, x, y);
     }
     CURSOR_COLOR_BACK[(signed long int)i] = (char)color_back;
   }
@@ -11511,18 +11511,18 @@ void init_distorsion_displayer(void)
 // file distor.c line 99
 static void init_distorsion_target(void)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(DISTORSION_TARGET == ((struct BITMAP *)NULL))
     DISTORSION_TARGET=my_create_bitmap(NEXT_SCREEN->w, NEXT_SCREEN->h);
 
   else
   {
     if(!(DISTORSION_TARGET->w == NEXT_SCREEN->w))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = DISTORSION_TARGET->h != NEXT_SCREEN->h ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = DISTORSION_TARGET->h != NEXT_SCREEN->h ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       destroy_bitmap(DISTORSION_TARGET);
       DISTORSION_TARGET=my_create_bitmap(NEXT_SCREEN->w, NEXT_SCREEN->h);
@@ -11557,9 +11557,9 @@ char * init_game(void)
 
   }
 
-  signed int return_value_create_mesh$1;
-  signed int return_value_create_game_area$2;
-  signed int return_value_create_army$3;
+  signed int return_value_create_mesh_1;
+  signed int return_value_create_game_area_2;
+  signed int return_value_create_army_3;
   if(message == ((char *)NULL))
   {
     i = 0;
@@ -11569,24 +11569,24 @@ char * init_game(void)
       reset_big_data();
       if(message == ((char *)NULL))
       {
-        return_value_create_mesh$1=create_mesh();
-        if(!(return_value_create_mesh$1 == 0))
+        return_value_create_mesh_1=create_mesh();
+        if(!(return_value_create_mesh_1 == 0))
           message=lw_lang_string(163);
 
       }
 
       if(message == ((char *)NULL))
       {
-        return_value_create_game_area$2=create_game_area();
-        if(!(return_value_create_game_area$2 == 0))
+        return_value_create_game_area_2=create_game_area();
+        if(!(return_value_create_game_area_2 == 0))
           message=lw_lang_string(164);
 
       }
 
       if(message == ((char *)NULL))
       {
-        return_value_create_army$3=create_army();
-        if(!(return_value_create_army$3 == 0))
+        return_value_create_army_3=create_army();
+        if(!(return_value_create_army_3 == 0))
           message=lw_lang_string(165);
 
       }
@@ -11606,9 +11606,9 @@ char * init_game(void)
           }
 
           big_data = STARTUP_BIG_DATA;
-          void *return_value_malloc_big_data$4;
-          return_value_malloc_big_data$4=malloc_big_data();
-          if(!(return_value_malloc_big_data$4 == NULL))
+          void *return_value_malloc_big_data_4;
+          return_value_malloc_big_data_4=malloc_big_data();
+          if(!(return_value_malloc_big_data_4 == NULL))
           {
             if(!(STARTUP_BIG_DATA == big_data))
               last_try = 1;
@@ -11654,14 +11654,14 @@ signed int init_info_bar(signed int w, signed int h, signed int epaisseur)
 
   INFO_BAR=my_create_bitmap(w, h);
   INFO_BAR_BACK=my_create_bitmap(w, h);
-  signed int return_value_getpixel$1;
-  signed int return_value_getpixel$2;
+  signed int return_value_getpixel_1;
+  signed int return_value_getpixel_2;
   if(!(INFO_BAR == ((struct BITMAP *)NULL)) && !(INFO_BAR_BACK == ((struct BITMAP *)NULL)))
   {
     if(!(h >= w))
     {
-      rectfill$link1(INFO_BAR, 0, 0, epaisseur - 1, h - 1, 16);
-      vline$link1(INFO_BAR, epaisseur, 0, h - 1, 17);
+      rectfill_link1(INFO_BAR, 0, 0, epaisseur - 1, h - 1, 16);
+      vline_link1(INFO_BAR, epaisseur, 0, h - 1, 17);
       front=lw_maptex_create_fg(CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, LW_NETWORK_ON, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
       back=lw_maptex_create_bg(CONFIG_LEVEL_MAP, CONFIG_LEVEL_BG, LW_NETWORK_ON, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
       y = 0;
@@ -11669,7 +11669,7 @@ signed int init_info_bar(signed int w, signed int h, signed int epaisseur)
       {
         x = epaisseur + 1;
         for( ; !(x >= w); x = x + front->w)
-          draw_sprite$link1(INFO_BAR, front, x, y);
+          draw_sprite_link1(INFO_BAR, front, x, y);
       }
       INFO_BAR_POS_W = (w - epaisseur) - 5;
       INFO_BAR_POS_H = (h - 1) / PLAYING_TEAMS - 1;
@@ -11684,8 +11684,8 @@ signed int init_info_bar(signed int w, signed int h, signed int epaisseur)
           x = INFO_BAR_POS_X[(signed long int)i];
           for( ; !(x >= INFO_BAR_POS_X[(signed long int)i] + INFO_BAR_POS_W); x = x + 1)
           {
-            return_value_getpixel$1=getpixel$link2(back, ((x - epaisseur) - 1) % back->w, y % back->h);
-            putpixel$link5(INFO_BAR, x, y, return_value_getpixel$1);
+            return_value_getpixel_1=getpixel_link2(back, ((x - epaisseur) - 1) % back->w, y % back->h);
+            putpixel_link5(INFO_BAR, x, y, return_value_getpixel_1);
           }
         }
       }
@@ -11695,8 +11695,8 @@ signed int init_info_bar(signed int w, signed int h, signed int epaisseur)
 
     else
     {
-      rectfill$link1(INFO_BAR, 0, 0, w - 1, epaisseur - 1, 16);
-      hline$link1(INFO_BAR, 0, epaisseur, w - 1, 17);
+      rectfill_link1(INFO_BAR, 0, 0, w - 1, epaisseur - 1, 16);
+      hline_link1(INFO_BAR, 0, epaisseur, w - 1, 17);
       front=lw_maptex_create_fg(CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, LW_NETWORK_ON, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
       back=lw_maptex_create_bg(CONFIG_LEVEL_MAP, CONFIG_LEVEL_BG, LW_NETWORK_ON, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
       y = epaisseur + 1;
@@ -11704,7 +11704,7 @@ signed int init_info_bar(signed int w, signed int h, signed int epaisseur)
       {
         x = 0;
         for( ; !(x >= w); x = x + front->w)
-          draw_sprite$link1(INFO_BAR, front, x, y);
+          draw_sprite_link1(INFO_BAR, front, x, y);
       }
       INFO_BAR_POS_W = (w - 1) / PLAYING_TEAMS - 1;
       INFO_BAR_POS_H = (h - epaisseur) - 5;
@@ -11719,15 +11719,15 @@ signed int init_info_bar(signed int w, signed int h, signed int epaisseur)
           x = INFO_BAR_POS_X[(signed long int)i];
           for( ; !(x >= INFO_BAR_POS_X[(signed long int)i] + INFO_BAR_POS_W); x = x + 1)
           {
-            return_value_getpixel$2=getpixel$link2(back, x % back->w, ((y - epaisseur) - 1) % back->h);
-            putpixel$link5(INFO_BAR, x, y, return_value_getpixel$2);
+            return_value_getpixel_2=getpixel_link2(back, x % back->w, ((y - epaisseur) - 1) % back->h);
+            putpixel_link5(INFO_BAR, x, y, return_value_getpixel_2);
           }
         }
       }
       destroy_bitmap(back);
       destroy_bitmap(front);
     }
-    draw_sprite$link1(INFO_BAR_BACK, INFO_BAR, 0, 0);
+    draw_sprite_link1(INFO_BAR_BACK, INFO_BAR, 0, 0);
   }
 
   return (signed int)(INFO_BAR != ((struct BITMAP *)NULL) && INFO_BAR_BACK != ((struct BITMAP *)NULL));
@@ -11833,9 +11833,9 @@ static void init_tombola()
   signed int i = 0;
   for( ; !(i >= 6); i = i + 1)
   {
-    signed long int return_value_random$1;
-    return_value_random$1=random();
-    LW_SCORE_TOMBOLA_RESULT[(signed long int)i] = (signed int)(return_value_random$1 % (signed long int)500 + (signed long int)1);
+    signed long int return_value_random_1;
+    return_value_random_1=random();
+    LW_SCORE_TOMBOLA_RESULT[(signed long int)i] = (signed int)(return_value_random_1 % (signed long int)500 + (signed long int)1);
   }
 }
 
@@ -11909,7 +11909,7 @@ signed int internet_find(void)
   struct DIALOG d[13l];
   signed int choix = 4;
   signed int retour = 0;
-  struct anonymous$15 data[1000l];
+  struct anonymous_15 data[1000l];
   signed int size;
   signed int cur;
   signed int i;
@@ -11938,12 +11938,12 @@ signed int internet_find(void)
     d[(signed long int)4].dp3 = (void *)0;
     d[(signed long int)4].dp2 = d[(signed long int)4].dp3;
     d[(signed long int)4].proc = my_list_proc;
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(91);
-    d[(signed long int)5].dp = (void *)return_value_lw_lang_string$1;
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(92);
-    d[(signed long int)6].dp = (void *)return_value_lw_lang_string$2;
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(91);
+    d[(signed long int)5].dp = (void *)return_value_lw_lang_string_1;
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(92);
+    d[(signed long int)6].dp = (void *)return_value_lw_lang_string_2;
     d[(signed long int)7].dp = (void *)buffer_ping;
     d[(signed long int)8].dp = (void *)buffer_port;
     d[(signed long int)9].dp = (void *)buffer_password;
@@ -12010,9 +12010,9 @@ signed int internet_find(void)
 
     __CPROVER_DUMP_L7:
       ;
-      signed int return_value_confirm_quit$3;
-      return_value_confirm_quit$3=confirm_quit();
-      if(!(return_value_confirm_quit$3 == 0))
+      signed int return_value_confirm_quit_3;
+      return_value_confirm_quit_3=confirm_quit();
+      if(!(return_value_confirm_quit_3 == 0))
         retour = -2;
 
       else
@@ -12161,8 +12161,8 @@ signed int is_touched_key(signed int i)
       }
     }
 
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(found == 0)
     switch(i)
     {
@@ -12191,21 +12191,21 @@ signed int is_touched_key(signed int i)
         {
           i = i - 128;
           if(!((2 & (signed int)key[(signed long int)i]) == 0))
-            tmp_if_expr$1 = ALLOWED_KEYBOARD_KEY[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = ALLOWED_KEYBOARD_KEY[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          retval = (signed int)tmp_if_expr$1;
+            tmp_if_expr_1 = (_Bool)0;
+          retval = (signed int)tmp_if_expr_1;
         }
 
         else
         {
           if(!((1 & (signed int)key[(signed long int)i]) == 0))
-            tmp_if_expr$2 = ALLOWED_KEYBOARD_KEY[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = ALLOWED_KEYBOARD_KEY[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          retval = (signed int)tmp_if_expr$2;
+            tmp_if_expr_2 = (_Bool)0;
+          retval = (signed int)tmp_if_expr_2;
         }
     }
 
@@ -12219,11 +12219,11 @@ static inline signed int itofix(signed int x)
   return x << 16;
 }
 
-// itofix$link1
+// itofix_link1
 // file /usr/include/allegro/inline/fmaths.inl line 181
-static inline signed int itofix$link1(signed int x$link1)
+static inline signed int itofix_link1(signed int x_link1)
 {
-  return x$link1 << 16;
+  return x_link1 << 16;
 }
 
 // language_options
@@ -12241,7 +12241,7 @@ signed int language_options(void)
     standard_button(d + (signed long int)i + (signed long int)5, 0, 2 + i, 1, 2 + 4);
   update_language(d);
   d[(signed long int)(5 + 4)].proc = ((signed int (*)(signed int, struct DIALOG *, signed int))NULL);
-  signed int return_value_confirm_quit$1;
+  signed int return_value_confirm_quit_1;
   while(retour == 0)
   {
     choix=my_do_dialog(d, choix);
@@ -12273,8 +12273,8 @@ signed int language_options(void)
 
     __CPROVER_DUMP_L6:
       ;
-      return_value_confirm_quit$1=confirm_quit();
-      if(!(return_value_confirm_quit$1 == 0))
+      return_value_confirm_quit_1=confirm_quit();
+      if(!(return_value_confirm_quit_1 == 0))
         retour = -2;
 
       continue;
@@ -12307,58 +12307,58 @@ signed int language_options(void)
 // file viewport.h line 77
 void last_flip(void)
 {
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
   if(!(NEXT_SCREEN == ((struct BITMAP *)NULL)))
   {
     if(!(CONFIG_PAGE_FLIP == 0))
     {
       if(!(screen == ((struct BITMAP *)NULL)))
-        tmp_if_expr$6 = screen->h;
+        tmp_if_expr_6 = screen->h;
 
       else
-        tmp_if_expr$6 = 0;
+        tmp_if_expr_6 = 0;
       if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-        tmp_if_expr$7 = gfx_driver->h;
+        tmp_if_expr_7 = gfx_driver->h;
 
       else
-        tmp_if_expr$7 = 0;
-      if(tmp_if_expr$6 >= 2 * tmp_if_expr$7)
+        tmp_if_expr_7 = 0;
+      if(tmp_if_expr_6 >= 2 * tmp_if_expr_7)
       {
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$1 = gfx_driver->w;
+          tmp_if_expr_1 = gfx_driver->w;
 
         else
-          tmp_if_expr$1 = 0;
+          tmp_if_expr_1 = 0;
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$2 = gfx_driver->h;
+          tmp_if_expr_2 = gfx_driver->h;
 
         else
-          tmp_if_expr$2 = 0;
-        set_clip_rect(screen, 0, 0, tmp_if_expr$1 - 1, tmp_if_expr$2 - 1);
+          tmp_if_expr_2 = 0;
+        set_clip_rect(screen, 0, 0, tmp_if_expr_1 - 1, tmp_if_expr_2 - 1);
         if(PAGE_FLIP_H == 0)
         {
           if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-            tmp_if_expr$3 = gfx_driver->h;
+            tmp_if_expr_3 = gfx_driver->h;
 
           else
-            tmp_if_expr$3 = 0;
+            tmp_if_expr_3 = 0;
           if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-            tmp_if_expr$4 = gfx_driver->w;
+            tmp_if_expr_4 = gfx_driver->w;
 
           else
-            tmp_if_expr$4 = 0;
+            tmp_if_expr_4 = 0;
           if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-            tmp_if_expr$5 = gfx_driver->h;
+            tmp_if_expr_5 = gfx_driver->h;
 
           else
-            tmp_if_expr$5 = 0;
-          blit(screen, screen, 0, tmp_if_expr$3, 0, 0, tmp_if_expr$4, tmp_if_expr$5);
+            tmp_if_expr_5 = 0;
+          blit(screen, screen, 0, tmp_if_expr_3, 0, 0, tmp_if_expr_4, tmp_if_expr_5);
           scroll_screen(0, 0);
         }
 
@@ -12494,12 +12494,12 @@ static signed int load_custom_map_callback(const char *file, signed int mode, vo
   mode = mode;
   unused = unused;
   pointeur=lw_map_archive_raw(file);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(pointeur == NULL))
   {
-    tmp_post$1 = RAW_MAP_NUMBER;
+    tmp_post_1 = RAW_MAP_NUMBER;
     RAW_MAP_NUMBER = RAW_MAP_NUMBER + 1;
-    RAW_MAP[(signed long int)tmp_post$1] = pointeur;
+    RAW_MAP[(signed long int)tmp_post_1] = pointeur;
     log_print_str("+");
     CUSTOM_MAP_OK = 1;
   }
@@ -12533,15 +12533,15 @@ static signed int load_custom_music_callback(const char *file, signed int mode, 
   void *pointeur;
   mode = mode;
   unused = unused;
-  struct MIDI *return_value_load_midi$2;
-  return_value_load_midi$2=load_midi(file);
-  pointeur = (void *)return_value_load_midi$2;
-  signed int tmp_post$1;
+  struct MIDI *return_value_load_midi_2;
+  return_value_load_midi_2=load_midi(file);
+  pointeur = (void *)return_value_load_midi_2;
+  signed int tmp_post_1;
   if(!(pointeur == NULL))
   {
-    tmp_post$1 = MIDI_MUSIC_NUMBER;
+    tmp_post_1 = MIDI_MUSIC_NUMBER;
     MIDI_MUSIC_NUMBER = MIDI_MUSIC_NUMBER + 1;
-    MIDI_MUSIC[(signed long int)tmp_post$1] = (struct MIDI *)pointeur;
+    MIDI_MUSIC[(signed long int)tmp_post_1] = (struct MIDI *)pointeur;
     log_print_str("+");
     CUSTOM_MUSIC_OK = 1;
   }
@@ -12577,12 +12577,12 @@ static signed int load_custom_texture_callback(const char *file, signed int mode
   mode = mode;
   unused = unused;
   pointeur=lw_texture_archive_raw(file);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(pointeur == NULL))
   {
-    tmp_post$1 = RAW_TEXTURE_NUMBER;
+    tmp_post_1 = RAW_TEXTURE_NUMBER;
     RAW_TEXTURE_NUMBER = RAW_TEXTURE_NUMBER + 1;
-    RAW_TEXTURE[(signed long int)tmp_post$1] = pointeur;
+    RAW_TEXTURE[(signed long int)tmp_post_1] = pointeur;
     log_print_str("+");
     CUSTOM_TEXTURE_OK = 1;
   }
@@ -12857,9 +12857,9 @@ static signed int load_disk_options(void)
   signed int i;
   load_default_options();
   set_config_file(STARTUP_CFG_PATH);
-  signed int return_value_get_config_int$4;
-  return_value_get_config_int$4=get_config_int("MAIN", "DUMMY", 0);
-  if(return_value_get_config_int$4 == 5003000)
+  signed int return_value_get_config_int_4;
+  return_value_get_config_int_4=get_config_int("MAIN", "DUMMY", 0);
+  if(return_value_get_config_int_4 == 5003000)
   {
     CONFIG_GFX_GAME=get_config_int("MAIN", "GFX_GAME", CONFIG_GFX_GAME);
     CONFIG_GFX_MENU=get_config_int("MAIN", "GFX_MENU", CONFIG_GFX_MENU);
@@ -12898,9 +12898,9 @@ static signed int load_disk_options(void)
       CONFIG_KEY_RIGHT[(signed long int)i]=get_config_int("KEY_RIGHT", number_string, CONFIG_KEY_RIGHT[(signed long int)i]);
       CONFIG_TEAM_COLOR[(signed long int)i]=get_config_int("TEAM_COLOR", number_string, CONFIG_TEAM_COLOR[(signed long int)i]);
       CONFIG_CONTROL_TYPE[(signed long int)i]=get_config_int("CONTROL_TYPE", number_string, CONFIG_CONTROL_TYPE[(signed long int)i]);
-      const char *return_value_get_config_string$1;
-      return_value_get_config_string$1=get_config_string("PLAYER_NAME", number_string, CONFIG_PLAYER_NAME[(signed long int)i]);
-      __builtin_strncpy(CONFIG_PLAYER_NAME[(signed long int)i], return_value_get_config_string$1, (unsigned long int)10);
+      const char *return_value_get_config_string_1;
+      return_value_get_config_string_1=get_config_string("PLAYER_NAME", number_string, CONFIG_PLAYER_NAME[(signed long int)i]);
+      __builtin_strncpy(CONFIG_PLAYER_NAME[(signed long int)i], return_value_get_config_string_1, (unsigned long int)10);
       CONFIG_PLAYER_NAME[(signed long int)i][(signed long int)10] = (char)0;
     }
     CONFIG_GAME_TIME=get_config_int("MAIN", "GAME_TIME", CONFIG_GAME_TIME);
@@ -12914,15 +12914,15 @@ static signed int load_disk_options(void)
     CONFIG_WAVE_ON=get_config_int("MAIN", "WAVE_ON", CONFIG_WAVE_ON);
     CONFIG_FRAMES_PER_SEC_LIMIT=get_config_int("MAIN", "FRAMES_PER_SEC_LIMIT", CONFIG_FRAMES_PER_SEC_LIMIT);
     CONFIG_ROUNDS_PER_SEC_LIMIT=get_config_int("MAIN", "ROUNDS_PER_SEC_LIMIT", CONFIG_ROUNDS_PER_SEC_LIMIT);
-    const char *return_value_get_config_string$2;
-    return_value_get_config_string$2=get_config_string("MAIN", "SERVER_ADDRESS", CONFIG_SERVER_ADDRESS);
-    __builtin_strncpy(CONFIG_SERVER_ADDRESS, return_value_get_config_string$2, sizeof(char [51l]) /*51ul*/ );
+    const char *return_value_get_config_string_2;
+    return_value_get_config_string_2=get_config_string("MAIN", "SERVER_ADDRESS", CONFIG_SERVER_ADDRESS);
+    __builtin_strncpy(CONFIG_SERVER_ADDRESS, return_value_get_config_string_2, sizeof(char [51l]) /*51ul*/ );
     CONFIG_SERVER_ADDRESS[(signed long int)(sizeof(char [51l]) /*51ul*/  - (unsigned long int)1)] = (char)0;
     CONFIG_SERVER_PORT=get_config_int("MAIN", "SERVER_PORT", CONFIG_SERVER_PORT);
     CONFIG_ASM_ALGORITHM=get_config_int("MAIN", "ASM_ALGORITHM", CONFIG_ASM_ALGORITHM);
-    const char *return_value_get_config_string$3;
-    return_value_get_config_string$3=get_config_string("MAIN", "PASSWORD", CONFIG_PASSWORD);
-    __builtin_strncpy(CONFIG_PASSWORD, return_value_get_config_string$3, sizeof(char [21l]) /*21ul*/ );
+    const char *return_value_get_config_string_3;
+    return_value_get_config_string_3=get_config_string("MAIN", "PASSWORD", CONFIG_PASSWORD);
+    __builtin_strncpy(CONFIG_PASSWORD, return_value_get_config_string_3, sizeof(char [21l]) /*21ul*/ );
     CONFIG_PASSWORD[(signed long int)(sizeof(char [21l]) /*21ul*/  - (unsigned long int)1)] = (char)0;
     CONFIG_MIN_MAP_RES=get_config_int("MAIN", "MIN_MAP_RES", CONFIG_MIN_MAP_RES);
     CONFIG_USE_DEFAULT_TEXTURE=get_config_int("MAIN", "USE_DEFAULT_TEXTURE", CONFIG_USE_DEFAULT_TEXTURE);
@@ -13070,18 +13070,18 @@ signed int lw_about(void)
     for( ; !(i >= 4); i = i + 1)
       standard_button(d + (signed long int)i + (signed long int)4, 0, i, 1, 4);
     quick_buttons(d);
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(87);
-    d[(signed long int)4].dp = (void *)return_value_lw_lang_string$1;
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(88);
-    d[(signed long int)5].dp = (void *)return_value_lw_lang_string$2;
-    char *return_value_lw_lang_string$3;
-    return_value_lw_lang_string$3=lw_lang_string(89);
-    d[(signed long int)6].dp = (void *)return_value_lw_lang_string$3;
-    char *return_value_lw_lang_string$4;
-    return_value_lw_lang_string$4=lw_lang_string(90);
-    d[(signed long int)7].dp = (void *)return_value_lw_lang_string$4;
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(87);
+    d[(signed long int)4].dp = (void *)return_value_lw_lang_string_1;
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(88);
+    d[(signed long int)5].dp = (void *)return_value_lw_lang_string_2;
+    char *return_value_lw_lang_string_3;
+    return_value_lw_lang_string_3=lw_lang_string(89);
+    d[(signed long int)6].dp = (void *)return_value_lw_lang_string_3;
+    char *return_value_lw_lang_string_4;
+    return_value_lw_lang_string_4=lw_lang_string(90);
+    d[(signed long int)7].dp = (void *)return_value_lw_lang_string_4;
     d[(signed long int)8].proc = ((signed int (*)(signed int, struct DIALOG *, signed int))NULL);
     choix=my_do_dialog(d, choix);
     if(!(choix == 3) && !(choix == -1))
@@ -13121,9 +13121,9 @@ signed int lw_about(void)
 
     __CPROVER_DUMP_L6:
       ;
-      signed int return_value_confirm_quit$5;
-      return_value_confirm_quit$5=confirm_quit();
-      if(!(return_value_confirm_quit$5 == 0))
+      signed int return_value_confirm_quit_5;
+      return_value_confirm_quit_5=confirm_quit();
+      if(!(return_value_confirm_quit_5 == 0))
         retour = -2;
 
       else
@@ -13137,30 +13137,30 @@ signed int lw_about(void)
 
     __CPROVER_DUMP_L10:
       ;
-      char *return_value_lw_lang_string$6;
-      return_value_lw_lang_string$6=lw_lang_string(2);
-      retour=display_help(return_value_lw_lang_string$6);
+      char *return_value_lw_lang_string_6;
+      return_value_lw_lang_string_6=lw_lang_string(2);
+      retour=display_help(return_value_lw_lang_string_6);
       goto __CPROVER_DUMP_L14;
 
     __CPROVER_DUMP_L11:
       ;
-      char *return_value_lw_lang_string$7;
-      return_value_lw_lang_string$7=lw_lang_string(3);
-      retour=display_help(return_value_lw_lang_string$7);
+      char *return_value_lw_lang_string_7;
+      return_value_lw_lang_string_7=lw_lang_string(3);
+      retour=display_help(return_value_lw_lang_string_7);
       goto __CPROVER_DUMP_L14;
 
     __CPROVER_DUMP_L12:
       ;
-      char *return_value_lw_lang_string$8;
-      return_value_lw_lang_string$8=lw_lang_string(4);
-      retour=display_help(return_value_lw_lang_string$8);
+      char *return_value_lw_lang_string_8;
+      return_value_lw_lang_string_8=lw_lang_string(4);
+      retour=display_help(return_value_lw_lang_string_8);
       goto __CPROVER_DUMP_L14;
 
     __CPROVER_DUMP_L13:
       ;
-      char *return_value_lw_lang_string$9;
-      return_value_lw_lang_string$9=lw_lang_string(5);
-      retour=display_help(return_value_lw_lang_string$9);
+      char *return_value_lw_lang_string_9;
+      return_value_lw_lang_string_9=lw_lang_string(5);
+      retour=display_help(return_value_lw_lang_string_9);
     }
 
   __CPROVER_DUMP_L14:
@@ -13220,47 +13220,47 @@ void lw_basicopt_legal_info(char *name)
 signed int lw_basicopt_process(char *name)
 {
   signed int result = 1;
-  signed int return_value_exist_argument$1;
-  return_value_exist_argument$1=exist_argument("v");
-  _Bool tmp_if_expr$3;
-  signed int return_value_exist_argument$2;
-  if(!(return_value_exist_argument$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_exist_argument_1;
+  return_value_exist_argument_1=exist_argument("v");
+  _Bool tmp_if_expr_3;
+  signed int return_value_exist_argument_2;
+  if(!(return_value_exist_argument_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_exist_argument$2=exist_argument("-version");
-    tmp_if_expr$3 = return_value_exist_argument$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_exist_argument_2=exist_argument("-version");
+    tmp_if_expr_3 = return_value_exist_argument_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     result = 0;
     log_println_str("5.6.4");
   }
 
-  signed int return_value_exist_argument$4;
-  return_value_exist_argument$4=exist_argument("h");
-  _Bool tmp_if_expr$6;
-  signed int return_value_exist_argument$5;
-  if(!(return_value_exist_argument$4 == 0))
-    tmp_if_expr$6 = (_Bool)1;
+  signed int return_value_exist_argument_4;
+  return_value_exist_argument_4=exist_argument("h");
+  _Bool tmp_if_expr_6;
+  signed int return_value_exist_argument_5;
+  if(!(return_value_exist_argument_4 == 0))
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_exist_argument$5=exist_argument("-help");
-    tmp_if_expr$6 = return_value_exist_argument$5 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_exist_argument_5=exist_argument("-help");
+    tmp_if_expr_6 = return_value_exist_argument_5 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$8;
-  signed int return_value_exist_argument$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$8 = (_Bool)1;
+  _Bool tmp_if_expr_8;
+  signed int return_value_exist_argument_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_exist_argument$7=exist_argument("?");
-    tmp_if_expr$8 = return_value_exist_argument$7 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_exist_argument_7=exist_argument("?");
+    tmp_if_expr_8 = return_value_exist_argument_7 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$8)
+  if(tmp_if_expr_8)
   {
     result = 0;
     lw_basicopt_legal_info(name);
@@ -13268,14 +13268,14 @@ signed int lw_basicopt_process(char *name)
     log_println_str("Documentation is available in HTML, ascii text, PostScript, PDF... Read it 8-)");
   }
 
-  signed int return_value_exist_argument$9;
-  return_value_exist_argument$9=exist_argument("netlog");
-  if(!(return_value_exist_argument$9 == 0))
+  signed int return_value_exist_argument_9;
+  return_value_exist_argument_9=exist_argument("netlog");
+  if(!(return_value_exist_argument_9 == 0))
     LW_SOCK_LOG = 1;
 
-  signed int return_value_exist_argument$10;
-  return_value_exist_argument$10=exist_argument("nobeep");
-  if(!(return_value_exist_argument$10 == 0))
+  signed int return_value_exist_argument_10;
+  return_value_exist_argument_10=exist_argument("nobeep");
+  if(!(return_value_exist_argument_10 == 0))
     LW_LOG_BEEP = 0;
 
   return result;
@@ -13288,36 +13288,36 @@ extern signed int lw_capture_dump_game()
   signed int result = 1;
   char buffer[100l];
   struct BITMAP *screenshot;
-  signed int tmp_post$1;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
+  signed int tmp_post_1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
   if(!(LW_CAPTURE_MODE == 0))
   {
     memset((void *)buffer, 0, sizeof(char [100l]) /*100ul*/ );
     static signed int frame_number = 0;
-    tmp_post$1 = frame_number;
+    tmp_post_1 = frame_number;
     frame_number = frame_number + 1;
-    snprintf(buffer, sizeof(char [100l]) /*100ul*/  - (unsigned long int)1, "lw%06d.bmp", tmp_post$1);
+    snprintf(buffer, sizeof(char [100l]) /*100ul*/  - (unsigned long int)1, "lw%06d.bmp", tmp_post_1);
     buffer[(signed long int)(sizeof(char [100l]) /*100ul*/  - (unsigned long int)1)] = (char)0;
     log_print_str("Dumping video output to \"");
     log_print_str(buffer);
     log_print_str("\"");
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$2 = gfx_driver->w;
+      tmp_if_expr_2 = gfx_driver->w;
 
     else
-      tmp_if_expr$2 = 0;
+      tmp_if_expr_2 = 0;
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$3 = gfx_driver->h;
+      tmp_if_expr_3 = gfx_driver->h;
 
     else
-      tmp_if_expr$3 = 0;
-    screenshot=create_sub_bitmap(screen, 0, PAGE_FLIP_H, tmp_if_expr$2, tmp_if_expr$3);
+      tmp_if_expr_3 = 0;
+    screenshot=create_sub_bitmap(screen, 0, PAGE_FLIP_H, tmp_if_expr_2, tmp_if_expr_3);
     if(!(screenshot == ((struct BITMAP *)NULL)))
     {
-      signed int return_value_save_bitmap$4;
-      return_value_save_bitmap$4=save_bitmap(buffer, screenshot, GLOBAL_PALETTE);
-      result = (signed int)!(return_value_save_bitmap$4 != 0);
+      signed int return_value_save_bitmap_4;
+      return_value_save_bitmap_4=save_bitmap(buffer, screenshot, GLOBAL_PALETTE);
+      result = (signed int)!(return_value_save_bitmap_4 != 0);
       destroy_bitmap(screenshot);
     }
 
@@ -13335,10 +13335,10 @@ extern signed int lw_capture_dump_menu()
 {
   signed int result = 1;
   signed int dummy;
-  signed int return_value_get_ticker$1;
-  return_value_get_ticker$1=get_ticker();
+  signed int return_value_get_ticker_1;
+  return_value_get_ticker_1=get_ticker();
   static signed int last_dump_time = 0;
-  if(return_value_get_ticker$1 >= DISPLAY_DELAY_MIN[(signed long int)CONFIG_FRAMES_PER_SEC_LIMIT] + last_dump_time)
+  if(return_value_get_ticker_1 >= DISPLAY_DELAY_MIN[(signed long int)CONFIG_FRAMES_PER_SEC_LIMIT] + last_dump_time)
   {
     last_dump_time=get_ticker();
     if(!(LW_CAPTURE_MODE == 0))
@@ -13375,15 +13375,15 @@ extern void lw_capture_set_mode(signed int mode)
 
 // lw_chat_get
 // file chat.c line 135
-signed int lw_chat_get(struct anonymous$13 *history, struct anonymous$24 *message, signed int i)
+signed int lw_chat_get(struct anonymous_13 *history, struct anonymous_24 *message, signed int i)
 {
   signed int result = 0;
-  memset((void *)message, 0, sizeof(struct anonymous$24) /*92ul*/ );
+  memset((void *)message, 0, sizeof(struct anonymous_24) /*92ul*/ );
   if(i >= 0)
   {
     if(!(i >= history->n))
     {
-      memcpy((void *)message, (const void *)&history->messages[(signed long int)i], sizeof(struct anonymous$24) /*92ul*/ );
+      memcpy((void *)message, (const void *)&history->messages[(signed long int)i], sizeof(struct anonymous_24) /*92ul*/ );
       result = 1;
     }
 
@@ -13394,17 +13394,17 @@ signed int lw_chat_get(struct anonymous$13 *history, struct anonymous$24 *messag
 
 // lw_chat_pop
 // file chat.c line 105
-signed int lw_chat_pop(struct anonymous$13 *history, struct anonymous$24 *message)
+signed int lw_chat_pop(struct anonymous_13 *history, struct anonymous_24 *message)
 {
   signed int result = 0;
   signed int i;
-  memset((void *)message, 0, sizeof(struct anonymous$24) /*92ul*/ );
+  memset((void *)message, 0, sizeof(struct anonymous_24) /*92ul*/ );
   if(history->n >= 1)
   {
-    memcpy((void *)message, (const void *)&history->messages[(signed long int)0], sizeof(struct anonymous$24) /*92ul*/ );
+    memcpy((void *)message, (const void *)&history->messages[(signed long int)0], sizeof(struct anonymous_24) /*92ul*/ );
     i = 1;
     for( ; !(i >= history->n); i = i + 1)
-      memcpy((void *)&history->messages[(signed long int)(i - 1)], (const void *)&history->messages[(signed long int)i], sizeof(struct anonymous$24) /*92ul*/ );
+      memcpy((void *)&history->messages[(signed long int)(i - 1)], (const void *)&history->messages[(signed long int)i], sizeof(struct anonymous_24) /*92ul*/ );
     history->n = history->n - 1;
     result = 1;
   }
@@ -13414,9 +13414,9 @@ signed int lw_chat_pop(struct anonymous$13 *history, struct anonymous$24 *messag
 
 // lw_chat_push
 // file chat.c line 79
-void lw_chat_push(struct anonymous$13 *history, char *author, char *content)
+void lw_chat_push(struct anonymous_13 *history, char *author, char *content)
 {
-  struct anonymous$24 temp;
+  struct anonymous_24 temp;
   while(history->n >= 20)
     lw_chat_pop(history, &temp);
   __builtin_strncpy(history->messages[(signed long int)history->n].author, author, (unsigned long int)10);
@@ -13428,14 +13428,14 @@ void lw_chat_push(struct anonymous$13 *history, char *author, char *content)
 
 // lw_chat_reset
 // file chat.c line 69
-void lw_chat_reset(struct anonymous$13 *history)
+void lw_chat_reset(struct anonymous_13 *history)
 {
-  memset((void *)history, 0, sizeof(struct anonymous$13) /*1844ul*/ );
+  memset((void *)history, 0, sizeof(struct anonymous_13) /*1844ul*/ );
 }
 
 // lw_checksum_calc
 // file checksum.c line 81
-signed int lw_checksum_calc(struct anonymous$21 *army, signed int army_size)
+signed int lw_checksum_calc(struct anonymous_21 *army, signed int army_size)
 {
   unsigned int checksum = (unsigned int)0;
   signed int i;
@@ -13444,7 +13444,7 @@ signed int lw_checksum_calc(struct anonymous$21 *army, signed int army_size)
   unsigned short int cst2 = (unsigned short int)22719;
   unsigned char cipher;
   unsigned char value;
-  struct anonymous$21 *f;
+  struct anonymous_21 *f;
   if(GLOBAL_CLOCK % 100 == 0)
   {
     i = 0;
@@ -13465,7 +13465,7 @@ signed int lw_checksum_calc(struct anonymous$21 *army, signed int army_size)
 // file config.c line 627
 void lw_config_set_current_rules_to_default(void)
 {
-  struct anonymous$4 *config = &LW_CONFIG_CURRENT_RULES;
+  struct anonymous_4 *config = &LW_CONFIG_CURRENT_RULES;
   config->cursor_increase_speed = CONFIG_CURSOR_INCREASE_SPEED;
   config->fighter_attack = CONFIG_FIGHTER_ATTACK;
   config->fighter_defense = CONFIG_FIGHTER_DEFENSE;
@@ -13493,7 +13493,7 @@ signed int lw_connect_menu(signed int sock)
   char buf_chat_message[81l];
   signed int first_display = 1;
   signed int first_getinfo = 1;
-  struct anonymous$25 *data;
+  struct anonymous_25 *data;
   signed int network_error = 0;
   signed int hide_start_button = 0;
   signed int connected_teams_prev = -1;
@@ -13503,11 +13503,11 @@ signed int lw_connect_menu(signed int sock)
   buf_chat_history[(signed long int)0] = (char)0;
   buf_chat_message[(signed long int)0] = (char)0;
   data = &GLOBAL_CONNECT_DATA;
-  memset((void *)data, 0, sizeof(struct anonymous$25) /*2080ul*/ );
+  memset((void *)data, 0, sizeof(struct anonymous_25) /*2080ul*/ );
   data->sock = sock;
   data->waited_teams = 6;
   LW_NETWORK_ON = 1;
-  signed int return_value_my_update_dialog$4;
+  signed int return_value_my_update_dialog_4;
   while(retour == 0)
   {
     standard_button(d + (signed long int)4, 1, 0, 2, 10);
@@ -13532,22 +13532,22 @@ signed int lw_connect_menu(signed int sock)
     d[(signed long int)9].h = d[(signed long int)9].h - 2;
     d[(signed long int)4].dp = (void *)buf_waited_teams;
     d[(signed long int)5].dp = (void *)buf_connected_players;
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(113);
-    d[(signed long int)6].dp = (void *)return_value_lw_lang_string$1;
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(113);
+    d[(signed long int)6].dp = (void *)return_value_lw_lang_string_1;
     d[(signed long int)7].dp = (void *)buf_chat_history;
     d[(signed long int)9].dp = (void *)buf_chat_message;
     d[(signed long int)9].d1 = 80;
     d[(signed long int)9].flags = 1;
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(117);
-    d[(signed long int)10].dp = (void *)return_value_lw_lang_string$2;
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(117);
+    d[(signed long int)10].dp = (void *)return_value_lw_lang_string_2;
     if(!(hide_start_button == 0))
     {
       d[(signed long int)6].proc = my_textbox_proc;
-      char *return_value_lw_lang_string$3;
-      return_value_lw_lang_string$3=lw_lang_string(114);
-      d[(signed long int)6].dp = (void *)return_value_lw_lang_string$3;
+      char *return_value_lw_lang_string_3;
+      return_value_lw_lang_string_3=lw_lang_string(114);
+      d[(signed long int)6].dp = (void *)return_value_lw_lang_string_3;
       d[(signed long int)1].flags = 16;
     }
 
@@ -13561,8 +13561,8 @@ signed int lw_connect_menu(signed int sock)
     dp=my_init_dialog(d, choix);
     do
     {
-      return_value_my_update_dialog$4=my_update_dialog(dp);
-      if(return_value_my_update_dialog$4 == 0)
+      return_value_my_update_dialog_4=my_update_dialog(dp);
+      if(return_value_my_update_dialog_4 == 0)
         break;
 
       if(!(data->finished == 0))
@@ -13583,9 +13583,9 @@ signed int lw_connect_menu(signed int sock)
           }
 
           data->thread_running = 1;
-          signed int return_value_lw_thread_start$5;
-          return_value_lw_thread_start$5=lw_thread_start(connect_on_server_keepalive, (void *)data);
-          if(!(return_value_lw_thread_start$5 == 0))
+          signed int return_value_lw_thread_start_5;
+          return_value_lw_thread_start_5=lw_thread_start(connect_on_server_keepalive, (void *)data);
+          if(!(return_value_lw_thread_start_5 == 0))
             first_getinfo = 0;
 
           else
@@ -13641,9 +13641,9 @@ signed int lw_connect_menu(signed int sock)
         __CPROVER_DUMP_L15:
           ;
           lw_sock_close(&data->sock);
-          signed int return_value_confirm_quit$6;
-          return_value_confirm_quit$6=confirm_quit();
-          if(!(return_value_confirm_quit$6 == 0))
+          signed int return_value_confirm_quit_6;
+          return_value_confirm_quit_6=confirm_quit();
+          if(!(return_value_confirm_quit_6 == 0))
             retour = -2;
 
           else
@@ -13663,9 +13663,9 @@ signed int lw_connect_menu(signed int sock)
 
         __CPROVER_DUMP_L20:
           ;
-          unsigned long int return_value_strlen$7;
-          return_value_strlen$7=strlen((const char *)d[(signed long int)9].dp);
-          if(!(return_value_strlen$7 == 0ul))
+          unsigned long int return_value_strlen_7;
+          return_value_strlen_7=strlen((const char *)d[(signed long int)9].dp);
+          if(!(return_value_strlen_7 == 0ul))
           {
             if(data->chat_send == 0)
             {
@@ -13710,9 +13710,9 @@ signed int lw_dnsutil_name_to_ip(char *ip, char *name)
         if(!(*h->h_addr_list == ((char *)NULL)))
         {
           addr = *((struct in_addr *)h->h_addr_list[(signed long int)0]);
-          char *return_value_inet_ntoa$1;
-          return_value_inet_ntoa$1=inet_ntoa(addr);
-          __builtin_strncpy(ip, return_value_inet_ntoa$1, (unsigned long int)(16 - 1));
+          char *return_value_inet_ntoa_1;
+          return_value_inet_ntoa_1=inet_ntoa(addr);
+          __builtin_strncpy(ip, return_value_inet_ntoa_1, (unsigned long int)(16 - 1));
           ip[(signed long int)(16 - 1)] = (char)0;
           result = 1;
         }
@@ -13756,38 +13756,38 @@ signed int lw_httputil_get_page(char *content, char *url, signed int size)
   memset((void *)host, 0, sizeof(char [201l]) /*201ul*/ );
   __builtin_strncpy(host, url, sizeof(char [201l]) /*201ul*/  - (unsigned long int)1);
   host[(signed long int)(sizeof(char [201l]) /*201ul*/  - (unsigned long int)1)] = (char)0;
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(host, 47);
-  search = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(host, 47);
+  search = return_value___builtin_strchr_1;
   if(!(search == ((char *)NULL)))
     *search = (char)0;
 
   memset((void *)request, 0, sizeof(char [1001l]) /*1001ul*/ );
   snprintf(request, sizeof(char [1001l]) /*1001ul*/  - (unsigned long int)1, "GET http://%s HTTP/1.1\r\nHost: %s\r\nConnection: close\r\n", url, (const void *)host);
   request[(signed long int)(sizeof(char [1001l]) /*1001ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_lw_dnsutil_name_to_ip$16;
-  return_value_lw_dnsutil_name_to_ip$16=lw_dnsutil_name_to_ip(ip, host);
-  signed int return_value_lw_sock_recv_str$2;
-  char *return_value___builtin_strchr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_lw_sock_recv_str$5;
-  signed int return_value_lw_sock_recv_str$7;
-  if(!(return_value_lw_dnsutil_name_to_ip$16 == 0))
+  signed int return_value_lw_dnsutil_name_to_ip_16;
+  return_value_lw_dnsutil_name_to_ip_16=lw_dnsutil_name_to_ip(ip, host);
+  signed int return_value_lw_sock_recv_str_2;
+  char *return_value___builtin_strchr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_lw_sock_recv_str_5;
+  signed int return_value_lw_sock_recv_str_7;
+  if(!(return_value_lw_dnsutil_name_to_ip_16 == 0))
   {
-    signed int return_value_lw_sock_connect$15;
-    return_value_lw_sock_connect$15=lw_sock_connect(&sock, ip, 80);
-    if(!(return_value_lw_sock_connect$15 == 0))
+    signed int return_value_lw_sock_connect_15;
+    return_value_lw_sock_connect_15=lw_sock_connect(&sock, ip, 80);
+    if(!(return_value_lw_sock_connect_15 == 0))
     {
-      signed int return_value_lw_sock_send_str$14;
-      return_value_lw_sock_send_str$14=lw_sock_send_str(&sock, request);
-      if(!(return_value_lw_sock_send_str$14 == 0))
+      signed int return_value_lw_sock_send_str_14;
+      return_value_lw_sock_send_str_14=lw_sock_send_str(&sock, request);
+      if(!(return_value_lw_sock_send_str_14 == 0))
       {
         result = 1;
         if(!(result == 0))
         {
-          return_value_lw_sock_recv_str$2=lw_sock_recv_str(&sock, data);
-          if(!(return_value_lw_sock_recv_str$2 == 1))
+          return_value_lw_sock_recv_str_2=lw_sock_recv_str(&sock, data);
+          if(!(return_value_lw_sock_recv_str_2 == 1))
           {
             result = 0;
             memset((void *)content, 0, (unsigned long int)size);
@@ -13799,14 +13799,14 @@ signed int lw_httputil_get_page(char *content, char *url, signed int size)
 
         if(!(result == 0))
         {
-          return_value___builtin_strchr$3=__builtin_strchr(data, 32);
-          search = return_value___builtin_strchr$3;
+          return_value___builtin_strchr_3=__builtin_strchr(data, 32);
+          search = return_value___builtin_strchr_3;
           if(!(search == ((char *)NULL)))
-            tmp_if_expr$4 = (signed int)search[(signed long int)1] == 50 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (signed int)search[(signed long int)1] == 50 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(!tmp_if_expr_4)
           {
             result = 0;
             memset((void *)content, 0, (unsigned long int)size);
@@ -13822,13 +13822,13 @@ signed int lw_httputil_get_page(char *content, char *url, signed int size)
           {
             if(!(result == 0))
             {
-              return_value_lw_sock_recv_str$5=lw_sock_recv_str(&sock, data);
-              tmp_if_expr$6 = return_value_lw_sock_recv_str$5 == 1 ? (_Bool)1 : (_Bool)0;
+              return_value_lw_sock_recv_str_5=lw_sock_recv_str(&sock, data);
+              tmp_if_expr_6 = return_value_lw_sock_recv_str_5 == 1 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            result = (signed int)tmp_if_expr$6;
+              tmp_if_expr_6 = (_Bool)0;
+            result = (signed int)tmp_if_expr_6;
             if(result == 0)
               break;
 
@@ -13840,56 +13840,56 @@ signed int lw_httputil_get_page(char *content, char *url, signed int size)
           if(!(result == 0))
             do
             {
-              return_value_lw_sock_recv_str$7=lw_sock_recv_str(&sock, data);
-              if(!(return_value_lw_sock_recv_str$7 == 1))
+              return_value_lw_sock_recv_str_7=lw_sock_recv_str(&sock, data);
+              if(!(return_value_lw_sock_recv_str_7 == 1))
                 break;
 
               if(empty_lines >= 10)
                 break;
 
-              unsigned long int return_value_strlen$8;
-              return_value_strlen$8=strlen(data);
-              data_len = (signed int)return_value_strlen$8;
+              unsigned long int return_value_strlen_8;
+              return_value_strlen_8=strlen(data);
+              data_len = (signed int)return_value_strlen_8;
               if(data_len >= 2)
               {
-                unsigned long int return_value_strlen$13;
-                return_value_strlen$13=strlen(content);
-                if(!((signed int)return_value_strlen$13 + (signed int)(unsigned long int)data_len >= size + -2))
+                unsigned long int return_value_strlen_13;
+                return_value_strlen_13=strlen(content);
+                if(!((signed int)return_value_strlen_13 + (signed int)(unsigned long int)data_len >= size + -2))
                 {
                   signed int len;
                   signed int pos;
-                  unsigned long int return_value_strlen$9;
-                  return_value_strlen$9=strlen(content);
-                  pos = (signed int)return_value_strlen$9;
+                  unsigned long int return_value_strlen_9;
+                  return_value_strlen_9=strlen(content);
+                  pos = (signed int)return_value_strlen_9;
                   len = (size - 1) - pos;
                   if(len >= 1)
                   {
                     signed int end;
                     __builtin_strncat(content, data, (unsigned long int)len);
-                    unsigned long int return_value_strlen$10;
-                    return_value_strlen$10=strlen(data);
-                    end = (signed int)((unsigned long int)pos + return_value_strlen$10);
+                    unsigned long int return_value_strlen_10;
+                    return_value_strlen_10=strlen(data);
+                    end = (signed int)((unsigned long int)pos + return_value_strlen_10);
                     if(!(end >= size + -1))
                       content[(signed long int)end] = (char)0;
 
                   }
 
                   content[(signed long int)(size - 1)] = (char)0;
-                  signed int lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$len;
-                  signed int lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$pos;
-                  unsigned long int return_value_strlen$11;
-                  return_value_strlen$11=strlen(content);
-                  lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$pos = (signed int)return_value_strlen$11;
-                  lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$len = (size - 1) - lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$pos;
-                  if(lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$len >= 1)
+                  signed int lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__len;
+                  signed int lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__pos;
+                  unsigned long int return_value_strlen_11;
+                  return_value_strlen_11=strlen(content);
+                  lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__pos = (signed int)return_value_strlen_11;
+                  lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__len = (size - 1) - lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__pos;
+                  if(lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__len >= 1)
                   {
-                    signed int lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$1$$end;
-                    __builtin_strncat(content, "\n", (unsigned long int)lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$len);
-                    unsigned long int return_value_strlen$12;
-                    return_value_strlen$12=strlen("\n");
-                    lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$1$$end = (signed int)((unsigned long int)lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$pos + return_value_strlen$12);
-                    if(!(lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$1$$end >= size + -1))
-                      content[(signed long int)lw_httputil_get_page$$1$$4$$1$$1$$3$$2$$1$$1$$1$$2$$1$$end] = (char)0;
+                    signed int lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__1__end;
+                    __builtin_strncat(content, "\n", (unsigned long int)lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__len);
+                    unsigned long int return_value_strlen_12;
+                    return_value_strlen_12=strlen("\n");
+                    lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__1__end = (signed int)((unsigned long int)lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__pos + return_value_strlen_12);
+                    if(!(lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__1__end >= size + -1))
+                      content[(signed long int)lw_httputil_get_page__1__4__1__1__3__2__1__1__1__2__1__end] = (char)0;
 
                   }
 
@@ -13958,9 +13958,9 @@ void lw_httputil_text_to_urlparam(char *urlparam, char *text, signed int size)
 
     else
       c = (unsigned char)text[(signed long int)i];
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((8 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)c]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((8 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)c]) == 0))
     {
       urlparam[(signed long int)j] = (char)c;
       j = j + 1;
@@ -13989,24 +13989,24 @@ void lw_info_get_room_for_viewport(signed int *x, signed int *y, signed int *w, 
 {
   signed int temp_h;
   signed int temp_w;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
-  signed int tmp_if_expr$9;
-  signed int tmp_if_expr$10;
-  signed int tmp_if_expr$11;
-  signed int tmp_if_expr$12;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
+  signed int tmp_if_expr_9;
+  signed int tmp_if_expr_10;
+  signed int tmp_if_expr_11;
+  signed int tmp_if_expr_12;
   if((4 & CONFIG_INFO_BAR) == 0)
   {
-    signed int return_value_text_length$1;
-    return_value_text_length$1=text_length(font, "00:00");
-    temp_w = return_value_text_length$1 + 2;
-    signed int return_value_text_height$2;
-    return_value_text_height$2=text_height(font);
-    temp_h = return_value_text_height$2 + 2;
+    signed int return_value_text_length_1;
+    return_value_text_length_1=text_length(font, "00:00");
+    temp_w = return_value_text_length_1 + 2;
+    signed int return_value_text_height_2;
+    return_value_text_height_2=text_height(font);
+    temp_h = return_value_text_height_2 + 2;
     if(!(temp_h >= 13))
       temp_h = 13;
 
@@ -14020,17 +14020,17 @@ void lw_info_get_room_for_viewport(signed int *x, signed int *y, signed int *w, 
         *x = 0;
         *y = temp_h + 1;
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$3 = gfx_driver->w;
+          tmp_if_expr_3 = gfx_driver->w;
 
         else
-          tmp_if_expr$3 = 0;
-        *w = tmp_if_expr$3;
+          tmp_if_expr_3 = 0;
+        *w = tmp_if_expr_3;
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$4 = gfx_driver->h;
+          tmp_if_expr_4 = gfx_driver->h;
 
         else
-          tmp_if_expr$4 = 0;
-        *h = (tmp_if_expr$4 - temp_h) - 1;
+          tmp_if_expr_4 = 0;
+        *h = (tmp_if_expr_4 - temp_h) - 1;
         break;
       }
       case 1:
@@ -14038,17 +14038,17 @@ void lw_info_get_room_for_viewport(signed int *x, signed int *y, signed int *w, 
         *x = 0;
         *y = 0;
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$5 = gfx_driver->w;
+          tmp_if_expr_5 = gfx_driver->w;
 
         else
-          tmp_if_expr$5 = 0;
-        *w = (tmp_if_expr$5 - temp_w) - 1;
+          tmp_if_expr_5 = 0;
+        *w = (tmp_if_expr_5 - temp_w) - 1;
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$6 = gfx_driver->h;
+          tmp_if_expr_6 = gfx_driver->h;
 
         else
-          tmp_if_expr$6 = 0;
-        *h = tmp_if_expr$6;
+          tmp_if_expr_6 = 0;
+        *h = tmp_if_expr_6;
         break;
       }
       case 2:
@@ -14056,17 +14056,17 @@ void lw_info_get_room_for_viewport(signed int *x, signed int *y, signed int *w, 
         *x = 0;
         *y = 0;
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$7 = gfx_driver->w;
+          tmp_if_expr_7 = gfx_driver->w;
 
         else
-          tmp_if_expr$7 = 0;
-        *w = tmp_if_expr$7;
+          tmp_if_expr_7 = 0;
+        *w = tmp_if_expr_7;
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$8 = gfx_driver->h;
+          tmp_if_expr_8 = gfx_driver->h;
 
         else
-          tmp_if_expr$8 = 0;
-        *h = (tmp_if_expr$8 - temp_h) - 1;
+          tmp_if_expr_8 = 0;
+        *h = (tmp_if_expr_8 - temp_h) - 1;
         break;
       }
       default:
@@ -14074,17 +14074,17 @@ void lw_info_get_room_for_viewport(signed int *x, signed int *y, signed int *w, 
         *x = temp_w + 1;
         *y = 0;
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$9 = gfx_driver->w;
+          tmp_if_expr_9 = gfx_driver->w;
 
         else
-          tmp_if_expr$9 = 0;
-        *w = (tmp_if_expr$9 - temp_w) - 1;
+          tmp_if_expr_9 = 0;
+        *w = (tmp_if_expr_9 - temp_w) - 1;
         if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-          tmp_if_expr$10 = gfx_driver->h;
+          tmp_if_expr_10 = gfx_driver->h;
 
         else
-          tmp_if_expr$10 = 0;
-        *h = tmp_if_expr$10;
+          tmp_if_expr_10 = 0;
+        *h = tmp_if_expr_10;
       }
     }
   }
@@ -14094,17 +14094,17 @@ void lw_info_get_room_for_viewport(signed int *x, signed int *y, signed int *w, 
     *x = 0;
     *y = 0;
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$11 = gfx_driver->w;
+      tmp_if_expr_11 = gfx_driver->w;
 
     else
-      tmp_if_expr$11 = 0;
-    *w = tmp_if_expr$11;
+      tmp_if_expr_11 = 0;
+    *w = tmp_if_expr_11;
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$12 = gfx_driver->h;
+      tmp_if_expr_12 = gfx_driver->h;
 
     else
-      tmp_if_expr$12 = 0;
-    *h = tmp_if_expr$12;
+      tmp_if_expr_12 = 0;
+    *h = tmp_if_expr_12;
   }
 }
 
@@ -14123,31 +14123,31 @@ void lw_keyboard_reset_hack(void)
 
 // lw_keyexch_flush
 // file keyexch.c line 173
-signed int lw_keyexch_flush(struct anonymous$23 *cursors, unsigned int checksum)
+signed int lw_keyexch_flush(struct anonymous_23 *cursors, unsigned int checksum)
 {
   signed int result = 1;
-  _Bool tmp_if_expr$2;
-  signed int return_value_send_keys$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_send_keys_1;
   if(!(result == 0))
   {
-    return_value_send_keys$1=send_keys(&LW_KEYEXCH_SOCK, cursors, checksum);
-    tmp_if_expr$2 = return_value_send_keys$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_send_keys_1=send_keys(&LW_KEYEXCH_SOCK, cursors, checksum);
+    tmp_if_expr_2 = return_value_send_keys_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  result = (signed int)tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_recv_keys$3;
+    tmp_if_expr_2 = (_Bool)0;
+  result = (signed int)tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_recv_keys_3;
   if(!(result == 0))
   {
-    return_value_recv_keys$3=recv_keys(&LW_KEYEXCH_SOCK, cursors);
-    tmp_if_expr$4 = return_value_recv_keys$3 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_recv_keys_3=recv_keys(&LW_KEYEXCH_SOCK, cursors);
+    tmp_if_expr_4 = return_value_recv_keys_3 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  result = (signed int)tmp_if_expr$4;
+    tmp_if_expr_4 = (_Bool)0;
+  result = (signed int)tmp_if_expr_4;
   return result;
 }
 
@@ -14158,51 +14158,51 @@ extern signed int lw_lang_auto()
   signed int language = 0;
   char *env_lang;
   env_lang=getenv("LANG");
-  _Bool tmp_if_expr$3;
-  signed int return_value_strncmp$2;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strncmp$5;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strncmp$8;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strncmp_2;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strncmp_5;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strncmp_8;
   if(!(env_lang == ((char *)NULL)))
   {
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(env_lang, "DE", (unsigned long int)2);
-    if(return_value_strncmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(env_lang, "DE", (unsigned long int)2);
+    if(return_value_strncmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$2=strncmp(env_lang, "de", (unsigned long int)2);
-      tmp_if_expr$3 = return_value_strncmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_2=strncmp(env_lang, "de", (unsigned long int)2);
+      tmp_if_expr_3 = return_value_strncmp_2 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       language = 2;
 
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(env_lang, "DK", (unsigned long int)2);
-    if(return_value_strncmp$4 == 0)
-      tmp_if_expr$6 = (_Bool)1;
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(env_lang, "DK", (unsigned long int)2);
+    if(return_value_strncmp_4 == 0)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$5=strncmp(env_lang, "dk", (unsigned long int)2);
-      tmp_if_expr$6 = return_value_strncmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_5=strncmp(env_lang, "dk", (unsigned long int)2);
+      tmp_if_expr_6 = return_value_strncmp_5 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
       language = 3;
 
-    signed int return_value_strncmp$7;
-    return_value_strncmp$7=strncmp(env_lang, "FR", (unsigned long int)2);
-    if(return_value_strncmp$7 == 0)
-      tmp_if_expr$9 = (_Bool)1;
+    signed int return_value_strncmp_7;
+    return_value_strncmp_7=strncmp(env_lang, "FR", (unsigned long int)2);
+    if(return_value_strncmp_7 == 0)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$8=strncmp(env_lang, "fr", (unsigned long int)2);
-      tmp_if_expr$9 = return_value_strncmp$8 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_8=strncmp(env_lang, "fr", (unsigned long int)2);
+      tmp_if_expr_9 = return_value_strncmp_8 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
       language = 1;
 
   }
@@ -14257,17 +14257,17 @@ extern char * lw_lang_string(signed int id)
 {
   char *result = (char *)(void *)0;
   signed int language;
-  signed int tmp_if_expr$2;
-  signed int return_value_lw_lang_auto$1;
+  signed int tmp_if_expr_2;
+  signed int return_value_lw_lang_auto_1;
   if(CONFIG_LANGUAGE == -1)
   {
-    return_value_lw_lang_auto$1=lw_lang_auto();
-    tmp_if_expr$2 = return_value_lw_lang_auto$1;
+    return_value_lw_lang_auto_1=lw_lang_auto();
+    tmp_if_expr_2 = return_value_lw_lang_auto_1;
   }
 
   else
-    tmp_if_expr$2 = CONFIG_LANGUAGE;
-  language = tmp_if_expr$2;
+    tmp_if_expr_2 = CONFIG_LANGUAGE;
+  language = tmp_if_expr_2;
   switch(language)
   {
     case 2:
@@ -15153,13 +15153,13 @@ void * lw_map_archive_raw_bmp(struct BITMAP *bmp, struct RGB *pal, const char *f
     {
       w = sub_bmp->w;
       h = sub_bmp->h;
-      signed int return_value_check_if_playable$2;
-      return_value_check_if_playable$2=check_if_playable(sub_bmp);
-      if(!(return_value_check_if_playable$2 == 0))
+      signed int return_value_check_if_playable_2;
+      return_value_check_if_playable_2=check_if_playable(sub_bmp);
+      if(!(return_value_check_if_playable_2 == 0))
       {
-        void *return_value_malloc_in_big_data_bottom$1;
-        return_value_malloc_in_big_data_bottom$1=malloc_in_big_data_bottom(w * h + 1);
-        temp = (char *)return_value_malloc_in_big_data_bottom$1;
+        void *return_value_malloc_in_big_data_bottom_1;
+        return_value_malloc_in_big_data_bottom_1=malloc_in_big_data_bottom(w * h + 1);
+        temp = (char *)return_value_malloc_in_big_data_bottom_1;
         if(!(temp == ((char *)NULL)))
           convert_to_buffer(sub_bmp, temp, &size, &bg_size);
 
@@ -15171,30 +15171,30 @@ void * lw_map_archive_raw_bmp(struct BITMAP *bmp, struct RGB *pal, const char *f
     destroy_bitmap(bmp);
   }
 
-  signed int tmp_statement_expression$6;
-  signed int tmp_post$5;
+  signed int tmp_statement_expression_6;
+  signed int tmp_post_5;
   if(!(temp == ((char *)NULL)))
   {
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)(size + 8 + 16 + 32));
-    result = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)(size + 8 + 16 + 32));
+    result = (char *)return_value_malloc_3;
     if(!(result == ((char *)NULL)))
     {
       lw_serial_set_map_header((void *)result, size, (signed short int)w, (signed short int)h);
       memset((void *)system_name_buffer, 0, sizeof(char [17l]) /*17ul*/ );
       memset((void *)system_name_buffer, 0, sizeof(char [17l]) /*17ul*/ );
-      char *return_value_lw_path_get_system_name$4;
-      return_value_lw_path_get_system_name$4=lw_path_get_system_name(filename);
-      __builtin_strncpy(system_name_buffer, return_value_lw_path_get_system_name$4, sizeof(char [17l]) /*17ul*/  - (unsigned long int)1);
+      char *return_value_lw_path_get_system_name_4;
+      return_value_lw_path_get_system_name_4=lw_path_get_system_name(filename);
+      __builtin_strncpy(system_name_buffer, return_value_lw_path_get_system_name_4, sizeof(char [17l]) /*17ul*/  - (unsigned long int)1);
       system_name_buffer[(signed long int)(sizeof(char [17l]) /*17ul*/  - (unsigned long int)1)] = (char)0;
       memcpy((void *)(result + (signed long int)8), (const void *)system_name_buffer, (unsigned long int)16);
       memset((void *)readable_name_buffer, 0, sizeof(char [33l]) /*33ul*/ );
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$7;
-      return_value___builtin_strcmp$7=__builtin_strcmp(filename, "lwmapgen");
-      tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-      if(tmp_statement_expression$6 == 0)
+      signed int return_value___builtin_strcmp_7;
+      return_value___builtin_strcmp_7=__builtin_strcmp(filename, "lwmapgen");
+      tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+      if(tmp_statement_expression_6 == 0)
       {
         memset((void *)readable_name_buffer, 0, sizeof(char [33l]) /*33ul*/ );
         __builtin_strncpy(readable_name_buffer, "Random map", sizeof(char [33l]) /*33ul*/  - (unsigned long int)1);
@@ -15205,9 +15205,9 @@ void * lw_map_archive_raw_bmp(struct BITMAP *bmp, struct RGB *pal, const char *f
       {
         memset((void *)readable_name_buffer, 0, sizeof(char [33l]) /*33ul*/ );
         static signed int index = 1;
-        tmp_post$5 = index;
+        tmp_post_5 = index;
         index = index + 1;
-        snprintf(readable_name_buffer, sizeof(char [33l]) /*33ul*/  - (unsigned long int)1, "Custom map %d", tmp_post$5);
+        snprintf(readable_name_buffer, sizeof(char [33l]) /*33ul*/  - (unsigned long int)1, "Custom map %d", tmp_post_5);
         readable_name_buffer[(signed long int)(sizeof(char [33l]) /*33ul*/  - (unsigned long int)1)] = (char)0;
       }
       memcpy((void *)(result + (signed long int)8 + (signed long int)16), (const void *)readable_name_buffer, (unsigned long int)32);
@@ -15250,16 +15250,16 @@ struct BITMAP * lw_map_create_bicolor(signed int num, signed int fg, signed int 
   pos_dst = 0;
   pos_src = pos_dst;
   temp=my_create_bitmap((signed int)w, (signed int)h);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if(!(temp == ((struct BITMAP *)NULL)))
   {
     data_dst = (signed char *)temp->dat;
     while(!(pos_src >= size))
     {
-      tmp_post$1 = pos_src;
+      tmp_post_1 = pos_src;
       pos_src = pos_src + 1;
-      l = (signed int)data_src[(signed long int)tmp_post$1];
+      l = (signed int)data_src[(signed long int)tmp_post_1];
       if(l == 0)
         break;
 
@@ -15274,14 +15274,14 @@ struct BITMAP * lw_map_create_bicolor(signed int num, signed int fg, signed int 
       i = 0;
       for( ; !(i >= l) && !(pos_dst >= surface); i = i + 1)
       {
-        tmp_post$2 = pos_dst;
+        tmp_post_2 = pos_dst;
         pos_dst = pos_dst + 1;
-        data_dst[(signed long int)tmp_post$2] = (signed char)color;
+        data_dst[(signed long int)tmp_post_2] = (signed char)color;
       }
     }
-    signed int return_value_check_if_playable$3;
-    return_value_check_if_playable$3=check_if_playable(temp);
-    if(!(return_value_check_if_playable$3 == 0))
+    signed int return_value_check_if_playable_3;
+    return_value_check_if_playable_3=check_if_playable(temp);
+    if(!(return_value_check_if_playable_3 == 0))
     {
       fill_with_fg_and_bg(temp, fg, bg);
       result=my_create_bitmap((signed int)w * *zoom_factor, (signed int)h * *zoom_factor);
@@ -15293,13 +15293,13 @@ struct BITMAP * lw_map_create_bicolor(signed int num, signed int fg, signed int 
           x = 0;
           for( ; !(x >= (signed int)w); x = x + 1)
           {
-            color=getpixel$link3(temp, x, y);
+            color=getpixel_link3(temp, x, y);
             i = 0;
             for( ; !(i >= *zoom_factor); i = i + 1)
             {
               j = 0;
               for( ; !(j >= *zoom_factor); j = j + 1)
-                putpixel$link6(result, x * *zoom_factor + j, y * *zoom_factor + i, color);
+                putpixel_link6(result, x * *zoom_factor + j, y * *zoom_factor + i, color);
             }
           }
         }
@@ -15336,8 +15336,8 @@ struct BITMAP * lw_map_create_textured(signed int num, signed int fg, signed int
   signed int zoom_factor_bg;
   bg_tex=lw_texture_create_bg(bg);
   fg_tex=lw_texture_create_fg(fg);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(bg_tex == ((struct BITMAP *)NULL)) && !(fg_tex == ((struct BITMAP *)NULL)))
   {
     bg_w = bg_tex->w;
@@ -15352,19 +15352,19 @@ struct BITMAP * lw_map_create_textured(signed int num, signed int fg, signed int
       zoom_factor_bg = zoom_factor;
       zoom_factor_fg = zoom_factor_bg;
       if(!(w == fg_tex->w * zoom_factor))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = h != zoom_factor * fg_tex->h ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = h != zoom_factor * fg_tex->h ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         zoom_factor_fg = 1;
 
       if(!(w == bg_tex->w * zoom_factor))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = h != zoom_factor * bg_tex->h ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = h != zoom_factor * bg_tex->h ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         zoom_factor_bg = 1;
 
       y = 0;
@@ -15373,14 +15373,14 @@ struct BITMAP * lw_map_create_textured(signed int num, signed int fg, signed int
         x = 0;
         for( ; !(x >= w); x = x + 1)
         {
-          signed int return_value_getpixel$3;
-          return_value_getpixel$3=getpixel$link3(result, x, y);
-          if(!(return_value_getpixel$3 == 0))
-            color=getpixel$link3(fg_tex, (x / zoom_factor_fg) % fg_w, (y / zoom_factor_bg) % fg_h);
+          signed int return_value_getpixel_3;
+          return_value_getpixel_3=getpixel_link3(result, x, y);
+          if(!(return_value_getpixel_3 == 0))
+            color=getpixel_link3(fg_tex, (x / zoom_factor_fg) % fg_w, (y / zoom_factor_bg) % fg_h);
 
           else
-            color=getpixel$link3(bg_tex, (x / zoom_factor_bg) % bg_w, (y / zoom_factor_bg) % bg_h);
-          putpixel$link6(result, x, y, color);
+            color=getpixel_link3(bg_tex, (x / zoom_factor_bg) % bg_w, (y / zoom_factor_bg) % bg_h);
+          putpixel_link6(result, x, y, color);
         }
       }
     }
@@ -15470,9 +15470,9 @@ struct BITMAP * lw_maptex_create_bg(signed int num, signed int bg, signed int ne
 {
   struct BITMAP *result;
   signed int found;
-  signed int return_value_calc_real_texture_number$1;
-  return_value_calc_real_texture_number$1=calc_real_texture_number(num, bg, network, random, use_default_texture, &found);
-  result=lw_texture_create_bg(return_value_calc_real_texture_number$1);
+  signed int return_value_calc_real_texture_number_1;
+  return_value_calc_real_texture_number_1=calc_real_texture_number(num, bg, network, random, use_default_texture, &found);
+  result=lw_texture_create_bg(return_value_calc_real_texture_number_1);
   return result;
 }
 
@@ -15482,9 +15482,9 @@ struct BITMAP * lw_maptex_create_fg(signed int num, signed int fg, signed int ne
 {
   struct BITMAP *result;
   signed int found;
-  signed int return_value_calc_real_texture_number$1;
-  return_value_calc_real_texture_number$1=calc_real_texture_number(num, fg, network, random, use_default_texture, &found);
-  result=lw_texture_create_fg(return_value_calc_real_texture_number$1);
+  signed int return_value_calc_real_texture_number_1;
+  return_value_calc_real_texture_number_1=calc_real_texture_number(num, fg, network, random, use_default_texture, &found);
+  result=lw_texture_create_fg(return_value_calc_real_texture_number_1);
   return result;
 }
 
@@ -15494,11 +15494,11 @@ struct BITMAP * lw_maptex_create_map(signed int num, signed int fg, signed int b
 {
   struct BITMAP *result;
   signed int found;
-  signed int return_value_calc_real_texture_number$1;
-  return_value_calc_real_texture_number$1=calc_real_texture_number(num, fg, network, random, use_default_texture, &found);
-  signed int return_value_calc_real_texture_number$2;
-  return_value_calc_real_texture_number$2=calc_real_texture_number(num, bg, network, random, use_default_texture, &found);
-  result=lw_map_create_textured(num, return_value_calc_real_texture_number$1, return_value_calc_real_texture_number$2, network, random, min_w, min_h);
+  signed int return_value_calc_real_texture_number_1;
+  return_value_calc_real_texture_number_1=calc_real_texture_number(num, fg, network, random, use_default_texture, &found);
+  signed int return_value_calc_real_texture_number_2;
+  return_value_calc_real_texture_number_2=calc_real_texture_number(num, bg, network, random, use_default_texture, &found);
+  result=lw_map_create_textured(num, return_value_calc_real_texture_number_1, return_value_calc_real_texture_number_2, network, random, min_w, min_h);
   return result;
 }
 
@@ -15516,9 +15516,9 @@ signed int lw_maptex_is_custom_texture_used(signed int num, signed int texture, 
 void lw_maptex_set_bg_palette(signed int num, signed int bg, signed int network, signed int random, signed int use_default_texture)
 {
   signed int found;
-  signed int return_value_calc_real_texture_number$1;
-  return_value_calc_real_texture_number$1=calc_real_texture_number(num, bg, network, random, use_default_texture, &found);
-  set_bg_texture_palette(return_value_calc_real_texture_number$1);
+  signed int return_value_calc_real_texture_number_1;
+  return_value_calc_real_texture_number_1=calc_real_texture_number(num, bg, network, random, use_default_texture, &found);
+  set_bg_texture_palette(return_value_calc_real_texture_number_1);
 }
 
 // lw_maptex_set_fg_palette
@@ -15526,9 +15526,9 @@ void lw_maptex_set_bg_palette(signed int num, signed int bg, signed int network,
 void lw_maptex_set_fg_palette(signed int num, signed int fg, signed int network, signed int random, signed int use_default_texture)
 {
   signed int found;
-  signed int return_value_calc_real_texture_number$1;
-  return_value_calc_real_texture_number$1=calc_real_texture_number(num, fg, network, random, use_default_texture, &found);
-  set_fg_texture_palette(return_value_calc_real_texture_number$1);
+  signed int return_value_calc_real_texture_number_1;
+  return_value_calc_real_texture_number_1=calc_real_texture_number(num, fg, network, random, use_default_texture, &found);
+  set_fg_texture_palette(return_value_calc_real_texture_number_1);
 }
 
 // lw_mouse_hide
@@ -15552,38 +15552,38 @@ void lw_mouse_reset_control(void)
   if(!(MOUSE_CONTROL_REF_Y >= MOUSE_CONTROL_GAP))
     MOUSE_CONTROL_REF_Y = MOUSE_CONTROL_GAP;
 
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-    tmp_if_expr$2 = gfx_driver->w;
+    tmp_if_expr_2 = gfx_driver->w;
 
   else
-    tmp_if_expr$2 = 0;
-  signed int tmp_if_expr$1;
-  if(!(tmp_if_expr$2 + -MOUSE_CONTROL_GAP + -1 >= MOUSE_CONTROL_REF_X))
+    tmp_if_expr_2 = 0;
+  signed int tmp_if_expr_1;
+  if(!(tmp_if_expr_2 + -MOUSE_CONTROL_GAP + -1 >= MOUSE_CONTROL_REF_X))
   {
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$1 = gfx_driver->w;
+      tmp_if_expr_1 = gfx_driver->w;
 
     else
-      tmp_if_expr$1 = 0;
-    MOUSE_CONTROL_REF_X = (tmp_if_expr$1 - MOUSE_CONTROL_GAP) - 1;
+      tmp_if_expr_1 = 0;
+    MOUSE_CONTROL_REF_X = (tmp_if_expr_1 - MOUSE_CONTROL_GAP) - 1;
   }
 
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_4;
   if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-    tmp_if_expr$4 = gfx_driver->h;
+    tmp_if_expr_4 = gfx_driver->h;
 
   else
-    tmp_if_expr$4 = 0;
-  signed int tmp_if_expr$3;
-  if(!(tmp_if_expr$4 + -MOUSE_CONTROL_GAP + -1 >= MOUSE_CONTROL_REF_Y))
+    tmp_if_expr_4 = 0;
+  signed int tmp_if_expr_3;
+  if(!(tmp_if_expr_4 + -MOUSE_CONTROL_GAP + -1 >= MOUSE_CONTROL_REF_Y))
   {
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$3 = gfx_driver->h;
+      tmp_if_expr_3 = gfx_driver->h;
 
     else
-      tmp_if_expr$3 = 0;
-    MOUSE_CONTROL_REF_Y = (tmp_if_expr$3 - MOUSE_CONTROL_GAP) - 1;
+      tmp_if_expr_3 = 0;
+    MOUSE_CONTROL_REF_Y = (tmp_if_expr_3 - MOUSE_CONTROL_GAP) - 1;
   }
 
   position_mouse(MOUSE_CONTROL_REF_X, MOUSE_CONTROL_REF_Y);
@@ -15657,15 +15657,15 @@ void lw_mouse_update_show_hide(void)
 
 // lw_mutex_init
 // file mutxunix.c line 78
-signed int lw_mutex_init(struct anonymous$1 *mutex)
+signed int lw_mutex_init(struct anonymous_1 *mutex)
 {
   signed int result = 0;
-  union anonymous$2 *m;
-  mutex->data=malloc(sizeof(union anonymous$2) /*40ul*/ );
+  union anonymous_2 *m;
+  mutex->data=malloc(sizeof(union anonymous_2) /*40ul*/ );
   if(!(mutex->data == NULL))
   {
-    m = (union anonymous$2 *)mutex->data;
-    pthread_mutex_init(m, (const union anonymous$3 *)(void *)0);
+    m = (union anonymous_2 *)mutex->data;
+    pthread_mutex_init(m, (const union anonymous_3 *)(void *)0);
     result = 1;
   }
 
@@ -15674,15 +15674,15 @@ signed int lw_mutex_init(struct anonymous$1 *mutex)
 
 // lw_mutex_lock
 // file mutxgen.h line 68
-signed int lw_mutex_lock(struct anonymous$1 *mutex)
+signed int lw_mutex_lock(struct anonymous_1 *mutex)
 {
   signed int result = 0;
-  union anonymous$2 *m = (union anonymous$2 *)mutex->data;
-  if(m == ((union anonymous$2 *)NULL))
+  union anonymous_2 *m = (union anonymous_2 *)mutex->data;
+  if(m == ((union anonymous_2 *)NULL))
     lw_mutex_init(mutex);
 
-  m = (union anonymous$2 *)mutex->data;
-  if(!(m == ((union anonymous$2 *)NULL)))
+  m = (union anonymous_2 *)mutex->data;
+  if(!(m == ((union anonymous_2 *)NULL)))
   {
     pthread_mutex_lock(m);
     result = 1;
@@ -15693,19 +15693,19 @@ signed int lw_mutex_lock(struct anonymous$1 *mutex)
 
 // lw_mutex_trylock
 // file mutxgen.h line 69
-signed int lw_mutex_trylock(struct anonymous$1 *mutex)
+signed int lw_mutex_trylock(struct anonymous_1 *mutex)
 {
   signed int result = 0;
-  union anonymous$2 *m = (union anonymous$2 *)mutex->data;
-  if(m == ((union anonymous$2 *)NULL))
+  union anonymous_2 *m = (union anonymous_2 *)mutex->data;
+  if(m == ((union anonymous_2 *)NULL))
     lw_mutex_init(mutex);
 
-  m = (union anonymous$2 *)mutex->data;
-  if(!(m == ((union anonymous$2 *)NULL)))
+  m = (union anonymous_2 *)mutex->data;
+  if(!(m == ((union anonymous_2 *)NULL)))
   {
-    signed int return_value_pthread_mutex_trylock$1;
-    return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(m);
-    if(!(return_value_pthread_mutex_trylock$1 == 16))
+    signed int return_value_pthread_mutex_trylock_1;
+    return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(m);
+    if(!(return_value_pthread_mutex_trylock_1 == 16))
       result = 1;
 
   }
@@ -15715,11 +15715,11 @@ signed int lw_mutex_trylock(struct anonymous$1 *mutex)
 
 // lw_mutex_unlock
 // file mutxgen.h line 70
-signed int lw_mutex_unlock(struct anonymous$1 *mutex)
+signed int lw_mutex_unlock(struct anonymous_1 *mutex)
 {
   signed int result = 0;
-  union anonymous$2 *m = (union anonymous$2 *)mutex->data;
-  if(!(m == ((union anonymous$2 *)NULL)))
+  union anonymous_2 *m = (union anonymous_2 *)mutex->data;
+  if(!(m == ((union anonymous_2 *)NULL)))
   {
     pthread_mutex_unlock(m);
     result = 1;
@@ -15730,7 +15730,7 @@ signed int lw_mutex_unlock(struct anonymous$1 *mutex)
 
 // lw_netconf_check
 // file netconf.h line 86
-signed int lw_netconf_check(struct anonymous$4 *config)
+signed int lw_netconf_check(struct anonymous_4 *config)
 {
   signed int result = 1;
   if(!(config->cursor_increase_speed >= 0))
@@ -15947,7 +15947,7 @@ signed int lw_netconf_check(struct anonymous$4 *config)
 
 // lw_netconf_print
 // file netconf.c line 266
-void lw_netconf_print(struct anonymous$4 *config)
+void lw_netconf_print(struct anonymous_4 *config)
 {
   log_print_str("cursor_increase_speed = ");
   log_println_int(config->cursor_increase_speed);
@@ -15975,66 +15975,66 @@ void lw_netconf_print(struct anonymous$4 *config)
 
 // lw_netconf_recv
 // file netconf.c line 178
-signed int lw_netconf_recv(signed int *sock, struct anonymous$4 *config)
+signed int lw_netconf_recv(signed int *sock, struct anonymous_4 *config)
 {
   signed int result = 0;
   char buffer[1000l];
-  memset((void *)config, 0, sizeof(struct anonymous$4) /*44ul*/ );
-  signed int return_value_lw_sock_recv_str$11;
-  return_value_lw_sock_recv_str$11=lw_sock_recv_str(sock, buffer);
-  if(!(return_value_lw_sock_recv_str$11 == 0))
+  memset((void *)config, 0, sizeof(struct anonymous_4) /*44ul*/ );
+  signed int return_value_lw_sock_recv_str_11;
+  return_value_lw_sock_recv_str_11=lw_sock_recv_str(sock, buffer);
+  if(!(return_value_lw_sock_recv_str_11 == 0))
   {
-    config->cursor_increase_speed=atoi$link1(buffer);
-    signed int return_value_lw_sock_recv_str$10;
-    return_value_lw_sock_recv_str$10=lw_sock_recv_str(sock, buffer);
-    if(!(return_value_lw_sock_recv_str$10 == 0))
+    config->cursor_increase_speed=atoi_link1(buffer);
+    signed int return_value_lw_sock_recv_str_10;
+    return_value_lw_sock_recv_str_10=lw_sock_recv_str(sock, buffer);
+    if(!(return_value_lw_sock_recv_str_10 == 0))
     {
-      config->fighter_attack=atoi$link1(buffer);
-      signed int return_value_lw_sock_recv_str$9;
-      return_value_lw_sock_recv_str$9=lw_sock_recv_str(sock, buffer);
-      if(!(return_value_lw_sock_recv_str$9 == 0))
+      config->fighter_attack=atoi_link1(buffer);
+      signed int return_value_lw_sock_recv_str_9;
+      return_value_lw_sock_recv_str_9=lw_sock_recv_str(sock, buffer);
+      if(!(return_value_lw_sock_recv_str_9 == 0))
       {
-        config->fighter_defense=atoi$link1(buffer);
-        signed int return_value_lw_sock_recv_str$8;
-        return_value_lw_sock_recv_str$8=lw_sock_recv_str(sock, buffer);
-        if(!(return_value_lw_sock_recv_str$8 == 0))
+        config->fighter_defense=atoi_link1(buffer);
+        signed int return_value_lw_sock_recv_str_8;
+        return_value_lw_sock_recv_str_8=lw_sock_recv_str(sock, buffer);
+        if(!(return_value_lw_sock_recv_str_8 == 0))
         {
-          config->fighter_new_health=atoi$link1(buffer);
-          signed int return_value_lw_sock_recv_str$7;
-          return_value_lw_sock_recv_str$7=lw_sock_recv_str(sock, buffer);
-          if(!(return_value_lw_sock_recv_str$7 == 0))
+          config->fighter_new_health=atoi_link1(buffer);
+          signed int return_value_lw_sock_recv_str_7;
+          return_value_lw_sock_recv_str_7=lw_sock_recv_str(sock, buffer);
+          if(!(return_value_lw_sock_recv_str_7 == 0))
           {
-            config->number_influence=atoi$link1(buffer);
-            signed int return_value_lw_sock_recv_str$6;
-            return_value_lw_sock_recv_str$6=lw_sock_recv_str(sock, buffer);
-            if(!(return_value_lw_sock_recv_str$6 == 0))
+            config->number_influence=atoi_link1(buffer);
+            signed int return_value_lw_sock_recv_str_6;
+            return_value_lw_sock_recv_str_6=lw_sock_recv_str(sock, buffer);
+            if(!(return_value_lw_sock_recv_str_6 == 0))
             {
-              config->fighter_number=atoi$link1(buffer);
-              signed int return_value_lw_sock_recv_str$5;
-              return_value_lw_sock_recv_str$5=lw_sock_recv_str(sock, buffer);
-              if(!(return_value_lw_sock_recv_str$5 == 0))
+              config->fighter_number=atoi_link1(buffer);
+              signed int return_value_lw_sock_recv_str_5;
+              return_value_lw_sock_recv_str_5=lw_sock_recv_str(sock, buffer);
+              if(!(return_value_lw_sock_recv_str_5 == 0))
               {
-                config->game_time=atoi$link1(buffer);
-                signed int return_value_lw_sock_recv_str$4;
-                return_value_lw_sock_recv_str$4=lw_sock_recv_str(sock, buffer);
-                if(!(return_value_lw_sock_recv_str$4 == 0))
+                config->game_time=atoi_link1(buffer);
+                signed int return_value_lw_sock_recv_str_4;
+                return_value_lw_sock_recv_str_4=lw_sock_recv_str(sock, buffer);
+                if(!(return_value_lw_sock_recv_str_4 == 0))
                 {
-                  config->cpu_advantage=atoi$link1(buffer);
-                  signed int return_value_lw_sock_recv_str$3;
-                  return_value_lw_sock_recv_str$3=lw_sock_recv_str(sock, buffer);
-                  if(!(return_value_lw_sock_recv_str$3 == 0))
+                  config->cpu_advantage=atoi_link1(buffer);
+                  signed int return_value_lw_sock_recv_str_3;
+                  return_value_lw_sock_recv_str_3=lw_sock_recv_str(sock, buffer);
+                  if(!(return_value_lw_sock_recv_str_3 == 0))
                   {
-                    config->cpu_vs_human=atoi$link1(buffer);
-                    signed int return_value_lw_sock_recv_str$2;
-                    return_value_lw_sock_recv_str$2=lw_sock_recv_str(sock, buffer);
-                    if(!(return_value_lw_sock_recv_str$2 == 0))
+                    config->cpu_vs_human=atoi_link1(buffer);
+                    signed int return_value_lw_sock_recv_str_2;
+                    return_value_lw_sock_recv_str_2=lw_sock_recv_str(sock, buffer);
+                    if(!(return_value_lw_sock_recv_str_2 == 0))
                     {
-                      config->asm_algorithm=atoi$link1(buffer);
-                      signed int return_value_lw_sock_recv_str$1;
-                      return_value_lw_sock_recv_str$1=lw_sock_recv_str(sock, buffer);
-                      if(!(return_value_lw_sock_recv_str$1 == 0))
+                      config->asm_algorithm=atoi_link1(buffer);
+                      signed int return_value_lw_sock_recv_str_1;
+                      return_value_lw_sock_recv_str_1=lw_sock_recv_str(sock, buffer);
+                      if(!(return_value_lw_sock_recv_str_1 == 0))
                       {
-                        config->min_map_res=atoi$link1(buffer);
+                        config->min_map_res=atoi_link1(buffer);
                         result = 1;
                       }
 
@@ -16063,86 +16063,86 @@ signed int lw_netconf_recv(signed int *sock, struct anonymous$4 *config)
 
 // lw_netconf_send
 // file netconf.c line 112
-signed int lw_netconf_send(signed int *sock, struct anonymous$4 *config)
+signed int lw_netconf_send(signed int *sock, struct anonymous_4 *config)
 {
   signed int result = 0;
   char buffer[1000l];
   memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
   snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->cursor_increase_speed);
   buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_lw_sock_send_str$11;
-  return_value_lw_sock_send_str$11=lw_sock_send_str(sock, buffer);
-  if(!(return_value_lw_sock_send_str$11 == 0))
+  signed int return_value_lw_sock_send_str_11;
+  return_value_lw_sock_send_str_11=lw_sock_send_str(sock, buffer);
+  if(!(return_value_lw_sock_send_str_11 == 0))
   {
     memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
     snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->fighter_attack);
     buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-    signed int return_value_lw_sock_send_str$10;
-    return_value_lw_sock_send_str$10=lw_sock_send_str(sock, buffer);
-    if(!(return_value_lw_sock_send_str$10 == 0))
+    signed int return_value_lw_sock_send_str_10;
+    return_value_lw_sock_send_str_10=lw_sock_send_str(sock, buffer);
+    if(!(return_value_lw_sock_send_str_10 == 0))
     {
       memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
       snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->fighter_defense);
       buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-      signed int return_value_lw_sock_send_str$9;
-      return_value_lw_sock_send_str$9=lw_sock_send_str(sock, buffer);
-      if(!(return_value_lw_sock_send_str$9 == 0))
+      signed int return_value_lw_sock_send_str_9;
+      return_value_lw_sock_send_str_9=lw_sock_send_str(sock, buffer);
+      if(!(return_value_lw_sock_send_str_9 == 0))
       {
         memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
         snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->fighter_new_health);
         buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-        signed int return_value_lw_sock_send_str$8;
-        return_value_lw_sock_send_str$8=lw_sock_send_str(sock, buffer);
-        if(!(return_value_lw_sock_send_str$8 == 0))
+        signed int return_value_lw_sock_send_str_8;
+        return_value_lw_sock_send_str_8=lw_sock_send_str(sock, buffer);
+        if(!(return_value_lw_sock_send_str_8 == 0))
         {
           memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
           snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->number_influence);
           buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-          signed int return_value_lw_sock_send_str$7;
-          return_value_lw_sock_send_str$7=lw_sock_send_str(sock, buffer);
-          if(!(return_value_lw_sock_send_str$7 == 0))
+          signed int return_value_lw_sock_send_str_7;
+          return_value_lw_sock_send_str_7=lw_sock_send_str(sock, buffer);
+          if(!(return_value_lw_sock_send_str_7 == 0))
           {
             memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
             snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->fighter_number);
             buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-            signed int return_value_lw_sock_send_str$6;
-            return_value_lw_sock_send_str$6=lw_sock_send_str(sock, buffer);
-            if(!(return_value_lw_sock_send_str$6 == 0))
+            signed int return_value_lw_sock_send_str_6;
+            return_value_lw_sock_send_str_6=lw_sock_send_str(sock, buffer);
+            if(!(return_value_lw_sock_send_str_6 == 0))
             {
               memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
               snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->game_time);
               buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-              signed int return_value_lw_sock_send_str$5;
-              return_value_lw_sock_send_str$5=lw_sock_send_str(sock, buffer);
-              if(!(return_value_lw_sock_send_str$5 == 0))
+              signed int return_value_lw_sock_send_str_5;
+              return_value_lw_sock_send_str_5=lw_sock_send_str(sock, buffer);
+              if(!(return_value_lw_sock_send_str_5 == 0))
               {
                 memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
                 snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->cpu_advantage);
                 buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-                signed int return_value_lw_sock_send_str$4;
-                return_value_lw_sock_send_str$4=lw_sock_send_str(sock, buffer);
-                if(!(return_value_lw_sock_send_str$4 == 0))
+                signed int return_value_lw_sock_send_str_4;
+                return_value_lw_sock_send_str_4=lw_sock_send_str(sock, buffer);
+                if(!(return_value_lw_sock_send_str_4 == 0))
                 {
                   memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
                   snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->cpu_vs_human);
                   buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-                  signed int return_value_lw_sock_send_str$3;
-                  return_value_lw_sock_send_str$3=lw_sock_send_str(sock, buffer);
-                  if(!(return_value_lw_sock_send_str$3 == 0))
+                  signed int return_value_lw_sock_send_str_3;
+                  return_value_lw_sock_send_str_3=lw_sock_send_str(sock, buffer);
+                  if(!(return_value_lw_sock_send_str_3 == 0))
                   {
                     memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
                     snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->asm_algorithm);
                     buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-                    signed int return_value_lw_sock_send_str$2;
-                    return_value_lw_sock_send_str$2=lw_sock_send_str(sock, buffer);
-                    if(!(return_value_lw_sock_send_str$2 == 0))
+                    signed int return_value_lw_sock_send_str_2;
+                    return_value_lw_sock_send_str_2=lw_sock_send_str(sock, buffer);
+                    if(!(return_value_lw_sock_send_str_2 == 0))
                     {
                       memset((void *)buffer, 0, sizeof(char [1000l]) /*1000ul*/ );
                       snprintf(buffer, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%d", config->min_map_res);
                       buffer[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-                      signed int return_value_lw_sock_send_str$1;
-                      return_value_lw_sock_send_str$1=lw_sock_send_str(sock, buffer);
-                      if(!(return_value_lw_sock_send_str$1 == 0))
+                      signed int return_value_lw_sock_send_str_1;
+                      return_value_lw_sock_send_str_1=lw_sock_send_str(sock, buffer);
+                      if(!(return_value_lw_sock_send_str_1 == 0))
                         result = 1;
 
                     }
@@ -16179,7 +16179,7 @@ signed int lw_netkey_peek(signed int *sock, signed int num)
 
 // lw_netkey_recv
 // file netkey.h line 89
-signed int lw_netkey_recv(signed int *sock, struct anonymous$5 *netkey)
+signed int lw_netkey_recv(signed int *sock, struct anonymous_5 *netkey)
 {
   signed int result;
   unsigned char netkey_serialized[12l];
@@ -16190,7 +16190,7 @@ signed int lw_netkey_recv(signed int *sock, struct anonymous$5 *netkey)
 
 // lw_netkey_reset
 // file netkey.h line 87
-void lw_netkey_reset(struct anonymous$5 *netkey)
+void lw_netkey_reset(struct anonymous_5 *netkey)
 {
   signed int i = 0;
   for( ; !(i >= 6); i = i + 1)
@@ -16201,7 +16201,7 @@ void lw_netkey_reset(struct anonymous$5 *netkey)
 
 // lw_netkey_send
 // file netkey.h line 88
-signed int lw_netkey_send(signed int *sock, struct anonymous$5 *netkey)
+signed int lw_netkey_send(signed int *sock, struct anonymous_5 *netkey)
 {
   signed int result;
   unsigned char netkey_serialized[12l];
@@ -16227,24 +16227,24 @@ signed int lw_netmap_recv(signed int *sock, void **netmap)
     free((void *)ptr);
 
   ptr = (char *)(void *)0;
-  signed int return_value_lw_sock_recv_buffer$5;
-  return_value_lw_sock_recv_buffer$5=lw_sock_recv_buffer(sock, buffer, 8);
-  if(!(return_value_lw_sock_recv_buffer$5 == 0))
+  signed int return_value_lw_sock_recv_buffer_5;
+  return_value_lw_sock_recv_buffer_5=lw_sock_recv_buffer(sock, buffer, 8);
+  if(!(return_value_lw_sock_recv_buffer_5 == 0))
   {
-    signed int return_value_lw_sock_recv_buffer$4;
-    return_value_lw_sock_recv_buffer$4=lw_sock_recv_buffer(sock, buffer + (signed long int)8, 16);
-    if(!(return_value_lw_sock_recv_buffer$4 == 0))
+    signed int return_value_lw_sock_recv_buffer_4;
+    return_value_lw_sock_recv_buffer_4=lw_sock_recv_buffer(sock, buffer + (signed long int)8, 16);
+    if(!(return_value_lw_sock_recv_buffer_4 == 0))
     {
-      signed int return_value_lw_sock_recv_buffer$3;
-      return_value_lw_sock_recv_buffer$3=lw_sock_recv_buffer(sock, buffer + (signed long int)8 + (signed long int)16, 32);
-      if(!(return_value_lw_sock_recv_buffer$3 == 0))
+      signed int return_value_lw_sock_recv_buffer_3;
+      return_value_lw_sock_recv_buffer_3=lw_sock_recv_buffer(sock, buffer + (signed long int)8 + (signed long int)16, 32);
+      if(!(return_value_lw_sock_recv_buffer_3 == 0))
       {
         lw_serial_get_map_header((void *)buffer, &size, &w, &h);
         if(size >= 10)
         {
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc((unsigned long int)(size + 8 + 16 + 32));
-          ptr = (char *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc((unsigned long int)(size + 8 + 16 + 32));
+          ptr = (char *)return_value_malloc_1;
           if(!(ptr == ((char *)NULL)))
           {
             memcpy((void *)ptr, (const void *)buffer, (unsigned long int)(8 + 16 + 32));
@@ -16256,9 +16256,9 @@ signed int lw_netmap_recv(signed int *sock, void **netmap)
               if(to_receive >= 65)
                 to_receive = 64;
 
-              signed int return_value_lw_sock_recv_buffer$2;
-              return_value_lw_sock_recv_buffer$2=lw_sock_recv_buffer(sock, ptr + (signed long int)8 + (signed long int)16 + (signed long int)32 + (signed long int)received, to_receive);
-              if(!(return_value_lw_sock_recv_buffer$2 == 0))
+              signed int return_value_lw_sock_recv_buffer_2;
+              return_value_lw_sock_recv_buffer_2=lw_sock_recv_buffer(sock, ptr + (signed long int)8 + (signed long int)16 + (signed long int)32 + (signed long int)received, to_receive);
+              if(!(return_value_lw_sock_recv_buffer_2 == 0))
                 received = received + to_receive;
 
               else
@@ -16290,17 +16290,17 @@ signed int lw_netmap_send(signed int *sock, void *netmap)
   signed int to_send;
   ptr = (char *)netmap;
   header = (unsigned char *)netmap;
-  signed int return_value_lw_sock_send_buffer$4;
-  return_value_lw_sock_send_buffer$4=lw_sock_send_buffer(sock, ptr, 8);
-  if(!(return_value_lw_sock_send_buffer$4 == 0))
+  signed int return_value_lw_sock_send_buffer_4;
+  return_value_lw_sock_send_buffer_4=lw_sock_send_buffer(sock, ptr, 8);
+  if(!(return_value_lw_sock_send_buffer_4 == 0))
   {
-    signed int return_value_lw_sock_send_buffer$3;
-    return_value_lw_sock_send_buffer$3=lw_sock_send_buffer(sock, ptr + (signed long int)8, 16);
-    if(!(return_value_lw_sock_send_buffer$3 == 0))
+    signed int return_value_lw_sock_send_buffer_3;
+    return_value_lw_sock_send_buffer_3=lw_sock_send_buffer(sock, ptr + (signed long int)8, 16);
+    if(!(return_value_lw_sock_send_buffer_3 == 0))
     {
-      signed int return_value_lw_sock_send_buffer$2;
-      return_value_lw_sock_send_buffer$2=lw_sock_send_buffer(sock, ptr + (signed long int)8 + (signed long int)16, 32);
-      if(!(return_value_lw_sock_send_buffer$2 == 0))
+      signed int return_value_lw_sock_send_buffer_2;
+      return_value_lw_sock_send_buffer_2=lw_sock_send_buffer(sock, ptr + (signed long int)8 + (signed long int)16, 32);
+      if(!(return_value_lw_sock_send_buffer_2 == 0))
       {
         lw_serial_get_map_header(netmap, &size, (signed short int *)(void *)0, (signed short int *)(void *)0);
         result = 1;
@@ -16311,9 +16311,9 @@ signed int lw_netmap_send(signed int *sock, void *netmap)
           if(to_send >= 65)
             to_send = 64;
 
-          signed int return_value_lw_sock_send_buffer$1;
-          return_value_lw_sock_send_buffer$1=lw_sock_send_buffer(sock, ptr + (signed long int)8 + (signed long int)16 + (signed long int)32 + (signed long int)sent, to_send);
-          if(!(return_value_lw_sock_send_buffer$1 == 0))
+          signed int return_value_lw_sock_send_buffer_1;
+          return_value_lw_sock_send_buffer_1=lw_sock_send_buffer(sock, ptr + (signed long int)8 + (signed long int)16 + (signed long int)32 + (signed long int)sent, to_send);
+          if(!(return_value_lw_sock_send_buffer_1 == 0))
             sent = sent + to_send;
 
           else
@@ -16335,8 +16335,8 @@ extern void lw_netmess_cleanup_arg(char *string)
   char *pos;
   unsigned char c;
   pos = string;
-  _Bool tmp_if_expr$2;
-  char *return_value___builtin_strchr$1;
+  _Bool tmp_if_expr_2;
+  char *return_value___builtin_strchr_1;
   do
   {
     c = (unsigned char)*pos;
@@ -16344,14 +16344,14 @@ extern void lw_netmess_cleanup_arg(char *string)
       break;
 
     if((signed int)c >= 128 || !((signed int)c >= 32))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value___builtin_strchr$1=__builtin_strchr("'\",", (signed int)c);
-      tmp_if_expr$2 = return_value___builtin_strchr$1 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value___builtin_strchr_1=__builtin_strchr("'\",", (signed int)c);
+      tmp_if_expr_2 = return_value___builtin_strchr_1 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       *pos = (char)32;
 
     pos = pos + 1l;
@@ -16361,10 +16361,10 @@ extern void lw_netmess_cleanup_arg(char *string)
 
 // lw_netmess_free
 // file netmess.c line 432
-extern void lw_netmess_free(struct anonymous$6 *ptr)
+extern void lw_netmess_free(struct anonymous_6 *ptr)
 {
   signed int i;
-  if(!(ptr == ((struct anonymous$6 *)NULL)))
+  if(!(ptr == ((struct anonymous_6 *)NULL)))
   {
     if(!(ptr->argv == ((char **)NULL)))
     {
@@ -16382,13 +16382,13 @@ extern void lw_netmess_free(struct anonymous$6 *ptr)
 
 // lw_netmess_read
 // file netmess.c line 411
-extern struct anonymous$6 * lw_netmess_read(char *message)
+extern struct anonymous_6 * lw_netmess_read(char *message)
 {
-  struct anonymous$6 *result = (struct anonymous$6 *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$6) /*16ul*/ );
-  result = (struct anonymous$6 *)return_value_malloc$1;
-  if(!(result == ((struct anonymous$6 *)NULL)))
+  struct anonymous_6 *result = (struct anonymous_6 *)(void *)0;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_6) /*16ul*/ );
+  result = (struct anonymous_6 *)return_value_malloc_1;
+  if(!(result == ((struct anonymous_6 *)NULL)))
   {
     result->code=get_code(&message);
     result->argc=get_argc(message);
@@ -16453,16 +16453,16 @@ char * lw_path_get_system_name(const char *filename)
   __builtin_strncpy(buf1, filename, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
   buf1[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   search=strrchr(buf1, 47);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(search == ((char *)NULL)))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     search=strrchr(buf1, 92);
-    tmp_if_expr$1 = search != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = search != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
     start = search + (signed long int)1;
 
   else
@@ -16471,23 +16471,23 @@ char * lw_path_get_system_name(const char *filename)
   memset((void *)buf2, 0, sizeof(char [1000l]) /*1000ul*/ );
   __builtin_strncpy(buf2, start, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
   buf2[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-  char *return_value___builtin_strchr$3;
-  return_value___builtin_strchr$3=__builtin_strchr(buf2, 46);
-  search = return_value___builtin_strchr$3;
+  char *return_value___builtin_strchr_3;
+  return_value___builtin_strchr_3=__builtin_strchr(buf2, 46);
+  search = return_value___builtin_strchr_3;
   if(!(search == ((char *)NULL)))
     end = search;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(buf2);
-    end = buf2 + (signed long int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(buf2);
+    end = buf2 + (signed long int)return_value_strlen_2;
   }
   if(search == ((char *)NULL))
   {
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(buf2);
-    search = buf2 + (signed long int)return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(buf2);
+    search = buf2 + (signed long int)return_value_strlen_4;
   }
 
   memset((void *)search, 0, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)(search - buf2));
@@ -16499,15 +16499,15 @@ char * lw_path_get_system_name(const char *filename)
 signed int lw_ping_try_server(char *address, signed int port)
 {
   signed int result = -1;
-  struct anonymous$9 *try_data;
+  struct anonymous_9 *try_data;
   signed int start_time = 0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$9) /*36ul*/ );
-  try_data = (struct anonymous$9 *)return_value_malloc$1;
-  signed int return_value_get_ticker$2;
-  if(!(try_data == ((struct anonymous$9 *)NULL)))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_9) /*36ul*/ );
+  try_data = (struct anonymous_9 *)return_value_malloc_1;
+  signed int return_value_get_ticker_2;
+  if(!(try_data == ((struct anonymous_9 *)NULL)))
   {
-    memset((void *)try_data, 0, sizeof(struct anonymous$9) /*36ul*/ );
+    memset((void *)try_data, 0, sizeof(struct anonymous_9) /*36ul*/ );
     try_data->sock = -1;
     memset((void *)try_data->address, 0, sizeof(char [16l]) /*16ul*/ );
     __builtin_strncpy(try_data->address, address, sizeof(char [16l]) /*16ul*/  - (unsigned long int)1);
@@ -16515,15 +16515,15 @@ signed int lw_ping_try_server(char *address, signed int port)
     try_data->port = port;
     try_data->allow_exit = 0;
     try_data->result = -1;
-    signed int return_value_lw_thread_start$3;
-    return_value_lw_thread_start$3=lw_thread_start(try_server_callback, (void *)try_data);
-    if(!(return_value_lw_thread_start$3 == 0))
+    signed int return_value_lw_thread_start_3;
+    return_value_lw_thread_start_3=lw_thread_start(try_server_callback, (void *)try_data);
+    if(!(return_value_lw_thread_start_3 == 0))
     {
       start_time=get_ticker();
       while(try_data->done == 0)
       {
-        return_value_get_ticker$2=get_ticker();
-        if(return_value_get_ticker$2 >= 750 + start_time)
+        return_value_get_ticker_2=get_ticker();
+        if(return_value_get_ticker_2 >= 750 + start_time)
           break;
 
         rest((unsigned int)10);
@@ -16546,13 +16546,13 @@ signed int lw_protocol_ask_free_teams(signed int *sock, signed int *nb)
   signed int result = 0;
   char message[1000l];
   signed int ret = 0;
-  struct anonymous$6 *netmess;
+  struct anonymous_6 *netmess;
   *nb = 0;
-  signed int return_value_lw_sock_send_str$1;
+  signed int return_value_lw_sock_send_str_1;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$1=lw_sock_send_str(sock, "FREE");
-    if(!(return_value_lw_sock_send_str$1 == 0))
+    return_value_lw_sock_send_str_1=lw_sock_send_str(sock, "FREE");
+    if(!(return_value_lw_sock_send_str_1 == 0))
     {
       while(*sock >= 0)
       {
@@ -16566,13 +16566,13 @@ signed int lw_protocol_ask_free_teams(signed int *sock, signed int *nb)
         if(ret >= 1)
         {
           netmess=lw_netmess_read(message);
-          if(!(netmess == ((struct anonymous$6 *)NULL)))
+          if(!(netmess == ((struct anonymous_6 *)NULL)))
           {
             if(netmess->code == 1)
             {
               if(netmess->argc == 1)
               {
-                *nb=atoi$link4(netmess->argv[(signed long int)0]);
+                *nb=atoi_link4(netmess->argv[(signed long int)0]);
                 result = 1;
               }
 
@@ -16594,21 +16594,21 @@ signed int lw_protocol_ask_free_teams(signed int *sock, signed int *nb)
 
 // lw_protocol_ask_teamstartinfo
 // file protocol.h line 96
-signed int lw_protocol_ask_teamstartinfo(signed int *sock, signed int team, struct anonymous$12 *team_start_info)
+signed int lw_protocol_ask_teamstartinfo(signed int *sock, signed int team, struct anonymous_12 *team_start_info)
 {
   signed int result = 0;
   char message[1000l];
   signed int ret = 0;
-  struct anonymous$6 *netmess;
+  struct anonymous_6 *netmess;
   lw_teamstartinfo_reset(team_start_info);
   memset((void *)message, 0, sizeof(char [1000l]) /*1000ul*/ );
   snprintf(message, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%s %d", (const void *)"TEAMSTARTINFO", team);
   message[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_lw_sock_send_str$1;
+  signed int return_value_lw_sock_send_str_1;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$1=lw_sock_send_str(sock, message);
-    if(!(return_value_lw_sock_send_str$1 == 0))
+    return_value_lw_sock_send_str_1=lw_sock_send_str(sock, message);
+    if(!(return_value_lw_sock_send_str_1 == 0))
     {
       while(*sock >= 0)
       {
@@ -16622,14 +16622,14 @@ signed int lw_protocol_ask_teamstartinfo(signed int *sock, signed int team, stru
         if(ret >= 1)
         {
           netmess=lw_netmess_read(message);
-          if(!(netmess == ((struct anonymous$6 *)NULL)))
+          if(!(netmess == ((struct anonymous_6 *)NULL)))
           {
             if(netmess->code == 1)
             {
               if(netmess->argc == 3)
               {
-                team_start_info->active=atoi$link4(netmess->argv[(signed long int)0]);
-                team_start_info->start=atoi$link4(netmess->argv[(signed long int)1]);
+                team_start_info->active=atoi_link4(netmess->argv[(signed long int)0]);
+                team_start_info->start=atoi_link4(netmess->argv[(signed long int)1]);
                 __builtin_strncpy(team_start_info->name, netmess->argv[(signed long int)2], (unsigned long int)10);
                 team_start_info->name[(signed long int)10] = (char)0;
                 result = 1;
@@ -16653,12 +16653,12 @@ signed int lw_protocol_ask_teamstartinfo(signed int *sock, signed int team, stru
 
 // lw_protocol_ask_who
 // file protocol.h line 87
-signed int lw_protocol_ask_who(signed int *sock, signed int num, struct anonymous$8 *who)
+signed int lw_protocol_ask_who(signed int *sock, signed int num, struct anonymous_8 *who)
 {
   signed int result = 0;
   char message[1000l];
   signed int ret = 0;
-  struct anonymous$6 *netmess;
+  struct anonymous_6 *netmess;
   who->active = 0;
   who->network = 0;
   who->server_id = -1;
@@ -16666,11 +16666,11 @@ signed int lw_protocol_ask_who(signed int *sock, signed int num, struct anonymou
   memset((void *)message, 0, sizeof(char [1000l]) /*1000ul*/ );
   snprintf(message, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%s %d", (const void *)"WHO", num);
   message[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_lw_sock_send_str$1;
+  signed int return_value_lw_sock_send_str_1;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$1=lw_sock_send_str(sock, message);
-    if(!(return_value_lw_sock_send_str$1 == 0))
+    return_value_lw_sock_send_str_1=lw_sock_send_str(sock, message);
+    if(!(return_value_lw_sock_send_str_1 == 0))
     {
       while(*sock >= 0)
       {
@@ -16684,7 +16684,7 @@ signed int lw_protocol_ask_who(signed int *sock, signed int num, struct anonymou
         if(ret >= 1)
         {
           netmess=lw_netmess_read(message);
-          if(!(netmess == ((struct anonymous$6 *)NULL)))
+          if(!(netmess == ((struct anonymous_6 *)NULL)))
           {
             switch(netmess->code)
             {
@@ -16701,8 +16701,8 @@ signed int lw_protocol_ask_who(signed int *sock, signed int num, struct anonymou
                 if(netmess->argc == 3)
                 {
                   who->active = 1;
-                  who->server_id=atoi$link4(netmess->argv[(signed long int)0]);
-                  who->control_type=atoi$link4(netmess->argv[(signed long int)1]);
+                  who->server_id=atoi_link4(netmess->argv[(signed long int)0]);
+                  who->control_type=atoi_link4(netmess->argv[(signed long int)1]);
                   __builtin_strncpy(who->name, netmess->argv[(signed long int)2], (unsigned long int)10);
                   who->name[(signed long int)10] = (char)0;
                   result = 1;
@@ -16725,17 +16725,17 @@ signed int lw_protocol_ask_who(signed int *sock, signed int num, struct anonymou
 
 // lw_protocol_chat_listen
 // file protocol.h line 99
-signed int lw_protocol_chat_listen(signed int *sock, struct anonymous$13 *chat_history)
+signed int lw_protocol_chat_listen(signed int *sock, struct anonymous_13 *chat_history)
 {
   signed int result = 0;
   char message[1000l];
   signed int ret = 0;
-  struct anonymous$6 *netmess;
-  signed int return_value_lw_sock_send_str$1;
+  struct anonymous_6 *netmess;
+  signed int return_value_lw_sock_send_str_1;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$1=lw_sock_send_str(sock, "CHATLISTEN");
-    if(!(return_value_lw_sock_send_str$1 == 0))
+    return_value_lw_sock_send_str_1=lw_sock_send_str(sock, "CHATLISTEN");
+    if(!(return_value_lw_sock_send_str_1 == 0))
     {
       while(*sock >= 0)
       {
@@ -16749,7 +16749,7 @@ signed int lw_protocol_chat_listen(signed int *sock, struct anonymous$13 *chat_h
         if(ret >= 1)
         {
           netmess=lw_netmess_read(message);
-          if(!(netmess == ((struct anonymous$6 *)NULL)))
+          if(!(netmess == ((struct anonymous_6 *)NULL)))
           {
             if(netmess->code == 1)
               switch(netmess->argc)
@@ -16789,15 +16789,15 @@ signed int lw_protocol_chat_talk(signed int *sock, char *text)
   memset((void *)message, 0, sizeof(char [1000l]) /*1000ul*/ );
   snprintf(message, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%s '%s'", (const void *)"CHATTALK", text);
   message[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_lw_sock_send_str$2;
+  signed int return_value_lw_sock_send_str_2;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$2=lw_sock_send_str(sock, message);
-    if(!(return_value_lw_sock_send_str$2 == 0))
+    return_value_lw_sock_send_str_2=lw_sock_send_str(sock, message);
+    if(!(return_value_lw_sock_send_str_2 == 0))
     {
-      signed int return_value_recv_ok$1;
-      return_value_recv_ok$1=recv_ok(sock);
-      if(!(return_value_recv_ok$1 == 0))
+      signed int return_value_recv_ok_1;
+      return_value_recv_ok_1=recv_ok(sock);
+      if(!(return_value_recv_ok_1 == 0))
         result = 1;
 
     }
@@ -16812,15 +16812,15 @@ signed int lw_protocol_chat_talk(signed int *sock, char *text)
 signed int lw_protocol_do_ping(signed int *sock)
 {
   signed int result = 0;
-  signed int return_value_lw_sock_send_str$2;
+  signed int return_value_lw_sock_send_str_2;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$2=lw_sock_send_str(sock, "PING");
-    if(!(return_value_lw_sock_send_str$2 == 0))
+    return_value_lw_sock_send_str_2=lw_sock_send_str(sock, "PING");
+    if(!(return_value_lw_sock_send_str_2 == 0))
     {
-      signed int return_value_recv_ok$1;
-      return_value_recv_ok$1=recv_ok(sock);
-      if(!(return_value_recv_ok$1 == 0))
+      signed int return_value_recv_ok_1;
+      return_value_recv_ok_1=recv_ok(sock);
+      if(!(return_value_recv_ok_1 == 0))
         result = 1;
 
     }
@@ -16835,15 +16835,15 @@ signed int lw_protocol_do_ping(signed int *sock)
 signed int lw_protocol_force_start(signed int *sock)
 {
   signed int result = 0;
-  signed int return_value_lw_sock_send_str$2;
+  signed int return_value_lw_sock_send_str_2;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$2=lw_sock_send_str(sock, "START");
-    if(!(return_value_lw_sock_send_str$2 == 0))
+    return_value_lw_sock_send_str_2=lw_sock_send_str(sock, "START");
+    if(!(return_value_lw_sock_send_str_2 == 0))
     {
-      signed int return_value_recv_ok$1;
-      return_value_recv_ok$1=recv_ok(sock);
-      if(!(return_value_recv_ok$1 == 0))
+      signed int return_value_recv_ok_1;
+      return_value_recv_ok_1=recv_ok(sock);
+      if(!(return_value_recv_ok_1 == 0))
         result = 1;
 
     }
@@ -16858,15 +16858,15 @@ signed int lw_protocol_force_start(signed int *sock)
 signed int lw_protocol_i_am_ready(signed int *sock)
 {
   signed int result = 0;
-  signed int return_value_lw_sock_send_str$2;
+  signed int return_value_lw_sock_send_str_2;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$2=lw_sock_send_str(sock, "READY");
-    if(!(return_value_lw_sock_send_str$2 == 0))
+    return_value_lw_sock_send_str_2=lw_sock_send_str(sock, "READY");
+    if(!(return_value_lw_sock_send_str_2 == 0))
     {
-      signed int return_value_recv_ok$1;
-      return_value_recv_ok$1=recv_ok(sock);
-      if(!(return_value_recv_ok$1 == 0))
+      signed int return_value_recv_ok_1;
+      return_value_recv_ok_1=recv_ok(sock);
+      if(!(return_value_recv_ok_1 == 0))
         result = 1;
 
     }
@@ -16881,15 +16881,15 @@ signed int lw_protocol_i_am_ready(signed int *sock)
 signed int lw_protocol_next(signed int *sock)
 {
   signed int result = 0;
-  signed int return_value_lw_sock_send_str$2;
+  signed int return_value_lw_sock_send_str_2;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$2=lw_sock_send_str(sock, "NEXT");
-    if(!(return_value_lw_sock_send_str$2 == 0))
+    return_value_lw_sock_send_str_2=lw_sock_send_str(sock, "NEXT");
+    if(!(return_value_lw_sock_send_str_2 == 0))
     {
-      signed int return_value_recv_ok$1;
-      return_value_recv_ok$1=recv_ok(sock);
-      if(!(return_value_recv_ok$1 == 0))
+      signed int return_value_recv_ok_1;
+      return_value_recv_ok_1=recv_ok(sock);
+      if(!(return_value_recv_ok_1 == 0))
         result = 1;
 
     }
@@ -16913,22 +16913,22 @@ signed int lw_protocol_quit(signed int *sock)
 signed int lw_protocol_recv_config(signed int *sock)
 {
   signed int result = 0;
-  struct anonymous$4 config;
-  signed int return_value_lw_sock_send_str$3;
+  struct anonymous_4 config;
+  signed int return_value_lw_sock_send_str_3;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$3=lw_sock_send_str(sock, "RECVCONFIG");
-    if(!(return_value_lw_sock_send_str$3 == 0))
+    return_value_lw_sock_send_str_3=lw_sock_send_str(sock, "RECVCONFIG");
+    if(!(return_value_lw_sock_send_str_3 == 0))
     {
-      signed int return_value_lw_netconf_recv$2;
-      return_value_lw_netconf_recv$2=lw_netconf_recv(sock, &config);
-      if(!(return_value_lw_netconf_recv$2 == 0))
+      signed int return_value_lw_netconf_recv_2;
+      return_value_lw_netconf_recv_2=lw_netconf_recv(sock, &config);
+      if(!(return_value_lw_netconf_recv_2 == 0))
       {
-        signed int return_value_recv_ok$1;
-        return_value_recv_ok$1=recv_ok(sock);
-        if(!(return_value_recv_ok$1 == 0))
+        signed int return_value_recv_ok_1;
+        return_value_recv_ok_1=recv_ok(sock);
+        if(!(return_value_recv_ok_1 == 0))
         {
-          memcpy((void *)&LW_CONFIG_CURRENT_RULES, (const void *)&config, sizeof(struct anonymous$4) /*44ul*/ );
+          memcpy((void *)&LW_CONFIG_CURRENT_RULES, (const void *)&config, sizeof(struct anonymous_4) /*44ul*/ );
           result = 1;
         }
 
@@ -16946,19 +16946,19 @@ signed int lw_protocol_recv_config(signed int *sock)
 signed int lw_protocol_recv_map(signed int *sock, void **map)
 {
   signed int result = 0;
-  signed int return_value_lw_sock_send_str$3;
+  signed int return_value_lw_sock_send_str_3;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$3=lw_sock_send_str(sock, "RECVMAP");
-    if(!(return_value_lw_sock_send_str$3 == 0))
+    return_value_lw_sock_send_str_3=lw_sock_send_str(sock, "RECVMAP");
+    if(!(return_value_lw_sock_send_str_3 == 0))
     {
-      signed int return_value_lw_netmap_recv$2;
-      return_value_lw_netmap_recv$2=lw_netmap_recv(sock, map);
-      if(!(return_value_lw_netmap_recv$2 == 0))
+      signed int return_value_lw_netmap_recv_2;
+      return_value_lw_netmap_recv_2=lw_netmap_recv(sock, map);
+      if(!(return_value_lw_netmap_recv_2 == 0))
       {
-        signed int return_value_recv_ok$1;
-        return_value_recv_ok$1=recv_ok(sock);
-        if(!(return_value_recv_ok$1 == 0))
+        signed int return_value_recv_ok_1;
+        return_value_recv_ok_1=recv_ok(sock);
+        if(!(return_value_recv_ok_1 == 0))
           result = 1;
 
       }
@@ -16979,15 +16979,15 @@ signed int lw_protocol_reserve_team(signed int *sock, signed int num, signed int
   memset((void *)message, 0, sizeof(char [1000l]) /*1000ul*/ );
   snprintf(message, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%s %d,%d,'%s'", (const void *)"TEAM", num, control_type, name);
   message[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_lw_sock_send_str$2;
+  signed int return_value_lw_sock_send_str_2;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$2=lw_sock_send_str(sock, message);
-    if(!(return_value_lw_sock_send_str$2 == 0))
+    return_value_lw_sock_send_str_2=lw_sock_send_str(sock, message);
+    if(!(return_value_lw_sock_send_str_2 == 0))
     {
-      signed int return_value_recv_ok$1;
-      return_value_recv_ok$1=recv_ok(sock);
-      if(!(return_value_recv_ok$1 == 0))
+      signed int return_value_recv_ok_1;
+      return_value_recv_ok_1=recv_ok(sock);
+      if(!(return_value_recv_ok_1 == 0))
         result = 1;
 
     }
@@ -17002,21 +17002,21 @@ signed int lw_protocol_reserve_team(signed int *sock, signed int num, signed int
 signed int lw_protocol_send_config(signed int *sock)
 {
   signed int result = 0;
-  struct anonymous$4 config;
-  signed int return_value_lw_sock_send_str$3;
+  struct anonymous_4 config;
+  signed int return_value_lw_sock_send_str_3;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$3=lw_sock_send_str(sock, "SENDCONFIG");
-    if(!(return_value_lw_sock_send_str$3 == 0))
+    return_value_lw_sock_send_str_3=lw_sock_send_str(sock, "SENDCONFIG");
+    if(!(return_value_lw_sock_send_str_3 == 0))
     {
-      memcpy((void *)&config, (const void *)&LW_CONFIG_CURRENT_RULES, sizeof(struct anonymous$4) /*44ul*/ );
-      signed int return_value_lw_netconf_send$2;
-      return_value_lw_netconf_send$2=lw_netconf_send(sock, &config);
-      if(!(return_value_lw_netconf_send$2 == 0))
+      memcpy((void *)&config, (const void *)&LW_CONFIG_CURRENT_RULES, sizeof(struct anonymous_4) /*44ul*/ );
+      signed int return_value_lw_netconf_send_2;
+      return_value_lw_netconf_send_2=lw_netconf_send(sock, &config);
+      if(!(return_value_lw_netconf_send_2 == 0))
       {
-        signed int return_value_recv_ok$1;
-        return_value_recv_ok$1=recv_ok(sock);
-        if(!(return_value_recv_ok$1 == 0))
+        signed int return_value_recv_ok_1;
+        return_value_recv_ok_1=recv_ok(sock);
+        if(!(return_value_recv_ok_1 == 0))
           result = 1;
 
       }
@@ -17033,19 +17033,19 @@ signed int lw_protocol_send_config(signed int *sock)
 signed int lw_protocol_send_map(signed int *sock, void *map)
 {
   signed int result = 0;
-  signed int return_value_lw_sock_send_str$3;
+  signed int return_value_lw_sock_send_str_3;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$3=lw_sock_send_str(sock, "SENDMAP");
-    if(!(return_value_lw_sock_send_str$3 == 0))
+    return_value_lw_sock_send_str_3=lw_sock_send_str(sock, "SENDMAP");
+    if(!(return_value_lw_sock_send_str_3 == 0))
     {
-      signed int return_value_lw_netmap_send$2;
-      return_value_lw_netmap_send$2=lw_netmap_send(sock, map);
-      if(!(return_value_lw_netmap_send$2 == 0))
+      signed int return_value_lw_netmap_send_2;
+      return_value_lw_netmap_send_2=lw_netmap_send(sock, map);
+      if(!(return_value_lw_netmap_send_2 == 0))
       {
-        signed int return_value_recv_ok$1;
-        return_value_recv_ok$1=recv_ok(sock);
-        if(!(return_value_recv_ok$1 == 0))
+        signed int return_value_recv_ok_1;
+        return_value_recv_ok_1=recv_ok(sock);
+        if(!(return_value_recv_ok_1 == 0))
           result = 1;
 
       }
@@ -17066,15 +17066,15 @@ signed int lw_protocol_tell_password(signed int *sock, char *password)
   memset((void *)message, 0, sizeof(char [1000l]) /*1000ul*/ );
   snprintf(message, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%s '%s'", (const void *)"PASSWORD", password);
   message[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_lw_sock_send_str$2;
+  signed int return_value_lw_sock_send_str_2;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$2=lw_sock_send_str(sock, message);
-    if(!(return_value_lw_sock_send_str$2 == 0))
+    return_value_lw_sock_send_str_2=lw_sock_send_str(sock, message);
+    if(!(return_value_lw_sock_send_str_2 == 0))
     {
-      signed int return_value_recv_ok$1;
-      return_value_recv_ok$1=recv_ok(sock);
-      if(!(return_value_recv_ok$1 == 0))
+      signed int return_value_recv_ok_1;
+      return_value_recv_ok_1=recv_ok(sock);
+      if(!(return_value_recv_ok_1 == 0))
         result = 1;
 
     }
@@ -17093,15 +17093,15 @@ signed int lw_protocol_tell_program(signed int *sock, char *program)
   memset((void *)message, 0, sizeof(char [1000l]) /*1000ul*/ );
   snprintf(message, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%s '%s'", (const void *)"PROGRAM", program);
   message[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_lw_sock_send_str$2;
+  signed int return_value_lw_sock_send_str_2;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$2=lw_sock_send_str(sock, message);
-    if(!(return_value_lw_sock_send_str$2 == 0))
+    return_value_lw_sock_send_str_2=lw_sock_send_str(sock, message);
+    if(!(return_value_lw_sock_send_str_2 == 0))
     {
-      signed int return_value_recv_ok$1;
-      return_value_recv_ok$1=recv_ok(sock);
-      if(!(return_value_recv_ok$1 == 0))
+      signed int return_value_recv_ok_1;
+      return_value_recv_ok_1=recv_ok(sock);
+      if(!(return_value_recv_ok_1 == 0))
         result = 1;
 
     }
@@ -17120,15 +17120,15 @@ signed int lw_protocol_tell_version(signed int *sock, char *version)
   memset((void *)message, 0, sizeof(char [1000l]) /*1000ul*/ );
   snprintf(message, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1, "%s '%s'", (const void *)"VERSION", version);
   message[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_lw_sock_send_str$2;
+  signed int return_value_lw_sock_send_str_2;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$2=lw_sock_send_str(sock, message);
-    if(!(return_value_lw_sock_send_str$2 == 0))
+    return_value_lw_sock_send_str_2=lw_sock_send_str(sock, message);
+    if(!(return_value_lw_sock_send_str_2 == 0))
     {
-      signed int return_value_recv_ok$1;
-      return_value_recv_ok$1=recv_ok(sock);
-      if(!(return_value_recv_ok$1 == 0))
+      signed int return_value_recv_ok_1;
+      return_value_recv_ok_1=recv_ok(sock);
+      if(!(return_value_recv_ok_1 == 0))
         result = 1;
 
     }
@@ -17145,12 +17145,12 @@ signed int lw_protocol_waiting(signed int *sock, signed int *waited_teams)
   signed int result = 0;
   char message[1000l];
   signed int ret = 0;
-  struct anonymous$6 *netmess;
-  signed int return_value_lw_sock_send_str$1;
+  struct anonymous_6 *netmess;
+  signed int return_value_lw_sock_send_str_1;
   if(*sock >= 0)
   {
-    return_value_lw_sock_send_str$1=lw_sock_send_str(sock, "WAITING");
-    if(!(return_value_lw_sock_send_str$1 == 0))
+    return_value_lw_sock_send_str_1=lw_sock_send_str(sock, "WAITING");
+    if(!(return_value_lw_sock_send_str_1 == 0))
     {
       while(*sock >= 0)
       {
@@ -17164,13 +17164,13 @@ signed int lw_protocol_waiting(signed int *sock, signed int *waited_teams)
         if(ret >= 1)
         {
           netmess=lw_netmess_read(message);
-          if(!(netmess == ((struct anonymous$6 *)NULL)))
+          if(!(netmess == ((struct anonymous_6 *)NULL)))
           {
             if(netmess->code == 1)
             {
               if(netmess->argc == 1)
               {
-                *waited_teams=atoi$link4(netmess->argv[(signed long int)0]);
+                *waited_teams=atoi_link4(netmess->argv[(signed long int)0]);
                 result = 1;
               }
 
@@ -17310,7 +17310,7 @@ signed int lw_sock_accept(signed int *new_sock, char *ip, signed int *port, sign
   signed int result = 0;
   struct sockaddr_in name;
   unsigned int namelen = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-  struct anonymous$14 read;
+  struct anonymous_14 read;
   struct timeval tv;
   signed int res;
   signed int enable = 1;
@@ -17319,14 +17319,14 @@ signed int lw_sock_accept(signed int *new_sock, char *ip, signed int *port, sign
   *new_sock = -1;
   ip[(signed long int)0] = (char)0;
   *port = 0;
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_2;
   if(listening_sock >= 0)
   {
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&read)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&read)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&read)->__fds_bits[(signed long int)(listening_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&read)->__fds_bits[(signed long int)(listening_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << listening_sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -17341,7 +17341,7 @@ signed int lw_sock_accept(signed int *new_sock, char *ip, signed int *port, sign
       tv.tv_sec = (signed long int)0;
       tv.tv_usec = (signed long int)0;
     }
-    res=select(listening_sock + 1, &read, (struct anonymous$14 *)(void *)0, (struct anonymous$14 *)(void *)0, &tv);
+    res=select(listening_sock + 1, &read, (struct anonymous_14 *)(void *)0, (struct anonymous_14 *)(void *)0, &tv);
     if(res >= 1)
     {
       *new_sock=accept(listening_sock, (struct sockaddr *)&name, &namelen);
@@ -17353,15 +17353,15 @@ signed int lw_sock_accept(signed int *new_sock, char *ip, signed int *port, sign
         setsockopt(*new_sock, 1, 10, (const void *)(char *)&disable, (unsigned int)sizeof(signed int) /*4ul*/ );
         setsockopt(*new_sock, 1, 13, (const void *)(char *)&li, (unsigned int)sizeof(struct linger) /*8ul*/ );
         fcntl(*new_sock, 4, 04000, 0);
-        char *return_value_inet_ntoa$1;
-        return_value_inet_ntoa$1=inet_ntoa(name.sin_addr);
-        __builtin_strncpy(ip, return_value_inet_ntoa$1, (unsigned long int)(16 - 1));
+        char *return_value_inet_ntoa_1;
+        return_value_inet_ntoa_1=inet_ntoa(name.sin_addr);
+        __builtin_strncpy(ip, return_value_inet_ntoa_1, (unsigned long int)(16 - 1));
         ip[(signed long int)(16 - 1)] = (char)0;
         unsigned short int __v;
         unsigned short int __x = (unsigned short int)name.sin_port;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-        tmp_statement_expression$2 = __v;
-        *port = (signed int)tmp_statement_expression$2;
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+        tmp_statement_expression_2 = __v;
+        *port = (signed int)tmp_statement_expression_2;
         result = 1;
       }
 
@@ -17379,11 +17379,11 @@ signed int lw_sock_close(signed int *sock)
   signed int result = 0;
   signed int sock_to_close = *sock;
   *sock = -1;
-  signed int return_value_shutdown$1;
-  return_value_shutdown$1=shutdown(sock_to_close, 2);
-  signed int return_value_close$2;
-  return_value_close$2=close(sock_to_close);
-  if(return_value_close$2 == 0)
+  signed int return_value_shutdown_1;
+  return_value_shutdown_1=shutdown(sock_to_close, 2);
+  signed int return_value_close_2;
+  return_value_close_2=close(sock_to_close);
+  if(return_value_close_2 == 0)
     result = 1;
 
   return result;
@@ -17399,29 +17399,29 @@ signed int lw_sock_connect(signed int *sock, char *ip, signed int port)
   signed int disable = 0;
   struct linger li;
   *sock=socket(2, 1, 0);
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   if(*sock >= 0)
   {
     name.sin_family = (unsigned short int)2;
     name.sin_addr.s_addr = (unsigned int)0x00000000;
     name.sin_port = (unsigned short int)0;
-    signed int return_value_bind$4;
-    return_value_bind$4=bind(*sock, (struct sockaddr *)&name, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(return_value_bind$4 >= 0)
+    signed int return_value_bind_4;
+    return_value_bind_4=bind(*sock, (struct sockaddr *)&name, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(return_value_bind_4 >= 0)
     {
       name.sin_family = (unsigned short int)2;
-      signed int return_value_inet_aton$3;
-      return_value_inet_aton$3=inet_aton(ip, &name.sin_addr);
-      if(!(return_value_inet_aton$3 == 0))
+      signed int return_value_inet_aton_3;
+      return_value_inet_aton_3=inet_aton(ip, &name.sin_addr);
+      if(!(return_value_inet_aton_3 == 0))
       {
         unsigned short int __v;
         unsigned short int __x = (unsigned short int)port;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-        tmp_statement_expression$1 = __v;
-        name.sin_port = tmp_statement_expression$1;
-        signed int return_value_connect$2;
-        return_value_connect$2=connect(*sock, (struct sockaddr *)&name, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-        if(return_value_connect$2 >= 0)
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+        tmp_statement_expression_1 = __v;
+        name.sin_port = tmp_statement_expression_1;
+        signed int return_value_connect_2;
+        return_value_connect_2=connect(*sock, (struct sockaddr *)&name, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+        if(return_value_connect_2 >= 0)
         {
           li.l_onoff = 0;
           li.l_linger = 0;
@@ -17454,9 +17454,9 @@ signed int lw_sock_exit()
 signed int lw_sock_init()
 {
   signed int result = 1;
-  void (*return_value_signal$1)(signed int);
-  return_value_signal$1=signal(13, (void (*)(signed int))1);
-  if(return_value_signal$1 == (void (*)(signed int))-1)
+  void (*return_value_signal_1)(signed int);
+  return_value_signal_1=signal(13, (void (*)(signed int))1);
+  if(return_value_signal_1 == (void (*)(signed int))-1)
     result = 0;
 
   return result;
@@ -17470,7 +17470,7 @@ signed int lw_sock_listen(signed int *sock, signed int port)
   struct sockaddr_in name;
   signed int enable = 1;
   *sock=socket(2, 1, 0);
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   if(*sock >= 0)
   {
     setsockopt(*sock, 1, 2, (const void *)(char *)&enable, (unsigned int)sizeof(signed int) /*4ul*/ );
@@ -17478,16 +17478,16 @@ signed int lw_sock_listen(signed int *sock, signed int port)
     name.sin_addr.s_addr = (unsigned int)0x00000000;
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$1 = __v;
-    name.sin_port = tmp_statement_expression$1;
-    signed int return_value_bind$3;
-    return_value_bind$3=bind(*sock, (struct sockaddr *)&name, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(return_value_bind$3 >= 0)
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_1 = __v;
+    name.sin_port = tmp_statement_expression_1;
+    signed int return_value_bind_3;
+    return_value_bind_3=bind(*sock, (struct sockaddr *)&name, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(return_value_bind_3 >= 0)
     {
-      signed int return_value_listen$2;
-      return_value_listen$2=listen(*sock, 10);
-      if(return_value_listen$2 >= 0)
+      signed int return_value_listen_2;
+      return_value_listen_2=listen(*sock, 10);
+      if(return_value_listen_2 >= 0)
         result = 1;
 
     }
@@ -17514,7 +17514,7 @@ signed int lw_sock_peek_ex(signed int *sock, signed int len)
 {
   signed int result = 0;
   signed int res;
-  struct anonymous$14 read;
+  struct anonymous_14 read;
   struct timeval tv;
   char buffer[1000l];
   signed int sock_copy = *sock;
@@ -17526,20 +17526,20 @@ signed int lw_sock_peek_ex(signed int *sock, signed int len)
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&read)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&read)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       (&read)->__fds_bits[(signed long int)(sock_copy / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&read)->__fds_bits[(signed long int)(sock_copy / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sock_copy % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
       tv.tv_sec = (signed long int)0;
       tv.tv_usec = (signed long int)0;
-      res=select(sock_copy + 1, &read, (struct anonymous$14 *)(void *)0, (struct anonymous$14 *)(void *)0, &tv);
+      res=select(sock_copy + 1, &read, (struct anonymous_14 *)(void *)0, (struct anonymous_14 *)(void *)0, &tv);
       if(res >= 1)
       {
         if(!((read.__fds_bits[(signed long int)(sock_copy / 8)] & (signed long int)(1UL << sock_copy % 8)) == 0l))
         {
-          signed long int return_value_recv$1;
-          return_value_recv$1=recv(sock_copy, (void *)buffer, (unsigned long int)len, 2);
-          if(return_value_recv$1 == (signed long int)len)
+          signed long int return_value_recv_1;
+          return_value_recv_1=recv(sock_copy, (void *)buffer, (unsigned long int)len, 2);
+          if(return_value_recv_1 == (signed long int)len)
             result = 1;
 
         }
@@ -17559,14 +17559,14 @@ signed int lw_sock_recv_buffer(signed int *sock, char *buffer, signed int len)
 {
   signed int result = 0;
   signed int limit_ticker;
-  signed int return_value_get_ticker$1;
-  return_value_get_ticker$1=get_ticker();
-  limit_ticker = return_value_get_ticker$1 + 15000;
-  signed int return_value_get_ticker$2;
+  signed int return_value_get_ticker_1;
+  return_value_get_ticker_1=get_ticker();
+  limit_ticker = return_value_get_ticker_1 + 15000;
+  signed int return_value_get_ticker_2;
   do
   {
-    return_value_get_ticker$2=get_ticker();
-    if(return_value_get_ticker$2 >= limit_ticker)
+    return_value_get_ticker_2=get_ticker();
+    if(return_value_get_ticker_2 >= limit_ticker)
       break;
 
     if(!(result == 0))
@@ -17575,13 +17575,13 @@ signed int lw_sock_recv_buffer(signed int *sock, char *buffer, signed int len)
     if(!(*sock >= 0))
       break;
 
-    signed int return_value_lw_sock_peek_ex$4;
-    return_value_lw_sock_peek_ex$4=lw_sock_peek_ex(sock, len);
-    if(!(return_value_lw_sock_peek_ex$4 == 0))
+    signed int return_value_lw_sock_peek_ex_4;
+    return_value_lw_sock_peek_ex_4=lw_sock_peek_ex(sock, len);
+    if(!(return_value_lw_sock_peek_ex_4 == 0))
     {
-      signed int return_value_lw_sock_recv_buffer_ex$3;
-      return_value_lw_sock_recv_buffer_ex$3=lw_sock_recv_buffer_ex(sock, buffer, len);
-      if(!(return_value_lw_sock_recv_buffer_ex$3 == 0))
+      signed int return_value_lw_sock_recv_buffer_ex_3;
+      return_value_lw_sock_recv_buffer_ex_3=lw_sock_recv_buffer_ex(sock, buffer, len);
+      if(!(return_value_lw_sock_recv_buffer_ex_3 == 0))
         result = 1;
 
     }
@@ -17598,14 +17598,14 @@ signed int lw_sock_recv_buffer_ex(signed int *sock, char *buffer, signed int len
   signed int result = 0;
   char trace[1000l];
   signed int res;
-  struct anonymous$14 read;
+  struct anonymous_14 read;
   struct timeval tv;
   signed int sock_copy;
   signed int total_received;
   signed int received;
   memset((void *)buffer, 0, (unsigned long int)len);
   sock_copy = *sock;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(sock_copy >= 0)
   {
     result = 1;
@@ -17625,16 +17625,16 @@ signed int lw_sock_recv_buffer_ex(signed int *sock, char *buffer, signed int len
         {
           signed int __d0;
           signed int __d1;
-          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&read)->__fds_bits[(signed long int)0]) : "memory");
+          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&read)->__fds_bits[(signed long int)0]) : "memory");
         }
         while((_Bool)0);
         (&read)->__fds_bits[(signed long int)(sock_copy / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&read)->__fds_bits[(signed long int)(sock_copy / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sock_copy % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
         tv.tv_sec = (signed long int)8;
         tv.tv_usec = (signed long int)0;
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
-        res=select(sock_copy + 1, &read, (struct anonymous$14 *)(void *)0, (struct anonymous$14 *)(void *)0, &tv);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
+        res=select(sock_copy + 1, &read, (struct anonymous_14 *)(void *)0, (struct anonymous_14 *)(void *)0, &tv);
         if(!(res == -1))
         {
           if(res == 1)
@@ -17644,8 +17644,8 @@ signed int lw_sock_recv_buffer_ex(signed int *sock, char *buffer, signed int len
 
         else
         {
-          return_value___errno_location$2=__errno_location();
-          if(!(*return_value___errno_location$2 == 4))
+          return_value___errno_location_2=__errno_location();
+          if(!(*return_value___errno_location_2 == 4))
             result = 0;
 
           goto __CPROVER_DUMP_L10;
@@ -17654,9 +17654,9 @@ signed int lw_sock_recv_buffer_ex(signed int *sock, char *buffer, signed int len
           ;
           if(!((read.__fds_bits[(signed long int)(sock_copy / 8)] & (signed long int)(1UL << sock_copy % 8)) == 0l))
           {
-            signed long int return_value_recv$3;
-            return_value_recv$3=recv(sock_copy, (void *)(buffer + (signed long int)total_received), (unsigned long int)(len - total_received < 200 ? len - total_received : 200), 0);
-            received = (signed int)return_value_recv$3;
+            signed long int return_value_recv_3;
+            return_value_recv_3=recv(sock_copy, (void *)(buffer + (signed long int)total_received), (unsigned long int)(len - total_received < 200 ? len - total_received : 200), 0);
+            received = (signed int)return_value_recv_3;
             if(len + -total_received >= received && received >= 1)
               total_received = total_received + received;
 
@@ -17718,14 +17718,14 @@ signed int lw_sock_recv_str(signed int *sock, char *str)
 {
   signed int result = 0;
   signed int limit_ticker;
-  signed int return_value_get_ticker$1;
-  return_value_get_ticker$1=get_ticker();
-  limit_ticker = return_value_get_ticker$1 + 15000;
-  signed int return_value_get_ticker$2;
+  signed int return_value_get_ticker_1;
+  return_value_get_ticker_1=get_ticker();
+  limit_ticker = return_value_get_ticker_1 + 15000;
+  signed int return_value_get_ticker_2;
   do
   {
-    return_value_get_ticker$2=get_ticker();
-    if(return_value_get_ticker$2 >= limit_ticker)
+    return_value_get_ticker_2=get_ticker();
+    if(return_value_get_ticker_2 >= limit_ticker)
       break;
 
     if(!(result == 0))
@@ -17734,9 +17734,9 @@ signed int lw_sock_recv_str(signed int *sock, char *str)
     if(!(*sock >= 0))
       break;
 
-    signed int return_value_lw_sock_recv_str_ex$3;
-    return_value_lw_sock_recv_str_ex$3=lw_sock_recv_str_ex(sock, str);
-    if(!(return_value_lw_sock_recv_str_ex$3 == 0))
+    signed int return_value_lw_sock_recv_str_ex_3;
+    return_value_lw_sock_recv_str_ex_3=lw_sock_recv_str_ex(sock, str);
+    if(!(return_value_lw_sock_recv_str_ex_3 == 0))
       result = 1;
 
   }
@@ -17753,14 +17753,14 @@ signed int lw_sock_recv_str_ex(signed int *sock, char *str)
   signed int l;
   signed int cr_found;
   char *cr;
-  struct anonymous$14 read;
+  struct anonymous_14 read;
   signed int sock_copy;
   struct timeval tv;
   signed int res;
   str[(signed long int)0] = (char)0;
   sock_copy = *sock;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$3;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_3;
   if(sock_copy >= 0)
   {
     result = 1;
@@ -17782,16 +17782,16 @@ signed int lw_sock_recv_str_ex(signed int *sock, char *str)
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&read)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&read)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       (&read)->__fds_bits[(signed long int)(sock_copy / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&read)->__fds_bits[(signed long int)(sock_copy / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sock_copy % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
       tv.tv_sec = (signed long int)8;
       tv.tv_usec = (signed long int)0;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 0;
-      res=select(sock_copy + 1, &read, (struct anonymous$14 *)(void *)0, (struct anonymous$14 *)(void *)0, &tv);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 0;
+      res=select(sock_copy + 1, &read, (struct anonymous_14 *)(void *)0, (struct anonymous_14 *)(void *)0, &tv);
       if(!(res == -1))
       {
         if(res == 1)
@@ -17801,8 +17801,8 @@ signed int lw_sock_recv_str_ex(signed int *sock, char *str)
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 4))
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 4))
           result = 0;
 
         goto __CPROVER_DUMP_L15;
@@ -17814,9 +17814,9 @@ signed int lw_sock_recv_str_ex(signed int *sock, char *str)
 
         else
         {
-          signed long int return_value_recv$5;
-          return_value_recv$5=recv(sock_copy, (void *)(str + (signed long int)pos), (unsigned long int)1, 0);
-          l = (signed int)return_value_recv$5;
+          signed long int return_value_recv_5;
+          return_value_recv_5=recv(sock_copy, (void *)(str + (signed long int)pos), (unsigned long int)1, 0);
+          l = (signed int)return_value_recv_5;
           if(!(l >= 1))
             result = -1;
 
@@ -17824,18 +17824,18 @@ signed int lw_sock_recv_str_ex(signed int *sock, char *str)
           {
             pos = pos + l;
             str[(signed long int)pos] = (char)0;
-            char *return_value___builtin_strchr$4;
-            return_value___builtin_strchr$4=__builtin_strchr(str, 10);
-            cr = return_value___builtin_strchr$4;
+            char *return_value___builtin_strchr_4;
+            return_value___builtin_strchr_4=__builtin_strchr(str, 10);
+            cr = return_value___builtin_strchr_4;
             if(!(cr == ((char *)NULL)))
             {
               cr_found = 1;
               if(cr - str >= 1l)
-                tmp_if_expr$3 = (signed int)*(cr - (signed long int)1) == 13 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_3 = (signed int)*(cr - (signed long int)1) == 13 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = (_Bool)0;
+              if(tmp_if_expr_3)
                 *(cr - (signed long int)1) = (char)0;
 
               else
@@ -17907,14 +17907,14 @@ signed int lw_sock_send_buffer(signed int *sock, char *buffer, signed int len)
 {
   signed int result = 0;
   signed int limit_ticker;
-  signed int return_value_get_ticker$1;
-  return_value_get_ticker$1=get_ticker();
-  limit_ticker = return_value_get_ticker$1 + 15000;
-  signed int return_value_get_ticker$2;
+  signed int return_value_get_ticker_1;
+  return_value_get_ticker_1=get_ticker();
+  limit_ticker = return_value_get_ticker_1 + 15000;
+  signed int return_value_get_ticker_2;
   do
   {
-    return_value_get_ticker$2=get_ticker();
-    if(return_value_get_ticker$2 >= limit_ticker)
+    return_value_get_ticker_2=get_ticker();
+    if(return_value_get_ticker_2 >= limit_ticker)
       break;
 
     if(!(result == 0))
@@ -17923,9 +17923,9 @@ signed int lw_sock_send_buffer(signed int *sock, char *buffer, signed int len)
     if(!(*sock >= 0))
       break;
 
-    signed int return_value_lw_sock_send_buffer_ex$3;
-    return_value_lw_sock_send_buffer_ex$3=lw_sock_send_buffer_ex(sock, buffer, len);
-    if(!(return_value_lw_sock_send_buffer_ex$3 == 0))
+    signed int return_value_lw_sock_send_buffer_ex_3;
+    return_value_lw_sock_send_buffer_ex_3=lw_sock_send_buffer_ex(sock, buffer, len);
+    if(!(return_value_lw_sock_send_buffer_ex_3 == 0))
       result = 1;
 
   }
@@ -17939,15 +17939,15 @@ signed int lw_sock_send_buffer_ex(signed int *sock, char *buffer, signed int len
 {
   signed int result = 0;
   char trace[1000l];
-  struct anonymous$14 write;
+  struct anonymous_14 write;
   struct timeval tv;
   signed int sock_copy;
   signed int res;
   signed int total_sent;
   signed int sent;
   sock_copy = *sock;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_2;
   if(sock_copy >= 0)
   {
     result = 1;
@@ -17967,16 +17967,16 @@ signed int lw_sock_send_buffer_ex(signed int *sock, char *buffer, signed int len
         {
           signed int __d0;
           signed int __d1;
-          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&write)->__fds_bits[(signed long int)0]) : "memory");
+          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&write)->__fds_bits[(signed long int)0]) : "memory");
         }
         while((_Bool)0);
         (&write)->__fds_bits[(signed long int)(sock_copy / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&write)->__fds_bits[(signed long int)(sock_copy / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sock_copy % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
         tv.tv_sec = (signed long int)8;
         tv.tv_usec = (signed long int)0;
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
-        res=select(sock_copy + 1, (struct anonymous$14 *)(void *)0, &write, (struct anonymous$14 *)(void *)0, &tv);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
+        res=select(sock_copy + 1, (struct anonymous_14 *)(void *)0, &write, (struct anonymous_14 *)(void *)0, &tv);
         if(!(res == -1))
         {
           if(res == 1)
@@ -17986,11 +17986,11 @@ signed int lw_sock_send_buffer_ex(signed int *sock, char *buffer, signed int len
 
         else
         {
-          return_value___errno_location$3=__errno_location();
-          if(!(*return_value___errno_location$3 == 4))
+          return_value___errno_location_3=__errno_location();
+          if(!(*return_value___errno_location_3 == 4))
           {
-            return_value___errno_location$2=__errno_location();
-            if(!(*return_value___errno_location$2 == 105))
+            return_value___errno_location_2=__errno_location();
+            if(!(*return_value___errno_location_2 == 105))
               result = 0;
 
           }
@@ -18001,9 +18001,9 @@ signed int lw_sock_send_buffer_ex(signed int *sock, char *buffer, signed int len
           ;
           if(!((write.__fds_bits[(signed long int)(sock_copy / 8)] & (signed long int)(1UL << sock_copy % 8)) == 0l))
           {
-            signed long int return_value_send$4;
-            return_value_send$4=send(sock_copy, (const void *)(buffer + (signed long int)total_sent), (unsigned long int)(len - total_sent < 100 ? len - total_sent : 100), 0);
-            sent = (signed int)return_value_send$4;
+            signed long int return_value_send_4;
+            return_value_send_4=send(sock_copy, (const void *)(buffer + (signed long int)total_sent), (unsigned long int)(len - total_sent < 100 ? len - total_sent : 100), 0);
+            sent = (signed int)return_value_send_4;
             if(len + -total_sent >= sent && sent >= 1)
               total_sent = total_sent + sent;
 
@@ -18065,14 +18065,14 @@ signed int lw_sock_send_str(signed int *sock, char *str)
 {
   signed int result = 0;
   signed int limit_ticker;
-  signed int return_value_get_ticker$1;
-  return_value_get_ticker$1=get_ticker();
-  limit_ticker = return_value_get_ticker$1 + 15000;
-  signed int return_value_get_ticker$2;
+  signed int return_value_get_ticker_1;
+  return_value_get_ticker_1=get_ticker();
+  limit_ticker = return_value_get_ticker_1 + 15000;
+  signed int return_value_get_ticker_2;
   do
   {
-    return_value_get_ticker$2=get_ticker();
-    if(return_value_get_ticker$2 >= limit_ticker)
+    return_value_get_ticker_2=get_ticker();
+    if(return_value_get_ticker_2 >= limit_ticker)
       break;
 
     if(!(result == 0))
@@ -18081,9 +18081,9 @@ signed int lw_sock_send_str(signed int *sock, char *str)
     if(!(*sock >= 0))
       break;
 
-    signed int return_value_lw_sock_send_str_ex$3;
-    return_value_lw_sock_send_str_ex$3=lw_sock_send_str_ex(sock, str);
-    if(!(return_value_lw_sock_send_str_ex$3 == 0))
+    signed int return_value_lw_sock_send_str_ex_3;
+    return_value_lw_sock_send_str_ex_3=lw_sock_send_str_ex(sock, str);
+    if(!(return_value_lw_sock_send_str_ex_3 == 0))
       result = 1;
 
   }
@@ -18099,20 +18099,20 @@ signed int lw_sock_send_str_ex(signed int *sock, char *str)
   signed int len;
   char buffer[1000l];
   signed int sock_copy;
-  struct anonymous$14 write;
+  struct anonymous_14 write;
   struct timeval tv;
   signed int res;
   signed int total_sent;
   signed int sent;
   sock_copy = *sock;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_3;
   if(sock_copy >= 0)
   {
     result = 1;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(str);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(str);
+    len = (signed int)return_value_strlen_1;
     len = len < 1000 - 3 ? len : 1000 - 3;
     __builtin_strncpy(buffer, str, (unsigned long int)len);
     buffer[(signed long int)len] = (char)13;
@@ -18134,16 +18134,16 @@ signed int lw_sock_send_str_ex(signed int *sock, char *str)
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&write)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&write)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       (&write)->__fds_bits[(signed long int)(sock_copy / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&write)->__fds_bits[(signed long int)(sock_copy / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sock_copy % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
       tv.tv_sec = (signed long int)8;
       tv.tv_usec = (signed long int)0;
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
-      res=select(sock_copy + 1, (struct anonymous$14 *)(void *)0, &write, (struct anonymous$14 *)(void *)0, &tv);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
+      res=select(sock_copy + 1, (struct anonymous_14 *)(void *)0, &write, (struct anonymous_14 *)(void *)0, &tv);
       if(!(res == -1))
       {
         if(res == 1)
@@ -18153,11 +18153,11 @@ signed int lw_sock_send_str_ex(signed int *sock, char *str)
 
       else
       {
-        return_value___errno_location$4=__errno_location();
-        if(!(*return_value___errno_location$4 == 4))
+        return_value___errno_location_4=__errno_location();
+        if(!(*return_value___errno_location_4 == 4))
         {
-          return_value___errno_location$3=__errno_location();
-          if(!(*return_value___errno_location$3 == 105))
+          return_value___errno_location_3=__errno_location();
+          if(!(*return_value___errno_location_3 == 105))
             result = 0;
 
         }
@@ -18168,9 +18168,9 @@ signed int lw_sock_send_str_ex(signed int *sock, char *str)
         ;
         if(!((write.__fds_bits[(signed long int)(sock_copy / 8)] & (signed long int)(1UL << sock_copy % 8)) == 0l))
         {
-          signed long int return_value_send$5;
-          return_value_send$5=send(sock_copy, (const void *)(buffer + (signed long int)total_sent), (unsigned long int)(len - total_sent), 0);
-          sent = (signed int)return_value_send$5;
+          signed long int return_value_send_5;
+          return_value_send_5=send(sock_copy, (const void *)(buffer + (signed long int)total_sent), (unsigned long int)(len - total_sent), 0);
+          sent = (signed int)return_value_send_5;
           if(len + -total_sent >= sent && sent >= 1)
             total_sent = total_sent + sent;
 
@@ -18220,9 +18220,9 @@ signed int lw_sock_send_str_ex(signed int *sock, char *str)
 
 // lw_teamstartinfo_reset
 // file startinf.h line 71
-void lw_teamstartinfo_reset(struct anonymous$12 *teamstartinfo)
+void lw_teamstartinfo_reset(struct anonymous_12 *teamstartinfo)
 {
-  memset((void *)teamstartinfo, 0, sizeof(struct anonymous$12) /*20ul*/ );
+  memset((void *)teamstartinfo, 0, sizeof(struct anonymous_12) /*20ul*/ );
 }
 
 // lw_texture_archive_raw
@@ -18245,9 +18245,9 @@ void * lw_texture_archive_raw(const char *filename)
     if(h >= 1 && w >= 1)
     {
       size = (signed int)((unsigned long int)2 * sizeof(signed short int) /*2ul*/  + (unsigned long int)16 + (unsigned long int)(3 * 32) + (unsigned long int)(((w * h + 7) / 8) * 5));
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)size);
-      temp = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)size);
+      temp = (char *)return_value_malloc_1;
       if(!(temp == ((char *)NULL)))
       {
         red8col(bmp, pal, 0, 32);
@@ -18261,9 +18261,9 @@ void * lw_texture_archive_raw(const char *filename)
 
   if(!(temp == ((char *)NULL)))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)size);
-    result = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)size);
+    result = (char *)return_value_malloc_2;
     if(!(result == ((char *)NULL)))
     {
       i = 0;
@@ -18281,18 +18281,18 @@ void * lw_texture_archive_raw(const char *filename)
 // file texture.h line 72
 struct BITMAP * lw_texture_create_bg(signed int num)
 {
-  struct BITMAP *return_value_create_texture$1;
-  return_value_create_texture$1=create_texture(num, 96);
-  return return_value_create_texture$1;
+  struct BITMAP *return_value_create_texture_1;
+  return_value_create_texture_1=create_texture(num, 96);
+  return return_value_create_texture_1;
 }
 
 // lw_texture_create_fg
 // file texture.h line 73
 struct BITMAP * lw_texture_create_fg(signed int num)
 {
-  struct BITMAP *return_value_create_texture$1;
-  return_value_create_texture$1=create_texture(num, 64);
-  return return_value_create_texture$1;
+  struct BITMAP *return_value_create_texture_1;
+  return_value_create_texture_1=create_texture(num, 64);
+  return return_value_create_texture_1;
 }
 
 // lw_texture_get_system_name
@@ -18326,13 +18326,13 @@ signed int lw_thread_start(void (*func)(void *), void *args)
 {
   unsigned long int thread;
   signed int result = 0;
-  signed int return_value_pthread_create$2;
-  return_value_pthread_create$2=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))func, args);
-  if(return_value_pthread_create$2 == 0)
+  signed int return_value_pthread_create_2;
+  return_value_pthread_create_2=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))func, args);
+  if(return_value_pthread_create_2 == 0)
   {
-    signed int return_value_pthread_detach$1;
-    return_value_pthread_detach$1=pthread_detach(thread);
-    if(return_value_pthread_detach$1 == 0)
+    signed int return_value_pthread_detach_1;
+    return_value_pthread_detach_1=pthread_detach(thread);
+    if(return_value_pthread_detach_1 == 0)
       result = 1;
 
   }
@@ -18349,7 +18349,7 @@ void lw_viewport_register_change(signed int count)
 
 // lw_wwwcli_get_games
 // file wwwcli.h line 86
-signed int lw_wwwcli_get_games(struct anonymous$15 *buffer, signed int *size)
+signed int lw_wwwcli_get_games(struct anonymous_15 *buffer, signed int *size)
 {
   signed int result = 0;
   char buffer_content[100000l];
@@ -18364,38 +18364,38 @@ signed int lw_wwwcli_get_games(struct anonymous$15 *buffer, signed int *size)
   memset((void *)buffer_url, 0, sizeof(char [500l]) /*500ul*/ );
   snprintf(buffer_url, sizeof(char [500l]) /*500ul*/  - (unsigned long int)1, "%s%s?protocol=%s&game=liquidwar&version=5.6.4", (const void *)STARTUP_METASERVER, (const void *)"list.php3", (const void *)"1.0");
   buffer_url[(signed long int)(sizeof(char [500l]) /*500ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_lw_httputil_get_page$5;
-  return_value_lw_httputil_get_page$5=lw_httputil_get_page(buffer_content, buffer_url, (signed int)sizeof(char [100000l]) /*100000ul*/ );
-  signed int return_value_read_eol$1;
-  unsigned long int return_value_strlen$2;
-  if(!(return_value_lw_httputil_get_page$5 == 0))
+  signed int return_value_lw_httputil_get_page_5;
+  return_value_lw_httputil_get_page_5=lw_httputil_get_page(buffer_content, buffer_url, (signed int)sizeof(char [100000l]) /*100000ul*/ );
+  signed int return_value_read_eol_1;
+  unsigned long int return_value_strlen_2;
+  if(!(return_value_lw_httputil_get_page_5 == 0))
   {
     pos = buffer_content;
     do
     {
-      return_value_read_eol$1=read_eol(&pos);
-      if(return_value_read_eol$1 == 0)
+      return_value_read_eol_1=read_eol(&pos);
+      if(return_value_read_eol_1 == 0)
         break;
 
     }
     while((_Bool)1);
     while(!(i >= *size))
     {
-      return_value_strlen$2=strlen(pos);
-      if(!(return_value_strlen$2 >= 1ul))
+      return_value_strlen_2=strlen(pos);
+      if(!(return_value_strlen_2 >= 1ul))
         break;
 
       pos_tmp = pos;
-      signed int return_value_read_eol_n$4;
-      return_value_read_eol_n$4=read_eol_n(&pos_tmp, 20);
-      if(!(return_value_read_eol_n$4 == 0))
+      signed int return_value_read_eol_n_4;
+      return_value_read_eol_n_4=read_eol_n(&pos_tmp, 20);
+      if(!(return_value_read_eol_n_4 == 0))
         pos = pos_tmp;
 
       else
       {
-        signed int return_value_parse_line$3;
-        return_value_parse_line$3=parse_line(buffer + (signed long int)i, &pos);
-        if(!(return_value_parse_line$3 == 0))
+        signed int return_value_parse_line_3;
+        return_value_parse_line_3=parse_line(buffer + (signed long int)i, &pos);
+        if(!(return_value_parse_line_3 == 0))
         {
           if(!((buffer + (signed long int)i)->busy_players >= (buffer + (signed long int)i)->max_players))
           {
@@ -18438,16 +18438,16 @@ signed int main(signed int argc, char **argv)
   signed int load_dat_success = 0;
   signed int load_custom_success = 0;
   read_command_line(argc, argv);
-  signed int return_value_lw_basicopt_process$2;
-  return_value_lw_basicopt_process$2=lw_basicopt_process("Liquid War - a unique multiplayer wargame");
-  if(!(return_value_lw_basicopt_process$2 == 0))
+  signed int return_value_lw_basicopt_process_2;
+  return_value_lw_basicopt_process_2=lw_basicopt_process("Liquid War - a unique multiplayer wargame");
+  if(!(return_value_lw_basicopt_process_2 == 0))
   {
     init_success=init_all();
     if(!(init_success == 0))
     {
-      void *return_value_malloc_big_data$1;
-      return_value_malloc_big_data$1=malloc_big_data();
-      big_data_success = (signed int)(return_value_malloc_big_data$1 != (void *)0);
+      void *return_value_malloc_big_data_1;
+      return_value_malloc_big_data_1=malloc_big_data();
+      big_data_success = (signed int)(return_value_malloc_big_data_1 != (void *)0);
       log_println();
       load_dat_success=load_dat();
       log_println();
@@ -18509,24 +18509,24 @@ void main_menu(void)
     quick_buttons(d);
     d[(signed long int)3].flags = 16;
     d[(signed long int)2].flags = 16;
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(6);
-    d[(signed long int)4].dp = (void *)return_value_lw_lang_string$1;
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(7);
-    d[(signed long int)5].dp = (void *)return_value_lw_lang_string$2;
-    char *return_value_lw_lang_string$3;
-    return_value_lw_lang_string$3=lw_lang_string(8);
-    d[(signed long int)6].dp = (void *)return_value_lw_lang_string$3;
-    char *return_value_lw_lang_string$4;
-    return_value_lw_lang_string$4=lw_lang_string(9);
-    d[(signed long int)7].dp = (void *)return_value_lw_lang_string$4;
-    char *return_value_lw_lang_string$5;
-    return_value_lw_lang_string$5=lw_lang_string(10);
-    d[(signed long int)8].dp = (void *)return_value_lw_lang_string$5;
-    char *return_value_lw_lang_string$6;
-    return_value_lw_lang_string$6=lw_lang_string(11);
-    d[(signed long int)9].dp = (void *)return_value_lw_lang_string$6;
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(6);
+    d[(signed long int)4].dp = (void *)return_value_lw_lang_string_1;
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(7);
+    d[(signed long int)5].dp = (void *)return_value_lw_lang_string_2;
+    char *return_value_lw_lang_string_3;
+    return_value_lw_lang_string_3=lw_lang_string(8);
+    d[(signed long int)6].dp = (void *)return_value_lw_lang_string_3;
+    char *return_value_lw_lang_string_4;
+    return_value_lw_lang_string_4=lw_lang_string(9);
+    d[(signed long int)7].dp = (void *)return_value_lw_lang_string_4;
+    char *return_value_lw_lang_string_5;
+    return_value_lw_lang_string_5=lw_lang_string(10);
+    d[(signed long int)8].dp = (void *)return_value_lw_lang_string_5;
+    char *return_value_lw_lang_string_6;
+    return_value_lw_lang_string_6=lw_lang_string(11);
+    d[(signed long int)9].dp = (void *)return_value_lw_lang_string_6;
     d[(signed long int)10].proc = ((signed int (*)(signed int, struct DIALOG *, signed int))NULL);
     choix=my_do_dialog(d, choix);
     if(!(choix == 0) && !(choix == -1))
@@ -18556,9 +18556,9 @@ void main_menu(void)
 
     else
     {
-      signed int return_value_confirm_quit$7;
-      return_value_confirm_quit$7=confirm_quit();
-      if(!(return_value_confirm_quit$7 == 0))
+      signed int return_value_confirm_quit_7;
+      return_value_confirm_quit_7=confirm_quit();
+      if(!(return_value_confirm_quit_7 == 0))
         retour = -2;
 
       goto __CPROVER_DUMP_L13;
@@ -18726,33 +18726,33 @@ void menu_real_coord(struct DIALOG *d)
 // file dialog.c line 79
 signed int menu_real_x(signed int x)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-    tmp_if_expr$1 = gfx_driver->w;
+    tmp_if_expr_1 = gfx_driver->w;
 
   else
-    tmp_if_expr$1 = 0;
-  return (x * tmp_if_expr$1) / 320;
+    tmp_if_expr_1 = 0;
+  return (x * tmp_if_expr_1) / 320;
 }
 
 // menu_real_y
 // file dialog.c line 86
 signed int menu_real_y(signed int y)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-    tmp_if_expr$1 = gfx_driver->h;
+    tmp_if_expr_1 = gfx_driver->h;
 
   else
-    tmp_if_expr$1 = 0;
-  return (y * tmp_if_expr$1) / 240;
+    tmp_if_expr_1 = 0;
+  return (y * tmp_if_expr_1) / 240;
 }
 
 // mesher_to_mesh
 // file mesh.c line 240
-static struct anonymous$0 * mesher_to_mesh(struct anonymous *mesher, struct BITMAP *map, signed int *size, signed int *w, signed int *h)
+static struct anonymous_0 * mesher_to_mesh(struct anonymous *mesher, struct BITMAP *map, signed int *size, signed int *w, signed int *h)
 {
-  struct anonymous$0 *result;
+  struct anonymous_0 *result;
   struct anonymous *temp;
   signed int mesher_size;
   signed int i;
@@ -18767,10 +18767,10 @@ static struct anonymous$0 * mesher_to_mesh(struct anonymous *mesher, struct BITM
     if(!((mesher + (signed long int)i)->used == 0))
       *size = *size + 1;
 
-  void *return_value_malloc_in_big_data_bottom$1;
-  return_value_malloc_in_big_data_bottom$1=malloc_in_big_data_bottom((signed int)((unsigned long int)*size * sizeof(struct anonymous$0) /*152ul*/ ));
-  result = (struct anonymous$0 *)return_value_malloc_in_big_data_bottom$1;
-  if(!(result == ((struct anonymous$0 *)NULL)))
+  void *return_value_malloc_in_big_data_bottom_1;
+  return_value_malloc_in_big_data_bottom_1=malloc_in_big_data_bottom((signed int)((unsigned long int)*size * sizeof(struct anonymous_0) /*152ul*/ ));
+  result = (struct anonymous_0 *)return_value_malloc_in_big_data_bottom_1;
+  if(!(result == ((struct anonymous_0 *)NULL)))
   {
     j = 0;
     i = 0;
@@ -18880,9 +18880,9 @@ void move_all_cursors(void)
     if(!(LW_NETWORK_ON == 0))
     {
       checksum=lw_checksum_calc(CURRENT_ARMY, CURRENT_ARMY_SIZE);
-      signed int return_value_lw_keyexch_flush$1;
-      return_value_lw_keyexch_flush$1=lw_keyexch_flush(CURRENT_CURSOR, (unsigned int)checksum);
-      if(return_value_lw_keyexch_flush$1 == 0)
+      signed int return_value_lw_keyexch_flush_1;
+      return_value_lw_keyexch_flush_1=lw_keyexch_flush(CURRENT_CURSOR, (unsigned int)checksum);
+      if(return_value_lw_keyexch_flush_1 == 0)
         LW_NETWORK_ERROR_DETECTED = 1;
 
     }
@@ -18909,7 +18909,7 @@ static void move_cursor(signed int indice)
   signed int moved = 0;
   signed int team;
   char key_state;
-  struct anonymous$0 *mesh;
+  struct anonymous_0 *mesh;
   team = CURRENT_CURSOR[(signed long int)indice].team;
   mesh = (CURRENT_AREA + (signed long int)(CURRENT_CURSOR[(signed long int)indice].y * CURRENT_AREA_W + CURRENT_CURSOR[(signed long int)indice].x))->mesh;
   mesh->info[(signed long int)team].update.time = -1;
@@ -18989,28 +18989,28 @@ static void move_cursor(signed int indice)
       ya1 = yb1;
       while(moved == 0 && !(i >= 10))
       {
-        signed int return_value_move_if_free$2;
-        return_value_move_if_free$2=move_if_free(&xa1, &ya1, dir - 2);
-        if(!(return_value_move_if_free$2 == 0))
+        signed int return_value_move_if_free_2;
+        return_value_move_if_free_2=move_if_free(&xa1, &ya1, dir - 2);
+        if(!(return_value_move_if_free_2 == 0))
         {
           xa2 = xa1;
           ya2 = ya1;
-          signed int return_value_move_if_free$1;
-          return_value_move_if_free$1=move_if_free(&xa2, &ya2, dir - 1);
-          if(!(return_value_move_if_free$1 == 0))
+          signed int return_value_move_if_free_1;
+          return_value_move_if_free_1=move_if_free(&xa2, &ya2, dir - 1);
+          if(!(return_value_move_if_free_1 == 0))
             moved=move_if_free(&CURRENT_CURSOR[(signed long int)indice].x, &CURRENT_CURSOR[(signed long int)indice].y, dir - 2);
 
         }
 
-        signed int return_value_move_if_free$4;
-        return_value_move_if_free$4=move_if_free(&xb1, &yb1, dir + 2);
-        if(!(return_value_move_if_free$4 == 0))
+        signed int return_value_move_if_free_4;
+        return_value_move_if_free_4=move_if_free(&xb1, &yb1, dir + 2);
+        if(!(return_value_move_if_free_4 == 0))
         {
           xb2 = xb1;
           yb2 = yb1;
-          signed int return_value_move_if_free$3;
-          return_value_move_if_free$3=move_if_free(&xb2, &yb2, dir + 1);
-          if(!(return_value_move_if_free$3 == 0))
+          signed int return_value_move_if_free_3;
+          return_value_move_if_free_3=move_if_free(&xb2, &yb2, dir + 1);
+          if(!(return_value_move_if_free_3 == 0))
             moved=move_if_free(&CURRENT_CURSOR[(signed long int)indice].x, &CURRENT_CURSOR[(signed long int)indice].y, dir + 2);
 
         }
@@ -19040,13 +19040,13 @@ void move_fighters(void)
   signed int dir;
   signed int team;
   signed int coef;
-  struct anonymous$21 *f;
-  struct anonymous$22 *p;
-  struct anonymous$22 *p0;
-  struct anonymous$22 *p1;
-  struct anonymous$22 *p2;
-  struct anonymous$22 *p3;
-  struct anonymous$22 *p4;
+  struct anonymous_21 *f;
+  struct anonymous_22 *p;
+  struct anonymous_22 *p0;
+  struct anonymous_22 *p1;
+  struct anonymous_22 *p2;
+  struct anonymous_22 *p3;
+  struct anonymous_22 *p4;
   signed int *move_offset;
   signed int *move_x;
   signed int *move_y;
@@ -19083,33 +19083,33 @@ void move_fighters(void)
       coef = coef / 2;
 
     coef = coef + 256;
-    signed int return_value_fsqrt$1;
-    return_value_fsqrt$1=fsqrt$link1(1 << LW_CONFIG_CURRENT_RULES.fighter_attack + cpu_influence[(signed long int)i]);
-    signed int return_value_fsqrt$2;
-    return_value_fsqrt$2=fsqrt$link1(return_value_fsqrt$1);
-    attack[(signed long int)i] = (coef * return_value_fsqrt$2) / (256 * 8);
+    signed int return_value_fsqrt_1;
+    return_value_fsqrt_1=fsqrt_link1(1 << LW_CONFIG_CURRENT_RULES.fighter_attack + cpu_influence[(signed long int)i]);
+    signed int return_value_fsqrt_2;
+    return_value_fsqrt_2=fsqrt_link1(return_value_fsqrt_1);
+    attack[(signed long int)i] = (coef * return_value_fsqrt_2) / (256 * 8);
     if(attack[(signed long int)i] >= 16384)
       attack[(signed long int)i] = 16384 - 1;
 
     if(!(attack[(signed long int)i] >= 1))
       attack[(signed long int)i] = 1;
 
-    signed int return_value_fsqrt$3;
-    return_value_fsqrt$3=fsqrt$link1(1 << LW_CONFIG_CURRENT_RULES.fighter_defense + cpu_influence[(signed long int)i]);
-    signed int return_value_fsqrt$4;
-    return_value_fsqrt$4=fsqrt$link1(return_value_fsqrt$3);
-    defense[(signed long int)i] = (coef * return_value_fsqrt$4) / (256 * 256);
+    signed int return_value_fsqrt_3;
+    return_value_fsqrt_3=fsqrt_link1(1 << LW_CONFIG_CURRENT_RULES.fighter_defense + cpu_influence[(signed long int)i]);
+    signed int return_value_fsqrt_4;
+    return_value_fsqrt_4=fsqrt_link1(return_value_fsqrt_3);
+    defense[(signed long int)i] = (coef * return_value_fsqrt_4) / (256 * 256);
     if(defense[(signed long int)i] >= 16384)
       defense[(signed long int)i] = 16384 - 1;
 
     if(!(defense[(signed long int)i] >= 1))
       defense[(signed long int)i] = 1;
 
-    signed int return_value_fsqrt$5;
-    return_value_fsqrt$5=fsqrt$link1(1 << LW_CONFIG_CURRENT_RULES.fighter_new_health + cpu_influence[(signed long int)i]);
-    signed int return_value_fsqrt$6;
-    return_value_fsqrt$6=fsqrt$link1(return_value_fsqrt$5);
-    new_health[(signed long int)i] = (coef * return_value_fsqrt$6) / (256 * 4);
+    signed int return_value_fsqrt_5;
+    return_value_fsqrt_5=fsqrt_link1(1 << LW_CONFIG_CURRENT_RULES.fighter_new_health + cpu_influence[(signed long int)i]);
+    signed int return_value_fsqrt_6;
+    return_value_fsqrt_6=fsqrt_link1(return_value_fsqrt_5);
+    new_health[(signed long int)i] = (coef * return_value_fsqrt_6) / (256 * 4);
     if(new_health[(signed long int)i] >= 16384)
       new_health[(signed long int)i] = 16384 - 1;
 
@@ -19123,19 +19123,19 @@ void move_fighters(void)
   f = CURRENT_ARMY;
   temp = 0;
   i = 0;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
   for( ; !(i >= CURRENT_ARMY_SIZE); i = i + 1)
   {
     team = (signed int)f->team;
@@ -19144,17 +19144,17 @@ void move_fighters(void)
     p = CURRENT_AREA + (signed long int)((signed int)f->y * CURRENT_AREA_W + (signed int)f->x);
     if(p->mesh->info[(signed long int)team].update.time >= 0)
     {
-      tmp_post$7 = sens;
+      tmp_post_7 = sens;
       sens = sens + 1;
-      p->mesh->info[(signed long int)team].state.dir=get_close_dir(p->mesh, f, team, tmp_post$7 % 2, start);
+      p->mesh->info[(signed long int)team].state.dir=get_close_dir(p->mesh, f, team, tmp_post_7 % 2, start);
     }
 
     else
       if(!(-p->mesh->info[(signed long int)team].update.time >= GLOBAL_CLOCK))
       {
-        tmp_post$8 = sens;
+        tmp_post_8 = sens;
         sens = sens + 1;
-        p->mesh->info[(signed long int)team].state.dir=get_main_dir(p->mesh, team, tmp_post$8 % 2, start);
+        p->mesh->info[(signed long int)team].state.dir=get_main_dir(p->mesh, team, tmp_post_8 % 2, start);
         p->mesh->info[(signed long int)team].update.time = -GLOBAL_CLOCK;
       }
 
@@ -19163,16 +19163,16 @@ void move_fighters(void)
     move_x = FIGHTER_MOVE_X[(signed long int)table][(signed long int)dir];
     move_y = FIGHTER_MOVE_Y[(signed long int)table][(signed long int)dir];
     p0 = p + (signed long int)move_offset[(signed long int)0];
-    if(!(p0->mesh == ((struct anonymous$0 *)NULL)))
-      tmp_if_expr$19 = !(p0->fighter != ((struct anonymous$21 *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(!(p0->mesh == ((struct anonymous_0 *)NULL)))
+      tmp_if_expr_19 = !(p0->fighter != ((struct anonymous_21 *)NULL)) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$19 = (_Bool)0;
-    if(tmp_if_expr$19)
+      tmp_if_expr_19 = (_Bool)0;
+    if(tmp_if_expr_19)
     {
       erase_fighter(f);
       p0->fighter = f;
-      p->fighter = (struct anonymous$21 *)(void *)0;
+      p->fighter = (struct anonymous_21 *)(void *)0;
       f->x = f->x + (signed short int)move_x[(signed long int)0];
       f->y = f->y + (signed short int)move_y[(signed long int)0];
       disp_fighter(f);
@@ -19181,16 +19181,16 @@ void move_fighters(void)
     else
     {
       p1 = p + (signed long int)move_offset[(signed long int)1];
-      if(!(p1->mesh == ((struct anonymous$0 *)NULL)))
-        tmp_if_expr$18 = !(p1->fighter != ((struct anonymous$21 *)NULL)) ? (_Bool)1 : (_Bool)0;
+      if(!(p1->mesh == ((struct anonymous_0 *)NULL)))
+        tmp_if_expr_18 = !(p1->fighter != ((struct anonymous_21 *)NULL)) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$18 = (_Bool)0;
-      if(tmp_if_expr$18)
+        tmp_if_expr_18 = (_Bool)0;
+      if(tmp_if_expr_18)
       {
         erase_fighter(f);
         p1->fighter = f;
-        p->fighter = (struct anonymous$21 *)(void *)0;
+        p->fighter = (struct anonymous_21 *)(void *)0;
         f->x = f->x + (signed short int)move_x[(signed long int)1];
         f->y = f->y + (signed short int)move_y[(signed long int)1];
         disp_fighter(f);
@@ -19199,16 +19199,16 @@ void move_fighters(void)
       else
       {
         p2 = p + (signed long int)move_offset[(signed long int)2];
-        if(!(p2->mesh == ((struct anonymous$0 *)NULL)))
-          tmp_if_expr$17 = !(p2->fighter != ((struct anonymous$21 *)NULL)) ? (_Bool)1 : (_Bool)0;
+        if(!(p2->mesh == ((struct anonymous_0 *)NULL)))
+          tmp_if_expr_17 = !(p2->fighter != ((struct anonymous_21 *)NULL)) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$17 = (_Bool)0;
-        if(tmp_if_expr$17)
+          tmp_if_expr_17 = (_Bool)0;
+        if(tmp_if_expr_17)
         {
           erase_fighter(f);
           p2->fighter = f;
-          p->fighter = (struct anonymous$21 *)(void *)0;
+          p->fighter = (struct anonymous_21 *)(void *)0;
           f->x = f->x + (signed short int)move_x[(signed long int)2];
           f->y = f->y + (signed short int)move_y[(signed long int)2];
           disp_fighter(f);
@@ -19217,16 +19217,16 @@ void move_fighters(void)
         else
         {
           p3 = p + (signed long int)move_offset[(signed long int)3];
-          if(!(p3->mesh == ((struct anonymous$0 *)NULL)))
-            tmp_if_expr$16 = !(p3->fighter != ((struct anonymous$21 *)NULL)) ? (_Bool)1 : (_Bool)0;
+          if(!(p3->mesh == ((struct anonymous_0 *)NULL)))
+            tmp_if_expr_16 = !(p3->fighter != ((struct anonymous_21 *)NULL)) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$16 = (_Bool)0;
-          if(tmp_if_expr$16)
+            tmp_if_expr_16 = (_Bool)0;
+          if(tmp_if_expr_16)
           {
             erase_fighter(f);
             p3->fighter = f;
-            p->fighter = (struct anonymous$21 *)(void *)0;
+            p->fighter = (struct anonymous_21 *)(void *)0;
             f->x = f->x + (signed short int)move_x[(signed long int)3];
             f->y = f->y + (signed short int)move_y[(signed long int)3];
             disp_fighter(f);
@@ -19235,16 +19235,16 @@ void move_fighters(void)
           else
           {
             p4 = p + (signed long int)move_offset[(signed long int)4];
-            if(!(p4->mesh == ((struct anonymous$0 *)NULL)))
-              tmp_if_expr$15 = !(p4->fighter != ((struct anonymous$21 *)NULL)) ? (_Bool)1 : (_Bool)0;
+            if(!(p4->mesh == ((struct anonymous_0 *)NULL)))
+              tmp_if_expr_15 = !(p4->fighter != ((struct anonymous_21 *)NULL)) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$15 = (_Bool)0;
-            if(tmp_if_expr$15)
+              tmp_if_expr_15 = (_Bool)0;
+            if(tmp_if_expr_15)
             {
               erase_fighter(f);
               p4->fighter = f;
-              p->fighter = (struct anonymous$21 *)(void *)0;
+              p->fighter = (struct anonymous_21 *)(void *)0;
               f->x = f->x + (signed short int)move_x[(signed long int)4];
               f->y = f->y + (signed short int)move_y[(signed long int)4];
               disp_fighter(f);
@@ -19252,17 +19252,17 @@ void move_fighters(void)
 
             else
             {
-              if(!(p0->mesh == ((struct anonymous$0 *)NULL)))
-                tmp_if_expr$13 = p0->fighter != ((struct anonymous$21 *)NULL) ? (_Bool)1 : (_Bool)0;
+              if(!(p0->mesh == ((struct anonymous_0 *)NULL)))
+                tmp_if_expr_13 = p0->fighter != ((struct anonymous_21 *)NULL) ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$13 = (_Bool)0;
-              if(tmp_if_expr$13)
-                tmp_if_expr$14 = (signed int)p0->fighter->team != team ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_13 = (_Bool)0;
+              if(tmp_if_expr_13)
+                tmp_if_expr_14 = (signed int)p0->fighter->team != team ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$14 = (_Bool)0;
-              if(tmp_if_expr$14)
+                tmp_if_expr_14 = (_Bool)0;
+              if(tmp_if_expr_14)
               {
                 p0->fighter->health = p0->fighter->health - (signed short int)attack[(signed long int)team];
                 if(!((signed int)p0->fighter->health >= 0))
@@ -19277,17 +19277,17 @@ void move_fighters(void)
 
               else
               {
-                if(!(p1->mesh == ((struct anonymous$0 *)NULL)))
-                  tmp_if_expr$11 = p1->fighter != ((struct anonymous$21 *)NULL) ? (_Bool)1 : (_Bool)0;
+                if(!(p1->mesh == ((struct anonymous_0 *)NULL)))
+                  tmp_if_expr_11 = p1->fighter != ((struct anonymous_21 *)NULL) ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$11 = (_Bool)0;
-                if(tmp_if_expr$11)
-                  tmp_if_expr$12 = (signed int)p1->fighter->team != team ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_11 = (_Bool)0;
+                if(tmp_if_expr_11)
+                  tmp_if_expr_12 = (signed int)p1->fighter->team != team ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$12 = (_Bool)0;
-                if(tmp_if_expr$12)
+                  tmp_if_expr_12 = (_Bool)0;
+                if(tmp_if_expr_12)
                 {
                   p1->fighter->health = p1->fighter->health - (signed short int)(attack[(signed long int)team] >> 4);
                   if(!((signed int)p1->fighter->health >= 0))
@@ -19302,17 +19302,17 @@ void move_fighters(void)
 
                 else
                 {
-                  if(!(p2->mesh == ((struct anonymous$0 *)NULL)))
-                    tmp_if_expr$9 = p2->fighter != ((struct anonymous$21 *)NULL) ? (_Bool)1 : (_Bool)0;
+                  if(!(p2->mesh == ((struct anonymous_0 *)NULL)))
+                    tmp_if_expr_9 = p2->fighter != ((struct anonymous_21 *)NULL) ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$9 = (_Bool)0;
-                  if(tmp_if_expr$9)
-                    tmp_if_expr$10 = (signed int)p2->fighter->team != team ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_9 = (_Bool)0;
+                  if(tmp_if_expr_9)
+                    tmp_if_expr_10 = (signed int)p2->fighter->team != team ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$10 = (_Bool)0;
-                  if(tmp_if_expr$10)
+                    tmp_if_expr_10 = (_Bool)0;
+                  if(tmp_if_expr_10)
                   {
                     p2->fighter->health = p2->fighter->health - (signed short int)(attack[(signed long int)team] >> 4);
                     if(!((signed int)p2->fighter->health >= 0))
@@ -19326,9 +19326,9 @@ void move_fighters(void)
                   }
 
                   else
-                    if(!(p0->mesh == ((struct anonymous$0 *)NULL)))
+                    if(!(p0->mesh == ((struct anonymous_0 *)NULL)))
                     {
-                      if(!(p0->fighter == ((struct anonymous$21 *)NULL)))
+                      if(!(p0->fighter == ((struct anonymous_21 *)NULL)))
                       {
                         if((signed int)p0->fighter->team == team)
                         {
@@ -19367,7 +19367,7 @@ static signed int move_if_free(signed int *x, signed int *y, signed int dir)
   {
     case 1:
     {
-      if(!((CURRENT_AREA + (signed long int)((*y + -1) * CURRENT_AREA_W + *x))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)((*y + -1) * CURRENT_AREA_W + *x))->mesh == ((struct anonymous_0 *)NULL)))
       {
         *y = *y - 1;
         moved = 1;
@@ -19377,7 +19377,7 @@ static signed int move_if_free(signed int *x, signed int *y, signed int dir)
     }
     case 2:
     {
-      if(!((CURRENT_AREA + (signed long int)((*y + -1) * CURRENT_AREA_W + 1 + *x))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)((*y + -1) * CURRENT_AREA_W + 1 + *x))->mesh == ((struct anonymous_0 *)NULL)))
       {
         *y = *y - 1;
         *x = *x + 1;
@@ -19388,7 +19388,7 @@ static signed int move_if_free(signed int *x, signed int *y, signed int dir)
     }
     case 3:
     {
-      if(!((CURRENT_AREA + (signed long int)(*y * CURRENT_AREA_W + 1 + *x))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)(*y * CURRENT_AREA_W + 1 + *x))->mesh == ((struct anonymous_0 *)NULL)))
       {
         *x = *x + 1;
         moved = 1;
@@ -19398,7 +19398,7 @@ static signed int move_if_free(signed int *x, signed int *y, signed int dir)
     }
     case 4:
     {
-      if(!((CURRENT_AREA + (signed long int)((1 + *y) * CURRENT_AREA_W + 1 + *x))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)((1 + *y) * CURRENT_AREA_W + 1 + *x))->mesh == ((struct anonymous_0 *)NULL)))
       {
         *x = *x + 1;
         *y = *y + 1;
@@ -19409,7 +19409,7 @@ static signed int move_if_free(signed int *x, signed int *y, signed int dir)
     }
     case 5:
     {
-      if(!((CURRENT_AREA + (signed long int)((1 + *y) * CURRENT_AREA_W + *x))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)((1 + *y) * CURRENT_AREA_W + *x))->mesh == ((struct anonymous_0 *)NULL)))
       {
         *y = *y + 1;
         moved = 1;
@@ -19419,7 +19419,7 @@ static signed int move_if_free(signed int *x, signed int *y, signed int dir)
     }
     case 6:
     {
-      if(!((CURRENT_AREA + (signed long int)((1 + *y) * CURRENT_AREA_W + *x + -1))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)((1 + *y) * CURRENT_AREA_W + *x + -1))->mesh == ((struct anonymous_0 *)NULL)))
       {
         *y = *y + 1;
         *x = *x - 1;
@@ -19430,7 +19430,7 @@ static signed int move_if_free(signed int *x, signed int *y, signed int dir)
     }
     case 7:
     {
-      if(!((CURRENT_AREA + (signed long int)(*y * CURRENT_AREA_W + *x + -1))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)(*y * CURRENT_AREA_W + *x + -1))->mesh == ((struct anonymous_0 *)NULL)))
       {
         *x = *x - 1;
         moved = 1;
@@ -19439,7 +19439,7 @@ static signed int move_if_free(signed int *x, signed int *y, signed int dir)
       break;
     }
     case 8:
-      if(!((CURRENT_AREA + (signed long int)((*y + -1) * CURRENT_AREA_W + *x + -1))->mesh == ((struct anonymous$0 *)NULL)))
+      if(!((CURRENT_AREA + (signed long int)((*y + -1) * CURRENT_AREA_W + *x + -1))->mesh == ((struct anonymous_0 *)NULL)))
       {
         *x = *x - 1;
         *y = *y - 1;
@@ -19462,10 +19462,10 @@ signed int my_button_proc(signed int msg, struct DIALOG *d, signed int c)
   signed int g;
   c = c;
   gui_bmp=gui_get_screen();
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  signed int return_value_text_height$3;
-  _Bool tmp_if_expr$4;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  signed int return_value_text_height_3;
+  _Bool tmp_if_expr_4;
   signed int return_value;
   switch(msg)
   {
@@ -19476,28 +19476,28 @@ signed int my_button_proc(signed int msg, struct DIALOG *d, signed int c)
         g = 1;
         state1 = d->bg;
         if(!((32 & d->flags) == 0))
-          tmp_if_expr$1 = gui_mg_color;
+          tmp_if_expr_1 = gui_mg_color;
 
         else
-          tmp_if_expr$1 = d->fg;
-        state2 = tmp_if_expr$1;
+          tmp_if_expr_1 = d->fg;
+        state2 = tmp_if_expr_1;
       }
 
       else
       {
         g = 0;
         if(!((32 & d->flags) == 0))
-          tmp_if_expr$2 = gui_mg_color;
+          tmp_if_expr_2 = gui_mg_color;
 
         else
-          tmp_if_expr$2 = d->fg;
-        state1 = tmp_if_expr$2;
+          tmp_if_expr_2 = d->fg;
+        state1 = tmp_if_expr_2;
         state2 = d->bg;
       }
       rectfill(gui_bmp, d->x + 1 + g, d->y + 1 + g, ((d->x + d->w) - 3) + g, ((d->y + d->h) - 3) + g, state2);
       rect(gui_bmp, d->x + g, d->y + g, ((d->x + d->w) - 2) + g, ((d->y + d->h) - 2) + g, state1);
-      return_value_text_height$3=text_height(font);
-      gui_textout_ex(gui_bmp, (const char *)d->dp, d->x + d->w / 2 + g, ((d->y + d->h / 2) - return_value_text_height$3 / 2) + g, -1, -1, -1);
+      return_value_text_height_3=text_height(font);
+      gui_textout_ex(gui_bmp, (const char *)d->dp, d->x + d->w / 2 + g, ((d->y + d->h / 2) - return_value_text_height_3 / 2) + g, -1, -1, -1);
       if(!((2 & d->flags) == 0))
       {
         vline(gui_bmp, d->x, d->y, (d->y + d->h) - 2, d->bg);
@@ -19513,11 +19513,11 @@ signed int my_button_proc(signed int msg, struct DIALOG *d, signed int c)
       if(!((4 & d->flags) == 0))
       {
         if((2 & d->flags) == 0)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = !((d->flags & 1) != 0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = !((d->flags & 1) != 0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
           my_dotted_rect(d->x + 1 + g, d->y + 1 + g, ((d->x + d->w) - 3) + g, ((d->y + d->h) - 3) + g, state1, state2);
 
       }
@@ -19578,9 +19578,9 @@ signed int my_ctext_proc(signed int msg, struct DIALOG *d, signed int c)
     if(!(d->dp2 == NULL))
       font = (struct FONT *)d->dp2;
 
-    struct BITMAP *return_value_gui_get_screen$1;
-    return_value_gui_get_screen$1=gui_get_screen();
-    gui_textout_ex(return_value_gui_get_screen$1, (const char *)d->dp, d->x + d->w / 2, d->y, -1, d->bg, -1);
+    struct BITMAP *return_value_gui_get_screen_1;
+    return_value_gui_get_screen_1=gui_get_screen();
+    gui_textout_ex(return_value_gui_get_screen_1, (const char *)d->dp, d->x + d->w / 2, d->y, -1, d->bg, -1);
     font = oldfont;
   }
 
@@ -19603,14 +19603,14 @@ signed int my_do_dialog_no_clear(struct DIALOG *d, signed int f)
 {
   signed int result;
   void *player;
-  struct DIALOG_PLAYER *return_value_my_init_dialog$1;
-  return_value_my_init_dialog$1=my_init_dialog(d, f);
-  player = (void *)return_value_my_init_dialog$1;
-  signed int return_value_my_update_dialog$2;
+  struct DIALOG_PLAYER *return_value_my_init_dialog_1;
+  return_value_my_init_dialog_1=my_init_dialog(d, f);
+  player = (void *)return_value_my_init_dialog_1;
+  signed int return_value_my_update_dialog_2;
   do
   {
-    return_value_my_update_dialog$2=my_update_dialog((struct DIALOG_PLAYER *)player);
-    if(return_value_my_update_dialog$2 == 0)
+    return_value_my_update_dialog_2=my_update_dialog((struct DIALOG_PLAYER *)player);
+    if(return_value_my_update_dialog_2 == 0)
       break;
 
   }
@@ -19661,29 +19661,29 @@ static void my_draw_listbox(struct DIALOG *d)
   char *sel = (char *)d->dp2;
   char s[1024l];
   ((char * (*)(signed int, signed int *))d->dp)(-1, &listsize);
-  signed int return_value_text_height$1;
-  return_value_text_height$1=text_height(font);
-  height = (d->h - 4) / return_value_text_height$1;
+  signed int return_value_text_height_1;
+  return_value_text_height_1=text_height(font);
+  height = (d->h - 4) / return_value_text_height_1;
   bar = (signed int)(listsize > height);
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if(!(bar == 0))
-    tmp_if_expr$2 = d->w - 15;
+    tmp_if_expr_2 = d->w - 15;
 
   else
-    tmp_if_expr$2 = d->w - 3;
-  w = tmp_if_expr$2;
-  signed int tmp_if_expr$3;
+    tmp_if_expr_2 = d->w - 3;
+  w = tmp_if_expr_2;
+  signed int tmp_if_expr_3;
   if(!((32 & d->flags) == 0))
-    tmp_if_expr$3 = gui_mg_color;
+    tmp_if_expr_3 = gui_mg_color;
 
   else
-    tmp_if_expr$3 = d->fg;
-  fg_color = tmp_if_expr$3;
+    tmp_if_expr_3 = d->fg;
+  fg_color = tmp_if_expr_3;
   i = 0;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$8;
-  signed int return_value_text_height$10;
-  signed int return_value_text_height$11;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_8;
+  signed int return_value_text_height_10;
+  signed int return_value_text_height_11;
   if(!(i >= height))
   {
     if(!(d->d2 + i >= listsize))
@@ -19691,11 +19691,11 @@ static void my_draw_listbox(struct DIALOG *d)
       if(!(sel == ((char *)NULL)))
       {
         if(!(sel[(signed long int)(d->d2 + i)] == 0))
-          tmp_if_expr$4 = d->d2 + i == d->d1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = d->d2 + i == d->d1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
         {
           fg = d->bg;
           bg = fg_color;
@@ -19731,63 +19731,63 @@ static void my_draw_listbox(struct DIALOG *d)
       return_value=((char * (*)(signed int, signed int *))d->dp)(i + d->d2, (signed int *)(void *)0);
       ustrzcpy(s, (signed int)sizeof(char [1024l]) /*1024ul*/ , return_value);
       x = d->x + 2;
-      signed int return_value_text_height$5;
-      return_value_text_height$5=text_height(font);
-      y = d->y + 2 + i * return_value_text_height$5;
-      signed int return_value_text_height$6;
-      return_value_text_height$6=text_height(font);
-      rectfill(gui_bmp, x, y, x + 7, (y + return_value_text_height$6) - 1, bg);
+      signed int return_value_text_height_5;
+      return_value_text_height_5=text_height(font);
+      y = d->y + 2 + i * return_value_text_height_5;
+      signed int return_value_text_height_6;
+      return_value_text_height_6=text_height(font);
+      rectfill(gui_bmp, x, y, x + 7, (y + return_value_text_height_6) - 1, bg);
       x = x + 8;
       len=ustrlen(s);
-      signed int return_value_text_length$7;
-      return_value_text_length$7=text_length(font, s);
+      signed int return_value_text_length_7;
+      return_value_text_length_7=text_length(font, s);
       if(d->w + -1 + -(bar == 0 ? 10 : 22) >= 2)
-        tmp_if_expr$8 = (d->w - 1) - (bar != 0 ? 22 : 10);
+        tmp_if_expr_8 = (d->w - 1) - (bar != 0 ? 22 : 10);
 
       else
-        tmp_if_expr$8 = 1;
-      if(return_value_text_length$7 >= tmp_if_expr$8)
+        tmp_if_expr_8 = 1;
+      if(return_value_text_length_7 >= tmp_if_expr_8)
       {
         len = len - 1;
         usetat(s, len, 0);
       }
 
       textout_ex(gui_bmp, font, s, x, y, -1, bg);
-      signed int return_value_text_length$9;
-      return_value_text_length$9=text_length(font, s);
-      x = x + return_value_text_length$9;
+      signed int return_value_text_length_9;
+      return_value_text_length_9=text_length(font, s);
+      x = x + return_value_text_length_9;
       if(d->x + w >= x)
       {
-        return_value_text_height$10=text_height(font);
-        rectfill(gui_bmp, x, y, d->x + w, (y + return_value_text_height$10) - 1, bg);
+        return_value_text_height_10=text_height(font);
+        rectfill(gui_bmp, x, y, d->x + w, (y + return_value_text_height_10) - 1, bg);
       }
 
       if(d->d2 + i == d->d1)
       {
-        return_value_text_height$11=text_height(font);
-        my_dotted_rect(d->x + 1, y, (d->x + d->w) - (bar != 0 ? 12 : 0), (y + return_value_text_height$11) - 1, d->fg, d->bg);
+        return_value_text_height_11=text_height(font);
+        my_dotted_rect(d->x + 1, y, (d->x + d->w) - (bar != 0 ? 12 : 0), (y + return_value_text_height_11) - 1, d->fg, d->bg);
       }
 
     }
 
     else
     {
-      signed int return_value_text_height$12;
-      return_value_text_height$12=text_height(font);
-      signed int return_value_text_height$13;
-      return_value_text_height$13=text_height(font);
-      rectfill(gui_bmp, d->x + 2, d->y + 2 + i * return_value_text_height$12, d->x + w, d->y + 1 + (i + 1) * return_value_text_height$13, d->bg);
+      signed int return_value_text_height_12;
+      return_value_text_height_12=text_height(font);
+      signed int return_value_text_height_13;
+      return_value_text_height_13=text_height(font);
+      rectfill(gui_bmp, d->x + 2, d->y + 2 + i * return_value_text_height_12, d->x + w, d->y + 1 + (i + 1) * return_value_text_height_13, d->bg);
     }
     i = i + 1;
   }
 
-  signed int return_value_text_height$15;
-  return_value_text_height$15=text_height(font);
-  signed int return_value_text_height$14;
-  if(d->h + d->y + -3 >= return_value_text_height$15 * i + 2 + d->y)
+  signed int return_value_text_height_15;
+  return_value_text_height_15=text_height(font);
+  signed int return_value_text_height_14;
+  if(d->h + d->y + -3 >= return_value_text_height_15 * i + 2 + d->y)
   {
-    return_value_text_height$14=text_height(font);
-    rectfill(gui_bmp, d->x + 2, d->y + 2 + i * return_value_text_height$14, d->x + w, (d->y + d->h) - 3, d->bg);
+    return_value_text_height_14=text_height(font);
+    rectfill(gui_bmp, d->x + 2, d->y + 2 + i * return_value_text_height_14, d->x + w, (d->y + d->h) - 3, d->bg);
   }
 
   _draw_scrollable_frame(d, listsize, d->d2, height, fg_color, d->bg);
@@ -19838,10 +19838,10 @@ static void my_draw_textbox(char *thetext, signed int *listsize, signed int draw
   if(!(disabled == 0))
     fg = disable;
 
-  signed int return_value_text_length$1;
+  signed int return_value_text_length_1;
   signed int return_value_13;
-  signed int return_value_text_height$8;
-  signed int return_value_text_height$6;
+  signed int return_value_text_height_8;
+  signed int return_value_text_height_6;
   {
     width = 0;
     signed int return_value_3;
@@ -19867,8 +19867,8 @@ static void my_draw_textbox(char *thetext, signed int *listsize, signed int draw
       return_value_8=ugetc(s);
       if(return_value_8 == 9)
       {
-        return_value_text_length$1=text_length(font, space);
-        len = tabsize * return_value_text_length$1;
+        return_value_text_length_1=text_length(font, space);
+        len = tabsize * return_value_text_length_1;
       }
 
       if(len + width >= ww)
@@ -19879,9 +19879,9 @@ static void my_draw_textbox(char *thetext, signed int *listsize, signed int draw
           noignore = 0;
           signed int return_value_9;
           return_value_9=ugetc(scanned);
-          signed int return_value_uisspace$2;
-          return_value_uisspace$2=uisspace(return_value_9);
-          if(return_value_uisspace$2 == 0)
+          signed int return_value_uisspace_2;
+          return_value_uisspace_2=uisspace(return_value_9);
+          if(return_value_uisspace_2 == 0)
           {
             if(scanned == printed)
             {
@@ -19948,13 +19948,13 @@ static void my_draw_textbox(char *thetext, signed int *listsize, signed int draw
 
     if(line >= offset && !(draw == 0))
     {
-      return_value_text_height$8=text_height(font);
-      if(line == 0 || !(return_value_text_height$8 + y1 >= h + y + -3))
+      return_value_text_height_8=text_height(font);
+      if(line == 0 || !(return_value_text_height_8 + y1 >= h + y + -3))
       {
         x1 = x + 4;
-        signed int return_value_text_height$3;
-        return_value_text_height$3=text_height(font);
-        rectfill(gui_bmp, x + 2, y1, x1 - 1, y1 + return_value_text_height$3, deselect);
+        signed int return_value_text_height_3;
+        return_value_text_height_3=text_height(font);
+        rectfill(gui_bmp, x + 2, y1, x1 - 1, y1 + return_value_text_height_3, deselect);
         if(!(printed == scanned))
         {
           signed int return_value_16;
@@ -19968,9 +19968,9 @@ static void my_draw_textbox(char *thetext, signed int *listsize, signed int draw
               return_value_17=usetc(s, 32);
               usetc(s + (signed long int)return_value_17, 0);
               textout_ex(gui_bmp, font, s, x1, y1, -1, deselect);
-              signed int return_value_text_length$4;
-              return_value_text_length$4=text_length(font, s);
-              x1 = x1 + return_value_text_length$4;
+              signed int return_value_text_length_4;
+              return_value_text_length_4=text_length(font, s);
+              x1 = x1 + return_value_text_length_4;
               i = i + 1;
             }
 
@@ -19984,9 +19984,9 @@ static void my_draw_textbox(char *thetext, signed int *listsize, signed int draw
             return_value_19=usetc(s, return_value_18);
             usetc(s + (signed long int)return_value_19, 0);
             textout_ex(gui_bmp, font, s, x1, y1, -1, deselect);
-            signed int return_value_text_length$5;
-            return_value_text_length$5=text_length(font, s);
-            x1 = x1 + return_value_text_length$5;
+            signed int return_value_text_length_5;
+            return_value_text_length_5=text_length(font, s);
+            x1 = x1 + return_value_text_length_5;
           }
 
           signed int return_value_20;
@@ -19996,13 +19996,13 @@ static void my_draw_textbox(char *thetext, signed int *listsize, signed int draw
 
         if(w + x + -3 >= x1)
         {
-          return_value_text_height$6=text_height(font);
-          rectfill(gui_bmp, x1, y1, (x + w) - 3, (y1 + return_value_text_height$6) - 1, deselect);
+          return_value_text_height_6=text_height(font);
+          rectfill(gui_bmp, x1, y1, (x + w) - 3, (y1 + return_value_text_height_6) - 1, deselect);
         }
 
-        signed int return_value_text_height$7;
-        return_value_text_height$7=text_height(font);
-        y1 = y1 + return_value_text_height$7;
+        signed int return_value_text_height_7;
+        return_value_text_height_7=text_height(font);
+        y1 = y1 + return_value_text_height_7;
       }
 
     }
@@ -20062,14 +20062,14 @@ signed int my_edit_proc(signed int msg, struct DIALOG *d, signed int c)
   p = d->d2;
   if(p >= 0)
   {
-    signed int return_value_ugetat$1;
-    return_value_ugetat$1=ugetat(s, p);
+    signed int return_value_ugetat_1;
+    return_value_ugetat_1=ugetat(s, p);
     signed int return_value_1;
-    return_value_1=usetc(buf, return_value_ugetat$1);
+    return_value_1=usetc(buf, return_value_ugetat_1);
     usetc(buf + (signed long int)return_value_1, 0);
-    signed int return_value_text_length$2;
-    return_value_text_length$2=text_length(font, buf);
-    x = x + return_value_text_length$2;
+    signed int return_value_text_length_2;
+    return_value_text_length_2=text_length(font, buf);
+    x = x + return_value_text_length_2;
     b = b + 1;
     if(d->w >= x)
       p = p - 1;
@@ -20087,12 +20087,12 @@ signed int my_edit_proc(signed int msg, struct DIALOG *d, signed int c)
     b = b - 1;
     scroll = -1;
   }
-  signed int tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int return_value_text_height$6;
-  _Bool tmp_if_expr$13;
-  signed int return_value_uisspace$12;
+  signed int tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int return_value_text_height_6;
+  _Bool tmp_if_expr_13;
+  signed int return_value_uisspace_12;
   signed int return_value_5;
   switch(msg)
   {
@@ -20104,11 +20104,11 @@ signed int my_edit_proc(signed int msg, struct DIALOG *d, signed int c)
     case 3:
     {
       if(!((32 & d->flags) == 0))
-        tmp_if_expr$3 = gui_mg_color;
+        tmp_if_expr_3 = gui_mg_color;
 
       else
-        tmp_if_expr$3 = d->fg;
-      fg = tmp_if_expr$3;
+        tmp_if_expr_3 = d->fg;
+      fg = tmp_if_expr_3;
       x = 0;
       if(!(scroll == 0))
       {
@@ -20128,17 +20128,17 @@ signed int my_edit_proc(signed int msg, struct DIALOG *d, signed int c)
         if(d->w >= w + x)
         {
           if(p == d->d2)
-            tmp_if_expr$4 = (d->flags & 4) != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (d->flags & 4) != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          f = (signed int)tmp_if_expr$4;
+            tmp_if_expr_4 = (_Bool)0;
+          f = (signed int)tmp_if_expr_4;
           if(!(f == 0))
-            tmp_if_expr$5 = d->fg;
+            tmp_if_expr_5 = d->fg;
 
           else
-            tmp_if_expr$5 = d->bg;
-          textout_ex(gui_bmp, font, buf, d->x + x, d->y, -1, tmp_if_expr$5);
+            tmp_if_expr_5 = d->bg;
+          textout_ex(gui_bmp, font, buf, d->x + x, d->y, -1, tmp_if_expr_5);
           x = x + w;
           p = p + 1;
         }
@@ -20147,8 +20147,8 @@ signed int my_edit_proc(signed int msg, struct DIALOG *d, signed int c)
 
       if(!(x >= d->w))
       {
-        return_value_text_height$6=text_height(font);
-        rectfill(gui_bmp, d->x + x, d->y, (d->x + d->w) - 1, (d->y + return_value_text_height$6) - 1, d->bg);
+        return_value_text_height_6=text_height(font);
+        rectfill(gui_bmp, d->x + x, d->y, (d->x + d->w) - 1, (d->y + return_value_text_height_6) - 1, d->bg);
       }
 
       goto __CPROVER_DUMP_L59;
@@ -20166,14 +20166,14 @@ signed int my_edit_proc(signed int msg, struct DIALOG *d, signed int c)
         p = 0;
       if(!(p >= b))
       {
-        signed int return_value_ugetat$7;
-        return_value_ugetat$7=ugetat(s, p);
+        signed int return_value_ugetat_7;
+        return_value_ugetat_7=ugetat(s, p);
         signed int return_value_3;
-        return_value_3=usetc(buf, return_value_ugetat$7);
+        return_value_3=usetc(buf, return_value_ugetat_7);
         usetc(buf + (signed long int)return_value_3, 0);
-        signed int return_value_text_length$8;
-        return_value_text_length$8=text_length(font, buf);
-        x = x + return_value_text_length$8;
+        signed int return_value_text_length_8;
+        return_value_text_length_8=text_length(font, buf);
+        x = x + return_value_text_length_8;
         signed int return_value_4;
         return_value_4=gui_mouse_x();
         if(return_value_4 >= x)
@@ -20207,9 +20207,9 @@ signed int my_edit_proc(signed int msg, struct DIALOG *d, signed int c)
             if(!(i >= d->d2))
             {
               k=ugetx(&t);
-              signed int return_value_uisspace$9;
-              return_value_uisspace$9=uisspace(k);
-              if(!(return_value_uisspace$9 == 0))
+              signed int return_value_uisspace_9;
+              return_value_uisspace_9=uisspace(k);
+              if(!(return_value_uisspace_9 == 0))
                 last_was_space = -1;
 
               else
@@ -20238,13 +20238,13 @@ signed int my_edit_proc(signed int msg, struct DIALOG *d, signed int c)
           {
             if(!((2 & key_shifts) == 0))
             {
-              signed int return_value_uoffset$10;
-              return_value_uoffset$10=uoffset(s, d->d2);
-              t = s + (signed long int)return_value_uoffset$10;
+              signed int return_value_uoffset_10;
+              return_value_uoffset_10=uoffset(s, d->d2);
+              t = s + (signed long int)return_value_uoffset_10;
               k=ugetx(&t);
-              signed int return_value_uisspace$11;
-              return_value_uisspace$11=uisspace(k);
-              if(!(return_value_uisspace$11 == 0))
+              signed int return_value_uisspace_11;
+              return_value_uisspace_11=uisspace(k);
+              if(!(return_value_uisspace_11 == 0))
               {
                 d->d2 = d->d2 + 1;
                 k=ugetx(&t);
@@ -20252,13 +20252,13 @@ signed int my_edit_proc(signed int msg, struct DIALOG *d, signed int c)
 
               if(!(k == 0))
               {
-                return_value_uisspace$12=uisspace(k);
-                tmp_if_expr$13 = !(return_value_uisspace$12 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_uisspace_12=uisspace(k);
+                tmp_if_expr_13 = !(return_value_uisspace_12 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$13 = (_Bool)0;
-              if(tmp_if_expr$13)
+                tmp_if_expr_13 = (_Bool)0;
+              if(tmp_if_expr_13)
               {
                 d->d2 = d->d2 + 1;
                 k=ugetx(&t);
@@ -20424,13 +20424,13 @@ void my_exit_close_button(void)
 // file exit.h line 75
 void my_exit_poll()
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(LW_EXIT_FORCE_SHUTDOWN == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = key[(signed long int)56] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = key[(signed long int)56] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     my_exit(0);
 
 }
@@ -20462,102 +20462,102 @@ static void my_handle_listbox_click(struct DIALOG *d)
   signed int i;
   signed int j;
   ((char * (*)(signed int, signed int *))d->dp)(-1, &listsize);
-  signed int tmp_if_expr$17;
+  signed int tmp_if_expr_17;
   signed int return_value_1;
-  signed int return_value_text_height$3;
-  signed int return_value_text_height$4;
-  signed int tmp_if_expr$9;
+  signed int return_value_text_height_3;
+  signed int return_value_text_height_4;
+  signed int tmp_if_expr_9;
   signed int return_value_2;
-  signed int return_value_text_height$5;
-  signed int return_value_text_height$6;
-  signed int tmp_if_expr$8;
-  signed int return_value_text_height$7;
+  signed int return_value_text_height_5;
+  signed int return_value_text_height_6;
+  signed int tmp_if_expr_8;
+  signed int return_value_text_height_7;
   signed int return_value_3;
-  signed int return_value_text_height$10;
-  signed int return_value_text_height$11;
-  signed int tmp_if_expr$16;
-  signed int return_value_text_height$12;
-  signed int tmp_if_expr$14;
-  signed int return_value_text_height$13;
+  signed int return_value_text_height_10;
+  signed int return_value_text_height_11;
+  signed int tmp_if_expr_16;
+  signed int return_value_text_height_12;
+  signed int tmp_if_expr_14;
+  signed int return_value_text_height_13;
   signed int return_value_4;
-  signed int return_value_text_height$15;
+  signed int return_value_text_height_15;
   signed int return_value_5;
-  _Bool tmp_if_expr$20;
-  signed int tmp_if_expr$18;
-  signed int tmp_if_expr$19;
-  signed int return_value_text_height$21;
-  signed int tmp_if_expr$28;
-  signed int return_value_text_height$22;
-  signed int tmp_if_expr$24;
-  signed int return_value_text_height$23;
-  signed int return_value_text_height$25;
-  signed int tmp_if_expr$27;
-  signed int return_value_text_height$26;
+  _Bool tmp_if_expr_20;
+  signed int tmp_if_expr_18;
+  signed int tmp_if_expr_19;
+  signed int return_value_text_height_21;
+  signed int tmp_if_expr_28;
+  signed int return_value_text_height_22;
+  signed int tmp_if_expr_24;
+  signed int return_value_text_height_23;
+  signed int return_value_text_height_25;
+  signed int tmp_if_expr_27;
+  signed int return_value_text_height_26;
   if(!(listsize == 0))
   {
-    signed int return_value_text_height$1;
-    return_value_text_height$1=text_height(font);
-    height = (d->h - 4) / return_value_text_height$1;
+    signed int return_value_text_height_1;
+    return_value_text_height_1=text_height(font);
+    height = (d->h - 4) / return_value_text_height_1;
     signed int return_value;
     return_value=gui_mouse_y();
-    signed int return_value_text_height$2;
-    return_value_text_height$2=text_height(font);
-    if(!((return_value + -d->y + -2) / return_value_text_height$2 >= 0))
+    signed int return_value_text_height_2;
+    return_value_text_height_2=text_height(font);
+    if(!((return_value + -d->y + -2) / return_value_text_height_2 >= 0))
     {
       return_value_1=gui_mouse_y();
-      return_value_text_height$3=text_height(font);
-      return_value_text_height$4=text_height(font);
-      if(!((d->h + -4) / return_value_text_height$4 + -1 >= (return_value_1 + -d->y + -2) / return_value_text_height$3))
+      return_value_text_height_3=text_height(font);
+      return_value_text_height_4=text_height(font);
+      if(!((d->h + -4) / return_value_text_height_4 + -1 >= (return_value_1 + -d->y + -2) / return_value_text_height_3))
       {
         return_value_2=gui_mouse_y();
-        return_value_text_height$5=text_height(font);
-        tmp_if_expr$9 = ((return_value_2 - d->y) - 2) / return_value_text_height$5;
+        return_value_text_height_5=text_height(font);
+        tmp_if_expr_9 = ((return_value_2 - d->y) - 2) / return_value_text_height_5;
       }
 
       else
       {
-        return_value_text_height$6=text_height(font);
-        if(!((d->h + -4) / return_value_text_height$6 + -1 >= 0))
+        return_value_text_height_6=text_height(font);
+        if(!((d->h + -4) / return_value_text_height_6 + -1 >= 0))
         {
-          return_value_text_height$7=text_height(font);
-          tmp_if_expr$8 = (d->h - 4) / return_value_text_height$7 - 1;
+          return_value_text_height_7=text_height(font);
+          tmp_if_expr_8 = (d->h - 4) / return_value_text_height_7 - 1;
         }
 
         else
-          tmp_if_expr$8 = 0;
-        tmp_if_expr$9 = tmp_if_expr$8;
+          tmp_if_expr_8 = 0;
+        tmp_if_expr_9 = tmp_if_expr_8;
       }
-      tmp_if_expr$17 = tmp_if_expr$9;
+      tmp_if_expr_17 = tmp_if_expr_9;
     }
 
     else
     {
       return_value_3=gui_mouse_y();
-      return_value_text_height$10=text_height(font);
-      return_value_text_height$11=text_height(font);
-      if(!((d->h + -4) / return_value_text_height$11 + -1 >= (return_value_3 + -d->y + -2) / return_value_text_height$10))
+      return_value_text_height_10=text_height(font);
+      return_value_text_height_11=text_height(font);
+      if(!((d->h + -4) / return_value_text_height_11 + -1 >= (return_value_3 + -d->y + -2) / return_value_text_height_10))
       {
-        return_value_text_height$12=text_height(font);
-        if((d->h + -4) / return_value_text_height$12 + -1 >= 1)
+        return_value_text_height_12=text_height(font);
+        if((d->h + -4) / return_value_text_height_12 + -1 >= 1)
         {
-          return_value_text_height$13=text_height(font);
-          tmp_if_expr$14 = (d->h - 4) / return_value_text_height$13 - 1;
+          return_value_text_height_13=text_height(font);
+          tmp_if_expr_14 = (d->h - 4) / return_value_text_height_13 - 1;
         }
 
         else
-          tmp_if_expr$14 = 0;
-        tmp_if_expr$16 = tmp_if_expr$14;
+          tmp_if_expr_14 = 0;
+        tmp_if_expr_16 = tmp_if_expr_14;
       }
 
       else
       {
         return_value_4=gui_mouse_y();
-        return_value_text_height$15=text_height(font);
-        tmp_if_expr$16 = ((return_value_4 - d->y) - 2) / return_value_text_height$15;
+        return_value_text_height_15=text_height(font);
+        tmp_if_expr_16 = ((return_value_4 - d->y) - 2) / return_value_text_height_15;
       }
-      tmp_if_expr$17 = tmp_if_expr$16;
+      tmp_if_expr_17 = tmp_if_expr_16;
     }
-    i = tmp_if_expr$17;
+    i = tmp_if_expr_17;
     i = i + d->d2;
     if(!(i >= d->d2))
       i = d->d2;
@@ -20590,24 +20590,24 @@ static void my_handle_listbox_click(struct DIALOG *d)
         if(!((3 & key_shifts) == 0))
         {
           if(!((1 & key_shifts) == 0))
-            tmp_if_expr$20 = (_Bool)1;
+            tmp_if_expr_20 = (_Bool)1;
 
           else
-            tmp_if_expr$20 = (d->flags & 128) != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$20)
+            tmp_if_expr_20 = (d->flags & 128) != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_20)
           {
             if(!(i >= d->d1))
-              tmp_if_expr$18 = i;
+              tmp_if_expr_18 = i;
 
             else
-              tmp_if_expr$18 = d->d1;
-            j = tmp_if_expr$18;
+              tmp_if_expr_18 = d->d1;
+            j = tmp_if_expr_18;
             if(!(d->d1 >= i))
-              tmp_if_expr$19 = i;
+              tmp_if_expr_19 = i;
 
             else
-              tmp_if_expr$19 = d->d1;
-            if(tmp_if_expr$19 >= j)
+              tmp_if_expr_19 = d->d1;
+            if(tmp_if_expr_19 >= j)
             {
               sel[(signed long int)j] = (char)-1;
               j = j + 1;
@@ -20629,35 +20629,35 @@ static void my_handle_listbox_click(struct DIALOG *d)
       d->flags = d->flags | 64;
       if(!(i == d->d2))
       {
-        return_value_text_height$21=text_height(font);
-        if(!(16 * return_value_text_height$21 + -d->h + -1 >= 10))
+        return_value_text_height_21=text_height(font);
+        if(!(16 * return_value_text_height_21 + -d->h + -1 >= 10))
         {
-          return_value_text_height$22=text_height(font);
-          if(16 * return_value_text_height$22 + -d->h + -1 >= 101)
+          return_value_text_height_22=text_height(font);
+          if(16 * return_value_text_height_22 + -d->h + -1 >= 101)
           {
-            return_value_text_height$23=text_height(font);
-            tmp_if_expr$24 = (return_value_text_height$23 * 16 - d->h) - 1;
+            return_value_text_height_23=text_height(font);
+            tmp_if_expr_24 = (return_value_text_height_23 * 16 - d->h) - 1;
           }
 
           else
-            tmp_if_expr$24 = 10 > 100 ? 100 : 10;
-          tmp_if_expr$28 = tmp_if_expr$24;
+            tmp_if_expr_24 = 10 > 100 ? 100 : 10;
+          tmp_if_expr_28 = tmp_if_expr_24;
         }
 
         else
         {
-          return_value_text_height$25=text_height(font);
-          if(16 * return_value_text_height$25 + -d->h + -1 >= 101)
-            tmp_if_expr$27 = 100 > 10 ? 100 : 10;
+          return_value_text_height_25=text_height(font);
+          if(16 * return_value_text_height_25 + -d->h + -1 >= 101)
+            tmp_if_expr_27 = 100 > 10 ? 100 : 10;
 
           else
           {
-            return_value_text_height$26=text_height(font);
-            tmp_if_expr$27 = (return_value_text_height$26 * 16 - d->h) - 1;
+            return_value_text_height_26=text_height(font);
+            tmp_if_expr_27 = (return_value_text_height_26 * 16 - d->h) - 1;
           }
-          tmp_if_expr$28 = tmp_if_expr$27;
+          tmp_if_expr_28 = tmp_if_expr_27;
         }
-        rest_callback((unsigned int)tmp_if_expr$28, my_idle_cb);
+        rest_callback((unsigned int)tmp_if_expr_28, my_idle_cb);
       }
 
     }
@@ -20686,9 +20686,9 @@ static void my_handle_listbox_click(struct DIALOG *d)
 static void my_handle_scrollable_scroll(struct DIALOG *d, signed int listsize, signed int *index, signed int *offset)
 {
   signed int height;
-  signed int return_value_text_height$1;
-  return_value_text_height$1=text_height(font);
-  height = (d->h - 4) / return_value_text_height$1;
+  signed int return_value_text_height_1;
+  return_value_text_height_1=text_height(font);
+  height = (d->h - 4) / return_value_text_height_1;
   if(!(listsize >= 1))
   {
     *offset = 0;
@@ -20732,7 +20732,7 @@ static void my_handle_scrollable_scroll_click(struct DIALOG *d, signed int lists
   signed int hh = d->h - 5;
   signed int return_value;
   return_value=gui_mouse_b();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   signed int return_value_6;
   if(!(return_value == 0))
   {
@@ -20743,12 +20743,12 @@ static void my_handle_scrollable_scroll_click(struct DIALOG *d, signed int lists
     if(return_value_5 >= d->y + len)
     {
       return_value_6=gui_mouse_y();
-      tmp_if_expr$1 = return_value_6 <= d->y + len + i ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = return_value_6 <= d->y + len + i ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       signed int return_value_1;
       return_value_1=gui_mouse_y();
@@ -20945,14 +20945,14 @@ static void my_play_sample(struct SAMPLE *s, signed int vol)
 // file joystick.h line 99
 void my_poll_joystick(void)
 {
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
   if(!(CONFIG_JOYSTICK_ON == 0) && !(STARTUP_JOYSTICK_ON == 0))
   {
     poll_joystick();
@@ -20963,30 +20963,30 @@ void my_poll_joystick(void)
         if(joy[0l].stick[0l].num_axis >= 2)
         {
           if(!(joy[0l].stick[0l].axis[0l].pos >= JOY1_MIN_X))
-            tmp_if_expr$1 = joy[(signed long int)0].stick[(signed long int)0].axis[(signed long int)0].pos;
+            tmp_if_expr_1 = joy[(signed long int)0].stick[(signed long int)0].axis[(signed long int)0].pos;
 
           else
-            tmp_if_expr$1 = JOY1_MIN_X;
-          JOY1_MIN_X = tmp_if_expr$1;
+            tmp_if_expr_1 = JOY1_MIN_X;
+          JOY1_MIN_X = tmp_if_expr_1;
           if(!(JOY1_MAX_X >= joy[0l].stick[0l].axis[0l].pos))
-            tmp_if_expr$2 = joy[(signed long int)0].stick[(signed long int)0].axis[(signed long int)0].pos;
+            tmp_if_expr_2 = joy[(signed long int)0].stick[(signed long int)0].axis[(signed long int)0].pos;
 
           else
-            tmp_if_expr$2 = JOY1_MAX_X;
-          JOY1_MAX_X = tmp_if_expr$2;
+            tmp_if_expr_2 = JOY1_MAX_X;
+          JOY1_MAX_X = tmp_if_expr_2;
           JOY1_MID_X = (JOY1_MIN_X + JOY1_MAX_X) / 2;
           if(!(joy[0l].stick[0l].axis[1l].pos >= JOY1_MIN_Y))
-            tmp_if_expr$3 = joy[(signed long int)0].stick[(signed long int)0].axis[(signed long int)1].pos;
+            tmp_if_expr_3 = joy[(signed long int)0].stick[(signed long int)0].axis[(signed long int)1].pos;
 
           else
-            tmp_if_expr$3 = JOY1_MIN_Y;
-          JOY1_MIN_Y = tmp_if_expr$3;
+            tmp_if_expr_3 = JOY1_MIN_Y;
+          JOY1_MIN_Y = tmp_if_expr_3;
           if(!(JOY1_MAX_Y >= joy[0l].stick[0l].axis[1l].pos))
-            tmp_if_expr$4 = joy[(signed long int)0].stick[(signed long int)0].axis[(signed long int)1].pos;
+            tmp_if_expr_4 = joy[(signed long int)0].stick[(signed long int)0].axis[(signed long int)1].pos;
 
           else
-            tmp_if_expr$4 = JOY1_MAX_Y;
-          JOY1_MAX_Y = tmp_if_expr$4;
+            tmp_if_expr_4 = JOY1_MAX_Y;
+          JOY1_MAX_Y = tmp_if_expr_4;
           JOY1_MID_Y = (JOY1_MIN_Y + JOY1_MAX_Y) / 2;
           JOYSTICK_CONTROL_JOY1_UP = joy[(signed long int)0].stick[(signed long int)0].axis[(signed long int)1].pos < (JOY1_MIN_Y + 2 * JOY1_MID_Y) / 3 ? 1 : 0;
           JOYSTICK_CONTROL_JOY1_RIGHT = joy[(signed long int)0].stick[(signed long int)0].axis[(signed long int)0].pos > (JOY1_MAX_X + 2 * JOY1_MID_X) / 3 ? 1 : 0;
@@ -21017,30 +21017,30 @@ void my_poll_joystick(void)
         if(joy[1l].stick[0l].num_axis >= 2)
         {
           if(!(joy[1l].stick[0l].axis[0l].pos >= JOY2_MIN_X))
-            tmp_if_expr$5 = joy[(signed long int)1].stick[(signed long int)0].axis[(signed long int)0].pos;
+            tmp_if_expr_5 = joy[(signed long int)1].stick[(signed long int)0].axis[(signed long int)0].pos;
 
           else
-            tmp_if_expr$5 = JOY2_MIN_X;
-          JOY2_MIN_X = tmp_if_expr$5;
+            tmp_if_expr_5 = JOY2_MIN_X;
+          JOY2_MIN_X = tmp_if_expr_5;
           if(!(JOY2_MAX_X >= joy[1l].stick[0l].axis[0l].pos))
-            tmp_if_expr$6 = joy[(signed long int)1].stick[(signed long int)0].axis[(signed long int)0].pos;
+            tmp_if_expr_6 = joy[(signed long int)1].stick[(signed long int)0].axis[(signed long int)0].pos;
 
           else
-            tmp_if_expr$6 = JOY2_MAX_X;
-          JOY2_MAX_X = tmp_if_expr$6;
+            tmp_if_expr_6 = JOY2_MAX_X;
+          JOY2_MAX_X = tmp_if_expr_6;
           JOY2_MID_Y = (JOY2_MIN_X + JOY2_MAX_X) / 2;
           if(!(joy[1l].stick[0l].axis[1l].pos >= JOY2_MIN_Y))
-            tmp_if_expr$7 = joy[(signed long int)1].stick[(signed long int)0].axis[(signed long int)1].pos;
+            tmp_if_expr_7 = joy[(signed long int)1].stick[(signed long int)0].axis[(signed long int)1].pos;
 
           else
-            tmp_if_expr$7 = JOY2_MIN_Y;
-          JOY2_MIN_Y = tmp_if_expr$7;
+            tmp_if_expr_7 = JOY2_MIN_Y;
+          JOY2_MIN_Y = tmp_if_expr_7;
           if(!(JOY2_MAX_Y >= joy[1l].stick[0l].axis[1l].pos))
-            tmp_if_expr$8 = joy[(signed long int)1].stick[(signed long int)0].axis[(signed long int)1].pos;
+            tmp_if_expr_8 = joy[(signed long int)1].stick[(signed long int)0].axis[(signed long int)1].pos;
 
           else
-            tmp_if_expr$8 = JOY2_MAX_Y;
-          JOY2_MAX_Y = tmp_if_expr$8;
+            tmp_if_expr_8 = JOY2_MAX_Y;
+          JOY2_MAX_Y = tmp_if_expr_8;
           JOY2_MID_Y = (JOY2_MIN_Y + JOY2_MAX_Y) / 2;
           JOYSTICK_CONTROL_JOY2_UP = joy[(signed long int)1].stick[(signed long int)0].axis[(signed long int)1].pos < (JOY2_MIN_Y + 2 * JOY2_MID_Y) / 3 ? 1 : 0;
           JOYSTICK_CONTROL_JOY2_RIGHT = joy[(signed long int)1].stick[(signed long int)0].axis[(signed long int)0].pos > (JOY2_MAX_X + 2 * JOY2_MID_X) / 3 ? 1 : 0;
@@ -21073,29 +21073,29 @@ void my_set_palette(void)
   change_palette_brightness(GLOBAL_PALETTE, corrected_pal);
   get_palette(old_pal);
   i = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   for( ; !(equal == 0) && !(i >= 256); i = i + 1)
   {
     if(!(equal == 0))
-      tmp_if_expr$1 = corrected_pal[(signed long int)i].r == old_pal[(signed long int)i].r ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = corrected_pal[(signed long int)i].r == old_pal[(signed long int)i].r ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    equal = (signed int)tmp_if_expr$1;
+      tmp_if_expr_1 = (_Bool)0;
+    equal = (signed int)tmp_if_expr_1;
     if(!(equal == 0))
-      tmp_if_expr$2 = corrected_pal[(signed long int)i].g == old_pal[(signed long int)i].g ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = corrected_pal[(signed long int)i].g == old_pal[(signed long int)i].g ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    equal = (signed int)tmp_if_expr$2;
+      tmp_if_expr_2 = (_Bool)0;
+    equal = (signed int)tmp_if_expr_2;
     if(!(equal == 0))
-      tmp_if_expr$3 = corrected_pal[(signed long int)i].b == old_pal[(signed long int)i].b ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = corrected_pal[(signed long int)i].b == old_pal[(signed long int)i].b ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    equal = (signed int)tmp_if_expr$3;
+      tmp_if_expr_3 = (_Bool)0;
+    equal = (signed int)tmp_if_expr_3;
   }
   if(equal == 0)
     set_palette(corrected_pal);
@@ -21151,36 +21151,36 @@ signed int my_slider_proc(signed int msg, struct DIALOG *d, signed int c)
   }
 
   hmar = hh / 2;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(vert == 0))
-    tmp_if_expr$1 = d->h;
+    tmp_if_expr_1 = d->h;
 
   else
-    tmp_if_expr$1 = d->w;
-  irange = tmp_if_expr$1;
+    tmp_if_expr_1 = d->w;
+  irange = tmp_if_expr_1;
   slmax=itofix(irange - hh);
   slratio = slmax / d->d1;
   slpos = slratio * d->d2;
   slp=fixtoi(slpos);
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$9;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$8;
-  signed int tmp_if_expr$7;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_9;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_8;
+  signed int tmp_if_expr_7;
   signed int return_value_2;
   switch(msg)
   {
     case 3:
     {
       if(!((32 & d->flags) == 0))
-        tmp_if_expr$2 = gui_mg_color;
+        tmp_if_expr_2 = gui_mg_color;
 
       else
-        tmp_if_expr$2 = d->fg;
-      sfg = tmp_if_expr$2;
+        tmp_if_expr_2 = d->fg;
+      sfg = tmp_if_expr_2;
       if(!(vert == 0))
       {
         rectfill(gui_bmp, d->x, d->y, (d->x + d->w / 2) - 2, (d->y + d->h) - 1, d->bg);
@@ -21309,16 +21309,16 @@ signed int my_slider_proc(signed int msg, struct DIALOG *d, signed int c)
           slpos = slratio * d->d2;
           slp=fixtoi(slpos);
           if(!(slp == oldpos))
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = d->d2 <= 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_3 = d->d2 <= 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = d->d2 >= d->d1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = d->d2 >= d->d1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
             break;
 
         }
@@ -21352,18 +21352,18 @@ signed int my_slider_proc(signed int msg, struct DIALOG *d, signed int c)
       if(!(d->d2 + c >= 0))
       {
         if(!(d->d1 >= d->d2 + c))
-          tmp_if_expr$6 = d->d2 + c;
+          tmp_if_expr_6 = d->d2 + c;
 
         else
         {
           if(!(d->d1 >= 0))
-            tmp_if_expr$5 = d->d1;
+            tmp_if_expr_5 = d->d1;
 
           else
-            tmp_if_expr$5 = 0;
-          tmp_if_expr$6 = tmp_if_expr$5;
+            tmp_if_expr_5 = 0;
+          tmp_if_expr_6 = tmp_if_expr_5;
         }
-        tmp_if_expr$9 = tmp_if_expr$6;
+        tmp_if_expr_9 = tmp_if_expr_6;
       }
 
       else
@@ -21371,18 +21371,18 @@ signed int my_slider_proc(signed int msg, struct DIALOG *d, signed int c)
         if(!(d->d1 >= d->d2 + c))
         {
           if(d->d1 >= 1)
-            tmp_if_expr$7 = d->d1;
+            tmp_if_expr_7 = d->d1;
 
           else
-            tmp_if_expr$7 = 0;
-          tmp_if_expr$8 = tmp_if_expr$7;
+            tmp_if_expr_7 = 0;
+          tmp_if_expr_8 = tmp_if_expr_7;
         }
 
         else
-          tmp_if_expr$8 = d->d2 + c;
-        tmp_if_expr$9 = tmp_if_expr$8;
+          tmp_if_expr_8 = d->d2 + c;
+        tmp_if_expr_9 = tmp_if_expr_8;
       }
-      d->d2 = tmp_if_expr$9;
+      d->d2 = tmp_if_expr_9;
       if(!(d->d2 == oldval))
       {
         if(!(d->dp2 == NULL))
@@ -21424,9 +21424,9 @@ signed int my_text_proc(signed int msg, struct DIALOG *d, signed int c)
     if(!(d->dp2 == NULL))
       font = (struct FONT *)d->dp2;
 
-    struct BITMAP *return_value_gui_get_screen$1;
-    return_value_gui_get_screen$1=gui_get_screen();
-    gui_textout_ex(return_value_gui_get_screen$1, (const char *)d->dp, d->x, d->y, -1, d->bg, 0);
+    struct BITMAP *return_value_gui_get_screen_1;
+    return_value_gui_get_screen_1=gui_get_screen();
+    gui_textout_ex(return_value_gui_get_screen_1, (const char *)d->dp, d->x, d->y, -1, d->bg, 0);
     font = oldfont;
   }
 
@@ -21447,23 +21447,23 @@ signed int my_textbox_proc(signed int msg, struct DIALOG *d, signed int c)
   signed int used;
   signed int delta;
   signed int fg_color;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((32 & d->flags) == 0))
-    tmp_if_expr$1 = gui_mg_color;
+    tmp_if_expr_1 = gui_mg_color;
 
   else
-    tmp_if_expr$1 = d->fg;
-  fg_color = tmp_if_expr$1;
-  signed int return_value_text_height$2;
-  return_value_text_height$2=text_height(font);
-  height = (d->h - 8) / return_value_text_height$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+    tmp_if_expr_1 = d->fg;
+  fg_color = tmp_if_expr_1;
+  signed int return_value_text_height_2;
+  return_value_text_height_2=text_height(font);
+  height = (d->h - 8) / return_value_text_height_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   signed int return_value;
-  signed int return_value_text_height$6;
-  signed int tmp_if_expr$9;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
+  signed int return_value_text_height_6;
+  signed int tmp_if_expr_9;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
   switch(msg)
   {
     case 1:
@@ -21475,11 +21475,11 @@ signed int my_textbox_proc(signed int msg, struct DIALOG *d, signed int c)
     {
       my_draw_textbox((char *)d->dp, &d->d1, 0, d->d2, (signed int)!((d->flags & 2) != 0), 8, d->x, d->y, d->w, d->h, d->flags & 32, 0, 0, 0);
       if(!(height >= d->d1))
-        tmp_if_expr$3 = d->d1 > 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = d->d1 > 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
         bar = 12;
 
       else
@@ -21502,14 +21502,14 @@ signed int my_textbox_proc(signed int msg, struct DIALOG *d, signed int c)
     {
       bar = (signed int)(d->d1 > height);
       if(bar == 0)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         return_value=gui_mouse_x();
-        tmp_if_expr$4 = return_value < (d->x + d->w) - 13 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = return_value < (d->x + d->w) - 13 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
         ret = 0;
 
       else
@@ -21527,9 +21527,9 @@ signed int my_textbox_proc(signed int msg, struct DIALOG *d, signed int c)
 
         else
           top = 0;
-        signed int return_value_text_height$5;
-        return_value_text_height$5=text_height(font);
-        l = (d->h - 8) / return_value_text_height$5;
+        signed int return_value_text_height_5;
+        return_value_text_height_5=text_height(font);
+        l = (d->h - 8) / return_value_text_height_5;
         bottom = (d->d2 + l) - 1;
         if(bottom >= d->d1 + -1)
           bottom = d->d1 - 1;
@@ -21579,30 +21579,30 @@ signed int my_textbox_proc(signed int msg, struct DIALOG *d, signed int c)
     }
     case 17:
     {
-      return_value_text_height$6=text_height(font);
-      l = (d->h - 8) / return_value_text_height$6;
+      return_value_text_height_6=text_height(font);
+      l = (d->h - 8) / return_value_text_height_6;
       delta = l > 3 ? 3 : 1;
       start = d->d2;
       if(c >= 1)
       {
         if(!(d->d2 + -delta >= 0))
-          tmp_if_expr$7 = 0;
+          tmp_if_expr_7 = 0;
 
         else
-          tmp_if_expr$7 = d->d2 - delta;
-        tmp_if_expr$9 = tmp_if_expr$7;
+          tmp_if_expr_7 = d->d2 - delta;
+        tmp_if_expr_9 = tmp_if_expr_7;
       }
 
       else
       {
         if(!(d->d1 + -l >= d->d2 + delta))
-          tmp_if_expr$8 = d->d1 - l;
+          tmp_if_expr_8 = d->d1 - l;
 
         else
-          tmp_if_expr$8 = d->d2 + delta;
-        tmp_if_expr$9 = tmp_if_expr$8;
+          tmp_if_expr_8 = d->d2 + delta;
+        tmp_if_expr_9 = tmp_if_expr_8;
       }
-      d->d2 = tmp_if_expr$9;
+      d->d2 = tmp_if_expr_9;
       if(!(d->d2 == start))
         d->flags = d->flags | 64;
 
@@ -21654,20 +21654,20 @@ signed int netplay_sequence(void)
   signed int sock = -1;
   signed int result = 0;
   lw_config_set_current_rules_to_default();
-  signed int return_value_connect_on_server_start$3;
-  return_value_connect_on_server_start$3=connect_on_server_start(&sock, CONFIG_SERVER_ADDRESS, CONFIG_SERVER_PORT);
-  if(!(return_value_connect_on_server_start$3 == 0))
+  signed int return_value_connect_on_server_start_3;
+  return_value_connect_on_server_start_3=connect_on_server_start(&sock, CONFIG_SERVER_ADDRESS, CONFIG_SERVER_PORT);
+  if(!(return_value_connect_on_server_start_3 == 0))
   {
-    signed int return_value_connect_on_server_continue$2;
-    return_value_connect_on_server_continue$2=connect_on_server_continue(sock);
-    if(!(return_value_connect_on_server_continue$2 == 0))
+    signed int return_value_connect_on_server_continue_2;
+    return_value_connect_on_server_continue_2=connect_on_server_continue(sock);
+    if(!(return_value_connect_on_server_continue_2 == 0))
     {
       result=lw_connect_menu(sock);
       if(result == -4)
       {
-        signed int return_value_connect_on_server_finish$1;
-        return_value_connect_on_server_finish$1=connect_on_server_finish(sock);
-        if(!(return_value_connect_on_server_finish$1 == 0))
+        signed int return_value_connect_on_server_finish_1;
+        return_value_connect_on_server_finish_1=connect_on_server_finish(sock);
+        if(!(return_value_connect_on_server_finish_1 == 0))
         {
           LW_NETWORK_ON = 1;
           lw_network_attribute_colors();
@@ -21718,20 +21718,20 @@ signed int network_game(void)
     d[(signed long int)14].h = y0 - d[(signed long int)14].y;
     standard_big_button(d + (signed long int)15, 0, 9, 1, 10);
     quick_buttons(d);
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(22);
-    d[(signed long int)4].dp = (void *)return_value_lw_lang_string$1;
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(23);
-    d[(signed long int)5].dp = (void *)return_value_lw_lang_string$2;
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(22);
+    d[(signed long int)4].dp = (void *)return_value_lw_lang_string_1;
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(23);
+    d[(signed long int)5].dp = (void *)return_value_lw_lang_string_2;
     d[(signed long int)5].proc = my_textbox_proc;
-    char *return_value_lw_lang_string$3;
-    return_value_lw_lang_string$3=lw_lang_string(24);
-    d[(signed long int)6].dp = (void *)return_value_lw_lang_string$3;
+    char *return_value_lw_lang_string_3;
+    return_value_lw_lang_string_3=lw_lang_string(24);
+    d[(signed long int)6].dp = (void *)return_value_lw_lang_string_3;
     d[(signed long int)6].proc = my_textbox_proc;
-    char *return_value_lw_lang_string$4;
-    return_value_lw_lang_string$4=lw_lang_string(26);
-    d[(signed long int)7].dp = (void *)return_value_lw_lang_string$4;
+    char *return_value_lw_lang_string_4;
+    return_value_lw_lang_string_4=lw_lang_string(26);
+    d[(signed long int)7].dp = (void *)return_value_lw_lang_string_4;
     d[(signed long int)7].proc = my_textbox_proc;
     d[(signed long int)8].proc = d_box_proc;
     d[(signed long int)9].proc = d_box_proc;
@@ -21763,15 +21763,15 @@ signed int network_game(void)
     d[(signed long int)13].w = d[(signed long int)13].w - 2;
     d[(signed long int)13].h = d[(signed long int)13].h - 2;
     d[(signed long int)14].proc = my_textbox_proc;
-    char *return_value_lw_lang_string$5;
-    return_value_lw_lang_string$5=lw_lang_string(27);
-    d[(signed long int)14].dp = (void *)return_value_lw_lang_string$5;
-    char *return_value_lw_lang_string$6;
-    return_value_lw_lang_string$6=lw_lang_string(25);
-    d[(signed long int)15].dp = (void *)return_value_lw_lang_string$6;
+    char *return_value_lw_lang_string_5;
+    return_value_lw_lang_string_5=lw_lang_string(27);
+    d[(signed long int)14].dp = (void *)return_value_lw_lang_string_5;
+    char *return_value_lw_lang_string_6;
+    return_value_lw_lang_string_6=lw_lang_string(25);
+    d[(signed long int)15].dp = (void *)return_value_lw_lang_string_6;
     d[(signed long int)16].proc = ((signed int (*)(signed int, struct DIALOG *, signed int))NULL);
     choix=my_do_dialog(d, choix);
-    CONFIG_SERVER_PORT=atoi$link2(bufport);
+    CONFIG_SERVER_PORT=atoi_link2(bufport);
     lw_netmess_cleanup_arg(CONFIG_PASSWORD);
     if(!(choix == 3) && !(choix == -1))
     {
@@ -21801,9 +21801,9 @@ signed int network_game(void)
 
     __CPROVER_DUMP_L4:
       ;
-      signed int return_value_confirm_quit$7;
-      return_value_confirm_quit$7=confirm_quit();
-      if(!(return_value_confirm_quit$7 == 0))
+      signed int return_value_confirm_quit_7;
+      return_value_confirm_quit_7=confirm_quit();
+      if(!(return_value_confirm_quit_7 == 0))
         retour = -2;
 
       else
@@ -21836,17 +21836,17 @@ static void next_line(char **str)
   char *pos;
   signed int len;
   skip_space(str);
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(*str, 10);
-  pos = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(*str, 10);
+  pos = return_value___builtin_strchr_1;
   if(!(pos == ((char *)NULL)))
     *str = pos + (signed long int)1;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(*str);
-    len = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(*str);
+    len = (signed int)return_value_strlen_2;
     *str = *str + (signed long int)len;
   }
   skip_space(str);
@@ -21865,7 +21865,7 @@ signed int options(void)
   signed int old_fullscreen;
   signed int gfxmode_change = 0;
   memset((void *)d, 0, sizeof(struct DIALOG [12l]) /*864ul*/ );
-  signed int return_value_my_update_dialog$8;
+  signed int return_value_my_update_dialog_8;
   while(retour == 0)
   {
     i = 0;
@@ -21873,27 +21873,27 @@ signed int options(void)
       standard_button(d + (signed long int)i + (signed long int)4, 0, i, 1, 8);
     standard_button(d + (signed long int)10, 0, 7, 1, 8);
     quick_buttons(d);
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(32);
-    d[(signed long int)4].dp = (void *)return_value_lw_lang_string$1;
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(33);
-    d[(signed long int)5].dp = (void *)return_value_lw_lang_string$2;
-    char *return_value_lw_lang_string$3;
-    return_value_lw_lang_string$3=lw_lang_string(34);
-    d[(signed long int)6].dp = (void *)return_value_lw_lang_string$3;
-    char *return_value_lw_lang_string$4;
-    return_value_lw_lang_string$4=lw_lang_string(35);
-    d[(signed long int)7].dp = (void *)return_value_lw_lang_string$4;
-    char *return_value_lw_lang_string$5;
-    return_value_lw_lang_string$5=lw_lang_string(36);
-    d[(signed long int)8].dp = (void *)return_value_lw_lang_string$5;
-    char *return_value_lw_lang_string$6;
-    return_value_lw_lang_string$6=lw_lang_string(37);
-    d[(signed long int)9].dp = (void *)return_value_lw_lang_string$6;
-    char *return_value_lw_lang_string$7;
-    return_value_lw_lang_string$7=lw_lang_string(38);
-    d[(signed long int)10].dp = (void *)return_value_lw_lang_string$7;
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(32);
+    d[(signed long int)4].dp = (void *)return_value_lw_lang_string_1;
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(33);
+    d[(signed long int)5].dp = (void *)return_value_lw_lang_string_2;
+    char *return_value_lw_lang_string_3;
+    return_value_lw_lang_string_3=lw_lang_string(34);
+    d[(signed long int)6].dp = (void *)return_value_lw_lang_string_3;
+    char *return_value_lw_lang_string_4;
+    return_value_lw_lang_string_4=lw_lang_string(35);
+    d[(signed long int)7].dp = (void *)return_value_lw_lang_string_4;
+    char *return_value_lw_lang_string_5;
+    return_value_lw_lang_string_5=lw_lang_string(36);
+    d[(signed long int)8].dp = (void *)return_value_lw_lang_string_5;
+    char *return_value_lw_lang_string_6;
+    return_value_lw_lang_string_6=lw_lang_string(37);
+    d[(signed long int)9].dp = (void *)return_value_lw_lang_string_6;
+    char *return_value_lw_lang_string_7;
+    return_value_lw_lang_string_7=lw_lang_string(38);
+    d[(signed long int)10].dp = (void *)return_value_lw_lang_string_7;
     d[(signed long int)11].proc = ((signed int (*)(signed int, struct DIALOG *, signed int))NULL);
     old_gfx_menu = CONFIG_GFX_MENU;
     old_fullscreen = CONFIG_FULLSCREEN;
@@ -21911,8 +21911,8 @@ signed int options(void)
     show_mouse(screen);
     do
     {
-      return_value_my_update_dialog$8=my_update_dialog(dp);
-      if(return_value_my_update_dialog$8 == 0)
+      return_value_my_update_dialog_8=my_update_dialog(dp);
+      if(return_value_my_update_dialog_8 == 0)
         break;
 
     }
@@ -21965,9 +21965,9 @@ signed int options(void)
 
     __CPROVER_DUMP_L10:
       ;
-      signed int return_value_confirm_quit$9;
-      return_value_confirm_quit$9=confirm_quit();
-      if(!(return_value_confirm_quit$9 == 0))
+      signed int return_value_confirm_quit_9;
+      return_value_confirm_quit_9=confirm_quit();
+      if(!(return_value_confirm_quit_9 == 0))
         retour = -2;
 
       else
@@ -22043,7 +22043,7 @@ void order_map(void)
   i = 0;
   for( ; !(i >= RAW_MAP_NUMBER); i = i + 1)
     RAW_MAP_ORDERED[(signed long int)i] = RAW_MAP[(signed long int)i];
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_3;
   while(!(incorrect_order == 0))
   {
     incorrect_order = 0;
@@ -22051,21 +22051,21 @@ void order_map(void)
     for( ; !(i >= RAW_MAP_NUMBER + -1); i = i + 1)
     {
       memset((void *)name1, 0, sizeof(char [33l]) /*33ul*/ );
-      char *return_value_lw_map_get_readable_name$1;
-      return_value_lw_map_get_readable_name$1=lw_map_get_readable_name(i, 0, 0);
-      __builtin_strncpy(name1, return_value_lw_map_get_readable_name$1, sizeof(char [33l]) /*33ul*/  - (unsigned long int)1);
+      char *return_value_lw_map_get_readable_name_1;
+      return_value_lw_map_get_readable_name_1=lw_map_get_readable_name(i, 0, 0);
+      __builtin_strncpy(name1, return_value_lw_map_get_readable_name_1, sizeof(char [33l]) /*33ul*/  - (unsigned long int)1);
       name1[(signed long int)(sizeof(char [33l]) /*33ul*/  - (unsigned long int)1)] = (char)0;
       memset((void *)name2, 0, sizeof(char [33l]) /*33ul*/ );
-      char *return_value_lw_map_get_readable_name$2;
-      return_value_lw_map_get_readable_name$2=lw_map_get_readable_name(i + 1, 0, 0);
-      __builtin_strncpy(name2, return_value_lw_map_get_readable_name$2, sizeof(char [33l]) /*33ul*/  - (unsigned long int)1);
+      char *return_value_lw_map_get_readable_name_2;
+      return_value_lw_map_get_readable_name_2=lw_map_get_readable_name(i + 1, 0, 0);
+      __builtin_strncpy(name2, return_value_lw_map_get_readable_name_2, sizeof(char [33l]) /*33ul*/  - (unsigned long int)1);
       name2[(signed long int)(sizeof(char [33l]) /*33ul*/  - (unsigned long int)1)] = (char)0;
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(name1, name2);
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 >= 1)
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(name1, name2);
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 >= 1)
       {
         incorrect_order = 1;
         temp = RAW_MAP_ORDERED[(signed long int)i];
@@ -22087,33 +22087,33 @@ struct BITMAP * page_flip(void)
   signed int y;
   signed int w;
   signed int h;
-  _Bool tmp_if_expr$9;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
+  _Bool tmp_if_expr_9;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
   if(!(CONFIG_PAGE_FLIP == 0))
   {
     if(!(screen == ((struct BITMAP *)NULL)))
-      tmp_if_expr$7 = screen->h;
+      tmp_if_expr_7 = screen->h;
 
     else
-      tmp_if_expr$7 = 0;
+      tmp_if_expr_7 = 0;
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$8 = gfx_driver->h;
+      tmp_if_expr_8 = gfx_driver->h;
 
     else
-      tmp_if_expr$8 = 0;
-    tmp_if_expr$9 = tmp_if_expr$7 >= 2 * tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = 0;
+    tmp_if_expr_9 = tmp_if_expr_7 >= 2 * tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (_Bool)0;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  if(tmp_if_expr_9)
   {
     if(!(NEXT_SCREEN == ((struct BITMAP *)NULL)))
       destroy_bitmap(NEXT_SCREEN);
@@ -22122,30 +22122,30 @@ struct BITMAP * page_flip(void)
     init_viewport_size(x, y, w, h);
     old_h = PAGE_FLIP_H;
     if(!(old_h == 0))
-      tmp_if_expr$2 = 0;
+      tmp_if_expr_2 = 0;
 
     else
     {
       if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-        tmp_if_expr$1 = gfx_driver->h;
+        tmp_if_expr_1 = gfx_driver->h;
 
       else
-        tmp_if_expr$1 = 0;
-      tmp_if_expr$2 = tmp_if_expr$1;
+        tmp_if_expr_1 = 0;
+      tmp_if_expr_2 = tmp_if_expr_1;
     }
-    new_h = tmp_if_expr$2;
+    new_h = tmp_if_expr_2;
     scroll_screen(0, old_h);
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$3 = gfx_driver->w;
+      tmp_if_expr_3 = gfx_driver->w;
 
     else
-      tmp_if_expr$3 = 0;
+      tmp_if_expr_3 = 0;
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$4 = gfx_driver->h;
+      tmp_if_expr_4 = gfx_driver->h;
 
     else
-      tmp_if_expr$4 = 0;
-    set_clip_rect(screen, 0, new_h, tmp_if_expr$3 - 1, (new_h + tmp_if_expr$4) - 1);
+      tmp_if_expr_4 = 0;
+    set_clip_rect(screen, 0, new_h, tmp_if_expr_3 - 1, (new_h + tmp_if_expr_4) - 1);
     PAGE_FLIP_H = new_h;
     NEXT_SCREEN=create_sub_bitmap(screen, VIEWPORT_X, VIEWPORT_Y + new_h, VIEWPORT_W, VIEWPORT_H);
   }
@@ -22157,16 +22157,16 @@ struct BITMAP * page_flip(void)
     {
       scroll_screen(0, 0);
       if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-        tmp_if_expr$5 = gfx_driver->w;
+        tmp_if_expr_5 = gfx_driver->w;
 
       else
-        tmp_if_expr$5 = 0;
+        tmp_if_expr_5 = 0;
       if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-        tmp_if_expr$6 = gfx_driver->h;
+        tmp_if_expr_6 = gfx_driver->h;
 
       else
-        tmp_if_expr$6 = 0;
-      set_clip_rect(screen, 0, 0, tmp_if_expr$5 - 1, tmp_if_expr$6 - 1);
+        tmp_if_expr_6 = 0;
+      set_clip_rect(screen, 0, 0, tmp_if_expr_5 - 1, tmp_if_expr_6 - 1);
       lw_info_get_room_for_viewport(&x, &y, &w, &h);
       init_viewport_size(x, y, w, h);
       NEXT_SCREEN=create_sub_bitmap(screen, VIEWPORT_X, VIEWPORT_Y, VIEWPORT_W, VIEWPORT_H);
@@ -22242,78 +22242,78 @@ static void palette_128(struct DIALOG *d, signed int x, signed int y, signed int
 
 // parse_line
 // file wwwcli.c line 199
-static signed int parse_line(struct anonymous$15 *result, char **str)
+static signed int parse_line(struct anonymous_15 *result, char **str)
 {
   signed int ok = 0;
   char temp[100l];
-  memset((void *)result, 0, sizeof(struct anonymous$15) /*196ul*/ );
-  signed int return_value_read_string$17;
-  return_value_read_string$17=read_string(result->ip, str, (signed int)sizeof(char [16l]) /*16ul*/ );
-  signed int return_value_read_separator$16;
-  signed int return_value_read_int$15;
-  signed int return_value_read_separator$14;
-  signed int return_value_read_string$13;
-  signed int return_value_read_separator$12;
-  signed int return_value_read_string$11;
-  signed int return_value_read_separator$10;
-  signed int return_value_read_int$9;
-  signed int return_value_read_separator$8;
-  signed int return_value_read_int$7;
-  signed int return_value_read_separator$6;
-  signed int return_value_read_int$5;
-  signed int return_value_read_separator$4;
-  signed int return_value_read_int$3;
-  signed int return_value_read_separator$2;
-  signed int return_value_read_string$1;
-  if(!(return_value_read_string$17 == 0))
+  memset((void *)result, 0, sizeof(struct anonymous_15) /*196ul*/ );
+  signed int return_value_read_string_17;
+  return_value_read_string_17=read_string(result->ip, str, (signed int)sizeof(char [16l]) /*16ul*/ );
+  signed int return_value_read_separator_16;
+  signed int return_value_read_int_15;
+  signed int return_value_read_separator_14;
+  signed int return_value_read_string_13;
+  signed int return_value_read_separator_12;
+  signed int return_value_read_string_11;
+  signed int return_value_read_separator_10;
+  signed int return_value_read_int_9;
+  signed int return_value_read_separator_8;
+  signed int return_value_read_int_7;
+  signed int return_value_read_separator_6;
+  signed int return_value_read_int_5;
+  signed int return_value_read_separator_4;
+  signed int return_value_read_int_3;
+  signed int return_value_read_separator_2;
+  signed int return_value_read_string_1;
+  if(!(return_value_read_string_17 == 0))
   {
-    return_value_read_separator$16=read_separator$link1(str);
-    if(!(return_value_read_separator$16 == 0))
+    return_value_read_separator_16=read_separator_link1(str);
+    if(!(return_value_read_separator_16 == 0))
     {
-      return_value_read_int$15=read_int(&result->port, str);
-      if(!(return_value_read_int$15 == 0))
+      return_value_read_int_15=read_int(&result->port, str);
+      if(!(return_value_read_int_15 == 0))
       {
-        return_value_read_separator$14=read_separator$link1(str);
-        if(!(return_value_read_separator$14 == 0))
+        return_value_read_separator_14=read_separator_link1(str);
+        if(!(return_value_read_separator_14 == 0))
         {
-          return_value_read_string$13=read_string(temp, str, (signed int)sizeof(char [100l]) /*100ul*/ );
-          if(!(return_value_read_string$13 == 0))
+          return_value_read_string_13=read_string(temp, str, (signed int)sizeof(char [100l]) /*100ul*/ );
+          if(!(return_value_read_string_13 == 0))
           {
-            return_value_read_separator$12=read_separator$link1(str);
-            if(!(return_value_read_separator$12 == 0))
+            return_value_read_separator_12=read_separator_link1(str);
+            if(!(return_value_read_separator_12 == 0))
             {
-              return_value_read_string$11=read_string(temp, str, (signed int)sizeof(char [100l]) /*100ul*/ );
-              if(!(return_value_read_string$11 == 0))
+              return_value_read_string_11=read_string(temp, str, (signed int)sizeof(char [100l]) /*100ul*/ );
+              if(!(return_value_read_string_11 == 0))
               {
-                return_value_read_separator$10=read_separator$link1(str);
-                if(!(return_value_read_separator$10 == 0))
+                return_value_read_separator_10=read_separator_link1(str);
+                if(!(return_value_read_separator_10 == 0))
                 {
-                  return_value_read_int$9=read_int(&result->uptime, str);
-                  if(!(return_value_read_int$9 == 0))
+                  return_value_read_int_9=read_int(&result->uptime, str);
+                  if(!(return_value_read_int_9 == 0))
                   {
-                    return_value_read_separator$8=read_separator$link1(str);
-                    if(!(return_value_read_separator$8 == 0))
+                    return_value_read_separator_8=read_separator_link1(str);
+                    if(!(return_value_read_separator_8 == 0))
                     {
-                      return_value_read_int$7=read_int(&result->busy_players, str);
-                      if(!(return_value_read_int$7 == 0))
+                      return_value_read_int_7=read_int(&result->busy_players, str);
+                      if(!(return_value_read_int_7 == 0))
                       {
-                        return_value_read_separator$6=read_separator$link1(str);
-                        if(!(return_value_read_separator$6 == 0))
+                        return_value_read_separator_6=read_separator_link1(str);
+                        if(!(return_value_read_separator_6 == 0))
                         {
-                          return_value_read_int$5=read_int(&result->max_players, str);
-                          if(!(return_value_read_int$5 == 0))
+                          return_value_read_int_5=read_int(&result->max_players, str);
+                          if(!(return_value_read_int_5 == 0))
                           {
-                            return_value_read_separator$4=read_separator$link1(str);
-                            if(!(return_value_read_separator$4 == 0))
+                            return_value_read_separator_4=read_separator_link1(str);
+                            if(!(return_value_read_separator_4 == 0))
                             {
-                              return_value_read_int$3=read_int(&result->password, str);
-                              if(!(return_value_read_int$3 == 0))
+                              return_value_read_int_3=read_int(&result->password, str);
+                              if(!(return_value_read_int_3 == 0))
                               {
-                                return_value_read_separator$2=read_separator$link1(str);
-                                if(!(return_value_read_separator$2 == 0))
+                                return_value_read_separator_2=read_separator_link1(str);
+                                if(!(return_value_read_separator_2 == 0))
                                 {
-                                  return_value_read_string$1=read_string(result->comment, str, (signed int)sizeof(char [101l]) /*101ul*/ );
-                                  if(!(return_value_read_string$1 == 0))
+                                  return_value_read_string_1=read_string(result->comment, str, (signed int)sizeof(char [101l]) /*101ul*/ );
+                                  if(!(return_value_read_string_1 == 0))
                                   {
                                     memset((void *)result->label, 0, sizeof(char [50l]) /*50ul*/ );
                                     snprintf(result->label, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s (%d/%d)", (const void *)result->ip, result->busy_players, result->max_players);
@@ -22417,7 +22417,7 @@ static void place_team(signed int part, signed int team)
   signed int y_max;
   signed int fighters;
   signed int health;
-  struct anonymous$21 *pos;
+  struct anonymous_21 *pos;
   fighters = CURRENT_ARMY_SIZE / PLAYING_TEAMS;
   ACTIVE_FIGHTERS[(signed long int)team] = 0;
   health = 16384 - 1;
@@ -22465,17 +22465,17 @@ static void place_team(signed int part, signed int team)
   y_min = y_max;
   pos = CURRENT_ARMY + (signed long int)team;
   placed = 0;
-  signed int return_value_add_fighter$1;
-  signed int return_value_add_fighter$2;
-  signed int return_value_add_fighter$3;
-  signed int return_value_add_fighter$4;
+  signed int return_value_add_fighter_1;
+  signed int return_value_add_fighter_2;
+  signed int return_value_add_fighter_3;
+  signed int return_value_add_fighter_4;
   while(!(placed >= fighters))
   {
     x = x_min;
     for( ; x_max >= x && !(placed >= fighters); x = x + 1)
     {
-      return_value_add_fighter$1=add_fighter(pos + (signed long int)(placed * PLAYING_TEAMS), team, x, y_min, health);
-      placed = placed + return_value_add_fighter$1;
+      return_value_add_fighter_1=add_fighter(pos + (signed long int)(placed * PLAYING_TEAMS), team, x, y_min, health);
+      placed = placed + return_value_add_fighter_1;
     }
     if(!(x_max >= CURRENT_AREA_W + -2))
       x_max = x_max + 1;
@@ -22483,8 +22483,8 @@ static void place_team(signed int part, signed int team)
     y = y_min;
     for( ; y_max >= y && !(placed >= fighters); y = y + 1)
     {
-      return_value_add_fighter$2=add_fighter(pos + (signed long int)(placed * PLAYING_TEAMS), team, x_max, y, health);
-      placed = placed + return_value_add_fighter$2;
+      return_value_add_fighter_2=add_fighter(pos + (signed long int)(placed * PLAYING_TEAMS), team, x_max, y, health);
+      placed = placed + return_value_add_fighter_2;
     }
     if(!(y_max >= CURRENT_AREA_H + -2))
       y_max = y_max + 1;
@@ -22492,8 +22492,8 @@ static void place_team(signed int part, signed int team)
     x = x_max;
     for( ; x >= x_min && !(placed >= fighters); x = x - 1)
     {
-      return_value_add_fighter$3=add_fighter(pos + (signed long int)(placed * PLAYING_TEAMS), team, x, y_max, health);
-      placed = placed + return_value_add_fighter$3;
+      return_value_add_fighter_3=add_fighter(pos + (signed long int)(placed * PLAYING_TEAMS), team, x, y_max, health);
+      placed = placed + return_value_add_fighter_3;
     }
     if(x_min >= 2)
       x_min = x_min - 1;
@@ -22501,8 +22501,8 @@ static void place_team(signed int part, signed int team)
     y = y_max;
     for( ; y >= y_min && !(placed >= fighters); y = y - 1)
     {
-      return_value_add_fighter$4=add_fighter(pos + (signed long int)(placed * PLAYING_TEAMS), team, x_min, y, health);
-      placed = placed + return_value_add_fighter$4;
+      return_value_add_fighter_4=add_fighter(pos + (signed long int)(placed * PLAYING_TEAMS), team, x_min, y, health);
+      placed = placed + return_value_add_fighter_4;
     }
     if(y_min >= 2)
       y_min = y_min - 1;
@@ -22516,10 +22516,10 @@ void play_click(void)
 {
   if(!(LOADED_SFX == 0))
   {
-    signed int return_value_lw_mutex_trylock$1;
-    static struct anonymous$1 mutex = { .data=(void *)0 };
-    return_value_lw_mutex_trylock$1=lw_mutex_trylock(&mutex);
-    if(!(return_value_lw_mutex_trylock$1 == 0))
+    signed int return_value_lw_mutex_trylock_1;
+    static struct anonymous_1 mutex = { .data=(void *)0 };
+    return_value_lw_mutex_trylock_1=lw_mutex_trylock(&mutex);
+    if(!(return_value_lw_mutex_trylock_1 == 0))
     {
       my_play_sample(SAMPLE_SFX_CLICK, CONFIG_CLICK_VOLUME);
       lw_mutex_unlock(&mutex);
@@ -22581,9 +22581,9 @@ signed int play_sequence_ex(void)
   memset((void *)d, 0, sizeof(struct DIALOG [2l]) /*144ul*/ );
   d[(signed long int)1].proc = ((signed int (*)(signed int, struct DIALOG *, signed int))NULL);
   display_back_image();
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(21);
-  main_message(d, return_value_lw_lang_string$1);
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(21);
+  main_message(d, return_value_lw_lang_string_1);
   dp=my_init_dialog(d, 0);
   my_update_dialog(dp);
   shutdown_dialog(dp);
@@ -22604,15 +22604,15 @@ signed int play_sequence_ex(void)
     {
       WATER_VOLUME = CONFIG_WATER_VOLUME_GAME;
       my_fade_out();
-      signed int return_value_need_to_change_mode$2;
-      return_value_need_to_change_mode$2=need_to_change_mode(CONFIG_GFX_GAME, CONFIG_GFX_MENU, CONFIG_PAGE_FLIP);
-      if(!(return_value_need_to_change_mode$2 == 0))
+      signed int return_value_need_to_change_mode_2;
+      return_value_need_to_change_mode_2=need_to_change_mode(CONFIG_GFX_GAME, CONFIG_GFX_MENU, CONFIG_PAGE_FLIP);
+      if(!(return_value_need_to_change_mode_2 == 0))
         result=set_resolution(CONFIG_GFX_GAME, CONFIG_PAGE_FLIP, CONFIG_FULLSCREEN, &flip_enabled);
 
       lw_mouse_hide();
-      signed int return_value_blank_round$3;
-      return_value_blank_round$3=blank_round();
-      if(return_value_blank_round$3 == 0)
+      signed int return_value_blank_round_3;
+      return_value_blank_round_3=blank_round();
+      if(return_value_blank_round_3 == 0)
       {
         my_fade_in();
         start_music();
@@ -22624,9 +22624,9 @@ signed int play_sequence_ex(void)
       lw_sock_close(&LW_KEYEXCH_SOCK);
       WATER_VOLUME = CONFIG_WATER_VOLUME_MENU;
       my_fade_out();
-      signed int return_value_need_to_change_mode$4;
-      return_value_need_to_change_mode$4=need_to_change_mode(CONFIG_GFX_GAME, CONFIG_GFX_MENU, (signed int)(CONFIG_PAGE_FLIP != 0 && flip_enabled != 0));
-      if(!(return_value_need_to_change_mode$4 == 0))
+      signed int return_value_need_to_change_mode_4;
+      return_value_need_to_change_mode_4=need_to_change_mode(CONFIG_GFX_GAME, CONFIG_GFX_MENU, (signed int)(CONFIG_PAGE_FLIP != 0 && flip_enabled != 0));
+      if(!(return_value_need_to_change_mode_4 == 0))
         result=set_resolution(CONFIG_GFX_MENU, 0, CONFIG_FULLSCREEN, (signed int *)(void *)0);
 
       lw_mouse_show();
@@ -22781,60 +22781,60 @@ static inline void putpixel(struct BITMAP *bmp, signed int x, signed int y, sign
   bmp->vtable->putpixel(bmp, x, y, color);
 }
 
-// putpixel$link1
+// putpixel_link1
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link1(struct BITMAP *bmp$link1, signed int x$link1, signed int y$link1, signed int color$link1)
+static inline void putpixel_link1(struct BITMAP *bmp_link1, signed int x_link1, signed int y_link1, signed int color_link1)
 {
-  bmp$link1->vtable->putpixel(bmp$link1, x$link1, y$link1, color$link1);
+  bmp_link1->vtable->putpixel(bmp_link1, x_link1, y_link1, color_link1);
 }
 
-// putpixel$link2
+// putpixel_link2
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link2(struct BITMAP *bmp$link2, signed int x$link2, signed int y$link2, signed int color$link2)
+static inline void putpixel_link2(struct BITMAP *bmp_link2, signed int x_link2, signed int y_link2, signed int color_link2)
 {
-  bmp$link2->vtable->putpixel(bmp$link2, x$link2, y$link2, color$link2);
+  bmp_link2->vtable->putpixel(bmp_link2, x_link2, y_link2, color_link2);
 }
 
-// putpixel$link3
+// putpixel_link3
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link3(struct BITMAP *bmp$link3, signed int x$link3, signed int y$link3, signed int color$link3)
+static inline void putpixel_link3(struct BITMAP *bmp_link3, signed int x_link3, signed int y_link3, signed int color_link3)
 {
-  bmp$link3->vtable->putpixel(bmp$link3, x$link3, y$link3, color$link3);
+  bmp_link3->vtable->putpixel(bmp_link3, x_link3, y_link3, color_link3);
 }
 
-// putpixel$link4
+// putpixel_link4
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link4(struct BITMAP *bmp$link4, signed int x$link4, signed int y$link4, signed int color$link4)
+static inline void putpixel_link4(struct BITMAP *bmp_link4, signed int x_link4, signed int y_link4, signed int color_link4)
 {
-  bmp$link4->vtable->putpixel(bmp$link4, x$link4, y$link4, color$link4);
+  bmp_link4->vtable->putpixel(bmp_link4, x_link4, y_link4, color_link4);
 }
 
-// putpixel$link5
+// putpixel_link5
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link5(struct BITMAP *bmp$link5, signed int x$link5, signed int y$link5, signed int color$link5)
+static inline void putpixel_link5(struct BITMAP *bmp_link5, signed int x_link5, signed int y_link5, signed int color_link5)
 {
-  bmp$link5->vtable->putpixel(bmp$link5, x$link5, y$link5, color$link5);
+  bmp_link5->vtable->putpixel(bmp_link5, x_link5, y_link5, color_link5);
 }
 
-// putpixel$link6
+// putpixel_link6
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link6(struct BITMAP *bmp$link6, signed int x$link6, signed int y$link6, signed int color$link6)
+static inline void putpixel_link6(struct BITMAP *bmp_link6, signed int x_link6, signed int y_link6, signed int color_link6)
 {
-  bmp$link6->vtable->putpixel(bmp$link6, x$link6, y$link6, color$link6);
+  bmp_link6->vtable->putpixel(bmp_link6, x_link6, y_link6, color_link6);
 }
 
-// putpixel$link7
+// putpixel_link7
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link7(struct BITMAP *bmp$link7, signed int x$link7, signed int y$link7, signed int color$link7)
+static inline void putpixel_link7(struct BITMAP *bmp_link7, signed int x_link7, signed int y_link7, signed int color_link7)
 {
-  bmp$link7->vtable->putpixel(bmp$link7, x$link7, y$link7, color$link7);
+  bmp_link7->vtable->putpixel(bmp_link7, x_link7, y_link7, color_link7);
 }
 
-// putpixel$link8
+// putpixel_link8
 // file /usr/include/allegro/inline/draw.inl line 38
-static inline void putpixel$link8(struct BITMAP *bmp$link8, signed int x$link8, signed int y$link8, signed int color$link8)
+static inline void putpixel_link8(struct BITMAP *bmp_link8, signed int x_link8, signed int y_link8, signed int color_link8)
 {
-  bmp$link8->vtable->putpixel(bmp$link8, x$link8, y$link8, color$link8);
+  bmp_link8->vtable->putpixel(bmp_link8, x_link8, y_link8, color_link8);
 }
 
 // quick_buttons
@@ -22842,18 +22842,18 @@ static inline void putpixel$link8(struct BITMAP *bmp$link8, signed int x$link8, 
 void quick_buttons(struct DIALOG *d)
 {
   signed int i;
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(17);
-  (d + (signed long int)0)->dp = (void *)return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
-  return_value_lw_lang_string$2=lw_lang_string(18);
-  (d + (signed long int)3)->dp = (void *)return_value_lw_lang_string$2;
-  char *return_value_lw_lang_string$3;
-  return_value_lw_lang_string$3=lw_lang_string(19);
-  (d + (signed long int)1)->dp = (void *)return_value_lw_lang_string$3;
-  char *return_value_lw_lang_string$4;
-  return_value_lw_lang_string$4=lw_lang_string(20);
-  (d + (signed long int)2)->dp = (void *)return_value_lw_lang_string$4;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(17);
+  (d + (signed long int)0)->dp = (void *)return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
+  return_value_lw_lang_string_2=lw_lang_string(18);
+  (d + (signed long int)3)->dp = (void *)return_value_lw_lang_string_2;
+  char *return_value_lw_lang_string_3;
+  return_value_lw_lang_string_3=lw_lang_string(19);
+  (d + (signed long int)1)->dp = (void *)return_value_lw_lang_string_3;
+  char *return_value_lw_lang_string_4;
+  return_value_lw_lang_string_4=lw_lang_string(20);
+  (d + (signed long int)2)->dp = (void *)return_value_lw_lang_string_4;
   (d + (signed long int)0)->key = 113;
   (d + (signed long int)3)->key = 98;
   (d + (signed long int)1)->key = 104;
@@ -22900,40 +22900,40 @@ static signed int random_free_xy_by_control_type(signed int *x, signed int *y, s
     }
 
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; foundable == 0 && !(i >= CURRENT_ARMY_SIZE); i = i + 1)
   {
     if(!((signed int)(CURRENT_ARMY + (signed long int)i)->team == team))
-      tmp_if_expr$1 = (control_type_array[(signed long int)(signed int)(CURRENT_ARMY + (signed long int)i)->team] == control_type ? (_Bool)1 : (control_type == 0 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (control_type_array[(signed long int)(signed int)(CURRENT_ARMY + (signed long int)i)->team] == control_type ? (_Bool)1 : (control_type == 0 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    foundable = foundable | (signed int)tmp_if_expr$1;
+      tmp_if_expr_1 = (_Bool)0;
+    foundable = foundable | (signed int)tmp_if_expr_1;
   }
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(foundable == 0))
   {
     random_limit = 0;
     while(found == 0 && !(random_limit >= 10000))
     {
-      signed long int return_value_random$2;
-      return_value_random$2=random();
-      i = (signed int)(return_value_random$2 % (signed long int)CURRENT_ARMY_SIZE);
+      signed long int return_value_random_2;
+      return_value_random_2=random();
+      i = (signed int)(return_value_random_2 % (signed long int)CURRENT_ARMY_SIZE);
       if(!((signed int)(CURRENT_ARMY + (signed long int)i)->team == team))
-        tmp_if_expr$3 = (control_type_array[(signed long int)(signed int)(CURRENT_ARMY + (signed long int)i)->team] == control_type ? (_Bool)1 : (control_type == 0 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (control_type_array[(signed long int)(signed int)(CURRENT_ARMY + (signed long int)i)->team] == control_type ? (_Bool)1 : (control_type == 0 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      found = (signed int)tmp_if_expr$3;
+        tmp_if_expr_3 = (_Bool)0;
+      found = (signed int)tmp_if_expr_3;
       random_limit = random_limit + 1;
     }
   }
 
   if(found == 0)
   {
-    signed long int return_value_random$4;
-    return_value_random$4=random();
-    i = (signed int)(return_value_random$4 % (signed long int)CURRENT_ARMY_SIZE);
+    signed long int return_value_random_4;
+    return_value_random_4=random();
+    i = (signed int)(return_value_random_4 % (signed long int)CURRENT_ARMY_SIZE);
   }
 
   *x = (signed int)(CURRENT_ARMY + (signed long int)i)->x;
@@ -22961,9 +22961,9 @@ static void random_free_xy_different_team(signed int *x, signed int *y, signed i
     default:
       control_type = 0;
   }
-  signed int return_value_random_free_xy_by_control_type$1;
-  return_value_random_free_xy_by_control_type$1=random_free_xy_by_control_type(x, y, team, control_type);
-  if(return_value_random_free_xy_by_control_type$1 == 0)
+  signed int return_value_random_free_xy_by_control_type_1;
+  return_value_random_free_xy_by_control_type_1=random_free_xy_by_control_type(x, y, team, control_type);
+  if(return_value_random_free_xy_by_control_type_1 == 0)
     random_free_xy_by_control_type(x, y, team, 0);
 
 }
@@ -22986,9 +22986,9 @@ static void read_back_dat(struct DATAFILE *df)
     y = 0;
     for( ; !(y >= BACK_IMAGE->w); y = y + 1)
     {
-      signed int return_value_getpixel$1;
-      return_value_getpixel$1=getpixel(BACK_IMAGE, x, y);
-      putpixel$link1(BACK_IMAGE, x, y, return_value_getpixel$1 + 18);
+      signed int return_value_getpixel_1;
+      return_value_getpixel_1=getpixel(BACK_IMAGE, x, y);
+      putpixel_link1(BACK_IMAGE, x, y, return_value_getpixel_1 + 18);
     }
   }
 }
@@ -23008,15 +23008,15 @@ void read_command_line(signed int argc, char **argv)
   }
   EXECUTABLE_NAME = argv[(signed long int)0];
   str = EXECUTABLE_NAME;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(*str == 0); str = str + 1l)
   {
     if((signed int)*str == 47)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*str == 92 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)*str == 92 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       EXECUTABLE_NAME = str + (signed long int)1;
 
   }
@@ -23025,17 +23025,17 @@ void read_command_line(signed int argc, char **argv)
   for( ; !(i >= argc) && !(j >= 256); i = i + 1)
   {
     str = argv[(signed long int)i];
-    signed int return_value_is_arg_marker$3;
-    return_value_is_arg_marker$3=is_arg_marker(str[(signed long int)0]);
-    if(!(return_value_is_arg_marker$3 == 0))
+    signed int return_value_is_arg_marker_3;
+    return_value_is_arg_marker_3=is_arg_marker(str[(signed long int)0]);
+    if(!(return_value_is_arg_marker_3 == 0))
     {
       ARGUMENT_NAME[(signed long int)j] = str + (signed long int)1;
       if(!(i >= argc + -1))
       {
         str = argv[(signed long int)(i + 1)];
-        signed int return_value_is_arg_marker$2;
-        return_value_is_arg_marker$2=is_arg_marker(str[(signed long int)0]);
-        if(return_value_is_arg_marker$2 == 0)
+        signed int return_value_is_arg_marker_2;
+        return_value_is_arg_marker_2=is_arg_marker(str[(signed long int)0]);
+        if(return_value_is_arg_marker_2 == 0)
         {
           ARGUMENT_VALUE[(signed long int)j] = str;
           i = i + 1;
@@ -23074,9 +23074,9 @@ static signed int read_eol_n(char **str, signed int n)
   signed int ok = 0;
   char *tmp;
   skip_space(str);
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(*str, 10);
-  tmp = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(*str, 10);
+  tmp = return_value___builtin_strchr_1;
   if(!(tmp == ((char *)NULL)))
   {
     if(!(tmp - *str >= (signed long int)n))
@@ -23115,12 +23115,12 @@ static signed int read_int(signed int *result, char **str)
   char c;
   *result = 0;
   skip_space(str);
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
+    return_value___ctype_b_loc_1=__ctype_b_loc();
     c = *(*str);
-    if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)c]) == 0)
+    if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)c]) == 0)
       break;
 
     *str = *str + 1l;
@@ -23140,15 +23140,15 @@ static void read_map_dat(struct DATAFILE *df)
   signed int i;
   RAW_MAP_NUMBER = 0;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 512))
-      tmp_if_expr$1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     RAW_MAP[(signed long int)i] = (df + (signed long int)i)->dat;
@@ -23165,15 +23165,15 @@ static void read_maptex_dat(struct DATAFILE *df)
   signed int i;
   RAW_MAPTEX_NUMBER = 0;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 512))
-      tmp_if_expr$1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     RAW_MAPTEX[(signed long int)i] = (df + (signed long int)i)->dat;
@@ -23190,15 +23190,15 @@ static void read_music_dat(struct DATAFILE *df)
   signed int i;
   MIDI_MUSIC_NUMBER = 0;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 128))
-      tmp_if_expr$1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     MIDI_MUSIC[(signed long int)i] = (struct MIDI *)(df + (signed long int)i)->dat;
@@ -23224,9 +23224,9 @@ static signed int read_separator(char **message)
   return result;
 }
 
-// read_separator$link1
+// read_separator_link1
 // file wwwcli.c line 340
-static signed int read_separator$link1(char **str)
+static signed int read_separator_link1(char **str)
 {
   signed int ok = 0;
   char c;
@@ -23248,15 +23248,15 @@ static void read_sfx_dat(struct DATAFILE *df)
 {
   struct SAMPLE *list[6l];
   signed int i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 6))
-      tmp_if_expr$1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     list[(signed long int)i] = (struct SAMPLE *)(df + (signed long int)0)->dat;
@@ -23264,15 +23264,15 @@ static void read_sfx_dat(struct DATAFILE *df)
   }
   while((_Bool)1);
   i = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   do
   {
     if(!(i >= 6))
-      tmp_if_expr$2 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     list[(signed long int)i] = (struct SAMPLE *)(df + (signed long int)i)->dat;
@@ -23297,8 +23297,8 @@ static signed int read_string(char *result, char **str, signed int size)
   char c;
   skip_space(str);
   c = *(*str);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if((signed int)c == 39)
   {
     *str = *str + 1l;
@@ -23322,9 +23322,9 @@ static signed int read_string(char *result, char **str, signed int size)
           *str = *str + 1l;
           if(!(i >= size + -1))
           {
-            tmp_post$1 = i;
+            tmp_post_1 = i;
             i = i + 1;
-            result[(signed long int)tmp_post$1] = (char)39;
+            result[(signed long int)tmp_post_1] = (char)39;
           }
 
         }
@@ -23336,18 +23336,18 @@ static signed int read_string(char *result, char **str, signed int size)
       else
         if(!(i >= size + -1))
         {
-          tmp_post$2 = i;
+          tmp_post_2 = i;
           i = i + 1;
-          result[(signed long int)tmp_post$2] = c;
+          result[(signed long int)tmp_post_2] = c;
         }
 
     }
     while((_Bool)1);
   }
 
-  signed int tmp_post$3 = i;
+  signed int tmp_post_3 = i;
   i = i + 1;
-  result[(signed long int)tmp_post$3] = (char)0;
+  result[(signed long int)tmp_post_3] = (char)0;
   skip_space(str);
   return done;
 }
@@ -23359,15 +23359,15 @@ static void read_texture_dat(struct DATAFILE *df)
   signed int i;
   RAW_TEXTURE_NUMBER = 0;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 512))
-      tmp_if_expr$1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     RAW_TEXTURE[(signed long int)i] = (df + (signed long int)i)->dat;
@@ -23382,15 +23382,15 @@ static void read_texture_dat(struct DATAFILE *df)
 static void read_water_dat(struct DATAFILE *df)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 32))
-      tmp_if_expr$1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (df + (signed long int)i)->type != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     SAMPLE_WATER[(signed long int)i] = (struct SAMPLE *)(df + (signed long int)i)->dat;
@@ -23411,7 +23411,7 @@ static char * read_word(char **message)
   char quote_char;
   eat_space(message);
   quote_char = *(*message);
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if((signed int)quote_char == 34 || (signed int)quote_char == 39)
   {
     *message = *message + 1l;
@@ -23429,8 +23429,8 @@ static char * read_word(char **message)
     begin = *message;
     do
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*(*message)]) == 0))
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*(*message)]) == 0))
         break;
 
       if((signed int)*(*message) == 44)
@@ -23446,9 +23446,9 @@ static char * read_word(char **message)
   }
   if(len >= 0)
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(len + 1));
-    result = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(len + 1));
+    result = (char *)return_value_malloc_2;
     if(!(result == ((char *)NULL)))
     {
       if(len >= 1)
@@ -23474,29 +23474,29 @@ static signed int recalculate_number_of_colors(signed int max_number, struct BIT
   signed int n = 1;
   struct RGB color;
   struct RGB pal2[256l];
-  signed int return_value_getpixel$1;
-  return_value_getpixel$1=getpixel$link6(bmp, 0, 0);
-  color = pal[(signed long int)return_value_getpixel$1];
+  signed int return_value_getpixel_1;
+  return_value_getpixel_1=getpixel_link6(bmp, 0, 0);
+  color = pal[(signed long int)return_value_getpixel_1];
   i = 0;
   for( ; !(i >= 256); i = i + 1)
     pal2[(signed long int)i] = color;
   y = 0;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; !(n >= max_number) && !(y >= bmp->h); y = y + 1)
   {
     x = 0;
     for( ; !(n >= max_number) && !(x >= bmp->w); x = x + 1)
     {
-      signed int return_value_getpixel$2;
-      return_value_getpixel$2=getpixel$link6(bmp, x, y);
-      color = pal[(signed long int)return_value_getpixel$2];
-      signed int return_value_exist_color$4;
-      return_value_exist_color$4=exist_color(pal2, color);
-      if(return_value_exist_color$4 == 0)
+      signed int return_value_getpixel_2;
+      return_value_getpixel_2=getpixel_link6(bmp, x, y);
+      color = pal[(signed long int)return_value_getpixel_2];
+      signed int return_value_exist_color_4;
+      return_value_exist_color_4=exist_color(pal2, color);
+      if(return_value_exist_color_4 == 0)
       {
-        tmp_post$3 = n;
+        tmp_post_3 = n;
         n = n + 1;
-        pal2[(signed long int)tmp_post$3] = color;
+        pal2[(signed long int)tmp_post_3] = color;
       }
 
     }
@@ -23511,18 +23511,18 @@ static inline void rect(struct BITMAP *bmp, signed int x1, signed int y_1, signe
   bmp->vtable->rect(bmp, x1, y_1, x2, y2, color);
 }
 
-// rect$link1
+// rect_link1
 // file /usr/include/allegro/inline/draw.inl line 112
-static inline void rect$link1(struct BITMAP *bmp$link1, signed int x1$link1, signed int y_1$link1, signed int x2$link1, signed int y2$link1, signed int color$link1)
+static inline void rect_link1(struct BITMAP *bmp_link1, signed int x1_link1, signed int y_1_link1, signed int x2_link1, signed int y2_link1, signed int color_link1)
 {
-  bmp$link1->vtable->rect(bmp$link1, x1$link1, y_1$link1, x2$link1, y2$link1, color$link1);
+  bmp_link1->vtable->rect(bmp_link1, x1_link1, y_1_link1, x2_link1, y2_link1, color_link1);
 }
 
 // rect_for_viewport
 // file viewport.h line 75
 void rect_for_viewport(void)
 {
-  rect$link1(screen, VIEWPORT_X - 1, (VIEWPORT_Y - 1) + PAGE_FLIP_H, VIEWPORT_X + VIEWPORT_W, VIEWPORT_Y + VIEWPORT_H + PAGE_FLIP_H, 17);
+  rect_link1(screen, VIEWPORT_X - 1, (VIEWPORT_Y - 1) + PAGE_FLIP_H, VIEWPORT_X + VIEWPORT_W, VIEWPORT_Y + VIEWPORT_H + PAGE_FLIP_H, 17);
 }
 
 // rectfill
@@ -23532,41 +23532,41 @@ static inline void rectfill(struct BITMAP *bmp, signed int x1, signed int y_1, s
   bmp->vtable->rectfill(bmp, x1, y_1, x2, y2, color);
 }
 
-// rectfill$link1
+// rectfill_link1
 // file /usr/include/allegro/inline/draw.inl line 88
-static inline void rectfill$link1(struct BITMAP *bmp$link1, signed int x1$link1, signed int y_1$link1, signed int x2$link1, signed int y2$link1, signed int color$link1)
+static inline void rectfill_link1(struct BITMAP *bmp_link1, signed int x1_link1, signed int y_1_link1, signed int x2_link1, signed int y2_link1, signed int color_link1)
 {
-  bmp$link1->vtable->rectfill(bmp$link1, x1$link1, y_1$link1, x2$link1, y2$link1, color$link1);
+  bmp_link1->vtable->rectfill(bmp_link1, x1_link1, y_1_link1, x2_link1, y2_link1, color_link1);
 }
 
-// rectfill$link2
+// rectfill_link2
 // file /usr/include/allegro/inline/draw.inl line 88
-static inline void rectfill$link2(struct BITMAP *bmp$link2, signed int x1$link2, signed int y_1$link2, signed int x2$link2, signed int y2$link2, signed int color$link2)
+static inline void rectfill_link2(struct BITMAP *bmp_link2, signed int x1_link2, signed int y_1_link2, signed int x2_link2, signed int y2_link2, signed int color_link2)
 {
-  bmp$link2->vtable->rectfill(bmp$link2, x1$link2, y_1$link2, x2$link2, y2$link2, color$link2);
+  bmp_link2->vtable->rectfill(bmp_link2, x1_link2, y_1_link2, x2_link2, y2_link2, color_link2);
 }
 
-// rectfill$link3
+// rectfill_link3
 // file /usr/include/allegro/inline/draw.inl line 88
-static inline void rectfill$link3(struct BITMAP *bmp$link3, signed int x1$link3, signed int y_1$link3, signed int x2$link3, signed int y2$link3, signed int color$link3)
+static inline void rectfill_link3(struct BITMAP *bmp_link3, signed int x1_link3, signed int y_1_link3, signed int x2_link3, signed int y2_link3, signed int color_link3)
 {
-  bmp$link3->vtable->rectfill(bmp$link3, x1$link3, y_1$link3, x2$link3, y2$link3, color$link3);
+  bmp_link3->vtable->rectfill(bmp_link3, x1_link3, y_1_link3, x2_link3, y2_link3, color_link3);
 }
 
-// rectfill$link4
+// rectfill_link4
 // file /usr/include/allegro/inline/draw.inl line 88
-static inline void rectfill$link4(struct BITMAP *bmp$link4, signed int x1$link4, signed int y_1$link4, signed int x2$link4, signed int y2$link4, signed int color$link4)
+static inline void rectfill_link4(struct BITMAP *bmp_link4, signed int x1_link4, signed int y_1_link4, signed int x2_link4, signed int y2_link4, signed int color_link4)
 {
-  bmp$link4->vtable->rectfill(bmp$link4, x1$link4, y_1$link4, x2$link4, y2$link4, color$link4);
+  bmp_link4->vtable->rectfill(bmp_link4, x1_link4, y_1_link4, x2_link4, y2_link4, color_link4);
 }
 
 // recv_keys
 // file keyexch.c line 136
-static signed int recv_keys(signed int *sock, struct anonymous$23 *cursors)
+static signed int recv_keys(signed int *sock, struct anonymous_23 *cursors)
 {
   signed int result = 0;
   signed int i;
-  struct anonymous$5 netkey;
+  struct anonymous_5 netkey;
   result=lw_netkey_recv(sock, &netkey);
   i = 0;
   for( ; !(i >= 6); i = i + 1)
@@ -23588,7 +23588,7 @@ static signed int recv_ok(signed int *sock)
   signed int result = 0;
   char message[1000l];
   signed int ret = 0;
-  struct anonymous$6 *netmess;
+  struct anonymous_6 *netmess;
   while(*sock >= 0)
   {
     ret=lw_sock_recv_str(sock, message);
@@ -23601,7 +23601,7 @@ static signed int recv_ok(signed int *sock)
     if(ret >= 1)
     {
       netmess=lw_netmess_read(message);
-      if(!(netmess == ((struct anonymous$6 *)NULL)))
+      if(!(netmess == ((struct anonymous_6 *)NULL)))
       {
         if(netmess->code == 1)
         {
@@ -23657,7 +23657,7 @@ void reset_all_cursor(void)
 {
   signed int i = 0;
   for( ; !(i >= 6); i = i + 1)
-    memset((void *)&CURRENT_CURSOR[(signed long int)i], 0, sizeof(struct anonymous$23) /*56ul*/ );
+    memset((void *)&CURRENT_CURSOR[(signed long int)i], 0, sizeof(struct anonymous_23) /*56ul*/ );
 }
 
 // reset_all_profile
@@ -23717,7 +23717,7 @@ void reset_game_area(void)
   }
   i = 0;
   for( ; !(i >= CURRENT_AREA_H * CURRENT_AREA_W); i = i + 1)
-    (CURRENT_AREA + (signed long int)i)->fighter = (struct anonymous$21 *)(void *)0;
+    (CURRENT_AREA + (signed long int)i)->fighter = (struct anonymous_21 *)(void *)0;
 }
 
 // reset_mesh
@@ -23791,9 +23791,9 @@ signed int rules_options(void)
   char mmr_buffer[50l];
   memset((void *)d, 0, sizeof(struct DIALOG [15l]) /*1080ul*/ );
   memset((void *)time_str, 0, sizeof(char [14l]) /*14ul*/ );
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(56);
-  snprintf(time_str, sizeof(char [14l]) /*14ul*/  - (unsigned long int)1, "%-8s00:00", return_value_lw_lang_string$1);
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(56);
+  snprintf(time_str, sizeof(char [14l]) /*14ul*/  - (unsigned long int)1, "%-8s00:00", return_value_lw_lang_string_1);
   time_str[(signed long int)(sizeof(char [14l]) /*14ul*/  - (unsigned long int)1)] = (char)0;
   i = 0;
   static signed int y_pos[4l] = { 0, 1, 2, 3 };
@@ -23809,18 +23809,18 @@ signed int rules_options(void)
     d[(signed long int)(i + 8)].proc = my_slider_proc;
   }
   standard_button(d + (signed long int)12, 0, 5, 1, 8);
-  char *return_value_lw_lang_string$2;
-  return_value_lw_lang_string$2=lw_lang_string(57);
-  d[(signed long int)12].dp = (void *)return_value_lw_lang_string$2;
+  char *return_value_lw_lang_string_2;
+  return_value_lw_lang_string_2=lw_lang_string(57);
+  d[(signed long int)12].dp = (void *)return_value_lw_lang_string_2;
   standard_button(d + (signed long int)13, 0, 7, 1, 8);
-  char *return_value_lw_lang_string$3;
-  return_value_lw_lang_string$3=lw_lang_string(60);
-  d[(signed long int)13].dp = (void *)return_value_lw_lang_string$3;
+  char *return_value_lw_lang_string_3;
+  return_value_lw_lang_string_3=lw_lang_string(60);
+  d[(signed long int)13].dp = (void *)return_value_lw_lang_string_3;
   quick_buttons(d);
   d[(signed long int)4].dp = (void *)time_str;
-  char *return_value_lw_lang_string$4;
-  return_value_lw_lang_string$4=lw_lang_string(58);
-  d[(signed long int)5].dp = (void *)return_value_lw_lang_string$4;
+  char *return_value_lw_lang_string_4;
+  return_value_lw_lang_string_4=lw_lang_string(58);
+  d[(signed long int)5].dp = (void *)return_value_lw_lang_string_4;
   d[(signed long int)6].dp = (void *)cis_buffer;
   d[(signed long int)7].dp = (void *)mmr_buffer;
   d[(signed long int)8].d1 = 16;
@@ -23883,9 +23883,9 @@ signed int rules_options(void)
 
     __CPROVER_DUMP_L10:
       ;
-      signed int return_value_confirm_quit$5;
-      return_value_confirm_quit$5=confirm_quit();
-      if(!(return_value_confirm_quit$5 == 0))
+      signed int return_value_confirm_quit_5;
+      return_value_confirm_quit_5=confirm_quit();
+      if(!(return_value_confirm_quit_5 == 0))
         retour = -2;
 
       continue;
@@ -23989,25 +23989,25 @@ signed int save_config_options(void)
 
 // send_keys
 // file keyexch.c line 85
-static signed int send_keys(signed int *sock, struct anonymous$23 *cursors, unsigned int checksum)
+static signed int send_keys(signed int *sock, struct anonymous_23 *cursors, unsigned int checksum)
 {
   signed int result = 0;
   signed int i;
-  struct anonymous$5 netkey;
+  struct anonymous_5 netkey;
   lw_netkey_reset(&netkey);
   i = 0;
   for( ; !(i >= 6); i = i + 1)
     if((cursors + (signed long int)i)->from_network == 0)
       netkey.key_states[(signed long int)i] = (cursors + (signed long int)i)->key_state;
 
-  signed int return_value_lw_netkey_peek$1;
-  return_value_lw_netkey_peek$1=lw_netkey_peek(sock, 2);
-  if(return_value_lw_netkey_peek$1 == 0)
+  signed int return_value_lw_netkey_peek_1;
+  return_value_lw_netkey_peek_1=lw_netkey_peek(sock, 2);
+  if(return_value_lw_netkey_peek_1 == 0)
     netkey.cmd = 43;
 
-  signed int return_value_lw_netkey_peek$2;
-  return_value_lw_netkey_peek$2=lw_netkey_peek(sock, 5);
-  if(!(return_value_lw_netkey_peek$2 == 0))
+  signed int return_value_lw_netkey_peek_2;
+  return_value_lw_netkey_peek_2=lw_netkey_peek(sock, 5);
+  if(!(return_value_lw_netkey_peek_2 == 0))
     netkey.cmd = 45;
 
   netkey.checksum = checksum;
@@ -24019,17 +24019,17 @@ static signed int send_keys(signed int *sock, struct anonymous$23 *cursors, unsi
 // file startup.c line 243
 static void set_auto_check(void)
 {
-  signed int return_value_exist_argument$1;
-  return_value_exist_argument$1=exist_argument("auto");
-  if(!(return_value_exist_argument$1 == 0))
+  signed int return_value_exist_argument_1;
+  return_value_exist_argument_1=exist_argument("auto");
+  if(!(return_value_exist_argument_1 == 0))
   {
     STARTUP_AUTO = 1;
     STARTUP_CHECK = 0;
   }
 
-  signed int return_value_exist_argument$2;
-  return_value_exist_argument$2=exist_argument("check");
-  if(!(return_value_exist_argument$2 == 0))
+  signed int return_value_exist_argument_2;
+  return_value_exist_argument_2=exist_argument("check");
+  if(!(return_value_exist_argument_2 == 0))
   {
     STARTUP_AUTO = 0;
     STARTUP_CHECK = 1;
@@ -24044,9 +24044,9 @@ static void set_bg_dialogs_visibility(struct DIALOG *d, signed int *just_hidden)
 {
   signed int state;
   signed int i;
-  signed int return_value_lw_maptex_is_custom_texture_used$1;
-  return_value_lw_maptex_is_custom_texture_used$1=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_BG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
-  state = (signed int)!(return_value_lw_maptex_is_custom_texture_used$1 != 0);
+  signed int return_value_lw_maptex_is_custom_texture_used_1;
+  return_value_lw_maptex_is_custom_texture_used_1=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_BG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
+  state = (signed int)!(return_value_lw_maptex_is_custom_texture_used_1 != 0);
   static signed int last_state = 1;
   if(state == 0 && !(last_state == 0))
     *just_hidden = 1;
@@ -24096,9 +24096,9 @@ void set_bg_texture_palette(signed int num)
 static void set_bigdata_size(void)
 {
   signed int bigd;
-  signed int return_value_exist_argument_value$1;
-  return_value_exist_argument_value$1=exist_argument_value("mem");
-  if(!(return_value_exist_argument_value$1 == 0))
+  signed int return_value_exist_argument_value_1;
+  return_value_exist_argument_value_1=exist_argument_value("mem");
+  if(!(return_value_exist_argument_value_1 == 0))
   {
     bigd=get_argument_int("mem");
     if(!(bigd >= 1))
@@ -24116,9 +24116,9 @@ static void set_bigdata_size(void)
 // file startup.c line 227
 static void set_c_or_asm(void)
 {
-  signed int return_value_exist_argument$1;
-  return_value_exist_argument$1=exist_argument("c");
-  if(!(return_value_exist_argument$1 == 0))
+  signed int return_value_exist_argument_1;
+  return_value_exist_argument_1=exist_argument("c");
+  if(!(return_value_exist_argument_1 == 0))
     STARTUP_ASM = 0;
 
 }
@@ -24143,9 +24143,9 @@ static void set_fg_dialogs_visibility(struct DIALOG *d, signed int *just_hidden)
 {
   signed int state;
   signed int i;
-  signed int return_value_lw_maptex_is_custom_texture_used$1;
-  return_value_lw_maptex_is_custom_texture_used$1=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
-  state = (signed int)!(return_value_lw_maptex_is_custom_texture_used$1 != 0);
+  signed int return_value_lw_maptex_is_custom_texture_used_1;
+  return_value_lw_maptex_is_custom_texture_used_1=lw_maptex_is_custom_texture_used(CONFIG_LEVEL_MAP, CONFIG_LEVEL_FG, 0, LW_RANDOM_ON, CONFIG_USE_DEFAULT_TEXTURE);
+  state = (signed int)!(return_value_lw_maptex_is_custom_texture_used_1 != 0);
   static signed int last_state = 1;
   if(state == 0 && !(last_state == 0))
     *just_hidden = 1;
@@ -24194,9 +24194,9 @@ void set_fg_texture_palette(signed int num)
 // file startup.c line 219
 static void set_graphic_possibilities(void)
 {
-  signed int return_value_exist_argument$1;
-  return_value_exist_argument$1=exist_argument("vga");
-  if(!(return_value_exist_argument$1 == 0))
+  signed int return_value_exist_argument_1;
+  return_value_exist_argument_1=exist_argument("vga");
+  if(!(return_value_exist_argument_1 == 0))
     STARTUP_SVGA = 0;
 
 }
@@ -24205,9 +24205,9 @@ static void set_graphic_possibilities(void)
 // file startup.c line 183
 static void set_joystick(void)
 {
-  signed int return_value_exist_argument$1;
-  return_value_exist_argument$1=exist_argument("nojoy");
-  if(!(return_value_exist_argument$1 == 0))
+  signed int return_value_exist_argument_1;
+  return_value_exist_argument_1=exist_argument("nojoy");
+  if(!(return_value_exist_argument_1 == 0))
     STARTUP_JOYSTICK_ON = 0;
 
 }
@@ -24216,92 +24216,92 @@ static void set_joystick(void)
 // file startup.c line 191
 static void set_load_states(void)
 {
-  signed int return_value_exist_argument$1;
-  return_value_exist_argument$1=exist_argument("noback");
-  if(!(return_value_exist_argument$1 == 0))
+  signed int return_value_exist_argument_1;
+  return_value_exist_argument_1=exist_argument("noback");
+  if(!(return_value_exist_argument_1 == 0))
     STARTUP_BACK_STATE = 0;
 
-  signed int return_value_exist_argument$2;
-  return_value_exist_argument$2=exist_argument("notex");
-  if(!(return_value_exist_argument$2 == 0))
+  signed int return_value_exist_argument_2;
+  return_value_exist_argument_2=exist_argument("notex");
+  if(!(return_value_exist_argument_2 == 0))
     STARTUP_TEXTURE_STATE = 0;
 
-  signed int return_value_exist_argument$3;
-  return_value_exist_argument$3=exist_argument("nowater");
-  _Bool tmp_if_expr$5;
-  signed int return_value_exist_argument$4;
-  if(!(return_value_exist_argument$3 == 0))
-    tmp_if_expr$5 = (_Bool)1;
+  signed int return_value_exist_argument_3;
+  return_value_exist_argument_3=exist_argument("nowater");
+  _Bool tmp_if_expr_5;
+  signed int return_value_exist_argument_4;
+  if(!(return_value_exist_argument_3 == 0))
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_exist_argument$4=exist_argument("silent");
-    tmp_if_expr$5 = return_value_exist_argument$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_exist_argument_4=exist_argument("silent");
+    tmp_if_expr_5 = return_value_exist_argument_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
     STARTUP_WATER_STATE = 0;
 
-  signed int return_value_exist_argument$6;
-  return_value_exist_argument$6=exist_argument("nosfx");
-  _Bool tmp_if_expr$8;
-  signed int return_value_exist_argument$7;
-  if(!(return_value_exist_argument$6 == 0))
-    tmp_if_expr$8 = (_Bool)1;
+  signed int return_value_exist_argument_6;
+  return_value_exist_argument_6=exist_argument("nosfx");
+  _Bool tmp_if_expr_8;
+  signed int return_value_exist_argument_7;
+  if(!(return_value_exist_argument_6 == 0))
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_exist_argument$7=exist_argument("silent");
-    tmp_if_expr$8 = return_value_exist_argument$7 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_exist_argument_7=exist_argument("silent");
+    tmp_if_expr_8 = return_value_exist_argument_7 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$8)
+  if(tmp_if_expr_8)
     STARTUP_SFX_STATE = 0;
 
-  signed int return_value_exist_argument$9;
-  return_value_exist_argument$9=exist_argument("silent");
-  _Bool tmp_if_expr$13;
-  signed int return_value_exist_argument$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_exist_argument$11;
-  if(!(return_value_exist_argument$9 == 0))
-    tmp_if_expr$13 = (_Bool)1;
+  signed int return_value_exist_argument_9;
+  return_value_exist_argument_9=exist_argument("silent");
+  _Bool tmp_if_expr_13;
+  signed int return_value_exist_argument_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_exist_argument_11;
+  if(!(return_value_exist_argument_9 == 0))
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_exist_argument$10=exist_argument("nosfx");
-    if(!(return_value_exist_argument$10 == 0))
+    return_value_exist_argument_10=exist_argument("nosfx");
+    if(!(return_value_exist_argument_10 == 0))
     {
-      return_value_exist_argument$11=exist_argument("nowater");
-      tmp_if_expr$12 = return_value_exist_argument$11 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_exist_argument_11=exist_argument("nowater");
+      tmp_if_expr_12 = return_value_exist_argument_11 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_12 = (_Bool)0;
+    tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$13)
+  if(tmp_if_expr_13)
     STARTUP_DIGI_CARD = 0;
 
-  signed int return_value_exist_argument$14;
-  return_value_exist_argument$14=exist_argument("nomusic");
-  _Bool tmp_if_expr$16;
-  signed int return_value_exist_argument$15;
-  if(!(return_value_exist_argument$14 == 0))
-    tmp_if_expr$16 = (_Bool)1;
+  signed int return_value_exist_argument_14;
+  return_value_exist_argument_14=exist_argument("nomusic");
+  _Bool tmp_if_expr_16;
+  signed int return_value_exist_argument_15;
+  if(!(return_value_exist_argument_14 == 0))
+    tmp_if_expr_16 = (_Bool)1;
 
   else
   {
-    return_value_exist_argument$15=exist_argument("silent");
-    tmp_if_expr$16 = return_value_exist_argument$15 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_exist_argument_15=exist_argument("silent");
+    tmp_if_expr_16 = return_value_exist_argument_15 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$16)
+  if(tmp_if_expr_16)
   {
     STARTUP_MUSIC_STATE = 0;
     STARTUP_MIDI_CARD = 0;
   }
 
-  signed int return_value_exist_argument$17;
-  return_value_exist_argument$17=exist_argument("nocustom");
-  if(!(return_value_exist_argument$17 == 0))
+  signed int return_value_exist_argument_17;
+  return_value_exist_argument_17=exist_argument("nocustom");
+  if(!(return_value_exist_argument_17 == 0))
     STARTUP_CUSTOM_STATE = 0;
 
 }
@@ -24310,14 +24310,14 @@ static void set_load_states(void)
 // file startup.c line 411
 static void set_metaserver(void)
 {
-  signed int return_value_exist_argument_value$2;
-  return_value_exist_argument_value$2=exist_argument_value("metaserver");
-  if(!(return_value_exist_argument_value$2 == 0))
+  signed int return_value_exist_argument_value_2;
+  return_value_exist_argument_value_2=exist_argument_value("metaserver");
+  if(!(return_value_exist_argument_value_2 == 0))
   {
     memset((void *)STARTUP_METASERVER, 0, sizeof(char [200l]) /*200ul*/ );
-    char *return_value_get_argument_str$1;
-    return_value_get_argument_str$1=get_argument_str("metaserver");
-    __builtin_strncpy(STARTUP_METASERVER, return_value_get_argument_str$1, sizeof(char [200l]) /*200ul*/  - (unsigned long int)1);
+    char *return_value_get_argument_str_1;
+    return_value_get_argument_str_1=get_argument_str("metaserver");
+    __builtin_strncpy(STARTUP_METASERVER, return_value_get_argument_str_1, sizeof(char [200l]) /*200ul*/  - (unsigned long int)1);
     STARTUP_METASERVER[(signed long int)(sizeof(char [200l]) /*200ul*/  - (unsigned long int)1)] = (char)0;
   }
 
@@ -24333,14 +24333,14 @@ static void set_metaserver(void)
 // file startup.c line 426
 static void set_misc(void)
 {
-  signed int return_value_exist_argument$1;
-  return_value_exist_argument$1=exist_argument("capture");
-  if(!(return_value_exist_argument$1 == 0))
+  signed int return_value_exist_argument_1;
+  return_value_exist_argument_1=exist_argument("capture");
+  if(!(return_value_exist_argument_1 == 0))
     STARTUP_CAPTURE = 1;
 
-  signed int return_value_exist_argument$2;
-  return_value_exist_argument$2=exist_argument("tombola");
-  if(!(return_value_exist_argument$2 == 0))
+  signed int return_value_exist_argument_2;
+  return_value_exist_argument_2=exist_argument("tombola");
+  if(!(return_value_exist_argument_2 == 0))
     STARTUP_TOMBOLA = 1;
 
 }
@@ -24367,14 +24367,14 @@ static void set_path(void)
 {
   char home_path[512l];
   char *home_env = (char *)(void *)0;
-  signed int return_value_exist_argument_value$2;
-  return_value_exist_argument_value$2=exist_argument_value("cfg");
-  if(!(return_value_exist_argument_value$2 == 0))
+  signed int return_value_exist_argument_value_2;
+  return_value_exist_argument_value_2=exist_argument_value("cfg");
+  if(!(return_value_exist_argument_value_2 == 0))
   {
     memset((void *)STARTUP_CFG_PATH, 0, sizeof(char [1000l]) /*1000ul*/ );
-    char *return_value_get_argument_str$1;
-    return_value_get_argument_str$1=get_argument_str("cfg");
-    __builtin_strncpy(STARTUP_CFG_PATH, return_value_get_argument_str$1, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
+    char *return_value_get_argument_str_1;
+    return_value_get_argument_str_1=get_argument_str("cfg");
+    __builtin_strncpy(STARTUP_CFG_PATH, return_value_get_argument_str_1, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_CFG_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
 
@@ -24402,14 +24402,14 @@ static void set_path(void)
   memset((void *)STARTUP_LOG_PATH, 0, sizeof(char [1000l]) /*1000ul*/ );
   __builtin_strncpy(STARTUP_LOG_PATH, DEFAULT_LOG_PATH, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
   STARTUP_LOG_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
-  signed int return_value_exist_argument_value$4;
-  return_value_exist_argument_value$4=exist_argument_value("dat");
-  if(!(return_value_exist_argument_value$4 == 0))
+  signed int return_value_exist_argument_value_4;
+  return_value_exist_argument_value_4=exist_argument_value("dat");
+  if(!(return_value_exist_argument_value_4 == 0))
   {
     memset((void *)STARTUP_DAT_PATH, 0, sizeof(char [1000l]) /*1000ul*/ );
-    char *return_value_get_argument_str$3;
-    return_value_get_argument_str$3=get_argument_str("dat");
-    __builtin_strncpy(STARTUP_DAT_PATH, return_value_get_argument_str$3, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
+    char *return_value_get_argument_str_3;
+    return_value_get_argument_str_3=get_argument_str("dat");
+    __builtin_strncpy(STARTUP_DAT_PATH, return_value_get_argument_str_3, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_DAT_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
 
@@ -24419,14 +24419,14 @@ static void set_path(void)
     __builtin_strncpy(STARTUP_DAT_PATH, DEFAULT_DAT_PATH, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_DAT_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
-  signed int return_value_exist_argument_value$6;
-  return_value_exist_argument_value$6=exist_argument_value("tex");
-  if(!(return_value_exist_argument_value$6 == 0))
+  signed int return_value_exist_argument_value_6;
+  return_value_exist_argument_value_6=exist_argument_value("tex");
+  if(!(return_value_exist_argument_value_6 == 0))
   {
     memset((void *)STARTUP_TEX_PATH, 0, sizeof(char [1000l]) /*1000ul*/ );
-    char *return_value_get_argument_str$5;
-    return_value_get_argument_str$5=get_argument_str("tex");
-    __builtin_strncpy(STARTUP_TEX_PATH, return_value_get_argument_str$5, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
+    char *return_value_get_argument_str_5;
+    return_value_get_argument_str_5=get_argument_str("tex");
+    __builtin_strncpy(STARTUP_TEX_PATH, return_value_get_argument_str_5, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_TEX_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
 
@@ -24436,14 +24436,14 @@ static void set_path(void)
     __builtin_strncpy(STARTUP_TEX_PATH, DEFAULT_TEX_PATH, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_TEX_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
-  signed int return_value_exist_argument_value$8;
-  return_value_exist_argument_value$8=exist_argument_value("map");
-  if(!(return_value_exist_argument_value$8 == 0))
+  signed int return_value_exist_argument_value_8;
+  return_value_exist_argument_value_8=exist_argument_value("map");
+  if(!(return_value_exist_argument_value_8 == 0))
   {
     memset((void *)STARTUP_MAP_PATH, 0, sizeof(char [1000l]) /*1000ul*/ );
-    char *return_value_get_argument_str$7;
-    return_value_get_argument_str$7=get_argument_str("map");
-    __builtin_strncpy(STARTUP_MAP_PATH, return_value_get_argument_str$7, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
+    char *return_value_get_argument_str_7;
+    return_value_get_argument_str_7=get_argument_str("map");
+    __builtin_strncpy(STARTUP_MAP_PATH, return_value_get_argument_str_7, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_MAP_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
 
@@ -24453,14 +24453,14 @@ static void set_path(void)
     __builtin_strncpy(STARTUP_MAP_PATH, DEFAULT_MAP_PATH, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_MAP_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
-  signed int return_value_exist_argument_value$10;
-  return_value_exist_argument_value$10=exist_argument_value("mid");
-  if(!(return_value_exist_argument_value$10 == 0))
+  signed int return_value_exist_argument_value_10;
+  return_value_exist_argument_value_10=exist_argument_value("mid");
+  if(!(return_value_exist_argument_value_10 == 0))
   {
     memset((void *)STARTUP_MID_PATH, 0, sizeof(char [1000l]) /*1000ul*/ );
-    char *return_value_get_argument_str$9;
-    return_value_get_argument_str$9=get_argument_str("mid");
-    __builtin_strncpy(STARTUP_MID_PATH, return_value_get_argument_str$9, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
+    char *return_value_get_argument_str_9;
+    return_value_get_argument_str_9=get_argument_str("mid");
+    __builtin_strncpy(STARTUP_MID_PATH, return_value_get_argument_str_9, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_MID_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
 
@@ -24470,14 +24470,14 @@ static void set_path(void)
     __builtin_strncpy(STARTUP_MID_PATH, DEFAULT_MID_PATH, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_MID_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
-  signed int return_value_exist_argument_value$12;
-  return_value_exist_argument_value$12=exist_argument_value("server");
-  if(!(return_value_exist_argument_value$12 == 0))
+  signed int return_value_exist_argument_value_12;
+  return_value_exist_argument_value_12=exist_argument_value("server");
+  if(!(return_value_exist_argument_value_12 == 0))
   {
     memset((void *)STARTUP_SRV_PATH, 0, sizeof(char [1000l]) /*1000ul*/ );
-    char *return_value_get_argument_str$11;
-    return_value_get_argument_str$11=get_argument_str("server");
-    __builtin_strncpy(STARTUP_SRV_PATH, return_value_get_argument_str$11, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
+    char *return_value_get_argument_str_11;
+    return_value_get_argument_str_11=get_argument_str("server");
+    __builtin_strncpy(STARTUP_SRV_PATH, return_value_get_argument_str_11, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_SRV_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
 
@@ -24487,14 +24487,14 @@ static void set_path(void)
     __builtin_strncpy(STARTUP_SRV_PATH, DEFAULT_SRV_PATH, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_SRV_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
-  signed int return_value_exist_argument_value$14;
-  return_value_exist_argument_value$14=exist_argument_value("mapgen");
-  if(!(return_value_exist_argument_value$14 == 0))
+  signed int return_value_exist_argument_value_14;
+  return_value_exist_argument_value_14=exist_argument_value("mapgen");
+  if(!(return_value_exist_argument_value_14 == 0))
   {
     memset((void *)STARTUP_GEN_PATH, 0, sizeof(char [1000l]) /*1000ul*/ );
-    char *return_value_get_argument_str$13;
-    return_value_get_argument_str$13=get_argument_str("mapgen");
-    __builtin_strncpy(STARTUP_GEN_PATH, return_value_get_argument_str$13, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
+    char *return_value_get_argument_str_13;
+    return_value_get_argument_str_13=get_argument_str("mapgen");
+    __builtin_strncpy(STARTUP_GEN_PATH, return_value_get_argument_str_13, sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1);
     STARTUP_GEN_PATH[(signed long int)(sizeof(char [1000l]) /*1000ul*/  - (unsigned long int)1)] = (char)0;
   }
 
@@ -24571,20 +24571,20 @@ static void set_raw_texture_palette(void *ptr, signed int first)
   char *data = (char *)ptr;
   data = data + (signed long int)(4 + 16);
   i = first;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
   for( ; !(i >= 32 + first); i = i + 1)
   {
-    tmp_post$1 = data;
+    tmp_post_1 = data;
     data = data + 1l;
-    GLOBAL_PALETTE[(signed long int)i].r = (unsigned char)*tmp_post$1;
-    tmp_post$2 = data;
+    GLOBAL_PALETTE[(signed long int)i].r = (unsigned char)*tmp_post_1;
+    tmp_post_2 = data;
     data = data + 1l;
-    GLOBAL_PALETTE[(signed long int)i].g = (unsigned char)*tmp_post$2;
-    tmp_post$3 = data;
+    GLOBAL_PALETTE[(signed long int)i].g = (unsigned char)*tmp_post_2;
+    tmp_post_3 = data;
     data = data + 1l;
-    GLOBAL_PALETTE[(signed long int)i].b = (unsigned char)*tmp_post$3;
+    GLOBAL_PALETTE[(signed long int)i].b = (unsigned char)*tmp_post_3;
   }
 }
 
@@ -24633,24 +24633,24 @@ signed int set_resolution(signed int res, signed int flip, signed int fullscreen
     }
     toggle = toggle + 1;
   }
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(ret == 0)
   {
     set_palette(black_palette);
     if(!(gfx_driver == ((struct GFX_DRIVER *)NULL)))
-      tmp_if_expr$1 = gfx_driver->w;
+      tmp_if_expr_1 = gfx_driver->w;
 
     else
-      tmp_if_expr$1 = 0;
-    if(tmp_if_expr$1 >= 640)
+      tmp_if_expr_1 = 0;
+    if(tmp_if_expr_1 >= 640)
       font = BIG_FONT;
 
     else
       font = SMALL_FONT;
     lw_mouse_show();
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(1);
-    set_window_title(return_value_lw_lang_string$2);
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(1);
+    set_window_title(return_value_lw_lang_string_2);
   }
 
   else
@@ -24662,17 +24662,17 @@ signed int set_resolution(signed int res, signed int flip, signed int fullscreen
 // file startup.c line 260
 static void set_safe(void)
 {
-  signed int return_value_exist_argument$1;
-  return_value_exist_argument$1=exist_argument("nice");
-  if(!(return_value_exist_argument$1 == 0))
+  signed int return_value_exist_argument_1;
+  return_value_exist_argument_1=exist_argument("nice");
+  if(!(return_value_exist_argument_1 == 0))
   {
     STARTUP_BIG_DATA = 4096;
     STARTUP_SVGA = 0;
   }
 
-  signed int return_value_exist_argument$2;
-  return_value_exist_argument$2=exist_argument("safe");
-  if(!(return_value_exist_argument$2 == 0))
+  signed int return_value_exist_argument_2;
+  return_value_exist_argument_2=exist_argument("safe");
+  if(!(return_value_exist_argument_2 == 0))
   {
     STARTUP_JOYSTICK_ON = 0;
     STARTUP_BIG_DATA = 1024;
@@ -24710,9 +24710,9 @@ void set_startup(void)
 // file startup.c line 235
 static void set_stop(void)
 {
-  signed int return_value_exist_argument$1;
-  return_value_exist_argument$1=exist_argument("stop");
-  if(!(return_value_exist_argument$1 == 0))
+  signed int return_value_exist_argument_1;
+  return_value_exist_argument_1=exist_argument("stop");
+  if(!(return_value_exist_argument_1 == 0))
     STARTUP_STOP = 1;
 
 }
@@ -24767,11 +24767,11 @@ static inline void set_window_title(const char *name)
 // file wwwcli.c line 245
 static void skip_space(char **str)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*(*str)]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*(*str)]) == 0)
     {
       if(!((signed int)*(*str) == 13))
         break;
@@ -24970,14 +24970,14 @@ static void sort_light_and_dark(struct BITMAP *bmp, struct RGB *pal)
     else
       table[(signed long int)i] = (char)0;
   y = 0;
-  signed int return_value_getpixel$1;
+  signed int return_value_getpixel_1;
   for( ; !(y >= bmp->h); y = y + 1)
   {
     x = 0;
     for( ; !(x >= bmp->w); x = x + 1)
     {
-      return_value_getpixel$1=getpixel$link3(bmp, x, y);
-      putpixel$link6(bmp, x, y, (signed int)table[(signed long int)return_value_getpixel$1]);
+      return_value_getpixel_1=getpixel_link3(bmp, x, y);
+      putpixel_link6(bmp, x, y, (signed int)table[(signed long int)return_value_getpixel_1]);
     }
   }
 }
@@ -25006,21 +25006,21 @@ signed int sound_options(void)
     d[(signed long int)(i + 9)].proc = my_slider_proc;
   }
   quick_buttons(d);
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(51);
-  d[(signed long int)4].dp = (void *)return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
-  return_value_lw_lang_string$2=lw_lang_string(52);
-  d[(signed long int)5].dp = (void *)return_value_lw_lang_string$2;
-  char *return_value_lw_lang_string$3;
-  return_value_lw_lang_string$3=lw_lang_string(53);
-  d[(signed long int)6].dp = (void *)return_value_lw_lang_string$3;
-  char *return_value_lw_lang_string$4;
-  return_value_lw_lang_string$4=lw_lang_string(54);
-  d[(signed long int)7].dp = (void *)return_value_lw_lang_string$4;
-  char *return_value_lw_lang_string$5;
-  return_value_lw_lang_string$5=lw_lang_string(55);
-  d[(signed long int)8].dp = (void *)return_value_lw_lang_string$5;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(51);
+  d[(signed long int)4].dp = (void *)return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
+  return_value_lw_lang_string_2=lw_lang_string(52);
+  d[(signed long int)5].dp = (void *)return_value_lw_lang_string_2;
+  char *return_value_lw_lang_string_3;
+  return_value_lw_lang_string_3=lw_lang_string(53);
+  d[(signed long int)6].dp = (void *)return_value_lw_lang_string_3;
+  char *return_value_lw_lang_string_4;
+  return_value_lw_lang_string_4=lw_lang_string(54);
+  d[(signed long int)7].dp = (void *)return_value_lw_lang_string_4;
+  char *return_value_lw_lang_string_5;
+  return_value_lw_lang_string_5=lw_lang_string(55);
+  d[(signed long int)8].dp = (void *)return_value_lw_lang_string_5;
   d[(signed long int)9].dp3 = (void *)&CONFIG_SFX_VOLUME;
   d[(signed long int)10].dp3 = (void *)&CONFIG_CLICK_VOLUME;
   d[(signed long int)11].dp3 = (void *)&CONFIG_WATER_VOLUME_GAME;
@@ -25064,9 +25064,9 @@ signed int sound_options(void)
 
     __CPROVER_DUMP_L10:
       ;
-      signed int return_value_confirm_quit$6;
-      return_value_confirm_quit$6=confirm_quit();
-      if(!(return_value_confirm_quit$6 == 0))
+      signed int return_value_confirm_quit_6;
+      return_value_confirm_quit_6=confirm_quit();
+      if(!(return_value_confirm_quit_6 == 0))
         retour = -2;
 
       else
@@ -25158,9 +25158,9 @@ signed int speeds_options(void)
 
     __CPROVER_DUMP_L10:
       ;
-      signed int return_value_confirm_quit$1;
-      return_value_confirm_quit$1=confirm_quit();
-      if(!(return_value_confirm_quit$1 == 0))
+      signed int return_value_confirm_quit_1;
+      return_value_confirm_quit_1=confirm_quit();
+      if(!(return_value_confirm_quit_1 == 0))
         retour = -2;
 
       continue;
@@ -25188,14 +25188,14 @@ static signed int spread_color_down(struct BITMAP *bmp, signed int color1, signe
   signed int y2;
   signed int found = 0;
   y = 0;
-  signed int return_value_getpixel$5;
+  signed int return_value_getpixel_5;
   for( ; !(y >= bmp->h); y = y + 1)
   {
     x = 0;
     for( ; !(x >= bmp->w); x = x + 1)
     {
-      return_value_getpixel$5=getpixel$link3(bmp, x, y);
-      if(return_value_getpixel$5 == color2)
+      return_value_getpixel_5=getpixel_link3(bmp, x, y);
+      if(return_value_getpixel_5 == color2)
       {
         x1 = x - 1;
         if(!(x1 >= 0))
@@ -25213,35 +25213,35 @@ static signed int spread_color_down(struct BITMAP *bmp, signed int color1, signe
         if(!(bmp->h + -1 >= y2))
           y2 = bmp->h - 1;
 
-        signed int return_value_getpixel$1;
-        return_value_getpixel$1=getpixel$link3(bmp, x2, y);
-        if(return_value_getpixel$1 == color1)
+        signed int return_value_getpixel_1;
+        return_value_getpixel_1=getpixel_link3(bmp, x2, y);
+        if(return_value_getpixel_1 == color1)
         {
-          putpixel$link6(bmp, x2, y, color2);
+          putpixel_link6(bmp, x2, y, color2);
           found = found + 1;
         }
 
-        signed int return_value_getpixel$2;
-        return_value_getpixel$2=getpixel$link3(bmp, x2, y2);
-        if(return_value_getpixel$2 == color1)
+        signed int return_value_getpixel_2;
+        return_value_getpixel_2=getpixel_link3(bmp, x2, y2);
+        if(return_value_getpixel_2 == color1)
         {
-          putpixel$link6(bmp, x2, y2, color2);
+          putpixel_link6(bmp, x2, y2, color2);
           found = found + 1;
         }
 
-        signed int return_value_getpixel$3;
-        return_value_getpixel$3=getpixel$link3(bmp, x, y2);
-        if(return_value_getpixel$3 == color1)
+        signed int return_value_getpixel_3;
+        return_value_getpixel_3=getpixel_link3(bmp, x, y2);
+        if(return_value_getpixel_3 == color1)
         {
-          putpixel$link6(bmp, x, y2, color2);
+          putpixel_link6(bmp, x, y2, color2);
           found = found + 1;
         }
 
-        signed int return_value_getpixel$4;
-        return_value_getpixel$4=getpixel$link3(bmp, x1, y2);
-        if(return_value_getpixel$4 == color1)
+        signed int return_value_getpixel_4;
+        return_value_getpixel_4=getpixel_link3(bmp, x1, y2);
+        if(return_value_getpixel_4 == color1)
         {
-          putpixel$link6(bmp, x1, y2, color2);
+          putpixel_link6(bmp, x1, y2, color2);
           found = found + 1;
         }
 
@@ -25264,14 +25264,14 @@ static signed int spread_color_up(struct BITMAP *bmp, signed int color1, signed 
   signed int y2;
   signed int found = 0;
   y = bmp->h - 1;
-  signed int return_value_getpixel$5;
+  signed int return_value_getpixel_5;
   for( ; y >= 0; y = y - 1)
   {
     x = bmp->w - 1;
     for( ; x >= 0; x = x - 1)
     {
-      return_value_getpixel$5=getpixel$link3(bmp, x, y);
-      if(return_value_getpixel$5 == color2)
+      return_value_getpixel_5=getpixel_link3(bmp, x, y);
+      if(return_value_getpixel_5 == color2)
       {
         x1 = x - 1;
         if(!(x1 >= 0))
@@ -25289,35 +25289,35 @@ static signed int spread_color_up(struct BITMAP *bmp, signed int color1, signed 
         if(!(bmp->h + -1 >= y2))
           y2 = bmp->h - 1;
 
-        signed int return_value_getpixel$1;
-        return_value_getpixel$1=getpixel$link3(bmp, x1, y);
-        if(return_value_getpixel$1 == color1)
+        signed int return_value_getpixel_1;
+        return_value_getpixel_1=getpixel_link3(bmp, x1, y);
+        if(return_value_getpixel_1 == color1)
         {
-          putpixel$link6(bmp, x1, y, color2);
+          putpixel_link6(bmp, x1, y, color2);
           found = found + 1;
         }
 
-        signed int return_value_getpixel$2;
-        return_value_getpixel$2=getpixel$link3(bmp, x1, y1);
-        if(return_value_getpixel$2 == color1)
+        signed int return_value_getpixel_2;
+        return_value_getpixel_2=getpixel_link3(bmp, x1, y1);
+        if(return_value_getpixel_2 == color1)
         {
-          putpixel$link6(bmp, x1, y1, color2);
+          putpixel_link6(bmp, x1, y1, color2);
           found = found + 1;
         }
 
-        signed int return_value_getpixel$3;
-        return_value_getpixel$3=getpixel$link3(bmp, x, y1);
-        if(return_value_getpixel$3 == color1)
+        signed int return_value_getpixel_3;
+        return_value_getpixel_3=getpixel_link3(bmp, x, y1);
+        if(return_value_getpixel_3 == color1)
         {
-          putpixel$link6(bmp, x, y1, color2);
+          putpixel_link6(bmp, x, y1, color2);
           found = found + 1;
         }
 
-        signed int return_value_getpixel$4;
-        return_value_getpixel$4=getpixel$link3(bmp, x2, y1);
-        if(return_value_getpixel$4 == color1)
+        signed int return_value_getpixel_4;
+        return_value_getpixel_4=getpixel_link3(bmp, x2, y1);
+        if(return_value_getpixel_4 == color1)
         {
-          putpixel$link6(bmp, x2, y1, color2);
+          putpixel_link6(bmp, x2, y1, color2);
           found = found + 1;
         }
 
@@ -25335,9 +25335,9 @@ void spread_single_gradient(void)
   signed int i;
   signed int new_grad;
   signed int dir;
-  struct anonymous$0 *pos;
-  struct anonymous$0 *last;
-  struct anonymous$0 *temp;
+  struct anonymous_0 *pos;
+  struct anonymous_0 *last;
+  struct anonymous_0 *temp;
   dir = (GLOBAL_CLOCK * 7) % 12;
   switch(dir)
   {
@@ -25360,8 +25360,8 @@ void spread_single_gradient(void)
         i = 0;
         for( ; !(i >= PLAYING_TEAMS); i = i + 1)
         {
-          temp = (struct anonymous$0 *)pos->link[(signed long int)dir];
-          if(!(temp == ((struct anonymous$0 *)NULL)))
+          temp = (struct anonymous_0 *)pos->link[(signed long int)dir];
+          if(!(temp == ((struct anonymous_0 *)NULL)))
           {
             new_grad = (signed int)pos->info[(signed long int)i].state.grad + (signed int)pos->side.size;
             if(!(new_grad >= (signed int)temp->info[(signed long int)i].state.grad))
@@ -25392,8 +25392,8 @@ void spread_single_gradient(void)
         i = 0;
         for( ; !(i >= PLAYING_TEAMS); i = i + 1)
         {
-          temp = (struct anonymous$0 *)pos->link[(signed long int)dir];
-          if(!(temp == ((struct anonymous$0 *)NULL)))
+          temp = (struct anonymous_0 *)pos->link[(signed long int)dir];
+          if(!(temp == ((struct anonymous_0 *)NULL)))
           {
             new_grad = (signed int)pos->info[(signed long int)i].state.grad + (signed int)pos->side.size;
             if(!(new_grad >= (signed int)temp->info[(signed long int)i].state.grad))
@@ -25427,9 +25427,9 @@ static signed int sqr255(signed int i)
 static signed int sqrt255(signed int i)
 {
   signed int result;
-  signed int return_value_fsqrt$1;
-  return_value_fsqrt$1=fsqrt$link2(i * 256);
-  result = return_value_fsqrt$1 / 256;
+  signed int return_value_fsqrt_1;
+  return_value_fsqrt_1=fsqrt_link2(i * 256);
+  result = return_value_fsqrt_1 / 256;
   if(result >= 256)
     result = 255;
 
@@ -25441,11 +25441,11 @@ static signed int sqrt255(signed int i)
 void standard_big_button(struct DIALOG *d, signed int x_pos, signed int y_pos, signed int x_num, signed int y_num)
 {
   d->proc = my_button_proc;
-  signed int return_value_find_center$1;
-  return_value_find_center$1=find_center(x_pos, x_num, 100 * 2 + 3, 320);
-  signed int return_value_find_center$2;
-  return_value_find_center$2=find_center(y_pos, y_num, 15 + 3, 240);
-  center_one_dialog(d, return_value_find_center$1, return_value_find_center$2, 100 * 2, 15);
+  signed int return_value_find_center_1;
+  return_value_find_center_1=find_center(x_pos, x_num, 100 * 2 + 3, 320);
+  signed int return_value_find_center_2;
+  return_value_find_center_2=find_center(y_pos, y_num, 15 + 3, 240);
+  center_one_dialog(d, return_value_find_center_1, return_value_find_center_2, 100 * 2, 15);
   color_one_dialog(d);
   menu_real_coord(d);
   d->key = 0;
@@ -25458,11 +25458,11 @@ void standard_big_button(struct DIALOG *d, signed int x_pos, signed int y_pos, s
 void standard_button(struct DIALOG *d, signed int x_pos, signed int y_pos, signed int x_num, signed int y_num)
 {
   d->proc = my_button_proc;
-  signed int return_value_find_center$1;
-  return_value_find_center$1=find_center(x_pos, x_num, 100 + 3, 320);
-  signed int return_value_find_center$2;
-  return_value_find_center$2=find_center(y_pos, y_num, 15 + 3, 240);
-  center_one_dialog(d, return_value_find_center$1, return_value_find_center$2, 100, 15);
+  signed int return_value_find_center_1;
+  return_value_find_center_1=find_center(x_pos, x_num, 100 + 3, 320);
+  signed int return_value_find_center_2;
+  return_value_find_center_2=find_center(y_pos, y_num, 15 + 3, 240);
+  center_one_dialog(d, return_value_find_center_1, return_value_find_center_2, 100, 15);
   color_one_dialog(d);
   menu_real_coord(d);
   d->key = 0;
@@ -25502,11 +25502,11 @@ static signed int standard_error(char *str)
 void standard_small_button(struct DIALOG *d, signed int x_pos, signed int y_pos, signed int x_num, signed int y_num)
 {
   d->proc = my_button_proc;
-  signed int return_value_find_center$1;
-  return_value_find_center$1=find_center(x_pos, x_num, 100 / 2 + 3, 320);
-  signed int return_value_find_center$2;
-  return_value_find_center$2=find_center(y_pos, y_num, 15 + 3, 240);
-  center_one_dialog(d, return_value_find_center$1, return_value_find_center$2, 100 / 2, 15);
+  signed int return_value_find_center_1;
+  return_value_find_center_1=find_center(x_pos, x_num, 100 / 2 + 3, 320);
+  signed int return_value_find_center_2;
+  return_value_find_center_2=find_center(y_pos, y_num, 15 + 3, 240);
+  center_one_dialog(d, return_value_find_center_1, return_value_find_center_2, 100 / 2, 15);
   color_one_dialog(d);
   menu_real_coord(d);
   d->key = 0;
@@ -25519,9 +25519,9 @@ void standard_small_button(struct DIALOG *d, signed int x_pos, signed int y_pos,
 signed int start_graphic(void)
 {
   signed int retour;
-  signed int return_value_set_resolution$1;
-  return_value_set_resolution$1=set_resolution(CONFIG_GFX_MENU, 0, CONFIG_FULLSCREEN, (signed int *)(void *)0);
-  retour = (signed int)!(return_value_set_resolution$1 != 0);
+  signed int return_value_set_resolution_1;
+  return_value_set_resolution_1=set_resolution(CONFIG_GFX_MENU, 0, CONFIG_FULLSCREEN, (signed int *)(void *)0);
+  retour = (signed int)!(return_value_set_resolution_1 != 0);
   return retour;
 }
 
@@ -25537,9 +25537,9 @@ extern signed int start_music(void)
     if(MIDI_MUSIC_NUMBER >= 2)
       do
       {
-        signed long int return_value_random$1;
-        return_value_random$1=random();
-        i = (signed int)(return_value_random$1 % (signed long int)MIDI_MUSIC_NUMBER);
+        signed long int return_value_random_1;
+        return_value_random_1=random();
+        i = (signed int)(return_value_random_1 % (signed long int)MIDI_MUSIC_NUMBER);
       }
       while(i == last_file);
 
@@ -25595,11 +25595,11 @@ signed int start_water(void)
 {
   signed int result = 1;
   signed int i = 0;
-  signed long int return_value_random$1;
+  signed long int return_value_random_1;
   for( ; !(i >= 1024); i = i + 1)
   {
-    return_value_random$1=random();
-    HASARD_VALUE[(signed long int)i] = (signed int)(return_value_random$1 + (signed long int)i);
+    return_value_random_1=random();
+    HASARD_VALUE[(signed long int)i] = (signed int)(return_value_random_1 + (signed long int)i);
   }
   if(!(LOADED_WATER == 0))
   {
@@ -25625,9 +25625,9 @@ extern void stop_music(void)
 void stop_profile(signed int indice)
 {
   PROFILE_DATA[(signed long int)indice].record_number = PROFILE_DATA[(signed long int)indice].record_number + 1;
-  signed int return_value_get_ticker$1;
-  return_value_get_ticker$1=get_ticker();
-  PROFILE_DATA[(signed long int)indice].total_time = PROFILE_DATA[(signed long int)indice].total_time + (return_value_get_ticker$1 - PROFILE_DATA[(signed long int)indice].start);
+  signed int return_value_get_ticker_1;
+  return_value_get_ticker_1=get_ticker();
+  PROFILE_DATA[(signed long int)indice].total_time = PROFILE_DATA[(signed long int)indice].total_time + (return_value_get_ticker_1 - PROFILE_DATA[(signed long int)indice].start);
   if(PROFILE_DATA[(signed long int)indice].record_number >= 20)
   {
     PROFILE_DATA[(signed long int)indice].record_number = PROFILE_DATA[(signed long int)indice].record_number / 2;
@@ -25678,24 +25678,24 @@ static void team_param(struct DIALOG *d, signed int x, signed int y, signed int 
   signed int i;
   (d + (signed long int)0)->x = x;
   (d + (signed long int)0)->y = y;
-  signed int return_value_menu_real_x$1;
-  return_value_menu_real_x$1=menu_real_x(75 - 2 * 3);
-  w1 = (return_value_menu_real_x$1 + 2) / 12;
-  signed int return_value_menu_real_x$2;
-  return_value_menu_real_x$2=menu_real_x(75 - 2 * 3);
-  w2 = (return_value_menu_real_x$2 + 2) / 2;
-  signed int return_value_menu_real_x$3;
-  return_value_menu_real_x$3=menu_real_x(75 - 2 * 3);
-  w3 = return_value_menu_real_x$3 + 2;
-  signed int return_value_menu_real_y$4;
-  return_value_menu_real_y$4=menu_real_y(90 - 2 * 3);
-  h = (return_value_menu_real_y$4 + 2) / 6;
-  signed int return_value_menu_real_x$5;
-  return_value_menu_real_x$5=menu_real_x(3);
-  x = x + 2 + return_value_menu_real_x$5;
-  signed int return_value_menu_real_y$6;
-  return_value_menu_real_y$6=menu_real_y(3);
-  y = y + 2 + return_value_menu_real_y$6;
+  signed int return_value_menu_real_x_1;
+  return_value_menu_real_x_1=menu_real_x(75 - 2 * 3);
+  w1 = (return_value_menu_real_x_1 + 2) / 12;
+  signed int return_value_menu_real_x_2;
+  return_value_menu_real_x_2=menu_real_x(75 - 2 * 3);
+  w2 = (return_value_menu_real_x_2 + 2) / 2;
+  signed int return_value_menu_real_x_3;
+  return_value_menu_real_x_3=menu_real_x(75 - 2 * 3);
+  w3 = return_value_menu_real_x_3 + 2;
+  signed int return_value_menu_real_y_4;
+  return_value_menu_real_y_4=menu_real_y(90 - 2 * 3);
+  h = (return_value_menu_real_y_4 + 2) / 6;
+  signed int return_value_menu_real_x_5;
+  return_value_menu_real_x_5=menu_real_x(3);
+  x = x + 2 + return_value_menu_real_x_5;
+  signed int return_value_menu_real_y_6;
+  return_value_menu_real_y_6=menu_real_y(3);
+  y = y + 2 + return_value_menu_real_y_6;
   i = 0;
   for( ; !(i >= 20); i = i + 1)
   {
@@ -25745,18 +25745,18 @@ static void team_param(struct DIALOG *d, signed int x, signed int y, signed int 
   (d + (signed long int)18)->y = y + 4 * h;
   (d + (signed long int)17)->y = (d + (signed long int)18)->y;
   (d + (signed long int)19)->y = y + 5 * h;
-  char *return_value_get_key_name$7;
-  return_value_get_key_name$7=get_key_name(CONFIG_KEY_UP[(signed long int)number]);
-  (d + (signed long int)16)->dp = (void *)return_value_get_key_name$7;
-  char *return_value_get_key_name$8;
-  return_value_get_key_name$8=get_key_name(CONFIG_KEY_LEFT[(signed long int)number]);
-  (d + (signed long int)17)->dp = (void *)return_value_get_key_name$8;
-  char *return_value_get_key_name$9;
-  return_value_get_key_name$9=get_key_name(CONFIG_KEY_RIGHT[(signed long int)number]);
-  (d + (signed long int)18)->dp = (void *)return_value_get_key_name$9;
-  char *return_value_get_key_name$10;
-  return_value_get_key_name$10=get_key_name(CONFIG_KEY_DOWN[(signed long int)number]);
-  (d + (signed long int)19)->dp = (void *)return_value_get_key_name$10;
+  char *return_value_get_key_name_7;
+  return_value_get_key_name_7=get_key_name(CONFIG_KEY_UP[(signed long int)number]);
+  (d + (signed long int)16)->dp = (void *)return_value_get_key_name_7;
+  char *return_value_get_key_name_8;
+  return_value_get_key_name_8=get_key_name(CONFIG_KEY_LEFT[(signed long int)number]);
+  (d + (signed long int)17)->dp = (void *)return_value_get_key_name_8;
+  char *return_value_get_key_name_9;
+  return_value_get_key_name_9=get_key_name(CONFIG_KEY_RIGHT[(signed long int)number]);
+  (d + (signed long int)18)->dp = (void *)return_value_get_key_name_9;
+  char *return_value_get_key_name_10;
+  return_value_get_key_name_10=get_key_name(CONFIG_KEY_DOWN[(signed long int)number]);
+  (d + (signed long int)19)->dp = (void *)return_value_get_key_name_10;
   update_team_box(d, number);
 }
 
@@ -25769,9 +25769,9 @@ void test_army(void)
   signed int test;
   signed int x;
   signed int y;
-  struct anonymous$21 f;
-  struct anonymous$21 *fp;
-  struct anonymous$0 *m;
+  struct anonymous_21 f;
+  struct anonymous_21 *fp;
+  struct anonymous_0 *m;
   i = 0;
   for( ; !(i >= CURRENT_ARMY_SIZE); i = i + 1)
   {
@@ -25786,7 +25786,7 @@ void test_army(void)
     k = y * CURRENT_AREA_W + x;
     fp = (CURRENT_AREA + (signed long int)k)->fighter;
     m = (CURRENT_AREA + (signed long int)k)->mesh;
-    if(!(m == ((struct anonymous$0 *)NULL)))
+    if(!(m == ((struct anonymous_0 *)NULL)))
       test = (signed int)m->info[(signed long int)0].state.grad;
 
   }
@@ -25805,17 +25805,17 @@ void test_mesh(void)
     k = 0;
     for( ; !(k >= 12); k = k + 1)
       if(!((CURRENT_MESH + (signed long int)i)->link[(signed long int)k] == NULL))
-        test_one_mesh((struct anonymous$0 *)(CURRENT_MESH + (signed long int)i)->link[(signed long int)k]);
+        test_one_mesh((struct anonymous_0 *)(CURRENT_MESH + (signed long int)i)->link[(signed long int)k]);
 
   }
 }
 
 // test_one_mesh
 // file mesh.c line 306
-static void test_one_mesh(struct anonymous$0 *test)
+static void test_one_mesh(struct anonymous_0 *test)
 {
-  struct anonymous$0 m;
-  struct anonymous$0 *bof;
+  struct anonymous_0 m;
+  struct anonymous_0 *bof;
   signed int i;
   m.x = test->x;
   i = (signed int)m.x;
@@ -25824,7 +25824,7 @@ static void test_one_mesh(struct anonymous$0 *test)
   m.side = test->side;
   m.info[(signed long int)(6 - 1)] = test->info[(signed long int)(6 - 1)];
   m.link[(signed long int)(12 - 1)] = test->link[(signed long int)(12 - 1)];
-  bof = (struct anonymous$0 *)m.link[(signed long int)(12 - 1)];
+  bof = (struct anonymous_0 *)m.link[(signed long int)(12 - 1)];
 }
 
 // texture_8to5
@@ -25845,43 +25845,43 @@ static void texture_8to5(struct BITMAP *bmp, struct RGB *pal, void *result, sign
   buffer = (char *)result + (signed long int)((unsigned long int)2 * sizeof(signed short int) /*2ul*/ );
   memset((void *)system_name_buffer, 0, sizeof(char [17l]) /*17ul*/ );
   memset((void *)system_name_buffer, 0, sizeof(char [17l]) /*17ul*/ );
-  char *return_value_lw_path_get_system_name$1;
-  return_value_lw_path_get_system_name$1=lw_path_get_system_name(filename);
-  __builtin_strncpy(system_name_buffer, return_value_lw_path_get_system_name$1, sizeof(char [17l]) /*17ul*/  - (unsigned long int)1);
+  char *return_value_lw_path_get_system_name_1;
+  return_value_lw_path_get_system_name_1=lw_path_get_system_name(filename);
+  __builtin_strncpy(system_name_buffer, return_value_lw_path_get_system_name_1, sizeof(char [17l]) /*17ul*/  - (unsigned long int)1);
   system_name_buffer[(signed long int)(sizeof(char [17l]) /*17ul*/  - (unsigned long int)1)] = (char)0;
   memcpy((void *)buffer, (const void *)system_name_buffer, (unsigned long int)16);
   buffer = buffer + (signed long int)16;
   i = 0;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   for( ; !(i >= number_of_colors); i = i + 1)
   {
-    tmp_post$2 = pos;
+    tmp_post_2 = pos;
     pos = pos + 1;
-    buffer[(signed long int)tmp_post$2] = (char)(pal + (signed long int)(first_color + i))->r;
-    tmp_post$3 = pos;
+    buffer[(signed long int)tmp_post_2] = (char)(pal + (signed long int)(first_color + i))->r;
+    tmp_post_3 = pos;
     pos = pos + 1;
-    buffer[(signed long int)tmp_post$3] = (char)(pal + (signed long int)(first_color + i))->g;
-    tmp_post$4 = pos;
+    buffer[(signed long int)tmp_post_3] = (char)(pal + (signed long int)(first_color + i))->g;
+    tmp_post_4 = pos;
     pos = pos + 1;
-    buffer[(signed long int)tmp_post$4] = (char)(pal + (signed long int)(first_color + i))->b;
+    buffer[(signed long int)tmp_post_4] = (char)(pal + (signed long int)(first_color + i))->b;
   }
   i = 0;
   for( ; !(i >= 5); i = i + 1)
     octet[(signed long int)i] = (char)0;
   y = 0;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  signed int tmp_post$6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  signed int tmp_post_6;
   for( ; !(y >= bmp->h); y = y + 1)
   {
     x = 0;
     for( ; !(x >= bmp->w); x = x + 1)
     {
-      signed int return_value_getpixel$5;
-      return_value_getpixel$5=getpixel$link6(bmp, x, y);
-      coul = return_value_getpixel$5 - first_color;
+      signed int return_value_getpixel_5;
+      return_value_getpixel_5=getpixel_link6(bmp, x, y);
+      coul = return_value_getpixel_5 - first_color;
       toadd = (char)(1 << pos8);
       octet[(signed long int)0] = octet[(signed long int)0] | (char)((coul & 1) != 0 ? (signed int)toadd : 0);
       octet[(signed long int)1] = octet[(signed long int)1] | (char)((coul & 2) != 0 ? (signed int)toadd : 0);
@@ -25889,25 +25889,25 @@ static void texture_8to5(struct BITMAP *bmp, struct RGB *pal, void *result, sign
       octet[(signed long int)3] = octet[(signed long int)3] | (char)((coul & 8) != 0 ? (signed int)toadd : 0);
       octet[(signed long int)4] = octet[(signed long int)4] | (char)((coul & 16) != 0 ? (signed int)toadd : 0);
       if(pos8 == 7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
         if(y == bmp->h + -1)
-          tmp_if_expr$7 = x == bmp->w - 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = x == bmp->w - 1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (_Bool)0;
+        tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$8)
+      if(tmp_if_expr_8)
       {
         i = 0;
         for( ; !(i >= 5); i = i + 1)
         {
-          tmp_post$6 = pos;
+          tmp_post_6 = pos;
           pos = pos + 1;
-          buffer[(signed long int)tmp_post$6] = octet[(signed long int)i];
+          buffer[(signed long int)tmp_post_6] = octet[(signed long int)i];
           octet[(signed long int)i] = (char)0;
         }
         pos8 = 0;
@@ -25938,13 +25938,13 @@ static signed int try_one_mode(signed int res, signed int flip, signed int fulls
   w1 = GFX_MODE_W[(signed long int)res];
   h1 = GFX_MODE_H[(signed long int)res];
   w2 = GFX_MODE_W[(signed long int)res];
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(flip == 0))
-    tmp_if_expr$1 = GFX_MODE_H[(signed long int)res] * 2;
+    tmp_if_expr_1 = GFX_MODE_H[(signed long int)res] * 2;
 
   else
-    tmp_if_expr$1 = GFX_MODE_H[(signed long int)res];
-  h2 = tmp_if_expr$1;
+    tmp_if_expr_1 = GFX_MODE_H[(signed long int)res];
+  h2 = tmp_if_expr_1;
   log_print_str("Changing video mode to ");
   log_print_int(w1);
   log_print_str("x");
@@ -25975,20 +25975,20 @@ static signed int try_one_mode(signed int res, signed int flip, signed int fulls
 static void try_server_callback(void *arg)
 {
   signed int result = 0;
-  struct anonymous$9 *try_data;
+  struct anonymous_9 *try_data;
   signed int start_time;
   signed int global_start_time;
   signed int delay[3l];
   signed int i;
   signed int n;
   signed int sum;
-  try_data = (struct anonymous$9 *)arg;
+  try_data = (struct anonymous_9 *)arg;
   i = 0;
   for( ; !(i >= 3); i = i + 1)
     delay[(signed long int)i] = 0;
   result=lw_sock_connect(&try_data->sock, try_data->address, try_data->port);
-  _Bool tmp_if_expr$2;
-  signed int return_value_get_ticker$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_get_ticker_1;
   if(result == 1)
   {
     n = 0;
@@ -25998,22 +25998,22 @@ static void try_server_callback(void *arg)
     {
       if(result == 1 && !(i >= 3))
       {
-        return_value_get_ticker$1=get_ticker();
-        tmp_if_expr$2 = return_value_get_ticker$1 < global_start_time + 750 ? (_Bool)1 : (_Bool)0;
+        return_value_get_ticker_1=get_ticker();
+        tmp_if_expr_2 = return_value_get_ticker_1 < global_start_time + 750 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       start_time=get_ticker();
       result=lw_protocol_do_ping(&try_data->sock);
       if(result == 1)
       {
-        signed int return_value_get_ticker$3;
-        return_value_get_ticker$3=get_ticker();
-        delay[(signed long int)i] = return_value_get_ticker$3 - start_time;
+        signed int return_value_get_ticker_3;
+        return_value_get_ticker_3=get_ticker();
+        delay[(signed long int)i] = return_value_get_ticker_3 - start_time;
         n = i + 1;
       }
 
@@ -26061,7 +26061,7 @@ static void undisp_cursor(signed int number)
   y0 = CURRENT_CURSOR[(signed long int)number].y;
   i = 0;
   for( ; !(i >= 68); i = i + 1)
-    putpixel$link7(CURRENT_AREA_DISP, x0 + CURSOR_LAYOUT[(signed long int)i].x, y0 + CURSOR_LAYOUT[(signed long int)i].y, (signed int)CURSOR_GRAPHIC_MEMORY[(signed long int)number][(signed long int)i]);
+    putpixel_link7(CURRENT_AREA_DISP, x0 + CURSOR_LAYOUT[(signed long int)i].x, y0 + CURSOR_LAYOUT[(signed long int)i].y, (signed int)CURSOR_GRAPHIC_MEMORY[(signed long int)number][(signed long int)i]);
 }
 
 // update_choose_map
@@ -26072,10 +26072,10 @@ static void update_choose_map(struct DIALOG *d, signed int map, signed int fg, s
   signed int res_h;
   signed int just_hidden = 0;
   signed int i;
-  signed int return_value_lw_mutex_trylock$2;
-  static struct anonymous$1 mutex = { .data=(void *)0 };
-  return_value_lw_mutex_trylock$2=lw_mutex_trylock(&mutex);
-  if(!(return_value_lw_mutex_trylock$2 == 0))
+  signed int return_value_lw_mutex_trylock_2;
+  static struct anonymous_1 mutex = { .data=(void *)0 };
+  return_value_lw_mutex_trylock_2=lw_mutex_trylock(&mutex);
+  if(!(return_value_lw_mutex_trylock_2 == 0))
   {
     CONFIG_LEVEL_MAP = map;
     CONFIG_LEVEL_FG = fg;
@@ -26155,9 +26155,9 @@ static void update_choose_map(struct DIALOG *d, signed int map, signed int fg, s
     res_buffer[(signed long int)(sizeof(char [30l]) /*30ul*/  - (unsigned long int)1)] = (char)0;
     (d + (signed long int)16)->dp = (void *)res_buffer;
     my_textbox_proc(3, d + (signed long int)16, 0);
-    char *return_value_lw_map_get_readable_name$1;
-    return_value_lw_map_get_readable_name$1=lw_map_get_readable_name(CONFIG_LEVEL_MAP, 0, LW_RANDOM_ON);
-    (d + (signed long int)17)->dp = (void *)return_value_lw_map_get_readable_name$1;
+    char *return_value_lw_map_get_readable_name_1;
+    return_value_lw_map_get_readable_name_1=lw_map_get_readable_name(CONFIG_LEVEL_MAP, 0, LW_RANDOM_ON);
+    (d + (signed long int)17)->dp = (void *)return_value_lw_map_get_readable_name_1;
     my_textbox_proc(3, d + (signed long int)17, 0);
     display_chosen_level();
     unscare_mouse();
@@ -26170,22 +26170,22 @@ static void update_choose_map(struct DIALOG *d, signed int map, signed int fg, s
 
 // update_connect_menu
 // file connect.c line 331
-static signed int update_connect_menu(struct DIALOG *d, signed int waited_teams, struct anonymous$12 *team_start_info, struct anonymous$13 *chat_history, signed int *connected_teams_prev)
+static signed int update_connect_menu(struct DIALOG *d, signed int waited_teams, struct anonymous_12 *team_start_info, struct anonymous_13 *chat_history, signed int *connected_teams_prev)
 {
   signed int result = 0;
   signed int i;
   char *sep;
   char buf[200l];
-  struct anonymous$24 chat_mess;
+  struct anonymous_24 chat_mess;
   signed int chat_length;
   signed int l;
   signed int connected_teams = 0;
   memset((void *)(char *)(d + (signed long int)4)->dp, 0, (unsigned long int)200);
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(115);
-  char *return_value_lw_lang_string$2;
-  return_value_lw_lang_string$2=lw_lang_string(116);
-  snprintf((char *)(d + (signed long int)4)->dp, (unsigned long int)(200 - 1), "%s%d%s", return_value_lw_lang_string$1, waited_teams, return_value_lw_lang_string$2);
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(115);
+  char *return_value_lw_lang_string_2;
+  return_value_lw_lang_string_2=lw_lang_string(116);
+  snprintf((char *)(d + (signed long int)4)->dp, (unsigned long int)(200 - 1), "%s%d%s", return_value_lw_lang_string_1, waited_teams, return_value_lw_lang_string_2);
   ((char *)(d + (signed long int)4)->dp)[(signed long int)(200 - 1)] = (char)0;
   ((char *)(d + (signed long int)5)->dp)[(signed long int)0] = (char)0;
   i = 0;
@@ -26202,17 +26202,17 @@ static signed int update_connect_menu(struct DIALOG *d, signed int waited_teams,
       buf[(signed long int)(sizeof(char [200l]) /*200ul*/  - (unsigned long int)1)] = (char)0;
       signed int len;
       signed int pos;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen((char *)(d + (signed long int)5)->dp);
-      pos = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen((char *)(d + (signed long int)5)->dp);
+      pos = (signed int)return_value_strlen_3;
       len = (6 * 200 - 1) - pos;
       if(len >= 1)
       {
         signed int end;
         __builtin_strncat((char *)(d + (signed long int)5)->dp, buf, (unsigned long int)len);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(buf);
-        end = (signed int)((unsigned long int)pos + return_value_strlen$4);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(buf);
+        end = (signed int)((unsigned long int)pos + return_value_strlen_4);
         if(!(end >= 6))
           ((char *)(d + (signed long int)5)->dp)[(signed long int)end] = (char)0;
 
@@ -26224,31 +26224,31 @@ static signed int update_connect_menu(struct DIALOG *d, signed int waited_teams,
 
   ((char *)(d + (signed long int)7)->dp)[(signed long int)0] = (char)0;
   i = 0;
-  signed int return_value_lw_chat_get$5;
+  signed int return_value_lw_chat_get_5;
   do
   {
-    return_value_lw_chat_get$5=lw_chat_get(chat_history, &chat_mess, i);
-    if(return_value_lw_chat_get$5 == 0)
+    return_value_lw_chat_get_5=lw_chat_get(chat_history, &chat_mess, i);
+    if(return_value_lw_chat_get_5 == 0)
       break;
 
     memset((void *)buf, 0, sizeof(char [200l]) /*200ul*/ );
     snprintf(buf, sizeof(char [200l]) /*200ul*/  - (unsigned long int)1, "%s: %s\n", (const void *)chat_mess.author, (const void *)chat_mess.content);
     buf[(signed long int)(sizeof(char [200l]) /*200ul*/  - (unsigned long int)1)] = (char)0;
-    signed int update_connect_menu$$1$$3$$1$$2$$len;
-    signed int update_connect_menu$$1$$3$$1$$2$$pos;
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen((char *)(d + (signed long int)7)->dp);
-    update_connect_menu$$1$$3$$1$$2$$pos = (signed int)return_value_strlen$6;
-    update_connect_menu$$1$$3$$1$$2$$len = (20 * 200 - 1) - update_connect_menu$$1$$3$$1$$2$$pos;
-    if(update_connect_menu$$1$$3$$1$$2$$len >= 1)
+    signed int update_connect_menu__1__3__1__2__len;
+    signed int update_connect_menu__1__3__1__2__pos;
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen((char *)(d + (signed long int)7)->dp);
+    update_connect_menu__1__3__1__2__pos = (signed int)return_value_strlen_6;
+    update_connect_menu__1__3__1__2__len = (20 * 200 - 1) - update_connect_menu__1__3__1__2__pos;
+    if(update_connect_menu__1__3__1__2__len >= 1)
     {
-      signed int update_connect_menu$$1$$3$$1$$2$$1$$end;
-      __builtin_strncat((char *)(d + (signed long int)7)->dp, buf, (unsigned long int)update_connect_menu$$1$$3$$1$$2$$len);
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(buf);
-      update_connect_menu$$1$$3$$1$$2$$1$$end = (signed int)((unsigned long int)update_connect_menu$$1$$3$$1$$2$$pos + return_value_strlen$7);
-      if(!(update_connect_menu$$1$$3$$1$$2$$1$$end >= 20))
-        ((char *)(d + (signed long int)7)->dp)[(signed long int)update_connect_menu$$1$$3$$1$$2$$1$$end] = (char)0;
+      signed int update_connect_menu__1__3__1__2__1__end;
+      __builtin_strncat((char *)(d + (signed long int)7)->dp, buf, (unsigned long int)update_connect_menu__1__3__1__2__len);
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(buf);
+      update_connect_menu__1__3__1__2__1__end = (signed int)((unsigned long int)update_connect_menu__1__3__1__2__pos + return_value_strlen_7);
+      if(!(update_connect_menu__1__3__1__2__1__end >= 20))
+        ((char *)(d + (signed long int)7)->dp)[(signed long int)update_connect_menu__1__3__1__2__1__end] = (char)0;
 
     }
 
@@ -26256,23 +26256,23 @@ static signed int update_connect_menu(struct DIALOG *d, signed int waited_teams,
     i = i + 1;
   }
   while((_Bool)1);
-  unsigned long int return_value_strlen$8;
-  return_value_strlen$8=strlen((const char *)(d + (signed long int)7)->dp);
-  chat_length = (signed int)return_value_strlen$8;
-  signed int tmp_if_expr$10;
+  unsigned long int return_value_strlen_8;
+  return_value_strlen_8=strlen((const char *)(d + (signed long int)7)->dp);
+  chat_length = (signed int)return_value_strlen_8;
+  signed int tmp_if_expr_10;
   static signed int old_chat_length = 0;
   if(!(chat_length == old_chat_length))
   {
     old_chat_length = chat_length;
-    signed int return_value_text_height$9;
-    return_value_text_height$9=text_height(font);
-    l = ((d + (signed long int)7)->h - 8) / return_value_text_height$9;
+    signed int return_value_text_height_9;
+    return_value_text_height_9=text_height(font);
+    l = ((d + (signed long int)7)->h - 8) / return_value_text_height_9;
     if(!((d + 7l)->d1 + -l >= 0))
-      tmp_if_expr$10 = 0;
+      tmp_if_expr_10 = 0;
 
     else
-      tmp_if_expr$10 = (d + (signed long int)7)->d1 - l;
-    (d + (signed long int)7)->d2 = tmp_if_expr$10;
+      tmp_if_expr_10 = (d + (signed long int)7)->d1 - l;
+    (d + (signed long int)7)->d2 = tmp_if_expr_10;
   }
 
   scare_mouse();
@@ -26281,13 +26281,13 @@ static signed int update_connect_menu(struct DIALOG *d, signed int waited_teams,
   (d + (signed long int)7)->proc(3, d + (signed long int)7, 0);
   unscare_mouse();
   show_mouse(screen);
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_11;
   if(connected_teams >= 1)
-    tmp_if_expr$11 = connected_teams > *connected_teams_prev ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_11 = connected_teams > *connected_teams_prev ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (_Bool)0;
+  if(tmp_if_expr_11)
   {
     if(*connected_teams_prev >= 0)
       play_connect();
@@ -26306,27 +26306,27 @@ static signed int update_connect_menu(struct DIALOG *d, signed int waited_teams,
 // file move.c line 452
 static void update_key_cpu_cursor(signed int indice)
 {
-  char return_value_get_computer_next_move$1;
-  return_value_get_computer_next_move$1=get_computer_next_move(indice);
-  CURRENT_CURSOR[(signed long int)indice].key_state = (signed int)return_value_get_computer_next_move$1;
+  char return_value_get_computer_next_move_1;
+  return_value_get_computer_next_move_1=get_computer_next_move(indice);
+  CURRENT_CURSOR[(signed long int)indice].key_state = (signed int)return_value_get_computer_next_move_1;
 }
 
 // update_key_local_cursor
 // file move.c line 429
 static void update_key_local_cursor(signed int indice)
 {
-  signed int return_value_is_touched_key$1;
-  return_value_is_touched_key$1=is_touched_key(CONFIG_KEY_UP[(signed long int)indice]);
-  CURRENT_CURSOR[(signed long int)indice].key_state = return_value_is_touched_key$1 != 0 ? 1 : 0;
-  signed int return_value_is_touched_key$2;
-  return_value_is_touched_key$2=is_touched_key(CONFIG_KEY_RIGHT[(signed long int)indice]);
-  CURRENT_CURSOR[(signed long int)indice].key_state = CURRENT_CURSOR[(signed long int)indice].key_state + (return_value_is_touched_key$2 != 0 ? 2 : 0);
-  signed int return_value_is_touched_key$3;
-  return_value_is_touched_key$3=is_touched_key(CONFIG_KEY_DOWN[(signed long int)indice]);
-  CURRENT_CURSOR[(signed long int)indice].key_state = CURRENT_CURSOR[(signed long int)indice].key_state + (return_value_is_touched_key$3 != 0 ? 4 : 0);
-  signed int return_value_is_touched_key$4;
-  return_value_is_touched_key$4=is_touched_key(CONFIG_KEY_LEFT[(signed long int)indice]);
-  CURRENT_CURSOR[(signed long int)indice].key_state = CURRENT_CURSOR[(signed long int)indice].key_state + (return_value_is_touched_key$4 != 0 ? 8 : 0);
+  signed int return_value_is_touched_key_1;
+  return_value_is_touched_key_1=is_touched_key(CONFIG_KEY_UP[(signed long int)indice]);
+  CURRENT_CURSOR[(signed long int)indice].key_state = return_value_is_touched_key_1 != 0 ? 1 : 0;
+  signed int return_value_is_touched_key_2;
+  return_value_is_touched_key_2=is_touched_key(CONFIG_KEY_RIGHT[(signed long int)indice]);
+  CURRENT_CURSOR[(signed long int)indice].key_state = CURRENT_CURSOR[(signed long int)indice].key_state + (return_value_is_touched_key_2 != 0 ? 2 : 0);
+  signed int return_value_is_touched_key_3;
+  return_value_is_touched_key_3=is_touched_key(CONFIG_KEY_DOWN[(signed long int)indice]);
+  CURRENT_CURSOR[(signed long int)indice].key_state = CURRENT_CURSOR[(signed long int)indice].key_state + (return_value_is_touched_key_3 != 0 ? 4 : 0);
+  signed int return_value_is_touched_key_4;
+  return_value_is_touched_key_4=is_touched_key(CONFIG_KEY_LEFT[(signed long int)indice]);
+  CURRENT_CURSOR[(signed long int)indice].key_state = CURRENT_CURSOR[(signed long int)indice].key_state + (return_value_is_touched_key_4 != 0 ? 8 : 0);
 }
 
 // update_language
@@ -26335,15 +26335,15 @@ static void update_language(struct DIALOG *d)
 {
   signed int i;
   quick_buttons(d);
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(28);
-  (d + (signed long int)4)->dp = (void *)return_value_lw_lang_string$1;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(28);
+  (d + (signed long int)4)->dp = (void *)return_value_lw_lang_string_1;
   i = 0;
   for( ; !(i >= 4); i = i + 1)
   {
-    char *return_value_lw_lang_language$2;
-    return_value_lw_lang_language$2=lw_lang_language(i);
-    (d + (signed long int)(i + 5))->dp = (void *)return_value_lw_lang_language$2;
+    char *return_value_lw_lang_language_2;
+    return_value_lw_lang_language_2=lw_lang_language(i);
+    (d + (signed long int)(i + 5))->dp = (void *)return_value_lw_lang_language_2;
   }
 }
 
@@ -26365,10 +26365,10 @@ void update_logic_rate(signed int logic_number)
 // file time.h line 75
 void update_play_time(void)
 {
-  signed int return_value_get_ticker$1;
-  return_value_get_ticker$1=get_ticker();
-  GLOBAL_TICKER = return_value_get_ticker$1 - TICKER_START;
-  signed int return_value_get_ticker$3;
+  signed int return_value_get_ticker_1;
+  return_value_get_ticker_1=get_ticker();
+  GLOBAL_TICKER = return_value_get_ticker_1 - TICKER_START;
+  signed int return_value_get_ticker_3;
   if(!(PAUSE_ON == 0))
   {
     if(TICKER_PAUSE_START == 0)
@@ -26379,16 +26379,16 @@ void update_play_time(void)
   else
     if(!(TICKER_PAUSE_START == 0))
     {
-      signed int return_value_get_ticker$2;
-      return_value_get_ticker$2=get_ticker();
-      TICKER_PAUSED = TICKER_PAUSED + (return_value_get_ticker$2 - TICKER_PAUSE_START);
+      signed int return_value_get_ticker_2;
+      return_value_get_ticker_2=get_ticker();
+      TICKER_PAUSED = TICKER_PAUSED + (return_value_get_ticker_2 - TICKER_PAUSE_START);
       TICKER_PAUSE_START = 0;
     }
 
     else
     {
-      return_value_get_ticker$3=get_ticker();
-      TIME_ELAPSED = ((return_value_get_ticker$3 - TICKER_START) - TICKER_PAUSED) / 1000;
+      return_value_get_ticker_3=get_ticker();
+      TIME_ELAPSED = ((return_value_get_ticker_3 - TICKER_START) - TICKER_PAUSED) / 1000;
     }
   TIME_LEFT = TIME_TABLE[(signed long int)LW_CONFIG_CURRENT_RULES.game_time] - TIME_ELAPSED;
   if(!(TIME_LEFT >= 0))
@@ -26406,27 +26406,27 @@ void update_play_time(void)
 // file team.c line 264
 static void update_team_box(struct DIALOG *d, signed int number)
 {
-  char *return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
-  char *return_value_lw_lang_string$3;
+  char *return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
+  char *return_value_lw_lang_string_3;
   switch(CONFIG_CONTROL_TYPE[(signed long int)number])
   {
     case 0:
     {
-      return_value_lw_lang_string$1=lw_lang_string(29);
-      (d + (signed long int)15)->dp = (void *)return_value_lw_lang_string$1;
+      return_value_lw_lang_string_1=lw_lang_string(29);
+      (d + (signed long int)15)->dp = (void *)return_value_lw_lang_string_1;
       break;
     }
     case 1:
     {
-      return_value_lw_lang_string$2=lw_lang_string(30);
-      (d + (signed long int)15)->dp = (void *)return_value_lw_lang_string$2;
+      return_value_lw_lang_string_2=lw_lang_string(30);
+      (d + (signed long int)15)->dp = (void *)return_value_lw_lang_string_2;
       break;
     }
     case 2:
     {
-      return_value_lw_lang_string$3=lw_lang_string(31);
-      (d + (signed long int)15)->dp = (void *)return_value_lw_lang_string$3;
+      return_value_lw_lang_string_3=lw_lang_string(31);
+      (d + (signed long int)15)->dp = (void *)return_value_lw_lang_string_3;
       break;
     }
     default:
@@ -26473,22 +26473,22 @@ static void update_text_password(signed int i)
       if(!((list_data + (signed long int)i)->password == 0))
       {
         memset((void *)buffer_password, 0, sizeof(char [50l]) /*50ul*/ );
-        char *return_value_lw_lang_string$1;
-        return_value_lw_lang_string$1=lw_lang_string(94);
-        char *return_value_lw_lang_string$2;
-        return_value_lw_lang_string$2=lw_lang_string(95);
-        snprintf(buffer_password, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %s", return_value_lw_lang_string$1, return_value_lw_lang_string$2);
+        char *return_value_lw_lang_string_1;
+        return_value_lw_lang_string_1=lw_lang_string(94);
+        char *return_value_lw_lang_string_2;
+        return_value_lw_lang_string_2=lw_lang_string(95);
+        snprintf(buffer_password, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %s", return_value_lw_lang_string_1, return_value_lw_lang_string_2);
         buffer_password[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
       }
 
       else
       {
         memset((void *)buffer_password, 0, sizeof(char [50l]) /*50ul*/ );
-        char *return_value_lw_lang_string$3;
-        return_value_lw_lang_string$3=lw_lang_string(94);
-        char *return_value_lw_lang_string$4;
-        return_value_lw_lang_string$4=lw_lang_string(96);
-        snprintf(buffer_password, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %s", return_value_lw_lang_string$3, return_value_lw_lang_string$4);
+        char *return_value_lw_lang_string_3;
+        return_value_lw_lang_string_3=lw_lang_string(94);
+        char *return_value_lw_lang_string_4;
+        return_value_lw_lang_string_4=lw_lang_string(96);
+        snprintf(buffer_password, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %s", return_value_lw_lang_string_3, return_value_lw_lang_string_4);
         buffer_password[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
       }
     }
@@ -26496,9 +26496,9 @@ static void update_text_password(signed int i)
     else
     {
       memset((void *)buffer_password, 0, sizeof(char [50l]) /*50ul*/ );
-      char *return_value_lw_lang_string$5;
-      return_value_lw_lang_string$5=lw_lang_string(94);
-      snprintf(buffer_password, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s:", return_value_lw_lang_string$5);
+      char *return_value_lw_lang_string_5;
+      return_value_lw_lang_string_5=lw_lang_string(94);
+      snprintf(buffer_password, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s:", return_value_lw_lang_string_5);
       buffer_password[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
     }
   }
@@ -26516,20 +26516,20 @@ static void update_text_ping(signed int i)
       if((list_data + (signed long int)i)->ping_delay >= 0)
       {
         memset((void *)buffer_ping, 0, sizeof(char [50l]) /*50ul*/ );
-        char *return_value_lw_lang_string$1;
-        return_value_lw_lang_string$1=lw_lang_string(104);
-        char *return_value_lw_lang_string$2;
-        return_value_lw_lang_string$2=lw_lang_string(105);
-        snprintf(buffer_ping, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d %s", return_value_lw_lang_string$1, (list_data + (signed long int)i)->ping_delay, return_value_lw_lang_string$2);
+        char *return_value_lw_lang_string_1;
+        return_value_lw_lang_string_1=lw_lang_string(104);
+        char *return_value_lw_lang_string_2;
+        return_value_lw_lang_string_2=lw_lang_string(105);
+        snprintf(buffer_ping, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d %s", return_value_lw_lang_string_1, (list_data + (signed long int)i)->ping_delay, return_value_lw_lang_string_2);
         buffer_ping[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
       }
 
       else
       {
         memset((void *)buffer_ping, 0, sizeof(char [50l]) /*50ul*/ );
-        char *return_value_lw_lang_string$3;
-        return_value_lw_lang_string$3=lw_lang_string(103);
-        __builtin_strncpy(buffer_ping, return_value_lw_lang_string$3, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1);
+        char *return_value_lw_lang_string_3;
+        return_value_lw_lang_string_3=lw_lang_string(103);
+        __builtin_strncpy(buffer_ping, return_value_lw_lang_string_3, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1);
         buffer_ping[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
       }
     }
@@ -26537,9 +26537,9 @@ static void update_text_ping(signed int i)
     else
     {
       memset((void *)buffer_ping, 0, sizeof(char [50l]) /*50ul*/ );
-      char *return_value_lw_lang_string$4;
-      return_value_lw_lang_string$4=lw_lang_string(104);
-      snprintf(buffer_ping, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s:", return_value_lw_lang_string$4);
+      char *return_value_lw_lang_string_4;
+      return_value_lw_lang_string_4=lw_lang_string(104);
+      snprintf(buffer_ping, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s:", return_value_lw_lang_string_4);
       buffer_ping[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
     }
   }
@@ -26555,18 +26555,18 @@ static void update_text_port(signed int i)
     if(!(i >= *list_size))
     {
       memset((void *)buffer_port, 0, sizeof(char [50l]) /*50ul*/ );
-      char *return_value_lw_lang_string$1;
-      return_value_lw_lang_string$1=lw_lang_string(93);
-      snprintf(buffer_port, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d", return_value_lw_lang_string$1, (list_data + (signed long int)i)->port);
+      char *return_value_lw_lang_string_1;
+      return_value_lw_lang_string_1=lw_lang_string(93);
+      snprintf(buffer_port, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d", return_value_lw_lang_string_1, (list_data + (signed long int)i)->port);
       buffer_port[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
     }
 
     else
     {
       memset((void *)buffer_port, 0, sizeof(char [50l]) /*50ul*/ );
-      char *return_value_lw_lang_string$2;
-      return_value_lw_lang_string$2=lw_lang_string(93);
-      snprintf(buffer_port, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s:", return_value_lw_lang_string$2);
+      char *return_value_lw_lang_string_2;
+      return_value_lw_lang_string_2=lw_lang_string(93);
+      snprintf(buffer_port, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s:", return_value_lw_lang_string_2);
       buffer_port[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
     }
   }
@@ -26594,22 +26594,22 @@ static void update_text_uptime(signed int i)
         if(days >= 2)
         {
           memset((void *)buffer_uptime, 0, sizeof(char [50l]) /*50ul*/ );
-          char *return_value_lw_lang_string$1;
-          return_value_lw_lang_string$1=lw_lang_string(97);
-          char *return_value_lw_lang_string$2;
-          return_value_lw_lang_string$2=lw_lang_string(98);
-          snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d %s", return_value_lw_lang_string$1, days, return_value_lw_lang_string$2);
+          char *return_value_lw_lang_string_1;
+          return_value_lw_lang_string_1=lw_lang_string(97);
+          char *return_value_lw_lang_string_2;
+          return_value_lw_lang_string_2=lw_lang_string(98);
+          snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d %s", return_value_lw_lang_string_1, days, return_value_lw_lang_string_2);
           buffer_uptime[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
         }
 
         else
         {
           memset((void *)buffer_uptime, 0, sizeof(char [50l]) /*50ul*/ );
-          char *return_value_lw_lang_string$3;
-          return_value_lw_lang_string$3=lw_lang_string(97);
-          char *return_value_lw_lang_string$4;
-          return_value_lw_lang_string$4=lw_lang_string(99);
-          snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: 1 %s", return_value_lw_lang_string$3, return_value_lw_lang_string$4);
+          char *return_value_lw_lang_string_3;
+          return_value_lw_lang_string_3=lw_lang_string(97);
+          char *return_value_lw_lang_string_4;
+          return_value_lw_lang_string_4=lw_lang_string(99);
+          snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: 1 %s", return_value_lw_lang_string_3, return_value_lw_lang_string_4);
           buffer_uptime[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
         }
       }
@@ -26618,11 +26618,11 @@ static void update_text_uptime(signed int i)
         if(hours >= 1)
         {
           memset((void *)buffer_uptime, 0, sizeof(char [50l]) /*50ul*/ );
-          char *return_value_lw_lang_string$5;
-          return_value_lw_lang_string$5=lw_lang_string(97);
-          char *return_value_lw_lang_string$6;
-          return_value_lw_lang_string$6=lw_lang_string(100);
-          snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d %s", return_value_lw_lang_string$5, hours, return_value_lw_lang_string$6);
+          char *return_value_lw_lang_string_5;
+          return_value_lw_lang_string_5=lw_lang_string(97);
+          char *return_value_lw_lang_string_6;
+          return_value_lw_lang_string_6=lw_lang_string(100);
+          snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d %s", return_value_lw_lang_string_5, hours, return_value_lw_lang_string_6);
           buffer_uptime[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
         }
 
@@ -26630,22 +26630,22 @@ static void update_text_uptime(signed int i)
           if(minutes >= 1)
           {
             memset((void *)buffer_uptime, 0, sizeof(char [50l]) /*50ul*/ );
-            char *return_value_lw_lang_string$7;
-            return_value_lw_lang_string$7=lw_lang_string(97);
-            char *return_value_lw_lang_string$8;
-            return_value_lw_lang_string$8=lw_lang_string(101);
-            snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d %s", return_value_lw_lang_string$7, minutes, return_value_lw_lang_string$8);
+            char *return_value_lw_lang_string_7;
+            return_value_lw_lang_string_7=lw_lang_string(97);
+            char *return_value_lw_lang_string_8;
+            return_value_lw_lang_string_8=lw_lang_string(101);
+            snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d %s", return_value_lw_lang_string_7, minutes, return_value_lw_lang_string_8);
             buffer_uptime[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
           }
 
           else
           {
             memset((void *)buffer_uptime, 0, sizeof(char [50l]) /*50ul*/ );
-            char *return_value_lw_lang_string$9;
-            return_value_lw_lang_string$9=lw_lang_string(97);
-            char *return_value_lw_lang_string$10;
-            return_value_lw_lang_string$10=lw_lang_string(102);
-            snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d %s", return_value_lw_lang_string$9, seconds, return_value_lw_lang_string$10);
+            char *return_value_lw_lang_string_9;
+            return_value_lw_lang_string_9=lw_lang_string(97);
+            char *return_value_lw_lang_string_10;
+            return_value_lw_lang_string_10=lw_lang_string(102);
+            snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s: %d %s", return_value_lw_lang_string_9, seconds, return_value_lw_lang_string_10);
             buffer_uptime[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
           }
     }
@@ -26653,9 +26653,9 @@ static void update_text_uptime(signed int i)
     else
     {
       memset((void *)buffer_uptime, 0, sizeof(char [50l]) /*50ul*/ );
-      char *return_value_lw_lang_string$11;
-      return_value_lw_lang_string$11=lw_lang_string(97);
-      snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s:", return_value_lw_lang_string$11);
+      char *return_value_lw_lang_string_11;
+      return_value_lw_lang_string_11=lw_lang_string(97);
+      snprintf(buffer_uptime, sizeof(char [50l]) /*50ul*/  - (unsigned long int)1, "%s:", return_value_lw_lang_string_11);
       buffer_uptime[(signed long int)(sizeof(char [50l]) /*50ul*/  - (unsigned long int)1)] = (char)0;
     }
   }
@@ -26669,9 +26669,9 @@ static void update_use_default_texture_state(struct DIALOG *d)
   scare_mouse();
   static char state_buffer[30l];
   memset((void *)state_buffer, 0, sizeof(char [30l]) /*30ul*/ );
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(CONFIG_USE_DEFAULT_TEXTURE != 0 ? 132 : 133);
-  __builtin_strncpy(state_buffer, return_value_lw_lang_string$1, sizeof(char [30l]) /*30ul*/  - (unsigned long int)1);
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(CONFIG_USE_DEFAULT_TEXTURE != 0 ? 132 : 133);
+  __builtin_strncpy(state_buffer, return_value_lw_lang_string_1, sizeof(char [30l]) /*30ul*/  - (unsigned long int)1);
   state_buffer[(signed long int)(sizeof(char [30l]) /*30ul*/  - (unsigned long int)1)] = (char)0;
   (d + (signed long int)19)->dp = (void *)state_buffer;
   my_button_proc(3, d + (signed long int)19, 0);
@@ -26685,25 +26685,25 @@ static inline void vline(struct BITMAP *bmp, signed int x, signed int y_1, signe
   _allegro_vline(bmp, x, y_1, y2, color);
 }
 
-// vline$link1
+// vline_link1
 // file /usr/include/allegro/inline/draw.inl line 67
-static inline void vline$link1(struct BITMAP *bmp$link1, signed int x$link1, signed int y_1$link1, signed int y2$link1, signed int color$link1)
+static inline void vline_link1(struct BITMAP *bmp_link1, signed int x_link1, signed int y_1_link1, signed int y2_link1, signed int color_link1)
 {
-  _allegro_vline$link1(bmp$link1, x$link1, y_1$link1, y2$link1, color$link1);
+  _allegro_vline_link1(bmp_link1, x_link1, y_1_link1, y2_link1, color_link1);
 }
 
-// vline$link2
+// vline_link2
 // file /usr/include/allegro/inline/draw.inl line 67
-static inline void vline$link2(struct BITMAP *bmp$link2, signed int x$link2, signed int y_1$link2, signed int y2$link2, signed int color$link2)
+static inline void vline_link2(struct BITMAP *bmp_link2, signed int x_link2, signed int y_1_link2, signed int y2_link2, signed int color_link2)
 {
-  _allegro_vline$link2(bmp$link2, x$link2, y_1$link2, y2$link2, color$link2);
+  _allegro_vline_link2(bmp_link2, x_link2, y_1_link2, y2_link2, color_link2);
 }
 
-// vline$link3
+// vline_link3
 // file /usr/include/allegro/inline/draw.inl line 67
-static inline void vline$link3(struct BITMAP *bmp$link3, signed int x$link3, signed int y_1$link3, signed int y2$link3, signed int color$link3)
+static inline void vline_link3(struct BITMAP *bmp_link3, signed int x_link3, signed int y_1_link3, signed int y2_link3, signed int color_link3)
 {
-  _allegro_vline$link3(bmp$link3, x$link3, y_1$link3, y2$link3, color$link3);
+  _allegro_vline_link3(bmp_link3, x_link3, y_1_link3, y2_link3, color_link3);
 }
 
 // wait_key_pressed
@@ -26717,12 +26717,12 @@ signed int wait_key_pressed(void)
   signed int dummy;
   start_tick=get_ticker();
   lw_mouse_reset_control();
-  signed int return_value_get_ticker$1;
-  signed int return_value_is_touched_key$2;
+  signed int return_value_get_ticker_1;
+  signed int return_value_is_touched_key_2;
   while(touched == 0)
   {
-    return_value_get_ticker$1=get_ticker();
-    if(return_value_get_ticker$1 >= 10000 + start_tick)
+    return_value_get_ticker_1=get_ticker();
+    if(return_value_get_ticker_1 >= 10000 + start_tick)
       break;
 
     dummy=keypressed();
@@ -26731,8 +26731,8 @@ signed int wait_key_pressed(void)
     i = 0;
     for( ; touched == 0 && !(i >= 256); i = i + 1)
     {
-      return_value_is_touched_key$2=is_touched_key(i);
-      if(!(return_value_is_touched_key$2 == 0))
+      return_value_is_touched_key_2=is_touched_key(i);
+      if(!(return_value_is_touched_key_2 == 0))
       {
         touched = 1;
         result = i;
@@ -26756,9 +26756,9 @@ void wait_no_key(void)
   signed int dummy;
   start_tick=get_ticker();
   lw_mouse_reset_control();
-  signed int return_value_is_touched_key$3;
-  _Bool tmp_if_expr$2;
-  signed int return_value_get_ticker$1;
+  signed int return_value_is_touched_key_3;
+  _Bool tmp_if_expr_2;
+  signed int return_value_get_ticker_1;
   do
   {
     dummy=keypressed();
@@ -26768,21 +26768,21 @@ void wait_no_key(void)
     i = 0;
     for( ; !(i >= 256); i = i + 1)
     {
-      return_value_is_touched_key$3=is_touched_key(i);
-      if(!(return_value_is_touched_key$3 == 0))
+      return_value_is_touched_key_3=is_touched_key(i);
+      if(!(return_value_is_touched_key_3 == 0))
         touched = 1;
 
     }
     if(!(touched == 0))
     {
-      return_value_get_ticker$1=get_ticker();
-      tmp_if_expr$2 = return_value_get_ticker$1 < start_tick + 1000 ? (_Bool)1 : (_Bool)0;
+      return_value_get_ticker_1=get_ticker();
+      tmp_if_expr_2 = return_value_get_ticker_1 < start_tick + 1000 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
 }
 
 // watchdog_is_keyword
@@ -26798,9 +26798,9 @@ signed int watchdog_is_keyword(char *keyword)
   memset((void *)pattern, 0, sizeof(char [65l]) /*65ul*/ );
   snprintf(pattern, sizeof(char [65l]) /*65ul*/  - (unsigned long int)1, "%s%s", (const void *)"ufoot", keyword);
   pattern[(signed long int)(sizeof(char [65l]) /*65ul*/  - (unsigned long int)1)] = (char)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(pattern);
-  l = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(pattern);
+  l = (signed int)return_value_strlen_1;
   n = (WATCHDOG_KEYS_IN_BUFFER - l) + 1;
   i = 0;
   for( ; found == 0 && !(i >= n); i = i + 1)
@@ -26849,20 +26849,20 @@ void watchdog_update()
     old_pos = old_pos - n;
   }
 
-  signed int return_value_keypressed$1;
-  signed int tmp_post$2;
+  signed int return_value_keypressed_1;
+  signed int tmp_post_2;
   do
   {
-    return_value_keypressed$1=keypressed();
-    if(return_value_keypressed$1 == 0)
+    return_value_keypressed_1=keypressed();
+    if(return_value_keypressed_1 == 0)
       break;
 
     if(WATCHDOG_KEYS_IN_BUFFER >= 1024)
       break;
 
-    tmp_post$2 = WATCHDOG_KEYS_IN_BUFFER;
+    tmp_post_2 = WATCHDOG_KEYS_IN_BUFFER;
     WATCHDOG_KEYS_IN_BUFFER = WATCHDOG_KEYS_IN_BUFFER + 1;
-    WATCHDOG_BUFFER[(signed long int)tmp_post$2]=readkey();
+    WATCHDOG_BUFFER[(signed long int)tmp_post_2]=readkey();
   }
   while((_Bool)1);
   i = old_pos;
@@ -26953,36 +26953,36 @@ signed int wave_options(void)
   }
   d[(signed long int)23].proc = (signed int (*)(signed int, struct DIALOG *, signed int))(void *)0;
   quick_buttons(d);
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(106);
-  d[(signed long int)4].dp = (void *)return_value_lw_lang_string$1;
-  char *return_value_lw_lang_string$2;
-  return_value_lw_lang_string$2=lw_lang_string(107);
-  d[(signed long int)5].dp = (void *)return_value_lw_lang_string$2;
-  char *return_value_lw_lang_string$3;
-  return_value_lw_lang_string$3=lw_lang_string(108);
-  d[(signed long int)6].dp = (void *)return_value_lw_lang_string$3;
-  char *return_value_lw_lang_string$4;
-  return_value_lw_lang_string$4=lw_lang_string(109);
-  d[(signed long int)7].dp = (void *)return_value_lw_lang_string$4;
-  char *return_value_lw_lang_string$5;
-  return_value_lw_lang_string$5=lw_lang_string(110);
-  d[(signed long int)11].dp = (void *)return_value_lw_lang_string$5;
-  char *return_value_lw_lang_string$6;
-  return_value_lw_lang_string$6=lw_lang_string(111);
-  d[(signed long int)15].dp = (void *)return_value_lw_lang_string$6;
-  char *return_value_lw_lang_string$7;
-  return_value_lw_lang_string$7=lw_lang_string(112);
-  d[(signed long int)19].dp = (void *)return_value_lw_lang_string$7;
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(106);
+  d[(signed long int)4].dp = (void *)return_value_lw_lang_string_1;
+  char *return_value_lw_lang_string_2;
+  return_value_lw_lang_string_2=lw_lang_string(107);
+  d[(signed long int)5].dp = (void *)return_value_lw_lang_string_2;
+  char *return_value_lw_lang_string_3;
+  return_value_lw_lang_string_3=lw_lang_string(108);
+  d[(signed long int)6].dp = (void *)return_value_lw_lang_string_3;
+  char *return_value_lw_lang_string_4;
+  return_value_lw_lang_string_4=lw_lang_string(109);
+  d[(signed long int)7].dp = (void *)return_value_lw_lang_string_4;
+  char *return_value_lw_lang_string_5;
+  return_value_lw_lang_string_5=lw_lang_string(110);
+  d[(signed long int)11].dp = (void *)return_value_lw_lang_string_5;
+  char *return_value_lw_lang_string_6;
+  return_value_lw_lang_string_6=lw_lang_string(111);
+  d[(signed long int)15].dp = (void *)return_value_lw_lang_string_6;
+  char *return_value_lw_lang_string_7;
+  return_value_lw_lang_string_7=lw_lang_string(112);
+  d[(signed long int)19].dp = (void *)return_value_lw_lang_string_7;
   display_back_image();
-  signed int return_value_my_update_dialog$8;
+  signed int return_value_my_update_dialog_8;
   while(retour == 0)
   {
     dp=my_init_dialog(d, choix);
     do
     {
-      return_value_my_update_dialog$8=my_update_dialog(dp);
-      if(return_value_my_update_dialog$8 == 0)
+      return_value_my_update_dialog_8=my_update_dialog(dp);
+      if(return_value_my_update_dialog_8 == 0)
         break;
 
     }
@@ -27013,9 +27013,9 @@ signed int wave_options(void)
 
     __CPROVER_DUMP_L16:
       ;
-      signed int return_value_confirm_quit$9;
-      return_value_confirm_quit$9=confirm_quit();
-      if(!(return_value_confirm_quit$9 == 0))
+      signed int return_value_confirm_quit_9;
+      return_value_confirm_quit_9=confirm_quit();
+      if(!(return_value_confirm_quit_9 == 0))
         retour = -2;
 
       else
@@ -27042,9 +27042,9 @@ static void write_cis_setting(struct DIALOG *d)
 {
   char *str = (char *)d->dp;
   memset((void *)str, 0, (unsigned long int)30);
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(59);
-  snprintf(str, (unsigned long int)(30 - 1), "%s x%d", return_value_lw_lang_string$1, CONFIG_CURSOR_INCREASE_SPEED + 1);
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(59);
+  snprintf(str, (unsigned long int)(30 - 1), "%s x%d", return_value_lw_lang_string_1, CONFIG_CURSOR_INCREASE_SPEED + 1);
   str[(signed long int)(30 - 1)] = (char)0;
 }
 
@@ -27056,18 +27056,18 @@ static void write_fps_setting(struct DIALOG *d)
   if(!(DISPLAY_DELAY_MIN[(signed long int)CONFIG_FRAMES_PER_SEC_LIMIT] == 0))
   {
     memset((void *)str, 0, (unsigned long int)33);
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(77);
-    snprintf(str, (unsigned long int)(33 - 1), "%d %s", 1000 / DISPLAY_DELAY_MIN[(signed long int)CONFIG_FRAMES_PER_SEC_LIMIT], return_value_lw_lang_string$1);
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(77);
+    snprintf(str, (unsigned long int)(33 - 1), "%d %s", 1000 / DISPLAY_DELAY_MIN[(signed long int)CONFIG_FRAMES_PER_SEC_LIMIT], return_value_lw_lang_string_1);
     str[(signed long int)(33 - 1)] = (char)0;
   }
 
   else
   {
     memset((void *)str, 0, (unsigned long int)33);
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(78);
-    __builtin_strncpy(str, return_value_lw_lang_string$2, (unsigned long int)(33 - 1));
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(78);
+    __builtin_strncpy(str, return_value_lw_lang_string_2, (unsigned long int)(33 - 1));
     str[(signed long int)(33 - 1)] = (char)0;
   }
 }
@@ -27078,9 +27078,9 @@ static void write_mmr_setting(struct DIALOG *d)
 {
   char *str = (char *)d->dp;
   memset((void *)str, 0, (unsigned long int)50);
-  char *return_value_lw_lang_string$1;
-  return_value_lw_lang_string$1=lw_lang_string(61);
-  snprintf(str, (unsigned long int)(50 - 1), "%s%dx%d", return_value_lw_lang_string$1, MIN_MAP_RES_W[(signed long int)CONFIG_MIN_MAP_RES], MIN_MAP_RES_H[(signed long int)CONFIG_MIN_MAP_RES]);
+  char *return_value_lw_lang_string_1;
+  return_value_lw_lang_string_1=lw_lang_string(61);
+  snprintf(str, (unsigned long int)(50 - 1), "%s%dx%d", return_value_lw_lang_string_1, MIN_MAP_RES_W[(signed long int)CONFIG_MIN_MAP_RES], MIN_MAP_RES_H[(signed long int)CONFIG_MIN_MAP_RES]);
   str[(signed long int)(50 - 1)] = (char)0;
 }
 
@@ -27092,18 +27092,18 @@ static void write_rps_setting(struct DIALOG *d)
   if(!(LOGIC_DELAY_MIN[(signed long int)CONFIG_ROUNDS_PER_SEC_LIMIT] == 0))
   {
     memset((void *)str, 0, (unsigned long int)33);
-    char *return_value_lw_lang_string$1;
-    return_value_lw_lang_string$1=lw_lang_string(79);
-    snprintf(str, (unsigned long int)(33 - 1), "%d %s", 1000 / LOGIC_DELAY_MIN[(signed long int)CONFIG_ROUNDS_PER_SEC_LIMIT], return_value_lw_lang_string$1);
+    char *return_value_lw_lang_string_1;
+    return_value_lw_lang_string_1=lw_lang_string(79);
+    snprintf(str, (unsigned long int)(33 - 1), "%d %s", 1000 / LOGIC_DELAY_MIN[(signed long int)CONFIG_ROUNDS_PER_SEC_LIMIT], return_value_lw_lang_string_1);
     str[(signed long int)(33 - 1)] = (char)0;
   }
 
   else
   {
     memset((void *)str, 0, (unsigned long int)33);
-    char *return_value_lw_lang_string$2;
-    return_value_lw_lang_string$2=lw_lang_string(80);
-    __builtin_strncpy(str, return_value_lw_lang_string$2, (unsigned long int)(33 - 1));
+    char *return_value_lw_lang_string_2;
+    return_value_lw_lang_string_2=lw_lang_string(80);
+    __builtin_strncpy(str, return_value_lw_lang_string_2, (unsigned long int)(33 - 1));
     str[(signed long int)(33 - 1)] = (char)0;
   }
 }
@@ -27112,7 +27112,7 @@ static void write_rps_setting(struct DIALOG *d)
 // file score.c line 130
 static void write_score(signed int indice, char *buffer, signed int fill_level)
 {
-  signed int write_score$$1$$time;
+  signed int write_score__1__time;
   signed int min;
   signed int sec;
   signed int pourmille;
@@ -27132,9 +27132,9 @@ static void write_score(signed int indice, char *buffer, signed int fill_level)
       if(CURRENT_CURSOR[(signed long int)indice].score_order == 1 && PLAYING_TEAMS == 1)
       {
         memset((void *)buffer, 0, (unsigned long int)33);
-        char *return_value_lw_lang_string$1;
-        return_value_lw_lang_string$1=lw_lang_string(160);
-        __builtin_strncpy(buffer, return_value_lw_lang_string$1, (unsigned long int)(33 - 1));
+        char *return_value_lw_lang_string_1;
+        return_value_lw_lang_string_1=lw_lang_string(160);
+        __builtin_strncpy(buffer, return_value_lw_lang_string_1, (unsigned long int)(33 - 1));
         buffer[(signed long int)(33 - 1)] = (char)0;
       }
 
@@ -27151,9 +27151,9 @@ static void write_score(signed int indice, char *buffer, signed int fill_level)
 
         else
         {
-          write_score$$1$$time = (CURRENT_CURSOR[(signed long int)indice].loose_time * fill_level) / 1000;
-          min = write_score$$1$$time / 60;
-          sec = write_score$$1$$time % 60;
+          write_score__1__time = (CURRENT_CURSOR[(signed long int)indice].loose_time * fill_level) / 1000;
+          min = write_score__1__time / 60;
+          sec = write_score__1__time % 60;
           memset((void *)buffer, 0, (unsigned long int)33);
           snprintf(buffer, (unsigned long int)(33 - 1), "%02d:%02d", min, sec);
           buffer[(signed long int)(33 - 1)] = (char)0;

@@ -1,12 +1,12 @@
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -68,7 +68,7 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -77,18 +77,18 @@ extern signed int pthread_mutex_lock(union anonymous *);
 extern signed int pthread_mutex_unlock(union anonymous *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$1 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_1 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$1 *);
+extern signed int sem_post(union anonymous_1 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$1 *);
+extern signed int sem_wait(union anonymous_1 *);
 // vfprintf
 // file /usr/include/stdio.h line 371
 extern signed int vfprintf(struct _IO_FILE *, const char *, void **);
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[32l];
@@ -96,7 +96,7 @@ union anonymous$1
   signed long int __align;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -247,13 +247,13 @@ signed int _debug = -77;
 union anonymous mutex;
 // sem
 // file ../../../test/pthread/dummy_thread.c line 61
-union anonymous$1 sem[2l];
+union anonymous_1 sem[2l];
 // stdout
 // file /usr/include/stdio.h line 169
 extern struct _IO_FILE *stdout;
 // thread_ready
 // file ../../../test/pthread/dummy_thread.c line 58
-union anonymous$1 thread_ready;
+union anonymous_1 thread_ready;
 
 // compute
 // file ../../../test/pthread/dummy_thread.c line 66
@@ -319,7 +319,7 @@ signed int main(signed int argc, char **argv)
 {
   unsigned long int tid[2l];
   signed int i;
-  pthread_mutex_init(&mutex, (const union anonymous$0 *)(void *)0);
+  pthread_mutex_init(&mutex, (const union anonymous_0 *)(void *)0);
   sem_init(&thread_ready, 0, (unsigned int)0);
   i = 0;
   for( ; !(i >= 2); i = i + 1)

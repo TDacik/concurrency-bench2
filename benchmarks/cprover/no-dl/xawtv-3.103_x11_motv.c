@@ -1,542 +1,542 @@
-// #anon_enum$JCS_UNKNOWN=0$JCS_GRAYSCALE=1$JCS_RGB=2$JCS_YCbCr=3$JCS_CMYK=4$JCS_YCCK=5$JCS_EXT_RGB=6$JCS_EXT_RGBX=7$JCS_EXT_BGR=8$JCS_EXT_BGRX=9$JCS_EXT_XBGR=10$JCS_EXT_XRGB=11$JCS_EXT_RGBA=12$JCS_EXT_BGRA=13$JCS_EXT_ABGR=14$JCS_EXT_ARGB=15$JCS_RGB565=16
+// #anon_enum_JCS_UNKNOWN=0_JCS_GRAYSCALE=1_JCS_RGB=2_JCS_YCbCr=3_JCS_CMYK=4_JCS_YCCK=5_JCS_EXT_RGB=6_JCS_EXT_RGBX=7_JCS_EXT_BGR=8_JCS_EXT_BGRX=9_JCS_EXT_XBGR=10_JCS_EXT_XRGB=11_JCS_EXT_RGBA=12_JCS_EXT_BGRA=13_JCS_EXT_ABGR=14_JCS_EXT_ARGB=15_JCS_RGB565=16
 // file /usr/include/jpeglib.h line 215
-enum anonymous$123 { JCS_UNKNOWN=0, JCS_GRAYSCALE=1, JCS_RGB=2, JCS_YCbCr=3, JCS_CMYK=4, JCS_YCCK=5, JCS_EXT_RGB=6, JCS_EXT_RGBX=7, JCS_EXT_BGR=8, JCS_EXT_BGRX=9, JCS_EXT_XBGR=10, JCS_EXT_XRGB=11, JCS_EXT_RGBA=12, JCS_EXT_BGRA=13, JCS_EXT_ABGR=14, JCS_EXT_ARGB=15, JCS_RGB565=16 };
+enum anonymous_123 { JCS_UNKNOWN=0, JCS_GRAYSCALE=1, JCS_RGB=2, JCS_YCbCr=3, JCS_CMYK=4, JCS_YCCK=5, JCS_EXT_RGB=6, JCS_EXT_RGBX=7, JCS_EXT_BGR=8, JCS_EXT_BGRX=9, JCS_EXT_XBGR=10, JCS_EXT_XRGB=11, JCS_EXT_RGBA=12, JCS_EXT_BGRA=13, JCS_EXT_ABGR=14, JCS_EXT_ARGB=15, JCS_RGB565=16 };
 
-// #anon_enum$JDCT_ISLOW=0$JDCT_IFAST=1$JDCT_FLOAT=2
+// #anon_enum_JDCT_ISLOW=0_JDCT_IFAST=1_JDCT_FLOAT=2
 // file /usr/include/jpeglib.h line 244
-enum anonymous$128 { JDCT_ISLOW=0, JDCT_IFAST=1, JDCT_FLOAT=2 };
+enum anonymous_128 { JDCT_ISLOW=0, JDCT_IFAST=1, JDCT_FLOAT=2 };
 
-// #anon_enum$VBI_AUDIO_MODE_NONE=0$VBI_AUDIO_MODE_MONO=1$VBI_AUDIO_MODE_STEREO=2$VBI_AUDIO_MODE_STEREO_SURROUND=3$VBI_AUDIO_MODE_SIMULATED_STEREO=4$VBI_AUDIO_MODE_VIDEO_DESCRIPTIONS=5$VBI_AUDIO_MODE_NON_PROGRAM_AUDIO=6$VBI_AUDIO_MODE_SPECIAL_EFFECTS=7$VBI_AUDIO_MODE_DATA_SERVICE=8$VBI_AUDIO_MODE_UNKNOWN=9
+// #anon_enum_VBI_AUDIO_MODE_NONE=0_VBI_AUDIO_MODE_MONO=1_VBI_AUDIO_MODE_STEREO=2_VBI_AUDIO_MODE_STEREO_SURROUND=3_VBI_AUDIO_MODE_SIMULATED_STEREO=4_VBI_AUDIO_MODE_VIDEO_DESCRIPTIONS=5_VBI_AUDIO_MODE_NON_PROGRAM_AUDIO=6_VBI_AUDIO_MODE_SPECIAL_EFFECTS=7_VBI_AUDIO_MODE_DATA_SERVICE=8_VBI_AUDIO_MODE_UNKNOWN=9
 // file /usr/include/libzvbi.h line 534
-enum anonymous$89 { VBI_AUDIO_MODE_NONE=0, VBI_AUDIO_MODE_MONO=1, VBI_AUDIO_MODE_STEREO=2, VBI_AUDIO_MODE_STEREO_SURROUND=3, VBI_AUDIO_MODE_SIMULATED_STEREO=4, VBI_AUDIO_MODE_VIDEO_DESCRIPTIONS=5, VBI_AUDIO_MODE_NON_PROGRAM_AUDIO=6, VBI_AUDIO_MODE_SPECIAL_EFFECTS=7, VBI_AUDIO_MODE_DATA_SERVICE=8, VBI_AUDIO_MODE_UNKNOWN=9 };
+enum anonymous_89 { VBI_AUDIO_MODE_NONE=0, VBI_AUDIO_MODE_MONO=1, VBI_AUDIO_MODE_STEREO=2, VBI_AUDIO_MODE_STEREO_SURROUND=3, VBI_AUDIO_MODE_SIMULATED_STEREO=4, VBI_AUDIO_MODE_VIDEO_DESCRIPTIONS=5, VBI_AUDIO_MODE_NON_PROGRAM_AUDIO=6, VBI_AUDIO_MODE_SPECIAL_EFFECTS=7, VBI_AUDIO_MODE_DATA_SERVICE=8, VBI_AUDIO_MODE_UNKNOWN=9 };
 
-// #anon_enum$VBI_BLACK=0$VBI_RED=1$VBI_GREEN=2$VBI_YELLOW=3$VBI_BLUE=4$VBI_MAGENTA=5$VBI_CYAN=6$VBI_WHITE=7
+// #anon_enum_VBI_BLACK=0_VBI_RED=1_VBI_GREEN=2_VBI_YELLOW=3_VBI_BLUE=4_VBI_MAGENTA=5_VBI_CYAN=6_VBI_WHITE=7
 // file /usr/include/libzvbi.h line 761
-enum anonymous$61 { VBI_BLACK=0, VBI_RED=1, VBI_GREEN=2, VBI_YELLOW=3, VBI_BLUE=4, VBI_MAGENTA=5, VBI_CYAN=6, VBI_WHITE=7 };
+enum anonymous_61 { VBI_BLACK=0, VBI_RED=1, VBI_GREEN=2, VBI_YELLOW=3, VBI_BLUE=4, VBI_MAGENTA=5, VBI_CYAN=6, VBI_WHITE=7 };
 
-// #anon_enum$VBI_CNI_TYPE_NONE=0$VBI_CNI_TYPE_UNKNOWN=0$VBI_CNI_TYPE_VPS=1$VBI_CNI_TYPE_8301=2$VBI_CNI_TYPE_8302=3$VBI_CNI_TYPE_PDC_A=4$VBI_CNI_TYPE_PDC_B=5
+// #anon_enum_VBI_CNI_TYPE_NONE=0_VBI_CNI_TYPE_UNKNOWN=0_VBI_CNI_TYPE_VPS=1_VBI_CNI_TYPE_8301=2_VBI_CNI_TYPE_8302=3_VBI_CNI_TYPE_PDC_A=4_VBI_CNI_TYPE_PDC_B=5
 // file /usr/include/libzvbi.h line 254
-enum anonymous$76 { VBI_CNI_TYPE_NONE=0, VBI_CNI_TYPE_UNKNOWN=0, VBI_CNI_TYPE_VPS=1, VBI_CNI_TYPE_8301=2, VBI_CNI_TYPE_8302=3, VBI_CNI_TYPE_PDC_A=4, VBI_CNI_TYPE_PDC_B=5 };
+enum anonymous_76 { VBI_CNI_TYPE_NONE=0, VBI_CNI_TYPE_UNKNOWN=0, VBI_CNI_TYPE_VPS=1, VBI_CNI_TYPE_8301=2, VBI_CNI_TYPE_8302=3, VBI_CNI_TYPE_PDC_A=4, VBI_CNI_TYPE_PDC_B=5 };
 
-// #anon_enum$VBI_DST_UNKNOWN=0$VBI_DST_INCLUDED=1$VBI_DST_INACTIVE=2$VBI_DST_ACTIVE=3
+// #anon_enum_VBI_DST_UNKNOWN=0_VBI_DST_INCLUDED=1_VBI_DST_INACTIVE=2_VBI_DST_ACTIVE=3
 // file /usr/include/libzvbi.h line 676
-enum anonymous$91 { VBI_DST_UNKNOWN=0, VBI_DST_INCLUDED=1, VBI_DST_INACTIVE=2, VBI_DST_ACTIVE=3 };
+enum anonymous_91 { VBI_DST_UNKNOWN=0, VBI_DST_INCLUDED=1, VBI_DST_INACTIVE=2, VBI_DST_ACTIVE=3 };
 
-// #anon_enum$VBI_LINK_NONE=0$VBI_LINK_MESSAGE=1$VBI_LINK_PAGE=2$VBI_LINK_SUBPAGE=3$VBI_LINK_HTTP=4$VBI_LINK_FTP=5$VBI_LINK_EMAIL=6$VBI_LINK_LID=7$VBI_LINK_TELEWEB=8
+// #anon_enum_VBI_LINK_NONE=0_VBI_LINK_MESSAGE=1_VBI_LINK_PAGE=2_VBI_LINK_SUBPAGE=3_VBI_LINK_HTTP=4_VBI_LINK_FTP=5_VBI_LINK_EMAIL=6_VBI_LINK_LID=7_VBI_LINK_TELEWEB=8
 // file /usr/include/libzvbi.h line 445
-enum anonymous$81 { VBI_LINK_NONE=0, VBI_LINK_MESSAGE=1, VBI_LINK_PAGE=2, VBI_LINK_SUBPAGE=3, VBI_LINK_HTTP=4, VBI_LINK_FTP=5, VBI_LINK_EMAIL=6, VBI_LINK_LID=7, VBI_LINK_TELEWEB=8 };
+enum anonymous_81 { VBI_LINK_NONE=0, VBI_LINK_MESSAGE=1, VBI_LINK_PAGE=2, VBI_LINK_SUBPAGE=3, VBI_LINK_HTTP=4, VBI_LINK_FTP=5, VBI_LINK_EMAIL=6, VBI_LINK_LID=7, VBI_LINK_TELEWEB=8 };
 
-// #anon_enum$VBI_PCS_AUDIO_UNKNOWN=0$VBI_PCS_AUDIO_MONO=1$VBI_PCS_AUDIO_STEREO=2$VBI_PCS_AUDIO_BILINGUAL=3
+// #anon_enum_VBI_PCS_AUDIO_UNKNOWN=0_VBI_PCS_AUDIO_MONO=1_VBI_PCS_AUDIO_STEREO=2_VBI_PCS_AUDIO_BILINGUAL=3
 // file /usr/include/libzvbi.h line 370
-enum anonymous$78 { VBI_PCS_AUDIO_UNKNOWN=0, VBI_PCS_AUDIO_MONO=1, VBI_PCS_AUDIO_STEREO=2, VBI_PCS_AUDIO_BILINGUAL=3 };
+enum anonymous_78 { VBI_PCS_AUDIO_UNKNOWN=0, VBI_PCS_AUDIO_MONO=1, VBI_PCS_AUDIO_STEREO=2, VBI_PCS_AUDIO_BILINGUAL=3 };
 
-// #anon_enum$VBI_PID_CHANNEL_LCI_0=0$VBI_PID_CHANNEL_LCI_1=1$VBI_PID_CHANNEL_LCI_2=2$VBI_PID_CHANNEL_LCI_3=3$VBI_PID_CHANNEL_VPS=4$VBI_PID_CHANNEL_PDC_DESCRIPTOR=5$VBI_PID_CHANNEL_XDS_CURRENT=6$VBI_PID_CHANNEL_XDS_FUTURE=7$VBI_MAX_PID_CHANNELS=8
+// #anon_enum_VBI_PID_CHANNEL_LCI_0=0_VBI_PID_CHANNEL_LCI_1=1_VBI_PID_CHANNEL_LCI_2=2_VBI_PID_CHANNEL_LCI_3=3_VBI_PID_CHANNEL_VPS=4_VBI_PID_CHANNEL_PDC_DESCRIPTOR=5_VBI_PID_CHANNEL_XDS_CURRENT=6_VBI_PID_CHANNEL_XDS_FUTURE=7_VBI_MAX_PID_CHANNELS=8
 // file /usr/include/libzvbi.h line 346
-enum anonymous$77 { VBI_PID_CHANNEL_LCI_0=0, VBI_PID_CHANNEL_LCI_1=1, VBI_PID_CHANNEL_LCI_2=2, VBI_PID_CHANNEL_LCI_3=3, VBI_PID_CHANNEL_VPS=4, VBI_PID_CHANNEL_PDC_DESCRIPTOR=5, VBI_PID_CHANNEL_XDS_CURRENT=6, VBI_PID_CHANNEL_XDS_FUTURE=7, VBI_MAX_PID_CHANNELS=8 };
+enum anonymous_77 { VBI_PID_CHANNEL_LCI_0=0, VBI_PID_CHANNEL_LCI_1=1, VBI_PID_CHANNEL_LCI_2=2, VBI_PID_CHANNEL_LCI_3=3, VBI_PID_CHANNEL_VPS=4, VBI_PID_CHANNEL_PDC_DESCRIPTOR=5, VBI_PID_CHANNEL_XDS_CURRENT=6, VBI_PID_CHANNEL_XDS_FUTURE=7, VBI_MAX_PID_CHANNELS=8 };
 
-// #anon_enum$VBI_PIXFMT_YUV420=1$VBI_PIXFMT_YUYV=2$VBI_PIXFMT_YVYU=3$VBI_PIXFMT_UYVY=4$VBI_PIXFMT_VYUY=5$VBI_PIXFMT_PAL8=6$VBI_PIXFMT_RGBA32_LE=32$VBI_PIXFMT_RGBA32_BE=33$VBI_PIXFMT_BGRA32_LE=34$VBI_PIXFMT_BGRA32_BE=35$VBI_PIXFMT_ABGR32_BE=32$VBI_PIXFMT_ABGR32_LE=33$VBI_PIXFMT_ARGB32_BE=34$VBI_PIXFMT_ARGB32_LE=35$VBI_PIXFMT_RGB24=36$VBI_PIXFMT_BGR24=37$VBI_PIXFMT_RGB16_LE=38$VBI_PIXFMT_RGB16_BE=39$VBI_PIXFMT_BGR16_LE=40$VBI_PIXFMT_BGR16_BE=41$VBI_PIXFMT_RGBA15_LE=42$VBI_PIXFMT_RGBA15_BE=43$VBI_PIXFMT_BGRA15_LE=44$VBI_PIXFMT_BGRA15_BE=45$VBI_PIXFMT_ARGB15_LE=46$VBI_PIXFMT_ARGB15_BE=47$VBI_PIXFMT_ABGR15_LE=48$VBI_PIXFMT_ABGR15_BE=49
+// #anon_enum_VBI_PIXFMT_YUV420=1_VBI_PIXFMT_YUYV=2_VBI_PIXFMT_YVYU=3_VBI_PIXFMT_UYVY=4_VBI_PIXFMT_VYUY=5_VBI_PIXFMT_PAL8=6_VBI_PIXFMT_RGBA32_LE=32_VBI_PIXFMT_RGBA32_BE=33_VBI_PIXFMT_BGRA32_LE=34_VBI_PIXFMT_BGRA32_BE=35_VBI_PIXFMT_ABGR32_BE=32_VBI_PIXFMT_ABGR32_LE=33_VBI_PIXFMT_ARGB32_BE=34_VBI_PIXFMT_ARGB32_LE=35_VBI_PIXFMT_RGB24=36_VBI_PIXFMT_BGR24=37_VBI_PIXFMT_RGB16_LE=38_VBI_PIXFMT_RGB16_BE=39_VBI_PIXFMT_BGR16_LE=40_VBI_PIXFMT_BGR16_BE=41_VBI_PIXFMT_RGBA15_LE=42_VBI_PIXFMT_RGBA15_BE=43_VBI_PIXFMT_BGRA15_LE=44_VBI_PIXFMT_BGRA15_BE=45_VBI_PIXFMT_ARGB15_LE=46_VBI_PIXFMT_ARGB15_BE=47_VBI_PIXFMT_ABGR15_LE=48_VBI_PIXFMT_ABGR15_BE=49
 // file /usr/include/libzvbi.h line 1069
-enum anonymous$97 { VBI_PIXFMT_YUV420=1, VBI_PIXFMT_YUYV=2, VBI_PIXFMT_YVYU=3, VBI_PIXFMT_UYVY=4, VBI_PIXFMT_VYUY=5, VBI_PIXFMT_PAL8=6, VBI_PIXFMT_RGBA32_LE=32, VBI_PIXFMT_RGBA32_BE=33, VBI_PIXFMT_BGRA32_LE=34, VBI_PIXFMT_BGRA32_BE=35, VBI_PIXFMT_ABGR32_BE=32, VBI_PIXFMT_ABGR32_LE=33, VBI_PIXFMT_ARGB32_BE=34, VBI_PIXFMT_ARGB32_LE=35, VBI_PIXFMT_RGB24=36, VBI_PIXFMT_BGR24=37, VBI_PIXFMT_RGB16_LE=38, VBI_PIXFMT_RGB16_BE=39, VBI_PIXFMT_BGR16_LE=40, VBI_PIXFMT_BGR16_BE=41, VBI_PIXFMT_RGBA15_LE=42, VBI_PIXFMT_RGBA15_BE=43, VBI_PIXFMT_BGRA15_LE=44, VBI_PIXFMT_BGRA15_BE=45, VBI_PIXFMT_ARGB15_LE=46, VBI_PIXFMT_ARGB15_BE=47, VBI_PIXFMT_ABGR15_LE=48, VBI_PIXFMT_ABGR15_BE=49 };
+enum anonymous_97 { VBI_PIXFMT_YUV420=1, VBI_PIXFMT_YUYV=2, VBI_PIXFMT_YVYU=3, VBI_PIXFMT_UYVY=4, VBI_PIXFMT_VYUY=5, VBI_PIXFMT_PAL8=6, VBI_PIXFMT_RGBA32_LE=32, VBI_PIXFMT_RGBA32_BE=33, VBI_PIXFMT_BGRA32_LE=34, VBI_PIXFMT_BGRA32_BE=35, VBI_PIXFMT_ABGR32_BE=32, VBI_PIXFMT_ABGR32_LE=33, VBI_PIXFMT_ARGB32_BE=34, VBI_PIXFMT_ARGB32_LE=35, VBI_PIXFMT_RGB24=36, VBI_PIXFMT_BGR24=37, VBI_PIXFMT_RGB16_LE=38, VBI_PIXFMT_RGB16_BE=39, VBI_PIXFMT_BGR16_LE=40, VBI_PIXFMT_BGR16_BE=41, VBI_PIXFMT_RGBA15_LE=42, VBI_PIXFMT_RGBA15_BE=43, VBI_PIXFMT_BGRA15_LE=44, VBI_PIXFMT_BGRA15_BE=45, VBI_PIXFMT_ARGB15_LE=46, VBI_PIXFMT_ARGB15_BE=47, VBI_PIXFMT_ABGR15_LE=48, VBI_PIXFMT_ABGR15_BE=49 };
 
-// #anon_enum$VBI_PROG_CLASSF_NONE=0$VBI_PROG_CLASSF_EIA_608=1$VBI_PROG_CLASSF_ETS_300231=2
+// #anon_enum_VBI_PROG_CLASSF_NONE=0_VBI_PROG_CLASSF_EIA_608=1_VBI_PROG_CLASSF_ETS_300231=2
 // file /usr/include/libzvbi.h line 524
-enum anonymous$88 { VBI_PROG_CLASSF_NONE=0, VBI_PROG_CLASSF_EIA_608=1, VBI_PROG_CLASSF_ETS_300231=2 };
+enum anonymous_88 { VBI_PROG_CLASSF_NONE=0, VBI_PROG_CLASSF_EIA_608=1, VBI_PROG_CLASSF_ETS_300231=2 };
 
-// #anon_enum$VBI_RATING_AUTH_NONE=0$VBI_RATING_AUTH_MPAA=1$VBI_RATING_AUTH_TV_US=2$VBI_RATING_AUTH_TV_CA_EN=3$VBI_RATING_AUTH_TV_CA_FR=4
+// #anon_enum_VBI_RATING_AUTH_NONE=0_VBI_RATING_AUTH_MPAA=1_VBI_RATING_AUTH_TV_US=2_VBI_RATING_AUTH_TV_CA_EN=3_VBI_RATING_AUTH_TV_CA_FR=4
 // file /usr/include/libzvbi.h line 508
-enum anonymous$86 { VBI_RATING_AUTH_NONE=0, VBI_RATING_AUTH_MPAA=1, VBI_RATING_AUTH_TV_US=2, VBI_RATING_AUTH_TV_CA_EN=3, VBI_RATING_AUTH_TV_CA_FR=4 };
+enum anonymous_86 { VBI_RATING_AUTH_NONE=0, VBI_RATING_AUTH_MPAA=1, VBI_RATING_AUTH_TV_US=2, VBI_RATING_AUTH_TV_CA_EN=3, VBI_RATING_AUTH_TV_CA_FR=4 };
 
-// #anon_enum$VBI_SUBT_NONE=0$VBI_SUBT_ACTIVE=1$VBI_SUBT_MATTE=2$VBI_SUBT_UNKNOWN=3
+// #anon_enum_VBI_SUBT_NONE=0_VBI_SUBT_ACTIVE=1_VBI_SUBT_MATTE=2_VBI_SUBT_UNKNOWN=3
 // file /usr/include/libzvbi.h line 487
-enum anonymous$84 { VBI_SUBT_NONE=0, VBI_SUBT_ACTIVE=1, VBI_SUBT_MATTE=2, VBI_SUBT_UNKNOWN=3 };
+enum anonymous_84 { VBI_SUBT_NONE=0, VBI_SUBT_ACTIVE=1, VBI_SUBT_MATTE=2, VBI_SUBT_UNKNOWN=3 };
 
-// #anon_enum$VBI_TRANSPARENT_SPACE=0$VBI_TRANSPARENT_FULL=1$VBI_SEMI_TRANSPARENT=2$VBI_OPAQUE=3
+// #anon_enum_VBI_TRANSPARENT_SPACE=0_VBI_TRANSPARENT_FULL=1_VBI_SEMI_TRANSPARENT=2_VBI_OPAQUE=3
 // file /usr/include/libzvbi.h line 775
-enum anonymous$62 { VBI_TRANSPARENT_SPACE=0, VBI_TRANSPARENT_FULL=1, VBI_SEMI_TRANSPARENT=2, VBI_OPAQUE=3 };
+enum anonymous_62 { VBI_TRANSPARENT_SPACE=0, VBI_TRANSPARENT_FULL=1, VBI_SEMI_TRANSPARENT=2, VBI_OPAQUE=3 };
 
-// #anon_enum$VBI_WEBLINK_UNKNOWN=0$VBI_WEBLINK_PROGRAM_RELATED=1$VBI_WEBLINK_NETWORK_RELATED=2$VBI_WEBLINK_STATION_RELATED=3$VBI_WEBLINK_SPONSOR_MESSAGE=4$VBI_WEBLINK_OPERATOR=5
+// #anon_enum_VBI_WEBLINK_UNKNOWN=0_VBI_WEBLINK_PROGRAM_RELATED=1_VBI_WEBLINK_NETWORK_RELATED=2_VBI_WEBLINK_STATION_RELATED=3_VBI_WEBLINK_SPONSOR_MESSAGE=4_VBI_WEBLINK_OPERATOR=5
 // file /usr/include/libzvbi.h line 459
-enum anonymous$82 { VBI_WEBLINK_UNKNOWN=0, VBI_WEBLINK_PROGRAM_RELATED=1, VBI_WEBLINK_NETWORK_RELATED=2, VBI_WEBLINK_STATION_RELATED=3, VBI_WEBLINK_SPONSOR_MESSAGE=4, VBI_WEBLINK_OPERATOR=5 };
+enum anonymous_82 { VBI_WEBLINK_UNKNOWN=0, VBI_WEBLINK_PROGRAM_RELATED=1, VBI_WEBLINK_NETWORK_RELATED=2, VBI_WEBLINK_STATION_RELATED=3, VBI_WEBLINK_SPONSOR_MESSAGE=4, VBI_WEBLINK_OPERATOR=5 };
 
-// #anon_enum$VBI_WST_LEVEL_1=0$VBI_WST_LEVEL_1p5=1$VBI_WST_LEVEL_2p5=2$VBI_WST_LEVEL_3p5=3
+// #anon_enum_VBI_WST_LEVEL_1=0_VBI_WST_LEVEL_1p5=1_VBI_WST_LEVEL_2p5=2_VBI_WST_LEVEL_3p5=3
 // file /usr/include/libzvbi.h line 2017
-enum anonymous$23 { VBI_WST_LEVEL_1=0, VBI_WST_LEVEL_1p5=1, VBI_WST_LEVEL_2p5=2, VBI_WST_LEVEL_3p5=3 };
+enum anonymous_23 { VBI_WST_LEVEL_1=0, VBI_WST_LEVEL_1p5=1, VBI_WST_LEVEL_2p5=2, VBI_WST_LEVEL_3p5=3 };
 
-// #anon_enum$XmCHARSET_TEXT=0$XmMULTIBYTE_TEXT=1$XmWIDECHAR_TEXT=2$XmNO_TEXT=3
+// #anon_enum_XmCHARSET_TEXT=0_XmMULTIBYTE_TEXT=1_XmWIDECHAR_TEXT=2_XmNO_TEXT=3
 // file /usr/include/Xm/Xm.h line 215
-enum anonymous$67 { XmCHARSET_TEXT=0, XmMULTIBYTE_TEXT=1, XmWIDECHAR_TEXT=2, XmNO_TEXT=3 };
+enum anonymous_67 { XmCHARSET_TEXT=0, XmMULTIBYTE_TEXT=1, XmWIDECHAR_TEXT=2, XmNO_TEXT=3 };
 
-// #anon_enum$XmOUTPUT_ALL=0$XmOUTPUT_BETWEEN=1$XmOUTPUT_BEGINNING=2$XmOUTPUT_END=3$XmOUTPUT_BOTH=4
+// #anon_enum_XmOUTPUT_ALL=0_XmOUTPUT_BETWEEN=1_XmOUTPUT_BEGINNING=2_XmOUTPUT_END=3_XmOUTPUT_BOTH=4
 // file /usr/include/Xm/Xm.h line 220
-enum anonymous$68 { XmOUTPUT_ALL=0, XmOUTPUT_BETWEEN=1, XmOUTPUT_BEGINNING=2, XmOUTPUT_END=3, XmOUTPUT_BOTH=4 };
+enum anonymous_68 { XmOUTPUT_ALL=0, XmOUTPUT_BETWEEN=1, XmOUTPUT_BEGINNING=2, XmOUTPUT_END=3, XmOUTPUT_BOTH=4 };
 
-// #anon_enum$XrmoptionNoArg=0$XrmoptionIsArg=1$XrmoptionStickyArg=2$XrmoptionSepArg=3$XrmoptionResArg=4$XrmoptionSkipArg=5$XrmoptionSkipLine=6$XrmoptionSkipNArgs=7
+// #anon_enum_XrmoptionNoArg=0_XrmoptionIsArg=1_XrmoptionStickyArg=2_XrmoptionSepArg=3_XrmoptionResArg=4_XrmoptionSkipArg=5_XrmoptionSkipLine=6_XrmoptionSkipNArgs=7
 // file /usr/include/X11/Xresource.h line 326
-enum anonymous$12 { XrmoptionNoArg=0, XrmoptionIsArg=1, XrmoptionStickyArg=2, XrmoptionSepArg=3, XrmoptionResArg=4, XrmoptionSkipArg=5, XrmoptionSkipLine=6, XrmoptionSkipNArgs=7 };
+enum anonymous_12 { XrmoptionNoArg=0, XrmoptionIsArg=1, XrmoptionStickyArg=2, XrmoptionSepArg=3, XrmoptionResArg=4, XrmoptionSkipArg=5, XrmoptionSkipLine=6, XrmoptionSkipNArgs=7 };
 
-// #anon_enum$XtGrabNone=0$XtGrabNonexclusive=1$XtGrabExclusive=2
+// #anon_enum_XtGrabNone=0_XtGrabNonexclusive=1_XtGrabExclusive=2
 // file /usr/include/X11/Intrinsic.h line 347
-enum anonymous$17 { XtGrabNone=0, XtGrabNonexclusive=1, XtGrabExclusive=2 };
+enum anonymous_17 { XtGrabNone=0, XtGrabNonexclusive=1, XtGrabExclusive=2 };
 
-// tag-#anon#ST[*{S8}$S8$'name'|*{S8}$S8$'value'|U64'pixel']
+// tag-#anon#ST[*{S8}_S8_'name'|*{S8}_S8_'value'|U64'pixel']
 // file /usr/include/X11/xpm.h line 100
-struct anonymous$130;
+struct anonymous_130;
 
-// tag-#anon#ST[*{S8}$S8$'name'|S64'value']
+// tag-#anon#ST[*{S8}_S8_'name'|S64'value']
 // file /usr/include/X11/Intrinsic.h line 316
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{S8}$S8$'name'|U32'nlines'|U32'$pad0'|*{*{S8}$S8$}$*{S8}$S8$$'lines']
+// tag-#anon#ST[*{S8}_S8_'name'|U32'nlines'|U32'_pad0'|*{*{S8}_S8_}_*{S8}_S8__'lines']
 // file /usr/include/X11/xpm.h line 106
-struct anonymous$131;
+struct anonymous_131;
 
-// tag-#anon#ST[*{S8}$S8$'option'|*{S8}$S8$'specifier'|SYM##anon_enum$XrmoptionNoArg=0$XrmoptionIsArg=1$XrmoptionStickyArg=2$XrmoptionSepArg=3$XrmoptionResArg=4$XrmoptionSkipArg=5$XrmoptionSkipLine=6$XrmoptionSkipNArgs=7#'argKind'|U32'$pad0'|*{S8}$S8$'value']
+// tag-#anon#ST[*{S8}_S8_'option'|*{S8}_S8_'specifier'|SYM##anon_enum_XrmoptionNoArg=0_XrmoptionIsArg=1_XrmoptionStickyArg=2_XrmoptionSepArg=3_XrmoptionResArg=4_XrmoptionSkipArg=5_XrmoptionSkipLine=6_XrmoptionSkipNArgs=7#'argKind'|U32'_pad0'|*{S8}_S8_'value']
 // file /usr/include/X11/Xresource.h line 338
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{S8}$S8$'res_name'|*{S8}$S8$'res_class']
+// tag-#anon#ST[*{S8}_S8_'res_name'|*{S8}_S8_'res_class']
 // file /usr/include/X11/Xutil.h line 189
-struct anonymous$116;
+struct anonymous_116;
 
-// tag-#anon#ST[*{S8}$S8$'string'|*{S8}$S8$'symbolic'|*{S8}$S8$'m_color'|*{S8}$S8$'g4_color'|*{S8}$S8$'g_color'|*{S8}$S8$'c_color']
+// tag-#anon#ST[*{S8}_S8_'string'|*{S8}_S8_'symbolic'|*{S8}_S8_'m_color'|*{S8}_S8_'g4_color'|*{S8}_S8_'g_color'|*{S8}_S8_'c_color']
 // file /usr/include/X11/xpm.h line 112
-struct anonymous$132;
+struct anonymous_132;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visual'|U64'visualid'|S32'screen'|S32'depth'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'colormap_size'|S32'bits_per_rgb']
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visual'|U64'visualid'|S32'screen'|S32'depth'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'colormap_size'|S32'bits_per_rgb']
 // file /usr/include/X11/Xutil.h line 287
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'|S32'fd'|S32'private2'|S32'proto_major_version'|S32'proto_minor_version'|*{S8}$S8$'vendor'|U64'private3'|U64'private4'|U64'private5'|S32'private6'|U32'$pad0'|*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'|S32'byte_order'|S32'bitmap_unit'|S32'bitmap_pad'|S32'bitmap_bit_order'|S32'nformats'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']#$'pixmap_format'|S32'private8'|S32'release'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'|S32'qlen'|U32'$pad2'|U64'last_request_read'|U64'request'|*{S8}$S8$'private11'|*{S8}$S8$'private12'|*{S8}$S8$'private13'|*{S8}$S8$'private14'|U32'max_request_size'|U32'$pad3'|*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'|*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'|*{S8}$S8$'display_name'|S32'default_screen'|S32'nscreens'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$'screens'|U64'motion_buffer'|U64'private16'|S32'min_keycode'|S32'max_keycode'|*{S8}$S8$'private17'|*{S8}$S8$'private18'|S32'private19'|U32'$pad4'|*{S8}$S8$'xdefaults']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'|S32'fd'|S32'private2'|S32'proto_major_version'|S32'proto_minor_version'|*{S8}_S8_'vendor'|U64'private3'|U64'private4'|U64'private5'|S32'private6'|U32'_pad0'|*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'|S32'byte_order'|S32'bitmap_unit'|S32'bitmap_pad'|S32'bitmap_bit_order'|S32'nformats'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']#_'pixmap_format'|S32'private8'|S32'release'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'|S32'qlen'|U32'_pad2'|U64'last_request_read'|U64'request'|*{S8}_S8_'private11'|*{S8}_S8_'private12'|*{S8}_S8_'private13'|*{S8}_S8_'private14'|U32'max_request_size'|U32'_pad3'|*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'|*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'|*{S8}_S8_'display_name'|S32'default_screen'|S32'nscreens'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_'screens'|U64'motion_buffer'|U64'private16'|S32'min_keycode'|S32'max_keycode'|*{S8}_S8_'private17'|*{S8}_S8_'private18'|S32'private19'|U32'_pad4'|*{S8}_S8_'xdefaults']
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$134;
+struct anonymous_134;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'fid'|U32'direction'|U32'min_char_or_byte2'|U32'max_char_or_byte2'|U32'min_byte1'|U32'max_byte1'|S32'all_chars_exist'|U32'default_char'|S32'n_properties'|*{SYM#tag-#anon#ST[U64'name'|U64'card32']#}$SYM#tag-#anon#ST[U64'name'|U64'card32']#$'properties'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'min_bounds'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'max_bounds'|*{SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#}$SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#$'per_char'|S32'ascent'|S32'descent']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'fid'|U32'direction'|U32'min_char_or_byte2'|U32'max_char_or_byte2'|U32'min_byte1'|U32'max_byte1'|S32'all_chars_exist'|U32'default_char'|S32'n_properties'|*{SYM#tag-#anon#ST[U64'name'|U64'card32']#}_SYM#tag-#anon#ST[U64'name'|U64'card32']#_'properties'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'min_bounds'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'max_bounds'|*{SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#}_SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#_'per_char'|S32'ascent'|S32'descent']
 // file /usr/include/X11/Xlib.h line 1035
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']
+// tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$106;
+struct anonymous_106;
 
-// tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']
+// tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$104;
+struct anonymous_104;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$115;
+struct anonymous_115;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$122;
+struct anonymous_122;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val']
+// tag-#anon#ST[ARR16{U64}_U64_'__val']
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[ARR17{U8}$U8$'bits'|ARR256{U8}$U8$'huffval'|U24'$pad0'|S32'sent_table']
+// tag-#anon#ST[ARR17{U8}_U8_'bits'|ARR256{U8}_U8_'huffval'|U24'_pad0'|S32'sent_table']
 // file /usr/include/jpeglib.h line 101
-struct anonymous$126;
+struct anonymous_126;
 
-// tag-#anon#ST[ARR64{U16}$U16$'quantval'|S32'sent_table']
+// tag-#anon#ST[ARR64{U16}_U16_'quantval'|S32'sent_table']
 // file /usr/include/jpeglib.h line 84
-struct anonymous$125;
+struct anonymous_125;
 
 // tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']
 // file /usr/include/X11/Xlib.h line 1017
-struct anonymous$120;
+struct anonymous_120;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$71;
+struct anonymous_71;
 
-// tag-#anon#ST[S32'component_id'|S32'component_index'|S32'h_samp_factor'|S32'v_samp_factor'|S32'quant_tbl_no'|S32'dc_tbl_no'|S32'ac_tbl_no'|U32'width_in_blocks'|U32'height_in_blocks'|S32'DCT_scaled_size'|U32'downsampled_width'|U32'downsampled_height'|S32'component_needed'|S32'MCU_width'|S32'MCU_height'|S32'MCU_blocks'|S32'MCU_sample_width'|S32'last_col_width'|S32'last_row_height'|U32'$pad0'|*{SYM#tag-#anon#ST[ARR64{U16}$U16$'quantval'|S32'sent_table']#}$SYM#tag-#anon#ST[ARR64{U16}$U16$'quantval'|S32'sent_table']#$'quant_table'|*{V}$V$'dct_table']
+// tag-#anon#ST[S32'component_id'|S32'component_index'|S32'h_samp_factor'|S32'v_samp_factor'|S32'quant_tbl_no'|S32'dc_tbl_no'|S32'ac_tbl_no'|U32'width_in_blocks'|U32'height_in_blocks'|S32'DCT_scaled_size'|U32'downsampled_width'|U32'downsampled_height'|S32'component_needed'|S32'MCU_width'|S32'MCU_height'|S32'MCU_blocks'|S32'MCU_sample_width'|S32'last_col_width'|S32'last_row_height'|U32'_pad0'|*{SYM#tag-#anon#ST[ARR64{U16}_U16_'quantval'|S32'sent_table']#}_SYM#tag-#anon#ST[ARR64{U16}_U16_'quantval'|S32'sent_table']#_'quant_table'|*{V}_V_'dct_table']
 // file /usr/include/jpeglib.h line 117
-struct anonymous$124;
+struct anonymous_124;
 
-// tag-#anon#ST[S32'comps_in_scan'|ARR4{S32}$S32$'component_index'|S32'Ss'|S32'Se'|S32'Ah'|S32'Al']
+// tag-#anon#ST[S32'comps_in_scan'|ARR4{S32}_S32_'component_index'|S32'Ss'|S32'Se'|S32'Ah'|S32'Al']
 // file /usr/include/jpeglib.h line 190
-struct anonymous$127;
+struct anonymous_127;
 
 // tag-#anon#ST[S32'depth'|S32'bits_per_pixel'|S32'scanline_pad']
 // file /usr/include/X11/Xlib.h line 171
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']
+// tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$109;
+struct anonymous_109;
 
-// tag-#anon#ST[S32'first_line'|S32'last_line'|F64'ratio'|S32'film_mode'|SYM##anon_enum$VBI_SUBT_NONE=0$VBI_SUBT_ACTIVE=1$VBI_SUBT_MATTE=2$VBI_SUBT_UNKNOWN=3#'open_subtitles']
+// tag-#anon#ST[S32'first_line'|S32'last_line'|F64'ratio'|S32'film_mode'|SYM##anon_enum_VBI_SUBT_NONE=0_VBI_SUBT_ACTIVE=1_VBI_SUBT_MATTE=2_VBI_SUBT_UNKNOWN=3#'open_subtitles']
 // file /usr/include/libzvbi.h line 494
-struct anonymous$85;
+struct anonymous_85;
 
-// tag-#anon#ST[S32'flags'|S32'min_value'|S32'max_value'|U32'$pad0'|*{S8}$S8$'name']
+// tag-#anon#ST[S32'flags'|S32'min_value'|S32'max_value'|U32'_pad0'|*{S8}_S8_'name']
 // file /usr/include/X11/extensions/Xvlib.h line 64
-struct anonymous$112;
+struct anonymous_112;
 
-// tag-#anon#ST[S32'fmt'|S32'type'|*{S8}$S8$'ext']
+// tag-#anon#ST[S32'fmt'|S32'type'|*{S8}_S8_'ext']
 // file x11/blit.c line 504
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'function'|U32'$pad0'|U64'plane_mask'|U64'foreground'|U64'background'|S32'line_width'|S32'line_style'|S32'cap_style'|S32'join_style'|S32'fill_style'|S32'fill_rule'|S32'arc_mode'|U32'$pad1'|U64'tile'|U64'stipple'|S32'ts_x_origin'|S32'ts_y_origin'|U64'font'|S32'subwindow_mode'|S32'graphics_exposures'|S32'clip_x_origin'|S32'clip_y_origin'|U64'clip_mask'|S32'dash_offset'|S8'dashes'|U24'$pad2']
+// tag-#anon#ST[S32'function'|U32'_pad0'|U64'plane_mask'|U64'foreground'|U64'background'|S32'line_width'|S32'line_style'|S32'cap_style'|S32'join_style'|S32'fill_style'|S32'fill_rule'|S32'arc_mode'|U32'_pad1'|U64'tile'|U64'stipple'|S32'ts_x_origin'|S32'ts_y_origin'|U64'font'|S32'subwindow_mode'|S32'graphics_exposures'|S32'clip_x_origin'|S32'clip_y_origin'|U64'clip_mask'|S32'dash_offset'|S8'dashes'|U24'_pad2']
 // file /usr/include/X11/Xlib.h line 181
-struct anonymous$75;
+struct anonymous_75;
 
-// tag-#anon#ST[S32'id'|S32'type'|S32'byte_order'|ARR16{S8}$S8$'guid'|S32'bits_per_pixel'|S32'format'|S32'num_planes'|S32'depth'|U32'red_mask'|U32'green_mask'|U32'blue_mask'|U32'y_sample_bits'|U32'u_sample_bits'|U32'v_sample_bits'|U32'horz_y_period'|U32'horz_u_period'|U32'horz_v_period'|U32'vert_y_period'|U32'vert_u_period'|U32'vert_v_period'|ARR32{S8}$S8$'component_order'|S32'scanline_order']
+// tag-#anon#ST[S32'id'|S32'type'|S32'byte_order'|ARR16{S8}_S8_'guid'|S32'bits_per_pixel'|S32'format'|S32'num_planes'|S32'depth'|U32'red_mask'|U32'green_mask'|U32'blue_mask'|U32'y_sample_bits'|U32'u_sample_bits'|U32'v_sample_bits'|U32'horz_y_period'|U32'horz_u_period'|U32'horz_v_period'|U32'vert_y_period'|U32'vert_u_period'|U32'vert_v_period'|ARR32{S8}_S8_'component_order'|S32'scanline_order']
 // file /usr/include/X11/extensions/Xvlib.h line 124
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'id'|S32'width'|S32'height'|S32'data_size'|S32'num_planes'|U32'$pad0'|*{S32}$S32$'pitches'|*{S32}$S32$'offsets'|*{S8}$S8$'data'|*{S8}$S8$'obdata']
+// tag-#anon#ST[S32'id'|S32'width'|S32'height'|S32'data_size'|S32'num_planes'|U32'_pad0'|*{S32}_S32_'pitches'|*{S32}_S32_'offsets'|*{S8}_S8_'data'|*{S8}_S8_'obdata']
 // file /usr/include/X11/extensions/Xvlib.h line 153
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[S32'numerator'|S32'denominator']
 // file /usr/include/X11/extensions/Xvlib.h line 59
-struct anonymous$110;
+struct anonymous_110;
 
 // tag-#anon#ST[S32'pgno']
 // file /usr/include/libzvbi.h line 724
-struct anonymous$94;
+struct anonymous_94;
 
 // tag-#anon#ST[S32'pgno'|S32'subno']
 // file /usr/include/libzvbi.h line 832
-struct anonymous$63;
+struct anonymous_63;
 
-// tag-#anon#ST[S32'pgno'|S32'subno'|*{U8}$U8$'raw_header'|S32'pn_offset'|BF{U32}$U32$'roll_header'|BF{U32}$U32$'header_update'|BF{U32}$U32$'clock_update'|BF{U5}$U5$'$bit_field_pad0'|U24'$pad0']
+// tag-#anon#ST[S32'pgno'|S32'subno'|*{U8}_U8_'raw_header'|S32'pn_offset'|BF{U32}_U32_'roll_header'|BF{U32}_U32_'header_update'|BF{U32}_U32_'clock_update'|BF{U5}_U5_'_bit_field_pad0'|U24'_pad0']
 // file /usr/include/libzvbi.h line 715
-struct anonymous$93;
+struct anonymous_93;
 
-// tag-#anon#ST[S32'reason'|U32'$pad0'|*{SYM#tag-_XEvent#}$SYM#tag-_XEvent#$'event'|*{SYM#tag-__XmStringRec#}$SYM#tag-__XmStringRec#$'item_or_text'|S32'item_position'|U32'$pad1']
+// tag-#anon#ST[S32'reason'|U32'_pad0'|*{SYM#tag-_XEvent#}_SYM#tag-_XEvent#_'event'|*{SYM#tag-__XmStringRec#}_SYM#tag-__XmStringRec#_'item_or_text'|S32'item_position'|U32'_pad1']
 // file /usr/include/Xm/Xm.h line 690
-struct anonymous$74;
+struct anonymous_74;
 
-// tag-#anon#ST[S32'reason'|U32'$pad0'|*{SYM#tag-_XEvent#}$SYM#tag-_XEvent#$'event'|*{SYM#tag-__XmStringRec#}$SYM#tag-__XmStringRec#$'value'|S32'length'|U32'$pad1']
+// tag-#anon#ST[S32'reason'|U32'_pad0'|*{SYM#tag-_XEvent#}_SYM#tag-_XEvent#_'event'|*{SYM#tag-__XmStringRec#}_SYM#tag-__XmStringRec#_'value'|S32'length'|U32'_pad1']
 // file /usr/include/Xm/Xm.h line 758
-struct anonymous$83;
+struct anonymous_83;
 
-// tag-#anon#ST[S32'reason'|U32'$pad0'|*{SYM#tag-_XEvent#}$SYM#tag-_XEvent#$'event'|*{SYM#tag-__XmStringRec#}$SYM#tag-__XmStringRec#$'value'|S32'length'|U32'$pad1'|*{SYM#tag-__XmStringRec#}$SYM#tag-__XmStringRec#$'mask'|S32'mask_length'|U32'$pad2'|*{SYM#tag-__XmStringRec#}$SYM#tag-__XmStringRec#$'dir'|S32'dir_length'|U32'$pad3'|*{SYM#tag-__XmStringRec#}$SYM#tag-__XmStringRec#$'pattern'|S32'pattern_length'|U32'$pad4']
+// tag-#anon#ST[S32'reason'|U32'_pad0'|*{SYM#tag-_XEvent#}_SYM#tag-_XEvent#_'event'|*{SYM#tag-__XmStringRec#}_SYM#tag-__XmStringRec#_'value'|S32'length'|U32'_pad1'|*{SYM#tag-__XmStringRec#}_SYM#tag-__XmStringRec#_'mask'|S32'mask_length'|U32'_pad2'|*{SYM#tag-__XmStringRec#}_SYM#tag-__XmStringRec#_'dir'|S32'dir_length'|U32'_pad3'|*{SYM#tag-__XmStringRec#}_SYM#tag-__XmStringRec#_'pattern'|S32'pattern_length'|U32'_pad4']
 // file /usr/include/Xm/Xm.h line 774
-struct anonymous$87;
+struct anonymous_87;
 
-// tag-#anon#ST[S32'reason'|U32'$pad0'|*{SYM#tag-_XEvent#}$SYM#tag-_XEvent#$'event'|S32'set'|U32'$pad1']
+// tag-#anon#ST[S32'reason'|U32'_pad0'|*{SYM#tag-_XEvent#}_SYM#tag-_XEvent#_'event'|S32'set'|U32'_pad1']
 // file /usr/include/Xm/Xm.h line 737
-struct anonymous$57;
+struct anonymous_57;
 
-// tag-#anon#ST[S32'reason'|U32'$pad0'|*{SYM#tag-_XEvent#}$SYM#tag-_XEvent#$'event'|U64'selection'|U64'target'|*{V}$V$'source_data'|*{V}$V$'location_data'|S32'flags'|U32'$pad1'|*{V}$V$'parm'|S32'parm_format'|U32'$pad2'|U64'parm_length'|U64'parm_type'|S32'status'|U32'$pad3'|*{V}$V$'value'|U64'type'|S32'format'|U32'$pad4'|U64'length']
+// tag-#anon#ST[S32'reason'|U32'_pad0'|*{SYM#tag-_XEvent#}_SYM#tag-_XEvent#_'event'|U64'selection'|U64'target'|*{V}_V_'source_data'|*{V}_V_'location_data'|S32'flags'|U32'_pad1'|*{V}_V_'parm'|S32'parm_format'|U32'_pad2'|U64'parm_length'|U64'parm_type'|S32'status'|U32'_pad3'|*{V}_V_'value'|U64'type'|S32'format'|U32'_pad4'|U64'length']
 // file /usr/include/Xm/Transfer.h line 65
-struct anonymous$66;
+struct anonymous_66;
 
 // tag-#anon#ST[S32'screen_number'|S16'x_org'|S16'y_org'|S16'width'|S16'height']
 // file /usr/include/X11/extensions/Xinerama.h line 32
-struct anonymous$59;
+struct anonymous_59;
 
 // tag-#anon#ST[S32'si_pid'|U32'si_uid']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$100;
+struct anonymous_100;
 
-// tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']
+// tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$103;
+struct anonymous_103;
 
 // tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$102;
+struct anonymous_102;
 
-// tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']
+// tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$101;
+struct anonymous_101;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'resourceid'|U64'serial'|U8'error_code'|U8'request_code'|U8'minor_code'|U40'$pad1']
+// tag-#anon#ST[S32'type'|U32'_pad0'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'resourceid'|U64'serial'|U8'error_code'|U8'request_code'|U8'minor_code'|U40'_pad1']
 // file /usr/include/X11/Xlib.h line 924
 struct anonymous;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|S32'extension'|S32'evtype']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|S32'extension'|S32'evtype']
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|S32'extension'|S32'evtype'|U32'cookie'|U32'$pad2'|*{V}$V$'data']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|S32'extension'|S32'evtype'|U32'cookie'|U32'_pad2'|*{V}_V_'data']
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'drawable'|S32'major_code'|S32'minor_code']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'drawable'|S32'major_code'|S32'minor_code']
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'drawable'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|S32'major_code'|S32'minor_code'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'drawable'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|S32'major_code'|S32'minor_code'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window']
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'from_configure'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'from_configure'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'override_redirect'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'override_redirect'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'place'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'place'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'x'|S32'y']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'x'|S32'y']
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'$pad2'|U64'above'|S32'override_redirect'|U32'$pad3']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'_pad2'|U64'above'|S32'override_redirect'|U32'_pad3']
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$40;
+struct anonymous_40;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|U64'parent'|S32'x'|S32'y'|S32'override_redirect'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|U64'parent'|S32'x'|S32'y'|S32'override_redirect'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'owner'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'owner'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$48;
+struct anonymous_48;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window']
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'place'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'place'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'override_redirect']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'override_redirect']
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'$pad2'|U64'above'|S32'detail'|U32'$pad3'|U64'value_mask']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'_pad2'|U64'above'|S32'detail'|U32'_pad3'|U64'value_mask']
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
 // file /usr/include/X11/Xlib.h line 870
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window']
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|ARR32{S8}$S8$'key_vector']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|ARR32{S8}_S8_'key_vector']
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$53;
+struct anonymous_53;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'mode'|S32'detail']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'mode'|S32'detail']
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'request'|S32'first_keycode'|S32'count'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'request'|S32'first_keycode'|S32'count'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$52;
+struct anonymous_52;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'width'|S32'height']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'width'|S32'height']
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'atom'|U64'time'|S32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'atom'|U64'time'|S32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'colormap'|S32'new'|S32'state']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'colormap'|S32'new'|S32'state']
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'message_type'|S32'format'|U32'$pad2'|SYM#tag-#anon#UN[ARR20{S8}$S8$'b'|ARR10{S16}$S16$'s'|ARR5{S64}$S64$'l']#'data']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'message_type'|S32'format'|U32'_pad2'|SYM#tag-#anon#UN[ARR20{S8}_S8_'b'|ARR10{S16}_S16_'s'|ARR5{S64}_S64_'l']#'data']
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|S32'mode'|S32'detail'|S32'same_screen'|S32'focus'|U32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|S32'mode'|S32'detail'|S32'same_screen'|S32'focus'|U32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|S8'is_hint'|U24'$pad2'|S32'same_screen'|U32'$pad3']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|S8'is_hint'|U24'_pad2'|S32'same_screen'|U32'_pad3']
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'button'|S32'same_screen'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'button'|S32'same_screen'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'keycode'|S32'same_screen'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'keycode'|S32'same_screen'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'selection'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'selection'|U64'time']
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$47;
+struct anonymous_47;
 
 // tag-#anon#ST[S32'width'|S32'height'|S32'mwidth'|S32'mheight']
 // file /usr/include/X11/extensions/Xrandr.h line 44
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'depth'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visual'|U64'root'|S32'class'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'$pad0'|U64'colormap'|S32'map_installed'|S32'map_state'|S64'all_event_masks'|S64'your_event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$'screen']
+// tag-#anon#ST[S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'depth'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visual'|U64'root'|S32'class'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'_pad0'|U64'colormap'|S32'map_installed'|S32'map_state'|S64'all_event_masks'|S64'your_event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_'screen']
 // file /usr/include/X11/Xlib.h line 308
-struct anonymous$117;
+struct anonymous_117;
 
 // tag-#anon#ST[S32'y0'|S32'y1'|S32'roll']
 // file /usr/include/libzvbi.h line 819
-struct anonymous$60;
+struct anonymous_60;
 
-// tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']
+// tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$105;
+struct anonymous_105;
 
-// tag-#anon#ST[S64'time'|S32'seconds_east'|S32'seconds_east_valid'|SYM##anon_enum$VBI_DST_UNKNOWN=0$VBI_DST_INCLUDED=1$VBI_DST_INACTIVE=2$VBI_DST_ACTIVE=3#'dst_state'|U32'$pad0']
+// tag-#anon#ST[S64'time'|S32'seconds_east'|S32'seconds_east_valid'|SYM##anon_enum_VBI_DST_UNKNOWN=0_VBI_DST_INCLUDED=1_VBI_DST_INACTIVE=2_VBI_DST_ACTIVE=3#'dst_state'|U32'_pad0']
 // file /usr/include/libzvbi.h line 688
-struct anonymous$92;
+struct anonymous_92;
 
 // tag-#anon#ST[S64'ts']
 // file ./libng/grab-ng.h line 183
-struct anonymous$73;
+struct anonymous_73;
 
 // tag-#anon#ST[S64'ts'|S32'seq'|S32'twice']
 // file ./libng/grab-ng.h line 142
-struct anonymous$69;
+struct anonymous_69;
 
-// tag-#anon#ST[S8'depth'|U56'$pad0'|U64'visual_id']
+// tag-#anon#ST[S8'depth'|U56'_pad0'|U64'visual_id']
 // file /usr/include/X11/extensions/Xvlib.h line 80
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[SYM##anon_enum$VBI_AUDIO_MODE_NONE=0$VBI_AUDIO_MODE_MONO=1$VBI_AUDIO_MODE_STEREO=2$VBI_AUDIO_MODE_STEREO_SURROUND=3$VBI_AUDIO_MODE_SIMULATED_STEREO=4$VBI_AUDIO_MODE_VIDEO_DESCRIPTIONS=5$VBI_AUDIO_MODE_NON_PROGRAM_AUDIO=6$VBI_AUDIO_MODE_SPECIAL_EFFECTS=7$VBI_AUDIO_MODE_DATA_SERVICE=8$VBI_AUDIO_MODE_UNKNOWN=9#'mode'|U32'$pad0'|*{U8}$U8$'language']
+// tag-#anon#ST[SYM##anon_enum_VBI_AUDIO_MODE_NONE=0_VBI_AUDIO_MODE_MONO=1_VBI_AUDIO_MODE_STEREO=2_VBI_AUDIO_MODE_STEREO_SURROUND=3_VBI_AUDIO_MODE_SIMULATED_STEREO=4_VBI_AUDIO_MODE_VIDEO_DESCRIPTIONS=5_VBI_AUDIO_MODE_NON_PROGRAM_AUDIO=6_VBI_AUDIO_MODE_SPECIAL_EFFECTS=7_VBI_AUDIO_MODE_DATA_SERVICE=8_VBI_AUDIO_MODE_UNKNOWN=9#'mode'|U32'_pad0'|*{U8}_U8_'language']
 // file /usr/include/libzvbi.h line 616
-struct anonymous$90;
+struct anonymous_90;
 
-// tag-#anon#ST[SYM##anon_enum$VBI_PID_CHANNEL_LCI_0=0$VBI_PID_CHANNEL_LCI_1=1$VBI_PID_CHANNEL_LCI_2=2$VBI_PID_CHANNEL_LCI_3=3$VBI_PID_CHANNEL_VPS=4$VBI_PID_CHANNEL_PDC_DESCRIPTOR=5$VBI_PID_CHANNEL_XDS_CURRENT=6$VBI_PID_CHANNEL_XDS_FUTURE=7$VBI_MAX_PID_CHANNELS=8#'channel'|SYM##anon_enum$VBI_CNI_TYPE_NONE=0$VBI_CNI_TYPE_UNKNOWN=0$VBI_CNI_TYPE_VPS=1$VBI_CNI_TYPE_8301=2$VBI_CNI_TYPE_8302=3$VBI_CNI_TYPE_PDC_A=4$VBI_CNI_TYPE_PDC_B=5#'cni_type'|U32'cni'|U32'pil'|S32'luf'|S32'mi'|S32'prf'|SYM##anon_enum$VBI_PCS_AUDIO_UNKNOWN=0$VBI_PCS_AUDIO_MONO=1$VBI_PCS_AUDIO_STEREO=2$VBI_PCS_AUDIO_BILINGUAL=3#'pcs_audio'|U32'pty'|S32'tape_delayed'|ARR2{*{V}$V$}$*{V}$V$$'_reserved2'|ARR4{S32}$S32$'_reserved3']
+// tag-#anon#ST[SYM##anon_enum_VBI_PID_CHANNEL_LCI_0=0_VBI_PID_CHANNEL_LCI_1=1_VBI_PID_CHANNEL_LCI_2=2_VBI_PID_CHANNEL_LCI_3=3_VBI_PID_CHANNEL_VPS=4_VBI_PID_CHANNEL_PDC_DESCRIPTOR=5_VBI_PID_CHANNEL_XDS_CURRENT=6_VBI_PID_CHANNEL_XDS_FUTURE=7_VBI_MAX_PID_CHANNELS=8#'channel'|SYM##anon_enum_VBI_CNI_TYPE_NONE=0_VBI_CNI_TYPE_UNKNOWN=0_VBI_CNI_TYPE_VPS=1_VBI_CNI_TYPE_8301=2_VBI_CNI_TYPE_8302=3_VBI_CNI_TYPE_PDC_A=4_VBI_CNI_TYPE_PDC_B=5#'cni_type'|U32'cni'|U32'pil'|S32'luf'|S32'mi'|S32'prf'|SYM##anon_enum_VBI_PCS_AUDIO_UNKNOWN=0_VBI_PCS_AUDIO_MONO=1_VBI_PCS_AUDIO_STEREO=2_VBI_PCS_AUDIO_BILINGUAL=3#'pcs_audio'|U32'pty'|S32'tape_delayed'|ARR2{*{V}_V_}_*{V}_V__'_reserved2'|ARR4{S32}_S32_'_reserved3']
 // file /usr/include/libzvbi.h line 384
-struct anonymous$79;
+struct anonymous_79;
 
-// tag-#anon#ST[U16'hdisplay'|U16'hsyncstart'|U16'hsyncend'|U16'htotal'|U16'hskew'|U16'vdisplay'|U16'vsyncstart'|U16'vsyncend'|U16'vtotal'|U16'$pad0'|U32'flags'|S32'privsize'|U32'$pad1'|*{S32}$S32$'private']
+// tag-#anon#ST[U16'hdisplay'|U16'hsyncstart'|U16'hsyncend'|U16'htotal'|U16'hskew'|U16'vdisplay'|U16'vsyncstart'|U16'vsyncend'|U16'vtotal'|U16'_pad0'|U32'flags'|S32'privsize'|U32'_pad1'|*{S32}_S32_'private']
 // file /usr/include/X11/extensions/xf86vmode.h line 68
-struct anonymous$64;
+struct anonymous_64;
 
 // tag-#anon#ST[U16'red'|U16'green'|U16'blue'|U16'alpha']
 // file /usr/include/X11/extensions/Xrender.h line 83
-struct anonymous$113;
+struct anonymous_113;
 
-// tag-#anon#ST[U32'dotclock'|U16'hdisplay'|U16'hsyncstart'|U16'hsyncend'|U16'htotal'|U16'hskew'|U16'vdisplay'|U16'vsyncstart'|U16'vsyncend'|U16'vtotal'|U16'$pad0'|U32'flags'|S32'privsize'|*{S32}$S32$'private']
+// tag-#anon#ST[U32'dotclock'|U16'hdisplay'|U16'hsyncstart'|U16'hsyncend'|U16'htotal'|U16'hskew'|U16'vdisplay'|U16'vsyncstart'|U16'vsyncend'|U16'vtotal'|U16'_pad0'|U32'flags'|S32'privsize'|*{S32}_S32_'private']
 // file /usr/include/X11/extensions/xf86vmode.h line 88
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[U32'id'|U32'line'|ARR56{U8}$U8$'data']
+// tag-#anon#ST[U32'id'|U32'line'|ARR56{U8}_U8_'data']
 // file /usr/include/libzvbi.h line 1048
-struct anonymous$98;
+struct anonymous_98;
 
-// tag-#anon#ST[U32'nuid'|ARR64{S8}$S8$'name'|ARR40{S8}$S8$'call'|S32'tape_delay'|S32'cni_vps'|S32'cni_8301'|S32'cni_8302'|S32'reserved'|S32'cycle']
+// tag-#anon#ST[U32'nuid'|ARR64{S8}_S8_'name'|ARR40{S8}_S8_'call'|S32'tape_delay'|S32'cni_vps'|S32'cni_8301'|S32'cni_8302'|S32'reserved'|S32'cycle']
 // file /usr/include/libzvbi.h line 420
-struct anonymous$80;
+struct anonymous_80;
 
-// tag-#anon#ST[U64'background_pixmap'|U64'background_pixel'|U64'border_pixmap'|U64'border_pixel'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U32'$pad0'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'$pad1'|S64'event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'$pad2'|U64'colormap'|U64'cursor']
+// tag-#anon#ST[U64'background_pixmap'|U64'background_pixel'|U64'border_pixmap'|U64'border_pixel'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U32'_pad0'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'_pad1'|S64'event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'_pad2'|U64'colormap'|U64'cursor']
 // file /usr/include/X11/Xlib.h line 290
-struct anonymous$135;
+struct anonymous_135;
 
-// tag-#anon#ST[U64'base_id'|U64'num_ports'|S8'type'|U56'$pad0'|*{S8}$S8$'name'|U64'num_formats'|*{SYM#tag-#anon#ST[S8'depth'|U56'$pad0'|U64'visual_id']#}$SYM#tag-#anon#ST[S8'depth'|U56'$pad0'|U64'visual_id']#$'formats'|U64'num_adaptors']
+// tag-#anon#ST[U64'base_id'|U64'num_ports'|S8'type'|U56'_pad0'|*{S8}_S8_'name'|U64'num_formats'|*{SYM#tag-#anon#ST[S8'depth'|U56'_pad0'|U64'visual_id']#}_SYM#tag-#anon#ST[S8'depth'|U56'_pad0'|U64'visual_id']#_'formats'|U64'num_adaptors']
 // file /usr/include/X11/extensions/Xvlib.h line 85
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[U64'encoding_id'|*{S8}$S8$'name'|U64'width'|U64'height'|SYM#tag-#anon#ST[S32'numerator'|S32'denominator']#'rate'|U64'num_encodings']
+// tag-#anon#ST[U64'encoding_id'|*{S8}_S8_'name'|U64'width'|U64'height'|SYM#tag-#anon#ST[S32'numerator'|S32'denominator']#'rate'|U64'num_encodings']
 // file /usr/include/X11/extensions/Xvlib.h line 71
-struct anonymous$111;
+struct anonymous_111;
 
 // tag-#anon#ST[U64'name'|U64'card32']
 // file /usr/include/X11/Xlib.h line 1030
-struct anonymous$119;
+struct anonymous_119;
 
 // tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']
 // file /usr/include/X11/Xlib.h line 410
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[U64'shmseg'|S32'shmid'|U32'$pad0'|*{S8}$S8$'shmaddr'|S32'readOnly'|U32'$pad1']
+// tag-#anon#ST[U64'shmseg'|S32'shmid'|U32'_pad0'|*{S8}_S8_'shmaddr'|S32'readOnly'|U32'_pad1']
 // file /usr/include/X11/extensions/XShm.h line 50
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[U64'valuemask'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visual'|U64'colormap'|U32'depth'|U32'width'|U32'height'|U32'x_hotspot'|U32'y_hotspot'|U32'cpp'|*{U64}$U64$'pixels'|U32'npixels'|U32'$pad0'|*{SYM#tag-#anon#ST[*{S8}$S8$'name'|*{S8}$S8$'value'|U64'pixel']#}$SYM#tag-#anon#ST[*{S8}$S8$'name'|*{S8}$S8$'value'|U64'pixel']#$'colorsymbols'|U32'numsymbols'|U32'$pad1'|*{S8}$S8$'rgb_fname'|U32'nextensions'|U32'$pad2'|*{SYM#tag-#anon#ST[*{S8}$S8$'name'|U32'nlines'|U32'$pad0'|*{*{S8}$S8$}$*{S8}$S8$$'lines']#}$SYM#tag-#anon#ST[*{S8}$S8$'name'|U32'nlines'|U32'$pad0'|*{*{S8}$S8$}$*{S8}$S8$$'lines']#$'extensions'|U32'ncolors'|U32'$pad3'|*{SYM#tag-#anon#ST[*{S8}$S8$'string'|*{S8}$S8$'symbolic'|*{S8}$S8$'m_color'|*{S8}$S8$'g4_color'|*{S8}$S8$'g_color'|*{S8}$S8$'c_color']#}$SYM#tag-#anon#ST[*{S8}$S8$'string'|*{S8}$S8$'symbolic'|*{S8}$S8$'m_color'|*{S8}$S8$'g4_color'|*{S8}$S8$'g_color'|*{S8}$S8$'c_color']#$'colorTable'|*{S8}$S8$'hints_cmt'|*{S8}$S8$'colors_cmt'|*{S8}$S8$'pixels_cmt'|U32'mask_pixel'|S32'exactColors'|U32'closeness'|U32'red_closeness'|U32'green_closeness'|U32'blue_closeness'|S32'color_key'|U32'$pad4'|*{U64}$U64$'alloc_pixels'|S32'nalloc_pixels'|S32'alloc_close_colors'|S32'bitmap_format'|U32'$pad5'|*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$|U64|*{S8}$S8$|*{SYM#tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']#}$SYM#tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']#$|*{V}$V$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$|U64|*{S8}$S8$|*{SYM#tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']#}$SYM#tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']#$|*{V}$V$)->S32$'alloc_color'|*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$|U64|*{U64}$U64$|S32|*{V}$V$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$|U64|*{U64}$U64$|S32|*{V}$V$)->S32$'free_colors'|*{V}$V$'color_closure']
+// tag-#anon#ST[U64'valuemask'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visual'|U64'colormap'|U32'depth'|U32'width'|U32'height'|U32'x_hotspot'|U32'y_hotspot'|U32'cpp'|*{U64}_U64_'pixels'|U32'npixels'|U32'_pad0'|*{SYM#tag-#anon#ST[*{S8}_S8_'name'|*{S8}_S8_'value'|U64'pixel']#}_SYM#tag-#anon#ST[*{S8}_S8_'name'|*{S8}_S8_'value'|U64'pixel']#_'colorsymbols'|U32'numsymbols'|U32'_pad1'|*{S8}_S8_'rgb_fname'|U32'nextensions'|U32'_pad2'|*{SYM#tag-#anon#ST[*{S8}_S8_'name'|U32'nlines'|U32'_pad0'|*{*{S8}_S8_}_*{S8}_S8__'lines']#}_SYM#tag-#anon#ST[*{S8}_S8_'name'|U32'nlines'|U32'_pad0'|*{*{S8}_S8_}_*{S8}_S8__'lines']#_'extensions'|U32'ncolors'|U32'_pad3'|*{SYM#tag-#anon#ST[*{S8}_S8_'string'|*{S8}_S8_'symbolic'|*{S8}_S8_'m_color'|*{S8}_S8_'g4_color'|*{S8}_S8_'g_color'|*{S8}_S8_'c_color']#}_SYM#tag-#anon#ST[*{S8}_S8_'string'|*{S8}_S8_'symbolic'|*{S8}_S8_'m_color'|*{S8}_S8_'g4_color'|*{S8}_S8_'g_color'|*{S8}_S8_'c_color']#_'colorTable'|*{S8}_S8_'hints_cmt'|*{S8}_S8_'colors_cmt'|*{S8}_S8_'pixels_cmt'|U32'mask_pixel'|S32'exactColors'|U32'closeness'|U32'red_closeness'|U32'green_closeness'|U32'blue_closeness'|S32'color_key'|U32'_pad4'|*{U64}_U64_'alloc_pixels'|S32'nalloc_pixels'|S32'alloc_close_colors'|S32'bitmap_format'|U32'_pad5'|*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_|U64|*{S8}_S8_|*{SYM#tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']#}_SYM#tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']#_|*{V}_V_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_|U64|*{S8}_S8_|*{SYM#tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']#}_SYM#tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']#_|*{V}_V_)->S32_'alloc_color'|*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_|U64|*{U64}_U64_|S32|*{V}_V_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_|U64|*{U64}_U64_|S32|*{V}_V_)->S32_'free_colors'|*{V}_V_'color_closure']
 // file /usr/include/X11/xpm.h line 157
-struct anonymous$133;
+struct anonymous_133;
 
 // tag-#anon#ST[U8'byte1'|U8'byte2']
 // file /usr/include/X11/Xlib.h line 1064
-struct anonymous$114;
+struct anonymous_114;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'|*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}$SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}$SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#$|*{V}$V$)->V$'sa_sigaction']
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'|*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}_SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}_SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#_|*{V}_V_)->V_'sa_sigaction']
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'|ARR8{U16}$U16$'__u6_addr16'|ARR4{U32}$U32$'__u6_addr32']
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'|ARR8{U16}_U16_'__u6_addr16'|ARR4{U32}_U32_'__u6_addr32']
 // file /usr/include/netinet/in.h line 211
-union anonymous$56;
+union anonymous_56;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'|ARR10{S16}$S16$'s'|ARR5{S64}$S64$'l']
+// tag-#anon#UN[ARR20{S8}_S8_'b'|ARR10{S16}_S16_'s'|ARR5{S64}_S64_'l']
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$118;
+union anonymous_118;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$107;
+union anonymous_107;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$121;
+union anonymous_121;
 
-// tag-#anon#UN[ARR8{S32}$S32$'i'|ARR80{S8}$S8$'s']
+// tag-#anon#UN[ARR8{S32}_S32_'i'|ARR80{S8}_S8_'s']
 // file /usr/include/jpeglib.h line 736
-union anonymous$129;
+union anonymous_129;
 
-// tag-#anon#UN[S32'value'|SYM#tag-snd_seq_timestamp#'time'|U32'position'|SYM#tag-snd_seq_queue_skew#'skew'|ARR2{U32}$U32$'d32'|ARR8{U8}$U8$'d8']
+// tag-#anon#UN[S32'value'|SYM#tag-snd_seq_timestamp#'time'|U32'position'|SYM#tag-snd_seq_queue_skew#'skew'|ARR2{U32}_U32_'d32'|ARR8{U8}_U8_'d8']
 // file /usr/include/alsa/seq_event.h line 284
-union anonymous$99;
+union anonymous_99;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$72;
+union anonymous_72;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'pgno'|S32'subno'|*{U8}$U8$'raw_header'|S32'pn_offset'|BF{U32}$U32$'roll_header'|BF{U32}$U32$'header_update'|BF{U32}$U32$'clock_update'|BF{U5}$U5$'$bit_field_pad0'|U24'$pad0']#'ttx_page'|SYM#tag-#anon#ST[S32'pgno']#'caption'|SYM#tag-#anon#ST[U32'nuid'|ARR64{S8}$S8$'name'|ARR40{S8}$S8$'call'|S32'tape_delay'|S32'cni_vps'|S32'cni_8301'|S32'cni_8302'|S32'reserved'|S32'cycle']#'network'|*{SYM#tag-vbi_link#}$SYM#tag-vbi_link#$'trigger'|SYM#tag-#anon#ST[S32'first_line'|S32'last_line'|F64'ratio'|S32'film_mode'|SYM##anon_enum$VBI_SUBT_NONE=0$VBI_SUBT_ACTIVE=1$VBI_SUBT_MATTE=2$VBI_SUBT_UNKNOWN=3#'open_subtitles']#'aspect'|*{SYM#tag-vbi_program_info#}$SYM#tag-vbi_program_info#$'prog_info'|*{SYM#tag-#anon#ST[S64'time'|S32'seconds_east'|S32'seconds_east_valid'|SYM##anon_enum$VBI_DST_UNKNOWN=0$VBI_DST_INCLUDED=1$VBI_DST_INACTIVE=2$VBI_DST_ACTIVE=3#'dst_state'|U32'$pad0']#}$SYM#tag-#anon#ST[S64'time'|S32'seconds_east'|S32'seconds_east_valid'|SYM##anon_enum$VBI_DST_UNKNOWN=0$VBI_DST_INCLUDED=1$VBI_DST_INACTIVE=2$VBI_DST_ACTIVE=3#'dst_state'|U32'$pad0']#$'local_time'|*{SYM#tag-#anon#ST[SYM##anon_enum$VBI_PID_CHANNEL_LCI_0=0$VBI_PID_CHANNEL_LCI_1=1$VBI_PID_CHANNEL_LCI_2=2$VBI_PID_CHANNEL_LCI_3=3$VBI_PID_CHANNEL_VPS=4$VBI_PID_CHANNEL_PDC_DESCRIPTOR=5$VBI_PID_CHANNEL_XDS_CURRENT=6$VBI_PID_CHANNEL_XDS_FUTURE=7$VBI_MAX_PID_CHANNELS=8#'channel'|SYM##anon_enum$VBI_CNI_TYPE_NONE=0$VBI_CNI_TYPE_UNKNOWN=0$VBI_CNI_TYPE_VPS=1$VBI_CNI_TYPE_8301=2$VBI_CNI_TYPE_8302=3$VBI_CNI_TYPE_PDC_A=4$VBI_CNI_TYPE_PDC_B=5#'cni_type'|U32'cni'|U32'pil'|S32'luf'|S32'mi'|S32'prf'|SYM##anon_enum$VBI_PCS_AUDIO_UNKNOWN=0$VBI_PCS_AUDIO_MONO=1$VBI_PCS_AUDIO_STEREO=2$VBI_PCS_AUDIO_BILINGUAL=3#'pcs_audio'|U32'pty'|S32'tape_delayed'|ARR2{*{V}$V$}$*{V}$V$$'_reserved2'|ARR4{S32}$S32$'_reserved3']#}$SYM#tag-#anon#ST[SYM##anon_enum$VBI_PID_CHANNEL_LCI_0=0$VBI_PID_CHANNEL_LCI_1=1$VBI_PID_CHANNEL_LCI_2=2$VBI_PID_CHANNEL_LCI_3=3$VBI_PID_CHANNEL_VPS=4$VBI_PID_CHANNEL_PDC_DESCRIPTOR=5$VBI_PID_CHANNEL_XDS_CURRENT=6$VBI_PID_CHANNEL_XDS_FUTURE=7$VBI_MAX_PID_CHANNELS=8#'channel'|SYM##anon_enum$VBI_CNI_TYPE_NONE=0$VBI_CNI_TYPE_UNKNOWN=0$VBI_CNI_TYPE_VPS=1$VBI_CNI_TYPE_8301=2$VBI_CNI_TYPE_8302=3$VBI_CNI_TYPE_PDC_A=4$VBI_CNI_TYPE_PDC_B=5#'cni_type'|U32'cni'|U32'pil'|S32'luf'|S32'mi'|S32'prf'|SYM##anon_enum$VBI_PCS_AUDIO_UNKNOWN=0$VBI_PCS_AUDIO_MONO=1$VBI_PCS_AUDIO_STEREO=2$VBI_PCS_AUDIO_BILINGUAL=3#'pcs_audio'|U32'pty'|S32'tape_delayed'|ARR2{*{V}$V$}$*{V}$V$$'_reserved2'|ARR4{S32}$S32$'_reserved3']#$'prog_id'|*{SYM#tag-_vbi_event_cc608_page#}$SYM#tag-_vbi_event_cc608_page#$'_cc608'|*{SYM#tag-_vbi_event_cc608_stream#}$SYM#tag-_vbi_event_cc608_stream#$'_cc608_stream'|U1088'$pad']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'pgno'|S32'subno'|*{U8}_U8_'raw_header'|S32'pn_offset'|BF{U32}_U32_'roll_header'|BF{U32}_U32_'header_update'|BF{U32}_U32_'clock_update'|BF{U5}_U5_'_bit_field_pad0'|U24'_pad0']#'ttx_page'|SYM#tag-#anon#ST[S32'pgno']#'caption'|SYM#tag-#anon#ST[U32'nuid'|ARR64{S8}_S8_'name'|ARR40{S8}_S8_'call'|S32'tape_delay'|S32'cni_vps'|S32'cni_8301'|S32'cni_8302'|S32'reserved'|S32'cycle']#'network'|*{SYM#tag-vbi_link#}_SYM#tag-vbi_link#_'trigger'|SYM#tag-#anon#ST[S32'first_line'|S32'last_line'|F64'ratio'|S32'film_mode'|SYM##anon_enum_VBI_SUBT_NONE=0_VBI_SUBT_ACTIVE=1_VBI_SUBT_MATTE=2_VBI_SUBT_UNKNOWN=3#'open_subtitles']#'aspect'|*{SYM#tag-vbi_program_info#}_SYM#tag-vbi_program_info#_'prog_info'|*{SYM#tag-#anon#ST[S64'time'|S32'seconds_east'|S32'seconds_east_valid'|SYM##anon_enum_VBI_DST_UNKNOWN=0_VBI_DST_INCLUDED=1_VBI_DST_INACTIVE=2_VBI_DST_ACTIVE=3#'dst_state'|U32'_pad0']#}_SYM#tag-#anon#ST[S64'time'|S32'seconds_east'|S32'seconds_east_valid'|SYM##anon_enum_VBI_DST_UNKNOWN=0_VBI_DST_INCLUDED=1_VBI_DST_INACTIVE=2_VBI_DST_ACTIVE=3#'dst_state'|U32'_pad0']#_'local_time'|*{SYM#tag-#anon#ST[SYM##anon_enum_VBI_PID_CHANNEL_LCI_0=0_VBI_PID_CHANNEL_LCI_1=1_VBI_PID_CHANNEL_LCI_2=2_VBI_PID_CHANNEL_LCI_3=3_VBI_PID_CHANNEL_VPS=4_VBI_PID_CHANNEL_PDC_DESCRIPTOR=5_VBI_PID_CHANNEL_XDS_CURRENT=6_VBI_PID_CHANNEL_XDS_FUTURE=7_VBI_MAX_PID_CHANNELS=8#'channel'|SYM##anon_enum_VBI_CNI_TYPE_NONE=0_VBI_CNI_TYPE_UNKNOWN=0_VBI_CNI_TYPE_VPS=1_VBI_CNI_TYPE_8301=2_VBI_CNI_TYPE_8302=3_VBI_CNI_TYPE_PDC_A=4_VBI_CNI_TYPE_PDC_B=5#'cni_type'|U32'cni'|U32'pil'|S32'luf'|S32'mi'|S32'prf'|SYM##anon_enum_VBI_PCS_AUDIO_UNKNOWN=0_VBI_PCS_AUDIO_MONO=1_VBI_PCS_AUDIO_STEREO=2_VBI_PCS_AUDIO_BILINGUAL=3#'pcs_audio'|U32'pty'|S32'tape_delayed'|ARR2{*{V}_V_}_*{V}_V__'_reserved2'|ARR4{S32}_S32_'_reserved3']#}_SYM#tag-#anon#ST[SYM##anon_enum_VBI_PID_CHANNEL_LCI_0=0_VBI_PID_CHANNEL_LCI_1=1_VBI_PID_CHANNEL_LCI_2=2_VBI_PID_CHANNEL_LCI_3=3_VBI_PID_CHANNEL_VPS=4_VBI_PID_CHANNEL_PDC_DESCRIPTOR=5_VBI_PID_CHANNEL_XDS_CURRENT=6_VBI_PID_CHANNEL_XDS_FUTURE=7_VBI_MAX_PID_CHANNELS=8#'channel'|SYM##anon_enum_VBI_CNI_TYPE_NONE=0_VBI_CNI_TYPE_UNKNOWN=0_VBI_CNI_TYPE_VPS=1_VBI_CNI_TYPE_8301=2_VBI_CNI_TYPE_8302=3_VBI_CNI_TYPE_PDC_A=4_VBI_CNI_TYPE_PDC_B=5#'cni_type'|U32'cni'|U32'pil'|S32'luf'|S32'mi'|S32'prf'|SYM##anon_enum_VBI_PCS_AUDIO_UNKNOWN=0_VBI_PCS_AUDIO_MONO=1_VBI_PCS_AUDIO_STEREO=2_VBI_PCS_AUDIO_BILINGUAL=3#'pcs_audio'|U32'pty'|S32'tape_delayed'|ARR2{*{V}_V_}_*{V}_V__'_reserved2'|ARR4{S32}_S32_'_reserved3']#_'prog_id'|*{SYM#tag-_vbi_event_cc608_page#}_SYM#tag-_vbi_event_cc608_page#_'_cc608'|*{SYM#tag-_vbi_event_cc608_stream#}_SYM#tag-_vbi_event_cc608_stream#_'_cc608_stream'|U1088'_pad']
 // file /usr/include/libzvbi.h line 714
-union anonymous$95;
+union anonymous_95;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$70;
+union anonymous_70;
 
-// tag-#anon#UN[SYM#tag-snd_seq_ev_note#'note'|SYM#tag-snd_seq_ev_ctrl#'control'|SYM#tag-snd_seq_ev_raw8#'raw8'|SYM#tag-snd_seq_ev_raw32#'raw32'|SYM#tag-snd_seq_ev_ext#'ext'|SYM#tag-snd_seq_ev_queue_control#'queue'|SYM#tag-snd_seq_timestamp#'time'|SYM#tag-snd_seq_addr#'addr'|SYM#tag-snd_seq_connect#'connect'|SYM#tag-snd_seq_result#'result'|U128'$pad']
+// tag-#anon#UN[SYM#tag-snd_seq_ev_note#'note'|SYM#tag-snd_seq_ev_ctrl#'control'|SYM#tag-snd_seq_ev_raw8#'raw8'|SYM#tag-snd_seq_ev_raw32#'raw32'|SYM#tag-snd_seq_ev_ext#'ext'|SYM#tag-snd_seq_ev_queue_control#'queue'|SYM#tag-snd_seq_timestamp#'time'|SYM#tag-snd_seq_addr#'addr'|SYM#tag-snd_seq_connect#'connect'|SYM#tag-snd_seq_result#'result'|U128'_pad']
 // file /usr/include/alsa/seq_event.h line 307
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$58;
+union anonymous_58;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$65;
+union anonymous_65;
 
 // tag-ARGS
 // file x11/xt.h line 31
@@ -1348,16 +1348,16 @@ void ScanAction(struct _WidgetRec *widget, union _XEvent *event, char **params, 
 void VtxAction(struct _WidgetRec *widget, union _XEvent *event, char **params, unsigned int *num_params);
 // XAllocColor
 // file /usr/include/X11/Xlib.h line 1958
-extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous$22 *);
+extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous_22 *);
 // XAllocNamedColor
 // file /usr/include/X11/Xlib.h line 1988
-extern signed int XAllocNamedColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous$22 *, struct anonymous$22 *);
+extern signed int XAllocNamedColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous_22 *, struct anonymous_22 *);
 // XBell
 // file /usr/include/X11/Xlib.h line 2010
 extern signed int XBell(struct _XDisplay *, signed int);
 // XChangeGC
 // file /usr/include/X11/Xlib.h line 2038
-extern signed int XChangeGC(struct _XDisplay *, struct _XGC *, unsigned long int, struct anonymous$75 *);
+extern signed int XChangeGC(struct _XDisplay *, struct _XGC *, unsigned long int, struct anonymous_75 *);
 // XChangeProperty
 // file /usr/include/X11/Xlib.h line 2068
 extern signed int XChangeProperty(struct _XDisplay *, unsigned long int, unsigned long int, unsigned long int, signed int, signed int, const unsigned char *, signed int);
@@ -1375,25 +1375,25 @@ extern signed int XClearWindow(struct _XDisplay *, unsigned long int);
 extern unsigned long int XCreateBitmapFromData(struct _XDisplay *, unsigned long int, const char *, unsigned int, unsigned int);
 // XCreateColormap
 // file /usr/include/X11/Xlib.h line 1552
-extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous$8 *, signed int);
+extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous_8 *, signed int);
 // XCreateFontCursor
 // file /usr/include/X11/Xlib.h line 1576
 extern unsigned long int XCreateFontCursor(struct _XDisplay *, unsigned int);
 // XCreateGC
 // file /usr/include/X11/Xlib.h line 1584
-extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$75 *);
+extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_75 *);
 // XCreateImage
 // file /usr/include/X11/Xlib.h line 1441
-extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous$8 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous_8 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
 // XCreatePixmap
 // file /usr/include/X11/Xlib.h line 1597
 extern unsigned long int XCreatePixmap(struct _XDisplay *, unsigned long int, unsigned int, unsigned int, unsigned int);
 // XCreatePixmapCursor
 // file /usr/include/X11/Xlib.h line 1558
-extern unsigned long int XCreatePixmapCursor(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$22 *, struct anonymous$22 *, unsigned int, unsigned int);
+extern unsigned long int XCreatePixmapCursor(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_22 *, struct anonymous_22 *, unsigned int, unsigned int);
 // XCreateWindow
 // file /usr/include/X11/Xlib.h line 1636
-extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous$8 *, unsigned long int, struct anonymous$135 *);
+extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous_8 *, unsigned long int, struct anonymous_135 *);
 // XDefaultScreen
 // file /usr/include/X11/Xlib.h line 2227
 extern signed int XDefaultScreen(struct _XDisplay *);
@@ -1408,7 +1408,7 @@ extern signed int XDestroyWindow(struct _XDisplay *, unsigned long int);
 extern signed int XDrawString(struct _XDisplay *, unsigned long int, struct _XGC *, signed int, signed int, const char *, signed int);
 // XDrawString16
 // file /usr/include/X11/Xlib.h line 2414
-extern signed int XDrawString16(struct _XDisplay *, unsigned long int, struct _XGC *, signed int, signed int, const struct anonymous$114 *, signed int);
+extern signed int XDrawString16(struct _XDisplay *, unsigned long int, struct _XGC *, signed int, signed int, const struct anonymous_114 *, signed int);
 // XF86DGAGetVideoLL
 // file /usr/include/X11/extensions/xf86dga1.h line 34
 signed int XF86DGAGetVideoLL(struct _XDisplay *, signed int, unsigned int *, signed int *, signed int *, signed int *);
@@ -1423,10 +1423,10 @@ signed int XF86DGAQueryExtension(struct _XDisplay *, signed int *, signed int *)
 signed int XF86DGAQueryVersion(struct _XDisplay *, signed int *, signed int *);
 // XF86VidModeGetAllModeLines
 // file /usr/include/X11/extensions/xf86vmode.h line 173
-signed int XF86VidModeGetAllModeLines(struct _XDisplay *, signed int, signed int *, struct anonymous$15 ***);
+signed int XF86VidModeGetAllModeLines(struct _XDisplay *, signed int, signed int *, struct anonymous_15 ***);
 // XF86VidModeGetModeLine
 // file /usr/include/X11/extensions/xf86vmode.h line 166
-signed int XF86VidModeGetModeLine(struct _XDisplay *, signed int, signed int *, struct anonymous$64 *);
+signed int XF86VidModeGetModeLine(struct _XDisplay *, signed int, signed int *, struct anonymous_64 *);
 // XF86VidModeQueryExtension
 // file /usr/include/X11/extensions/xf86vmode.h line 156
 signed int XF86VidModeQueryExtension(struct _XDisplay *, signed int *, signed int *);
@@ -1438,7 +1438,7 @@ signed int XF86VidModeQueryVersion(struct _XDisplay *, signed int *, signed int 
 signed int XF86VidModeSetViewPort(struct _XDisplay *, signed int, signed int, signed int);
 // XF86VidModeSwitchToMode
 // file /usr/include/X11/extensions/xf86vmode.h line 211
-signed int XF86VidModeSwitchToMode(struct _XDisplay *, signed int, struct anonymous$15 *);
+signed int XF86VidModeSwitchToMode(struct _XDisplay *, signed int, struct anonymous_15 *);
 // XFillRectangle
 // file /usr/include/X11/Xlib.h line 2489
 extern signed int XFillRectangle(struct _XDisplay *, unsigned long int, struct _XGC *, signed int, signed int, unsigned int, unsigned int);
@@ -1450,7 +1450,7 @@ extern signed int XFlush(struct _XDisplay *);
 extern signed int XFree(void *);
 // XFreeFont
 // file /usr/include/X11/Xlib.h line 2542
-extern signed int XFreeFont(struct _XDisplay *, struct anonymous$14 *);
+extern signed int XFreeFont(struct _XDisplay *, struct anonymous_14 *);
 // XFreeGC
 // file /usr/include/X11/Xlib.h line 2561
 extern signed int XFreeGC(struct _XDisplay *, struct _XGC *);
@@ -1462,16 +1462,16 @@ extern signed int XFreePixmap(struct _XDisplay *, unsigned long int);
 extern char * XGetAtomName(struct _XDisplay *, unsigned long int);
 // XGetClassHint
 // file /usr/include/X11/Xutil.h line 423
-extern signed int XGetClassHint(struct _XDisplay *, unsigned long int, struct anonymous$116 *);
+extern signed int XGetClassHint(struct _XDisplay *, unsigned long int, struct anonymous_116 *);
 // XGetScreenSaver
 // file /usr/include/X11/Xlib.h line 2662
 extern signed int XGetScreenSaver(struct _XDisplay *, signed int *, signed int *, signed int *, signed int *);
 // XGetVisualInfo
 // file /usr/include/X11/Xutil.h line 471
-extern struct anonymous$1 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous$1 *, signed int *);
+extern struct anonymous_1 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous_1 *, signed int *);
 // XGetWindowAttributes
 // file /usr/include/X11/Xlib.h line 2691
-extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous$117 *);
+extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous_117 *);
 // XGetWindowProperty
 // file /usr/include/X11/Xlib.h line 2676
 extern signed int XGetWindowProperty(struct _XDisplay *, unsigned long int, unsigned long int, signed long int, signed long int, signed int, unsigned long int, unsigned long int *, signed int *, unsigned long int *, unsigned long int *, unsigned char **);
@@ -1486,10 +1486,10 @@ extern unsigned long int XKeycodeToKeysym(struct _XDisplay *, unsigned char, sig
 extern char * XKeysymToString(unsigned long int);
 // XListPixmapFormats
 // file /usr/include/X11/Xlib.h line 1862
-extern struct anonymous$7 * XListPixmapFormats(struct _XDisplay *, signed int *);
+extern struct anonymous_7 * XListPixmapFormats(struct _XDisplay *, signed int *);
 // XLoadQueryFont
 // file /usr/include/X11/Xlib.h line 1394
-extern struct anonymous$14 * XLoadQueryFont(struct _XDisplay *, const char *);
+extern struct anonymous_14 * XLoadQueryFont(struct _XDisplay *, const char *);
 // XMapWindow
 // file /usr/include/X11/Xlib.h line 2806
 extern signed int XMapWindow(struct _XDisplay *, unsigned long int);
@@ -1519,16 +1519,16 @@ signed int XRRQueryExtension(struct _XDisplay *, signed int *, signed int *);
 signed int XRRSetScreenConfig(struct _XDisplay *, struct _XRRScreenConfiguration *, unsigned long int, signed int, unsigned short int, unsigned long int);
 // XRRSizes
 // file /usr/include/X11/extensions/Xrandr.h line 229
-struct anonymous$20 * XRRSizes(struct _XDisplay *, signed int, signed int *);
+struct anonymous_20 * XRRSizes(struct _XDisplay *, signed int, signed int *);
 // XRaiseWindow
 // file /usr/include/X11/Xlib.h line 3026
 extern signed int XRaiseWindow(struct _XDisplay *, unsigned long int);
 // XRecolorCursor
 // file /usr/include/X11/Xlib.h line 3060
-extern signed int XRecolorCursor(struct _XDisplay *, unsigned long int, struct anonymous$22 *, struct anonymous$22 *);
+extern signed int XRecolorCursor(struct _XDisplay *, unsigned long int, struct anonymous_22 *, struct anonymous_22 *);
 // XScreenNumberOfScreen
 // file /usr/include/X11/Xlib.h line 1839
-extern signed int XScreenNumberOfScreen(struct anonymous$0 *);
+extern signed int XScreenNumberOfScreen(struct anonymous_0 *);
 // XSelectInput
 // file /usr/include/X11/Xlib.h line 3129
 extern signed int XSelectInput(struct _XDisplay *, unsigned long int, signed long int);
@@ -1546,13 +1546,13 @@ extern signed int (*XSetIOErrorHandler(signed int (*)(struct _XDisplay *)))(stru
 extern signed int XSetScreenSaver(struct _XDisplay *, signed int, signed int, signed int, signed int);
 // XShmAttach
 // file /usr/include/X11/extensions/XShm.h line 78
-signed int XShmAttach(struct _XDisplay *, struct anonymous$2 *);
+signed int XShmAttach(struct _XDisplay *, struct anonymous_2 *);
 // XShmCreateImage
 // file /usr/include/X11/extensions/XShm.h line 111
-struct _XImage * XShmCreateImage(struct _XDisplay *, struct anonymous$8 *, unsigned int, signed int, char *, struct anonymous$2 *, unsigned int, unsigned int);
+struct _XImage * XShmCreateImage(struct _XDisplay *, struct anonymous_8 *, unsigned int, signed int, char *, struct anonymous_2 *, unsigned int, unsigned int);
 // XShmDetach
 // file /usr/include/X11/extensions/XShm.h line 83
-signed int XShmDetach(struct _XDisplay *, struct anonymous$2 *);
+signed int XShmDetach(struct _XDisplay *, struct anonymous_2 *);
 // XShmPutImage
 // file /usr/include/X11/extensions/XShm.h line 88
 signed int XShmPutImage(struct _XDisplay *, unsigned long int, struct _XGC *, struct _XImage *, signed int, signed int, signed int, signed int, unsigned int, unsigned int, signed int);
@@ -1567,16 +1567,16 @@ extern signed int XSync(struct _XDisplay *, signed int);
 extern signed int XUnmapWindow(struct _XDisplay *, unsigned long int);
 // XVisualIDFromVisual
 // file /usr/include/X11/Xlib.h line 1728
-extern unsigned long int XVisualIDFromVisual(struct anonymous$8 *);
+extern unsigned long int XVisualIDFromVisual(struct anonymous_8 *);
 // XWarpPointer
 // file /usr/include/X11/Xlib.h line 3514
 extern signed int XWarpPointer(struct _XDisplay *, unsigned long int, unsigned long int, signed int, signed int, unsigned int, unsigned int, signed int, signed int);
 // XftColorAllocName
 // file /usr/include/X11/Xft/Xft.h line 111
-signed int XftColorAllocName(struct _XDisplay *, const struct anonymous$8 *, unsigned long int, const char *, struct _XftColor *);
+signed int XftColorAllocName(struct _XDisplay *, const struct anonymous_8 *, unsigned long int, const char *, struct _XftColor *);
 // XftDrawCreate
 // file /usr/include/X11/Xft/Xft.h line 143
-struct _XftDraw * XftDrawCreate(struct _XDisplay *, unsigned long int, struct anonymous$8 *, unsigned long int);
+struct _XftDraw * XftDrawCreate(struct _XDisplay *, unsigned long int, struct anonymous_8 *, unsigned long int);
 // XftDrawDestroy
 // file /usr/include/X11/Xft/Xft.h line 174
 void XftDrawDestroy(struct _XftDraw *);
@@ -1600,40 +1600,40 @@ signed int XineramaIsActive(struct _XDisplay *);
 signed int XineramaQueryExtension(struct _XDisplay *, signed int *, signed int *);
 // XineramaQueryScreens
 // file /usr/include/X11/extensions/Xinerama.h line 66
-struct anonymous$59 * XineramaQueryScreens(struct _XDisplay *, signed int *);
+struct anonymous_59 * XineramaQueryScreens(struct _XDisplay *, signed int *);
 // XmAddProtocolCallback
 // file /usr/include/Xm/Protocols.h line 93
 extern void XmAddProtocolCallback(struct _WidgetRec *, unsigned long int, unsigned long int, void (*)(struct _WidgetRec *, void *, void *), void *);
 // XmCreateDragIcon
 // file /usr/include/Xm/DragIcon.h line 61
-extern struct _WidgetRec * XmCreateDragIcon(struct _WidgetRec *, char *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmCreateDragIcon(struct _WidgetRec *, char *, struct anonymous_11 *, unsigned int);
 // XmCreateErrorDialog
 // file /usr/include/Xm/MessageB.h line 65
-extern struct _WidgetRec * XmCreateErrorDialog(struct _WidgetRec *, char *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmCreateErrorDialog(struct _WidgetRec *, char *, struct anonymous_11 *, unsigned int);
 // XmCreateFileSelectionDialog
 // file /usr/include/Xm/FileSB.h line 79
-extern struct _WidgetRec * XmCreateFileSelectionDialog(struct _WidgetRec *, char *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmCreateFileSelectionDialog(struct _WidgetRec *, char *, struct anonymous_11 *, unsigned int);
 // XmCreateInformationDialog
 // file /usr/include/Xm/MessageB.h line 70
-extern struct _WidgetRec * XmCreateInformationDialog(struct _WidgetRec *, char *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmCreateInformationDialog(struct _WidgetRec *, char *, struct anonymous_11 *, unsigned int);
 // XmCreateMenuBar
 // file /usr/include/Xm/RowColumn.h line 77
-extern struct _WidgetRec * XmCreateMenuBar(struct _WidgetRec *, char *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmCreateMenuBar(struct _WidgetRec *, char *, struct anonymous_11 *, unsigned int);
 // XmCreateOptionMenu
 // file /usr/include/Xm/RowColumn.h line 68
-extern struct _WidgetRec * XmCreateOptionMenu(struct _WidgetRec *, char *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmCreateOptionMenu(struct _WidgetRec *, char *, struct anonymous_11 *, unsigned int);
 // XmCreatePopupMenu
 // file /usr/include/Xm/RowColumn.h line 82
-extern struct _WidgetRec * XmCreatePopupMenu(struct _WidgetRec *, char *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmCreatePopupMenu(struct _WidgetRec *, char *, struct anonymous_11 *, unsigned int);
 // XmCreatePromptDialog
 // file /usr/include/Xm/SelectioB.h line 73
-extern struct _WidgetRec * XmCreatePromptDialog(struct _WidgetRec *, char *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmCreatePromptDialog(struct _WidgetRec *, char *, struct anonymous_11 *, unsigned int);
 // XmCreatePulldownMenu
 // file /usr/include/Xm/RowColumn.h line 87
-extern struct _WidgetRec * XmCreatePulldownMenu(struct _WidgetRec *, char *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmCreatePulldownMenu(struct _WidgetRec *, char *, struct anonymous_11 *, unsigned int);
 // XmCreateScrolledWindow
 // file /usr/include/Xm/ScrolledW.h line 57
-extern struct _WidgetRec * XmCreateScrolledWindow(struct _WidgetRec *, char *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmCreateScrolledWindow(struct _WidgetRec *, char *, struct anonymous_11 *, unsigned int);
 // XmFileSelectionBoxGetChild
 // file /usr/include/Xm/FileSB.h line 64
 extern struct _WidgetRec * XmFileSelectionBoxGetChild(struct _WidgetRec *, unsigned char);
@@ -1642,7 +1642,7 @@ extern struct _WidgetRec * XmFileSelectionBoxGetChild(struct _WidgetRec *, unsig
 extern char XmInstallImage(struct _XImage *, char *);
 // XmMenuPosition
 // file /usr/include/Xm/RowColumn.h line 50
-extern void XmMenuPosition(struct _WidgetRec *, struct anonymous$26 *);
+extern void XmMenuPosition(struct _WidgetRec *, struct anonymous_26 *);
 // XmMessageBoxGetChild
 // file /usr/include/Xm/MessageB.h line 95
 extern struct _WidgetRec * XmMessageBoxGetChild(struct _WidgetRec *, unsigned char);
@@ -1669,10 +1669,10 @@ extern union __XmStringRec * XmStringConcatAndFree(union __XmStringRec *, union 
 extern void XmStringFree(union __XmStringRec *);
 // XmStringGenerate
 // file /usr/include/Xm/Xm.h line 1947
-extern union __XmStringRec * XmStringGenerate(void *, char *, enum anonymous$67, char *);
+extern union __XmStringRec * XmStringGenerate(void *, char *, enum anonymous_67, char *);
 // XmStringUnparse
 // file /usr/include/Xm/Xm.h line 1908
-extern void * XmStringUnparse(union __XmStringRec *, char *, enum anonymous$67, enum anonymous$67, struct __XmParseMappingRec **, unsigned int, enum anonymous$68);
+extern void * XmStringUnparse(union __XmStringRec *, char *, enum anonymous_67, enum anonymous_67, struct __XmParseMappingRec **, unsigned int, enum anonymous_68);
 // XmTextGetInsertionPosition
 // file /usr/include/Xm/Text.h line 170
 extern signed long int XmTextGetInsertionPosition(struct _WidgetRec *);
@@ -1696,10 +1696,10 @@ void XmToggleButtonSetState(struct _WidgetRec *, char, char);
 extern char XmeClipboardSource(struct _WidgetRec *, unsigned char, unsigned long int);
 // XmeDragSource
 // file /usr/include/Xm/TransferP.h line 43
-extern struct _WidgetRec * XmeDragSource(struct _WidgetRec *, void *, union _XEvent *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XmeDragSource(struct _WidgetRec *, void *, union _XEvent *, struct anonymous_11 *, unsigned int);
 // XpmCreateImageFromData
 // file /usr/include/X11/xpm.h line 319
-extern signed int XpmCreateImageFromData(struct _XDisplay *, char **, struct _XImage **, struct _XImage **, struct anonymous$133 *);
+extern signed int XpmCreateImageFromData(struct _XDisplay *, char **, struct _XImage **, struct _XImage **, struct anonymous_133 *);
 // XtAddCallback
 // file /usr/include/X11/Intrinsic.h line 1235
 extern void XtAddCallback(struct _WidgetRec *, const char *, void (*)(struct _WidgetRec *, void *, void *), void *);
@@ -1732,7 +1732,7 @@ extern void XtAppNextEvent(struct _XtAppStruct *, union _XEvent *);
 extern void XtCallActionProc(struct _WidgetRec *, const char *, union _XEvent *, char **, unsigned int);
 // XtCreateManagedWidget
 // file /usr/include/X11/Intrinsic.h line 1370
-extern struct _WidgetRec * XtCreateManagedWidget(const char *, struct _WidgetClassRec *, struct _WidgetRec *, struct anonymous$11 *, unsigned int);
+extern struct _WidgetRec * XtCreateManagedWidget(const char *, struct _WidgetClassRec *, struct _WidgetRec *, struct anonymous_11 *, unsigned int);
 // XtDestroyWidget
 // file /usr/include/X11/Intrinsic.h line 1112
 extern void XtDestroyWidget(struct _WidgetRec *);
@@ -1744,7 +1744,7 @@ extern char XtDispatchEvent(union _XEvent *);
 extern struct _XDisplay * XtDisplay(struct _WidgetRec *);
 // XtGetApplicationResources
 // file /usr/include/X11/Intrinsic.h line 1548
-extern void XtGetApplicationResources(struct _WidgetRec *, void *, struct _XtResource *, unsigned int, struct anonymous$11 *, unsigned int);
+extern void XtGetApplicationResources(struct _WidgetRec *, void *, struct _XtResource *, unsigned int, struct anonymous_11 *, unsigned int);
 // XtLastTimestampProcessed
 // file /usr/include/X11/Intrinsic.h line 962
 extern unsigned long int XtLastTimestampProcessed(struct _XDisplay *);
@@ -1774,7 +1774,7 @@ extern struct _TranslationData * XtParseTranslationTable(const char *);
 extern void XtPopdown(struct _WidgetRec *);
 // XtPopup
 // file /usr/include/X11/Intrinsic.h line 1318
-extern void XtPopup(struct _WidgetRec *, enum anonymous$17);
+extern void XtPopup(struct _WidgetRec *, enum anonymous_17);
 // XtRealizeWidget
 // file /usr/include/X11/Intrinsic.h line 1104
 extern void XtRealizeWidget(struct _WidgetRec *);
@@ -1795,7 +1795,7 @@ extern void XtRemoveTimeOut(unsigned long int);
 extern void XtRemoveWorkProc(unsigned long int);
 // XtScreen
 // file /usr/include/X11/Intrinsic.h line 1192
-extern struct anonymous$0 * XtScreen(struct _WidgetRec *);
+extern struct anonymous_0 * XtScreen(struct _WidgetRec *);
 // XtSetLanguageProc
 // file /usr/include/X11/Intrinsic.h line 1426
 extern char * (*XtSetLanguageProc(struct _XtAppStruct *, char * (*)(struct _XDisplay *, char *, void *), void *))(struct _XDisplay *, char *, void *);
@@ -1810,7 +1810,7 @@ extern void XtUnregisterDrawable(struct _XDisplay *, unsigned long int);
 extern struct _WidgetRec * XtVaAppCreateShell(const char *, const char *, struct _WidgetClassRec *, struct _XDisplay *, ...);
 // XtVaAppInitialize
 // file /usr/include/X11/Intrinsic.h line 1480
-extern struct _WidgetRec * XtVaAppInitialize(struct _XtAppStruct **, const char *, struct anonymous$13 *, unsigned int, signed int *, char **, char **, ...);
+extern struct _WidgetRec * XtVaAppInitialize(struct _XtAppStruct **, const char *, struct anonymous_13 *, unsigned int, signed int *, char **, char **, ...);
 // XtVaCreateManagedWidget
 // file /usr/include/X11/Intrinsic.h line 1385
 extern struct _WidgetRec * XtVaCreateManagedWidget(const char *, struct _WidgetClassRec *, struct _WidgetRec *, ...);
@@ -1828,7 +1828,7 @@ extern void XtVaSetValues(struct _WidgetRec *, ...);
 extern unsigned long int XtWindow(struct _WidgetRec *);
 // XvCreateImage
 // file /usr/include/X11/extensions/Xvlib.h line 327
-extern struct anonymous$3 * XvCreateImage(struct _XDisplay *, unsigned long int, signed int, char *, signed int, signed int);
+extern struct anonymous_3 * XvCreateImage(struct _XDisplay *, unsigned long int, signed int, char *, signed int, signed int);
 // XvGetPortAttribute
 // file /usr/include/X11/extensions/Xvlib.h line 286
 extern signed int XvGetPortAttribute(struct _XDisplay *, unsigned long int, unsigned long int, signed int *);
@@ -1837,34 +1837,34 @@ extern signed int XvGetPortAttribute(struct _XDisplay *, unsigned long int, unsi
 extern signed int XvGrabPort(struct _XDisplay *, unsigned long int, unsigned long int);
 // XvListImageFormats
 // file /usr/include/X11/extensions/Xvlib.h line 321
-extern struct anonymous$6 * XvListImageFormats(struct _XDisplay *, unsigned long int, signed int *);
+extern struct anonymous_6 * XvListImageFormats(struct _XDisplay *, unsigned long int, signed int *);
 // XvPutImage
 // file /usr/include/X11/extensions/Xvlib.h line 336
-extern signed int XvPutImage(struct _XDisplay *, unsigned long int, unsigned long int, struct _XGC *, struct anonymous$3 *, signed int, signed int, unsigned int, unsigned int, signed int, signed int, unsigned int, unsigned int);
+extern signed int XvPutImage(struct _XDisplay *, unsigned long int, unsigned long int, struct _XGC *, struct anonymous_3 *, signed int, signed int, unsigned int, unsigned int, signed int, signed int, unsigned int, unsigned int);
 // XvPutVideo
 // file /usr/include/X11/extensions/Xvlib.h line 189
 extern signed int XvPutVideo(struct _XDisplay *, unsigned long int, unsigned long int, struct _XGC *, signed int, signed int, unsigned int, unsigned int, signed int, signed int, unsigned int, unsigned int);
 // XvQueryAdaptors
 // file /usr/include/X11/extensions/Xvlib.h line 175
-extern signed int XvQueryAdaptors(struct _XDisplay *, unsigned long int, unsigned int *, struct anonymous$5 **);
+extern signed int XvQueryAdaptors(struct _XDisplay *, unsigned long int, unsigned int *, struct anonymous_5 **);
 // XvQueryEncodings
 // file /usr/include/X11/extensions/Xvlib.h line 182
-extern signed int XvQueryEncodings(struct _XDisplay *, unsigned long int, unsigned int *, struct anonymous$111 **);
+extern signed int XvQueryEncodings(struct _XDisplay *, unsigned long int, unsigned int *, struct anonymous_111 **);
 // XvQueryExtension
 // file /usr/include/X11/extensions/Xvlib.h line 166
 extern signed int XvQueryExtension(struct _XDisplay *, unsigned int *, unsigned int *, unsigned int *, unsigned int *, unsigned int *);
 // XvQueryPortAttributes
 // file /usr/include/X11/extensions/Xvlib.h line 305
-extern struct anonymous$112 * XvQueryPortAttributes(struct _XDisplay *, unsigned long int, signed int *);
+extern struct anonymous_112 * XvQueryPortAttributes(struct _XDisplay *, unsigned long int, signed int *);
 // XvSetPortAttribute
 // file /usr/include/X11/extensions/Xvlib.h line 279
 extern signed int XvSetPortAttribute(struct _XDisplay *, unsigned long int, unsigned long int, signed int);
 // XvShmCreateImage
 // file /usr/include/X11/extensions/Xvlib.h line 369
-extern struct anonymous$3 * XvShmCreateImage(struct _XDisplay *, unsigned long int, signed int, char *, signed int, signed int, struct anonymous$2 *);
+extern struct anonymous_3 * XvShmCreateImage(struct _XDisplay *, unsigned long int, signed int, char *, signed int, signed int, struct anonymous_2 *);
 // XvShmPutImage
 // file /usr/include/X11/extensions/Xvlib.h line 352
-extern signed int XvShmPutImage(struct _XDisplay *, unsigned long int, unsigned long int, struct _XGC *, struct anonymous$3 *, signed int, signed int, unsigned int, unsigned int, signed int, signed int, unsigned int, unsigned int, signed int);
+extern signed int XvShmPutImage(struct _XDisplay *, unsigned long int, unsigned long int, struct _XGC *, struct anonymous_3 *, signed int, signed int, unsigned int, unsigned int, signed int, signed int, unsigned int, unsigned int, signed int);
 // XvStopVideo
 // file /usr/include/X11/extensions/Xvlib.h line 249
 extern signed int XvStopVideo(struct _XDisplay *, unsigned long int, unsigned long int);
@@ -1889,9 +1889,9 @@ extern signed int * __errno_location(void);
 // __list_add
 // file ./libng/list.h line 34
 static inline void __list_add(struct list_head *new, struct list_head *prev, struct list_head *next);
-// __list_add$link1
+// __list_add_link1
 // file libng/list.h line 34
-static inline void __list_add$link1(struct list_head *new$link1, struct list_head *prev$link1, struct list_head *next$link1);
+static inline void __list_add_link1(struct list_head *new_link1, struct list_head *prev_link1, struct list_head *next_link1);
 // __list_del
 // file ./libng/list.h line 77
 static inline void __list_del(struct list_head *prev, struct list_head *next);
@@ -1928,24 +1928,24 @@ static struct _WidgetRec * add_cmd_menuitem(const char *n, signed int nr, struct
 // add_dvb_class
 // file common/get_media_devices.c line 275
 static signed int add_dvb_class(struct media_device_entry *md);
-// add_dvb_class$link1
+// add_dvb_class_link1
 // file common/get_media_devices.c line 275
-static signed int add_dvb_class$link1(struct media_device_entry *md$link1);
+static signed int add_dvb_class_link1(struct media_device_entry *md_link1);
 // add_pixmap
 // file x11/icons.c line 22
 static void add_pixmap(struct _XDisplay *dpy, unsigned long int bg, char *imgname, char *maskname, char **data);
 // add_snd_class
 // file common/get_media_devices.c line 232
 static signed int add_snd_class(struct media_device_entry *md);
-// add_snd_class$link1
+// add_snd_class_link1
 // file common/get_media_devices.c line 232
-static signed int add_snd_class$link1(struct media_device_entry *md$link1);
+static signed int add_snd_class_link1(struct media_device_entry *md_link1);
 // add_v4l_class
 // file common/get_media_devices.c line 218
 static signed int add_v4l_class(struct media_device_entry *md);
-// add_v4l_class$link1
+// add_v4l_class_link1
 // file common/get_media_devices.c line 218
-static signed int add_v4l_class$link1(struct media_device_entry *md$link1);
+static signed int add_v4l_class_link1(struct media_device_entry *md_link1);
 // alphasort
 // file /usr/include/dirent.h line 329
 extern signed int alphasort(struct dirent **, struct dirent **);
@@ -1982,9 +1982,9 @@ static signed int attr_handler(char *name, signed int argc, char **argv);
 // attr_init
 // file ./common/commands.h line 68
 void attr_init(void);
-// attr_notify$object
+// attr_notify_object
 //
-void attr_notify$object(struct ng_attribute *, signed int);
+void attr_notify_object(struct ng_attribute *, signed int);
 // audio_init
 // file ./common/commands.h line 69
 void audio_init(void);
@@ -2023,7 +2023,7 @@ void blit_fini_frame(struct blit_state *st);
 void blit_get_formats(struct blit_state *st, signed int *fmtids, signed int max);
 // blit_init
 // file x11/blit.h line 27
-struct blit_state * blit_init(struct _WidgetRec *widget, struct anonymous$1 *vinfo, signed int use_gl);
+struct blit_state * blit_init(struct _WidgetRec *widget, struct anonymous_1 *vinfo, signed int use_gl);
 // blit_init_frame
 // file x11/blit.c line 785
 void blit_init_frame(struct blit_state *st, struct ng_video_fmt *fmt);
@@ -2042,15 +2042,15 @@ void calc_frequencies(void);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
-// capture_get_hook$object
+// capture_get_hook_object
 //
-void capture_get_hook$object(void);
+void capture_get_hook_object(void);
 // capture_handler
 // file common/commands.c line 778
 static signed int capture_handler(char *name, signed int argc, char **argv);
-// capture_rel_hook$object
+// capture_rel_hook_object
 //
-void capture_rel_hook$object(void);
+void capture_rel_hook_object(void);
 // catch_gl_error
 // file x11/blit.c line 94
 static signed int catch_gl_error(struct _XDisplay *dpy, struct anonymous *event);
@@ -2135,9 +2135,9 @@ void change_audio(signed int mode);
 // channel_menu
 // file x11/motv.c line 1102
 static void channel_menu(void);
-// channel_switch_hook$object
+// channel_switch_hook_object
 //
-void channel_switch_hook$object(void);
+void channel_switch_hook_object(void);
 // chscan_cancel_cb
 // file x11/motv.c line 2296
 static void chscan_cancel_cb(struct _WidgetRec *widget, void *clientdata, void *call_data);
@@ -2173,7 +2173,7 @@ static char configure_delayed(void *data);
 static void configure_overlay(void);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$65, unsigned int);
+extern signed int connect(signed int, union anonymous_65, unsigned int);
 // convert_buffer
 // file x11/motv.c line 2634
 static struct ng_video_buf * convert_buffer(struct ng_video_buf *in, signed int out_fmt);
@@ -2234,9 +2234,9 @@ void * discover_media_devices(void);
 // display_media_devices
 // file common/get_media_devices.c line 418
 void display_media_devices(void *opaque);
-// display_message$object
+// display_message_object
 //
-void display_message$object(char *);
+void display_message_object(char *);
 // display_onscreen
 // file x11/xt.c line 556
 static void display_onscreen(char *title);
@@ -2339,9 +2339,9 @@ extern void exit(signed int);
 // exit_handler
 // file common/commands.c line 1189
 static signed int exit_handler(char *name, signed int argc, char **argv);
-// exit_hook$object
+// exit_hook_object
 //
-void exit_hook$object(void);
+void exit_hook_object(void);
 // fclose
 // file /usr/include/stdio.h line 237
 extern signed int fclose(struct _IO_FILE *);
@@ -2432,18 +2432,18 @@ void freq_newtab(signed int n);
 // freq_readlist
 // file common/frequencies.c line 78
 static signed int freq_readlist(struct CHANLIST **list, signed int n, char *name);
-// freqtab_notify$object
+// freqtab_notify_object
 //
-void freqtab_notify$object(void);
+void freqtab_notify_object(void);
 // fstat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 219
 extern signed int fstat(signed int, struct stat *);
 // fullscreen_handler
 // file common/commands.c line 1158
 static signed int fullscreen_handler(char *name, signed int argc, char **argv);
-// fullscreen_hook$object
+// fullscreen_hook_object
 //
-void fullscreen_hook$object(void);
+void fullscreen_hook_object(void);
 // fwrite
 // file /usr/include/stdio.h line 715
 extern unsigned long int fwrite(const void *, unsigned long int, unsigned long int, struct _IO_FILE *);
@@ -2456,27 +2456,27 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
 // get_bus
 // file common/get_media_devices.c line 96
 static enum bus_type get_bus(char *device);
-// get_bus$link1
+// get_bus_link1
 // file common/get_media_devices.c line 96
-static enum bus_type get_bus$link1(char *device$link1);
+static enum bus_type get_bus_link1(char *device_link1);
 // get_class
 // file common/get_media_devices.c line 121
 static signed int get_class(char *class, struct media_device_entry **md, unsigned int *md_size, signed int (*fill)(struct media_device_entry *));
-// get_class$link1
+// get_class_link1
 // file common/get_media_devices.c line 121
-static signed int get_class$link1(char *class$link1, struct media_device_entry **md$link1, unsigned int *md_size$link1, signed int (*fill$link1)(struct media_device_entry *));
-// get_class::fill$link1$object
+static signed int get_class_link1(char *class_link1, struct media_device_entry **md_link1, unsigned int *md_size_link1, signed int (*fill_link1)(struct media_device_entry *));
+// get_class::fill_link1_object
 //
-signed int fill$link1$object(struct media_device_entry *);
-// get_class::fill$object
+signed int fill_link1_object(struct media_device_entry *);
+// get_class::fill_object
 //
-signed int fill$object(struct media_device_entry *);
+signed int fill_object(struct media_device_entry *);
 // get_clips
 // file x11/x11.c line 395
 static void get_clips(void);
-// get_clips::$tmp::return_value_XSetErrorHandler$1$object
+// get_clips::_tmp::return_value_XSetErrorHandler_1_object
 //
-signed int return_value_XSetErrorHandler$1$object(struct _XDisplay *, struct anonymous *);
+signed int return_value_XSetErrorHandler_1_object(struct _XDisplay *, struct anonymous *);
 // get_freq
 // file common/channel.c line 152
 signed int get_freq(signed int i);
@@ -2486,9 +2486,9 @@ const char * get_not_associated_device(void *opaque, const char *last_seek, cons
 // get_uevent_info
 // file common/get_media_devices.c line 69
 static void get_uevent_info(struct media_device_entry *md_ptr, char *dname);
-// get_uevent_info$link1
+// get_uevent_info_link1
 // file common/get_media_devices.c line 69
-static void get_uevent_info$link1(struct media_device_entry *md_ptr$link1, char *dname$link1);
+static void get_uevent_info_link1(struct media_device_entry *md_ptr_link1, char *dname_link1);
 // getaddrinfo
 // file /usr/include/netdb.h line 662
 extern signed int getaddrinfo(const char *, const char *, struct addrinfo *, struct addrinfo ** restrict );
@@ -2506,7 +2506,7 @@ extern signed int getnameinfo(struct sockaddr *, unsigned int, char *, unsigned 
 static void getparams_periods(struct _snd_pcm *handle, struct _snd_pcm_hw_params *params, unsigned int *usecs, unsigned int *count, signed int allow_adjust, const char *id);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous$65, unsigned int *);
+extern signed int getpeername(signed int, union anonymous_65, unsigned int *);
 // getpid
 // file /usr/include/unistd.h line 628
 extern signed int getpid(void);
@@ -2521,7 +2521,7 @@ extern struct passwd * getpwnam(const char *);
 extern struct passwd * getpwuid(unsigned int);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous$65, unsigned int *);
+extern signed int getsockname(signed int, union anonymous_65, unsigned int *);
 // gettimeofday
 // file /usr/include/x86_64-linux-gnu/sys/time.h line 71
 extern signed int gettimeofday(struct timeval *, struct timezone *);
@@ -2593,10 +2593,10 @@ void glVertex3f(float, float, float);
 void glViewport(signed int, signed int, signed int, signed int);
 // glXChooseVisual
 // file /usr/include/GL/glx.h line 187
-extern struct anonymous$1 * glXChooseVisual(struct _XDisplay *, signed int, signed int *);
+extern struct anonymous_1 * glXChooseVisual(struct _XDisplay *, signed int, signed int *);
 // glXCreateContext
 // file /usr/include/GL/glx.h line 190
-extern struct __GLXcontextRec * glXCreateContext(struct _XDisplay *, struct anonymous$1 *, struct __GLXcontextRec *, signed int);
+extern struct __GLXcontextRec * glXCreateContext(struct _XDisplay *, struct anonymous_1 *, struct __GLXcontextRec *, signed int);
 // glXIsDirect
 // file /usr/include/GL/glx.h line 212
 extern signed int glXIsDirect(struct _XDisplay *, struct __GLXcontextRec *);
@@ -2618,9 +2618,9 @@ static signed int gl_ext(unsigned char *find);
 // gl_init
 // file x11/blit.c line 527
 static signed int gl_init(struct _WidgetRec *widget);
-// gl_init::$tmp::return_value_XSetErrorHandler$9$object
+// gl_init::_tmp::return_value_XSetErrorHandler_9_object
 //
-signed int return_value_XSetErrorHandler$9$object(struct _XDisplay *, struct anonymous *);
+signed int return_value_XSetErrorHandler_9_object(struct _XDisplay *, struct anonymous *);
 // gl_resize
 // file x11/blit.c line 592
 static signed int gl_resize(signed int iw, signed int ih, signed int ww, signed int wh, signed int *tex, signed int *tw, signed int *th, signed int fmt, signed int type);
@@ -2774,9 +2774,9 @@ signed int lirc_tv_init(void);
 // list_add_tail
 // file ./libng/list.h line 65
 static inline void list_add_tail(struct list_head *new, struct list_head *head);
-// list_add_tail$link1
+// list_add_tail_link1
 // file libng/list.h line 65
-static inline void list_add_tail$link1(struct list_head *new$link1, struct list_head *head$link1);
+static inline void list_add_tail_link1(struct list_head *new_link1, struct list_head *head_link1);
 // list_del
 // file ./libng/list.h line 89
 static inline void list_del(struct list_head *entry);
@@ -2864,9 +2864,9 @@ signed int movie_grab_put_video(struct movie_handle *h, struct ng_video_buf **re
 // movie_handler
 // file common/commands.c line 1149
 static signed int movie_handler(char *name, signed int argc, char **argv);
-// movie_hook$object
+// movie_hook_object
 //
-void movie_hook$object(signed int, char **);
+void movie_hook_object(signed int, char **);
 // movie_print_timestamps
 // file common/capture.c line 583
 static void movie_print_timestamps(struct movie_handle *h);
@@ -2882,9 +2882,9 @@ signed int movie_writer_stop(struct movie_handle *h);
 // msg_handler
 // file common/commands.c line 1166
 static signed int msg_handler(char *name, signed int argc, char **argv);
-// mute_notify$object
+// mute_notify_object
 //
-void mute_notify$object(signed int);
+void mute_notify_object(signed int);
 // my_cmp
 // file x11/complete.c line 34
 static signed int my_cmp(const void *a, const void *b);
@@ -3059,18 +3059,18 @@ struct ng_attribute * ng_mix_init(char *device, char *channel);
 // ng_packed_frame
 // file libng/color_common.c line 22
 void ng_packed_frame(void *handle, struct ng_video_buf *out, struct ng_video_buf *in);
-// ng_packed_frame::1::func$object
+// ng_packed_frame::1::func_object
 //
-signed int func$object(unsigned char *, unsigned char *, signed int);
+signed int func_object(unsigned char *, unsigned char *, signed int);
 // ng_packed_init
 // file libng/color_common.c line 16
 void * ng_packed_init(struct ng_video_fmt *out, void *priv);
 // ng_plugins
 // file libng/grab-ng.c line 940
 static signed int ng_plugins(char *dirname);
-// ng_plugins::1::initcall$object
+// ng_plugins::1::initcall_object
 //
-void initcall$object(void);
+void initcall_object(void);
 // ng_ratio_fixup
 // file ./libng/grab-ng.h line 268
 void ng_ratio_fixup(signed int *width, signed int *height, signed int *xoff, signed int *yoff);
@@ -3137,9 +3137,9 @@ extern signed int nice(signed int);
 // odd
 // file common/vbi-sim.c line 194
 static inline signed int odd(signed int c);
-// old_handler$object
+// old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous *);
 // ontop_ac
 // file x11/motv.c line 311
 static void ontop_ac(struct _WidgetRec *widget, union _XEvent *event, char **params, unsigned int *num_params);
@@ -3152,9 +3152,9 @@ extern signed int open(const char *, signed int, ...);
 // opendir
 // file /usr/include/dirent.h line 134
 extern struct __dirstream * opendir(const char *);
-// orig_xfree_error_handler$object
+// orig_xfree_error_handler_object
 //
-signed int orig_xfree_error_handler$object(struct _XDisplay *, struct anonymous *);
+signed int orig_xfree_error_handler_object(struct _XDisplay *, struct anonymous *);
 // oss_levels
 // file ./common/sound.h line 4
 void oss_levels(struct ng_audio_buf *buf, signed int *left, signed int *right);
@@ -3226,16 +3226,16 @@ extern signed int printf(const char *, ...);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$72 *);
+extern signed int pthread_cond_broadcast(union anonymous_72 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$72 *, const union anonymous$121 *);
+extern signed int pthread_cond_init(union anonymous_72 *, const union anonymous_121 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$72 *);
+extern signed int pthread_cond_signal(union anonymous_72 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$72 *, union anonymous$70 *);
+extern signed int pthread_cond_wait(union anonymous_72 *, union anonymous_70 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -3244,16 +3244,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$70 *, const union anonymous$121 *);
+extern signed int pthread_mutex_init(union anonymous_70 *, const union anonymous_121 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$70 *);
+extern signed int pthread_mutex_lock(union anonymous_70 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$70 *);
+extern signed int pthread_mutex_trylock(union anonymous_70 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$70 *);
+extern signed int pthread_mutex_unlock(union anonymous_70 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -3283,7 +3283,7 @@ extern signed long int read(signed int, void *, unsigned long int);
 void read_config(char *conffile, signed int *argc, char **argv);
 // read_sim
 // file common/vbi-sim.c line 301
-static void read_sim(unsigned char *raw_data, struct anonymous$98 *sliced_data, signed int *lines, double *timestamp);
+static void read_sim(unsigned char *raw_data, struct anonymous_98 *sliced_data, signed int *lines, double *timestamp);
 // readbuf
 // file common/alsa_stream.c line 434
 static signed long int readbuf(struct _snd_pcm *handle, char *buf, signed long int len);
@@ -3296,9 +3296,9 @@ extern void * realloc(void *, unsigned long int);
 // realpath
 // file /usr/include/stdlib.h line 733
 extern char * realpath(const char *, char *);
-// rec_status$object
+// rec_status_object
 //
-void rec_status$object(char *);
+void rec_status_object(char *);
 // rec_work
 // file x11/xt.h line 146
 char rec_work(void *client_data);
@@ -3355,7 +3355,7 @@ static void scroll_cb(struct _WidgetRec *widget, void *clientdata, void *call_da
 static void segfault(signed int signal);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$115 *, struct anonymous$115 *, struct anonymous$115 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_115 *, struct anonymous_115 *, struct anonymous_115 *, struct timeval *);
 // send_xscreensaver_command
 // file jwz/remote.c line 135
 static signed int send_xscreensaver_command(struct _XDisplay *dpy, unsigned long int command, signed long int arg, unsigned long int *window_ret, char **error_ret);
@@ -3368,9 +3368,9 @@ static void set_attr(struct ng_attribute *attr, signed int val);
 // set_capture
 // file common/commands.c line 304
 static void set_capture(signed int capture, signed int tmp_switch);
-// set_capture_hook$object
+// set_capture_hook_object
 //
-void set_capture_hook$object(signed int, signed int, signed int);
+void set_capture_hook_object(signed int, signed int, signed int);
 // set_defaults
 // file ./common/commands.h line 72
 void set_defaults(void);
@@ -3397,7 +3397,7 @@ void set_property(signed int freq, char *channel, char *name);
 static void set_title(void);
 // set_vidmode
 // file x11/xt.c line 826
-static void set_vidmode(struct anonymous$15 *mode);
+static void set_vidmode(struct anonymous_15 *mode);
 // set_volume
 // file common/commands.c line 342
 static void set_volume(signed int val);
@@ -3407,9 +3407,9 @@ static signed int setchannel_handler(char *name, signed int argc, char **argv);
 // setfreqtab_handler
 // file common/commands.c line 763
 static signed int setfreqtab_handler(char *name, signed int argc, char **argv);
-// setfreqtab_notify$object
+// setfreqtab_notify_object
 //
-void setfreqtab_notify$object(void);
+void setfreqtab_notify_object(void);
 // setparams
 // file common/alsa_stream.c line 249
 static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, enum _snd_pcm_format format, signed int latency, signed int allow_resample, struct final_params *negotiated);
@@ -3428,9 +3428,9 @@ extern signed int setsockopt(signed int, signed int, signed int, const void *, u
 // setstation_handler
 // file common/commands.c line 567
 static signed int setstation_handler(char *name, signed int argc, char **argv);
-// setstation_notify$object
+// setstation_notify_object
 //
-void setstation_notify$object(void);
+void setstation_notify_object(void);
 // shape
 // file common/vbi-sim.c line 10
 static inline double shape(double ph);
@@ -3457,7 +3457,7 @@ static signed int showtime_handler(char *name, signed int argc, char **argv);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$16 *);
+extern signed int sigemptyset(struct anonymous_16 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -3635,9 +3635,9 @@ extern signed int socket(signed int, signed int, signed int);
 // sort_media_device_entry
 // file common/get_media_devices.c line 299
 static signed int sort_media_device_entry(const void *a, const void *b);
-// sort_media_device_entry$link1
+// sort_media_device_entry_link1
 // file common/get_media_devices.c line 299
-static signed int sort_media_device_entry$link1(const void *a$link1, const void *b$link1);
+static signed int sort_media_device_entry_link1(const void *a_link1, const void *b_link1);
 // split_cmdline
 // file ./common/commands.h line 79
 char ** split_cmdline(char *line, signed int *count);
@@ -3776,9 +3776,9 @@ static signed int update_int(struct ng_attribute *attr, signed int old, char *ne
 // update_movie_menus
 // file x11/motv.c line 1933
 static void update_movie_menus(void);
-// update_title$object
+// update_title_object
 //
-void update_title$object(char *);
+void update_title_object(char *);
 // usage
 // file x11/xt.c line 1676
 static void usage(void);
@@ -3805,7 +3805,7 @@ extern signed int vbi_capture_fd(struct vbi_capture *);
 extern struct vbi_raw_decoder * vbi_capture_parameters(struct vbi_capture *);
 // vbi_capture_read
 // file /usr/include/libzvbi.h line 1638
-extern signed int vbi_capture_read(struct vbi_capture *, void *, struct anonymous$98 *, signed int *, double *, struct timeval *);
+extern signed int vbi_capture_read(struct vbi_capture *, void *, struct anonymous_98 *, signed int *, double *, struct timeval *);
 // vbi_capture_v4l2_new
 // file /usr/include/libzvbi.h line 1582
 extern struct vbi_capture * vbi_capture_v4l2_new(const char *, signed int, unsigned int *, signed int, char **, signed int);
@@ -3817,7 +3817,7 @@ extern struct vbi_capture * vbi_capture_v4l_new(const char *, signed int, unsign
 void vbi_close(struct vbi_state *vbi);
 // vbi_decode
 // file /usr/include/libzvbi.h line 2145
-extern void vbi_decode(struct vbi_decoder *, struct anonymous$98 *, signed int, double);
+extern void vbi_decode(struct vbi_decoder *, struct anonymous_98 *, signed int, double);
 // vbi_decoder_delete
 // file /usr/include/libzvbi.h line 2144
 extern void vbi_decoder_delete(struct vbi_decoder *);
@@ -3841,7 +3841,7 @@ unsigned long int vbi_export_pixmap(struct vbi_window *vw, struct vbi_page *pg, 
 signed int vbi_export_txt(char *dest, char *charset, signed int size, struct vbi_page *pg, struct vbi_rect *rect, enum vbi_txt_colors color);
 // vbi_fetch_vt_page
 // file /usr/include/libzvbi.h line 2028
-extern signed int vbi_fetch_vt_page(struct vbi_decoder *, struct vbi_page *, signed int, signed int, enum anonymous$23, signed int, signed int);
+extern signed int vbi_fetch_vt_page(struct vbi_decoder *, struct vbi_page *, signed int, signed int, enum anonymous_23, signed int, signed int);
 // vbi_find_subtitle
 // file ./common/vbi-data.h line 43
 void vbi_find_subtitle(struct vbi_page *pg, struct vbi_rect *rect);
@@ -3856,7 +3856,7 @@ static inline signed int vbi_is_gfx(unsigned int unicode);
 struct vbi_state * vbi_open(char *dev, signed int debug, signed int sim);
 // vbi_raw_decode
 // file /usr/include/libzvbi.h line 1181
-extern signed int vbi_raw_decode(struct vbi_raw_decoder *, unsigned char *, struct anonymous$98 *);
+extern signed int vbi_raw_decode(struct vbi_raw_decoder *, unsigned char *, struct anonymous_98 *);
 // vbi_raw_decoder_add_services
 // file /usr/include/libzvbi.h line 1170
 extern unsigned int vbi_raw_decoder_add_services(struct vbi_raw_decoder *, unsigned int, signed int);
@@ -3919,7 +3919,7 @@ void video_gd_stop(void);
 void video_gd_suspend(void);
 // video_init
 // file x11/x11.h line 23
-struct _WidgetRec * video_init(struct _WidgetRec *parent, struct anonymous$1 *vinfo, struct _WidgetClassRec *class, signed int args_bpp, signed int args_gl);
+struct _WidgetRec * video_init(struct _WidgetRec *parent, struct anonymous_1 *vinfo, struct _WidgetClassRec *class, signed int args_bpp, signed int args_gl);
 // video_new_size
 // file x11/x11.c line 553
 void video_new_size(void);
@@ -3935,12 +3935,12 @@ void visual_init(char *n1, char *n2);
 // volume_handler
 // file common/commands.c line 796
 static signed int volume_handler(char *name, signed int argc, char **argv);
-// volume_notify$object
+// volume_notify_object
 //
-void volume_notify$object(void);
-// vtx_subtitle$object
+void volume_notify_object(void);
+// vtx_subtitle_object
 //
-void vtx_subtitle$object(struct vbi_page *, struct vbi_rect *);
+void vtx_subtitle_object(struct vbi_page *, struct vbi_rect *);
 // waitpid
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 125
 extern signed int waitpid(signed int, signed int *, signed int);
@@ -3977,12 +3977,12 @@ static signed int wm_check_capability(struct _XDisplay *dpy, unsigned long int r
 // wm_detect
 // file x11/wmhooks.h line 1
 void wm_detect(struct _XDisplay *dpy);
-// wm_fullscreen$object
+// wm_fullscreen_object
 //
-void wm_fullscreen$object(struct _XDisplay *, unsigned long int, signed int);
-// wm_stay_on_top$object
+void wm_fullscreen_object(struct _XDisplay *, unsigned long int, signed int);
+// wm_stay_on_top_object
 //
-void wm_stay_on_top$object(struct _XDisplay *, unsigned long int, signed int);
+void wm_stay_on_top_object(struct _XDisplay *, unsigned long int, signed int);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
@@ -4015,37 +4015,37 @@ static inline double wss625_sim(double t, double F, unsigned int bits);
 void x11_blit(struct _XDisplay *dpy, unsigned long int dr, struct _XGC *gc, struct _XImage *xi, signed int a, signed int b, signed int c, signed int d, signed int w, signed int h);
 // x11_capture_pixmap
 // file x11/x11.c line 50
-unsigned long int x11_capture_pixmap(struct _XDisplay *dpy, struct anonymous$1 *vinfo, unsigned long int colormap, unsigned int width, unsigned int height);
+unsigned long int x11_capture_pixmap(struct _XDisplay *dpy, struct anonymous_1 *vinfo, unsigned long int colormap, unsigned int width, unsigned int height);
 // x11_check_remote
 // file x11/xt.h line 185
 void x11_check_remote(void);
 // x11_create_pixmap
 // file x11/blit.h line 10
-unsigned long int x11_create_pixmap(struct _XDisplay *dpy, struct anonymous$1 *vinfo, struct ng_video_buf *buf);
+unsigned long int x11_create_pixmap(struct _XDisplay *dpy, struct anonymous_1 *vinfo, struct ng_video_buf *buf);
 // x11_create_ximage
 // file x11/blit.c line 229
-struct _XImage * x11_create_ximage(struct _XDisplay *dpy, struct anonymous$1 *vinfo, signed int width, signed int height, struct anonymous$2 **shm);
-// x11_create_ximage::$tmp::return_value_XSetErrorHandler$1$object
+struct _XImage * x11_create_ximage(struct _XDisplay *dpy, struct anonymous_1 *vinfo, signed int width, signed int height, struct anonymous_2 **shm);
+// x11_create_ximage::_tmp::return_value_XSetErrorHandler_1_object
 //
-signed int return_value_XSetErrorHandler$1$object(struct _XDisplay *, struct anonymous *);
+signed int return_value_XSetErrorHandler_1_object(struct _XDisplay *, struct anonymous *);
 // x11_ctrl_alt_backspace
 // file x11/xt.h line 190
 signed int x11_ctrl_alt_backspace(struct _XDisplay *dpy);
 // x11_destroy_ximage
 // file x11/blit.c line 300
-void x11_destroy_ximage(struct _XDisplay *dpy, struct _XImage *ximage, struct anonymous$2 *shm);
+void x11_destroy_ximage(struct _XDisplay *dpy, struct _XImage *ximage, struct anonymous_2 *shm);
 // x11_error_dev_null
 // file x11/x11.c line 93
 static signed int x11_error_dev_null(struct _XDisplay *dpy, struct anonymous *event);
 // x11_find_visual
 // file x11/blit.c line 105
-struct anonymous$8 * x11_find_visual(struct _XDisplay *dpy);
+struct anonymous_8 * x11_find_visual(struct _XDisplay *dpy);
 // x11_icons_init
 // file x11/icons.h line 1
 void x11_icons_init(struct _XDisplay *dpy, unsigned long int bg);
 // x11_init_visual
 // file x11/blit.c line 138
-void x11_init_visual(struct _XDisplay *dpy, struct anonymous$1 *vinfo);
+void x11_init_visual(struct _XDisplay *dpy, struct anonymous_1 *vinfo);
 // x11_label_pixmap
 // file x11/x11.h line 5
 void x11_label_pixmap(struct _XDisplay *dpy, unsigned long int colormap, unsigned long int pixmap, signed int height, char *label);
@@ -4132,25 +4132,25 @@ void xt_siginit(void);
 signed int xt_vm_randr_input_init(struct _XDisplay *dpy);
 // xv_add_attr
 // file x11/xv.c line 172
-static void xv_add_attr(struct xv_handle *h, signed int id, signed int type, signed int defval, struct STRTAB *choices, struct anonymous$112 *at);
+static void xv_add_attr(struct xv_handle *h, signed int id, signed int type, signed int defval, struct STRTAB *choices, struct anonymous_112 *at);
 // xv_attrs
 // file x11/xv.c line 321
 static struct ng_attribute * xv_attrs(void *handle);
 // xv_blit
 // file x11/blit.c line 482
-void xv_blit(struct _XDisplay *dpy, unsigned long int dr, struct _XGC *gc, struct anonymous$3 *xi, signed int a, signed int b, signed int c, signed int d, signed int x, signed int y, signed int w, signed int h);
+void xv_blit(struct _XDisplay *dpy, unsigned long int dr, struct _XGC *gc, struct anonymous_3 *xi, signed int a, signed int b, signed int c, signed int d, signed int x, signed int y, signed int w, signed int h);
 // xv_close
 // file x11/xv.c line 308
 static signed int xv_close(void *handle);
 // xv_create_ximage
 // file x11/blit.c line 407
-struct anonymous$3 * xv_create_ximage(struct _XDisplay *dpy, signed int width, signed int height, signed int format, struct anonymous$2 **shm);
-// xv_create_ximage::$tmp::return_value_XSetErrorHandler$1$object
+struct anonymous_3 * xv_create_ximage(struct _XDisplay *dpy, signed int width, signed int height, signed int format, struct anonymous_2 **shm);
+// xv_create_ximage::_tmp::return_value_XSetErrorHandler_1_object
 //
-signed int return_value_XSetErrorHandler$1$object(struct _XDisplay *, struct anonymous *);
+signed int return_value_XSetErrorHandler_1_object(struct _XDisplay *, struct anonymous *);
 // xv_destroy_ximage
 // file x11/blit.c line 471
-void xv_destroy_ximage(struct _XDisplay *dpy, struct anonymous$3 *xvimage, struct anonymous$2 *shm);
+void xv_destroy_ximage(struct _XDisplay *dpy, struct anonymous_3 *xvimage, struct anonymous_2 *shm);
 // xv_flags
 // file x11/xv.c line 310
 static signed int xv_flags(void *handle);
@@ -4203,7 +4203,7 @@ static void yuv42xp_to_gray(void *h, struct ng_video_buf *out, struct ng_video_b
 // file x11/xt.c line 436
 static void zap_timeout(void *client_data, unsigned long int *id);
 
-struct anonymous$130
+struct anonymous_130
 {
   // name
   char *name;
@@ -4213,7 +4213,7 @@ struct anonymous$130
   unsigned long int pixel;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // name
   char *name;
@@ -4221,7 +4221,7 @@ struct anonymous$11
   signed long int value;
 };
 
-struct anonymous$131
+struct anonymous_131
 {
   // name
   char *name;
@@ -4231,19 +4231,19 @@ struct anonymous$131
   char **lines;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // option
   char *option;
   // specifier
   char *specifier;
   // argKind
-  enum anonymous$12 argKind;
+  enum anonymous_12 argKind;
   // value
   char *value;
 };
 
-struct anonymous$116
+struct anonymous_116
 {
   // res_name
   char *res_name;
@@ -4251,7 +4251,7 @@ struct anonymous$116
   char *res_class;
 };
 
-struct anonymous$132
+struct anonymous_132
 {
   // string
   char *string;
@@ -4267,10 +4267,10 @@ struct anonymous$132
   char *c_color;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // visual
-  struct anonymous$8 *visual;
+  struct anonymous_8 *visual;
   // visualid
   unsigned long int visualid;
   // screen
@@ -4291,7 +4291,7 @@ struct anonymous$1
   signed int bits_per_rgb;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -4310,11 +4310,11 @@ struct anonymous$0
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$109 *depths;
+  struct anonymous_109 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$8 *root_visual;
+  struct anonymous_8 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -4335,7 +4335,7 @@ struct anonymous$0
   signed long int root_input_mask;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -4372,7 +4372,7 @@ struct anonymous$10
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$134 *pixmap_format;
+  struct anonymous_134 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -4408,7 +4408,7 @@ struct anonymous$10
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$0 *screens;
+  struct anonymous_0 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -4427,7 +4427,7 @@ struct anonymous$10
   char *xdefaults;
 };
 
-struct anonymous$134
+struct anonymous_134
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -4439,7 +4439,7 @@ struct anonymous$134
   signed int scanline_pad;
 };
 
-struct anonymous$120
+struct anonymous_120
 {
   // lbearing
   signed short int lbearing;
@@ -4455,7 +4455,7 @@ struct anonymous$120
   unsigned short int attributes;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -4478,20 +4478,20 @@ struct anonymous$14
   // n_properties
   signed int n_properties;
   // properties
-  struct anonymous$119 *properties;
+  struct anonymous_119 *properties;
   // min_bounds
-  struct anonymous$120 min_bounds;
+  struct anonymous_120 min_bounds;
   // max_bounds
-  struct anonymous$120 max_bounds;
+  struct anonymous_120 max_bounds;
   // per_char
-  struct anonymous$120 *per_char;
+  struct anonymous_120 *per_char;
   // ascent
   signed int ascent;
   // descent
   signed int descent;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -4511,7 +4511,7 @@ struct anonymous$8
   signed int map_entries;
 };
 
-struct anonymous$106
+struct anonymous_106
 {
   // _call_addr
   void *_call_addr;
@@ -4521,7 +4521,7 @@ struct anonymous$106
   unsigned int _arch;
 };
 
-struct anonymous$104
+struct anonymous_104
 {
   // si_addr
   void *si_addr;
@@ -4529,25 +4529,25 @@ struct anonymous$104
   signed short int si_addr_lsb;
 };
 
-struct anonymous$115
+struct anonymous_115
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$122
+struct anonymous_122
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$126
+struct anonymous_126
 {
   // bits
   unsigned char bits[17l];
@@ -4557,7 +4557,7 @@ struct anonymous$126
   signed int sent_table;
 };
 
-struct anonymous$125
+struct anonymous_125
 {
   // quantval
   unsigned short int quantval[64l];
@@ -4565,7 +4565,7 @@ struct anonymous$125
   signed int sent_table;
 };
 
-struct anonymous$71
+struct anonymous_71
 {
   // __lock
   signed int __lock;
@@ -4585,7 +4585,7 @@ struct anonymous$71
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$124
+struct anonymous_124
 {
   // component_id
   signed int component_id;
@@ -4626,12 +4626,12 @@ struct anonymous$124
   // last_row_height
   signed int last_row_height;
   // quant_table
-  struct anonymous$125 *quant_table;
+  struct anonymous_125 *quant_table;
   // dct_table
   void *dct_table;
 };
 
-struct anonymous$127
+struct anonymous_127
 {
   // comps_in_scan
   signed int comps_in_scan;
@@ -4647,7 +4647,7 @@ struct anonymous$127
   signed int Al;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // depth
   signed int depth;
@@ -4657,17 +4657,17 @@ struct anonymous$7
   signed int scanline_pad;
 };
 
-struct anonymous$109
+struct anonymous_109
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$8 *visuals;
+  struct anonymous_8 *visuals;
 };
 
-struct anonymous$85
+struct anonymous_85
 {
   // first_line
   signed int first_line;
@@ -4678,10 +4678,10 @@ struct anonymous$85
   // film_mode
   signed int film_mode;
   // open_subtitles
-  enum anonymous$84 open_subtitles;
+  enum anonymous_84 open_subtitles;
 };
 
-struct anonymous$112
+struct anonymous_112
 {
   // flags
   signed int flags;
@@ -4693,7 +4693,7 @@ struct anonymous$112
   char *name;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // fmt
   signed int fmt;
@@ -4703,7 +4703,7 @@ struct anonymous$9
   char *ext;
 };
 
-struct anonymous$75
+struct anonymous_75
 {
   // function
   signed int function;
@@ -4753,7 +4753,7 @@ struct anonymous$75
   char dashes;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // id
   signed int id;
@@ -4801,7 +4801,7 @@ struct anonymous$6
   signed int scanline_order;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // id
   signed int id;
@@ -4823,7 +4823,7 @@ struct anonymous$3
   char *obdata;
 };
 
-struct anonymous$110
+struct anonymous_110
 {
   // numerator
   signed int numerator;
@@ -4831,13 +4831,13 @@ struct anonymous$110
   signed int denominator;
 };
 
-struct anonymous$94
+struct anonymous_94
 {
   // pgno
   signed int pgno;
 };
 
-struct anonymous$63
+struct anonymous_63
 {
   // pgno
   signed int pgno;
@@ -4845,7 +4845,7 @@ struct anonymous$63
   signed int subno;
 };
 
-struct anonymous$93
+struct anonymous_93
 {
   // pgno
   signed int pgno;
@@ -4863,7 +4863,7 @@ struct anonymous$93
   unsigned int clock_update : 1;
 };
 
-struct anonymous$74
+struct anonymous_74
 {
   // reason
   signed int reason;
@@ -4875,7 +4875,7 @@ struct anonymous$74
   signed int item_position;
 };
 
-struct anonymous$83
+struct anonymous_83
 {
   // reason
   signed int reason;
@@ -4887,7 +4887,7 @@ struct anonymous$83
   signed int length;
 };
 
-struct anonymous$87
+struct anonymous_87
 {
   // reason
   signed int reason;
@@ -4911,7 +4911,7 @@ struct anonymous$87
   signed int pattern_length;
 };
 
-struct anonymous$57
+struct anonymous_57
 {
   // reason
   signed int reason;
@@ -4921,7 +4921,7 @@ struct anonymous$57
   signed int set;
 };
 
-struct anonymous$66
+struct anonymous_66
 {
   // reason
   signed int reason;
@@ -4957,7 +4957,7 @@ struct anonymous$66
   unsigned long int length;
 };
 
-struct anonymous$59
+struct anonymous_59
 {
   // screen_number
   signed int screen_number;
@@ -4971,7 +4971,7 @@ struct anonymous$59
   signed short int height;
 };
 
-struct anonymous$100
+struct anonymous_100
 {
   // si_pid
   signed int si_pid;
@@ -4979,7 +4979,7 @@ struct anonymous$100
   unsigned int si_uid;
 };
 
-struct anonymous$103
+struct anonymous_103
 {
   // si_pid
   signed int si_pid;
@@ -5001,7 +5001,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$102
+struct anonymous_102
 {
   // si_pid
   signed int si_pid;
@@ -5011,7 +5011,7 @@ struct anonymous$102
   union sigval si_sigval;
 };
 
-struct anonymous$101
+struct anonymous_101
 {
   // si_tid
   signed int si_tid;
@@ -5021,7 +5021,7 @@ struct anonymous$101
   union sigval si_sigval;
 };
 
-struct anonymous$105
+struct anonymous_105
 {
   // si_band
   signed long int si_band;
@@ -5029,27 +5029,27 @@ struct anonymous$105
   signed int si_fd;
 };
 
-union anonymous$107
+union anonymous_107
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$100 _kill;
+  struct anonymous_100 _kill;
   // _timer
-  struct anonymous$101 _timer;
+  struct anonymous_101 _timer;
   // _rt
-  struct anonymous$102 _rt;
+  struct anonymous_102 _rt;
   // _sigchld
-  struct anonymous$103 _sigchld;
+  struct anonymous_103 _sigchld;
   // _sigfault
-  struct anonymous$104 _sigfault;
+  struct anonymous_104 _sigfault;
   // _sigpoll
-  struct anonymous$105 _sigpoll;
+  struct anonymous_105 _sigpoll;
   // _sigsys
-  struct anonymous$106 _sigsys;
+  struct anonymous_106 _sigsys;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_signo
   signed int si_signo;
@@ -5058,7 +5058,7 @@ struct anonymous$19
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$107 _sifields;
+  union anonymous_107 _sifields;
 };
 
 struct anonymous
@@ -5079,7 +5079,7 @@ struct anonymous
   unsigned char minor_code;
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // type
   signed int type;
@@ -5095,7 +5095,7 @@ struct anonymous$54
   signed int evtype;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // type
   signed int type;
@@ -5115,7 +5115,7 @@ struct anonymous$55
   void *data;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // type
   signed int type;
@@ -5133,7 +5133,7 @@ struct anonymous$32
   signed int minor_code;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // type
   signed int type;
@@ -5161,7 +5161,7 @@ struct anonymous$31
   signed int minor_code;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
   signed int type;
@@ -5177,7 +5177,7 @@ struct anonymous$35
   unsigned long int window;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // type
   signed int type;
@@ -5195,7 +5195,7 @@ struct anonymous$36
   signed int from_configure;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // type
   signed int type;
@@ -5213,7 +5213,7 @@ struct anonymous$37
   signed int override_redirect;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // type
   signed int type;
@@ -5231,7 +5231,7 @@ struct anonymous$44
   signed int place;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // type
   signed int type;
@@ -5251,7 +5251,7 @@ struct anonymous$41
   signed int y;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // type
   signed int type;
@@ -5281,7 +5281,7 @@ struct anonymous$40
   signed int override_redirect;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // type
   signed int type;
@@ -5305,7 +5305,7 @@ struct anonymous$39
   signed int override_redirect;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // type
   signed int type;
@@ -5329,7 +5329,7 @@ struct anonymous$48
   unsigned long int time;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
   signed int type;
@@ -5345,7 +5345,7 @@ struct anonymous$38
   unsigned long int window;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // type
   signed int type;
@@ -5363,7 +5363,7 @@ struct anonymous$45
   signed int place;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // type
   signed int type;
@@ -5391,7 +5391,7 @@ struct anonymous$34
   signed int override_redirect;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // type
   signed int type;
@@ -5423,7 +5423,7 @@ struct anonymous$43
   unsigned long int value_mask;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // type
   signed int type;
@@ -5445,7 +5445,7 @@ struct anonymous$49
   unsigned long int time;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // type
   signed int type;
@@ -5459,7 +5459,7 @@ struct anonymous$24
   unsigned long int window;
 };
 
-struct anonymous$53
+struct anonymous_53
 {
   // type
   signed int type;
@@ -5475,7 +5475,7 @@ struct anonymous$53
   char key_vector[32l];
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // type
   signed int type;
@@ -5493,7 +5493,7 @@ struct anonymous$29
   signed int detail;
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // type
   signed int type;
@@ -5513,7 +5513,7 @@ struct anonymous$52
   signed int count;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // type
   signed int type;
@@ -5529,7 +5529,7 @@ struct anonymous$33
   signed int state;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // type
   signed int type;
@@ -5547,7 +5547,7 @@ struct anonymous$42
   signed int height;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // type
   signed int type;
@@ -5571,7 +5571,7 @@ struct anonymous$30
   signed int count;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // type
   signed int type;
@@ -5591,7 +5591,7 @@ struct anonymous$46
   signed int state;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // type
   signed int type;
@@ -5611,7 +5611,7 @@ struct anonymous$50
   signed int state;
 };
 
-union anonymous$118
+union anonymous_118
 {
   // b
   char b[20l];
@@ -5621,7 +5621,7 @@ union anonymous$118
   signed long int l[5l];
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // type
   signed int type;
@@ -5638,10 +5638,10 @@ struct anonymous$51
   // format
   signed int format;
   // data
-  union anonymous$118 data;
+  union anonymous_118 data;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // type
   signed int type;
@@ -5679,7 +5679,7 @@ struct anonymous$28
   unsigned int state;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // type
   signed int type;
@@ -5713,7 +5713,7 @@ struct anonymous$27
   signed int same_screen;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // type
   signed int type;
@@ -5747,7 +5747,7 @@ struct anonymous$26
   signed int same_screen;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // type
   signed int type;
@@ -5781,7 +5781,7 @@ struct anonymous$25
   signed int same_screen;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // type
   signed int type;
@@ -5799,7 +5799,7 @@ struct anonymous$47
   unsigned long int time;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // width
   signed int width;
@@ -5811,7 +5811,7 @@ struct anonymous$20
   signed int mheight;
 };
 
-struct anonymous$117
+struct anonymous_117
 {
   // x
   signed int x;
@@ -5826,7 +5826,7 @@ struct anonymous$117
   // depth
   signed int depth;
   // visual
-  struct anonymous$8 *visual;
+  struct anonymous_8 *visual;
   // root
   unsigned long int root;
   // class
@@ -5858,10 +5858,10 @@ struct anonymous$117
   // override_redirect
   signed int override_redirect;
   // screen
-  struct anonymous$0 *screen;
+  struct anonymous_0 *screen;
 };
 
-struct anonymous$60
+struct anonymous_60
 {
   // y0
   signed int y0;
@@ -5871,7 +5871,7 @@ struct anonymous$60
   signed int roll;
 };
 
-struct anonymous$92
+struct anonymous_92
 {
   // time
   signed long int time;
@@ -5880,16 +5880,16 @@ struct anonymous$92
   // seconds_east_valid
   signed int seconds_east_valid;
   // dst_state
-  enum anonymous$91 dst_state;
+  enum anonymous_91 dst_state;
 };
 
-struct anonymous$73
+struct anonymous_73
 {
   // ts
   signed long int ts;
 };
 
-struct anonymous$69
+struct anonymous_69
 {
   // ts
   signed long int ts;
@@ -5899,7 +5899,7 @@ struct anonymous$69
   signed int twice;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // depth
   char depth;
@@ -5907,20 +5907,20 @@ struct anonymous$4
   unsigned long int visual_id;
 };
 
-struct anonymous$90
+struct anonymous_90
 {
   // mode
-  enum anonymous$89 mode;
+  enum anonymous_89 mode;
   // language
   unsigned char *language;
 };
 
-struct anonymous$79
+struct anonymous_79
 {
   // channel
-  enum anonymous$77 channel;
+  enum anonymous_77 channel;
   // cni_type
-  enum anonymous$76 cni_type;
+  enum anonymous_76 cni_type;
   // cni
   unsigned int cni;
   // pil
@@ -5932,7 +5932,7 @@ struct anonymous$79
   // prf
   signed int prf;
   // pcs_audio
-  enum anonymous$78 pcs_audio;
+  enum anonymous_78 pcs_audio;
   // pty
   unsigned int pty;
   // tape_delayed
@@ -5943,7 +5943,7 @@ struct anonymous$79
   signed int _reserved3[4l];
 };
 
-struct anonymous$64
+struct anonymous_64
 {
   // hdisplay
   unsigned short int hdisplay;
@@ -5971,7 +5971,7 @@ struct anonymous$64
   signed int *private;
 };
 
-struct anonymous$113
+struct anonymous_113
 {
   // red
   unsigned short int red;
@@ -5983,7 +5983,7 @@ struct anonymous$113
   unsigned short int alpha;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // dotclock
   unsigned int dotclock;
@@ -6013,7 +6013,7 @@ struct anonymous$15
   signed int *private;
 };
 
-struct anonymous$98
+struct anonymous_98
 {
   // id
   unsigned int id;
@@ -6023,7 +6023,7 @@ struct anonymous$98
   unsigned char data[56l];
 };
 
-struct anonymous$80
+struct anonymous_80
 {
   // nuid
   unsigned int nuid;
@@ -6045,7 +6045,7 @@ struct anonymous$80
   signed int cycle;
 };
 
-struct anonymous$135
+struct anonymous_135
 {
   // background_pixmap
   unsigned long int background_pixmap;
@@ -6079,7 +6079,7 @@ struct anonymous$135
   unsigned long int cursor;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // base_id
   unsigned long int base_id;
@@ -6092,12 +6092,12 @@ struct anonymous$5
   // num_formats
   unsigned long int num_formats;
   // formats
-  struct anonymous$4 *formats;
+  struct anonymous_4 *formats;
   // num_adaptors
   unsigned long int num_adaptors;
 };
 
-struct anonymous$111
+struct anonymous_111
 {
   // encoding_id
   unsigned long int encoding_id;
@@ -6108,12 +6108,12 @@ struct anonymous$111
   // height
   unsigned long int height;
   // rate
-  struct anonymous$110 rate;
+  struct anonymous_110 rate;
   // num_encodings
   unsigned long int num_encodings;
 };
 
-struct anonymous$119
+struct anonymous_119
 {
   // name
   unsigned long int name;
@@ -6121,7 +6121,7 @@ struct anonymous$119
   unsigned long int card32;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // pixel
   unsigned long int pixel;
@@ -6137,7 +6137,7 @@ struct anonymous$22
   char pad;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // shmseg
   unsigned long int shmseg;
@@ -6149,12 +6149,12 @@ struct anonymous$2
   signed int readOnly;
 };
 
-struct anonymous$133
+struct anonymous_133
 {
   // valuemask
   unsigned long int valuemask;
   // visual
-  struct anonymous$8 *visual;
+  struct anonymous_8 *visual;
   // colormap
   unsigned long int colormap;
   // depth
@@ -6174,7 +6174,7 @@ struct anonymous$133
   // npixels
   unsigned int npixels;
   // colorsymbols
-  struct anonymous$130 *colorsymbols;
+  struct anonymous_130 *colorsymbols;
   // numsymbols
   unsigned int numsymbols;
   // rgb_fname
@@ -6182,11 +6182,11 @@ struct anonymous$133
   // nextensions
   unsigned int nextensions;
   // extensions
-  struct anonymous$131 *extensions;
+  struct anonymous_131 *extensions;
   // ncolors
   unsigned int ncolors;
   // colorTable
-  struct anonymous$132 *colorTable;
+  struct anonymous_132 *colorTable;
   // hints_cmt
   char *hints_cmt;
   // colors_cmt
@@ -6216,14 +6216,14 @@ struct anonymous$133
   // bitmap_format
   signed int bitmap_format;
   // alloc_color
-  signed int (*alloc_color)(struct _XDisplay *, unsigned long int, char *, struct anonymous$22 *, void *);
+  signed int (*alloc_color)(struct _XDisplay *, unsigned long int, char *, struct anonymous_22 *, void *);
   // free_colors
   signed int (*free_colors)(struct _XDisplay *, unsigned long int, unsigned long int *, signed int, void *);
   // color_closure
   void *color_closure;
 };
 
-struct anonymous$114
+struct anonymous_114
 {
   // byte1
   unsigned char byte1;
@@ -6231,15 +6231,15 @@ struct anonymous$114
   unsigned char byte2;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$19 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_19 *, void *);
 };
 
-union anonymous$56
+union anonymous_56
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -6249,7 +6249,7 @@ union anonymous$56
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$121
+union anonymous_121
 {
   // __size
   char __size[4l];
@@ -6257,7 +6257,7 @@ union anonymous$121
   signed int __align;
 };
 
-union anonymous$129
+union anonymous_129
 {
   // i
   signed int i[8l];
@@ -6289,7 +6289,7 @@ struct snd_seq_queue_skew
   unsigned int base;
 };
 
-union anonymous$99
+union anonymous_99
 {
   // value
   signed int value;
@@ -6305,34 +6305,34 @@ union anonymous$99
   unsigned char d8[8l];
 };
 
-union anonymous$72
+union anonymous_72
 {
   // __data
-  struct anonymous$71 __data;
+  struct anonymous_71 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$95
+union anonymous_95
 {
   // ttx_page
-  struct anonymous$93 ttx_page;
+  struct anonymous_93 ttx_page;
   // caption
-  struct anonymous$94 caption;
+  struct anonymous_94 caption;
   // network
-  struct anonymous$80 network;
+  struct anonymous_80 network;
   // trigger
   struct vbi_link *trigger;
   // aspect
-  struct anonymous$85 aspect;
+  struct anonymous_85 aspect;
   // prog_info
   struct vbi_program_info *prog_info;
   // local_time
-  struct anonymous$92 *local_time;
+  struct anonymous_92 *local_time;
   // prog_id
-  struct anonymous$79 *prog_id;
+  struct anonymous_79 *prog_id;
   // _cc608
   struct _vbi_event_cc608_page *_cc608;
   // _cc608_stream
@@ -6367,7 +6367,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$70
+union anonymous_70
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -6430,7 +6430,7 @@ struct snd_seq_ev_queue_control
   // unused
   unsigned char unused[3l];
   // param
-  union anonymous$99 param;
+  union anonymous_99 param;
 };
 
 struct snd_seq_addr
@@ -6457,7 +6457,7 @@ struct snd_seq_result
   signed int result;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // note
   struct snd_seq_ev_note note;
@@ -6481,7 +6481,7 @@ union anonymous$21
   struct snd_seq_result result;
 };
 
-union anonymous$58
+union anonymous_58
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -6511,7 +6511,7 @@ union anonymous$58
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$65
+union anonymous_65
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -6742,9 +6742,9 @@ struct FIFO
   // writers
   signed int writers;
   // lock
-  union anonymous$70 lock;
+  union anonymous_70 lock;
   // hasdata
-  union anonymous$72 hasdata;
+  union anonymous_72 hasdata;
 };
 
 struct FILE_DATA
@@ -6852,9 +6852,9 @@ struct WAVEHDR
 struct WEBCAM
 {
   // lock
-  union anonymous$70 lock;
+  union anonymous_70 lock;
   // wait
-  union anonymous$72 wait;
+  union anonymous_72 wait;
   // filename
   char *filename;
   // buf
@@ -6948,71 +6948,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$24 xany;
+  struct anonymous_24 xany;
   // xkey
-  struct anonymous$25 xkey;
+  struct anonymous_25 xkey;
   // xbutton
-  struct anonymous$26 xbutton;
+  struct anonymous_26 xbutton;
   // xmotion
-  struct anonymous$27 xmotion;
+  struct anonymous_27 xmotion;
   // xcrossing
-  struct anonymous$28 xcrossing;
+  struct anonymous_28 xcrossing;
   // xfocus
-  struct anonymous$29 xfocus;
+  struct anonymous_29 xfocus;
   // xexpose
-  struct anonymous$30 xexpose;
+  struct anonymous_30 xexpose;
   // xgraphicsexpose
-  struct anonymous$31 xgraphicsexpose;
+  struct anonymous_31 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$32 xnoexpose;
+  struct anonymous_32 xnoexpose;
   // xvisibility
-  struct anonymous$33 xvisibility;
+  struct anonymous_33 xvisibility;
   // xcreatewindow
-  struct anonymous$34 xcreatewindow;
+  struct anonymous_34 xcreatewindow;
   // xdestroywindow
-  struct anonymous$35 xdestroywindow;
+  struct anonymous_35 xdestroywindow;
   // xunmap
-  struct anonymous$36 xunmap;
+  struct anonymous_36 xunmap;
   // xmap
-  struct anonymous$37 xmap;
+  struct anonymous_37 xmap;
   // xmaprequest
-  struct anonymous$38 xmaprequest;
+  struct anonymous_38 xmaprequest;
   // xreparent
-  struct anonymous$39 xreparent;
+  struct anonymous_39 xreparent;
   // xconfigure
-  struct anonymous$40 xconfigure;
+  struct anonymous_40 xconfigure;
   // xgravity
-  struct anonymous$41 xgravity;
+  struct anonymous_41 xgravity;
   // xresizerequest
-  struct anonymous$42 xresizerequest;
+  struct anonymous_42 xresizerequest;
   // xconfigurerequest
-  struct anonymous$43 xconfigurerequest;
+  struct anonymous_43 xconfigurerequest;
   // xcirculate
-  struct anonymous$44 xcirculate;
+  struct anonymous_44 xcirculate;
   // xcirculaterequest
-  struct anonymous$45 xcirculaterequest;
+  struct anonymous_45 xcirculaterequest;
   // xproperty
-  struct anonymous$46 xproperty;
+  struct anonymous_46 xproperty;
   // xselectionclear
-  struct anonymous$47 xselectionclear;
+  struct anonymous_47 xselectionclear;
   // xselectionrequest
-  struct anonymous$48 xselectionrequest;
+  struct anonymous_48 xselectionrequest;
   // xselection
-  struct anonymous$49 xselection;
+  struct anonymous_49 xselection;
   // xcolormap
-  struct anonymous$50 xcolormap;
+  struct anonymous_50 xcolormap;
   // xclient
-  struct anonymous$51 xclient;
+  struct anonymous_51 xclient;
   // xmapping
-  struct anonymous$52 xmapping;
+  struct anonymous_52 xmapping;
   // xerror
   struct anonymous xerror;
   // xkeymap
-  struct anonymous$53 xkeymap;
+  struct anonymous_53 xkeymap;
   // xgeneric
-  struct anonymous$54 xgeneric;
+  struct anonymous_54 xgeneric;
   // xcookie
-  struct anonymous$55 xcookie;
+  struct anonymous_55 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -7032,7 +7032,7 @@ struct _XExtData
 struct funcs
 {
   // create_image
-  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous$8 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous_8 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
   // destroy_image
   signed int (*destroy_image)(struct _XImage *);
   // get_pixel
@@ -7088,7 +7088,7 @@ struct _XftColor
   // pixel
   unsigned long int pixel;
   // color
-  struct anonymous$113 color;
+  struct anonymous_113 color;
 };
 
 struct _XftFont
@@ -7216,11 +7216,11 @@ struct ng_video_buf
   // data
   unsigned char *data;
   // info
-  struct anonymous$69 info;
+  struct anonymous_69 info;
   // lock
-  union anonymous$70 lock;
+  union anonymous_70 lock;
   // cond
-  union anonymous$72 cond;
+  union anonymous_72 cond;
   // refcount
   signed int refcount;
   // release
@@ -7250,7 +7250,7 @@ struct blit_state
   // gc
   struct _XGC *gc;
   // vinfo
-  struct anonymous$1 *vinfo;
+  struct anonymous_1 *vinfo;
   // fmt
   struct ng_video_fmt fmt;
   // buf
@@ -7260,11 +7260,11 @@ struct blit_state
   // chandle
   struct ng_convert_handle *chandle;
   // shm
-  struct anonymous$2 *shm;
+  struct anonymous_2 *shm;
   // ximage
   struct _XImage *ximage;
   // xvimage
-  struct anonymous$3 *xvimage;
+  struct anonymous_3 *xvimage;
   // tex
   signed int tex;
   // tw
@@ -7358,7 +7358,7 @@ struct final_params
 struct in6_addr
 {
   // __in6_u
-  union anonymous$56 __in6_u;
+  union anonymous_56 __in6_u;
 };
 
 struct in_addr
@@ -7468,7 +7468,7 @@ struct jpeg_compress_struct
   // input_components
   signed int input_components;
   // in_color_space
-  enum anonymous$123 in_color_space;
+  enum anonymous_123 in_color_space;
   // input_gamma
   double input_gamma;
   // data_precision
@@ -7476,15 +7476,15 @@ struct jpeg_compress_struct
   // num_components
   signed int num_components;
   // jpeg_color_space
-  enum anonymous$123 jpeg_color_space;
+  enum anonymous_123 jpeg_color_space;
   // comp_info
-  struct anonymous$124 *comp_info;
+  struct anonymous_124 *comp_info;
   // quant_tbl_ptrs
-  struct anonymous$125 *quant_tbl_ptrs[4l];
+  struct anonymous_125 *quant_tbl_ptrs[4l];
   // dc_huff_tbl_ptrs
-  struct anonymous$126 *dc_huff_tbl_ptrs[4l];
+  struct anonymous_126 *dc_huff_tbl_ptrs[4l];
   // ac_huff_tbl_ptrs
-  struct anonymous$126 *ac_huff_tbl_ptrs[4l];
+  struct anonymous_126 *ac_huff_tbl_ptrs[4l];
   // arith_dc_L
   unsigned char arith_dc_L[16l];
   // arith_dc_U
@@ -7494,7 +7494,7 @@ struct jpeg_compress_struct
   // num_scans
   signed int num_scans;
   // scan_info
-  const struct anonymous$127 *scan_info;
+  const struct anonymous_127 *scan_info;
   // raw_data_in
   signed int raw_data_in;
   // arith_code
@@ -7506,7 +7506,7 @@ struct jpeg_compress_struct
   // smoothing_factor
   signed int smoothing_factor;
   // dct_method
-  enum anonymous$128 dct_method;
+  enum anonymous_128 dct_method;
   // restart_interval
   unsigned int restart_interval;
   // restart_in_rows
@@ -7538,7 +7538,7 @@ struct jpeg_compress_struct
   // comps_in_scan
   signed int comps_in_scan;
   // cur_comp_info
-  struct anonymous$124 *cur_comp_info[4l];
+  struct anonymous_124 *cur_comp_info[4l];
   // MCUs_per_row
   unsigned int MCUs_per_row;
   // MCU_rows_in_scan
@@ -7574,7 +7574,7 @@ struct jpeg_compress_struct
   // entropy
   struct jpeg_entropy_encoder *entropy;
   // script_space
-  struct anonymous$127 *script_space;
+  struct anonymous_127 *script_space;
   // script_space_size
   signed int script_space_size;
 };
@@ -7608,7 +7608,7 @@ struct jpeg_error_mgr
   // msg_code
   signed int msg_code;
   // msg_parm
-  union anonymous$129 msg_parm;
+  union anonymous_129 msg_parm;
   // trace_level
   signed int trace_level;
   // num_warnings
@@ -7796,7 +7796,7 @@ struct ng_convthread_handle
 struct movie_handle
 {
   // lock
-  union anonymous$70 lock;
+  union anonymous_70 lock;
   // writer
   struct ng_writer *writer;
   // handle
@@ -7896,7 +7896,7 @@ struct ng_audio_buf
   // data
   char *data;
   // info
-  struct anonymous$73 info;
+  struct anonymous_73 info;
 };
 
 struct ng_audio_conv
@@ -8234,9 +8234,9 @@ struct shmid_ds
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$18 __sigaction_handler;
+  union anonymous_18 __sigaction_handler;
   // sa_mask
-  struct anonymous$16 sa_mask;
+  struct anonymous_16 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -8260,7 +8260,7 @@ struct snd_seq_event
   // dest
   struct snd_seq_addr dest;
   // data
-  union anonymous$21 data;
+  union anonymous_21 data;
 };
 
 struct sockaddr
@@ -8482,7 +8482,7 @@ struct vbi_event
   // type
   signed int type;
   // ev
-  union anonymous$95 ev;
+  union anonymous_95 ev;
 };
 
 struct vbi_font
@@ -8498,7 +8498,7 @@ struct vbi_font
 struct vbi_link
 {
   // type
-  enum anonymous$81 type;
+  enum anonymous_81 type;
   // eacem
   signed int eacem;
   // name
@@ -8516,7 +8516,7 @@ struct vbi_link
   // expires
   double expires;
   // itv_type
-  enum anonymous$82 itv_type;
+  enum anonymous_82 itv_type;
   // priority
   signed int priority;
   // autoload
@@ -8540,11 +8540,11 @@ struct vbi_page
   // text
   struct vbi_char text[1056l];
   // dirty
-  struct anonymous$60 dirty;
+  struct anonymous_60 dirty;
   // screen_color
-  enum anonymous$61 screen_color;
+  enum anonymous_61 screen_color;
   // screen_opacity
-  enum anonymous$62 screen_opacity;
+  enum anonymous_62 screen_opacity;
   // color_map
   unsigned int color_map[40l];
   // drcs_clut
@@ -8552,7 +8552,7 @@ struct vbi_page
   // drcs
   unsigned char *drcs[32l];
   // nav_link
-  struct anonymous$63 nav_link[6l];
+  struct anonymous_63 nav_link[6l];
   // nav_index
   char nav_index[64l];
   // font
@@ -8560,9 +8560,9 @@ struct vbi_page
   // double_height_lower
   unsigned int double_height_lower;
   // page_opacity
-  enum anonymous$62 page_opacity[2l];
+  enum anonymous_62 page_opacity[2l];
   // boxed_opacity
-  enum anonymous$62 boxed_opacity[2l];
+  enum anonymous_62 boxed_opacity[2l];
 };
 
 struct vbi_program_info
@@ -8592,17 +8592,17 @@ struct vbi_program_info
   // title
   signed char title[64l];
   // type_classf
-  enum anonymous$88 type_classf;
+  enum anonymous_88 type_classf;
   // type_id
   signed int type_id[33l];
   // rating_auth
-  enum anonymous$86 rating_auth;
+  enum anonymous_86 rating_auth;
   // rating_id
   signed int rating_id;
   // rating_dlsv
   signed int rating_dlsv;
   // audio
-  struct anonymous$90 audio[2l];
+  struct anonymous_90 audio[2l];
   // caption_services
   signed int caption_services;
   // caption_language
@@ -8610,7 +8610,7 @@ struct vbi_program_info
   // cgms_a
   signed int cgms_a;
   // aspect
-  struct anonymous$85 aspect;
+  struct anonymous_85 aspect;
   // description
   signed char description[8l][33l];
 };
@@ -8620,7 +8620,7 @@ struct vbi_raw_decoder
   // scanning
   signed int scanning;
   // sampling_format
-  enum anonymous$97 sampling_format;
+  enum anonymous_97 sampling_format;
   // sampling_rate
   signed int sampling_rate;
   // bytes_per_line
@@ -8636,7 +8636,7 @@ struct vbi_raw_decoder
   // synchronous
   signed int synchronous;
   // mutex
-  union anonymous$70 mutex;
+  union anonymous_70 mutex;
   // services
   unsigned int services;
   // num_jobs
@@ -8668,7 +8668,7 @@ struct vbi_state
   // par
   struct vbi_raw_decoder *par;
   // sliced
-  struct anonymous$98 *sliced;
+  struct anonymous_98 *sliced;
   // raw
   unsigned char *raw;
   // err
@@ -8704,9 +8704,9 @@ struct vbi_window
   // gc
   struct _XGC *gc;
   // font1
-  struct anonymous$14 *font1;
+  struct anonymous_14 *font1;
   // font2
-  struct anonymous$14 *font2;
+  struct anonymous_14 *font2;
   // w
   signed int w;
   // a
@@ -8972,15 +8972,15 @@ static struct _XtActionsRec actionTable[16l] = { { .string="CloseMain", .proc=Cl
 // adaptors
 // file x11/blit.c line 50
 static signed int adaptors;
-// adaptors$link1
+// adaptors_link1
 // file x11/xv.c line 38
-static signed int adaptors$link1;
+static signed int adaptors_link1;
 // ai
 // file x11/blit.c line 52
-static struct anonymous$5 *ai;
-// ai$link1
+static struct anonymous_5 *ai;
+// ai_link1
 // file x11/xv.c line 40
-static struct anonymous$5 *ai$link1;
+static struct anonymous_5 *ai_link1;
 // alloc_count
 // file common/channel.c line 66
 signed int alloc_count = 0;
@@ -9168,7 +9168,7 @@ struct _XtResource args_desc[30l] = { { .resource_name="device", .resource_class
     .default_addr=(void *)"0" } };
 // at
 // file x11/xv.c line 42
-static struct anonymous$112 *at;
+static struct anonymous_112 *at;
 // attr_notify
 // file common/commands.c line 46
 void (*attr_notify)(struct ng_attribute *, signed int);
@@ -9360,12 +9360,12 @@ static struct ng_video_conv conv_list[12l] = { { .fmtid_in=(unsigned int)5, .fmt
     { .fmtid_in=(unsigned int)7, .fmtid_out=(unsigned int)10, .init=ng_packed_init,
     .frame=ng_packed_frame, .fini=ng_conv_nop_fini,
     .priv=(void *)bgr24_to_rgb32, .list={ .next=((struct list_head *)NULL), .prev=((struct list_head *)NULL) } } };
-// conv_list$link1
+// conv_list_link1
 // file libng/color_yuv2rgb.c line 384
-static struct ng_video_conv conv_list$link1[6l];
-// conv_list$link1
+static struct ng_video_conv conv_list_link1[6l];
+// conv_list_link1
 // file libng/color_yuv2rgb.c line 384
-static struct ng_video_conv conv_list$link1[6l] = { { .fmtid_in=(unsigned int)13, .fmtid_out=(unsigned int)9, .init=ng_packed_init,
+static struct ng_video_conv conv_list_link1[6l] = { { .fmtid_in=(unsigned int)13, .fmtid_out=(unsigned int)9, .init=ng_packed_init,
     .frame=ng_packed_frame, .fini=ng_conv_nop_fini,
     .priv=(void *)yuv422_to_rgb24, .list={ .next=((struct list_head *)NULL), .prev=((struct list_head *)NULL) } },
     { .fmtid_in=(unsigned int)13, .fmtid_out=(unsigned int)2, .init=ng_packed_init,
@@ -9464,22 +9464,22 @@ static struct _WidgetRec *driver_option;
 struct ng_vid_driver *drv;
 // ei
 // file x11/xv.c line 41
-static struct anonymous$111 *ei;
+static struct anonymous_111 *ei;
 // err
 // file x11/blit.c line 48
 static signed int err;
-// err$link1
+// err_link1
 // file x11/xv.c line 37
-static signed int err$link1;
+static signed int err_link1;
 // error_fp
 // file common/alsa_stream.c line 52
 struct _IO_FILE *error_fp;
 // ev
 // file x11/blit.c line 48
 static signed int ev;
-// ev$link1
+// ev_link1
 // file x11/xv.c line 37
-static signed int ev$link1;
+static signed int ev_link1;
 // event_builtin_list
 // file common/event.c line 17
 static struct event_entry *event_builtin_list;
@@ -9845,7 +9845,7 @@ static struct SEARCHFORMAT fmt[15l] = { { .depth=(unsigned int)2, .order=1, .red
     .blue=0ul, .format=0u } };
 // fo
 // file x11/blit.c line 51
-static struct anonymous$6 *fo;
+static struct anonymous_6 *fo;
 // formats
 // file x11/blit.c line 49
 static signed int formats;
@@ -9881,7 +9881,7 @@ static signed int gl_attrib[9l] = { 4, 8, 1, 9, 1, 10, 1, 5, (signed int)0L };
 static signed int gl_error = 0;
 // gl_formats
 // file x11/blit.c line 508
-struct anonymous$9 gl_formats[19l] = { { .fmt=0, .type=0, .ext=((char *)NULL) },
+struct anonymous_9 gl_formats[19l] = { { .fmt=0, .type=0, .ext=((char *)NULL) },
     { .fmt=0, .type=0, .ext=((char *)NULL) },
     { .fmt=0, .type=0, .ext=((char *)NULL) },
     { .fmt=0, .type=0, .ext=((char *)NULL) },
@@ -10288,9 +10288,9 @@ static struct MY_TOPLEVELS my_toplevels[5l] = { { .name="control", .shell=&contr
 // nconv
 // file libng/color_packed.c line 255
 static const signed int nconv = (const signed int)(sizeof(struct ng_video_conv [12l]) /*672ul*/  / sizeof(struct ng_video_conv) /*56ul*/ );
-// nconv$link1
+// nconv_link1
 // file libng/color_yuv2rgb.c line 421
-static const signed int nconv$link1 = (const signed int)(sizeof(struct ng_video_conv [6l]) /*336ul*/  / sizeof(struct ng_video_conv) /*56ul*/ );
+static const signed int nconv_link1 = (const signed int)(sizeof(struct ng_video_conv [6l]) /*336ul*/  / sizeof(struct ng_video_conv) /*56ul*/ );
 // nconv2
 // file libng/color_lut.c line 237
 static const unsigned int nconv2 = (const unsigned int)(sizeof(struct ng_video_conv [8l]) /*448ul*/  / sizeof(struct ng_video_conv) /*56ul*/ );
@@ -10461,82 +10461,82 @@ struct _WidgetRec *on_shell;
 static unsigned long int on_timer;
 // opt_count
 // file x11/xt.c line 340
-const signed int opt_count = (const signed int)(sizeof(struct anonymous$13 [48l]) /*1536ul*/  / sizeof(struct anonymous$13) /*32ul*/ );
+const signed int opt_count = (const signed int)(sizeof(struct anonymous_13 [48l]) /*1536ul*/  / sizeof(struct anonymous_13) /*32ul*/ );
 // opt_desc
 // file x11/xt.c line 282
-struct anonymous$13 opt_desc[48l] = { { .option="-c", .specifier="device", .argKind=(enum anonymous$12)XrmoptionSepArg, .value=(char *)(void *)0 },
-    { .option="-device", .specifier="device", .argKind=(enum anonymous$12)XrmoptionSepArg,
+struct anonymous_13 opt_desc[48l] = { { .option="-c", .specifier="device", .argKind=(enum anonymous_12)XrmoptionSepArg, .value=(char *)(void *)0 },
+    { .option="-device", .specifier="device", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-D", .specifier="driver", .argKind=(enum anonymous$12)XrmoptionSepArg, .value=(char *)(void *)0 },
-    { .option="-driver", .specifier="driver", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-D", .specifier="driver", .argKind=(enum anonymous_12)XrmoptionSepArg, .value=(char *)(void *)0 },
+    { .option="-driver", .specifier="driver", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-C", .specifier="dspdev", .argKind=(enum anonymous$12)XrmoptionSepArg, .value=(char *)(void *)0 },
-    { .option="-dspdev", .specifier="dspdev", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-C", .specifier="dspdev", .argKind=(enum anonymous_12)XrmoptionSepArg, .value=(char *)(void *)0 },
+    { .option="-dspdev", .specifier="dspdev", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-vbidev", .specifier="vbidev", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-vbidev", .specifier="vbidev", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-joydev", .specifier="joydev", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-joydev", .specifier="joydev", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-o", .specifier="basename", .argKind=(enum anonymous$12)XrmoptionSepArg, .value=(char *)(void *)0 },
-    { .option="-outfile", .specifier="basename", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-o", .specifier="basename", .argKind=(enum anonymous_12)XrmoptionSepArg, .value=(char *)(void *)0 },
+    { .option="-outfile", .specifier="basename", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-conffile", .specifier="conffile", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-conffile", .specifier="conffile", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-v", .specifier="debug", .argKind=(enum anonymous$12)XrmoptionSepArg, .value=(char *)(void *)0 },
-    { .option="-debug", .specifier="debug", .argKind=(enum anonymous$12)XrmoptionSepArg, .value=(char *)(void *)0 },
-    { .option="-b", .specifier="bpp", .argKind=(enum anonymous$12)XrmoptionSepArg, .value=(char *)(void *)0 },
-    { .option="-bpp", .specifier="bpp", .argKind=(enum anonymous$12)XrmoptionSepArg, .value=(char *)(void *)0 },
-    { .option="-shift", .specifier="shift", .argKind=(enum anonymous$12)XrmoptionSepArg, .value=(char *)(void *)0 },
-    { .option="-xvport", .specifier="xvport", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-v", .specifier="debug", .argKind=(enum anonymous_12)XrmoptionSepArg, .value=(char *)(void *)0 },
+    { .option="-debug", .specifier="debug", .argKind=(enum anonymous_12)XrmoptionSepArg, .value=(char *)(void *)0 },
+    { .option="-b", .specifier="bpp", .argKind=(enum anonymous_12)XrmoptionSepArg, .value=(char *)(void *)0 },
+    { .option="-bpp", .specifier="bpp", .argKind=(enum anonymous_12)XrmoptionSepArg, .value=(char *)(void *)0 },
+    { .option="-shift", .specifier="shift", .argKind=(enum anonymous_12)XrmoptionSepArg, .value=(char *)(void *)0 },
+    { .option="-xvport", .specifier="xvport", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-parallel", .specifier="parallel", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-parallel", .specifier="parallel", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-bufcount", .specifier="bufcount", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-bufcount", .specifier="bufcount", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-alsa-cap", .specifier="alsa_cap", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-alsa-cap", .specifier="alsa_cap", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-alsa-pb", .specifier="alsa_pb", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-alsa-pb", .specifier="alsa_pb", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-alsa-latency", .specifier="alsa_latency", .argKind=(enum anonymous$12)XrmoptionSepArg,
+    { .option="-alsa-latency", .specifier="alsa_latency", .argKind=(enum anonymous_12)XrmoptionSepArg,
     .value=(char *)(void *)0 },
-    { .option="-remote", .specifier="remote", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-remote", .specifier="remote", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="1" },
-    { .option="-n", .specifier="readconfig", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-n", .specifier="readconfig", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="0" },
-    { .option="-noconf", .specifier="readconfig", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-noconf", .specifier="readconfig", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="0" },
-    { .option="-f", .specifier="fullscreen", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-f", .specifier="fullscreen", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="1" },
-    { .option="-fullscreen", .specifier="fullscreen", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-fullscreen", .specifier="fullscreen", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="1" },
-    { .option="-hwscan", .specifier="hwscan", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-hwscan", .specifier="hwscan", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="1" },
-    { .option="-fb", .specifier="fbdev", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="1" },
-    { .option="-xv", .specifier="xv", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="1" },
-    { .option="-noxv", .specifier="xv", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="0" },
-    { .option="-xv-video", .specifier="xvVideo", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-fb", .specifier="fbdev", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="1" },
+    { .option="-xv", .specifier="xv", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="1" },
+    { .option="-noxv", .specifier="xv", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="0" },
+    { .option="-xv-video", .specifier="xvVideo", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="1" },
-    { .option="-noxv-video", .specifier="xvVideo", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-noxv-video", .specifier="xvVideo", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="0" },
-    { .option="-xv-image", .specifier="xvImage", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-xv-image", .specifier="xvImage", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="1" },
-    { .option="-noxv-image", .specifier="xvImage", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-noxv-image", .specifier="xvImage", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="0" },
-    { .option="-gl", .specifier="gl", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="1" },
-    { .option="-nogl", .specifier="gl", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="0" },
-    { .option="-alsa", .specifier="alsa", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="1" },
-    { .option="-noalsa", .specifier="alsa", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="0" },
-    { .option="-vm", .specifier="vidmode", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="1" },
-    { .option="-novm", .specifier="vidmode", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-gl", .specifier="gl", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="1" },
+    { .option="-nogl", .specifier="gl", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="0" },
+    { .option="-alsa", .specifier="alsa", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="1" },
+    { .option="-noalsa", .specifier="alsa", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="0" },
+    { .option="-vm", .specifier="vidmode", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="1" },
+    { .option="-novm", .specifier="vidmode", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="0" },
-    { .option="-dga", .specifier="dga", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="1" },
-    { .option="-nodga", .specifier="dga", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="0" },
-    { .option="-randr", .specifier="randr", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="1" },
-    { .option="-norandr", .specifier="randr", .argKind=(enum anonymous$12)XrmoptionNoArg,
+    { .option="-dga", .specifier="dga", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="1" },
+    { .option="-nodga", .specifier="dga", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="0" },
+    { .option="-randr", .specifier="randr", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="1" },
+    { .option="-norandr", .specifier="randr", .argKind=(enum anonymous_12)XrmoptionNoArg,
     .value="0" },
-    { .option="-h", .specifier="help", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="1" },
-    { .option="-help", .specifier="help", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="1" },
-    { .option="--help", .specifier="help", .argKind=(enum anonymous$12)XrmoptionNoArg, .value="1" } };
+    { .option="-h", .specifier="help", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="1" },
+    { .option="-help", .specifier="help", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="1" },
+    { .option="--help", .specifier="help", .argKind=(enum anonymous_12)XrmoptionNoArg, .value="1" } };
 // opt_menu
 // file x11/motv.c line 120
 static struct _WidgetRec *opt_menu;
@@ -10644,7 +10644,7 @@ static struct _WidgetRec *prop_name;
 unsigned long int qu_ptr;
 // randr
 // file x11/xt.c line 102
-struct anonymous$20 *randr;
+struct anonymous_20 *randr;
 // randr_evbase
 // file x11/xt.c line 104
 signed int randr_evbase;
@@ -10691,15 +10691,15 @@ static unsigned long int rec_work_id;
 // rel
 // file x11/blit.c line 48
 static signed int rel;
-// rel$link1
+// rel_link1
 // file x11/xv.c line 37
-static signed int rel$link1;
+static signed int rel_link1;
 // req
 // file x11/blit.c line 48
 static signed int req;
-// req$link1
+// req_link1
 // file x11/xv.c line 37
-static signed int req$link1;
+static signed int req_link1;
 // scan_timer
 // file x11/xt.c line 89
 unsigned long int scan_timer;
@@ -10777,7 +10777,7 @@ extern struct _WidgetClassRec *transientShellWidgetClass;
 struct _WidgetRec *tv;
 // tv_xpm
 // file x11/xpm/tv.xpm line 2
-static char *tv_xpm[42l] = { "32 32 9 1", " \tc none", ".\tc #000000000000", "X\tc #861782078617", "o\tc #FFFF82070000", "O\tc #FFFFFFFF0000", "+\tc #0000FFFF0000", "@\tc #0000FFFFFFFF", "#\tc #FFFF00000000", "$\tc #00000000FFFF", "                                ", "                                ", "                                ", "      ..             ..         ", "      ..X            ..X        ", "       X.           .XXX        ", "         .         .X           ", "          .       .X            ", "           .     .X             ", "            .   .X              ", "             . .X               ", "    ......................      ", "    ......................X     ", "    ......ooOOO+++@@......XX    ", "    ...##oooOOO+++@@@$$...XX    ", "    ..###oooOOO+++@@@$$$..XX    ", "    ..###oooOOO+++@@@$$$..XX    ", "    ..###oooOOO+++@@@$$$..XX    ", "    ..###oooOOO+++@@@$$$..XX    ", "    ..###oooOOO+++@@@$$$..XX    ", "    ..###oooOOO+++@@@$$$$.XX    ", "    ..###oooOOO+++@@@$$$..XX    ", "    ...##oooOOO+++@@@$$...XX    ", "    ......ooOOO+++@@......XX    ", "    ......................XX    ", "    ......................XX    ", "     XXXXXXXXXXXXXXXXXXXXXXX    ", "      XXXXXXXXXXXXXXXXXXXXXX    ", "                                ", "                                ", "                                ", "                                " };
+static char *tv_xpm[42l] = { "32 32 9 1", " \tc none", ".\tc #000000000000", "X\tc #861782078617", "o\tc #FFFF82070000", "O\tc #FFFFFFFF0000", "+\tc #0000FFFF0000", "@\tc #0000FFFFFFFF", "#\tc #FFFF00000000", "_\tc #00000000FFFF", "                                ", "                                ", "                                ", "      ..             ..         ", "      ..X            ..X        ", "       X.           .XXX        ", "         .         .X           ", "          .       .X            ", "           .     .X             ", "            .   .X              ", "             . .X               ", "    ......................      ", "    ......................X     ", "    ......ooOOO+++@@......XX    ", "    ...##oooOOO+++@@@__...XX    ", "    ..###oooOOO+++@@@___..XX    ", "    ..###oooOOO+++@@@___..XX    ", "    ..###oooOOO+++@@@___..XX    ", "    ..###oooOOO+++@@@___..XX    ", "    ..###oooOOO+++@@@___..XX    ", "    ..###oooOOO+++@@@____.XX    ", "    ..###oooOOO+++@@@___..XX    ", "    ...##oooOOO+++@@@__...XX    ", "    ......ooOOO+++@@......XX    ", "    ......................XX    ", "    ......................XX    ", "     XXXXXXXXXXXXXXXXXXXXXXX    ", "      XXXXXXXXXXXXXXXXXXXXXX    ", "                                ", "                                ", "                                ", "                                " };
 // tweb
 // file common/webcam.c line 105
 static unsigned long int tweb;
@@ -10809,9 +10809,9 @@ static signed int vdr_sock = -1;
 // ver
 // file x11/blit.c line 48
 static signed int ver;
-// ver$link1
+// ver_link1
 // file x11/xv.c line 37
-static signed int ver$link1;
+static signed int ver_link1;
 // verbose
 // file common/alsa_stream.c line 53
 signed int verbose = 0;
@@ -10832,7 +10832,7 @@ static struct _WidgetRec *video_option;
 static struct _WidgetRec *video_parent;
 // vinfo
 // file x11/xt.c line 78
-struct anonymous$1 vinfo;
+struct anonymous_1 vinfo;
 // visibility
 // file x11/x11.c line 332
 static signed int visibility = 2;
@@ -10844,10 +10844,10 @@ signed int vm_count;
 signed int vm_dot;
 // vm_line
 // file x11/xt.c line 94
-struct anonymous$64 vm_line;
+struct anonymous_64 vm_line;
 // vm_modelines
 // file x11/xt.c line 93
-struct anonymous$15 **vm_modelines;
+struct anonymous_15 **vm_modelines;
 // volume_notify
 // file common/commands.c line 48
 void (*volume_notify)(void);
@@ -10910,7 +10910,7 @@ char x11_vbi_station[64l];
 static signed int xfree_dga_error_base;
 // xinerama
 // file x11/xt.c line 98
-struct anonymous$59 *xinerama;
+struct anonymous_59 *xinerama;
 // xmCascadeButtonWidgetClass
 // file /usr/include/Xm/CascadeB.h line 40
 extern struct _WidgetClassRec *xmCascadeButtonWidgetClass;
@@ -11036,15 +11036,15 @@ static signed int BadWindow_ehandler(struct _XDisplay *dpy, struct anonymous *er
 // file x11/xt.h line 132
 void CloseMainAction(struct _WidgetRec *widget, union _XEvent *event, char **params, unsigned int *num_params)
 {
-  char *return_value_XGetAtomName$1;
+  char *return_value_XGetAtomName_1;
   if(!(event == ((union _XEvent *)NULL)))
   {
     if(event->type == 33)
     {
       if(!(debug == 0))
       {
-        return_value_XGetAtomName$1=XGetAtomName(dpy, (unsigned long int)event->xclient.data.l[(signed long int)0]);
-        fprintf(stderr, "CloseMainAction: received %s message\n", return_value_XGetAtomName$1);
+        return_value_XGetAtomName_1=XGetAtomName(dpy, (unsigned long int)event->xclient.data.l[(signed long int)0]);
+        fprintf(stderr, "CloseMainAction: received %s message\n", return_value_XGetAtomName_1);
       }
 
       if(!((unsigned long int)event->xclient.data.l[0l] == WM_DELETE_WINDOW))
@@ -11090,25 +11090,25 @@ void CompleteAction(struct _WidgetRec *widget, union _XEvent *event, char **para
   fn2=strdup(fn + pos);
   fn[pos] = (char)0;
   expand=tilde_expand(fn);
-  signed int return_value_strncmp$3;
-  unsigned long int return_value_strlen$11;
-  unsigned long int return_value_strlen$12;
-  signed int return_value_strncmp$14;
+  signed int return_value_strncmp_3;
+  unsigned long int return_value_strlen_11;
+  unsigned long int return_value_strlen_12;
+  signed int return_value_strncmp_14;
   if(!(expand == ((char *)NULL)))
   {
     list = (char **)(void *)0;
     memset((void *)filename, 0, (unsigned long int)513);
     if((signed int)*expand == 126)
     {
-      char *return_value_strchr$1;
-      return_value_strchr$1=strchr(expand, 47);
-      if(!(return_value_strchr$1 == ((char *)NULL)))
+      char *return_value_strchr_1;
+      return_value_strchr_1=strchr(expand, 47);
+      if(!(return_value_strchr_1 == ((char *)NULL)))
         goto __CPROVER_DUMP_L35;
 
       user = &expand[(signed long int)1];
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(user);
-      len = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(user);
+      len = (signed int)return_value_strlen_2;
       n = 0;
       do
       {
@@ -11116,9 +11116,9 @@ void CompleteAction(struct _WidgetRec *widget, union _XEvent *event, char **para
         if(pw == ((struct passwd *)NULL))
           break;
 
-        signed int return_value_strncmp$4;
-        return_value_strncmp$4=strncmp(user, pw->pw_name, (unsigned long int)len);
-        if(return_value_strncmp$4 == 0)
+        signed int return_value_strncmp_4;
+        return_value_strncmp_4=strncmp(user, pw->pw_name, (unsigned long int)len);
+        if(return_value_strncmp_4 == 0)
         {
           if(n == 0)
             strcpy(pwmatch, pw->pw_name);
@@ -11128,8 +11128,8 @@ void CompleteAction(struct _WidgetRec *widget, union _XEvent *event, char **para
             i = len;
             do
             {
-              return_value_strncmp$3=strncmp(pw->pw_name, pwmatch, (unsigned long int)i);
-              if(!(return_value_strncmp$3 == 0))
+              return_value_strncmp_3=strncmp(pw->pw_name, pwmatch, (unsigned long int)i);
+              if(!(return_value_strncmp_3 == 0))
                 break;
 
               i = i + 1;
@@ -11182,11 +11182,11 @@ void CompleteAction(struct _WidgetRec *widget, union _XEvent *event, char **para
       n=my_scandir(dir, file, &list);
       if(n == -1)
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        char *return_value_strerror$6;
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        fprintf(stderr, "%s:%d: %s: %s\n", (const void *)"x11/complete.c", 179, (const void *)"scandir", return_value_strerror$6);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        char *return_value_strerror_6;
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        fprintf(stderr, "%s:%d: %s: %s\n", (const void *)"x11/complete.c", 179, (const void *)"scandir", return_value_strerror_6);
         strcpy(filename, fn);
       }
 
@@ -11202,14 +11202,14 @@ void CompleteAction(struct _WidgetRec *widget, union _XEvent *event, char **para
           {
             sprintf(filename, "%s/%s", dir, list[(signed long int)0]);
             stat(filename, &st);
-            char *return_value_strchr$8;
-            return_value_strchr$8=strchr(fn, 47);
-            if(!(return_value_strchr$8 == ((char *)NULL)))
+            char *return_value_strchr_8;
+            return_value_strchr_8=strchr(fn, 47);
+            if(!(return_value_strchr_8 == ((char *)NULL)))
             {
               strcpy(filename, fn);
-              char *return_value_strrchr$7;
-              return_value_strrchr$7=strrchr(filename, 47);
-              return_value_strrchr$7[(signed long int)1] = (char)0;
+              char *return_value_strrchr_7;
+              return_value_strrchr_7=strrchr(filename, 47);
+              return_value_strrchr_7[(signed long int)1] = (char)0;
               strcat(filename, list[(signed long int)0]);
             }
 
@@ -11224,41 +11224,41 @@ void CompleteAction(struct _WidgetRec *widget, union _XEvent *event, char **para
 
           else
           {
-            unsigned long int return_value_strlen$9;
-            return_value_strlen$9=strlen(list[(signed long int)0]);
-            unsigned long int return_value_strlen$10;
-            return_value_strlen$10=strlen(list[(signed long int)(n - 1)]);
-            unsigned long int tmp_if_expr$13;
-            if(!(return_value_strlen$9 >= return_value_strlen$10))
+            unsigned long int return_value_strlen_9;
+            return_value_strlen_9=strlen(list[(signed long int)0]);
+            unsigned long int return_value_strlen_10;
+            return_value_strlen_10=strlen(list[(signed long int)(n - 1)]);
+            unsigned long int tmp_if_expr_13;
+            if(!(return_value_strlen_9 >= return_value_strlen_10))
             {
-              return_value_strlen$11=strlen(list[(signed long int)0]);
-              tmp_if_expr$13 = return_value_strlen$11;
+              return_value_strlen_11=strlen(list[(signed long int)0]);
+              tmp_if_expr_13 = return_value_strlen_11;
             }
 
             else
             {
-              return_value_strlen$12=strlen(list[(signed long int)(n - 1)]);
-              tmp_if_expr$13 = return_value_strlen$12;
+              return_value_strlen_12=strlen(list[(signed long int)(n - 1)]);
+              tmp_if_expr_13 = return_value_strlen_12;
             }
-            len = (signed int)tmp_if_expr$13;
+            len = (signed int)tmp_if_expr_13;
             i = 0;
             do
             {
-              return_value_strncmp$14=strncmp(list[(signed long int)0], list[(signed long int)(n - 1)], (unsigned long int)(i + 1));
-              if(!(return_value_strncmp$14 == 0) || !(len >= i))
+              return_value_strncmp_14=strncmp(list[(signed long int)0], list[(signed long int)(n - 1)], (unsigned long int)(i + 1));
+              if(!(return_value_strncmp_14 == 0) || !(len >= i))
                 break;
 
               i = i + 1;
             }
             while((_Bool)1);
-            char *return_value_strchr$16;
-            return_value_strchr$16=strchr(fn, 47);
-            if(!(return_value_strchr$16 == ((char *)NULL)))
+            char *return_value_strchr_16;
+            return_value_strchr_16=strchr(fn, 47);
+            if(!(return_value_strchr_16 == ((char *)NULL)))
             {
               strcpy(filename, fn);
-              char *return_value_strrchr$15;
-              return_value_strrchr$15=strrchr(filename, 47);
-              return_value_strrchr$15[(signed long int)1] = (char)0;
+              char *return_value_strrchr_15;
+              return_value_strrchr_15=strrchr(filename, 47);
+              return_value_strrchr_15[(signed long int)1] = (char)0;
               strncat(filename, list[(signed long int)0], (unsigned long int)i);
             }
 
@@ -11266,9 +11266,9 @@ void CompleteAction(struct _WidgetRec *widget, union _XEvent *event, char **para
               strncpy(filename, list[(signed long int)0], (unsigned long int)i);
           }
     }
-    unsigned long int return_value_strlen$17;
-    return_value_strlen$17=strlen(filename);
-    pos = (signed long int)return_value_strlen$17;
+    unsigned long int return_value_strlen_17;
+    return_value_strlen_17=strlen(filename);
+    pos = (signed long int)return_value_strlen_17;
     strcat(filename, fn2);
     XmTextSetString(widget, filename);
     XmTextSetInsertionPosition(widget, pos);
@@ -11348,9 +11348,9 @@ void FilterAction(struct _WidgetRec *widget, union _XEvent *event, char **params
     for( ; !(item == &ng_filters); item = item->next)
     {
       filter = (struct ng_filter *)((char *)item - (signed long int)(unsigned long int)&((struct ng_filter *)0)->list);
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(filter->name, params[(signed long int)0]);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(filter->name, params[(signed long int)0]);
+      if(return_value_strcasecmp_1 == 0)
       {
         cur_filter = filter;
         break;
@@ -11367,7 +11367,7 @@ static void IpcAction(struct _WidgetRec *widget, union _XEvent *event, char **ar
 {
   struct ipc_data *ipc;
   struct _WidgetRec *drag;
-  struct anonymous$11 IpcAction$$1$$args[4l];
+  struct anonymous_11 IpcAction__1__args[4l];
   unsigned int n = (unsigned int)0;
   if(!(*argc == 0u))
   {
@@ -11383,36 +11383,36 @@ static void IpcAction(struct _WidgetRec *widget, union _XEvent *event, char **ar
       if(!(debug == 0))
         fprintf(stderr, "ipc: %s\n", argv[(signed long int)0]);
 
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(argv[(signed long int)0], "drag");
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(argv[(signed long int)0], "drag");
+      if(return_value_strcmp_1 == 0)
       {
         ipc_fini(_MOTIF_DROP);
         ipc=ipc_init(_MOTIF_DROP);
         ipc_iconify(widget, ipc);
         n = (unsigned int)0;
-        IpcAction$$1$$args[(signed long int)n].name = (char *)&_XmStrings[(signed long int)6334];
-        IpcAction$$1$$args[(signed long int)n].value = (signed long int)(1L << 1);
+        IpcAction__1__args[(signed long int)n].name = (char *)&_XmStrings[(signed long int)6334];
+        IpcAction__1__args[(signed long int)n].value = (signed long int)(1L << 1);
         n = n + 1u;
-        IpcAction$$1$$args[(signed long int)n].name = (char *)&_XmStrings[(signed long int)9857];
-        IpcAction$$1$$args[(signed long int)n].value = (signed long int)ipc->icon_widget;
+        IpcAction__1__args[(signed long int)n].name = (char *)&_XmStrings[(signed long int)9857];
+        IpcAction__1__args[(signed long int)n].value = (signed long int)ipc->icon_widget;
         n = n + 1u;
-        drag=XmeDragSource(tv, (void *)0, event, IpcAction$$1$$args, n);
+        drag=XmeDragSource(tv, (void *)0, event, IpcAction__1__args, n);
         XtAddCallback(drag, (char *)&_XmStrings[(signed long int)6251], ipc_finish, (void *)0);
       }
 
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(argv[(signed long int)0], "primary");
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(argv[(signed long int)0], "primary");
+      if(return_value_strcmp_2 == 0)
         fprintf(stderr, "FIXME [primary called]\n");
 
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp(argv[(signed long int)0], "clipboard");
-      if(return_value_strcmp$4 == 0)
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp(argv[(signed long int)0], "clipboard");
+      if(return_value_strcmp_4 == 0)
       {
-        unsigned long int return_value_XtLastTimestampProcessed$3;
-        return_value_XtLastTimestampProcessed$3=XtLastTimestampProcessed(dpy);
-        XmeClipboardSource(tv, (unsigned char)2, return_value_XtLastTimestampProcessed$3);
+        unsigned long int return_value_XtLastTimestampProcessed_3;
+        return_value_XtLastTimestampProcessed_3=XtLastTimestampProcessed(dpy);
+        XmeClipboardSource(tv, (unsigned char)2, return_value_XtLastTimestampProcessed_3);
       }
 
     }
@@ -11427,27 +11427,27 @@ void LaunchAction(struct _WidgetRec *widget, union _XEvent *event, char **params
   char **argv;
   signed int i;
   signed int argc;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
   if(*num_params == 1u)
   {
     i = 0;
     for( ; !(i >= nlaunch); i = i + 1)
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(params[(signed long int)0], (launch + (signed long int)i)->name);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(params[(signed long int)0], (launch + (signed long int)i)->name);
+      if(return_value_strcasecmp_1 == 0)
         break;
 
     }
     if(!(i == nlaunch))
     {
       argv=split_cmdline((launch + (signed long int)i)->cmdline, &argc);
-      signed int return_value_fork$2;
-      return_value_fork$2=fork();
-      if(!(return_value_fork$2 == -1))
+      signed int return_value_fork_2;
+      return_value_fork_2=fork();
+      if(!(return_value_fork_2 == -1))
       {
-        if(return_value_fork$2 == 0)
+        if(return_value_fork_2 == 0)
           goto __CPROVER_DUMP_L6;
 
       }
@@ -11461,9 +11461,9 @@ void LaunchAction(struct _WidgetRec *widget, union _XEvent *event, char **params
         ;
         if(!(debug == 0))
         {
-          signed int return_value_getpid$3;
-          return_value_getpid$3=getpid();
-          fprintf(stderr, "[%d]: exec ", return_value_getpid$3);
+          signed int return_value_getpid_3;
+          return_value_getpid_3=getpid();
+          fprintf(stderr, "[%d]: exec ", return_value_getpid_3);
           i = 0;
           for( ; !(i >= argc); i = i + 1)
             fprintf(stderr, "\"%s\" ", argv[(signed long int)i]);
@@ -11471,9 +11471,9 @@ void LaunchAction(struct _WidgetRec *widget, union _XEvent *event, char **params
         }
 
         execvp(argv[(signed long int)0], argv);
-        return_value___errno_location$4=__errno_location();
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        fprintf(stderr, "execvp %s: %s", argv[(signed long int)0], return_value_strerror$5);
+        return_value___errno_location_4=__errno_location();
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        fprintf(stderr, "execvp %s: %s", argv[(signed long int)0], return_value_strerror_5);
         exit(1);
         goto __CPROVER_DUMP_L11;
       }
@@ -11505,9 +11505,9 @@ static void PopupAction(struct _WidgetRec *widget, union _XEvent *event, char **
     i = (unsigned int)0;
     for( ; !((unsigned long int)i >= 5ul); i = i + 1u)
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(my_toplevels[(signed long int)i].name, params[(signed long int)0]);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(my_toplevels[(signed long int)i].name, params[(signed long int)0]);
+      if(return_value_strcasecmp_1 == 0)
         break;
 
     }
@@ -11528,21 +11528,21 @@ static void PopupAction(struct _WidgetRec *widget, union _XEvent *event, char **
 
     if((unsigned long int)i == 5ul)
     {
-      char *return_value_XtName$2;
-      return_value_XtName$2=XtName(widget);
-      fprintf(stderr, "PopupAction: oops: shell not found (%p:%s)\n", widget, return_value_XtName$2);
+      char *return_value_XtName_2;
+      return_value_XtName_2=XtName(widget);
+      fprintf(stderr, "PopupAction: oops: shell not found (%p:%s)\n", widget, return_value_XtName_2);
       goto __CPROVER_DUMP_L11;
     }
 
   }
-  unsigned long int return_value_XtWindow$3;
+  unsigned long int return_value_XtWindow_3;
   if(my_toplevels[(signed long int)i].mapped == 0)
   {
-    XtPopup(*my_toplevels[(signed long int)i].shell, (enum anonymous$17)XtGrabNone);
+    XtPopup(*my_toplevels[(signed long int)i].shell, (enum anonymous_17)XtGrabNone);
     if(stay_on_top >= 1 && !(wm_stay_on_top == ((void (*)(struct _XDisplay *, unsigned long int, signed int))NULL)))
     {
-      return_value_XtWindow$3=XtWindow(*my_toplevels[(signed long int)i].shell);
-      wm_stay_on_top(dpy, return_value_XtWindow$3, 1);
+      return_value_XtWindow_3=XtWindow(*my_toplevels[(signed long int)i].shell);
+      wm_stay_on_top(dpy, return_value_XtWindow_3, 1);
     }
 
     my_toplevels[(signed long int)i].mapped = 1;
@@ -11587,36 +11587,36 @@ void RemoteAction(struct _WidgetRec *widget, union _XEvent *event, char **params
   char *argv[32l];
   unsigned long int nitems;
   unsigned long int bytesafter;
-  unsigned char *RemoteAction$$1$$args = (unsigned char *)(void *)0;
-  char *return_value_XGetAtomName$1;
-  signed int return_value_XGetWindowProperty$5;
-  unsigned long int return_value_strlen$2;
+  unsigned char *RemoteAction__1__args = (unsigned char *)(void *)0;
+  char *return_value_XGetAtomName_1;
+  signed int return_value_XGetWindowProperty_5;
+  unsigned long int return_value_strlen_2;
   if(event->type == 28)
   {
     if(debug >= 2)
     {
-      return_value_XGetAtomName$1=XGetAtomName(dpy, event->xproperty.atom);
-      fprintf(stderr, "PropertyNotify %s\n", return_value_XGetAtomName$1);
+      return_value_XGetAtomName_1=XGetAtomName(dpy, event->xproperty.atom);
+      fprintf(stderr, "PropertyNotify %s\n", return_value_XGetAtomName_1);
     }
 
     if(event->xproperty.atom == _XAWTV_REMOTE)
     {
-      return_value_XGetWindowProperty$5=XGetWindowProperty(dpy, event->xproperty.window, event->xproperty.atom, (signed long int)0, (signed long int)((unsigned long int)65536 / sizeof(signed long int) /*8ul*/ ), 1, (unsigned long int)31, &type, &format, &nitems, &bytesafter, &RemoteAction$$1$$args);
-      if(return_value_XGetWindowProperty$5 == 0)
+      return_value_XGetWindowProperty_5=XGetWindowProperty(dpy, event->xproperty.window, event->xproperty.atom, (signed long int)0, (signed long int)((unsigned long int)65536 / sizeof(signed long int) /*8ul*/ ), 1, (unsigned long int)31, &type, &format, &nitems, &bytesafter, &RemoteAction__1__args);
+      if(return_value_XGetWindowProperty_5 == 0)
       {
         if(!(nitems == 0ul))
         {
           i = (unsigned int)0;
           argc = 0;
-          for( ; nitems >= (unsigned long int)i; i = i + (unsigned int)(return_value_strlen$2 + (unsigned long int)1))
+          for( ; nitems >= (unsigned long int)i; i = i + (unsigned int)(return_value_strlen_2 + (unsigned long int)1))
           {
-            _Bool tmp_if_expr$4;
+            _Bool tmp_if_expr_4;
             if((unsigned long int)i == nitems)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = (signed int)RemoteAction$$1$$args[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = (signed int)RemoteAction__1__args[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
             {
               argv[(signed long int)argc] = (char *)(void *)0;
               do_command(argc, argv);
@@ -11625,13 +11625,13 @@ void RemoteAction(struct _WidgetRec *widget, union _XEvent *event, char **params
 
             else
             {
-              signed int tmp_post$3 = argc;
+              signed int tmp_post_3 = argc;
               argc = argc + 1;
-              argv[(signed long int)tmp_post$3] = (char *)(RemoteAction$$1$$args + (signed long int)i);
+              argv[(signed long int)tmp_post_3] = (char *)(RemoteAction__1__args + (signed long int)i);
             }
-            return_value_strlen$2=strlen((const char *)(RemoteAction$$1$$args + (signed long int)i));
+            return_value_strlen_2=strlen((const char *)(RemoteAction__1__args + (signed long int)i));
           }
-          XFree((void *)RemoteAction$$1$$args);
+          XFree((void *)RemoteAction__1__args);
         }
 
       }
@@ -11663,9 +11663,9 @@ void VtxAction(struct _WidgetRec *widget, union _XEvent *event, char **params, u
 {
   if(!(*num_params == 0u))
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(params[(signed long int)0], "start");
-    if(return_value_strcasecmp$1 == 0)
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(params[(signed long int)0], "start");
+    if(return_value_strcasecmp_1 == 0)
     {
       if(!(*num_params >= 3u))
         sscanf(params[(signed long int)1], "%x", &x11_vbi_page);
@@ -11676,9 +11676,9 @@ void VtxAction(struct _WidgetRec *widget, union _XEvent *event, char **params, u
       x11_vbi_start(args.vbidev);
     }
 
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp(params[(signed long int)0], "stop");
-    if(return_value_strcasecmp$2 == 0)
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp(params[(signed long int)0], "stop");
+    if(return_value_strcasecmp_2 == 0)
     {
       x11_vbi_page = 0;
       x11_vbi_stop();
@@ -11709,9 +11709,9 @@ void ZapAction(struct _WidgetRec *widget, union _XEvent *event, char **params, u
       zap_fast = 0;
       if(*num_params >= 1u)
       {
-        signed int return_value_strcasecmp$1;
-        return_value_strcasecmp$1=strcasecmp(params[(signed long int)0], "fast");
-        if(return_value_strcasecmp$1 == 0)
+        signed int return_value_strcasecmp_1;
+        return_value_strcasecmp_1=strcasecmp(params[(signed long int)0], "fast");
+        if(return_value_strcasecmp_1 == 0)
           zap_fast = 1;
 
       }
@@ -11734,14 +11734,14 @@ static inline void __list_add(struct list_head *new, struct list_head *prev, str
   prev->next = new;
 }
 
-// __list_add$link1
+// __list_add_link1
 // file libng/list.h line 34
-static inline void __list_add$link1(struct list_head *new$link1, struct list_head *prev$link1, struct list_head *next$link1)
+static inline void __list_add_link1(struct list_head *new_link1, struct list_head *prev_link1, struct list_head *next_link1)
 {
-  next$link1->prev = new$link1;
-  new$link1->next = next$link1;
-  new$link1->prev = prev$link1;
-  prev$link1->next = new$link1;
+  next_link1->prev = new_link1;
+  new_link1->next = next_link1;
+  new_link1->prev = prev_link1;
+  prev_link1->next = new_link1;
 }
 
 // __list_del
@@ -11757,13 +11757,13 @@ static inline void __list_del(struct list_head *prev, struct list_head *next)
 static void about_cb(struct _WidgetRec *widget, void *clientdata, void *call_data)
 {
   struct _WidgetRec *msgbox;
-  msgbox=XmCreateInformationDialog(app_shell, "about_box", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  struct _WidgetRec *return_value_XmMessageBoxGetChild$1;
-  return_value_XmMessageBoxGetChild$1=XmMessageBoxGetChild(msgbox, (unsigned char)7);
-  XtUnmanageChild(return_value_XmMessageBoxGetChild$1);
-  struct _WidgetRec *return_value_XmMessageBoxGetChild$2;
-  return_value_XmMessageBoxGetChild$2=XmMessageBoxGetChild(msgbox, (unsigned char)2);
-  XtUnmanageChild(return_value_XmMessageBoxGetChild$2);
+  msgbox=XmCreateInformationDialog(app_shell, "about_box", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  struct _WidgetRec *return_value_XmMessageBoxGetChild_1;
+  return_value_XmMessageBoxGetChild_1=XmMessageBoxGetChild(msgbox, (unsigned char)7);
+  XtUnmanageChild(return_value_XmMessageBoxGetChild_1);
+  struct _WidgetRec *return_value_XmMessageBoxGetChild_2;
+  return_value_XmMessageBoxGetChild_2=XmMessageBoxGetChild(msgbox, (unsigned char)2);
+  XtUnmanageChild(return_value_XmMessageBoxGetChild_2);
   XtAddCallback(msgbox, (char *)&_XmStrings[(signed long int)8560], destroy_cb, (void *)msgbox);
   XtManageChild(msgbox);
 }
@@ -11798,16 +11798,16 @@ static void add_attr_option(struct _WidgetRec *menu, struct ng_attribute *attr)
 {
   signed int i;
   struct motif_attribute *a;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct motif_attribute) /*24ul*/ );
-  a = (struct motif_attribute *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct motif_attribute) /*24ul*/ );
+  a = (struct motif_attribute *)return_value_malloc_1;
   memset((void *)a, 0, sizeof(struct motif_attribute) /*24ul*/ );
   a->attr = attr;
   switch(attr->type)
   {
     case 2:
     {
-      a->widget=XmCreatePulldownMenu(menu, (char *)attr->name, (struct anonymous$11 *)(void *)0, (unsigned int)0);
+      a->widget=XmCreatePulldownMenu(menu, (char *)attr->name, (struct anonymous_11 *)(void *)0, (unsigned int)0);
       XtVaCreateManagedWidget(attr->name, xmCascadeButtonWidgetClass, menu, (char *)&_XmStrings[(signed long int)9963], a->widget, (void *)0);
       i = 0;
       for( ; !((attr->choices + (signed long int)i)->str == ((const char *)NULL)); i = i + 1)
@@ -11843,9 +11843,9 @@ void add_attrs(struct ng_attribute *new)
   nnew = 0;
   for( ; !((new + (signed long int)nnew)->name == ((const char *)NULL)); nnew = nnew + 1)
     ;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ng_attribute) /*80ul*/  * (unsigned long int)(nold + nnew + 1));
-  all = (struct ng_attribute *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ng_attribute) /*80ul*/  * (unsigned long int)(nold + nnew + 1));
+  all = (struct ng_attribute *)return_value_malloc_1;
   memset((void *)all, 0, sizeof(struct ng_attribute) /*80ul*/  * (unsigned long int)(nold + nnew + 1));
   memcpy((void *)all, (const void *)new, sizeof(struct ng_attribute) /*80ul*/  * (unsigned long int)nnew);
   if(!(attrs == ((struct ng_attribute *)NULL)))
@@ -11862,30 +11862,30 @@ void add_attrs(struct ng_attribute *new)
 struct CHANNEL * add_channel(char *name)
 {
   struct CHANNEL *channel;
-  void *return_value_malloc$1;
-  void *return_value_realloc$2;
+  void *return_value_malloc_1;
+  void *return_value_realloc_2;
   if(alloc_count == count)
   {
     alloc_count = alloc_count + 16;
     if(alloc_count == 16)
     {
-      return_value_malloc$1=malloc(sizeof(struct CHANNEL *) /*8ul*/  * (unsigned long int)alloc_count);
-      channels = (struct CHANNEL **)return_value_malloc$1;
+      return_value_malloc_1=malloc(sizeof(struct CHANNEL *) /*8ul*/  * (unsigned long int)alloc_count);
+      channels = (struct CHANNEL **)return_value_malloc_1;
     }
 
     else
     {
-      return_value_realloc$2=realloc((void *)channels, sizeof(struct CHANNEL *) /*8ul*/  * (unsigned long int)alloc_count);
-      channels = (struct CHANNEL **)return_value_realloc$2;
+      return_value_realloc_2=realloc((void *)channels, sizeof(struct CHANNEL *) /*8ul*/  * (unsigned long int)alloc_count);
+      channels = (struct CHANNEL **)return_value_realloc_2;
     }
   }
 
-  signed int tmp_post$3 = count;
+  signed int tmp_post_3 = count;
   count = count + 1;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(struct CHANNEL) /*104ul*/ );
-  channels[(signed long int)tmp_post$3] = (struct CHANNEL *)return_value_malloc$4;
-  channel = channels[(signed long int)tmp_post$3];
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(struct CHANNEL) /*104ul*/ );
+  channels[(signed long int)tmp_post_3] = (struct CHANNEL *)return_value_malloc_4;
+  channel = channels[(signed long int)tmp_post_3];
   memcpy((void *)channel, (const void *)&defaults, sizeof(struct CHANNEL) /*104ul*/ );
   channel->name=strdup(name);
   return channel;
@@ -11895,25 +11895,25 @@ struct CHANNEL * add_channel(char *name)
 // file x11/x11.c line 381
 static void add_clip(signed int x1, signed int y1, signed int x2, signed int y2)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(oc[(signed long int)oc_count].x1 == x1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = oc[(signed long int)oc_count].y1 != y1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = oc[(signed long int)oc_count].y1 != y1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = oc[(signed long int)oc_count].x2 != x2 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = oc[(signed long int)oc_count].x2 != x2 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = oc[(signed long int)oc_count].y2 != y2 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = oc[(signed long int)oc_count].y2 != y2 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     conf = 1;
 
   oc[(signed long int)oc_count].x1 = x1;
@@ -11928,9 +11928,9 @@ static void add_clip(signed int x1, signed int y1, signed int x2, signed int y2)
 static void add_cmd_callback(struct _WidgetRec *widget, char *callback, char *command, const char *arg1, const char *arg2)
 {
   struct DO_CMD *cmd;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct DO_CMD) /*72ul*/ );
-  cmd = (struct DO_CMD *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct DO_CMD) /*72ul*/ );
+  cmd = (struct DO_CMD *)return_value_malloc_1;
   cmd->argc = 1;
   cmd->argv[(signed long int)0] = command;
   if(!(arg1 == ((const char *)NULL)))
@@ -11960,7 +11960,7 @@ static struct _WidgetRec * add_cmd_menuitem(const char *n, signed int nr, struct
   struct _WidgetClassRec *class;
   char *callback;
   sprintf(name, "%.10s%d", n, nr);
-  label=XmStringGenerate((void *)(char *)l, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+  label=XmStringGenerate((void *)(char *)l, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
   if(!(toggle == 0))
   {
     class = xmToggleButtonWidgetClass;
@@ -11974,7 +11974,7 @@ static struct _WidgetRec * add_cmd_menuitem(const char *n, signed int nr, struct
   }
   if(!(a == ((char *)NULL)) && !(k == ((char *)NULL)))
   {
-    accel=XmStringGenerate((void *)k, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+    accel=XmStringGenerate((void *)k, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
     w=XtVaCreateManagedWidget(name, class, parent, (char *)&_XmStrings[(signed long int)7535], label, (char *)&_XmStrings[(signed long int)4684], accel, (char *)&_XmStrings[(signed long int)4672], a, (void *)0);
   }
 
@@ -11994,59 +11994,59 @@ static struct _WidgetRec * add_cmd_menuitem(const char *n, signed int nr, struct
 // file common/get_media_devices.c line 275
 static signed int add_dvb_class(struct media_device_entry *md)
 {
-  char *return_value_strstr$1;
-  return_value_strstr$1=strstr(md->node, "video");
-  if(!(return_value_strstr$1 == ((char *)NULL)))
+  char *return_value_strstr_1;
+  return_value_strstr_1=strstr(md->node, "video");
+  if(!(return_value_strstr_1 == ((char *)NULL)))
     md->type = (enum device_type)MEDIA_DVB_VIDEO;
 
-  char *return_value_strstr$2;
-  return_value_strstr$2=strstr(md->node, "audio");
-  if(!(return_value_strstr$2 == ((char *)NULL)))
+  char *return_value_strstr_2;
+  return_value_strstr_2=strstr(md->node, "audio");
+  if(!(return_value_strstr_2 == ((char *)NULL)))
     md->type = (enum device_type)MEDIA_DVB_AUDIO;
 
-  char *return_value_strstr$3;
-  return_value_strstr$3=strstr(md->node, "sec");
-  if(!(return_value_strstr$3 == ((char *)NULL)))
+  char *return_value_strstr_3;
+  return_value_strstr_3=strstr(md->node, "sec");
+  if(!(return_value_strstr_3 == ((char *)NULL)))
     md->type = (enum device_type)MEDIA_DVB_SEC;
 
-  char *return_value_strstr$9;
-  return_value_strstr$9=strstr(md->node, "frontend");
-  char *return_value_strstr$8;
-  char *return_value_strstr$7;
-  char *return_value_strstr$6;
-  char *return_value_strstr$5;
-  char *return_value_strstr$4;
-  if(!(return_value_strstr$9 == ((char *)NULL)))
+  char *return_value_strstr_9;
+  return_value_strstr_9=strstr(md->node, "frontend");
+  char *return_value_strstr_8;
+  char *return_value_strstr_7;
+  char *return_value_strstr_6;
+  char *return_value_strstr_5;
+  char *return_value_strstr_4;
+  if(!(return_value_strstr_9 == ((char *)NULL)))
     md->type = (enum device_type)MEDIA_DVB_FRONTEND;
 
   else
   {
-    return_value_strstr$8=strstr(md->node, "demux");
-    if(!(return_value_strstr$8 == ((char *)NULL)))
+    return_value_strstr_8=strstr(md->node, "demux");
+    if(!(return_value_strstr_8 == ((char *)NULL)))
       md->type = (enum device_type)MEDIA_DVB_DEMUX;
 
     else
     {
-      return_value_strstr$7=strstr(md->node, "dvr");
-      if(!(return_value_strstr$7 == ((char *)NULL)))
+      return_value_strstr_7=strstr(md->node, "dvr");
+      if(!(return_value_strstr_7 == ((char *)NULL)))
         md->type = (enum device_type)MEDIA_DVB_DVR;
 
       else
       {
-        return_value_strstr$6=strstr(md->node, "net");
-        if(!(return_value_strstr$6 == ((char *)NULL)))
+        return_value_strstr_6=strstr(md->node, "net");
+        if(!(return_value_strstr_6 == ((char *)NULL)))
           md->type = (enum device_type)MEDIA_DVB_NET;
 
         else
         {
-          return_value_strstr$5=strstr(md->node, "ca");
-          if(!(return_value_strstr$5 == ((char *)NULL)))
+          return_value_strstr_5=strstr(md->node, "ca");
+          if(!(return_value_strstr_5 == ((char *)NULL)))
             md->type = (enum device_type)MEDIA_DVB_CA;
 
           else
           {
-            return_value_strstr$4=strstr(md->node, "osd");
-            if(!(return_value_strstr$4 == ((char *)NULL)))
+            return_value_strstr_4=strstr(md->node, "osd");
+            if(!(return_value_strstr_4 == ((char *)NULL)))
               md->type = (enum device_type)MEDIA_DVB_OSD;
 
           }
@@ -12057,64 +12057,64 @@ static signed int add_dvb_class(struct media_device_entry *md)
   return 0;
 }
 
-// add_dvb_class$link1
+// add_dvb_class_link1
 // file common/get_media_devices.c line 275
-static signed int add_dvb_class$link1(struct media_device_entry *md$link1)
+static signed int add_dvb_class_link1(struct media_device_entry *md_link1)
 {
-  char *return_value_strstr$1$link1;
-  return_value_strstr$1$link1=strstr(md$link1->node, "video");
-  if(!(return_value_strstr$1$link1 == ((char *)NULL)))
-    md$link1->type = (enum device_type)MEDIA_DVB_VIDEO;
+  char *return_value_strstr_1_link1;
+  return_value_strstr_1_link1=strstr(md_link1->node, "video");
+  if(!(return_value_strstr_1_link1 == ((char *)NULL)))
+    md_link1->type = (enum device_type)MEDIA_DVB_VIDEO;
 
-  char *return_value_strstr$2$link1;
-  return_value_strstr$2$link1=strstr(md$link1->node, "audio");
-  if(!(return_value_strstr$2$link1 == ((char *)NULL)))
-    md$link1->type = (enum device_type)MEDIA_DVB_AUDIO;
+  char *return_value_strstr_2_link1;
+  return_value_strstr_2_link1=strstr(md_link1->node, "audio");
+  if(!(return_value_strstr_2_link1 == ((char *)NULL)))
+    md_link1->type = (enum device_type)MEDIA_DVB_AUDIO;
 
-  char *return_value_strstr$3$link1;
-  return_value_strstr$3$link1=strstr(md$link1->node, "sec");
-  if(!(return_value_strstr$3$link1 == ((char *)NULL)))
-    md$link1->type = (enum device_type)MEDIA_DVB_SEC;
+  char *return_value_strstr_3_link1;
+  return_value_strstr_3_link1=strstr(md_link1->node, "sec");
+  if(!(return_value_strstr_3_link1 == ((char *)NULL)))
+    md_link1->type = (enum device_type)MEDIA_DVB_SEC;
 
-  char *return_value_strstr$9$link1;
-  return_value_strstr$9$link1=strstr(md$link1->node, "frontend");
-  char *return_value_strstr$8$link1;
-  char *return_value_strstr$7$link1;
-  char *return_value_strstr$6$link1;
-  char *return_value_strstr$5$link1;
-  char *return_value_strstr$4$link1;
-  if(!(return_value_strstr$9$link1 == ((char *)NULL)))
-    md$link1->type = (enum device_type)MEDIA_DVB_FRONTEND;
+  char *return_value_strstr_9_link1;
+  return_value_strstr_9_link1=strstr(md_link1->node, "frontend");
+  char *return_value_strstr_8_link1;
+  char *return_value_strstr_7_link1;
+  char *return_value_strstr_6_link1;
+  char *return_value_strstr_5_link1;
+  char *return_value_strstr_4_link1;
+  if(!(return_value_strstr_9_link1 == ((char *)NULL)))
+    md_link1->type = (enum device_type)MEDIA_DVB_FRONTEND;
 
   else
   {
-    return_value_strstr$8$link1=strstr(md$link1->node, "demux");
-    if(!(return_value_strstr$8$link1 == ((char *)NULL)))
-      md$link1->type = (enum device_type)MEDIA_DVB_DEMUX;
+    return_value_strstr_8_link1=strstr(md_link1->node, "demux");
+    if(!(return_value_strstr_8_link1 == ((char *)NULL)))
+      md_link1->type = (enum device_type)MEDIA_DVB_DEMUX;
 
     else
     {
-      return_value_strstr$7$link1=strstr(md$link1->node, "dvr");
-      if(!(return_value_strstr$7$link1 == ((char *)NULL)))
-        md$link1->type = (enum device_type)MEDIA_DVB_DVR;
+      return_value_strstr_7_link1=strstr(md_link1->node, "dvr");
+      if(!(return_value_strstr_7_link1 == ((char *)NULL)))
+        md_link1->type = (enum device_type)MEDIA_DVB_DVR;
 
       else
       {
-        return_value_strstr$6$link1=strstr(md$link1->node, "net");
-        if(!(return_value_strstr$6$link1 == ((char *)NULL)))
-          md$link1->type = (enum device_type)MEDIA_DVB_NET;
+        return_value_strstr_6_link1=strstr(md_link1->node, "net");
+        if(!(return_value_strstr_6_link1 == ((char *)NULL)))
+          md_link1->type = (enum device_type)MEDIA_DVB_NET;
 
         else
         {
-          return_value_strstr$5$link1=strstr(md$link1->node, "ca");
-          if(!(return_value_strstr$5$link1 == ((char *)NULL)))
-            md$link1->type = (enum device_type)MEDIA_DVB_CA;
+          return_value_strstr_5_link1=strstr(md_link1->node, "ca");
+          if(!(return_value_strstr_5_link1 == ((char *)NULL)))
+            md_link1->type = (enum device_type)MEDIA_DVB_CA;
 
           else
           {
-            return_value_strstr$4$link1=strstr(md$link1->node, "osd");
-            if(!(return_value_strstr$4$link1 == ((char *)NULL)))
-              md$link1->type = (enum device_type)MEDIA_DVB_OSD;
+            return_value_strstr_4_link1=strstr(md_link1->node, "osd");
+            if(!(return_value_strstr_4_link1 == ((char *)NULL)))
+              md_link1->type = (enum device_type)MEDIA_DVB_OSD;
 
           }
         }
@@ -12129,24 +12129,24 @@ static signed int add_dvb_class$link1(struct media_device_entry *md$link1)
 static void add_pixmap(struct _XDisplay *dpy, unsigned long int bg, char *imgname, char *maskname, char **data)
 {
   struct _XImage *image;
-  struct _XImage *add_pixmap$$1$$shape;
-  struct anonymous$133 attr;
+  struct _XImage *add_pixmap__1__shape;
+  struct anonymous_133 attr;
   unsigned int x;
   unsigned int y;
-  memset((void *)&attr, 0, sizeof(struct anonymous$133) /*224ul*/ );
-  XpmCreateImageFromData(dpy, data, &image, &add_pixmap$$1$$shape, &attr);
+  memset((void *)&attr, 0, sizeof(struct anonymous_133) /*224ul*/ );
+  XpmCreateImageFromData(dpy, data, &image, &add_pixmap__1__shape, &attr);
   unsigned long int return_value;
   if(!(maskname == ((char *)NULL)))
   {
     XmInstallImage(image, imgname);
-    if(!(add_pixmap$$1$$shape == ((struct _XImage *)NULL)))
-      XmInstallImage(add_pixmap$$1$$shape, maskname);
+    if(!(add_pixmap__1__shape == ((struct _XImage *)NULL)))
+      XmInstallImage(add_pixmap__1__shape, maskname);
 
   }
 
   else
   {
-    if(!(add_pixmap$$1$$shape == ((struct _XImage *)NULL)))
+    if(!(add_pixmap__1__shape == ((struct _XImage *)NULL)))
     {
       y = (unsigned int)0;
       for( ; !(y >= attr.height); y = y + 1u)
@@ -12154,7 +12154,7 @@ static void add_pixmap(struct _XDisplay *dpy, unsigned long int bg, char *imgnam
         x = (unsigned int)0;
         if(!(x >= attr.width))
         {
-          return_value=add_pixmap$$1$$shape->f.get_pixel(add_pixmap$$1$$shape, (signed int)x, (signed int)y);
+          return_value=add_pixmap__1__shape->f.get_pixel(add_pixmap__1__shape, (signed int)x, (signed int)y);
           if(return_value == 0ul)
             image->f.put_pixel(image, (signed int)x, (signed int)y, bg);
 
@@ -12172,13 +12172,13 @@ static void add_pixmap(struct _XDisplay *dpy, unsigned long int bg, char *imgnam
 // file common/get_media_devices.c line 232
 static signed int add_snd_class(struct media_device_entry *md)
 {
-  unsigned int add_snd_class$$1$$c = (unsigned int)65535;
+  unsigned int add_snd_class__1__c = (unsigned int)65535;
   unsigned int d = (unsigned int)65535;
   char node[64l];
-  char *return_value_strstr$2;
-  return_value_strstr$2=strstr(md->node, "timer");
-  char *return_value_strstr$1;
-  if(!(return_value_strstr$2 == ((char *)NULL)))
+  char *return_value_strstr_2;
+  return_value_strstr_2=strstr(md->node, "timer");
+  char *return_value_strstr_1;
+  if(!(return_value_strstr_2 == ((char *)NULL)))
   {
     md->type = (enum device_type)MEDIA_SND_TIMER;
     return 0;
@@ -12186,59 +12186,59 @@ static signed int add_snd_class(struct media_device_entry *md)
 
   else
   {
-    return_value_strstr$1=strstr(md->node, "seq");
-    if(!(return_value_strstr$1 == ((char *)NULL)))
+    return_value_strstr_1=strstr(md->node, "seq");
+    if(!(return_value_strstr_1 == ((char *)NULL)))
     {
       md->type = (enum device_type)MEDIA_SND_SEQ;
       return 0;
     }
 
   }
-  char *return_value_strstr$8;
-  return_value_strstr$8=strstr(md->node, "card");
-  char *return_value_strstr$7;
-  char *return_value_strstr$6;
-  char *return_value_strstr$5;
-  unsigned long int return_value_strlen$3;
-  if(!(return_value_strstr$8 == ((char *)NULL)))
+  char *return_value_strstr_8;
+  return_value_strstr_8=strstr(md->node, "card");
+  char *return_value_strstr_7;
+  char *return_value_strstr_6;
+  char *return_value_strstr_5;
+  unsigned long int return_value_strlen_3;
+  if(!(return_value_strstr_8 == ((char *)NULL)))
   {
-    sscanf(md->node, "card%u", &add_snd_class$$1$$c);
+    sscanf(md->node, "card%u", &add_snd_class__1__c);
     md->type = (enum device_type)MEDIA_SND_CARD;
   }
 
   else
   {
-    return_value_strstr$7=strstr(md->node, "hw");
-    if(!(return_value_strstr$7 == ((char *)NULL)))
+    return_value_strstr_7=strstr(md->node, "hw");
+    if(!(return_value_strstr_7 == ((char *)NULL)))
     {
-      sscanf(md->node, "hwC%uD%u", &add_snd_class$$1$$c, &d);
+      sscanf(md->node, "hwC%uD%u", &add_snd_class__1__c, &d);
       md->type = (enum device_type)MEDIA_SND_HW;
     }
 
     else
     {
-      return_value_strstr$6=strstr(md->node, "control");
-      if(!(return_value_strstr$6 == ((char *)NULL)))
+      return_value_strstr_6=strstr(md->node, "control");
+      if(!(return_value_strstr_6 == ((char *)NULL)))
       {
-        sscanf(md->node, "controlC%u", &add_snd_class$$1$$c);
+        sscanf(md->node, "controlC%u", &add_snd_class__1__c);
         md->type = (enum device_type)MEDIA_SND_CONTROL;
       }
 
       else
       {
-        return_value_strstr$5=strstr(md->node, "pcm");
-        if(!(return_value_strstr$5 == ((char *)NULL)))
+        return_value_strstr_5=strstr(md->node, "pcm");
+        if(!(return_value_strstr_5 == ((char *)NULL)))
         {
-          sscanf(md->node, "pcmC%uD%u", &add_snd_class$$1$$c, &d);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(md->node);
-          if((signed int)md->node[-1l + (signed long int)return_value_strlen$4] == 112)
+          sscanf(md->node, "pcmC%uD%u", &add_snd_class__1__c, &d);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(md->node);
+          if((signed int)md->node[-1l + (signed long int)return_value_strlen_4] == 112)
             md->type = (enum device_type)MEDIA_SND_OUT;
 
           else
           {
-            return_value_strlen$3=strlen(md->node);
-            if((signed int)md->node[-1l + (signed long int)return_value_strlen$3] == 99)
+            return_value_strlen_3=strlen(md->node);
+            if((signed int)md->node[-1l + (signed long int)return_value_strlen_3] == 99)
               md->type = (enum device_type)MEDIA_SND_CAP;
 
           }
@@ -12247,94 +12247,94 @@ static signed int add_snd_class(struct media_device_entry *md)
       }
     }
   }
-  if(add_snd_class$$1$$c == 65535u)
+  if(add_snd_class__1__c == 65535u)
     return 0;
 
   else
   {
     if(d == 65535u)
-      snprintf(node, sizeof(char [64l]) /*64ul*/ , "hw:%u", add_snd_class$$1$$c);
+      snprintf(node, sizeof(char [64l]) /*64ul*/ , "hw:%u", add_snd_class__1__c);
 
     else
-      snprintf(node, sizeof(char [64l]) /*64ul*/ , "hw:%u,%u", add_snd_class$$1$$c, d);
+      snprintf(node, sizeof(char [64l]) /*64ul*/ , "hw:%u,%u", add_snd_class__1__c, d);
     free((void *)md->node);
     md->node=strdup(node);
     return 0;
   }
 }
 
-// add_snd_class$link1
+// add_snd_class_link1
 // file common/get_media_devices.c line 232
-static signed int add_snd_class$link1(struct media_device_entry *md$link1)
+static signed int add_snd_class_link1(struct media_device_entry *md_link1)
 {
-  unsigned int c$link1 = (unsigned int)65535;
-  unsigned int d$link1 = (unsigned int)65535;
-  char node$link1[64l];
-  char *return_value_strstr$2$link1;
-  return_value_strstr$2$link1=strstr(md$link1->node, "timer");
-  char *return_value_strstr$1$link1;
-  if(!(return_value_strstr$2$link1 == ((char *)NULL)))
+  unsigned int c_link1 = (unsigned int)65535;
+  unsigned int d_link1 = (unsigned int)65535;
+  char node_link1[64l];
+  char *return_value_strstr_2_link1;
+  return_value_strstr_2_link1=strstr(md_link1->node, "timer");
+  char *return_value_strstr_1_link1;
+  if(!(return_value_strstr_2_link1 == ((char *)NULL)))
   {
-    md$link1->type = (enum device_type)MEDIA_SND_TIMER;
+    md_link1->type = (enum device_type)MEDIA_SND_TIMER;
     return 0;
   }
 
   else
   {
-    return_value_strstr$1$link1=strstr(md$link1->node, "seq");
-    if(!(return_value_strstr$1$link1 == ((char *)NULL)))
+    return_value_strstr_1_link1=strstr(md_link1->node, "seq");
+    if(!(return_value_strstr_1_link1 == ((char *)NULL)))
     {
-      md$link1->type = (enum device_type)MEDIA_SND_SEQ;
+      md_link1->type = (enum device_type)MEDIA_SND_SEQ;
       return 0;
     }
 
   }
-  char *return_value_strstr$8$link1;
-  return_value_strstr$8$link1=strstr(md$link1->node, "card");
-  char *return_value_strstr$7$link1;
-  char *return_value_strstr$6$link1;
-  char *return_value_strstr$5$link1;
-  unsigned long int return_value_strlen$3$link1;
-  if(!(return_value_strstr$8$link1 == ((char *)NULL)))
+  char *return_value_strstr_8_link1;
+  return_value_strstr_8_link1=strstr(md_link1->node, "card");
+  char *return_value_strstr_7_link1;
+  char *return_value_strstr_6_link1;
+  char *return_value_strstr_5_link1;
+  unsigned long int return_value_strlen_3_link1;
+  if(!(return_value_strstr_8_link1 == ((char *)NULL)))
   {
-    sscanf(md$link1->node, "card%u", &c$link1);
-    md$link1->type = (enum device_type)MEDIA_SND_CARD;
+    sscanf(md_link1->node, "card%u", &c_link1);
+    md_link1->type = (enum device_type)MEDIA_SND_CARD;
   }
 
   else
   {
-    return_value_strstr$7$link1=strstr(md$link1->node, "hw");
-    if(!(return_value_strstr$7$link1 == ((char *)NULL)))
+    return_value_strstr_7_link1=strstr(md_link1->node, "hw");
+    if(!(return_value_strstr_7_link1 == ((char *)NULL)))
     {
-      sscanf(md$link1->node, "hwC%uD%u", &c$link1, &d$link1);
-      md$link1->type = (enum device_type)MEDIA_SND_HW;
+      sscanf(md_link1->node, "hwC%uD%u", &c_link1, &d_link1);
+      md_link1->type = (enum device_type)MEDIA_SND_HW;
     }
 
     else
     {
-      return_value_strstr$6$link1=strstr(md$link1->node, "control");
-      if(!(return_value_strstr$6$link1 == ((char *)NULL)))
+      return_value_strstr_6_link1=strstr(md_link1->node, "control");
+      if(!(return_value_strstr_6_link1 == ((char *)NULL)))
       {
-        sscanf(md$link1->node, "controlC%u", &c$link1);
-        md$link1->type = (enum device_type)MEDIA_SND_CONTROL;
+        sscanf(md_link1->node, "controlC%u", &c_link1);
+        md_link1->type = (enum device_type)MEDIA_SND_CONTROL;
       }
 
       else
       {
-        return_value_strstr$5$link1=strstr(md$link1->node, "pcm");
-        if(!(return_value_strstr$5$link1 == ((char *)NULL)))
+        return_value_strstr_5_link1=strstr(md_link1->node, "pcm");
+        if(!(return_value_strstr_5_link1 == ((char *)NULL)))
         {
-          sscanf(md$link1->node, "pcmC%uD%u", &c$link1, &d$link1);
-          unsigned long int return_value_strlen$4$link1;
-          return_value_strlen$4$link1=strlen(md$link1->node);
-          if((signed int)md$link1->node[-1l + (signed long int)return_value_strlen$4$link1] == 112)
-            md$link1->type = (enum device_type)MEDIA_SND_OUT;
+          sscanf(md_link1->node, "pcmC%uD%u", &c_link1, &d_link1);
+          unsigned long int return_value_strlen_4_link1;
+          return_value_strlen_4_link1=strlen(md_link1->node);
+          if((signed int)md_link1->node[-1l + (signed long int)return_value_strlen_4_link1] == 112)
+            md_link1->type = (enum device_type)MEDIA_SND_OUT;
 
           else
           {
-            return_value_strlen$3$link1=strlen(md$link1->node);
-            if((signed int)md$link1->node[-1l + (signed long int)return_value_strlen$3$link1] == 99)
-              md$link1->type = (enum device_type)MEDIA_SND_CAP;
+            return_value_strlen_3_link1=strlen(md_link1->node);
+            if((signed int)md_link1->node[-1l + (signed long int)return_value_strlen_3_link1] == 99)
+              md_link1->type = (enum device_type)MEDIA_SND_CAP;
 
           }
         }
@@ -12342,18 +12342,18 @@ static signed int add_snd_class$link1(struct media_device_entry *md$link1)
       }
     }
   }
-  if(c$link1 == 65535u)
+  if(c_link1 == 65535u)
     return 0;
 
   else
   {
-    if(d$link1 == 65535u)
-      snprintf(node$link1, sizeof(char [64l]) /*64ul*/ , "hw:%u", c$link1);
+    if(d_link1 == 65535u)
+      snprintf(node_link1, sizeof(char [64l]) /*64ul*/ , "hw:%u", c_link1);
 
     else
-      snprintf(node$link1, sizeof(char [64l]) /*64ul*/ , "hw:%u,%u", c$link1, d$link1);
-    free((void *)md$link1->node);
-    md$link1->node=strdup(node$link1);
+      snprintf(node_link1, sizeof(char [64l]) /*64ul*/ , "hw:%u,%u", c_link1, d_link1);
+    free((void *)md_link1->node);
+    md_link1->node=strdup(node_link1);
     return 0;
   }
 }
@@ -12362,30 +12362,30 @@ static signed int add_snd_class$link1(struct media_device_entry *md$link1)
 // file common/get_media_devices.c line 218
 static signed int add_v4l_class(struct media_device_entry *md)
 {
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(md->node, "video");
-  char *return_value_strstr$3;
-  char *return_value_strstr$2;
-  char *return_value_strstr$1;
-  if(!(return_value_strstr$4 == ((char *)NULL)))
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(md->node, "video");
+  char *return_value_strstr_3;
+  char *return_value_strstr_2;
+  char *return_value_strstr_1;
+  if(!(return_value_strstr_4 == ((char *)NULL)))
     md->type = (enum device_type)MEDIA_V4L_VIDEO;
 
   else
   {
-    return_value_strstr$3=strstr(md->node, "vbi");
-    if(!(return_value_strstr$3 == ((char *)NULL)))
+    return_value_strstr_3=strstr(md->node, "vbi");
+    if(!(return_value_strstr_3 == ((char *)NULL)))
       md->type = (enum device_type)MEDIA_V4L_VBI;
 
     else
     {
-      return_value_strstr$2=strstr(md->node, "radio");
-      if(!(return_value_strstr$2 == ((char *)NULL)))
+      return_value_strstr_2=strstr(md->node, "radio");
+      if(!(return_value_strstr_2 == ((char *)NULL)))
         md->type = (enum device_type)MEDIA_V4L_RADIO;
 
       else
       {
-        return_value_strstr$1=strstr(md->node, "v4l-subdev");
-        if(!(return_value_strstr$1 == ((char *)NULL)))
+        return_value_strstr_1=strstr(md->node, "v4l-subdev");
+        if(!(return_value_strstr_1 == ((char *)NULL)))
           md->type = (enum device_type)MEDIA_V4L_SUBDEV;
 
       }
@@ -12394,35 +12394,35 @@ static signed int add_v4l_class(struct media_device_entry *md)
   return 0;
 }
 
-// add_v4l_class$link1
+// add_v4l_class_link1
 // file common/get_media_devices.c line 218
-static signed int add_v4l_class$link1(struct media_device_entry *md$link1)
+static signed int add_v4l_class_link1(struct media_device_entry *md_link1)
 {
-  char *return_value_strstr$4$link1;
-  return_value_strstr$4$link1=strstr(md$link1->node, "video");
-  char *return_value_strstr$3$link1;
-  char *return_value_strstr$2$link1;
-  char *return_value_strstr$1$link1;
-  if(!(return_value_strstr$4$link1 == ((char *)NULL)))
-    md$link1->type = (enum device_type)MEDIA_V4L_VIDEO;
+  char *return_value_strstr_4_link1;
+  return_value_strstr_4_link1=strstr(md_link1->node, "video");
+  char *return_value_strstr_3_link1;
+  char *return_value_strstr_2_link1;
+  char *return_value_strstr_1_link1;
+  if(!(return_value_strstr_4_link1 == ((char *)NULL)))
+    md_link1->type = (enum device_type)MEDIA_V4L_VIDEO;
 
   else
   {
-    return_value_strstr$3$link1=strstr(md$link1->node, "vbi");
-    if(!(return_value_strstr$3$link1 == ((char *)NULL)))
-      md$link1->type = (enum device_type)MEDIA_V4L_VBI;
+    return_value_strstr_3_link1=strstr(md_link1->node, "vbi");
+    if(!(return_value_strstr_3_link1 == ((char *)NULL)))
+      md_link1->type = (enum device_type)MEDIA_V4L_VBI;
 
     else
     {
-      return_value_strstr$2$link1=strstr(md$link1->node, "radio");
-      if(!(return_value_strstr$2$link1 == ((char *)NULL)))
-        md$link1->type = (enum device_type)MEDIA_V4L_RADIO;
+      return_value_strstr_2_link1=strstr(md_link1->node, "radio");
+      if(!(return_value_strstr_2_link1 == ((char *)NULL)))
+        md_link1->type = (enum device_type)MEDIA_V4L_RADIO;
 
       else
       {
-        return_value_strstr$1$link1=strstr(md$link1->node, "v4l-subdev");
-        if(!(return_value_strstr$1$link1 == ((char *)NULL)))
-          md$link1->type = (enum device_type)MEDIA_V4L_SUBDEV;
+        return_value_strstr_1_link1=strstr(md_link1->node, "v4l-subdev");
+        if(!(return_value_strstr_1_link1 == ((char *)NULL)))
+          md_link1->type = (enum device_type)MEDIA_V4L_SUBDEV;
 
       }
     }
@@ -12437,45 +12437,45 @@ static signed int alsa_stream(const char *pdevice, const char *cdevice, signed i
   struct _snd_pcm *phandle;
   struct _snd_pcm *chandle;
   char *buffer;
-  signed int alsa_stream$$1$$err;
+  signed int alsa_stream__1__err;
   signed long int r;
   struct final_params negotiated;
   enum _snd_pcm_format format = (enum _snd_pcm_format)SND_PCM_FORMAT_S16_LE;
   char pdevice_new[32l];
-  alsa_stream$$1$$err=snd_output_stdio_attach(&output, error_fp, 0);
-  if(!(alsa_stream$$1$$err >= 0))
+  alsa_stream__1__err=snd_output_stdio_attach(&output, error_fp, 0);
+  if(!(alsa_stream__1__err >= 0))
   {
-    const char *return_value_snd_strerror$1;
-    return_value_snd_strerror$1=snd_strerror(alsa_stream$$1$$err);
-    fprintf(error_fp, "alsa: Output failed: %s\n", return_value_snd_strerror$1);
+    const char *return_value_snd_strerror_1;
+    return_value_snd_strerror_1=snd_strerror(alsa_stream__1__err);
+    fprintf(error_fp, "alsa: Output failed: %s\n", return_value_snd_strerror_1);
     return 0;
   }
 
-  alsa_stream$$1$$err=snd_pcm_open(&phandle, pdevice, (enum _snd_pcm_stream)SND_PCM_STREAM_PLAYBACK, 0);
-  if(!(alsa_stream$$1$$err >= 0))
+  alsa_stream__1__err=snd_pcm_open(&phandle, pdevice, (enum _snd_pcm_stream)SND_PCM_STREAM_PLAYBACK, 0);
+  if(!(alsa_stream__1__err >= 0))
   {
-    const char *return_value_snd_strerror$2;
-    return_value_snd_strerror$2=snd_strerror(alsa_stream$$1$$err);
-    fprintf(error_fp, "alsa: Cannot open playback device %s: %s\n", pdevice, return_value_snd_strerror$2);
+    const char *return_value_snd_strerror_2;
+    return_value_snd_strerror_2=snd_strerror(alsa_stream__1__err);
+    fprintf(error_fp, "alsa: Cannot open playback device %s: %s\n", pdevice, return_value_snd_strerror_2);
     return 0;
   }
 
-  alsa_stream$$1$$err=snd_pcm_open(&chandle, cdevice, (enum _snd_pcm_stream)SND_PCM_STREAM_CAPTURE, 0x00000001);
-  if(!(alsa_stream$$1$$err >= 0))
+  alsa_stream__1__err=snd_pcm_open(&chandle, cdevice, (enum _snd_pcm_stream)SND_PCM_STREAM_CAPTURE, 0x00000001);
+  if(!(alsa_stream__1__err >= 0))
   {
-    const char *return_value_snd_strerror$3;
-    return_value_snd_strerror$3=snd_strerror(alsa_stream$$1$$err);
-    fprintf(error_fp, "alsa: Cannot open capture device %s: %s\n", cdevice, return_value_snd_strerror$3);
+    const char *return_value_snd_strerror_3;
+    return_value_snd_strerror_3=snd_strerror(alsa_stream__1__err);
+    fprintf(error_fp, "alsa: Cannot open capture device %s: %s\n", cdevice, return_value_snd_strerror_3);
     snd_pcm_close(phandle);
     return 0;
   }
 
-  alsa_stream$$1$$err=setparams(phandle, chandle, format, latency, 0, &negotiated);
-  signed int return_value_strncmp$5;
-  if(alsa_stream$$1$$err == 2)
+  alsa_stream__1__err=setparams(phandle, chandle, format, latency, 0, &negotiated);
+  signed int return_value_strncmp_5;
+  if(alsa_stream__1__err == 2)
   {
-    return_value_strncmp$5=strncmp(pdevice, "hw", (unsigned long int)2);
-    if(return_value_strncmp$5 == 0)
+    return_value_strncmp_5=strncmp(pdevice, "hw", (unsigned long int)2);
+    if(return_value_strncmp_5 == 0)
     {
       snd_pcm_close(phandle);
       sprintf(pdevice_new, "plug%s", pdevice);
@@ -12483,23 +12483,23 @@ static signed int alsa_stream(const char *pdevice, const char *cdevice, signed i
       if(!(verbose == 0))
         fprintf(error_fp, "alsa: Trying %s for playback\n", pdevice);
 
-      alsa_stream$$1$$err=snd_pcm_open(&phandle, pdevice, (enum _snd_pcm_stream)SND_PCM_STREAM_PLAYBACK, 0);
-      if(!(alsa_stream$$1$$err >= 0))
+      alsa_stream__1__err=snd_pcm_open(&phandle, pdevice, (enum _snd_pcm_stream)SND_PCM_STREAM_PLAYBACK, 0);
+      if(!(alsa_stream__1__err >= 0))
       {
-        const char *return_value_snd_strerror$4;
-        return_value_snd_strerror$4=snd_strerror(alsa_stream$$1$$err);
-        fprintf(error_fp, "alsa: Cannot open playback device %s: %s\n", pdevice, return_value_snd_strerror$4);
+        const char *return_value_snd_strerror_4;
+        return_value_snd_strerror_4=snd_strerror(alsa_stream__1__err);
+        fprintf(error_fp, "alsa: Cannot open playback device %s: %s\n", pdevice, return_value_snd_strerror_4);
         snd_pcm_close(chandle);
         return 0;
       }
 
-      alsa_stream$$1$$err=setparams(phandle, chandle, format, latency, 1, &negotiated);
+      alsa_stream__1__err=setparams(phandle, chandle, format, latency, 1, &negotiated);
     }
 
   }
 
-  signed int return_value_snd_pcm_wait$8;
-  if(!(alsa_stream$$1$$err == 0))
+  signed int return_value_snd_pcm_wait_8;
+  if(!(alsa_stream__1__err == 0))
   {
     fprintf(error_fp, "alsa: setparams failed\n");
     snd_pcm_close(phandle);
@@ -12509,11 +12509,11 @@ static signed int alsa_stream(const char *pdevice, const char *cdevice, signed i
 
   else
   {
-    signed int return_value_snd_pcm_format_width$6;
-    return_value_snd_pcm_format_width$6=snd_pcm_format_width(format);
-    void *return_value_malloc$7;
-    return_value_malloc$7=malloc((unsigned long int)(((negotiated.bufsize * return_value_snd_pcm_format_width$6) / 8) * negotiated.channels));
-    buffer = (char *)return_value_malloc$7;
+    signed int return_value_snd_pcm_format_width_6;
+    return_value_snd_pcm_format_width_6=snd_pcm_format_width(format);
+    void *return_value_malloc_7;
+    return_value_malloc_7=malloc((unsigned long int)(((negotiated.bufsize * return_value_snd_pcm_format_width_6) / 8) * negotiated.channels));
+    buffer = (char *)return_value_malloc_7;
     if(buffer == ((char *)NULL))
     {
       fprintf(error_fp, "alsa: Failed allocating buffer for audio\n");
@@ -12537,8 +12537,8 @@ static signed int alsa_stream(const char *pdevice, const char *cdevice, signed i
 
           while(stop_alsa == 0)
           {
-            return_value_snd_pcm_wait$8=snd_pcm_wait(chandle, 50);
-            if(!(return_value_snd_pcm_wait$8 == 0))
+            return_value_snd_pcm_wait_8=snd_pcm_wait(chandle, 50);
+            if(!(return_value_snd_pcm_wait_8 == 0))
               break;
 
           }
@@ -12588,19 +12588,19 @@ signed int alsa_thread_startup(const char *pdevice, const char *cdevice, signed 
 {
   signed int ret;
   struct input_params *inputs;
-  signed int return_value_strcasecmp$1;
-  return_value_strcasecmp$1=strcasecmp(pdevice, "disabled");
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  if(return_value_strcasecmp$1 == 0)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_strcasecmp_1;
+  return_value_strcasecmp_1=strcasecmp(pdevice, "disabled");
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  if(return_value_strcasecmp_1 == 0)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strcasecmp$2=strcasecmp(cdevice, "disabled");
-    tmp_if_expr$3 = return_value_strcasecmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_2=strcasecmp(cdevice, "disabled");
+    tmp_if_expr_3 = return_value_strcasecmp_2 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     return 0;
 
   else
@@ -12619,9 +12619,9 @@ signed int alsa_thread_startup(const char *pdevice, const char *cdevice, signed 
 
     else
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(struct input_params) /*24ul*/ );
-      inputs = (struct input_params *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(struct input_params) /*24ul*/ );
+      inputs = (struct input_params *)return_value_malloc_4;
       if(inputs == ((struct input_params *)NULL))
       {
         fprintf(error_fp, "alsa: failed allocating memory for inputs\n");
@@ -12661,17 +12661,17 @@ void alsa_thread_stop(void)
 // file common/alsa_stream.c line 222
 static signed int alsa_try_rate(struct _snd_pcm *phandle, struct _snd_pcm *chandle, struct _snd_pcm_hw_params *p_hwparams, struct _snd_pcm_hw_params *c_hwparams, signed int allow_resample, unsigned int *ratep, unsigned int *ratec)
 {
-  signed int alsa_try_rate$$1$$err;
-  alsa_try_rate$$1$$err=snd_pcm_hw_params_set_rate_near(chandle, c_hwparams, ratec, ((signed int *)NULL));
-  if(!(alsa_try_rate$$1$$err == 0))
-    return alsa_try_rate$$1$$err;
+  signed int alsa_try_rate__1__err;
+  alsa_try_rate__1__err=snd_pcm_hw_params_set_rate_near(chandle, c_hwparams, ratec, ((signed int *)NULL));
+  if(!(alsa_try_rate__1__err == 0))
+    return alsa_try_rate__1__err;
 
   else
   {
     *ratep = *ratec;
-    alsa_try_rate$$1$$err=snd_pcm_hw_params_set_rate_near(phandle, p_hwparams, ratep, ((signed int *)NULL));
-    if(!(alsa_try_rate$$1$$err == 0))
-      return alsa_try_rate$$1$$err;
+    alsa_try_rate__1__err=snd_pcm_hw_params_set_rate_near(phandle, p_hwparams, ratep, ((signed int *)NULL));
+    if(!(alsa_try_rate__1__err == 0))
+      return alsa_try_rate__1__err;
 
     else
       if(*ratep == *ratec)
@@ -12694,27 +12694,27 @@ static signed int attr_handler(char *name, signed int argc, char **argv)
   struct ng_attribute *attr;
   signed int val;
   signed int arg = 0;
-  signed int return_value_strcasecmp$4;
-  return_value_strcasecmp$4=strcasecmp(name, "setnorm");
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  if(return_value_strcasecmp$4 == 0)
+  signed int return_value_strcasecmp_4;
+  return_value_strcasecmp_4=strcasecmp(name, "setnorm");
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  if(return_value_strcasecmp_4 == 0)
     attr=ng_attr_byname(attrs, "norm");
 
   else
   {
-    return_value_strcasecmp$3=strcasecmp(name, "setinput");
-    if(return_value_strcasecmp$3 == 0)
+    return_value_strcasecmp_3=strcasecmp(name, "setinput");
+    if(return_value_strcasecmp_3 == 0)
       attr=ng_attr_byname(attrs, "input");
 
     else
     {
-      return_value_strcasecmp$2=strcasecmp(name, "setattr");
-      if(return_value_strcasecmp$2 == 0 && argc >= 1)
+      return_value_strcasecmp_2=strcasecmp(name, "setattr");
+      if(return_value_strcasecmp_2 == 0 && argc >= 1)
       {
-        signed int tmp_post$1 = arg;
+        signed int tmp_post_1 = arg;
         arg = arg + 1;
-        attr=ng_attr_byname(attrs, argv[(signed long int)tmp_post$1]);
+        attr=ng_attr_byname(attrs, argv[(signed long int)tmp_post_1]);
       }
 
       else
@@ -12723,13 +12723,13 @@ static signed int attr_handler(char *name, signed int argc, char **argv)
   }
   if(attr == ((struct ng_attribute *)NULL))
   {
-    char *tmp_if_expr$5;
+    char *tmp_if_expr_5;
     if(arg >= 1)
-      tmp_if_expr$5 = argv[(signed long int)0];
+      tmp_if_expr_5 = argv[(signed long int)0];
 
     else
-      tmp_if_expr$5 = name;
-    fprintf(stderr, "cmd: %s: attribute not found\nvalid choices are:", tmp_if_expr$5);
+      tmp_if_expr_5 = name;
+    fprintf(stderr, "cmd: %s: attribute not found\nvalid choices are:", tmp_if_expr_5);
     attr = attrs;
     for( ; !(attr->name == ((const char *)NULL)); attr = attr + 1l)
       fprintf(stderr, "%s \"%s\"", attr != attrs ? "," : "", attr->name);
@@ -12748,9 +12748,9 @@ static signed int attr_handler(char *name, signed int argc, char **argv)
       {
         if(!(arg >= argc))
         {
-          signed int return_value_strcasecmp$6;
-          return_value_strcasecmp$6=strcasecmp("next", argv[(signed long int)arg]);
-          if(return_value_strcasecmp$6 == 0)
+          signed int return_value_strcasecmp_6;
+          return_value_strcasecmp_6=strcasecmp("next", argv[(signed long int)arg]);
+          if(return_value_strcasecmp_6 == 0)
           {
             val = cur_attrs[(signed long int)attr->id];
             val = val + 1;
@@ -12795,9 +12795,9 @@ static signed int attr_handler(char *name, signed int argc, char **argv)
           val=str_to_int(argv[(signed long int)arg], booltab);
           if(val == -1)
           {
-            signed int return_value_strcasecmp$7;
-            return_value_strcasecmp$7=strcasecmp(argv[(signed long int)arg], "toggle");
-            if(return_value_strcasecmp$7 == 0)
+            signed int return_value_strcasecmp_7;
+            return_value_strcasecmp_7=strcasecmp(argv[(signed long int)arg], "toggle");
+            if(return_value_strcasecmp_7 == 0)
               val = (signed int)!(cur_attrs[(signed long int)attr->id] != 0);
 
           }
@@ -12822,24 +12822,24 @@ void attr_init(void)
   struct ng_attribute *attr;
   signed int val;
   attr = attrs;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(attr == ((struct ng_attribute *)NULL)))
-      tmp_if_expr$1 = attr->name != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = attr->name != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(attr->id == 3)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = attr->id == 4 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = attr->id == 4 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       val=attr->read(attr);
       if(!(attr_notify == ((void (*)(struct ng_attribute *, signed int))NULL)))
@@ -12851,38 +12851,38 @@ void attr_init(void)
     attr = attr + 1l;
   }
   while((_Bool)1);
-  struct ng_attribute *return_value_ng_attr_byid$3;
+  struct ng_attribute *return_value_ng_attr_byid_3;
   if(defaults.color == -1)
   {
-    return_value_ng_attr_byid$3=ng_attr_byid(attrs, 6);
-    if(!(return_value_ng_attr_byid$3 == ((struct ng_attribute *)NULL)))
+    return_value_ng_attr_byid_3=ng_attr_byid(attrs, 6);
+    if(!(return_value_ng_attr_byid_3 == ((struct ng_attribute *)NULL)))
       defaults.color = cur_attrs[(signed long int)6];
 
   }
 
-  struct ng_attribute *return_value_ng_attr_byid$4;
+  struct ng_attribute *return_value_ng_attr_byid_4;
   if(defaults.bright == -1)
   {
-    return_value_ng_attr_byid$4=ng_attr_byid(attrs, 7);
-    if(!(return_value_ng_attr_byid$4 == ((struct ng_attribute *)NULL)))
+    return_value_ng_attr_byid_4=ng_attr_byid(attrs, 7);
+    if(!(return_value_ng_attr_byid_4 == ((struct ng_attribute *)NULL)))
       defaults.bright = cur_attrs[(signed long int)7];
 
   }
 
-  struct ng_attribute *return_value_ng_attr_byid$5;
+  struct ng_attribute *return_value_ng_attr_byid_5;
   if(defaults.hue == -1)
   {
-    return_value_ng_attr_byid$5=ng_attr_byid(attrs, 8);
-    if(!(return_value_ng_attr_byid$5 == ((struct ng_attribute *)NULL)))
+    return_value_ng_attr_byid_5=ng_attr_byid(attrs, 8);
+    if(!(return_value_ng_attr_byid_5 == ((struct ng_attribute *)NULL)))
       defaults.hue = cur_attrs[(signed long int)8];
 
   }
 
-  struct ng_attribute *return_value_ng_attr_byid$6;
+  struct ng_attribute *return_value_ng_attr_byid_6;
   if(defaults.contrast == -1)
   {
-    return_value_ng_attr_byid$6=ng_attr_byid(attrs, 9);
-    if(!(return_value_ng_attr_byid$6 == ((struct ng_attribute *)NULL)))
+    return_value_ng_attr_byid_6=ng_attr_byid(attrs, 9);
+    if(!(return_value_ng_attr_byid_6 == ((struct ng_attribute *)NULL)))
       defaults.contrast = cur_attrs[(signed long int)9];
 
   }
@@ -12927,32 +12927,32 @@ static void bgr24_to_bgr32(unsigned char * restrict dest, unsigned char * restri
 {
   unsigned char * restrict s = src;
   unsigned char * restrict d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    unsigned char * restrict tmp_post$2 = d;
+    unsigned char * restrict tmp_post_2 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$3 = s;
+    unsigned char * restrict tmp_post_3 = s;
     s = s + 1l;
-    *tmp_post$2 = *tmp_post$3;
-    unsigned char * restrict tmp_post$4 = d;
+    *tmp_post_2 = *tmp_post_3;
+    unsigned char * restrict tmp_post_4 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$5 = s;
+    unsigned char * restrict tmp_post_5 = s;
     s = s + 1l;
-    *tmp_post$4 = *tmp_post$5;
-    unsigned char * restrict tmp_post$6 = d;
+    *tmp_post_4 = *tmp_post_5;
+    unsigned char * restrict tmp_post_6 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$7 = s;
+    unsigned char * restrict tmp_post_7 = s;
     s = s + 1l;
-    *tmp_post$6 = *tmp_post$7;
-    unsigned char * restrict tmp_post$8 = d;
+    *tmp_post_6 = *tmp_post_7;
+    unsigned char * restrict tmp_post_8 = d;
     d = d + 1l;
-    *tmp_post$8 = (unsigned char)0;
+    *tmp_post_8 = (unsigned char)0;
   }
   while((_Bool)1);
 }
@@ -12962,17 +12962,17 @@ static void bgr24_to_bgr32(unsigned char * restrict dest, unsigned char * restri
 static void bgr24_to_lut2(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned short int * restrict d = (unsigned short int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
     src = src + (signed long int)3;
   }
   while((_Bool)1);
@@ -12983,17 +12983,17 @@ static void bgr24_to_lut2(unsigned char * restrict dest, unsigned char * restric
 static void bgr24_to_lut4(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned int * restrict d = (unsigned int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
     src = src + (signed long int)3;
   }
   while((_Bool)1);
@@ -13005,26 +13005,26 @@ static void bgr24_to_rgb32(unsigned char * restrict dest, unsigned char * restri
 {
   unsigned char * restrict s = src;
   unsigned char * restrict d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    unsigned char * restrict tmp_post$2 = d;
+    unsigned char * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned char)0;
-    unsigned char * restrict tmp_post$3 = d;
+    *tmp_post_2 = (unsigned char)0;
+    unsigned char * restrict tmp_post_3 = d;
     d = d + 1l;
-    *tmp_post$3 = s[(signed long int)2];
-    unsigned char * restrict tmp_post$4 = d;
+    *tmp_post_3 = s[(signed long int)2];
+    unsigned char * restrict tmp_post_4 = d;
     d = d + 1l;
-    *tmp_post$4 = s[(signed long int)1];
-    unsigned char * restrict tmp_post$5 = d;
+    *tmp_post_4 = s[(signed long int)1];
+    unsigned char * restrict tmp_post_5 = d;
     d = d + 1l;
-    *tmp_post$5 = s[(signed long int)0];
+    *tmp_post_5 = s[(signed long int)0];
     s = s + (signed long int)3;
   }
   while((_Bool)1);
@@ -13035,17 +13035,17 @@ static void bgr24_to_rgb32(unsigned char * restrict dest, unsigned char * restri
 static void bgr32_to_lut2(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned short int * restrict d = (unsigned short int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
     src = src + (signed long int)4;
   }
   while((_Bool)1);
@@ -13056,17 +13056,17 @@ static void bgr32_to_lut2(unsigned char * restrict dest, unsigned char * restric
 static void bgr32_to_lut4(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned int * restrict d = (unsigned int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
     src = src + (signed long int)4;
   }
   while((_Bool)1);
@@ -13083,8 +13083,8 @@ void blit_fini(struct blit_state *st)
 // file x11/blit.h line 31
 void blit_fini_frame(struct blit_state *st)
 {
-  struct _XDisplay *return_value_XtDisplay$3;
-  unsigned long int return_value_XtWindow$4;
+  struct _XDisplay *return_value_XtDisplay_3;
+  unsigned long int return_value_XtWindow_4;
   switch((signed int)st->status)
   {
     case STATUS_CONVERT:
@@ -13097,9 +13097,9 @@ void blit_fini_frame(struct blit_state *st)
 
       if(!(st->ximage == ((struct _XImage *)NULL)))
       {
-        struct _XDisplay *return_value_XtDisplay$1;
-        return_value_XtDisplay$1=XtDisplay(st->widget);
-        x11_destroy_ximage(return_value_XtDisplay$1, st->ximage, st->shm);
+        struct _XDisplay *return_value_XtDisplay_1;
+        return_value_XtDisplay_1=XtDisplay(st->widget);
+        x11_destroy_ximage(return_value_XtDisplay_1, st->ximage, st->shm);
         st->ximage = (struct _XImage *)(void *)0;
       }
 
@@ -13107,17 +13107,17 @@ void blit_fini_frame(struct blit_state *st)
     }
     case STATUS_XVIDEO:
     {
-      if(!(st->xvimage == ((struct anonymous$3 *)NULL)))
+      if(!(st->xvimage == ((struct anonymous_3 *)NULL)))
       {
-        struct _XDisplay *return_value_XtDisplay$2;
-        return_value_XtDisplay$2=XtDisplay(st->widget);
-        xv_destroy_ximage(return_value_XtDisplay$2, st->xvimage, st->shm);
-        st->xvimage = (struct anonymous$3 *)(void *)0;
+        struct _XDisplay *return_value_XtDisplay_2;
+        return_value_XtDisplay_2=XtDisplay(st->widget);
+        xv_destroy_ximage(return_value_XtDisplay_2, st->xvimage, st->shm);
+        st->xvimage = (struct anonymous_3 *)(void *)0;
       }
 
-      return_value_XtDisplay$3=XtDisplay(st->widget);
-      return_value_XtWindow$4=XtWindow(st->widget);
-      XvStopVideo(return_value_XtDisplay$3, (unsigned long int)im_port, return_value_XtWindow$4);
+      return_value_XtDisplay_3=XtDisplay(st->widget);
+      return_value_XtWindow_4=XtWindow(st->widget);
+      XvStopVideo(return_value_XtDisplay_3, (unsigned long int)im_port, return_value_XtWindow_4);
       goto __CPROVER_DUMP_L8;
     }
     case STATUS_OPENGL:
@@ -13159,16 +13159,16 @@ void blit_get_formats(struct blit_state *st, signed int *fmtids, signed int max)
   {
     if(!(im_formats[(signed long int)i] == 0u))
     {
-      signed int tmp_post$1 = n;
+      signed int tmp_post_1 = n;
       n = n + 1;
-      fmtids[(signed long int)tmp_post$1] = i;
+      fmtids[(signed long int)tmp_post_1] = i;
     }
 
     if(n == max)
       goto __CPROVER_DUMP_L18;
 
   }
-  signed int return_value_gl_ext$3;
+  signed int return_value_gl_ext_3;
   if(!(have_gl == 0))
   {
     i = 0;
@@ -13176,20 +13176,20 @@ void blit_get_formats(struct blit_state *st, signed int *fmtids, signed int max)
     {
       if(!(gl_formats[(signed long int)i].fmt == 0))
       {
-        _Bool tmp_if_expr$4;
+        _Bool tmp_if_expr_4;
         if(gl_formats[(signed long int)i].ext == ((char *)NULL))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_gl_ext$3=gl_ext((unsigned char *)gl_formats[(signed long int)i].ext);
-          tmp_if_expr$4 = return_value_gl_ext$3 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_gl_ext_3=gl_ext((unsigned char *)gl_formats[(signed long int)i].ext);
+          tmp_if_expr_4 = return_value_gl_ext_3 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
-          signed int tmp_post$2 = n;
+          signed int tmp_post_2 = n;
           n = n + 1;
-          fmtids[(signed long int)tmp_post$2] = i;
+          fmtids[(signed long int)tmp_post_2] = i;
         }
 
       }
@@ -13200,9 +13200,9 @@ void blit_get_formats(struct blit_state *st, signed int *fmtids, signed int max)
     }
   }
 
-  signed int tmp_post$5 = n;
+  signed int tmp_post_5 = n;
   n = n + 1;
-  fmtids[(signed long int)tmp_post$5] = (signed int)x11_dpy_fmtid;
+  fmtids[(signed long int)tmp_post_5] = (signed int)x11_dpy_fmtid;
   if(!(n == max))
   {
     i = 0;
@@ -13212,9 +13212,9 @@ void blit_get_formats(struct blit_state *st, signed int *fmtids, signed int max)
       if(conv == ((struct ng_video_conv *)NULL))
         break;
 
-      signed int tmp_post$6 = n;
+      signed int tmp_post_6 = n;
       n = n + 1;
-      fmtids[(signed long int)tmp_post$6] = (signed int)conv->fmtid_in;
+      fmtids[(signed long int)tmp_post_6] = (signed int)conv->fmtid_in;
       if(n == max)
         goto __CPROVER_DUMP_L18;
 
@@ -13231,31 +13231,31 @@ __CPROVER_DUMP_L18:
 
 // blit_init
 // file x11/blit.h line 27
-struct blit_state * blit_init(struct _WidgetRec *widget, struct anonymous$1 *vinfo, signed int use_gl)
+struct blit_state * blit_init(struct _WidgetRec *widget, struct anonymous_1 *vinfo, signed int use_gl)
 {
   struct blit_state *st;
   if(!(debug == 0))
     fprintf(stderr, "blit: init\n");
 
-  unsigned long int return_value_XtWindow$1;
-  return_value_XtWindow$1=XtWindow(widget);
-  if(return_value_XtWindow$1 == 0ul)
+  unsigned long int return_value_XtWindow_1;
+  return_value_XtWindow_1=XtWindow(widget);
+  if(return_value_XtWindow_1 == 0ul)
   {
     fprintf(stderr, "BUG: %s [%s:%d]\n", (const void *)"no blit window", (const void *)"x11/blit.c", 707);
     exit(1);
   }
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct blit_state) /*288ul*/ );
-  st = (struct blit_state *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct blit_state) /*288ul*/ );
+  st = (struct blit_state *)return_value_malloc_2;
   memset((void *)st, 0, sizeof(struct blit_state) /*288ul*/ );
   st->widget = widget;
   st->vinfo = vinfo;
-  struct _XDisplay *return_value_XtDisplay$3;
-  return_value_XtDisplay$3=XtDisplay(st->widget);
-  unsigned long int return_value_XtWindow$4;
-  return_value_XtWindow$4=XtWindow(st->widget);
-  st->gc=XCreateGC(return_value_XtDisplay$3, return_value_XtWindow$4, (unsigned long int)0, (struct anonymous$75 *)(void *)0);
+  struct _XDisplay *return_value_XtDisplay_3;
+  return_value_XtDisplay_3=XtDisplay(st->widget);
+  unsigned long int return_value_XtWindow_4;
+  return_value_XtWindow_4=XtWindow(st->widget);
+  st->gc=XCreateGC(return_value_XtDisplay_3, return_value_XtWindow_4, (unsigned long int)0, (struct anonymous_75 *)(void *)0);
   if(!(use_gl == 0))
     gl_init(st->widget);
 
@@ -13270,9 +13270,9 @@ void blit_init_frame(struct blit_state *st, struct ng_video_fmt *fmt)
   signed int i;
   if(!(im_formats[(signed long int)fmt->fmtid] == 0u))
   {
-    struct _XDisplay *return_value_XtDisplay$1;
-    return_value_XtDisplay$1=XtDisplay(st->widget);
-    st->xvimage=xv_create_ximage(return_value_XtDisplay$1, (signed int)fmt->width, (signed int)fmt->height, (signed int)im_formats[(signed long int)fmt->fmtid], &st->shm);
+    struct _XDisplay *return_value_XtDisplay_1;
+    return_value_XtDisplay_1=XtDisplay(st->widget);
+    st->xvimage=xv_create_ximage(return_value_XtDisplay_1, (signed int)fmt->width, (signed int)fmt->height, (signed int)im_formats[(signed long int)fmt->fmtid], &st->shm);
     st->buf.fmt = *fmt;
     st->status = (enum blit_status)STATUS_XVIDEO;
     if(!(debug == 0))
@@ -13281,25 +13281,25 @@ void blit_init_frame(struct blit_state *st, struct ng_video_fmt *fmt)
     goto __CPROVER_DUMP_L18;
   }
 
-  signed int return_value_gl_ext$3;
-  signed int return_value_gl_resize$2;
+  signed int return_value_gl_ext_3;
+  signed int return_value_gl_resize_2;
   if(!(have_gl == 0))
   {
     if(!(gl_formats[(signed long int)fmt->fmtid].fmt == 0))
     {
-      _Bool tmp_if_expr$4;
+      _Bool tmp_if_expr_4;
       if(gl_formats[(signed long int)fmt->fmtid].ext == ((char *)NULL))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value_gl_ext$3=gl_ext((unsigned char *)gl_formats[(signed long int)fmt->fmtid].ext);
-        tmp_if_expr$4 = return_value_gl_ext$3 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_gl_ext_3=gl_ext((unsigned char *)gl_formats[(signed long int)fmt->fmtid].ext);
+        tmp_if_expr_4 = return_value_gl_ext_3 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
-        return_value_gl_resize$2=gl_resize((signed int)fmt->width, (signed int)fmt->height, (signed int)st->win_width, (signed int)st->win_height, &st->tex, &st->tw, &st->th, gl_formats[(signed long int)fmt->fmtid].fmt, gl_formats[(signed long int)fmt->fmtid].type);
-        if(return_value_gl_resize$2 == 0)
+        return_value_gl_resize_2=gl_resize((signed int)fmt->width, (signed int)fmt->height, (signed int)st->win_width, (signed int)st->win_height, &st->tex, &st->tw, &st->th, gl_formats[(signed long int)fmt->fmtid].fmt, gl_formats[(signed long int)fmt->fmtid].type);
+        if(return_value_gl_resize_2 == 0)
         {
           st->buf.fmt = *fmt;
           st->status = (enum blit_status)STATUS_OPENGL;
@@ -13315,9 +13315,9 @@ void blit_init_frame(struct blit_state *st, struct ng_video_fmt *fmt)
 
   }
 
-  struct _XDisplay *return_value_XtDisplay$5;
-  return_value_XtDisplay$5=XtDisplay(st->widget);
-  st->ximage=x11_create_ximage(return_value_XtDisplay$5, st->vinfo, (signed int)fmt->width, (signed int)fmt->height, &st->shm);
+  struct _XDisplay *return_value_XtDisplay_5;
+  return_value_XtDisplay_5=XtDisplay(st->widget);
+  st->ximage=x11_create_ximage(return_value_XtDisplay_5, st->vinfo, (signed int)fmt->width, (signed int)fmt->height, &st->shm);
   st->buf.data = (unsigned char *)st->ximage->data;
   if(x11_dpy_fmtid == fmt->fmtid)
   {
@@ -13390,10 +13390,10 @@ void blit_putframe(struct blit_state *st, struct ng_video_buf *buf)
   if(debug >= 2)
     fprintf(stderr, "blit: putframe\n");
 
-  struct _XDisplay *return_value_XtDisplay$1;
-  unsigned long int return_value_XtWindow$2;
-  struct _XDisplay *return_value_XtDisplay$4;
-  unsigned long int return_value_XtWindow$5;
+  struct _XDisplay *return_value_XtDisplay_1;
+  unsigned long int return_value_XtWindow_2;
+  struct _XDisplay *return_value_XtDisplay_4;
+  unsigned long int return_value_XtWindow_5;
   switch((signed int)st->status)
   {
     case STATUS_CONVERT:
@@ -13406,24 +13406,24 @@ void blit_putframe(struct blit_state *st, struct ng_video_buf *buf)
 
       else
         buf=ng_convert_frame(st->chandle, &st->buf, buf);
-      return_value_XtDisplay$1=XtDisplay(st->widget);
-      return_value_XtWindow$2=XtWindow(st->widget);
-      x11_blit(return_value_XtDisplay$1, return_value_XtWindow$2, st->gc, st->ximage, 0, 0, (signed int)((unsigned int)st->win_width - st->buf.fmt.width >> 1), (signed int)((unsigned int)st->win_height - st->buf.fmt.height >> 1), (signed int)st->buf.fmt.width, (signed int)st->buf.fmt.height);
+      return_value_XtDisplay_1=XtDisplay(st->widget);
+      return_value_XtWindow_2=XtWindow(st->widget);
+      x11_blit(return_value_XtDisplay_1, return_value_XtWindow_2, st->gc, st->ximage, 0, 0, (signed int)((unsigned int)st->win_width - st->buf.fmt.width >> 1), (signed int)((unsigned int)st->win_height - st->buf.fmt.height >> 1), (signed int)st->buf.fmt.width, (signed int)st->buf.fmt.height);
       break;
     }
     case STATUS_XVIDEO:
     {
-      unsigned long int tmp_if_expr$3;
+      unsigned long int tmp_if_expr_3;
       if(!(buf->size >= (unsigned long int)st->xvimage->data_size))
-        tmp_if_expr$3 = buf->size;
+        tmp_if_expr_3 = buf->size;
 
       else
-        tmp_if_expr$3 = (unsigned long int)st->xvimage->data_size;
-      memcpy((void *)st->xvimage->data, (const void *)buf->data, tmp_if_expr$3);
+        tmp_if_expr_3 = (unsigned long int)st->xvimage->data_size;
+      memcpy((void *)st->xvimage->data, (const void *)buf->data, tmp_if_expr_3);
       ng_release_video_buf(buf);
-      return_value_XtDisplay$4=XtDisplay(st->widget);
-      return_value_XtWindow$5=XtWindow(st->widget);
-      xv_blit(return_value_XtDisplay$4, return_value_XtWindow$5, st->gc, st->xvimage, 0, 0, (signed int)st->buf.fmt.width, (signed int)st->buf.fmt.height, st->wx, st->wy, st->ww, st->wh);
+      return_value_XtDisplay_4=XtDisplay(st->widget);
+      return_value_XtWindow_5=XtWindow(st->widget);
+      xv_blit(return_value_XtDisplay_4, return_value_XtWindow_5, st->gc, st->xvimage, 0, 0, (signed int)st->buf.fmt.width, (signed int)st->buf.fmt.height, st->wx, st->wy, st->ww, st->wh);
       break;
     }
     case STATUS_OPENGL:
@@ -13475,12 +13475,12 @@ static void byteswap_short(unsigned char * restrict dest, unsigned char * restri
     if(p == 0)
       break;
 
-    unsigned char * restrict tmp_post$1 = d;
+    unsigned char * restrict tmp_post_1 = d;
     d = d + 1l;
-    *tmp_post$1 = s[(signed long int)1];
-    unsigned char * restrict tmp_post$2 = d;
+    *tmp_post_1 = s[(signed long int)1];
+    unsigned char * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = s[(signed long int)0];
+    *tmp_post_2 = s[(signed long int)0];
     s = s + (signed long int)2;
   }
   while((_Bool)1);
@@ -13491,7 +13491,7 @@ static void byteswap_short(unsigned char * restrict dest, unsigned char * restri
 void calc_frequencies(void)
 {
   signed int i = 0;
-  signed int return_value_get_freq$1;
+  signed int return_value_get_freq_1;
   for( ; !(i >= count); i = i + 1)
     if(!(channels[(signed long int)i]->cname == ((char *)NULL)))
     {
@@ -13501,8 +13501,8 @@ void calc_frequencies(void)
 
       else
       {
-        return_value_get_freq$1=get_freq(channels[(signed long int)i]->channel);
-        channels[(signed long int)i]->freq = return_value_get_freq$1 + channels[(signed long int)i]->fine;
+        return_value_get_freq_1=get_freq(channels[(signed long int)i]->channel);
+        channels[(signed long int)i]->freq = return_value_get_freq_1 + channels[(signed long int)i]->fine;
       }
     }
 
@@ -13514,18 +13514,18 @@ static signed int capture_handler(char *name, signed int argc, char **argv)
 {
   signed int i;
   signed int temp = 0;
-  signed int return_value_strcasecmp$1;
-  return_value_strcasecmp$1=strcasecmp(argv[(signed long int)0], "toggle");
-  if(return_value_strcasecmp$1 == 0)
+  signed int return_value_strcasecmp_1;
+  return_value_strcasecmp_1=strcasecmp(argv[(signed long int)0], "toggle");
+  if(return_value_strcasecmp_1 == 0)
     i = cur_capture == 0 ? 9 : 0;
 
   else
     i=str_to_int(argv[(signed long int)0], captab);
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   if(argc == 2)
   {
-    return_value_strcasecmp$2=strcasecmp(argv[(signed long int)1], "temp");
-    if(return_value_strcasecmp$2 == 0)
+    return_value_strcasecmp_2=strcasecmp(argv[(signed long int)1], "temp");
+    if(return_value_strcasecmp_2 == 0)
       temp = 1;
 
   }
@@ -13571,9 +13571,9 @@ static inline double cc_sim(double t, double F, unsigned char b1, unsigned char 
     {
       t = t - t2;
       ph = 3.14159265358979323846 * (double)2 * t * F - 3.14159265358979323846 * .5;
-      double return_value_sin$1;
-      return_value_sin$1=sin(ph);
-      return return_value_sin$1 / (double)2 + .5;
+      double return_value_sin_1;
+      return_value_sin_1=sin(ph);
+      return return_value_sin_1 / (double)2 + .5;
     }
 
     else
@@ -13600,9 +13600,9 @@ static inline double cc_sim(double t, double F, unsigned char b1, unsigned char 
 
           else
             ph = (3.14159265358979323846 * (double)2 * (t - (double)0 / F) * F) / (double)4;
-          double return_value_shape$2;
-          return_value_shape$2=shape(ph);
-          return return_value_shape$2;
+          double return_value_shape_2;
+          return_value_shape_2=shape(ph);
+          return return_value_shape_2;
         }
 
         else
@@ -13620,9 +13620,9 @@ signed int cf2freq(char *name, signed int fine)
 
   else
   {
-    signed int return_value_get_freq$1;
-    return_value_get_freq$1=get_freq(i);
-    return return_value_get_freq$1 + fine;
+    signed int return_value_get_freq_1;
+    return_value_get_freq_1=get_freq(i);
+    return return_value_get_freq_1 + fine;
   }
 }
 
@@ -13632,22 +13632,22 @@ static struct CFG_ENTRIES * cfg_find_section(struct CFG_SECTIONS *c, char *name)
 {
   struct CFG_ENTRIES *e;
   signed int i = 0;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   for( ; !(i >= c->sec_count); i = i + 1)
   {
-    return_value_strcasecmp$1=strcasecmp(c->sec_names[(signed long int)i], name);
-    if(return_value_strcasecmp$1 == 0)
+    return_value_strcasecmp_1=strcasecmp(c->sec_names[(signed long int)i], name);
+    if(return_value_strcasecmp_1 == 0)
       return c->sec_entries[(signed long int)i];
 
   }
   if(c->sec_count % 16 == 16)
   {
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)c->sec_names, (unsigned long int)(c->sec_count + 2 + 16) * sizeof(char *) /*8ul*/ );
-    c->sec_names = (char **)return_value_realloc$2;
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)c->sec_entries, (unsigned long int)(c->sec_count + 2 + 16) * sizeof(struct CFG_ENTRIES *) /*8ul*/ );
-    c->sec_entries = (struct CFG_ENTRIES **)return_value_realloc$3;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)c->sec_names, (unsigned long int)(c->sec_count + 2 + 16) * sizeof(char *) /*8ul*/ );
+    c->sec_names = (char **)return_value_realloc_2;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)c->sec_entries, (unsigned long int)(c->sec_count + 2 + 16) * sizeof(struct CFG_ENTRIES *) /*8ul*/ );
+    c->sec_entries = (struct CFG_ENTRIES **)return_value_realloc_3;
   }
 
   e=cfg_init_entries();
@@ -13670,9 +13670,9 @@ float cfg_get_float(char *sec, char *ent)
 
   else
   {
-    double return_value_atof$1;
-    return_value_atof$1=atof(val);
-    return (float)return_value_atof$1;
+    double return_value_atof_1;
+    return_value_atof_1=atof(val);
+    return (float)return_value_atof_1;
   }
 }
 
@@ -13687,9 +13687,9 @@ signed int cfg_get_int(char *sec, char *ent)
 
   else
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi(val);
-    return return_value_atoi$1;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi(val);
+    return return_value_atoi_1;
   }
 }
 
@@ -13704,9 +13704,9 @@ signed int cfg_get_signed_int(char *sec, char *ent)
 
   else
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi(val);
-    return return_value_atoi$1;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi(val);
+    return return_value_atoi_1;
   }
 }
 
@@ -13717,15 +13717,15 @@ char * cfg_get_str(char *sec, char *ent)
   struct CFG_ENTRIES *e = (struct CFG_ENTRIES *)(void *)0;
   char *v = (char *)(void *)0;
   signed int i = 0;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   for( ; !(i >= c->sec_count); i = i + 1)
   {
-    return_value_strcasecmp$1=strcasecmp(c->sec_names[(signed long int)i], sec);
-    if(return_value_strcasecmp$1 == 0)
+    return_value_strcasecmp_1=strcasecmp(c->sec_names[(signed long int)i], sec);
+    if(return_value_strcasecmp_1 == 0)
       e = c->sec_entries[(signed long int)i];
 
   }
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   if(e == ((struct CFG_ENTRIES *)NULL))
     return (char *)(void *)0;
 
@@ -13734,8 +13734,8 @@ char * cfg_get_str(char *sec, char *ent)
     i = 0;
     for( ; !(i >= e->ent_count); i = i + 1)
     {
-      return_value_strcasecmp$2=strcasecmp(e->ent_names[(signed long int)i], ent);
-      if(return_value_strcasecmp$2 == 0)
+      return_value_strcasecmp_2=strcasecmp(e->ent_names[(signed long int)i], ent);
+      if(return_value_strcasecmp_2 == 0)
       {
         v = e->ent_values[(signed long int)i];
         e->ent_seen[(signed long int)i] = e->ent_seen[(signed long int)i] + 1l;
@@ -13751,21 +13751,21 @@ char * cfg_get_str(char *sec, char *ent)
 static struct CFG_ENTRIES * cfg_init_entries(void)
 {
   struct CFG_ENTRIES *e;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct CFG_ENTRIES) /*32ul*/ );
-  e = (struct CFG_ENTRIES *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct CFG_ENTRIES) /*32ul*/ );
+  e = (struct CFG_ENTRIES *)return_value_malloc_1;
   memset((void *)e, 0, sizeof(struct CFG_ENTRIES) /*32ul*/ );
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
-  e->ent_names = (char **)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
+  e->ent_names = (char **)return_value_malloc_2;
   e->ent_names[(signed long int)0] = (char *)(void *)0;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
-  e->ent_values = (char **)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
+  e->ent_values = (char **)return_value_malloc_3;
   e->ent_values[(signed long int)0] = (char *)(void *)0;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)16 * sizeof(signed int *) /*8ul*/ );
-  e->ent_seen = (signed int **)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)16 * sizeof(signed int *) /*8ul*/ );
+  e->ent_seen = (signed int **)return_value_malloc_4;
   e->ent_seen[(signed long int)0] = ((signed int *)NULL);
   return e;
 }
@@ -13774,20 +13774,20 @@ static struct CFG_ENTRIES * cfg_init_entries(void)
 // file common/parseconfig.c line 33
 static struct CFG_SECTIONS * cfg_init_sections(void)
 {
-  struct CFG_SECTIONS *cfg_init_sections$$1$$c;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct CFG_SECTIONS) /*24ul*/ );
-  cfg_init_sections$$1$$c = (struct CFG_SECTIONS *)return_value_malloc$1;
-  memset((void *)cfg_init_sections$$1$$c, 0, sizeof(struct CFG_SECTIONS) /*24ul*/ );
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
-  cfg_init_sections$$1$$c->sec_names = (char **)return_value_malloc$2;
-  cfg_init_sections$$1$$c->sec_names[(signed long int)0] = (char *)(void *)0;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)16 * sizeof(struct CFG_ENTRIES *) /*8ul*/ );
-  cfg_init_sections$$1$$c->sec_entries = (struct CFG_ENTRIES **)return_value_malloc$3;
-  cfg_init_sections$$1$$c->sec_entries[(signed long int)0] = (struct CFG_ENTRIES *)(void *)0;
-  return cfg_init_sections$$1$$c;
+  struct CFG_SECTIONS *cfg_init_sections__1__c;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct CFG_SECTIONS) /*24ul*/ );
+  cfg_init_sections__1__c = (struct CFG_SECTIONS *)return_value_malloc_1;
+  memset((void *)cfg_init_sections__1__c, 0, sizeof(struct CFG_SECTIONS) /*24ul*/ );
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
+  cfg_init_sections__1__c->sec_names = (char **)return_value_malloc_2;
+  cfg_init_sections__1__c->sec_names[(signed long int)0] = (char *)(void *)0;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)16 * sizeof(struct CFG_ENTRIES *) /*8ul*/ );
+  cfg_init_sections__1__c->sec_entries = (struct CFG_ENTRIES **)return_value_malloc_3;
+  cfg_init_sections__1__c->sec_entries[(signed long int)0] = (struct CFG_ENTRIES *)(void *)0;
+  return cfg_init_sections__1__c;
 }
 
 // cfg_list_entries
@@ -13795,7 +13795,7 @@ static struct CFG_SECTIONS * cfg_init_sections(void)
 char ** cfg_list_entries(char *name)
 {
   signed int i;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(c == ((struct CFG_SECTIONS *)NULL))
     return (char **)(void *)0;
 
@@ -13804,8 +13804,8 @@ char ** cfg_list_entries(char *name)
     i = 0;
     for( ; !(i >= c->sec_count); i = i + 1)
     {
-      return_value_strcasecmp$1=strcasecmp(c->sec_names[(signed long int)i], name);
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(c->sec_names[(signed long int)i], name);
+      if(return_value_strcasecmp_1 == 0)
         return c->sec_entries[(signed long int)i]->ent_names;
 
     }
@@ -13834,8 +13834,8 @@ signed int cfg_parse_file(char *filename)
     c=cfg_init_sections();
 
   fp=fopen(filename, "r");
-  char *return_value_fgets$1;
-  signed int return_value_sscanf$6;
+  char *return_value_fgets_1;
+  signed int return_value_sscanf_6;
   if(fp == ((struct _IO_FILE *)NULL))
     return -1;
 
@@ -13844,56 +13844,56 @@ signed int cfg_parse_file(char *filename)
     nr = 0;
     do
     {
-      return_value_fgets$1=fgets(line, 255, fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(line, 255, fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       nr = nr + 1;
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)line[0l] == 10)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$3;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_3;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_3)
       {
-        signed int return_value_sscanf$7;
-        return_value_sscanf$7=sscanf(line, "[%99[^]]]", (const void *)value);
-        if(return_value_sscanf$7 == 1)
+        signed int return_value_sscanf_7;
+        return_value_sscanf_7=sscanf(line, "[%99[^]]]", (const void *)value);
+        if(return_value_sscanf_7 == 1)
           e=cfg_find_section(c, value);
 
         else
         {
-          return_value_sscanf$6=sscanf(line, " %63[^= ] = %191[^\n]", (const void *)tag, (const void *)value);
-          if(return_value_sscanf$6 == 2)
+          return_value_sscanf_6=sscanf(line, " %63[^= ] = %191[^\n]", (const void *)tag, (const void *)value);
+          if(return_value_sscanf_6 == 2)
           {
             if(e == ((struct CFG_ENTRIES *)NULL))
               fprintf(stderr, "%s:%d: error: no section\n", filename, nr);
 
             else
             {
-              char *cfg_parse_file$$1$$1$$2$$2$$c;
-              unsigned long int return_value_strlen$4;
-              return_value_strlen$4=strlen(value);
-              cfg_parse_file$$1$$1$$2$$2$$c = (value + (signed long int)return_value_strlen$4) - (signed long int)1;
-              while(!(value >= cfg_parse_file$$1$$1$$2$$2$$c))
+              char *cfg_parse_file__1__1__2__2__c;
+              unsigned long int return_value_strlen_4;
+              return_value_strlen_4=strlen(value);
+              cfg_parse_file__1__1__2__2__c = (value + (signed long int)return_value_strlen_4) - (signed long int)1;
+              while(!(value >= cfg_parse_file__1__1__2__2__c))
               {
-                if(!((signed int)*cfg_parse_file$$1$$1$$2$$2$$c == 32))
+                if(!((signed int)*cfg_parse_file__1__1__2__2__c == 32))
                 {
-                  if(!((signed int)*cfg_parse_file$$1$$1$$2$$2$$c == 9))
+                  if(!((signed int)*cfg_parse_file__1__1__2__2__c == 9))
                     break;
 
                 }
 
-                char *tmp_post$5 = cfg_parse_file$$1$$1$$2$$2$$c;
-                cfg_parse_file$$1$$1$$2$$2$$c = cfg_parse_file$$1$$1$$2$$2$$c - 1l;
-                *tmp_post$5 = (char)0;
+                char *tmp_post_5 = cfg_parse_file__1__1__2__2__c;
+                cfg_parse_file__1__1__2__2__c = cfg_parse_file__1__1__2__2__c - 1l;
+                *tmp_post_5 = (char)0;
               }
               cfg_set_entry(e, tag, value);
             }
@@ -13934,9 +13934,9 @@ void cfg_parse_options(signed int *argc, char **argv)
   i = 1;
   while(!(1 + i >= *argc))
   {
-    signed int return_value_sscanf$1;
-    return_value_sscanf$1=sscanf(argv[(signed long int)i], "-%63[^:]:%63s", (const void *)section, (const void *)tag);
-    if(return_value_sscanf$1 == 2)
+    signed int return_value_sscanf_1;
+    return_value_sscanf_1=sscanf(argv[(signed long int)i], "-%63[^:]:%63s", (const void *)section, (const void *)tag);
+    if(return_value_sscanf_1 == 2)
     {
       cfg_parse_option(section, tag, argv[(signed long int)(i + 1)]);
       j = i;
@@ -13955,11 +13955,11 @@ void cfg_parse_options(signed int *argc, char **argv)
 static void cfg_set_entry(struct CFG_ENTRIES *e, char *name, char *value)
 {
   signed int i = 0;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   for( ; !(i >= e->ent_count); i = i + 1)
   {
-    return_value_strcasecmp$1=strcasecmp(e->ent_names[(signed long int)i], name);
-    if(return_value_strcasecmp$1 == 0)
+    return_value_strcasecmp_1=strcasecmp(e->ent_names[(signed long int)i], name);
+    if(return_value_strcasecmp_1 == 0)
       break;
 
   }
@@ -13967,15 +13967,15 @@ static void cfg_set_entry(struct CFG_ENTRIES *e, char *name, char *value)
   {
     if(e->ent_count % 16 == 16)
     {
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)e->ent_names, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(char *) /*8ul*/ );
-      e->ent_names = (char **)return_value_realloc$2;
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)e->ent_values, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(char *) /*8ul*/ );
-      e->ent_values = (char **)return_value_realloc$3;
-      void *return_value_realloc$4;
-      return_value_realloc$4=realloc((void *)e->ent_seen, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(signed int *) /*8ul*/ );
-      e->ent_seen = (signed int **)return_value_realloc$4;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)e->ent_names, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(char *) /*8ul*/ );
+      e->ent_names = (char **)return_value_realloc_2;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)e->ent_values, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(char *) /*8ul*/ );
+      e->ent_values = (char **)return_value_realloc_3;
+      void *return_value_realloc_4;
+      return_value_realloc_4=realloc((void *)e->ent_seen, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(signed int *) /*8ul*/ );
+      e->ent_seen = (signed int **)return_value_realloc_4;
     }
 
     e->ent_count = e->ent_count + 1;
@@ -13999,13 +13999,13 @@ static void chan_add_cb(struct _WidgetRec *widget, void *clientdata, void *call_
   XmTextSetString(prop_key, "");
   XmTextSetString(prop_group, "main");
   i = -1 == cur_channel ? 0 : cur_channel;
-  struct CHANLIST *tmp_if_expr$1;
+  struct CHANLIST *tmp_if_expr_1;
   if(!(chantab == -1))
-    tmp_if_expr$1 = (chanlists + (signed long int)chantab)->list;
+    tmp_if_expr_1 = (chanlists + (signed long int)chantab)->list;
 
   else
-    tmp_if_expr$1 = (struct CHANLIST *)(void *)0;
-  str=XmStringGenerate((void *)(tmp_if_expr$1 + (signed long int)i)->name, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+    tmp_if_expr_1 = (struct CHANLIST *)(void *)0;
+  str=XmStringGenerate((void *)(tmp_if_expr_1 + (signed long int)i)->name, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
   XtVaSetValues(prop_channel, (char *)&_XmStrings[(signed long int)12735], str, (void *)0);
   XmStringFree(str);
   XtManageChild(prop_dlg);
@@ -14019,7 +14019,7 @@ static void chan_apply_cb(struct _WidgetRec *widget, void *clientdata, void *cal
   char *key;
   char *cname;
   char *group;
-  struct CHANNEL *chan_apply_cb$$1$$c;
+  struct CHANNEL *chan_apply_cb__1__c;
   union __XmStringRec *str;
   signed int i;
   signed int channel;
@@ -14037,27 +14037,27 @@ static void chan_apply_cb(struct _WidgetRec *widget, void *clientdata, void *cal
   name=XmTextGetString(prop_name);
   key=XmTextGetString(prop_key);
   group=XmTextGetString(prop_group);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(group);
-  if(return_value_strlen$1 == 0ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(group);
+  if(return_value_strlen_1 == 0ul)
     group = "main";
 
   XtVaGetValues(prop_channel, (char *)&_XmStrings[(signed long int)12735], &str, (void *)0);
-  void *return_value_XmStringUnparse$2;
-  return_value_XmStringUnparse$2=XmStringUnparse(str, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (enum anonymous$67)XmMULTIBYTE_TEXT, (struct __XmParseMappingRec **)(void *)0, (unsigned int)0, (enum anonymous$68)0);
-  cname = (char *)return_value_XmStringUnparse$2;
+  void *return_value_XmStringUnparse_2;
+  return_value_XmStringUnparse_2=XmStringUnparse(str, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (enum anonymous_67)XmMULTIBYTE_TEXT, (struct __XmParseMappingRec **)(void *)0, (unsigned int)0, (enum anonymous_68)0);
+  cname = (char *)return_value_XmStringUnparse_2;
   channel=lookup_channel(cname);
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(name);
-  if(return_value_strlen$5 == 0ul)
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(name);
+  if(return_value_strlen_5 == 0ul)
   {
-    msgbox=XmCreateErrorDialog(prop_dlg, "no_name", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-    struct _WidgetRec *return_value_XmMessageBoxGetChild$3;
-    return_value_XmMessageBoxGetChild$3=XmMessageBoxGetChild(msgbox, (unsigned char)7);
-    XtUnmanageChild(return_value_XmMessageBoxGetChild$3);
-    struct _WidgetRec *return_value_XmMessageBoxGetChild$4;
-    return_value_XmMessageBoxGetChild$4=XmMessageBoxGetChild(msgbox, (unsigned char)2);
-    XtUnmanageChild(return_value_XmMessageBoxGetChild$4);
+    msgbox=XmCreateErrorDialog(prop_dlg, "no_name", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+    struct _WidgetRec *return_value_XmMessageBoxGetChild_3;
+    return_value_XmMessageBoxGetChild_3=XmMessageBoxGetChild(msgbox, (unsigned char)7);
+    XtUnmanageChild(return_value_XmMessageBoxGetChild_3);
+    struct _WidgetRec *return_value_XmMessageBoxGetChild_4;
+    return_value_XmMessageBoxGetChild_4=XmMessageBoxGetChild(msgbox, (unsigned char)2);
+    XtUnmanageChild(return_value_XmMessageBoxGetChild_4);
     XtAddCallback(msgbox, (char *)&_XmStrings[(signed long int)8560], destroy_cb, (void *)msgbox);
     XtManageChild(msgbox);
     goto __CPROVER_DUMP_L10;
@@ -14065,39 +14065,39 @@ static void chan_apply_cb(struct _WidgetRec *widget, void *clientdata, void *cal
 
   if(i == count)
   {
-    chan_apply_cb$$1$$c=add_channel(name);
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(key);
-    if(return_value_strlen$6 >= 1ul)
-      chan_apply_cb$$1$$c->key=strdup(key);
+    chan_apply_cb__1__c=add_channel(name);
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(key);
+    if(return_value_strlen_6 >= 1ul)
+      chan_apply_cb__1__c->key=strdup(key);
 
-    chan_apply_cb$$1$$c->cname=strdup(cname);
-    chan_apply_cb$$1$$c->group=strdup(group);
-    chan_apply_cb$$1$$c->channel = channel;
+    chan_apply_cb__1__c->cname=strdup(cname);
+    chan_apply_cb__1__c->group=strdup(group);
+    chan_apply_cb__1__c->channel = channel;
   }
 
   else
   {
-    chan_apply_cb$$1$$c = channels[(signed long int)i];
-    free((void *)chan_apply_cb$$1$$c->name);
-    chan_apply_cb$$1$$c->name=strdup(name);
-    if(!(chan_apply_cb$$1$$c->key == ((char *)NULL)))
+    chan_apply_cb__1__c = channels[(signed long int)i];
+    free((void *)chan_apply_cb__1__c->name);
+    chan_apply_cb__1__c->name=strdup(name);
+    if(!(chan_apply_cb__1__c->key == ((char *)NULL)))
     {
-      free((void *)chan_apply_cb$$1$$c->key);
-      chan_apply_cb$$1$$c->key = (char *)(void *)0;
+      free((void *)chan_apply_cb__1__c->key);
+      chan_apply_cb__1__c->key = (char *)(void *)0;
     }
 
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(key);
-    if(!(return_value_strlen$7 == 0ul))
-      chan_apply_cb$$1$$c->key=strdup(key);
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(key);
+    if(!(return_value_strlen_7 == 0ul))
+      chan_apply_cb__1__c->key=strdup(key);
 
-    chan_apply_cb$$1$$c->cname=strdup(cname);
-    chan_apply_cb$$1$$c->group=strdup(group);
-    chan_apply_cb$$1$$c->channel = channel;
-    XtRemoveAllCallbacks(chan_apply_cb$$1$$c->button, (char *)&_XmStrings[(signed long int)4700]);
-    add_cmd_callback(chan_apply_cb$$1$$c->button, (char *)&_XmStrings[(signed long int)4700], "setstation", chan_apply_cb$$1$$c->name, (const char *)(void *)0);
-    toolkit_set_label(chan_apply_cb$$1$$c->button, chan_apply_cb$$1$$c->name);
+    chan_apply_cb__1__c->cname=strdup(cname);
+    chan_apply_cb__1__c->group=strdup(group);
+    chan_apply_cb__1__c->channel = channel;
+    XtRemoveAllCallbacks(chan_apply_cb__1__c->button, (char *)&_XmStrings[(signed long int)4700]);
+    add_cmd_callback(chan_apply_cb__1__c->button, (char *)&_XmStrings[(signed long int)4700], "setstation", chan_apply_cb__1__c->name, (const char *)(void *)0);
+    toolkit_set_label(chan_apply_cb__1__c->button, chan_apply_cb__1__c->name);
   }
   channel_menu();
 
@@ -14147,20 +14147,20 @@ static void chan_edit_cb(struct _WidgetRec *widget, void *clientdata, void *call
     XmTextSetString(prop_name, channels[(signed long int)i]->name);
     XmTextSetString(prop_key, channels[(signed long int)i]->key);
     XmTextSetString(prop_group, channels[(signed long int)i]->group);
-    signed int tmp_if_expr$1;
+    signed int tmp_if_expr_1;
     if(channels[(signed long int)i]->channel == -1)
-      tmp_if_expr$1 = 0;
+      tmp_if_expr_1 = 0;
 
     else
-      tmp_if_expr$1 = channels[(signed long int)i]->channel;
-    i = tmp_if_expr$1;
-    struct CHANLIST *tmp_if_expr$2;
+      tmp_if_expr_1 = channels[(signed long int)i]->channel;
+    i = tmp_if_expr_1;
+    struct CHANLIST *tmp_if_expr_2;
     if(!(chantab == -1))
-      tmp_if_expr$2 = (chanlists + (signed long int)chantab)->list;
+      tmp_if_expr_2 = (chanlists + (signed long int)chantab)->list;
 
     else
-      tmp_if_expr$2 = (struct CHANLIST *)(void *)0;
-    str=XmStringGenerate((void *)(tmp_if_expr$2 + (signed long int)i)->name, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+      tmp_if_expr_2 = (struct CHANLIST *)(void *)0;
+    str=XmStringGenerate((void *)(tmp_if_expr_2 + (signed long int)i)->name, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
     XtVaSetValues(prop_channel, (char *)&_XmStrings[(signed long int)12735], str, (void *)0);
     XmStringFree(str);
     XtManageChild(prop_dlg);
@@ -14172,7 +14172,7 @@ static void chan_edit_cb(struct _WidgetRec *widget, void *clientdata, void *call
 // file x11/motv.c line 657
 static void chan_key_eh(struct _WidgetRec *widget, void *client_data, union _XEvent *event, char *cont)
 {
-  struct anonymous$25 *ke = (struct anonymous$25 *)event;
+  struct anonymous_25 *ke = (struct anonymous_25 *)event;
   unsigned long int sym;
   char *key;
   char line[64l];
@@ -14205,7 +14205,7 @@ static void chan_makebutton(struct CHANNEL *channel)
   {
     channel->button=XtVaCreateManagedWidget(channel->name, xmPushButtonWidgetClass, chan_box, (void *)0);
     add_cmd_callback(channel->button, (char *)&_XmStrings[(signed long int)4700], "setstation", channel->name, (const char *)(void *)0);
-    menu=XmCreatePopupMenu(channel->button, "menu", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+    menu=XmCreatePopupMenu(channel->button, "menu", (struct anonymous_11 *)(void *)0, (unsigned int)0);
     XtAddEventHandler(channel->button, (unsigned long int)(1L << 2), (char)0, popup_eh, (void *)menu);
     push=XtVaCreateManagedWidget("del", xmPushButtonWidgetClass, menu, (void *)0);
     XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], chan_del_cb, (void *)channel->button);
@@ -14237,11 +14237,11 @@ static void chan_save_cb(struct _WidgetRec *widget, void *clientdata, void *call
 // file x11/motv.c line 800
 static void chan_tune_cb(struct _WidgetRec *widget, void *clientdata, void *call_data)
 {
-  struct anonymous$74 *cb = (struct anonymous$74 *)call_data;
+  struct anonymous_74 *cb = (struct anonymous_74 *)call_data;
   char *line;
-  void *return_value_XmStringUnparse$1;
-  return_value_XmStringUnparse$1=XmStringUnparse(cb->item_or_text, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (enum anonymous$67)XmMULTIBYTE_TEXT, (struct __XmParseMappingRec **)(void *)0, (unsigned int)0, (enum anonymous$68)0);
-  line = (char *)return_value_XmStringUnparse$1;
+  void *return_value_XmStringUnparse_1;
+  return_value_XmStringUnparse_1=XmStringUnparse(cb->item_or_text, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (enum anonymous_67)XmMULTIBYTE_TEXT, (struct __XmParseMappingRec **)(void *)0, (unsigned int)0, (enum anonymous_68)0);
+  line = (char *)return_value_XmStringUnparse_1;
   do_va_cmd(3, (const void *)"setchannel", line);
 }
 
@@ -14278,8 +14278,8 @@ void change_audio(signed int mode)
 // file x11/motv.c line 1102
 static void channel_menu(void)
 {
-  /* tag-#anon#lST[l*{S8}$S8$'name'|*{SYM#tag-_WidgetRec#}$SYM#tag-_WidgetRec#$'menu1'|*{SYM#tag-_WidgetRec#}$SYM#tag-_WidgetRec#$'menu2'] */
-struct anonymous$96
+  /* tag-#anon#lST[l*{S8}_S8_'name'|*{SYM#tag-_WidgetRec#}_SYM#tag-_WidgetRec#_'menu1'|*{SYM#tag-_WidgetRec#}_SYM#tag-_WidgetRec#_'menu2'] */
+struct anonymous_96
 {
   // name
   char *name;
@@ -14291,7 +14291,7 @@ struct anonymous$96
 
 /* */
   ;
-  struct anonymous$96 *sub = (struct anonymous$96 *)(void *)0;
+  struct anonymous_96 *sub = (struct anonymous_96 *)(void *)0;
   signed int subs = 0;
   struct _WidgetRec *menu1;
   struct _WidgetRec *menu2;
@@ -14302,7 +14302,7 @@ struct anonymous$96
   signed int j;
   if(st_menu2 == ((struct _WidgetRec *)NULL))
   {
-    st_menu2=XmCreatePopupMenu(tv, "stationsM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+    st_menu2=XmCreatePopupMenu(tv, "stationsM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
     XtAddEventHandler(tv, (unsigned long int)(1L << 2), (char)0, popup_eh, (void *)st_menu2);
     XtAddCallback(st_menu2, (char *)&_XmStrings[(signed long int)7864], menu_cols_cb, (void *)0);
   }
@@ -14310,14 +14310,14 @@ struct anonymous$96
   delete_children(st_menu1);
   delete_children(st_menu2);
   i = 0;
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   for( ; !(i >= count); i = i + 1)
   {
     if(!(channels[(signed long int)i]->key == ((char *)NULL)))
     {
-      signed int return_value_sscanf$1;
-      return_value_sscanf$1=sscanf(channels[(signed long int)i]->key, "%15[A-Za-z0-9_]+%31[A-Za-z0-9_]", (const void *)ctrl, (const void *)key);
-      if(return_value_sscanf$1 == 2)
+      signed int return_value_sscanf_1;
+      return_value_sscanf_1=sscanf(channels[(signed long int)i]->key, "%15[A-Za-z0-9_]+%31[A-Za-z0-9_]", (const void *)ctrl, (const void *)key);
+      if(return_value_sscanf_1 == 2)
         sprintf(accel, "%s<Key>%s", (const void *)ctrl, (const void *)key);
 
       else
@@ -14328,27 +14328,27 @@ struct anonymous$96
       accel[(signed long int)0] = (char)0;
     menu1 = st_menu1;
     menu2 = st_menu2;
-    signed int return_value_strcmp$4;
-    return_value_strcmp$4=strcmp(channels[(signed long int)i]->group, "main");
-    if(!(return_value_strcmp$4 == 0))
+    signed int return_value_strcmp_4;
+    return_value_strcmp_4=strcmp(channels[(signed long int)i]->group, "main");
+    if(!(return_value_strcmp_4 == 0))
     {
       j = 0;
       for( ; !(j >= subs); j = j + 1)
       {
-        return_value_strcmp$2=strcmp(channels[(signed long int)i]->group, (sub + (signed long int)j)->name);
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(channels[(signed long int)i]->group, (sub + (signed long int)j)->name);
+        if(return_value_strcmp_2 == 0)
           break;
 
       }
       if(j == subs)
       {
         subs = subs + 1;
-        void *return_value_realloc$3;
-        return_value_realloc$3=realloc((void *)sub, (unsigned long int)subs * sizeof(struct anonymous$96) /*24ul*/ );
-        sub = (struct anonymous$96 *)return_value_realloc$3;
+        void *return_value_realloc_3;
+        return_value_realloc_3=realloc((void *)sub, (unsigned long int)subs * sizeof(struct anonymous_96) /*24ul*/ );
+        sub = (struct anonymous_96 *)return_value_realloc_3;
         (sub + (signed long int)j)->name = channels[(signed long int)i]->group;
-        (sub + (signed long int)j)->menu1=XmCreatePulldownMenu(st_menu1, channels[(signed long int)i]->group, (struct anonymous$11 *)(void *)0, (unsigned int)0);
-        (sub + (signed long int)j)->menu2=XmCreatePulldownMenu(st_menu2, channels[(signed long int)i]->group, (struct anonymous$11 *)(void *)0, (unsigned int)0);
+        (sub + (signed long int)j)->menu1=XmCreatePulldownMenu(st_menu1, channels[(signed long int)i]->group, (struct anonymous_11 *)(void *)0, (unsigned int)0);
+        (sub + (signed long int)j)->menu2=XmCreatePulldownMenu(st_menu2, channels[(signed long int)i]->group, (struct anonymous_11 *)(void *)0, (unsigned int)0);
         XtVaCreateManagedWidget(channels[(signed long int)i]->group, xmCascadeButtonWidgetClass, st_menu1, (char *)&_XmStrings[(signed long int)9963], (sub + (signed long int)j)->menu1, (void *)0);
         XtVaCreateManagedWidget(channels[(signed long int)i]->group, xmCascadeButtonWidgetClass, st_menu2, (char *)&_XmStrings[(signed long int)9963], (sub + (signed long int)j)->menu2, (void *)0);
       }
@@ -14385,28 +14385,28 @@ static void chscan_cancel_cb(struct _WidgetRec *widget, void *clientdata, void *
 static void chscan_cb(struct _WidgetRec *widget, void *clientdata, void *call_data)
 {
   struct _WidgetRec *rc;
-  chdlg=XmCreatePromptDialog(control_shell, "chscan", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  struct _WidgetRec *return_value_XtParent$1;
-  return_value_XtParent$1=XtParent(chdlg);
-  XtAddEventHandler(return_value_XtParent$1, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$2;
-  return_value_XmSelectionBoxGetChild$2=XmSelectionBoxGetChild(chdlg, (unsigned char)11);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$2);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$3;
-  return_value_XmSelectionBoxGetChild$3=XmSelectionBoxGetChild(chdlg, (unsigned char)7);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$3);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$4;
-  return_value_XmSelectionBoxGetChild$4=XmSelectionBoxGetChild(chdlg, (unsigned char)13);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$4);
+  chdlg=XmCreatePromptDialog(control_shell, "chscan", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  struct _WidgetRec *return_value_XtParent_1;
+  return_value_XtParent_1=XtParent(chdlg);
+  XtAddEventHandler(return_value_XtParent_1, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_2;
+  return_value_XmSelectionBoxGetChild_2=XmSelectionBoxGetChild(chdlg, (unsigned char)11);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_2);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_3;
+  return_value_XmSelectionBoxGetChild_3=XmSelectionBoxGetChild(chdlg, (unsigned char)7);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_3);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_4;
+  return_value_XmSelectionBoxGetChild_4=XmSelectionBoxGetChild(chdlg, (unsigned char)13);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_4);
   rc=XtVaCreateManagedWidget("rc", xmRowColumnWidgetClass, chdlg, (void *)0);
   XtVaCreateManagedWidget("hints", xmLabelWidgetClass, rc, (void *)0);
   chscale=XtVaCreateManagedWidget("channel", xmScaleWidgetClass, rc, (void *)0);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$5;
-  return_value_XmSelectionBoxGetChild$5=XmSelectionBoxGetChild(chdlg, (unsigned char)4);
-  XtRemoveAllCallbacks(return_value_XmSelectionBoxGetChild$5, (char *)&_XmStrings[(signed long int)4700]);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$6;
-  return_value_XmSelectionBoxGetChild$6=XmSelectionBoxGetChild(chdlg, (unsigned char)4);
-  XtAddCallback(return_value_XmSelectionBoxGetChild$6, (char *)&_XmStrings[(signed long int)4700], chscan_start_cb, (void *)0);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_5;
+  return_value_XmSelectionBoxGetChild_5=XmSelectionBoxGetChild(chdlg, (unsigned char)4);
+  XtRemoveAllCallbacks(return_value_XmSelectionBoxGetChild_5, (char *)&_XmStrings[(signed long int)4700]);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_6;
+  return_value_XmSelectionBoxGetChild_6=XmSelectionBoxGetChild(chdlg, (unsigned char)4);
+  XtAddCallback(return_value_XmSelectionBoxGetChild_6, (char *)&_XmStrings[(signed long int)4700], chscan_start_cb, (void *)0);
   XtAddCallback(chdlg, (char *)&_XmStrings[(signed long int)5319], chscan_cancel_cb, (void *)0);
   XtManageChild(chdlg);
 }
@@ -14431,29 +14431,29 @@ static void chscan_start_cb(struct _WidgetRec *widget, void *clientdata, void *c
     x11_vbi_start(args.vbidev);
     chscan = 0;
     chvbi = 0;
-    struct CHANLIST *tmp_if_expr$1;
+    struct CHANLIST *tmp_if_expr_1;
     if(!(chantab == -1))
-      tmp_if_expr$1 = (chanlists + (signed long int)chantab)->list;
+      tmp_if_expr_1 = (chanlists + (signed long int)chantab)->list;
 
     else
-      tmp_if_expr$1 = (struct CHANLIST *)(void *)0;
-    xmstr=XmStringGenerate((void *)(tmp_if_expr$1 + (signed long int)chscan)->name, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
-    signed int tmp_if_expr$2;
+      tmp_if_expr_1 = (struct CHANLIST *)(void *)0;
+    xmstr=XmStringGenerate((void *)(tmp_if_expr_1 + (signed long int)chscan)->name, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+    signed int tmp_if_expr_2;
     if(!(chantab == -1))
-      tmp_if_expr$2 = (chanlists + (signed long int)chantab)->count;
+      tmp_if_expr_2 = (chanlists + (signed long int)chantab)->count;
 
     else
-      tmp_if_expr$2 = 0;
-    XtVaSetValues(chscale, (char *)&_XmStrings[(signed long int)10137], xmstr, (char *)&_XmStrings[(signed long int)7982], tmp_if_expr$2, (void *)0);
+      tmp_if_expr_2 = 0;
+    XtVaSetValues(chscale, (char *)&_XmStrings[(signed long int)10137], xmstr, (char *)&_XmStrings[(signed long int)7982], tmp_if_expr_2, (void *)0);
     XmStringFree(xmstr);
     XmScaleSetValue(chscale, chscan);
-    struct CHANLIST *tmp_if_expr$3;
+    struct CHANLIST *tmp_if_expr_3;
     if(!(chantab == -1))
-      tmp_if_expr$3 = (chanlists + (signed long int)chantab)->list;
+      tmp_if_expr_3 = (chanlists + (signed long int)chantab)->list;
 
     else
-      tmp_if_expr$3 = (struct CHANLIST *)(void *)0;
-    do_va_cmd(2, (const void *)"setchannel", tmp_if_expr$3[(signed long int)chscan]);
+      tmp_if_expr_3 = (struct CHANLIST *)(void *)0;
+    do_va_cmd(2, (const void *)"setchannel", tmp_if_expr_3[(signed long int)chscan]);
     x11_vbi_station[(signed long int)0] = (char)0;
     chtimer=XtAppAddTimeOut(app_context, (unsigned long int)250, chscan_timeout, (void *)0);
   }
@@ -14464,22 +14464,22 @@ static void chscan_start_cb(struct _WidgetRec *widget, void *clientdata, void *c
 // file x11/motv.c line 2196
 static void chscan_timeout(void *client_data, unsigned long int *id)
 {
-  struct CHANNEL *chscan_timeout$$1$$c;
+  struct CHANNEL *chscan_timeout__1__c;
   char title[32l];
   union __XmStringRec *xmstr;
-  signed int return_value_x11_vbi_tuned$2;
-  return_value_x11_vbi_tuned$2=x11_vbi_tuned();
-  if(return_value_x11_vbi_tuned$2 == 0)
+  signed int return_value_x11_vbi_tuned_2;
+  return_value_x11_vbi_tuned_2=x11_vbi_tuned();
+  if(return_value_x11_vbi_tuned_2 == 0)
   {
     if(!(debug == 0))
     {
-      struct CHANLIST *tmp_if_expr$1;
+      struct CHANLIST *tmp_if_expr_1;
       if(!(chantab == -1))
-        tmp_if_expr$1 = (chanlists + (signed long int)chantab)->list;
+        tmp_if_expr_1 = (chanlists + (signed long int)chantab)->list;
 
       else
-        tmp_if_expr$1 = (struct CHANLIST *)(void *)0;
-      fprintf(stderr, "scan [%s]: no station\n", (tmp_if_expr$1 + (signed long int)chscan)->name);
+        tmp_if_expr_1 = (struct CHANLIST *)(void *)0;
+      fprintf(stderr, "scan [%s]: no station\n", (tmp_if_expr_1 + (signed long int)chscan)->name);
     }
 
   }
@@ -14489,61 +14489,61 @@ static void chscan_timeout(void *client_data, unsigned long int *id)
     {
       if(!(debug == 0))
       {
-        struct CHANLIST *tmp_if_expr$3;
+        struct CHANLIST *tmp_if_expr_3;
         if(!(chantab == -1))
-          tmp_if_expr$3 = (chanlists + (signed long int)chantab)->list;
+          tmp_if_expr_3 = (chanlists + (signed long int)chantab)->list;
 
         else
-          tmp_if_expr$3 = (struct CHANLIST *)(void *)0;
-        fprintf(stderr, "scan [%s]: %s\n", (tmp_if_expr$3 + (signed long int)chscan)->name, (const void *)x11_vbi_station);
+          tmp_if_expr_3 = (struct CHANLIST *)(void *)0;
+        fprintf(stderr, "scan [%s]: %s\n", (tmp_if_expr_3 + (signed long int)chscan)->name, (const void *)x11_vbi_station);
       }
 
-      chscan_timeout$$1$$c=add_channel(x11_vbi_station);
-      struct CHANLIST *tmp_if_expr$4;
+      chscan_timeout__1__c=add_channel(x11_vbi_station);
+      struct CHANLIST *tmp_if_expr_4;
       if(!(chantab == -1))
-        tmp_if_expr$4 = (chanlists + (signed long int)chantab)->list;
+        tmp_if_expr_4 = (chanlists + (signed long int)chantab)->list;
 
       else
-        tmp_if_expr$4 = (struct CHANLIST *)(void *)0;
-      chscan_timeout$$1$$c->cname=strdup((tmp_if_expr$4 + (signed long int)chscan)->name);
-      chscan_timeout$$1$$c->channel = chscan;
+        tmp_if_expr_4 = (struct CHANLIST *)(void *)0;
+      chscan_timeout__1__c->cname=strdup((tmp_if_expr_4 + (signed long int)chscan)->name);
+      chscan_timeout__1__c->channel = chscan;
       cur_sender = count - 1;
       channel_menu();
     }
 
     else
     {
-      signed int tmp_post$8 = chvbi;
+      signed int tmp_post_8 = chvbi;
       chvbi = chvbi + 1;
-      if(tmp_post$8 >= 4)
+      if(tmp_post_8 >= 4)
       {
         if(!(debug == 0))
         {
-          struct CHANLIST *tmp_if_expr$5;
+          struct CHANLIST *tmp_if_expr_5;
           if(!(chantab == -1))
-            tmp_if_expr$5 = (chanlists + (signed long int)chantab)->list;
+            tmp_if_expr_5 = (chanlists + (signed long int)chantab)->list;
 
           else
-            tmp_if_expr$5 = (struct CHANLIST *)(void *)0;
-          fprintf(stderr, "scan [%s]: no vbi name\n", (tmp_if_expr$5 + (signed long int)chscan)->name);
+            tmp_if_expr_5 = (struct CHANLIST *)(void *)0;
+          fprintf(stderr, "scan [%s]: no vbi name\n", (tmp_if_expr_5 + (signed long int)chscan)->name);
         }
 
-        struct CHANLIST *tmp_if_expr$6;
+        struct CHANLIST *tmp_if_expr_6;
         if(!(chantab == -1))
-          tmp_if_expr$6 = (chanlists + (signed long int)chantab)->list;
+          tmp_if_expr_6 = (chanlists + (signed long int)chantab)->list;
 
         else
-          tmp_if_expr$6 = (struct CHANLIST *)(void *)0;
-        sprintf(title, "%s [no name]", (tmp_if_expr$6 + (signed long int)chscan)->name);
-        chscan_timeout$$1$$c=add_channel(title);
-        struct CHANLIST *tmp_if_expr$7;
+          tmp_if_expr_6 = (struct CHANLIST *)(void *)0;
+        sprintf(title, "%s [no name]", (tmp_if_expr_6 + (signed long int)chscan)->name);
+        chscan_timeout__1__c=add_channel(title);
+        struct CHANLIST *tmp_if_expr_7;
         if(!(chantab == -1))
-          tmp_if_expr$7 = (chanlists + (signed long int)chantab)->list;
+          tmp_if_expr_7 = (chanlists + (signed long int)chantab)->list;
 
         else
-          tmp_if_expr$7 = (struct CHANLIST *)(void *)0;
-        chscan_timeout$$1$$c->cname=strdup((tmp_if_expr$7 + (signed long int)chscan)->name);
-        chscan_timeout$$1$$c->channel = chscan;
+          tmp_if_expr_7 = (struct CHANLIST *)(void *)0;
+        chscan_timeout__1__c->cname=strdup((tmp_if_expr_7 + (signed long int)chscan)->name);
+        chscan_timeout__1__c->channel = chscan;
         cur_sender = count - 1;
         channel_menu();
       }
@@ -14552,13 +14552,13 @@ static void chscan_timeout(void *client_data, unsigned long int *id)
       {
         if(!(debug == 0))
         {
-          struct CHANLIST *tmp_if_expr$9;
+          struct CHANLIST *tmp_if_expr_9;
           if(!(chantab == -1))
-            tmp_if_expr$9 = (chanlists + (signed long int)chantab)->list;
+            tmp_if_expr_9 = (chanlists + (signed long int)chantab)->list;
 
           else
-            tmp_if_expr$9 = (struct CHANLIST *)(void *)0;
-          fprintf(stderr, "scan [%s] vbi ...\n", (tmp_if_expr$9 + (signed long int)chscan)->name);
+            tmp_if_expr_9 = (struct CHANLIST *)(void *)0;
+          fprintf(stderr, "scan [%s] vbi ...\n", (tmp_if_expr_9 + (signed long int)chscan)->name);
         }
 
         chtimer=XtAppAddTimeOut(app_context, (unsigned long int)250, chscan_timeout, (void *)0);
@@ -14569,13 +14569,13 @@ static void chscan_timeout(void *client_data, unsigned long int *id)
 next_station:
   ;
   chscan = chscan + 1;
-  signed int tmp_if_expr$10;
+  signed int tmp_if_expr_10;
   if(!(chantab == -1))
-    tmp_if_expr$10 = (chanlists + (signed long int)chantab)->count;
+    tmp_if_expr_10 = (chanlists + (signed long int)chantab)->count;
 
   else
-    tmp_if_expr$10 = 0;
-  if(chscan >= tmp_if_expr$10)
+    tmp_if_expr_10 = 0;
+  if(chscan >= tmp_if_expr_10)
   {
     x11_vbi_stop();
     chtimer = (unsigned long int)0;
@@ -14592,23 +14592,23 @@ next_station:
     if(!(channel_switch_hook == ((void (*)(void))NULL)))
       channel_switch_hook();
 
-    struct CHANLIST *tmp_if_expr$11;
+    struct CHANLIST *tmp_if_expr_11;
     if(!(chantab == -1))
-      tmp_if_expr$11 = (chanlists + (signed long int)chantab)->list;
+      tmp_if_expr_11 = (chanlists + (signed long int)chantab)->list;
 
     else
-      tmp_if_expr$11 = (struct CHANLIST *)(void *)0;
-    xmstr=XmStringGenerate((void *)(tmp_if_expr$11 + (signed long int)chscan)->name, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+      tmp_if_expr_11 = (struct CHANLIST *)(void *)0;
+    xmstr=XmStringGenerate((void *)(tmp_if_expr_11 + (signed long int)chscan)->name, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
     XtVaSetValues(chscale, (char *)&_XmStrings[(signed long int)10137], xmstr, (void *)0);
     XmStringFree(xmstr);
     XmScaleSetValue(chscale, chscan);
-    struct CHANLIST *tmp_if_expr$12;
+    struct CHANLIST *tmp_if_expr_12;
     if(!(chantab == -1))
-      tmp_if_expr$12 = (chanlists + (signed long int)chantab)->list;
+      tmp_if_expr_12 = (chanlists + (signed long int)chantab)->list;
 
     else
-      tmp_if_expr$12 = (struct CHANLIST *)(void *)0;
-    do_va_cmd(2, (const void *)"setchannel", tmp_if_expr$12[(signed long int)chscan]);
+      tmp_if_expr_12 = (struct CHANLIST *)(void *)0;
+    do_va_cmd(2, (const void *)"setchannel", tmp_if_expr_12[(signed long int)chscan]);
     x11_vbi_station[(signed long int)0] = (char)0;
     chtimer=XtAppAddTimeOut(app_context, (unsigned long int)250, chscan_timeout, (void *)0);
     goto __CPROVER_DUMP_L32;
@@ -14704,15 +14704,15 @@ static char configure_delayed(void *data)
 // file x11/x11.c line 535
 static void configure_overlay(void)
 {
-  unsigned long int return_value_XtWindow$1;
+  unsigned long int return_value_XtWindow_1;
   if(!(overlay_enabled == 0))
   {
     if(!(have_xv == 0))
     {
       if(!(wfmt.height == 0u) && !(wfmt.width == 0u))
       {
-        return_value_XtWindow$1=XtWindow(video);
-        xv_video(return_value_XtWindow$1, (signed int)wfmt.width, (signed int)wfmt.height, 1);
+        return_value_XtWindow_1=XtWindow(video);
+        xv_video(return_value_XtWindow_1, (signed int)wfmt.width, (signed int)wfmt.height, 1);
       }
 
       goto __CPROVER_DUMP_L3;
@@ -14756,9 +14756,9 @@ found:
   ofmt.width = in->fmt.width;
   ofmt.height = in->fmt.height;
   ch=ng_convert_alloc(conv, &in->fmt, &ofmt);
-  struct ng_video_buf *return_value_ng_convert_single$1;
-  return_value_ng_convert_single$1=ng_convert_single(ch, in);
-  return return_value_ng_convert_single$1;
+  struct ng_video_buf *return_value_ng_convert_single_1;
+  return_value_ng_convert_single_1=ng_convert_single(ch, in);
+  return return_value_ng_convert_single_1;
 }
 
 // create_attr_widgets
@@ -14772,7 +14772,7 @@ static void create_attr_widgets(void)
   char str[100l];
   char key[32l];
   char ctrl[16l];
-  struct anonymous$11 argv[8l];
+  struct anonymous_11 argv[8l];
   unsigned int argc;
   signed int i;
   attr=ng_attr_byid(attrs, 1);
@@ -14817,19 +14817,19 @@ static void create_attr_widgets(void)
     argc = (unsigned int)0;
     label = (union __XmStringRec *)(void *)0;
     accel = (union __XmStringRec *)(void *)0;
-    label=XmStringGenerate((void *)(launch + (signed long int)i)->name, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+    label=XmStringGenerate((void *)(launch + (signed long int)i)->name, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
     argv[(signed long int)argc].name = (char *)&_XmStrings[(signed long int)7535];
     argv[(signed long int)argc].value = (signed long int)label;
     argc = argc + 1u;
     if(!((launch + (signed long int)i)->key == ((char *)NULL)))
     {
-      accel=XmStringGenerate((void *)(launch + (signed long int)i)->key, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+      accel=XmStringGenerate((void *)(launch + (signed long int)i)->key, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
       argv[(signed long int)argc].name = (char *)&_XmStrings[(signed long int)4684];
       argv[(signed long int)argc].value = (signed long int)accel;
       argc = argc + 1u;
-      signed int return_value_sscanf$1;
-      return_value_sscanf$1=sscanf((launch + (signed long int)i)->key, "%15[A-Za-z0-9_]+%31[A-Za-z0-9_]", (const void *)ctrl, (const void *)key);
-      if(return_value_sscanf$1 == 2)
+      signed int return_value_sscanf_1;
+      return_value_sscanf_1=sscanf((launch + (signed long int)i)->key, "%15[A-Za-z0-9_]+%31[A-Za-z0-9_]", (const void *)ctrl, (const void *)key);
+      if(return_value_sscanf_1 == 2)
         sprintf(str, "%s<Key>%s", (const void *)ctrl, (const void *)key);
 
       else
@@ -14849,13 +14849,13 @@ static void create_attr_widgets(void)
     strcat(str, ": Launch(");
     strcat(str, (launch + (signed long int)i)->name);
     strcat(str, ")");
-    struct _TranslationData *return_value_XtParseTranslationTable$2;
-    return_value_XtParseTranslationTable$2=XtParseTranslationTable(str);
-    XtOverrideTranslations(tv, return_value_XtParseTranslationTable$2);
+    struct _TranslationData *return_value_XtParseTranslationTable_2;
+    return_value_XtParseTranslationTable_2=XtParseTranslationTable(str);
+    XtOverrideTranslations(tv, return_value_XtParseTranslationTable_2);
     sprintf(str, "Launch(%s)", (launch + (signed long int)i)->name);
-    char *return_value_strdup$3;
-    return_value_strdup$3=strdup(str);
-    XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)return_value_strdup$3);
+    char *return_value_strdup_3;
+    return_value_strdup_3=strdup(str);
+    XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)return_value_strdup_3);
   }
 }
 
@@ -14863,14 +14863,14 @@ static void create_attr_widgets(void)
 // file x11/xt.h line 214
 void create_bitmaps(struct _WidgetRec *app_shell)
 {
-  struct anonymous$22 black;
-  struct anonymous$22 dummy;
-  unsigned long int return_value_XtWindow$1;
-  return_value_XtWindow$1=XtWindow(app_shell);
-  bm_yes=XCreateBitmapFromData(dpy, return_value_XtWindow$1, (const char *)bm_yes_data, (unsigned int)8, (unsigned int)8);
-  unsigned long int return_value_XtWindow$2;
-  return_value_XtWindow$2=XtWindow(app_shell);
-  bm_no=XCreateBitmapFromData(dpy, return_value_XtWindow$2, (const char *)bm_no_data, (unsigned int)8, (unsigned int)8);
+  struct anonymous_22 black;
+  struct anonymous_22 dummy;
+  unsigned long int return_value_XtWindow_1;
+  return_value_XtWindow_1=XtWindow(app_shell);
+  bm_yes=XCreateBitmapFromData(dpy, return_value_XtWindow_1, (const char *)bm_yes_data, (unsigned int)8, (unsigned int)8);
+  unsigned long int return_value_XtWindow_2;
+  return_value_XtWindow_2=XtWindow(app_shell);
+  bm_no=XCreateBitmapFromData(dpy, return_value_XtWindow_2, (const char *)bm_no_data, (unsigned int)8, (unsigned int)8);
   XAllocNamedColor(dpy, colormap, "black", &black, &dummy);
   no_ptr=XCreatePixmapCursor(dpy, bm_no, bm_no, &black, &black, (unsigned int)0, (unsigned int)0);
 }
@@ -14892,13 +14892,13 @@ static void create_control(void)
   signed int i;
   control_shell=XtVaAppCreateShell("control", "MoTV", topLevelShellWidgetClass, dpy, (char *)&XtShellStrings[(signed long int)813], app_shell, (char *)&XtShellStrings[(signed long int)104], vinfo.visual, (char *)&XtStrings[(signed long int)154], colormap, (char *)&XtStrings[(signed long int)163], vinfo.depth, (char *)&_XmStrings[(signed long int)6018], 2, (void *)0);
   XtAddEventHandler(control_shell, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(control_shell);
-  unsigned long int return_value_XInternAtom$2;
-  return_value_XInternAtom$2=XInternAtom(return_value_XtDisplay$1, "WM_PROTOCOLS", 0);
-  XmAddProtocolCallback(control_shell, return_value_XInternAtom$2, WM_DELETE_WINDOW, popupdown_cb, (void *)control_shell);
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(control_shell);
+  unsigned long int return_value_XInternAtom_2;
+  return_value_XInternAtom_2=XInternAtom(return_value_XtDisplay_1, "WM_PROTOCOLS", 0);
+  XmAddProtocolCallback(control_shell, return_value_XInternAtom_2, WM_DELETE_WINDOW, popupdown_cb, (void *)control_shell);
   form=XtVaCreateManagedWidget("form", xmFormWidgetClass, control_shell, (void *)0);
-  menubar=XmCreateMenuBar(form, "menubar", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  menubar=XmCreateMenuBar(form, "menubar", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtManageChild(menubar);
   tool=XtVaCreateManagedWidget("tool", xmRowColumnWidgetClass, form, (void *)0);
   rc=XtVaCreateManagedWidget("status", xmRowColumnWidgetClass, form, (void *)0);
@@ -14910,12 +14910,12 @@ static void create_control(void)
   st_name=XtVaCreateManagedWidget("name", xmLabelWidgetClass, fr, (void *)0);
   fr=XtVaCreateManagedWidget("f", xmFrameWidgetClass, rc, (void *)0);
   st_key=XtVaCreateManagedWidget("key", xmLabelWidgetClass, fr, (void *)0);
-  chan_viewport=XmCreateScrolledWindow(form, "view", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  chan_viewport=XmCreateScrolledWindow(form, "view", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtManageChild(chan_viewport);
   chan_box=XtVaCreateManagedWidget("box", xmRowColumnWidgetClass, chan_viewport, (void *)0);
   XtVaGetValues(chan_viewport, (char *)&_XmStrings[(signed long int)5505], &clip, (void *)0);
   XtAddEventHandler(clip, (unsigned long int)(1L << 17), (char)1, chan_resize_eh, (void *)0);
-  menu=XmCreatePulldownMenu(menubar, "fileM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  menu=XmCreatePulldownMenu(menubar, "fileM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtVaCreateManagedWidget("file", xmCascadeButtonWidgetClass, menubar, (char *)&_XmStrings[(signed long int)9963], menu, (void *)0);
   push=XtVaCreateManagedWidget("rec", xmPushButtonWidgetClass, menu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], popupdown_cb, (void *)str_shell);
@@ -14924,16 +14924,16 @@ static void create_control(void)
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], ExitCB, (void *)0);
   if(!((2 & f_drv) == 0))
   {
-    menu=XmCreatePulldownMenu(menubar, "editM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+    menu=XmCreatePulldownMenu(menubar, "editM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
     XtVaCreateManagedWidget("edit", xmCascadeButtonWidgetClass, menubar, (char *)&_XmStrings[(signed long int)9963], menu, (void *)0);
     push=XtVaCreateManagedWidget("copy", xmPushButtonWidgetClass, menu, (void *)0);
     XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Ipc(clipboard)");
   }
 
-  st_menu1=XmCreatePulldownMenu(menubar, "stationsM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  st_menu1=XmCreatePulldownMenu(menubar, "stationsM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtVaCreateManagedWidget("stations", xmCascadeButtonWidgetClass, menubar, (char *)&_XmStrings[(signed long int)9963], st_menu1, (void *)0);
   XtAddCallback(st_menu1, (char *)&_XmStrings[(signed long int)7864], menu_cols_cb, (void *)0);
-  menu=XmCreatePulldownMenu(menubar, "toolsM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  menu=XmCreatePulldownMenu(menubar, "toolsM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtVaCreateManagedWidget("tools", xmCascadeButtonWidgetClass, menubar, (char *)&_XmStrings[(signed long int)9963], menu, (void *)0);
   w_full=XtVaCreateManagedWidget("full", xmToggleButtonWidgetClass, menu, (void *)0);
   XtAddCallback(w_full, (char *)&_XmStrings[(signed long int)10591], action_cb, (void *)"Command(fullscreen)");
@@ -14947,7 +14947,7 @@ static void create_control(void)
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Command(setstation,next)");
   push=XtVaCreateManagedWidget("st_dn", xmPushButtonWidgetClass, menu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Command(setstation,prev)");
-  smenu=XmCreatePulldownMenu(menu, "tuneM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  smenu=XmCreatePulldownMenu(menu, "tuneM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtVaCreateManagedWidget("tune", xmCascadeButtonWidgetClass, menu, (char *)&_XmStrings[(signed long int)9963], smenu, (void *)0);
   push=XtVaCreateManagedWidget("ch_up", xmPushButtonWidgetClass, smenu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Command(setchannel,next)");
@@ -14957,7 +14957,7 @@ static void create_control(void)
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Command(setchannel,fine_up)");
   push=XtVaCreateManagedWidget("fi_dn", xmPushButtonWidgetClass, smenu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Command(setchannel,fine_down)");
-  smenu=XmCreatePulldownMenu(menu, "grabM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  smenu=XmCreatePulldownMenu(menu, "grabM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtVaCreateManagedWidget("grab", xmCascadeButtonWidgetClass, menu, (char *)&_XmStrings[(signed long int)9963], smenu, (void *)0);
   push=XtVaCreateManagedWidget("ppm_f", xmPushButtonWidgetClass, smenu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Command(snap,ppm,full)");
@@ -14967,15 +14967,15 @@ static void create_control(void)
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Command(snap,jpeg,full)");
   push=XtVaCreateManagedWidget("jpg_w", xmPushButtonWidgetClass, smenu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Command(snap,jpeg,win)");
-  smenu=XmCreatePulldownMenu(menu, "ratioM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  smenu=XmCreatePulldownMenu(menu, "ratioM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtVaCreateManagedWidget("ratio", xmCascadeButtonWidgetClass, menu, (char *)&_XmStrings[(signed long int)9963], smenu, (void *)0);
   push=XtVaCreateManagedWidget("r_no", xmPushButtonWidgetClass, smenu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Ratio(0,0)");
   push=XtVaCreateManagedWidget("r_43", xmPushButtonWidgetClass, smenu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Ratio(4,3)");
-  launch_menu=XmCreatePulldownMenu(menu, "launchM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  launch_menu=XmCreatePulldownMenu(menu, "launchM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtVaCreateManagedWidget("launch", xmCascadeButtonWidgetClass, menu, (char *)&_XmStrings[(signed long int)9963], launch_menu, (void *)0);
-  smenu=XmCreatePulldownMenu(menu, "subM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  smenu=XmCreatePulldownMenu(menu, "subM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtVaCreateManagedWidget("sub", xmCascadeButtonWidgetClass, menu, (char *)&_XmStrings[(signed long int)9963], smenu, (void *)0);
   push=XtVaCreateManagedWidget("s_off", xmPushButtonWidgetClass, smenu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Vtx(stop)");
@@ -14989,7 +14989,7 @@ static void create_control(void)
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Vtx(start,801)");
   push=XtVaCreateManagedWidget("s_888", xmPushButtonWidgetClass, smenu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Vtx(start,888)");
-  menu=XmCreatePulldownMenu(menubar, "optionsM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  menu=XmCreatePulldownMenu(menubar, "optionsM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   opt_menu = menu;
   XtVaCreateManagedWidget("options", xmCascadeButtonWidgetClass, menubar, (char *)&_XmStrings[(signed long int)9963], menu, (void *)0);
   push=XtVaCreateManagedWidget("add", xmPushButtonWidgetClass, menu, (void *)0);
@@ -15001,7 +15001,7 @@ static void create_control(void)
   push=XtVaCreateManagedWidget("save", xmPushButtonWidgetClass, menu, (void *)0);
   XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], chan_save_cb, (void *)0);
   XtVaCreateManagedWidget("sep", xmSeparatorWidgetClass, menu, (void *)0);
-  cap_menu=XmCreatePulldownMenu(menu, "captureM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  cap_menu=XmCreatePulldownMenu(menu, "captureM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtVaCreateManagedWidget("capture", xmCascadeButtonWidgetClass, menu, (char *)&_XmStrings[(signed long int)9963], cap_menu, (void *)0);
   push=XtVaCreateManagedWidget("overlay", xmToggleButtonWidgetClass, cap_menu, (char *)&_XmStrings[(signed long int)7324], 2, (void *)0);
   add_cmd_callback(push, (char *)&_XmStrings[(signed long int)10591], "capture", "overlay", (const char *)(void *)0);
@@ -15009,7 +15009,7 @@ static void create_control(void)
   add_cmd_callback(push, (char *)&_XmStrings[(signed long int)10591], "capture", "grab", (const char *)(void *)0);
   push=XtVaCreateManagedWidget("none", xmToggleButtonWidgetClass, cap_menu, (char *)&_XmStrings[(signed long int)7324], 2, (void *)0);
   add_cmd_callback(push, (char *)&_XmStrings[(signed long int)10591], "capture", "off", (const char *)(void *)0);
-  freq_menu=XmCreatePulldownMenu(menu, "freqM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  freq_menu=XmCreatePulldownMenu(menu, "freqM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtVaCreateManagedWidget("freq", xmCascadeButtonWidgetClass, menu, (char *)&_XmStrings[(signed long int)9963], freq_menu, (void *)0);
   i = 0;
   for( ; !((chanlist_names + (signed long int)i)->str == ((const char *)NULL)); i = i + 1)
@@ -15018,15 +15018,15 @@ static void create_control(void)
     add_cmd_callback(push, (char *)&_XmStrings[(signed long int)10591], "setfreqtab", (chanlist_names + (signed long int)i)->str, (const char *)(void *)0);
   }
   XtVaCreateManagedWidget("sep", xmSeparatorWidgetClass, menu, (void *)0);
-  signed int return_value_list_empty$4;
+  signed int return_value_list_empty_4;
   if(!((2 & f_drv) == 0))
   {
-    return_value_list_empty$4=list_empty(&ng_filters);
-    if(return_value_list_empty$4 == 0)
+    return_value_list_empty_4=list_empty(&ng_filters);
+    if(return_value_list_empty_4 == 0)
     {
       struct list_head *item;
       struct ng_filter *filter;
-      menu=XmCreatePulldownMenu(menubar, "filterM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+      menu=XmCreatePulldownMenu(menubar, "filterM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
       XtVaCreateManagedWidget("filter", xmCascadeButtonWidgetClass, menubar, (char *)&_XmStrings[(signed long int)9963], menu, (void *)0);
       push=XtVaCreateManagedWidget("fnone", xmPushButtonWidgetClass, menu, (void *)0);
       XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)"Filter()");
@@ -15036,9 +15036,9 @@ static void create_control(void)
         filter = (struct ng_filter *)((char *)item - (signed long int)(unsigned long int)&((struct ng_filter *)0)->list);
         push=XtVaCreateManagedWidget(filter->name, xmPushButtonWidgetClass, menu, (void *)0);
         sprintf(action, "Filter(%s)", filter->name);
-        char *return_value_strdup$3;
-        return_value_strdup$3=strdup(action);
-        XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)return_value_strdup$3);
+        char *return_value_strdup_3;
+        return_value_strdup_3=strdup(action);
+        XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], action_cb, (void *)return_value_strdup_3);
       }
       XtVaCreateManagedWidget("sep", xmSeparatorWidgetClass, menu, (void *)0);
       push=XtVaCreateManagedWidget("fopts", xmPushButtonWidgetClass, menu, (void *)0);
@@ -15047,7 +15047,7 @@ static void create_control(void)
 
   }
 
-  menu=XmCreatePulldownMenu(menubar, "helpM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  menu=XmCreatePulldownMenu(menubar, "helpM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   push=XtVaCreateManagedWidget("help", xmCascadeButtonWidgetClass, menubar, (char *)&_XmStrings[(signed long int)9963], menu, (void *)0);
   XtVaSetValues(menubar, (char *)&_XmStrings[(signed long int)8025], push, (void *)0);
   push=XtVaCreateManagedWidget("man", xmPushButtonWidgetClass, menu, (void *)0);
@@ -15084,11 +15084,11 @@ static void create_filter_prop(void)
   signed int j;
   filter_shell=XtVaAppCreateShell("filter", "MoTV", topLevelShellWidgetClass, dpy, (char *)&XtShellStrings[(signed long int)813], app_shell, (char *)&XtShellStrings[(signed long int)104], vinfo.visual, (char *)&XtStrings[(signed long int)154], colormap, (char *)&XtStrings[(signed long int)163], vinfo.depth, (char *)&_XmStrings[(signed long int)6018], 2, (void *)0);
   XtAddEventHandler(filter_shell, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(filter_shell);
-  unsigned long int return_value_XInternAtom$2;
-  return_value_XInternAtom$2=XInternAtom(return_value_XtDisplay$1, "WM_PROTOCOLS", 0);
-  XmAddProtocolCallback(filter_shell, return_value_XInternAtom$2, WM_DELETE_WINDOW, popupdown_cb, (void *)filter_shell);
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(filter_shell);
+  unsigned long int return_value_XInternAtom_2;
+  return_value_XInternAtom_2=XInternAtom(return_value_XtDisplay_1, "WM_PROTOCOLS", 0);
+  XmAddProtocolCallback(filter_shell, return_value_XInternAtom_2, WM_DELETE_WINDOW, popupdown_cb, (void *)filter_shell);
   rc1=XtVaCreateManagedWidget("rc", xmRowColumnWidgetClass, filter_shell, (void *)0);
   item = (&ng_filters)->next;
   for( ; !(item == &ng_filters); item = item->next)
@@ -15096,7 +15096,7 @@ static void create_filter_prop(void)
     filter = (struct ng_filter *)((char *)item - (signed long int)(unsigned long int)&((struct ng_filter *)0)->list);
     if(!(filter->attrs == ((struct ng_attribute *)NULL)))
     {
-      str=XmStringGenerate((void *)filter->name, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+      str=XmStringGenerate((void *)filter->name, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
       frame=XtVaCreateManagedWidget("frame", xmFrameWidgetClass, rc1, (void *)0);
       XtVaCreateManagedWidget("label", xmLabelWidgetClass, frame, (char *)&_XmStrings[(signed long int)7535], str, (void *)0);
       rc2=XtVaCreateManagedWidget("rc", xmRowColumnWidgetClass, frame, (void *)0);
@@ -15116,11 +15116,11 @@ static void create_levels(void)
   struct _WidgetRec *rc;
   levels_shell=XtVaAppCreateShell("levels", "MoTV", topLevelShellWidgetClass, dpy, (char *)&XtShellStrings[(signed long int)813], app_shell, (char *)&XtShellStrings[(signed long int)104], vinfo.visual, (char *)&XtStrings[(signed long int)154], colormap, (char *)&XtStrings[(signed long int)163], vinfo.depth, (char *)&_XmStrings[(signed long int)6018], 2, (void *)0);
   XtAddEventHandler(levels_shell, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(levels_shell);
-  unsigned long int return_value_XInternAtom$2;
-  return_value_XInternAtom$2=XInternAtom(return_value_XtDisplay$1, "WM_PROTOCOLS", 0);
-  XmAddProtocolCallback(levels_shell, return_value_XInternAtom$2, WM_DELETE_WINDOW, popupdown_cb, (void *)levels_shell);
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(levels_shell);
+  unsigned long int return_value_XInternAtom_2;
+  return_value_XInternAtom_2=XInternAtom(return_value_XtDisplay_1, "WM_PROTOCOLS", 0);
+  XmAddProtocolCallback(levels_shell, return_value_XInternAtom_2, WM_DELETE_WINDOW, popupdown_cb, (void *)levels_shell);
   rc=XtVaCreateManagedWidget("rc", xmRowColumnWidgetClass, levels_shell, (void *)0);
   levels_toggle=XtVaCreateManagedWidget("enable", xmToggleButtonWidgetClass, rc, (void *)0);
   XtAddCallback(levels_toggle, (char *)&_XmStrings[(signed long int)10591], levels_toggle_cb, (void *)0);
@@ -15140,21 +15140,21 @@ void create_onscreen(struct _WidgetClassRec *class)
 // file x11/xt.h line 213
 void create_pointers(struct _WidgetRec *app_shell)
 {
-  struct anonymous$22 white;
-  struct anonymous$22 red;
-  struct anonymous$22 dummy;
+  struct anonymous_22 white;
+  struct anonymous_22 red;
+  struct anonymous_22 dummy;
   left_ptr=XCreateFontCursor(dpy, (unsigned int)68);
   menu_ptr=XCreateFontCursor(dpy, (unsigned int)94);
   qu_ptr=XCreateFontCursor(dpy, (unsigned int)92);
-  signed int return_value_XAllocNamedColor$1;
+  signed int return_value_XAllocNamedColor_1;
   if(vinfo.depth >= 2)
   {
-    signed int return_value_XAllocNamedColor$2;
-    return_value_XAllocNamedColor$2=XAllocNamedColor(dpy, colormap, "white", &white, &dummy);
-    if(!(return_value_XAllocNamedColor$2 == 0))
+    signed int return_value_XAllocNamedColor_2;
+    return_value_XAllocNamedColor_2=XAllocNamedColor(dpy, colormap, "white", &white, &dummy);
+    if(!(return_value_XAllocNamedColor_2 == 0))
     {
-      return_value_XAllocNamedColor$1=XAllocNamedColor(dpy, colormap, "red", &red, &dummy);
-      if(!(return_value_XAllocNamedColor$1 == 0))
+      return_value_XAllocNamedColor_1=XAllocNamedColor(dpy, colormap, "red", &red, &dummy);
+      if(!(return_value_XAllocNamedColor_1 == 0))
       {
         XRecolorCursor(dpy, left_ptr, &red, &white);
         XRecolorCursor(dpy, menu_ptr, &red, &white);
@@ -15175,48 +15175,48 @@ static void create_pref(void)
   struct _WidgetRec *frame;
   struct _WidgetRec *rc2;
   struct _WidgetRec *rc3;
-  struct anonymous$11 create_pref$$1$$args[2l];
-  pref_dlg=XmCreatePromptDialog(control_shell, "pref", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  struct _WidgetRec *return_value_XtParent$1;
-  return_value_XtParent$1=XtParent(pref_dlg);
-  XtAddEventHandler(return_value_XtParent$1, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$2;
-  return_value_XmSelectionBoxGetChild$2=XmSelectionBoxGetChild(pref_dlg, (unsigned char)11);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$2);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$3;
-  return_value_XmSelectionBoxGetChild$3=XmSelectionBoxGetChild(pref_dlg, (unsigned char)7);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$3);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$4;
-  return_value_XmSelectionBoxGetChild$4=XmSelectionBoxGetChild(pref_dlg, (unsigned char)1);
-  XtManageChild(return_value_XmSelectionBoxGetChild$4);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$5;
-  return_value_XmSelectionBoxGetChild$5=XmSelectionBoxGetChild(pref_dlg, (unsigned char)13);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$5);
+  struct anonymous_11 create_pref__1__args[2l];
+  pref_dlg=XmCreatePromptDialog(control_shell, "pref", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  struct _WidgetRec *return_value_XtParent_1;
+  return_value_XtParent_1=XtParent(pref_dlg);
+  XtAddEventHandler(return_value_XtParent_1, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_2;
+  return_value_XmSelectionBoxGetChild_2=XmSelectionBoxGetChild(pref_dlg, (unsigned char)11);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_2);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_3;
+  return_value_XmSelectionBoxGetChild_3=XmSelectionBoxGetChild(pref_dlg, (unsigned char)7);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_3);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_4;
+  return_value_XmSelectionBoxGetChild_4=XmSelectionBoxGetChild(pref_dlg, (unsigned char)1);
+  XtManageChild(return_value_XmSelectionBoxGetChild_4);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_5;
+  return_value_XmSelectionBoxGetChild_5=XmSelectionBoxGetChild(pref_dlg, (unsigned char)13);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_5);
   rc1=XtVaCreateManagedWidget("rc", xmRowColumnWidgetClass, pref_dlg, (void *)0);
   frame=XtVaCreateManagedWidget("fsF", xmFrameWidgetClass, rc1, (void *)0);
   XtVaCreateManagedWidget("fsL", xmLabelWidgetClass, frame, (void *)0);
   rc2=XtVaCreateManagedWidget("rc", xmRowColumnWidgetClass, frame, (void *)0);
   pref_fs_toggle=XtVaCreateManagedWidget("fsT", xmToggleButtonWidgetClass, rc2, (void *)0);
   XtAddCallback(pref_fs_toggle, (char *)&_XmStrings[(signed long int)10591], pref_fst_cb, (void *)0);
-  pref_fs_menu=XmCreatePulldownMenu(rc2, "fsM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  create_pref$$1$$args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
-  create_pref$$1$$args[(signed long int)0].value = (signed long int)pref_fs_menu;
-  pref_fs_option=XmCreateOptionMenu(rc2, "fsO", create_pref$$1$$args, (unsigned int)1);
+  pref_fs_menu=XmCreatePulldownMenu(rc2, "fsM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  create_pref__1__args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
+  create_pref__1__args[(signed long int)0].value = (signed long int)pref_fs_menu;
+  pref_fs_option=XmCreateOptionMenu(rc2, "fsO", create_pref__1__args, (unsigned int)1);
   XtManageChild(pref_fs_option);
   frame=XtVaCreateManagedWidget("mixF", xmFrameWidgetClass, rc1, (void *)0);
   XtVaCreateManagedWidget("mixL", xmLabelWidgetClass, frame, (void *)0);
   rc2=XtVaCreateManagedWidget("rc", xmRowColumnWidgetClass, frame, (void *)0);
   pref_mix_toggle=XtVaCreateManagedWidget("mixT", xmToggleButtonWidgetClass, rc2, (void *)0);
   XtAddCallback(pref_mix_toggle, (char *)&_XmStrings[(signed long int)10591], pref_mix1_cb, (void *)0);
-  pref_mix1_menu=XmCreatePulldownMenu(rc2, "mix1M", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  create_pref$$1$$args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
-  create_pref$$1$$args[(signed long int)0].value = (signed long int)pref_mix1_menu;
-  pref_mix1_option=XmCreateOptionMenu(rc2, "mix1O", create_pref$$1$$args, (unsigned int)1);
+  pref_mix1_menu=XmCreatePulldownMenu(rc2, "mix1M", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  create_pref__1__args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
+  create_pref__1__args[(signed long int)0].value = (signed long int)pref_mix1_menu;
+  pref_mix1_option=XmCreateOptionMenu(rc2, "mix1O", create_pref__1__args, (unsigned int)1);
   XtManageChild(pref_mix1_option);
-  pref_mix2_menu=XmCreatePulldownMenu(rc2, "mix2M", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  create_pref$$1$$args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
-  create_pref$$1$$args[(signed long int)0].value = (signed long int)pref_mix2_menu;
-  pref_mix2_option=XmCreateOptionMenu(rc2, "mix2O", create_pref$$1$$args, (unsigned int)1);
+  pref_mix2_menu=XmCreatePulldownMenu(rc2, "mix2M", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  create_pref__1__args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
+  create_pref__1__args[(signed long int)0].value = (signed long int)pref_mix2_menu;
+  pref_mix2_option=XmCreateOptionMenu(rc2, "mix2O", create_pref__1__args, (unsigned int)1);
   XtManageChild(pref_mix2_option);
   frame=XtVaCreateManagedWidget("optF", xmFrameWidgetClass, rc1, (void *)0);
   XtVaCreateManagedWidget("optL", xmLabelWidgetClass, frame, (void *)0);
@@ -15238,19 +15238,19 @@ static void create_prop(void)
 {
   struct _WidgetRec *label;
   struct _WidgetRec *rowcol;
-  prop_dlg=XmCreatePromptDialog(control_shell, "prop", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  struct _WidgetRec *return_value_XtParent$1;
-  return_value_XtParent$1=XtParent(prop_dlg);
-  XtAddEventHandler(return_value_XtParent$1, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$2;
-  return_value_XmSelectionBoxGetChild$2=XmSelectionBoxGetChild(prop_dlg, (unsigned char)11);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$2);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$3;
-  return_value_XmSelectionBoxGetChild$3=XmSelectionBoxGetChild(prop_dlg, (unsigned char)7);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$3);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$4;
-  return_value_XmSelectionBoxGetChild$4=XmSelectionBoxGetChild(prop_dlg, (unsigned char)13);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$4);
+  prop_dlg=XmCreatePromptDialog(control_shell, "prop", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  struct _WidgetRec *return_value_XtParent_1;
+  return_value_XtParent_1=XtParent(prop_dlg);
+  XtAddEventHandler(return_value_XtParent_1, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_2;
+  return_value_XmSelectionBoxGetChild_2=XmSelectionBoxGetChild(prop_dlg, (unsigned char)11);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_2);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_3;
+  return_value_XmSelectionBoxGetChild_3=XmSelectionBoxGetChild(prop_dlg, (unsigned char)7);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_3);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_4;
+  return_value_XmSelectionBoxGetChild_4=XmSelectionBoxGetChild(prop_dlg, (unsigned char)13);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_4);
   rowcol=XtVaCreateManagedWidget("rc", xmRowColumnWidgetClass, prop_dlg, (void *)0);
   label=XtVaCreateManagedWidget("nameL", xmLabelWidgetClass, rowcol, (void *)0);
   prop_name=XtVaCreateManagedWidget("name", xmTextWidgetClass, rowcol, (void *)0);
@@ -15277,11 +15277,11 @@ static void create_scale(void)
   union __XmStringRec *str;
   scale_shell=XtVaAppCreateShell("scale", "MoTV", topLevelShellWidgetClass, dpy, (char *)&XtShellStrings[(signed long int)813], app_shell, (char *)&XtShellStrings[(signed long int)104], vinfo.visual, (char *)&XtStrings[(signed long int)154], colormap, (char *)&XtStrings[(signed long int)163], vinfo.depth, (char *)&_XmStrings[(signed long int)6018], 2, (void *)0);
   XtAddEventHandler(scale_shell, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(scale_shell);
-  unsigned long int return_value_XInternAtom$2;
-  return_value_XInternAtom$2=XInternAtom(return_value_XtDisplay$1, "WM_PROTOCOLS", 0);
-  XmAddProtocolCallback(scale_shell, return_value_XInternAtom$2, WM_DELETE_WINDOW, popupdown_cb, (void *)scale_shell);
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(scale_shell);
+  unsigned long int return_value_XInternAtom_2;
+  return_value_XInternAtom_2=XInternAtom(return_value_XtDisplay_1, "WM_PROTOCOLS", 0);
+  XmAddProtocolCallback(scale_shell, return_value_XInternAtom_2, WM_DELETE_WINDOW, popupdown_cb, (void *)scale_shell);
   form=XtVaCreateManagedWidget("form", xmFormWidgetClass, scale_shell, (void *)0);
   attach = (struct _WidgetRec *)(void *)0;
   attr = attrs;
@@ -15297,9 +15297,9 @@ static void create_scale(void)
         vol = vol + 1;
       }
 
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct motif_attribute) /*24ul*/ );
-      a = (struct motif_attribute *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct motif_attribute) /*24ul*/ );
+      a = (struct motif_attribute *)return_value_malloc_3;
       memset((void *)a, 0, sizeof(struct motif_attribute) /*24ul*/ );
       a->attr = attr;
       a->next = motif_attrs;
@@ -15309,7 +15309,7 @@ static void create_scale(void)
 
       else
       {
-        str=XmStringGenerate((void *)(char *)attr->name, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+        str=XmStringGenerate((void *)(char *)attr->name, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
         a->widget=XtVaCreateManagedWidget(attr->name, xmScaleWidgetClass, form, (char *)&_XmStrings[(signed long int)10339], attach, (char *)&_XmStrings[(signed long int)10137], str, (char *)&_XmStrings[(signed long int)8134], attr->min, (char *)&_XmStrings[(signed long int)7982], attr->max, (char *)&_XmStrings[(signed long int)5711], attr->points, (void *)0);
         XmStringFree(str);
       }
@@ -15334,39 +15334,39 @@ static void create_strwin(void)
   struct _WidgetRec *frame;
   struct _WidgetRec *fbox;
   struct FILE_DATA *h;
-  struct anonymous$11 create_strwin$$1$$args[2l];
+  struct anonymous_11 create_strwin__1__args[2l];
   str_shell=XtVaAppCreateShell("streamer", "MoTV", topLevelShellWidgetClass, dpy, (char *)&XtShellStrings[(signed long int)813], app_shell, (char *)&XtShellStrings[(signed long int)104], vinfo.visual, (char *)&XtStrings[(signed long int)154], colormap, (char *)&XtStrings[(signed long int)163], vinfo.depth, (char *)&_XmStrings[(signed long int)6018], 2, (void *)0);
   XtAddEventHandler(str_shell, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(str_shell);
-  unsigned long int return_value_XInternAtom$2;
-  return_value_XInternAtom$2=XInternAtom(return_value_XtDisplay$1, "WM_PROTOCOLS", 0);
-  XmAddProtocolCallback(str_shell, return_value_XInternAtom$2, WM_DELETE_WINDOW, popupdown_cb, (void *)str_shell);
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(str_shell);
+  unsigned long int return_value_XInternAtom_2;
+  return_value_XInternAtom_2=XInternAtom(return_value_XtDisplay_1, "WM_PROTOCOLS", 0);
+  XmAddProtocolCallback(str_shell, return_value_XInternAtom_2, WM_DELETE_WINDOW, popupdown_cb, (void *)str_shell);
   form=XtVaCreateManagedWidget("form", xmFormWidgetClass, str_shell, (void *)0);
   frame=XtVaCreateManagedWidget("driverF", xmFrameWidgetClass, form, (void *)0);
   XtVaCreateManagedWidget("driverL", xmLabelWidgetClass, frame, (void *)0);
-  driver_menu=XmCreatePulldownMenu(form, "driverM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  create_strwin$$1$$args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
-  create_strwin$$1$$args[(signed long int)0].value = (signed long int)driver_menu;
-  driver_option=XmCreateOptionMenu(frame, "driver", create_strwin$$1$$args, (unsigned int)1);
+  driver_menu=XmCreatePulldownMenu(form, "driverM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  create_strwin__1__args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
+  create_strwin__1__args[(signed long int)0].value = (signed long int)driver_menu;
+  driver_option=XmCreateOptionMenu(frame, "driver", create_strwin__1__args, (unsigned int)1);
   XtManageChild(driver_option);
   frame=XtVaCreateManagedWidget("videoF", xmFrameWidgetClass, form, (void *)0);
   XtVaCreateManagedWidget("videoL", xmLabelWidgetClass, frame, (void *)0);
   rowcol=XtVaCreateManagedWidget("videoB", xmRowColumnWidgetClass, frame, (void *)0);
-  video_menu=XmCreatePulldownMenu(rowcol, "videoM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  create_strwin$$1$$args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
-  create_strwin$$1$$args[(signed long int)0].value = (signed long int)video_menu;
-  video_option=XmCreateOptionMenu(rowcol, "video", create_strwin$$1$$args, (unsigned int)1);
+  video_menu=XmCreatePulldownMenu(rowcol, "videoM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  create_strwin__1__args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
+  create_strwin__1__args[(signed long int)0].value = (signed long int)video_menu;
+  video_option=XmCreateOptionMenu(rowcol, "video", create_strwin__1__args, (unsigned int)1);
   XtManageChild(video_option);
   XtVaCreateManagedWidget("fpsL", xmLabelWidgetClass, rowcol, (void *)0);
   m_fps=XtVaCreateManagedWidget("fps", xmComboBoxWidgetClass, rowcol, (void *)0);
   frame=XtVaCreateManagedWidget("audioF", xmFrameWidgetClass, form, (void *)0);
   XtVaCreateManagedWidget("audioL", xmLabelWidgetClass, frame, (void *)0);
   rowcol=XtVaCreateManagedWidget("audioB", xmRowColumnWidgetClass, frame, (void *)0);
-  audio_menu=XmCreatePulldownMenu(rowcol, "audioM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  create_strwin$$1$$args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
-  create_strwin$$1$$args[(signed long int)0].value = (signed long int)audio_menu;
-  audio_option=XmCreateOptionMenu(rowcol, "audio", create_strwin$$1$$args, (unsigned int)1);
+  audio_menu=XmCreatePulldownMenu(rowcol, "audioM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  create_strwin__1__args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
+  create_strwin__1__args[(signed long int)0].value = (signed long int)audio_menu;
+  audio_option=XmCreateOptionMenu(rowcol, "audio", create_strwin__1__args, (unsigned int)1);
   XtManageChild(audio_option);
   XtVaCreateManagedWidget("rateL", xmLabelWidgetClass, rowcol, (void *)0);
   m_rate=XtVaCreateManagedWidget("rate", xmComboBoxWidgetClass, rowcol, (void *)0);
@@ -15375,9 +15375,9 @@ static void create_strwin(void)
   fbox=XtVaCreateManagedWidget("fbox", xmRowColumnWidgetClass, frame, (void *)0);
   rowcol=XtVaCreateManagedWidget("fvideoB", xmRowColumnWidgetClass, fbox, (void *)0);
   XtVaCreateManagedWidget("fvideoL", xmLabelWidgetClass, rowcol, (void *)0);
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct FILE_DATA) /*24ul*/ );
-  h = (struct FILE_DATA *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct FILE_DATA) /*24ul*/ );
+  h = (struct FILE_DATA *)return_value_malloc_3;
   memset((void *)h, 0, sizeof(struct FILE_DATA) /*24ul*/ );
   h->text=XtVaCreateManagedWidget("fvideo", xmTextWidgetClass, rowcol, (void *)0);
   m_fvideo = h->text;
@@ -15385,9 +15385,9 @@ static void create_strwin(void)
   XtAddCallback(h->push, (char *)&_XmStrings[(signed long int)4700], file_browse_cb, (void *)h);
   rowcol=XtVaCreateManagedWidget("faudioB", xmRowColumnWidgetClass, fbox, (void *)0);
   m_faudioL=XtVaCreateManagedWidget("faudioL", xmLabelWidgetClass, rowcol, (void *)0);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(struct FILE_DATA) /*24ul*/ );
-  h = (struct FILE_DATA *)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(struct FILE_DATA) /*24ul*/ );
+  h = (struct FILE_DATA *)return_value_malloc_4;
   memset((void *)h, 0, sizeof(struct FILE_DATA) /*24ul*/ );
   h->text=XtVaCreateManagedWidget("faudio", xmTextWidgetClass, rowcol, (void *)0);
   m_faudio = h->text;
@@ -15423,11 +15423,11 @@ static signed int dattr_handler(char *name, signed int argc, char **argv)
 {
   struct ng_attribute *attr = (struct ng_attribute *)(void *)0;
   unsigned int i;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(argc >= 1)
   {
-    return_value_strcasecmp$1=strcasecmp(argv[(signed long int)0], "next");
-    if(return_value_strcasecmp$1 == 0)
+    return_value_strcasecmp_1=strcasecmp(argv[(signed long int)0], "next");
+    if(return_value_strcasecmp_1 == 0)
     {
       i = (unsigned int)0;
       for( ; !((unsigned long int)i >= 2ul); i = i + 1u)
@@ -15455,9 +15455,9 @@ static signed int dattr_handler(char *name, signed int argc, char **argv)
 
   else
   {
-    signed int return_value_attr_handler$2;
-    return_value_attr_handler$2=attr_handler((char *)attr->name, argc, argv);
-    return return_value_attr_handler$2;
+    signed int return_value_attr_handler_2;
+    return_value_attr_handler_2=attr_handler((char *)attr->name, argc, argv);
+    return return_value_attr_handler_2;
   }
 }
 
@@ -15487,9 +15487,9 @@ static void delete_children(struct _WidgetRec *widget)
   XtVaGetValues(widget, (char *)&XtStrings[(signed long int)145], &children, (char *)&XtStrings[(signed long int)493], &nchildren, (void *)0);
   if(!(nchildren == 0u))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _WidgetRec **) /*8ul*/  * (unsigned long int)nchildren);
-    list = (struct _WidgetRec **)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _WidgetRec **) /*8ul*/  * (unsigned long int)nchildren);
+    list = (struct _WidgetRec **)return_value_malloc_1;
     memcpy((void *)list, (const void *)children, sizeof(struct _WidgetRec **) /*8ul*/  * (unsigned long int)nchildren);
     i = (unsigned int)0;
     for( ; !(i >= nchildren); i = i + 1u)
@@ -15512,27 +15512,27 @@ void * discover_media_devices(void)
 {
   struct media_devices *md = (struct media_devices *)(void *)0;
   struct media_device_entry *md_entry = (struct media_device_entry *)(void *)0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct media_devices) /*16ul*/ );
-  md = (struct media_devices *)return_value_calloc$1;
-  signed int return_value_get_class$3;
-  signed int return_value_get_class$4;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct media_devices) /*16ul*/ );
+  md = (struct media_devices *)return_value_calloc_1;
+  signed int return_value_get_class_3;
+  signed int return_value_get_class_4;
   if(md == ((struct media_devices *)NULL))
     return (void *)0;
 
   else
   {
     md->md_size = (unsigned int)0;
-    signed int return_value_get_class$2;
-    return_value_get_class$2=get_class("video4linux", &md_entry, &md->md_size, add_v4l_class);
-    if(return_value_get_class$2 == 0)
+    signed int return_value_get_class_2;
+    return_value_get_class_2=get_class("video4linux", &md_entry, &md->md_size, add_v4l_class);
+    if(return_value_get_class_2 == 0)
     {
-      return_value_get_class$3=get_class("sound", &md_entry, &md->md_size, add_snd_class);
-      if(!(return_value_get_class$3 == 0))
+      return_value_get_class_3=get_class("sound", &md_entry, &md->md_size, add_snd_class);
+      if(!(return_value_get_class_3 == 0))
         goto error;
 
-      return_value_get_class$4=get_class("dvb", &md_entry, &md->md_size, add_dvb_class);
-      if(!(return_value_get_class$4 == 0))
+      return_value_get_class_4=get_class("dvb", &md_entry, &md->md_size, add_dvb_class);
+      if(!(return_value_get_class_4 == 0))
         goto error;
 
       if(md_entry == ((struct media_device_entry *)NULL))
@@ -15565,17 +15565,17 @@ void display_media_devices(void *opaque)
   i = 0;
   for( ; !((unsigned int)i >= md->md_size); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(prev, md_ptr->device);
-    if(!(return_value_strcmp$1 == 0))
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(prev, md_ptr->device);
+    if(!(return_value_strcmp_1 == 0))
     {
       printf("\nDevice %s:\n\t", md_ptr->device);
       prev = md_ptr->device;
     }
 
-    const char *return_value_media_device_type$2;
-    return_value_media_device_type$2=media_device_type(md_ptr->type);
-    printf("%s(%s, dev %i:%i) ", md_ptr->node, return_value_media_device_type$2, md_ptr->major, md_ptr->minor);
+    const char *return_value_media_device_type_2;
+    return_value_media_device_type_2=media_device_type(md_ptr->type);
+    printf("%s(%s, dev %i:%i) ", md_ptr->node, return_value_media_device_type_2, md_ptr->major, md_ptr->minor);
     md_ptr = md_ptr + 1l;
   }
   printf("\n");
@@ -15587,7 +15587,7 @@ static void display_onscreen(char *title)
 {
   unsigned short int x;
   unsigned short int y;
-  unsigned long int return_value_XtWindow$1;
+  unsigned long int return_value_XtWindow_1;
   if(!(fs == 0))
   {
     if(!(use_osd == 0))
@@ -15598,11 +15598,11 @@ static void display_onscreen(char *title)
       XtVaGetValues(app_shell, (char *)&XtStrings[(signed long int)885], &x, (char *)&XtStrings[(signed long int)887], &y, (void *)0);
       XtVaSetValues(on_shell, (char *)&XtStrings[(signed long int)885], (signed int)x + osd_x, (char *)&XtStrings[(signed long int)887], (signed int)y + osd_y, (void *)0);
       toolkit_set_label(on_label, title);
-      XtPopup(on_shell, (enum anonymous$17)XtGrabNone);
+      XtPopup(on_shell, (enum anonymous_17)XtGrabNone);
       if(stay_on_top >= 1 && !(wm_stay_on_top == ((void (*)(struct _XDisplay *, unsigned long int, signed int))NULL)))
       {
-        return_value_XtWindow$1=XtWindow(on_shell);
-        wm_stay_on_top(dpy, return_value_XtWindow$1, 1);
+        return_value_XtWindow_1=XtWindow(on_shell);
+        wm_stay_on_top(dpy, return_value_XtWindow_1, 1);
       }
 
       if(!(on_timer == 0ul))
@@ -15613,12 +15613,12 @@ static void display_onscreen(char *title)
       if(!(first == 0))
       {
         first = 0;
-        unsigned long int return_value_XtWindow$2;
-        return_value_XtWindow$2=XtWindow(on_shell);
-        XDefineCursor(dpy, return_value_XtWindow$2, no_ptr);
-        unsigned long int return_value_XtWindow$3;
-        return_value_XtWindow$3=XtWindow(on_label);
-        XDefineCursor(dpy, return_value_XtWindow$3, no_ptr);
+        unsigned long int return_value_XtWindow_2;
+        return_value_XtWindow_2=XtWindow(on_shell);
+        XDefineCursor(dpy, return_value_XtWindow_2, no_ptr);
+        unsigned long int return_value_XtWindow_3;
+        return_value_XtWindow_3=XtWindow(on_label);
+        XDefineCursor(dpy, return_value_XtWindow_3, no_ptr);
       }
 
     }
@@ -15637,7 +15637,7 @@ static void display_subtitle(struct vbi_page *pg, struct vbi_rect *rect)
   unsigned short int h;
   unsigned short int sw;
   unsigned short int sh;
-  unsigned long int return_value_XtWindow$1;
+  unsigned long int return_value_XtWindow_1;
   if(pg == ((struct vbi_page *)NULL))
     XtPopdown(vtx->shell);
 
@@ -15652,23 +15652,23 @@ static void display_subtitle(struct vbi_page *pg, struct vbi_rect *rect)
     XtVaGetValues(app_shell, (char *)&XtStrings[(signed long int)885], &x, (char *)&XtStrings[(signed long int)887], &y, (char *)&XtStrings[(signed long int)872], &w, (char *)&XtStrings[(signed long int)234], &h, (void *)0);
     XtVaGetValues(vtx->shell, (char *)&XtStrings[(signed long int)872], &sw, (char *)&XtStrings[(signed long int)234], &sh, (void *)0);
     XtVaSetValues(vtx->shell, (char *)&XtStrings[(signed long int)885], (signed int)x + ((signed int)w - (signed int)sw) / 2, (char *)&XtStrings[(signed long int)887], (((signed int)y + (signed int)h) - 10) - (signed int)sh, (void *)0);
-    XtPopup(vtx->shell, (enum anonymous$17)XtGrabNone);
+    XtPopup(vtx->shell, (enum anonymous_17)XtGrabNone);
     if(stay_on_top >= 1 && !(wm_stay_on_top == ((void (*)(struct _XDisplay *, unsigned long int, signed int))NULL)))
     {
-      return_value_XtWindow$1=XtWindow(vtx->shell);
-      wm_stay_on_top(dpy, return_value_XtWindow$1, 1);
+      return_value_XtWindow_1=XtWindow(vtx->shell);
+      wm_stay_on_top(dpy, return_value_XtWindow_1, 1);
     }
 
     static signed int first = 1;
     if(!(first == 0))
     {
       first = 0;
-      unsigned long int return_value_XtWindow$2;
-      return_value_XtWindow$2=XtWindow(vtx->shell);
-      XDefineCursor(dpy, return_value_XtWindow$2, left_ptr);
-      unsigned long int return_value_XtWindow$3;
-      return_value_XtWindow$3=XtWindow(vtx->tt);
-      XDefineCursor(dpy, return_value_XtWindow$3, left_ptr);
+      unsigned long int return_value_XtWindow_2;
+      return_value_XtWindow_2=XtWindow(vtx->shell);
+      XDefineCursor(dpy, return_value_XtWindow_2, left_ptr);
+      unsigned long int return_value_XtWindow_3;
+      return_value_XtWindow_3=XtWindow(vtx->tt);
+      XDefineCursor(dpy, return_value_XtWindow_3, left_ptr);
     }
 
   }
@@ -15679,8 +15679,8 @@ static void display_subtitle(struct vbi_page *pg, struct vbi_rect *rect)
 static void do_capture(signed int from, signed int to, signed int tmp_switch)
 {
   struct _WidgetRec **children;
-  struct _XDisplay *return_value_XtDisplay$1;
-  unsigned long int return_value_XtWindow$2;
+  struct _XDisplay *return_value_XtDisplay_1;
+  unsigned long int return_value_XtWindow_2;
   switch(from)
   {
     case 2:
@@ -15688,9 +15688,9 @@ static void do_capture(signed int from, signed int to, signed int tmp_switch)
       video_gd_stop();
       if(tmp_switch == 0)
       {
-        return_value_XtDisplay$1=XtDisplay(tv);
-        return_value_XtWindow$2=XtWindow(tv);
-        XClearArea(return_value_XtDisplay$1, return_value_XtWindow$2, 0, 0, (unsigned int)0, (unsigned int)0, 1);
+        return_value_XtDisplay_1=XtDisplay(tv);
+        return_value_XtWindow_2=XtWindow(tv);
+        XClearArea(return_value_XtDisplay_1, return_value_XtWindow_2, 0, 0, (unsigned int)0, (unsigned int)0, 1);
       }
 
       break;
@@ -15726,7 +15726,7 @@ static void do_capture(signed int from, signed int to, signed int tmp_switch)
 signed int do_command(signed int argc, char **argv)
 {
   signed int i;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(argc == 0)
   {
     fprintf(stderr, "do_command: no argument\n");
@@ -15747,8 +15747,8 @@ signed int do_command(signed int argc, char **argv)
     i = 0;
     for( ; !(commands[(signed long int)i].name == ((char *)NULL)); i = i + 1)
     {
-      return_value_strcasecmp$1=strcasecmp(commands[(signed long int)i].name, argv[(signed long int)0]);
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(commands[(signed long int)i].name, argv[(signed long int)0]);
+      if(return_value_strcasecmp_1 == 0)
         break;
 
     }
@@ -15800,9 +15800,9 @@ void do_fullscreen(void)
 
     do_modeswitch(fs, (signed int *)&vp_width, (signed int *)&vp_height);
     XSync(dpy, 0);
-    unsigned long int return_value_XtWindow$1;
-    return_value_XtWindow$1=XtWindow(app_shell);
-    wm_fullscreen(dpy, return_value_XtWindow$1, fs);
+    unsigned long int return_value_XtWindow_1;
+    return_value_XtWindow_1=XtWindow(app_shell);
+    wm_fullscreen(dpy, return_value_XtWindow_1, fs);
     if(fs == 0 && !(on_timer == 0ul))
     {
       XtPopdown(on_shell);
@@ -15813,8 +15813,8 @@ void do_fullscreen(void)
     do_screensaver(fs);
   }
 
-  struct anonymous$0 *return_value_XtScreen$2;
-  unsigned long int return_value_XtWindow$7;
+  struct anonymous_0 *return_value_XtScreen_2;
+  unsigned long int return_value_XtWindow_7;
   static signed int rpy;
   static signed int rpx;
   static signed int warp_pointer;
@@ -15839,8 +15839,8 @@ void do_fullscreen(void)
     do_screensaver(0);
     if(!(warp_pointer == 0))
     {
-      return_value_XtScreen$2=XtScreen(tv);
-      XWarpPointer(dpy, (unsigned long int)0L, return_value_XtScreen$2->root, 0, 0, (unsigned int)0, (unsigned int)0, rpx, rpy);
+      return_value_XtScreen_2=XtScreen(tv);
+      XWarpPointer(dpy, (unsigned long int)0L, return_value_XtScreen_2->root, 0, 0, (unsigned int)0, (unsigned int)0, rpx, rpy);
     }
 
     fs = 0;
@@ -15853,21 +15853,21 @@ void do_fullscreen(void)
     if(!(debug == 0))
       fprintf(stderr, "turning fs on\n");
 
-    struct anonymous$0 *return_value_XtScreen$3;
-    return_value_XtScreen$3=XtScreen(tv);
-    XQueryPointer(dpy, return_value_XtScreen$3->root, &root, &child, &rpx, &rpy, &wpx, &wpy, (unsigned int *)&mask);
+    struct anonymous_0 *return_value_XtScreen_3;
+    return_value_XtScreen_3=XtScreen(tv);
+    XQueryPointer(dpy, return_value_XtScreen_3->root, &root, &child, &rpx, &rpy, &wpx, &wpy, (unsigned int *)&mask);
     vp_x = 0;
     vp_y = 0;
     do_modeswitch(1, (signed int *)&vp_width, (signed int *)&vp_height);
     if(!(vp_width >= sheight) || !(vp_width >= swidth))
     {
       warp_pointer = 1;
-      struct anonymous$0 *return_value_XtScreen$4;
-      return_value_XtScreen$4=XtScreen(tv);
-      XWarpPointer(dpy, (unsigned long int)0L, return_value_XtScreen$4->root, 0, 0, (unsigned int)0, (unsigned int)0, (signed int)(vp_width / (unsigned int)2), (signed int)(vp_height / (unsigned int)2));
-      signed int return_value_XDefaultScreen$5;
-      return_value_XDefaultScreen$5=XDefaultScreen(dpy);
-      XF86VidModeSetViewPort(dpy, return_value_XDefaultScreen$5, 0, 0);
+      struct anonymous_0 *return_value_XtScreen_4;
+      return_value_XtScreen_4=XtScreen(tv);
+      XWarpPointer(dpy, (unsigned long int)0L, return_value_XtScreen_4->root, 0, 0, (unsigned int)0, (unsigned int)0, (signed int)(vp_width / (unsigned int)2), (signed int)(vp_height / (unsigned int)2));
+      signed int return_value_XDefaultScreen_5;
+      return_value_XDefaultScreen_5=XDefaultScreen(dpy);
+      XF86VidModeSetViewPort(dpy, return_value_XDefaultScreen_5, 0, 0);
     }
 
     XtVaGetValues(app_shell, (char *)&XtStrings[(signed long int)885], &x, (char *)&XtStrings[(signed long int)887], &y, (char *)&XtStrings[(signed long int)872], &w, (char *)&XtStrings[(signed long int)234], &h, (void *)0);
@@ -15903,14 +15903,14 @@ void do_fullscreen(void)
 
     XtVaSetValues(app_shell, (char *)&XtShellStrings[(signed long int)627], 1, (char *)&XtShellStrings[(signed long int)645], 1, (void *)0);
     XtVaSetValues(app_shell, (char *)&XtStrings[(signed long int)885], (vp_x & 0xfffc) + fs_xoff, (char *)&XtStrings[(signed long int)887], vp_y + fs_yoff, (char *)&XtStrings[(signed long int)872], vp_width, (char *)&XtStrings[(signed long int)234], vp_height, (void *)0);
-    unsigned long int return_value_XtWindow$6;
-    return_value_XtWindow$6=XtWindow(app_shell);
-    XRaiseWindow(dpy, return_value_XtWindow$6);
+    unsigned long int return_value_XtWindow_6;
+    return_value_XtWindow_6=XtWindow(app_shell);
+    XRaiseWindow(dpy, return_value_XtWindow_6);
     do_screensaver(1);
     if(!(warp_pointer == 0))
     {
-      return_value_XtWindow$7=XtWindow(tv);
-      XWarpPointer(dpy, (unsigned long int)0L, return_value_XtWindow$7, 0, 0, (unsigned int)0, (unsigned int)0, 30, 15);
+      return_value_XtWindow_7=XtWindow(tv);
+      XWarpPointer(dpy, (unsigned long int)0L, return_value_XtWindow_7, 0, 0, (unsigned int)0, (unsigned int)0, 30, 15);
     }
 
     fs = 1;
@@ -15946,7 +15946,7 @@ static void do_movie_record(signed int argc, char **argv)
 {
   char *fvideo;
   char *faudio;
-  struct ng_video_fmt do_movie_record$$1$$video;
+  struct ng_video_fmt do_movie_record__1__video;
   struct ng_audio_fmt audio;
   struct ng_writer *wr;
   struct _WidgetRec **children;
@@ -15955,11 +15955,11 @@ static void do_movie_record(signed int argc, char **argv)
   signed int i;
   signed int rate;
   signed int fps;
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   if(argc >= 2)
   {
-    return_value_strcasecmp$2=strcasecmp(argv[(signed long int)0], "driver");
-    if(return_value_strcasecmp$2 == 0)
+    return_value_strcasecmp_2=strcasecmp(argv[(signed long int)0], "driver");
+    if(return_value_strcasecmp_2 == 0)
     {
       struct list_head *item;
       struct ng_writer *writer;
@@ -15972,9 +15972,9 @@ static void do_movie_record(signed int argc, char **argv)
       for( ; !(item == &ng_writers); item = item->next)
       {
         writer = (struct ng_writer *)((char *)item - (signed long int)(unsigned long int)&((struct ng_writer *)0)->list);
-        signed int return_value_strcasecmp$1;
-        return_value_strcasecmp$1=strcasecmp(argv[(signed long int)1], writer->name);
-        if(return_value_strcasecmp$1 == 0)
+        signed int return_value_strcasecmp_1;
+        return_value_strcasecmp_1=strcasecmp(argv[(signed long int)1], writer->name);
+        if(return_value_strcasecmp_1 == 0)
         {
           movie_driver = writer;
           i_movie_driver = (unsigned int)i;
@@ -15987,11 +15987,11 @@ static void do_movie_record(signed int argc, char **argv)
 
   }
 
-  signed int return_value_strcasecmp$5;
+  signed int return_value_strcasecmp_5;
   if(argc >= 2)
   {
-    return_value_strcasecmp$5=strcasecmp(argv[(signed long int)0], "audio");
-    if(return_value_strcasecmp$5 == 0)
+    return_value_strcasecmp_5=strcasecmp(argv[(signed long int)0], "audio");
+    if(return_value_strcasecmp_5 == 0)
     {
       if(!(debug == 0))
         fprintf(stderr, "set audio: %s\n", argv[(signed long int)1]);
@@ -16000,18 +16000,18 @@ static void do_movie_record(signed int argc, char **argv)
       i = 0;
       for( ; !((movie_driver->audio + (signed long int)i)->name == ((char *)NULL)); i = i + 1)
       {
-        signed int return_value_strcasecmp$3;
-        return_value_strcasecmp$3=strcasecmp(argv[(signed long int)1], (movie_driver->audio + (signed long int)i)->name);
-        if(return_value_strcasecmp$3 == 0)
+        signed int return_value_strcasecmp_3;
+        return_value_strcasecmp_3=strcasecmp(argv[(signed long int)1], (movie_driver->audio + (signed long int)i)->name);
+        if(return_value_strcasecmp_3 == 0)
         {
           XtVaSetValues(audio_option, (char *)&_XmStrings[(signed long int)8040], children[(signed long int)i], (void *)0);
           movie_audio = (unsigned int)i;
         }
 
       }
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp(argv[(signed long int)1], "none");
-      if(return_value_strcmp$4 == 0)
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp(argv[(signed long int)1], "none");
+      if(return_value_strcmp_4 == 0)
       {
         XtVaSetValues(audio_option, (char *)&_XmStrings[(signed long int)8040], children[(signed long int)i], (void *)0);
         movie_audio = (unsigned int)i;
@@ -16021,11 +16021,11 @@ static void do_movie_record(signed int argc, char **argv)
 
   }
 
-  signed int return_value_strcasecmp$7;
+  signed int return_value_strcasecmp_7;
   if(argc >= 2)
   {
-    return_value_strcasecmp$7=strcasecmp(argv[(signed long int)0], "video");
-    if(return_value_strcasecmp$7 == 0)
+    return_value_strcasecmp_7=strcasecmp(argv[(signed long int)0], "video");
+    if(return_value_strcasecmp_7 == 0)
     {
       if(!(debug == 0))
         fprintf(stderr, "set video: %s\n", argv[(signed long int)1]);
@@ -16034,9 +16034,9 @@ static void do_movie_record(signed int argc, char **argv)
       i = 0;
       for( ; !((movie_driver->video + (signed long int)i)->name == ((char *)NULL)); i = i + 1)
       {
-        signed int return_value_strcasecmp$6;
-        return_value_strcasecmp$6=strcasecmp(argv[(signed long int)1], (movie_driver->video + (signed long int)i)->name);
-        if(return_value_strcasecmp$6 == 0)
+        signed int return_value_strcasecmp_6;
+        return_value_strcasecmp_6=strcasecmp(argv[(signed long int)1], (movie_driver->video + (signed long int)i)->name);
+        if(return_value_strcasecmp_6 == 0)
         {
           XtVaSetValues(video_option, (char *)&_XmStrings[(signed long int)8040], children[(signed long int)i], (void *)0);
           movie_video = (unsigned int)i;
@@ -16047,11 +16047,11 @@ static void do_movie_record(signed int argc, char **argv)
 
   }
 
-  signed int return_value_strcasecmp$8;
+  signed int return_value_strcasecmp_8;
   if(argc >= 2)
   {
-    return_value_strcasecmp$8=strcasecmp(argv[(signed long int)0], "rate");
-    if(return_value_strcasecmp$8 == 0)
+    return_value_strcasecmp_8=strcasecmp(argv[(signed long int)0], "rate");
+    if(return_value_strcasecmp_8 == 0)
     {
       XtVaGetValues(m_rate, (char *)&_XmStrings[(signed long int)18880], &text, (void *)0);
       XmTextSetString(text, argv[(signed long int)1]);
@@ -16059,11 +16059,11 @@ static void do_movie_record(signed int argc, char **argv)
 
   }
 
-  signed int return_value_strcasecmp$9;
+  signed int return_value_strcasecmp_9;
   if(argc >= 2)
   {
-    return_value_strcasecmp$9=strcasecmp(argv[(signed long int)0], "fps");
-    if(return_value_strcasecmp$9 == 0)
+    return_value_strcasecmp_9=strcasecmp(argv[(signed long int)0], "fps");
+    if(return_value_strcasecmp_9 == 0)
     {
       XtVaGetValues(m_fps, (char *)&_XmStrings[(signed long int)18880], &text, (void *)0);
       XmTextSetString(text, argv[(signed long int)1]);
@@ -16071,29 +16071,29 @@ static void do_movie_record(signed int argc, char **argv)
 
   }
 
-  signed int return_value_strcasecmp$10;
+  signed int return_value_strcasecmp_10;
   if(argc >= 2)
   {
-    return_value_strcasecmp$10=strcasecmp(argv[(signed long int)0], "fvideo");
-    if(return_value_strcasecmp$10 == 0)
+    return_value_strcasecmp_10=strcasecmp(argv[(signed long int)0], "fvideo");
+    if(return_value_strcasecmp_10 == 0)
       XmTextSetString(m_fvideo, argv[(signed long int)1]);
 
   }
 
-  signed int return_value_strcasecmp$11;
+  signed int return_value_strcasecmp_11;
   if(argc >= 2)
   {
-    return_value_strcasecmp$11=strcasecmp(argv[(signed long int)0], "faudio");
-    if(return_value_strcasecmp$11 == 0)
+    return_value_strcasecmp_11=strcasecmp(argv[(signed long int)0], "faudio");
+    if(return_value_strcasecmp_11 == 0)
       XmTextSetString(m_faudio, argv[(signed long int)1]);
 
   }
 
-  signed int return_value_strcasecmp$17;
+  signed int return_value_strcasecmp_17;
   if(argc >= 1)
   {
-    return_value_strcasecmp$17=strcasecmp(argv[(signed long int)0], "start");
-    if(return_value_strcasecmp$17 == 0)
+    return_value_strcasecmp_17=strcasecmp(argv[(signed long int)0], "start");
+    if(return_value_strcasecmp_17 == 0)
     {
       if(!(cur_movie == 0))
         goto __CPROVER_DUMP_L35;
@@ -16107,26 +16107,26 @@ static void do_movie_record(signed int argc, char **argv)
       fvideo=tilde_expand(fvideo);
       faudio=tilde_expand(faudio);
       XtVaGetValues(m_rate, (char *)&_XmStrings[(signed long int)18880], &text, (void *)0);
-      char *return_value_XmTextGetString$12;
-      return_value_XmTextGetString$12=XmTextGetString(text);
-      rate=atoi(return_value_XmTextGetString$12);
+      char *return_value_XmTextGetString_12;
+      return_value_XmTextGetString_12=XmTextGetString(text);
+      rate=atoi(return_value_XmTextGetString_12);
       XtVaGetValues(m_fps, (char *)&_XmStrings[(signed long int)18880], &text, (void *)0);
-      char *return_value_XmTextGetString$13;
-      return_value_XmTextGetString$13=XmTextGetString(text);
-      double return_value_atof$14;
-      return_value_atof$14=atof(return_value_XmTextGetString$13);
-      fps = (signed int)(return_value_atof$14 * (double)1000);
-      memset((void *)&do_movie_record$$1$$video, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
+      char *return_value_XmTextGetString_13;
+      return_value_XmTextGetString_13=XmTextGetString(text);
+      double return_value_atof_14;
+      return_value_atof_14=atof(return_value_XmTextGetString_13);
+      fps = (signed int)(return_value_atof_14 * (double)1000);
+      memset((void *)&do_movie_record__1__video, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
       memset((void *)&audio, 0, sizeof(struct ng_audio_fmt) /*8ul*/ );
       wr = movie_driver;
-      do_movie_record$$1$$video.fmtid = (wr->video + (signed long int)movie_video)->fmtid;
-      do_movie_record$$1$$video.width = cur_tv_width;
-      do_movie_record$$1$$video.height = cur_tv_height;
+      do_movie_record__1__video.fmtid = (wr->video + (signed long int)movie_video)->fmtid;
+      do_movie_record__1__video.width = cur_tv_width;
+      do_movie_record__1__video.height = cur_tv_height;
       audio.fmtid = (wr->audio + (signed long int)movie_audio)->fmtid;
       audio.rate = (unsigned int)rate;
-      struct movie_handle *return_value_movie_writer_init$15;
-      return_value_movie_writer_init$15=movie_writer_init(fvideo, faudio, wr, &do_movie_record$$1$$video, (wr->video + (signed long int)movie_video)->priv, fps, &audio, (wr->audio + (signed long int)movie_audio)->priv, args.dspdev, args.bufcount, args.parallel);
-      movie_state = (void *)return_value_movie_writer_init$15;
+      struct movie_handle *return_value_movie_writer_init_15;
+      return_value_movie_writer_init_15=movie_writer_init(fvideo, faudio, wr, &do_movie_record__1__video, (wr->video + (signed long int)movie_video)->priv, fps, &audio, (wr->audio + (signed long int)movie_audio)->priv, args.dspdev, args.bufcount, args.parallel);
+      movie_state = (void *)return_value_movie_writer_init_15;
       if(movie_state == NULL)
       {
         video_gd_restart();
@@ -16135,9 +16135,9 @@ static void do_movie_record(signed int argc, char **argv)
         goto __CPROVER_DUMP_L35;
       }
 
-      signed int return_value_movie_writer_start$16;
-      return_value_movie_writer_start$16=movie_writer_start((struct movie_handle *)movie_state);
-      if(!(return_value_movie_writer_start$16 == 0))
+      signed int return_value_movie_writer_start_16;
+      return_value_movie_writer_start_16=movie_writer_start((struct movie_handle *)movie_state);
+      if(!(return_value_movie_writer_start_16 == 0))
       {
         movie_writer_stop((struct movie_handle *)movie_state);
         video_gd_restart();
@@ -16153,11 +16153,11 @@ static void do_movie_record(signed int argc, char **argv)
 
   }
 
-  signed int return_value_strcasecmp$18;
+  signed int return_value_strcasecmp_18;
   if(argc >= 1)
   {
-    return_value_strcasecmp$18=strcasecmp(argv[(signed long int)0], "stop");
-    if(return_value_strcasecmp$18 == 0)
+    return_value_strcasecmp_18=strcasecmp(argv[(signed long int)0], "stop");
+    if(return_value_strcasecmp_18 == 0)
     {
       if(cur_movie == 0)
         goto __CPROVER_DUMP_L35;
@@ -16182,21 +16182,21 @@ __CPROVER_DUMP_L35:
 static void do_ontop(char state)
 {
   unsigned int i;
-  unsigned long int return_value_XtWindow$3;
+  unsigned long int return_value_XtWindow_3;
   if(!(wm_stay_on_top == ((void (*)(struct _XDisplay *, unsigned long int, signed int))NULL)))
   {
     stay_on_top = (signed int)state;
-    unsigned long int return_value_XtWindow$1;
-    return_value_XtWindow$1=XtWindow(app_shell);
-    wm_stay_on_top(dpy, return_value_XtWindow$1, stay_on_top);
-    unsigned long int return_value_XtWindow$2;
-    return_value_XtWindow$2=XtWindow(on_shell);
-    wm_stay_on_top(dpy, return_value_XtWindow$2, stay_on_top);
+    unsigned long int return_value_XtWindow_1;
+    return_value_XtWindow_1=XtWindow(app_shell);
+    wm_stay_on_top(dpy, return_value_XtWindow_1, stay_on_top);
+    unsigned long int return_value_XtWindow_2;
+    return_value_XtWindow_2=XtWindow(on_shell);
+    wm_stay_on_top(dpy, return_value_XtWindow_2, stay_on_top);
     i = (unsigned int)0;
     if(!((unsigned long int)i >= 5ul))
     {
-      return_value_XtWindow$3=XtWindow(*my_toplevels[(signed long int)i].shell);
-      wm_stay_on_top(dpy, return_value_XtWindow$3, stay_on_top == -1 ? 0 : stay_on_top);
+      return_value_XtWindow_3=XtWindow(*my_toplevels[(signed long int)i].shell);
+      wm_stay_on_top(dpy, return_value_XtWindow_3, stay_on_top == -1 ? 0 : stay_on_top);
       i = i + 1u;
     }
 
@@ -16209,7 +16209,7 @@ static void do_ontop(char state)
 // file x11/xt.c line 905
 static void do_randr_modeswitch(signed int fs_state, signed int *vp_width, signed int *vp_height)
 {
-  unsigned long int root = (&((struct anonymous$10 *)dpy)->screens[(signed long int)((struct anonymous$10 *)dpy)->default_screen])->root;
+  unsigned long int root = (&((struct anonymous_10 *)dpy)->screens[(signed long int)((struct anonymous_10 *)dpy)->default_screen])->root;
   struct _XRRScreenConfiguration *sc;
   unsigned short int rotation;
   unsigned short int current;
@@ -16265,8 +16265,8 @@ static void do_screensaver(signed int fs_state)
 {
   unsigned short int dpms_state;
   signed int dpms_dummy;
-  signed int return_value_DPMSCapable$1;
-  signed int return_value_DPMSCapable$3;
+  signed int return_value_DPMSCapable_1;
+  signed int return_value_DPMSCapable_3;
   static unsigned char dpms_on;
   static signed int allow_exposures;
   static signed int prefer_blanking;
@@ -16276,12 +16276,12 @@ static void do_screensaver(signed int fs_state)
   {
     XGetScreenSaver(dpy, &timeout, &interval, &prefer_blanking, &allow_exposures);
     XSetScreenSaver(dpy, 0, 0, 2, 2);
-    signed int return_value_DPMSQueryExtension$2;
-    return_value_DPMSQueryExtension$2=DPMSQueryExtension(dpy, &dpms_dummy, &dpms_dummy);
-    if(!(return_value_DPMSQueryExtension$2 == 0))
+    signed int return_value_DPMSQueryExtension_2;
+    return_value_DPMSQueryExtension_2=DPMSQueryExtension(dpy, &dpms_dummy, &dpms_dummy);
+    if(!(return_value_DPMSQueryExtension_2 == 0))
     {
-      return_value_DPMSCapable$1=DPMSCapable(dpy);
-      if(!(return_value_DPMSCapable$1 == 0))
+      return_value_DPMSCapable_1=DPMSCapable(dpy);
+      if(!(return_value_DPMSCapable_1 == 0))
       {
         DPMSInfo(dpy, &dpms_state, &dpms_on);
         DPMSDisable(dpy);
@@ -16295,12 +16295,12 @@ static void do_screensaver(signed int fs_state)
   else
   {
     XSetScreenSaver(dpy, timeout, interval, prefer_blanking, allow_exposures);
-    signed int return_value_DPMSQueryExtension$4;
-    return_value_DPMSQueryExtension$4=DPMSQueryExtension(dpy, &dpms_dummy, &dpms_dummy);
-    if(!(return_value_DPMSQueryExtension$4 == 0))
+    signed int return_value_DPMSQueryExtension_4;
+    return_value_DPMSQueryExtension_4=DPMSQueryExtension(dpy, &dpms_dummy, &dpms_dummy);
+    if(!(return_value_DPMSQueryExtension_4 == 0))
     {
-      return_value_DPMSCapable$3=DPMSCapable(dpy);
-      if(!(return_value_DPMSCapable$3 == 0))
+      return_value_DPMSCapable_3=DPMSCapable(dpy);
+      if(!(return_value_DPMSCapable_3 == 0))
       {
         if(!(dpms_on == 0))
           DPMSEnable(dpy);
@@ -16328,9 +16328,9 @@ signed int do_va_cmd(signed int argc, ...)
     argv[(signed long int)i]=va_arg(ap, __typeof__(argv[(signed long int)i]));
   argv[(signed long int)i] = (char *)(void *)0;
   va_end(ap);
-  signed int return_value_do_command$1;
-  return_value_do_command$1=do_command(argc, argv);
-  return return_value_do_command$1;
+  signed int return_value_do_command_1;
+  return_value_do_command_1=do_command(argc, argv);
+  return return_value_do_command_1;
 }
 
 // do_vidmode_modeswitch
@@ -16339,17 +16339,17 @@ static void do_vidmode_modeswitch(signed int fs_state, signed int *vp_width, sig
 {
   signed int i;
   static signed int vm_switched;
-  static struct anonymous$15 *vm_current = (struct anonymous$15 *)(void *)0;
+  static struct anonymous_15 *vm_current = (struct anonymous_15 *)(void *)0;
   if(!(fs_state == 0))
   {
-    signed int return_value_XDefaultScreen$1;
-    return_value_XDefaultScreen$1=XDefaultScreen(dpy);
-    XF86VidModeGetModeLine(dpy, return_value_XDefaultScreen$1, &vm_dot, &vm_line);
-    signed int return_value_XDefaultScreen$2;
-    return_value_XDefaultScreen$2=XDefaultScreen(dpy);
-    XF86VidModeGetAllModeLines(dpy, return_value_XDefaultScreen$2, &vm_count, &vm_modelines);
-    static struct anonymous$15 *vm_fullscreen = (struct anonymous$15 *)(void *)0;
-    vm_fullscreen = (struct anonymous$15 *)(void *)0;
+    signed int return_value_XDefaultScreen_1;
+    return_value_XDefaultScreen_1=XDefaultScreen(dpy);
+    XF86VidModeGetModeLine(dpy, return_value_XDefaultScreen_1, &vm_dot, &vm_line);
+    signed int return_value_XDefaultScreen_2;
+    return_value_XDefaultScreen_2=XDefaultScreen(dpy);
+    XF86VidModeGetAllModeLines(dpy, return_value_XDefaultScreen_2, &vm_count, &vm_modelines);
+    static struct anonymous_15 *vm_fullscreen = (struct anonymous_15 *)(void *)0;
+    vm_fullscreen = (struct anonymous_15 *)(void *)0;
     i = 0;
     for( ; !(i >= vm_count); i = i + 1)
     {
@@ -16357,7 +16357,7 @@ static void do_vidmode_modeswitch(signed int fs_state, signed int *vp_width, sig
       {
         if(fs_height == (signed int)vm_modelines[(signed long int)i]->vdisplay)
         {
-          if(vm_fullscreen == ((struct anonymous$15 *)NULL))
+          if(vm_fullscreen == ((struct anonymous_15 *)NULL))
             vm_fullscreen = vm_modelines[(signed long int)i];
 
         }
@@ -16368,7 +16368,7 @@ static void do_vidmode_modeswitch(signed int fs_state, signed int *vp_width, sig
       {
         if(vm_line.vdisplay == vm_modelines[(signed long int)i]->vdisplay)
         {
-          if(vm_current == ((struct anonymous$15 *)NULL))
+          if(vm_current == ((struct anonymous_15 *)NULL))
             vm_current = vm_modelines[(signed long int)i];
 
         }
@@ -16379,25 +16379,25 @@ static void do_vidmode_modeswitch(signed int fs_state, signed int *vp_width, sig
     if(!(debug == 0))
     {
       fprintf(stderr, "vm: current=%dx%d", vm_current->hdisplay, vm_current->vdisplay);
-      if(!(vm_fullscreen == ((struct anonymous$15 *)NULL)))
+      if(!(vm_fullscreen == ((struct anonymous_15 *)NULL)))
         fprintf(stderr, "fullscreen=%dx%d", vm_fullscreen->hdisplay, vm_fullscreen->vdisplay);
 
       fprintf(stderr, "\n");
     }
 
-    _Bool tmp_if_expr$3;
-    if(!(vm_current == ((struct anonymous$15 *)NULL)) && !(vm_fullscreen == ((struct anonymous$15 *)NULL)))
-      tmp_if_expr$3 = vm_fullscreen->hdisplay != vm_current->hdisplay ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(!(vm_current == ((struct anonymous_15 *)NULL)) && !(vm_fullscreen == ((struct anonymous_15 *)NULL)))
+      tmp_if_expr_3 = vm_fullscreen->hdisplay != vm_current->hdisplay ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    _Bool tmp_if_expr$4;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = vm_fullscreen->vdisplay != vm_current->vdisplay ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    _Bool tmp_if_expr_4;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = vm_fullscreen->vdisplay != vm_current->vdisplay ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       set_vidmode(vm_fullscreen);
       vm_switched = 1;
@@ -16437,17 +16437,17 @@ static signed int do_write_jpeg(struct _IO_FILE *fp, struct ng_video_buf *buf, s
   cinfo.image_width = buf->fmt.width;
   cinfo.image_height = buf->fmt.height;
   cinfo.input_components = gray != 0 ? 1 : 3;
-  cinfo.in_color_space = (enum anonymous$123)(gray != 0 ? JCS_GRAYSCALE : JCS_RGB);
+  cinfo.in_color_space = (enum anonymous_123)(gray != 0 ? JCS_GRAYSCALE : JCS_RGB);
   jpeg_set_defaults(&cinfo);
   jpeg_set_quality(&cinfo, quality, 1);
   jpeg_start_compress(&cinfo, 1);
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(!(gray == 0))
-    tmp_if_expr$1 = buf->fmt.width;
+    tmp_if_expr_1 = buf->fmt.width;
 
   else
-    tmp_if_expr$1 = buf->fmt.width * (unsigned int)3;
-  line_length = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = buf->fmt.width * (unsigned int)3;
+  line_length = (signed int)tmp_if_expr_1;
   i = (unsigned int)0;
   line = buf->data;
   for( ; !(i >= buf->fmt.height); line = line + (signed long int)line_length)
@@ -16494,27 +16494,27 @@ signed int event_dispatch(char *event)
       fprintf(stderr, "ev: dispatch name=%s\n", name);
 
   }
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(entry == ((struct event_entry *)NULL))
   {
     entry = event_conf_list;
     for( ; !(entry == ((struct event_entry *)NULL)); entry = entry->next)
     {
-      return_value_strcasecmp$1=strcasecmp(name, entry->event);
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(name, entry->event);
+      if(return_value_strcasecmp_1 == 0)
         break;
 
     }
   }
 
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   if(entry == ((struct event_entry *)NULL))
   {
     entry = event_builtin_list;
     for( ; !(entry == ((struct event_entry *)NULL)); entry = entry->next)
     {
-      return_value_strcasecmp$2=strcasecmp(name, entry->event);
-      if(return_value_strcasecmp$2 == 0)
+      return_value_strcasecmp_2=strcasecmp(name, entry->event);
+      if(return_value_strcasecmp_2 == 0)
         break;
 
     }
@@ -16534,9 +16534,9 @@ signed int event_dispatch(char *event)
     argc = entry->argc;
     if(!(arg == ((char *)NULL)))
     {
-      signed int tmp_post$3 = argc;
+      signed int tmp_post_3 = argc;
       argc = argc + 1;
-      argv[(signed long int)tmp_post$3] = arg;
+      argv[(signed long int)tmp_post_3] = arg;
     }
 
     do_command(argc, argv);
@@ -16567,9 +16567,9 @@ void event_readconfig(void)
 signed int event_register(char *event, char *action)
 {
   struct event_entry *entry;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct event_entry) /*528ul*/ );
-  entry = (struct event_entry *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct event_entry) /*528ul*/ );
+  entry = (struct event_entry *)return_value_malloc_1;
   memset((void *)entry, 0, sizeof(struct event_entry) /*528ul*/ );
   strncpy(entry->event, event, (unsigned long int)127);
   strncpy(entry->action, action, (unsigned long int)127);
@@ -16586,15 +16586,15 @@ signed int event_register(char *event, char *action)
 // file common/event.h line 18
 signed int event_register_list(struct event_entry *entry)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(entry == ((struct event_entry *)NULL)))
-      tmp_if_expr$1 = 0 != (signed int)entry->event[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = 0 != (signed int)entry->event[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     entry->next = event_builtin_list;
@@ -16630,15 +16630,15 @@ void event_writeconfig(struct _IO_FILE *fp)
 void exec_done(signed int signal)
 {
   signed int pid;
-  signed int exec_done$$1$$stat;
+  signed int exec_done__1__stat;
   if(!(debug == 0))
     fprintf(stderr, "got sigchild\n");
 
-  pid=waitpid(-1, &exec_done$$1$$stat, 2 | 1);
+  pid=waitpid(-1, &exec_done__1__stat, 2 | 1);
   if(!(debug == 0))
   {
     /* tag-#anon#lUN[lS32'__in'|S32'__i'] */
-union anonymous$108
+union anonymous_108
 {
   // __in
   signed int __in;
@@ -16656,23 +16656,23 @@ union anonymous$108
         fprintf(stderr, "oops: got sigchild and waitpid returns 0 ???\n");
 
       else
-        if((0x7f & exec_done$$1$$stat) == 0)
-          fprintf(stderr, "[%d]: normal exit (%d)\n", pid, (((union anonymous$108){ .__in=exec_done$$1$$stat }).__i & 0xff00) >> 8);
+        if((0x7f & exec_done__1__stat) == 0)
+          fprintf(stderr, "[%d]: normal exit (%d)\n", pid, (((union anonymous_108){ .__in=exec_done__1__stat }).__i & 0xff00) >> 8);
 
         else
-          if((signed int)((127 & (signed char)exec_done$$1$$stat) + 1) >> 1 >= 1)
+          if((signed int)((127 & (signed char)exec_done__1__stat) + 1) >> 1 >= 1)
           {
-            char *return_value_strsignal$1;
-            return_value_strsignal$1=strsignal(((union anonymous$108){ .__in=exec_done$$1$$stat }).__i & 0x7f);
-            fprintf(stderr, "[%d]: %s\n", pid, return_value_strsignal$1);
+            char *return_value_strsignal_1;
+            return_value_strsignal_1=strsignal(((union anonymous_108){ .__in=exec_done__1__stat }).__i & 0x7f);
+            fprintf(stderr, "[%d]: %s\n", pid, return_value_strsignal_1);
           }
 
           else
-            if((0xff & exec_done$$1$$stat) == 0x7f)
+            if((0xff & exec_done__1__stat) == 0x7f)
             {
-              char *return_value_strsignal$2;
-              return_value_strsignal$2=strsignal((((union anonymous$108){ .__in=exec_done$$1$$stat }).__i & 0xff00) >> 8);
-              fprintf(stderr, "[%d]: %s\n", pid, return_value_strsignal$2);
+              char *return_value_strsignal_2;
+              return_value_strsignal_2=strsignal((((union anonymous_108){ .__in=exec_done__1__stat }).__i & 0xff00) >> 8);
+              fprintf(stderr, "[%d]: %s\n", pid, return_value_strsignal_2);
             }
 
   }
@@ -16685,9 +16685,9 @@ static void exec_output(void *data, signed int *fd, unsigned long int *iproc)
 {
   char buffer[81l];
   signed int len;
-  signed long int return_value_read$1;
-  return_value_read$1=read(*fd, (void *)buffer, (unsigned long int)80);
-  len = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(*fd, (void *)buffer, (unsigned long int)80);
+  len = (signed int)return_value_read_1;
   if(!(len == -1))
   {
     if(len == 0)
@@ -16719,14 +16719,14 @@ void exec_player(char *moviefile)
   char *cmd;
   char **argv;
   signed int argc;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   static char *command = "pia";
-  return_value_strlen$1=strlen(command);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(moviefile);
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)5);
-  cmd = (char *)return_value_malloc$3;
+  return_value_strlen_1=strlen(command);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(moviefile);
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)5);
+  cmd = (char *)return_value_malloc_3;
   sprintf(cmd, "%s %s", command, moviefile);
   argv=split_cmdline(cmd, &argc);
   exec_x11(argv);
@@ -16759,8 +16759,8 @@ signed int exec_x11(char **argv)
 
   pipe(p);
   pid=fork();
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(pid == -1))
   {
     if(pid == 0)
@@ -16779,11 +16779,11 @@ signed int exec_x11(char **argv)
     dup2(p[(signed long int)1], 2);
     close(p[(signed long int)0]);
     close(p[(signed long int)1]);
-    close(((struct anonymous$10 *)dpy)->fd);
+    close(((struct anonymous_10 *)dpy)->fd);
     execvp(argv[(signed long int)0], argv);
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "exec %s: %s\n", argv[(signed long int)0], return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "exec %s: %s\n", argv[(signed long int)0], return_value_strerror_2);
     exit(1);
   }
   close(p[(signed long int)1]);
@@ -16817,11 +16817,11 @@ const char * fget_associated_device(void *opaque, const char *last_seek, const e
   signed int i;
   signed int found = 0;
   char *prev;
-  signed int return_value_fstat$1;
-  return_value_fstat$1=fstat(fd_seek_device, &f_status);
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  if(!(return_value_fstat$1 == 0))
+  signed int return_value_fstat_1;
+  return_value_fstat_1=fstat(fd_seek_device, &f_status);
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  if(!(return_value_fstat_1 == 0))
   {
     perror("Can't get file status");
     return (const char *)(void *)0;
@@ -16890,13 +16890,13 @@ const char * fget_associated_device(void *opaque, const char *last_seek, const e
         {
           if(!((unsigned int)i >= md->md_size))
           {
-            return_value_strcmp$2=strcmp(prev, md_ptr->device);
-            tmp_if_expr$3 = !(return_value_strcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_2=strcmp(prev, md_ptr->device);
+            tmp_if_expr_3 = !(return_value_strcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(!tmp_if_expr_3)
             break;
 
           if(!(last_seek == ((const char *)NULL)))
@@ -16948,7 +16948,7 @@ void * fifo_get(struct FIFO *fifo)
 
     pthread_cond_wait(&fifo->hasdata, &fifo->lock);
   }
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(fifo->write == fifo->read)
   {
     pthread_cond_signal(&fifo->hasdata);
@@ -16960,8 +16960,8 @@ void * fifo_get(struct FIFO *fifo)
   {
     if(debug >= 2)
     {
-      return_value_getpid$1=getpid();
-      fprintf(stderr, "get %s %d=%p [pid=%d]\n", fifo->name, fifo->read, fifo->data[(signed long int)fifo->read], return_value_getpid$1);
+      return_value_getpid_1=getpid();
+      fprintf(stderr, "get %s %d=%p [pid=%d]\n", fifo->name, fifo->read, fifo->data[(signed long int)fifo->read], return_value_getpid_1);
     }
 
     data = (void *)fifo->data[(signed long int)fifo->read];
@@ -16978,8 +16978,8 @@ void * fifo_get(struct FIFO *fifo)
 // file common/capture.c line 31
 void fifo_init(struct FIFO *fifo, char *name, signed int slots, signed int writers)
 {
-  pthread_mutex_init(&fifo->lock, (const union anonymous$121 *)(void *)0);
-  pthread_cond_init(&fifo->hasdata, (const union anonymous$121 *)(void *)0);
+  pthread_mutex_init(&fifo->lock, (const union anonymous_121 *)(void *)0);
+  pthread_cond_init(&fifo->hasdata, (const union anonymous_121 *)(void *)0);
   fifo->name = name;
   fifo->slots = slots;
   fifo->writers = writers;
@@ -16995,7 +16995,7 @@ signed int fifo_put(struct FIFO *fifo, void *data)
 {
   signed int full;
   pthread_mutex_lock(&fifo->lock);
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(data == NULL)
   {
     fifo->eof = fifo->eof + 1;
@@ -17021,8 +17021,8 @@ signed int fifo_put(struct FIFO *fifo, void *data)
     {
       if(debug >= 2)
       {
-        return_value_getpid$1=getpid();
-        fprintf(stderr, "put %s %d=%p [pid=%d]\n", fifo->name, fifo->write, data, return_value_getpid$1);
+        return_value_getpid_1=getpid();
+        fprintf(stderr, "put %s %d=%p [pid=%d]\n", fifo->name, fifo->write, data, return_value_getpid_1);
       }
 
       fifo->data[(signed long int)fifo->write] = (unsigned char *)data;
@@ -17048,7 +17048,7 @@ static void file_browse_cb(struct _WidgetRec *widget, void *clientdata, void *ca
   struct _WidgetRec *help;
   if(h->filebox == ((struct _WidgetRec *)NULL))
   {
-    h->filebox=XmCreateFileSelectionDialog(h->push, "filebox", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+    h->filebox=XmCreateFileSelectionDialog(h->push, "filebox", (struct anonymous_11 *)(void *)0, (unsigned int)0);
     help=XmFileSelectionBoxGetChild(h->filebox, (unsigned char)7);
     XtUnmanageChild(help);
     XtAddCallback(h->filebox, (char *)&_XmStrings[(signed long int)8560], file_done_cb, (void *)h);
@@ -17062,14 +17062,14 @@ static void file_browse_cb(struct _WidgetRec *widget, void *clientdata, void *ca
 // file x11/motv.c line 1780
 static void file_done_cb(struct _WidgetRec *widget, void *clientdata, void *call_data)
 {
-  struct anonymous$87 *cb = (struct anonymous$87 *)call_data;
+  struct anonymous_87 *cb = (struct anonymous_87 *)call_data;
   struct FILE_DATA *h = (struct FILE_DATA *)clientdata;
   char *line;
   if(cb->reason == 31)
   {
-    void *return_value_XmStringUnparse$1;
-    return_value_XmStringUnparse$1=XmStringUnparse(cb->value, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (enum anonymous$67)XmMULTIBYTE_TEXT, (struct __XmParseMappingRec **)(void *)0, (unsigned int)0, (enum anonymous$68)0);
-    line = (char *)return_value_XmStringUnparse$1;
+    void *return_value_XmStringUnparse_1;
+    return_value_XmStringUnparse_1=XmStringUnparse(cb->value, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (enum anonymous_67)XmMULTIBYTE_TEXT, (struct __XmParseMappingRec **)(void *)0, (unsigned int)0, (enum anonymous_68)0);
+    line = (char *)return_value_XmStringUnparse_1;
     XmTextSetString(h->text, line);
   }
 
@@ -17081,9 +17081,9 @@ static void file_done_cb(struct _WidgetRec *widget, void *clientdata, void *call
 static signed int files_audio(void *handle, struct ng_audio_buf *buf)
 {
   struct files_handle *h = (struct files_handle *)handle;
-  signed long int return_value_write$1;
-  return_value_write$1=write(h->wav_fd, (const void *)buf->data, (unsigned long int)buf->size);
-  if(!((signed long int)buf->size == return_value_write$1))
+  signed long int return_value_write_1;
+  return_value_write_1=write(h->wav_fd, (const void *)buf->data, (unsigned long int)buf->size);
+  if(!((signed long int)buf->size == return_value_write_1))
     return -1;
 
   else
@@ -17126,9 +17126,9 @@ static void * files_open(char *filesname, char *audioname, struct ng_video_fmt *
 
   __CPROVER_DUMP_L1:
     ;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct files_handle) /*4176ul*/ );
-    h = (struct files_handle *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct files_handle) /*4176ul*/ );
+    h = (struct files_handle *)return_value_malloc_1;
     if(h == ((struct files_handle *)NULL))
       return (void *)0;
 
@@ -17145,11 +17145,11 @@ static void * files_open(char *filesname, char *audioname, struct ng_video_fmt *
         h->wav_fd=open(audioname, 0100 | 02 | 01000, 0666);
         if(h->wav_fd == -1)
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          fprintf(stderr, "open %s: %s\n", audioname, return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          fprintf(stderr, "open %s: %s\n", audioname, return_value_strerror_3);
           free((void *)h);
           return (void *)0;
         }
@@ -17194,11 +17194,11 @@ static signed int files_video(void *handle, struct ng_video_buf *buf)
         fp=fopen(h->file, "w");
         if(fp == ((struct _IO_FILE *)NULL))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          fprintf(stderr, "grab: can't open %s: %s\n", (const void *)h->file, return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          fprintf(stderr, "grab: can't open %s: %s\n", (const void *)h->file, return_value_strerror_2);
           rc = -1;
         }
 
@@ -17210,9 +17210,9 @@ static signed int files_video(void *handle, struct ng_video_buf *buf)
         }
       }
     }
-    signed int return_value_patch_up$3;
-    return_value_patch_up$3=patch_up(h->file);
-    if(!(return_value_patch_up$3 == 1))
+    signed int return_value_patch_up_3;
+    return_value_patch_up_3=patch_up(h->file);
+    if(!(return_value_patch_up_3 == 1))
       h->gotcha = 1;
 
     return rc;
@@ -17227,18 +17227,18 @@ static void filter_add_ctrls(struct _WidgetRec *rc, struct ng_filter *filter, st
   struct _WidgetRec *opt;
   struct _WidgetRec *push;
   union __XmStringRec *str;
-  struct anonymous$11 filter_add_ctrls$$1$$args[2l];
+  struct anonymous_11 filter_add_ctrls__1__args[2l];
   signed int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct filter_attribute) /*40ul*/ );
-  f = (struct filter_attribute *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct filter_attribute) /*40ul*/ );
+  f = (struct filter_attribute *)return_value_malloc_1;
   memset((void *)f, 0, sizeof(struct filter_attribute) /*40ul*/ );
   f->filter = filter;
   f->attr = attr;
   f->next = filter_attrs;
   f->value=attr->read(attr);
   filter_attrs = f;
-  str=XmStringGenerate((void *)(char *)attr->name, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+  str=XmStringGenerate((void *)(char *)attr->name, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
   if(attr->type == 1)
   {
     f->widget=XtVaCreateManagedWidget("scale", xmScaleWidgetClass, rc, (char *)&_XmStrings[(signed long int)10137], str, (char *)&_XmStrings[(signed long int)8134], attr->min, (char *)&_XmStrings[(signed long int)7982], attr->max, (char *)&_XmStrings[(signed long int)5711], attr->points, (void *)0);
@@ -17247,12 +17247,12 @@ static void filter_add_ctrls(struct _WidgetRec *rc, struct ng_filter *filter, st
     f->widget=XtVaCreateManagedWidget("bool", xmToggleButtonWidgetClass, rc, (char *)&_XmStrings[(signed long int)7535], str, (void *)0);
     XmToggleButtonSetState(f->widget, (char)f->value, (char)0);
     XtAddCallback(f->widget, (char *)&_XmStrings[(signed long int)10591], filter_cb, (void *)f);
-    f->widget=XmCreatePulldownMenu(rc, "choiceM", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-    filter_add_ctrls$$1$$args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
-    filter_add_ctrls$$1$$args[(signed long int)0].value = (signed long int)f->widget;
-    filter_add_ctrls$$1$$args[(signed long int)1].name = (char *)&_XmStrings[(signed long int)7535];
-    filter_add_ctrls$$1$$args[(signed long int)1].value = (signed long int)str;
-    opt=XmCreateOptionMenu(rc, "choiceO", filter_add_ctrls$$1$$args, (unsigned int)2);
+    f->widget=XmCreatePulldownMenu(rc, "choiceM", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+    filter_add_ctrls__1__args[(signed long int)0].name = (char *)&_XmStrings[(signed long int)9963];
+    filter_add_ctrls__1__args[(signed long int)0].value = (signed long int)f->widget;
+    filter_add_ctrls__1__args[(signed long int)1].name = (char *)&_XmStrings[(signed long int)7535];
+    filter_add_ctrls__1__args[(signed long int)1].value = (signed long int)str;
+    opt=XmCreateOptionMenu(rc, "choiceO", filter_add_ctrls__1__args, (unsigned int)2);
     XtManageChild(opt);
     i = 0;
     if(!((attr->choices + (signed long int)i)->str == ((const char *)NULL)))
@@ -17276,8 +17276,8 @@ static void filter_cb(struct _WidgetRec *widget, void *clientdata, void *call_da
 {
   struct filter_attribute *f = (struct filter_attribute *)clientdata;
   struct _WidgetRec *w;
-  char return_value_XmToggleButtonGetState$1;
-  char *return_value_XtName$2;
+  char return_value_XmToggleButtonGetState_1;
+  char *return_value_XtName_2;
   switch(f->attr->type)
   {
     case 1:
@@ -17287,16 +17287,16 @@ static void filter_cb(struct _WidgetRec *widget, void *clientdata, void *call_da
     }
     case 3:
     {
-      return_value_XmToggleButtonGetState$1=XmToggleButtonGetState(f->widget);
-      f->value = (signed int)return_value_XmToggleButtonGetState$1;
+      return_value_XmToggleButtonGetState_1=XmToggleButtonGetState(f->widget);
+      f->value = (signed int)return_value_XmToggleButtonGetState_1;
       break;
     }
     case 2:
     {
       w = (struct _WidgetRec *)(void *)0;
       XtVaGetValues(f->widget, (char *)&_XmStrings[(signed long int)8040], &w, (void *)0);
-      return_value_XtName$2=XtName(w);
-      f->value=ng_attr_getint(f->attr, return_value_XtName$2);
+      return_value_XtName_2=XtName(w);
+      f->value=ng_attr_getint(f->attr, return_value_XtName_2);
     }
   }
   f->attr->write(f->attr, f->value);
@@ -17307,7 +17307,7 @@ static void filter_cb(struct _WidgetRec *widget, void *clientdata, void *call_da
 static unsigned long int find_screensaver_window(struct _XDisplay *dpy, char **version)
 {
   unsigned int i;
-  unsigned long int root = (&((struct anonymous$10 *)dpy)->screens[(signed long int)((struct anonymous$10 *)dpy)->default_screen])->root;
+  unsigned long int root = (&((struct anonymous_10 *)dpy)->screens[(signed long int)((struct anonymous_10 *)dpy)->default_screen])->root;
   unsigned long int root2;
   unsigned long int parent;
   unsigned long int *kids;
@@ -17315,9 +17315,9 @@ static unsigned long int find_screensaver_window(struct _XDisplay *dpy, char **v
   if(!(version == ((char **)NULL)))
     *version = ((char *)NULL);
 
-  signed int return_value_XQueryTree$1;
-  return_value_XQueryTree$1=XQueryTree(dpy, root, &root2, &parent, &kids, &nkids);
-  if(return_value_XQueryTree$1 == 0)
+  signed int return_value_XQueryTree_1;
+  return_value_XQueryTree_1=XQueryTree(dpy, root, &root2, &parent, &kids, &nkids);
+  if(return_value_XQueryTree_1 == 0)
     abort();
 
   if(!(root == root2))
@@ -17431,35 +17431,35 @@ void freq_init(void)
 
   nr = 0;
   i = 0;
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(line, 255, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, 255, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     nr = nr + 1;
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if((signed int)line[0l] == 10)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
     {
-      signed int return_value_sscanf$5;
-      return_value_sscanf$5=sscanf(line, "[%255[^]]]", (const void *)value);
-      if(return_value_sscanf$5 == 1)
+      signed int return_value_sscanf_5;
+      return_value_sscanf_5=sscanf(line, "[%255[^]]]", (const void *)value);
+      if(return_value_sscanf_5 == 1)
       {
-        void *return_value_realloc$4;
-        return_value_realloc$4=realloc((void *)chanlists, (unsigned long int)(i + 2) * sizeof(struct CHANLISTS) /*32ul*/ );
-        chanlists = (struct CHANLISTS *)return_value_realloc$4;
+        void *return_value_realloc_4;
+        return_value_realloc_4=realloc((void *)chanlists, (unsigned long int)(i + 2) * sizeof(struct CHANLISTS) /*32ul*/ );
+        chanlists = (struct CHANLISTS *)return_value_realloc_4;
         memset((void *)(chanlists + (signed long int)i), 0, (unsigned long int)2 * sizeof(struct CHANLISTS) /*32ul*/ );
         (chanlists + (signed long int)i)->name=strdup(value);
         i = i + 1;
@@ -17471,9 +17471,9 @@ void freq_init(void)
 
       else
       {
-        signed int return_value_sscanf$6;
-        return_value_sscanf$6=sscanf(line, " file = %255[^\n]", (const void *)value);
-        if(return_value_sscanf$6 == 1)
+        signed int return_value_sscanf_6;
+        return_value_sscanf_6=sscanf(line, " file = %255[^\n]", (const void *)value);
+        if(return_value_sscanf_6 == 1)
           (chanlists + (signed long int)(i - 1))->filename=strdup(value);
 
         else
@@ -17484,9 +17484,9 @@ void freq_init(void)
   }
   while((_Bool)1);
   fclose(fp);
-  void *return_value_malloc$7;
-  return_value_malloc$7=malloc((unsigned long int)(i + 1) * sizeof(struct STRTAB) /*16ul*/ );
-  chanlist_names = (struct STRTAB *)return_value_malloc$7;
+  void *return_value_malloc_7;
+  return_value_malloc_7=malloc((unsigned long int)(i + 1) * sizeof(struct STRTAB) /*16ul*/ );
+  chanlist_names = (struct STRTAB *)return_value_malloc_7;
   j = 0;
   for( ; !(j >= i); j = j + 1)
   {
@@ -17523,11 +17523,11 @@ static signed int freq_readlist(struct CHANLIST **list, signed int n, char *name
   fp=fopen(filename, "r");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "open %s: %s\n", (const void *)filename, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "open %s: %s\n", (const void *)filename, return_value_strerror_2);
     exit(1);
   }
 
@@ -17535,44 +17535,44 @@ static signed int freq_readlist(struct CHANLIST **list, signed int n, char *name
     fprintf(stderr, "freq: reading %s\n", (const void *)filename);
 
   nr = 0;
-  char *return_value_fgets$3;
+  char *return_value_fgets_3;
   do
   {
-    return_value_fgets$3=fgets(line, 255, fp);
-    if(return_value_fgets$3 == ((char *)NULL))
+    return_value_fgets_3=fgets(line, 255, fp);
+    if(return_value_fgets_3 == ((char *)NULL))
       break;
 
     nr = nr + 1;
-    signed int return_value_sscanf$4;
-    return_value_sscanf$4=sscanf(line, "# include \"%[^\"]\"", (const void *)value);
-    if(return_value_sscanf$4 == 1)
+    signed int return_value_sscanf_4;
+    return_value_sscanf_4=sscanf(line, "# include \"%[^\"]\"", (const void *)value);
+    if(return_value_sscanf_4 == 1)
       n=freq_readlist(list, n, value);
 
     else
     {
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if((signed int)line[0l] == 10)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$6;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_6;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$6)
+        tmp_if_expr_6 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_6)
       {
-        signed int return_value_sscanf$8;
-        return_value_sscanf$8=sscanf(line, "[%255[^]]]", (const void *)value);
-        if(return_value_sscanf$8 == 1)
+        signed int return_value_sscanf_8;
+        return_value_sscanf_8=sscanf(line, "[%255[^]]]", (const void *)value);
+        if(return_value_sscanf_8 == 1)
         {
           if(n % 16 == 0)
           {
-            void *return_value_realloc$7;
-            return_value_realloc$7=realloc((void *)*list, (unsigned long int)(n + 16) * sizeof(struct CHANLIST) /*16ul*/ );
-            *list = (struct CHANLIST *)return_value_realloc$7;
+            void *return_value_realloc_7;
+            return_value_realloc_7=realloc((void *)*list, (unsigned long int)(n + 16) * sizeof(struct CHANLIST) /*16ul*/ );
+            *list = (struct CHANLIST *)return_value_realloc_7;
             memset((void *)(*list + (signed long int)n), 0, (unsigned long int)16 * sizeof(struct CHANLIST) /*16ul*/ );
           }
 
@@ -17586,13 +17586,13 @@ static signed int freq_readlist(struct CHANLIST **list, signed int n, char *name
 
           else
           {
-            signed int return_value_sscanf$10;
-            return_value_sscanf$10=sscanf(line, " freq = %255[^\n]", (const void *)value);
-            if(return_value_sscanf$10 == 1)
+            signed int return_value_sscanf_10;
+            return_value_sscanf_10=sscanf(line, " freq = %255[^\n]", (const void *)value);
+            if(return_value_sscanf_10 == 1)
             {
-              signed int return_value_atoi$9;
-              return_value_atoi$9=atoi(value);
-              (*list + (signed long int)(n - 1))->freq = (unsigned int)return_value_atoi$9;
+              signed int return_value_atoi_9;
+              return_value_atoi_9=atoi(value);
+              (*list + (signed long int)(n - 1))->freq = (unsigned int)return_value_atoi_9;
               continue;
             }
 
@@ -17627,19 +17627,19 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
   signed int found = 0;
   char *prev;
   char *p;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if(!((signed int)seek_type == NONE))
-    tmp_if_expr$7 = seek_device[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_7 = seek_device[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  signed int return_value_strcmp$1;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$6;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (_Bool)0;
+  signed int return_value_strcmp_1;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_6;
+  if(tmp_if_expr_7)
   {
     p=strrchr(seek_device, 47);
     if(!(p == ((char *)NULL)))
@@ -17652,8 +17652,8 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
       {
         if(md_ptr->type == seek_type)
         {
-          return_value_strcmp$1=strcmp(md_ptr->node, last_seek);
-          if(return_value_strcmp$1 == 0)
+          return_value_strcmp_1=strcmp(md_ptr->node, last_seek);
+          if(return_value_strcmp_1 == 0)
           {
             found = 1;
             goto __CPROVER_DUMP_L10;
@@ -17667,8 +17667,8 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
       {
         if(md_ptr->type == seek_type)
         {
-          return_value_strcmp$2=strcmp(seek_device, md_ptr->node);
-          if(return_value_strcmp$2 == 0)
+          return_value_strcmp_2=strcmp(seek_device, md_ptr->node);
+          if(return_value_strcmp_2 == 0)
             break;
 
         }
@@ -17690,21 +17690,21 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
     {
       if(!((unsigned int)i >= md->md_size))
       {
-        return_value_strcmp$3=strcmp(prev, md_ptr->device);
-        tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_3=strcmp(prev, md_ptr->device);
+        tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(!tmp_if_expr_4)
         break;
 
       if(!(last_seek == ((const char *)NULL)))
       {
         if(md_ptr->type == seek_type)
         {
-          return_value_strcmp$5=strcmp(md_ptr->node, last_seek);
-          if(return_value_strcmp$5 == 0)
+          return_value_strcmp_5=strcmp(md_ptr->node, last_seek);
+          if(return_value_strcmp_5 == 0)
           {
             found = 1;
             goto __CPROVER_DUMP_L20;
@@ -17737,8 +17737,8 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
     {
       if(!(last_seek == ((const char *)NULL)))
       {
-        return_value_strcmp$6=strcmp(md_ptr->node, last_seek);
-        if(return_value_strcmp$6 == 0)
+        return_value_strcmp_6=strcmp(md_ptr->node, last_seek);
+        if(return_value_strcmp_6 == 0)
         {
           found = 1;
           goto __CPROVER_DUMP_L28;
@@ -17769,9 +17769,9 @@ static enum bus_type get_bus(char *device)
   char file[4096l];
   char s[1024l];
   struct _IO_FILE *f;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(device, "/sys/devices/virtual");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(device, "/sys/devices/virtual");
+  if(return_value_strcmp_1 == 0)
     return (enum bus_type)MEDIA_BUS_VIRTUAL;
 
   else
@@ -17783,24 +17783,24 @@ static enum bus_type get_bus(char *device)
 
     else
     {
-      char *return_value_fgets$2;
-      return_value_fgets$2=fgets(s, (signed int)sizeof(char [1024l]) /*1024ul*/ , f);
-      if(return_value_fgets$2 == ((char *)NULL))
+      char *return_value_fgets_2;
+      return_value_fgets_2=fgets(s, (signed int)sizeof(char [1024l]) /*1024ul*/ , f);
+      if(return_value_fgets_2 == ((char *)NULL))
         return (enum bus_type)MEDIA_BUS_UNKNOWN;
 
       else
       {
         fclose(f);
-        signed int return_value_strncmp$3;
-        return_value_strncmp$3=strncmp(s, "pci", (unsigned long int)3);
-        if(return_value_strncmp$3 == 0)
+        signed int return_value_strncmp_3;
+        return_value_strncmp_3=strncmp(s, "pci", (unsigned long int)3);
+        if(return_value_strncmp_3 == 0)
           return (enum bus_type)MEDIA_BUS_PCI;
 
         else
         {
-          signed int return_value_strncmp$4;
-          return_value_strncmp$4=strncmp(s, "usb", (unsigned long int)3);
-          if(return_value_strncmp$4 == 0)
+          signed int return_value_strncmp_4;
+          return_value_strncmp_4=strncmp(s, "usb", (unsigned long int)3);
+          if(return_value_strncmp_4 == 0)
             return (enum bus_type)MEDIA_BUS_USB;
 
           else
@@ -17811,45 +17811,45 @@ static enum bus_type get_bus(char *device)
   }
 }
 
-// get_bus$link1
+// get_bus_link1
 // file common/get_media_devices.c line 96
-static enum bus_type get_bus$link1(char *device$link1)
+static enum bus_type get_bus_link1(char *device_link1)
 {
-  char file$link1[4096l];
-  char s$link1[1024l];
-  struct _IO_FILE *f$link1;
-  signed int return_value_strcmp$1$link1;
-  return_value_strcmp$1$link1=strcmp(device$link1, "/sys/devices/virtual");
-  if(return_value_strcmp$1$link1 == 0)
+  char file_link1[4096l];
+  char s_link1[1024l];
+  struct _IO_FILE *f_link1;
+  signed int return_value_strcmp_1_link1;
+  return_value_strcmp_1_link1=strcmp(device_link1, "/sys/devices/virtual");
+  if(return_value_strcmp_1_link1 == 0)
     return (enum bus_type)MEDIA_BUS_VIRTUAL;
 
   else
   {
-    snprintf(file$link1, (unsigned long int)4096, "%s/modalias", device$link1);
-    f$link1=fopen(file$link1, "r");
-    if(f$link1 == ((struct _IO_FILE *)NULL))
+    snprintf(file_link1, (unsigned long int)4096, "%s/modalias", device_link1);
+    f_link1=fopen(file_link1, "r");
+    if(f_link1 == ((struct _IO_FILE *)NULL))
       return (enum bus_type)MEDIA_BUS_UNKNOWN;
 
     else
     {
-      char *return_value_fgets$2$link1;
-      return_value_fgets$2$link1=fgets(s$link1, (signed int)sizeof(char [1024l]) /*1024ul*/ , f$link1);
-      if(return_value_fgets$2$link1 == ((char *)NULL))
+      char *return_value_fgets_2_link1;
+      return_value_fgets_2_link1=fgets(s_link1, (signed int)sizeof(char [1024l]) /*1024ul*/ , f_link1);
+      if(return_value_fgets_2_link1 == ((char *)NULL))
         return (enum bus_type)MEDIA_BUS_UNKNOWN;
 
       else
       {
-        fclose(f$link1);
-        signed int return_value_strncmp$3$link1;
-        return_value_strncmp$3$link1=strncmp(s$link1, "pci", (unsigned long int)3);
-        if(return_value_strncmp$3$link1 == 0)
+        fclose(f_link1);
+        signed int return_value_strncmp_3_link1;
+        return_value_strncmp_3_link1=strncmp(s_link1, "pci", (unsigned long int)3);
+        if(return_value_strncmp_3_link1 == 0)
           return (enum bus_type)MEDIA_BUS_PCI;
 
         else
         {
-          signed int return_value_strncmp$4$link1;
-          return_value_strncmp$4$link1=strncmp(s$link1, "usb", (unsigned long int)3);
-          if(return_value_strncmp$4$link1 == 0)
+          signed int return_value_strncmp_4_link1;
+          return_value_strncmp_4_link1=strncmp(s_link1, "usb", (unsigned long int)3);
+          if(return_value_strncmp_4_link1 == 0)
             return (enum bus_type)MEDIA_BUS_USB;
 
           else
@@ -17868,16 +17868,16 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
   struct dirent *entry;
   char dname[4096l];
   char fname[4096l];
-  char get_class$$1$$link[4096l];
+  char get_class__1__link[4096l];
   char virt_dev[60l];
-  signed int get_class$$1$$err = -2;
+  signed int get_class__1__err = -2;
   struct media_device_entry *md_ptr = (struct media_device_entry *)(void *)0;
   char *p;
   char *device;
   enum bus_type bus;
   snprintf(dname, (unsigned long int)4096, "/sys/class/%s", class);
   dir=opendir(dname);
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   if(dir == ((struct __dirstream *)NULL))
     return 0;
 
@@ -17889,11 +17889,11 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
       if(!((signed int)entry->d_name[0l] == 46))
       {
         snprintf(fname, (unsigned long int)4096, "%s/%s", (const void *)dname, (const void *)entry->d_name);
-        char *return_value_realpath$4;
-        return_value_realpath$4=realpath(fname, get_class$$1$$link);
-        if(!(return_value_realpath$4 == ((char *)NULL)))
+        char *return_value_realpath_4;
+        return_value_realpath_4=realpath(fname, get_class__1__link);
+        if(!(return_value_realpath_4 == ((char *)NULL)))
         {
-          device = get_class$$1$$link;
+          device = get_class__1__link;
           p=strstr(device, class);
           if(p == ((char *)NULL))
             goto __CPROVER_DUMP_L9;
@@ -17918,8 +17918,8 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
               if(p == ((char *)NULL))
                 goto __CPROVER_DUMP_L9;
 
-              return_value_strchr$1=strchr(p, 58);
-              if(return_value_strchr$1 == ((char *)NULL))
+              return_value_strchr_1=strchr(p, 58);
+              if(return_value_strchr_1 == ((char *)NULL))
                 break;
 
               *p = (char)0;
@@ -17928,18 +17928,18 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
             case MEDIA_BUS_VIRTUAL:
             {
               static signed int virtual = 0;
-              signed int tmp_post$2 = virtual;
+              signed int tmp_post_2 = virtual;
               virtual = virtual + 1;
-              sprintf(virt_dev, "virtual%d", tmp_post$2);
+              sprintf(virt_dev, "virtual%d", tmp_post_2);
               device = virt_dev;
               break;
             }
             case MEDIA_BUS_UNKNOWN:
               ;
           }
-          void *return_value_realloc$3;
-          return_value_realloc$3=realloc((void *)*md, (unsigned long int)(*md_size + (unsigned int)1) * sizeof(struct media_device_entry) /*32ul*/ );
-          *md = (struct media_device_entry *)return_value_realloc$3;
+          void *return_value_realloc_3;
+          return_value_realloc_3=realloc((void *)*md, (unsigned long int)(*md_size + (unsigned int)1) * sizeof(struct media_device_entry) /*32ul*/ );
+          *md = (struct media_device_entry *)return_value_realloc_3;
           if(*md == ((struct media_device_entry *)NULL))
             goto error;
 
@@ -17960,106 +17960,106 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
       ;
       entry=readdir(dir);
     }
-    get_class$$1$$err = 0;
+    get_class__1__err = 0;
 
   error:
     ;
     closedir(dir);
-    return get_class$$1$$err;
+    return get_class__1__err;
   }
 }
 
-// get_class$link1
+// get_class_link1
 // file common/get_media_devices.c line 121
-static signed int get_class$link1(char *class$link1, struct media_device_entry **md$link1, unsigned int *md_size$link1, signed int (*fill$link1)(struct media_device_entry *))
+static signed int get_class_link1(char *class_link1, struct media_device_entry **md_link1, unsigned int *md_size_link1, signed int (*fill_link1)(struct media_device_entry *))
 {
-  struct __dirstream *dir$link1;
-  struct dirent *entry$link1;
-  char dname$link1[4096l];
-  char fname$link1[4096l];
-  char link$link1[4096l];
-  char virt_dev$link1[60l];
-  signed int get_class$$1$$err$link1 = -2;
-  struct media_device_entry *md_ptr$link1 = (struct media_device_entry *)(void *)0;
-  char *p$link1;
-  char *device$link1;
-  enum bus_type bus$link1;
-  snprintf(dname$link1, (unsigned long int)4096, "/sys/class/%s", class$link1);
-  dir$link1=opendir(dname$link1);
-  char *return_value_strchr$1$link1;
-  if(dir$link1 == ((struct __dirstream *)NULL))
+  struct __dirstream *dir_link1;
+  struct dirent *entry_link1;
+  char dname_link1[4096l];
+  char fname_link1[4096l];
+  char link_link1[4096l];
+  char virt_dev_link1[60l];
+  signed int get_class__1__err_link1 = -2;
+  struct media_device_entry *md_ptr_link1 = (struct media_device_entry *)(void *)0;
+  char *p_link1;
+  char *device_link1;
+  enum bus_type bus_link1;
+  snprintf(dname_link1, (unsigned long int)4096, "/sys/class/%s", class_link1);
+  dir_link1=opendir(dname_link1);
+  char *return_value_strchr_1_link1;
+  if(dir_link1 == ((struct __dirstream *)NULL))
     return 0;
 
   else
   {
-    entry$link1=readdir(dir$link1);
-    while(!(entry$link1 == ((struct dirent *)NULL)))
+    entry_link1=readdir(dir_link1);
+    while(!(entry_link1 == ((struct dirent *)NULL)))
     {
-      if(!((signed int)entry$link1->d_name[0l] == 46))
+      if(!((signed int)entry_link1->d_name[0l] == 46))
       {
-        snprintf(fname$link1, (unsigned long int)4096, "%s/%s", (const void *)dname$link1, (const void *)entry$link1->d_name);
-        char *return_value_realpath$4$link1;
-        return_value_realpath$4$link1=realpath(fname$link1, link$link1);
-        if(!(return_value_realpath$4$link1 == ((char *)NULL)))
+        snprintf(fname_link1, (unsigned long int)4096, "%s/%s", (const void *)dname_link1, (const void *)entry_link1->d_name);
+        char *return_value_realpath_4_link1;
+        return_value_realpath_4_link1=realpath(fname_link1, link_link1);
+        if(!(return_value_realpath_4_link1 == ((char *)NULL)))
         {
-          device$link1 = link$link1;
-          p$link1=strstr(device$link1, class$link1);
-          if(p$link1 == ((char *)NULL))
+          device_link1 = link_link1;
+          p_link1=strstr(device_link1, class_link1);
+          if(p_link1 == ((char *)NULL))
             goto __CPROVER_DUMP_L9;
 
-          *(p$link1 - (signed long int)1) = (char)0;
-          bus$link1=get_bus$link1(device$link1);
-          device$link1 = device$link1 + (signed long int)13;
-          switch((signed int)bus$link1)
+          *(p_link1 - (signed long int)1) = (char)0;
+          bus_link1=get_bus_link1(device_link1);
+          device_link1 = device_link1 + (signed long int)13;
+          switch((signed int)bus_link1)
           {
             case MEDIA_BUS_PCI:
             {
-              p$link1=strrchr(device$link1, 46);
-              if(p$link1 == ((char *)NULL))
+              p_link1=strrchr(device_link1, 46);
+              if(p_link1 == ((char *)NULL))
                 goto __CPROVER_DUMP_L9;
 
-              *p$link1 = (char)0;
+              *p_link1 = (char)0;
               break;
             }
             case MEDIA_BUS_USB:
             {
-              p$link1=strrchr(device$link1, 47);
-              if(p$link1 == ((char *)NULL))
+              p_link1=strrchr(device_link1, 47);
+              if(p_link1 == ((char *)NULL))
                 goto __CPROVER_DUMP_L9;
 
-              return_value_strchr$1$link1=strchr(p$link1, 58);
-              if(return_value_strchr$1$link1 == ((char *)NULL))
+              return_value_strchr_1_link1=strchr(p_link1, 58);
+              if(return_value_strchr_1_link1 == ((char *)NULL))
                 break;
 
-              *p$link1 = (char)0;
+              *p_link1 = (char)0;
               break;
             }
             case MEDIA_BUS_VIRTUAL:
             {
-              static signed int virtual$link1 = 0;
-              signed int tmp_post$2$link1 = virtual$link1;
-              virtual$link1 = virtual$link1 + 1;
-              sprintf(virt_dev$link1, "virtual%d", tmp_post$2$link1);
-              device$link1 = virt_dev$link1;
+              static signed int virtual_link1 = 0;
+              signed int tmp_post_2_link1 = virtual_link1;
+              virtual_link1 = virtual_link1 + 1;
+              sprintf(virt_dev_link1, "virtual%d", tmp_post_2_link1);
+              device_link1 = virt_dev_link1;
               break;
             }
             case MEDIA_BUS_UNKNOWN:
               ;
           }
-          void *return_value_realloc$3$link1;
-          return_value_realloc$3$link1=realloc((void *)*md$link1, (unsigned long int)(*md_size$link1 + (unsigned int)1) * sizeof(struct media_device_entry) /*32ul*/ );
-          *md$link1 = (struct media_device_entry *)return_value_realloc$3$link1;
-          if(*md$link1 == ((struct media_device_entry *)NULL))
+          void *return_value_realloc_3_link1;
+          return_value_realloc_3_link1=realloc((void *)*md_link1, (unsigned long int)(*md_size_link1 + (unsigned int)1) * sizeof(struct media_device_entry) /*32ul*/ );
+          *md_link1 = (struct media_device_entry *)return_value_realloc_3_link1;
+          if(*md_link1 == ((struct media_device_entry *)NULL))
             goto error;
 
-          md_ptr$link1 = *md$link1 + (signed long int)*md_size$link1;
-          *md_size$link1 = *md_size$link1 + 1u;
-          memset((void *)md_ptr$link1, 0, sizeof(struct media_device_entry) /*32ul*/ );
-          md_ptr$link1->type = (enum device_type)UNKNOWN;
-          md_ptr$link1->device=strdup(device$link1);
-          md_ptr$link1->node=strdup(entry$link1->d_name);
-          get_uevent_info$link1(md_ptr$link1, dname$link1);
-          fill$link1(md_ptr$link1);
+          md_ptr_link1 = *md_link1 + (signed long int)*md_size_link1;
+          *md_size_link1 = *md_size_link1 + 1u;
+          memset((void *)md_ptr_link1, 0, sizeof(struct media_device_entry) /*32ul*/ );
+          md_ptr_link1->type = (enum device_type)UNKNOWN;
+          md_ptr_link1->device=strdup(device_link1);
+          md_ptr_link1->node=strdup(entry_link1->d_name);
+          get_uevent_info_link1(md_ptr_link1, dname_link1);
+          fill_link1(md_ptr_link1);
         }
 
       }
@@ -18067,14 +18067,14 @@ static signed int get_class$link1(char *class$link1, struct media_device_entry *
 
     __CPROVER_DUMP_L9:
       ;
-      entry$link1=readdir(dir$link1);
+      entry_link1=readdir(dir_link1);
     }
-    get_class$$1$$err$link1 = 0;
+    get_class__1__err_link1 = 0;
 
   error:
     ;
-    closedir(dir$link1);
-    return get_class$$1$$err$link1;
+    closedir(dir_link1);
+    return get_class__1__err_link1;
   }
 }
 
@@ -18087,8 +18087,8 @@ static void get_clips(void)
   signed int x2;
   signed int y2;
   signed int lastcount;
-  struct _XDisplay *get_clips$$1$$dpy;
-  struct anonymous$117 wts;
+  struct _XDisplay *get_clips__1__dpy;
+  struct anonymous_117 wts;
   unsigned long int root;
   unsigned long int me;
   unsigned long int rroot;
@@ -18096,16 +18096,16 @@ static void get_clips(void)
   unsigned long int *children;
   unsigned int nchildren;
   unsigned int i;
-  void *get_clips$$1$$old_handler;
-  signed int (*return_value_XSetErrorHandler$1)(struct _XDisplay *, struct anonymous *);
-  return_value_XSetErrorHandler$1=XSetErrorHandler(x11_error_dev_null);
-  get_clips$$1$$old_handler = (void *)return_value_XSetErrorHandler$1;
+  void *get_clips__1__old_handler;
+  signed int (*return_value_XSetErrorHandler_1)(struct _XDisplay *, struct anonymous *);
+  return_value_XSetErrorHandler_1=XSetErrorHandler(x11_error_dev_null);
+  get_clips__1__old_handler = (void *)return_value_XSetErrorHandler_1;
   if(debug >= 2)
     fprintf(stderr, " getclips");
 
   lastcount = oc_count;
   oc_count = 0;
-  get_clips$$1$$dpy=XtDisplay(video);
+  get_clips__1__dpy=XtDisplay(video);
   if(!(wx >= 0))
     add_clip(0, 0, (signed int)(unsigned int)-wx, (signed int)wfmt.height);
 
@@ -18118,11 +18118,11 @@ static void get_clips(void)
   if(!(sheight >= wfmt.height + (unsigned int)wy))
     add_clip(0, (signed int)(sheight - (unsigned int)wy), (signed int)wfmt.width, (signed int)wfmt.height);
 
-  root = (&((struct anonymous$10 *)get_clips$$1$$dpy)->screens[(signed long int)((struct anonymous$10 *)get_clips$$1$$dpy)->default_screen])->root;
+  root = (&((struct anonymous_10 *)get_clips__1__dpy)->screens[(signed long int)((struct anonymous_10 *)get_clips__1__dpy)->default_screen])->root;
   me=XtWindow(video);
   do
   {
-    XQueryTree(get_clips$$1$$dpy, me, &rroot, &parent, &children, &nchildren);
+    XQueryTree(get_clips__1__dpy, me, &rroot, &parent, &children, &nchildren);
     XFree((void *)(char *)children);
     if(root == parent)
       break;
@@ -18130,7 +18130,7 @@ static void get_clips(void)
     me = parent;
   }
   while((_Bool)1);
-  XQueryTree(get_clips$$1$$dpy, root, &rroot, &parent, &children, &nchildren);
+  XQueryTree(get_clips__1__dpy, root, &rroot, &parent, &children, &nchildren);
   i = (unsigned int)0;
   for( ; !(i >= nchildren); i = i + 1u)
     if(children[(signed long int)i] == me)
@@ -18139,7 +18139,7 @@ static void get_clips(void)
   i = i + 1u;
   for( ; !(i >= nchildren); i = i + 1u)
   {
-    XGetWindowAttributes(get_clips$$1$$dpy, children[(signed long int)i], &wts);
+    XGetWindowAttributes(get_clips__1__dpy, children[(signed long int)i], &wts);
     if(!((2 & wts.map_state) == 0))
     {
       x1 = wts.x - wx;
@@ -18170,39 +18170,39 @@ static void get_clips(void)
   if(!(lastcount == oc_count))
     conf = 1;
 
-  XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))get_clips$$1$$old_handler);
+  XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))get_clips__1__old_handler);
 }
 
 // get_freq
 // file common/channel.c line 152
 signed int get_freq(signed int i)
 {
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   if(!(i >= 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(chantab == -1))
-      tmp_if_expr$1 = (chanlists + (signed long int)chantab)->count;
+      tmp_if_expr_1 = (chanlists + (signed long int)chantab)->count;
 
     else
-      tmp_if_expr$1 = 0;
-    tmp_if_expr$2 = i >= tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = 0;
+    tmp_if_expr_2 = i >= tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return -1;
 
   else
   {
-    struct CHANLIST *tmp_if_expr$3;
+    struct CHANLIST *tmp_if_expr_3;
     if(!(chantab == -1))
-      tmp_if_expr$3 = (chanlists + (signed long int)chantab)->list;
+      tmp_if_expr_3 = (chanlists + (signed long int)chantab)->list;
 
     else
-      tmp_if_expr$3 = (struct CHANLIST *)(void *)0;
-    return (signed int)(((tmp_if_expr$3 + (signed long int)i)->freq * (unsigned int)16) / (unsigned int)1000);
+      tmp_if_expr_3 = (struct CHANLIST *)(void *)0;
+    return (signed int)(((tmp_if_expr_3 + (signed long int)i)->freq * (unsigned int)16) / (unsigned int)1000);
   }
 }
 
@@ -18218,13 +18218,13 @@ const char * get_not_associated_device(void *opaque, const char *last_seek, cons
   char *prev = "";
   char *result = (char *)(void *)0;
   i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !((unsigned int)i >= md->md_size); md_ptr = md_ptr + 1l)
   {
     if(!(last_seek == ((const char *)NULL)))
     {
-      return_value_strcmp$1=strcmp(md_ptr->node, last_seek);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(md_ptr->node, last_seek);
+      if(return_value_strcmp_1 == 0)
       {
         found = 1;
         goto __CPROVER_DUMP_L9;
@@ -18234,9 +18234,9 @@ const char * get_not_associated_device(void *opaque, const char *last_seek, cons
 
     if(!(found == 0) || last_seek == ((const char *)NULL))
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(prev, md_ptr->device);
-      if(!(return_value_strcmp$2 == 0))
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(prev, md_ptr->device);
+      if(!(return_value_strcmp_2 == 0))
       {
         if(skip == 0 && !(result == ((char *)NULL)))
           break;
@@ -18281,16 +18281,16 @@ static void get_uevent_info(struct media_device_entry *md_ptr, char *dname)
   char s[1024l];
   snprintf(file, (unsigned long int)4096, "%s/%s/uevent", dname, md_ptr->node);
   fd=fopen(file, "r");
-  char *return_value_fgets$1;
-  signed long int return_value_atol$2;
-  signed int return_value_strcmp$4;
-  signed long int return_value_atol$3;
+  char *return_value_fgets_1;
+  signed long int return_value_atol_2;
+  signed int return_value_strcmp_4;
+  signed long int return_value_atol_3;
   if(!(fd == ((struct _IO_FILE *)NULL)))
   {
     do
     {
-      return_value_fgets$1=fgets(s, (signed int)sizeof(char [1024l]) /*1024ul*/ , fd);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(s, (signed int)sizeof(char [1024l]) /*1024ul*/ , fd);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       p=strtok(s, "=");
@@ -18300,21 +18300,21 @@ static void get_uevent_info(struct media_device_entry *md_ptr, char *dname)
         p=strtok((char *)(void *)0, "\n");
         if(!(p == ((char *)NULL)))
         {
-          signed int return_value_strcmp$5;
-          return_value_strcmp$5=strcmp(name, "MAJOR");
-          if(return_value_strcmp$5 == 0)
+          signed int return_value_strcmp_5;
+          return_value_strcmp_5=strcmp(name, "MAJOR");
+          if(return_value_strcmp_5 == 0)
           {
-            return_value_atol$2=atol(p);
-            md_ptr->major = (unsigned int)return_value_atol$2;
+            return_value_atol_2=atol(p);
+            md_ptr->major = (unsigned int)return_value_atol_2;
           }
 
           else
           {
-            return_value_strcmp$4=strcmp(name, "MINOR");
-            if(return_value_strcmp$4 == 0)
+            return_value_strcmp_4=strcmp(name, "MINOR");
+            if(return_value_strcmp_4 == 0)
             {
-              return_value_atol$3=atol(p);
-              md_ptr->minor = (unsigned int)return_value_atol$3;
+              return_value_atol_3=atol(p);
+              md_ptr->minor = (unsigned int)return_value_atol_3;
             }
 
           }
@@ -18329,51 +18329,51 @@ static void get_uevent_info(struct media_device_entry *md_ptr, char *dname)
 
 }
 
-// get_uevent_info$link1
+// get_uevent_info_link1
 // file common/get_media_devices.c line 69
-static void get_uevent_info$link1(struct media_device_entry *md_ptr$link1, char *dname$link1)
+static void get_uevent_info_link1(struct media_device_entry *md_ptr_link1, char *dname_link1)
 {
-  struct _IO_FILE *fd$link1;
-  char file$link1[4096l];
-  char *name$link1;
-  char *p$link1;
-  char s$link1[1024l];
-  snprintf(file$link1, (unsigned long int)4096, "%s/%s/uevent", dname$link1, md_ptr$link1->node);
-  fd$link1=fopen(file$link1, "r");
-  char *return_value_fgets$1$link1;
-  signed long int return_value_atol$2$link1;
-  signed int return_value_strcmp$4$link1;
-  signed long int return_value_atol$3$link1;
-  if(!(fd$link1 == ((struct _IO_FILE *)NULL)))
+  struct _IO_FILE *fd_link1;
+  char file_link1[4096l];
+  char *name_link1;
+  char *p_link1;
+  char s_link1[1024l];
+  snprintf(file_link1, (unsigned long int)4096, "%s/%s/uevent", dname_link1, md_ptr_link1->node);
+  fd_link1=fopen(file_link1, "r");
+  char *return_value_fgets_1_link1;
+  signed long int return_value_atol_2_link1;
+  signed int return_value_strcmp_4_link1;
+  signed long int return_value_atol_3_link1;
+  if(!(fd_link1 == ((struct _IO_FILE *)NULL)))
   {
     do
     {
-      return_value_fgets$1$link1=fgets(s$link1, (signed int)sizeof(char [1024l]) /*1024ul*/ , fd$link1);
-      if(return_value_fgets$1$link1 == ((char *)NULL))
+      return_value_fgets_1_link1=fgets(s_link1, (signed int)sizeof(char [1024l]) /*1024ul*/ , fd_link1);
+      if(return_value_fgets_1_link1 == ((char *)NULL))
         break;
 
-      p$link1=strtok(s$link1, "=");
-      if(!(p$link1 == ((char *)NULL)))
+      p_link1=strtok(s_link1, "=");
+      if(!(p_link1 == ((char *)NULL)))
       {
-        name$link1 = p$link1;
-        p$link1=strtok((char *)(void *)0, "\n");
-        if(!(p$link1 == ((char *)NULL)))
+        name_link1 = p_link1;
+        p_link1=strtok((char *)(void *)0, "\n");
+        if(!(p_link1 == ((char *)NULL)))
         {
-          signed int return_value_strcmp$5$link1;
-          return_value_strcmp$5$link1=strcmp(name$link1, "MAJOR");
-          if(return_value_strcmp$5$link1 == 0)
+          signed int return_value_strcmp_5_link1;
+          return_value_strcmp_5_link1=strcmp(name_link1, "MAJOR");
+          if(return_value_strcmp_5_link1 == 0)
           {
-            return_value_atol$2$link1=atol(p$link1);
-            md_ptr$link1->major = (unsigned int)return_value_atol$2$link1;
+            return_value_atol_2_link1=atol(p_link1);
+            md_ptr_link1->major = (unsigned int)return_value_atol_2_link1;
           }
 
           else
           {
-            return_value_strcmp$4$link1=strcmp(name$link1, "MINOR");
-            if(return_value_strcmp$4$link1 == 0)
+            return_value_strcmp_4_link1=strcmp(name_link1, "MINOR");
+            if(return_value_strcmp_4_link1 == 0)
             {
-              return_value_atol$3$link1=atol(p$link1);
-              md_ptr$link1->minor = (unsigned int)return_value_atol$3$link1;
+              return_value_atol_3_link1=atol(p_link1);
+              md_ptr_link1->minor = (unsigned int)return_value_atol_3_link1;
             }
 
           }
@@ -18383,7 +18383,7 @@ static void get_uevent_info$link1(struct media_device_entry *md_ptr$link1, char 
 
     }
     while((_Bool)1);
-    fclose(fd$link1);
+    fclose(fd_link1);
   }
 
 }
@@ -18429,13 +18429,13 @@ static void getparams_periods(struct _snd_pcm *handle, struct _snd_pcm_hw_params
 
   if(!(allow_adjust == 0))
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(*count * *usecs >= (8u * desired) / 10u))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = *usecs * *count > (desired * (unsigned int)12) / (unsigned int)10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = *usecs * *count > (desired * (unsigned int)12) / (unsigned int)10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       *count = (desired + *usecs / (unsigned int)2) / *usecs;
       getparams_periods(handle, params, usecs, count, 0, id);
@@ -18466,11 +18466,11 @@ static void gl_blit(struct _WidgetRec *widget, char *rgbbuf, signed int iw, sign
   glTexCoord2f(x, y);
   glVertex3f((float)ww, (float)0, (float)0);
   glEnd();
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(widget);
-  unsigned long int return_value_XtWindow$2;
-  return_value_XtWindow$2=XtWindow(widget);
-  glXSwapBuffers(return_value_XtDisplay$1, return_value_XtWindow$2);
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(widget);
+  unsigned long int return_value_XtWindow_2;
+  return_value_XtWindow_2=XtWindow(widget);
+  glXSwapBuffers(return_value_XtDisplay_1, return_value_XtWindow_2);
   glDisable((unsigned int)0x0DE1);
 }
 
@@ -18486,9 +18486,9 @@ static void gl_cleanup(signed int tex)
 static signed int gl_ext(unsigned char *find)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((const char *)find);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((const char *)find);
+  len = (signed int)return_value_strlen_1;
   const unsigned char *ext;
   unsigned char *pos;
   ext=glGetString((unsigned int)0x1F03);
@@ -18497,9 +18497,9 @@ static signed int gl_ext(unsigned char *find)
 
   else
   {
-    char *return_value_strstr$2;
-    return_value_strstr$2=strstr((const char *)ext, (const char *)find);
-    pos = (unsigned char *)return_value_strstr$2;
+    char *return_value_strstr_2;
+    return_value_strstr_2=strstr((const char *)ext, (const char *)find);
+    pos = (unsigned char *)return_value_strstr_2;
     if(pos == ((unsigned char *)NULL))
       return 0;
 
@@ -18543,22 +18543,22 @@ static signed int gl_ext(unsigned char *find)
 // file x11/blit.c line 527
 static signed int gl_init(struct _WidgetRec *widget)
 {
-  void *gl_init$$1$$old_handler;
-  struct anonymous$1 *visinfo;
+  void *gl_init__1__old_handler;
+  struct anonymous_1 *visinfo;
   struct __GLXcontextRec *ctx;
   if(!(debug == 0))
     fprintf(stderr, "blit: gl: init\n");
 
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(widget);
-  struct anonymous$0 *return_value_XtScreen$2;
-  return_value_XtScreen$2=XtScreen(widget);
-  signed int return_value_XScreenNumberOfScreen$3;
-  return_value_XScreenNumberOfScreen$3=XScreenNumberOfScreen(return_value_XtScreen$2);
-  visinfo=glXChooseVisual(return_value_XtDisplay$1, return_value_XScreenNumberOfScreen$3, gl_attrib);
-  struct _XDisplay *return_value_XtDisplay$5;
-  signed int return_value_glXIsDirect$6;
-  if(visinfo == ((struct anonymous$1 *)NULL))
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(widget);
+  struct anonymous_0 *return_value_XtScreen_2;
+  return_value_XtScreen_2=XtScreen(widget);
+  signed int return_value_XScreenNumberOfScreen_3;
+  return_value_XScreenNumberOfScreen_3=XScreenNumberOfScreen(return_value_XtScreen_2);
+  visinfo=glXChooseVisual(return_value_XtDisplay_1, return_value_XScreenNumberOfScreen_3, gl_attrib);
+  struct _XDisplay *return_value_XtDisplay_5;
+  signed int return_value_glXIsDirect_6;
+  if(visinfo == ((struct anonymous_1 *)NULL))
   {
     if(!(debug == 0))
       fprintf(stderr, "blit: gl: can't get visual (rgb,db)\n");
@@ -18568,9 +18568,9 @@ static signed int gl_init(struct _WidgetRec *widget)
 
   else
   {
-    struct _XDisplay *return_value_XtDisplay$4;
-    return_value_XtDisplay$4=XtDisplay(widget);
-    ctx=glXCreateContext(return_value_XtDisplay$4, visinfo, (struct __GLXcontextRec *)(void *)0, 1);
+    struct _XDisplay *return_value_XtDisplay_4;
+    return_value_XtDisplay_4=XtDisplay(widget);
+    ctx=glXCreateContext(return_value_XtDisplay_4, visinfo, (struct __GLXcontextRec *)(void *)0, 1);
     if(ctx == ((struct __GLXcontextRec *)NULL))
     {
       if(!(debug == 0))
@@ -18583,32 +18583,32 @@ static signed int gl_init(struct _WidgetRec *widget)
     {
       if(!(debug == 0))
       {
-        return_value_XtDisplay$5=XtDisplay(widget);
-        return_value_glXIsDirect$6=glXIsDirect(return_value_XtDisplay$5, ctx);
-        fprintf(stderr, "blit: gl: DRI=%s\n", return_value_glXIsDirect$6 != 0 ? "Yes" : "No");
+        return_value_XtDisplay_5=XtDisplay(widget);
+        return_value_glXIsDirect_6=glXIsDirect(return_value_XtDisplay_5, ctx);
+        fprintf(stderr, "blit: gl: DRI=%s\n", return_value_glXIsDirect_6 != 0 ? "Yes" : "No");
       }
 
-      struct _XDisplay *return_value_XtDisplay$7;
-      return_value_XtDisplay$7=XtDisplay(widget);
-      signed int return_value_glXIsDirect$8;
-      return_value_glXIsDirect$8=glXIsDirect(return_value_XtDisplay$7, ctx);
-      if(return_value_glXIsDirect$8 == 0)
+      struct _XDisplay *return_value_XtDisplay_7;
+      return_value_XtDisplay_7=XtDisplay(widget);
+      signed int return_value_glXIsDirect_8;
+      return_value_glXIsDirect_8=glXIsDirect(return_value_XtDisplay_7, ctx);
+      if(return_value_glXIsDirect_8 == 0)
         return -1;
 
       else
       {
-        signed int (*return_value_XSetErrorHandler$9)(struct _XDisplay *, struct anonymous *);
-        return_value_XSetErrorHandler$9=XSetErrorHandler(catch_gl_error);
-        gl_init$$1$$old_handler = (void *)return_value_XSetErrorHandler$9;
-        struct _XDisplay *return_value_XtDisplay$10;
-        return_value_XtDisplay$10=XtDisplay(widget);
-        unsigned long int return_value_XtWindow$11;
-        return_value_XtWindow$11=XtWindow(widget);
-        glXMakeCurrent(return_value_XtDisplay$10, return_value_XtWindow$11, ctx);
-        struct _XDisplay *return_value_XtDisplay$12;
-        return_value_XtDisplay$12=XtDisplay(widget);
-        XSync(return_value_XtDisplay$12, 0);
-        XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))gl_init$$1$$old_handler);
+        signed int (*return_value_XSetErrorHandler_9)(struct _XDisplay *, struct anonymous *);
+        return_value_XSetErrorHandler_9=XSetErrorHandler(catch_gl_error);
+        gl_init__1__old_handler = (void *)return_value_XSetErrorHandler_9;
+        struct _XDisplay *return_value_XtDisplay_10;
+        return_value_XtDisplay_10=XtDisplay(widget);
+        unsigned long int return_value_XtWindow_11;
+        return_value_XtWindow_11=XtWindow(widget);
+        glXMakeCurrent(return_value_XtDisplay_10, return_value_XtWindow_11, ctx);
+        struct _XDisplay *return_value_XtDisplay_12;
+        return_value_XtDisplay_12=XtDisplay(widget);
+        XSync(return_value_XtDisplay_12, 0);
+        XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))gl_init__1__old_handler);
         if(!(gl_error == 0))
           return -1;
 
@@ -18665,9 +18665,9 @@ static signed int gl_resize(signed int iw, signed int ih, signed int ww, signed 
       glBindTexture((unsigned int)0x0DE1, (unsigned int)*tex);
       glTexParameteri((unsigned int)0x0DE1, (unsigned int)0x2800, 0x2601);
       glTexParameteri((unsigned int)0x0DE1, (unsigned int)0x2801, 0x2601);
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)(*tw * *th * 3));
-      dummy = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)(*tw * *th * 3));
+      dummy = (char *)return_value_malloc_1;
       memset((void *)dummy, 128, (unsigned long int)(*tw * *th * 3));
       glTexImage2D((unsigned int)0x0DE1, 0, 0x1907, *tw, *th, 0, (unsigned int)fmt, (unsigned int)type, (const void *)dummy);
       free((void *)dummy);
@@ -18679,16 +18679,16 @@ static signed int gl_resize(signed int iw, signed int ih, signed int ww, signed 
 // file x11/wmhooks.c line 75
 static void gnome_stay_on_top(struct _XDisplay *dpy, unsigned long int win, signed int state)
 {
-  struct anonymous$51 xev;
+  struct anonymous_51 xev;
   if(!(win == 0ul))
   {
-    memset((void *)&xev, 0, sizeof(struct anonymous$51) /*96ul*/ );
+    memset((void *)&xev, 0, sizeof(struct anonymous_51) /*96ul*/ );
     xev.type = 33;
     xev.window = win;
     xev.message_type = _WIN_LAYER;
     xev.format = 32;
     xev.data.l[(signed long int)0] = (signed long int)(state != 0 ? 6 : 4);
-    XSendEvent(dpy, (&((struct anonymous$10 *)dpy)->screens[(signed long int)((struct anonymous$10 *)dpy)->default_screen])->root, 0, 1L << 19, (union _XEvent *)&xev);
+    XSendEvent(dpy, (&((struct anonymous_10 *)dpy)->screens[(signed long int)((struct anonymous_10 *)dpy)->default_screen])->root, 0, 1L << 19, (union _XEvent *)&xev);
     if(!(state == 0))
       XRaiseWindow(dpy, win);
 
@@ -18708,11 +18708,11 @@ void grabber_init(void)
     signed int bar;
     signed int fred;
     orig_xfree_error_handler=XSetErrorHandler(xfree_dga_error_handler);
-    signed int return_value_XDefaultScreen$1;
-    return_value_XDefaultScreen$1=XDefaultScreen(dpy);
-    signed int return_value_XF86DGAGetVideoLL$2;
-    return_value_XF86DGAGetVideoLL$2=XF86DGAGetVideoLL(dpy, return_value_XDefaultScreen$1, (unsigned int *)(void *)&base, (signed int *)&screen.bytesperline, &bar, &fred);
-    if(return_value_XF86DGAGetVideoLL$2 == 0)
+    signed int return_value_XDefaultScreen_1;
+    return_value_XDefaultScreen_1=XDefaultScreen(dpy);
+    signed int return_value_XF86DGAGetVideoLL_2;
+    return_value_XF86DGAGetVideoLL_2=XF86DGAGetVideoLL(dpy, return_value_XDefaultScreen_1, (unsigned int *)(void *)&base, (signed int *)&screen.bytesperline, &bar, &fred);
+    if(return_value_XF86DGAGetVideoLL_2 == 0)
     {
       have_dga = 0;
       memset((void *)&screen, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
@@ -18733,12 +18733,12 @@ void grabber_init(void)
 
   else
   {
-    struct anonymous$0 *return_value_XtScreen$3;
-    return_value_XtScreen$3=XtScreen(app_shell);
-    screen.width = (unsigned int)return_value_XtScreen$3->width;
-    struct anonymous$0 *return_value_XtScreen$4;
-    return_value_XtScreen$4=XtScreen(app_shell);
-    screen.height = (unsigned int)return_value_XtScreen$4->height;
+    struct anonymous_0 *return_value_XtScreen_3;
+    return_value_XtScreen_3=XtScreen(app_shell);
+    screen.width = (unsigned int)return_value_XtScreen_3->width;
+    struct anonymous_0 *return_value_XtScreen_4;
+    return_value_XtScreen_4=XtScreen(app_shell);
+    screen.height = (unsigned int)return_value_XtScreen_4->height;
     screen.fmtid = x11_dpy_fmtid;
     screen.bytesperline = screen.bytesperline * (ng_vfmt_to_depth[(signed long int)x11_dpy_fmtid] / (unsigned int)8);
     if(!(debug == 0))
@@ -18808,36 +18808,36 @@ void grabber_scan(void)
   char *return_value;
   for( ; !(ng_dev.video_scan[(signed long int)i] == ((char *)NULL)); i = i + 1)
   {
-    signed int return_value_lstat$4;
-    return_value_lstat$4=lstat(ng_dev.video_scan[(signed long int)i], &st);
-    if(return_value_lstat$4 == -1)
+    signed int return_value_lstat_4;
+    return_value_lstat_4=lstat(ng_dev.video_scan[(signed long int)i], &st);
+    if(return_value_lstat_4 == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 2)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 2)
         goto __CPROVER_DUMP_L7;
 
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fprintf(stderr, "%s: %s\n", ng_dev.video_scan[(signed long int)i], return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fprintf(stderr, "%s: %s\n", ng_dev.video_scan[(signed long int)i], return_value_strerror_3);
       goto __CPROVER_DUMP_L7;
     }
 
     fh=open(ng_dev.video_scan[(signed long int)i], 02);
     if(fh == -1)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 19)
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 19)
         goto __CPROVER_DUMP_L7;
 
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      fprintf(stderr, "%s: %s\n", ng_dev.video_scan[(signed long int)i], return_value_strerror$7);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      fprintf(stderr, "%s: %s\n", ng_dev.video_scan[(signed long int)i], return_value_strerror_7);
       goto __CPROVER_DUMP_L7;
     }
 
@@ -18874,17 +18874,17 @@ void grabber_scan(void)
 static void gray_to_lut2(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned short int * restrict d = (unsigned short int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)*src] | ng_lut_green[(signed long int)*src] | ng_lut_blue[(signed long int)*src]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)*src] | ng_lut_green[(signed long int)*src] | ng_lut_blue[(signed long int)*src]);
     src = src + 1l;
   }
   while((_Bool)1);
@@ -18895,17 +18895,17 @@ static void gray_to_lut2(unsigned char * restrict dest, unsigned char * restrict
 static void gray_to_lut4(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned int * restrict d = (unsigned int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)*src] | ng_lut_green[(signed long int)*src] | ng_lut_blue[(signed long int)*src]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)*src] | ng_lut_green[(signed long int)*src] | ng_lut_blue[(signed long int)*src]);
     src = src + 1l;
   }
   while((_Bool)1);
@@ -18915,7 +18915,7 @@ static void gray_to_lut4(unsigned char * restrict dest, unsigned char * restrict
 // file x11/xt.h line 188
 void handle_cmdline_args(void)
 {
-  XtGetApplicationResources(app_shell, (void *)&args, args_desc, (unsigned int)args_count, (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  XtGetApplicationResources(app_shell, (void *)&args, args_desc, (unsigned int)args_count, (struct anonymous_11 *)(void *)0, (unsigned int)0);
   if(!(args.help == 0))
   {
     usage();
@@ -18956,13 +18956,13 @@ void handle_cmdline_args(void)
 void hello_world(char *name)
 {
   struct utsname uts;
-  unsigned int return_value_geteuid$2;
-  return_value_geteuid$2=geteuid();
-  unsigned int return_value_getuid$1;
-  if(return_value_geteuid$2 == 0u)
+  unsigned int return_value_geteuid_2;
+  return_value_geteuid_2=geteuid();
+  unsigned int return_value_getuid_1;
+  if(return_value_geteuid_2 == 0u)
   {
-    return_value_getuid$1=getuid();
-    if(!(return_value_getuid$1 == 0u))
+    return_value_getuid_1=getuid();
+    if(!(return_value_getuid_1 == 0u))
     {
       fprintf(stderr, "%s *must not* be installed suid root\n", name);
       exit(1);
@@ -19041,16 +19041,16 @@ static void init_channel(char *name, struct CHANNEL *c)
   if(!(attr == ((struct ng_attribute *)NULL)))
   {
     val=cfg_get_str(name, "input");
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(val == ((char *)NULL)))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
     {
       val=cfg_get_str(name, "source");
-      tmp_if_expr$1 = (char *)(void *)0 != val ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (char *)(void *)0 != val ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$1)
+    if(tmp_if_expr_1)
     {
       i=ng_attr_getint(attr, val);
       if(!(i == -1))
@@ -19108,11 +19108,11 @@ static void init_channel(char *name, struct CHANNEL *c)
     c->cname=strdup(val);
 
   val=cfg_get_str(name, "freq");
-  double return_value_atof$2;
+  double return_value_atof_2;
   if(!(val == ((char *)NULL)))
   {
-    return_value_atof$2=atof(val);
-    c->freq = (signed int)(return_value_atof$2 * (double)16);
+    return_value_atof_2=atof(val);
+    c->freq = (signed int)(return_value_atof_2 * (double)16);
   }
 
   n=cfg_get_signed_int(name, "fine");
@@ -19186,13 +19186,13 @@ static void init_movie_menus(void)
 // file ./common/commands.h line 75
 void init_overlay(void)
 {
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   if(!(chantab == -1))
-    tmp_if_expr$1 = (chanlist_names + (signed long int)chantab)->str;
+    tmp_if_expr_1 = (chanlist_names + (signed long int)chantab)->str;
 
   else
-    tmp_if_expr$1 = "europe-west";
-  do_va_cmd(2, (const void *)"setfreqtab", tmp_if_expr$1);
+    tmp_if_expr_1 = "europe-west";
+  do_va_cmd(2, (const void *)"setfreqtab", tmp_if_expr_1);
   cur_capture = -1;
   switch(defaults.capture)
   {
@@ -19219,7 +19219,7 @@ static struct vbi_raw_decoder * init_sim(signed int scanning, unsigned int servi
 {
   vbi_raw_decoder_init(&sim);
   sim.scanning = scanning;
-  sim.sampling_format = (enum anonymous$97)VBI_PIXFMT_YUV420;
+  sim.sampling_format = (enum anonymous_97)VBI_PIXFMT_YUV420;
   sim.sampling_rate = 2 * 13500000;
   sim.bytes_per_line = 1440;
   sim.offset = (signed int)(9.7e-6 * (double)sim.sampling_rate);
@@ -19266,7 +19266,7 @@ const char * int_to_str(signed int n, struct STRTAB *tab)
 // file x11/motv.c line 2858
 static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data)
 {
-  struct anonymous$66 *ccs = (struct anonymous$66 *)call_data;
+  struct anonymous_66 *ccs = (struct anonymous_66 *)call_data;
   struct ipc_data *ipc;
   unsigned long int *targs;
   unsigned long int *pix;
@@ -19274,44 +19274,44 @@ static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data
   unsigned char *cdata;
   char *filename;
   signed int n;
-  char *return_value_XGetAtomName$1;
-  char *return_value_XGetAtomName$3;
-  char *return_value_XGetAtomName$5;
+  char *return_value_XGetAtomName_1;
+  char *return_value_XGetAtomName_3;
+  char *return_value_XGetAtomName_5;
   if(!(debug == 0))
   {
     char *y;
-    char *tmp_if_expr$2;
+    char *tmp_if_expr_2;
     if(ccs->type == 0ul)
-      tmp_if_expr$2 = (char *)(void *)0;
+      tmp_if_expr_2 = (char *)(void *)0;
 
     else
     {
-      return_value_XGetAtomName$1=XGetAtomName(dpy, ccs->type);
-      tmp_if_expr$2 = return_value_XGetAtomName$1;
+      return_value_XGetAtomName_1=XGetAtomName(dpy, ccs->type);
+      tmp_if_expr_2 = return_value_XGetAtomName_1;
     }
-    y = tmp_if_expr$2;
+    y = tmp_if_expr_2;
     char *t;
-    char *tmp_if_expr$4;
+    char *tmp_if_expr_4;
     if(ccs->target == 0ul)
-      tmp_if_expr$4 = (char *)(void *)0;
+      tmp_if_expr_4 = (char *)(void *)0;
 
     else
     {
-      return_value_XGetAtomName$3=XGetAtomName(dpy, ccs->target);
-      tmp_if_expr$4 = return_value_XGetAtomName$3;
+      return_value_XGetAtomName_3=XGetAtomName(dpy, ccs->target);
+      tmp_if_expr_4 = return_value_XGetAtomName_3;
     }
-    t = tmp_if_expr$4;
+    t = tmp_if_expr_4;
     char *s;
-    char *tmp_if_expr$6;
+    char *tmp_if_expr_6;
     if(ccs->selection == 0ul)
-      tmp_if_expr$6 = (char *)(void *)0;
+      tmp_if_expr_6 = (char *)(void *)0;
 
     else
     {
-      return_value_XGetAtomName$5=XGetAtomName(dpy, ccs->selection);
-      tmp_if_expr$6 = return_value_XGetAtomName$5;
+      return_value_XGetAtomName_5=XGetAtomName(dpy, ccs->selection);
+      tmp_if_expr_6 = return_value_XGetAtomName_5;
     }
-    s = tmp_if_expr$6;
+    s = tmp_if_expr_6;
     fprintf(stderr, "conv: target=%s type=%s selection=%s\n", t, y, s);
     if(!(y == ((char *)NULL)))
       XFree((void *)y);
@@ -19324,65 +19324,65 @@ static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data
 
   }
 
-  _Bool tmp_if_expr$21;
+  _Bool tmp_if_expr_21;
   if(ccs->target == XA_TARGETS)
-    tmp_if_expr$21 = (_Bool)1;
+    tmp_if_expr_21 = (_Bool)1;
 
   else
-    tmp_if_expr$21 = ccs->target == _MOTIF_CLIPBOARD_TARGETS ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$22 = (_Bool)1;
+    tmp_if_expr_21 = ccs->target == _MOTIF_CLIPBOARD_TARGETS ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_22 = (_Bool)1;
 
   else
-    tmp_if_expr$22 = ccs->target == _MOTIF_DEFERRED_CLIPBOARD_TARGETS ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$23;
-  if(tmp_if_expr$22)
-    tmp_if_expr$23 = (_Bool)1;
+    tmp_if_expr_22 = ccs->target == _MOTIF_DEFERRED_CLIPBOARD_TARGETS ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_23;
+  if(tmp_if_expr_22)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
-    tmp_if_expr$23 = ccs->target == _MOTIF_EXPORT_TARGETS ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$23)
+    tmp_if_expr_23 = ccs->target == _MOTIF_EXPORT_TARGETS ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_23)
   {
     n = 0;
-    char *return_value_XtMalloc$7;
-    return_value_XtMalloc$7=XtMalloc((unsigned int)(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)12));
-    targs = (unsigned long int *)return_value_XtMalloc$7;
+    char *return_value_XtMalloc_7;
+    return_value_XtMalloc_7=XtMalloc((unsigned int)(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)12));
+    targs = (unsigned long int *)return_value_XtMalloc_7;
     if(!(ccs->target == _MOTIF_CLIPBOARD_TARGETS))
     {
-      signed int tmp_post$8 = n;
+      signed int tmp_post_8 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$8] = XA_TARGETS;
-      signed int tmp_post$9 = n;
+      targs[(signed long int)tmp_post_8] = XA_TARGETS;
+      signed int tmp_post_9 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$9] = MIME_IMAGE_PPM;
-      signed int tmp_post$10 = n;
+      targs[(signed long int)tmp_post_9] = MIME_IMAGE_PPM;
+      signed int tmp_post_10 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$10] = (unsigned long int)20;
-      signed int tmp_post$11 = n;
+      targs[(signed long int)tmp_post_10] = (unsigned long int)20;
+      signed int tmp_post_11 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$11] = XA_FOREGROUND;
-      signed int tmp_post$12 = n;
+      targs[(signed long int)tmp_post_11] = XA_FOREGROUND;
+      signed int tmp_post_12 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$12] = XA_BACKGROUND;
-      signed int tmp_post$13 = n;
+      targs[(signed long int)tmp_post_12] = XA_BACKGROUND;
+      signed int tmp_post_13 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$13] = (unsigned long int)7;
-      signed int tmp_post$14 = n;
+      targs[(signed long int)tmp_post_13] = (unsigned long int)7;
+      signed int tmp_post_14 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$14] = MIME_IMAGE_JPEG;
-      signed int tmp_post$15 = n;
+      targs[(signed long int)tmp_post_14] = MIME_IMAGE_JPEG;
+      signed int tmp_post_15 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$15] = XA_FILE_NAME;
-      signed int tmp_post$16 = n;
+      targs[(signed long int)tmp_post_15] = XA_FILE_NAME;
+      signed int tmp_post_16 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$16] = XA_FILE;
-      signed int tmp_post$17 = n;
+      targs[(signed long int)tmp_post_16] = XA_FILE;
+      signed int tmp_post_17 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$17] = MIME_TEXT_URI_LIST;
-      signed int tmp_post$18 = n;
+      targs[(signed long int)tmp_post_17] = MIME_TEXT_URI_LIST;
+      signed int tmp_post_18 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$18] = _NETSCAPE_URL;
+      targs[(signed long int)tmp_post_18] = _NETSCAPE_URL;
     }
 
     if(ccs->target == _MOTIF_EXPORT_TARGETS)
@@ -19400,12 +19400,12 @@ static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data
     if(ccs->target == _MOTIF_SNAPSHOT)
     {
       n = 0;
-      char *return_value_XtMalloc$19;
-      return_value_XtMalloc$19=XtMalloc((unsigned int)sizeof(unsigned long int) /*8ul*/ );
-      targs = (unsigned long int *)return_value_XtMalloc$19;
-      signed int tmp_post$20 = n;
+      char *return_value_XtMalloc_19;
+      return_value_XtMalloc_19=XtMalloc((unsigned int)sizeof(unsigned long int) /*8ul*/ );
+      targs = (unsigned long int *)return_value_XtMalloc_19;
+      signed int tmp_post_20 = n;
       n = n + 1;
-      targs[(signed long int)tmp_post$20]=ipc_unique_atom(widget);
+      targs[(signed long int)tmp_post_20]=ipc_unique_atom(widget);
       ipc_init(targs[(signed long int)0]);
       ccs->value = (void *)targs;
       ccs->length = (unsigned long int)n;
@@ -19424,13 +19424,13 @@ static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data
 
   else
   {
-    _Bool tmp_if_expr$24;
+    _Bool tmp_if_expr_24;
     if(ccs->target == _MOTIF_LOSE_SELECTION)
-      tmp_if_expr$24 = (_Bool)1;
+      tmp_if_expr_24 = (_Bool)1;
 
     else
-      tmp_if_expr$24 = ccs->target == XA_DONE ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$24)
+      tmp_if_expr_24 = ccs->target == XA_DONE ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_24)
     {
       ipc_fini(ccs->selection);
       ccs->value = (void *)0;
@@ -19442,51 +19442,51 @@ static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data
 
     else
     {
-      _Bool tmp_if_expr$42;
+      _Bool tmp_if_expr_42;
       if(ccs->target == XA_BACKGROUND)
-        tmp_if_expr$42 = (_Bool)1;
+        tmp_if_expr_42 = (_Bool)1;
 
       else
-        tmp_if_expr$42 = ccs->target == XA_FOREGROUND ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$43;
-      if(tmp_if_expr$42)
-        tmp_if_expr$43 = (_Bool)1;
+        tmp_if_expr_42 = ccs->target == XA_FOREGROUND ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_43;
+      if(tmp_if_expr_42)
+        tmp_if_expr_43 = (_Bool)1;
 
       else
-        tmp_if_expr$43 = ccs->target == (unsigned long int)7 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$43)
+        tmp_if_expr_43 = ccs->target == (unsigned long int)7 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_43)
       {
         n = 0;
-        char *return_value_XtMalloc$25;
-        return_value_XtMalloc$25=XtMalloc((unsigned int)(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)8));
-        ldata = (unsigned long int *)return_value_XtMalloc$25;
+        char *return_value_XtMalloc_25;
+        return_value_XtMalloc_25=XtMalloc((unsigned int)(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)8));
+        ldata = (unsigned long int *)return_value_XtMalloc_25;
         if(ccs->target == XA_BACKGROUND)
         {
-          signed int tmp_post$26 = n;
+          signed int tmp_post_26 = n;
           n = n + 1;
-          struct anonymous$0 *return_value_XtScreen$27;
-          return_value_XtScreen$27=XtScreen(widget);
-          ldata[(signed long int)tmp_post$26] = return_value_XtScreen$27->white_pixel;
+          struct anonymous_0 *return_value_XtScreen_27;
+          return_value_XtScreen_27=XtScreen(widget);
+          ldata[(signed long int)tmp_post_26] = return_value_XtScreen_27->white_pixel;
           ccs->type = XA_PIXEL;
         }
 
         if(ccs->target == XA_FOREGROUND)
         {
-          signed int tmp_post$28 = n;
+          signed int tmp_post_28 = n;
           n = n + 1;
-          struct anonymous$0 *return_value_XtScreen$29;
-          return_value_XtScreen$29=XtScreen(widget);
-          ldata[(signed long int)tmp_post$28] = return_value_XtScreen$29->black_pixel;
+          struct anonymous_0 *return_value_XtScreen_29;
+          return_value_XtScreen_29=XtScreen(widget);
+          ldata[(signed long int)tmp_post_28] = return_value_XtScreen_29->black_pixel;
           ccs->type = XA_PIXEL;
         }
 
         if(ccs->target == 7ul)
         {
-          signed int tmp_post$30 = n;
+          signed int tmp_post_30 = n;
           n = n + 1;
-          struct anonymous$0 *return_value_XtScreen$31;
-          return_value_XtScreen$31=XtScreen(widget);
-          ldata[(signed long int)tmp_post$30] = return_value_XtScreen$31->cmap;
+          struct anonymous_0 *return_value_XtScreen_31;
+          return_value_XtScreen_31=XtScreen(widget);
+          ldata[(signed long int)tmp_post_30] = return_value_XtScreen_31->cmap;
           ccs->type = (unsigned long int)7;
         }
 
@@ -19500,9 +19500,9 @@ static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data
         if(ccs->target == 20ul)
         {
           ipc_pixmap(ipc);
-          char *return_value_XtMalloc$32;
-          return_value_XtMalloc$32=XtMalloc((unsigned int)sizeof(unsigned long int) /*8ul*/ );
-          pix = (unsigned long int *)return_value_XtMalloc$32;
+          char *return_value_XtMalloc_32;
+          return_value_XtMalloc_32=XtMalloc((unsigned int)sizeof(unsigned long int) /*8ul*/ );
+          pix = (unsigned long int *)return_value_XtMalloc_32;
           pix[(signed long int)0] = ipc->pix;
           if(!(debug == 0))
             fprintf(stderr, "conv: pixmap id is 0x%lx\n", pix[(signed long int)0]);
@@ -19517,9 +19517,9 @@ static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data
         else
           if(ccs->target == MIME_IMAGE_PPM)
           {
-            char *return_value_XtMalloc$33;
-            return_value_XtMalloc$33=XtMalloc((unsigned int)(ipc->buf->size + (unsigned long int)32));
-            cdata = (unsigned char *)return_value_XtMalloc$33;
+            char *return_value_XtMalloc_33;
+            return_value_XtMalloc_33=XtMalloc((unsigned int)(ipc->buf->size + (unsigned long int)32));
+            cdata = (unsigned char *)return_value_XtMalloc_33;
             n=sprintf((char *)cdata, "P6\n%d %d\n255\n", ipc->buf->fmt.width, ipc->buf->fmt.height);
             memcpy((void *)(cdata + (signed long int)n), (const void *)ipc->buf->data, ipc->buf->size);
             ccs->value = (void *)cdata;
@@ -19535,9 +19535,9 @@ static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data
               struct ng_video_buf *buf;
               ipc->buf->refcount = ipc->buf->refcount + 1;
               buf=convert_buffer(ipc->buf, 17);
-              char *return_value_XtMalloc$34;
-              return_value_XtMalloc$34=XtMalloc((unsigned int)buf->size);
-              cdata = (unsigned char *)return_value_XtMalloc$34;
+              char *return_value_XtMalloc_34;
+              return_value_XtMalloc_34=XtMalloc((unsigned int)buf->size);
+              cdata = (unsigned char *)return_value_XtMalloc_34;
               memcpy((void *)cdata, (const void *)buf->data, buf->size);
               ng_release_video_buf(buf);
               ccs->value = (void *)cdata;
@@ -19549,44 +19549,44 @@ static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data
 
             else
             {
-              _Bool tmp_if_expr$38;
+              _Bool tmp_if_expr_38;
               if(ccs->target == XA_FILE_NAME)
-                tmp_if_expr$38 = (_Bool)1;
+                tmp_if_expr_38 = (_Bool)1;
 
               else
-                tmp_if_expr$38 = ccs->target == XA_FILE ? (_Bool)1 : (_Bool)0;
-              _Bool tmp_if_expr$39;
-              if(tmp_if_expr$38)
-                tmp_if_expr$39 = (_Bool)1;
+                tmp_if_expr_38 = ccs->target == XA_FILE ? (_Bool)1 : (_Bool)0;
+              _Bool tmp_if_expr_39;
+              if(tmp_if_expr_38)
+                tmp_if_expr_39 = (_Bool)1;
 
               else
-                tmp_if_expr$39 = ccs->target == (unsigned long int)31 ? (_Bool)1 : (_Bool)0;
-              _Bool tmp_if_expr$40;
-              if(tmp_if_expr$39)
-                tmp_if_expr$40 = (_Bool)1;
+                tmp_if_expr_39 = ccs->target == (unsigned long int)31 ? (_Bool)1 : (_Bool)0;
+              _Bool tmp_if_expr_40;
+              if(tmp_if_expr_39)
+                tmp_if_expr_40 = (_Bool)1;
 
               else
-                tmp_if_expr$40 = ccs->target == MIME_TEXT_URI_LIST ? (_Bool)1 : (_Bool)0;
-              _Bool tmp_if_expr$41;
-              if(tmp_if_expr$40)
-                tmp_if_expr$41 = (_Bool)1;
+                tmp_if_expr_40 = ccs->target == MIME_TEXT_URI_LIST ? (_Bool)1 : (_Bool)0;
+              _Bool tmp_if_expr_41;
+              if(tmp_if_expr_40)
+                tmp_if_expr_41 = (_Bool)1;
 
               else
-                tmp_if_expr$41 = ccs->target == _NETSCAPE_URL ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$41)
+                tmp_if_expr_41 = ccs->target == _NETSCAPE_URL ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_41)
               {
                 ipc_tmpfile(ipc);
-                _Bool tmp_if_expr$37;
+                _Bool tmp_if_expr_37;
                 if(ccs->target == MIME_TEXT_URI_LIST)
-                  tmp_if_expr$37 = (_Bool)1;
+                  tmp_if_expr_37 = (_Bool)1;
 
                 else
-                  tmp_if_expr$37 = ccs->target == _NETSCAPE_URL ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$37)
+                  tmp_if_expr_37 = ccs->target == _NETSCAPE_URL ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_37)
                 {
-                  unsigned long int return_value_strlen$35;
-                  return_value_strlen$35=strlen(ipc->filename);
-                  filename=XtMalloc((unsigned int)(return_value_strlen$35 + (unsigned long int)8));
+                  unsigned long int return_value_strlen_35;
+                  return_value_strlen_35=strlen(ipc->filename);
+                  filename=XtMalloc((unsigned int)(return_value_strlen_35 + (unsigned long int)8));
                   sprintf(filename, "file:%s\r\n", ipc->filename);
                   ccs->type = ccs->target;
                   if(!(debug == 0))
@@ -19596,9 +19596,9 @@ static void ipc_convert(struct _WidgetRec *widget, void *ignore, void *call_data
 
                 else
                 {
-                  unsigned long int return_value_strlen$36;
-                  return_value_strlen$36=strlen(ipc->filename);
-                  filename=XtMalloc((unsigned int)return_value_strlen$36);
+                  unsigned long int return_value_strlen_36;
+                  return_value_strlen_36=strlen(ipc->filename);
+                  filename=XtMalloc((unsigned int)return_value_strlen_36);
                   strcpy(filename, ipc->filename);
                   ccs->type = (unsigned long int)31;
                   if(!(debug == 0))
@@ -19690,7 +19690,7 @@ static void ipc_iconify(struct _WidgetRec *widget, struct ipc_data *ipc)
   struct ng_video_buf *small;
   signed int scale;
   signed int depth;
-  struct anonymous$11 ipc_iconify$$1$$args[4l];
+  struct anonymous_11 ipc_iconify__1__args[4l];
   unsigned int n = (unsigned int)0;
   scale = 1;
   for( ; (_Bool)1; scale = scale + 1)
@@ -19708,22 +19708,22 @@ __CPROVER_DUMP_L3:
   small=convert_buffer(small, (signed int)x11_dpy_fmtid);
   ipc->icon_pixmap=x11_create_pixmap(dpy, &vinfo, small);
   n = (unsigned int)0;
-  struct anonymous$0 *return_value_XtScreen$1;
-  return_value_XtScreen$1=XtScreen(widget);
-  depth = return_value_XtScreen$1->root_depth;
-  ipc_iconify$$1$$args[(signed long int)n].name = (char *)&XtStrings[(signed long int)527];
-  ipc_iconify$$1$$args[(signed long int)n].value = (signed long int)ipc->icon_pixmap;
+  struct anonymous_0 *return_value_XtScreen_1;
+  return_value_XtScreen_1=XtScreen(widget);
+  depth = return_value_XtScreen_1->root_depth;
+  ipc_iconify__1__args[(signed long int)n].name = (char *)&XtStrings[(signed long int)527];
+  ipc_iconify__1__args[(signed long int)n].value = (signed long int)ipc->icon_pixmap;
   n = n + 1u;
-  ipc_iconify$$1$$args[(signed long int)n].name = (char *)&XtStrings[(signed long int)872];
-  ipc_iconify$$1$$args[(signed long int)n].value = (signed long int)small->fmt.width;
+  ipc_iconify__1__args[(signed long int)n].name = (char *)&XtStrings[(signed long int)872];
+  ipc_iconify__1__args[(signed long int)n].value = (signed long int)small->fmt.width;
   n = n + 1u;
-  ipc_iconify$$1$$args[(signed long int)n].name = (char *)&XtStrings[(signed long int)234];
-  ipc_iconify$$1$$args[(signed long int)n].value = (signed long int)small->fmt.height;
+  ipc_iconify__1__args[(signed long int)n].name = (char *)&XtStrings[(signed long int)234];
+  ipc_iconify__1__args[(signed long int)n].value = (signed long int)small->fmt.height;
   n = n + 1u;
-  ipc_iconify$$1$$args[(signed long int)n].name = (char *)&XtStrings[(signed long int)163];
-  ipc_iconify$$1$$args[(signed long int)n].value = (signed long int)depth;
+  ipc_iconify__1__args[(signed long int)n].name = (char *)&XtStrings[(signed long int)163];
+  ipc_iconify__1__args[(signed long int)n].value = (signed long int)depth;
   n = n + 1u;
-  ipc->icon_widget=XmCreateDragIcon(widget, "dragicon", ipc_iconify$$1$$args, n);
+  ipc->icon_widget=XmCreateDragIcon(widget, "dragicon", ipc_iconify__1__args, n);
   ng_release_video_buf(small);
 }
 
@@ -19732,18 +19732,18 @@ __CPROVER_DUMP_L3:
 static struct ipc_data * ipc_init(unsigned long int selection)
 {
   struct ipc_data *ipc;
-  struct ng_video_fmt ipc_init$$1$$fmt;
+  struct ng_video_fmt ipc_init__1__fmt;
   struct ng_video_buf *buf;
   video_gd_suspend();
-  memset((void *)&ipc_init$$1$$fmt, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
-  ipc_init$$1$$fmt.fmtid = (unsigned int)9;
-  ipc_init$$1$$fmt.width = cur_tv_width;
-  ipc_init$$1$$fmt.height = cur_tv_height;
-  buf=ng_grabber_get_image(&ipc_init$$1$$fmt);
+  memset((void *)&ipc_init__1__fmt, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
+  ipc_init__1__fmt.fmtid = (unsigned int)9;
+  ipc_init__1__fmt.width = cur_tv_width;
+  ipc_init__1__fmt.height = cur_tv_height;
+  buf=ng_grabber_get_image(&ipc_init__1__fmt);
   buf=ng_filter_single(cur_filter, buf);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ipc_data) /*64ul*/ );
-  ipc = (struct ipc_data *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ipc_data) /*64ul*/ );
+  ipc = (struct ipc_data *)return_value_malloc_1;
   memset((void *)ipc, 0, sizeof(struct ipc_data) /*64ul*/ );
   ipc->buf=ng_malloc_video_buf(&buf->fmt, (signed int)buf->size);
   ipc->atom = selection;
@@ -19787,14 +19787,14 @@ static void ipc_tmpfile(struct ipc_data *ipc)
     if(tmpdir == ((char *)NULL))
       tmpdir = "/tmp";
 
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(tmpdir);
-    unsigned long int return_value_strlen$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(tmpdir);
+    unsigned long int return_value_strlen_2;
     static char *base = "motv";
-    return_value_strlen$2=strlen(base);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)16);
-    ipc->filename = (char *)return_value_malloc$3;
+    return_value_strlen_2=strlen(base);
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)16);
+    ipc->filename = (char *)return_value_malloc_3;
     sprintf(ipc->filename, "%s/%s-XXXXXX", tmpdir, base);
     fd=mkstemp(ipc->filename);
     ipc->buf->refcount = ipc->buf->refcount + 1;
@@ -19814,15 +19814,15 @@ static unsigned long int ipc_unique_atom(struct _WidgetRec *widget)
   signed int i = 0;
   do
   {
-    unsigned long int return_value_XtWindow$1;
-    return_value_XtWindow$1=XtWindow(widget);
-    sprintf(id_name, "_MOTV_IMAGE_%lX_%d", return_value_XtWindow$1, i);
-    struct _XDisplay *return_value_XtDisplay$2;
-    return_value_XtDisplay$2=XtDisplay(widget);
-    id=XInternAtom(return_value_XtDisplay$2, id_name, 0);
-    struct ipc_data *return_value_ipc_find$3;
-    return_value_ipc_find$3=ipc_find(id);
-    if(return_value_ipc_find$3 == ((struct ipc_data *)NULL))
+    unsigned long int return_value_XtWindow_1;
+    return_value_XtWindow_1=XtWindow(widget);
+    sprintf(id_name, "_MOTV_IMAGE_%lX_%d", return_value_XtWindow_1, i);
+    struct _XDisplay *return_value_XtDisplay_2;
+    return_value_XtDisplay_2=XtDisplay(widget);
+    id=XInternAtom(return_value_XtDisplay_2, id_name, 0);
+    struct ipc_data *return_value_ipc_find_3;
+    return_value_ipc_find_3=ipc_find(id);
+    if(return_value_ipc_find_3 == ((struct ipc_data *)NULL))
       break;
 
     i = i + 1;
@@ -19840,9 +19840,9 @@ void joystick_tv_havedata(signed int js)
   if(!(debug == 0))
     fprintf(stderr, "joystick: received input\n");
 
-  signed long int return_value_read$1;
-  return_value_read$1=read(js, (void *)&event, sizeof(struct js_event) /*8ul*/ );
-  if(!(return_value_read$1 == 0l))
+  signed long int return_value_read_1;
+  return_value_read_1=read(js, (void *)&event, sizeof(struct js_event) /*8ul*/ );
+  if(!(return_value_read_1 == 0l))
   {
     i = (unsigned int)0;
     for( ; !((unsigned long int)i >= 6ul); i = i + 1u)
@@ -19877,11 +19877,11 @@ signed int joystick_tv_init(char *dev)
     fd=open(dev, 04000);
     if(fd == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "joystick: open %s: %s\n", dev, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "joystick: open %s: %s\n", dev, return_value_strerror_2);
       return -1;
     }
 
@@ -19896,9 +19896,9 @@ signed int joystick_tv_init(char *dev)
 static signed int keypad_handler(char *name, signed int argc, char **argv)
 {
   signed int n;
-  signed int return_value_atoi$1;
-  return_value_atoi$1=atoi(argv[(signed long int)0]);
-  n = return_value_atoi$1 % 10;
+  signed int return_value_atoi_1;
+  return_value_atoi_1=atoi(argv[(signed long int)0]);
+  n = return_value_atoi_1 % 10;
   char msg[8l];
   char ch[8l];
   if(!(debug == 0))
@@ -19992,7 +19992,7 @@ static void levels_input(void *clientdata, signed int *src, unsigned long int *i
 // file x11/motv.c line 3110
 static void levels_toggle_cb(struct _WidgetRec *widget, void *clientdata, void *call_data)
 {
-  struct anonymous$57 *tb = (struct anonymous$57 *)call_data;
+  struct anonymous_57 *tb = (struct anonymous_57 *)call_data;
   struct ng_audio_fmt a;
   if(tb->reason == 2)
   {
@@ -20052,21 +20052,21 @@ signed int lirc_tv_havedata(void)
   signed int argc;
   signed int ret = -1;
   strcpy(event, "lirc-key-");
-  signed int return_value_lirc_nextcode$1;
-  signed int return_value_lirc_code2char$3;
+  signed int return_value_lirc_nextcode_1;
+  signed int return_value_lirc_code2char_3;
   do
   {
-    return_value_lirc_nextcode$1=lirc_nextcode(&code);
-    if(!(return_value_lirc_nextcode$1 == 0))
+    return_value_lirc_nextcode_1=lirc_nextcode(&code);
+    if(!(return_value_lirc_nextcode_1 == 0))
       break;
 
     if(code == ((char *)NULL))
       break;
 
     ret = 0;
-    signed int return_value_sscanf$2;
-    return_value_sscanf$2=sscanf(code, "%x %x %20s", &dummy, &repeat, event + (signed long int)9);
-    if(!(return_value_sscanf$2 == 3))
+    signed int return_value_sscanf_2;
+    return_value_sscanf_2=sscanf(code, "%x %x %20s", &dummy, &repeat, event + (signed long int)9);
+    if(!(return_value_sscanf_2 == 3))
       fprintf(stderr, "lirc: oops, parse error: %s", code);
 
     else
@@ -20077,8 +20077,8 @@ signed int lirc_tv_havedata(void)
       if(!(config == ((struct lirc_config *)NULL)))
         do
         {
-          return_value_lirc_code2char$3=lirc_code2char(config, code, &cmd);
-          if(!(return_value_lirc_code2char$3 == 0))
+          return_value_lirc_code2char_3=lirc_code2char(config, code, &cmd);
+          if(!(return_value_lirc_code2char_3 == 0))
             break;
 
           if(cmd == ((char *)NULL))
@@ -20087,9 +20087,9 @@ signed int lirc_tv_havedata(void)
           if(!(debug == 0))
             fprintf(stderr, "lirc: cmd \"%s\"\n", cmd);
 
-          signed int return_value_strcasecmp$4;
-          return_value_strcasecmp$4=strcasecmp(cmd, "eventmap");
-          if(return_value_strcasecmp$4 == 0)
+          signed int return_value_strcasecmp_4;
+          return_value_strcasecmp_4=strcasecmp(cmd, "eventmap");
+          if(return_value_strcasecmp_4 == 0)
             event_dispatch(event);
 
           else
@@ -20127,9 +20127,9 @@ signed int lirc_tv_init(void)
 
   else
   {
-    signed int return_value_lirc_readconfig$1;
-    return_value_lirc_readconfig$1=lirc_readconfig((char *)(void *)0, &config, (signed int (*)(char *))(void *)0);
-    if(!(return_value_lirc_readconfig$1 == 0))
+    signed int return_value_lirc_readconfig_1;
+    return_value_lirc_readconfig_1=lirc_readconfig((char *)(void *)0, &config, (signed int (*)(char *))(void *)0);
+    if(!(return_value_lirc_readconfig_1 == 0))
       config = (struct lirc_config *)(void *)0;
 
     if(!(debug == 0))
@@ -20152,11 +20152,11 @@ static inline void list_add_tail(struct list_head *new, struct list_head *head)
   __list_add(new, head->prev, head);
 }
 
-// list_add_tail$link1
+// list_add_tail_link1
 // file libng/list.h line 65
-static inline void list_add_tail$link1(struct list_head *new$link1, struct list_head *head$link1)
+static inline void list_add_tail_link1(struct list_head *new_link1, struct list_head *head_link1)
 {
-  __list_add$link1(new$link1, head$link1->prev, head$link1);
+  __list_add_link1(new_link1, head_link1->prev, head_link1);
 }
 
 // list_del
@@ -20183,8 +20183,8 @@ static signed int list_handler(char *name, signed int argc, char **argv)
   printf("%-10.10s | type   | %-7.7s | %-7.7s | %s\n", (const void *)"attribute", (const void *)"current", (const void *)"default", (const void *)"comment");
   printf("-----------+--------+---------+---------+-------------------------------------\n");
   attr = attrs;
-  const char *return_value_ng_attr_getstr$1;
-  const char *return_value_ng_attr_getstr$2;
+  const char *return_value_ng_attr_getstr_1;
+  const char *return_value_ng_attr_getstr_2;
   for( ; !(attr->name == ((const char *)NULL)); attr = attr + 1l)
   {
     val = cur_attrs[(signed long int)attr->id];
@@ -20192,9 +20192,9 @@ static signed int list_handler(char *name, signed int argc, char **argv)
     {
       case 2:
       {
-        return_value_ng_attr_getstr$1=ng_attr_getstr(attr, val);
-        return_value_ng_attr_getstr$2=ng_attr_getstr(attr, attr->defval);
-        printf("%-10.10s | choice | %-7.7s | %-7.7s |", attr->name, return_value_ng_attr_getstr$1, return_value_ng_attr_getstr$2);
+        return_value_ng_attr_getstr_1=ng_attr_getstr(attr, val);
+        return_value_ng_attr_getstr_2=ng_attr_getstr(attr, attr->defval);
+        printf("%-10.10s | choice | %-7.7s | %-7.7s |", attr->name, return_value_ng_attr_getstr_1, return_value_ng_attr_getstr_2);
         i = 0;
         for( ; !((attr->choices + (signed long int)i)->str == ((const char *)NULL)); i = i + 1)
           printf(" %s", (attr->choices + (signed long int)i)->str);
@@ -20218,8 +20218,8 @@ static signed int list_handler(char *name, signed int argc, char **argv)
 signed int lookup_channel(char *channel)
 {
   signed int i;
-  signed int tmp_if_expr$1;
-  signed int return_value_strcasecmp$3;
+  signed int tmp_if_expr_1;
+  signed int return_value_strcasecmp_3;
   if(channel == ((char *)NULL))
     return -1;
 
@@ -20229,33 +20229,33 @@ signed int lookup_channel(char *channel)
     do
     {
       if(!(chantab == -1))
-        tmp_if_expr$1 = (chanlists + (signed long int)chantab)->count;
+        tmp_if_expr_1 = (chanlists + (signed long int)chantab)->count;
 
       else
-        tmp_if_expr$1 = 0;
-      if(i >= tmp_if_expr$1)
+        tmp_if_expr_1 = 0;
+      if(i >= tmp_if_expr_1)
         break;
 
-      struct CHANLIST *tmp_if_expr$2;
+      struct CHANLIST *tmp_if_expr_2;
       if(!(chantab == -1))
-        tmp_if_expr$2 = (chanlists + (signed long int)chantab)->list;
+        tmp_if_expr_2 = (chanlists + (signed long int)chantab)->list;
 
       else
-        tmp_if_expr$2 = (struct CHANLIST *)(void *)0;
-      return_value_strcasecmp$3=strcasecmp((tmp_if_expr$2 + (signed long int)i)->name, channel);
-      if(return_value_strcasecmp$3 == 0)
+        tmp_if_expr_2 = (struct CHANLIST *)(void *)0;
+      return_value_strcasecmp_3=strcasecmp((tmp_if_expr_2 + (signed long int)i)->name, channel);
+      if(return_value_strcasecmp_3 == 0)
         break;
 
       i = i + 1;
     }
     while((_Bool)1);
-    signed int tmp_if_expr$4;
+    signed int tmp_if_expr_4;
     if(!(chantab == -1))
-      tmp_if_expr$4 = (chanlists + (signed long int)chantab)->count;
+      tmp_if_expr_4 = (chanlists + (signed long int)chantab)->count;
 
     else
-      tmp_if_expr$4 = 0;
-    if(i == tmp_if_expr$4)
+      tmp_if_expr_4 = 0;
+    if(i == tmp_if_expr_4)
       return -1;
 
     else
@@ -20293,11 +20293,11 @@ signed int main(signed int argc, char **argv)
   v4lconf_init();
   XtAppAddActions(app_context, actionTable, (unsigned int)(sizeof(struct _XtActionsRec [16l]) /*256ul*/  / sizeof(struct _XtActionsRec) /*16ul*/ ));
   x11_misc_init(dpy);
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(app_shell);
-  unsigned long int return_value_XInternAtom$2;
-  return_value_XInternAtom$2=XInternAtom(return_value_XtDisplay$1, "WM_PROTOCOLS", 0);
-  XmAddProtocolCallback(app_shell, return_value_XInternAtom$2, WM_DELETE_WINDOW, ExitCB, (void *)0);
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(app_shell);
+  unsigned long int return_value_XInternAtom_2;
+  return_value_XInternAtom_2=XInternAtom(return_value_XtDisplay_1, "WM_PROTOCOLS", 0);
+  XmAddProtocolCallback(app_shell, return_value_XInternAtom_2, WM_DELETE_WINDOW, ExitCB, (void *)0);
   if(!(debug == 0))
     fprintf(stderr, "main: dga extension...\n");
 
@@ -20337,9 +20337,9 @@ signed int main(signed int argc, char **argv)
     fprintf(stderr, "main: init main window...\n");
 
   tv=video_init(app_shell, &vinfo, xmPrimitiveWidgetClass, args.bpp, args.gl);
-  struct _WidgetRec *return_value_XtParent$3;
-  return_value_XtParent$3=XtParent(tv);
-  XtAddEventHandler(return_value_XtParent$3, (unsigned long int)(1L << 17), (char)1, resize_event, (void *)0);
+  struct _WidgetRec *return_value_XtParent_3;
+  return_value_XtParent_3=XtParent(tv);
+  XtAddEventHandler(return_value_XtParent_3, (unsigned long int)(1L << 17), (char)1, resize_event, (void *)0);
   if(!(debug == 0))
     fprintf(stderr, "main: install signal handlers...\n");
 
@@ -20376,9 +20376,9 @@ signed int main(signed int argc, char **argv)
     read_config(args.conffile != ((char *)NULL) ? args.conffile : (char *)(void *)0, &argc, argv);
   }
 
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(mixerdev);
-  if(!(return_value_strlen$4 == 0ul))
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(mixerdev);
+  if(!(return_value_strlen_4 == 0ul))
   {
     struct ng_attribute *attr;
     if(!(debug == 0))
@@ -20411,9 +20411,9 @@ signed int main(signed int argc, char **argv)
   XtRealizeWidget(app_shell);
   create_pointers(app_shell);
   create_bitmaps(app_shell);
-  unsigned long int return_value_XtWindow$5;
-  return_value_XtWindow$5=XtWindow(app_shell);
-  XDefineCursor(dpy, return_value_XtWindow$5, left_ptr);
+  unsigned long int return_value_XtWindow_5;
+  return_value_XtWindow_5=XtWindow(app_shell);
+  XDefineCursor(dpy, return_value_XtWindow_5, left_ptr);
   if(!((2 & f_drv) == 0))
     XtAddCallback(tv, (char *)&_XmStrings[(signed long int)12699], ipc_convert, (void *)0);
 
@@ -20449,29 +20449,29 @@ signed int main(signed int argc, char **argv)
       if(!(freq == 0ul))
       {
         i = 0;
-        signed int tmp_if_expr$6;
+        signed int tmp_if_expr_6;
         if(!(chantab == -1))
-          tmp_if_expr$6 = (chanlists + (signed long int)chantab)->count;
+          tmp_if_expr_6 = (chanlists + (signed long int)chantab)->count;
 
         else
-          tmp_if_expr$6 = 0;
-        if(!(i >= tmp_if_expr$6))
+          tmp_if_expr_6 = 0;
+        if(!(i >= tmp_if_expr_6))
         {
-          struct CHANLIST *tmp_if_expr$8;
+          struct CHANLIST *tmp_if_expr_8;
           if(!(chantab == -1))
-            tmp_if_expr$8 = (chanlists + (signed long int)chantab)->list;
+            tmp_if_expr_8 = (chanlists + (signed long int)chantab)->list;
 
           else
-            tmp_if_expr$8 = (struct CHANLIST *)(void *)0;
-          if((unsigned long int)(tmp_if_expr$8 + (signed long int)i)->freq == (1000ul * freq) / 16ul)
+            tmp_if_expr_8 = (struct CHANLIST *)(void *)0;
+          if((unsigned long int)(tmp_if_expr_8 + (signed long int)i)->freq == (1000ul * freq) / 16ul)
           {
-            struct CHANLIST *tmp_if_expr$7;
+            struct CHANLIST *tmp_if_expr_7;
             if(!(chantab == -1))
-              tmp_if_expr$7 = (chanlists + (signed long int)chantab)->list;
+              tmp_if_expr_7 = (chanlists + (signed long int)chantab)->list;
 
             else
-              tmp_if_expr$7 = (struct CHANLIST *)(void *)0;
-            do_va_cmd(2, (const void *)"setchannel", (tmp_if_expr$7 + (signed long int)i)->name);
+              tmp_if_expr_7 = (struct CHANLIST *)(void *)0;
+            do_va_cmd(2, (const void *)"setchannel", (tmp_if_expr_7 + (signed long int)i)->name);
           }
 
           else
@@ -20532,35 +20532,35 @@ void man(char *page)
   signed int cur;
   signed int last;
   struct _IO_FILE *fp;
-  dlg=XmCreatePromptDialog(app_shell, "man", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-  struct _WidgetRec *return_value_XtParent$1;
-  return_value_XtParent$1=XtParent(dlg);
-  XtAddEventHandler(return_value_XtParent$1, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$2;
-  return_value_XmSelectionBoxGetChild$2=XmSelectionBoxGetChild(dlg, (unsigned char)11);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$2);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$3;
-  return_value_XmSelectionBoxGetChild$3=XmSelectionBoxGetChild(dlg, (unsigned char)7);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$3);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$4;
-  return_value_XmSelectionBoxGetChild$4=XmSelectionBoxGetChild(dlg, (unsigned char)2);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$4);
-  struct _WidgetRec *return_value_XmSelectionBoxGetChild$5;
-  return_value_XmSelectionBoxGetChild$5=XmSelectionBoxGetChild(dlg, (unsigned char)13);
-  XtUnmanageChild(return_value_XmSelectionBoxGetChild$5);
+  dlg=XmCreatePromptDialog(app_shell, "man", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+  struct _WidgetRec *return_value_XtParent_1;
+  return_value_XtParent_1=XtParent(dlg);
+  XtAddEventHandler(return_value_XtParent_1, (unsigned long int)0, (char)1, (void (*)(struct _WidgetRec *, void *, union _XEvent *, char *))_XEditResCheckMessages, (void *)0);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_2;
+  return_value_XmSelectionBoxGetChild_2=XmSelectionBoxGetChild(dlg, (unsigned char)11);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_2);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_3;
+  return_value_XmSelectionBoxGetChild_3=XmSelectionBoxGetChild(dlg, (unsigned char)7);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_3);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_4;
+  return_value_XmSelectionBoxGetChild_4=XmSelectionBoxGetChild(dlg, (unsigned char)2);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_4);
+  struct _WidgetRec *return_value_XmSelectionBoxGetChild_5;
+  return_value_XmSelectionBoxGetChild_5=XmSelectionBoxGetChild(dlg, (unsigned char)13);
+  XtUnmanageChild(return_value_XmSelectionBoxGetChild_5);
   XtAddCallback(dlg, (char *)&_XmStrings[(signed long int)8560], man_destroy, (void *)dlg);
-  view=XmCreateScrolledWindow(dlg, "view", (struct anonymous$11 *)(void *)0, (unsigned int)0);
+  view=XmCreateScrolledWindow(dlg, "view", (struct anonymous_11 *)(void *)0, (unsigned int)0);
   XtManageChild(view);
   label=XtVaCreateManagedWidget("label", xmLabelWidgetClass, view, (void *)0);
   XtManageChild(dlg);
   sprintf(line, "man %s 2>/dev/null", page);
   fp=popen(line, "r");
-  xmpage=XmStringGenerate((void *)"", (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
-  char *return_value_fgets$6;
+  xmpage=XmStringGenerate((void *)"", (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+  char *return_value_fgets_6;
   do
   {
-    return_value_fgets$6=fgets(line, (signed int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1), fp);
-    if(return_value_fgets$6 == ((char *)NULL))
+    return_value_fgets_6=fgets(line, (signed int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1), fp);
+    if(return_value_fgets_6 == ((char *)NULL))
       break;
 
     last = 0;
@@ -20585,7 +20585,7 @@ void man(char *page)
 
       if(!(cur == last) && !(last == 0))
       {
-        xmchunk=XmStringGenerate((void *)chunk, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, man_tags[(signed long int)last]);
+        xmchunk=XmStringGenerate((void *)chunk, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, man_tags[(signed long int)last]);
         xmpage=XmStringConcatAndFree(xmpage, xmchunk);
         d = 0;
       }
@@ -20598,16 +20598,16 @@ void man(char *page)
           s = s + 2;
         case 1:
         {
-          signed int tmp_post$7 = d;
+          signed int tmp_post_7 = d;
           d = d + 1;
-          signed int tmp_post$8 = s;
+          signed int tmp_post_8 = s;
           s = s + 1;
-          chunk[(signed long int)tmp_post$7] = line[(signed long int)tmp_post$8];
+          chunk[(signed long int)tmp_post_7] = line[(signed long int)tmp_post_8];
         }
       }
       chunk[(signed long int)d] = (char)0;
     }
-    xmchunk=XmStringGenerate((void *)chunk, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, man_tags[(signed long int)last]);
+    xmchunk=XmStringGenerate((void *)chunk, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, man_tags[(signed long int)last]);
     xmpage=XmStringConcatAndFree(xmpage, xmchunk);
   }
   while((_Bool)1);
@@ -20701,9 +20701,9 @@ static void menu_cols_cb(struct _WidgetRec *widget, void *clientdata, void *call
   for( ; !(i == 0); i = i - 1)
   {
     XtVaGetValues(widget, (char *)&XtStrings[(signed long int)234], &height, (char *)&_XmStrings[(signed long int)8450], &num, (void *)0);
-    struct anonymous$0 *return_value_XtScreen$1;
-    return_value_XtScreen$1=XtScreen(widget);
-    if(!((signed int)height >= return_value_XtScreen$1->height + -100))
+    struct anonymous_0 *return_value_XtScreen_1;
+    return_value_XtScreen_1=XtScreen(widget);
+    if(!((signed int)height >= return_value_XtScreen_1->height + -100))
       break;
 
     XtVaSetValues(widget, (char *)&_XmStrings[(signed long int)8450], (signed int)num + 1, (void *)0);
@@ -20741,9 +20741,9 @@ signed int midi_connect(struct midi_handle *h, char *arg)
   signed int rc;
   struct _snd_seq_port_subscribe *psubs;
   struct snd_seq_addr addr;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(arg, "%d:%d", &client, &port);
-  if(!(return_value_sscanf$1 == 2))
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(arg, "%d:%d", &client, &port);
+  if(!(return_value_sscanf_1 == 2))
     return -1;
 
   else
@@ -20752,17 +20752,17 @@ signed int midi_connect(struct midi_handle *h, char *arg)
     addr.client = (unsigned char)client;
     addr.port = (unsigned char)port;
     snd_seq_port_subscribe_set_sender(psubs, &addr);
-    signed int return_value_snd_seq_client_id$2;
-    return_value_snd_seq_client_id$2=snd_seq_client_id(h->seq);
-    addr.client = (unsigned char)return_value_snd_seq_client_id$2;
+    signed int return_value_snd_seq_client_id_2;
+    return_value_snd_seq_client_id_2=snd_seq_client_id(h->seq);
+    addr.client = (unsigned char)return_value_snd_seq_client_id_2;
     addr.port = (unsigned char)h->port;
     snd_seq_port_subscribe_set_dest(psubs, &addr);
     rc=snd_seq_subscribe_port(h->seq, psubs);
     if(!(rc >= 0))
     {
-      const char *return_value_snd_strerror$3;
-      return_value_snd_strerror$3=snd_strerror(rc);
-      fprintf(stderr, "midi: snd_seq_subscribe_port: %s\n", return_value_snd_strerror$3);
+      const char *return_value_snd_strerror_3;
+      return_value_snd_strerror_3=snd_strerror(rc);
+      fprintf(stderr, "midi: snd_seq_subscribe_port: %s\n", return_value_snd_strerror_3);
     }
 
     else
@@ -20791,13 +20791,13 @@ static void midi_dump_ev(struct _IO_FILE *out, struct snd_seq_event *ev)
   if(!((2 & (signed int)ev->flags) == 0))
     fprintf(out, " rel");
 
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!((unsigned long int)ev->type >= 152ul))
-    tmp_if_expr$1 = midi_events[(signed long int)ev->type];
+    tmp_if_expr_1 = midi_events[(signed long int)ev->type];
 
   else
-    tmp_if_expr$1 = "UNKNOWN";
-  fprintf(out, " [%d:%d] %s", ev->source.client, ev->source.port, tmp_if_expr$1);
+    tmp_if_expr_1 = "UNKNOWN";
+  fprintf(out, " [%d:%d] %s", ev->source.client, ev->source.port, tmp_if_expr_1);
   switch((signed int)ev->type)
   {
     case 5:
@@ -20862,7 +20862,7 @@ signed int midi_open(struct midi_handle *h, char *name)
   signed int rc;
   func = "snd_seq_open";
   rc=snd_seq_open(&h->seq, "default", 2, 0x0001);
-  signed int return_value_snd_seq_client_id$1;
+  signed int return_value_snd_seq_client_id_1;
   if(rc >= 0)
   {
     func = "snd_seq_set_client_name";
@@ -20878,8 +20878,8 @@ signed int midi_open(struct midi_handle *h, char *name)
     h->port = rc;
     if(!(debug == 0))
     {
-      return_value_snd_seq_client_id$1=snd_seq_client_id(h->seq);
-      fprintf(stderr, "midi: open ok [%d:%d]\n", return_value_snd_seq_client_id$1, h->port);
+      return_value_snd_seq_client_id_1=snd_seq_client_id(h->seq);
+      fprintf(stderr, "midi: open ok [%d:%d]\n", return_value_snd_seq_client_id_1, h->port);
     }
 
     struct pollfd p;
@@ -20893,9 +20893,9 @@ signed int midi_open(struct midi_handle *h, char *name)
 
   err:
     ;
-    const char *return_value_snd_strerror$2;
-    return_value_snd_strerror$2=snd_strerror(rc);
-    fprintf(stderr, "midi: %s: %s\n", func, return_value_snd_strerror$2);
+    const char *return_value_snd_strerror_2;
+    return_value_snd_strerror_2=snd_strerror(rc);
+    fprintf(stderr, "midi: %s: %s\n", func, return_value_snd_strerror_2);
     if(!(h->seq == ((struct _snd_seq *)NULL)))
     {
       snd_seq_close(h->seq);
@@ -20920,9 +20920,9 @@ signed int midi_read(struct midi_handle *h)
   rc=snd_seq_event_input(h->seq, &h->ev);
   if(!(rc >= 0))
   {
-    const char *return_value_snd_strerror$1;
-    return_value_snd_strerror$1=snd_strerror(rc);
-    fprintf(stderr, "midi: snd_seq_event_input: %s\n", return_value_snd_strerror$1);
+    const char *return_value_snd_strerror_1;
+    return_value_snd_strerror_1=snd_strerror(rc);
+    fprintf(stderr, "midi: snd_seq_event_input: %s\n", return_value_snd_strerror_1);
     return -1;
   }
 
@@ -20976,18 +20976,18 @@ __CPROVER_DUMP_L8:
 // file x11/xt.h line 192
 void mouse_event(struct _WidgetRec *widget, void *client_data, union _XEvent *event, char *d)
 {
-  unsigned long int return_value_XtWindow$1;
+  unsigned long int return_value_XtWindow_1;
   if(mouse_visible == 0)
   {
     if(debug >= 2)
       fprintf(stderr, "xt: pointer show\n");
 
-    unsigned long int return_value_XtWindow$2;
-    return_value_XtWindow$2=XtWindow(widget);
-    if(!(return_value_XtWindow$2 == 0ul))
+    unsigned long int return_value_XtWindow_2;
+    return_value_XtWindow_2=XtWindow(widget);
+    if(!(return_value_XtWindow_2 == 0ul))
     {
-      return_value_XtWindow$1=XtWindow(widget);
-      XDefineCursor(dpy, return_value_XtWindow$1, left_ptr);
+      return_value_XtWindow_1=XtWindow(widget);
+      XDefineCursor(dpy, return_value_XtWindow_1, left_ptr);
     }
 
     mouse_visible = 1;
@@ -21007,13 +21007,13 @@ static void mouse_timeout(void *clientData, unsigned long int *id)
   if(debug >= 2)
     fprintf(stderr, "xt: pointer hide\n");
 
-  unsigned long int return_value_XtWindow$2;
-  return_value_XtWindow$2=XtWindow(widget);
-  unsigned long int return_value_XtWindow$1;
-  if(!(return_value_XtWindow$2 == 0ul))
+  unsigned long int return_value_XtWindow_2;
+  return_value_XtWindow_2=XtWindow(widget);
+  unsigned long int return_value_XtWindow_1;
+  if(!(return_value_XtWindow_2 == 0ul))
   {
-    return_value_XtWindow$1=XtWindow(widget);
-    XDefineCursor(dpy, return_value_XtWindow$1, no_ptr);
+    return_value_XtWindow_1=XtWindow(widget);
+    XDefineCursor(dpy, return_value_XtWindow_1, no_ptr);
   }
 
   mouse_visible = 0;
@@ -21111,15 +21111,15 @@ static void movie_print_timestamps(struct movie_handle *h)
   char line[128l];
   if(!(rec_status == ((void (*)(char *))NULL)))
   {
-    signed int return_value_abs$1;
-    return_value_abs$1=abs((signed int)h->rdrift);
-    signed int return_value_abs$2;
-    return_value_abs$2=abs((signed int)h->rdrift);
-    signed int return_value_abs$3;
-    return_value_abs$3=abs((signed int)h->vdrift);
-    signed int return_value_abs$4;
-    return_value_abs$4=abs((signed int)h->vdrift);
-    sprintf(line, "rec %d:%02d.%02d  -  a/r: %c%d.%02ds [%d], a/v: %c%d.%02ds [%d]", (signed int)((h->rts / (unsigned long int)1000000000) / (unsigned long int)60), (signed int)((h->rts / (unsigned long int)1000000000) % (unsigned long int)60), (signed int)((h->rts % (unsigned long int)1000000000) / (unsigned long int)10000000), h->rdrift > (unsigned long int)0 ? 43 : 45, (signed int)(return_value_abs$1 / 1000000000), (signed int)((return_value_abs$2 % 1000000000) / 10000000), (signed int)((h->rdrift * (unsigned long int)h->fps) / (unsigned long int)1000000000000ULL), h->vdrift > (unsigned long int)0 ? 43 : 45, (signed int)(return_value_abs$3 / 1000000000), (signed int)((return_value_abs$4 % 1000000000) / 10000000), (signed int)((h->vdrift * (unsigned long int)h->fps) / (unsigned long int)1000000000000ULL));
+    signed int return_value_abs_1;
+    return_value_abs_1=abs((signed int)h->rdrift);
+    signed int return_value_abs_2;
+    return_value_abs_2=abs((signed int)h->rdrift);
+    signed int return_value_abs_3;
+    return_value_abs_3=abs((signed int)h->vdrift);
+    signed int return_value_abs_4;
+    return_value_abs_4=abs((signed int)h->vdrift);
+    sprintf(line, "rec %d:%02d.%02d  -  a/r: %c%d.%02ds [%d], a/v: %c%d.%02ds [%d]", (signed int)((h->rts / (unsigned long int)1000000000) / (unsigned long int)60), (signed int)((h->rts / (unsigned long int)1000000000) % (unsigned long int)60), (signed int)((h->rts % (unsigned long int)1000000000) / (unsigned long int)10000000), h->rdrift > (unsigned long int)0 ? 43 : 45, (signed int)(return_value_abs_1 / 1000000000), (signed int)((return_value_abs_2 % 1000000000) / 10000000), (signed int)((h->rdrift * (unsigned long int)h->fps) / (unsigned long int)1000000000000ULL), h->vdrift > (unsigned long int)0 ? 43 : 45, (signed int)(return_value_abs_3 / 1000000000), (signed int)((return_value_abs_4 % 1000000000) / 10000000), (signed int)((h->vdrift * (unsigned long int)h->fps) / (unsigned long int)1000000000000ULL));
     rec_status(line);
   }
 
@@ -21136,16 +21136,16 @@ struct movie_handle * movie_writer_init(char *moviename, char *audioname, struct
   if(!(debug == 0))
     fprintf(stderr, "movie_init_writer start\n");
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct movie_handle) /*2184ul*/ );
-  h = (struct movie_handle *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct movie_handle) /*2184ul*/ );
+  h = (struct movie_handle *)return_value_malloc_1;
   if(h == ((struct movie_handle *)NULL))
     return (struct movie_handle *)(void *)0;
 
   else
   {
     memset((void *)h, 0, sizeof(struct movie_handle) /*2184ul*/ );
-    pthread_mutex_init(&h->lock, (const union anonymous$121 *)(void *)0);
+    pthread_mutex_init(&h->lock, (const union anonymous_121 *)(void *)0);
     h->writer = writer;
     h->slots = slots;
     if(!(audio->fmtid == 0u))
@@ -21165,9 +21165,9 @@ struct movie_handle * movie_writer_init(char *moviename, char *audioname, struct
 
     if(!(video->fmtid == 0u))
     {
-      signed int return_value_ng_grabber_setformat$3;
-      return_value_ng_grabber_setformat$3=ng_grabber_setformat(video, 1);
-      if(return_value_ng_grabber_setformat$3 == 0)
+      signed int return_value_ng_grabber_setformat_3;
+      return_value_ng_grabber_setformat_3=ng_grabber_setformat(video, 1);
+      if(return_value_ng_grabber_setformat_3 == 0)
       {
         fifo_init(&h->vfifo, "video", slots, 1);
         pthread_create(&h->tvideo, (const union pthread_attr_t *)(void *)0, writer_video_thread, (void *)h);
@@ -21199,9 +21199,9 @@ struct movie_handle * movie_writer_init(char *moviename, char *audioname, struct
         i = 0;
         for( ; !(i >= h->cthreads); i = i + 1)
         {
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc(sizeof(struct ng_convthread_handle) /*24ul*/ );
-          h->hconv[(signed long int)i] = (struct ng_convthread_handle *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc(sizeof(struct ng_convthread_handle) /*24ul*/ );
+          h->hconv[(signed long int)i] = (struct ng_convthread_handle *)return_value_malloc_2;
           memset((void *)h->hconv[(signed long int)i], 0, sizeof(struct ng_convthread_handle) /*24ul*/ );
           h->hconv[(signed long int)i]->c=ng_convert_alloc(conv, &gfmt, video);
           h->hconv[(signed long int)i]->in = &h->cfifo;
@@ -21257,9 +21257,9 @@ signed int movie_writer_start(struct movie_handle *h)
   if(!(debug == 0))
     fprintf(stderr, "movie_writer_start\n");
 
-  signed long int return_value_ng_get_timestamp$1;
-  return_value_ng_get_timestamp$1=ng_get_timestamp();
-  h->start = (unsigned long int)return_value_ng_get_timestamp$1;
+  signed long int return_value_ng_get_timestamp_1;
+  return_value_ng_get_timestamp_1=ng_get_timestamp();
+  h->start = (unsigned long int)return_value_ng_get_timestamp_1;
   signed int return_value;
   if(!(h->afmt.fmtid == 0u))
   {
@@ -21297,13 +21297,13 @@ signed int movie_writer_stop(struct movie_handle *h)
   if(!(debug == 0))
     fprintf(stderr, "movie_writer_stop\n");
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(h->vfmt.fmtid == 0u))
-    tmp_if_expr$1 = h->afmt.fmtid != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = h->afmt.fmtid != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     frames = 0;
     for( ; !(frames >= 16); frames = frames + 1)
@@ -21373,9 +21373,9 @@ static signed int my_cmp(const void *a, const void *b)
   char *bb;
   aa = *((char **)a);
   bb = *((char **)b);
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(aa, bb);
-  return return_value_strcmp$1;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(aa, bb);
+  return return_value_strcmp_1;
 }
 
 // my_scandir
@@ -21386,13 +21386,13 @@ static signed int my_scandir(char *dir, char *match, char ***namelist)
   struct dirent *e;
   signed int n = 0;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(match);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(match);
+  len = (signed int)return_value_strlen_1;
   *namelist = (char **)(void *)0;
   d=opendir(dir);
-  void *return_value_malloc$3;
-  void *return_value_realloc$4;
+  void *return_value_malloc_3;
+  void *return_value_realloc_4;
   if(d == ((struct __dirstream *)NULL))
     return 0;
 
@@ -21404,30 +21404,30 @@ static signed int my_scandir(char *dir, char *match, char ***namelist)
       if(e == ((struct dirent *)NULL))
         break;
 
-      signed int return_value_strncmp$2;
-      return_value_strncmp$2=strncmp(e->d_name, match, (unsigned long int)len);
-      if(return_value_strncmp$2 == 0)
+      signed int return_value_strncmp_2;
+      return_value_strncmp_2=strncmp(e->d_name, match, (unsigned long int)len);
+      if(return_value_strncmp_2 == 0)
       {
         if(n % 16 == 0)
         {
           if(n == 0)
           {
-            return_value_malloc$3=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
-            *namelist = (char **)return_value_malloc$3;
+            return_value_malloc_3=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
+            *namelist = (char **)return_value_malloc_3;
           }
 
           else
           {
-            return_value_realloc$4=realloc((void *)*namelist, (unsigned long int)(n + 16) * sizeof(char *) /*8ul*/ );
-            *namelist = (char **)return_value_realloc$4;
+            return_value_realloc_4=realloc((void *)*namelist, (unsigned long int)(n + 16) * sizeof(char *) /*8ul*/ );
+            *namelist = (char **)return_value_realloc_4;
           }
         }
 
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(e->d_name);
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc(return_value_strlen$5 + (unsigned long int)1);
-        (*namelist)[(signed long int)n] = (char *)return_value_malloc$6;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(e->d_name);
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc(return_value_strlen_5 + (unsigned long int)1);
+        (*namelist)[(signed long int)n] = (char *)return_value_malloc_6;
         strcpy((*namelist)[(signed long int)n], e->d_name);
         n = n + 1;
       }
@@ -21469,7 +21469,7 @@ static void netwm_set_state(struct _XDisplay *dpy, unsigned long int win, signed
   e.xclient.format = 32;
   e.xclient.data.l[(signed long int)0] = (signed long int)operation;
   e.xclient.data.l[(signed long int)1] = (signed long int)state;
-  XSendEvent(dpy, (&((struct anonymous$10 *)dpy)->screens[(signed long int)((struct anonymous$10 *)dpy)->default_screen])->root, 0, 1L << 20, &e);
+  XSendEvent(dpy, (&((struct anonymous_10 *)dpy)->screens[(signed long int)((struct anonymous_10 *)dpy)->default_screen])->root, 0, 1L << 20, &e);
 }
 
 // netwm_stay_on_top
@@ -21526,64 +21526,64 @@ __CPROVER_DUMP_L10:
 static void new_channel(void)
 {
   char line[1024l];
-  char *tmp_if_expr$2;
-  struct CHANLIST *tmp_if_expr$1;
+  char *tmp_if_expr_2;
+  struct CHANLIST *tmp_if_expr_1;
   if(cur_channel == -1)
-    tmp_if_expr$2 = (char *)(void *)0;
+    tmp_if_expr_2 = (char *)(void *)0;
 
   else
   {
     if(!(chantab == -1))
-      tmp_if_expr$1 = (chanlists + (signed long int)chantab)->list;
+      tmp_if_expr_1 = (chanlists + (signed long int)chantab)->list;
 
     else
-      tmp_if_expr$1 = (struct CHANLIST *)(void *)0;
-    tmp_if_expr$2 = (tmp_if_expr$1 + (signed long int)cur_channel)->name;
+      tmp_if_expr_1 = (struct CHANLIST *)(void *)0;
+    tmp_if_expr_2 = (tmp_if_expr_1 + (signed long int)cur_channel)->name;
   }
-  char *tmp_if_expr$3;
+  char *tmp_if_expr_3;
   if(cur_sender == -1)
-    tmp_if_expr$3 = (char *)(void *)0;
+    tmp_if_expr_3 = (char *)(void *)0;
 
   else
-    tmp_if_expr$3 = channels[(signed long int)cur_sender]->name;
-  set_property(cur_freq, tmp_if_expr$2, tmp_if_expr$3);
+    tmp_if_expr_3 = channels[(signed long int)cur_sender]->name;
+  set_property(cur_freq, tmp_if_expr_2, tmp_if_expr_3);
   sprintf(line, "%d.%02d MHz", cur_freq / 16, ((cur_freq % 16) * 100) / 16);
   toolkit_set_label(st_freq, line);
-  char *tmp_if_expr$5;
-  struct CHANLIST *tmp_if_expr$4;
+  char *tmp_if_expr_5;
+  struct CHANLIST *tmp_if_expr_4;
   if(!(cur_channel == -1))
   {
     if(!(chantab == -1))
-      tmp_if_expr$4 = (chanlists + (signed long int)chantab)->list;
+      tmp_if_expr_4 = (chanlists + (signed long int)chantab)->list;
 
     else
-      tmp_if_expr$4 = (struct CHANLIST *)(void *)0;
-    tmp_if_expr$5 = (tmp_if_expr$4 + (signed long int)cur_channel)->name;
+      tmp_if_expr_4 = (struct CHANLIST *)(void *)0;
+    tmp_if_expr_5 = (tmp_if_expr_4 + (signed long int)cur_channel)->name;
   }
 
   else
-    tmp_if_expr$5 = "";
-  toolkit_set_label(st_chan, tmp_if_expr$5);
-  char *tmp_if_expr$6;
+    tmp_if_expr_5 = "";
+  toolkit_set_label(st_chan, tmp_if_expr_5);
+  char *tmp_if_expr_6;
   if(!(cur_sender == -1))
-    tmp_if_expr$6 = channels[(signed long int)cur_sender]->name;
+    tmp_if_expr_6 = channels[(signed long int)cur_sender]->name;
 
   else
-    tmp_if_expr$6 = "";
-  toolkit_set_label(st_name, tmp_if_expr$6);
-  _Bool tmp_if_expr$7;
+    tmp_if_expr_6 = "";
+  toolkit_set_label(st_name, tmp_if_expr_6);
+  _Bool tmp_if_expr_7;
   if(!(cur_sender == -1))
-    tmp_if_expr$7 = (char *)(void *)0 != channels[(signed long int)cur_sender]->key ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_7 = (char *)(void *)0 != channels[(signed long int)cur_sender]->key ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  char *tmp_if_expr$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$8 = channels[(signed long int)cur_sender]->key;
+    tmp_if_expr_7 = (_Bool)0;
+  char *tmp_if_expr_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_8 = channels[(signed long int)cur_sender]->key;
 
   else
-    tmp_if_expr$8 = "";
-  toolkit_set_label(st_key, tmp_if_expr$8);
+    tmp_if_expr_8 = "";
+  toolkit_set_label(st_key, tmp_if_expr_8);
   if(!(zap_timer == 0ul))
   {
     XtRemoveTimeOut(zap_timer);
@@ -21617,54 +21617,54 @@ static void new_freqtab(void)
   i = 0;
   for( ; !((chanlist_names + (signed long int)i)->str == ((const char *)NULL)); i = i + 1)
     XmToggleButtonSetState(children[(signed long int)i], (char)((chanlist_names + (signed long int)i)->nr == (signed long int)chantab), (char)0);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(chantab == -1))
-    tmp_if_expr$1 = (chanlists + (signed long int)chantab)->count;
+    tmp_if_expr_1 = (chanlists + (signed long int)chantab)->count;
 
   else
-    tmp_if_expr$1 = 0;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)tmp_if_expr$1 * sizeof(union __XmStringRec *) /*8ul*/ );
-  tab = (union __XmStringRec **)return_value_malloc$2;
+    tmp_if_expr_1 = 0;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)tmp_if_expr_1 * sizeof(union __XmStringRec *) /*8ul*/ );
+  tab = (union __XmStringRec **)return_value_malloc_2;
   i = 0;
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_3;
   do
   {
     if(!(chantab == -1))
-      tmp_if_expr$3 = (chanlists + (signed long int)chantab)->count;
+      tmp_if_expr_3 = (chanlists + (signed long int)chantab)->count;
 
     else
-      tmp_if_expr$3 = 0;
-    if(i >= tmp_if_expr$3)
+      tmp_if_expr_3 = 0;
+    if(i >= tmp_if_expr_3)
       break;
 
-    struct CHANLIST *tmp_if_expr$4;
+    struct CHANLIST *tmp_if_expr_4;
     if(!(chantab == -1))
-      tmp_if_expr$4 = (chanlists + (signed long int)chantab)->list;
+      tmp_if_expr_4 = (chanlists + (signed long int)chantab)->list;
 
     else
-      tmp_if_expr$4 = (struct CHANLIST *)(void *)0;
-    tab[(signed long int)i]=XmStringGenerate((void *)(tmp_if_expr$4 + (signed long int)i)->name, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+      tmp_if_expr_4 = (struct CHANLIST *)(void *)0;
+    tab[(signed long int)i]=XmStringGenerate((void *)(tmp_if_expr_4 + (signed long int)i)->name, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
     i = i + 1;
   }
   while((_Bool)1);
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_5;
   if(!(chantab == -1))
-    tmp_if_expr$5 = (chanlists + (signed long int)chantab)->count;
+    tmp_if_expr_5 = (chanlists + (signed long int)chantab)->count;
 
   else
-    tmp_if_expr$5 = 0;
-  XtVaSetValues(prop_channel, (char *)&_XmStrings[(signed long int)7450], tmp_if_expr$5, (char *)&_XmStrings[(signed long int)7460], tab, (char *)&_XmStrings[(signed long int)12735], tab[(signed long int)0], (void *)0);
+    tmp_if_expr_5 = 0;
+  XtVaSetValues(prop_channel, (char *)&_XmStrings[(signed long int)7450], tmp_if_expr_5, (char *)&_XmStrings[(signed long int)7460], tab, (char *)&_XmStrings[(signed long int)12735], tab[(signed long int)0], (void *)0);
   i = 0;
-  signed int tmp_if_expr$6;
+  signed int tmp_if_expr_6;
   do
   {
     if(!(chantab == -1))
-      tmp_if_expr$6 = (chanlists + (signed long int)chantab)->count;
+      tmp_if_expr_6 = (chanlists + (signed long int)chantab)->count;
 
     else
-      tmp_if_expr$6 = 0;
-    if(i >= tmp_if_expr$6)
+      tmp_if_expr_6 = 0;
+    if(i >= tmp_if_expr_6)
       break;
 
     XmStringFree(tab[(signed long int)i]);
@@ -21721,16 +21721,16 @@ static void new_volume(void)
 signed int ng_aconv_register(signed int magic, char *plugname, struct ng_audio_conv *list, signed int count)
 {
   signed int n;
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "audio converters");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "audio converters");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
   {
     n = 0;
     for( ; !(n >= count); n = n + 1)
-      list_add_tail$link1(&(list + (signed long int)n)->list, &ng_aconv);
+      list_add_tail_link1(&(list + (signed long int)n)->list, &ng_aconv);
     return 0;
   }
 }
@@ -21767,9 +21767,9 @@ struct ng_attribute * ng_attr_byname(struct ng_attribute *attrs, char *name)
       if(attrs->name == ((const char *)NULL))
         return (struct ng_attribute *)(void *)0;
 
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(attrs->name, name);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(attrs->name, name);
+      if(return_value_strcasecmp_1 == 0)
         return attrs;
 
       attrs = attrs + 1l;
@@ -21794,15 +21794,15 @@ signed int ng_attr_getint(struct ng_attribute *attr, char *value)
       i = 0;
       for( ; !((attr->choices + (signed long int)i)->str == ((const char *)NULL)); i = i + 1)
       {
-        signed int return_value_strcasecmp$1;
-        return_value_strcasecmp$1=strcasecmp((attr->choices + (signed long int)i)->str, value);
-        if(return_value_strcasecmp$1 == 0)
+        signed int return_value_strcasecmp_1;
+        return_value_strcasecmp_1=strcasecmp((attr->choices + (signed long int)i)->str, value);
+        if(return_value_strcasecmp_1 == 0)
           return (signed int)(attr->choices + (signed long int)i)->nr;
 
       }
-      const unsigned short int **return_value___ctype_b_loc$2;
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*value]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_2;
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*value]) == 0))
       {
         val=atoi(value);
         i = 0;
@@ -21874,9 +21874,9 @@ signed int ng_attr_parse_int(struct ng_attribute *attr, char *str)
 {
   signed int value;
   signed int n;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(str, "%d%n", &value, &n);
-  if(return_value_sscanf$1 == 0)
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(str, "%d%n", &value, &n);
+  if(return_value_sscanf_1 == 0)
     return attr->defval;
 
   else
@@ -21968,13 +21968,13 @@ void ng_check_clipping(signed int width, signed int height, signed int xadjust, 
   i = 0;
   while(!(i >= *count))
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if((oc + (signed long int)i)->x1 == (oc + (signed long int)i)->x2)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (oc + (signed long int)i)->y1 == (oc + (signed long int)i)->y2 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (oc + (signed long int)i)->y1 == (oc + (signed long int)i)->y2 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       clip_drop(oc, i, count);
 
     else
@@ -22112,7 +22112,7 @@ void ng_color_yuv2rgb_init(void)
     ng_clip[(signed long int)i] = (unsigned int)(i - 320);
   for( ; !(i >= 256); i = i + 1)
     ng_clip[(signed long int)i] = (unsigned int)255;
-  ng_conv_register(0x20030129, "built-in", conv_list$link1, nconv$link1);
+  ng_conv_register(0x20030129, "built-in", conv_list_link1, nconv_link1);
 }
 
 // ng_conv_find_from
@@ -22207,16 +22207,16 @@ void * ng_conv_nop_init(struct ng_video_fmt *out, void *priv)
 signed int ng_conv_register(signed int magic, char *plugname, struct ng_video_conv *list, signed int count)
 {
   signed int n;
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "video converters");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "video converters");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
   {
     n = 0;
     for( ; !(n >= count); n = n + 1)
-      list_add_tail$link1(&(list + (signed long int)n)->list, &ng_conv);
+      list_add_tail_link1(&(list + (signed long int)n)->list, &ng_conv);
     return 0;
   }
 }
@@ -22226,9 +22226,9 @@ signed int ng_conv_register(signed int magic, char *plugname, struct ng_video_co
 struct ng_convert_handle * ng_convert_alloc(struct ng_video_conv *conv, struct ng_video_fmt *i, struct ng_video_fmt *o)
 {
   struct ng_convert_handle *h;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ng_convert_handle) /*56ul*/ );
-  h = (struct ng_convert_handle *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ng_convert_handle) /*56ul*/ );
+  h = (struct ng_convert_handle *)return_value_malloc_1;
   if(h == ((struct ng_convert_handle *)NULL))
     return ((struct ng_convert_handle *)NULL);
 
@@ -22260,13 +22260,13 @@ static void ng_convert_copyframe(struct ng_video_buf *dest, struct ng_video_buf 
   unsigned char *dp;
   dw = (dest->fmt.width * ng_vfmt_to_depth[(signed long int)dest->fmt.fmtid]) / (unsigned int)8;
   sw = (src->fmt.width * ng_vfmt_to_depth[(signed long int)src->fmt.fmtid]) / (unsigned int)8;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(src->fmt.bytesperline == sw)
-    tmp_if_expr$1 = dest->fmt.bytesperline == dw ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = dest->fmt.bytesperline == dw ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     memcpy((void *)dest->data, (const void *)src->data, (unsigned long int)(src->fmt.bytesperline * src->fmt.height));
 
   else
@@ -22374,28 +22374,28 @@ void * ng_convert_thread(void *arg)
   struct ng_convthread_handle *h = (struct ng_convthread_handle *)arg;
   struct ng_video_buf *in;
   struct ng_video_buf *out;
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(!(debug == 0))
   {
-    return_value_getpid$1=getpid();
-    fprintf(stderr, "convert_thread start [pid=%d]\n", return_value_getpid$1);
+    return_value_getpid_1=getpid();
+    fprintf(stderr, "convert_thread start [pid=%d]\n", return_value_getpid_1);
   }
 
   ng_convert_init(h->c);
-  signed int return_value_webcam_put$3;
+  signed int return_value_webcam_put_3;
   do
   {
-    void *return_value_fifo_get$2;
-    return_value_fifo_get$2=fifo_get(h->in);
-    in = (struct ng_video_buf *)return_value_fifo_get$2;
+    void *return_value_fifo_get_2;
+    return_value_fifo_get_2=fifo_get(h->in);
+    in = (struct ng_video_buf *)return_value_fifo_get_2;
     if(in == ((struct ng_video_buf *)NULL))
       break;
 
     out=ng_convert_frame(h->c, (struct ng_video_buf *)(void *)0, in);
     if(!(webcam == ((char *)NULL)))
     {
-      return_value_webcam_put$3=webcam_put(webcam, out);
-      if(return_value_webcam_put$3 == 0)
+      return_value_webcam_put_3=webcam_put(webcam, out);
+      if(return_value_webcam_put_3 == 0)
       {
         free((void *)webcam);
         webcam = (char *)(void *)0;
@@ -22408,11 +22408,11 @@ void * ng_convert_thread(void *arg)
   while((_Bool)1);
   fifo_put(h->out, (void *)0);
   ng_convert_fini(h->c);
-  signed int return_value_getpid$4;
+  signed int return_value_getpid_4;
   if(!(debug == 0))
   {
-    return_value_getpid$4=getpid();
-    fprintf(stderr, "convert_thread done [pid=%d]\n", return_value_getpid$4);
+    return_value_getpid_4=getpid();
+    fprintf(stderr, "convert_thread done [pid=%d]\n", return_value_getpid_4);
   }
 
   return (void *)0;
@@ -22423,9 +22423,9 @@ void * ng_convert_thread(void *arg)
 void ng_device_init(void)
 {
   struct stat st;
-  signed int return_value_lstat$1;
-  return_value_lstat$1=lstat("/dev/.devfsd", &st);
-  if(!(return_value_lstat$1 == -1))
+  signed int return_value_lstat_1;
+  return_value_lstat_1=lstat("/dev/.devfsd", &st);
+  if(!(return_value_lstat_1 == -1))
   {
     if((61440u & st.st_mode) == 8192u)
       ng_dev = ng_dev_devfs;
@@ -22438,14 +22438,14 @@ void ng_device_init(void)
 // file libng/grab-ng.c line 458
 signed int ng_dsp_driver_register(signed int magic, char *plugname, struct ng_dsp_driver *driver)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "dsp drv");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "dsp drv");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
   {
-    list_add_tail$link1(&driver->list, &ng_dsp_drivers);
+    list_add_tail_link1(&driver->list, &ng_dsp_drivers);
     return 0;
   }
 }
@@ -22455,36 +22455,36 @@ signed int ng_dsp_driver_register(signed int magic, char *plugname, struct ng_ds
 struct ng_dsp_driver * ng_dsp_open(char *device, struct ng_audio_fmt *fmt, signed int record, void **handle)
 {
   struct list_head *item;
-  struct ng_dsp_driver *ng_dsp_open$$1$$drv;
+  struct ng_dsp_driver *ng_dsp_open__1__drv;
   item = (&ng_dsp_drivers)->next;
   for( ; !(item == &ng_dsp_drivers); item = item->next)
   {
-    ng_dsp_open$$1$$drv = (struct ng_dsp_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_dsp_driver *)0)->list);
-    if(!(ng_dsp_open$$1$$drv->name == ((const char *)NULL)))
+    ng_dsp_open__1__drv = (struct ng_dsp_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_dsp_driver *)0)->list);
+    if(!(ng_dsp_open__1__drv->name == ((const char *)NULL)))
     {
       if(!(record == 0))
       {
-        if(ng_dsp_open$$1$$drv->read == ((struct ng_audio_buf * (*)(void *, signed long int))NULL))
+        if(ng_dsp_open__1__drv->read == ((struct ng_audio_buf * (*)(void *, signed long int))NULL))
           goto __CPROVER_DUMP_L5;
 
       }
 
       if(record == 0)
       {
-        if(ng_dsp_open$$1$$drv->write == ((struct ng_audio_buf * (*)(void *, struct ng_audio_buf *))NULL))
+        if(ng_dsp_open__1__drv->write == ((struct ng_audio_buf * (*)(void *, struct ng_audio_buf *))NULL))
           goto __CPROVER_DUMP_L5;
 
       }
 
       if(!(ng_debug == 0))
-        fprintf(stderr, "dsp-open: trying: %s... \n", ng_dsp_open$$1$$drv->name);
+        fprintf(stderr, "dsp-open: trying: %s... \n", ng_dsp_open__1__drv->name);
 
-      *handle=ng_dsp_open$$1$$drv->open(device, fmt, record);
+      *handle=ng_dsp_open__1__drv->open(device, fmt, record);
       if(!(*handle == NULL))
         break;
 
       if(!(ng_debug == 0))
-        fprintf(stderr, "dsp-open: failed: %s\n", ng_dsp_open$$1$$drv->name);
+        fprintf(stderr, "dsp-open: failed: %s\n", ng_dsp_open__1__drv->name);
 
     }
 
@@ -22498,9 +22498,9 @@ struct ng_dsp_driver * ng_dsp_open(char *device, struct ng_audio_fmt *fmt, signe
   else
   {
     if(!(ng_debug == 0))
-      fprintf(stderr, "dsp-open: ok: %s\n", ng_dsp_open$$1$$drv->name);
+      fprintf(stderr, "dsp-open: ok: %s\n", ng_dsp_open__1__drv->name);
 
-    return ng_dsp_open$$1$$drv;
+    return ng_dsp_open__1__drv;
   }
 }
 
@@ -22508,14 +22508,14 @@ struct ng_dsp_driver * ng_dsp_open(char *device, struct ng_audio_fmt *fmt, signe
 // file libng/grab-ng.c line 422
 signed int ng_filter_register(signed int magic, char *plugname, struct ng_filter *filter)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "filter");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "filter");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
   {
-    list_add_tail$link1(&filter->list, &ng_filters);
+    list_add_tail_link1(&filter->list, &ng_filters);
     return 0;
   }
 }
@@ -22552,11 +22552,11 @@ struct ng_reader * ng_find_reader(char *filename)
   fp=fopen(filename, "r");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "open %s: %s\n", filename, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "open %s: %s\n", filename, return_value_strerror_2);
     return (struct ng_reader *)(void *)0;
   }
 
@@ -22564,7 +22564,7 @@ struct ng_reader * ng_find_reader(char *filename)
   fread((void *)blk, (unsigned long int)1, sizeof(char [512l]) /*512ul*/ , fp);
   fclose(fp);
   item = (&ng_readers)->next;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   for( ; !(item == &ng_readers); item = item->next)
   {
     reader = (struct ng_reader *)((char *)item - (signed long int)(unsigned long int)&((struct ng_reader *)0)->list);
@@ -22572,16 +22572,16 @@ struct ng_reader * ng_find_reader(char *filename)
     do
     {
       if(!(m >= 4))
-        tmp_if_expr$3 = reader->mlen[(signed long int)m] > 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = reader->mlen[(signed long int)m] > 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
-      signed int return_value_memcmp$4;
-      return_value_memcmp$4=memcmp((const void *)(blk + (signed long int)reader->moff[(signed long int)m]), (const void *)reader->magic[(signed long int)m], (unsigned long int)reader->mlen[(signed long int)m]);
-      if(return_value_memcmp$4 == 0)
+      signed int return_value_memcmp_4;
+      return_value_memcmp_4=memcmp((const void *)(blk + (signed long int)reader->moff[(signed long int)m]), (const void *)reader->magic[(signed long int)m], (unsigned long int)reader->mlen[(signed long int)m]);
+      if(return_value_memcmp_4 == 0)
         return reader;
 
       m = m + 1;
@@ -22606,11 +22606,11 @@ static void ng_free_video_buf(struct ng_video_buf *buf)
 // file ./libng/grab-ng.h line 458
 signed long int ng_get_timestamp(void)
 {
-  struct timeval ng_get_timestamp$$1$$tv;
-  gettimeofday(&ng_get_timestamp$$1$$tv, (struct timezone *)(void *)0);
-  signed long int return_value_ng_tofday_to_timestamp$1;
-  return_value_ng_tofday_to_timestamp$1=ng_tofday_to_timestamp(&ng_get_timestamp$$1$$tv);
-  return return_value_ng_tofday_to_timestamp$1;
+  struct timeval ng_get_timestamp__1__tv;
+  gettimeofday(&ng_get_timestamp__1__tv, (struct timezone *)(void *)0);
+  signed long int return_value_ng_tofday_to_timestamp_1;
+  return_value_ng_tofday_to_timestamp_1=ng_tofday_to_timestamp(&ng_get_timestamp__1__tv);
+  return return_value_ng_tofday_to_timestamp_1;
 }
 
 // ng_grabber_findconv
@@ -22628,9 +22628,9 @@ struct ng_video_conv * ng_grabber_findconv(struct ng_video_fmt *fmt, signed int 
 
     gfmt = *fmt;
     gfmt.fmtid = conv->fmtid_in;
-    signed int return_value_ng_grabber_setformat$1;
-    return_value_ng_grabber_setformat$1=ng_grabber_setformat(&gfmt, fix_ratio);
-    if(return_value_ng_grabber_setformat$1 == 0)
+    signed int return_value_ng_grabber_setformat_1;
+    return_value_ng_grabber_setformat_1=ng_grabber_setformat(&gfmt, fix_ratio);
+    if(return_value_ng_grabber_setformat_1 == 0)
       goto found;
 
   }
@@ -22652,13 +22652,13 @@ struct ng_video_buf * ng_grabber_get_image(struct ng_video_fmt *fmt)
   struct ng_video_conv *conv;
   struct ng_convert_handle *ch;
   struct ng_video_buf *buf;
-  signed int return_value_ng_grabber_setformat$2;
-  return_value_ng_grabber_setformat$2=ng_grabber_setformat(fmt, 1);
-  struct ng_video_buf *return_value_ng_grabber_grab_image$1;
-  if(return_value_ng_grabber_setformat$2 == 0)
+  signed int return_value_ng_grabber_setformat_2;
+  return_value_ng_grabber_setformat_2=ng_grabber_setformat(fmt, 1);
+  struct ng_video_buf *return_value_ng_grabber_grab_image_1;
+  if(return_value_ng_grabber_setformat_2 == 0)
   {
-    return_value_ng_grabber_grab_image$1=ng_grabber_grab_image(1);
-    return return_value_ng_grabber_grab_image$1;
+    return_value_ng_grabber_grab_image_1=ng_grabber_grab_image(1);
+    return return_value_ng_grabber_grab_image_1;
   }
 
   gfmt = *fmt;
@@ -22685,21 +22685,21 @@ struct ng_video_buf * ng_grabber_get_image(struct ng_video_fmt *fmt)
 // file ./common/capture.h line 23
 struct ng_video_buf * ng_grabber_grab_image(signed int single)
 {
-  struct ng_video_buf *tmp_if_expr$1;
+  struct ng_video_buf *tmp_if_expr_1;
   struct ng_video_buf *return_value;
   struct ng_video_buf *return_value_1;
   if(!(single == 0))
   {
     return_value=drv->getimage(h_drv);
-    tmp_if_expr$1 = return_value;
+    tmp_if_expr_1 = return_value;
   }
 
   else
   {
     return_value_1=drv->nextframe(h_drv);
-    tmp_if_expr$1 = return_value_1;
+    tmp_if_expr_1 = return_value_1;
   }
-  return tmp_if_expr$1;
+  return tmp_if_expr_1;
 }
 
 // ng_grabber_setformat
@@ -22747,11 +22747,11 @@ signed int ng_grabber_setformat(struct ng_video_fmt *fmt, signed int fix_ratio)
 // file ./libng/grab-ng.h line 466
 void ng_init(void)
 {
-  signed int ng_init$$1$$count = 0;
+  signed int ng_init__1__count = 0;
   static signed int once = 0;
-  signed int tmp_post$1 = once;
+  signed int tmp_post_1 = once;
   once = once + 1;
-  if(!(tmp_post$1 == 0))
+  if(!(tmp_post_1 == 0))
   {
     fprintf(stderr, "panic: ng_init called twice\n");
     exit(1);
@@ -22761,20 +22761,20 @@ void ng_init(void)
   ng_color_packed_init();
   ng_color_yuv2rgb_init();
   ng_writefile_init();
-  signed int return_value_ng_plugins$2;
-  return_value_ng_plugins$2=ng_plugins("/usr/lib/x86_64-linux-gnu/xawtv");
-  ng_init$$1$$count = ng_init$$1$$count + return_value_ng_plugins$2;
-  if(ng_init$$1$$count == 0)
+  signed int return_value_ng_plugins_2;
+  return_value_ng_plugins_2=ng_plugins("/usr/lib/x86_64-linux-gnu/xawtv");
+  ng_init__1__count = ng_init__1__count + return_value_ng_plugins_2;
+  if(ng_init__1__count == 0)
   {
-    signed int return_value_ng_plugins$3;
-    return_value_ng_plugins$3=ng_plugins("../libng/plugins");
-    ng_init$$1$$count = ng_init$$1$$count + return_value_ng_plugins$3;
-    signed int return_value_ng_plugins$4;
-    return_value_ng_plugins$4=ng_plugins("../libng/contrib-plugins");
-    ng_init$$1$$count = ng_init$$1$$count + return_value_ng_plugins$4;
+    signed int return_value_ng_plugins_3;
+    return_value_ng_plugins_3=ng_plugins("../libng/plugins");
+    ng_init__1__count = ng_init__1__count + return_value_ng_plugins_3;
+    signed int return_value_ng_plugins_4;
+    return_value_ng_plugins_4=ng_plugins("../libng/contrib-plugins");
+    ng_init__1__count = ng_init__1__count + return_value_ng_plugins_4;
   }
 
-  if(ng_init$$1$$count == 0)
+  if(ng_init__1__count == 0)
     fprintf(stderr, "WARNING: no plugins found [%s]\n", (const void *)"/usr/lib/x86_64-linux-gnu/xawtv");
 
 }
@@ -22784,8 +22784,8 @@ void ng_init(void)
 void ng_init_video_buf(struct ng_video_buf *buf)
 {
   memset((void *)buf, 0, sizeof(struct ng_video_buf) /*160ul*/ );
-  pthread_mutex_init(&buf->lock, (const union anonymous$121 *)(void *)0);
-  pthread_cond_init(&buf->cond, (const union anonymous$121 *)(void *)0);
+  pthread_mutex_init(&buf->lock, (const union anonymous_121 *)(void *)0);
+  pthread_cond_init(&buf->cond, (const union anonymous_121 *)(void *)0);
 }
 
 // ng_lut_init
@@ -22801,9 +22801,9 @@ void ng_lut_init(unsigned long int red_mask, unsigned long int green_mask, unsig
   unsigned int i;
   unsigned int mask;
   static signed int once = 0;
-  signed int tmp_post$1 = once;
+  signed int tmp_post_1 = once;
   once = once + 1;
-  if(!(tmp_post$1 == 0))
+  if(!(tmp_post_1 == 0))
   {
     fprintf(stderr, "panic: ng_lut_init called twice\n");
     exit(1);
@@ -22921,9 +22921,9 @@ void ng_lut_init(unsigned long int red_mask, unsigned long int green_mask, unsig
 struct ng_audio_buf * ng_malloc_audio_buf(struct ng_audio_fmt *fmt, signed int size)
 {
   struct ng_audio_buf *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ng_audio_buf) /*32ul*/  + (unsigned long int)size);
-  buf = (struct ng_audio_buf *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ng_audio_buf) /*32ul*/  + (unsigned long int)size);
+  buf = (struct ng_audio_buf *)return_value_malloc_1;
   memset((void *)buf, 0, sizeof(struct ng_audio_buf) /*32ul*/ );
   buf->fmt = *fmt;
   buf->size = size;
@@ -22936,9 +22936,9 @@ struct ng_audio_buf * ng_malloc_audio_buf(struct ng_audio_fmt *fmt, signed int s
 struct ng_video_buf * ng_malloc_video_buf(struct ng_video_fmt *fmt, signed int size)
 {
   struct ng_video_buf *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ng_video_buf) /*160ul*/ );
-  buf = (struct ng_video_buf *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ng_video_buf) /*160ul*/ );
+  buf = (struct ng_video_buf *)return_value_malloc_1;
   if(buf == ((struct ng_video_buf *)NULL))
     return (struct ng_video_buf *)(void *)0;
 
@@ -22947,9 +22947,9 @@ struct ng_video_buf * ng_malloc_video_buf(struct ng_video_fmt *fmt, signed int s
     ng_init_video_buf(buf);
     buf->fmt = *fmt;
     buf->size = (unsigned long int)size;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)size);
-    buf->data = (unsigned char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)size);
+    buf->data = (unsigned char *)return_value_malloc_2;
     if(buf->data == ((unsigned char *)NULL))
     {
       free((void *)buf);
@@ -22969,14 +22969,14 @@ struct ng_video_buf * ng_malloc_video_buf(struct ng_video_fmt *fmt, signed int s
 // file libng/grab-ng.c line 467
 signed int ng_mix_driver_register(signed int magic, char *plugname, struct ng_mix_driver *driver)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "mixer drv");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "mixer drv");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
   {
-    list_add_tail$link1(&driver->list, &ng_mix_drivers);
+    list_add_tail_link1(&driver->list, &ng_mix_drivers);
     return 0;
   }
 }
@@ -22986,33 +22986,33 @@ signed int ng_mix_driver_register(signed int magic, char *plugname, struct ng_mi
 struct ng_attribute * ng_mix_init(char *device, char *channel)
 {
   struct list_head *item;
-  struct ng_mix_driver *ng_mix_init$$1$$drv = (struct ng_mix_driver *)(void *)0;
-  struct ng_attribute *ng_mix_init$$1$$attrs = (struct ng_attribute *)(void *)0;
+  struct ng_mix_driver *ng_mix_init__1__drv = (struct ng_mix_driver *)(void *)0;
+  struct ng_attribute *ng_mix_init__1__attrs = (struct ng_attribute *)(void *)0;
   void *handle;
   item = (&ng_mix_drivers)->next;
   if(!(item == &ng_mix_drivers))
   {
-    ng_mix_init$$1$$drv = (struct ng_mix_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_mix_driver *)0)->list);
+    ng_mix_init__1__drv = (struct ng_mix_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_mix_driver *)0)->list);
     if(!(ng_debug == 0))
-      fprintf(stderr, "mix-init: trying: %s... \n", ng_mix_init$$1$$drv->name);
+      fprintf(stderr, "mix-init: trying: %s... \n", ng_mix_init__1__drv->name);
 
-    handle=ng_mix_init$$1$$drv->open(device);
+    handle=ng_mix_init__1__drv->open(device);
     if(!(handle == NULL))
     {
-      ng_mix_init$$1$$attrs=ng_mix_init$$1$$drv->volctl(handle, channel);
-      ng_mix_init$$1$$drv->close(handle);
+      ng_mix_init__1__attrs=ng_mix_init__1__drv->volctl(handle, channel);
+      ng_mix_init__1__drv->close(handle);
     }
 
     if(!(ng_debug == 0))
-      fprintf(stderr, "mix-init: failed: %s\n", ng_mix_init$$1$$drv->name);
+      fprintf(stderr, "mix-init: failed: %s\n", ng_mix_init__1__drv->name);
 
     item = item->next;
   }
 
-  if(!(ng_mix_init$$1$$attrs == ((struct ng_attribute *)NULL)) && !(ng_debug == 0))
-    fprintf(stderr, "mix-init: ok: %s\n", ng_mix_init$$1$$drv->name);
+  if(!(ng_mix_init__1__attrs == ((struct ng_attribute *)NULL)) && !(ng_debug == 0))
+    fprintf(stderr, "mix-init: ok: %s\n", ng_mix_init__1__drv->name);
 
-  return ng_mix_init$$1$$attrs;
+  return ng_mix_init__1__attrs;
 }
 
 // ng_packed_frame
@@ -23026,13 +23026,13 @@ void ng_packed_frame(void *handle, struct ng_video_buf *out, struct ng_video_buf
   unsigned int sw;
   unsigned int dw = out->fmt.width * ng_vfmt_to_depth[(signed long int)out->fmt.fmtid] >> 3;
   sw = in->fmt.width * ng_vfmt_to_depth[(signed long int)in->fmt.fmtid] >> 3;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(in->fmt.bytesperline == sw)
-    tmp_if_expr$1 = out->fmt.bytesperline == dw ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = out->fmt.bytesperline == dw ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     func(out->data, in->data, (signed int)(in->fmt.width * in->fmt.height));
 
   else
@@ -23078,33 +23078,33 @@ static signed int ng_plugins(char *dirname)
     i = 0;
     for( ; !(i >= n); i = i + 1)
     {
-      signed int return_value_fnmatch$1;
-      return_value_fnmatch$1=fnmatch("*.so", list[(signed long int)i]->d_name, 0);
-      if(return_value_fnmatch$1 == 0)
+      signed int return_value_fnmatch_1;
+      return_value_fnmatch_1=fnmatch("*.so", list[(signed long int)i]->d_name, 0);
+      if(return_value_fnmatch_1 == 0)
       {
         sprintf(filename, "%s/%s", dirname, (const void *)list[(signed long int)i]->d_name);
         plugin=dlopen(filename, 0x00002);
         if(plugin == NULL)
         {
-          char *return_value_dlerror$2;
-          return_value_dlerror$2=dlerror();
-          fprintf(stderr, "dlopen: %s\n", return_value_dlerror$2);
+          char *return_value_dlerror_2;
+          return_value_dlerror_2=dlerror();
+          fprintf(stderr, "dlopen: %s\n", return_value_dlerror_2);
           goto __CPROVER_DUMP_L6;
         }
 
-        void *return_value_dlsym$5;
-        return_value_dlsym$5=dlsym(plugin, "ng_plugin_init");
-        initcall = (void (*)(void))return_value_dlsym$5;
+        void *return_value_dlsym_5;
+        return_value_dlsym_5=dlsym(plugin, "ng_plugin_init");
+        initcall = (void (*)(void))return_value_dlsym_5;
         if(initcall == ((void (*)(void))NULL))
         {
-          void *return_value_dlsym$4;
-          return_value_dlsym$4=dlsym(plugin, "_ng_plugin_init");
-          initcall = (void (*)(void))return_value_dlsym$4;
+          void *return_value_dlsym_4;
+          return_value_dlsym_4=dlsym(plugin, "_ng_plugin_init");
+          initcall = (void (*)(void))return_value_dlsym_4;
           if(initcall == ((void (*)(void))NULL))
           {
-            char *return_value_dlerror$3;
-            return_value_dlerror$3=dlerror();
-            fprintf(stderr, "dlsym[%s]: %s\n", (const void *)filename, return_value_dlerror$3);
+            char *return_value_dlerror_3;
+            return_value_dlerror_3=dlerror();
+            fprintf(stderr, "dlsym[%s]: %s\n", (const void *)filename, return_value_dlerror_3);
             goto __CPROVER_DUMP_L6;
           }
 
@@ -23188,14 +23188,14 @@ void ng_ratio_fixup2(signed int *width, signed int *height, signed int *xoff, si
 // file libng/grab-ng.c line 440
 signed int ng_reader_register(signed int magic, char *plugname, struct ng_reader *reader)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "reader");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "reader");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
   {
-    list_add_tail$link1(&reader->list, &ng_readers);
+    list_add_tail_link1(&reader->list, &ng_readers);
     return 0;
   }
 }
@@ -23223,17 +23223,17 @@ void ng_release_video_buf(struct ng_video_buf *buf)
 void ng_rgb24_to_lut2(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned short int * restrict d = (unsigned short int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)0]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)2]]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)0]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)2]]);
     src = src + (signed long int)3;
   }
   while((_Bool)1);
@@ -23244,17 +23244,17 @@ void ng_rgb24_to_lut2(unsigned char * restrict dest, unsigned char * restrict sr
 void ng_rgb24_to_lut4(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned int * restrict d = (unsigned int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)0]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)2]]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)0]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)2]]);
     src = src + (signed long int)3;
   }
   while((_Bool)1);
@@ -23275,14 +23275,14 @@ signed long int ng_tofday_to_timestamp(struct timeval *tv)
 // file libng/grab-ng.c line 449
 signed int ng_vid_driver_register(signed int magic, char *plugname, struct ng_vid_driver *driver)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "video drv");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "video drv");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
   {
-    list_add_tail$link1(&driver->list, &ng_vid_drivers);
+    list_add_tail_link1(&driver->list, &ng_vid_drivers);
     return 0;
   }
 }
@@ -23292,8 +23292,8 @@ signed int ng_vid_driver_register(signed int magic, char *plugname, struct ng_vi
 struct ng_vid_driver * ng_vid_open(char **device, char *driver, struct ng_video_fmt *screen, void *base, void **handle)
 {
   struct list_head *item;
-  struct ng_vid_driver *ng_vid_open$$1$$drv;
-  signed int return_value_strcmp$5;
+  struct ng_vid_driver *ng_vid_open__1__drv;
+  signed int return_value_strcmp_5;
   signed int return_value;
   if(driver == ((char *)NULL))
   {
@@ -23306,48 +23306,48 @@ struct ng_vid_driver * ng_vid_open(char **device, char *driver, struct ng_video_
     item = (&ng_vid_drivers)->next;
     for( ; !(item == &ng_vid_drivers); item = item->next)
     {
-      ng_vid_open$$1$$drv = (struct ng_vid_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_vid_driver *)0)->list);
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(driver, ng_vid_open$$1$$drv->name);
-      if(return_value_strcasecmp$1 == 0)
+      ng_vid_open__1__drv = (struct ng_vid_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_vid_driver *)0)->list);
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(driver, ng_vid_open__1__drv->name);
+      if(return_value_strcasecmp_1 == 0)
         break;
 
     }
     if(item == &ng_vid_drivers)
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(driver, "help");
-      if(!(return_value_strcasecmp$2 == 0))
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(driver, "help");
+      if(!(return_value_strcasecmp_2 == 0))
         fprintf(stderr, "Cannot find %s video driver\n", driver);
 
       fprintf(stderr, "Available drivers:");
       item = (&ng_vid_drivers)->next;
       for( ; !(item == &ng_vid_drivers); item = item->next)
       {
-        ng_vid_open$$1$$drv = (struct ng_vid_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_vid_driver *)0)->list);
-        fprintf(stderr, " %s", ng_vid_open$$1$$drv->name);
+        ng_vid_open__1__drv = (struct ng_vid_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_vid_driver *)0)->list);
+        fprintf(stderr, " %s", ng_vid_open__1__drv->name);
       }
       fprintf(stderr, "\n");
       return (struct ng_vid_driver *)(void *)0;
     }
 
-    signed int return_value_strcmp$4;
-    return_value_strcmp$4=strcmp(*device, "auto");
-    _Bool tmp_if_expr$6;
-    if(return_value_strcmp$4 == 0)
-      tmp_if_expr$6 = (_Bool)1;
+    signed int return_value_strcmp_4;
+    return_value_strcmp_4=strcmp(*device, "auto");
+    _Bool tmp_if_expr_6;
+    if(return_value_strcmp_4 == 0)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$5=strcmp(*device, "auto_tv");
-      tmp_if_expr$6 = !(return_value_strcmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_5=strcmp(*device, "auto_tv");
+      tmp_if_expr_6 = !(return_value_strcmp_5 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       char devpath[4096l];
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(*device, "auto_tv");
-      *handle=ng_vid_open_auto(ng_vid_open$$1$$drv, devpath, !(return_value_strcmp$3 != 0) ? 0 : 1);
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(*device, "auto_tv");
+      *handle=ng_vid_open_auto(ng_vid_open__1__drv, devpath, !(return_value_strcmp_3 != 0) ? 0 : 1);
       if(*handle == NULL)
       {
         fprintf(stderr, "vid-open: could not find a suitable videodev\n");
@@ -23360,58 +23360,58 @@ struct ng_vid_driver * ng_vid_open(char **device, char *driver, struct ng_video_
     else
     {
       if(!(ng_debug == 0))
-        fprintf(stderr, "vid-open: trying: %s... \n", ng_vid_open$$1$$drv->name);
+        fprintf(stderr, "vid-open: trying: %s... \n", ng_vid_open__1__drv->name);
 
-      *handle=ng_vid_open$$1$$drv->open(*device, 0);
+      *handle=ng_vid_open__1__drv->open(*device, 0);
       if(*handle == NULL)
       {
-        fprintf(stderr, "vid-open: failed: %s\n", ng_vid_open$$1$$drv->name);
+        fprintf(stderr, "vid-open: failed: %s\n", ng_vid_open__1__drv->name);
         return (struct ng_vid_driver *)(void *)0;
       }
 
       if(!(ng_debug == 0))
-        fprintf(stderr, "vid-open: ok: %s\n", ng_vid_open$$1$$drv->name);
+        fprintf(stderr, "vid-open: ok: %s\n", ng_vid_open__1__drv->name);
 
     }
     if(!(screen == ((struct ng_video_fmt *)NULL)))
     {
-      return_value=ng_vid_open$$1$$drv->capabilities(*handle);
+      return_value=ng_vid_open__1__drv->capabilities(*handle);
       if(!((1 & return_value) == 0))
       {
         signed int l;
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(ng_v4l_conf);
-        l = (signed int)return_value_strlen$7;
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(ng_v4l_conf);
+        l = (signed int)return_value_strlen_7;
         snprintf(ng_v4l_conf + (signed long int)l, sizeof(char [256l]) /*256ul*/  - (unsigned long int)l, " -c %s", *device);
         if(!(ng_debug == 0))
           fprintf(stderr, "vid-open: closing dev to run v4lconf\n");
 
-        ng_vid_open$$1$$drv->close(*handle);
-        signed int return_value_system$8;
-        return_value_system$8=system(ng_v4l_conf);
-        if(return_value_system$8 == -1)
+        ng_vid_open__1__drv->close(*handle);
+        signed int return_value_system_8;
+        return_value_system_8=system(ng_v4l_conf);
+        if(return_value_system_8 == -1)
           fprintf(stderr, "could'nt start v4l-conf\n");
 
         fprintf(stderr, "v4l-conf had some trouble, trying to continue anyway\n");
         if(!(ng_debug == 0))
           fprintf(stderr, "vid-open: re-opening dev after v4lconf\n");
 
-        *handle=ng_vid_open$$1$$drv->open(*device, 0);
+        *handle=ng_vid_open__1__drv->open(*device, 0);
         if(*handle == NULL)
         {
-          fprintf(stderr, "vid-open: failed: %s\n", ng_vid_open$$1$$drv->name);
+          fprintf(stderr, "vid-open: failed: %s\n", ng_vid_open__1__drv->name);
           return (struct ng_vid_driver *)(void *)0;
         }
 
         if(!(ng_debug == 0))
           fprintf(stderr, "vid-open: re-open ok\n");
 
-        ng_vid_open$$1$$drv->setupfb(*handle, screen, base);
+        ng_vid_open__1__drv->setupfb(*handle, screen, base);
       }
 
     }
 
-    return ng_vid_open$$1$$drv;
+    return ng_vid_open__1__drv;
   }
 }
 
@@ -23517,14 +23517,14 @@ void ng_writefile_init(void)
 // file libng/grab-ng.c line 431
 signed int ng_writer_register(signed int magic, char *plugname, struct ng_writer *writer)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "writer");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "writer");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
   {
-    list_add_tail$link1(&writer->list, &ng_writers);
+    list_add_tail_link1(&writer->list, &ng_writers);
     return 0;
   }
 }
@@ -23557,14 +23557,14 @@ void ng_yuv420p_to_lut2(void *h, struct ng_video_buf *out, struct ng_video_buf *
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned short int * restrict tmp_post$1 = d;
+      unsigned short int * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned short int * restrict tmp_post$2 = d;
+      unsigned short int * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;
@@ -23607,14 +23607,14 @@ void ng_yuv420p_to_lut4(void *h, struct ng_video_buf *out, struct ng_video_buf *
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned int * restrict tmp_post$1 = d;
+      unsigned int * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned int * restrict tmp_post$2 = d;
+      unsigned int * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;
@@ -23638,13 +23638,13 @@ void ng_yuv422_to_lut2(unsigned char * restrict dest, unsigned char * restrict s
   for( ; !(p == 0); p = p - 2)
   {
     gray = (signed int)ng_yuv_gray[(signed long int)s[(signed long int)0]];
-    unsigned short int * restrict tmp_post$1 = d;
+    unsigned short int * restrict tmp_post_1 = d;
     d = d + 1l;
-    *tmp_post$1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
+    *tmp_post_1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
     gray = (signed int)ng_yuv_gray[(signed long int)s[(signed long int)2]];
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
     s = s + (signed long int)4;
   }
 }
@@ -23658,13 +23658,13 @@ void ng_yuv422_to_lut4(unsigned char * restrict dest, unsigned char * restrict s
   for( ; !(p == 0); p = p - 2)
   {
     gray = (signed int)ng_yuv_gray[(signed long int)s[(signed long int)0]];
-    unsigned int * restrict tmp_post$1 = d;
+    unsigned int * restrict tmp_post_1 = d;
     d = d + 1l;
-    *tmp_post$1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
+    *tmp_post_1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
     gray = (signed int)ng_yuv_gray[(signed long int)s[(signed long int)2]];
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
     s = s + (signed long int)4;
   }
 }
@@ -23693,14 +23693,14 @@ void ng_yuv422p_to_lut2(void *h, struct ng_video_buf *out, struct ng_video_buf *
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned short int * restrict tmp_post$1 = d;
+      unsigned short int * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned short int * restrict tmp_post$2 = d;
+      unsigned short int * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;
@@ -23733,14 +23733,14 @@ void ng_yuv422p_to_lut4(void *h, struct ng_video_buf *out, struct ng_video_buf *
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned int * restrict tmp_post$1 = d;
+      unsigned int * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned int * restrict tmp_post$2 = d;
+      unsigned int * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;
@@ -23773,7 +23773,7 @@ static void ontop_ac(struct _WidgetRec *widget, union _XEvent *event, char **par
 // file x11/motv.c line 301
 static void ontop_cb(struct _WidgetRec *widget, void *clientdata, void *call_data)
 {
-  struct anonymous$57 *tb = (struct anonymous$57 *)call_data;
+  struct anonymous_57 *tb = (struct anonymous_57 *)call_data;
   if(tb->reason == 2)
     do_ontop((char)tb->set);
 
@@ -23798,9 +23798,9 @@ void oss_levels(struct ng_audio_buf *buf, signed int *left, signed int *right)
       i = 0;
       while(!(i >= buf->size))
       {
-        signed int tmp_post$1 = i;
+        signed int tmp_post_1 = i;
         i = i + 1;
-        level=abs((signed int)u[(signed long int)tmp_post$1] - 128);
+        level=abs((signed int)u[(signed long int)tmp_post_1] - 128);
         if(!(lmax >= level))
         {
           lmax = level;
@@ -23815,15 +23815,15 @@ void oss_levels(struct ng_audio_buf *buf, signed int *left, signed int *right)
       i = 0;
       while(!(i >= buf->size))
       {
-        signed int tmp_post$2 = i;
+        signed int tmp_post_2 = i;
         i = i + 1;
-        level=abs((signed int)u[(signed long int)tmp_post$2] - 128);
+        level=abs((signed int)u[(signed long int)tmp_post_2] - 128);
         if(!(lmax >= level))
           lmax = level;
 
-        signed int tmp_post$3 = i;
+        signed int tmp_post_3 = i;
         i = i + 1;
-        level=abs((signed int)u[(signed long int)tmp_post$3] - 128);
+        level=abs((signed int)u[(signed long int)tmp_post_3] - 128);
         if(!(rmax >= level))
           rmax = level;
 
@@ -23938,9 +23938,9 @@ __CPROVER_DUMP_L1:
       h = h + 1l;
     }
 
-    signed int tmp_post$1 = entry->argc;
+    signed int tmp_post_1 = entry->argc;
     entry->argc = entry->argc + 1;
-    entry->argv[(signed long int)tmp_post$1] = token;
+    entry->argv[(signed long int)tmp_post_1] = token;
   }
 }
 
@@ -23953,25 +23953,25 @@ void parse_config(signed int parse_channels)
   char **list;
   char *val;
   list=cfg_list_entries("launch");
-  signed int return_value_sscanf$2;
+  signed int return_value_sscanf_2;
   if(!(list == ((char **)NULL)))
     for( ; !(*list == ((char *)NULL)); list = list + 1l)
     {
       val=cfg_get_str("launch", *list);
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(!(val == ((char *)NULL)))
       {
-        return_value_sscanf$2=sscanf(val, "%15[^,], %127[^\n]", (const void *)key, (const void *)cmdline);
-        tmp_if_expr$3 = 2 == return_value_sscanf$2 ? (_Bool)1 : (_Bool)0;
+        return_value_sscanf_2=sscanf(val, "%15[^,], %127[^\n]", (const void *)key, (const void *)cmdline);
+        tmp_if_expr_3 = 2 == return_value_sscanf_2 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        void *return_value_realloc$1;
-        return_value_realloc$1=realloc((void *)launch, sizeof(struct LAUNCH) /*24ul*/  * (unsigned long int)(nlaunch + 1));
-        launch = (struct LAUNCH *)return_value_realloc$1;
+        void *return_value_realloc_1;
+        return_value_realloc_1=realloc((void *)launch, sizeof(struct LAUNCH) /*24ul*/  * (unsigned long int)(nlaunch + 1));
+        launch = (struct LAUNCH *)return_value_realloc_1;
         (launch + (signed long int)nlaunch)->name=strdup(*list);
         (launch + (signed long int)nlaunch)->key=strdup(key);
         (launch + (signed long int)nlaunch)->cmdline=strdup(cmdline);
@@ -23989,25 +23989,25 @@ void parse_config(signed int parse_channels)
     list=cfg_list_sections();
     for( ; !(*list == ((char *)NULL)); list = list + 1l)
     {
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp(*list, "defaults");
-      if(!(return_value_strcmp$4 == 0))
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp(*list, "defaults");
+      if(!(return_value_strcmp_4 == 0))
       {
-        signed int return_value_strcmp$5;
-        return_value_strcmp$5=strcmp(*list, "global");
-        if(!(return_value_strcmp$5 == 0))
+        signed int return_value_strcmp_5;
+        return_value_strcmp_5=strcmp(*list, "global");
+        if(!(return_value_strcmp_5 == 0))
         {
-          signed int return_value_strcmp$6;
-          return_value_strcmp$6=strcmp(*list, "launch");
-          if(!(return_value_strcmp$6 == 0))
+          signed int return_value_strcmp_6;
+          return_value_strcmp_6=strcmp(*list, "launch");
+          if(!(return_value_strcmp_6 == 0))
           {
-            signed int return_value_strcmp$7;
-            return_value_strcmp$7=strcmp(*list, "eventmap");
-            if(!(return_value_strcmp$7 == 0))
+            signed int return_value_strcmp_7;
+            return_value_strcmp_7=strcmp(*list, "eventmap");
+            if(!(return_value_strcmp_7 == 0))
             {
-              struct CHANNEL *return_value_add_channel$8;
-              return_value_add_channel$8=add_channel(*list);
-              init_channel(*list, return_value_add_channel$8);
+              struct CHANNEL *return_value_add_channel_8;
+              return_value_add_channel_8=add_channel(*list);
+              init_channel(*list, return_value_add_channel_8);
             }
 
           }
@@ -24018,9 +24018,9 @@ void parse_config(signed int parse_channels)
 
     }
     defaults.channel=lookup_channel(defaults.cname);
-    signed int return_value_get_freq$9;
-    return_value_get_freq$9=get_freq(defaults.channel);
-    defaults.freq = return_value_get_freq$9 + defaults.fine;
+    signed int return_value_get_freq_9;
+    return_value_get_freq_9=get_freq(defaults.channel);
+    defaults.freq = return_value_get_freq_9 + defaults.fine;
     calc_frequencies();
   }
 
@@ -24031,14 +24031,14 @@ void parse_config(signed int parse_channels)
 signed int patch_up(char *name)
 {
   char *ptr;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  ptr = name + (signed long int)return_value_strlen$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  ptr = name + (signed long int)return_value_strlen_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
   for( ; ptr >= name; ptr = ptr - 1l)
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*ptr]) == 0))
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*ptr]) == 0))
       break;
 
   }
@@ -24052,18 +24052,18 @@ signed int patch_up(char *name)
       if(!(ptr >= name))
         break;
 
-      char *tmp_post$3 = ptr;
+      char *tmp_post_3 = ptr;
       ptr = ptr - 1l;
-      *tmp_post$3 = (char)48;
+      *tmp_post_3 = (char)48;
     }
     if(!(ptr >= name))
       return 0;
 
     else
     {
-      const unsigned short int **return_value___ctype_b_loc$4;
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*ptr]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_4;
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*ptr]) == 0))
       {
         *ptr = *ptr + 1;
         return 1;
@@ -24080,7 +24080,7 @@ signed int patch_up(char *name)
 static void pixit(void)
 {
   unsigned long int pix;
-  struct ng_video_fmt pixit$$1$$fmt;
+  struct ng_video_fmt pixit__1__fmt;
   struct ng_video_buf *buf;
   if(!(cur_sender == -1))
   {
@@ -24095,11 +24095,11 @@ static void pixit(void)
       if(!((2 & f_drv) == 0))
       {
         video_gd_suspend();
-        memset((void *)&pixit$$1$$fmt, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
-        pixit$$1$$fmt.fmtid = x11_dpy_fmtid;
-        pixit$$1$$fmt.width = (unsigned int)pix_width;
-        pixit$$1$$fmt.height = (unsigned int)pix_height;
-        buf=ng_grabber_get_image(&pixit$$1$$fmt);
+        memset((void *)&pixit__1__fmt, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
+        pixit__1__fmt.fmtid = x11_dpy_fmtid;
+        pixit__1__fmt.width = (unsigned int)pix_width;
+        pixit__1__fmt.height = (unsigned int)pix_height;
+        buf=ng_grabber_get_image(&pixit__1__fmt);
         if(!(buf == ((struct ng_video_buf *)NULL)))
         {
           buf=ng_filter_single(cur_filter, buf);
@@ -24148,7 +24148,7 @@ static void popdown_onscreen(void *client_data, unsigned long int *id)
 static void popup_eh(struct _WidgetRec *widget, void *clientdata, union _XEvent *event, char *cont)
 {
   struct _WidgetRec *popup = (struct _WidgetRec *)clientdata;
-  XmMenuPosition(popup, (struct anonymous$26 *)event);
+  XmMenuPosition(popup, (struct anonymous_26 *)event);
   XtManageChild(popup);
 }
 
@@ -24164,25 +24164,25 @@ static void popupdown_cb(struct _WidgetRec *widget, void *clientdata, void *call
 // file x11/motv.c line 2486
 static void pref_done_cb(struct _WidgetRec *widget, void *clientdata, void *call_data)
 {
-  struct anonymous$83 *cb = (struct anonymous$83 *)call_data;
+  struct anonymous_83 *cb = (struct anonymous_83 *)call_data;
   struct _WidgetRec *w;
   char *name = (char *)(void *)0;
   signed int on;
   signed int width;
   signed int height;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_9;
   if(cb->reason == 31)
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_9 = (_Bool)1;
 
   else
-    tmp_if_expr$9 = cb->reason == 34 ? (_Bool)1 : (_Bool)0;
-  char *return_value_XtName$3;
-  char *return_value_XtName$4;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = cb->reason == 34 ? (_Bool)1 : (_Bool)0;
+  char *return_value_XtName_3;
+  char *return_value_XtName_4;
+  if(tmp_if_expr_9)
   {
-    char return_value_XmToggleButtonGetState$1;
-    return_value_XmToggleButtonGetState$1=XmToggleButtonGetState(pref_fs_toggle);
-    on = (signed int)return_value_XmToggleButtonGetState$1;
+    char return_value_XmToggleButtonGetState_1;
+    return_value_XmToggleButtonGetState_1=XmToggleButtonGetState(pref_fs_toggle);
+    on = (signed int)return_value_XmToggleButtonGetState_1;
     if(!(on == 0))
     {
       XtVaGetValues(pref_fs_menu, (char *)&_XmStrings[(signed long int)8040], &w, (void *)0);
@@ -24197,25 +24197,25 @@ static void pref_done_cb(struct _WidgetRec *widget, void *clientdata, void *call
       fs_width = 0;
       fs_height = 0;
     }
-    char return_value_XmToggleButtonGetState$2;
-    return_value_XmToggleButtonGetState$2=XmToggleButtonGetState(pref_mix_toggle);
-    on = (signed int)return_value_XmToggleButtonGetState$2;
+    char return_value_XmToggleButtonGetState_2;
+    return_value_XmToggleButtonGetState_2=XmToggleButtonGetState(pref_mix_toggle);
+    on = (signed int)return_value_XmToggleButtonGetState_2;
     if(!(on == 0))
     {
       w = (struct _WidgetRec *)(void *)0;
       XtVaGetValues(pref_mix1_menu, (char *)&_XmStrings[(signed long int)8040], &w, (void *)0);
       if(!(w == ((struct _WidgetRec *)NULL)))
       {
-        return_value_XtName$3=XtName(w);
-        strcpy(mixerdev, return_value_XtName$3);
+        return_value_XtName_3=XtName(w);
+        strcpy(mixerdev, return_value_XtName_3);
       }
 
       w = (struct _WidgetRec *)(void *)0;
       XtVaGetValues(pref_mix2_menu, (char *)&_XmStrings[(signed long int)8040], &w, (void *)0);
       if(!(w == ((struct _WidgetRec *)NULL)))
       {
-        return_value_XtName$4=XtName(w);
-        strcpy(mixerctl, return_value_XtName$4);
+        return_value_XtName_4=XtName(w);
+        strcpy(mixerctl, return_value_XtName_4);
       }
 
     }
@@ -24225,18 +24225,18 @@ static void pref_done_cb(struct _WidgetRec *widget, void *clientdata, void *call
       mixerdev[(signed long int)0] = (char)0;
       mixerctl[(signed long int)0] = (char)0;
     }
-    char return_value_XmToggleButtonGetState$5;
-    return_value_XmToggleButtonGetState$5=XmToggleButtonGetState(pref_osd);
-    use_osd = (signed int)return_value_XmToggleButtonGetState$5;
-    char return_value_XmToggleButtonGetState$6;
-    return_value_XmToggleButtonGetState$6=XmToggleButtonGetState(pref_ntsc);
-    keypad_ntsc = (signed int)return_value_XmToggleButtonGetState$6;
-    char return_value_XmToggleButtonGetState$7;
-    return_value_XmToggleButtonGetState$7=XmToggleButtonGetState(pref_partial);
-    keypad_partial = (signed int)return_value_XmToggleButtonGetState$7;
-    char *return_value_XmTextGetString$8;
-    return_value_XmTextGetString$8=XmTextGetString(pref_quality);
-    ng_jpeg_quality=atoi(return_value_XmTextGetString$8);
+    char return_value_XmToggleButtonGetState_5;
+    return_value_XmToggleButtonGetState_5=XmToggleButtonGetState(pref_osd);
+    use_osd = (signed int)return_value_XmToggleButtonGetState_5;
+    char return_value_XmToggleButtonGetState_6;
+    return_value_XmToggleButtonGetState_6=XmToggleButtonGetState(pref_ntsc);
+    keypad_ntsc = (signed int)return_value_XmToggleButtonGetState_6;
+    char return_value_XmToggleButtonGetState_7;
+    return_value_XmToggleButtonGetState_7=XmToggleButtonGetState(pref_partial);
+    keypad_partial = (signed int)return_value_XmToggleButtonGetState_7;
+    char *return_value_XmTextGetString_8;
+    return_value_XmTextGetString_8=XmTextGetString(pref_quality);
+    ng_jpeg_quality=atoi(return_value_XmTextGetString_8);
   }
 
   if(cb->reason == 31)
@@ -24253,9 +24253,9 @@ static void pref_fs(void)
   char s[32l];
   signed int i;
   signed int on;
-  char return_value_XmToggleButtonGetState$1;
-  return_value_XmToggleButtonGetState$1=XmToggleButtonGetState(pref_fs_toggle);
-  on = (signed int)return_value_XmToggleButtonGetState$1;
+  char return_value_XmToggleButtonGetState_1;
+  return_value_XmToggleButtonGetState_1=XmToggleButtonGetState(pref_fs_toggle);
+  on = (signed int)return_value_XmToggleButtonGetState_1;
   if(!(on == 0))
   {
     if(args.vidmode == 0 && have_randr == 0)
@@ -24330,9 +24330,9 @@ static void pref_manage_cb(struct _WidgetRec *widget, void *clientdata, void *ca
   char tmp[16l];
   XmToggleButtonSetState(pref_fs_toggle, (char)(fs_width != 0 && fs_height != 0), (char)0);
   pref_fs();
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(mixerdev);
-  XmToggleButtonSetState(pref_mix_toggle, (char)(return_value_strlen$1 > (unsigned long int)0), (char)0);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(mixerdev);
+  XmToggleButtonSetState(pref_mix_toggle, (char)(return_value_strlen_1 > (unsigned long int)0), (char)0);
   pref_mix1();
   pref_mix2();
   XmToggleButtonSetState(pref_osd, (char)use_osd, (char)0);
@@ -24348,12 +24348,12 @@ static void pref_manage_cb(struct _WidgetRec *widget, void *clientdata, void *ca
 static void pref_menu(struct _WidgetRec *option, struct _WidgetRec *menu, signed int enable)
 {
   delete_children(menu);
-  struct _WidgetRec *return_value_XmOptionButtonGadget$1;
-  return_value_XmOptionButtonGadget$1=XmOptionButtonGadget(option);
-  XtVaSetValues(return_value_XmOptionButtonGadget$1, (char *)&XtStrings[(signed long int)711], enable, (void *)0);
-  struct _WidgetRec *return_value_XmOptionLabelGadget$2;
-  return_value_XmOptionLabelGadget$2=XmOptionLabelGadget(option);
-  XtVaSetValues(return_value_XmOptionLabelGadget$2, (char *)&XtStrings[(signed long int)711], enable, (void *)0);
+  struct _WidgetRec *return_value_XmOptionButtonGadget_1;
+  return_value_XmOptionButtonGadget_1=XmOptionButtonGadget(option);
+  XtVaSetValues(return_value_XmOptionButtonGadget_1, (char *)&XtStrings[(signed long int)711], enable, (void *)0);
+  struct _WidgetRec *return_value_XmOptionLabelGadget_2;
+  return_value_XmOptionLabelGadget_2=XmOptionLabelGadget(option);
+  XtVaSetValues(return_value_XmOptionLabelGadget_2, (char *)&XtStrings[(signed long int)711], enable, (void *)0);
   if(enable == 0)
     XtVaCreateManagedWidget("none", xmPushButtonWidgetClass, menu, (void *)0);
 
@@ -24368,42 +24368,42 @@ static void pref_mix1(void)
   signed int on;
   signed int i;
   struct ng_devinfo *info = (struct ng_devinfo *)(void *)0;
-  char return_value_XmToggleButtonGetState$1;
-  return_value_XmToggleButtonGetState$1=XmToggleButtonGetState(pref_mix_toggle);
-  on = (signed int)return_value_XmToggleButtonGetState$1;
-  signed int return_value_list_empty$2;
-  return_value_list_empty$2=list_empty(&ng_mix_drivers);
-  if(return_value_list_empty$2 == 0)
+  char return_value_XmToggleButtonGetState_1;
+  return_value_XmToggleButtonGetState_1=XmToggleButtonGetState(pref_mix_toggle);
+  on = (signed int)return_value_XmToggleButtonGetState_1;
+  signed int return_value_list_empty_2;
+  return_value_list_empty_2=list_empty(&ng_mix_drivers);
+  if(return_value_list_empty_2 == 0)
   {
     mix = (struct ng_mix_driver *)((char *)ng_mix_drivers.next - (signed long int)(unsigned long int)&((struct ng_mix_driver *)0)->list);
     info=mix->probe();
   }
 
-  unsigned long int return_value_strlen$3;
-  signed int return_value_strcmp$4;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_strcmp_4;
   if(!(info == ((struct ng_devinfo *)NULL)) && !(on == 0))
   {
     pref_menu(pref_mix1_option, pref_mix1_menu, 1);
     i = 0;
     do
     {
-      return_value_strlen$3=strlen((info + (signed long int)i)->name);
-      if(return_value_strlen$3 == 0ul)
+      return_value_strlen_3=strlen((info + (signed long int)i)->name);
+      if(return_value_strlen_3 == 0ul)
         break;
 
       push=XtVaCreateManagedWidget((info + (signed long int)i)->device, xmPushButtonWidgetClass, pref_mix1_menu, (void *)0);
       XtAddCallback(push, (char *)&_XmStrings[(signed long int)4700], pref_mix2_cb, (void *)0);
       toolkit_set_label(push, (info + (signed long int)i)->name);
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if(i == 0)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$4=strcmp((info + (signed long int)i)->device, mixerdev);
-        tmp_if_expr$5 = 0 == return_value_strcmp$4 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_4=strcmp((info + (signed long int)i)->device, mixerdev);
+        tmp_if_expr_5 = 0 == return_value_strcmp_4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         XtVaSetValues(pref_mix1_menu, (char *)&_XmStrings[(signed long int)8040], push, (void *)0);
 
       i = i + 1;
@@ -24434,20 +24434,20 @@ static void pref_mix2(void)
   signed int i;
   signed int on;
   struct ng_devinfo *info = (struct ng_devinfo *)(void *)0;
-  char return_value_XmToggleButtonGetState$1;
-  return_value_XmToggleButtonGetState$1=XmToggleButtonGetState(pref_mix_toggle);
-  on = (signed int)return_value_XmToggleButtonGetState$1;
+  char return_value_XmToggleButtonGetState_1;
+  return_value_XmToggleButtonGetState_1=XmToggleButtonGetState(pref_mix_toggle);
+  on = (signed int)return_value_XmToggleButtonGetState_1;
   XtVaGetValues(pref_mix1_menu, (char *)&_XmStrings[(signed long int)8040], &w, (void *)0);
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   if(!(w == ((struct _WidgetRec *)NULL)))
   {
     name=XtName(w);
-    signed int return_value_list_empty$3;
-    return_value_list_empty$3=list_empty(&ng_mix_drivers);
-    if(return_value_list_empty$3 == 0)
+    signed int return_value_list_empty_3;
+    return_value_list_empty_3=list_empty(&ng_mix_drivers);
+    if(return_value_list_empty_3 == 0)
     {
-      return_value_strcmp$2=strcmp(name, "none");
-      if(!(return_value_strcmp$2 == 0))
+      return_value_strcmp_2=strcmp(name, "none");
+      if(!(return_value_strcmp_2 == 0))
       {
         mix = (struct ng_mix_driver *)((char *)ng_mix_drivers.next - (signed long int)(unsigned long int)&((struct ng_mix_driver *)0)->list);
         info=mix->channels(name);
@@ -24457,22 +24457,22 @@ static void pref_mix2(void)
 
   }
 
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_4;
   if(!(info == ((struct ng_devinfo *)NULL)) && !(on == 0))
   {
     pref_menu(pref_mix2_option, pref_mix2_menu, 1);
     i = 0;
     do
     {
-      return_value_strlen$4=strlen((info + (signed long int)i)->name);
-      if(return_value_strlen$4 == 0ul)
+      return_value_strlen_4=strlen((info + (signed long int)i)->name);
+      if(return_value_strlen_4 == 0ul)
         break;
 
       push=XtVaCreateManagedWidget((info + (signed long int)i)->device, xmPushButtonWidgetClass, pref_mix2_menu, (void *)0);
       toolkit_set_label(push, (info + (signed long int)i)->name);
-      signed int return_value_strcasecmp$5;
-      return_value_strcasecmp$5=strcasecmp((info + (signed long int)i)->device, mixerctl);
-      if(return_value_strcasecmp$5 == 0)
+      signed int return_value_strcasecmp_5;
+      return_value_strcasecmp_5=strcasecmp((info + (signed long int)i)->device, mixerctl);
+      if(return_value_strcasecmp_5 == 0)
         XtVaSetValues(pref_mix2_menu, (char *)&_XmStrings[(signed long int)8040], push, (void *)0);
 
       i = i + 1;
@@ -24508,9 +24508,9 @@ static void print_choices(char *name, char *value, struct STRTAB *tab)
 static signed int raw_audio(void *handle, struct ng_audio_buf *buf)
 {
   struct raw_handle *h = (struct raw_handle *)handle;
-  signed long int return_value_write$1;
-  return_value_write$1=write(h->wav_fd, (const void *)buf->data, (unsigned long int)buf->size);
-  if(!((signed long int)buf->size == return_value_write$1))
+  signed long int return_value_write_1;
+  return_value_write_1=write(h->wav_fd, (const void *)buf->data, (unsigned long int)buf->size);
+  if(!((signed long int)buf->size == return_value_write_1))
     return -1;
 
   else
@@ -24550,9 +24550,9 @@ static void * raw_open(char *videoname, char *audioname, struct ng_video_fmt *vi
   signed int frame_rate_code = 0;
   signed int frame_rate_mul = fps;
   signed int frame_rate_div = 1000;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct raw_handle) /*88ul*/ );
-  h = (struct raw_handle *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct raw_handle) /*88ul*/ );
+  h = (struct raw_handle *)return_value_malloc_1;
   if(h == ((struct raw_handle *)NULL))
     return (void *)0;
 
@@ -24567,11 +24567,11 @@ static void * raw_open(char *videoname, char *audioname, struct ng_video_fmt *vi
       h->wav_fd=open(audioname, 0100 | 02 | 01000, 0666);
       if(h->wav_fd == -1)
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fprintf(stderr, "open %s: %s\n", audioname, return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fprintf(stderr, "open %s: %s\n", audioname, return_value_strerror_3);
         free((void *)h);
         return (void *)0;
       }
@@ -24647,11 +24647,11 @@ static void * raw_open(char *videoname, char *audioname, struct ng_video_fmt *vi
         h->fd=open(videoname, 0100 | 02 | 01000, 0666);
         if(h->fd == -1)
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          fprintf(stderr, "open %s: %s\n", videoname, return_value_strerror$5);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          fprintf(stderr, "open %s: %s\n", videoname, return_value_strerror_5);
           if(!(h->wav_fd == 0))
             close(h->wav_fd);
 
@@ -24678,9 +24678,9 @@ static void * raw_open(char *videoname, char *audioname, struct ng_video_fmt *vi
             case 2:
               sprintf(header, "YUV4MPEG2 W%d H%d F%d:%d\n", h->video.width, h->video.height, frame_rate_mul, frame_rate_div);
           }
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(header);
-          write(h->fd, (const void *)header, return_value_strlen$6);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(header);
+          write(h->fd, (const void *)header, return_value_strlen_6);
         }
 
       }
@@ -24696,8 +24696,8 @@ static void * raw_open(char *videoname, char *audioname, struct ng_video_fmt *vi
 static signed int raw_video(void *handle, struct ng_video_buf *buf)
 {
   struct raw_handle *h = (struct raw_handle *)handle;
-  signed long int return_value_write$1;
-  signed long int return_value_write$2;
+  signed long int return_value_write_1;
+  signed long int return_value_write_2;
   if(!(h->vpriv == ((struct raw_priv *)NULL)))
   {
     if(!(h->vpriv->yuv4mpeg == 0))
@@ -24705,16 +24705,16 @@ static signed int raw_video(void *handle, struct ng_video_buf *buf)
       {
         case 1:
         {
-          return_value_write$1=write(h->fd, (const void *)"FRAME\n", (unsigned long int)6);
-          if(!(return_value_write$1 == 6l))
+          return_value_write_1=write(h->fd, (const void *)"FRAME\n", (unsigned long int)6);
+          if(!(return_value_write_1 == 6l))
             return -1;
 
           break;
         }
         case 2:
         {
-          return_value_write$2=write(h->fd, (const void *)"FRAME \n", (unsigned long int)7);
-          if(!(return_value_write$2 == 7l))
+          return_value_write_2=write(h->fd, (const void *)"FRAME \n", (unsigned long int)7);
+          if(!(return_value_write_2 == 7l))
             return -1;
 
         }
@@ -24722,9 +24722,9 @@ static signed int raw_video(void *handle, struct ng_video_buf *buf)
 
   }
 
-  signed long int return_value_write$3;
-  return_value_write$3=write(h->fd, (const void *)buf->data, buf->size);
-  if(!(buf->size == (unsigned long int)return_value_write$3))
+  signed long int return_value_write_3;
+  return_value_write_3=write(h->fd, (const void *)buf->data, buf->size);
+  if(!(buf->size == (unsigned long int)return_value_write_3))
     return -1;
 
   else
@@ -24741,26 +24741,26 @@ void read_config(char *conffile, signed int *argc, char **argv)
   signed int i;
   if(!(conffile == ((char *)NULL)))
   {
-    signed int return_value_cfg_parse_file$1;
-    return_value_cfg_parse_file$1=cfg_parse_file(conffile);
-    if(return_value_cfg_parse_file$1 == 0)
+    signed int return_value_cfg_parse_file_1;
+    return_value_cfg_parse_file_1=cfg_parse_file(conffile);
+    if(return_value_cfg_parse_file_1 == 0)
       have_config = 1;
 
   }
 
   else
   {
-    char *return_value_getenv$2;
-    return_value_getenv$2=getenv("HOME");
-    sprintf(filename, "%.*s/%s", (signed int)sizeof(char [100l]) /*100ul*/  - 8, return_value_getenv$2, (const void *)".xawtv");
-    signed int return_value_cfg_parse_file$3;
-    return_value_cfg_parse_file$3=cfg_parse_file("/etc/X11/xawtvrc");
-    if(return_value_cfg_parse_file$3 == 0)
+    char *return_value_getenv_2;
+    return_value_getenv_2=getenv("HOME");
+    sprintf(filename, "%.*s/%s", (signed int)sizeof(char [100l]) /*100ul*/  - 8, return_value_getenv_2, (const void *)".xawtv");
+    signed int return_value_cfg_parse_file_3;
+    return_value_cfg_parse_file_3=cfg_parse_file("/etc/X11/xawtvrc");
+    if(return_value_cfg_parse_file_3 == 0)
       have_config = 1;
 
-    signed int return_value_cfg_parse_file$4;
-    return_value_cfg_parse_file$4=cfg_parse_file(filename);
-    if(return_value_cfg_parse_file$4 == 0)
+    signed int return_value_cfg_parse_file_4;
+    return_value_cfg_parse_file_4=cfg_parse_file(filename);
+    if(return_value_cfg_parse_file_4 == 0)
       have_config = 1;
 
   }
@@ -24771,9 +24771,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
   if(!(val == ((char *)NULL)))
   {
     mixer=strdup(val);
-    signed int return_value_sscanf$5;
-    return_value_sscanf$5=sscanf(mixer, "%31[^:]:%15s", (const void *)mixerdev, (const void *)mixerctl);
-    if(!(return_value_sscanf$5 == 2))
+    signed int return_value_sscanf_5;
+    return_value_sscanf_5=sscanf(mixer, "%31[^:]:%15s", (const void *)mixerdev, (const void *)mixerctl);
+    if(!(return_value_sscanf_5 == 2))
     {
       strcpy(mixerdev, ng_dev.mixer);
       strncpy(mixerctl, val, (unsigned long int)15);
@@ -24787,14 +24787,14 @@ void read_config(char *conffile, signed int *argc, char **argv)
     midi=strdup(val);
 
   val=cfg_get_str("global", "freqtab");
-  signed int return_value_strcasecmp$6;
+  signed int return_value_strcasecmp_6;
   if(!(val == ((char *)NULL)))
   {
     i = 0;
     for( ; !((chanlists + (signed long int)i)->name == ((char *)NULL)); i = i + 1)
     {
-      return_value_strcasecmp$6=strcasecmp(val, (chanlists + (signed long int)i)->name);
-      if(return_value_strcasecmp$6 == 0)
+      return_value_strcasecmp_6=strcasecmp(val, (chanlists + (signed long int)i)->name);
+      if(return_value_strcasecmp_6 == 0)
         break;
 
     }
@@ -24808,9 +24808,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
   val=cfg_get_str("global", "fullscreen");
   if(!(val == ((char *)NULL)))
   {
-    signed int return_value_sscanf$7;
-    return_value_sscanf$7=sscanf(val, "%d x %d", &fs_width, &fs_height);
-    if(!(return_value_sscanf$7 == 2))
+    signed int return_value_sscanf_7;
+    return_value_sscanf_7=sscanf(val, "%d x %d", &fs_width, &fs_height);
+    if(!(return_value_sscanf_7 == 2))
     {
       fprintf(stderr, "invalid value for fullscreen: %s\n", val);
       fs_height = 0;
@@ -24822,9 +24822,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
   val=cfg_get_str("global", "pixsize");
   if(!(val == ((char *)NULL)))
   {
-    signed int return_value_sscanf$8;
-    return_value_sscanf$8=sscanf(val, "%d x %d", &pix_width, &pix_height);
-    if(!(return_value_sscanf$8 == 2))
+    signed int return_value_sscanf_8;
+    return_value_sscanf_8=sscanf(val, "%d x %d", &pix_width, &pix_height);
+    if(!(return_value_sscanf_8 == 2))
     {
       fprintf(stderr, "invalid value for pixsize: %s\n", val);
       pix_width = 128;
@@ -24840,9 +24840,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
   val=cfg_get_str("global", "wm-off-by");
   if(!(val == ((char *)NULL)))
   {
-    signed int return_value_sscanf$9;
-    return_value_sscanf$9=sscanf(val, "%d %d", &fs_xoff, &fs_yoff);
-    if(!(return_value_sscanf$9 == 2))
+    signed int return_value_sscanf_9;
+    return_value_sscanf_9=sscanf(val, "%d %d", &fs_xoff, &fs_yoff);
+    if(!(return_value_sscanf_9 == 2))
     {
       fprintf(stderr, "invalid value for wm-off-by: %s\n", val);
       fs_yoff = 0;
@@ -24854,9 +24854,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
   val=cfg_get_str("global", "ratio");
   if(!(val == ((char *)NULL)))
   {
-    signed int return_value_sscanf$10;
-    return_value_sscanf$10=sscanf(val, "%d:%d", &ng_ratio_x, &ng_ratio_y);
-    if(!(return_value_sscanf$10 == 2))
+    signed int return_value_sscanf_10;
+    return_value_sscanf_10=sscanf(val, "%d:%d", &ng_ratio_x, &ng_ratio_y);
+    if(!(return_value_sscanf_10 == 2))
     {
       fprintf(stderr, "invalid value for ratio: %s\n", val);
       ng_ratio_y = 0;
@@ -24897,11 +24897,11 @@ void read_config(char *conffile, signed int *argc, char **argv)
   }
 
   val=cfg_get_str("global", "osd-position");
-  signed int return_value_sscanf$11;
+  signed int return_value_sscanf_11;
   if(!(val == ((char *)NULL)))
   {
-    return_value_sscanf$11=sscanf(val, "%d , %d", &osd_x, &osd_y);
-    if(!(return_value_sscanf$11 == 2))
+    return_value_sscanf_11=sscanf(val, "%d , %d", &osd_x, &osd_y);
+    if(!(return_value_sscanf_11 == 2))
       fprintf(stderr, "invalid values for osd-position: %s\n", val);
 
   }
@@ -24942,9 +24942,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
     for( ; !(item == &ng_filters); item = item->next)
     {
       struct ng_filter *f = (struct ng_filter *)((char *)item - (signed long int)(unsigned long int)&((struct ng_filter *)0)->list);
-      signed int return_value_strcasecmp$12;
-      return_value_strcasecmp$12=strcasecmp(f->name, val);
-      if(return_value_strcasecmp$12 == 0)
+      signed int return_value_strcasecmp_12;
+      return_value_strcasecmp_12=strcasecmp(f->name, val);
+      if(return_value_strcasecmp_12 == 0)
         cur_filter = f;
 
     }
@@ -24954,7 +24954,7 @@ void read_config(char *conffile, signed int *argc, char **argv)
 
 // read_sim
 // file common/vbi-sim.c line 301
-static void read_sim(unsigned char *raw_data, struct anonymous$98 *sliced_data, signed int *lines, double *timestamp)
+static void read_sim(unsigned char *raw_data, struct anonymous_98 *sliced_data, signed int *lines, double *timestamp)
 {
   unsigned char *buf;
   double start;
@@ -24969,24 +24969,24 @@ static void read_sim(unsigned char *raw_data, struct anonymous$98 *sliced_data, 
     sim_time = sim_time + (double)1 / 25.0;
   start = (double)sim.offset / (double)sim.sampling_rate;
   inc = (double)1 / (double)sim.sampling_rate;
-  signed int return_value_odd$1;
-  signed int return_value_odd$2;
-  double return_value_cc_sim$3;
-  double return_value_wss525_sim$4;
-  signed int return_value_odd$5;
-  signed int return_value_odd$6;
-  double return_value_cc_sim$7;
-  double return_value_wss625_sim$8;
+  signed int return_value_odd_1;
+  signed int return_value_odd_2;
+  double return_value_cc_sim_3;
+  double return_value_wss525_sim_4;
+  signed int return_value_odd_5;
+  signed int return_value_odd_6;
+  double return_value_cc_sim_7;
+  double return_value_wss625_sim_8;
   if(sim.scanning == 525)
   {
     buf = raw_data + (signed long int)((21 - sim.start[(signed long int)0]) * sim.bytes_per_line);
     i = 0;
     for( ; !(i >= sim.bytes_per_line); i = i + 1)
     {
-      return_value_odd$1=odd((signed int)caption_text[(signed long int)caption_i]);
-      return_value_odd$2=odd((signed int)caption_text[(signed long int)(caption_i + (unsigned int)1)]);
-      return_value_cc_sim$3=cc_sim(start + (double)i * inc, (double)(15734 * 32), (unsigned char)return_value_odd$1, (unsigned char)return_value_odd$2);
-      buf[(signed long int)i] = (unsigned char)(return_value_cc_sim$3 * (double)110 + (double)60);
+      return_value_odd_1=odd((signed int)caption_text[(signed long int)caption_i]);
+      return_value_odd_2=odd((signed int)caption_text[(signed long int)(caption_i + (unsigned int)1)]);
+      return_value_cc_sim_3=cc_sim(start + (double)i * inc, (double)(15734 * 32), (unsigned char)return_value_odd_1, (unsigned char)return_value_odd_2);
+      buf[(signed long int)i] = (unsigned char)(return_value_cc_sim_3 * (double)110 + (double)60);
     }
     caption_i = caption_i + (unsigned int)2;
     if((unsigned long int)caption_i >= 35ul)
@@ -25010,8 +25010,8 @@ static void read_sim(unsigned char *raw_data, struct anonymous$98 *sliced_data, 
     i = 0;
     for( ; !(i >= sim.bytes_per_line); i = i + 1)
     {
-      return_value_wss525_sim$4=wss525_sim(start + (double)i * inc, (double)447443, (unsigned int)bits);
-      buf[(signed long int)i] = (unsigned char)(return_value_wss525_sim$4 * (double)110 + (double)60);
+      return_value_wss525_sim_4=wss525_sim(start + (double)i * inc, (double)447443, (unsigned int)bits);
+      buf[(signed long int)i] = (unsigned char)(return_value_wss525_sim_4 * (double)110 + (double)60);
     }
   }
 
@@ -25021,10 +25021,10 @@ static void read_sim(unsigned char *raw_data, struct anonymous$98 *sliced_data, 
     i = 0;
     for( ; !(i >= sim.bytes_per_line); i = i + 1)
     {
-      return_value_odd$5=odd((signed int)caption_text[(signed long int)caption_i]);
-      return_value_odd$6=odd((signed int)caption_text[(signed long int)(caption_i + (unsigned int)1)]);
-      return_value_cc_sim$7=cc_sim(start + (double)i * inc, (double)(15625 * 32), (unsigned char)return_value_odd$5, (unsigned char)return_value_odd$6);
-      buf[(signed long int)i] = (unsigned char)(return_value_cc_sim$7 * (double)110 + (double)60);
+      return_value_odd_5=odd((signed int)caption_text[(signed long int)caption_i]);
+      return_value_odd_6=odd((signed int)caption_text[(signed long int)(caption_i + (unsigned int)1)]);
+      return_value_cc_sim_7=cc_sim(start + (double)i * inc, (double)(15625 * 32), (unsigned char)return_value_odd_5, (unsigned char)return_value_odd_6);
+      buf[(signed long int)i] = (unsigned char)(return_value_cc_sim_7 * (double)110 + (double)60);
     }
     caption_i = caption_i + (unsigned int)2;
     if((unsigned long int)caption_i >= 35ul)
@@ -25034,21 +25034,21 @@ static void read_sim(unsigned char *raw_data, struct anonymous$98 *sliced_data, 
     signed int g1 = 2;
     signed int g2 = 3;
     signed int g3 = 4;
-    signed int read_sim$$1$$2$$2$$bits = (g3 << 11) + (g2 << 8) + (g1 << 4) + g0;
+    signed int read_sim__1__2__2__bits = (g3 << 11) + (g2 << 8) + (g1 << 4) + g0;
     buf = raw_data + (signed long int)((23 - sim.start[(signed long int)0]) * sim.bytes_per_line);
     i = 0;
     for( ; !(i >= sim.bytes_per_line); i = i + 1)
     {
-      return_value_wss625_sim$8=wss625_sim(start + (double)i * inc, (double)(15625 * 320), (unsigned int)read_sim$$1$$2$$2$$bits);
-      buf[(signed long int)i] = (unsigned char)(return_value_wss625_sim$8 * (double)110 + (double)60);
+      return_value_wss625_sim_8=wss625_sim(start + (double)i * inc, (double)(15625 * 320), (unsigned int)read_sim__1__2__2__bits);
+      buf[(signed long int)i] = (unsigned char)(return_value_wss625_sim_8 * (double)110 + (double)60);
     }
     signed int line;
-    signed int read_sim$$1$$2$$3$$count;
+    signed int read_sim__1__2__3__count;
     unsigned char *text;
     buf = raw_data;
     line = sim.start[(signed long int)0];
-    read_sim$$1$$2$$3$$count = sim.count[(signed long int)0];
-    for( ; read_sim$$1$$2$$3$$count >= 1; buf = buf + (signed long int)sim.bytes_per_line)
+    read_sim__1__2__3__count = sim.count[(signed long int)0];
+    for( ; read_sim__1__2__3__count >= 1; buf = buf + (signed long int)sim.bytes_per_line)
     {
       if(line >= 7 && !(line >= 16) || line >= 19 && !(line >= 22))
       {
@@ -25056,18 +25056,18 @@ static void read_sim(unsigned char *raw_data, struct anonymous$98 *sliced_data, 
         i = 0;
         for( ; !(i >= sim.bytes_per_line); i = i + 1)
         {
-          double return_value_ttx_sim$9;
-          return_value_ttx_sim$9=ttx_sim(start + (double)i * inc, (double)(15625 * 444), text);
-          buf[(signed long int)i] = (unsigned char)(return_value_ttx_sim$9 * (double)110 + (double)60);
+          double return_value_ttx_sim_9;
+          return_value_ttx_sim_9=ttx_sim(start + (double)i * inc, (double)(15625 * 444), text);
+          buf[(signed long int)i] = (unsigned char)(return_value_ttx_sim_9 * (double)110 + (double)60);
         }
       }
 
       line = line + 1;
-      read_sim$$1$$2$$3$$count = read_sim$$1$$2$$3$$count - 1;
+      read_sim__1__2__3__count = read_sim__1__2__3__count - 1;
     }
     line = sim.start[(signed long int)1];
-    read_sim$$1$$2$$3$$count = sim.count[(signed long int)1];
-    for( ; read_sim$$1$$2$$3$$count >= 1; buf = buf + (signed long int)sim.bytes_per_line)
+    read_sim__1__2__3__count = sim.count[(signed long int)1];
+    for( ; read_sim__1__2__3__count >= 1; buf = buf + (signed long int)sim.bytes_per_line)
     {
       if(line >= 320 && !(line >= 329) || line >= 332 && !(line >= 336))
       {
@@ -25075,14 +25075,14 @@ static void read_sim(unsigned char *raw_data, struct anonymous$98 *sliced_data, 
         i = 0;
         for( ; !(i >= sim.bytes_per_line); i = i + 1)
         {
-          double return_value_ttx_sim$10;
-          return_value_ttx_sim$10=ttx_sim(start + (double)i * inc, (double)(15625 * 444), text);
-          buf[(signed long int)i] = (unsigned char)(return_value_ttx_sim$10 * (double)110 + (double)60);
+          double return_value_ttx_sim_10;
+          return_value_ttx_sim_10=ttx_sim(start + (double)i * inc, (double)(15625 * 444), text);
+          buf[(signed long int)i] = (unsigned char)(return_value_ttx_sim_10 * (double)110 + (double)60);
         }
       }
 
       line = line + 1;
-      read_sim$$1$$2$$3$$count = read_sim$$1$$2$$3$$count - 1;
+      read_sim__1__2__3__count = read_sim__1__2__3__count - 1;
     }
   }
   *lines=vbi_raw_decode(&sim, raw_data, sliced_data);
@@ -25094,16 +25094,16 @@ static signed long int readbuf(struct _snd_pcm *handle, char *buf, signed long i
 {
   signed long int r;
   r=snd_pcm_readi(handle, (void *)buf, (unsigned long int)len);
-  const char *return_value_snd_strerror$2;
+  const char *return_value_snd_strerror_2;
   if(!(r == -11l) && !(r >= 0l))
   {
-    signed int return_value_snd_pcm_recover$1;
-    return_value_snd_pcm_recover$1=snd_pcm_recover(handle, (signed int)r, 0);
-    r = (signed long int)return_value_snd_pcm_recover$1;
+    signed int return_value_snd_pcm_recover_1;
+    return_value_snd_pcm_recover_1=snd_pcm_recover(handle, (signed int)r, 0);
+    r = (signed long int)return_value_snd_pcm_recover_1;
     if(!(r >= 0l))
     {
-      return_value_snd_strerror$2=snd_strerror((signed int)r);
-      fprintf(error_fp, "alsa: overrun recover error: %s\n", return_value_snd_strerror$2);
+      return_value_snd_strerror_2=snd_strerror((signed int)r);
+      fprintf(error_fp, "alsa: overrun recover error: %s\n", return_value_snd_strerror_2);
     }
 
   }
@@ -25136,11 +25136,11 @@ static void * record_audio_thread(void *arg)
 {
   struct movie_handle *h = (struct movie_handle *)arg;
   struct ng_audio_buf *buf;
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(!(debug == 0))
   {
-    return_value_getpid$1=getpid();
-    fprintf(stderr, "record_audio_thread start [pid=%d]\n", return_value_getpid$1);
+    return_value_getpid_1=getpid();
+    fprintf(stderr, "record_audio_thread start [pid=%d]\n", return_value_getpid_1);
   }
 
   buf=h->dsp->read(h->hdsp, (signed long int)h->stopby);
@@ -25149,14 +25149,14 @@ static void * record_audio_thread(void *arg)
     if(!(buf->size == 0))
     {
       h->ats = (unsigned long int)buf->info.ts;
-      signed long int return_value_ng_get_timestamp$2;
-      return_value_ng_get_timestamp$2=ng_get_timestamp();
-      h->rts = (unsigned long int)return_value_ng_get_timestamp$2 - h->start;
+      signed long int return_value_ng_get_timestamp_2;
+      return_value_ng_get_timestamp_2=ng_get_timestamp();
+      h->rts = (unsigned long int)return_value_ng_get_timestamp_2 - h->start;
       h->rdrift = h->rts - h->ats;
       h->vdrift = h->vts - h->ats;
-      signed int return_value_fifo_put$3;
-      return_value_fifo_put$3=fifo_put(&h->afifo, (void *)buf);
-      if(!(return_value_fifo_put$3 == 0))
+      signed int return_value_fifo_put_3;
+      return_value_fifo_put_3=fifo_put(&h->afifo, (void *)buf);
+      if(!(return_value_fifo_put_3 == 0))
         free((void *)buf);
 
     }
@@ -25176,23 +25176,23 @@ static void redblue_swap(unsigned char *dest, unsigned char *src, signed int p)
 {
   unsigned char *s = src;
   unsigned char *d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    unsigned char *tmp_post$2 = d;
+    unsigned char *tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = s[(signed long int)2];
-    unsigned char *tmp_post$3 = d;
+    *tmp_post_2 = s[(signed long int)2];
+    unsigned char *tmp_post_3 = d;
     d = d + 1l;
-    *tmp_post$3 = s[(signed long int)1];
-    unsigned char *tmp_post$4 = d;
+    *tmp_post_3 = s[(signed long int)1];
+    unsigned char *tmp_post_4 = d;
     d = d + 1l;
-    *tmp_post$4 = s[(signed long int)0];
+    *tmp_post_4 = s[(signed long int)0];
     s = s + (signed long int)3;
   }
   while((_Bool)1);
@@ -25203,12 +25203,12 @@ static void redblue_swap(unsigned char *dest, unsigned char *src, signed int p)
 static void refresh_timer(void *clientData, unsigned long int *id)
 {
   unsigned long int win;
-  struct anonymous$0 *return_value_XtScreen$1;
-  return_value_XtScreen$1=XtScreen(video);
-  win = return_value_XtScreen$1->root;
-  struct _XDisplay *refresh_timer$$1$$dpy;
-  refresh_timer$$1$$dpy=XtDisplay(video);
-  struct anonymous$135 xswa;
+  struct anonymous_0 *return_value_XtScreen_1;
+  return_value_XtScreen_1=XtScreen(video);
+  win = return_value_XtScreen_1->root;
+  struct _XDisplay *refresh_timer__1__dpy;
+  refresh_timer__1__dpy=XtDisplay(video);
+  struct anonymous_135 xswa;
   unsigned long int mask;
   unsigned long int tmp;
   if(move == 0 && visibility == 0 && !(wmap == 0))
@@ -25231,10 +25231,10 @@ static void refresh_timer(void *clientData, unsigned long int *id)
     xswa.backing_store = 0;
     xswa.save_under = 0;
     mask = (unsigned long int)(1L << 10 | 1L << 6 | 1L << 9);
-    tmp=XCreateWindow(refresh_timer$$1$$dpy, win, 0, 0, swidth, sheight, (unsigned int)0, (signed int)0L, (unsigned int)1, ((struct anonymous$8 *)NULL), mask, &xswa);
-    XMapWindow(refresh_timer$$1$$dpy, tmp);
-    XUnmapWindow(refresh_timer$$1$$dpy, tmp);
-    XDestroyWindow(refresh_timer$$1$$dpy, tmp);
+    tmp=XCreateWindow(refresh_timer__1__dpy, win, 0, 0, swidth, sheight, (unsigned int)0, (signed int)0L, (unsigned int)1, ((struct anonymous_8 *)NULL), mask, &xswa);
+    XMapWindow(refresh_timer__1__dpy, tmp);
+    XUnmapWindow(refresh_timer__1__dpy, tmp);
+    XDestroyWindow(refresh_timer__1__dpy, tmp);
     move = 0;
   }
 }
@@ -25252,24 +25252,24 @@ static void resize_event(struct _WidgetRec *widget, void *client_data, union _XE
       first = 0;
     }
 
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     static signed int height = 0;
     static signed int width = 0;
     if(!(width == event->xconfigure.width))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = height != event->xconfigure.height ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = height != event->xconfigure.height ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       width = event->xconfigure.width;
       height = event->xconfigure.height;
       video_gd_configure(width, height);
-      struct _XDisplay *return_value_XtDisplay$1;
-      return_value_XtDisplay$1=XtDisplay(tv);
-      unsigned long int return_value_XtWindow$2;
-      return_value_XtWindow$2=XtWindow(tv);
-      XClearWindow(return_value_XtDisplay$1, return_value_XtWindow$2);
+      struct _XDisplay *return_value_XtDisplay_1;
+      return_value_XtDisplay_1=XtDisplay(tv);
+      unsigned long int return_value_XtWindow_2;
+      return_value_XtWindow_2=XtWindow(tv);
+      XClearWindow(return_value_XtDisplay_1, return_value_XtWindow_2);
     }
 
   }
@@ -25284,20 +25284,20 @@ static void rgb15_be_gray(unsigned char * restrict dest, unsigned char * restric
   signed int g;
   signed int b;
   unsigned char * restrict d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     r = ((signed int)src[(signed long int)0] & 0x7c) >> 2;
     g = ((signed int)src[(signed long int)0] & 0x03) << 3 | ((signed int)src[(signed long int)1] & 0xe0) >> 5;
     b = (signed int)src[(signed long int)1] & 0x1f;
-    unsigned char * restrict tmp_post$2 = d;
+    unsigned char * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned char)((3 * r + 6 * g + b) / 10 << 3);
+    *tmp_post_2 = (unsigned char)((3 * r + 6 * g + b) / 10 << 3);
     src = src + (signed long int)2;
   }
   while((_Bool)1);
@@ -25311,20 +25311,20 @@ static void rgb15_native_gray(unsigned char * restrict dest, unsigned char *s, s
   signed int g;
   signed int b;
   unsigned short int * restrict src = (unsigned short int *)s;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     r = ((signed int)src[(signed long int)0] & 0x7c00) >> 10;
     g = ((signed int)src[(signed long int)0] & 0x03e0) >> 5;
     b = (signed int)src[(signed long int)0] & 0x001f;
-    unsigned char * restrict tmp_post$2 = dest;
+    unsigned char * restrict tmp_post_2 = dest;
     dest = dest + 1l;
-    *tmp_post$2 = (unsigned char)((3 * r + 6 * g + b) / 10 << 3);
+    *tmp_post_2 = (unsigned char)((3 * r + 6 * g + b) / 10 << 3);
     src = src + 1l;
   }
   while((_Bool)1);
@@ -25336,24 +25336,24 @@ static void rgb32_to_bgr24(unsigned char * restrict dest, unsigned char * restri
 {
   unsigned char * restrict s = src;
   unsigned char * restrict d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     s = s + 1l;
-    unsigned char * restrict tmp_post$2 = s;
+    unsigned char * restrict tmp_post_2 = s;
     s = s + 1l;
-    d[(signed long int)2] = *tmp_post$2;
-    unsigned char * restrict tmp_post$3 = s;
+    d[(signed long int)2] = *tmp_post_2;
+    unsigned char * restrict tmp_post_3 = s;
     s = s + 1l;
-    d[(signed long int)1] = *tmp_post$3;
-    unsigned char * restrict tmp_post$4 = s;
+    d[(signed long int)1] = *tmp_post_3;
+    unsigned char * restrict tmp_post_4 = s;
     s = s + 1l;
-    d[(signed long int)0] = *tmp_post$4;
+    d[(signed long int)0] = *tmp_post_4;
     d = d + (signed long int)3;
   }
   while((_Bool)1);
@@ -25364,17 +25364,17 @@ static void rgb32_to_bgr24(unsigned char * restrict dest, unsigned char * restri
 static void rgb32_to_lut2(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned short int * restrict d = (unsigned short int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)1]] | ng_lut_green[(signed long int)src[(signed long int)2]] | ng_lut_blue[(signed long int)src[(signed long int)3]]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)1]] | ng_lut_green[(signed long int)src[(signed long int)2]] | ng_lut_blue[(signed long int)src[(signed long int)3]]);
     src = src + (signed long int)4;
   }
   while((_Bool)1);
@@ -25385,17 +25385,17 @@ static void rgb32_to_lut2(unsigned char * restrict dest, unsigned char * restric
 static void rgb32_to_lut4(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned int * restrict d = (unsigned int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)1]] | ng_lut_green[(signed long int)src[(signed long int)2]] | ng_lut_blue[(signed long int)src[(signed long int)3]]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)1]] | ng_lut_green[(signed long int)src[(signed long int)2]] | ng_lut_blue[(signed long int)src[(signed long int)3]]);
     src = src + (signed long int)4;
   }
   while((_Bool)1);
@@ -25407,30 +25407,30 @@ static void rgb32_to_rgb24(unsigned char * restrict dest, unsigned char * restri
 {
   unsigned char * restrict s = src;
   unsigned char * restrict d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     s = s + 1l;
-    unsigned char * restrict tmp_post$2 = d;
+    unsigned char * restrict tmp_post_2 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$3 = s;
+    unsigned char * restrict tmp_post_3 = s;
     s = s + 1l;
-    *tmp_post$2 = *tmp_post$3;
-    unsigned char * restrict tmp_post$4 = d;
+    *tmp_post_2 = *tmp_post_3;
+    unsigned char * restrict tmp_post_4 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$5 = s;
+    unsigned char * restrict tmp_post_5 = s;
     s = s + 1l;
-    *tmp_post$4 = *tmp_post$5;
-    unsigned char * restrict tmp_post$6 = d;
+    *tmp_post_4 = *tmp_post_5;
+    unsigned char * restrict tmp_post_6 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$7 = s;
+    unsigned char * restrict tmp_post_7 = s;
     s = s + 1l;
-    *tmp_post$6 = *tmp_post$7;
+    *tmp_post_6 = *tmp_post_7;
   }
   while((_Bool)1);
 }
@@ -25444,32 +25444,32 @@ void save_config(void)
   char filename2[100l];
   struct _IO_FILE *fp;
   signed int i;
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("HOME");
-  sprintf(filename1, "%s/%s", return_value_getenv$1, (const void *)".xawtv");
-  char *return_value_getenv$2;
-  return_value_getenv$2=getenv("HOME");
-  sprintf(filename2, "%s/%s", return_value_getenv$2, (const void *)".xawtv~");
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("HOME");
+  sprintf(filename1, "%s/%s", return_value_getenv_1, (const void *)".xawtv");
+  char *return_value_getenv_2;
+  return_value_getenv_2=getenv("HOME");
+  sprintf(filename2, "%s/%s", return_value_getenv_2, (const void *)".xawtv~");
   unlink(filename2);
-  signed int return_value_link$3;
-  return_value_link$3=link(filename1, filename2);
-  if(return_value_link$3 == 0)
+  signed int return_value_link_3;
+  return_value_link_3=link(filename1, filename2);
+  if(return_value_link_3 == 0)
     unlink(filename1);
 
   fp=fopen(filename1, "w");
-  signed int return_value_ng_attr_int2percent$13;
-  signed int return_value_ng_attr_int2percent$14;
-  signed int return_value_ng_attr_int2percent$15;
-  signed int return_value_ng_attr_int2percent$16;
-  struct ng_attribute *return_value_ng_attr_byid$18;
-  const char *return_value_ng_attr_getstr$19;
-  struct ng_attribute *return_value_ng_attr_byid$20;
-  const char *return_value_ng_attr_getstr$21;
-  const char *return_value_int_to_str$23;
-  signed int return_value_ng_attr_int2percent$24;
-  signed int return_value_ng_attr_int2percent$25;
-  signed int return_value_ng_attr_int2percent$26;
-  signed int return_value_ng_attr_int2percent$27;
+  signed int return_value_ng_attr_int2percent_13;
+  signed int return_value_ng_attr_int2percent_14;
+  signed int return_value_ng_attr_int2percent_15;
+  signed int return_value_ng_attr_int2percent_16;
+  struct ng_attribute *return_value_ng_attr_byid_18;
+  const char *return_value_ng_attr_getstr_19;
+  struct ng_attribute *return_value_ng_attr_byid_20;
+  const char *return_value_ng_attr_getstr_21;
+  const char *return_value_int_to_str_23;
+  signed int return_value_ng_attr_int2percent_24;
+  signed int return_value_ng_attr_int2percent_25;
+  signed int return_value_ng_attr_int2percent_26;
+  signed int return_value_ng_attr_int2percent_27;
   if(fp == ((struct _IO_FILE *)NULL))
     fprintf(stderr, "can't open config file %s\n", (const void *)filename1);
 
@@ -25489,19 +25489,19 @@ void save_config(void)
     fprintf(fp, "pixsize = %d x %d\n", pix_width, pix_height);
     fprintf(fp, "pixcols = %d\n", pix_cols);
     fprintf(fp, "jpeg-quality = %d\n", ng_jpeg_quality);
-    const char *return_value_int_to_str$4;
-    return_value_int_to_str$4=int_to_str(keypad_ntsc, booltab);
-    fprintf(fp, "keypad-ntsc = %s\n", return_value_int_to_str$4);
-    const char *return_value_int_to_str$5;
-    return_value_int_to_str$5=int_to_str(keypad_partial, booltab);
-    fprintf(fp, "keypad-partial = %s\n", return_value_int_to_str$5);
-    const char *return_value_int_to_str$6;
-    return_value_int_to_str$6=int_to_str(use_osd, booltab);
-    fprintf(fp, "osd = %s\n", return_value_int_to_str$6);
+    const char *return_value_int_to_str_4;
+    return_value_int_to_str_4=int_to_str(keypad_ntsc, booltab);
+    fprintf(fp, "keypad-ntsc = %s\n", return_value_int_to_str_4);
+    const char *return_value_int_to_str_5;
+    return_value_int_to_str_5=int_to_str(keypad_partial, booltab);
+    fprintf(fp, "keypad-partial = %s\n", return_value_int_to_str_5);
+    const char *return_value_int_to_str_6;
+    return_value_int_to_str_6=int_to_str(use_osd, booltab);
+    fprintf(fp, "osd = %s\n", return_value_int_to_str_6);
     fprintf(fp, "osd-position = %d , %d\n", osd_x, osd_y);
-    const char *return_value_int_to_str$7;
-    return_value_int_to_str$7=int_to_str(use_wm_fullscreen, booltab);
-    fprintf(fp, "use-wm-fullscreen = %s\n", return_value_int_to_str$7);
+    const char *return_value_int_to_str_7;
+    return_value_int_to_str_7=int_to_str(use_wm_fullscreen, booltab);
+    fprintf(fp, "use-wm-fullscreen = %s\n", return_value_int_to_str_7);
     if(!(mixer == ((char *)NULL)))
       fprintf(fp, "mixer = %s\n", mixer);
 
@@ -25548,26 +25548,26 @@ void save_config(void)
     fprintf(fp, "\n");
     fprintf(fp, "[defaults]\n");
     fprintf(fp, "group = %s\n", defaults.group);
-    struct ng_attribute *return_value_ng_attr_byid$8;
-    return_value_ng_attr_byid$8=ng_attr_byid(attrs, 1);
-    const char *return_value_ng_attr_getstr$9;
-    return_value_ng_attr_getstr$9=ng_attr_getstr(return_value_ng_attr_byid$8, cur_attrs[(signed long int)1]);
-    fprintf(fp, "norm = %s\n", return_value_ng_attr_getstr$9);
-    struct ng_attribute *return_value_ng_attr_byid$10;
-    return_value_ng_attr_byid$10=ng_attr_byid(attrs, 2);
-    const char *return_value_ng_attr_getstr$11;
-    return_value_ng_attr_getstr$11=ng_attr_getstr(return_value_ng_attr_byid$10, cur_attrs[(signed long int)2]);
-    fprintf(fp, "input = %s\n", return_value_ng_attr_getstr$11);
-    const char *return_value_int_to_str$12;
-    return_value_int_to_str$12=int_to_str(cur_capture, captab);
-    fprintf(fp, "capture = %s\n", return_value_int_to_str$12);
+    struct ng_attribute *return_value_ng_attr_byid_8;
+    return_value_ng_attr_byid_8=ng_attr_byid(attrs, 1);
+    const char *return_value_ng_attr_getstr_9;
+    return_value_ng_attr_getstr_9=ng_attr_getstr(return_value_ng_attr_byid_8, cur_attrs[(signed long int)1]);
+    fprintf(fp, "norm = %s\n", return_value_ng_attr_getstr_9);
+    struct ng_attribute *return_value_ng_attr_byid_10;
+    return_value_ng_attr_byid_10=ng_attr_byid(attrs, 2);
+    const char *return_value_ng_attr_getstr_11;
+    return_value_ng_attr_getstr_11=ng_attr_getstr(return_value_ng_attr_byid_10, cur_attrs[(signed long int)2]);
+    fprintf(fp, "input = %s\n", return_value_ng_attr_getstr_11);
+    const char *return_value_int_to_str_12;
+    return_value_int_to_str_12=int_to_str(cur_capture, captab);
+    fprintf(fp, "capture = %s\n", return_value_int_to_str_12);
     attr=ng_attr_byid(attrs, 6);
     if(!(attr == ((struct ng_attribute *)NULL)))
     {
       if(!(attr->defval == cur_attrs[6l]))
       {
-        return_value_ng_attr_int2percent$13=ng_attr_int2percent(attr, cur_attrs[(signed long int)6]);
-        fprintf(fp, "color = %d%%\n", return_value_ng_attr_int2percent$13);
+        return_value_ng_attr_int2percent_13=ng_attr_int2percent(attr, cur_attrs[(signed long int)6]);
+        fprintf(fp, "color = %d%%\n", return_value_ng_attr_int2percent_13);
       }
 
     }
@@ -25577,8 +25577,8 @@ void save_config(void)
     {
       if(!(attr->defval == cur_attrs[7l]))
       {
-        return_value_ng_attr_int2percent$14=ng_attr_int2percent(attr, cur_attrs[(signed long int)7]);
-        fprintf(fp, "bright = %d%%\n", return_value_ng_attr_int2percent$14);
+        return_value_ng_attr_int2percent_14=ng_attr_int2percent(attr, cur_attrs[(signed long int)7]);
+        fprintf(fp, "bright = %d%%\n", return_value_ng_attr_int2percent_14);
       }
 
     }
@@ -25588,8 +25588,8 @@ void save_config(void)
     {
       if(!(attr->defval == cur_attrs[8l]))
       {
-        return_value_ng_attr_int2percent$15=ng_attr_int2percent(attr, cur_attrs[(signed long int)8]);
-        fprintf(fp, "hue = %d%%\n", return_value_ng_attr_int2percent$15);
+        return_value_ng_attr_int2percent_15=ng_attr_int2percent(attr, cur_attrs[(signed long int)8]);
+        fprintf(fp, "hue = %d%%\n", return_value_ng_attr_int2percent_15);
       }
 
     }
@@ -25599,8 +25599,8 @@ void save_config(void)
     {
       if(!(attr->defval == cur_attrs[9l]))
       {
-        return_value_ng_attr_int2percent$16=ng_attr_int2percent(attr, cur_attrs[(signed long int)9]);
-        fprintf(fp, "contrast = %d%%\n", return_value_ng_attr_int2percent$16);
+        return_value_ng_attr_int2percent_16=ng_attr_int2percent(attr, cur_attrs[(signed long int)9]);
+        fprintf(fp, "contrast = %d%%\n", return_value_ng_attr_int2percent_16);
       }
 
     }
@@ -25612,13 +25612,13 @@ void save_config(void)
       fprintf(fp, "[%s]\n", channels[(signed long int)i]->name);
       if(!(channels[(signed long int)i]->cname == ((char *)NULL)))
       {
-        struct CHANLIST *tmp_if_expr$17;
+        struct CHANLIST *tmp_if_expr_17;
         if(!(chantab == -1))
-          tmp_if_expr$17 = (chanlists + (signed long int)chantab)->list;
+          tmp_if_expr_17 = (chanlists + (signed long int)chantab)->list;
 
         else
-          tmp_if_expr$17 = (struct CHANLIST *)(void *)0;
-        fprintf(fp, "channel = %s\n", (tmp_if_expr$17 + (signed long int)channels[(signed long int)i]->channel)->name);
+          tmp_if_expr_17 = (struct CHANLIST *)(void *)0;
+        fprintf(fp, "channel = %s\n", (tmp_if_expr_17 + (signed long int)channels[(signed long int)i]->channel)->name);
         if(!(channels[(signed long int)i]->fine == 0))
           fprintf(fp, "fine = %+d\n", channels[(signed long int)i]->fine);
 
@@ -25628,24 +25628,24 @@ void save_config(void)
         fprintf(fp, "freq = %.2f\n", (float)channels[(signed long int)i]->freq / (float)16);
       if(!(channels[(signed long int)i]->norm == cur_attrs[1l]))
       {
-        return_value_ng_attr_byid$18=ng_attr_byid(attrs, 1);
-        return_value_ng_attr_getstr$19=ng_attr_getstr(return_value_ng_attr_byid$18, channels[(signed long int)i]->norm);
-        fprintf(fp, "norm = %s\n", return_value_ng_attr_getstr$19);
+        return_value_ng_attr_byid_18=ng_attr_byid(attrs, 1);
+        return_value_ng_attr_getstr_19=ng_attr_getstr(return_value_ng_attr_byid_18, channels[(signed long int)i]->norm);
+        fprintf(fp, "norm = %s\n", return_value_ng_attr_getstr_19);
       }
 
       if(!(channels[(signed long int)i]->input == cur_attrs[2l]))
       {
-        return_value_ng_attr_byid$20=ng_attr_byid(attrs, 2);
-        return_value_ng_attr_getstr$21=ng_attr_getstr(return_value_ng_attr_byid$20, channels[(signed long int)i]->input);
-        fprintf(fp, "input = %s\n", return_value_ng_attr_getstr$21);
+        return_value_ng_attr_byid_20=ng_attr_byid(attrs, 2);
+        return_value_ng_attr_getstr_21=ng_attr_getstr(return_value_ng_attr_byid_20, channels[(signed long int)i]->input);
+        fprintf(fp, "input = %s\n", return_value_ng_attr_getstr_21);
       }
 
       if(!(channels[(signed long int)i]->key == ((char *)NULL)))
         fprintf(fp, "key = %s\n", channels[(signed long int)i]->key);
 
-      signed int return_value_strcmp$22;
-      return_value_strcmp$22=strcmp(channels[(signed long int)i]->group, defaults.group);
-      if(!(return_value_strcmp$22 == 0))
+      signed int return_value_strcmp_22;
+      return_value_strcmp_22=strcmp(channels[(signed long int)i]->group, defaults.group);
+      if(!(return_value_strcmp_22 == 0))
         fprintf(fp, "group = %s\n", channels[(signed long int)i]->group);
 
       if(!(channels[(signed long int)i]->midi == 0))
@@ -25653,8 +25653,8 @@ void save_config(void)
 
       if(!(channels[(signed long int)i]->capture == cur_capture))
       {
-        return_value_int_to_str$23=int_to_str(channels[(signed long int)i]->capture, captab);
-        fprintf(fp, "capture = %s\n", return_value_int_to_str$23);
+        return_value_int_to_str_23=int_to_str(channels[(signed long int)i]->capture, captab);
+        fprintf(fp, "capture = %s\n", return_value_int_to_str_23);
       }
 
       attr=ng_attr_byid(attrs, 6);
@@ -25662,8 +25662,8 @@ void save_config(void)
       {
         if(!(cur_attrs[6l] == channels[(signed long int)i]->color))
         {
-          return_value_ng_attr_int2percent$24=ng_attr_int2percent(attr, channels[(signed long int)i]->color);
-          fprintf(fp, "color = %d%%\n", return_value_ng_attr_int2percent$24);
+          return_value_ng_attr_int2percent_24=ng_attr_int2percent(attr, channels[(signed long int)i]->color);
+          fprintf(fp, "color = %d%%\n", return_value_ng_attr_int2percent_24);
         }
 
       }
@@ -25673,8 +25673,8 @@ void save_config(void)
       {
         if(!(cur_attrs[7l] == channels[(signed long int)i]->bright))
         {
-          return_value_ng_attr_int2percent$25=ng_attr_int2percent(attr, channels[(signed long int)i]->bright);
-          fprintf(fp, "bright = %d%%\n", return_value_ng_attr_int2percent$25);
+          return_value_ng_attr_int2percent_25=ng_attr_int2percent(attr, channels[(signed long int)i]->bright);
+          fprintf(fp, "bright = %d%%\n", return_value_ng_attr_int2percent_25);
         }
 
       }
@@ -25684,8 +25684,8 @@ void save_config(void)
       {
         if(!(cur_attrs[8l] == channels[(signed long int)i]->hue))
         {
-          return_value_ng_attr_int2percent$26=ng_attr_int2percent(attr, channels[(signed long int)i]->hue);
-          fprintf(fp, "hue = %d%%\n", return_value_ng_attr_int2percent$26);
+          return_value_ng_attr_int2percent_26=ng_attr_int2percent(attr, channels[(signed long int)i]->hue);
+          fprintf(fp, "hue = %d%%\n", return_value_ng_attr_int2percent_26);
         }
 
       }
@@ -25695,8 +25695,8 @@ void save_config(void)
       {
         if(!(cur_attrs[9l] == channels[(signed long int)i]->contrast))
         {
-          return_value_ng_attr_int2percent$27=ng_attr_int2percent(attr, channels[(signed long int)i]->contrast);
-          fprintf(fp, "contrast = %d%%\n", return_value_ng_attr_int2percent$27);
+          return_value_ng_attr_int2percent_27=ng_attr_int2percent(attr, channels[(signed long int)i]->contrast);
+          fprintf(fp, "contrast = %d%%\n", return_value_ng_attr_int2percent_27);
         }
 
       }
@@ -25711,26 +25711,26 @@ void save_config(void)
 // file x11/motv.c line 2661
 static struct ng_video_buf * scale_rgb_buffer(struct ng_video_buf *in, signed int scale)
 {
-  struct ng_video_fmt scale_rgb_buffer$$1$$fmt;
+  struct ng_video_fmt scale_rgb_buffer__1__fmt;
   struct ng_video_buf *buf;
   char *src;
   char *dst;
   unsigned int x;
   unsigned int y;
-  scale_rgb_buffer$$1$$fmt = in->fmt;
-  scale_rgb_buffer$$1$$fmt.width = in->fmt.width / (unsigned int)scale;
-  scale_rgb_buffer$$1$$fmt.height = in->fmt.height / (unsigned int)scale;
-  for( ; !((3u & scale_rgb_buffer$$1$$fmt.width) == 0u); scale_rgb_buffer$$1$$fmt.width = scale_rgb_buffer$$1$$fmt.width + 1u)
+  scale_rgb_buffer__1__fmt = in->fmt;
+  scale_rgb_buffer__1__fmt.width = in->fmt.width / (unsigned int)scale;
+  scale_rgb_buffer__1__fmt.height = in->fmt.height / (unsigned int)scale;
+  for( ; !((3u & scale_rgb_buffer__1__fmt.width) == 0u); scale_rgb_buffer__1__fmt.width = scale_rgb_buffer__1__fmt.width + 1u)
     ;
-  scale_rgb_buffer$$1$$fmt.bytesperline = scale_rgb_buffer$$1$$fmt.width * (unsigned int)3;
-  buf=ng_malloc_video_buf(&scale_rgb_buffer$$1$$fmt, (signed int)(scale_rgb_buffer$$1$$fmt.width * scale_rgb_buffer$$1$$fmt.height * (unsigned int)3));
+  scale_rgb_buffer__1__fmt.bytesperline = scale_rgb_buffer__1__fmt.width * (unsigned int)3;
+  buf=ng_malloc_video_buf(&scale_rgb_buffer__1__fmt, (signed int)(scale_rgb_buffer__1__fmt.width * scale_rgb_buffer__1__fmt.height * (unsigned int)3));
   dst = (char *)buf->data;
   y = (unsigned int)0;
-  for( ; !(y >= scale_rgb_buffer$$1$$fmt.height); y = y + 1u)
+  for( ; !(y >= scale_rgb_buffer__1__fmt.height); y = y + 1u)
   {
     src = (char *)(in->data + (signed long int)(y * (unsigned int)scale * in->fmt.bytesperline));
     x = (unsigned int)0;
-    for( ; !(x >= scale_rgb_buffer$$1$$fmt.width); x = x + 1u)
+    for( ; !(x >= scale_rgb_buffer__1__fmt.width); x = x + 1u)
     {
       dst[(signed long int)0] = src[(signed long int)0];
       dst[(signed long int)1] = src[(signed long int)1];
@@ -25777,9 +25777,9 @@ static void scroll_cb(struct _WidgetRec *widget, void *clientdata, void *call_da
 // file x11/xt.c line 757
 static void segfault(signed int signal)
 {
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  fprintf(stderr, "[pid=%d] segfault catched, aborting\n", return_value_getpid$1);
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  fprintf(stderr, "[pid=%d] segfault catched, aborting\n", return_value_getpid_1);
   abort();
 }
 
@@ -25790,25 +25790,25 @@ static signed int send_xscreensaver_command(struct _XDisplay *dpy, unsigned long
   char *v = ((char *)NULL);
   unsigned long int window;
   window=find_screensaver_window(dpy, &v);
-  struct anonymous$117 xgwa;
-  char send_xscreensaver_command$$1$$err[2048l];
+  struct anonymous_117 xgwa;
+  char send_xscreensaver_command__1__err[2048l];
   if(!(window_ret == ((unsigned long int *)NULL)))
     *window_ret = window;
 
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(window == 0ul)
   {
-    sprintf(send_xscreensaver_command$$1$$err, "no screensaver is running on display %s", ((struct anonymous$10 *)dpy)->display_name);
+    sprintf(send_xscreensaver_command__1__err, "no screensaver is running on display %s", ((struct anonymous_10 *)dpy)->display_name);
     if(!(error_ret == ((char **)NULL)))
     {
-      *error_ret=strdup(send_xscreensaver_command$$1$$err);
+      *error_ret=strdup(send_xscreensaver_command__1__err);
       return -1;
     }
 
     if(command == XA_EXIT)
       return 1;
 
-    fprintf(stderr, "%s: %s\n", progname, (const void *)send_xscreensaver_command$$1$$err);
+    fprintf(stderr, "%s: %s\n", progname, (const void *)send_xscreensaver_command__1__err);
     return -1;
   }
 
@@ -25818,34 +25818,34 @@ static signed int send_xscreensaver_command(struct _XDisplay *dpy, unsigned long
     XSelectInput(dpy, window, xgwa.your_event_mask | 1L << 22);
     if(command == XA_SCREENSAVER_STATUS || command == XA_SCREENSAVER_VERSION)
     {
-      struct anonymous$116 hint;
-      memset((void *)&hint, 0, sizeof(struct anonymous$116) /*16ul*/ );
-      _Bool tmp_if_expr$1;
+      struct anonymous_116 hint;
+      memset((void *)&hint, 0, sizeof(struct anonymous_116) /*16ul*/ );
+      _Bool tmp_if_expr_1;
       if(v == ((char *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = !(*v != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = !(*v != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
-        sprintf(send_xscreensaver_command$$1$$err, "version property not set on window 0x%x?", (unsigned int)window);
+        sprintf(send_xscreensaver_command__1__err, "version property not set on window 0x%x?", (unsigned int)window);
         if(!(error_ret == ((char **)NULL)))
-          *error_ret=strdup(send_xscreensaver_command$$1$$err);
+          *error_ret=strdup(send_xscreensaver_command__1__err);
 
         else
-          fprintf(stderr, "%s: %s\n", progname, (const void *)send_xscreensaver_command$$1$$err);
+          fprintf(stderr, "%s: %s\n", progname, (const void *)send_xscreensaver_command__1__err);
         return -1;
       }
 
       XGetClassHint(dpy, window, &hint);
       if(hint.res_class == ((char *)NULL))
       {
-        sprintf(send_xscreensaver_command$$1$$err, "class hints not set on window 0x%x?", (unsigned int)window);
+        sprintf(send_xscreensaver_command__1__err, "class hints not set on window 0x%x?", (unsigned int)window);
         if(!(error_ret == ((char **)NULL)))
-          *error_ret=strdup(send_xscreensaver_command$$1$$err);
+          *error_ret=strdup(send_xscreensaver_command__1__err);
 
         else
-          fprintf(stderr, "%s: %s\n", progname, (const void *)send_xscreensaver_command$$1$$err);
+          fprintf(stderr, "%s: %s\n", progname, (const void *)send_xscreensaver_command__1__err);
         return -1;
       }
 
@@ -25860,9 +25860,9 @@ static signed int send_xscreensaver_command(struct _XDisplay *dpy, unsigned long
         unsigned long int nitems;
         unsigned long int bytesafter;
         unsigned int *data = ((unsigned int *)NULL);
-        signed int return_value_XGetWindowProperty$4;
-        return_value_XGetWindowProperty$4=XGetWindowProperty(dpy, (&((struct anonymous$10 *)dpy)->screens[(signed long int)0])->root, XA_SCREENSAVER_STATUS, (signed long int)0, (signed long int)999, 0, (unsigned long int)19, &type, &format, &nitems, &bytesafter, (unsigned char **)&data);
-        if(return_value_XGetWindowProperty$4 == 0 && !(data == ((unsigned int *)NULL)) && !(type == 0ul))
+        signed int return_value_XGetWindowProperty_4;
+        return_value_XGetWindowProperty_4=XGetWindowProperty(dpy, (&((struct anonymous_10 *)dpy)->screens[(signed long int)0])->root, XA_SCREENSAVER_STATUS, (signed long int)0, (signed long int)999, 0, (unsigned long int)19, &type, &format, &nitems, &bytesafter, (unsigned char **)&data);
+        if(return_value_XGetWindowProperty_4 == 0 && !(data == ((unsigned int *)NULL)) && !(type == 0ul))
         {
           unsigned long int blanked;
           signed long int tt;
@@ -25900,12 +25900,12 @@ static signed int send_xscreensaver_command(struct _XDisplay *dpy, unsigned long
               else
                 goto STATUS_LOSE;
           s=ctime(&tt);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(s);
-          if((signed int)s[-1l + (signed long int)return_value_strlen$3] == 10)
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(s);
+          if((signed int)s[-1l + (signed long int)return_value_strlen_3] == 10)
           {
-            return_value_strlen$2=strlen(s);
-            s[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+            return_value_strlen_2=strlen(s);
+            s[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
           }
 
           fputs(s, stdout);
@@ -25982,20 +25982,20 @@ static signed int send_xscreensaver_command(struct _XDisplay *dpy, unsigned long
       event.xclient.window = window;
       event.xclient.message_type = XA_SCREENSAVER;
       event.xclient.format = 32;
-      memset((void *)&event.xclient.data, 0, sizeof(union anonymous$118) /*40ul*/ );
+      memset((void *)&event.xclient.data, 0, sizeof(union anonymous_118) /*40ul*/ );
       event.xclient.data.l[(signed long int)0] = (signed long int)command;
       event.xclient.data.l[(signed long int)1] = arg1;
       event.xclient.data.l[(signed long int)2] = arg2;
-      signed int return_value_XSendEvent$5;
-      return_value_XSendEvent$5=XSendEvent(dpy, window, 0, 0L, &event);
-      if(return_value_XSendEvent$5 == 0)
+      signed int return_value_XSendEvent_5;
+      return_value_XSendEvent_5=XSendEvent(dpy, window, 0, 0L, &event);
+      if(return_value_XSendEvent_5 == 0)
       {
-        sprintf(send_xscreensaver_command$$1$$err, "XSendEvent(dpy, 0x%x ...) failed.\n", (unsigned int)window);
+        sprintf(send_xscreensaver_command__1__err, "XSendEvent(dpy, 0x%x ...) failed.\n", (unsigned int)window);
         if(!(error_ret == ((char **)NULL)))
-          *error_ret=strdup(send_xscreensaver_command$$1$$err);
+          *error_ret=strdup(send_xscreensaver_command__1__err);
 
         else
-          fprintf(stderr, "%s: %s\n", progname, (const void *)send_xscreensaver_command$$1$$err);
+          fprintf(stderr, "%s: %s\n", progname, (const void *)send_xscreensaver_command__1__err);
         return -1;
       }
 
@@ -26054,29 +26054,29 @@ extern void server_xscreensaver_version(struct _XDisplay *dpy, char **version_re
           if(!(s == ((const char *)NULL)))
           {
             user = ((const char *)NULL);
-            unsigned long int return_value_strlen$1;
-            return_value_strlen$1=strlen(old_tag);
-            host = s + (signed long int)return_value_strlen$1;
+            unsigned long int return_value_strlen_1;
+            return_value_strlen_1=strlen(old_tag);
+            host = s + (signed long int)return_value_strlen_1;
           }
 
           else
           {
             char *o = ((char *)NULL);
             char *p = ((char *)NULL);
-            char *server_xscreensaver_version$$1$$2$$1$$2$$c = ((char *)NULL);
+            char *server_xscreensaver_version__1__2__1__2__c = ((char *)NULL);
             o=strchr(id, 40);
             if(!(o == ((char *)NULL)))
               p=strchr(o, 64);
 
             if(!(p == ((char *)NULL)))
-              server_xscreensaver_version$$1$$2$$1$$2$$c=strchr(p, 41);
+              server_xscreensaver_version__1__2__1__2__c=strchr(p, 41);
 
-            if(!(server_xscreensaver_version$$1$$2$$1$$2$$c == ((char *)NULL)))
+            if(!(server_xscreensaver_version__1__2__1__2__c == ((char *)NULL)))
             {
               user = o + (signed long int)1;
               host = p + (signed long int)1;
               *p = (char)0;
-              *server_xscreensaver_version$$1$$2$$1$$2$$c = (char)0;
+              *server_xscreensaver_version__1__2__1__2__c = (char)0;
             }
 
           }
@@ -26084,36 +26084,36 @@ extern void server_xscreensaver_version(struct _XDisplay *dpy, char **version_re
 
       }
 
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!(user == ((const char *)NULL)))
-        tmp_if_expr$2 = *user != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = *user != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      _Bool tmp_if_expr$3;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (signed int)*user != 63 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      _Bool tmp_if_expr_3;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (signed int)*user != 63 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
         *user_ret=strdup(user);
 
       else
         *user_ret = ((char *)NULL);
-      _Bool tmp_if_expr$4;
+      _Bool tmp_if_expr_4;
       if(!(host == ((const char *)NULL)))
-        tmp_if_expr$4 = *host != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = *host != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      _Bool tmp_if_expr$5;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (signed int)*host != 63 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      _Bool tmp_if_expr_5;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (signed int)*host != 63 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
         *host_ret=strdup(host);
 
       else
@@ -26248,10 +26248,10 @@ static void set_msg_int(struct ng_attribute *attr, signed int val)
 {
   if(!(display_message == ((void (*)(char *))NULL)))
   {
-    signed int return_value_ng_attr_int2percent$1;
-    return_value_ng_attr_int2percent$1=ng_attr_int2percent(attr, val);
+    signed int return_value_ng_attr_int2percent_1;
+    return_value_ng_attr_int2percent_1=ng_attr_int2percent(attr, val);
     static char title[256l];
-    sprintf(title, "%s: %d%%", attr->name, return_value_ng_attr_int2percent$1);
+    sprintf(title, "%s: %d%%", attr->name, return_value_ng_attr_int2percent_1);
     display_message(title);
   }
 
@@ -26291,18 +26291,18 @@ void set_property(signed int freq, char *channel, char *name)
 {
   signed int len;
   char line[80l];
-  signed int return_value_sprintf$1;
-  return_value_sprintf$1=sprintf(line, "%.3f", (float)freq / (float)16);
-  len = return_value_sprintf$1 + 1;
-  signed int return_value_sprintf$2;
-  return_value_sprintf$2=sprintf(line + (signed long int)len, "%s", channel != ((char *)NULL) ? channel : "?");
-  len = len + return_value_sprintf$2 + 1;
-  signed int return_value_sprintf$3;
-  return_value_sprintf$3=sprintf(line + (signed long int)len, "%s", name != ((char *)NULL) ? name : "?");
-  len = len + return_value_sprintf$3 + 1;
-  unsigned long int return_value_XtWindow$4;
-  return_value_XtWindow$4=XtWindow(app_shell);
-  XChangeProperty(dpy, return_value_XtWindow$4, _XAWTV_STATION, (unsigned long int)31, 8, 0, (const unsigned char *)line, len);
+  signed int return_value_sprintf_1;
+  return_value_sprintf_1=sprintf(line, "%.3f", (float)freq / (float)16);
+  len = return_value_sprintf_1 + 1;
+  signed int return_value_sprintf_2;
+  return_value_sprintf_2=sprintf(line + (signed long int)len, "%s", channel != ((char *)NULL) ? channel : "?");
+  len = len + return_value_sprintf_2 + 1;
+  signed int return_value_sprintf_3;
+  return_value_sprintf_3=sprintf(line + (signed long int)len, "%s", name != ((char *)NULL) ? name : "?");
+  len = len + return_value_sprintf_3 + 1;
+  unsigned long int return_value_XtWindow_4;
+  return_value_XtWindow_4=XtWindow(app_shell);
+  XChangeProperty(dpy, return_value_XtWindow_4, _XAWTV_STATION, (unsigned long int)31, 8, 0, (const unsigned char *)line, len);
 }
 
 // set_title
@@ -26311,7 +26311,7 @@ static void set_title(void)
 {
   const char *norm;
   keypad_state = -1;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(!(update_title == ((void (*)(char *))NULL)))
   {
     static char title[256l];
@@ -26321,25 +26321,25 @@ static void set_title(void)
     else
       if(!(cur_channel == -1))
       {
-        struct CHANLIST *tmp_if_expr$1;
+        struct CHANLIST *tmp_if_expr_1;
         if(!(chantab == -1))
-          tmp_if_expr$1 = (chanlists + (signed long int)chantab)->list;
+          tmp_if_expr_1 = (chanlists + (signed long int)chantab)->list;
 
         else
-          tmp_if_expr$1 = (struct CHANLIST *)(void *)0;
-        sprintf(title, "channel %s", (tmp_if_expr$1 + (signed long int)cur_channel)->name);
+          tmp_if_expr_1 = (struct CHANLIST *)(void *)0;
+        sprintf(title, "channel %s", (tmp_if_expr_1 + (signed long int)cur_channel)->name);
         if(!(cur_fine == 0))
         {
-          return_value_strlen$2=strlen(title);
-          sprintf(title + (signed long int)return_value_strlen$2, " (%d)", cur_fine);
+          return_value_strlen_2=strlen(title);
+          sprintf(title + (signed long int)return_value_strlen_2, " (%d)", cur_fine);
         }
 
-        struct ng_attribute *return_value_ng_attr_byid$3;
-        return_value_ng_attr_byid$3=ng_attr_byid(attrs, 1);
-        norm=ng_attr_getstr(return_value_ng_attr_byid$3, cur_attrs[(signed long int)1]);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(title);
-        sprintf(title + (signed long int)return_value_strlen$4, " (%s/%s)", norm != ((const char *)NULL) ? norm : "???", (chanlists + (signed long int)chantab)->name);
+        struct ng_attribute *return_value_ng_attr_byid_3;
+        return_value_ng_attr_byid_3=ng_attr_byid(attrs, 1);
+        norm=ng_attr_getstr(return_value_ng_attr_byid_3, cur_attrs[(signed long int)1]);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(title);
+        sprintf(title + (signed long int)return_value_strlen_4, " (%s/%s)", norm != ((const char *)NULL) ? norm : "???", (chanlists + (signed long int)chantab)->name);
       }
 
       else
@@ -26351,7 +26351,7 @@ static void set_title(void)
 
 // set_vidmode
 // file x11/xt.c line 826
-static void set_vidmode(struct anonymous$15 *mode)
+static void set_vidmode(struct anonymous_15 *mode)
 {
   if(cur_capture == 1)
   {
@@ -26362,9 +26362,9 @@ static void set_vidmode(struct anonymous$15 *mode)
   if(!(debug == 0))
     fprintf(stderr, "switching mode: %d  %d %d %d %d  %d %d %d %d  %d\n", mode->dotclock, mode->hdisplay, mode->hsyncstart, mode->hsyncend, mode->htotal, mode->vdisplay, mode->vsyncstart, mode->vsyncend, mode->vtotal, mode->flags);
 
-  signed int return_value_XDefaultScreen$1;
-  return_value_XDefaultScreen$1=XDefaultScreen(dpy);
-  XF86VidModeSwitchToMode(dpy, return_value_XDefaultScreen$1, mode);
+  signed int return_value_XDefaultScreen_1;
+  return_value_XDefaultScreen_1=XDefaultScreen(dpy);
+  XF86VidModeSwitchToMode(dpy, return_value_XDefaultScreen_1, mode);
   XSync(dpy, 0);
 }
 
@@ -26385,12 +26385,12 @@ static void set_volume(signed int val)
 static signed int setchannel_handler(char *name, signed int argc, char **argv)
 {
   signed int i;
-  signed int setchannel_handler$$1$$c;
+  signed int setchannel_handler__1__c;
   signed int orig_mute;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_get_freq$11;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_get_freq_11;
   if((4 & f_drv) == 0)
     return 0;
 
@@ -26412,13 +26412,13 @@ static signed int setchannel_handler(char *name, signed int argc, char **argv)
 
       else
       {
-        signed int return_value_strcasecmp$12;
-        return_value_strcasecmp$12=strcasecmp("setfreq", name);
-        if(return_value_strcasecmp$12 == 0)
+        signed int return_value_strcasecmp_12;
+        return_value_strcasecmp_12=strcasecmp("setfreq", name);
+        if(return_value_strcasecmp_12 == 0)
         {
-          double return_value_atof$1;
-          return_value_atof$1=atof(argv[(signed long int)0]);
-          cur_freq = (signed int)(unsigned long int)(return_value_atof$1 * (double)16);
+          double return_value_atof_1;
+          return_value_atof_1=atof(argv[(signed long int)0]);
+          cur_freq = (signed int)(unsigned long int)(return_value_atof_1 * (double)16);
           cur_sender = -1;
           cur_channel = -1;
           cur_fine = 0;
@@ -26426,59 +26426,59 @@ static signed int setchannel_handler(char *name, signed int argc, char **argv)
 
         else
         {
-          signed int return_value_strcasecmp$8;
-          return_value_strcasecmp$8=strcasecmp(argv[(signed long int)0], "next");
-          if(return_value_strcasecmp$8 == 0)
+          signed int return_value_strcasecmp_8;
+          return_value_strcasecmp_8=strcasecmp(argv[(signed long int)0], "next");
+          if(return_value_strcasecmp_8 == 0)
           {
-            signed int tmp_if_expr$2;
+            signed int tmp_if_expr_2;
             if(!(chantab == -1))
-              tmp_if_expr$2 = (chanlists + (signed long int)chantab)->count;
+              tmp_if_expr_2 = (chanlists + (signed long int)chantab)->count;
 
             else
-              tmp_if_expr$2 = 0;
-            cur_channel = (cur_channel + 1) % tmp_if_expr$2;
+              tmp_if_expr_2 = 0;
+            cur_channel = (cur_channel + 1) % tmp_if_expr_2;
             cur_fine = defaults.fine;
           }
 
           else
           {
-            return_value_strcasecmp$7=strcasecmp(argv[(signed long int)0], "prev");
-            if(return_value_strcasecmp$7 == 0)
+            return_value_strcasecmp_7=strcasecmp(argv[(signed long int)0], "prev");
+            if(return_value_strcasecmp_7 == 0)
             {
-              signed int tmp_if_expr$3;
+              signed int tmp_if_expr_3;
               if(!(chantab == -1))
-                tmp_if_expr$3 = (chanlists + (signed long int)chantab)->count;
+                tmp_if_expr_3 = (chanlists + (signed long int)chantab)->count;
 
               else
-                tmp_if_expr$3 = 0;
-              signed int tmp_if_expr$4;
+                tmp_if_expr_3 = 0;
+              signed int tmp_if_expr_4;
               if(!(chantab == -1))
-                tmp_if_expr$4 = (chanlists + (signed long int)chantab)->count;
+                tmp_if_expr_4 = (chanlists + (signed long int)chantab)->count;
 
               else
-                tmp_if_expr$4 = 0;
-              cur_channel = ((cur_channel + tmp_if_expr$3) - 1) % tmp_if_expr$4;
+                tmp_if_expr_4 = 0;
+              cur_channel = ((cur_channel + tmp_if_expr_3) - 1) % tmp_if_expr_4;
               cur_fine = defaults.fine;
             }
 
             else
             {
-              return_value_strcasecmp$6=strcasecmp(argv[(signed long int)0], "fine_up");
-              if(return_value_strcasecmp$6 == 0)
+              return_value_strcasecmp_6=strcasecmp(argv[(signed long int)0], "fine_up");
+              if(return_value_strcasecmp_6 == 0)
                 cur_fine = cur_fine + 1;
 
               else
               {
-                return_value_strcasecmp$5=strcasecmp(argv[(signed long int)0], "fine_down");
-                if(return_value_strcasecmp$5 == 0)
+                return_value_strcasecmp_5=strcasecmp(argv[(signed long int)0], "fine_down");
+                if(return_value_strcasecmp_5 == 0)
                   cur_fine = cur_fine - 1;
 
                 else
                 {
-                  setchannel_handler$$1$$c=lookup_channel(argv[(signed long int)0]);
-                  if(!(setchannel_handler$$1$$c == -1))
+                  setchannel_handler__1__c=lookup_channel(argv[(signed long int)0]);
+                  if(!(setchannel_handler__1__c == -1))
                   {
-                    cur_channel = setchannel_handler$$1$$c;
+                    cur_channel = setchannel_handler__1__c;
                     cur_fine = defaults.fine;
                   }
 
@@ -26486,20 +26486,20 @@ static signed int setchannel_handler(char *name, signed int argc, char **argv)
               }
             }
           }
-          signed int return_value_strncmp$10;
-          return_value_strncmp$10=strncmp(argv[(signed long int)0], "fine", (unsigned long int)4);
-          if(!(return_value_strncmp$10 == 0))
+          signed int return_value_strncmp_10;
+          return_value_strncmp_10=strncmp(argv[(signed long int)0], "fine", (unsigned long int)4);
+          if(!(return_value_strncmp_10 == 0))
           {
             i = 0;
             for( ; !(i >= count); i = i + 1)
               if(cur_channel == channels[(signed long int)i]->channel)
               {
-                char *setchannel_handler$$1$$4$$6$$1$$1$$1$$argv[2l];
-                setchannel_handler$$1$$4$$6$$1$$1$$1$$argv[(signed long int)0] = channels[(signed long int)i]->name;
-                setchannel_handler$$1$$4$$6$$1$$1$$1$$argv[(signed long int)1] = (char *)(void *)0;
-                signed int return_value_setstation_handler$9;
-                return_value_setstation_handler$9=setstation_handler("", argc, setchannel_handler$$1$$4$$6$$1$$1$$1$$argv);
-                return return_value_setstation_handler$9;
+                char *setchannel_handler__1__4__6__1__1__1__argv[2l];
+                setchannel_handler__1__4__6__1__1__1__argv[(signed long int)0] = channels[(signed long int)i]->name;
+                setchannel_handler__1__4__6__1__1__1__argv[(signed long int)1] = (char *)(void *)0;
+                signed int return_value_setstation_handler_9;
+                return_value_setstation_handler_9=setstation_handler("", argc, setchannel_handler__1__4__6__1__1__1__argv);
+                return return_value_setstation_handler_9;
               }
 
           }
@@ -26507,8 +26507,8 @@ static signed int setchannel_handler(char *name, signed int argc, char **argv)
           cur_sender = -1;
           if(!(cur_channel == -1))
           {
-            return_value_get_freq$11=get_freq(cur_channel);
-            cur_freq = return_value_get_freq$11 + cur_fine;
+            return_value_get_freq_11=get_freq(cur_channel);
+            cur_freq = return_value_get_freq_11 + cur_fine;
           }
 
           else
@@ -26573,8 +26573,8 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
   unsigned int ratemin = (unsigned int)32000;
   unsigned int ratemax = (unsigned int)96000;
   unsigned int val;
-  signed int setparams$$1$$err;
-  signed int setparams$$1$$channels = 2;
+  signed int setparams__1__err;
+  signed int setparams__1__channels = 2;
   struct _snd_pcm_hw_params *p_hwparams;
   struct _snd_pcm_hw_params *c_hwparams;
   struct _snd_pcm_sw_params *p_swparams;
@@ -26589,74 +26589,74 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
   const unsigned int prefered_rates[3l] = { (const unsigned int)44100, (const unsigned int)48000, (const unsigned int)32000 };
   do
   {
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$1;
-    return_value_snd_pcm_hw_params_sizeof$1=snd_pcm_hw_params_sizeof();
-    void *return_value___builtin_alloca$2;
-    return_value___builtin_alloca$2=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof$1);
-    *(&p_hwparams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$2;
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$3;
-    return_value_snd_pcm_hw_params_sizeof$3=snd_pcm_hw_params_sizeof();
-    memset((void *)*(&p_hwparams), 0, return_value_snd_pcm_hw_params_sizeof$3);
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_1;
+    return_value_snd_pcm_hw_params_sizeof_1=snd_pcm_hw_params_sizeof();
+    void *return_value___builtin_alloca_2;
+    return_value___builtin_alloca_2=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof_1);
+    *(&p_hwparams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_2;
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_3;
+    return_value_snd_pcm_hw_params_sizeof_3=snd_pcm_hw_params_sizeof();
+    memset((void *)*(&p_hwparams), 0, return_value_snd_pcm_hw_params_sizeof_3);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$4;
-    return_value_snd_pcm_hw_params_sizeof$4=snd_pcm_hw_params_sizeof();
-    void *return_value___builtin_alloca$5;
-    return_value___builtin_alloca$5=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof$4);
-    *(&c_hwparams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$5;
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$6;
-    return_value_snd_pcm_hw_params_sizeof$6=snd_pcm_hw_params_sizeof();
-    memset((void *)*(&c_hwparams), 0, return_value_snd_pcm_hw_params_sizeof$6);
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_4;
+    return_value_snd_pcm_hw_params_sizeof_4=snd_pcm_hw_params_sizeof();
+    void *return_value___builtin_alloca_5;
+    return_value___builtin_alloca_5=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof_4);
+    *(&c_hwparams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_5;
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_6;
+    return_value_snd_pcm_hw_params_sizeof_6=snd_pcm_hw_params_sizeof();
+    memset((void *)*(&c_hwparams), 0, return_value_snd_pcm_hw_params_sizeof_6);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_snd_pcm_sw_params_sizeof$7;
-    return_value_snd_pcm_sw_params_sizeof$7=snd_pcm_sw_params_sizeof();
-    void *return_value___builtin_alloca$8;
-    return_value___builtin_alloca$8=__builtin_alloca(return_value_snd_pcm_sw_params_sizeof$7);
-    *(&p_swparams) = (struct _snd_pcm_sw_params *)return_value___builtin_alloca$8;
-    unsigned long int return_value_snd_pcm_sw_params_sizeof$9;
-    return_value_snd_pcm_sw_params_sizeof$9=snd_pcm_sw_params_sizeof();
-    memset((void *)*(&p_swparams), 0, return_value_snd_pcm_sw_params_sizeof$9);
+    unsigned long int return_value_snd_pcm_sw_params_sizeof_7;
+    return_value_snd_pcm_sw_params_sizeof_7=snd_pcm_sw_params_sizeof();
+    void *return_value___builtin_alloca_8;
+    return_value___builtin_alloca_8=__builtin_alloca(return_value_snd_pcm_sw_params_sizeof_7);
+    *(&p_swparams) = (struct _snd_pcm_sw_params *)return_value___builtin_alloca_8;
+    unsigned long int return_value_snd_pcm_sw_params_sizeof_9;
+    return_value_snd_pcm_sw_params_sizeof_9=snd_pcm_sw_params_sizeof();
+    memset((void *)*(&p_swparams), 0, return_value_snd_pcm_sw_params_sizeof_9);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_snd_pcm_sw_params_sizeof$10;
-    return_value_snd_pcm_sw_params_sizeof$10=snd_pcm_sw_params_sizeof();
-    void *return_value___builtin_alloca$11;
-    return_value___builtin_alloca$11=__builtin_alloca(return_value_snd_pcm_sw_params_sizeof$10);
-    *(&c_swparams) = (struct _snd_pcm_sw_params *)return_value___builtin_alloca$11;
-    unsigned long int return_value_snd_pcm_sw_params_sizeof$12;
-    return_value_snd_pcm_sw_params_sizeof$12=snd_pcm_sw_params_sizeof();
-    memset((void *)*(&c_swparams), 0, return_value_snd_pcm_sw_params_sizeof$12);
+    unsigned long int return_value_snd_pcm_sw_params_sizeof_10;
+    return_value_snd_pcm_sw_params_sizeof_10=snd_pcm_sw_params_sizeof();
+    void *return_value___builtin_alloca_11;
+    return_value___builtin_alloca_11=__builtin_alloca(return_value_snd_pcm_sw_params_sizeof_10);
+    *(&c_swparams) = (struct _snd_pcm_sw_params *)return_value___builtin_alloca_11;
+    unsigned long int return_value_snd_pcm_sw_params_sizeof_12;
+    return_value_snd_pcm_sw_params_sizeof_12=snd_pcm_sw_params_sizeof();
+    memset((void *)*(&c_swparams), 0, return_value_snd_pcm_sw_params_sizeof_12);
   }
   while((_Bool)0);
-  signed int return_value_setparams_stream$13;
-  return_value_setparams_stream$13=setparams_stream(chandle, c_hwparams, format, &setparams$$1$$channels, "capture");
-  if(!(return_value_setparams_stream$13 == 0))
+  signed int return_value_setparams_stream_13;
+  return_value_setparams_stream_13=setparams_stream(chandle, c_hwparams, format, &setparams__1__channels, "capture");
+  if(!(return_value_setparams_stream_13 == 0))
     return 1;
 
   else
   {
-    signed int return_value_setparams_stream$14;
-    return_value_setparams_stream$14=setparams_stream(phandle, p_hwparams, format, &setparams$$1$$channels, "playback");
-    if(!(return_value_setparams_stream$14 == 0))
+    signed int return_value_setparams_stream_14;
+    return_value_setparams_stream_14=setparams_stream(phandle, p_hwparams, format, &setparams__1__channels, "playback");
+    if(!(return_value_setparams_stream_14 == 0))
       return 1;
 
     else
     {
       if(!(allow_resample == 0))
       {
-        setparams$$1$$err=snd_pcm_hw_params_set_rate_resample(chandle, c_hwparams, (unsigned int)1);
-        if(!(setparams$$1$$err >= 0))
+        setparams__1__err=snd_pcm_hw_params_set_rate_resample(chandle, c_hwparams, (unsigned int)1);
+        if(!(setparams__1__err >= 0))
         {
-          const char *return_value_snd_strerror$15;
-          return_value_snd_strerror$15=snd_strerror(setparams$$1$$err);
-          fprintf(error_fp, "alsa: Resample setup failed: %s\n", return_value_snd_strerror$15);
+          const char *return_value_snd_strerror_15;
+          return_value_snd_strerror_15=snd_strerror(setparams__1__err);
+          fprintf(error_fp, "alsa: Resample setup failed: %s\n", return_value_snd_strerror_15);
           return 1;
         }
 
@@ -26666,16 +26666,16 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
 
       }
 
-      setparams$$1$$err=snd_pcm_hw_params_get_rate_min(c_hwparams, &ratemin, ((signed int *)NULL));
-      if(setparams$$1$$err >= 0 && !(verbose == 0))
+      setparams__1__err=snd_pcm_hw_params_get_rate_min(c_hwparams, &ratemin, ((signed int *)NULL));
+      if(setparams__1__err >= 0 && !(verbose == 0))
         fprintf(error_fp, "alsa: Capture min rate is %d\n", ratemin);
 
-      setparams$$1$$err=snd_pcm_hw_params_get_rate_max(c_hwparams, &ratemax, ((signed int *)NULL));
-      if(setparams$$1$$err >= 0 && !(verbose == 0))
+      setparams__1__err=snd_pcm_hw_params_get_rate_max(c_hwparams, &ratemax, ((signed int *)NULL));
+      if(setparams__1__err >= 0 && !(verbose == 0))
         fprintf(error_fp, "alsa: Capture max rate is %u\n", ratemax);
 
-      setparams$$1$$err=snd_pcm_hw_params_get_rate_min(p_hwparams, &val, ((signed int *)NULL));
-      if(setparams$$1$$err >= 0)
+      setparams__1__err=snd_pcm_hw_params_get_rate_min(p_hwparams, &val, ((signed int *)NULL));
+      if(setparams__1__err >= 0)
       {
         if(!(verbose == 0))
           fprintf(error_fp, "alsa: Playback min rate is %u\n", val);
@@ -26685,8 +26685,8 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
 
       }
 
-      setparams$$1$$err=snd_pcm_hw_params_get_rate_max(p_hwparams, &val, ((signed int *)NULL));
-      if(setparams$$1$$err >= 0)
+      setparams__1__err=snd_pcm_hw_params_get_rate_max(p_hwparams, &val, ((signed int *)NULL));
+      if(setparams__1__err >= 0)
       {
         if(!(verbose == 0))
           fprintf(error_fp, "alsa: Playback max rate is %u\n", val);
@@ -26699,28 +26699,28 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
       if(!(verbose == 0))
         fprintf(error_fp, "alsa: Will search a common rate between %u and %u\n", ratemin, ratemax);
 
-      setparams$$1$$err = -1;
+      setparams__1__err = -1;
       i = 0;
       for( ; !((unsigned long int)i >= 3ul); i = i + 1)
       {
-        _Bool tmp_if_expr$16;
+        _Bool tmp_if_expr_16;
         if(!(prefered_rates[(signed long int)i] >= ratemin))
-          tmp_if_expr$16 = (_Bool)1;
+          tmp_if_expr_16 = (_Bool)1;
 
         else
-          tmp_if_expr$16 = prefered_rates[(signed long int)i] > ratemax ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$16)
+          tmp_if_expr_16 = prefered_rates[(signed long int)i] > ratemax ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_16)
         {
           ratec = prefered_rates[(signed long int)i];
           ratep = ratec;
-          setparams$$1$$err=alsa_try_rate(phandle, chandle, p_hwparams, c_hwparams, allow_resample, &ratep, &ratec);
-          if(setparams$$1$$err == 0)
+          setparams__1__err=alsa_try_rate(phandle, chandle, p_hwparams, c_hwparams, allow_resample, &ratep, &ratec);
+          if(setparams__1__err == 0)
             break;
 
         }
 
       }
-      if(!(setparams$$1$$err == 0))
+      if(!(setparams__1__err == 0))
       {
         if(ratemin >= 44100u)
         {
@@ -26729,8 +26729,8 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
           {
             ratec = (unsigned int)i;
             ratep = ratec;
-            setparams$$1$$err=alsa_try_rate(phandle, chandle, p_hwparams, c_hwparams, allow_resample, &ratep, &ratec);
-            if(setparams$$1$$err == 0)
+            setparams__1__err=alsa_try_rate(phandle, chandle, p_hwparams, c_hwparams, allow_resample, &ratep, &ratec);
+            if(setparams__1__err == 0)
               break;
 
           }
@@ -26743,19 +26743,19 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
           {
             ratec = (unsigned int)i;
             ratep = ratec;
-            setparams$$1$$err=alsa_try_rate(phandle, chandle, p_hwparams, c_hwparams, allow_resample, &ratep, &ratec);
-            if(setparams$$1$$err == 0)
+            setparams__1__err=alsa_try_rate(phandle, chandle, p_hwparams, c_hwparams, allow_resample, &ratep, &ratec);
+            if(setparams__1__err == 0)
               break;
 
           }
         }
       }
 
-      if(!(setparams$$1$$err >= 0))
+      if(!(setparams__1__err >= 0))
       {
-        const char *return_value_snd_strerror$17;
-        return_value_snd_strerror$17=snd_strerror(setparams$$1$$err);
-        fprintf(error_fp, "alsa: Failed to set a supported rate: %s\n", return_value_snd_strerror$17);
+        const char *return_value_snd_strerror_17;
+        return_value_snd_strerror_17=snd_strerror(setparams__1__err);
+        fprintf(error_fp, "alsa: Failed to set a supported rate: %s\n", return_value_snd_strerror_17);
         return 1;
       }
 
@@ -26784,9 +26784,9 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
         if(!(p_periodtime >= c_periodtime))
         {
           c_periodtime = p_periodtime;
-          double return_value_round$18;
-          return_value_round$18=round(((double)latency * 1000.0) / (double)c_periodtime + 0.5);
-          c_periods = (unsigned int)return_value_round$18;
+          double return_value_round_18;
+          return_value_round_18=round(((double)latency * 1000.0) / (double)c_periodtime + 0.5);
+          c_periods = (unsigned int)return_value_round_18;
           getparams_periods(chandle, c_hwparams, &c_periodtime, &c_periods, 0, "capture");
           p_periods = c_periods * (unsigned int)2;
           p_periodtime = c_periodtime;
@@ -26794,16 +26794,16 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
           c_periods = p_periods / (unsigned int)2;
         }
 
-        signed int return_value_setparams_periods$19;
-        return_value_setparams_periods$19=setparams_periods(chandle, c_hwparams, &c_periodtime, &c_periods, "capture");
-        if(!(return_value_setparams_periods$19 == 0))
+        signed int return_value_setparams_periods_19;
+        return_value_setparams_periods_19=setparams_periods(chandle, c_hwparams, &c_periodtime, &c_periods, "capture");
+        if(!(return_value_setparams_periods_19 == 0))
           return 1;
 
         else
         {
-          signed int return_value_setparams_periods$20;
-          return_value_setparams_periods$20=setparams_periods(phandle, p_hwparams, &p_periodtime, &p_periods, "playback");
-          if(!(return_value_setparams_periods$20 == 0))
+          signed int return_value_setparams_periods_20;
+          return_value_setparams_periods_20=setparams_periods(phandle, p_hwparams, &p_periodtime, &p_periods, "playback");
+          if(!(return_value_setparams_periods_20 == 0))
             return 1;
 
           else
@@ -26812,26 +26812,26 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
             snd_pcm_hw_params_get_period_size(c_hwparams, &c_psize, (signed int *)(void *)0);
             snd_pcm_hw_params_get_buffer_size(c_hwparams, &c_size);
             latency = (signed int)((unsigned long int)c_periods * c_psize);
-            signed int return_value_setparams_set$21;
-            return_value_setparams_set$21=setparams_set(phandle, p_hwparams, p_swparams, (unsigned long int)latency, "playback");
-            if(!(return_value_setparams_set$21 == 0))
+            signed int return_value_setparams_set_21;
+            return_value_setparams_set_21=setparams_set(phandle, p_hwparams, p_swparams, (unsigned long int)latency, "playback");
+            if(!(return_value_setparams_set_21 == 0))
               return 1;
 
             else
             {
-              signed int return_value_setparams_set$22;
-              return_value_setparams_set$22=setparams_set(chandle, c_hwparams, c_swparams, c_psize, "capture");
-              if(!(return_value_setparams_set$22 == 0))
+              signed int return_value_setparams_set_22;
+              return_value_setparams_set_22=setparams_set(chandle, c_hwparams, c_swparams, c_psize, "capture");
+              if(!(return_value_setparams_set_22 == 0))
                 return 1;
 
               else
               {
-                setparams$$1$$err=snd_pcm_prepare(phandle);
-                if(!(setparams$$1$$err >= 0))
+                setparams__1__err=snd_pcm_prepare(phandle);
+                if(!(setparams__1__err >= 0))
                 {
-                  const char *return_value_snd_strerror$23;
-                  return_value_snd_strerror$23=snd_strerror(setparams$$1$$err);
-                  fprintf(error_fp, "alsa: Prepare error: %s\n", return_value_snd_strerror$23);
+                  const char *return_value_snd_strerror_23;
+                  return_value_snd_strerror_23=snd_strerror(setparams__1__err);
+                  fprintf(error_fp, "alsa: Prepare error: %s\n", return_value_snd_strerror_23);
                   return 1;
                 }
 
@@ -26840,15 +26840,15 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
                   fprintf(error_fp, "alsa: Negociated configuration:\n");
                   snd_pcm_dump_setup(phandle, output);
                   snd_pcm_dump_setup(chandle, output);
-                  const char *return_value_snd_pcm_format_name$24;
-                  return_value_snd_pcm_format_name$24=snd_pcm_format_name(format);
-                  fprintf(error_fp, "alsa: Parameters are %iHz, %s, %i channels\n", ratep, return_value_snd_pcm_format_name$24, setparams$$1$$channels);
+                  const char *return_value_snd_pcm_format_name_24;
+                  return_value_snd_pcm_format_name_24=snd_pcm_format_name(format);
+                  fprintf(error_fp, "alsa: Parameters are %iHz, %s, %i channels\n", ratep, return_value_snd_pcm_format_name_24, setparams__1__channels);
                   fprintf(error_fp, "alsa: Set bitrate to %u%s, buffer size is %u\n", ratec, allow_resample != 0 ? " with resample enabled at playback" : "", (unsigned int)c_size);
                 }
 
                 negotiated->bufsize = (signed int)c_size;
                 negotiated->rate = (signed int)ratep;
-                negotiated->channels = setparams$$1$$channels;
+                negotiated->channels = setparams__1__channels;
                 negotiated->latency = latency;
                 return 0;
               }
@@ -26864,23 +26864,23 @@ static signed int setparams(struct _snd_pcm *phandle, struct _snd_pcm *chandle, 
 // file common/alsa_stream.c line 150
 static signed int setparams_periods(struct _snd_pcm *handle, struct _snd_pcm_hw_params *params, unsigned int *usecs, unsigned int *count, const char *id)
 {
-  signed int setparams_periods$$1$$err;
-  setparams_periods$$1$$err=snd_pcm_hw_params_set_period_time_near(handle, params, usecs, ((signed int *)NULL));
-  if(!(setparams_periods$$1$$err >= 0))
+  signed int setparams_periods__1__err;
+  setparams_periods__1__err=snd_pcm_hw_params_set_period_time_near(handle, params, usecs, ((signed int *)NULL));
+  if(!(setparams_periods__1__err >= 0))
   {
-    const char *return_value_snd_strerror$1;
-    return_value_snd_strerror$1=snd_strerror(setparams_periods$$1$$err);
-    fprintf(error_fp, "alsa: Unable to set period time %u for %s: %s\n", *usecs, id, return_value_snd_strerror$1);
-    return setparams_periods$$1$$err;
+    const char *return_value_snd_strerror_1;
+    return_value_snd_strerror_1=snd_strerror(setparams_periods__1__err);
+    fprintf(error_fp, "alsa: Unable to set period time %u for %s: %s\n", *usecs, id, return_value_snd_strerror_1);
+    return setparams_periods__1__err;
   }
 
-  setparams_periods$$1$$err=snd_pcm_hw_params_set_periods_near(handle, params, count, ((signed int *)NULL));
-  if(!(setparams_periods$$1$$err >= 0))
+  setparams_periods__1__err=snd_pcm_hw_params_set_periods_near(handle, params, count, ((signed int *)NULL));
+  if(!(setparams_periods__1__err >= 0))
   {
-    const char *return_value_snd_strerror$2;
-    return_value_snd_strerror$2=snd_strerror(setparams_periods$$1$$err);
-    fprintf(error_fp, "alsa: Unable to set %u periods for %s: %s\n", *count, id, return_value_snd_strerror$2);
-    return setparams_periods$$1$$err;
+    const char *return_value_snd_strerror_2;
+    return_value_snd_strerror_2=snd_strerror(setparams_periods__1__err);
+    fprintf(error_fp, "alsa: Unable to set %u periods for %s: %s\n", *count, id, return_value_snd_strerror_2);
+    return setparams_periods__1__err;
   }
 
   if(!(verbose == 0))
@@ -26893,50 +26893,50 @@ static signed int setparams_periods(struct _snd_pcm *handle, struct _snd_pcm_hw_
 // file common/alsa_stream.c line 179
 static signed int setparams_set(struct _snd_pcm *handle, struct _snd_pcm_hw_params *params, struct _snd_pcm_sw_params *swparams, unsigned long int start_treshold, const char *id)
 {
-  signed int setparams_set$$1$$err;
-  setparams_set$$1$$err=snd_pcm_hw_params(handle, params);
-  if(!(setparams_set$$1$$err >= 0))
+  signed int setparams_set__1__err;
+  setparams_set__1__err=snd_pcm_hw_params(handle, params);
+  if(!(setparams_set__1__err >= 0))
   {
-    const char *return_value_snd_strerror$1;
-    return_value_snd_strerror$1=snd_strerror(setparams_set$$1$$err);
-    fprintf(error_fp, "alsa: Unable to set hw params for %s: %s\n", id, return_value_snd_strerror$1);
-    return setparams_set$$1$$err;
+    const char *return_value_snd_strerror_1;
+    return_value_snd_strerror_1=snd_strerror(setparams_set__1__err);
+    fprintf(error_fp, "alsa: Unable to set hw params for %s: %s\n", id, return_value_snd_strerror_1);
+    return setparams_set__1__err;
   }
 
-  setparams_set$$1$$err=snd_pcm_sw_params_current(handle, swparams);
-  if(!(setparams_set$$1$$err >= 0))
+  setparams_set__1__err=snd_pcm_sw_params_current(handle, swparams);
+  if(!(setparams_set__1__err >= 0))
   {
-    const char *return_value_snd_strerror$2;
-    return_value_snd_strerror$2=snd_strerror(setparams_set$$1$$err);
-    fprintf(error_fp, "alsa: Unable to determine current swparams for %s: %s\n", id, return_value_snd_strerror$2);
-    return setparams_set$$1$$err;
+    const char *return_value_snd_strerror_2;
+    return_value_snd_strerror_2=snd_strerror(setparams_set__1__err);
+    fprintf(error_fp, "alsa: Unable to determine current swparams for %s: %s\n", id, return_value_snd_strerror_2);
+    return setparams_set__1__err;
   }
 
-  setparams_set$$1$$err=snd_pcm_sw_params_set_start_threshold(handle, swparams, start_treshold);
-  if(!(setparams_set$$1$$err >= 0))
+  setparams_set__1__err=snd_pcm_sw_params_set_start_threshold(handle, swparams, start_treshold);
+  if(!(setparams_set__1__err >= 0))
   {
-    const char *return_value_snd_strerror$3;
-    return_value_snd_strerror$3=snd_strerror(setparams_set$$1$$err);
-    fprintf(error_fp, "alsa: Unable to set start threshold mode for %s: %s\n", id, return_value_snd_strerror$3);
-    return setparams_set$$1$$err;
+    const char *return_value_snd_strerror_3;
+    return_value_snd_strerror_3=snd_strerror(setparams_set__1__err);
+    fprintf(error_fp, "alsa: Unable to set start threshold mode for %s: %s\n", id, return_value_snd_strerror_3);
+    return setparams_set__1__err;
   }
 
-  setparams_set$$1$$err=snd_pcm_sw_params_set_avail_min(handle, swparams, (unsigned long int)4);
-  if(!(setparams_set$$1$$err >= 0))
+  setparams_set__1__err=snd_pcm_sw_params_set_avail_min(handle, swparams, (unsigned long int)4);
+  if(!(setparams_set__1__err >= 0))
   {
-    const char *return_value_snd_strerror$4;
-    return_value_snd_strerror$4=snd_strerror(setparams_set$$1$$err);
-    fprintf(error_fp, "alsa: Unable to set avail min for %s: %s\n", id, return_value_snd_strerror$4);
-    return setparams_set$$1$$err;
+    const char *return_value_snd_strerror_4;
+    return_value_snd_strerror_4=snd_strerror(setparams_set__1__err);
+    fprintf(error_fp, "alsa: Unable to set avail min for %s: %s\n", id, return_value_snd_strerror_4);
+    return setparams_set__1__err;
   }
 
-  setparams_set$$1$$err=snd_pcm_sw_params(handle, swparams);
-  if(!(setparams_set$$1$$err >= 0))
+  setparams_set__1__err=snd_pcm_sw_params(handle, swparams);
+  if(!(setparams_set__1__err >= 0))
   {
-    const char *return_value_snd_strerror$5;
-    return_value_snd_strerror$5=snd_strerror(setparams_set$$1$$err);
-    fprintf(error_fp, "alsa: Unable to set sw params for %s: %s\n", id, return_value_snd_strerror$5);
-    return setparams_set$$1$$err;
+    const char *return_value_snd_strerror_5;
+    return_value_snd_strerror_5=snd_strerror(setparams_set__1__err);
+    fprintf(error_fp, "alsa: Unable to set sw params for %s: %s\n", id, return_value_snd_strerror_5);
+    return setparams_set__1__err;
   }
 
   return 0;
@@ -26946,46 +26946,46 @@ static signed int setparams_set(struct _snd_pcm *handle, struct _snd_pcm_hw_para
 // file common/alsa_stream.c line 62
 static signed int setparams_stream(struct _snd_pcm *handle, struct _snd_pcm_hw_params *params, enum _snd_pcm_format format, signed int *channels, const char *id)
 {
-  signed int setparams_stream$$1$$err;
-  setparams_stream$$1$$err=snd_pcm_hw_params_any(handle, params);
-  if(!(setparams_stream$$1$$err >= 0))
+  signed int setparams_stream__1__err;
+  setparams_stream__1__err=snd_pcm_hw_params_any(handle, params);
+  if(!(setparams_stream__1__err >= 0))
   {
-    const char *return_value_snd_strerror$1;
-    return_value_snd_strerror$1=snd_strerror(setparams_stream$$1$$err);
-    fprintf(error_fp, "alsa: Broken configuration for %s PCM: no configurations available: %s\n", return_value_snd_strerror$1, id);
-    return setparams_stream$$1$$err;
+    const char *return_value_snd_strerror_1;
+    return_value_snd_strerror_1=snd_strerror(setparams_stream__1__err);
+    fprintf(error_fp, "alsa: Broken configuration for %s PCM: no configurations available: %s\n", return_value_snd_strerror_1, id);
+    return setparams_stream__1__err;
   }
 
-  setparams_stream$$1$$err=snd_pcm_hw_params_set_access(handle, params, (enum _snd_pcm_access)SND_PCM_ACCESS_RW_INTERLEAVED);
-  if(!(setparams_stream$$1$$err >= 0))
+  setparams_stream__1__err=snd_pcm_hw_params_set_access(handle, params, (enum _snd_pcm_access)SND_PCM_ACCESS_RW_INTERLEAVED);
+  if(!(setparams_stream__1__err >= 0))
   {
-    const char *return_value_snd_strerror$2;
-    return_value_snd_strerror$2=snd_strerror(setparams_stream$$1$$err);
-    fprintf(error_fp, "alsa: Access type not available for %s: %s\n", id, return_value_snd_strerror$2);
-    return setparams_stream$$1$$err;
+    const char *return_value_snd_strerror_2;
+    return_value_snd_strerror_2=snd_strerror(setparams_stream__1__err);
+    fprintf(error_fp, "alsa: Access type not available for %s: %s\n", id, return_value_snd_strerror_2);
+    return setparams_stream__1__err;
   }
 
-  setparams_stream$$1$$err=snd_pcm_hw_params_set_format(handle, params, format);
-  if(!(setparams_stream$$1$$err >= 0))
+  setparams_stream__1__err=snd_pcm_hw_params_set_format(handle, params, format);
+  if(!(setparams_stream__1__err >= 0))
   {
-    const char *return_value_snd_strerror$3;
-    return_value_snd_strerror$3=snd_strerror(setparams_stream$$1$$err);
-    fprintf(error_fp, "alsa: Sample format not available for %s: %s\n", id, return_value_snd_strerror$3);
-    return setparams_stream$$1$$err;
+    const char *return_value_snd_strerror_3;
+    return_value_snd_strerror_3=snd_strerror(setparams_stream__1__err);
+    fprintf(error_fp, "alsa: Sample format not available for %s: %s\n", id, return_value_snd_strerror_3);
+    return setparams_stream__1__err;
   }
 
-  signed int return_value_strcmp$4;
+  signed int return_value_strcmp_4;
   do
   {
 
   retry:
     ;
-    setparams_stream$$1$$err=snd_pcm_hw_params_set_channels(handle, params, (unsigned int)*channels);
-    if(setparams_stream$$1$$err >= 0)
+    setparams_stream__1__err=snd_pcm_hw_params_set_channels(handle, params, (unsigned int)*channels);
+    if(setparams_stream__1__err >= 0)
       goto __CPROVER_DUMP_L5;
 
-    return_value_strcmp$4=strcmp(id, "capture");
-    if(!(return_value_strcmp$4 == 0))
+    return_value_strcmp_4=strcmp(id, "capture");
+    if(!(return_value_strcmp_4 == 0))
       break;
 
     if(!(*channels == 2))
@@ -26994,10 +26994,10 @@ static signed int setparams_stream(struct _snd_pcm *handle, struct _snd_pcm_hw_p
     *channels = 1;
   }
   while((_Bool)1);
-  const char *return_value_snd_strerror$5;
-  return_value_snd_strerror$5=snd_strerror(setparams_stream$$1$$err);
-  fprintf(error_fp, "alsa: Channels count (%i) not available for %s: %s\n", *channels, id, return_value_snd_strerror$5);
-  return setparams_stream$$1$$err;
+  const char *return_value_snd_strerror_5;
+  return_value_snd_strerror_5=snd_strerror(setparams_stream__1__err);
+  fprintf(error_fp, "alsa: Channels count (%i) not available for %s: %s\n", *channels, id, return_value_snd_strerror_5);
+  return setparams_stream__1__err;
 
 __CPROVER_DUMP_L5:
   ;
@@ -27011,12 +27011,12 @@ static signed int setstation_handler(char *name, signed int argc, char **argv)
   struct ng_attribute *attr;
   signed int i;
   signed int orig_mute;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$1;
-  char *return_value_strcasestr$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_1;
+  char *return_value_strcasestr_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
   if((4 & f_drv) == 0)
     return 0;
 
@@ -27038,44 +27038,44 @@ static signed int setstation_handler(char *name, signed int argc, char **argv)
 
       else
       {
-        _Bool tmp_if_expr$9;
+        _Bool tmp_if_expr_9;
         if(!(count == 0))
         {
-          return_value_strcasecmp$8=strcasecmp(argv[(signed long int)0], "next");
-          tmp_if_expr$9 = 0 == return_value_strcasecmp$8 ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_8=strcasecmp(argv[(signed long int)0], "next");
+          tmp_if_expr_9 = 0 == return_value_strcasecmp_8 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
           i = (cur_sender + 1) % count;
 
         else
         {
-          _Bool tmp_if_expr$7;
+          _Bool tmp_if_expr_7;
           if(!(count == 0))
           {
-            return_value_strcasecmp$6=strcasecmp(argv[(signed long int)0], "prev");
-            tmp_if_expr$7 = 0 == return_value_strcasecmp$6 ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_6=strcasecmp(argv[(signed long int)0], "prev");
+            tmp_if_expr_7 = 0 == return_value_strcasecmp_6 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
             i = ((cur_sender + count) - 1) % count;
 
           else
           {
-            _Bool tmp_if_expr$5;
+            _Bool tmp_if_expr_5;
             if(!(count == 0))
             {
-              return_value_strcasecmp$4=strcasecmp(argv[(signed long int)0], "back");
-              tmp_if_expr$5 = 0 == return_value_strcasecmp$4 ? (_Bool)1 : (_Bool)0;
+              return_value_strcasecmp_4=strcasecmp(argv[(signed long int)0], "back");
+              tmp_if_expr_5 = 0 == return_value_strcasecmp_4 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$5 = (_Bool)0;
-            if(tmp_if_expr$5)
+              tmp_if_expr_5 = (_Bool)0;
+            if(tmp_if_expr_5)
             {
               if(last_sender == -1)
                 return -1;
@@ -27088,8 +27088,8 @@ static signed int setstation_handler(char *name, signed int argc, char **argv)
               i = 0;
               for( ; !(i >= count); i = i + 1)
               {
-                return_value_strcasecmp$1=strcasecmp(channels[(signed long int)i]->name, argv[(signed long int)0]);
-                if(return_value_strcasecmp$1 == 0)
+                return_value_strcasecmp_1=strcasecmp(channels[(signed long int)i]->name, argv[(signed long int)0]);
+                if(return_value_strcasecmp_1 == 0)
                   break;
 
               }
@@ -27098,8 +27098,8 @@ static signed int setstation_handler(char *name, signed int argc, char **argv)
                 i = 0;
                 for( ; !(i >= count); i = i + 1)
                 {
-                  return_value_strcasestr$2=strcasestr(channels[(signed long int)i]->name, argv[(signed long int)0]);
-                  if(!(return_value_strcasestr$2 == ((char *)NULL)))
+                  return_value_strcasestr_2=strcasestr(channels[(signed long int)i]->name, argv[(signed long int)0]);
+                  if(!(return_value_strcasestr_2 == ((char *)NULL)))
                     break;
 
                 }
@@ -27107,8 +27107,8 @@ static signed int setstation_handler(char *name, signed int argc, char **argv)
 
               if(i == count)
               {
-                return_value___ctype_b_loc$3=__ctype_b_loc();
-                if(!((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*(*argv)]) == 0))
+                return_value___ctype_b_loc_3=__ctype_b_loc();
+                if(!((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*(*argv)]) == 0))
                   i=atoi(argv[(signed long int)0]);
 
               }
@@ -27207,7 +27207,7 @@ static signed int show_handler(char *name, signed int argc, char **argv)
   struct ng_attribute *attr;
   char *n[2l] = { (char *)(void *)0, (char *)(void *)0 };
   signed int val;
-  const char *return_value_ng_attr_getstr$1;
+  const char *return_value_ng_attr_getstr_1;
   if(argc == 0)
   {
     attr = attrs;
@@ -27235,8 +27235,8 @@ static signed int show_handler(char *name, signed int argc, char **argv)
       {
         case 2:
         {
-          return_value_ng_attr_getstr$1=ng_attr_getstr(attr, val);
-          printf("%s: %s\n", attr->name, return_value_ng_attr_getstr$1);
+          return_value_ng_attr_getstr_1=ng_attr_getstr(attr, val);
+          printf("%s: %s\n", attr->name, return_value_ng_attr_getstr_1);
           break;
         }
         case 1:
@@ -27277,28 +27277,28 @@ char * snap_filename(char *base, char *channel, char *ext)
   char timestamp[32l];
   time(&now);
   tm=localtime(&now);
-  static signed int snap_filename$$1$$count = 0;
+  static signed int snap_filename__1__count = 0;
   static signed long int last = (signed long int)0;
   if(!(last == now))
-    snap_filename$$1$$count = 0;
+    snap_filename__1__count = 0;
 
   last = now;
-  snap_filename$$1$$count = snap_filename$$1$$count + 1;
+  snap_filename__1__count = snap_filename__1__count + 1;
   static char *filename = (char *)(void *)0;
   if(!(filename == ((char *)NULL)))
     free((void *)filename);
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(base);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(channel);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(ext);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(return_value_strlen$1 + return_value_strlen$2 + return_value_strlen$3 + (unsigned long int)32);
-  filename = (char *)return_value_malloc$4;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(base);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(channel);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(ext);
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(return_value_strlen_1 + return_value_strlen_2 + return_value_strlen_3 + (unsigned long int)32);
+  filename = (char *)return_value_malloc_4;
   strftime(timestamp, (unsigned long int)31, "%Y%m%d-%H%M%S", tm);
-  sprintf(filename, "%s-%s-%s-%d.%s", base, channel, (const void *)timestamp, snap_filename$$1$$count, ext);
+  sprintf(filename, "%s-%s-%s-%d.%s", base, channel, (const void *)timestamp, snap_filename__1__count, ext);
   return filename;
 }
 
@@ -27312,13 +27312,13 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
   char *name;
   signed int jpeg = 0;
   signed int ret = 0;
-  struct ng_video_fmt snap_handler$$1$$fmt;
+  struct ng_video_fmt snap_handler__1__fmt;
   struct ng_video_buf *buf = (struct ng_video_buf *)(void *)0;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_sscanf$3;
-  unsigned long int return_value_strlen$7;
-  void *return_value_malloc$8;
-  signed int return_value_link$17;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_sscanf_3;
+  unsigned long int return_value_strlen_7;
+  void *return_value_malloc_8;
+  signed int return_value_link_17;
   if((2 & f_drv) == 0)
   {
     fprintf(stderr, "grabbing: not supported [try -noxv switch?]\n");
@@ -27341,39 +27341,39 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
 
       if(argc >= 1)
       {
-        signed int return_value_strcasecmp$1;
-        return_value_strcasecmp$1=strcasecmp(argv[(signed long int)0], "jpeg");
-        if(return_value_strcasecmp$1 == 0)
+        signed int return_value_strcasecmp_1;
+        return_value_strcasecmp_1=strcasecmp(argv[(signed long int)0], "jpeg");
+        if(return_value_strcasecmp_1 == 0)
           jpeg = 1;
 
-        signed int return_value_strcasecmp$2;
-        return_value_strcasecmp$2=strcasecmp(argv[(signed long int)0], "ppm");
-        if(return_value_strcasecmp$2 == 0)
+        signed int return_value_strcasecmp_2;
+        return_value_strcasecmp_2=strcasecmp(argv[(signed long int)0], "ppm");
+        if(return_value_strcasecmp_2 == 0)
           jpeg = 0;
 
       }
 
-      memset((void *)&snap_handler$$1$$fmt, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
-      snap_handler$$1$$fmt.fmtid = (unsigned int)9;
-      snap_handler$$1$$fmt.width = (unsigned int)2048;
-      snap_handler$$1$$fmt.height = (unsigned int)1572;
+      memset((void *)&snap_handler__1__fmt, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
+      snap_handler__1__fmt.fmtid = (unsigned int)9;
+      snap_handler__1__fmt.width = (unsigned int)2048;
+      snap_handler__1__fmt.height = (unsigned int)1572;
       if(argc >= 2)
       {
-        signed int return_value_strcasecmp$5;
-        return_value_strcasecmp$5=strcasecmp(argv[(signed long int)1], "full");
-        if(!(return_value_strcasecmp$5 == 0))
+        signed int return_value_strcasecmp_5;
+        return_value_strcasecmp_5=strcasecmp(argv[(signed long int)1], "full");
+        if(!(return_value_strcasecmp_5 == 0))
         {
-          return_value_strcasecmp$4=strcasecmp(argv[(signed long int)1], "win");
-          if(return_value_strcasecmp$4 == 0)
+          return_value_strcasecmp_4=strcasecmp(argv[(signed long int)1], "win");
+          if(return_value_strcasecmp_4 == 0)
           {
-            snap_handler$$1$$fmt.width = cur_tv_width;
-            snap_handler$$1$$fmt.height = cur_tv_height;
+            snap_handler__1__fmt.width = cur_tv_width;
+            snap_handler__1__fmt.height = cur_tv_height;
           }
 
           else
           {
-            return_value_sscanf$3=sscanf(argv[(signed long int)1], "%dx%d", &snap_handler$$1$$fmt.width, &snap_handler$$1$$fmt.height);
-            if(!(return_value_sscanf$3 == 2))
+            return_value_sscanf_3=sscanf(argv[(signed long int)1], "%dx%d", &snap_handler__1__fmt.width, &snap_handler__1__fmt.height);
+            if(!(return_value_sscanf_3 == 2))
               return -1;
 
           }
@@ -27384,7 +27384,7 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
       if(argc >= 3)
         filename = argv[(signed long int)2];
 
-      buf=ng_grabber_get_image(&snap_handler$$1$$fmt);
+      buf=ng_grabber_get_image(&snap_handler__1__fmt);
       if(buf == ((struct ng_video_buf *)NULL))
       {
         if(!(display_message == ((void (*)(char *))NULL)))
@@ -27404,13 +27404,13 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
           else
             if(!(cur_channel == -1))
             {
-              struct CHANLIST *tmp_if_expr$6;
+              struct CHANLIST *tmp_if_expr_6;
               if(!(chantab == -1))
-                tmp_if_expr$6 = (chanlists + (signed long int)chantab)->list;
+                tmp_if_expr_6 = (chanlists + (signed long int)chantab)->list;
 
               else
-                tmp_if_expr$6 = (struct CHANLIST *)(void *)0;
-              name = (tmp_if_expr$6 + (signed long int)cur_channel)->name;
+                tmp_if_expr_6 = (struct CHANLIST *)(void *)0;
+              name = (tmp_if_expr_6 + (signed long int)cur_channel)->name;
             }
 
             else
@@ -27418,21 +27418,21 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
           filename=snap_filename(snapbase, name, jpeg != 0 ? "jpeg" : "ppm");
         }
 
-        return_value_strlen$7=strlen(filename);
-        return_value_malloc$8=malloc(return_value_strlen$7 + (unsigned long int)8);
-        tmpfilename = (char *)return_value_malloc$8;
-        sprintf(tmpfilename, "%s.$$$", filename);
+        return_value_strlen_7=strlen(filename);
+        return_value_malloc_8=malloc(return_value_strlen_7 + (unsigned long int)8);
+        tmpfilename = (char *)return_value_malloc_8;
+        sprintf(tmpfilename, "%s.___", filename);
         if(!(jpeg == 0))
         {
-          signed int return_value_write_jpeg$11;
-          return_value_write_jpeg$11=write_jpeg(tmpfilename, buf, ng_jpeg_quality, 0);
-          if(return_value_write_jpeg$11 == -1)
+          signed int return_value_write_jpeg_11;
+          return_value_write_jpeg_11=write_jpeg(tmpfilename, buf, ng_jpeg_quality, 0);
+          if(return_value_write_jpeg_11 == -1)
           {
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            char *return_value_strerror$10;
-            return_value_strerror$10=strerror(*return_value___errno_location$9);
-            sprintf(message, "open %s: %s\n", tmpfilename, return_value_strerror$10);
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            char *return_value_strerror_10;
+            return_value_strerror_10=strerror(*return_value___errno_location_9);
+            sprintf(message, "open %s: %s\n", tmpfilename, return_value_strerror_10);
           }
 
           else
@@ -27441,29 +27441,29 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
 
         else
         {
-          signed int return_value_write_ppm$14;
-          return_value_write_ppm$14=write_ppm(tmpfilename, buf);
-          if(return_value_write_ppm$14 == -1)
+          signed int return_value_write_ppm_14;
+          return_value_write_ppm_14=write_ppm(tmpfilename, buf);
+          if(return_value_write_ppm_14 == -1)
           {
-            signed int *return_value___errno_location$12;
-            return_value___errno_location$12=__errno_location();
-            char *return_value_strerror$13;
-            return_value_strerror$13=strerror(*return_value___errno_location$12);
-            sprintf(message, "open %s: %s\n", tmpfilename, return_value_strerror$13);
+            signed int *return_value___errno_location_12;
+            return_value___errno_location_12=__errno_location();
+            char *return_value_strerror_13;
+            return_value_strerror_13=strerror(*return_value___errno_location_12);
+            sprintf(message, "open %s: %s\n", tmpfilename, return_value_strerror_13);
           }
 
           else
             sprintf(message, "saved ppm: %s", filename);
         }
         unlink(filename);
-        return_value_link$17=link(tmpfilename, filename);
-        if(return_value_link$17 == -1)
+        return_value_link_17=link(tmpfilename, filename);
+        if(return_value_link_17 == -1)
         {
-          signed int *return_value___errno_location$15;
-          return_value___errno_location$15=__errno_location();
-          char *return_value_strerror$16;
-          return_value_strerror$16=strerror(*return_value___errno_location$15);
-          fprintf(stderr, "link(%s,%s): %s\n", tmpfilename, filename, return_value_strerror$16);
+          signed int *return_value___errno_location_15;
+          return_value___errno_location_15=__errno_location();
+          char *return_value_strerror_16;
+          return_value_strerror_16=strerror(*return_value___errno_location_15);
+          fprintf(stderr, "link(%s,%s): %s\n", tmpfilename, filename, return_value_strerror_16);
           goto done;
         }
 
@@ -27507,35 +27507,35 @@ static signed int sort_media_device_entry(const void *a, const void *b)
 
     else
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(md_a->node, md_b->node);
-      return return_value_strcmp$1;
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(md_a->node, md_b->node);
+      return return_value_strcmp_1;
     }
   }
 }
 
-// sort_media_device_entry$link1
+// sort_media_device_entry_link1
 // file common/get_media_devices.c line 299
-static signed int sort_media_device_entry$link1(const void *a$link1, const void *b$link1)
+static signed int sort_media_device_entry_link1(const void *a_link1, const void *b_link1)
 {
-  struct media_device_entry *md_a$link1 = (struct media_device_entry *)a$link1;
-  struct media_device_entry *md_b$link1 = (struct media_device_entry *)b$link1;
-  signed int cmp$link1;
-  cmp$link1=strcmp(md_a$link1->device, md_b$link1->device);
-  if(!(cmp$link1 == 0))
-    return cmp$link1;
+  struct media_device_entry *md_a_link1 = (struct media_device_entry *)a_link1;
+  struct media_device_entry *md_b_link1 = (struct media_device_entry *)b_link1;
+  signed int cmp_link1;
+  cmp_link1=strcmp(md_a_link1->device, md_b_link1->device);
+  if(!(cmp_link1 == 0))
+    return cmp_link1;
 
   else
   {
-    cmp$link1 = (signed int)md_a$link1->type - (signed int)md_b$link1->type;
-    if(!(cmp$link1 == 0))
-      return cmp$link1;
+    cmp_link1 = (signed int)md_a_link1->type - (signed int)md_b_link1->type;
+    if(!(cmp_link1 == 0))
+      return cmp_link1;
 
     else
     {
-      signed int return_value_strcmp$1$link1;
-      return_value_strcmp$1$link1=strcmp(md_a$link1->node, md_b$link1->node);
-      return return_value_strcmp$1$link1;
+      signed int return_value_strcmp_1_link1;
+      return_value_strcmp_1_link1=strcmp(md_a_link1->node, md_b_link1->node);
+      return return_value_strcmp_1_link1;
     }
   }
 }
@@ -27553,9 +27553,9 @@ char ** split_cmdline(char *line, signed int *count)
   static char *argv[32l];
   while(!(argc >= 31))
   {
-    signed int tmp_post$1 = argc;
+    signed int tmp_post_1 = argc;
     argc = argc + 1;
-    argv[(signed long int)tmp_post$1] = cmdline + (signed long int)i;
+    argv[(signed long int)tmp_post_1] = cmdline + (signed long int)i;
     for( ; !((signed int)cmdline[(signed long int)i] == 32); i = i + 1)
     {
       if((signed int)cmdline[(signed long int)i] == 9)
@@ -27568,9 +27568,9 @@ char ** split_cmdline(char *line, signed int *count)
     if((signed int)cmdline[(signed long int)i] == 0)
       break;
 
-    signed int tmp_post$2 = i;
+    signed int tmp_post_2 = i;
     i = i + 1;
-    cmdline[(signed long int)tmp_post$2] = (char)0;
+    cmdline[(signed long int)tmp_post_2] = (char)0;
     for( ; (_Bool)1; i = i + 1)
       if(!((signed int)cmdline[(signed long int)i] == 32))
       {
@@ -27597,7 +27597,7 @@ static void stderr_close_cb(struct _WidgetRec *widget, void *clientdata, void *c
 {
   struct stderr_handler *h = (struct stderr_handler *)clientdata;
   XmStringFree(h->str);
-  h->str=XmStringGenerate((void *)"", (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+  h->str=XmStringGenerate((void *)"", (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
 }
 
 // stderr_init
@@ -27608,22 +27608,22 @@ static void stderr_init(void)
   signed int p[2l];
   if(debug == 0)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct stderr_handler) /*32ul*/ );
-    h = (struct stderr_handler *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct stderr_handler) /*32ul*/ );
+    h = (struct stderr_handler *)return_value_malloc_1;
     memset((void *)h, 0, sizeof(struct stderr_handler) /*32ul*/ );
-    h->str=XmStringGenerate((void *)"", (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
-    h->box=XmCreateErrorDialog(app_shell, "errbox", (struct anonymous$11 *)(void *)0, (unsigned int)0);
-    struct _WidgetRec *return_value_XmMessageBoxGetChild$2;
-    return_value_XmMessageBoxGetChild$2=XmMessageBoxGetChild(h->box, (unsigned char)7);
-    XtUnmanageChild(return_value_XmMessageBoxGetChild$2);
-    struct _WidgetRec *return_value_XmMessageBoxGetChild$3;
-    return_value_XmMessageBoxGetChild$3=XmMessageBoxGetChild(h->box, (unsigned char)2);
-    XtUnmanageChild(return_value_XmMessageBoxGetChild$3);
+    h->str=XmStringGenerate((void *)"", (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+    h->box=XmCreateErrorDialog(app_shell, "errbox", (struct anonymous_11 *)(void *)0, (unsigned int)0);
+    struct _WidgetRec *return_value_XmMessageBoxGetChild_2;
+    return_value_XmMessageBoxGetChild_2=XmMessageBoxGetChild(h->box, (unsigned char)7);
+    XtUnmanageChild(return_value_XmMessageBoxGetChild_2);
+    struct _WidgetRec *return_value_XmMessageBoxGetChild_3;
+    return_value_XmMessageBoxGetChild_3=XmMessageBoxGetChild(h->box, (unsigned char)2);
+    XtUnmanageChild(return_value_XmMessageBoxGetChild_3);
     XtAddCallback(h->box, (char *)&_XmStrings[(signed long int)8560], stderr_ok_cb, (void *)h);
-    struct _WidgetRec *return_value_XtParent$4;
-    return_value_XtParent$4=XtParent(h->box);
-    XtAddCallback(return_value_XtParent$4, (char *)&XtStrings[(signed long int)548], stderr_close_cb, (void *)h);
+    struct _WidgetRec *return_value_XtParent_4;
+    return_value_XtParent_4=XtParent(h->box);
+    XtAddCallback(return_value_XtParent_4, (char *)&XtStrings[(signed long int)548], stderr_close_cb, (void *)h);
     pipe(p);
     dup2(p[(signed long int)1], 2);
     close(p[(signed long int)1]);
@@ -27642,9 +27642,9 @@ static void stderr_input(void *clientdata, signed int *src, unsigned long int *i
   struct _WidgetRec *label;
   char buf[1024l];
   signed int rc;
-  signed long int return_value_read$1;
-  return_value_read$1=read(h->pipe, (void *)buf, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
-  rc = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(h->pipe, (void *)buf, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
+  rc = (signed int)return_value_read_1;
   if(!(rc >= 1))
   {
     XtRemoveInput(h->id);
@@ -27654,7 +27654,7 @@ static void stderr_input(void *clientdata, signed int *src, unsigned long int *i
   }
 
   buf[(signed long int)rc] = (char)0;
-  item=XmStringGenerate((void *)buf, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+  item=XmStringGenerate((void *)buf, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
   h->str=XmStringConcatAndFree(h->str, item);
   label=XmMessageBoxGetChild(h->box, (unsigned char)10);
   XtVaSetValues(label, (char *)&_XmStrings[(signed long int)7535], h->str, (void *)0);
@@ -27667,7 +27667,7 @@ static void stderr_ok_cb(struct _WidgetRec *widget, void *clientdata, void *call
 {
   struct stderr_handler *h = (struct stderr_handler *)clientdata;
   XmStringFree(h->str);
-  h->str=XmStringGenerate((void *)"", (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+  h->str=XmStringGenerate((void *)"", (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
   XtUnmanageChild(h->box);
 }
 
@@ -27676,23 +27676,23 @@ static void stderr_ok_cb(struct _WidgetRec *widget, void *clientdata, void *call
 signed int str_to_int(char *str, struct STRTAB *tab)
 {
   signed int i;
-  signed int return_value_atoi$1;
+  signed int return_value_atoi_1;
   if((signed int)*str >= 48)
   {
     if(!((signed int)*str >= 58))
     {
-      return_value_atoi$1=atoi(str);
-      return return_value_atoi$1;
+      return_value_atoi_1=atoi(str);
+      return return_value_atoi_1;
     }
 
   }
 
   i = 0;
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   for( ; !((tab + (signed long int)i)->str == ((const char *)NULL)); i = i + 1)
   {
-    return_value_strcasecmp$2=strcasecmp(str, (tab + (signed long int)i)->str);
-    if(return_value_strcasecmp$2 == 0)
+    return_value_strcasecmp_2=strcasecmp(str, (tab + (signed long int)i)->str);
+    if(return_value_strcasecmp_2 == 0)
       return (signed int)(tab + (signed long int)i)->nr;
 
   }
@@ -27734,9 +27734,9 @@ static signed int tcp_connect(struct addrinfo *ai, char *host, char *serv)
   rc=getaddrinfo(host, serv, ai, &res);
   if(!(rc == 0))
   {
-    const char *return_value_gai_strerror$1;
-    return_value_gai_strerror$1=gai_strerror(rc);
-    fprintf(stderr, "tcp: getaddrinfo (%s:%s): %s\n", host, serv, return_value_gai_strerror$1);
+    const char *return_value_gai_strerror_1;
+    return_value_gai_strerror_1=gai_strerror(rc);
+    fprintf(stderr, "tcp: getaddrinfo (%s:%s): %s\n", host, serv, return_value_gai_strerror_1);
     return -1;
   }
 
@@ -27744,43 +27744,43 @@ static signed int tcp_connect(struct addrinfo *ai, char *host, char *serv)
     fprintf(stderr, "ok\n");
 
   e = res;
-  char *return_value_strfamily$3;
+  char *return_value_strfamily_3;
   for( ; !(e == ((struct addrinfo *)NULL)); e = e->ai_next)
   {
-    signed int return_value_getnameinfo$2;
-    return_value_getnameinfo$2=getnameinfo((struct sockaddr *)e->ai_addr, e->ai_addrlen, uhost, (unsigned int)46, userv, (unsigned int)32, 1 | 2);
-    if(!(return_value_getnameinfo$2 == 0))
+    signed int return_value_getnameinfo_2;
+    return_value_getnameinfo_2=getnameinfo((struct sockaddr *)e->ai_addr, e->ai_addrlen, uhost, (unsigned int)46, userv, (unsigned int)32, 1 | 2);
+    if(!(return_value_getnameinfo_2 == 0))
       fprintf(stderr, "tcp: getnameinfo (peer): oops\n");
 
     else
     {
       if(!(debug == 0))
       {
-        return_value_strfamily$3=strfamily(e->ai_family);
-        fprintf(stderr, "tcp: trying %s (%s:%s) ... ", return_value_strfamily$3, (const void *)uhost, (const void *)userv);
+        return_value_strfamily_3=strfamily(e->ai_family);
+        fprintf(stderr, "tcp: trying %s (%s:%s) ... ", return_value_strfamily_3, (const void *)uhost, (const void *)userv);
       }
 
       sock=socket(e->ai_family, e->ai_socktype, e->ai_protocol);
       if(sock == -1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        fprintf(stderr, "tcp: socket: %s\n", return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        fprintf(stderr, "tcp: socket: %s\n", return_value_strerror_5);
         goto __CPROVER_DUMP_L10;
       }
 
       setsockopt(sock, 1, 2, (const void *)&opt, (unsigned int)sizeof(signed int) /*4ul*/ );
-      signed int return_value_connect$8;
-      return_value_connect$8=connect(sock, e->ai_addr, e->ai_addrlen);
-      if(return_value_connect$8 == -1)
+      signed int return_value_connect_8;
+      return_value_connect_8=connect(sock, e->ai_addr, e->ai_addrlen);
+      if(return_value_connect_8 == -1)
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        fprintf(stderr, "tcp: connect: %s\n", return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        fprintf(stderr, "tcp: connect: %s\n", return_value_strerror_7);
         close(sock);
         goto __CPROVER_DUMP_L10;
       }
@@ -27803,10 +27803,10 @@ static signed int tcp_connect(struct addrinfo *ai, char *host, char *serv)
 // file common/commands.c line 1256
 static signed int tcp_readbuf(signed int sock, signed int timeout, char *dest, char dlen)
 {
-  struct timeval tcp_readbuf$$1$$tv;
-  struct anonymous$122 set;
+  struct timeval tcp_readbuf__1__tv;
+  struct anonymous_122 set;
   signed int rc;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
 
@@ -27814,17 +27814,17 @@ static signed int tcp_readbuf(signed int sock, signed int timeout, char *dest, c
     ;
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$122) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_122) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->fds_bits[(signed long int)0]) : "memory");
     (&set)->fds_bits[(signed long int)(sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->fds_bits[(signed long int)(sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    tcp_readbuf$$1$$tv.tv_sec = (signed long int)timeout;
-    tcp_readbuf$$1$$tv.tv_usec = (signed long int)0;
-    rc=select(sock + 1, &set, (struct anonymous$122 *)(void *)0, (struct anonymous$122 *)(void *)0, &tcp_readbuf$$1$$tv);
+    tcp_readbuf__1__tv.tv_sec = (signed long int)timeout;
+    tcp_readbuf__1__tv.tv_usec = (signed long int)0;
+    rc=select(sock + 1, &set, (struct anonymous_122 *)(void *)0, (struct anonymous_122 *)(void *)0, &tcp_readbuf__1__tv);
     if(!(rc == -1))
       goto __CPROVER_DUMP_L2;
 
-    return_value___errno_location$1=__errno_location();
+    return_value___errno_location_1=__errno_location();
   }
-  while(*return_value___errno_location$1 == 4);
+  while(*return_value___errno_location_1 == 4);
 
 __CPROVER_DUMP_L2:
   ;
@@ -27847,9 +27847,9 @@ __CPROVER_DUMP_L2:
 
     else
     {
-      signed long int return_value_read$2;
-      return_value_read$2=read(sock, (void *)dest, (unsigned long int)((signed int)dlen - 1));
-      rc = (signed int)return_value_read$2;
+      signed long int return_value_read_2;
+      return_value_read_2=read(sock, (void *)dest, (unsigned long int)((signed int)dlen - 1));
+      rc = (signed int)return_value_read_2;
       if(rc == -1)
       {
         if(!(debug == 0))
@@ -27870,11 +27870,11 @@ __CPROVER_DUMP_L2:
 // file x11/xt.c line 749
 static void termsig(signed int signal)
 {
-  char *return_value_strsignal$1;
+  char *return_value_strsignal_1;
   if(!(debug == 0))
   {
-    return_value_strsignal$1=strsignal(signal);
-    fprintf(stderr, "received signal %d [%s]\n", signal, return_value_strsignal$1);
+    return_value_strsignal_1=strsignal(signal);
+    fprintf(stderr, "received signal %d [%s]\n", signal, return_value_strsignal_1);
   }
 
   XtNoticeSignal(sig_id);
@@ -27895,39 +27895,39 @@ char * tilde_expand(char *file)
   char *user;
   struct passwd *pw;
   signed int len;
-  char *return_value_strchr$7;
+  char *return_value_strchr_7;
   if(file == ((char *)NULL))
     return (char *)(void *)0;
 
   else
   {
-    _Bool tmp_if_expr$8;
+    _Bool tmp_if_expr_8;
     if((signed int)*file == 126)
     {
-      return_value_strchr$7=strchr(file, 47);
-      tmp_if_expr$8 = return_value_strchr$7 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strchr_7=strchr(file, 47);
+      tmp_if_expr_8 = return_value_strchr_7 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(!tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(!tmp_if_expr_8)
       ret=strdup(file);
 
     else
     {
       if((signed int)file[1l] == 47)
       {
-        unsigned int return_value_getuid$1;
-        return_value_getuid$1=getuid();
-        pw=getpwuid(return_value_getuid$1);
+        unsigned int return_value_getuid_1;
+        return_value_getuid_1=getuid();
+        pw=getpwuid(return_value_getuid_1);
       }
 
       else
       {
         user=strdup(&file[(signed long int)1]);
-        char *return_value_strchr$2;
-        return_value_strchr$2=strchr(user, 47);
-        *return_value_strchr$2 = (char)0;
+        char *return_value_strchr_2;
+        return_value_strchr_2=strchr(user, 47);
+        *return_value_strchr_2 = (char)0;
         pw=getpwnam(user);
         free((void *)user);
       }
@@ -27936,21 +27936,21 @@ char * tilde_expand(char *file)
 
       else
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(file);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(pw->pw_dir);
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc(return_value_strlen$3 + return_value_strlen$4);
-        ret = (char *)return_value_malloc$5;
-        char *return_value_strchr$6;
-        return_value_strchr$6=strchr(file, 47);
-        sprintf(ret, "%s%s", pw->pw_dir, return_value_strchr$6);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(file);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(pw->pw_dir);
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc(return_value_strlen_3 + return_value_strlen_4);
+        ret = (char *)return_value_malloc_5;
+        char *return_value_strchr_6;
+        return_value_strchr_6=strchr(file, 47);
+        sprintf(ret, "%s%s", pw->pw_dir, return_value_strchr_6);
       }
     }
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen(ret);
-    len = (signed int)return_value_strlen$9;
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen(ret);
+    len = (signed int)return_value_strlen_9;
     for( ; (signed int)ret[(signed long int)(len + -1)] == 32; len = len - 1)
       ret[(signed long int)(len - 1)] = (char)0;
     return ret;
@@ -27971,7 +27971,7 @@ static void title_timeout(void *client_data, unsigned long int *id)
 void toolkit_set_label(struct _WidgetRec *widget, char *str)
 {
   union __XmStringRec *xmstr;
-  xmstr=XmStringGenerate((void *)str, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+  xmstr=XmStringGenerate((void *)str, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
   XtVaSetValues(widget, (char *)&_XmStrings[(signed long int)7535], xmstr, (void *)0);
   XmStringFree(xmstr);
 }
@@ -27985,9 +27985,9 @@ static unsigned char * ttx_next(void)
   buf[(signed long int)0] = (unsigned char)0x55;
   buf[(signed long int)1] = (unsigned char)0x55;
   buf[(signed long int)2] = (unsigned char)0x27;
-  signed int return_value_odd$1;
-  signed int return_value_odd$2;
-  signed int return_value_odd$3;
+  signed int return_value_odd_1;
+  signed int return_value_odd_2;
+  signed int return_value_odd_3;
   static unsigned char s5[10l][42l] = { { (unsigned char)0x02, (unsigned char)0x2f, (unsigned char)0x97, (unsigned char)0x20, (unsigned char)0x37, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0x23, (unsigned char)0xb5, (unsigned char)0x20 },
     { (unsigned char)0xc7, (unsigned char)0x2f, (unsigned char)0x97, (unsigned char)0x0d, (unsigned char)0xb5, (unsigned char)0x04, (unsigned char)0x20, (unsigned char)0x9d, (unsigned char)0x83, (unsigned char)0x8c, (unsigned char)0x08, (unsigned char)0x2a, (unsigned char)0x2a, (unsigned char)0x2a, (unsigned char)0x89, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x0d, (unsigned char)0x54, (unsigned char)0x45, (unsigned char)0xd3, (unsigned char)0x54, (unsigned char)0x20, (unsigned char)0xd0, (unsigned char)0xc1, (unsigned char)0xc7, (unsigned char)0x45, (unsigned char)0x8c, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x08, (unsigned char)0x2a, (unsigned char)0x2a, (unsigned char)0x2a, (unsigned char)0x89, (unsigned char)0x0d, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x1c, (unsigned char)0x97, (unsigned char)0xb5, (unsigned char)0x20 },
     { (unsigned char)0x02, (unsigned char)0xd0, (unsigned char)0x97, (unsigned char)0x20, (unsigned char)0xb5, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0x20, (unsigned char)0xea, (unsigned char)0x20 },
@@ -28010,8 +28010,8 @@ static unsigned char * ttx_next(void)
     for( ; !(i >= 32); i = i + 1)
     {
       static unsigned char s2[32l] = { '1', '0', '0', 2, 'L', 'I', 'B', 'Z', 'V', 'B', 'I', 7, ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '0', '0', ':', '0', '0', ':', '0', '0' };
-      return_value_odd$1=odd((signed int)s2[(signed long int)i]);
-      buf[(signed long int)(13 + i)] = (unsigned char)return_value_odd$1;
+      return_value_odd_1=odd((signed int)s2[(signed long int)i]);
+      buf[(signed long int)(13 + i)] = (unsigned char)return_value_odd_1;
     }
   }
 
@@ -28024,8 +28024,8 @@ static unsigned char * ttx_next(void)
       for( ; !(i >= 40); i = i + 1)
       {
         static unsigned char s3[40l] = { ' ', ' ', 'L', 'I', 'B', 'Z', 'V', 'B', 'I', ' ', 'T', 'E', 'L', 'E', 'T', 'E', 'X', 'T', ' ', 'S', 'I', 'M', 'U', 'L', 'A', 'T', 'I', 'O', 'N', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
-        return_value_odd$2=odd((signed int)s3[(signed long int)i]);
-        buf[(signed long int)(5 + i)] = (unsigned char)return_value_odd$2;
+        return_value_odd_2=odd((signed int)s3[(signed long int)i]);
+        buf[(signed long int)(5 + i)] = (unsigned char)return_value_odd_2;
       }
     }
 
@@ -28038,8 +28038,8 @@ static unsigned char * ttx_next(void)
         for( ; !(i >= 40); i = i + 1)
         {
           static unsigned char s4[40l] = { ' ', ' ', 'P', 'a', 'g', 'e', ' ', '1', '0', '0', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
-          return_value_odd$3=odd((signed int)s4[(signed long int)i]);
-          buf[(signed long int)(5 + i)] = (unsigned char)return_value_odd$3;
+          return_value_odd_3=odd((signed int)s4[(signed long int)i]);
+          buf[(signed long int)(5 + i)] = (unsigned char)return_value_odd_3;
         }
       }
 
@@ -28088,17 +28088,17 @@ static inline double ttx_sim(double t, double F, const unsigned char *text)
           if(!(((i ^ n) & 1) == 0))
           {
             ph = (3.14159265358979323846 * (double)2 * (t - (double)1 / F) * F) / (double)4;
-            double return_value_shape$1;
-            return_value_shape$1=shape(ph);
-            return return_value_shape$1;
+            double return_value_shape_1;
+            return_value_shape_1=shape(ph);
+            return return_value_shape_1;
           }
 
           else
           {
             ph = (3.14159265358979323846 * (double)2 * (t - (double)0 / F) * F) / (double)4;
-            double return_value_shape$2;
-            return_value_shape$2=shape(ph);
-            return return_value_shape$2;
+            double return_value_shape_2;
+            return_value_shape_2=shape(ph);
+            return return_value_shape_2;
           }
     }
 
@@ -28110,7 +28110,7 @@ static inline double ttx_sim(double t, double F, const unsigned char *text)
 // file x11/xt.h line 157
 void tv_expose_event(struct _WidgetRec *widget, void *client_data, union _XEvent *event, char *d)
 {
-  struct anonymous$75 values;
+  struct anonymous_75 values;
   if(event->type == 12)
   {
     if(!(debug == 0))
@@ -28130,21 +28130,21 @@ void tv_expose_event(struct _WidgetRec *widget, void *client_data, union _XEvent
           static struct _XGC *gc;
           if(gc == ((struct _XGC *)NULL))
           {
-            struct anonymous$22 color;
+            struct anonymous_22 color;
             color.red = (unsigned short int)((ng_chromakey & 0x00ff0000) >> 8);
             color.green = (unsigned short int)(ng_chromakey & 0x0000ff00);
             color.blue = (unsigned short int)((ng_chromakey & 0x000000ff) << 8);
             XAllocColor(dpy, colormap, &color);
             values.foreground = color.pixel;
-            unsigned long int return_value_XtWindow$1;
-            return_value_XtWindow$1=XtWindow(widget);
-            gc=XCreateGC(dpy, return_value_XtWindow$1, (unsigned long int)(1L << 2), &values);
+            unsigned long int return_value_XtWindow_1;
+            return_value_XtWindow_1=XtWindow(widget);
+            gc=XCreateGC(dpy, return_value_XtWindow_1, (unsigned long int)(1L << 2), &values);
           }
 
           XtVaGetValues(widget, (char *)&XtStrings[(signed long int)872], &win_width, (char *)&XtStrings[(signed long int)234], &win_height, (void *)0);
-          unsigned long int return_value_XtWindow$2;
-          return_value_XtWindow$2=XtWindow(widget);
-          XFillRectangle(dpy, return_value_XtWindow$2, gc, (signed int)((unsigned int)win_width - cur_tv_width >> 1), (signed int)((unsigned int)win_height - cur_tv_height >> 1), cur_tv_width, cur_tv_height);
+          unsigned long int return_value_XtWindow_2;
+          return_value_XtWindow_2=XtWindow(widget);
+          XFillRectangle(dpy, return_value_XtWindow_2, gc, (signed int)((unsigned int)win_width - cur_tv_width >> 1), (signed int)((unsigned int)win_height - cur_tv_height >> 1), cur_tv_width, cur_tv_height);
         }
 
         if(!(have_xv == 0))
@@ -28172,57 +28172,57 @@ static signed int update_int(struct ng_attribute *attr, signed int old, char *ne
   if(step == 0)
     step = 1;
 
-  signed int return_value_strcasecmp$9;
-  return_value_strcasecmp$9=strcasecmp(new, "inc");
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strncasecmp$7;
-  signed int return_value_ng_attr_parse_int$1;
-  signed int return_value_strncasecmp$6;
-  signed int return_value_ng_attr_parse_int$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  if(return_value_strcasecmp$9 == 0)
+  signed int return_value_strcasecmp_9;
+  return_value_strcasecmp_9=strcasecmp(new, "inc");
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strncasecmp_7;
+  signed int return_value_ng_attr_parse_int_1;
+  signed int return_value_strncasecmp_6;
+  signed int return_value_ng_attr_parse_int_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  if(return_value_strcasecmp_9 == 0)
     value = value + step;
 
   else
   {
-    return_value_strcasecmp$8=strcasecmp(new, "dec");
-    if(return_value_strcasecmp$8 == 0)
+    return_value_strcasecmp_8=strcasecmp(new, "dec");
+    if(return_value_strcasecmp_8 == 0)
       value = value - step;
 
     else
     {
-      return_value_strncasecmp$7=strncasecmp(new, "+=", (unsigned long int)2);
-      if(return_value_strncasecmp$7 == 0)
+      return_value_strncasecmp_7=strncasecmp(new, "+=", (unsigned long int)2);
+      if(return_value_strncasecmp_7 == 0)
       {
-        return_value_ng_attr_parse_int$1=ng_attr_parse_int(attr, new + (signed long int)2);
-        value = value + return_value_ng_attr_parse_int$1;
+        return_value_ng_attr_parse_int_1=ng_attr_parse_int(attr, new + (signed long int)2);
+        value = value + return_value_ng_attr_parse_int_1;
       }
 
       else
       {
-        return_value_strncasecmp$6=strncasecmp(new, "-=", (unsigned long int)2);
-        if(return_value_strncasecmp$6 == 0)
+        return_value_strncasecmp_6=strncasecmp(new, "-=", (unsigned long int)2);
+        if(return_value_strncasecmp_6 == 0)
         {
-          return_value_ng_attr_parse_int$2=ng_attr_parse_int(attr, new + (signed long int)2);
-          value = value - return_value_ng_attr_parse_int$2;
+          return_value_ng_attr_parse_int_2=ng_attr_parse_int(attr, new + (signed long int)2);
+          value = value - return_value_ng_attr_parse_int_2;
         }
 
         else
         {
-          return_value___ctype_b_loc$3=__ctype_b_loc();
-          _Bool tmp_if_expr$4;
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*new]) == 0))
-            tmp_if_expr$4 = (_Bool)1;
+          return_value___ctype_b_loc_3=__ctype_b_loc();
+          _Bool tmp_if_expr_4;
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*new]) == 0))
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = 43 == (signed int)new[(signed long int)0] ? (_Bool)1 : (_Bool)0;
-          _Bool tmp_if_expr$5;
-          if(tmp_if_expr$4)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_4 = 43 == (signed int)new[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          _Bool tmp_if_expr_5;
+          if(tmp_if_expr_4)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = 45 == (signed int)new[(signed long int)0] ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = 45 == (signed int)new[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
             value=ng_attr_parse_int(attr, new);
 
           else
@@ -28250,8 +28250,8 @@ static void update_movie_menus(void)
   union __XmStringRec *str;
   char sensitive;
   signed int i;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcasecmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcasecmp_1;
   static signed int first = 1;
   if(!(first == 0))
   {
@@ -28261,27 +28261,27 @@ static void update_movie_menus(void)
     for( ; !(item == &ng_writers); item = item->next)
     {
       writer = (struct ng_writer *)((char *)item - (signed long int)(unsigned long int)&((struct ng_writer *)0)->list);
-      str=XmStringGenerate((void *)(char *)writer->desc, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+      str=XmStringGenerate((void *)(char *)writer->desc, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
       push=XtVaCreateManagedWidget(writer->name, xmPushButtonWidgetClass, driver_menu, (char *)&_XmStrings[(signed long int)7535], str, (void *)0);
       XmStringFree(str);
       add_cmd_callback(push, (char *)&_XmStrings[(signed long int)4700], "movie", "driver", writer->name);
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(movie_driver == ((struct ng_writer *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if(!(mov_driver == ((char *)NULL)))
         {
-          return_value_strcasecmp$1=strcasecmp(mov_driver, writer->name);
-          tmp_if_expr$2 = 0 == return_value_strcasecmp$1 ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_1=strcasecmp(mov_driver, writer->name);
+          tmp_if_expr_2 = 0 == return_value_strcasecmp_1 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
       {
         movie_driver = writer;
         i_movie_driver = (unsigned int)i;
@@ -28294,23 +28294,23 @@ static void update_movie_menus(void)
 
   delete_children(audio_menu);
   i = 0;
-  signed int return_value_strcasecmp$5;
+  signed int return_value_strcasecmp_5;
   for( ; !((movie_driver->audio + (signed long int)i)->name == ((char *)NULL)); i = i + 1)
   {
-    char *tmp_if_expr$4;
+    char *tmp_if_expr_4;
     if(!((movie_driver->audio + (signed long int)i)->desc == ((char *)NULL)))
-      tmp_if_expr$4 = (movie_driver->audio + (signed long int)i)->desc;
+      tmp_if_expr_4 = (movie_driver->audio + (signed long int)i)->desc;
 
     else
-      tmp_if_expr$4 = ng_afmt_to_desc[(signed long int)(movie_driver->audio + (signed long int)i)->fmtid];
-    str=XmStringGenerate((void *)(char *)tmp_if_expr$4, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+      tmp_if_expr_4 = ng_afmt_to_desc[(signed long int)(movie_driver->audio + (signed long int)i)->fmtid];
+    str=XmStringGenerate((void *)(char *)tmp_if_expr_4, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
     push=XtVaCreateManagedWidget((movie_driver->audio + (signed long int)i)->name, xmPushButtonWidgetClass, audio_menu, (char *)&_XmStrings[(signed long int)7535], str, (void *)0);
     XmStringFree(str);
     add_cmd_callback(push, (char *)&_XmStrings[(signed long int)4700], "movie", "audio", (movie_driver->audio + (signed long int)i)->name);
     if(!(mov_audio == ((char *)NULL)))
     {
-      return_value_strcasecmp$5=strcasecmp(mov_audio, (movie_driver->audio + (signed long int)i)->name);
-      if(return_value_strcasecmp$5 == 0)
+      return_value_strcasecmp_5=strcasecmp(mov_audio, (movie_driver->audio + (signed long int)i)->name);
+      if(return_value_strcasecmp_5 == 0)
       {
         XtVaSetValues(audio_option, (char *)&_XmStrings[(signed long int)8040], push, (void *)0);
         movie_audio = (unsigned int)i;
@@ -28319,29 +28319,29 @@ static void update_movie_menus(void)
     }
 
   }
-  str=XmStringGenerate((void *)"no sound", (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+  str=XmStringGenerate((void *)"no sound", (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
   push=XtVaCreateManagedWidget("none", xmPushButtonWidgetClass, audio_menu, (char *)&_XmStrings[(signed long int)7535], str, (void *)0);
   XmStringFree(str);
   add_cmd_callback(push, (char *)&_XmStrings[(signed long int)4700], "movie", "audio", "none");
   delete_children(video_menu);
   i = 0;
-  signed int return_value_strcasecmp$7;
+  signed int return_value_strcasecmp_7;
   for( ; !((movie_driver->video + (signed long int)i)->name == ((char *)NULL)); i = i + 1)
   {
-    char *tmp_if_expr$6;
+    char *tmp_if_expr_6;
     if(!((movie_driver->video + (signed long int)i)->desc == ((char *)NULL)))
-      tmp_if_expr$6 = (movie_driver->video + (signed long int)i)->desc;
+      tmp_if_expr_6 = (movie_driver->video + (signed long int)i)->desc;
 
     else
-      tmp_if_expr$6 = ng_vfmt_to_desc[(signed long int)(movie_driver->video + (signed long int)i)->fmtid];
-    str=XmStringGenerate((void *)(char *)tmp_if_expr$6, (char *)(void *)0, (enum anonymous$67)XmMULTIBYTE_TEXT, (char *)(void *)0);
+      tmp_if_expr_6 = ng_vfmt_to_desc[(signed long int)(movie_driver->video + (signed long int)i)->fmtid];
+    str=XmStringGenerate((void *)(char *)tmp_if_expr_6, (char *)(void *)0, (enum anonymous_67)XmMULTIBYTE_TEXT, (char *)(void *)0);
     push=XtVaCreateManagedWidget((movie_driver->video + (signed long int)i)->name, xmPushButtonWidgetClass, video_menu, (char *)&_XmStrings[(signed long int)7535], str, (void *)0);
     XmStringFree(str);
     add_cmd_callback(push, (char *)&_XmStrings[(signed long int)4700], "movie", "video", (movie_driver->video + (signed long int)i)->name);
     if(!(mov_video == ((char *)NULL)))
     {
-      return_value_strcasecmp$7=strcasecmp(mov_video, (movie_driver->video + (signed long int)i)->name);
-      if(return_value_strcasecmp$7 == 0)
+      return_value_strcasecmp_7=strcasecmp(mov_video, (movie_driver->video + (signed long int)i)->name);
+      if(return_value_strcasecmp_7 == 0)
       {
         XtVaSetValues(video_option, (char *)&_XmStrings[(signed long int)8040], push, (void *)0);
         movie_video = (unsigned int)i;
@@ -28360,15 +28360,15 @@ static void update_movie_menus(void)
 // file x11/xt.c line 1676
 static void usage(void)
 {
-  fprintf(stderr, "\nusage: xawtv [ options ] [ station ]\noptions:\n  -h  -help           print this text\n  -v  -debug n        debug level n, n = [0..2]\n      -remote         assume remote display\n  -n  -noconf         don't read the config file\n  -m  -nomouse        startup with mouse pointer disabled\n  -f  -fullscreen     startup in fullscreen mode\n      -(no)dga        enable/disable DGA extension\n      -(no)vm         enable/disable VidMode extension\n      -(no)randr      enable/disable Xrandr extension\n      -(no)xv         enable/disable Xvideo extension altogether\n      -(no)xv-video   enable/disable Xvideo extension (for video only,\n                      i.e. XvPutVideo() calls)\n      -(no)xv-image   enable/disable Xvideo extension (for image scaling\n                      only, i.e. XvPutImage() calls)\n      -(no)gl         enable/disable OpenGL\n      -(no)alsa       enable/disable alsa streaming. Default: enabled\n      -(no)alsa-cap   manually specify an alsa capture interface\n      -(no)alsa-pb    manually specify an alsa playback interface\n      -alsa-latency   manually specify an alsa latency in ms. Default: 30\n  -b  -bpp n          color depth of the display is n (n=24,32)\n  -o  -outfile file   filename base for snapshots\n  -c  -device file    use <file> as video4linux device\n  -D  -driver name    use <name> as video4linux driver\n  -C  -dspdev file    use <file> as audio (oss) device\n      -vbidev file    use <file> as vbi device\n      -joydev file    use <file> as joystick device\n      -shift x        shift display by x bytes\n      -fb             let fb (not X) set up v4l device\n      -parallel n     use n compression threads\n      -bufcount n     use n video buffers\n      -hwscan         print a list of available devices.\nstation:\n  this is one of the stations listed in $HOME/.xawtv\n\nCheck the manual page for a more detailed description.\n\n--\nGerd Knorr <kraxel@bytesex.org>\n");
+  fprintf(stderr, "\nusage: xawtv [ options ] [ station ]\noptions:\n  -h  -help           print this text\n  -v  -debug n        debug level n, n = [0..2]\n      -remote         assume remote display\n  -n  -noconf         don't read the config file\n  -m  -nomouse        startup with mouse pointer disabled\n  -f  -fullscreen     startup in fullscreen mode\n      -(no)dga        enable/disable DGA extension\n      -(no)vm         enable/disable VidMode extension\n      -(no)randr      enable/disable Xrandr extension\n      -(no)xv         enable/disable Xvideo extension altogether\n      -(no)xv-video   enable/disable Xvideo extension (for video only,\n                      i.e. XvPutVideo() calls)\n      -(no)xv-image   enable/disable Xvideo extension (for image scaling\n                      only, i.e. XvPutImage() calls)\n      -(no)gl         enable/disable OpenGL\n      -(no)alsa       enable/disable alsa streaming. Default: enabled\n      -(no)alsa-cap   manually specify an alsa capture interface\n      -(no)alsa-pb    manually specify an alsa playback interface\n      -alsa-latency   manually specify an alsa latency in ms. Default: 30\n  -b  -bpp n          color depth of the display is n (n=24,32)\n  -o  -outfile file   filename base for snapshots\n  -c  -device file    use <file> as video4linux device\n  -D  -driver name    use <name> as video4linux driver\n  -C  -dspdev file    use <file> as audio (oss) device\n      -vbidev file    use <file> as vbi device\n      -joydev file    use <file> as joystick device\n      -shift x        shift display by x bytes\n      -fb             let fb (not X) set up v4l device\n      -parallel n     use n compression threads\n      -bufcount n     use n video buffers\n      -hwscan         print a list of available devices.\nstation:\n  this is one of the stations listed in _HOME/.xawtv\n\nCheck the manual page for a more detailed description.\n\n--\nGerd Knorr <kraxel@bytesex.org>\n");
 }
 
 // v4lconf_init
 // file x11/xt.h line 189
 void v4lconf_init(void)
 {
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
   if(!(do_overlay == 0))
   {
     strcpy(ng_v4l_conf, "v4l-conf");
@@ -28380,14 +28380,14 @@ void v4lconf_init(void)
 
     if(!(args.shift == 0))
     {
-      return_value_strlen$1=strlen(ng_v4l_conf);
-      sprintf(ng_v4l_conf + (signed long int)return_value_strlen$1, " -s %d", args.shift);
+      return_value_strlen_1=strlen(ng_v4l_conf);
+      sprintf(ng_v4l_conf + (signed long int)return_value_strlen_1, " -s %d", args.shift);
     }
 
     if(!(args.bpp == 0))
     {
-      return_value_strlen$2=strlen(ng_v4l_conf);
-      sprintf(ng_v4l_conf + (signed long int)return_value_strlen$2, " -b %d", args.bpp);
+      return_value_strlen_2=strlen(ng_v4l_conf);
+      sprintf(ng_v4l_conf + (signed long int)return_value_strlen_2, " -b %d", args.bpp);
     }
 
   }
@@ -28432,9 +28432,9 @@ signed int vbi_calc_subpage(struct vbi_decoder *dec, signed int pgno, signed int
   signed int newno = subno + offset;
   while(!(newno == subno))
   {
-    signed int return_value_vbi_fetch_vt_page$1;
-    return_value_vbi_fetch_vt_page$1=vbi_fetch_vt_page(dec, &pg, pgno, newno, (enum anonymous$23)VBI_WST_LEVEL_1, 0, 0);
-    if(!(return_value_vbi_fetch_vt_page$1 == 0))
+    signed int return_value_vbi_fetch_vt_page_1;
+    return_value_vbi_fetch_vt_page_1=vbi_fetch_vt_page(dec, &pg, pgno, newno, (enum anonymous_23)VBI_WST_LEVEL_1, 0, 0);
+    if(!(return_value_vbi_fetch_vt_page_1 == 0))
       break;
 
     if(!(offset >= 0))
@@ -28467,7 +28467,7 @@ void vbi_close(struct vbi_state *vbi)
 {
   if(!(vbi == ((struct vbi_state *)NULL)))
   {
-    if(!(vbi->sliced == ((struct anonymous$98 *)NULL)))
+    if(!(vbi->sliced == ((struct anonymous_98 *)NULL)))
       free((void *)vbi->sliced);
 
     if(!(vbi->raw == ((unsigned char *)NULL)))
@@ -28581,13 +28581,13 @@ unsigned long int vbi_export_pixmap(struct vbi_window *vw, struct vbi_page *pg, 
   unsigned long int pix;
   struct vbi_char *ch;
   signed int y;
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(vw->tt);
-  unsigned long int return_value_XtWindow$2;
-  return_value_XtWindow$2=XtWindow(vw->tt);
-  struct anonymous$0 *return_value_XtScreen$3;
-  return_value_XtScreen$3=XtScreen(vw->tt);
-  pix=XCreatePixmap(return_value_XtDisplay$1, return_value_XtWindow$2, (unsigned int)(vw->w * (rect->x2 - rect->x1)), (unsigned int)(vw->h * (rect->y2 - rect->y1)), (unsigned int)return_value_XtScreen$3->root_depth);
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(vw->tt);
+  unsigned long int return_value_XtWindow_2;
+  return_value_XtWindow_2=XtWindow(vw->tt);
+  struct anonymous_0 *return_value_XtScreen_3;
+  return_value_XtScreen_3=XtScreen(vw->tt);
+  pix=XCreatePixmap(return_value_XtDisplay_1, return_value_XtWindow_2, (unsigned int)(vw->w * (rect->x2 - rect->x1)), (unsigned int)(vw->h * (rect->y2 - rect->y1)), (unsigned int)return_value_XtScreen_3->root_depth);
   y = rect->y1;
   for( ; !(y >= rect->y2); y = y + 1)
   {
@@ -28615,9 +28615,9 @@ signed int vbi_export_txt(char *dest, char *charset, signed int size, struct vbi
   signed int wch;
   void *ic;
   ic=iconv_open(charset, "WCHAR_T");
-  unsigned long int return_value_iconv$2;
-  signed int *return_value___errno_location$4;
-  signed int return_value_vbi_is_gfx$3;
+  unsigned long int return_value_iconv_2;
+  signed int *return_value___errno_location_4;
+  signed int return_value_vbi_is_gfx_3;
   if(ic == NULL)
     return -1;
 
@@ -28647,13 +28647,13 @@ signed int vbi_export_txt(char *dest, char *charset, signed int size, struct vbi
 
         else
           wch = 10;
-        _Bool tmp_if_expr$1;
+        _Bool tmp_if_expr_1;
         if(!(fg == (signed int)(ch + (signed long int)x)->foreground))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = bg != (signed int)(ch + (signed long int)x)->background ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = bg != (signed int)(ch + (signed long int)x)->background ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           fg = (signed int)(ch + (signed long int)x)->foreground;
           bg = (signed int)(ch + (signed long int)x)->background;
@@ -28678,20 +28678,20 @@ signed int vbi_export_txt(char *dest, char *charset, signed int size, struct vbi
 
         retry:
           ;
-          return_value_iconv$2=iconv(ic, &ibuf, &ilen, &obuf, &olen);
-          rc = (signed int)return_value_iconv$2;
+          return_value_iconv_2=iconv(ic, &ibuf, &ilen, &obuf, &olen);
+          rc = (signed int)return_value_iconv_2;
           if(!(rc == -1))
             goto __CPROVER_DUMP_L18;
 
-          return_value___errno_location$4=__errno_location();
-          if(!(*return_value___errno_location$4 == 84))
+          return_value___errno_location_4=__errno_location();
+          if(!(*return_value___errno_location_4 == 84))
             break;
 
           if(wch == 63)
             break;
 
-          return_value_vbi_is_gfx$3=vbi_is_gfx((unsigned int)wch);
-          if(!(return_value_vbi_is_gfx$3 == 0))
+          return_value_vbi_is_gfx_3=vbi_is_gfx((unsigned int)wch);
+          if(!(return_value_vbi_is_gfx_3 == 0))
             wch = 35;
 
           else
@@ -28799,12 +28799,12 @@ struct vbi_state * vbi_open(char *dev, signed int debug, signed int sim)
   struct vbi_state *vbi;
   signed int services = 0x40000000 | 0x20000000 | 0x00000001 | 0x00000002 | 0x00000020 | 0x00000040 | 0x00000008 | 0x00000010 | 0x00000004 | 0x00000400 | 0x00000800;
   signed int p[2l];
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct vbi_state) /*88ul*/ );
-  vbi = (struct vbi_state *)return_value_malloc$1;
-  unsigned long int return_value_strtoul$2;
-  void *return_value_malloc$5;
-  void *return_value_malloc$6;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct vbi_state) /*88ul*/ );
+  vbi = (struct vbi_state *)return_value_malloc_1;
+  unsigned long int return_value_strtoul_2;
+  void *return_value_malloc_5;
+  void *return_value_malloc_6;
   if(!(vbi == ((struct vbi_state *)NULL)))
   {
     memset((void *)vbi, 0, sizeof(struct vbi_state) /*88ul*/ );
@@ -28820,8 +28820,8 @@ struct vbi_state * vbi_open(char *dev, signed int debug, signed int sim)
       unsigned int region;
       if(!(env == ((char *)NULL)))
       {
-        return_value_strtoul$2=strtoul(env, (char ** restrict )(void *)0, 0);
-        region = (unsigned int)return_value_strtoul$2;
+        return_value_strtoul_2=strtoul(env, (char ** restrict )(void *)0, 0);
+        region = (unsigned int)return_value_strtoul_2;
         if(!(region == 0u))
           vbi_teletext_set_default_region(vbi->dec, (signed int)region);
 
@@ -28832,11 +28832,11 @@ struct vbi_state * vbi_open(char *dev, signed int debug, signed int sim)
     {
       vbi->par=init_sim(625, (unsigned int)services);
       pipe(p);
-      signed int return_value_fork$3;
-      return_value_fork$3=fork();
-      if(!(return_value_fork$3 == -1))
+      signed int return_value_fork_3;
+      return_value_fork_3=fork();
+      if(!(return_value_fork_3 == -1))
       {
-        if(return_value_fork$3 == 0)
+        if(return_value_fork_3 == 0)
           goto __CPROVER_DUMP_L5;
 
       }
@@ -28851,9 +28851,9 @@ struct vbi_state * vbi_open(char *dev, signed int debug, signed int sim)
         close(p[(signed long int)0]);
         do
         {
-          signed long int return_value_write$4;
-          return_value_write$4=write(p[(signed long int)1], (const void *)"x", (unsigned long int)1);
-          if(!(return_value_write$4 == 1l))
+          signed long int return_value_write_4;
+          return_value_write_4=write(p[(signed long int)1], (const void *)"x", (unsigned long int)1);
+          if(!(return_value_write_4 == 1l))
             exit(0);
 
           usleep((unsigned int)(100 * 1000));
@@ -28879,14 +28879,14 @@ struct vbi_state * vbi_open(char *dev, signed int debug, signed int sim)
       vbi->fd=vbi_capture_fd(vbi->cap);
     }
     vbi->lines = vbi->par->count[(signed long int)0] + vbi->par->count[(signed long int)1];
-    return_value_malloc$5=malloc((unsigned long int)(vbi->lines * vbi->par->bytes_per_line));
-    vbi->raw = (unsigned char *)return_value_malloc$5;
+    return_value_malloc_5=malloc((unsigned long int)(vbi->lines * vbi->par->bytes_per_line));
+    vbi->raw = (unsigned char *)return_value_malloc_5;
     if(vbi->raw == ((unsigned char *)NULL))
       goto oops;
 
-    return_value_malloc$6=malloc((unsigned long int)vbi->lines * sizeof(struct anonymous$98) /*64ul*/ );
-    vbi->sliced = (struct anonymous$98 *)return_value_malloc$6;
-    if(vbi->sliced == ((struct anonymous$98 *)NULL))
+    return_value_malloc_6=malloc((unsigned long int)vbi->lines * sizeof(struct anonymous_98) /*64ul*/ );
+    vbi->sliced = (struct anonymous_98 *)return_value_malloc_6;
+    if(vbi->sliced == ((struct anonymous_98 *)NULL))
       goto oops;
 
     vbi->tv.tv_sec = (signed long int)1;
@@ -28901,7 +28901,7 @@ struct vbi_state * vbi_open(char *dev, signed int debug, signed int sim)
     ;
     if(!(vbi == ((struct vbi_state *)NULL)))
     {
-      if(!(vbi->sliced == ((struct anonymous$98 *)NULL)))
+      if(!(vbi->sliced == ((struct anonymous_98 *)NULL)))
         free((void *)vbi->sliced);
 
       if(!(vbi->raw == ((unsigned char *)NULL)))
@@ -28927,26 +28927,26 @@ void vbi_render_free_font(struct _WidgetRec *shell, struct vbi_window *vw)
 {
   if(!(vw->xft_font == ((struct _XftFont *)NULL)))
   {
-    struct _XDisplay *return_value_XtDisplay$1;
-    return_value_XtDisplay$1=XtDisplay(shell);
-    XftFontClose(return_value_XtDisplay$1, vw->xft_font);
+    struct _XDisplay *return_value_XtDisplay_1;
+    return_value_XtDisplay_1=XtDisplay(shell);
+    XftFontClose(return_value_XtDisplay_1, vw->xft_font);
     vw->xft_font = (struct _XftFont *)(void *)0;
   }
 
-  if(!(vw->font1 == ((struct anonymous$14 *)NULL)))
+  if(!(vw->font1 == ((struct anonymous_14 *)NULL)))
   {
-    struct _XDisplay *return_value_XtDisplay$2;
-    return_value_XtDisplay$2=XtDisplay(shell);
-    XFreeFont(return_value_XtDisplay$2, vw->font1);
-    vw->font1 = (struct anonymous$14 *)(void *)0;
+    struct _XDisplay *return_value_XtDisplay_2;
+    return_value_XtDisplay_2=XtDisplay(shell);
+    XFreeFont(return_value_XtDisplay_2, vw->font1);
+    vw->font1 = (struct anonymous_14 *)(void *)0;
   }
 
-  if(!(vw->font2 == ((struct anonymous$14 *)NULL)))
+  if(!(vw->font2 == ((struct anonymous_14 *)NULL)))
   {
-    struct _XDisplay *return_value_XtDisplay$3;
-    return_value_XtDisplay$3=XtDisplay(shell);
-    XFreeFont(return_value_XtDisplay$3, vw->font2);
-    vw->font2 = (struct anonymous$14 *)(void *)0;
+    struct _XDisplay *return_value_XtDisplay_3;
+    return_value_XtDisplay_3=XtDisplay(shell);
+    XFreeFont(return_value_XtDisplay_3, vw->font2);
+    vw->font2 = (struct anonymous_14 *)(void *)0;
   }
 
 }
@@ -28956,33 +28956,33 @@ void vbi_render_free_font(struct _WidgetRec *shell, struct vbi_window *vw)
 struct vbi_window * vbi_render_init(struct _WidgetRec *shell, struct _WidgetRec *tt, struct vbi_state *vbi)
 {
   struct vbi_window *vw;
-  struct anonymous$22 color;
-  struct anonymous$22 dummy;
+  struct anonymous_22 color;
+  struct anonymous_22 dummy;
   signed int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct vbi_window) /*9432ul*/ );
-  vw = (struct vbi_window *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct vbi_window) /*9432ul*/ );
+  vw = (struct vbi_window *)return_value_malloc_1;
   memset((void *)vw, 0, sizeof(struct vbi_window) /*9432ul*/ );
   vw->shell = shell;
   vw->tt = tt;
   vw->vbi = vbi;
-  struct _XDisplay *return_value_XtDisplay$2;
-  return_value_XtDisplay$2=XtDisplay(shell);
-  struct anonymous$0 *return_value_XtScreen$3;
-  return_value_XtScreen$3=XtScreen(shell);
-  vw->gc=XCreateGC(return_value_XtDisplay$2, return_value_XtScreen$3->root, (unsigned long int)0, (struct anonymous$75 *)(void *)0);
+  struct _XDisplay *return_value_XtDisplay_2;
+  return_value_XtDisplay_2=XtDisplay(shell);
+  struct anonymous_0 *return_value_XtScreen_3;
+  return_value_XtScreen_3=XtScreen(shell);
+  vw->gc=XCreateGC(return_value_XtDisplay_2, return_value_XtScreen_3->root, (unsigned long int)0, (struct anonymous_75 *)(void *)0);
   XtVaGetValues(tt, (char *)&XtStrings[(signed long int)154], &vw->cmap, (void *)0);
   i = 0;
   for( ; !(i >= 8); i = i + 1)
   {
-    struct _XDisplay *return_value_XtDisplay$4;
-    return_value_XtDisplay$4=XtDisplay(shell);
-    struct anonymous$0 *return_value_XtScreen$5;
-    return_value_XtScreen$5=XtScreen(shell);
-    XftColorAllocName(return_value_XtDisplay$4, return_value_XtScreen$5->root_visual, vw->cmap, vbi_colors[(signed long int)i], &vw->xft_color[(signed long int)i]);
-    struct _XDisplay *return_value_XtDisplay$6;
-    return_value_XtDisplay$6=XtDisplay(shell);
-    XAllocNamedColor(return_value_XtDisplay$6, vw->cmap, vbi_colors[(signed long int)i], &color, &dummy);
+    struct _XDisplay *return_value_XtDisplay_4;
+    return_value_XtDisplay_4=XtDisplay(shell);
+    struct anonymous_0 *return_value_XtScreen_5;
+    return_value_XtScreen_5=XtScreen(shell);
+    XftColorAllocName(return_value_XtDisplay_4, return_value_XtScreen_5->root_visual, vw->cmap, vbi_colors[(signed long int)i], &vw->xft_color[(signed long int)i]);
+    struct _XDisplay *return_value_XtDisplay_6;
+    return_value_XtDisplay_6=XtDisplay(shell);
+    XAllocNamedColor(return_value_XtDisplay_6, vw->cmap, vbi_colors[(signed long int)i], &color, &dummy);
     vw->colors[(signed long int)i] = color.pixel;
   }
   vbi_render_set_font(shell, vw, (char *)(void *)0);
@@ -28999,8 +28999,8 @@ struct vbi_window * vbi_render_init(struct _WidgetRec *shell, struct _WidgetRec 
 // file x11/vbi-x11.c line 176
 void vbi_render_line(struct vbi_window *vw, unsigned long int d, struct vbi_char *ch, signed int y, signed int top, signed int left, signed int right)
 {
-  struct anonymous$75 values;
-  struct anonymous$114 line[42l];
+  struct anonymous_75 values;
+  struct anonymous_114 line[42l];
   signed int x1;
   signed int x2;
   signed int i;
@@ -29009,8 +29009,8 @@ void vbi_render_line(struct vbi_window *vw, unsigned long int d, struct vbi_char
   unsigned int wline[42l];
   struct _XftDraw *xft_draw = (struct _XftDraw *)(void *)0;
   x1 = left;
-  struct _XDisplay *return_value_XtDisplay$8;
-  struct anonymous$0 *return_value_XtScreen$9;
+  struct _XDisplay *return_value_XtDisplay_8;
+  struct anonymous_0 *return_value_XtScreen_9;
   for( ; !(x1 >= right); x1 = x2)
   {
     x2 = x1;
@@ -29027,24 +29027,24 @@ void vbi_render_line(struct vbi_window *vw, unsigned long int d, struct vbi_char
 
     }
     sy = 1;
-    if(!(vw->font2 == ((struct anonymous$14 *)NULL)))
+    if(!(vw->font2 == ((struct anonymous_14 *)NULL)))
     {
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if((signed int)(ch + (signed long int)x1)->size == 2)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)(ch + (signed long int)x1)->size == 3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)(ch + (signed long int)x1)->size == 3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         sy = 2;
 
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)(ch + (signed long int)x1)->size == 6)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)(ch + (signed long int)x1)->size == 7 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)(ch + (signed long int)x1)->size == 7 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         goto __CPROVER_DUMP_L25;
 
     }
@@ -29056,25 +29056,25 @@ void vbi_render_line(struct vbi_window *vw, unsigned long int d, struct vbi_char
       if(!((ch + (signed long int)i)->conceal == 0u))
         code = 32;
 
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if((signed int)(ch + (signed long int)i)->size == 4)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)(ch + (signed long int)i)->size == 5 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$4;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = (signed int)(ch + (signed long int)i)->size == 5 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_4;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)(ch + (signed long int)i)->size == 6 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$5;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = (signed int)(ch + (signed long int)i)->size == 6 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_5;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)(ch + (signed long int)i)->size == 7 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)(ch + (signed long int)i)->size == 7 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
         code = 32;
 
       line[(signed long int)(i - x1)].byte1 = (unsigned char)(code >> 8 & 0xff);
@@ -29083,19 +29083,19 @@ void vbi_render_line(struct vbi_window *vw, unsigned long int d, struct vbi_char
     }
     values.function = 0x3;
     values.foreground = vw->colors[(signed long int)((signed int)(ch + (signed long int)x1)->background & 7)];
-    struct _XDisplay *return_value_XtDisplay$6;
-    return_value_XtDisplay$6=XtDisplay(vw->tt);
-    XChangeGC(return_value_XtDisplay$6, vw->gc, (unsigned long int)(1L << 2 | 1L << 0), &values);
-    struct _XDisplay *return_value_XtDisplay$7;
-    return_value_XtDisplay$7=XtDisplay(vw->tt);
-    XFillRectangle(return_value_XtDisplay$7, d, vw->gc, (x1 - left) * vw->w, (y - top) * vw->h, (unsigned int)(vw->w * (x2 - x1)), (unsigned int)(vw->h * sy));
+    struct _XDisplay *return_value_XtDisplay_6;
+    return_value_XtDisplay_6=XtDisplay(vw->tt);
+    XChangeGC(return_value_XtDisplay_6, vw->gc, (unsigned long int)(1L << 2 | 1L << 0), &values);
+    struct _XDisplay *return_value_XtDisplay_7;
+    return_value_XtDisplay_7=XtDisplay(vw->tt);
+    XFillRectangle(return_value_XtDisplay_7, d, vw->gc, (x1 - left) * vw->w, (y - top) * vw->h, (unsigned int)(vw->w * (x2 - x1)), (unsigned int)(vw->h * sy));
     if(!(vw->xft_font == ((struct _XftFont *)NULL)))
     {
       if(xft_draw == ((struct _XftDraw *)NULL))
       {
-        return_value_XtDisplay$8=XtDisplay(vw->tt);
-        return_value_XtScreen$9=XtScreen(vw->tt);
-        xft_draw=XftDrawCreate(return_value_XtDisplay$8, d, return_value_XtScreen$9->root_visual, vw->cmap);
+        return_value_XtDisplay_8=XtDisplay(vw->tt);
+        return_value_XtScreen_9=XtScreen(vw->tt);
+        xft_draw=XftDrawCreate(return_value_XtDisplay_8, d, return_value_XtScreen_9->root_visual, vw->cmap);
       }
 
       XftDrawString32(xft_draw, &vw->xft_color[(signed long int)((signed int)(ch + (signed long int)x1)->foreground & 7)], vw->xft_font, (x1 - left) * vw->w, vw->a + (((y - top) + sy) - 1) * vw->h, wline, x2 - x1);
@@ -29104,19 +29104,19 @@ void vbi_render_line(struct vbi_window *vw, unsigned long int d, struct vbi_char
     else
     {
       values.foreground = vw->colors[(signed long int)((signed int)(ch + (signed long int)x1)->foreground & 7)];
-      unsigned long int tmp_if_expr$10;
+      unsigned long int tmp_if_expr_10;
       if(sy == 1)
-        tmp_if_expr$10 = vw->font1->fid;
+        tmp_if_expr_10 = vw->font1->fid;
 
       else
-        tmp_if_expr$10 = vw->font2->fid;
-      values.font = tmp_if_expr$10;
-      struct _XDisplay *return_value_XtDisplay$11;
-      return_value_XtDisplay$11=XtDisplay(vw->tt);
-      XChangeGC(return_value_XtDisplay$11, vw->gc, (unsigned long int)(1L << 2 | 1L << 14), &values);
-      struct _XDisplay *return_value_XtDisplay$12;
-      return_value_XtDisplay$12=XtDisplay(vw->tt);
-      XDrawString16(return_value_XtDisplay$12, d, vw->gc, (x1 - left) * vw->w, vw->a + (((y - top) + sy) - 1) * vw->h, line, x2 - x1);
+        tmp_if_expr_10 = vw->font2->fid;
+      values.font = tmp_if_expr_10;
+      struct _XDisplay *return_value_XtDisplay_11;
+      return_value_XtDisplay_11=XtDisplay(vw->tt);
+      XChangeGC(return_value_XtDisplay_11, vw->gc, (unsigned long int)(1L << 2 | 1L << 14), &values);
+      struct _XDisplay *return_value_XtDisplay_12;
+      return_value_XtDisplay_12=XtDisplay(vw->tt);
+      XDrawString16(return_value_XtDisplay_12, d, vw->gc, (x1 - left) * vw->w, vw->a + (((y - top) + sy) - 1) * vw->h, line, x2 - x1);
     }
 
   __CPROVER_DUMP_L25:
@@ -29140,29 +29140,29 @@ void vbi_render_set_font(struct _WidgetRec *shell, struct vbi_window *vw, char *
     i = 0;
     for( ; !(vbi_fonts[(signed long int)i].label == ((char *)NULL)); i = i + 1)
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(label, vbi_fonts[(signed long int)i].label);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(label, vbi_fonts[(signed long int)i].label);
+      if(return_value_strcasecmp_1 == 0)
       {
-        signed int return_value_vbi_render_try_font$2;
-        return_value_vbi_render_try_font$2=vbi_render_try_font(shell, vw, &vbi_fonts[(signed long int)i]);
-        if(return_value_vbi_render_try_font$2 == 0)
+        signed int return_value_vbi_render_try_font_2;
+        return_value_vbi_render_try_font_2=vbi_render_try_font(shell, vw, &vbi_fonts[(signed long int)i]);
+        if(return_value_vbi_render_try_font_2 == 0)
           goto __CPROVER_DUMP_L10;
 
       }
 
     }
     pattern=FcNameParse((const unsigned char *)label);
-    struct _XDisplay *return_value_XtDisplay$3;
-    return_value_XtDisplay$3=XtDisplay(shell);
-    struct anonymous$0 *return_value_XtScreen$4;
-    return_value_XtScreen$4=XtScreen(shell);
-    signed int return_value_XScreenNumberOfScreen$5;
-    return_value_XScreenNumberOfScreen$5=XScreenNumberOfScreen(return_value_XtScreen$4);
-    pattern=XftFontMatch(return_value_XtDisplay$3, return_value_XScreenNumberOfScreen$5, pattern, &rc);
-    struct _XDisplay *return_value_XtDisplay$6;
-    return_value_XtDisplay$6=XtDisplay(shell);
-    vw->xft_font=XftFontOpenPattern(return_value_XtDisplay$6, pattern);
+    struct _XDisplay *return_value_XtDisplay_3;
+    return_value_XtDisplay_3=XtDisplay(shell);
+    struct anonymous_0 *return_value_XtScreen_4;
+    return_value_XtScreen_4=XtScreen(shell);
+    signed int return_value_XScreenNumberOfScreen_5;
+    return_value_XScreenNumberOfScreen_5=XScreenNumberOfScreen(return_value_XtScreen_4);
+    pattern=XftFontMatch(return_value_XtDisplay_3, return_value_XScreenNumberOfScreen_5, pattern, &rc);
+    struct _XDisplay *return_value_XtDisplay_6;
+    return_value_XtDisplay_6=XtDisplay(shell);
+    vw->xft_font=XftFontOpenPattern(return_value_XtDisplay_6, pattern);
     if(!(vw->xft_font == ((struct _XftFont *)NULL)))
     {
       vw->a = vw->xft_font->ascent;
@@ -29177,9 +29177,9 @@ void vbi_render_set_font(struct _WidgetRec *shell, struct vbi_window *vw, char *
   i = 0;
   for( ; !(vbi_fonts[(signed long int)i].label == ((char *)NULL)); i = i + 1)
   {
-    signed int return_value_vbi_render_try_font$7;
-    return_value_vbi_render_try_font$7=vbi_render_try_font(shell, vw, &vbi_fonts[(signed long int)i]);
-    if(return_value_vbi_render_try_font$7 == 0)
+    signed int return_value_vbi_render_try_font_7;
+    return_value_vbi_render_try_font_7=vbi_render_try_font(shell, vw, &vbi_fonts[(signed long int)i]);
+    if(return_value_vbi_render_try_font_7 == 0)
       goto __CPROVER_DUMP_L10;
 
   }
@@ -29194,21 +29194,21 @@ __CPROVER_DUMP_L10:
 // file x11/vbi-x11.c line 59
 static signed int vbi_render_try_font(struct _WidgetRec *shell, struct vbi_window *vw, struct vbi_font *fnt)
 {
-  struct _XDisplay *return_value_XtDisplay$2;
+  struct _XDisplay *return_value_XtDisplay_2;
   if(vw->xft_font == ((struct _XftFont *)NULL))
   {
     if(!(fnt->xlfd1 == ((char *)NULL)))
     {
-      struct _XDisplay *return_value_XtDisplay$1;
-      return_value_XtDisplay$1=XtDisplay(shell);
-      vw->font1=XLoadQueryFont(return_value_XtDisplay$1, fnt->xlfd1);
+      struct _XDisplay *return_value_XtDisplay_1;
+      return_value_XtDisplay_1=XtDisplay(shell);
+      vw->font1=XLoadQueryFont(return_value_XtDisplay_1, fnt->xlfd1);
       if(!(fnt->xlfd2 == ((char *)NULL)))
       {
-        return_value_XtDisplay$2=XtDisplay(shell);
-        vw->font2=XLoadQueryFont(return_value_XtDisplay$2, fnt->xlfd2);
+        return_value_XtDisplay_2=XtDisplay(shell);
+        vw->font2=XLoadQueryFont(return_value_XtDisplay_2, fnt->xlfd2);
       }
 
-      if(!(vw->font1 == ((struct anonymous$14 *)NULL)))
+      if(!(vw->font1 == ((struct anonymous_14 *)NULL)))
       {
         vw->a = (signed int)vw->font1->max_bounds.ascent;
         vw->d = (signed int)vw->font1->max_bounds.descent;
@@ -29237,8 +29237,8 @@ static signed int vdr_handler(char *name, signed int argc, char **argv)
 
 reconnect:
   ;
-  signed long int return_value_write$4;
-  signed int *return_value___errno_location$3;
+  signed long int return_value_write_4;
+  signed int *return_value___errno_location_3;
   for( ; (_Bool)1; vdr_sock = -1)
   {
     if(vdr_sock == -1)
@@ -29253,9 +29253,9 @@ reconnect:
       if(!(debug == 0))
         fprintf(stderr, "vdr: connected\n");
 
-      signed int return_value_tcp_readbuf$1;
-      return_value_tcp_readbuf$1=tcp_readbuf(vdr_sock, 3, line, (char)sizeof(char [80l]) /*80ul*/ );
-      if(return_value_tcp_readbuf$1 == -1)
+      signed int return_value_tcp_readbuf_1;
+      return_value_tcp_readbuf_1=tcp_readbuf(vdr_sock, 3, line, (char)sizeof(char [80l]) /*80ul*/ );
+      if(return_value_tcp_readbuf_1 == -1)
         goto oops;
 
       if(!(debug == 0))
@@ -29268,9 +29268,9 @@ reconnect:
     len = (unsigned int)0;
     for( ; !(i >= argc); i = i + 1)
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(argv[(signed long int)i]);
-      l = (unsigned int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(argv[(signed long int)i]);
+      l = (unsigned int)return_value_strlen_2;
       if((unsigned long int)(4u + l + len) >= 81ul)
         break;
 
@@ -29285,16 +29285,16 @@ reconnect:
     }
     strcpy(line + (signed long int)len, "\r\n");
     len = len + (unsigned int)2;
-    return_value_write$4=write(vdr_sock, (const void *)line, (unsigned long int)len);
-    rc = (signed int)return_value_write$4;
+    return_value_write_4=write(vdr_sock, (const void *)line, (unsigned long int)len);
+    rc = (signed int)return_value_write_4;
     if(len == (unsigned int)rc)
       goto __CPROVER_DUMP_L14;
 
     if(!(rc == -1))
       goto __CPROVER_DUMP_L12;
 
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 32))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 32))
       break;
 
     if(!(debug == 0))
@@ -29315,9 +29315,9 @@ __CPROVER_DUMP_L14:
   if(!(debug == 0))
     fprintf(stderr, "vdr: >> %s", (const void *)line);
 
-  signed int return_value_tcp_readbuf$5;
-  return_value_tcp_readbuf$5=tcp_readbuf(vdr_sock, 3, line, (char)sizeof(char [80l]) /*80ul*/ );
-  if(!(return_value_tcp_readbuf$5 == -1))
+  signed int return_value_tcp_readbuf_5;
+  return_value_tcp_readbuf_5=tcp_readbuf(vdr_sock, 3, line, (char)sizeof(char [80l]) /*80ul*/ );
+  if(!(return_value_tcp_readbuf_5 == -1))
   {
     if(!(debug == 0))
       fprintf(stderr, "vdr: << %s", (const void *)line);
@@ -29341,29 +29341,29 @@ __CPROVER_DUMP_L14:
 void video_close(void)
 {
   unsigned long int root;
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(video);
-  struct _XDisplay *return_value_XtDisplay$2;
-  return_value_XtDisplay$2=XtDisplay(video);
-  root = (&((struct anonymous$10 *)return_value_XtDisplay$1)->screens[(signed long int)((struct anonymous$10 *)return_value_XtDisplay$2)->default_screen])->root;
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(video);
+  struct _XDisplay *return_value_XtDisplay_2;
+  return_value_XtDisplay_2=XtDisplay(video);
+  root = (&((struct anonymous_10 *)return_value_XtDisplay_1)->screens[(signed long int)((struct anonymous_10 *)return_value_XtDisplay_2)->default_screen])->root;
   if(!(overlay_refresh == 0ul))
     XtRemoveTimeOut(overlay_refresh);
 
-  struct _XDisplay *return_value_XtDisplay$3;
-  return_value_XtDisplay$3=XtDisplay(video);
-  XSelectInput(return_value_XtDisplay$3, root, (signed long int)0);
-  struct _XDisplay *return_value_XtDisplay$4;
-  return_value_XtDisplay$4=XtDisplay(video);
-  XtUnregisterDrawable(return_value_XtDisplay$4, root);
+  struct _XDisplay *return_value_XtDisplay_3;
+  return_value_XtDisplay_3=XtDisplay(video);
+  XSelectInput(return_value_XtDisplay_3, root, (signed long int)0);
+  struct _XDisplay *return_value_XtDisplay_4;
+  return_value_XtDisplay_4=XtDisplay(video);
+  XtUnregisterDrawable(return_value_XtDisplay_4, root);
 }
 
 // video_event
 // file x11/x11.c line 576
 static void video_event(struct _WidgetRec *widget, void *client_data, union _XEvent *event, char *d)
 {
-  unsigned long int return_value_XtWindow$1;
-  unsigned long int return_value_XtWindow$2;
-  unsigned long int return_value_XtWindow$3;
+  unsigned long int return_value_XtWindow_1;
+  unsigned long int return_value_XtWindow_2;
+  unsigned long int return_value_XtWindow_3;
   if(widget == video_parent)
   {
     switch(event->type)
@@ -29406,8 +29406,8 @@ static void video_event(struct _WidgetRec *widget, void *client_data, union _XEv
     {
       case 12:
       {
-        return_value_XtWindow$1=XtWindow(video);
-        if(event->xvisibility.window == return_value_XtWindow$1)
+        return_value_XtWindow_1=XtWindow(video);
+        if(event->xvisibility.window == return_value_XtWindow_1)
         {
           if(event->xexpose.count == 0)
           {
@@ -29435,8 +29435,8 @@ static void video_event(struct _WidgetRec *widget, void *client_data, union _XEv
       }
       case 15:
       {
-        return_value_XtWindow$2=XtWindow(video);
-        if(event->xvisibility.window == return_value_XtWindow$2)
+        return_value_XtWindow_2=XtWindow(video);
+        if(event->xvisibility.window == return_value_XtWindow_2)
         {
           visibility = event->xvisibility.state;
           if(debug >= 2)
@@ -29468,8 +29468,8 @@ static void video_event(struct _WidgetRec *widget, void *client_data, union _XEv
 
       case 22:
       {
-        return_value_XtWindow$3=XtWindow(video);
-        if(!(event->xvisibility.window == return_value_XtWindow$3))
+        return_value_XtWindow_3=XtWindow(video);
+        if(!(event->xvisibility.window == return_value_XtWindow_3))
         {
           if(debug >= 2)
             fprintf(stderr, "video: root: %s%s\n", event_names[(signed long int)event->type], did_refresh != 0 ? " (ignored)" : "");
@@ -29495,13 +29495,13 @@ __CPROVER_DUMP_L26:
 // file x11/x11.c line 152
 signed int video_gd_blitframe(struct video_handle *h, struct ng_video_buf *buf)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(cur_tv_width >= buf->fmt.width))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = buf->fmt.height > cur_tv_height ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = buf->fmt.height > cur_tv_height ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     ng_release_video_buf(buf);
     return -1;
@@ -29524,7 +29524,7 @@ void video_gd_configure(signed int width, signed int height)
   struct video_handle *h = &vh;
   unsigned int i;
   unsigned int fmtids[38l];
-  unsigned long int return_value_XtWindow$1;
+  unsigned long int return_value_XtWindow_1;
   if(!((2 & f_drv) == 0))
   {
     blit_resize(h->blit, (unsigned short int)width, (unsigned short int)height);
@@ -29541,13 +29541,13 @@ void video_gd_configure(signed int width, signed int height)
     {
       if(!(debug == 0))
       {
-        return_value_XtWindow$1=XtWindow(h->win);
-        fprintf(stderr, "gd: config %dx%d win=%lx\n", width, height, return_value_XtWindow$1);
+        return_value_XtWindow_1=XtWindow(h->win);
+        fprintf(stderr, "gd: config %dx%d win=%lx\n", width, height, return_value_XtWindow_1);
       }
 
-      unsigned long int return_value_XtWindow$2;
-      return_value_XtWindow$2=XtWindow(h->win);
-      if(!(return_value_XtWindow$2 == 0ul))
+      unsigned long int return_value_XtWindow_2;
+      return_value_XtWindow_2=XtWindow(h->win);
+      if(!(return_value_XtWindow_2 == 0ul))
       {
         cur_tv_width = (unsigned int)width;
         cur_tv_height = (unsigned int)height;
@@ -29563,9 +29563,9 @@ void video_gd_configure(signed int width, signed int height)
           for( ; !((unsigned long int)i >= 38ul); i = i + 1u)
           {
             h->best.fmtid = fmtids[(signed long int)i];
-            signed int return_value_ng_grabber_setformat$3;
-            return_value_ng_grabber_setformat$3=ng_grabber_setformat(&h->best, 0);
-            if(return_value_ng_grabber_setformat$3 == 0)
+            signed int return_value_ng_grabber_setformat_3;
+            return_value_ng_grabber_setformat_3=ng_grabber_setformat(&h->best, 0);
+            if(return_value_ng_grabber_setformat_3 == 0)
               goto done;
 
           }
@@ -29597,25 +29597,25 @@ static struct ng_video_buf * video_gd_filter(struct video_handle *h, struct ng_v
 {
   if(!(h->filter == ((struct ng_filter *)NULL)))
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(cur_filter == h->filter))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = buf->fmt.fmtid != h->ffmt.fmtid ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = buf->fmt.fmtid != h->ffmt.fmtid ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = buf->fmt.width != h->ffmt.width ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = buf->fmt.width != h->ffmt.width ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = buf->fmt.height != h->ffmt.height ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = buf->fmt.height != h->ffmt.height ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       h->filter->fini(h->fhandle);
       h->filter = (struct ng_filter *)(void *)0;
@@ -29659,18 +29659,18 @@ static char video_gd_idle(void *data)
       struct timeval t;
       struct timezone tz;
       gettimeofday(&t, &tz);
-      static signed long int video_gd_idle$$1$$3$$count;
+      static signed long int video_gd_idle__1__3__count;
       static signed long int lastsec;
       if(!(t.tv_sec == lastsec))
       {
         if(lastsec == t.tv_sec + -1l)
-          fprintf(stderr, "%5ld fps \r", video_gd_idle$$1$$3$$count);
+          fprintf(stderr, "%5ld fps \r", video_gd_idle__1__3__count);
 
         lastsec = t.tv_sec;
-        video_gd_idle$$1$$3$$count = (signed long int)0;
+        video_gd_idle__1__3__count = (signed long int)0;
       }
 
-      video_gd_idle$$1$$3$$count = video_gd_idle$$1$$3$$count + 1l;
+      video_gd_idle__1__3__count = video_gd_idle__1__3__count + 1l;
     }
 
     return (char)0;
@@ -29737,9 +29737,9 @@ void video_gd_start(void)
 
   if(!(h->best.fmtid == 0u))
   {
-    signed int return_value_ng_grabber_setformat$1;
-    return_value_ng_grabber_setformat$1=ng_grabber_setformat(&h->best, 0);
-    if(return_value_ng_grabber_setformat$1 == 0)
+    signed int return_value_ng_grabber_setformat_1;
+    return_value_ng_grabber_setformat_1=ng_grabber_setformat(&h->best, 0);
+    if(return_value_ng_grabber_setformat_1 == 0)
     {
       drv->startvideo(h_drv, -1, (unsigned int)2);
       h->work_id=XtAppAddWorkProc(app_context, video_gd_idle, (void *)h);
@@ -29780,24 +29780,24 @@ void video_gd_suspend(void)
 
 // video_init
 // file x11/x11.h line 23
-struct _WidgetRec * video_init(struct _WidgetRec *parent, struct anonymous$1 *vinfo, struct _WidgetClassRec *class, signed int args_bpp, signed int args_gl)
+struct _WidgetRec * video_init(struct _WidgetRec *parent, struct anonymous_1 *vinfo, struct _WidgetClassRec *class, signed int args_bpp, signed int args_gl)
 {
   unsigned long int root;
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(parent);
-  struct _XDisplay *return_value_XtDisplay$2;
-  return_value_XtDisplay$2=XtDisplay(parent);
-  root = (&((struct anonymous$10 *)return_value_XtDisplay$1)->screens[(signed long int)((struct anonymous$10 *)return_value_XtDisplay$2)->default_screen])->root;
-  struct anonymous$0 *return_value_XtScreen$3;
-  return_value_XtScreen$3=XtScreen(parent);
-  swidth = (unsigned int)return_value_XtScreen$3->width;
-  struct anonymous$0 *return_value_XtScreen$4;
-  return_value_XtScreen$4=XtScreen(parent);
-  sheight = (unsigned int)return_value_XtScreen$4->height;
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(parent);
+  struct _XDisplay *return_value_XtDisplay_2;
+  return_value_XtDisplay_2=XtDisplay(parent);
+  root = (&((struct anonymous_10 *)return_value_XtDisplay_1)->screens[(signed long int)((struct anonymous_10 *)return_value_XtDisplay_2)->default_screen])->root;
+  struct anonymous_0 *return_value_XtScreen_3;
+  return_value_XtScreen_3=XtScreen(parent);
+  swidth = (unsigned int)return_value_XtScreen_3->width;
+  struct anonymous_0 *return_value_XtScreen_4;
+  return_value_XtScreen_4=XtScreen(parent);
+  sheight = (unsigned int)return_value_XtScreen_4->height;
   x11_overlay_fmtid = (signed int)x11_dpy_fmtid;
-  struct _XDisplay *return_value_XtDisplay$5;
-  return_value_XtDisplay$5=XtDisplay(parent);
-  if(((struct anonymous$10 *)return_value_XtDisplay$5)->byte_order == 1)
+  struct _XDisplay *return_value_XtDisplay_5;
+  return_value_XtDisplay_5=XtDisplay(parent);
+  if(((struct anonymous_10 *)return_value_XtDisplay_5)->byte_order == 1)
     switch(args_bpp)
     {
       case 8:
@@ -29856,12 +29856,12 @@ struct _WidgetRec * video_init(struct _WidgetRec *parent, struct anonymous$1 *vi
   if(have_xv == 0)
   {
     XtAddEventHandler(video, (unsigned long int)(1L << 16 | 1L << 17), (char)0, video_event, (void *)0);
-    struct _XDisplay *return_value_XtDisplay$6;
-    return_value_XtDisplay$6=XtDisplay(video);
-    XSelectInput(return_value_XtDisplay$6, root, 1L << 16 | 1L << 19 | 1L << 17);
-    struct _XDisplay *return_value_XtDisplay$7;
-    return_value_XtDisplay$7=XtDisplay(video);
-    XtRegisterDrawable(return_value_XtDisplay$7, root, video);
+    struct _XDisplay *return_value_XtDisplay_6;
+    return_value_XtDisplay_6=XtDisplay(video);
+    XSelectInput(return_value_XtDisplay_6, root, 1L << 16 | 1L << 19 | 1L << 17);
+    struct _XDisplay *return_value_XtDisplay_7;
+    return_value_XtDisplay_7=XtDisplay(video);
+    XtRegisterDrawable(return_value_XtDisplay_7, root, video);
   }
 
   return video;
@@ -29918,9 +29918,9 @@ void video_overlay(signed int state)
     {
       if(!(have_xv == 0))
       {
-        unsigned long int return_value_XtWindow$1;
-        return_value_XtWindow$1=XtWindow(video);
-        xv_video(return_value_XtWindow$1, 0, 0, 0);
+        unsigned long int return_value_XtWindow_1;
+        return_value_XtWindow_1=XtWindow(video);
+        xv_video(return_value_XtWindow_1, 0, 0, 0);
       }
 
       else
@@ -29948,37 +29948,37 @@ static void vidmode_timer(void *clientData, unsigned long int *id)
 // file x11/xt.h line 186
 void visual_init(char *n1, char *n2)
 {
-  struct anonymous$8 *visual;
-  struct anonymous$1 *vinfo_list;
+  struct anonymous_8 *visual;
+  struct anonymous_1 *vinfo_list;
   signed int n;
-  struct _XDisplay *return_value_XtDisplay$1;
-  return_value_XtDisplay$1=XtDisplay(app_shell);
-  visual=x11_find_visual(return_value_XtDisplay$1);
+  struct _XDisplay *return_value_XtDisplay_1;
+  return_value_XtDisplay_1=XtDisplay(app_shell);
+  visual=x11_find_visual(return_value_XtDisplay_1);
   vinfo.visualid=XVisualIDFromVisual(visual);
   vinfo_list=XGetVisualInfo(dpy, (signed long int)0x1, &vinfo, &n);
   vinfo = vinfo_list[(signed long int)0];
   XFree((void *)vinfo_list);
-  struct anonymous$0 *return_value_XtScreen$4;
-  return_value_XtScreen$4=XtScreen(app_shell);
-  if(!(visual == return_value_XtScreen$4->root_visual))
+  struct anonymous_0 *return_value_XtScreen_4;
+  return_value_XtScreen_4=XtScreen(app_shell);
+  if(!(visual == return_value_XtScreen_4->root_visual))
   {
     fprintf(stderr, "switching visual (0x%lx)\n", vinfo.visualid);
-    struct anonymous$0 *return_value_XtScreen$2;
-    return_value_XtScreen$2=XtScreen(app_shell);
-    colormap=XCreateColormap(dpy, return_value_XtScreen$2->root, vinfo.visual, 0);
+    struct anonymous_0 *return_value_XtScreen_2;
+    return_value_XtScreen_2=XtScreen(app_shell);
+    colormap=XCreateColormap(dpy, return_value_XtScreen_2->root, vinfo.visual, 0);
     XtDestroyWidget(app_shell);
     app_shell=XtVaAppCreateShell(n1, n2, applicationShellWidgetClass, dpy, (char *)&XtShellStrings[(signed long int)104], vinfo.visual, (char *)&XtStrings[(signed long int)154], colormap, (char *)&XtStrings[(signed long int)163], vinfo.depth, (void *)0);
   }
 
   else
   {
-    struct anonymous$0 *return_value_XtScreen$3;
-    return_value_XtScreen$3=XtScreen(app_shell);
-    colormap = return_value_XtScreen$3->cmap;
+    struct anonymous_0 *return_value_XtScreen_3;
+    return_value_XtScreen_3=XtScreen(app_shell);
+    colormap = return_value_XtScreen_3->cmap;
   }
-  struct _XDisplay *return_value_XtDisplay$5;
-  return_value_XtDisplay$5=XtDisplay(app_shell);
-  x11_init_visual(return_value_XtDisplay$5, &vinfo);
+  struct _XDisplay *return_value_XtDisplay_5;
+  return_value_XtDisplay_5=XtDisplay(app_shell);
+  x11_init_visual(return_value_XtDisplay_5, &vinfo);
 }
 
 // volume_handler
@@ -29987,17 +29987,17 @@ static signed int volume_handler(char *name, signed int argc, char **argv)
 {
   struct ng_attribute *vol;
   vol=ng_attr_byid(attrs, 3);
-  signed int return_value_strcasecmp$3;
+  signed int return_value_strcasecmp_3;
   if(!(argc == 0))
   {
-    return_value_strcasecmp$3=strcasecmp(argv[(signed long int)0], "mute");
-    if(return_value_strcasecmp$3 == 0)
+    return_value_strcasecmp_3=strcasecmp(argv[(signed long int)0], "mute");
+    if(return_value_strcasecmp_3 == 0)
     {
       if(argc >= 2)
       {
-        signed int return_value_str_to_int$1;
-        return_value_str_to_int$1=str_to_int(argv[(signed long int)1], booltab);
-        switch(return_value_str_to_int$1)
+        signed int return_value_str_to_int_1;
+        return_value_str_to_int_1=str_to_int(argv[(signed long int)1], booltab);
+        switch(return_value_str_to_int_1)
         {
           case 0:
           {
@@ -30023,9 +30023,9 @@ static signed int volume_handler(char *name, signed int argc, char **argv)
       {
         signed int return_value;
         return_value=vol->read(vol);
-        signed int return_value_update_int$2;
-        return_value_update_int$2=update_int(vol, return_value, argv[(signed long int)0]);
-        set_volume(return_value_update_int$2);
+        signed int return_value_update_int_2;
+        return_value_update_int_2=update_int(vol, return_value, argv[(signed long int)0]);
+        set_volume(return_value_update_int_2);
       }
 
     if(!(volume_notify == ((void (*)(void))NULL)))
@@ -30063,9 +30063,9 @@ static void watch_audio(void *data, unsigned long int *id)
 static void wav_init_header(struct WAVEHDR *fileheader, struct ng_audio_fmt *audio)
 {
   signed int nBitsPerSample = (signed int)ng_afmt_to_bits[(signed long int)audio->fmtid];
-  signed int wav_init_header$$1$$channels = (signed int)ng_afmt_to_channels[(signed long int)audio->fmtid];
+  signed int wav_init_header__1__channels = (signed int)ng_afmt_to_channels[(signed long int)audio->fmtid];
   signed int rate = (signed int)audio->rate;
-  unsigned long int nBlockAlign = (unsigned long int)(wav_init_header$$1$$channels * ((nBitsPerSample + 7) / 8));
+  unsigned long int nBlockAlign = (unsigned long int)(wav_init_header__1__channels * ((nBitsPerSample + 7) / 8));
   unsigned long int nAvgBytesPerSec = nBlockAlign * (unsigned long int)rate;
   unsigned long int temp = ((unsigned long int)0 + sizeof(struct WAVEHDR) /*44ul*/ ) - sizeof(struct CHUNKHDR) /*8ul*/ ;
   fileheader->chkRiff.ckid = (unsigned int)(unsigned char)82 | (unsigned int)(unsigned char)73 << 8 | (unsigned int)(unsigned char)70 << 16 | (unsigned int)(unsigned char)70 << 24;
@@ -30073,7 +30073,7 @@ static void wav_init_header(struct WAVEHDR *fileheader, struct ng_audio_fmt *aud
   fileheader->chkFmt.ckid = (unsigned int)(unsigned char)102 | (unsigned int)(unsigned char)109 << 8 | (unsigned int)(unsigned char)116 << 16 | (unsigned int)(unsigned char)32 << 24;
   fileheader->chkFmt.dwSize = (unsigned int)16;
   fileheader->wFormatTag = (unsigned short int)1;
-  fileheader->nChannels = (unsigned short int)wav_init_header$$1$$channels;
+  fileheader->nChannels = (unsigned short int)wav_init_header__1__channels;
   fileheader->nSamplesPerSec = (unsigned int)rate;
   fileheader->nAvgBytesPerSec = (unsigned int)nAvgBytesPerSec;
   fileheader->nBlockAlign = (unsigned short int)nBlockAlign;
@@ -30119,7 +30119,7 @@ void webcam_exit(void)
 // file common/commands.c line 1115
 static signed int webcam_handler(char *hname, signed int argc, char **argv)
 {
-  struct ng_video_fmt webcam_handler$$1$$fmt;
+  struct ng_video_fmt webcam_handler__1__fmt;
   struct ng_video_buf *buf;
   if(!(webcam == ((char *)NULL)))
     free((void *)webcam);
@@ -30137,11 +30137,11 @@ static signed int webcam_handler(char *hname, signed int argc, char **argv)
       if(!(capture_get_hook == ((void (*)(void))NULL)))
         capture_get_hook();
 
-      memset((void *)&webcam_handler$$1$$fmt, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
-      webcam_handler$$1$$fmt.fmtid = (unsigned int)9;
-      webcam_handler$$1$$fmt.width = cur_tv_width;
-      webcam_handler$$1$$fmt.height = cur_tv_height;
-      buf=ng_grabber_get_image(&webcam_handler$$1$$fmt);
+      memset((void *)&webcam_handler__1__fmt, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
+      webcam_handler__1__fmt.fmtid = (unsigned int)9;
+      webcam_handler__1__fmt.width = cur_tv_width;
+      webcam_handler__1__fmt.height = cur_tv_height;
+      buf=ng_grabber_get_image(&webcam_handler__1__fmt);
       if(!(buf == ((struct ng_video_buf *)NULL)))
         ng_release_video_buf(buf);
 
@@ -30156,11 +30156,11 @@ static signed int webcam_handler(char *hname, signed int argc, char **argv)
 // file common/webcam.c line 108
 void webcam_init(void)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct WEBCAM) /*104ul*/ );
-  web = (struct WEBCAM *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct WEBCAM) /*104ul*/ );
+  web = (struct WEBCAM *)return_value_malloc_1;
   memset((void *)web, 0, sizeof(struct WEBCAM) /*104ul*/ );
-  pthread_mutex_init(&web->lock, (const union anonymous$121 *)(void *)0);
+  pthread_mutex_init(&web->lock, (const union anonymous_121 *)(void *)0);
   pthread_create(&tweb, (const union pthread_attr_t *)(void *)0, webcam_writer, (void *)web);
   goto __CPROVER_DUMP_L1;
 
@@ -30176,9 +30176,9 @@ signed int webcam_put(char *filename, struct ng_video_buf *buf)
   if(web == ((struct WEBCAM *)NULL))
     webcam_init();
 
-  signed int return_value_pthread_mutex_trylock$1;
-  return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&web->lock);
-  if(return_value_pthread_mutex_trylock$1 == -1)
+  signed int return_value_pthread_mutex_trylock_1;
+  return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&web->lock);
+  if(return_value_pthread_mutex_trylock_1 == -1)
   {
     if(!(debug == 0))
       fprintf(stderr, "webcam_put: locked\n");
@@ -30218,39 +30218,39 @@ signed int webcam_put(char *filename, struct ng_video_buf *buf)
 // file common/webcam.c line 30
 static void * webcam_writer(void *arg)
 {
-  struct WEBCAM *webcam_writer$$1$$web = (struct WEBCAM *)arg;
+  struct WEBCAM *webcam_writer__1__web = (struct WEBCAM *)arg;
   signed int rename;
   signed int fd;
   signed int old;
   char tmpfilename[512l];
-  struct ng_video_fmt *webcam_writer$$1$$fmt;
+  struct ng_video_fmt *webcam_writer__1__fmt;
   if(!(debug == 0))
     fprintf(stderr, "webcam_writer start\n");
 
   pthread_setcancelstate(0, &old);
   pthread_setcanceltype(1, &old);
-  pthread_mutex_lock(&webcam_writer$$1$$web->lock);
+  pthread_mutex_lock(&webcam_writer__1__web->lock);
 
 __CPROVER_DUMP_L2:
   ;
-  for( ; (_Bool)1; webcam_writer$$1$$web->buf = (struct ng_video_buf *)(void *)0)
+  for( ; (_Bool)1; webcam_writer__1__web->buf = (struct ng_video_buf *)(void *)0)
   {
-    if(webcam_writer$$1$$web->buf == ((struct ng_video_buf *)NULL))
+    if(webcam_writer__1__web->buf == ((struct ng_video_buf *)NULL))
     {
       if(!(debug == 0))
         fprintf(stderr, "webcam_writer: waiting for data\n");
 
-      pthread_cond_wait(&webcam_writer$$1$$web->wait, &webcam_writer$$1$$web->lock);
+      pthread_cond_wait(&webcam_writer__1__web->wait, &webcam_writer__1__web->lock);
       goto __CPROVER_DUMP_L2;
     }
 
-    webcam_writer$$1$$fmt = &webcam_writer$$1$$web->buf->fmt;
+    webcam_writer__1__fmt = &webcam_writer__1__web->buf->fmt;
     if(!(debug == 0))
-      fprintf(stderr, "webcam_writer: %d %dx%d \n", webcam_writer$$1$$fmt->fmtid, webcam_writer$$1$$fmt->width, webcam_writer$$1$$fmt->height);
+      fprintf(stderr, "webcam_writer: %d %dx%d \n", webcam_writer__1__fmt->fmtid, webcam_writer__1__fmt->width, webcam_writer__1__fmt->height);
 
     rename = 1;
-    sprintf(tmpfilename, "%s.$$$", webcam_writer$$1$$web->filename);
-    switch(webcam_writer$$1$$fmt->fmtid)
+    sprintf(tmpfilename, "%s.___", webcam_writer__1__web->filename);
+    switch(webcam_writer__1__fmt->fmtid)
     {
       case (unsigned int)16:
 
@@ -30259,54 +30259,54 @@ __CPROVER_DUMP_L2:
         fd=open(tmpfilename, 0100 | 01, 0666);
         if(fd == -1)
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          fprintf(stderr, "open(%s): %s\n", (const void *)tmpfilename, return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          fprintf(stderr, "open(%s): %s\n", (const void *)tmpfilename, return_value_strerror_2);
           goto done;
         }
 
-        write(fd, (const void *)webcam_writer$$1$$web->buf->data, webcam_writer$$1$$web->buf->size);
+        write(fd, (const void *)webcam_writer__1__web->buf->data, webcam_writer__1__web->buf->size);
         close(fd);
         break;
       }
       case (unsigned int)9:
       {
-        write_jpeg(tmpfilename, webcam_writer$$1$$web->buf, ng_jpeg_quality, 0);
+        write_jpeg(tmpfilename, webcam_writer__1__web->buf, ng_jpeg_quality, 0);
         break;
       }
       default:
       {
-        fprintf(stderr, "webcam_writer: can't deal with format=%d\n", webcam_writer$$1$$fmt->fmtid);
+        fprintf(stderr, "webcam_writer: can't deal with format=%d\n", webcam_writer__1__fmt->fmtid);
         rename = 0;
       }
     }
     if(!(rename == 0))
     {
-      unlink(webcam_writer$$1$$web->filename);
-      signed int return_value_link$5;
-      return_value_link$5=link(tmpfilename, webcam_writer$$1$$web->filename);
-      if(return_value_link$5 == -1)
+      unlink(webcam_writer__1__web->filename);
+      signed int return_value_link_5;
+      return_value_link_5=link(tmpfilename, webcam_writer__1__web->filename);
+      if(return_value_link_5 == -1)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        fprintf(stderr, "link(%s,%s): %s\n", (const void *)tmpfilename, webcam_writer$$1$$web->filename, return_value_strerror$4);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        fprintf(stderr, "link(%s,%s): %s\n", (const void *)tmpfilename, webcam_writer__1__web->filename, return_value_strerror_4);
         break;
       }
 
       unlink(tmpfilename);
     }
 
-    free((void *)webcam_writer$$1$$web->filename);
-    ng_release_video_buf(webcam_writer$$1$$web->buf);
+    free((void *)webcam_writer__1__web->filename);
+    ng_release_video_buf(webcam_writer__1__web->buf);
   }
 
 done:
   ;
-  pthread_mutex_unlock(&webcam_writer$$1$$web->lock);
+  pthread_mutex_unlock(&webcam_writer__1__web->lock);
   if(!(debug == 0))
     fprintf(stderr, "webcam_writer done\n");
 
@@ -30322,13 +30322,13 @@ static signed int wm_check_capability(struct _XDisplay *dpy, unsigned long int r
   unsigned int i;
   unsigned long int nitems;
   unsigned long int bytesafter;
-  unsigned char *wm_check_capability$$1$$args;
+  unsigned char *wm_check_capability__1__args;
   unsigned long int *ldata;
   char *name;
   signed int retval = -1;
-  signed int return_value_XGetWindowProperty$1;
-  return_value_XGetWindowProperty$1=XGetWindowProperty(dpy, root, list, (signed long int)0, (signed long int)((unsigned long int)65536 / sizeof(signed long int) /*8ul*/ ), 0, (unsigned long int)0L, &type, &format, &nitems, &bytesafter, &wm_check_capability$$1$$args);
-  if(!(return_value_XGetWindowProperty$1 == 0))
+  signed int return_value_XGetWindowProperty_1;
+  return_value_XGetWindowProperty_1=XGetWindowProperty(dpy, root, list, (signed long int)0, (signed long int)((unsigned long int)65536 / sizeof(signed long int) /*8ul*/ ), 0, (unsigned long int)0L, &type, &format, &nitems, &bytesafter, &wm_check_capability__1__args);
+  if(!(return_value_XGetWindowProperty_1 == 0))
     return -1;
 
   else
@@ -30337,7 +30337,7 @@ static signed int wm_check_capability(struct _XDisplay *dpy, unsigned long int r
 
     else
     {
-      ldata = (unsigned long int *)wm_check_capability$$1$$args;
+      ldata = (unsigned long int *)wm_check_capability__1__args;
       i = (unsigned int)0;
       for( ; !((unsigned long int)i >= nitems); i = i + 1u)
       {
@@ -30361,12 +30361,12 @@ static signed int wm_check_capability(struct _XDisplay *dpy, unsigned long int r
 // file x11/wmhooks.h line 1
 void wm_detect(struct _XDisplay *dpy)
 {
-  unsigned long int root = (&((struct anonymous$10 *)dpy)->screens[(signed long int)((struct anonymous$10 *)dpy)->default_screen])->root;
-  signed int return_value_wm_check_capability$1;
+  unsigned long int root = (&((struct anonymous_10 *)dpy)->screens[(signed long int)((struct anonymous_10 *)dpy)->default_screen])->root;
+  signed int return_value_wm_check_capability_1;
   if(wm_stay_on_top == ((void (*)(struct _XDisplay *, unsigned long int, signed int))NULL))
   {
-    return_value_wm_check_capability$1=wm_check_capability(dpy, root, _NET_SUPPORTED, _NET_WM_STATE_ABOVE);
-    if(return_value_wm_check_capability$1 == 0)
+    return_value_wm_check_capability_1=wm_check_capability(dpy, root, _NET_SUPPORTED, _NET_WM_STATE_ABOVE);
+    if(return_value_wm_check_capability_1 == 0)
     {
       if(!(debug == 0))
         fprintf(stderr, "wmhooks: netwm state above\n");
@@ -30376,11 +30376,11 @@ void wm_detect(struct _XDisplay *dpy)
 
   }
 
-  signed int return_value_wm_check_capability$2;
+  signed int return_value_wm_check_capability_2;
   if(wm_stay_on_top == ((void (*)(struct _XDisplay *, unsigned long int, signed int))NULL))
   {
-    return_value_wm_check_capability$2=wm_check_capability(dpy, root, _NET_SUPPORTED, _NET_WM_STATE_STAYS_ON_TOP);
-    if(return_value_wm_check_capability$2 == 0)
+    return_value_wm_check_capability_2=wm_check_capability(dpy, root, _NET_SUPPORTED, _NET_WM_STATE_STAYS_ON_TOP);
+    if(return_value_wm_check_capability_2 == 0)
     {
       if(!(debug == 0))
         fprintf(stderr, "wmhooks: netwm state stays_on_top\n");
@@ -30390,11 +30390,11 @@ void wm_detect(struct _XDisplay *dpy)
 
   }
 
-  signed int return_value_wm_check_capability$3;
+  signed int return_value_wm_check_capability_3;
   if(wm_fullscreen == ((void (*)(struct _XDisplay *, unsigned long int, signed int))NULL))
   {
-    return_value_wm_check_capability$3=wm_check_capability(dpy, root, _NET_SUPPORTED, _NET_WM_STATE_FULLSCREEN);
-    if(return_value_wm_check_capability$3 == 0)
+    return_value_wm_check_capability_3=wm_check_capability(dpy, root, _NET_SUPPORTED, _NET_WM_STATE_FULLSCREEN);
+    if(return_value_wm_check_capability_3 == 0)
     {
       if(!(debug == 0))
         fprintf(stderr, "wmhooks: netwm state fullscreen\n");
@@ -30404,11 +30404,11 @@ void wm_detect(struct _XDisplay *dpy)
 
   }
 
-  signed int return_value_wm_check_capability$4;
+  signed int return_value_wm_check_capability_4;
   if(wm_stay_on_top == ((void (*)(struct _XDisplay *, unsigned long int, signed int))NULL))
   {
-    return_value_wm_check_capability$4=wm_check_capability(dpy, root, _WIN_PROTOCOLS, _WIN_LAYER);
-    if(return_value_wm_check_capability$4 == 0)
+    return_value_wm_check_capability_4=wm_check_capability(dpy, root, _WIN_PROTOCOLS, _WIN_LAYER);
+    if(return_value_wm_check_capability_4 == 0)
     {
       if(!(debug == 0))
         fprintf(stderr, "wmhooks: gnome layer\n");
@@ -30428,17 +30428,17 @@ signed int write_jpeg(char *filename, struct ng_video_buf *buf, signed int quali
   fp=fopen(filename, "w");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror_2);
     return -1;
   }
 
-  signed int return_value_do_write_jpeg$3;
-  return_value_do_write_jpeg$3=do_write_jpeg(fp, buf, quality, gray);
-  return return_value_do_write_jpeg$3;
+  signed int return_value_do_write_jpeg_3;
+  return_value_do_write_jpeg_3=do_write_jpeg(fp, buf, quality, gray);
+  return return_value_do_write_jpeg_3;
 }
 
 // write_pgm
@@ -30449,11 +30449,11 @@ signed int write_pgm(char *filename, struct ng_video_buf *buf)
   fp=fopen(filename, "w");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror_2);
     return -1;
   }
 
@@ -30471,11 +30471,11 @@ signed int write_ppm(char *filename, struct ng_video_buf *buf)
   fp=fopen(filename, "w");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror_2);
     return -1;
   }
 
@@ -30498,14 +30498,14 @@ static signed long int writebuf(struct _snd_pcm *handle, char *buf, signed long 
 
     if(!(r >= 0l))
     {
-      signed int return_value_snd_pcm_recover$1;
-      return_value_snd_pcm_recover$1=snd_pcm_recover(handle, (signed int)r, 0);
-      r = (signed long int)return_value_snd_pcm_recover$1;
+      signed int return_value_snd_pcm_recover_1;
+      return_value_snd_pcm_recover_1=snd_pcm_recover(handle, (signed int)r, 0);
+      r = (signed long int)return_value_snd_pcm_recover_1;
       if(!(r >= 0l))
       {
-        const char *return_value_snd_strerror$2;
-        return_value_snd_strerror$2=snd_strerror((signed int)r);
-        fprintf(error_fp, "alsa: underrun recover error: %s\n", return_value_snd_strerror$2);
+        const char *return_value_snd_strerror_2;
+        return_value_snd_strerror_2=snd_strerror((signed int)r);
+        fprintf(error_fp, "alsa: underrun recover error: %s\n", return_value_snd_strerror_2);
         return r;
       }
 
@@ -30523,16 +30523,16 @@ static void * writer_audio_thread(void *arg)
 {
   struct movie_handle *h = (struct movie_handle *)arg;
   struct ng_audio_buf *buf;
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(!(debug == 0))
   {
-    return_value_getpid$1=getpid();
-    fprintf(stderr, "writer_audio_thread start [pid=%d]\n", return_value_getpid$1);
+    return_value_getpid_1=getpid();
+    fprintf(stderr, "writer_audio_thread start [pid=%d]\n", return_value_getpid_1);
   }
 
-  void *return_value_fifo_get$2;
-  return_value_fifo_get$2=fifo_get(&h->afifo);
-  buf = (struct ng_audio_buf *)return_value_fifo_get$2;
+  void *return_value_fifo_get_2;
+  return_value_fifo_get_2=fifo_get(&h->afifo);
+  buf = (struct ng_audio_buf *)return_value_fifo_get_2;
   if(!(buf == ((struct ng_audio_buf *)NULL)))
   {
     pthread_mutex_lock(&h->lock);
@@ -30556,20 +30556,20 @@ static void * writer_video_thread(void *arg)
   struct ng_video_buf *reorder[32l];
   signed int seq;
   signed int slot;
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(!(debug == 0))
   {
-    return_value_getpid$1=getpid();
-    fprintf(stderr, "writer_video_thread start [pid=%d]\n", return_value_getpid$1);
+    return_value_getpid_1=getpid();
+    fprintf(stderr, "writer_video_thread start [pid=%d]\n", return_value_getpid_1);
   }
 
   seq = 0;
   memset((void *)&reorder, 0, sizeof(struct ng_video_buf *[32l]) /*256ul*/ );
   do
   {
-    void *return_value_fifo_get$2;
-    return_value_fifo_get$2=fifo_get(&h->vfifo);
-    buf = (struct ng_video_buf *)return_value_fifo_get$2;
+    void *return_value_fifo_get_2;
+    return_value_fifo_get_2=fifo_get(&h->vfifo);
+    buf = (struct ng_video_buf *)return_value_fifo_get_2;
     if(buf == ((struct ng_video_buf *)NULL))
       break;
 
@@ -30641,9 +30641,9 @@ static inline double wss525_sim(double t, double F, unsigned int bits)
 
       else
         ph = (3.14159265358979323846 * (double)2 * (t - (double)1 / F) * F) / (double)4;
-      double return_value_shape$1;
-      return_value_shape$1=shape(ph);
-      return return_value_shape$1;
+      double return_value_shape_1;
+      return_value_shape_1=shape(ph);
+      return return_value_shape_1;
     }
 
     else
@@ -30692,9 +30692,9 @@ static inline double wss625_sim(double t, double F, unsigned int bits)
 
       else
         ph = (3.14159265358979323846 * (double)2 * (t - (double)0 / F) * F) / (double)4;
-      double return_value_shape$1;
-      return_value_shape$1=shape(ph);
-      return return_value_shape$1;
+      double return_value_shape_1;
+      return_value_shape_1=shape(ph);
+      return return_value_shape_1;
     }
 
     else
@@ -30714,21 +30714,21 @@ void x11_blit(struct _XDisplay *dpy, unsigned long int dr, struct _XGC *gc, stru
 
 // x11_capture_pixmap
 // file x11/x11.c line 50
-unsigned long int x11_capture_pixmap(struct _XDisplay *dpy, struct anonymous$1 *vinfo, unsigned long int colormap, unsigned int width, unsigned int height)
+unsigned long int x11_capture_pixmap(struct _XDisplay *dpy, struct anonymous_1 *vinfo, unsigned long int colormap, unsigned int width, unsigned int height)
 {
   struct ng_video_buf *buf;
-  struct ng_video_fmt x11_capture_pixmap$$1$$fmt;
+  struct ng_video_fmt x11_capture_pixmap__1__fmt;
   unsigned long int pix = (unsigned long int)0;
   if((2 & f_drv) == 0)
     return (unsigned long int)0;
 
   else
   {
-    memset((void *)&x11_capture_pixmap$$1$$fmt, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
-    x11_capture_pixmap$$1$$fmt.fmtid = x11_dpy_fmtid;
-    x11_capture_pixmap$$1$$fmt.width = width != 0u ? width : cur_tv_width;
-    x11_capture_pixmap$$1$$fmt.height = height != 0u ? height : cur_tv_height;
-    buf=ng_grabber_get_image(&x11_capture_pixmap$$1$$fmt);
+    memset((void *)&x11_capture_pixmap__1__fmt, 0, sizeof(struct ng_video_fmt) /*16ul*/ );
+    x11_capture_pixmap__1__fmt.fmtid = x11_dpy_fmtid;
+    x11_capture_pixmap__1__fmt.width = width != 0u ? width : cur_tv_width;
+    x11_capture_pixmap__1__fmt.height = height != 0u ? height : cur_tv_height;
+    buf=ng_grabber_get_image(&x11_capture_pixmap__1__fmt);
     if(buf == ((struct ng_video_buf *)NULL))
       return (unsigned long int)0;
 
@@ -30746,7 +30746,7 @@ unsigned long int x11_capture_pixmap(struct _XDisplay *dpy, struct anonymous$1 *
 // file x11/xt.h line 185
 void x11_check_remote(void)
 {
-  signed int fd = ((struct anonymous$10 *)dpy)->fd;
+  signed int fd = ((struct anonymous_10 *)dpy)->fd;
   struct sockaddr_storage ss;
   char me[47l];
   char peer[47l];
@@ -30756,9 +30756,9 @@ void x11_check_remote(void)
     fprintf(stderr, "check if the X-Server is local ... ");
 
   length = (signed int)sizeof(struct sockaddr_storage) /*128ul*/ ;
-  signed int return_value_getsockname$1;
-  return_value_getsockname$1=getsockname(fd, (struct sockaddr *)&ss, (unsigned int *)&length);
-  if(return_value_getsockname$1 == -1)
+  signed int return_value_getsockname_1;
+  return_value_getsockname_1=getsockname(fd, (struct sockaddr *)&ss, (unsigned int *)&length);
+  if(return_value_getsockname_1 == -1)
     perror("getsockname");
 
   else
@@ -30780,9 +30780,9 @@ void x11_check_remote(void)
         fprintf(stderr, "*");
 
       length = (signed int)sizeof(struct sockaddr_storage) /*128ul*/ ;
-      signed int return_value_getpeername$2;
-      return_value_getpeername$2=getpeername(fd, (struct sockaddr *)&ss, (unsigned int *)&length);
-      if(return_value_getpeername$2 == -1)
+      signed int return_value_getpeername_2;
+      return_value_getpeername_2=getpeername(fd, (struct sockaddr *)&ss, (unsigned int *)&length);
+      if(return_value_getpeername_2 == -1)
         perror("getsockname");
 
       else
@@ -30797,9 +30797,9 @@ void x11_check_remote(void)
         if(!(debug == 0))
           fprintf(stderr, " ok\nx11 socket: me=%s, server=%s\n", (const void *)me, (const void *)peer);
 
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(me, peer);
-        if(!(return_value_strcmp$3 == 0))
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(me, peer);
+        if(!(return_value_strcmp_3 == 0))
           do_overlay = 0;
 
         goto __CPROVER_DUMP_L12;
@@ -30813,15 +30813,15 @@ __CPROVER_DUMP_L12:
 
 // x11_create_pixmap
 // file x11/blit.h line 10
-unsigned long int x11_create_pixmap(struct _XDisplay *dpy, struct anonymous$1 *vinfo, struct ng_video_buf *buf)
+unsigned long int x11_create_pixmap(struct _XDisplay *dpy, struct anonymous_1 *vinfo, struct ng_video_buf *buf)
 {
   unsigned long int pixmap;
   struct _XImage *ximage;
   struct _XGC *gc;
-  struct anonymous$2 *shm;
-  struct anonymous$0 *scr = &((struct anonymous$10 *)dpy)->screens[(signed long int)((struct anonymous$10 *)dpy)->default_screen];
+  struct anonymous_2 *shm;
+  struct anonymous_0 *scr = &((struct anonymous_10 *)dpy)->screens[(signed long int)((struct anonymous_10 *)dpy)->default_screen];
   pixmap=XCreatePixmap(dpy, scr->root, buf->fmt.width, buf->fmt.height, (unsigned int)vinfo->depth);
-  gc=XCreateGC(dpy, pixmap, (unsigned long int)0, (struct anonymous$75 *)(void *)0);
+  gc=XCreateGC(dpy, pixmap, (unsigned long int)0, (struct anonymous_75 *)(void *)0);
   ximage=x11_create_ximage(dpy, vinfo, (signed int)buf->fmt.width, (signed int)buf->fmt.height, &shm);
   if(ximage == ((struct _XImage *)NULL))
   {
@@ -30842,24 +30842,24 @@ unsigned long int x11_create_pixmap(struct _XDisplay *dpy, struct anonymous$1 *v
 
 // x11_create_ximage
 // file x11/blit.c line 229
-struct _XImage * x11_create_ximage(struct _XDisplay *dpy, struct anonymous$1 *vinfo, signed int width, signed int height, struct anonymous$2 **shm)
+struct _XImage * x11_create_ximage(struct _XDisplay *dpy, struct anonymous_1 *vinfo, signed int width, signed int height, struct anonymous_2 **shm)
 {
   struct _XImage *ximage = (struct _XImage *)(void *)0;
   unsigned char *ximage_data;
-  struct anonymous$2 *shminfo = (struct anonymous$2 *)(void *)0;
-  void *x11_create_ximage$$1$$old_handler;
-  signed int (*return_value_XSetErrorHandler$1)(struct _XDisplay *, struct anonymous *);
-  void *return_value_malloc$2;
-  void *return_value_shmat$3;
+  struct anonymous_2 *shminfo = (struct anonymous_2 *)(void *)0;
+  void *x11_create_ximage__1__old_handler;
+  signed int (*return_value_XSetErrorHandler_1)(struct _XDisplay *, struct anonymous *);
+  void *return_value_malloc_2;
+  void *return_value_shmat_3;
   if(no_mitshm == 0)
   {
     /* assertion width > 0 && height > 0 */
     assert(width > 0 && height > 0);
-    return_value_XSetErrorHandler$1=XSetErrorHandler(catch_no_mitshm);
-    x11_create_ximage$$1$$old_handler = (void *)return_value_XSetErrorHandler$1;
-    return_value_malloc$2=malloc(sizeof(struct anonymous$2) /*32ul*/ );
-    shminfo = (struct anonymous$2 *)return_value_malloc$2;
-    memset((void *)shminfo, 0, sizeof(struct anonymous$2) /*32ul*/ );
+    return_value_XSetErrorHandler_1=XSetErrorHandler(catch_no_mitshm);
+    x11_create_ximage__1__old_handler = (void *)return_value_XSetErrorHandler_1;
+    return_value_malloc_2=malloc(sizeof(struct anonymous_2) /*32ul*/ );
+    shminfo = (struct anonymous_2 *)return_value_malloc_2;
+    memset((void *)shminfo, 0, sizeof(struct anonymous_2) /*32ul*/ );
     ximage=XShmCreateImage(dpy, vinfo->visual, (unsigned int)vinfo->depth, 2, (char *)(void *)0, shminfo, (unsigned int)width, (unsigned int)height);
     if(!(ximage == ((struct _XImage *)NULL)))
     {
@@ -30869,8 +30869,8 @@ struct _XImage * x11_create_ximage(struct _XDisplay *dpy, struct anonymous$1 *vi
 
       else
       {
-        return_value_shmat$3=shmat(shminfo->shmid, NULL, 0);
-        shminfo->shmaddr = (char *)return_value_shmat$3;
+        return_value_shmat_3=shmat(shminfo->shmid, NULL, 0);
+        shminfo->shmaddr = (char *)return_value_shmat_3;
         if((char *)-1 == shminfo->shmaddr)
           perror("shmat");
 
@@ -30883,7 +30883,7 @@ struct _XImage * x11_create_ximage(struct _XDisplay *dpy, struct anonymous$1 *vi
           if(no_mitshm == 0)
           {
             shmctl(shminfo->shmid, 0, ((struct shmid_ds *)NULL));
-            XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))x11_create_ximage$$1$$old_handler);
+            XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))x11_create_ximage__1__old_handler);
             *shm = shminfo;
             return ximage;
           }
@@ -30909,17 +30909,17 @@ struct _XImage * x11_create_ximage(struct _XDisplay *dpy, struct anonymous$1 *vi
     }
 
     free((void *)shminfo);
-    XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))x11_create_ximage$$1$$old_handler);
+    XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))x11_create_ximage__1__old_handler);
     no_mitshm = 1;
   }
 
 
 no_mitshm:
   ;
-  *shm = (struct anonymous$2 *)(void *)0;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)((unsigned int)(width * height) * pixmap_bytes));
-  ximage_data = (unsigned char *)return_value_malloc$4;
+  *shm = (struct anonymous_2 *)(void *)0;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)((unsigned int)(width * height) * pixmap_bytes));
+  ximage_data = (unsigned char *)return_value_malloc_4;
   if(ximage_data == ((unsigned char *)NULL))
   {
     fprintf(stderr, "out of memory\n");
@@ -30948,9 +30948,9 @@ signed int x11_ctrl_alt_backspace(struct _XDisplay *dpy)
 
 // x11_destroy_ximage
 // file x11/blit.c line 300
-void x11_destroy_ximage(struct _XDisplay *dpy, struct _XImage *ximage, struct anonymous$2 *shm)
+void x11_destroy_ximage(struct _XDisplay *dpy, struct _XImage *ximage, struct anonymous_2 *shm)
 {
-  if(no_mitshm == 0 && !(shm == ((struct anonymous$2 *)NULL)))
+  if(no_mitshm == 0 && !(shm == ((struct anonymous_2 *)NULL)))
   {
     XShmDetach(dpy, shm);
     ximage->f.destroy_image(ximage);
@@ -30971,11 +30971,11 @@ static signed int x11_error_dev_null(struct _XDisplay *dpy, struct anonymous *ev
 
 // x11_find_visual
 // file x11/blit.c line 105
-struct anonymous$8 * x11_find_visual(struct _XDisplay *dpy)
+struct anonymous_8 * x11_find_visual(struct _XDisplay *dpy)
 {
-  struct anonymous$1 *info;
-  struct anonymous$1 template;
-  struct anonymous$8 *vi = ((struct anonymous$8 *)NULL);
+  struct anonymous_1 *info;
+  struct anonymous_1 template;
+  struct anonymous_8 *vi = ((struct anonymous_8 *)NULL);
   signed int found;
   signed int i;
   char *class;
@@ -31024,7 +31024,7 @@ struct anonymous$8 * x11_find_visual(struct _XDisplay *dpy)
 
   }
   i = 0;
-  for( ; vi == ((struct anonymous$8 *)NULL) && !(i >= found); i = i + 1)
+  for( ; vi == ((struct anonymous_8 *)NULL) && !(i >= found); i = i + 1)
     if((info + (signed long int)i)->class == 4)
     {
       if((info + (signed long int)i)->depth >= 15)
@@ -31033,7 +31033,7 @@ struct anonymous$8 * x11_find_visual(struct _XDisplay *dpy)
     }
 
   i = 0;
-  for( ; vi == ((struct anonymous$8 *)NULL) && !(i >= found); i = i + 1)
+  for( ; vi == ((struct anonymous_8 *)NULL) && !(i >= found); i = i + 1)
     if((info + (signed long int)i)->class == 0)
     {
       if((info + (signed long int)i)->depth == 8)
@@ -31060,15 +31060,15 @@ void x11_icons_init(struct _XDisplay *dpy, unsigned long int bg)
 
 // x11_init_visual
 // file x11/blit.c line 138
-void x11_init_visual(struct _XDisplay *dpy, struct anonymous$1 *vinfo)
+void x11_init_visual(struct _XDisplay *dpy, struct anonymous_1 *vinfo)
 {
-  struct anonymous$7 *pf;
+  struct anonymous_7 *pf;
   signed int i;
   signed int n;
   signed int format = 0;
-  signed int return_value_XShmQueryExtension$1;
-  return_value_XShmQueryExtension$1=XShmQueryExtension(dpy);
-  if(return_value_XShmQueryExtension$1 == 0)
+  signed int return_value_XShmQueryExtension_1;
+  return_value_XShmQueryExtension_1=XShmQueryExtension(dpy);
+  if(return_value_XShmQueryExtension_1 == 0)
     no_mitshm = 1;
 
   display_bits = vinfo->depth;
@@ -31082,20 +31082,20 @@ void x11_init_visual(struct _XDisplay *dpy, struct anonymous$1 *vinfo)
   if(!(debug == 0))
   {
     fprintf(stderr, "x11: color depth: %d bits, %d bytes - pixmap: %d bytes\n", display_bits, display_bytes, pixmap_bytes);
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(vinfo->class == 4)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = vinfo->class == 5 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = vinfo->class == 5 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       fprintf(stderr, "x11: color masks: red=0x%08lx green=0x%08lx blue=0x%08lx\n", vinfo->red_mask, vinfo->green_mask, vinfo->blue_mask);
 
-    fprintf(stderr, "x11: server byte order: %s\n", ((struct anonymous$10 *)dpy)->byte_order == 0 ? "little endian" : "big endian");
+    fprintf(stderr, "x11: server byte order: %s\n", ((struct anonymous_10 *)dpy)->byte_order == 0 ? "little endian" : "big endian");
     fprintf(stderr, "x11: client byte order: %s\n", 1234 == 1234 ? "little endian" : "big endian");
   }
 
-  if(((struct anonymous$10 *)dpy)->byte_order == 1)
+  if(((struct anonymous_10 *)dpy)->byte_order == 1)
     x11_byteswap = 1;
 
   if(vinfo->class == 4)
@@ -31104,37 +31104,37 @@ void x11_init_visual(struct _XDisplay *dpy, struct anonymous$1 *vinfo)
     for( ; fmt[(signed long int)i].depth >= 1u; i = i + 1)
       if(fmt[(signed long int)i].depth == pixmap_bytes)
       {
-        _Bool tmp_if_expr$6;
-        if(fmt[(signed long int)i].order == ((struct anonymous$10 *)dpy)->byte_order)
-          tmp_if_expr$6 = (_Bool)1;
+        _Bool tmp_if_expr_6;
+        if(fmt[(signed long int)i].order == ((struct anonymous_10 *)dpy)->byte_order)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = fmt[(signed long int)i].order == -1 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = fmt[(signed long int)i].order == -1 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
         {
-          _Bool tmp_if_expr$5;
+          _Bool tmp_if_expr_5;
           if(fmt[(signed long int)i].red == vinfo->red_mask)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = fmt[(signed long int)i].red == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = fmt[(signed long int)i].red == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
           {
-            _Bool tmp_if_expr$4;
+            _Bool tmp_if_expr_4;
             if(fmt[(signed long int)i].green == vinfo->green_mask)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = fmt[(signed long int)i].green == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = fmt[(signed long int)i].green == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
             {
-              _Bool tmp_if_expr$3;
+              _Bool tmp_if_expr_3;
               if(fmt[(signed long int)i].blue == vinfo->blue_mask)
-                tmp_if_expr$3 = (_Bool)1;
+                tmp_if_expr_3 = (_Bool)1;
 
               else
-                tmp_if_expr$3 = fmt[(signed long int)i].blue == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = fmt[(signed long int)i].blue == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_3)
               {
                 x11_dpy_fmtid = fmt[(signed long int)i].format;
                 break;
@@ -31155,7 +31155,7 @@ void x11_init_visual(struct _XDisplay *dpy, struct anonymous$1 *vinfo)
     }
 
     ng_lut_init(vinfo->red_mask, vinfo->green_mask, vinfo->blue_mask, x11_dpy_fmtid, x11_byteswap);
-    if(((struct anonymous$10 *)dpy)->byte_order == 1)
+    if(((struct anonymous_10 *)dpy)->byte_order == 1)
       switch(pixmap_bytes)
       {
         case (unsigned int)2:
@@ -31199,13 +31199,13 @@ void x11_init_visual(struct _XDisplay *dpy, struct anonymous$1 *vinfo)
 
   if(format == 0)
   {
-    _Bool tmp_if_expr$7;
+    _Bool tmp_if_expr_7;
     if(vinfo->class == 3)
-      tmp_if_expr$7 = vinfo->depth == 8 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = vinfo->depth == 8 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
       fprintf(stderr, "\n8-bit Pseudocolor Visual (256 colors) is *not* supported.\nYou can startup X11 either with 15 bpp (or more)...\n\txinit -- -bpp 16\n... or with StaticGray visual:\n\txinit -- -cc StaticGray\n");
 
     else
@@ -31220,23 +31220,23 @@ void x11_init_visual(struct _XDisplay *dpy, struct anonymous$1 *vinfo)
 // file x11/x11.h line 5
 void x11_label_pixmap(struct _XDisplay *dpy, unsigned long int colormap, unsigned long int pixmap, signed int height, char *label)
 {
-  struct anonymous$75 values;
+  struct anonymous_75 values;
   struct _XGC *gc;
-  static struct anonymous$22 color;
-  static struct anonymous$14 *font;
-  if(font == ((struct anonymous$14 *)NULL))
+  static struct anonymous_22 color;
+  static struct anonymous_14 *font;
+  if(font == ((struct anonymous_14 *)NULL))
   {
     font=XLoadQueryFont(dpy, "fixed");
-    static struct anonymous$22 dummy;
+    static struct anonymous_22 dummy;
     XAllocNamedColor(dpy, colormap, "yellow", &color, &dummy);
   }
 
   values.font = font->fid;
   values.foreground = color.pixel;
   gc=XCreateGC(dpy, pixmap, (unsigned long int)(1L << 14 | 1L << 2), &values);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(label);
-  XDrawString(dpy, pixmap, gc, 5, height - 5, label, (signed int)return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(label);
+  XDrawString(dpy, pixmap, gc, 5, height - 5, label, (signed int)return_value_strlen_1);
   XFreeGC(dpy, gc);
 }
 
@@ -31244,28 +31244,28 @@ void x11_label_pixmap(struct _XDisplay *dpy, unsigned long int colormap, unsigne
 // file x11/xt.h line 177
 void x11_misc_init(struct _XDisplay *dpy)
 {
-  fcntl(((struct anonymous$10 *)dpy)->fd, 2, 1);
+  fcntl(((struct anonymous_10 *)dpy)->fd, 2, 1);
 }
 
 // x11_mute_notify
 // file x11/xt.c line 1417
 static void x11_mute_notify(signed int val)
 {
-  signed int return_value_alsa_thread_is_running$1;
+  signed int return_value_alsa_thread_is_running_1;
   if(!(val == 0))
     alsa_thread_stop();
 
   else
   {
-    return_value_alsa_thread_is_running$1=alsa_thread_is_running();
-    if(return_value_alsa_thread_is_running$1 == 0)
+    return_value_alsa_thread_is_running_1=alsa_thread_is_running();
+    if(return_value_alsa_thread_is_running_1 == 0)
     {
       if(args.alsa_latency == 30 && !(args.readconfig == 0))
       {
-        signed int x11_mute_notify$$1$$1$$1$$val;
-        x11_mute_notify$$1$$1$$1$$val=cfg_get_int("global", "alsa_latency");
-        if(x11_mute_notify$$1$$1$$1$$val >= 1)
-          args.alsa_latency = x11_mute_notify$$1$$1$$1$$val;
+        signed int x11_mute_notify__1__1__1__val;
+        x11_mute_notify__1__1__1__val=cfg_get_int("global", "alsa_latency");
+        if(x11_mute_notify__1__1__1__val >= 1)
+          args.alsa_latency = x11_mute_notify__1__1__1__val;
 
       }
 
@@ -31304,7 +31304,7 @@ static void x11_vbi_event(struct vbi_event *ev, void *user)
 
         if(!(vtx_subtitle == ((void (*)(struct vbi_page *, struct vbi_rect *))NULL)))
         {
-          vbi_fetch_vt_page(x11_vbi->dec, &pg, ev->ev.ttx_page.pgno, ev->ev.ttx_page.subno, (enum anonymous$23)VBI_WST_LEVEL_1p5, 25, 1);
+          vbi_fetch_vt_page(x11_vbi->dec, &pg, ev->ev.ttx_page.pgno, ev->ev.ttx_page.subno, (enum anonymous_23)VBI_WST_LEVEL_1p5, 25, 1);
           vbi_find_subtitle(&pg, &rect);
           if(rect.y1 == 25)
             vtx_subtitle((struct vbi_page *)(void *)0, (struct vbi_rect *)(void *)0);
@@ -31333,11 +31333,11 @@ signed int x11_vbi_start(char *device)
     x11_vbi=vbi_open(device, debug, 0);
     if(x11_vbi == ((struct vbi_state *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "open %s: %s\n", device, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "open %s: %s\n", device, return_value_strerror_2);
       return -1;
     }
 
@@ -31380,9 +31380,9 @@ signed int x11_vbi_tuned(void)
   }
 
   memset((void *)&tuner, 0, sizeof(struct v4l2_tuner) /*84ul*/ );
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(x11_vbi->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(86 << 0 + 8) | (unsigned int)(29 << 0)) | sizeof(struct v4l2_tuner) /*84ul*/  << 0 + 8 + 8, &tuner);
-  if(!(return_value_ioctl$1 == -1))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(x11_vbi->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(86 << 0 + 8) | (unsigned int)(29 << 0)) | sizeof(struct v4l2_tuner) /*84ul*/  << 0 + 8 + 8, &tuner);
+  if(!(return_value_ioctl_1 == -1))
     return tuner.signal != 0 ? 1 : 0;
 
   else
@@ -31423,13 +31423,13 @@ void xfree_dga_init(struct _XDisplay *dpy)
   {
     if(!(args.dga == 0))
     {
-      signed int return_value_XF86DGAQueryExtension$2;
-      return_value_XF86DGAQueryExtension$2=XF86DGAQueryExtension(dpy, &foo, &xfree_dga_error_base);
-      if(!(return_value_XF86DGAQueryExtension$2 == 0))
+      signed int return_value_XF86DGAQueryExtension_2;
+      return_value_XF86DGAQueryExtension_2=XF86DGAQueryExtension(dpy, &foo, &xfree_dga_error_base);
+      if(!(return_value_XF86DGAQueryExtension_2 == 0))
       {
-        signed int return_value_XDefaultScreen$1;
-        return_value_XDefaultScreen$1=XDefaultScreen(dpy);
-        XF86DGAQueryDirectVideo(dpy, return_value_XDefaultScreen$1, &flags);
+        signed int return_value_XDefaultScreen_1;
+        return_value_XDefaultScreen_1=XDefaultScreen(dpy);
+        XF86DGAQueryDirectVideo(dpy, return_value_XDefaultScreen_1, &flags);
         if(!((0x0001 & flags) == 0))
         {
           XF86DGAQueryVersion(dpy, &ma, &mi);
@@ -31455,11 +31455,11 @@ void xfree_randr_init(struct _XDisplay *dpy)
   signed int i;
   if(!(args.randr == 0))
   {
-    signed int return_value_XRRQueryExtension$1;
-    return_value_XRRQueryExtension$1=XRRQueryExtension(dpy, &randr_evbase, &bar);
-    if(!(return_value_XRRQueryExtension$1 == 0))
+    signed int return_value_XRRQueryExtension_1;
+    return_value_XRRQueryExtension_1=XRRQueryExtension(dpy, &randr_evbase, &bar);
+    if(!(return_value_XRRQueryExtension_1 == 0))
     {
-      randr=XRRSizes(dpy, ((struct anonymous$10 *)dpy)->default_screen, &nrandr);
+      randr=XRRSizes(dpy, ((struct anonymous_10 *)dpy)->default_screen, &nrandr);
       if(nrandr >= 1)
       {
         have_randr = 1;
@@ -31493,18 +31493,18 @@ void xfree_vm_init(struct _XDisplay *dpy)
   {
     if(!(args.vidmode == 0))
     {
-      signed int return_value_XF86VidModeQueryExtension$2;
-      return_value_XF86VidModeQueryExtension$2=XF86VidModeQueryExtension(dpy, &foo, &bar);
-      if(!(return_value_XF86VidModeQueryExtension$2 == 0))
+      signed int return_value_XF86VidModeQueryExtension_2;
+      return_value_XF86VidModeQueryExtension_2=XF86VidModeQueryExtension(dpy, &foo, &bar);
+      if(!(return_value_XF86VidModeQueryExtension_2 == 0))
       {
         XF86VidModeQueryVersion(dpy, &ma, &mi);
         if(!(debug == 0))
           fprintf(stderr, "VidMode  version %d.%d\n", ma, mi);
 
         have_vm = 1;
-        signed int return_value_XDefaultScreen$1;
-        return_value_XDefaultScreen$1=XDefaultScreen(dpy);
-        XF86VidModeGetAllModeLines(dpy, return_value_XDefaultScreen$1, &vm_count, &vm_modelines);
+        signed int return_value_XDefaultScreen_1;
+        return_value_XDefaultScreen_1=XDefaultScreen(dpy);
+        XF86VidModeGetAllModeLines(dpy, return_value_XDefaultScreen_1, &vm_count, &vm_modelines);
         if(!(debug == 0))
         {
           fprintf(stderr, "  available video mode(s):");
@@ -31529,13 +31529,13 @@ void xfree_xinerama_init(struct _XDisplay *dpy)
   signed int foo;
   signed int bar;
   signed int i;
-  signed int return_value_XineramaQueryExtension$2;
-  return_value_XineramaQueryExtension$2=XineramaQueryExtension(dpy, &foo, &bar);
-  signed int return_value_XineramaIsActive$1;
-  if(!(return_value_XineramaQueryExtension$2 == 0))
+  signed int return_value_XineramaQueryExtension_2;
+  return_value_XineramaQueryExtension_2=XineramaQueryExtension(dpy, &foo, &bar);
+  signed int return_value_XineramaIsActive_1;
+  if(!(return_value_XineramaQueryExtension_2 == 0))
   {
-    return_value_XineramaIsActive$1=XineramaIsActive(dpy);
-    if(!(return_value_XineramaIsActive$1 == 0))
+    return_value_XineramaIsActive_1=XineramaIsActive(dpy);
+    if(!(return_value_XineramaIsActive_1 == 0))
     {
       xinerama=XineramaQueryScreens(dpy, &nxinerama);
       i = 0;
@@ -31566,26 +31566,26 @@ extern signed int xscreensaver_command(struct _XDisplay *dpy, unsigned long int 
 // file jwz/remote.c line 341
 static signed int xscreensaver_command_response(struct _XDisplay *dpy, unsigned long int window, signed int verbose_p, signed int exiting_p, char **error_ret)
 {
-  signed int fd = ((struct anonymous$10 *)dpy)->fd;
+  signed int fd = ((struct anonymous_10 *)dpy)->fd;
   signed int timeout = 10;
   signed int status;
-  struct anonymous$115 fds;
-  struct timeval xscreensaver_command_response$$1$$tv;
-  char xscreensaver_command_response$$1$$err[2048l];
-  _Bool tmp_if_expr$1;
+  struct anonymous_115 fds;
+  struct timeval xscreensaver_command_response__1__tv;
+  char xscreensaver_command_response__1__err[2048l];
+  _Bool tmp_if_expr_1;
   while((_Bool)1)
   {
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$115) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_115) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&fds)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    memset((void *)&xscreensaver_command_response$$1$$tv, 0, sizeof(struct timeval) /*16ul*/ );
-    xscreensaver_command_response$$1$$tv.tv_sec = (signed long int)timeout;
-    status=select(fd + 1, &fds, ((struct anonymous$115 *)NULL), &fds, &xscreensaver_command_response$$1$$tv);
+    memset((void *)&xscreensaver_command_response__1__tv, 0, sizeof(struct timeval) /*16ul*/ );
+    xscreensaver_command_response__1__tv.tv_sec = (signed long int)timeout;
+    status=select(fd + 1, &fds, ((struct anonymous_115 *)NULL), &fds, &xscreensaver_command_response__1__tv);
     if(!(status >= 0))
     {
       char buf[1024l];
@@ -31606,12 +31606,12 @@ static signed int xscreensaver_command_response(struct _XDisplay *dpy, unsigned 
     else
       if(status == 0)
       {
-        sprintf(xscreensaver_command_response$$1$$err, "no response to command.");
+        sprintf(xscreensaver_command_response__1__err, "no response to command.");
         if(!(error_ret == ((char **)NULL)))
-          *error_ret=strdup(xscreensaver_command_response$$1$$err);
+          *error_ret=strdup(xscreensaver_command_response__1__err);
 
         else
-          fprintf(stderr, "%s: %s\n", progname, (const void *)xscreensaver_command_response$$1$$err);
+          fprintf(stderr, "%s: %s\n", progname, (const void *)xscreensaver_command_response__1__err);
         return -1;
       }
 
@@ -31641,12 +31641,12 @@ static signed int xscreensaver_command_response(struct _XDisplay *dpy, unsigned 
             if(!(exiting_p == 0))
               return 0;
 
-            sprintf(xscreensaver_command_response$$1$$err, "xscreensaver window unexpectedly deleted.");
+            sprintf(xscreensaver_command_response__1__err, "xscreensaver window unexpectedly deleted.");
             if(!(error_ret == ((char **)NULL)))
-              *error_ret=strdup(xscreensaver_command_response$$1$$err);
+              *error_ret=strdup(xscreensaver_command_response__1__err);
 
             else
-              fprintf(stderr, "%s: %s\n", progname, (const void *)xscreensaver_command_response$$1$$err);
+              fprintf(stderr, "%s: %s\n", progname, (const void *)xscreensaver_command_response__1__err);
             return -1;
           }
 
@@ -31654,12 +31654,12 @@ static signed int xscreensaver_command_response(struct _XDisplay *dpy, unsigned 
           {
             if(!(format == 8) || !(type == 31ul))
             {
-              sprintf(xscreensaver_command_response$$1$$err, "unrecognized response property.");
+              sprintf(xscreensaver_command_response__1__err, "unrecognized response property.");
               if(!(error_ret == ((char **)NULL)))
-                *error_ret=strdup(xscreensaver_command_response$$1$$err);
+                *error_ret=strdup(xscreensaver_command_response__1__err);
 
               else
-                fprintf(stderr, "%s: %s\n", progname, (const void *)xscreensaver_command_response$$1$$err);
+                fprintf(stderr, "%s: %s\n", progname, (const void *)xscreensaver_command_response__1__err);
               if(!(msg == ((char *)NULL)))
                 XFree((void *)msg);
 
@@ -31668,27 +31668,27 @@ static signed int xscreensaver_command_response(struct _XDisplay *dpy, unsigned 
 
             else
             {
-              _Bool tmp_if_expr$2;
+              _Bool tmp_if_expr_2;
               if(msg == ((char *)NULL))
-                tmp_if_expr$2 = (_Bool)1;
+                tmp_if_expr_2 = (_Bool)1;
 
               else
               {
                 if(!((signed int)*msg == 43))
-                  tmp_if_expr$1 = (signed int)msg[(signed long int)0] != 45 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_1 = (signed int)msg[(signed long int)0] != 45 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$1 = (_Bool)0;
-                tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_1 = (_Bool)0;
+                tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$2)
+              if(tmp_if_expr_2)
               {
-                sprintf(xscreensaver_command_response$$1$$err, "unrecognized response message.");
+                sprintf(xscreensaver_command_response__1__err, "unrecognized response message.");
                 if(!(error_ret == ((char **)NULL)))
-                  *error_ret=strdup(xscreensaver_command_response$$1$$err);
+                  *error_ret=strdup(xscreensaver_command_response__1__err);
 
                 else
-                  fprintf(stderr, "%s: %s\n", progname, (const void *)xscreensaver_command_response$$1$$err);
+                  fprintf(stderr, "%s: %s\n", progname, (const void *)xscreensaver_command_response__1__err);
                 if(!(msg == ((char *)NULL)))
                   XFree((void *)msg);
 
@@ -31698,13 +31698,13 @@ static signed int xscreensaver_command_response(struct _XDisplay *dpy, unsigned 
               else
               {
                 signed int ret = (signed int)msg[(signed long int)0] == 43 ? 0 : -1;
-                sprintf(xscreensaver_command_response$$1$$err, "%s: %s\n", progname, msg + (signed long int)1);
+                sprintf(xscreensaver_command_response__1__err, "%s: %s\n", progname, msg + (signed long int)1);
                 if(!(error_ret == ((char **)NULL)))
-                  *error_ret=strdup(xscreensaver_command_response$$1$$err);
+                  *error_ret=strdup(xscreensaver_command_response__1__err);
 
                 else
                   if(!(ret == 0) || !(verbose_p == 0))
-                    fprintf(ret < 0 ? stderr : stdout, "%s\n", (const void *)xscreensaver_command_response$$1$$err);
+                    fprintf(ret < 0 ? stderr : stdout, "%s\n", (const void *)xscreensaver_command_response__1__err);
 
                 XFree((void *)msg);
                 return ret;
@@ -31742,7 +31742,7 @@ extern void xscreensaver_init(struct _XDisplay *dpy)
 static void xscreensaver_timefunc(void *clientData, unsigned long int *id)
 {
   signed int status;
-  char *xscreensaver_timefunc$$1$$err;
+  char *xscreensaver_timefunc__1__err;
   if(!(debug == 0))
     fprintf(stderr, "xscreensaver_timefunc\n");
 
@@ -31754,11 +31754,11 @@ static void xscreensaver_timefunc(void *clientData, unsigned long int *id)
     first = 0;
   }
 
-  status=xscreensaver_command(dpy, XA_DEACTIVATE, (signed long int)0, debug, &xscreensaver_timefunc$$1$$err);
+  status=xscreensaver_command(dpy, XA_DEACTIVATE, (signed long int)0, debug, &xscreensaver_timefunc__1__err);
   if(!(status == 0))
   {
     if(!(debug == 0))
-      fprintf(stderr, "xscreensaver_command: %s\n", xscreensaver_timefunc$$1$$err);
+      fprintf(stderr, "xscreensaver_command: %s\n", xscreensaver_timefunc__1__err);
 
   }
 
@@ -31775,11 +31775,11 @@ signed int xt_handle_pending(struct _XDisplay *dpy)
     fprintf(stderr, "xt: handle_pending:  start ...\n");
 
   XFlush(dpy);
-  signed int return_value_XCheckMaskEvent$1;
+  signed int return_value_XCheckMaskEvent_1;
   do
   {
-    return_value_XCheckMaskEvent$1=XCheckMaskEvent(dpy, (signed long int)~0, &event);
-    if(!(return_value_XCheckMaskEvent$1 == 1))
+    return_value_XCheckMaskEvent_1=XCheckMaskEvent(dpy, (signed long int)~0, &event);
+    if(!(return_value_XCheckMaskEvent_1 == 1))
       break;
 
     XtDispatchEvent(&event);
@@ -31820,14 +31820,14 @@ void xt_kbd_init(struct _WidgetRec *tv)
   if(!(list == ((char **)NULL)))
     for( ; !(*list == ((char *)NULL)); list = list + 1l)
     {
-      signed int return_value_sscanf$1;
-      return_value_sscanf$1=sscanf(*list, "kbd-key-%31s", (const void *)key);
-      if(return_value_sscanf$1 == 1)
+      signed int return_value_sscanf_1;
+      return_value_sscanf_1=sscanf(*list, "kbd-key-%31s", (const void *)key);
+      if(return_value_sscanf_1 == 1)
       {
         sprintf(str, "<Key>%s: Event(%s)", (const void *)key, *list);
-        struct _TranslationData *return_value_XtParseTranslationTable$2;
-        return_value_XtParseTranslationTable$2=XtParseTranslationTable(str);
-        XtOverrideTranslations(tv, return_value_XtParseTranslationTable$2);
+        struct _TranslationData *return_value_XtParseTranslationTable_2;
+        return_value_XtParseTranslationTable_2=XtParseTranslationTable(str);
+        XtOverrideTranslations(tv, return_value_XtParseTranslationTable_2);
       }
 
     }
@@ -31841,9 +31841,9 @@ static void xt_lirc_data(void *data, signed int *fd, unsigned long int *iproc)
   if(!(debug == 0))
     fprintf(stderr, "lirc_input triggered\n");
 
-  signed int return_value_lirc_tv_havedata$1;
-  return_value_lirc_tv_havedata$1=lirc_tv_havedata();
-  if(return_value_lirc_tv_havedata$1 == -1)
+  signed int return_value_lirc_tv_havedata_1;
+  return_value_lirc_tv_havedata_1=lirc_tv_havedata();
+  if(return_value_lirc_tv_havedata_1 == -1)
   {
     fprintf(stderr, "lirc: connection lost\n");
     XtRemoveInput(*iproc);
@@ -31874,14 +31874,14 @@ signed int xt_main_loop(void)
   signal(1, (void (*)(signed int))1);
   do
   {
-    char return_value_XtAppGetExitFlag$1;
-    return_value_XtAppGetExitFlag$1=XtAppGetExitFlag(app_context);
-    if(!(return_value_XtAppGetExitFlag$1 == 0))
+    char return_value_XtAppGetExitFlag_1;
+    return_value_XtAppGetExitFlag_1=XtAppGetExitFlag(app_context);
+    if(!(return_value_XtAppGetExitFlag_1 == 0))
       break;
 
     XtAppNextEvent(app_context, &event);
-    char return_value_XtDispatchEvent$2;
-    return_value_XtDispatchEvent$2=XtDispatchEvent(&event);
+    char return_value_XtDispatchEvent_2;
+    return_value_XtDispatchEvent_2=XtDispatchEvent(&event);
   }
   while((_Bool)1);
   return 0;
@@ -31905,9 +31905,9 @@ signed int xt_midi_init(char *dev)
   else
   {
     memset((void *)&xt_midi, 0, sizeof(struct midi_handle) /*24ul*/ );
-    signed int return_value_midi_open$1;
-    return_value_midi_open$1=midi_open(&xt_midi, "xawtv");
-    if(return_value_midi_open$1 == -1)
+    signed int return_value_midi_open_1;
+    return_value_midi_open_1=midi_open(&xt_midi, "xawtv");
+    if(return_value_midi_open_1 == -1)
       return -1;
 
     else
@@ -31939,9 +31939,9 @@ void xt_siginit(void)
   {
     act.__sigaction_handler.sa_handler = segfault;
     sigaction(11, &act, &old);
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    fprintf(stderr, "main thread [pid=%d]\n", return_value_getpid$1);
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    fprintf(stderr, "main thread [pid=%d]\n", return_value_getpid_1);
   }
 
 }
@@ -31979,22 +31979,22 @@ signed int xt_vm_randr_input_init(struct _XDisplay *dpy)
 
 // xv_add_attr
 // file x11/xv.c line 172
-static void xv_add_attr(struct xv_handle *h, signed int id, signed int type, signed int defval, struct STRTAB *choices, struct anonymous$112 *at)
+static void xv_add_attr(struct xv_handle *h, signed int id, signed int type, signed int defval, struct STRTAB *choices, struct anonymous_112 *at)
 {
   signed int i;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)h->attr, (unsigned long int)(h->nattr + 2) * sizeof(struct ng_attribute) /*80ul*/ );
-  h->attr = (struct ng_attribute *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)h->attr, (unsigned long int)(h->nattr + 2) * sizeof(struct ng_attribute) /*80ul*/ );
+  h->attr = (struct ng_attribute *)return_value_realloc_1;
   memset((void *)(h->attr + (signed long int)h->nattr), 0, sizeof(struct ng_attribute) /*80ul*/  * (unsigned long int)2);
-  signed int return_value_strcmp$2;
-  if(!(at == ((struct anonymous$112 *)NULL)))
+  signed int return_value_strcmp_2;
+  if(!(at == ((struct anonymous_112 *)NULL)))
   {
     (h->attr + (signed long int)h->nattr)->priv = (const void *)at;
     i = 0;
     for( ; !(xvattr[(signed long int)i].atom == ((char *)NULL)); i = i + 1)
     {
-      return_value_strcmp$2=strcmp(xvattr[(signed long int)i].atom, at->name);
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(xvattr[(signed long int)i].atom, at->name);
+      if(return_value_strcmp_2 == 0)
         break;
 
     }
@@ -32057,7 +32057,7 @@ static struct ng_attribute * xv_attrs(void *handle)
 
 // xv_blit
 // file x11/blit.c line 482
-void xv_blit(struct _XDisplay *dpy, unsigned long int dr, struct _XGC *gc, struct anonymous$3 *xi, signed int a, signed int b, signed int c, signed int d, signed int x, signed int y, signed int w, signed int h)
+void xv_blit(struct _XDisplay *dpy, unsigned long int dr, struct _XGC *gc, struct anonymous_3 *xi, signed int a, signed int b, signed int c, signed int d, signed int x, signed int y, signed int w, signed int h)
 {
   if(!(no_mitshm == 0))
     XvPutImage(dpy, (unsigned long int)im_port, dr, gc, xi, a, b, (unsigned int)c, (unsigned int)d, x, y, (unsigned int)w, (unsigned int)h);
@@ -32075,24 +32075,24 @@ static signed int xv_close(void *handle)
 
 // xv_create_ximage
 // file x11/blit.c line 407
-struct anonymous$3 * xv_create_ximage(struct _XDisplay *dpy, signed int width, signed int height, signed int format, struct anonymous$2 **shm)
+struct anonymous_3 * xv_create_ximage(struct _XDisplay *dpy, signed int width, signed int height, signed int format, struct anonymous_2 **shm)
 {
-  struct anonymous$3 *xvimage = (struct anonymous$3 *)(void *)0;
+  struct anonymous_3 *xvimage = (struct anonymous_3 *)(void *)0;
   unsigned char *ximage_data;
-  struct anonymous$2 *shminfo = (struct anonymous$2 *)(void *)0;
-  void *xv_create_ximage$$1$$old_handler;
-  signed int (*return_value_XSetErrorHandler$1)(struct _XDisplay *, struct anonymous *);
-  void *return_value_malloc$2;
-  void *return_value_shmat$3;
+  struct anonymous_2 *shminfo = (struct anonymous_2 *)(void *)0;
+  void *xv_create_ximage__1__old_handler;
+  signed int (*return_value_XSetErrorHandler_1)(struct _XDisplay *, struct anonymous *);
+  void *return_value_malloc_2;
+  void *return_value_shmat_3;
   if(no_mitshm == 0)
   {
-    return_value_XSetErrorHandler$1=XSetErrorHandler(catch_no_mitshm);
-    xv_create_ximage$$1$$old_handler = (void *)return_value_XSetErrorHandler$1;
-    return_value_malloc$2=malloc(sizeof(struct anonymous$2) /*32ul*/ );
-    shminfo = (struct anonymous$2 *)return_value_malloc$2;
-    memset((void *)shminfo, 0, sizeof(struct anonymous$2) /*32ul*/ );
+    return_value_XSetErrorHandler_1=XSetErrorHandler(catch_no_mitshm);
+    xv_create_ximage__1__old_handler = (void *)return_value_XSetErrorHandler_1;
+    return_value_malloc_2=malloc(sizeof(struct anonymous_2) /*32ul*/ );
+    shminfo = (struct anonymous_2 *)return_value_malloc_2;
+    memset((void *)shminfo, 0, sizeof(struct anonymous_2) /*32ul*/ );
     xvimage=XvShmCreateImage(dpy, (unsigned long int)im_port, format, ((char *)NULL), width, height, shminfo);
-    if(!(xvimage == ((struct anonymous$3 *)NULL)))
+    if(!(xvimage == ((struct anonymous_3 *)NULL)))
     {
       shminfo->shmid=shmget((signed int)0, (unsigned long int)xvimage->data_size, 01000 | 0777);
       if(shminfo->shmid == -1)
@@ -32100,8 +32100,8 @@ struct anonymous$3 * xv_create_ximage(struct _XDisplay *dpy, signed int width, s
 
       else
       {
-        return_value_shmat$3=shmat(shminfo->shmid, NULL, 0);
-        shminfo->shmaddr = (char *)return_value_shmat$3;
+        return_value_shmat_3=shmat(shminfo->shmid, NULL, 0);
+        shminfo->shmaddr = (char *)return_value_shmat_3;
         if((char *)-1 == shminfo->shmaddr)
           perror("shmat");
 
@@ -32114,7 +32114,7 @@ struct anonymous$3 * xv_create_ximage(struct _XDisplay *dpy, signed int width, s
           if(no_mitshm == 0)
           {
             shmctl(shminfo->shmid, 0, ((struct shmid_ds *)NULL));
-            XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))xv_create_ximage$$1$$old_handler);
+            XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))xv_create_ximage__1__old_handler);
             *shm = shminfo;
             return xvimage;
           }
@@ -32126,10 +32126,10 @@ struct anonymous$3 * xv_create_ximage(struct _XDisplay *dpy, signed int width, s
 
   shm_error:
     ;
-    if(!(xvimage == ((struct anonymous$3 *)NULL)))
+    if(!(xvimage == ((struct anonymous_3 *)NULL)))
     {
       XFree((void *)xvimage);
-      xvimage = (struct anonymous$3 *)(void *)0;
+      xvimage = (struct anonymous_3 *)(void *)0;
     }
 
     if(!((char *)-1 == shminfo->shmaddr))
@@ -32140,17 +32140,17 @@ struct anonymous$3 * xv_create_ximage(struct _XDisplay *dpy, signed int width, s
     }
 
     free((void *)shminfo);
-    XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))xv_create_ximage$$1$$old_handler);
+    XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous *))xv_create_ximage__1__old_handler);
     no_mitshm = 1;
   }
 
 
 no_mitshm:
   ;
-  *shm = (struct anonymous$2 *)(void *)0;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)(width * height * 2));
-  ximage_data = (unsigned char *)return_value_malloc$4;
+  *shm = (struct anonymous_2 *)(void *)0;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)(width * height * 2));
+  ximage_data = (unsigned char *)return_value_malloc_4;
   if(ximage_data == ((unsigned char *)NULL))
   {
     fprintf(stderr, "out of memory\n");
@@ -32163,9 +32163,9 @@ no_mitshm:
 
 // xv_destroy_ximage
 // file x11/blit.c line 471
-void xv_destroy_ximage(struct _XDisplay *dpy, struct anonymous$3 *xvimage, struct anonymous$2 *shm)
+void xv_destroy_ximage(struct _XDisplay *dpy, struct anonymous_3 *xvimage, struct anonymous_2 *shm)
 {
-  if(no_mitshm == 0 && !(shm == ((struct anonymous$2 *)NULL)))
+  if(no_mitshm == 0 && !(shm == ((struct anonymous_2 *)NULL)))
   {
     XShmDetach(dpy, shm);
     XFree((void *)xvimage);
@@ -32205,9 +32205,9 @@ static unsigned long int xv_getfreq(void *handle)
 void xv_image_init(struct _XDisplay *dpy)
 {
   signed int i;
-  signed int return_value_XvQueryExtension$1;
-  return_value_XvQueryExtension$1=XvQueryExtension(dpy, (unsigned int *)&ver, (unsigned int *)&rel, (unsigned int *)&req, (unsigned int *)&ev, (unsigned int *)&err);
-  if(!(return_value_XvQueryExtension$1 == 0))
+  signed int return_value_XvQueryExtension_1;
+  return_value_XvQueryExtension_1=XvQueryExtension(dpy, (unsigned int *)&ver, (unsigned int *)&rel, (unsigned int *)&req, (unsigned int *)&ev, (unsigned int *)&err);
+  if(!(return_value_XvQueryExtension_1 == 0))
   {
     if(!(debug == 0))
       fprintf(stderr, "Xvideo: Server has no Xvideo extension support\n");
@@ -32216,9 +32216,9 @@ void xv_image_init(struct _XDisplay *dpy)
 
   else
   {
-    signed int return_value_XvQueryAdaptors$2;
-    return_value_XvQueryAdaptors$2=XvQueryAdaptors(dpy, (&((struct anonymous$10 *)dpy)->screens[(signed long int)((struct anonymous$10 *)dpy)->default_screen])->root, (unsigned int *)&adaptors, &ai);
-    if(!(return_value_XvQueryAdaptors$2 == 0))
+    signed int return_value_XvQueryAdaptors_2;
+    return_value_XvQueryAdaptors_2=XvQueryAdaptors(dpy, (&((struct anonymous_10 *)dpy)->screens[(signed long int)((struct anonymous_10 *)dpy)->default_screen])->root, (unsigned int *)&adaptors, &ai);
+    if(!(return_value_XvQueryAdaptors_2 == 0))
       fprintf(stderr, "Xvideo: XvQueryAdaptors failed");
 
     else
@@ -32297,15 +32297,15 @@ static signed int xv_overlay(void *handle, struct ng_video_fmt *fmt, signed int 
 static signed int xv_read_attr(struct ng_attribute *attr)
 {
   struct xv_handle *h = (struct xv_handle *)attr->handle;
-  const struct anonymous$112 *xv_read_attr$$1$$at = (const struct anonymous$112 *)attr->priv;
+  const struct anonymous_112 *xv_read_attr__1__at = (const struct anonymous_112 *)attr->priv;
   unsigned long int atom;
   signed int value = 0;
-  if(!(xv_read_attr$$1$$at == ((const struct anonymous$112 *)NULL)))
+  if(!(xv_read_attr__1__at == ((const struct anonymous_112 *)NULL)))
   {
-    atom=XInternAtom(dpy, xv_read_attr$$1$$at->name, 0);
+    atom=XInternAtom(dpy, xv_read_attr__1__at->name, 0);
     XvGetPortAttribute(dpy, h->vi_port, atom, &value);
     if(!(debug == 0))
-      fprintf(stderr, "xv: get %s: %d\n", xv_read_attr$$1$$at->name, value);
+      fprintf(stderr, "xv: get %s: %d\n", xv_read_attr__1__at->name, value);
 
   }
 
@@ -32334,12 +32334,12 @@ static void xv_setfreq(void *handle, unsigned long int freq)
 static signed int xv_strlist_add(struct STRTAB **tab, char *str)
 {
   signed int i;
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   if(*tab == ((struct STRTAB *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct STRTAB) /*16ul*/  * (unsigned long int)2);
-    *tab = (struct STRTAB *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct STRTAB) /*16ul*/  * (unsigned long int)2);
+    *tab = (struct STRTAB *)return_value_malloc_1;
     i = 0;
   }
 
@@ -32348,14 +32348,14 @@ static signed int xv_strlist_add(struct STRTAB **tab, char *str)
     i = 0;
     for( ; !((*tab + (signed long int)i)->str == ((const char *)NULL)); i = i + 1)
     {
-      return_value_strcasecmp$2=strcasecmp((*tab + (signed long int)i)->str, str);
-      if(return_value_strcasecmp$2 == 0)
+      return_value_strcasecmp_2=strcasecmp((*tab + (signed long int)i)->str, str);
+      if(return_value_strcasecmp_2 == 0)
         return (signed int)(*tab + (signed long int)i)->nr;
 
     }
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)*tab, sizeof(struct STRTAB) /*16ul*/  * (unsigned long int)(i + 2));
-    *tab = (struct STRTAB *)return_value_realloc$3;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)*tab, sizeof(struct STRTAB) /*16ul*/  * (unsigned long int)(i + 2));
+    *tab = (struct STRTAB *)return_value_realloc_3;
   }
   (*tab + (signed long int)i)->nr = (signed long int)i;
   (*tab + (signed long int)i)->str=strdup(str);
@@ -32382,7 +32382,7 @@ void xv_video(unsigned long int win, signed int dw, signed int dh, signed int on
   signed int dy;
   signed int sw;
   signed int sh;
-  signed int return_value_XvGrabPort$1;
+  signed int return_value_XvGrabPort_1;
   if(!(on == 0))
   {
     dy = 0;
@@ -32398,13 +32398,13 @@ void xv_video(unsigned long int win, signed int dw, signed int dh, signed int on
     }
 
     if(h->vi_gc == ((struct _XGC *)NULL))
-      h->vi_gc=XCreateGC(dpy, win, (unsigned long int)0, (struct anonymous$75 *)(void *)0);
+      h->vi_gc=XCreateGC(dpy, win, (unsigned long int)0, (struct anonymous_75 *)(void *)0);
 
     ng_ratio_fixup(&dw, &dh, &dx, &dy);
     if(grabbed == 0)
     {
-      return_value_XvGrabPort$1=XvGrabPort(dpy, h->vi_port, (unsigned long int)0L);
-      if(return_value_XvGrabPort$1 == 0)
+      return_value_XvGrabPort_1=XvGrabPort(dpy, h->vi_port, (unsigned long int)0L);
+      if(return_value_XvGrabPort_1 == 0)
         grabbed = 1;
 
     }
@@ -32447,9 +32447,9 @@ void xv_video_init(unsigned int port, signed int hwscan)
   signed int i;
   signed int vi_port = -1;
   signed int vi_adaptor = -1;
-  signed int return_value_XvQueryExtension$1;
-  return_value_XvQueryExtension$1=XvQueryExtension(dpy, (unsigned int *)&ver$link1, (unsigned int *)&rel$link1, (unsigned int *)&req$link1, (unsigned int *)&ev$link1, (unsigned int *)&err$link1);
-  if(!(return_value_XvQueryExtension$1 == 0))
+  signed int return_value_XvQueryExtension_1;
+  return_value_XvQueryExtension_1=XvQueryExtension(dpy, (unsigned int *)&ver_link1, (unsigned int *)&rel_link1, (unsigned int *)&req_link1, (unsigned int *)&ev_link1, (unsigned int *)&err_link1);
+  if(!(return_value_XvQueryExtension_1 == 0))
   {
     if(!(debug == 0))
       fprintf(stderr, "Xvideo: Server has no Xvideo extension support\n");
@@ -32458,74 +32458,74 @@ void xv_video_init(unsigned int port, signed int hwscan)
 
   else
   {
-    signed int return_value_XvQueryAdaptors$2;
-    return_value_XvQueryAdaptors$2=XvQueryAdaptors(dpy, (&((struct anonymous$10 *)dpy)->screens[(signed long int)((struct anonymous$10 *)dpy)->default_screen])->root, (unsigned int *)&adaptors$link1, &ai$link1);
-    if(!(return_value_XvQueryAdaptors$2 == 0))
+    signed int return_value_XvQueryAdaptors_2;
+    return_value_XvQueryAdaptors_2=XvQueryAdaptors(dpy, (&((struct anonymous_10 *)dpy)->screens[(signed long int)((struct anonymous_10 *)dpy)->default_screen])->root, (unsigned int *)&adaptors_link1, &ai_link1);
+    if(!(return_value_XvQueryAdaptors_2 == 0))
     {
       fprintf(stderr, "Xvideo: XvQueryAdaptors failed");
       exit(1);
     }
 
     if(!(debug == 0))
-      fprintf(stderr, "Xvideo: %d adaptors available.\n", adaptors$link1);
+      fprintf(stderr, "Xvideo: %d adaptors available.\n", adaptors_link1);
 
     i = 0;
-    for( ; !(i >= adaptors$link1); i = i + 1)
+    for( ; !(i >= adaptors_link1); i = i + 1)
     {
       if(!(debug == 0))
-        fprintf(stderr, "Xvideo: %s:%s%s%s%s%s, ports %ld-%ld\n", (ai$link1 + (signed long int)i)->name, ((signed long int)(ai$link1 + (signed long int)i)->type & 1L << 0) != 0l ? " input" : "", ((signed long int)(ai$link1 + (signed long int)i)->type & 1L << 1) != 0l ? " output" : "", ((signed int)(ai$link1 + (signed long int)i)->type & 0x00000004) != 0 ? " video" : "", ((signed int)(ai$link1 + (signed long int)i)->type & 0x00000008) != 0 ? " still" : "", ((signed int)(ai$link1 + (signed long int)i)->type & 0x00000010) != 0 ? " image" : "", (ai$link1 + (signed long int)i)->base_id, ((ai$link1 + (signed long int)i)->base_id + (ai$link1 + (signed long int)i)->num_ports) - (unsigned long int)1);
+        fprintf(stderr, "Xvideo: %s:%s%s%s%s%s, ports %ld-%ld\n", (ai_link1 + (signed long int)i)->name, ((signed long int)(ai_link1 + (signed long int)i)->type & 1L << 0) != 0l ? " input" : "", ((signed long int)(ai_link1 + (signed long int)i)->type & 1L << 1) != 0l ? " output" : "", ((signed int)(ai_link1 + (signed long int)i)->type & 0x00000004) != 0 ? " video" : "", ((signed int)(ai_link1 + (signed long int)i)->type & 0x00000008) != 0 ? " still" : "", ((signed int)(ai_link1 + (signed long int)i)->type & 0x00000010) != 0 ? " image" : "", (ai_link1 + (signed long int)i)->base_id, ((ai_link1 + (signed long int)i)->base_id + (ai_link1 + (signed long int)i)->num_ports) - (unsigned long int)1);
 
       if(!(hwscan == 0))
       {
-        n=fprintf(stderr, "port %ld-%ld", (ai$link1 + (signed long int)i)->base_id, ((ai$link1 + (signed long int)i)->base_id + (ai$link1 + (signed long int)i)->num_ports) - (unsigned long int)1);
-        if(!((1L & (signed long int)(ai$link1 + (signed long int)i)->type) == 0l))
+        n=fprintf(stderr, "port %ld-%ld", (ai_link1 + (signed long int)i)->base_id, ((ai_link1 + (signed long int)i)->base_id + (ai_link1 + (signed long int)i)->num_ports) - (unsigned long int)1);
+        if(!((1L & (signed long int)(ai_link1 + (signed long int)i)->type) == 0l))
         {
-          if(!((0x00000004 & (signed int)(ai$link1 + (signed long int)i)->type) == 0))
-            fprintf(stderr, "%*s[ -xvport %ld ]", 40 - n, (const void *)"", (ai$link1 + (signed long int)i)->base_id);
+          if(!((0x00000004 & (signed int)(ai_link1 + (signed long int)i)->type) == 0))
+            fprintf(stderr, "%*s[ -xvport %ld ]", 40 - n, (const void *)"", (ai_link1 + (signed long int)i)->base_id);
 
         }
 
         fprintf(stderr, "\n");
-        if(!((1L & (signed long int)(ai$link1 + (signed long int)i)->type) == 0l))
+        if(!((1L & (signed long int)(ai_link1 + (signed long int)i)->type) == 0l))
         {
-          if(!((0x00000004 & (signed int)(ai$link1 + (signed long int)i)->type) == 0))
+          if(!((0x00000004 & (signed int)(ai_link1 + (signed long int)i)->type) == 0))
             fprintf(stderr, "    type : Xvideo, video overlay\n");
 
         }
 
-        if(!((1L & (signed long int)(ai$link1 + (signed long int)i)->type) == 0l))
+        if(!((1L & (signed long int)(ai_link1 + (signed long int)i)->type) == 0l))
         {
-          if(!((0x00000010 & (signed int)(ai$link1 + (signed long int)i)->type) == 0))
+          if(!((0x00000010 & (signed int)(ai_link1 + (signed long int)i)->type) == 0))
             fprintf(stderr, "    type : Xvideo, image scaler\n");
 
         }
 
-        fprintf(stderr, "    name : %s\n", (ai$link1 + (signed long int)i)->name);
+        fprintf(stderr, "    name : %s\n", (ai_link1 + (signed long int)i)->name);
         fprintf(stderr, "\n");
       }
 
       else
-        if(!((1L & (signed long int)(ai$link1 + (signed long int)i)->type) == 0l))
+        if(!((1L & (signed long int)(ai_link1 + (signed long int)i)->type) == 0l))
         {
-          if(!((0x00000004 & (signed int)(ai$link1 + (signed long int)i)->type) == 0))
+          if(!((0x00000004 & (signed int)(ai_link1 + (signed long int)i)->type) == 0))
           {
             if(vi_port == -1)
             {
               if(port == 0u)
               {
-                vi_port = (signed int)(ai$link1 + (signed long int)i)->base_id;
+                vi_port = (signed int)(ai_link1 + (signed long int)i)->base_id;
                 vi_adaptor = i;
               }
 
               else
               {
-                _Bool tmp_if_expr$3;
-                if((unsigned long int)port >= (ai$link1 + (signed long int)i)->base_id)
-                  tmp_if_expr$3 = (unsigned long int)port < (ai$link1 + (signed long int)i)->base_id + (ai$link1 + (signed long int)i)->num_ports ? (_Bool)1 : (_Bool)0;
+                _Bool tmp_if_expr_3;
+                if((unsigned long int)port >= (ai_link1 + (signed long int)i)->base_id)
+                  tmp_if_expr_3 = (unsigned long int)port < (ai_link1 + (signed long int)i)->base_id + (ai_link1 + (signed long int)i)->num_ports ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$3 = (_Bool)0;
-                if(tmp_if_expr$3)
+                  tmp_if_expr_3 = (_Bool)0;
+                if(tmp_if_expr_3)
                 {
                   vi_port = (signed int)port;
                   vi_adaptor = i;
@@ -32533,7 +32533,7 @@ void xv_video_init(unsigned int port, signed int hwscan)
 
                 else
                   if(!(debug == 0))
-                    fprintf(stderr, "Xvideo: skipping ports %ld-%ld (configured other: %d)\n", (ai$link1 + (signed long int)i)->base_id, ((ai$link1 + (signed long int)i)->base_id + (ai$link1 + (signed long int)i)->num_ports) - (unsigned long int)1, port);
+                    fprintf(stderr, "Xvideo: skipping ports %ld-%ld (configured other: %d)\n", (ai_link1 + (signed long int)i)->base_id, ((ai_link1 + (signed long int)i)->base_id + (ai_link1 + (signed long int)i)->num_ports) - (unsigned long int)1, port);
 
               }
             }
@@ -32557,9 +32557,9 @@ void xv_video_init(unsigned int port, signed int hwscan)
         if(!(debug == 0))
           fprintf(stderr, "Xvideo: using port %d for video\n", vi_port);
 
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(sizeof(struct xv_handle) /*88ul*/ );
-        handle = (struct xv_handle *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(sizeof(struct xv_handle) /*88ul*/ );
+        handle = (struct xv_handle *)return_value_malloc_4;
         memset((void *)handle, 0, sizeof(struct xv_handle) /*88ul*/ );
         handle->vi_port = (unsigned long int)vi_port;
         handle->vi_adaptor = vi_adaptor;
@@ -32569,26 +32569,26 @@ void xv_video_init(unsigned int port, signed int hwscan)
         handle->enc = -1;
         handle->norm = -1;
         handle->input = -1;
-        signed int return_value_XvQueryEncodings$5;
-        return_value_XvQueryEncodings$5=XvQueryEncodings(dpy, (unsigned long int)vi_port, (unsigned int *)&handle->encodings, &ei);
-        if(!(return_value_XvQueryEncodings$5 == 0))
+        signed int return_value_XvQueryEncodings_5;
+        return_value_XvQueryEncodings_5=XvQueryEncodings(dpy, (unsigned long int)vi_port, (unsigned int *)&handle->encodings, &ei);
+        if(!(return_value_XvQueryEncodings_5 == 0))
         {
           fprintf(stderr, "Oops: XvQueryEncodings failed\n");
           exit(1);
         }
 
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc(sizeof(struct ENC_MAP) /*12ul*/  * (unsigned long int)handle->encodings);
-        handle->enc_map = (struct ENC_MAP *)return_value_malloc$6;
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc(sizeof(struct ENC_MAP) /*12ul*/  * (unsigned long int)handle->encodings);
+        handle->enc_map = (struct ENC_MAP *)return_value_malloc_6;
         i = 0;
         for( ; !(i >= handle->encodings); i = i + 1)
         {
           h=strrchr((ei + (signed long int)i)->name, 45);
           if(!(h == ((char *)NULL)))
           {
-            char *tmp_post$7 = h;
+            char *tmp_post_7 = h;
             h = h + 1l;
-            *tmp_post$7 = (char)0;
+            *tmp_post_7 = (char)0;
             (handle->enc_map + (signed long int)i)->input=xv_strlist_add(&inputs, h);
           }
 
@@ -32602,14 +32602,14 @@ void xv_video_init(unsigned int port, signed int hwscan)
           if(!(debug == 0))
             fprintf(stderr, "  %s%s%s, %i -> %i\n", (at + (signed long int)i)->name, ((at + (signed long int)i)->flags & 0x01) != 0 ? " get" : "", ((at + (signed long int)i)->flags & 0x02) != 0 ? " set" : "", (at + (signed long int)i)->min_value, (at + (signed long int)i)->max_value);
 
-          signed int return_value_strcmp$8;
-          return_value_strcmp$8=strcmp("XV_ENCODING", (at + (signed long int)i)->name);
-          if(return_value_strcmp$8 == 0)
+          signed int return_value_strcmp_8;
+          return_value_strcmp_8=strcmp("XV_ENCODING", (at + (signed long int)i)->name);
+          if(return_value_strcmp_8 == 0)
             handle->xv_encoding = XV_ENCODING;
 
-          signed int return_value_strcmp$9;
-          return_value_strcmp$9=strcmp("XV_FREQ", (at + (signed long int)i)->name);
-          if(return_value_strcmp$9 == 0)
+          signed int return_value_strcmp_9;
+          return_value_strcmp_9=strcmp("XV_FREQ", (at + (signed long int)i)->name);
+          if(return_value_strcmp_9 == 0)
             handle->xv_freq = XV_FREQ;
 
           xv_add_attr(handle, 0, 0, 0, (struct STRTAB *)(void *)0, at + (signed long int)i);
@@ -32617,10 +32617,10 @@ void xv_video_init(unsigned int port, signed int hwscan)
         if(!(handle->xv_encoding == 0ul))
         {
           if(!(norms == ((struct STRTAB *)NULL)))
-            xv_add_attr(handle, 1, 2, 0, norms, (struct anonymous$112 *)(void *)0);
+            xv_add_attr(handle, 1, 2, 0, norms, (struct anonymous_112 *)(void *)0);
 
           if(!(inputs == ((struct STRTAB *)NULL)))
-            xv_add_attr(handle, 2, 2, 0, inputs, (struct anonymous$112 *)(void *)0);
+            xv_add_attr(handle, 2, 2, 0, inputs, (struct anonymous_112 *)(void *)0);
 
         }
 
@@ -32628,9 +32628,9 @@ void xv_video_init(unsigned int port, signed int hwscan)
         drv = &xv_driver;
         h_drv = (void *)handle;
         f_drv=xv_flags(h_drv);
-        struct ng_attribute *return_value_xv_attrs$10;
-        return_value_xv_attrs$10=xv_attrs(h_drv);
-        add_attrs(return_value_xv_attrs$10);
+        struct ng_attribute *return_value_xv_attrs_10;
+        return_value_xv_attrs_10=xv_attrs(h_drv);
+        add_attrs(return_value_xv_attrs_10);
       }
     }
 
@@ -32642,27 +32642,27 @@ void xv_video_init(unsigned int port, signed int hwscan)
 static void xv_write_attr(struct ng_attribute *attr, signed int value)
 {
   struct xv_handle *h = (struct xv_handle *)attr->handle;
-  const struct anonymous$112 *xv_write_attr$$1$$at = (const struct anonymous$112 *)attr->priv;
+  const struct anonymous_112 *xv_write_attr__1__at = (const struct anonymous_112 *)attr->priv;
   unsigned long int atom;
   signed int i;
-  if(!(xv_write_attr$$1$$at == ((const struct anonymous$112 *)NULL)))
+  if(!(xv_write_attr__1__at == ((const struct anonymous_112 *)NULL)))
   {
-    atom=XInternAtom(dpy, xv_write_attr$$1$$at->name, 0);
+    atom=XInternAtom(dpy, xv_write_attr__1__at->name, 0);
     XvSetPortAttribute(dpy, h->vi_port, atom, value);
     if(!(debug == 0))
-      fprintf(stderr, "xv: set %s: %d\n", xv_write_attr$$1$$at->name, value);
+      fprintf(stderr, "xv: set %s: %d\n", xv_write_attr__1__at->name, value);
 
   }
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(attr->id == 1)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = attr->id == 2 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = attr->id == 2 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(attr->id == 1)
         h->norm = value;
@@ -32717,26 +32717,26 @@ static void yuv420p_to_rgb24(void *h, struct ng_video_buf *out, struct ng_video_
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned char * restrict tmp_post$1 = d;
+      unsigned char * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
-      unsigned char * restrict tmp_post$2 = d;
+      *tmp_post_1 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
+      unsigned char * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
-      unsigned char * restrict tmp_post$3 = d;
+      *tmp_post_2 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
+      unsigned char * restrict tmp_post_3 = d;
       d = d + 1l;
-      *tmp_post$3 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
+      *tmp_post_3 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned char * restrict tmp_post$4 = d;
+      unsigned char * restrict tmp_post_4 = d;
       d = d + 1l;
-      *tmp_post$4 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
-      unsigned char * restrict tmp_post$5 = d;
+      *tmp_post_4 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
+      unsigned char * restrict tmp_post_5 = d;
       d = d + 1l;
-      *tmp_post$5 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
-      unsigned char * restrict tmp_post$6 = d;
+      *tmp_post_5 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
+      unsigned char * restrict tmp_post_6 = d;
       d = d + 1l;
-      *tmp_post$6 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
+      *tmp_post_6 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;
@@ -32809,26 +32809,26 @@ static void yuv422p_to_rgb24(void *h, struct ng_video_buf *out, struct ng_video_
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned char * restrict tmp_post$1 = d;
+      unsigned char * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
-      unsigned char * restrict tmp_post$2 = d;
+      *tmp_post_1 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
+      unsigned char * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
-      unsigned char * restrict tmp_post$3 = d;
+      *tmp_post_2 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
+      unsigned char * restrict tmp_post_3 = d;
       d = d + 1l;
-      *tmp_post$3 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
+      *tmp_post_3 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned char * restrict tmp_post$4 = d;
+      unsigned char * restrict tmp_post_4 = d;
       d = d + 1l;
-      *tmp_post$4 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
-      unsigned char * restrict tmp_post$5 = d;
+      *tmp_post_4 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
+      unsigned char * restrict tmp_post_5 = d;
       d = d + 1l;
-      *tmp_post$5 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
-      unsigned char * restrict tmp_post$6 = d;
+      *tmp_post_5 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
+      unsigned char * restrict tmp_post_6 = d;
       d = d + 1l;
-      *tmp_post$6 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
+      *tmp_post_6 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;

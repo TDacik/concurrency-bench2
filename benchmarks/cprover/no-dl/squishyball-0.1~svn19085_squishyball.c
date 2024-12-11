@@ -1,214 +1,214 @@
-// #anon_enum$FLAC__CHANNEL_ASSIGNMENT_INDEPENDENT=0$FLAC__CHANNEL_ASSIGNMENT_LEFT_SIDE=1$FLAC__CHANNEL_ASSIGNMENT_RIGHT_SIDE=2$FLAC__CHANNEL_ASSIGNMENT_MID_SIDE=3
+// #anon_enum_FLAC__CHANNEL_ASSIGNMENT_INDEPENDENT=0_FLAC__CHANNEL_ASSIGNMENT_LEFT_SIDE=1_FLAC__CHANNEL_ASSIGNMENT_RIGHT_SIDE=2_FLAC__CHANNEL_ASSIGNMENT_MID_SIDE=3
 // file /usr/include/FLAC/format.h line 381
-enum anonymous$12 { FLAC__CHANNEL_ASSIGNMENT_INDEPENDENT=0, FLAC__CHANNEL_ASSIGNMENT_LEFT_SIDE=1, FLAC__CHANNEL_ASSIGNMENT_RIGHT_SIDE=2, FLAC__CHANNEL_ASSIGNMENT_MID_SIDE=3 };
+enum anonymous_12 { FLAC__CHANNEL_ASSIGNMENT_INDEPENDENT=0, FLAC__CHANNEL_ASSIGNMENT_LEFT_SIDE=1, FLAC__CHANNEL_ASSIGNMENT_RIGHT_SIDE=2, FLAC__CHANNEL_ASSIGNMENT_MID_SIDE=3 };
 
-// #anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1
+// #anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1
 // file /usr/include/FLAC/format.h line 194
-enum anonymous$0 { FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0, FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1 };
+enum anonymous_0 { FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0, FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1 };
 
-// #anon_enum$FLAC__FRAME_NUMBER_TYPE_FRAME_NUMBER=0$FLAC__FRAME_NUMBER_TYPE_SAMPLE_NUMBER=1
+// #anon_enum_FLAC__FRAME_NUMBER_TYPE_FRAME_NUMBER=0_FLAC__FRAME_NUMBER_TYPE_SAMPLE_NUMBER=1
 // file /usr/include/FLAC/format.h line 396
-enum anonymous$13 { FLAC__FRAME_NUMBER_TYPE_FRAME_NUMBER=0, FLAC__FRAME_NUMBER_TYPE_SAMPLE_NUMBER=1 };
+enum anonymous_13 { FLAC__FRAME_NUMBER_TYPE_FRAME_NUMBER=0, FLAC__FRAME_NUMBER_TYPE_SAMPLE_NUMBER=1 };
 
-// #anon_enum$FLAC__METADATA_TYPE_STREAMINFO=0$FLAC__METADATA_TYPE_PADDING=1$FLAC__METADATA_TYPE_APPLICATION=2$FLAC__METADATA_TYPE_SEEKTABLE=3$FLAC__METADATA_TYPE_VORBIS_COMMENT=4$FLAC__METADATA_TYPE_CUESHEET=5$FLAC__METADATA_TYPE_PICTURE=6$FLAC__METADATA_TYPE_UNDEFINED=7$FLAC__MAX_METADATA_TYPE=126
+// #anon_enum_FLAC__METADATA_TYPE_STREAMINFO=0_FLAC__METADATA_TYPE_PADDING=1_FLAC__METADATA_TYPE_APPLICATION=2_FLAC__METADATA_TYPE_SEEKTABLE=3_FLAC__METADATA_TYPE_VORBIS_COMMENT=4_FLAC__METADATA_TYPE_CUESHEET=5_FLAC__METADATA_TYPE_PICTURE=6_FLAC__METADATA_TYPE_UNDEFINED=7_FLAC__MAX_METADATA_TYPE=126
 // file /usr/include/FLAC/format.h line 489
-enum anonymous$18 { FLAC__METADATA_TYPE_STREAMINFO=0, FLAC__METADATA_TYPE_PADDING=1, FLAC__METADATA_TYPE_APPLICATION=2, FLAC__METADATA_TYPE_SEEKTABLE=3, FLAC__METADATA_TYPE_VORBIS_COMMENT=4, FLAC__METADATA_TYPE_CUESHEET=5, FLAC__METADATA_TYPE_PICTURE=6, FLAC__METADATA_TYPE_UNDEFINED=7, FLAC__MAX_METADATA_TYPE=126 };
+enum anonymous_18 { FLAC__METADATA_TYPE_STREAMINFO=0, FLAC__METADATA_TYPE_PADDING=1, FLAC__METADATA_TYPE_APPLICATION=2, FLAC__METADATA_TYPE_SEEKTABLE=3, FLAC__METADATA_TYPE_VORBIS_COMMENT=4, FLAC__METADATA_TYPE_CUESHEET=5, FLAC__METADATA_TYPE_PICTURE=6, FLAC__METADATA_TYPE_UNDEFINED=7, FLAC__MAX_METADATA_TYPE=126 };
 
-// #anon_enum$FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC=0$FLAC__STREAM_DECODER_ERROR_STATUS_BAD_HEADER=1$FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH=2$FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM=3
+// #anon_enum_FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC=0_FLAC__STREAM_DECODER_ERROR_STATUS_BAD_HEADER=1_FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH=2_FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM=3
 // file /usr/include/FLAC/stream_decoder.h line 427
-enum anonymous$45 { FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC=0, FLAC__STREAM_DECODER_ERROR_STATUS_BAD_HEADER=1, FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH=2, FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM=3 };
+enum anonymous_45 { FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC=0, FLAC__STREAM_DECODER_ERROR_STATUS_BAD_HEADER=1, FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH=2, FLAC__STREAM_DECODER_ERROR_STATUS_UNPARSEABLE_STREAM=3 };
 
-// #anon_enum$FLAC__STREAM_DECODER_INIT_STATUS_OK=0$FLAC__STREAM_DECODER_INIT_STATUS_UNSUPPORTED_CONTAINER=1$FLAC__STREAM_DECODER_INIT_STATUS_INVALID_CALLBACKS=2$FLAC__STREAM_DECODER_INIT_STATUS_MEMORY_ALLOCATION_ERROR=3$FLAC__STREAM_DECODER_INIT_STATUS_ERROR_OPENING_FILE=4$FLAC__STREAM_DECODER_INIT_STATUS_ALREADY_INITIALIZED=5
+// #anon_enum_FLAC__STREAM_DECODER_INIT_STATUS_OK=0_FLAC__STREAM_DECODER_INIT_STATUS_UNSUPPORTED_CONTAINER=1_FLAC__STREAM_DECODER_INIT_STATUS_INVALID_CALLBACKS=2_FLAC__STREAM_DECODER_INIT_STATUS_MEMORY_ALLOCATION_ERROR=3_FLAC__STREAM_DECODER_INIT_STATUS_ERROR_OPENING_FILE=4_FLAC__STREAM_DECODER_INIT_STATUS_ALREADY_INITIALIZED=5
 // file /usr/include/FLAC/stream_decoder.h line 256
-enum anonymous$39 { FLAC__STREAM_DECODER_INIT_STATUS_OK=0, FLAC__STREAM_DECODER_INIT_STATUS_UNSUPPORTED_CONTAINER=1, FLAC__STREAM_DECODER_INIT_STATUS_INVALID_CALLBACKS=2, FLAC__STREAM_DECODER_INIT_STATUS_MEMORY_ALLOCATION_ERROR=3, FLAC__STREAM_DECODER_INIT_STATUS_ERROR_OPENING_FILE=4, FLAC__STREAM_DECODER_INIT_STATUS_ALREADY_INITIALIZED=5 };
+enum anonymous_39 { FLAC__STREAM_DECODER_INIT_STATUS_OK=0, FLAC__STREAM_DECODER_INIT_STATUS_UNSUPPORTED_CONTAINER=1, FLAC__STREAM_DECODER_INIT_STATUS_INVALID_CALLBACKS=2, FLAC__STREAM_DECODER_INIT_STATUS_MEMORY_ALLOCATION_ERROR=3, FLAC__STREAM_DECODER_INIT_STATUS_ERROR_OPENING_FILE=4, FLAC__STREAM_DECODER_INIT_STATUS_ALREADY_INITIALIZED=5 };
 
-// #anon_enum$FLAC__STREAM_DECODER_LENGTH_STATUS_OK=0$FLAC__STREAM_DECODER_LENGTH_STATUS_ERROR=1$FLAC__STREAM_DECODER_LENGTH_STATUS_UNSUPPORTED=2
+// #anon_enum_FLAC__STREAM_DECODER_LENGTH_STATUS_OK=0_FLAC__STREAM_DECODER_LENGTH_STATUS_ERROR=1_FLAC__STREAM_DECODER_LENGTH_STATUS_UNSUPPORTED=2
 // file /usr/include/FLAC/stream_decoder.h line 371
-enum anonymous$43 { FLAC__STREAM_DECODER_LENGTH_STATUS_OK=0, FLAC__STREAM_DECODER_LENGTH_STATUS_ERROR=1, FLAC__STREAM_DECODER_LENGTH_STATUS_UNSUPPORTED=2 };
+enum anonymous_43 { FLAC__STREAM_DECODER_LENGTH_STATUS_OK=0, FLAC__STREAM_DECODER_LENGTH_STATUS_ERROR=1, FLAC__STREAM_DECODER_LENGTH_STATUS_UNSUPPORTED=2 };
 
-// #anon_enum$FLAC__STREAM_DECODER_READ_STATUS_CONTINUE=0$FLAC__STREAM_DECODER_READ_STATUS_END_OF_STREAM=1$FLAC__STREAM_DECODER_READ_STATUS_ABORT=2
+// #anon_enum_FLAC__STREAM_DECODER_READ_STATUS_CONTINUE=0_FLAC__STREAM_DECODER_READ_STATUS_END_OF_STREAM=1_FLAC__STREAM_DECODER_READ_STATUS_ABORT=2
 // file /usr/include/FLAC/stream_decoder.h line 294
-enum anonymous$40 { FLAC__STREAM_DECODER_READ_STATUS_CONTINUE=0, FLAC__STREAM_DECODER_READ_STATUS_END_OF_STREAM=1, FLAC__STREAM_DECODER_READ_STATUS_ABORT=2 };
+enum anonymous_40 { FLAC__STREAM_DECODER_READ_STATUS_CONTINUE=0, FLAC__STREAM_DECODER_READ_STATUS_END_OF_STREAM=1, FLAC__STREAM_DECODER_READ_STATUS_ABORT=2 };
 
-// #anon_enum$FLAC__STREAM_DECODER_SEEK_STATUS_OK=0$FLAC__STREAM_DECODER_SEEK_STATUS_ERROR=1$FLAC__STREAM_DECODER_SEEK_STATUS_UNSUPPORTED=2
+// #anon_enum_FLAC__STREAM_DECODER_SEEK_STATUS_OK=0_FLAC__STREAM_DECODER_SEEK_STATUS_ERROR=1_FLAC__STREAM_DECODER_SEEK_STATUS_UNSUPPORTED=2
 // file /usr/include/FLAC/stream_decoder.h line 325
-enum anonymous$41 { FLAC__STREAM_DECODER_SEEK_STATUS_OK=0, FLAC__STREAM_DECODER_SEEK_STATUS_ERROR=1, FLAC__STREAM_DECODER_SEEK_STATUS_UNSUPPORTED=2 };
+enum anonymous_41 { FLAC__STREAM_DECODER_SEEK_STATUS_OK=0, FLAC__STREAM_DECODER_SEEK_STATUS_ERROR=1, FLAC__STREAM_DECODER_SEEK_STATUS_UNSUPPORTED=2 };
 
-// #anon_enum$FLAC__STREAM_DECODER_TELL_STATUS_OK=0$FLAC__STREAM_DECODER_TELL_STATUS_ERROR=1$FLAC__STREAM_DECODER_TELL_STATUS_UNSUPPORTED=2
+// #anon_enum_FLAC__STREAM_DECODER_TELL_STATUS_OK=0_FLAC__STREAM_DECODER_TELL_STATUS_ERROR=1_FLAC__STREAM_DECODER_TELL_STATUS_UNSUPPORTED=2
 // file /usr/include/FLAC/stream_decoder.h line 348
-enum anonymous$42 { FLAC__STREAM_DECODER_TELL_STATUS_OK=0, FLAC__STREAM_DECODER_TELL_STATUS_ERROR=1, FLAC__STREAM_DECODER_TELL_STATUS_UNSUPPORTED=2 };
+enum anonymous_42 { FLAC__STREAM_DECODER_TELL_STATUS_OK=0, FLAC__STREAM_DECODER_TELL_STATUS_ERROR=1, FLAC__STREAM_DECODER_TELL_STATUS_UNSUPPORTED=2 };
 
-// #anon_enum$FLAC__STREAM_DECODER_WRITE_STATUS_CONTINUE=0$FLAC__STREAM_DECODER_WRITE_STATUS_ABORT=1
+// #anon_enum_FLAC__STREAM_DECODER_WRITE_STATUS_CONTINUE=0_FLAC__STREAM_DECODER_WRITE_STATUS_ABORT=1
 // file /usr/include/FLAC/stream_decoder.h line 394
-enum anonymous$44 { FLAC__STREAM_DECODER_WRITE_STATUS_CONTINUE=0, FLAC__STREAM_DECODER_WRITE_STATUS_ABORT=1 };
+enum anonymous_44 { FLAC__STREAM_DECODER_WRITE_STATUS_CONTINUE=0, FLAC__STREAM_DECODER_WRITE_STATUS_ABORT=1 };
 
-// #anon_enum$FLAC__STREAM_METADATA_PICTURE_TYPE_OTHER=0$FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON_STANDARD=1$FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON=2$FLAC__STREAM_METADATA_PICTURE_TYPE_FRONT_COVER=3$FLAC__STREAM_METADATA_PICTURE_TYPE_BACK_COVER=4$FLAC__STREAM_METADATA_PICTURE_TYPE_LEAFLET_PAGE=5$FLAC__STREAM_METADATA_PICTURE_TYPE_MEDIA=6$FLAC__STREAM_METADATA_PICTURE_TYPE_LEAD_ARTIST=7$FLAC__STREAM_METADATA_PICTURE_TYPE_ARTIST=8$FLAC__STREAM_METADATA_PICTURE_TYPE_CONDUCTOR=9$FLAC__STREAM_METADATA_PICTURE_TYPE_BAND=10$FLAC__STREAM_METADATA_PICTURE_TYPE_COMPOSER=11$FLAC__STREAM_METADATA_PICTURE_TYPE_LYRICIST=12$FLAC__STREAM_METADATA_PICTURE_TYPE_RECORDING_LOCATION=13$FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_RECORDING=14$FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_PERFORMANCE=15$FLAC__STREAM_METADATA_PICTURE_TYPE_VIDEO_SCREEN_CAPTURE=16$FLAC__STREAM_METADATA_PICTURE_TYPE_FISH=17$FLAC__STREAM_METADATA_PICTURE_TYPE_ILLUSTRATION=18$FLAC__STREAM_METADATA_PICTURE_TYPE_BAND_LOGOTYPE=19$FLAC__STREAM_METADATA_PICTURE_TYPE_PUBLISHER_LOGOTYPE=20$FLAC__STREAM_METADATA_PICTURE_TYPE_UNDEFINED=21
+// #anon_enum_FLAC__STREAM_METADATA_PICTURE_TYPE_OTHER=0_FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON_STANDARD=1_FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON=2_FLAC__STREAM_METADATA_PICTURE_TYPE_FRONT_COVER=3_FLAC__STREAM_METADATA_PICTURE_TYPE_BACK_COVER=4_FLAC__STREAM_METADATA_PICTURE_TYPE_LEAFLET_PAGE=5_FLAC__STREAM_METADATA_PICTURE_TYPE_MEDIA=6_FLAC__STREAM_METADATA_PICTURE_TYPE_LEAD_ARTIST=7_FLAC__STREAM_METADATA_PICTURE_TYPE_ARTIST=8_FLAC__STREAM_METADATA_PICTURE_TYPE_CONDUCTOR=9_FLAC__STREAM_METADATA_PICTURE_TYPE_BAND=10_FLAC__STREAM_METADATA_PICTURE_TYPE_COMPOSER=11_FLAC__STREAM_METADATA_PICTURE_TYPE_LYRICIST=12_FLAC__STREAM_METADATA_PICTURE_TYPE_RECORDING_LOCATION=13_FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_RECORDING=14_FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_PERFORMANCE=15_FLAC__STREAM_METADATA_PICTURE_TYPE_VIDEO_SCREEN_CAPTURE=16_FLAC__STREAM_METADATA_PICTURE_TYPE_FISH=17_FLAC__STREAM_METADATA_PICTURE_TYPE_ILLUSTRATION=18_FLAC__STREAM_METADATA_PICTURE_TYPE_BAND_LOGOTYPE=19_FLAC__STREAM_METADATA_PICTURE_TYPE_PUBLISHER_LOGOTYPE=20_FLAC__STREAM_METADATA_PICTURE_TYPE_UNDEFINED=21
 // file /usr/include/FLAC/format.h line 732
-enum anonymous$33 { FLAC__STREAM_METADATA_PICTURE_TYPE_OTHER=0, FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON_STANDARD=1, FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON=2, FLAC__STREAM_METADATA_PICTURE_TYPE_FRONT_COVER=3, FLAC__STREAM_METADATA_PICTURE_TYPE_BACK_COVER=4, FLAC__STREAM_METADATA_PICTURE_TYPE_LEAFLET_PAGE=5, FLAC__STREAM_METADATA_PICTURE_TYPE_MEDIA=6, FLAC__STREAM_METADATA_PICTURE_TYPE_LEAD_ARTIST=7, FLAC__STREAM_METADATA_PICTURE_TYPE_ARTIST=8, FLAC__STREAM_METADATA_PICTURE_TYPE_CONDUCTOR=9, FLAC__STREAM_METADATA_PICTURE_TYPE_BAND=10, FLAC__STREAM_METADATA_PICTURE_TYPE_COMPOSER=11, FLAC__STREAM_METADATA_PICTURE_TYPE_LYRICIST=12, FLAC__STREAM_METADATA_PICTURE_TYPE_RECORDING_LOCATION=13, FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_RECORDING=14, FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_PERFORMANCE=15, FLAC__STREAM_METADATA_PICTURE_TYPE_VIDEO_SCREEN_CAPTURE=16, FLAC__STREAM_METADATA_PICTURE_TYPE_FISH=17, FLAC__STREAM_METADATA_PICTURE_TYPE_ILLUSTRATION=18, FLAC__STREAM_METADATA_PICTURE_TYPE_BAND_LOGOTYPE=19, FLAC__STREAM_METADATA_PICTURE_TYPE_PUBLISHER_LOGOTYPE=20, FLAC__STREAM_METADATA_PICTURE_TYPE_UNDEFINED=21 };
+enum anonymous_33 { FLAC__STREAM_METADATA_PICTURE_TYPE_OTHER=0, FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON_STANDARD=1, FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON=2, FLAC__STREAM_METADATA_PICTURE_TYPE_FRONT_COVER=3, FLAC__STREAM_METADATA_PICTURE_TYPE_BACK_COVER=4, FLAC__STREAM_METADATA_PICTURE_TYPE_LEAFLET_PAGE=5, FLAC__STREAM_METADATA_PICTURE_TYPE_MEDIA=6, FLAC__STREAM_METADATA_PICTURE_TYPE_LEAD_ARTIST=7, FLAC__STREAM_METADATA_PICTURE_TYPE_ARTIST=8, FLAC__STREAM_METADATA_PICTURE_TYPE_CONDUCTOR=9, FLAC__STREAM_METADATA_PICTURE_TYPE_BAND=10, FLAC__STREAM_METADATA_PICTURE_TYPE_COMPOSER=11, FLAC__STREAM_METADATA_PICTURE_TYPE_LYRICIST=12, FLAC__STREAM_METADATA_PICTURE_TYPE_RECORDING_LOCATION=13, FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_RECORDING=14, FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_PERFORMANCE=15, FLAC__STREAM_METADATA_PICTURE_TYPE_VIDEO_SCREEN_CAPTURE=16, FLAC__STREAM_METADATA_PICTURE_TYPE_FISH=17, FLAC__STREAM_METADATA_PICTURE_TYPE_ILLUSTRATION=18, FLAC__STREAM_METADATA_PICTURE_TYPE_BAND_LOGOTYPE=19, FLAC__STREAM_METADATA_PICTURE_TYPE_PUBLISHER_LOGOTYPE=20, FLAC__STREAM_METADATA_PICTURE_TYPE_UNDEFINED=21 };
 
-// #anon_enum$FLAC__SUBFRAME_TYPE_CONSTANT=0$FLAC__SUBFRAME_TYPE_VERBATIM=1$FLAC__SUBFRAME_TYPE_FIXED=2$FLAC__SUBFRAME_TYPE_LPC=3
+// #anon_enum_FLAC__SUBFRAME_TYPE_CONSTANT=0_FLAC__SUBFRAME_TYPE_VERBATIM=1_FLAC__SUBFRAME_TYPE_FIXED=2_FLAC__SUBFRAME_TYPE_LPC=3
 // file /usr/include/FLAC/format.h line 267
-enum anonymous$10 { FLAC__SUBFRAME_TYPE_CONSTANT=0, FLAC__SUBFRAME_TYPE_VERBATIM=1, FLAC__SUBFRAME_TYPE_FIXED=2, FLAC__SUBFRAME_TYPE_LPC=3 };
+enum anonymous_10 { FLAC__SUBFRAME_TYPE_CONSTANT=0, FLAC__SUBFRAME_TYPE_VERBATIM=1, FLAC__SUBFRAME_TYPE_FIXED=2, FLAC__SUBFRAME_TYPE_LPC=3 };
 
-// tag-#anon#ST[*{S32(*{S8}$S8$|*{U8}$U8$)->S32}$S32(*{S8}$S8$|*{U8}$U8$)->S32$'id_func'||*{*{SYM#tag-pcm_struct#}$SYM#tag-pcm_struct#$(*{S8}$S8$|*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$)->*{SYM#tag-pcm_struct#}$SYM#tag-pcm_struct#$}$*{SYM#tag-pcm_struct#}$SYM#tag-pcm_struct#$(*{S8}$S8$|*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$)->*{SYM#tag-pcm_struct#}$SYM#tag-pcm_struct#$$'load_func'||*{S8}$S8$'format'|]
+// tag-#anon#ST[*{S32(*{S8}_S8_|*{U8}_U8_)->S32}_S32(*{S8}_S8_|*{U8}_U8_)->S32_'id_func'||*{*{SYM#tag-pcm_struct#}_SYM#tag-pcm_struct#_(*{S8}_S8_|*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_)->*{SYM#tag-pcm_struct#}_SYM#tag-pcm_struct#_}_*{SYM#tag-pcm_struct#}_SYM#tag-pcm_struct#_(*{S8}_S8_|*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_)->*{SYM#tag-pcm_struct#}_SYM#tag-pcm_struct#__'load_func'||*{S8}_S8_'format'|]
 // file loader.c line 65
-struct anonymous$47;
+struct anonymous_47;
 
-// tag-#anon#ST[*{SYM#tag-FLAC__StreamDecoderProtected#}$SYM#tag-FLAC__StreamDecoderProtected#$'protected_'||*{SYM#tag-FLAC__StreamDecoderPrivate#}$SYM#tag-FLAC__StreamDecoderPrivate#$'private_'|]
+// tag-#anon#ST[*{SYM#tag-FLAC__StreamDecoderProtected#}_SYM#tag-FLAC__StreamDecoderProtected#_'protected_'||*{SYM#tag-FLAC__StreamDecoderPrivate#}_SYM#tag-FLAC__StreamDecoderPrivate#_'private_'|]
 // file /usr/include/FLAC/stream_decoder.h line 463
 struct anonymous;
 
-// tag-#anon#ST[*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'in'||*{SYM#tag-pcm_struct#}$SYM#tag-pcm_struct#$'pcm'||S64'fill'|]
+// tag-#anon#ST[*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'in'||*{SYM#tag-pcm_struct#}_SYM#tag-pcm_struct#_'pcm'||S64'fill'|]
 // file loader.c line 807
-struct anonymous$48;
+struct anonymous_48;
 
-// tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]
+// tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]
 // file /usr/include/FLAC/format.h line 214
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{U64(*{V}$V$|U64|U64|*{V}$V$)->U64}$U64(*{V}$V$|U64|U64|*{V}$V$)->U64$'read_func'||*{S32(*{V}$V$|S64|S32)->S32}$S32(*{V}$V$|S64|S32)->S32$'seek_func'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'close_func'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'tell_func'|]
+// tag-#anon#ST[*{U64(*{V}_V_|U64|U64|*{V}_V_)->U64}_U64(*{V}_V_|U64|U64|*{V}_V_)->U64_'read_func'||*{S32(*{V}_V_|S64|S32)->S32}_S32(*{V}_V_|S64|S32)->S32_'seek_func'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'close_func'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'tell_func'|]
 // file /usr/include/vorbis/vorbisfile.h line 39
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[*{U8}$U8$'body_data'||S64'body_storage'||S64'body_fill'||S64'body_returned'||*{S32}$S32$'lacing_vals'||*{S64}$S64$'granule_vals'||S64'lacing_storage'||S64'lacing_fill'||S64'lacing_packet'||S64'lacing_returned'||ARR282{U8}$U8$'header'||U16'$pad0'||S32'header_fill'||S32'e_o_s'||S32'b_o_s'||S64'serialno'||S64'pageno'||S64'packetno'||S64'granulepos'|]
+// tag-#anon#ST[*{U8}_U8_'body_data'||S64'body_storage'||S64'body_fill'||S64'body_returned'||*{S32}_S32_'lacing_vals'||*{S64}_S64_'granule_vals'||S64'lacing_storage'||S64'lacing_fill'||S64'lacing_packet'||S64'lacing_returned'||ARR282{U8}_U8_'header'||U16'_pad0'||S32'header_fill'||S32'e_o_s'||S32'b_o_s'||S64'serialno'||S64'pageno'||S64'packetno'||S64'granulepos'|]
 // file /usr/include/ogg/ogg.h line 53
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[*{U8}$U8$'data'|]
+// tag-#anon#ST[*{U8}_U8_'data'|]
 // file /usr/include/FLAC/format.h line 827
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[*{U8}$U8$'data'||S32'storage'||S32'fill'||S32'returned'||S32'unsynced'||S32'headerbytes'||S32'bodybytes'|]
+// tag-#anon#ST[*{U8}_U8_'data'||S32'storage'||S32'fill'||S32'returned'||S32'unsynced'||S32'headerbytes'||S32'bodybytes'|]
 // file /usr/include/ogg/ogg.h line 105
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[*{cS32}$cS32$'data'|]
+// tag-#anon#ST[*{cS32}_cS32_'data'|]
 // file /usr/include/FLAC/format.h line 291
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[ARR129{S8}$S8$'media_catalog_number'||U56'$pad0'||U64'lead_in'||S32'is_cd'||U32'num_tracks'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}$S8$'isrc'||BF{U32}$U32$'type'||BF{U32}$U32$'pre_emphasis'||BF{U6}$U6$'$bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#}$SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#$'indices'|]#}$SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}$S8$'isrc'||BF{U32}$U32$'type'||BF{U32}$U32$'pre_emphasis'||BF{U6}$U6$'$bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#}$SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#$'indices'|]#$'tracks'|]
+// tag-#anon#ST[ARR129{S8}_S8_'media_catalog_number'||U56'_pad0'||U64'lead_in'||S32'is_cd'||U32'num_tracks'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}_S8_'isrc'||BF{U32}_U32_'type'||BF{U32}_U32_'pre_emphasis'||BF{U6}_U6_'_bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#}_SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#_'indices'|]#}_SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}_S8_'isrc'||BF{U32}_U32_'type'||BF{U32}_U32_'pre_emphasis'||BF{U6}_U6_'_bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#}_SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#_'indices'|]#_'tracks'|]
 // file /usr/include/FLAC/format.h line 703
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[ARR4{U8}$U8$'id'||U32'$pad0'||*{U8}$U8$'data'|]
+// tag-#anon#ST[ARR4{U8}_U8_'id'||U32'_pad0'||*{U8}_U8_'data'|]
 // file /usr/include/FLAC/format.h line 565
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]
+// tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]
 // file /usr/include/FLAC/format.h line 255
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[EN#anon_enum$FLAC__METADATA_TYPE_STREAMINFO=0$FLAC__METADATA_TYPE_PADDING=1$FLAC__METADATA_TYPE_APPLICATION=2$FLAC__METADATA_TYPE_SEEKTABLE=3$FLAC__METADATA_TYPE_VORBIS_COMMENT=4$FLAC__METADATA_TYPE_CUESHEET=5$FLAC__METADATA_TYPE_PICTURE=6$FLAC__METADATA_TYPE_UNDEFINED=7$FLAC__MAX_METADATA_TYPE=126#{U32}$U32$'type'||S32'is_last'||U32'length'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'min_blocksize'||U32'max_blocksize'||U32'min_framesize'||U32'max_framesize'||U32'sample_rate'||U32'channels'||U32'bits_per_sample'||U32'$pad0'||U64'total_samples'||ARR16{U8}$U8$'md5sum'|]#'stream_info'||SYM#tag-#anon#ST[S32'dummy'|]#'padding'||SYM#tag-#anon#ST[ARR4{U8}$U8$'id'||U32'$pad0'||*{U8}$U8$'data'|]#'application'||SYM#tag-#anon#ST[U32'num_points'||U32'$pad0'||*{SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'$pad0'|]#$'points'|]#'seek_table'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[U32'length'||U32'$pad0'||*{U8}$U8$'entry'|]#'vendor_string'||U32'num_comments'||U32'$pad0'||*{SYM#tag-#anon#ST[U32'length'||U32'$pad0'||*{U8}$U8$'entry'|]#}$SYM#tag-#anon#ST[U32'length'||U32'$pad0'||*{U8}$U8$'entry'|]#$'comments'|]#'vorbis_comment'||SYM#tag-#anon#ST[ARR129{S8}$S8$'media_catalog_number'||U56'$pad0'||U64'lead_in'||S32'is_cd'||U32'num_tracks'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}$S8$'isrc'||BF{U32}$U32$'type'||BF{U32}$U32$'pre_emphasis'||BF{U6}$U6$'$bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#}$SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#$'indices'|]#}$SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}$S8$'isrc'||BF{U32}$U32$'type'||BF{U32}$U32$'pre_emphasis'||BF{U6}$U6$'$bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#}$SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#$'indices'|]#$'tracks'|]#'cue_sheet'||SYM#tag-#anon#ST[EN#anon_enum$FLAC__STREAM_METADATA_PICTURE_TYPE_OTHER=0$FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON_STANDARD=1$FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON=2$FLAC__STREAM_METADATA_PICTURE_TYPE_FRONT_COVER=3$FLAC__STREAM_METADATA_PICTURE_TYPE_BACK_COVER=4$FLAC__STREAM_METADATA_PICTURE_TYPE_LEAFLET_PAGE=5$FLAC__STREAM_METADATA_PICTURE_TYPE_MEDIA=6$FLAC__STREAM_METADATA_PICTURE_TYPE_LEAD_ARTIST=7$FLAC__STREAM_METADATA_PICTURE_TYPE_ARTIST=8$FLAC__STREAM_METADATA_PICTURE_TYPE_CONDUCTOR=9$FLAC__STREAM_METADATA_PICTURE_TYPE_BAND=10$FLAC__STREAM_METADATA_PICTURE_TYPE_COMPOSER=11$FLAC__STREAM_METADATA_PICTURE_TYPE_LYRICIST=12$FLAC__STREAM_METADATA_PICTURE_TYPE_RECORDING_LOCATION=13$FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_RECORDING=14$FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_PERFORMANCE=15$FLAC__STREAM_METADATA_PICTURE_TYPE_VIDEO_SCREEN_CAPTURE=16$FLAC__STREAM_METADATA_PICTURE_TYPE_FISH=17$FLAC__STREAM_METADATA_PICTURE_TYPE_ILLUSTRATION=18$FLAC__STREAM_METADATA_PICTURE_TYPE_BAND_LOGOTYPE=19$FLAC__STREAM_METADATA_PICTURE_TYPE_PUBLISHER_LOGOTYPE=20$FLAC__STREAM_METADATA_PICTURE_TYPE_UNDEFINED=21#{U32}$U32$'type'||U32'$pad0'||*{S8}$S8$'mime_type'||*{U8}$U8$'description'||U32'width'||U32'height'||U32'depth'||U32'colors'||U32'data_length'||U32'$pad1'||*{U8}$U8$'data'|]#'picture'||SYM#tag-#anon#ST[*{U8}$U8$'data'|]#'unknown'|]#'data'|]
+// tag-#anon#ST[EN#anon_enum_FLAC__METADATA_TYPE_STREAMINFO=0_FLAC__METADATA_TYPE_PADDING=1_FLAC__METADATA_TYPE_APPLICATION=2_FLAC__METADATA_TYPE_SEEKTABLE=3_FLAC__METADATA_TYPE_VORBIS_COMMENT=4_FLAC__METADATA_TYPE_CUESHEET=5_FLAC__METADATA_TYPE_PICTURE=6_FLAC__METADATA_TYPE_UNDEFINED=7_FLAC__MAX_METADATA_TYPE=126#{U32}_U32_'type'||S32'is_last'||U32'length'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'min_blocksize'||U32'max_blocksize'||U32'min_framesize'||U32'max_framesize'||U32'sample_rate'||U32'channels'||U32'bits_per_sample'||U32'_pad0'||U64'total_samples'||ARR16{U8}_U8_'md5sum'|]#'stream_info'||SYM#tag-#anon#ST[S32'dummy'|]#'padding'||SYM#tag-#anon#ST[ARR4{U8}_U8_'id'||U32'_pad0'||*{U8}_U8_'data'|]#'application'||SYM#tag-#anon#ST[U32'num_points'||U32'_pad0'||*{SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'_pad0'|]#_'points'|]#'seek_table'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[U32'length'||U32'_pad0'||*{U8}_U8_'entry'|]#'vendor_string'||U32'num_comments'||U32'_pad0'||*{SYM#tag-#anon#ST[U32'length'||U32'_pad0'||*{U8}_U8_'entry'|]#}_SYM#tag-#anon#ST[U32'length'||U32'_pad0'||*{U8}_U8_'entry'|]#_'comments'|]#'vorbis_comment'||SYM#tag-#anon#ST[ARR129{S8}_S8_'media_catalog_number'||U56'_pad0'||U64'lead_in'||S32'is_cd'||U32'num_tracks'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}_S8_'isrc'||BF{U32}_U32_'type'||BF{U32}_U32_'pre_emphasis'||BF{U6}_U6_'_bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#}_SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#_'indices'|]#}_SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}_S8_'isrc'||BF{U32}_U32_'type'||BF{U32}_U32_'pre_emphasis'||BF{U6}_U6_'_bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#}_SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#_'indices'|]#_'tracks'|]#'cue_sheet'||SYM#tag-#anon#ST[EN#anon_enum_FLAC__STREAM_METADATA_PICTURE_TYPE_OTHER=0_FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON_STANDARD=1_FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON=2_FLAC__STREAM_METADATA_PICTURE_TYPE_FRONT_COVER=3_FLAC__STREAM_METADATA_PICTURE_TYPE_BACK_COVER=4_FLAC__STREAM_METADATA_PICTURE_TYPE_LEAFLET_PAGE=5_FLAC__STREAM_METADATA_PICTURE_TYPE_MEDIA=6_FLAC__STREAM_METADATA_PICTURE_TYPE_LEAD_ARTIST=7_FLAC__STREAM_METADATA_PICTURE_TYPE_ARTIST=8_FLAC__STREAM_METADATA_PICTURE_TYPE_CONDUCTOR=9_FLAC__STREAM_METADATA_PICTURE_TYPE_BAND=10_FLAC__STREAM_METADATA_PICTURE_TYPE_COMPOSER=11_FLAC__STREAM_METADATA_PICTURE_TYPE_LYRICIST=12_FLAC__STREAM_METADATA_PICTURE_TYPE_RECORDING_LOCATION=13_FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_RECORDING=14_FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_PERFORMANCE=15_FLAC__STREAM_METADATA_PICTURE_TYPE_VIDEO_SCREEN_CAPTURE=16_FLAC__STREAM_METADATA_PICTURE_TYPE_FISH=17_FLAC__STREAM_METADATA_PICTURE_TYPE_ILLUSTRATION=18_FLAC__STREAM_METADATA_PICTURE_TYPE_BAND_LOGOTYPE=19_FLAC__STREAM_METADATA_PICTURE_TYPE_PUBLISHER_LOGOTYPE=20_FLAC__STREAM_METADATA_PICTURE_TYPE_UNDEFINED=21#{U32}_U32_'type'||U32'_pad0'||*{S8}_S8_'mime_type'||*{U8}_U8_'description'||U32'width'||U32'height'||U32'depth'||U32'colors'||U32'data_length'||U32'_pad1'||*{U8}_U8_'data'|]#'picture'||SYM#tag-#anon#ST[*{U8}_U8_'data'|]#'unknown'|]#'data'|]
 // file /usr/include/FLAC/format.h line 834
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[EN#anon_enum$FLAC__STREAM_METADATA_PICTURE_TYPE_OTHER=0$FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON_STANDARD=1$FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON=2$FLAC__STREAM_METADATA_PICTURE_TYPE_FRONT_COVER=3$FLAC__STREAM_METADATA_PICTURE_TYPE_BACK_COVER=4$FLAC__STREAM_METADATA_PICTURE_TYPE_LEAFLET_PAGE=5$FLAC__STREAM_METADATA_PICTURE_TYPE_MEDIA=6$FLAC__STREAM_METADATA_PICTURE_TYPE_LEAD_ARTIST=7$FLAC__STREAM_METADATA_PICTURE_TYPE_ARTIST=8$FLAC__STREAM_METADATA_PICTURE_TYPE_CONDUCTOR=9$FLAC__STREAM_METADATA_PICTURE_TYPE_BAND=10$FLAC__STREAM_METADATA_PICTURE_TYPE_COMPOSER=11$FLAC__STREAM_METADATA_PICTURE_TYPE_LYRICIST=12$FLAC__STREAM_METADATA_PICTURE_TYPE_RECORDING_LOCATION=13$FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_RECORDING=14$FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_PERFORMANCE=15$FLAC__STREAM_METADATA_PICTURE_TYPE_VIDEO_SCREEN_CAPTURE=16$FLAC__STREAM_METADATA_PICTURE_TYPE_FISH=17$FLAC__STREAM_METADATA_PICTURE_TYPE_ILLUSTRATION=18$FLAC__STREAM_METADATA_PICTURE_TYPE_BAND_LOGOTYPE=19$FLAC__STREAM_METADATA_PICTURE_TYPE_PUBLISHER_LOGOTYPE=20$FLAC__STREAM_METADATA_PICTURE_TYPE_UNDEFINED=21#{U32}$U32$'type'||U32'$pad0'||*{S8}$S8$'mime_type'||*{U8}$U8$'description'||U32'width'||U32'height'||U32'depth'||U32'colors'||U32'data_length'||U32'$pad1'||*{U8}$U8$'data'|]
+// tag-#anon#ST[EN#anon_enum_FLAC__STREAM_METADATA_PICTURE_TYPE_OTHER=0_FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON_STANDARD=1_FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON=2_FLAC__STREAM_METADATA_PICTURE_TYPE_FRONT_COVER=3_FLAC__STREAM_METADATA_PICTURE_TYPE_BACK_COVER=4_FLAC__STREAM_METADATA_PICTURE_TYPE_LEAFLET_PAGE=5_FLAC__STREAM_METADATA_PICTURE_TYPE_MEDIA=6_FLAC__STREAM_METADATA_PICTURE_TYPE_LEAD_ARTIST=7_FLAC__STREAM_METADATA_PICTURE_TYPE_ARTIST=8_FLAC__STREAM_METADATA_PICTURE_TYPE_CONDUCTOR=9_FLAC__STREAM_METADATA_PICTURE_TYPE_BAND=10_FLAC__STREAM_METADATA_PICTURE_TYPE_COMPOSER=11_FLAC__STREAM_METADATA_PICTURE_TYPE_LYRICIST=12_FLAC__STREAM_METADATA_PICTURE_TYPE_RECORDING_LOCATION=13_FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_RECORDING=14_FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_PERFORMANCE=15_FLAC__STREAM_METADATA_PICTURE_TYPE_VIDEO_SCREEN_CAPTURE=16_FLAC__STREAM_METADATA_PICTURE_TYPE_FISH=17_FLAC__STREAM_METADATA_PICTURE_TYPE_ILLUSTRATION=18_FLAC__STREAM_METADATA_PICTURE_TYPE_BAND_LOGOTYPE=19_FLAC__STREAM_METADATA_PICTURE_TYPE_PUBLISHER_LOGOTYPE=20_FLAC__STREAM_METADATA_PICTURE_TYPE_UNDEFINED=21#{U32}_U32_'type'||U32'_pad0'||*{S8}_S8_'mime_type'||*{U8}_U8_'description'||U32'width'||U32'height'||U32'depth'||U32'colors'||U32'data_length'||U32'_pad1'||*{U8}_U8_'data'|]
 // file /usr/include/FLAC/format.h line 769
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[EN#anon_enum$FLAC__SUBFRAME_TYPE_CONSTANT=0$FLAC__SUBFRAME_TYPE_VERBATIM=1$FLAC__SUBFRAME_TYPE_FIXED=2$FLAC__SUBFRAME_TYPE_LPC=3#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'value'|]#'constant'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||ARR4{S32}$S32$'warmup'||U32'$pad0'||*{cS32}$cS32$'residual'|]#'fixed'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||U32'qlp_coeff_precision'||S32'quantization_level'||ARR32{S32}$S32$'qlp_coeff'||ARR32{S32}$S32$'warmup'||U32'$pad0'||*{cS32}$cS32$'residual'|]#'lpc'||SYM#tag-#anon#ST[*{cS32}$cS32$'data'|]#'verbatim'|]#'data'||U32'wasted_bits'||U32'$pad1'|]
+// tag-#anon#ST[EN#anon_enum_FLAC__SUBFRAME_TYPE_CONSTANT=0_FLAC__SUBFRAME_TYPE_VERBATIM=1_FLAC__SUBFRAME_TYPE_FIXED=2_FLAC__SUBFRAME_TYPE_LPC=3#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'value'|]#'constant'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||ARR4{S32}_S32_'warmup'||U32'_pad0'||*{cS32}_cS32_'residual'|]#'fixed'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||U32'qlp_coeff_precision'||S32'quantization_level'||ARR32{S32}_S32_'qlp_coeff'||ARR32{S32}_S32_'warmup'||U32'_pad0'||*{cS32}_cS32_'residual'|]#'lpc'||SYM#tag-#anon#ST[*{cS32}_cS32_'data'|]#'verbatim'|]#'data'||U32'wasted_bits'||U32'_pad1'|]
 // file /usr/include/FLAC/format.h line 344
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$31;
+struct anonymous_31;
 
 // tag-#anon#ST[S32'dummy'|]
 // file /usr/include/FLAC/format.h line 554
-struct anonymous$20;
+struct anonymous_20;
 
 // tag-#anon#ST[S32'value'|]
 // file /usr/include/FLAC/format.h line 284
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S64'endbyte'||S32'endbit'||U32'$pad0'||*{U8}$U8$'buffer'||*{U8}$U8$'ptr'||S64'storage'|]
+// tag-#anon#ST[S64'endbyte'||S32'endbit'||U32'_pad0'||*{U8}_U8_'buffer'||*{U8}_U8_'ptr'||S64'storage'|]
 // file /usr/include/ogg/ogg.h line 32
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||ARR4{S32}$S32$'warmup'||U32'$pad0'||*{cS32}$cS32$'residual'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||ARR4{S32}_S32_'warmup'||U32'_pad0'||*{cS32}_cS32_'residual'|]
 // file /usr/include/FLAC/format.h line 298
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||U32'qlp_coeff_precision'||S32'quantization_level'||ARR32{S32}$S32$'qlp_coeff'||ARR32{S32}$S32$'warmup'||U32'$pad0'||*{cS32}$cS32$'residual'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||U32'qlp_coeff_precision'||S32'quantization_level'||ARR32{S32}_S32_'qlp_coeff'||ARR32{S32}_S32_'warmup'||U32'_pad0'||*{cS32}_cS32_'residual'|]
 // file /usr/include/FLAC/format.h line 315
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[U32'blocksize'||U32'sample_rate'||U32'channels'||EN#anon_enum$FLAC__CHANNEL_ASSIGNMENT_INDEPENDENT=0$FLAC__CHANNEL_ASSIGNMENT_LEFT_SIDE=1$FLAC__CHANNEL_ASSIGNMENT_RIGHT_SIDE=2$FLAC__CHANNEL_ASSIGNMENT_MID_SIDE=3#{U32}$U32$'channel_assignment'||U32'bits_per_sample'||EN#anon_enum$FLAC__FRAME_NUMBER_TYPE_FRAME_NUMBER=0$FLAC__FRAME_NUMBER_TYPE_SAMPLE_NUMBER=1#{U32}$U32$'number_type'||SYM#tag-#anon#UN[U32'frame_number'||U64'sample_number'|]#'number'||U8'crc'||U56'$pad0'|]#'header'||ARR8{SYM#tag-#anon#ST[EN#anon_enum$FLAC__SUBFRAME_TYPE_CONSTANT=0$FLAC__SUBFRAME_TYPE_VERBATIM=1$FLAC__SUBFRAME_TYPE_FIXED=2$FLAC__SUBFRAME_TYPE_LPC=3#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'value'|]#'constant'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||ARR4{S32}$S32$'warmup'||U32'$pad0'||*{cS32}$cS32$'residual'|]#'fixed'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||U32'qlp_coeff_precision'||S32'quantization_level'||ARR32{S32}$S32$'qlp_coeff'||ARR32{S32}$S32$'warmup'||U32'$pad0'||*{cS32}$cS32$'residual'|]#'lpc'||SYM#tag-#anon#ST[*{cS32}$cS32$'data'|]#'verbatim'|]#'data'||U32'wasted_bits'||U32'$pad1'|]#}$SYM#tag-#anon#ST[EN#anon_enum$FLAC__SUBFRAME_TYPE_CONSTANT=0$FLAC__SUBFRAME_TYPE_VERBATIM=1$FLAC__SUBFRAME_TYPE_FIXED=2$FLAC__SUBFRAME_TYPE_LPC=3#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'value'|]#'constant'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||ARR4{S32}$S32$'warmup'||U32'$pad0'||*{cS32}$cS32$'residual'|]#'fixed'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||U32'qlp_coeff_precision'||S32'quantization_level'||ARR32{S32}$S32$'qlp_coeff'||ARR32{S32}$S32$'warmup'||U32'$pad0'||*{cS32}$cS32$'residual'|]#'lpc'||SYM#tag-#anon#ST[*{cS32}$cS32$'data'|]#'verbatim'|]#'data'||U32'wasted_bits'||U32'$pad1'|]#$'subframes'||SYM#tag-#anon#ST[U16'crc'|]#'footer'||U48'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[U32'blocksize'||U32'sample_rate'||U32'channels'||EN#anon_enum_FLAC__CHANNEL_ASSIGNMENT_INDEPENDENT=0_FLAC__CHANNEL_ASSIGNMENT_LEFT_SIDE=1_FLAC__CHANNEL_ASSIGNMENT_RIGHT_SIDE=2_FLAC__CHANNEL_ASSIGNMENT_MID_SIDE=3#{U32}_U32_'channel_assignment'||U32'bits_per_sample'||EN#anon_enum_FLAC__FRAME_NUMBER_TYPE_FRAME_NUMBER=0_FLAC__FRAME_NUMBER_TYPE_SAMPLE_NUMBER=1#{U32}_U32_'number_type'||SYM#tag-#anon#UN[U32'frame_number'||U64'sample_number'|]#'number'||U8'crc'||U56'_pad0'|]#'header'||ARR8{SYM#tag-#anon#ST[EN#anon_enum_FLAC__SUBFRAME_TYPE_CONSTANT=0_FLAC__SUBFRAME_TYPE_VERBATIM=1_FLAC__SUBFRAME_TYPE_FIXED=2_FLAC__SUBFRAME_TYPE_LPC=3#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'value'|]#'constant'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||ARR4{S32}_S32_'warmup'||U32'_pad0'||*{cS32}_cS32_'residual'|]#'fixed'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||U32'qlp_coeff_precision'||S32'quantization_level'||ARR32{S32}_S32_'qlp_coeff'||ARR32{S32}_S32_'warmup'||U32'_pad0'||*{cS32}_cS32_'residual'|]#'lpc'||SYM#tag-#anon#ST[*{cS32}_cS32_'data'|]#'verbatim'|]#'data'||U32'wasted_bits'||U32'_pad1'|]#}_SYM#tag-#anon#ST[EN#anon_enum_FLAC__SUBFRAME_TYPE_CONSTANT=0_FLAC__SUBFRAME_TYPE_VERBATIM=1_FLAC__SUBFRAME_TYPE_FIXED=2_FLAC__SUBFRAME_TYPE_LPC=3#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'value'|]#'constant'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||ARR4{S32}_S32_'warmup'||U32'_pad0'||*{cS32}_cS32_'residual'|]#'fixed'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||U32'qlp_coeff_precision'||S32'quantization_level'||ARR32{S32}_S32_'qlp_coeff'||ARR32{S32}_S32_'warmup'||U32'_pad0'||*{cS32}_cS32_'residual'|]#'lpc'||SYM#tag-#anon#ST[*{cS32}_cS32_'data'|]#'verbatim'|]#'data'||U32'wasted_bits'||U32'_pad1'|]#_'subframes'||SYM#tag-#anon#ST[U16'crc'|]#'footer'||U48'_pad0'|]
 // file /usr/include/FLAC/format.h line 473
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[U32'length'||U32'$pad0'||*{U8}$U8$'entry'|]#'vendor_string'||U32'num_comments'||U32'$pad0'||*{SYM#tag-#anon#ST[U32'length'||U32'$pad0'||*{U8}$U8$'entry'|]#}$SYM#tag-#anon#ST[U32'length'||U32'$pad0'||*{U8}$U8$'entry'|]#$'comments'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[U32'length'||U32'_pad0'||*{U8}_U8_'entry'|]#'vendor_string'||U32'num_comments'||U32'_pad0'||*{SYM#tag-#anon#ST[U32'length'||U32'_pad0'||*{U8}_U8_'entry'|]#}_SYM#tag-#anon#ST[U32'length'||U32'_pad0'||*{U8}_U8_'entry'|]#_'comments'|]
 // file /usr/include/FLAC/format.h line 634
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'main_cond'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'play_cond'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'key_cond'||S32'exiting'||U32'$pad0'||*{SYM#tag-ao_device#}$SYM#tag-ao_device#$'adev'||*{U8}$U8$'fragment'||S32'fragment_size'||S32'key_waiting'||S32'exit_fd'||U32'$pad1'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'main_cond'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'play_cond'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'key_cond'||S32'exiting'||U32'_pad0'||*{SYM#tag-ao_device#}_SYM#tag-ao_device#_'adev'||*{U8}_U8_'fragment'||S32'fragment_size'||S32'key_waiting'||S32'exit_fd'||U32'_pad1'|]
 // file main.c line 261
-struct anonymous$24;
+struct anonymous_24;
 
 // tag-#anon#ST[U16'crc'|]
 // file /usr/include/FLAC/format.h line 460
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[U32'blocksize'||U32'sample_rate'||U32'channels'||EN#anon_enum$FLAC__CHANNEL_ASSIGNMENT_INDEPENDENT=0$FLAC__CHANNEL_ASSIGNMENT_LEFT_SIDE=1$FLAC__CHANNEL_ASSIGNMENT_RIGHT_SIDE=2$FLAC__CHANNEL_ASSIGNMENT_MID_SIDE=3#{U32}$U32$'channel_assignment'||U32'bits_per_sample'||EN#anon_enum$FLAC__FRAME_NUMBER_TYPE_FRAME_NUMBER=0$FLAC__FRAME_NUMBER_TYPE_SAMPLE_NUMBER=1#{U32}$U32$'number_type'||SYM#tag-#anon#UN[U32'frame_number'||U64'sample_number'|]#'number'||U8'crc'||U56'$pad0'|]
+// tag-#anon#ST[U32'blocksize'||U32'sample_rate'||U32'channels'||EN#anon_enum_FLAC__CHANNEL_ASSIGNMENT_INDEPENDENT=0_FLAC__CHANNEL_ASSIGNMENT_LEFT_SIDE=1_FLAC__CHANNEL_ASSIGNMENT_RIGHT_SIDE=2_FLAC__CHANNEL_ASSIGNMENT_MID_SIDE=3#{U32}_U32_'channel_assignment'||U32'bits_per_sample'||EN#anon_enum_FLAC__FRAME_NUMBER_TYPE_FRAME_NUMBER=0_FLAC__FRAME_NUMBER_TYPE_SAMPLE_NUMBER=1#{U32}_U32_'number_type'||SYM#tag-#anon#UN[U32'frame_number'||U64'sample_number'|]#'number'||U8'crc'||U56'_pad0'|]
 // file /usr/include/FLAC/format.h line 411
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[U32'length'||U32'$pad0'||*{U8}$U8$'entry'|]
+// tag-#anon#ST[U32'length'||U32'_pad0'||*{U8}_U8_'entry'|]
 // file /usr/include/FLAC/format.h line 624
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[U32'min_blocksize'||U32'max_blocksize'||U32'min_framesize'||U32'max_framesize'||U32'sample_rate'||U32'channels'||U32'bits_per_sample'||U32'$pad0'||U64'total_samples'||ARR16{U8}$U8$'md5sum'|]
+// tag-#anon#ST[U32'min_blocksize'||U32'max_blocksize'||U32'min_framesize'||U32'max_framesize'||U32'sample_rate'||U32'channels'||U32'bits_per_sample'||U32'_pad0'||U64'total_samples'||ARR16{U8}_U8_'md5sum'|]
 // file /usr/include/FLAC/format.h line 529
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[U32'num_points'||U32'$pad0'||*{SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'$pad0'|]#$'points'|]
+// tag-#anon#ST[U32'num_points'||U32'_pad0'||*{SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'_pad0'|]#_'points'|]
 // file /usr/include/FLAC/format.h line 612
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]
+// tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]
 // file /usr/include/FLAC/format.h line 233
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}$S8$'isrc'||BF{U32}$U32$'type'||BF{U32}$U32$'pre_emphasis'||BF{U6}$U6$'$bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#}$SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#$'indices'|]
+// tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}_S8_'isrc'||BF{U32}_U32_'type'||BF{U32}_U32_'pre_emphasis'||BF{U6}_U6_'_bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#}_SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#_'indices'|]
 // file /usr/include/FLAC/format.h line 666
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]
+// tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]
 // file /usr/include/FLAC/format.h line 647
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'$pad0'|]
+// tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'_pad0'|]
 // file /usr/include/FLAC/format.h line 574
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$34;
+union anonymous_34;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'value'|]#'constant'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||ARR4{S32}$S32$'warmup'||U32'$pad0'||*{cS32}$cS32$'residual'|]#'fixed'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0$FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}$U32$'type'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||U32'qlp_coeff_precision'||S32'quantization_level'||ARR32{S32}$S32$'qlp_coeff'||ARR32{S32}$S32$'warmup'||U32'$pad0'||*{cS32}$cS32$'residual'|]#'lpc'||SYM#tag-#anon#ST[*{cS32}$cS32$'data'|]#'verbatim'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'value'|]#'constant'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||ARR4{S32}_S32_'warmup'||U32'_pad0'||*{cS32}_cS32_'residual'|]#'fixed'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[EN#anon_enum_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE=0_FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2=1#{U32}_U32_'type'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]#'data'|]#'entropy_coding_method'||U32'order'||U32'qlp_coeff_precision'||S32'quantization_level'||ARR32{S32}_S32_'qlp_coeff'||ARR32{S32}_S32_'warmup'||U32'_pad0'||*{cS32}_cS32_'residual'|]#'lpc'||SYM#tag-#anon#ST[*{cS32}_cS32_'data'|]#'verbatim'|]
 // file /usr/include/FLAC/format.h line 346
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U32'min_blocksize'||U32'max_blocksize'||U32'min_framesize'||U32'max_framesize'||U32'sample_rate'||U32'channels'||U32'bits_per_sample'||U32'$pad0'||U64'total_samples'||ARR16{U8}$U8$'md5sum'|]#'stream_info'||SYM#tag-#anon#ST[S32'dummy'|]#'padding'||SYM#tag-#anon#ST[ARR4{U8}$U8$'id'||U32'$pad0'||*{U8}$U8$'data'|]#'application'||SYM#tag-#anon#ST[U32'num_points'||U32'$pad0'||*{SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'$pad0'|]#$'points'|]#'seek_table'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[U32'length'||U32'$pad0'||*{U8}$U8$'entry'|]#'vendor_string'||U32'num_comments'||U32'$pad0'||*{SYM#tag-#anon#ST[U32'length'||U32'$pad0'||*{U8}$U8$'entry'|]#}$SYM#tag-#anon#ST[U32'length'||U32'$pad0'||*{U8}$U8$'entry'|]#$'comments'|]#'vorbis_comment'||SYM#tag-#anon#ST[ARR129{S8}$S8$'media_catalog_number'||U56'$pad0'||U64'lead_in'||S32'is_cd'||U32'num_tracks'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}$S8$'isrc'||BF{U32}$U32$'type'||BF{U32}$U32$'pre_emphasis'||BF{U6}$U6$'$bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#}$SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#$'indices'|]#}$SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}$S8$'isrc'||BF{U32}$U32$'type'||BF{U32}$U32$'pre_emphasis'||BF{U6}$U6$'$bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#}$SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'$pad0'|]#$'indices'|]#$'tracks'|]#'cue_sheet'||SYM#tag-#anon#ST[EN#anon_enum$FLAC__STREAM_METADATA_PICTURE_TYPE_OTHER=0$FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON_STANDARD=1$FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON=2$FLAC__STREAM_METADATA_PICTURE_TYPE_FRONT_COVER=3$FLAC__STREAM_METADATA_PICTURE_TYPE_BACK_COVER=4$FLAC__STREAM_METADATA_PICTURE_TYPE_LEAFLET_PAGE=5$FLAC__STREAM_METADATA_PICTURE_TYPE_MEDIA=6$FLAC__STREAM_METADATA_PICTURE_TYPE_LEAD_ARTIST=7$FLAC__STREAM_METADATA_PICTURE_TYPE_ARTIST=8$FLAC__STREAM_METADATA_PICTURE_TYPE_CONDUCTOR=9$FLAC__STREAM_METADATA_PICTURE_TYPE_BAND=10$FLAC__STREAM_METADATA_PICTURE_TYPE_COMPOSER=11$FLAC__STREAM_METADATA_PICTURE_TYPE_LYRICIST=12$FLAC__STREAM_METADATA_PICTURE_TYPE_RECORDING_LOCATION=13$FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_RECORDING=14$FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_PERFORMANCE=15$FLAC__STREAM_METADATA_PICTURE_TYPE_VIDEO_SCREEN_CAPTURE=16$FLAC__STREAM_METADATA_PICTURE_TYPE_FISH=17$FLAC__STREAM_METADATA_PICTURE_TYPE_ILLUSTRATION=18$FLAC__STREAM_METADATA_PICTURE_TYPE_BAND_LOGOTYPE=19$FLAC__STREAM_METADATA_PICTURE_TYPE_PUBLISHER_LOGOTYPE=20$FLAC__STREAM_METADATA_PICTURE_TYPE_UNDEFINED=21#{U32}$U32$'type'||U32'$pad0'||*{S8}$S8$'mime_type'||*{U8}$U8$'description'||U32'width'||U32'height'||U32'depth'||U32'colors'||U32'data_length'||U32'$pad1'||*{U8}$U8$'data'|]#'picture'||SYM#tag-#anon#ST[*{U8}$U8$'data'|]#'unknown'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U32'min_blocksize'||U32'max_blocksize'||U32'min_framesize'||U32'max_framesize'||U32'sample_rate'||U32'channels'||U32'bits_per_sample'||U32'_pad0'||U64'total_samples'||ARR16{U8}_U8_'md5sum'|]#'stream_info'||SYM#tag-#anon#ST[S32'dummy'|]#'padding'||SYM#tag-#anon#ST[ARR4{U8}_U8_'id'||U32'_pad0'||*{U8}_U8_'data'|]#'application'||SYM#tag-#anon#ST[U32'num_points'||U32'_pad0'||*{SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'sample_number'||U64'stream_offset'||U32'frame_samples'||U32'_pad0'|]#_'points'|]#'seek_table'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[U32'length'||U32'_pad0'||*{U8}_U8_'entry'|]#'vendor_string'||U32'num_comments'||U32'_pad0'||*{SYM#tag-#anon#ST[U32'length'||U32'_pad0'||*{U8}_U8_'entry'|]#}_SYM#tag-#anon#ST[U32'length'||U32'_pad0'||*{U8}_U8_'entry'|]#_'comments'|]#'vorbis_comment'||SYM#tag-#anon#ST[ARR129{S8}_S8_'media_catalog_number'||U56'_pad0'||U64'lead_in'||S32'is_cd'||U32'num_tracks'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}_S8_'isrc'||BF{U32}_U32_'type'||BF{U32}_U32_'pre_emphasis'||BF{U6}_U6_'_bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#}_SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#_'indices'|]#}_SYM#tag-#anon#ST[U64'offset'||U8'number'||ARR13{S8}_S8_'isrc'||BF{U32}_U32_'type'||BF{U32}_U32_'pre_emphasis'||BF{U6}_U6_'_bit_field_pad0'||U8'num_indices'||*{SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#}_SYM#tag-#anon#ST[U64'offset'||U8'number'||U56'_pad0'|]#_'indices'|]#_'tracks'|]#'cue_sheet'||SYM#tag-#anon#ST[EN#anon_enum_FLAC__STREAM_METADATA_PICTURE_TYPE_OTHER=0_FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON_STANDARD=1_FLAC__STREAM_METADATA_PICTURE_TYPE_FILE_ICON=2_FLAC__STREAM_METADATA_PICTURE_TYPE_FRONT_COVER=3_FLAC__STREAM_METADATA_PICTURE_TYPE_BACK_COVER=4_FLAC__STREAM_METADATA_PICTURE_TYPE_LEAFLET_PAGE=5_FLAC__STREAM_METADATA_PICTURE_TYPE_MEDIA=6_FLAC__STREAM_METADATA_PICTURE_TYPE_LEAD_ARTIST=7_FLAC__STREAM_METADATA_PICTURE_TYPE_ARTIST=8_FLAC__STREAM_METADATA_PICTURE_TYPE_CONDUCTOR=9_FLAC__STREAM_METADATA_PICTURE_TYPE_BAND=10_FLAC__STREAM_METADATA_PICTURE_TYPE_COMPOSER=11_FLAC__STREAM_METADATA_PICTURE_TYPE_LYRICIST=12_FLAC__STREAM_METADATA_PICTURE_TYPE_RECORDING_LOCATION=13_FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_RECORDING=14_FLAC__STREAM_METADATA_PICTURE_TYPE_DURING_PERFORMANCE=15_FLAC__STREAM_METADATA_PICTURE_TYPE_VIDEO_SCREEN_CAPTURE=16_FLAC__STREAM_METADATA_PICTURE_TYPE_FISH=17_FLAC__STREAM_METADATA_PICTURE_TYPE_ILLUSTRATION=18_FLAC__STREAM_METADATA_PICTURE_TYPE_BAND_LOGOTYPE=19_FLAC__STREAM_METADATA_PICTURE_TYPE_PUBLISHER_LOGOTYPE=20_FLAC__STREAM_METADATA_PICTURE_TYPE_UNDEFINED=21#{U32}_U32_'type'||U32'_pad0'||*{S8}_S8_'mime_type'||*{U8}_U8_'description'||U32'width'||U32'height'||U32'depth'||U32'colors'||U32'data_length'||U32'_pad1'||*{U8}_U8_'data'|]#'picture'||SYM#tag-#anon#ST[*{U8}_U8_'data'|]#'unknown'|]
 // file /usr/include/FLAC/format.h line 846
-union anonymous$37;
+union anonymous_37;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'$pad0'||*{cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#}$cSYM#tag-#anon#ST[*{U32}$U32$'parameters'||*{U32}$U32$'raw_bits'||U32'capacity_by_order'||U32'$pad0'|]#$'contents'|]#'partitioned_rice'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U32'order'||U32'_pad0'||*{cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#}_cSYM#tag-#anon#ST[*{U32}_U32_'parameters'||*{U32}_U32_'raw_bits'||U32'capacity_by_order'||U32'_pad0'|]#_'contents'|]#'partitioned_rice'|]
 // file /usr/include/FLAC/format.h line 257
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$22;
+union anonymous_22;
 
 // tag-#anon#UN[U32'frame_number'||U64'sample_number'|]
 // file /usr/include/FLAC/format.h line 432
-union anonymous$14;
+union anonymous_14;
 
 // tag-FLAC__StreamDecoderPrivate
 // file /usr/include/FLAC/stream_decoder.h line 458
@@ -337,10 +337,10 @@ void FLAC__stream_decoder_delete(struct anonymous *);
 signed int FLAC__stream_decoder_finish(struct anonymous *);
 // FLAC__stream_decoder_init_ogg_stream
 // file /usr/include/FLAC/stream_decoder.h line 1154
-enum anonymous$39 FLAC__stream_decoder_init_ogg_stream(struct anonymous *, enum anonymous$40 (*)(const struct anonymous *, unsigned char *, unsigned long int *, void *), enum anonymous$41 (*)(const struct anonymous *, unsigned long int, void *), enum anonymous$42 (*)(const struct anonymous *, unsigned long int *, void *), enum anonymous$43 (*)(const struct anonymous *, unsigned long int *, void *), signed int (*)(const struct anonymous *, void *), enum anonymous$44 (*)(const struct anonymous *, const struct anonymous$17 *, const signed int * const *, void *), void (*)(const struct anonymous *, const struct anonymous$38 *, void *), void (*)(const struct anonymous *, enum anonymous$45, void *), void *);
+enum anonymous_39 FLAC__stream_decoder_init_ogg_stream(struct anonymous *, enum anonymous_40 (*)(const struct anonymous *, unsigned char *, unsigned long int *, void *), enum anonymous_41 (*)(const struct anonymous *, unsigned long int, void *), enum anonymous_42 (*)(const struct anonymous *, unsigned long int *, void *), enum anonymous_43 (*)(const struct anonymous *, unsigned long int *, void *), signed int (*)(const struct anonymous *, void *), enum anonymous_44 (*)(const struct anonymous *, const struct anonymous_17 *, const signed int * const *, void *), void (*)(const struct anonymous *, const struct anonymous_38 *, void *), void (*)(const struct anonymous *, enum anonymous_45, void *), void *);
 // FLAC__stream_decoder_init_stream
 // file /usr/include/FLAC/stream_decoder.h line 1073
-enum anonymous$39 FLAC__stream_decoder_init_stream(struct anonymous *, enum anonymous$40 (*)(const struct anonymous *, unsigned char *, unsigned long int *, void *), enum anonymous$41 (*)(const struct anonymous *, unsigned long int, void *), enum anonymous$42 (*)(const struct anonymous *, unsigned long int *, void *), enum anonymous$43 (*)(const struct anonymous *, unsigned long int *, void *), signed int (*)(const struct anonymous *, void *), enum anonymous$44 (*)(const struct anonymous *, const struct anonymous$17 *, const signed int * const *, void *), void (*)(const struct anonymous *, const struct anonymous$38 *, void *), void (*)(const struct anonymous *, enum anonymous$45, void *), void *);
+enum anonymous_39 FLAC__stream_decoder_init_stream(struct anonymous *, enum anonymous_40 (*)(const struct anonymous *, unsigned char *, unsigned long int *, void *), enum anonymous_41 (*)(const struct anonymous *, unsigned long int, void *), enum anonymous_42 (*)(const struct anonymous *, unsigned long int *, void *), enum anonymous_43 (*)(const struct anonymous *, unsigned long int *, void *), signed int (*)(const struct anonymous *, void *), enum anonymous_44 (*)(const struct anonymous *, const struct anonymous_17 *, const signed int * const *, void *), void (*)(const struct anonymous *, const struct anonymous_38 *, void *), void (*)(const struct anonymous *, enum anonymous_45, void *), void *);
 // FLAC__stream_decoder_new
 // file /usr/include/FLAC/stream_decoder.h line 743
 struct anonymous * FLAC__stream_decoder_new(void);
@@ -352,7 +352,7 @@ signed int FLAC__stream_decoder_process_until_end_of_stream(struct anonymous *);
 signed int FLAC__stream_decoder_set_md5_checking(struct anonymous *, signed int);
 // FLAC__stream_decoder_set_metadata_respond
 // file /usr/include/FLAC/stream_decoder.h line 812
-signed int FLAC__stream_decoder_set_metadata_respond(struct anonymous *, enum anonymous$18);
+signed int FLAC__stream_decoder_set_metadata_respond(struct anonymous *, enum anonymous_18);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
@@ -466,7 +466,7 @@ static signed int draw_trials_box(signed int row);
 static signed int eof_callback(const struct anonymous *decoder, void *client_data);
 // error_callback
 // file loader.c line 909
-static void error_callback(const struct anonymous *decoder, enum anonymous$45 status, void *client_data);
+static void error_callback(const struct anonymous *decoder, enum anonymous_45 status, void *client_data);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -589,7 +589,7 @@ extern void * memcpy(void *, const void *, unsigned long int);
 extern void * memset(void *, signed int, unsigned long int);
 // metadata_callback
 // file loader.c line 893
-static void metadata_callback(const struct anonymous *decoder, const struct anonymous$38 *metadata, void *client_data);
+static void metadata_callback(const struct anonymous *decoder, const struct anonymous_38 *metadata, void *client_data);
 // min_bg
 // file mincurses.c line 622
 extern signed int min_bg(signed int c);
@@ -715,7 +715,7 @@ extern signed int ov_clear(struct OggVorbis_File *);
 extern struct vorbis_info * ov_info(struct OggVorbis_File *, signed int);
 // ov_open_callbacks
 // file /usr/include/vorbis/vorbisfile.h line 152
-extern signed int ov_open_callbacks(void *, struct OggVorbis_File *, const char *, signed long int, struct anonymous$49);
+extern signed int ov_open_callbacks(void *, struct OggVorbis_File *, const char *, signed long int, struct anonymous_49);
 // ov_pcm_total
 // file /usr/include/vorbis/vorbisfile.h line 167
 extern signed long int ov_pcm_total(struct OggVorbis_File *, signed int);
@@ -775,13 +775,13 @@ extern double pow(double, double);
 void print_into(char *buf, signed int pos, char *s);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$23 *, const union anonymous$34 *);
+extern signed int pthread_cond_init(union anonymous_23 *, const union anonymous_34 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$23 *);
+extern signed int pthread_cond_signal(union anonymous_23 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$23 *, union anonymous$22 *);
+extern signed int pthread_cond_wait(union anonymous_23 *, union anonymous_22 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -790,13 +790,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$22 *, const union anonymous$34 *);
+extern signed int pthread_mutex_init(union anonymous_22 *, const union anonymous_34 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$22 *);
+extern signed int pthread_mutex_lock(union anonymous_22 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$22 *);
+extern signed int pthread_mutex_unlock(union anonymous_22 *);
 // put_val
 // file audio.c line 438
 extern void put_val(unsigned char *d, signed int bps, float v);
@@ -817,7 +817,7 @@ extern signed long int read(signed int, void *, unsigned long int);
 static double read_IEEE80(unsigned char *buf);
 // read_callback
 // file loader.c line 814
-static enum anonymous$40 read_callback(const struct anonymous *decoder, unsigned char *buffer, unsigned long int *bytes, void *client_data);
+static enum anonymous_40 read_callback(const struct anonymous *decoder, unsigned char *buffer, unsigned long int *bytes, void *client_data);
 // reconcile_channel_maps
 // file audio.c line 388
 extern void reconcile_channel_maps(struct pcm_struct *A, struct pcm_struct *B);
@@ -946,9 +946,9 @@ static struct pcm_struct * wav_load(char *path, struct _IO_FILE *in);
 extern signed long int write(signed int, const void *, unsigned long int);
 // write_callback
 // file loader.c line 836
-static enum anonymous$44 write_callback(const struct anonymous *decoder, const struct anonymous$17 *frame, const signed int * const *buffer, void *client_data);
+static enum anonymous_44 write_callback(const struct anonymous *decoder, const struct anonymous_17 *frame, const signed int * const *buffer, void *client_data);
 
-struct anonymous$47
+struct anonymous_47
 {
   // id_func
   signed int (*id_func)(char *, unsigned char *);
@@ -966,7 +966,7 @@ struct anonymous
   struct FLAC__StreamDecoderPrivate *private_;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // in
   struct _IO_FILE *in;
@@ -976,7 +976,7 @@ struct anonymous$48
   signed long int fill;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // parameters
   unsigned int *parameters;
@@ -986,7 +986,7 @@ struct anonymous$1
   unsigned int capacity_by_order;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // read_func
   unsigned long int (*read_func)(void *, unsigned long int, unsigned long int, void *);
@@ -998,7 +998,7 @@ struct anonymous$49
   signed long int (*tell_func)(void *);
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // body_data
   unsigned char *body_data;
@@ -1038,13 +1038,13 @@ struct anonymous$51
   signed long int granulepos;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // data
   unsigned char *data;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // data
   unsigned char *data;
@@ -1062,13 +1062,13 @@ struct anonymous$50
   signed int bodybytes;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // data
   const signed int *data;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // media_catalog_number
   char media_catalog_number[129l];
@@ -1079,10 +1079,10 @@ struct anonymous$32
   // num_tracks
   unsigned int num_tracks;
   // tracks
-  struct anonymous$30 *tracks;
+  struct anonymous_30 *tracks;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // id
   unsigned char id[4l];
@@ -1090,29 +1090,29 @@ struct anonymous$21
   unsigned char *data;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // order
   unsigned int order;
   // contents
-  const struct anonymous$1 *contents;
+  const struct anonymous_1 *contents;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // partitioned_rice
-  struct anonymous$2 partitioned_rice;
+  struct anonymous_2 partitioned_rice;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // type
-  enum anonymous$0 type;
+  enum anonymous_0 type;
   // data
-  union anonymous$3 data;
+  union anonymous_3 data;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // min_blocksize
   unsigned int min_blocksize;
@@ -1134,21 +1134,21 @@ struct anonymous$19
   unsigned char md5sum[16l];
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // dummy
   signed int dummy;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // num_points
   unsigned int num_points;
   // points
-  struct anonymous$25 *points;
+  struct anonymous_25 *points;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // length
   unsigned int length;
@@ -1156,20 +1156,20 @@ struct anonymous$27
   unsigned char *entry;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // vendor_string
-  struct anonymous$27 vendor_string;
+  struct anonymous_27 vendor_string;
   // num_comments
   unsigned int num_comments;
   // comments
-  struct anonymous$27 *comments;
+  struct anonymous_27 *comments;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
-  enum anonymous$33 type;
+  enum anonymous_33 type;
   // mime_type
   char *mime_type;
   // description
@@ -1188,48 +1188,48 @@ struct anonymous$35
   unsigned char *data;
 };
 
-union anonymous$37
+union anonymous_37
 {
   // stream_info
-  struct anonymous$19 stream_info;
+  struct anonymous_19 stream_info;
   // padding
-  struct anonymous$20 padding;
+  struct anonymous_20 padding;
   // application
-  struct anonymous$21 application;
+  struct anonymous_21 application;
   // seek_table
-  struct anonymous$26 seek_table;
+  struct anonymous_26 seek_table;
   // vorbis_comment
-  struct anonymous$28 vorbis_comment;
+  struct anonymous_28 vorbis_comment;
   // cue_sheet
-  struct anonymous$32 cue_sheet;
+  struct anonymous_32 cue_sheet;
   // picture
-  struct anonymous$35 picture;
+  struct anonymous_35 picture;
   // unknown
-  struct anonymous$36 unknown;
+  struct anonymous_36 unknown;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
-  enum anonymous$18 type;
+  enum anonymous_18 type;
   // is_last
   signed int is_last;
   // length
   unsigned int length;
   // data
-  union anonymous$37 data;
+  union anonymous_37 data;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // value
   signed int value;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // entropy_coding_method
-  struct anonymous$4 entropy_coding_method;
+  struct anonymous_4 entropy_coding_method;
   // order
   unsigned int order;
   // warmup
@@ -1238,10 +1238,10 @@ struct anonymous$6
   const signed int *residual;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // entropy_coding_method
-  struct anonymous$4 entropy_coding_method;
+  struct anonymous_4 entropy_coding_method;
   // order
   unsigned int order;
   // qlp_coeff_precision
@@ -1256,29 +1256,29 @@ struct anonymous$7
   const signed int *residual;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // constant
-  struct anonymous$5 constant;
+  struct anonymous_5 constant;
   // fixed
-  struct anonymous$6 fixed;
+  struct anonymous_6 fixed;
   // lpc
-  struct anonymous$7 lpc;
+  struct anonymous_7 lpc;
   // verbatim
-  struct anonymous$8 verbatim;
+  struct anonymous_8 verbatim;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // type
-  enum anonymous$10 type;
+  enum anonymous_10 type;
   // data
-  union anonymous$9 data;
+  union anonymous_9 data;
   // wasted_bits
   unsigned int wasted_bits;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // __lock
   signed int __lock;
@@ -1298,7 +1298,7 @@ struct anonymous$31
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // endbyte
   signed long int endbyte;
@@ -1312,7 +1312,7 @@ struct anonymous$46
   signed long int storage;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // frame_number
   unsigned int frame_number;
@@ -1320,7 +1320,7 @@ union anonymous$14
   unsigned long int sample_number;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // blocksize
   unsigned int blocksize;
@@ -1329,31 +1329,31 @@ struct anonymous$15
   // channels
   unsigned int channels;
   // channel_assignment
-  enum anonymous$12 channel_assignment;
+  enum anonymous_12 channel_assignment;
   // bits_per_sample
   unsigned int bits_per_sample;
   // number_type
-  enum anonymous$13 number_type;
+  enum anonymous_13 number_type;
   // number
-  union anonymous$14 number;
+  union anonymous_14 number;
   // crc
   unsigned char crc;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // crc
   unsigned short int crc;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // header
-  struct anonymous$15 header;
+  struct anonymous_15 header;
   // subframes
-  struct anonymous$11 subframes[8l];
+  struct anonymous_11 subframes[8l];
   // footer
-  struct anonymous$16 footer;
+  struct anonymous_16 footer;
 };
 
 struct __pthread_internal_list
@@ -1384,7 +1384,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1394,26 +1394,26 @@ union anonymous$22
   signed long int __align;
 };
 
-union anonymous$23
+union anonymous_23
 {
   // __data
-  struct anonymous$31 __data;
+  struct anonymous_31 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // mutex
-  union anonymous$22 mutex;
+  union anonymous_22 mutex;
   // main_cond
-  union anonymous$23 main_cond;
+  union anonymous_23 main_cond;
   // play_cond
-  union anonymous$23 play_cond;
+  union anonymous_23 play_cond;
   // key_cond
-  union anonymous$23 key_cond;
+  union anonymous_23 key_cond;
   // exiting
   signed int exiting;
   // adev
@@ -1428,7 +1428,7 @@ struct anonymous$24
   signed int exit_fd;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // offset
   unsigned long int offset;
@@ -1443,10 +1443,10 @@ struct anonymous$30
   // num_indices
   unsigned char num_indices;
   // indices
-  struct anonymous$29 *indices;
+  struct anonymous_29 *indices;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // offset
   unsigned long int offset;
@@ -1454,7 +1454,7 @@ struct anonymous$29
   unsigned char number;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // sample_number
   unsigned long int sample_number;
@@ -1464,7 +1464,7 @@ struct anonymous$25
   unsigned int frame_samples;
 };
 
-union anonymous$34
+union anonymous_34
 {
   // __size
   char __size[4l];
@@ -1521,7 +1521,7 @@ struct vorbis_block
   // pcm
   float **pcm;
   // opb
-  struct anonymous$46 opb;
+  struct anonymous_46 opb;
   // lW
   signed long int lW;
   // W
@@ -1573,7 +1573,7 @@ struct OggVorbis_File
   // end
   signed long int end;
   // oy
-  struct anonymous$50 oy;
+  struct anonymous_50 oy;
   // links
   signed int links;
   // offsets
@@ -1601,13 +1601,13 @@ struct OggVorbis_File
   // samptrack
   double samptrack;
   // os
-  struct anonymous$51 os;
+  struct anonymous_51 os;
   // vd
   struct vorbis_dsp_state vd;
   // vb
   struct vorbis_block vb;
   // callbacks
-  struct anonymous$49 callbacks;
+  struct anonymous_49 callbacks;
 };
 
 struct OpusFileCallbacks
@@ -1921,10 +1921,10 @@ struct vorbis_info
 
 // OV_CALLBACKS_NOCLOSE
 // file /usr/include/vorbis/vorbisfile.h line 82
-static struct anonymous$49 OV_CALLBACKS_NOCLOSE;
+static struct anonymous_49 OV_CALLBACKS_NOCLOSE;
 // OV_CALLBACKS_NOCLOSE
 // file /usr/include/vorbis/vorbisfile.h line 82
-static struct anonymous$49 OV_CALLBACKS_NOCLOSE = { .read_func=(unsigned long int (*)(void *, unsigned long int, unsigned long int, void *))fread, .seek_func=(signed int (*)(void *, signed long int, signed int))_ov_header_fseek_wrap,
+static struct anonymous_49 OV_CALLBACKS_NOCLOSE = { .read_func=(unsigned long int (*)(void *, unsigned long int, unsigned long int, void *))fread, .seek_func=(signed int (*)(void *, signed long int, signed int))_ov_header_fseek_wrap,
     .close_func=(signed int (*)(void *))(void *)0,
     .tell_func=(signed long int (*)(void *))ftell };
 // _nc_tinfo_fkeys
@@ -1977,10 +1977,10 @@ static signed int fliprow;
 static signed int force = 0;
 // formats
 // file loader.c line 1274
-static struct anonymous$47 formats[8l];
+static struct anonymous_47 formats[8l];
 // formats
 // file loader.c line 1274
-static struct anonymous$47 formats[8l] = { { .id_func=wav_id, .load_func=wav_load, .format="wav" },
+static struct anonymous_47 formats[8l] = { { .id_func=wav_id, .load_func=wav_load, .format="wav" },
     { .id_func=aiff_id, .load_func=aiff_load, .format="aiff" },
     { .id_func=flac_id, .load_func=flac_load, .format="flac" },
     { .id_func=oggflac_id, .load_func=oggflac_load, .format="oggflac" },
@@ -2177,9 +2177,9 @@ static signed int _ov_header_fseek_wrap(struct _IO_FILE *f, signed long int off,
 
   else
   {
-    signed int return_value_fseek$1;
-    return_value_fseek$1=fseek(f, off, whence);
-    return return_value_fseek$1;
+    signed int return_value_fseek_1;
+    return_value_fseek_1=fseek(f, off, whence);
+    return return_value_fseek_1;
   }
 }
 
@@ -2187,16 +2187,16 @@ static signed int _ov_header_fseek_wrap(struct _IO_FILE *f, signed long int off,
 // file loader.c line 94
 static signed int aiff_id(char *path, unsigned char *buf)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)buf, (const void *)"FORM", (unsigned long int)4);
-  if(!(return_value_memcmp$1 == 0))
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)buf, (const void *)"FORM", (unsigned long int)4);
+  if(!(return_value_memcmp_1 == 0))
     return 0;
 
   else
   {
-    signed int return_value_memcmp$2;
-    return_value_memcmp$2=memcmp((const void *)(buf + (signed long int)8), (const void *)"AIF", (unsigned long int)3);
-    if(!(return_value_memcmp$2 == 0))
+    signed int return_value_memcmp_2;
+    return_value_memcmp_2=memcmp((const void *)(buf + (signed long int)8), (const void *)"AIF", (unsigned long int)3);
+    if(!(return_value_memcmp_2 == 0))
       return 0;
 
     else
@@ -2229,61 +2229,61 @@ static struct pcm_struct * aiff_load(char *path, struct _IO_FILE *in)
   unsigned char buf2[12l];
   signed int bend = 1;
   signed int fp = 0;
-  signed int return_value_fseek$1;
-  return_value_fseek$1=fseek(in, (signed long int)0, 0);
-  unsigned long int return_value_fread$2;
-  void *return_value_calloc$3;
-  char *return_value_trim_path$4;
-  char *return_value___strdup$5;
-  signed int return_value_find_aiff_chunk$6;
-  void *return_value___builtin_alloca$7;
-  unsigned long int return_value_fread$8;
-  double return_value_read_IEEE80$9;
-  char *return_value___strdup$10;
-  char *return_value___strdup$11;
-  char *return_value___strdup$12;
-  char *return_value___strdup$13;
-  char *return_value___strdup$14;
-  char *return_value___strdup$15;
-  char *return_value___strdup$16;
-  char *return_value___strdup$17;
-  _Bool tmp_if_expr$22;
-  signed int return_value_memcmp$21;
-  signed int return_value_memcmp$19;
-  signed int return_value_memcmp$18;
-  signed int return_value_find_aiff_chunk$23;
-  unsigned long int return_value_fread$24;
+  signed int return_value_fseek_1;
+  return_value_fseek_1=fseek(in, (signed long int)0, 0);
+  unsigned long int return_value_fread_2;
+  void *return_value_calloc_3;
+  char *return_value_trim_path_4;
+  char *return_value___strdup_5;
+  signed int return_value_find_aiff_chunk_6;
+  void *return_value___builtin_alloca_7;
+  unsigned long int return_value_fread_8;
+  double return_value_read_IEEE80_9;
+  char *return_value___strdup_10;
+  char *return_value___strdup_11;
+  char *return_value___strdup_12;
+  char *return_value___strdup_13;
+  char *return_value___strdup_14;
+  char *return_value___strdup_15;
+  char *return_value___strdup_16;
+  char *return_value___strdup_17;
+  _Bool tmp_if_expr_22;
+  signed int return_value_memcmp_21;
+  signed int return_value_memcmp_19;
+  signed int return_value_memcmp_18;
+  signed int return_value_find_aiff_chunk_23;
+  unsigned long int return_value_fread_24;
   signed int offset;
-  _Bool tmp_if_expr$28;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$26;
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$30;
-  _Bool tmp_if_expr$29;
-  signed long int tmp_if_expr$35;
-  if(return_value_fseek$1 == -1)
+  _Bool tmp_if_expr_28;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_26;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_30;
+  _Bool tmp_if_expr_29;
+  signed long int tmp_if_expr_35;
+  if(return_value_fseek_1 == -1)
     fprintf(stderr, "%s: Failed to seek\n", path);
 
   else
   {
-    return_value_fread$2=fread((void *)buf2, (unsigned long int)1, (unsigned long int)12, in);
-    if(!(return_value_fread$2 == 12ul))
+    return_value_fread_2=fread((void *)buf2, (unsigned long int)1, (unsigned long int)12, in);
+    if(!(return_value_fread_2 == 12ul))
       fprintf(stderr, "%s: Failed to read AIFF header\n", path);
 
     else
     {
-      return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
-      pcm = (struct pcm_struct *)return_value_calloc$3;
-      return_value_trim_path$4=trim_path(path);
-      return_value___strdup$5=__strdup(return_value_trim_path$4);
-      pcm->name = return_value___strdup$5;
+      return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
+      pcm = (struct pcm_struct *)return_value_calloc_3;
+      return_value_trim_path_4=trim_path(path);
+      return_value___strdup_5=__strdup(return_value_trim_path_4);
+      pcm->name = return_value___strdup_5;
       if((signed int)buf2[11l] == 67)
         aifc = 1;
 
       else
         aifc = 0;
-      return_value_find_aiff_chunk$6=find_aiff_chunk(in, path, "COMM", &len);
-      if(return_value_find_aiff_chunk$6 == 0)
+      return_value_find_aiff_chunk_6=find_aiff_chunk(in, path, "COMM", &len);
+      if(return_value_find_aiff_chunk_6 == 0)
         fprintf(stderr, "%s: No common chunk found in AIFF file\n", path);
 
       else
@@ -2292,17 +2292,17 @@ static struct pcm_struct * aiff_load(char *path, struct _IO_FILE *in)
 
         else
         {
-          return_value___builtin_alloca$7=__builtin_alloca((unsigned long int)len);
-          buffer = (unsigned char *)return_value___builtin_alloca$7;
-          return_value_fread$8=fread((void *)buffer, (unsigned long int)1, (unsigned long int)len, in);
-          if(!(return_value_fread$8 >= (unsigned long int)len))
+          return_value___builtin_alloca_7=__builtin_alloca((unsigned long int)len);
+          buffer = (unsigned char *)return_value___builtin_alloca_7;
+          return_value_fread_8=fread((void *)buffer, (unsigned long int)1, (unsigned long int)len, in);
+          if(!(return_value_fread_8 >= (unsigned long int)len))
             fprintf(stderr, "%s: Unexpected EOF in reading AIFF header\n", path);
 
           else
           {
             pcm->ch = (signed int)buffer[(signed long int)0] << 8 | (signed int)buffer[(signed long int)1] & 0xff;
-            return_value_read_IEEE80$9=read_IEEE80(buffer + (signed long int)8);
-            pcm->rate = (signed int)return_value_read_IEEE80$9;
+            return_value_read_IEEE80_9=read_IEEE80(buffer + (signed long int)8);
+            pcm->rate = (signed int)return_value_read_IEEE80_9;
             pcm->nativebits = (signed int)(buffer + (signed long int)6)[(signed long int)0] << 8 | (signed int)(buffer + (signed long int)6)[(signed long int)1] & 0xff;
             pcm->size = (signed long int)(((signed int)(buffer + (signed long int)2)[(signed long int)0] << 24 | (signed int)(buffer + (signed long int)2)[(signed long int)1] << 16 | (signed int)(buffer + (signed long int)2)[(signed long int)2] << 8 | (signed int)(buffer + (signed long int)2)[(signed long int)3] & 0xff) * pcm->ch * ((pcm->nativebits + 7) / 8));
             pcm->currentbits = -32;
@@ -2310,34 +2310,34 @@ static struct pcm_struct * aiff_load(char *path, struct _IO_FILE *in)
             {
               case 1:
               {
-                return_value___strdup$10=__strdup("M");
-                pcm->matrix = return_value___strdup$10;
-                return_value___strdup$11=__strdup("A");
-                pcm->mix = return_value___strdup$11;
+                return_value___strdup_10=__strdup("M");
+                pcm->matrix = return_value___strdup_10;
+                return_value___strdup_11=__strdup("A");
+                pcm->mix = return_value___strdup_11;
                 break;
               }
               case 2:
               {
-                return_value___strdup$12=__strdup("L,R");
-                pcm->matrix = return_value___strdup$12;
-                return_value___strdup$13=__strdup("BC");
-                pcm->mix = return_value___strdup$13;
+                return_value___strdup_12=__strdup("L,R");
+                pcm->matrix = return_value___strdup_12;
+                return_value___strdup_13=__strdup("BC");
+                pcm->mix = return_value___strdup_13;
                 break;
               }
               case 3:
               {
-                return_value___strdup$14=__strdup("L,R,C");
-                pcm->matrix = return_value___strdup$14;
-                return_value___strdup$15=__strdup("BCD");
-                pcm->mix = return_value___strdup$15;
+                return_value___strdup_14=__strdup("L,R,C");
+                pcm->matrix = return_value___strdup_14;
+                return_value___strdup_15=__strdup("BCD");
+                pcm->mix = return_value___strdup_15;
                 break;
               }
               default:
               {
-                return_value___strdup$16=__strdup("L,R,BL,BR");
-                pcm->matrix = return_value___strdup$16;
-                return_value___strdup$17=__strdup("BCFG");
-                pcm->mix = return_value___strdup$17;
+                return_value___strdup_16=__strdup("L,R,BL,BR");
+                pcm->matrix = return_value___strdup_16;
+                return_value___strdup_17=__strdup("BCFG");
+                pcm->mix = return_value___strdup_17;
               }
             }
             if(!(aifc == 0))
@@ -2348,29 +2348,29 @@ static struct pcm_struct * aiff_load(char *path, struct _IO_FILE *in)
                 goto err;
               }
 
-              signed int return_value_memcmp$20;
-              return_value_memcmp$20=memcmp((const void *)(buffer + (signed long int)18), (const void *)"NONE", (unsigned long int)4);
-              if(return_value_memcmp$20 == 0)
-                tmp_if_expr$22 = (_Bool)1;
+              signed int return_value_memcmp_20;
+              return_value_memcmp_20=memcmp((const void *)(buffer + (signed long int)18), (const void *)"NONE", (unsigned long int)4);
+              if(return_value_memcmp_20 == 0)
+                tmp_if_expr_22 = (_Bool)1;
 
               else
               {
-                return_value_memcmp$21=memcmp((const void *)(buffer + (signed long int)18), (const void *)"twos", (unsigned long int)4);
-                tmp_if_expr$22 = !(return_value_memcmp$21 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_memcmp_21=memcmp((const void *)(buffer + (signed long int)18), (const void *)"twos", (unsigned long int)4);
+                tmp_if_expr_22 = !(return_value_memcmp_21 != 0) ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$22)
+              if(tmp_if_expr_22)
                 bend = 1;
 
               else
               {
-                return_value_memcmp$19=memcmp((const void *)(buffer + (signed long int)18), (const void *)"sowt", (unsigned long int)4);
-                if(return_value_memcmp$19 == 0)
+                return_value_memcmp_19=memcmp((const void *)(buffer + (signed long int)18), (const void *)"sowt", (unsigned long int)4);
+                if(return_value_memcmp_19 == 0)
                   bend = 0;
 
                 else
                 {
-                  return_value_memcmp$18=memcmp((const void *)(buffer + (signed long int)18), (const void *)"fl32", (unsigned long int)4);
-                  if(return_value_memcmp$18 == 0)
+                  return_value_memcmp_18=memcmp((const void *)(buffer + (signed long int)18), (const void *)"fl32", (unsigned long int)4);
+                  if(return_value_memcmp_18 == 0)
                   {
                     bend = 1;
                     fp = 1;
@@ -2385,8 +2385,8 @@ static struct pcm_struct * aiff_load(char *path, struct _IO_FILE *in)
               }
             }
 
-            return_value_find_aiff_chunk$23=find_aiff_chunk(in, path, "SSND", &len);
-            if(return_value_find_aiff_chunk$23 == 0)
+            return_value_find_aiff_chunk_23=find_aiff_chunk(in, path, "SSND", &len);
+            if(return_value_find_aiff_chunk_23 == 0)
               fprintf(stderr, "%s: No SSND chunk found in AIFF file\n", path);
 
             else
@@ -2395,8 +2395,8 @@ static struct pcm_struct * aiff_load(char *path, struct _IO_FILE *in)
 
               else
               {
-                return_value_fread$24=fread((void *)buf2, (unsigned long int)1, (unsigned long int)8, in);
-                if(!(return_value_fread$24 >= 8ul))
+                return_value_fread_24=fread((void *)buf2, (unsigned long int)1, (unsigned long int)8, in);
+                if(!(return_value_fread_24 >= 8ul))
                   fprintf(stderr, "%s: Unexpected EOF reading AIFF header\n", path);
 
                 else
@@ -2405,38 +2405,38 @@ static struct pcm_struct * aiff_load(char *path, struct _IO_FILE *in)
                   if(fp == 0)
                   {
                     if(pcm->nativebits == 32)
-                      tmp_if_expr$25 = (_Bool)1;
+                      tmp_if_expr_25 = (_Bool)1;
 
                     else
-                      tmp_if_expr$25 = pcm->nativebits == 24 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$25)
-                      tmp_if_expr$26 = (_Bool)1;
+                      tmp_if_expr_25 = pcm->nativebits == 24 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_25)
+                      tmp_if_expr_26 = (_Bool)1;
 
                     else
-                      tmp_if_expr$26 = pcm->nativebits == 16 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$26)
-                      tmp_if_expr$27 = (_Bool)1;
+                      tmp_if_expr_26 = pcm->nativebits == 16 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_26)
+                      tmp_if_expr_27 = (_Bool)1;
 
                     else
-                      tmp_if_expr$27 = pcm->nativebits == 8 ? (_Bool)1 : (_Bool)0;
-                    tmp_if_expr$28 = tmp_if_expr$27 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_27 = pcm->nativebits == 8 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_28 = tmp_if_expr_27 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$28 = (_Bool)0;
-                  if(tmp_if_expr$28)
-                    tmp_if_expr$30 = (_Bool)1;
+                    tmp_if_expr_28 = (_Bool)0;
+                  if(tmp_if_expr_28)
+                    tmp_if_expr_30 = (_Bool)1;
 
                   else
                   {
                     if(fp == 1)
-                      tmp_if_expr$29 = pcm->nativebits == 32 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_29 = pcm->nativebits == 32 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$29 = (_Bool)0;
-                    tmp_if_expr$30 = tmp_if_expr$29 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_29 = (_Bool)0;
+                    tmp_if_expr_30 = tmp_if_expr_29 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(!tmp_if_expr$30)
+                  if(!tmp_if_expr_30)
                     fprintf(stderr, "%s: Unsupported type of AIFF/AIFC file\n Must be 8-, 16-, 24- or 32-bit integer or 32-bit floating point PCM.\n", path);
 
                   else
@@ -2460,30 +2460,30 @@ static struct pcm_struct * aiff_load(char *path, struct _IO_FILE *in)
 
                     else
                     {
-                      void *return_value_calloc$31;
-                      return_value_calloc$31=calloc((unsigned long int)1, (unsigned long int)pcm->size * sizeof(float) /*4ul*/ );
-                      pcm->data = (unsigned char *)return_value_calloc$31;
+                      void *return_value_calloc_31;
+                      return_value_calloc_31=calloc((unsigned long int)1, (unsigned long int)pcm->size * sizeof(float) /*4ul*/ );
+                      pcm->data = (unsigned char *)return_value_calloc_31;
                       goto __CPROVER_DUMP_L42;
 
                     __CPROVER_DUMP_L39:
                       ;
-                      void *return_value_calloc$32;
-                      return_value_calloc$32=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)2) * sizeof(float) /*4ul*/ );
-                      pcm->data = (unsigned char *)return_value_calloc$32;
+                      void *return_value_calloc_32;
+                      return_value_calloc_32=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)2) * sizeof(float) /*4ul*/ );
+                      pcm->data = (unsigned char *)return_value_calloc_32;
                       goto __CPROVER_DUMP_L42;
 
                     __CPROVER_DUMP_L40:
                       ;
-                      void *return_value_calloc$33;
-                      return_value_calloc$33=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)3) * sizeof(float) /*4ul*/ );
-                      pcm->data = (unsigned char *)return_value_calloc$33;
+                      void *return_value_calloc_33;
+                      return_value_calloc_33=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)3) * sizeof(float) /*4ul*/ );
+                      pcm->data = (unsigned char *)return_value_calloc_33;
                       goto __CPROVER_DUMP_L42;
 
                     __CPROVER_DUMP_L41:
                       ;
-                      void *return_value_calloc$34;
-                      return_value_calloc$34=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)4) * sizeof(float) /*4ul*/ );
-                      pcm->data = (unsigned char *)return_value_calloc$34;
+                      void *return_value_calloc_34;
+                      return_value_calloc_34=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)4) * sizeof(float) /*4ul*/ );
+                      pcm->data = (unsigned char *)return_value_calloc_34;
                       goto __CPROVER_DUMP_L42;
                     }
 
@@ -2502,17 +2502,17 @@ static struct pcm_struct * aiff_load(char *path, struct _IO_FILE *in)
                       {
                         signed long int bytes;
                         if(pcm->size + -j >= 65537l)
-                          tmp_if_expr$35 = (signed long int)65536;
+                          tmp_if_expr_35 = (signed long int)65536;
 
                         else
-                          tmp_if_expr$35 = pcm->size - j;
-                        bytes = tmp_if_expr$35;
+                          tmp_if_expr_35 = pcm->size - j;
+                        bytes = tmp_if_expr_35;
                         if(!(sb_verbose == 0))
                           fprintf(stderr, "\rLoading %s: %ld to go...       \r", pcm->name, (signed long int)(pcm->size - j));
 
-                        unsigned long int return_value_fread$36;
-                        return_value_fread$36=fread((void *)(d + j), (unsigned long int)1, (unsigned long int)bytes, in);
-                        bytes = (signed long int)return_value_fread$36;
+                        unsigned long int return_value_fread_36;
+                        return_value_fread_36=fread((void *)(d + j), (unsigned long int)1, (unsigned long int)bytes, in);
+                        bytes = (signed long int)return_value_fread_36;
                         j = j + bytes;
                         if(bytes == 0l)
                           break;
@@ -2713,9 +2713,9 @@ err:
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // check_warn_clipping
@@ -2729,11 +2729,11 @@ extern float check_warn_clipping(struct pcm_struct *pcm, signed int no_normalize
   float clamp;
   float min;
   float max;
-  const signed long int max$array_size0 = (signed long int)cpf;
-  signed int flag[max$array_size0];
+  const signed long int max_array_size0 = (signed long int)cpf;
+  signed int flag[max_array_size0];
   unsigned long int count = (unsigned long int)0;
   float *d = (float *)pcm->data;
-  memset((void *)flag, 0, 4ul * (unsigned long int)max$array_size0);
+  memset((void *)flag, 0, 4ul * (unsigned long int)max_array_size0);
   if(!(sb_verbose == 0))
     fprintf(stderr, "\rLoading %s: checking for clipping...", pcm->name);
 
@@ -2775,8 +2775,8 @@ extern float check_warn_clipping(struct pcm_struct *pcm, signed int no_normalize
     if(flag[(signed long int)j] >= 2)
       count = count + (unsigned long int)flag[(signed long int)j];
 
-  double tmp_if_expr$2;
-  double return_value_log$1;
+  double tmp_if_expr_2;
+  double return_value_log_1;
   if(!(count == 0ul))
   {
     if(!(sb_verbose == 0))
@@ -2804,14 +2804,14 @@ extern float check_warn_clipping(struct pcm_struct *pcm, signed int no_normalize
         if(!(sb_verbose == 0))
         {
           if(IEEE_FLOAT_EQUAL(1. / (double)att, 0.000000))
-            tmp_if_expr$2 = (double)-400.f;
+            tmp_if_expr_2 = (double)-400.f;
 
           else
           {
-            return_value_log$1=log((1. / (double)att) * (1. / (double)att));
-            tmp_if_expr$2 = return_value_log$1 * (double)4.34294480f;
+            return_value_log_1=log((1. / (double)att) * (1. / (double)att));
+            tmp_if_expr_2 = return_value_log_1 * (double)4.34294480f;
           }
-          fprintf(stderr, "%ld overrange samples after decoding %s (peak %+0.1fdB)\n", (signed long int)count, pcm->name, tmp_if_expr$2);
+          fprintf(stderr, "%ld overrange samples after decoding %s (peak %+0.1fdB)\n", (signed long int)count, pcm->name, tmp_if_expr_2);
         }
 
         return att;
@@ -2838,15 +2838,15 @@ extern double compute_pdual(signed int score, signed int tests)
   for( ; tests >= i; i = i + 1)
   {
     double lp;
-    double return_value_pow$1;
-    return_value_pow$1=pow(.5, (double)tests);
-    double return_value_factorial$2;
-    return_value_factorial$2=factorial(tests);
-    double return_value_factorial$3;
-    return_value_factorial$3=factorial(tests - i);
-    double return_value_factorial$4;
-    return_value_factorial$4=factorial(i);
-    lp = return_value_pow$1 * (return_value_factorial$2 / (return_value_factorial$3 * return_value_factorial$4));
+    double return_value_pow_1;
+    return_value_pow_1=pow(.5, (double)tests);
+    double return_value_factorial_2;
+    return_value_factorial_2=factorial(tests);
+    double return_value_factorial_3;
+    return_value_factorial_3=factorial(tests - i);
+    double return_value_factorial_4;
+    return_value_factorial_4=factorial(i);
+    lp = return_value_pow_1 * (return_value_factorial_2 / (return_value_factorial_3 * return_value_factorial_4));
     if(!(tests + -i == i))
       lp = lp * (double)2;
 
@@ -2862,17 +2862,17 @@ extern double compute_psingle(signed int correct, signed int tests)
   signed int i;
   double p = (double)0;
   i = correct;
-  double return_value_pow$1;
-  double return_value_factorial$2;
-  double return_value_factorial$3;
-  double return_value_factorial$4;
+  double return_value_pow_1;
+  double return_value_factorial_2;
+  double return_value_factorial_3;
+  double return_value_factorial_4;
   for( ; tests >= i; i = i + 1)
   {
-    return_value_pow$1=pow(.5, (double)tests);
-    return_value_factorial$2=factorial(tests);
-    return_value_factorial$3=factorial(tests - i);
-    return_value_factorial$4=factorial(i);
-    p = p + return_value_pow$1 * (return_value_factorial$2 / (return_value_factorial$3 * return_value_factorial$4));
+    return_value_pow_1=pow(.5, (double)tests);
+    return_value_factorial_2=factorial(tests);
+    return_value_factorial_3=factorial(tests - i);
+    return_value_factorial_4=factorial(i);
+    p = p + return_value_pow_1 * (return_value_factorial_2 / (return_value_factorial_3 * return_value_factorial_4));
   }
   return p;
 }
@@ -2884,10 +2884,10 @@ extern void convert_to_16(struct pcm_struct *pcm, signed int dither)
   unsigned char *d = pcm->data;
   float *f = (float *)pcm->data;
   signed long int j;
-  const signed long int j$array_size0 = (signed long int)pcm->ch;
-  float t[j$array_size0];
+  const signed long int j_array_size0 = (signed long int)pcm->ch;
+  float t[j_array_size0];
   signed int ch = 0;
-  memset((void *)t, 0, 4ul * (unsigned long int)j$array_size0);
+  memset((void *)t, 0, 4ul * (unsigned long int)j_array_size0);
   if(!(sb_verbose == 0))
     fprintf(stderr, "\r%s %s to 16 bit... ", dither != 0 ? "Dithering" : "Down-converting", pcm->name);
 
@@ -2897,11 +2897,11 @@ extern void convert_to_16(struct pcm_struct *pcm, signed int dither)
     float val;
     if(!(dither == 0))
     {
-      float return_value_triangle_ditherval$1;
-      return_value_triangle_ditherval$1=triangle_ditherval(t + (signed long int)ch);
-      double return_value_rint$2;
-      return_value_rint$2=rint((double)(f[j] * 32768.f + return_value_triangle_ditherval$1));
-      val = (float)return_value_rint$2;
+      float return_value_triangle_ditherval_1;
+      return_value_triangle_ditherval_1=triangle_ditherval(t + (signed long int)ch);
+      double return_value_rint_2;
+      return_value_rint_2=rint((double)(f[j] * 32768.f + return_value_triangle_ditherval_1));
+      val = (float)return_value_rint_2;
       ch = ch + 1;
       if(!(pcm->ch >= ch))
         ch = 0;
@@ -2910,9 +2910,9 @@ extern void convert_to_16(struct pcm_struct *pcm, signed int dither)
 
     else
     {
-      double return_value_rint$3;
-      return_value_rint$3=rint((double)(f[j] * 32768.f));
-      val = (float)return_value_rint$3;
+      double return_value_rint_3;
+      return_value_rint_3=rint((double)(f[j] * 32768.f));
+      val = (float)return_value_rint_3;
     }
     if(val >= 32767.f)
     {
@@ -2956,9 +2956,9 @@ extern void convert_to_24(struct pcm_struct *pcm)
   for( ; !((unsigned long int)j >= (unsigned long int)pcm->size / sizeof(float) /*4ul*/ ); j = j + 1l)
   {
     float val;
-    double return_value_rint$1;
-    return_value_rint$1=rint((double)(f[j] * 8388608.f));
-    val = (float)return_value_rint$1;
+    double return_value_rint_1;
+    return_value_rint_1=rint((double)(f[j] * 8388608.f));
+    val = (float)return_value_rint_1;
     signed int iv;
     if(val < -8.388608e+6f)
       val = -8388608.f;
@@ -2993,9 +2993,9 @@ extern void convert_to_32(struct pcm_struct *pcm)
   for( ; !((unsigned long int)j >= (unsigned long int)pcm->size / sizeof(float) /*4ul*/ ); j = j + 1l)
   {
     float val;
-    double return_value_rint$1;
-    return_value_rint$1=rint((double)(f[j] * 2147483648.f));
-    val = (float)return_value_rint$1;
+    double return_value_rint_1;
+    return_value_rint_1=rint((double)(f[j] * 2147483648.f));
+    val = (float)return_value_rint_1;
     signed int iv;
     if(val < -2.147484e+9f)
       val = -2147483648.f;
@@ -3043,7 +3043,7 @@ extern float convert_to_mono(struct pcm_struct *pcm)
 
   k = 0;
   i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(i >= s); i = i + cpf)
   {
     float acc = 0.f;
@@ -3056,39 +3056,39 @@ extern float convert_to_mono(struct pcm_struct *pcm)
     if(acc < min)
       min = acc;
 
-    tmp_post$1 = k;
+    tmp_post_1 = k;
     k = k + 1;
-    d[(signed long int)tmp_post$1] = acc;
+    d[(signed long int)tmp_post_1] = acc;
   }
   pcm->size = pcm->size / (signed long int)cpf;
   pcm->ch = 1;
   if(!(pcm->matrix == ((char *)NULL)))
     free((void *)pcm->matrix);
 
-  char *return_value___strdup$2;
-  return_value___strdup$2=__strdup("M");
-  pcm->matrix = return_value___strdup$2;
+  char *return_value___strdup_2;
+  return_value___strdup_2=__strdup("M");
+  pcm->matrix = return_value___strdup_2;
   if(min < -1.000000f)
     att = (float)(-1. / (double)min);
 
   if(clamp / max < att)
     att = clamp / max;
 
-  double tmp_if_expr$4;
-  double return_value_log$3;
+  double tmp_if_expr_4;
+  double return_value_log_3;
   if(!(sb_verbose == 0))
   {
     if(att < 1.000000f)
     {
       if(IEEE_FLOAT_EQUAL(1. / (double)att, 0.000000))
-        tmp_if_expr$4 = (double)-400.f;
+        tmp_if_expr_4 = (double)-400.f;
 
       else
       {
-        return_value_log$3=log((1. / (double)att) * (1. / (double)att));
-        tmp_if_expr$4 = return_value_log$3 * (double)4.34294480f;
+        return_value_log_3=log((1. / (double)att) * (1. / (double)att));
+        tmp_if_expr_4 = return_value_log_3 * (double)4.34294480f;
       }
-      fprintf(stderr, "done. peak: %+0.1fdB\n", tmp_if_expr$4);
+      fprintf(stderr, "done. peak: %+0.1fdB\n", tmp_if_expr_4);
     }
 
     else
@@ -3130,12 +3130,12 @@ extern float convert_to_stereo(struct pcm_struct *pcm)
   if(!(sb_verbose == 0))
     fprintf(stderr, "Downmixing to stereo... ");
 
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)cpf, sizeof(float) /*4ul*/ );
-  lmix = (float *)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)cpf, sizeof(float) /*4ul*/ );
-  rmix = (float *)return_value_calloc$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)cpf, sizeof(float) /*4ul*/ );
+  lmix = (float *)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)cpf, sizeof(float) /*4ul*/ );
+  rmix = (float *)return_value_calloc_2;
   j = 0;
   for( ; !(j >= cpf); j = j + 1)
   {
@@ -3144,8 +3144,8 @@ extern float convert_to_stereo(struct pcm_struct *pcm)
   }
   k = 0;
   i = 0;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   for( ; !(i >= s); i = i + cpf)
   {
     float L = 0.f;
@@ -3168,42 +3168,42 @@ extern float convert_to_stereo(struct pcm_struct *pcm)
     if(R < min)
       min = R;
 
-    tmp_post$3 = k;
+    tmp_post_3 = k;
     k = k + 1;
-    d[(signed long int)tmp_post$3] = L;
-    tmp_post$4 = k;
+    d[(signed long int)tmp_post_3] = L;
+    tmp_post_4 = k;
     k = k + 1;
-    d[(signed long int)tmp_post$4] = R;
+    d[(signed long int)tmp_post_4] = R;
   }
   pcm->size = (pcm->size / (signed long int)cpf) * (signed long int)2;
   pcm->ch = 2;
   if(!(pcm->matrix == ((char *)NULL)))
     free((void *)pcm->matrix);
 
-  char *return_value___strdup$5;
-  return_value___strdup$5=__strdup("L,R");
-  pcm->matrix = return_value___strdup$5;
+  char *return_value___strdup_5;
+  return_value___strdup_5=__strdup("L,R");
+  pcm->matrix = return_value___strdup_5;
   if(min < -1.000000f)
     att = (float)(-1. / (double)min);
 
   if(clamp / max < att)
     att = clamp / max;
 
-  double tmp_if_expr$7;
-  double return_value_log$6;
+  double tmp_if_expr_7;
+  double return_value_log_6;
   if(!(sb_verbose == 0))
   {
     if(att < 1.f)
     {
       if(IEEE_FLOAT_EQUAL(1. / (double)att, 0.000000))
-        tmp_if_expr$7 = (double)-400.f;
+        tmp_if_expr_7 = (double)-400.f;
 
       else
       {
-        return_value_log$6=log((1. / (double)att) * (1. / (double)att));
-        tmp_if_expr$7 = return_value_log$6 * (double)4.34294480f;
+        return_value_log_6=log((1. / (double)att) * (1. / (double)att));
+        tmp_if_expr_7 = return_value_log_6 * (double)4.34294480f;
       }
-      fprintf(stderr, "done. peak: %+0.1fdB\n", tmp_if_expr$7);
+      fprintf(stderr, "done. peak: %+0.1fdB\n", tmp_if_expr_7);
     }
 
     else
@@ -3218,9 +3218,9 @@ extern float convert_to_stereo(struct pcm_struct *pcm)
 char * dottrim(char *in, signed int l)
 {
   signed int m;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(in);
-  m = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(in);
+  m = (signed int)return_value_strlen_1;
   if(!(l >= m))
   {
     if(!(l >= 1))
@@ -3249,13 +3249,13 @@ char * dottrim(char *in, signed int l)
 static signed int draw_playbar(signed int row)
 {
   signed int pre;
-  double return_value_floor$1;
-  return_value_floor$1=floor((p_st / p_len) * (double)cur_term->type.Numbers[(signed long int)0]);
-  pre = (signed int)return_value_floor$1;
+  double return_value_floor_1;
+  return_value_floor_1=floor((p_st / p_len) * (double)cur_term->type.Numbers[(signed long int)0]);
+  pre = (signed int)return_value_floor_1;
   signed int post;
-  double return_value_floor$2;
-  return_value_floor$2=floor((p_end / p_len) * (double)cur_term->type.Numbers[(signed long int)0] + (double)1.e-6f);
-  post = (signed int)return_value_floor$2;
+  double return_value_floor_2;
+  return_value_floor_2=floor((p_end / p_len) * (double)cur_term->type.Numbers[(signed long int)0] + (double)1.e-6f);
+  post = (signed int)return_value_floor_2;
   signed int i;
   playrow = row;
   if(!((signed int)*cur_term->type.Numbers + -1 >= post))
@@ -3280,26 +3280,26 @@ static signed int draw_playbar(signed int row)
 // file tty.c line 229
 static signed int draw_samples_box(signed int row)
 {
-  const signed long int draw_samples_box$array_size0 = (signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] + 1);
-  char draw_samples_box$$1$$buf[draw_samples_box$array_size0];
+  const signed long int draw_samples_box_array_size0 = (signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] + 1);
+  char draw_samples_box__1__buf[draw_samples_box_array_size0];
   signed int i;
   boxrow = row;
   fliprow = row + pcm_n + 1;
-  fill(draw_samples_box$$1$$buf, (char)acs_map[(signed long int)(unsigned char)113], (signed int)cur_term->type.Numbers[(signed long int)0]);
-  draw_samples_box$$1$$buf[(signed long int)0] = (char)acs_map[(signed long int)(unsigned char)108];
-  draw_samples_box$$1$$buf[(signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] - 1)] = (char)acs_map[(signed long int)(unsigned char)107];
+  fill(draw_samples_box__1__buf, (char)acs_map[(signed long int)(unsigned char)113], (signed int)cur_term->type.Numbers[(signed long int)0]);
+  draw_samples_box__1__buf[(signed long int)0] = (char)acs_map[(signed long int)(unsigned char)108];
+  draw_samples_box__1__buf[(signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] - 1)] = (char)acs_map[(signed long int)(unsigned char)107];
   min_mvcur(0, row);
   min_gfx(1);
   min_fg(6);
-  min_putstr(draw_samples_box$$1$$buf);
+  min_putstr(draw_samples_box__1__buf);
   i = 0;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   for( ; !(i >= pcm_n); i = i + 1)
   {
     min_mvcur(0, row + i + 1);
     min_putchar((signed int)acs_map[(signed long int)(unsigned char)120]);
     min_unset();
-    fill(draw_samples_box$$1$$buf, (char)32, (signed int)cur_term->type.Numbers[(signed long int)0] - 3);
+    fill(draw_samples_box__1__buf, (char)32, (signed int)cur_term->type.Numbers[(signed long int)0] - 3);
     if(i == p_pl)
     {
       min_putchar(62);
@@ -3308,17 +3308,17 @@ static signed int draw_samples_box(signed int row)
 
     else
       min_putchar(32);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(pcm_p[(signed long int)i]->name);
-    if(!((unsigned long int)((signed int)*cur_term->type.Numbers + -4) >= return_value_strlen$2))
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(pcm_p[(signed long int)i]->name);
+    if(!((unsigned long int)((signed int)*cur_term->type.Numbers + -4) >= return_value_strlen_2))
     {
-      return_value_strlen$1=strlen(pcm_p[(signed long int)i]->name);
-      print_into(draw_samples_box$$1$$buf, 0, ((pcm_p[(signed long int)i]->name + (signed long int)return_value_strlen$1) - (signed long int)cur_term->type.Numbers[(signed long int)0]) + (signed long int)4);
+      return_value_strlen_1=strlen(pcm_p[(signed long int)i]->name);
+      print_into(draw_samples_box__1__buf, 0, ((pcm_p[(signed long int)i]->name + (signed long int)return_value_strlen_1) - (signed long int)cur_term->type.Numbers[(signed long int)0]) + (signed long int)4);
     }
 
     else
-      print_into(draw_samples_box$$1$$buf, 0, pcm_p[(signed long int)i]->name);
-    min_putstr(draw_samples_box$$1$$buf);
+      print_into(draw_samples_box__1__buf, 0, pcm_p[(signed long int)i]->name);
+    min_putstr(draw_samples_box__1__buf);
     if(i == p_pl)
       min_bold(0);
 
@@ -3327,10 +3327,10 @@ static signed int draw_samples_box(signed int row)
     min_putchar((signed int)acs_map[(signed long int)(unsigned char)120]);
   }
   min_mvcur(0, row + pcm_n + 1);
-  fill(draw_samples_box$$1$$buf, (char)acs_map[(signed long int)(unsigned char)113], (signed int)cur_term->type.Numbers[(signed long int)0]);
-  draw_samples_box$$1$$buf[(signed long int)0] = (char)acs_map[(signed long int)(unsigned char)109];
-  draw_samples_box$$1$$buf[(signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] - 1)] = (char)acs_map[(signed long int)(unsigned char)106];
-  min_putstr(draw_samples_box$$1$$buf);
+  fill(draw_samples_box__1__buf, (char)acs_map[(signed long int)(unsigned char)113], (signed int)cur_term->type.Numbers[(signed long int)0]);
+  draw_samples_box__1__buf[(signed long int)0] = (char)acs_map[(signed long int)(unsigned char)109];
+  draw_samples_box__1__buf[(signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] - 1)] = (char)acs_map[(signed long int)(unsigned char)106];
+  min_putstr(draw_samples_box__1__buf);
   min_unset();
   return pcm_n + 2;
 }
@@ -3339,20 +3339,20 @@ static signed int draw_samples_box(signed int row)
 // file tty.c line 147
 static signed int draw_timebar(signed int row)
 {
-  const signed long int draw_timebar$array_size0 = (signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] + 1);
-  char draw_timebar$$1$$buf[draw_timebar$array_size0];
+  const signed long int draw_timebar_array_size0 = (signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] + 1);
+  char draw_timebar__1__buf[draw_timebar_array_size0];
   timerow = row;
-  fill(draw_timebar$$1$$buf, (char)acs_map[(signed long int)(unsigned char)113], (signed int)cur_term->type.Numbers[(signed long int)0]);
+  fill(draw_timebar__1__buf, (char)acs_map[(signed long int)(unsigned char)113], (signed int)cur_term->type.Numbers[(signed long int)0]);
   min_mvcur(0, row);
   min_gfx(1);
   min_fg(6);
-  min_putstr(draw_timebar$$1$$buf);
+  min_putstr(draw_timebar__1__buf);
   min_unset();
   min_mvcur((signed int)cur_term->type.Numbers[(signed long int)0] - 12, row);
   min_putchar(32);
-  char *draw_timebar$$1$$1$$time;
-  draw_timebar$$1$$1$$time=make_time_string(p_len, 1);
-  min_putstr(draw_timebar$$1$$1$$time);
+  char *draw_timebar__1__1__time;
+  draw_timebar__1__1__time=make_time_string(p_len, 1);
+  min_putstr(draw_timebar__1__1__time);
   return 1;
 }
 
@@ -3360,8 +3360,8 @@ static signed int draw_timebar(signed int row)
 // file tty.c line 88
 static signed int draw_topbar(signed int row)
 {
-  const signed long int draw_topbar$array_size0 = (signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] + 1);
-  char draw_topbar$$1$$buf[draw_topbar$array_size0];
+  const signed long int draw_topbar_array_size0 = (signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] + 1);
+  char draw_topbar__1__buf[draw_topbar_array_size0];
   signed int i = 0;
   signed int j;
   toprow = row;
@@ -3406,19 +3406,19 @@ static signed int draw_topbar(signed int row)
   min_putchar((signed int)acs_map[(signed long int)(unsigned char)120]);
   min_unset();
   i = i + 1;
-  sprintf(draw_topbar$$1$$buf, " %dch %dbit %dHz ", p_ch, p_b, p_r);
-  unsigned long int return_value_strlen$1;
+  sprintf(draw_topbar__1__buf, " %dch %dbit %dHz ", p_ch, p_b, p_r);
+  unsigned long int return_value_strlen_1;
   do
   {
-    return_value_strlen$1=strlen(draw_topbar$$1$$buf);
-    if((unsigned long int)i >= (unsigned long int)*cur_term->type.Numbers + -return_value_strlen$1)
+    return_value_strlen_1=strlen(draw_topbar__1__buf);
+    if((unsigned long int)i >= (unsigned long int)*cur_term->type.Numbers + -return_value_strlen_1)
       break;
 
     min_putchar(32);
     i = i + 1;
   }
   while((_Bool)1);
-  min_putstr(draw_topbar$$1$$buf);
+  min_putstr(draw_topbar__1__buf);
   min_mvcur(0, row - 1);
   min_gfx(1);
   min_fg(6);
@@ -3443,16 +3443,16 @@ static signed int draw_topbar(signed int row)
 static signed int draw_trials_box(signed int row)
 {
   signed int i;
-  const signed long int i$array_size0 = (signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] + 1);
-  char draw_trials_box$$1$$buf[i$array_size0];
+  const signed long int i_array_size0 = (signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] + 1);
+  char draw_trials_box__1__buf[i_array_size0];
   boxrow = row;
-  fill(draw_trials_box$$1$$buf, (char)acs_map[(signed long int)(unsigned char)113], (signed int)cur_term->type.Numbers[(signed long int)0]);
-  draw_trials_box$$1$$buf[(signed long int)0] = (char)acs_map[(signed long int)(unsigned char)108];
-  draw_trials_box$$1$$buf[(signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] - 1)] = (char)acs_map[(signed long int)(unsigned char)107];
+  fill(draw_trials_box__1__buf, (char)acs_map[(signed long int)(unsigned char)113], (signed int)cur_term->type.Numbers[(signed long int)0]);
+  draw_trials_box__1__buf[(signed long int)0] = (char)acs_map[(signed long int)(unsigned char)108];
+  draw_trials_box__1__buf[(signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] - 1)] = (char)acs_map[(signed long int)(unsigned char)107];
   min_mvcur(0, row);
   min_gfx(1);
   min_fg(6);
-  min_putstr(draw_trials_box$$1$$buf);
+  min_putstr(draw_trials_box__1__buf);
   row = row + 1;
   i = 0;
   for( ; !(i >= 1 + (p_g == 0 ? 0 : 1)); i = i + 1)
@@ -3465,10 +3465,10 @@ static signed int draw_trials_box(signed int row)
   }
   fliprow = row;
   min_mvcur(0, row);
-  fill(draw_trials_box$$1$$buf, (char)acs_map[(signed long int)(unsigned char)113], (signed int)cur_term->type.Numbers[(signed long int)0]);
-  draw_trials_box$$1$$buf[(signed long int)0] = (char)acs_map[(signed long int)(unsigned char)109];
-  draw_trials_box$$1$$buf[(signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] - 1)] = (char)acs_map[(signed long int)(unsigned char)106];
-  min_putstr(draw_trials_box$$1$$buf);
+  fill(draw_trials_box__1__buf, (char)acs_map[(signed long int)(unsigned char)113], (signed int)cur_term->type.Numbers[(signed long int)0]);
+  draw_trials_box__1__buf[(signed long int)0] = (char)acs_map[(signed long int)(unsigned char)109];
+  draw_trials_box__1__buf[(signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] - 1)] = (char)acs_map[(signed long int)(unsigned char)106];
+  min_putstr(draw_trials_box__1__buf);
   min_unset();
   return (p_g != 0 ? 1 : 0) + 3;
 }
@@ -3477,17 +3477,17 @@ static signed int draw_trials_box(signed int row)
 // file loader.c line 918
 static signed int eof_callback(const struct anonymous *decoder, void *client_data)
 {
-  struct anonymous$48 *flac = (struct anonymous$48 *)client_data;
-  signed int return_value_feof$1;
-  return_value_feof$1=feof(flac->in);
-  return return_value_feof$1 != 0 ? 1 : 0;
+  struct anonymous_48 *flac = (struct anonymous_48 *)client_data;
+  signed int return_value_feof_1;
+  return_value_feof_1=feof(flac->in);
+  return return_value_feof_1 != 0 ? 1 : 0;
 }
 
 // error_callback
 // file loader.c line 909
-static void error_callback(const struct anonymous *decoder, enum anonymous$45 status, void *client_data)
+static void error_callback(const struct anonymous *decoder, enum anonymous_45 status, void *client_data)
 {
-  struct anonymous$48 *flac = (struct anonymous$48 *)client_data;
+  struct anonymous_48 *flac = (struct anonymous_48 *)client_data;
   struct pcm_struct *pcm = flac->pcm;
   fprintf(stderr, "\r%s: Error decoding file.\n", pcm->name);
 }
@@ -3584,9 +3584,9 @@ static inline signed int fifo_push(signed int nonblock)
 
     }
 
-    signed long int return_value_read$1;
-    return_value_read$1=read(0, (void *)&c2, (unsigned long int)1);
-    n = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(0, (void *)&c2, (unsigned long int)1);
+    n = (signed int)return_value_read_1;
     ch = (signed int)c2;
     if(!(n >= 1))
       ch = -1;
@@ -3640,45 +3640,45 @@ extern void fill_fragment1(unsigned char *out, struct pcm_struct *pcm, signed lo
   if(!(pcm->size + -((signed long int)(3 * fragsize)) >= start))
     start = pcm->size - (signed long int)(fragsize * 3);
 
-  signed long int tmp_if_expr$5;
+  signed long int tmp_if_expr_5;
   if(!(*loop == 0))
   {
-    signed int fill_fragment1$$1$$1$$lp = *loop;
-    signed int fill_fragment1$$1$$1$$i;
+    signed int fill_fragment1__1__1__lp = *loop;
+    signed int fill_fragment1__1__1__i;
     signed int j;
     unsigned char *A = pcm->data + *pos;
-    unsigned char *fill_fragment1$$1$$1$$B = pcm->data + start + (signed long int)((fragsamples - fill_fragment1$$1$$1$$lp) * bpf);
-    fill_fragment1$$1$$1$$i = 0;
-    for( ; !(fill_fragment1$$1$$1$$i >= fragsamples); fill_fragment1$$1$$1$$i = fill_fragment1$$1$$1$$i + 1)
-      if(!(fill_fragment1$$1$$1$$lp == 0))
+    unsigned char *fill_fragment1__1__1__B = pcm->data + start + (signed long int)((fragsamples - fill_fragment1__1__1__lp) * bpf);
+    fill_fragment1__1__1__i = 0;
+    for( ; !(fill_fragment1__1__1__i >= fragsamples); fill_fragment1__1__1__i = fill_fragment1__1__1__i + 1)
+      if(!(fill_fragment1__1__1__lp == 0))
       {
-        float fill_fragment1$$1$$1$$1$$1$$1$$w;
-        fill_fragment1$$1$$1$$lp = fill_fragment1$$1$$1$$lp - 1;
-        fill_fragment1$$1$$1$$1$$1$$1$$w = fadewindow[(signed long int)fill_fragment1$$1$$1$$lp];
+        float fill_fragment1__1__1__1__1__1__w;
+        fill_fragment1__1__1__lp = fill_fragment1__1__1__lp - 1;
+        fill_fragment1__1__1__1__1__1__w = fadewindow[(signed long int)fill_fragment1__1__1__lp];
         j = 0;
         for( ; !(j >= cpf); j = j + 1)
         {
-          float fill_fragment1$$1$$1$$1$$1$$1$$1$$1$$val;
-          float return_value_get_val$1;
-          return_value_get_val$1=get_val(A, bps);
-          float return_value_get_val$2;
-          return_value_get_val$2=get_val(fill_fragment1$$1$$1$$B, bps);
-          fill_fragment1$$1$$1$$1$$1$$1$$1$$1$$val = return_value_get_val$1 * (1.f - fill_fragment1$$1$$1$$1$$1$$1$$w) + return_value_get_val$2 * fill_fragment1$$1$$1$$1$$1$$1$$w;
-          put_val(out, bps, fill_fragment1$$1$$1$$1$$1$$1$$1$$1$$val);
+          float fill_fragment1__1__1__1__1__1__1__1__val;
+          float return_value_get_val_1;
+          return_value_get_val_1=get_val(A, bps);
+          float return_value_get_val_2;
+          return_value_get_val_2=get_val(fill_fragment1__1__1__B, bps);
+          fill_fragment1__1__1__1__1__1__1__1__val = return_value_get_val_1 * (1.f - fill_fragment1__1__1__1__1__1__w) + return_value_get_val_2 * fill_fragment1__1__1__1__1__1__w;
+          put_val(out, bps, fill_fragment1__1__1__1__1__1__1__1__val);
           A = A + (signed long int)bps;
-          fill_fragment1$$1$$1$$B = fill_fragment1$$1$$1$$B + (signed long int)bps;
+          fill_fragment1__1__1__B = fill_fragment1__1__1__B + (signed long int)bps;
           out = out + (signed long int)bps;
         }
       }
 
       else
       {
-        memcpy((void *)out, (const void *)fill_fragment1$$1$$1$$B, (unsigned long int)bpf);
-        fill_fragment1$$1$$1$$B = fill_fragment1$$1$$1$$B + (signed long int)bpf;
+        memcpy((void *)out, (const void *)fill_fragment1__1__1__B, (unsigned long int)bpf);
+        fill_fragment1__1__1__B = fill_fragment1__1__1__B + (signed long int)bpf;
         out = out + (signed long int)bpf;
       }
     *loop = 0;
-    *pos = fill_fragment1$$1$$1$$B - pcm->data;
+    *pos = fill_fragment1__1__1__B - pcm->data;
   }
 
   else
@@ -3692,8 +3692,8 @@ extern void fill_fragment1(unsigned char *out, struct pcm_struct *pcm, signed lo
       if(!(end + -((signed long int)fragsize) >= *pos + (signed long int)fragsize))
       {
         signed int i;
-        signed int fill_fragment1$$1$$2$$2$$j;
-        unsigned char *fill_fragment1$$1$$2$$2$$A = pcm->data + *pos;
+        signed int fill_fragment1__1__2__2__j;
+        unsigned char *fill_fragment1__1__2__2__A = pcm->data + *pos;
         unsigned char *B = pcm->data + start;
         signed int lp = (signed int)((end - *pos) / (signed long int)bpf);
         if(!(lp >= fragsamples))
@@ -3705,25 +3705,25 @@ extern void fill_fragment1(unsigned char *out, struct pcm_struct *pcm, signed lo
           lp = lp - 1;
           if(lp >= fragsamples)
           {
-            memcpy((void *)out, (const void *)fill_fragment1$$1$$2$$2$$A, (unsigned long int)bpf);
-            fill_fragment1$$1$$2$$2$$A = fill_fragment1$$1$$2$$2$$A + (signed long int)bpf;
+            memcpy((void *)out, (const void *)fill_fragment1__1__2__2__A, (unsigned long int)bpf);
+            fill_fragment1__1__2__2__A = fill_fragment1__1__2__2__A + (signed long int)bpf;
             out = out + (signed long int)bpf;
           }
 
           else
           {
             float w = fadewindow[(signed long int)lp];
-            fill_fragment1$$1$$2$$2$$j = 0;
-            for( ; !(fill_fragment1$$1$$2$$2$$j >= cpf); fill_fragment1$$1$$2$$2$$j = fill_fragment1$$1$$2$$2$$j + 1)
+            fill_fragment1__1__2__2__j = 0;
+            for( ; !(fill_fragment1__1__2__2__j >= cpf); fill_fragment1__1__2__2__j = fill_fragment1__1__2__2__j + 1)
             {
               float val;
-              float return_value_get_val$3;
-              return_value_get_val$3=get_val(fill_fragment1$$1$$2$$2$$A, bps);
-              float return_value_get_val$4;
-              return_value_get_val$4=get_val(B, bps);
-              val = return_value_get_val$3 * (1.f - w) + return_value_get_val$4 * w;
+              float return_value_get_val_3;
+              return_value_get_val_3=get_val(fill_fragment1__1__2__2__A, bps);
+              float return_value_get_val_4;
+              return_value_get_val_4=get_val(B, bps);
+              val = return_value_get_val_3 * (1.f - w) + return_value_get_val_4 * w;
               put_val(out, bps, val);
-              fill_fragment1$$1$$2$$2$$A = fill_fragment1$$1$$2$$2$$A + (signed long int)bps;
+              fill_fragment1__1__2__2__A = fill_fragment1__1__2__2__A + (signed long int)bps;
               B = B + (signed long int)bps;
               out = out + (signed long int)bps;
             }
@@ -3731,17 +3731,17 @@ extern void fill_fragment1(unsigned char *out, struct pcm_struct *pcm, signed lo
         }
         *loop = lp < 0 ? 0 : lp;
         if(!(lp >= 1))
-          tmp_if_expr$5 = B - pcm->data;
+          tmp_if_expr_5 = B - pcm->data;
 
         else
-          tmp_if_expr$5 = fill_fragment1$$1$$2$$2$$A - pcm->data;
-        *pos = tmp_if_expr$5;
+          tmp_if_expr_5 = fill_fragment1__1__2__2__A - pcm->data;
+        *pos = tmp_if_expr_5;
       }
 
       else
       {
-        unsigned char *fill_fragment1$$1$$2$$3$$A = pcm->data + *pos;
-        memcpy((void *)out, (const void *)fill_fragment1$$1$$2$$3$$A, (unsigned long int)fragsize);
+        unsigned char *fill_fragment1__1__2__3__A = pcm->data + *pos;
+        memcpy((void *)out, (const void *)fill_fragment1__1__2__3__A, (unsigned long int)fragsize);
         *loop = 0;
         *pos = *pos + (signed long int)fragsize;
       }
@@ -3768,7 +3768,7 @@ extern void fill_fragment2(unsigned char *out, struct pcm_struct *pcm, signed lo
     start = pcm->size - (signed long int)(fragsize * 3);
 
   unsigned char *A = pcm->data + *pos;
-  signed long int tmp_if_expr$3;
+  signed long int tmp_if_expr_3;
   if(end + -(*pos) >= (signed long int)(2 * fragsize))
   {
     memcpy((void *)out, (const void *)A, (unsigned long int)fragsize);
@@ -3804,11 +3804,11 @@ extern void fill_fragment2(unsigned char *out, struct pcm_struct *pcm, signed lo
           for( ; !(j >= cpf); j = j + 1)
           {
             float val;
-            float return_value_get_val$1;
-            return_value_get_val$1=get_val(A, bps);
-            float return_value_get_val$2;
-            return_value_get_val$2=get_val(B, bps);
-            val = (float)((double)return_value_get_val$1 * (1. - (double)w) + (double)(return_value_get_val$2 * w));
+            float return_value_get_val_1;
+            return_value_get_val_1=get_val(A, bps);
+            float return_value_get_val_2;
+            return_value_get_val_2=get_val(B, bps);
+            val = (float)((double)return_value_get_val_1 * (1. - (double)w) + (double)(return_value_get_val_2 * w));
             put_val(out, (signed int)val, (float)bps);
             A = A + (signed long int)bps;
             B = B + (signed long int)bps;
@@ -3825,11 +3825,11 @@ extern void fill_fragment2(unsigned char *out, struct pcm_struct *pcm, signed lo
     }
     *loop = lp > 0 ? (lp < fragsamples ? lp : fragsamples) : 0;
     if(lp >= 1)
-      tmp_if_expr$3 = A - pcm->data;
+      tmp_if_expr_3 = A - pcm->data;
 
     else
-      tmp_if_expr$3 = B - pcm->data;
-    *pos = tmp_if_expr$3;
+      tmp_if_expr_3 = B - pcm->data;
+    *pos = tmp_if_expr_3;
   }
 }
 
@@ -3837,13 +3837,13 @@ extern void fill_fragment2(unsigned char *out, struct pcm_struct *pcm, signed lo
 // file loader.c line 430
 static signed int find_aiff_chunk(struct _IO_FILE *in, char *path, char *type, unsigned int *len)
 {
-  unsigned char find_aiff_chunk$$1$$buf[8l];
+  unsigned char find_aiff_chunk__1__buf[8l];
   signed int restarted = 0;
   while((_Bool)1)
   {
-    unsigned long int return_value_fread$1;
-    return_value_fread$1=fread((void *)find_aiff_chunk$$1$$buf, (unsigned long int)1, (unsigned long int)8, in);
-    if(!(return_value_fread$1 >= 8ul))
+    unsigned long int return_value_fread_1;
+    return_value_fread_1=fread((void *)find_aiff_chunk__1__buf, (unsigned long int)1, (unsigned long int)8, in);
+    if(!(return_value_fread_1 >= 8ul))
     {
       if(restarted == 0)
       {
@@ -3856,17 +3856,17 @@ static signed int find_aiff_chunk(struct _IO_FILE *in, char *path, char *type, u
       return 0;
     }
 
-    *len = (unsigned int)((signed int)(find_aiff_chunk$$1$$buf + (signed long int)4)[(signed long int)0] << 24 | (signed int)(find_aiff_chunk$$1$$buf + (signed long int)4)[(signed long int)1] << 16 | (signed int)(find_aiff_chunk$$1$$buf + (signed long int)4)[(signed long int)2] << 8 | (signed int)(find_aiff_chunk$$1$$buf + (signed long int)4)[(signed long int)3] & 0xff);
-    signed int return_value_memcmp$3;
-    return_value_memcmp$3=memcmp((const void *)find_aiff_chunk$$1$$buf, (const void *)type, (unsigned long int)4);
-    if(!(return_value_memcmp$3 == 0))
+    *len = (unsigned int)((signed int)(find_aiff_chunk__1__buf + (signed long int)4)[(signed long int)0] << 24 | (signed int)(find_aiff_chunk__1__buf + (signed long int)4)[(signed long int)1] << 16 | (signed int)(find_aiff_chunk__1__buf + (signed long int)4)[(signed long int)2] << 8 | (signed int)(find_aiff_chunk__1__buf + (signed long int)4)[(signed long int)3] & 0xff);
+    signed int return_value_memcmp_3;
+    return_value_memcmp_3=memcmp((const void *)find_aiff_chunk__1__buf, (const void *)type, (unsigned long int)4);
+    if(!(return_value_memcmp_3 == 0))
     {
       if(!((1u & *len) == 0u))
         *len = *len + 1u;
 
-      signed int return_value_fseek$2;
-      return_value_fseek$2=fseek(in, (signed long int)*len, 1);
-      if(!(return_value_fseek$2 == 0))
+      signed int return_value_fseek_2;
+      return_value_fseek_2=fseek(in, (signed long int)*len, 1);
+      if(!(return_value_fseek_2 == 0))
         return 0;
 
     }
@@ -3882,7 +3882,7 @@ static signed int find_definition(struct tries *tree, const char *str)
 {
   struct tries *ptr;
   signed int result = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(str == ((const char *)NULL)))
   {
     if(!((signed int)*str == 0))
@@ -3893,11 +3893,11 @@ static signed int find_definition(struct tries *tree, const char *str)
         if((unsigned char)*str == ptr->ch)
         {
           if((signed int)str[1l] == 0)
-            tmp_if_expr$1 = ptr->child != ((struct tries *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = ptr->child != ((struct tries *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
             result = -1;
 
           else
@@ -3928,33 +3928,33 @@ static signed int find_definition(struct tries *tree, const char *str)
 // file loader.c line 131
 static signed int find_wav_chunk(struct _IO_FILE *in, char *path, char *type, unsigned int *len)
 {
-  unsigned char find_wav_chunk$$1$$buf[8l];
+  unsigned char find_wav_chunk__1__buf[8l];
   while((_Bool)1)
   {
-    unsigned long int return_value_fread$1;
-    return_value_fread$1=fread((void *)find_wav_chunk$$1$$buf, (unsigned long int)1, (unsigned long int)8, in);
-    if(!(return_value_fread$1 >= 8ul))
+    unsigned long int return_value_fread_1;
+    return_value_fread_1=fread((void *)find_wav_chunk__1__buf, (unsigned long int)1, (unsigned long int)8, in);
+    if(!(return_value_fread_1 >= 8ul))
     {
       fprintf(stderr, "%s: Unexpected EOF in reading WAV header\n", path);
       return 0;
     }
 
-    signed int return_value_memcmp$3;
-    return_value_memcmp$3=memcmp((const void *)find_wav_chunk$$1$$buf, (const void *)type, (unsigned long int)4);
-    if(!(return_value_memcmp$3 == 0))
+    signed int return_value_memcmp_3;
+    return_value_memcmp_3=memcmp((const void *)find_wav_chunk__1__buf, (const void *)type, (unsigned long int)4);
+    if(!(return_value_memcmp_3 == 0))
     {
-      *len = (unsigned int)((signed int)(find_wav_chunk$$1$$buf + (signed long int)4)[(signed long int)3] << 24 | (signed int)(find_wav_chunk$$1$$buf + (signed long int)4)[(signed long int)2] << 16 | (signed int)(find_wav_chunk$$1$$buf + (signed long int)4)[(signed long int)1] << 8 | (signed int)(find_wav_chunk$$1$$buf + (signed long int)4)[(signed long int)0] & 0xff);
-      signed int return_value_fseek$2;
-      return_value_fseek$2=fseek(in, (signed long int)*len, 1);
-      if(!(return_value_fseek$2 == 0))
+      *len = (unsigned int)((signed int)(find_wav_chunk__1__buf + (signed long int)4)[(signed long int)3] << 24 | (signed int)(find_wav_chunk__1__buf + (signed long int)4)[(signed long int)2] << 16 | (signed int)(find_wav_chunk__1__buf + (signed long int)4)[(signed long int)1] << 8 | (signed int)(find_wav_chunk__1__buf + (signed long int)4)[(signed long int)0] & 0xff);
+      signed int return_value_fseek_2;
+      return_value_fseek_2=fseek(in, (signed long int)*len, 1);
+      if(!(return_value_fseek_2 == 0))
         return 0;
 
-      find_wav_chunk$$1$$buf[(signed long int)4] = (unsigned char)0;
+      find_wav_chunk__1__buf[(signed long int)4] = (unsigned char)0;
     }
 
     else
     {
-      *len = (unsigned int)((signed int)(find_wav_chunk$$1$$buf + (signed long int)4)[(signed long int)3] << 24 | (signed int)(find_wav_chunk$$1$$buf + (signed long int)4)[(signed long int)2] << 16 | (signed int)(find_wav_chunk$$1$$buf + (signed long int)4)[(signed long int)1] << 8 | (signed int)(find_wav_chunk$$1$$buf + (signed long int)4)[(signed long int)0] & 0xff);
+      *len = (unsigned int)((signed int)(find_wav_chunk__1__buf + (signed long int)4)[(signed long int)3] << 24 | (signed int)(find_wav_chunk__1__buf + (signed long int)4)[(signed long int)2] << 16 | (signed int)(find_wav_chunk__1__buf + (signed long int)4)[(signed long int)1] << 8 | (signed int)(find_wav_chunk__1__buf + (signed long int)4)[(signed long int)0] & 0xff);
       return 1;
     }
   }
@@ -3964,18 +3964,18 @@ static signed int find_wav_chunk(struct _IO_FILE *in, char *path, char *type, un
 // file loader.c line 104
 static signed int flac_id(char *path, unsigned char *buf)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)buf, (const void *)"fLaC", (unsigned long int)4);
-  return (signed int)(return_value_memcmp$1 == 0);
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)buf, (const void *)"fLaC", (unsigned long int)4);
+  return (signed int)(return_value_memcmp_1 == 0);
 }
 
 // flac_load
 // file loader.c line 1022
 static struct pcm_struct * flac_load(char *path, struct _IO_FILE *in)
 {
-  struct pcm_struct *return_value_flac_load_i$1;
-  return_value_flac_load_i$1=flac_load_i(path, in, 0);
-  return return_value_flac_load_i$1;
+  struct pcm_struct *return_value_flac_load_i_1;
+  return_value_flac_load_i_1=flac_load_i(path, in, 0);
+  return return_value_flac_load_i_1;
 }
 
 // flac_load_i
@@ -3983,53 +3983,53 @@ static struct pcm_struct * flac_load(char *path, struct _IO_FILE *in)
 static struct pcm_struct * flac_load_i(char *path, struct _IO_FILE *in, signed int oggp)
 {
   struct pcm_struct *pcm;
-  struct anonymous$48 *flac;
+  struct anonymous_48 *flac;
   struct anonymous *decoder;
   signed int ret;
-  signed int return_value_fseek$1;
-  return_value_fseek$1=fseek(in, (signed long int)0, 0);
-  void *return_value_calloc$2;
-  void *return_value_calloc$3;
-  char *return_value_trim_path$4;
-  char *return_value___strdup$5;
-  char *return_value___strdup$6;
-  char *return_value___strdup$7;
-  char *return_value___strdup$8;
-  char *return_value___strdup$9;
-  char *return_value___strdup$10;
-  char *return_value___strdup$11;
-  char *return_value___strdup$12;
-  char *return_value___strdup$13;
-  char *return_value___strdup$14;
-  char *return_value___strdup$15;
-  char *return_value___strdup$16;
-  char *return_value___strdup$17;
-  char *return_value___strdup$18;
-  char *return_value___strdup$19;
-  char *return_value___strdup$20;
-  char *return_value___strdup$21;
-  if(return_value_fseek$1 == -1)
+  signed int return_value_fseek_1;
+  return_value_fseek_1=fseek(in, (signed long int)0, 0);
+  void *return_value_calloc_2;
+  void *return_value_calloc_3;
+  char *return_value_trim_path_4;
+  char *return_value___strdup_5;
+  char *return_value___strdup_6;
+  char *return_value___strdup_7;
+  char *return_value___strdup_8;
+  char *return_value___strdup_9;
+  char *return_value___strdup_10;
+  char *return_value___strdup_11;
+  char *return_value___strdup_12;
+  char *return_value___strdup_13;
+  char *return_value___strdup_14;
+  char *return_value___strdup_15;
+  char *return_value___strdup_16;
+  char *return_value___strdup_17;
+  char *return_value___strdup_18;
+  char *return_value___strdup_19;
+  char *return_value___strdup_20;
+  char *return_value___strdup_21;
+  if(return_value_fseek_1 == -1)
     fprintf(stderr, "%s: Failed to seek\n", path);
 
   else
   {
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
-    pcm = (struct pcm_struct *)return_value_calloc$2;
-    return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct anonymous$48) /*24ul*/ );
-    flac = (struct anonymous$48 *)return_value_calloc$3;
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
+    pcm = (struct pcm_struct *)return_value_calloc_2;
+    return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct anonymous_48) /*24ul*/ );
+    flac = (struct anonymous_48 *)return_value_calloc_3;
     decoder=FLAC__stream_decoder_new();
     FLAC__stream_decoder_set_md5_checking(decoder, 1);
-    FLAC__stream_decoder_set_metadata_respond(decoder, (enum anonymous$18)FLAC__METADATA_TYPE_STREAMINFO);
-    return_value_trim_path$4=trim_path(path);
-    return_value___strdup$5=__strdup(return_value_trim_path$4);
-    pcm->name = return_value___strdup$5;
+    FLAC__stream_decoder_set_metadata_respond(decoder, (enum anonymous_18)FLAC__METADATA_TYPE_STREAMINFO);
+    return_value_trim_path_4=trim_path(path);
+    return_value___strdup_5=__strdup(return_value_trim_path_4);
+    pcm->name = return_value___strdup_5;
     flac->in = in;
     flac->pcm = pcm;
     if(!(oggp == 0))
-      FLAC__stream_decoder_init_ogg_stream(decoder, read_callback, ((enum anonymous$41 (*)(const struct anonymous *, unsigned long int, void *))NULL), ((enum anonymous$42 (*)(const struct anonymous *, unsigned long int *, void *))NULL), ((enum anonymous$43 (*)(const struct anonymous *, unsigned long int *, void *))NULL), eof_callback, write_callback, metadata_callback, error_callback, (void *)flac);
+      FLAC__stream_decoder_init_ogg_stream(decoder, read_callback, ((enum anonymous_41 (*)(const struct anonymous *, unsigned long int, void *))NULL), ((enum anonymous_42 (*)(const struct anonymous *, unsigned long int *, void *))NULL), ((enum anonymous_43 (*)(const struct anonymous *, unsigned long int *, void *))NULL), eof_callback, write_callback, metadata_callback, error_callback, (void *)flac);
 
     else
-      FLAC__stream_decoder_init_stream(decoder, read_callback, ((enum anonymous$41 (*)(const struct anonymous *, unsigned long int, void *))NULL), ((enum anonymous$42 (*)(const struct anonymous *, unsigned long int *, void *))NULL), ((enum anonymous$43 (*)(const struct anonymous *, unsigned long int *, void *))NULL), eof_callback, write_callback, metadata_callback, error_callback, (void *)flac);
+      FLAC__stream_decoder_init_stream(decoder, read_callback, ((enum anonymous_41 (*)(const struct anonymous *, unsigned long int, void *))NULL), ((enum anonymous_42 (*)(const struct anonymous *, unsigned long int *, void *))NULL), ((enum anonymous_43 (*)(const struct anonymous *, unsigned long int *, void *))NULL), eof_callback, write_callback, metadata_callback, error_callback, (void *)flac);
     ret=FLAC__stream_decoder_process_until_end_of_stream(decoder);
     FLAC__stream_decoder_finish(decoder);
     FLAC__stream_decoder_delete(decoder);
@@ -4044,66 +4044,66 @@ static struct pcm_struct * flac_load_i(char *path, struct _IO_FILE *in, signed i
     {
       case 1:
       {
-        return_value___strdup$6=__strdup("M");
-        pcm->matrix = return_value___strdup$6;
-        return_value___strdup$7=__strdup("A");
-        pcm->mix = return_value___strdup$7;
+        return_value___strdup_6=__strdup("M");
+        pcm->matrix = return_value___strdup_6;
+        return_value___strdup_7=__strdup("A");
+        pcm->mix = return_value___strdup_7;
         break;
       }
       case 2:
       {
-        return_value___strdup$8=__strdup("L,R");
-        pcm->matrix = return_value___strdup$8;
-        return_value___strdup$9=__strdup("BC");
-        pcm->mix = return_value___strdup$9;
+        return_value___strdup_8=__strdup("L,R");
+        pcm->matrix = return_value___strdup_8;
+        return_value___strdup_9=__strdup("BC");
+        pcm->mix = return_value___strdup_9;
         break;
       }
       case 3:
       {
-        return_value___strdup$10=__strdup("L,R,C");
-        pcm->matrix = return_value___strdup$10;
-        return_value___strdup$11=__strdup("BCD");
-        pcm->mix = return_value___strdup$11;
+        return_value___strdup_10=__strdup("L,R,C");
+        pcm->matrix = return_value___strdup_10;
+        return_value___strdup_11=__strdup("BCD");
+        pcm->mix = return_value___strdup_11;
         break;
       }
       case 4:
       {
-        return_value___strdup$12=__strdup("L,R,BL,BR");
-        pcm->matrix = return_value___strdup$12;
-        return_value___strdup$13=__strdup("BCFG");
-        pcm->mix = return_value___strdup$13;
+        return_value___strdup_12=__strdup("L,R,BL,BR");
+        pcm->matrix = return_value___strdup_12;
+        return_value___strdup_13=__strdup("BCFG");
+        pcm->mix = return_value___strdup_13;
         break;
       }
       case 5:
       {
-        return_value___strdup$14=__strdup("L,R,C,BL,BR");
-        pcm->matrix = return_value___strdup$14;
-        return_value___strdup$15=__strdup("BCDFG");
-        pcm->mix = return_value___strdup$15;
+        return_value___strdup_14=__strdup("L,R,C,BL,BR");
+        pcm->matrix = return_value___strdup_14;
+        return_value___strdup_15=__strdup("BCDFG");
+        pcm->mix = return_value___strdup_15;
         break;
       }
       case 6:
       {
-        return_value___strdup$16=__strdup("L,R,C,LFE,BL,BR");
-        pcm->matrix = return_value___strdup$16;
-        return_value___strdup$17=__strdup("BCDEFG");
-        pcm->mix = return_value___strdup$17;
+        return_value___strdup_16=__strdup("L,R,C,LFE,BL,BR");
+        pcm->matrix = return_value___strdup_16;
+        return_value___strdup_17=__strdup("BCDEFG");
+        pcm->mix = return_value___strdup_17;
         break;
       }
       case 7:
       {
-        return_value___strdup$18=__strdup("L,R,C,LFE,BC,SL,SR");
-        pcm->matrix = return_value___strdup$18;
-        return_value___strdup$19=__strdup("BCDEJKL");
-        pcm->mix = return_value___strdup$19;
+        return_value___strdup_18=__strdup("L,R,C,LFE,BC,SL,SR");
+        pcm->matrix = return_value___strdup_18;
+        return_value___strdup_19=__strdup("BCDEJKL");
+        pcm->mix = return_value___strdup_19;
         break;
       }
       default:
       {
-        return_value___strdup$20=__strdup("L,R,C,LFE,BL,BR,SL,SR");
-        pcm->matrix = return_value___strdup$20;
-        return_value___strdup$21=__strdup("BCDEFGKL");
-        pcm->mix = return_value___strdup$21;
+        return_value___strdup_20=__strdup("L,R,C,LFE,BL,BR,SL,SR");
+        pcm->matrix = return_value___strdup_20;
+        return_value___strdup_21=__strdup("BCDEFGKL");
+        pcm->mix = return_value___strdup_21;
       }
     }
     if(!(sb_verbose == 0))
@@ -4145,13 +4145,13 @@ extern void free_pcm(struct pcm_struct *pcm)
 // file audio.c line 50
 static float get_clamp(struct pcm_struct *pcm)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pcm->nativebits >= 0)
-    tmp_if_expr$1 = pcm->nativebits < 24 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = pcm->nativebits < 24 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     return 1.f - 1.f / (float)(1 << pcm->nativebits - 1);
 
   else
@@ -4170,8 +4170,8 @@ extern float get_val(unsigned char *d, signed int bps)
 
   else
   {
-    signed int get_val$$1$$2$$i = ((signed int)d[(signed long int)0] << 8 | (signed int)d[(signed long int)1] << 16 | (signed int)d[(signed long int)2] << 24) >> 8;
-    return (float)get_val$$1$$2$$i;
+    signed int get_val__1__2__i = ((signed int)d[(signed long int)0] << 8 | (signed int)d[(signed long int)1] << 16 | (signed int)d[(signed long int)2] << 24) >> 8;
+    return (float)get_val__1__2__i;
   }
 }
 
@@ -4179,7 +4179,7 @@ extern float get_val(unsigned char *d, signed int bps)
 // file main.c line 308
 void * key_thread(void *arg)
 {
-  struct anonymous$24 *s = (struct anonymous$24 *)arg;
+  struct anonymous_24 *s = (struct anonymous_24 *)arg;
   pthread_mutex_lock(&s->mutex);
   while((_Bool)1)
   {
@@ -4224,21 +4224,21 @@ extern struct pcm_struct * load_audio_file(char *path)
   struct _IO_FILE *f;
   f=fopen(path, "rb");
   signed int j = 0;
-  signed int load_audio_file$$1$$fill;
+  signed int load_audio_file__1__fill;
   if(f == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Unable to open file %s: %s\n", path, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Unable to open file %s: %s\n", path, return_value_strerror_2);
     return (struct pcm_struct *)(void *)0;
   }
 
-  unsigned long int return_value_fread$3;
-  return_value_fread$3=fread((void *)buf, (unsigned long int)1, (unsigned long int)36, f);
-  load_audio_file$$1$$fill = (signed int)return_value_fread$3;
-  if(!(load_audio_file$$1$$fill >= 36))
+  unsigned long int return_value_fread_3;
+  return_value_fread_3=fread((void *)buf, (unsigned long int)1, (unsigned long int)36, f);
+  load_audio_file__1__fill = (signed int)return_value_fread_3;
+  if(!(load_audio_file__1__fill >= 36))
   {
     fprintf(stderr, "%s: Input file truncated or NULL\n", path);
     fclose(f);
@@ -4282,9 +4282,9 @@ signed int main(signed int argc, char **argv)
   unsigned char *fragmentB;
   unsigned long int playback_handle;
   unsigned long int fd_handle;
-  struct anonymous$24 state;
+  struct anonymous_24 state;
   signed int exit_fds[2l];
-  signed int main$$1$$c;
+  signed int main__1__c;
   signed int long_option_index;
   struct pcm_struct *pcm[10l];
   signed int test_mode = 3;
@@ -4298,8 +4298,8 @@ signed int main(signed int argc, char **argv)
   signed int restart_mode = 0;
   signed int beep_mode = 3;
   signed int tests = 20;
-  double main$$1$$start = (double)0;
-  double main$$1$$end = (double)-1;
+  double main__1__start = (double)0;
+  double main__1__end = (double)-1;
   signed int outbits = 0;
   struct ao_device *adev = (struct ao_device *)(void *)0;
   signed int randomize[10l];
@@ -4315,14 +4315,14 @@ signed int main(signed int argc, char **argv)
   signed int undos = 0;
   signed int seeks = 0;
   unsigned long int fragments_played = (unsigned long int)0;
-  char *return_value___strdup$1;
+  char *return_value___strdup_1;
   do
   {
-    main$$1$$c=getopt_long(argc, argv, short_options, long_options, &long_option_index);
-    if(main$$1$$c == -1)
+    main__1__c=getopt_long(argc, argv, short_options, long_options, &long_option_index);
+    if(main__1__c == -1)
       break;
 
-    switch(main$$1$$c)
+    switch(main__1__c)
     {
       case 104:
       {
@@ -4366,8 +4366,8 @@ signed int main(signed int argc, char **argv)
       }
       case 100:
       {
-        return_value___strdup$1=__strdup(optarg);
-        device = return_value___strdup$1;
+        return_value___strdup_1=__strdup(optarg);
+        device = return_value___strdup_1;
         break;
       }
       case 68:
@@ -4401,8 +4401,8 @@ signed int main(signed int argc, char **argv)
       }
       case 101:
       {
-        parse_time(optarg, &main$$1$$end);
-        if(main$$1$$end <= 0.000000)
+        parse_time(optarg, &main__1__end);
+        if(main__1__end <= 0.000000)
         {
           fprintf(stderr, "Error parsing argument to -e\n");
           exit(1);
@@ -4412,8 +4412,8 @@ signed int main(signed int argc, char **argv)
       }
       case 115:
       {
-        parse_time(optarg, &main$$1$$start);
-        if(main$$1$$start <= 0.000000)
+        parse_time(optarg, &main__1__start);
+        if(main__1__start <= 0.000000)
         {
           fprintf(stderr, "Error parsing argument to -s\n");
           exit(1);
@@ -4495,9 +4495,9 @@ signed int main(signed int argc, char **argv)
       exit(1);
     }
 
-  signed int return_value_pipe$2;
-  return_value_pipe$2=pipe(exit_fds);
-  if(!(return_value_pipe$2 == 0))
+  signed int return_value_pipe_2;
+  return_value_pipe_2=pipe(exit_fds);
+  if(!(return_value_pipe_2 == 0))
   {
     fprintf(stderr, "Failed to create interthread pipe.\n");
     exit(11);
@@ -4542,25 +4542,25 @@ signed int main(signed int argc, char **argv)
       exit(3);
     }
 
-    signed int return_value_abs$3;
-    return_value_abs$3=abs(pcm[(signed long int)i]->nativebits);
-    if(!(outbits >= return_value_abs$3))
+    signed int return_value_abs_3;
+    return_value_abs_3=abs(pcm[(signed long int)i]->nativebits);
+    if(!(outbits >= return_value_abs_3))
       outbits=abs(pcm[(signed long int)i]->nativebits);
 
   }
-  double tmp_if_expr$5;
-  double return_value_log$4;
+  double tmp_if_expr_5;
+  double return_value_log_4;
   if(att < 1.f && no_normalize == 0)
   {
     if(IEEE_FLOAT_EQUAL(att, 0.000000f))
-      tmp_if_expr$5 = (double)-400.f;
+      tmp_if_expr_5 = (double)-400.f;
 
     else
     {
-      return_value_log$4=log((double)(att * att));
-      tmp_if_expr$5 = return_value_log$4 * (double)4.34294480f;
+      return_value_log_4=log((double)(att * att));
+      tmp_if_expr_5 = return_value_log_4 * (double)4.34294480f;
     }
-    fprintf(stderr, "Normalizing all inputs by %+0.1fdB...", tmp_if_expr$5);
+    fprintf(stderr, "Normalizing all inputs by %+0.1fdB...", tmp_if_expr_5);
     i = 0;
     for( ; !(i >= test_files); i = i + 1)
     {
@@ -4610,7 +4610,7 @@ signed int main(signed int argc, char **argv)
     }
   }
 
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(outbits == 16)
   {
     if(!(no_normalize == 0))
@@ -4628,11 +4628,11 @@ signed int main(signed int argc, char **argv)
       for( ; !(i >= test_files); i = i + 1)
       {
         if(pcm[(signed long int)i]->nativebits >= 1)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = pcm[(signed long int)i]->nativebits <= 16 ? (_Bool)1 : (_Bool)0;
-        convert_to_16(pcm[(signed long int)i], tmp_if_expr$6 ? 0 : flag);
+          tmp_if_expr_6 = pcm[(signed long int)i]->nativebits <= 16 ? (_Bool)1 : (_Bool)0;
+        convert_to_16(pcm[(signed long int)i], tmp_if_expr_6 ? 0 : flag);
       }
     }
 
@@ -4651,32 +4651,32 @@ signed int main(signed int argc, char **argv)
       convert_to_24(pcm[(signed long int)i]);
   }
   i = 1;
-  signed int tmp_statement_expression$7;
+  signed int tmp_statement_expression_7;
   for( ; !(i >= test_files); i = i + 1)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$8;
-    return_value___builtin_strcmp$8=__builtin_strcmp(pcm[(signed long int)0]->matrix, pcm[(signed long int)i]->matrix);
-    tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-    if(!(tmp_statement_expression$7 == 0))
+    signed int return_value___builtin_strcmp_8;
+    return_value___builtin_strcmp_8=__builtin_strcmp(pcm[(signed long int)0]->matrix, pcm[(signed long int)i]->matrix);
+    tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+    if(!(tmp_statement_expression_7 == 0))
       reconcile_channel_maps(pcm[(signed long int)0], pcm[(signed long int)i]);
 
   }
   signed long int n = pcm[(signed long int)0]->size;
-  signed int main$$1$$12$$flag = 0;
+  signed int main__1__12__flag = 0;
   i = 1;
   for( ; !(i >= test_files); i = i + 1)
   {
     if(!(pcm[(signed long int)i]->size == n))
-      main$$1$$12$$flag = 1;
+      main__1__12__flag = 1;
 
     if(!(pcm[(signed long int)i]->size >= n))
       n = pcm[(signed long int)i]->size;
 
   }
-  char *return_value_make_time_string$9;
-  if(!(main$$1$$12$$flag == 0))
+  char *return_value_make_time_string_9;
+  if(!(main__1__12__flag == 0))
   {
     if(!(sb_verbose == 0))
       fprintf(stderr, "Input sample lengths do not match!\n");
@@ -4686,8 +4686,8 @@ signed int main(signed int argc, char **argv)
     {
       if(!(sb_verbose == 0))
       {
-        return_value_make_time_string$9=make_time_string((((double)pcm[(signed long int)i]->size / (double)pcm[(signed long int)i]->ch) / (double)((pcm[(signed long int)i]->currentbits + 7) / 8)) / (double)pcm[(signed long int)i]->rate, 0);
-        fprintf(stderr, "\t%s: %s\n", pcm[(signed long int)i]->name, return_value_make_time_string$9);
+        return_value_make_time_string_9=make_time_string((((double)pcm[(signed long int)i]->size / (double)pcm[(signed long int)i]->ch) / (double)((pcm[(signed long int)i]->currentbits + 7) / 8)) / (double)pcm[(signed long int)i]->rate, 0);
+        fprintf(stderr, "\t%s: %s\n", pcm[(signed long int)i]->name, return_value_make_time_string_9);
       }
 
       pcm[(signed long int)i]->size = n;
@@ -4701,11 +4701,11 @@ signed int main(signed int argc, char **argv)
   i = 0;
   for( ; !(i >= 10); i = i + 1)
     randomize[(signed long int)i] = i;
-  signed long int return_value_time$10;
-  return_value_time$10=time((signed long int *)(void *)0);
-  signed int return_value_getpid$11;
-  return_value_getpid$11=getpid();
-  srandom((unsigned int)(return_value_time$10 + (signed long int)return_value_getpid$11));
+  signed long int return_value_time_10;
+  return_value_time_10=time((signed long int *)(void *)0);
+  signed int return_value_getpid_11;
+  return_value_getpid_11=getpid();
+  srandom((unsigned int)(return_value_time_10 + (signed long int)return_value_getpid_11));
   randomize_samples(randomize, &cchoice, test_mode);
   signed int current_sample = randomize[(signed long int)0];
   signed int current_choice = 0;
@@ -4722,59 +4722,59 @@ signed int main(signed int argc, char **argv)
   signed int rate = pcm[(signed long int)0]->rate;
   signed int size = (signed int)pcm[(signed long int)0]->size;
   signed long int start_pos;
-  double return_value_rint$12;
-  return_value_rint$12=rint(main$$1$$start * (double)rate * (double)bpf);
-  start_pos = (signed long int)return_value_rint$12;
+  double return_value_rint_12;
+  return_value_rint_12=rint(main__1__start * (double)rate * (double)bpf);
+  start_pos = (signed long int)return_value_rint_12;
   signed long int end_pos;
-  double tmp_if_expr$14;
-  double return_value_rint$13;
-  if(main$$1$$end > 0.000000)
+  double tmp_if_expr_14;
+  double return_value_rint_13;
+  if(main__1__end > 0.000000)
   {
-    return_value_rint$13=rint(main$$1$$end * (double)rate * (double)bpf);
-    tmp_if_expr$14 = return_value_rint$13;
+    return_value_rint_13=rint(main__1__end * (double)rate * (double)bpf);
+    tmp_if_expr_14 = return_value_rint_13;
   }
 
   else
-    tmp_if_expr$14 = (double)size;
-  end_pos = (signed long int)tmp_if_expr$14;
+    tmp_if_expr_14 = (double)size;
+  end_pos = (signed long int)tmp_if_expr_14;
   signed long int current_pos;
   signed int paused = 0;
   double base = (double)(1.f / (float)(rate * bpf));
   double len = (double)pcm[(signed long int)0]->size * base;
   fragsize = fragsamples * bpf;
-  if(main$$1$$end >= 0.000000 && main$$1$$start >= main$$1$$end)
+  if(main__1__end >= 0.000000 && main__1__start >= main__1__end)
   {
     fprintf(stderr, "Specified start and end times must not overlap.\n");
     exit(1);
   }
 
-  if(main$$1$$end > len)
+  if(main__1__end > len)
   {
     fprintf(stderr, "Specified end time beyond end of playback.\n");
     exit(1);
   }
 
-  if(main$$1$$start >= len)
+  if(main__1__start >= len)
   {
     fprintf(stderr, "Specified start time beyond end of playback.\n");
     exit(1);
   }
 
   atexit(min_panel_remove);
-  panel_init(pcm, test_files, test_mode, main$$1$$start, main$$1$$end > (double)0 ? main$$1$$end : len, len, beep_mode, restart_mode, tests, running_score);
-  memset((void *)&state, 0, sizeof(struct anonymous$24) /*224ul*/ );
-  pthread_mutex_init(&state.mutex, (const union anonymous$34 *)(void *)0);
-  pthread_cond_init(&state.main_cond, (const union anonymous$34 *)(void *)0);
-  pthread_cond_init(&state.play_cond, (const union anonymous$34 *)(void *)0);
-  pthread_cond_init(&state.key_cond, (const union anonymous$34 *)(void *)0);
+  panel_init(pcm, test_files, test_mode, main__1__start, main__1__end > (double)0 ? main__1__end : len, len, beep_mode, restart_mode, tests, running_score);
+  memset((void *)&state, 0, sizeof(struct anonymous_24) /*224ul*/ );
+  pthread_mutex_init(&state.mutex, (const union anonymous_34 *)(void *)0);
+  pthread_cond_init(&state.main_cond, (const union anonymous_34 *)(void *)0);
+  pthread_cond_init(&state.play_cond, (const union anonymous_34 *)(void *)0);
+  pthread_cond_init(&state.key_cond, (const union anonymous_34 *)(void *)0);
   state.adev = adev;
   state.exit_fd = exit_fds[(signed long int)0];
-  void *return_value_calloc$15;
-  return_value_calloc$15=calloc((unsigned long int)fragsize, (unsigned long int)1);
-  fragmentA = (unsigned char *)return_value_calloc$15;
-  void *return_value_calloc$16;
-  return_value_calloc$16=calloc((unsigned long int)fragsize, (unsigned long int)1);
-  fragmentB = (unsigned char *)return_value_calloc$16;
+  void *return_value_calloc_15;
+  return_value_calloc_15=calloc((unsigned long int)fragsize, (unsigned long int)1);
+  fragmentA = (unsigned char *)return_value_calloc_15;
+  void *return_value_calloc_16;
+  return_value_calloc_16=calloc((unsigned long int)fragsize, (unsigned long int)1);
+  fragmentB = (unsigned char *)return_value_calloc_16;
   if(fragmentA == ((unsigned char *)NULL) || fragmentB == ((unsigned char *)NULL))
   {
     fprintf(stderr, "Failed to allocate internal fragment memory\n");
@@ -4794,24 +4794,24 @@ signed int main(signed int argc, char **argv)
     end_pos = (signed long int)size;
 
   current_pos = start_pos;
-  signed int return_value_pthread_create$17;
-  return_value_pthread_create$17=pthread_create(&playback_handle, (const union pthread_attr_t *)(void *)0, playback_thread, (void *)&state);
-  if(!(return_value_pthread_create$17 == 0))
+  signed int return_value_pthread_create_17;
+  return_value_pthread_create_17=pthread_create(&playback_handle, (const union pthread_attr_t *)(void *)0, playback_thread, (void *)&state);
+  if(!(return_value_pthread_create_17 == 0))
   {
     fprintf(stderr, "Failed to create playback thread.\n");
     exit(7);
   }
 
-  signed int return_value_pthread_create$18;
-  return_value_pthread_create$18=pthread_create(&fd_handle, (const union pthread_attr_t *)(void *)0, key_thread, (void *)&state);
-  if(!(return_value_pthread_create$18 == 0))
+  signed int return_value_pthread_create_18;
+  return_value_pthread_create_18=pthread_create(&fd_handle, (const union pthread_attr_t *)(void *)0, key_thread, (void *)&state);
+  if(!(return_value_pthread_create_18 == 0))
   {
     fprintf(stderr, "Failed to create playback thread.\n");
     exit(7);
   }
 
   pthread_mutex_lock(&state.mutex);
-  float tmp_if_expr$21;
+  float tmp_if_expr_21;
   while((_Bool)1)
   {
     signed int c;
@@ -5265,7 +5265,7 @@ signed int main(signed int argc, char **argv)
       }
       if(!(do_flip == 0) || !(do_seek == 0) || !(do_select == 0))
       {
-        signed int main$$1$$14$$7$$3$$5$$j;
+        signed int main__1__14__7__3__5__j;
         unsigned char *A = fragmentA;
         unsigned char *B = fragmentB;
         float *wA = fadewindow1;
@@ -5307,19 +5307,19 @@ signed int main(signed int argc, char **argv)
         i = 0;
         for( ; !(i >= fragsamples); i = i + 1)
         {
-          main$$1$$14$$7$$3$$5$$j = 0;
-          for( ; !(main$$1$$14$$7$$3$$5$$j >= ch); main$$1$$14$$7$$3$$5$$j = main$$1$$14$$7$$3$$5$$j + 1)
+          main__1__14__7__3__5__j = 0;
+          for( ; !(main__1__14__7__3__5__j >= ch); main__1__14__7__3__5__j = main__1__14__7__3__5__j + 1)
           {
-            float return_value_get_val$19;
-            return_value_get_val$19=get_val(A, bps);
-            float return_value_get_val$20;
-            return_value_get_val$20=get_val(B, bps);
+            float return_value_get_val_19;
+            return_value_get_val_19=get_val(A, bps);
+            float return_value_get_val_20;
+            return_value_get_val_20=get_val(B, bps);
             if(!(beep == ((float *)NULL)))
-              tmp_if_expr$21 = beep[(signed long int)i];
+              tmp_if_expr_21 = beep[(signed long int)i];
 
             else
-              tmp_if_expr$21 = 0.f;
-            put_val(A, bps, return_value_get_val$19 * wA[(signed long int)i] + return_value_get_val$20 * *(wB - (signed long int)i) + tmp_if_expr$21);
+              tmp_if_expr_21 = 0.f;
+            put_val(A, bps, return_value_get_val_19 * wA[(signed long int)i] + return_value_get_val_20 * *(wB - (signed long int)i) + tmp_if_expr_21);
             A = A + (signed long int)bps;
             B = B + (signed long int)bps;
           }
@@ -5332,38 +5332,38 @@ signed int main(signed int argc, char **argv)
       else
         if(!(do_pause == 0))
         {
-          unsigned char *main$$1$$14$$7$$3$$6$$A = fragmentA;
-          signed int main$$1$$14$$7$$3$$6$$j;
+          unsigned char *main__1__14__7__3__6__A = fragmentA;
+          signed int main__1__14__7__3__6__j;
           if(!(paused == 0))
           {
-            float *main$$1$$14$$7$$3$$6$$1$$wA = (fadewindow1 + (signed long int)fragsamples) - (signed long int)1;
+            float *main__1__14__7__3__6__1__wA = (fadewindow1 + (signed long int)fragsamples) - (signed long int)1;
             i = 0;
             for( ; !(i >= fragsamples); i = i + 1)
             {
-              main$$1$$14$$7$$3$$6$$j = 0;
-              for( ; !(main$$1$$14$$7$$3$$6$$j >= ch); main$$1$$14$$7$$3$$6$$j = main$$1$$14$$7$$3$$6$$j + 1)
+              main__1__14__7__3__6__j = 0;
+              for( ; !(main__1__14__7__3__6__j >= ch); main__1__14__7__3__6__j = main__1__14__7__3__6__j + 1)
               {
-                float return_value_get_val$22;
-                return_value_get_val$22=get_val(main$$1$$14$$7$$3$$6$$A, bps);
-                put_val(main$$1$$14$$7$$3$$6$$A, bps, return_value_get_val$22 * *(main$$1$$14$$7$$3$$6$$1$$wA - (signed long int)i));
-                main$$1$$14$$7$$3$$6$$A = main$$1$$14$$7$$3$$6$$A + (signed long int)bps;
+                float return_value_get_val_22;
+                return_value_get_val_22=get_val(main__1__14__7__3__6__A, bps);
+                put_val(main__1__14__7__3__6__A, bps, return_value_get_val_22 * *(main__1__14__7__3__6__1__wA - (signed long int)i));
+                main__1__14__7__3__6__A = main__1__14__7__3__6__A + (signed long int)bps;
               }
             }
           }
 
           else
           {
-            float *main$$1$$14$$7$$3$$6$$2$$wA = fadewindow1;
+            float *main__1__14__7__3__6__2__wA = fadewindow1;
             i = 0;
             for( ; !(i >= fragsamples); i = i + 1)
             {
-              main$$1$$14$$7$$3$$6$$j = 0;
-              for( ; !(main$$1$$14$$7$$3$$6$$j >= ch); main$$1$$14$$7$$3$$6$$j = main$$1$$14$$7$$3$$6$$j + 1)
+              main__1__14__7__3__6__j = 0;
+              for( ; !(main__1__14__7__3__6__j >= ch); main__1__14__7__3__6__j = main__1__14__7__3__6__j + 1)
               {
-                float return_value_get_val$23;
-                return_value_get_val$23=get_val(main$$1$$14$$7$$3$$6$$A, bps);
-                put_val(main$$1$$14$$7$$3$$6$$A, bps, return_value_get_val$23 * main$$1$$14$$7$$3$$6$$2$$wA[(signed long int)i]);
-                main$$1$$14$$7$$3$$6$$A = main$$1$$14$$7$$3$$6$$A + (signed long int)bps;
+                float return_value_get_val_23;
+                return_value_get_val_23=get_val(main__1__14__7__3__6__A, bps);
+                put_val(main__1__14__7__3__6__A, bps, return_value_get_val_23 * main__1__14__7__3__6__2__wA[(signed long int)i]);
+                main__1__14__7__3__6__A = main__1__14__7__3__6__A + (signed long int)bps;
               }
             }
           }
@@ -5413,14 +5413,14 @@ signed int main(signed int argc, char **argv)
     }
     if(test_mode == 0)
     {
-      double main$$1$$15$$3$$p;
-      main$$1$$15$$3$$p=compute_pdual(total1, tests_cursor);
+      double main__1__15__3__p;
+      main__1__15__3__p=compute_pdual(total1, tests_cursor);
       if(total1 >= 1 && !(total1 >= tests_cursor))
-        fprintf(stdout, "\tProbability of equal/more significant result via random chance: %.2f%%\n", main$$1$$15$$3$$p * (double)100);
+        fprintf(stdout, "\tProbability of equal/more significant result via random chance: %.2f%%\n", main__1__15__3__p * (double)100);
 
       else
-        fprintf(stdout, "\tProbability of equally significant result via random chance: %.2f%%\n", main$$1$$15$$3$$p * (double)100);
-      if(main$$1$$15$$3$$p < .01)
+        fprintf(stdout, "\tProbability of equally significant result via random chance: %.2f%%\n", main__1__15__3__p * (double)100);
+      if(main__1__15__3__p < .01)
         fprintf(stdout, "\tStatistically significant result (>=99%% confidence).\n");
 
     }
@@ -5442,9 +5442,9 @@ signed int main(signed int argc, char **argv)
     if(!(tests_cursor >= tests))
       fprintf(stdout, "\tTest was aborted early (%d/%d trials).\n", tests_cursor, tests);
 
-    char *return_value_make_time_string$24;
-    return_value_make_time_string$24=make_time_string((double)fragments_played * .1, 0);
-    fprintf(stdout, "\tTotal time spent testing: %s\n", return_value_make_time_string$24);
+    char *return_value_make_time_string_24;
+    return_value_make_time_string_24=make_time_string((double)fragments_played * .1, 0);
+    fprintf(stdout, "\tTotal time spent testing: %s\n", return_value_make_time_string_24);
     fprintf(stdout, "\tTotal seeks: %d\n", seeks);
     if(!(flips[0l] == 0))
       fprintf(stdout, "\tMark flip used %d times.\n", flips[(signed long int)0]);
@@ -5499,9 +5499,9 @@ signed int main(signed int argc, char **argv)
 extern char * make_time_string(double is, signed int pad)
 {
   double s;
-  double return_value_rint$1;
-  return_value_rint$1=rint(is * (double)100);
-  s = return_value_rint$1 / 100. + 1.e-6;
+  double return_value_rint_1;
+  return_value_rint_1=rint(is * (double)100);
+  s = return_value_rint_1 / 100. + 1.e-6;
   signed long int hrs = (signed long int)((s / (double)60) / (double)60);
   signed long int min = (signed long int)(s / (double)60 - (double)(hrs * (signed long int)60));
   signed long int sec = (signed long int)((s - (double)(hrs * (signed long int)60 * (signed long int)60)) - (double)(min * (signed long int)60));
@@ -5524,9 +5524,9 @@ extern char * make_time_string(double is, signed int pad)
 
 // metadata_callback
 // file loader.c line 893
-static void metadata_callback(const struct anonymous *decoder, const struct anonymous$38 *metadata, void *client_data)
+static void metadata_callback(const struct anonymous *decoder, const struct anonymous_38 *metadata, void *client_data)
 {
-  struct anonymous$48 *flac = (struct anonymous$48 *)client_data;
+  struct anonymous_48 *flac = (struct anonymous_48 *)client_data;
   struct pcm_struct *pcm = flac->pcm;
   if((signed int)metadata->type == FLAC__METADATA_TYPE_STREAMINFO)
   {
@@ -5546,12 +5546,12 @@ extern signed int min_bg(signed int c)
     if(bg >= 0)
     {
       bg = -1;
-      signed int return_value_unset$1;
-      return_value_unset$1=unset();
-      ret = ret | return_value_unset$1;
-      signed int return_value_reset$2;
-      return_value_reset$2=reset();
-      ret = ret | return_value_reset$2;
+      signed int return_value_unset_1;
+      return_value_unset_1=unset();
+      ret = ret | return_value_unset_1;
+      signed int return_value_reset_2;
+      return_value_reset_2=reset();
+      ret = ret | return_value_reset_2;
     }
 
   }
@@ -5573,12 +5573,12 @@ extern signed int min_blink(signed int flag)
     if(!(blink == 0))
     {
       blink = 0;
-      signed int return_value_unset$1;
-      return_value_unset$1=unset();
-      ret = ret | return_value_unset$1;
-      signed int return_value_reset$2;
-      return_value_reset$2=reset();
-      ret = ret | return_value_reset$2;
+      signed int return_value_unset_1;
+      return_value_unset_1=unset();
+      ret = ret | return_value_unset_1;
+      signed int return_value_reset_2;
+      return_value_reset_2=reset();
+      ret = ret | return_value_reset_2;
     }
 
   }
@@ -5600,12 +5600,12 @@ extern signed int min_bold(signed int flag)
     if(!(bold == 0))
     {
       bold = 0;
-      signed int return_value_unset$1;
-      return_value_unset$1=unset();
-      ret = ret | return_value_unset$1;
-      signed int return_value_reset$2;
-      return_value_reset$2=reset();
-      ret = ret | return_value_reset$2;
+      signed int return_value_unset_1;
+      return_value_unset_1=unset();
+      ret = ret | return_value_unset_1;
+      signed int return_value_reset_2;
+      return_value_reset_2=reset();
+      ret = ret | return_value_reset_2;
     }
 
   }
@@ -5652,18 +5652,18 @@ extern signed int min_color(signed int f, signed int b)
   signed int ret = 0;
   fg = -1;
   bg = -1;
-  signed int return_value_unset$1;
-  return_value_unset$1=unset();
-  ret = ret | return_value_unset$1;
-  signed int return_value_reset$2;
-  return_value_reset$2=reset();
-  ret = ret | return_value_reset$2;
-  signed int return_value_min_fg$3;
-  return_value_min_fg$3=min_fg(f);
-  ret = ret | return_value_min_fg$3;
-  signed int return_value_min_bg$4;
-  return_value_min_bg$4=min_bg(b);
-  ret = ret | return_value_min_bg$4;
+  signed int return_value_unset_1;
+  return_value_unset_1=unset();
+  ret = ret | return_value_unset_1;
+  signed int return_value_reset_2;
+  return_value_reset_2=reset();
+  ret = ret | return_value_reset_2;
+  signed int return_value_min_fg_3;
+  return_value_min_fg_3=min_fg(f);
+  ret = ret | return_value_min_fg_3;
+  signed int return_value_min_bg_4;
+  return_value_min_bg_4=min_bg(b);
+  ret = ret | return_value_min_bg_4;
   return ret;
 }
 
@@ -5677,12 +5677,12 @@ extern signed int min_fg(signed int c)
     if(fg >= 0)
     {
       fg = -1;
-      signed int return_value_unset$1;
-      return_value_unset$1=unset();
-      ret = ret | return_value_unset$1;
-      signed int return_value_reset$2;
-      return_value_reset$2=reset();
-      ret = ret | return_value_reset$2;
+      signed int return_value_unset_1;
+      return_value_unset_1=unset();
+      ret = ret | return_value_unset_1;
+      signed int return_value_reset_2;
+      return_value_reset_2=reset();
+      ret = ret | return_value_reset_2;
     }
 
   }
@@ -5700,28 +5700,28 @@ extern signed int min_flush()
 {
   signed int len = buf_fill;
   char *b = outbuf;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   while(!(len == 0))
   {
     signed int ret;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
-    signed long int return_value_write$2;
-    return_value_write$2=write(outfd, (const void *)b, (unsigned long int)len);
-    ret = (signed int)return_value_write$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
+    signed long int return_value_write_2;
+    return_value_write_2=write(outfd, (const void *)b, (unsigned long int)len);
+    ret = (signed int)return_value_write_2;
     if(!(ret >= 1))
     {
       if(ret == 0)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$3=__errno_location();
-        tmp_if_expr$4 = *return_value___errno_location$3 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_3=__errno_location();
+        tmp_if_expr_4 = *return_value___errno_location_3 == 4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
         continue;
 
       return -1;
@@ -5747,15 +5747,15 @@ extern signed int min_getch(signed int nonblock)
     minc_init_keytry();
 
   ptr = keytree;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; (_Bool)1; ptr = ptr->child)
   {
     if(!(head == -1) && !(peek == head))
-      tmp_if_expr$1 = fifo[(signed long int)head] >= 0401 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = fifo[(signed long int)head] >= 0401 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       break;
 
     else
@@ -5826,12 +5826,12 @@ extern signed int min_gfx(signed int flag)
       else
       {
         acs = 0;
-        signed int return_value_unset$1;
-        return_value_unset$1=unset();
-        ret = ret | return_value_unset$1;
-        signed int return_value_reset$2;
-        return_value_reset$2=reset();
-        ret = ret | return_value_reset$2;
+        signed int return_value_unset_1;
+        return_value_unset_1=unset();
+        ret = ret | return_value_unset_1;
+        signed int return_value_reset_2;
+        return_value_reset_2=reset();
+        ret = ret | return_value_reset_2;
       }
     }
 
@@ -5877,11 +5877,11 @@ extern void min_mvcur(signed int x, signed int y)
 
     cursor_line_offset = cursor_line_offset + 1;
   }
-  char *return_value_tparm$1;
+  char *return_value_tparm_1;
   if(!(cur_term->type.Strings[8l] == ((char *)NULL)))
   {
-    return_value_tparm$1=tparm(cur_term->type.Strings[(signed long int)8], x);
-    min_putp(return_value_tparm$1);
+    return_value_tparm_1=tparm(cur_term->type.Strings[(signed long int)8], x);
+    min_putp(return_value_tparm_1);
   }
 
 }
@@ -5901,11 +5901,11 @@ extern signed int min_panel_contract(signed int l, signed int bottomp)
       min_mvcur(0, panel_lines - l);
       if(!(cur_term->type.Strings[106l] == ((char *)NULL)))
       {
-        char *return_value_tparm$1;
-        return_value_tparm$1=tparm(cur_term->type.Strings[(signed long int)106], l);
-        signed int return_value_min_putp$2;
-        return_value_min_putp$2=min_putp(return_value_tparm$1);
-        ret = ret | return_value_min_putp$2;
+        char *return_value_tparm_1;
+        return_value_tparm_1=tparm(cur_term->type.Strings[(signed long int)106], l);
+        signed int return_value_min_putp_2;
+        return_value_min_putp_2=min_putp(return_value_tparm_1);
+        ret = ret | return_value_min_putp_2;
       }
 
       else
@@ -5917,11 +5917,11 @@ extern signed int min_panel_contract(signed int l, signed int bottomp)
       min_mvcur(0, 0);
       if(!(cur_term->type.Strings[106l] == ((char *)NULL)))
       {
-        char *return_value_tparm$3;
-        return_value_tparm$3=tparm(cur_term->type.Strings[(signed long int)106], l);
-        signed int return_value_min_putp$4;
-        return_value_min_putp$4=min_putp(return_value_tparm$3);
-        ret = ret | return_value_min_putp$4;
+        char *return_value_tparm_3;
+        return_value_tparm_3=tparm(cur_term->type.Strings[(signed long int)106], l);
+        signed int return_value_min_putp_4;
+        return_value_min_putp_4=min_putp(return_value_tparm_3);
+        ret = ret | return_value_min_putp_4;
       }
 
       else
@@ -5939,7 +5939,7 @@ extern signed int min_panel_expand(signed int l, signed int bottomp)
 {
   signed int i;
   signed int ret = 0;
-  signed int return_value_min_putstr$1;
+  signed int return_value_min_putstr_1;
   if(!((signed int)cur_term->type.Numbers[2l] >= l + panel_lines))
     return 1;
 
@@ -5951,8 +5951,8 @@ extern signed int min_panel_expand(signed int l, signed int bottomp)
       i = 0;
       for( ; !(i >= l + -1); i = i + 1)
       {
-        return_value_min_putstr$1=min_putstr("\n\r");
-        ret = ret | return_value_min_putstr$1;
+        return_value_min_putstr_1=min_putstr("\n\r");
+        ret = ret | return_value_min_putstr_1;
       }
       panel_lines = panel_lines + l;
       cursor_line_offset = panel_lines - 1;
@@ -5964,11 +5964,11 @@ extern signed int min_panel_expand(signed int l, signed int bottomp)
       min_mvcur(0, 0);
       if(!(cur_term->type.Strings[110l] == ((char *)NULL)))
       {
-        char *return_value_tparm$2;
-        return_value_tparm$2=tparm(cur_term->type.Strings[(signed long int)110], l);
-        signed int return_value_min_putp$3;
-        return_value_min_putp$3=min_putp(return_value_tparm$2);
-        ret = ret | return_value_min_putp$3;
+        char *return_value_tparm_2;
+        return_value_tparm_2=tparm(cur_term->type.Strings[(signed long int)110], l);
+        signed int return_value_min_putp_3;
+        return_value_min_putp_3=min_putp(return_value_tparm_2);
+        ret = ret | return_value_min_putp_3;
       }
 
       else
@@ -5986,15 +5986,15 @@ extern signed int min_panel_init(signed int pl)
 {
   signed int i;
   signed int ret = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  char *return_value_tparm$5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  char *return_value_tparm_5;
   if(initted == 0)
   {
-    signed int return_value_isatty$1;
-    return_value_isatty$1=isatty(1);
-    if(!(return_value_isatty$1 == 0))
+    signed int return_value_isatty_1;
+    return_value_isatty_1=isatty(1);
+    if(!(return_value_isatty_1 == 0))
       outfd = 1;
 
     else
@@ -6004,21 +6004,21 @@ extern signed int min_panel_init(signed int pl)
     setup_term_customize();
     _nc_init_acs();
     if(cur_term->type.Strings[19l] == ((char *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = !(cur_term->type.Strings[(signed long int)11] != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = !(cur_term->type.Strings[(signed long int)11] != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = !(cur_term->type.Strings[(signed long int)8] != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = !(cur_term->type.Strings[(signed long int)8] != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = pl > (signed int)cur_term->type.Numbers[(signed long int)2] ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = pl > (signed int)cur_term->type.Numbers[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       tcsetattr(outfd, 1, &orig);
       return -1;
@@ -6026,8 +6026,8 @@ extern signed int min_panel_init(signed int pl)
 
     if(!(cur_term->type.Strings[89l] == ((char *)NULL)))
     {
-      return_value_tparm$5=tparm(cur_term->type.Strings[(signed long int)89], 1);
-      min_putp(return_value_tparm$5);
+      return_value_tparm_5=tparm(cur_term->type.Strings[(signed long int)89], 1);
+      min_putp(return_value_tparm_5);
     }
 
     minc_init_keytry();
@@ -6052,9 +6052,9 @@ extern void min_panel_remove(void)
     if(!(cur_term->type.Strings[106l] == ((char *)NULL)))
     {
       min_mvcur(0, 0);
-      char *return_value_tparm$1;
-      return_value_tparm$1=tparm(cur_term->type.Strings[(signed long int)106], panel_lines);
-      min_putp(return_value_tparm$1);
+      char *return_value_tparm_1;
+      return_value_tparm_1=tparm(cur_term->type.Strings[(signed long int)106], panel_lines);
+      min_putp(return_value_tparm_1);
     }
 
     min_unset();
@@ -6072,11 +6072,11 @@ extern signed int min_putchar(signed int c)
 {
   outbuf[(signed long int)buf_fill] = (char)c;
   buf_fill = buf_fill + 1;
-  signed int return_value_min_flush$1;
+  signed int return_value_min_flush_1;
   if(buf_fill == 160)
   {
-    return_value_min_flush$1=min_flush();
-    return return_value_min_flush$1;
+    return_value_min_flush_1=min_flush();
+    return return_value_min_flush_1;
   }
 
   else
@@ -6087,9 +6087,9 @@ extern signed int min_putchar(signed int c)
 // file mincurses.c line 299
 extern signed int min_putp(const char *str)
 {
-  signed int return_value_tputs$1;
-  return_value_tputs$1=tputs(str, 1, min_putchar);
-  return return_value_tputs$1;
+  signed int return_value_tputs_1;
+  return_value_tputs_1=tputs(str, 1, min_putchar);
+  return return_value_tputs_1;
 }
 
 // min_putstr
@@ -6097,12 +6097,12 @@ extern signed int min_putp(const char *str)
 extern signed int min_putstr(const char *str)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  len = (signed int)return_value_strlen$1;
-  signed int return_value_min_write$2;
-  return_value_min_write$2=min_write(str, len);
-  return return_value_min_write$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  len = (signed int)return_value_strlen_1;
+  signed int return_value_min_write_2;
+  return_value_min_write_2=min_write(str, len);
+  return return_value_min_write_2;
 }
 
 // min_putstrb
@@ -6124,12 +6124,12 @@ extern signed int min_reverse(signed int flag)
     if(!(rev == 0))
     {
       rev = 0;
-      signed int return_value_unset$1;
-      return_value_unset$1=unset();
-      ret = ret | return_value_unset$1;
-      signed int return_value_reset$2;
-      return_value_reset$2=reset();
-      ret = ret | return_value_reset$2;
+      signed int return_value_unset_1;
+      return_value_unset_1=unset();
+      ret = ret | return_value_unset_1;
+      signed int return_value_reset_2;
+      return_value_reset_2=reset();
+      ret = ret | return_value_reset_2;
     }
 
   }
@@ -6173,12 +6173,12 @@ extern signed int min_underline(signed int flag)
       else
       {
         ul = 0;
-        signed int return_value_unset$1;
-        return_value_unset$1=unset();
-        ret = ret | return_value_unset$1;
-        signed int return_value_reset$2;
-        return_value_reset$2=reset();
-        ret = ret | return_value_reset$2;
+        signed int return_value_unset_1;
+        return_value_unset_1=unset();
+        ret = ret | return_value_unset_1;
+        signed int return_value_reset_2;
+        return_value_reset_2=reset();
+        ret = ret | return_value_reset_2;
       }
     }
 
@@ -6202,9 +6202,9 @@ extern signed int min_unset(void)
   blink = 0;
   acs = 0;
   ul = 0;
-  signed int return_value_unset$1;
-  return_value_unset$1=unset();
-  return return_value_unset$1;
+  signed int return_value_unset_1;
+  return_value_unset_1=unset();
+  return return_value_unset_1;
 }
 
 // min_write
@@ -6243,17 +6243,17 @@ static void minc_init_keytry()
       _nc_add_to_try(&keytree, tp->Strings[(signed long int)_nc_tinfo_fkeys[(signed long int)n].offset], (unsigned int)_nc_tinfo_fkeys[(signed long int)n].code);
 
   n = (unsigned long int)414;
-  char *tmp_if_expr$1;
-  signed int return_value_find_definition$2;
+  char *tmp_if_expr_1;
+  signed int return_value_find_definition_2;
   for( ; !(n >= (unsigned long int)tp->num_Strings); n = n + 1ul)
   {
     const char *name;
     if(n >= 414ul)
-      tmp_if_expr$1 = tp->ext_Names[(signed long int)((n - (unsigned long int)((signed int)tp->num_Strings - (signed int)tp->ext_Strings)) + (unsigned long int)((signed int)tp->ext_Numbers + (signed int)tp->ext_Booleans))];
+      tmp_if_expr_1 = tp->ext_Names[(signed long int)((n - (unsigned long int)((signed int)tp->num_Strings - (signed int)tp->ext_Strings)) + (unsigned long int)((signed int)tp->ext_Numbers + (signed int)tp->ext_Booleans))];
 
     else
-      tmp_if_expr$1 = strnames[(signed long int)n];
-    name = tmp_if_expr$1;
+      tmp_if_expr_1 = strnames[(signed long int)n];
+    name = tmp_if_expr_1;
     char *value = tp->Strings[(signed long int)n];
     if(!(name == ((const char *)NULL)))
     {
@@ -6261,8 +6261,8 @@ static void minc_init_keytry()
       {
         if(!(value == ((char *)NULL)))
         {
-          return_value_find_definition$2=find_definition(keytree, value);
-          if(return_value_find_definition$2 == 0)
+          return_value_find_definition_2=find_definition(keytree, value);
+          if(return_value_find_definition_2 == 0)
             _nc_add_to_try(&keytree, value, (unsigned int)((n - (unsigned long int)414) + (unsigned long int)0777));
 
         }
@@ -6279,38 +6279,38 @@ static void minc_init_keytry()
 // file loader.c line 108
 static signed int oggflac_id(char *path, unsigned char *buf)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)buf, (const void *)"OggS", (unsigned long int)4);
-  _Bool tmp_if_expr$5;
-  signed int return_value_memcmp$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_flac_id$3;
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)buf, (const void *)"OggS", (unsigned long int)4);
+  _Bool tmp_if_expr_5;
+  signed int return_value_memcmp_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_flac_id_3;
+  if(return_value_memcmp_1 == 0)
   {
-    return_value_memcmp$2=memcmp((const void *)(buf + (signed long int)28), (const void *)"\177FLAC", (unsigned long int)5);
-    if(return_value_memcmp$2 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    return_value_memcmp_2=memcmp((const void *)(buf + (signed long int)28), (const void *)"\177FLAC", (unsigned long int)5);
+    if(return_value_memcmp_2 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_flac_id$3=flac_id(path, buf + (signed long int)28);
-      tmp_if_expr$4 = return_value_flac_id$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_flac_id_3=flac_id(path, buf + (signed long int)28);
+      tmp_if_expr_4 = return_value_flac_id_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  return (signed int)tmp_if_expr$5;
+    tmp_if_expr_5 = (_Bool)0;
+  return (signed int)tmp_if_expr_5;
 }
 
 // oggflac_load
 // file loader.c line 1026
 static struct pcm_struct * oggflac_load(char *path, struct _IO_FILE *in)
 {
-  struct pcm_struct *return_value_flac_load_i$1;
-  return_value_flac_load_i$1=flac_load_i(path, in, 1);
-  return return_value_flac_load_i$1;
+  struct pcm_struct *return_value_flac_load_i_1;
+  return_value_flac_load_i_1=flac_load_i(path, in, 1);
+  return return_value_flac_load_i_1;
 }
 
 // opc_close
@@ -6324,46 +6324,46 @@ signed int opc_close(void *_stream)
 // file loader.c line 1143
 signed int opc_read(void *_stream, unsigned char *_ptr, signed int _nbytes)
 {
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)_ptr, (unsigned long int)1, (unsigned long int)_nbytes, (struct _IO_FILE *)_stream);
-  return (signed int)return_value_fread$1;
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)_ptr, (unsigned long int)1, (unsigned long int)_nbytes, (struct _IO_FILE *)_stream);
+  return (signed int)return_value_fread_1;
 }
 
 // opc_seek
 // file loader.c line 1147
 signed int opc_seek(void *_stream, signed long long int _offset, signed int _whence)
 {
-  signed int return_value_fseek$1;
-  return_value_fseek$1=fseek((struct _IO_FILE *)_stream, _offset, _whence);
-  return return_value_fseek$1;
+  signed int return_value_fseek_1;
+  return_value_fseek_1=fseek((struct _IO_FILE *)_stream, _offset, _whence);
+  return return_value_fseek_1;
 }
 
 // opc_tell
 // file loader.c line 1151
 signed long long int opc_tell(void *_stream)
 {
-  signed long int return_value_ftell$1;
-  return_value_ftell$1=ftell((struct _IO_FILE *)_stream);
-  return return_value_ftell$1;
+  signed long int return_value_ftell_1;
+  return_value_ftell_1=ftell((struct _IO_FILE *)_stream);
+  return return_value_ftell_1;
 }
 
 // opus_id
 // file loader.c line 119
 static signed int opus_id(char *path, unsigned char *buf)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)buf, (const void *)"OggS", (unsigned long int)4);
-  _Bool tmp_if_expr$3;
-  signed int return_value_memcmp$2;
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)buf, (const void *)"OggS", (unsigned long int)4);
+  _Bool tmp_if_expr_3;
+  signed int return_value_memcmp_2;
+  if(return_value_memcmp_1 == 0)
   {
-    return_value_memcmp$2=memcmp((const void *)(buf + (signed long int)28), (const void *)"OpusHead", (unsigned long int)8);
-    tmp_if_expr$3 = return_value_memcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_memcmp_2=memcmp((const void *)(buf + (signed long int)28), (const void *)"OpusHead", (unsigned long int)8);
+    tmp_if_expr_3 = return_value_memcmp_2 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  return (signed int)tmp_if_expr$3;
+    tmp_if_expr_3 = (_Bool)0;
+  return (signed int)tmp_if_expr_3;
 }
 
 // opus_load
@@ -6372,35 +6372,35 @@ static struct pcm_struct * opus_load(char *path, struct _IO_FILE *in)
 {
   struct OggOpusFile *of;
   struct pcm_struct *pcm = (struct pcm_struct *)(void *)0;
-  signed long int opus_load$$1$$fill = (signed long int)0;
+  signed long int opus_load__1__fill = (signed long int)0;
   signed int throttle = 0;
   signed int last_section = -1;
-  signed int return_value_fseek$1;
-  return_value_fseek$1=fseek(in, (signed long int)0, 0);
-  void *return_value_calloc$2;
-  char *return_value_trim_path$3;
-  char *return_value___strdup$4;
-  signed long int return_value_op_pcm_total$5;
-  void *return_value_calloc$6;
-  char *return_value___strdup$7;
-  char *return_value___strdup$8;
-  char *return_value___strdup$9;
-  char *return_value___strdup$10;
-  char *return_value___strdup$11;
-  char *return_value___strdup$12;
-  char *return_value___strdup$13;
-  char *return_value___strdup$14;
-  char *return_value___strdup$15;
-  char *return_value___strdup$16;
-  char *return_value___strdup$17;
-  char *return_value___strdup$18;
-  char *return_value___strdup$19;
-  char *return_value___strdup$20;
-  char *return_value___strdup$21;
-  char *return_value___strdup$22;
-  signed long int tmp_post$25;
-  float *tmp_post$26;
-  if(return_value_fseek$1 == -1)
+  signed int return_value_fseek_1;
+  return_value_fseek_1=fseek(in, (signed long int)0, 0);
+  void *return_value_calloc_2;
+  char *return_value_trim_path_3;
+  char *return_value___strdup_4;
+  signed long int return_value_op_pcm_total_5;
+  void *return_value_calloc_6;
+  char *return_value___strdup_7;
+  char *return_value___strdup_8;
+  char *return_value___strdup_9;
+  char *return_value___strdup_10;
+  char *return_value___strdup_11;
+  char *return_value___strdup_12;
+  char *return_value___strdup_13;
+  char *return_value___strdup_14;
+  char *return_value___strdup_15;
+  char *return_value___strdup_16;
+  char *return_value___strdup_17;
+  char *return_value___strdup_18;
+  char *return_value___strdup_19;
+  char *return_value___strdup_20;
+  char *return_value___strdup_21;
+  char *return_value___strdup_22;
+  signed long int tmp_post_25;
+  float *tmp_post_26;
+  if(return_value_fseek_1 == -1)
     fprintf(stderr, "%s: Failed to seek\n", path);
 
   else
@@ -6411,103 +6411,103 @@ static struct pcm_struct * opus_load(char *path, struct _IO_FILE *in)
 
     else
     {
-      return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
-      pcm = (struct pcm_struct *)return_value_calloc$2;
-      return_value_trim_path$3=trim_path(path);
-      return_value___strdup$4=__strdup(return_value_trim_path$3);
-      pcm->name = return_value___strdup$4;
+      return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
+      pcm = (struct pcm_struct *)return_value_calloc_2;
+      return_value_trim_path_3=trim_path(path);
+      return_value___strdup_4=__strdup(return_value_trim_path_3);
+      pcm->name = return_value___strdup_4;
       pcm->nativebits = -32;
       pcm->currentbits = -32;
       pcm->ch=op_channel_count(of, -1);
       pcm->rate = 48000;
-      return_value_op_pcm_total$5=op_pcm_total(of, -1);
-      pcm->size = (signed long int)((unsigned long int)(return_value_op_pcm_total$5 * (signed long int)pcm->ch) * sizeof(float) /*4ul*/ );
-      return_value_calloc$6=calloc((unsigned long int)pcm->size, (unsigned long int)1);
-      pcm->data = (unsigned char *)return_value_calloc$6;
+      return_value_op_pcm_total_5=op_pcm_total(of, -1);
+      pcm->size = (signed long int)((unsigned long int)(return_value_op_pcm_total_5 * (signed long int)pcm->ch) * sizeof(float) /*4ul*/ );
+      return_value_calloc_6=calloc((unsigned long int)pcm->size, (unsigned long int)1);
+      pcm->data = (unsigned char *)return_value_calloc_6;
       switch(pcm->ch)
       {
         case 1:
         {
-          return_value___strdup$7=__strdup("M");
-          pcm->matrix = return_value___strdup$7;
-          return_value___strdup$8=__strdup("A");
-          pcm->mix = return_value___strdup$8;
+          return_value___strdup_7=__strdup("M");
+          pcm->matrix = return_value___strdup_7;
+          return_value___strdup_8=__strdup("A");
+          pcm->mix = return_value___strdup_8;
           break;
         }
         case 2:
         {
-          return_value___strdup$9=__strdup("L,R");
-          pcm->matrix = return_value___strdup$9;
-          return_value___strdup$10=__strdup("BC");
-          pcm->mix = return_value___strdup$10;
+          return_value___strdup_9=__strdup("L,R");
+          pcm->matrix = return_value___strdup_9;
+          return_value___strdup_10=__strdup("BC");
+          pcm->mix = return_value___strdup_10;
           break;
         }
         case 3:
         {
-          return_value___strdup$11=__strdup("L,C,R");
-          pcm->matrix = return_value___strdup$11;
-          return_value___strdup$12=__strdup("BDC");
-          pcm->mix = return_value___strdup$12;
+          return_value___strdup_11=__strdup("L,C,R");
+          pcm->matrix = return_value___strdup_11;
+          return_value___strdup_12=__strdup("BDC");
+          pcm->mix = return_value___strdup_12;
           break;
         }
         case 4:
         {
-          return_value___strdup$13=__strdup("L,R,BL,BR");
-          pcm->matrix = return_value___strdup$13;
-          return_value___strdup$14=__strdup("BCFG");
-          pcm->mix = return_value___strdup$14;
+          return_value___strdup_13=__strdup("L,R,BL,BR");
+          pcm->matrix = return_value___strdup_13;
+          return_value___strdup_14=__strdup("BCFG");
+          pcm->mix = return_value___strdup_14;
           break;
         }
         case 5:
         {
-          return_value___strdup$15=__strdup("L,C,R,BL,BR");
-          pcm->matrix = return_value___strdup$15;
-          return_value___strdup$16=__strdup("BDCFG");
-          pcm->mix = return_value___strdup$16;
+          return_value___strdup_15=__strdup("L,C,R,BL,BR");
+          pcm->matrix = return_value___strdup_15;
+          return_value___strdup_16=__strdup("BDCFG");
+          pcm->mix = return_value___strdup_16;
           break;
         }
         case 6:
         {
-          return_value___strdup$17=__strdup("L,C,R,BL,BR,LFE");
-          pcm->matrix = return_value___strdup$17;
-          return_value___strdup$18=__strdup("BDCFGE");
-          pcm->mix = return_value___strdup$18;
+          return_value___strdup_17=__strdup("L,C,R,BL,BR,LFE");
+          pcm->matrix = return_value___strdup_17;
+          return_value___strdup_18=__strdup("BDCFGE");
+          pcm->mix = return_value___strdup_18;
           break;
         }
         case 7:
         {
-          return_value___strdup$19=__strdup("L,C,R,SL,SR,BC,LFE");
-          pcm->matrix = return_value___strdup$19;
-          return_value___strdup$20=__strdup("BDCKLJE");
-          pcm->mix = return_value___strdup$20;
+          return_value___strdup_19=__strdup("L,C,R,SL,SR,BC,LFE");
+          pcm->matrix = return_value___strdup_19;
+          return_value___strdup_20=__strdup("BDCKLJE");
+          pcm->mix = return_value___strdup_20;
           break;
         }
         default:
         {
-          return_value___strdup$21=__strdup("L,C,R,SL,SR,BL,BR,LFE");
-          pcm->matrix = return_value___strdup$21;
-          return_value___strdup$22=__strdup("BDCKLFGE");
-          pcm->mix = return_value___strdup$22;
+          return_value___strdup_21=__strdup("L,C,R,SL,SR,BL,BR,LFE");
+          pcm->matrix = return_value___strdup_21;
+          return_value___strdup_22=__strdup("BDCKLFGE");
+          pcm->mix = return_value___strdup_22;
         }
       }
-      while(!(sizeof(float) /*4ul*/  * (unsigned long int)opus_load$$1$$fill >= (unsigned long int)pcm->size))
+      while(!(sizeof(float) /*4ul*/  * (unsigned long int)opus_load__1__fill >= (unsigned long int)pcm->size))
       {
         signed int current_section;
         signed int i;
         signed int j;
         float pcmout[4096l];
         signed long int ret;
-        signed int return_value_op_read_float$23;
-        return_value_op_read_float$23=op_read_float(of, pcmout, 4096, &current_section);
-        ret = (signed long int)return_value_op_read_float$23;
+        signed int return_value_op_read_float_23;
+        return_value_op_read_float_23=op_read_float(of, pcmout, 4096, &current_section);
+        ret = (signed long int)return_value_op_read_float_23;
         float *d = (float *)pcm->data;
         float *s = pcmout;
         if(!(current_section == last_section))
         {
           last_section = current_section;
-          signed int return_value_op_channel_count$24;
-          return_value_op_channel_count$24=op_channel_count(of, -1);
-          if(!(return_value_op_channel_count$24 == pcm->ch))
+          signed int return_value_op_channel_count_24;
+          return_value_op_channel_count_24=op_channel_count(of, -1);
+          if(!(return_value_op_channel_count_24 == pcm->ch))
           {
             fprintf(stderr, "%s: Chained file changes channel count\n", path);
             goto err;
@@ -6533,15 +6533,15 @@ static struct pcm_struct * opus_load(char *path, struct _IO_FILE *in)
           j = 0;
           for( ; !(j >= pcm->ch); j = j + 1)
           {
-            tmp_post$25 = opus_load$$1$$fill;
-            opus_load$$1$$fill = opus_load$$1$$fill + 1l;
-            tmp_post$26 = s;
+            tmp_post_25 = opus_load__1__fill;
+            opus_load__1__fill = opus_load__1__fill + 1l;
+            tmp_post_26 = s;
             s = s + 1l;
-            d[tmp_post$25] = *tmp_post$26;
+            d[tmp_post_25] = *tmp_post_26;
           }
         }
         if((0x3f & throttle) == 0 && !(sb_verbose == 0))
-          fprintf(stderr, "\rLoading %s: %ld to go...       ", pcm->name, (signed long int)((unsigned long int)pcm->size - (unsigned long int)opus_load$$1$$fill * sizeof(float) /*4ul*/ ));
+          fprintf(stderr, "\rLoading %s: %ld to go...       ", pcm->name, (signed long int)((unsigned long int)pcm->size - (unsigned long int)opus_load__1__fill * sizeof(float) /*4ul*/ ));
 
         throttle = throttle + 1;
       }
@@ -6564,9 +6564,9 @@ err:
 // file main.h line 71
 extern void panel_init(struct pcm_struct **pcm, signed int test_files, signed int test_mode, double start, double end, double size, signed int flip_mode, signed int repeat_mode, signed int trials, signed int gabba)
 {
-  signed int return_value_min_panel_init$1;
-  return_value_min_panel_init$1=min_panel_init((test_mode == 3 ? test_files + 6 : 7) + (gabba != 0 ? 1 : 0));
-  if(!(return_value_min_panel_init$1 == 0))
+  signed int return_value_min_panel_init_1;
+  return_value_min_panel_init_1=min_panel_init((test_mode == 3 ? test_files + 6 : 7) + (gabba != 0 ? 1 : 0));
+  if(!(return_value_min_panel_init_1 == 0))
   {
     fprintf(stderr, "Unable to initialize terminal (possibly insufficient lines)\n");
     exit(101);
@@ -6607,23 +6607,23 @@ void panel_redraw_full(void)
   signed int i = 2;
   if(p_tm == 3)
   {
-    signed int return_value_draw_samples_box$1;
-    return_value_draw_samples_box$1=draw_samples_box(i);
-    i = i + return_value_draw_samples_box$1;
+    signed int return_value_draw_samples_box_1;
+    return_value_draw_samples_box_1=draw_samples_box(i);
+    i = i + return_value_draw_samples_box_1;
   }
 
   else
   {
-    signed int return_value_draw_trials_box$2;
-    return_value_draw_trials_box$2=draw_trials_box(i);
-    i = i + return_value_draw_trials_box$2;
+    signed int return_value_draw_trials_box_2;
+    return_value_draw_trials_box_2=draw_trials_box(i);
+    i = i + return_value_draw_trials_box_2;
   }
-  signed int return_value_draw_playbar$3;
-  return_value_draw_playbar$3=draw_playbar(i);
-  i = i + return_value_draw_playbar$3;
-  signed int return_value_draw_timebar$4;
-  return_value_draw_timebar$4=draw_timebar(i);
-  i = i + return_value_draw_timebar$4;
+  signed int return_value_draw_playbar_3;
+  return_value_draw_playbar_3=draw_playbar(i);
+  i = i + return_value_draw_playbar_3;
+  signed int return_value_draw_timebar_4;
+  return_value_draw_timebar_4=draw_timebar(i);
+  i = i + return_value_draw_timebar_4;
   draw_topbar(1);
   force = 1;
   panel_update_pause(p_pau);
@@ -6647,17 +6647,17 @@ extern void panel_toggle_keymap(void)
   signed int l = 8;
   signed int o = 1;
   signed int x = ((signed int)cur_term->type.Numbers[(signed long int)0] - 70) / 2;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
   if(p_keymap == 0)
   {
-    signed int return_value_min_panel_expand$1;
-    return_value_min_panel_expand$1=min_panel_expand(l, 0);
-    if(!(return_value_min_panel_expand$1 == 0))
+    signed int return_value_min_panel_expand_1;
+    return_value_min_panel_expand_1=min_panel_expand(l, 0);
+    if(!(return_value_min_panel_expand_1 == 0))
       goto __CPROVER_DUMP_L5;
 
     p_keymap = (signed int)!(p_keymap != 0);
@@ -6667,16 +6667,16 @@ extern void panel_toggle_keymap(void)
     boxrow = boxrow + l;
     fliprow = fliprow + l;
     min_fg(6);
-    tmp_post$2 = o;
+    tmp_post_2 = o;
     o = o + 1;
-    min_mvcur(x, tmp_post$2);
+    min_mvcur(x, tmp_post_2);
     min_putstrb(" a b x 1 2 3... ");
     min_putstr(": Flip sample    ");
     min_putstrb("      A B ! @ # ");
     min_putstr(": Choose sample  ");
-    tmp_post$3 = o;
+    tmp_post_3 = o;
     o = o + 1;
-    min_mvcur(x, tmp_post$3);
+    min_mvcur(x, tmp_post_3);
     min_putstrb("        <enter> ");
     min_putstr(": Choose current ");
     if(p_g == 0)
@@ -6685,30 +6685,30 @@ extern void panel_toggle_keymap(void)
       min_putstr(": Undo/redo trial");
     }
 
-    tmp_post$4 = o;
+    tmp_post_4 = o;
     o = o + 1;
-    min_mvcur(x, tmp_post$4);
+    min_mvcur(x, tmp_post_4);
     min_putstrb("   <left/right> ");
     min_putstr(": Seek           ");
     min_putstrb("      <up/down> ");
     min_putstr(": Flip (casual)  ");
-    tmp_post$5 = o;
+    tmp_post_5 = o;
     o = o + 1;
-    min_mvcur(x, tmp_post$5);
+    min_mvcur(x, tmp_post_5);
     min_putstrb("        <space> ");
     min_putstr(": Pause/resume   ");
     min_putstrb("      <backspc> ");
     min_putstr(": Seek to start  ");
-    tmp_post$6 = o;
+    tmp_post_6 = o;
     o = o + 1;
-    min_mvcur(x, tmp_post$6);
+    min_mvcur(x, tmp_post_6);
     min_putstrb("        s S e E ");
     min_putstr(": set start/end  ");
     min_putstrb("            f r ");
     min_putstr(": Toggle modes   ");
-    tmp_post$7 = o;
+    tmp_post_7 = o;
     o = o + 1;
-    min_mvcur(x, tmp_post$7);
+    min_mvcur(x, tmp_post_7);
     min_putstrb("              ? ");
     min_putstr(": Toggle keymap  ");
     min_putstrb("      Control-c ");
@@ -6736,9 +6736,9 @@ __CPROVER_DUMP_L5:
 extern void panel_update_current(double time)
 {
   signed int now;
-  double return_value_floor$1;
-  return_value_floor$1=floor((time / p_len) * (double)cur_term->type.Numbers[(signed long int)0]);
-  now = (signed int)return_value_floor$1;
+  double return_value_floor_1;
+  return_value_floor_1=floor((time / p_len) * (double)cur_term->type.Numbers[(signed long int)0]);
+  now = (signed int)return_value_floor_1;
   if(now >= (signed int)*cur_term->type.Numbers)
     now = (signed int)cur_term->type.Numbers[(signed long int)0] - 1;
 
@@ -6747,20 +6747,20 @@ extern void panel_update_current(double time)
     p_cur = time;
     min_mvcur((signed int)cur_term->type.Numbers[(signed long int)0] / 2 - 7, timerow);
     min_putchar(32);
-    char *panel_update_current$$1$$1$$1$$time;
-    panel_update_current$$1$$1$$1$$time=make_time_string(p_cur, 1);
-    min_putstr(panel_update_current$$1$$1$$1$$time);
+    char *panel_update_current__1__1__1__time;
+    panel_update_current__1__1__1__time=make_time_string(p_cur, 1);
+    min_putstr(panel_update_current__1__1__1__time);
     min_putchar(32);
     if(!(force == 0) || !(was == now))
     {
       signed int pre;
-      double return_value_floor$2;
-      return_value_floor$2=floor((p_st / p_len) * (double)cur_term->type.Numbers[(signed long int)0]);
-      pre = (signed int)return_value_floor$2;
+      double return_value_floor_2;
+      return_value_floor_2=floor((p_st / p_len) * (double)cur_term->type.Numbers[(signed long int)0]);
+      pre = (signed int)return_value_floor_2;
       signed int post;
-      double return_value_floor$3;
-      return_value_floor$3=floor((p_end / p_len) * (double)cur_term->type.Numbers[(signed long int)0] + (double)1.e-6f);
-      post = (signed int)return_value_floor$3;
+      double return_value_floor_3;
+      return_value_floor_3=floor((p_end / p_len) * (double)cur_term->type.Numbers[(signed long int)0] + (double)1.e-6f);
+      post = (signed int)return_value_floor_3;
       min_bold(1);
       min_gfx(1);
       if(was >= 0)
@@ -6804,9 +6804,9 @@ extern void panel_update_end(double time)
 
     else
     {
-      char *panel_update_end$$1$$1$$2$$time;
-      panel_update_end$$1$$1$$2$$time=make_time_string(p_end, 1);
-      min_putstr(panel_update_end$$1$$1$$2$$time);
+      char *panel_update_end__1__1__2__time;
+      panel_update_end__1__1__2__time=make_time_string(p_end, 1);
+      min_putstr(panel_update_end__1__1__2__time);
     }
     min_putchar(32);
     draw_playbar(playrow);
@@ -6913,20 +6913,20 @@ extern void panel_update_pause(signed int flag)
 // file main.h line 73
 extern void panel_update_playing(signed int n)
 {
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_3;
   if(!(force == 0) || !(n == p_pl))
   {
     if(p_tm == 3)
     {
       min_mvcur(1, boxrow + 1 + p_pl);
       min_putchar(32);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(pcm_p[(signed long int)p_pl]->name);
-      if(!((unsigned long int)((signed int)*cur_term->type.Numbers + -4) >= return_value_strlen$2))
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(pcm_p[(signed long int)p_pl]->name);
+      if(!((unsigned long int)((signed int)*cur_term->type.Numbers + -4) >= return_value_strlen_2))
       {
-        return_value_strlen$1=strlen(pcm_p[(signed long int)p_pl]->name);
-        min_putstr(((pcm_p[(signed long int)p_pl]->name + (signed long int)return_value_strlen$1) - (signed long int)cur_term->type.Numbers[(signed long int)0]) + (signed long int)4);
+        return_value_strlen_1=strlen(pcm_p[(signed long int)p_pl]->name);
+        min_putstr(((pcm_p[(signed long int)p_pl]->name + (signed long int)return_value_strlen_1) - (signed long int)cur_term->type.Numbers[(signed long int)0]) + (signed long int)4);
       }
 
       else
@@ -6934,12 +6934,12 @@ extern void panel_update_playing(signed int n)
       min_mvcur(1, boxrow + 1 + n);
       min_putchar(62);
       min_bold(1);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(pcm_p[(signed long int)n]->name);
-      if(!((unsigned long int)((signed int)*cur_term->type.Numbers + -4) >= return_value_strlen$4))
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(pcm_p[(signed long int)n]->name);
+      if(!((unsigned long int)((signed int)*cur_term->type.Numbers + -4) >= return_value_strlen_4))
       {
-        return_value_strlen$3=strlen(pcm_p[(signed long int)n]->name);
-        min_putstr(((pcm_p[(signed long int)n]->name + (signed long int)return_value_strlen$3) - (signed long int)cur_term->type.Numbers[(signed long int)0]) + (signed long int)4);
+        return_value_strlen_3=strlen(pcm_p[(signed long int)n]->name);
+        min_putstr(((pcm_p[(signed long int)n]->name + (signed long int)return_value_strlen_3) - (signed long int)cur_term->type.Numbers[(signed long int)0]) + (signed long int)4);
       }
 
       else
@@ -7042,9 +7042,9 @@ extern void panel_update_start(double time)
 
     else
     {
-      char *panel_update_start$$1$$1$$2$$time;
-      panel_update_start$$1$$1$$2$$time=make_time_string(p_st, 1);
-      min_putstr(panel_update_start$$1$$1$$2$$time);
+      char *panel_update_start__1__1__2__time;
+      panel_update_start__1__1__2__time=make_time_string(p_st, 1);
+      min_putstr(panel_update_start__1__1__2__time);
     }
     min_putchar(32);
     draw_playbar(playrow);
@@ -7060,36 +7060,36 @@ extern void panel_update_start(double time)
 // file main.h line 79
 extern void panel_update_trials(char *choices, char *correct, signed int n)
 {
-  _Bool tmp_if_expr$14;
-  signed int return_value_memcmp$13;
+  _Bool tmp_if_expr_14;
+  signed int return_value_memcmp_13;
   if(!(force == 0) || !(n == p_tn))
-    tmp_if_expr$14 = (_Bool)1;
+    tmp_if_expr_14 = (_Bool)1;
 
   else
   {
-    return_value_memcmp$13=memcmp((const void *)p_tl, (const void *)choices, (unsigned long int)n);
-    tmp_if_expr$14 = return_value_memcmp$13 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_memcmp_13=memcmp((const void *)p_tl, (const void *)choices, (unsigned long int)n);
+    tmp_if_expr_14 = return_value_memcmp_13 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$14)
+  if(tmp_if_expr_14)
   {
-    const signed long int panel_update_trials$array_size0 = (signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] + 1);
-    char panel_update_trials$$1$$1$$buf[panel_update_trials$array_size0];
+    const signed long int panel_update_trials_array_size0 = (signed long int)((signed int)cur_term->type.Numbers[(signed long int)0] + 1);
+    char panel_update_trials__1__1__buf[panel_update_trials_array_size0];
     signed int i;
     p_tn = n;
     min_mvcur(1, boxrow + 1);
-    sprintf(panel_update_trials$$1$$1$$buf, " %d/%d trials: ", p_tn, p_tmax);
-    min_putstr(panel_update_trials$$1$$1$$buf);
+    sprintf(panel_update_trials__1__1__buf, " %d/%d trials: ", p_tn, p_tmax);
+    min_putstr(panel_update_trials__1__1__buf);
     memcpy((void *)p_tl, (const void *)choices, (unsigned long int)n);
     memcpy((void *)p_tc, (const void *)correct, (unsigned long int)n);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(panel_update_trials$$1$$1$$buf);
-    if(!((unsigned long int)*cur_term->type.Numbers + -return_value_strlen$2 + 18446744073709551613ul >= (unsigned long int)n))
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(panel_update_trials__1__1__buf);
+    if(!((unsigned long int)*cur_term->type.Numbers + -return_value_strlen_2 + 18446744073709551613ul >= (unsigned long int)n))
     {
       min_fg(6);
       min_putstr("...");
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(panel_update_trials$$1$$1$$buf);
-      i = (signed int)((unsigned long int)(n - (signed int)cur_term->type.Numbers[(signed long int)0]) + return_value_strlen$1 + (unsigned long int)6);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(panel_update_trials__1__1__buf);
+      i = (signed int)((unsigned long int)(n - (signed int)cur_term->type.Numbers[(signed long int)0]) + return_value_strlen_1 + (unsigned long int)6);
     }
 
     else
@@ -7122,9 +7122,9 @@ extern void panel_update_trials(char *choices, char *correct, signed int n)
         min_putchar((signed int)p_tl[(signed long int)i] + 49);
     }
     min_unset();
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(panel_update_trials$$1$$1$$buf);
-    i = i + (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(panel_update_trials__1__1__buf);
+    i = i + (signed int)return_value_strlen_3;
     for( ; !(i >= (signed int)*cur_term->type.Numbers + -2); i = i + 1)
       min_putchar(32);
     if(!(p_g == 0))
@@ -7145,55 +7145,55 @@ extern void panel_update_trials(char *choices, char *correct, signed int n)
         char bufBn[10l];
         char *Ap = bufA;
         char *Bp = bufB;
-        double panel_update_trials$$1$$1$$5$$2$$p;
-        panel_update_trials$$1$$1$$5$$2$$p=compute_pdual(count, n);
+        double panel_update_trials__1__1__5__2__p;
+        panel_update_trials__1__1__5__2__p=compute_pdual(count, n);
         snprintf(bufA, (unsigned long int)4096, "%s: ", pcm_p[(signed long int)0]->name);
         snprintf(bufB, (unsigned long int)4096, "%s: ", pcm_p[(signed long int)1]->name);
         snprintf(bufAn, (unsigned long int)10, "%d ", n - count);
         snprintf(bufBn, (unsigned long int)10, "%d ", count);
         if(n >= 2)
-          sprintf(panel_update_trials$$1$$1$$buf, " p': %.2g ", (float)panel_update_trials$$1$$1$$5$$2$$p);
+          sprintf(panel_update_trials__1__1__buf, " p': %.2g ", (float)panel_update_trials__1__1__5__2__p);
 
         else
-          sprintf(panel_update_trials$$1$$1$$buf, " p': --- ");
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(panel_update_trials$$1$$1$$buf);
-        col = col - (signed int)return_value_strlen$4;
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(bufA);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(bufAn);
-        Ac = (signed int)(return_value_strlen$5 + return_value_strlen$6);
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(bufB);
-        unsigned long int return_value_strlen$8;
-        return_value_strlen$8=strlen(bufBn);
-        Bc = (signed int)(return_value_strlen$7 + return_value_strlen$8);
+          sprintf(panel_update_trials__1__1__buf, " p': --- ");
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(panel_update_trials__1__1__buf);
+        col = col - (signed int)return_value_strlen_4;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(bufA);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(bufAn);
+        Ac = (signed int)(return_value_strlen_5 + return_value_strlen_6);
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(bufB);
+        unsigned long int return_value_strlen_8;
+        return_value_strlen_8=strlen(bufBn);
+        Bc = (signed int)(return_value_strlen_7 + return_value_strlen_8);
         if(!(col >= Ac + Bc))
         {
           if(col / 2 >= Ac)
           {
-            unsigned long int return_value_strlen$9;
-            return_value_strlen$9=strlen(bufBn);
-            Bp=dottrim(bufB, (signed int)((unsigned long int)(col - Ac) - return_value_strlen$9));
+            unsigned long int return_value_strlen_9;
+            return_value_strlen_9=strlen(bufBn);
+            Bp=dottrim(bufB, (signed int)((unsigned long int)(col - Ac) - return_value_strlen_9));
           }
 
           else
             if(col / 2 >= Bc)
             {
-              unsigned long int return_value_strlen$10;
-              return_value_strlen$10=strlen(bufAn);
-              Ap=dottrim(bufA, (signed int)((unsigned long int)(col - Bc) - return_value_strlen$10));
+              unsigned long int return_value_strlen_10;
+              return_value_strlen_10=strlen(bufAn);
+              Ap=dottrim(bufA, (signed int)((unsigned long int)(col - Bc) - return_value_strlen_10));
             }
 
             else
             {
-              unsigned long int return_value_strlen$11;
-              return_value_strlen$11=strlen(bufAn);
-              Ap=dottrim(bufA, (signed int)((unsigned long int)(col / 2) - return_value_strlen$11));
-              unsigned long int return_value_strlen$12;
-              return_value_strlen$12=strlen(bufBn);
-              Bp=dottrim(bufB, (signed int)((unsigned long int)(col - col / 2) - return_value_strlen$12));
+              unsigned long int return_value_strlen_11;
+              return_value_strlen_11=strlen(bufAn);
+              Ap=dottrim(bufA, (signed int)((unsigned long int)(col / 2) - return_value_strlen_11));
+              unsigned long int return_value_strlen_12;
+              return_value_strlen_12=strlen(bufBn);
+              Bp=dottrim(bufB, (signed int)((unsigned long int)(col - col / 2) - return_value_strlen_12));
             }
         }
 
@@ -7208,21 +7208,21 @@ extern void panel_update_trials(char *choices, char *correct, signed int n)
         min_putstr(bufBn);
         min_unset();
         min_putstr(" p': ");
-        if(panel_update_trials$$1$$1$$5$$2$$p < .01)
+        if(panel_update_trials__1__1__5__2__p < .01)
           min_fg(2);
 
-        min_putstr(panel_update_trials$$1$$1$$buf + (signed long int)5);
+        min_putstr(panel_update_trials__1__1__buf + (signed long int)5);
       }
 
       else
       {
         double p;
         p=compute_psingle(count, n);
-        sprintf(panel_update_trials$$1$$1$$buf, " Score: %d/%d  p': ", count, n);
-        min_putstr(panel_update_trials$$1$$1$$buf);
+        sprintf(panel_update_trials__1__1__buf, " Score: %d/%d  p': ", count, n);
+        min_putstr(panel_update_trials__1__1__buf);
         if(!(n == 0))
         {
-          sprintf(panel_update_trials$$1$$1$$buf, "%.2g   ", (float)p);
+          sprintf(panel_update_trials__1__1__buf, "%.2g   ", (float)p);
           if(p < .01)
             min_fg(2);
 
@@ -7231,9 +7231,9 @@ extern void panel_update_trials(char *choices, char *correct, signed int n)
         else
         {
           min_fg(6);
-          sprintf(panel_update_trials$$1$$1$$buf, "---    ");
+          sprintf(panel_update_trials__1__1__buf, "---    ");
         }
-        min_putstr(panel_update_trials$$1$$1$$buf);
+        min_putstr(panel_update_trials__1__1__buf);
       }
     }
 
@@ -7252,25 +7252,25 @@ static signed int parse_time(char *s, double *t)
   char *end;
   signed int err = 0;
   secl = (signed long int)0;
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(optarg, 58);
-  pos = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(optarg, 58);
+  pos = return_value___builtin_strchr_1;
   if(!(pos == ((const char *)NULL)))
   {
     char *pos2;
-    signed long int return_value_strtol$2;
-    return_value_strtol$2=strtol(optarg, &end, 10);
-    secl = return_value_strtol$2 * (signed long int)60;
+    signed long int return_value_strtol_2;
+    return_value_strtol_2=strtol(optarg, &end, 10);
+    secl = return_value_strtol_2 * (signed long int)60;
     err = err | (signed int)(pos != end);
     pos = pos + 1l;
-    char *return_value___builtin_strchr$3;
-    return_value___builtin_strchr$3=__builtin_strchr(pos, 58);
-    pos2 = return_value___builtin_strchr$3;
+    char *return_value___builtin_strchr_3;
+    return_value___builtin_strchr_3=__builtin_strchr(pos, 58);
+    pos2 = return_value___builtin_strchr_3;
     if(!(pos2 == ((char *)NULL)))
     {
-      signed long int return_value_strtol$4;
-      return_value_strtol$4=strtol(pos, &end, 10);
-      secl = (secl + return_value_strtol$4) * (signed long int)60;
+      signed long int return_value_strtol_4;
+      return_value_strtol_4=strtol(pos, &end, 10);
+      secl = (secl + return_value_strtol_4) * (signed long int)60;
       err = err | (signed int)(pos2 != end);
       pos = pos2 + (signed long int)1;
     }
@@ -7280,13 +7280,13 @@ static signed int parse_time(char *s, double *t)
   else
     pos = optarg;
   secf=strtod(pos, &end);
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(err == 0))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = (signed int)*end != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (signed int)*end != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
     return -1;
 
   else
@@ -7300,7 +7300,7 @@ static signed int parse_time(char *s, double *t)
 // file main.c line 277
 void * playback_thread(void *arg)
 {
-  struct anonymous$24 *s = (struct anonymous$24 *)arg;
+  struct anonymous_24 *s = (struct anonymous_24 *)arg;
   struct ao_device *adev = s->adev;
   pthread_mutex_lock(&s->mutex);
   while((_Bool)1)
@@ -7340,13 +7340,13 @@ void * playback_thread(void *arg)
 void print_into(char *buf, signed int pos, char *s)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  len = (signed int)return_value_strlen_1;
   signed int len2;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(s);
-  len2 = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(s);
+  len2 = (signed int)return_value_strlen_2;
   signed int i = 0;
   for( ; !(i + pos >= len) && !(i >= len2); i = i + 1)
     buf[(signed long int)(i + pos)] = s[(signed long int)i];
@@ -7357,9 +7357,9 @@ void print_into(char *buf, signed int pos, char *s)
 extern void put_val(unsigned char *d, signed int bps, float v)
 {
   signed int i;
-  double return_value_rint$1;
-  return_value_rint$1=rint((double)v);
-  i = (signed int)return_value_rint$1;
+  double return_value_rint_1;
+  return_value_rint_1=rint((double)v);
+  i = (signed int)return_value_rint_1;
   d[(signed long int)0] = (unsigned char)(i & 0xff);
   d[(signed long int)1] = (unsigned char)(i >> 8 & 0xff);
   if(bps == 3)
@@ -7371,9 +7371,9 @@ extern void put_val(unsigned char *d, signed int bps, float v)
 // file main.c line 204
 void randomize_samples(signed int *r, signed int *cchoice, signed int test_mode)
 {
-  signed int return_value_randrange$1;
-  signed int return_value_randrange$2;
-  signed int tmp_if_expr$3;
+  signed int return_value_randrange_1;
+  signed int return_value_randrange_2;
+  signed int tmp_if_expr_3;
   switch(test_mode)
   {
     case 1:
@@ -7396,10 +7396,10 @@ void randomize_samples(signed int *r, signed int *cchoice, signed int test_mode)
       r[(signed long int)2] = 0;
       r[(signed long int)1] = r[(signed long int)2];
       r[(signed long int)0] = r[(signed long int)1];
-      return_value_randrange$1=randrange(3);
-      r[(signed long int)return_value_randrange$1] = 1;
-      return_value_randrange$2=randrange(2);
-      if(!(return_value_randrange$2 == 0))
+      return_value_randrange_1=randrange(3);
+      r[(signed long int)return_value_randrange_1] = 1;
+      return_value_randrange_2=randrange(2);
+      if(!(return_value_randrange_2 == 0))
       {
         r[(signed long int)0] = 1 - r[(signed long int)0];
         r[(signed long int)1] = 1 - r[(signed long int)1];
@@ -7407,11 +7407,11 @@ void randomize_samples(signed int *r, signed int *cchoice, signed int test_mode)
       }
 
       if(*r == r[1l])
-        tmp_if_expr$3 = 2;
+        tmp_if_expr_3 = 2;
 
       else
-        tmp_if_expr$3 = r[(signed long int)1] == r[(signed long int)2] ? 0 : 1;
-      *cchoice = r[(signed long int)tmp_if_expr$3];
+        tmp_if_expr_3 = r[(signed long int)1] == r[(signed long int)2] ? 0 : 1;
+      *cchoice = r[(signed long int)tmp_if_expr_3];
     }
   }
 }
@@ -7420,11 +7420,11 @@ void randomize_samples(signed int *r, signed int *cchoice, signed int test_mode)
 // file main.c line 200
 signed int randrange(signed int range)
 {
-  signed int return_value_rand$1;
-  return_value_rand$1=rand();
-  double return_value_floor$2;
-  return_value_floor$2=floor(((double)return_value_rand$1 / ((double)2147483647 + 1.0)) * (double)range);
-  return (signed int)return_value_floor$2;
+  signed int return_value_rand_1;
+  return_value_rand_1=rand();
+  double return_value_floor_2;
+  return_value_floor_2=floor(((double)return_value_rand_1 / ((double)2147483647 + 1.0)) * (double)range);
+  return (signed int)return_value_floor_2;
 }
 
 // read_IEEE80
@@ -7434,60 +7434,60 @@ static double read_IEEE80(unsigned char *buf)
   signed int s = (signed int)buf[(signed long int)0] & 0xff;
   signed int e = ((signed int)buf[(signed long int)0] & 0x7f) << 8 | (signed int)buf[(signed long int)1] & 0xff;
   double f = (double)((unsigned long int)((signed int)buf[(signed long int)2] & 0xff) << 24 | (unsigned long int)(((signed int)buf[(signed long int)3] & 0xff) << 16) | (unsigned long int)(((signed int)buf[(signed long int)4] & 0xff) << 8) | (unsigned long int)((signed int)buf[(signed long int)5] & 0xff));
-  double return_value___builtin_huge_val$1;
-  double return_value___builtin_huge_val$2;
-  double return_value___builtin_huge_val$3;
+  double return_value___builtin_huge_val_1;
+  double return_value___builtin_huge_val_2;
+  double return_value___builtin_huge_val_3;
   if(e == 32767)
   {
     if(!((0x80 & (signed int)buf[2l]) == 0))
     {
-      return_value___builtin_huge_val$1=__builtin_huge_val();
-      return return_value___builtin_huge_val$1;
+      return_value___builtin_huge_val_1=__builtin_huge_val();
+      return return_value___builtin_huge_val_1;
     }
 
     else
       if(!(s == 0))
       {
-        return_value___builtin_huge_val$2=__builtin_huge_val();
-        return -return_value___builtin_huge_val$2;
+        return_value___builtin_huge_val_2=__builtin_huge_val();
+        return -return_value___builtin_huge_val_2;
       }
 
       else
       {
-        return_value___builtin_huge_val$3=__builtin_huge_val();
-        return return_value___builtin_huge_val$3;
+        return_value___builtin_huge_val_3=__builtin_huge_val();
+        return return_value___builtin_huge_val_3;
       }
   }
 
   f=ldexp(f, 32);
   f = f + (double)(((signed int)buf[(signed long int)6] & 0xff) << 24 | ((signed int)buf[(signed long int)7] & 0xff) << 16 | ((signed int)buf[(signed long int)8] & 0xff) << 8 | (signed int)buf[(signed long int)9] & 0xff);
-  double return_value_ldexp$4;
-  return_value_ldexp$4=ldexp(f, e - 16446);
-  return return_value_ldexp$4;
+  double return_value_ldexp_4;
+  return_value_ldexp_4=ldexp(f, e - 16446);
+  return return_value_ldexp_4;
 }
 
 // read_callback
 // file loader.c line 814
-static enum anonymous$40 read_callback(const struct anonymous *decoder, unsigned char *buffer, unsigned long int *bytes, void *client_data)
+static enum anonymous_40 read_callback(const struct anonymous *decoder, unsigned char *buffer, unsigned long int *bytes, void *client_data)
 {
-  struct anonymous$48 *flac = (struct anonymous$48 *)client_data;
+  struct anonymous_48 *flac = (struct anonymous_48 *)client_data;
   struct pcm_struct *pcm = flac->pcm;
-  signed int return_value_feof$2;
-  return_value_feof$2=feof(flac->in);
-  signed int return_value_ferror$1;
-  if(!(return_value_feof$2 == 0))
+  signed int return_value_feof_2;
+  return_value_feof_2=feof(flac->in);
+  signed int return_value_ferror_1;
+  if(!(return_value_feof_2 == 0))
   {
     *bytes = (unsigned long int)0;
-    return (enum anonymous$40)FLAC__STREAM_DECODER_READ_STATUS_END_OF_STREAM;
+    return (enum anonymous_40)FLAC__STREAM_DECODER_READ_STATUS_END_OF_STREAM;
   }
 
   else
   {
-    return_value_ferror$1=ferror(flac->in);
-    if(!(return_value_ferror$1 == 0))
+    return_value_ferror_1=ferror(flac->in);
+    if(!(return_value_ferror_1 == 0))
     {
       *bytes = (unsigned long int)0;
-      return (enum anonymous$40)FLAC__STREAM_DECODER_READ_STATUS_ABORT;
+      return (enum anonymous_40)FLAC__STREAM_DECODER_READ_STATUS_ABORT;
     }
 
   }
@@ -7495,27 +7495,27 @@ static enum anonymous$40 read_callback(const struct anonymous *decoder, unsigned
     fprintf(stderr, "\rLoading %s: %ld to go...       ", flac->pcm->name, (signed long int)(pcm->size - flac->fill));
 
   *bytes=fread((void *)buffer, sizeof(unsigned char) /*1ul*/ , *bytes, flac->in);
-  return (enum anonymous$40)FLAC__STREAM_DECODER_READ_STATUS_CONTINUE;
+  return (enum anonymous_40)FLAC__STREAM_DECODER_READ_STATUS_CONTINUE;
 }
 
 // reconcile_channel_maps
 // file audio.c line 388
 extern void reconcile_channel_maps(struct pcm_struct *A, struct pcm_struct *B)
 {
-  const signed long int reconcile_channel_maps$array_size0 = (signed long int)A->ch;
-  const signed long int ai$array_size0 = (signed long int)A->ch;
-  signed int ai[reconcile_channel_maps$array_size0];
-  signed int bi[ai$array_size0];
+  const signed long int reconcile_channel_maps_array_size0 = (signed long int)A->ch;
+  const signed long int ai_array_size0 = (signed long int)A->ch;
+  signed int ai[reconcile_channel_maps_array_size0];
+  signed int bi[ai_array_size0];
   signed int i;
   signed int j;
   signed int k;
   signed long int o;
   signed int bps = (B->currentbits + 7) / 8;
   signed int bpf = B->ch * bps;
-  const signed long int bpf$array_size0 = (signed long int)bpf;
-  signed int p[bpf$array_size0];
-  const signed long int p$array_size0 = (signed long int)bpf;
-  unsigned char temp[p$array_size0];
+  const signed long int bpf_array_size0 = (signed long int)bpf;
+  signed int p[bpf_array_size0];
+  const signed long int p_array_size0 = (signed long int)bpf;
+  unsigned char temp[p_array_size0];
   unsigned char *d;
   tokenize_channels(A->matrix, ai, A->ch);
   tokenize_channels(B->matrix, bi, A->ch);
@@ -7560,9 +7560,9 @@ extern void reconcile_channel_maps(struct pcm_struct *A, struct pcm_struct *B)
     d = d + (signed long int)bpf;
   }
   free((void *)B->matrix);
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(A->matrix);
-  B->matrix = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(A->matrix);
+  B->matrix = return_value___strdup_1;
 }
 
 // reset
@@ -7570,53 +7570,53 @@ extern void reconcile_channel_maps(struct pcm_struct *A, struct pcm_struct *B)
 static signed int reset()
 {
   signed int ret = 0;
-  signed int return_value_setgfx$1;
+  signed int return_value_setgfx_1;
   if(!(acs == 0))
   {
-    return_value_setgfx$1=setgfx();
-    ret = ret | return_value_setgfx$1;
+    return_value_setgfx_1=setgfx();
+    ret = ret | return_value_setgfx_1;
   }
 
-  signed int return_value_setfg$2;
+  signed int return_value_setfg_2;
   if(fg >= 0)
   {
-    return_value_setfg$2=setfg(fg);
-    ret = ret | return_value_setfg$2;
+    return_value_setfg_2=setfg(fg);
+    ret = ret | return_value_setfg_2;
   }
 
-  signed int return_value_setbg$3;
+  signed int return_value_setbg_3;
   if(bg >= 0)
   {
-    return_value_setbg$3=setbg(bg);
-    ret = ret | return_value_setbg$3;
+    return_value_setbg_3=setbg(bg);
+    ret = ret | return_value_setbg_3;
   }
 
-  signed int return_value_setbold$4;
+  signed int return_value_setbold_4;
   if(!(bold == 0))
   {
-    return_value_setbold$4=setbold();
-    ret = ret | return_value_setbold$4;
+    return_value_setbold_4=setbold();
+    ret = ret | return_value_setbold_4;
   }
 
-  signed int return_value_setblink$5;
+  signed int return_value_setblink_5;
   if(!(blink == 0))
   {
-    return_value_setblink$5=setblink();
-    ret = ret | return_value_setblink$5;
+    return_value_setblink_5=setblink();
+    ret = ret | return_value_setblink_5;
   }
 
-  signed int return_value_setreverse$6;
+  signed int return_value_setreverse_6;
   if(!(rev == 0))
   {
-    return_value_setreverse$6=setreverse();
-    ret = ret | return_value_setreverse$6;
+    return_value_setreverse_6=setreverse();
+    ret = ret | return_value_setreverse_6;
   }
 
-  signed int return_value_setunderline$7;
+  signed int return_value_setunderline_7;
   if(!(ul == 0))
   {
-    return_value_setunderline$7=setunderline();
-    ret = ret | return_value_setunderline$7;
+    return_value_setunderline_7=setunderline();
+    ret = ret | return_value_setunderline_7;
   }
 
   return ret;
@@ -7629,9 +7629,9 @@ static signed int setbg(signed int c)
   if(!(cur_term->type.Strings[360l] == ((char *)NULL)))
   {
     bg = c;
-    char *return_value_tparm$1;
-    return_value_tparm$1=tparm(cur_term->type.Strings[(signed long int)360], c);
-    min_putp(return_value_tparm$1);
+    char *return_value_tparm_1;
+    return_value_tparm_1=tparm(cur_term->type.Strings[(signed long int)360], c);
+    min_putp(return_value_tparm_1);
     return 0;
   }
 
@@ -7675,9 +7675,9 @@ static signed int setfg(signed int c)
   if(!(cur_term->type.Strings[359l] == ((char *)NULL)))
   {
     fg = c;
-    char *return_value_tparm$1;
-    return_value_tparm$1=tparm(cur_term->type.Strings[(signed long int)359], c);
-    min_putp(return_value_tparm$1);
+    char *return_value_tparm_1;
+    return_value_tparm_1=tparm(cur_term->type.Strings[(signed long int)359], c);
+    min_putp(return_value_tparm_1);
     return 0;
   }
 
@@ -7743,19 +7743,19 @@ extern struct ao_device * setup_playback(signed int rate, signed int ch, signed 
   sf.byte_format = 1;
   sf.matrix = ch > 2 ? matrix : ((char *)NULL);
   aoe.key = "quiet";
-  _Bool tmp_if_expr$3;
-  char *tmp_if_expr$4;
-  signed int tmp_statement_expression$5;
-  signed int *return_value___errno_location$7;
+  _Bool tmp_if_expr_3;
+  char *tmp_if_expr_4;
+  signed int tmp_statement_expression_5;
+  signed int *return_value___errno_location_7;
   if(device == ((char *)NULL))
   {
-    signed int setup_playback$$1$$1$$id;
-    setup_playback$$1$$1$$id=ao_default_driver_id();
+    signed int setup_playback__1__1__id;
+    setup_playback__1__1__id=ao_default_driver_id();
     struct ao_info *ai;
-    if(!(setup_playback$$1$$1$$id >= 0))
+    if(!(setup_playback__1__1__id >= 0))
       return (struct ao_device *)(void *)0;
 
-    ai=ao_driver_info(setup_playback$$1$$1$$id);
+    ai=ao_driver_info(setup_playback__1__1__id);
     if(ai == ((struct ao_info *)NULL))
       return (struct ao_device *)(void *)0;
 
@@ -7763,14 +7763,14 @@ extern struct ao_device * setup_playback(signed int rate, signed int ch, signed 
     if(!(sb_verbose == 0))
       fprintf(stderr, "Opening [%s] %s for %d/%d and %d channel[s]...", aname, (const void *)"default", bits, rate, ch);
 
-    ret=ao_open_live(setup_playback$$1$$1$$id, &sf, &aoe);
+    ret=ao_open_live(setup_playback__1__1__id, &sf, &aoe);
     if(!(sb_verbose == 0))
     {
       if(ret == ((struct ao_device *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, " errno %d\n", *return_value___errno_location$1);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, " errno %d\n", *return_value___errno_location_1);
       }
 
       else
@@ -7786,16 +7786,16 @@ extern struct ao_device * setup_playback(signed int rate, signed int ch, signed 
     struct ao_info **info_list;
     info_list=ao_driver_info_list(&count);
     signed int number;
-    signed long int return_value_strtol$2;
-    return_value_strtol$2=strtol(device, &test, 10);
-    number = (signed int)return_value_strtol$2;
+    signed long int return_value_strtol_2;
+    return_value_strtol_2=strtol(device, &test, 10);
+    number = (signed int)return_value_strtol_2;
     signed int i;
     if(*device == 0)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = test[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = test[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       number = -1;
 
     if(!(sb_verbose == 0))
@@ -7809,15 +7809,15 @@ extern struct ao_device * setup_playback(signed int rate, signed int ch, signed 
       struct ao_option ao = { .key=((char *)NULL), .value=((char *)NULL), .next=((struct ao_option *)NULL) };
       signed int id;
       id=ao_driver_id(info->short_name);
-      char setup_playback$$1$$2$$1$$1$$buf[80l];
-      sprintf(setup_playback$$1$$2$$1$$1$$buf, "%d", number);
+      char setup_playback__1__2__1__1__buf[80l];
+      sprintf(setup_playback__1__2__1__1__buf, "%d", number);
       ao.key = number >= 0 ? "id" : "dev";
       if(number >= 0)
-        tmp_if_expr$4 = setup_playback$$1$$2$$1$$1$$buf;
+        tmp_if_expr_4 = setup_playback__1__2__1__1__buf;
 
       else
-        tmp_if_expr$4 = device;
-      ao.value = tmp_if_expr$4;
+        tmp_if_expr_4 = device;
+      ao.value = tmp_if_expr_4;
       ao.next = &aoe;
       aname = info->short_name;
       j = 0;
@@ -7825,10 +7825,10 @@ extern struct ao_device * setup_playback(signed int rate, signed int ch, signed 
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$6;
-        return_value___builtin_strcmp$6=__builtin_strcmp(info->options[(signed long int)j], ao.key);
-        tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-        if(tmp_statement_expression$5 == 0)
+        signed int return_value___builtin_strcmp_6;
+        return_value___builtin_strcmp_6=__builtin_strcmp(info->options[(signed long int)j], ao.key);
+        tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+        if(tmp_statement_expression_5 == 0)
           break;
 
       }
@@ -7848,8 +7848,8 @@ extern struct ao_device * setup_playback(signed int rate, signed int ch, signed 
 
         if(!(sb_verbose == 0))
         {
-          return_value___errno_location$7=__errno_location();
-          fprintf(stderr, " errno %d\n", *return_value___errno_location$7);
+          return_value___errno_location_7=__errno_location();
+          fprintf(stderr, " errno %d\n", *return_value___errno_location_7);
         }
 
       }
@@ -7898,29 +7898,29 @@ extern signed int setup_windows(struct pcm_struct **pcm, signed int test_files, 
     fragsamples = maxsamples / 3;
 
   float *fadewindow1;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)fragsamples, sizeof(float) /*4ul*/ );
-  *fw1 = (float *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)fragsamples, sizeof(float) /*4ul*/ );
+  *fw1 = (float *)return_value_calloc_1;
   fadewindow1 = *fw1;
   float *fadewindow2;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)fragsamples, sizeof(float) /*4ul*/ );
-  *fw2 = (float *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)fragsamples, sizeof(float) /*4ul*/ );
+  *fw2 = (float *)return_value_calloc_2;
   fadewindow2 = *fw2;
   float *fadewindow3;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)fragsamples, sizeof(float) /*4ul*/ );
-  *fw3 = (float *)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)fragsamples, sizeof(float) /*4ul*/ );
+  *fw3 = (float *)return_value_calloc_3;
   fadewindow3 = *fw3;
   float *beep1;
-  void *return_value_calloc$4;
-  return_value_calloc$4=calloc((unsigned long int)fragsamples, sizeof(float) /*4ul*/ );
-  *b1 = (float *)return_value_calloc$4;
+  void *return_value_calloc_4;
+  return_value_calloc_4=calloc((unsigned long int)fragsamples, sizeof(float) /*4ul*/ );
+  *b1 = (float *)return_value_calloc_4;
   beep1 = *b1;
   float *beep2;
-  void *return_value_calloc$5;
-  return_value_calloc$5=calloc((unsigned long int)fragsamples, sizeof(float) /*4ul*/ );
-  *b2 = (float *)return_value_calloc$5;
+  void *return_value_calloc_5;
+  return_value_calloc_5=calloc((unsigned long int)fragsamples, sizeof(float) /*4ul*/ );
+  *b2 = (float *)return_value_calloc_5;
   beep2 = *b2;
   if(beep1 == ((float *)NULL) || beep2 == ((float *)NULL) || fadewindow1 == ((float *)NULL) || fadewindow2 == ((float *)NULL) || fadewindow3 == ((float *)NULL))
     exit(9);
@@ -7935,18 +7935,18 @@ extern signed int setup_windows(struct pcm_struct **pcm, signed int test_files, 
   i = 0;
   for( ; !(i >= fragsamples / 3); i = i + 1)
   {
-    float setup_windows$$1$$2$$1$$val;
-    setup_windows$$1$$2$$1$$val=cosf((float)((3.14159265358979323846 * (double)1.5f * (double)((float)i + .5f)) / (double)fragsamples));
-    fadewindow2[(signed long int)i] = setup_windows$$1$$2$$1$$val * setup_windows$$1$$2$$1$$val;
+    float setup_windows__1__2__1__val;
+    setup_windows__1__2__1__val=cosf((float)((3.14159265358979323846 * (double)1.5f * (double)((float)i + .5f)) / (double)fragsamples));
+    fadewindow2[(signed long int)i] = setup_windows__1__2__1__val * setup_windows__1__2__1__val;
   }
   for( ; !(i >= fragsamples); i = i + 1)
     fadewindow2[(signed long int)i] = 0.f;
   i = 0;
   for( ; !(i >= fragsamples / 2); i = i + 1)
   {
-    float setup_windows$$1$$4$$1$$val;
-    setup_windows$$1$$4$$1$$val=cosf((float)((3.14159265358979323846 * (double)((float)i + .5f)) / (double)fragsamples));
-    fadewindow3[(signed long int)i] = setup_windows$$1$$4$$1$$val * setup_windows$$1$$4$$1$$val;
+    float setup_windows__1__4__1__val;
+    setup_windows__1__4__1__val=cosf((float)((3.14159265358979323846 * (double)((float)i + .5f)) / (double)fragsamples));
+    fadewindow3[(signed long int)i] = setup_windows__1__4__1__val * setup_windows__1__4__1__val;
   }
   for( ; !(i >= fragsamples); i = i + 1)
     fadewindow3[(signed long int)i] = 0.f;
@@ -7963,17 +7963,17 @@ extern signed int setup_windows(struct pcm_struct **pcm, signed int test_files, 
     float w;
     w=cosf((3.14159f * f) / (float)fragsamples);
     float b;
-    float return_value_sinf$6;
-    return_value_sinf$6=sinf(f * base);
-    float return_value_sinf$7;
-    return_value_sinf$7=sinf(f * base * (float)3);
-    float return_value_sinf$8;
-    return_value_sinf$8=sinf(f * base * (float)5);
-    float return_value_sinf$9;
-    return_value_sinf$9=sinf(f * base * (float)7);
-    float return_value_sinf$10;
-    return_value_sinf$10=sinf(f * base * (float)9);
-    b = return_value_sinf$6 + return_value_sinf$7 * .33f + return_value_sinf$8 * .2f + return_value_sinf$9 * .14f + return_value_sinf$10 * .11f;
+    float return_value_sinf_6;
+    return_value_sinf_6=sinf(f * base);
+    float return_value_sinf_7;
+    return_value_sinf_7=sinf(f * base * (float)3);
+    float return_value_sinf_8;
+    return_value_sinf_8=sinf(f * base * (float)5);
+    float return_value_sinf_9;
+    return_value_sinf_9=sinf(f * base * (float)7);
+    float return_value_sinf_10;
+    return_value_sinf_10=sinf(f * base * (float)9);
+    b = return_value_sinf_6 + return_value_sinf_7 * .33f + return_value_sinf_8 * .2f + return_value_sinf_9 * .14f + return_value_sinf_10 * .11f;
     w = w * w;
     beep1[(signed long int)i] = w * b * mul;
   }
@@ -7985,44 +7985,44 @@ extern signed int setup_windows(struct pcm_struct **pcm, signed int test_files, 
   }
   for( ; !(i >= fragsamples / 2); i = i + 1)
   {
-    float setup_windows$$1$$9$$1$$f = (float)(i - fragsamples / 4) + .5f;
-    float setup_windows$$1$$9$$1$$w;
-    setup_windows$$1$$9$$1$$w=cosf((3.14159f * 2.f * setup_windows$$1$$9$$1$$f) / (float)fragsamples);
-    float setup_windows$$1$$9$$1$$b;
-    float return_value_sinf$11;
-    return_value_sinf$11=sinf(setup_windows$$1$$9$$1$$f * base);
-    float return_value_sinf$12;
-    return_value_sinf$12=sinf(setup_windows$$1$$9$$1$$f * base * (float)3);
-    float return_value_sinf$13;
-    return_value_sinf$13=sinf(setup_windows$$1$$9$$1$$f * base * (float)5);
-    float return_value_sinf$14;
-    return_value_sinf$14=sinf(setup_windows$$1$$9$$1$$f * base * (float)7);
-    float return_value_sinf$15;
-    return_value_sinf$15=sinf(setup_windows$$1$$9$$1$$f * base * (float)9);
-    setup_windows$$1$$9$$1$$b = return_value_sinf$11 + return_value_sinf$12 * .33f + return_value_sinf$13 * .2f + return_value_sinf$14 * .14f + return_value_sinf$15 * .11f;
-    setup_windows$$1$$9$$1$$w = setup_windows$$1$$9$$1$$w * setup_windows$$1$$9$$1$$w;
-    beep2[(signed long int)i] = setup_windows$$1$$9$$1$$w * setup_windows$$1$$9$$1$$b * mul;
+    float setup_windows__1__9__1__f = (float)(i - fragsamples / 4) + .5f;
+    float setup_windows__1__9__1__w;
+    setup_windows__1__9__1__w=cosf((3.14159f * 2.f * setup_windows__1__9__1__f) / (float)fragsamples);
+    float setup_windows__1__9__1__b;
+    float return_value_sinf_11;
+    return_value_sinf_11=sinf(setup_windows__1__9__1__f * base);
+    float return_value_sinf_12;
+    return_value_sinf_12=sinf(setup_windows__1__9__1__f * base * (float)3);
+    float return_value_sinf_13;
+    return_value_sinf_13=sinf(setup_windows__1__9__1__f * base * (float)5);
+    float return_value_sinf_14;
+    return_value_sinf_14=sinf(setup_windows__1__9__1__f * base * (float)7);
+    float return_value_sinf_15;
+    return_value_sinf_15=sinf(setup_windows__1__9__1__f * base * (float)9);
+    setup_windows__1__9__1__b = return_value_sinf_11 + return_value_sinf_12 * .33f + return_value_sinf_13 * .2f + return_value_sinf_14 * .14f + return_value_sinf_15 * .11f;
+    setup_windows__1__9__1__w = setup_windows__1__9__1__w * setup_windows__1__9__1__w;
+    beep2[(signed long int)i] = setup_windows__1__9__1__w * setup_windows__1__9__1__b * mul;
   }
   base = (float)(((double)(3.14159f * 2.f) * 1500.) / (double)pcm[(signed long int)0]->rate);
   for( ; !(i >= (3 * fragsamples) / 4); i = i + 1)
   {
-    float setup_windows$$1$$10$$1$$f = (float)(i - fragsamples / 2) + .5f;
-    float setup_windows$$1$$10$$1$$w;
-    setup_windows$$1$$10$$1$$w=cosf((3.14159f * 2.f * setup_windows$$1$$10$$1$$f) / (float)fragsamples);
-    float setup_windows$$1$$10$$1$$b;
-    float return_value_sinf$16;
-    return_value_sinf$16=sinf(setup_windows$$1$$10$$1$$f * base);
-    float return_value_sinf$17;
-    return_value_sinf$17=sinf(setup_windows$$1$$10$$1$$f * base * (float)3);
-    float return_value_sinf$18;
-    return_value_sinf$18=sinf(setup_windows$$1$$10$$1$$f * base * (float)5);
-    float return_value_sinf$19;
-    return_value_sinf$19=sinf(setup_windows$$1$$10$$1$$f * base * (float)7);
-    float return_value_sinf$20;
-    return_value_sinf$20=sinf(setup_windows$$1$$10$$1$$f * base * (float)9);
-    setup_windows$$1$$10$$1$$b = return_value_sinf$16 + return_value_sinf$17 * .33f + return_value_sinf$18 * .2f + return_value_sinf$19 * .14f + return_value_sinf$20 * .11f;
-    setup_windows$$1$$10$$1$$w = setup_windows$$1$$10$$1$$w * setup_windows$$1$$10$$1$$w;
-    beep2[(signed long int)i] = setup_windows$$1$$10$$1$$w * setup_windows$$1$$10$$1$$b * mul * (float)2;
+    float setup_windows__1__10__1__f = (float)(i - fragsamples / 2) + .5f;
+    float setup_windows__1__10__1__w;
+    setup_windows__1__10__1__w=cosf((3.14159f * 2.f * setup_windows__1__10__1__f) / (float)fragsamples);
+    float setup_windows__1__10__1__b;
+    float return_value_sinf_16;
+    return_value_sinf_16=sinf(setup_windows__1__10__1__f * base);
+    float return_value_sinf_17;
+    return_value_sinf_17=sinf(setup_windows__1__10__1__f * base * (float)3);
+    float return_value_sinf_18;
+    return_value_sinf_18=sinf(setup_windows__1__10__1__f * base * (float)5);
+    float return_value_sinf_19;
+    return_value_sinf_19=sinf(setup_windows__1__10__1__f * base * (float)7);
+    float return_value_sinf_20;
+    return_value_sinf_20=sinf(setup_windows__1__10__1__f * base * (float)9);
+    setup_windows__1__10__1__b = return_value_sinf_16 + return_value_sinf_17 * .33f + return_value_sinf_18 * .2f + return_value_sinf_19 * .14f + return_value_sinf_20 * .11f;
+    setup_windows__1__10__1__w = setup_windows__1__10__1__w * setup_windows__1__10__1__w;
+    beep2[(signed long int)i] = setup_windows__1__10__1__w * setup_windows__1__10__1__b * mul * (float)2;
   }
   return fragsamples;
 }
@@ -8031,11 +8031,11 @@ extern signed int setup_windows(struct pcm_struct **pcm, signed int test_files, 
 // file loader.c line 124
 static signed int sw_id(char *path, unsigned char *buf)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  signed int return_value_memcmp$2;
-  return_value_memcmp$2=memcmp((const void *)((path + (signed long int)return_value_strlen$1) - (signed long int)3), (const void *)".sw", (unsigned long int)3);
-  return (signed int)(return_value_memcmp$2 == 0);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  signed int return_value_memcmp_2;
+  return_value_memcmp_2=memcmp((const void *)((path + (signed long int)return_value_strlen_1) - (signed long int)3), (const void *)".sw", (unsigned long int)3);
+  return (signed int)(return_value_memcmp_2 == 0);
 }
 
 // sw_load
@@ -8043,51 +8043,51 @@ static signed int sw_id(char *path, unsigned char *buf)
 static struct pcm_struct * sw_load(char *path, struct _IO_FILE *in)
 {
   struct pcm_struct *pcm;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
-  pcm = (struct pcm_struct *)return_value_calloc$1;
-  char *return_value_trim_path$2;
-  return_value_trim_path$2=trim_path(path);
-  char *return_value___strdup$3;
-  return_value___strdup$3=__strdup(return_value_trim_path$2);
-  pcm->name = return_value___strdup$3;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
+  pcm = (struct pcm_struct *)return_value_calloc_1;
+  char *return_value_trim_path_2;
+  return_value_trim_path_2=trim_path(path);
+  char *return_value___strdup_3;
+  return_value___strdup_3=__strdup(return_value_trim_path_2);
+  pcm->name = return_value___strdup_3;
   pcm->nativebits = 16;
   pcm->currentbits = -32;
   pcm->ch = 1;
   pcm->rate = 48000;
-  char *return_value___strdup$4;
-  return_value___strdup$4=__strdup("M");
-  pcm->matrix = return_value___strdup$4;
-  char *return_value___strdup$5;
-  return_value___strdup$5=__strdup("A");
-  pcm->mix = return_value___strdup$5;
-  signed int return_value_fseek$6;
-  return_value_fseek$6=fseek(in, (signed long int)0, 2);
-  _Bool tmp_if_expr$8;
-  signed int return_value_fseek$7;
-  void *return_value_calloc$9;
-  signed long int tmp_if_expr$10;
-  if(return_value_fseek$6 == -1)
+  char *return_value___strdup_4;
+  return_value___strdup_4=__strdup("M");
+  pcm->matrix = return_value___strdup_4;
+  char *return_value___strdup_5;
+  return_value___strdup_5=__strdup("A");
+  pcm->mix = return_value___strdup_5;
+  signed int return_value_fseek_6;
+  return_value_fseek_6=fseek(in, (signed long int)0, 2);
+  _Bool tmp_if_expr_8;
+  signed int return_value_fseek_7;
+  void *return_value_calloc_9;
+  signed long int tmp_if_expr_10;
+  if(return_value_fseek_6 == -1)
     fprintf(stderr, "%s: Failed to seek\n", path);
 
   else
   {
     pcm->size=ftell(in);
     if(pcm->size == -1l)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_fseek$7=fseek(in, (signed long int)0, 0);
-      tmp_if_expr$8 = return_value_fseek$7 == -1 ? (_Bool)1 : (_Bool)0;
+      return_value_fseek_7=fseek(in, (signed long int)0, 0);
+      tmp_if_expr_8 = return_value_fseek_7 == -1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
+    if(tmp_if_expr_8)
       fprintf(stderr, "%s: Failed to seek\n", path);
 
     else
     {
-      return_value_calloc$9=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)2) * sizeof(float) /*4ul*/ );
-      pcm->data = (unsigned char *)return_value_calloc$9;
+      return_value_calloc_9=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)2) * sizeof(float) /*4ul*/ );
+      pcm->data = (unsigned char *)return_value_calloc_9;
       if(pcm->data == ((unsigned char *)NULL))
         fprintf(stderr, "Unable to allocate enough memory to load sample into memory\n");
 
@@ -8100,17 +8100,17 @@ static struct pcm_struct * sw_load(char *path, struct _IO_FILE *in)
         {
           signed long int bytes;
           if(pcm->size + -j >= 65537l)
-            tmp_if_expr$10 = (signed long int)65536;
+            tmp_if_expr_10 = (signed long int)65536;
 
           else
-            tmp_if_expr$10 = pcm->size - j;
-          bytes = tmp_if_expr$10;
+            tmp_if_expr_10 = pcm->size - j;
+          bytes = tmp_if_expr_10;
           if(!(sb_verbose == 0))
             fprintf(stderr, "\rLoading %s: %ld to go...       ", pcm->name, (signed long int)(pcm->size - j));
 
-          unsigned long int return_value_fread$11;
-          return_value_fread$11=fread((void *)(pcm->data + j), (unsigned long int)1, (unsigned long int)bytes, in);
-          bytes = (signed long int)return_value_fread$11;
+          unsigned long int return_value_fread_11;
+          return_value_fread_11=fread((void *)(pcm->data + j), (unsigned long int)1, (unsigned long int)bytes, in);
+          bytes = (signed long int)return_value_fread_11;
           j = j + bytes;
           if(bytes == 0l)
             break;
@@ -8151,13 +8151,13 @@ static void tokenize_channels(char *matrix, signed int *out, signed int n)
 {
   signed int i = 0;
   char *copy;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(matrix);
-  copy = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(matrix);
+  copy = return_value___strdup_1;
   char *t;
   t=strtok(copy, ",");
   memset((void *)out, 0, sizeof(signed int) /*4ul*/  * (unsigned long int)n);
-  signed int tmp_statement_expression$2;
+  signed int tmp_statement_expression_2;
   while(!(t == ((char *)NULL)))
   {
     signed int j = 0;
@@ -8165,10 +8165,10 @@ static void tokenize_channels(char *matrix, signed int *out, signed int n)
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$3;
-      return_value___builtin_strcmp$3=__builtin_strcmp(chlist[(signed long int)j], t);
-      tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-      if(tmp_statement_expression$2 == 0)
+      signed int return_value___builtin_strcmp_3;
+      return_value___builtin_strcmp_3=__builtin_strcmp(chlist[(signed long int)j], t);
+      tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+      if(tmp_statement_expression_2 == 0)
         break;
 
     }
@@ -8184,9 +8184,9 @@ static void tokenize_channels(char *matrix, signed int *out, signed int n)
 static inline float triangle_ditherval(float *save)
 {
   float r;
-  signed int return_value_rand$1;
-  return_value_rand$1=rand();
-  r = (float)return_value_rand$1 / (float)2147483647 - .5f;
+  signed int return_value_rand_1;
+  return_value_rand_1=rand();
+  r = (float)return_value_rand_1 / (float)2147483647 - .5f;
   float ret = *save - r;
   *save = r;
   return ret;
@@ -8251,19 +8251,19 @@ void usage(struct _IO_FILE *out)
 // file loader.c line 114
 static signed int vorbis_id(char *path, unsigned char *buf)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)buf, (const void *)"OggS", (unsigned long int)4);
-  _Bool tmp_if_expr$3;
-  signed int return_value_memcmp$2;
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)buf, (const void *)"OggS", (unsigned long int)4);
+  _Bool tmp_if_expr_3;
+  signed int return_value_memcmp_2;
+  if(return_value_memcmp_1 == 0)
   {
-    return_value_memcmp$2=memcmp((const void *)(buf + (signed long int)28), (const void *)"\001vorbis", (unsigned long int)7);
-    tmp_if_expr$3 = return_value_memcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_memcmp_2=memcmp((const void *)(buf + (signed long int)28), (const void *)"\001vorbis", (unsigned long int)7);
+    tmp_if_expr_3 = return_value_memcmp_2 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  return (signed int)tmp_if_expr$3;
+    tmp_if_expr_3 = (_Bool)0;
+  return (signed int)tmp_if_expr_3;
 }
 
 // vorbis_load
@@ -8273,128 +8273,128 @@ static struct pcm_struct * vorbis_load(char *path, struct _IO_FILE *in)
   struct OggVorbis_File vf;
   struct vorbis_info *vi = (struct vorbis_info *)(void *)0;
   struct pcm_struct *pcm = (struct pcm_struct *)(void *)0;
-  signed long int vorbis_load$$1$$fill = (signed long int)0;
+  signed long int vorbis_load__1__fill = (signed long int)0;
   signed int throttle = 0;
   signed int last_section = -1;
   memset((void *)&vf, 0, sizeof(struct OggVorbis_File) /*944ul*/ );
-  signed int return_value_fseek$1;
-  return_value_fseek$1=fseek(in, (signed long int)0, 0);
-  signed int return_value_ov_open_callbacks$2;
-  void *return_value_calloc$3;
-  char *return_value_trim_path$4;
-  char *return_value___strdup$5;
-  signed long int return_value_ov_pcm_total$6;
-  void *return_value_calloc$7;
-  char *return_value___strdup$8;
-  char *return_value___strdup$9;
-  char *return_value___strdup$10;
-  char *return_value___strdup$11;
-  char *return_value___strdup$12;
-  char *return_value___strdup$13;
-  char *return_value___strdup$14;
-  char *return_value___strdup$15;
-  char *return_value___strdup$16;
-  char *return_value___strdup$17;
-  char *return_value___strdup$18;
-  char *return_value___strdup$19;
-  char *return_value___strdup$20;
-  char *return_value___strdup$21;
-  char *return_value___strdup$22;
-  char *return_value___strdup$23;
-  _Bool tmp_if_expr$24;
-  signed long int tmp_post$25;
-  if(return_value_fseek$1 == -1)
+  signed int return_value_fseek_1;
+  return_value_fseek_1=fseek(in, (signed long int)0, 0);
+  signed int return_value_ov_open_callbacks_2;
+  void *return_value_calloc_3;
+  char *return_value_trim_path_4;
+  char *return_value___strdup_5;
+  signed long int return_value_ov_pcm_total_6;
+  void *return_value_calloc_7;
+  char *return_value___strdup_8;
+  char *return_value___strdup_9;
+  char *return_value___strdup_10;
+  char *return_value___strdup_11;
+  char *return_value___strdup_12;
+  char *return_value___strdup_13;
+  char *return_value___strdup_14;
+  char *return_value___strdup_15;
+  char *return_value___strdup_16;
+  char *return_value___strdup_17;
+  char *return_value___strdup_18;
+  char *return_value___strdup_19;
+  char *return_value___strdup_20;
+  char *return_value___strdup_21;
+  char *return_value___strdup_22;
+  char *return_value___strdup_23;
+  _Bool tmp_if_expr_24;
+  signed long int tmp_post_25;
+  if(return_value_fseek_1 == -1)
     fprintf(stderr, "%s: Failed to seek\n", path);
 
   else
   {
-    return_value_ov_open_callbacks$2=ov_open_callbacks((void *)in, &vf, (const char *)(void *)0, (signed long int)0, OV_CALLBACKS_NOCLOSE);
-    if(!(return_value_ov_open_callbacks$2 >= 0))
+    return_value_ov_open_callbacks_2=ov_open_callbacks((void *)in, &vf, (const char *)(void *)0, (signed long int)0, OV_CALLBACKS_NOCLOSE);
+    if(!(return_value_ov_open_callbacks_2 >= 0))
       fprintf(stderr, "Input does not appear to be an Ogg bitstream.\n");
 
     else
     {
       vi=ov_info(&vf, -1);
-      return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
-      pcm = (struct pcm_struct *)return_value_calloc$3;
-      return_value_trim_path$4=trim_path(path);
-      return_value___strdup$5=__strdup(return_value_trim_path$4);
-      pcm->name = return_value___strdup$5;
+      return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
+      pcm = (struct pcm_struct *)return_value_calloc_3;
+      return_value_trim_path_4=trim_path(path);
+      return_value___strdup_5=__strdup(return_value_trim_path_4);
+      pcm->name = return_value___strdup_5;
       pcm->nativebits = -32;
       pcm->currentbits = -32;
       pcm->ch = vi->channels;
       pcm->rate = (signed int)vi->rate;
-      return_value_ov_pcm_total$6=ov_pcm_total(&vf, -1);
-      pcm->size = (signed long int)((unsigned long int)(return_value_ov_pcm_total$6 * (signed long int)vi->channels) * sizeof(float) /*4ul*/ );
-      return_value_calloc$7=calloc((unsigned long int)pcm->size, (unsigned long int)1);
-      pcm->data = (unsigned char *)return_value_calloc$7;
+      return_value_ov_pcm_total_6=ov_pcm_total(&vf, -1);
+      pcm->size = (signed long int)((unsigned long int)(return_value_ov_pcm_total_6 * (signed long int)vi->channels) * sizeof(float) /*4ul*/ );
+      return_value_calloc_7=calloc((unsigned long int)pcm->size, (unsigned long int)1);
+      pcm->data = (unsigned char *)return_value_calloc_7;
       switch(pcm->ch)
       {
         case 1:
         {
-          return_value___strdup$8=__strdup("M");
-          pcm->matrix = return_value___strdup$8;
-          return_value___strdup$9=__strdup("A");
-          pcm->mix = return_value___strdup$9;
+          return_value___strdup_8=__strdup("M");
+          pcm->matrix = return_value___strdup_8;
+          return_value___strdup_9=__strdup("A");
+          pcm->mix = return_value___strdup_9;
           break;
         }
         case 2:
         {
-          return_value___strdup$10=__strdup("L,R");
-          pcm->matrix = return_value___strdup$10;
-          return_value___strdup$11=__strdup("BC");
-          pcm->mix = return_value___strdup$11;
+          return_value___strdup_10=__strdup("L,R");
+          pcm->matrix = return_value___strdup_10;
+          return_value___strdup_11=__strdup("BC");
+          pcm->mix = return_value___strdup_11;
           break;
         }
         case 3:
         {
-          return_value___strdup$12=__strdup("L,C,R");
-          pcm->matrix = return_value___strdup$12;
-          return_value___strdup$13=__strdup("BDC");
-          pcm->mix = return_value___strdup$13;
+          return_value___strdup_12=__strdup("L,C,R");
+          pcm->matrix = return_value___strdup_12;
+          return_value___strdup_13=__strdup("BDC");
+          pcm->mix = return_value___strdup_13;
           break;
         }
         case 4:
         {
-          return_value___strdup$14=__strdup("L,R,BL,BR");
-          pcm->matrix = return_value___strdup$14;
-          return_value___strdup$15=__strdup("BCFG");
-          pcm->mix = return_value___strdup$15;
+          return_value___strdup_14=__strdup("L,R,BL,BR");
+          pcm->matrix = return_value___strdup_14;
+          return_value___strdup_15=__strdup("BCFG");
+          pcm->mix = return_value___strdup_15;
           break;
         }
         case 5:
         {
-          return_value___strdup$16=__strdup("L,C,R,BL,BR");
-          pcm->matrix = return_value___strdup$16;
-          return_value___strdup$17=__strdup("BDCFG");
-          pcm->mix = return_value___strdup$17;
+          return_value___strdup_16=__strdup("L,C,R,BL,BR");
+          pcm->matrix = return_value___strdup_16;
+          return_value___strdup_17=__strdup("BDCFG");
+          pcm->mix = return_value___strdup_17;
           break;
         }
         case 6:
         {
-          return_value___strdup$18=__strdup("L,C,R,BL,BR,LFE");
-          pcm->matrix = return_value___strdup$18;
-          return_value___strdup$19=__strdup("BDCFGE");
-          pcm->mix = return_value___strdup$19;
+          return_value___strdup_18=__strdup("L,C,R,BL,BR,LFE");
+          pcm->matrix = return_value___strdup_18;
+          return_value___strdup_19=__strdup("BDCFGE");
+          pcm->mix = return_value___strdup_19;
           break;
         }
         case 7:
         {
-          return_value___strdup$20=__strdup("L,C,R,SL,SR,BC,LFE");
-          pcm->matrix = return_value___strdup$20;
-          return_value___strdup$21=__strdup("BDCKLJE");
-          pcm->mix = return_value___strdup$21;
+          return_value___strdup_20=__strdup("L,C,R,SL,SR,BC,LFE");
+          pcm->matrix = return_value___strdup_20;
+          return_value___strdup_21=__strdup("BDCKLJE");
+          pcm->mix = return_value___strdup_21;
           break;
         }
         default:
         {
-          return_value___strdup$22=__strdup("L,C,R,SL,SR,BL,BR,LFE");
-          pcm->matrix = return_value___strdup$22;
-          return_value___strdup$23=__strdup("BDCKLFGE");
-          pcm->mix = return_value___strdup$23;
+          return_value___strdup_22=__strdup("L,C,R,SL,SR,BL,BR,LFE");
+          pcm->matrix = return_value___strdup_22;
+          return_value___strdup_23=__strdup("BDCKLFGE");
+          pcm->mix = return_value___strdup_23;
         }
       }
-      while(!(sizeof(float) /*4ul*/  * (unsigned long int)vorbis_load$$1$$fill >= (unsigned long int)pcm->size))
+      while(!(sizeof(float) /*4ul*/  * (unsigned long int)vorbis_load__1__fill >= (unsigned long int)pcm->size))
       {
         signed int current_section;
         signed int i;
@@ -8408,11 +8408,11 @@ static struct pcm_struct * vorbis_load(char *path, struct _IO_FILE *in)
           last_section = current_section;
           vi=ov_info(&vf, -1);
           if(!(vi->channels == pcm->ch))
-            tmp_if_expr$24 = (_Bool)1;
+            tmp_if_expr_24 = (_Bool)1;
 
           else
-            tmp_if_expr$24 = vi->rate != (signed long int)pcm->rate ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$24)
+            tmp_if_expr_24 = vi->rate != (signed long int)pcm->rate ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_24)
           {
             fprintf(stderr, "%s: Chained file changes channel count/sample rate\n", path);
             goto err;
@@ -8438,13 +8438,13 @@ static struct pcm_struct * vorbis_load(char *path, struct _IO_FILE *in)
           j = 0;
           for( ; !(j >= pcm->ch); j = j + 1)
           {
-            tmp_post$25 = vorbis_load$$1$$fill;
-            vorbis_load$$1$$fill = vorbis_load$$1$$fill + 1l;
-            d[tmp_post$25] = pcmout[(signed long int)j][(signed long int)i];
+            tmp_post_25 = vorbis_load__1__fill;
+            vorbis_load__1__fill = vorbis_load__1__fill + 1l;
+            d[tmp_post_25] = pcmout[(signed long int)j][(signed long int)i];
           }
         }
         if((0x3f & throttle) == 0 && !(sb_verbose == 0))
-          fprintf(stderr, "\rLoading %s: %ld to go...       ", pcm->name, (signed long int)((unsigned long int)pcm->size - (unsigned long int)vorbis_load$$1$$fill * sizeof(float) /*4ul*/ ));
+          fprintf(stderr, "\rLoading %s: %ld to go...       ", pcm->name, (signed long int)((unsigned long int)pcm->size - (unsigned long int)vorbis_load__1__fill * sizeof(float) /*4ul*/ ));
 
         throttle = throttle + 1;
       }
@@ -8467,16 +8467,16 @@ err:
 // file loader.c line 86
 static signed int wav_id(char *path, unsigned char *buf)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)buf, (const void *)"RIFF", (unsigned long int)4);
-  if(!(return_value_memcmp$1 == 0))
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)buf, (const void *)"RIFF", (unsigned long int)4);
+  if(!(return_value_memcmp_1 == 0))
     return 0;
 
   else
   {
-    signed int return_value_memcmp$2;
-    return_value_memcmp$2=memcmp((const void *)(buf + (signed long int)8), (const void *)"WAVE", (unsigned long int)4);
-    if(!(return_value_memcmp$2 == 0))
+    signed int return_value_memcmp_2;
+    return_value_memcmp_2=memcmp((const void *)(buf + (signed long int)8), (const void *)"WAVE", (unsigned long int)4);
+    if(!(return_value_memcmp_2 == 0))
       return 0;
 
     else
@@ -8488,17 +8488,17 @@ static signed int wav_id(char *path, unsigned char *buf)
 // file loader.c line 153
 static struct pcm_struct * wav_load(char *path, struct _IO_FILE *in)
 {
-  unsigned char wav_load$$1$$buf[40l];
+  unsigned char wav_load__1__buf[40l];
   unsigned int len;
   struct pcm_struct *pcm = (struct pcm_struct *)(void *)0;
   signed int i;
-  signed int return_value_fseek$1;
-  return_value_fseek$1=fseek(in, (signed long int)12, 0);
-  void *return_value_calloc$2;
-  char *return_value_trim_path$3;
-  char *return_value___strdup$4;
-  signed int return_value_find_wav_chunk$5;
-  unsigned long int return_value_fread$6;
+  signed int return_value_fseek_1;
+  return_value_fseek_1=fseek(in, (signed long int)12, 0);
+  void *return_value_calloc_2;
+  char *return_value_trim_path_3;
+  char *return_value___strdup_4;
+  signed int return_value_find_wav_chunk_5;
+  unsigned long int return_value_fread_6;
   unsigned int mask;
   unsigned int format;
   unsigned int channels;
@@ -8506,41 +8506,41 @@ static struct pcm_struct * wav_load(char *path, struct _IO_FILE *in)
   unsigned int align;
   unsigned int samplesize;
   const char *mask_map[32l];
-  char *return_value___strdup$7;
-  char *return_value___strdup$8;
-  char *return_value___strdup$9;
-  char *return_value___strdup$10;
-  char *return_value___strdup$11;
-  char *return_value___strdup$12;
-  char *return_value___strdup$13;
-  char *return_value___strdup$14;
-  char *return_value___strdup$15;
-  char *return_value___strdup$16;
-  char *return_value___strdup$17;
-  char *return_value___strdup$18;
-  char *return_value___strdup$19;
-  char *return_value___strdup$20;
-  char *return_value___strdup$21;
-  char *return_value___strdup$22;
-  signed int tmp_post$25;
-  signed int return_value_find_wav_chunk$26;
-  void *return_value_calloc$31;
-  void *return_value_calloc$32;
-  void *return_value_calloc$33;
-  void *return_value_calloc$34;
-  signed long int tmp_if_expr$35;
-  if(return_value_fseek$1 == -1)
+  char *return_value___strdup_7;
+  char *return_value___strdup_8;
+  char *return_value___strdup_9;
+  char *return_value___strdup_10;
+  char *return_value___strdup_11;
+  char *return_value___strdup_12;
+  char *return_value___strdup_13;
+  char *return_value___strdup_14;
+  char *return_value___strdup_15;
+  char *return_value___strdup_16;
+  char *return_value___strdup_17;
+  char *return_value___strdup_18;
+  char *return_value___strdup_19;
+  char *return_value___strdup_20;
+  char *return_value___strdup_21;
+  char *return_value___strdup_22;
+  signed int tmp_post_25;
+  signed int return_value_find_wav_chunk_26;
+  void *return_value_calloc_31;
+  void *return_value_calloc_32;
+  void *return_value_calloc_33;
+  void *return_value_calloc_34;
+  signed long int tmp_if_expr_35;
+  if(return_value_fseek_1 == -1)
     fprintf(stderr, "%s: Failed to seek\n", path);
 
   else
   {
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
-    pcm = (struct pcm_struct *)return_value_calloc$2;
-    return_value_trim_path$3=trim_path(path);
-    return_value___strdup$4=__strdup(return_value_trim_path$3);
-    pcm->name = return_value___strdup$4;
-    return_value_find_wav_chunk$5=find_wav_chunk(in, path, "fmt ", &len);
-    if(return_value_find_wav_chunk$5 == 0)
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct pcm_struct) /*56ul*/ );
+    pcm = (struct pcm_struct *)return_value_calloc_2;
+    return_value_trim_path_3=trim_path(path);
+    return_value___strdup_4=__strdup(return_value_trim_path_3);
+    pcm->name = return_value___strdup_4;
+    return_value_find_wav_chunk_5=find_wav_chunk(in, path, "fmt ", &len);
+    if(return_value_find_wav_chunk_5 == 0)
       fprintf(stderr, "%s: Failed to find fmt chunk in WAV file\n", path);
 
     else
@@ -8559,18 +8559,18 @@ static struct pcm_struct * wav_load(char *path, struct _IO_FILE *in)
         if(len >= 41u)
           len = (unsigned int)40;
 
-        return_value_fread$6=fread((void *)wav_load$$1$$buf, (unsigned long int)1, (unsigned long int)len, in);
-        if(!(return_value_fread$6 >= (unsigned long int)len))
+        return_value_fread_6=fread((void *)wav_load__1__buf, (unsigned long int)1, (unsigned long int)len, in);
+        if(!(return_value_fread_6 >= (unsigned long int)len))
           fprintf(stderr, "%s: Unexpected EOF in reading WAV header\n", path);
 
         else
         {
           mask = (unsigned int)0;
-          format = (unsigned int)((signed int)wav_load$$1$$buf[(signed long int)1] << 8 | (signed int)wav_load$$1$$buf[(signed long int)0] & 0xff);
-          channels = (unsigned int)((signed int)(wav_load$$1$$buf + (signed long int)2)[(signed long int)1] << 8 | (signed int)(wav_load$$1$$buf + (signed long int)2)[(signed long int)0] & 0xff);
-          samplerate = (unsigned int)((signed int)(wav_load$$1$$buf + (signed long int)4)[(signed long int)3] << 24 | (signed int)(wav_load$$1$$buf + (signed long int)4)[(signed long int)2] << 16 | (signed int)(wav_load$$1$$buf + (signed long int)4)[(signed long int)1] << 8 | (signed int)(wav_load$$1$$buf + (signed long int)4)[(signed long int)0] & 0xff);
-          align = (unsigned int)((signed int)(wav_load$$1$$buf + (signed long int)12)[(signed long int)1] << 8 | (signed int)(wav_load$$1$$buf + (signed long int)12)[(signed long int)0] & 0xff);
-          samplesize = (unsigned int)((signed int)(wav_load$$1$$buf + (signed long int)14)[(signed long int)1] << 8 | (signed int)(wav_load$$1$$buf + (signed long int)14)[(signed long int)0] & 0xff);
+          format = (unsigned int)((signed int)wav_load__1__buf[(signed long int)1] << 8 | (signed int)wav_load__1__buf[(signed long int)0] & 0xff);
+          channels = (unsigned int)((signed int)(wav_load__1__buf + (signed long int)2)[(signed long int)1] << 8 | (signed int)(wav_load__1__buf + (signed long int)2)[(signed long int)0] & 0xff);
+          samplerate = (unsigned int)((signed int)(wav_load__1__buf + (signed long int)4)[(signed long int)3] << 24 | (signed int)(wav_load__1__buf + (signed long int)4)[(signed long int)2] << 16 | (signed int)(wav_load__1__buf + (signed long int)4)[(signed long int)1] << 8 | (signed int)(wav_load__1__buf + (signed long int)4)[(signed long int)0] & 0xff);
+          align = (unsigned int)((signed int)(wav_load__1__buf + (signed long int)12)[(signed long int)1] << 8 | (signed int)(wav_load__1__buf + (signed long int)12)[(signed long int)0] & 0xff);
+          samplesize = (unsigned int)((signed int)(wav_load__1__buf + (signed long int)14)[(signed long int)1] << 8 | (signed int)(wav_load__1__buf + (signed long int)14)[(signed long int)0] & 0xff);
           mask_map[0] = "L";
           mask_map[1] = "R";
           mask_map[2] = "C";
@@ -8611,8 +8611,8 @@ static struct pcm_struct * wav_load(char *path, struct _IO_FILE *in)
               goto err;
             }
 
-            mask = (unsigned int)((signed int)(wav_load$$1$$buf + (signed long int)20)[(signed long int)3] << 24 | (signed int)(wav_load$$1$$buf + (signed long int)20)[(signed long int)2] << 16 | (signed int)(wav_load$$1$$buf + (signed long int)20)[(signed long int)1] << 8 | (signed int)(wav_load$$1$$buf + (signed long int)20)[(signed long int)0] & 0xff);
-            format = (unsigned int)((signed int)(wav_load$$1$$buf + (signed long int)24)[(signed long int)1] << 8 | (signed int)(wav_load$$1$$buf + (signed long int)24)[(signed long int)0] & 0xff);
+            mask = (unsigned int)((signed int)(wav_load__1__buf + (signed long int)20)[(signed long int)3] << 24 | (signed int)(wav_load__1__buf + (signed long int)20)[(signed long int)2] << 16 | (signed int)(wav_load__1__buf + (signed long int)20)[(signed long int)1] << 8 | (signed int)(wav_load__1__buf + (signed long int)20)[(signed long int)0] & 0xff);
+            format = (unsigned int)((signed int)(wav_load__1__buf + (signed long int)24)[(signed long int)1] << 8 | (signed int)(wav_load__1__buf + (signed long int)24)[(signed long int)0] & 0xff);
           }
 
           if(mask == 0u)
@@ -8620,92 +8620,92 @@ static struct pcm_struct * wav_load(char *path, struct _IO_FILE *in)
             {
               case (unsigned int)1:
               {
-                return_value___strdup$7=__strdup("M");
-                pcm->matrix = return_value___strdup$7;
-                return_value___strdup$8=__strdup("A");
-                pcm->mix = return_value___strdup$8;
+                return_value___strdup_7=__strdup("M");
+                pcm->matrix = return_value___strdup_7;
+                return_value___strdup_8=__strdup("A");
+                pcm->mix = return_value___strdup_8;
                 break;
               }
               case (unsigned int)2:
               {
-                return_value___strdup$9=__strdup("L,R");
-                pcm->matrix = return_value___strdup$9;
-                return_value___strdup$10=__strdup("BC");
-                pcm->mix = return_value___strdup$10;
+                return_value___strdup_9=__strdup("L,R");
+                pcm->matrix = return_value___strdup_9;
+                return_value___strdup_10=__strdup("BC");
+                pcm->mix = return_value___strdup_10;
                 break;
               }
               case (unsigned int)3:
               {
-                return_value___strdup$11=__strdup("L,R,C");
-                pcm->matrix = return_value___strdup$11;
-                return_value___strdup$12=__strdup("BCD");
-                pcm->mix = return_value___strdup$12;
+                return_value___strdup_11=__strdup("L,R,C");
+                pcm->matrix = return_value___strdup_11;
+                return_value___strdup_12=__strdup("BCD");
+                pcm->mix = return_value___strdup_12;
                 break;
               }
               case (unsigned int)4:
               {
-                return_value___strdup$13=__strdup("L,R,BL,BR");
-                pcm->matrix = return_value___strdup$13;
-                return_value___strdup$14=__strdup("BCFG");
-                pcm->mix = return_value___strdup$14;
+                return_value___strdup_13=__strdup("L,R,BL,BR");
+                pcm->matrix = return_value___strdup_13;
+                return_value___strdup_14=__strdup("BCFG");
+                pcm->mix = return_value___strdup_14;
                 break;
               }
               case (unsigned int)5:
               {
-                return_value___strdup$15=__strdup("L,R,C,BL,BR");
-                pcm->matrix = return_value___strdup$15;
-                return_value___strdup$16=__strdup("BCDFG");
-                pcm->mix = return_value___strdup$16;
+                return_value___strdup_15=__strdup("L,R,C,BL,BR");
+                pcm->matrix = return_value___strdup_15;
+                return_value___strdup_16=__strdup("BCDFG");
+                pcm->mix = return_value___strdup_16;
                 break;
               }
               case (unsigned int)6:
               {
-                return_value___strdup$17=__strdup("L,R,C,LFE,BL,BR");
-                pcm->matrix = return_value___strdup$17;
-                return_value___strdup$18=__strdup("BCDEFG");
-                pcm->mix = return_value___strdup$18;
+                return_value___strdup_17=__strdup("L,R,C,LFE,BL,BR");
+                pcm->matrix = return_value___strdup_17;
+                return_value___strdup_18=__strdup("BCDEFG");
+                pcm->mix = return_value___strdup_18;
                 break;
               }
               case (unsigned int)7:
               {
-                return_value___strdup$19=__strdup("L,R,C,LFE,BC,SL,SR");
-                pcm->matrix = return_value___strdup$19;
-                return_value___strdup$20=__strdup("BCDEJKL");
-                pcm->mix = return_value___strdup$20;
+                return_value___strdup_19=__strdup("L,R,C,LFE,BC,SL,SR");
+                pcm->matrix = return_value___strdup_19;
+                return_value___strdup_20=__strdup("BCDEJKL");
+                pcm->mix = return_value___strdup_20;
                 break;
               }
               default:
               {
-                return_value___strdup$21=__strdup("L,R,C,LFE,BL,BR,SL,SR");
-                pcm->matrix = return_value___strdup$21;
-                return_value___strdup$22=__strdup("BCDEFGKL");
-                pcm->mix = return_value___strdup$22;
+                return_value___strdup_21=__strdup("L,R,C,LFE,BL,BR,SL,SR");
+                pcm->matrix = return_value___strdup_21;
+                return_value___strdup_22=__strdup("BCDEFGKL");
+                pcm->mix = return_value___strdup_22;
               }
             }
 
           else
           {
             signed int count = 0;
-            void *return_value_calloc$23;
-            return_value_calloc$23=calloc((unsigned long int)(32 * 4 + 1), sizeof(char) /*1ul*/ );
-            pcm->matrix = (char *)return_value_calloc$23;
-            void *return_value_calloc$24;
-            return_value_calloc$24=calloc((unsigned long int)33, sizeof(char) /*1ul*/ );
-            pcm->mix = (char *)return_value_calloc$24;
+            void *return_value_calloc_23;
+            return_value_calloc_23=calloc((unsigned long int)(32 * 4 + 1), sizeof(char) /*1ul*/ );
+            pcm->matrix = (char *)return_value_calloc_23;
+            void *return_value_calloc_24;
+            return_value_calloc_24=calloc((unsigned long int)33, sizeof(char) /*1ul*/ );
+            pcm->mix = (char *)return_value_calloc_24;
             i = 0;
             for( ; !(i >= 32); i = i + 1)
               if(!((mask & (unsigned int)(1 << i)) == 0u))
               {
                 strcat(pcm->matrix, mask_map[(signed long int)i]);
                 strcat(pcm->matrix, ",");
-                tmp_post$25 = count;
+                tmp_post_25 = count;
                 count = count + 1;
-                pcm->mix[(signed long int)tmp_post$25] = (char)(66 + i);
+                pcm->mix[(signed long int)tmp_post_25] = (char)(66 + i);
               }
 
           }
-          return_value_find_wav_chunk$26=find_wav_chunk(in, path, "data", &len);
-          if(return_value_find_wav_chunk$26 == 0)
+          return_value_find_wav_chunk_26=find_wav_chunk(in, path, "data", &len);
+          if(return_value_find_wav_chunk_26 == 0)
             fprintf(stderr, "%s: Failed to find fmt chunk in WAV file\n", path);
 
           else
@@ -8730,23 +8730,23 @@ static struct pcm_struct * wav_load(char *path, struct _IO_FILE *in)
               {
                 signed long int pos;
                 pos=ftell(in);
-                signed int return_value_fseek$30;
-                return_value_fseek$30=fseek(in, (signed long int)0, 2);
-                if(return_value_fseek$30 == -1)
+                signed int return_value_fseek_30;
+                return_value_fseek_30=fseek(in, (signed long int)0, 2);
+                if(return_value_fseek_30 == -1)
                 {
-                  signed int *return_value___errno_location$27;
-                  return_value___errno_location$27=__errno_location();
-                  char *return_value_strerror$28;
-                  return_value_strerror$28=strerror(*return_value___errno_location$27);
-                  fprintf(stderr, "%s failed to seek: %s\n", path, return_value_strerror$28);
+                  signed int *return_value___errno_location_27;
+                  return_value___errno_location_27=__errno_location();
+                  char *return_value_strerror_28;
+                  return_value_strerror_28=strerror(*return_value___errno_location_27);
+                  fprintf(stderr, "%s failed to seek: %s\n", path, return_value_strerror_28);
                   goto err;
                 }
 
                 else
                 {
-                  signed long int return_value_ftell$29;
-                  return_value_ftell$29=ftell(in);
-                  pcm->size = return_value_ftell$29 - pos;
+                  signed long int return_value_ftell_29;
+                  return_value_ftell_29=ftell(in);
+                  pcm->size = return_value_ftell_29 - pos;
                   fseek(in, pos, 0);
                 }
               }
@@ -8772,26 +8772,26 @@ static struct pcm_struct * wav_load(char *path, struct _IO_FILE *in)
 
             else
             {
-              return_value_calloc$31=calloc((unsigned long int)1, (unsigned long int)pcm->size * sizeof(float) /*4ul*/ );
-              pcm->data = (unsigned char *)return_value_calloc$31;
+              return_value_calloc_31=calloc((unsigned long int)1, (unsigned long int)pcm->size * sizeof(float) /*4ul*/ );
+              pcm->data = (unsigned char *)return_value_calloc_31;
               goto __CPROVER_DUMP_L36;
 
             __CPROVER_DUMP_L32:
               ;
-              return_value_calloc$32=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)2) * sizeof(float) /*4ul*/ );
-              pcm->data = (unsigned char *)return_value_calloc$32;
+              return_value_calloc_32=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)2) * sizeof(float) /*4ul*/ );
+              pcm->data = (unsigned char *)return_value_calloc_32;
               goto __CPROVER_DUMP_L36;
 
             __CPROVER_DUMP_L33:
               ;
-              return_value_calloc$33=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)3) * sizeof(float) /*4ul*/ );
-              pcm->data = (unsigned char *)return_value_calloc$33;
+              return_value_calloc_33=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)3) * sizeof(float) /*4ul*/ );
+              pcm->data = (unsigned char *)return_value_calloc_33;
               goto __CPROVER_DUMP_L36;
 
             __CPROVER_DUMP_L34:
               ;
-              return_value_calloc$34=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)4) * sizeof(float) /*4ul*/ );
-              pcm->data = (unsigned char *)return_value_calloc$34;
+              return_value_calloc_34=calloc((unsigned long int)1, (unsigned long int)(pcm->size / (signed long int)4) * sizeof(float) /*4ul*/ );
+              pcm->data = (unsigned char *)return_value_calloc_34;
               goto __CPROVER_DUMP_L36;
             }
             fprintf(stderr, "%s: Unsupported bit depth\n", path);
@@ -8812,17 +8812,17 @@ static struct pcm_struct * wav_load(char *path, struct _IO_FILE *in)
               {
                 signed long int bytes;
                 if(pcm->size + -j >= 65537l)
-                  tmp_if_expr$35 = (signed long int)65536;
+                  tmp_if_expr_35 = (signed long int)65536;
 
                 else
-                  tmp_if_expr$35 = pcm->size - j;
-                bytes = tmp_if_expr$35;
+                  tmp_if_expr_35 = pcm->size - j;
+                bytes = tmp_if_expr_35;
                 if(!(sb_verbose == 0))
                   fprintf(stderr, "\rLoading %s: %ld to go...       ", pcm->name, (signed long int)(pcm->size - j));
 
-                unsigned long int return_value_fread$36;
-                return_value_fread$36=fread((void *)(d + j), (unsigned long int)1, (unsigned long int)bytes, in);
-                bytes = (signed long int)return_value_fread$36;
+                unsigned long int return_value_fread_36;
+                return_value_fread_36=fread((void *)(d + j), (unsigned long int)1, (unsigned long int)bytes, in);
+                bytes = (signed long int)return_value_fread_36;
                 j = j + bytes;
                 if(bytes == 0l)
                   break;
@@ -8966,14 +8966,14 @@ err:
 
 // write_callback
 // file loader.c line 836
-static enum anonymous$44 write_callback(const struct anonymous *decoder, const struct anonymous$17 *frame, const signed int * const *buffer, void *client_data)
+static enum anonymous_44 write_callback(const struct anonymous *decoder, const struct anonymous_17 *frame, const signed int * const *buffer, void *client_data)
 {
-  struct anonymous$48 *flac = (struct anonymous$48 *)client_data;
+  struct anonymous_48 *flac = (struct anonymous_48 *)client_data;
   struct pcm_struct *pcm = flac->pcm;
   signed int samples = (signed int)frame->header.blocksize;
   signed int channels = (signed int)frame->header.channels;
   signed int bits_per_sample = (signed int)frame->header.bits_per_sample;
-  signed long int write_callback$$1$$fill = flac->fill;
+  signed long int write_callback__1__fill = flac->fill;
   signed int i;
   signed int j;
   if(pcm->data == ((unsigned char *)NULL))
@@ -8982,24 +8982,24 @@ static enum anonymous$44 write_callback(const struct anonymous *decoder, const s
     pcm->nativebits = ((bits_per_sample + 7) / 8) * 8;
     pcm->size = pcm->size * (signed long int)((unsigned long int)channels * sizeof(float) /*4ul*/ );
     pcm->currentbits = -32;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)pcm->size, (unsigned long int)1);
-    pcm->data = (unsigned char *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)pcm->size, (unsigned long int)1);
+    pcm->data = (unsigned char *)return_value_calloc_1;
   }
 
-  signed long int tmp_post$2;
-  signed long int tmp_post$3;
+  signed long int tmp_post_2;
+  signed long int tmp_post_3;
   if(!(channels == pcm->ch))
   {
     fprintf(stderr, "\r%s: number of channels changes part way through file\n", pcm->name);
-    return (enum anonymous$44)FLAC__STREAM_DECODER_WRITE_STATUS_ABORT;
+    return (enum anonymous_44)FLAC__STREAM_DECODER_WRITE_STATUS_ABORT;
   }
 
   else
     if(!(pcm->nativebits == ((7 + bits_per_sample) / 8) * 8))
     {
       fprintf(stderr, "\r%s: bit depth changes part way through file\n", pcm->name);
-      return (enum anonymous$44)FLAC__STREAM_DECODER_WRITE_STATUS_ABORT;
+      return (enum anonymous_44)FLAC__STREAM_DECODER_WRITE_STATUS_ABORT;
     }
 
     else
@@ -9019,9 +9019,9 @@ static enum anonymous$44 write_callback(const struct anonymous *decoder, const s
             i = 0;
             for( ; !(i >= channels); i = i + 1)
             {
-              tmp_post$2 = write_callback$$1$$fill;
-              write_callback$$1$$fill = write_callback$$1$$fill + 1l;
-              d[tmp_post$2] = (float)(buffer[(signed long int)i][(signed long int)j] << shift) * (1.f / 32768.f);
+              tmp_post_2 = write_callback__1__fill;
+              write_callback__1__fill = write_callback__1__fill + 1l;
+              d[tmp_post_2] = (float)(buffer[(signed long int)i][(signed long int)j] << shift) * (1.f / 32768.f);
             }
           }
           break;
@@ -9034,9 +9034,9 @@ static enum anonymous$44 write_callback(const struct anonymous *decoder, const s
             i = 0;
             for( ; !(i >= channels); i = i + 1)
             {
-              tmp_post$3 = write_callback$$1$$fill;
-              write_callback$$1$$fill = write_callback$$1$$fill + 1l;
-              d[tmp_post$3] = (float)(buffer[(signed long int)i][(signed long int)j] << shift) * (1.f / 8388608.f);
+              tmp_post_3 = write_callback__1__fill;
+              write_callback__1__fill = write_callback__1__fill + 1l;
+              d[tmp_post_3] = (float)(buffer[(signed long int)i][(signed long int)j] << shift) * (1.f / 8388608.f);
             }
           }
           break;
@@ -9044,11 +9044,11 @@ static enum anonymous$44 write_callback(const struct anonymous *decoder, const s
         default:
         {
           fprintf(stderr, "\r%s: Only 16- and 24-bit FLACs are supported for decode right now.\n", pcm->name);
-          return (enum anonymous$44)FLAC__STREAM_DECODER_WRITE_STATUS_ABORT;
+          return (enum anonymous_44)FLAC__STREAM_DECODER_WRITE_STATUS_ABORT;
         }
       }
-      flac->fill = write_callback$$1$$fill;
-      return (enum anonymous$44)FLAC__STREAM_DECODER_WRITE_STATUS_CONTINUE;
+      flac->fill = write_callback__1__fill;
+      return (enum anonymous_44)FLAC__STREAM_DECODER_WRITE_STATUS_CONTINUE;
     }
 }
 

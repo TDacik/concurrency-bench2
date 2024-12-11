@@ -1,142 +1,142 @@
-// tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]
+// tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]
 // file ar_options_struct.h line 28
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{S8}$S8$'keysFile'||*{S8}$S8$'certificateFile'||*{S8}$S8$'storeFile'||*{S8}$S8$'dateFormat'||S32'realmsNumber'||S8'ignorePublicKeys'||U24'$pad0'||*{*{SYM#tag-#anon#ST[*{S8}$S8$'serverName'||*{S8}$S8$'managePort'||*{S8}$S8$'hostName'||*{S8}$S8$'realmName'||*{S8}$S8$'sKeepAliveTimeout'||*{S8}$S8$'realmId'||*{S8}$S8$'localName'||*{S8}$S8$'localPort'||*{S8}$S8$'localDestinationName'||ARR4{U8}$U8$'password'||S32'connectedUsers'||S32'usersLimit'||S32'clientMode'||S32'keepAliveTimeout'||S8'ipFamily'||S8'realmType'||S8'tunnelType'||U8'$pad0'||SYM#tag-timeval#'keepAlive'||U32'addressLength'||U32'$pad1'||*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'clientAddress'||*{SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#}$SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#$'masterSslFd'||*{SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#$'httpProxyOptions'||*{SYM#tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]#$'arOptions'||*{SYM#tag-portlist#}$SYM#tag-portlist#$'destinationPorts'||*{*{SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#}$SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#$}$*{SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#}$SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#$$'usersTable'||*{SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#}$SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#$'userModule'||*{SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#}$SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#$'serviceModule'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'serverName'||*{S8}$S8$'managePort'||*{S8}$S8$'hostName'||*{S8}$S8$'realmName'||*{S8}$S8$'sKeepAliveTimeout'||*{S8}$S8$'realmId'||*{S8}$S8$'localName'||*{S8}$S8$'localPort'||*{S8}$S8$'localDestinationName'||ARR4{U8}$U8$'password'||S32'connectedUsers'||S32'usersLimit'||S32'clientMode'||S32'keepAliveTimeout'||S8'ipFamily'||S8'realmType'||S8'tunnelType'||U8'$pad0'||SYM#tag-timeval#'keepAlive'||U32'addressLength'||U32'$pad1'||*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'clientAddress'||*{SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#}$SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#$'masterSslFd'||*{SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#$'httpProxyOptions'||*{SYM#tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]#$'arOptions'||*{SYM#tag-portlist#}$SYM#tag-portlist#$'destinationPorts'||*{*{SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#}$SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#$}$*{SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#}$SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#$$'usersTable'||*{SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#}$SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#$'userModule'||*{SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#}$SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#$'serviceModule'|]#$}$*{SYM#tag-#anon#ST[*{S8}$S8$'serverName'||*{S8}$S8$'managePort'||*{S8}$S8$'hostName'||*{S8}$S8$'realmName'||*{S8}$S8$'sKeepAliveTimeout'||*{S8}$S8$'realmId'||*{S8}$S8$'localName'||*{S8}$S8$'localPort'||*{S8}$S8$'localDestinationName'||ARR4{U8}$U8$'password'||S32'connectedUsers'||S32'usersLimit'||S32'clientMode'||S32'keepAliveTimeout'||S8'ipFamily'||S8'realmType'||S8'tunnelType'||U8'$pad0'||SYM#tag-timeval#'keepAlive'||U32'addressLength'||U32'$pad1'||*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'clientAddress'||*{SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#}$SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#$'masterSslFd'||*{SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#$'httpProxyOptions'||*{SYM#tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]#$'arOptions'||*{SYM#tag-portlist#}$SYM#tag-portlist#$'destinationPorts'||*{*{SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#}$SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#$}$*{SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#}$SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#$$'usersTable'||*{SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#}$SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#$'userModule'||*{SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#}$SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#$'serviceModule'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'serverName'||*{S8}$S8$'managePort'||*{S8}$S8$'hostName'||*{S8}$S8$'realmName'||*{S8}$S8$'sKeepAliveTimeout'||*{S8}$S8$'realmId'||*{S8}$S8$'localName'||*{S8}$S8$'localPort'||*{S8}$S8$'localDestinationName'||ARR4{U8}$U8$'password'||S32'connectedUsers'||S32'usersLimit'||S32'clientMode'||S32'keepAliveTimeout'||S8'ipFamily'||S8'realmType'||S8'tunnelType'||U8'$pad0'||SYM#tag-timeval#'keepAlive'||U32'addressLength'||U32'$pad1'||*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'clientAddress'||*{SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#}$SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#$'masterSslFd'||*{SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#$'httpProxyOptions'||*{SYM#tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]#$'arOptions'||*{SYM#tag-portlist#}$SYM#tag-portlist#$'destinationPorts'||*{*{SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#}$SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#$}$*{SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#}$SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#$$'usersTable'||*{SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#}$SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#$'userModule'||*{SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#}$SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#$'serviceModule'|]#$$'realmsTable'|]
+// tag-#anon#ST[*{S8}_S8_'keysFile'||*{S8}_S8_'certificateFile'||*{S8}_S8_'storeFile'||*{S8}_S8_'dateFormat'||S32'realmsNumber'||S8'ignorePublicKeys'||U24'_pad0'||*{*{SYM#tag-#anon#ST[*{S8}_S8_'serverName'||*{S8}_S8_'managePort'||*{S8}_S8_'hostName'||*{S8}_S8_'realmName'||*{S8}_S8_'sKeepAliveTimeout'||*{S8}_S8_'realmId'||*{S8}_S8_'localName'||*{S8}_S8_'localPort'||*{S8}_S8_'localDestinationName'||ARR4{U8}_U8_'password'||S32'connectedUsers'||S32'usersLimit'||S32'clientMode'||S32'keepAliveTimeout'||S8'ipFamily'||S8'realmType'||S8'tunnelType'||U8'_pad0'||SYM#tag-timeval#'keepAlive'||U32'addressLength'||U32'_pad1'||*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'clientAddress'||*{SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#}_SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#_'masterSslFd'||*{SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#_'httpProxyOptions'||*{SYM#tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]#_'arOptions'||*{SYM#tag-portlist#}_SYM#tag-portlist#_'destinationPorts'||*{*{SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#}_SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#_}_*{SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#}_SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#__'usersTable'||*{SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#}_SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#_'userModule'||*{SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#}_SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#_'serviceModule'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'serverName'||*{S8}_S8_'managePort'||*{S8}_S8_'hostName'||*{S8}_S8_'realmName'||*{S8}_S8_'sKeepAliveTimeout'||*{S8}_S8_'realmId'||*{S8}_S8_'localName'||*{S8}_S8_'localPort'||*{S8}_S8_'localDestinationName'||ARR4{U8}_U8_'password'||S32'connectedUsers'||S32'usersLimit'||S32'clientMode'||S32'keepAliveTimeout'||S8'ipFamily'||S8'realmType'||S8'tunnelType'||U8'_pad0'||SYM#tag-timeval#'keepAlive'||U32'addressLength'||U32'_pad1'||*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'clientAddress'||*{SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#}_SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#_'masterSslFd'||*{SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#_'httpProxyOptions'||*{SYM#tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]#_'arOptions'||*{SYM#tag-portlist#}_SYM#tag-portlist#_'destinationPorts'||*{*{SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#}_SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#_}_*{SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#}_SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#__'usersTable'||*{SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#}_SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#_'userModule'||*{SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#}_SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#_'serviceModule'|]#_}_*{SYM#tag-#anon#ST[*{S8}_S8_'serverName'||*{S8}_S8_'managePort'||*{S8}_S8_'hostName'||*{S8}_S8_'realmName'||*{S8}_S8_'sKeepAliveTimeout'||*{S8}_S8_'realmId'||*{S8}_S8_'localName'||*{S8}_S8_'localPort'||*{S8}_S8_'localDestinationName'||ARR4{U8}_U8_'password'||S32'connectedUsers'||S32'usersLimit'||S32'clientMode'||S32'keepAliveTimeout'||S8'ipFamily'||S8'realmType'||S8'tunnelType'||U8'_pad0'||SYM#tag-timeval#'keepAlive'||U32'addressLength'||U32'_pad1'||*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'clientAddress'||*{SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#}_SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#_'masterSslFd'||*{SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#_'httpProxyOptions'||*{SYM#tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]#_'arOptions'||*{SYM#tag-portlist#}_SYM#tag-portlist#_'destinationPorts'||*{*{SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#}_SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#_}_*{SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#}_SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#__'usersTable'||*{SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#}_SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#_'userModule'||*{SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#}_SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#_'serviceModule'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'serverName'||*{S8}_S8_'managePort'||*{S8}_S8_'hostName'||*{S8}_S8_'realmName'||*{S8}_S8_'sKeepAliveTimeout'||*{S8}_S8_'realmId'||*{S8}_S8_'localName'||*{S8}_S8_'localPort'||*{S8}_S8_'localDestinationName'||ARR4{U8}_U8_'password'||S32'connectedUsers'||S32'usersLimit'||S32'clientMode'||S32'keepAliveTimeout'||S8'ipFamily'||S8'realmType'||S8'tunnelType'||U8'_pad0'||SYM#tag-timeval#'keepAlive'||U32'addressLength'||U32'_pad1'||*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'clientAddress'||*{SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#}_SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#_'masterSslFd'||*{SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#_'httpProxyOptions'||*{SYM#tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]#_'arOptions'||*{SYM#tag-portlist#}_SYM#tag-portlist#_'destinationPorts'||*{*{SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#}_SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#_}_*{SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#}_SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#__'usersTable'||*{SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#}_SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#_'userModule'||*{SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#}_SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#_'serviceModule'|]#__'realmsTable'|]
 // file client_configuration_struct.h line 27
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{S8}$S8$'listenHostName'||*{S8}$S8$'manageHostName'||*{S8}$S8$'listenPortName'||*{S8}$S8$'managePortName'||S32'listenFd'||S32'manageFd'||S32'number'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'listenHostName'||*{S8}_S8_'manageHostName'||*{S8}_S8_'listenPortName'||*{S8}_S8_'managePortName'||S32'listenFd'||S32'manageFd'||S32'number'||U32'_pad0'|]
 // file usr_cli_struct.h line 25
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]
 // file http_proxy_options_struct.h line 31
 struct anonymous;
 
-// tag-#anon#ST[*{S8}$S8$'serverName'||*{S8}$S8$'managePort'||*{S8}$S8$'hostName'||*{S8}$S8$'realmName'||*{S8}$S8$'sKeepAliveTimeout'||*{S8}$S8$'realmId'||*{S8}$S8$'localName'||*{S8}$S8$'localPort'||*{S8}$S8$'localDestinationName'||ARR4{U8}$U8$'password'||S32'connectedUsers'||S32'usersLimit'||S32'clientMode'||S32'keepAliveTimeout'||S8'ipFamily'||S8'realmType'||S8'tunnelType'||U8'$pad0'||SYM#tag-timeval#'keepAlive'||U32'addressLength'||U32'$pad1'||*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'clientAddress'||*{SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#}$SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#$'masterSslFd'||*{SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#$'httpProxyOptions'||*{SYM#tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'artries'||S32'tries'||U32'$pad0'||*{S8}$S8$'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'$pad1'|]#$'arOptions'||*{SYM#tag-portlist#}$SYM#tag-portlist#$'destinationPorts'||*{*{SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#}$SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#$}$*{SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#}$SYM#tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]#$$'usersTable'||*{SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#}$SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#$'userModule'||*{SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#}$SYM#tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]#$'serviceModule'|]
+// tag-#anon#ST[*{S8}_S8_'serverName'||*{S8}_S8_'managePort'||*{S8}_S8_'hostName'||*{S8}_S8_'realmName'||*{S8}_S8_'sKeepAliveTimeout'||*{S8}_S8_'realmId'||*{S8}_S8_'localName'||*{S8}_S8_'localPort'||*{S8}_S8_'localDestinationName'||ARR4{U8}_U8_'password'||S32'connectedUsers'||S32'usersLimit'||S32'clientMode'||S32'keepAliveTimeout'||S8'ipFamily'||S8'realmType'||S8'tunnelType'||U8'_pad0'||SYM#tag-timeval#'keepAlive'||U32'addressLength'||U32'_pad1'||*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'clientAddress'||*{SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#}_SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#_'masterSslFd'||*{SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#_'httpProxyOptions'||*{SYM#tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'artries'||S32'tries'||U32'_pad0'||*{S8}_S8_'ardelay'||S32'delay'||S8'start'||S8'quit'||S8'premature'||U8'_pad1'|]#_'arOptions'||*{SYM#tag-portlist#}_SYM#tag-portlist#_'destinationPorts'||*{*{SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#}_SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#_}_*{SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#}_SYM#tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]#__'usersTable'||*{SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#}_SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#_'userModule'||*{SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#}_SYM#tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]#_'serviceModule'|]
 // file client_realm_struct.h line 42
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[ARR128{U8}$U8$'cert_verify_md'||ARR128{U8}$U8$'finish_md'||S32'finish_md_len'||ARR128{U8}$U8$'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'$pad0'||*{cSYM#tag-ssl_cipher_st#}$cSYM#tag-ssl_cipher_st#$'new_cipher'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}$S8$'ctype'||U56'$pad1'||*{SYM#tag-stack_st_X509_NAME#}$SYM#tag-stack_st_X509_NAME#$'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}$U8$'key_block'||*{cSYM#tag-evp_cipher_st#}$cSYM#tag-evp_cipher_st#$'new_sym_enc'||*{cSYM#tag-env_md_st#}$cSYM#tag-env_md_st#$'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}$cSYM#tag-ssl_comp_st#$'new_compression'||S32'cert_request'||U32'$pad2'|]
+// tag-#anon#ST[ARR128{U8}_U8_'cert_verify_md'||ARR128{U8}_U8_'finish_md'||S32'finish_md_len'||ARR128{U8}_U8_'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'_pad0'||*{cSYM#tag-ssl_cipher_st#}_cSYM#tag-ssl_cipher_st#_'new_cipher'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}_S8_'ctype'||U56'_pad1'||*{SYM#tag-stack_st_X509_NAME#}_SYM#tag-stack_st_X509_NAME#_'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}_U8_'key_block'||*{cSYM#tag-evp_cipher_st#}_cSYM#tag-evp_cipher_st#_'new_sym_enc'||*{cSYM#tag-env_md_st#}_cSYM#tag-env_md_st#_'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}_cSYM#tag-ssl_comp_st#_'new_compression'||S32'cert_request'||U32'_pad2'|]
 // file /usr/include/openssl/ssl3.h line 553
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[ARR5{U8}$U8$'tab'||U24'$pad0'||S32'readed'|]
+// tag-#anon#ST[ARR5{U8}_U8_'tab'||U24'_pad0'||S32'readed'|]
 // file header_buffer_struct.h line 24
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 140
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]
+// tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]
 // file ssl_fd_struct.h line 27
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[S32'sess_connect'||S32'sess_connect_renegotiate'||S32'sess_connect_good'||S32'sess_accept'||S32'sess_accept_renegotiate'||S32'sess_accept_good'||S32'sess_miss'||S32'sess_timeout'||S32'sess_cache_full'||S32'sess_hit'||S32'sess_cb_hit'|]
 // file /usr/include/openssl/ssl.h line 964
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$28;
+struct anonymous_28;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$33;
+struct anonymous_33;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S32'sockfd'||U32'$pad0'||*{S8}$S8$'host'||*{S8}$S8$'serv'||*{SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'proxyname'||*{S8}$S8$'proxyport'||*{S8}$S8$'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'$pad0'|]#$'hpo'||S8'type'||U56'$pad1'||*{SYM#tag-ssl_ctx_st#}$SYM#tag-ssl_ctx_st#$'ctx'|]
+// tag-#anon#ST[S32'sockfd'||U32'_pad0'||*{S8}_S8_'host'||*{S8}_S8_'serv'||*{SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'proxyname'||*{S8}_S8_'proxyport'||*{S8}_S8_'proxyauth_cred'||S8'proxyauth_type'||S8'useHttps'||U48'_pad0'|]#_'hpo'||S8'type'||U56'_pad1'||*{SYM#tag-ssl_ctx_st#}_SYM#tag-ssl_ctx_st#_'ctx'|]
 // file http_proxy_client.c line 32
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]
+// tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]
 // file user_stats_struct.h line 27
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S8'loaded'||U56'$pad0'||*{S8}$S8$'fileName'||*{V}$V$'handle'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'info'||*{S32(*{S8}$S8$|*{S8}$S8$)->S32}$S32(*{S8}$S8$|*{S8}$S8$)->S32$'allow'||*{S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32}$S32(*{S8}$S8$|*{U8}$U8$|*{S32}$S32$)->S32$'filter'|]
+// tag-#anon#ST[S8'loaded'||U56'_pad0'||*{S8}_S8_'fileName'||*{V}_V_'handle'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'info'||*{S32(*{S8}_S8_|*{S8}_S8_)->S32}_S32(*{S8}_S8_|*{S8}_S8_)->S32_'allow'||*{S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32}_S32(*{S8}_S8_|*{U8}_U8_|*{S32}_S32_)->S32_'filter'|]
 // file module_struct.h line 28
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S8'read_state'||ARR4{S8}$S8$'readed_length'||S8'state'||ARR10{S8}$S8$'id'||*{SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#}$SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#$'postFd'||*{SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#}$SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#$'getFd'||S32'sent_ptr'||S32'sockfd'||ARR9000{S8}$S8$'buf'||ARR9000{S8}$S8$'tmpbuf'||S8'tmpstate'||U56'$pad0'||*{SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#}$SYM#tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-ssl_st#}$SYM#tag-ssl_st#$'ssl'|]#$'tmpFd'||S8'type'||U24'$pad1'||SYM#tag-#anon#ST[S8'type'||ARR10{S8}$S8$'id'||U8'$pad0'||S32'ptr'||S32'length'||S32'allreaded'|]#'tmpheader'||S32'ptr'||S32'length'||S32'curreceived'||S32'toreceive'||S32'received'|]
+// tag-#anon#ST[S8'read_state'||ARR4{S8}_S8_'readed_length'||S8'state'||ARR10{S8}_S8_'id'||*{SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#}_SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#_'postFd'||*{SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#}_SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#_'getFd'||S32'sent_ptr'||S32'sockfd'||ARR9000{S8}_S8_'buf'||ARR9000{S8}_S8_'tmpbuf'||S8'tmpstate'||U56'_pad0'||*{SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#}_SYM#tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-ssl_st#}_SYM#tag-ssl_st#_'ssl'|]#_'tmpFd'||S8'type'||U24'_pad1'||SYM#tag-#anon#ST[S8'type'||ARR10{S8}_S8_'id'||U8'_pad0'||S32'ptr'||S32'length'||S32'allreaded'|]#'tmpheader'||S32'ptr'||S32'length'||S32'curreceived'||S32'toreceive'||S32'received'|]
 // file http_proxy_functions.h line 52
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S8'state'||U24'$pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}$S8$'nameBuf'||ARR7{S8}$S8$'portBuf'||U8'$pad1'||*{SYM#tag-buflist#}$SYM#tag-buflist#$'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#}$SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}$S32$'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}$S32$'downloadSpeedQueue'|]#$'stats'|]
+// tag-#anon#ST[S8'state'||U24'_pad0'||S32'connFd'||S32'whatClient'||S32'userId'||S64'connectTime'||ARR128{S8}_S8_'nameBuf'||ARR7{S8}_S8_'portBuf'||U8'_pad1'||*{SYM#tag-buflist#}_SYM#tag-buflist#_'bufList'||*{SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#}_SYM#tag-#anon#ST[S64'lastActivity'||S64'lastUSQChange'||S64'lastDSQChange'||S32'totalDownloadedBytes'||S32'totalUploadedBytes'||S32'uploadSQP'||ARR3{S32}_S32_'uploadSpeedQueue'||S32'downloadSQP'||ARR3{S32}_S32_'downloadSpeedQueue'|]#_'stats'|]
 // file connect_user_struct.h line 30
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S8'type'||ARR10{S8}$S8$'id'||U8'$pad0'||S32'ptr'||S32'length'||S32'allreaded'|]
+// tag-#anon#ST[S8'type'||ARR10{S8}_S8_'id'||U8'_pad0'||S32'ptr'||S32'length'||S32'allreaded'|]
 // file http_proxy_functions.h line 44
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}$U8$'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
+// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}_U8_'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
 // file /usr/include/openssl/ssl2.h line 203
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$32;
+union anonymous_32;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 138
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$22;
+union anonymous_22;
 
 // tag-ASN1_ENCODING_st
 // file /usr/include/openssl/asn1.h line 257
@@ -659,49 +659,49 @@ struct x509_store_st;
 signed int ASN1_INTEGER_set(struct asn1_string_st *, signed long int);
 // ArOptions_evaluate_values
 // file ar_options_struct.h line 57
-void ArOptions_evaluate_values(struct anonymous$3 *ao);
+void ArOptions_evaluate_values(struct anonymous_3 *ao);
 // ArOptions_free
 // file ar_options_struct.h line 41
-void ArOptions_free(struct anonymous$3 **ao);
+void ArOptions_free(struct anonymous_3 **ao);
 // ArOptions_get_arDelay
 // file ar_options_struct.h line 52
-signed int ArOptions_get_arDelay(struct anonymous$3 *ao);
+signed int ArOptions_get_arDelay(struct anonymous_3 *ao);
 // ArOptions_get_arPremature
 // file ar_options_struct.h line 55
-char ArOptions_get_arPremature(struct anonymous$3 *ao);
+char ArOptions_get_arPremature(struct anonymous_3 *ao);
 // ArOptions_get_arQuit
 // file ar_options_struct.h line 54
-char ArOptions_get_arQuit(struct anonymous$3 *ao);
+char ArOptions_get_arQuit(struct anonymous_3 *ao);
 // ArOptions_get_arStart
 // file ar_options_struct.h line 53
-char ArOptions_get_arStart(struct anonymous$3 *ao);
+char ArOptions_get_arStart(struct anonymous_3 *ao);
 // ArOptions_get_arTries
 // file ar_options_struct.h line 51
-signed int ArOptions_get_arTries(struct anonymous$3 *ao);
+signed int ArOptions_get_arTries(struct anonymous_3 *ao);
 // ArOptions_new
 // file ar_options_struct.h line 39
-struct anonymous$3 * ArOptions_new();
+struct anonymous_3 * ArOptions_new();
 // ArOptions_set_arDelay
 // file ar_options_struct.c line 126
-void ArOptions_set_arDelay(struct anonymous$3 *ao, signed int delay);
+void ArOptions_set_arDelay(struct anonymous_3 *ao, signed int delay);
 // ArOptions_set_arPremature
 // file ar_options_struct.h line 49
-void ArOptions_set_arPremature(struct anonymous$3 *ao, char premature);
+void ArOptions_set_arPremature(struct anonymous_3 *ao, char premature);
 // ArOptions_set_arQuit
 // file ar_options_struct.h line 48
-void ArOptions_set_arQuit(struct anonymous$3 *ao, char quit);
+void ArOptions_set_arQuit(struct anonymous_3 *ao, char quit);
 // ArOptions_set_arStart
 // file ar_options_struct.h line 47
-void ArOptions_set_arStart(struct anonymous$3 *ao, char start);
+void ArOptions_set_arStart(struct anonymous_3 *ao, char start);
 // ArOptions_set_arTries
 // file ar_options_struct.c line 91
-void ArOptions_set_arTries(struct anonymous$3 *ao, signed int tries);
+void ArOptions_set_arTries(struct anonymous_3 *ao, signed int tries);
 // ArOptions_set_s_arDelay
 // file ar_options_struct.h line 46
-void ArOptions_set_s_arDelay(struct anonymous$3 *ao, char *delay);
+void ArOptions_set_s_arDelay(struct anonymous_3 *ao, char *delay);
 // ArOptions_set_s_arTries
 // file ar_options_struct.h line 44
-void ArOptions_set_s_arTries(struct anonymous$3 *ao, char *tries);
+void ArOptions_set_s_arTries(struct anonymous_3 *ao, char *tries);
 // AuditListNode_free
 // file audit_list_node_struct.c line 81
 void AuditListNode_free(struct alnode **aln);
@@ -833,298 +833,298 @@ void BufList_insert_back(struct buflist *bl, struct blnode *bln);
 struct buflist * BufList_new();
 // ClientConfiguration_free
 // file client_configuration_struct.c line 54
-void ClientConfiguration_free(struct anonymous$4 **cc);
+void ClientConfiguration_free(struct anonymous_4 **cc);
 // ClientConfiguration_get_certificateFile
 // file client_configuration_struct.h line 51
-char * ClientConfiguration_get_certificateFile(struct anonymous$4 *cc);
+char * ClientConfiguration_get_certificateFile(struct anonymous_4 *cc);
 // ClientConfiguration_get_dateFormat
 // file client_configuration_struct.h line 53
-char * ClientConfiguration_get_dateFormat(struct anonymous$4 *cc);
+char * ClientConfiguration_get_dateFormat(struct anonymous_4 *cc);
 // ClientConfiguration_get_ignorePublicKeys
 // file client_configuration_struct.h line 56
-char ClientConfiguration_get_ignorePublicKeys(struct anonymous$4 *cc);
+char ClientConfiguration_get_ignorePublicKeys(struct anonymous_4 *cc);
 // ClientConfiguration_get_keysFile
 // file client_configuration_struct.h line 50
-char * ClientConfiguration_get_keysFile(struct anonymous$4 *cc);
+char * ClientConfiguration_get_keysFile(struct anonymous_4 *cc);
 // ClientConfiguration_get_realmsNumber
 // file client_configuration_struct.h line 54
-signed int ClientConfiguration_get_realmsNumber(struct anonymous$4 *cc);
+signed int ClientConfiguration_get_realmsNumber(struct anonymous_4 *cc);
 // ClientConfiguration_get_realmsTable
 // file client_configuration_struct.h line 55
-struct anonymous$5 ** ClientConfiguration_get_realmsTable(struct anonymous$4 *cc);
+struct anonymous_5 ** ClientConfiguration_get_realmsTable(struct anonymous_4 *cc);
 // ClientConfiguration_get_storeFile
 // file client_configuration_struct.h line 52
-char * ClientConfiguration_get_storeFile(struct anonymous$4 *cc);
+char * ClientConfiguration_get_storeFile(struct anonymous_4 *cc);
 // ClientConfiguration_new
 // file client_configuration_struct.h line 38
-struct anonymous$4 * ClientConfiguration_new();
+struct anonymous_4 * ClientConfiguration_new();
 // ClientConfiguration_set_certificateFile
 // file client_configuration_struct.h line 43
-void ClientConfiguration_set_certificateFile(struct anonymous$4 *cc, char *certificateFile);
+void ClientConfiguration_set_certificateFile(struct anonymous_4 *cc, char *certificateFile);
 // ClientConfiguration_set_dateFormat
 // file client_configuration_struct.h line 45
-void ClientConfiguration_set_dateFormat(struct anonymous$4 *cc, char *dateFormat);
+void ClientConfiguration_set_dateFormat(struct anonymous_4 *cc, char *dateFormat);
 // ClientConfiguration_set_ignorePublicKeys
 // file client_configuration_struct.h line 48
-void ClientConfiguration_set_ignorePublicKeys(struct anonymous$4 *cc, char ignorePublicKeys);
+void ClientConfiguration_set_ignorePublicKeys(struct anonymous_4 *cc, char ignorePublicKeys);
 // ClientConfiguration_set_keysFile
 // file client_configuration_struct.h line 42
-void ClientConfiguration_set_keysFile(struct anonymous$4 *cc, char *keysFile);
+void ClientConfiguration_set_keysFile(struct anonymous_4 *cc, char *keysFile);
 // ClientConfiguration_set_realmsNumber
 // file client_configuration_struct.h line 46
-void ClientConfiguration_set_realmsNumber(struct anonymous$4 *cc, signed int realmsNumber);
+void ClientConfiguration_set_realmsNumber(struct anonymous_4 *cc, signed int realmsNumber);
 // ClientConfiguration_set_realmsTable
 // file client_configuration_struct.h line 47
-void ClientConfiguration_set_realmsTable(struct anonymous$4 *cc, struct anonymous$5 **realmsTable);
+void ClientConfiguration_set_realmsTable(struct anonymous_4 *cc, struct anonymous_5 **realmsTable);
 // ClientConfiguration_set_storeFile
 // file client_configuration_struct.h line 44
-void ClientConfiguration_set_storeFile(struct anonymous$4 *cc, char *storeFile);
+void ClientConfiguration_set_storeFile(struct anonymous_4 *cc, char *storeFile);
 // ClientRealm_closeUsersConnections
 // file client_realm_struct.h line 141
-void ClientRealm_closeUsersConnections(struct anonymous$5 *cr);
+void ClientRealm_closeUsersConnections(struct anonymous_5 *cr);
 // ClientRealm_decrease_connectedUsers
 // file client_realm_struct.c line 1106
-void ClientRealm_decrease_connectedUsers(struct anonymous$5 *cr);
+void ClientRealm_decrease_connectedUsers(struct anonymous_5 *cr);
 // ClientRealm_enable_multi
 // file client_realm_struct.h line 144
-void ClientRealm_enable_multi(struct anonymous$5 *cr);
+void ClientRealm_enable_multi(struct anonymous_5 *cr);
 // ClientRealm_free
 // file client_realm_struct.h line 77
-void ClientRealm_free(struct anonymous$5 **cr);
+void ClientRealm_free(struct anonymous_5 **cr);
 // ClientRealm_get_addressLength
 // file client_realm_struct.c line 953
-unsigned int ClientRealm_get_addressLength(struct anonymous$5 *cr);
+unsigned int ClientRealm_get_addressLength(struct anonymous_5 *cr);
 // ClientRealm_get_arOptions
 // file client_realm_struct.h line 131
-struct anonymous$3 * ClientRealm_get_arOptions(struct anonymous$5 *cr);
+struct anonymous_3 * ClientRealm_get_arOptions(struct anonymous_5 *cr);
 // ClientRealm_get_clientAddress
 // file client_realm_struct.h line 128
-struct sockaddr * ClientRealm_get_clientAddress(struct anonymous$5 *cr);
+struct sockaddr * ClientRealm_get_clientAddress(struct anonymous_5 *cr);
 // ClientRealm_get_clientMode
 // file client_realm_struct.h line 122
-signed int ClientRealm_get_clientMode(struct anonymous$5 *cr);
+signed int ClientRealm_get_clientMode(struct anonymous_5 *cr);
 // ClientRealm_get_connectedUsers
 // file client_realm_struct.c line 816
-signed int ClientRealm_get_connectedUsers(struct anonymous$5 *cr);
+signed int ClientRealm_get_connectedUsers(struct anonymous_5 *cr);
 // ClientRealm_get_destinationPorts
 // file client_realm_struct.h line 132
-struct portlist * ClientRealm_get_destinationPorts(struct anonymous$5 *cr);
+struct portlist * ClientRealm_get_destinationPorts(struct anonymous_5 *cr);
 // ClientRealm_get_hostName
 // file client_realm_struct.h line 111
-char * ClientRealm_get_hostName(struct anonymous$5 *cr);
+char * ClientRealm_get_hostName(struct anonymous_5 *cr);
 // ClientRealm_get_httpProxyOptions
 // file client_realm_struct.h line 130
-struct anonymous * ClientRealm_get_httpProxyOptions(struct anonymous$5 *cr);
+struct anonymous * ClientRealm_get_httpProxyOptions(struct anonymous_5 *cr);
 // ClientRealm_get_ipFamily
 // file client_realm_struct.h line 123
-char ClientRealm_get_ipFamily(struct anonymous$5 *cr);
+char ClientRealm_get_ipFamily(struct anonymous_5 *cr);
 // ClientRealm_get_keepAlive
 // file client_realm_struct.c line 935
-struct timeval ClientRealm_get_keepAlive(struct anonymous$5 *cr);
+struct timeval ClientRealm_get_keepAlive(struct anonymous_5 *cr);
 // ClientRealm_get_keepAlivePointer
 // file client_realm_struct.h line 142
-struct timeval * ClientRealm_get_keepAlivePointer(struct anonymous$5 *cr);
+struct timeval * ClientRealm_get_keepAlivePointer(struct anonymous_5 *cr);
 // ClientRealm_get_keepAliveTimeout
 // file client_realm_struct.h line 121
-signed int ClientRealm_get_keepAliveTimeout(struct anonymous$5 *cr);
+signed int ClientRealm_get_keepAliveTimeout(struct anonymous_5 *cr);
 // ClientRealm_get_localDestinationName
 // file client_realm_struct.h line 117
-char * ClientRealm_get_localDestinationName(struct anonymous$5 *cr);
+char * ClientRealm_get_localDestinationName(struct anonymous_5 *cr);
 // ClientRealm_get_localName
 // file client_realm_struct.h line 115
-char * ClientRealm_get_localName(struct anonymous$5 *cr);
+char * ClientRealm_get_localName(struct anonymous_5 *cr);
 // ClientRealm_get_localPort
 // file client_realm_struct.h line 116
-char * ClientRealm_get_localPort(struct anonymous$5 *cr);
+char * ClientRealm_get_localPort(struct anonymous_5 *cr);
 // ClientRealm_get_managePort
 // file client_realm_struct.h line 110
-char * ClientRealm_get_managePort(struct anonymous$5 *cr);
+char * ClientRealm_get_managePort(struct anonymous_5 *cr);
 // ClientRealm_get_masterSslFd
 // file client_realm_struct.h line 129
-struct anonymous$0 * ClientRealm_get_masterSslFd(struct anonymous$5 *cr);
+struct anonymous_0 * ClientRealm_get_masterSslFd(struct anonymous_5 *cr);
 // ClientRealm_get_password
 // file client_realm_struct.h line 118
-unsigned char * ClientRealm_get_password(struct anonymous$5 *cr);
+unsigned char * ClientRealm_get_password(struct anonymous_5 *cr);
 // ClientRealm_get_realmId
 // file client_realm_struct.h line 114
-char * ClientRealm_get_realmId(struct anonymous$5 *cr);
+char * ClientRealm_get_realmId(struct anonymous_5 *cr);
 // ClientRealm_get_realmName
 // file client_realm_struct.c line 711
-char * ClientRealm_get_realmName(struct anonymous$5 *cr);
+char * ClientRealm_get_realmName(struct anonymous_5 *cr);
 // ClientRealm_get_realmType
 // file client_realm_struct.h line 124
-char ClientRealm_get_realmType(struct anonymous$5 *cr);
+char ClientRealm_get_realmType(struct anonymous_5 *cr);
 // ClientRealm_get_sKeepAliveTimeout
 // file client_realm_struct.h line 113
-char * ClientRealm_get_sKeepAliveTimeout(struct anonymous$5 *cr);
+char * ClientRealm_get_sKeepAliveTimeout(struct anonymous_5 *cr);
 // ClientRealm_get_serverName
 // file client_realm_struct.h line 109
-char * ClientRealm_get_serverName(struct anonymous$5 *cr);
+char * ClientRealm_get_serverName(struct anonymous_5 *cr);
 // ClientRealm_get_serviceModule
 // file client_realm_struct.h line 136
-struct anonymous$6 * ClientRealm_get_serviceModule(struct anonymous$5 *cr);
+struct anonymous_6 * ClientRealm_get_serviceModule(struct anonymous_5 *cr);
 // ClientRealm_get_tunnelType
 // file client_realm_struct.h line 125
-char ClientRealm_get_tunnelType(struct anonymous$5 *cr);
+char ClientRealm_get_tunnelType(struct anonymous_5 *cr);
 // ClientRealm_get_userModule
 // file client_realm_struct.h line 135
-struct anonymous$6 * ClientRealm_get_userModule(struct anonymous$5 *cr);
+struct anonymous_6 * ClientRealm_get_userModule(struct anonymous_5 *cr);
 // ClientRealm_get_usersLimit
 // file client_realm_struct.h line 120
-signed int ClientRealm_get_usersLimit(struct anonymous$5 *cr);
+signed int ClientRealm_get_usersLimit(struct anonymous_5 *cr);
 // ClientRealm_get_usersTable
 // file client_realm_struct.h line 133
-struct anonymous$7 ** ClientRealm_get_usersTable(struct anonymous$5 *cr);
+struct anonymous_7 ** ClientRealm_get_usersTable(struct anonymous_5 *cr);
 // ClientRealm_increase_connectedUsers
 // file client_realm_struct.c line 1090
-void ClientRealm_increase_connectedUsers(struct anonymous$5 *cr);
+void ClientRealm_increase_connectedUsers(struct anonymous_5 *cr);
 // ClientRealm_new
 // file client_realm_struct.h line 75
-struct anonymous$5 * ClientRealm_new();
+struct anonymous_5 * ClientRealm_new();
 // ClientRealm_send_realmId
 // file client_realm_struct.h line 143
-void ClientRealm_send_realmId(struct anonymous$5 *cr, unsigned char *buff);
+void ClientRealm_send_realmId(struct anonymous_5 *cr, unsigned char *buff);
 // ClientRealm_set_addressLength
 // file client_realm_struct.h line 97
-void ClientRealm_set_addressLength(struct anonymous$5 *cr, unsigned int addressLength);
+void ClientRealm_set_addressLength(struct anonymous_5 *cr, unsigned int addressLength);
 // ClientRealm_set_arOptions
 // file client_realm_struct.h line 101
-void ClientRealm_set_arOptions(struct anonymous$5 *cr, struct anonymous$3 *arOptions);
+void ClientRealm_set_arOptions(struct anonymous_5 *cr, struct anonymous_3 *arOptions);
 // ClientRealm_set_clientAddress
 // file client_realm_struct.h line 98
-void ClientRealm_set_clientAddress(struct anonymous$5 *cr, struct sockaddr *clientAddress);
+void ClientRealm_set_clientAddress(struct anonymous_5 *cr, struct sockaddr *clientAddress);
 // ClientRealm_set_clientMode
 // file client_realm_struct.h line 92
-void ClientRealm_set_clientMode(struct anonymous$5 *cr, signed int clientMode);
+void ClientRealm_set_clientMode(struct anonymous_5 *cr, signed int clientMode);
 // ClientRealm_set_connectedUsers
 // file client_realm_struct.c line 323
-void ClientRealm_set_connectedUsers(struct anonymous$5 *cr, signed int connectedUsers);
+void ClientRealm_set_connectedUsers(struct anonymous_5 *cr, signed int connectedUsers);
 // ClientRealm_set_destinationPorts
 // file client_realm_struct.h line 102
-void ClientRealm_set_destinationPorts(struct anonymous$5 *cr, struct portlist *destinationPorts);
+void ClientRealm_set_destinationPorts(struct anonymous_5 *cr, struct portlist *destinationPorts);
 // ClientRealm_set_hostName
 // file client_realm_struct.h line 81
-void ClientRealm_set_hostName(struct anonymous$5 *cr, char *hostName);
+void ClientRealm_set_hostName(struct anonymous_5 *cr, char *hostName);
 // ClientRealm_set_httpProxyOptions
 // file client_realm_struct.h line 100
-void ClientRealm_set_httpProxyOptions(struct anonymous$5 *cr, struct anonymous *httpProxyOptions);
+void ClientRealm_set_httpProxyOptions(struct anonymous_5 *cr, struct anonymous *httpProxyOptions);
 // ClientRealm_set_ipFamily
 // file client_realm_struct.h line 93
-void ClientRealm_set_ipFamily(struct anonymous$5 *cr, char ipFamily);
+void ClientRealm_set_ipFamily(struct anonymous_5 *cr, char ipFamily);
 // ClientRealm_set_keepAlive
 // file client_realm_struct.h line 96
-void ClientRealm_set_keepAlive(struct anonymous$5 *cr, struct timeval keepAlive);
+void ClientRealm_set_keepAlive(struct anonymous_5 *cr, struct timeval keepAlive);
 // ClientRealm_set_keepAliveTimeout
 // file client_realm_struct.h line 91
-void ClientRealm_set_keepAliveTimeout(struct anonymous$5 *cr, signed int keepAliveTimeout);
+void ClientRealm_set_keepAliveTimeout(struct anonymous_5 *cr, signed int keepAliveTimeout);
 // ClientRealm_set_localDestinationName
 // file client_realm_struct.h line 87
-void ClientRealm_set_localDestinationName(struct anonymous$5 *cr, char *localDestinationName);
+void ClientRealm_set_localDestinationName(struct anonymous_5 *cr, char *localDestinationName);
 // ClientRealm_set_localName
 // file client_realm_struct.h line 85
-void ClientRealm_set_localName(struct anonymous$5 *cr, char *localName);
+void ClientRealm_set_localName(struct anonymous_5 *cr, char *localName);
 // ClientRealm_set_localPort
 // file client_realm_struct.h line 86
-void ClientRealm_set_localPort(struct anonymous$5 *cr, char *localPort);
+void ClientRealm_set_localPort(struct anonymous_5 *cr, char *localPort);
 // ClientRealm_set_managePort
 // file client_realm_struct.h line 80
-void ClientRealm_set_managePort(struct anonymous$5 *cr, char *managePort);
+void ClientRealm_set_managePort(struct anonymous_5 *cr, char *managePort);
 // ClientRealm_set_masterSslFd
 // file client_realm_struct.c line 497
-void ClientRealm_set_masterSslFd(struct anonymous$5 *cr, struct anonymous$0 *masterSslFd);
+void ClientRealm_set_masterSslFd(struct anonymous_5 *cr, struct anonymous_0 *masterSslFd);
 // ClientRealm_set_password
 // file client_realm_struct.h line 88
-void ClientRealm_set_password(struct anonymous$5 *cr, unsigned char *password);
+void ClientRealm_set_password(struct anonymous_5 *cr, unsigned char *password);
 // ClientRealm_set_realmId
 // file client_realm_struct.h line 84
-void ClientRealm_set_realmId(struct anonymous$5 *cr, char *realmId);
+void ClientRealm_set_realmId(struct anonymous_5 *cr, char *realmId);
 // ClientRealm_set_realmName
 // file client_realm_struct.c line 221
-void ClientRealm_set_realmName(struct anonymous$5 *cr, char *realmName);
+void ClientRealm_set_realmName(struct anonymous_5 *cr, char *realmName);
 // ClientRealm_set_realmType
 // file client_realm_struct.h line 94
-void ClientRealm_set_realmType(struct anonymous$5 *cr, char realmType);
+void ClientRealm_set_realmType(struct anonymous_5 *cr, char realmType);
 // ClientRealm_set_sKeepAliveTimeout
 // file client_realm_struct.h line 83
-void ClientRealm_set_sKeepAliveTimeout(struct anonymous$5 *cr, char *sKeepAliveTimeout);
+void ClientRealm_set_sKeepAliveTimeout(struct anonymous_5 *cr, char *sKeepAliveTimeout);
 // ClientRealm_set_serverName
 // file client_realm_struct.h line 79
-void ClientRealm_set_serverName(struct anonymous$5 *cr, char *serverName);
+void ClientRealm_set_serverName(struct anonymous_5 *cr, char *serverName);
 // ClientRealm_set_serviceModule
 // file client_realm_struct.h line 106
-void ClientRealm_set_serviceModule(struct anonymous$5 *cr, struct anonymous$6 *serviceModule);
+void ClientRealm_set_serviceModule(struct anonymous_5 *cr, struct anonymous_6 *serviceModule);
 // ClientRealm_set_tunnelType
 // file client_realm_struct.h line 95
-void ClientRealm_set_tunnelType(struct anonymous$5 *cr, char tunnelType);
+void ClientRealm_set_tunnelType(struct anonymous_5 *cr, char tunnelType);
 // ClientRealm_set_userModule
 // file client_realm_struct.h line 105
-void ClientRealm_set_userModule(struct anonymous$5 *cr, struct anonymous$6 *userModule);
+void ClientRealm_set_userModule(struct anonymous_5 *cr, struct anonymous_6 *userModule);
 // ClientRealm_set_usersLimit
 // file client_realm_struct.h line 90
-void ClientRealm_set_usersLimit(struct anonymous$5 *cr, signed int usersLimit);
+void ClientRealm_set_usersLimit(struct anonymous_5 *cr, signed int usersLimit);
 // ClientRealm_set_usersTable
 // file client_realm_struct.h line 103
-void ClientRealm_set_usersTable(struct anonymous$5 *cr, struct anonymous$7 **usersTable);
+void ClientRealm_set_usersTable(struct anonymous_5 *cr, struct anonymous_7 **usersTable);
 // ConnectUser_free
 // file connect_user_struct.h line 45
-void ConnectUser_free(struct anonymous$7 **cu);
+void ConnectUser_free(struct anonymous_7 **cu);
 // ConnectUser_get_bufList
 // file connect_user_struct.h line 64
-struct buflist * ConnectUser_get_bufList(struct anonymous$7 *cu);
+struct buflist * ConnectUser_get_bufList(struct anonymous_7 *cu);
 // ConnectUser_get_connFd
 // file connect_user_struct.h line 58
-signed int ConnectUser_get_connFd(struct anonymous$7 *cu);
+signed int ConnectUser_get_connFd(struct anonymous_7 *cu);
 // ConnectUser_get_connectTime
 // file connect_user_struct.c line 323
-signed long int ConnectUser_get_connectTime(struct anonymous$7 *cu);
+signed long int ConnectUser_get_connectTime(struct anonymous_7 *cu);
 // ConnectUser_get_nameBuf
 // file connect_user_struct.h line 62
-char * ConnectUser_get_nameBuf(struct anonymous$7 *cu);
+char * ConnectUser_get_nameBuf(struct anonymous_7 *cu);
 // ConnectUser_get_portBuf
 // file connect_user_struct.h line 63
-char * ConnectUser_get_portBuf(struct anonymous$7 *cu);
+char * ConnectUser_get_portBuf(struct anonymous_7 *cu);
 // ConnectUser_get_state
 // file connect_user_struct.h line 57
-char ConnectUser_get_state(struct anonymous$7 *cu);
+char ConnectUser_get_state(struct anonymous_7 *cu);
 // ConnectUser_get_stats
 // file connect_user_struct.c line 391
-struct anonymous$14 * ConnectUser_get_stats(struct anonymous$7 *cu);
+struct anonymous_14 * ConnectUser_get_stats(struct anonymous_7 *cu);
 // ConnectUser_get_userId
 // file connect_user_struct.c line 306
-signed int ConnectUser_get_userId(struct anonymous$7 *cu);
+signed int ConnectUser_get_userId(struct anonymous_7 *cu);
 // ConnectUser_get_whatClient
 // file connect_user_struct.c line 289
-signed int ConnectUser_get_whatClient(struct anonymous$7 *cu);
+signed int ConnectUser_get_whatClient(struct anonymous_7 *cu);
 // ConnectUser_new
 // file connect_user_struct.h line 43
-struct anonymous$7 * ConnectUser_new();
+struct anonymous_7 * ConnectUser_new();
 // ConnectUser_set_bufList
 // file connect_user_struct.c line 215
-void ConnectUser_set_bufList(struct anonymous$7 *cu, struct buflist *bufList);
+void ConnectUser_set_bufList(struct anonymous_7 *cu, struct buflist *bufList);
 // ConnectUser_set_connFd
 // file connect_user_struct.h line 48
-void ConnectUser_set_connFd(struct anonymous$7 *cu, signed int connFd);
+void ConnectUser_set_connFd(struct anonymous_7 *cu, signed int connFd);
 // ConnectUser_set_connectTime
 // file connect_user_struct.c line 162
-void ConnectUser_set_connectTime(struct anonymous$7 *cu, signed long int connectTime);
+void ConnectUser_set_connectTime(struct anonymous_7 *cu, signed long int connectTime);
 // ConnectUser_set_nameBuf
 // file connect_user_struct.h line 52
-void ConnectUser_set_nameBuf(struct anonymous$7 *cu, char *nameBuf);
+void ConnectUser_set_nameBuf(struct anonymous_7 *cu, char *nameBuf);
 // ConnectUser_set_portBuf
 // file connect_user_struct.h line 53
-void ConnectUser_set_portBuf(struct anonymous$7 *cu, char *portBuf);
+void ConnectUser_set_portBuf(struct anonymous_7 *cu, char *portBuf);
 // ConnectUser_set_state
 // file connect_user_struct.h line 47
-void ConnectUser_set_state(struct anonymous$7 *cu, char state);
+void ConnectUser_set_state(struct anonymous_7 *cu, char state);
 // ConnectUser_set_stats
 // file connect_user_struct.c line 235
-void ConnectUser_set_stats(struct anonymous$7 *cu, struct anonymous$14 *stats);
+void ConnectUser_set_stats(struct anonymous_7 *cu, struct anonymous_14 *stats);
 // ConnectUser_set_userId
 // file connect_user_struct.c line 145
-void ConnectUser_set_userId(struct anonymous$7 *cu, signed int userId);
+void ConnectUser_set_userId(struct anonymous_7 *cu, signed int userId);
 // ConnectUser_set_whatClient
 // file connect_user_struct.c line 128
-void ConnectUser_set_whatClient(struct anonymous$7 *cu, signed int whatClient);
+void ConnectUser_set_whatClient(struct anonymous_7 *cu, signed int whatClient);
 // ERR_error_string
 // file /usr/include/openssl/err.h line 334
 char * ERR_error_string(unsigned long int, char *);
@@ -1157,19 +1157,19 @@ const struct env_md_st * EVP_md5(void);
 const struct env_md_st * EVP_sha1(void);
 // HeaderBuffer_free
 // file header_buffer_struct.c line 53
-void HeaderBuffer_free(struct anonymous$2 **hb);
+void HeaderBuffer_free(struct anonymous_2 **hb);
 // HeaderBuffer_new
 // file header_buffer_struct.c line 36
-struct anonymous$2 * HeaderBuffer_new();
+struct anonymous_2 * HeaderBuffer_new();
 // HeaderBuffer_restore
 // file header_buffer_struct.c line 119
-void HeaderBuffer_restore(struct anonymous$2 *hb, unsigned char *buff);
+void HeaderBuffer_restore(struct anonymous_2 *hb, unsigned char *buff);
 // HeaderBuffer_store
 // file header_buffer_struct.c line 93
-void HeaderBuffer_store(struct anonymous$2 *hb, unsigned char *buff, signed int n);
+void HeaderBuffer_store(struct anonymous_2 *hb, unsigned char *buff, signed int n);
 // HeaderBuffer_to_read
 // file header_buffer_struct.c line 75
-signed int HeaderBuffer_to_read(struct anonymous$2 *hb);
+signed int HeaderBuffer_to_read(struct anonymous_2 *hb);
 // HttpProxyOptions_free
 // file http_proxy_options_struct.h line 42
 void HttpProxyOptions_free(struct anonymous **hpo);
@@ -1208,34 +1208,34 @@ void HttpProxyOptions_set_proxyport(struct anonymous *hpo, char *proxyport);
 void HttpProxyOptions_use_https(struct anonymous *hpo);
 // Module_free
 // file module_struct.c line 56
-void Module_free(struct anonymous$6 **m);
+void Module_free(struct anonymous_6 **m);
 // Module_function_allow
 // file module_struct.h line 50
-signed int Module_function_allow(struct anonymous$6 *m, char *host, char *port);
+signed int Module_function_allow(struct anonymous_6 *m, char *host, char *port);
 // Module_function_filter
 // file module_struct.h line 51
-signed int Module_function_filter(struct anonymous$6 *m, char *host, unsigned char *message, signed int *messageLength);
+signed int Module_function_filter(struct anonymous_6 *m, char *host, unsigned char *message, signed int *messageLength);
 // Module_function_info
 // file module_struct.h line 49
-char * Module_function_info(struct anonymous$6 *m);
+char * Module_function_info(struct anonymous_6 *m);
 // Module_get_fileName
 // file module_struct.h line 44
-char * Module_get_fileName(struct anonymous$6 *m);
+char * Module_get_fileName(struct anonymous_6 *m);
 // Module_isModuleLoaded
 // file module_struct.h line 48
-signed int Module_isModuleLoaded(struct anonymous$6 *m);
+signed int Module_isModuleLoaded(struct anonymous_6 *m);
 // Module_loadModule
 // file module_struct.h line 46
-signed int Module_loadModule(struct anonymous$6 *m);
+signed int Module_loadModule(struct anonymous_6 *m);
 // Module_new
 // file module_struct.h line 38
-struct anonymous$6 * Module_new();
+struct anonymous_6 * Module_new();
 // Module_releaseModule
 // file module_struct.h line 47
-signed int Module_releaseModule(struct anonymous$6 *m);
+signed int Module_releaseModule(struct anonymous_6 *m);
 // Module_set_fileName
 // file module_struct.h line 42
-void Module_set_fileName(struct anonymous$6 *m, char *fileName);
+void Module_set_fileName(struct anonymous_6 *m, char *fileName);
 // OBJ_txt2nid
 // file /usr/include/openssl/objects.h line 1014
 signed int OBJ_txt2nid(const char *);
@@ -1358,118 +1358,118 @@ signed int SSL_writen(struct ssl_st *fd, unsigned char *buf, signed int amount);
 const struct ssl_method_st * SSLv3_client_method(void);
 // SslFd_free
 // file ssl_fd_struct.c line 54
-void SslFd_free(struct anonymous$0 **sf);
+void SslFd_free(struct anonymous_0 **sf);
 // SslFd_get_fd
 // file ssl_fd_struct.h line 41
-signed int SslFd_get_fd(struct anonymous$0 *sf);
+signed int SslFd_get_fd(struct anonymous_0 *sf);
 // SslFd_get_message
 // file ssl_fd_struct.h line 45
-signed int SslFd_get_message(char type, struct anonymous$0 *sf, unsigned char *buf, signed int amount);
+signed int SslFd_get_message(char type, struct anonymous_0 *sf, unsigned char *buf, signed int amount);
 // SslFd_get_ssl
 // file ssl_fd_struct.h line 42
-struct ssl_st * SslFd_get_ssl(struct anonymous$0 *sf);
+struct ssl_st * SslFd_get_ssl(struct anonymous_0 *sf);
 // SslFd_new
 // file ssl_fd_struct.h line 33
-struct anonymous$0 * SslFd_new();
+struct anonymous_0 * SslFd_new();
 // SslFd_send_message
 // file ssl_fd_struct.h line 44
-signed int SslFd_send_message(char type, struct anonymous$0 *sf, unsigned char *buf, signed int amount);
+signed int SslFd_send_message(char type, struct anonymous_0 *sf, unsigned char *buf, signed int amount);
 // SslFd_set_fd
 // file ssl_fd_struct.h line 37
-void SslFd_set_fd(struct anonymous$0 *sf, signed int fd);
+void SslFd_set_fd(struct anonymous_0 *sf, signed int fd);
 // SslFd_set_ssl
 // file ssl_fd_struct.h line 38
-void SslFd_set_ssl(struct anonymous$0 *sf, struct ssl_st *ssl);
+void SslFd_set_ssl(struct anonymous_0 *sf, struct ssl_st *ssl);
 // SslFd_set_ssl_general
 // file ssl_fd_struct.c line 98
-void SslFd_set_ssl_general(struct anonymous$0 *sf, struct ssl_st *ssl, signed int free);
+void SslFd_set_ssl_general(struct anonymous_0 *sf, struct ssl_st *ssl, signed int free);
 // SslFd_set_ssl_nf
 // file ssl_fd_struct.c line 132
-void SslFd_set_ssl_nf(struct anonymous$0 *sf, struct ssl_st *ssl);
+void SslFd_set_ssl_nf(struct anonymous_0 *sf, struct ssl_st *ssl);
 // SslFd_swap_content
 // file ssl_fd_struct.c line 315
-void SslFd_swap_content(struct anonymous$0 *sf1, struct anonymous$0 *sf2);
+void SslFd_swap_content(struct anonymous_0 *sf1, struct anonymous_0 *sf2);
 // UserStats_add_download
 // file user_stats_struct.c line 178
-void UserStats_add_download(struct anonymous$14 *us, signed int bytes);
+void UserStats_add_download(struct anonymous_14 *us, signed int bytes);
 // UserStats_add_upload
 // file user_stats_struct.c line 231
-void UserStats_add_upload(struct anonymous$14 *us, signed int bytes);
+void UserStats_add_upload(struct anonymous_14 *us, signed int bytes);
 // UserStats_clear
 // file user_stats_struct.c line 376
-void UserStats_clear(struct anonymous$14 *us);
+void UserStats_clear(struct anonymous_14 *us);
 // UserStats_free
 // file user_stats_struct.h line 42
-void UserStats_free(struct anonymous$14 **us);
+void UserStats_free(struct anonymous_14 **us);
 // UserStats_get_downloadSpeed
 // file user_stats_struct.c line 283
-double UserStats_get_downloadSpeed(struct anonymous$14 *us);
+double UserStats_get_downloadSpeed(struct anonymous_14 *us);
 // UserStats_get_lastActivity
 // file user_stats_struct.c line 126
-signed long int UserStats_get_lastActivity(struct anonymous$14 *us);
+signed long int UserStats_get_lastActivity(struct anonymous_14 *us);
 // UserStats_get_totalDownloadedBytes
 // file user_stats_struct.c line 143
-signed int UserStats_get_totalDownloadedBytes(struct anonymous$14 *us);
+signed int UserStats_get_totalDownloadedBytes(struct anonymous_14 *us);
 // UserStats_get_totalUploadedBytes
 // file user_stats_struct.c line 160
-signed int UserStats_get_totalUploadedBytes(struct anonymous$14 *us);
+signed int UserStats_get_totalUploadedBytes(struct anonymous_14 *us);
 // UserStats_get_uploadSpeed
 // file user_stats_struct.c line 330
-double UserStats_get_uploadSpeed(struct anonymous$14 *us);
+double UserStats_get_uploadSpeed(struct anonymous_14 *us);
 // UserStats_new
 // file user_stats_struct.h line 40
-struct anonymous$14 * UserStats_new();
+struct anonymous_14 * UserStats_new();
 // UserStats_set_lastActivity
 // file user_stats_struct.c line 75
-void UserStats_set_lastActivity(struct anonymous$14 *us, signed long int lastActivity);
+void UserStats_set_lastActivity(struct anonymous_14 *us, signed long int lastActivity);
 // UserStats_set_totalDownloadedBytes
 // file user_stats_struct.c line 92
-void UserStats_set_totalDownloadedBytes(struct anonymous$14 *us, signed int totalDownloadedBytes);
+void UserStats_set_totalDownloadedBytes(struct anonymous_14 *us, signed int totalDownloadedBytes);
 // UserStats_set_totalUploadedBytes
 // file user_stats_struct.c line 109
-void UserStats_set_totalUploadedBytes(struct anonymous$14 *us, signed int totalUploadedBytes);
+void UserStats_set_totalUploadedBytes(struct anonymous_14 *us, signed int totalUploadedBytes);
 // UsrCli_free
 // file usr_cli_struct.c line 54
-void UsrCli_free(struct anonymous$1 **uc);
+void UsrCli_free(struct anonymous_1 **uc);
 // UsrCli_get_listenFd
 // file usr_cli_struct.c line 224
-signed int UsrCli_get_listenFd(struct anonymous$1 *uc);
+signed int UsrCli_get_listenFd(struct anonymous_1 *uc);
 // UsrCli_get_listenHostName
 // file usr_cli_struct.c line 258
-char * UsrCli_get_listenHostName(struct anonymous$1 *uc);
+char * UsrCli_get_listenHostName(struct anonymous_1 *uc);
 // UsrCli_get_listenPortName
 // file usr_cli_struct.c line 190
-char * UsrCli_get_listenPortName(struct anonymous$1 *uc);
+char * UsrCli_get_listenPortName(struct anonymous_1 *uc);
 // UsrCli_get_manageFd
 // file usr_cli_struct.c line 241
-signed int UsrCli_get_manageFd(struct anonymous$1 *uc);
+signed int UsrCli_get_manageFd(struct anonymous_1 *uc);
 // UsrCli_get_manageHostName
 // file usr_cli_struct.c line 275
-char * UsrCli_get_manageHostName(struct anonymous$1 *uc);
+char * UsrCli_get_manageHostName(struct anonymous_1 *uc);
 // UsrCli_get_managePortName
 // file usr_cli_struct.c line 207
-char * UsrCli_get_managePortName(struct anonymous$1 *uc);
+char * UsrCli_get_managePortName(struct anonymous_1 *uc);
 // UsrCli_get_number
 // file usr_cli_struct.c line 292
-signed int UsrCli_get_number(struct anonymous$1 *uc);
+signed int UsrCli_get_number(struct anonymous_1 *uc);
 // UsrCli_new
 // file usr_cli_struct.c line 37
-struct anonymous$1 * UsrCli_new();
+struct anonymous_1 * UsrCli_new();
 // UsrCli_set_listenFd
 // file usr_cli_struct.c line 139
-void UsrCli_set_listenFd(struct anonymous$1 *uc, signed int listenFd);
+void UsrCli_set_listenFd(struct anonymous_1 *uc, signed int listenFd);
 // UsrCli_set_listenPortName
 // file usr_cli_struct.c line 83
-void UsrCli_set_listenPortName(struct anonymous$1 *uc, char *listenPortName);
+void UsrCli_set_listenPortName(struct anonymous_1 *uc, char *listenPortName);
 // UsrCli_set_manageFd
 // file usr_cli_struct.c line 156
-void UsrCli_set_manageFd(struct anonymous$1 *uc, signed int manageFd);
+void UsrCli_set_manageFd(struct anonymous_1 *uc, signed int manageFd);
 // UsrCli_set_managePortName
 // file usr_cli_struct.c line 111
-void UsrCli_set_managePortName(struct anonymous$1 *uc, char *managePortName);
+void UsrCli_set_managePortName(struct anonymous_1 *uc, char *managePortName);
 // UsrCli_set_number
 // file usr_cli_struct.c line 173
-void UsrCli_set_number(struct anonymous$1 *uc, signed int number);
+void UsrCli_set_number(struct anonymous_1 *uc, signed int number);
 // X509_NAME_ENTRY_create_by_NID
 // file /usr/include/openssl/x509.h line 1036
 struct X509_name_entry_st * X509_NAME_ENTRY_create_by_NID(struct X509_name_entry_st **, signed int, signed int, unsigned char *, signed int);
@@ -1515,9 +1515,9 @@ signed int X509_sign(struct x509_st *, struct evp_pkey_st *, const struct env_md
 // __bswap_32
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx);
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1);
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1);
 // __ctype_b_loc
 // file /usr/include/ctype.h line 79
 extern const unsigned short int ** __ctype_b_loc(void);
@@ -1595,19 +1595,19 @@ signed int checkmsgti(struct llnode *target, char *tab);
 static void clean_return(signed int sockfd);
 // clear_fd
 // file http_proxy_functions.c line 261
-void clear_fd(signed int *fd, struct anonymous$11 *set);
+void clear_fd(signed int *fd, struct anonymous_11 *set);
 // clear_sslFd
 // file http_proxy_functions.c line 362
-void clear_sslFd(struct anonymous$0 *sf, struct anonymous$11 *set);
+void clear_sslFd(struct anonymous_0 *sf, struct anonymous_11 *set);
 // client_admin
 // file client_remoteadmin.h line 35
-signed int client_admin(char type, struct anonymous$0 *master, unsigned char *buff, signed int connectfd, char *id);
+signed int client_admin(char type, struct anonymous_0 *master, unsigned char *buff, signed int connectfd, char *id);
 // client_long_usage
 // file usage.h line 27
 void client_long_usage(char *info);
 // client_reverse_udp
 // file client_reverse_udp.h line 39
-void client_reverse_udp(struct anonymous$5 *cr, unsigned char *buff, signed int buflength);
+void client_reverse_udp(struct anonymous_5 *cr, unsigned char *buff, signed int buflength);
 // client_short_usage
 // file usage.h line 26
 void client_short_usage(char *info);
@@ -1622,7 +1622,7 @@ void client_sig_int(signed int signo);
 extern signed int close(signed int);
 // close_connections
 // file client_shutdown.c line 27
-void close_connections(signed int usernum, struct anonymous$7 ***contable);
+void close_connections(signed int usernum, struct anonymous_7 ***contable);
 // close_fd
 // file http_proxy_functions.c line 248
 void close_fd(signed int *fd);
@@ -1634,7 +1634,7 @@ extern signed int compress(unsigned char *, unsigned long int *, const unsigned 
 extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // cparsefile
 // file file.h line 38
-struct anonymous$4 * cparsefile(char *name, signed int *status);
+struct anonymous_4 * cparsefile(char *name, signed int *status);
 // create_apf_dir
 // file first_run.h line 24
 signed int create_apf_dir(char type);
@@ -1649,7 +1649,7 @@ extern signed int daemon(signed int, signed int);
 char * datum(void);
 // delete_user
 // file http_proxy_functions.c line 77
-void delete_user(struct anonymous$16 *cnts, signed int i, struct anonymous$11 *allset);
+void delete_user(struct anonymous_16 *cnts, signed int i, struct anonymous_11 *allset);
 // dlclose
 // file /usr/include/dlfcn.h line 60
 extern signed int dlclose(void *);
@@ -1709,7 +1709,7 @@ char * get_cer_filename();
 char * get_key_filename();
 // get_ssl_error
 // file make_ssl_handshake.h line 29
-signed int get_ssl_error(struct anonymous$0 *sf, char *info, signed int result);
+signed int get_ssl_error(struct anonymous_0 *sf, char *info, signed int result);
 // get_store_filename
 // file first_run.c line 376
 char * get_store_filename();
@@ -1751,28 +1751,28 @@ extern unsigned int getuid(void);
 void * http_proxy_client(void *vptr);
 // http_read
 // file http_proxy_functions.c line 402
-signed int http_read(char https, struct anonymous$0 *sf, unsigned char *buf, signed int amount);
+signed int http_read(char https, struct anonymous_0 *sf, unsigned char *buf, signed int amount);
 // http_write
 // file http_proxy_functions.c line 381
-signed int http_write(char https, struct anonymous$0 *sf, unsigned char *buf, signed int amount);
+signed int http_write(char https, struct anonymous_0 *sf, unsigned char *buf, signed int amount);
 // inet_ntop
 // file /usr/include/arpa/inet.h line 64
 extern const char * inet_ntop(signed int, const void *, char *, unsigned int);
 // initialize_client_reverse_udp
 // file client_reverse_udp.h line 38
-signed int initialize_client_reverse_udp(struct anonymous$5 *cr);
+signed int initialize_client_reverse_udp(struct anonymous_5 *cr);
 // initialize_client_stage1
 // file client_initialization.h line 36
-signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *ctx, unsigned char *buff, char wanttoexit, char ignorePublicKeys);
+signed int initialize_client_stage1(struct anonymous_5 *cr, struct ssl_ctx_st *ctx, unsigned char *buff, char wanttoexit, char ignorePublicKeys);
 // initialize_client_stage2
 // file client_initialization.h line 38
-signed int initialize_client_stage2(struct anonymous$5 *cr, unsigned char *buff, char wanttoexit);
+signed int initialize_client_stage2(struct anonymous_5 *cr, unsigned char *buff, char wanttoexit);
 // initialize_client_stage3
 // file client_initialization.h line 39
-signed int initialize_client_stage3(struct anonymous$5 *cr, signed int *buflength, struct anonymous$11 *allset, struct anonymous$11 *wset, signed int *maxfdp1, char wanttoexit);
+signed int initialize_client_stage3(struct anonymous_5 *cr, signed int *buflength, struct anonymous_11 *allset, struct anonymous_11 *wset, signed int *maxfdp1, char wanttoexit);
 // initialize_http_proxy_client
 // file http_proxy_client.c line 531
-signed int initialize_http_proxy_client(signed int *sockfd, struct anonymous$5 *cr, struct ssl_ctx_st *ctx);
+signed int initialize_http_proxy_client(signed int *sockfd, struct anonymous_5 *cr, struct ssl_ctx_st *ctx);
 // initializelogging
 // file logging.h line 71
 void initializelogging(char verl, char *dateformat);
@@ -1802,10 +1802,10 @@ extern struct tm * localtime(const signed long int *);
 signed int loginit(char verl, char *dateformat);
 // make_ssl_accept
 // file make_ssl_handshake.c line 55
-signed int make_ssl_accept(struct anonymous$0 *sf);
+signed int make_ssl_accept(struct anonymous_0 *sf);
 // make_ssl_initialize
 // file make_ssl_handshake.c line 37
-void make_ssl_initialize(struct anonymous$0 *sf);
+void make_ssl_initialize(struct anonymous_0 *sf);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -1826,7 +1826,7 @@ signed int myrand(signed int down, signed int up);
 void mysleep(double time);
 // parse_header
 // file http_proxy_functions.c line 105
-signed int parse_header(struct anonymous$0 *sf, char *tab, struct anonymous$15 *hdr, char https);
+signed int parse_header(struct anonymous_0 *sf, char *tab, struct anonymous_15 *hdr, char https);
 // parse_line
 // file file.c line 45
 signed int parse_line(char *buff, char *tab1, char *tab2);
@@ -1835,10 +1835,10 @@ signed int parse_line(char *buff, char *tab1, char *tab2);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 992
-extern signed int pthread_cond_broadcast(union anonymous$24 *);
+extern signed int pthread_cond_broadcast(union anonymous_24 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 1000
-extern signed int pthread_cond_wait(union anonymous$24 *, union anonymous$22 *);
+extern signed int pthread_cond_wait(union anonymous_24 *, union anonymous_22 *);
 // pthread_create
 // file /usr/include/pthread.h line 244
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1847,10 +1847,10 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern void pthread_exit(void *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_lock(union anonymous$22 *);
+extern signed int pthread_mutex_lock(union anonymous_22 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 784
-extern signed int pthread_mutex_unlock(union anonymous$22 *);
+extern signed int pthread_mutex_unlock(union anonymous_22 *);
 // pthread_self
 // file /usr/include/pthread.h line 286
 extern unsigned long int pthread_self(void);
@@ -1862,7 +1862,7 @@ extern signed int rand(void);
 extern signed long int read(signed int, void *, unsigned long int);
 // read_message
 // file http_proxy_functions.c line 281
-signed int read_message(signed int fd, signed int length, struct anonymous$16 *client, char *tab, signed int ptr);
+signed int read_message(signed int fd, signed int length, struct anonymous_16 *client, char *tab, signed int ptr);
 // readn
 // file network.c line 542
 signed int readn(signed int fd, unsigned char *buf, signed int amount);
@@ -1880,7 +1880,7 @@ void resetcg(void);
 extern char * rindex(const char *, signed int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$11 *, struct anonymous$11 *, struct anonymous$11 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_11 *, struct anonymous_11 *, struct anonymous_11 *, struct timeval *);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
 extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
@@ -1892,7 +1892,7 @@ void server_long_usage(char *info);
 void server_short_usage(char *info);
 // set_fd
 // file http_proxy_functions.c line 235
-void set_fd(signed int fd, signed int *maxfdp1, struct anonymous$11 *allset);
+void set_fd(signed int fd, signed int *maxfdp1, struct anonymous_11 *allset);
 // setdateformat
 // file logging.c line 41
 void setdateformat(char *dateformat);
@@ -1904,7 +1904,7 @@ extern signed int setsockopt(signed int, signed int, signed int, const void *, u
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$18 *);
+extern signed int sigfillset(struct anonymous_18 *);
 // snprintf
 // file /usr/include/stdio.h line 386
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
@@ -1981,7 +1981,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file network.c line 513
 signed int writen(signed int fd, unsigned char *buf, signed int amount);
 
-struct anonymous$3
+struct anonymous_3
 {
   // artries
   char *artries;
@@ -1999,7 +1999,7 @@ struct anonymous$3
   char premature;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // keysFile
   char *keysFile;
@@ -2014,10 +2014,10 @@ struct anonymous$4
   // ignorePublicKeys
   char ignorePublicKeys;
   // realmsTable
-  struct anonymous$5 **realmsTable;
+  struct anonymous_5 **realmsTable;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // listenHostName
   char *listenHostName;
@@ -2057,7 +2057,7 @@ struct timeval
   signed long int tv_usec;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // serverName
   char *serverName;
@@ -2100,22 +2100,22 @@ struct anonymous$5
   // clientAddress
   struct sockaddr *clientAddress;
   // masterSslFd
-  struct anonymous$0 *masterSslFd;
+  struct anonymous_0 *masterSslFd;
   // httpProxyOptions
   struct anonymous *httpProxyOptions;
   // arOptions
-  struct anonymous$3 *arOptions;
+  struct anonymous_3 *arOptions;
   // destinationPorts
   struct portlist *destinationPorts;
   // usersTable
-  struct anonymous$7 **usersTable;
+  struct anonymous_7 **usersTable;
   // userModule
-  struct anonymous$6 *userModule;
+  struct anonymous_6 *userModule;
   // serviceModule
-  struct anonymous$6 *serviceModule;
+  struct anonymous_6 *serviceModule;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // _call_addr
   void *_call_addr;
@@ -2125,7 +2125,7 @@ struct anonymous$31
   unsigned int _arch;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // si_addr
   void *si_addr;
@@ -2133,7 +2133,7 @@ struct anonymous$29
   signed short int si_addr_lsb;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // cert_verify_md
   unsigned char cert_verify_md[128l];
@@ -2187,19 +2187,19 @@ struct anonymous$21
   signed int cert_request;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // tab
   unsigned char tab[5l];
@@ -2207,7 +2207,7 @@ struct anonymous$2
   signed int readed;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // __lock
   signed int __lock;
@@ -2227,7 +2227,7 @@ struct anonymous$23
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // fd
   signed int fd;
@@ -2235,7 +2235,7 @@ struct anonymous$0
   struct ssl_st *ssl;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // sess_connect
   signed int sess_connect;
@@ -2261,7 +2261,7 @@ struct anonymous$8
   signed int sess_cb_hit;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // si_pid
   signed int si_pid;
@@ -2269,7 +2269,7 @@ struct anonymous$25
   unsigned int si_uid;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // si_pid
   signed int si_pid;
@@ -2291,7 +2291,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // si_pid
   signed int si_pid;
@@ -2301,7 +2301,7 @@ struct anonymous$27
   union sigval si_sigval;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // si_tid
   signed int si_tid;
@@ -2311,7 +2311,7 @@ struct anonymous$26
   union sigval si_sigval;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // si_band
   signed long int si_band;
@@ -2319,27 +2319,27 @@ struct anonymous$30
   signed int si_fd;
 };
 
-union anonymous$32
+union anonymous_32
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$25 _kill;
+  struct anonymous_25 _kill;
   // _timer
-  struct anonymous$26 _timer;
+  struct anonymous_26 _timer;
   // _rt
-  struct anonymous$27 _rt;
+  struct anonymous_27 _rt;
   // _sigchld
-  struct anonymous$28 _sigchld;
+  struct anonymous_28 _sigchld;
   // _sigfault
-  struct anonymous$29 _sigfault;
+  struct anonymous_29 _sigfault;
   // _sigpoll
-  struct anonymous$30 _sigpoll;
+  struct anonymous_30 _sigpoll;
   // _sigsys
-  struct anonymous$31 _sigsys;
+  struct anonymous_31 _sigsys;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // si_signo
   signed int si_signo;
@@ -2348,10 +2348,10 @@ struct anonymous$33
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$32 _sifields;
+  union anonymous_32 _sifields;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // sockfd
   signed int sockfd;
@@ -2367,7 +2367,7 @@ struct anonymous$19
   struct ssl_ctx_st *ctx;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // lastActivity
   signed long int lastActivity;
@@ -2389,7 +2389,7 @@ struct anonymous$14
   signed int downloadSpeedQueue[3l];
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // loaded
   char loaded;
@@ -2405,7 +2405,7 @@ struct anonymous$6
   signed int (*filter)(char *, unsigned char *, signed int *);
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // type
   char type;
@@ -2419,7 +2419,7 @@ struct anonymous$15
   signed int allreaded;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // read_state
   char read_state;
@@ -2430,9 +2430,9 @@ struct anonymous$16
   // id
   char id[10l];
   // postFd
-  struct anonymous$0 *postFd;
+  struct anonymous_0 *postFd;
   // getFd
-  struct anonymous$0 *getFd;
+  struct anonymous_0 *getFd;
   // sent_ptr
   signed int sent_ptr;
   // sockfd
@@ -2444,11 +2444,11 @@ struct anonymous$16
   // tmpstate
   char tmpstate;
   // tmpFd
-  struct anonymous$0 *tmpFd;
+  struct anonymous_0 *tmpFd;
   // type
   char type;
   // tmpheader
-  struct anonymous$15 tmpheader;
+  struct anonymous_15 tmpheader;
   // ptr
   signed int ptr;
   // length
@@ -2461,7 +2461,7 @@ struct anonymous$16
   signed int received;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // state
   char state;
@@ -2480,10 +2480,10 @@ struct anonymous$7
   // bufList
   struct buflist *bufList;
   // stats
-  struct anonymous$14 *stats;
+  struct anonymous_14 *stats;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // conn_id_length
   unsigned int conn_id_length;
@@ -2509,7 +2509,7 @@ struct anonymous$20
   unsigned int rlen;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // ptr
   char *ptr;
@@ -2523,7 +2523,7 @@ union anonymous$13
   struct ec_key_st *ec;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // ptr
   char *ptr;
@@ -2569,15 +2569,15 @@ union anonymous$12
   struct ASN1_VALUE_st *asn1_value;
 };
 
-union anonymous$17
+union anonymous_17
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$33 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_33 *, void *);
 };
 
-union anonymous$10
+union anonymous_10
 {
   // cb_1
   void (*cb_1)(signed int, signed int, void *);
@@ -2585,7 +2585,7 @@ union anonymous$10
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2595,10 +2595,10 @@ union anonymous$9
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$24
+union anonymous_24
 {
   // __data
-  struct anonymous$23 __data;
+  struct anonymous_23 __data;
   // __size
   char __size[48l];
   // __align
@@ -2633,7 +2633,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2956,7 +2956,7 @@ struct asn1_type_st
   // type
   signed int type;
   // value
-  union anonymous$12 value;
+  union anonymous_12 value;
 };
 
 struct auditlist
@@ -3066,7 +3066,7 @@ struct bn_gencb_st
   // arg
   void *arg;
   // cb
-  union anonymous$10 cb;
+  union anonymous_10 cb;
 };
 
 struct bn_mont_ctx_st
@@ -3524,7 +3524,7 @@ struct evp_pkey_st
   // engine
   struct engine_st *engine;
   // pkey
-  union anonymous$13 pkey;
+  union anonymous_13 pkey;
   // save_parameters
   signed int save_parameters;
   // attributes
@@ -3550,7 +3550,7 @@ struct hmac_ctx_st
 struct in6_addr
 {
   // __in6_u
-  union anonymous$9 __in6_u;
+  union anonymous_9 __in6_u;
 };
 
 struct in_addr
@@ -3716,9 +3716,9 @@ struct rsa_st
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$17 __sigaction_handler;
+  union anonymous_17 __sigaction_handler;
   // sa_mask
-  struct anonymous$18 sa_mask;
+  struct anonymous_18 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -3872,7 +3872,7 @@ struct ssl2_state_st
   // write_sequence
   unsigned long int write_sequence;
   // tmp
-  struct anonymous$20 tmp;
+  struct anonymous_20 tmp;
 };
 
 struct ssl3_buffer_st
@@ -3992,7 +3992,7 @@ struct ssl3_state_st
   // server_opaque_prf_input_len
   unsigned long int server_opaque_prf_input_len;
   // tmp
-  struct anonymous$21 tmp;
+  struct anonymous_21 tmp;
   // previous_client_finished
   unsigned char previous_client_finished[64l];
   // previous_client_finished_len
@@ -4080,7 +4080,7 @@ struct ssl_ctx_st
   // get_session_cb
   struct ssl_session_st * (*get_session_cb)(struct ssl_st *, unsigned char *, signed int, signed int *);
   // stats
-  struct anonymous$8 stats;
+  struct anonymous_8 stats;
   // references
   signed int references;
   // app_verify_callback
@@ -4928,7 +4928,7 @@ static const char Base64[65l] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', '
 static const char Pad64 = (const char)61;
 // cconfig
 // file afclient.c line 72
-struct anonymous$4 *cconfig;
+struct anonymous_4 *cconfig;
 // compressgained
 // file stats.c line 25
 static signed long int compressgained;
@@ -5004,13 +5004,13 @@ static struct option long_options[38l] = { { .name="help", .has_arg=0, .flag=((s
     .val=0 } };
 // maincond
 // file thread_management.c line 29
-static union anonymous$24 maincond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_24 maincond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // mainmutex
 // file thread_management.c line 28
-static union anonymous$22 mainmutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_22 mainmutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // mainthread
@@ -5031,9 +5031,9 @@ static char verlev;
 
 // ArOptions_evaluate_values
 // file ar_options_struct.h line 57
-void ArOptions_evaluate_values(struct anonymous$3 *ao)
+void ArOptions_evaluate_values(struct anonymous_3 *ao)
 {
-  if(!(ao == ((struct anonymous$3 *)NULL)))
+  if(!(ao == ((struct anonymous_3 *)NULL)))
   {
     if(!(ao->artries == ((char *)NULL)))
       ao->tries=check_value_liberal(ao->artries, "Invalid ar-tries value");
@@ -5047,11 +5047,11 @@ void ArOptions_evaluate_values(struct anonymous$3 *ao)
 
 // ArOptions_free
 // file ar_options_struct.h line 41
-void ArOptions_free(struct anonymous$3 **ao)
+void ArOptions_free(struct anonymous_3 **ao)
 {
-  if(!(ao == ((struct anonymous$3 **)NULL)))
+  if(!(ao == ((struct anonymous_3 **)NULL)))
   {
-    if(!(*ao == ((struct anonymous$3 *)NULL)))
+    if(!(*ao == ((struct anonymous_3 *)NULL)))
     {
       if(!((*ao)->artries == ((char *)NULL)))
       {
@@ -5066,7 +5066,7 @@ void ArOptions_free(struct anonymous$3 **ao)
       }
 
       free((void *)*ao);
-      *ao = (struct anonymous$3 *)(void *)0;
+      *ao = (struct anonymous_3 *)(void *)0;
     }
 
   }
@@ -5075,9 +5075,9 @@ void ArOptions_free(struct anonymous$3 **ao)
 
 // ArOptions_get_arDelay
 // file ar_options_struct.h line 52
-signed int ArOptions_get_arDelay(struct anonymous$3 *ao)
+signed int ArOptions_get_arDelay(struct anonymous_3 *ao)
 {
-  if(ao == ((struct anonymous$3 *)NULL))
+  if(ao == ((struct anonymous_3 *)NULL))
     return 0;
 
   else
@@ -5086,9 +5086,9 @@ signed int ArOptions_get_arDelay(struct anonymous$3 *ao)
 
 // ArOptions_get_arPremature
 // file ar_options_struct.h line 55
-char ArOptions_get_arPremature(struct anonymous$3 *ao)
+char ArOptions_get_arPremature(struct anonymous_3 *ao)
 {
-  if(ao == ((struct anonymous$3 *)NULL))
+  if(ao == ((struct anonymous_3 *)NULL))
     return (char)0;
 
   else
@@ -5097,9 +5097,9 @@ char ArOptions_get_arPremature(struct anonymous$3 *ao)
 
 // ArOptions_get_arQuit
 // file ar_options_struct.h line 54
-char ArOptions_get_arQuit(struct anonymous$3 *ao)
+char ArOptions_get_arQuit(struct anonymous_3 *ao)
 {
-  if(ao == ((struct anonymous$3 *)NULL))
+  if(ao == ((struct anonymous_3 *)NULL))
     return (char)0;
 
   else
@@ -5108,9 +5108,9 @@ char ArOptions_get_arQuit(struct anonymous$3 *ao)
 
 // ArOptions_get_arStart
 // file ar_options_struct.h line 53
-char ArOptions_get_arStart(struct anonymous$3 *ao)
+char ArOptions_get_arStart(struct anonymous_3 *ao)
 {
-  if(ao == ((struct anonymous$3 *)NULL))
+  if(ao == ((struct anonymous_3 *)NULL))
     return (char)0;
 
   else
@@ -5119,9 +5119,9 @@ char ArOptions_get_arStart(struct anonymous$3 *ao)
 
 // ArOptions_get_arTries
 // file ar_options_struct.h line 51
-signed int ArOptions_get_arTries(struct anonymous$3 *ao)
+signed int ArOptions_get_arTries(struct anonymous_3 *ao)
 {
-  if(ao == ((struct anonymous$3 *)NULL))
+  if(ao == ((struct anonymous_3 *)NULL))
     return 0;
 
   else
@@ -5130,14 +5130,14 @@ signed int ArOptions_get_arTries(struct anonymous$3 *ao)
 
 // ArOptions_new
 // file ar_options_struct.h line 39
-struct anonymous$3 * ArOptions_new()
+struct anonymous_3 * ArOptions_new()
 {
-  struct anonymous$3 *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$3) /*32ul*/ );
-  tmp = (struct anonymous$3 *)return_value_calloc$1;
-  if(tmp == ((struct anonymous$3 *)NULL))
-    return (struct anonymous$3 *)(void *)0;
+  struct anonymous_3 *tmp;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_3) /*32ul*/ );
+  tmp = (struct anonymous_3 *)return_value_calloc_1;
+  if(tmp == ((struct anonymous_3 *)NULL))
+    return (struct anonymous_3 *)(void *)0;
 
   else
   {
@@ -5150,63 +5150,63 @@ struct anonymous$3 * ArOptions_new()
 
 // ArOptions_set_arDelay
 // file ar_options_struct.c line 126
-void ArOptions_set_arDelay(struct anonymous$3 *ao, signed int delay)
+void ArOptions_set_arDelay(struct anonymous_3 *ao, signed int delay)
 {
-  if(!(ao == ((struct anonymous$3 *)NULL)))
+  if(!(ao == ((struct anonymous_3 *)NULL)))
     ao->delay = delay;
 
 }
 
 // ArOptions_set_arPremature
 // file ar_options_struct.h line 49
-void ArOptions_set_arPremature(struct anonymous$3 *ao, char premature)
+void ArOptions_set_arPremature(struct anonymous_3 *ao, char premature)
 {
-  if(!(ao == ((struct anonymous$3 *)NULL)))
+  if(!(ao == ((struct anonymous_3 *)NULL)))
     ao->premature = premature;
 
 }
 
 // ArOptions_set_arQuit
 // file ar_options_struct.h line 48
-void ArOptions_set_arQuit(struct anonymous$3 *ao, char quit)
+void ArOptions_set_arQuit(struct anonymous_3 *ao, char quit)
 {
-  if(!(ao == ((struct anonymous$3 *)NULL)))
+  if(!(ao == ((struct anonymous_3 *)NULL)))
     ao->quit = quit;
 
 }
 
 // ArOptions_set_arStart
 // file ar_options_struct.h line 47
-void ArOptions_set_arStart(struct anonymous$3 *ao, char start)
+void ArOptions_set_arStart(struct anonymous_3 *ao, char start)
 {
-  if(!(ao == ((struct anonymous$3 *)NULL)))
+  if(!(ao == ((struct anonymous_3 *)NULL)))
     ao->start = start;
 
 }
 
 // ArOptions_set_arTries
 // file ar_options_struct.c line 91
-void ArOptions_set_arTries(struct anonymous$3 *ao, signed int tries)
+void ArOptions_set_arTries(struct anonymous_3 *ao, signed int tries)
 {
-  if(!(ao == ((struct anonymous$3 *)NULL)))
+  if(!(ao == ((struct anonymous_3 *)NULL)))
     ao->tries = tries;
 
 }
 
 // ArOptions_set_s_arDelay
 // file ar_options_struct.h line 46
-void ArOptions_set_s_arDelay(struct anonymous$3 *ao, char *delay)
+void ArOptions_set_s_arDelay(struct anonymous_3 *ao, char *delay)
 {
-  if(!(ao == ((struct anonymous$3 *)NULL)))
+  if(!(ao == ((struct anonymous_3 *)NULL)))
     string_cp(&ao->ardelay, delay);
 
 }
 
 // ArOptions_set_s_arTries
 // file ar_options_struct.h line 44
-void ArOptions_set_s_arTries(struct anonymous$3 *ao, char *tries)
+void ArOptions_set_s_arTries(struct anonymous_3 *ao, char *tries)
 {
-  if(!(ao == ((struct anonymous$3 *)NULL)))
+  if(!(ao == ((struct anonymous_3 *)NULL)))
     string_cp(&ao->artries, tries);
 
 }
@@ -5309,9 +5309,9 @@ signed int AuditListNode_get_userId(struct alnode *aln)
 struct alnode * AuditListNode_new()
 {
   struct alnode *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct alnode) /*168ul*/ );
-  tmp = (struct alnode *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct alnode) /*168ul*/ );
+  tmp = (struct alnode *)return_value_calloc_1;
   if(tmp == ((struct alnode *)NULL))
     return (struct alnode *)(void *)0;
 
@@ -5324,9 +5324,9 @@ struct alnode * AuditListNode_new()
 struct alnode * AuditListNode_new_entry(signed int userId, char *nameBuf, char *portBuf, signed long int connectTime, signed long int duration)
 {
   struct alnode *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct alnode) /*168ul*/ );
-  tmp = (struct alnode *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct alnode) /*168ul*/ );
+  tmp = (struct alnode *)return_value_calloc_1;
   if(tmp == ((struct alnode *)NULL))
     return (struct alnode *)(void *)0;
 
@@ -5405,12 +5405,12 @@ void AuditListNode_set_userId(struct alnode *aln, signed int userId)
 // file audit_list_struct.c line 143
 void AuditList_clear(struct auditlist *al)
 {
-  struct alnode *return_value_AuditList_get_first$1;
+  struct alnode *return_value_AuditList_get_first_1;
   if(!(al == ((struct auditlist *)NULL)))
     do
     {
-      return_value_AuditList_get_first$1=AuditList_get_first(al);
-      if(return_value_AuditList_get_first$1 == ((struct alnode *)NULL))
+      return_value_AuditList_get_first_1=AuditList_get_first(al);
+      if(return_value_AuditList_get_first_1 == ((struct alnode *)NULL))
         break;
 
       AuditList_delete_first(al);
@@ -5494,9 +5494,9 @@ void AuditList_insert_back(struct auditlist *al, struct alnode *aln)
 struct auditlist * AuditList_new()
 {
   struct auditlist *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct auditlist) /*16ul*/ );
-  tmp = (struct auditlist *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct auditlist) /*16ul*/ );
+  tmp = (struct auditlist *)return_value_calloc_1;
   if(tmp == ((struct auditlist *)NULL))
     return (struct auditlist *)(void *)0;
 
@@ -5575,9 +5575,9 @@ struct blnode * BufListNode_get_nextNode(struct blnode *bln)
 struct blnode * BufListNode_new()
 {
   struct blnode *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct blnode) /*24ul*/ );
-  tmp = (struct blnode *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct blnode) /*24ul*/ );
+  tmp = (struct blnode *)return_value_calloc_1;
   if(tmp == ((struct blnode *)NULL))
     return (struct blnode *)(void *)0;
 
@@ -5590,9 +5590,9 @@ struct blnode * BufListNode_new()
 struct blnode * BufListNode_new_message(signed int actPtr, signed int msgLen, unsigned char *message)
 {
   struct blnode *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct blnode) /*24ul*/ );
-  tmp = (struct blnode *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct blnode) /*24ul*/ );
+  tmp = (struct blnode *)return_value_calloc_1;
   if(tmp == ((struct blnode *)NULL))
     return (struct blnode *)(void *)0;
 
@@ -5613,9 +5613,9 @@ unsigned char * BufListNode_readMessage(struct blnode *bln)
 
   else
   {
-    signed int return_value_BufListNode_get_actPtr$1;
-    return_value_BufListNode_get_actPtr$1=BufListNode_get_actPtr(bln);
-    return &bln->message[(signed long int)return_value_BufListNode_get_actPtr$1];
+    signed int return_value_BufListNode_get_actPtr_1;
+    return_value_BufListNode_get_actPtr_1=BufListNode_get_actPtr(bln);
+    return &bln->message[(signed long int)return_value_BufListNode_get_actPtr_1];
   }
 }
 
@@ -5629,18 +5629,18 @@ signed int BufListNode_readMessageLength(struct blnode *bln)
 
   else
   {
-    unsigned char *return_value_BufListNode_get_message$1;
-    return_value_BufListNode_get_message$1=BufListNode_get_message(bln);
-    if(return_value_BufListNode_get_message$1 == ((unsigned char *)NULL))
+    unsigned char *return_value_BufListNode_get_message_1;
+    return_value_BufListNode_get_message_1=BufListNode_get_message(bln);
+    if(return_value_BufListNode_get_message_1 == ((unsigned char *)NULL))
       return -1;
 
     else
     {
-      signed int return_value_BufListNode_get_msgLen$2;
-      return_value_BufListNode_get_msgLen$2=BufListNode_get_msgLen(bln);
-      signed int return_value_BufListNode_get_actPtr$3;
-      return_value_BufListNode_get_actPtr$3=BufListNode_get_actPtr(bln);
-      tmp = return_value_BufListNode_get_msgLen$2 - return_value_BufListNode_get_actPtr$3;
+      signed int return_value_BufListNode_get_msgLen_2;
+      return_value_BufListNode_get_msgLen_2=BufListNode_get_msgLen(bln);
+      signed int return_value_BufListNode_get_actPtr_3;
+      return_value_BufListNode_get_actPtr_3=BufListNode_get_actPtr(bln);
+      tmp = return_value_BufListNode_get_msgLen_2 - return_value_BufListNode_get_actPtr_3;
       if(!(tmp >= 0))
         return 0;
 
@@ -5675,9 +5675,9 @@ void BufListNode_set_message(struct blnode *bln, unsigned char *message, signed 
     BufListNode_set_msgLen(bln, 0);
     if(!(message == ((unsigned char *)NULL)))
     {
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)1, (unsigned long int)msgLen);
-      bln->message = (unsigned char *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)1, (unsigned long int)msgLen);
+      bln->message = (unsigned char *)return_value_calloc_1;
       if(!(bln->message == ((unsigned char *)NULL)))
       {
         memcpy((void *)bln->message, (const void *)message, (unsigned long int)msgLen);
@@ -5712,12 +5712,12 @@ void BufListNode_set_nextNode(struct blnode *bln, struct blnode *nextNode)
 // file buf_list_struct.h line 39
 void BufList_clear(struct buflist *bl)
 {
-  struct blnode *return_value_BufList_get_first$1;
+  struct blnode *return_value_BufList_get_first_1;
   if(!(bl == ((struct buflist *)NULL)))
     do
     {
-      return_value_BufList_get_first$1=BufList_get_first(bl);
-      if(return_value_BufList_get_first$1 == ((struct blnode *)NULL))
+      return_value_BufList_get_first_1=BufList_get_first(bl);
+      if(return_value_BufList_get_first_1 == ((struct blnode *)NULL))
         break;
 
       BufList_delete_first(bl);
@@ -5801,9 +5801,9 @@ void BufList_insert_back(struct buflist *bl, struct blnode *bln)
 struct buflist * BufList_new()
 {
   struct buflist *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct buflist) /*16ul*/ );
-  tmp = (struct buflist *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct buflist) /*16ul*/ );
+  tmp = (struct buflist *)return_value_calloc_1;
   if(tmp == ((struct buflist *)NULL))
     return (struct buflist *)(void *)0;
 
@@ -5813,12 +5813,12 @@ struct buflist * BufList_new()
 
 // ClientConfiguration_free
 // file client_configuration_struct.c line 54
-void ClientConfiguration_free(struct anonymous$4 **cc)
+void ClientConfiguration_free(struct anonymous_4 **cc)
 {
   signed int i;
-  if(!(cc == ((struct anonymous$4 **)NULL)))
+  if(!(cc == ((struct anonymous_4 **)NULL)))
   {
-    if(!(*cc == ((struct anonymous$4 *)NULL)))
+    if(!(*cc == ((struct anonymous_4 *)NULL)))
     {
       if(!((*cc)->keysFile == ((char *)NULL)))
       {
@@ -5838,19 +5838,19 @@ void ClientConfiguration_free(struct anonymous$4 **cc)
         (*cc)->storeFile = (char *)(void *)0;
       }
 
-      if(!((*cc)->realmsTable == ((struct anonymous$5 **)NULL)))
+      if(!((*cc)->realmsTable == ((struct anonymous_5 **)NULL)))
       {
         i = 0;
         for( ; !(i >= (*cc)->realmsNumber); i = i + 1)
-          if(!((*cc)->realmsTable[(signed long int)i] == ((struct anonymous$5 *)NULL)))
+          if(!((*cc)->realmsTable[(signed long int)i] == ((struct anonymous_5 *)NULL)))
             ClientRealm_free(&(*cc)->realmsTable[(signed long int)i]);
 
         free((void *)(*cc)->realmsTable);
-        (*cc)->realmsTable = (struct anonymous$5 **)(void *)0;
+        (*cc)->realmsTable = (struct anonymous_5 **)(void *)0;
       }
 
       free((void *)*cc);
-      *cc = (struct anonymous$4 *)(void *)0;
+      *cc = (struct anonymous_4 *)(void *)0;
     }
 
   }
@@ -5859,9 +5859,9 @@ void ClientConfiguration_free(struct anonymous$4 **cc)
 
 // ClientConfiguration_get_certificateFile
 // file client_configuration_struct.h line 51
-char * ClientConfiguration_get_certificateFile(struct anonymous$4 *cc)
+char * ClientConfiguration_get_certificateFile(struct anonymous_4 *cc)
 {
-  if(cc == ((struct anonymous$4 *)NULL))
+  if(cc == ((struct anonymous_4 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -5870,9 +5870,9 @@ char * ClientConfiguration_get_certificateFile(struct anonymous$4 *cc)
 
 // ClientConfiguration_get_dateFormat
 // file client_configuration_struct.h line 53
-char * ClientConfiguration_get_dateFormat(struct anonymous$4 *cc)
+char * ClientConfiguration_get_dateFormat(struct anonymous_4 *cc)
 {
-  if(cc == ((struct anonymous$4 *)NULL))
+  if(cc == ((struct anonymous_4 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -5881,9 +5881,9 @@ char * ClientConfiguration_get_dateFormat(struct anonymous$4 *cc)
 
 // ClientConfiguration_get_ignorePublicKeys
 // file client_configuration_struct.h line 56
-char ClientConfiguration_get_ignorePublicKeys(struct anonymous$4 *cc)
+char ClientConfiguration_get_ignorePublicKeys(struct anonymous_4 *cc)
 {
-  if(cc == ((struct anonymous$4 *)NULL))
+  if(cc == ((struct anonymous_4 *)NULL))
     return (char)0;
 
   else
@@ -5892,9 +5892,9 @@ char ClientConfiguration_get_ignorePublicKeys(struct anonymous$4 *cc)
 
 // ClientConfiguration_get_keysFile
 // file client_configuration_struct.h line 50
-char * ClientConfiguration_get_keysFile(struct anonymous$4 *cc)
+char * ClientConfiguration_get_keysFile(struct anonymous_4 *cc)
 {
-  if(cc == ((struct anonymous$4 *)NULL))
+  if(cc == ((struct anonymous_4 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -5903,9 +5903,9 @@ char * ClientConfiguration_get_keysFile(struct anonymous$4 *cc)
 
 // ClientConfiguration_get_realmsNumber
 // file client_configuration_struct.h line 54
-signed int ClientConfiguration_get_realmsNumber(struct anonymous$4 *cc)
+signed int ClientConfiguration_get_realmsNumber(struct anonymous_4 *cc)
 {
-  if(cc == ((struct anonymous$4 *)NULL))
+  if(cc == ((struct anonymous_4 *)NULL))
     return -1;
 
   else
@@ -5914,10 +5914,10 @@ signed int ClientConfiguration_get_realmsNumber(struct anonymous$4 *cc)
 
 // ClientConfiguration_get_realmsTable
 // file client_configuration_struct.h line 55
-struct anonymous$5 ** ClientConfiguration_get_realmsTable(struct anonymous$4 *cc)
+struct anonymous_5 ** ClientConfiguration_get_realmsTable(struct anonymous_4 *cc)
 {
-  if(cc == ((struct anonymous$4 *)NULL))
-    return (struct anonymous$5 **)(void *)0;
+  if(cc == ((struct anonymous_4 *)NULL))
+    return (struct anonymous_5 **)(void *)0;
 
   else
     return cc->realmsTable;
@@ -5925,9 +5925,9 @@ struct anonymous$5 ** ClientConfiguration_get_realmsTable(struct anonymous$4 *cc
 
 // ClientConfiguration_get_storeFile
 // file client_configuration_struct.h line 52
-char * ClientConfiguration_get_storeFile(struct anonymous$4 *cc)
+char * ClientConfiguration_get_storeFile(struct anonymous_4 *cc)
 {
-  if(cc == ((struct anonymous$4 *)NULL))
+  if(cc == ((struct anonymous_4 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -5936,14 +5936,14 @@ char * ClientConfiguration_get_storeFile(struct anonymous$4 *cc)
 
 // ClientConfiguration_new
 // file client_configuration_struct.h line 38
-struct anonymous$4 * ClientConfiguration_new()
+struct anonymous_4 * ClientConfiguration_new()
 {
-  struct anonymous$4 *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$4) /*48ul*/ );
-  tmp = (struct anonymous$4 *)return_value_calloc$1;
-  if(tmp == ((struct anonymous$4 *)NULL))
-    return (struct anonymous$4 *)(void *)0;
+  struct anonymous_4 *tmp;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_4) /*48ul*/ );
+  tmp = (struct anonymous_4 *)return_value_calloc_1;
+  if(tmp == ((struct anonymous_4 *)NULL))
+    return (struct anonymous_4 *)(void *)0;
 
   else
     return tmp;
@@ -5951,65 +5951,65 @@ struct anonymous$4 * ClientConfiguration_new()
 
 // ClientConfiguration_set_certificateFile
 // file client_configuration_struct.h line 43
-void ClientConfiguration_set_certificateFile(struct anonymous$4 *cc, char *certificateFile)
+void ClientConfiguration_set_certificateFile(struct anonymous_4 *cc, char *certificateFile)
 {
-  if(!(cc == ((struct anonymous$4 *)NULL)))
+  if(!(cc == ((struct anonymous_4 *)NULL)))
     string_cp(&cc->certificateFile, certificateFile);
 
 }
 
 // ClientConfiguration_set_dateFormat
 // file client_configuration_struct.h line 45
-void ClientConfiguration_set_dateFormat(struct anonymous$4 *cc, char *dateFormat)
+void ClientConfiguration_set_dateFormat(struct anonymous_4 *cc, char *dateFormat)
 {
-  if(!(cc == ((struct anonymous$4 *)NULL)))
+  if(!(cc == ((struct anonymous_4 *)NULL)))
     string_cp(&cc->dateFormat, dateFormat);
 
 }
 
 // ClientConfiguration_set_ignorePublicKeys
 // file client_configuration_struct.h line 48
-void ClientConfiguration_set_ignorePublicKeys(struct anonymous$4 *cc, char ignorePublicKeys)
+void ClientConfiguration_set_ignorePublicKeys(struct anonymous_4 *cc, char ignorePublicKeys)
 {
-  if(!(cc == ((struct anonymous$4 *)NULL)))
+  if(!(cc == ((struct anonymous_4 *)NULL)))
     cc->ignorePublicKeys = ignorePublicKeys;
 
 }
 
 // ClientConfiguration_set_keysFile
 // file client_configuration_struct.h line 42
-void ClientConfiguration_set_keysFile(struct anonymous$4 *cc, char *keysFile)
+void ClientConfiguration_set_keysFile(struct anonymous_4 *cc, char *keysFile)
 {
-  if(!(cc == ((struct anonymous$4 *)NULL)))
+  if(!(cc == ((struct anonymous_4 *)NULL)))
     string_cp(&cc->keysFile, keysFile);
 
 }
 
 // ClientConfiguration_set_realmsNumber
 // file client_configuration_struct.h line 46
-void ClientConfiguration_set_realmsNumber(struct anonymous$4 *cc, signed int realmsNumber)
+void ClientConfiguration_set_realmsNumber(struct anonymous_4 *cc, signed int realmsNumber)
 {
-  if(!(cc == ((struct anonymous$4 *)NULL)))
+  if(!(cc == ((struct anonymous_4 *)NULL)))
     cc->realmsNumber = realmsNumber;
 
 }
 
 // ClientConfiguration_set_realmsTable
 // file client_configuration_struct.h line 47
-void ClientConfiguration_set_realmsTable(struct anonymous$4 *cc, struct anonymous$5 **realmsTable)
+void ClientConfiguration_set_realmsTable(struct anonymous_4 *cc, struct anonymous_5 **realmsTable)
 {
   signed int i;
-  if(!(cc == ((struct anonymous$4 *)NULL)))
+  if(!(cc == ((struct anonymous_4 *)NULL)))
   {
-    if(!(cc->realmsTable == ((struct anonymous$5 **)NULL)))
+    if(!(cc->realmsTable == ((struct anonymous_5 **)NULL)))
     {
       i = 0;
       for( ; !(i >= cc->realmsNumber); i = i + 1)
-        if(!(cc->realmsTable[(signed long int)i] == ((struct anonymous$5 *)NULL)))
+        if(!(cc->realmsTable[(signed long int)i] == ((struct anonymous_5 *)NULL)))
           ClientRealm_free(&cc->realmsTable[(signed long int)i]);
 
       free((void *)cc->realmsTable);
-      cc->realmsTable = (struct anonymous$5 **)(void *)0;
+      cc->realmsTable = (struct anonymous_5 **)(void *)0;
     }
 
     cc->realmsTable = realmsTable;
@@ -6019,70 +6019,70 @@ void ClientConfiguration_set_realmsTable(struct anonymous$4 *cc, struct anonymou
 
 // ClientConfiguration_set_storeFile
 // file client_configuration_struct.h line 44
-void ClientConfiguration_set_storeFile(struct anonymous$4 *cc, char *storeFile)
+void ClientConfiguration_set_storeFile(struct anonymous_4 *cc, char *storeFile)
 {
-  if(!(cc == ((struct anonymous$4 *)NULL)))
+  if(!(cc == ((struct anonymous_4 *)NULL)))
     string_cp(&cc->storeFile, storeFile);
 
 }
 
 // ClientRealm_closeUsersConnections
 // file client_realm_struct.h line 141
-void ClientRealm_closeUsersConnections(struct anonymous$5 *cr)
+void ClientRealm_closeUsersConnections(struct anonymous_5 *cr)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
-    signed int return_value_ClientRealm_get_usersLimit$1;
-    return_value_ClientRealm_get_usersLimit$1=ClientRealm_get_usersLimit(cr);
-    close_connections(return_value_ClientRealm_get_usersLimit$1, &cr->usersTable);
+    signed int return_value_ClientRealm_get_usersLimit_1;
+    return_value_ClientRealm_get_usersLimit_1=ClientRealm_get_usersLimit(cr);
+    close_connections(return_value_ClientRealm_get_usersLimit_1, &cr->usersTable);
   }
 
 }
 
 // ClientRealm_decrease_connectedUsers
 // file client_realm_struct.c line 1106
-void ClientRealm_decrease_connectedUsers(struct anonymous$5 *cr)
+void ClientRealm_decrease_connectedUsers(struct anonymous_5 *cr)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
-    signed int return_value_ClientRealm_get_connectedUsers$1;
-    return_value_ClientRealm_get_connectedUsers$1=ClientRealm_get_connectedUsers(cr);
-    ClientRealm_set_connectedUsers(cr, return_value_ClientRealm_get_connectedUsers$1 - 1);
+    signed int return_value_ClientRealm_get_connectedUsers_1;
+    return_value_ClientRealm_get_connectedUsers_1=ClientRealm_get_connectedUsers(cr);
+    ClientRealm_set_connectedUsers(cr, return_value_ClientRealm_get_connectedUsers_1 - 1);
   }
 
 }
 
 // ClientRealm_enable_multi
 // file client_realm_struct.h line 144
-void ClientRealm_enable_multi(struct anonymous$5 *cr)
+void ClientRealm_enable_multi(struct anonymous_5 *cr)
 {
   unsigned char buff[5l];
-  struct portlist *return_value_ClientRealm_get_destinationPorts$5;
-  signed int return_value_PortList_get_size$6;
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  struct portlist *return_value_ClientRealm_get_destinationPorts_5;
+  signed int return_value_PortList_get_size_6;
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
-    char return_value_ClientRealm_get_realmType$7;
-    return_value_ClientRealm_get_realmType$7=ClientRealm_get_realmType(cr);
-    if(!((64 & (signed int)return_value_ClientRealm_get_realmType$7) == 0))
+    char return_value_ClientRealm_get_realmType_7;
+    return_value_ClientRealm_get_realmType_7=ClientRealm_get_realmType(cr);
+    if(!((64 & (signed int)return_value_ClientRealm_get_realmType_7) == 0))
     {
-      return_value_ClientRealm_get_destinationPorts$5=ClientRealm_get_destinationPorts(cr);
-      return_value_PortList_get_size$6=PortList_get_size(return_value_ClientRealm_get_destinationPorts$5);
-      if(return_value_PortList_get_size$6 >= 2)
+      return_value_ClientRealm_get_destinationPorts_5=ClientRealm_get_destinationPorts(cr);
+      return_value_PortList_get_size_6=PortList_get_size(return_value_ClientRealm_get_destinationPorts_5);
+      if(return_value_PortList_get_size_6 >= 2)
       {
         buff[(signed long int)0] = (unsigned char)18;
-        struct portlist *return_value_ClientRealm_get_destinationPorts$1;
-        return_value_ClientRealm_get_destinationPorts$1=ClientRealm_get_destinationPorts(cr);
-        signed int return_value_PortList_get_size$2;
-        return_value_PortList_get_size$2=PortList_get_size(return_value_ClientRealm_get_destinationPorts$1);
-        buff[(signed long int)1] = (unsigned char)return_value_PortList_get_size$2;
+        struct portlist *return_value_ClientRealm_get_destinationPorts_1;
+        return_value_ClientRealm_get_destinationPorts_1=ClientRealm_get_destinationPorts(cr);
+        signed int return_value_PortList_get_size_2;
+        return_value_PortList_get_size_2=PortList_get_size(return_value_ClientRealm_get_destinationPorts_1);
+        buff[(signed long int)1] = (unsigned char)return_value_PortList_get_size_2;
         buff[(signed long int)4] = (unsigned char)0;
         buff[(signed long int)3] = buff[(signed long int)4];
         buff[(signed long int)2] = buff[(signed long int)3];
-        char return_value_ClientRealm_get_realmType$3;
-        return_value_ClientRealm_get_realmType$3=ClientRealm_get_realmType(cr);
-        struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$4;
-        return_value_ClientRealm_get_masterSslFd$4=ClientRealm_get_masterSslFd(cr);
-        SslFd_send_message(return_value_ClientRealm_get_realmType$3, return_value_ClientRealm_get_masterSslFd$4, buff, 5);
+        char return_value_ClientRealm_get_realmType_3;
+        return_value_ClientRealm_get_realmType_3=ClientRealm_get_realmType(cr);
+        struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_4;
+        return_value_ClientRealm_get_masterSslFd_4=ClientRealm_get_masterSslFd(cr);
+        SslFd_send_message(return_value_ClientRealm_get_realmType_3, return_value_ClientRealm_get_masterSslFd_4, buff, 5);
         aflog((char)2, (char)8, "ENABLED: MULTI (multiple tunnels managed by one afclient)");
       }
 
@@ -6094,11 +6094,11 @@ void ClientRealm_enable_multi(struct anonymous$5 *cr)
 
 // ClientRealm_free
 // file client_realm_struct.h line 77
-void ClientRealm_free(struct anonymous$5 **cr)
+void ClientRealm_free(struct anonymous_5 **cr)
 {
-  if(!(cr == ((struct anonymous$5 **)NULL)))
+  if(!(cr == ((struct anonymous_5 **)NULL)))
   {
-    if(!(*cr == ((struct anonymous$5 *)NULL)))
+    if(!(*cr == ((struct anonymous_5 *)NULL)))
     {
       ClientRealm_set_serverName(*cr, (char *)(void *)0);
       ClientRealm_set_managePort(*cr, (char *)(void *)0);
@@ -6110,15 +6110,15 @@ void ClientRealm_free(struct anonymous$5 **cr)
       ClientRealm_set_localPort(*cr, (char *)(void *)0);
       ClientRealm_set_localDestinationName(*cr, (char *)(void *)0);
       ClientRealm_set_clientAddress(*cr, (struct sockaddr *)(void *)0);
-      ClientRealm_set_masterSslFd(*cr, (struct anonymous$0 *)(void *)0);
+      ClientRealm_set_masterSslFd(*cr, (struct anonymous_0 *)(void *)0);
       ClientRealm_set_httpProxyOptions(*cr, (struct anonymous *)(void *)0);
-      ClientRealm_set_arOptions(*cr, (struct anonymous$3 *)(void *)0);
+      ClientRealm_set_arOptions(*cr, (struct anonymous_3 *)(void *)0);
       ClientRealm_set_destinationPorts(*cr, (struct portlist *)(void *)0);
-      ClientRealm_set_usersTable(*cr, (struct anonymous$7 **)(void *)0);
-      ClientRealm_set_userModule(*cr, (struct anonymous$6 *)(void *)0);
-      ClientRealm_set_serviceModule(*cr, (struct anonymous$6 *)(void *)0);
+      ClientRealm_set_usersTable(*cr, (struct anonymous_7 **)(void *)0);
+      ClientRealm_set_userModule(*cr, (struct anonymous_6 *)(void *)0);
+      ClientRealm_set_serviceModule(*cr, (struct anonymous_6 *)(void *)0);
       free((void *)*cr);
-      *cr = (struct anonymous$5 *)(void *)0;
+      *cr = (struct anonymous_5 *)(void *)0;
     }
 
   }
@@ -6127,9 +6127,9 @@ void ClientRealm_free(struct anonymous$5 **cr)
 
 // ClientRealm_get_addressLength
 // file client_realm_struct.c line 953
-unsigned int ClientRealm_get_addressLength(struct anonymous$5 *cr)
+unsigned int ClientRealm_get_addressLength(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (unsigned int)0;
 
   else
@@ -6138,10 +6138,10 @@ unsigned int ClientRealm_get_addressLength(struct anonymous$5 *cr)
 
 // ClientRealm_get_arOptions
 // file client_realm_struct.h line 131
-struct anonymous$3 * ClientRealm_get_arOptions(struct anonymous$5 *cr)
+struct anonymous_3 * ClientRealm_get_arOptions(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
-    return (struct anonymous$3 *)(void *)0;
+  if(cr == ((struct anonymous_5 *)NULL))
+    return (struct anonymous_3 *)(void *)0;
 
   else
     return cr->arOptions;
@@ -6149,9 +6149,9 @@ struct anonymous$3 * ClientRealm_get_arOptions(struct anonymous$5 *cr)
 
 // ClientRealm_get_clientAddress
 // file client_realm_struct.h line 128
-struct sockaddr * ClientRealm_get_clientAddress(struct anonymous$5 *cr)
+struct sockaddr * ClientRealm_get_clientAddress(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (struct sockaddr *)(void *)0;
 
   else
@@ -6160,9 +6160,9 @@ struct sockaddr * ClientRealm_get_clientAddress(struct anonymous$5 *cr)
 
 // ClientRealm_get_clientMode
 // file client_realm_struct.h line 122
-signed int ClientRealm_get_clientMode(struct anonymous$5 *cr)
+signed int ClientRealm_get_clientMode(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return 0;
 
   else
@@ -6171,9 +6171,9 @@ signed int ClientRealm_get_clientMode(struct anonymous$5 *cr)
 
 // ClientRealm_get_connectedUsers
 // file client_realm_struct.c line 816
-signed int ClientRealm_get_connectedUsers(struct anonymous$5 *cr)
+signed int ClientRealm_get_connectedUsers(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return -1;
 
   else
@@ -6182,9 +6182,9 @@ signed int ClientRealm_get_connectedUsers(struct anonymous$5 *cr)
 
 // ClientRealm_get_destinationPorts
 // file client_realm_struct.h line 132
-struct portlist * ClientRealm_get_destinationPorts(struct anonymous$5 *cr)
+struct portlist * ClientRealm_get_destinationPorts(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (struct portlist *)(void *)0;
 
   else
@@ -6193,9 +6193,9 @@ struct portlist * ClientRealm_get_destinationPorts(struct anonymous$5 *cr)
 
 // ClientRealm_get_hostName
 // file client_realm_struct.h line 111
-char * ClientRealm_get_hostName(struct anonymous$5 *cr)
+char * ClientRealm_get_hostName(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6204,9 +6204,9 @@ char * ClientRealm_get_hostName(struct anonymous$5 *cr)
 
 // ClientRealm_get_httpProxyOptions
 // file client_realm_struct.h line 130
-struct anonymous * ClientRealm_get_httpProxyOptions(struct anonymous$5 *cr)
+struct anonymous * ClientRealm_get_httpProxyOptions(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (struct anonymous *)(void *)0;
 
   else
@@ -6215,9 +6215,9 @@ struct anonymous * ClientRealm_get_httpProxyOptions(struct anonymous$5 *cr)
 
 // ClientRealm_get_ipFamily
 // file client_realm_struct.h line 123
-char ClientRealm_get_ipFamily(struct anonymous$5 *cr)
+char ClientRealm_get_ipFamily(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char)0;
 
   else
@@ -6226,10 +6226,10 @@ char ClientRealm_get_ipFamily(struct anonymous$5 *cr)
 
 // ClientRealm_get_keepAlive
 // file client_realm_struct.c line 935
-struct timeval ClientRealm_get_keepAlive(struct anonymous$5 *cr)
+struct timeval ClientRealm_get_keepAlive(struct anonymous_5 *cr)
 {
   struct timeval tmp = { .tv_sec=(signed long int)0, .tv_usec=(signed long int)0 };
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return tmp;
 
   else
@@ -6238,9 +6238,9 @@ struct timeval ClientRealm_get_keepAlive(struct anonymous$5 *cr)
 
 // ClientRealm_get_keepAlivePointer
 // file client_realm_struct.h line 142
-struct timeval * ClientRealm_get_keepAlivePointer(struct anonymous$5 *cr)
+struct timeval * ClientRealm_get_keepAlivePointer(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (struct timeval *)(void *)0;
 
   else
@@ -6249,9 +6249,9 @@ struct timeval * ClientRealm_get_keepAlivePointer(struct anonymous$5 *cr)
 
 // ClientRealm_get_keepAliveTimeout
 // file client_realm_struct.h line 121
-signed int ClientRealm_get_keepAliveTimeout(struct anonymous$5 *cr)
+signed int ClientRealm_get_keepAliveTimeout(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return 0;
 
   else
@@ -6260,9 +6260,9 @@ signed int ClientRealm_get_keepAliveTimeout(struct anonymous$5 *cr)
 
 // ClientRealm_get_localDestinationName
 // file client_realm_struct.h line 117
-char * ClientRealm_get_localDestinationName(struct anonymous$5 *cr)
+char * ClientRealm_get_localDestinationName(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6271,9 +6271,9 @@ char * ClientRealm_get_localDestinationName(struct anonymous$5 *cr)
 
 // ClientRealm_get_localName
 // file client_realm_struct.h line 115
-char * ClientRealm_get_localName(struct anonymous$5 *cr)
+char * ClientRealm_get_localName(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6282,9 +6282,9 @@ char * ClientRealm_get_localName(struct anonymous$5 *cr)
 
 // ClientRealm_get_localPort
 // file client_realm_struct.h line 116
-char * ClientRealm_get_localPort(struct anonymous$5 *cr)
+char * ClientRealm_get_localPort(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6293,9 +6293,9 @@ char * ClientRealm_get_localPort(struct anonymous$5 *cr)
 
 // ClientRealm_get_managePort
 // file client_realm_struct.h line 110
-char * ClientRealm_get_managePort(struct anonymous$5 *cr)
+char * ClientRealm_get_managePort(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6304,10 +6304,10 @@ char * ClientRealm_get_managePort(struct anonymous$5 *cr)
 
 // ClientRealm_get_masterSslFd
 // file client_realm_struct.h line 129
-struct anonymous$0 * ClientRealm_get_masterSslFd(struct anonymous$5 *cr)
+struct anonymous_0 * ClientRealm_get_masterSslFd(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
-    return (struct anonymous$0 *)(void *)0;
+  if(cr == ((struct anonymous_5 *)NULL))
+    return (struct anonymous_0 *)(void *)0;
 
   else
     return cr->masterSslFd;
@@ -6315,9 +6315,9 @@ struct anonymous$0 * ClientRealm_get_masterSslFd(struct anonymous$5 *cr)
 
 // ClientRealm_get_password
 // file client_realm_struct.h line 118
-unsigned char * ClientRealm_get_password(struct anonymous$5 *cr)
+unsigned char * ClientRealm_get_password(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (unsigned char *)(void *)0;
 
   else
@@ -6326,9 +6326,9 @@ unsigned char * ClientRealm_get_password(struct anonymous$5 *cr)
 
 // ClientRealm_get_realmId
 // file client_realm_struct.h line 114
-char * ClientRealm_get_realmId(struct anonymous$5 *cr)
+char * ClientRealm_get_realmId(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6337,9 +6337,9 @@ char * ClientRealm_get_realmId(struct anonymous$5 *cr)
 
 // ClientRealm_get_realmName
 // file client_realm_struct.c line 711
-char * ClientRealm_get_realmName(struct anonymous$5 *cr)
+char * ClientRealm_get_realmName(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6348,9 +6348,9 @@ char * ClientRealm_get_realmName(struct anonymous$5 *cr)
 
 // ClientRealm_get_realmType
 // file client_realm_struct.h line 124
-char ClientRealm_get_realmType(struct anonymous$5 *cr)
+char ClientRealm_get_realmType(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char)0;
 
   else
@@ -6359,9 +6359,9 @@ char ClientRealm_get_realmType(struct anonymous$5 *cr)
 
 // ClientRealm_get_sKeepAliveTimeout
 // file client_realm_struct.h line 113
-char * ClientRealm_get_sKeepAliveTimeout(struct anonymous$5 *cr)
+char * ClientRealm_get_sKeepAliveTimeout(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6370,9 +6370,9 @@ char * ClientRealm_get_sKeepAliveTimeout(struct anonymous$5 *cr)
 
 // ClientRealm_get_serverName
 // file client_realm_struct.h line 109
-char * ClientRealm_get_serverName(struct anonymous$5 *cr)
+char * ClientRealm_get_serverName(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6381,10 +6381,10 @@ char * ClientRealm_get_serverName(struct anonymous$5 *cr)
 
 // ClientRealm_get_serviceModule
 // file client_realm_struct.h line 136
-struct anonymous$6 * ClientRealm_get_serviceModule(struct anonymous$5 *cr)
+struct anonymous_6 * ClientRealm_get_serviceModule(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
-    return (struct anonymous$6 *)(void *)0;
+  if(cr == ((struct anonymous_5 *)NULL))
+    return (struct anonymous_6 *)(void *)0;
 
   else
     return cr->serviceModule;
@@ -6392,9 +6392,9 @@ struct anonymous$6 * ClientRealm_get_serviceModule(struct anonymous$5 *cr)
 
 // ClientRealm_get_tunnelType
 // file client_realm_struct.h line 125
-char ClientRealm_get_tunnelType(struct anonymous$5 *cr)
+char ClientRealm_get_tunnelType(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return (char)0;
 
   else
@@ -6403,10 +6403,10 @@ char ClientRealm_get_tunnelType(struct anonymous$5 *cr)
 
 // ClientRealm_get_userModule
 // file client_realm_struct.h line 135
-struct anonymous$6 * ClientRealm_get_userModule(struct anonymous$5 *cr)
+struct anonymous_6 * ClientRealm_get_userModule(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
-    return (struct anonymous$6 *)(void *)0;
+  if(cr == ((struct anonymous_5 *)NULL))
+    return (struct anonymous_6 *)(void *)0;
 
   else
     return cr->userModule;
@@ -6414,9 +6414,9 @@ struct anonymous$6 * ClientRealm_get_userModule(struct anonymous$5 *cr)
 
 // ClientRealm_get_usersLimit
 // file client_realm_struct.h line 120
-signed int ClientRealm_get_usersLimit(struct anonymous$5 *cr)
+signed int ClientRealm_get_usersLimit(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
+  if(cr == ((struct anonymous_5 *)NULL))
     return -1;
 
   else
@@ -6425,10 +6425,10 @@ signed int ClientRealm_get_usersLimit(struct anonymous$5 *cr)
 
 // ClientRealm_get_usersTable
 // file client_realm_struct.h line 133
-struct anonymous$7 ** ClientRealm_get_usersTable(struct anonymous$5 *cr)
+struct anonymous_7 ** ClientRealm_get_usersTable(struct anonymous_5 *cr)
 {
-  if(cr == ((struct anonymous$5 *)NULL))
-    return (struct anonymous$7 **)(void *)0;
+  if(cr == ((struct anonymous_5 *)NULL))
+    return (struct anonymous_7 **)(void *)0;
 
   else
     return cr->usersTable;
@@ -6436,27 +6436,27 @@ struct anonymous$7 ** ClientRealm_get_usersTable(struct anonymous$5 *cr)
 
 // ClientRealm_increase_connectedUsers
 // file client_realm_struct.c line 1090
-void ClientRealm_increase_connectedUsers(struct anonymous$5 *cr)
+void ClientRealm_increase_connectedUsers(struct anonymous_5 *cr)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
-    signed int return_value_ClientRealm_get_connectedUsers$1;
-    return_value_ClientRealm_get_connectedUsers$1=ClientRealm_get_connectedUsers(cr);
-    ClientRealm_set_connectedUsers(cr, return_value_ClientRealm_get_connectedUsers$1 + 1);
+    signed int return_value_ClientRealm_get_connectedUsers_1;
+    return_value_ClientRealm_get_connectedUsers_1=ClientRealm_get_connectedUsers(cr);
+    ClientRealm_set_connectedUsers(cr, return_value_ClientRealm_get_connectedUsers_1 + 1);
   }
 
 }
 
 // ClientRealm_new
 // file client_realm_struct.h line 75
-struct anonymous$5 * ClientRealm_new()
+struct anonymous_5 * ClientRealm_new()
 {
-  struct anonymous$5 *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$5) /*184ul*/ );
-  tmp = (struct anonymous$5 *)return_value_calloc$1;
-  if(tmp == ((struct anonymous$5 *)NULL))
-    return (struct anonymous$5 *)(void *)0;
+  struct anonymous_5 *tmp;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_5) /*184ul*/ );
+  tmp = (struct anonymous_5 *)return_value_calloc_1;
+  if(tmp == ((struct anonymous_5 *)NULL))
+    return (struct anonymous_5 *)(void *)0;
 
   else
   {
@@ -6465,19 +6465,19 @@ struct anonymous$5 * ClientRealm_new()
     tmp->password[(signed long int)2] = (unsigned char)3;
     tmp->password[(signed long int)3] = (unsigned char)4;
     tmp->masterSslFd=SslFd_new();
-    if(tmp->masterSslFd == ((struct anonymous$0 *)NULL))
+    if(tmp->masterSslFd == ((struct anonymous_0 *)NULL))
     {
       ClientRealm_free(&tmp);
-      return (struct anonymous$5 *)(void *)0;
+      return (struct anonymous_5 *)(void *)0;
     }
 
     else
     {
       tmp->arOptions=ArOptions_new();
-      if(tmp->arOptions == ((struct anonymous$3 *)NULL))
+      if(tmp->arOptions == ((struct anonymous_3 *)NULL))
       {
         ClientRealm_free(&tmp);
-        return (struct anonymous$5 *)(void *)0;
+        return (struct anonymous_5 *)(void *)0;
       }
 
       else
@@ -6486,25 +6486,25 @@ struct anonymous$5 * ClientRealm_new()
         if(tmp->httpProxyOptions == ((struct anonymous *)NULL))
         {
           ClientRealm_free(&tmp);
-          return (struct anonymous$5 *)(void *)0;
+          return (struct anonymous_5 *)(void *)0;
         }
 
         else
         {
           tmp->userModule=Module_new();
-          if(tmp->userModule == ((struct anonymous$6 *)NULL))
+          if(tmp->userModule == ((struct anonymous_6 *)NULL))
           {
             ClientRealm_free(&tmp);
-            return (struct anonymous$5 *)(void *)0;
+            return (struct anonymous_5 *)(void *)0;
           }
 
           else
           {
             tmp->serviceModule=Module_new();
-            if(tmp->serviceModule == ((struct anonymous$6 *)NULL))
+            if(tmp->serviceModule == ((struct anonymous_6 *)NULL))
             {
               ClientRealm_free(&tmp);
-              return (struct anonymous$5 *)(void *)0;
+              return (struct anonymous_5 *)(void *)0;
             }
 
             else
@@ -6518,38 +6518,38 @@ struct anonymous$5 * ClientRealm_new()
 
 // ClientRealm_send_realmId
 // file client_realm_struct.h line 143
-void ClientRealm_send_realmId(struct anonymous$5 *cr, unsigned char *buff)
+void ClientRealm_send_realmId(struct anonymous_5 *cr, unsigned char *buff)
 {
   signed int n;
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
     if(!(buff == ((unsigned char *)NULL)))
     {
-      char *return_value_ClientRealm_get_realmId$7;
-      return_value_ClientRealm_get_realmId$7=ClientRealm_get_realmId(cr);
-      if(!(return_value_ClientRealm_get_realmId$7 == ((char *)NULL)))
+      char *return_value_ClientRealm_get_realmId_7;
+      return_value_ClientRealm_get_realmId_7=ClientRealm_get_realmId(cr);
+      if(!(return_value_ClientRealm_get_realmId_7 == ((char *)NULL)))
       {
         buff[(signed long int)0] = (unsigned char)8;
         buff[(signed long int)2] = (unsigned char)0;
         buff[(signed long int)1] = buff[(signed long int)2];
-        char *return_value_ClientRealm_get_realmId$1;
-        return_value_ClientRealm_get_realmId$1=ClientRealm_get_realmId(cr);
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(return_value_ClientRealm_get_realmId$1);
-        n = (signed int)return_value_strlen$2;
-        char *return_value_ClientRealm_get_realmId$3;
-        return_value_ClientRealm_get_realmId$3=ClientRealm_get_realmId(cr);
-        memcpy((void *)&buff[(signed long int)5], (const void *)return_value_ClientRealm_get_realmId$3, (unsigned long int)n);
+        char *return_value_ClientRealm_get_realmId_1;
+        return_value_ClientRealm_get_realmId_1=ClientRealm_get_realmId(cr);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(return_value_ClientRealm_get_realmId_1);
+        n = (signed int)return_value_strlen_2;
+        char *return_value_ClientRealm_get_realmId_3;
+        return_value_ClientRealm_get_realmId_3=ClientRealm_get_realmId(cr);
+        memcpy((void *)&buff[(signed long int)5], (const void *)return_value_ClientRealm_get_realmId_3, (unsigned long int)n);
         buff[(signed long int)3] = (unsigned char)(n >> 8);
         buff[(signed long int)4] = (unsigned char)n;
-        char return_value_ClientRealm_get_realmType$4;
-        return_value_ClientRealm_get_realmType$4=ClientRealm_get_realmType(cr);
-        struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$5;
-        return_value_ClientRealm_get_masterSslFd$5=ClientRealm_get_masterSslFd(cr);
-        SslFd_send_message(return_value_ClientRealm_get_realmType$4, return_value_ClientRealm_get_masterSslFd$5, buff, n + 5);
-        char *return_value_ClientRealm_get_realmId$6;
-        return_value_ClientRealm_get_realmId$6=ClientRealm_get_realmId(cr);
-        aflog((char)2, (char)8, "ID SENT: %s", return_value_ClientRealm_get_realmId$6);
+        char return_value_ClientRealm_get_realmType_4;
+        return_value_ClientRealm_get_realmType_4=ClientRealm_get_realmType(cr);
+        struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_5;
+        return_value_ClientRealm_get_masterSslFd_5=ClientRealm_get_masterSslFd(cr);
+        SslFd_send_message(return_value_ClientRealm_get_realmType_4, return_value_ClientRealm_get_masterSslFd_5, buff, n + 5);
+        char *return_value_ClientRealm_get_realmId_6;
+        return_value_ClientRealm_get_realmId_6=ClientRealm_get_realmId(cr);
+        aflog((char)2, (char)8, "ID SENT: %s", return_value_ClientRealm_get_realmId_6);
       }
 
     }
@@ -6560,20 +6560,20 @@ void ClientRealm_send_realmId(struct anonymous$5 *cr, unsigned char *buff)
 
 // ClientRealm_set_addressLength
 // file client_realm_struct.h line 97
-void ClientRealm_set_addressLength(struct anonymous$5 *cr, unsigned int addressLength)
+void ClientRealm_set_addressLength(struct anonymous_5 *cr, unsigned int addressLength)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     cr->addressLength = addressLength;
 
 }
 
 // ClientRealm_set_arOptions
 // file client_realm_struct.h line 101
-void ClientRealm_set_arOptions(struct anonymous$5 *cr, struct anonymous$3 *arOptions)
+void ClientRealm_set_arOptions(struct anonymous_5 *cr, struct anonymous_3 *arOptions)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
-    if(!(cr->arOptions == ((struct anonymous$3 *)NULL)))
+    if(!(cr->arOptions == ((struct anonymous_3 *)NULL)))
       ArOptions_free(&cr->arOptions);
 
     cr->arOptions = arOptions;
@@ -6583,9 +6583,9 @@ void ClientRealm_set_arOptions(struct anonymous$5 *cr, struct anonymous$3 *arOpt
 
 // ClientRealm_set_clientAddress
 // file client_realm_struct.h line 98
-void ClientRealm_set_clientAddress(struct anonymous$5 *cr, struct sockaddr *clientAddress)
+void ClientRealm_set_clientAddress(struct anonymous_5 *cr, struct sockaddr *clientAddress)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
     if(!(cr->clientAddress == ((struct sockaddr *)NULL)))
     {
@@ -6600,27 +6600,27 @@ void ClientRealm_set_clientAddress(struct anonymous$5 *cr, struct sockaddr *clie
 
 // ClientRealm_set_clientMode
 // file client_realm_struct.h line 92
-void ClientRealm_set_clientMode(struct anonymous$5 *cr, signed int clientMode)
+void ClientRealm_set_clientMode(struct anonymous_5 *cr, signed int clientMode)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     cr->clientMode = clientMode;
 
 }
 
 // ClientRealm_set_connectedUsers
 // file client_realm_struct.c line 323
-void ClientRealm_set_connectedUsers(struct anonymous$5 *cr, signed int connectedUsers)
+void ClientRealm_set_connectedUsers(struct anonymous_5 *cr, signed int connectedUsers)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     cr->connectedUsers = connectedUsers;
 
 }
 
 // ClientRealm_set_destinationPorts
 // file client_realm_struct.h line 102
-void ClientRealm_set_destinationPorts(struct anonymous$5 *cr, struct portlist *destinationPorts)
+void ClientRealm_set_destinationPorts(struct anonymous_5 *cr, struct portlist *destinationPorts)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
     if(!(cr->destinationPorts == ((struct portlist *)NULL)))
       PortList_free(&cr->destinationPorts);
@@ -6632,18 +6632,18 @@ void ClientRealm_set_destinationPorts(struct anonymous$5 *cr, struct portlist *d
 
 // ClientRealm_set_hostName
 // file client_realm_struct.h line 81
-void ClientRealm_set_hostName(struct anonymous$5 *cr, char *hostName)
+void ClientRealm_set_hostName(struct anonymous_5 *cr, char *hostName)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     string_cp(&cr->hostName, hostName);
 
 }
 
 // ClientRealm_set_httpProxyOptions
 // file client_realm_struct.h line 100
-void ClientRealm_set_httpProxyOptions(struct anonymous$5 *cr, struct anonymous *httpProxyOptions)
+void ClientRealm_set_httpProxyOptions(struct anonymous_5 *cr, struct anonymous *httpProxyOptions)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
     if(!(cr->httpProxyOptions == ((struct anonymous *)NULL)))
       HttpProxyOptions_free(&cr->httpProxyOptions);
@@ -6655,74 +6655,74 @@ void ClientRealm_set_httpProxyOptions(struct anonymous$5 *cr, struct anonymous *
 
 // ClientRealm_set_ipFamily
 // file client_realm_struct.h line 93
-void ClientRealm_set_ipFamily(struct anonymous$5 *cr, char ipFamily)
+void ClientRealm_set_ipFamily(struct anonymous_5 *cr, char ipFamily)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     cr->ipFamily = ipFamily;
 
 }
 
 // ClientRealm_set_keepAlive
 // file client_realm_struct.h line 96
-void ClientRealm_set_keepAlive(struct anonymous$5 *cr, struct timeval keepAlive)
+void ClientRealm_set_keepAlive(struct anonymous_5 *cr, struct timeval keepAlive)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     cr->keepAlive = keepAlive;
 
 }
 
 // ClientRealm_set_keepAliveTimeout
 // file client_realm_struct.h line 91
-void ClientRealm_set_keepAliveTimeout(struct anonymous$5 *cr, signed int keepAliveTimeout)
+void ClientRealm_set_keepAliveTimeout(struct anonymous_5 *cr, signed int keepAliveTimeout)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     cr->keepAliveTimeout = keepAliveTimeout;
 
 }
 
 // ClientRealm_set_localDestinationName
 // file client_realm_struct.h line 87
-void ClientRealm_set_localDestinationName(struct anonymous$5 *cr, char *localDestinationName)
+void ClientRealm_set_localDestinationName(struct anonymous_5 *cr, char *localDestinationName)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     string_cp(&cr->localDestinationName, localDestinationName);
 
 }
 
 // ClientRealm_set_localName
 // file client_realm_struct.h line 85
-void ClientRealm_set_localName(struct anonymous$5 *cr, char *localName)
+void ClientRealm_set_localName(struct anonymous_5 *cr, char *localName)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     string_cp(&cr->localName, localName);
 
 }
 
 // ClientRealm_set_localPort
 // file client_realm_struct.h line 86
-void ClientRealm_set_localPort(struct anonymous$5 *cr, char *localPort)
+void ClientRealm_set_localPort(struct anonymous_5 *cr, char *localPort)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     string_cp(&cr->localPort, localPort);
 
 }
 
 // ClientRealm_set_managePort
 // file client_realm_struct.h line 80
-void ClientRealm_set_managePort(struct anonymous$5 *cr, char *managePort)
+void ClientRealm_set_managePort(struct anonymous_5 *cr, char *managePort)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     string_cp(&cr->managePort, managePort);
 
 }
 
 // ClientRealm_set_masterSslFd
 // file client_realm_struct.c line 497
-void ClientRealm_set_masterSslFd(struct anonymous$5 *cr, struct anonymous$0 *masterSslFd)
+void ClientRealm_set_masterSslFd(struct anonymous_5 *cr, struct anonymous_0 *masterSslFd)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
-    if(!(cr->masterSslFd == ((struct anonymous$0 *)NULL)))
+    if(!(cr->masterSslFd == ((struct anonymous_0 *)NULL)))
       SslFd_free(&cr->masterSslFd);
 
     cr->masterSslFd = masterSslFd;
@@ -6732,65 +6732,65 @@ void ClientRealm_set_masterSslFd(struct anonymous$5 *cr, struct anonymous$0 *mas
 
 // ClientRealm_set_password
 // file client_realm_struct.h line 88
-void ClientRealm_set_password(struct anonymous$5 *cr, unsigned char *password)
+void ClientRealm_set_password(struct anonymous_5 *cr, unsigned char *password)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     memcpy((void *)cr->password, (const void *)password, (unsigned long int)4);
 
 }
 
 // ClientRealm_set_realmId
 // file client_realm_struct.h line 84
-void ClientRealm_set_realmId(struct anonymous$5 *cr, char *realmId)
+void ClientRealm_set_realmId(struct anonymous_5 *cr, char *realmId)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     string_cp(&cr->realmId, realmId);
 
 }
 
 // ClientRealm_set_realmName
 // file client_realm_struct.c line 221
-void ClientRealm_set_realmName(struct anonymous$5 *cr, char *realmName)
+void ClientRealm_set_realmName(struct anonymous_5 *cr, char *realmName)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     string_cp(&cr->realmName, realmName);
 
 }
 
 // ClientRealm_set_realmType
 // file client_realm_struct.h line 94
-void ClientRealm_set_realmType(struct anonymous$5 *cr, char realmType)
+void ClientRealm_set_realmType(struct anonymous_5 *cr, char realmType)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     cr->realmType = realmType;
 
 }
 
 // ClientRealm_set_sKeepAliveTimeout
 // file client_realm_struct.h line 83
-void ClientRealm_set_sKeepAliveTimeout(struct anonymous$5 *cr, char *sKeepAliveTimeout)
+void ClientRealm_set_sKeepAliveTimeout(struct anonymous_5 *cr, char *sKeepAliveTimeout)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     string_cp(&cr->sKeepAliveTimeout, sKeepAliveTimeout);
 
 }
 
 // ClientRealm_set_serverName
 // file client_realm_struct.h line 79
-void ClientRealm_set_serverName(struct anonymous$5 *cr, char *serverName)
+void ClientRealm_set_serverName(struct anonymous_5 *cr, char *serverName)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     string_cp(&cr->serverName, serverName);
 
 }
 
 // ClientRealm_set_serviceModule
 // file client_realm_struct.h line 106
-void ClientRealm_set_serviceModule(struct anonymous$5 *cr, struct anonymous$6 *serviceModule)
+void ClientRealm_set_serviceModule(struct anonymous_5 *cr, struct anonymous_6 *serviceModule)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
-    if(!(cr->serviceModule == ((struct anonymous$6 *)NULL)))
+    if(!(cr->serviceModule == ((struct anonymous_6 *)NULL)))
       Module_free(&cr->serviceModule);
 
     cr->serviceModule = serviceModule;
@@ -6800,20 +6800,20 @@ void ClientRealm_set_serviceModule(struct anonymous$5 *cr, struct anonymous$6 *s
 
 // ClientRealm_set_tunnelType
 // file client_realm_struct.h line 95
-void ClientRealm_set_tunnelType(struct anonymous$5 *cr, char tunnelType)
+void ClientRealm_set_tunnelType(struct anonymous_5 *cr, char tunnelType)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     cr->tunnelType = tunnelType;
 
 }
 
 // ClientRealm_set_userModule
 // file client_realm_struct.h line 105
-void ClientRealm_set_userModule(struct anonymous$5 *cr, struct anonymous$6 *userModule)
+void ClientRealm_set_userModule(struct anonymous_5 *cr, struct anonymous_6 *userModule)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
-    if(!(cr->userModule == ((struct anonymous$6 *)NULL)))
+    if(!(cr->userModule == ((struct anonymous_6 *)NULL)))
       Module_free(&cr->userModule);
 
     cr->userModule = userModule;
@@ -6823,29 +6823,29 @@ void ClientRealm_set_userModule(struct anonymous$5 *cr, struct anonymous$6 *user
 
 // ClientRealm_set_usersLimit
 // file client_realm_struct.h line 90
-void ClientRealm_set_usersLimit(struct anonymous$5 *cr, signed int usersLimit)
+void ClientRealm_set_usersLimit(struct anonymous_5 *cr, signed int usersLimit)
 {
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
     cr->usersLimit = usersLimit;
 
 }
 
 // ClientRealm_set_usersTable
 // file client_realm_struct.h line 103
-void ClientRealm_set_usersTable(struct anonymous$5 *cr, struct anonymous$7 **usersTable)
+void ClientRealm_set_usersTable(struct anonymous_5 *cr, struct anonymous_7 **usersTable)
 {
   signed int i;
-  if(!(cr == ((struct anonymous$5 *)NULL)))
+  if(!(cr == ((struct anonymous_5 *)NULL)))
   {
-    if(!(cr->usersTable == ((struct anonymous$7 **)NULL)))
+    if(!(cr->usersTable == ((struct anonymous_7 **)NULL)))
     {
       i = 0;
       for( ; !(i >= cr->usersLimit); i = i + 1)
-        if(!(cr->usersTable[(signed long int)i] == ((struct anonymous$7 *)NULL)))
+        if(!(cr->usersTable[(signed long int)i] == ((struct anonymous_7 *)NULL)))
           ConnectUser_free(&cr->usersTable[(signed long int)i]);
 
       free((void *)cr->usersTable);
-      cr->usersTable = (struct anonymous$7 **)(void *)0;
+      cr->usersTable = (struct anonymous_7 **)(void *)0;
     }
 
     cr->usersTable = usersTable;
@@ -6855,20 +6855,20 @@ void ClientRealm_set_usersTable(struct anonymous$5 *cr, struct anonymous$7 **use
 
 // ConnectUser_free
 // file connect_user_struct.h line 45
-void ConnectUser_free(struct anonymous$7 **cu)
+void ConnectUser_free(struct anonymous_7 **cu)
 {
   struct buflist *bftmp;
-  struct anonymous$14 *ustmp;
-  if(!(cu == ((struct anonymous$7 **)NULL)))
+  struct anonymous_14 *ustmp;
+  if(!(cu == ((struct anonymous_7 **)NULL)))
   {
-    if(!(*cu == ((struct anonymous$7 *)NULL)))
+    if(!(*cu == ((struct anonymous_7 *)NULL)))
     {
       bftmp=ConnectUser_get_bufList(*cu);
       ustmp=ConnectUser_get_stats(*cu);
       BufList_free(&bftmp);
       UserStats_free(&ustmp);
       free((void *)*cu);
-      *cu = (struct anonymous$7 *)(void *)0;
+      *cu = (struct anonymous_7 *)(void *)0;
     }
 
   }
@@ -6877,9 +6877,9 @@ void ConnectUser_free(struct anonymous$7 **cu)
 
 // ConnectUser_get_bufList
 // file connect_user_struct.h line 64
-struct buflist * ConnectUser_get_bufList(struct anonymous$7 *cu)
+struct buflist * ConnectUser_get_bufList(struct anonymous_7 *cu)
 {
-  if(cu == ((struct anonymous$7 *)NULL))
+  if(cu == ((struct anonymous_7 *)NULL))
     return (struct buflist *)(void *)0;
 
   else
@@ -6888,9 +6888,9 @@ struct buflist * ConnectUser_get_bufList(struct anonymous$7 *cu)
 
 // ConnectUser_get_connFd
 // file connect_user_struct.h line 58
-signed int ConnectUser_get_connFd(struct anonymous$7 *cu)
+signed int ConnectUser_get_connFd(struct anonymous_7 *cu)
 {
-  if(cu == ((struct anonymous$7 *)NULL))
+  if(cu == ((struct anonymous_7 *)NULL))
     return -1;
 
   else
@@ -6899,9 +6899,9 @@ signed int ConnectUser_get_connFd(struct anonymous$7 *cu)
 
 // ConnectUser_get_connectTime
 // file connect_user_struct.c line 323
-signed long int ConnectUser_get_connectTime(struct anonymous$7 *cu)
+signed long int ConnectUser_get_connectTime(struct anonymous_7 *cu)
 {
-  if(cu == ((struct anonymous$7 *)NULL))
+  if(cu == ((struct anonymous_7 *)NULL))
     return (signed long int)0;
 
   else
@@ -6910,9 +6910,9 @@ signed long int ConnectUser_get_connectTime(struct anonymous$7 *cu)
 
 // ConnectUser_get_nameBuf
 // file connect_user_struct.h line 62
-char * ConnectUser_get_nameBuf(struct anonymous$7 *cu)
+char * ConnectUser_get_nameBuf(struct anonymous_7 *cu)
 {
-  if(cu == ((struct anonymous$7 *)NULL))
+  if(cu == ((struct anonymous_7 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6921,9 +6921,9 @@ char * ConnectUser_get_nameBuf(struct anonymous$7 *cu)
 
 // ConnectUser_get_portBuf
 // file connect_user_struct.h line 63
-char * ConnectUser_get_portBuf(struct anonymous$7 *cu)
+char * ConnectUser_get_portBuf(struct anonymous_7 *cu)
 {
-  if(cu == ((struct anonymous$7 *)NULL))
+  if(cu == ((struct anonymous_7 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -6932,9 +6932,9 @@ char * ConnectUser_get_portBuf(struct anonymous$7 *cu)
 
 // ConnectUser_get_state
 // file connect_user_struct.h line 57
-char ConnectUser_get_state(struct anonymous$7 *cu)
+char ConnectUser_get_state(struct anonymous_7 *cu)
 {
-  if(cu == ((struct anonymous$7 *)NULL))
+  if(cu == ((struct anonymous_7 *)NULL))
     return (char)0;
 
   else
@@ -6943,10 +6943,10 @@ char ConnectUser_get_state(struct anonymous$7 *cu)
 
 // ConnectUser_get_stats
 // file connect_user_struct.c line 391
-struct anonymous$14 * ConnectUser_get_stats(struct anonymous$7 *cu)
+struct anonymous_14 * ConnectUser_get_stats(struct anonymous_7 *cu)
 {
-  if(cu == ((struct anonymous$7 *)NULL))
-    return (struct anonymous$14 *)(void *)0;
+  if(cu == ((struct anonymous_7 *)NULL))
+    return (struct anonymous_14 *)(void *)0;
 
   else
     return cu->stats;
@@ -6954,9 +6954,9 @@ struct anonymous$14 * ConnectUser_get_stats(struct anonymous$7 *cu)
 
 // ConnectUser_get_userId
 // file connect_user_struct.c line 306
-signed int ConnectUser_get_userId(struct anonymous$7 *cu)
+signed int ConnectUser_get_userId(struct anonymous_7 *cu)
 {
-  if(cu == ((struct anonymous$7 *)NULL))
+  if(cu == ((struct anonymous_7 *)NULL))
     return -1;
 
   else
@@ -6965,9 +6965,9 @@ signed int ConnectUser_get_userId(struct anonymous$7 *cu)
 
 // ConnectUser_get_whatClient
 // file connect_user_struct.c line 289
-signed int ConnectUser_get_whatClient(struct anonymous$7 *cu)
+signed int ConnectUser_get_whatClient(struct anonymous_7 *cu)
 {
-  if(cu == ((struct anonymous$7 *)NULL))
+  if(cu == ((struct anonymous_7 *)NULL))
     return -1;
 
   else
@@ -6976,14 +6976,14 @@ signed int ConnectUser_get_whatClient(struct anonymous$7 *cu)
 
 // ConnectUser_new
 // file connect_user_struct.h line 43
-struct anonymous$7 * ConnectUser_new()
+struct anonymous_7 * ConnectUser_new()
 {
-  struct anonymous$7 *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$7) /*176ul*/ );
-  tmp = (struct anonymous$7 *)return_value_calloc$1;
-  if(tmp == ((struct anonymous$7 *)NULL))
-    return (struct anonymous$7 *)(void *)0;
+  struct anonymous_7 *tmp;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_7) /*176ul*/ );
+  tmp = (struct anonymous_7 *)return_value_calloc_1;
+  if(tmp == ((struct anonymous_7 *)NULL))
+    return (struct anonymous_7 *)(void *)0;
 
   else
   {
@@ -6991,16 +6991,16 @@ struct anonymous$7 * ConnectUser_new()
     if(tmp->bufList == ((struct buflist *)NULL))
     {
       ConnectUser_free(&tmp);
-      return (struct anonymous$7 *)(void *)0;
+      return (struct anonymous_7 *)(void *)0;
     }
 
     else
     {
       tmp->stats=UserStats_new();
-      if(tmp->stats == ((struct anonymous$14 *)NULL))
+      if(tmp->stats == ((struct anonymous_14 *)NULL))
       {
         ConnectUser_free(&tmp);
-        return (struct anonymous$7 *)(void *)0;
+        return (struct anonymous_7 *)(void *)0;
       }
 
       else
@@ -7011,10 +7011,10 @@ struct anonymous$7 * ConnectUser_new()
 
 // ConnectUser_set_bufList
 // file connect_user_struct.c line 215
-void ConnectUser_set_bufList(struct anonymous$7 *cu, struct buflist *bufList)
+void ConnectUser_set_bufList(struct anonymous_7 *cu, struct buflist *bufList)
 {
   struct buflist *bftmp;
-  if(!(cu == ((struct anonymous$7 *)NULL)))
+  if(!(cu == ((struct anonymous_7 *)NULL)))
   {
     bftmp=ConnectUser_get_bufList(cu);
     BufList_free(&bftmp);
@@ -7025,27 +7025,27 @@ void ConnectUser_set_bufList(struct anonymous$7 *cu, struct buflist *bufList)
 
 // ConnectUser_set_connFd
 // file connect_user_struct.h line 48
-void ConnectUser_set_connFd(struct anonymous$7 *cu, signed int connFd)
+void ConnectUser_set_connFd(struct anonymous_7 *cu, signed int connFd)
 {
-  if(!(cu == ((struct anonymous$7 *)NULL)))
+  if(!(cu == ((struct anonymous_7 *)NULL)))
     cu->connFd = connFd;
 
 }
 
 // ConnectUser_set_connectTime
 // file connect_user_struct.c line 162
-void ConnectUser_set_connectTime(struct anonymous$7 *cu, signed long int connectTime)
+void ConnectUser_set_connectTime(struct anonymous_7 *cu, signed long int connectTime)
 {
-  if(!(cu == ((struct anonymous$7 *)NULL)))
+  if(!(cu == ((struct anonymous_7 *)NULL)))
     cu->connectTime = connectTime;
 
 }
 
 // ConnectUser_set_nameBuf
 // file connect_user_struct.h line 52
-void ConnectUser_set_nameBuf(struct anonymous$7 *cu, char *nameBuf)
+void ConnectUser_set_nameBuf(struct anonymous_7 *cu, char *nameBuf)
 {
-  if(!(cu == ((struct anonymous$7 *)NULL)))
+  if(!(cu == ((struct anonymous_7 *)NULL)))
   {
     memset((void *)cu->nameBuf, 0, (unsigned long int)128);
     __builtin_strncpy(cu->nameBuf, nameBuf, (unsigned long int)127);
@@ -7055,9 +7055,9 @@ void ConnectUser_set_nameBuf(struct anonymous$7 *cu, char *nameBuf)
 
 // ConnectUser_set_portBuf
 // file connect_user_struct.h line 53
-void ConnectUser_set_portBuf(struct anonymous$7 *cu, char *portBuf)
+void ConnectUser_set_portBuf(struct anonymous_7 *cu, char *portBuf)
 {
-  if(!(cu == ((struct anonymous$7 *)NULL)))
+  if(!(cu == ((struct anonymous_7 *)NULL)))
   {
     memset((void *)cu->portBuf, 0, (unsigned long int)7);
     __builtin_strncpy(cu->portBuf, portBuf, (unsigned long int)6);
@@ -7067,19 +7067,19 @@ void ConnectUser_set_portBuf(struct anonymous$7 *cu, char *portBuf)
 
 // ConnectUser_set_state
 // file connect_user_struct.h line 47
-void ConnectUser_set_state(struct anonymous$7 *cu, char state)
+void ConnectUser_set_state(struct anonymous_7 *cu, char state)
 {
-  if(!(cu == ((struct anonymous$7 *)NULL)))
+  if(!(cu == ((struct anonymous_7 *)NULL)))
     cu->state = state;
 
 }
 
 // ConnectUser_set_stats
 // file connect_user_struct.c line 235
-void ConnectUser_set_stats(struct anonymous$7 *cu, struct anonymous$14 *stats)
+void ConnectUser_set_stats(struct anonymous_7 *cu, struct anonymous_14 *stats)
 {
-  struct anonymous$14 *ustmp;
-  if(!(cu == ((struct anonymous$7 *)NULL)))
+  struct anonymous_14 *ustmp;
+  if(!(cu == ((struct anonymous_7 *)NULL)))
   {
     ustmp=ConnectUser_get_stats(cu);
     UserStats_free(&ustmp);
@@ -7090,32 +7090,32 @@ void ConnectUser_set_stats(struct anonymous$7 *cu, struct anonymous$14 *stats)
 
 // ConnectUser_set_userId
 // file connect_user_struct.c line 145
-void ConnectUser_set_userId(struct anonymous$7 *cu, signed int userId)
+void ConnectUser_set_userId(struct anonymous_7 *cu, signed int userId)
 {
-  if(!(cu == ((struct anonymous$7 *)NULL)))
+  if(!(cu == ((struct anonymous_7 *)NULL)))
     cu->userId = userId;
 
 }
 
 // ConnectUser_set_whatClient
 // file connect_user_struct.c line 128
-void ConnectUser_set_whatClient(struct anonymous$7 *cu, signed int whatClient)
+void ConnectUser_set_whatClient(struct anonymous_7 *cu, signed int whatClient)
 {
-  if(!(cu == ((struct anonymous$7 *)NULL)))
+  if(!(cu == ((struct anonymous_7 *)NULL)))
     cu->whatClient = whatClient;
 
 }
 
 // HeaderBuffer_free
 // file header_buffer_struct.c line 53
-void HeaderBuffer_free(struct anonymous$2 **hb)
+void HeaderBuffer_free(struct anonymous_2 **hb)
 {
-  if(!(hb == ((struct anonymous$2 **)NULL)))
+  if(!(hb == ((struct anonymous_2 **)NULL)))
   {
-    if(!(*hb == ((struct anonymous$2 *)NULL)))
+    if(!(*hb == ((struct anonymous_2 *)NULL)))
     {
       free((void *)*hb);
-      *hb = (struct anonymous$2 *)(void *)0;
+      *hb = (struct anonymous_2 *)(void *)0;
     }
 
   }
@@ -7124,14 +7124,14 @@ void HeaderBuffer_free(struct anonymous$2 **hb)
 
 // HeaderBuffer_new
 // file header_buffer_struct.c line 36
-struct anonymous$2 * HeaderBuffer_new()
+struct anonymous_2 * HeaderBuffer_new()
 {
-  struct anonymous$2 *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$2) /*12ul*/ );
-  tmp = (struct anonymous$2 *)return_value_calloc$1;
-  if(tmp == ((struct anonymous$2 *)NULL))
-    return (struct anonymous$2 *)(void *)0;
+  struct anonymous_2 *tmp;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_2) /*12ul*/ );
+  tmp = (struct anonymous_2 *)return_value_calloc_1;
+  if(tmp == ((struct anonymous_2 *)NULL))
+    return (struct anonymous_2 *)(void *)0;
 
   else
     return tmp;
@@ -7139,9 +7139,9 @@ struct anonymous$2 * HeaderBuffer_new()
 
 // HeaderBuffer_restore
 // file header_buffer_struct.c line 119
-void HeaderBuffer_restore(struct anonymous$2 *hb, unsigned char *buff)
+void HeaderBuffer_restore(struct anonymous_2 *hb, unsigned char *buff)
 {
-  if(!(hb == ((struct anonymous$2 *)NULL)))
+  if(!(hb == ((struct anonymous_2 *)NULL)))
   {
     memcpy((void *)buff, (const void *)hb->tab, (unsigned long int)5);
     hb->readed = 0;
@@ -7151,9 +7151,9 @@ void HeaderBuffer_restore(struct anonymous$2 *hb, unsigned char *buff)
 
 // HeaderBuffer_store
 // file header_buffer_struct.c line 93
-void HeaderBuffer_store(struct anonymous$2 *hb, unsigned char *buff, signed int n)
+void HeaderBuffer_store(struct anonymous_2 *hb, unsigned char *buff, signed int n)
 {
-  if(!(hb == ((struct anonymous$2 *)NULL)))
+  if(!(hb == ((struct anonymous_2 *)NULL)))
   {
     if(!(hb->readed + n >= 6))
     {
@@ -7171,9 +7171,9 @@ void HeaderBuffer_store(struct anonymous$2 *hb, unsigned char *buff, signed int 
 
 // HeaderBuffer_to_read
 // file header_buffer_struct.c line 75
-signed int HeaderBuffer_to_read(struct anonymous$2 *hb)
+signed int HeaderBuffer_to_read(struct anonymous_2 *hb)
 {
-  if(hb == ((struct anonymous$2 *)NULL))
+  if(hb == ((struct anonymous_2 *)NULL))
     return -1;
 
   else
@@ -7274,9 +7274,9 @@ char HttpProxyOptions_is_https(struct anonymous *hpo)
 struct anonymous * HttpProxyOptions_new()
 {
   struct anonymous *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous) /*32ul*/ );
-  tmp = (struct anonymous *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous) /*32ul*/ );
+  tmp = (struct anonymous *)return_value_calloc_1;
   if(tmp == ((struct anonymous *)NULL))
     return (struct anonymous *)(void *)0;
 
@@ -7340,11 +7340,11 @@ void HttpProxyOptions_use_https(struct anonymous *hpo)
 
 // Module_free
 // file module_struct.c line 56
-void Module_free(struct anonymous$6 **m)
+void Module_free(struct anonymous_6 **m)
 {
-  if(!(m == ((struct anonymous$6 **)NULL)))
+  if(!(m == ((struct anonymous_6 **)NULL)))
   {
-    if(!(*m == ((struct anonymous$6 *)NULL)))
+    if(!(*m == ((struct anonymous_6 *)NULL)))
     {
       Module_releaseModule(*m);
       if(!((*m)->fileName == ((char *)NULL)))
@@ -7354,7 +7354,7 @@ void Module_free(struct anonymous$6 **m)
       }
 
       free((void *)*m);
-      *m = (struct anonymous$6 *)(void *)0;
+      *m = (struct anonymous_6 *)(void *)0;
     }
 
   }
@@ -7363,11 +7363,11 @@ void Module_free(struct anonymous$6 **m)
 
 // Module_function_allow
 // file module_struct.h line 50
-signed int Module_function_allow(struct anonymous$6 *m, char *host, char *port)
+signed int Module_function_allow(struct anonymous_6 *m, char *host, char *port)
 {
-  signed int return_value_Module_isModuleLoaded$1;
-  return_value_Module_isModuleLoaded$1=Module_isModuleLoaded(m);
-  if(return_value_Module_isModuleLoaded$1 == 0)
+  signed int return_value_Module_isModuleLoaded_1;
+  return_value_Module_isModuleLoaded_1=Module_isModuleLoaded(m);
+  if(return_value_Module_isModuleLoaded_1 == 0)
     return 0;
 
   else
@@ -7380,11 +7380,11 @@ signed int Module_function_allow(struct anonymous$6 *m, char *host, char *port)
 
 // Module_function_filter
 // file module_struct.h line 51
-signed int Module_function_filter(struct anonymous$6 *m, char *host, unsigned char *message, signed int *messageLength)
+signed int Module_function_filter(struct anonymous_6 *m, char *host, unsigned char *message, signed int *messageLength)
 {
-  signed int return_value_Module_isModuleLoaded$1;
-  return_value_Module_isModuleLoaded$1=Module_isModuleLoaded(m);
-  if(return_value_Module_isModuleLoaded$1 == 0)
+  signed int return_value_Module_isModuleLoaded_1;
+  return_value_Module_isModuleLoaded_1=Module_isModuleLoaded(m);
+  if(return_value_Module_isModuleLoaded_1 == 0)
     return 0;
 
   else
@@ -7397,11 +7397,11 @@ signed int Module_function_filter(struct anonymous$6 *m, char *host, unsigned ch
 
 // Module_function_info
 // file module_struct.h line 49
-char * Module_function_info(struct anonymous$6 *m)
+char * Module_function_info(struct anonymous_6 *m)
 {
-  signed int return_value_Module_isModuleLoaded$1;
-  return_value_Module_isModuleLoaded$1=Module_isModuleLoaded(m);
-  if(return_value_Module_isModuleLoaded$1 == 0)
+  signed int return_value_Module_isModuleLoaded_1;
+  return_value_Module_isModuleLoaded_1=Module_isModuleLoaded(m);
+  if(return_value_Module_isModuleLoaded_1 == 0)
     return (char *)(void *)0;
 
   else
@@ -7414,9 +7414,9 @@ char * Module_function_info(struct anonymous$6 *m)
 
 // Module_get_fileName
 // file module_struct.h line 44
-char * Module_get_fileName(struct anonymous$6 *m)
+char * Module_get_fileName(struct anonymous_6 *m)
 {
-  if(m == ((struct anonymous$6 *)NULL))
+  if(m == ((struct anonymous_6 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -7425,9 +7425,9 @@ char * Module_get_fileName(struct anonymous$6 *m)
 
 // Module_isModuleLoaded
 // file module_struct.h line 48
-signed int Module_isModuleLoaded(struct anonymous$6 *m)
+signed int Module_isModuleLoaded(struct anonymous_6 *m)
 {
-  if(m == ((struct anonymous$6 *)NULL))
+  if(m == ((struct anonymous_6 *)NULL))
     return 0;
 
   else
@@ -7436,15 +7436,15 @@ signed int Module_isModuleLoaded(struct anonymous$6 *m)
 
 // Module_loadModule
 // file module_struct.h line 46
-signed int Module_loadModule(struct anonymous$6 *m)
+signed int Module_loadModule(struct anonymous_6 *m)
 {
-  char *return_value_Module_get_fileName$3;
-  return_value_Module_get_fileName$3=Module_get_fileName(m);
-  if(!(return_value_Module_get_fileName$3 == ((char *)NULL)))
+  char *return_value_Module_get_fileName_3;
+  return_value_Module_get_fileName_3=Module_get_fileName(m);
+  if(!(return_value_Module_get_fileName_3 == ((char *)NULL)))
   {
-    char *return_value_Module_get_fileName$1;
-    return_value_Module_get_fileName$1=Module_get_fileName(m);
-    m->handle=dlopen(return_value_Module_get_fileName$1, 0x00002);
+    char *return_value_Module_get_fileName_1;
+    return_value_Module_get_fileName_1=Module_get_fileName(m);
+    m->handle=dlopen(return_value_Module_get_fileName_1, 0x00002);
     if(m->handle == NULL)
       return 1;
 
@@ -7452,9 +7452,9 @@ signed int Module_loadModule(struct anonymous$6 *m)
     *((void **)&m->info)=dlsym(m->handle, "info");
     *((void **)&m->allow)=dlsym(m->handle, "allow");
     *((void **)&m->filter)=dlsym(m->handle, "filter");
-    char *return_value_dlerror$2;
-    return_value_dlerror$2=dlerror();
-    if(!(return_value_dlerror$2 == ((char *)NULL)))
+    char *return_value_dlerror_2;
+    return_value_dlerror_2=dlerror();
+    if(!(return_value_dlerror_2 == ((char *)NULL)))
       return 2;
 
     m->loaded = (char)1;
@@ -7465,14 +7465,14 @@ signed int Module_loadModule(struct anonymous$6 *m)
 
 // Module_new
 // file module_struct.h line 38
-struct anonymous$6 * Module_new()
+struct anonymous_6 * Module_new()
 {
-  struct anonymous$6 *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$6) /*48ul*/ );
-  tmp = (struct anonymous$6 *)return_value_calloc$1;
-  if(tmp == ((struct anonymous$6 *)NULL))
-    return (struct anonymous$6 *)(void *)0;
+  struct anonymous_6 *tmp;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_6) /*48ul*/ );
+  tmp = (struct anonymous_6 *)return_value_calloc_1;
+  if(tmp == ((struct anonymous_6 *)NULL))
+    return (struct anonymous_6 *)(void *)0;
 
   else
     return tmp;
@@ -7480,19 +7480,19 @@ struct anonymous$6 * Module_new()
 
 // Module_releaseModule
 // file module_struct.h line 47
-signed int Module_releaseModule(struct anonymous$6 *m)
+signed int Module_releaseModule(struct anonymous_6 *m)
 {
-  signed int return_value_Module_isModuleLoaded$2;
-  return_value_Module_isModuleLoaded$2=Module_isModuleLoaded(m);
-  if(!(return_value_Module_isModuleLoaded$2 == 0))
+  signed int return_value_Module_isModuleLoaded_2;
+  return_value_Module_isModuleLoaded_2=Module_isModuleLoaded(m);
+  if(!(return_value_Module_isModuleLoaded_2 == 0))
   {
     m->loaded = (char)0;
     m->info = (char * (*)(void))(void *)0;
     m->allow = (signed int (*)(char *, char *))(void *)0;
     m->filter = (signed int (*)(char *, unsigned char *, signed int *))(void *)0;
-    signed int return_value_dlclose$1;
-    return_value_dlclose$1=dlclose(m->handle);
-    return return_value_dlclose$1;
+    signed int return_value_dlclose_1;
+    return_value_dlclose_1=dlclose(m->handle);
+    return return_value_dlclose_1;
   }
 
   return 0;
@@ -7500,9 +7500,9 @@ signed int Module_releaseModule(struct anonymous$6 *m)
 
 // Module_set_fileName
 // file module_struct.h line 42
-void Module_set_fileName(struct anonymous$6 *m, char *fileName)
+void Module_set_fileName(struct anonymous_6 *m, char *fileName)
 {
-  if(!(m == ((struct anonymous$6 *)NULL)))
+  if(!(m == ((struct anonymous_6 *)NULL)))
     string_cp(&m->fileName, fileName);
 
 }
@@ -7556,9 +7556,9 @@ char * PortListNode_get_portName(struct plnode *pln)
 struct plnode * PortListNode_new(char *portName)
 {
   struct plnode *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct plnode) /*16ul*/ );
-  tmp = (struct plnode *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct plnode) /*16ul*/ );
+  tmp = (struct plnode *)return_value_calloc_1;
   if(tmp == ((struct plnode *)NULL))
     return (struct plnode *)(void *)0;
 
@@ -7690,9 +7690,9 @@ void PortList_insert_back(struct portlist *pl, struct plnode *pln)
 struct portlist * PortList_new()
 {
   struct portlist *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct portlist) /*24ul*/ );
-  tmp = (struct portlist *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct portlist) /*24ul*/ );
+  tmp = (struct portlist *)return_value_calloc_1;
   if(tmp == ((struct portlist *)NULL))
     return (struct portlist *)(void *)0;
 
@@ -7718,9 +7718,9 @@ signed int SSL_readn(struct ssl_st *fd, unsigned char *buf, signed int amount)
 
     if(n == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 11))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 11))
         return 0;
 
     }
@@ -7744,9 +7744,9 @@ signed int SSL_writen(struct ssl_st *fd, unsigned char *buf, signed int amount)
 
     if(n == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 11))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 11))
         return 0;
 
     }
@@ -7757,11 +7757,11 @@ signed int SSL_writen(struct ssl_st *fd, unsigned char *buf, signed int amount)
 
 // SslFd_free
 // file ssl_fd_struct.c line 54
-void SslFd_free(struct anonymous$0 **sf)
+void SslFd_free(struct anonymous_0 **sf)
 {
-  if(!(sf == ((struct anonymous$0 **)NULL)))
+  if(!(sf == ((struct anonymous_0 **)NULL)))
   {
-    if(!(*sf == ((struct anonymous$0 *)NULL)))
+    if(!(*sf == ((struct anonymous_0 *)NULL)))
     {
       if(!((*sf)->ssl == ((struct ssl_st *)NULL)))
       {
@@ -7770,7 +7770,7 @@ void SslFd_free(struct anonymous$0 **sf)
       }
 
       free((void *)*sf);
-      *sf = (struct anonymous$0 *)(void *)0;
+      *sf = (struct anonymous_0 *)(void *)0;
     }
 
   }
@@ -7779,9 +7779,9 @@ void SslFd_free(struct anonymous$0 **sf)
 
 // SslFd_get_fd
 // file ssl_fd_struct.h line 41
-signed int SslFd_get_fd(struct anonymous$0 *sf)
+signed int SslFd_get_fd(struct anonymous_0 *sf)
 {
-  if(sf == ((struct anonymous$0 *)NULL))
+  if(sf == ((struct anonymous_0 *)NULL))
     return -1;
 
   else
@@ -7790,11 +7790,11 @@ signed int SslFd_get_fd(struct anonymous$0 *sf)
 
 // SslFd_get_message
 // file ssl_fd_struct.h line 45
-signed int SslFd_get_message(char type, struct anonymous$0 *sf, unsigned char *buf, signed int amount)
+signed int SslFd_get_message(char type, struct anonymous_0 *sf, unsigned char *buf, signed int amount)
 {
   signed int length;
   unsigned long int elen;
-  if(sf == ((struct anonymous$0 *)NULL) || buf == ((unsigned char *)NULL))
+  if(sf == ((struct anonymous_0 *)NULL) || buf == ((unsigned char *)NULL))
     return -1;
 
   else
@@ -7804,16 +7804,16 @@ signed int SslFd_get_message(char type, struct anonymous$0 *sf, unsigned char *b
     {
       if(!((4 & (signed int)type) == 0))
       {
-        signed int return_value_SSL_read$1;
-        return_value_SSL_read$1=SSL_read(sf->ssl, (void *)buf, -amount);
-        return return_value_SSL_read$1;
+        signed int return_value_SSL_read_1;
+        return_value_SSL_read_1=SSL_read(sf->ssl, (void *)buf, -amount);
+        return return_value_SSL_read_1;
       }
 
       else
       {
-        signed long int return_value_read$2;
-        return_value_read$2=read(sf->fd, (void *)buf, (unsigned long int)-amount);
-        return (signed int)return_value_read$2;
+        signed long int return_value_read_2;
+        return_value_read_2=read(sf->fd, (void *)buf, (unsigned long int)-amount);
+        return (signed int)return_value_read_2;
       }
     }
 
@@ -7843,25 +7843,25 @@ signed int SslFd_get_message(char type, struct anonymous$0 *sf, unsigned char *b
     else
       if(!((4 & (signed int)type) == 0))
       {
-        signed int return_value_SSL_readn$3;
-        return_value_SSL_readn$3=SSL_readn(sf->ssl, buf, amount);
-        return return_value_SSL_readn$3;
+        signed int return_value_SSL_readn_3;
+        return_value_SSL_readn_3=SSL_readn(sf->ssl, buf, amount);
+        return return_value_SSL_readn_3;
       }
 
       else
       {
-        signed int return_value_readn$4;
-        return_value_readn$4=readn(sf->fd, buf, amount);
-        return return_value_readn$4;
+        signed int return_value_readn_4;
+        return_value_readn_4=readn(sf->fd, buf, amount);
+        return return_value_readn_4;
       }
   }
 }
 
 // SslFd_get_ssl
 // file ssl_fd_struct.h line 42
-struct ssl_st * SslFd_get_ssl(struct anonymous$0 *sf)
+struct ssl_st * SslFd_get_ssl(struct anonymous_0 *sf)
 {
-  if(sf == ((struct anonymous$0 *)NULL))
+  if(sf == ((struct anonymous_0 *)NULL))
     return (struct ssl_st *)(void *)0;
 
   else
@@ -7870,14 +7870,14 @@ struct ssl_st * SslFd_get_ssl(struct anonymous$0 *sf)
 
 // SslFd_new
 // file ssl_fd_struct.h line 33
-struct anonymous$0 * SslFd_new()
+struct anonymous_0 * SslFd_new()
 {
-  struct anonymous$0 *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$0) /*16ul*/ );
-  tmp = (struct anonymous$0 *)return_value_calloc$1;
-  if(tmp == ((struct anonymous$0 *)NULL))
-    return (struct anonymous$0 *)(void *)0;
+  struct anonymous_0 *tmp;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_0) /*16ul*/ );
+  tmp = (struct anonymous_0 *)return_value_calloc_1;
+  if(tmp == ((struct anonymous_0 *)NULL))
+    return (struct anonymous_0 *)(void *)0;
 
   else
     return tmp;
@@ -7885,11 +7885,11 @@ struct anonymous$0 * SslFd_new()
 
 // SslFd_send_message
 // file ssl_fd_struct.h line 44
-signed int SslFd_send_message(char type, struct anonymous$0 *sf, unsigned char *buf, signed int amount)
+signed int SslFd_send_message(char type, struct anonymous_0 *sf, unsigned char *buf, signed int amount)
 {
   unsigned long int clen;
   signed int length;
-  if(sf == ((struct anonymous$0 *)NULL) || buf == ((unsigned char *)NULL))
+  if(sf == ((struct anonymous_0 *)NULL) || buf == ((unsigned char *)NULL))
     return -1;
 
   else
@@ -7919,73 +7919,73 @@ signed int SslFd_send_message(char type, struct anonymous$0 *sf, unsigned char *
       {
         if(!((0x4000 & length) == 0))
         {
-          signed int return_value_SSL_writen$1;
-          return_value_SSL_writen$1=SSL_writen(sf->ssl, buffer, (signed int)(clen + (unsigned long int)5));
-          return return_value_SSL_writen$1;
+          signed int return_value_SSL_writen_1;
+          return_value_SSL_writen_1=SSL_writen(sf->ssl, buffer, (signed int)(clen + (unsigned long int)5));
+          return return_value_SSL_writen_1;
         }
 
         else
         {
-          signed int return_value_SSL_writen$2;
-          return_value_SSL_writen$2=SSL_writen(sf->ssl, buf, amount);
-          return return_value_SSL_writen$2;
+          signed int return_value_SSL_writen_2;
+          return_value_SSL_writen_2=SSL_writen(sf->ssl, buf, amount);
+          return return_value_SSL_writen_2;
         }
       }
 
       else
         if(!((0x4000 & length) == 0))
         {
-          signed int return_value_writen$3;
-          return_value_writen$3=writen(sf->fd, buffer, (signed int)(clen + (unsigned long int)5));
-          return return_value_writen$3;
+          signed int return_value_writen_3;
+          return_value_writen_3=writen(sf->fd, buffer, (signed int)(clen + (unsigned long int)5));
+          return return_value_writen_3;
         }
 
         else
         {
-          signed int return_value_writen$4;
-          return_value_writen$4=writen(sf->fd, buf, amount);
-          return return_value_writen$4;
+          signed int return_value_writen_4;
+          return_value_writen_4=writen(sf->fd, buf, amount);
+          return return_value_writen_4;
         }
     }
 
     else
       if(!((4 & (signed int)type) == 0))
       {
-        signed int return_value_SSL_writen$5;
-        return_value_SSL_writen$5=SSL_writen(sf->ssl, buf, amount);
-        return return_value_SSL_writen$5;
+        signed int return_value_SSL_writen_5;
+        return_value_SSL_writen_5=SSL_writen(sf->ssl, buf, amount);
+        return return_value_SSL_writen_5;
       }
 
       else
       {
-        signed int return_value_writen$6;
-        return_value_writen$6=writen(sf->fd, buf, amount);
-        return return_value_writen$6;
+        signed int return_value_writen_6;
+        return_value_writen_6=writen(sf->fd, buf, amount);
+        return return_value_writen_6;
       }
   }
 }
 
 // SslFd_set_fd
 // file ssl_fd_struct.h line 37
-void SslFd_set_fd(struct anonymous$0 *sf, signed int fd)
+void SslFd_set_fd(struct anonymous_0 *sf, signed int fd)
 {
-  if(!(sf == ((struct anonymous$0 *)NULL)))
+  if(!(sf == ((struct anonymous_0 *)NULL)))
     sf->fd = fd;
 
 }
 
 // SslFd_set_ssl
 // file ssl_fd_struct.h line 38
-void SslFd_set_ssl(struct anonymous$0 *sf, struct ssl_st *ssl)
+void SslFd_set_ssl(struct anonymous_0 *sf, struct ssl_st *ssl)
 {
   SslFd_set_ssl_general(sf, ssl, 1);
 }
 
 // SslFd_set_ssl_general
 // file ssl_fd_struct.c line 98
-void SslFd_set_ssl_general(struct anonymous$0 *sf, struct ssl_st *ssl, signed int free)
+void SslFd_set_ssl_general(struct anonymous_0 *sf, struct ssl_st *ssl, signed int free)
 {
-  if(!(sf == ((struct anonymous$0 *)NULL)))
+  if(!(sf == ((struct anonymous_0 *)NULL)))
   {
     if(!(free == 0))
     {
@@ -8001,35 +8001,35 @@ void SslFd_set_ssl_general(struct anonymous$0 *sf, struct ssl_st *ssl, signed in
 
 // SslFd_set_ssl_nf
 // file ssl_fd_struct.c line 132
-void SslFd_set_ssl_nf(struct anonymous$0 *sf, struct ssl_st *ssl)
+void SslFd_set_ssl_nf(struct anonymous_0 *sf, struct ssl_st *ssl)
 {
   SslFd_set_ssl_general(sf, ssl, 0);
 }
 
 // SslFd_swap_content
 // file ssl_fd_struct.c line 315
-void SslFd_swap_content(struct anonymous$0 *sf1, struct anonymous$0 *sf2)
+void SslFd_swap_content(struct anonymous_0 *sf1, struct anonymous_0 *sf2)
 {
   signed int tmpfd;
   struct ssl_st *tmpssl;
   tmpfd=SslFd_get_fd(sf1);
   tmpssl=SslFd_get_ssl(sf2);
-  signed int return_value_SslFd_get_fd$1;
-  return_value_SslFd_get_fd$1=SslFd_get_fd(sf2);
-  SslFd_set_fd(sf1, return_value_SslFd_get_fd$1);
-  struct ssl_st *return_value_SslFd_get_ssl$2;
-  return_value_SslFd_get_ssl$2=SslFd_get_ssl(sf2);
-  SslFd_set_ssl(sf1, return_value_SslFd_get_ssl$2);
+  signed int return_value_SslFd_get_fd_1;
+  return_value_SslFd_get_fd_1=SslFd_get_fd(sf2);
+  SslFd_set_fd(sf1, return_value_SslFd_get_fd_1);
+  struct ssl_st *return_value_SslFd_get_ssl_2;
+  return_value_SslFd_get_ssl_2=SslFd_get_ssl(sf2);
+  SslFd_set_ssl(sf1, return_value_SslFd_get_ssl_2);
   SslFd_set_fd(sf2, tmpfd);
   SslFd_set_ssl(sf2, tmpssl);
 }
 
 // UserStats_add_download
 // file user_stats_struct.c line 178
-void UserStats_add_download(struct anonymous$14 *us, signed int bytes)
+void UserStats_add_download(struct anonymous_14 *us, signed int bytes)
 {
   signed long int now;
-  if(!(us == ((struct anonymous$14 *)NULL)))
+  if(!(us == ((struct anonymous_14 *)NULL)))
   {
     time(&now);
     switch(now - us->lastDSQChange)
@@ -8067,10 +8067,10 @@ void UserStats_add_download(struct anonymous$14 *us, signed int bytes)
 
 // UserStats_add_upload
 // file user_stats_struct.c line 231
-void UserStats_add_upload(struct anonymous$14 *us, signed int bytes)
+void UserStats_add_upload(struct anonymous_14 *us, signed int bytes)
 {
   signed long int now;
-  if(!(us == ((struct anonymous$14 *)NULL)))
+  if(!(us == ((struct anonymous_14 *)NULL)))
   {
     time(&now);
     switch(now - us->lastUSQChange)
@@ -8108,9 +8108,9 @@ void UserStats_add_upload(struct anonymous$14 *us, signed int bytes)
 
 // UserStats_clear
 // file user_stats_struct.c line 376
-void UserStats_clear(struct anonymous$14 *us)
+void UserStats_clear(struct anonymous_14 *us)
 {
-  if(!(us == ((struct anonymous$14 *)NULL)))
+  if(!(us == ((struct anonymous_14 *)NULL)))
   {
     us->lastActivity = (signed long int)0;
     us->lastUSQChange = (signed long int)0;
@@ -8131,14 +8131,14 @@ void UserStats_clear(struct anonymous$14 *us)
 
 // UserStats_free
 // file user_stats_struct.h line 42
-void UserStats_free(struct anonymous$14 **us)
+void UserStats_free(struct anonymous_14 **us)
 {
-  if(!(us == ((struct anonymous$14 **)NULL)))
+  if(!(us == ((struct anonymous_14 **)NULL)))
   {
-    if(!(*us == ((struct anonymous$14 *)NULL)))
+    if(!(*us == ((struct anonymous_14 *)NULL)))
     {
       free((void *)*us);
-      *us = (struct anonymous$14 *)(void *)0;
+      *us = (struct anonymous_14 *)(void *)0;
     }
 
   }
@@ -8147,10 +8147,10 @@ void UserStats_free(struct anonymous$14 **us)
 
 // UserStats_get_downloadSpeed
 // file user_stats_struct.c line 283
-double UserStats_get_downloadSpeed(struct anonymous$14 *us)
+double UserStats_get_downloadSpeed(struct anonymous_14 *us)
 {
   signed long int now;
-  if(us == ((struct anonymous$14 *)NULL))
+  if(us == ((struct anonymous_14 *)NULL))
     return 0.0;
 
   else
@@ -8185,9 +8185,9 @@ double UserStats_get_downloadSpeed(struct anonymous$14 *us)
 
 // UserStats_get_lastActivity
 // file user_stats_struct.c line 126
-signed long int UserStats_get_lastActivity(struct anonymous$14 *us)
+signed long int UserStats_get_lastActivity(struct anonymous_14 *us)
 {
-  if(us == ((struct anonymous$14 *)NULL))
+  if(us == ((struct anonymous_14 *)NULL))
     return (signed long int)0;
 
   else
@@ -8196,9 +8196,9 @@ signed long int UserStats_get_lastActivity(struct anonymous$14 *us)
 
 // UserStats_get_totalDownloadedBytes
 // file user_stats_struct.c line 143
-signed int UserStats_get_totalDownloadedBytes(struct anonymous$14 *us)
+signed int UserStats_get_totalDownloadedBytes(struct anonymous_14 *us)
 {
-  if(us == ((struct anonymous$14 *)NULL))
+  if(us == ((struct anonymous_14 *)NULL))
     return 0;
 
   else
@@ -8207,9 +8207,9 @@ signed int UserStats_get_totalDownloadedBytes(struct anonymous$14 *us)
 
 // UserStats_get_totalUploadedBytes
 // file user_stats_struct.c line 160
-signed int UserStats_get_totalUploadedBytes(struct anonymous$14 *us)
+signed int UserStats_get_totalUploadedBytes(struct anonymous_14 *us)
 {
-  if(us == ((struct anonymous$14 *)NULL))
+  if(us == ((struct anonymous_14 *)NULL))
     return 0;
 
   else
@@ -8218,10 +8218,10 @@ signed int UserStats_get_totalUploadedBytes(struct anonymous$14 *us)
 
 // UserStats_get_uploadSpeed
 // file user_stats_struct.c line 330
-double UserStats_get_uploadSpeed(struct anonymous$14 *us)
+double UserStats_get_uploadSpeed(struct anonymous_14 *us)
 {
   signed long int now;
-  if(us == ((struct anonymous$14 *)NULL))
+  if(us == ((struct anonymous_14 *)NULL))
     return 0.0;
 
   else
@@ -8256,14 +8256,14 @@ double UserStats_get_uploadSpeed(struct anonymous$14 *us)
 
 // UserStats_new
 // file user_stats_struct.h line 40
-struct anonymous$14 * UserStats_new()
+struct anonymous_14 * UserStats_new()
 {
-  struct anonymous$14 *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$14) /*64ul*/ );
-  tmp = (struct anonymous$14 *)return_value_calloc$1;
-  if(tmp == ((struct anonymous$14 *)NULL))
-    return (struct anonymous$14 *)(void *)0;
+  struct anonymous_14 *tmp;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_14) /*64ul*/ );
+  tmp = (struct anonymous_14 *)return_value_calloc_1;
+  if(tmp == ((struct anonymous_14 *)NULL))
+    return (struct anonymous_14 *)(void *)0;
 
   else
     return tmp;
@@ -8271,38 +8271,38 @@ struct anonymous$14 * UserStats_new()
 
 // UserStats_set_lastActivity
 // file user_stats_struct.c line 75
-void UserStats_set_lastActivity(struct anonymous$14 *us, signed long int lastActivity)
+void UserStats_set_lastActivity(struct anonymous_14 *us, signed long int lastActivity)
 {
-  if(!(us == ((struct anonymous$14 *)NULL)))
+  if(!(us == ((struct anonymous_14 *)NULL)))
     us->lastActivity = lastActivity;
 
 }
 
 // UserStats_set_totalDownloadedBytes
 // file user_stats_struct.c line 92
-void UserStats_set_totalDownloadedBytes(struct anonymous$14 *us, signed int totalDownloadedBytes)
+void UserStats_set_totalDownloadedBytes(struct anonymous_14 *us, signed int totalDownloadedBytes)
 {
-  if(!(us == ((struct anonymous$14 *)NULL)))
+  if(!(us == ((struct anonymous_14 *)NULL)))
     us->totalDownloadedBytes = totalDownloadedBytes;
 
 }
 
 // UserStats_set_totalUploadedBytes
 // file user_stats_struct.c line 109
-void UserStats_set_totalUploadedBytes(struct anonymous$14 *us, signed int totalUploadedBytes)
+void UserStats_set_totalUploadedBytes(struct anonymous_14 *us, signed int totalUploadedBytes)
 {
-  if(!(us == ((struct anonymous$14 *)NULL)))
+  if(!(us == ((struct anonymous_14 *)NULL)))
     us->totalUploadedBytes = totalUploadedBytes;
 
 }
 
 // UsrCli_free
 // file usr_cli_struct.c line 54
-void UsrCli_free(struct anonymous$1 **uc)
+void UsrCli_free(struct anonymous_1 **uc)
 {
-  if(!(uc == ((struct anonymous$1 **)NULL)))
+  if(!(uc == ((struct anonymous_1 **)NULL)))
   {
-    if(!(*uc == ((struct anonymous$1 *)NULL)))
+    if(!(*uc == ((struct anonymous_1 *)NULL)))
     {
       if(!((*uc)->listenPortName == ((char *)NULL)))
       {
@@ -8317,7 +8317,7 @@ void UsrCli_free(struct anonymous$1 **uc)
       }
 
       free((void *)*uc);
-      *uc = (struct anonymous$1 *)(void *)0;
+      *uc = (struct anonymous_1 *)(void *)0;
     }
 
   }
@@ -8326,9 +8326,9 @@ void UsrCli_free(struct anonymous$1 **uc)
 
 // UsrCli_get_listenFd
 // file usr_cli_struct.c line 224
-signed int UsrCli_get_listenFd(struct anonymous$1 *uc)
+signed int UsrCli_get_listenFd(struct anonymous_1 *uc)
 {
-  if(uc == ((struct anonymous$1 *)NULL))
+  if(uc == ((struct anonymous_1 *)NULL))
     return -1;
 
   else
@@ -8337,9 +8337,9 @@ signed int UsrCli_get_listenFd(struct anonymous$1 *uc)
 
 // UsrCli_get_listenHostName
 // file usr_cli_struct.c line 258
-char * UsrCli_get_listenHostName(struct anonymous$1 *uc)
+char * UsrCli_get_listenHostName(struct anonymous_1 *uc)
 {
-  if(uc == ((struct anonymous$1 *)NULL))
+  if(uc == ((struct anonymous_1 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -8348,9 +8348,9 @@ char * UsrCli_get_listenHostName(struct anonymous$1 *uc)
 
 // UsrCli_get_listenPortName
 // file usr_cli_struct.c line 190
-char * UsrCli_get_listenPortName(struct anonymous$1 *uc)
+char * UsrCli_get_listenPortName(struct anonymous_1 *uc)
 {
-  if(uc == ((struct anonymous$1 *)NULL))
+  if(uc == ((struct anonymous_1 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -8359,9 +8359,9 @@ char * UsrCli_get_listenPortName(struct anonymous$1 *uc)
 
 // UsrCli_get_manageFd
 // file usr_cli_struct.c line 241
-signed int UsrCli_get_manageFd(struct anonymous$1 *uc)
+signed int UsrCli_get_manageFd(struct anonymous_1 *uc)
 {
-  if(uc == ((struct anonymous$1 *)NULL))
+  if(uc == ((struct anonymous_1 *)NULL))
     return -1;
 
   else
@@ -8370,9 +8370,9 @@ signed int UsrCli_get_manageFd(struct anonymous$1 *uc)
 
 // UsrCli_get_manageHostName
 // file usr_cli_struct.c line 275
-char * UsrCli_get_manageHostName(struct anonymous$1 *uc)
+char * UsrCli_get_manageHostName(struct anonymous_1 *uc)
 {
-  if(uc == ((struct anonymous$1 *)NULL))
+  if(uc == ((struct anonymous_1 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -8381,9 +8381,9 @@ char * UsrCli_get_manageHostName(struct anonymous$1 *uc)
 
 // UsrCli_get_managePortName
 // file usr_cli_struct.c line 207
-char * UsrCli_get_managePortName(struct anonymous$1 *uc)
+char * UsrCli_get_managePortName(struct anonymous_1 *uc)
 {
-  if(uc == ((struct anonymous$1 *)NULL))
+  if(uc == ((struct anonymous_1 *)NULL))
     return (char *)(void *)0;
 
   else
@@ -8392,9 +8392,9 @@ char * UsrCli_get_managePortName(struct anonymous$1 *uc)
 
 // UsrCli_get_number
 // file usr_cli_struct.c line 292
-signed int UsrCli_get_number(struct anonymous$1 *uc)
+signed int UsrCli_get_number(struct anonymous_1 *uc)
 {
-  if(uc == ((struct anonymous$1 *)NULL))
+  if(uc == ((struct anonymous_1 *)NULL))
     return -1;
 
   else
@@ -8403,14 +8403,14 @@ signed int UsrCli_get_number(struct anonymous$1 *uc)
 
 // UsrCli_new
 // file usr_cli_struct.c line 37
-struct anonymous$1 * UsrCli_new()
+struct anonymous_1 * UsrCli_new()
 {
-  struct anonymous$1 *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$1) /*48ul*/ );
-  tmp = (struct anonymous$1 *)return_value_calloc$1;
-  if(tmp == ((struct anonymous$1 *)NULL))
-    return (struct anonymous$1 *)(void *)0;
+  struct anonymous_1 *tmp;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_1) /*48ul*/ );
+  tmp = (struct anonymous_1 *)return_value_calloc_1;
+  if(tmp == ((struct anonymous_1 *)NULL))
+    return (struct anonymous_1 *)(void *)0;
 
   else
     return tmp;
@@ -8418,19 +8418,19 @@ struct anonymous$1 * UsrCli_new()
 
 // UsrCli_set_listenFd
 // file usr_cli_struct.c line 139
-void UsrCli_set_listenFd(struct anonymous$1 *uc, signed int listenFd)
+void UsrCli_set_listenFd(struct anonymous_1 *uc, signed int listenFd)
 {
-  if(!(uc == ((struct anonymous$1 *)NULL)))
+  if(!(uc == ((struct anonymous_1 *)NULL)))
     uc->listenFd = listenFd;
 
 }
 
 // UsrCli_set_listenPortName
 // file usr_cli_struct.c line 83
-void UsrCli_set_listenPortName(struct anonymous$1 *uc, char *listenPortName)
+void UsrCli_set_listenPortName(struct anonymous_1 *uc, char *listenPortName)
 {
   char *tmp;
-  if(!(uc == ((struct anonymous$1 *)NULL)))
+  if(!(uc == ((struct anonymous_1 *)NULL)))
   {
     tmp=rindex(listenPortName, 58);
     if(!(tmp == ((char *)NULL)))
@@ -8449,19 +8449,19 @@ void UsrCli_set_listenPortName(struct anonymous$1 *uc, char *listenPortName)
 
 // UsrCli_set_manageFd
 // file usr_cli_struct.c line 156
-void UsrCli_set_manageFd(struct anonymous$1 *uc, signed int manageFd)
+void UsrCli_set_manageFd(struct anonymous_1 *uc, signed int manageFd)
 {
-  if(!(uc == ((struct anonymous$1 *)NULL)))
+  if(!(uc == ((struct anonymous_1 *)NULL)))
     uc->manageFd = manageFd;
 
 }
 
 // UsrCli_set_managePortName
 // file usr_cli_struct.c line 111
-void UsrCli_set_managePortName(struct anonymous$1 *uc, char *managePortName)
+void UsrCli_set_managePortName(struct anonymous_1 *uc, char *managePortName)
 {
   char *tmp;
-  if(!(uc == ((struct anonymous$1 *)NULL)))
+  if(!(uc == ((struct anonymous_1 *)NULL)))
   {
     tmp=rindex(managePortName, 58);
     if(!(tmp == ((char *)NULL)))
@@ -8480,9 +8480,9 @@ void UsrCli_set_managePortName(struct anonymous$1 *uc, char *managePortName)
 
 // UsrCli_set_number
 // file usr_cli_struct.c line 173
-void UsrCli_set_number(struct anonymous$1 *uc, signed int number)
+void UsrCli_set_number(struct anonymous_1 *uc, signed int number)
 {
-  if(!(uc == ((struct anonymous$1 *)NULL)))
+  if(!(uc == ((struct anonymous_1 *)NULL)))
     uc->number = number;
 
 }
@@ -8491,18 +8491,18 @@ void UsrCli_set_number(struct anonymous$1 *uc, signed int number)
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1)
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1)
 {
-  signed long int return_value___builtin_bswap32$1$link1;
-  return_value___builtin_bswap32$1$link1=__builtin_bswap32((signed long int)__bsx$link1);
-  return (unsigned int)return_value___builtin_bswap32$1$link1;
+  signed long int return_value___builtin_bswap32_1_link1;
+  return_value___builtin_bswap32_1_link1=__builtin_bswap32((signed long int)__bsx_link1);
+  return (unsigned int)return_value___builtin_bswap32_1_link1;
 }
 
 // add_public_key
@@ -8524,9 +8524,9 @@ void add_public_key(char *filename, char *hostname, char *keyhash)
 void addlogtarget(char *cmdline)
 {
   struct llnode *newnode;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct llnode) /*32ul*/ );
-  newnode = (struct llnode *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct llnode) /*32ul*/ );
+  newnode = (struct llnode *)return_value_calloc_1;
   newnode->cmdline = cmdline;
   newnode->next = head;
   head = newnode;
@@ -8549,9 +8549,9 @@ void aflog(char type, char importance, const char *form, ...)
   {
     if(!((signed int)format[0l] == 0))
     {
-      char *return_value_datum$1;
-      return_value_datum$1=datum();
-      printf("[%s] ", return_value_datum$1);
+      char *return_value_datum_1;
+      return_value_datum_1=datum();
+      printf("[%s] ", return_value_datum_1);
     }
 
     ap = (void **)&form;
@@ -8568,9 +8568,9 @@ void aflog(char type, char importance, const char *form, ...)
       {
         if(!((signed int)format[0l] == 0))
         {
-          char *return_value_datum$2;
-          return_value_datum$2=datum();
-          fprintf(ptr->logfd, "[%s] ", return_value_datum$2);
+          char *return_value_datum_2;
+          return_value_datum_2=datum();
+          fprintf(ptr->logfd, "[%s] ", return_value_datum_2);
         }
 
         ap = (void **)&form;
@@ -8592,24 +8592,24 @@ signed int b64_ntop(const unsigned char *src, unsigned long int srclength, char 
   unsigned char input[3l];
   unsigned char output[4l];
   unsigned long int i;
-  const unsigned char *tmp_post$1;
-  const unsigned char *tmp_post$2;
-  const unsigned char *tmp_post$3;
-  unsigned long int tmp_post$4;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$6;
-  unsigned long int tmp_post$7;
-  for( ; srclength >= 3ul; target[(signed long int)tmp_post$7] = Base64[(signed long int)output[(signed long int)3]])
+  const unsigned char *tmp_post_1;
+  const unsigned char *tmp_post_2;
+  const unsigned char *tmp_post_3;
+  unsigned long int tmp_post_4;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_6;
+  unsigned long int tmp_post_7;
+  for( ; srclength >= 3ul; target[(signed long int)tmp_post_7] = Base64[(signed long int)output[(signed long int)3]])
   {
-    tmp_post$1 = src;
+    tmp_post_1 = src;
     src = src + 1l;
-    input[(signed long int)0] = *tmp_post$1;
-    tmp_post$2 = src;
+    input[(signed long int)0] = *tmp_post_1;
+    tmp_post_2 = src;
     src = src + 1l;
-    input[(signed long int)1] = *tmp_post$2;
-    tmp_post$3 = src;
+    input[(signed long int)1] = *tmp_post_2;
+    tmp_post_3 = src;
     src = src + 1l;
-    input[(signed long int)2] = *tmp_post$3;
+    input[(signed long int)2] = *tmp_post_3;
     srclength = srclength - (unsigned long int)3;
     output[(signed long int)0] = (unsigned char)((signed int)input[(signed long int)0] >> 2);
     output[(signed long int)1] = (unsigned char)((((signed int)input[(signed long int)0] & 0x03) << 4) + ((signed int)input[(signed long int)1] >> 4));
@@ -8630,24 +8630,24 @@ signed int b64_ntop(const unsigned char *src, unsigned long int srclength, char 
     if(!(targsize >= 4ul + datalength))
       return -1;
 
-    tmp_post$4 = datalength;
+    tmp_post_4 = datalength;
     datalength = datalength + 1ul;
-    target[(signed long int)tmp_post$4] = Base64[(signed long int)output[(signed long int)0]];
-    tmp_post$5 = datalength;
+    target[(signed long int)tmp_post_4] = Base64[(signed long int)output[(signed long int)0]];
+    tmp_post_5 = datalength;
     datalength = datalength + 1ul;
-    target[(signed long int)tmp_post$5] = Base64[(signed long int)output[(signed long int)1]];
-    tmp_post$6 = datalength;
+    target[(signed long int)tmp_post_5] = Base64[(signed long int)output[(signed long int)1]];
+    tmp_post_6 = datalength;
     datalength = datalength + 1ul;
-    target[(signed long int)tmp_post$6] = Base64[(signed long int)output[(signed long int)2]];
-    tmp_post$7 = datalength;
+    target[(signed long int)tmp_post_6] = Base64[(signed long int)output[(signed long int)2]];
+    tmp_post_7 = datalength;
     datalength = datalength + 1ul;
   }
-  const unsigned char *tmp_post$8;
-  unsigned long int tmp_post$9;
-  unsigned long int tmp_post$10;
-  unsigned long int tmp_post$11;
-  unsigned long int tmp_post$12;
-  unsigned long int tmp_post$13;
+  const unsigned char *tmp_post_8;
+  unsigned long int tmp_post_9;
+  unsigned long int tmp_post_10;
+  unsigned long int tmp_post_11;
+  unsigned long int tmp_post_12;
+  unsigned long int tmp_post_13;
   if(!(srclength == 0ul))
   {
     input[(signed long int)2] = (unsigned char)0;
@@ -8656,9 +8656,9 @@ signed int b64_ntop(const unsigned char *src, unsigned long int srclength, char 
     i = (unsigned long int)0;
     for( ; !(i >= srclength); i = i + 1ul)
     {
-      tmp_post$8 = src;
+      tmp_post_8 = src;
       src = src + 1l;
-      input[(signed long int)i] = *tmp_post$8;
+      input[(signed long int)i] = *tmp_post_8;
     }
     output[(signed long int)0] = (unsigned char)((signed int)input[(signed long int)0] >> 2);
     output[(signed long int)1] = (unsigned char)((((signed int)input[(signed long int)0] & 0x03) << 4) + ((signed int)input[(signed long int)1] >> 4));
@@ -8675,28 +8675,28 @@ signed int b64_ntop(const unsigned char *src, unsigned long int srclength, char 
     if(!(targsize >= 4ul + datalength))
       return -1;
 
-    tmp_post$9 = datalength;
+    tmp_post_9 = datalength;
     datalength = datalength + 1ul;
-    target[(signed long int)tmp_post$9] = Base64[(signed long int)output[(signed long int)0]];
-    tmp_post$10 = datalength;
+    target[(signed long int)tmp_post_9] = Base64[(signed long int)output[(signed long int)0]];
+    tmp_post_10 = datalength;
     datalength = datalength + 1ul;
-    target[(signed long int)tmp_post$10] = Base64[(signed long int)output[(signed long int)1]];
+    target[(signed long int)tmp_post_10] = Base64[(signed long int)output[(signed long int)1]];
     if(srclength == 1ul)
     {
-      tmp_post$11 = datalength;
+      tmp_post_11 = datalength;
       datalength = datalength + 1ul;
-      target[(signed long int)tmp_post$11] = Pad64;
+      target[(signed long int)tmp_post_11] = Pad64;
     }
 
     else
     {
-      tmp_post$12 = datalength;
+      tmp_post_12 = datalength;
       datalength = datalength + 1ul;
-      target[(signed long int)tmp_post$12] = Base64[(signed long int)output[(signed long int)2]];
+      target[(signed long int)tmp_post_12] = Base64[(signed long int)output[(signed long int)2]];
     }
-    tmp_post$13 = datalength;
+    tmp_post_13 = datalength;
     datalength = datalength + 1ul;
-    target[(signed long int)tmp_post$13] = Pad64;
+    target[(signed long int)tmp_post_13] = Pad64;
   }
 
   if(datalength >= targsize)
@@ -8719,25 +8719,25 @@ signed int b64_pton(const char *src, unsigned char *target, unsigned long int ta
   char *pos;
   state = 0;
   tarindex = 0;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   do
   {
-    tmp_post$1 = src;
+    tmp_post_1 = src;
     src = src + 1l;
-    ch = (signed int)*tmp_post$1;
+    ch = (signed int)*tmp_post_1;
     if(ch == 0)
       break;
 
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)ch]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)ch]) == 0)
     {
       if(ch == (signed int)Pad64)
         break;
 
-      char *return_value___builtin_strchr$3;
-      return_value___builtin_strchr$3=__builtin_strchr(Base64, ch);
-      pos = return_value___builtin_strchr$3;
+      char *return_value___builtin_strchr_3;
+      return_value___builtin_strchr_3=__builtin_strchr(Base64, ch);
+      pos = return_value___builtin_strchr_3;
       if(pos == ((char *)NULL))
         return -1;
 
@@ -8807,17 +8807,17 @@ signed int b64_pton(const char *src, unsigned char *target, unsigned long int ta
 
   }
   while((_Bool)1);
-  const char *tmp_post$4;
-  const unsigned short int **return_value___ctype_b_loc$6;
-  const char *tmp_post$5;
-  const char *tmp_post$7;
-  const unsigned short int **return_value___ctype_b_loc$9;
-  const char *tmp_post$8;
+  const char *tmp_post_4;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  const char *tmp_post_5;
+  const char *tmp_post_7;
+  const unsigned short int **return_value___ctype_b_loc_9;
+  const char *tmp_post_8;
   if(ch == (signed int)Pad64)
   {
-    tmp_post$4 = src;
+    tmp_post_4 = src;
     src = src + 1l;
-    ch = (signed int)*tmp_post$4;
+    ch = (signed int)*tmp_post_4;
     switch(state)
     {
       case 0:
@@ -8827,32 +8827,32 @@ signed int b64_pton(const char *src, unsigned char *target, unsigned long int ta
       case 2:
       {
         (void)(void *)0;
-        for( ; !(ch == 0); ch = (signed int)*tmp_post$5)
+        for( ; !(ch == 0); ch = (signed int)*tmp_post_5)
         {
-          return_value___ctype_b_loc$6=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)(unsigned char)ch]) == 0)
+          return_value___ctype_b_loc_6=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)(unsigned char)ch]) == 0)
             break;
 
-          tmp_post$5 = src;
+          tmp_post_5 = src;
           src = src + 1l;
         }
         if(!(ch == (signed int)Pad64))
           return -1;
 
-        tmp_post$7 = src;
+        tmp_post_7 = src;
         src = src + 1l;
-        ch = (signed int)*tmp_post$7;
+        ch = (signed int)*tmp_post_7;
       }
       case 3:
       {
         (void)(void *)0;
-        for( ; !(ch == 0); ch = (signed int)*tmp_post$8)
+        for( ; !(ch == 0); ch = (signed int)*tmp_post_8)
         {
-          return_value___ctype_b_loc$9=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)(unsigned char)ch]) == 0)
+          return_value___ctype_b_loc_9=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)(unsigned char)ch]) == 0)
             return -1;
 
-          tmp_post$8 = src;
+          tmp_post_8 = src;
           src = src + 1l;
         }
         if(!(target == ((unsigned char *)NULL)))
@@ -8900,24 +8900,24 @@ signed int check_long(char *text, signed long int *number)
 {
   char *tmp;
   *number=strtol(text, &tmp, 10);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(*number == 0x7fffffffffffffffL)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *number == -0x7fffffffffffffffL - 1L ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = *number == -0x7fffffffffffffffL - 1L ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
     return 1;
 
   else
   {
     if(!((signed int)*text == 0))
-      tmp_if_expr$2 = (signed int)*tmp == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)*tmp == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       return 0;
 
     else
@@ -8935,9 +8935,9 @@ signed int check_public_key(char *filename, char *hostname, char *keyhash)
   signed int i;
   memset((void *)buff, 0, (unsigned long int)256);
   storefile=fopen(filename, "r");
-  char *return_value_fgets$1;
-  signed int tmp_statement_expression$6;
-  signed int tmp_statement_expression$4;
+  char *return_value_fgets_1;
+  signed int tmp_statement_expression_6;
+  signed int tmp_statement_expression_4;
   if(storefile == ((struct _IO_FILE *)NULL))
     return 2;
 
@@ -8945,8 +8945,8 @@ signed int check_public_key(char *filename, char *hostname, char *keyhash)
   {
     do
     {
-      return_value_fgets$1=fgets(buff, 256, storefile);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(buff, 256, storefile);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       lspaceind = -1;
@@ -8962,29 +8962,29 @@ signed int check_public_key(char *filename, char *hostname, char *keyhash)
       }
       if(!(lspaceind == -1))
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(buff);
-        if((signed int)buff[-1l + (signed long int)return_value_strlen$3] == 10)
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(buff);
+        if((signed int)buff[-1l + (signed long int)return_value_strlen_3] == 10)
         {
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(buff);
-          buff[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(buff);
+          buff[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
         }
 
         buff[(signed long int)lspaceind] = (char)0;
-        unsigned long int check_public_key$$1$$2$$4$$__s1_len;
-        unsigned long int check_public_key$$1$$2$$4$$__s2_len;
-        signed int return_value___builtin_strcmp$7;
-        return_value___builtin_strcmp$7=__builtin_strcmp(buff, hostname);
-        tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-        if(tmp_statement_expression$6 == 0)
+        unsigned long int check_public_key__1__2__4____s1_len;
+        unsigned long int check_public_key__1__2__4____s2_len;
+        signed int return_value___builtin_strcmp_7;
+        return_value___builtin_strcmp_7=__builtin_strcmp(buff, hostname);
+        tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+        if(tmp_statement_expression_6 == 0)
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$5;
-          return_value___builtin_strcmp$5=__builtin_strcmp(&buff[(signed long int)(lspaceind + 1)], keyhash);
-          tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-          if(tmp_statement_expression$4 == 0)
+          signed int return_value___builtin_strcmp_5;
+          return_value___builtin_strcmp_5=__builtin_strcmp(&buff[(signed long int)(lspaceind + 1)], keyhash);
+          tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+          if(tmp_statement_expression_4 == 0)
             return 1;
 
           else
@@ -9004,9 +9004,9 @@ signed int check_public_key(char *filename, char *hostname, char *keyhash)
 signed int check_value(char *what, char *info)
 {
   signed long int tmp;
-  signed int return_value_check_value_liberal$1;
-  return_value_check_value_liberal$1=check_value_liberal(what, info);
-  tmp = (signed long int)return_value_check_value_liberal$1;
+  signed int return_value_check_value_liberal_1;
+  return_value_check_value_liberal_1=check_value_liberal(what, info);
+  tmp = (signed long int)return_value_check_value_liberal_1;
   if(!(tmp >= 1l))
   {
     aflog((char)4, (char)1, "%s: %d\n", info, tmp);
@@ -9029,13 +9029,13 @@ signed int check_value_liberal(char *what, char *info)
     exit(1);
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)*what == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)*znak != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)*znak != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     aflog((char)4, (char)1, "%s: %s\n", info, what);
     exit(1);
@@ -9055,15 +9055,15 @@ signed int checklogtarget(struct llnode *target)
   signed int tmpfd;
   signed int state;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(target == ((struct llnode *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = target->cmdline == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_statement_expression$4;
-  signed int tmp_statement_expression$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = target->cmdline == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_statement_expression_4;
+  signed int tmp_statement_expression_2;
+  if(tmp_if_expr_1)
     return 1;
 
   else
@@ -9082,20 +9082,20 @@ signed int checklogtarget(struct llnode *target)
             tab[(signed long int)i] = (char)0;
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$5;
-            return_value___builtin_strcmp$5=__builtin_strcmp(tab, "file");
-            tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-            if(tmp_statement_expression$4 == 0)
+            signed int return_value___builtin_strcmp_5;
+            return_value___builtin_strcmp_5=__builtin_strcmp(tab, "file");
+            tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+            if(tmp_statement_expression_4 == 0)
               type = (char)1;
 
             else
             {
-              unsigned long int checklogtarget$$1$$2$$1$$1$$1$$3$$__s1_len;
-              unsigned long int checklogtarget$$1$$2$$1$$1$$1$$3$$__s2_len;
-              signed int return_value___builtin_strcmp$3;
-              return_value___builtin_strcmp$3=__builtin_strcmp(tab, "sock");
-              tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-              if(tmp_statement_expression$2 == 0)
+              unsigned long int checklogtarget__1__2__1__1__1__3____s1_len;
+              unsigned long int checklogtarget__1__2__1__1__1__3____s2_len;
+              signed int return_value___builtin_strcmp_3;
+              return_value___builtin_strcmp_3=__builtin_strcmp(tab, "sock");
+              tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+              if(tmp_statement_expression_2 == 0)
                 type = (char)2;
 
               else
@@ -9157,9 +9157,9 @@ signed int checklogtarget(struct llnode *target)
           if((signed int)*ptr == 44)
           {
             tab[(signed long int)i] = (char)0;
-            signed int return_value_ip_connect$6;
-            return_value_ip_connect$6=ip_connect(&tmpfd, desc, tab, (const char)1, (const char *)(void *)0, (const char *)(void *)0);
-            if(!(return_value_ip_connect$6 == 0))
+            signed int return_value_ip_connect_6;
+            return_value_ip_connect_6=ip_connect(&tmpfd, desc, tab, (const char)1, (const char *)(void *)0, (const char *)(void *)0);
+            if(!(return_value_ip_connect_6 == 0))
               return 5;
 
             target->logfd=fdopen(tmpfd, "a");
@@ -9184,9 +9184,9 @@ signed int checklogtarget(struct llnode *target)
           if((signed int)*ptr == 44)
           {
             tab[(signed long int)i] = (char)0;
-            signed int return_value_checkmsgti$7;
-            return_value_checkmsgti$7=checkmsgti(target, tab);
-            if(!(return_value_checkmsgti$7 == 0))
+            signed int return_value_checkmsgti_7;
+            return_value_checkmsgti_7=checkmsgti(target, tab);
+            if(!(return_value_checkmsgti_7 == 0))
               return 6;
 
             memset((void *)tab, 0, (unsigned long int)100);
@@ -9206,9 +9206,9 @@ signed int checklogtarget(struct llnode *target)
       if(state == 3)
       {
         tab[(signed long int)i] = (char)0;
-        signed int return_value_checkmsgti$8;
-        return_value_checkmsgti$8=checkmsgti(target, tab);
-        if(!(return_value_checkmsgti$8 == 0))
+        signed int return_value_checkmsgti_8;
+        return_value_checkmsgti_8=checkmsgti(target, tab);
+        if(!(return_value_checkmsgti_8 == 0))
           return 6;
 
         goto __CPROVER_DUMP_L32;
@@ -9231,145 +9231,145 @@ signed int checklogtarget(struct llnode *target)
 // file logging.c line 119
 signed int checkmsgti(struct llnode *target, char *tab)
 {
-  signed int tmp_statement_expression$25;
-  unsigned long int checkmsgti$$1$$1$$__s1_len;
-  unsigned long int checkmsgti$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$26;
-  return_value___builtin_strcmp$26=__builtin_strcmp(tab, "LOG_T_ALL");
-  tmp_statement_expression$25 = return_value___builtin_strcmp$26;
-  signed int tmp_statement_expression$23;
-  signed int tmp_statement_expression$21;
-  signed int tmp_statement_expression$19;
-  signed int tmp_statement_expression$17;
-  signed int tmp_statement_expression$15;
-  signed int tmp_statement_expression$13;
-  signed int tmp_statement_expression$11;
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$7;
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
-  if(tmp_statement_expression$25 == 0)
+  signed int tmp_statement_expression_25;
+  unsigned long int checkmsgti__1__1____s1_len;
+  unsigned long int checkmsgti__1__1____s2_len;
+  signed int return_value___builtin_strcmp_26;
+  return_value___builtin_strcmp_26=__builtin_strcmp(tab, "LOG_T_ALL");
+  tmp_statement_expression_25 = return_value___builtin_strcmp_26;
+  signed int tmp_statement_expression_23;
+  signed int tmp_statement_expression_21;
+  signed int tmp_statement_expression_19;
+  signed int tmp_statement_expression_17;
+  signed int tmp_statement_expression_15;
+  signed int tmp_statement_expression_13;
+  signed int tmp_statement_expression_11;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_7;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
+  if(tmp_statement_expression_25 == 0)
     target->msgtype = target->msgtype | (char)(1 | 2 | 4 | 8 | 16);
 
   else
   {
-    unsigned long int checkmsgti$$1$$3$$__s1_len;
-    unsigned long int checkmsgti$$1$$3$$__s2_len;
-    signed int return_value___builtin_strcmp$24;
-    return_value___builtin_strcmp$24=__builtin_strcmp(tab, "LOG_T_USER");
-    tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-    if(tmp_statement_expression$23 == 0)
+    unsigned long int checkmsgti__1__3____s1_len;
+    unsigned long int checkmsgti__1__3____s2_len;
+    signed int return_value___builtin_strcmp_24;
+    return_value___builtin_strcmp_24=__builtin_strcmp(tab, "LOG_T_USER");
+    tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+    if(tmp_statement_expression_23 == 0)
       target->msgtype = target->msgtype | (char)1;
 
     else
     {
-      unsigned long int checkmsgti$$1$$5$$__s1_len;
-      unsigned long int checkmsgti$$1$$5$$__s2_len;
-      signed int return_value___builtin_strcmp$22;
-      return_value___builtin_strcmp$22=__builtin_strcmp(tab, "LOG_T_CLIENT");
-      tmp_statement_expression$21 = return_value___builtin_strcmp$22;
-      if(tmp_statement_expression$21 == 0)
+      unsigned long int checkmsgti__1__5____s1_len;
+      unsigned long int checkmsgti__1__5____s2_len;
+      signed int return_value___builtin_strcmp_22;
+      return_value___builtin_strcmp_22=__builtin_strcmp(tab, "LOG_T_CLIENT");
+      tmp_statement_expression_21 = return_value___builtin_strcmp_22;
+      if(tmp_statement_expression_21 == 0)
         target->msgtype = target->msgtype | (char)2;
 
       else
       {
-        unsigned long int checkmsgti$$1$$7$$__s1_len;
-        unsigned long int checkmsgti$$1$$7$$__s2_len;
-        signed int return_value___builtin_strcmp$20;
-        return_value___builtin_strcmp$20=__builtin_strcmp(tab, "LOG_T_INIT");
-        tmp_statement_expression$19 = return_value___builtin_strcmp$20;
-        if(tmp_statement_expression$19 == 0)
+        unsigned long int checkmsgti__1__7____s1_len;
+        unsigned long int checkmsgti__1__7____s2_len;
+        signed int return_value___builtin_strcmp_20;
+        return_value___builtin_strcmp_20=__builtin_strcmp(tab, "LOG_T_INIT");
+        tmp_statement_expression_19 = return_value___builtin_strcmp_20;
+        if(tmp_statement_expression_19 == 0)
           target->msgtype = target->msgtype | (char)4;
 
         else
         {
-          unsigned long int checkmsgti$$1$$9$$__s1_len;
-          unsigned long int checkmsgti$$1$$9$$__s2_len;
-          signed int return_value___builtin_strcmp$18;
-          return_value___builtin_strcmp$18=__builtin_strcmp(tab, "LOG_T_MANAGE");
-          tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-          if(tmp_statement_expression$17 == 0)
+          unsigned long int checkmsgti__1__9____s1_len;
+          unsigned long int checkmsgti__1__9____s2_len;
+          signed int return_value___builtin_strcmp_18;
+          return_value___builtin_strcmp_18=__builtin_strcmp(tab, "LOG_T_MANAGE");
+          tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+          if(tmp_statement_expression_17 == 0)
             target->msgtype = target->msgtype | (char)8;
 
           else
           {
-            unsigned long int checkmsgti$$1$$11$$__s1_len;
-            unsigned long int checkmsgti$$1$$11$$__s2_len;
-            signed int return_value___builtin_strcmp$16;
-            return_value___builtin_strcmp$16=__builtin_strcmp(tab, "LOG_T_MAIN");
-            tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-            if(tmp_statement_expression$15 == 0)
+            unsigned long int checkmsgti__1__11____s1_len;
+            unsigned long int checkmsgti__1__11____s2_len;
+            signed int return_value___builtin_strcmp_16;
+            return_value___builtin_strcmp_16=__builtin_strcmp(tab, "LOG_T_MAIN");
+            tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+            if(tmp_statement_expression_15 == 0)
               target->msgtype = target->msgtype | (char)16;
 
             else
             {
-              unsigned long int checkmsgti$$1$$13$$__s1_len;
-              unsigned long int checkmsgti$$1$$13$$__s2_len;
-              signed int return_value___builtin_strcmp$14;
-              return_value___builtin_strcmp$14=__builtin_strcmp(tab, "LOG_I_ALL");
-              tmp_statement_expression$13 = return_value___builtin_strcmp$14;
-              if(tmp_statement_expression$13 == 0)
+              unsigned long int checkmsgti__1__13____s1_len;
+              unsigned long int checkmsgti__1__13____s2_len;
+              signed int return_value___builtin_strcmp_14;
+              return_value___builtin_strcmp_14=__builtin_strcmp(tab, "LOG_I_ALL");
+              tmp_statement_expression_13 = return_value___builtin_strcmp_14;
+              if(tmp_statement_expression_13 == 0)
                 target->importance = target->importance | (char)(1 | 2 | 4 | 8 | 16 | 32 | 64);
 
               else
               {
-                unsigned long int checkmsgti$$1$$15$$__s1_len;
-                unsigned long int checkmsgti$$1$$15$$__s2_len;
-                signed int return_value___builtin_strcmp$12;
-                return_value___builtin_strcmp$12=__builtin_strcmp(tab, "LOG_I_CRIT");
-                tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-                if(tmp_statement_expression$11 == 0)
+                unsigned long int checkmsgti__1__15____s1_len;
+                unsigned long int checkmsgti__1__15____s2_len;
+                signed int return_value___builtin_strcmp_12;
+                return_value___builtin_strcmp_12=__builtin_strcmp(tab, "LOG_I_CRIT");
+                tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+                if(tmp_statement_expression_11 == 0)
                   target->importance = target->importance | (char)1;
 
                 else
                 {
-                  unsigned long int checkmsgti$$1$$17$$__s1_len;
-                  unsigned long int checkmsgti$$1$$17$$__s2_len;
-                  signed int return_value___builtin_strcmp$10;
-                  return_value___builtin_strcmp$10=__builtin_strcmp(tab, "LOG_I_DEBUG");
-                  tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-                  if(tmp_statement_expression$9 == 0)
+                  unsigned long int checkmsgti__1__17____s1_len;
+                  unsigned long int checkmsgti__1__17____s2_len;
+                  signed int return_value___builtin_strcmp_10;
+                  return_value___builtin_strcmp_10=__builtin_strcmp(tab, "LOG_I_DEBUG");
+                  tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+                  if(tmp_statement_expression_9 == 0)
                     target->importance = target->importance | (char)2;
 
                   else
                   {
-                    unsigned long int checkmsgti$$1$$19$$__s1_len;
-                    unsigned long int checkmsgti$$1$$19$$__s2_len;
-                    signed int return_value___builtin_strcmp$8;
-                    return_value___builtin_strcmp$8=__builtin_strcmp(tab, "LOG_I_INFO");
-                    tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-                    if(tmp_statement_expression$7 == 0)
+                    unsigned long int checkmsgti__1__19____s1_len;
+                    unsigned long int checkmsgti__1__19____s2_len;
+                    signed int return_value___builtin_strcmp_8;
+                    return_value___builtin_strcmp_8=__builtin_strcmp(tab, "LOG_I_INFO");
+                    tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+                    if(tmp_statement_expression_7 == 0)
                       target->importance = target->importance | (char)8;
 
                     else
                     {
                       unsigned long int __s1_len;
                       unsigned long int __s2_len;
-                      signed int return_value___builtin_strcmp$6;
-                      return_value___builtin_strcmp$6=__builtin_strcmp(tab, "LOG_I_NOTICE");
-                      tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-                      if(tmp_statement_expression$5 == 0)
+                      signed int return_value___builtin_strcmp_6;
+                      return_value___builtin_strcmp_6=__builtin_strcmp(tab, "LOG_I_NOTICE");
+                      tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+                      if(tmp_statement_expression_5 == 0)
                         target->importance = target->importance | (char)16;
 
                       else
                       {
-                        unsigned long int checkmsgti$$1$$23$$__s1_len;
-                        unsigned long int checkmsgti$$1$$23$$__s2_len;
-                        signed int return_value___builtin_strcmp$4;
-                        return_value___builtin_strcmp$4=__builtin_strcmp(tab, "LOG_I_WARNING");
-                        tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-                        if(tmp_statement_expression$3 == 0)
+                        unsigned long int checkmsgti__1__23____s1_len;
+                        unsigned long int checkmsgti__1__23____s2_len;
+                        signed int return_value___builtin_strcmp_4;
+                        return_value___builtin_strcmp_4=__builtin_strcmp(tab, "LOG_I_WARNING");
+                        tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+                        if(tmp_statement_expression_3 == 0)
                           target->importance = target->importance | (char)32;
 
                         else
                         {
-                          unsigned long int checkmsgti$$1$$25$$__s1_len;
-                          unsigned long int checkmsgti$$1$$25$$__s2_len;
-                          signed int return_value___builtin_strcmp$2;
-                          return_value___builtin_strcmp$2=__builtin_strcmp(tab, "LOG_I_ERR");
-                          tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-                          if(tmp_statement_expression$1 == 0)
+                          unsigned long int checkmsgti__1__25____s1_len;
+                          unsigned long int checkmsgti__1__25____s2_len;
+                          signed int return_value___builtin_strcmp_2;
+                          return_value___builtin_strcmp_2=__builtin_strcmp(tab, "LOG_I_ERR");
+                          tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+                          if(tmp_statement_expression_1 == 0)
                             target->importance = target->importance | (char)64;
 
                           else
@@ -9400,7 +9400,7 @@ static void clean_return(signed int sockfd)
 
 // clear_fd
 // file http_proxy_functions.c line 261
-void clear_fd(signed int *fd, struct anonymous$11 *set)
+void clear_fd(signed int *fd, struct anonymous_11 *set)
 {
   set->__fds_bits[(signed long int)(*fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = set->__fds_bits[(signed long int)(*fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << *fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
   close_fd(fd);
@@ -9408,26 +9408,26 @@ void clear_fd(signed int *fd, struct anonymous$11 *set)
 
 // clear_sslFd
 // file http_proxy_functions.c line 362
-void clear_sslFd(struct anonymous$0 *sf, struct anonymous$11 *set)
+void clear_sslFd(struct anonymous_0 *sf, struct anonymous_11 *set)
 {
   clear_fd(&sf->fd, set);
-  struct ssl_st *return_value_SslFd_get_ssl$2;
-  return_value_SslFd_get_ssl$2=SslFd_get_ssl(sf);
-  if(!(return_value_SslFd_get_ssl$2 == ((struct ssl_st *)NULL)))
+  struct ssl_st *return_value_SslFd_get_ssl_2;
+  return_value_SslFd_get_ssl_2=SslFd_get_ssl(sf);
+  if(!(return_value_SslFd_get_ssl_2 == ((struct ssl_st *)NULL)))
   {
-    struct ssl_st *return_value_SslFd_get_ssl$1;
-    return_value_SslFd_get_ssl$1=SslFd_get_ssl(sf);
-    SSL_clear(return_value_SslFd_get_ssl$1);
+    struct ssl_st *return_value_SslFd_get_ssl_1;
+    return_value_SslFd_get_ssl_1=SslFd_get_ssl(sf);
+    SSL_clear(return_value_SslFd_get_ssl_1);
   }
 
 }
 
 // client_admin
 // file client_remoteadmin.h line 35
-signed int client_admin(char type, struct anonymous$0 *master, unsigned char *buff, signed int connectfd, char *id)
+signed int client_admin(char type, struct anonymous_0 *master, unsigned char *buff, signed int connectfd, char *id)
 {
-  struct anonymous$11 rset;
-  struct anonymous$11 allset;
+  struct anonymous_11 rset;
+  struct anonymous_11 allset;
   signed int maxfdp1;
   signed int n;
   signed int length;
@@ -9438,10 +9438,10 @@ signed int client_admin(char type, struct anonymous$0 *master, unsigned char *bu
   SslFd_send_message(type, master, buff, 5);
   buff[(signed long int)0] = (unsigned char)0;
   SslFd_get_message(type, master, buff, -5);
-  signed int tmp_if_expr$5;
-  signed int return_value_SslFd_get_fd$4;
-  signed long int return_value_getcg$8;
-  signed long int return_value_getcg$9;
+  signed int tmp_if_expr_5;
+  signed int return_value_SslFd_get_fd_4;
+  signed long int return_value_getcg_8;
+  signed long int return_value_getcg_9;
   if((signed int)*buff == 0)
   {
     aflog((char)4, (char)1, "Wrong password");
@@ -9502,34 +9502,34 @@ signed int client_admin(char type, struct anonymous$0 *master, unsigned char *bu
           {
             signed int __d0;
             signed int __d1;
-            asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&allset)->__fds_bits[(signed long int)0]) : "memory");
+            asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&allset)->__fds_bits[(signed long int)0]) : "memory");
           }
           while((_Bool)0);
-          signed int return_value_SslFd_get_fd$1;
-          return_value_SslFd_get_fd$1=SslFd_get_fd(master);
-          signed int return_value_SslFd_get_fd$2;
-          return_value_SslFd_get_fd$2=SslFd_get_fd(master);
-          (&allset)->__fds_bits[(signed long int)(return_value_SslFd_get_fd$1 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_SslFd_get_fd$1 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_SslFd_get_fd$2 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
+          signed int return_value_SslFd_get_fd_1;
+          return_value_SslFd_get_fd_1=SslFd_get_fd(master);
+          signed int return_value_SslFd_get_fd_2;
+          return_value_SslFd_get_fd_2=SslFd_get_fd(master);
+          (&allset)->__fds_bits[(signed long int)(return_value_SslFd_get_fd_1 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_SslFd_get_fd_1 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_SslFd_get_fd_2 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
           (&allset)->__fds_bits[(signed long int)(infd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(infd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << infd % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
-          signed int return_value_SslFd_get_fd$3;
-          return_value_SslFd_get_fd$3=SslFd_get_fd(master);
-          if(!(return_value_SslFd_get_fd$3 >= infd))
-            tmp_if_expr$5 = infd + 1;
+          signed int return_value_SslFd_get_fd_3;
+          return_value_SslFd_get_fd_3=SslFd_get_fd(master);
+          if(!(return_value_SslFd_get_fd_3 >= infd))
+            tmp_if_expr_5 = infd + 1;
 
           else
           {
-            return_value_SslFd_get_fd$4=SslFd_get_fd(master);
-            tmp_if_expr$5 = return_value_SslFd_get_fd$4 + 1;
+            return_value_SslFd_get_fd_4=SslFd_get_fd(master);
+            tmp_if_expr_5 = return_value_SslFd_get_fd_4 + 1;
           }
-          maxfdp1 = tmp_if_expr$5;
+          maxfdp1 = tmp_if_expr_5;
           if(!(id == ((char *)NULL)))
           {
             buff[(signed long int)0] = (unsigned char)8;
             buff[(signed long int)2] = (unsigned char)0;
             buff[(signed long int)1] = buff[(signed long int)2];
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen(id);
-            n = (signed int)return_value_strlen$6;
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen(id);
+            n = (signed int)return_value_strlen_6;
             memcpy((void *)&buff[(signed long int)5], (const void *)id, (unsigned long int)n);
             buff[(signed long int)3] = (unsigned char)(n >> 8);
             buff[(signed long int)4] = (unsigned char)n;
@@ -9540,12 +9540,12 @@ signed int client_admin(char type, struct anonymous$0 *master, unsigned char *bu
           while((_Bool)1)
           {
             rset = allset;
-            select(maxfdp1, &rset, (struct anonymous$11 *)(void *)0, (struct anonymous$11 *)(void *)0, (struct timeval *)(void *)0);
-            signed int return_value_SslFd_get_fd$10;
-            return_value_SslFd_get_fd$10=SslFd_get_fd(master);
-            signed int return_value_SslFd_get_fd$11;
-            return_value_SslFd_get_fd$11=SslFd_get_fd(master);
-            if(!((rset.__fds_bits[(signed long int)(return_value_SslFd_get_fd$10 / 8)] & 1l << return_value_SslFd_get_fd$11 % 8) == 0l))
+            select(maxfdp1, &rset, (struct anonymous_11 *)(void *)0, (struct anonymous_11 *)(void *)0, (struct timeval *)(void *)0);
+            signed int return_value_SslFd_get_fd_10;
+            return_value_SslFd_get_fd_10=SslFd_get_fd(master);
+            signed int return_value_SslFd_get_fd_11;
+            return_value_SslFd_get_fd_11=SslFd_get_fd(master);
+            if(!((rset.__fds_bits[(signed long int)(return_value_SslFd_get_fd_10 / 8)] & 1l << return_value_SslFd_get_fd_11 % 8) == 0l))
             {
               aflog((char)8, (char)2, "masterfd: FD_ISSET");
               n=SslFd_get_message(type, master, buff, 5);
@@ -9575,9 +9575,9 @@ signed int client_admin(char type, struct anonymous$0 *master, unsigned char *bu
 
               if((signed int)*buff == 4)
               {
-                signed long int return_value_getcg$7;
-                return_value_getcg$7=getcg();
-                aflog((char)8, (char)1, "SERVER: CLOSED -> exiting... cg: %ld bytes", return_value_getcg$7);
+                signed long int return_value_getcg_7;
+                return_value_getcg_7=getcg();
+                aflog((char)8, (char)1, "SERVER: CLOSED -> exiting... cg: %ld bytes", return_value_getcg_7);
                 return 0;
               }
 
@@ -9611,14 +9611,14 @@ signed int client_admin(char type, struct anonymous$0 *master, unsigned char *bu
                 }
                 case 6:
                 {
-                  return_value_getcg$8=getcg();
-                  aflog((char)8, (char)64, "SERVER: kicked us -> exiting... cg: %ld bytes", return_value_getcg$8);
+                  return_value_getcg_8=getcg();
+                  aflog((char)8, (char)64, "SERVER: kicked us -> exiting... cg: %ld bytes", return_value_getcg_8);
                   return 1;
                 }
                 default:
                 {
-                  return_value_getcg$9=getcg();
-                  aflog((char)8, (char)64, "SERVER: unrecognized message -> exiting... cg: %ld bytes", return_value_getcg$9);
+                  return_value_getcg_9=getcg();
+                  aflog((char)8, (char)64, "SERVER: unrecognized message -> exiting... cg: %ld bytes", return_value_getcg_9);
                   return 1;
                 }
               }
@@ -9627,19 +9627,19 @@ signed int client_admin(char type, struct anonymous$0 *master, unsigned char *bu
             if(!((rset.__fds_bits[(signed long int)(infd / 8)] & 1l << infd % 8) == 0l))
             {
               aflog((char)8, (char)2, "infd: FD_ISSET");
-              char *return_value_fgets$13;
-              return_value_fgets$13=fgets((char *)&buff[(signed long int)5], 8091, infp);
-              if(return_value_fgets$13 == ((char *)NULL))
+              char *return_value_fgets_13;
+              return_value_fgets_13=fgets((char *)&buff[(signed long int)5], 8091, infp);
+              if(return_value_fgets_13 == ((char *)NULL))
               {
-                signed long int return_value_getcg$12;
-                return_value_getcg$12=getcg();
-                aflog((char)8, (char)16, "CLIENT CLOSED cg: %ld bytes", return_value_getcg$12);
+                signed long int return_value_getcg_12;
+                return_value_getcg_12=getcg();
+                aflog((char)8, (char)16, "CLIENT CLOSED cg: %ld bytes", return_value_getcg_12);
                 return 0;
               }
 
-              unsigned long int return_value_strlen$14;
-              return_value_strlen$14=strlen((char *)&buff[(signed long int)5]);
-              n = (signed int)return_value_strlen$14;
+              unsigned long int return_value_strlen_14;
+              return_value_strlen_14=strlen((char *)&buff[(signed long int)5]);
+              n = (signed int)return_value_strlen_14;
               if(n >= 1)
               {
                 if((signed int)buff[(signed long int)(4 + n)] == 10)
@@ -9737,7 +9737,7 @@ void client_long_usage(char *info)
 
 // client_reverse_udp
 // file client_reverse_udp.h line 39
-void client_reverse_udp(struct anonymous$5 *cr, unsigned char *buff, signed int buflength)
+void client_reverse_udp(struct anonymous_5 *cr, unsigned char *buff, signed int buflength)
 {
   unsigned int len;
   unsigned int addrlen;
@@ -9747,112 +9747,112 @@ void client_reverse_udp(struct anonymous$5 *cr, unsigned char *buff, signed int 
   signed int length;
   signed int notsent;
   struct sockaddr *cliaddr;
-  struct anonymous$11 rset;
-  struct anonymous$11 allset;
-  char *return_value_ClientRealm_get_hostName$8;
-  return_value_ClientRealm_get_hostName$8=ClientRealm_get_hostName(cr);
-  struct portlist *return_value_ClientRealm_get_destinationPorts$9;
-  return_value_ClientRealm_get_destinationPorts$9=ClientRealm_get_destinationPorts(cr);
-  struct plnode *return_value_PortList_get_nth$10;
-  return_value_PortList_get_nth$10=PortList_get_nth(return_value_ClientRealm_get_destinationPorts$9, 0);
-  char *return_value_PortListNode_get_portName$11;
-  return_value_PortListNode_get_portName$11=PortListNode_get_portName(return_value_PortList_get_nth$10);
-  char return_value_ClientRealm_get_ipFamily$12;
-  return_value_ClientRealm_get_ipFamily$12=ClientRealm_get_ipFamily(cr);
-  signed int return_value_ip_listen$13;
-  return_value_ip_listen$13=ip_listen(&temp, return_value_ClientRealm_get_hostName$8, return_value_PortListNode_get_portName$11, &addrlen, (const char)((signed int)return_value_ClientRealm_get_ipFamily$12 & 0xfe));
-  char *tmp_if_expr$3;
-  char return_value_ClientRealm_get_ipFamily$2;
-  if(!(return_value_ip_listen$13 == 0))
+  struct anonymous_11 rset;
+  struct anonymous_11 allset;
+  char *return_value_ClientRealm_get_hostName_8;
+  return_value_ClientRealm_get_hostName_8=ClientRealm_get_hostName(cr);
+  struct portlist *return_value_ClientRealm_get_destinationPorts_9;
+  return_value_ClientRealm_get_destinationPorts_9=ClientRealm_get_destinationPorts(cr);
+  struct plnode *return_value_PortList_get_nth_10;
+  return_value_PortList_get_nth_10=PortList_get_nth(return_value_ClientRealm_get_destinationPorts_9, 0);
+  char *return_value_PortListNode_get_portName_11;
+  return_value_PortListNode_get_portName_11=PortListNode_get_portName(return_value_PortList_get_nth_10);
+  char return_value_ClientRealm_get_ipFamily_12;
+  return_value_ClientRealm_get_ipFamily_12=ClientRealm_get_ipFamily(cr);
+  signed int return_value_ip_listen_13;
+  return_value_ip_listen_13=ip_listen(&temp, return_value_ClientRealm_get_hostName_8, return_value_PortListNode_get_portName_11, &addrlen, (const char)((signed int)return_value_ClientRealm_get_ipFamily_12 & 0xfe));
+  char *tmp_if_expr_3;
+  char return_value_ClientRealm_get_ipFamily_2;
+  if(!(return_value_ip_listen_13 == 0))
   {
-    char return_value_ClientRealm_get_ipFamily$1;
-    return_value_ClientRealm_get_ipFamily$1=ClientRealm_get_ipFamily(cr);
-    if(!((0x02 & (signed int)return_value_ClientRealm_get_ipFamily$1) == 0))
-      tmp_if_expr$3 = "ipv4";
+    char return_value_ClientRealm_get_ipFamily_1;
+    return_value_ClientRealm_get_ipFamily_1=ClientRealm_get_ipFamily(cr);
+    if(!((0x02 & (signed int)return_value_ClientRealm_get_ipFamily_1) == 0))
+      tmp_if_expr_3 = "ipv4";
 
     else
     {
-      return_value_ClientRealm_get_ipFamily$2=ClientRealm_get_ipFamily(cr);
-      tmp_if_expr$3 = ((signed int)return_value_ClientRealm_get_ipFamily$2 & 0x04) != 0 ? "ipv6" : "unspec";
+      return_value_ClientRealm_get_ipFamily_2=ClientRealm_get_ipFamily(cr);
+      tmp_if_expr_3 = ((signed int)return_value_ClientRealm_get_ipFamily_2 & 0x04) != 0 ? "ipv6" : "unspec";
     }
-    char *return_value_ClientRealm_get_hostName$4;
-    return_value_ClientRealm_get_hostName$4=ClientRealm_get_hostName(cr);
-    struct portlist *return_value_ClientRealm_get_destinationPorts$5;
-    return_value_ClientRealm_get_destinationPorts$5=ClientRealm_get_destinationPorts(cr);
-    struct plnode *return_value_PortList_get_nth$6;
-    return_value_PortList_get_nth$6=PortList_get_nth(return_value_ClientRealm_get_destinationPorts$5, 0);
-    char *return_value_PortListNode_get_portName$7;
-    return_value_PortListNode_get_portName$7=PortListNode_get_portName(return_value_PortList_get_nth$6);
-    aflog((char)4, (char)2, "udp_listen_%s error for %s, %s", tmp_if_expr$3, return_value_ClientRealm_get_hostName$4, return_value_PortListNode_get_portName$7);
+    char *return_value_ClientRealm_get_hostName_4;
+    return_value_ClientRealm_get_hostName_4=ClientRealm_get_hostName(cr);
+    struct portlist *return_value_ClientRealm_get_destinationPorts_5;
+    return_value_ClientRealm_get_destinationPorts_5=ClientRealm_get_destinationPorts(cr);
+    struct plnode *return_value_PortList_get_nth_6;
+    return_value_PortList_get_nth_6=PortList_get_nth(return_value_ClientRealm_get_destinationPorts_5, 0);
+    char *return_value_PortListNode_get_portName_7;
+    return_value_PortListNode_get_portName_7=PortListNode_get_portName(return_value_PortList_get_nth_6);
+    aflog((char)4, (char)2, "udp_listen_%s error for %s, %s", tmp_if_expr_3, return_value_ClientRealm_get_hostName_4, return_value_PortListNode_get_portName_7);
     exit(1);
   }
 
-  struct anonymous$7 **return_value_ClientRealm_get_usersTable$14;
-  return_value_ClientRealm_get_usersTable$14=ClientRealm_get_usersTable(cr);
-  ConnectUser_set_connFd(return_value_ClientRealm_get_usersTable$14[(signed long int)0], temp);
-  void *return_value_malloc$15;
-  return_value_malloc$15=malloc((unsigned long int)addrlen);
-  cliaddr = (struct sockaddr *)return_value_malloc$15;
+  struct anonymous_7 **return_value_ClientRealm_get_usersTable_14;
+  return_value_ClientRealm_get_usersTable_14=ClientRealm_get_usersTable(cr);
+  ConnectUser_set_connFd(return_value_ClientRealm_get_usersTable_14[(signed long int)0], temp);
+  void *return_value_malloc_15;
+  return_value_malloc_15=malloc((unsigned long int)addrlen);
+  cliaddr = (struct sockaddr *)return_value_malloc_15;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&allset)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&allset)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$16;
-  return_value_ClientRealm_get_masterSslFd$16=ClientRealm_get_masterSslFd(cr);
-  signed int return_value_SslFd_get_fd$17;
-  return_value_SslFd_get_fd$17=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$16);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$18;
-  return_value_ClientRealm_get_masterSslFd$18=ClientRealm_get_masterSslFd(cr);
-  signed int return_value_SslFd_get_fd$19;
-  return_value_SslFd_get_fd$19=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$18);
-  (&allset)->__fds_bits[(signed long int)(return_value_SslFd_get_fd$17 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_SslFd_get_fd$17 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_SslFd_get_fd$19 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$20;
-  return_value_ClientRealm_get_masterSslFd$20=ClientRealm_get_masterSslFd(cr);
-  signed int return_value_SslFd_get_fd$21;
-  return_value_SslFd_get_fd$21=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$20);
-  maxfdp1 = return_value_SslFd_get_fd$21 + 1;
-  struct anonymous$7 **return_value_ClientRealm_get_usersTable$22;
-  return_value_ClientRealm_get_usersTable$22=ClientRealm_get_usersTable(cr);
-  signed int return_value_ConnectUser_get_connFd$23;
-  return_value_ConnectUser_get_connFd$23=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable$22[(signed long int)0]);
-  signed int tmp_if_expr$26;
-  struct anonymous$7 **return_value_ClientRealm_get_usersTable$24;
-  signed int return_value_ConnectUser_get_connFd$25;
-  if(!(1 + return_value_ConnectUser_get_connFd$23 >= maxfdp1))
-    tmp_if_expr$26 = maxfdp1;
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_16;
+  return_value_ClientRealm_get_masterSslFd_16=ClientRealm_get_masterSslFd(cr);
+  signed int return_value_SslFd_get_fd_17;
+  return_value_SslFd_get_fd_17=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_16);
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_18;
+  return_value_ClientRealm_get_masterSslFd_18=ClientRealm_get_masterSslFd(cr);
+  signed int return_value_SslFd_get_fd_19;
+  return_value_SslFd_get_fd_19=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_18);
+  (&allset)->__fds_bits[(signed long int)(return_value_SslFd_get_fd_17 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_SslFd_get_fd_17 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_SslFd_get_fd_19 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_20;
+  return_value_ClientRealm_get_masterSslFd_20=ClientRealm_get_masterSslFd(cr);
+  signed int return_value_SslFd_get_fd_21;
+  return_value_SslFd_get_fd_21=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_20);
+  maxfdp1 = return_value_SslFd_get_fd_21 + 1;
+  struct anonymous_7 **return_value_ClientRealm_get_usersTable_22;
+  return_value_ClientRealm_get_usersTable_22=ClientRealm_get_usersTable(cr);
+  signed int return_value_ConnectUser_get_connFd_23;
+  return_value_ConnectUser_get_connFd_23=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable_22[(signed long int)0]);
+  signed int tmp_if_expr_26;
+  struct anonymous_7 **return_value_ClientRealm_get_usersTable_24;
+  signed int return_value_ConnectUser_get_connFd_25;
+  if(!(1 + return_value_ConnectUser_get_connFd_23 >= maxfdp1))
+    tmp_if_expr_26 = maxfdp1;
 
   else
   {
-    return_value_ClientRealm_get_usersTable$24=ClientRealm_get_usersTable(cr);
-    return_value_ConnectUser_get_connFd$25=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable$24[(signed long int)0]);
-    tmp_if_expr$26 = return_value_ConnectUser_get_connFd$25 + 1;
+    return_value_ClientRealm_get_usersTable_24=ClientRealm_get_usersTable(cr);
+    return_value_ConnectUser_get_connFd_25=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable_24[(signed long int)0]);
+    tmp_if_expr_26 = return_value_ConnectUser_get_connFd_25 + 1;
   }
-  maxfdp1 = tmp_if_expr$26;
-  struct anonymous$7 **return_value_ClientRealm_get_usersTable$27;
-  return_value_ClientRealm_get_usersTable$27=ClientRealm_get_usersTable(cr);
-  signed int return_value_ConnectUser_get_connFd$28;
-  return_value_ConnectUser_get_connFd$28=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable$27[(signed long int)0]);
-  struct anonymous$7 **return_value_ClientRealm_get_usersTable$29;
-  return_value_ClientRealm_get_usersTable$29=ClientRealm_get_usersTable(cr);
-  signed int return_value_ConnectUser_get_connFd$30;
-  return_value_ConnectUser_get_connFd$30=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable$29[(signed long int)0]);
-  (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$28 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$28 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_ConnectUser_get_connFd$30 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
+  maxfdp1 = tmp_if_expr_26;
+  struct anonymous_7 **return_value_ClientRealm_get_usersTable_27;
+  return_value_ClientRealm_get_usersTable_27=ClientRealm_get_usersTable(cr);
+  signed int return_value_ConnectUser_get_connFd_28;
+  return_value_ConnectUser_get_connFd_28=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable_27[(signed long int)0]);
+  struct anonymous_7 **return_value_ClientRealm_get_usersTable_29;
+  return_value_ClientRealm_get_usersTable_29=ClientRealm_get_usersTable(cr);
+  signed int return_value_ConnectUser_get_connFd_30;
+  return_value_ConnectUser_get_connFd_30=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable_29[(signed long int)0]);
+  (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_28 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_28 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_ConnectUser_get_connFd_30 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
   aflog((char)2, (char)8, "CLIENT STARTED mode: udp reverse");
-  _Bool tmp_if_expr$49;
-  _Bool tmp_if_expr$50;
+  _Bool tmp_if_expr_49;
+  _Bool tmp_if_expr_50;
   do
   {
     len = (unsigned int)4;
-    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$31;
-    return_value_ClientRealm_get_masterSslFd$31=ClientRealm_get_masterSslFd(cr);
-    signed int return_value_SslFd_get_fd$32;
-    return_value_SslFd_get_fd$32=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$31);
-    signed int return_value_getsockopt$33;
-    return_value_getsockopt$33=getsockopt(return_value_SslFd_get_fd$32, 1, 7, (void *)&temp, &len);
-    if(!(return_value_getsockopt$33 == -1))
+    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_31;
+    return_value_ClientRealm_get_masterSslFd_31=ClientRealm_get_masterSslFd(cr);
+    signed int return_value_SslFd_get_fd_32;
+    return_value_SslFd_get_fd_32=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_31);
+    signed int return_value_getsockopt_33;
+    return_value_getsockopt_33=getsockopt(return_value_SslFd_get_fd_32, 1, 7, (void *)&temp, &len);
+    if(!(return_value_getsockopt_33 == -1))
     {
       if(!(temp == buflength))
       {
@@ -9865,33 +9865,33 @@ void client_reverse_udp(struct anonymous$5 *cr, unsigned char *buff, signed int 
     len = addrlen;
     rset = allset;
     aflog((char)16, (char)2, "select");
-    select(maxfdp1, &rset, (struct anonymous$11 *)(void *)0, (struct anonymous$11 *)(void *)0, (struct timeval *)(void *)0);
+    select(maxfdp1, &rset, (struct anonymous_11 *)(void *)0, (struct anonymous_11 *)(void *)0, (struct timeval *)(void *)0);
     aflog((char)16, (char)2, "after select...");
-    struct anonymous$7 **return_value_ClientRealm_get_usersTable$43;
-    return_value_ClientRealm_get_usersTable$43=ClientRealm_get_usersTable(cr);
-    signed int return_value_ConnectUser_get_connFd$44;
-    return_value_ConnectUser_get_connFd$44=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable$43[(signed long int)0]);
-    struct anonymous$7 **return_value_ClientRealm_get_usersTable$45;
-    return_value_ClientRealm_get_usersTable$45=ClientRealm_get_usersTable(cr);
-    signed int return_value_ConnectUser_get_connFd$46;
-    return_value_ConnectUser_get_connFd$46=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable$45[(signed long int)0]);
-    if(!((rset.__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$44 / 8)] & 1l << return_value_ConnectUser_get_connFd$46 % 8) == 0l))
+    struct anonymous_7 **return_value_ClientRealm_get_usersTable_43;
+    return_value_ClientRealm_get_usersTable_43=ClientRealm_get_usersTable(cr);
+    signed int return_value_ConnectUser_get_connFd_44;
+    return_value_ConnectUser_get_connFd_44=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable_43[(signed long int)0]);
+    struct anonymous_7 **return_value_ClientRealm_get_usersTable_45;
+    return_value_ClientRealm_get_usersTable_45=ClientRealm_get_usersTable(cr);
+    signed int return_value_ConnectUser_get_connFd_46;
+    return_value_ConnectUser_get_connFd_46=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable_45[(signed long int)0]);
+    if(!((rset.__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_44 / 8)] & 1l << return_value_ConnectUser_get_connFd_46 % 8) == 0l))
     {
-      struct anonymous$7 **return_value_ClientRealm_get_usersTable$34;
-      return_value_ClientRealm_get_usersTable$34=ClientRealm_get_usersTable(cr);
-      signed int return_value_ConnectUser_get_connFd$35;
-      return_value_ConnectUser_get_connFd$35=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable$34[(signed long int)0]);
-      signed long int return_value_recvfrom$36;
-      return_value_recvfrom$36=recvfrom(return_value_ConnectUser_get_connFd$35, (void *)&buff[(signed long int)5], (unsigned long int)8091, 0, cliaddr, &len);
-      n = (signed int)return_value_recvfrom$36;
+      struct anonymous_7 **return_value_ClientRealm_get_usersTable_34;
+      return_value_ClientRealm_get_usersTable_34=ClientRealm_get_usersTable(cr);
+      signed int return_value_ConnectUser_get_connFd_35;
+      return_value_ConnectUser_get_connFd_35=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable_34[(signed long int)0]);
+      signed long int return_value_recvfrom_36;
+      return_value_recvfrom_36=recvfrom(return_value_ConnectUser_get_connFd_35, (void *)&buff[(signed long int)5], (unsigned long int)8091, 0, cliaddr, &len);
+      n = (signed int)return_value_recvfrom_36;
       aflog((char)16, (char)4, "SIOCOUTQ is defined");
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$37;
-      return_value_ClientRealm_get_masterSslFd$37=ClientRealm_get_masterSslFd(cr);
-      signed int return_value_SslFd_get_fd$38;
-      return_value_SslFd_get_fd$38=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$37);
-      signed int return_value_ioctl$39;
-      return_value_ioctl$39=ioctl(return_value_SslFd_get_fd$38, (unsigned long int)0x5411, &notsent);
-      if(!(return_value_ioctl$39 == 0))
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_37;
+      return_value_ClientRealm_get_masterSslFd_37=ClientRealm_get_masterSslFd(cr);
+      signed int return_value_SslFd_get_fd_38;
+      return_value_SslFd_get_fd_38=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_37);
+      signed int return_value_ioctl_39;
+      return_value_ioctl_39=ioctl(return_value_SslFd_get_fd_38, (unsigned long int)0x5411, &notsent);
+      if(!(return_value_ioctl_39 == 0))
       {
         aflog((char)2, (char)1, "ioctl error -> exiting...");
         exit(1);
@@ -9903,51 +9903,51 @@ void client_reverse_udp(struct anonymous$5 *cr, unsigned char *buff, signed int 
       else
         if(n >= 1)
         {
-          char *return_value_sock_ntop$40;
-          return_value_sock_ntop$40=sock_ntop(cliaddr, len, (char *)(void *)0, (char *)(void *)0, (char)0);
-          aflog((char)2, (char)8, "Sending %d bytes to service (w:%d/%d) (FROM:%s)", n, notsent, buflength, return_value_sock_ntop$40);
+          char *return_value_sock_ntop_40;
+          return_value_sock_ntop_40=sock_ntop(cliaddr, len, (char *)(void *)0, (char *)(void *)0, (char)0);
+          aflog((char)2, (char)8, "Sending %d bytes to service (w:%d/%d) (FROM:%s)", n, notsent, buflength, return_value_sock_ntop_40);
           buff[(signed long int)0] = (unsigned char)3;
           buff[(signed long int)1] = (unsigned char)8;
           buff[(signed long int)2] = (unsigned char)3;
           buff[(signed long int)3] = (unsigned char)(n >> 8);
           buff[(signed long int)4] = (unsigned char)n;
-          struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$41;
-          return_value_ClientRealm_get_masterSslFd$41=ClientRealm_get_masterSslFd(cr);
-          signed int return_value_SslFd_get_fd$42;
-          return_value_SslFd_get_fd$42=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$41);
-          writen(return_value_SslFd_get_fd$42, buff, n + 5);
+          struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_41;
+          return_value_ClientRealm_get_masterSslFd_41=ClientRealm_get_masterSslFd(cr);
+          signed int return_value_SslFd_get_fd_42;
+          return_value_SslFd_get_fd_42=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_41);
+          writen(return_value_SslFd_get_fd_42, buff, n + 5);
         }
 
     }
 
-    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$56;
-    return_value_ClientRealm_get_masterSslFd$56=ClientRealm_get_masterSslFd(cr);
-    signed int return_value_SslFd_get_fd$57;
-    return_value_SslFd_get_fd$57=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$56);
-    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$58;
-    return_value_ClientRealm_get_masterSslFd$58=ClientRealm_get_masterSslFd(cr);
-    signed int return_value_SslFd_get_fd$59;
-    return_value_SslFd_get_fd$59=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$58);
-    if(!((rset.__fds_bits[(signed long int)(return_value_SslFd_get_fd$57 / 8)] & 1l << return_value_SslFd_get_fd$59 % 8) == 0l))
+    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_56;
+    return_value_ClientRealm_get_masterSslFd_56=ClientRealm_get_masterSslFd(cr);
+    signed int return_value_SslFd_get_fd_57;
+    return_value_SslFd_get_fd_57=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_56);
+    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_58;
+    return_value_ClientRealm_get_masterSslFd_58=ClientRealm_get_masterSslFd(cr);
+    signed int return_value_SslFd_get_fd_59;
+    return_value_SslFd_get_fd_59=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_58);
+    if(!((rset.__fds_bits[(signed long int)(return_value_SslFd_get_fd_57 / 8)] & 1l << return_value_SslFd_get_fd_59 % 8) == 0l))
     {
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$47;
-      return_value_ClientRealm_get_masterSslFd$47=ClientRealm_get_masterSslFd(cr);
-      signed int return_value_SslFd_get_fd$48;
-      return_value_SslFd_get_fd$48=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$47);
-      n=readn(return_value_SslFd_get_fd$48, buff, 5);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_47;
+      return_value_ClientRealm_get_masterSslFd_47=ClientRealm_get_masterSslFd(cr);
+      signed int return_value_SslFd_get_fd_48;
+      return_value_SslFd_get_fd_48=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_47);
+      n=readn(return_value_SslFd_get_fd_48, buff, 5);
       if(n == 5)
       {
         if(!((signed int)*buff == 3))
-          tmp_if_expr$49 = (_Bool)1;
+          tmp_if_expr_49 = (_Bool)1;
 
         else
-          tmp_if_expr$49 = (signed int)buff[(signed long int)1] != 8 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$49)
-          tmp_if_expr$50 = (_Bool)1;
+          tmp_if_expr_49 = (signed int)buff[(signed long int)1] != 8 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_49)
+          tmp_if_expr_50 = (_Bool)1;
 
         else
-          tmp_if_expr$50 = (signed int)buff[(signed long int)2] != 3 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$50)
+          tmp_if_expr_50 = (signed int)buff[(signed long int)2] != 3 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_50)
         {
           aflog((char)2, (char)1, "Incompatible server type (not udp?) or data corruption -> exiting...");
           exit(1);
@@ -9956,11 +9956,11 @@ void client_reverse_udp(struct anonymous$5 *cr, unsigned char *buff, signed int 
         length = (signed int)buff[(signed long int)3];
         length = length << 8;
         length = length + (signed int)buff[(signed long int)4];
-        struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$51;
-        return_value_ClientRealm_get_masterSslFd$51=ClientRealm_get_masterSslFd(cr);
-        signed int return_value_SslFd_get_fd$52;
-        return_value_SslFd_get_fd$52=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$51);
-        n=readn(return_value_SslFd_get_fd$52, buff, length);
+        struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_51;
+        return_value_ClientRealm_get_masterSslFd_51=ClientRealm_get_masterSslFd(cr);
+        signed int return_value_SslFd_get_fd_52;
+        return_value_SslFd_get_fd_52=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_51);
+        n=readn(return_value_SslFd_get_fd_52, buff, length);
       }
 
       else
@@ -9971,14 +9971,14 @@ void client_reverse_udp(struct anonymous$5 *cr, unsigned char *buff, signed int 
         exit(1);
       }
 
-      char *return_value_sock_ntop$53;
-      return_value_sock_ntop$53=sock_ntop(cliaddr, addrlen, (char *)(void *)0, (char *)(void *)0, (char)0);
-      aflog((char)2, (char)8, "Sending %d bytes to user (TO:%s)", n, return_value_sock_ntop$53);
-      struct anonymous$7 **return_value_ClientRealm_get_usersTable$54;
-      return_value_ClientRealm_get_usersTable$54=ClientRealm_get_usersTable(cr);
-      signed int return_value_ConnectUser_get_connFd$55;
-      return_value_ConnectUser_get_connFd$55=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable$54[(signed long int)0]);
-      sendto(return_value_ConnectUser_get_connFd$55, (const void *)buff, (unsigned long int)n, 0, cliaddr, addrlen);
+      char *return_value_sock_ntop_53;
+      return_value_sock_ntop_53=sock_ntop(cliaddr, addrlen, (char *)(void *)0, (char *)(void *)0, (char)0);
+      aflog((char)2, (char)8, "Sending %d bytes to user (TO:%s)", n, return_value_sock_ntop_53);
+      struct anonymous_7 **return_value_ClientRealm_get_usersTable_54;
+      return_value_ClientRealm_get_usersTable_54=ClientRealm_get_usersTable(cr);
+      signed int return_value_ConnectUser_get_connFd_55;
+      return_value_ConnectUser_get_connFd_55=ConnectUser_get_connFd(return_value_ClientRealm_get_usersTable_54[(signed long int)0]);
+      sendto(return_value_ConnectUser_get_connFd_55, (const void *)buff, (unsigned long int)n, 0, cliaddr, addrlen);
     }
 
   }
@@ -10006,13 +10006,13 @@ void client_sig_alrm(signed int signo)
 // file client_signals.h line 24
 void client_sig_int(signed int signo)
 {
-  signed int return_value_is_this_a_mainthread$1;
-  return_value_is_this_a_mainthread$1=is_this_a_mainthread();
-  if(!(return_value_is_this_a_mainthread$1 == 0))
+  signed int return_value_is_this_a_mainthread_1;
+  return_value_is_this_a_mainthread_1=is_this_a_mainthread();
+  if(!(return_value_is_this_a_mainthread_1 == 0))
   {
-    signed long int return_value_getcg$2;
-    return_value_getcg$2=getcg();
-    aflog((char)16, (char)16, "CLIENT CLOSED cg: %ld bytes", return_value_getcg$2);
+    signed long int return_value_getcg_2;
+    return_value_getcg_2=getcg();
+    aflog((char)16, (char)16, "CLIENT CLOSED cg: %ld bytes", return_value_getcg_2);
     exit(0);
   }
 
@@ -10020,39 +10020,39 @@ void client_sig_int(signed int signo)
 
 // close_connections
 // file client_shutdown.c line 27
-void close_connections(signed int usernum, struct anonymous$7 ***contable)
+void close_connections(signed int usernum, struct anonymous_7 ***contable)
 {
   signed int i;
-  _Bool tmp_if_expr$4;
-  char return_value_ConnectUser_get_state$3;
-  if(!(contable == ((struct anonymous$7 ***)NULL)))
+  _Bool tmp_if_expr_4;
+  char return_value_ConnectUser_get_state_3;
+  if(!(contable == ((struct anonymous_7 ***)NULL)))
   {
-    if(!(*contable == ((struct anonymous$7 **)NULL)))
+    if(!(*contable == ((struct anonymous_7 **)NULL)))
     {
       i = 0;
       for( ; !(i >= usernum); i = i + 1)
       {
-        char return_value_ConnectUser_get_state$2;
-        return_value_ConnectUser_get_state$2=ConnectUser_get_state((*contable)[(signed long int)i]);
-        if((signed int)return_value_ConnectUser_get_state$2 == 7)
-          tmp_if_expr$4 = (_Bool)1;
+        char return_value_ConnectUser_get_state_2;
+        return_value_ConnectUser_get_state_2=ConnectUser_get_state((*contable)[(signed long int)i]);
+        if((signed int)return_value_ConnectUser_get_state_2 == 7)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_ConnectUser_get_state$3=ConnectUser_get_state((*contable)[(signed long int)i]);
-          tmp_if_expr$4 = (signed int)return_value_ConnectUser_get_state$3 == 11 ? (_Bool)1 : (_Bool)0;
+          return_value_ConnectUser_get_state_3=ConnectUser_get_state((*contable)[(signed long int)i]);
+          tmp_if_expr_4 = (signed int)return_value_ConnectUser_get_state_3 == 11 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
-          signed int return_value_ConnectUser_get_connFd$1;
-          return_value_ConnectUser_get_connFd$1=ConnectUser_get_connFd((*contable)[(signed long int)i]);
-          close(return_value_ConnectUser_get_connFd$1);
+          signed int return_value_ConnectUser_get_connFd_1;
+          return_value_ConnectUser_get_connFd_1=ConnectUser_get_connFd((*contable)[(signed long int)i]);
+          close(return_value_ConnectUser_get_connFd_1);
         }
 
         ConnectUser_free(&(*contable)[(signed long int)i]);
       }
       free((void *)*contable);
-      *contable = (struct anonymous$7 **)(void *)0;
+      *contable = (struct anonymous_7 **)(void *)0;
     }
 
   }
@@ -10068,9 +10068,9 @@ void close_fd(signed int *fd)
 
 // cparsefile
 // file file.h line 38
-struct anonymous$4 * cparsefile(char *name, signed int *status)
+struct anonymous_4 * cparsefile(char *name, signed int *status)
 {
-  struct anonymous$4 *cfg;
+  struct anonymous_4 *cfg;
   struct _IO_FILE *file = (struct _IO_FILE *)(void *)0;
   signed int state;
   signed int i;
@@ -10084,7 +10084,7 @@ struct anonymous$4 * cparsefile(char *name, signed int *status)
   *status = 1;
   memset((void *)buff, 0, (unsigned long int)256);
   cfg=ClientConfiguration_new();
-  if(cfg == ((struct anonymous$4 *)NULL))
+  if(cfg == ((struct anonymous_4 *)NULL))
   {
     printf("Can't allocate memory for client configuration... exiting\n");
     exit(1);
@@ -10092,98 +10092,98 @@ struct anonymous$4 * cparsefile(char *name, signed int *status)
 
   state = 1;
   file=fopen(name, "r");
-  signed int return_value_ClientConfiguration_get_realmsNumber$4;
-  char *return_value_fgets$10;
-  signed int tmp_statement_expression$83;
-  signed int tmp_statement_expression$81;
-  signed int tmp_statement_expression$79;
-  signed int tmp_statement_expression$77;
-  signed int tmp_statement_expression$72;
-  _Bool tmp_if_expr$76;
-  signed int tmp_statement_expression$74;
-  signed int tmp_statement_expression$67;
-  _Bool tmp_if_expr$71;
-  signed int tmp_statement_expression$69;
-  signed int tmp_statement_expression$62;
-  _Bool tmp_if_expr$66;
-  signed int tmp_statement_expression$64;
-  signed int tmp_statement_expression$57;
-  _Bool tmp_if_expr$61;
-  signed int tmp_statement_expression$59;
-  signed int tmp_statement_expression$52;
-  _Bool tmp_if_expr$56;
-  signed int tmp_statement_expression$54;
-  signed int tmp_statement_expression$50;
-  signed int tmp_statement_expression$48;
-  signed int tmp_statement_expression$46;
-  signed int tmp_statement_expression$196;
-  _Bool tmp_if_expr$200;
-  signed int tmp_statement_expression$198;
-  signed int tmp_statement_expression$188;
-  _Bool tmp_if_expr$192;
-  signed int tmp_statement_expression$190;
-  _Bool tmp_if_expr$195;
-  signed int tmp_statement_expression$193;
-  signed int tmp_statement_expression$183;
-  _Bool tmp_if_expr$187;
-  signed int tmp_statement_expression$185;
-  signed int tmp_statement_expression$178;
-  _Bool tmp_if_expr$182;
-  signed int tmp_statement_expression$180;
-  signed int tmp_statement_expression$173;
-  _Bool tmp_if_expr$177;
-  signed int tmp_statement_expression$175;
-  signed int tmp_statement_expression$168;
-  _Bool tmp_if_expr$172;
-  signed int tmp_statement_expression$170;
-  signed int tmp_statement_expression$163;
-  _Bool tmp_if_expr$167;
-  signed int tmp_statement_expression$165;
-  signed int tmp_statement_expression$158;
-  _Bool tmp_if_expr$162;
-  signed int tmp_statement_expression$160;
-  signed int tmp_statement_expression$153;
-  _Bool tmp_if_expr$157;
-  signed int tmp_statement_expression$155;
-  signed int tmp_statement_expression$151;
-  signed int tmp_statement_expression$149;
-  signed int tmp_statement_expression$147;
-  signed int tmp_statement_expression$142;
-  _Bool tmp_if_expr$146;
-  signed int tmp_statement_expression$144;
-  signed int tmp_statement_expression$140;
-  signed int tmp_statement_expression$135;
-  _Bool tmp_if_expr$139;
-  signed int tmp_statement_expression$137;
-  signed int tmp_statement_expression$130;
-  _Bool tmp_if_expr$134;
-  signed int tmp_statement_expression$132;
-  signed int tmp_statement_expression$125;
-  _Bool tmp_if_expr$129;
-  signed int tmp_statement_expression$127;
-  signed int tmp_statement_expression$120;
-  _Bool tmp_if_expr$124;
-  signed int tmp_statement_expression$122;
-  signed int tmp_statement_expression$115;
-  _Bool tmp_if_expr$119;
-  signed int tmp_statement_expression$117;
-  signed int tmp_statement_expression$110;
-  _Bool tmp_if_expr$114;
-  signed int tmp_statement_expression$112;
+  signed int return_value_ClientConfiguration_get_realmsNumber_4;
+  char *return_value_fgets_10;
+  signed int tmp_statement_expression_83;
+  signed int tmp_statement_expression_81;
+  signed int tmp_statement_expression_79;
+  signed int tmp_statement_expression_77;
+  signed int tmp_statement_expression_72;
+  _Bool tmp_if_expr_76;
+  signed int tmp_statement_expression_74;
+  signed int tmp_statement_expression_67;
+  _Bool tmp_if_expr_71;
+  signed int tmp_statement_expression_69;
+  signed int tmp_statement_expression_62;
+  _Bool tmp_if_expr_66;
+  signed int tmp_statement_expression_64;
+  signed int tmp_statement_expression_57;
+  _Bool tmp_if_expr_61;
+  signed int tmp_statement_expression_59;
+  signed int tmp_statement_expression_52;
+  _Bool tmp_if_expr_56;
+  signed int tmp_statement_expression_54;
+  signed int tmp_statement_expression_50;
+  signed int tmp_statement_expression_48;
+  signed int tmp_statement_expression_46;
+  signed int tmp_statement_expression_196;
+  _Bool tmp_if_expr_200;
+  signed int tmp_statement_expression_198;
+  signed int tmp_statement_expression_188;
+  _Bool tmp_if_expr_192;
+  signed int tmp_statement_expression_190;
+  _Bool tmp_if_expr_195;
+  signed int tmp_statement_expression_193;
+  signed int tmp_statement_expression_183;
+  _Bool tmp_if_expr_187;
+  signed int tmp_statement_expression_185;
+  signed int tmp_statement_expression_178;
+  _Bool tmp_if_expr_182;
+  signed int tmp_statement_expression_180;
+  signed int tmp_statement_expression_173;
+  _Bool tmp_if_expr_177;
+  signed int tmp_statement_expression_175;
+  signed int tmp_statement_expression_168;
+  _Bool tmp_if_expr_172;
+  signed int tmp_statement_expression_170;
+  signed int tmp_statement_expression_163;
+  _Bool tmp_if_expr_167;
+  signed int tmp_statement_expression_165;
+  signed int tmp_statement_expression_158;
+  _Bool tmp_if_expr_162;
+  signed int tmp_statement_expression_160;
+  signed int tmp_statement_expression_153;
+  _Bool tmp_if_expr_157;
+  signed int tmp_statement_expression_155;
+  signed int tmp_statement_expression_151;
+  signed int tmp_statement_expression_149;
+  signed int tmp_statement_expression_147;
+  signed int tmp_statement_expression_142;
+  _Bool tmp_if_expr_146;
+  signed int tmp_statement_expression_144;
+  signed int tmp_statement_expression_140;
+  signed int tmp_statement_expression_135;
+  _Bool tmp_if_expr_139;
+  signed int tmp_statement_expression_137;
+  signed int tmp_statement_expression_130;
+  _Bool tmp_if_expr_134;
+  signed int tmp_statement_expression_132;
+  signed int tmp_statement_expression_125;
+  _Bool tmp_if_expr_129;
+  signed int tmp_statement_expression_127;
+  signed int tmp_statement_expression_120;
+  _Bool tmp_if_expr_124;
+  signed int tmp_statement_expression_122;
+  signed int tmp_statement_expression_115;
+  _Bool tmp_if_expr_119;
+  signed int tmp_statement_expression_117;
+  signed int tmp_statement_expression_110;
+  _Bool tmp_if_expr_114;
+  signed int tmp_statement_expression_112;
   if(file == ((struct _IO_FILE *)NULL))
     return cfg;
 
   else
   {
     ClientConfiguration_set_realmsNumber(cfg, 1);
-    signed int return_value_ClientConfiguration_get_realmsNumber$1;
-    return_value_ClientConfiguration_get_realmsNumber$1=ClientConfiguration_get_realmsNumber(cfg);
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)return_value_ClientConfiguration_get_realmsNumber$1, sizeof(struct anonymous$5 *) /*8ul*/ );
-    ClientConfiguration_set_realmsTable(cfg, (struct anonymous$5 **)return_value_calloc$2);
-    struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$3;
-    return_value_ClientConfiguration_get_realmsTable$3=ClientConfiguration_get_realmsTable(cfg);
-    if(return_value_ClientConfiguration_get_realmsTable$3 == ((struct anonymous$5 **)NULL))
+    signed int return_value_ClientConfiguration_get_realmsNumber_1;
+    return_value_ClientConfiguration_get_realmsNumber_1=ClientConfiguration_get_realmsNumber(cfg);
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)return_value_ClientConfiguration_get_realmsNumber_1, sizeof(struct anonymous_5 *) /*8ul*/ );
+    ClientConfiguration_set_realmsTable(cfg, (struct anonymous_5 **)return_value_calloc_2);
+    struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_3;
+    return_value_ClientConfiguration_get_realmsTable_3=ClientConfiguration_get_realmsTable(cfg);
+    if(return_value_ClientConfiguration_get_realmsTable_3 == ((struct anonymous_5 **)NULL))
     {
       printf("Can't allocate memory for ClientRealm* table... exiting\n");
       exit(1);
@@ -10192,37 +10192,37 @@ struct anonymous$4 * cparsefile(char *name, signed int *status)
     i = 0;
     do
     {
-      return_value_ClientConfiguration_get_realmsNumber$4=ClientConfiguration_get_realmsNumber(cfg);
-      if(i >= return_value_ClientConfiguration_get_realmsNumber$4)
+      return_value_ClientConfiguration_get_realmsNumber_4=ClientConfiguration_get_realmsNumber(cfg);
+      if(i >= return_value_ClientConfiguration_get_realmsNumber_4)
         break;
 
-      struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$5;
-      return_value_ClientConfiguration_get_realmsTable$5=ClientConfiguration_get_realmsTable(cfg);
-      return_value_ClientConfiguration_get_realmsTable$5[(signed long int)i]=ClientRealm_new();
-      struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$6;
-      return_value_ClientConfiguration_get_realmsTable$6=ClientConfiguration_get_realmsTable(cfg);
-      if(return_value_ClientConfiguration_get_realmsTable$6[(signed long int)i] == ((struct anonymous$5 *)NULL))
+      struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_5;
+      return_value_ClientConfiguration_get_realmsTable_5=ClientConfiguration_get_realmsTable(cfg);
+      return_value_ClientConfiguration_get_realmsTable_5[(signed long int)i]=ClientRealm_new();
+      struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_6;
+      return_value_ClientConfiguration_get_realmsTable_6=ClientConfiguration_get_realmsTable(cfg);
+      if(return_value_ClientConfiguration_get_realmsTable_6[(signed long int)i] == ((struct anonymous_5 *)NULL))
       {
         printf("Problem with allocating memory for ClientRealm structure... exiting");
         exit(1);
       }
 
-      struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$7;
-      return_value_ClientConfiguration_get_realmsTable$7=ClientConfiguration_get_realmsTable(cfg);
-      ClientRealm_set_password(return_value_ClientConfiguration_get_realmsTable$7[(signed long int)i], pass);
-      struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$8;
-      return_value_ClientConfiguration_get_realmsTable$8=ClientConfiguration_get_realmsTable(cfg);
-      struct portlist *return_value_PortList_new$9;
-      return_value_PortList_new$9=PortList_new();
-      ClientRealm_set_destinationPorts(return_value_ClientConfiguration_get_realmsTable$8[(signed long int)i], return_value_PortList_new$9);
+      struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_7;
+      return_value_ClientConfiguration_get_realmsTable_7=ClientConfiguration_get_realmsTable(cfg);
+      ClientRealm_set_password(return_value_ClientConfiguration_get_realmsTable_7[(signed long int)i], pass);
+      struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_8;
+      return_value_ClientConfiguration_get_realmsTable_8=ClientConfiguration_get_realmsTable(cfg);
+      struct portlist *return_value_PortList_new_9;
+      return_value_PortList_new_9=PortList_new();
+      ClientRealm_set_destinationPorts(return_value_ClientConfiguration_get_realmsTable_8[(signed long int)i], return_value_PortList_new_9);
       i = i + 1;
     }
     while((_Bool)1);
     *status = 0;
     do
     {
-      return_value_fgets$10=fgets(buff, 256, file);
-      if(return_value_fgets$10 == ((char *)NULL))
+      return_value_fgets_10=fgets(buff, 256, file);
+      if(return_value_fgets_10 == ((char *)NULL))
         break;
 
       *status = *status + 1;
@@ -10234,179 +10234,179 @@ struct anonymous$4 * cparsefile(char *name, signed int *status)
       {
         if(state == 1)
         {
-          unsigned long int cparsefile$$1$$5$$2$$1$$__s1_len;
-          unsigned long int cparsefile$$1$$5$$2$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$84;
-          return_value___builtin_strcmp$84=__builtin_strcmp(helpbuf1, "ignorepkeys");
-          tmp_statement_expression$83 = return_value___builtin_strcmp$84;
-          if(tmp_statement_expression$83 == 0)
+          unsigned long int cparsefile__1__5__2__1____s1_len;
+          unsigned long int cparsefile__1__5__2__1____s2_len;
+          signed int return_value___builtin_strcmp_84;
+          return_value___builtin_strcmp_84=__builtin_strcmp(helpbuf1, "ignorepkeys");
+          tmp_statement_expression_83 = return_value___builtin_strcmp_84;
+          if(tmp_statement_expression_83 == 0)
             ClientConfiguration_set_ignorePublicKeys(cfg, (char)1);
 
           else
           {
-            unsigned long int cparsefile$$1$$5$$2$$3$$__s1_len;
-            unsigned long int cparsefile$$1$$5$$2$$3$$__s2_len;
-            signed int return_value___builtin_strcmp$82;
-            return_value___builtin_strcmp$82=__builtin_strcmp(helpbuf1, "ar-start");
-            tmp_statement_expression$81 = return_value___builtin_strcmp$82;
-            if(tmp_statement_expression$81 == 0)
+            unsigned long int cparsefile__1__5__2__3____s1_len;
+            unsigned long int cparsefile__1__5__2__3____s2_len;
+            signed int return_value___builtin_strcmp_82;
+            return_value___builtin_strcmp_82=__builtin_strcmp(helpbuf1, "ar-start");
+            tmp_statement_expression_81 = return_value___builtin_strcmp_82;
+            if(tmp_statement_expression_81 == 0)
             {
-              struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$11;
-              return_value_ClientConfiguration_get_realmsTable$11=ClientConfiguration_get_realmsTable(cfg);
-              struct anonymous$3 *return_value_ClientRealm_get_arOptions$12;
-              return_value_ClientRealm_get_arOptions$12=ClientRealm_get_arOptions(return_value_ClientConfiguration_get_realmsTable$11[(signed long int)0]);
-              ArOptions_set_arStart(return_value_ClientRealm_get_arOptions$12, (char)1);
+              struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_11;
+              return_value_ClientConfiguration_get_realmsTable_11=ClientConfiguration_get_realmsTable(cfg);
+              struct anonymous_3 *return_value_ClientRealm_get_arOptions_12;
+              return_value_ClientRealm_get_arOptions_12=ClientRealm_get_arOptions(return_value_ClientConfiguration_get_realmsTable_11[(signed long int)0]);
+              ArOptions_set_arStart(return_value_ClientRealm_get_arOptions_12, (char)1);
             }
 
             else
             {
-              unsigned long int cparsefile$$1$$5$$2$$5$$__s1_len;
-              unsigned long int cparsefile$$1$$5$$2$$5$$__s2_len;
-              signed int return_value___builtin_strcmp$80;
-              return_value___builtin_strcmp$80=__builtin_strcmp(helpbuf1, "ar-quit");
-              tmp_statement_expression$79 = return_value___builtin_strcmp$80;
-              if(tmp_statement_expression$79 == 0)
+              unsigned long int cparsefile__1__5__2__5____s1_len;
+              unsigned long int cparsefile__1__5__2__5____s2_len;
+              signed int return_value___builtin_strcmp_80;
+              return_value___builtin_strcmp_80=__builtin_strcmp(helpbuf1, "ar-quit");
+              tmp_statement_expression_79 = return_value___builtin_strcmp_80;
+              if(tmp_statement_expression_79 == 0)
               {
-                struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$13;
-                return_value_ClientConfiguration_get_realmsTable$13=ClientConfiguration_get_realmsTable(cfg);
-                struct anonymous$3 *return_value_ClientRealm_get_arOptions$14;
-                return_value_ClientRealm_get_arOptions$14=ClientRealm_get_arOptions(return_value_ClientConfiguration_get_realmsTable$13[(signed long int)0]);
-                ArOptions_set_arQuit(return_value_ClientRealm_get_arOptions$14, (char)1);
+                struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_13;
+                return_value_ClientConfiguration_get_realmsTable_13=ClientConfiguration_get_realmsTable(cfg);
+                struct anonymous_3 *return_value_ClientRealm_get_arOptions_14;
+                return_value_ClientRealm_get_arOptions_14=ClientRealm_get_arOptions(return_value_ClientConfiguration_get_realmsTable_13[(signed long int)0]);
+                ArOptions_set_arQuit(return_value_ClientRealm_get_arOptions_14, (char)1);
               }
 
               else
               {
-                unsigned long int cparsefile$$1$$5$$2$$7$$__s1_len;
-                unsigned long int cparsefile$$1$$5$$2$$7$$__s2_len;
-                signed int return_value___builtin_strcmp$78;
-                return_value___builtin_strcmp$78=__builtin_strcmp(helpbuf1, "noar");
-                tmp_statement_expression$77 = return_value___builtin_strcmp$78;
-                if(tmp_statement_expression$77 == 0)
+                unsigned long int cparsefile__1__5__2__7____s1_len;
+                unsigned long int cparsefile__1__5__2__7____s2_len;
+                signed int return_value___builtin_strcmp_78;
+                return_value___builtin_strcmp_78=__builtin_strcmp(helpbuf1, "noar");
+                tmp_statement_expression_77 = return_value___builtin_strcmp_78;
+                if(tmp_statement_expression_77 == 0)
                 {
-                  struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$15;
-                  return_value_ClientConfiguration_get_realmsTable$15=ClientConfiguration_get_realmsTable(cfg);
-                  struct anonymous$3 *return_value_ClientRealm_get_arOptions$16;
-                  return_value_ClientRealm_get_arOptions$16=ClientRealm_get_arOptions(return_value_ClientConfiguration_get_realmsTable$15[(signed long int)0]);
-                  ArOptions_set_arPremature(return_value_ClientRealm_get_arOptions$16, (char)0);
+                  struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_15;
+                  return_value_ClientConfiguration_get_realmsTable_15=ClientConfiguration_get_realmsTable(cfg);
+                  struct anonymous_3 *return_value_ClientRealm_get_arOptions_16;
+                  return_value_ClientRealm_get_arOptions_16=ClientRealm_get_arOptions(return_value_ClientConfiguration_get_realmsTable_15[(signed long int)0]);
+                  ArOptions_set_arPremature(return_value_ClientRealm_get_arOptions_16, (char)0);
                 }
 
                 else
                 {
-                  unsigned long int cparsefile$$1$$5$$2$$9$$__s1_len;
-                  unsigned long int cparsefile$$1$$5$$2$$9$$__s2_len;
-                  signed int return_value___builtin_strcmp$73;
-                  return_value___builtin_strcmp$73=__builtin_strcmp(helpbuf1, "u");
-                  tmp_statement_expression$72 = return_value___builtin_strcmp$73;
-                  if(tmp_statement_expression$72 == 0)
-                    tmp_if_expr$76 = (_Bool)1;
+                  unsigned long int cparsefile__1__5__2__9____s1_len;
+                  unsigned long int cparsefile__1__5__2__9____s2_len;
+                  signed int return_value___builtin_strcmp_73;
+                  return_value___builtin_strcmp_73=__builtin_strcmp(helpbuf1, "u");
+                  tmp_statement_expression_72 = return_value___builtin_strcmp_73;
+                  if(tmp_statement_expression_72 == 0)
+                    tmp_if_expr_76 = (_Bool)1;
 
                   else
                   {
-                    unsigned long int cparsefile$$1$$5$$2$$10$$__s1_len;
-                    unsigned long int cparsefile$$1$$5$$2$$10$$__s2_len;
-                    signed int return_value___builtin_strcmp$75;
-                    return_value___builtin_strcmp$75=__builtin_strcmp(helpbuf1, "udpmode");
-                    tmp_statement_expression$74 = return_value___builtin_strcmp$75;
-                    tmp_if_expr$76 = tmp_statement_expression$74 == 0 ? (_Bool)1 : (_Bool)0;
+                    unsigned long int cparsefile__1__5__2__10____s1_len;
+                    unsigned long int cparsefile__1__5__2__10____s2_len;
+                    signed int return_value___builtin_strcmp_75;
+                    return_value___builtin_strcmp_75=__builtin_strcmp(helpbuf1, "udpmode");
+                    tmp_statement_expression_74 = return_value___builtin_strcmp_75;
+                    tmp_if_expr_76 = tmp_statement_expression_74 == 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$76)
+                  if(tmp_if_expr_76)
                   {
-                    struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$19;
-                    return_value_ClientConfiguration_get_realmsTable$19=ClientConfiguration_get_realmsTable(cfg);
-                    signed int return_value_ClientRealm_get_clientMode$20;
-                    return_value_ClientRealm_get_clientMode$20=ClientRealm_get_clientMode(return_value_ClientConfiguration_get_realmsTable$19[(signed long int)0]);
-                    if(return_value_ClientRealm_get_clientMode$20 == 0)
+                    struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_19;
+                    return_value_ClientConfiguration_get_realmsTable_19=ClientConfiguration_get_realmsTable(cfg);
+                    signed int return_value_ClientRealm_get_clientMode_20;
+                    return_value_ClientRealm_get_clientMode_20=ClientRealm_get_clientMode(return_value_ClientConfiguration_get_realmsTable_19[(signed long int)0]);
+                    if(return_value_ClientRealm_get_clientMode_20 == 0)
                     {
-                      struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$17;
-                      return_value_ClientConfiguration_get_realmsTable$17=ClientConfiguration_get_realmsTable(cfg);
-                      ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable$17[(signed long int)0], 1);
+                      struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_17;
+                      return_value_ClientConfiguration_get_realmsTable_17=ClientConfiguration_get_realmsTable(cfg);
+                      ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable_17[(signed long int)0], 1);
                     }
 
                     else
                     {
-                      struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$18;
-                      return_value_ClientConfiguration_get_realmsTable$18=ClientConfiguration_get_realmsTable(cfg);
-                      ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable$18[(signed long int)0], -1);
+                      struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_18;
+                      return_value_ClientConfiguration_get_realmsTable_18=ClientConfiguration_get_realmsTable(cfg);
+                      ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable_18[(signed long int)0], -1);
                     }
                   }
 
                   else
                   {
-                    unsigned long int cparsefile$$1$$5$$2$$12$$__s1_len;
-                    unsigned long int cparsefile$$1$$5$$2$$12$$__s2_len;
-                    signed int return_value___builtin_strcmp$68;
-                    return_value___builtin_strcmp$68=__builtin_strcmp(helpbuf1, "U");
-                    tmp_statement_expression$67 = return_value___builtin_strcmp$68;
-                    if(tmp_statement_expression$67 == 0)
-                      tmp_if_expr$71 = (_Bool)1;
+                    unsigned long int cparsefile__1__5__2__12____s1_len;
+                    unsigned long int cparsefile__1__5__2__12____s2_len;
+                    signed int return_value___builtin_strcmp_68;
+                    return_value___builtin_strcmp_68=__builtin_strcmp(helpbuf1, "U");
+                    tmp_statement_expression_67 = return_value___builtin_strcmp_68;
+                    if(tmp_statement_expression_67 == 0)
+                      tmp_if_expr_71 = (_Bool)1;
 
                     else
                     {
-                      unsigned long int cparsefile$$1$$5$$2$$13$$__s1_len;
-                      unsigned long int cparsefile$$1$$5$$2$$13$$__s2_len;
-                      signed int return_value___builtin_strcmp$70;
-                      return_value___builtin_strcmp$70=__builtin_strcmp(helpbuf1, "reverseudp");
-                      tmp_statement_expression$69 = return_value___builtin_strcmp$70;
-                      tmp_if_expr$71 = tmp_statement_expression$69 == 0 ? (_Bool)1 : (_Bool)0;
+                      unsigned long int cparsefile__1__5__2__13____s1_len;
+                      unsigned long int cparsefile__1__5__2__13____s2_len;
+                      signed int return_value___builtin_strcmp_70;
+                      return_value___builtin_strcmp_70=__builtin_strcmp(helpbuf1, "reverseudp");
+                      tmp_statement_expression_69 = return_value___builtin_strcmp_70;
+                      tmp_if_expr_71 = tmp_statement_expression_69 == 0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$71)
+                    if(tmp_if_expr_71)
                     {
-                      struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$23;
-                      return_value_ClientConfiguration_get_realmsTable$23=ClientConfiguration_get_realmsTable(cfg);
-                      signed int return_value_ClientRealm_get_clientMode$24;
-                      return_value_ClientRealm_get_clientMode$24=ClientRealm_get_clientMode(return_value_ClientConfiguration_get_realmsTable$23[(signed long int)0]);
-                      if(return_value_ClientRealm_get_clientMode$24 == 0)
+                      struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_23;
+                      return_value_ClientConfiguration_get_realmsTable_23=ClientConfiguration_get_realmsTable(cfg);
+                      signed int return_value_ClientRealm_get_clientMode_24;
+                      return_value_ClientRealm_get_clientMode_24=ClientRealm_get_clientMode(return_value_ClientConfiguration_get_realmsTable_23[(signed long int)0]);
+                      if(return_value_ClientRealm_get_clientMode_24 == 0)
                       {
-                        struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$21;
-                        return_value_ClientConfiguration_get_realmsTable$21=ClientConfiguration_get_realmsTable(cfg);
-                        ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable$21[(signed long int)0], 3);
+                        struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_21;
+                        return_value_ClientConfiguration_get_realmsTable_21=ClientConfiguration_get_realmsTable(cfg);
+                        ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable_21[(signed long int)0], 3);
                       }
 
                       else
                       {
-                        struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$22;
-                        return_value_ClientConfiguration_get_realmsTable$22=ClientConfiguration_get_realmsTable(cfg);
-                        ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable$22[(signed long int)0], -1);
+                        struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_22;
+                        return_value_ClientConfiguration_get_realmsTable_22=ClientConfiguration_get_realmsTable(cfg);
+                        ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable_22[(signed long int)0], -1);
                       }
                     }
 
                     else
                     {
-                      unsigned long int cparsefile$$1$$5$$2$$15$$__s1_len;
-                      unsigned long int cparsefile$$1$$5$$2$$15$$__s2_len;
-                      signed int return_value___builtin_strcmp$63;
-                      return_value___builtin_strcmp$63=__builtin_strcmp(helpbuf1, "r");
-                      tmp_statement_expression$62 = return_value___builtin_strcmp$63;
-                      if(tmp_statement_expression$62 == 0)
-                        tmp_if_expr$66 = (_Bool)1;
+                      unsigned long int cparsefile__1__5__2__15____s1_len;
+                      unsigned long int cparsefile__1__5__2__15____s2_len;
+                      signed int return_value___builtin_strcmp_63;
+                      return_value___builtin_strcmp_63=__builtin_strcmp(helpbuf1, "r");
+                      tmp_statement_expression_62 = return_value___builtin_strcmp_63;
+                      if(tmp_statement_expression_62 == 0)
+                        tmp_if_expr_66 = (_Bool)1;
 
                       else
                       {
-                        unsigned long int cparsefile$$1$$5$$2$$16$$__s1_len;
-                        unsigned long int cparsefile$$1$$5$$2$$16$$__s2_len;
-                        signed int return_value___builtin_strcmp$65;
-                        return_value___builtin_strcmp$65=__builtin_strcmp(helpbuf1, "remoteadmin");
-                        tmp_statement_expression$64 = return_value___builtin_strcmp$65;
-                        tmp_if_expr$66 = tmp_statement_expression$64 == 0 ? (_Bool)1 : (_Bool)0;
+                        unsigned long int cparsefile__1__5__2__16____s1_len;
+                        unsigned long int cparsefile__1__5__2__16____s2_len;
+                        signed int return_value___builtin_strcmp_65;
+                        return_value___builtin_strcmp_65=__builtin_strcmp(helpbuf1, "remoteadmin");
+                        tmp_statement_expression_64 = return_value___builtin_strcmp_65;
+                        tmp_if_expr_66 = tmp_statement_expression_64 == 0 ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$66)
+                      if(tmp_if_expr_66)
                       {
-                        struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$27;
-                        return_value_ClientConfiguration_get_realmsTable$27=ClientConfiguration_get_realmsTable(cfg);
-                        signed int return_value_ClientRealm_get_clientMode$28;
-                        return_value_ClientRealm_get_clientMode$28=ClientRealm_get_clientMode(return_value_ClientConfiguration_get_realmsTable$27[(signed long int)0]);
-                        if(return_value_ClientRealm_get_clientMode$28 == 0)
+                        struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_27;
+                        return_value_ClientConfiguration_get_realmsTable_27=ClientConfiguration_get_realmsTable(cfg);
+                        signed int return_value_ClientRealm_get_clientMode_28;
+                        return_value_ClientRealm_get_clientMode_28=ClientRealm_get_clientMode(return_value_ClientConfiguration_get_realmsTable_27[(signed long int)0]);
+                        if(return_value_ClientRealm_get_clientMode_28 == 0)
                         {
-                          struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$25;
-                          return_value_ClientConfiguration_get_realmsTable$25=ClientConfiguration_get_realmsTable(cfg);
-                          ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable$25[(signed long int)0], 2);
+                          struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_25;
+                          return_value_ClientConfiguration_get_realmsTable_25=ClientConfiguration_get_realmsTable(cfg);
+                          ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable_25[(signed long int)0], 2);
                         }
 
                         else
                         {
-                          struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$26;
-                          return_value_ClientConfiguration_get_realmsTable$26=ClientConfiguration_get_realmsTable(cfg);
-                          ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable$26[(signed long int)0], -1);
+                          struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_26;
+                          return_value_ClientConfiguration_get_realmsTable_26=ClientConfiguration_get_realmsTable(cfg);
+                          ClientRealm_set_clientMode(return_value_ClientConfiguration_get_realmsTable_26[(signed long int)0], -1);
                         }
                       }
 
@@ -10414,76 +10414,76 @@ struct anonymous$4 * cparsefile(char *name, signed int *status)
                       {
                         unsigned long int __s1_len;
                         unsigned long int __s2_len;
-                        signed int return_value___builtin_strcmp$58;
-                        return_value___builtin_strcmp$58=__builtin_strcmp(helpbuf1, "S");
-                        tmp_statement_expression$57 = return_value___builtin_strcmp$58;
-                        if(tmp_statement_expression$57 == 0)
-                          tmp_if_expr$61 = (_Bool)1;
+                        signed int return_value___builtin_strcmp_58;
+                        return_value___builtin_strcmp_58=__builtin_strcmp(helpbuf1, "S");
+                        tmp_statement_expression_57 = return_value___builtin_strcmp_58;
+                        if(tmp_statement_expression_57 == 0)
+                          tmp_if_expr_61 = (_Bool)1;
 
                         else
                         {
-                          unsigned long int cparsefile$$1$$5$$2$$19$$__s1_len;
-                          unsigned long int cparsefile$$1$$5$$2$$19$$__s2_len;
-                          signed int return_value___builtin_strcmp$60;
-                          return_value___builtin_strcmp$60=__builtin_strcmp(helpbuf1, "use-https");
-                          tmp_statement_expression$59 = return_value___builtin_strcmp$60;
-                          tmp_if_expr$61 = tmp_statement_expression$59 == 0 ? (_Bool)1 : (_Bool)0;
+                          unsigned long int cparsefile__1__5__2__19____s1_len;
+                          unsigned long int cparsefile__1__5__2__19____s2_len;
+                          signed int return_value___builtin_strcmp_60;
+                          return_value___builtin_strcmp_60=__builtin_strcmp(helpbuf1, "use-https");
+                          tmp_statement_expression_59 = return_value___builtin_strcmp_60;
+                          tmp_if_expr_61 = tmp_statement_expression_59 == 0 ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$61)
+                        if(tmp_if_expr_61)
                         {
-                          struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$29;
-                          return_value_ClientConfiguration_get_realmsTable$29=ClientConfiguration_get_realmsTable(cfg);
-                          struct anonymous *return_value_ClientRealm_get_httpProxyOptions$30;
-                          return_value_ClientRealm_get_httpProxyOptions$30=ClientRealm_get_httpProxyOptions(return_value_ClientConfiguration_get_realmsTable$29[(signed long int)0]);
-                          HttpProxyOptions_use_https(return_value_ClientRealm_get_httpProxyOptions$30);
+                          struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_29;
+                          return_value_ClientConfiguration_get_realmsTable_29=ClientConfiguration_get_realmsTable(cfg);
+                          struct anonymous *return_value_ClientRealm_get_httpProxyOptions_30;
+                          return_value_ClientRealm_get_httpProxyOptions_30=ClientRealm_get_httpProxyOptions(return_value_ClientConfiguration_get_realmsTable_29[(signed long int)0]);
+                          HttpProxyOptions_use_https(return_value_ClientRealm_get_httpProxyOptions_30);
                         }
 
                         else
                         {
-                          unsigned long int cparsefile$$1$$5$$2$$21$$__s1_len;
-                          unsigned long int cparsefile$$1$$5$$2$$21$$__s2_len;
-                          signed int return_value___builtin_strcmp$53;
-                          return_value___builtin_strcmp$53=__builtin_strcmp(helpbuf1, "B");
-                          tmp_statement_expression$52 = return_value___builtin_strcmp$53;
-                          if(tmp_statement_expression$52 == 0)
-                            tmp_if_expr$56 = (_Bool)1;
+                          unsigned long int cparsefile__1__5__2__21____s1_len;
+                          unsigned long int cparsefile__1__5__2__21____s2_len;
+                          signed int return_value___builtin_strcmp_53;
+                          return_value___builtin_strcmp_53=__builtin_strcmp(helpbuf1, "B");
+                          tmp_statement_expression_52 = return_value___builtin_strcmp_53;
+                          if(tmp_statement_expression_52 == 0)
+                            tmp_if_expr_56 = (_Bool)1;
 
                           else
                           {
-                            unsigned long int cparsefile$$1$$5$$2$$22$$__s1_len;
-                            unsigned long int cparsefile$$1$$5$$2$$22$$__s2_len;
-                            signed int return_value___builtin_strcmp$55;
-                            return_value___builtin_strcmp$55=__builtin_strcmp(helpbuf1, "pa-t-basic");
-                            tmp_statement_expression$54 = return_value___builtin_strcmp$55;
-                            tmp_if_expr$56 = tmp_statement_expression$54 == 0 ? (_Bool)1 : (_Bool)0;
+                            unsigned long int cparsefile__1__5__2__22____s1_len;
+                            unsigned long int cparsefile__1__5__2__22____s2_len;
+                            signed int return_value___builtin_strcmp_55;
+                            return_value___builtin_strcmp_55=__builtin_strcmp(helpbuf1, "pa-t-basic");
+                            tmp_statement_expression_54 = return_value___builtin_strcmp_55;
+                            tmp_if_expr_56 = tmp_statement_expression_54 == 0 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$56)
+                          if(tmp_if_expr_56)
                           {
-                            struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$31;
-                            return_value_ClientConfiguration_get_realmsTable$31=ClientConfiguration_get_realmsTable(cfg);
-                            struct anonymous *return_value_ClientRealm_get_httpProxyOptions$32;
-                            return_value_ClientRealm_get_httpProxyOptions$32=ClientRealm_get_httpProxyOptions(return_value_ClientConfiguration_get_realmsTable$31[(signed long int)0]);
-                            HttpProxyOptions_set_proxyauth_type(return_value_ClientRealm_get_httpProxyOptions$32, (char)1);
+                            struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_31;
+                            return_value_ClientConfiguration_get_realmsTable_31=ClientConfiguration_get_realmsTable(cfg);
+                            struct anonymous *return_value_ClientRealm_get_httpProxyOptions_32;
+                            return_value_ClientRealm_get_httpProxyOptions_32=ClientRealm_get_httpProxyOptions(return_value_ClientConfiguration_get_realmsTable_31[(signed long int)0]);
+                            HttpProxyOptions_set_proxyauth_type(return_value_ClientRealm_get_httpProxyOptions_32, (char)1);
                           }
 
                           else
                           {
-                            unsigned long int cparsefile$$1$$5$$2$$24$$__s1_len;
-                            unsigned long int cparsefile$$1$$5$$2$$24$$__s2_len;
-                            signed int return_value___builtin_strcmp$51;
-                            return_value___builtin_strcmp$51=__builtin_strcmp(helpbuf1, "enableproxy");
-                            tmp_statement_expression$50 = return_value___builtin_strcmp$51;
-                            if(tmp_statement_expression$50 == 0)
+                            unsigned long int cparsefile__1__5__2__24____s1_len;
+                            unsigned long int cparsefile__1__5__2__24____s2_len;
+                            signed int return_value___builtin_strcmp_51;
+                            return_value___builtin_strcmp_51=__builtin_strcmp(helpbuf1, "enableproxy");
+                            tmp_statement_expression_50 = return_value___builtin_strcmp_51;
+                            if(tmp_statement_expression_50 == 0)
                             {
-                              struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$34;
-                              return_value_ClientConfiguration_get_realmsTable$34=ClientConfiguration_get_realmsTable(cfg);
-                              char return_value_ClientRealm_get_tunnelType$35;
-                              return_value_ClientRealm_get_tunnelType$35=ClientRealm_get_tunnelType(return_value_ClientConfiguration_get_realmsTable$34[(signed long int)0]);
-                              if((signed int)return_value_ClientRealm_get_tunnelType$35 == 0)
+                              struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_34;
+                              return_value_ClientConfiguration_get_realmsTable_34=ClientConfiguration_get_realmsTable(cfg);
+                              char return_value_ClientRealm_get_tunnelType_35;
+                              return_value_ClientRealm_get_tunnelType_35=ClientRealm_get_tunnelType(return_value_ClientConfiguration_get_realmsTable_34[(signed long int)0]);
+                              if((signed int)return_value_ClientRealm_get_tunnelType_35 == 0)
                               {
-                                struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$33;
-                                return_value_ClientConfiguration_get_realmsTable$33=ClientConfiguration_get_realmsTable(cfg);
-                                ClientRealm_set_tunnelType(return_value_ClientConfiguration_get_realmsTable$33[(signed long int)0], (char)1);
+                                struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_33;
+                                return_value_ClientConfiguration_get_realmsTable_33=ClientConfiguration_get_realmsTable(cfg);
+                                ClientRealm_set_tunnelType(return_value_ClientConfiguration_get_realmsTable_33[(signed long int)0], (char)1);
                               }
 
                               else
@@ -10492,28 +10492,28 @@ struct anonymous$4 * cparsefile(char *name, signed int *status)
 
                             else
                             {
-                              unsigned long int cparsefile$$1$$5$$2$$26$$__s1_len;
-                              unsigned long int cparsefile$$1$$5$$2$$26$$__s2_len;
-                              signed int return_value___builtin_strcmp$49;
-                              return_value___builtin_strcmp$49=__builtin_strcmp(helpbuf1, "ipv4");
-                              tmp_statement_expression$48 = return_value___builtin_strcmp$49;
-                              if(tmp_statement_expression$48 == 0)
+                              unsigned long int cparsefile__1__5__2__26____s1_len;
+                              unsigned long int cparsefile__1__5__2__26____s2_len;
+                              signed int return_value___builtin_strcmp_49;
+                              return_value___builtin_strcmp_49=__builtin_strcmp(helpbuf1, "ipv4");
+                              tmp_statement_expression_48 = return_value___builtin_strcmp_49;
+                              if(tmp_statement_expression_48 == 0)
                               {
-                                struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$39;
-                                return_value_ClientConfiguration_get_realmsTable$39=ClientConfiguration_get_realmsTable(cfg);
-                                char return_value_ClientRealm_get_realmType$40;
-                                return_value_ClientRealm_get_realmType$40=ClientRealm_get_realmType(return_value_ClientConfiguration_get_realmsTable$39[(signed long int)0]);
-                                if((48 & (signed int)return_value_ClientRealm_get_realmType$40) == 0)
+                                struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_39;
+                                return_value_ClientConfiguration_get_realmsTable_39=ClientConfiguration_get_realmsTable(cfg);
+                                char return_value_ClientRealm_get_realmType_40;
+                                return_value_ClientRealm_get_realmType_40=ClientRealm_get_realmType(return_value_ClientConfiguration_get_realmsTable_39[(signed long int)0]);
+                                if((48 & (signed int)return_value_ClientRealm_get_realmType_40) == 0)
                                 {
-                                  struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$36;
-                                  return_value_ClientConfiguration_get_realmsTable$36=ClientConfiguration_get_realmsTable(cfg);
-                                  char return_value_ClientRealm_get_realmType$37;
-                                  return_value_ClientRealm_get_realmType$37=ClientRealm_get_realmType(return_value_ClientConfiguration_get_realmsTable$36[(signed long int)0]);
-                                  temp = (signed int)return_value_ClientRealm_get_realmType$37;
+                                  struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_36;
+                                  return_value_ClientConfiguration_get_realmsTable_36=ClientConfiguration_get_realmsTable(cfg);
+                                  char return_value_ClientRealm_get_realmType_37;
+                                  return_value_ClientRealm_get_realmType_37=ClientRealm_get_realmType(return_value_ClientConfiguration_get_realmsTable_36[(signed long int)0]);
+                                  temp = (signed int)return_value_ClientRealm_get_realmType_37;
                                   temp = temp | 16;
-                                  struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$38;
-                                  return_value_ClientConfiguration_get_realmsTable$38=ClientConfiguration_get_realmsTable(cfg);
-                                  ClientRealm_set_realmType(return_value_ClientConfiguration_get_realmsTable$38[(signed long int)0], (char)temp);
+                                  struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_38;
+                                  return_value_ClientConfiguration_get_realmsTable_38=ClientConfiguration_get_realmsTable(cfg);
+                                  ClientRealm_set_realmType(return_value_ClientConfiguration_get_realmsTable_38[(signed long int)0], (char)temp);
                                 }
 
                                 else
@@ -10522,28 +10522,28 @@ struct anonymous$4 * cparsefile(char *name, signed int *status)
 
                               else
                               {
-                                unsigned long int cparsefile$$1$$5$$2$$28$$__s1_len;
-                                unsigned long int cparsefile$$1$$5$$2$$28$$__s2_len;
-                                signed int return_value___builtin_strcmp$47;
-                                return_value___builtin_strcmp$47=__builtin_strcmp(helpbuf1, "ipv6");
-                                tmp_statement_expression$46 = return_value___builtin_strcmp$47;
-                                if(tmp_statement_expression$46 == 0)
+                                unsigned long int cparsefile__1__5__2__28____s1_len;
+                                unsigned long int cparsefile__1__5__2__28____s2_len;
+                                signed int return_value___builtin_strcmp_47;
+                                return_value___builtin_strcmp_47=__builtin_strcmp(helpbuf1, "ipv6");
+                                tmp_statement_expression_46 = return_value___builtin_strcmp_47;
+                                if(tmp_statement_expression_46 == 0)
                                 {
-                                  struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$44;
-                                  return_value_ClientConfiguration_get_realmsTable$44=ClientConfiguration_get_realmsTable(cfg);
-                                  char return_value_ClientRealm_get_realmType$45;
-                                  return_value_ClientRealm_get_realmType$45=ClientRealm_get_realmType(return_value_ClientConfiguration_get_realmsTable$44[(signed long int)0]);
-                                  if((48 & (signed int)return_value_ClientRealm_get_realmType$45) == 0)
+                                  struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_44;
+                                  return_value_ClientConfiguration_get_realmsTable_44=ClientConfiguration_get_realmsTable(cfg);
+                                  char return_value_ClientRealm_get_realmType_45;
+                                  return_value_ClientRealm_get_realmType_45=ClientRealm_get_realmType(return_value_ClientConfiguration_get_realmsTable_44[(signed long int)0]);
+                                  if((48 & (signed int)return_value_ClientRealm_get_realmType_45) == 0)
                                   {
-                                    struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$41;
-                                    return_value_ClientConfiguration_get_realmsTable$41=ClientConfiguration_get_realmsTable(cfg);
-                                    char return_value_ClientRealm_get_realmType$42;
-                                    return_value_ClientRealm_get_realmType$42=ClientRealm_get_realmType(return_value_ClientConfiguration_get_realmsTable$41[(signed long int)0]);
-                                    temp = (signed int)return_value_ClientRealm_get_realmType$42;
+                                    struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_41;
+                                    return_value_ClientConfiguration_get_realmsTable_41=ClientConfiguration_get_realmsTable(cfg);
+                                    char return_value_ClientRealm_get_realmType_42;
+                                    return_value_ClientRealm_get_realmType_42=ClientRealm_get_realmType(return_value_ClientConfiguration_get_realmsTable_41[(signed long int)0]);
+                                    temp = (signed int)return_value_ClientRealm_get_realmType_42;
                                     temp = temp | 32;
-                                    struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$43;
-                                    return_value_ClientConfiguration_get_realmsTable$43=ClientConfiguration_get_realmsTable(cfg);
-                                    ClientRealm_set_realmType(return_value_ClientConfiguration_get_realmsTable$43[(signed long int)0], (char)temp);
+                                    struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_43;
+                                    return_value_ClientConfiguration_get_realmsTable_43=ClientConfiguration_get_realmsTable(cfg);
+                                    ClientRealm_set_realmType(return_value_ClientConfiguration_get_realmsTable_43[(signed long int)0], (char)temp);
                                   }
 
                                   else
@@ -10568,495 +10568,495 @@ struct anonymous$4 * cparsefile(char *name, signed int *status)
         else
           if(state == 2)
           {
-            unsigned long int cparsefile$$1$$5$$3$$1$$__s1_len;
-            unsigned long int cparsefile$$1$$5$$3$$1$$__s2_len;
-            signed int return_value___builtin_strcmp$197;
-            return_value___builtin_strcmp$197=__builtin_strcmp(helpbuf1, "k");
-            tmp_statement_expression$196 = return_value___builtin_strcmp$197;
-            if(tmp_statement_expression$196 == 0)
-              tmp_if_expr$200 = (_Bool)1;
+            unsigned long int cparsefile__1__5__3__1____s1_len;
+            unsigned long int cparsefile__1__5__3__1____s2_len;
+            signed int return_value___builtin_strcmp_197;
+            return_value___builtin_strcmp_197=__builtin_strcmp(helpbuf1, "k");
+            tmp_statement_expression_196 = return_value___builtin_strcmp_197;
+            if(tmp_statement_expression_196 == 0)
+              tmp_if_expr_200 = (_Bool)1;
 
             else
             {
-              unsigned long int cparsefile$$1$$5$$3$$2$$__s1_len;
-              unsigned long int cparsefile$$1$$5$$3$$2$$__s2_len;
-              signed int return_value___builtin_strcmp$199;
-              return_value___builtin_strcmp$199=__builtin_strcmp(helpbuf1, "keyfile");
-              tmp_statement_expression$198 = return_value___builtin_strcmp$199;
-              tmp_if_expr$200 = tmp_statement_expression$198 == 0 ? (_Bool)1 : (_Bool)0;
+              unsigned long int cparsefile__1__5__3__2____s1_len;
+              unsigned long int cparsefile__1__5__3__2____s2_len;
+              signed int return_value___builtin_strcmp_199;
+              return_value___builtin_strcmp_199=__builtin_strcmp(helpbuf1, "keyfile");
+              tmp_statement_expression_198 = return_value___builtin_strcmp_199;
+              tmp_if_expr_200 = tmp_statement_expression_198 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$200)
+            if(tmp_if_expr_200)
               ClientConfiguration_set_keysFile(cfg, helpbuf2);
 
             else
             {
-              unsigned long int cparsefile$$1$$5$$3$$4$$__s1_len;
-              unsigned long int cparsefile$$1$$5$$3$$4$$__s2_len;
-              signed int return_value___builtin_strcmp$189;
-              return_value___builtin_strcmp$189=__builtin_strcmp(helpbuf1, "c");
-              tmp_statement_expression$188 = return_value___builtin_strcmp$189;
-              if(tmp_statement_expression$188 == 0)
-                tmp_if_expr$192 = (_Bool)1;
+              unsigned long int cparsefile__1__5__3__4____s1_len;
+              unsigned long int cparsefile__1__5__3__4____s2_len;
+              signed int return_value___builtin_strcmp_189;
+              return_value___builtin_strcmp_189=__builtin_strcmp(helpbuf1, "c");
+              tmp_statement_expression_188 = return_value___builtin_strcmp_189;
+              if(tmp_statement_expression_188 == 0)
+                tmp_if_expr_192 = (_Bool)1;
 
               else
               {
-                unsigned long int cparsefile$$1$$5$$3$$5$$__s1_len;
-                unsigned long int cparsefile$$1$$5$$3$$5$$__s2_len;
-                signed int return_value___builtin_strcmp$191;
-                return_value___builtin_strcmp$191=__builtin_strcmp(helpbuf1, "certificate");
-                tmp_statement_expression$190 = return_value___builtin_strcmp$191;
-                tmp_if_expr$192 = tmp_statement_expression$190 == 0 ? (_Bool)1 : (_Bool)0;
+                unsigned long int cparsefile__1__5__3__5____s1_len;
+                unsigned long int cparsefile__1__5__3__5____s2_len;
+                signed int return_value___builtin_strcmp_191;
+                return_value___builtin_strcmp_191=__builtin_strcmp(helpbuf1, "certificate");
+                tmp_statement_expression_190 = return_value___builtin_strcmp_191;
+                tmp_if_expr_192 = tmp_statement_expression_190 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$192)
-                tmp_if_expr$195 = (_Bool)1;
+              if(tmp_if_expr_192)
+                tmp_if_expr_195 = (_Bool)1;
 
               else
               {
-                unsigned long int cparsefile$$1$$5$$3$$6$$__s1_len;
-                unsigned long int cparsefile$$1$$5$$3$$6$$__s2_len;
-                signed int return_value___builtin_strcmp$194;
-                return_value___builtin_strcmp$194=__builtin_strcmp(helpbuf1, "cerfile");
-                tmp_statement_expression$193 = return_value___builtin_strcmp$194;
-                tmp_if_expr$195 = tmp_statement_expression$193 == 0 ? (_Bool)1 : (_Bool)0;
+                unsigned long int cparsefile__1__5__3__6____s1_len;
+                unsigned long int cparsefile__1__5__3__6____s2_len;
+                signed int return_value___builtin_strcmp_194;
+                return_value___builtin_strcmp_194=__builtin_strcmp(helpbuf1, "cerfile");
+                tmp_statement_expression_193 = return_value___builtin_strcmp_194;
+                tmp_if_expr_195 = tmp_statement_expression_193 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$195)
+              if(tmp_if_expr_195)
                 ClientConfiguration_set_certificateFile(cfg, helpbuf2);
 
               else
               {
-                unsigned long int cparsefile$$1$$5$$3$$8$$__s1_len;
-                unsigned long int cparsefile$$1$$5$$3$$8$$__s2_len;
-                signed int return_value___builtin_strcmp$184;
-                return_value___builtin_strcmp$184=__builtin_strcmp(helpbuf1, "s");
-                tmp_statement_expression$183 = return_value___builtin_strcmp$184;
-                if(tmp_statement_expression$183 == 0)
-                  tmp_if_expr$187 = (_Bool)1;
+                unsigned long int cparsefile__1__5__3__8____s1_len;
+                unsigned long int cparsefile__1__5__3__8____s2_len;
+                signed int return_value___builtin_strcmp_184;
+                return_value___builtin_strcmp_184=__builtin_strcmp(helpbuf1, "s");
+                tmp_statement_expression_183 = return_value___builtin_strcmp_184;
+                if(tmp_statement_expression_183 == 0)
+                  tmp_if_expr_187 = (_Bool)1;
 
                 else
                 {
-                  unsigned long int cparsefile$$1$$5$$3$$9$$__s1_len;
-                  unsigned long int cparsefile$$1$$5$$3$$9$$__s2_len;
-                  signed int return_value___builtin_strcmp$186;
-                  return_value___builtin_strcmp$186=__builtin_strcmp(helpbuf1, "storefile");
-                  tmp_statement_expression$185 = return_value___builtin_strcmp$186;
-                  tmp_if_expr$187 = tmp_statement_expression$185 == 0 ? (_Bool)1 : (_Bool)0;
+                  unsigned long int cparsefile__1__5__3__9____s1_len;
+                  unsigned long int cparsefile__1__5__3__9____s2_len;
+                  signed int return_value___builtin_strcmp_186;
+                  return_value___builtin_strcmp_186=__builtin_strcmp(helpbuf1, "storefile");
+                  tmp_statement_expression_185 = return_value___builtin_strcmp_186;
+                  tmp_if_expr_187 = tmp_statement_expression_185 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$187)
+                if(tmp_if_expr_187)
                   ClientConfiguration_set_storeFile(cfg, helpbuf2);
 
                 else
                 {
-                  unsigned long int cparsefile$$1$$5$$3$$11$$__s1_len;
-                  unsigned long int cparsefile$$1$$5$$3$$11$$__s2_len;
-                  signed int return_value___builtin_strcmp$179;
-                  return_value___builtin_strcmp$179=__builtin_strcmp(helpbuf1, "o");
-                  tmp_statement_expression$178 = return_value___builtin_strcmp$179;
-                  if(tmp_statement_expression$178 == 0)
-                    tmp_if_expr$182 = (_Bool)1;
+                  unsigned long int cparsefile__1__5__3__11____s1_len;
+                  unsigned long int cparsefile__1__5__3__11____s2_len;
+                  signed int return_value___builtin_strcmp_179;
+                  return_value___builtin_strcmp_179=__builtin_strcmp(helpbuf1, "o");
+                  tmp_statement_expression_178 = return_value___builtin_strcmp_179;
+                  if(tmp_statement_expression_178 == 0)
+                    tmp_if_expr_182 = (_Bool)1;
 
                   else
                   {
-                    unsigned long int cparsefile$$1$$5$$3$$12$$__s1_len;
-                    unsigned long int cparsefile$$1$$5$$3$$12$$__s2_len;
-                    signed int return_value___builtin_strcmp$181;
-                    return_value___builtin_strcmp$181=__builtin_strcmp(helpbuf1, "log");
-                    tmp_statement_expression$180 = return_value___builtin_strcmp$181;
-                    tmp_if_expr$182 = tmp_statement_expression$180 == 0 ? (_Bool)1 : (_Bool)0;
+                    unsigned long int cparsefile__1__5__3__12____s1_len;
+                    unsigned long int cparsefile__1__5__3__12____s2_len;
+                    signed int return_value___builtin_strcmp_181;
+                    return_value___builtin_strcmp_181=__builtin_strcmp(helpbuf1, "log");
+                    tmp_statement_expression_180 = return_value___builtin_strcmp_181;
+                    tmp_if_expr_182 = tmp_statement_expression_180 == 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$182)
+                  if(tmp_if_expr_182)
                   {
-                    unsigned long int return_value_strlen$85;
-                    return_value_strlen$85=strlen(helpbuf2);
-                    void *return_value_calloc$86;
-                    return_value_calloc$86=calloc(return_value_strlen$85 + (unsigned long int)1, sizeof(char) /*1ul*/ );
-                    tmpbuf = (char *)return_value_calloc$86;
+                    unsigned long int return_value_strlen_85;
+                    return_value_strlen_85=strlen(helpbuf2);
+                    void *return_value_calloc_86;
+                    return_value_calloc_86=calloc(return_value_strlen_85 + (unsigned long int)1, sizeof(char) /*1ul*/ );
+                    tmpbuf = (char *)return_value_calloc_86;
                     strcpy(tmpbuf, helpbuf2);
                     addlogtarget(tmpbuf);
                   }
 
                   else
                   {
-                    unsigned long int cparsefile$$1$$5$$3$$14$$__s1_len;
-                    unsigned long int cparsefile$$1$$5$$3$$14$$__s2_len;
-                    signed int return_value___builtin_strcmp$174;
-                    return_value___builtin_strcmp$174=__builtin_strcmp(helpbuf1, "D");
-                    tmp_statement_expression$173 = return_value___builtin_strcmp$174;
-                    if(tmp_statement_expression$173 == 0)
-                      tmp_if_expr$177 = (_Bool)1;
+                    unsigned long int cparsefile__1__5__3__14____s1_len;
+                    unsigned long int cparsefile__1__5__3__14____s2_len;
+                    signed int return_value___builtin_strcmp_174;
+                    return_value___builtin_strcmp_174=__builtin_strcmp(helpbuf1, "D");
+                    tmp_statement_expression_173 = return_value___builtin_strcmp_174;
+                    if(tmp_statement_expression_173 == 0)
+                      tmp_if_expr_177 = (_Bool)1;
 
                     else
                     {
-                      unsigned long int cparsefile$$1$$5$$3$$15$$__s1_len;
-                      unsigned long int cparsefile$$1$$5$$3$$15$$__s2_len;
-                      signed int return_value___builtin_strcmp$176;
-                      return_value___builtin_strcmp$176=__builtin_strcmp(helpbuf1, "dateformat");
-                      tmp_statement_expression$175 = return_value___builtin_strcmp$176;
-                      tmp_if_expr$177 = tmp_statement_expression$175 == 0 ? (_Bool)1 : (_Bool)0;
+                      unsigned long int cparsefile__1__5__3__15____s1_len;
+                      unsigned long int cparsefile__1__5__3__15____s2_len;
+                      signed int return_value___builtin_strcmp_176;
+                      return_value___builtin_strcmp_176=__builtin_strcmp(helpbuf1, "dateformat");
+                      tmp_statement_expression_175 = return_value___builtin_strcmp_176;
+                      tmp_if_expr_177 = tmp_statement_expression_175 == 0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$177)
+                    if(tmp_if_expr_177)
                       ClientConfiguration_set_dateFormat(cfg, helpbuf2);
 
                     else
                     {
-                      unsigned long int cparsefile$$1$$5$$3$$17$$__s1_len;
-                      unsigned long int cparsefile$$1$$5$$3$$17$$__s2_len;
-                      signed int return_value___builtin_strcmp$169;
-                      return_value___builtin_strcmp$169=__builtin_strcmp(helpbuf1, "n");
-                      tmp_statement_expression$168 = return_value___builtin_strcmp$169;
-                      if(tmp_statement_expression$168 == 0)
-                        tmp_if_expr$172 = (_Bool)1;
+                      unsigned long int cparsefile__1__5__3__17____s1_len;
+                      unsigned long int cparsefile__1__5__3__17____s2_len;
+                      signed int return_value___builtin_strcmp_169;
+                      return_value___builtin_strcmp_169=__builtin_strcmp(helpbuf1, "n");
+                      tmp_statement_expression_168 = return_value___builtin_strcmp_169;
+                      if(tmp_statement_expression_168 == 0)
+                        tmp_if_expr_172 = (_Bool)1;
 
                       else
                       {
-                        unsigned long int cparsefile$$1$$5$$3$$18$$__s1_len;
-                        unsigned long int cparsefile$$1$$5$$3$$18$$__s2_len;
-                        signed int return_value___builtin_strcmp$171;
-                        return_value___builtin_strcmp$171=__builtin_strcmp(helpbuf1, "servername");
-                        tmp_statement_expression$170 = return_value___builtin_strcmp$171;
-                        tmp_if_expr$172 = tmp_statement_expression$170 == 0 ? (_Bool)1 : (_Bool)0;
+                        unsigned long int cparsefile__1__5__3__18____s1_len;
+                        unsigned long int cparsefile__1__5__3__18____s2_len;
+                        signed int return_value___builtin_strcmp_171;
+                        return_value___builtin_strcmp_171=__builtin_strcmp(helpbuf1, "servername");
+                        tmp_statement_expression_170 = return_value___builtin_strcmp_171;
+                        tmp_if_expr_172 = tmp_statement_expression_170 == 0 ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$172)
+                      if(tmp_if_expr_172)
                       {
-                        struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$87;
-                        return_value_ClientConfiguration_get_realmsTable$87=ClientConfiguration_get_realmsTable(cfg);
-                        ClientRealm_set_serverName(return_value_ClientConfiguration_get_realmsTable$87[(signed long int)0], helpbuf2);
+                        struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_87;
+                        return_value_ClientConfiguration_get_realmsTable_87=ClientConfiguration_get_realmsTable(cfg);
+                        ClientRealm_set_serverName(return_value_ClientConfiguration_get_realmsTable_87[(signed long int)0], helpbuf2);
                       }
 
                       else
                       {
-                        unsigned long int cparsefile$$1$$5$$3$$20$$__s1_len;
-                        unsigned long int cparsefile$$1$$5$$3$$20$$__s2_len;
-                        signed int return_value___builtin_strcmp$164;
-                        return_value___builtin_strcmp$164=__builtin_strcmp(helpbuf1, "m");
-                        tmp_statement_expression$163 = return_value___builtin_strcmp$164;
-                        if(tmp_statement_expression$163 == 0)
-                          tmp_if_expr$167 = (_Bool)1;
+                        unsigned long int cparsefile__1__5__3__20____s1_len;
+                        unsigned long int cparsefile__1__5__3__20____s2_len;
+                        signed int return_value___builtin_strcmp_164;
+                        return_value___builtin_strcmp_164=__builtin_strcmp(helpbuf1, "m");
+                        tmp_statement_expression_163 = return_value___builtin_strcmp_164;
+                        if(tmp_statement_expression_163 == 0)
+                          tmp_if_expr_167 = (_Bool)1;
 
                         else
                         {
-                          unsigned long int cparsefile$$1$$5$$3$$21$$__s1_len;
-                          unsigned long int cparsefile$$1$$5$$3$$21$$__s2_len;
-                          signed int return_value___builtin_strcmp$166;
-                          return_value___builtin_strcmp$166=__builtin_strcmp(helpbuf1, "manageport");
-                          tmp_statement_expression$165 = return_value___builtin_strcmp$166;
-                          tmp_if_expr$167 = tmp_statement_expression$165 == 0 ? (_Bool)1 : (_Bool)0;
+                          unsigned long int cparsefile__1__5__3__21____s1_len;
+                          unsigned long int cparsefile__1__5__3__21____s2_len;
+                          signed int return_value___builtin_strcmp_166;
+                          return_value___builtin_strcmp_166=__builtin_strcmp(helpbuf1, "manageport");
+                          tmp_statement_expression_165 = return_value___builtin_strcmp_166;
+                          tmp_if_expr_167 = tmp_statement_expression_165 == 0 ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$167)
+                        if(tmp_if_expr_167)
                         {
-                          struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$88;
-                          return_value_ClientConfiguration_get_realmsTable$88=ClientConfiguration_get_realmsTable(cfg);
-                          ClientRealm_set_managePort(return_value_ClientConfiguration_get_realmsTable$88[(signed long int)0], helpbuf2);
+                          struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_88;
+                          return_value_ClientConfiguration_get_realmsTable_88=ClientConfiguration_get_realmsTable(cfg);
+                          ClientRealm_set_managePort(return_value_ClientConfiguration_get_realmsTable_88[(signed long int)0], helpbuf2);
                         }
 
                         else
                         {
-                          unsigned long int cparsefile$$1$$5$$3$$23$$__s1_len;
-                          unsigned long int cparsefile$$1$$5$$3$$23$$__s2_len;
-                          signed int return_value___builtin_strcmp$159;
-                          return_value___builtin_strcmp$159=__builtin_strcmp(helpbuf1, "d");
-                          tmp_statement_expression$158 = return_value___builtin_strcmp$159;
-                          if(tmp_statement_expression$158 == 0)
-                            tmp_if_expr$162 = (_Bool)1;
+                          unsigned long int cparsefile__1__5__3__23____s1_len;
+                          unsigned long int cparsefile__1__5__3__23____s2_len;
+                          signed int return_value___builtin_strcmp_159;
+                          return_value___builtin_strcmp_159=__builtin_strcmp(helpbuf1, "d");
+                          tmp_statement_expression_158 = return_value___builtin_strcmp_159;
+                          if(tmp_statement_expression_158 == 0)
+                            tmp_if_expr_162 = (_Bool)1;
 
                           else
                           {
-                            unsigned long int cparsefile$$1$$5$$3$$24$$__s1_len;
-                            unsigned long int cparsefile$$1$$5$$3$$24$$__s2_len;
-                            signed int return_value___builtin_strcmp$161;
-                            return_value___builtin_strcmp$161=__builtin_strcmp(helpbuf1, "hostname");
-                            tmp_statement_expression$160 = return_value___builtin_strcmp$161;
-                            tmp_if_expr$162 = tmp_statement_expression$160 == 0 ? (_Bool)1 : (_Bool)0;
+                            unsigned long int cparsefile__1__5__3__24____s1_len;
+                            unsigned long int cparsefile__1__5__3__24____s2_len;
+                            signed int return_value___builtin_strcmp_161;
+                            return_value___builtin_strcmp_161=__builtin_strcmp(helpbuf1, "hostname");
+                            tmp_statement_expression_160 = return_value___builtin_strcmp_161;
+                            tmp_if_expr_162 = tmp_statement_expression_160 == 0 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$162)
+                          if(tmp_if_expr_162)
                           {
-                            struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$89;
-                            return_value_ClientConfiguration_get_realmsTable$89=ClientConfiguration_get_realmsTable(cfg);
-                            ClientRealm_set_hostName(return_value_ClientConfiguration_get_realmsTable$89[(signed long int)0], helpbuf2);
+                            struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_89;
+                            return_value_ClientConfiguration_get_realmsTable_89=ClientConfiguration_get_realmsTable(cfg);
+                            ClientRealm_set_hostName(return_value_ClientConfiguration_get_realmsTable_89[(signed long int)0], helpbuf2);
                           }
 
                           else
                           {
-                            unsigned long int cparsefile$$1$$5$$3$$26$$__s1_len;
-                            unsigned long int cparsefile$$1$$5$$3$$26$$__s2_len;
-                            signed int return_value___builtin_strcmp$154;
-                            return_value___builtin_strcmp$154=__builtin_strcmp(helpbuf1, "p");
-                            tmp_statement_expression$153 = return_value___builtin_strcmp$154;
-                            if(tmp_statement_expression$153 == 0)
-                              tmp_if_expr$157 = (_Bool)1;
+                            unsigned long int cparsefile__1__5__3__26____s1_len;
+                            unsigned long int cparsefile__1__5__3__26____s2_len;
+                            signed int return_value___builtin_strcmp_154;
+                            return_value___builtin_strcmp_154=__builtin_strcmp(helpbuf1, "p");
+                            tmp_statement_expression_153 = return_value___builtin_strcmp_154;
+                            if(tmp_statement_expression_153 == 0)
+                              tmp_if_expr_157 = (_Bool)1;
 
                             else
                             {
-                              unsigned long int cparsefile$$1$$5$$3$$27$$__s1_len;
-                              unsigned long int cparsefile$$1$$5$$3$$27$$__s2_len;
-                              signed int return_value___builtin_strcmp$156;
-                              return_value___builtin_strcmp$156=__builtin_strcmp(helpbuf1, "portnum");
-                              tmp_statement_expression$155 = return_value___builtin_strcmp$156;
-                              tmp_if_expr$157 = tmp_statement_expression$155 == 0 ? (_Bool)1 : (_Bool)0;
+                              unsigned long int cparsefile__1__5__3__27____s1_len;
+                              unsigned long int cparsefile__1__5__3__27____s2_len;
+                              signed int return_value___builtin_strcmp_156;
+                              return_value___builtin_strcmp_156=__builtin_strcmp(helpbuf1, "portnum");
+                              tmp_statement_expression_155 = return_value___builtin_strcmp_156;
+                              tmp_if_expr_157 = tmp_statement_expression_155 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$157)
+                            if(tmp_if_expr_157)
                             {
-                              struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$90;
-                              return_value_ClientConfiguration_get_realmsTable$90=ClientConfiguration_get_realmsTable(cfg);
-                              struct portlist *return_value_ClientRealm_get_destinationPorts$91;
-                              return_value_ClientRealm_get_destinationPorts$91=ClientRealm_get_destinationPorts(return_value_ClientConfiguration_get_realmsTable$90[(signed long int)0]);
-                              struct plnode *return_value_PortListNode_new$92;
-                              return_value_PortListNode_new$92=PortListNode_new(helpbuf2);
-                              PortList_insert_back(return_value_ClientRealm_get_destinationPorts$91, return_value_PortListNode_new$92);
+                              struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_90;
+                              return_value_ClientConfiguration_get_realmsTable_90=ClientConfiguration_get_realmsTable(cfg);
+                              struct portlist *return_value_ClientRealm_get_destinationPorts_91;
+                              return_value_ClientRealm_get_destinationPorts_91=ClientRealm_get_destinationPorts(return_value_ClientConfiguration_get_realmsTable_90[(signed long int)0]);
+                              struct plnode *return_value_PortListNode_new_92;
+                              return_value_PortListNode_new_92=PortListNode_new(helpbuf2);
+                              PortList_insert_back(return_value_ClientRealm_get_destinationPorts_91, return_value_PortListNode_new_92);
                             }
 
                             else
                             {
-                              unsigned long int cparsefile$$1$$5$$3$$29$$__s1_len;
-                              unsigned long int cparsefile$$1$$5$$3$$29$$__s2_len;
-                              signed int return_value___builtin_strcmp$152;
-                              return_value___builtin_strcmp$152=__builtin_strcmp(helpbuf1, "localname");
-                              tmp_statement_expression$151 = return_value___builtin_strcmp$152;
-                              if(tmp_statement_expression$151 == 0)
+                              unsigned long int cparsefile__1__5__3__29____s1_len;
+                              unsigned long int cparsefile__1__5__3__29____s2_len;
+                              signed int return_value___builtin_strcmp_152;
+                              return_value___builtin_strcmp_152=__builtin_strcmp(helpbuf1, "localname");
+                              tmp_statement_expression_151 = return_value___builtin_strcmp_152;
+                              if(tmp_statement_expression_151 == 0)
                               {
-                                struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$93;
-                                return_value_ClientConfiguration_get_realmsTable$93=ClientConfiguration_get_realmsTable(cfg);
-                                ClientRealm_set_localName(return_value_ClientConfiguration_get_realmsTable$93[(signed long int)0], helpbuf2);
+                                struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_93;
+                                return_value_ClientConfiguration_get_realmsTable_93=ClientConfiguration_get_realmsTable(cfg);
+                                ClientRealm_set_localName(return_value_ClientConfiguration_get_realmsTable_93[(signed long int)0], helpbuf2);
                               }
 
                               else
                               {
-                                unsigned long int cparsefile$$1$$5$$3$$31$$__s1_len;
-                                unsigned long int cparsefile$$1$$5$$3$$31$$__s2_len;
-                                signed int return_value___builtin_strcmp$150;
-                                return_value___builtin_strcmp$150=__builtin_strcmp(helpbuf1, "localport");
-                                tmp_statement_expression$149 = return_value___builtin_strcmp$150;
-                                if(tmp_statement_expression$149 == 0)
+                                unsigned long int cparsefile__1__5__3__31____s1_len;
+                                unsigned long int cparsefile__1__5__3__31____s2_len;
+                                signed int return_value___builtin_strcmp_150;
+                                return_value___builtin_strcmp_150=__builtin_strcmp(helpbuf1, "localport");
+                                tmp_statement_expression_149 = return_value___builtin_strcmp_150;
+                                if(tmp_statement_expression_149 == 0)
                                 {
-                                  struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$94;
-                                  return_value_ClientConfiguration_get_realmsTable$94=ClientConfiguration_get_realmsTable(cfg);
-                                  ClientRealm_set_localPort(return_value_ClientConfiguration_get_realmsTable$94[(signed long int)0], helpbuf2);
+                                  struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_94;
+                                  return_value_ClientConfiguration_get_realmsTable_94=ClientConfiguration_get_realmsTable(cfg);
+                                  ClientRealm_set_localPort(return_value_ClientConfiguration_get_realmsTable_94[(signed long int)0], helpbuf2);
                                 }
 
                                 else
                                 {
-                                  unsigned long int cparsefile$$1$$5$$3$$33$$__s1_len;
-                                  unsigned long int cparsefile$$1$$5$$3$$33$$__s2_len;
-                                  signed int return_value___builtin_strcmp$148;
-                                  return_value___builtin_strcmp$148=__builtin_strcmp(helpbuf1, "localdesname");
-                                  tmp_statement_expression$147 = return_value___builtin_strcmp$148;
-                                  if(tmp_statement_expression$147 == 0)
+                                  unsigned long int cparsefile__1__5__3__33____s1_len;
+                                  unsigned long int cparsefile__1__5__3__33____s2_len;
+                                  signed int return_value___builtin_strcmp_148;
+                                  return_value___builtin_strcmp_148=__builtin_strcmp(helpbuf1, "localdesname");
+                                  tmp_statement_expression_147 = return_value___builtin_strcmp_148;
+                                  if(tmp_statement_expression_147 == 0)
                                   {
-                                    struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$95;
-                                    return_value_ClientConfiguration_get_realmsTable$95=ClientConfiguration_get_realmsTable(cfg);
-                                    ClientRealm_set_localDestinationName(return_value_ClientConfiguration_get_realmsTable$95[(signed long int)0], helpbuf2);
+                                    struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_95;
+                                    return_value_ClientConfiguration_get_realmsTable_95=ClientConfiguration_get_realmsTable(cfg);
+                                    ClientRealm_set_localDestinationName(return_value_ClientConfiguration_get_realmsTable_95[(signed long int)0], helpbuf2);
                                   }
 
                                   else
                                   {
-                                    unsigned long int cparsefile$$1$$5$$3$$35$$__s1_len;
-                                    unsigned long int cparsefile$$1$$5$$3$$35$$__s2_len;
-                                    signed int return_value___builtin_strcmp$143;
-                                    return_value___builtin_strcmp$143=__builtin_strcmp(helpbuf1, "i");
-                                    tmp_statement_expression$142 = return_value___builtin_strcmp$143;
-                                    if(tmp_statement_expression$142 == 0)
-                                      tmp_if_expr$146 = (_Bool)1;
+                                    unsigned long int cparsefile__1__5__3__35____s1_len;
+                                    unsigned long int cparsefile__1__5__3__35____s2_len;
+                                    signed int return_value___builtin_strcmp_143;
+                                    return_value___builtin_strcmp_143=__builtin_strcmp(helpbuf1, "i");
+                                    tmp_statement_expression_142 = return_value___builtin_strcmp_143;
+                                    if(tmp_statement_expression_142 == 0)
+                                      tmp_if_expr_146 = (_Bool)1;
 
                                     else
                                     {
-                                      unsigned long int cparsefile$$1$$5$$3$$36$$__s1_len;
-                                      unsigned long int cparsefile$$1$$5$$3$$36$$__s2_len;
-                                      signed int return_value___builtin_strcmp$145;
-                                      return_value___builtin_strcmp$145=__builtin_strcmp(helpbuf1, "id");
-                                      tmp_statement_expression$144 = return_value___builtin_strcmp$145;
-                                      tmp_if_expr$146 = tmp_statement_expression$144 == 0 ? (_Bool)1 : (_Bool)0;
+                                      unsigned long int cparsefile__1__5__3__36____s1_len;
+                                      unsigned long int cparsefile__1__5__3__36____s2_len;
+                                      signed int return_value___builtin_strcmp_145;
+                                      return_value___builtin_strcmp_145=__builtin_strcmp(helpbuf1, "id");
+                                      tmp_statement_expression_144 = return_value___builtin_strcmp_145;
+                                      tmp_if_expr_146 = tmp_statement_expression_144 == 0 ? (_Bool)1 : (_Bool)0;
                                     }
-                                    if(tmp_if_expr$146)
+                                    if(tmp_if_expr_146)
                                     {
-                                      struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$96;
-                                      return_value_ClientConfiguration_get_realmsTable$96=ClientConfiguration_get_realmsTable(cfg);
-                                      ClientRealm_set_realmId(return_value_ClientConfiguration_get_realmsTable$96[(signed long int)0], helpbuf2);
+                                      struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_96;
+                                      return_value_ClientConfiguration_get_realmsTable_96=ClientConfiguration_get_realmsTable(cfg);
+                                      ClientRealm_set_realmId(return_value_ClientConfiguration_get_realmsTable_96[(signed long int)0], helpbuf2);
                                     }
 
                                     else
                                     {
-                                      unsigned long int cparsefile$$1$$5$$3$$38$$__s1_len;
-                                      unsigned long int cparsefile$$1$$5$$3$$38$$__s2_len;
-                                      signed int return_value___builtin_strcmp$141;
-                                      return_value___builtin_strcmp$141=__builtin_strcmp(helpbuf1, "pass");
-                                      tmp_statement_expression$140 = return_value___builtin_strcmp$141;
-                                      if(tmp_statement_expression$140 == 0)
+                                      unsigned long int cparsefile__1__5__3__38____s1_len;
+                                      unsigned long int cparsefile__1__5__3__38____s2_len;
+                                      signed int return_value___builtin_strcmp_141;
+                                      return_value___builtin_strcmp_141=__builtin_strcmp(helpbuf1, "pass");
+                                      tmp_statement_expression_140 = return_value___builtin_strcmp_141;
+                                      if(tmp_statement_expression_140 == 0)
                                       {
-                                        unsigned long int return_value_strlen$97;
-                                        return_value_strlen$97=strlen(helpbuf2);
-                                        n = (signed int)return_value_strlen$97;
+                                        unsigned long int return_value_strlen_97;
+                                        return_value_strlen_97=strlen(helpbuf2);
+                                        n = (signed int)return_value_strlen_97;
                                         memset((void *)pass, 0, (unsigned long int)4);
                                         i = 0;
                                         for( ; !(i >= n); i = i + 1)
                                           pass[(signed long int)(i % 4)] = pass[(signed long int)(i % 4)] + (unsigned char)helpbuf2[(signed long int)i];
-                                        struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$98;
-                                        return_value_ClientConfiguration_get_realmsTable$98=ClientConfiguration_get_realmsTable(cfg);
-                                        ClientRealm_set_password(return_value_ClientConfiguration_get_realmsTable$98[(signed long int)0], pass);
+                                        struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_98;
+                                        return_value_ClientConfiguration_get_realmsTable_98=ClientConfiguration_get_realmsTable(cfg);
+                                        ClientRealm_set_password(return_value_ClientConfiguration_get_realmsTable_98[(signed long int)0], pass);
                                       }
 
                                       else
                                       {
-                                        unsigned long int cparsefile$$1$$5$$3$$40$$__s1_len;
-                                        unsigned long int cparsefile$$1$$5$$3$$40$$__s2_len;
-                                        signed int return_value___builtin_strcmp$136;
-                                        return_value___builtin_strcmp$136=__builtin_strcmp(helpbuf1, "K");
-                                        tmp_statement_expression$135 = return_value___builtin_strcmp$136;
-                                        if(tmp_statement_expression$135 == 0)
-                                          tmp_if_expr$139 = (_Bool)1;
+                                        unsigned long int cparsefile__1__5__3__40____s1_len;
+                                        unsigned long int cparsefile__1__5__3__40____s2_len;
+                                        signed int return_value___builtin_strcmp_136;
+                                        return_value___builtin_strcmp_136=__builtin_strcmp(helpbuf1, "K");
+                                        tmp_statement_expression_135 = return_value___builtin_strcmp_136;
+                                        if(tmp_statement_expression_135 == 0)
+                                          tmp_if_expr_139 = (_Bool)1;
 
                                         else
                                         {
-                                          unsigned long int cparsefile$$1$$5$$3$$41$$__s1_len;
-                                          unsigned long int cparsefile$$1$$5$$3$$41$$__s2_len;
-                                          signed int return_value___builtin_strcmp$138;
-                                          return_value___builtin_strcmp$138=__builtin_strcmp(helpbuf1, "keep-alive");
-                                          tmp_statement_expression$137 = return_value___builtin_strcmp$138;
-                                          tmp_if_expr$139 = tmp_statement_expression$137 == 0 ? (_Bool)1 : (_Bool)0;
+                                          unsigned long int cparsefile__1__5__3__41____s1_len;
+                                          unsigned long int cparsefile__1__5__3__41____s2_len;
+                                          signed int return_value___builtin_strcmp_138;
+                                          return_value___builtin_strcmp_138=__builtin_strcmp(helpbuf1, "keep-alive");
+                                          tmp_statement_expression_137 = return_value___builtin_strcmp_138;
+                                          tmp_if_expr_139 = tmp_statement_expression_137 == 0 ? (_Bool)1 : (_Bool)0;
                                         }
-                                        if(tmp_if_expr$139)
+                                        if(tmp_if_expr_139)
                                         {
-                                          struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$99;
-                                          return_value_ClientConfiguration_get_realmsTable$99=ClientConfiguration_get_realmsTable(cfg);
-                                          ClientRealm_set_sKeepAliveTimeout(return_value_ClientConfiguration_get_realmsTable$99[(signed long int)0], helpbuf2);
+                                          struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_99;
+                                          return_value_ClientConfiguration_get_realmsTable_99=ClientConfiguration_get_realmsTable(cfg);
+                                          ClientRealm_set_sKeepAliveTimeout(return_value_ClientConfiguration_get_realmsTable_99[(signed long int)0], helpbuf2);
                                         }
 
                                         else
                                         {
-                                          unsigned long int cparsefile$$1$$5$$3$$43$$__s1_len;
-                                          unsigned long int cparsefile$$1$$5$$3$$43$$__s2_len;
-                                          signed int return_value___builtin_strcmp$131;
-                                          return_value___builtin_strcmp$131=__builtin_strcmp(helpbuf1, "A");
-                                          tmp_statement_expression$130 = return_value___builtin_strcmp$131;
-                                          if(tmp_statement_expression$130 == 0)
-                                            tmp_if_expr$134 = (_Bool)1;
+                                          unsigned long int cparsefile__1__5__3__43____s1_len;
+                                          unsigned long int cparsefile__1__5__3__43____s2_len;
+                                          signed int return_value___builtin_strcmp_131;
+                                          return_value___builtin_strcmp_131=__builtin_strcmp(helpbuf1, "A");
+                                          tmp_statement_expression_130 = return_value___builtin_strcmp_131;
+                                          if(tmp_statement_expression_130 == 0)
+                                            tmp_if_expr_134 = (_Bool)1;
 
                                           else
                                           {
-                                            unsigned long int cparsefile$$1$$5$$3$$44$$__s1_len;
-                                            unsigned long int cparsefile$$1$$5$$3$$44$$__s2_len;
-                                            signed int return_value___builtin_strcmp$133;
-                                            return_value___builtin_strcmp$133=__builtin_strcmp(helpbuf1, "ar-tries");
-                                            tmp_statement_expression$132 = return_value___builtin_strcmp$133;
-                                            tmp_if_expr$134 = tmp_statement_expression$132 == 0 ? (_Bool)1 : (_Bool)0;
+                                            unsigned long int cparsefile__1__5__3__44____s1_len;
+                                            unsigned long int cparsefile__1__5__3__44____s2_len;
+                                            signed int return_value___builtin_strcmp_133;
+                                            return_value___builtin_strcmp_133=__builtin_strcmp(helpbuf1, "ar-tries");
+                                            tmp_statement_expression_132 = return_value___builtin_strcmp_133;
+                                            tmp_if_expr_134 = tmp_statement_expression_132 == 0 ? (_Bool)1 : (_Bool)0;
                                           }
-                                          if(tmp_if_expr$134)
+                                          if(tmp_if_expr_134)
                                           {
-                                            struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$100;
-                                            return_value_ClientConfiguration_get_realmsTable$100=ClientConfiguration_get_realmsTable(cfg);
-                                            struct anonymous$3 *return_value_ClientRealm_get_arOptions$101;
-                                            return_value_ClientRealm_get_arOptions$101=ClientRealm_get_arOptions(return_value_ClientConfiguration_get_realmsTable$100[(signed long int)0]);
-                                            ArOptions_set_s_arTries(return_value_ClientRealm_get_arOptions$101, helpbuf2);
+                                            struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_100;
+                                            return_value_ClientConfiguration_get_realmsTable_100=ClientConfiguration_get_realmsTable(cfg);
+                                            struct anonymous_3 *return_value_ClientRealm_get_arOptions_101;
+                                            return_value_ClientRealm_get_arOptions_101=ClientRealm_get_arOptions(return_value_ClientConfiguration_get_realmsTable_100[(signed long int)0]);
+                                            ArOptions_set_s_arTries(return_value_ClientRealm_get_arOptions_101, helpbuf2);
                                           }
 
                                           else
                                           {
-                                            unsigned long int cparsefile$$1$$5$$3$$46$$__s1_len;
-                                            unsigned long int cparsefile$$1$$5$$3$$46$$__s2_len;
-                                            signed int return_value___builtin_strcmp$126;
-                                            return_value___builtin_strcmp$126=__builtin_strcmp(helpbuf1, "T");
-                                            tmp_statement_expression$125 = return_value___builtin_strcmp$126;
-                                            if(tmp_statement_expression$125 == 0)
-                                              tmp_if_expr$129 = (_Bool)1;
+                                            unsigned long int cparsefile__1__5__3__46____s1_len;
+                                            unsigned long int cparsefile__1__5__3__46____s2_len;
+                                            signed int return_value___builtin_strcmp_126;
+                                            return_value___builtin_strcmp_126=__builtin_strcmp(helpbuf1, "T");
+                                            tmp_statement_expression_125 = return_value___builtin_strcmp_126;
+                                            if(tmp_statement_expression_125 == 0)
+                                              tmp_if_expr_129 = (_Bool)1;
 
                                             else
                                             {
-                                              unsigned long int cparsefile$$1$$5$$3$$47$$__s1_len;
-                                              unsigned long int cparsefile$$1$$5$$3$$47$$__s2_len;
-                                              signed int return_value___builtin_strcmp$128;
-                                              return_value___builtin_strcmp$128=__builtin_strcmp(helpbuf1, "ar-delay");
-                                              tmp_statement_expression$127 = return_value___builtin_strcmp$128;
-                                              tmp_if_expr$129 = tmp_statement_expression$127 == 0 ? (_Bool)1 : (_Bool)0;
+                                              unsigned long int cparsefile__1__5__3__47____s1_len;
+                                              unsigned long int cparsefile__1__5__3__47____s2_len;
+                                              signed int return_value___builtin_strcmp_128;
+                                              return_value___builtin_strcmp_128=__builtin_strcmp(helpbuf1, "ar-delay");
+                                              tmp_statement_expression_127 = return_value___builtin_strcmp_128;
+                                              tmp_if_expr_129 = tmp_statement_expression_127 == 0 ? (_Bool)1 : (_Bool)0;
                                             }
-                                            if(tmp_if_expr$129)
+                                            if(tmp_if_expr_129)
                                             {
-                                              struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$102;
-                                              return_value_ClientConfiguration_get_realmsTable$102=ClientConfiguration_get_realmsTable(cfg);
-                                              struct anonymous$3 *return_value_ClientRealm_get_arOptions$103;
-                                              return_value_ClientRealm_get_arOptions$103=ClientRealm_get_arOptions(return_value_ClientConfiguration_get_realmsTable$102[(signed long int)0]);
-                                              ArOptions_set_s_arDelay(return_value_ClientRealm_get_arOptions$103, helpbuf2);
+                                              struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_102;
+                                              return_value_ClientConfiguration_get_realmsTable_102=ClientConfiguration_get_realmsTable(cfg);
+                                              struct anonymous_3 *return_value_ClientRealm_get_arOptions_103;
+                                              return_value_ClientRealm_get_arOptions_103=ClientRealm_get_arOptions(return_value_ClientConfiguration_get_realmsTable_102[(signed long int)0]);
+                                              ArOptions_set_s_arDelay(return_value_ClientRealm_get_arOptions_103, helpbuf2);
                                             }
 
                                             else
                                             {
-                                              unsigned long int cparsefile$$1$$5$$3$$49$$__s1_len;
-                                              unsigned long int cparsefile$$1$$5$$3$$49$$__s2_len;
-                                              signed int return_value___builtin_strcmp$121;
-                                              return_value___builtin_strcmp$121=__builtin_strcmp(helpbuf1, "P");
-                                              tmp_statement_expression$120 = return_value___builtin_strcmp$121;
-                                              if(tmp_statement_expression$120 == 0)
-                                                tmp_if_expr$124 = (_Bool)1;
+                                              unsigned long int cparsefile__1__5__3__49____s1_len;
+                                              unsigned long int cparsefile__1__5__3__49____s2_len;
+                                              signed int return_value___builtin_strcmp_121;
+                                              return_value___builtin_strcmp_121=__builtin_strcmp(helpbuf1, "P");
+                                              tmp_statement_expression_120 = return_value___builtin_strcmp_121;
+                                              if(tmp_statement_expression_120 == 0)
+                                                tmp_if_expr_124 = (_Bool)1;
 
                                               else
                                               {
-                                                unsigned long int cparsefile$$1$$5$$3$$50$$__s1_len;
-                                                unsigned long int cparsefile$$1$$5$$3$$50$$__s2_len;
-                                                signed int return_value___builtin_strcmp$123;
-                                                return_value___builtin_strcmp$123=__builtin_strcmp(helpbuf1, "proxyname");
-                                                tmp_statement_expression$122 = return_value___builtin_strcmp$123;
-                                                tmp_if_expr$124 = tmp_statement_expression$122 == 0 ? (_Bool)1 : (_Bool)0;
+                                                unsigned long int cparsefile__1__5__3__50____s1_len;
+                                                unsigned long int cparsefile__1__5__3__50____s2_len;
+                                                signed int return_value___builtin_strcmp_123;
+                                                return_value___builtin_strcmp_123=__builtin_strcmp(helpbuf1, "proxyname");
+                                                tmp_statement_expression_122 = return_value___builtin_strcmp_123;
+                                                tmp_if_expr_124 = tmp_statement_expression_122 == 0 ? (_Bool)1 : (_Bool)0;
                                               }
-                                              if(tmp_if_expr$124)
+                                              if(tmp_if_expr_124)
                                               {
-                                                struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$104;
-                                                return_value_ClientConfiguration_get_realmsTable$104=ClientConfiguration_get_realmsTable(cfg);
-                                                struct anonymous *return_value_ClientRealm_get_httpProxyOptions$105;
-                                                return_value_ClientRealm_get_httpProxyOptions$105=ClientRealm_get_httpProxyOptions(return_value_ClientConfiguration_get_realmsTable$104[(signed long int)0]);
-                                                HttpProxyOptions_set_proxyname(return_value_ClientRealm_get_httpProxyOptions$105, helpbuf2);
+                                                struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_104;
+                                                return_value_ClientConfiguration_get_realmsTable_104=ClientConfiguration_get_realmsTable(cfg);
+                                                struct anonymous *return_value_ClientRealm_get_httpProxyOptions_105;
+                                                return_value_ClientRealm_get_httpProxyOptions_105=ClientRealm_get_httpProxyOptions(return_value_ClientConfiguration_get_realmsTable_104[(signed long int)0]);
+                                                HttpProxyOptions_set_proxyname(return_value_ClientRealm_get_httpProxyOptions_105, helpbuf2);
                                               }
 
                                               else
                                               {
-                                                unsigned long int cparsefile$$1$$5$$3$$52$$__s1_len;
-                                                unsigned long int cparsefile$$1$$5$$3$$52$$__s2_len;
-                                                signed int return_value___builtin_strcmp$116;
-                                                return_value___builtin_strcmp$116=__builtin_strcmp(helpbuf1, "X");
-                                                tmp_statement_expression$115 = return_value___builtin_strcmp$116;
-                                                if(tmp_statement_expression$115 == 0)
-                                                  tmp_if_expr$119 = (_Bool)1;
+                                                unsigned long int cparsefile__1__5__3__52____s1_len;
+                                                unsigned long int cparsefile__1__5__3__52____s2_len;
+                                                signed int return_value___builtin_strcmp_116;
+                                                return_value___builtin_strcmp_116=__builtin_strcmp(helpbuf1, "X");
+                                                tmp_statement_expression_115 = return_value___builtin_strcmp_116;
+                                                if(tmp_statement_expression_115 == 0)
+                                                  tmp_if_expr_119 = (_Bool)1;
 
                                                 else
                                                 {
-                                                  unsigned long int cparsefile$$1$$5$$3$$53$$__s1_len;
-                                                  unsigned long int cparsefile$$1$$5$$3$$53$$__s2_len;
-                                                  signed int return_value___builtin_strcmp$118;
-                                                  return_value___builtin_strcmp$118=__builtin_strcmp(helpbuf1, "proxyport");
-                                                  tmp_statement_expression$117 = return_value___builtin_strcmp$118;
-                                                  tmp_if_expr$119 = tmp_statement_expression$117 == 0 ? (_Bool)1 : (_Bool)0;
+                                                  unsigned long int cparsefile__1__5__3__53____s1_len;
+                                                  unsigned long int cparsefile__1__5__3__53____s2_len;
+                                                  signed int return_value___builtin_strcmp_118;
+                                                  return_value___builtin_strcmp_118=__builtin_strcmp(helpbuf1, "proxyport");
+                                                  tmp_statement_expression_117 = return_value___builtin_strcmp_118;
+                                                  tmp_if_expr_119 = tmp_statement_expression_117 == 0 ? (_Bool)1 : (_Bool)0;
                                                 }
-                                                if(tmp_if_expr$119)
+                                                if(tmp_if_expr_119)
                                                 {
-                                                  struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$106;
-                                                  return_value_ClientConfiguration_get_realmsTable$106=ClientConfiguration_get_realmsTable(cfg);
-                                                  struct anonymous *return_value_ClientRealm_get_httpProxyOptions$107;
-                                                  return_value_ClientRealm_get_httpProxyOptions$107=ClientRealm_get_httpProxyOptions(return_value_ClientConfiguration_get_realmsTable$106[(signed long int)0]);
-                                                  HttpProxyOptions_set_proxyport(return_value_ClientRealm_get_httpProxyOptions$107, helpbuf2);
+                                                  struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_106;
+                                                  return_value_ClientConfiguration_get_realmsTable_106=ClientConfiguration_get_realmsTable(cfg);
+                                                  struct anonymous *return_value_ClientRealm_get_httpProxyOptions_107;
+                                                  return_value_ClientRealm_get_httpProxyOptions_107=ClientRealm_get_httpProxyOptions(return_value_ClientConfiguration_get_realmsTable_106[(signed long int)0]);
+                                                  HttpProxyOptions_set_proxyport(return_value_ClientRealm_get_httpProxyOptions_107, helpbuf2);
                                                 }
 
                                                 else
                                                 {
-                                                  unsigned long int cparsefile$$1$$5$$3$$55$$__s1_len;
-                                                  unsigned long int cparsefile$$1$$5$$3$$55$$__s2_len;
-                                                  signed int return_value___builtin_strcmp$111;
-                                                  return_value___builtin_strcmp$111=__builtin_strcmp(helpbuf1, "C");
-                                                  tmp_statement_expression$110 = return_value___builtin_strcmp$111;
-                                                  if(tmp_statement_expression$110 == 0)
-                                                    tmp_if_expr$114 = (_Bool)1;
+                                                  unsigned long int cparsefile__1__5__3__55____s1_len;
+                                                  unsigned long int cparsefile__1__5__3__55____s2_len;
+                                                  signed int return_value___builtin_strcmp_111;
+                                                  return_value___builtin_strcmp_111=__builtin_strcmp(helpbuf1, "C");
+                                                  tmp_statement_expression_110 = return_value___builtin_strcmp_111;
+                                                  if(tmp_statement_expression_110 == 0)
+                                                    tmp_if_expr_114 = (_Bool)1;
 
                                                   else
                                                   {
-                                                    unsigned long int cparsefile$$1$$5$$3$$56$$__s1_len;
-                                                    unsigned long int cparsefile$$1$$5$$3$$56$$__s2_len;
-                                                    signed int return_value___builtin_strcmp$113;
-                                                    return_value___builtin_strcmp$113=__builtin_strcmp(helpbuf1, "pa-cred");
-                                                    tmp_statement_expression$112 = return_value___builtin_strcmp$113;
-                                                    tmp_if_expr$114 = tmp_statement_expression$112 == 0 ? (_Bool)1 : (_Bool)0;
+                                                    unsigned long int cparsefile__1__5__3__56____s1_len;
+                                                    unsigned long int cparsefile__1__5__3__56____s2_len;
+                                                    signed int return_value___builtin_strcmp_113;
+                                                    return_value___builtin_strcmp_113=__builtin_strcmp(helpbuf1, "pa-cred");
+                                                    tmp_statement_expression_112 = return_value___builtin_strcmp_113;
+                                                    tmp_if_expr_114 = tmp_statement_expression_112 == 0 ? (_Bool)1 : (_Bool)0;
                                                   }
-                                                  if(tmp_if_expr$114)
+                                                  if(tmp_if_expr_114)
                                                   {
-                                                    struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$108;
-                                                    return_value_ClientConfiguration_get_realmsTable$108=ClientConfiguration_get_realmsTable(cfg);
-                                                    struct anonymous *return_value_ClientRealm_get_httpProxyOptions$109;
-                                                    return_value_ClientRealm_get_httpProxyOptions$109=ClientRealm_get_httpProxyOptions(return_value_ClientConfiguration_get_realmsTable$108[(signed long int)0]);
-                                                    HttpProxyOptions_set_proxyauth_cred(return_value_ClientRealm_get_httpProxyOptions$109, helpbuf2);
+                                                    struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_108;
+                                                    return_value_ClientConfiguration_get_realmsTable_108=ClientConfiguration_get_realmsTable(cfg);
+                                                    struct anonymous *return_value_ClientRealm_get_httpProxyOptions_109;
+                                                    return_value_ClientRealm_get_httpProxyOptions_109=ClientRealm_get_httpProxyOptions(return_value_ClientConfiguration_get_realmsTable_108[(signed long int)0]);
+                                                    HttpProxyOptions_set_proxyauth_cred(return_value_ClientRealm_get_httpProxyOptions_109, helpbuf2);
                                                   }
 
                                                   else
@@ -11099,9 +11099,9 @@ signed int create_apf_dir(char type)
   signed int length;
   struct stat buf;
   struct passwd *user;
-  unsigned int return_value_getuid$1;
-  return_value_getuid$1=getuid();
-  user=getpwuid(return_value_getuid$1);
+  unsigned int return_value_getuid_1;
+  return_value_getuid_1=getuid();
+  user=getpwuid(return_value_getuid_1);
   if((signed int)type == 0)
   {
     if(user == ((struct passwd *)NULL))
@@ -11116,12 +11116,12 @@ signed int create_apf_dir(char type)
       home_dir = (char *)(void *)0;
     }
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(user->pw_dir);
-    length = (signed int)return_value_strlen$2;
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, (unsigned long int)(length + 6));
-    home_dir = (char *)return_value_calloc$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(user->pw_dir);
+    length = (signed int)return_value_strlen_2;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, (unsigned long int)(length + 6));
+    home_dir = (char *)return_value_calloc_3;
     if(home_dir == ((char *)NULL))
       return 3;
 
@@ -11131,13 +11131,13 @@ signed int create_apf_dir(char type)
 
     else
       strcpy(&home_dir[(signed long int)length], "/.apf");
-    signed int return_value_stat$5;
-    return_value_stat$5=stat(home_dir, &buf);
-    if(!(return_value_stat$5 == 0))
+    signed int return_value_stat_5;
+    return_value_stat_5=stat(home_dir, &buf);
+    if(!(return_value_stat_5 == 0))
     {
-      signed int return_value_mkdir$4;
-      return_value_mkdir$4=mkdir(home_dir, (unsigned int)0700);
-      if(!(return_value_mkdir$4 == 0))
+      signed int return_value_mkdir_4;
+      return_value_mkdir_4=mkdir(home_dir, (unsigned int)0700);
+      if(!(return_value_mkdir_4 == 0))
         return 4;
 
     }
@@ -11152,20 +11152,20 @@ signed int create_apf_dir(char type)
       home_dir = (char *)(void *)0;
     }
 
-    void *return_value_calloc$6;
-    return_value_calloc$6=calloc((unsigned long int)1, (unsigned long int)4);
-    home_dir = (char *)return_value_calloc$6;
+    void *return_value_calloc_6;
+    return_value_calloc_6=calloc((unsigned long int)1, (unsigned long int)4);
+    home_dir = (char *)return_value_calloc_6;
     if(home_dir == ((char *)NULL))
       return 3;
 
     strcpy(home_dir, "apf");
-    signed int return_value_stat$8;
-    return_value_stat$8=stat(home_dir, &buf);
-    if(!(return_value_stat$8 == 0))
+    signed int return_value_stat_8;
+    return_value_stat_8=stat(home_dir, &buf);
+    if(!(return_value_stat_8 == 0))
     {
-      signed int return_value_mkdir$7;
-      return_value_mkdir$7=mkdir(home_dir, (unsigned int)0700);
-      if(!(return_value_mkdir$7 == 0))
+      signed int return_value_mkdir_7;
+      return_value_mkdir_7=mkdir(home_dir, (unsigned int)0700);
+      if(!(return_value_mkdir_7 == 0))
         return 4;
 
     }
@@ -11182,28 +11182,28 @@ signed int create_publickey_store(char **storefile)
   signed int home_length;
   struct stat buf;
   struct _IO_FILE *store_file;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(*storefile, &buf);
-  if(return_value_stat$1 == 0)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(*storefile, &buf);
+  if(return_value_stat_1 == 0)
     return 0;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(*storefile);
-    store_length = (signed int)return_value_strlen$2;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(home_dir);
-    home_length = (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(*storefile);
+    store_length = (signed int)return_value_strlen_2;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(home_dir);
+    home_length = (signed int)return_value_strlen_3;
     if(!(home_dir_store == ((char *)NULL)))
     {
       free((void *)home_dir_store);
       home_dir_store = (char *)(void *)0;
     }
 
-    void *return_value_calloc$4;
-    return_value_calloc$4=calloc((unsigned long int)1, (unsigned long int)(home_length + store_length + 2));
-    home_dir_store = (char *)return_value_calloc$4;
+    void *return_value_calloc_4;
+    return_value_calloc_4=calloc((unsigned long int)1, (unsigned long int)(home_length + store_length + 2));
+    home_dir_store = (char *)return_value_calloc_4;
     if(home_dir_store == ((char *)NULL))
       return 1;
 
@@ -11220,9 +11220,9 @@ signed int create_publickey_store(char **storefile)
       else
       {
         fclose(store_file);
-        signed int return_value_stat$5;
-        return_value_stat$5=stat(home_dir_store, &buf);
-        if(return_value_stat$5 == 0)
+        signed int return_value_stat_5;
+        return_value_stat_5=stat(home_dir_store, &buf);
+        if(return_value_stat_5 == 0)
           return 0;
 
         else
@@ -11248,7 +11248,7 @@ char * datum(void)
 
 // delete_user
 // file http_proxy_functions.c line 77
-void delete_user(struct anonymous$16 *cnts, signed int i, struct anonymous$11 *allset)
+void delete_user(struct anonymous_16 *cnts, signed int i, struct anonymous_11 *allset)
 {
   aflog((char)16, (char)2, "http proxy: delete_user(%d)", i);
   clear_fd(&(cnts + (signed long int)i)->sockfd, allset);
@@ -11291,28 +11291,28 @@ signed int generate_certificate(char **cerfile, char *keyfile)
   struct evp_pkey_st *pkey;
   const struct env_md_st *digest;
   struct _IO_FILE *fp;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(*cerfile, &buf);
-  if(return_value_stat$1 == 0)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(*cerfile, &buf);
+  if(return_value_stat_1 == 0)
     return 0;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(*cerfile);
-    cer_length = (signed int)return_value_strlen$2;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(home_dir);
-    home_length = (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(*cerfile);
+    cer_length = (signed int)return_value_strlen_2;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(home_dir);
+    home_length = (signed int)return_value_strlen_3;
     if(!(home_dir_cer == ((char *)NULL)))
     {
       free((void *)home_dir_cer);
       home_dir_cer = (char *)(void *)0;
     }
 
-    void *return_value_calloc$4;
-    return_value_calloc$4=calloc((unsigned long int)1, (unsigned long int)(home_length + cer_length + 2));
-    home_dir_cer = (char *)return_value_calloc$4;
+    void *return_value_calloc_4;
+    return_value_calloc_4=calloc((unsigned long int)1, (unsigned long int)(home_length + cer_length + 2));
+    home_dir_cer = (char *)return_value_calloc_4;
     if(home_dir_cer == ((char *)NULL))
       return 1;
 
@@ -11322,9 +11322,9 @@ signed int generate_certificate(char **cerfile, char *keyfile)
       home_dir_cer[(signed long int)home_length] = (char)47;
       strcpy(&home_dir_cer[(signed long int)(home_length + 1)], *cerfile);
       *cerfile = home_dir_cer;
-      signed int return_value_stat$5;
-      return_value_stat$5=stat(home_dir_cer, &buf);
-      if(return_value_stat$5 == 0)
+      signed int return_value_stat_5;
+      return_value_stat_5=stat(home_dir_cer, &buf);
+      if(return_value_stat_5 == 0)
         return 0;
 
       else
@@ -11349,9 +11349,9 @@ signed int generate_certificate(char **cerfile, char *keyfile)
 
             else
             {
-              signed int return_value_EVP_PKEY_set1_RSA$6;
-              return_value_EVP_PKEY_set1_RSA$6=EVP_PKEY_set1_RSA(pkey, rsa_key);
-              if(return_value_EVP_PKEY_set1_RSA$6 == 0)
+              signed int return_value_EVP_PKEY_set1_RSA_6;
+              return_value_EVP_PKEY_set1_RSA_6=EVP_PKEY_set1_RSA(pkey, rsa_key);
+              if(return_value_EVP_PKEY_set1_RSA_6 == 0)
                 return 5;
 
               else
@@ -11382,46 +11382,46 @@ signed int generate_certificate(char **cerfile, char *keyfile)
                       if(ent == ((struct X509_name_entry_st *)NULL))
                         return 9;
 
-                      signed int return_value_X509_NAME_add_entry$7;
-                      return_value_X509_NAME_add_entry$7=X509_NAME_add_entry(subj, ent, -1, 0);
-                      if(return_value_X509_NAME_add_entry$7 == 0)
+                      signed int return_value_X509_NAME_add_entry_7;
+                      return_value_X509_NAME_add_entry_7=X509_NAME_add_entry(subj, ent, -1, 0);
+                      if(return_value_X509_NAME_add_entry_7 == 0)
                         return 10;
 
                     }
-                    signed int return_value_X509_REQ_set_subject_name$8;
-                    return_value_X509_REQ_set_subject_name$8=X509_REQ_set_subject_name(req, subj);
-                    if(return_value_X509_REQ_set_subject_name$8 == 0)
+                    signed int return_value_X509_REQ_set_subject_name_8;
+                    return_value_X509_REQ_set_subject_name_8=X509_REQ_set_subject_name(req, subj);
+                    if(return_value_X509_REQ_set_subject_name_8 == 0)
                       return 11;
 
                     else
                     {
                       digest=EVP_sha1();
-                      signed int return_value_X509_REQ_sign$9;
-                      return_value_X509_REQ_sign$9=X509_REQ_sign(req, pkey, digest);
-                      if(return_value_X509_REQ_sign$9 == 0)
+                      signed int return_value_X509_REQ_sign_9;
+                      return_value_X509_REQ_sign_9=X509_REQ_sign(req, pkey, digest);
+                      if(return_value_X509_REQ_sign_9 == 0)
                         return 12;
 
                       else
                       {
                         cert=X509_REQ_to_X509(req, 1000, pkey);
-                        signed int return_value_X509_set_version$10;
-                        return_value_X509_set_version$10=X509_set_version(cert, 2L);
-                        if(return_value_X509_set_version$10 == 0)
+                        signed int return_value_X509_set_version_10;
+                        return_value_X509_set_version_10=X509_set_version(cert, 2L);
+                        if(return_value_X509_set_version_10 == 0)
                           return 13;
 
                         else
                         {
-                          struct asn1_string_st *return_value_X509_get_serialNumber$11;
-                          return_value_X509_get_serialNumber$11=X509_get_serialNumber(cert);
-                          ASN1_INTEGER_set(return_value_X509_get_serialNumber$11, (signed long int)1);
+                          struct asn1_string_st *return_value_X509_get_serialNumber_11;
+                          return_value_X509_get_serialNumber_11=X509_get_serialNumber(cert);
+                          ASN1_INTEGER_set(return_value_X509_get_serialNumber_11, (signed long int)1);
                           if(cert == ((struct x509_st *)NULL))
                             return 14;
 
                           else
                           {
-                            signed int return_value_X509_sign$12;
-                            return_value_X509_sign$12=X509_sign(cert, pkey, digest);
-                            if(return_value_X509_sign$12 == 0)
+                            signed int return_value_X509_sign_12;
+                            return_value_X509_sign_12=X509_sign(cert, pkey, digest);
+                            if(return_value_X509_sign_12 == 0)
                               return 15;
 
                             else
@@ -11464,28 +11464,28 @@ signed int generate_rsa_key(char **keyfile)
   struct rsa_st *rsa_key;
   struct _IO_FILE *rsa_file;
   struct stat buf;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(*keyfile, &buf);
-  if(return_value_stat$1 == 0)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(*keyfile, &buf);
+  if(return_value_stat_1 == 0)
     return 0;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(*keyfile);
-    key_length = (signed int)return_value_strlen$2;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(home_dir);
-    home_length = (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(*keyfile);
+    key_length = (signed int)return_value_strlen_2;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(home_dir);
+    home_length = (signed int)return_value_strlen_3;
     if(!(home_dir_key == ((char *)NULL)))
     {
       free((void *)home_dir_key);
       home_dir_key = (char *)(void *)0;
     }
 
-    void *return_value_calloc$4;
-    return_value_calloc$4=calloc((unsigned long int)1, (unsigned long int)(home_length + key_length + 2));
-    home_dir_key = (char *)return_value_calloc$4;
+    void *return_value_calloc_4;
+    return_value_calloc_4=calloc((unsigned long int)1, (unsigned long int)(home_length + key_length + 2));
+    home_dir_key = (char *)return_value_calloc_4;
     if(home_dir_key == ((char *)NULL))
       return 1;
 
@@ -11495,18 +11495,18 @@ signed int generate_rsa_key(char **keyfile)
       home_dir_key[(signed long int)home_length] = (char)47;
       strcpy(&home_dir_key[(signed long int)(home_length + 1)], *keyfile);
       *keyfile = home_dir_key;
-      signed int return_value_stat$5;
-      return_value_stat$5=stat(home_dir_key, &buf);
-      if(return_value_stat$5 == 0)
+      signed int return_value_stat_5;
+      return_value_stat_5=stat(home_dir_key, &buf);
+      if(return_value_stat_5 == 0)
         return 0;
 
       else
       {
         printf("generating rsa key: 2048 bits\n");
         rsa_key=RSA_generate_key(2048, (unsigned long int)65537, callback, (void *)0);
-        signed int return_value_RSA_check_key$6;
-        return_value_RSA_check_key$6=RSA_check_key(rsa_key);
-        if(return_value_RSA_check_key$6 == 1)
+        signed int return_value_RSA_check_key_6;
+        return_value_RSA_check_key_6=RSA_check_key(rsa_key);
+        if(return_value_RSA_check_key_6 == 1)
           printf("   OK!\n");
 
         else
@@ -11539,15 +11539,15 @@ char * get_key_filename()
 
 // get_ssl_error
 // file make_ssl_handshake.h line 29
-signed int get_ssl_error(struct anonymous$0 *sf, char *info, signed int result)
+signed int get_ssl_error(struct anonymous_0 *sf, char *info, signed int result)
 {
   signed int merror;
   char err_buff[200l];
-  struct ssl_st *return_value_SslFd_get_ssl$1;
-  return_value_SslFd_get_ssl$1=SslFd_get_ssl(sf);
-  merror=SSL_get_error(return_value_SslFd_get_ssl$1, result);
-  unsigned long int return_value_ERR_get_error$2;
-  char *return_value_ERR_error_string$3;
+  struct ssl_st *return_value_SslFd_get_ssl_1;
+  return_value_SslFd_get_ssl_1=SslFd_get_ssl(sf);
+  merror=SSL_get_error(return_value_SslFd_get_ssl_1, result);
+  unsigned long int return_value_ERR_get_error_2;
+  char *return_value_ERR_error_string_3;
   switch(merror)
   {
     case 0:
@@ -11588,16 +11588,16 @@ signed int get_ssl_error(struct anonymous$0 *sf, char *info, signed int result)
     case 1:
     {
       SSL_load_error_strings();
-      return_value_ERR_get_error$2=ERR_get_error();
-      return_value_ERR_error_string$3=ERR_error_string(return_value_ERR_get_error$2, err_buff);
-      aflog((char)16, (char)32, "%s(%d): ssl:%s", info, result, return_value_ERR_error_string$3);
+      return_value_ERR_get_error_2=ERR_get_error();
+      return_value_ERR_error_string_3=ERR_error_string(return_value_ERR_get_error_2, err_buff);
+      aflog((char)16, (char)32, "%s(%d): ssl:%s", info, result, return_value_ERR_error_string_3);
       break;
     }
     default:
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      aflog((char)16, (char)32, "%s(%d): unrecognized error (%d)", info, result, *return_value___errno_location$4);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      aflog((char)16, (char)32, "%s(%d): unrecognized error (%d)", info, result, *return_value___errno_location_4);
     }
   }
   if(merror == 2 || merror == 3)
@@ -11640,13 +11640,13 @@ struct llnode * getloglisthead()
 void * http_proxy_client(void *vptr)
 {
   char tab[9000l];
-  struct anonymous$16 conn;
-  struct anonymous$15 hdr;
+  struct anonymous_16 conn;
+  struct anonymous_15 hdr;
   signed int j;
   signed int n;
   signed int maxfdp1;
-  struct anonymous$11 rset;
-  struct anonymous$11 allset;
+  struct anonymous_11 rset;
+  struct anonymous_11 allset;
   struct timeval tv;
   signed int timeout = 5;
   signed int tmp;
@@ -11661,9 +11661,9 @@ void * http_proxy_client(void *vptr)
   char authtype;
   char https;
   struct ssl_ctx_st *ctx;
-  struct anonymous$19 *proxy_argptr;
+  struct anonymous_19 *proxy_argptr;
   start_critical_section();
-  proxy_argptr = (struct anonymous$19 *)vptr;
+  proxy_argptr = (struct anonymous_19 *)vptr;
   host = proxy_argptr->host;
   serv = proxy_argptr->serv;
   proxyname=HttpProxyOptions_get_proxyname(proxy_argptr->hpo);
@@ -11679,47 +11679,47 @@ void * http_proxy_client(void *vptr)
   conn.postFd=SslFd_new();
   conn.getFd=SslFd_new();
   conn.tmpFd=SslFd_new();
-  if(conn.getFd == ((struct anonymous$0 *)NULL) || conn.postFd == ((struct anonymous$0 *)NULL) || conn.tmpFd == ((struct anonymous$0 *)NULL))
+  if(conn.getFd == ((struct anonymous_0 *)NULL) || conn.postFd == ((struct anonymous_0 *)NULL) || conn.tmpFd == ((struct anonymous_0 *)NULL))
   {
     aflog((char)4, (char)1, "http%s proxy: Can't allocate memory... exiting.", name);
     exit(1);
   }
 
-  _Bool tmp_if_expr$6;
-  struct ssl_st *return_value_SslFd_get_ssl$5;
-  _Bool tmp_if_expr$8;
-  struct ssl_st *return_value_SslFd_get_ssl$7;
+  _Bool tmp_if_expr_6;
+  struct ssl_st *return_value_SslFd_get_ssl_5;
+  _Bool tmp_if_expr_8;
+  struct ssl_st *return_value_SslFd_get_ssl_7;
   if(!(https == 0))
   {
     name = "s";
-    struct ssl_st *return_value_SSL_new$1;
-    return_value_SSL_new$1=SSL_new(ctx);
-    SslFd_set_ssl(conn.postFd, return_value_SSL_new$1);
-    struct ssl_st *return_value_SSL_new$2;
-    return_value_SSL_new$2=SSL_new(ctx);
-    SslFd_set_ssl(conn.getFd, return_value_SSL_new$2);
-    struct ssl_st *return_value_SSL_new$3;
-    return_value_SSL_new$3=SSL_new(ctx);
-    SslFd_set_ssl(conn.tmpFd, return_value_SSL_new$3);
-    struct ssl_st *return_value_SslFd_get_ssl$4;
-    return_value_SslFd_get_ssl$4=SslFd_get_ssl(conn.postFd);
-    if(return_value_SslFd_get_ssl$4 == ((struct ssl_st *)NULL))
-      tmp_if_expr$6 = (_Bool)1;
+    struct ssl_st *return_value_SSL_new_1;
+    return_value_SSL_new_1=SSL_new(ctx);
+    SslFd_set_ssl(conn.postFd, return_value_SSL_new_1);
+    struct ssl_st *return_value_SSL_new_2;
+    return_value_SSL_new_2=SSL_new(ctx);
+    SslFd_set_ssl(conn.getFd, return_value_SSL_new_2);
+    struct ssl_st *return_value_SSL_new_3;
+    return_value_SSL_new_3=SSL_new(ctx);
+    SslFd_set_ssl(conn.tmpFd, return_value_SSL_new_3);
+    struct ssl_st *return_value_SslFd_get_ssl_4;
+    return_value_SslFd_get_ssl_4=SslFd_get_ssl(conn.postFd);
+    if(return_value_SslFd_get_ssl_4 == ((struct ssl_st *)NULL))
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_SslFd_get_ssl$5=SslFd_get_ssl(conn.getFd);
-      tmp_if_expr$6 = return_value_SslFd_get_ssl$5 == (struct ssl_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      return_value_SslFd_get_ssl_5=SslFd_get_ssl(conn.getFd);
+      tmp_if_expr_6 = return_value_SslFd_get_ssl_5 == (struct ssl_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
-      tmp_if_expr$8 = (_Bool)1;
+    if(tmp_if_expr_6)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_SslFd_get_ssl$7=SslFd_get_ssl(conn.tmpFd);
-      tmp_if_expr$8 = return_value_SslFd_get_ssl$7 == (struct ssl_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      return_value_SslFd_get_ssl_7=SslFd_get_ssl(conn.tmpFd);
+      tmp_if_expr_8 = return_value_SslFd_get_ssl_7 == (struct ssl_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
+    if(tmp_if_expr_8)
     {
       aflog((char)4, (char)1, "http%s proxy: Can't allocate memory... exiting.", name);
       exit(1);
@@ -11735,11 +11735,11 @@ void * http_proxy_client(void *vptr)
 
   if(!(credentials == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen(credentials);
-    signed int return_value_b64_ntop$10;
-    return_value_b64_ntop$10=b64_ntop((unsigned char *)credentials, return_value_strlen$9, b64cred, (unsigned long int)100);
-    if(return_value_b64_ntop$10 == -1)
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen(credentials);
+    signed int return_value_b64_ntop_10;
+    return_value_b64_ntop_10=b64_ntop((unsigned char *)credentials, return_value_strlen_9, b64cred, (unsigned long int)100);
+    if(return_value_b64_ntop_10 == -1)
     {
       aflog((char)16, (char)64, "Cannot encode credentials for proxy authorization");
       b64cred[(signed long int)0] = (char)0;
@@ -11755,7 +11755,7 @@ void * http_proxy_client(void *vptr)
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&allset)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&allset)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   tv.tv_usec = (signed long int)0;
@@ -11764,37 +11764,37 @@ void * http_proxy_client(void *vptr)
   j = 0;
   for( ; !(j >= 9); j = j + 1)
   {
-    signed int return_value_myrand$11;
-    return_value_myrand$11=myrand(65, 90);
-    conn.id[(signed long int)j] = (char)return_value_myrand$11;
+    signed int return_value_myrand_11;
+    return_value_myrand_11=myrand(65, 90);
+    conn.id[(signed long int)j] = (char)return_value_myrand_11;
   }
   conn.id[(signed long int)9] = (char)0;
   aflog((char)16, (char)2, "http%s proxy: connecting (postfd)...", name);
-  signed int return_value_ip_connect$12;
-  return_value_ip_connect$12=ip_connect(&tmp, proxyname, proxyport, type, (const char *)(void *)0, (const char *)(void *)0);
-  if(!(return_value_ip_connect$12 == 0))
+  signed int return_value_ip_connect_12;
+  return_value_ip_connect_12=ip_connect(&tmp, proxyname, proxyport, type, (const char *)(void *)0, (const char *)(void *)0);
+  if(!(return_value_ip_connect_12 == 0))
     clean_return(conn.sockfd);
 
   SslFd_set_fd(conn.postFd, tmp);
   if(!(https == 0))
   {
-    struct ssl_st *return_value_SslFd_get_ssl$13;
-    return_value_SslFd_get_ssl$13=SslFd_get_ssl(conn.postFd);
-    signed int return_value_SslFd_get_fd$14;
-    return_value_SslFd_get_fd$14=SslFd_get_fd(conn.postFd);
-    signed int return_value_SSL_set_fd$15;
-    return_value_SSL_set_fd$15=SSL_set_fd(return_value_SslFd_get_ssl$13, return_value_SslFd_get_fd$14);
-    if(!(return_value_SSL_set_fd$15 == 1))
+    struct ssl_st *return_value_SslFd_get_ssl_13;
+    return_value_SslFd_get_ssl_13=SslFd_get_ssl(conn.postFd);
+    signed int return_value_SslFd_get_fd_14;
+    return_value_SslFd_get_fd_14=SslFd_get_fd(conn.postFd);
+    signed int return_value_SSL_set_fd_15;
+    return_value_SSL_set_fd_15=SSL_set_fd(return_value_SslFd_get_ssl_13, return_value_SslFd_get_fd_14);
+    if(!(return_value_SSL_set_fd_15 == 1))
     {
       aflog((char)4, (char)1, "https proxy: Problem with initializing ssl");
       clean_return(conn.sockfd);
     }
 
-    struct ssl_st *return_value_SslFd_get_ssl$16;
-    return_value_SslFd_get_ssl$16=SslFd_get_ssl(conn.postFd);
-    signed int return_value_SSL_connect$17;
-    return_value_SSL_connect$17=SSL_connect(return_value_SslFd_get_ssl$16);
-    if(!(return_value_SSL_connect$17 == 1))
+    struct ssl_st *return_value_SslFd_get_ssl_16;
+    return_value_SslFd_get_ssl_16=SslFd_get_ssl(conn.postFd);
+    signed int return_value_SSL_connect_17;
+    return_value_SSL_connect_17=SSL_connect(return_value_SslFd_get_ssl_16);
+    if(!(return_value_SSL_connect_17 == 1))
     {
       aflog((char)4, (char)1, "https proxy: SSL_connect has failed");
       clean_return(conn.sockfd);
@@ -11813,41 +11813,41 @@ void * http_proxy_client(void *vptr)
 
 __CPROVER_DUMP_L20:
   ;
-  unsigned long int return_value_strlen$18;
-  return_value_strlen$18=strlen(tab);
-  j = (signed int)return_value_strlen$18;
+  unsigned long int return_value_strlen_18;
+  return_value_strlen_18=strlen(tab);
+  j = (signed int)return_value_strlen_18;
   aflog((char)16, (char)2, "http%s proxy: writing POST request...", name);
-  signed int return_value_http_write$19;
-  return_value_http_write$19=http_write(https, conn.postFd, (unsigned char *)tab, j);
-  if(!(return_value_http_write$19 >= 1))
+  signed int return_value_http_write_19;
+  return_value_http_write_19=http_write(https, conn.postFd, (unsigned char *)tab, j);
+  if(!(return_value_http_write_19 >= 1))
     clean_return(conn.sockfd);
 
   aflog((char)16, (char)2, "http%s proxy: connecting (getfd)...", name);
-  signed int return_value_ip_connect$20;
-  return_value_ip_connect$20=ip_connect(&tmp, proxyname, proxyport, type, (const char *)(void *)0, (const char *)(void *)0);
-  if(!(return_value_ip_connect$20 == 0))
+  signed int return_value_ip_connect_20;
+  return_value_ip_connect_20=ip_connect(&tmp, proxyname, proxyport, type, (const char *)(void *)0, (const char *)(void *)0);
+  if(!(return_value_ip_connect_20 == 0))
     clean_return(conn.sockfd);
 
   SslFd_set_fd(conn.getFd, tmp);
   if(!(https == 0))
   {
-    struct ssl_st *return_value_SslFd_get_ssl$21;
-    return_value_SslFd_get_ssl$21=SslFd_get_ssl(conn.getFd);
-    signed int return_value_SslFd_get_fd$22;
-    return_value_SslFd_get_fd$22=SslFd_get_fd(conn.getFd);
-    signed int return_value_SSL_set_fd$23;
-    return_value_SSL_set_fd$23=SSL_set_fd(return_value_SslFd_get_ssl$21, return_value_SslFd_get_fd$22);
-    if(!(return_value_SSL_set_fd$23 == 1))
+    struct ssl_st *return_value_SslFd_get_ssl_21;
+    return_value_SslFd_get_ssl_21=SslFd_get_ssl(conn.getFd);
+    signed int return_value_SslFd_get_fd_22;
+    return_value_SslFd_get_fd_22=SslFd_get_fd(conn.getFd);
+    signed int return_value_SSL_set_fd_23;
+    return_value_SSL_set_fd_23=SSL_set_fd(return_value_SslFd_get_ssl_21, return_value_SslFd_get_fd_22);
+    if(!(return_value_SSL_set_fd_23 == 1))
     {
       aflog((char)4, (char)1, "https proxy: Problem with initializing ssl");
       clean_return(conn.sockfd);
     }
 
-    struct ssl_st *return_value_SslFd_get_ssl$24;
-    return_value_SslFd_get_ssl$24=SslFd_get_ssl(conn.getFd);
-    signed int return_value_SSL_connect$25;
-    return_value_SSL_connect$25=SSL_connect(return_value_SslFd_get_ssl$24);
-    if(!(return_value_SSL_connect$25 == 1))
+    struct ssl_st *return_value_SslFd_get_ssl_24;
+    return_value_SslFd_get_ssl_24=SslFd_get_ssl(conn.getFd);
+    signed int return_value_SSL_connect_25;
+    return_value_SSL_connect_25=SSL_connect(return_value_SslFd_get_ssl_24);
+    if(!(return_value_SSL_connect_25 == 1))
     {
       aflog((char)4, (char)1, "https proxy: SSL_connect has failed");
       clean_return(conn.sockfd);
@@ -11866,28 +11866,28 @@ __CPROVER_DUMP_L20:
 
 __CPROVER_DUMP_L28:
   ;
-  unsigned long int return_value_strlen$26;
-  return_value_strlen$26=strlen(tab);
-  j = (signed int)return_value_strlen$26;
+  unsigned long int return_value_strlen_26;
+  return_value_strlen_26=strlen(tab);
+  j = (signed int)return_value_strlen_26;
   aflog((char)16, (char)2, "http%s proxy: writing GET request...", name);
-  signed int return_value_http_write$27;
-  return_value_http_write$27=http_write(https, conn.getFd, (unsigned char *)tab, j);
-  if(!(return_value_http_write$27 >= 1))
+  signed int return_value_http_write_27;
+  return_value_http_write_27=http_write(https, conn.getFd, (unsigned char *)tab, j);
+  if(!(return_value_http_write_27 >= 1))
     clean_return(conn.sockfd);
 
   set_fd(conn.sockfd, &maxfdp1, &allset);
-  signed int return_value_SslFd_get_fd$28;
-  return_value_SslFd_get_fd$28=SslFd_get_fd(conn.postFd);
-  set_fd(return_value_SslFd_get_fd$28, &maxfdp1, &allset);
-  signed int return_value_SslFd_get_fd$29;
-  return_value_SslFd_get_fd$29=SslFd_get_fd(conn.getFd);
-  set_fd(return_value_SslFd_get_fd$29, &maxfdp1, &allset);
+  signed int return_value_SslFd_get_fd_28;
+  return_value_SslFd_get_fd_28=SslFd_get_fd(conn.postFd);
+  set_fd(return_value_SslFd_get_fd_28, &maxfdp1, &allset);
+  signed int return_value_SslFd_get_fd_29;
+  return_value_SslFd_get_fd_29=SslFd_get_fd(conn.getFd);
+  set_fd(return_value_SslFd_get_fd_29, &maxfdp1, &allset);
   conn.state = (char)4;
   memset((void *)tab, 0, (unsigned long int)9000);
   aflog((char)16, (char)2, "http%s proxy: parsing header from getfd", name);
-  signed int return_value_parse_header$30;
-  return_value_parse_header$30=parse_header(conn.getFd, tab, &hdr, https);
-  if(!(return_value_parse_header$30 == 0))
+  signed int return_value_parse_header_30;
+  return_value_parse_header_30=parse_header(conn.getFd, tab, &hdr, https);
+  if(!(return_value_parse_header_30 == 0))
     clean_return(conn.sockfd);
 
   aflog((char)16, (char)2, "http%s proxy: checking hdr.type", name);
@@ -11898,9 +11898,9 @@ __CPROVER_DUMP_L28:
   {
     conn.received = conn.received + hdr.length;
     aflog((char)16, (char)2, "http%s proxy: reading message...", name);
-    signed int return_value_read_message$31;
-    return_value_read_message$31=read_message(conn.sockfd, hdr.length, &conn, tab, hdr.ptr);
-    if(!(return_value_read_message$31 == 0))
+    signed int return_value_read_message_31;
+    return_value_read_message_31=read_message(conn.sockfd, hdr.length, &conn, tab, hdr.ptr);
+    if(!(return_value_read_message_31 == 0))
       clean_return(conn.sockfd);
 
   }
@@ -11915,9 +11915,9 @@ __CPROVER_DUMP_L28:
     }
 
     rset = allset;
-    signed int return_value_select$41;
-    return_value_select$41=select(maxfdp1, &rset, (struct anonymous$11 *)(void *)0, (struct anonymous$11 *)(void *)0, &tv);
-    if(return_value_select$41 == 0)
+    signed int return_value_select_41;
+    return_value_select_41=select(maxfdp1, &rset, (struct anonymous_11 *)(void *)0, (struct anonymous_11 *)(void *)0, &tv);
+    if(return_value_select_41 == 0)
     {
       aflog((char)16, (char)4, "http%s proxy: timeout", name);
       tv.tv_sec = (signed long int)timeout;
@@ -11931,31 +11931,31 @@ __CPROVER_DUMP_L28:
         conn.sent_ptr = 0;
         clear_sslFd(conn.postFd, &allset);
         aflog((char)16, (char)2, "http%s proxy: connecting (postfd)...", name);
-        signed int return_value_ip_connect$32;
-        return_value_ip_connect$32=ip_connect(&tmp, proxyname, proxyport, type, (const char *)(void *)0, (const char *)(void *)0);
-        if(!(return_value_ip_connect$32 == 0))
+        signed int return_value_ip_connect_32;
+        return_value_ip_connect_32=ip_connect(&tmp, proxyname, proxyport, type, (const char *)(void *)0, (const char *)(void *)0);
+        if(!(return_value_ip_connect_32 == 0))
           clean_return(conn.sockfd);
 
         SslFd_set_fd(conn.postFd, tmp);
         if(!(https == 0))
         {
-          struct ssl_st *return_value_SslFd_get_ssl$33;
-          return_value_SslFd_get_ssl$33=SslFd_get_ssl(conn.postFd);
-          signed int return_value_SslFd_get_fd$34;
-          return_value_SslFd_get_fd$34=SslFd_get_fd(conn.postFd);
-          signed int return_value_SSL_set_fd$35;
-          return_value_SSL_set_fd$35=SSL_set_fd(return_value_SslFd_get_ssl$33, return_value_SslFd_get_fd$34);
-          if(!(return_value_SSL_set_fd$35 == 1))
+          struct ssl_st *return_value_SslFd_get_ssl_33;
+          return_value_SslFd_get_ssl_33=SslFd_get_ssl(conn.postFd);
+          signed int return_value_SslFd_get_fd_34;
+          return_value_SslFd_get_fd_34=SslFd_get_fd(conn.postFd);
+          signed int return_value_SSL_set_fd_35;
+          return_value_SSL_set_fd_35=SSL_set_fd(return_value_SslFd_get_ssl_33, return_value_SslFd_get_fd_34);
+          if(!(return_value_SSL_set_fd_35 == 1))
           {
             aflog((char)4, (char)1, "https proxy: Problem with initializing ssl");
             clean_return(conn.sockfd);
           }
 
-          struct ssl_st *return_value_SslFd_get_ssl$36;
-          return_value_SslFd_get_ssl$36=SslFd_get_ssl(conn.postFd);
-          signed int return_value_SSL_connect$37;
-          return_value_SSL_connect$37=SSL_connect(return_value_SslFd_get_ssl$36);
-          if(!(return_value_SSL_connect$37 == 1))
+          struct ssl_st *return_value_SslFd_get_ssl_36;
+          return_value_SslFd_get_ssl_36=SslFd_get_ssl(conn.postFd);
+          signed int return_value_SSL_connect_37;
+          return_value_SSL_connect_37=SSL_connect(return_value_SslFd_get_ssl_36);
+          if(!(return_value_SSL_connect_37 == 1))
           {
             aflog((char)4, (char)1, "https proxy: SSL_connect has failed");
             clean_return(conn.sockfd);
@@ -11974,22 +11974,22 @@ __CPROVER_DUMP_L28:
 
       __CPROVER_DUMP_L41:
         ;
-        unsigned long int return_value_strlen$38;
-        return_value_strlen$38=strlen(tab);
-        j = (signed int)return_value_strlen$38;
+        unsigned long int return_value_strlen_38;
+        return_value_strlen_38=strlen(tab);
+        j = (signed int)return_value_strlen_38;
         aflog((char)16, (char)2, "http%s proxy: writing POST request...", name);
-        signed int return_value_http_write$39;
-        return_value_http_write$39=http_write(https, conn.postFd, (unsigned char *)tab, j);
-        if(!(return_value_http_write$39 >= 1))
+        signed int return_value_http_write_39;
+        return_value_http_write_39=http_write(https, conn.postFd, (unsigned char *)tab, j);
+        if(!(return_value_http_write_39 >= 1))
           clean_return(conn.sockfd);
 
         conn.sent_ptr = 0;
         conn.ptr = 0;
         conn.length = 0;
         conn.state = (char)0;
-        signed int return_value_SslFd_get_fd$40;
-        return_value_SslFd_get_fd$40=SslFd_get_fd(conn.postFd);
-        set_fd(return_value_SslFd_get_fd$40, &maxfdp1, &allset);
+        signed int return_value_SslFd_get_fd_40;
+        return_value_SslFd_get_fd_40=SslFd_get_fd(conn.postFd);
+        set_fd(return_value_SslFd_get_fd_40, &maxfdp1, &allset);
       }
 
       else
@@ -12005,9 +12005,9 @@ __CPROVER_DUMP_L28:
       if(!((rset.__fds_bits[(signed long int)(conn.sockfd / 8)] & 1l << conn.sockfd % 8) == 0l))
       {
         aflog((char)16, (char)4, "http%s proxy: FD_ISSET(conn.sockfd)", name);
-        signed long int return_value_read$42;
-        return_value_read$42=read(conn.sockfd, (void *)(conn.buf + (signed long int)5), (unsigned long int)8995);
-        n = (signed int)return_value_read$42;
+        signed long int return_value_read_42;
+        return_value_read_42=read(conn.sockfd, (void *)(conn.buf + (signed long int)5), (unsigned long int)8995);
+        n = (signed int)return_value_read_42;
         if(!(n >= 1))
         {
           aflog((char)16, (char)2, "http%s proxy: send Q", name);
@@ -12019,9 +12019,9 @@ __CPROVER_DUMP_L28:
           (&allset)->__fds_bits[(signed long int)(conn.sockfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(conn.sockfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << conn.sockfd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
         conn.buf[(signed long int)0] = (char)77;
-        unsigned int return_value___bswap_32$43;
-        return_value___bswap_32$43=__bswap_32$link1((unsigned int)n);
-        tmp = (signed int)return_value___bswap_32$43;
+        unsigned int return_value___bswap_32_43;
+        return_value___bswap_32_43=__bswap_32_link1((unsigned int)n);
+        tmp = (signed int)return_value___bswap_32_43;
         memcpy((void *)&conn.buf[(signed long int)1], (const void *)&tmp, (unsigned long int)4);
         if(5 + conn.sent_ptr + n >= 90000)
         {
@@ -12032,31 +12032,31 @@ __CPROVER_DUMP_L28:
           conn.sent_ptr = 0;
           clear_sslFd(conn.postFd, &allset);
           aflog((char)16, (char)2, "http%s proxy: connecting (postfd)...", name);
-          signed int return_value_ip_connect$44;
-          return_value_ip_connect$44=ip_connect(&tmp, proxyname, proxyport, type, (const char *)(void *)0, (const char *)(void *)0);
-          if(!(return_value_ip_connect$44 == 0))
+          signed int return_value_ip_connect_44;
+          return_value_ip_connect_44=ip_connect(&tmp, proxyname, proxyport, type, (const char *)(void *)0, (const char *)(void *)0);
+          if(!(return_value_ip_connect_44 == 0))
             clean_return(conn.sockfd);
 
           SslFd_set_fd(conn.postFd, tmp);
           if(!(https == 0))
           {
-            struct ssl_st *return_value_SslFd_get_ssl$45;
-            return_value_SslFd_get_ssl$45=SslFd_get_ssl(conn.postFd);
-            signed int return_value_SslFd_get_fd$46;
-            return_value_SslFd_get_fd$46=SslFd_get_fd(conn.postFd);
-            signed int return_value_SSL_set_fd$47;
-            return_value_SSL_set_fd$47=SSL_set_fd(return_value_SslFd_get_ssl$45, return_value_SslFd_get_fd$46);
-            if(!(return_value_SSL_set_fd$47 == 1))
+            struct ssl_st *return_value_SslFd_get_ssl_45;
+            return_value_SslFd_get_ssl_45=SslFd_get_ssl(conn.postFd);
+            signed int return_value_SslFd_get_fd_46;
+            return_value_SslFd_get_fd_46=SslFd_get_fd(conn.postFd);
+            signed int return_value_SSL_set_fd_47;
+            return_value_SSL_set_fd_47=SSL_set_fd(return_value_SslFd_get_ssl_45, return_value_SslFd_get_fd_46);
+            if(!(return_value_SSL_set_fd_47 == 1))
             {
               aflog((char)4, (char)1, "https proxy: Problem with initializing ssl");
               clean_return(conn.sockfd);
             }
 
-            struct ssl_st *return_value_SslFd_get_ssl$48;
-            return_value_SslFd_get_ssl$48=SslFd_get_ssl(conn.postFd);
-            signed int return_value_SSL_connect$49;
-            return_value_SSL_connect$49=SSL_connect(return_value_SslFd_get_ssl$48);
-            if(!(return_value_SSL_connect$49 == 1))
+            struct ssl_st *return_value_SslFd_get_ssl_48;
+            return_value_SslFd_get_ssl_48=SslFd_get_ssl(conn.postFd);
+            signed int return_value_SSL_connect_49;
+            return_value_SSL_connect_49=SSL_connect(return_value_SslFd_get_ssl_48);
+            if(!(return_value_SSL_connect_49 == 1))
             {
               aflog((char)4, (char)1, "https proxy: SSL_connect has failed");
               clean_return(conn.sockfd);
@@ -12075,21 +12075,21 @@ __CPROVER_DUMP_L28:
 
         __CPROVER_DUMP_L54:
           ;
-          unsigned long int return_value_strlen$50;
-          return_value_strlen$50=strlen(tab);
-          j = (signed int)return_value_strlen$50;
+          unsigned long int return_value_strlen_50;
+          return_value_strlen_50=strlen(tab);
+          j = (signed int)return_value_strlen_50;
           aflog((char)16, (char)2, "http%s proxy: writing POST request...", name);
-          signed int return_value_http_write$51;
-          return_value_http_write$51=http_write(https, conn.postFd, (unsigned char *)tab, j);
-          if(!(return_value_http_write$51 >= 1))
+          signed int return_value_http_write_51;
+          return_value_http_write_51=http_write(https, conn.postFd, (unsigned char *)tab, j);
+          if(!(return_value_http_write_51 >= 1))
             clean_return(conn.sockfd);
 
           if(conn.length >= 1)
           {
             aflog((char)16, (char)2, "http%s proxy: writing old data...", name);
-            signed int return_value_http_write$52;
-            return_value_http_write$52=http_write(https, conn.postFd, (unsigned char *)(conn.buf + (signed long int)conn.ptr), conn.length);
-            if(!(return_value_http_write$52 >= 1))
+            signed int return_value_http_write_52;
+            return_value_http_write_52=http_write(https, conn.postFd, (unsigned char *)(conn.buf + (signed long int)conn.ptr), conn.length);
+            if(!(return_value_http_write_52 >= 1))
               clean_return(conn.sockfd);
 
           }
@@ -12098,9 +12098,9 @@ __CPROVER_DUMP_L28:
           conn.ptr = 0;
           conn.length = 0;
           conn.state = (char)0;
-          signed int return_value_SslFd_get_fd$53;
-          return_value_SslFd_get_fd$53=SslFd_get_fd(conn.postFd);
-          set_fd(return_value_SslFd_get_fd$53, &maxfdp1, &allset);
+          signed int return_value_SslFd_get_fd_53;
+          return_value_SslFd_get_fd_53=SslFd_get_fd(conn.postFd);
+          set_fd(return_value_SslFd_get_fd_53, &maxfdp1, &allset);
         }
 
         else
@@ -12111,11 +12111,11 @@ __CPROVER_DUMP_L28:
         }
       }
 
-      signed int return_value_SslFd_get_fd$66;
-      return_value_SslFd_get_fd$66=SslFd_get_fd(conn.getFd);
-      signed int return_value_SslFd_get_fd$67;
-      return_value_SslFd_get_fd$67=SslFd_get_fd(conn.getFd);
-      if(!((rset.__fds_bits[(signed long int)(return_value_SslFd_get_fd$66 / 8)] & 1l << return_value_SslFd_get_fd$67 % 8) == 0l))
+      signed int return_value_SslFd_get_fd_66;
+      return_value_SslFd_get_fd_66=SslFd_get_fd(conn.getFd);
+      signed int return_value_SslFd_get_fd_67;
+      return_value_SslFd_get_fd_67=SslFd_get_fd(conn.getFd);
+      if(!((rset.__fds_bits[(signed long int)(return_value_SslFd_get_fd_66 / 8)] & 1l << return_value_SslFd_get_fd_67 % 8) == 0l))
       {
         aflog((char)16, (char)4, "http%s proxy: FD_ISSET(conn.getfd)", name);
         n=http_read(https, conn.getFd, (unsigned char *)tab, 9000);
@@ -12125,31 +12125,31 @@ __CPROVER_DUMP_L28:
           conn.received = 0;
           clear_sslFd(conn.getFd, &allset);
           aflog((char)16, (char)2, "http%s proxy: connecting (getfd)...", name);
-          signed int return_value_ip_connect$54;
-          return_value_ip_connect$54=ip_connect(&tmp, proxyname, proxyport, type, (const char *)(void *)0, (const char *)(void *)0);
-          if(!(return_value_ip_connect$54 == 0))
+          signed int return_value_ip_connect_54;
+          return_value_ip_connect_54=ip_connect(&tmp, proxyname, proxyport, type, (const char *)(void *)0, (const char *)(void *)0);
+          if(!(return_value_ip_connect_54 == 0))
             clean_return(conn.sockfd);
 
           SslFd_set_fd(conn.getFd, tmp);
           if(!(https == 0))
           {
-            struct ssl_st *return_value_SslFd_get_ssl$55;
-            return_value_SslFd_get_ssl$55=SslFd_get_ssl(conn.getFd);
-            signed int return_value_SslFd_get_fd$56;
-            return_value_SslFd_get_fd$56=SslFd_get_fd(conn.getFd);
-            signed int return_value_SSL_set_fd$57;
-            return_value_SSL_set_fd$57=SSL_set_fd(return_value_SslFd_get_ssl$55, return_value_SslFd_get_fd$56);
-            if(!(return_value_SSL_set_fd$57 == 1))
+            struct ssl_st *return_value_SslFd_get_ssl_55;
+            return_value_SslFd_get_ssl_55=SslFd_get_ssl(conn.getFd);
+            signed int return_value_SslFd_get_fd_56;
+            return_value_SslFd_get_fd_56=SslFd_get_fd(conn.getFd);
+            signed int return_value_SSL_set_fd_57;
+            return_value_SSL_set_fd_57=SSL_set_fd(return_value_SslFd_get_ssl_55, return_value_SslFd_get_fd_56);
+            if(!(return_value_SSL_set_fd_57 == 1))
             {
               aflog((char)4, (char)1, "https proxy: Problem with initializing ssl");
               clean_return(conn.sockfd);
             }
 
-            struct ssl_st *return_value_SslFd_get_ssl$58;
-            return_value_SslFd_get_ssl$58=SslFd_get_ssl(conn.getFd);
-            signed int return_value_SSL_connect$59;
-            return_value_SSL_connect$59=SSL_connect(return_value_SslFd_get_ssl$58);
-            if(!(return_value_SSL_connect$59 == 1))
+            struct ssl_st *return_value_SslFd_get_ssl_58;
+            return_value_SslFd_get_ssl_58=SslFd_get_ssl(conn.getFd);
+            signed int return_value_SSL_connect_59;
+            return_value_SSL_connect_59=SSL_connect(return_value_SslFd_get_ssl_58);
+            if(!(return_value_SSL_connect_59 == 1))
             {
               aflog((char)4, (char)1, "https proxy: SSL_connect has failed");
               clean_return(conn.sockfd);
@@ -12168,36 +12168,36 @@ __CPROVER_DUMP_L28:
 
         __CPROVER_DUMP_L67:
           ;
-          unsigned long int return_value_strlen$60;
-          return_value_strlen$60=strlen(tab);
-          j = (signed int)return_value_strlen$60;
+          unsigned long int return_value_strlen_60;
+          return_value_strlen_60=strlen(tab);
+          j = (signed int)return_value_strlen_60;
           aflog((char)16, (char)2, "http%s proxy: writing GET request...", name);
-          signed int return_value_http_write$61;
-          return_value_http_write$61=http_write(https, conn.getFd, (unsigned char *)tab, j);
-          if(!(return_value_http_write$61 >= 1))
+          signed int return_value_http_write_61;
+          return_value_http_write_61=http_write(https, conn.getFd, (unsigned char *)tab, j);
+          if(!(return_value_http_write_61 >= 1))
             clean_return(conn.sockfd);
 
           memset((void *)tab, 0, (unsigned long int)9000);
           aflog((char)16, (char)2, "http%s proxy: parsing header from getfd", name);
-          signed int return_value_parse_header$62;
-          return_value_parse_header$62=parse_header(conn.getFd, tab, &hdr, https);
-          if(!(return_value_parse_header$62 == 0))
+          signed int return_value_parse_header_62;
+          return_value_parse_header_62=parse_header(conn.getFd, tab, &hdr, https);
+          if(!(return_value_parse_header_62 == 0))
             clean_return(conn.sockfd);
 
           aflog((char)16, (char)2, "http%s proxy: checking hdr.type", name);
           if(!((signed int)hdr.type == 2))
             clean_return(conn.sockfd);
 
-          signed int return_value_SslFd_get_fd$63;
-          return_value_SslFd_get_fd$63=SslFd_get_fd(conn.getFd);
-          set_fd(return_value_SslFd_get_fd$63, &maxfdp1, &allset);
+          signed int return_value_SslFd_get_fd_63;
+          return_value_SslFd_get_fd_63=SslFd_get_fd(conn.getFd);
+          set_fd(return_value_SslFd_get_fd_63, &maxfdp1, &allset);
           if(!(hdr.length == 0))
           {
             conn.received = conn.received + hdr.length;
             aflog((char)16, (char)2, "http%s proxy: reading message...", name);
-            signed int return_value_read_message$64;
-            return_value_read_message$64=read_message(conn.sockfd, hdr.length, &conn, tab, hdr.ptr);
-            if(!(return_value_read_message$64 == 0))
+            signed int return_value_read_message_64;
+            return_value_read_message_64=read_message(conn.sockfd, hdr.length, &conn, tab, hdr.ptr);
+            if(!(return_value_read_message_64 == 0))
               clean_return(conn.sockfd);
 
           }
@@ -12206,19 +12206,19 @@ __CPROVER_DUMP_L28:
 
         else
         {
-          signed int return_value_read_message$65;
-          return_value_read_message$65=read_message(conn.sockfd, n, &conn, tab, 0);
-          if(!(return_value_read_message$65 == 0))
+          signed int return_value_read_message_65;
+          return_value_read_message_65=read_message(conn.sockfd, n, &conn, tab, 0);
+          if(!(return_value_read_message_65 == 0))
             clean_return(conn.sockfd);
 
         }
       }
 
-      signed int return_value_SslFd_get_fd$68;
-      return_value_SslFd_get_fd$68=SslFd_get_fd(conn.postFd);
-      signed int return_value_SslFd_get_fd$69;
-      return_value_SslFd_get_fd$69=SslFd_get_fd(conn.postFd);
-      if(!((rset.__fds_bits[(signed long int)(return_value_SslFd_get_fd$68 / 8)] & 1l << return_value_SslFd_get_fd$69 % 8) == 0l))
+      signed int return_value_SslFd_get_fd_68;
+      return_value_SslFd_get_fd_68=SslFd_get_fd(conn.postFd);
+      signed int return_value_SslFd_get_fd_69;
+      return_value_SslFd_get_fd_69=SslFd_get_fd(conn.postFd);
+      if(!((rset.__fds_bits[(signed long int)(return_value_SslFd_get_fd_68 / 8)] & 1l << return_value_SslFd_get_fd_69 % 8) == 0l))
       {
         aflog((char)16, (char)4, "http%s proxy: FD_ISSET(conn.postfd) --> clean_return", name);
         clear_sslFd(conn.postFd, &allset);
@@ -12232,89 +12232,89 @@ __CPROVER_DUMP_L28:
 
 // http_read
 // file http_proxy_functions.c line 402
-signed int http_read(char https, struct anonymous$0 *sf, unsigned char *buf, signed int amount)
+signed int http_read(char https, struct anonymous_0 *sf, unsigned char *buf, signed int amount)
 {
   if(!(https == 0))
   {
-    struct ssl_st *return_value_SslFd_get_ssl$1;
-    return_value_SslFd_get_ssl$1=SslFd_get_ssl(sf);
-    signed int return_value_SSL_read$2;
-    return_value_SSL_read$2=SSL_read(return_value_SslFd_get_ssl$1, (void *)buf, amount);
-    return return_value_SSL_read$2;
+    struct ssl_st *return_value_SslFd_get_ssl_1;
+    return_value_SslFd_get_ssl_1=SslFd_get_ssl(sf);
+    signed int return_value_SSL_read_2;
+    return_value_SSL_read_2=SSL_read(return_value_SslFd_get_ssl_1, (void *)buf, amount);
+    return return_value_SSL_read_2;
   }
 
   else
   {
-    signed int return_value_SslFd_get_fd$3;
-    return_value_SslFd_get_fd$3=SslFd_get_fd(sf);
-    signed long int return_value_read$4;
-    return_value_read$4=read(return_value_SslFd_get_fd$3, (void *)buf, (unsigned long int)amount);
-    return (signed int)return_value_read$4;
+    signed int return_value_SslFd_get_fd_3;
+    return_value_SslFd_get_fd_3=SslFd_get_fd(sf);
+    signed long int return_value_read_4;
+    return_value_read_4=read(return_value_SslFd_get_fd_3, (void *)buf, (unsigned long int)amount);
+    return (signed int)return_value_read_4;
   }
 }
 
 // http_write
 // file http_proxy_functions.c line 381
-signed int http_write(char https, struct anonymous$0 *sf, unsigned char *buf, signed int amount)
+signed int http_write(char https, struct anonymous_0 *sf, unsigned char *buf, signed int amount)
 {
   if(!(https == 0))
   {
-    struct ssl_st *return_value_SslFd_get_ssl$1;
-    return_value_SslFd_get_ssl$1=SslFd_get_ssl(sf);
-    signed int return_value_SSL_writen$2;
-    return_value_SSL_writen$2=SSL_writen(return_value_SslFd_get_ssl$1, buf, amount);
-    return return_value_SSL_writen$2;
+    struct ssl_st *return_value_SslFd_get_ssl_1;
+    return_value_SslFd_get_ssl_1=SslFd_get_ssl(sf);
+    signed int return_value_SSL_writen_2;
+    return_value_SSL_writen_2=SSL_writen(return_value_SslFd_get_ssl_1, buf, amount);
+    return return_value_SSL_writen_2;
   }
 
   else
   {
-    signed int return_value_SslFd_get_fd$3;
-    return_value_SslFd_get_fd$3=SslFd_get_fd(sf);
-    signed int return_value_writen$4;
-    return_value_writen$4=writen(return_value_SslFd_get_fd$3, buf, amount);
-    return return_value_writen$4;
+    signed int return_value_SslFd_get_fd_3;
+    return_value_SslFd_get_fd_3=SslFd_get_fd(sf);
+    signed int return_value_writen_4;
+    return_value_writen_4=writen(return_value_SslFd_get_fd_3, buf, amount);
+    return return_value_writen_4;
   }
 }
 
 // initialize_client_reverse_udp
 // file client_reverse_udp.h line 38
-signed int initialize_client_reverse_udp(struct anonymous$5 *cr)
+signed int initialize_client_reverse_udp(struct anonymous_5 *cr)
 {
   signed int tmp;
   signed int wanttoexit;
-  struct anonymous$3 *return_value_ClientRealm_get_arOptions$1;
-  return_value_ClientRealm_get_arOptions$1=ClientRealm_get_arOptions(cr);
-  char return_value_ArOptions_get_arStart$2;
-  return_value_ArOptions_get_arStart$2=ArOptions_get_arStart(return_value_ClientRealm_get_arOptions$1);
-  wanttoexit = (signed int)return_value_ArOptions_get_arStart$2 == 1 ? 0 : 1;
+  struct anonymous_3 *return_value_ClientRealm_get_arOptions_1;
+  return_value_ClientRealm_get_arOptions_1=ClientRealm_get_arOptions(cr);
+  char return_value_ArOptions_get_arStart_2;
+  return_value_ArOptions_get_arStart_2=ArOptions_get_arStart(return_value_ClientRealm_get_arOptions_1);
+  wanttoexit = (signed int)return_value_ArOptions_get_arStart_2 == 1 ? 0 : 1;
   ClientRealm_set_usersLimit(cr, 1);
-  char *return_value_ClientRealm_get_serverName$8;
-  return_value_ClientRealm_get_serverName$8=ClientRealm_get_serverName(cr);
-  char *return_value_ClientRealm_get_managePort$9;
-  return_value_ClientRealm_get_managePort$9=ClientRealm_get_managePort(cr);
-  char return_value_ClientRealm_get_ipFamily$10;
-  return_value_ClientRealm_get_ipFamily$10=ClientRealm_get_ipFamily(cr);
-  signed int return_value_ip_connect$11;
-  return_value_ip_connect$11=ip_connect(&tmp, return_value_ClientRealm_get_serverName$8, return_value_ClientRealm_get_managePort$9, return_value_ClientRealm_get_ipFamily$10, (const char *)(void *)0, (const char *)(void *)0);
-  char *tmp_if_expr$5;
-  char return_value_ClientRealm_get_ipFamily$4;
-  if(!(return_value_ip_connect$11 == 0))
+  char *return_value_ClientRealm_get_serverName_8;
+  return_value_ClientRealm_get_serverName_8=ClientRealm_get_serverName(cr);
+  char *return_value_ClientRealm_get_managePort_9;
+  return_value_ClientRealm_get_managePort_9=ClientRealm_get_managePort(cr);
+  char return_value_ClientRealm_get_ipFamily_10;
+  return_value_ClientRealm_get_ipFamily_10=ClientRealm_get_ipFamily(cr);
+  signed int return_value_ip_connect_11;
+  return_value_ip_connect_11=ip_connect(&tmp, return_value_ClientRealm_get_serverName_8, return_value_ClientRealm_get_managePort_9, return_value_ClientRealm_get_ipFamily_10, (const char *)(void *)0, (const char *)(void *)0);
+  char *tmp_if_expr_5;
+  char return_value_ClientRealm_get_ipFamily_4;
+  if(!(return_value_ip_connect_11 == 0))
   {
-    char return_value_ClientRealm_get_ipFamily$3;
-    return_value_ClientRealm_get_ipFamily$3=ClientRealm_get_ipFamily(cr);
-    if(!((0x02 & (signed int)return_value_ClientRealm_get_ipFamily$3) == 0))
-      tmp_if_expr$5 = "ipv4";
+    char return_value_ClientRealm_get_ipFamily_3;
+    return_value_ClientRealm_get_ipFamily_3=ClientRealm_get_ipFamily(cr);
+    if(!((0x02 & (signed int)return_value_ClientRealm_get_ipFamily_3) == 0))
+      tmp_if_expr_5 = "ipv4";
 
     else
     {
-      return_value_ClientRealm_get_ipFamily$4=ClientRealm_get_ipFamily(cr);
-      tmp_if_expr$5 = ((signed int)return_value_ClientRealm_get_ipFamily$4 & 0x04) != 0 ? "ipv6" : "unspec";
+      return_value_ClientRealm_get_ipFamily_4=ClientRealm_get_ipFamily(cr);
+      tmp_if_expr_5 = ((signed int)return_value_ClientRealm_get_ipFamily_4 & 0x04) != 0 ? "ipv6" : "unspec";
     }
-    char *return_value_ClientRealm_get_serverName$6;
-    return_value_ClientRealm_get_serverName$6=ClientRealm_get_serverName(cr);
-    char *return_value_ClientRealm_get_managePort$7;
-    return_value_ClientRealm_get_managePort$7=ClientRealm_get_managePort(cr);
-    aflog((char)4, (char)1, "tcp_connect_%s error for %s, %s", tmp_if_expr$5, return_value_ClientRealm_get_serverName$6, return_value_ClientRealm_get_managePort$7);
+    char *return_value_ClientRealm_get_serverName_6;
+    return_value_ClientRealm_get_serverName_6=ClientRealm_get_serverName(cr);
+    char *return_value_ClientRealm_get_managePort_7;
+    return_value_ClientRealm_get_managePort_7=ClientRealm_get_managePort(cr);
+    aflog((char)4, (char)1, "tcp_connect_%s error for %s, %s", tmp_if_expr_5, return_value_ClientRealm_get_serverName_6, return_value_ClientRealm_get_managePort_7);
     if(!(wanttoexit == 0))
       exit(1);
 
@@ -12322,18 +12322,18 @@ signed int initialize_client_reverse_udp(struct anonymous$5 *cr)
       return 1;
   }
 
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$12;
-  return_value_ClientRealm_get_masterSslFd$12=ClientRealm_get_masterSslFd(cr);
-  SslFd_set_fd(return_value_ClientRealm_get_masterSslFd$12, tmp);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$13;
-  return_value_ClientRealm_get_masterSslFd$13=ClientRealm_get_masterSslFd(cr);
-  SslFd_set_ssl(return_value_ClientRealm_get_masterSslFd$13, (struct ssl_st *)(void *)0);
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_12;
+  return_value_ClientRealm_get_masterSslFd_12=ClientRealm_get_masterSslFd(cr);
+  SslFd_set_fd(return_value_ClientRealm_get_masterSslFd_12, tmp);
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_13;
+  return_value_ClientRealm_get_masterSslFd_13=ClientRealm_get_masterSslFd(cr);
+  SslFd_set_ssl(return_value_ClientRealm_get_masterSslFd_13, (struct ssl_st *)(void *)0);
   return 0;
 }
 
 // initialize_client_stage1
 // file client_initialization.h line 36
-signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *ctx, unsigned char *buff, char wanttoexit, char ignorePublicKeys)
+signed int initialize_client_stage1(struct anonymous_5 *cr, struct ssl_ctx_st *ctx, unsigned char *buff, char wanttoexit, char ignorePublicKeys)
 {
   signed int n;
   signed int nlen;
@@ -12348,48 +12348,48 @@ signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *c
   unsigned char *encoded = (unsigned char *)(void *)0;
   char b64_encoded[100l];
   unsigned char *key_buf = (unsigned char *)(void *)0;
-  char return_value_ClientRealm_get_tunnelType$1;
-  return_value_ClientRealm_get_tunnelType$1=ClientRealm_get_tunnelType(cr);
-  char *return_value_ClientRealm_get_serverName$7;
-  char *return_value_ClientRealm_get_managePort$8;
-  char return_value_ClientRealm_get_ipFamily$9;
-  char *return_value_ClientRealm_get_localName$10;
-  char *return_value_ClientRealm_get_localPort$11;
-  signed int return_value_ip_connect$12;
-  char *tmp_if_expr$4;
-  char return_value_ClientRealm_get_ipFamily$3;
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$13;
-  signed int return_value_initialize_http_proxy_client$23;
-  char *tmp_if_expr$16;
-  char return_value_ClientRealm_get_ipFamily$15;
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$24;
-  switch((signed int)return_value_ClientRealm_get_tunnelType$1)
+  char return_value_ClientRealm_get_tunnelType_1;
+  return_value_ClientRealm_get_tunnelType_1=ClientRealm_get_tunnelType(cr);
+  char *return_value_ClientRealm_get_serverName_7;
+  char *return_value_ClientRealm_get_managePort_8;
+  char return_value_ClientRealm_get_ipFamily_9;
+  char *return_value_ClientRealm_get_localName_10;
+  char *return_value_ClientRealm_get_localPort_11;
+  signed int return_value_ip_connect_12;
+  char *tmp_if_expr_4;
+  char return_value_ClientRealm_get_ipFamily_3;
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_13;
+  signed int return_value_initialize_http_proxy_client_23;
+  char *tmp_if_expr_16;
+  char return_value_ClientRealm_get_ipFamily_15;
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_24;
+  switch((signed int)return_value_ClientRealm_get_tunnelType_1)
   {
     case 0:
     {
-      return_value_ClientRealm_get_serverName$7=ClientRealm_get_serverName(cr);
-      return_value_ClientRealm_get_managePort$8=ClientRealm_get_managePort(cr);
-      return_value_ClientRealm_get_ipFamily$9=ClientRealm_get_ipFamily(cr);
-      return_value_ClientRealm_get_localName$10=ClientRealm_get_localName(cr);
-      return_value_ClientRealm_get_localPort$11=ClientRealm_get_localPort(cr);
-      return_value_ip_connect$12=ip_connect(&tmp, return_value_ClientRealm_get_serverName$7, return_value_ClientRealm_get_managePort$8, return_value_ClientRealm_get_ipFamily$9, return_value_ClientRealm_get_localName$10, return_value_ClientRealm_get_localPort$11);
-      if(!(return_value_ip_connect$12 == 0))
+      return_value_ClientRealm_get_serverName_7=ClientRealm_get_serverName(cr);
+      return_value_ClientRealm_get_managePort_8=ClientRealm_get_managePort(cr);
+      return_value_ClientRealm_get_ipFamily_9=ClientRealm_get_ipFamily(cr);
+      return_value_ClientRealm_get_localName_10=ClientRealm_get_localName(cr);
+      return_value_ClientRealm_get_localPort_11=ClientRealm_get_localPort(cr);
+      return_value_ip_connect_12=ip_connect(&tmp, return_value_ClientRealm_get_serverName_7, return_value_ClientRealm_get_managePort_8, return_value_ClientRealm_get_ipFamily_9, return_value_ClientRealm_get_localName_10, return_value_ClientRealm_get_localPort_11);
+      if(!(return_value_ip_connect_12 == 0))
       {
-        char return_value_ClientRealm_get_ipFamily$2;
-        return_value_ClientRealm_get_ipFamily$2=ClientRealm_get_ipFamily(cr);
-        if(!((0x02 & (signed int)return_value_ClientRealm_get_ipFamily$2) == 0))
-          tmp_if_expr$4 = "ipv4";
+        char return_value_ClientRealm_get_ipFamily_2;
+        return_value_ClientRealm_get_ipFamily_2=ClientRealm_get_ipFamily(cr);
+        if(!((0x02 & (signed int)return_value_ClientRealm_get_ipFamily_2) == 0))
+          tmp_if_expr_4 = "ipv4";
 
         else
         {
-          return_value_ClientRealm_get_ipFamily$3=ClientRealm_get_ipFamily(cr);
-          tmp_if_expr$4 = ((signed int)return_value_ClientRealm_get_ipFamily$3 & 0x04) != 0 ? "ipv6" : "unspec";
+          return_value_ClientRealm_get_ipFamily_3=ClientRealm_get_ipFamily(cr);
+          tmp_if_expr_4 = ((signed int)return_value_ClientRealm_get_ipFamily_3 & 0x04) != 0 ? "ipv6" : "unspec";
         }
-        char *return_value_ClientRealm_get_serverName$5;
-        return_value_ClientRealm_get_serverName$5=ClientRealm_get_serverName(cr);
-        char *return_value_ClientRealm_get_managePort$6;
-        return_value_ClientRealm_get_managePort$6=ClientRealm_get_managePort(cr);
-        aflog((char)4, (char)1, "tcp_connect_%s error for %s, %s", tmp_if_expr$4, return_value_ClientRealm_get_serverName$5, return_value_ClientRealm_get_managePort$6);
+        char *return_value_ClientRealm_get_serverName_5;
+        return_value_ClientRealm_get_serverName_5=ClientRealm_get_serverName(cr);
+        char *return_value_ClientRealm_get_managePort_6;
+        return_value_ClientRealm_get_managePort_6=ClientRealm_get_managePort(cr);
+        aflog((char)4, (char)1, "tcp_connect_%s error for %s, %s", tmp_if_expr_4, return_value_ClientRealm_get_serverName_5, return_value_ClientRealm_get_managePort_6);
         if(!(wanttoexit == 0))
           exit(1);
 
@@ -12397,38 +12397,38 @@ signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *c
           return 1;
       }
 
-      return_value_ClientRealm_get_masterSslFd$13=ClientRealm_get_masterSslFd(cr);
-      SslFd_set_fd(return_value_ClientRealm_get_masterSslFd$13, tmp);
+      return_value_ClientRealm_get_masterSslFd_13=ClientRealm_get_masterSslFd(cr);
+      SslFd_set_fd(return_value_ClientRealm_get_masterSslFd_13, tmp);
       break;
     }
     case 1:
     {
-      return_value_initialize_http_proxy_client$23=initialize_http_proxy_client(&tmp, cr, ctx);
-      if(!(return_value_initialize_http_proxy_client$23 == 0))
+      return_value_initialize_http_proxy_client_23=initialize_http_proxy_client(&tmp, cr, ctx);
+      if(!(return_value_initialize_http_proxy_client_23 == 0))
       {
-        char return_value_ClientRealm_get_ipFamily$14;
-        return_value_ClientRealm_get_ipFamily$14=ClientRealm_get_ipFamily(cr);
-        if(!((0x02 & (signed int)return_value_ClientRealm_get_ipFamily$14) == 0))
-          tmp_if_expr$16 = "ipv4";
+        char return_value_ClientRealm_get_ipFamily_14;
+        return_value_ClientRealm_get_ipFamily_14=ClientRealm_get_ipFamily(cr);
+        if(!((0x02 & (signed int)return_value_ClientRealm_get_ipFamily_14) == 0))
+          tmp_if_expr_16 = "ipv4";
 
         else
         {
-          return_value_ClientRealm_get_ipFamily$15=ClientRealm_get_ipFamily(cr);
-          tmp_if_expr$16 = ((signed int)return_value_ClientRealm_get_ipFamily$15 & 0x04) != 0 ? "ipv6" : "unspec";
+          return_value_ClientRealm_get_ipFamily_15=ClientRealm_get_ipFamily(cr);
+          tmp_if_expr_16 = ((signed int)return_value_ClientRealm_get_ipFamily_15 & 0x04) != 0 ? "ipv6" : "unspec";
         }
-        char *return_value_ClientRealm_get_serverName$17;
-        return_value_ClientRealm_get_serverName$17=ClientRealm_get_serverName(cr);
-        char *return_value_ClientRealm_get_managePort$18;
-        return_value_ClientRealm_get_managePort$18=ClientRealm_get_managePort(cr);
-        struct anonymous *return_value_ClientRealm_get_httpProxyOptions$19;
-        return_value_ClientRealm_get_httpProxyOptions$19=ClientRealm_get_httpProxyOptions(cr);
-        char *return_value_HttpProxyOptions_get_proxyname$20;
-        return_value_HttpProxyOptions_get_proxyname$20=HttpProxyOptions_get_proxyname(return_value_ClientRealm_get_httpProxyOptions$19);
-        struct anonymous *return_value_ClientRealm_get_httpProxyOptions$21;
-        return_value_ClientRealm_get_httpProxyOptions$21=ClientRealm_get_httpProxyOptions(cr);
-        char *return_value_HttpProxyOptions_get_proxyport$22;
-        return_value_HttpProxyOptions_get_proxyport$22=HttpProxyOptions_get_proxyport(return_value_ClientRealm_get_httpProxyOptions$21);
-        aflog((char)4, (char)1, "http_proxy_connect_%s error for %s, %s (proxy: %s, %s)", tmp_if_expr$16, return_value_ClientRealm_get_serverName$17, return_value_ClientRealm_get_managePort$18, return_value_HttpProxyOptions_get_proxyname$20, return_value_HttpProxyOptions_get_proxyport$22);
+        char *return_value_ClientRealm_get_serverName_17;
+        return_value_ClientRealm_get_serverName_17=ClientRealm_get_serverName(cr);
+        char *return_value_ClientRealm_get_managePort_18;
+        return_value_ClientRealm_get_managePort_18=ClientRealm_get_managePort(cr);
+        struct anonymous *return_value_ClientRealm_get_httpProxyOptions_19;
+        return_value_ClientRealm_get_httpProxyOptions_19=ClientRealm_get_httpProxyOptions(cr);
+        char *return_value_HttpProxyOptions_get_proxyname_20;
+        return_value_HttpProxyOptions_get_proxyname_20=HttpProxyOptions_get_proxyname(return_value_ClientRealm_get_httpProxyOptions_19);
+        struct anonymous *return_value_ClientRealm_get_httpProxyOptions_21;
+        return_value_ClientRealm_get_httpProxyOptions_21=ClientRealm_get_httpProxyOptions(cr);
+        char *return_value_HttpProxyOptions_get_proxyport_22;
+        return_value_HttpProxyOptions_get_proxyport_22=HttpProxyOptions_get_proxyport(return_value_ClientRealm_get_httpProxyOptions_21);
+        aflog((char)4, (char)1, "http_proxy_connect_%s error for %s, %s (proxy: %s, %s)", tmp_if_expr_16, return_value_ClientRealm_get_serverName_17, return_value_ClientRealm_get_managePort_18, return_value_HttpProxyOptions_get_proxyname_20, return_value_HttpProxyOptions_get_proxyport_22);
         if(!(wanttoexit == 0))
           exit(1);
 
@@ -12436,8 +12436,8 @@ signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *c
           return 1;
       }
 
-      return_value_ClientRealm_get_masterSslFd$24=ClientRealm_get_masterSslFd(cr);
-      SslFd_set_fd(return_value_ClientRealm_get_masterSslFd$24, tmp);
+      return_value_ClientRealm_get_masterSslFd_24=ClientRealm_get_masterSslFd(cr);
+      SslFd_set_fd(return_value_ClientRealm_get_masterSslFd_24, tmp);
       break;
     }
     default:
@@ -12450,22 +12450,22 @@ signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *c
         return 1;
     }
   }
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$25;
-  return_value_ClientRealm_get_masterSslFd$25=ClientRealm_get_masterSslFd(cr);
-  struct ssl_st *return_value_SSL_new$26;
-  return_value_SSL_new$26=SSL_new(ctx);
-  SslFd_set_ssl(return_value_ClientRealm_get_masterSslFd$25, return_value_SSL_new$26);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$29;
-  return_value_ClientRealm_get_masterSslFd$29=ClientRealm_get_masterSslFd(cr);
-  struct ssl_st *return_value_SslFd_get_ssl$30;
-  return_value_SslFd_get_ssl$30=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd$29);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$31;
-  return_value_ClientRealm_get_masterSslFd$31=ClientRealm_get_masterSslFd(cr);
-  signed int return_value_SslFd_get_fd$32;
-  return_value_SslFd_get_fd$32=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$31);
-  signed int return_value_SSL_set_fd$33;
-  return_value_SSL_set_fd$33=SSL_set_fd(return_value_SslFd_get_ssl$30, return_value_SslFd_get_fd$32);
-  if(!(return_value_SSL_set_fd$33 == 1))
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_25;
+  return_value_ClientRealm_get_masterSslFd_25=ClientRealm_get_masterSslFd(cr);
+  struct ssl_st *return_value_SSL_new_26;
+  return_value_SSL_new_26=SSL_new(ctx);
+  SslFd_set_ssl(return_value_ClientRealm_get_masterSslFd_25, return_value_SSL_new_26);
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_29;
+  return_value_ClientRealm_get_masterSslFd_29=ClientRealm_get_masterSslFd(cr);
+  struct ssl_st *return_value_SslFd_get_ssl_30;
+  return_value_SslFd_get_ssl_30=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd_29);
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_31;
+  return_value_ClientRealm_get_masterSslFd_31=ClientRealm_get_masterSslFd(cr);
+  signed int return_value_SslFd_get_fd_32;
+  return_value_SslFd_get_fd_32=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_31);
+  signed int return_value_SSL_set_fd_33;
+  return_value_SSL_set_fd_33=SSL_set_fd(return_value_SslFd_get_ssl_30, return_value_SslFd_get_fd_32);
+  if(!(return_value_SSL_set_fd_33 == 1))
   {
     aflog((char)4, (char)1, "Problem with initializing ssl... exiting");
     if(!(wanttoexit == 0))
@@ -12473,31 +12473,31 @@ signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *c
 
     else
     {
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$27;
-      return_value_ClientRealm_get_masterSslFd$27=ClientRealm_get_masterSslFd(cr);
-      signed int return_value_SslFd_get_fd$28;
-      return_value_SslFd_get_fd$28=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$27);
-      close(return_value_SslFd_get_fd$28);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_27;
+      return_value_ClientRealm_get_masterSslFd_27=ClientRealm_get_masterSslFd(cr);
+      signed int return_value_SslFd_get_fd_28;
+      return_value_SslFd_get_fd_28=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_27);
+      close(return_value_SslFd_get_fd_28);
       return 2;
     }
   }
 
   alarm((unsigned int)60);
   aflog((char)4, (char)8, "Trying SSL_connect");
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$52;
-  return_value_ClientRealm_get_masterSslFd$52=ClientRealm_get_masterSslFd(cr);
-  struct ssl_st *return_value_SslFd_get_ssl$53;
-  return_value_SslFd_get_ssl$53=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd$52);
-  n=SSL_connect(return_value_SslFd_get_ssl$53);
-  char *return_value_get_store_filename$44;
-  char *return_value_ClientRealm_get_serverName$45;
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_52;
+  return_value_ClientRealm_get_masterSslFd_52=ClientRealm_get_masterSslFd(cr);
+  struct ssl_st *return_value_SslFd_get_ssl_53;
+  return_value_SslFd_get_ssl_53=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd_52);
+  n=SSL_connect(return_value_SslFd_get_ssl_53);
+  char *return_value_get_store_filename_44;
+  char *return_value_ClientRealm_get_serverName_45;
   if(n == 1)
   {
-    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$34;
-    return_value_ClientRealm_get_masterSslFd$34=ClientRealm_get_masterSslFd(cr);
-    struct ssl_st *return_value_SslFd_get_ssl$35;
-    return_value_SslFd_get_ssl$35=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd$34);
-    server_cert=SSL_get_peer_certificate(return_value_SslFd_get_ssl$35);
+    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_34;
+    return_value_ClientRealm_get_masterSslFd_34=ClientRealm_get_masterSslFd(cr);
+    struct ssl_st *return_value_SslFd_get_ssl_35;
+    return_value_SslFd_get_ssl_35=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd_34);
+    server_cert=SSL_get_peer_certificate(return_value_SslFd_get_ssl_35);
     if(server_cert == ((struct x509_st *)NULL))
     {
       aflog((char)16, (char)1, "Server did not present a certificate... exiting");
@@ -12511,16 +12511,16 @@ signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *c
       exit(1);
     }
 
-    signed int return_value_BN_num_bits$36;
-    return_value_BN_num_bits$36=BN_num_bits(pkey->pkey.rsa->n);
-    nlen = (return_value_BN_num_bits$36 + 7) / 8;
-    signed int return_value_BN_num_bits$37;
-    return_value_BN_num_bits$37=BN_num_bits(pkey->pkey.rsa->e);
-    elen = (return_value_BN_num_bits$37 + 7) / 8;
+    signed int return_value_BN_num_bits_36;
+    return_value_BN_num_bits_36=BN_num_bits(pkey->pkey.rsa->n);
+    nlen = (return_value_BN_num_bits_36 + 7) / 8;
+    signed int return_value_BN_num_bits_37;
+    return_value_BN_num_bits_37=BN_num_bits(pkey->pkey.rsa->e);
+    elen = (return_value_BN_num_bits_37 + 7) / 8;
     len = nlen + elen;
-    void *return_value_malloc$38;
-    return_value_malloc$38=malloc((unsigned long int)len);
-    key_buf = (unsigned char *)return_value_malloc$38;
+    void *return_value_malloc_38;
+    return_value_malloc_38=malloc((unsigned long int)len);
+    key_buf = (unsigned char *)return_value_malloc_38;
     if(key_buf == ((unsigned char *)NULL))
     {
       aflog((char)16, (char)1, "Cannot allocate memory for server's public key checking... exiting");
@@ -12532,9 +12532,9 @@ signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *c
     md=EVP_md5();
     EVP_DigestInit(&md_ctx, md);
     EVP_DigestUpdate(&md_ctx, (const void *)key_buf, (unsigned long int)len);
-    void *return_value_calloc$39;
-    return_value_calloc$39=calloc((unsigned long int)1, (unsigned long int)(64 + 1));
-    encoded = (unsigned char *)return_value_calloc$39;
+    void *return_value_calloc_39;
+    return_value_calloc_39=calloc((unsigned long int)1, (unsigned long int)(64 + 1));
+    encoded = (unsigned char *)return_value_calloc_39;
     if(encoded == ((unsigned char *)NULL))
     {
       aflog((char)16, (char)1, "Cannot allocate memory for server's public key checking... exiting");
@@ -12542,30 +12542,30 @@ signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *c
     }
 
     EVP_DigestFinal(&md_ctx, encoded, &olen);
-    signed int return_value_b64_ntop$40;
-    return_value_b64_ntop$40=b64_ntop(encoded, (unsigned long int)olen, b64_encoded, (unsigned long int)100);
-    if(return_value_b64_ntop$40 == -1)
+    signed int return_value_b64_ntop_40;
+    return_value_b64_ntop_40=b64_ntop(encoded, (unsigned long int)olen, b64_encoded, (unsigned long int)100);
+    if(return_value_b64_ntop_40 == -1)
     {
       aflog((char)16, (char)1, "Problem with base64 encoding... exiting");
       exit(1);
     }
 
-    char *return_value_get_store_filename$41;
-    return_value_get_store_filename$41=get_store_filename();
-    char *return_value_ClientRealm_get_serverName$42;
-    return_value_ClientRealm_get_serverName$42=ClientRealm_get_serverName(cr);
-    signed int return_value_check_public_key$43;
-    return_value_check_public_key$43=check_public_key(return_value_get_store_filename$41, return_value_ClientRealm_get_serverName$42, b64_encoded);
-    switch(return_value_check_public_key$43)
+    char *return_value_get_store_filename_41;
+    return_value_get_store_filename_41=get_store_filename();
+    char *return_value_ClientRealm_get_serverName_42;
+    return_value_ClientRealm_get_serverName_42=ClientRealm_get_serverName(cr);
+    signed int return_value_check_public_key_43;
+    return_value_check_public_key_43=check_public_key(return_value_get_store_filename_41, return_value_ClientRealm_get_serverName_42, b64_encoded);
+    switch(return_value_check_public_key_43)
     {
       case 1:
         break;
       case 2:
       {
         aflog((char)16, (char)32, "WARNING: implicitly added new server's public key to the list of known hosts");
-        return_value_get_store_filename$44=get_store_filename();
-        return_value_ClientRealm_get_serverName$45=ClientRealm_get_serverName(cr);
-        add_public_key(return_value_get_store_filename$44, return_value_ClientRealm_get_serverName$45, b64_encoded);
+        return_value_get_store_filename_44=get_store_filename();
+        return_value_ClientRealm_get_serverName_45=ClientRealm_get_serverName(cr);
+        add_public_key(return_value_get_store_filename_44, return_value_ClientRealm_get_serverName_45, b64_encoded);
         break;
       }
       default:
@@ -12575,9 +12575,9 @@ signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *c
         else
         {
           aflog((char)16, (char)1, "Invalid server's public key... exiting");
-          char *return_value_get_store_filename$46;
-          return_value_get_store_filename$46=get_store_filename();
-          aflog((char)16, (char)1, "Please delete conflicting entry in %s or use '--ignorepkeys' option", return_value_get_store_filename$46);
+          char *return_value_get_store_filename_46;
+          return_value_get_store_filename_46=get_store_filename();
+          aflog((char)16, (char)1, "Please delete conflicting entry in %s or use '--ignorepkeys' option", return_value_get_store_filename_46);
           exit(1);
         }
     }
@@ -12590,58 +12590,58 @@ signed int initialize_client_stage1(struct anonymous$5 *cr, struct ssl_ctx_st *c
   else
   {
     alarm((unsigned int)0);
-    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$47;
-    return_value_ClientRealm_get_masterSslFd$47=ClientRealm_get_masterSslFd(cr);
-    struct ssl_st *return_value_SslFd_get_ssl$48;
-    return_value_SslFd_get_ssl$48=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd$47);
-    signed int return_value_SSL_get_error$49;
-    return_value_SSL_get_error$49=SSL_get_error(return_value_SslFd_get_ssl$48, n);
-    aflog((char)4, (char)1, "SSL_connect has failed (%d | %d)... exiting", n, return_value_SSL_get_error$49);
+    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_47;
+    return_value_ClientRealm_get_masterSslFd_47=ClientRealm_get_masterSslFd(cr);
+    struct ssl_st *return_value_SslFd_get_ssl_48;
+    return_value_SslFd_get_ssl_48=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd_47);
+    signed int return_value_SSL_get_error_49;
+    return_value_SSL_get_error_49=SSL_get_error(return_value_SslFd_get_ssl_48, n);
+    aflog((char)4, (char)1, "SSL_connect has failed (%d | %d)... exiting", n, return_value_SSL_get_error_49);
     if(!(wanttoexit == 0))
       exit(1);
 
     else
     {
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$50;
-      return_value_ClientRealm_get_masterSslFd$50=ClientRealm_get_masterSslFd(cr);
-      signed int return_value_SslFd_get_fd$51;
-      return_value_SslFd_get_fd$51=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$50);
-      close(return_value_SslFd_get_fd$51);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_50;
+      return_value_ClientRealm_get_masterSslFd_50=ClientRealm_get_masterSslFd(cr);
+      signed int return_value_SslFd_get_fd_51;
+      return_value_SslFd_get_fd_51=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_50);
+      close(return_value_SslFd_get_fd_51);
       return 3;
     }
   }
   alarm((unsigned int)0);
   buff[(signed long int)0] = (unsigned char)8;
-  unsigned char *return_value_ClientRealm_get_password$54;
-  return_value_ClientRealm_get_password$54=ClientRealm_get_password(cr);
-  buff[(signed long int)1] = return_value_ClientRealm_get_password$54[(signed long int)0];
-  unsigned char *return_value_ClientRealm_get_password$55;
-  return_value_ClientRealm_get_password$55=ClientRealm_get_password(cr);
-  buff[(signed long int)2] = return_value_ClientRealm_get_password$55[(signed long int)1];
-  unsigned char *return_value_ClientRealm_get_password$56;
-  return_value_ClientRealm_get_password$56=ClientRealm_get_password(cr);
-  buff[(signed long int)3] = return_value_ClientRealm_get_password$56[(signed long int)2];
-  unsigned char *return_value_ClientRealm_get_password$57;
-  return_value_ClientRealm_get_password$57=ClientRealm_get_password(cr);
-  buff[(signed long int)4] = return_value_ClientRealm_get_password$57[(signed long int)3];
+  unsigned char *return_value_ClientRealm_get_password_54;
+  return_value_ClientRealm_get_password_54=ClientRealm_get_password(cr);
+  buff[(signed long int)1] = return_value_ClientRealm_get_password_54[(signed long int)0];
+  unsigned char *return_value_ClientRealm_get_password_55;
+  return_value_ClientRealm_get_password_55=ClientRealm_get_password(cr);
+  buff[(signed long int)2] = return_value_ClientRealm_get_password_55[(signed long int)1];
+  unsigned char *return_value_ClientRealm_get_password_56;
+  return_value_ClientRealm_get_password_56=ClientRealm_get_password(cr);
+  buff[(signed long int)3] = return_value_ClientRealm_get_password_56[(signed long int)2];
+  unsigned char *return_value_ClientRealm_get_password_57;
+  return_value_ClientRealm_get_password_57=ClientRealm_get_password(cr);
+  buff[(signed long int)4] = return_value_ClientRealm_get_password_57[(signed long int)3];
   return 0;
 }
 
 // initialize_client_stage2
 // file client_initialization.h line 38
-signed int initialize_client_stage2(struct anonymous$5 *cr, unsigned char *buff, char wanttoexit)
+signed int initialize_client_stage2(struct anonymous_5 *cr, unsigned char *buff, char wanttoexit)
 {
-  char return_value_ClientRealm_get_realmType$1;
-  return_value_ClientRealm_get_realmType$1=ClientRealm_get_realmType(cr);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$2;
-  return_value_ClientRealm_get_masterSslFd$2=ClientRealm_get_masterSslFd(cr);
-  SslFd_send_message((char)((signed int)return_value_ClientRealm_get_realmType$1 | 4 | 8), return_value_ClientRealm_get_masterSslFd$2, buff, 5);
+  char return_value_ClientRealm_get_realmType_1;
+  return_value_ClientRealm_get_realmType_1=ClientRealm_get_realmType(cr);
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_2;
+  return_value_ClientRealm_get_masterSslFd_2=ClientRealm_get_masterSslFd(cr);
+  SslFd_send_message((char)((signed int)return_value_ClientRealm_get_realmType_1 | 4 | 8), return_value_ClientRealm_get_masterSslFd_2, buff, 5);
   buff[(signed long int)0] = (unsigned char)0;
-  char return_value_ClientRealm_get_realmType$3;
-  return_value_ClientRealm_get_realmType$3=ClientRealm_get_realmType(cr);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$4;
-  return_value_ClientRealm_get_masterSslFd$4=ClientRealm_get_masterSslFd(cr);
-  SslFd_get_message((char)((signed int)return_value_ClientRealm_get_realmType$3 | 4 | 8), return_value_ClientRealm_get_masterSslFd$4, buff, -5);
+  char return_value_ClientRealm_get_realmType_3;
+  return_value_ClientRealm_get_realmType_3=ClientRealm_get_realmType(cr);
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_4;
+  return_value_ClientRealm_get_masterSslFd_4=ClientRealm_get_masterSslFd(cr);
+  SslFd_get_message((char)((signed int)return_value_ClientRealm_get_realmType_3 | 4 | 8), return_value_ClientRealm_get_masterSslFd_4, buff, -5);
   if((signed int)*buff == 0)
   {
     aflog((char)4, (char)1, "Connection with afserver failed");
@@ -12650,11 +12650,11 @@ signed int initialize_client_stage2(struct anonymous$5 *cr, unsigned char *buff,
 
     else
     {
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$5;
-      return_value_ClientRealm_get_masterSslFd$5=ClientRealm_get_masterSslFd(cr);
-      signed int return_value_SslFd_get_fd$6;
-      return_value_SslFd_get_fd$6=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$5);
-      close(return_value_SslFd_get_fd$6);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_5;
+      return_value_ClientRealm_get_masterSslFd_5=ClientRealm_get_masterSslFd(cr);
+      signed int return_value_SslFd_get_fd_6;
+      return_value_SslFd_get_fd_6=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_5);
+      close(return_value_SslFd_get_fd_6);
       return 1;
     }
   }
@@ -12667,11 +12667,11 @@ signed int initialize_client_stage2(struct anonymous$5 *cr, unsigned char *buff,
 
     else
     {
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$7;
-      return_value_ClientRealm_get_masterSslFd$7=ClientRealm_get_masterSslFd(cr);
-      signed int return_value_SslFd_get_fd$8;
-      return_value_SslFd_get_fd$8=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$7);
-      close(return_value_SslFd_get_fd$8);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_7;
+      return_value_ClientRealm_get_masterSslFd_7=ClientRealm_get_masterSslFd(cr);
+      signed int return_value_SslFd_get_fd_8;
+      return_value_SslFd_get_fd_8=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_7);
+      close(return_value_SslFd_get_fd_8);
       return 1;
     }
   }
@@ -12684,11 +12684,11 @@ signed int initialize_client_stage2(struct anonymous$5 *cr, unsigned char *buff,
 
     else
     {
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$9;
-      return_value_ClientRealm_get_masterSslFd$9=ClientRealm_get_masterSslFd(cr);
-      signed int return_value_SslFd_get_fd$10;
-      return_value_SslFd_get_fd$10=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$9);
-      close(return_value_SslFd_get_fd$10);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_9;
+      return_value_ClientRealm_get_masterSslFd_9=ClientRealm_get_masterSslFd(cr);
+      signed int return_value_SslFd_get_fd_10;
+      return_value_SslFd_get_fd_10=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_9);
+      close(return_value_SslFd_get_fd_10);
       return 1;
     }
   }
@@ -12701,11 +12701,11 @@ signed int initialize_client_stage2(struct anonymous$5 *cr, unsigned char *buff,
 
     else
     {
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$11;
-      return_value_ClientRealm_get_masterSslFd$11=ClientRealm_get_masterSslFd(cr);
-      signed int return_value_SslFd_get_fd$12;
-      return_value_SslFd_get_fd$12=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$11);
-      close(return_value_SslFd_get_fd$12);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_11;
+      return_value_ClientRealm_get_masterSslFd_11=ClientRealm_get_masterSslFd(cr);
+      signed int return_value_SslFd_get_fd_12;
+      return_value_SslFd_get_fd_12=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_11);
+      close(return_value_SslFd_get_fd_12);
       return 1;
     }
   }
@@ -12717,17 +12717,17 @@ signed int initialize_client_stage2(struct anonymous$5 *cr, unsigned char *buff,
 
 // initialize_client_stage3
 // file client_initialization.h line 39
-signed int initialize_client_stage3(struct anonymous$5 *cr, signed int *buflength, struct anonymous$11 *allset, struct anonymous$11 *wset, signed int *maxfdp1, char wanttoexit)
+signed int initialize_client_stage3(struct anonymous_5 *cr, signed int *buflength, struct anonymous_11 *allset, struct anonymous_11 *wset, signed int *maxfdp1, char wanttoexit)
 {
   signed int i;
   unsigned int len;
-  struct anonymous$7 **usersTable;
-  signed int return_value_ClientRealm_get_usersLimit$1;
-  return_value_ClientRealm_get_usersLimit$1=ClientRealm_get_usersLimit(cr);
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)return_value_ClientRealm_get_usersLimit$1, sizeof(struct anonymous$7 *) /*8ul*/ );
-  usersTable = (struct anonymous$7 **)return_value_calloc$2;
-  if(usersTable == ((struct anonymous$7 **)NULL))
+  struct anonymous_7 **usersTable;
+  signed int return_value_ClientRealm_get_usersLimit_1;
+  return_value_ClientRealm_get_usersLimit_1=ClientRealm_get_usersLimit(cr);
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)return_value_ClientRealm_get_usersLimit_1, sizeof(struct anonymous_7 *) /*8ul*/ );
+  usersTable = (struct anonymous_7 **)return_value_calloc_2;
+  if(usersTable == ((struct anonymous_7 **)NULL))
   {
     aflog((char)4, (char)1, "Calloc error - unable to successfully communicate with server");
     if(!(wanttoexit == 0))
@@ -12735,26 +12735,26 @@ signed int initialize_client_stage3(struct anonymous$5 *cr, signed int *buflengt
 
     else
     {
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$3;
-      return_value_ClientRealm_get_masterSslFd$3=ClientRealm_get_masterSslFd(cr);
-      signed int return_value_SslFd_get_fd$4;
-      return_value_SslFd_get_fd$4=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$3);
-      close(return_value_SslFd_get_fd$4);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_3;
+      return_value_ClientRealm_get_masterSslFd_3=ClientRealm_get_masterSslFd(cr);
+      signed int return_value_SslFd_get_fd_4;
+      return_value_SslFd_get_fd_4=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_3);
+      close(return_value_SslFd_get_fd_4);
       return 1;
     }
   }
 
   ClientRealm_set_usersTable(cr, usersTable);
   i = 0;
-  signed int return_value_ClientRealm_get_usersLimit$5;
+  signed int return_value_ClientRealm_get_usersLimit_5;
   do
   {
-    return_value_ClientRealm_get_usersLimit$5=ClientRealm_get_usersLimit(cr);
-    if(i >= return_value_ClientRealm_get_usersLimit$5)
+    return_value_ClientRealm_get_usersLimit_5=ClientRealm_get_usersLimit(cr);
+    if(i >= return_value_ClientRealm_get_usersLimit_5)
       break;
 
     usersTable[(signed long int)i]=ConnectUser_new();
-    if(usersTable[(signed long int)i] == ((struct anonymous$7 *)NULL))
+    if(usersTable[(signed long int)i] == ((struct anonymous_7 *)NULL))
     {
       aflog((char)4, (char)1, "Calloc error - unable to successfully communicate with server");
       if(!(wanttoexit == 0))
@@ -12762,11 +12762,11 @@ signed int initialize_client_stage3(struct anonymous$5 *cr, signed int *buflengt
 
       else
       {
-        struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$6;
-        return_value_ClientRealm_get_masterSslFd$6=ClientRealm_get_masterSslFd(cr);
-        signed int return_value_SslFd_get_fd$7;
-        return_value_SslFd_get_fd$7=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$6);
-        close(return_value_SslFd_get_fd$7);
+        struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_6;
+        return_value_ClientRealm_get_masterSslFd_6=ClientRealm_get_masterSslFd(cr);
+        signed int return_value_SslFd_get_fd_7;
+        return_value_SslFd_get_fd_7=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_6);
+        close(return_value_SslFd_get_fd_7);
         return 1;
       }
     }
@@ -12775,13 +12775,13 @@ signed int initialize_client_stage3(struct anonymous$5 *cr, signed int *buflengt
   }
   while((_Bool)1);
   len = (unsigned int)4;
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$10;
-  return_value_ClientRealm_get_masterSslFd$10=ClientRealm_get_masterSslFd(cr);
-  signed int return_value_SslFd_get_fd$11;
-  return_value_SslFd_get_fd$11=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$10);
-  signed int return_value_getsockopt$12;
-  return_value_getsockopt$12=getsockopt(return_value_SslFd_get_fd$11, 1, 7, (void *)buflength, &len);
-  if(return_value_getsockopt$12 == -1)
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_10;
+  return_value_ClientRealm_get_masterSslFd_10=ClientRealm_get_masterSslFd(cr);
+  signed int return_value_SslFd_get_fd_11;
+  return_value_SslFd_get_fd_11=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_10);
+  signed int return_value_getsockopt_12;
+  return_value_getsockopt_12=getsockopt(return_value_SslFd_get_fd_11, 1, 7, (void *)buflength, &len);
+  if(return_value_getsockopt_12 == -1)
   {
     aflog((char)4, (char)1, "Can't get socket send buffer size - exiting...");
     if(!(wanttoexit == 0))
@@ -12789,11 +12789,11 @@ signed int initialize_client_stage3(struct anonymous$5 *cr, signed int *buflengt
 
     else
     {
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$8;
-      return_value_ClientRealm_get_masterSslFd$8=ClientRealm_get_masterSslFd(cr);
-      signed int return_value_SslFd_get_fd$9;
-      return_value_SslFd_get_fd$9=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$8);
-      close(return_value_SslFd_get_fd$9);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_8;
+      return_value_ClientRealm_get_masterSslFd_8=ClientRealm_get_masterSslFd(cr);
+      signed int return_value_SslFd_get_fd_9;
+      return_value_SslFd_get_fd_9=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_8);
+      close(return_value_SslFd_get_fd_9);
       return 2;
     }
   }
@@ -12802,59 +12802,59 @@ signed int initialize_client_stage3(struct anonymous$5 *cr, signed int *buflengt
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&allset->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&allset->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   do
   {
-    signed int initialize_client_stage3$$1$$5$$__d0;
-    signed int initialize_client_stage3$$1$$5$$__d1;
-    asm("cld; rep; stosq" : "=c"(initialize_client_stage3$$1$$5$$__d0), "=D"(initialize_client_stage3$$1$$5$$__d1) : "a"(0), "0"(sizeof(struct anonymous$11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&wset->__fds_bits[(signed long int)0]) : "memory");
+    signed int initialize_client_stage3__1__5____d0;
+    signed int initialize_client_stage3__1__5____d1;
+    asm("cld; rep; stosq" : "=c"(initialize_client_stage3__1__5____d0), "=D"(initialize_client_stage3__1__5____d1) : "a"(0), "0"(sizeof(struct anonymous_11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&wset->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$13;
-  return_value_ClientRealm_get_masterSslFd$13=ClientRealm_get_masterSslFd(cr);
-  signed int return_value_SslFd_get_fd$14;
-  return_value_SslFd_get_fd$14=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$13);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$15;
-  return_value_ClientRealm_get_masterSslFd$15=ClientRealm_get_masterSslFd(cr);
-  signed int return_value_SslFd_get_fd$16;
-  return_value_SslFd_get_fd$16=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$15);
-  allset->__fds_bits[(signed long int)(return_value_SslFd_get_fd$14 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = allset->__fds_bits[(signed long int)(return_value_SslFd_get_fd$14 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_SslFd_get_fd$16 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$17;
-  return_value_ClientRealm_get_masterSslFd$17=ClientRealm_get_masterSslFd(cr);
-  signed int return_value_SslFd_get_fd$18;
-  return_value_SslFd_get_fd$18=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$17);
-  *maxfdp1 = return_value_SslFd_get_fd$18 + 1;
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_13;
+  return_value_ClientRealm_get_masterSslFd_13=ClientRealm_get_masterSslFd(cr);
+  signed int return_value_SslFd_get_fd_14;
+  return_value_SslFd_get_fd_14=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_13);
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_15;
+  return_value_ClientRealm_get_masterSslFd_15=ClientRealm_get_masterSslFd(cr);
+  signed int return_value_SslFd_get_fd_16;
+  return_value_SslFd_get_fd_16=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_15);
+  allset->__fds_bits[(signed long int)(return_value_SslFd_get_fd_14 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = allset->__fds_bits[(signed long int)(return_value_SslFd_get_fd_14 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_SslFd_get_fd_16 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_17;
+  return_value_ClientRealm_get_masterSslFd_17=ClientRealm_get_masterSslFd(cr);
+  signed int return_value_SslFd_get_fd_18;
+  return_value_SslFd_get_fd_18=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_17);
+  *maxfdp1 = return_value_SslFd_get_fd_18 + 1;
   return 0;
 }
 
 // initialize_http_proxy_client
 // file http_proxy_client.c line 531
-signed int initialize_http_proxy_client(signed int *sockfd, struct anonymous$5 *cr, struct ssl_ctx_st *ctx)
+signed int initialize_http_proxy_client(signed int *sockfd, struct anonymous_5 *cr, struct ssl_ctx_st *ctx)
 {
   signed int retval;
   signed int sockets[2l];
   unsigned long int proxy_thread;
-  signed int return_value_socketpair$1;
-  return_value_socketpair$1=socketpair(1, 1, 0, sockets);
-  if(!(return_value_socketpair$1 == 0))
+  signed int return_value_socketpair_1;
+  return_value_socketpair_1=socketpair(1, 1, 0, sockets);
+  if(!(return_value_socketpair_1 == 0))
     return 1;
 
   else
   {
     *sockfd = sockets[(signed long int)0];
-    struct anonymous *return_value_ClientRealm_get_httpProxyOptions$2;
-    return_value_ClientRealm_get_httpProxyOptions$2=ClientRealm_get_httpProxyOptions(cr);
-    char *return_value_HttpProxyOptions_get_proxyname$3;
-    return_value_HttpProxyOptions_get_proxyname$3=HttpProxyOptions_get_proxyname(return_value_ClientRealm_get_httpProxyOptions$2);
-    if(return_value_HttpProxyOptions_get_proxyname$3 == ((char *)NULL))
+    struct anonymous *return_value_ClientRealm_get_httpProxyOptions_2;
+    return_value_ClientRealm_get_httpProxyOptions_2=ClientRealm_get_httpProxyOptions(cr);
+    char *return_value_HttpProxyOptions_get_proxyname_3;
+    return_value_HttpProxyOptions_get_proxyname_3=HttpProxyOptions_get_proxyname(return_value_ClientRealm_get_httpProxyOptions_2);
+    if(return_value_HttpProxyOptions_get_proxyname_3 == ((char *)NULL))
       return 1;
 
     else
     {
       start_critical_section();
-      static struct anonymous$19 arg;
+      static struct anonymous_19 arg;
       arg.host=ClientRealm_get_serverName(cr);
       arg.serv=ClientRealm_get_managePort(cr);
       arg.hpo=ClientRealm_get_httpProxyOptions(cr);
@@ -12973,9 +12973,9 @@ signed int ip_connect(signed int *sockfd, const char *host, const char *serv, co
           lres = lressave;
           do
           {
-            signed int return_value_bind$1;
-            return_value_bind$1=bind(*sockfd, lres->ai_addr, lres->ai_addrlen);
-            if(return_value_bind$1 == 0)
+            signed int return_value_bind_1;
+            return_value_bind_1=bind(*sockfd, lres->ai_addr, lres->ai_addrlen);
+            if(return_value_bind_1 == 0)
             {
               bindFailed = 0;
               break;
@@ -12991,9 +12991,9 @@ signed int ip_connect(signed int *sockfd, const char *host, const char *serv, co
 
         else
         {
-          signed int return_value_connect$2;
-          return_value_connect$2=connect(*sockfd, res->ai_addr, res->ai_addrlen);
-          if(return_value_connect$2 == 0)
+          signed int return_value_connect_2;
+          return_value_connect_2=connect(*sockfd, res->ai_addr, res->ai_addrlen);
+          if(return_value_connect_2 == 0)
             break;
 
           close(*sockfd);
@@ -13061,9 +13061,9 @@ signed int ip_listen(signed int *sockfd, const char *host, const char *serv, uns
           setsockopt(*sockfd, 1, 9, (const void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
         }
 
-        signed int return_value_bind$1;
-        return_value_bind$1=bind(*sockfd, res->ai_addr, res->ai_addrlen);
-        if(return_value_bind$1 == 0)
+        signed int return_value_bind_1;
+        return_value_bind_1=bind(*sockfd, res->ai_addr, res->ai_addrlen);
+        if(return_value_bind_1 == 0)
           break;
 
         close(*sockfd);
@@ -13093,9 +13093,9 @@ signed int ip_listen(signed int *sockfd, const char *host, const char *serv, uns
 // file thread_management.c line 50
 signed int is_this_a_mainthread(void)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  if(return_value_pthread_self$1 == mainthread)
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  if(return_value_pthread_self_1 == mainthread)
     return 1;
 
   else
@@ -13178,24 +13178,24 @@ signed int main(signed int argc, char **argv)
   signed int temp2 = 0;
   signed int notsent;
   unsigned int aLength;
-  struct anonymous$7 **usersTable = (struct anonymous$7 **)(void *)0;
+  struct anonymous_7 **usersTable = (struct anonymous_7 **)(void *)0;
   unsigned char buff[9000l];
   char hostname[100l];
   signed int maxfdp1;
   unsigned int addressLength;
   struct sockaddr *clientAddress;
-  struct anonymous$11 rset;
-  struct anonymous$11 allset;
-  struct anonymous$11 wset;
-  struct anonymous$11 tmpset;
+  struct anonymous_11 rset;
+  struct anonymous_11 allset;
+  struct anonymous_11 wset;
+  struct anonymous_11 tmpset;
   struct timeval keepAlive;
   char verbose = (char)0;
   struct anonymous *hpo;
   hpo=HttpProxyOptions_new();
   char hpoUsed = (char)0;
-  struct anonymous$3 *ao;
+  struct anonymous_3 *ao;
   ao=ArOptions_new();
-  struct anonymous$5 *pointer;
+  struct anonymous_5 *pointer;
   char aoUsed = (char)0;
   char passwordWasSet = (char)0;
   char *realmId = (char *)(void *)0;
@@ -13221,9 +13221,9 @@ signed int main(signed int argc, char **argv)
   char realmType = (char)0;
   char ignorePublicKeys = (char)0;
   struct sigaction act;
-  struct anonymous$6 *moduleA;
+  struct anonymous_6 *moduleA;
   moduleA=Module_new();
-  struct anonymous$6 *moduleB;
+  struct anonymous_6 *moduleB;
   moduleB=Module_new();
   struct ssl_method_st *method;
   struct ssl_ctx_st *ctx = (struct ssl_ctx_st *)(void *)0;
@@ -13233,13 +13233,13 @@ signed int main(signed int argc, char **argv)
     exit(1);
   }
 
-  if(ao == ((struct anonymous$3 *)NULL))
+  if(ao == ((struct anonymous_3 *)NULL))
   {
     printf("Problems with memory allocation... exiting\n");
     exit(1);
   }
 
-  if(moduleA == ((struct anonymous$6 *)NULL) || moduleB == ((struct anonymous$6 *)NULL))
+  if(moduleA == ((struct anonymous_6 *)NULL) || moduleB == ((struct anonymous_6 *)NULL))
   {
     printf("Problems with memory allocation... exiting\n");
     exit(1);
@@ -13255,8 +13255,8 @@ signed int main(signed int argc, char **argv)
   act.__sigaction_handler.sa_handler = client_sig_alrm;
   sigaction(14, &act, (struct sigaction *)(void *)0);
   remember_mainthread();
-  struct plnode *return_value_PortListNode_new$1;
-  unsigned long int return_value_strlen$2;
+  struct plnode *return_value_PortListNode_new_1;
+  unsigned long int return_value_strlen_2;
   do
   {
     n=getopt_long(argc, argv, "l:L:SP:X:BC:46huUn:m:d:p:vk:c:s:o:i:D:rP:X:VK:A:T:f:", long_options, ((signed int *)NULL));
@@ -13322,8 +13322,8 @@ signed int main(signed int argc, char **argv)
       }
       case 112:
       {
-        return_value_PortListNode_new$1=PortListNode_new(optarg);
-        PortList_insert_back(destinationPorts, return_value_PortListNode_new$1);
+        return_value_PortListNode_new_1=PortListNode_new(optarg);
+        PortList_insert_back(destinationPorts, return_value_PortListNode_new_1);
         break;
       }
       case 118:
@@ -13368,8 +13368,8 @@ signed int main(signed int argc, char **argv)
       }
       case 301:
       {
-        return_value_strlen$2=strlen(optarg);
-        n = (signed int)return_value_strlen$2;
+        return_value_strlen_2=strlen(optarg);
+        n = (signed int)return_value_strlen_2;
         memset((void *)password, 0, (unsigned long int)4);
         i = 0;
         for( ; !(i >= n); i = i + 1)
@@ -13484,19 +13484,19 @@ signed int main(signed int argc, char **argv)
   if(!(optind >= argc))
     client_short_usage("Unrecognized non-option elements");
 
-  _Bool tmp_if_expr$9;
-  struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$8;
-  _Bool tmp_if_expr$11;
-  struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$10;
-  char *return_value_ClientRealm_get_serverName$12;
-  char *return_value_ClientRealm_get_managePort$13;
-  char *return_value_ClientRealm_get_hostName$14;
-  struct portlist *return_value_ClientRealm_get_destinationPorts$15;
-  signed int return_value_PortList_get_size$16;
-  char *return_value_ClientRealm_get_realmId$18;
-  char *return_value_ClientRealm_get_localName$19;
-  char *return_value_ClientRealm_get_localPort$20;
-  char *return_value_ClientRealm_get_sKeepAliveTimeout$22;
+  _Bool tmp_if_expr_9;
+  struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_8;
+  _Bool tmp_if_expr_11;
+  struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_10;
+  char *return_value_ClientRealm_get_serverName_12;
+  char *return_value_ClientRealm_get_managePort_13;
+  char *return_value_ClientRealm_get_hostName_14;
+  struct portlist *return_value_ClientRealm_get_destinationPorts_15;
+  signed int return_value_PortList_get_size_16;
+  char *return_value_ClientRealm_get_realmId_18;
+  char *return_value_ClientRealm_get_localName_19;
+  char *return_value_ClientRealm_get_localPort_20;
+  char *return_value_ClientRealm_get_sKeepAliveTimeout_22;
   if(!(filenam == ((char *)NULL)))
   {
     cconfig=cparsefile(filenam, &n);
@@ -13510,9 +13510,9 @@ signed int main(signed int argc, char **argv)
     {
       if(keys == ((char *)NULL))
       {
-        char *return_value_ClientConfiguration_get_keysFile$3;
-        return_value_ClientConfiguration_get_keysFile$3=ClientConfiguration_get_keysFile(cconfig);
-        if(return_value_ClientConfiguration_get_keysFile$3 == ((char *)NULL))
+        char *return_value_ClientConfiguration_get_keysFile_3;
+        return_value_ClientConfiguration_get_keysFile_3=ClientConfiguration_get_keysFile(cconfig);
+        if(return_value_ClientConfiguration_get_keysFile_3 == ((char *)NULL))
           ClientConfiguration_set_keysFile(cconfig, "client.rsa");
 
       }
@@ -13524,9 +13524,9 @@ signed int main(signed int argc, char **argv)
 
       if(store == ((char *)NULL))
       {
-        char *return_value_ClientConfiguration_get_storeFile$4;
-        return_value_ClientConfiguration_get_storeFile$4=ClientConfiguration_get_storeFile(cconfig);
-        if(return_value_ClientConfiguration_get_storeFile$4 == ((char *)NULL))
+        char *return_value_ClientConfiguration_get_storeFile_4;
+        return_value_ClientConfiguration_get_storeFile_4=ClientConfiguration_get_storeFile(cconfig);
+        if(return_value_ClientConfiguration_get_storeFile_4 == ((char *)NULL))
           ClientConfiguration_set_storeFile(cconfig, "known_hosts");
 
       }
@@ -13539,32 +13539,32 @@ signed int main(signed int argc, char **argv)
       if(!(ignorePublicKeys == 0))
         ClientConfiguration_set_ignorePublicKeys(cconfig, ignorePublicKeys);
 
-      char *return_value_ClientConfiguration_get_dateFormat$5;
-      return_value_ClientConfiguration_get_dateFormat$5=ClientConfiguration_get_dateFormat(cconfig);
-      initializelogging(verbose, return_value_ClientConfiguration_get_dateFormat$5);
-      signed int return_value_ClientConfiguration_get_realmsNumber$6;
-      return_value_ClientConfiguration_get_realmsNumber$6=ClientConfiguration_get_realmsNumber(cconfig);
-      aflog((char)4, (char)8, "client's cfg file OK! (readed realms: %d)", return_value_ClientConfiguration_get_realmsNumber$6);
-      signed int return_value_ClientConfiguration_get_realmsNumber$7;
-      return_value_ClientConfiguration_get_realmsNumber$7=ClientConfiguration_get_realmsNumber(cconfig);
-      if(return_value_ClientConfiguration_get_realmsNumber$7 == 0)
-        tmp_if_expr$9 = (_Bool)1;
+      char *return_value_ClientConfiguration_get_dateFormat_5;
+      return_value_ClientConfiguration_get_dateFormat_5=ClientConfiguration_get_dateFormat(cconfig);
+      initializelogging(verbose, return_value_ClientConfiguration_get_dateFormat_5);
+      signed int return_value_ClientConfiguration_get_realmsNumber_6;
+      return_value_ClientConfiguration_get_realmsNumber_6=ClientConfiguration_get_realmsNumber(cconfig);
+      aflog((char)4, (char)8, "client's cfg file OK! (readed realms: %d)", return_value_ClientConfiguration_get_realmsNumber_6);
+      signed int return_value_ClientConfiguration_get_realmsNumber_7;
+      return_value_ClientConfiguration_get_realmsNumber_7=ClientConfiguration_get_realmsNumber(cconfig);
+      if(return_value_ClientConfiguration_get_realmsNumber_7 == 0)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
-        return_value_ClientConfiguration_get_realmsTable$8=ClientConfiguration_get_realmsTable(cconfig);
-        tmp_if_expr$9 = return_value_ClientConfiguration_get_realmsTable$8 == (struct anonymous$5 **)(void *)0 ? (_Bool)1 : (_Bool)0;
+        return_value_ClientConfiguration_get_realmsTable_8=ClientConfiguration_get_realmsTable(cconfig);
+        tmp_if_expr_9 = return_value_ClientConfiguration_get_realmsTable_8 == (struct anonymous_5 **)(void *)0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$9)
-        tmp_if_expr$11 = (_Bool)1;
+      if(tmp_if_expr_9)
+        tmp_if_expr_11 = (_Bool)1;
 
       else
       {
-        return_value_ClientConfiguration_get_realmsTable$10=ClientConfiguration_get_realmsTable(cconfig);
-        pointer = return_value_ClientConfiguration_get_realmsTable$10[(signed long int)0];
-        tmp_if_expr$11 = pointer == (struct anonymous$5 *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        return_value_ClientConfiguration_get_realmsTable_10=ClientConfiguration_get_realmsTable(cconfig);
+        pointer = return_value_ClientConfiguration_get_realmsTable_10[(signed long int)0];
+        tmp_if_expr_11 = pointer == (struct anonymous_5 *)(void *)0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$11)
+      if(tmp_if_expr_11)
       {
         aflog((char)4, (char)1, "Working without sense is really without sense...");
         exit(1);
@@ -13582,72 +13582,72 @@ signed int main(signed int argc, char **argv)
         ArOptions_free(&ao);
       if(!(serverName == ((char *)NULL)))
       {
-        return_value_ClientRealm_get_serverName$12=ClientRealm_get_serverName(pointer);
-        if(return_value_ClientRealm_get_serverName$12 == ((char *)NULL))
+        return_value_ClientRealm_get_serverName_12=ClientRealm_get_serverName(pointer);
+        if(return_value_ClientRealm_get_serverName_12 == ((char *)NULL))
           ClientRealm_set_serverName(pointer, serverName);
 
       }
 
       if(!(managePort == ((char *)NULL)))
       {
-        return_value_ClientRealm_get_managePort$13=ClientRealm_get_managePort(pointer);
-        if(return_value_ClientRealm_get_managePort$13 == ((char *)NULL))
+        return_value_ClientRealm_get_managePort_13=ClientRealm_get_managePort(pointer);
+        if(return_value_ClientRealm_get_managePort_13 == ((char *)NULL))
           ClientRealm_set_managePort(pointer, managePort);
 
       }
 
       if(!(hostName == ((char *)NULL)))
       {
-        return_value_ClientRealm_get_hostName$14=ClientRealm_get_hostName(pointer);
-        if(return_value_ClientRealm_get_hostName$14 == ((char *)NULL))
+        return_value_ClientRealm_get_hostName_14=ClientRealm_get_hostName(pointer);
+        if(return_value_ClientRealm_get_hostName_14 == ((char *)NULL))
           ClientRealm_set_hostName(pointer, hostName);
 
       }
 
-      signed int return_value_PortList_get_size$17;
-      return_value_PortList_get_size$17=PortList_get_size(destinationPorts);
-      if(!(return_value_PortList_get_size$17 == 0))
+      signed int return_value_PortList_get_size_17;
+      return_value_PortList_get_size_17=PortList_get_size(destinationPorts);
+      if(!(return_value_PortList_get_size_17 == 0))
       {
-        return_value_ClientRealm_get_destinationPorts$15=ClientRealm_get_destinationPorts(pointer);
-        return_value_PortList_get_size$16=PortList_get_size(return_value_ClientRealm_get_destinationPorts$15);
-        if(return_value_PortList_get_size$16 == 0)
+        return_value_ClientRealm_get_destinationPorts_15=ClientRealm_get_destinationPorts(pointer);
+        return_value_PortList_get_size_16=PortList_get_size(return_value_ClientRealm_get_destinationPorts_15);
+        if(return_value_PortList_get_size_16 == 0)
           ClientRealm_set_destinationPorts(pointer, destinationPorts);
 
       }
 
       if(!(realmId == ((char *)NULL)))
       {
-        return_value_ClientRealm_get_realmId$18=ClientRealm_get_realmId(pointer);
-        if(return_value_ClientRealm_get_realmId$18 == ((char *)NULL))
+        return_value_ClientRealm_get_realmId_18=ClientRealm_get_realmId(pointer);
+        if(return_value_ClientRealm_get_realmId_18 == ((char *)NULL))
           ClientRealm_set_realmId(pointer, realmId);
 
       }
 
       if(!(localName == ((char *)NULL)))
       {
-        return_value_ClientRealm_get_localName$19=ClientRealm_get_localName(pointer);
-        if(return_value_ClientRealm_get_localName$19 == ((char *)NULL))
+        return_value_ClientRealm_get_localName_19=ClientRealm_get_localName(pointer);
+        if(return_value_ClientRealm_get_localName_19 == ((char *)NULL))
           ClientRealm_set_localName(pointer, localName);
 
       }
 
       if(!(localPort == ((char *)NULL)))
       {
-        return_value_ClientRealm_get_localPort$20=ClientRealm_get_localPort(pointer);
-        if(return_value_ClientRealm_get_localPort$20 == ((char *)NULL))
+        return_value_ClientRealm_get_localPort_20=ClientRealm_get_localPort(pointer);
+        if(return_value_ClientRealm_get_localPort_20 == ((char *)NULL))
           ClientRealm_set_localPort(pointer, localPort);
 
       }
 
-      char *return_value_ClientRealm_get_localDestinationName$21;
-      return_value_ClientRealm_get_localDestinationName$21=ClientRealm_get_localDestinationName(pointer);
-      if(return_value_ClientRealm_get_localDestinationName$21 == ((char *)NULL) && !(localDestinationName == ((char *)NULL)))
+      char *return_value_ClientRealm_get_localDestinationName_21;
+      return_value_ClientRealm_get_localDestinationName_21=ClientRealm_get_localDestinationName(pointer);
+      if(return_value_ClientRealm_get_localDestinationName_21 == ((char *)NULL) && !(localDestinationName == ((char *)NULL)))
         ClientRealm_set_localDestinationName(pointer, localDestinationName);
 
       if(!(kaTimeout == ((char *)NULL)))
       {
-        return_value_ClientRealm_get_sKeepAliveTimeout$22=ClientRealm_get_sKeepAliveTimeout(pointer);
-        if(return_value_ClientRealm_get_sKeepAliveTimeout$22 == ((char *)NULL))
+        return_value_ClientRealm_get_sKeepAliveTimeout_22=ClientRealm_get_sKeepAliveTimeout(pointer);
+        if(return_value_ClientRealm_get_sKeepAliveTimeout_22 == ((char *)NULL))
           ClientRealm_set_sKeepAliveTimeout(pointer, kaTimeout);
 
       }
@@ -13664,14 +13664,14 @@ signed int main(signed int argc, char **argv)
       if(!(passwordWasSet == 0))
         aflog((char)4, (char)32, "Warning: pass will be ignored");
 
-      char *return_value_Module_get_fileName$23;
-      return_value_Module_get_fileName$23=Module_get_fileName(moduleA);
-      if(!(return_value_Module_get_fileName$23 == ((char *)NULL)))
+      char *return_value_Module_get_fileName_23;
+      return_value_Module_get_fileName_23=Module_get_fileName(moduleA);
+      if(!(return_value_Module_get_fileName_23 == ((char *)NULL)))
         aflog((char)4, (char)32, "Warning: load will be ignored");
 
-      char *return_value_Module_get_fileName$24;
-      return_value_Module_get_fileName$24=Module_get_fileName(moduleB);
-      if(!(return_value_Module_get_fileName$24 == ((char *)NULL)))
+      char *return_value_Module_get_fileName_24;
+      return_value_Module_get_fileName_24=Module_get_fileName(moduleB);
+      if(!(return_value_Module_get_fileName_24 == ((char *)NULL)))
         aflog((char)4, (char)32, "Warning: Load will be ignored");
 
     }
@@ -13680,7 +13680,7 @@ signed int main(signed int argc, char **argv)
   else
   {
     cconfig=ClientConfiguration_new();
-    if(cconfig == ((struct anonymous$4 *)NULL))
+    if(cconfig == ((struct anonymous_4 *)NULL))
     {
       printf("Can't allocate memory for client configuration... exiting\n");
       exit(1);
@@ -13692,42 +13692,42 @@ signed int main(signed int argc, char **argv)
     ClientConfiguration_set_dateFormat(cconfig, dateformat);
     ClientConfiguration_set_realmsNumber(cconfig, 1);
     ClientConfiguration_set_ignorePublicKeys(cconfig, ignorePublicKeys);
-    char *return_value_ClientConfiguration_get_dateFormat$25;
-    return_value_ClientConfiguration_get_dateFormat$25=ClientConfiguration_get_dateFormat(cconfig);
-    initializelogging(verbose, return_value_ClientConfiguration_get_dateFormat$25);
-    char *return_value_ClientConfiguration_get_keysFile$26;
-    return_value_ClientConfiguration_get_keysFile$26=ClientConfiguration_get_keysFile(cconfig);
-    if(return_value_ClientConfiguration_get_keysFile$26 == ((char *)NULL))
+    char *return_value_ClientConfiguration_get_dateFormat_25;
+    return_value_ClientConfiguration_get_dateFormat_25=ClientConfiguration_get_dateFormat(cconfig);
+    initializelogging(verbose, return_value_ClientConfiguration_get_dateFormat_25);
+    char *return_value_ClientConfiguration_get_keysFile_26;
+    return_value_ClientConfiguration_get_keysFile_26=ClientConfiguration_get_keysFile(cconfig);
+    if(return_value_ClientConfiguration_get_keysFile_26 == ((char *)NULL))
       ClientConfiguration_set_keysFile(cconfig, "client.rsa");
 
-    char *return_value_ClientConfiguration_get_storeFile$27;
-    return_value_ClientConfiguration_get_storeFile$27=ClientConfiguration_get_storeFile(cconfig);
-    if(return_value_ClientConfiguration_get_storeFile$27 == ((char *)NULL))
+    char *return_value_ClientConfiguration_get_storeFile_27;
+    return_value_ClientConfiguration_get_storeFile_27=ClientConfiguration_get_storeFile(cconfig);
+    if(return_value_ClientConfiguration_get_storeFile_27 == ((char *)NULL))
       ClientConfiguration_set_storeFile(cconfig, "known_hosts");
 
-    signed int return_value_ClientConfiguration_get_realmsNumber$28;
-    return_value_ClientConfiguration_get_realmsNumber$28=ClientConfiguration_get_realmsNumber(cconfig);
-    void *return_value_calloc$29;
-    return_value_calloc$29=calloc((unsigned long int)return_value_ClientConfiguration_get_realmsNumber$28, sizeof(struct anonymous$5 *) /*8ul*/ );
-    ClientConfiguration_set_realmsTable(cconfig, (struct anonymous$5 **)return_value_calloc$29);
-    struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$30;
-    return_value_ClientConfiguration_get_realmsTable$30=ClientConfiguration_get_realmsTable(cconfig);
-    if(return_value_ClientConfiguration_get_realmsTable$30 == ((struct anonymous$5 **)NULL))
+    signed int return_value_ClientConfiguration_get_realmsNumber_28;
+    return_value_ClientConfiguration_get_realmsNumber_28=ClientConfiguration_get_realmsNumber(cconfig);
+    void *return_value_calloc_29;
+    return_value_calloc_29=calloc((unsigned long int)return_value_ClientConfiguration_get_realmsNumber_28, sizeof(struct anonymous_5 *) /*8ul*/ );
+    ClientConfiguration_set_realmsTable(cconfig, (struct anonymous_5 **)return_value_calloc_29);
+    struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_30;
+    return_value_ClientConfiguration_get_realmsTable_30=ClientConfiguration_get_realmsTable(cconfig);
+    if(return_value_ClientConfiguration_get_realmsTable_30 == ((struct anonymous_5 **)NULL))
     {
       aflog((char)4, (char)1, "Can't allocate memory for ClientRealm* table... exiting");
       exit(1);
     }
 
     pointer=ClientRealm_new();
-    if(pointer == ((struct anonymous$5 *)NULL))
+    if(pointer == ((struct anonymous_5 *)NULL))
     {
       aflog((char)4, (char)1, "Can't allocate memory for ClientRealm structure... exiting");
       exit(1);
     }
 
-    struct anonymous$5 **return_value_ClientConfiguration_get_realmsTable$31;
-    return_value_ClientConfiguration_get_realmsTable$31=ClientConfiguration_get_realmsTable(cconfig);
-    return_value_ClientConfiguration_get_realmsTable$31[(signed long int)0] = pointer;
+    struct anonymous_5 **return_value_ClientConfiguration_get_realmsTable_31;
+    return_value_ClientConfiguration_get_realmsTable_31=ClientConfiguration_get_realmsTable(cconfig);
+    return_value_ClientConfiguration_get_realmsTable_31[(signed long int)0] = pointer;
     ClientRealm_set_serverName(pointer, serverName);
     ClientRealm_set_managePort(pointer, managePort);
     ClientRealm_set_hostName(pointer, hostName);
@@ -13745,9 +13745,9 @@ signed int main(signed int argc, char **argv)
     ClientRealm_set_serviceModule(pointer, moduleB);
     if(!(reverseMode == 0))
     {
-      signed int return_value_ClientRealm_get_clientMode$32;
-      return_value_ClientRealm_get_clientMode$32=ClientRealm_get_clientMode(pointer);
-      if(return_value_ClientRealm_get_clientMode$32 == 0)
+      signed int return_value_ClientRealm_get_clientMode_32;
+      return_value_ClientRealm_get_clientMode_32=ClientRealm_get_clientMode(pointer);
+      if(return_value_ClientRealm_get_clientMode_32 == 0)
         ClientRealm_set_clientMode(pointer, 3);
 
       else
@@ -13756,9 +13756,9 @@ signed int main(signed int argc, char **argv)
 
     if(!(udpMode == 0))
     {
-      signed int return_value_ClientRealm_get_clientMode$33;
-      return_value_ClientRealm_get_clientMode$33=ClientRealm_get_clientMode(pointer);
-      if(return_value_ClientRealm_get_clientMode$33 == 0)
+      signed int return_value_ClientRealm_get_clientMode_33;
+      return_value_ClientRealm_get_clientMode_33=ClientRealm_get_clientMode(pointer);
+      if(return_value_ClientRealm_get_clientMode_33 == 0)
         ClientRealm_set_clientMode(pointer, 1);
 
       else
@@ -13767,9 +13767,9 @@ signed int main(signed int argc, char **argv)
 
     if(!(remoteMode == 0))
     {
-      signed int return_value_ClientRealm_get_clientMode$34;
-      return_value_ClientRealm_get_clientMode$34=ClientRealm_get_clientMode(pointer);
-      if(return_value_ClientRealm_get_clientMode$34 == 0)
+      signed int return_value_ClientRealm_get_clientMode_34;
+      return_value_ClientRealm_get_clientMode_34=ClientRealm_get_clientMode(pointer);
+      if(return_value_ClientRealm_get_clientMode_34 == 0)
         ClientRealm_set_clientMode(pointer, 2);
 
       else
@@ -13777,86 +13777,86 @@ signed int main(signed int argc, char **argv)
     }
 
   }
-  char *return_value_ClientRealm_get_serverName$35;
-  return_value_ClientRealm_get_serverName$35=ClientRealm_get_serverName(pointer);
-  if(return_value_ClientRealm_get_serverName$35 == ((char *)NULL))
+  char *return_value_ClientRealm_get_serverName_35;
+  return_value_ClientRealm_get_serverName_35=ClientRealm_get_serverName(pointer);
+  if(return_value_ClientRealm_get_serverName_35 == ((char *)NULL))
     client_short_usage("Name of the server is required");
 
-  signed int return_value_ClientRealm_get_clientMode$36;
-  return_value_ClientRealm_get_clientMode$36=ClientRealm_get_clientMode(pointer);
-  if(return_value_ClientRealm_get_clientMode$36 == -1)
+  signed int return_value_ClientRealm_get_clientMode_36;
+  return_value_ClientRealm_get_clientMode_36=ClientRealm_get_clientMode(pointer);
+  if(return_value_ClientRealm_get_clientMode_36 == -1)
   {
     aflog((char)4, (char)1, "Conflicting/unknown client modes... exiting");
     exit(1);
   }
 
-  char *return_value_ClientRealm_get_managePort$38;
-  return_value_ClientRealm_get_managePort$38=ClientRealm_get_managePort(pointer);
-  if(return_value_ClientRealm_get_managePort$38 == ((char *)NULL))
+  char *return_value_ClientRealm_get_managePort_38;
+  return_value_ClientRealm_get_managePort_38=ClientRealm_get_managePort(pointer);
+  if(return_value_ClientRealm_get_managePort_38 == ((char *)NULL))
   {
     ClientRealm_set_managePort(pointer, "50126");
-    signed int return_value_ClientRealm_get_clientMode$37;
-    return_value_ClientRealm_get_clientMode$37=ClientRealm_get_clientMode(pointer);
-    if(return_value_ClientRealm_get_clientMode$37 == 3)
+    signed int return_value_ClientRealm_get_clientMode_37;
+    return_value_ClientRealm_get_clientMode_37=ClientRealm_get_clientMode(pointer);
+    if(return_value_ClientRealm_get_clientMode_37 == 3)
       client_short_usage("Port on the server is required in reverse mode");
 
   }
 
-  struct anonymous *return_value_ClientRealm_get_httpProxyOptions$40;
-  return_value_ClientRealm_get_httpProxyOptions$40=ClientRealm_get_httpProxyOptions(pointer);
-  char *return_value_HttpProxyOptions_get_proxyname$41;
-  return_value_HttpProxyOptions_get_proxyname$41=HttpProxyOptions_get_proxyname(return_value_ClientRealm_get_httpProxyOptions$40);
-  _Bool tmp_if_expr$44;
-  struct anonymous *return_value_ClientRealm_get_httpProxyOptions$42;
-  char *return_value_HttpProxyOptions_get_proxyport$43;
-  if(!(return_value_HttpProxyOptions_get_proxyname$41 == ((char *)NULL)))
-    tmp_if_expr$44 = (_Bool)1;
+  struct anonymous *return_value_ClientRealm_get_httpProxyOptions_40;
+  return_value_ClientRealm_get_httpProxyOptions_40=ClientRealm_get_httpProxyOptions(pointer);
+  char *return_value_HttpProxyOptions_get_proxyname_41;
+  return_value_HttpProxyOptions_get_proxyname_41=HttpProxyOptions_get_proxyname(return_value_ClientRealm_get_httpProxyOptions_40);
+  _Bool tmp_if_expr_44;
+  struct anonymous *return_value_ClientRealm_get_httpProxyOptions_42;
+  char *return_value_HttpProxyOptions_get_proxyport_43;
+  if(!(return_value_HttpProxyOptions_get_proxyname_41 == ((char *)NULL)))
+    tmp_if_expr_44 = (_Bool)1;
 
   else
   {
-    return_value_ClientRealm_get_httpProxyOptions$42=ClientRealm_get_httpProxyOptions(pointer);
-    return_value_HttpProxyOptions_get_proxyport$43=HttpProxyOptions_get_proxyport(return_value_ClientRealm_get_httpProxyOptions$42);
-    tmp_if_expr$44 = return_value_HttpProxyOptions_get_proxyport$43 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    return_value_ClientRealm_get_httpProxyOptions_42=ClientRealm_get_httpProxyOptions(pointer);
+    return_value_HttpProxyOptions_get_proxyport_43=HttpProxyOptions_get_proxyport(return_value_ClientRealm_get_httpProxyOptions_42);
+    tmp_if_expr_44 = return_value_HttpProxyOptions_get_proxyport_43 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$44)
+  if(tmp_if_expr_44)
   {
-    char return_value_ClientRealm_get_tunnelType$39;
-    return_value_ClientRealm_get_tunnelType$39=ClientRealm_get_tunnelType(pointer);
-    if((signed int)return_value_ClientRealm_get_tunnelType$39 == 0)
+    char return_value_ClientRealm_get_tunnelType_39;
+    return_value_ClientRealm_get_tunnelType_39=ClientRealm_get_tunnelType(pointer);
+    if((signed int)return_value_ClientRealm_get_tunnelType_39 == 0)
       ClientRealm_set_tunnelType(pointer, (char)1);
 
     else
       ClientRealm_set_tunnelType(pointer, (char)-1);
   }
 
-  char return_value_ClientRealm_get_tunnelType$48;
-  return_value_ClientRealm_get_tunnelType$48=ClientRealm_get_tunnelType(pointer);
-  if((signed int)return_value_ClientRealm_get_tunnelType$48 == 1)
+  char return_value_ClientRealm_get_tunnelType_48;
+  return_value_ClientRealm_get_tunnelType_48=ClientRealm_get_tunnelType(pointer);
+  if((signed int)return_value_ClientRealm_get_tunnelType_48 == 1)
   {
-    struct anonymous *return_value_ClientRealm_get_httpProxyOptions$46;
-    return_value_ClientRealm_get_httpProxyOptions$46=ClientRealm_get_httpProxyOptions(pointer);
-    char *return_value_HttpProxyOptions_get_proxyport$47;
-    return_value_HttpProxyOptions_get_proxyport$47=HttpProxyOptions_get_proxyport(return_value_ClientRealm_get_httpProxyOptions$46);
-    if(return_value_HttpProxyOptions_get_proxyport$47 == ((char *)NULL))
+    struct anonymous *return_value_ClientRealm_get_httpProxyOptions_46;
+    return_value_ClientRealm_get_httpProxyOptions_46=ClientRealm_get_httpProxyOptions(pointer);
+    char *return_value_HttpProxyOptions_get_proxyport_47;
+    return_value_HttpProxyOptions_get_proxyport_47=HttpProxyOptions_get_proxyport(return_value_ClientRealm_get_httpProxyOptions_46);
+    if(return_value_HttpProxyOptions_get_proxyport_47 == ((char *)NULL))
     {
-      struct anonymous *return_value_ClientRealm_get_httpProxyOptions$45;
-      return_value_ClientRealm_get_httpProxyOptions$45=ClientRealm_get_httpProxyOptions(pointer);
-      HttpProxyOptions_set_proxyport(return_value_ClientRealm_get_httpProxyOptions$45, "8080");
+      struct anonymous *return_value_ClientRealm_get_httpProxyOptions_45;
+      return_value_ClientRealm_get_httpProxyOptions_45=ClientRealm_get_httpProxyOptions(pointer);
+      HttpProxyOptions_set_proxyport(return_value_ClientRealm_get_httpProxyOptions_45, "8080");
     }
 
   }
 
-  signed int return_value_ClientRealm_get_clientMode$51;
-  return_value_ClientRealm_get_clientMode$51=ClientRealm_get_clientMode(pointer);
-  signed int return_value_ClientRealm_get_clientMode$50;
-  char *return_value_ClientRealm_get_hostName$49;
-  if(!(return_value_ClientRealm_get_clientMode$51 == 3))
+  signed int return_value_ClientRealm_get_clientMode_51;
+  return_value_ClientRealm_get_clientMode_51=ClientRealm_get_clientMode(pointer);
+  signed int return_value_ClientRealm_get_clientMode_50;
+  char *return_value_ClientRealm_get_hostName_49;
+  if(!(return_value_ClientRealm_get_clientMode_51 == 3))
   {
-    return_value_ClientRealm_get_clientMode$50=ClientRealm_get_clientMode(pointer);
-    if(!(return_value_ClientRealm_get_clientMode$50 == 2))
+    return_value_ClientRealm_get_clientMode_50=ClientRealm_get_clientMode(pointer);
+    if(!(return_value_ClientRealm_get_clientMode_50 == 2))
     {
-      return_value_ClientRealm_get_hostName$49=ClientRealm_get_hostName(pointer);
-      if(return_value_ClientRealm_get_hostName$49 == ((char *)NULL))
+      return_value_ClientRealm_get_hostName_49=ClientRealm_get_hostName(pointer);
+      if(return_value_ClientRealm_get_hostName_49 == ((char *)NULL))
       {
         gethostname(hostname, (unsigned long int)100);
         ClientRealm_set_hostName(pointer, hostname);
@@ -13866,86 +13866,86 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  signed int return_value_ClientRealm_get_clientMode$54;
-  return_value_ClientRealm_get_clientMode$54=ClientRealm_get_clientMode(pointer);
-  struct portlist *return_value_ClientRealm_get_destinationPorts$52;
-  signed int return_value_PortList_get_size$53;
-  if(!(return_value_ClientRealm_get_clientMode$54 == 2))
+  signed int return_value_ClientRealm_get_clientMode_54;
+  return_value_ClientRealm_get_clientMode_54=ClientRealm_get_clientMode(pointer);
+  struct portlist *return_value_ClientRealm_get_destinationPorts_52;
+  signed int return_value_PortList_get_size_53;
+  if(!(return_value_ClientRealm_get_clientMode_54 == 2))
   {
-    return_value_ClientRealm_get_destinationPorts$52=ClientRealm_get_destinationPorts(pointer);
-    return_value_PortList_get_size$53=PortList_get_size(return_value_ClientRealm_get_destinationPorts$52);
-    if(return_value_PortList_get_size$53 == 0)
+    return_value_ClientRealm_get_destinationPorts_52=ClientRealm_get_destinationPorts(pointer);
+    return_value_PortList_get_size_53=PortList_get_size(return_value_ClientRealm_get_destinationPorts_52);
+    if(return_value_PortList_get_size_53 == 0)
       client_short_usage("Destination port number is required");
 
   }
 
-  char *return_value_ClientRealm_get_sKeepAliveTimeout$58;
-  return_value_ClientRealm_get_sKeepAliveTimeout$58=ClientRealm_get_sKeepAliveTimeout(pointer);
-  if(!(return_value_ClientRealm_get_sKeepAliveTimeout$58 == ((char *)NULL)))
+  char *return_value_ClientRealm_get_sKeepAliveTimeout_58;
+  return_value_ClientRealm_get_sKeepAliveTimeout_58=ClientRealm_get_sKeepAliveTimeout(pointer);
+  if(!(return_value_ClientRealm_get_sKeepAliveTimeout_58 == ((char *)NULL)))
   {
-    char *return_value_ClientRealm_get_sKeepAliveTimeout$55;
-    return_value_ClientRealm_get_sKeepAliveTimeout$55=ClientRealm_get_sKeepAliveTimeout(pointer);
-    signed int return_value_check_value$56;
-    return_value_check_value$56=check_value(return_value_ClientRealm_get_sKeepAliveTimeout$55, "Invalid timeout value");
-    ClientRealm_set_keepAliveTimeout(pointer, return_value_check_value$56);
-    signed int return_value_ClientRealm_get_keepAliveTimeout$57;
-    return_value_ClientRealm_get_keepAliveTimeout$57=ClientRealm_get_keepAliveTimeout(pointer);
-    keepAlive.tv_sec = (signed long int)return_value_ClientRealm_get_keepAliveTimeout$57;
+    char *return_value_ClientRealm_get_sKeepAliveTimeout_55;
+    return_value_ClientRealm_get_sKeepAliveTimeout_55=ClientRealm_get_sKeepAliveTimeout(pointer);
+    signed int return_value_check_value_56;
+    return_value_check_value_56=check_value(return_value_ClientRealm_get_sKeepAliveTimeout_55, "Invalid timeout value");
+    ClientRealm_set_keepAliveTimeout(pointer, return_value_check_value_56);
+    signed int return_value_ClientRealm_get_keepAliveTimeout_57;
+    return_value_ClientRealm_get_keepAliveTimeout_57=ClientRealm_get_keepAliveTimeout(pointer);
+    keepAlive.tv_sec = (signed long int)return_value_ClientRealm_get_keepAliveTimeout_57;
     keepAlive.tv_usec = (signed long int)0;
     ClientRealm_set_keepAlive(pointer, keepAlive);
   }
 
-  struct anonymous$3 *return_value_ClientRealm_get_arOptions$59;
-  return_value_ClientRealm_get_arOptions$59=ClientRealm_get_arOptions(pointer);
-  ArOptions_evaluate_values(return_value_ClientRealm_get_arOptions$59);
+  struct anonymous_3 *return_value_ClientRealm_get_arOptions_59;
+  return_value_ClientRealm_get_arOptions_59=ClientRealm_get_arOptions(pointer);
+  ArOptions_evaluate_values(return_value_ClientRealm_get_arOptions_59);
   if(!(ignorePublicKeys == 0))
     ClientConfiguration_set_ignorePublicKeys(cconfig, ignorePublicKeys);
 
-  struct anonymous$6 *return_value_ClientRealm_get_userModule$62;
-  return_value_ClientRealm_get_userModule$62=ClientRealm_get_userModule(pointer);
-  signed int return_value_Module_loadModule$63;
-  return_value_Module_loadModule$63=Module_loadModule(return_value_ClientRealm_get_userModule$62);
-  if(!(return_value_Module_loadModule$63 == 0))
+  struct anonymous_6 *return_value_ClientRealm_get_userModule_62;
+  return_value_ClientRealm_get_userModule_62=ClientRealm_get_userModule(pointer);
+  signed int return_value_Module_loadModule_63;
+  return_value_Module_loadModule_63=Module_loadModule(return_value_ClientRealm_get_userModule_62);
+  if(!(return_value_Module_loadModule_63 == 0))
   {
-    struct anonymous$6 *return_value_ClientRealm_get_userModule$60;
-    return_value_ClientRealm_get_userModule$60=ClientRealm_get_userModule(pointer);
-    char *return_value_Module_get_fileName$61;
-    return_value_Module_get_fileName$61=Module_get_fileName(return_value_ClientRealm_get_userModule$60);
-    aflog((char)4, (char)1, "Loading a module %s failed!", return_value_Module_get_fileName$61);
+    struct anonymous_6 *return_value_ClientRealm_get_userModule_60;
+    return_value_ClientRealm_get_userModule_60=ClientRealm_get_userModule(pointer);
+    char *return_value_Module_get_fileName_61;
+    return_value_Module_get_fileName_61=Module_get_fileName(return_value_ClientRealm_get_userModule_60);
+    aflog((char)4, (char)1, "Loading a module %s failed!", return_value_Module_get_fileName_61);
     exit(1);
   }
 
-  struct anonymous$6 *return_value_ClientRealm_get_serviceModule$66;
-  return_value_ClientRealm_get_serviceModule$66=ClientRealm_get_serviceModule(pointer);
-  signed int return_value_Module_loadModule$67;
-  return_value_Module_loadModule$67=Module_loadModule(return_value_ClientRealm_get_serviceModule$66);
-  if(!(return_value_Module_loadModule$67 == 0))
+  struct anonymous_6 *return_value_ClientRealm_get_serviceModule_66;
+  return_value_ClientRealm_get_serviceModule_66=ClientRealm_get_serviceModule(pointer);
+  signed int return_value_Module_loadModule_67;
+  return_value_Module_loadModule_67=Module_loadModule(return_value_ClientRealm_get_serviceModule_66);
+  if(!(return_value_Module_loadModule_67 == 0))
   {
-    struct anonymous$6 *return_value_ClientRealm_get_serviceModule$64;
-    return_value_ClientRealm_get_serviceModule$64=ClientRealm_get_serviceModule(pointer);
-    char *return_value_Module_get_fileName$65;
-    return_value_Module_get_fileName$65=Module_get_fileName(return_value_ClientRealm_get_serviceModule$64);
-    aflog((char)4, (char)1, "Loading a module %s failed!", return_value_Module_get_fileName$65);
+    struct anonymous_6 *return_value_ClientRealm_get_serviceModule_64;
+    return_value_ClientRealm_get_serviceModule_64=ClientRealm_get_serviceModule(pointer);
+    char *return_value_Module_get_fileName_65;
+    return_value_Module_get_fileName_65=Module_get_fileName(return_value_ClientRealm_get_serviceModule_64);
+    aflog((char)4, (char)1, "Loading a module %s failed!", return_value_Module_get_fileName_65);
     exit(1);
   }
 
   realmType = (char)0;
   realmType = realmType | (char)4;
   realmType = realmType | (char)8;
-  char return_value_ClientRealm_get_ipFamily$68;
+  char return_value_ClientRealm_get_ipFamily_68;
   if(!((signed int)ipFamily == 0))
   {
-    return_value_ClientRealm_get_ipFamily$68=ClientRealm_get_ipFamily(pointer);
-    if(!((signed int)return_value_ClientRealm_get_ipFamily$68 >= 1))
+    return_value_ClientRealm_get_ipFamily_68=ClientRealm_get_ipFamily(pointer);
+    if(!((signed int)return_value_ClientRealm_get_ipFamily_68 >= 1))
       ClientRealm_set_ipFamily(pointer, ipFamily);
 
   }
 
-  char return_value_ClientRealm_get_ipFamily$71;
-  return_value_ClientRealm_get_ipFamily$71=ClientRealm_get_ipFamily(pointer);
-  char return_value_ClientRealm_get_ipFamily$70;
-  char return_value_ClientRealm_get_ipFamily$69;
-  if((signed int)return_value_ClientRealm_get_ipFamily$71 == -1)
+  char return_value_ClientRealm_get_ipFamily_71;
+  return_value_ClientRealm_get_ipFamily_71=ClientRealm_get_ipFamily(pointer);
+  char return_value_ClientRealm_get_ipFamily_70;
+  char return_value_ClientRealm_get_ipFamily_69;
+  if((signed int)return_value_ClientRealm_get_ipFamily_71 == -1)
   {
     aflog((char)4, (char)1, "Conflicting types of ip protocol family... exiting");
     exit(1);
@@ -13953,14 +13953,14 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    return_value_ClientRealm_get_ipFamily$70=ClientRealm_get_ipFamily(pointer);
-    if((signed int)return_value_ClientRealm_get_ipFamily$70 == 4)
+    return_value_ClientRealm_get_ipFamily_70=ClientRealm_get_ipFamily(pointer);
+    if((signed int)return_value_ClientRealm_get_ipFamily_70 == 4)
       realmType = realmType | (char)16;
 
     else
     {
-      return_value_ClientRealm_get_ipFamily$69=ClientRealm_get_ipFamily(pointer);
-      if((signed int)return_value_ClientRealm_get_ipFamily$69 == 6)
+      return_value_ClientRealm_get_ipFamily_69=ClientRealm_get_ipFamily(pointer);
+      if((signed int)return_value_ClientRealm_get_ipFamily_69 == 6)
         realmType = realmType | (char)32;
 
     }
@@ -13975,18 +13975,18 @@ signed int main(signed int argc, char **argv)
 
   ClientRealm_set_ipFamily(pointer, ipFamily);
   ClientRealm_set_realmType(pointer, realmType);
-  signed int return_value_ClientRealm_get_clientMode$94;
-  return_value_ClientRealm_get_clientMode$94=ClientRealm_get_clientMode(pointer);
-  char *tmp_if_expr$78;
-  char return_value_ClientRealm_get_ipFamily$77;
-  if(!(return_value_ClientRealm_get_clientMode$94 == 3))
+  signed int return_value_ClientRealm_get_clientMode_94;
+  return_value_ClientRealm_get_clientMode_94=ClientRealm_get_clientMode(pointer);
+  char *tmp_if_expr_78;
+  char return_value_ClientRealm_get_ipFamily_77;
+  if(!(return_value_ClientRealm_get_clientMode_94 == 3))
   {
     SSL_library_init();
     method=SSLv3_client_method();
     ctx=SSL_CTX_new(method);
-    signed int return_value_SSL_CTX_set_cipher_list$72;
-    return_value_SSL_CTX_set_cipher_list$72=SSL_CTX_set_cipher_list(ctx, "ALL:@STRENGTH");
-    if(return_value_SSL_CTX_set_cipher_list$72 == 0)
+    signed int return_value_SSL_CTX_set_cipher_list_72;
+    return_value_SSL_CTX_set_cipher_list_72=SSL_CTX_set_cipher_list(ctx, "ALL:@STRENGTH");
+    if(return_value_SSL_CTX_set_cipher_list_72 == 0)
     {
       aflog((char)4, (char)1, "Setting cipher list failed... exiting");
       exit(1);
@@ -14014,9 +14014,9 @@ signed int main(signed int argc, char **argv)
       aflog((char)4, (char)32, "Warning: Something bad happened when generating rsa keys... (%d)", temp2);
 
     ClientConfiguration_set_keysFile(cconfig, keys);
-    signed int return_value_SSL_CTX_use_RSAPrivateKey_file$73;
-    return_value_SSL_CTX_use_RSAPrivateKey_file$73=SSL_CTX_use_RSAPrivateKey_file(ctx, keys, 1);
-    if(!(return_value_SSL_CTX_use_RSAPrivateKey_file$73 == 1))
+    signed int return_value_SSL_CTX_use_RSAPrivateKey_file_73;
+    return_value_SSL_CTX_use_RSAPrivateKey_file_73=SSL_CTX_use_RSAPrivateKey_file(ctx, keys, 1);
+    if(!(return_value_SSL_CTX_use_RSAPrivateKey_file_73 == 1))
     {
       aflog((char)4, (char)1, "Setting rsa key failed (%s)... exiting", keys);
       exit(1);
@@ -14025,9 +14025,9 @@ signed int main(signed int argc, char **argv)
     certif=ClientConfiguration_get_certificateFile(cconfig);
     if(!(certif == ((char *)NULL)))
     {
-      signed int return_value_SSL_CTX_use_certificate_file$74;
-      return_value_SSL_CTX_use_certificate_file$74=SSL_CTX_use_certificate_file(ctx, certif, 1);
-      if(!(return_value_SSL_CTX_use_certificate_file$74 == 1))
+      signed int return_value_SSL_CTX_use_certificate_file_74;
+      return_value_SSL_CTX_use_certificate_file_74=SSL_CTX_use_certificate_file(ctx, certif, 1);
+      if(!(return_value_SSL_CTX_use_certificate_file_74 == 1))
       {
         aflog((char)4, (char)1, "Setting certificate failed (%s)... exiting", certif);
         exit(1);
@@ -14035,65 +14035,65 @@ signed int main(signed int argc, char **argv)
 
     }
 
-    signed int return_value_ClientRealm_get_clientMode$75;
-    return_value_ClientRealm_get_clientMode$75=ClientRealm_get_clientMode(pointer);
-    if(!(return_value_ClientRealm_get_clientMode$75 == 2))
+    signed int return_value_ClientRealm_get_clientMode_75;
+    return_value_ClientRealm_get_clientMode_75=ClientRealm_get_clientMode(pointer);
+    if(!(return_value_ClientRealm_get_clientMode_75 == 2))
     {
       if(verbose == 0)
         daemon(0, 0);
 
     }
 
-    signed int return_value_ClientRealm_get_clientMode$93;
-    return_value_ClientRealm_get_clientMode$93=ClientRealm_get_clientMode(pointer);
-    if(return_value_ClientRealm_get_clientMode$93 == 2)
+    signed int return_value_ClientRealm_get_clientMode_93;
+    return_value_ClientRealm_get_clientMode_93=ClientRealm_get_clientMode(pointer);
+    if(return_value_ClientRealm_get_clientMode_93 == 2)
     {
       temp2 = -1;
-      struct portlist *return_value_ClientRealm_get_destinationPorts$91;
-      return_value_ClientRealm_get_destinationPorts$91=ClientRealm_get_destinationPorts(pointer);
-      signed int return_value_PortList_get_size$92;
-      return_value_PortList_get_size$92=PortList_get_size(return_value_ClientRealm_get_destinationPorts$91);
-      if(return_value_PortList_get_size$92 >= 1)
+      struct portlist *return_value_ClientRealm_get_destinationPorts_91;
+      return_value_ClientRealm_get_destinationPorts_91=ClientRealm_get_destinationPorts(pointer);
+      signed int return_value_PortList_get_size_92;
+      return_value_PortList_get_size_92=PortList_get_size(return_value_ClientRealm_get_destinationPorts_91);
+      if(return_value_PortList_get_size_92 >= 1)
       {
-        char *return_value_ClientRealm_get_serverName$83;
-        return_value_ClientRealm_get_serverName$83=ClientRealm_get_serverName(pointer);
-        struct portlist *return_value_ClientRealm_get_destinationPorts$84;
-        return_value_ClientRealm_get_destinationPorts$84=ClientRealm_get_destinationPorts(pointer);
-        struct plnode *return_value_PortList_get_nth$85;
-        return_value_PortList_get_nth$85=PortList_get_nth(return_value_ClientRealm_get_destinationPorts$84, 0);
-        char *return_value_PortListNode_get_portName$86;
-        return_value_PortListNode_get_portName$86=PortListNode_get_portName(return_value_PortList_get_nth$85);
-        char return_value_ClientRealm_get_ipFamily$87;
-        return_value_ClientRealm_get_ipFamily$87=ClientRealm_get_ipFamily(pointer);
-        signed int return_value_ip_listen$88;
-        return_value_ip_listen$88=ip_listen(&n, return_value_ClientRealm_get_serverName$83, return_value_PortListNode_get_portName$86, &addressLength, return_value_ClientRealm_get_ipFamily$87);
-        if(!(return_value_ip_listen$88 == 0))
+        char *return_value_ClientRealm_get_serverName_83;
+        return_value_ClientRealm_get_serverName_83=ClientRealm_get_serverName(pointer);
+        struct portlist *return_value_ClientRealm_get_destinationPorts_84;
+        return_value_ClientRealm_get_destinationPorts_84=ClientRealm_get_destinationPorts(pointer);
+        struct plnode *return_value_PortList_get_nth_85;
+        return_value_PortList_get_nth_85=PortList_get_nth(return_value_ClientRealm_get_destinationPorts_84, 0);
+        char *return_value_PortListNode_get_portName_86;
+        return_value_PortListNode_get_portName_86=PortListNode_get_portName(return_value_PortList_get_nth_85);
+        char return_value_ClientRealm_get_ipFamily_87;
+        return_value_ClientRealm_get_ipFamily_87=ClientRealm_get_ipFamily(pointer);
+        signed int return_value_ip_listen_88;
+        return_value_ip_listen_88=ip_listen(&n, return_value_ClientRealm_get_serverName_83, return_value_PortListNode_get_portName_86, &addressLength, return_value_ClientRealm_get_ipFamily_87);
+        if(!(return_value_ip_listen_88 == 0))
         {
-          char return_value_ClientRealm_get_ipFamily$76;
-          return_value_ClientRealm_get_ipFamily$76=ClientRealm_get_ipFamily(pointer);
-          if(!((0x02 & (signed int)return_value_ClientRealm_get_ipFamily$76) == 0))
-            tmp_if_expr$78 = "ipv4";
+          char return_value_ClientRealm_get_ipFamily_76;
+          return_value_ClientRealm_get_ipFamily_76=ClientRealm_get_ipFamily(pointer);
+          if(!((0x02 & (signed int)return_value_ClientRealm_get_ipFamily_76) == 0))
+            tmp_if_expr_78 = "ipv4";
 
           else
           {
-            return_value_ClientRealm_get_ipFamily$77=ClientRealm_get_ipFamily(pointer);
-            tmp_if_expr$78 = ((signed int)return_value_ClientRealm_get_ipFamily$77 & 0x04) != 0 ? "ipv6" : "unspec";
+            return_value_ClientRealm_get_ipFamily_77=ClientRealm_get_ipFamily(pointer);
+            tmp_if_expr_78 = ((signed int)return_value_ClientRealm_get_ipFamily_77 & 0x04) != 0 ? "ipv6" : "unspec";
           }
-          char *return_value_ClientRealm_get_serverName$79;
-          return_value_ClientRealm_get_serverName$79=ClientRealm_get_serverName(pointer);
-          struct portlist *return_value_ClientRealm_get_destinationPorts$80;
-          return_value_ClientRealm_get_destinationPorts$80=ClientRealm_get_destinationPorts(pointer);
-          struct plnode *return_value_PortList_get_nth$81;
-          return_value_PortList_get_nth$81=PortList_get_nth(return_value_ClientRealm_get_destinationPorts$80, 0);
-          char *return_value_PortListNode_get_portName$82;
-          return_value_PortListNode_get_portName$82=PortListNode_get_portName(return_value_PortList_get_nth$81);
-          aflog((char)4, (char)1, "tcp_listen_%s error for %s, %s", tmp_if_expr$78, return_value_ClientRealm_get_serverName$79, return_value_PortListNode_get_portName$82);
+          char *return_value_ClientRealm_get_serverName_79;
+          return_value_ClientRealm_get_serverName_79=ClientRealm_get_serverName(pointer);
+          struct portlist *return_value_ClientRealm_get_destinationPorts_80;
+          return_value_ClientRealm_get_destinationPorts_80=ClientRealm_get_destinationPorts(pointer);
+          struct plnode *return_value_PortList_get_nth_81;
+          return_value_PortList_get_nth_81=PortList_get_nth(return_value_ClientRealm_get_destinationPorts_80, 0);
+          char *return_value_PortListNode_get_portName_82;
+          return_value_PortListNode_get_portName_82=PortListNode_get_portName(return_value_PortList_get_nth_81);
+          aflog((char)4, (char)1, "tcp_listen_%s error for %s, %s", tmp_if_expr_78, return_value_ClientRealm_get_serverName_79, return_value_PortListNode_get_portName_82);
           exit(1);
         }
 
-        void *return_value_malloc$89;
-        return_value_malloc$89=malloc((unsigned long int)addressLength);
-        clientAddress = (struct sockaddr *)return_value_malloc$89;
+        void *return_value_malloc_89;
+        return_value_malloc_89=malloc((unsigned long int)addressLength);
+        clientAddress = (struct sockaddr *)return_value_malloc_89;
         if(clientAddress == ((struct sockaddr *)NULL))
         {
           aflog((char)4, (char)1, "Can't allocate memory for sockaddr structure... exiting");
@@ -14102,76 +14102,76 @@ signed int main(signed int argc, char **argv)
 
         ClientRealm_set_addressLength(pointer, addressLength);
         ClientRealm_set_clientAddress(pointer, clientAddress);
-        struct sockaddr *return_value_ClientRealm_get_clientAddress$90;
-        return_value_ClientRealm_get_clientAddress$90=ClientRealm_get_clientAddress(pointer);
-        temp2=accept(n, return_value_ClientRealm_get_clientAddress$90, &addressLength);
+        struct sockaddr *return_value_ClientRealm_get_clientAddress_90;
+        return_value_ClientRealm_get_clientAddress_90=ClientRealm_get_clientAddress(pointer);
+        temp2=accept(n, return_value_ClientRealm_get_clientAddress_90, &addressLength);
       }
 
     }
 
   }
 
-  struct anonymous$3 *return_value_ClientRealm_get_arOptions$95;
-  return_value_ClientRealm_get_arOptions$95=ClientRealm_get_arOptions(pointer);
-  i=ArOptions_get_arTries(return_value_ClientRealm_get_arOptions$95);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$96;
-  return_value_ClientRealm_get_masterSslFd$96=ClientRealm_get_masterSslFd(pointer);
-  SslFd_set_fd(return_value_ClientRealm_get_masterSslFd$96, -1);
-  signed int return_value_ClientRealm_get_clientMode$110;
-  signed int return_value_ClientRealm_get_clientMode$119;
+  struct anonymous_3 *return_value_ClientRealm_get_arOptions_95;
+  return_value_ClientRealm_get_arOptions_95=ClientRealm_get_arOptions(pointer);
+  i=ArOptions_get_arTries(return_value_ClientRealm_get_arOptions_95);
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_96;
+  return_value_ClientRealm_get_masterSslFd_96=ClientRealm_get_masterSslFd(pointer);
+  SslFd_set_fd(return_value_ClientRealm_get_masterSslFd_96, -1);
+  signed int return_value_ClientRealm_get_clientMode_110;
+  signed int return_value_ClientRealm_get_clientMode_119;
   do
   {
     temp = 0;
-    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$99;
-    return_value_ClientRealm_get_masterSslFd$99=ClientRealm_get_masterSslFd(pointer);
-    signed int return_value_SslFd_get_fd$100;
-    return_value_SslFd_get_fd$100=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$99);
-    if(!(return_value_SslFd_get_fd$100 == -1))
+    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_99;
+    return_value_ClientRealm_get_masterSslFd_99=ClientRealm_get_masterSslFd(pointer);
+    signed int return_value_SslFd_get_fd_100;
+    return_value_SslFd_get_fd_100=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_99);
+    if(!(return_value_SslFd_get_fd_100 == -1))
     {
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$97;
-      return_value_ClientRealm_get_masterSslFd$97=ClientRealm_get_masterSslFd(pointer);
-      signed int return_value_SslFd_get_fd$98;
-      return_value_SslFd_get_fd$98=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$97);
-      close(return_value_SslFd_get_fd$98);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_97;
+      return_value_ClientRealm_get_masterSslFd_97=ClientRealm_get_masterSslFd(pointer);
+      signed int return_value_SslFd_get_fd_98;
+      return_value_SslFd_get_fd_98=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_97);
+      close(return_value_SslFd_get_fd_98);
     }
 
     ClientRealm_closeUsersConnections(pointer);
-    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$101;
-    return_value_ClientRealm_get_masterSslFd$101=ClientRealm_get_masterSslFd(pointer);
-    SslFd_set_ssl(return_value_ClientRealm_get_masterSslFd$101, (struct ssl_st *)(void *)0);
-    signed int return_value_ClientRealm_get_clientMode$115;
-    return_value_ClientRealm_get_clientMode$115=ClientRealm_get_clientMode(pointer);
-    if(!(return_value_ClientRealm_get_clientMode$115 == 3))
+    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_101;
+    return_value_ClientRealm_get_masterSslFd_101=ClientRealm_get_masterSslFd(pointer);
+    SslFd_set_ssl(return_value_ClientRealm_get_masterSslFd_101, (struct ssl_st *)(void *)0);
+    signed int return_value_ClientRealm_get_clientMode_115;
+    return_value_ClientRealm_get_clientMode_115=ClientRealm_get_clientMode(pointer);
+    if(!(return_value_ClientRealm_get_clientMode_115 == 3))
     {
       if(temp == 0)
       {
-        struct anonymous$3 *return_value_ClientRealm_get_arOptions$102;
-        return_value_ClientRealm_get_arOptions$102=ClientRealm_get_arOptions(pointer);
-        char return_value_ArOptions_get_arStart$103;
-        return_value_ArOptions_get_arStart$103=ArOptions_get_arStart(return_value_ClientRealm_get_arOptions$102);
-        char return_value_ClientConfiguration_get_ignorePublicKeys$104;
-        return_value_ClientConfiguration_get_ignorePublicKeys$104=ClientConfiguration_get_ignorePublicKeys(cconfig);
-        signed int return_value_initialize_client_stage1$105;
-        return_value_initialize_client_stage1$105=initialize_client_stage1(pointer, ctx, buff, (char)((signed int)return_value_ArOptions_get_arStart$103 == 1 ? 0 : 1), return_value_ClientConfiguration_get_ignorePublicKeys$104);
-        if(!(return_value_initialize_client_stage1$105 == 0))
+        struct anonymous_3 *return_value_ClientRealm_get_arOptions_102;
+        return_value_ClientRealm_get_arOptions_102=ClientRealm_get_arOptions(pointer);
+        char return_value_ArOptions_get_arStart_103;
+        return_value_ArOptions_get_arStart_103=ArOptions_get_arStart(return_value_ClientRealm_get_arOptions_102);
+        char return_value_ClientConfiguration_get_ignorePublicKeys_104;
+        return_value_ClientConfiguration_get_ignorePublicKeys_104=ClientConfiguration_get_ignorePublicKeys(cconfig);
+        signed int return_value_initialize_client_stage1_105;
+        return_value_initialize_client_stage1_105=initialize_client_stage1(pointer, ctx, buff, (char)((signed int)return_value_ArOptions_get_arStart_103 == 1 ? 0 : 1), return_value_ClientConfiguration_get_ignorePublicKeys_104);
+        if(!(return_value_initialize_client_stage1_105 == 0))
           temp = 1;
 
       }
 
       if(temp == 0)
       {
-        return_value_ClientRealm_get_clientMode$110=ClientRealm_get_clientMode(pointer);
-        if(return_value_ClientRealm_get_clientMode$110 == 2)
+        return_value_ClientRealm_get_clientMode_110=ClientRealm_get_clientMode(pointer);
+        if(return_value_ClientRealm_get_clientMode_110 == 2)
         {
-          char return_value_ClientRealm_get_realmType$106;
-          return_value_ClientRealm_get_realmType$106=ClientRealm_get_realmType(pointer);
-          struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$107;
-          return_value_ClientRealm_get_masterSslFd$107=ClientRealm_get_masterSslFd(pointer);
-          char *return_value_ClientRealm_get_realmId$108;
-          return_value_ClientRealm_get_realmId$108=ClientRealm_get_realmId(pointer);
-          signed int return_value_client_admin$109;
-          return_value_client_admin$109=client_admin(return_value_ClientRealm_get_realmType$106, return_value_ClientRealm_get_masterSslFd$107, buff, temp2, return_value_ClientRealm_get_realmId$108);
-          return return_value_client_admin$109;
+          char return_value_ClientRealm_get_realmType_106;
+          return_value_ClientRealm_get_realmType_106=ClientRealm_get_realmType(pointer);
+          struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_107;
+          return_value_ClientRealm_get_masterSslFd_107=ClientRealm_get_masterSslFd(pointer);
+          char *return_value_ClientRealm_get_realmId_108;
+          return_value_ClientRealm_get_realmId_108=ClientRealm_get_realmId(pointer);
+          signed int return_value_client_admin_109;
+          return_value_client_admin_109=client_admin(return_value_ClientRealm_get_realmType_106, return_value_ClientRealm_get_masterSslFd_107, buff, temp2, return_value_ClientRealm_get_realmId_108);
+          return return_value_client_admin_109;
         }
 
       }
@@ -14179,13 +14179,13 @@ signed int main(signed int argc, char **argv)
       if(temp == 0)
       {
         realmType=ClientRealm_get_realmType(pointer);
-        struct anonymous$3 *return_value_ClientRealm_get_arOptions$111;
-        return_value_ClientRealm_get_arOptions$111=ClientRealm_get_arOptions(pointer);
-        char return_value_ArOptions_get_arStart$112;
-        return_value_ArOptions_get_arStart$112=ArOptions_get_arStart(return_value_ClientRealm_get_arOptions$111);
-        signed int return_value_initialize_client_stage2$113;
-        return_value_initialize_client_stage2$113=initialize_client_stage2(pointer, buff, (char)((signed int)return_value_ArOptions_get_arStart$112 == 1 ? 0 : 1));
-        if(!(return_value_initialize_client_stage2$113 == 0))
+        struct anonymous_3 *return_value_ClientRealm_get_arOptions_111;
+        return_value_ClientRealm_get_arOptions_111=ClientRealm_get_arOptions(pointer);
+        char return_value_ArOptions_get_arStart_112;
+        return_value_ArOptions_get_arStart_112=ArOptions_get_arStart(return_value_ClientRealm_get_arOptions_111);
+        signed int return_value_initialize_client_stage2_113;
+        return_value_initialize_client_stage2_113=initialize_client_stage2(pointer, buff, (char)((signed int)return_value_ArOptions_get_arStart_112 == 1 ? 0 : 1));
+        if(!(return_value_initialize_client_stage2_113 == 0))
           temp = 1;
 
       }
@@ -14194,29 +14194,29 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      signed int return_value_initialize_client_reverse_udp$114;
-      return_value_initialize_client_reverse_udp$114=initialize_client_reverse_udp(pointer);
-      if(!(return_value_initialize_client_reverse_udp$114 == 0))
+      signed int return_value_initialize_client_reverse_udp_114;
+      return_value_initialize_client_reverse_udp_114=initialize_client_reverse_udp(pointer);
+      if(!(return_value_initialize_client_reverse_udp_114 == 0))
         temp = 1;
 
     }
     if(temp == 0)
     {
-      struct anonymous$3 *return_value_ClientRealm_get_arOptions$116;
-      return_value_ClientRealm_get_arOptions$116=ClientRealm_get_arOptions(pointer);
-      char return_value_ArOptions_get_arStart$117;
-      return_value_ArOptions_get_arStart$117=ArOptions_get_arStart(return_value_ClientRealm_get_arOptions$116);
-      signed int return_value_initialize_client_stage3$118;
-      return_value_initialize_client_stage3$118=initialize_client_stage3(pointer, &buflength, &allset, &wset, &maxfdp1, (char)((signed int)return_value_ArOptions_get_arStart$117 == 1 ? 0 : 1));
-      if(!(return_value_initialize_client_stage3$118 == 0))
+      struct anonymous_3 *return_value_ClientRealm_get_arOptions_116;
+      return_value_ClientRealm_get_arOptions_116=ClientRealm_get_arOptions(pointer);
+      char return_value_ArOptions_get_arStart_117;
+      return_value_ArOptions_get_arStart_117=ArOptions_get_arStart(return_value_ClientRealm_get_arOptions_116);
+      signed int return_value_initialize_client_stage3_118;
+      return_value_initialize_client_stage3_118=initialize_client_stage3(pointer, &buflength, &allset, &wset, &maxfdp1, (char)((signed int)return_value_ArOptions_get_arStart_117 == 1 ? 0 : 1));
+      if(!(return_value_initialize_client_stage3_118 == 0))
         temp = 1;
 
     }
 
     if(temp == 0)
     {
-      return_value_ClientRealm_get_clientMode$119=ClientRealm_get_clientMode(pointer);
-      if(return_value_ClientRealm_get_clientMode$119 == 3)
+      return_value_ClientRealm_get_clientMode_119=ClientRealm_get_clientMode(pointer);
+      if(return_value_ClientRealm_get_clientMode_119 == 3)
         client_reverse_udp(pointer, buff, buflength);
 
     }
@@ -14227,11 +14227,11 @@ signed int main(signed int argc, char **argv)
     if(temp == 1 && !(i == 0))
     {
       aflog((char)4, (char)8, "Trying to reconnect...");
-      struct anonymous$3 *return_value_ClientRealm_get_arOptions$120;
-      return_value_ClientRealm_get_arOptions$120=ClientRealm_get_arOptions(pointer);
-      signed int return_value_ArOptions_get_arDelay$121;
-      return_value_ArOptions_get_arDelay$121=ArOptions_get_arDelay(return_value_ClientRealm_get_arOptions$120);
-      mysleep((double)return_value_ArOptions_get_arDelay$121);
+      struct anonymous_3 *return_value_ClientRealm_get_arOptions_120;
+      return_value_ClientRealm_get_arOptions_120=ClientRealm_get_arOptions(pointer);
+      signed int return_value_ArOptions_get_arDelay_121;
+      return_value_ArOptions_get_arDelay_121=ArOptions_get_arDelay(return_value_ClientRealm_get_arOptions_120);
+      mysleep((double)return_value_ArOptions_get_arDelay_121);
       ClientRealm_set_realmType(pointer, realmType);
     }
 
@@ -14240,173 +14240,173 @@ signed int main(signed int argc, char **argv)
 
   }
   while(!(i == 0));
-  signed int return_value_ClientRealm_get_clientMode$122;
-  return_value_ClientRealm_get_clientMode$122=ClientRealm_get_clientMode(pointer);
-  aflog((char)2, (char)8, "CLIENT STARTED mode: %s", return_value_ClientRealm_get_clientMode$122 == 1 ? "udp" : "tcp");
-  char return_value_ClientRealm_get_realmType$123;
-  return_value_ClientRealm_get_realmType$123=ClientRealm_get_realmType(pointer);
-  char return_value_ClientRealm_get_realmType$124;
-  return_value_ClientRealm_get_realmType$124=ClientRealm_get_realmType(pointer);
-  char return_value_ClientRealm_get_realmType$125;
-  return_value_ClientRealm_get_realmType$125=ClientRealm_get_realmType(pointer);
-  _Bool tmp_if_expr$127;
-  char return_value_ClientRealm_get_realmType$126;
-  if(!((1 & (signed int)return_value_ClientRealm_get_realmType$125) == 0))
+  signed int return_value_ClientRealm_get_clientMode_122;
+  return_value_ClientRealm_get_clientMode_122=ClientRealm_get_clientMode(pointer);
+  aflog((char)2, (char)8, "CLIENT STARTED mode: %s", return_value_ClientRealm_get_clientMode_122 == 1 ? "udp" : "tcp");
+  char return_value_ClientRealm_get_realmType_123;
+  return_value_ClientRealm_get_realmType_123=ClientRealm_get_realmType(pointer);
+  char return_value_ClientRealm_get_realmType_124;
+  return_value_ClientRealm_get_realmType_124=ClientRealm_get_realmType(pointer);
+  char return_value_ClientRealm_get_realmType_125;
+  return_value_ClientRealm_get_realmType_125=ClientRealm_get_realmType(pointer);
+  _Bool tmp_if_expr_127;
+  char return_value_ClientRealm_get_realmType_126;
+  if(!((1 & (signed int)return_value_ClientRealm_get_realmType_125) == 0))
   {
-    return_value_ClientRealm_get_realmType$126=ClientRealm_get_realmType(pointer);
-    tmp_if_expr$127 = !(((signed int)return_value_ClientRealm_get_realmType$126 & 2) != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_ClientRealm_get_realmType_126=ClientRealm_get_realmType(pointer);
+    tmp_if_expr_127 = !(((signed int)return_value_ClientRealm_get_realmType_126 & 2) != 0) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$127 = (_Bool)0;
-  aflog((char)2, (char)8, "SERVER SSL: %s, ZLIB: %s, MODE: %s", ((signed int)return_value_ClientRealm_get_realmType$123 & 4) != 0 ? "yes" : "no", ((signed int)return_value_ClientRealm_get_realmType$124 & 8) != 0 ? "yes" : "no", tmp_if_expr$127 ? "tcp" : "udp");
-  char return_value_ClientRealm_get_realmType$128;
-  return_value_ClientRealm_get_realmType$128=ClientRealm_get_realmType(pointer);
-  aflog((char)2, (char)8, "SERVER MULTI: %s", ((signed int)return_value_ClientRealm_get_realmType$128 & 64) != 0 ? "yes" : "no");
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$129;
-  return_value_ClientRealm_get_masterSslFd$129=ClientRealm_get_masterSslFd(pointer);
-  struct ssl_st *return_value_SslFd_get_ssl$130;
-  return_value_SslFd_get_ssl$130=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd$129);
-  const struct ssl_cipher_st *return_value_SSL_get_current_cipher$131;
-  return_value_SSL_get_current_cipher$131=SSL_get_current_cipher(return_value_SslFd_get_ssl$130);
-  const char *return_value_SSL_CIPHER_get_name$132;
-  return_value_SSL_CIPHER_get_name$132=SSL_CIPHER_get_name(return_value_SSL_get_current_cipher$131);
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$133;
-  return_value_ClientRealm_get_masterSslFd$133=ClientRealm_get_masterSslFd(pointer);
-  struct ssl_st *return_value_SslFd_get_ssl$134;
-  return_value_SslFd_get_ssl$134=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd$133);
-  const struct ssl_cipher_st *return_value_SSL_get_current_cipher$135;
-  return_value_SSL_get_current_cipher$135=SSL_get_current_cipher(return_value_SslFd_get_ssl$134);
-  char *return_value_SSL_CIPHER_get_version$136;
-  return_value_SSL_CIPHER_get_version$136=SSL_CIPHER_get_version(return_value_SSL_get_current_cipher$135);
-  aflog((char)2, (char)16, "CIPHER: %s VER: %s", return_value_SSL_CIPHER_get_name$132, return_value_SSL_CIPHER_get_version$136);
-  struct anonymous$6 *return_value_ClientRealm_get_userModule$141;
-  return_value_ClientRealm_get_userModule$141=ClientRealm_get_userModule(pointer);
-  signed int return_value_Module_isModuleLoaded$142;
-  return_value_Module_isModuleLoaded$142=Module_isModuleLoaded(return_value_ClientRealm_get_userModule$141);
-  if(!(return_value_Module_isModuleLoaded$142 == 0))
+    tmp_if_expr_127 = (_Bool)0;
+  aflog((char)2, (char)8, "SERVER SSL: %s, ZLIB: %s, MODE: %s", ((signed int)return_value_ClientRealm_get_realmType_123 & 4) != 0 ? "yes" : "no", ((signed int)return_value_ClientRealm_get_realmType_124 & 8) != 0 ? "yes" : "no", tmp_if_expr_127 ? "tcp" : "udp");
+  char return_value_ClientRealm_get_realmType_128;
+  return_value_ClientRealm_get_realmType_128=ClientRealm_get_realmType(pointer);
+  aflog((char)2, (char)8, "SERVER MULTI: %s", ((signed int)return_value_ClientRealm_get_realmType_128 & 64) != 0 ? "yes" : "no");
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_129;
+  return_value_ClientRealm_get_masterSslFd_129=ClientRealm_get_masterSslFd(pointer);
+  struct ssl_st *return_value_SslFd_get_ssl_130;
+  return_value_SslFd_get_ssl_130=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd_129);
+  const struct ssl_cipher_st *return_value_SSL_get_current_cipher_131;
+  return_value_SSL_get_current_cipher_131=SSL_get_current_cipher(return_value_SslFd_get_ssl_130);
+  const char *return_value_SSL_CIPHER_get_name_132;
+  return_value_SSL_CIPHER_get_name_132=SSL_CIPHER_get_name(return_value_SSL_get_current_cipher_131);
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_133;
+  return_value_ClientRealm_get_masterSslFd_133=ClientRealm_get_masterSslFd(pointer);
+  struct ssl_st *return_value_SslFd_get_ssl_134;
+  return_value_SslFd_get_ssl_134=SslFd_get_ssl(return_value_ClientRealm_get_masterSslFd_133);
+  const struct ssl_cipher_st *return_value_SSL_get_current_cipher_135;
+  return_value_SSL_get_current_cipher_135=SSL_get_current_cipher(return_value_SslFd_get_ssl_134);
+  char *return_value_SSL_CIPHER_get_version_136;
+  return_value_SSL_CIPHER_get_version_136=SSL_CIPHER_get_version(return_value_SSL_get_current_cipher_135);
+  aflog((char)2, (char)16, "CIPHER: %s VER: %s", return_value_SSL_CIPHER_get_name_132, return_value_SSL_CIPHER_get_version_136);
+  struct anonymous_6 *return_value_ClientRealm_get_userModule_141;
+  return_value_ClientRealm_get_userModule_141=ClientRealm_get_userModule(pointer);
+  signed int return_value_Module_isModuleLoaded_142;
+  return_value_Module_isModuleLoaded_142=Module_isModuleLoaded(return_value_ClientRealm_get_userModule_141);
+  if(!(return_value_Module_isModuleLoaded_142 == 0))
   {
-    struct anonymous$6 *return_value_ClientRealm_get_userModule$137;
-    return_value_ClientRealm_get_userModule$137=ClientRealm_get_userModule(pointer);
-    char *return_value_Module_get_fileName$138;
-    return_value_Module_get_fileName$138=Module_get_fileName(return_value_ClientRealm_get_userModule$137);
-    struct anonymous$6 *return_value_ClientRealm_get_userModule$139;
-    return_value_ClientRealm_get_userModule$139=ClientRealm_get_userModule(pointer);
-    char *return_value_Module_function_info$140;
-    return_value_Module_function_info$140=Module_function_info(return_value_ClientRealm_get_userModule$139);
-    aflog((char)2, (char)8, "LOADED MODULE: %s INFO: %s", return_value_Module_get_fileName$138, return_value_Module_function_info$140);
+    struct anonymous_6 *return_value_ClientRealm_get_userModule_137;
+    return_value_ClientRealm_get_userModule_137=ClientRealm_get_userModule(pointer);
+    char *return_value_Module_get_fileName_138;
+    return_value_Module_get_fileName_138=Module_get_fileName(return_value_ClientRealm_get_userModule_137);
+    struct anonymous_6 *return_value_ClientRealm_get_userModule_139;
+    return_value_ClientRealm_get_userModule_139=ClientRealm_get_userModule(pointer);
+    char *return_value_Module_function_info_140;
+    return_value_Module_function_info_140=Module_function_info(return_value_ClientRealm_get_userModule_139);
+    aflog((char)2, (char)8, "LOADED MODULE: %s INFO: %s", return_value_Module_get_fileName_138, return_value_Module_function_info_140);
   }
 
-  struct anonymous$6 *return_value_ClientRealm_get_serviceModule$147;
-  return_value_ClientRealm_get_serviceModule$147=ClientRealm_get_serviceModule(pointer);
-  signed int return_value_Module_isModuleLoaded$148;
-  return_value_Module_isModuleLoaded$148=Module_isModuleLoaded(return_value_ClientRealm_get_serviceModule$147);
-  if(!(return_value_Module_isModuleLoaded$148 == 0))
+  struct anonymous_6 *return_value_ClientRealm_get_serviceModule_147;
+  return_value_ClientRealm_get_serviceModule_147=ClientRealm_get_serviceModule(pointer);
+  signed int return_value_Module_isModuleLoaded_148;
+  return_value_Module_isModuleLoaded_148=Module_isModuleLoaded(return_value_ClientRealm_get_serviceModule_147);
+  if(!(return_value_Module_isModuleLoaded_148 == 0))
   {
-    struct anonymous$6 *return_value_ClientRealm_get_serviceModule$143;
-    return_value_ClientRealm_get_serviceModule$143=ClientRealm_get_serviceModule(pointer);
-    char *return_value_Module_get_fileName$144;
-    return_value_Module_get_fileName$144=Module_get_fileName(return_value_ClientRealm_get_serviceModule$143);
-    struct anonymous$6 *return_value_ClientRealm_get_serviceModule$145;
-    return_value_ClientRealm_get_serviceModule$145=ClientRealm_get_serviceModule(pointer);
-    char *return_value_Module_function_info$146;
-    return_value_Module_function_info$146=Module_function_info(return_value_ClientRealm_get_serviceModule$145);
-    aflog((char)2, (char)8, "LOADED MODULE (ser): %s INFO: %s", return_value_Module_get_fileName$144, return_value_Module_function_info$146);
+    struct anonymous_6 *return_value_ClientRealm_get_serviceModule_143;
+    return_value_ClientRealm_get_serviceModule_143=ClientRealm_get_serviceModule(pointer);
+    char *return_value_Module_get_fileName_144;
+    return_value_Module_get_fileName_144=Module_get_fileName(return_value_ClientRealm_get_serviceModule_143);
+    struct anonymous_6 *return_value_ClientRealm_get_serviceModule_145;
+    return_value_ClientRealm_get_serviceModule_145=ClientRealm_get_serviceModule(pointer);
+    char *return_value_Module_function_info_146;
+    return_value_Module_function_info_146=Module_function_info(return_value_ClientRealm_get_serviceModule_145);
+    aflog((char)2, (char)8, "LOADED MODULE (ser): %s INFO: %s", return_value_Module_get_fileName_144, return_value_Module_function_info_146);
   }
 
   ClientRealm_send_realmId(pointer, buff);
   ClientRealm_enable_multi(pointer);
-  signed int return_value_ClientRealm_get_usersLimit$155;
-  _Bool tmp_if_expr$212;
-  char return_value_ConnectUser_get_state$211;
-  _Bool tmp_if_expr$214;
-  char return_value_ConnectUser_get_state$213;
-  signed int return_value_ConnectUser_get_connFd$174;
-  signed int return_value_ConnectUser_get_connFd$175;
-  signed int return_value_ConnectUser_get_connFd$176;
-  signed int return_value_ConnectUser_get_connFd$177;
-  signed int return_value_ConnectUser_get_connFd$178;
-  signed int return_value_ConnectUser_get_connFd$179;
-  struct buflist *return_value_ConnectUser_get_bufList$180;
-  char return_value_ClientRealm_get_realmType$181;
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$182;
-  struct anonymous$6 *return_value_ClientRealm_get_serviceModule$188;
-  char *return_value_Module_get_fileName$189;
-  struct anonymous$6 *return_value_ClientRealm_get_serviceModule$190;
-  char *return_value_Module_function_info$191;
-  struct anonymous$6 *return_value_ClientRealm_get_serviceModule$192;
-  signed int return_value_ClientRealm_get_clientMode$207;
-  signed int return_value_ClientRealm_get_usersLimit$215;
-  _Bool tmp_if_expr$259;
-  char return_value_ConnectUser_get_state$258;
-  _Bool tmp_if_expr$254;
-  signed int *return_value___errno_location$253;
-  signed int return_value_ClientRealm_get_usersLimit$288;
-  char return_value_ConnectUser_get_state$286;
-  char return_value_ConnectUser_get_state$285;
-  signed int return_value_ClientRealm_get_usersLimit$330;
-  struct anonymous$6 *return_value_ClientRealm_get_userModule$295;
-  char *return_value_ConnectUser_get_nameBuf$296;
-  char *return_value_ConnectUser_get_portBuf$297;
-  signed int return_value_Module_function_allow$298;
-  char return_value_ClientRealm_get_realmType$302;
-  signed int tmp_if_expr$326;
-  signed int return_value_ConnectUser_get_connFd$325;
-  char return_value_ClientRealm_get_realmType$331;
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$332;
-  signed int return_value_ClientRealm_get_usersLimit$390;
-  signed int return_value_ConnectUser_get_connFd$340;
-  signed int return_value_ConnectUser_get_connFd$341;
-  signed int return_value_ConnectUser_get_connFd$342;
-  signed int return_value_ConnectUser_get_connFd$343;
-  signed int return_value_ConnectUser_get_connFd$344;
-  signed int return_value_ConnectUser_get_connFd$345;
-  struct buflist *return_value_ConnectUser_get_bufList$346;
-  char return_value_ClientRealm_get_realmType$347;
-  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$348;
-  struct anonymous$6 *return_value_ClientRealm_get_userModule$354;
-  char *return_value_Module_get_fileName$355;
-  struct anonymous$6 *return_value_ClientRealm_get_userModule$356;
-  char *return_value_Module_function_info$357;
-  struct anonymous$6 *return_value_ClientRealm_get_userModule$358;
-  _Bool tmp_if_expr$385;
-  signed int *return_value___errno_location$384;
-  char return_value_ConnectUser_get_state$388;
-  struct anonymous$3 *return_value_ClientRealm_get_arOptions$391;
-  struct anonymous$3 *return_value_ClientRealm_get_arOptions$392;
-  char return_value_ArOptions_get_arQuit$393;
-  char return_value_ConnectUser_get_state$406;
-  _Bool tmp_if_expr$408;
-  char return_value_ConnectUser_get_state$407;
-  char return_value_ConnectUser_get_state$411;
-  _Bool tmp_if_expr$413;
-  char return_value_ConnectUser_get_state$412;
-  signed long int return_value_getcg$414;
+  signed int return_value_ClientRealm_get_usersLimit_155;
+  _Bool tmp_if_expr_212;
+  char return_value_ConnectUser_get_state_211;
+  _Bool tmp_if_expr_214;
+  char return_value_ConnectUser_get_state_213;
+  signed int return_value_ConnectUser_get_connFd_174;
+  signed int return_value_ConnectUser_get_connFd_175;
+  signed int return_value_ConnectUser_get_connFd_176;
+  signed int return_value_ConnectUser_get_connFd_177;
+  signed int return_value_ConnectUser_get_connFd_178;
+  signed int return_value_ConnectUser_get_connFd_179;
+  struct buflist *return_value_ConnectUser_get_bufList_180;
+  char return_value_ClientRealm_get_realmType_181;
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_182;
+  struct anonymous_6 *return_value_ClientRealm_get_serviceModule_188;
+  char *return_value_Module_get_fileName_189;
+  struct anonymous_6 *return_value_ClientRealm_get_serviceModule_190;
+  char *return_value_Module_function_info_191;
+  struct anonymous_6 *return_value_ClientRealm_get_serviceModule_192;
+  signed int return_value_ClientRealm_get_clientMode_207;
+  signed int return_value_ClientRealm_get_usersLimit_215;
+  _Bool tmp_if_expr_259;
+  char return_value_ConnectUser_get_state_258;
+  _Bool tmp_if_expr_254;
+  signed int *return_value___errno_location_253;
+  signed int return_value_ClientRealm_get_usersLimit_288;
+  char return_value_ConnectUser_get_state_286;
+  char return_value_ConnectUser_get_state_285;
+  signed int return_value_ClientRealm_get_usersLimit_330;
+  struct anonymous_6 *return_value_ClientRealm_get_userModule_295;
+  char *return_value_ConnectUser_get_nameBuf_296;
+  char *return_value_ConnectUser_get_portBuf_297;
+  signed int return_value_Module_function_allow_298;
+  char return_value_ClientRealm_get_realmType_302;
+  signed int tmp_if_expr_326;
+  signed int return_value_ConnectUser_get_connFd_325;
+  char return_value_ClientRealm_get_realmType_331;
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_332;
+  signed int return_value_ClientRealm_get_usersLimit_390;
+  signed int return_value_ConnectUser_get_connFd_340;
+  signed int return_value_ConnectUser_get_connFd_341;
+  signed int return_value_ConnectUser_get_connFd_342;
+  signed int return_value_ConnectUser_get_connFd_343;
+  signed int return_value_ConnectUser_get_connFd_344;
+  signed int return_value_ConnectUser_get_connFd_345;
+  struct buflist *return_value_ConnectUser_get_bufList_346;
+  char return_value_ClientRealm_get_realmType_347;
+  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_348;
+  struct anonymous_6 *return_value_ClientRealm_get_userModule_354;
+  char *return_value_Module_get_fileName_355;
+  struct anonymous_6 *return_value_ClientRealm_get_userModule_356;
+  char *return_value_Module_function_info_357;
+  struct anonymous_6 *return_value_ClientRealm_get_userModule_358;
+  _Bool tmp_if_expr_385;
+  signed int *return_value___errno_location_384;
+  char return_value_ConnectUser_get_state_388;
+  struct anonymous_3 *return_value_ClientRealm_get_arOptions_391;
+  struct anonymous_3 *return_value_ClientRealm_get_arOptions_392;
+  char return_value_ArOptions_get_arQuit_393;
+  char return_value_ConnectUser_get_state_406;
+  _Bool tmp_if_expr_408;
+  char return_value_ConnectUser_get_state_407;
+  char return_value_ConnectUser_get_state_411;
+  _Bool tmp_if_expr_413;
+  char return_value_ConnectUser_get_state_412;
+  signed long int return_value_getcg_414;
   do
   {
     rset = allset;
     tmpset = wset;
     aflog((char)16, (char)4, "select");
-    char *return_value_ClientRealm_get_sKeepAliveTimeout$154;
-    return_value_ClientRealm_get_sKeepAliveTimeout$154=ClientRealm_get_sKeepAliveTimeout(pointer);
-    if(!(return_value_ClientRealm_get_sKeepAliveTimeout$154 == ((char *)NULL)))
+    char *return_value_ClientRealm_get_sKeepAliveTimeout_154;
+    return_value_ClientRealm_get_sKeepAliveTimeout_154=ClientRealm_get_sKeepAliveTimeout(pointer);
+    if(!(return_value_ClientRealm_get_sKeepAliveTimeout_154 == ((char *)NULL)))
     {
-      struct timeval *return_value_ClientRealm_get_keepAlivePointer$152;
-      return_value_ClientRealm_get_keepAlivePointer$152=ClientRealm_get_keepAlivePointer(pointer);
-      signed int return_value_select$153;
-      return_value_select$153=select(maxfdp1, &rset, &tmpset, (struct anonymous$11 *)(void *)0, return_value_ClientRealm_get_keepAlivePointer$152);
-      if(return_value_select$153 == 0)
+      struct timeval *return_value_ClientRealm_get_keepAlivePointer_152;
+      return_value_ClientRealm_get_keepAlivePointer_152=ClientRealm_get_keepAlivePointer(pointer);
+      signed int return_value_select_153;
+      return_value_select_153=select(maxfdp1, &rset, &tmpset, (struct anonymous_11 *)(void *)0, return_value_ClientRealm_get_keepAlivePointer_152);
+      if(return_value_select_153 == 0)
       {
         aflog((char)2, (char)2, "timeout: sending keep-alive packet");
         buff[(signed long int)0] = (unsigned char)16;
-        char return_value_ClientRealm_get_realmType$149;
-        return_value_ClientRealm_get_realmType$149=ClientRealm_get_realmType(pointer);
-        struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$150;
-        return_value_ClientRealm_get_masterSslFd$150=ClientRealm_get_masterSslFd(pointer);
-        SslFd_send_message(return_value_ClientRealm_get_realmType$149, return_value_ClientRealm_get_masterSslFd$150, buff, 5);
-        signed int return_value_ClientRealm_get_keepAliveTimeout$151;
-        return_value_ClientRealm_get_keepAliveTimeout$151=ClientRealm_get_keepAliveTimeout(pointer);
-        keepAlive.tv_sec = (signed long int)return_value_ClientRealm_get_keepAliveTimeout$151;
+        char return_value_ClientRealm_get_realmType_149;
+        return_value_ClientRealm_get_realmType_149=ClientRealm_get_realmType(pointer);
+        struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_150;
+        return_value_ClientRealm_get_masterSslFd_150=ClientRealm_get_masterSslFd(pointer);
+        SslFd_send_message(return_value_ClientRealm_get_realmType_149, return_value_ClientRealm_get_masterSslFd_150, buff, 5);
+        signed int return_value_ClientRealm_get_keepAliveTimeout_151;
+        return_value_ClientRealm_get_keepAliveTimeout_151=ClientRealm_get_keepAliveTimeout(pointer);
+        keepAlive.tv_sec = (signed long int)return_value_ClientRealm_get_keepAliveTimeout_151;
         keepAlive.tv_usec = (signed long int)0;
         ClientRealm_set_keepAlive(pointer, keepAlive);
       }
@@ -14414,85 +14414,85 @@ signed int main(signed int argc, char **argv)
     }
 
     else
-      select(maxfdp1, &rset, &tmpset, (struct anonymous$11 *)(void *)0, (struct timeval *)(void *)0);
+      select(maxfdp1, &rset, &tmpset, (struct anonymous_11 *)(void *)0, (struct timeval *)(void *)0);
     aflog((char)16, (char)4, "after select...");
     usersTable=ClientRealm_get_usersTable(pointer);
     i = 0;
     do
     {
-      return_value_ClientRealm_get_usersLimit$155=ClientRealm_get_usersLimit(pointer);
-      if(i >= return_value_ClientRealm_get_usersLimit$155)
+      return_value_ClientRealm_get_usersLimit_155=ClientRealm_get_usersLimit(pointer);
+      if(i >= return_value_ClientRealm_get_usersLimit_155)
         break;
 
-      char return_value_ConnectUser_get_state$210;
-      return_value_ConnectUser_get_state$210=ConnectUser_get_state(usersTable[(signed long int)i]);
-      if((signed int)return_value_ConnectUser_get_state$210 == 7)
-        tmp_if_expr$212 = (_Bool)1;
+      char return_value_ConnectUser_get_state_210;
+      return_value_ConnectUser_get_state_210=ConnectUser_get_state(usersTable[(signed long int)i]);
+      if((signed int)return_value_ConnectUser_get_state_210 == 7)
+        tmp_if_expr_212 = (_Bool)1;
 
       else
       {
-        return_value_ConnectUser_get_state$211=ConnectUser_get_state(usersTable[(signed long int)i]);
-        tmp_if_expr$212 = (signed int)return_value_ConnectUser_get_state$211 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value_ConnectUser_get_state_211=ConnectUser_get_state(usersTable[(signed long int)i]);
+        tmp_if_expr_212 = (signed int)return_value_ConnectUser_get_state_211 == 11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$212)
-        tmp_if_expr$214 = (_Bool)1;
+      if(tmp_if_expr_212)
+        tmp_if_expr_214 = (_Bool)1;
 
       else
       {
-        return_value_ConnectUser_get_state$213=ConnectUser_get_state(usersTable[(signed long int)i]);
-        tmp_if_expr$214 = (signed int)return_value_ConnectUser_get_state$213 == 19 ? (_Bool)1 : (_Bool)0;
+        return_value_ConnectUser_get_state_213=ConnectUser_get_state(usersTable[(signed long int)i]);
+        tmp_if_expr_214 = (signed int)return_value_ConnectUser_get_state_213 == 19 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$214)
+      if(tmp_if_expr_214)
       {
-        signed int return_value_ConnectUser_get_connFd$208;
-        return_value_ConnectUser_get_connFd$208=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-        signed int return_value_ConnectUser_get_connFd$209;
-        return_value_ConnectUser_get_connFd$209=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-        if(!((rset.__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$208 / 8)] & 1l << return_value_ConnectUser_get_connFd$209 % 8) == 0l))
+        signed int return_value_ConnectUser_get_connFd_208;
+        return_value_ConnectUser_get_connFd_208=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+        signed int return_value_ConnectUser_get_connFd_209;
+        return_value_ConnectUser_get_connFd_209=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+        if(!((rset.__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_208 / 8)] & 1l << return_value_ConnectUser_get_connFd_209 % 8) == 0l))
         {
           aflog((char)1, (char)4, "user[%d]: FD_ISSET", i);
-          signed int return_value_ConnectUser_get_connFd$156;
-          return_value_ConnectUser_get_connFd$156=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-          signed long int return_value_read$157;
-          return_value_read$157=read(return_value_ConnectUser_get_connFd$156, (void *)&buff[(signed long int)5], (unsigned long int)8091);
-          n = (signed int)return_value_read$157;
+          signed int return_value_ConnectUser_get_connFd_156;
+          return_value_ConnectUser_get_connFd_156=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+          signed long int return_value_read_157;
+          return_value_read_157=read(return_value_ConnectUser_get_connFd_156, (void *)&buff[(signed long int)5], (unsigned long int)8091);
+          n = (signed int)return_value_read_157;
           if(n == -1)
           {
-            signed int *return_value___errno_location$158;
-            return_value___errno_location$158=__errno_location();
-            if(*return_value___errno_location$158 == 11)
+            signed int *return_value___errno_location_158;
+            return_value___errno_location_158=__errno_location();
+            if(*return_value___errno_location_158 == 11)
               goto __CPROVER_DUMP_L190;
 
-            signed int *return_value___errno_location$159;
-            return_value___errno_location$159=__errno_location();
-            aflog((char)1, (char)64, "error (%d): while reading from service", *return_value___errno_location$159);
+            signed int *return_value___errno_location_159;
+            return_value___errno_location_159=__errno_location();
+            aflog((char)1, (char)64, "error (%d): while reading from service", *return_value___errno_location_159);
             n = 0;
           }
 
-          struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$160;
-          return_value_ClientRealm_get_masterSslFd$160=ClientRealm_get_masterSslFd(pointer);
-          signed int return_value_SslFd_get_fd$161;
-          return_value_SslFd_get_fd$161=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$160);
-          signed int return_value_ioctl$162;
-          return_value_ioctl$162=ioctl(return_value_SslFd_get_fd$161, (unsigned long int)0x5411, &notsent);
-          if(!(return_value_ioctl$162 == 0))
+          struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_160;
+          return_value_ClientRealm_get_masterSslFd_160=ClientRealm_get_masterSslFd(pointer);
+          signed int return_value_SslFd_get_fd_161;
+          return_value_SslFd_get_fd_161=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_160);
+          signed int return_value_ioctl_162;
+          return_value_ioctl_162=ioctl(return_value_SslFd_get_fd_161, (unsigned long int)0x5411, &notsent);
+          if(!(return_value_ioctl_162 == 0))
           {
             aflog((char)1, (char)1, "ioctl error -> exiting...");
             exit(1);
           }
 
-          signed int return_value_ClientRealm_get_clientMode$166;
-          return_value_ClientRealm_get_clientMode$166=ClientRealm_get_clientMode(pointer);
-          if(return_value_ClientRealm_get_clientMode$166 == 1)
+          signed int return_value_ClientRealm_get_clientMode_166;
+          return_value_ClientRealm_get_clientMode_166=ClientRealm_get_clientMode(pointer);
+          if(return_value_ClientRealm_get_clientMode_166 == 1)
           {
             aLength = (unsigned int)4;
-            struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$163;
-            return_value_ClientRealm_get_masterSslFd$163=ClientRealm_get_masterSslFd(pointer);
-            signed int return_value_SslFd_get_fd$164;
-            return_value_SslFd_get_fd$164=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$163);
-            signed int return_value_getsockopt$165;
-            return_value_getsockopt$165=getsockopt(return_value_SslFd_get_fd$164, 1, 7, (void *)&temp2, &aLength);
-            if(!(return_value_getsockopt$165 == -1))
+            struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_163;
+            return_value_ClientRealm_get_masterSslFd_163=ClientRealm_get_masterSslFd(pointer);
+            signed int return_value_SslFd_get_fd_164;
+            return_value_SslFd_get_fd_164=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_163);
+            signed int return_value_getsockopt_165;
+            return_value_getsockopt_165=getsockopt(return_value_SslFd_get_fd_164, 1, 7, (void *)&temp2, &aLength);
+            if(!(return_value_getsockopt_165 == -1))
             {
               if(!(temp2 == buflength))
               {
@@ -14512,17 +14512,17 @@ signed int main(signed int argc, char **argv)
 
           if(!(n == 0))
           {
-            struct anonymous$6 *return_value_ClientRealm_get_serviceModule$193;
-            return_value_ClientRealm_get_serviceModule$193=ClientRealm_get_serviceModule(pointer);
-            signed int return_value_Module_isModuleLoaded$194;
-            return_value_Module_isModuleLoaded$194=Module_isModuleLoaded(return_value_ClientRealm_get_serviceModule$193);
-            if(!(return_value_Module_isModuleLoaded$194 == 0))
+            struct anonymous_6 *return_value_ClientRealm_get_serviceModule_193;
+            return_value_ClientRealm_get_serviceModule_193=ClientRealm_get_serviceModule(pointer);
+            signed int return_value_Module_isModuleLoaded_194;
+            return_value_Module_isModuleLoaded_194=Module_isModuleLoaded(return_value_ClientRealm_get_serviceModule_193);
+            if(!(return_value_Module_isModuleLoaded_194 == 0))
             {
-              struct anonymous$6 *return_value_ClientRealm_get_serviceModule$167;
-              return_value_ClientRealm_get_serviceModule$167=ClientRealm_get_serviceModule(pointer);
-              char *return_value_ConnectUser_get_nameBuf$168;
-              return_value_ConnectUser_get_nameBuf$168=ConnectUser_get_nameBuf(usersTable[(signed long int)i]);
-              temp2=Module_function_filter(return_value_ClientRealm_get_serviceModule$167, return_value_ConnectUser_get_nameBuf$168, &buff[(signed long int)5], &n);
+              struct anonymous_6 *return_value_ClientRealm_get_serviceModule_167;
+              return_value_ClientRealm_get_serviceModule_167=ClientRealm_get_serviceModule(pointer);
+              char *return_value_ConnectUser_get_nameBuf_168;
+              return_value_ConnectUser_get_nameBuf_168=ConnectUser_get_nameBuf(usersTable[(signed long int)i]);
+              temp2=Module_function_filter(return_value_ClientRealm_get_serviceModule_167, return_value_ConnectUser_get_nameBuf_168, &buff[(signed long int)5], &n);
               switch(temp2)
               {
                 case 1:
@@ -14532,18 +14532,18 @@ signed int main(signed int argc, char **argv)
                   aflog((char)1, (char)32, "user[%d] (by ser): PACKET IGNORED BY MODULE", i);
                   if(temp2 == 4)
                   {
-                    struct anonymous$6 *return_value_ClientRealm_get_serviceModule$169;
-                    return_value_ClientRealm_get_serviceModule$169=ClientRealm_get_serviceModule(pointer);
-                    char *return_value_Module_get_fileName$170;
-                    return_value_Module_get_fileName$170=Module_get_fileName(return_value_ClientRealm_get_serviceModule$169);
-                    struct anonymous$6 *return_value_ClientRealm_get_serviceModule$171;
-                    return_value_ClientRealm_get_serviceModule$171=ClientRealm_get_serviceModule(pointer);
-                    char *return_value_Module_function_info$172;
-                    return_value_Module_function_info$172=Module_function_info(return_value_ClientRealm_get_serviceModule$171);
-                    aflog((char)16, (char)8, "RELEASED MODULE (ser): %s INFO: %s", return_value_Module_get_fileName$170, return_value_Module_function_info$172);
-                    struct anonymous$6 *return_value_ClientRealm_get_serviceModule$173;
-                    return_value_ClientRealm_get_serviceModule$173=ClientRealm_get_serviceModule(pointer);
-                    Module_releaseModule(return_value_ClientRealm_get_serviceModule$173);
+                    struct anonymous_6 *return_value_ClientRealm_get_serviceModule_169;
+                    return_value_ClientRealm_get_serviceModule_169=ClientRealm_get_serviceModule(pointer);
+                    char *return_value_Module_get_fileName_170;
+                    return_value_Module_get_fileName_170=Module_get_fileName(return_value_ClientRealm_get_serviceModule_169);
+                    struct anonymous_6 *return_value_ClientRealm_get_serviceModule_171;
+                    return_value_ClientRealm_get_serviceModule_171=ClientRealm_get_serviceModule(pointer);
+                    char *return_value_Module_function_info_172;
+                    return_value_Module_function_info_172=Module_function_info(return_value_ClientRealm_get_serviceModule_171);
+                    aflog((char)16, (char)8, "RELEASED MODULE (ser): %s INFO: %s", return_value_Module_get_fileName_170, return_value_Module_function_info_172);
+                    struct anonymous_6 *return_value_ClientRealm_get_serviceModule_173;
+                    return_value_ClientRealm_get_serviceModule_173=ClientRealm_get_serviceModule(pointer);
+                    Module_releaseModule(return_value_ClientRealm_get_serviceModule_173);
                   }
 
                   goto __CPROVER_DUMP_L190;
@@ -14553,52 +14553,52 @@ signed int main(signed int argc, char **argv)
                 case 5:
                 {
                   aflog((char)1, (char)16, "user[%d] (by ser): DROPPED BY MODULE", i);
-                  return_value_ConnectUser_get_connFd$174=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                  close(return_value_ConnectUser_get_connFd$174);
-                  return_value_ConnectUser_get_connFd$175=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                  aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", i, return_value_ConnectUser_get_connFd$175);
-                  return_value_ConnectUser_get_connFd$176=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                  return_value_ConnectUser_get_connFd$177=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                  (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$176 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$176 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$177 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-                  return_value_ConnectUser_get_connFd$178=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                  return_value_ConnectUser_get_connFd$179=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                  (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$178 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$178 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$179 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                  return_value_ConnectUser_get_connFd_174=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                  close(return_value_ConnectUser_get_connFd_174);
+                  return_value_ConnectUser_get_connFd_175=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                  aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", i, return_value_ConnectUser_get_connFd_175);
+                  return_value_ConnectUser_get_connFd_176=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                  return_value_ConnectUser_get_connFd_177=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                  (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_176 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_176 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_177 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                  return_value_ConnectUser_get_connFd_178=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                  return_value_ConnectUser_get_connFd_179=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                  (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_178 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_178 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_179 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
                   ConnectUser_set_state(usersTable[(signed long int)i], (char)5);
-                  return_value_ConnectUser_get_bufList$180=ConnectUser_get_bufList(usersTable[(signed long int)i]);
-                  BufList_clear(return_value_ConnectUser_get_bufList$180);
+                  return_value_ConnectUser_get_bufList_180=ConnectUser_get_bufList(usersTable[(signed long int)i]);
+                  BufList_clear(return_value_ConnectUser_get_bufList_180);
                   buff[(signed long int)0] = (unsigned char)1;
                   buff[(signed long int)1] = (unsigned char)(i >> 8);
                   buff[(signed long int)2] = (unsigned char)i;
-                  return_value_ClientRealm_get_realmType$181=ClientRealm_get_realmType(pointer);
-                  return_value_ClientRealm_get_masterSslFd$182=ClientRealm_get_masterSslFd(pointer);
-                  SslFd_send_message(return_value_ClientRealm_get_realmType$181, return_value_ClientRealm_get_masterSslFd$182, buff, 5);
+                  return_value_ClientRealm_get_realmType_181=ClientRealm_get_realmType(pointer);
+                  return_value_ClientRealm_get_masterSslFd_182=ClientRealm_get_masterSslFd(pointer);
+                  SslFd_send_message(return_value_ClientRealm_get_realmType_181, return_value_ClientRealm_get_masterSslFd_182, buff, 5);
                   if(temp2 == 5)
                   {
-                    struct anonymous$6 *return_value_ClientRealm_get_serviceModule$183;
-                    return_value_ClientRealm_get_serviceModule$183=ClientRealm_get_serviceModule(pointer);
-                    char *return_value_Module_get_fileName$184;
-                    return_value_Module_get_fileName$184=Module_get_fileName(return_value_ClientRealm_get_serviceModule$183);
-                    struct anonymous$6 *return_value_ClientRealm_get_serviceModule$185;
-                    return_value_ClientRealm_get_serviceModule$185=ClientRealm_get_serviceModule(pointer);
-                    char *return_value_Module_function_info$186;
-                    return_value_Module_function_info$186=Module_function_info(return_value_ClientRealm_get_serviceModule$185);
-                    aflog((char)16, (char)8, "RELEASED MODULE (ser): %s INFO: %s", return_value_Module_get_fileName$184, return_value_Module_function_info$186);
-                    struct anonymous$6 *return_value_ClientRealm_get_serviceModule$187;
-                    return_value_ClientRealm_get_serviceModule$187=ClientRealm_get_serviceModule(pointer);
-                    Module_releaseModule(return_value_ClientRealm_get_serviceModule$187);
+                    struct anonymous_6 *return_value_ClientRealm_get_serviceModule_183;
+                    return_value_ClientRealm_get_serviceModule_183=ClientRealm_get_serviceModule(pointer);
+                    char *return_value_Module_get_fileName_184;
+                    return_value_Module_get_fileName_184=Module_get_fileName(return_value_ClientRealm_get_serviceModule_183);
+                    struct anonymous_6 *return_value_ClientRealm_get_serviceModule_185;
+                    return_value_ClientRealm_get_serviceModule_185=ClientRealm_get_serviceModule(pointer);
+                    char *return_value_Module_function_info_186;
+                    return_value_Module_function_info_186=Module_function_info(return_value_ClientRealm_get_serviceModule_185);
+                    aflog((char)16, (char)8, "RELEASED MODULE (ser): %s INFO: %s", return_value_Module_get_fileName_184, return_value_Module_function_info_186);
+                    struct anonymous_6 *return_value_ClientRealm_get_serviceModule_187;
+                    return_value_ClientRealm_get_serviceModule_187=ClientRealm_get_serviceModule(pointer);
+                    Module_releaseModule(return_value_ClientRealm_get_serviceModule_187);
                   }
 
                   goto __CPROVER_DUMP_L190;
                 }
                 case 3:
                 {
-                  return_value_ClientRealm_get_serviceModule$188=ClientRealm_get_serviceModule(pointer);
-                  return_value_Module_get_fileName$189=Module_get_fileName(return_value_ClientRealm_get_serviceModule$188);
-                  return_value_ClientRealm_get_serviceModule$190=ClientRealm_get_serviceModule(pointer);
-                  return_value_Module_function_info$191=Module_function_info(return_value_ClientRealm_get_serviceModule$190);
-                  aflog((char)16, (char)8, "RELEASED MODULE (ser): %s INFO: %s", return_value_Module_get_fileName$189, return_value_Module_function_info$191);
-                  return_value_ClientRealm_get_serviceModule$192=ClientRealm_get_serviceModule(pointer);
-                  Module_releaseModule(return_value_ClientRealm_get_serviceModule$192);
+                  return_value_ClientRealm_get_serviceModule_188=ClientRealm_get_serviceModule(pointer);
+                  return_value_Module_get_fileName_189=Module_get_fileName(return_value_ClientRealm_get_serviceModule_188);
+                  return_value_ClientRealm_get_serviceModule_190=ClientRealm_get_serviceModule(pointer);
+                  return_value_Module_function_info_191=Module_function_info(return_value_ClientRealm_get_serviceModule_190);
+                  aflog((char)16, (char)8, "RELEASED MODULE (ser): %s INFO: %s", return_value_Module_get_fileName_189, return_value_Module_function_info_191);
+                  return_value_ClientRealm_get_serviceModule_192=ClientRealm_get_serviceModule(pointer);
+                  Module_releaseModule(return_value_ClientRealm_get_serviceModule_192);
                 }
                 default:
                   ;
@@ -14611,53 +14611,53 @@ signed int main(signed int argc, char **argv)
             buff[(signed long int)3] = (unsigned char)(n >> 8);
             buff[(signed long int)4] = (unsigned char)n;
             aflog((char)1, (char)2, "user[%d]: TO msglen: %d [%d/%d]", i, n, notsent, buflength);
-            char return_value_ClientRealm_get_realmType$195;
-            return_value_ClientRealm_get_realmType$195=ClientRealm_get_realmType(pointer);
-            struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$196;
-            return_value_ClientRealm_get_masterSslFd$196=ClientRealm_get_masterSslFd(pointer);
-            SslFd_send_message(return_value_ClientRealm_get_realmType$195, return_value_ClientRealm_get_masterSslFd$196, buff, n + 5);
+            char return_value_ClientRealm_get_realmType_195;
+            return_value_ClientRealm_get_realmType_195=ClientRealm_get_realmType(pointer);
+            struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_196;
+            return_value_ClientRealm_get_masterSslFd_196=ClientRealm_get_masterSslFd(pointer);
+            SslFd_send_message(return_value_ClientRealm_get_realmType_195, return_value_ClientRealm_get_masterSslFd_196, buff, n + 5);
           }
 
           else
           {
-            return_value_ClientRealm_get_clientMode$207=ClientRealm_get_clientMode(pointer);
-            if(!(return_value_ClientRealm_get_clientMode$207 == 1))
+            return_value_ClientRealm_get_clientMode_207=ClientRealm_get_clientMode(pointer);
+            if(!(return_value_ClientRealm_get_clientMode_207 == 1))
             {
               aflog((char)1, (char)8, "user[%d]: CLOSING", i);
-              signed int return_value_ConnectUser_get_connFd$197;
-              return_value_ConnectUser_get_connFd$197=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-              close(return_value_ConnectUser_get_connFd$197);
-              signed int return_value_ConnectUser_get_connFd$198;
-              return_value_ConnectUser_get_connFd$198=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-              aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", i, return_value_ConnectUser_get_connFd$198);
-              signed int return_value_ConnectUser_get_connFd$199;
-              return_value_ConnectUser_get_connFd$199=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-              signed int return_value_ConnectUser_get_connFd$200;
-              return_value_ConnectUser_get_connFd$200=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-              (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$199 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$199 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$200 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-              signed int return_value_ConnectUser_get_connFd$201;
-              return_value_ConnectUser_get_connFd$201=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-              signed int return_value_ConnectUser_get_connFd$202;
-              return_value_ConnectUser_get_connFd$202=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-              (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$201 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$201 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$202 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-              char return_value_ConnectUser_get_state$203;
-              return_value_ConnectUser_get_state$203=ConnectUser_get_state(usersTable[(signed long int)i]);
-              if((signed int)return_value_ConnectUser_get_state$203 == 19)
+              signed int return_value_ConnectUser_get_connFd_197;
+              return_value_ConnectUser_get_connFd_197=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+              close(return_value_ConnectUser_get_connFd_197);
+              signed int return_value_ConnectUser_get_connFd_198;
+              return_value_ConnectUser_get_connFd_198=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+              aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", i, return_value_ConnectUser_get_connFd_198);
+              signed int return_value_ConnectUser_get_connFd_199;
+              return_value_ConnectUser_get_connFd_199=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+              signed int return_value_ConnectUser_get_connFd_200;
+              return_value_ConnectUser_get_connFd_200=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+              (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_199 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_199 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_200 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+              signed int return_value_ConnectUser_get_connFd_201;
+              return_value_ConnectUser_get_connFd_201=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+              signed int return_value_ConnectUser_get_connFd_202;
+              return_value_ConnectUser_get_connFd_202=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+              (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_201 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_201 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_202 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+              char return_value_ConnectUser_get_state_203;
+              return_value_ConnectUser_get_state_203=ConnectUser_get_state(usersTable[(signed long int)i]);
+              if((signed int)return_value_ConnectUser_get_state_203 == 19)
                 ConnectUser_set_state(usersTable[(signed long int)i], (char)0);
 
               else
                 ConnectUser_set_state(usersTable[(signed long int)i], (char)5);
-              struct buflist *return_value_ConnectUser_get_bufList$204;
-              return_value_ConnectUser_get_bufList$204=ConnectUser_get_bufList(usersTable[(signed long int)i]);
-              BufList_clear(return_value_ConnectUser_get_bufList$204);
+              struct buflist *return_value_ConnectUser_get_bufList_204;
+              return_value_ConnectUser_get_bufList_204=ConnectUser_get_bufList(usersTable[(signed long int)i]);
+              BufList_clear(return_value_ConnectUser_get_bufList_204);
               buff[(signed long int)0] = (unsigned char)1;
               buff[(signed long int)1] = (unsigned char)(i >> 8);
               buff[(signed long int)2] = (unsigned char)i;
-              char return_value_ClientRealm_get_realmType$205;
-              return_value_ClientRealm_get_realmType$205=ClientRealm_get_realmType(pointer);
-              struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$206;
-              return_value_ClientRealm_get_masterSslFd$206=ClientRealm_get_masterSslFd(pointer);
-              SslFd_send_message(return_value_ClientRealm_get_realmType$205, return_value_ClientRealm_get_masterSslFd$206, buff, 5);
+              char return_value_ClientRealm_get_realmType_205;
+              return_value_ClientRealm_get_realmType_205=ClientRealm_get_realmType(pointer);
+              struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_206;
+              return_value_ClientRealm_get_masterSslFd_206=ClientRealm_get_masterSslFd(pointer);
+              SslFd_send_message(return_value_ClientRealm_get_realmType_205, return_value_ClientRealm_get_masterSslFd_206, buff, 5);
             }
 
           }
@@ -14674,95 +14674,95 @@ signed int main(signed int argc, char **argv)
     i = 0;
     do
     {
-      return_value_ClientRealm_get_usersLimit$215=ClientRealm_get_usersLimit(pointer);
-      if(i >= return_value_ClientRealm_get_usersLimit$215)
+      return_value_ClientRealm_get_usersLimit_215=ClientRealm_get_usersLimit(pointer);
+      if(i >= return_value_ClientRealm_get_usersLimit_215)
         break;
 
-      char return_value_ConnectUser_get_state$257;
-      return_value_ConnectUser_get_state$257=ConnectUser_get_state(usersTable[(signed long int)i]);
-      if((signed int)return_value_ConnectUser_get_state$257 == 11)
-        tmp_if_expr$259 = (_Bool)1;
+      char return_value_ConnectUser_get_state_257;
+      return_value_ConnectUser_get_state_257=ConnectUser_get_state(usersTable[(signed long int)i]);
+      if((signed int)return_value_ConnectUser_get_state_257 == 11)
+        tmp_if_expr_259 = (_Bool)1;
 
       else
       {
-        return_value_ConnectUser_get_state$258=ConnectUser_get_state(usersTable[(signed long int)i]);
-        tmp_if_expr$259 = (signed int)return_value_ConnectUser_get_state$258 == 19 ? (_Bool)1 : (_Bool)0;
+        return_value_ConnectUser_get_state_258=ConnectUser_get_state(usersTable[(signed long int)i]);
+        tmp_if_expr_259 = (signed int)return_value_ConnectUser_get_state_258 == 19 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$259)
+      if(tmp_if_expr_259)
       {
-        signed int return_value_ConnectUser_get_connFd$255;
-        return_value_ConnectUser_get_connFd$255=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-        signed int return_value_ConnectUser_get_connFd$256;
-        return_value_ConnectUser_get_connFd$256=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-        if(!((tmpset.__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$255 / 8)] & 1l << return_value_ConnectUser_get_connFd$256 % 8) == 0l))
+        signed int return_value_ConnectUser_get_connFd_255;
+        return_value_ConnectUser_get_connFd_255=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+        signed int return_value_ConnectUser_get_connFd_256;
+        return_value_ConnectUser_get_connFd_256=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+        if(!((tmpset.__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_255 / 8)] & 1l << return_value_ConnectUser_get_connFd_256 % 8) == 0l))
         {
           aflog((char)1, (char)4, "user[%d]: FD_ISSET - WRITE", i);
-          struct buflist *return_value_ConnectUser_get_bufList$216;
-          return_value_ConnectUser_get_bufList$216=ConnectUser_get_bufList(usersTable[(signed long int)i]);
-          struct blnode *return_value_BufList_get_first$217;
-          return_value_BufList_get_first$217=BufList_get_first(return_value_ConnectUser_get_bufList$216);
-          n=BufListNode_readMessageLength(return_value_BufList_get_first$217);
-          signed int return_value_ConnectUser_get_connFd$218;
-          return_value_ConnectUser_get_connFd$218=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-          struct buflist *return_value_ConnectUser_get_bufList$219;
-          return_value_ConnectUser_get_bufList$219=ConnectUser_get_bufList(usersTable[(signed long int)i]);
-          struct blnode *return_value_BufList_get_first$220;
-          return_value_BufList_get_first$220=BufList_get_first(return_value_ConnectUser_get_bufList$219);
-          unsigned char *return_value_BufListNode_readMessage$221;
-          return_value_BufListNode_readMessage$221=BufListNode_readMessage(return_value_BufList_get_first$220);
-          signed long int return_value_write$222;
-          return_value_write$222=write(return_value_ConnectUser_get_connFd$218, (const void *)return_value_BufListNode_readMessage$221, (unsigned long int)n);
-          temp2 = (signed int)return_value_write$222;
+          struct buflist *return_value_ConnectUser_get_bufList_216;
+          return_value_ConnectUser_get_bufList_216=ConnectUser_get_bufList(usersTable[(signed long int)i]);
+          struct blnode *return_value_BufList_get_first_217;
+          return_value_BufList_get_first_217=BufList_get_first(return_value_ConnectUser_get_bufList_216);
+          n=BufListNode_readMessageLength(return_value_BufList_get_first_217);
+          signed int return_value_ConnectUser_get_connFd_218;
+          return_value_ConnectUser_get_connFd_218=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+          struct buflist *return_value_ConnectUser_get_bufList_219;
+          return_value_ConnectUser_get_bufList_219=ConnectUser_get_bufList(usersTable[(signed long int)i]);
+          struct blnode *return_value_BufList_get_first_220;
+          return_value_BufList_get_first_220=BufList_get_first(return_value_ConnectUser_get_bufList_219);
+          unsigned char *return_value_BufListNode_readMessage_221;
+          return_value_BufListNode_readMessage_221=BufListNode_readMessage(return_value_BufList_get_first_220);
+          signed long int return_value_write_222;
+          return_value_write_222=write(return_value_ConnectUser_get_connFd_218, (const void *)return_value_BufListNode_readMessage_221, (unsigned long int)n);
+          temp2 = (signed int)return_value_write_222;
           if(temp2 >= 1 && !(temp2 == n))
           {
-            struct buflist *return_value_ConnectUser_get_bufList$223;
-            return_value_ConnectUser_get_bufList$223=ConnectUser_get_bufList(usersTable[(signed long int)i]);
-            struct blnode *return_value_BufList_get_first$224;
-            return_value_BufList_get_first$224=BufList_get_first(return_value_ConnectUser_get_bufList$223);
-            struct buflist *return_value_ConnectUser_get_bufList$225;
-            return_value_ConnectUser_get_bufList$225=ConnectUser_get_bufList(usersTable[(signed long int)i]);
-            struct blnode *return_value_BufList_get_first$226;
-            return_value_BufList_get_first$226=BufList_get_first(return_value_ConnectUser_get_bufList$225);
-            signed int return_value_BufListNode_get_actPtr$227;
-            return_value_BufListNode_get_actPtr$227=BufListNode_get_actPtr(return_value_BufList_get_first$226);
-            BufListNode_set_actPtr(return_value_BufList_get_first$224, return_value_BufListNode_get_actPtr$227 + temp2);
+            struct buflist *return_value_ConnectUser_get_bufList_223;
+            return_value_ConnectUser_get_bufList_223=ConnectUser_get_bufList(usersTable[(signed long int)i]);
+            struct blnode *return_value_BufList_get_first_224;
+            return_value_BufList_get_first_224=BufList_get_first(return_value_ConnectUser_get_bufList_223);
+            struct buflist *return_value_ConnectUser_get_bufList_225;
+            return_value_ConnectUser_get_bufList_225=ConnectUser_get_bufList(usersTable[(signed long int)i]);
+            struct blnode *return_value_BufList_get_first_226;
+            return_value_BufList_get_first_226=BufList_get_first(return_value_ConnectUser_get_bufList_225);
+            signed int return_value_BufListNode_get_actPtr_227;
+            return_value_BufListNode_get_actPtr_227=BufListNode_get_actPtr(return_value_BufList_get_first_226);
+            BufListNode_set_actPtr(return_value_BufList_get_first_224, return_value_BufListNode_get_actPtr_227 + temp2);
           }
 
           else
           {
             if(temp2 == -1)
             {
-              return_value___errno_location$253=__errno_location();
-              tmp_if_expr$254 = *return_value___errno_location$253 == 11 ? (_Bool)1 : (_Bool)0;
+              return_value___errno_location_253=__errno_location();
+              tmp_if_expr_254 = *return_value___errno_location_253 == 11 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$254 = (_Bool)0;
-            if(tmp_if_expr$254)
+              tmp_if_expr_254 = (_Bool)0;
+            if(tmp_if_expr_254)
               aflog((char)1, (char)2, "user[%d]: Couldn't write?", i);
 
             else
               if(temp2 == -1)
               {
-                signed int return_value_ConnectUser_get_connFd$228;
-                return_value_ConnectUser_get_connFd$228=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                close(return_value_ConnectUser_get_connFd$228);
-                signed int return_value_ConnectUser_get_connFd$229;
-                return_value_ConnectUser_get_connFd$229=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", i, return_value_ConnectUser_get_connFd$229);
-                signed int return_value_ConnectUser_get_connFd$230;
-                return_value_ConnectUser_get_connFd$230=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                signed int return_value_ConnectUser_get_connFd$231;
-                return_value_ConnectUser_get_connFd$231=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$230 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$230 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$231 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-                signed int return_value_ConnectUser_get_connFd$232;
-                return_value_ConnectUser_get_connFd$232=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                signed int return_value_ConnectUser_get_connFd$233;
-                return_value_ConnectUser_get_connFd$233=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$232 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$232 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$233 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-                char return_value_ConnectUser_get_state$234;
-                return_value_ConnectUser_get_state$234=ConnectUser_get_state(usersTable[(signed long int)i]);
-                if((signed int)return_value_ConnectUser_get_state$234 == 19)
+                signed int return_value_ConnectUser_get_connFd_228;
+                return_value_ConnectUser_get_connFd_228=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                close(return_value_ConnectUser_get_connFd_228);
+                signed int return_value_ConnectUser_get_connFd_229;
+                return_value_ConnectUser_get_connFd_229=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", i, return_value_ConnectUser_get_connFd_229);
+                signed int return_value_ConnectUser_get_connFd_230;
+                return_value_ConnectUser_get_connFd_230=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                signed int return_value_ConnectUser_get_connFd_231;
+                return_value_ConnectUser_get_connFd_231=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_230 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_230 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_231 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                signed int return_value_ConnectUser_get_connFd_232;
+                return_value_ConnectUser_get_connFd_232=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                signed int return_value_ConnectUser_get_connFd_233;
+                return_value_ConnectUser_get_connFd_233=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_232 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_232 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_233 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                char return_value_ConnectUser_get_state_234;
+                return_value_ConnectUser_get_state_234=ConnectUser_get_state(usersTable[(signed long int)i]);
+                if((signed int)return_value_ConnectUser_get_state_234 == 19)
                   ConnectUser_set_state(usersTable[(signed long int)i], (char)0);
 
                 else
@@ -14770,67 +14770,67 @@ signed int main(signed int argc, char **argv)
                 buff[(signed long int)0] = (unsigned char)1;
                 buff[(signed long int)1] = (unsigned char)(i >> 8);
                 buff[(signed long int)2] = (unsigned char)i;
-                char return_value_ClientRealm_get_realmType$235;
-                return_value_ClientRealm_get_realmType$235=ClientRealm_get_realmType(pointer);
-                struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$236;
-                return_value_ClientRealm_get_masterSslFd$236=ClientRealm_get_masterSslFd(pointer);
-                SslFd_send_message(return_value_ClientRealm_get_realmType$235, return_value_ClientRealm_get_masterSslFd$236, buff, 5);
+                char return_value_ClientRealm_get_realmType_235;
+                return_value_ClientRealm_get_realmType_235=ClientRealm_get_realmType(pointer);
+                struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_236;
+                return_value_ClientRealm_get_masterSslFd_236=ClientRealm_get_masterSslFd(pointer);
+                SslFd_send_message(return_value_ClientRealm_get_realmType_235, return_value_ClientRealm_get_masterSslFd_236, buff, 5);
               }
 
               else
               {
-                struct buflist *return_value_ConnectUser_get_bufList$237;
-                return_value_ConnectUser_get_bufList$237=ConnectUser_get_bufList(usersTable[(signed long int)i]);
-                BufList_delete_first(return_value_ConnectUser_get_bufList$237);
-                struct buflist *return_value_ConnectUser_get_bufList$251;
-                return_value_ConnectUser_get_bufList$251=ConnectUser_get_bufList(usersTable[(signed long int)i]);
-                struct blnode *return_value_BufList_get_first$252;
-                return_value_BufList_get_first$252=BufList_get_first(return_value_ConnectUser_get_bufList$251);
-                if(return_value_BufList_get_first$252 == ((struct blnode *)NULL))
+                struct buflist *return_value_ConnectUser_get_bufList_237;
+                return_value_ConnectUser_get_bufList_237=ConnectUser_get_bufList(usersTable[(signed long int)i]);
+                BufList_delete_first(return_value_ConnectUser_get_bufList_237);
+                struct buflist *return_value_ConnectUser_get_bufList_251;
+                return_value_ConnectUser_get_bufList_251=ConnectUser_get_bufList(usersTable[(signed long int)i]);
+                struct blnode *return_value_BufList_get_first_252;
+                return_value_BufList_get_first_252=BufList_get_first(return_value_ConnectUser_get_bufList_251);
+                if(return_value_BufList_get_first_252 == ((struct blnode *)NULL))
                 {
-                  signed int return_value_ConnectUser_get_connFd$238;
-                  return_value_ConnectUser_get_connFd$238=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                  signed int return_value_ConnectUser_get_connFd$239;
-                  return_value_ConnectUser_get_connFd$239=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                  (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$238 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$238 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$239 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                  signed int return_value_ConnectUser_get_connFd_238;
+                  return_value_ConnectUser_get_connFd_238=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                  signed int return_value_ConnectUser_get_connFd_239;
+                  return_value_ConnectUser_get_connFd_239=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                  (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_238 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_238 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_239 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
                   buff[(signed long int)0] = (unsigned char)10;
                   buff[(signed long int)1] = (unsigned char)(i >> 8);
                   buff[(signed long int)2] = (unsigned char)i;
                   aflog((char)1, (char)4, "FROM user[%d]: BUFFERING MESSAGE ENDED", i);
-                  char return_value_ClientRealm_get_realmType$240;
-                  return_value_ClientRealm_get_realmType$240=ClientRealm_get_realmType(pointer);
-                  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$241;
-                  return_value_ClientRealm_get_masterSslFd$241=ClientRealm_get_masterSslFd(pointer);
-                  SslFd_send_message(return_value_ClientRealm_get_realmType$240, return_value_ClientRealm_get_masterSslFd$241, buff, 5);
-                  char return_value_ConnectUser_get_state$250;
-                  return_value_ConnectUser_get_state$250=ConnectUser_get_state(usersTable[(signed long int)i]);
-                  if((signed int)return_value_ConnectUser_get_state$250 == 19)
+                  char return_value_ClientRealm_get_realmType_240;
+                  return_value_ClientRealm_get_realmType_240=ClientRealm_get_realmType(pointer);
+                  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_241;
+                  return_value_ClientRealm_get_masterSslFd_241=ClientRealm_get_masterSslFd(pointer);
+                  SslFd_send_message(return_value_ClientRealm_get_realmType_240, return_value_ClientRealm_get_masterSslFd_241, buff, 5);
+                  char return_value_ConnectUser_get_state_250;
+                  return_value_ConnectUser_get_state_250=ConnectUser_get_state(usersTable[(signed long int)i]);
+                  if((signed int)return_value_ConnectUser_get_state_250 == 19)
                   {
-                    signed int return_value_ConnectUser_get_connFd$242;
-                    return_value_ConnectUser_get_connFd$242=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                    close(return_value_ConnectUser_get_connFd$242);
-                    signed int return_value_ConnectUser_get_connFd$243;
-                    return_value_ConnectUser_get_connFd$243=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                    aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", i, return_value_ConnectUser_get_connFd$243);
-                    signed int return_value_ConnectUser_get_connFd$244;
-                    return_value_ConnectUser_get_connFd$244=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                    signed int return_value_ConnectUser_get_connFd$245;
-                    return_value_ConnectUser_get_connFd$245=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                    (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$244 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$244 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$245 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-                    signed int return_value_ConnectUser_get_connFd$246;
-                    return_value_ConnectUser_get_connFd$246=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                    signed int return_value_ConnectUser_get_connFd$247;
-                    return_value_ConnectUser_get_connFd$247=ConnectUser_get_connFd(usersTable[(signed long int)i]);
-                    (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$246 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$246 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$247 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                    signed int return_value_ConnectUser_get_connFd_242;
+                    return_value_ConnectUser_get_connFd_242=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                    close(return_value_ConnectUser_get_connFd_242);
+                    signed int return_value_ConnectUser_get_connFd_243;
+                    return_value_ConnectUser_get_connFd_243=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                    aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", i, return_value_ConnectUser_get_connFd_243);
+                    signed int return_value_ConnectUser_get_connFd_244;
+                    return_value_ConnectUser_get_connFd_244=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                    signed int return_value_ConnectUser_get_connFd_245;
+                    return_value_ConnectUser_get_connFd_245=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                    (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_244 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_244 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_245 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                    signed int return_value_ConnectUser_get_connFd_246;
+                    return_value_ConnectUser_get_connFd_246=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                    signed int return_value_ConnectUser_get_connFd_247;
+                    return_value_ConnectUser_get_connFd_247=ConnectUser_get_connFd(usersTable[(signed long int)i]);
+                    (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_246 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_246 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_247 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
                     ConnectUser_set_state(usersTable[(signed long int)i], (char)0);
                     buff[(signed long int)0] = (unsigned char)1;
                     buff[(signed long int)1] = (unsigned char)(i >> 8);
                     buff[(signed long int)2] = (unsigned char)i;
-                    char return_value_ClientRealm_get_realmType$248;
-                    return_value_ClientRealm_get_realmType$248=ClientRealm_get_realmType(pointer);
-                    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$249;
-                    return_value_ClientRealm_get_masterSslFd$249=ClientRealm_get_masterSslFd(pointer);
-                    SslFd_send_message(return_value_ClientRealm_get_realmType$248, return_value_ClientRealm_get_masterSslFd$249, buff, 5);
+                    char return_value_ClientRealm_get_realmType_248;
+                    return_value_ClientRealm_get_realmType_248=ClientRealm_get_realmType(pointer);
+                    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_249;
+                    return_value_ClientRealm_get_masterSslFd_249=ClientRealm_get_masterSslFd(pointer);
+                    SslFd_send_message(return_value_ClientRealm_get_realmType_248, return_value_ClientRealm_get_masterSslFd_249, buff, 5);
                   }
 
                   else
@@ -14846,34 +14846,34 @@ signed int main(signed int argc, char **argv)
       i = i + 1;
     }
     while((_Bool)1);
-    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$415;
-    return_value_ClientRealm_get_masterSslFd$415=ClientRealm_get_masterSslFd(pointer);
-    signed int return_value_SslFd_get_fd$416;
-    return_value_SslFd_get_fd$416=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$415);
-    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$417;
-    return_value_ClientRealm_get_masterSslFd$417=ClientRealm_get_masterSslFd(pointer);
-    signed int return_value_SslFd_get_fd$418;
-    return_value_SslFd_get_fd$418=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$417);
-    if(!((rset.__fds_bits[(signed long int)(return_value_SslFd_get_fd$416 / 8)] & 1l << return_value_SslFd_get_fd$418 % 8) == 0l))
+    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_415;
+    return_value_ClientRealm_get_masterSslFd_415=ClientRealm_get_masterSslFd(pointer);
+    signed int return_value_SslFd_get_fd_416;
+    return_value_SslFd_get_fd_416=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_415);
+    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_417;
+    return_value_ClientRealm_get_masterSslFd_417=ClientRealm_get_masterSslFd(pointer);
+    signed int return_value_SslFd_get_fd_418;
+    return_value_SslFd_get_fd_418=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_417);
+    if(!((rset.__fds_bits[(signed long int)(return_value_SslFd_get_fd_416 / 8)] & 1l << return_value_SslFd_get_fd_418 % 8) == 0l))
     {
       aflog((char)2, (char)4, "masterfd: FD_ISSET");
-      char return_value_ClientRealm_get_realmType$260;
-      return_value_ClientRealm_get_realmType$260=ClientRealm_get_realmType(pointer);
-      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$261;
-      return_value_ClientRealm_get_masterSslFd$261=ClientRealm_get_masterSslFd(pointer);
-      n=SslFd_get_message(return_value_ClientRealm_get_realmType$260, return_value_ClientRealm_get_masterSslFd$261, buff, 5);
+      char return_value_ClientRealm_get_realmType_260;
+      return_value_ClientRealm_get_realmType_260=ClientRealm_get_realmType(pointer);
+      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_261;
+      return_value_ClientRealm_get_masterSslFd_261=ClientRealm_get_masterSslFd(pointer);
+      n=SslFd_get_message(return_value_ClientRealm_get_realmType_260, return_value_ClientRealm_get_masterSslFd_261, buff, 5);
       if(!(n == 5))
       {
         aflog((char)2, (char)64, "FATAL ERROR! (%d)", n);
         if(n == -1)
         {
-          char return_value_ClientRealm_get_realmType$263;
-          return_value_ClientRealm_get_realmType$263=ClientRealm_get_realmType(pointer);
-          if(!((4 & (signed int)return_value_ClientRealm_get_realmType$263) == 0))
+          char return_value_ClientRealm_get_realmType_263;
+          return_value_ClientRealm_get_realmType_263=ClientRealm_get_realmType(pointer);
+          if(!((4 & (signed int)return_value_ClientRealm_get_realmType_263) == 0))
           {
-            struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$262;
-            return_value_ClientRealm_get_masterSslFd$262=ClientRealm_get_masterSslFd(pointer);
-            get_ssl_error(return_value_ClientRealm_get_masterSslFd$262, "FE", n);
+            struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_262;
+            return_value_ClientRealm_get_masterSslFd_262=ClientRealm_get_masterSslFd(pointer);
+            get_ssl_error(return_value_ClientRealm_get_masterSslFd_262, "FE", n);
             continue;
           }
 
@@ -14886,14 +14886,14 @@ signed int main(signed int argc, char **argv)
 
       if(n == 0)
       {
-        struct anonymous$3 *return_value_ClientRealm_get_arOptions$264;
-        return_value_ClientRealm_get_arOptions$264=ClientRealm_get_arOptions(pointer);
-        i=ArOptions_get_arTries(return_value_ClientRealm_get_arOptions$264);
-        struct anonymous$3 *return_value_ClientRealm_get_arOptions$265;
-        return_value_ClientRealm_get_arOptions$265=ClientRealm_get_arOptions(pointer);
-        char return_value_ArOptions_get_arPremature$266;
-        return_value_ArOptions_get_arPremature$266=ArOptions_get_arPremature(return_value_ClientRealm_get_arOptions$265);
-        if((signed int)return_value_ArOptions_get_arPremature$266 == 0)
+        struct anonymous_3 *return_value_ClientRealm_get_arOptions_264;
+        return_value_ClientRealm_get_arOptions_264=ClientRealm_get_arOptions(pointer);
+        i=ArOptions_get_arTries(return_value_ClientRealm_get_arOptions_264);
+        struct anonymous_3 *return_value_ClientRealm_get_arOptions_265;
+        return_value_ClientRealm_get_arOptions_265=ClientRealm_get_arOptions(pointer);
+        char return_value_ArOptions_get_arPremature_266;
+        return_value_ArOptions_get_arPremature_266=ArOptions_get_arPremature(return_value_ClientRealm_get_arOptions_265);
+        if((signed int)return_value_ArOptions_get_arPremature_266 == 0)
           i = 0;
 
         if(!(i == 0))
@@ -14902,46 +14902,46 @@ signed int main(signed int argc, char **argv)
         while(!(i == 0))
         {
           ClientRealm_closeUsersConnections(pointer);
-          struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$267;
-          return_value_ClientRealm_get_masterSslFd$267=ClientRealm_get_masterSslFd(pointer);
-          signed int return_value_SslFd_get_fd$268;
-          return_value_SslFd_get_fd$268=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$267);
-          close(return_value_SslFd_get_fd$268);
-          struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$269;
-          return_value_ClientRealm_get_masterSslFd$269=ClientRealm_get_masterSslFd(pointer);
-          SslFd_set_ssl(return_value_ClientRealm_get_masterSslFd$269, (struct ssl_st *)(void *)0);
-          struct anonymous$3 *return_value_ClientRealm_get_arOptions$270;
-          return_value_ClientRealm_get_arOptions$270=ClientRealm_get_arOptions(pointer);
-          signed int return_value_ArOptions_get_arDelay$271;
-          return_value_ArOptions_get_arDelay$271=ArOptions_get_arDelay(return_value_ClientRealm_get_arOptions$270);
-          mysleep((double)return_value_ArOptions_get_arDelay$271);
+          struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_267;
+          return_value_ClientRealm_get_masterSslFd_267=ClientRealm_get_masterSslFd(pointer);
+          signed int return_value_SslFd_get_fd_268;
+          return_value_SslFd_get_fd_268=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_267);
+          close(return_value_SslFd_get_fd_268);
+          struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_269;
+          return_value_ClientRealm_get_masterSslFd_269=ClientRealm_get_masterSslFd(pointer);
+          SslFd_set_ssl(return_value_ClientRealm_get_masterSslFd_269, (struct ssl_st *)(void *)0);
+          struct anonymous_3 *return_value_ClientRealm_get_arOptions_270;
+          return_value_ClientRealm_get_arOptions_270=ClientRealm_get_arOptions(pointer);
+          signed int return_value_ArOptions_get_arDelay_271;
+          return_value_ArOptions_get_arDelay_271=ArOptions_get_arDelay(return_value_ClientRealm_get_arOptions_270);
+          mysleep((double)return_value_ArOptions_get_arDelay_271);
           aflog((char)2, (char)8, "Trying to reconnect...");
           temp2 = 0;
           if(temp2 == 0)
           {
-            char return_value_ClientConfiguration_get_ignorePublicKeys$272;
-            return_value_ClientConfiguration_get_ignorePublicKeys$272=ClientConfiguration_get_ignorePublicKeys(cconfig);
-            signed int return_value_initialize_client_stage1$273;
-            return_value_initialize_client_stage1$273=initialize_client_stage1(pointer, ctx, buff, (char)0, return_value_ClientConfiguration_get_ignorePublicKeys$272);
-            if(!(return_value_initialize_client_stage1$273 == 0))
+            char return_value_ClientConfiguration_get_ignorePublicKeys_272;
+            return_value_ClientConfiguration_get_ignorePublicKeys_272=ClientConfiguration_get_ignorePublicKeys(cconfig);
+            signed int return_value_initialize_client_stage1_273;
+            return_value_initialize_client_stage1_273=initialize_client_stage1(pointer, ctx, buff, (char)0, return_value_ClientConfiguration_get_ignorePublicKeys_272);
+            if(!(return_value_initialize_client_stage1_273 == 0))
               temp2 = 1;
 
           }
 
           if(temp2 == 0)
           {
-            signed int return_value_initialize_client_stage2$274;
-            return_value_initialize_client_stage2$274=initialize_client_stage2(pointer, buff, (char)0);
-            if(!(return_value_initialize_client_stage2$274 == 0))
+            signed int return_value_initialize_client_stage2_274;
+            return_value_initialize_client_stage2_274=initialize_client_stage2(pointer, buff, (char)0);
+            if(!(return_value_initialize_client_stage2_274 == 0))
               temp2 = 1;
 
           }
 
           if(temp2 == 0)
           {
-            signed int return_value_initialize_client_stage3$275;
-            return_value_initialize_client_stage3$275=initialize_client_stage3(pointer, &buflength, &allset, &wset, &maxfdp1, (char)0);
-            if(!(return_value_initialize_client_stage3$275 == 0))
+            signed int return_value_initialize_client_stage3_275;
+            return_value_initialize_client_stage3_275=initialize_client_stage3(pointer, &buflength, &allset, &wset, &maxfdp1, (char)0);
+            if(!(return_value_initialize_client_stage3_275 == 0))
               temp2 = 1;
 
           }
@@ -14982,12 +14982,12 @@ signed int main(signed int argc, char **argv)
           aflog((char)1, (char)4, "user[%d]: AF_S_CONCLOSED", numofcon);
           if(numofcon >= 0)
           {
-            return_value_ClientRealm_get_usersLimit$288=ClientRealm_get_usersLimit(pointer);
-            if(return_value_ClientRealm_get_usersLimit$288 >= numofcon)
+            return_value_ClientRealm_get_usersLimit_288=ClientRealm_get_usersLimit(pointer);
+            if(return_value_ClientRealm_get_usersLimit_288 >= numofcon)
             {
-              char return_value_ConnectUser_get_state$287;
-              return_value_ConnectUser_get_state$287=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
-              if((signed int)return_value_ConnectUser_get_state$287 == 5)
+              char return_value_ConnectUser_get_state_287;
+              return_value_ConnectUser_get_state_287=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
+              if((signed int)return_value_ConnectUser_get_state_287 == 5)
               {
                 ConnectUser_set_state(usersTable[(signed long int)numofcon], (char)0);
                 aflog((char)1, (char)8, "user[%d]: CLOSE CONFIRMED", numofcon);
@@ -14995,44 +14995,44 @@ signed int main(signed int argc, char **argv)
 
               else
               {
-                return_value_ConnectUser_get_state$286=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
-                if((signed int)return_value_ConnectUser_get_state$286 == 7)
+                return_value_ConnectUser_get_state_286=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
+                if((signed int)return_value_ConnectUser_get_state_286 == 7)
                 {
                   aflog((char)1, (char)8, "user[%d]: CLOSED", numofcon);
-                  signed int return_value_ConnectUser_get_connFd$276;
-                  return_value_ConnectUser_get_connFd$276=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                  close(return_value_ConnectUser_get_connFd$276);
-                  signed int return_value_ConnectUser_get_connFd$277;
-                  return_value_ConnectUser_get_connFd$277=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                  aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", numofcon, return_value_ConnectUser_get_connFd$277);
-                  signed int return_value_ConnectUser_get_connFd$278;
-                  return_value_ConnectUser_get_connFd$278=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                  signed int return_value_ConnectUser_get_connFd$279;
-                  return_value_ConnectUser_get_connFd$279=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                  (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$278 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$278 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$279 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-                  signed int return_value_ConnectUser_get_connFd$280;
-                  return_value_ConnectUser_get_connFd$280=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                  signed int return_value_ConnectUser_get_connFd$281;
-                  return_value_ConnectUser_get_connFd$281=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                  (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$280 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$280 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$281 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                  signed int return_value_ConnectUser_get_connFd_276;
+                  return_value_ConnectUser_get_connFd_276=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                  close(return_value_ConnectUser_get_connFd_276);
+                  signed int return_value_ConnectUser_get_connFd_277;
+                  return_value_ConnectUser_get_connFd_277=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                  aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", numofcon, return_value_ConnectUser_get_connFd_277);
+                  signed int return_value_ConnectUser_get_connFd_278;
+                  return_value_ConnectUser_get_connFd_278=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                  signed int return_value_ConnectUser_get_connFd_279;
+                  return_value_ConnectUser_get_connFd_279=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                  (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_278 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_278 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_279 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                  signed int return_value_ConnectUser_get_connFd_280;
+                  return_value_ConnectUser_get_connFd_280=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                  signed int return_value_ConnectUser_get_connFd_281;
+                  return_value_ConnectUser_get_connFd_281=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                  (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_280 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_280 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_281 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
                   ConnectUser_set_state(usersTable[(signed long int)numofcon], (char)0);
-                  struct buflist *return_value_ConnectUser_get_bufList$282;
-                  return_value_ConnectUser_get_bufList$282=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
-                  BufList_clear(return_value_ConnectUser_get_bufList$282);
+                  struct buflist *return_value_ConnectUser_get_bufList_282;
+                  return_value_ConnectUser_get_bufList_282=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
+                  BufList_clear(return_value_ConnectUser_get_bufList_282);
                   buff[(signed long int)0] = (unsigned char)1;
                   buff[(signed long int)1] = (unsigned char)(numofcon >> 8);
                   buff[(signed long int)2] = (unsigned char)numofcon;
-                  char return_value_ClientRealm_get_realmType$283;
-                  return_value_ClientRealm_get_realmType$283=ClientRealm_get_realmType(pointer);
-                  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$284;
-                  return_value_ClientRealm_get_masterSslFd$284=ClientRealm_get_masterSslFd(pointer);
-                  SslFd_send_message(return_value_ClientRealm_get_realmType$283, return_value_ClientRealm_get_masterSslFd$284, buff, 5);
+                  char return_value_ClientRealm_get_realmType_283;
+                  return_value_ClientRealm_get_realmType_283=ClientRealm_get_realmType(pointer);
+                  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_284;
+                  return_value_ClientRealm_get_masterSslFd_284=ClientRealm_get_masterSslFd(pointer);
+                  SslFd_send_message(return_value_ClientRealm_get_realmType_283, return_value_ClientRealm_get_masterSslFd_284, buff, 5);
                 }
 
                 else
                 {
-                  return_value_ConnectUser_get_state$285=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
-                  if((signed int)return_value_ConnectUser_get_state$285 == 11)
+                  return_value_ConnectUser_get_state_285=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
+                  if((signed int)return_value_ConnectUser_get_state_285 == 11)
                   {
                     ConnectUser_set_state(usersTable[(signed long int)numofcon], (char)19);
                     aflog((char)1, (char)8, "user[%d]: CLOSING...", numofcon);
@@ -15051,157 +15051,157 @@ signed int main(signed int argc, char **argv)
           aflog((char)1, (char)4, "user[%d]: AF_S_CONOPEN", numofcon);
           if(numofcon >= 0)
           {
-            return_value_ClientRealm_get_usersLimit$330=ClientRealm_get_usersLimit(pointer);
-            if(return_value_ClientRealm_get_usersLimit$330 >= numofcon)
+            return_value_ClientRealm_get_usersLimit_330=ClientRealm_get_usersLimit(pointer);
+            if(return_value_ClientRealm_get_usersLimit_330 >= numofcon)
             {
-              char return_value_ConnectUser_get_state$329;
-              return_value_ConnectUser_get_state$329=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
-              if((signed int)return_value_ConnectUser_get_state$329 == 0)
+              char return_value_ConnectUser_get_state_329;
+              return_value_ConnectUser_get_state_329=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
+              if((signed int)return_value_ConnectUser_get_state_329 == 0)
               {
-                char return_value_ClientRealm_get_realmType$289;
-                return_value_ClientRealm_get_realmType$289=ClientRealm_get_realmType(pointer);
-                struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$290;
-                return_value_ClientRealm_get_masterSslFd$290=ClientRealm_get_masterSslFd(pointer);
-                n=SslFd_get_message(return_value_ClientRealm_get_realmType$289, return_value_ClientRealm_get_masterSslFd$290, buff, length);
+                char return_value_ClientRealm_get_realmType_289;
+                return_value_ClientRealm_get_realmType_289=ClientRealm_get_realmType(pointer);
+                struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_290;
+                return_value_ClientRealm_get_masterSslFd_290=ClientRealm_get_masterSslFd(pointer);
+                n=SslFd_get_message(return_value_ClientRealm_get_realmType_289, return_value_ClientRealm_get_masterSslFd_290, buff, length);
                 ConnectUser_set_nameBuf(usersTable[(signed long int)numofcon], (char *)buff);
                 ConnectUser_set_portBuf(usersTable[(signed long int)numofcon], (char *)&buff[(signed long int)128]);
                 aflog((char)1, (char)8, "user[%d]: OPENING", numofcon);
-                char *return_value_ConnectUser_get_nameBuf$291;
-                return_value_ConnectUser_get_nameBuf$291=ConnectUser_get_nameBuf(usersTable[(signed long int)numofcon]);
-                char *return_value_ConnectUser_get_portBuf$292;
-                return_value_ConnectUser_get_portBuf$292=ConnectUser_get_portBuf(usersTable[(signed long int)numofcon]);
-                aflog((char)1, (char)8, "user[%d]: IP:%s PORT:%s", numofcon, return_value_ConnectUser_get_nameBuf$291, return_value_ConnectUser_get_portBuf$292);
-                struct anonymous$6 *return_value_ClientRealm_get_userModule$299;
-                return_value_ClientRealm_get_userModule$299=ClientRealm_get_userModule(pointer);
-                signed int return_value_Module_isModuleLoaded$300;
-                return_value_Module_isModuleLoaded$300=Module_isModuleLoaded(return_value_ClientRealm_get_userModule$299);
-                if(!(return_value_Module_isModuleLoaded$300 == 0))
+                char *return_value_ConnectUser_get_nameBuf_291;
+                return_value_ConnectUser_get_nameBuf_291=ConnectUser_get_nameBuf(usersTable[(signed long int)numofcon]);
+                char *return_value_ConnectUser_get_portBuf_292;
+                return_value_ConnectUser_get_portBuf_292=ConnectUser_get_portBuf(usersTable[(signed long int)numofcon]);
+                aflog((char)1, (char)8, "user[%d]: IP:%s PORT:%s", numofcon, return_value_ConnectUser_get_nameBuf_291, return_value_ConnectUser_get_portBuf_292);
+                struct anonymous_6 *return_value_ClientRealm_get_userModule_299;
+                return_value_ClientRealm_get_userModule_299=ClientRealm_get_userModule(pointer);
+                signed int return_value_Module_isModuleLoaded_300;
+                return_value_Module_isModuleLoaded_300=Module_isModuleLoaded(return_value_ClientRealm_get_userModule_299);
+                if(!(return_value_Module_isModuleLoaded_300 == 0))
                 {
-                  return_value_ClientRealm_get_userModule$295=ClientRealm_get_userModule(pointer);
-                  return_value_ConnectUser_get_nameBuf$296=ConnectUser_get_nameBuf(usersTable[(signed long int)numofcon]);
-                  return_value_ConnectUser_get_portBuf$297=ConnectUser_get_portBuf(usersTable[(signed long int)numofcon]);
-                  return_value_Module_function_allow$298=Module_function_allow(return_value_ClientRealm_get_userModule$295, return_value_ConnectUser_get_nameBuf$296, return_value_ConnectUser_get_portBuf$297);
-                  if(!(return_value_Module_function_allow$298 == 0))
+                  return_value_ClientRealm_get_userModule_295=ClientRealm_get_userModule(pointer);
+                  return_value_ConnectUser_get_nameBuf_296=ConnectUser_get_nameBuf(usersTable[(signed long int)numofcon]);
+                  return_value_ConnectUser_get_portBuf_297=ConnectUser_get_portBuf(usersTable[(signed long int)numofcon]);
+                  return_value_Module_function_allow_298=Module_function_allow(return_value_ClientRealm_get_userModule_295, return_value_ConnectUser_get_nameBuf_296, return_value_ConnectUser_get_portBuf_297);
+                  if(!(return_value_Module_function_allow_298 == 0))
                   {
                     aflog((char)1, (char)32, "user[%d]: IT'S NOT ALLOWED - DROPPING", numofcon);
                     buff[(signed long int)0] = (unsigned char)12;
                     buff[(signed long int)1] = (unsigned char)(numofcon >> 8);
                     buff[(signed long int)2] = (unsigned char)numofcon;
-                    char return_value_ClientRealm_get_realmType$293;
-                    return_value_ClientRealm_get_realmType$293=ClientRealm_get_realmType(pointer);
-                    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$294;
-                    return_value_ClientRealm_get_masterSslFd$294=ClientRealm_get_masterSslFd(pointer);
-                    SslFd_send_message(return_value_ClientRealm_get_realmType$293, return_value_ClientRealm_get_masterSslFd$294, buff, 5);
+                    char return_value_ClientRealm_get_realmType_293;
+                    return_value_ClientRealm_get_realmType_293=ClientRealm_get_realmType(pointer);
+                    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_294;
+                    return_value_ClientRealm_get_masterSslFd_294=ClientRealm_get_masterSslFd(pointer);
+                    SslFd_send_message(return_value_ClientRealm_get_realmType_293, return_value_ClientRealm_get_masterSslFd_294, buff, 5);
                     goto __CPROVER_DUMP_L286;
                   }
 
                 }
 
-                signed int return_value_ClientRealm_get_clientMode$301;
-                return_value_ClientRealm_get_clientMode$301=ClientRealm_get_clientMode(pointer);
-                if(return_value_ClientRealm_get_clientMode$301 == 1)
+                signed int return_value_ClientRealm_get_clientMode_301;
+                return_value_ClientRealm_get_clientMode_301=ClientRealm_get_clientMode(pointer);
+                if(return_value_ClientRealm_get_clientMode_301 == 1)
                   ipFamily = (char)0;
 
                 else
                   ipFamily = (char)0x01;
-                char return_value_ClientRealm_get_realmType$303;
-                return_value_ClientRealm_get_realmType$303=ClientRealm_get_realmType(pointer);
-                if(!((16 & (signed int)return_value_ClientRealm_get_realmType$303) == 0))
+                char return_value_ClientRealm_get_realmType_303;
+                return_value_ClientRealm_get_realmType_303=ClientRealm_get_realmType(pointer);
+                if(!((16 & (signed int)return_value_ClientRealm_get_realmType_303) == 0))
                   ipFamily = ipFamily | (char)0x02;
 
                 else
                 {
-                  return_value_ClientRealm_get_realmType$302=ClientRealm_get_realmType(pointer);
-                  if(!((32 & (signed int)return_value_ClientRealm_get_realmType$302) == 0))
+                  return_value_ClientRealm_get_realmType_302=ClientRealm_get_realmType(pointer);
+                  if(!((32 & (signed int)return_value_ClientRealm_get_realmType_302) == 0))
                     ipFamily = ipFamily | (char)0x04;
 
                 }
                 temp2 = 0;
                 if(n == 136)
                 {
-                  struct portlist *return_value_ClientRealm_get_destinationPorts$306;
-                  return_value_ClientRealm_get_destinationPorts$306=ClientRealm_get_destinationPorts(pointer);
-                  signed int return_value_PortList_get_size$307;
-                  return_value_PortList_get_size$307=PortList_get_size(return_value_ClientRealm_get_destinationPorts$306);
-                  if(return_value_PortList_get_size$307 == 1)
+                  struct portlist *return_value_ClientRealm_get_destinationPorts_306;
+                  return_value_ClientRealm_get_destinationPorts_306=ClientRealm_get_destinationPorts(pointer);
+                  signed int return_value_PortList_get_size_307;
+                  return_value_PortList_get_size_307=PortList_get_size(return_value_ClientRealm_get_destinationPorts_306);
+                  if(return_value_PortList_get_size_307 == 1)
                     temp2 = 0;
 
                   else
                   {
-                    struct portlist *return_value_ClientRealm_get_destinationPorts$304;
-                    return_value_ClientRealm_get_destinationPorts$304=ClientRealm_get_destinationPorts(pointer);
-                    signed int return_value_PortList_get_size$305;
-                    return_value_PortList_get_size$305=PortList_get_size(return_value_ClientRealm_get_destinationPorts$304);
-                    temp2 = (signed int)buff[(signed long int)135] % return_value_PortList_get_size$305;
+                    struct portlist *return_value_ClientRealm_get_destinationPorts_304;
+                    return_value_ClientRealm_get_destinationPorts_304=ClientRealm_get_destinationPorts(pointer);
+                    signed int return_value_PortList_get_size_305;
+                    return_value_PortList_get_size_305=PortList_get_size(return_value_ClientRealm_get_destinationPorts_304);
+                    temp2 = (signed int)buff[(signed long int)135] % return_value_PortList_get_size_305;
                   }
                 }
 
-                char *return_value_ClientRealm_get_hostName$314;
-                return_value_ClientRealm_get_hostName$314=ClientRealm_get_hostName(pointer);
-                struct portlist *return_value_ClientRealm_get_destinationPorts$315;
-                return_value_ClientRealm_get_destinationPorts$315=ClientRealm_get_destinationPorts(pointer);
-                struct plnode *return_value_PortList_get_nth$316;
-                return_value_PortList_get_nth$316=PortList_get_nth(return_value_ClientRealm_get_destinationPorts$315, temp2);
-                char *return_value_PortListNode_get_portName$317;
-                return_value_PortListNode_get_portName$317=PortListNode_get_portName(return_value_PortList_get_nth$316);
-                char *return_value_ClientRealm_get_localDestinationName$318;
-                return_value_ClientRealm_get_localDestinationName$318=ClientRealm_get_localDestinationName(pointer);
-                signed int return_value_ip_connect$319;
-                return_value_ip_connect$319=ip_connect(&temp, return_value_ClientRealm_get_hostName$314, return_value_PortListNode_get_portName$317, ipFamily, return_value_ClientRealm_get_localDestinationName$318, (const char *)(void *)0);
-                if(!(return_value_ip_connect$319 == 0))
+                char *return_value_ClientRealm_get_hostName_314;
+                return_value_ClientRealm_get_hostName_314=ClientRealm_get_hostName(pointer);
+                struct portlist *return_value_ClientRealm_get_destinationPorts_315;
+                return_value_ClientRealm_get_destinationPorts_315=ClientRealm_get_destinationPorts(pointer);
+                struct plnode *return_value_PortList_get_nth_316;
+                return_value_PortList_get_nth_316=PortList_get_nth(return_value_ClientRealm_get_destinationPorts_315, temp2);
+                char *return_value_PortListNode_get_portName_317;
+                return_value_PortListNode_get_portName_317=PortListNode_get_portName(return_value_PortList_get_nth_316);
+                char *return_value_ClientRealm_get_localDestinationName_318;
+                return_value_ClientRealm_get_localDestinationName_318=ClientRealm_get_localDestinationName(pointer);
+                signed int return_value_ip_connect_319;
+                return_value_ip_connect_319=ip_connect(&temp, return_value_ClientRealm_get_hostName_314, return_value_PortListNode_get_portName_317, ipFamily, return_value_ClientRealm_get_localDestinationName_318, (const char *)(void *)0);
+                if(!(return_value_ip_connect_319 == 0))
                 {
-                  char *return_value_ClientRealm_get_hostName$308;
-                  return_value_ClientRealm_get_hostName$308=ClientRealm_get_hostName(pointer);
-                  struct portlist *return_value_ClientRealm_get_destinationPorts$309;
-                  return_value_ClientRealm_get_destinationPorts$309=ClientRealm_get_destinationPorts(pointer);
-                  struct plnode *return_value_PortList_get_nth$310;
-                  return_value_PortList_get_nth$310=PortList_get_nth(return_value_ClientRealm_get_destinationPorts$309, temp2);
-                  char *return_value_PortListNode_get_portName$311;
-                  return_value_PortListNode_get_portName$311=PortListNode_get_portName(return_value_PortList_get_nth$310);
-                  aflog((char)1, (char)32, "user[%d]: CAN'T CONNECT to %s:%s - DROPPING", numofcon, return_value_ClientRealm_get_hostName$308, return_value_PortListNode_get_portName$311);
+                  char *return_value_ClientRealm_get_hostName_308;
+                  return_value_ClientRealm_get_hostName_308=ClientRealm_get_hostName(pointer);
+                  struct portlist *return_value_ClientRealm_get_destinationPorts_309;
+                  return_value_ClientRealm_get_destinationPorts_309=ClientRealm_get_destinationPorts(pointer);
+                  struct plnode *return_value_PortList_get_nth_310;
+                  return_value_PortList_get_nth_310=PortList_get_nth(return_value_ClientRealm_get_destinationPorts_309, temp2);
+                  char *return_value_PortListNode_get_portName_311;
+                  return_value_PortListNode_get_portName_311=PortListNode_get_portName(return_value_PortList_get_nth_310);
+                  aflog((char)1, (char)32, "user[%d]: CAN'T CONNECT to %s:%s - DROPPING", numofcon, return_value_ClientRealm_get_hostName_308, return_value_PortListNode_get_portName_311);
                   buff[(signed long int)0] = (unsigned char)12;
                   buff[(signed long int)1] = (unsigned char)(numofcon >> 8);
                   buff[(signed long int)2] = (unsigned char)numofcon;
-                  char return_value_ClientRealm_get_realmType$312;
-                  return_value_ClientRealm_get_realmType$312=ClientRealm_get_realmType(pointer);
-                  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$313;
-                  return_value_ClientRealm_get_masterSslFd$313=ClientRealm_get_masterSslFd(pointer);
-                  SslFd_send_message(return_value_ClientRealm_get_realmType$312, return_value_ClientRealm_get_masterSslFd$313, buff, 5);
+                  char return_value_ClientRealm_get_realmType_312;
+                  return_value_ClientRealm_get_realmType_312=ClientRealm_get_realmType(pointer);
+                  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_313;
+                  return_value_ClientRealm_get_masterSslFd_313=ClientRealm_get_masterSslFd(pointer);
+                  SslFd_send_message(return_value_ClientRealm_get_realmType_312, return_value_ClientRealm_get_masterSslFd_313, buff, 5);
                   goto __CPROVER_DUMP_L286;
                 }
 
                 ConnectUser_set_connFd(usersTable[(signed long int)numofcon], temp);
                 aflog((char)1, (char)4, "user[%d]: Setting connFd: %d", numofcon, temp);
-                signed int return_value_ConnectUser_get_connFd$320;
-                return_value_ConnectUser_get_connFd$320=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                temp2=fcntl(return_value_ConnectUser_get_connFd$320, 3, 0);
-                signed int return_value_ConnectUser_get_connFd$321;
-                return_value_ConnectUser_get_connFd$321=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                fcntl(return_value_ConnectUser_get_connFd$321, 4, temp2 | 04000);
-                signed int return_value_ConnectUser_get_connFd$322;
-                return_value_ConnectUser_get_connFd$322=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                signed int return_value_ConnectUser_get_connFd$323;
-                return_value_ConnectUser_get_connFd$323=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$322 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$322 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_ConnectUser_get_connFd$323 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
-                signed int return_value_ConnectUser_get_connFd$324;
-                return_value_ConnectUser_get_connFd$324=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                if(!(1 + return_value_ConnectUser_get_connFd$324 >= maxfdp1))
-                  tmp_if_expr$326 = maxfdp1;
+                signed int return_value_ConnectUser_get_connFd_320;
+                return_value_ConnectUser_get_connFd_320=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                temp2=fcntl(return_value_ConnectUser_get_connFd_320, 3, 0);
+                signed int return_value_ConnectUser_get_connFd_321;
+                return_value_ConnectUser_get_connFd_321=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                fcntl(return_value_ConnectUser_get_connFd_321, 4, temp2 | 04000);
+                signed int return_value_ConnectUser_get_connFd_322;
+                return_value_ConnectUser_get_connFd_322=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                signed int return_value_ConnectUser_get_connFd_323;
+                return_value_ConnectUser_get_connFd_323=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_322 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_322 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_ConnectUser_get_connFd_323 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
+                signed int return_value_ConnectUser_get_connFd_324;
+                return_value_ConnectUser_get_connFd_324=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                if(!(1 + return_value_ConnectUser_get_connFd_324 >= maxfdp1))
+                  tmp_if_expr_326 = maxfdp1;
 
                 else
                 {
-                  return_value_ConnectUser_get_connFd$325=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                  tmp_if_expr$326 = return_value_ConnectUser_get_connFd$325 + 1;
+                  return_value_ConnectUser_get_connFd_325=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                  tmp_if_expr_326 = return_value_ConnectUser_get_connFd_325 + 1;
                 }
-                maxfdp1 = tmp_if_expr$326;
+                maxfdp1 = tmp_if_expr_326;
                 buff[(signed long int)0] = (unsigned char)2;
                 buff[(signed long int)1] = (unsigned char)(numofcon >> 8);
                 buff[(signed long int)2] = (unsigned char)numofcon;
-                char return_value_ClientRealm_get_realmType$327;
-                return_value_ClientRealm_get_realmType$327=ClientRealm_get_realmType(pointer);
-                struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$328;
-                return_value_ClientRealm_get_masterSslFd$328=ClientRealm_get_masterSslFd(pointer);
-                SslFd_send_message(return_value_ClientRealm_get_realmType$327, return_value_ClientRealm_get_masterSslFd$328, buff, 5);
+                char return_value_ClientRealm_get_realmType_327;
+                return_value_ClientRealm_get_realmType_327=ClientRealm_get_realmType(pointer);
+                struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_328;
+                return_value_ClientRealm_get_masterSslFd_328=ClientRealm_get_masterSslFd(pointer);
+                SslFd_send_message(return_value_ClientRealm_get_realmType_327, return_value_ClientRealm_get_masterSslFd_328, buff, 5);
                 ConnectUser_set_state(usersTable[(signed long int)numofcon], (char)7);
               }
 
@@ -15215,29 +15215,29 @@ signed int main(signed int argc, char **argv)
         {
           aflog((char)1, (char)4, "user[%d]: AF_S_MESSAGE", numofcon);
           aflog((char)1, (char)2, "user[%d]: FROM msglen: %d", numofcon, length);
-          return_value_ClientRealm_get_realmType$331=ClientRealm_get_realmType(pointer);
-          return_value_ClientRealm_get_masterSslFd$332=ClientRealm_get_masterSslFd(pointer);
-          n=SslFd_get_message(return_value_ClientRealm_get_realmType$331, return_value_ClientRealm_get_masterSslFd$332, buff, length);
+          return_value_ClientRealm_get_realmType_331=ClientRealm_get_realmType(pointer);
+          return_value_ClientRealm_get_masterSslFd_332=ClientRealm_get_masterSslFd(pointer);
+          n=SslFd_get_message(return_value_ClientRealm_get_realmType_331, return_value_ClientRealm_get_masterSslFd_332, buff, length);
           if(numofcon >= 0)
           {
-            return_value_ClientRealm_get_usersLimit$390=ClientRealm_get_usersLimit(pointer);
-            if(return_value_ClientRealm_get_usersLimit$390 >= numofcon)
+            return_value_ClientRealm_get_usersLimit_390=ClientRealm_get_usersLimit(pointer);
+            if(return_value_ClientRealm_get_usersLimit_390 >= numofcon)
             {
-              char return_value_ConnectUser_get_state$389;
-              return_value_ConnectUser_get_state$389=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
-              if((signed int)return_value_ConnectUser_get_state$389 == 7)
+              char return_value_ConnectUser_get_state_389;
+              return_value_ConnectUser_get_state_389=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
+              if((signed int)return_value_ConnectUser_get_state_389 == 7)
               {
-                struct anonymous$6 *return_value_ClientRealm_get_userModule$359;
-                return_value_ClientRealm_get_userModule$359=ClientRealm_get_userModule(pointer);
-                signed int return_value_Module_isModuleLoaded$360;
-                return_value_Module_isModuleLoaded$360=Module_isModuleLoaded(return_value_ClientRealm_get_userModule$359);
-                if(!(return_value_Module_isModuleLoaded$360 == 0))
+                struct anonymous_6 *return_value_ClientRealm_get_userModule_359;
+                return_value_ClientRealm_get_userModule_359=ClientRealm_get_userModule(pointer);
+                signed int return_value_Module_isModuleLoaded_360;
+                return_value_Module_isModuleLoaded_360=Module_isModuleLoaded(return_value_ClientRealm_get_userModule_359);
+                if(!(return_value_Module_isModuleLoaded_360 == 0))
                 {
-                  struct anonymous$6 *return_value_ClientRealm_get_userModule$333;
-                  return_value_ClientRealm_get_userModule$333=ClientRealm_get_userModule(pointer);
-                  char *return_value_ConnectUser_get_nameBuf$334;
-                  return_value_ConnectUser_get_nameBuf$334=ConnectUser_get_nameBuf(usersTable[(signed long int)numofcon]);
-                  temp2=Module_function_filter(return_value_ClientRealm_get_userModule$333, return_value_ConnectUser_get_nameBuf$334, buff, &n);
+                  struct anonymous_6 *return_value_ClientRealm_get_userModule_333;
+                  return_value_ClientRealm_get_userModule_333=ClientRealm_get_userModule(pointer);
+                  char *return_value_ConnectUser_get_nameBuf_334;
+                  return_value_ConnectUser_get_nameBuf_334=ConnectUser_get_nameBuf(usersTable[(signed long int)numofcon]);
+                  temp2=Module_function_filter(return_value_ClientRealm_get_userModule_333, return_value_ConnectUser_get_nameBuf_334, buff, &n);
                   switch(temp2)
                   {
                     case 1:
@@ -15247,18 +15247,18 @@ signed int main(signed int argc, char **argv)
                       aflog((char)1, (char)32, "user[%d]: PACKET IGNORED BY MODULE", numofcon);
                       if(temp2 == 4)
                       {
-                        struct anonymous$6 *return_value_ClientRealm_get_userModule$335;
-                        return_value_ClientRealm_get_userModule$335=ClientRealm_get_userModule(pointer);
-                        char *return_value_Module_get_fileName$336;
-                        return_value_Module_get_fileName$336=Module_get_fileName(return_value_ClientRealm_get_userModule$335);
-                        struct anonymous$6 *return_value_ClientRealm_get_userModule$337;
-                        return_value_ClientRealm_get_userModule$337=ClientRealm_get_userModule(pointer);
-                        char *return_value_Module_function_info$338;
-                        return_value_Module_function_info$338=Module_function_info(return_value_ClientRealm_get_userModule$337);
-                        aflog((char)16, (char)8, "RELEASED MODULE: %s INFO: %s", return_value_Module_get_fileName$336, return_value_Module_function_info$338);
-                        struct anonymous$6 *return_value_ClientRealm_get_userModule$339;
-                        return_value_ClientRealm_get_userModule$339=ClientRealm_get_userModule(pointer);
-                        Module_releaseModule(return_value_ClientRealm_get_userModule$339);
+                        struct anonymous_6 *return_value_ClientRealm_get_userModule_335;
+                        return_value_ClientRealm_get_userModule_335=ClientRealm_get_userModule(pointer);
+                        char *return_value_Module_get_fileName_336;
+                        return_value_Module_get_fileName_336=Module_get_fileName(return_value_ClientRealm_get_userModule_335);
+                        struct anonymous_6 *return_value_ClientRealm_get_userModule_337;
+                        return_value_ClientRealm_get_userModule_337=ClientRealm_get_userModule(pointer);
+                        char *return_value_Module_function_info_338;
+                        return_value_Module_function_info_338=Module_function_info(return_value_ClientRealm_get_userModule_337);
+                        aflog((char)16, (char)8, "RELEASED MODULE: %s INFO: %s", return_value_Module_get_fileName_336, return_value_Module_function_info_338);
+                        struct anonymous_6 *return_value_ClientRealm_get_userModule_339;
+                        return_value_ClientRealm_get_userModule_339=ClientRealm_get_userModule(pointer);
+                        Module_releaseModule(return_value_ClientRealm_get_userModule_339);
                       }
 
                       goto __CPROVER_DUMP_L286;
@@ -15268,52 +15268,52 @@ signed int main(signed int argc, char **argv)
                     case 5:
                     {
                       aflog((char)1, (char)16, "user[%d]: DROPPED BY MODULE", numofcon);
-                      return_value_ConnectUser_get_connFd$340=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      close(return_value_ConnectUser_get_connFd$340);
-                      return_value_ConnectUser_get_connFd$341=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", numofcon, return_value_ConnectUser_get_connFd$341);
-                      return_value_ConnectUser_get_connFd$342=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      return_value_ConnectUser_get_connFd$343=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$342 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$342 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$343 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-                      return_value_ConnectUser_get_connFd$344=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      return_value_ConnectUser_get_connFd$345=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$344 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$344 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$345 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                      return_value_ConnectUser_get_connFd_340=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      close(return_value_ConnectUser_get_connFd_340);
+                      return_value_ConnectUser_get_connFd_341=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", numofcon, return_value_ConnectUser_get_connFd_341);
+                      return_value_ConnectUser_get_connFd_342=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      return_value_ConnectUser_get_connFd_343=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_342 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_342 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_343 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                      return_value_ConnectUser_get_connFd_344=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      return_value_ConnectUser_get_connFd_345=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_344 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_344 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_345 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
                       ConnectUser_set_state(usersTable[(signed long int)numofcon], (char)5);
-                      return_value_ConnectUser_get_bufList$346=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
-                      BufList_clear(return_value_ConnectUser_get_bufList$346);
+                      return_value_ConnectUser_get_bufList_346=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
+                      BufList_clear(return_value_ConnectUser_get_bufList_346);
                       buff[(signed long int)0] = (unsigned char)1;
                       buff[(signed long int)1] = (unsigned char)(numofcon >> 8);
                       buff[(signed long int)2] = (unsigned char)numofcon;
-                      return_value_ClientRealm_get_realmType$347=ClientRealm_get_realmType(pointer);
-                      return_value_ClientRealm_get_masterSslFd$348=ClientRealm_get_masterSslFd(pointer);
-                      SslFd_send_message(return_value_ClientRealm_get_realmType$347, return_value_ClientRealm_get_masterSslFd$348, buff, 5);
+                      return_value_ClientRealm_get_realmType_347=ClientRealm_get_realmType(pointer);
+                      return_value_ClientRealm_get_masterSslFd_348=ClientRealm_get_masterSslFd(pointer);
+                      SslFd_send_message(return_value_ClientRealm_get_realmType_347, return_value_ClientRealm_get_masterSslFd_348, buff, 5);
                       if(temp2 == 5)
                       {
-                        struct anonymous$6 *return_value_ClientRealm_get_userModule$349;
-                        return_value_ClientRealm_get_userModule$349=ClientRealm_get_userModule(pointer);
-                        char *return_value_Module_get_fileName$350;
-                        return_value_Module_get_fileName$350=Module_get_fileName(return_value_ClientRealm_get_userModule$349);
-                        struct anonymous$6 *return_value_ClientRealm_get_userModule$351;
-                        return_value_ClientRealm_get_userModule$351=ClientRealm_get_userModule(pointer);
-                        char *return_value_Module_function_info$352;
-                        return_value_Module_function_info$352=Module_function_info(return_value_ClientRealm_get_userModule$351);
-                        aflog((char)16, (char)8, "RELEASED MODULE: %s INFO: %s", return_value_Module_get_fileName$350, return_value_Module_function_info$352);
-                        struct anonymous$6 *return_value_ClientRealm_get_userModule$353;
-                        return_value_ClientRealm_get_userModule$353=ClientRealm_get_userModule(pointer);
-                        Module_releaseModule(return_value_ClientRealm_get_userModule$353);
+                        struct anonymous_6 *return_value_ClientRealm_get_userModule_349;
+                        return_value_ClientRealm_get_userModule_349=ClientRealm_get_userModule(pointer);
+                        char *return_value_Module_get_fileName_350;
+                        return_value_Module_get_fileName_350=Module_get_fileName(return_value_ClientRealm_get_userModule_349);
+                        struct anonymous_6 *return_value_ClientRealm_get_userModule_351;
+                        return_value_ClientRealm_get_userModule_351=ClientRealm_get_userModule(pointer);
+                        char *return_value_Module_function_info_352;
+                        return_value_Module_function_info_352=Module_function_info(return_value_ClientRealm_get_userModule_351);
+                        aflog((char)16, (char)8, "RELEASED MODULE: %s INFO: %s", return_value_Module_get_fileName_350, return_value_Module_function_info_352);
+                        struct anonymous_6 *return_value_ClientRealm_get_userModule_353;
+                        return_value_ClientRealm_get_userModule_353=ClientRealm_get_userModule(pointer);
+                        Module_releaseModule(return_value_ClientRealm_get_userModule_353);
                       }
 
                       goto __CPROVER_DUMP_L286;
                     }
                     case 3:
                     {
-                      return_value_ClientRealm_get_userModule$354=ClientRealm_get_userModule(pointer);
-                      return_value_Module_get_fileName$355=Module_get_fileName(return_value_ClientRealm_get_userModule$354);
-                      return_value_ClientRealm_get_userModule$356=ClientRealm_get_userModule(pointer);
-                      return_value_Module_function_info$357=Module_function_info(return_value_ClientRealm_get_userModule$356);
-                      aflog((char)16, (char)8, "RELEASED MODULE: %s INFO: %s", return_value_Module_get_fileName$355, return_value_Module_function_info$357);
-                      return_value_ClientRealm_get_userModule$358=ClientRealm_get_userModule(pointer);
-                      Module_releaseModule(return_value_ClientRealm_get_userModule$358);
+                      return_value_ClientRealm_get_userModule_354=ClientRealm_get_userModule(pointer);
+                      return_value_Module_get_fileName_355=Module_get_fileName(return_value_ClientRealm_get_userModule_354);
+                      return_value_ClientRealm_get_userModule_356=ClientRealm_get_userModule(pointer);
+                      return_value_Module_function_info_357=Module_function_info(return_value_ClientRealm_get_userModule_356);
+                      aflog((char)16, (char)8, "RELEASED MODULE: %s INFO: %s", return_value_Module_get_fileName_355, return_value_Module_function_info_357);
+                      return_value_ClientRealm_get_userModule_358=ClientRealm_get_userModule(pointer);
+                      Module_releaseModule(return_value_ClientRealm_get_userModule_358);
                     }
                     default:
                       ;
@@ -15321,100 +15321,100 @@ signed int main(signed int argc, char **argv)
                 }
 
                 aflog((char)1, (char)2, "user[%d]: FROM msglen: %d SENT", numofcon, n);
-                signed int return_value_ConnectUser_get_connFd$361;
-                return_value_ConnectUser_get_connFd$361=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                signed long int return_value_write$362;
-                return_value_write$362=write(return_value_ConnectUser_get_connFd$361, (const void *)buff, (unsigned long int)n);
-                temp2 = (signed int)return_value_write$362;
+                signed int return_value_ConnectUser_get_connFd_361;
+                return_value_ConnectUser_get_connFd_361=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                signed long int return_value_write_362;
+                return_value_write_362=write(return_value_ConnectUser_get_connFd_361, (const void *)buff, (unsigned long int)n);
+                temp2 = (signed int)return_value_write_362;
                 if(temp2 >= 1 && !(temp2 == n))
                 {
-                  struct buflist *return_value_ConnectUser_get_bufList$363;
-                  return_value_ConnectUser_get_bufList$363=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
-                  struct blnode *return_value_BufListNode_new_message$364;
-                  return_value_BufListNode_new_message$364=BufListNode_new_message(temp2, n, buff);
-                  BufList_insert_back(return_value_ConnectUser_get_bufList$363, return_value_BufListNode_new_message$364);
+                  struct buflist *return_value_ConnectUser_get_bufList_363;
+                  return_value_ConnectUser_get_bufList_363=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
+                  struct blnode *return_value_BufListNode_new_message_364;
+                  return_value_BufListNode_new_message_364=BufListNode_new_message(temp2, n, buff);
+                  BufList_insert_back(return_value_ConnectUser_get_bufList_363, return_value_BufListNode_new_message_364);
                   ConnectUser_set_state(usersTable[(signed long int)numofcon], (char)11);
-                  signed int return_value_ConnectUser_get_connFd$365;
-                  return_value_ConnectUser_get_connFd$365=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                  signed int return_value_ConnectUser_get_connFd$366;
-                  return_value_ConnectUser_get_connFd$366=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                  (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$365 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$365 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_ConnectUser_get_connFd$366 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
+                  signed int return_value_ConnectUser_get_connFd_365;
+                  return_value_ConnectUser_get_connFd_365=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                  signed int return_value_ConnectUser_get_connFd_366;
+                  return_value_ConnectUser_get_connFd_366=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                  (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_365 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_365 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_ConnectUser_get_connFd_366 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
                   buff[(signed long int)0] = (unsigned char)9;
                   buff[(signed long int)1] = (unsigned char)(numofcon >> 8);
                   buff[(signed long int)2] = (unsigned char)numofcon;
                   aflog((char)1, (char)4, "FROM user[%d]: BUFFERING MESSAGE STARTED", numofcon);
-                  char return_value_ClientRealm_get_realmType$367;
-                  return_value_ClientRealm_get_realmType$367=ClientRealm_get_realmType(pointer);
-                  struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$368;
-                  return_value_ClientRealm_get_masterSslFd$368=ClientRealm_get_masterSslFd(pointer);
-                  SslFd_send_message(return_value_ClientRealm_get_realmType$367, return_value_ClientRealm_get_masterSslFd$368, buff, 5);
+                  char return_value_ClientRealm_get_realmType_367;
+                  return_value_ClientRealm_get_realmType_367=ClientRealm_get_realmType(pointer);
+                  struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_368;
+                  return_value_ClientRealm_get_masterSslFd_368=ClientRealm_get_masterSslFd(pointer);
+                  SslFd_send_message(return_value_ClientRealm_get_realmType_367, return_value_ClientRealm_get_masterSslFd_368, buff, 5);
                 }
 
                 else
                 {
                   if(temp2 == -1)
                   {
-                    return_value___errno_location$384=__errno_location();
-                    tmp_if_expr$385 = *return_value___errno_location$384 == 11 ? (_Bool)1 : (_Bool)0;
+                    return_value___errno_location_384=__errno_location();
+                    tmp_if_expr_385 = *return_value___errno_location_384 == 11 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$385 = (_Bool)0;
-                  if(tmp_if_expr$385)
+                    tmp_if_expr_385 = (_Bool)0;
+                  if(tmp_if_expr_385)
                   {
-                    struct buflist *return_value_ConnectUser_get_bufList$369;
-                    return_value_ConnectUser_get_bufList$369=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
-                    struct blnode *return_value_BufListNode_new_message$370;
-                    return_value_BufListNode_new_message$370=BufListNode_new_message(0, n, buff);
-                    BufList_insert_back(return_value_ConnectUser_get_bufList$369, return_value_BufListNode_new_message$370);
+                    struct buflist *return_value_ConnectUser_get_bufList_369;
+                    return_value_ConnectUser_get_bufList_369=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
+                    struct blnode *return_value_BufListNode_new_message_370;
+                    return_value_BufListNode_new_message_370=BufListNode_new_message(0, n, buff);
+                    BufList_insert_back(return_value_ConnectUser_get_bufList_369, return_value_BufListNode_new_message_370);
                     ConnectUser_set_state(usersTable[(signed long int)numofcon], (char)11);
-                    signed int return_value_ConnectUser_get_connFd$371;
-                    return_value_ConnectUser_get_connFd$371=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                    signed int return_value_ConnectUser_get_connFd$372;
-                    return_value_ConnectUser_get_connFd$372=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                    (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$371 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$371 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_ConnectUser_get_connFd$372 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
+                    signed int return_value_ConnectUser_get_connFd_371;
+                    return_value_ConnectUser_get_connFd_371=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                    signed int return_value_ConnectUser_get_connFd_372;
+                    return_value_ConnectUser_get_connFd_372=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                    (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_371 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_371 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_ConnectUser_get_connFd_372 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
                     buff[(signed long int)0] = (unsigned char)9;
                     buff[(signed long int)1] = (unsigned char)(numofcon >> 8);
                     buff[(signed long int)2] = (unsigned char)numofcon;
                     aflog((char)1, (char)4, "FROM user[%d]: BUFFERING MESSAGE STARTED", numofcon);
-                    char return_value_ClientRealm_get_realmType$373;
-                    return_value_ClientRealm_get_realmType$373=ClientRealm_get_realmType(pointer);
-                    struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$374;
-                    return_value_ClientRealm_get_masterSslFd$374=ClientRealm_get_masterSslFd(pointer);
-                    SslFd_send_message(return_value_ClientRealm_get_realmType$373, return_value_ClientRealm_get_masterSslFd$374, buff, 5);
+                    char return_value_ClientRealm_get_realmType_373;
+                    return_value_ClientRealm_get_realmType_373=ClientRealm_get_realmType(pointer);
+                    struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_374;
+                    return_value_ClientRealm_get_masterSslFd_374=ClientRealm_get_masterSslFd(pointer);
+                    SslFd_send_message(return_value_ClientRealm_get_realmType_373, return_value_ClientRealm_get_masterSslFd_374, buff, 5);
                   }
 
                   else
                     if(temp2 == -1)
                     {
-                      signed int return_value_ConnectUser_get_connFd$375;
-                      return_value_ConnectUser_get_connFd$375=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      close(return_value_ConnectUser_get_connFd$375);
-                      signed int return_value_ConnectUser_get_connFd$376;
-                      return_value_ConnectUser_get_connFd$376=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", numofcon, return_value_ConnectUser_get_connFd$376);
-                      signed int return_value_ConnectUser_get_connFd$377;
-                      return_value_ConnectUser_get_connFd$377=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      signed int return_value_ConnectUser_get_connFd$378;
-                      return_value_ConnectUser_get_connFd$378=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$377 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$377 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$378 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-                      signed int return_value_ConnectUser_get_connFd$379;
-                      return_value_ConnectUser_get_connFd$379=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      signed int return_value_ConnectUser_get_connFd$380;
-                      return_value_ConnectUser_get_connFd$380=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-                      (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$379 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$379 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$380 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                      signed int return_value_ConnectUser_get_connFd_375;
+                      return_value_ConnectUser_get_connFd_375=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      close(return_value_ConnectUser_get_connFd_375);
+                      signed int return_value_ConnectUser_get_connFd_376;
+                      return_value_ConnectUser_get_connFd_376=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      aflog((char)1, (char)4, "user[%d]: Closing connFd: %d", numofcon, return_value_ConnectUser_get_connFd_376);
+                      signed int return_value_ConnectUser_get_connFd_377;
+                      return_value_ConnectUser_get_connFd_377=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      signed int return_value_ConnectUser_get_connFd_378;
+                      return_value_ConnectUser_get_connFd_378=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_377 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_377 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_378 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+                      signed int return_value_ConnectUser_get_connFd_379;
+                      return_value_ConnectUser_get_connFd_379=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      signed int return_value_ConnectUser_get_connFd_380;
+                      return_value_ConnectUser_get_connFd_380=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+                      (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_379 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_379 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_380 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
                       ConnectUser_set_state(usersTable[(signed long int)numofcon], (char)5);
-                      struct buflist *return_value_ConnectUser_get_bufList$381;
-                      return_value_ConnectUser_get_bufList$381=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
-                      BufList_clear(return_value_ConnectUser_get_bufList$381);
+                      struct buflist *return_value_ConnectUser_get_bufList_381;
+                      return_value_ConnectUser_get_bufList_381=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
+                      BufList_clear(return_value_ConnectUser_get_bufList_381);
                       buff[(signed long int)0] = (unsigned char)1;
                       buff[(signed long int)1] = (unsigned char)(numofcon >> 8);
                       buff[(signed long int)2] = (unsigned char)numofcon;
-                      char return_value_ClientRealm_get_realmType$382;
-                      return_value_ClientRealm_get_realmType$382=ClientRealm_get_realmType(pointer);
-                      struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$383;
-                      return_value_ClientRealm_get_masterSslFd$383=ClientRealm_get_masterSslFd(pointer);
-                      SslFd_send_message(return_value_ClientRealm_get_realmType$382, return_value_ClientRealm_get_masterSslFd$383, buff, 5);
+                      char return_value_ClientRealm_get_realmType_382;
+                      return_value_ClientRealm_get_realmType_382=ClientRealm_get_realmType(pointer);
+                      struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_383;
+                      return_value_ClientRealm_get_masterSslFd_383=ClientRealm_get_masterSslFd(pointer);
+                      SslFd_send_message(return_value_ClientRealm_get_realmType_382, return_value_ClientRealm_get_masterSslFd_383, buff, 5);
                     }
 
                 }
@@ -15422,15 +15422,15 @@ signed int main(signed int argc, char **argv)
 
               else
               {
-                return_value_ConnectUser_get_state$388=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
-                if((signed int)return_value_ConnectUser_get_state$388 == 11)
+                return_value_ConnectUser_get_state_388=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
+                if((signed int)return_value_ConnectUser_get_state_388 == 11)
                 {
                   aflog((char)1, (char)4, "FROM user[%d]: BUFFERING MESSAGE", numofcon);
-                  struct buflist *return_value_ConnectUser_get_bufList$386;
-                  return_value_ConnectUser_get_bufList$386=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
-                  struct blnode *return_value_BufListNode_new_message$387;
-                  return_value_BufListNode_new_message$387=BufListNode_new_message(0, n, buff);
-                  BufList_insert_back(return_value_ConnectUser_get_bufList$386, return_value_BufListNode_new_message$387);
+                  struct buflist *return_value_ConnectUser_get_bufList_386;
+                  return_value_ConnectUser_get_bufList_386=ConnectUser_get_bufList(usersTable[(signed long int)numofcon]);
+                  struct blnode *return_value_BufListNode_new_message_387;
+                  return_value_BufListNode_new_message_387=BufListNode_new_message(0, n, buff);
+                  BufList_insert_back(return_value_ConnectUser_get_bufList_386, return_value_BufListNode_new_message_387);
                 }
 
               }
@@ -15443,11 +15443,11 @@ signed int main(signed int argc, char **argv)
         case 4:
         {
           n = 0;
-          return_value_ClientRealm_get_arOptions$391=ClientRealm_get_arOptions(pointer);
-          i=ArOptions_get_arTries(return_value_ClientRealm_get_arOptions$391);
-          return_value_ClientRealm_get_arOptions$392=ClientRealm_get_arOptions(pointer);
-          return_value_ArOptions_get_arQuit$393=ArOptions_get_arQuit(return_value_ClientRealm_get_arOptions$392);
-          if((signed int)return_value_ArOptions_get_arQuit$393 == 0)
+          return_value_ClientRealm_get_arOptions_391=ClientRealm_get_arOptions(pointer);
+          i=ArOptions_get_arTries(return_value_ClientRealm_get_arOptions_391);
+          return_value_ClientRealm_get_arOptions_392=ClientRealm_get_arOptions(pointer);
+          return_value_ArOptions_get_arQuit_393=ArOptions_get_arQuit(return_value_ClientRealm_get_arOptions_392);
+          if((signed int)return_value_ArOptions_get_arQuit_393 == 0)
             i = 0;
 
           if(!(i == 0))
@@ -15456,46 +15456,46 @@ signed int main(signed int argc, char **argv)
           while(!(i == 0))
           {
             ClientRealm_closeUsersConnections(pointer);
-            struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$394;
-            return_value_ClientRealm_get_masterSslFd$394=ClientRealm_get_masterSslFd(pointer);
-            signed int return_value_SslFd_get_fd$395;
-            return_value_SslFd_get_fd$395=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd$394);
-            close(return_value_SslFd_get_fd$395);
-            struct anonymous$0 *return_value_ClientRealm_get_masterSslFd$396;
-            return_value_ClientRealm_get_masterSslFd$396=ClientRealm_get_masterSslFd(pointer);
-            SslFd_set_ssl(return_value_ClientRealm_get_masterSslFd$396, (struct ssl_st *)(void *)0);
-            struct anonymous$3 *return_value_ClientRealm_get_arOptions$397;
-            return_value_ClientRealm_get_arOptions$397=ClientRealm_get_arOptions(pointer);
-            signed int return_value_ArOptions_get_arDelay$398;
-            return_value_ArOptions_get_arDelay$398=ArOptions_get_arDelay(return_value_ClientRealm_get_arOptions$397);
-            mysleep((double)return_value_ArOptions_get_arDelay$398);
+            struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_394;
+            return_value_ClientRealm_get_masterSslFd_394=ClientRealm_get_masterSslFd(pointer);
+            signed int return_value_SslFd_get_fd_395;
+            return_value_SslFd_get_fd_395=SslFd_get_fd(return_value_ClientRealm_get_masterSslFd_394);
+            close(return_value_SslFd_get_fd_395);
+            struct anonymous_0 *return_value_ClientRealm_get_masterSslFd_396;
+            return_value_ClientRealm_get_masterSslFd_396=ClientRealm_get_masterSslFd(pointer);
+            SslFd_set_ssl(return_value_ClientRealm_get_masterSslFd_396, (struct ssl_st *)(void *)0);
+            struct anonymous_3 *return_value_ClientRealm_get_arOptions_397;
+            return_value_ClientRealm_get_arOptions_397=ClientRealm_get_arOptions(pointer);
+            signed int return_value_ArOptions_get_arDelay_398;
+            return_value_ArOptions_get_arDelay_398=ArOptions_get_arDelay(return_value_ClientRealm_get_arOptions_397);
+            mysleep((double)return_value_ArOptions_get_arDelay_398);
             aflog((char)2, (char)8, "Trying to reconnect...");
             temp2 = 0;
             if(temp2 == 0)
             {
-              char return_value_ClientConfiguration_get_ignorePublicKeys$399;
-              return_value_ClientConfiguration_get_ignorePublicKeys$399=ClientConfiguration_get_ignorePublicKeys(cconfig);
-              signed int return_value_initialize_client_stage1$400;
-              return_value_initialize_client_stage1$400=initialize_client_stage1(pointer, ctx, buff, (char)0, return_value_ClientConfiguration_get_ignorePublicKeys$399);
-              if(!(return_value_initialize_client_stage1$400 == 0))
+              char return_value_ClientConfiguration_get_ignorePublicKeys_399;
+              return_value_ClientConfiguration_get_ignorePublicKeys_399=ClientConfiguration_get_ignorePublicKeys(cconfig);
+              signed int return_value_initialize_client_stage1_400;
+              return_value_initialize_client_stage1_400=initialize_client_stage1(pointer, ctx, buff, (char)0, return_value_ClientConfiguration_get_ignorePublicKeys_399);
+              if(!(return_value_initialize_client_stage1_400 == 0))
                 temp2 = 1;
 
             }
 
             if(temp2 == 0)
             {
-              signed int return_value_initialize_client_stage2$401;
-              return_value_initialize_client_stage2$401=initialize_client_stage2(pointer, buff, (char)0);
-              if(!(return_value_initialize_client_stage2$401 == 0))
+              signed int return_value_initialize_client_stage2_401;
+              return_value_initialize_client_stage2_401=initialize_client_stage2(pointer, buff, (char)0);
+              if(!(return_value_initialize_client_stage2_401 == 0))
                 temp2 = 1;
 
             }
 
             if(temp2 == 0)
             {
-              signed int return_value_initialize_client_stage3$402;
-              return_value_initialize_client_stage3$402=initialize_client_stage3(pointer, &buflength, &allset, &wset, &maxfdp1, (char)0);
-              if(!(return_value_initialize_client_stage3$402 == 0))
+              signed int return_value_initialize_client_stage3_402;
+              return_value_initialize_client_stage3_402=initialize_client_stage3(pointer, &buflength, &allset, &wset, &maxfdp1, (char)0);
+              if(!(return_value_initialize_client_stage3_402 == 0))
                 temp2 = 1;
 
             }
@@ -15516,9 +15516,9 @@ signed int main(signed int argc, char **argv)
           }
           if(n == 0)
           {
-            signed long int return_value_getcg$403;
-            return_value_getcg$403=getcg();
-            aflog((char)2, (char)8, "SERVER: CLOSED -> exiting... cg: %ld bytes", return_value_getcg$403);
+            signed long int return_value_getcg_403;
+            return_value_getcg_403=getcg();
+            aflog((char)2, (char)8, "SERVER: CLOSED -> exiting... cg: %ld bytes", return_value_getcg_403);
             exit(1);
           }
 
@@ -15526,23 +15526,23 @@ signed int main(signed int argc, char **argv)
         }
         case 9:
         {
-          return_value_ConnectUser_get_state$406=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
-          if((signed int)return_value_ConnectUser_get_state$406 == 7)
-            tmp_if_expr$408 = (_Bool)1;
+          return_value_ConnectUser_get_state_406=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
+          if((signed int)return_value_ConnectUser_get_state_406 == 7)
+            tmp_if_expr_408 = (_Bool)1;
 
           else
           {
-            return_value_ConnectUser_get_state$407=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
-            tmp_if_expr$408 = (signed int)return_value_ConnectUser_get_state$407 == 11 ? (_Bool)1 : (_Bool)0;
+            return_value_ConnectUser_get_state_407=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
+            tmp_if_expr_408 = (signed int)return_value_ConnectUser_get_state_407 == 11 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$408)
+          if(tmp_if_expr_408)
           {
             aflog((char)1, (char)2, "user[%d]: AF_S_DONT_SEND", numofcon);
-            signed int return_value_ConnectUser_get_connFd$404;
-            return_value_ConnectUser_get_connFd$404=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-            signed int return_value_ConnectUser_get_connFd$405;
-            return_value_ConnectUser_get_connFd$405=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-            (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$404 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$404 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd$405 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+            signed int return_value_ConnectUser_get_connFd_404;
+            return_value_ConnectUser_get_connFd_404=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+            signed int return_value_ConnectUser_get_connFd_405;
+            return_value_ConnectUser_get_connFd_405=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+            (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_404 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_404 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)1 << return_value_ConnectUser_get_connFd_405 % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
           }
 
           else
@@ -15551,23 +15551,23 @@ signed int main(signed int argc, char **argv)
         }
         case 10:
         {
-          return_value_ConnectUser_get_state$411=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
-          if((signed int)return_value_ConnectUser_get_state$411 == 7)
-            tmp_if_expr$413 = (_Bool)1;
+          return_value_ConnectUser_get_state_411=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
+          if((signed int)return_value_ConnectUser_get_state_411 == 7)
+            tmp_if_expr_413 = (_Bool)1;
 
           else
           {
-            return_value_ConnectUser_get_state$412=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
-            tmp_if_expr$413 = (signed int)return_value_ConnectUser_get_state$412 == 11 ? (_Bool)1 : (_Bool)0;
+            return_value_ConnectUser_get_state_412=ConnectUser_get_state(usersTable[(signed long int)numofcon]);
+            tmp_if_expr_413 = (signed int)return_value_ConnectUser_get_state_412 == 11 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$413)
+          if(tmp_if_expr_413)
           {
             aflog((char)1, (char)2, "user[%d]: AF_S_CAN_SEND", numofcon);
-            signed int return_value_ConnectUser_get_connFd$409;
-            return_value_ConnectUser_get_connFd$409=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-            signed int return_value_ConnectUser_get_connFd$410;
-            return_value_ConnectUser_get_connFd$410=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
-            (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$409 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd$409 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_ConnectUser_get_connFd$410 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
+            signed int return_value_ConnectUser_get_connFd_409;
+            return_value_ConnectUser_get_connFd_409=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+            signed int return_value_ConnectUser_get_connFd_410;
+            return_value_ConnectUser_get_connFd_410=ConnectUser_get_connFd(usersTable[(signed long int)numofcon]);
+            (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_409 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&allset)->__fds_bits[(signed long int)(return_value_ConnectUser_get_connFd_409 / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << return_value_ConnectUser_get_connFd_410 % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
           }
 
           else
@@ -15576,8 +15576,8 @@ signed int main(signed int argc, char **argv)
         }
         default:
         {
-          return_value_getcg$414=getcg();
-          aflog((char)2, (char)64, "SERVER: unrecognized message -> exiting... cg: %ld bytes", return_value_getcg$414);
+          return_value_getcg_414=getcg();
+          aflog((char)2, (char)64, "SERVER: unrecognized message -> exiting... cg: %ld bytes", return_value_getcg_414);
           exit(1);
         }
       }
@@ -15592,17 +15592,17 @@ signed int main(signed int argc, char **argv)
 
 // make_ssl_accept
 // file make_ssl_handshake.c line 55
-signed int make_ssl_accept(struct anonymous$0 *sf)
+signed int make_ssl_accept(struct anonymous_0 *sf)
 {
   signed int result;
-  struct ssl_st *return_value_SslFd_get_ssl$2;
-  return_value_SslFd_get_ssl$2=SslFd_get_ssl(sf);
-  result=SSL_accept(return_value_SslFd_get_ssl$2);
+  struct ssl_st *return_value_SslFd_get_ssl_2;
+  return_value_SslFd_get_ssl_2=SslFd_get_ssl(sf);
+  result=SSL_accept(return_value_SslFd_get_ssl_2);
   if(!(result == 1))
   {
-    signed int return_value_get_ssl_error$1;
-    return_value_get_ssl_error$1=get_ssl_error(sf, "SSL_accept has failed", result);
-    return return_value_get_ssl_error$1;
+    signed int return_value_get_ssl_error_1;
+    return_value_get_ssl_error_1=get_ssl_error(sf, "SSL_accept has failed", result);
+    return return_value_get_ssl_error_1;
   }
 
   return 0;
@@ -15610,15 +15610,15 @@ signed int make_ssl_accept(struct anonymous$0 *sf)
 
 // make_ssl_initialize
 // file make_ssl_handshake.c line 37
-void make_ssl_initialize(struct anonymous$0 *sf)
+void make_ssl_initialize(struct anonymous_0 *sf)
 {
-  struct ssl_st *return_value_SslFd_get_ssl$1;
-  return_value_SslFd_get_ssl$1=SslFd_get_ssl(sf);
-  signed int return_value_SslFd_get_fd$2;
-  return_value_SslFd_get_fd$2=SslFd_get_fd(sf);
-  signed int return_value_SSL_set_fd$3;
-  return_value_SSL_set_fd$3=SSL_set_fd(return_value_SslFd_get_ssl$1, return_value_SslFd_get_fd$2);
-  if(!(return_value_SSL_set_fd$3 == 1))
+  struct ssl_st *return_value_SslFd_get_ssl_1;
+  return_value_SslFd_get_ssl_1=SslFd_get_ssl(sf);
+  signed int return_value_SslFd_get_fd_2;
+  return_value_SslFd_get_fd_2=SslFd_get_fd(sf);
+  signed int return_value_SSL_set_fd_3;
+  return_value_SSL_set_fd_3=SSL_set_fd(return_value_SslFd_get_ssl_1, return_value_SslFd_get_fd_2);
+  if(!(return_value_SSL_set_fd_3 == 1))
   {
     aflog((char)4, (char)1, "Problem with initializing ssl... exiting");
     exit(1);
@@ -15638,9 +15638,9 @@ signed int myrand(signed int down, signed int up)
     isseed = (char)1;
   }
 
-  signed int return_value_rand$1;
-  return_value_rand$1=rand();
-  return down + return_value_rand$1 % ((up - down) + 1);
+  signed int return_value_rand_1;
+  return_value_rand_1=rand();
+  return down + return_value_rand_1 % ((up - down) + 1);
 }
 
 // mysleep
@@ -15650,12 +15650,12 @@ void mysleep(double time)
   struct timeval tv;
   tv.tv_sec = (signed long int)(signed int)time;
   tv.tv_usec = (signed long int)((signed int)(time * (double)1000000) % 1000000);
-  select(0, (struct anonymous$11 *)(void *)0, (struct anonymous$11 *)(void *)0, (struct anonymous$11 *)(void *)0, &tv);
+  select(0, (struct anonymous_11 *)(void *)0, (struct anonymous_11 *)(void *)0, (struct anonymous_11 *)(void *)0, &tv);
 }
 
 // parse_header
 // file http_proxy_functions.c line 105
-signed int parse_header(struct anonymous$0 *sf, char *tab, struct anonymous$15 *hdr, char https)
+signed int parse_header(struct anonymous_0 *sf, char *tab, struct anonymous_15 *hdr, char https)
 {
   signed int n;
   signed int i;
@@ -15664,18 +15664,18 @@ signed int parse_header(struct anonymous$0 *sf, char *tab, struct anonymous$15 *
   char tmpt[100l];
   if(!(https == 0))
   {
-    struct ssl_st *return_value_SslFd_get_ssl$1;
-    return_value_SslFd_get_ssl$1=SslFd_get_ssl(sf);
-    n=SSL_read(return_value_SslFd_get_ssl$1, (void *)tab, 9000);
+    struct ssl_st *return_value_SslFd_get_ssl_1;
+    return_value_SslFd_get_ssl_1=SslFd_get_ssl(sf);
+    n=SSL_read(return_value_SslFd_get_ssl_1, (void *)tab, 9000);
   }
 
   else
   {
-    signed int return_value_SslFd_get_fd$2;
-    return_value_SslFd_get_fd$2=SslFd_get_fd(sf);
-    signed long int return_value_read$3;
-    return_value_read$3=read(return_value_SslFd_get_fd$2, (void *)tab, (unsigned long int)9000);
-    n = (signed int)return_value_read$3;
+    signed int return_value_SslFd_get_fd_2;
+    return_value_SslFd_get_fd_2=SslFd_get_fd(sf);
+    signed long int return_value_read_3;
+    return_value_read_3=read(return_value_SslFd_get_fd_2, (void *)tab, (unsigned long int)9000);
+    n = (signed int)return_value_read_3;
   }
   hdr->allreaded = n;
   j = 0;
@@ -15683,16 +15683,16 @@ signed int parse_header(struct anonymous$0 *sf, char *tab, struct anonymous$15 *
   memset((void *)tmpt, 0, (unsigned long int)100);
   hdr->ptr = 0;
   hdr->length = 0;
-  _Bool tmp_if_expr$13;
-  signed int tmp_statement_expression$4;
-  signed int tmp_statement_expression$6;
-  signed int tmp_statement_expression$8;
-  _Bool tmp_if_expr$12;
-  signed int tmp_statement_expression$10;
-  signed int tmp_statement_expression$14;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$19;
-  signed int tmp_statement_expression$17;
+  _Bool tmp_if_expr_13;
+  signed int tmp_statement_expression_4;
+  signed int tmp_statement_expression_6;
+  signed int tmp_statement_expression_8;
+  _Bool tmp_if_expr_12;
+  signed int tmp_statement_expression_10;
+  signed int tmp_statement_expression_14;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_19;
+  signed int tmp_statement_expression_17;
   for( ; !(i >= n); i = i + 1)
   {
     if(j == 99)
@@ -15703,11 +15703,11 @@ signed int parse_header(struct anonymous$0 *sf, char *tab, struct anonymous$15 *
       case 0:
       {
         if(!((signed int)tab[(signed long int)i] == 32))
-          tmp_if_expr$13 = (signed int)tab[(signed long int)i] != 9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (signed int)tab[(signed long int)i] != 9 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
         {
           tmpt[(signed long int)j] = tab[(signed long int)i];
           j = j + 1;
@@ -15716,24 +15716,24 @@ signed int parse_header(struct anonymous$0 *sf, char *tab, struct anonymous$15 *
         else
         {
           tmpt[(signed long int)j] = (char)0;
-          unsigned long int parse_header$$1$$3$$1$$2$$1$$__s1_len;
-          unsigned long int parse_header$$1$$3$$1$$2$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$5;
-          return_value___builtin_strcmp$5=__builtin_strcmp(tmpt, "GET");
-          tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-          if(tmp_statement_expression$4 == 0)
+          unsigned long int parse_header__1__3__1__2__1____s1_len;
+          unsigned long int parse_header__1__3__1__2__1____s2_len;
+          signed int return_value___builtin_strcmp_5;
+          return_value___builtin_strcmp_5=__builtin_strcmp(tmpt, "GET");
+          tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+          if(tmp_statement_expression_4 == 0)
           {
             hdr->type = (char)0;
             state = 1;
             break;
           }
 
-          unsigned long int parse_header$$1$$3$$1$$2$$3$$__s1_len;
-          unsigned long int parse_header$$1$$3$$1$$2$$3$$__s2_len;
-          signed int return_value___builtin_strcmp$7;
-          return_value___builtin_strcmp$7=__builtin_strcmp(tmpt, "POST");
-          tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-          if(tmp_statement_expression$6 == 0)
+          unsigned long int parse_header__1__3__1__2__3____s1_len;
+          unsigned long int parse_header__1__3__1__2__3____s2_len;
+          signed int return_value___builtin_strcmp_7;
+          return_value___builtin_strcmp_7=__builtin_strcmp(tmpt, "POST");
+          tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+          if(tmp_statement_expression_6 == 0)
           {
             hdr->type = (char)1;
             state = 1;
@@ -15742,22 +15742,22 @@ signed int parse_header(struct anonymous$0 *sf, char *tab, struct anonymous$15 *
 
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$9;
-          return_value___builtin_strcmp$9=__builtin_strcmp(tmpt, "HTTP/1.0");
-          tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-          if(tmp_statement_expression$8 == 0)
-            tmp_if_expr$12 = (_Bool)1;
+          signed int return_value___builtin_strcmp_9;
+          return_value___builtin_strcmp_9=__builtin_strcmp(tmpt, "HTTP/1.0");
+          tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+          if(tmp_statement_expression_8 == 0)
+            tmp_if_expr_12 = (_Bool)1;
 
           else
           {
-            unsigned long int parse_header$$1$$3$$1$$2$$6$$__s1_len;
-            unsigned long int parse_header$$1$$3$$1$$2$$6$$__s2_len;
-            signed int return_value___builtin_strcmp$11;
-            return_value___builtin_strcmp$11=__builtin_strcmp(tmpt, "HTTP/1.1");
-            tmp_statement_expression$10 = return_value___builtin_strcmp$11;
-            tmp_if_expr$12 = tmp_statement_expression$10 == 0 ? (_Bool)1 : (_Bool)0;
+            unsigned long int parse_header__1__3__1__2__6____s1_len;
+            unsigned long int parse_header__1__3__1__2__6____s2_len;
+            signed int return_value___builtin_strcmp_11;
+            return_value___builtin_strcmp_11=__builtin_strcmp(tmpt, "HTTP/1.1");
+            tmp_statement_expression_10 = return_value___builtin_strcmp_11;
+            tmp_if_expr_12 = tmp_statement_expression_10 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$12)
+          if(tmp_if_expr_12)
           {
             hdr->type = (char)2;
             state = 6;
@@ -15794,12 +15794,12 @@ signed int parse_header(struct anonymous$0 *sf, char *tab, struct anonymous$15 *
         else
         {
           tmpt[(signed long int)j] = (char)0;
-          unsigned long int parse_header$$1$$3$$1$$5$$1$$__s1_len;
-          unsigned long int parse_header$$1$$3$$1$$5$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$15;
-          return_value___builtin_strcmp$15=__builtin_strcmp(tmpt, "/yahpt.html?id");
-          tmp_statement_expression$14 = return_value___builtin_strcmp$15;
-          if(!(tmp_statement_expression$14 == 0))
+          unsigned long int parse_header__1__3__1__5__1____s1_len;
+          unsigned long int parse_header__1__3__1__5__1____s2_len;
+          signed int return_value___builtin_strcmp_15;
+          return_value___builtin_strcmp_15=__builtin_strcmp(tmpt, "/yahpt.html?id");
+          tmp_statement_expression_14 = return_value___builtin_strcmp_15;
+          if(!(tmp_statement_expression_14 == 0))
             return 1;
 
           j = 0;
@@ -15810,11 +15810,11 @@ signed int parse_header(struct anonymous$0 *sf, char *tab, struct anonymous$15 *
       case 3:
       {
         if(!((signed int)tab[(signed long int)i] == 32))
-          tmp_if_expr$16 = (signed int)tab[(signed long int)i] != 9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_16 = (signed int)tab[(signed long int)i] != 9 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$16 = (_Bool)0;
-        if(tmp_if_expr$16)
+          tmp_if_expr_16 = (_Bool)0;
+        if(tmp_if_expr_16)
         {
           if(j == 9)
             return 1;
@@ -15872,19 +15872,19 @@ signed int parse_header(struct anonymous$0 *sf, char *tab, struct anonymous$15 *
       case 7:
       {
         if((signed int)tab[(signed long int)i] == 32)
-          tmp_if_expr$19 = (_Bool)1;
+          tmp_if_expr_19 = (_Bool)1;
 
         else
-          tmp_if_expr$19 = (signed int)tab[(signed long int)i] == 9 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$19)
+          tmp_if_expr_19 = (signed int)tab[(signed long int)i] == 9 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_19)
         {
           tmpt[(signed long int)j] = (char)0;
-          unsigned long int parse_header$$1$$3$$1$$11$$1$$__s1_len;
-          unsigned long int parse_header$$1$$3$$1$$11$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$18;
-          return_value___builtin_strcmp$18=__builtin_strcmp(tmpt, "200");
-          tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-          if(!(tmp_statement_expression$17 == 0))
+          unsigned long int parse_header__1__3__1__11__1____s1_len;
+          unsigned long int parse_header__1__3__1__11__1____s2_len;
+          signed int return_value___builtin_strcmp_18;
+          return_value___builtin_strcmp_18=__builtin_strcmp(tmpt, "200");
+          tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+          if(!(tmp_statement_expression_17 == 0))
             return 1;
 
           state = 4;
@@ -15913,21 +15913,21 @@ signed int parse_line(char *buff, char *tab1, char *tab2)
   i = j;
   state = i;
   lastDot = -1;
-  _Bool tmp_if_expr$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  const unsigned short int **return_value___ctype_b_loc$5;
+  _Bool tmp_if_expr_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  const unsigned short int **return_value___ctype_b_loc_5;
   for( ; !((signed int)buff[(signed long int)i] == 0); i = i + 1)
   {
     if((signed int)buff[(signed long int)i] == 35)
     {
       if(i >= 1)
-        tmp_if_expr$1 = (signed int)buff[(signed long int)(i - 1)] == 92 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)buff[(signed long int)(i - 1)] == 92 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         j = j - 1;
 
       else
@@ -15938,8 +15938,8 @@ signed int parse_line(char *buff, char *tab1, char *tab2)
     {
       case 0:
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)buff[(signed long int)i]]) == 0)
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)buff[(signed long int)i]]) == 0)
         {
           tab1[(signed long int)j] = buff[(signed long int)i];
           j = 1;
@@ -15950,8 +15950,8 @@ signed int parse_line(char *buff, char *tab1, char *tab2)
       }
       case 1:
       {
-        return_value___ctype_b_loc$3=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)buff[(signed long int)i]]) == 0))
+        return_value___ctype_b_loc_3=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)buff[(signed long int)i]]) == 0))
         {
           tab1[(signed long int)j] = (char)0;
           state = 2;
@@ -15967,8 +15967,8 @@ signed int parse_line(char *buff, char *tab1, char *tab2)
       }
       case 2:
       {
-        return_value___ctype_b_loc$4=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)buff[(signed long int)i]]) == 0)
+        return_value___ctype_b_loc_4=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)buff[(signed long int)i]]) == 0)
         {
           if(!((signed int)buff[(signed long int)i] == 46))
           {
@@ -15988,8 +15988,8 @@ signed int parse_line(char *buff, char *tab1, char *tab2)
 
         else
         {
-          return_value___ctype_b_loc$5=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)buff[(signed long int)i]]) == 0)
+          return_value___ctype_b_loc_5=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)buff[(signed long int)i]]) == 0)
             lastDot = -1;
 
           else
@@ -16018,7 +16018,7 @@ signed int parse_line(char *buff, char *tab1, char *tab2)
 
 // read_message
 // file http_proxy_functions.c line 281
-signed int read_message(signed int fd, signed int length, struct anonymous$16 *client, char *tab, signed int ptr)
+signed int read_message(signed int fd, signed int length, struct anonymous_16 *client, char *tab, signed int ptr)
 {
   signed int j = 0;
   signed int tmp = 0;
@@ -16040,9 +16040,9 @@ signed int read_message(signed int fd, signed int length, struct anonymous$16 *c
             if(length >= 5 + j)
             {
               memcpy((void *)&tmp, (const void *)&tab[(signed long int)(ptr + j + 1)], (unsigned long int)4);
-              unsigned int return_value___bswap_32$1;
-              return_value___bswap_32$1=__bswap_32((unsigned int)tmp);
-              client->toreceive = (signed int)return_value___bswap_32$1;
+              unsigned int return_value___bswap_32_1;
+              return_value___bswap_32_1=__bswap_32((unsigned int)tmp);
+              client->toreceive = (signed int)return_value___bswap_32_1;
               client->curreceived = 0;
               j = j + 5;
             }
@@ -16084,9 +16084,9 @@ signed int read_message(signed int fd, signed int length, struct anonymous$16 *c
         {
           memcpy((void *)&client->readed_length[(signed long int)((signed int)client->read_state - 1)], (const void *)&tab[(signed long int)(ptr + j)], (unsigned long int)(5 - (signed int)client->read_state));
           memcpy((void *)&tmp, (const void *)client->readed_length, (unsigned long int)4);
-          unsigned int return_value___bswap_32$2;
-          return_value___bswap_32$2=__bswap_32((unsigned int)tmp);
-          client->toreceive = (signed int)return_value___bswap_32$2;
+          unsigned int return_value___bswap_32_2;
+          return_value___bswap_32_2=__bswap_32((unsigned int)tmp);
+          client->toreceive = (signed int)return_value___bswap_32_2;
           client->curreceived = 0;
           j = j + (5 - (signed int)client->read_state);
           client->read_state = (char)0;
@@ -16120,9 +16120,9 @@ signed int readn(signed int fd, unsigned char *buf, signed int amount)
   sent = 0;
   while(!(sent >= amount))
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)(buf + (signed long int)sent), (unsigned long int)(amount - sent));
-    n = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)(buf + (signed long int)sent), (unsigned long int)(amount - sent));
+    n = (signed int)return_value_read_1;
     if(!(n == -1))
       sent = sent + n;
 
@@ -16131,9 +16131,9 @@ signed int readn(signed int fd, unsigned char *buf, signed int amount)
 
     if(n == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 11))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 11))
         return 0;
 
     }
@@ -16195,7 +16195,7 @@ void server_long_usage(char *info)
   printf("  -r, --realm         - set the realm name (default: none)\n");
   printf("  -R, --raclients     - the number of allowed clients in remote administration\n");
   printf("                        mode to use this server (default: 1)\n");
-  printf("  -U, --usrpcli       - the number of allowed users per client (default: $users)\n");
+  printf("  -U, --usrpcli       - the number of allowed users per client (default: _users)\n");
   printf("  -M, --climode       - strategy used to connect users with clients (default: 1)\n");
   printf("                      Available strategies:\n");
   printf("                        1. fill first client before go to next\n\n");
@@ -16232,16 +16232,16 @@ void server_short_usage(char *info)
 
 // set_fd
 // file http_proxy_functions.c line 235
-void set_fd(signed int fd, signed int *maxfdp1, struct anonymous$11 *allset)
+void set_fd(signed int fd, signed int *maxfdp1, struct anonymous_11 *allset)
 {
   allset->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = allset->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(fd >= *maxfdp1))
-    tmp_if_expr$1 = *maxfdp1;
+    tmp_if_expr_1 = *maxfdp1;
 
   else
-    tmp_if_expr$1 = fd + 1;
-  *maxfdp1 = tmp_if_expr$1;
+    tmp_if_expr_1 = fd + 1;
+  *maxfdp1 = tmp_if_expr_1;
 }
 
 // setdateformat
@@ -16259,13 +16259,13 @@ char * sock_ntop(struct sockaddr *sa, unsigned int salen, char *namebuf, char *p
 {
   char portstr[7l];
   struct sockaddr_in *sin;
-  unsigned short int tmp_statement_expression$5;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$4;
+  unsigned short int tmp_statement_expression_5;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_4;
   struct sockaddr_in6 *sin6;
-  unsigned short int tmp_statement_expression$10;
-  unsigned short int tmp_statement_expression$8;
-  unsigned short int tmp_statement_expression$9;
+  unsigned short int tmp_statement_expression_10;
+  unsigned short int tmp_statement_expression_8;
+  unsigned short int tmp_statement_expression_9;
   switch((signed int)sa->sa_family)
   {    static char str[136l];
     case 2:
@@ -16273,42 +16273,42 @@ char * sock_ntop(struct sockaddr *sa, unsigned int salen, char *namebuf, char *p
       sin = (struct sockaddr_in *)sa;
       if(!(type == 0))
       {
-        signed int return_value_getnameinfo$1;
-        return_value_getnameinfo$1=getnameinfo(sa, salen, str, (unsigned int)128, (char *)(void *)0, (unsigned int)0, 0);
-        if(!(return_value_getnameinfo$1 == 0))
+        signed int return_value_getnameinfo_1;
+        return_value_getnameinfo_1=getnameinfo(sa, salen, str, (unsigned int)128, (char *)(void *)0, (unsigned int)0, 0);
+        if(!(return_value_getnameinfo_1 == 0))
           return (char *)(void *)0;
 
       }
 
       else
       {
-        const char *return_value_inet_ntop$2;
-        return_value_inet_ntop$2=inet_ntop(2, (void *)&sin->sin_addr, str, (unsigned int)sizeof(char [136l]) /*136ul*/ );
-        if(return_value_inet_ntop$2 == ((const char *)NULL))
+        const char *return_value_inet_ntop_2;
+        return_value_inet_ntop_2=inet_ntop(2, (void *)&sin->sin_addr, str, (unsigned int)sizeof(char [136l]) /*136ul*/ );
+        if(return_value_inet_ntop_2 == ((const char *)NULL))
           return (char *)(void *)0;
 
       }
       if(!(namebuf == ((char *)NULL)))
         memcpy((void *)namebuf, (const void *)str, (unsigned long int)128);
 
-      unsigned short int sock_ntop$$1$$1$$1$$4$$__v;
-      unsigned short int sock_ntop$$1$$1$$1$$4$$__x = (unsigned short int)sin->sin_port;
-      asm("rorw $8, %w0" : "=r"(sock_ntop$$1$$1$$1$$4$$__v) : "0"(sock_ntop$$1$$1$$1$$4$$__x) : "cc");
-      tmp_statement_expression$5 = sock_ntop$$1$$1$$1$$4$$__v;
-      if(!((signed int)tmp_statement_expression$5 == 0))
+      unsigned short int sock_ntop__1__1__1__4____v;
+      unsigned short int sock_ntop__1__1__1__4____x = (unsigned short int)sin->sin_port;
+      asm("rorw _8, %w0" : "=r"(sock_ntop__1__1__1__4____v) : "0"(sock_ntop__1__1__1__4____x) : "cc");
+      tmp_statement_expression_5 = sock_ntop__1__1__1__4____v;
+      if(!((signed int)tmp_statement_expression_5 == 0))
       {
-        unsigned short int sock_ntop$$1$$1$$1$$5$$1$$__v;
-        unsigned short int sock_ntop$$1$$1$$1$$5$$1$$__x = (unsigned short int)sin->sin_port;
-        asm("rorw $8, %w0" : "=r"(sock_ntop$$1$$1$$1$$5$$1$$__v) : "0"(sock_ntop$$1$$1$$1$$5$$1$$__x) : "cc");
-        tmp_statement_expression$3 = sock_ntop$$1$$1$$1$$5$$1$$__v;
-        snprintf(portstr, sizeof(char [7l]) /*7ul*/ , ".%d", tmp_statement_expression$3);
+        unsigned short int sock_ntop__1__1__1__5__1____v;
+        unsigned short int sock_ntop__1__1__1__5__1____x = (unsigned short int)sin->sin_port;
+        asm("rorw _8, %w0" : "=r"(sock_ntop__1__1__1__5__1____v) : "0"(sock_ntop__1__1__1__5__1____x) : "cc");
+        tmp_statement_expression_3 = sock_ntop__1__1__1__5__1____v;
+        snprintf(portstr, sizeof(char [7l]) /*7ul*/ , ".%d", tmp_statement_expression_3);
         if(!(portbuf == ((char *)NULL)))
         {
-          unsigned short int sock_ntop$$1$$1$$1$$5$$2$$1$$__v;
-          unsigned short int sock_ntop$$1$$1$$1$$5$$2$$1$$__x = (unsigned short int)sin->sin_port;
-          asm("rorw $8, %w0" : "=r"(sock_ntop$$1$$1$$1$$5$$2$$1$$__v) : "0"(sock_ntop$$1$$1$$1$$5$$2$$1$$__x) : "cc");
-          tmp_statement_expression$4 = sock_ntop$$1$$1$$1$$5$$2$$1$$__v;
-          snprintf(portbuf, (unsigned long int)7, "%d", tmp_statement_expression$4);
+          unsigned short int sock_ntop__1__1__1__5__2__1____v;
+          unsigned short int sock_ntop__1__1__1__5__2__1____x = (unsigned short int)sin->sin_port;
+          asm("rorw _8, %w0" : "=r"(sock_ntop__1__1__1__5__2__1____v) : "0"(sock_ntop__1__1__1__5__2__1____x) : "cc");
+          tmp_statement_expression_4 = sock_ntop__1__1__1__5__2__1____v;
+          snprintf(portbuf, (unsigned long int)7, "%d", tmp_statement_expression_4);
         }
 
         strcat(str, portstr);
@@ -16321,18 +16321,18 @@ char * sock_ntop(struct sockaddr *sa, unsigned int salen, char *namebuf, char *p
       sin6 = (struct sockaddr_in6 *)sa;
       if(!(type == 0))
       {
-        signed int return_value_getnameinfo$6;
-        return_value_getnameinfo$6=getnameinfo(sa, salen, str, (unsigned int)128, (char *)(void *)0, (unsigned int)0, 0);
-        if(!(return_value_getnameinfo$6 == 0))
+        signed int return_value_getnameinfo_6;
+        return_value_getnameinfo_6=getnameinfo(sa, salen, str, (unsigned int)128, (char *)(void *)0, (unsigned int)0, 0);
+        if(!(return_value_getnameinfo_6 == 0))
           return (char *)(void *)0;
 
       }
 
       else
       {
-        const char *return_value_inet_ntop$7;
-        return_value_inet_ntop$7=inet_ntop(10, (const void *)&sin6->sin6_addr, str, (unsigned int)sizeof(char [136l]) /*136ul*/ );
-        if(return_value_inet_ntop$7 == ((const char *)NULL))
+        const char *return_value_inet_ntop_7;
+        return_value_inet_ntop_7=inet_ntop(10, (const void *)&sin6->sin6_addr, str, (unsigned int)sizeof(char [136l]) /*136ul*/ );
+        if(return_value_inet_ntop_7 == ((const char *)NULL))
           return (char *)(void *)0;
 
       }
@@ -16341,22 +16341,22 @@ char * sock_ntop(struct sockaddr *sa, unsigned int salen, char *namebuf, char *p
 
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)sin6->sin6_port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$10 = __v;
-      if(!((signed int)tmp_statement_expression$10 == 0))
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_10 = __v;
+      if(!((signed int)tmp_statement_expression_10 == 0))
       {
-        unsigned short int sock_ntop$$1$$1$$2$$5$$1$$__v;
-        unsigned short int sock_ntop$$1$$1$$2$$5$$1$$__x = (unsigned short int)sin6->sin6_port;
-        asm("rorw $8, %w0" : "=r"(sock_ntop$$1$$1$$2$$5$$1$$__v) : "0"(sock_ntop$$1$$1$$2$$5$$1$$__x) : "cc");
-        tmp_statement_expression$8 = sock_ntop$$1$$1$$2$$5$$1$$__v;
-        snprintf(portstr, sizeof(char [7l]) /*7ul*/ , ".%d", tmp_statement_expression$8);
+        unsigned short int sock_ntop__1__1__2__5__1____v;
+        unsigned short int sock_ntop__1__1__2__5__1____x = (unsigned short int)sin6->sin6_port;
+        asm("rorw _8, %w0" : "=r"(sock_ntop__1__1__2__5__1____v) : "0"(sock_ntop__1__1__2__5__1____x) : "cc");
+        tmp_statement_expression_8 = sock_ntop__1__1__2__5__1____v;
+        snprintf(portstr, sizeof(char [7l]) /*7ul*/ , ".%d", tmp_statement_expression_8);
         if(!(portbuf == ((char *)NULL)))
         {
-          unsigned short int sock_ntop$$1$$1$$2$$5$$2$$1$$__v;
-          unsigned short int sock_ntop$$1$$1$$2$$5$$2$$1$$__x = (unsigned short int)sin6->sin6_port;
-          asm("rorw $8, %w0" : "=r"(sock_ntop$$1$$1$$2$$5$$2$$1$$__v) : "0"(sock_ntop$$1$$1$$2$$5$$2$$1$$__x) : "cc");
-          tmp_statement_expression$9 = sock_ntop$$1$$1$$2$$5$$2$$1$$__v;
-          snprintf(portbuf, (unsigned long int)7, "%d", tmp_statement_expression$9);
+          unsigned short int sock_ntop__1__1__2__5__2__1____v;
+          unsigned short int sock_ntop__1__1__2__5__2__1____x = (unsigned short int)sin6->sin6_port;
+          asm("rorw _8, %w0" : "=r"(sock_ntop__1__1__2__5__2__1____v) : "0"(sock_ntop__1__1__2__5__2__1____x) : "cc");
+          tmp_statement_expression_9 = sock_ntop__1__1__2__5__2__1____v;
+          snprintf(portbuf, (unsigned long int)7, "%d", tmp_statement_expression_9);
         }
 
         strcat(str, portstr);
@@ -16384,9 +16384,9 @@ void start_critical_section(void)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 453
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // string_cp
@@ -16413,12 +16413,12 @@ char * string_cp(char **dest, char *src)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(src);
-    len = (signed int)return_value_strlen$1;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, (unsigned long int)(len + 1));
-    tmp = (char *)return_value_calloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(src);
+    len = (signed int)return_value_strlen_1;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, (unsigned long int)(len + 1));
+    tmp = (char *)return_value_calloc_2;
     if(tmp == ((char *)NULL))
       return (char *)(void *)0;
 
@@ -16566,17 +16566,17 @@ signed int writen(signed int fd, unsigned char *buf, signed int amount)
   sent = 0;
   while(!(sent >= amount))
   {
-    signed long int return_value_write$1;
-    return_value_write$1=write(fd, (const void *)(buf + (signed long int)sent), (unsigned long int)(amount - sent));
-    n = (signed int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(fd, (const void *)(buf + (signed long int)sent), (unsigned long int)(amount - sent));
+    n = (signed int)return_value_write_1;
     if(!(n == -1))
       sent = sent + n;
 
     if(n == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 11))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 11))
         return 0;
 
     }

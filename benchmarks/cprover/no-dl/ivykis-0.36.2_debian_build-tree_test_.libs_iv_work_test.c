@@ -1,158 +1,158 @@
-// tag-#anon#ST[*{SYM#tag-pollfd#}$SYM#tag-pollfd#$'pfds'||*{*{SYM#tag-iv_fd_#}$SYM#tag-iv_fd_#$}$*{SYM#tag-iv_fd_#}$SYM#tag-iv_fd_#$$'fds'||S32'num_regd_fds'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-pollfd#}_SYM#tag-pollfd#_'pfds'||*{*{SYM#tag-iv_fd_#}_SYM#tag-iv_fd_#_}_*{SYM#tag-iv_fd_#}_SYM#tag-iv_fd_#__'fds'||S32'num_regd_fds'||U32'_pad0'|]
 // file ../../../src/iv_private.h line 86
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[BF{U32}$U32$'__w_stopval'||BF{U32}$U32$'__w_stopsig'||BF{U32}$U32$'$anon0'|]
+// tag-#anon#ST[BF{U32}_U32_'__w_stopval'||BF{U32}_U32_'__w_stopsig'||BF{U32}_U32_'_anon0'|]
 // file /usr/include/x86_64-linux-gnu/bits/waitstatus.h line 84
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[BF{U32}$U32$'__w_termsig'||BF{U32}$U32$'__w_coredump'||BF{U32}$U32$'__w_retcode'||BF{U32}$U32$'$anon0'|]
+// tag-#anon#ST[BF{U32}_U32_'__w_termsig'||BF{U32}_U32_'__w_coredump'||BF{U32}_U32_'__w_retcode'||BF{U32}_U32_'_anon0'|]
 // file /usr/include/x86_64-linux-gnu/bits/waitstatus.h line 69
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'epoll_fd'||U32'$pad0'||SYM#tag-iv_list_head#'notify'|]
+// tag-#anon#ST[S32'epoll_fd'||U32'_pad0'||SYM#tag-iv_list_head#'notify'|]
 // file ../../../src/iv_private.h line 73
-struct anonymous$26;
+struct anonymous_26;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#UN[*{SYM#tag-wait#}$SYM#tag-wait#$'__uptr'||*{S32}$S32$'__iptr'|]
+// tag-#anon#UN[*{SYM#tag-wait#}_SYM#tag-wait#_'__uptr'||*{S32}_S32_'__iptr'|]
 // file /usr/include/stdlib.h line 67
-union anonymous$37;
+union anonymous_37;
 
-// tag-#anon#UN[*{SYM#tag-wait#}$SYM#tag-wait#$'__uptr'||*{S32}$S32$'__iptr'|]$transparent
+// tag-#anon#UN[*{SYM#tag-wait#}_SYM#tag-wait#_'__uptr'||*{S32}_S32_'__iptr'|]_transparent
 // file /usr/include/stdlib.h line 67
 union anonymous;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[ARR0{U8}$U8$'buf'||ARR2{S32}$S32$'pfd'|]
+// tag-#anon#UN[ARR0{U8}_U8_'buf'||ARR2{S32}_S32_'pfd'|]
 // file ../../../src/iv_fd_pump.c line 84
-union anonymous$38;
+union anonymous_38;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$33;
+union anonymous_33;
 
 // tag-#anon#UN[S32'index'|]
 // file ../../../src/iv_fd_private.h line 80
-union anonymous$29;
+union anonymous_29;
 
 // tag-#anon#UN[S64'ru_idrss'||S64'__ru_idrss_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 208
-union anonymous$2;
+union anonymous_2;
 
 // tag-#anon#UN[S64'ru_inblock'||S64'__ru_inblock_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 240
-union anonymous$7;
+union anonymous_7;
 
 // tag-#anon#UN[S64'ru_isrss'||S64'__ru_isrss_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 214
-union anonymous$3;
+union anonymous_3;
 
 // tag-#anon#UN[S64'ru_ixrss'||S64'__ru_ixrss_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 202
-union anonymous$1;
+union anonymous_1;
 
 // tag-#anon#UN[S64'ru_majflt'||S64'__ru_majflt_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 227
-union anonymous$5;
+union anonymous_5;
 
 // tag-#anon#UN[S64'ru_maxrss'||S64'__ru_maxrss_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 194
-union anonymous$0;
+union anonymous_0;
 
 // tag-#anon#UN[S64'ru_minflt'||S64'__ru_minflt_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 221
-union anonymous$4;
+union anonymous_4;
 
 // tag-#anon#UN[S64'ru_msgrcv'||S64'__ru_msgrcv_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 258
-union anonymous$10;
+union anonymous_10;
 
 // tag-#anon#UN[S64'ru_msgsnd'||S64'__ru_msgsnd_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 252
-union anonymous$9;
+union anonymous_9;
 
 // tag-#anon#UN[S64'ru_nivcsw'||S64'__ru_nivcsw_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 279
-union anonymous$13;
+union anonymous_13;
 
 // tag-#anon#UN[S64'ru_nsignals'||S64'__ru_nsignals_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 264
-union anonymous$11;
+union anonymous_11;
 
 // tag-#anon#UN[S64'ru_nswap'||S64'__ru_nswap_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 233
-union anonymous$6;
+union anonymous_6;
 
 // tag-#anon#UN[S64'ru_nvcsw'||S64'__ru_nvcsw_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 272
-union anonymous$12;
+union anonymous_12;
 
 // tag-#anon#UN[S64'ru_oublock'||S64'__ru_oublock_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 246
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'epoll_fd'||U32'$pad0'||SYM#tag-iv_list_head#'notify'|]#'epoll'||SYM#tag-#anon#ST[*{SYM#tag-pollfd#}$SYM#tag-pollfd#$'pfds'||*{*{SYM#tag-iv_fd_#}$SYM#tag-iv_fd_#$}$*{SYM#tag-iv_fd_#}$SYM#tag-iv_fd_#$$'fds'||S32'num_regd_fds'||U32'$pad0'|]#'poll'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'epoll_fd'||U32'_pad0'||SYM#tag-iv_list_head#'notify'|]#'epoll'||SYM#tag-#anon#ST[*{SYM#tag-pollfd#}_SYM#tag-pollfd#_'pfds'||*{*{SYM#tag-iv_fd_#}_SYM#tag-iv_fd_#_}_*{SYM#tag-iv_fd_#}_SYM#tag-iv_fd_#__'fds'||S32'num_regd_fds'||U32'_pad0'|]#'poll'|]
 // file ../../../src/iv_private.h line 63
-union anonymous$28;
+union anonymous_28;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$34;
+union anonymous_34;
 
-// tag-#anon#UN[SYM#tag-iv_event_raw#'ier'||*{SYM#tag-iv_state#}$SYM#tag-iv_state#$'st'|]
+// tag-#anon#UN[SYM#tag-iv_event_raw#'ier'||*{SYM#tag-iv_state#}_SYM#tag-iv_state#_'st'|]
 // file ../../../src/iv_event.c line 33
-union anonymous$32;
+union anonymous_32;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -377,18 +377,18 @@ struct work_pool_thread;
 // IV_EVENT_INIT
 // file ../../../src/include/iv_event.h line 39
 static inline void IV_EVENT_INIT(struct iv_event *this);
-// IV_EVENT_INIT$link1
+// IV_EVENT_INIT_link1
 // file ../../../src/include/iv_event.h line 39
-static inline void IV_EVENT_INIT$link1(struct iv_event *this$link1);
-// IV_EVENT_INIT$link2
+static inline void IV_EVENT_INIT_link1(struct iv_event *this_link1);
+// IV_EVENT_INIT_link2
 // file ../../../src/include/iv_event.h line 39
-static inline void IV_EVENT_INIT$link2(struct iv_event *this$link2);
+static inline void IV_EVENT_INIT_link2(struct iv_event *this_link2);
 // IV_EVENT_RAW_INIT
 // file ../../../src/include/iv_event_raw.h line 42
 static inline void IV_EVENT_RAW_INIT(struct iv_event_raw *this);
-// IV_EVENT_RAW_INIT$link1
+// IV_EVENT_RAW_INIT_link1
 // file ../../../src/include/iv_event_raw.h line 42
-static inline void IV_EVENT_RAW_INIT$link1(struct iv_event_raw *this$link1);
+static inline void IV_EVENT_RAW_INIT_link1(struct iv_event_raw *this_link1);
 // IV_FD_INIT
 // file ../src/include/iv.h line 76
 void IV_FD_INIT(struct iv_fd *_fd);
@@ -443,15 +443,15 @@ void __iv_invalidate_now(struct iv_state *st);
 // __iv_list_steal_elements
 // file ../../../src/iv_private.h line 167
 static inline void __iv_list_steal_elements(struct iv_list_head *oldh, struct iv_list_head *newh);
-// __iv_list_steal_elements$link1
+// __iv_list_steal_elements_link1
 // file ../../../src/iv_private.h line 167
-static inline void __iv_list_steal_elements$link1(struct iv_list_head *oldh$link1, struct iv_list_head *newh$link1);
-// __iv_list_steal_elements$link2
+static inline void __iv_list_steal_elements_link1(struct iv_list_head *oldh_link1, struct iv_list_head *newh_link1);
+// __iv_list_steal_elements_link2
 // file ../../../src/iv_private.h line 167
-static inline void __iv_list_steal_elements$link2(struct iv_list_head *oldh$link2, struct iv_list_head *newh$link2);
-// __iv_list_steal_elements$link3
+static inline void __iv_list_steal_elements_link2(struct iv_list_head *oldh_link2, struct iv_list_head *newh_link2);
+// __iv_list_steal_elements_link3
 // file ../../../src/iv_private.h line 167
-static inline void __iv_list_steal_elements$link3(struct iv_list_head *oldh$link3, struct iv_list_head *newh$link3);
+static inline void __iv_list_steal_elements_link3(struct iv_list_head *oldh_link3, struct iv_list_head *newh_link3);
 // __iv_now_location
 // file ../../../src/iv_timer.c line 51
 struct timespec * __iv_now_location(void);
@@ -475,13 +475,13 @@ static void __iv_wait_interest_unregister(struct iv_wait_thr_info *tinfo, struct
 static void __iv_work_thread_die(struct work_pool_thread *thr);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 682
-extern void __pthread_register_cancel(struct anonymous$31 *);
+extern void __pthread_register_cancel(struct anonymous_31 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 694
-extern void __pthread_unregister_cancel(struct anonymous$31 *);
+extern void __pthread_unregister_cancel(struct anonymous_31 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 735
-extern void __pthread_unwind_next(struct anonymous$31 *);
+extern void __pthread_unwind_next(struct anonymous_31 *);
 // __sigsetjmp
 // file /usr/include/pthread.h line 745
 extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
@@ -494,9 +494,9 @@ static signed int balance(struct iv_avl_node *an);
 // bits_to_poll_mask
 // file ../../../src/iv_fd_poll.c line 92
 static signed int bits_to_poll_mask(signed int bits);
-// bits_to_poll_mask$link1
+// bits_to_poll_mask_link1
 // file ../../../src/iv_fd_epoll.c line 56
-static signed int bits_to_poll_mask$link1(signed int bits$link1);
+static signed int bits_to_poll_mask_link1(signed int bits_link1);
 // buf_alloc
 // file ../../../src/iv_fd_pump.c line 90
 static struct iv_fd_pump_buf * buf_alloc(void);
@@ -557,9 +557,9 @@ extern signed int execvp(const char *, char * const *);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
-// fatal_msg_handler$object
+// fatal_msg_handler_object
 //
-void fatal_msg_handler$object(const char *);
+void fatal_msg_handler_object(const char *);
 // fcntl
 // file /usr/include/fcntl.h line 137
 extern signed int fcntl(signed int, signed int, ...);
@@ -776,21 +776,21 @@ void iv_fd_set_cloexec(signed int fd);
 // iv_fd_set_handler_err
 // file ../../../src/iv_fd.c line 387
 void iv_fd_set_handler_err(struct iv_fd *_fd, void (*handler_err)(void *));
-// iv_fd_set_handler_err::handler_err$object
+// iv_fd_set_handler_err::handler_err_object
 //
-void handler_err$object(void *);
+void handler_err_object(void *);
 // iv_fd_set_handler_in
 // file ../../../src/iv_fd.c line 359
 void iv_fd_set_handler_in(struct iv_fd *_fd, void (*handler_in)(void *));
-// iv_fd_set_handler_in::handler_in$object
+// iv_fd_set_handler_in::handler_in_object
 //
-void handler_in$object(void *);
+void handler_in_object(void *);
 // iv_fd_set_handler_out
 // file ../../../src/iv_fd.c line 373
 void iv_fd_set_handler_out(struct iv_fd *_fd, void (*handler_out)(void *));
-// iv_fd_set_handler_out::handler_out$object
+// iv_fd_set_handler_out::handler_out_object
 //
-void handler_out$object(void *);
+void handler_out_object(void *);
 // iv_fd_set_nonblock
 // file ../../../src/iv_fd_private.h line 119
 void iv_fd_set_nonblock(signed int fd);
@@ -803,21 +803,21 @@ signed int iv_get_soonest_timeout(struct iv_state *st, struct timespec *to);
 // iv_get_state
 // file ../../../src/iv_private.h line 105
 static inline struct iv_state * iv_get_state(void);
-// iv_get_state$link1
+// iv_get_state_link1
 // file ../../../src/iv_private.h line 105
-static inline struct iv_state * iv_get_state$link1(void);
-// iv_get_state$link2
+static inline struct iv_state * iv_get_state_link1(void);
+// iv_get_state_link2
 // file ../../../src/iv_private.h line 105
-static inline struct iv_state * iv_get_state$link2(void);
-// iv_get_state$link3
+static inline struct iv_state * iv_get_state_link2(void);
+// iv_get_state_link3
 // file ../../../src/iv_private.h line 105
-static inline struct iv_state * iv_get_state$link3(void);
-// iv_get_state$link4
+static inline struct iv_state * iv_get_state_link3(void);
+// iv_get_state_link4
 // file ../../../src/iv_private.h line 105
-static inline struct iv_state * iv_get_state$link4(void);
-// iv_get_state$link5
+static inline struct iv_state * iv_get_state_link4(void);
+// iv_get_state_link5
 // file ../../../src/iv_private.h line 105
-static inline struct iv_state * iv_get_state$link5(void);
+static inline struct iv_state * iv_get_state_link5(void);
 // iv_init
 // file ../src/include/iv.h line 42
 void iv_init(void);
@@ -845,87 +845,87 @@ void iv_invalidate_now(void);
 // iv_list_add
 // file ../../../src/include/iv_list.h line 48
 static inline void iv_list_add(struct iv_list_head *ilh, struct iv_list_head *head);
-// iv_list_add$link1
+// iv_list_add_link1
 // file ../../../src/include/iv_list.h line 48
-static inline void iv_list_add$link1(struct iv_list_head *ilh$link1, struct iv_list_head *head$link1);
+static inline void iv_list_add_link1(struct iv_list_head *ilh_link1, struct iv_list_head *head_link1);
 // iv_list_add_tail
 // file ../../../src/include/iv_list.h line 57
 static inline void iv_list_add_tail(struct iv_list_head *ilh, struct iv_list_head *head);
-// iv_list_add_tail$link1
+// iv_list_add_tail_link1
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link1(struct iv_list_head *ilh$link1, struct iv_list_head *head$link1);
-// iv_list_add_tail$link2
+static inline void iv_list_add_tail_link1(struct iv_list_head *ilh_link1, struct iv_list_head *head_link1);
+// iv_list_add_tail_link2
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link2(struct iv_list_head *ilh$link2, struct iv_list_head *head$link2);
-// iv_list_add_tail$link3
+static inline void iv_list_add_tail_link2(struct iv_list_head *ilh_link2, struct iv_list_head *head_link2);
+// iv_list_add_tail_link3
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link3(struct iv_list_head *ilh$link3, struct iv_list_head *head$link3);
-// iv_list_add_tail$link4
+static inline void iv_list_add_tail_link3(struct iv_list_head *ilh_link3, struct iv_list_head *head_link3);
+// iv_list_add_tail_link4
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link4(struct iv_list_head *ilh$link4, struct iv_list_head *head$link4);
-// iv_list_add_tail$link5
+static inline void iv_list_add_tail_link4(struct iv_list_head *ilh_link4, struct iv_list_head *head_link4);
+// iv_list_add_tail_link5
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link5(struct iv_list_head *ilh$link5, struct iv_list_head *head$link5);
-// iv_list_add_tail$link6
+static inline void iv_list_add_tail_link5(struct iv_list_head *ilh_link5, struct iv_list_head *head_link5);
+// iv_list_add_tail_link6
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link6(struct iv_list_head *ilh$link6, struct iv_list_head *head$link6);
-// iv_list_add_tail$link7
+static inline void iv_list_add_tail_link6(struct iv_list_head *ilh_link6, struct iv_list_head *head_link6);
+// iv_list_add_tail_link7
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link7(struct iv_list_head *ilh$link7, struct iv_list_head *head$link7);
+static inline void iv_list_add_tail_link7(struct iv_list_head *ilh_link7, struct iv_list_head *head_link7);
 // iv_list_del
 // file ../../../src/include/iv_list.h line 65
 static inline void iv_list_del(struct iv_list_head *ilh);
-// iv_list_del$link1
+// iv_list_del_link1
 // file ../../../src/include/iv_list.h line 65
-static inline void iv_list_del$link1(struct iv_list_head *ilh$link1);
-// iv_list_del$link2
+static inline void iv_list_del_link1(struct iv_list_head *ilh_link1);
+// iv_list_del_link2
 // file ../../../src/include/iv_list.h line 65
-static inline void iv_list_del$link2(struct iv_list_head *ilh$link2);
-// iv_list_del$link3
+static inline void iv_list_del_link2(struct iv_list_head *ilh_link2);
+// iv_list_del_link3
 // file ../../../src/include/iv_list.h line 65
-static inline void iv_list_del$link3(struct iv_list_head *ilh$link3);
-// iv_list_del$link4
+static inline void iv_list_del_link3(struct iv_list_head *ilh_link3);
+// iv_list_del_link4
 // file ../../../src/include/iv_list.h line 65
-static inline void iv_list_del$link4(struct iv_list_head *ilh$link4);
-// iv_list_del$link5
+static inline void iv_list_del_link4(struct iv_list_head *ilh_link4);
+// iv_list_del_link5
 // file ../../../src/include/iv_list.h line 65
-static inline void iv_list_del$link5(struct iv_list_head *ilh$link5);
+static inline void iv_list_del_link5(struct iv_list_head *ilh_link5);
 // iv_list_del_init
 // file ../../../src/include/iv_list.h line 73
 static inline void iv_list_del_init(struct iv_list_head *ilh);
-// iv_list_del_init$link1
+// iv_list_del_init_link1
 // file ../../../src/include/iv_list.h line 73
-static inline void iv_list_del_init$link1(struct iv_list_head *ilh$link1);
-// iv_list_del_init$link2
+static inline void iv_list_del_init_link1(struct iv_list_head *ilh_link1);
+// iv_list_del_init_link2
 // file ../../../src/include/iv_list.h line 73
-static inline void iv_list_del_init$link2(struct iv_list_head *ilh$link2);
-// iv_list_del_init$link3
+static inline void iv_list_del_init_link2(struct iv_list_head *ilh_link2);
+// iv_list_del_init_link3
 // file ../../../src/include/iv_list.h line 73
-static inline void iv_list_del_init$link3(struct iv_list_head *ilh$link3);
-// iv_list_del_init$link4
+static inline void iv_list_del_init_link3(struct iv_list_head *ilh_link3);
+// iv_list_del_init_link4
 // file ../../../src/include/iv_list.h line 73
-static inline void iv_list_del_init$link4(struct iv_list_head *ilh$link4);
+static inline void iv_list_del_init_link4(struct iv_list_head *ilh_link4);
 // iv_list_empty
 // file ../../../src/include/iv_list.h line 80
 static inline signed int iv_list_empty(struct iv_list_head *head);
-// iv_list_empty$link1
+// iv_list_empty_link1
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link1(struct iv_list_head *head$link1);
-// iv_list_empty$link2
+static inline signed int iv_list_empty_link1(struct iv_list_head *head_link1);
+// iv_list_empty_link2
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link2(struct iv_list_head *head$link2);
-// iv_list_empty$link3
+static inline signed int iv_list_empty_link2(struct iv_list_head *head_link2);
+// iv_list_empty_link3
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link3(struct iv_list_head *head$link3);
-// iv_list_empty$link4
+static inline signed int iv_list_empty_link3(struct iv_list_head *head_link3);
+// iv_list_empty_link4
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link4(struct iv_list_head *head$link4);
-// iv_list_empty$link5
+static inline signed int iv_list_empty_link4(struct iv_list_head *head_link4);
+// iv_list_empty_link5
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link5(struct iv_list_head *head$link5);
-// iv_list_empty$link6
+static inline signed int iv_list_empty_link5(struct iv_list_head *head_link5);
+// iv_list_empty_link6
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link6(struct iv_list_head *head$link6);
+static inline signed int iv_list_empty_link6(struct iv_list_head *head_link6);
 // iv_main
 // file ../src/include/iv.h line 44
 void iv_main(void);
@@ -962,9 +962,9 @@ void iv_run_timers(struct iv_state *st);
 // iv_set_fatal_msg_handler
 // file ../../../src/iv_fatal.c line 60
 void iv_set_fatal_msg_handler(void (*handler)(const char *));
-// iv_set_fatal_msg_handler::handler$object
+// iv_set_fatal_msg_handler::handler_object
 //
-void handler$object(const char *);
+void handler_object(const char *);
 // iv_signal_event
 // file ../../../src/iv_signal.c line 161
 static void iv_signal_event(void *_this);
@@ -998,9 +998,9 @@ static void iv_thread_cleanup_handler(void *_thr);
 // iv_thread_create
 // file ../../../src/include/iv_thread.h line 28
 signed int iv_thread_create(char *name, void (*start_routine)(void *), void *arg);
-// iv_thread_create::start_routine$object
+// iv_thread_create::start_routine_object
 //
-void start_routine$object(void *);
+void start_routine_object(void *);
 // iv_thread_died
 // file ../../../src/iv_thread_posix.c line 156
 static void iv_thread_died(void *_thr);
@@ -1010,9 +1010,9 @@ unsigned long int iv_thread_get_id(void);
 // iv_thread_handler
 // file ../../../src/iv_thread_posix.c line 135
 static void * iv_thread_handler(void *_thr);
-// iv_thread_handler::1::1::__cancel_routine$object
+// iv_thread_handler::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // iv_thread_list_children
 // file ../../../src/iv_thread_posix.c line 226
 void iv_thread_list_children(void);
@@ -1088,9 +1088,9 @@ void iv_wait_interest_register(struct iv_wait_interest *this);
 // iv_wait_interest_register_spawn
 // file ../../../src/include/iv_wait.h line 52
 signed int iv_wait_interest_register_spawn(struct iv_wait_interest *this, void (*fn)(void *), void *cookie);
-// iv_wait_interest_register_spawn::fn$object
+// iv_wait_interest_register_spawn::fn_object
 //
-void fn$object(void *);
+void fn_object(void *);
 // iv_wait_interest_unregister
 // file ../../../src/include/iv_wait.h line 54
 void iv_wait_interest_unregister(struct iv_wait_interest *this);
@@ -1153,28 +1153,28 @@ extern void * memmove(void *, const void *, unsigned long int);
 static signed int method_is_excluded(char *exclude, char *name);
 // mutex_destroy
 // file ../../../src/mutex.h line 31
-static inline void mutex_destroy(union anonymous$34 *mutex);
-// mutex_destroy$link1
+static inline void mutex_destroy(union anonymous_34 *mutex);
+// mutex_destroy_link1
 // file ../../../src/mutex.h line 31
-static inline void mutex_destroy$link1(union anonymous$34 *mutex$link1);
+static inline void mutex_destroy_link1(union anonymous_34 *mutex_link1);
 // mutex_init
 // file ../../../src/mutex.h line 26
-static inline signed int mutex_init(union anonymous$34 *mutex);
-// mutex_init$link1
+static inline signed int mutex_init(union anonymous_34 *mutex);
+// mutex_init_link1
 // file ../../../src/mutex.h line 26
-static inline signed int mutex_init$link1(union anonymous$34 *mutex$link1);
+static inline signed int mutex_init_link1(union anonymous_34 *mutex_link1);
 // mutex_lock
 // file ../../../src/mutex.h line 36
-static inline void mutex_lock(union anonymous$34 *mutex);
-// mutex_lock$link1
+static inline void mutex_lock(union anonymous_34 *mutex);
+// mutex_lock_link1
 // file ../../../src/mutex.h line 36
-static inline void mutex_lock$link1(union anonymous$34 *mutex$link1);
+static inline void mutex_lock_link1(union anonymous_34 *mutex_link1);
 // mutex_unlock
 // file ../../../src/mutex.h line 41
-static inline void mutex_unlock(union anonymous$34 *mutex);
-// mutex_unlock$link1
+static inline void mutex_unlock(union anonymous_34 *mutex);
+// mutex_unlock_link1
 // file ../../../src/mutex.h line 41
-static inline void mutex_unlock$link1(union anonymous$34 *mutex$link1);
+static inline void mutex_unlock_link1(union anonymous_34 *mutex_link1);
 // notify_fd
 // file ../../../src/iv_fd.c line 237
 static void notify_fd(struct iv_state *st, struct iv_fd_ *fd);
@@ -1207,22 +1207,22 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_key_create(unsigned int *, void (*)(void *));
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$34 *);
+extern signed int pthread_mutex_destroy(union anonymous_34 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$34 *, const union anonymous$33 *);
+extern signed int pthread_mutex_init(union anonymous_34 *, const union anonymous_33 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$34 *);
+extern signed int pthread_mutex_lock(union anonymous_34 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$34 *);
+extern signed int pthread_mutex_unlock(union anonymous_34 *);
 // pthread_setspecific
 // file /usr/include/pthread.h line 1124
 extern signed int pthread_setspecific(unsigned int, const void *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$15 *, struct anonymous$15 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_15 *, struct anonymous_15 *);
 // pthread_spin_lock
 // file /usr/include/pthread.h line 1054
 extern signed int pthread_spin_lock(volatile signed int *);
@@ -1282,10 +1282,10 @@ extern signed int shutdown(signed int, signed int);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$15 *);
+extern signed int sigemptyset(struct anonymous_15 *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$15 *);
+extern signed int sigfillset(struct anonymous_15 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -1300,13 +1300,13 @@ extern signed int snprintf(char *, unsigned long int, const char *, ...);
 static inline void spin_lock(volatile signed int *lock);
 // spin_lock_sigmask
 // file ../../../src/spinlock.h line 76
-static inline void spin_lock_sigmask(volatile signed int *lock, struct anonymous$15 *mask);
+static inline void spin_lock_sigmask(volatile signed int *lock, struct anonymous_15 *mask);
 // spin_unlock
 // file ../../../src/spinlock.h line 36
 static inline void spin_unlock(volatile signed int *lock);
 // spin_unlock_sigmask
 // file ../../../src/spinlock.h line 84
-static inline void spin_unlock_sigmask(volatile signed int *lock, struct anonymous$15 *mask);
+static inline void spin_unlock_sigmask(volatile signed int *lock, struct anonymous_15 *mask);
 // splice
 // file /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h line 391
 extern signed long int splice(signed int, signed long int *, signed int, signed long int *, unsigned long int, unsigned int);
@@ -1350,7 +1350,7 @@ static void work_complete(void *cookie);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$27
+struct anonymous_27
 {
   // pfds
   struct pollfd *pfds;
@@ -1360,7 +1360,7 @@ struct anonymous$27
   signed int num_regd_fds;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // _call_addr
   void *_call_addr;
@@ -1370,7 +1370,7 @@ struct anonymous$25
   unsigned int _arch;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // si_addr
   void *si_addr;
@@ -1378,13 +1378,13 @@ struct anonymous$22
   signed short int si_addr_lsb;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -1392,25 +1392,25 @@ struct anonymous$30
   signed int __mask_was_saved;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // __cancel_jmp_buf
-  struct anonymous$30 __cancel_jmp_buf[1l];
+  struct anonymous_30 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // __w_stopval
   unsigned int __w_stopval : 8;
   // __w_stopsig
   unsigned int __w_stopsig : 8;
-  // $anon0
-  unsigned int $anon0 : 16;
+  // _anon0
+  unsigned int _anon0 : 16;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // __w_termsig
   unsigned int __w_termsig : 7;
@@ -1418,8 +1418,8 @@ struct anonymous$35
   unsigned int __w_coredump : 1;
   // __w_retcode
   unsigned int __w_retcode : 8;
-  // $anon0
-  unsigned int $anon0 : 16;
+  // _anon0
+  unsigned int _anon0 : 16;
 };
 
 struct iv_list_head
@@ -1430,7 +1430,7 @@ struct iv_list_head
   struct iv_list_head *prev;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // epoll_fd
   signed int epoll_fd;
@@ -1438,7 +1438,7 @@ struct anonymous$26
   struct iv_list_head notify;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_pid
   signed int si_pid;
@@ -1446,7 +1446,7 @@ struct anonymous$18
   unsigned int si_uid;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // si_pid
   signed int si_pid;
@@ -1468,7 +1468,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // si_pid
   signed int si_pid;
@@ -1478,7 +1478,7 @@ struct anonymous$20
   union sigval si_sigval;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_tid
   signed int si_tid;
@@ -1488,7 +1488,7 @@ struct anonymous$19
   union sigval si_sigval;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // si_band
   signed long int si_band;
@@ -1496,27 +1496,27 @@ struct anonymous$23
   signed int si_fd;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$18 _kill;
+  struct anonymous_18 _kill;
   // _timer
-  struct anonymous$19 _timer;
+  struct anonymous_19 _timer;
   // _rt
-  struct anonymous$20 _rt;
+  struct anonymous_20 _rt;
   // _sigchld
-  struct anonymous$21 _sigchld;
+  struct anonymous_21 _sigchld;
   // _sigfault
-  struct anonymous$22 _sigfault;
+  struct anonymous_22 _sigfault;
   // _sigpoll
-  struct anonymous$23 _sigpoll;
+  struct anonymous_23 _sigpoll;
   // _sigsys
-  struct anonymous$25 _sigsys;
+  struct anonymous_25 _sigsys;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_signo
   signed int si_signo;
@@ -1525,10 +1525,10 @@ struct anonymous$16
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$24 _sifields;
+  union anonymous_24 _sifields;
 };
 
-union anonymous$37
+union anonymous_37
 {
   // __uptr
   union wait *__uptr;
@@ -1544,15 +1544,15 @@ union anonymous
   signed int *__iptr;
 } __attribute__ ((__transparent_union__));
 
-union anonymous$17
+union anonymous_17
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$16 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_16 *, void *);
 };
 
-union anonymous$38
+union anonymous_38
 {
   // buf
   unsigned char buf[0l];
@@ -1560,7 +1560,7 @@ union anonymous$38
   signed int pfd[2l];
 };
 
-union anonymous$33
+union anonymous_33
 {
   // __size
   char __size[4l];
@@ -1568,13 +1568,13 @@ union anonymous$33
   signed int __align;
 };
 
-union anonymous$29
+union anonymous_29
 {
   // index
   signed int index;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // ru_idrss
   signed long int ru_idrss;
@@ -1582,7 +1582,7 @@ union anonymous$2
   signed long int __ru_idrss_word;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // ru_inblock
   signed long int ru_inblock;
@@ -1590,7 +1590,7 @@ union anonymous$7
   signed long int __ru_inblock_word;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // ru_isrss
   signed long int ru_isrss;
@@ -1598,7 +1598,7 @@ union anonymous$3
   signed long int __ru_isrss_word;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // ru_ixrss
   signed long int ru_ixrss;
@@ -1606,7 +1606,7 @@ union anonymous$1
   signed long int __ru_ixrss_word;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // ru_majflt
   signed long int ru_majflt;
@@ -1614,7 +1614,7 @@ union anonymous$5
   signed long int __ru_majflt_word;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // ru_maxrss
   signed long int ru_maxrss;
@@ -1622,7 +1622,7 @@ union anonymous$0
   signed long int __ru_maxrss_word;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // ru_minflt
   signed long int ru_minflt;
@@ -1630,7 +1630,7 @@ union anonymous$4
   signed long int __ru_minflt_word;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // ru_msgrcv
   signed long int ru_msgrcv;
@@ -1638,7 +1638,7 @@ union anonymous$10
   signed long int __ru_msgrcv_word;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // ru_msgsnd
   signed long int ru_msgsnd;
@@ -1646,7 +1646,7 @@ union anonymous$9
   signed long int __ru_msgsnd_word;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // ru_nivcsw
   signed long int ru_nivcsw;
@@ -1654,7 +1654,7 @@ union anonymous$13
   signed long int __ru_nivcsw_word;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // ru_nsignals
   signed long int ru_nsignals;
@@ -1662,7 +1662,7 @@ union anonymous$11
   signed long int __ru_nsignals_word;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // ru_nswap
   signed long int ru_nswap;
@@ -1670,7 +1670,7 @@ union anonymous$6
   signed long int __ru_nswap_word;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // ru_nvcsw
   signed long int ru_nvcsw;
@@ -1678,7 +1678,7 @@ union anonymous$12
   signed long int __ru_nvcsw_word;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // ru_oublock
   signed long int ru_oublock;
@@ -1686,12 +1686,12 @@ union anonymous$8
   signed long int __ru_oublock_word;
 };
 
-union anonymous$28
+union anonymous_28
 {
   // epoll
-  struct anonymous$26 epoll;
+  struct anonymous_26 epoll;
   // poll
-  struct anonymous$27 poll;
+  struct anonymous_27 poll;
 };
 
 struct __pthread_internal_list
@@ -1722,7 +1722,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$34
+union anonymous_34
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1760,7 +1760,7 @@ struct iv_event_raw
   signed int event_wfd;
 };
 
-union anonymous$32
+union anonymous_32
 {
   // ier
   struct iv_event_raw ier;
@@ -1911,9 +1911,9 @@ struct iv_event_thr_info
   // event_count
   signed int event_count;
   // u
-  union anonymous$32 u;
+  union anonymous_32 u;
   // list_mutex
-  union anonymous$34 list_mutex;
+  union anonymous_34 list_mutex;
   // pending_events
   struct iv_list_head pending_events;
 };
@@ -1943,7 +1943,7 @@ struct iv_fd_
   // list_notify
   struct iv_list_head list_notify;
   // u
-  union anonymous$29 u;
+  union anonymous_29 u;
 };
 
 struct iv_fd_poll_method
@@ -1999,7 +1999,7 @@ struct iv_fd_pump_buf
   // list
   struct iv_list_head list;
   // u
-  union anonymous$38 u;
+  union anonymous_38 u;
 };
 
 struct iv_fd_pump_thr_info
@@ -2153,7 +2153,7 @@ struct iv_state
   // timer_root
   struct ratnode *timer_root;
   // u
-  union anonymous$28 u;
+  union anonymous_28 u;
 };
 
 struct iv_task
@@ -2316,42 +2316,42 @@ struct rusage
   struct timeval ru_utime;
   // ru_stime
   struct timeval ru_stime;
-  // $anon0
-  union anonymous$0 $anon0;
-  // $anon1
-  union anonymous$1 $anon1;
-  // $anon2
-  union anonymous$2 $anon2;
-  // $anon3
-  union anonymous$3 $anon3;
-  // $anon4
-  union anonymous$4 $anon4;
-  // $anon5
-  union anonymous$5 $anon5;
-  // $anon6
-  union anonymous$6 $anon6;
-  // $anon7
-  union anonymous$7 $anon7;
-  // $anon8
-  union anonymous$8 $anon8;
-  // $anon9
-  union anonymous$9 $anon9;
-  // $anon10
-  union anonymous$10 $anon10;
-  // $anon11
-  union anonymous$11 $anon11;
-  // $anon12
-  union anonymous$12 $anon12;
-  // $anon13
-  union anonymous$13 $anon13;
+  // _anon0
+  union anonymous_0 _anon0;
+  // _anon1
+  union anonymous_1 _anon1;
+  // _anon2
+  union anonymous_2 _anon2;
+  // _anon3
+  union anonymous_3 _anon3;
+  // _anon4
+  union anonymous_4 _anon4;
+  // _anon5
+  union anonymous_5 _anon5;
+  // _anon6
+  union anonymous_6 _anon6;
+  // _anon7
+  union anonymous_7 _anon7;
+  // _anon8
+  union anonymous_8 _anon8;
+  // _anon9
+  union anonymous_9 _anon9;
+  // _anon10
+  union anonymous_10 _anon10;
+  // _anon11
+  union anonymous_11 _anon11;
+  // _anon12
+  union anonymous_12 _anon12;
+  // _anon13
+  union anonymous_13 _anon13;
 };
 
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$17 __sigaction_handler;
+  union anonymous_17 __sigaction_handler;
   // sa_mask
-  struct anonymous$15 sa_mask;
+  struct anonymous_15 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2371,9 +2371,9 @@ union wait
   // w_status
   signed int w_status;
   // __wait_terminated
-  struct anonymous$35 __wait_terminated;
+  struct anonymous_35 __wait_terminated;
   // __wait_stopped
-  struct anonymous$36 __wait_stopped;
+  struct anonymous_36 __wait_stopped;
 };
 
 struct wait_event
@@ -2389,7 +2389,7 @@ struct wait_event
 struct work_pool_priv
 {
   // lock
-  union anonymous$34 lock;
+  union anonymous_34 lock;
   // ev
   struct iv_event ev;
   // shutting_down
@@ -2536,7 +2536,7 @@ static struct iv_avl_tree iv_wait_interests;
 static struct iv_avl_tree iv_wait_interests = { .compare=iv_wait_interest_compare, .root=(struct iv_avl_node *)(void *)0 };
 // iv_wait_lock
 // file ../../../src/iv_wait.c line 62
-static union anonymous$34 iv_wait_lock;
+static union anonymous_34 iv_wait_lock;
 // iv_wait_tls_user
 // file ../../../src/iv_wait.c line 189
 static struct iv_tls_user iv_wait_tls_user;
@@ -2587,16 +2587,16 @@ static inline void IV_EVENT_INIT(struct iv_event *this)
   ;
 }
 
-// IV_EVENT_INIT$link1
+// IV_EVENT_INIT_link1
 // file ../../../src/include/iv_event.h line 39
-static inline void IV_EVENT_INIT$link1(struct iv_event *this$link1)
+static inline void IV_EVENT_INIT_link1(struct iv_event *this_link1)
 {
   ;
 }
 
-// IV_EVENT_INIT$link2
+// IV_EVENT_INIT_link2
 // file ../../../src/include/iv_event.h line 39
-static inline void IV_EVENT_INIT$link2(struct iv_event *this$link2)
+static inline void IV_EVENT_INIT_link2(struct iv_event *this_link2)
 {
   ;
 }
@@ -2608,9 +2608,9 @@ static inline void IV_EVENT_RAW_INIT(struct iv_event_raw *this)
   ;
 }
 
-// IV_EVENT_RAW_INIT$link1
+// IV_EVENT_RAW_INIT_link1
 // file ../../../src/include/iv_event_raw.h line 42
-static inline void IV_EVENT_RAW_INIT$link1(struct iv_event_raw *this$link1)
+static inline void IV_EVENT_RAW_INIT_link1(struct iv_event_raw *this_link1)
 {
   ;
 }
@@ -2681,18 +2681,18 @@ static inline void IV_WORK_POOL_INIT(struct iv_work_pool *this)
 // file ../../../src/iv_fd_pump.c line 172
 static struct iv_fd_pump_buf * __buf_dequeue(struct iv_fd_pump_thr_info *tinfo)
 {
-  signed int return_value_iv_list_empty$2;
-  return_value_iv_list_empty$2=iv_list_empty$link4(&tinfo->bufs);
-  struct iv_fd_pump_buf *tmp_statement_expression$1;
-  if(return_value_iv_list_empty$2 == 0)
+  signed int return_value_iv_list_empty_2;
+  return_value_iv_list_empty_2=iv_list_empty_link4(&tinfo->bufs);
+  struct iv_fd_pump_buf *tmp_statement_expression_1;
+  if(return_value_iv_list_empty_2 == 0)
   {
     struct iv_list_head *ilh;
     tinfo->num_bufs = tinfo->num_bufs - 1;
     ilh = tinfo->bufs.next;
-    iv_list_del$link3(ilh);
+    iv_list_del_link3(ilh);
     const struct iv_list_head *__ptr = ilh;
-    tmp_statement_expression$1 = (struct iv_fd_pump_buf *)((char *)__ptr - (signed long int)&((struct iv_fd_pump_buf *)0)->list);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct iv_fd_pump_buf *)((char *)__ptr - (signed long int)&((struct iv_fd_pump_buf *)0)->list);
+    return tmp_statement_expression_1;
   }
 
   return (struct iv_fd_pump_buf *)(void *)0;
@@ -2716,13 +2716,13 @@ static void __buf_free(struct iv_fd_pump_buf *buf)
 static struct iv_inotify_watch * __find_watch(struct iv_inotify *this, signed int wd)
 {
   struct iv_avl_node *an = this->watches.root;
-  struct iv_inotify_watch *tmp_statement_expression$1;
+  struct iv_inotify_watch *tmp_statement_expression_1;
   while(!(an == ((struct iv_avl_node *)NULL)))
   {
     struct iv_inotify_watch *w;
     const struct iv_avl_node *__ptr = an;
-    tmp_statement_expression$1 = (struct iv_inotify_watch *)((char *)__ptr - (signed long int)&((struct iv_inotify_watch *)0)->an);
-    w = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct iv_inotify_watch *)((char *)__ptr - (signed long int)&((struct iv_inotify_watch *)0)->an);
+    w = tmp_statement_expression_1;
     if(wd == w->wd)
       return w;
 
@@ -2755,15 +2755,15 @@ static void __iv_event_run_pending_events(void *_tinfo)
   struct iv_list_head events;
   mutex_lock(&tinfo->list_mutex);
   __iv_list_steal_elements(&tinfo->pending_events, &events);
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty(&events);
-  struct iv_event *tmp_statement_expression$2;
-  if(return_value_iv_list_empty$1 == 0)
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty(&events);
+  struct iv_event *tmp_statement_expression_2;
+  if(return_value_iv_list_empty_1 == 0)
   {
     struct iv_event *ie;
     const struct iv_list_head *__ptr = events.next;
-    tmp_statement_expression$2 = (struct iv_event *)((char *)__ptr - (signed long int)&((struct iv_event *)0)->list);
-    ie = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct iv_event *)((char *)__ptr - (signed long int)&((struct iv_event *)0)->list);
+    ie = tmp_statement_expression_2;
     iv_list_del_init(&ie->list);
     mutex_unlock(&tinfo->list_mutex);
     ie->handler(ie->cookie);
@@ -2780,54 +2780,54 @@ static signed int __iv_fd_epoll_flush_one(struct iv_state *st, struct iv_fd_ *fd
   signed int op;
   struct epoll_event event;
   signed int ret;
-  iv_list_del_init$link4(&fd->list_notify);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  iv_list_del_init_link4(&fd->list_notify);
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(fd->registered_bands == fd->wanted_bands)
     return 0;
 
   else
   {
     if(fd->registered_bands == 0u)
-      tmp_if_expr$2 = fd->wanted_bands != 0u ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = fd->wanted_bands != 0u ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       op = 1;
 
     else
     {
       if(!(fd->registered_bands == 0u))
-        tmp_if_expr$1 = !(fd->wanted_bands != 0u) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = !(fd->wanted_bands != 0u) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         op = 2;
 
       else
         op = 3;
     }
     event.data.ptr = (void *)fd;
-    signed int return_value_bits_to_poll_mask$3;
-    return_value_bits_to_poll_mask$3=bits_to_poll_mask$link1((signed int)fd->wanted_bands);
-    event.events = (unsigned int)return_value_bits_to_poll_mask$3;
+    signed int return_value_bits_to_poll_mask_3;
+    return_value_bits_to_poll_mask_3=bits_to_poll_mask_link1((signed int)fd->wanted_bands);
+    event.events = (unsigned int)return_value_bits_to_poll_mask_3;
     do
     {
       ret=epoll_ctl(st->u.epoll.epoll_fd, op, fd->fd, &event);
       if(!(ret >= 0))
       {
-        return_value___errno_location$4=__errno_location();
-        tmp_if_expr$5 = *return_value___errno_location$4 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_4=__errno_location();
+        tmp_if_expr_5 = *return_value___errno_location_4 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
     }
-    while(tmp_if_expr$5);
+    while(tmp_if_expr_5);
     if(ret == 0)
       fd->registered_bands = (unsigned int)fd->wanted_bands;
 
@@ -2843,26 +2843,26 @@ static signed int __iv_fd_pump_pump(struct iv_fd_pump *ip)
   {
     if(ip->saw_fin == 0)
     {
-      signed int return_value_iv_fd_pump_try_input$1;
-      return_value_iv_fd_pump_try_input$1=iv_fd_pump_try_input(ip);
-      if(!(return_value_iv_fd_pump_try_input$1 == 0))
+      signed int return_value_iv_fd_pump_try_input_1;
+      return_value_iv_fd_pump_try_input_1=iv_fd_pump_try_input(ip);
+      if(!(return_value_iv_fd_pump_try_input_1 == 0))
         return -1;
 
     }
 
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(ip->bytes == 0))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = ip->saw_fin == 1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = ip->saw_fin == 1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int return_value_iv_fd_pump_try_output$2;
-    return_value_iv_fd_pump_try_output$2=iv_fd_pump_try_output(ip);
-    if(!(return_value_iv_fd_pump_try_output$2 == 0))
+    signed int return_value_iv_fd_pump_try_output_2;
+    return_value_iv_fd_pump_try_output_2=iv_fd_pump_try_output(ip);
+    if(!(return_value_iv_fd_pump_try_output_2 == 0))
       return -1;
 
   }
@@ -2885,15 +2885,15 @@ static signed int __iv_fd_pump_pump(struct iv_fd_pump *ip)
 static signed int __iv_inotify_watch_compare(struct iv_avl_node *_a, struct iv_avl_node *_b)
 {
   struct iv_inotify_watch *a;
-  struct iv_inotify_watch *tmp_statement_expression$1;
-  const struct iv_avl_node *__iv_inotify_watch_compare$$1$$1$$__ptr = _a;
-  tmp_statement_expression$1 = (struct iv_inotify_watch *)((char *)__iv_inotify_watch_compare$$1$$1$$__ptr - (signed long int)&((struct iv_inotify_watch *)0)->an);
-  a = tmp_statement_expression$1;
+  struct iv_inotify_watch *tmp_statement_expression_1;
+  const struct iv_avl_node *__iv_inotify_watch_compare__1__1____ptr = _a;
+  tmp_statement_expression_1 = (struct iv_inotify_watch *)((char *)__iv_inotify_watch_compare__1__1____ptr - (signed long int)&((struct iv_inotify_watch *)0)->an);
+  a = tmp_statement_expression_1;
   struct iv_inotify_watch *b;
-  struct iv_inotify_watch *tmp_statement_expression$2;
+  struct iv_inotify_watch *tmp_statement_expression_2;
   const struct iv_avl_node *__ptr = _b;
-  tmp_statement_expression$2 = (struct iv_inotify_watch *)((char *)__ptr - (signed long int)&((struct iv_inotify_watch *)0)->an);
-  b = tmp_statement_expression$2;
+  tmp_statement_expression_2 = (struct iv_inotify_watch *)((char *)__ptr - (signed long int)&((struct iv_inotify_watch *)0)->an);
+  b = tmp_statement_expression_2;
   if(!(a->wd >= b->wd))
     return -1;
 
@@ -2926,46 +2926,46 @@ static inline void __iv_list_steal_elements(struct iv_list_head *oldh, struct iv
   oldh->prev = oldh;
 }
 
-// __iv_list_steal_elements$link1
+// __iv_list_steal_elements_link1
 // file ../../../src/iv_private.h line 167
-static inline void __iv_list_steal_elements$link1(struct iv_list_head *oldh$link1, struct iv_list_head *newh$link1)
+static inline void __iv_list_steal_elements_link1(struct iv_list_head *oldh_link1, struct iv_list_head *newh_link1)
 {
-  struct iv_list_head *first$link1 = oldh$link1->next;
-  struct iv_list_head *last$link1 = oldh$link1->prev;
-  last$link1->next = newh$link1;
-  first$link1->prev = newh$link1;
-  newh$link1->next = oldh$link1->next;
-  newh$link1->prev = oldh$link1->prev;
-  oldh$link1->next = oldh$link1;
-  oldh$link1->prev = oldh$link1;
+  struct iv_list_head *first_link1 = oldh_link1->next;
+  struct iv_list_head *last_link1 = oldh_link1->prev;
+  last_link1->next = newh_link1;
+  first_link1->prev = newh_link1;
+  newh_link1->next = oldh_link1->next;
+  newh_link1->prev = oldh_link1->prev;
+  oldh_link1->next = oldh_link1;
+  oldh_link1->prev = oldh_link1;
 }
 
-// __iv_list_steal_elements$link2
+// __iv_list_steal_elements_link2
 // file ../../../src/iv_private.h line 167
-static inline void __iv_list_steal_elements$link2(struct iv_list_head *oldh$link2, struct iv_list_head *newh$link2)
+static inline void __iv_list_steal_elements_link2(struct iv_list_head *oldh_link2, struct iv_list_head *newh_link2)
 {
-  struct iv_list_head *first$link2 = oldh$link2->next;
-  struct iv_list_head *last$link2 = oldh$link2->prev;
-  last$link2->next = newh$link2;
-  first$link2->prev = newh$link2;
-  newh$link2->next = oldh$link2->next;
-  newh$link2->prev = oldh$link2->prev;
-  oldh$link2->next = oldh$link2;
-  oldh$link2->prev = oldh$link2;
+  struct iv_list_head *first_link2 = oldh_link2->next;
+  struct iv_list_head *last_link2 = oldh_link2->prev;
+  last_link2->next = newh_link2;
+  first_link2->prev = newh_link2;
+  newh_link2->next = oldh_link2->next;
+  newh_link2->prev = oldh_link2->prev;
+  oldh_link2->next = oldh_link2;
+  oldh_link2->prev = oldh_link2;
 }
 
-// __iv_list_steal_elements$link3
+// __iv_list_steal_elements_link3
 // file ../../../src/iv_private.h line 167
-static inline void __iv_list_steal_elements$link3(struct iv_list_head *oldh$link3, struct iv_list_head *newh$link3)
+static inline void __iv_list_steal_elements_link3(struct iv_list_head *oldh_link3, struct iv_list_head *newh_link3)
 {
-  struct iv_list_head *first$link3 = oldh$link3->next;
-  struct iv_list_head *last$link3 = oldh$link3->prev;
-  last$link3->next = newh$link3;
-  first$link3->prev = newh$link3;
-  newh$link3->next = oldh$link3->next;
-  newh$link3->prev = oldh$link3->prev;
-  oldh$link3->next = oldh$link3;
-  oldh$link3->prev = oldh$link3;
+  struct iv_list_head *first_link3 = oldh_link3->next;
+  struct iv_list_head *last_link3 = oldh_link3->prev;
+  last_link3->next = newh_link3;
+  first_link3->prev = newh_link3;
+  newh_link3->next = oldh_link3->next;
+  newh_link3->prev = oldh_link3->prev;
+  oldh_link3->next = oldh_link3;
+  oldh_link3->prev = oldh_link3;
 }
 
 // __iv_now_location
@@ -2973,7 +2973,7 @@ static inline void __iv_list_steal_elements$link3(struct iv_list_head *oldh$link
 struct timespec * __iv_now_location(void)
 {
   struct iv_state *st;
-  st=iv_get_state$link2();
+  st=iv_get_state_link2();
   return &st->time;
 }
 
@@ -2983,13 +2983,13 @@ static void __iv_signal_do_wake(signed int signum)
 {
   struct iv_avl_node *an;
   an=__iv_signal_find_first(signum);
-  struct iv_signal *tmp_statement_expression$1;
+  struct iv_signal *tmp_statement_expression_1;
   while(!(an == ((struct iv_avl_node *)NULL)))
   {
     struct iv_signal *is;
     const struct iv_avl_node *__ptr = an;
-    tmp_statement_expression$1 = (struct iv_signal *)((char *)__ptr - (signed long int)&((struct iv_signal *)0)->an);
-    is = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct iv_signal *)((char *)__ptr - (signed long int)&((struct iv_signal *)0)->an);
+    is = tmp_statement_expression_1;
     if(!(is->signum == signum))
       break;
 
@@ -3010,13 +3010,13 @@ static struct iv_avl_node * __iv_signal_find_first(signed int signum)
   struct iv_avl_node *best;
   iter = sig_interests.root;
   best = (struct iv_avl_node *)(void *)0;
-  struct iv_signal *tmp_statement_expression$1;
+  struct iv_signal *tmp_statement_expression_1;
   while(!(iter == ((struct iv_avl_node *)NULL)))
   {
     struct iv_signal *is;
     const struct iv_avl_node *__ptr = iter;
-    tmp_statement_expression$1 = (struct iv_signal *)((char *)__ptr - (signed long int)&((struct iv_signal *)0)->an);
-    is = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct iv_signal *)((char *)__ptr - (signed long int)&((struct iv_signal *)0)->an);
+    is = tmp_statement_expression_1;
     if(signum == is->signum)
       best = iter;
 
@@ -3034,13 +3034,13 @@ static struct iv_avl_node * __iv_signal_find_first(signed int signum)
 static struct iv_wait_interest * __iv_wait_interest_find(signed int pid)
 {
   struct iv_avl_node *an = iv_wait_interests.root;
-  struct iv_wait_interest *tmp_statement_expression$1;
+  struct iv_wait_interest *tmp_statement_expression_1;
   while(!(an == ((struct iv_avl_node *)NULL)))
   {
     struct iv_wait_interest *p;
     const struct iv_avl_node *__ptr = an;
-    tmp_statement_expression$1 = (struct iv_wait_interest *)((char *)__ptr - (signed long int)&((struct iv_wait_interest *)0)->avl_node);
-    p = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct iv_wait_interest *)((char *)__ptr - (signed long int)&((struct iv_wait_interest *)0)->avl_node);
+    p = tmp_statement_expression_1;
     if(pid == p->pid)
       return p;
 
@@ -3057,12 +3057,12 @@ static struct iv_wait_interest * __iv_wait_interest_find(signed int pid)
 // file ../../../src/iv_wait.c line 234
 static void __iv_wait_interest_register(struct iv_wait_thr_info *tinfo, struct iv_wait_interest *this)
 {
-  signed int tmp_post$1 = tinfo->wait_count;
+  signed int tmp_post_1 = tinfo->wait_count;
   tinfo->wait_count = tinfo->wait_count + 1;
-  if(tmp_post$1 == 0)
+  if(tmp_post_1 == 0)
     iv_signal_register(&tinfo->sigchld_interest);
 
-  IV_EVENT_INIT$link2(&this->ev);
+  IV_EVENT_INIT_link2(&this->ev);
   this->ev.handler = iv_wait_completion;
   this->ev.cookie = (void *)this;
   iv_event_register(&this->ev);
@@ -3081,19 +3081,19 @@ static void __iv_wait_interest_register(struct iv_wait_thr_info *tinfo, struct i
 static void __iv_wait_interest_unregister(struct iv_wait_thr_info *tinfo, struct iv_wait_interest *this)
 {
   iv_event_unregister(&this->ev);
-  signed int return_value_iv_list_empty$1;
-  struct wait_event *tmp_statement_expression$2;
+  signed int return_value_iv_list_empty_1;
+  struct wait_event *tmp_statement_expression_2;
   do
   {
-    return_value_iv_list_empty$1=iv_list_empty$link5(&this->events);
-    if(!(return_value_iv_list_empty$1 == 0))
+    return_value_iv_list_empty_1=iv_list_empty_link5(&this->events);
+    if(!(return_value_iv_list_empty_1 == 0))
       break;
 
     struct wait_event *we;
     const struct iv_list_head *__ptr = this->events.next;
-    tmp_statement_expression$2 = (struct wait_event *)((char *)__ptr - (signed long int)&((struct wait_event *)0)->list);
-    we = tmp_statement_expression$2;
-    iv_list_del$link5(&we->list);
+    tmp_statement_expression_2 = (struct wait_event *)((char *)__ptr - (signed long int)&((struct wait_event *)0)->list);
+    we = tmp_statement_expression_2;
+    iv_list_del_link5(&we->list);
     free((void *)we);
   }
   while((_Bool)1);
@@ -3110,25 +3110,25 @@ static void __iv_wait_interest_unregister(struct iv_wait_thr_info *tinfo, struct
 // file ../../../src/iv_work.c line 78
 static void __iv_work_thread_die(struct work_pool_thread *thr)
 {
-  struct work_pool_priv *__iv_work_thread_die$$1$$pool = thr->pool;
+  struct work_pool_priv *__iv_work_thread_die__1__pool = thr->pool;
   if(!(thr->kicked == 0))
     iv_fatal("__iv_work_thread_die: called on kicked thread");
 
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link2(&thr->list);
-  if(return_value_iv_list_empty$1 == 0)
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link2(&thr->list);
+  if(return_value_iv_list_empty_1 == 0)
     iv_fatal("__iv_work_thread_die: thread still on list");
 
   iv_event_unregister(&thr->kick);
   free((void *)thr);
-  __iv_work_thread_die$$1$$pool->started_threads = __iv_work_thread_die$$1$$pool->started_threads - 1;
-  if(!(__iv_work_thread_die$$1$$pool->thread_stop == ((void (*)(void *))NULL)))
-    __iv_work_thread_die$$1$$pool->thread_stop(__iv_work_thread_die$$1$$pool->cookie);
+  __iv_work_thread_die__1__pool->started_threads = __iv_work_thread_die__1__pool->started_threads - 1;
+  if(!(__iv_work_thread_die__1__pool->thread_stop == ((void (*)(void *))NULL)))
+    __iv_work_thread_die__1__pool->thread_stop(__iv_work_thread_die__1__pool->cookie);
 
-  if(!(__iv_work_thread_die$$1$$pool->shutting_down == 0))
+  if(!(__iv_work_thread_die__1__pool->shutting_down == 0))
   {
-    if(__iv_work_thread_die$$1$$pool->started_threads == 0)
-      iv_event_post(&__iv_work_thread_die$$1$$pool->ev);
+    if(__iv_work_thread_die__1__pool->started_threads == 0)
+      iv_event_post(&__iv_work_thread_die__1__pool->ev);
 
   }
 
@@ -3138,11 +3138,11 @@ static void __iv_work_thread_die(struct work_pool_thread *thr)
 // file ../../../src/iv_avl.c line 192
 static signed int balance(struct iv_avl_node *an)
 {
-  signed int return_value_height$1;
-  return_value_height$1=height(an->right);
-  signed int return_value_height$2;
-  return_value_height$2=height(an->left);
-  return return_value_height$1 - return_value_height$2;
+  signed int return_value_height_1;
+  return_value_height_1=height(an->right);
+  signed int return_value_height_2;
+  return_value_height_2=height(an->left);
+  return return_value_height_1 - return_value_height_2;
 }
 
 // bits_to_poll_mask
@@ -3162,18 +3162,18 @@ static signed int bits_to_poll_mask(signed int bits)
   return mask;
 }
 
-// bits_to_poll_mask$link1
+// bits_to_poll_mask_link1
 // file ../../../src/iv_fd_epoll.c line 56
-static signed int bits_to_poll_mask$link1(signed int bits$link1)
+static signed int bits_to_poll_mask_link1(signed int bits_link1)
 {
-  signed int mask$link1 = 0;
-  if(!((1 & bits$link1) == 0))
-    mask$link1 = mask$link1 | 1;
+  signed int mask_link1 = 0;
+  if(!((1 & bits_link1) == 0))
+    mask_link1 = mask_link1 | 1;
 
-  if(!((2 & bits$link1) == 0))
-    mask$link1 = mask$link1 | 4;
+  if(!((2 & bits_link1) == 0))
+    mask_link1 = mask_link1 | 4;
 
-  return mask$link1;
+  return mask_link1;
 }
 
 // buf_alloc
@@ -3187,14 +3187,14 @@ static struct iv_fd_pump_buf * buf_alloc(void)
 
   else
     size = (signed int)sizeof(struct iv_fd_pump_buf) /*24ul*/ ;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)size);
-  buf = (struct iv_fd_pump_buf *)return_value_malloc$1;
-  signed int return_value_pipe$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)size);
+  buf = (struct iv_fd_pump_buf *)return_value_malloc_1;
+  signed int return_value_pipe_2;
   if(!(buf == ((struct iv_fd_pump_buf *)NULL)) && !(splice_available == 0))
   {
-    return_value_pipe$2=pipe(buf->u.pfd);
-    if(!(return_value_pipe$2 >= 0))
+    return_value_pipe_2=pipe(buf->u.pfd);
+    if(!(return_value_pipe_2 >= 0))
     {
       free((void *)buf);
       buf = (struct iv_fd_pump_buf *)(void *)0;
@@ -3210,9 +3210,9 @@ static struct iv_fd_pump_buf * buf_alloc(void)
 static struct iv_fd_pump_buf * buf_get(void)
 {
   struct iv_fd_pump_thr_info *tinfo;
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_fd_pump_tls_user);
-  tinfo = (struct iv_fd_pump_thr_info *)return_value_iv_tls_user_ptr$1;
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_fd_pump_tls_user);
+  tinfo = (struct iv_fd_pump_thr_info *)return_value_iv_tls_user_ptr_1;
   struct iv_fd_pump_buf *buf;
   buf=__buf_dequeue(tinfo);
   if(buf == ((struct iv_fd_pump_buf *)NULL))
@@ -3247,13 +3247,13 @@ static void buf_put(struct iv_fd_pump_buf *buf, signed int bytes)
 
   else
   {
-    void *return_value_iv_tls_user_ptr$1;
-    return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_fd_pump_tls_user);
-    tinfo = (struct iv_fd_pump_thr_info *)return_value_iv_tls_user_ptr$1;
+    void *return_value_iv_tls_user_ptr_1;
+    return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_fd_pump_tls_user);
+    tinfo = (struct iv_fd_pump_thr_info *)return_value_iv_tls_user_ptr_1;
     if(!(tinfo->num_bufs >= 20))
     {
       tinfo->num_bufs = tinfo->num_bufs + 1;
-      iv_list_add$link1(&buf->list, &tinfo->bufs);
+      iv_list_add_link1(&buf->list, &tinfo->bufs);
     }
 
     else
@@ -3270,8 +3270,8 @@ static void check_splice_available(void)
   signed int ret;
   splice_available = 1;
   b0=buf_alloc();
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   if(b0 == ((struct iv_fd_pump_buf *)NULL))
     splice_available = 0;
 
@@ -3286,18 +3286,18 @@ static void check_splice_available(void)
 
     else
     {
-      signed long int return_value_splice$1;
-      return_value_splice$1=splice(b0->u.pfd[(signed long int)0], (signed long int *)(void *)0, b1->u.pfd[(signed long int)1], (signed long int *)(void *)0, (unsigned long int)1, (unsigned int)2);
-      ret = (signed int)return_value_splice$1;
+      signed long int return_value_splice_1;
+      return_value_splice_1=splice(b0->u.pfd[(signed long int)0], (signed long int *)(void *)0, b1->u.pfd[(signed long int)1], (signed long int *)(void *)0, (unsigned long int)1, (unsigned int)2);
+      ret = (signed int)return_value_splice_1;
       if(!(ret >= 0))
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
         buf_put(b1, 0);
         buf_put(b0, 0);
@@ -3317,11 +3317,11 @@ static void check_splice_available(void)
 // file ../../../src/iv_fd.c line 81
 static void consider_poll_method(struct iv_state *st, char *exclude, struct iv_fd_poll_method *m)
 {
-  signed int return_value_method_is_excluded$1;
+  signed int return_value_method_is_excluded_1;
   if(method == ((struct iv_fd_poll_method *)NULL))
   {
-    return_value_method_is_excluded$1=method_is_excluded(exclude, m->name);
-    if(return_value_method_is_excluded$1 == 0)
+    return_value_method_is_excluded_1=method_is_excluded(exclude, m->name);
+    if(return_value_method_is_excluded_1 == 0)
     {
       signed int return_value;
       return_value=m->init(st);
@@ -3404,9 +3404,9 @@ static void free_ratnode(struct ratnode *node, signed int depth)
 static unsigned long int get_thread_id(void)
 {
   unsigned long int thread_id;
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)186);
-  thread_id = (unsigned long int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)186);
+  thread_id = (unsigned long int)return_value_syscall_1;
   return thread_id;
 }
 
@@ -3416,22 +3416,22 @@ static signed int grab_eventfd(void)
 {
   signed int fd;
   fd=eventfd((unsigned int)0, 2048 | 524288);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 22))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 22))
     {
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 38))
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 38))
         perror("eventfd");
 
     }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   return fd;
@@ -3441,13 +3441,13 @@ static signed int grab_eventfd(void)
 // file ../../../src/iv_avl.c line 25
 static signed int height(struct iv_avl_node *an)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(an == ((struct iv_avl_node *)NULL)))
-    tmp_if_expr$1 = (signed int)an->height;
+    tmp_if_expr_1 = (signed int)an->height;
 
   else
-    tmp_if_expr$1 = 0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = 0;
+  return tmp_if_expr_1;
 }
 
 // iv_avl_tree_delete
@@ -3455,13 +3455,13 @@ static signed int height(struct iv_avl_node *an)
 void iv_avl_tree_delete(struct iv_avl_tree *tree, struct iv_avl_node *an)
 {
   struct iv_avl_node *p;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(an->left == ((struct iv_avl_node *)NULL))
-    tmp_if_expr$1 = an->right == (struct iv_avl_node *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = an->right == (struct iv_avl_node *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     p=iv_avl_tree_delete_leaf(tree, an);
 
   else
@@ -3483,11 +3483,11 @@ static struct iv_avl_node * iv_avl_tree_delete_nonleaf(struct iv_avl_tree *tree,
 {
   struct iv_avl_node *victim;
   struct iv_avl_node *p;
-  signed int return_value_height$1;
-  return_value_height$1=height(an->left);
-  signed int return_value_height$2;
-  return_value_height$2=height(an->right);
-  if(!(return_value_height$2 >= return_value_height$1))
+  signed int return_value_height_1;
+  return_value_height_1=height(an->left);
+  signed int return_value_height_2;
+  return_value_height_2=height(an->right);
+  if(!(return_value_height_2 >= return_value_height_1))
   {
     victim = an->left;
     for( ; !(victim->right == ((struct iv_avl_node *)NULL)); victim = victim->right)
@@ -3618,7 +3618,7 @@ struct iv_avl_node * iv_avl_tree_prev(struct iv_avl_node *an)
 void iv_deinit(void)
 {
   struct iv_state *st;
-  st=iv_get_state$link5();
+  st=iv_get_state_link5();
   __iv_deinit(st);
 }
 
@@ -3629,13 +3629,13 @@ void iv_event_post(struct iv_event *this)
   struct iv_event_thr_info *tinfo = (struct iv_event_thr_info *)this->tinfo;
   signed int post = 0;
   mutex_lock(&tinfo->list_mutex);
-  signed int return_value_iv_list_empty$2;
-  return_value_iv_list_empty$2=iv_list_empty(&this->list);
-  if(!(return_value_iv_list_empty$2 == 0))
+  signed int return_value_iv_list_empty_2;
+  return_value_iv_list_empty_2=iv_list_empty(&this->list);
+  if(!(return_value_iv_list_empty_2 == 0))
   {
-    signed int return_value_iv_list_empty$1;
-    return_value_iv_list_empty$1=iv_list_empty(&tinfo->pending_events);
-    if(!(return_value_iv_list_empty$1 == 0))
+    signed int return_value_iv_list_empty_1;
+    return_value_iv_list_empty_1=iv_list_empty(&tinfo->pending_events);
+    if(!(return_value_iv_list_empty_1 == 0))
       post = 1;
 
     iv_list_add_tail(&this->list, &tinfo->pending_events);
@@ -3662,24 +3662,24 @@ static void iv_event_raw_got_event(void *_this)
   char buf[1024l];
   signed int ret;
   toread = (signed int)(eventfd_unavailable != 0 ? sizeof(char [1024l]) /*1024ul*/  : (unsigned long int)8);
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed long int return_value_read$3;
-    return_value_read$3=read(this->event_rfd.fd, (void *)buf, (unsigned long int)toread);
-    ret = (signed int)return_value_read$3;
+    signed long int return_value_read_3;
+    return_value_read_3=read(this->event_rfd.fd, (void *)buf, (unsigned long int)toread);
+    ret = (signed int)return_value_read_3;
     if(!(ret >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
-  signed int *return_value___errno_location$7;
+  while(tmp_if_expr_2);
+  signed int *return_value___errno_location_7;
   if(!(ret >= 1))
   {
     if(ret == 0)
@@ -3687,16 +3687,16 @@ static void iv_event_raw_got_event(void *_this)
 
     else
     {
-      return_value___errno_location$7=__errno_location();
-      if(!(*return_value___errno_location$7 == 11))
+      return_value___errno_location_7=__errno_location();
+      if(!(*return_value___errno_location_7 == 11))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        char *return_value_strerror$6;
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        iv_fatal("iv_event_raw: reading from event fd returned error %d[%s]", *return_value___errno_location$4, return_value_strerror$6);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        char *return_value_strerror_6;
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        iv_fatal("iv_event_raw: reading from event fd returned error %d[%s]", *return_value___errno_location_4, return_value_strerror_6);
       }
 
     }
@@ -3749,9 +3749,9 @@ signed int iv_event_raw_register(struct iv_event_raw *this)
 
   if(!(eventfd_unavailable == 0))
   {
-    signed int return_value_pipe$1;
-    return_value_pipe$1=pipe(fd);
-    if(!(return_value_pipe$1 >= 0))
+    signed int return_value_pipe_1;
+    return_value_pipe_1=pipe(fd);
+    if(!(return_value_pipe_1 >= 0))
     {
       perror("pipe");
       return -1;
@@ -3790,20 +3790,20 @@ void iv_event_raw_unregister(struct iv_event_raw *this)
 signed int iv_event_register(struct iv_event *this)
 {
   struct iv_event_thr_info *tinfo;
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_event_tls_user);
-  tinfo = (struct iv_event_thr_info *)return_value_iv_tls_user_ptr$1;
-  signed int tmp_post$3 = tinfo->event_count;
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_event_tls_user);
+  tinfo = (struct iv_event_thr_info *)return_value_iv_tls_user_ptr_1;
+  signed int tmp_post_3 = tinfo->event_count;
   tinfo->event_count = tinfo->event_count + 1;
-  if(tmp_post$3 == 0)
+  if(tmp_post_3 == 0)
   {
     if(iv_event_use_event_raw == 0)
     {
       struct iv_state *st;
       st=iv_get_state();
-      signed int return_value_event_rx_on$2;
-      return_value_event_rx_on$2=event_rx_on(st);
-      if(return_value_event_rx_on$2 == 0)
+      signed int return_value_event_rx_on_2;
+      return_value_event_rx_on_2=event_rx_on(st);
+      if(return_value_event_rx_on_2 == 0)
         tinfo->u.st = st;
 
       else
@@ -3838,9 +3838,9 @@ signed int iv_event_register(struct iv_event *this)
 // file ../../../src/iv_event.c line 99
 void iv_event_run_pending_events(void)
 {
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_event_tls_user);
-  __iv_event_run_pending_events(return_value_iv_tls_user_ptr$1);
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_event_tls_user);
+  __iv_event_run_pending_events(return_value_iv_tls_user_ptr_1);
 }
 
 // iv_event_tls_deinit_thread
@@ -3874,12 +3874,12 @@ static void iv_event_tls_init_thread(void *_tinfo)
 void iv_event_unregister(struct iv_event *this)
 {
   struct iv_event_thr_info *tinfo;
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_event_tls_user);
-  tinfo = (struct iv_event_thr_info *)return_value_iv_tls_user_ptr$1;
-  signed int return_value_iv_list_empty$2;
-  return_value_iv_list_empty$2=iv_list_empty(&this->list);
-  if(return_value_iv_list_empty$2 == 0)
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_event_tls_user);
+  tinfo = (struct iv_event_thr_info *)return_value_iv_tls_user_ptr_1;
+  signed int return_value_iv_list_empty_2;
+  return_value_iv_list_empty_2=iv_list_empty(&this->list);
+  if(return_value_iv_list_empty_2 == 0)
   {
     mutex_lock(&tinfo->list_mutex);
     iv_list_del(&this->list);
@@ -3944,17 +3944,17 @@ static void iv_fd_epoll_deinit(struct iv_state *st)
 // file ../../../src/iv_fd_epoll.c line 99
 static void iv_fd_epoll_flush_one(struct iv_state *st, struct iv_fd_ *fd)
 {
-  signed int return_value___iv_fd_epoll_flush_one$4;
-  return_value___iv_fd_epoll_flush_one$4=__iv_fd_epoll_flush_one(st, fd);
-  if(!(return_value___iv_fd_epoll_flush_one$4 >= 0))
+  signed int return_value___iv_fd_epoll_flush_one_4;
+  return_value___iv_fd_epoll_flush_one_4=__iv_fd_epoll_flush_one(st, fd);
+  if(!(return_value___iv_fd_epoll_flush_one_4 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    iv_fatal("iv_fd_epoll_flush_one: got error %d[%s]", *return_value___errno_location$1, return_value_strerror$3);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    iv_fatal("iv_fd_epoll_flush_one: got error %d[%s]", *return_value___errno_location_1, return_value_strerror_3);
   }
 
 }
@@ -3963,18 +3963,18 @@ static void iv_fd_epoll_flush_one(struct iv_state *st, struct iv_fd_ *fd)
 // file ../../../src/iv_fd_epoll.c line 107
 static void iv_fd_epoll_flush_pending(struct iv_state *st)
 {
-  signed int return_value_iv_list_empty$1;
-  struct iv_fd_ *tmp_statement_expression$2;
+  signed int return_value_iv_list_empty_1;
+  struct iv_fd_ *tmp_statement_expression_2;
   do
   {
-    return_value_iv_list_empty$1=iv_list_empty$link6(&st->u.epoll.notify);
-    if(!(return_value_iv_list_empty$1 == 0))
+    return_value_iv_list_empty_1=iv_list_empty_link6(&st->u.epoll.notify);
+    if(!(return_value_iv_list_empty_1 == 0))
       break;
 
     struct iv_fd_ *fd;
     const struct iv_list_head *__ptr = st->u.epoll.notify.next;
-    tmp_statement_expression$2 = (struct iv_fd_ *)((char *)__ptr - (signed long int)&((struct iv_fd_ *)0)->list_notify);
-    fd = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct iv_fd_ *)((char *)__ptr - (signed long int)&((struct iv_fd_ *)0)->list_notify);
+    fd = tmp_statement_expression_2;
     iv_fd_epoll_flush_one(st, fd);
   }
   while((_Bool)1);
@@ -3992,7 +3992,7 @@ static signed int iv_fd_epoll_init(struct iv_state *st)
   }
   while((_Bool)0);
   fd=epoll_create1(524288);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(fd >= 0)
   {
     st->u.epoll.epoll_fd = fd;
@@ -4001,8 +4001,8 @@ static signed int iv_fd_epoll_init(struct iv_state *st)
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 38))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 38))
       return -1;
 
   }
@@ -4022,9 +4022,9 @@ static signed int iv_fd_epoll_init(struct iv_state *st)
 // file ../../../src/iv_fd_epoll.c line 164
 static void iv_fd_epoll_notify_fd(struct iv_state *st, struct iv_fd_ *fd)
 {
-  iv_list_del_init$link4(&fd->list_notify);
+  iv_list_del_init_link4(&fd->list_notify);
   if(!(fd->registered_bands == fd->wanted_bands))
-    iv_list_add_tail$link7(&fd->list_notify, &st->u.epoll.notify);
+    iv_list_add_tail_link7(&fd->list_notify, &st->u.epoll.notify);
 
 }
 
@@ -4032,44 +4032,44 @@ static void iv_fd_epoll_notify_fd(struct iv_state *st, struct iv_fd_ *fd)
 // file ../../../src/iv_fd_epoll.c line 171
 static signed int iv_fd_epoll_notify_fd_sync(struct iv_state *st, struct iv_fd_ *fd)
 {
-  signed int return_value___iv_fd_epoll_flush_one$1;
-  return_value___iv_fd_epoll_flush_one$1=__iv_fd_epoll_flush_one(st, fd);
-  return return_value___iv_fd_epoll_flush_one$1;
+  signed int return_value___iv_fd_epoll_flush_one_1;
+  return_value___iv_fd_epoll_flush_one_1=__iv_fd_epoll_flush_one(st, fd);
+  return return_value___iv_fd_epoll_flush_one_1;
 }
 
 // iv_fd_epoll_poll
 // file ../../../src/iv_fd_epoll.c line 119
 static void iv_fd_epoll_poll(struct iv_state *st, struct iv_list_head *active, struct timespec *to)
 {
-  signed long int iv_fd_epoll_poll$array_size0;
-  signed int tmp_if_expr$1;
+  signed long int iv_fd_epoll_poll_array_size0;
+  signed int tmp_if_expr_1;
   if(!(st->numfds == 0))
-    tmp_if_expr$1 = st->numfds;
+    tmp_if_expr_1 = st->numfds;
 
   else
-    tmp_if_expr$1 = 1;
-  iv_fd_epoll_poll$array_size0 = (signed long int)tmp_if_expr$1;
-  struct epoll_event batch[iv_fd_epoll_poll$array_size0];
+    tmp_if_expr_1 = 1;
+  iv_fd_epoll_poll_array_size0 = (signed long int)tmp_if_expr_1;
+  struct epoll_event batch[iv_fd_epoll_poll_array_size0];
   signed int msec;
   signed int ret;
   signed int i;
   iv_fd_epoll_flush_pending(st);
   msec = (signed int)((signed long int)1000 * to->tv_sec + (to->tv_nsec + (signed long int)999999) / (signed long int)1000000);
-  ret=epoll_wait(st->u.epoll.epoll_fd, batch, (signed int)((12ul * (unsigned long int)iv_fd_epoll_poll$array_size0) / sizeof(struct epoll_event) /*12ul*/ ), msec);
+  ret=epoll_wait(st->u.epoll.epoll_fd, batch, (signed int)((12ul * (unsigned long int)iv_fd_epoll_poll_array_size0) / sizeof(struct epoll_event) /*12ul*/ ), msec);
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 4)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 4)
       goto __CPROVER_DUMP_L10;
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    iv_fatal("iv_fd_epoll_poll: got error %d[%s]", *return_value___errno_location$3, return_value_strerror$5);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    iv_fatal("iv_fd_epoll_poll: got error %d[%s]", *return_value___errno_location_3, return_value_strerror_5);
   }
 
   i = 0;
@@ -4098,9 +4098,9 @@ __CPROVER_DUMP_L10:
 // file ../../../src/iv_fd_epoll.c line 158
 static void iv_fd_epoll_unregister_fd(struct iv_state *st, struct iv_fd_ *fd)
 {
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link6(&fd->list_notify);
-  if(return_value_iv_list_empty$1 == 0)
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link6(&fd->list_notify);
+  if(return_value_iv_list_empty_1 == 0)
     iv_fd_epoll_flush_one(st, fd);
 
 }
@@ -4130,18 +4130,18 @@ static void iv_fd_init_first_thread(struct iv_state *st)
 {
   signed int euid;
   char *exclude;
-  unsigned int return_value_geteuid$1;
-  return_value_geteuid$1=geteuid();
-  euid = (signed int)return_value_geteuid$1;
+  unsigned int return_value_geteuid_1;
+  return_value_geteuid_1=geteuid();
+  euid = (signed int)return_value_geteuid_1;
   signal(13, (void (*)(signed int))1);
   signal(23, (void (*)(signed int))1);
   sanitise_nofile_rlimit(euid);
   exclude=getenv("IV_EXCLUDE_POLL_METHOD");
-  unsigned int return_value_getuid$2;
+  unsigned int return_value_getuid_2;
   if(!(exclude == ((char *)NULL)))
   {
-    return_value_getuid$2=getuid();
-    if(!(return_value_getuid$2 == (unsigned int)euid))
+    return_value_getuid_2=getuid();
+    if(!(return_value_getuid_2 == (unsigned int)euid))
       exclude = (char *)(void *)0;
 
   }
@@ -4157,12 +4157,12 @@ static void iv_fd_init_first_thread(struct iv_state *st)
 // file ../../../src/iv_fd.c line 171
 void iv_fd_make_ready(struct iv_list_head *active, struct iv_fd_ *fd, signed int bands)
 {
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link3(&fd->list_active);
-  if(!(return_value_iv_list_empty$1 == 0))
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link3(&fd->list_active);
+  if(!(return_value_iv_list_empty_1 == 0))
   {
     fd->ready_bands = (unsigned int)0;
-    iv_list_add_tail$link4(&fd->list_active, active);
+    iv_list_add_tail_link4(&fd->list_active, active);
   }
 
   fd->ready_bands = (unsigned int)fd->ready_bands | (unsigned int)bands;
@@ -4181,16 +4181,16 @@ void iv_fd_poll_and_run(struct iv_state *st, struct timespec *to)
   }
   while((_Bool)0);
   method->poll(st, &active, to);
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link3(&active);
-  struct iv_fd_ *tmp_statement_expression$2;
-  if(return_value_iv_list_empty$1 == 0)
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link3(&active);
+  struct iv_fd_ *tmp_statement_expression_2;
+  if(return_value_iv_list_empty_1 == 0)
   {
     struct iv_fd_ *fd;
     const struct iv_list_head *__ptr = active.next;
-    tmp_statement_expression$2 = (struct iv_fd_ *)((char *)__ptr - (signed long int)&((struct iv_fd_ *)0)->list_active);
-    fd = tmp_statement_expression$2;
-    iv_list_del_init$link3(&fd->list_active);
+    tmp_statement_expression_2 = (struct iv_fd_ *)((char *)__ptr - (signed long int)&((struct iv_fd_ *)0)->list_active);
+    fd = tmp_statement_expression_2;
+    iv_list_del_init_link3(&fd->list_active);
     st->handled_fd = fd;
     if(!((4 & (signed int)fd->ready_bands) == 0))
     {
@@ -4237,17 +4237,17 @@ static void iv_fd_poll_deinit(struct iv_state *st)
 // file ../../../src/iv_fd_poll.c line 28
 static signed int iv_fd_poll_init(struct iv_state *st)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)maxfd * sizeof(struct pollfd) /*8ul*/ );
-  st->u.poll.pfds = (struct pollfd *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)maxfd * sizeof(struct pollfd) /*8ul*/ );
+  st->u.poll.pfds = (struct pollfd *)return_value_malloc_1;
   if(st->u.poll.pfds == ((struct pollfd *)NULL))
     return -1;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)maxfd * sizeof(struct iv_fd_ *) /*8ul*/ );
-    st->u.poll.fds = (struct iv_fd_ **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)maxfd * sizeof(struct iv_fd_ *) /*8ul*/ );
+    st->u.poll.fds = (struct iv_fd_ **)return_value_malloc_2;
     if(st->u.poll.fds == ((struct iv_fd_ **)NULL))
     {
       free((void *)st->u.poll.pfds);
@@ -4266,36 +4266,36 @@ static signed int iv_fd_poll_init(struct iv_state *st)
 // file ../../../src/iv_fd_poll.c line 107
 static void iv_fd_poll_notify_fd(struct iv_state *st, struct iv_fd_ *fd)
 {
-  _Bool tmp_if_expr$5;
-  signed int tmp_post$1;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_5;
+  signed int tmp_post_1;
+  _Bool tmp_if_expr_4;
   if(!(fd->registered_bands == fd->wanted_bands))
   {
     if(fd->u.index == -1)
-      tmp_if_expr$5 = fd->wanted_bands != 0u ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = fd->wanted_bands != 0u ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
-      tmp_post$1 = st->u.poll.num_regd_fds;
+      tmp_post_1 = st->u.poll.num_regd_fds;
       st->u.poll.num_regd_fds = st->u.poll.num_regd_fds + 1;
-      fd->u.index = tmp_post$1;
+      fd->u.index = tmp_post_1;
       (st->u.poll.pfds + (signed long int)fd->u.index)->fd = fd->fd;
-      signed int return_value_bits_to_poll_mask$2;
-      return_value_bits_to_poll_mask$2=bits_to_poll_mask((signed int)fd->wanted_bands);
-      (st->u.poll.pfds + (signed long int)fd->u.index)->events = (signed short int)return_value_bits_to_poll_mask$2;
+      signed int return_value_bits_to_poll_mask_2;
+      return_value_bits_to_poll_mask_2=bits_to_poll_mask((signed int)fd->wanted_bands);
+      (st->u.poll.pfds + (signed long int)fd->u.index)->events = (signed short int)return_value_bits_to_poll_mask_2;
       st->u.poll.fds[(signed long int)fd->u.index] = fd;
     }
 
     else
     {
       if(!(fd->u.index == -1))
-        tmp_if_expr$4 = !(fd->wanted_bands != 0u) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = !(fd->wanted_bands != 0u) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
         st->u.poll.num_regd_fds = st->u.poll.num_regd_fds - 1;
         if(!(fd->u.index == st->u.poll.num_regd_fds))
@@ -4312,9 +4312,9 @@ static void iv_fd_poll_notify_fd(struct iv_state *st, struct iv_fd_ *fd)
 
       else
       {
-        signed int return_value_bits_to_poll_mask$3;
-        return_value_bits_to_poll_mask$3=bits_to_poll_mask((signed int)fd->wanted_bands);
-        (st->u.poll.pfds + (signed long int)fd->u.index)->events = (signed short int)return_value_bits_to_poll_mask$3;
+        signed int return_value_bits_to_poll_mask_3;
+        return_value_bits_to_poll_mask_3=bits_to_poll_mask((signed int)fd->wanted_bands);
+        (st->u.poll.pfds + (signed long int)fd->u.index)->events = (signed short int)return_value_bits_to_poll_mask_3;
       }
     }
     fd->registered_bands = (unsigned int)fd->wanted_bands;
@@ -4330,21 +4330,21 @@ static signed int iv_fd_poll_notify_fd_sync(struct iv_state *st, struct iv_fd_ *
   signed int ret;
   pfd.fd = fd->fd;
   pfd.events = (signed short int)(0x001 | 0x004 | 0x010);
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     ret=poll(&pfd, (unsigned long int)1, 0);
     if(!(ret >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!((0x020 & (signed int)pfd.revents) == 0) || !(ret >= 0))
     return -1;
 
@@ -4364,18 +4364,18 @@ static void iv_fd_poll_poll(struct iv_state *st, struct iv_list_head *active, st
   ret=poll(st->u.poll.pfds, (unsigned long int)st->u.poll.num_regd_fds, (signed int)((signed long int)1000 * to->tv_sec + (to->tv_nsec + (signed long int)999999) / (signed long int)1000000));
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 4)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 4)
       goto __CPROVER_DUMP_L8;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    iv_fatal("iv_fd_poll_poll: got error %d[%s]", *return_value___errno_location$2, return_value_strerror$4);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    iv_fatal("iv_fd_poll_poll: got error %d[%s]", *return_value___errno_location_2, return_value_strerror_4);
   }
 
   i = 0;
@@ -4458,13 +4458,13 @@ signed int iv_fd_pump_pump(struct iv_fd_pump *ip)
 {
   signed int ret;
   ret=__iv_fd_pump_pump(ip);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ret >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(ip->bytes != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(ip->bytes != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     struct iv_fd_pump_buf *buf;
     buf=iv_fd_pump_buf(ip);
@@ -4517,40 +4517,40 @@ static signed int iv_fd_pump_try_input(struct iv_fd_pump *ip)
     ip->buf = (void *)buf;
   }
 
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   while((_Bool)1)
   {
     if(splice_available == 0)
     {
-      signed long int return_value_read$3;
-      return_value_read$3=read(ip->from_fd, (void *)(buf->u.buf + (signed long int)ip->bytes), (unsigned long int)(4096 - ip->bytes));
-      ret = (signed int)return_value_read$3;
+      signed long int return_value_read_3;
+      return_value_read_3=read(ip->from_fd, (void *)(buf->u.buf + (signed long int)ip->bytes), (unsigned long int)(4096 - ip->bytes));
+      ret = (signed int)return_value_read_3;
     }
 
     else
     {
-      signed long int return_value_splice$4;
-      return_value_splice$4=splice(ip->from_fd, (signed long int *)(void *)0, buf->u.pfd[(signed long int)1], (signed long int *)(void *)0, (unsigned long int)1048576, (unsigned int)2);
-      ret = (signed int)return_value_splice$4;
+      signed long int return_value_splice_4;
+      return_value_splice_4=splice(ip->from_fd, (signed long int *)(void *)0, buf->u.pfd[(signed long int)1], (signed long int *)(void *)0, (unsigned long int)1048576, (unsigned int)2);
+      ret = (signed int)return_value_splice_4;
     }
     if(!(ret >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
   }
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    if(!(*return_value___errno_location$5 == 11))
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    if(!(*return_value___errno_location_5 == 11))
       return -1;
 
     if(!(splice_available == 0))
@@ -4604,48 +4604,48 @@ static signed int iv_fd_pump_try_output(struct iv_fd_pump *ip)
   struct iv_fd_pump_buf *buf;
   buf=iv_fd_pump_buf(ip);
   signed int ret;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   while((_Bool)1)
   {
     if(splice_available == 0)
     {
-      signed long int return_value_write$3;
-      return_value_write$3=write(ip->to_fd, (const void *)buf->u.buf, (unsigned long int)ip->bytes);
-      ret = (signed int)return_value_write$3;
+      signed long int return_value_write_3;
+      return_value_write_3=write(ip->to_fd, (const void *)buf->u.buf, (unsigned long int)ip->bytes);
+      ret = (signed int)return_value_write_3;
     }
 
     else
     {
-      signed long int return_value_splice$4;
-      return_value_splice$4=splice(buf->u.pfd[(signed long int)0], (signed long int *)(void *)0, ip->to_fd, (signed long int *)(void *)0, (unsigned long int)ip->bytes, (unsigned int)0);
-      ret = (signed int)return_value_splice$4;
+      signed long int return_value_splice_4;
+      return_value_splice_4=splice(buf->u.pfd[(signed long int)0], (signed long int *)(void *)0, ip->to_fd, (signed long int *)(void *)0, (unsigned long int)ip->bytes, (unsigned int)0);
+      ret = (signed int)return_value_splice_4;
     }
     if(!(ret >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
   }
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   if(!(ret >= 1))
   {
     if(!(ret >= 0))
     {
-      return_value___errno_location$5=__errno_location();
-      tmp_if_expr$6 = *return_value___errno_location$5 == 11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_5=__errno_location();
+      tmp_if_expr_6 = *return_value___errno_location_5 == 11 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    return tmp_if_expr$6 ? 0 : -1;
+      tmp_if_expr_6 = (_Bool)0;
+    return tmp_if_expr_6 ? 0 : -1;
   }
 
   else
@@ -4676,7 +4676,7 @@ static signed int iv_fd_pump_try_output(struct iv_fd_pump *ip)
 void iv_fd_register(struct iv_fd *_fd)
 {
   struct iv_state *st;
-  st=iv_get_state$link4();
+  st=iv_get_state_link4();
   struct iv_fd_ *fd = (struct iv_fd_ *)_fd;
   iv_fd_register_prologue(st, fd);
   notify_fd(st, fd);
@@ -4703,13 +4703,13 @@ static void iv_fd_register_prologue(struct iv_state *st, struct iv_fd_ *fd)
   if(!(fd->registered == 0u))
     iv_fatal("iv_fd_register: called with fd which is still registered");
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(fd->fd >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = fd->fd >= maxfd ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = fd->fd >= maxfd ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     iv_fatal("iv_fd_register: called with invalid fd %d (maxfd=%d)", fd->fd, maxfd);
 
   fd->registered = (unsigned int)1;
@@ -4737,7 +4737,7 @@ static void iv_fd_register_prologue(struct iv_state *st, struct iv_fd_ *fd)
 signed int iv_fd_register_try(struct iv_fd *_fd)
 {
   struct iv_state *st;
-  st=iv_get_state$link4();
+  st=iv_get_state_link4();
   struct iv_fd_ *fd = (struct iv_fd_ *)_fd;
   signed int orig_wanted_bands;
   signed int ret;
@@ -4797,7 +4797,7 @@ void iv_fd_set_cloexec(signed int fd)
 void iv_fd_set_handler_err(struct iv_fd *_fd, void (*handler_err)(void *))
 {
   struct iv_state *st;
-  st=iv_get_state$link4();
+  st=iv_get_state_link4();
   struct iv_fd_ *fd = (struct iv_fd_ *)_fd;
   if(fd->registered == 0u)
     iv_fatal("iv_fd_set_handler_err: called with fd which is not registered");
@@ -4811,7 +4811,7 @@ void iv_fd_set_handler_err(struct iv_fd *_fd, void (*handler_err)(void *))
 void iv_fd_set_handler_in(struct iv_fd *_fd, void (*handler_in)(void *))
 {
   struct iv_state *st;
-  st=iv_get_state$link4();
+  st=iv_get_state_link4();
   struct iv_fd_ *fd = (struct iv_fd_ *)_fd;
   if(fd->registered == 0u)
     iv_fatal("iv_fd_set_handler_in: called with fd which is not registered");
@@ -4825,7 +4825,7 @@ void iv_fd_set_handler_in(struct iv_fd *_fd, void (*handler_in)(void *))
 void iv_fd_set_handler_out(struct iv_fd *_fd, void (*handler_out)(void *))
 {
   struct iv_state *st;
-  st=iv_get_state$link4();
+  st=iv_get_state_link4();
   struct iv_fd_ *fd = (struct iv_fd_ *)_fd;
   if(fd->registered == 0u)
     iv_fatal("iv_fd_set_handler_out: called with fd which is not registered");
@@ -4853,13 +4853,13 @@ void iv_fd_set_nonblock(signed int fd)
 void iv_fd_unregister(struct iv_fd *_fd)
 {
   struct iv_state *st;
-  st=iv_get_state$link4();
+  st=iv_get_state_link4();
   struct iv_fd_ *fd = (struct iv_fd_ *)_fd;
   if(fd->registered == 0u)
     iv_fatal("iv_fd_unregister: called with fd which is not registered");
 
   fd->registered = (unsigned int)0;
-  iv_list_del$link2(&fd->list_active);
+  iv_list_del_link2(&fd->list_active);
   notify_fd(st, fd);
   if(!(method->unregister_fd == ((void (*)(struct iv_state *, struct iv_fd_ *))NULL)))
     method->unregister_fd(st, fd);
@@ -4875,14 +4875,14 @@ void iv_fd_unregister(struct iv_fd *_fd)
 // file ../../../src/iv_timer.c line 107
 signed int iv_get_soonest_timeout(struct iv_state *st, struct timespec *to)
 {
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(!(st->num_timers == 0))
   {
     struct iv_timer_ *t;
-    struct iv_timer_ **return_value_iv_timer_get_node$1;
-    return_value_iv_timer_get_node$1=iv_timer_get_node(st, 1);
-    t = *return_value_iv_timer_get_node$1;
+    struct iv_timer_ **return_value_iv_timer_get_node_1;
+    return_value_iv_timer_get_node_1=iv_timer_get_node(st, 1);
+    t = *return_value_iv_timer_get_node_1;
     iv_validate_now();
     to->tv_sec = t->expires.tv_sec - st->time.tv_sec;
     to->tv_nsec = t->expires.tv_nsec - st->time.tv_nsec;
@@ -4893,18 +4893,18 @@ signed int iv_get_soonest_timeout(struct iv_state *st, struct timespec *to)
     }
 
     if(!(to->tv_sec >= 0l))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(to->tv_sec == 0l)
-        tmp_if_expr$2 = to->tv_nsec == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = to->tv_nsec == (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    return (signed int)!(!tmp_if_expr$3);
+    return (signed int)!(!tmp_if_expr_3);
   }
 
   to->tv_sec = (signed long int)3600;
@@ -4919,37 +4919,37 @@ static inline struct iv_state * iv_get_state(void)
   return __st;
 }
 
-// iv_get_state$link1
+// iv_get_state_link1
 // file ../../../src/iv_private.h line 105
-static inline struct iv_state * iv_get_state$link1(void)
+static inline struct iv_state * iv_get_state_link1(void)
 {
   return __st;
 }
 
-// iv_get_state$link2
+// iv_get_state_link2
 // file ../../../src/iv_private.h line 105
-static inline struct iv_state * iv_get_state$link2(void)
+static inline struct iv_state * iv_get_state_link2(void)
 {
   return __st;
 }
 
-// iv_get_state$link3
+// iv_get_state_link3
 // file ../../../src/iv_private.h line 105
-static inline struct iv_state * iv_get_state$link3(void)
+static inline struct iv_state * iv_get_state_link3(void)
 {
   return __st;
 }
 
-// iv_get_state$link4
+// iv_get_state_link4
 // file ../../../src/iv_private.h line 105
-static inline struct iv_state * iv_get_state$link4(void)
+static inline struct iv_state * iv_get_state_link4(void)
 {
   return __st;
 }
 
-// iv_get_state$link5
+// iv_get_state_link5
 // file ../../../src/iv_private.h line 105
-static inline struct iv_state * iv_get_state$link5(void)
+static inline struct iv_state * iv_get_state_link5(void)
 {
   return __st;
 }
@@ -4961,19 +4961,19 @@ void iv_init(void)
   struct iv_state *st;
   if(iv_state_key_allocated == 0)
   {
-    signed int return_value_pthread_key_create$1;
-    return_value_pthread_key_create$1=pthread_key_create(&iv_state_key, iv_state_destructor);
-    if(!(return_value_pthread_key_create$1 == 0))
+    signed int return_value_pthread_key_create_1;
+    return_value_pthread_key_create_1=pthread_key_create(&iv_state_key, iv_state_destructor);
+    if(!(return_value_pthread_key_create_1 == 0))
       iv_fatal("iv_init: failed to allocate TLS key");
 
     iv_state_key_allocated = 1;
   }
 
-  signed int return_value_iv_tls_total_state_size$2;
-  return_value_iv_tls_total_state_size$2=iv_tls_total_state_size();
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)1, (unsigned long int)return_value_iv_tls_total_state_size$2);
-  st = (struct iv_state *)return_value_calloc$3;
+  signed int return_value_iv_tls_total_state_size_2;
+  return_value_iv_tls_total_state_size_2=iv_tls_total_state_size();
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)1, (unsigned long int)return_value_iv_tls_total_state_size_2);
+  st = (struct iv_state *)return_value_calloc_3;
   pthread_setspecific(iv_state_key, (const void *)st);
   __st = st;
   st->numobjs = 0;
@@ -4987,9 +4987,9 @@ void iv_init(void)
 // file ../../../src/iv_main_posix.c line 81
 signed int iv_inited(void)
 {
-  struct iv_state *return_value_iv_get_state$1;
-  return_value_iv_get_state$1=iv_get_state$link5();
-  return (signed int)(return_value_iv_get_state$1 != (struct iv_state *)(void *)0);
+  struct iv_state *return_value_iv_get_state_1;
+  return_value_iv_get_state_1=iv_get_state_link5();
+  return (signed int)(return_value_iv_get_state_1 != (struct iv_state *)(void *)0);
 }
 
 // iv_inotify_got_event
@@ -5001,22 +5001,22 @@ static void iv_inotify_got_event(void *_this)
   signed long int ret;
   void *curr;
   void *end;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     ret=read(this->fd.fd, (void *)event_queue, sizeof(unsigned char [65536l]) /*65536ul*/ );
     if(ret == -1l)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
-  signed int *return_value___errno_location$6;
+  while(tmp_if_expr_2);
+  signed int *return_value___errno_location_6;
   if(!(ret >= 1l))
   {
     if(ret == 0l)
@@ -5024,16 +5024,16 @@ static void iv_inotify_got_event(void *_this)
 
     else
     {
-      return_value___errno_location$6=__errno_location();
-      if(!(*return_value___errno_location$6 == 11))
+      return_value___errno_location_6=__errno_location();
+      if(!(*return_value___errno_location_6 == 11))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        iv_fatal("iv_inotify: reading from inotify fd returned error %d[%s]", *return_value___errno_location$3, return_value_strerror$5);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        iv_fatal("iv_inotify: reading from inotify fd returned error %d[%s]", *return_value___errno_location_3, return_value_strerror_5);
       }
 
     }
@@ -5043,7 +5043,7 @@ static void iv_inotify_got_event(void *_this)
   this->term = (void **)&this;
   curr = (void *)event_queue;
   end = (void *)(event_queue + ret);
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   while(!(curr >= end))
   {
     struct inotify_event *event = (struct inotify_event *)curr;
@@ -5052,11 +5052,11 @@ static void iv_inotify_got_event(void *_this)
     if(!(w == ((struct iv_inotify_watch *)NULL)))
     {
       if(!((32768u & event->mask) == 0u))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (w->mask & 0x80000000) != 0u ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (w->mask & 0x80000000) != 0u ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
         iv_avl_tree_delete(&this->watches, &w->an);
 
       w->handler(w->cookie, event);
@@ -5123,9 +5123,9 @@ signed int iv_inotify_watch_register(struct iv_inotify_watch *w)
 
   else
   {
-    signed int return_value_iv_avl_tree_insert$1;
-    return_value_iv_avl_tree_insert$1=iv_avl_tree_insert(&inotify->watches, &w->an);
-    return return_value_iv_avl_tree_insert$1;
+    signed int return_value_iv_avl_tree_insert_1;
+    return_value_iv_avl_tree_insert_1=iv_avl_tree_insert(&inotify->watches, &w->an);
+    return return_value_iv_avl_tree_insert_1;
   }
 }
 
@@ -5143,7 +5143,7 @@ void iv_inotify_watch_unregister(struct iv_inotify_watch *w)
 void iv_invalidate_now(void)
 {
   struct iv_state *st;
-  st=iv_get_state$link2();
+  st=iv_get_state_link2();
   __iv_invalidate_now(st);
 }
 
@@ -5157,14 +5157,14 @@ static inline void iv_list_add(struct iv_list_head *ilh, struct iv_list_head *he
   head->next = ilh;
 }
 
-// iv_list_add$link1
+// iv_list_add_link1
 // file ../../../src/include/iv_list.h line 48
-static inline void iv_list_add$link1(struct iv_list_head *ilh$link1, struct iv_list_head *head$link1)
+static inline void iv_list_add_link1(struct iv_list_head *ilh_link1, struct iv_list_head *head_link1)
 {
-  ilh$link1->next = head$link1->next;
-  ilh$link1->prev = head$link1;
-  head$link1->next->prev = ilh$link1;
-  head$link1->next = ilh$link1;
+  ilh_link1->next = head_link1->next;
+  ilh_link1->prev = head_link1;
+  head_link1->next->prev = ilh_link1;
+  head_link1->next = ilh_link1;
 }
 
 // iv_list_add_tail
@@ -5177,74 +5177,74 @@ static inline void iv_list_add_tail(struct iv_list_head *ilh, struct iv_list_hea
   head->prev = ilh;
 }
 
-// iv_list_add_tail$link1
+// iv_list_add_tail_link1
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link1(struct iv_list_head *ilh$link1, struct iv_list_head *head$link1)
+static inline void iv_list_add_tail_link1(struct iv_list_head *ilh_link1, struct iv_list_head *head_link1)
 {
-  ilh$link1->next = head$link1;
-  ilh$link1->prev = head$link1->prev;
-  head$link1->prev->next = ilh$link1;
-  head$link1->prev = ilh$link1;
+  ilh_link1->next = head_link1;
+  ilh_link1->prev = head_link1->prev;
+  head_link1->prev->next = ilh_link1;
+  head_link1->prev = ilh_link1;
 }
 
-// iv_list_add_tail$link2
+// iv_list_add_tail_link2
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link2(struct iv_list_head *ilh$link2, struct iv_list_head *head$link2)
+static inline void iv_list_add_tail_link2(struct iv_list_head *ilh_link2, struct iv_list_head *head_link2)
 {
-  ilh$link2->next = head$link2;
-  ilh$link2->prev = head$link2->prev;
-  head$link2->prev->next = ilh$link2;
-  head$link2->prev = ilh$link2;
+  ilh_link2->next = head_link2;
+  ilh_link2->prev = head_link2->prev;
+  head_link2->prev->next = ilh_link2;
+  head_link2->prev = ilh_link2;
 }
 
-// iv_list_add_tail$link3
+// iv_list_add_tail_link3
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link3(struct iv_list_head *ilh$link3, struct iv_list_head *head$link3)
+static inline void iv_list_add_tail_link3(struct iv_list_head *ilh_link3, struct iv_list_head *head_link3)
 {
-  ilh$link3->next = head$link3;
-  ilh$link3->prev = head$link3->prev;
-  head$link3->prev->next = ilh$link3;
-  head$link3->prev = ilh$link3;
+  ilh_link3->next = head_link3;
+  ilh_link3->prev = head_link3->prev;
+  head_link3->prev->next = ilh_link3;
+  head_link3->prev = ilh_link3;
 }
 
-// iv_list_add_tail$link4
+// iv_list_add_tail_link4
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link4(struct iv_list_head *ilh$link4, struct iv_list_head *head$link4)
+static inline void iv_list_add_tail_link4(struct iv_list_head *ilh_link4, struct iv_list_head *head_link4)
 {
-  ilh$link4->next = head$link4;
-  ilh$link4->prev = head$link4->prev;
-  head$link4->prev->next = ilh$link4;
-  head$link4->prev = ilh$link4;
+  ilh_link4->next = head_link4;
+  ilh_link4->prev = head_link4->prev;
+  head_link4->prev->next = ilh_link4;
+  head_link4->prev = ilh_link4;
 }
 
-// iv_list_add_tail$link5
+// iv_list_add_tail_link5
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link5(struct iv_list_head *ilh$link5, struct iv_list_head *head$link5)
+static inline void iv_list_add_tail_link5(struct iv_list_head *ilh_link5, struct iv_list_head *head_link5)
 {
-  ilh$link5->next = head$link5;
-  ilh$link5->prev = head$link5->prev;
-  head$link5->prev->next = ilh$link5;
-  head$link5->prev = ilh$link5;
+  ilh_link5->next = head_link5;
+  ilh_link5->prev = head_link5->prev;
+  head_link5->prev->next = ilh_link5;
+  head_link5->prev = ilh_link5;
 }
 
-// iv_list_add_tail$link6
+// iv_list_add_tail_link6
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link6(struct iv_list_head *ilh$link6, struct iv_list_head *head$link6)
+static inline void iv_list_add_tail_link6(struct iv_list_head *ilh_link6, struct iv_list_head *head_link6)
 {
-  ilh$link6->next = head$link6;
-  ilh$link6->prev = head$link6->prev;
-  head$link6->prev->next = ilh$link6;
-  head$link6->prev = ilh$link6;
+  ilh_link6->next = head_link6;
+  ilh_link6->prev = head_link6->prev;
+  head_link6->prev->next = ilh_link6;
+  head_link6->prev = ilh_link6;
 }
 
-// iv_list_add_tail$link7
+// iv_list_add_tail_link7
 // file ../../../src/include/iv_list.h line 57
-static inline void iv_list_add_tail$link7(struct iv_list_head *ilh$link7, struct iv_list_head *head$link7)
+static inline void iv_list_add_tail_link7(struct iv_list_head *ilh_link7, struct iv_list_head *head_link7)
 {
-  ilh$link7->next = head$link7;
-  ilh$link7->prev = head$link7->prev;
-  head$link7->prev->next = ilh$link7;
-  head$link7->prev = ilh$link7;
+  ilh_link7->next = head_link7;
+  ilh_link7->prev = head_link7->prev;
+  head_link7->prev->next = ilh_link7;
+  head_link7->prev = ilh_link7;
 }
 
 // iv_list_del
@@ -5257,54 +5257,54 @@ static inline void iv_list_del(struct iv_list_head *ilh)
   ilh->next = (struct iv_list_head *)(void *)0;
 }
 
-// iv_list_del$link1
+// iv_list_del_link1
 // file ../../../src/include/iv_list.h line 65
-static inline void iv_list_del$link1(struct iv_list_head *ilh$link1)
+static inline void iv_list_del_link1(struct iv_list_head *ilh_link1)
 {
-  ilh$link1->prev->next = ilh$link1->next;
-  ilh$link1->next->prev = ilh$link1->prev;
-  ilh$link1->prev = (struct iv_list_head *)(void *)0;
-  ilh$link1->next = (struct iv_list_head *)(void *)0;
+  ilh_link1->prev->next = ilh_link1->next;
+  ilh_link1->next->prev = ilh_link1->prev;
+  ilh_link1->prev = (struct iv_list_head *)(void *)0;
+  ilh_link1->next = (struct iv_list_head *)(void *)0;
 }
 
-// iv_list_del$link2
+// iv_list_del_link2
 // file ../../../src/include/iv_list.h line 65
-static inline void iv_list_del$link2(struct iv_list_head *ilh$link2)
+static inline void iv_list_del_link2(struct iv_list_head *ilh_link2)
 {
-  ilh$link2->prev->next = ilh$link2->next;
-  ilh$link2->next->prev = ilh$link2->prev;
-  ilh$link2->prev = (struct iv_list_head *)(void *)0;
-  ilh$link2->next = (struct iv_list_head *)(void *)0;
+  ilh_link2->prev->next = ilh_link2->next;
+  ilh_link2->next->prev = ilh_link2->prev;
+  ilh_link2->prev = (struct iv_list_head *)(void *)0;
+  ilh_link2->next = (struct iv_list_head *)(void *)0;
 }
 
-// iv_list_del$link3
+// iv_list_del_link3
 // file ../../../src/include/iv_list.h line 65
-static inline void iv_list_del$link3(struct iv_list_head *ilh$link3)
+static inline void iv_list_del_link3(struct iv_list_head *ilh_link3)
 {
-  ilh$link3->prev->next = ilh$link3->next;
-  ilh$link3->next->prev = ilh$link3->prev;
-  ilh$link3->prev = (struct iv_list_head *)(void *)0;
-  ilh$link3->next = (struct iv_list_head *)(void *)0;
+  ilh_link3->prev->next = ilh_link3->next;
+  ilh_link3->next->prev = ilh_link3->prev;
+  ilh_link3->prev = (struct iv_list_head *)(void *)0;
+  ilh_link3->next = (struct iv_list_head *)(void *)0;
 }
 
-// iv_list_del$link4
+// iv_list_del_link4
 // file ../../../src/include/iv_list.h line 65
-static inline void iv_list_del$link4(struct iv_list_head *ilh$link4)
+static inline void iv_list_del_link4(struct iv_list_head *ilh_link4)
 {
-  ilh$link4->prev->next = ilh$link4->next;
-  ilh$link4->next->prev = ilh$link4->prev;
-  ilh$link4->prev = (struct iv_list_head *)(void *)0;
-  ilh$link4->next = (struct iv_list_head *)(void *)0;
+  ilh_link4->prev->next = ilh_link4->next;
+  ilh_link4->next->prev = ilh_link4->prev;
+  ilh_link4->prev = (struct iv_list_head *)(void *)0;
+  ilh_link4->next = (struct iv_list_head *)(void *)0;
 }
 
-// iv_list_del$link5
+// iv_list_del_link5
 // file ../../../src/include/iv_list.h line 65
-static inline void iv_list_del$link5(struct iv_list_head *ilh$link5)
+static inline void iv_list_del_link5(struct iv_list_head *ilh_link5)
 {
-  ilh$link5->prev->next = ilh$link5->next;
-  ilh$link5->next->prev = ilh$link5->prev;
-  ilh$link5->prev = (struct iv_list_head *)(void *)0;
-  ilh$link5->next = (struct iv_list_head *)(void *)0;
+  ilh_link5->prev->next = ilh_link5->next;
+  ilh_link5->next->prev = ilh_link5->prev;
+  ilh_link5->prev = (struct iv_list_head *)(void *)0;
+  ilh_link5->next = (struct iv_list_head *)(void *)0;
 }
 
 // iv_list_del_init
@@ -5321,58 +5321,58 @@ static inline void iv_list_del_init(struct iv_list_head *ilh)
   while((_Bool)0);
 }
 
-// iv_list_del_init$link1
+// iv_list_del_init_link1
 // file ../../../src/include/iv_list.h line 73
-static inline void iv_list_del_init$link1(struct iv_list_head *ilh$link1)
+static inline void iv_list_del_init_link1(struct iv_list_head *ilh_link1)
 {
-  ilh$link1->prev->next = ilh$link1->next;
-  ilh$link1->next->prev = ilh$link1->prev;
+  ilh_link1->prev->next = ilh_link1->next;
+  ilh_link1->next->prev = ilh_link1->prev;
   do
   {
-    ilh$link1->next = ilh$link1;
-    ilh$link1->prev = ilh$link1;
+    ilh_link1->next = ilh_link1;
+    ilh_link1->prev = ilh_link1;
   }
   while((_Bool)0);
 }
 
-// iv_list_del_init$link2
+// iv_list_del_init_link2
 // file ../../../src/include/iv_list.h line 73
-static inline void iv_list_del_init$link2(struct iv_list_head *ilh$link2)
+static inline void iv_list_del_init_link2(struct iv_list_head *ilh_link2)
 {
-  ilh$link2->prev->next = ilh$link2->next;
-  ilh$link2->next->prev = ilh$link2->prev;
+  ilh_link2->prev->next = ilh_link2->next;
+  ilh_link2->next->prev = ilh_link2->prev;
   do
   {
-    ilh$link2->next = ilh$link2;
-    ilh$link2->prev = ilh$link2;
+    ilh_link2->next = ilh_link2;
+    ilh_link2->prev = ilh_link2;
   }
   while((_Bool)0);
 }
 
-// iv_list_del_init$link3
+// iv_list_del_init_link3
 // file ../../../src/include/iv_list.h line 73
-static inline void iv_list_del_init$link3(struct iv_list_head *ilh$link3)
+static inline void iv_list_del_init_link3(struct iv_list_head *ilh_link3)
 {
-  ilh$link3->prev->next = ilh$link3->next;
-  ilh$link3->next->prev = ilh$link3->prev;
+  ilh_link3->prev->next = ilh_link3->next;
+  ilh_link3->next->prev = ilh_link3->prev;
   do
   {
-    ilh$link3->next = ilh$link3;
-    ilh$link3->prev = ilh$link3;
+    ilh_link3->next = ilh_link3;
+    ilh_link3->prev = ilh_link3;
   }
   while((_Bool)0);
 }
 
-// iv_list_del_init$link4
+// iv_list_del_init_link4
 // file ../../../src/include/iv_list.h line 73
-static inline void iv_list_del_init$link4(struct iv_list_head *ilh$link4)
+static inline void iv_list_del_init_link4(struct iv_list_head *ilh_link4)
 {
-  ilh$link4->prev->next = ilh$link4->next;
-  ilh$link4->next->prev = ilh$link4->prev;
+  ilh_link4->prev->next = ilh_link4->next;
+  ilh_link4->next->prev = ilh_link4->prev;
   do
   {
-    ilh$link4->next = ilh$link4;
-    ilh$link4->prev = ilh$link4;
+    ilh_link4->next = ilh_link4;
+    ilh_link4->prev = ilh_link4;
   }
   while((_Bool)0);
 }
@@ -5384,46 +5384,46 @@ static inline signed int iv_list_empty(struct iv_list_head *head)
   return (signed int)(head->next == head);
 }
 
-// iv_list_empty$link1
+// iv_list_empty_link1
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link1(struct iv_list_head *head$link1)
+static inline signed int iv_list_empty_link1(struct iv_list_head *head_link1)
 {
-  return (signed int)(head$link1->next == head$link1);
+  return (signed int)(head_link1->next == head_link1);
 }
 
-// iv_list_empty$link2
+// iv_list_empty_link2
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link2(struct iv_list_head *head$link2)
+static inline signed int iv_list_empty_link2(struct iv_list_head *head_link2)
 {
-  return (signed int)(head$link2->next == head$link2);
+  return (signed int)(head_link2->next == head_link2);
 }
 
-// iv_list_empty$link3
+// iv_list_empty_link3
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link3(struct iv_list_head *head$link3)
+static inline signed int iv_list_empty_link3(struct iv_list_head *head_link3)
 {
-  return (signed int)(head$link3->next == head$link3);
+  return (signed int)(head_link3->next == head_link3);
 }
 
-// iv_list_empty$link4
+// iv_list_empty_link4
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link4(struct iv_list_head *head$link4)
+static inline signed int iv_list_empty_link4(struct iv_list_head *head_link4)
 {
-  return (signed int)(head$link4->next == head$link4);
+  return (signed int)(head_link4->next == head_link4);
 }
 
-// iv_list_empty$link5
+// iv_list_empty_link5
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link5(struct iv_list_head *head$link5)
+static inline signed int iv_list_empty_link5(struct iv_list_head *head_link5)
 {
-  return (signed int)(head$link5->next == head$link5);
+  return (signed int)(head_link5->next == head_link5);
 }
 
-// iv_list_empty$link6
+// iv_list_empty_link6
 // file ../../../src/include/iv_list.h line 80
-static inline signed int iv_list_empty$link6(struct iv_list_head *head$link6)
+static inline signed int iv_list_empty_link6(struct iv_list_head *head_link6)
 {
-  return (signed int)(head$link6->next == head$link6);
+  return (signed int)(head_link6->next == head_link6);
 }
 
 // iv_main
@@ -5431,35 +5431,35 @@ static inline signed int iv_list_empty$link6(struct iv_list_head *head$link6)
 void iv_main(void)
 {
   struct iv_state *st;
-  st=iv_get_state$link5();
+  st=iv_get_state_link5();
   st->quit = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_iv_get_soonest_timeout$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_iv_get_soonest_timeout_3;
   while((_Bool)1)
   {
     struct timespec to;
     iv_run_tasks(st);
     iv_run_timers(st);
     if(!(st->quit == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(st->numobjs != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !(st->numobjs != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       break;
 
-    signed int return_value_iv_pending_tasks$2;
-    return_value_iv_pending_tasks$2=iv_pending_tasks(st);
-    if(!(return_value_iv_pending_tasks$2 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_iv_pending_tasks_2;
+    return_value_iv_pending_tasks_2=iv_pending_tasks(st);
+    if(!(return_value_iv_pending_tasks_2 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_iv_get_soonest_timeout$3=iv_get_soonest_timeout(st, &to);
-      tmp_if_expr$4 = return_value_iv_get_soonest_timeout$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_iv_get_soonest_timeout_3=iv_get_soonest_timeout(st, &to);
+      tmp_if_expr_4 = return_value_iv_get_soonest_timeout_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       to.tv_sec = (signed long int)0;
       to.tv_nsec = (signed long int)0;
@@ -5473,22 +5473,22 @@ void iv_main(void)
 // file ../../../src/iv_task.c line 30
 signed int iv_pending_tasks(struct iv_state *st)
 {
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link1(&st->tasks);
-  return (signed int)!(return_value_iv_list_empty$1 != 0);
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link1(&st->tasks);
+  return (signed int)!(return_value_iv_list_empty_1 != 0);
 }
 
 // iv_poll_method_name
 // file ../../../src/iv_fd.c line 204
 const char * iv_poll_method_name(void)
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(method == ((struct iv_fd_poll_method *)NULL)))
-    tmp_if_expr$1 = method->name;
+    tmp_if_expr_1 = method->name;
 
   else
-    tmp_if_expr$1 = (char *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (char *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // iv_popen_child
@@ -5500,13 +5500,13 @@ static void iv_popen_child(void *cookie)
   devnull=open("/dev/null", 02);
   if(!(devnull >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    iv_fatal("iv_popen_child: got error %d[%s] opening /dev/null", *return_value___errno_location$1, return_value_strerror$3);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    iv_fatal("iv_popen_child: got error %d[%s] opening /dev/null", *return_value___errno_location_1, return_value_strerror_3);
   }
 
   if(!(info->for_read == 0))
@@ -5539,9 +5539,9 @@ void iv_popen_request_close(struct iv_popen_request *this)
     ch->parent = (struct iv_popen_request *)(void *)0;
     IV_TIMER_INIT(&ch->signal_timer);
     iv_validate_now();
-    struct timespec *return_value___iv_now_location$1;
-    return_value___iv_now_location$1=__iv_now_location();
-    ch->signal_timer.expires = *return_value___iv_now_location$1;
+    struct timespec *return_value___iv_now_location_1;
+    return_value___iv_now_location_1=__iv_now_location();
+    ch->signal_timer.expires = *return_value___iv_now_location_1;
     ch->signal_timer.handler = iv_popen_running_child_timer;
     ch->signal_timer.cookie = (void *)ch;
     iv_timer_register(&ch->signal_timer);
@@ -5558,10 +5558,10 @@ signed int iv_popen_request_submit(struct iv_popen_request *this)
   struct iv_popen_spawn_info info;
   signed int ret;
   signed int fd;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct iv_popen_running_child) /*208ul*/ );
-  ch = (struct iv_popen_running_child *)return_value_malloc$1;
-  signed int return_value_strcmp$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct iv_popen_running_child) /*208ul*/ );
+  ch = (struct iv_popen_running_child *)return_value_malloc_1;
+  signed int return_value_strcmp_2;
   if(ch == ((struct iv_popen_running_child *)NULL))
   {
     fprintf(stderr, "iv_popen_request_submit: out of memory\n");
@@ -5571,15 +5571,15 @@ signed int iv_popen_request_submit(struct iv_popen_request *this)
   else
   {
     info.this = this;
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(this->type, "r");
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(this->type, "r");
+    if(return_value_strcmp_3 == 0)
       info.for_read = 1;
 
     else
     {
-      return_value_strcmp$2=strcmp(this->type, "w");
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(this->type, "w");
+      if(return_value_strcmp_2 == 0)
         info.for_read = 0;
 
       else
@@ -5589,9 +5589,9 @@ signed int iv_popen_request_submit(struct iv_popen_request *this)
         return -1;
       }
     }
-    signed int return_value_pipe$4;
-    return_value_pipe$4=pipe(info.data_pipe);
-    if(!(return_value_pipe$4 >= 0))
+    signed int return_value_pipe_4;
+    return_value_pipe_4=pipe(info.data_pipe);
+    if(!(return_value_pipe_4 >= 0))
     {
       perror("pipe");
       free((void *)ch);
@@ -5641,9 +5641,9 @@ static void iv_popen_running_child_timer(void *_ch)
   struct iv_popen_running_child *ch = (struct iv_popen_running_child *)_ch;
   signed int signum;
   signed int ret;
-  signed int tmp_post$1 = ch->num_kills;
+  signed int tmp_post_1 = ch->num_kills;
   ch->num_kills = ch->num_kills + 1;
-  signum = tmp_post$1 < 5 ? 15 : 9;
+  signum = tmp_post_1 < 5 ? 15 : 9;
   ret=iv_wait_interest_kill(&ch->wait, signum);
   if(!(ret >= 0))
   {
@@ -5654,9 +5654,9 @@ static void iv_popen_running_child_timer(void *_ch)
   else
   {
     iv_validate_now();
-    struct timespec *return_value___iv_now_location$2;
-    return_value___iv_now_location$2=__iv_now_location();
-    ch->signal_timer.expires = *return_value___iv_now_location$2;
+    struct timespec *return_value___iv_now_location_2;
+    return_value___iv_now_location_2=__iv_now_location();
+    ch->signal_timer.expires = *return_value___iv_now_location_2;
     ch->signal_timer.expires.tv_sec = ch->signal_timer.expires.tv_sec + (signed long int)5;
     iv_timer_register(&ch->signal_timer);
   }
@@ -5694,7 +5694,7 @@ static void iv_popen_running_child_wait(void *_ch, signed int status, struct rus
 void iv_quit(void)
 {
   struct iv_state *st;
-  st=iv_get_state$link5();
+  st=iv_get_state_link5();
   st->quit = 1;
 }
 
@@ -5703,17 +5703,17 @@ void iv_quit(void)
 void iv_run_tasks(struct iv_state *st)
 {
   struct iv_list_head tasks;
-  __iv_list_steal_elements$link1(&st->tasks, &tasks);
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link1(&tasks);
-  struct iv_task_ *tmp_statement_expression$2;
-  if(return_value_iv_list_empty$1 == 0)
+  __iv_list_steal_elements_link1(&st->tasks, &tasks);
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link1(&tasks);
+  struct iv_task_ *tmp_statement_expression_2;
+  if(return_value_iv_list_empty_1 == 0)
   {
     struct iv_task_ *t;
     const struct iv_list_head *__ptr = tasks.next;
-    tmp_statement_expression$2 = (struct iv_task_ *)((char *)__ptr - (signed long int)&((struct iv_task_ *)0)->list);
-    t = tmp_statement_expression$2;
-    iv_list_del_init$link1(&t->list);
+    tmp_statement_expression_2 = (struct iv_task_ *)((char *)__ptr - (signed long int)&((struct iv_task_ *)0)->list);
+    t = tmp_statement_expression_2;
+    iv_list_del_init_link1(&t->list);
     st->numobjs = st->numobjs - 1;
     t->handler(t->cookie);
   }
@@ -5727,18 +5727,18 @@ void iv_run_timers(struct iv_state *st)
   if(!(st->num_timers == 0))
   {
     struct iv_timer_ *t;
-    struct iv_timer_ **return_value_iv_timer_get_node$1;
-    return_value_iv_timer_get_node$1=iv_timer_get_node(st, 1);
-    t = *return_value_iv_timer_get_node$1;
+    struct iv_timer_ **return_value_iv_timer_get_node_1;
+    return_value_iv_timer_get_node_1=iv_timer_get_node(st, 1);
+    t = *return_value_iv_timer_get_node_1;
     if(st->time_valid == 0)
     {
       st->time_valid = 1;
       iv_time_get(&st->time);
     }
 
-    signed int return_value_timespec_gt$2;
-    return_value_timespec_gt$2=timespec_gt(&t->expires, &st->time);
-    if(return_value_timespec_gt$2 == 0)
+    signed int return_value_timespec_gt_2;
+    return_value_timespec_gt_2=timespec_gt(&t->expires, &st->time);
+    if(return_value_timespec_gt_2 == 0)
     {
       iv_timer_unregister((struct iv_timer *)t);
       t->handler(t->cookie);
@@ -5760,7 +5760,7 @@ void iv_set_fatal_msg_handler(void (*handler)(const char *))
 static void iv_signal_event(void *_this)
 {
   struct iv_signal *this = (struct iv_signal *)_this;
-  struct anonymous$15 mask;
+  struct anonymous_15 mask;
   spin_lock_sigmask(&sig_interests_lock, &mask);
   this->active = (unsigned char)0;
   spin_unlock_sigmask(&sig_interests_lock, &mask);
@@ -5780,32 +5780,32 @@ static void iv_signal_handler(signed int signum)
 // file ../../../src/iv_signal.c line 173
 signed int iv_signal_register(struct iv_signal *this)
 {
-  struct anonymous$15 mask;
-  IV_EVENT_RAW_INIT$link1(&this->ev);
+  struct anonymous_15 mask;
+  IV_EVENT_RAW_INIT_link1(&this->ev);
   this->ev.cookie = (void *)this;
   this->ev.handler = iv_signal_event;
   iv_event_raw_register(&this->ev);
   this->active = (unsigned char)0;
   spin_lock_sigmask(&sig_interests_lock, &mask);
-  struct iv_avl_node *return_value___iv_signal_find_first$5;
-  return_value___iv_signal_find_first$5=__iv_signal_find_first(this->signum);
-  if(return_value___iv_signal_find_first$5 == ((struct iv_avl_node *)NULL))
+  struct iv_avl_node *return_value___iv_signal_find_first_5;
+  return_value___iv_signal_find_first_5=__iv_signal_find_first(this->signum);
+  if(return_value___iv_signal_find_first_5 == ((struct iv_avl_node *)NULL))
   {
     struct sigaction sa;
     sa.__sigaction_handler.sa_handler = iv_signal_handler;
     sigfillset(&sa.sa_mask);
     sa.sa_flags = 0x10000000;
-    signed int return_value_sigaction$4;
-    return_value_sigaction$4=sigaction(this->signum, &sa, (struct sigaction *)(void *)0);
-    if(!(return_value_sigaction$4 >= 0))
+    signed int return_value_sigaction_4;
+    return_value_sigaction_4=sigaction(this->signum, &sa, (struct sigaction *)(void *)0);
+    if(!(return_value_sigaction_4 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      iv_fatal("iv_signal_register: sigaction got error %d[%s]", *return_value___errno_location$1, return_value_strerror$3);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      iv_fatal("iv_signal_register: sigaction got error %d[%s]", *return_value___errno_location_1, return_value_strerror_3);
     }
 
   }
@@ -5819,12 +5819,12 @@ signed int iv_signal_register(struct iv_signal *this)
 // file ../../../src/iv_signal.c line 208
 void iv_signal_unregister(struct iv_signal *this)
 {
-  struct anonymous$15 mask;
+  struct anonymous_15 mask;
   spin_lock_sigmask(&sig_interests_lock, &mask);
   iv_avl_tree_delete(&sig_interests, &this->an);
-  struct iv_avl_node *return_value___iv_signal_find_first$1;
-  return_value___iv_signal_find_first$1=__iv_signal_find_first(this->signum);
-  if(return_value___iv_signal_find_first$1 == ((struct iv_avl_node *)NULL))
+  struct iv_avl_node *return_value___iv_signal_find_first_1;
+  return_value___iv_signal_find_first_1=__iv_signal_find_first(this->signum);
+  if(return_value___iv_signal_find_first_1 == ((struct iv_avl_node *)NULL))
   {
     struct sigaction sa;
     sa.__sigaction_handler.sa_handler = (void (*)(signed int))0;
@@ -5871,15 +5871,15 @@ void iv_task_init(struct iv_state *st)
 void iv_task_register(struct iv_task *_t)
 {
   struct iv_state *st;
-  st=iv_get_state$link1();
+  st=iv_get_state_link1();
   struct iv_task_ *t = (struct iv_task_ *)_t;
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link1(&t->list);
-  if(return_value_iv_list_empty$1 == 0)
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link1(&t->list);
+  if(return_value_iv_list_empty_1 == 0)
     iv_fatal("iv_task_register: called with task still on a list");
 
   st->numobjs = st->numobjs + 1;
-  iv_list_add_tail$link1(&t->list, &st->tasks);
+  iv_list_add_tail_link1(&t->list, &st->tasks);
 }
 
 // iv_task_registered
@@ -5887,9 +5887,9 @@ void iv_task_register(struct iv_task *_t)
 signed int iv_task_registered(struct iv_task *_t)
 {
   struct iv_task_ *t = (struct iv_task_ *)_t;
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link1(&t->list);
-  return (signed int)!(return_value_iv_list_empty$1 != 0);
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link1(&t->list);
+  return (signed int)!(return_value_iv_list_empty_1 != 0);
 }
 
 // iv_task_unregister
@@ -5897,15 +5897,15 @@ signed int iv_task_registered(struct iv_task *_t)
 void iv_task_unregister(struct iv_task *_t)
 {
   struct iv_state *st;
-  st=iv_get_state$link1();
+  st=iv_get_state_link1();
   struct iv_task_ *t = (struct iv_task_ *)_t;
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link1(&t->list);
-  if(!(return_value_iv_list_empty$1 == 0))
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link1(&t->list);
+  if(!(return_value_iv_list_empty_1 == 0))
     iv_fatal("iv_task_unregister: called with task not on a list");
 
   st->numobjs = st->numobjs - 1;
-  iv_list_del_init$link1(&t->list);
+  iv_list_del_init_link1(&t->list);
 }
 
 // iv_thread_cleanup_handler
@@ -5924,20 +5924,20 @@ static void iv_thread_cleanup_handler(void *_thr)
 signed int iv_thread_create(char *name, void (*start_routine)(void *), void *arg)
 {
   struct iv_thread_thr_info *tinfo;
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_thread_tls_user);
-  tinfo = (struct iv_thread_thr_info *)return_value_iv_tls_user_ptr$1;
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_thread_tls_user);
+  tinfo = (struct iv_thread_thr_info *)return_value_iv_tls_user_ptr_1;
   struct iv_thread *thr;
   signed int ret;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct iv_thread) /*96ul*/ );
-  thr = (struct iv_thread *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct iv_thread) /*96ul*/ );
+  thr = (struct iv_thread *)return_value_malloc_2;
   if(thr == ((struct iv_thread *)NULL))
     return -1;
 
   else
   {
-    IV_EVENT_INIT$link1(&thr->dead);
+    IV_EVENT_INIT_link1(&thr->dead);
     thr->dead.cookie = (void *)thr;
     thr->dead.handler = iv_thread_died;
     iv_event_register(&thr->dead);
@@ -5948,7 +5948,7 @@ signed int iv_thread_create(char *name, void (*start_routine)(void *), void *arg
     ret=pthread_create(&thr->thread_id, (const union pthread_attr_t *)(void *)0, iv_thread_handler, (void *)thr);
     if(ret == 0)
     {
-      iv_list_add_tail$link5(&thr->list, &tinfo->child_threads);
+      iv_list_add_tail_link5(&thr->list, &tinfo->child_threads);
       if(!(iv_thread_debug == 0))
         fprintf(stderr, "iv_thread: [%s] started\n", name);
 
@@ -5965,9 +5965,9 @@ signed int iv_thread_create(char *name, void (*start_routine)(void *), void *arg
       free((void *)thr);
       if(!(iv_thread_debug == 0))
       {
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(ret);
-        fprintf(stderr, "iv_thread: pthread_create for [%s] failed with error %d[%s]\n", name, ret, return_value_strerror$3);
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(ret);
+        fprintf(stderr, "iv_thread: pthread_create for [%s] failed with error %d[%s]\n", name, ret, return_value_strerror_3);
       }
 
       return -1;
@@ -5984,7 +5984,7 @@ static void iv_thread_died(void *_thr)
   if(!(iv_thread_debug == 0))
     fprintf(stderr, "iv_thread: [%s] joined\n", thr->name);
 
-  iv_list_del$link4(&thr->list);
+  iv_list_del_link4(&thr->list);
   iv_event_unregister(&thr->dead);
   free((void *)thr->name);
   free((void *)thr);
@@ -5994,9 +5994,9 @@ static void iv_thread_died(void *_thr)
 // file ../../../src/include/iv_thread.h line 30
 unsigned long int iv_thread_get_id(void)
 {
-  unsigned long int return_value_get_thread_id$1;
-  return_value_get_thread_id$1=get_thread_id();
-  return return_value_get_thread_id$1;
+  unsigned long int return_value_get_thread_id_1;
+  return_value_get_thread_id_1=get_thread_id();
+  return return_value_get_thread_id_1;
 }
 
 // iv_thread_handler
@@ -6005,7 +6005,7 @@ static void * iv_thread_handler(void *_thr)
 {
   struct iv_thread *thr = (struct iv_thread *)_thr;
   thr->tid=get_thread_id();
-  struct anonymous$31 __cancel_buf;
+  struct anonymous_31 __cancel_buf;
   void (*__cancel_routine)(void *) = iv_thread_cleanup_handler;
   void *__cancel_arg = (void *)thr;
   signed int __not_first_call;
@@ -6031,22 +6031,22 @@ static void * iv_thread_handler(void *_thr)
 void iv_thread_list_children(void)
 {
   struct iv_thread_thr_info *tinfo;
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_thread_tls_user);
-  tinfo = (struct iv_thread_thr_info *)return_value_iv_tls_user_ptr$1;
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_thread_tls_user);
+  tinfo = (struct iv_thread_thr_info *)return_value_iv_tls_user_ptr_1;
   struct iv_list_head *ilh;
   fprintf(stderr, "tid\tname\n");
-  unsigned long int return_value_get_thread_id$2;
-  return_value_get_thread_id$2=get_thread_id();
-  fprintf(stderr, "%lu\tself\n", return_value_get_thread_id$2);
+  unsigned long int return_value_get_thread_id_2;
+  return_value_get_thread_id_2=get_thread_id();
+  fprintf(stderr, "%lu\tself\n", return_value_get_thread_id_2);
   ilh = (&tinfo->child_threads)->next;
-  struct iv_thread *tmp_statement_expression$3;
+  struct iv_thread *tmp_statement_expression_3;
   for( ; !(ilh == &tinfo->child_threads); ilh = ilh->next)
   {
     struct iv_thread *thr;
     const struct iv_list_head *__ptr = ilh;
-    tmp_statement_expression$3 = (struct iv_thread *)((char *)__ptr - (signed long int)&((struct iv_thread *)0)->list);
-    thr = tmp_statement_expression$3;
+    tmp_statement_expression_3 = (struct iv_thread *)((char *)__ptr - (signed long int)&((struct iv_thread *)0)->list);
+    thr = tmp_statement_expression_3;
     fprintf(stderr, "%lu\t%s\n", thr->tid, thr->name);
   }
 }
@@ -6064,13 +6064,13 @@ static void iv_thread_tls_deinit_thread(void *_tinfo)
 {
   struct iv_thread_thr_info *tinfo = (struct iv_thread_thr_info *)_tinfo;
   struct iv_list_head *ilh = (&tinfo->child_threads)->next;
-  struct iv_thread *tmp_statement_expression$1;
+  struct iv_thread *tmp_statement_expression_1;
   for( ; !(ilh == &tinfo->child_threads); ilh = ilh->next)
   {
     struct iv_thread *thr;
     const struct iv_list_head *__ptr = ilh;
-    tmp_statement_expression$1 = (struct iv_thread *)((char *)__ptr - (signed long int)&((struct iv_thread *)0)->list);
-    thr = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct iv_thread *)((char *)__ptr - (signed long int)&((struct iv_thread *)0)->list);
+    thr = tmp_statement_expression_1;
     pthread_detach(thr->thread_id);
   }
 }
@@ -6095,9 +6095,9 @@ void iv_time_get(struct timespec *time)
   struct timeval tv;
   if(!(clock_source >= 1))
   {
-    signed int return_value_clock_gettime$1;
-    return_value_clock_gettime$1=clock_gettime(1, time);
-    if(return_value_clock_gettime$1 >= 0)
+    signed int return_value_clock_gettime_1;
+    return_value_clock_gettime_1=clock_gettime(1, time);
+    if(return_value_clock_gettime_1 >= 0)
       goto __CPROVER_DUMP_L5;
 
     clock_source = 1;
@@ -6105,9 +6105,9 @@ void iv_time_get(struct timespec *time)
 
   if(!(clock_source >= 2))
   {
-    signed int return_value_clock_gettime$2;
-    return_value_clock_gettime$2=clock_gettime(0, time);
-    if(return_value_clock_gettime$2 >= 0)
+    signed int return_value_clock_gettime_2;
+    return_value_clock_gettime_2=clock_gettime(0, time);
+    if(return_value_clock_gettime_2 >= 0)
       goto __CPROVER_DUMP_L5;
 
     clock_source = 2;
@@ -6126,9 +6126,9 @@ __CPROVER_DUMP_L5:
 static struct ratnode * iv_timer_allocate_ratnode(void)
 {
   struct ratnode *node;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct ratnode) /*2048ul*/ );
-  node = (struct ratnode *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct ratnode) /*2048ul*/ );
+  node = (struct ratnode *)return_value_calloc_1;
   if(node == ((struct ratnode *)NULL))
     iv_fatal("iv_timer_allocate_ratnode: out of memory");
 
@@ -6159,14 +6159,14 @@ static struct iv_timer_ ** iv_timer_get_node(struct iv_state *st, signed int ind
 
   r = st->timer_root;
   i = st->rat_depth;
-  struct ratnode *return_value_iv_timer_allocate_ratnode$1;
+  struct ratnode *return_value_iv_timer_allocate_ratnode_1;
   for( ; i >= 1; i = i - 1)
   {
     signed int bits = index >> i * 8 & (1 << 8) - 1;
     if(r->child[(signed long int)bits] == NULL)
     {
-      return_value_iv_timer_allocate_ratnode$1=iv_timer_allocate_ratnode();
-      r->child[(signed long int)bits] = (void *)return_value_iv_timer_allocate_ratnode$1;
+      return_value_iv_timer_allocate_ratnode_1=iv_timer_allocate_ratnode();
+      r->child[(signed long int)bits] = (void *)return_value_iv_timer_allocate_ratnode_1;
     }
 
     r = (struct ratnode *)r->child[(signed long int)bits];
@@ -6207,7 +6207,7 @@ static void iv_timer_radix_tree_remove_level(struct iv_state *st)
 void iv_timer_register(struct iv_timer *_t)
 {
   struct iv_state *st;
-  st=iv_get_state$link2();
+  st=iv_get_state_link2();
   struct iv_timer_ *t = (struct iv_timer_ *)_t;
   struct iv_timer_ **p;
   signed int index;
@@ -6236,7 +6236,7 @@ signed int iv_timer_registered(struct iv_timer *_t)
 void iv_timer_unregister(struct iv_timer *_t)
 {
   struct iv_state *st;
-  st=iv_get_state$link2();
+  st=iv_get_state_link2();
   struct iv_timer_ *t = (struct iv_timer_ *)_t;
   struct iv_timer_ **m;
   struct iv_timer_ **p;
@@ -6277,13 +6277,13 @@ void iv_timer_unregister(struct iv_timer *_t)
 void iv_tls_thread_deinit(struct iv_state *st)
 {
   struct iv_list_head *ilh = (&iv_tls_users)->next;
-  struct iv_tls_user *tmp_statement_expression$1;
+  struct iv_tls_user *tmp_statement_expression_1;
   for( ; !(ilh == &iv_tls_users); ilh = ilh->next)
   {
     struct iv_tls_user *itu;
     const struct iv_list_head *__ptr = ilh;
-    tmp_statement_expression$1 = (struct iv_tls_user *)((char *)__ptr - (signed long int)&((struct iv_tls_user *)0)->list);
-    itu = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct iv_tls_user *)((char *)__ptr - (signed long int)&((struct iv_tls_user *)0)->list);
+    itu = tmp_statement_expression_1;
     if(!(itu->deinit_thread == ((void (*)(void *))NULL)))
       itu->deinit_thread((void *)st + (signed long int)itu->state_offset);
 
@@ -6297,13 +6297,13 @@ void iv_tls_thread_init(struct iv_state *st)
   struct iv_list_head *ilh;
   inited = 1;
   ilh = (&iv_tls_users)->next;
-  struct iv_tls_user *tmp_statement_expression$1;
+  struct iv_tls_user *tmp_statement_expression_1;
   for( ; !(ilh == &iv_tls_users); ilh = ilh->next)
   {
     struct iv_tls_user *itu;
     const struct iv_list_head *__ptr = ilh;
-    tmp_statement_expression$1 = (struct iv_tls_user *)((char *)__ptr - (signed long int)&((struct iv_tls_user *)0)->list);
-    itu = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct iv_tls_user *)((char *)__ptr - (signed long int)&((struct iv_tls_user *)0)->list);
+    itu = tmp_statement_expression_1;
     if(!(itu->init_thread == ((void (*)(void *))NULL)))
       itu->init_thread((void *)st + (signed long int)itu->state_offset);
 
@@ -6322,7 +6322,7 @@ signed int iv_tls_total_state_size(void)
 void * iv_tls_user_ptr(struct iv_tls_user *itu)
 {
   struct iv_state *st;
-  st=iv_get_state$link3();
+  st=iv_get_state_link3();
   if(itu->state_offset == 0)
     iv_fatal("iv_tls_user_ptr: called on unregistered iv_tls_user");
 
@@ -6342,7 +6342,7 @@ void iv_tls_user_register(struct iv_tls_user *itu)
 
   itu->state_offset = last_offset;
   last_offset = (signed int)((unsigned long int)last_offset + itu->sizeof_state + (unsigned long int)15 & (unsigned long int)~15);
-  iv_list_add_tail$link2(&itu->list, &iv_tls_users);
+  iv_list_add_tail_link2(&itu->list, &iv_tls_users);
 }
 
 // iv_validate_now
@@ -6350,7 +6350,7 @@ void iv_tls_user_register(struct iv_tls_user *itu)
 void iv_validate_now(void)
 {
   struct iv_state *st;
-  st=iv_get_state$link2();
+  st=iv_get_state_link2();
   if(st->time_valid == 0)
   {
     st->time_valid = 1;
@@ -6364,28 +6364,28 @@ void iv_validate_now(void)
 static void iv_wait_completion(void *_this)
 {
   struct iv_wait_thr_info *tinfo;
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_wait_tls_user);
-  tinfo = (struct iv_wait_thr_info *)return_value_iv_tls_user_ptr$1;
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_wait_tls_user);
+  tinfo = (struct iv_wait_thr_info *)return_value_iv_tls_user_ptr_1;
   struct iv_wait_interest *this = (struct iv_wait_interest *)_this;
   struct iv_list_head events;
   pthread_mutex_lock(&iv_wait_lock);
-  __iv_list_steal_elements$link3(&this->events, &events);
+  __iv_list_steal_elements_link3(&this->events, &events);
   pthread_mutex_unlock(&iv_wait_lock);
   tinfo->handled_wait_interest = this;
-  signed int return_value_iv_list_empty$2;
-  struct wait_event *tmp_statement_expression$3;
+  signed int return_value_iv_list_empty_2;
+  struct wait_event *tmp_statement_expression_3;
   do
   {
-    return_value_iv_list_empty$2=iv_list_empty$link5(&events);
-    if(!(return_value_iv_list_empty$2 == 0))
+    return_value_iv_list_empty_2=iv_list_empty_link5(&events);
+    if(!(return_value_iv_list_empty_2 == 0))
       break;
 
     struct wait_event *we;
     const struct iv_list_head *__ptr = events.next;
-    tmp_statement_expression$3 = (struct wait_event *)((char *)__ptr - (signed long int)&((struct wait_event *)0)->list);
-    we = tmp_statement_expression$3;
-    iv_list_del$link5(&we->list);
+    tmp_statement_expression_3 = (struct wait_event *)((char *)__ptr - (signed long int)&((struct wait_event *)0)->list);
+    we = tmp_statement_expression_3;
+    iv_list_del_link5(&we->list);
     if(!(tinfo->handled_wait_interest == ((struct iv_wait_interest *)NULL)))
       this->handler(this->cookie, we->status, &we->rusage);
 
@@ -6400,7 +6400,7 @@ static void iv_wait_completion(void *_this)
 static void iv_wait_got_sigchld(void *_dummy)
 {
   pthread_mutex_lock(&iv_wait_lock);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   while((_Bool)1)
   {
     signed int pid;
@@ -6413,8 +6413,8 @@ static void iv_wait_got_sigchld(void *_dummy)
     {
       if(!(pid >= 0))
       {
-        return_value___errno_location$1=__errno_location();
-        if(!(*return_value___errno_location$1 == 10))
+        return_value___errno_location_1=__errno_location();
+        if(!(*return_value___errno_location_1 == 10))
           perror("wait4");
 
       }
@@ -6422,9 +6422,9 @@ static void iv_wait_got_sigchld(void *_dummy)
       break;
     }
 
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct wait_event) /*168ul*/ );
-    we = (struct wait_event *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct wait_event) /*168ul*/ );
+    we = (struct wait_event *)return_value_malloc_2;
     if(we == ((struct wait_event *)NULL))
       iv_fatal("iv_wait_got_sigchld: out of memory");
 
@@ -6433,15 +6433,15 @@ static void iv_wait_got_sigchld(void *_dummy)
     p=__iv_wait_interest_find(pid);
     if(!(p == ((struct iv_wait_interest *)NULL)))
     {
-      iv_list_add_tail$link6(&we->list, &p->events);
+      iv_list_add_tail_link6(&we->list, &p->events);
       iv_event_post(&p->ev);
     }
 
     else
       free((void *)we);
-    signed int return_value_iv_wait_status_dead$3;
-    return_value_iv_wait_status_dead$3=iv_wait_status_dead(status);
-    if(!(return_value_iv_wait_status_dead$3 == 0))
+    signed int return_value_iv_wait_status_dead_3;
+    return_value_iv_wait_status_dead_3=iv_wait_status_dead(status);
+    if(!(return_value_iv_wait_status_dead_3 == 0))
     {
       iv_avl_tree_delete(&iv_wait_interests, &p->avl_node);
       p->flags = (unsigned int)1;
@@ -6457,14 +6457,14 @@ static signed int iv_wait_interest_compare(struct iv_avl_node *_a, struct iv_avl
 {
   struct iv_wait_interest *a;
   struct iv_wait_interest *b;
-  struct iv_wait_interest *tmp_statement_expression$1;
+  struct iv_wait_interest *tmp_statement_expression_1;
   const struct iv_avl_node *__ptr = _a;
-  tmp_statement_expression$1 = (struct iv_wait_interest *)((char *)__ptr - (signed long int)&((struct iv_wait_interest *)0)->avl_node);
-  a = tmp_statement_expression$1;
-  struct iv_wait_interest *tmp_statement_expression$2;
-  const struct iv_avl_node *iv_wait_interest_compare$$1$$2$$__ptr = _b;
-  tmp_statement_expression$2 = (struct iv_wait_interest *)((char *)iv_wait_interest_compare$$1$$2$$__ptr - (signed long int)&((struct iv_wait_interest *)0)->avl_node);
-  b = tmp_statement_expression$2;
+  tmp_statement_expression_1 = (struct iv_wait_interest *)((char *)__ptr - (signed long int)&((struct iv_wait_interest *)0)->avl_node);
+  a = tmp_statement_expression_1;
+  struct iv_wait_interest *tmp_statement_expression_2;
+  const struct iv_avl_node *iv_wait_interest_compare__1__2____ptr = _b;
+  tmp_statement_expression_2 = (struct iv_wait_interest *)((char *)iv_wait_interest_compare__1__2____ptr - (signed long int)&((struct iv_wait_interest *)0)->avl_node);
+  b = tmp_statement_expression_2;
   if(!(a->pid >= b->pid))
     return -1;
 
@@ -6496,9 +6496,9 @@ signed int iv_wait_interest_kill(struct iv_wait_interest *this, signed int sig)
 void iv_wait_interest_register(struct iv_wait_interest *this)
 {
   struct iv_wait_thr_info *tinfo;
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_wait_tls_user);
-  tinfo = (struct iv_wait_thr_info *)return_value_iv_tls_user_ptr$1;
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_wait_tls_user);
+  tinfo = (struct iv_wait_thr_info *)return_value_iv_tls_user_ptr_1;
   __iv_wait_interest_register(tinfo, this);
   pthread_mutex_lock(&iv_wait_lock);
   iv_avl_tree_insert(&iv_wait_interests, &this->avl_node);
@@ -6510,9 +6510,9 @@ void iv_wait_interest_register(struct iv_wait_interest *this)
 signed int iv_wait_interest_register_spawn(struct iv_wait_interest *this, void (*fn)(void *), void *cookie)
 {
   struct iv_wait_thr_info *tinfo;
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_wait_tls_user);
-  tinfo = (struct iv_wait_thr_info *)return_value_iv_tls_user_ptr$1;
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_wait_tls_user);
+  tinfo = (struct iv_wait_thr_info *)return_value_iv_tls_user_ptr_1;
   signed int pid;
   __iv_wait_interest_register(tinfo, this);
   pthread_mutex_lock(&iv_wait_lock);
@@ -6547,9 +6547,9 @@ signed int iv_wait_interest_register_spawn(struct iv_wait_interest *this, void (
 void iv_wait_interest_unregister(struct iv_wait_interest *this)
 {
   struct iv_wait_thr_info *tinfo;
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_wait_tls_user);
-  tinfo = (struct iv_wait_thr_info *)return_value_iv_tls_user_ptr$1;
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_wait_tls_user);
+  tinfo = (struct iv_wait_thr_info *)return_value_iv_tls_user_ptr_1;
   pthread_mutex_lock(&iv_wait_lock);
   if((1u & this->flags) == 0u)
     iv_avl_tree_delete(&iv_wait_interests, &this->avl_node);
@@ -6600,43 +6600,43 @@ static void iv_wait_tls_init_thread(void *_tinfo)
 // file ../../../src/iv_work.c line 207
 static void iv_work_event(void *_pool)
 {
-  struct work_pool_priv *iv_work_event$$1$$pool = (struct work_pool_priv *)_pool;
+  struct work_pool_priv *iv_work_event__1__pool = (struct work_pool_priv *)_pool;
   struct iv_list_head items;
-  mutex_lock$link1(&iv_work_event$$1$$pool->lock);
-  __iv_list_steal_elements$link2(&iv_work_event$$1$$pool->work_done, &items);
-  mutex_unlock$link1(&iv_work_event$$1$$pool->lock);
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link2(&items);
-  struct iv_work_item *tmp_statement_expression$2;
-  if(return_value_iv_list_empty$1 == 0)
+  mutex_lock_link1(&iv_work_event__1__pool->lock);
+  __iv_list_steal_elements_link2(&iv_work_event__1__pool->work_done, &items);
+  mutex_unlock_link1(&iv_work_event__1__pool->lock);
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link2(&items);
+  struct iv_work_item *tmp_statement_expression_2;
+  if(return_value_iv_list_empty_1 == 0)
   {
-    struct iv_work_item *iv_work_event$$1$$1$$work;
+    struct iv_work_item *iv_work_event__1__1__work;
     const struct iv_list_head *__ptr = items.next;
-    tmp_statement_expression$2 = (struct iv_work_item *)((char *)__ptr - (signed long int)&((struct iv_work_item *)0)->list);
-    iv_work_event$$1$$1$$work = tmp_statement_expression$2;
-    iv_list_del$link1(&iv_work_event$$1$$1$$work->list);
-    iv_work_event$$1$$1$$work->completion(iv_work_event$$1$$1$$work->cookie);
+    tmp_statement_expression_2 = (struct iv_work_item *)((char *)__ptr - (signed long int)&((struct iv_work_item *)0)->list);
+    iv_work_event__1__1__work = tmp_statement_expression_2;
+    iv_list_del_link1(&iv_work_event__1__1__work->list);
+    iv_work_event__1__1__work->completion(iv_work_event__1__1__work->cookie);
   }
 
-  signed int return_value_iv_list_empty$3;
-  if(!(iv_work_event$$1$$pool->shutting_down == 0))
+  signed int return_value_iv_list_empty_3;
+  if(!(iv_work_event__1__pool->shutting_down == 0))
   {
-    mutex_lock$link1(&iv_work_event$$1$$pool->lock);
-    if(iv_work_event$$1$$pool->started_threads == 0)
+    mutex_lock_link1(&iv_work_event__1__pool->lock);
+    if(iv_work_event__1__pool->started_threads == 0)
     {
-      return_value_iv_list_empty$3=iv_list_empty$link2(&iv_work_event$$1$$pool->work_done);
-      if(!(return_value_iv_list_empty$3 == 0))
+      return_value_iv_list_empty_3=iv_list_empty_link2(&iv_work_event__1__pool->work_done);
+      if(!(return_value_iv_list_empty_3 == 0))
       {
-        mutex_unlock$link1(&iv_work_event$$1$$pool->lock);
-        mutex_destroy$link1(&iv_work_event$$1$$pool->lock);
-        iv_event_unregister(&iv_work_event$$1$$pool->ev);
-        free((void *)iv_work_event$$1$$pool);
+        mutex_unlock_link1(&iv_work_event__1__pool->lock);
+        mutex_destroy_link1(&iv_work_event__1__pool->lock);
+        iv_event_unregister(&iv_work_event__1__pool->ev);
+        free((void *)iv_work_event__1__pool);
         goto __CPROVER_DUMP_L5;
       }
 
     }
 
-    mutex_unlock$link1(&iv_work_event$$1$$pool->lock);
+    mutex_unlock_link1(&iv_work_event__1__pool->lock);
   }
 
 
@@ -6650,19 +6650,19 @@ static void iv_work_handle_local(void *_tinfo)
 {
   struct iv_work_thr_info *tinfo = (struct iv_work_thr_info *)_tinfo;
   struct iv_list_head items;
-  __iv_list_steal_elements$link2(&tinfo->work_items, &items);
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link2(&items);
-  struct iv_work_item *tmp_statement_expression$2;
-  if(return_value_iv_list_empty$1 == 0)
+  __iv_list_steal_elements_link2(&tinfo->work_items, &items);
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link2(&items);
+  struct iv_work_item *tmp_statement_expression_2;
+  if(return_value_iv_list_empty_1 == 0)
   {
-    struct iv_work_item *iv_work_handle_local$$1$$1$$work;
+    struct iv_work_item *iv_work_handle_local__1__1__work;
     const struct iv_list_head *__ptr = items.next;
-    tmp_statement_expression$2 = (struct iv_work_item *)((char *)__ptr - (signed long int)&((struct iv_work_item *)0)->list);
-    iv_work_handle_local$$1$$1$$work = tmp_statement_expression$2;
-    iv_list_del$link1(&iv_work_handle_local$$1$$1$$work->list);
-    iv_work_handle_local$$1$$1$$work->work(iv_work_handle_local$$1$$1$$work->cookie);
-    iv_work_handle_local$$1$$1$$work->completion(iv_work_handle_local$$1$$1$$work->cookie);
+    tmp_statement_expression_2 = (struct iv_work_item *)((char *)__ptr - (signed long int)&((struct iv_work_item *)0)->list);
+    iv_work_handle_local__1__1__work = tmp_statement_expression_2;
+    iv_list_del_link1(&iv_work_handle_local__1__1__work->list);
+    iv_work_handle_local__1__1__work->work(iv_work_handle_local__1__1__work->cookie);
+    iv_work_handle_local__1__1__work->completion(iv_work_handle_local__1__1__work->cookie);
   }
 
 }
@@ -6671,55 +6671,55 @@ static void iv_work_handle_local(void *_tinfo)
 // file ../../../src/include/iv_work.h line 58
 signed int iv_work_pool_create(struct iv_work_pool *this)
 {
-  struct work_pool_priv *iv_work_pool_create$$1$$pool;
+  struct work_pool_priv *iv_work_pool_create__1__pool;
   signed int ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct work_pool_priv) /*168ul*/ );
-  iv_work_pool_create$$1$$pool = (struct work_pool_priv *)return_value_malloc$1;
-  if(iv_work_pool_create$$1$$pool == ((struct work_pool_priv *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct work_pool_priv) /*168ul*/ );
+  iv_work_pool_create__1__pool = (struct work_pool_priv *)return_value_malloc_1;
+  if(iv_work_pool_create__1__pool == ((struct work_pool_priv *)NULL))
     return -1;
 
   else
   {
-    ret=mutex_init$link1(&iv_work_pool_create$$1$$pool->lock);
+    ret=mutex_init_link1(&iv_work_pool_create__1__pool->lock);
     if(!(ret == 0))
     {
-      free((void *)iv_work_pool_create$$1$$pool);
+      free((void *)iv_work_pool_create__1__pool);
       return -1;
     }
 
     else
     {
-      IV_EVENT_INIT(&iv_work_pool_create$$1$$pool->ev);
-      iv_work_pool_create$$1$$pool->ev.cookie = (void *)iv_work_pool_create$$1$$pool;
-      iv_work_pool_create$$1$$pool->ev.handler = iv_work_event;
-      iv_event_register(&iv_work_pool_create$$1$$pool->ev);
-      iv_work_pool_create$$1$$pool->shutting_down = 0;
-      iv_work_pool_create$$1$$pool->started_threads = 0;
+      IV_EVENT_INIT(&iv_work_pool_create__1__pool->ev);
+      iv_work_pool_create__1__pool->ev.cookie = (void *)iv_work_pool_create__1__pool;
+      iv_work_pool_create__1__pool->ev.handler = iv_work_event;
+      iv_event_register(&iv_work_pool_create__1__pool->ev);
+      iv_work_pool_create__1__pool->shutting_down = 0;
+      iv_work_pool_create__1__pool->started_threads = 0;
       do
       {
-        (&iv_work_pool_create$$1$$pool->idle_threads)->next = &iv_work_pool_create$$1$$pool->idle_threads;
-        (&iv_work_pool_create$$1$$pool->idle_threads)->prev = &iv_work_pool_create$$1$$pool->idle_threads;
+        (&iv_work_pool_create__1__pool->idle_threads)->next = &iv_work_pool_create__1__pool->idle_threads;
+        (&iv_work_pool_create__1__pool->idle_threads)->prev = &iv_work_pool_create__1__pool->idle_threads;
       }
       while((_Bool)0);
-      iv_work_pool_create$$1$$pool->cookie = this->cookie;
-      iv_work_pool_create$$1$$pool->thread_start = this->thread_start;
-      iv_work_pool_create$$1$$pool->thread_stop = this->thread_stop;
-      iv_work_pool_create$$1$$pool->seq_head = (unsigned int)0;
-      iv_work_pool_create$$1$$pool->seq_tail = (unsigned int)0;
+      iv_work_pool_create__1__pool->cookie = this->cookie;
+      iv_work_pool_create__1__pool->thread_start = this->thread_start;
+      iv_work_pool_create__1__pool->thread_stop = this->thread_stop;
+      iv_work_pool_create__1__pool->seq_head = (unsigned int)0;
+      iv_work_pool_create__1__pool->seq_tail = (unsigned int)0;
       do
       {
-        (&iv_work_pool_create$$1$$pool->work_items)->next = &iv_work_pool_create$$1$$pool->work_items;
-        (&iv_work_pool_create$$1$$pool->work_items)->prev = &iv_work_pool_create$$1$$pool->work_items;
+        (&iv_work_pool_create__1__pool->work_items)->next = &iv_work_pool_create__1__pool->work_items;
+        (&iv_work_pool_create__1__pool->work_items)->prev = &iv_work_pool_create__1__pool->work_items;
       }
       while((_Bool)0);
       do
       {
-        (&iv_work_pool_create$$1$$pool->work_done)->next = &iv_work_pool_create$$1$$pool->work_done;
-        (&iv_work_pool_create$$1$$pool->work_done)->prev = &iv_work_pool_create$$1$$pool->work_done;
+        (&iv_work_pool_create__1__pool->work_done)->next = &iv_work_pool_create__1__pool->work_done;
+        (&iv_work_pool_create__1__pool->work_done)->prev = &iv_work_pool_create__1__pool->work_done;
       }
       while((_Bool)0);
-      this->priv = (void *)iv_work_pool_create$$1$$pool;
+      this->priv = (void *)iv_work_pool_create__1__pool;
       return 0;
     }
   }
@@ -6729,30 +6729,30 @@ signed int iv_work_pool_create(struct iv_work_pool *this)
 // file ../../../src/include/iv_work.h line 59
 void iv_work_pool_put(struct iv_work_pool *this)
 {
-  struct work_pool_priv *iv_work_pool_put$$1$$pool = (struct work_pool_priv *)this->priv;
+  struct work_pool_priv *iv_work_pool_put__1__pool = (struct work_pool_priv *)this->priv;
   struct iv_list_head *ilh;
-  mutex_lock$link1(&iv_work_pool_put$$1$$pool->lock);
+  mutex_lock_link1(&iv_work_pool_put__1__pool->lock);
   this->priv = (void *)0;
-  iv_work_pool_put$$1$$pool->shutting_down = 1;
-  struct work_pool_thread *tmp_statement_expression$1;
-  if(iv_work_pool_put$$1$$pool->started_threads == 0)
+  iv_work_pool_put__1__pool->shutting_down = 1;
+  struct work_pool_thread *tmp_statement_expression_1;
+  if(iv_work_pool_put__1__pool->started_threads == 0)
   {
-    mutex_unlock$link1(&iv_work_pool_put$$1$$pool->lock);
-    iv_event_post(&iv_work_pool_put$$1$$pool->ev);
+    mutex_unlock_link1(&iv_work_pool_put__1__pool->lock);
+    iv_event_post(&iv_work_pool_put__1__pool->ev);
   }
 
   else
   {
-    ilh = (&iv_work_pool_put$$1$$pool->idle_threads)->next;
-    for( ; !(ilh == &iv_work_pool_put$$1$$pool->idle_threads); ilh = ilh->next)
+    ilh = (&iv_work_pool_put__1__pool->idle_threads)->next;
+    for( ; !(ilh == &iv_work_pool_put__1__pool->idle_threads); ilh = ilh->next)
     {
       struct work_pool_thread *thr;
       const struct iv_list_head *__ptr = ilh;
-      tmp_statement_expression$1 = (struct work_pool_thread *)((char *)__ptr - (signed long int)&((struct work_pool_thread *)0)->list);
-      thr = tmp_statement_expression$1;
+      tmp_statement_expression_1 = (struct work_pool_thread *)((char *)__ptr - (signed long int)&((struct work_pool_thread *)0)->list);
+      thr = tmp_statement_expression_1;
       iv_event_post(&thr->kick);
     }
-    mutex_unlock$link1(&iv_work_pool_put$$1$$pool->lock);
+    mutex_unlock_link1(&iv_work_pool_put__1__pool->lock);
   }
 }
 
@@ -6774,9 +6774,9 @@ static signed int iv_work_start_thread(struct work_pool_priv *pool)
   struct work_pool_thread *thr;
   char name[512l];
   signed int ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct work_pool_thread) /*200ul*/ );
-  thr = (struct work_pool_thread *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct work_pool_thread) /*200ul*/ );
+  thr = (struct work_pool_thread *)return_value_malloc_1;
   if(thr == ((struct work_pool_thread *)NULL))
     return -1;
 
@@ -6804,43 +6804,43 @@ static signed int iv_work_start_thread(struct work_pool_priv *pool)
 static void iv_work_submit_local(struct iv_work_item *work)
 {
   struct iv_work_thr_info *tinfo;
-  void *return_value_iv_tls_user_ptr$1;
-  return_value_iv_tls_user_ptr$1=iv_tls_user_ptr(&iv_work_tls_user);
-  tinfo = (struct iv_work_thr_info *)return_value_iv_tls_user_ptr$1;
-  signed int return_value_iv_list_empty$2;
-  return_value_iv_list_empty$2=iv_list_empty$link2(&tinfo->work_items);
-  if(!(return_value_iv_list_empty$2 == 0))
+  void *return_value_iv_tls_user_ptr_1;
+  return_value_iv_tls_user_ptr_1=iv_tls_user_ptr(&iv_work_tls_user);
+  tinfo = (struct iv_work_thr_info *)return_value_iv_tls_user_ptr_1;
+  signed int return_value_iv_list_empty_2;
+  return_value_iv_list_empty_2=iv_list_empty_link2(&tinfo->work_items);
+  if(!(return_value_iv_list_empty_2 == 0))
     iv_task_register(&tinfo->task);
 
-  iv_list_add_tail$link3(&work->list, &tinfo->work_items);
+  iv_list_add_tail_link3(&work->list, &tinfo->work_items);
 }
 
 // iv_work_submit_pool
 // file ../../../src/iv_work.c line 326
 static void iv_work_submit_pool(struct iv_work_pool *this, struct iv_work_item *work)
 {
-  struct work_pool_priv *iv_work_submit_pool$$1$$pool = (struct work_pool_priv *)this->priv;
-  mutex_lock$link1(&iv_work_submit_pool$$1$$pool->lock);
-  iv_work_submit_pool$$1$$pool->seq_tail = iv_work_submit_pool$$1$$pool->seq_tail + 1u;
-  iv_list_add_tail$link3(&work->list, &iv_work_submit_pool$$1$$pool->work_items);
-  signed int return_value_iv_list_empty$2;
-  return_value_iv_list_empty$2=iv_list_empty$link2(&iv_work_submit_pool$$1$$pool->idle_threads);
-  struct work_pool_thread *tmp_statement_expression$1;
-  if(return_value_iv_list_empty$2 == 0)
+  struct work_pool_priv *iv_work_submit_pool__1__pool = (struct work_pool_priv *)this->priv;
+  mutex_lock_link1(&iv_work_submit_pool__1__pool->lock);
+  iv_work_submit_pool__1__pool->seq_tail = iv_work_submit_pool__1__pool->seq_tail + 1u;
+  iv_list_add_tail_link3(&work->list, &iv_work_submit_pool__1__pool->work_items);
+  signed int return_value_iv_list_empty_2;
+  return_value_iv_list_empty_2=iv_list_empty_link2(&iv_work_submit_pool__1__pool->idle_threads);
+  struct work_pool_thread *tmp_statement_expression_1;
+  if(return_value_iv_list_empty_2 == 0)
   {
     struct work_pool_thread *thr;
-    const struct iv_list_head *__ptr = iv_work_submit_pool$$1$$pool->idle_threads.next;
-    tmp_statement_expression$1 = (struct work_pool_thread *)((char *)__ptr - (signed long int)&((struct work_pool_thread *)0)->list);
-    thr = tmp_statement_expression$1;
+    const struct iv_list_head *__ptr = iv_work_submit_pool__1__pool->idle_threads.next;
+    tmp_statement_expression_1 = (struct work_pool_thread *)((char *)__ptr - (signed long int)&((struct work_pool_thread *)0)->list);
+    thr = tmp_statement_expression_1;
     thr->kicked = 1;
     iv_event_post(&thr->kick);
   }
 
   else
-    if(!(iv_work_submit_pool$$1$$pool->started_threads >= this->max_threads))
-      iv_work_start_thread(iv_work_submit_pool$$1$$pool);
+    if(!(iv_work_submit_pool__1__pool->started_threads >= this->max_threads))
+      iv_work_start_thread(iv_work_submit_pool__1__pool);
 
-  mutex_unlock$link1(&iv_work_submit_pool$$1$$pool->lock);
+  mutex_unlock_link1(&iv_work_submit_pool__1__pool->lock);
 }
 
 // iv_work_thread
@@ -6848,7 +6848,7 @@ static void iv_work_submit_pool(struct iv_work_pool *this, struct iv_work_item *
 static void iv_work_thread(void *_thr)
 {
   struct work_pool_thread *thr = (struct work_pool_thread *)_thr;
-  struct work_pool_priv *iv_work_thread$$1$$pool = thr->pool;
+  struct work_pool_priv *iv_work_thread__1__pool = thr->pool;
   iv_init();
   do
   {
@@ -6868,8 +6868,8 @@ static void iv_work_thread(void *_thr)
   IV_TIMER_INIT(&thr->idle_timer);
   thr->idle_timer.cookie = (void *)thr;
   thr->idle_timer.handler = iv_work_thread_idle_timeout;
-  if(!(iv_work_thread$$1$$pool->thread_start == ((void (*)(void *))NULL)))
-    iv_work_thread$$1$$pool->thread_start(iv_work_thread$$1$$pool->cookie);
+  if(!(iv_work_thread__1__pool->thread_start == ((void (*)(void *))NULL)))
+    iv_work_thread__1__pool->thread_start(iv_work_thread__1__pool->cookie);
 
   iv_main();
   iv_deinit();
@@ -6880,40 +6880,40 @@ static void iv_work_thread(void *_thr)
 static void iv_work_thread_do_work(void *_thr)
 {
   struct work_pool_thread *thr = (struct work_pool_thread *)_thr;
-  struct work_pool_priv *iv_work_thread_do_work$$1$$pool = thr->pool;
+  struct work_pool_priv *iv_work_thread_do_work__1__pool = thr->pool;
   unsigned int last_seq;
-  mutex_lock$link1(&iv_work_thread_do_work$$1$$pool->lock);
-  last_seq = iv_work_thread_do_work$$1$$pool->seq_tail;
-  struct iv_work_item *tmp_statement_expression$1;
-  if((signed int)last_seq + -((signed int)iv_work_thread_do_work$$1$$pool->seq_head) >= 1)
+  mutex_lock_link1(&iv_work_thread_do_work__1__pool->lock);
+  last_seq = iv_work_thread_do_work__1__pool->seq_tail;
+  struct iv_work_item *tmp_statement_expression_1;
+  if((signed int)last_seq + -((signed int)iv_work_thread_do_work__1__pool->seq_head) >= 1)
   {
-    struct iv_work_item *iv_work_thread_do_work$$1$$1$$work;
-    iv_work_thread_do_work$$1$$pool->seq_head = iv_work_thread_do_work$$1$$pool->seq_head + 1u;
-    const struct iv_list_head *__ptr = iv_work_thread_do_work$$1$$pool->work_items.next;
-    tmp_statement_expression$1 = (struct iv_work_item *)((char *)__ptr - (signed long int)&((struct iv_work_item *)0)->list);
-    iv_work_thread_do_work$$1$$1$$work = tmp_statement_expression$1;
-    iv_list_del$link1(&iv_work_thread_do_work$$1$$1$$work->list);
-    mutex_unlock$link1(&iv_work_thread_do_work$$1$$pool->lock);
-    iv_work_thread_do_work$$1$$1$$work->work(iv_work_thread_do_work$$1$$1$$work->cookie);
+    struct iv_work_item *iv_work_thread_do_work__1__1__work;
+    iv_work_thread_do_work__1__pool->seq_head = iv_work_thread_do_work__1__pool->seq_head + 1u;
+    const struct iv_list_head *__ptr = iv_work_thread_do_work__1__pool->work_items.next;
+    tmp_statement_expression_1 = (struct iv_work_item *)((char *)__ptr - (signed long int)&((struct iv_work_item *)0)->list);
+    iv_work_thread_do_work__1__1__work = tmp_statement_expression_1;
+    iv_list_del_link1(&iv_work_thread_do_work__1__1__work->list);
+    mutex_unlock_link1(&iv_work_thread_do_work__1__pool->lock);
+    iv_work_thread_do_work__1__1__work->work(iv_work_thread_do_work__1__1__work->cookie);
     iv_invalidate_now();
-    mutex_lock$link1(&iv_work_thread_do_work$$1$$pool->lock);
-    signed int return_value_iv_list_empty$2;
-    return_value_iv_list_empty$2=iv_list_empty$link2(&iv_work_thread_do_work$$1$$pool->work_done);
-    if(!(return_value_iv_list_empty$2 == 0))
-      iv_event_post(&iv_work_thread_do_work$$1$$pool->ev);
+    mutex_lock_link1(&iv_work_thread_do_work__1__pool->lock);
+    signed int return_value_iv_list_empty_2;
+    return_value_iv_list_empty_2=iv_list_empty_link2(&iv_work_thread_do_work__1__pool->work_done);
+    if(!(return_value_iv_list_empty_2 == 0))
+      iv_event_post(&iv_work_thread_do_work__1__pool->ev);
 
-    iv_list_add_tail$link3(&iv_work_thread_do_work$$1$$1$$work->list, &iv_work_thread_do_work$$1$$pool->work_done);
+    iv_list_add_tail_link3(&iv_work_thread_do_work__1__1__work->list, &iv_work_thread_do_work__1__pool->work_done);
   }
 
-  if(iv_work_thread_do_work$$1$$pool->seq_head == iv_work_thread_do_work$$1$$pool->seq_tail)
+  if(iv_work_thread_do_work__1__pool->seq_head == iv_work_thread_do_work__1__pool->seq_tail)
   {
-    if(iv_work_thread_do_work$$1$$pool->shutting_down == 0)
+    if(iv_work_thread_do_work__1__pool->shutting_down == 0)
     {
-      iv_list_add(&thr->list, &iv_work_thread_do_work$$1$$pool->idle_threads);
+      iv_list_add(&thr->list, &iv_work_thread_do_work__1__pool->idle_threads);
       iv_validate_now();
-      struct timespec *return_value___iv_now_location$3;
-      return_value___iv_now_location$3=__iv_now_location();
-      thr->idle_timer.expires = *return_value___iv_now_location$3;
+      struct timespec *return_value___iv_now_location_3;
+      return_value___iv_now_location_3=__iv_now_location();
+      thr->idle_timer.expires = *return_value___iv_now_location_3;
       thr->idle_timer.expires.tv_sec = thr->idle_timer.expires.tv_sec + (signed long int)10;
       iv_timer_register(&thr->idle_timer);
     }
@@ -6924,7 +6924,7 @@ static void iv_work_thread_do_work(void *_thr)
 
   else
     iv_task_register(&thr->work_task);
-  mutex_unlock$link1(&iv_work_thread_do_work$$1$$pool->lock);
+  mutex_unlock_link1(&iv_work_thread_do_work__1__pool->lock);
 }
 
 // iv_work_thread_got_event
@@ -6932,19 +6932,19 @@ static void iv_work_thread_do_work(void *_thr)
 static void iv_work_thread_got_event(void *_thr)
 {
   struct work_pool_thread *thr = (struct work_pool_thread *)_thr;
-  struct work_pool_priv *iv_work_thread_got_event$$1$$pool = thr->pool;
-  mutex_lock$link1(&iv_work_thread_got_event$$1$$pool->lock);
+  struct work_pool_priv *iv_work_thread_got_event__1__pool = thr->pool;
+  mutex_lock_link1(&iv_work_thread_got_event__1__pool->lock);
   thr->kicked = 0;
-  signed int return_value_iv_list_empty$1;
-  return_value_iv_list_empty$1=iv_list_empty$link2(&thr->list);
-  if(return_value_iv_list_empty$1 == 0)
+  signed int return_value_iv_list_empty_1;
+  return_value_iv_list_empty_1=iv_list_empty_link2(&thr->list);
+  if(return_value_iv_list_empty_1 == 0)
   {
-    iv_list_del_init$link2(&thr->list);
+    iv_list_del_init_link2(&thr->list);
     iv_task_register(&thr->work_task);
     iv_timer_unregister(&thr->idle_timer);
   }
 
-  mutex_unlock$link1(&iv_work_thread_got_event$$1$$pool->lock);
+  mutex_unlock_link1(&iv_work_thread_got_event__1__pool->lock);
 }
 
 // iv_work_thread_idle_timeout
@@ -6952,23 +6952,23 @@ static void iv_work_thread_got_event(void *_thr)
 static void iv_work_thread_idle_timeout(void *_thr)
 {
   struct work_pool_thread *thr = (struct work_pool_thread *)_thr;
-  struct work_pool_priv *iv_work_thread_idle_timeout$$1$$pool = thr->pool;
-  mutex_lock$link1(&iv_work_thread_idle_timeout$$1$$pool->lock);
+  struct work_pool_priv *iv_work_thread_idle_timeout__1__pool = thr->pool;
+  mutex_lock_link1(&iv_work_thread_idle_timeout__1__pool->lock);
   if(!(thr->kicked == 0))
   {
-    struct timespec *return_value___iv_now_location$1;
-    return_value___iv_now_location$1=__iv_now_location();
-    thr->idle_timer.expires = *return_value___iv_now_location$1;
+    struct timespec *return_value___iv_now_location_1;
+    return_value___iv_now_location_1=__iv_now_location();
+    thr->idle_timer.expires = *return_value___iv_now_location_1;
     thr->idle_timer.expires.tv_sec = thr->idle_timer.expires.tv_sec + (signed long int)10;
     iv_timer_register(&thr->idle_timer);
   }
 
   else
   {
-    iv_list_del_init$link2(&thr->list);
+    iv_list_del_init_link2(&thr->list);
     __iv_work_thread_die(thr);
   }
-  mutex_unlock$link1(&iv_work_thread_idle_timeout$$1$$pool->lock);
+  mutex_unlock_link1(&iv_work_thread_idle_timeout__1__pool->lock);
 }
 
 // iv_work_tls_init_thread
@@ -7026,20 +7026,20 @@ signed int main()
 // file ../../../src/iv_fd.c line 65
 static signed int method_is_excluded(char *exclude, char *name)
 {
-  signed int return_value_sscanf$1;
+  signed int return_value_sscanf_1;
   if(!(exclude == ((char *)NULL)))
   {
     char method_name[64l];
     signed int len;
     do
     {
-      return_value_sscanf$1=sscanf(exclude, "%63s%n", (const void *)method_name, &len);
-      if(!(return_value_sscanf$1 >= 1))
+      return_value_sscanf_1=sscanf(exclude, "%63s%n", (const void *)method_name, &len);
+      if(!(return_value_sscanf_1 >= 1))
         break;
 
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(name, method_name);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(name, method_name);
+      if(return_value_strcmp_2 == 0)
         return 1;
 
       exclude = exclude + (signed long int)len;
@@ -7052,62 +7052,62 @@ static signed int method_is_excluded(char *exclude, char *name)
 
 // mutex_destroy
 // file ../../../src/mutex.h line 31
-static inline void mutex_destroy(union anonymous$34 *mutex)
+static inline void mutex_destroy(union anonymous_34 *mutex)
 {
   pthread_mutex_destroy(mutex);
 }
 
-// mutex_destroy$link1
+// mutex_destroy_link1
 // file ../../../src/mutex.h line 31
-static inline void mutex_destroy$link1(union anonymous$34 *mutex$link1)
+static inline void mutex_destroy_link1(union anonymous_34 *mutex_link1)
 {
-  pthread_mutex_destroy(mutex$link1);
+  pthread_mutex_destroy(mutex_link1);
 }
 
 // mutex_init
 // file ../../../src/mutex.h line 26
-static inline signed int mutex_init(union anonymous$34 *mutex)
+static inline signed int mutex_init(union anonymous_34 *mutex)
 {
-  signed int return_value_pthread_mutex_init$1;
-  return_value_pthread_mutex_init$1=pthread_mutex_init(mutex, (const union anonymous$33 *)(void *)0);
-  return return_value_pthread_mutex_init$1;
+  signed int return_value_pthread_mutex_init_1;
+  return_value_pthread_mutex_init_1=pthread_mutex_init(mutex, (const union anonymous_33 *)(void *)0);
+  return return_value_pthread_mutex_init_1;
 }
 
-// mutex_init$link1
+// mutex_init_link1
 // file ../../../src/mutex.h line 26
-static inline signed int mutex_init$link1(union anonymous$34 *mutex$link1)
+static inline signed int mutex_init_link1(union anonymous_34 *mutex_link1)
 {
-  signed int return_value_pthread_mutex_init$1$link1;
-  return_value_pthread_mutex_init$1$link1=pthread_mutex_init(mutex$link1, (const union anonymous$33 *)(void *)0);
-  return return_value_pthread_mutex_init$1$link1;
+  signed int return_value_pthread_mutex_init_1_link1;
+  return_value_pthread_mutex_init_1_link1=pthread_mutex_init(mutex_link1, (const union anonymous_33 *)(void *)0);
+  return return_value_pthread_mutex_init_1_link1;
 }
 
 // mutex_lock
 // file ../../../src/mutex.h line 36
-static inline void mutex_lock(union anonymous$34 *mutex)
+static inline void mutex_lock(union anonymous_34 *mutex)
 {
   pthread_mutex_lock(mutex);
 }
 
-// mutex_lock$link1
+// mutex_lock_link1
 // file ../../../src/mutex.h line 36
-static inline void mutex_lock$link1(union anonymous$34 *mutex$link1)
+static inline void mutex_lock_link1(union anonymous_34 *mutex_link1)
 {
-  pthread_mutex_lock(mutex$link1);
+  pthread_mutex_lock(mutex_link1);
 }
 
 // mutex_unlock
 // file ../../../src/mutex.h line 41
-static inline void mutex_unlock(union anonymous$34 *mutex)
+static inline void mutex_unlock(union anonymous_34 *mutex)
 {
   pthread_mutex_unlock(mutex);
 }
 
-// mutex_unlock$link1
+// mutex_unlock_link1
 // file ../../../src/mutex.h line 41
-static inline void mutex_unlock$link1(union anonymous$34 *mutex$link1)
+static inline void mutex_unlock_link1(union anonymous_34 *mutex_link1)
 {
-  pthread_mutex_unlock(mutex$link1);
+  pthread_mutex_unlock(mutex_link1);
 }
 
 // notify_fd
@@ -7129,9 +7129,9 @@ static void pull_up(struct iv_state *st, signed int index, struct iv_timer_ **i)
     struct iv_timer_ **p;
     parent = index / 2;
     p=iv_timer_get_node(st, parent);
-    signed int return_value_timer_ptr_gt$1;
-    return_value_timer_ptr_gt$1=timer_ptr_gt(*p, *i);
-    if(return_value_timer_ptr_gt$1 == 0)
+    signed int return_value_timer_ptr_gt_1;
+    return_value_timer_ptr_gt_1=timer_ptr_gt(*p, *i);
+    if(return_value_timer_ptr_gt_1 == 0)
       break;
 
     et = *i;
@@ -7148,7 +7148,7 @@ static void pull_up(struct iv_state *st, signed int index, struct iv_timer_ **i)
 // file ../../../src/iv_timer.c line 253
 static void push_down(struct iv_state *st, signed int index, struct iv_timer_ **i)
 {
-  signed int return_value_timer_ptr_gt$2;
+  signed int return_value_timer_ptr_gt_2;
   while((_Bool)1)
   {
     struct iv_timer_ *et;
@@ -7159,9 +7159,9 @@ static void push_down(struct iv_state *st, signed int index, struct iv_timer_ **
     {
       struct iv_timer_ **p;
       p=iv_timer_get_node(st, 2 * index);
-      signed int return_value_timer_ptr_gt$1;
-      return_value_timer_ptr_gt$1=timer_ptr_gt(*imin, p[(signed long int)0]);
-      if(!(return_value_timer_ptr_gt$1 == 0))
+      signed int return_value_timer_ptr_gt_1;
+      return_value_timer_ptr_gt_1=timer_ptr_gt(*imin, p[(signed long int)0]);
+      if(!(return_value_timer_ptr_gt_1 == 0))
       {
         index_min = 2 * index;
         imin = p;
@@ -7169,8 +7169,8 @@ static void push_down(struct iv_state *st, signed int index, struct iv_timer_ **
 
       if(!(p[1l] == ((struct iv_timer_ *)NULL)))
       {
-        return_value_timer_ptr_gt$2=timer_ptr_gt(*imin, p[(signed long int)1]);
-        if(!(return_value_timer_ptr_gt$2 == 0))
+        return_value_timer_ptr_gt_2=timer_ptr_gt(*imin, p[(signed long int)1]);
+        if(!(return_value_timer_ptr_gt_2 == 0))
         {
           index_min = 2 * index + 1;
           imin = p + (signed long int)1;
@@ -7202,9 +7202,9 @@ static void rebalance_node(struct iv_avl_node **_root)
   bal=balance(root);
   if(bal == -2)
   {
-    signed int return_value_balance$1;
-    return_value_balance$1=balance(root->left);
-    if(!(return_value_balance$1 >= 1))
+    signed int return_value_balance_1;
+    return_value_balance_1=balance(root->left);
+    if(!(return_value_balance_1 >= 1))
       rotate_right(_root);
 
     else
@@ -7214,9 +7214,9 @@ static void rebalance_node(struct iv_avl_node **_root)
   else
     if(bal == 2)
     {
-      signed int return_value_balance$2;
-      return_value_balance$2=balance(root->right);
-      if(!(return_value_balance$2 >= 0))
+      signed int return_value_balance_2;
+      return_value_balance_2=balance(root->right);
+      if(!(return_value_balance_2 >= 0))
         rotate_right_left(_root);
 
       else
@@ -7281,9 +7281,9 @@ static void recompute_wanted_flags(struct iv_fd_ *fd)
 // file ../../../src/iv_avl.c line 233
 static void replace_reference(struct iv_avl_tree *tree, struct iv_avl_node *an, struct iv_avl_node *new_child)
 {
-  struct iv_avl_node **return_value_find_reference$1;
-  return_value_find_reference$1=find_reference(tree, an);
-  *return_value_find_reference$1 = new_child;
+  struct iv_avl_node **return_value_find_reference_1;
+  return_value_find_reference_1=find_reference(tree, an);
+  *return_value_find_reference_1 = new_child;
 }
 
 // rotate_left
@@ -7399,9 +7399,9 @@ static void sanitise_nofile_rlimit(signed int euid)
       if(lim.rlim_cur >= 131073ul)
         lim.rlim_cur = (unsigned long int)131072;
 
-      signed int return_value_setrlimit$1;
-      return_value_setrlimit$1=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &lim);
-      if(return_value_setrlimit$1 >= 0)
+      signed int return_value_setrlimit_1;
+      return_value_setrlimit_1=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &lim);
+      if(return_value_setrlimit_1 >= 0)
         maxfd = (signed int)lim.rlim_cur;
 
     }
@@ -7414,9 +7414,9 @@ static void sanitise_nofile_rlimit(signed int euid)
     lim.rlim_max = (unsigned long int)131072;
     while(!((unsigned long int)maxfd >= lim.rlim_cur))
     {
-      signed int return_value_setrlimit$2;
-      return_value_setrlimit$2=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &lim);
-      if(return_value_setrlimit$2 >= 0)
+      signed int return_value_setrlimit_2;
+      return_value_setrlimit_2=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &lim);
+      if(return_value_setrlimit_2 >= 0)
       {
         maxfd = (signed int)lim.rlim_cur;
         break;
@@ -7437,7 +7437,7 @@ static inline void spin_lock(volatile signed int *lock)
 
 // spin_lock_sigmask
 // file ../../../src/spinlock.h line 76
-static inline void spin_lock_sigmask(volatile signed int *lock, struct anonymous$15 *mask)
+static inline void spin_lock_sigmask(volatile signed int *lock, struct anonymous_15 *mask)
 {
   sigfillset(mask);
   pthread_sigmask(0, mask, mask);
@@ -7453,40 +7453,40 @@ static inline void spin_unlock(volatile signed int *lock)
 
 // spin_unlock_sigmask
 // file ../../../src/spinlock.h line 84
-static inline void spin_unlock_sigmask(volatile signed int *lock, struct anonymous$15 *mask)
+static inline void spin_unlock_sigmask(volatile signed int *lock, struct anonymous_15 *mask)
 {
   spin_unlock(lock);
-  pthread_sigmask(2, mask, (struct anonymous$15 *)(void *)0);
+  pthread_sigmask(2, mask, (struct anonymous_15 *)(void *)0);
 }
 
 // timer_ptr_gt
 // file ../../../src/iv_timer.c line 201
 static inline signed int timer_ptr_gt(struct iv_timer_ *a, struct iv_timer_ *b)
 {
-  signed int return_value_timespec_gt$1;
-  return_value_timespec_gt$1=timespec_gt(&a->expires, &b->expires);
-  return return_value_timespec_gt$1;
+  signed int return_value_timespec_gt_1;
+  return_value_timespec_gt_1=timespec_gt(&a->expires, &b->expires);
+  return return_value_timespec_gt_1;
 }
 
 // timespec_gt
 // file ../../../src/iv_timer.c line 130
 static inline signed int timespec_gt(struct timespec *a, struct timespec *b)
 {
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(b->tv_sec >= a->tv_sec))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(a->tv_sec == b->tv_sec)
-      tmp_if_expr$1 = a->tv_nsec > b->tv_nsec ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = a->tv_nsec > b->tv_nsec ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  return (signed int)!(!tmp_if_expr$2);
+  return (signed int)!(!tmp_if_expr_2);
 }
 
 // work
@@ -7494,9 +7494,9 @@ static inline signed int timespec_gt(struct timespec *a, struct timespec *b)
 static void work(void *cookie)
 {
   char *task = (char *)cookie;
-  unsigned long int return_value_iv_thread_get_id$1;
-  return_value_iv_thread_get_id$1=iv_thread_get_id();
-  printf("performing work item %s in thread %lu\n", task, return_value_iv_thread_get_id$1);
+  unsigned long int return_value_iv_thread_get_id_1;
+  return_value_iv_thread_get_id_1=iv_thread_get_id();
+  printf("performing work item %s in thread %lu\n", task, return_value_iv_thread_get_id_1);
   sleep((unsigned int)1);
 }
 

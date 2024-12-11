@@ -1,18 +1,18 @@
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -158,13 +158,13 @@ void poptSetOtherOptionHelp(struct poptContext_s *, const char *);
 const char * poptStrerror(const signed int);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_cond_init(union anonymous *, const union anonymous_0 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
 extern signed int pthread_cond_signal(union anonymous *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous *, union anonymous$1 *);
+extern signed int pthread_cond_wait(union anonymous *, union anonymous_1 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -173,13 +173,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // push_back
 // file dvconnect.c line 130
 void push_back(struct buf_list *l, struct buf_node *elem);
@@ -223,7 +223,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file dvconnect.c line 286
 void * write_out_thread(void *arg);
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -243,7 +243,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -254,7 +254,7 @@ union anonymous$0
 union anonymous
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -289,7 +289,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -540,7 +540,7 @@ static signed int max_buffer_blocks = 25 * 10;
 extern struct poptOption poptHelpOptions[];
 // queue_mutex
 // file dvconnect.c line 125
-static union anonymous$1 queue_mutex;
+static union anonymous_1 queue_mutex;
 // src_fp
 // file dvconnect.c line 469
 static struct _IO_FILE *src_fp;
@@ -570,13 +570,13 @@ static signed int video1394_version = 2;
 static union anonymous wakeup_cond;
 // wakeup_mutex
 // file dvconnect.c line 126
-static union anonymous$1 wakeup_mutex;
+static union anonymous_1 wakeup_mutex;
 // wakeup_rev_cond
 // file dvconnect.c line 475
 static union anonymous wakeup_rev_cond;
 // wakeup_rev_mutex
 // file dvconnect.c line 474
-static union anonymous$1 wakeup_rev_mutex;
+static union anonymous_1 wakeup_rev_mutex;
 
 // capture_raw
 // file dvconnect.c line 310
@@ -593,17 +593,17 @@ signed int capture_raw(const char *filename, signed int channel, signed int nbuf
   cap_start_frame = start_frame;
   cap_num_frames = end_frame - start_frame;
   cap_verbose_mode = verbose_mode;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(filename == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$1=strcmp(filename, (const void *)"-");
-    tmp_if_expr$2 = return_value_strcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_1=strcmp(filename, (const void *)"-");
+    tmp_if_expr_2 = return_value_strcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     dst_fp = stdout;
 
   else
@@ -617,11 +617,11 @@ signed int capture_raw(const char *filename, signed int channel, signed int nbuf
 
   }
   viddev=open("/dev/video1394", 02);
-  signed int return_value_ioctl$3;
-  signed int return_value_ioctl$4;
-  signed int tmp_post$6;
-  signed int tmp_post$9;
-  signed int tmp_post$10;
+  signed int return_value_ioctl_3;
+  signed int return_value_ioctl_4;
+  signed int tmp_post_6;
+  signed int tmp_post_9;
+  signed int tmp_post_10;
   if(!(viddev >= 0))
   {
     perror("open /dev/video1394");
@@ -641,8 +641,8 @@ signed int capture_raw(const char *filename, signed int channel, signed int nbuf
     {
       case 1:
       {
-        return_value_ioctl$3=ioctl(viddev, (unsigned long int)0, &v);
-        if(!(return_value_ioctl$3 >= 0))
+        return_value_ioctl_3=ioctl(viddev, (unsigned long int)0, &v);
+        if(!(return_value_ioctl_3 >= 0))
         {
           perror("VIDEO1394_LISTEN_CHANNEL");
           return -1;
@@ -659,8 +659,8 @@ signed int capture_raw(const char *filename, signed int channel, signed int nbuf
         v2.packet_size = v.packet_size;
         v2.syt_offset = (unsigned int)syt_offset;
         v2.flags = v.flags;
-        return_value_ioctl$4=ioctl(viddev, (unsigned long int)0, &v2);
-        if(!(return_value_ioctl$4 >= 0))
+        return_value_ioctl_4=ioctl(viddev, (unsigned long int)0, &v2);
+        if(!(return_value_ioctl_4 >= 0))
         {
           perror("VIDEO1394_LISTEN_CHANNEL");
           return -1;
@@ -668,9 +668,9 @@ signed int capture_raw(const char *filename, signed int channel, signed int nbuf
 
       }
     }
-    void *return_value_mmap$5;
-    return_value_mmap$5=mmap(NULL, (unsigned long int)(v.nb_buffers * v.buf_size), 0x1 | 0x2, 0x01, viddev, (signed long int)0);
-    recv_buf = (unsigned char *)return_value_mmap$5;
+    void *return_value_mmap_5;
+    return_value_mmap_5=mmap(NULL, (unsigned long int)(v.nb_buffers * v.buf_size), 0x1 | 0x2, 0x01, viddev, (signed long int)0);
+    recv_buf = (unsigned char *)return_value_mmap_5;
     if(recv_buf == (unsigned char *)-1)
     {
       perror("mmap videobuffer");
@@ -679,9 +679,9 @@ signed int capture_raw(const char *filename, signed int channel, signed int nbuf
 
     else
     {
-      pthread_mutex_init(&queue_mutex, (const union anonymous$0 *)(void *)0);
-      pthread_mutex_init(&wakeup_mutex, (const union anonymous$0 *)(void *)0);
-      pthread_cond_init(&wakeup_cond, (const union anonymous$0 *)(void *)0);
+      pthread_mutex_init(&queue_mutex, (const union anonymous_0 *)(void *)0);
+      pthread_mutex_init(&wakeup_mutex, (const union anonymous_0 *)(void *)0);
+      pthread_cond_init(&wakeup_cond, (const union anonymous_0 *)(void *)0);
       pthread_create(&file_io_thread, (const union pthread_attr_t *)(void *)0, write_out_thread, (void *)0);
       unused_buffers = (signed int)v.nb_buffers;
       w.buffer = (unsigned int)0;
@@ -692,17 +692,17 @@ signed int capture_raw(const char *filename, signed int channel, signed int nbuf
         signed int ofs;
         do
         {
-          tmp_post$6 = unused_buffers;
+          tmp_post_6 = unused_buffers;
           unused_buffers = unused_buffers - 1;
-          if(tmp_post$6 == 0)
+          if(tmp_post_6 == 0)
             break;
 
-          unsigned char *capture_raw$$1$$6$$1$$curr = recv_buf + (signed long int)(v.buf_size * w.buffer);
-          memset(capture_raw$$1$$6$$1$$curr, 0, v.buf_size);
+          unsigned char *capture_raw__1__6__1__curr = recv_buf + (signed long int)(v.buf_size * w.buffer);
+          memset(capture_raw__1__6__1__curr, 0, v.buf_size);
           wcopy = w;
-          signed int return_value_ioctl$7;
-          return_value_ioctl$7=ioctl(viddev, (unsigned long int)2, &wcopy);
-          if(!(return_value_ioctl$7 >= 0))
+          signed int return_value_ioctl_7;
+          return_value_ioctl_7=ioctl(viddev, (unsigned long int)2, &wcopy);
+          if(!(return_value_ioctl_7 >= 0))
             perror("VIDEO1394_LISTEN_QUEUE_BUFFER");
 
           w.buffer = w.buffer + 1u;
@@ -710,20 +710,20 @@ signed int capture_raw(const char *filename, signed int channel, signed int nbuf
         }
         while((_Bool)1);
         wcopy = w;
-        signed int return_value_ioctl$8;
-        return_value_ioctl$8=ioctl(viddev, (unsigned long int)3, &wcopy);
-        if(!(return_value_ioctl$8 >= 0))
+        signed int return_value_ioctl_8;
+        return_value_ioctl_8=ioctl(viddev, (unsigned long int)3, &wcopy);
+        if(!(return_value_ioctl_8 >= 0))
           perror("VIDEO1394_LISTEN_WAIT_BUFFER");
 
         curr = recv_buf + (signed long int)(v.buf_size * w.buffer);
         ofs = 0;
         while(!(ofs >= 320))
         {
-          for( ; !(ofs >= 320) && !(outbuf_used >= 4); outbuf[(signed long int)tmp_post$9] = curr[(signed long int)tmp_post$10])
+          for( ; !(ofs >= 320) && !(outbuf_used >= 4); outbuf[(signed long int)tmp_post_9] = curr[(signed long int)tmp_post_10])
           {
-            tmp_post$9 = outbuf_used;
+            tmp_post_9 = outbuf_used;
             outbuf_used = outbuf_used + 1;
-            tmp_post$10 = ofs;
+            tmp_post_10 = ofs;
             ofs = ofs + 1;
           }
           if(!(ofs == 320))
@@ -752,9 +752,9 @@ signed int capture_raw(const char *filename, signed int channel, signed int nbuf
         fprintf(stderr, "\nCaptured %d broken frames!\n", broken_frames);
 
       munmap((void *)recv_buf, (unsigned long int)(v.nb_buffers * v.buf_size));
-      signed int return_value_ioctl$11;
-      return_value_ioctl$11=ioctl(viddev, (unsigned long int)1, &v.channel);
-      if(!(return_value_ioctl$11 >= 0))
+      signed int return_value_ioctl_11;
+      return_value_ioctl_11=ioctl(viddev, (unsigned long int)1, &v.channel);
+      if(!(return_value_ioctl_11 >= 0))
         perror("VIDEO1394_UNLISTEN_CHANNEL");
 
       close(viddev);
@@ -779,9 +779,9 @@ void fill_buf_queue(signed int fire)
       break;
 
     signed int isPAL;
-    signed int return_value_read_frame$1;
-    return_value_read_frame$1=read_frame(src_fp, f->data, &isPAL);
-    if(!(return_value_read_frame$1 >= 0))
+    signed int return_value_read_frame_1;
+    return_value_read_frame_1=read_frame(src_fp, f->data, &isPAL);
+    if(!(return_value_read_frame_1 >= 0))
     {
       is_eof = 1;
       push_back(&free_list, f);
@@ -819,16 +819,16 @@ static signed int fill_buffer(unsigned char *targetbuf, unsigned int *packet_siz
   unsigned long int vdata = (unsigned long int)0;
   signed int i;
   f_node=pop_front(&buf_queue);
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned int *tmp_post$9;
-  unsigned int *tmp_post$10;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned int *tmp_post_9;
+  unsigned int *tmp_post_10;
   if(f_node == ((struct buf_node *)NULL))
   {
     if(is_eof == 0)
@@ -898,31 +898,31 @@ static signed int fill_buffer(unsigned char *targetbuf, unsigned int *packet_siz
         cip_counter = cip_counter - cip_d;
       }
 
-      tmp_post$1 = p;
+      tmp_post_1 = p;
       p = p + 1l;
-      *tmp_post$1 = (unsigned char)0x01;
-      tmp_post$2 = p;
+      *tmp_post_1 = (unsigned char)0x01;
+      tmp_post_2 = p;
       p = p + 1l;
-      *tmp_post$2 = (unsigned char)0x78;
-      tmp_post$3 = p;
+      *tmp_post_2 = (unsigned char)0x78;
+      tmp_post_3 = p;
       p = p + 1l;
-      *tmp_post$3 = (unsigned char)0x00;
-      tmp_post$4 = p;
+      *tmp_post_3 = (unsigned char)0x00;
+      tmp_post_4 = p;
       p = p + 1l;
       static unsigned char continuity_counter = (unsigned char)0;
-      *tmp_post$4 = continuity_counter;
-      tmp_post$5 = p;
+      *tmp_post_4 = continuity_counter;
+      tmp_post_5 = p;
       p = p + 1l;
-      *tmp_post$5 = (unsigned char)0x80;
-      tmp_post$6 = p;
+      *tmp_post_5 = (unsigned char)0x80;
+      tmp_post_6 = p;
       p = p + 1l;
-      *tmp_post$6 = (unsigned char)(isPAL != 0 ? 0x80 : 0x00);
-      tmp_post$7 = p;
+      *tmp_post_6 = (unsigned char)(isPAL != 0 ? 0x80 : 0x00);
+      tmp_post_7 = p;
       p = p + 1l;
-      *tmp_post$7 = (unsigned char)0xff;
-      tmp_post$8 = p;
+      *tmp_post_7 = (unsigned char)0xff;
+      tmp_post_8 = p;
       p = p + 1l;
-      *tmp_post$8 = (unsigned char)0xff;
+      *tmp_post_8 = (unsigned char)0xff;
       if(want_sync == 0)
       {
         continuity_counter = continuity_counter + 1;
@@ -931,14 +931,14 @@ static signed int fill_buffer(unsigned char *targetbuf, unsigned int *packet_siz
         vdata = vdata + (unsigned long int)480;
       }
 
-      tmp_post$9 = packet_sizes;
+      tmp_post_9 = packet_sizes;
       packet_sizes = packet_sizes + 1l;
-      *tmp_post$9 = (unsigned int)(p - targetbuf);
+      *tmp_post_9 = (unsigned int)(p - targetbuf);
       targetbuf = targetbuf + (signed long int)512;
     }
-    tmp_post$10 = packet_sizes;
+    tmp_post_10 = packet_sizes;
     packet_sizes = packet_sizes + 1l;
-    *tmp_post$10 = (unsigned int)0;
+    *tmp_post_10 = (unsigned int)0;
     push_back(&free_list, f_node);
     pthread_mutex_lock(&wakeup_mutex);
     pthread_cond_signal(&wakeup_cond);
@@ -958,9 +958,9 @@ struct buf_node * get_free_block()
     if(buf_queue.usage >= max_buffer_blocks)
       return (struct buf_node *)(void *)0;
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct buf_node) /*144016ul*/ );
-    f = (struct buf_node *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct buf_node) /*144016ul*/ );
+    f = (struct buf_node *)return_value_malloc_1;
   }
 
   return f;
@@ -1157,11 +1157,11 @@ signed int main(signed int argc, const char **argv)
   while((_Bool)1);
   if(!(rc >= -1))
   {
-    const char *return_value_poptBadOption$1;
-    return_value_poptBadOption$1=poptBadOption(optCon, 1U << 0);
-    const char *return_value_poptStrerror$2;
-    return_value_poptStrerror$2=poptStrerror(rc);
-    fprintf(stderr, "%s: %s\n", return_value_poptBadOption$1, return_value_poptStrerror$2);
+    const char *return_value_poptBadOption_1;
+    return_value_poptBadOption_1=poptBadOption(optCon, 1U << 0);
+    const char *return_value_poptStrerror_2;
+    return_value_poptStrerror_2=poptStrerror(rc);
+    fprintf(stderr, "%s: %s\n", return_value_poptBadOption_1, return_value_poptStrerror_2);
     return -1;
   }
 
@@ -1182,9 +1182,9 @@ signed int main(signed int argc, const char **argv)
     {
       filename=poptGetArg(optCon);
       setpriority(0, (unsigned int)0, -20);
-      signed int return_value_rt_raisepri$3;
-      return_value_rt_raisepri$3=rt_raisepri(1);
-      if(!(return_value_rt_raisepri$3 == 0))
+      signed int return_value_rt_raisepri_3;
+      return_value_rt_raisepri_3=rt_raisepri(1);
+      if(!(return_value_rt_raisepri_3 == 0))
         setpriority(0, (unsigned int)0, -20);
 
       if(!(send_mode == 0))
@@ -1243,9 +1243,9 @@ signed int read_frame(struct _IO_FILE *fp, unsigned char *frame, signed int *isP
 
   else
   {
-    unsigned long int return_value_fread$1;
-    return_value_fread$1=fread((void *)frame, (unsigned long int)1, (unsigned long int)120000, fp);
-    if(!(return_value_fread$1 == 120000ul))
+    unsigned long int return_value_fread_1;
+    return_value_fread_1=fread((void *)frame, (unsigned long int)1, (unsigned long int)120000, fp);
+    if(!(return_value_fread_1 == 120000ul))
       return -1;
 
     else
@@ -1253,9 +1253,9 @@ signed int read_frame(struct _IO_FILE *fp, unsigned char *frame, signed int *isP
       *isPAL = (signed int)frame[(signed long int)3] & 0x80;
       if(!(*isPAL == 0))
       {
-        unsigned long int return_value_fread$2;
-        return_value_fread$2=fread((void *)(frame + (signed long int)120000), (unsigned long int)1, (unsigned long int)(144000 - 120000), fp);
-        if(!(return_value_fread$2 == 24000ul))
+        unsigned long int return_value_fread_2;
+        return_value_fread_2=fread((void *)(frame + (signed long int)120000), (unsigned long int)1, (unsigned long int)(144000 - 120000), fp);
+        if(!(return_value_fread_2 == 24000ul))
           return -1;
 
       }
@@ -1288,9 +1288,9 @@ void * read_in_thread(void *arg)
 signed int rt_raisepri(signed int pri)
 {
   struct sched_param scp;
-  signed long int return_value_sysconf$3;
-  return_value_sysconf$3=sysconf(10);
-  if(return_value_sysconf$3 == -1l)
+  signed long int return_value_sysconf_3;
+  return_value_sysconf_3=sysconf(10);
+  if(return_value_sysconf_3 == -1l)
   {
     fprintf(stderr, "WARNING: RR-scheduler not available, disabling.\n");
     return -1;
@@ -1299,12 +1299,12 @@ signed int rt_raisepri(signed int pri)
   else
   {
     memset(&scp, 0, sizeof(struct sched_param) /*4ul*/ );
-    signed int return_value_sched_get_priority_max$1;
-    return_value_sched_get_priority_max$1=sched_get_priority_max(2);
-    scp.__sched_priority = return_value_sched_get_priority_max$1 - pri;
-    signed int return_value_sched_setscheduler$2;
-    return_value_sched_setscheduler$2=sched_setscheduler(0, 2, &scp);
-    if(!(return_value_sched_setscheduler$2 >= 0))
+    signed int return_value_sched_get_priority_max_1;
+    return_value_sched_get_priority_max_1=sched_get_priority_max(2);
+    scp.__sched_priority = return_value_sched_get_priority_max_1 - pri;
+    signed int return_value_sched_setscheduler_2;
+    return_value_sched_setscheduler_2=sched_setscheduler(0, 2, &scp);
+    if(!(return_value_sched_setscheduler_2 >= 0))
     {
       fprintf(stderr, "WARNING: Cannot set RR-scheduler\n");
       return -1;
@@ -1326,17 +1326,17 @@ signed int send_raw(const char *filename, signed int channel, signed int nbuffer
   signed int unused_buffers;
   signed int got_frame;
   unsigned int packet_sizes[321l];
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(filename == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$1=strcmp(filename, (const void *)"-");
-    tmp_if_expr$2 = return_value_strcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_1=strcmp(filename, (const void *)"-");
+    tmp_if_expr_2 = return_value_strcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     src_fp = stdin;
 
   else
@@ -1360,12 +1360,12 @@ signed int send_raw(const char *filename, signed int channel, signed int nbuffer
       return -1;
     }
 
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)144000);
-    underrun_data_frame = (unsigned char *)return_value_malloc$3;
-    signed int return_value_read_frame$4;
-    return_value_read_frame$4=read_frame(fp, underrun_data_frame, &underrun_frame_ispal);
-    if(!(return_value_read_frame$4 >= 0))
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)144000);
+    underrun_data_frame = (unsigned char *)return_value_malloc_3;
+    signed int return_value_read_frame_4;
+    return_value_read_frame_4=read_frame(fp, underrun_data_frame, &underrun_frame_ispal);
+    if(!(return_value_read_frame_4 >= 0))
     {
       fprintf(stderr, "Short read on reading underrun data frame...\n");
       fclose(src_fp);
@@ -1387,18 +1387,18 @@ signed int send_raw(const char *filename, signed int channel, signed int nbuffer
       if(!(verbose_mode == 0))
         fprintf(stderr, "Skipped frame %8d\r", start_frame - i);
 
-      signed int return_value_read_frame$5;
-      return_value_read_frame$5=read_frame(src_fp, frame, &isPAL);
-      if(!(return_value_read_frame$5 >= 0))
+      signed int return_value_read_frame_5;
+      return_value_read_frame_5=read_frame(src_fp, frame, &isPAL);
+      if(!(return_value_read_frame_5 >= 0))
         return -1;
 
     }
   }
 
   viddev=open("/dev/video1394", 02);
-  signed int return_value_ioctl$6;
-  signed int return_value_ioctl$7;
-  signed int tmp_post$9;
+  signed int return_value_ioctl_6;
+  signed int return_value_ioctl_7;
+  signed int tmp_post_9;
   if(!(viddev >= 0))
   {
     perror("open /dev/video1394");
@@ -1418,8 +1418,8 @@ signed int send_raw(const char *filename, signed int channel, signed int nbuffer
     {
       case 1:
       {
-        return_value_ioctl$6=ioctl(viddev, (unsigned long int)4, &v);
-        if(!(return_value_ioctl$6 >= 0))
+        return_value_ioctl_6=ioctl(viddev, (unsigned long int)4, &v);
+        if(!(return_value_ioctl_6 >= 0))
         {
           perror("VIDEO1394_TALK_CHANNEL");
           return -1;
@@ -1436,8 +1436,8 @@ signed int send_raw(const char *filename, signed int channel, signed int nbuffer
         v2.packet_size = v.packet_size;
         v2.syt_offset = (unsigned int)syt_offset;
         v2.flags = v.flags;
-        return_value_ioctl$7=ioctl(viddev, (unsigned long int)4, &v2);
-        if(!(return_value_ioctl$7 >= 0))
+        return_value_ioctl_7=ioctl(viddev, (unsigned long int)4, &v2);
+        if(!(return_value_ioctl_7 >= 0))
         {
           perror("VIDEO1394_TALK_CHANNEL");
           return -1;
@@ -1445,9 +1445,9 @@ signed int send_raw(const char *filename, signed int channel, signed int nbuffer
 
       }
     }
-    void *return_value_mmap$8;
-    return_value_mmap$8=mmap(NULL, (unsigned long int)(v.nb_buffers * v.buf_size), 0x1 | 0x2, 0x01, viddev, (signed long int)0);
-    send_buf = (unsigned char *)return_value_mmap$8;
+    void *return_value_mmap_8;
+    return_value_mmap_8=mmap(NULL, (unsigned long int)(v.nb_buffers * v.buf_size), 0x1 | 0x2, 0x01, viddev, (signed long int)0);
+    send_buf = (unsigned char *)return_value_mmap_8;
     if(send_buf == (unsigned char *)-1)
     {
       perror("mmap videobuffer");
@@ -1459,11 +1459,11 @@ signed int send_raw(const char *filename, signed int channel, signed int nbuffer
       if(!(verbose_mode == 0))
         fprintf(stderr, "Filling buffers...\r");
 
-      pthread_mutex_init(&queue_mutex, (const union anonymous$0 *)(void *)0);
-      pthread_mutex_init(&wakeup_mutex, (const union anonymous$0 *)(void *)0);
-      pthread_cond_init(&wakeup_cond, (const union anonymous$0 *)(void *)0);
-      pthread_mutex_init(&wakeup_rev_mutex, (const union anonymous$0 *)(void *)0);
-      pthread_cond_init(&wakeup_rev_cond, (const union anonymous$0 *)(void *)0);
+      pthread_mutex_init(&queue_mutex, (const union anonymous_0 *)(void *)0);
+      pthread_mutex_init(&wakeup_mutex, (const union anonymous_0 *)(void *)0);
+      pthread_cond_init(&wakeup_cond, (const union anonymous_0 *)(void *)0);
+      pthread_mutex_init(&wakeup_rev_mutex, (const union anonymous_0 *)(void *)0);
+      pthread_cond_init(&wakeup_rev_cond, (const union anonymous_0 *)(void *)0);
       pthread_create(&file_io_thread, (const union pthread_attr_t *)(void *)0, read_in_thread, (void *)0);
       pthread_mutex_lock(&wakeup_rev_mutex);
       pthread_cond_wait(&wakeup_rev_cond, &wakeup_rev_mutex);
@@ -1480,20 +1480,20 @@ signed int send_raw(const char *filename, signed int channel, signed int nbuffer
       {
         do
         {
-          tmp_post$9 = unused_buffers;
+          tmp_post_9 = unused_buffers;
           unused_buffers = unused_buffers - 1;
-          if(tmp_post$9 == 0)
+          if(tmp_post_9 == 0)
             break;
 
-          signed int return_value_fill_buffer$10;
-          return_value_fill_buffer$10=fill_buffer(send_buf + (signed long int)(w.buffer * v.buf_size), packet_sizes);
-          got_frame = return_value_fill_buffer$10 < 0 ? 0 : 1;
+          signed int return_value_fill_buffer_10;
+          return_value_fill_buffer_10=fill_buffer(send_buf + (signed long int)(w.buffer * v.buf_size), packet_sizes);
+          got_frame = return_value_fill_buffer_10 < 0 ? 0 : 1;
           if(got_frame == 0)
             break;
 
-          signed int return_value_ioctl$11;
-          return_value_ioctl$11=ioctl(viddev, (unsigned long int)6, &w);
-          if(!(return_value_ioctl$11 >= 0))
+          signed int return_value_ioctl_11;
+          return_value_ioctl_11=ioctl(viddev, (unsigned long int)6, &w);
+          if(!(return_value_ioctl_11 >= 0))
             perror("VIDEO1394_TALK_QUEUE_BUFFER");
 
           if(!(verbose_mode == 0))
@@ -1507,23 +1507,23 @@ signed int send_raw(const char *filename, signed int channel, signed int nbuffer
         if(got_frame == 0)
           break;
 
-        signed int return_value_ioctl$12;
-        return_value_ioctl$12=ioctl(viddev, (unsigned long int)7, &w);
-        if(!(return_value_ioctl$12 >= 0))
+        signed int return_value_ioctl_12;
+        return_value_ioctl_12=ioctl(viddev, (unsigned long int)7, &w);
+        if(!(return_value_ioctl_12 >= 0))
           perror("VIDEO1394_TALK_WAIT_BUFFER");
 
         unused_buffers = 1;
       }
       w.buffer = ((v.nb_buffers + w.buffer) - (unsigned int)1) % v.nb_buffers;
-      signed int return_value_ioctl$13;
-      return_value_ioctl$13=ioctl(viddev, (unsigned long int)7, &w);
-      if(!(return_value_ioctl$13 >= 0))
+      signed int return_value_ioctl_13;
+      return_value_ioctl_13=ioctl(viddev, (unsigned long int)7, &w);
+      if(!(return_value_ioctl_13 >= 0))
         perror("VIDEO1394_TALK_WAIT_BUFFER");
 
       munmap((void *)send_buf, (unsigned long int)(v.nb_buffers * v.buf_size));
-      signed int return_value_ioctl$14;
-      return_value_ioctl$14=ioctl(viddev, (unsigned long int)5, &v.channel);
-      if(!(return_value_ioctl$14 >= 0))
+      signed int return_value_ioctl_14;
+      return_value_ioctl_14=ioctl(viddev, (unsigned long int)5, &v.channel);
+      if(!(return_value_ioctl_14 >= 0))
         perror("VIDEO1394_UNTALK_CHANNEL");
 
       close(viddev);

@@ -1,110 +1,110 @@
-// #anon_enum$CAP_CLEAR=0$CAP_SET=1
+// #anon_enum_CAP_CLEAR=0_CAP_SET=1
 // file /usr/include/sys/capability.h line 63
-enum anonymous$1 { CAP_CLEAR=0, CAP_SET=1 };
+enum anonymous_1 { CAP_CLEAR=0, CAP_SET=1 };
 
-// #anon_enum$CAP_EFFECTIVE=0$CAP_PERMITTED=1$CAP_INHERITABLE=2
+// #anon_enum_CAP_EFFECTIVE=0_CAP_PERMITTED=1_CAP_INHERITABLE=2
 // file /usr/include/sys/capability.h line 54
-enum anonymous$0 { CAP_EFFECTIVE=0, CAP_PERMITTED=1, CAP_INHERITABLE=2 };
+enum anonymous_0 { CAP_EFFECTIVE=0, CAP_PERMITTED=1, CAP_INHERITABLE=2 };
 
-// #anon_enum$JU_ERRNO_NONE=0$JU_ERRNO_FULL=1$JU_ERRNO_NFMAX=1$JU_ERRNO_NOMEM=2$JU_ERRNO_NULLPPARRAY=3$JU_ERRNO_NONNULLPARRAY=10$JU_ERRNO_NULLPINDEX=4$JU_ERRNO_NULLPVALUE=11$JU_ERRNO_NOTJUDY1=5$JU_ERRNO_NOTJUDYL=6$JU_ERRNO_NOTJUDYSL=7$JU_ERRNO_UNSORTED=12$JU_ERRNO_OVERRUN=8$JU_ERRNO_CORRUPT=9
+// #anon_enum_JU_ERRNO_NONE=0_JU_ERRNO_FULL=1_JU_ERRNO_NFMAX=1_JU_ERRNO_NOMEM=2_JU_ERRNO_NULLPPARRAY=3_JU_ERRNO_NONNULLPARRAY=10_JU_ERRNO_NULLPINDEX=4_JU_ERRNO_NULLPVALUE=11_JU_ERRNO_NOTJUDY1=5_JU_ERRNO_NOTJUDYL=6_JU_ERRNO_NOTJUDYSL=7_JU_ERRNO_UNSORTED=12_JU_ERRNO_OVERRUN=8_JU_ERRNO_CORRUPT=9
 // file /usr/include/Judy.h line 110
-enum anonymous$3 { JU_ERRNO_NONE=0, JU_ERRNO_FULL=1, JU_ERRNO_NFMAX=1, JU_ERRNO_NOMEM=2, JU_ERRNO_NULLPPARRAY=3, JU_ERRNO_NONNULLPARRAY=10, JU_ERRNO_NULLPINDEX=4, JU_ERRNO_NULLPVALUE=11, JU_ERRNO_NOTJUDY1=5, JU_ERRNO_NOTJUDYL=6, JU_ERRNO_NOTJUDYSL=7, JU_ERRNO_UNSORTED=12, JU_ERRNO_OVERRUN=8, JU_ERRNO_CORRUPT=9 };
+enum anonymous_3 { JU_ERRNO_NONE=0, JU_ERRNO_FULL=1, JU_ERRNO_NFMAX=1, JU_ERRNO_NOMEM=2, JU_ERRNO_NULLPPARRAY=3, JU_ERRNO_NONNULLPARRAY=10, JU_ERRNO_NULLPINDEX=4, JU_ERRNO_NULLPVALUE=11, JU_ERRNO_NOTJUDY1=5, JU_ERRNO_NOTJUDYL=6, JU_ERRNO_NOTJUDYSL=7, JU_ERRNO_UNSORTED=12, JU_ERRNO_OVERRUN=8, JU_ERRNO_CORRUPT=9 };
 
-// tag-#anon#ST[*{V(SYM#tag-sigval#)->V}$V(SYM#tag-sigval#)->V$'_function'||*{SYM#tag-pthread_attr_t#}$SYM#tag-pthread_attr_t#$'_attribute'|]
+// tag-#anon#ST[*{V(SYM#tag-sigval#)->V}_V(SYM#tag-sigval#)->V_'_function'||*{SYM#tag-pthread_attr_t#}_SYM#tag-pthread_attr_t#_'_attribute'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 327
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
 struct anonymous;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'||S32'count'||U32'$pad0'||U64'last'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'||S32'count'||U32'_pad0'||U64'last'|]
 // file relay.c line 79
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[SYM#tag-teredo_state#'state'||*{V(*{SYM#tag-teredo_state#}$SYM#tag-teredo_state#$|*{V}$V$)->V}$V(*{SYM#tag-teredo_state#}$SYM#tag-teredo_state#$|*{V}$V$)->V$'cb'||*{V}$V$'opaque'|]
+// tag-#anon#ST[SYM#tag-teredo_state#'state'||*{V(*{SYM#tag-teredo_state#}_SYM#tag-teredo_state#_|*{V}_V_)->V}_V(*{SYM#tag-teredo_state#}_SYM#tag-teredo_state#_|*{V}_V_)->V_'cb'||*{V}_V_'opaque'|]
 // file maintain.c line 87
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[U32'prefix'||U32'server_ip'||U16'flags'||U16'client_port'||U32'client_ip'|]
 // file ../libteredo/teredo.h line 53
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[U64'thread'||B'running'||U56'$pad0'|]
+// tag-#anon#ST[U64'thread'||B'running'||U56'_pad0'|]
 // file relay.c line 87
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#UN[ARR12{S32}$S32$'_pad'||S32'_tid'||SYM#tag-#anon#ST[*{V(SYM#tag-sigval#)->V}$V(SYM#tag-sigval#)->V$'_function'||*{SYM#tag-pthread_attr_t#}$SYM#tag-pthread_attr_t#$'_attribute'|]#'_sigev_thread'|]
+// tag-#anon#UN[ARR12{S32}_S32_'_pad'||S32'_tid'||SYM#tag-#anon#ST[*{V(SYM#tag-sigval#)->V}_V(SYM#tag-sigval#)->V_'_function'||*{SYM#tag-pthread_attr_t#}_SYM#tag-pthread_attr_t#_'_attribute'|]#'_sigev_thread'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 319
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[ARR16{U8}$U8$'key'||ARR64{U8}$U8$'ipad'|]
+// tag-#anon#UN[ARR16{U8}_U8_'key'||ARR64{U8}_U8_'ipad'|]
 // file security.c line 57
-union anonymous$27;
+union anonymous_27;
 
-// tag-#anon#UN[ARR16{U8}$U8$'key'||ARR64{U8}$U8$'opad'|]
+// tag-#anon#UN[ARR16{U8}_U8_'key'||ARR64{U8}_U8_'opad'|]
 // file security.c line 63
-union anonymous$28;
+union anonymous_28;
 
-// tag-#anon#UN[ARR1{U32}$U32$'icmp6_un_data32'||ARR2{U16}$U16$'icmp6_un_data16'||ARR4{U8}$U8$'icmp6_un_data8'|]
+// tag-#anon#UN[ARR1{U32}_U32_'icmp6_un_data32'||ARR2{U16}_U16_'icmp6_un_data16'||ARR4{U8}_U8_'icmp6_un_data8'|]
 // file /usr/include/netinet/icmp6.h line 43
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[ARR1{U64}$U64$'align'||ARR65507{U8}$U8$'fill'||U524096'$pad'|]
+// tag-#anon#UN[ARR1{U64}_U64_'align'||ARR65507{U8}_U8_'fill'||U524096'_pad'|]
 // file teredo-udp.h line 71
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR8{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$29;
+union anonymous_29;
 
 // tag-#anon#UN[SYM#tag-ip6_hdrctl#'ip6_un1'||U8'ip6_un2_vfc'|]
 // file /usr/include/netinet/ip6.h line 26
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$13;
+union anonymous_13;
 
 // tag-J_UDY_ERROR_STRUCT
 // file /usr/include/Judy.h line 181
@@ -388,19 +388,19 @@ extern struct cmsghdr * __cmsg_nxthdr(struct msghdr *, struct cmsghdr *);
 extern signed int * __errno_location(void);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 682
-extern void __pthread_register_cancel(struct anonymous$22 *);
+extern void __pthread_register_cancel(struct anonymous_22 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 694
-extern void __pthread_unregister_cancel(struct anonymous$22 *);
+extern void __pthread_unregister_cancel(struct anonymous_22 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 735
-extern void __pthread_unwind_next(struct anonymous$22 *);
+extern void __pthread_unwind_next(struct anonymous_22 *);
 // __sigsetjmp
 // file /usr/include/pthread.h line 745
 extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$13, unsigned int);
+extern signed int bind(signed int, union anonymous_13, unsigned int);
 // bindtextdomain
 // file /usr/include/libintl.h line 86
 extern char * bindtextdomain(const char *, const char *);
@@ -412,7 +412,7 @@ extern signed int cap_free(void *);
 extern struct _cap_struct * cap_init(void);
 // cap_set_flag
 // file /usr/include/sys/capability.h line 79
-extern signed int cap_set_flag(struct _cap_struct *, enum anonymous$0, signed int, const signed int *, enum anonymous$1);
+extern signed int cap_set_flag(struct _cap_struct *, enum anonymous_0, signed int, const signed int *, enum anonymous_1);
 // cap_set_proc
 // file /usr/include/sys/capability.h line 93
 extern signed int cap_set_proc(struct _cap_struct *);
@@ -530,9 +530,9 @@ static signed int maintenance_recv(const struct teredo_packet * restrict packet,
 // maintenance_thread
 // file maintain.c line 242
 static inline void maintenance_thread(struct teredo_maintenance *m);
-// maintenance_thread::1::1::__cancel_routine$object
+// maintenance_thread::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -577,28 +577,28 @@ extern void openlog(const char *, signed int, signed int);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$14 *);
+extern signed int pthread_cond_destroy(union anonymous_14 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$14 *, const union anonymous$10 *);
+extern signed int pthread_cond_init(union anonymous_14 *, const union anonymous_10 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$14 *);
+extern signed int pthread_cond_signal(union anonymous_14 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$14 *, union anonymous$29 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_14 *, union anonymous_29 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$14 *, union anonymous$29 *);
+extern signed int pthread_cond_wait(union anonymous_14 *, union anonymous_29 *);
 // pthread_condattr_destroy
 // file /usr/include/pthread.h line 1014
-extern signed int pthread_condattr_destroy(union anonymous$10 *);
+extern signed int pthread_condattr_destroy(union anonymous_10 *);
 // pthread_condattr_init
 // file /usr/include/pthread.h line 1010
-extern signed int pthread_condattr_init(union anonymous$10 *);
+extern signed int pthread_condattr_init(union anonymous_10 *);
 // pthread_condattr_setclock
 // file /usr/include/pthread.h line 1035
-extern signed int pthread_condattr_setclock(union anonymous$10 *, signed int);
+extern signed int pthread_condattr_setclock(union anonymous_10 *, signed int);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -607,31 +607,31 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$29 *);
+extern signed int pthread_mutex_destroy(union anonymous_29 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$29 *, const union anonymous$10 *);
+extern signed int pthread_mutex_init(union anonymous_29 *, const union anonymous_10 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$29 *);
+extern signed int pthread_mutex_lock(union anonymous_29 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$29 *);
+extern signed int pthread_mutex_unlock(union anonymous_29 *);
 // pthread_rwlock_destroy
 // file /usr/include/pthread.h line 895
-extern signed int pthread_rwlock_destroy(union anonymous$4 *);
+extern signed int pthread_rwlock_destroy(union anonymous_4 *);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 890
-extern signed int pthread_rwlock_init(union anonymous$4 *, const union anonymous$24 *);
+extern signed int pthread_rwlock_init(union anonymous_4 *, const union anonymous_24 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$4 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_4 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$4 *);
+extern signed int pthread_rwlock_unlock(union anonymous_4 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$4 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_4 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -770,9 +770,9 @@ signed int teredo_maintenance_process(struct teredo_maintenance * restrict m, co
 // teredo_maintenance_start
 // file maintain.h line 78
 struct teredo_maintenance * teredo_maintenance_start(signed int fd, void (*cb)(struct teredo_state *, void *), void *opaque, const char *s1, const char *s2, unsigned int q_sec, unsigned int q_retries, unsigned int refresh_sec, unsigned int restart_sec);
-// teredo_maintenance_start::cb$object
+// teredo_maintenance_start::cb_object
 //
-void cb$object(struct teredo_state *, void *);
+void cb_object(struct teredo_state *, void *);
 // teredo_maintenance_stop
 // file maintain.h line 89
 void teredo_maintenance_stop(struct teredo_maintenance *m);
@@ -800,9 +800,9 @@ static void teredo_predecap(struct teredo_tunnel * restrict tunnel, struct tered
 // teredo_queue_emit
 // file peerlist.h line 58
 void teredo_queue_emit(struct teredo_queue *q, signed int fd, unsigned int ipv4, unsigned short int port, void (*cb)(void *, const void *, unsigned long int), void *opaque);
-// teredo_queue_emit::cb$object
+// teredo_queue_emit::cb_object
 //
-void cb$object(void *, const void *, unsigned long int);
+void cb_object(void *, const void *, unsigned long int);
 // teredo_recv
 // file teredo-udp.h line 129
 signed int teredo_recv(signed int fd, struct teredo_packet *p);
@@ -851,9 +851,9 @@ signed int teredo_set_cone_flag(struct teredo_tunnel *t, _Bool cone);
 // teredo_set_icmpv6_callback
 // file relay.c line 1126
 void teredo_set_icmpv6_callback(struct teredo_tunnel * restrict t, void (*cb)(void *, const void *, unsigned long int, struct in6_addr *));
-// teredo_set_icmpv6_callback::cb$object
+// teredo_set_icmpv6_callback::cb_object
 //
-void cb$object(void *, const void *, unsigned long int, struct in6_addr *);
+void cb_object(void *, const void *, unsigned long int, struct in6_addr *);
 // teredo_set_prefix
 // file relay.c line 999
 signed int teredo_set_prefix(struct teredo_tunnel *t, unsigned int prefix);
@@ -863,21 +863,21 @@ void * teredo_set_privdata(struct teredo_tunnel *t, void *opaque);
 // teredo_set_recv_callback
 // file relay.c line 1116
 void teredo_set_recv_callback(struct teredo_tunnel * restrict t, void (*cb)(void *, const void *, unsigned long int));
-// teredo_set_recv_callback::cb$object
+// teredo_set_recv_callback::cb_object
 //
-void cb$object(void *, const void *, unsigned long int);
+void cb_object(void *, const void *, unsigned long int);
 // teredo_set_relay_mode
 // file relay.c line 1045
 signed int teredo_set_relay_mode(struct teredo_tunnel *t);
 // teredo_set_state_cb
 // file relay.c line 1134
 void teredo_set_state_cb(struct teredo_tunnel * restrict t, void (*u)(void *, struct in6_addr *, unsigned short int), void (*d)(void *));
-// teredo_set_state_cb::d$object
+// teredo_set_state_cb::d_object
 //
-void d$object(void *);
-// teredo_set_state_cb::u$object
+void d_object(void *);
+// teredo_set_state_cb::u_object
 //
-void u$object(void *, struct in6_addr *, unsigned short int);
+void u_object(void *, struct in6_addr *, unsigned short int);
 // teredo_socket
 // file teredo-udp.h line 90
 signed int teredo_socket(unsigned int bind_ip, unsigned short int port);
@@ -921,7 +921,7 @@ static void wait_reply_ignore(struct teredo_maintenance * restrict m, struct tim
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 125
 extern signed int waitpid(signed int, signed int *, signed int);
 
-struct anonymous$8
+struct anonymous_8
 {
   // _function
   void (*_function)(union sigval);
@@ -935,7 +935,7 @@ struct anonymous
   unsigned long int __val[16l];
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -943,15 +943,15 @@ struct anonymous$21
   signed int __mask_was_saved;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // __cancel_jmp_buf
-  struct anonymous$21 __cancel_jmp_buf[1l];
+  struct anonymous_21 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // __lock
   signed int __lock;
@@ -971,7 +971,7 @@ struct anonymous$17
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // __lock
   signed int __lock;
@@ -1027,7 +1027,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$29
+union anonymous_29
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1037,17 +1037,17 @@ union anonymous$29
   signed long int __align;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // lock
-  union anonymous$29 lock;
+  union anonymous_29 lock;
   // count
   signed int count;
   // last
   unsigned long int last;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1060,10 +1060,10 @@ union anonymous$2
 struct in6_addr
 {
   // __in6_u
-  union anonymous$2 __in6_u;
+  union anonymous_2 __in6_u;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // prefix
   unsigned int prefix;
@@ -1082,7 +1082,7 @@ union teredo_addr
   // ip6
   struct in6_addr ip6;
   // teredo
-  struct anonymous$15 teredo;
+  struct anonymous_15 teredo;
   // t6_addr32
   unsigned int t6_addr32[4l];
 };
@@ -1099,7 +1099,7 @@ struct teredo_state
   _Bool up;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // state
   struct teredo_state state;
@@ -1109,7 +1109,7 @@ struct anonymous$11
   void *opaque;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // thread
   unsigned long int thread;
@@ -1117,17 +1117,17 @@ struct anonymous$6
   _Bool running;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // _pad
   signed int _pad[12l];
   // _tid
   signed int _tid;
   // _sigev_thread
-  struct anonymous$8 _sigev_thread;
+  struct anonymous_8 _sigev_thread;
 };
 
-union anonymous$27
+union anonymous_27
 {
   // key
   unsigned char key[16l];
@@ -1135,7 +1135,7 @@ union anonymous$27
   unsigned char ipad[64l];
 };
 
-union anonymous$28
+union anonymous_28
 {
   // key
   unsigned char key[16l];
@@ -1143,7 +1143,7 @@ union anonymous$28
   unsigned char opad[64l];
 };
 
-union anonymous$18
+union anonymous_18
 {
   // icmp6_un_data32
   unsigned int icmp6_un_data32[1l];
@@ -1153,7 +1153,7 @@ union anonymous$18
   unsigned char icmp6_un_data8[4l];
 };
 
-union anonymous$23
+union anonymous_23
 {
   // align
   unsigned long int align[1l];
@@ -1161,7 +1161,7 @@ union anonymous$23
   unsigned char fill[65507l];
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __size
   char __size[4l];
@@ -1169,7 +1169,7 @@ union anonymous$10
   signed int __align;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // __size
   char __size[8l];
@@ -1177,20 +1177,20 @@ union anonymous$24
   signed long int __align;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __data
-  struct anonymous$17 __data;
+  struct anonymous_17 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
-  struct anonymous$19 __data;
+  struct anonymous_19 __data;
   // __size
   char __size[56l];
   // __align
@@ -1209,7 +1209,7 @@ struct ip6_hdrctl
   unsigned char ip6_un1_hlim;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // ip6_un1
   struct ip6_hdrctl ip6_un1;
@@ -1217,7 +1217,7 @@ union anonymous$20
   unsigned char ip6_un2_vfc;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1247,7 +1247,7 @@ union anonymous$16
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1280,7 +1280,7 @@ union anonymous$13
 struct J_UDY_ERROR_STRUCT
 {
   // je_Errno
-  enum anonymous$3 je_Errno;
+  enum anonymous_3 je_Errno;
   // je_ErrID
   signed int je_ErrID;
   // je_reserved
@@ -1410,7 +1410,7 @@ struct icmp6_hdr
   // icmp6_cksum
   unsigned short int icmp6_cksum;
   // icmp6_dataun
-  union anonymous$18 icmp6_dataun;
+  union anonymous_18 icmp6_dataun;
 };
 
 struct in_addr
@@ -1440,7 +1440,7 @@ struct iovec
 struct ip6_hdr
 {
   // ip6_ctlun
-  union anonymous$20 ip6_ctlun;
+  union anonymous_20 ip6_ctlun;
   // ip6_src
   struct in6_addr ip6_src;
   // ip6_dst
@@ -1588,7 +1588,7 @@ struct sigevent
   // sigev_notify
   signed int sigev_notify;
   // _sigev_un
-  union anonymous$9 _sigev_un;
+  union anonymous_9 _sigev_un;
 };
 
 struct sockaddr
@@ -1666,19 +1666,19 @@ struct teredo_maintenance
   // thread
   unsigned long int thread;
   // outer
-  union anonymous$29 outer;
+  union anonymous_29 outer;
   // inner
-  union anonymous$29 inner;
+  union anonymous_29 inner;
   // received
-  union anonymous$14 received;
+  union anonymous_14 received;
   // processed
-  union anonymous$14 processed;
+  union anonymous_14 processed;
   // incoming
   const struct teredo_packet *incoming;
   // fd
   signed int fd;
   // state
-  struct anonymous$11 state;
+  struct anonymous_11 state;
   // server
   char *server;
   // qualification_delay
@@ -1714,7 +1714,7 @@ struct teredo_packet
   // auth_nonce
   unsigned char auth_nonce[8l];
   // buf
-  union anonymous$23 buf;
+  union anonymous_23 buf;
 };
 
 struct teredo_peerlist
@@ -1730,7 +1730,7 @@ struct teredo_peerlist
   // gc
   unsigned long int gc;
   // lock
-  union anonymous$29 lock;
+  union anonymous_29 lock;
   // PJHSArray
   void *PJHSArray;
 };
@@ -1770,11 +1770,11 @@ struct teredo_tunnel
   // state
   struct teredo_state state;
   // state_lock
-  union anonymous$4 state_lock;
+  union anonymous_4 state_lock;
   // ratelimit
-  struct anonymous$5 ratelimit;
+  struct anonymous_5 ratelimit;
   // recv
-  struct anonymous$6 recv;
+  struct anonymous_6 recv;
   // fd
   signed int fd;
 };
@@ -1803,10 +1803,10 @@ static struct in6_addr in6addr_allrouters = { .__in6_u={ .__u6_addr8={ (unsigned
 extern struct in6_addr in6addr_any;
 // inner_key
 // file security.c line 61
-static union anonymous$27 inner_key;
+static union anonymous_27 inner_key;
 // outer_key
 // file security.c line 67
-static union anonymous$28 outer_key;
+static union anonymous_28 outer_key;
 // randfile
 // file security.c line 46
 static const char randfile[12l] = { '/', 'd', 'e', 'v', '/', 'r', 'a', 'n', 'd', 'o', 'm', 0 };
@@ -1831,11 +1831,11 @@ struct in6_addr teredo_restrict = { .__in6_u={ .__u6_addr8={ (unsigned char)0xfe
 signed int BuildICMPv6Error(struct icmp6_hdr * restrict out, unsigned char type, unsigned char code, struct ip6_hdr * restrict in, unsigned long int inlen)
 {
   struct in6_addr *p;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_statement_expression$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_statement_expression_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(!(inlen >= sizeof(struct ip6_hdr) /*40ul*/ ))
     return 0;
 
@@ -1860,30 +1860,30 @@ signed int BuildICMPv6Error(struct icmp6_hdr * restrict out, unsigned char type,
       {
         p = &in->ip6_src;
         if((signed int)*((const unsigned char *)p) == 0xff)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
           struct in6_addr *__a = (struct in6_addr *)p;
           if(__a->__in6_u.__u6_addr32[0l] == 0u)
-            tmp_if_expr$2 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
-            tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
+            tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          tmp_statement_expression$1 = tmp_if_expr$4;
-          tmp_if_expr$5 = tmp_statement_expression$1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (_Bool)0;
+          tmp_statement_expression_1 = tmp_if_expr_4;
+          tmp_if_expr_5 = tmp_statement_expression_1 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
           return 0;
 
         else
@@ -1912,9 +1912,9 @@ signed int CheckBubble(const struct teredo_packet *packet)
   unsigned char hash[8l];
   teredo_get_nonce((unsigned int)0, (&((union teredo_addr *)it)->teredo)->client_ip ^ 0xffffffff, (unsigned short int)((signed int)(&((union teredo_addr *)it)->teredo)->client_port ^ 0xffff), hash);
   hash[(signed long int)0] = hash[(signed long int)0] & (unsigned char)0xfc;
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)hash, (const void *)(me->__in6_u.__u6_addr8 + (signed long int)8), (unsigned long int)8);
-  return return_value_memcmp$1 != 0 ? -1 : 0;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)hash, (const void *)(me->__in6_u.__u6_addr8 + (signed long int)8), (unsigned long int)8);
+  return return_value_memcmp_1 != 0 ? -1 : 0;
 }
 
 // CheckPing
@@ -1923,19 +1923,19 @@ signed int CheckPing(const struct teredo_packet *packet)
 {
   struct ip6_hdr *ip6 = packet->ip6;
   unsigned long int length;
-  unsigned short int return_value_ntohs$1;
-  return_value_ntohs$1=ntohs(ip6->ip6_ctlun.ip6_un1.ip6_un1_plen);
-  length = (unsigned long int)return_value_ntohs$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_statement_expression$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_statement_expression$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
+  unsigned short int return_value_ntohs_1;
+  return_value_ntohs_1=ntohs(ip6->ip6_ctlun.ip6_un1.ip6_un1_plen);
+  length = (unsigned long int)return_value_ntohs_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_statement_expression_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_statement_expression_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
   if(!((signed int)ip6->ip6_ctlun.ip6_un1.ip6_un1_nxt == 58) || !(length >= sizeof(struct icmp6_hdr) * 3 + 2 /*26ul*/ ))
     return -1;
 
@@ -1949,16 +1949,16 @@ signed int CheckPing(const struct teredo_packet *packet)
       length = length - sizeof(struct icmp6_hdr) /*8ul*/ ;
       ip6 = (struct ip6_hdr *)(icmp6 + (signed long int)1);
       if(!(length >= 66ul))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)ip6->ip6_ctlun.ip6_un1.ip6_un1_nxt != 58 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)ip6->ip6_ctlun.ip6_un1.ip6_un1_nxt != 58 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         return -1;
 
-      unsigned short int return_value_ntohs$3;
-      return_value_ntohs$3=ntohs(ip6->ip6_ctlun.ip6_un1.ip6_un1_plen);
-      length = (unsigned long int)return_value_ntohs$3;
+      unsigned short int return_value_ntohs_3;
+      return_value_ntohs_3=ntohs(ip6->ip6_ctlun.ip6_un1.ip6_un1_plen);
+      length = (unsigned long int)return_value_ntohs_3;
       if(!(length == sizeof(struct icmp6_hdr) * 3 + 2 /*26ul*/ ))
         return -1;
 
@@ -1966,48 +1966,48 @@ signed int CheckPing(const struct teredo_packet *packet)
       struct in6_addr *__a = (struct in6_addr *)&ip6->ip6_src;
       struct in6_addr *__b = (struct in6_addr *)me;
       if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-        tmp_if_expr$5 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      tmp_statement_expression$4 = tmp_if_expr$7;
-      if(!tmp_statement_expression$4)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)0;
+      tmp_statement_expression_4 = tmp_if_expr_7;
+      if(!tmp_statement_expression_4)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = (signed int)icmp6->icmp6_type != 128 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (signed int)icmp6->icmp6_type != 128 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
         return -1;
 
-      struct in6_addr *CheckPing$$1$$1$$2$$__a = (struct in6_addr *)&ip6->ip6_dst;
-      struct in6_addr *CheckPing$$1$$1$$2$$__b = (struct in6_addr *)it;
-      if(CheckPing$$1$$1$$2$$__a->__in6_u.__u6_addr32[0l] == CheckPing$$1$$1$$2$$__b->__in6_u.__u6_addr32[0l])
-        tmp_if_expr$10 = CheckPing$$1$$1$$2$$__a->__in6_u.__u6_addr32[(signed long int)1] == CheckPing$$1$$1$$2$$__b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      struct in6_addr *CheckPing__1__1__2____a = (struct in6_addr *)&ip6->ip6_dst;
+      struct in6_addr *CheckPing__1__1__2____b = (struct in6_addr *)it;
+      if(CheckPing__1__1__2____a->__in6_u.__u6_addr32[0l] == CheckPing__1__1__2____b->__in6_u.__u6_addr32[0l])
+        tmp_if_expr_10 = CheckPing__1__1__2____a->__in6_u.__u6_addr32[(signed long int)1] == CheckPing__1__1__2____b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$10 = (_Bool)0;
-      if(tmp_if_expr$10)
-        tmp_if_expr$11 = CheckPing$$1$$1$$2$$__a->__in6_u.__u6_addr32[(signed long int)2] == CheckPing$$1$$1$$2$$__b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_10 = (_Bool)0;
+      if(tmp_if_expr_10)
+        tmp_if_expr_11 = CheckPing__1__1__2____a->__in6_u.__u6_addr32[(signed long int)2] == CheckPing__1__1__2____b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$11 = (_Bool)0;
-      if(tmp_if_expr$11)
-        tmp_if_expr$12 = CheckPing$$1$$1$$2$$__a->__in6_u.__u6_addr32[(signed long int)3] == CheckPing$$1$$1$$2$$__b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = (_Bool)0;
+      if(tmp_if_expr_11)
+        tmp_if_expr_12 = CheckPing__1__1__2____a->__in6_u.__u6_addr32[(signed long int)3] == CheckPing__1__1__2____b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$12 = (_Bool)0;
-      tmp_statement_expression$9 = tmp_if_expr$12;
-      if(!tmp_statement_expression$9)
+        tmp_if_expr_12 = (_Bool)0;
+      tmp_statement_expression_9 = tmp_if_expr_12;
+      if(!tmp_statement_expression_9)
         return -1;
 
       me = &ip6->ip6_src;
@@ -2023,11 +2023,11 @@ signed int CheckPing(const struct teredo_packet *packet)
 
     else
     {
-      signed long int return_value_time$13;
-      return_value_time$13=time((signed long int *)(void *)0);
-      signed int return_value_teredo_verify_pinghash$14;
-      return_value_teredo_verify_pinghash$14=teredo_verify_pinghash((unsigned int)return_value_time$13, me, it, (const unsigned char *)&icmp6->icmp6_dataun.icmp6_un_data16[(signed long int)0]);
-      return return_value_teredo_verify_pinghash$14;
+      signed long int return_value_time_13;
+      return_value_time_13=time((signed long int *)(void *)0);
+      signed int return_value_teredo_verify_pinghash_14;
+      return_value_teredo_verify_pinghash_14=teredo_verify_pinghash((unsigned int)return_value_time_13, me, it, (const unsigned char *)&icmp6->icmp6_dataun.icmp6_un_data16[(signed long int)0]);
+      return return_value_teredo_verify_pinghash_14;
     }
   }
 }
@@ -2101,13 +2101,13 @@ static signed int CountPing(struct teredo_peer *peer, unsigned long int now)
 // file packets.h line 48
 static inline _Bool IsBubble(struct ip6_hdr *hdr)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)hdr->ip6_ctlun.ip6_un1.ip6_un1_plen == 0)
-    tmp_if_expr$1 = (signed int)hdr->ip6_ctlun.ip6_un1.ip6_un1_nxt == 59 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)hdr->ip6_ctlun.ip6_un1.ip6_un1_nxt == 59 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return tmp_if_expr_1;
 }
 
 // IsClient
@@ -2140,17 +2140,17 @@ signed int SendBubbleFromDst(signed int fd, struct in6_addr *dst, _Bool indirect
     port=htons((unsigned short int)3544);
   }
 
-  signed int return_value_teredo_send_bubble$1;
-  return_value_teredo_send_bubble$1=teredo_send_bubble(fd, ip, port, &src, dst);
-  return return_value_teredo_send_bubble$1;
+  signed int return_value_teredo_send_bubble_1;
+  return_value_teredo_send_bubble_1=teredo_send_bubble(fd, ip, port, &src, dst);
+  return return_value_teredo_send_bubble_1;
 }
 
 // SendPing
 // file packets.h line 127
 signed int SendPing(signed int fd, union teredo_addr *src, struct in6_addr *dst)
 {
-  /* tag-#anon#lST[lSYM#tag-ip6_hdr#'ip6'||lSYM#tag-icmp6_hdr#'icmp6'||lARR18{U8}$U8$'payload'||U16'$pad0'|] */
-struct anonymous$31
+  /* tag-#anon#lST[lSYM#tag-ip6_hdr#'ip6'||lSYM#tag-icmp6_hdr#'icmp6'||lARR18{U8}_U8_'payload'||U16'_pad0'|] */
+struct anonymous_31
 {
   // ip6
   struct ip6_hdr ip6;
@@ -2162,7 +2162,7 @@ struct anonymous$31
 
 /* */
   ;
-  struct anonymous$31 ping;
+  struct anonymous_31 ping;
   ping.ip6.ip6_ctlun.ip6_un1.ip6_un1_flow=htonl((unsigned int)0x60000000);
   ping.ip6.ip6_ctlun.ip6_un1.ip6_un1_plen=htons((unsigned short int)(sizeof(struct icmp6_hdr) /*8ul*/  + (unsigned long int)(22 - 4)));
   ping.ip6.ip6_ctlun.ip6_un1.ip6_un1_nxt = (unsigned char)58;
@@ -2172,15 +2172,15 @@ struct anonymous$31
   ping.icmp6.icmp6_type = (unsigned char)128;
   ping.icmp6.icmp6_code = (unsigned char)0;
   ping.icmp6.icmp6_cksum = (unsigned short int)0;
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  teredo_get_pinghash((unsigned int)return_value_time$1, &ping.ip6.ip6_src, &ping.ip6.ip6_dst, (unsigned char *)&ping.icmp6.icmp6_dataun.icmp6_un_data16[(signed long int)0]);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  teredo_get_pinghash((unsigned int)return_value_time_1, &ping.ip6.ip6_src, &ping.ip6.ip6_dst, (unsigned char *)&ping.icmp6.icmp6_dataun.icmp6_un_data16[(signed long int)0]);
   ping.icmp6.icmp6_cksum=icmp6_checksum(&ping.ip6, &ping.icmp6);
-  unsigned short int return_value_htons$2;
-  return_value_htons$2=htons((unsigned short int)3544);
-  signed int return_value_teredo_send$3;
-  return_value_teredo_send$3=teredo_send(fd, (const void *)&ping, sizeof(struct ip6_hdr) /*40ul*/  + sizeof(struct icmp6_hdr) /*8ul*/  + (unsigned long int)(22 - 4), (&((union teredo_addr *)src)->teredo)->server_ip, return_value_htons$2);
-  return return_value_teredo_send$3 > 0 ? 0 : -1;
+  unsigned short int return_value_htons_2;
+  return_value_htons_2=htons((unsigned short int)3544);
+  signed int return_value_teredo_send_3;
+  return_value_teredo_send_3=teredo_send(fd, (const void *)&ping, sizeof(struct ip6_hdr) /*40ul*/  + sizeof(struct icmp6_hdr) /*8ul*/  + (unsigned long int)(22 - 4), (&((union teredo_addr *)src)->teredo)->server_ip, return_value_htons_2);
+  return return_value_teredo_send_3 > 0 ? 0 : -1;
 }
 
 // SetMapping
@@ -2218,25 +2218,25 @@ static _Bool checkTimeDrift(struct timespec *ts)
 {
   struct timespec now;
   gettime(&now);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(!(ts->tv_sec >= now.tv_sec))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if(now.tv_sec == ts->tv_sec)
-      tmp_if_expr$2 = now.tv_nsec > ts->tv_nsec ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = now.tv_nsec > ts->tv_nsec ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
-    char *return_value_dgettext$1;
-    return_value_dgettext$1=dgettext("miredo", "Too much time drift. Resynchronizing.");
-    syslog(4, return_value_dgettext$1);
+    char *return_value_dgettext_1;
+    return_value_dgettext_1=dgettext("miredo", "Too much time drift. Resynchronizing.");
+    syslog(4, return_value_dgettext_1);
     *ts = now;
     return (_Bool)0;
   }
@@ -2248,7 +2248,7 @@ static _Bool checkTimeDrift(struct timespec *ts)
 // file maintain.c line 218
 static void cleanup_unlock(void *o)
 {
-  pthread_mutex_unlock((union anonymous$29 *)o);
+  pthread_mutex_unlock((union anonymous_29 *)o);
 }
 
 // clock_tick
@@ -2278,18 +2278,18 @@ signed int closefrom(signed int fd)
   struct rlimit lim;
   unsigned int found = (unsigned int)0;
   signed int saved_errno;
-  signed int return_value_getrlimit$1;
-  return_value_getrlimit$1=getrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &lim);
-  signed int tmp_post$3;
-  signed int return_value_close$4;
-  if(!(return_value_getrlimit$1 == 0))
+  signed int return_value_getrlimit_1;
+  return_value_getrlimit_1=getrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &lim);
+  signed int tmp_post_3;
+  signed int return_value_close_4;
+  if(!(return_value_getrlimit_1 == 0))
     return -1;
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    saved_errno = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    saved_errno = *return_value___errno_location_2;
     if(lim.rlim_max >= 1025ul)
     {
       if(lim.rlim_cur >= 1025ul)
@@ -2301,24 +2301,24 @@ signed int closefrom(signed int fd)
 
     while(!((unsigned long int)(unsigned int)fd >= lim.rlim_max))
     {
-      tmp_post$3 = fd;
+      tmp_post_3 = fd;
       fd = fd + 1;
-      return_value_close$4=close(tmp_post$3);
-      if(return_value_close$4 == 0)
+      return_value_close_4=close(tmp_post_3);
+      if(return_value_close_4 == 0)
         found = found + 1u;
 
     }
     if(found == 0u)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = 9;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = 9;
       return -1;
     }
 
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    *return_value___errno_location$6 = saved_errno;
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    *return_value___errno_location_6 = saved_errno;
     return 0;
   }
 }
@@ -2335,14 +2335,14 @@ static void * do_maintenance(void *opaque)
 static void * garbage_collector(void *data)
 {
   struct teredo_peerlist *l = (struct teredo_peerlist *)data;
-  signed int return_value_clock_nanosleep$1;
+  signed int return_value_clock_nanosleep_1;
   do
   {
     struct timespec delay = { .tv_sec=(signed long int)l->expiration, .tv_nsec=0l };
     do
     {
-      return_value_clock_nanosleep$1=clock_nanosleep(0, 0, &delay, &delay);
-      if(return_value_clock_nanosleep$1 == 0)
+      return_value_clock_nanosleep_1=clock_nanosleep(0, 0, &delay, &delay);
+      if(return_value_clock_nanosleep_1 == 0)
         break;
 
     }
@@ -2404,9 +2404,9 @@ static signed int getipv4byname(const char * restrict name, unsigned int * restr
 // file maintain.c line 60
 static inline void gettime(struct timespec *now)
 {
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$1=clock_gettime(1, now);
-  if(!(return_value_clock_gettime$1 == 0))
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_1=clock_gettime(1, now);
+  if(!(return_value_clock_gettime_1 == 0))
     clock_gettime(0, now);
 
 }
@@ -2416,25 +2416,25 @@ static inline void gettime(struct timespec *now)
 static inline unsigned short int icmp6_checksum(struct ip6_hdr *ip6, struct icmp6_hdr *icmp6)
 {
   struct iovec iov;
-  unsigned short int return_value_ntohs$1;
-  return_value_ntohs$1=ntohs(ip6->ip6_ctlun.ip6_un1.ip6_un1_plen);
-  iov = (struct iovec){ .iov_base=(void *)icmp6, .iov_len=(unsigned long int)return_value_ntohs$1 };
-  unsigned short int return_value_teredo_cksum$2;
-  return_value_teredo_cksum$2=teredo_cksum((const void *)&ip6->ip6_src, (const void *)&ip6->ip6_dst, (unsigned char)58, &iov, (unsigned long int)1);
-  return return_value_teredo_cksum$2;
+  unsigned short int return_value_ntohs_1;
+  return_value_ntohs_1=ntohs(ip6->ip6_ctlun.ip6_un1.ip6_un1_plen);
+  iov = (struct iovec){ .iov_base=(void *)icmp6, .iov_len=(unsigned long int)return_value_ntohs_1 };
+  unsigned short int return_value_teredo_cksum_2;
+  return_value_teredo_cksum_2=teredo_cksum((const void *)&ip6->ip6_src, (const void *)&ip6->ip6_dst, (unsigned char)58, &iov, (unsigned long int)1);
+  return return_value_teredo_cksum_2;
 }
 
 // in6_matches_teredo_client
 // file teredo.h line 95
 static inline signed int in6_matches_teredo_client(struct in6_addr *ip6, unsigned int ip, unsigned short int port)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((0xffffffff ^ ((union teredo_addr *)ip6)->teredo.client_ip ^ ip) == 0u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ((signed int)port ^ (signed int)(&((union teredo_addr *)ip6)->teredo)->client_port ^ 0xffff) != 0 ? (_Bool)1 : (_Bool)0;
-  return (signed int)!tmp_if_expr$1;
+    tmp_if_expr_1 = ((signed int)port ^ (signed int)(&((union teredo_addr *)ip6)->teredo)->client_port ^ 0xffff) != 0 ? (_Bool)1 : (_Bool)0;
+  return (signed int)!tmp_if_expr_1;
 }
 
 // in_cksum
@@ -2442,8 +2442,8 @@ static inline signed int in6_matches_teredo_client(struct in6_addr *ip6, unsigne
 static unsigned short int in_cksum(struct iovec *iov, unsigned long int n)
 {
   unsigned int sum = (unsigned int)0;
-  /* tag-#anon#lUN[U16'word'||lARR2{U8}$U8$'bytes'|] */
-union anonymous$25
+  /* tag-#anon#lUN[U16'word'||lARR2{U8}_U8_'bytes'|] */
+union anonymous_25
 {
   // word
   unsigned short int word;
@@ -2453,10 +2453,10 @@ union anonymous$25
 
 /* */
   ;
-  union anonymous$25 w;
+  union anonymous_25 w;
   _Bool odd = (_Bool)0;
-  const unsigned char *tmp_post$1;
-  const unsigned char *tmp_post$2;
+  const unsigned char *tmp_post_1;
+  const unsigned char *tmp_post_2;
   while(n >= 1ul)
   {
     const unsigned char *ptr = (const unsigned char *)iov->iov_base;
@@ -2465,9 +2465,9 @@ union anonymous$25
     {
       if(!(odd == (_Bool)0))
       {
-        tmp_post$1 = ptr;
+        tmp_post_1 = ptr;
         ptr = ptr + 1l;
-        w.bytes[(signed long int)1] = *tmp_post$1;
+        w.bytes[(signed long int)1] = *tmp_post_1;
         sum = sum + (unsigned int)w.word;
         if(sum >= 65536u)
           sum = sum - (unsigned int)0xffff;
@@ -2476,9 +2476,9 @@ union anonymous$25
 
       else
       {
-        tmp_post$2 = ptr;
+        tmp_post_2 = ptr;
         ptr = ptr + 1l;
-        w.bytes[(signed long int)0] = *tmp_post$2;
+        w.bytes[(signed long int)0] = *tmp_post_2;
       }
       odd = !(odd != (_Bool)0);
     }
@@ -2501,94 +2501,94 @@ union anonymous$25
 // file v4global.h line 34
 signed int is_ipv4_global_unicast(unsigned int ip)
 {
-  unsigned int return_value_htonl$7;
-  return_value_htonl$7=htonl(0x80000000);
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_htonl$3;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_htonl$5;
-  if((return_value_htonl$7 & ip) == 0u)
+  unsigned int return_value_htonl_7;
+  return_value_htonl_7=htonl(0x80000000);
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_htonl_3;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_htonl_5;
+  if((return_value_htonl_7 & ip) == 0u)
   {
-    unsigned int return_value_htonl$1;
-    return_value_htonl$1=htonl(0xff000000);
-    ip = ip & return_value_htonl$1;
-    unsigned int return_value_htonl$2;
-    return_value_htonl$2=htonl((unsigned int)0x0a000000);
-    if(!(ip == return_value_htonl$2))
+    unsigned int return_value_htonl_1;
+    return_value_htonl_1=htonl(0xff000000);
+    ip = ip & return_value_htonl_1;
+    unsigned int return_value_htonl_2;
+    return_value_htonl_2=htonl((unsigned int)0x0a000000);
+    if(!(ip == return_value_htonl_2))
     {
-      return_value_htonl$3=htonl((unsigned int)0x7f000000);
-      tmp_if_expr$4 = ip != return_value_htonl$3 ? (_Bool)1 : (_Bool)0;
+      return_value_htonl_3=htonl((unsigned int)0x7f000000);
+      tmp_if_expr_4 = ip != return_value_htonl_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      return_value_htonl$5=htonl((unsigned int)0x00000000);
-      tmp_if_expr$6 = ip != return_value_htonl$5 ? (_Bool)1 : (_Bool)0;
+      return_value_htonl_5=htonl((unsigned int)0x00000000);
+      tmp_if_expr_6 = ip != return_value_htonl_5 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    return (signed int)tmp_if_expr$6;
+      tmp_if_expr_6 = (_Bool)0;
+    return (signed int)tmp_if_expr_6;
   }
 
-  unsigned int return_value_htonl$13;
-  return_value_htonl$13=htonl((unsigned int)0x40000000);
-  _Bool tmp_if_expr$12;
-  unsigned int return_value_htonl$10;
-  unsigned int return_value_htonl$11;
-  if((return_value_htonl$13 & ip) == 0u)
+  unsigned int return_value_htonl_13;
+  return_value_htonl_13=htonl((unsigned int)0x40000000);
+  _Bool tmp_if_expr_12;
+  unsigned int return_value_htonl_10;
+  unsigned int return_value_htonl_11;
+  if((return_value_htonl_13 & ip) == 0u)
   {
-    unsigned int return_value_htonl$8;
-    return_value_htonl$8=htonl(0xffff0000);
-    unsigned int return_value_htonl$9;
-    return_value_htonl$9=htonl(0xa9fe0000);
-    if(!((return_value_htonl$8 & ip) == return_value_htonl$9))
+    unsigned int return_value_htonl_8;
+    return_value_htonl_8=htonl(0xffff0000);
+    unsigned int return_value_htonl_9;
+    return_value_htonl_9=htonl(0xa9fe0000);
+    if(!((return_value_htonl_8 & ip) == return_value_htonl_9))
     {
-      return_value_htonl$10=htonl(0xfff00000);
-      return_value_htonl$11=htonl(0xac100000);
-      tmp_if_expr$12 = (ip & return_value_htonl$10) != return_value_htonl$11 ? (_Bool)1 : (_Bool)0;
+      return_value_htonl_10=htonl(0xfff00000);
+      return_value_htonl_11=htonl(0xac100000);
+      tmp_if_expr_12 = (ip & return_value_htonl_10) != return_value_htonl_11 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    return (signed int)tmp_if_expr$12;
+      tmp_if_expr_12 = (_Bool)0;
+    return (signed int)tmp_if_expr_12;
   }
 
-  unsigned int return_value_htonl$19;
-  return_value_htonl$19=htonl((unsigned int)0x20000000);
-  _Bool tmp_if_expr$18;
-  unsigned int return_value_htonl$16;
-  unsigned int return_value_htonl$17;
-  if((return_value_htonl$19 & ip) == 0u)
+  unsigned int return_value_htonl_19;
+  return_value_htonl_19=htonl((unsigned int)0x20000000);
+  _Bool tmp_if_expr_18;
+  unsigned int return_value_htonl_16;
+  unsigned int return_value_htonl_17;
+  if((return_value_htonl_19 & ip) == 0u)
   {
-    unsigned int return_value_htonl$14;
-    return_value_htonl$14=htonl(0xffff0000);
-    unsigned int return_value_htonl$15;
-    return_value_htonl$15=htonl(0xc0a80000);
-    if(!((return_value_htonl$14 & ip) == return_value_htonl$15))
+    unsigned int return_value_htonl_14;
+    return_value_htonl_14=htonl(0xffff0000);
+    unsigned int return_value_htonl_15;
+    return_value_htonl_15=htonl(0xc0a80000);
+    if(!((return_value_htonl_14 & ip) == return_value_htonl_15))
     {
-      return_value_htonl$16=htonl(0xffffff00);
-      return_value_htonl$17=htonl(0xc0586200);
-      tmp_if_expr$18 = (ip & return_value_htonl$16) != return_value_htonl$17 ? (_Bool)1 : (_Bool)0;
+      return_value_htonl_16=htonl(0xffffff00);
+      return_value_htonl_17=htonl(0xc0586200);
+      tmp_if_expr_18 = (ip & return_value_htonl_16) != return_value_htonl_17 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$18 = (_Bool)0;
-    return (signed int)tmp_if_expr$18;
+      tmp_if_expr_18 = (_Bool)0;
+    return (signed int)tmp_if_expr_18;
   }
 
-  unsigned int return_value_htonl$20;
-  return_value_htonl$20=htonl((unsigned int)0x10000000);
-  if((return_value_htonl$20 & ip) == 0u)
+  unsigned int return_value_htonl_20;
+  return_value_htonl_20=htonl((unsigned int)0x10000000);
+  if((return_value_htonl_20 & ip) == 0u)
     return 0;
 
   else
   {
-    unsigned int return_value_htonl$21;
-    return_value_htonl$21=htonl(0xffffffff);
-    return (signed int)(ip != return_value_htonl$21);
+    unsigned int return_value_htonl_21;
+    return_value_htonl_21=htonl(0xffffffff);
+    return (signed int)(ip != return_value_htonl_21);
   }
 }
 
@@ -2597,9 +2597,9 @@ signed int is_ipv4_global_unicast(unsigned int ip)
 static inline struct teredo_listitem * listitem_create(void)
 {
   struct teredo_listitem *entry;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct teredo_listitem) /*72ul*/ );
-  entry = (struct teredo_listitem *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct teredo_listitem) /*72ul*/ );
+  entry = (struct teredo_listitem *)return_value_malloc_1;
   if(!(entry == ((struct teredo_listitem *)NULL)))
     teredo_peer_init(&entry->peer);
 
@@ -2635,16 +2635,16 @@ signed int main(signed int argc, char **argv)
     exit(1);
 
   unsigned int ifindex;
-  unsigned long int return_value_strtoul$1;
-  return_value_strtoul$1=strtoul(argv[(signed long int)1], (char ** restrict )(void *)0, 0x10);
-  ifindex = (unsigned int)return_value_strtoul$1;
+  unsigned long int return_value_strtoul_1;
+  return_value_strtoul_1=strtoul(argv[(signed long int)1], (char ** restrict )(void *)0, 0x10);
+  ifindex = (unsigned int)return_value_strtoul_1;
   if(ifindex == 0u)
     exit(1);
 
   char intbuf[21l];
-  signed int return_value_snprintf$2;
-  return_value_snprintf$2=snprintf(intbuf, sizeof(char [21l]) /*21ul*/ , "%u", ifindex);
-  if((unsigned long int)return_value_snprintf$2 >= sizeof(char [21l]) /*21ul*/ )
+  signed int return_value_snprintf_2;
+  return_value_snprintf_2=snprintf(intbuf, sizeof(char [21l]) /*21ul*/ , "%u", ifindex);
+  if((unsigned long int)return_value_snprintf_2 >= sizeof(char [21l]) /*21ul*/ )
     exit(1);
 
   struct _cap_struct *s;
@@ -2653,29 +2653,29 @@ signed int main(signed int argc, char **argv)
   if(s == ((struct _cap_struct *)NULL))
     exit(1);
 
-  signed int return_value_cap_set_flag$3;
-  return_value_cap_set_flag$3=cap_set_flag(s, (enum anonymous$0)CAP_PERMITTED, 1, &v, (enum anonymous$1)CAP_SET);
-  _Bool tmp_if_expr$5;
-  signed int return_value_cap_set_flag$4;
-  if(!(return_value_cap_set_flag$3 == 0))
-    tmp_if_expr$5 = (_Bool)1;
+  signed int return_value_cap_set_flag_3;
+  return_value_cap_set_flag_3=cap_set_flag(s, (enum anonymous_0)CAP_PERMITTED, 1, &v, (enum anonymous_1)CAP_SET);
+  _Bool tmp_if_expr_5;
+  signed int return_value_cap_set_flag_4;
+  if(!(return_value_cap_set_flag_3 == 0))
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_cap_set_flag$4=cap_set_flag(s, (enum anonymous$0)CAP_EFFECTIVE, 1, &v, (enum anonymous$1)CAP_SET);
-    tmp_if_expr$5 = return_value_cap_set_flag$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_cap_set_flag_4=cap_set_flag(s, (enum anonymous_0)CAP_EFFECTIVE, 1, &v, (enum anonymous_1)CAP_SET);
+    tmp_if_expr_5 = return_value_cap_set_flag_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_cap_set_proc$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_cap_set_proc_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_cap_set_proc$6=cap_set_proc(s);
-    tmp_if_expr$7 = return_value_cap_set_proc$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_cap_set_proc_6=cap_set_proc(s);
+    tmp_if_expr_7 = return_value_cap_set_proc_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
   {
     cap_free((void *)s);
     exit(1);
@@ -2691,9 +2691,9 @@ signed int main(signed int argc, char **argv)
   {
     struct miredo_tunnel_settings cfg;
     signed int res = -1;
-    signed long int return_value_recv$8;
-    return_value_recv$8=recv(0, (void *)&cfg, sizeof(struct miredo_tunnel_settings) /*20ul*/ , 256);
-    if(!((unsigned long int)return_value_recv$8 == sizeof(struct miredo_tunnel_settings) /*20ul*/ ))
+    signed long int return_value_recv_8;
+    return_value_recv_8=recv(0, (void *)&cfg, sizeof(struct miredo_tunnel_settings) /*20ul*/ , 256);
+    if(!((unsigned long int)return_value_recv_8 == sizeof(struct miredo_tunnel_settings) /*20ul*/ ))
       break;
 
     if((signed int)cfg.addr.__in6_u.__u6_addr8[0l] == 0xff || !((signed int)cfg.mtu >= 1280))
@@ -2701,16 +2701,16 @@ signed int main(signed int argc, char **argv)
 
     char addr[46l];
     char lladdr[46l];
-    signed int return_value_memcmp$10;
-    return_value_memcmp$10=memcmp((const void *)&cfg.addr, (const void *)&in6addr_any, sizeof(struct in6_addr) /*16ul*/ );
-    if(!(return_value_memcmp$10 == 0))
+    signed int return_value_memcmp_10;
+    return_value_memcmp_10=memcmp((const void *)&cfg.addr, (const void *)&in6addr_any, sizeof(struct in6_addr) /*16ul*/ );
+    if(!(return_value_memcmp_10 == 0))
     {
       setenv("STATE", "up", 1);
       inet_ntop(10, (const void *)&cfg.addr, addr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
       setenv("ADDRESS", addr, 1);
-      unsigned short int return_value_htons$9;
-      return_value_htons$9=htons((unsigned short int)0x8000);
-      inet_ntop(10, (const void *)(((signed int)(&((union teredo_addr *)&cfg.addr)->teredo)->flags & (signed int)return_value_htons$9) != 0 ? &teredo_cone : &teredo_restrict), lladdr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+      unsigned short int return_value_htons_9;
+      return_value_htons_9=htons((unsigned short int)0x8000);
+      inet_ntop(10, (const void *)(((signed int)(&((union teredo_addr *)&cfg.addr)->teredo)->flags & (signed int)return_value_htons_9) != 0 ? &teredo_cone : &teredo_restrict), lladdr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
       setenv("LLADDRESS", lladdr, 1);
       snprintf(intbuf, sizeof(char [21l]) /*21ul*/ , "%u", cfg.mtu);
       setenv("MTU", intbuf, 1);
@@ -2724,9 +2724,9 @@ signed int main(signed int argc, char **argv)
       unsetenv("MTU");
     }
     char iface[16l];
-    char *return_value_if_indextoname$11;
-    return_value_if_indextoname$11=if_indextoname(ifindex, iface);
-    if(!(return_value_if_indextoname$11 == ((char *)NULL)))
+    char *return_value_if_indextoname_11;
+    return_value_if_indextoname_11=if_indextoname(ifindex, iface);
+    if(!(return_value_if_indextoname_11 == ((char *)NULL)))
     {
       setenv("IFACE", iface, 1);
       res=run_script();
@@ -2735,14 +2735,14 @@ signed int main(signed int argc, char **argv)
 
   error:
     ;
-    signed long int return_value_send$12;
-    return_value_send$12=send(1, (const void *)&res, sizeof(signed int) /*4ul*/ , 16384);
-    if(!((unsigned long int)return_value_send$12 == sizeof(signed int) /*4ul*/ ))
+    signed long int return_value_send_12;
+    return_value_send_12=send(1, (const void *)&res, sizeof(signed int) /*4ul*/ , 16384);
+    if(!((unsigned long int)return_value_send_12 == sizeof(signed int) /*4ul*/ ))
       break;
 
-    signed int return_value_memcmp$13;
-    return_value_memcmp$13=memcmp((const void *)&cfg.addr, (const void *)&in6addr_any, sizeof(struct in6_addr) /*16ul*/ );
-    if(!(return_value_memcmp$13 == 0))
+    signed int return_value_memcmp_13;
+    return_value_memcmp_13=memcmp((const void *)&cfg.addr, (const void *)&in6addr_any, sizeof(struct in6_addr) /*16ul*/ );
+    if(!(return_value_memcmp_13 == 0))
     {
       setenv("OLD_STATE", "up", 1);
       setenv("OLD_ADDRESS", addr, 1);
@@ -2759,16 +2759,16 @@ signed int main(signed int argc, char **argv)
     }
   }
   while((_Bool)1);
-  char main$$1$$iface[16l];
-  char *return_value_if_indextoname$14;
-  return_value_if_indextoname$14=if_indextoname(ifindex, main$$1$$iface);
-  if(!(return_value_if_indextoname$14 == ((char *)NULL)))
+  char main__1__iface[16l];
+  char *return_value_if_indextoname_14;
+  return_value_if_indextoname_14=if_indextoname(ifindex, main__1__iface);
+  if(!(return_value_if_indextoname_14 == ((char *)NULL)))
   {
     setenv("STATE", "down", 1);
     unsetenv("ADDRESS");
     unsetenv("LLADDRESS");
     unsetenv("MTU");
-    setenv("IFACE", main$$1$$iface, 1);
+    setenv("IFACE", main__1__iface, 1);
     run_script();
     setenv("STATE", "destroy", 1);
     run_script();
@@ -2781,30 +2781,30 @@ signed int main(signed int argc, char **argv)
 // file maintain.c line 132
 static signed int maintenance_recv(const struct teredo_packet * restrict packet, unsigned int server_ip, const unsigned char * restrict nonce, _Bool cone, struct teredo_state * restrict state)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)packet->auth_nonce, (const void *)nonce, (unsigned long int)8);
-  _Bool tmp_if_expr$4;
-  if(!(return_value_memcmp$1 == 0))
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)packet->auth_nonce, (const void *)nonce, (unsigned long int)8);
+  _Bool tmp_if_expr_4;
+  if(!(return_value_memcmp_1 == 0))
     return 1;
 
   else
   {
     if(!(packet->auth_fail == (_Bool)0))
     {
-      char *return_value_dgettext$2;
-      return_value_dgettext$2=dgettext("miredo", "Authentication with server failed.");
-      syslog(3, return_value_dgettext$2);
+      char *return_value_dgettext_2;
+      return_value_dgettext_2=dgettext("miredo", "Authentication with server failed.");
+      syslog(3, return_value_dgettext_2);
       return 13;
     }
 
-    signed int return_value_teredo_parse_ra$3;
-    return_value_teredo_parse_ra$3=teredo_parse_ra(packet, &state->addr, cone, &state->mtu);
-    if(!(return_value_teredo_parse_ra$3 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_teredo_parse_ra_3;
+    return_value_teredo_parse_ra_3=teredo_parse_ra(packet, &state->addr, cone, &state->mtu);
+    if(!(return_value_teredo_parse_ra_3 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = state->addr.teredo.server_ip != server_ip ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = state->addr.teredo.server_ip != server_ip ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       return 22;
 
     else
@@ -2823,14 +2823,14 @@ static inline void maintenance_thread(struct teredo_maintenance *m)
   struct teredo_state *c_state = &m->state.state;
   unsigned int server_ip = (unsigned int)0;
   unsigned int count = (unsigned int)0;
-  /* #anon_enum$TERR_NONE=0$TERR_BLACKHOLE=1 */
-enum anonymous$12 { TERR_NONE=0, TERR_BLACKHOLE=1 };
+  /* #anon_enum_TERR_NONE=0_TERR_BLACKHOLE=1 */
+enum anonymous_12 { TERR_NONE=0, TERR_BLACKHOLE=1 };
 
 /* */
   ;
-  enum anonymous$12 last_error = (enum anonymous$12)TERR_NONE;
+  enum anonymous_12 last_error = (enum anonymous_12)TERR_NONE;
   pthread_mutex_lock(&m->inner);
-  struct anonymous$22 __cancel_buf;
+  struct anonymous_22 __cancel_buf;
   void (*__cancel_routine)(void *) = cleanup_unlock;
   void *__cancel_arg = (void *)&m->inner;
   signed int __not_first_call;
@@ -2845,18 +2845,18 @@ enum anonymous$12 { TERR_NONE=0, TERR_BLACKHOLE=1 };
 
 __CPROVER_DUMP_L3:
   ;
-  signed int return_value_is_ipv4_global_unicast$4;
-  _Bool return_value_checkTimeDrift$5;
-  _Bool tmp_statement_expression$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_statement_expression$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$20;
+  signed int return_value_is_ipv4_global_unicast_4;
+  _Bool return_value_checkTimeDrift_5;
+  _Bool tmp_statement_expression_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_statement_expression_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_20;
   while((_Bool)1)
   {
     if(server_ip == 0u)
@@ -2866,21 +2866,21 @@ __CPROVER_DUMP_L3:
       gettime(&deadline);
       if(!(val == 0))
       {
-        char *return_value_dgettext$1;
-        return_value_dgettext$1=dgettext("miredo", "Cannot resolve Teredo server address \"%s\": %s");
-        const char *return_value_gai_strerror$2;
-        return_value_gai_strerror$2=gai_strerror(val);
-        syslog(3, return_value_dgettext$1, m->server, return_value_gai_strerror$2);
+        char *return_value_dgettext_1;
+        return_value_dgettext_1=dgettext("miredo", "Cannot resolve Teredo server address \"%s\": %s");
+        const char *return_value_gai_strerror_2;
+        return_value_gai_strerror_2=gai_strerror(val);
+        syslog(3, return_value_dgettext_1, m->server, return_value_gai_strerror_2);
       }
 
       else
       {
-        return_value_is_ipv4_global_unicast$4=is_ipv4_global_unicast(server_ip);
-        if(return_value_is_ipv4_global_unicast$4 == 0)
+        return_value_is_ipv4_global_unicast_4=is_ipv4_global_unicast(server_ip);
+        if(return_value_is_ipv4_global_unicast_4 == 0)
         {
-          char *return_value_dgettext$3;
-          return_value_dgettext$3=dgettext("miredo", "Teredo server has a non global IPv4 address.");
-          syslog(3, return_value_dgettext$3);
+          char *return_value_dgettext_3;
+          return_value_dgettext_3=dgettext("miredo", "Teredo server has a non global IPv4 address.");
+          syslog(3, return_value_dgettext_3);
         }
 
         else
@@ -2898,32 +2898,32 @@ __CPROVER_DUMP_L3:
     do
     {
       deadline.tv_sec = deadline.tv_sec + (signed long int)m->qualification_delay;
-      return_value_checkTimeDrift$5=checkTimeDrift(&deadline);
+      return_value_checkTimeDrift_5=checkTimeDrift(&deadline);
     }
-    while(return_value_checkTimeDrift$5 == (_Bool)0);
+    while(return_value_checkTimeDrift_5 == (_Bool)0);
     unsigned char nonce[8l];
-    unsigned short int return_value_htons$6;
-    return_value_htons$6=htons((unsigned short int)3544);
-    teredo_get_nonce((unsigned int)deadline.tv_sec, server_ip, return_value_htons$6, nonce);
+    unsigned short int return_value_htons_6;
+    return_value_htons_6=htons((unsigned short int)3544);
+    teredo_get_nonce((unsigned int)deadline.tv_sec, server_ip, return_value_htons_6, nonce);
     teredo_send_rs(m->fd, server_ip, nonce, (_Bool)0);
-    signed int maintenance_thread$$1$$1$$2$$1$$1$$val = 0;
+    signed int maintenance_thread__1__1__2__1__1__val = 0;
     struct teredo_state newst;
     newst.mtu = (unsigned short int)1280;
     newst.up = (_Bool)1;
     do
     {
-      maintenance_thread$$1$$1$$2$$1$$1$$val=wait_reply(m, &deadline);
-      if(maintenance_thread$$1$$1$$2$$1$$1$$val == 0)
+      maintenance_thread__1__1__2__1__1__val=wait_reply(m, &deadline);
+      if(maintenance_thread__1__1__2__1__1__val == 0)
       {
-        maintenance_thread$$1$$1$$2$$1$$1$$val=maintenance_recv(m->incoming, server_ip, nonce, (_Bool)0, &newst);
+        maintenance_thread__1__1__2__1__1__val=maintenance_recv(m->incoming, server_ip, nonce, (_Bool)0, &newst);
         m->incoming = (const struct teredo_packet *)(void *)0;
         pthread_cond_signal(&m->processed);
       }
 
     }
-    while(!(maintenance_thread$$1$$1$$2$$1$$1$$val == 0) && !(maintenance_thread$$1$$1$$2$$1$$1$$val == 110));
+    while(!(maintenance_thread__1__1__2__1__1__val == 0) && !(maintenance_thread__1__1__2__1__1__val == 110));
     unsigned int delay = (unsigned int)0;
-    if(!(maintenance_thread$$1$$1$$2$$1$$1$$val == 0))
+    if(!(maintenance_thread__1__1__2__1__1__val == 0))
     {
       count = count + 1u;
       if(count >= m->qualification_retries)
@@ -2931,17 +2931,17 @@ __CPROVER_DUMP_L3:
         count = (unsigned int)0;
         if(!((signed int)last_error == TERR_BLACKHOLE))
         {
-          char *return_value_dgettext$7;
-          return_value_dgettext$7=dgettext("miredo", "No reply from Teredo server");
-          syslog(6, return_value_dgettext$7);
-          last_error = (enum anonymous$12)TERR_BLACKHOLE;
+          char *return_value_dgettext_7;
+          return_value_dgettext_7=dgettext("miredo", "No reply from Teredo server");
+          syslog(6, return_value_dgettext_7);
+          last_error = (enum anonymous_12)TERR_BLACKHOLE;
         }
 
         if(!(c_state->up == (_Bool)0))
         {
-          char *return_value_dgettext$8;
-          return_value_dgettext$8=dgettext("miredo", "Lost Teredo connectivity");
-          syslog(5, return_value_dgettext$8);
+          char *return_value_dgettext_8;
+          return_value_dgettext_8=dgettext("miredo", "Lost Teredo connectivity");
+          syslog(5, return_value_dgettext_8);
           c_state->up = (_Bool)0;
           m->state.cb(c_state, m->state.opaque);
           server_ip = (unsigned int)0;
@@ -2959,70 +2959,70 @@ __CPROVER_DUMP_L3:
       struct in6_addr *__a = (struct in6_addr *)&c_state->addr.ip6;
       struct in6_addr *__b = (struct in6_addr *)&newst.addr.ip6;
       if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-        tmp_if_expr$11 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$11 = (_Bool)0;
-      if(tmp_if_expr$11)
-        tmp_if_expr$12 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = (_Bool)0;
+      if(tmp_if_expr_11)
+        tmp_if_expr_12 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$12 = (_Bool)0;
-      if(tmp_if_expr$12)
-        tmp_if_expr$13 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_12 = (_Bool)0;
+      if(tmp_if_expr_12)
+        tmp_if_expr_13 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$13 = (_Bool)0;
-      tmp_statement_expression$10 = tmp_if_expr$13;
-      if(!tmp_statement_expression$10)
+        tmp_if_expr_13 = (_Bool)0;
+      tmp_statement_expression_10 = tmp_if_expr_13;
+      if(!tmp_statement_expression_10)
       {
         unsigned short int f;
         f=teredo_get_flbits((unsigned int)deadline.tv_sec);
-        unsigned short int return_value_htons$9;
-        return_value_htons$9=htons((unsigned short int)0x3cff);
-        newst.addr.teredo.flags = (unsigned short int)((signed int)f & (signed int)return_value_htons$9);
+        unsigned short int return_value_htons_9;
+        return_value_htons_9=htons((unsigned short int)0x3cff);
+        newst.addr.teredo.flags = (unsigned short int)((signed int)f & (signed int)return_value_htons_9);
       }
 
       if(c_state->up == (_Bool)0)
-        tmp_if_expr$19 = (_Bool)1;
+        tmp_if_expr_19 = (_Bool)1;
 
       else
       {
-        struct in6_addr *maintenance_thread$$1$$1$$2$$1$$1$$4$$3$$__a = (struct in6_addr *)&c_state->addr.ip6;
-        struct in6_addr *maintenance_thread$$1$$1$$2$$1$$1$$4$$3$$__b = (struct in6_addr *)&newst.addr.ip6;
-        if(maintenance_thread$$1$$1$$2$$1$$1$$4$$3$$__a->__in6_u.__u6_addr32[0l] == maintenance_thread$$1$$1$$2$$1$$1$$4$$3$$__b->__in6_u.__u6_addr32[0l])
-          tmp_if_expr$16 = maintenance_thread$$1$$1$$2$$1$$1$$4$$3$$__a->__in6_u.__u6_addr32[(signed long int)1] == maintenance_thread$$1$$1$$2$$1$$1$$4$$3$$__b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+        struct in6_addr *maintenance_thread__1__1__2__1__1__4__3____a = (struct in6_addr *)&c_state->addr.ip6;
+        struct in6_addr *maintenance_thread__1__1__2__1__1__4__3____b = (struct in6_addr *)&newst.addr.ip6;
+        if(maintenance_thread__1__1__2__1__1__4__3____a->__in6_u.__u6_addr32[0l] == maintenance_thread__1__1__2__1__1__4__3____b->__in6_u.__u6_addr32[0l])
+          tmp_if_expr_16 = maintenance_thread__1__1__2__1__1__4__3____a->__in6_u.__u6_addr32[(signed long int)1] == maintenance_thread__1__1__2__1__1__4__3____b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$16 = (_Bool)0;
-        if(tmp_if_expr$16)
-          tmp_if_expr$17 = maintenance_thread$$1$$1$$2$$1$$1$$4$$3$$__a->__in6_u.__u6_addr32[(signed long int)2] == maintenance_thread$$1$$1$$2$$1$$1$$4$$3$$__b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_16 = (_Bool)0;
+        if(tmp_if_expr_16)
+          tmp_if_expr_17 = maintenance_thread__1__1__2__1__1__4__3____a->__in6_u.__u6_addr32[(signed long int)2] == maintenance_thread__1__1__2__1__1__4__3____b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$17 = (_Bool)0;
-        if(tmp_if_expr$17)
-          tmp_if_expr$18 = maintenance_thread$$1$$1$$2$$1$$1$$4$$3$$__a->__in6_u.__u6_addr32[(signed long int)3] == maintenance_thread$$1$$1$$2$$1$$1$$4$$3$$__b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_17 = (_Bool)0;
+        if(tmp_if_expr_17)
+          tmp_if_expr_18 = maintenance_thread__1__1__2__1__1__4__3____a->__in6_u.__u6_addr32[(signed long int)3] == maintenance_thread__1__1__2__1__1__4__3____b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        tmp_statement_expression$15 = tmp_if_expr$18;
-        tmp_if_expr$19 = !tmp_statement_expression$15 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_18 = (_Bool)0;
+        tmp_statement_expression_15 = tmp_if_expr_18;
+        tmp_if_expr_19 = !tmp_statement_expression_15 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$19)
-        tmp_if_expr$20 = (_Bool)1;
+      if(tmp_if_expr_19)
+        tmp_if_expr_20 = (_Bool)1;
 
       else
-        tmp_if_expr$20 = c_state->mtu != newst.mtu ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$20)
+        tmp_if_expr_20 = c_state->mtu != newst.mtu ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_20)
       {
         memcpy((void *)c_state, (const void *)&newst, sizeof(struct teredo_state) /*24ul*/ );
-        char *return_value_dgettext$14;
-        return_value_dgettext$14=dgettext("miredo", "New Teredo address/MTU");
-        syslog(5, return_value_dgettext$14);
+        char *return_value_dgettext_14;
+        return_value_dgettext_14=dgettext("miredo", "New Teredo address/MTU");
+        syslog(5, return_value_dgettext_14);
         m->state.cb(c_state, m->state.opaque);
       }
 
-      last_error = (enum anonymous$12)TERR_NONE;
+      last_error = (enum anonymous_12)TERR_NONE;
       delay = m->refresh_delay;
     }
     if(!(delay == 0u))
@@ -3266,7 +3266,7 @@ static signed int run_script(void)
 {
   signed int pid;
   pid=fork();
-  signed int return_value_dup2$1;
+  signed int return_value_dup2_1;
   if(!(pid == -1))
   {
     if(pid == 0)
@@ -3283,12 +3283,12 @@ static signed int run_script(void)
     struct anonymous emptyset;
     sigemptyset(&emptyset);
     pthread_sigmask(2, &emptyset, (struct anonymous *)(void *)0);
-    signed int return_value_dup2$2;
-    return_value_dup2$2=dup2(2, 0);
-    if(return_value_dup2$2 == 0)
+    signed int return_value_dup2_2;
+    return_value_dup2_2=dup2(2, 0);
+    if(return_value_dup2_2 == 0)
     {
-      return_value_dup2$1=dup2(2, 1);
-      if(return_value_dup2$1 == 1)
+      return_value_dup2_1=dup2(2, 1);
+      if(return_value_dup2_1 == 1)
         execl(script_path, script_path, (char *)(void *)0);
 
     }
@@ -3297,17 +3297,17 @@ static signed int run_script(void)
     exit(1);
   }
   signed int res;
-  signed int return_value_waitpid$3;
+  signed int return_value_waitpid_3;
   do
   {
-    return_value_waitpid$3=waitpid(pid, &res, 0);
-    if(!(return_value_waitpid$3 == -1))
+    return_value_waitpid_3=waitpid(pid, &res, 0);
+    if(!(return_value_waitpid_3 == -1))
       break;
 
   }
   while((_Bool)1);
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$30
+union anonymous_30
 {
   // __in
   signed int __in;
@@ -3318,7 +3318,7 @@ union anonymous$30
 /* */
   ;
   if((0x7f & res) == 0)
-    return (((union anonymous$30){ .__in=res }).__i & 0xff00) >> 8;
+    return (((union anonymous_30){ .__in=res }).__i & 0xff00) >> 8;
 
   else
     return -1;
@@ -3329,36 +3329,36 @@ union anonymous$30
 unsigned long int strlcpy(char *tgt, const char *src, unsigned long int bufsize)
 {
   unsigned long int length = (unsigned long int)1;
-  _Bool tmp_if_expr$1;
-  char *tmp_post$2;
-  const char *tmp_post$3;
+  _Bool tmp_if_expr_1;
+  char *tmp_post_2;
+  const char *tmp_post_3;
   do
   {
     if(!(length >= bufsize))
-      tmp_if_expr$1 = *src != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *src != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
-    tmp_post$2 = tgt;
+    tmp_post_2 = tgt;
     tgt = tgt + 1l;
-    tmp_post$3 = src;
+    tmp_post_3 = src;
     src = src + 1l;
-    *tmp_post$2 = *tmp_post$3;
+    *tmp_post_2 = *tmp_post_3;
     length = length + 1ul;
   }
   while((_Bool)1);
   if(!(bufsize == 0ul))
     *tgt = (char)0;
 
-  const char *tmp_post$4;
+  const char *tmp_post_4;
   do
   {
-    tmp_post$4 = src;
+    tmp_post_4 = src;
     src = src + 1l;
-    if(*tmp_post$4 == 0)
+    if(*tmp_post_4 == 0)
       break;
 
     length = length + 1ul;
@@ -3371,8 +3371,8 @@ unsigned long int strlcpy(char *tgt, const char *src, unsigned long int bufsize)
 // file teredo-udp.h line 152
 unsigned short int teredo_cksum(const void *src, const void *dst, unsigned char protocol, struct iovec *data, unsigned long int n)
 {
-  const signed long int teredo_cksum$array_size0 = (signed long int)((unsigned long int)3 + n);
-  struct iovec iov[teredo_cksum$array_size0];
+  const signed long int teredo_cksum_array_size0 = (signed long int)((unsigned long int)3 + n);
+  struct iovec iov[teredo_cksum_array_size0];
   unsigned long int plen = (unsigned long int)0;
   unsigned long int i = (unsigned long int)0;
   for( ; !(i >= n); i = i + 1ul)
@@ -3382,12 +3382,12 @@ unsigned short int teredo_cksum(const void *src, const void *dst, unsigned char 
     plen = plen + iov[(signed long int)((unsigned long int)3 + i)].iov_len;
   }
   unsigned int pseudo[4l];
-  unsigned int return_value_htonl$1;
-  return_value_htonl$1=htonl((unsigned int)plen);
-  unsigned int return_value_htonl$2;
-  return_value_htonl$2=htonl((unsigned int)protocol);
-  pseudo[0] = return_value_htonl$1;
-  pseudo[1] = return_value_htonl$2;
+  unsigned int return_value_htonl_1;
+  return_value_htonl_1=htonl((unsigned int)plen);
+  unsigned int return_value_htonl_2;
+  return_value_htonl_2=htonl((unsigned int)protocol);
+  pseudo[0] = return_value_htonl_1;
+  pseudo[1] = return_value_htonl_2;
   pseudo[2] = 0u;
   pseudo[3] = 0u;
   iov[(signed long int)0].iov_base = (void *)src;
@@ -3396,9 +3396,9 @@ unsigned short int teredo_cksum(const void *src, const void *dst, unsigned char 
   iov[(signed long int)1].iov_len = (unsigned long int)16;
   iov[(signed long int)2].iov_base = (void *)pseudo;
   iov[(signed long int)2].iov_len = (unsigned long int)8;
-  unsigned short int return_value_in_cksum$3;
-  return_value_in_cksum$3=in_cksum(iov, (unsigned long int)3 + n);
-  return return_value_in_cksum$3;
+  unsigned short int return_value_in_cksum_3;
+  return_value_in_cksum_3=in_cksum(iov, (unsigned long int)3 + n);
+  return return_value_in_cksum_3;
 }
 
 // teredo_cleanup
@@ -3414,11 +3414,11 @@ void teredo_cleanup(_Bool use_client)
 unsigned long int teredo_clock(void)
 {
   unsigned long int value;
-  /* tag-#anon#lST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'||S32'id'||B'present'||U24'$pad0'|] */
-struct anonymous$7
+  /* tag-#anon#lST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'||S32'id'||B'present'||U24'_pad0'|] */
+struct anonymous_7
 {
   // lock
-  union anonymous$29 lock;
+  union anonymous_29 lock;
   // id
   signed int id;
   // present
@@ -3427,7 +3427,7 @@ struct anonymous$7
 
 /* */
   ;
-  static struct anonymous$7 priv = { .lock={ .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+  static struct anonymous_7 priv = { .lock={ .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } }, .id=0,
     .present=(_Bool)0 };
@@ -3441,14 +3441,14 @@ struct anonymous$7
     ev.sigev_value.sival_ptr = (void *)&clk;
     ev._sigev_un._sigev_thread._function = clock_tick;
     struct timespec res;
-    signed int return_value_clock_getres$1;
-    return_value_clock_getres$1=clock_getres(1, &res);
-    if(return_value_clock_getres$1 == 0)
+    signed int return_value_clock_getres_1;
+    return_value_clock_getres_1=clock_getres(1, &res);
+    if(return_value_clock_getres_1 == 0)
       priv.id = 1;
 
-    signed int return_value_timer_create$2;
-    return_value_timer_create$2=timer_create(priv.id, &ev, &clk.handle);
-    if(return_value_timer_create$2 == 0)
+    signed int return_value_timer_create_2;
+    return_value_timer_create_2=timer_create(priv.id, &ev, &clk.handle);
+    if(return_value_timer_create_2 == 0)
       priv.present = (_Bool)1;
 
   }
@@ -3487,9 +3487,9 @@ void teredo_close(signed int fd)
 struct teredo_tunnel * teredo_create(unsigned int ipv4, unsigned short int port)
 {
   struct teredo_tunnel *tunnel;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct teredo_tunnel) /*216ul*/ );
-  tunnel = (struct teredo_tunnel *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct teredo_tunnel) /*216ul*/ );
+  tunnel = (struct teredo_tunnel *)return_value_malloc_1;
   if(tunnel == ((struct teredo_tunnel *)NULL))
     return (struct teredo_tunnel *)(void *)0;
 
@@ -3511,8 +3511,8 @@ struct teredo_tunnel * teredo_create(unsigned int ipv4, unsigned short int port)
       tunnel->list=teredo_list_create((unsigned int)1048576, (unsigned int)30);
       if(!(tunnel->list == ((struct teredo_peerlist *)NULL)))
       {
-        pthread_rwlock_init(&tunnel->state_lock, (const union anonymous$24 *)(void *)0);
-        pthread_mutex_init(&tunnel->ratelimit.lock, (const union anonymous$10 *)(void *)0);
+        pthread_rwlock_init(&tunnel->state_lock, (const union anonymous_24 *)(void *)0);
+        pthread_mutex_init(&tunnel->ratelimit.lock, (const union anonymous_10 *)(void *)0);
         return tunnel;
       }
 
@@ -3594,9 +3594,9 @@ static signed int teredo_encap(struct teredo_tunnel * restrict tunnel, struct te
   unsigned short int port = peer->mapped_port;
   TouchTransmit(peer, now);
   teredo_list_release(tunnel->list);
-  signed int return_value_teredo_send$1;
-  return_value_teredo_send$1=teredo_send(tunnel->fd, data, len, ipv4, port);
-  return return_value_teredo_send$1 == (signed int)len ? 0 : -1;
+  signed int return_value_teredo_send_1;
+  return_value_teredo_send_1=teredo_send(tunnel->fd, data, len, ipv4, port);
+  return return_value_teredo_send_1 == (signed int)len ? 0 : -1;
 }
 
 // teredo_enqueue_in
@@ -3675,44 +3675,44 @@ static void teredo_hash(const void *src, unsigned long int slen, const void *dst
 signed int teredo_init_HMAC(void)
 {
   signed int retval = -1;
-  static union anonymous$29 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+  static union anonymous_29 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
   pthread_mutex_lock(&mutex);
-  signed int return_value_getpid$3;
-  return_value_getpid$3=getpid();
-  unsigned short int return_value_htons$4;
-  return_value_htons$4=htons((unsigned short int)return_value_getpid$3);
-  if(!(hmac_pid == return_value_htons$4))
+  signed int return_value_getpid_3;
+  return_value_getpid_3=getpid();
+  unsigned short int return_value_htons_4;
+  return_value_htons_4=htons((unsigned short int)return_value_getpid_3);
+  if(!(hmac_pid == return_value_htons_4))
   {
     signed int fd;
     fd=open(randfile, 00);
     if(fd == -1)
       goto error;
 
-    memset((void *)&inner_key, 0, sizeof(union anonymous$27) /*64ul*/ );
+    memset((void *)&inner_key, 0, sizeof(union anonymous_27) /*64ul*/ );
     unsigned int len = (unsigned int)0;
     while(!(len >= 16u))
     {
       signed int val;
-      signed long int return_value_read$1;
-      return_value_read$1=read(fd, (void *)(inner_key.key + (signed long int)len), (unsigned long int)((unsigned int)16 - len));
-      val = (signed int)return_value_read$1;
+      signed long int return_value_read_1;
+      return_value_read_1=read(fd, (void *)(inner_key.key + (signed long int)len), (unsigned long int)((unsigned int)16 - len));
+      val = (signed int)return_value_read_1;
       if(val >= 1)
         len = len - (unsigned int)val;
 
     }
     close(fd);
-    memcpy((void *)&outer_key, (const void *)&inner_key, sizeof(union anonymous$28) /*64ul*/ );
+    memcpy((void *)&outer_key, (const void *)&inner_key, sizeof(union anonymous_28) /*64ul*/ );
     unsigned int i = (unsigned int)0;
-    for( ; !((unsigned long int)i >= sizeof(union anonymous$27) /*64ul*/ ); i = i + 1u)
+    for( ; !((unsigned long int)i >= sizeof(union anonymous_27) /*64ul*/ ); i = i + 1u)
     {
       inner_key.ipad[(signed long int)i] = inner_key.ipad[(signed long int)i] ^ (unsigned char)0x36;
       outer_key.opad[(signed long int)i] = outer_key.opad[(signed long int)i] ^ (unsigned char)0x5c;
     }
-    signed int return_value_getpid$2;
-    return_value_getpid$2=getpid();
-    hmac_pid=htons((unsigned short int)return_value_getpid$2);
+    signed int return_value_getpid_2;
+    return_value_getpid_2=getpid();
+    hmac_pid=htons((unsigned short int)return_value_getpid_2);
   }
 
   retval = 0;
@@ -3728,24 +3728,24 @@ error:
 struct teredo_peerlist * teredo_list_create(unsigned int max, unsigned int expiration)
 {
   struct teredo_peerlist *l;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct teredo_peerlist) /*80ul*/ );
-  l = (struct teredo_peerlist *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct teredo_peerlist) /*80ul*/ );
+  l = (struct teredo_peerlist *)return_value_malloc_1;
   if(l == ((struct teredo_peerlist *)NULL))
     return (struct teredo_peerlist *)(void *)0;
 
   else
   {
     memset((void *)l, 0, sizeof(struct teredo_peerlist *) /*8ul*/ );
-    pthread_mutex_init(&l->lock, (const union anonymous$10 *)(void *)0);
+    pthread_mutex_init(&l->lock, (const union anonymous_10 *)(void *)0);
     l->old = (struct teredo_listitem *)(void *)0;
     l->recent = l->old;
     l->left = max;
     l->expiration = expiration;
     l->PJHSArray = (void *)0;
-    signed int return_value_pthread_create$2;
-    return_value_pthread_create$2=pthread_create(&l->gc, (const union pthread_attr_t *)(void *)0, garbage_collector, (void *)l);
-    if(!(return_value_pthread_create$2 == 0))
+    signed int return_value_pthread_create_2;
+    return_value_pthread_create_2=pthread_create(&l->gc, (const union pthread_attr_t *)(void *)0, garbage_collector, (void *)l);
+    if(!(return_value_pthread_create_2 == 0))
     {
       pthread_mutex_destroy(&l->lock);
       free((void *)l);
@@ -3776,13 +3776,13 @@ struct teredo_peer * teredo_list_lookup(struct teredo_peerlist * restrict list, 
   pthread_mutex_lock(&list->lock);
   struct teredo_listitem **pp = (struct teredo_listitem **)(void *)0;
   void *PValue;
-  struct teredo_listitem *tmp_if_expr$3;
+  struct teredo_listitem *tmp_if_expr_3;
   if(!(create == ((_Bool *)NULL)))
   {
     struct J_UDY_ERROR_STRUCT J_Error;
-    void **return_value_JudyHSIns$1;
-    return_value_JudyHSIns$1=JudyHSIns(&list->PJHSArray, (void *)(unsigned char *)addr, (unsigned long int)16, &J_Error);
-    PValue = (void *)return_value_JudyHSIns$1;
+    void **return_value_JudyHSIns_1;
+    return_value_JudyHSIns_1=JudyHSIns(&list->PJHSArray, (void *)(unsigned char *)addr, (unsigned long int)16, &J_Error);
+    PValue = (void *)return_value_JudyHSIns_1;
     if(PValue == (void *)18446744073709551615ul)
     {
       fprintf(stderr, "File '%s', line %d: %s(), JU_ERRNO_* == %d, ID == %d\n", (const void *)"peerlist.c", 376, (const void *)"JudyHSIns", (&J_Error)->je_Errno, (&J_Error)->je_ErrID);
@@ -3798,16 +3798,16 @@ struct teredo_peer * teredo_list_lookup(struct teredo_peerlist * restrict list, 
 
   else
   {
-    void **return_value_JudyHSGet$2;
-    return_value_JudyHSGet$2=JudyHSGet(list->PJHSArray, (void *)(unsigned char *)addr, (unsigned long int)16);
-    PValue = (void *)return_value_JudyHSGet$2;
+    void **return_value_JudyHSGet_2;
+    return_value_JudyHSGet_2=JudyHSGet(list->PJHSArray, (void *)(unsigned char *)addr, (unsigned long int)16);
+    PValue = (void *)return_value_JudyHSGet_2;
     pp = (struct teredo_listitem **)PValue;
     if(!(pp == ((struct teredo_listitem **)NULL)))
-      tmp_if_expr$3 = *pp;
+      tmp_if_expr_3 = *pp;
 
     else
-      tmp_if_expr$3 = (struct teredo_listitem *)(void *)0;
-    p = tmp_if_expr$3;
+      tmp_if_expr_3 = (struct teredo_listitem *)(void *)0;
+    p = tmp_if_expr_3;
   }
   if(!(p == ((struct teredo_listitem *)NULL)))
   {
@@ -3841,11 +3841,11 @@ struct teredo_peer * teredo_list_lookup(struct teredo_peerlist * restrict list, 
       if(p == ((struct teredo_listitem *)NULL))
       {
         signed int Rc_int;
-        struct J_UDY_ERROR_STRUCT teredo_list_lookup$$1$$3$$1$$J_Error;
-        Rc_int=JudyHSDel(&list->PJHSArray, (void *)(unsigned char *)addr, sizeof(struct in6_addr) /*16ul*/ , &teredo_list_lookup$$1$$3$$1$$J_Error);
+        struct J_UDY_ERROR_STRUCT teredo_list_lookup__1__3__1__J_Error;
+        Rc_int=JudyHSDel(&list->PJHSArray, (void *)(unsigned char *)addr, sizeof(struct in6_addr) /*16ul*/ , &teredo_list_lookup__1__3__1__J_Error);
         if(Rc_int == -1)
         {
-          fprintf(stderr, "File '%s', line %d: %s(), JU_ERRNO_* == %d, ID == %d\n", (const void *)"peerlist.c", 453, (const void *)"JudyHSDel", (&teredo_list_lookup$$1$$3$$1$$J_Error)->je_Errno, (&teredo_list_lookup$$1$$3$$1$$J_Error)->je_ErrID);
+          fprintf(stderr, "File '%s', line %d: %s(), JU_ERRNO_* == %d, ID == %d\n", (const void *)"peerlist.c", 453, (const void *)"JudyHSDel", (&teredo_list_lookup__1__3__1__J_Error)->je_Errno, (&teredo_list_lookup__1__3__1__J_Error)->je_ErrID);
           exit(1);
         }
 
@@ -3899,9 +3899,9 @@ void teredo_list_reset(struct teredo_peerlist *l, unsigned int max)
   listitem_recdestroy(recent);
   signed long int Rc_word;
   struct J_UDY_ERROR_STRUCT J_Error;
-  unsigned long int return_value_JudyHSFreeArray$1;
-  return_value_JudyHSFreeArray$1=JudyHSFreeArray(&array, &J_Error);
-  Rc_word = (signed long int)return_value_JudyHSFreeArray$1;
+  unsigned long int return_value_JudyHSFreeArray_1;
+  return_value_JudyHSFreeArray_1=JudyHSFreeArray(&array, &J_Error);
+  Rc_word = (signed long int)return_value_JudyHSFreeArray_1;
   if(Rc_word == -1l)
   {
     fprintf(stderr, "File '%s', line %d: %s(), JU_ERRNO_* == %d, ID == %d\n", (const void *)"peerlist.c", 340, (const void *)"JudyHSFreeArray", (&J_Error)->je_Errno, (&J_Error)->je_ErrID);
@@ -3914,45 +3914,45 @@ void teredo_list_reset(struct teredo_peerlist *l, unsigned int max)
 // file maintain.h line 98
 signed int teredo_maintenance_process(struct teredo_maintenance * restrict m, const struct teredo_packet * restrict packet)
 {
-  unsigned short int return_value_htons$1;
-  return_value_htons$1=htons((unsigned short int)3544);
-  _Bool tmp_if_expr$2;
-  if(!(packet->source_port == return_value_htons$1))
-    tmp_if_expr$2 = (_Bool)1;
+  unsigned short int return_value_htons_1;
+  return_value_htons_1=htons((unsigned short int)3544);
+  _Bool tmp_if_expr_2;
+  if(!(packet->source_port == return_value_htons_1))
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(packet->auth_present != (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_statement_expression$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$2)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_2 = !(packet->auth_present != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_statement_expression_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_2)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
     struct in6_addr *__a = (struct in6_addr *)&packet->ip6->ip6_dst;
     struct in6_addr *__b = (struct in6_addr *)&teredo_restrict;
     if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-      tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    tmp_statement_expression$3 = tmp_if_expr$6;
-    tmp_if_expr$7 = !tmp_statement_expression$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (_Bool)0;
+    tmp_statement_expression_3 = tmp_if_expr_6;
+    tmp_if_expr_7 = !tmp_statement_expression_3 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
     return -1;
 
   else
@@ -3975,9 +3975,9 @@ signed int teredo_maintenance_process(struct teredo_maintenance * restrict m, co
 struct teredo_maintenance * teredo_maintenance_start(signed int fd, void (*cb)(struct teredo_state *, void *), void *opaque, const char *s1, const char *s2, unsigned int q_sec, unsigned int q_retries, unsigned int refresh_sec, unsigned int restart_sec)
 {
   struct teredo_maintenance *m;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct teredo_maintenance) /*264ul*/ );
-  m = (struct teredo_maintenance *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct teredo_maintenance) /*264ul*/ );
+  m = (struct teredo_maintenance *)return_value_malloc_1;
   if(m == ((struct teredo_maintenance *)NULL))
     return (struct teredo_maintenance *)(void *)0;
 
@@ -4001,15 +4001,15 @@ struct teredo_maintenance * teredo_maintenance_start(signed int fd, void (*cb)(s
 
     else
     {
-      union anonymous$10 attr;
+      union anonymous_10 attr;
       pthread_condattr_init(&attr);
       pthread_condattr_setclock(&attr, 1);
       pthread_cond_init(&m->received, &attr);
       pthread_condattr_destroy(&attr);
     }
-    pthread_cond_init(&m->processed, (const union anonymous$10 *)(void *)0);
-    pthread_mutex_init(&m->outer, (const union anonymous$10 *)(void *)0);
-    pthread_mutex_init(&m->inner, (const union anonymous$10 *)(void *)0);
+    pthread_cond_init(&m->processed, (const union anonymous_10 *)(void *)0);
+    pthread_mutex_init(&m->outer, (const union anonymous_10 *)(void *)0);
+    pthread_mutex_init(&m->inner, (const union anonymous_10 *)(void *)0);
     signed int err;
     err=pthread_create(&m->thread, (const union pthread_attr_t *)(void *)0, do_maintenance, (void *)m);
     if(err == 0)
@@ -4017,12 +4017,12 @@ struct teredo_maintenance * teredo_maintenance_start(signed int fd, void (*cb)(s
 
     else
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = err;
-      char *return_value_dgettext$3;
-      return_value_dgettext$3=dgettext("miredo", "Error (%s): %m");
-      syslog(1, return_value_dgettext$3, (const void *)"pthread_create");
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = err;
+      char *return_value_dgettext_3;
+      return_value_dgettext_3=dgettext("miredo", "Error (%s): %m");
+      syslog(1, return_value_dgettext_3, (const void *)"pthread_create");
       pthread_cond_destroy(&m->processed);
       pthread_cond_destroy(&m->received);
       pthread_mutex_destroy(&m->outer);
@@ -4052,17 +4052,17 @@ void teredo_maintenance_stop(struct teredo_maintenance *m)
 // file packets.c line 158
 signed int teredo_parse_ra(const struct teredo_packet * restrict packet, union teredo_addr * restrict newaddr, _Bool cone, unsigned short int * restrict mtu)
 {
-  _Bool tmp_statement_expression$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_statement_expression_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   struct nd_opt_prefix_info *pi;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   struct nd_opt_mtu *mo;
-  signed int tmp_if_expr$12;
-  unsigned short int return_value_htons$11;
+  signed int tmp_if_expr_12;
+  unsigned short int return_value_htons_11;
   if(packet->orig_ipv4 == 0u)
     return -1;
 
@@ -4070,33 +4070,33 @@ signed int teredo_parse_ra(const struct teredo_packet * restrict packet, union t
   {
     struct ip6_hdr *ip6 = packet->ip6;
     unsigned long int length;
-    unsigned short int return_value_ntohs$1;
-    return_value_ntohs$1=ntohs(ip6->ip6_ctlun.ip6_un1.ip6_un1_plen);
-    length = (unsigned long int)return_value_ntohs$1;
+    unsigned short int return_value_ntohs_1;
+    return_value_ntohs_1=ntohs(ip6->ip6_ctlun.ip6_un1.ip6_un1_plen);
+    length = (unsigned long int)return_value_ntohs_1;
     struct in6_addr *__a = (struct in6_addr *)&ip6->ip6_dst;
     struct in6_addr *__b = (struct in6_addr *)(cone != (_Bool)0 ? &teredo_cone : &teredo_restrict);
     if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-      tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    tmp_statement_expression$2 = tmp_if_expr$5;
-    if(!tmp_statement_expression$2)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)0;
+    tmp_statement_expression_2 = tmp_if_expr_5;
+    if(!tmp_statement_expression_2)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)ip6->ip6_ctlun.ip6_un1.ip6_un1_nxt != 58 ? (_Bool)1 : (_Bool)0;
-    if(!(length >= sizeof(struct nd_router_advert) /*16ul*/ ) || tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)ip6->ip6_ctlun.ip6_un1.ip6_un1_nxt != 58 ? (_Bool)1 : (_Bool)0;
+    if(!(length >= sizeof(struct nd_router_advert) /*16ul*/ ) || tmp_if_expr_6)
       return -1;
 
     else
@@ -4104,11 +4104,11 @@ signed int teredo_parse_ra(const struct teredo_packet * restrict packet, union t
       struct nd_router_advert *ra = (struct nd_router_advert *)(ip6 + (signed long int)1);
       length = length - sizeof(struct nd_router_advert) /*16ul*/ ;
       if(!((signed int)ra->nd_ra_hdr.icmp6_type == 134))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)ra->nd_ra_hdr.icmp6_code != 0 ? (_Bool)1 : (_Bool)0;
-      if(!(length >= sizeof(struct nd_opt_prefix_info) /*32ul*/ ) || tmp_if_expr$7)
+        tmp_if_expr_7 = (signed int)ra->nd_ra_hdr.icmp6_code != 0 ? (_Bool)1 : (_Bool)0;
+      if(!(length >= sizeof(struct nd_opt_prefix_info) /*32ul*/ ) || tmp_if_expr_7)
         return -1;
 
       else
@@ -4128,18 +4128,18 @@ signed int teredo_parse_ra(const struct teredo_packet * restrict packet, union t
             {
               pi = (struct nd_opt_prefix_info *)hdr;
               if(!(optlen >= sizeof(struct nd_opt_prefix_info) /*32ul*/ ))
-                tmp_if_expr$8 = (_Bool)1;
+                tmp_if_expr_8 = (_Bool)1;
 
               else
-                tmp_if_expr$8 = (signed int)pi->nd_opt_pi_prefix_len != 64 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$8)
+                tmp_if_expr_8 = (signed int)pi->nd_opt_pi_prefix_len != 64 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_8)
                 return -1;
 
               if(!(newaddr->teredo.server_ip == 0u))
               {
-                char *return_value_dgettext$9;
-                return_value_dgettext$9=dgettext("miredo", "Multiple Teredo prefixes received");
-                syslog(3, return_value_dgettext$9);
+                char *return_value_dgettext_9;
+                return_value_dgettext_9=dgettext("miredo", "Multiple Teredo prefixes received");
+                syslog(3, return_value_dgettext_9);
                 return -1;
               }
 
@@ -4157,9 +4157,9 @@ signed int teredo_parse_ra(const struct teredo_packet * restrict packet, union t
           }
           length = length - optlen;
         }
-        unsigned int return_value_htonl$10;
-        return_value_htonl$10=htonl((unsigned int)0x3ffe831f);
-        if(newaddr->teredo.prefix == return_value_htonl$10)
+        unsigned int return_value_htonl_10;
+        return_value_htonl_10=htonl((unsigned int)0x3ffe831f);
+        if(newaddr->teredo.prefix == return_value_htonl_10)
           newaddr->teredo.prefix=htonl((unsigned int)0x20010000);
 
         if((0xff000000 & newaddr->teredo.prefix) == 0xff000000)
@@ -4169,13 +4169,13 @@ signed int teredo_parse_ra(const struct teredo_packet * restrict packet, union t
         {
           if(!(cone == (_Bool)0))
           {
-            return_value_htons$11=htons((unsigned short int)0x8000);
-            tmp_if_expr$12 = (signed int)return_value_htons$11;
+            return_value_htons_11=htons((unsigned short int)0x8000);
+            tmp_if_expr_12 = (signed int)return_value_htons_11;
           }
 
           else
-            tmp_if_expr$12 = 0;
-          newaddr->teredo.flags = (unsigned short int)tmp_if_expr$12;
+            tmp_if_expr_12 = 0;
+          newaddr->teredo.flags = (unsigned short int)tmp_if_expr_12;
           newaddr->teredo.client_port = (unsigned short int)~((signed int)packet->orig_port);
           newaddr->teredo.client_ip = ~packet->orig_ipv4;
           if(!(net_mtu == 0u))
@@ -4217,9 +4217,9 @@ static void teredo_peer_queue(struct teredo_peer * restrict peer, const void * r
   if(peer->queue_left >= len)
   {
     peer->queue_left = peer->queue_left - len;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct teredo_queue) /*24ul*/  + len);
-    p = (struct teredo_queue *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct teredo_queue) /*24ul*/  + len);
+    p = (struct teredo_queue *)return_value_malloc_1;
     p->length = len;
     memcpy((void *)p->data, data, len);
     p->ipv4 = ip;
@@ -4292,9 +4292,9 @@ void teredo_queue_emit(struct teredo_queue *q, signed int fd, unsigned int ipv4,
 // file teredo-udp.h line 129
 signed int teredo_recv(signed int fd, struct teredo_packet *p)
 {
-  signed int return_value_teredo_recv_inner$1;
-  return_value_teredo_recv_inner$1=teredo_recv_inner(fd, p, 64);
-  return return_value_teredo_recv_inner$1;
+  signed int return_value_teredo_recv_inner_1;
+  return_value_teredo_recv_inner_1=teredo_recv_inner(fd, p, 64);
+  return return_value_teredo_recv_inner_1;
 }
 
 // teredo_recv_inner
@@ -4312,9 +4312,9 @@ static signed int teredo_recv_inner(signed int fd, struct teredo_packet *p, sign
   if(length == -1l)
     teredo_recverr(fd);
 
-  struct cmsghdr *tmp_if_expr$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
+  struct cmsghdr *tmp_if_expr_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
   if(!(length >= 2l))
     return -1;
 
@@ -4325,11 +4325,11 @@ static signed int teredo_recv_inner(signed int fd, struct teredo_packet *p, sign
     p->dest_ipv4 = (unsigned int)0;
     struct cmsghdr *cmsg;
     if(msg.msg_controllen >= sizeof(struct cmsghdr) /*16ul*/ )
-      tmp_if_expr$1 = (struct cmsghdr *)(&msg)->msg_control;
+      tmp_if_expr_1 = (struct cmsghdr *)(&msg)->msg_control;
 
     else
-      tmp_if_expr$1 = (struct cmsghdr *)0;
-    cmsg = tmp_if_expr$1;
+      tmp_if_expr_1 = (struct cmsghdr *)0;
+    cmsg = tmp_if_expr_1;
     while(!(cmsg == ((struct cmsghdr *)NULL)))
     {
       if(cmsg->cmsg_level == 0)
@@ -4360,12 +4360,12 @@ static signed int teredo_recv_inner(signed int fd, struct teredo_packet *p, sign
           return -1;
 
         ptr = ptr + (signed long int)2;
-        tmp_post$2 = ptr;
+        tmp_post_2 = ptr;
         ptr = ptr + 1l;
-        id_len = *tmp_post$2;
-        tmp_post$3 = ptr;
+        id_len = *tmp_post_2;
+        tmp_post_3 = ptr;
         ptr = ptr + 1l;
-        au_len = *tmp_post$3;
+        au_len = *tmp_post_3;
         length = length - (signed long int)((signed int)id_len + (signed int)au_len);
         if(!(length >= 0l))
           return -1;
@@ -4416,9 +4416,9 @@ static void * teredo_recv_thread(void *t)
   do
   {
     struct teredo_packet packet;
-    signed int return_value_teredo_wait_recv$1;
-    return_value_teredo_wait_recv$1=teredo_wait_recv(tunnel->fd, &packet);
-    if(return_value_teredo_wait_recv$1 == 0)
+    signed int return_value_teredo_wait_recv_1;
+    return_value_teredo_wait_recv_1=teredo_wait_recv(tunnel->fd, &packet);
+    if(return_value_teredo_wait_recv_1 == 0)
     {
       pthread_setcancelstate(1, (signed int *)(void *)0);
       teredo_run_inner(tunnel, &packet);
@@ -4435,18 +4435,18 @@ static signed long int teredo_recverr(signed int fd)
 {
   struct msghdr msg;
   memset((void *)&msg, 0, sizeof(struct msghdr) /*56ul*/ );
-  signed long int return_value_recvmsg$1;
-  return_value_recvmsg$1=recvmsg(fd, &msg, 8192);
-  return return_value_recvmsg$1;
+  signed long int return_value_recvmsg_1;
+  return_value_recvmsg_1=recvmsg(fd, &msg, 8192);
+  return return_value_recvmsg_1;
 }
 
 // teredo_reply_bubble
 // file packets.h line 79
 static inline signed int teredo_reply_bubble(signed int fd, unsigned int ip, unsigned short int port, struct ip6_hdr *req)
 {
-  signed int return_value_teredo_send_bubble$1;
-  return_value_teredo_send_bubble$1=teredo_send_bubble(fd, ip, port, &req->ip6_dst, &req->ip6_src);
-  return return_value_teredo_send_bubble$1;
+  signed int return_value_teredo_send_bubble_1;
+  return_value_teredo_send_bubble_1=teredo_send_bubble(fd, ip, port, &req->ip6_dst, &req->ip6_src);
+  return return_value_teredo_send_bubble_1;
 }
 
 // teredo_run
@@ -4454,9 +4454,9 @@ static inline signed int teredo_reply_bubble(signed int fd, unsigned int ip, uns
 void teredo_run(struct teredo_tunnel *tunnel)
 {
   struct teredo_packet packet;
-  signed int return_value_teredo_recv$1;
-  return_value_teredo_recv$1=teredo_recv(tunnel->fd, &packet);
-  if(return_value_teredo_recv$1 == 0)
+  signed int return_value_teredo_recv_1;
+  return_value_teredo_recv_1=teredo_recv(tunnel->fd, &packet);
+  if(return_value_teredo_recv_1 == 0)
     teredo_run_inner(tunnel, &packet);
 
 }
@@ -4470,9 +4470,9 @@ signed int teredo_run_async(struct teredo_tunnel *t)
 
   else
   {
-    signed int return_value_pthread_create$1;
-    return_value_pthread_create$1=pthread_create(&t->recv.thread, (const union pthread_attr_t *)(void *)0, teredo_recv_thread, (void *)t);
-    if(!(return_value_pthread_create$1 == 0))
+    signed int return_value_pthread_create_1;
+    return_value_pthread_create_1=pthread_create(&t->recv.thread, (const union pthread_attr_t *)(void *)0, teredo_recv_thread, (void *)t);
+    if(!(return_value_pthread_create_1 == 0))
       return -1;
 
     else
@@ -4488,39 +4488,39 @@ signed int teredo_run_async(struct teredo_tunnel *t)
 static void teredo_run_inner(struct teredo_tunnel * restrict tunnel, struct teredo_packet * restrict packet)
 {
   struct ip6_hdr *ip6 = packet->ip6;
-  _Bool tmp_if_expr$2;
-  unsigned short int return_value_htons$6;
-  _Bool return_value_IsBubble$4;
-  signed int return_value_CheckPing$8;
-  _Bool tmp_if_expr$17;
-  _Bool return_value_IsBubble$14;
-  _Bool tmp_if_expr$16;
-  signed int return_value_CheckBubble$15;
-  _Bool literal$10;
+  _Bool tmp_if_expr_2;
+  unsigned short int return_value_htons_6;
+  _Bool return_value_IsBubble_4;
+  signed int return_value_CheckPing_8;
+  _Bool tmp_if_expr_17;
+  _Bool return_value_IsBubble_14;
+  _Bool tmp_if_expr_16;
+  signed int return_value_CheckBubble_15;
+  _Bool literal_10;
   if(packet->ip6_len >= sizeof(struct ip6_hdr) /*40ul*/ )
   {
     unsigned long int length;
-    unsigned short int return_value_ntohs$1;
-    return_value_ntohs$1=ntohs(ip6->ip6_ctlun.ip6_un1.ip6_un1_plen);
-    length = sizeof(struct ip6_hdr) /*40ul*/  + (unsigned long int)return_value_ntohs$1;
+    unsigned short int return_value_ntohs_1;
+    return_value_ntohs_1=ntohs(ip6->ip6_ctlun.ip6_un1.ip6_un1_plen);
+    length = sizeof(struct ip6_hdr) /*40ul*/  + (unsigned long int)return_value_ntohs_1;
     if(!((signed int)ip6->ip6_ctlun.ip6_un2_vfc >> 4 == 6))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = length > packet->ip6_len ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = length > packet->ip6_len ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       struct teredo_state s;
       pthread_rwlock_rdlock(&tunnel->state_lock);
       s = tunnel->state;
       pthread_rwlock_unlock(&tunnel->state_lock);
-      _Bool return_value_IsClient$7;
-      return_value_IsClient$7=IsClient(tunnel);
-      if(!(return_value_IsClient$7 == (_Bool)0))
+      _Bool return_value_IsClient_7;
+      return_value_IsClient_7=IsClient(tunnel);
+      if(!(return_value_IsClient_7 == (_Bool)0))
       {
-        signed int return_value_teredo_maintenance_process$3;
-        return_value_teredo_maintenance_process$3=teredo_maintenance_process(tunnel->maintenance, packet);
-        if(return_value_teredo_maintenance_process$3 == 0)
+        signed int return_value_teredo_maintenance_process_3;
+        return_value_teredo_maintenance_process_3=teredo_maintenance_process(tunnel->maintenance, packet);
+        if(return_value_teredo_maintenance_process_3 == 0)
           goto __CPROVER_DUMP_L33;
 
         if(s.up == (_Bool)0)
@@ -4528,15 +4528,15 @@ static void teredo_run_inner(struct teredo_tunnel * restrict tunnel, struct tere
 
         if(packet->source_ipv4 == s.addr.teredo.server_ip)
         {
-          return_value_htons$6=htons((unsigned short int)3544);
-          if(packet->source_port == return_value_htons$6)
+          return_value_htons_6=htons((unsigned short int)3544);
+          if(packet->source_port == return_value_htons_6)
           {
             unsigned int ipv4 = packet->orig_ipv4;
             unsigned short int port = packet->orig_port;
             if(ipv4 == 0u)
             {
-              return_value_IsBubble$4=IsBubble(ip6);
-              if(!(return_value_IsBubble$4 == (_Bool)0))
+              return_value_IsBubble_4=IsBubble(ip6);
+              if(!(return_value_IsBubble_4 == (_Bool)0))
               {
                 if(((union teredo_addr *)&ip6->ip6_src)->teredo.prefix == s.addr.teredo.prefix)
                 {
@@ -4551,9 +4551,9 @@ static void teredo_run_inner(struct teredo_tunnel * restrict tunnel, struct tere
             if(!(ipv4 == 0u))
             {
               teredo_reply_bubble(tunnel->fd, ipv4, port, ip6);
-              _Bool return_value_IsBubble$5;
-              return_value_IsBubble$5=IsBubble(ip6);
-              if(!(return_value_IsBubble$5 == (_Bool)0))
+              _Bool return_value_IsBubble_5;
+              return_value_IsBubble_5=IsBubble(ip6);
+              if(!(return_value_IsBubble_5 == (_Bool)0))
                 goto __CPROVER_DUMP_L33;
 
             }
@@ -4598,12 +4598,12 @@ static void teredo_run_inner(struct teredo_tunnel * restrict tunnel, struct tere
 
           }
 
-          _Bool return_value_IsClient$9;
-          return_value_IsClient$9=IsClient(tunnel);
-          if(!(return_value_IsClient$9 == (_Bool)0))
+          _Bool return_value_IsClient_9;
+          return_value_IsClient_9=IsClient(tunnel);
+          if(!(return_value_IsClient_9 == (_Bool)0))
           {
-            return_value_CheckPing$8=CheckPing(packet);
-            if(return_value_CheckPing$8 == 0)
+            return_value_CheckPing_8=CheckPing(packet);
+            if(return_value_CheckPing_8 == 0)
             {
               p->trusted = (unsigned int)1;
               SetMappingFromPacket(p, packet);
@@ -4617,34 +4617,34 @@ static void teredo_run_inner(struct teredo_tunnel * restrict tunnel, struct tere
 
         if(((union teredo_addr *)&ip6->ip6_src)->teredo.prefix == s.addr.teredo.prefix)
         {
-          signed int return_value_in6_matches_teredo_client$13;
-          return_value_in6_matches_teredo_client$13=in6_matches_teredo_client(&ip6->ip6_src, packet->source_ipv4, packet->source_port);
-          if(!(return_value_in6_matches_teredo_client$13 == 0))
-            tmp_if_expr$17 = (_Bool)1;
+          signed int return_value_in6_matches_teredo_client_13;
+          return_value_in6_matches_teredo_client_13=in6_matches_teredo_client(&ip6->ip6_src, packet->source_ipv4, packet->source_port);
+          if(!(return_value_in6_matches_teredo_client_13 == 0))
+            tmp_if_expr_17 = (_Bool)1;
 
           else
           {
-            return_value_IsBubble$14=IsBubble(ip6);
-            if(!(return_value_IsBubble$14 == (_Bool)0))
+            return_value_IsBubble_14=IsBubble(ip6);
+            if(!(return_value_IsBubble_14 == (_Bool)0))
             {
-              return_value_CheckBubble$15=CheckBubble(packet);
-              tmp_if_expr$16 = return_value_CheckBubble$15 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_CheckBubble_15=CheckBubble(packet);
+              tmp_if_expr_16 = return_value_CheckBubble_15 == 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$16 = (_Bool)0;
-            tmp_if_expr$17 = tmp_if_expr$16 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_16 = (_Bool)0;
+            tmp_if_expr_17 = tmp_if_expr_16 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$17)
+          if(tmp_if_expr_17)
           {
-            _Bool return_value_IsClient$11;
-            return_value_IsClient$11=IsClient(tunnel);
-            if(!(return_value_IsClient$11 == (_Bool)0))
+            _Bool return_value_IsClient_11;
+            return_value_IsClient_11=IsClient(tunnel);
+            if(!(return_value_IsClient_11 == (_Bool)0))
             {
               if(p == ((struct teredo_peer *)NULL))
               {
-                literal$10 = (_Bool)0;
-                p=teredo_list_lookup(list, &ip6->ip6_src, &literal$10);
+                literal_10 = (_Bool)0;
+                p=teredo_list_lookup(list, &ip6->ip6_src, &literal_10);
               }
 
             }
@@ -4655,9 +4655,9 @@ static void teredo_run_inner(struct teredo_tunnel * restrict tunnel, struct tere
             SetMappingFromPacket(p, packet);
             p->trusted = (unsigned int)1;
             teredo_predecap(tunnel, p, now);
-            _Bool return_value_IsBubble$12;
-            return_value_IsBubble$12=IsBubble(ip6);
-            if(return_value_IsBubble$12 == (_Bool)0)
+            _Bool return_value_IsBubble_12;
+            return_value_IsBubble_12=IsBubble(ip6);
+            if(return_value_IsBubble_12 == (_Bool)0)
               tunnel->recv_cb(tunnel->opaque, (const void *)ip6, length);
 
             goto __CPROVER_DUMP_L33;
@@ -4714,26 +4714,26 @@ __CPROVER_DUMP_L33:
 signed int teredo_send(signed int fd, const void *packet, unsigned long int plen, unsigned int dest_ip, unsigned short int dest_port)
 {
   struct iovec iov = { .iov_base=(void *)packet, .iov_len=plen };
-  signed int return_value_teredo_sendv$1;
-  return_value_teredo_sendv$1=teredo_sendv(fd, &iov, (unsigned long int)1, dest_ip, dest_port);
-  return return_value_teredo_sendv$1;
+  signed int return_value_teredo_sendv_1;
+  return_value_teredo_sendv_1=teredo_sendv(fd, &iov, (unsigned long int)1, dest_ip, dest_port);
+  return return_value_teredo_sendv_1;
 }
 
 // teredo_send_bubble
 // file packets.h line 75
 signed int teredo_send_bubble(signed int fd, unsigned int ip, unsigned short int port, struct in6_addr *src, struct in6_addr *dst)
 {
-  signed int return_value_is_ipv4_global_unicast$2;
-  return_value_is_ipv4_global_unicast$2=is_ipv4_global_unicast(ip);
-  if(!(return_value_is_ipv4_global_unicast$2 == 0))
+  signed int return_value_is_ipv4_global_unicast_2;
+  return_value_is_ipv4_global_unicast_2=is_ipv4_global_unicast(ip);
+  if(!(return_value_is_ipv4_global_unicast_2 == 0))
   {
     static const unsigned char head[9l] = { '`', 0, 0, 0, 0, 0, ';', 0, 0 };
     struct iovec iov[3l] = { { .iov_base=(void *)head, .iov_len=(unsigned long int)8 },
     { .iov_base=(void *)src, .iov_len=(unsigned long int)16 },
     { .iov_base=(void *)dst, .iov_len=(unsigned long int)16 } };
-    signed int return_value_teredo_sendv$1;
-    return_value_teredo_sendv$1=teredo_sendv(fd, iov, (unsigned long int)3, ip, port);
-    return return_value_teredo_sendv$1 == 40 ? 0 : -1;
+    signed int return_value_teredo_sendv_1;
+    return_value_teredo_sendv_1=teredo_sendv(fd, iov, (unsigned long int)3, ip, port);
+    return return_value_teredo_sendv_1 == 40 ? 0 : -1;
   }
 
   return 0;
@@ -4745,7 +4745,7 @@ signed int teredo_send_rs(signed int fd, unsigned int server_ip, const unsigned 
 {
   unsigned char auth[13l] = { (unsigned char)0, (unsigned char)1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   /* tag-#anon#lST[lSYM#tag-ip6_hdr#'ip6'||lSYM#tag-nd_router_solicit#'rs'|] */
-struct anonymous$32
+struct anonymous_32
 {
   // ip6
   struct ip6_hdr ip6;
@@ -4755,47 +4755,47 @@ struct anonymous$32
 
 /* */
   ;
-  struct anonymous$32 rs;
+  struct anonymous_32 rs;
   struct iovec iov[2l] = { { .iov_base=(void *)auth, .iov_len=(unsigned long int)13 },
-    { .iov_base=(void *)&rs, .iov_len=sizeof(struct anonymous$32) /*48ul*/  } };
+    { .iov_base=(void *)&rs, .iov_len=sizeof(struct anonymous_32) /*48ul*/  } };
   memcpy((void *)(auth + (signed long int)4), (const void *)nonce, (unsigned long int)8);
   rs.ip6.ip6_ctlun.ip6_un1.ip6_un1_flow=htonl((unsigned int)0x60000000);
-  rs.ip6.ip6_ctlun.ip6_un1.ip6_un1_plen=htons((unsigned short int)(sizeof(struct anonymous$32) /*48ul*/  - sizeof(struct ip6_hdr) /*40ul*/ ));
+  rs.ip6.ip6_ctlun.ip6_un1.ip6_un1_plen=htons((unsigned short int)(sizeof(struct anonymous_32) /*48ul*/  - sizeof(struct ip6_hdr) /*40ul*/ ));
   rs.ip6.ip6_ctlun.ip6_un1.ip6_un1_nxt = (unsigned char)58;
   rs.ip6.ip6_ctlun.ip6_un1.ip6_un1_hlim = (unsigned char)255;
   rs.ip6.ip6_src = cone != (_Bool)0 ? teredo_cone : teredo_restrict;
   rs.ip6.ip6_dst = in6addr_allrouters;
   rs.rs.nd_rs_hdr.icmp6_type = (unsigned char)133;
   rs.rs.nd_rs_hdr.icmp6_code = (unsigned char)0;
-  signed int tmp_if_expr$3;
-  unsigned short int return_value_htons$1;
-  unsigned short int return_value_htons$2;
+  signed int tmp_if_expr_3;
+  unsigned short int return_value_htons_1;
+  unsigned short int return_value_htons_2;
   if(!(cone == (_Bool)0))
   {
-    return_value_htons$1=htons((unsigned short int)0x125d);
-    tmp_if_expr$3 = (signed int)return_value_htons$1;
+    return_value_htons_1=htons((unsigned short int)0x125d);
+    tmp_if_expr_3 = (signed int)return_value_htons_1;
   }
 
   else
   {
-    return_value_htons$2=htons((unsigned short int)0x7d37);
-    tmp_if_expr$3 = (signed int)return_value_htons$2;
+    return_value_htons_2=htons((unsigned short int)0x7d37);
+    tmp_if_expr_3 = (signed int)return_value_htons_2;
   }
-  rs.rs.nd_rs_hdr.icmp6_cksum = (unsigned short int)tmp_if_expr$3;
+  rs.rs.nd_rs_hdr.icmp6_cksum = (unsigned short int)tmp_if_expr_3;
   rs.rs.nd_rs_hdr.icmp6_dataun.icmp6_un_data32[(signed long int)0] = (unsigned int)0;
-  unsigned short int return_value_htons$4;
-  return_value_htons$4=htons((unsigned short int)3544);
-  signed int return_value_teredo_sendv$5;
-  return_value_teredo_sendv$5=teredo_sendv(fd, iov, sizeof(struct iovec [2l]) /*32ul*/  / sizeof(struct iovec) /*16ul*/ , server_ip, return_value_htons$4);
-  return return_value_teredo_sendv$5 > 0 ? 0 : -1;
+  unsigned short int return_value_htons_4;
+  return_value_htons_4=htons((unsigned short int)3544);
+  signed int return_value_teredo_sendv_5;
+  return_value_teredo_sendv_5=teredo_sendv(fd, iov, sizeof(struct iovec [2l]) /*32ul*/  / sizeof(struct iovec) /*16ul*/ , server_ip, return_value_htons_4);
+  return return_value_teredo_sendv_5 > 0 ? 0 : -1;
 }
 
 // teredo_send_unreach
 // file relay.c line 122
 static void teredo_send_unreach(struct teredo_tunnel * restrict tunnel, unsigned char code, struct ip6_hdr * restrict in, unsigned long int len)
 {
-  /* tag-#anon#lST[lSYM#tag-icmp6_hdr#'hdr'||lARR1232{S8}$S8$'fill'|] */
-struct anonymous$26
+  /* tag-#anon#lST[lSYM#tag-icmp6_hdr#'hdr'||lARR1232{S8}_S8_'fill'|] */
+struct anonymous_26
 {
   // hdr
   struct icmp6_hdr hdr;
@@ -4805,7 +4805,7 @@ struct anonymous$26
 
 /* */
   ;
-  struct anonymous$26 buf;
+  struct anonymous_26 buf;
   unsigned long int now;
   now=teredo_clock();
   pthread_mutex_lock(&tunnel->ratelimit.lock);
@@ -4824,9 +4824,9 @@ struct anonymous$26
       tunnel->ratelimit.count = tunnel->ratelimit.count - 1;
 
     pthread_mutex_unlock(&tunnel->ratelimit.lock);
-    signed int return_value_BuildICMPv6Error$1;
-    return_value_BuildICMPv6Error$1=BuildICMPv6Error(&buf.hdr, (unsigned char)1, code, in, len);
-    len = (unsigned long int)return_value_BuildICMPv6Error$1;
+    signed int return_value_BuildICMPv6Error_1;
+    return_value_BuildICMPv6Error_1=BuildICMPv6Error(&buf.hdr, (unsigned char)1, code, in, len);
+    len = (unsigned long int)return_value_BuildICMPv6Error_1;
     tunnel->icmpv6_cb(tunnel->opaque, (const void *)&buf.hdr, len, &in->ip6_src);
   }
 }
@@ -4841,21 +4841,21 @@ signed int teredo_sendv(signed int fd, struct iovec *iov, unsigned long int coun
     .msg_iovlen=count, .msg_control=NULL,
     .msg_controllen=0ul, .msg_flags=0 };
   signed long int res;
-  _Bool tmp_if_expr$2;
-  signed long int return_value_teredo_recverr$1;
+  _Bool tmp_if_expr_2;
+  signed long int return_value_teredo_recverr_1;
   do
   {
     res=sendmsg(fd, &msg, 0);
     if(res == -1l)
     {
-      return_value_teredo_recverr$1=teredo_recverr(fd);
-      tmp_if_expr$2 = return_value_teredo_recverr$1 != (signed long int)-1 ? (_Bool)1 : (_Bool)0;
+      return_value_teredo_recverr_1=teredo_recverr(fd);
+      tmp_if_expr_2 = return_value_teredo_recverr_1 != (signed long int)-1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return (signed int)res;
 }
 
@@ -4890,22 +4890,22 @@ signed int teredo_set_cone_flag(struct teredo_tunnel *t, _Bool cone)
 {
   signed int retval = 0;
   pthread_rwlock_wrlock(&t->state_lock);
-  unsigned short int return_value_htons$1;
-  unsigned short int return_value_htons$2;
+  unsigned short int return_value_htons_1;
+  unsigned short int return_value_htons_2;
   if(!(t->maintenance == ((struct teredo_maintenance *)NULL)))
     retval = -1;
 
   else
     if(!(cone == (_Bool)0))
     {
-      return_value_htons$1=htons((unsigned short int)0x8000);
-      t->state.addr.teredo.flags = t->state.addr.teredo.flags | return_value_htons$1;
+      return_value_htons_1=htons((unsigned short int)0x8000);
+      t->state.addr.teredo.flags = t->state.addr.teredo.flags | return_value_htons_1;
     }
 
     else
     {
-      return_value_htons$2=htons((unsigned short int)0x8000);
-      t->state.addr.teredo.flags = t->state.addr.teredo.flags & (unsigned short int)~((signed int)return_value_htons$2);
+      return_value_htons_2=htons((unsigned short int)0x8000);
+      t->state.addr.teredo.flags = t->state.addr.teredo.flags & (unsigned short int)~((signed int)return_value_htons_2);
     }
   pthread_rwlock_unlock(&t->state_lock);
   return retval;
@@ -4990,9 +4990,9 @@ signed int teredo_socket(unsigned int bind_ip, unsigned short int port)
   else
   {
     fcntl(fd, 2, 1);
-    signed int return_value_bind$1;
-    return_value_bind$1=bind(fd, (struct sockaddr *)&myaddr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_bind$1 == 0))
+    signed int return_value_bind_1;
+    return_value_bind_1=bind(fd, (struct sockaddr *)&myaddr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_bind_1 == 0))
     {
       close(fd);
       return -1;
@@ -5000,14 +5000,14 @@ signed int teredo_socket(unsigned int bind_ip, unsigned short int port)
 
     else
     {
-      signed int literal$2 = 0;
-      setsockopt(fd, 0, 10, (const void *)&literal$2, (unsigned int)sizeof(signed int) /*4ul*/ );
-      signed int literal$3 = 1;
-      setsockopt(fd, 0, 11, (const void *)&literal$3, (unsigned int)sizeof(signed int) /*4ul*/ );
-      signed int literal$4 = 1;
-      setsockopt(fd, 0, 8, (const void *)&literal$4, (unsigned int)sizeof(signed int) /*4ul*/ );
-      signed int literal$5 = 1;
-      setsockopt(fd, 0, 33, (const void *)&literal$5, (unsigned int)sizeof(signed int) /*4ul*/ );
+      signed int literal_2 = 0;
+      setsockopt(fd, 0, 10, (const void *)&literal_2, (unsigned int)sizeof(signed int) /*4ul*/ );
+      signed int literal_3 = 1;
+      setsockopt(fd, 0, 11, (const void *)&literal_3, (unsigned int)sizeof(signed int) /*4ul*/ );
+      signed int literal_4 = 1;
+      setsockopt(fd, 0, 8, (const void *)&literal_4, (unsigned int)sizeof(signed int) /*4ul*/ );
+      signed int literal_5 = 1;
+      setsockopt(fd, 0, 33, (const void *)&literal_5, (unsigned int)sizeof(signed int) /*4ul*/ );
       return fd;
     }
   }
@@ -5019,9 +5019,9 @@ signed int teredo_startup(_Bool use_client)
 {
   bindtextdomain("miredo", "/usr/share/locale");
   (void)use_client;
-  signed int return_value_teredo_init_HMAC$1;
-  return_value_teredo_init_HMAC$1=teredo_init_HMAC();
-  if(return_value_teredo_init_HMAC$1 == 0)
+  signed int return_value_teredo_init_HMAC_1;
+  return_value_teredo_init_HMAC_1=teredo_init_HMAC();
+  if(return_value_teredo_init_HMAC_1 == 0)
     return 0;
 
   else
@@ -5054,9 +5054,9 @@ static void teredo_state_change(const struct teredo_state *state, void *self)
 signed int teredo_transmit(struct teredo_tunnel * restrict tunnel, struct ip6_hdr * restrict packet, unsigned long int length)
 {
   union teredo_addr *dst = (union teredo_addr *)&packet->ip6_dst;
-  _Bool return_value_IsValid$5;
-  signed int return_value_teredo_encap$4;
-  signed int return_value_SendBubbleFromDst$6;
+  _Bool return_value_IsValid_5;
+  signed int return_value_teredo_encap_4;
+  signed int return_value_SendBubbleFromDst_6;
   if((signed int)dst->ip6.__in6_u.__u6_addr8[0l] == 0xff)
     return 0;
 
@@ -5066,9 +5066,9 @@ signed int teredo_transmit(struct teredo_tunnel * restrict tunnel, struct ip6_hd
     pthread_rwlock_rdlock(&tunnel->state_lock);
     s = tunnel->state;
     pthread_rwlock_unlock(&tunnel->state_lock);
-    _Bool return_value_IsClient$1;
-    return_value_IsClient$1=IsClient(tunnel);
-    if(!(return_value_IsClient$1 == (_Bool)0))
+    _Bool return_value_IsClient_1;
+    return_value_IsClient_1=IsClient(tunnel);
+    if(!(return_value_IsClient_1 == (_Bool)0))
     {
       if(s.up != (_Bool)0)
         goto __CPROVER_DUMP_L2;
@@ -5084,9 +5084,9 @@ signed int teredo_transmit(struct teredo_tunnel * restrict tunnel, struct ip6_hd
       ;
       if(!(dst->teredo.prefix == s.addr.teredo.prefix))
       {
-        _Bool return_value_IsClient$2;
-        return_value_IsClient$2=IsClient(tunnel);
-        if(!(return_value_IsClient$2 == (_Bool)0))
+        _Bool return_value_IsClient_2;
+        return_value_IsClient_2=IsClient(tunnel);
+        if(!(return_value_IsClient_2 == (_Bool)0))
         {
           union teredo_addr *src = (union teredo_addr *)&packet->ip6_src;
           if(!(src->teredo.prefix == s.addr.teredo.prefix))
@@ -5107,9 +5107,9 @@ signed int teredo_transmit(struct teredo_tunnel * restrict tunnel, struct ip6_hd
       else
       {
         unsigned int peer_server = (&((union teredo_addr *)dst)->teredo)->server_ip;
-        signed int return_value_is_ipv4_global_unicast$3;
-        return_value_is_ipv4_global_unicast$3=is_ipv4_global_unicast(peer_server);
-        if(return_value_is_ipv4_global_unicast$3 == 0 || peer_server == 0u)
+        signed int return_value_is_ipv4_global_unicast_3;
+        return_value_is_ipv4_global_unicast_3=is_ipv4_global_unicast(peer_server);
+        if(return_value_is_ipv4_global_unicast_3 == 0 || peer_server == 0u)
           return 0;
 
       }
@@ -5128,11 +5128,11 @@ signed int teredo_transmit(struct teredo_tunnel * restrict tunnel, struct ip6_hd
         {
           if(!(p->trusted == 0u))
           {
-            return_value_IsValid$5=IsValid(p, now);
-            if(!(return_value_IsValid$5 == (_Bool)0))
+            return_value_IsValid_5=IsValid(p, now);
+            if(!(return_value_IsValid_5 == (_Bool)0))
             {
-              return_value_teredo_encap$4=teredo_encap(tunnel, p, (const void *)packet, length, now);
-              return return_value_teredo_encap$4;
+              return_value_teredo_encap_4=teredo_encap(tunnel, p, (const void *)packet, length, now);
+              return return_value_teredo_encap_4;
             }
 
           }
@@ -5147,7 +5147,7 @@ signed int teredo_transmit(struct teredo_tunnel * restrict tunnel, struct ip6_hd
         }
         if(!(dst->teredo.prefix == s.addr.teredo.prefix))
         {
-          signed int teredo_transmit$$1$$6$$res;
+          signed int teredo_transmit__1__6__res;
           if(!(created == (_Bool)0))
           {
             p->mapped_port = (unsigned short int)0;
@@ -5155,12 +5155,12 @@ signed int teredo_transmit(struct teredo_tunnel * restrict tunnel, struct ip6_hd
           }
 
           teredo_enqueue_out(p, (const void *)packet, length);
-          teredo_transmit$$1$$6$$res=CountPing(p, now);
+          teredo_transmit__1__6__res=CountPing(p, now);
           teredo_list_release(list);
-          if(teredo_transmit$$1$$6$$res == 0)
-            teredo_transmit$$1$$6$$res=SendPing(tunnel->fd, &s.addr, &dst->ip6);
+          if(teredo_transmit__1__6__res == 0)
+            teredo_transmit__1__6__res=SendPing(tunnel->fd, &s.addr, &dst->ip6);
 
-          if(teredo_transmit$$1$$6$$res == -1)
+          if(teredo_transmit__1__6__res == -1)
             teredo_send_unreach(tunnel, (unsigned char)3, packet, length);
 
           return 0;
@@ -5182,19 +5182,19 @@ signed int teredo_transmit(struct teredo_tunnel * restrict tunnel, struct ip6_hd
 
         else
         {
-          unsigned short int return_value_htons$7;
-          return_value_htons$7=htons((unsigned short int)0x8000);
-          if(((signed int)s.addr.teredo.flags & (signed int)return_value_htons$7) == 0)
+          unsigned short int return_value_htons_7;
+          return_value_htons_7=htons((unsigned short int)0x8000);
+          if(((signed int)s.addr.teredo.flags & (signed int)return_value_htons_7) == 0)
           {
-            return_value_SendBubbleFromDst$6=SendBubbleFromDst(tunnel->fd, &dst->ip6, (_Bool)0);
-            if(!(return_value_SendBubbleFromDst$6 == 0))
+            return_value_SendBubbleFromDst_6=SendBubbleFromDst(tunnel->fd, &dst->ip6, (_Bool)0);
+            if(!(return_value_SendBubbleFromDst_6 == 0))
               return -1;
 
           }
 
-          signed int return_value_SendBubbleFromDst$8;
-          return_value_SendBubbleFromDst$8=SendBubbleFromDst(tunnel->fd, &dst->ip6, (_Bool)1);
-          return return_value_SendBubbleFromDst$8;
+          signed int return_value_SendBubbleFromDst_8;
+          return_value_SendBubbleFromDst_8=SendBubbleFromDst(tunnel->fd, &dst->ip6, (_Bool)1);
+          return return_value_SendBubbleFromDst_8;
 
         __CPROVER_DUMP_L20:
           ;
@@ -5210,9 +5210,9 @@ signed int teredo_transmit(struct teredo_tunnel * restrict tunnel, struct ip6_hd
 // file security.c line 199
 signed int teredo_verify_pinghash(unsigned int now, struct in6_addr *src, struct in6_addr *dst, const unsigned char * restrict hash)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)hash, (const void *)&hmac_pid, sizeof(unsigned short int) /*2ul*/ );
-  if(!(return_value_memcmp$1 == 0))
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)hash, (const void *)&hmac_pid, sizeof(unsigned short int) /*2ul*/ );
+  if(!(return_value_memcmp_1 == 0))
     return -1;
 
   else
@@ -5223,18 +5223,18 @@ signed int teredo_verify_pinghash(unsigned int now, struct in6_addr *src, struct
     hash = hash + (signed long int)2;
     memcpy((void *)&timestamp, (const void *)hash, (unsigned long int)2);
     hash = hash + (signed long int)2;
-    unsigned int return_value_ntohl$2;
-    return_value_ntohl$2=ntohl(timestamp);
-    if((now + -return_value_ntohl$2 & 0xffffffff) >= 30u)
+    unsigned int return_value_ntohl_2;
+    return_value_ntohl_2=ntohl(timestamp);
+    if((now + -return_value_ntohl_2 & 0xffffffff) >= 30u)
       return -1;
 
     else
     {
       unsigned char h1[16l];
       teredo_pinghash(src, dst, h1, timestamp);
-      signed int return_value_memcmp$3;
-      return_value_memcmp$3=memcmp((const void *)h1, (const void *)hash, (unsigned long int)16);
-      return return_value_memcmp$3 != 0 ? -1 : 0;
+      signed int return_value_memcmp_3;
+      return_value_memcmp_3=memcmp((const void *)h1, (const void *)hash, (unsigned long int)16);
+      return return_value_memcmp_3 != 0 ? -1 : 0;
     }
   }
 }
@@ -5243,9 +5243,9 @@ signed int teredo_verify_pinghash(unsigned int now, struct in6_addr *src, struct
 // file teredo-udp.h line 145
 signed int teredo_wait_recv(signed int fd, struct teredo_packet *p)
 {
-  signed int return_value_teredo_recv_inner$1;
-  return_value_teredo_recv_inner$1=teredo_recv_inner(fd, p, 0);
-  return return_value_teredo_recv_inner$1;
+  signed int return_value_teredo_recv_inner_1;
+  return_value_teredo_recv_inner_1=teredo_recv_inner(fd, p, 0);
+  return return_value_teredo_recv_inner_1;
 }
 
 // wait_reply
@@ -5254,9 +5254,9 @@ static signed int wait_reply(struct teredo_maintenance * restrict m, struct time
 {
   while(m->incoming == ((const struct teredo_packet *)NULL))
   {
-    signed int return_value_pthread_cond_timedwait$1;
-    return_value_pthread_cond_timedwait$1=pthread_cond_timedwait(&m->received, &m->inner, deadline);
-    switch(return_value_pthread_cond_timedwait$1)
+    signed int return_value_pthread_cond_timedwait_1;
+    return_value_pthread_cond_timedwait_1=pthread_cond_timedwait(&m->received, &m->inner, deadline);
+    switch(return_value_pthread_cond_timedwait_1)
     {
       case 0:
         goto __CPROVER_DUMP_L4;
@@ -5275,11 +5275,11 @@ static signed int wait_reply(struct teredo_maintenance * restrict m, struct time
 // file maintain.c line 184
 static void wait_reply_ignore(struct teredo_maintenance * restrict m, struct timespec * restrict deadline)
 {
-  signed int return_value_wait_reply$1;
+  signed int return_value_wait_reply_1;
   do
   {
-    return_value_wait_reply$1=wait_reply(m, deadline);
-    if(!(return_value_wait_reply$1 == 0))
+    return_value_wait_reply_1=wait_reply(m, deadline);
+    if(!(return_value_wait_reply_1 == 0))
       break;
 
     m->incoming = (const struct teredo_packet *)(void *)0;

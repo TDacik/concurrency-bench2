@@ -1,34 +1,34 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__bits'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__bits'|]
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 125
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR8{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -167,9 +167,9 @@ static signed int blocks_free(struct pool *pool, unsigned int pool_idx, unsigned
 // blocks_iter
 // file smalloc.c line 103
 static signed int blocks_iter(struct pool *pool, unsigned int pool_idx, unsigned int idx, unsigned long int nr_blocks, signed int (*func)(unsigned int *, unsigned int));
-// blocks_iter::func$object
+// blocks_iter::func_object
 //
-signed int func$object(unsigned int *, unsigned int);
+signed int func_object(unsigned int *, unsigned int);
 // calibrate_cpu_clock
 // file gettime.c line 262
 static signed int calibrate_cpu_clock(void);
@@ -214,10 +214,10 @@ static signed int find_next_zero(signed int word, signed int start);
 extern void fio_clock_init(void);
 // fio_cpuset_exit
 // file os/os-linux.h line 74
-static inline signed int fio_cpuset_exit(struct anonymous$5 *mask);
+static inline signed int fio_cpuset_exit(struct anonymous_5 *mask);
 // fio_cpuset_init
 // file os/os-linux.h line 68
-static inline signed int fio_cpuset_init(struct anonymous$5 *mask);
+static inline signed int fio_cpuset_init(struct anonymous_5 *mask);
 // fio_gettime
 // file gettime.c line 214
 extern void fio_gettime(struct timeval *tp, void *caller);
@@ -361,19 +361,19 @@ static void * postred_ptr(struct block_hdr *hdr);
 static inline signed int printf(const char * restrict __fmt, ...);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$1 *);
+extern signed int pthread_cond_destroy(union anonymous_1 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$1 *, const union anonymous *);
+extern signed int pthread_cond_init(union anonymous_1 *, const union anonymous *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$1 *);
+extern signed int pthread_cond_signal(union anonymous_1 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$1 *, union anonymous$0 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_1 *, union anonymous_0 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$1 *, union anonymous$0 *);
+extern signed int pthread_cond_wait(union anonymous_1 *, union anonymous_0 *);
 // pthread_condattr_destroy
 // file /usr/include/pthread.h line 1014
 extern signed int pthread_condattr_destroy(union anonymous *);
@@ -391,13 +391,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
 extern signed int pthread_mutexattr_destroy(union anonymous *);
@@ -409,25 +409,25 @@ extern signed int pthread_mutexattr_init(union anonymous *);
 extern signed int pthread_mutexattr_setpshared(union anonymous *, signed int);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 890
-extern signed int pthread_rwlock_init(union anonymous$3 *, const union anonymous$4 *);
+extern signed int pthread_rwlock_init(union anonymous_3 *, const union anonymous_4 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$3 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_3 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$3 *);
+extern signed int pthread_rwlock_unlock(union anonymous_3 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$3 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_3 *);
 // pthread_rwlockattr_destroy
 // file /usr/include/pthread.h line 940
-extern signed int pthread_rwlockattr_destroy(union anonymous$4 *);
+extern signed int pthread_rwlockattr_destroy(union anonymous_4 *);
 // pthread_rwlockattr_init
 // file /usr/include/pthread.h line 936
-extern signed int pthread_rwlockattr_init(union anonymous$4 *);
+extern signed int pthread_rwlockattr_init(union anonymous_4 *);
 // pthread_rwlockattr_setpshared
 // file /usr/include/pthread.h line 950
-extern signed int pthread_rwlockattr_setpshared(union anonymous$4 *, signed int);
+extern signed int pthread_rwlockattr_setpshared(union anonymous_4 *, signed int);
 // ptr_valid
 // file smalloc.c line 91
 static inline signed int ptr_valid(struct pool *pool, void *ptr);
@@ -442,7 +442,7 @@ extern signed int rand(void);
 extern void * scalloc(unsigned long int nmemb, unsigned long int size);
 // sched_setaffinity
 // file /usr/include/sched.h line 118
-extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous$5 *);
+extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous_5 *);
 // scleanup
 // file t/../smalloc.h line 9
 extern void scleanup(void);
@@ -504,13 +504,13 @@ extern unsigned long int utime_since_now(struct timeval *s);
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 74
 static inline signed int vsnprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, void **__ap);
 
-struct anonymous$5
+struct anonymous_5
 {
   // __bits
   unsigned long int __bits[16l];
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // __lock
   signed int __lock;
@@ -530,7 +530,7 @@ struct anonymous$6
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -566,7 +566,7 @@ union anonymous
   signed int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[8l];
@@ -574,20 +574,20 @@ union anonymous$4
   signed long int __align;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$6 __data;
+  struct anonymous_6 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[56l];
   // __align
@@ -622,7 +622,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -731,9 +731,9 @@ struct clock_thread
   // debug
   signed int debug;
   // lock
-  union anonymous$0 lock;
+  union anonymous_0 lock;
   // started
-  union anonymous$0 started;
+  union anonymous_0 started;
   // nr_entries
   unsigned long int nr_entries;
   // seq
@@ -763,9 +763,9 @@ struct elem
 struct fio_mutex
 {
   // lock
-  union anonymous$0 lock;
+  union anonymous_0 lock;
   // cond
-  union anonymous$1 cond;
+  union anonymous_1 cond;
   // value
   signed int value;
   // waiters
@@ -777,7 +777,7 @@ struct fio_mutex
 struct fio_rwlock
 {
   // lock
-  union anonymous$3 lock;
+  union anonymous_3 lock;
   // magic
   signed int magic;
 };
@@ -925,7 +925,7 @@ void __dprint(signed int type, const char *str, ...)
 static void __fio_gettime(struct timeval *tp)
 {
   struct timespec ts;
-  signed int return_value_fill_clock_gettime$1;
+  signed int return_value_fill_clock_gettime_1;
   unsigned long int usecs;
   unsigned long int t;
   struct tv_valid *tv;
@@ -938,8 +938,8 @@ static void __fio_gettime(struct timeval *tp)
     }
     case CS_CGETTIME:
     {
-      return_value_fill_clock_gettime$1=fill_clock_gettime(&ts);
-      if(!(return_value_fill_clock_gettime$1 >= 0))
+      return_value_fill_clock_gettime_1=fill_clock_gettime(&ts);
+      if(!(return_value_fill_clock_gettime_1 >= 0))
       {
         log_err("fio: clock_gettime fails\n");
         /* assertion 0 */
@@ -997,18 +997,18 @@ extern signed int __fio_mutex_init(struct fio_mutex *mutex, signed int value)
   ret=pthread_mutexattr_init(&attr);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    log_err("pthread_mutexattr_init: %s\n", return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    log_err("pthread_mutexattr_init: %s\n", return_value_strerror_1);
     return ret;
   }
 
   ret=pthread_mutexattr_setpshared(&attr, 1);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    log_err("pthread_mutexattr_setpshared: %s\n", return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    log_err("pthread_mutexattr_setpshared: %s\n", return_value_strerror_2);
     return ret;
   }
 
@@ -1018,9 +1018,9 @@ extern signed int __fio_mutex_init(struct fio_mutex *mutex, signed int value)
   ret=pthread_mutex_init(&mutex->lock, &attr);
   if(!(ret == 0))
   {
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(ret);
-    log_err("pthread_mutex_init: %s\n", return_value_strerror$3);
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(ret);
+    log_err("pthread_mutex_init: %s\n", return_value_strerror_3);
     return ret;
   }
 
@@ -1084,12 +1084,12 @@ static void * __smalloc_pool(struct pool *pool, unsigned long int size)
 
       else
       {
-        signed int return_value_find_next_zero$1;
-        return_value_find_next_zero$1=find_next_zero((signed int)pool->bitmap[(signed long int)i], (signed int)last_idx);
-        idx = (unsigned int)return_value_find_next_zero$1;
-        signed int return_value_blocks_free$2;
-        return_value_blocks_free$2=blocks_free(pool, i, idx, nr_blocks);
-        if(return_value_blocks_free$2 == 0)
+        signed int return_value_find_next_zero_1;
+        return_value_find_next_zero_1=find_next_zero((signed int)pool->bitmap[(signed long int)i], (signed int)last_idx);
+        idx = (unsigned int)return_value_find_next_zero_1;
+        signed int return_value_blocks_free_2;
+        return_value_blocks_free_2=blocks_free(pool, i, idx, nr_blocks);
+        if(return_value_blocks_free_2 == 0)
         {
           idx = idx + (unsigned int)nr_blocks;
           if(!((unsigned long int)idx >= sizeof(unsigned int) * 8 /*32ul*/ ))
@@ -1185,22 +1185,22 @@ static inline unsigned long int arch_ffz(unsigned long int bitmask)
 // file gettime.c line 477
 static inline unsigned int atomic32_inc_return(unsigned int *seq)
 {
-  unsigned int return_value___sync_fetch_and_add$1;
+  unsigned int return_value___sync_fetch_and_add_1;
   __CPROVER_atomic_begin();
-  return_value___sync_fetch_and_add$1 = *seq;
+  return_value___sync_fetch_and_add_1 = *seq;
   *seq = *seq + (unsigned int)1;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (unsigned int)1 + return_value___sync_fetch_and_add$1;
+  return (unsigned int)1 + return_value___sync_fetch_and_add_1;
 }
 
 // blocks_free
 // file smalloc.c line 158
 static signed int blocks_free(struct pool *pool, unsigned int pool_idx, unsigned int idx, unsigned long int nr_blocks)
 {
-  signed int return_value_blocks_iter$1;
-  return_value_blocks_iter$1=blocks_iter(pool, pool_idx, idx, nr_blocks, mask_cmp);
-  return return_value_blocks_iter$1;
+  signed int return_value_blocks_iter_1;
+  return_value_blocks_iter_1=blocks_iter(pool, pool_idx, idx, nr_blocks, mask_cmp);
+  return return_value_blocks_iter_1;
 }
 
 // blocks_iter
@@ -1270,8 +1270,8 @@ static signed int calibrate_cpu_clock(void)
     }
 
   }
-  unsigned long int tmp_statement_expression$1;
-  unsigned long int tmp_statement_expression$2;
+  unsigned long int tmp_statement_expression_1;
+  unsigned long int tmp_statement_expression_2;
   if(cycles[0l] == 0ul)
   {
     if(!(cycles[49l] == 0ul))
@@ -1297,18 +1297,18 @@ static signed int calibrate_cpu_clock(void)
       unsigned long int _x = cycles[(signed long int)i];
       unsigned long int _y = minc;
       (void)(&_x == &_y);
-      tmp_statement_expression$1 = _x < _y ? _x : _y;
-      minc = tmp_statement_expression$1;
-      unsigned long int calibrate_cpu_clock$$1$$2$$1$$2$$_x = cycles[(signed long int)i];
-      unsigned long int calibrate_cpu_clock$$1$$2$$1$$2$$_y = maxc;
-      (void)(&calibrate_cpu_clock$$1$$2$$1$$2$$_x == &calibrate_cpu_clock$$1$$2$$1$$2$$_y);
-      tmp_statement_expression$2 = calibrate_cpu_clock$$1$$2$$1$$2$$_x > calibrate_cpu_clock$$1$$2$$1$$2$$_y ? calibrate_cpu_clock$$1$$2$$1$$2$$_x : calibrate_cpu_clock$$1$$2$$1$$2$$_y;
-      maxc = tmp_statement_expression$2;
-      double return_value_fmax$3;
-      return_value_fmax$3=fmax(this, mean);
-      double return_value_fmin$4;
-      return_value_fmin$4=fmin(this, mean);
-      if(!(return_value_fmax$3 + -return_value_fmin$4 > S))
+      tmp_statement_expression_1 = _x < _y ? _x : _y;
+      minc = tmp_statement_expression_1;
+      unsigned long int calibrate_cpu_clock__1__2__1__2___x = cycles[(signed long int)i];
+      unsigned long int calibrate_cpu_clock__1__2__1__2___y = maxc;
+      (void)(&calibrate_cpu_clock__1__2__1__2___x == &calibrate_cpu_clock__1__2__1__2___y);
+      tmp_statement_expression_2 = calibrate_cpu_clock__1__2__1__2___x > calibrate_cpu_clock__1__2__1__2___y ? calibrate_cpu_clock__1__2__1__2___x : calibrate_cpu_clock__1__2__1__2___y;
+      maxc = tmp_statement_expression_2;
+      double return_value_fmax_3;
+      return_value_fmax_3=fmax(this, mean);
+      double return_value_fmin_4;
+      return_value_fmin_4=fmin(this, mean);
+      if(!(return_value_fmax_3 + -return_value_fmin_4 > S))
       {
         samples = samples + 1;
         avg = avg + (unsigned long int)this;
@@ -1391,42 +1391,42 @@ static void * clock_thread_fn(void *data)
 {
   struct clock_thread *t = (struct clock_thread *)data;
   struct clock_entry *c;
-  struct anonymous$5 cpu_mask;
+  struct anonymous_5 cpu_mask;
   unsigned int last_seq;
   signed int i;
-  signed int return_value_fio_cpuset_init$3;
-  return_value_fio_cpuset_init$3=fio_cpuset_init(&cpu_mask);
-  if(!(return_value_fio_cpuset_init$3 == 0))
+  signed int return_value_fio_cpuset_init_3;
+  return_value_fio_cpuset_init_3=fio_cpuset_init(&cpu_mask);
+  if(!(return_value_fio_cpuset_init_3 == 0))
   {
     signed int __err;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    __err = *return_value___errno_location$1;
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(__err);
-    log_err("clock cpuset init failed: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    __err = *return_value___errno_location_1;
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(__err);
+    log_err("clock cpuset init failed: %s\n", return_value_strerror_2);
     goto err_out;
   }
 
   unsigned long int __cpu = (unsigned long int)t->cpu;
-  if(!(__cpu / 8ul >= sizeof(struct anonymous$5) /*128ul*/ ))
+  if(!(__cpu / 8ul >= sizeof(struct anonymous_5) /*128ul*/ ))
     ((unsigned long int *)(&cpu_mask)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] = ((unsigned long int *)(&cpu_mask)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] | (unsigned long int)1 << __cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ );
 
   else
     (unsigned long int)0;
-  signed int return_value_gettid$6;
-  return_value_gettid$6=gettid();
-  signed int return_value_sched_setaffinity$7;
-  return_value_sched_setaffinity$7=sched_setaffinity(return_value_gettid$6, sizeof(struct anonymous$5) /*128ul*/ , &cpu_mask);
-  if(return_value_sched_setaffinity$7 == -1)
+  signed int return_value_gettid_6;
+  return_value_gettid_6=gettid();
+  signed int return_value_sched_setaffinity_7;
+  return_value_sched_setaffinity_7=sched_setaffinity(return_value_gettid_6, sizeof(struct anonymous_5) /*128ul*/ , &cpu_mask);
+  if(return_value_sched_setaffinity_7 == -1)
   {
-    signed int clock_thread_fn$$1$$3$$__err;
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    clock_thread_fn$$1$$3$$__err = *return_value___errno_location$4;
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(clock_thread_fn$$1$$3$$__err);
-    log_err("clock setaffinity failed: %s\n", return_value_strerror$5);
+    signed int clock_thread_fn__1__3____err;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    clock_thread_fn__1__3____err = *return_value___errno_location_4;
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(clock_thread_fn__1__3____err);
+    log_err("clock setaffinity failed: %s\n", return_value_strerror_5);
     goto err;
   }
 
@@ -1482,9 +1482,9 @@ err_out:
 // file os/os.h line 342
 static inline unsigned int cpus_online(void)
 {
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(84);
-  return (unsigned int)return_value_sysconf$1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(84);
+  return (unsigned int)return_value_sysconf_1;
 }
 
 // debug_init
@@ -1503,26 +1503,26 @@ static signed int do_rand_allocs(void)
   unsigned int rounds = (unsigned int)0;
   unsigned long int total;
   struct elem *e;
-  unsigned int tmp_post$1;
-  signed int return_value_flist_empty$4;
-  struct elem *tmp_statement_expression$5;
+  unsigned int tmp_post_1;
+  signed int return_value_flist_empty_4;
+  struct elem *tmp_statement_expression_5;
   do
   {
-    tmp_post$1 = rounds;
+    tmp_post_1 = rounds;
     rounds = rounds + 1u;
-    if(tmp_post$1 >= 32u)
+    if(tmp_post_1 >= 32u)
       break;
 
     total = (unsigned long int)0;
     nr = (unsigned int)total;
     while(!(total >= 1024UL))
     {
-      signed int return_value_rand$2;
-      return_value_rand$2=rand();
-      size = (unsigned int)((unsigned long int)8 * sizeof(struct elem) /*32ul*/  + (unsigned long int)(signed int)(999.0 * ((double)return_value_rand$2 / ((double)2147483647 + 1.0))));
-      void *return_value_smalloc$3;
-      return_value_smalloc$3=smalloc((unsigned long int)size);
-      e = (struct elem *)return_value_smalloc$3;
+      signed int return_value_rand_2;
+      return_value_rand_2=rand();
+      size = (unsigned int)((unsigned long int)8 * sizeof(struct elem) /*32ul*/  + (unsigned long int)(signed int)(999.0 * ((double)return_value_rand_2 / ((double)2147483647 + 1.0))));
+      void *return_value_smalloc_3;
+      return_value_smalloc_3=smalloc((unsigned long int)size);
+      e = (struct elem *)return_value_smalloc_3;
       if(e == ((struct elem *)NULL))
       {
         printf("fail at %lu, size %u\n", total, size);
@@ -1538,13 +1538,13 @@ static signed int do_rand_allocs(void)
     printf("Got items: %u\n", nr);
     do
     {
-      return_value_flist_empty$4=flist_empty(&list);
-      if(!(return_value_flist_empty$4 == 0))
+      return_value_flist_empty_4=flist_empty(&list);
+      if(!(return_value_flist_empty_4 == 0))
         break;
 
       const struct flist_head *__mptr = list.next;
-      tmp_statement_expression$5 = (struct elem *)((char *)__mptr - (signed long int)(unsigned long int)&((struct elem *)0)->list);
-      e = tmp_statement_expression$5;
+      tmp_statement_expression_5 = (struct elem *)((char *)__mptr - (signed long int)(unsigned long int)&((struct elem *)0)->list);
+      e = tmp_statement_expression_5;
       /* assertion e->magic1 == 0xa9b1c8d2 */
       assert(e->magic1 == 0xa9b1c8d2);
       /* assertion e->magic2 == 0xf0a1e9b3 */
@@ -1572,9 +1572,9 @@ static signed int do_specific_alloc(unsigned long int size)
 // file gettime.c line 134
 static signed int fill_clock_gettime(struct timespec *ts)
 {
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$1=clock_gettime(4, ts);
-  return return_value_clock_gettime$1;
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_1=clock_gettime(4, ts);
+  return return_value_clock_gettime_1;
 }
 
 // fill_redzone
@@ -1582,9 +1582,9 @@ static signed int fill_clock_gettime(struct timespec *ts)
 static void fill_redzone(struct block_hdr *hdr)
 {
   unsigned int *postred;
-  void *return_value_postred_ptr$1;
-  return_value_postred_ptr$1=postred_ptr(hdr);
-  postred = (unsigned int *)return_value_postred_ptr$1;
+  void *return_value_postred_ptr_1;
+  return_value_postred_ptr_1=postred_ptr(hdr);
+  postred = (unsigned int *)return_value_postred_ptr_1;
   hdr->prered = 0xdeadbeefU;
   *postred = 0x5aa55aa5U;
 }
@@ -1596,30 +1596,30 @@ static signed int find_next_zero(signed int word, signed int start)
   /* assertion word != -1U */
   assert((unsigned int)word != -1U);
   word = word >> start;
-  unsigned long int return_value_arch_ffz$1;
-  return_value_arch_ffz$1=arch_ffz((unsigned long int)word);
-  return (signed int)(return_value_arch_ffz$1 + (unsigned long int)start);
+  unsigned long int return_value_arch_ffz_1;
+  return_value_arch_ffz_1=arch_ffz((unsigned long int)word);
+  return (signed int)(return_value_arch_ffz_1 + (unsigned long int)start);
 }
 
 // fio_clock_init
 // file gettime.c line 361
 extern void fio_clock_init(void)
 {
-  signed int return_value_fio_monotonic_clocktest$2;
+  signed int return_value_fio_monotonic_clocktest_2;
   if(!(fio_clock_source == fio_clock_source_inited))
   {
     fio_clock_source_inited = fio_clock_source;
-    signed int return_value_calibrate_cpu_clock$1;
-    return_value_calibrate_cpu_clock$1=calibrate_cpu_clock();
-    if(!(return_value_calibrate_cpu_clock$1 == 0))
+    signed int return_value_calibrate_cpu_clock_1;
+    return_value_calibrate_cpu_clock_1=calibrate_cpu_clock();
+    if(!(return_value_calibrate_cpu_clock_1 == 0))
       tsc_reliable = 0;
 
     if(!(tsc_reliable == 0))
     {
       if(fio_clock_source_set == 0)
       {
-        return_value_fio_monotonic_clocktest$2=fio_monotonic_clocktest(0);
-        if(return_value_fio_monotonic_clocktest$2 == 0)
+        return_value_fio_monotonic_clocktest_2=fio_monotonic_clocktest(0);
+        if(return_value_fio_monotonic_clocktest_2 == 0)
           fio_clock_source = (enum fio_cs)CS_CPUCLOCK;
 
       }
@@ -1636,17 +1636,17 @@ extern void fio_clock_init(void)
 
 // fio_cpuset_exit
 // file os/os-linux.h line 74
-static inline signed int fio_cpuset_exit(struct anonymous$5 *mask)
+static inline signed int fio_cpuset_exit(struct anonymous_5 *mask)
 {
   return 0;
 }
 
 // fio_cpuset_init
 // file os/os-linux.h line 68
-static inline signed int fio_cpuset_init(struct anonymous$5 *mask)
+static inline signed int fio_cpuset_init(struct anonymous_5 *mask)
 {
   do
-    __builtin_memset((void *)mask, 0, sizeof(struct anonymous$5) /*128ul*/ );
+    __builtin_memset((void *)mask, 0, sizeof(struct anonymous_5) /*128ul*/ );
   while((_Bool)0);
   return 0;
 }
@@ -1655,9 +1655,9 @@ static inline signed int fio_cpuset_init(struct anonymous$5 *mask)
 // file gettime.c line 214
 extern void fio_gettime(struct timeval *tp, void *caller)
 {
-  signed int return_value_fio_gettime_offload$1;
-  return_value_fio_gettime_offload$1=fio_gettime_offload(tp);
-  if(return_value_fio_gettime_offload$1 == 0)
+  signed int return_value_fio_gettime_offload_1;
+  return_value_fio_gettime_offload_1=fio_gettime_offload(tp);
+  if(return_value_fio_gettime_offload_1 == 0)
     __fio_gettime(tp);
 
 }
@@ -1719,13 +1719,13 @@ extern signed int fio_monotonic_clocktest(signed int debug)
   if(!(debug == 0))
     fio_debug = fio_debug & (unsigned long int)~(1U << 12);
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)nr_cpus * sizeof(struct clock_thread) /*120ul*/ );
-  cthreads = (struct clock_thread *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)nr_cpus * sizeof(struct clock_thread) /*120ul*/ );
+  cthreads = (struct clock_thread *)return_value_malloc_1;
   tentries = nr_entries * (unsigned long int)nr_cpus;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(tentries * sizeof(struct clock_entry) /*16ul*/ );
-  entries = (struct clock_entry *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(tentries * sizeof(struct clock_entry) /*16ul*/ );
+  entries = (struct clock_entry *)return_value_malloc_2;
   if(!(debug == 0))
     log_info("cs: Testing %u CPUs\n", nr_cpus);
 
@@ -1741,9 +1741,9 @@ extern signed int fio_monotonic_clocktest(signed int debug)
     pthread_mutex_init(&t->lock, (const union anonymous *)(void *)0);
     pthread_mutex_init(&t->started, (const union anonymous *)(void *)0);
     pthread_mutex_lock(&t->lock);
-    signed int return_value_pthread_create$3;
-    return_value_pthread_create$3=pthread_create(&t->thread, (const union pthread_attr_t *)(void *)0, clock_thread_fn, (void *)t);
-    if(!(return_value_pthread_create$3 == 0))
+    signed int return_value_pthread_create_3;
+    return_value_pthread_create_3=pthread_create(&t->thread, (const union pthread_attr_t *)(void *)0, clock_thread_fn, (void *)t);
+    if(!(return_value_pthread_create_3 == 0))
     {
       failed = failed + 1ul;
       nr_cpus = i;
@@ -1754,21 +1754,21 @@ extern signed int fio_monotonic_clocktest(signed int debug)
   i = (unsigned int)0;
   for( ; !(i >= nr_cpus); i = i + 1u)
   {
-    struct clock_thread *fio_monotonic_clocktest$$1$$4$$1$$t = &cthreads[(signed long int)i];
-    pthread_mutex_lock(&fio_monotonic_clocktest$$1$$4$$1$$t->started);
+    struct clock_thread *fio_monotonic_clocktest__1__4__1__t = &cthreads[(signed long int)i];
+    pthread_mutex_lock(&fio_monotonic_clocktest__1__4__1__t->started);
   }
   i = (unsigned int)0;
   for( ; !(i >= nr_cpus); i = i + 1u)
   {
-    struct clock_thread *fio_monotonic_clocktest$$1$$5$$1$$t = &cthreads[(signed long int)i];
-    pthread_mutex_unlock(&fio_monotonic_clocktest$$1$$5$$1$$t->lock);
+    struct clock_thread *fio_monotonic_clocktest__1__5__1__t = &cthreads[(signed long int)i];
+    pthread_mutex_unlock(&fio_monotonic_clocktest__1__5__1__t->lock);
   }
   i = (unsigned int)0;
   for( ; !(i >= nr_cpus); i = i + 1u)
   {
-    struct clock_thread *fio_monotonic_clocktest$$1$$6$$1$$t = &cthreads[(signed long int)i];
+    struct clock_thread *fio_monotonic_clocktest__1__6__1__t = &cthreads[(signed long int)i];
     void *ret;
-    pthread_join(fio_monotonic_clocktest$$1$$6$$1$$t->thread, &ret);
+    pthread_join(fio_monotonic_clocktest__1__6__1__t->thread, &ret);
     if(!(ret == NULL))
       failed = failed + 1ul;
 
@@ -1859,7 +1859,7 @@ extern signed int fio_mutex_down_timeout(struct fio_mutex *mutex, unsigned int s
   t.tv_sec = tv_s.tv_sec + (signed long int)seconds;
   t.tv_nsec = tv_s.tv_usec * (signed long int)1000;
   pthread_mutex_lock(&mutex->lock);
-  signed int return_value_mutex_timed_out$1;
+  signed int return_value_mutex_timed_out_1;
   while(mutex->value == 0)
   {
     if(!(ret == 0))
@@ -1869,8 +1869,8 @@ extern signed int fio_mutex_down_timeout(struct fio_mutex *mutex, unsigned int s
     ret=pthread_cond_timedwait(&mutex->cond, &mutex->lock, &t);
     if(ret == 110)
     {
-      return_value_mutex_timed_out$1=mutex_timed_out(&tv_s, seconds);
-      if(return_value_mutex_timed_out$1 == 0)
+      return_value_mutex_timed_out_1=mutex_timed_out(&tv_s, seconds);
+      if(return_value_mutex_timed_out_1 == 0)
         ret = 0;
 
     }
@@ -1909,9 +1909,9 @@ extern signed int fio_mutex_down_trylock(struct fio_mutex *mutex)
 extern struct fio_mutex * fio_mutex_init(signed int value)
 {
   struct fio_mutex *mutex = (struct fio_mutex *)(void *)0;
-  void *return_value_mmap$1;
-  return_value_mmap$1=mmap((void *)0, sizeof(struct fio_mutex) /*104ul*/ , 0x1 | 0x2, 0x20 | 0x01, -1, (signed long int)0);
-  mutex = (struct fio_mutex *)(void *)return_value_mmap$1;
+  void *return_value_mmap_1;
+  return_value_mmap_1=mmap((void *)0, sizeof(struct fio_mutex) /*104ul*/ , 0x1 | 0x2, 0x20 | 0x01, -1, (signed long int)0);
+  mutex = (struct fio_mutex *)(void *)return_value_mmap_1;
   if(mutex == (struct fio_mutex *)-1)
   {
     perror("mmap mutex");
@@ -1920,9 +1920,9 @@ extern struct fio_mutex * fio_mutex_init(signed int value)
 
   else
   {
-    signed int return_value___fio_mutex_init$2;
-    return_value___fio_mutex_init$2=__fio_mutex_init(mutex, value);
-    if(return_value___fio_mutex_init$2 == 0)
+    signed int return_value___fio_mutex_init_2;
+    return_value___fio_mutex_init_2=__fio_mutex_init(mutex, value);
+    if(return_value___fio_mutex_init_2 == 0)
       return mutex;
 
     else
@@ -1968,50 +1968,50 @@ extern void fio_mutex_up(struct fio_mutex *mutex)
 // file mutex.c line 209
 extern struct fio_rwlock * fio_rwlock_init(void)
 {
-  struct fio_rwlock *fio_rwlock_init$$1$$lock;
-  union anonymous$4 attr;
+  struct fio_rwlock *fio_rwlock_init__1__lock;
+  union anonymous_4 attr;
   signed int ret;
-  void *return_value_mmap$1;
-  return_value_mmap$1=mmap((void *)0, sizeof(struct fio_rwlock) /*64ul*/ , 0x1 | 0x2, 0x20 | 0x01, -1, (signed long int)0);
-  fio_rwlock_init$$1$$lock = (struct fio_rwlock *)(void *)return_value_mmap$1;
-  if(fio_rwlock_init$$1$$lock == (struct fio_rwlock *)-1)
+  void *return_value_mmap_1;
+  return_value_mmap_1=mmap((void *)0, sizeof(struct fio_rwlock) /*64ul*/ , 0x1 | 0x2, 0x20 | 0x01, -1, (signed long int)0);
+  fio_rwlock_init__1__lock = (struct fio_rwlock *)(void *)return_value_mmap_1;
+  if(fio_rwlock_init__1__lock == (struct fio_rwlock *)-1)
   {
     perror("mmap rwlock");
-    fio_rwlock_init$$1$$lock = (struct fio_rwlock *)(void *)0;
+    fio_rwlock_init__1__lock = (struct fio_rwlock *)(void *)0;
   }
 
   else
   {
-    fio_rwlock_init$$1$$lock->magic = (signed int)0x52574c4fU;
+    fio_rwlock_init__1__lock->magic = (signed int)0x52574c4fU;
     ret=pthread_rwlockattr_init(&attr);
     if(!(ret == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(ret);
-      log_err("pthread_rwlockattr_init: %s\n", return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(ret);
+      log_err("pthread_rwlockattr_init: %s\n", return_value_strerror_2);
       goto err;
     }
 
     ret=pthread_rwlockattr_setpshared(&attr, 1);
     if(!(ret == 0))
     {
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(ret);
-      log_err("pthread_rwlockattr_setpshared: %s\n", return_value_strerror$3);
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(ret);
+      log_err("pthread_rwlockattr_setpshared: %s\n", return_value_strerror_3);
       goto destroy_attr;
     }
 
-    ret=pthread_rwlock_init(&fio_rwlock_init$$1$$lock->lock, &attr);
+    ret=pthread_rwlock_init(&fio_rwlock_init__1__lock->lock, &attr);
     if(!(ret == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(ret);
-      log_err("pthread_rwlock_init: %s\n", return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(ret);
+      log_err("pthread_rwlock_init: %s\n", return_value_strerror_4);
       goto destroy_attr;
     }
 
     pthread_rwlockattr_destroy(&attr);
-    return fio_rwlock_init$$1$$lock;
+    return fio_rwlock_init__1__lock;
 
   destroy_attr:
     ;
@@ -2020,8 +2020,8 @@ extern struct fio_rwlock * fio_rwlock_init(void)
 
 err:
   ;
-  if(!(fio_rwlock_init$$1$$lock == ((struct fio_rwlock *)NULL)))
-    fio_rwlock_remove(fio_rwlock_init$$1$$lock);
+  if(!(fio_rwlock_init__1__lock == ((struct fio_rwlock *)NULL)))
+    fio_rwlock_remove(fio_rwlock_init__1__lock);
 
   return (struct fio_rwlock *)(void *)0;
 }
@@ -2128,9 +2128,9 @@ static unsigned long int get_cycles_per_usec(void)
 // file os/os-linux.h line 109
 static inline signed int gettid(void)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)186);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)186);
+  return (signed int)return_value_syscall_1;
 }
 
 // global_read_lock
@@ -2169,19 +2169,19 @@ signed int log_err(const char *format, ...)
   void **args;
   unsigned long int len;
   args = (void **)&format;
-  signed int return_value_vsnprintf$1;
-  return_value_vsnprintf$1=vsnprintf(buffer, sizeof(char [1024l]) /*1024ul*/ , format, args);
-  len = (unsigned long int)return_value_vsnprintf$1;
+  signed int return_value_vsnprintf_1;
+  return_value_vsnprintf_1=vsnprintf(buffer, sizeof(char [1024l]) /*1024ul*/ , format, args);
+  len = (unsigned long int)return_value_vsnprintf_1;
   args = ((void **)NULL);
-  unsigned long int tmp_statement_expression$2;
+  unsigned long int tmp_statement_expression_2;
   unsigned long int _x = len;
   unsigned long int _y = sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1;
   (void)(&_x == &_y);
-  tmp_statement_expression$2 = _x < _y ? _x : _y;
-  len = tmp_statement_expression$2;
-  unsigned long int return_value_fwrite$3;
-  return_value_fwrite$3=fwrite((const void *)buffer, len, (unsigned long int)1, stderr);
-  return (signed int)return_value_fwrite$3;
+  tmp_statement_expression_2 = _x < _y ? _x : _y;
+  len = tmp_statement_expression_2;
+  unsigned long int return_value_fwrite_3;
+  return_value_fwrite_3=fwrite((const void *)buffer, len, (unsigned long int)1, stderr);
+  return (signed int)return_value_fwrite_3;
 }
 
 // log_info
@@ -2192,19 +2192,19 @@ signed int log_info(const char *format, ...)
   void **args;
   unsigned long int len;
   args = (void **)&format;
-  signed int return_value_vsnprintf$1;
-  return_value_vsnprintf$1=vsnprintf(buffer, sizeof(char [1024l]) /*1024ul*/ , format, args);
-  len = (unsigned long int)return_value_vsnprintf$1;
+  signed int return_value_vsnprintf_1;
+  return_value_vsnprintf_1=vsnprintf(buffer, sizeof(char [1024l]) /*1024ul*/ , format, args);
+  len = (unsigned long int)return_value_vsnprintf_1;
   args = ((void **)NULL);
-  unsigned long int tmp_statement_expression$2;
+  unsigned long int tmp_statement_expression_2;
   unsigned long int _x = len;
   unsigned long int _y = sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1;
   (void)(&_x == &_y);
-  tmp_statement_expression$2 = _x < _y ? _x : _y;
-  len = tmp_statement_expression$2;
-  unsigned long int return_value_fwrite$3;
-  return_value_fwrite$3=fwrite((const void *)buffer, len, (unsigned long int)1, stdout);
-  return (signed int)return_value_fwrite$3;
+  tmp_statement_expression_2 = _x < _y ? _x : _y;
+  len = tmp_statement_expression_2;
+  unsigned long int return_value_fwrite_3;
+  return_value_fwrite_3=fwrite((const void *)buffer, len, (unsigned long int)1, stdout);
+  return (signed int)return_value_fwrite_3;
 }
 
 // main
@@ -2250,9 +2250,9 @@ static signed int mask_set(unsigned int *map, unsigned int mask)
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
 static inline void * memset(void *__dest, signed int __ch, unsigned long int __len)
 {
-  void *return_value___builtin___memset_chk$1;
-  return_value___builtin___memset_chk$1=__builtin___memset_chk(__dest, __ch, __len, 18446744073709551615ul);
-  return return_value___builtin___memset_chk$1;
+  void *return_value___builtin___memset_chk_1;
+  return_value___builtin___memset_chk_1=__builtin___memset_chk(__dest, __ch, __len, 18446744073709551615ul);
+  return return_value___builtin___memset_chk_1;
 }
 
 // mtime_since
@@ -2290,18 +2290,18 @@ extern unsigned long int mtime_since_now(struct timeval *s)
   void *p;
   p=__builtin_return_address((unsigned int)0);
   fio_gettime(&t, p);
-  unsigned long int return_value_mtime_since$1;
-  return_value_mtime_since$1=mtime_since(s, &t);
-  return return_value_mtime_since$1;
+  unsigned long int return_value_mtime_since_1;
+  return_value_mtime_since_1=mtime_since(s, &t);
+  return return_value_mtime_since_1;
 }
 
 // mutex_timed_out
 // file mutex.c line 95
 static signed int mutex_timed_out(struct timeval *t, unsigned int seconds)
 {
-  unsigned long int return_value_mtime_since_now$1;
-  return_value_mtime_since_now$1=mtime_since_now(t);
-  return (signed int)(return_value_mtime_since_now$1 >= (unsigned long int)(seconds * (unsigned int)1000));
+  unsigned long int return_value_mtime_since_now_1;
+  return_value_mtime_since_now_1=mtime_since_now(t);
+  return (signed int)(return_value_mtime_since_now_1 >= (unsigned long int)(seconds * (unsigned int)1000));
 }
 
 // pool_lock
@@ -2331,11 +2331,11 @@ static void * postred_ptr(struct block_hdr *hdr)
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 102
 static inline signed int printf(const char * restrict __fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  signed int return_value___printf_chk$2;
-  return_value___printf_chk$2=__printf_chk(2 - 1, __fmt, return_value___builtin_va_arg_pack$1);
-  return return_value___printf_chk$2;
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  signed int return_value___printf_chk_2;
+  return_value___printf_chk_2=__printf_chk(2 - 1, __fmt, return_value___builtin_va_arg_pack_1);
+  return return_value___printf_chk_2;
 }
 
 // ptr_valid
@@ -2343,22 +2343,22 @@ static inline signed int printf(const char * restrict __fmt, ...)
 static inline signed int ptr_valid(struct pool *pool, void *ptr)
 {
   unsigned int pool_size = (unsigned int)(pool->nr_blocks * (unsigned long int)32 * sizeof(unsigned int) /*4ul*/  * (unsigned long int)8);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ptr >= pool->map)
-    tmp_if_expr$1 = ptr < pool->map + (signed long int)pool_size ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ptr < pool->map + (signed long int)pool_size ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // scalloc
 // file smalloc.c line 493
 extern void * scalloc(unsigned long int nmemb, unsigned long int size)
 {
-  void *return_value_smalloc$1;
-  return_value_smalloc$1=smalloc(nmemb * size);
-  return return_value_smalloc$1;
+  void *return_value_smalloc_1;
+  return_value_smalloc_1=smalloc(nmemb * size);
+  return return_value_smalloc_1;
 }
 
 // scleanup
@@ -2392,9 +2392,9 @@ extern void sfree(void *ptr)
     i = (unsigned int)0;
     for( ; !(i >= nr_pools); i = i + 1u)
     {
-      signed int return_value_ptr_valid$1;
-      return_value_ptr_valid$1=ptr_valid(&mp[(signed long int)i], ptr);
-      if(!(return_value_ptr_valid$1 == 0))
+      signed int return_value_ptr_valid_1;
+      return_value_ptr_valid_1=ptr_valid(&mp[(signed long int)i], ptr);
+      if(!(return_value_ptr_valid_1 == 0))
       {
         pool = &mp[(signed long int)i];
         break;
@@ -2416,9 +2416,9 @@ extern void sfree(void *ptr)
 static void sfree_check_redzone(struct block_hdr *hdr)
 {
   unsigned int *postred;
-  void *return_value_postred_ptr$1;
-  return_value_postred_ptr$1=postred_ptr(hdr);
-  postred = (unsigned int *)return_value_postred_ptr$1;
+  void *return_value_postred_ptr_1;
+  return_value_postred_ptr_1=postred_ptr(hdr);
+  postred = (unsigned int *)return_value_postred_ptr_1;
   if(!(hdr->prered == 0xdeadbeefU))
   {
     log_err("smalloc pre redzone destroyed!\n ptr=%p, prered=%x, expected %x\n", hdr, hdr->prered, 0xdeadbeefU);
@@ -2447,24 +2447,24 @@ static void sfree_pool(struct pool *pool, void *ptr)
   {
     ptr = ptr - (signed long int)sizeof(struct block_hdr) /*16ul*/ ;
     hdr = (struct block_hdr *)ptr;
-    signed int return_value_ptr_valid$1;
-    return_value_ptr_valid$1=ptr_valid(pool, ptr);
+    signed int return_value_ptr_valid_1;
+    return_value_ptr_valid_1=ptr_valid(pool, ptr);
     /* assertion ptr_valid(pool, ptr) */
-    assert(return_value_ptr_valid$1 != 0);
+    assert(return_value_ptr_valid_1 != 0);
     sfree_check_redzone(hdr);
     offset = (unsigned long int)(ptr - pool->map);
     i = (unsigned int)(offset / ((unsigned long int)32 * sizeof(unsigned int) /*4ul*/  * (unsigned long int)8));
     idx = (unsigned int)((offset % ((unsigned long int)32 * sizeof(unsigned int) /*4ul*/  * (unsigned long int)8)) / (unsigned long int)32);
     pool_lock(pool);
-    unsigned long int return_value_size_to_blocks$2;
-    return_value_size_to_blocks$2=size_to_blocks(hdr->size);
-    clear_blocks(pool, i, idx, return_value_size_to_blocks$2);
+    unsigned long int return_value_size_to_blocks_2;
+    return_value_size_to_blocks_2=size_to_blocks(hdr->size);
+    clear_blocks(pool, i, idx, return_value_size_to_blocks_2);
     if(!((unsigned long int)i >= pool->next_non_full))
       pool->next_non_full = (unsigned long int)i;
 
-    unsigned long int return_value_size_to_blocks$3;
-    return_value_size_to_blocks$3=size_to_blocks(hdr->size);
-    pool->free_blocks = pool->free_blocks + return_value_size_to_blocks$3;
+    unsigned long int return_value_size_to_blocks_3;
+    return_value_size_to_blocks_3=size_to_blocks(hdr->size);
+    pool->free_blocks = pool->free_blocks + return_value_size_to_blocks_3;
     pool_unlock(pool);
   }
 
@@ -2571,11 +2571,11 @@ static void * smalloc_pool(struct pool *pool, unsigned long int size)
 extern char * smalloc_strdup(const char *str)
 {
   char *ptr = (char *)(void *)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  void *return_value_smalloc$2;
-  return_value_smalloc$2=smalloc(return_value_strlen$1 + (unsigned long int)1);
-  ptr = (char *)return_value_smalloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  void *return_value_smalloc_2;
+  return_value_smalloc_2=smalloc(return_value_strlen_1 + (unsigned long int)1);
+  ptr = (char *)return_value_smalloc_2;
   if(!(ptr == ((char *)NULL)))
     strcpy(ptr, str);
 
@@ -2586,18 +2586,18 @@ extern char * smalloc_strdup(const char *str)
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 108
 static inline char * strcpy(char * restrict __dest, const char * restrict __src)
 {
-  char *return_value___builtin___strcpy_chk$1;
-  return_value___builtin___strcpy_chk$1=__builtin___strcpy_chk(__dest, __src, 18446744073709551615ul);
-  return return_value___builtin___strcpy_chk$1;
+  char *return_value___builtin___strcpy_chk_1;
+  return_value___builtin___strcpy_chk_1=__builtin___strcpy_chk(__dest, __src, 18446744073709551615ul);
+  return return_value___builtin___strcpy_chk_1;
 }
 
 // time_since_now
 // file gettime.c line 449
 extern unsigned long int time_since_now(struct timeval *s)
 {
-  unsigned long int return_value_mtime_since_now$1;
-  return_value_mtime_since_now$1=mtime_since_now(s);
-  return return_value_mtime_since_now$1 / (unsigned long int)1000;
+  unsigned long int return_value_mtime_since_now_1;
+  return_value_mtime_since_now_1=mtime_since_now(s);
+  return return_value_mtime_since_now_1 / (unsigned long int)1000;
 }
 
 // utime_since
@@ -2631,17 +2631,17 @@ extern unsigned long int utime_since_now(struct timeval *s)
 {
   struct timeval t;
   fio_gettime(&t, (void *)0);
-  unsigned long int return_value_utime_since$1;
-  return_value_utime_since$1=utime_since(s, &t);
-  return return_value_utime_since$1;
+  unsigned long int return_value_utime_since_1;
+  return_value_utime_since_1=utime_since(s, &t);
+  return return_value_utime_since_1;
 }
 
 // vsnprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 74
 static inline signed int vsnprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, void **__ap)
 {
-  signed int return_value___builtin___vsnprintf_chk$1;
-  return_value___builtin___vsnprintf_chk$1=__builtin___vsnprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, __ap);
-  return return_value___builtin___vsnprintf_chk$1;
+  signed int return_value___builtin___vsnprintf_chk_1;
+  return_value___builtin___vsnprintf_chk_1=__builtin___vsnprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, __ap);
+  return return_value___builtin___vsnprintf_chk_1;
 }
 

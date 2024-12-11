@@ -1,22 +1,22 @@
-// tag-#anon#UN[*{S8}$S8$'ifcu_buf'||*{SYM#tag-ifreq#}$SYM#tag-ifreq#$'ifcu_req'|]
+// tag-#anon#UN[*{S8}_S8_'ifcu_buf'||*{SYM#tag-ifreq#}_SYM#tag-ifreq#_'ifcu_req'|]
 // file /usr/include/net/if.h line 179
 union anonymous;
 
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/net/if.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{S8}$S8$'ifru_data'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{S8}_S8_'ifru_data'|]
 // file /usr/include/net/if.h line 135
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -177,12 +177,12 @@ struct tm;
 // __bswap_32
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx);
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1);
-// __bswap_32$link2
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1);
+// __bswap_32_link2
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link2(unsigned int __bsx$link2);
+static inline unsigned int __bswap_32_link2(unsigned int __bsx_link2);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
@@ -971,13 +971,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$3 *);
+extern signed int pthread_mutex_init(union anonymous_2 *, const union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
@@ -999,15 +999,15 @@ extern signed long int recvfrom(signed int, void *, unsigned long int, signed in
 // register_signal_handlers
 // file hdhomerun_config.c line 206
 static void register_signal_handlers(void (*sigpipe_handler)(signed int), void (*sigint_handler)(signed int), void (*siginfo_handler)(signed int));
-// register_signal_handlers::siginfo_handler$object
+// register_signal_handlers::siginfo_handler_object
 //
-void siginfo_handler$object(signed int);
-// register_signal_handlers::sigint_handler$object
+void siginfo_handler_object(signed int);
+// register_signal_handlers::sigint_handler_object
 //
-void sigint_handler$object(signed int);
-// register_signal_handlers::sigpipe_handler$object
+void sigint_handler_object(signed int);
+// register_signal_handlers::sigpipe_handler_object
 //
-void sigpipe_handler$object(signed int);
+void sigpipe_handler_object(signed int);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -1077,13 +1077,13 @@ union anonymous
   struct ifreq *ifcu_req;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // ifrn_name
   char ifrn_name[16l];
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __size
   char __size[4l];
@@ -1119,7 +1119,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1153,7 +1153,7 @@ struct ifmap
   unsigned char port;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -1450,11 +1450,11 @@ struct hdhomerun_debug_t
   // prefix
   char *prefix;
   // print_lock
-  union anonymous$2 print_lock;
+  union anonymous_2 print_lock;
   // queue_lock
-  union anonymous$2 queue_lock;
+  union anonymous_2 queue_lock;
   // send_lock
-  union anonymous$2 send_lock;
+  union anonymous_2 send_lock;
   // queue_head
   struct hdhomerun_debug_message_t *queue_head;
   // queue_tail
@@ -1590,7 +1590,7 @@ struct hdhomerun_tuner_vstatus_t
 struct hdhomerun_video_sock_t
 {
   // lock
-  union anonymous$2 lock;
+  union anonymous_2 lock;
   // dbg
   struct hdhomerun_debug_t *dbg;
   // sock
@@ -1650,9 +1650,9 @@ struct ifconf
 struct ifreq
 {
   // ifr_ifrn
-  union anonymous$1 ifr_ifrn;
+  union anonymous_1 ifr_ifrn;
   // ifr_ifru
-  union anonymous$0 ifr_ifru;
+  union anonymous_0 ifr_ifru;
 };
 
 struct in_addr
@@ -1961,27 +1961,27 @@ extern struct _IO_FILE *stdout;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1)
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx$link1);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx_link1);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
-// __bswap_32$link2
+// __bswap_32_link2
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link2(unsigned int __bsx$link2)
+static inline unsigned int __bswap_32_link2(unsigned int __bsx_link2)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx$link2);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx_link2);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // channelscan_advance
@@ -1998,9 +1998,9 @@ extern signed int channelscan_advance(struct hdhomerun_channelscan_t *scan, stru
     result->frequency=hdhomerun_channel_entry_frequency(entry);
     char *ptr = result->channel_str;
     char *end = result->channel_str + (signed long int)sizeof(char [64l]) /*64ul*/ ;
-    const char *return_value_hdhomerun_channel_entry_name$1;
-    return_value_hdhomerun_channel_entry_name$1=hdhomerun_channel_entry_name(entry);
-    hdhomerun_sprintf(ptr, end, return_value_hdhomerun_channel_entry_name$1);
+    const char *return_value_hdhomerun_channel_entry_name_1;
+    return_value_hdhomerun_channel_entry_name_1=hdhomerun_channel_entry_name(entry);
+    hdhomerun_sprintf(ptr, end, return_value_hdhomerun_channel_entry_name_1);
     while((_Bool)1)
     {
       entry=hdhomerun_channel_list_prev(scan->channel_list, entry);
@@ -2010,20 +2010,20 @@ extern signed int channelscan_advance(struct hdhomerun_channelscan_t *scan, stru
         break;
       }
 
-      unsigned int return_value_hdhomerun_channel_entry_frequency$2;
-      return_value_hdhomerun_channel_entry_frequency$2=hdhomerun_channel_entry_frequency(entry);
-      if(!(return_value_hdhomerun_channel_entry_frequency$2 == result->frequency))
+      unsigned int return_value_hdhomerun_channel_entry_frequency_2;
+      return_value_hdhomerun_channel_entry_frequency_2=hdhomerun_channel_entry_frequency(entry);
+      if(!(return_value_hdhomerun_channel_entry_frequency_2 == result->frequency))
       {
         scan->next_channel = entry;
         break;
       }
 
-      void *return_value___rawmemchr$3;
-      return_value___rawmemchr$3=__rawmemchr((const void *)ptr, 0);
-      ptr = (char *)return_value___rawmemchr$3;
-      const char *return_value_hdhomerun_channel_entry_name$4;
-      return_value_hdhomerun_channel_entry_name$4=hdhomerun_channel_entry_name(entry);
-      hdhomerun_sprintf(ptr, end, ", %s", return_value_hdhomerun_channel_entry_name$4);
+      void *return_value___rawmemchr_3;
+      return_value___rawmemchr_3=__rawmemchr((const void *)ptr, 0);
+      ptr = (char *)return_value___rawmemchr_3;
+      const char *return_value_hdhomerun_channel_entry_name_4;
+      return_value_hdhomerun_channel_entry_name_4=hdhomerun_channel_entry_name(entry);
+      hdhomerun_sprintf(ptr, end, ", %s", return_value_hdhomerun_channel_entry_name_4);
     }
     return 1;
   }
@@ -2034,9 +2034,9 @@ extern signed int channelscan_advance(struct hdhomerun_channelscan_t *scan, stru
 extern struct hdhomerun_channelscan_t * channelscan_create(struct hdhomerun_device_t *hd, const char *channelmap)
 {
   struct hdhomerun_channelscan_t *scan;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hdhomerun_channelscan_t) /*32ul*/ );
-  scan = (struct hdhomerun_channelscan_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hdhomerun_channelscan_t) /*32ul*/ );
+  scan = (struct hdhomerun_channelscan_t *)return_value_calloc_1;
   if(scan == ((struct hdhomerun_channelscan_t *)NULL))
     return (struct hdhomerun_channelscan_t *)(void *)0;
 
@@ -2073,7 +2073,7 @@ extern signed int channelscan_detect(struct hdhomerun_channelscan_t *scan, struc
   scan->scanned_channels = scan->scanned_channels + 1u;
   signed int ret;
   ret=channelscan_find_lock(scan, result->frequency, result);
-  unsigned long int return_value_getcurrenttime$7;
+  unsigned long int return_value_getcurrenttime_7;
   if(!(ret >= 1))
     return ret;
 
@@ -2085,27 +2085,27 @@ extern signed int channelscan_detect(struct hdhomerun_channelscan_t *scan, struc
     {
       result->program_count = 0;
       unsigned long int timeout;
-      const char *return_value_hdhomerun_device_get_model_str$3;
-      return_value_hdhomerun_device_get_model_str$3=hdhomerun_device_get_model_str(scan->hd);
-      char *return_value_strstr$4;
-      return_value_strstr$4=strstr(return_value_hdhomerun_device_get_model_str$3, "atsc");
-      if(!(return_value_strstr$4 == ((char *)NULL)))
+      const char *return_value_hdhomerun_device_get_model_str_3;
+      return_value_hdhomerun_device_get_model_str_3=hdhomerun_device_get_model_str(scan->hd);
+      char *return_value_strstr_4;
+      return_value_strstr_4=strstr(return_value_hdhomerun_device_get_model_str_3, "atsc");
+      if(!(return_value_strstr_4 == ((char *)NULL)))
       {
-        unsigned long int return_value_getcurrenttime$1;
-        return_value_getcurrenttime$1=getcurrenttime();
-        timeout = return_value_getcurrenttime$1 + (unsigned long int)4000;
+        unsigned long int return_value_getcurrenttime_1;
+        return_value_getcurrenttime_1=getcurrenttime();
+        timeout = return_value_getcurrenttime_1 + (unsigned long int)4000;
       }
 
       else
       {
-        unsigned long int return_value_getcurrenttime$2;
-        return_value_getcurrenttime$2=getcurrenttime();
-        timeout = return_value_getcurrenttime$2 + (unsigned long int)10000;
+        unsigned long int return_value_getcurrenttime_2;
+        return_value_getcurrenttime_2=getcurrenttime();
+        timeout = return_value_getcurrenttime_2 + (unsigned long int)10000;
       }
       unsigned long int complete_time;
-      unsigned long int return_value_getcurrenttime$5;
-      return_value_getcurrenttime$5=getcurrenttime();
-      complete_time = return_value_getcurrenttime$5 + (unsigned long int)1000;
+      unsigned long int return_value_getcurrenttime_5;
+      return_value_getcurrenttime_5=getcurrenttime();
+      complete_time = return_value_getcurrenttime_5 + (unsigned long int)1000;
       while((_Bool)1)
       {
         signed int changed;
@@ -2116,22 +2116,22 @@ extern signed int channelscan_detect(struct hdhomerun_channelscan_t *scan, struc
 
         if(!(changed == 0))
         {
-          unsigned long int return_value_getcurrenttime$6;
-          return_value_getcurrenttime$6=getcurrenttime();
-          complete_time = return_value_getcurrenttime$6 + (unsigned long int)1000;
+          unsigned long int return_value_getcurrenttime_6;
+          return_value_getcurrenttime_6=getcurrenttime();
+          complete_time = return_value_getcurrenttime_6 + (unsigned long int)1000;
         }
 
         if(incomplete == 0)
         {
-          return_value_getcurrenttime$7=getcurrenttime();
-          if(return_value_getcurrenttime$7 >= complete_time)
+          return_value_getcurrenttime_7=getcurrenttime();
+          if(return_value_getcurrenttime_7 >= complete_time)
             break;
 
         }
 
-        unsigned long int return_value_getcurrenttime$8;
-        return_value_getcurrenttime$8=getcurrenttime();
-        if(return_value_getcurrenttime$8 >= timeout)
+        unsigned long int return_value_getcurrenttime_8;
+        return_value_getcurrenttime_8=getcurrenttime();
+        if(return_value_getcurrenttime_8 >= timeout)
           break;
 
         msleep_approx((unsigned long int)250);
@@ -2142,9 +2142,9 @@ extern signed int channelscan_detect(struct hdhomerun_channelscan_t *scan, struc
         if(scan->next_channel == ((struct hdhomerun_channel_entry_t *)NULL))
           break;
 
-        unsigned int return_value_hdhomerun_channel_entry_frequency$9;
-        return_value_hdhomerun_channel_entry_frequency$9=hdhomerun_channel_entry_frequency(scan->next_channel);
-        if(max_next_frequency >= return_value_hdhomerun_channel_entry_frequency$9)
+        unsigned int return_value_hdhomerun_channel_entry_frequency_9;
+        return_value_hdhomerun_channel_entry_frequency_9=hdhomerun_channel_entry_frequency(scan->next_channel);
+        if(max_next_frequency >= return_value_hdhomerun_channel_entry_frequency_9)
           break;
 
         scan->next_channel=hdhomerun_channel_list_prev(scan->channel_list, scan->next_channel);
@@ -2162,10 +2162,10 @@ static signed int channelscan_detect_programs(struct hdhomerun_channelscan_t *sc
   char *streaminfo;
   signed int ret;
   ret=hdhomerun_device_get_tuner_streaminfo(scan->hd, &streaminfo);
-  char *tmp_post$2;
-  char *return_value_strstr$9;
-  char *return_value_strstr$8;
-  _Bool tmp_if_expr$7;
+  char *tmp_post_2;
+  char *return_value_strstr_9;
+  char *return_value_strstr_8;
+  _Bool tmp_if_expr_7;
   if(!(ret >= 1))
     return ret;
 
@@ -2176,19 +2176,19 @@ static signed int channelscan_detect_programs(struct hdhomerun_channelscan_t *sc
     while((_Bool)1)
     {
       char *line = next_line;
-      char *return_value___builtin_strchr$1;
-      return_value___builtin_strchr$1=__builtin_strchr(line, 10);
-      next_line = return_value___builtin_strchr$1;
+      char *return_value___builtin_strchr_1;
+      return_value___builtin_strchr_1=__builtin_strchr(line, 10);
+      next_line = return_value___builtin_strchr_1;
       if(next_line == ((char *)NULL))
         break;
 
-      tmp_post$2 = next_line;
+      tmp_post_2 = next_line;
       next_line = next_line + 1l;
-      *tmp_post$2 = (char)0;
+      *tmp_post_2 = (char)0;
       unsigned int transport_stream_id;
-      signed int return_value_sscanf$3;
-      return_value_sscanf$3=sscanf(line, "tsid=0x%x", &transport_stream_id);
-      if(return_value_sscanf$3 == 1)
+      signed int return_value_sscanf_3;
+      return_value_sscanf_3=sscanf(line, "tsid=0x%x", &transport_stream_id);
+      if(return_value_sscanf_3 == 1)
       {
         result->transport_stream_id = (unsigned short int)transport_stream_id;
         result->transport_stream_id_detected = 1;
@@ -2197,9 +2197,9 @@ static signed int channelscan_detect_programs(struct hdhomerun_channelscan_t *sc
       else
       {
         unsigned int original_network_id;
-        signed int return_value_sscanf$4;
-        return_value_sscanf$4=sscanf(line, "onid=0x%x", &original_network_id);
-        if(return_value_sscanf$4 == 1)
+        signed int return_value_sscanf_4;
+        return_value_sscanf_4=sscanf(line, "onid=0x%x", &original_network_id);
+        if(return_value_sscanf_4 == 1)
         {
           result->original_network_id = (unsigned short int)original_network_id;
           result->original_network_id_detected = 1;
@@ -2214,13 +2214,13 @@ static signed int channelscan_detect_programs(struct hdhomerun_channelscan_t *sc
             unsigned int program_number;
             unsigned int virtual_major;
             unsigned int virtual_minor;
-            signed int return_value_sscanf$6;
-            return_value_sscanf$6=sscanf(line, "%u: %u.%u", &program_number, &virtual_major, &virtual_minor);
-            if(!(return_value_sscanf$6 == 3))
+            signed int return_value_sscanf_6;
+            return_value_sscanf_6=sscanf(line, "%u: %u.%u", &program_number, &virtual_major, &virtual_minor);
+            if(!(return_value_sscanf_6 == 3))
             {
-              signed int return_value_sscanf$5;
-              return_value_sscanf$5=sscanf(line, "%u: %u", &program_number, &virtual_major);
-              if(!(return_value_sscanf$5 == 2))
+              signed int return_value_sscanf_5;
+              return_value_sscanf_5=sscanf(line, "%u: %u", &program_number, &virtual_major);
+              if(!(return_value_sscanf_5 == 2))
                 continue;
 
               virtual_minor = (unsigned int)0;
@@ -2230,21 +2230,21 @@ static signed int channelscan_detect_programs(struct hdhomerun_channelscan_t *sc
             program.virtual_major = (unsigned short int)virtual_major;
             program.virtual_minor = (unsigned short int)virtual_minor;
             channelscan_extract_name(&program, line);
-            char *return_value_strstr$10;
-            return_value_strstr$10=strstr(line, "(control)");
-            if(!(return_value_strstr$10 == ((char *)NULL)))
+            char *return_value_strstr_10;
+            return_value_strstr_10=strstr(line, "(control)");
+            if(!(return_value_strstr_10 == ((char *)NULL)))
               program.type = (unsigned short int)2;
 
             else
             {
-              return_value_strstr$9=strstr(line, "(encrypted)");
-              if(!(return_value_strstr$9 == ((char *)NULL)))
+              return_value_strstr_9=strstr(line, "(encrypted)");
+              if(!(return_value_strstr_9 == ((char *)NULL)))
                 program.type = (unsigned short int)3;
 
               else
               {
-                return_value_strstr$8=strstr(line, "(no data)");
-                if(!(return_value_strstr$8 == ((char *)NULL)))
+                return_value_strstr_8=strstr(line, "(no data)");
+                if(!(return_value_strstr_8 == ((char *)NULL)))
                 {
                   program.type = (unsigned short int)1;
                   *pincomplete = 1;
@@ -2254,19 +2254,19 @@ static signed int channelscan_detect_programs(struct hdhomerun_channelscan_t *sc
                 {
                   program.type = (unsigned short int)0;
                   if((signed int)program.virtual_major == 0)
-                    tmp_if_expr$7 = (_Bool)1;
+                    tmp_if_expr_7 = (_Bool)1;
 
                   else
-                    tmp_if_expr$7 = (signed int)program.name[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$7)
+                    tmp_if_expr_7 = (signed int)program.name[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_7)
                     *pincomplete = 1;
 
                 }
               }
             }
-            signed int return_value_memcmp$11;
-            return_value_memcmp$11=memcmp((const void *)&result->programs[(signed long int)program_count], (const void *)&program, sizeof(struct hdhomerun_channelscan_program_t) /*104ul*/ );
-            if(!(return_value_memcmp$11 == 0))
+            signed int return_value_memcmp_11;
+            return_value_memcmp_11=memcmp((const void *)&result->programs[(signed long int)program_count], (const void *)&program, sizeof(struct hdhomerun_channelscan_program_t) /*104ul*/ );
+            if(!(return_value_memcmp_11 == 0))
             {
               memcpy((void *)&result->programs[(signed long int)program_count], (const void *)&program, sizeof(struct hdhomerun_channelscan_program_t) /*104ul*/ );
               *pchanged = 1;
@@ -2295,15 +2295,15 @@ static signed int channelscan_detect_programs(struct hdhomerun_channelscan_t *sc
 static void channelscan_extract_name(struct hdhomerun_channelscan_program_t *program, const char *line)
 {
   const char *start;
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(line, 32);
-  start = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(line, 32);
+  start = return_value___builtin_strchr_1;
   if(!(start == ((const char *)NULL)))
   {
     start = start + 1l;
-    char *return_value___builtin_strchr$2;
-    return_value___builtin_strchr$2=__builtin_strchr(start, 32);
-    start = return_value___builtin_strchr$2;
+    char *return_value___builtin_strchr_2;
+    return_value___builtin_strchr_2=__builtin_strchr(start, 32);
+    start = return_value___builtin_strchr_2;
     if(!(start == ((const char *)NULL)))
     {
       start = start + 1l;
@@ -2311,9 +2311,9 @@ static void channelscan_extract_name(struct hdhomerun_channelscan_program_t *pro
       end=strstr(start, " (");
       if(end == ((const char *)NULL))
       {
-        void *return_value___rawmemchr$3;
-        return_value___rawmemchr$3=__rawmemchr((const void *)line, 0);
-        end = (char *)return_value___rawmemchr$3;
+        void *return_value___rawmemchr_3;
+        return_value___rawmemchr_3=__rawmemchr((const void *)line, 0);
+        end = (char *)return_value___rawmemchr_3;
       }
 
       if(!(start >= end))
@@ -2356,9 +2356,9 @@ static signed int channelscan_find_lock(struct hdhomerun_channelscan_t *scan, un
       else
       {
         unsigned long int timeout;
-        unsigned long int return_value_getcurrenttime$1;
-        return_value_getcurrenttime$1=getcurrenttime();
-        timeout = return_value_getcurrenttime$1 + (unsigned long int)5000;
+        unsigned long int return_value_getcurrenttime_1;
+        return_value_getcurrenttime_1=getcurrenttime();
+        timeout = return_value_getcurrenttime_1 + (unsigned long int)5000;
         while((_Bool)1)
         {
           ret=hdhomerun_device_get_tuner_status(scan->hd, (char **)(void *)0, &result->status);
@@ -2368,9 +2368,9 @@ static signed int channelscan_find_lock(struct hdhomerun_channelscan_t *scan, un
           if(result->status.symbol_error_quality == 100u)
             return 1;
 
-          unsigned long int return_value_getcurrenttime$2;
-          return_value_getcurrenttime$2=getcurrenttime();
-          if(return_value_getcurrenttime$2 >= timeout)
+          unsigned long int return_value_getcurrenttime_2;
+          return_value_getcurrenttime_2=getcurrenttime();
+          if(return_value_getcurrenttime_2 >= timeout)
             return 1;
 
           msleep_approx((unsigned long int)250);
@@ -2398,9 +2398,9 @@ extern unsigned char channelscan_get_progress(struct hdhomerun_channelscan_t *sc
       if(entry == ((struct hdhomerun_channel_entry_t *)NULL))
         break;
 
-      unsigned int return_value_hdhomerun_channel_entry_frequency$1;
-      return_value_hdhomerun_channel_entry_frequency$1=hdhomerun_channel_entry_frequency(entry);
-      if(!(return_value_hdhomerun_channel_entry_frequency$1 == frequency))
+      unsigned int return_value_hdhomerun_channel_entry_frequency_1;
+      return_value_hdhomerun_channel_entry_frequency_1=hdhomerun_channel_entry_frequency(entry);
+      if(!(return_value_hdhomerun_channel_entry_frequency_1 == frequency))
       {
         channels_remaining = channels_remaining + 1u;
         frequency=hdhomerun_channel_entry_frequency(entry);
@@ -2417,9 +2417,9 @@ static signed int cmd_execute(void)
 {
   char *ret_value;
   char *ret_error;
-  signed int return_value_hdhomerun_device_get_var$1;
-  return_value_hdhomerun_device_get_var$1=hdhomerun_device_get_var(hd, "/sys/boot", &ret_value, &ret_error);
-  if(!(return_value_hdhomerun_device_get_var$1 >= 0))
+  signed int return_value_hdhomerun_device_get_var_1;
+  return_value_hdhomerun_device_get_var_1=hdhomerun_device_get_var(hd, "/sys/boot", &ret_value, &ret_error);
+  if(!(return_value_hdhomerun_device_get_var_1 >= 0))
   {
     fprintf(stderr, "communication error sending request to hdhomerun device\n");
     return -1;
@@ -2435,9 +2435,9 @@ static signed int cmd_execute(void)
     else
     {
       char *end;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(ret_value);
-      end = ret_value + (signed long int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(ret_value);
+      end = ret_value + (signed long int)return_value_strlen_2;
       char *pos = ret_value;
       while((_Bool)1)
       {
@@ -2445,16 +2445,16 @@ static signed int cmd_execute(void)
           break;
 
         char *eol_r;
-        char *return_value___builtin_strchr$3;
-        return_value___builtin_strchr$3=__builtin_strchr(pos, 13);
-        eol_r = return_value___builtin_strchr$3;
+        char *return_value___builtin_strchr_3;
+        return_value___builtin_strchr_3=__builtin_strchr(pos, 13);
+        eol_r = return_value___builtin_strchr_3;
         if(eol_r == ((char *)NULL))
           eol_r = end;
 
         char *eol_n;
-        char *return_value___builtin_strchr$4;
-        return_value___builtin_strchr$4=__builtin_strchr(pos, 10);
-        eol_n = return_value___builtin_strchr$4;
+        char *return_value___builtin_strchr_4;
+        return_value___builtin_strchr_4=__builtin_strchr(pos, 10);
+        eol_n = return_value___builtin_strchr_4;
         if(eol_n == ((char *)NULL))
           eol_n = end;
 
@@ -2463,9 +2463,9 @@ static signed int cmd_execute(void)
           eol = eol_n;
 
         char *sep;
-        char *return_value___builtin_strchr$5;
-        return_value___builtin_strchr$5=__builtin_strchr(pos, 32);
-        sep = return_value___builtin_strchr$5;
+        char *return_value___builtin_strchr_5;
+        return_value___builtin_strchr_5=__builtin_strchr(pos, 32);
+        sep = return_value___builtin_strchr_5;
         if(sep == ((char *)NULL) || !(eol >= sep))
           pos = eol + (signed long int)1;
 
@@ -2490,9 +2490,9 @@ static signed int cmd_get(const char *item)
 {
   char *ret_value;
   char *ret_error;
-  signed int return_value_hdhomerun_device_get_var$1;
-  return_value_hdhomerun_device_get_var$1=hdhomerun_device_get_var(hd, item, &ret_value, &ret_error);
-  if(!(return_value_hdhomerun_device_get_var$1 >= 0))
+  signed int return_value_hdhomerun_device_get_var_1;
+  return_value_hdhomerun_device_get_var_1=hdhomerun_device_get_var(hd, item, &ret_value, &ret_error);
+  if(!(return_value_hdhomerun_device_get_var_1 >= 0))
   {
     fprintf(stderr, "communication error sending request to hdhomerun device\n");
     return -1;
@@ -2516,11 +2516,11 @@ static signed int cmd_get(const char *item)
 // file hdhomerun_config.c line 350
 static signed int cmd_save(const char *tuner_str, const char *filename)
 {
-  signed int return_value_hdhomerun_device_set_tuner_from_str$1;
-  return_value_hdhomerun_device_set_tuner_from_str$1=hdhomerun_device_set_tuner_from_str(hd, tuner_str);
-  signed int tmp_statement_expression$4;
-  signed int tmp_statement_expression$2;
-  if(!(return_value_hdhomerun_device_set_tuner_from_str$1 >= 1))
+  signed int return_value_hdhomerun_device_set_tuner_from_str_1;
+  return_value_hdhomerun_device_set_tuner_from_str_1=hdhomerun_device_set_tuner_from_str(hd, tuner_str);
+  signed int tmp_statement_expression_4;
+  signed int tmp_statement_expression_2;
+  if(!(return_value_hdhomerun_device_set_tuner_from_str_1 >= 1))
   {
     fprintf(stderr, "invalid tuner number\n");
     return -1;
@@ -2531,20 +2531,20 @@ static signed int cmd_save(const char *tuner_str, const char *filename)
     struct _IO_FILE *fp;
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$5;
-    return_value___builtin_strcmp$5=__builtin_strcmp(filename, "null");
-    tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-    if(tmp_statement_expression$4 == 0)
+    signed int return_value___builtin_strcmp_5;
+    return_value___builtin_strcmp_5=__builtin_strcmp(filename, "null");
+    tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+    if(tmp_statement_expression_4 == 0)
       fp = (struct _IO_FILE *)(void *)0;
 
     else
     {
-      unsigned long int cmd_save$$1$$4$$__s1_len;
-      unsigned long int cmd_save$$1$$4$$__s2_len;
-      signed int return_value___builtin_strcmp$3;
-      return_value___builtin_strcmp$3=__builtin_strcmp(filename, "-");
-      tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-      if(tmp_statement_expression$2 == 0)
+      unsigned long int cmd_save__1__4____s1_len;
+      unsigned long int cmd_save__1__4____s2_len;
+      signed int return_value___builtin_strcmp_3;
+      return_value___builtin_strcmp_3=__builtin_strcmp(filename, "-");
+      tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+      if(tmp_statement_expression_2 == 0)
         fp = stdout;
 
       else
@@ -2576,9 +2576,9 @@ static signed int cmd_save(const char *tuner_str, const char *filename)
       struct hdhomerun_video_stats_t stats_cur;
       hdhomerun_device_get_video_stats(hd, &stats_old);
       unsigned long int next_progress;
-      unsigned long int return_value_getcurrenttime$6;
-      return_value_getcurrenttime$6=getcurrenttime();
-      next_progress = return_value_getcurrenttime$6 + (unsigned long int)1000;
+      unsigned long int return_value_getcurrenttime_6;
+      return_value_getcurrenttime_6=getcurrenttime();
+      next_progress = return_value_getcurrenttime_6 + (unsigned long int)1000;
       while(sigabort_flag == 0)
       {
         unsigned long int loop_start_time;
@@ -2600,9 +2600,9 @@ static signed int cmd_save(const char *tuner_str, const char *filename)
         {
           if(!(fp == ((struct _IO_FILE *)NULL)))
           {
-            unsigned long int return_value_fwrite$7;
-            return_value_fwrite$7=fwrite((const void *)ptr, (unsigned long int)1, actual_size, fp);
-            if(!(return_value_fwrite$7 == actual_size))
+            unsigned long int return_value_fwrite_7;
+            return_value_fwrite_7=fwrite((const void *)ptr, (unsigned long int)1, actual_size, fp);
+            if(!(return_value_fwrite_7 == actual_size))
             {
               fprintf(stderr, "error writing output\n");
               return -1;
@@ -2639,9 +2639,9 @@ static signed int cmd_save(const char *tuner_str, const char *filename)
           }
 
           signed int delay;
-          unsigned long int return_value_getcurrenttime$8;
-          return_value_getcurrenttime$8=getcurrenttime();
-          delay = 64 - (signed int)(return_value_getcurrenttime$8 - loop_start_time);
+          unsigned long int return_value_getcurrenttime_8;
+          return_value_getcurrenttime_8=getcurrenttime();
+          delay = 64 - (signed int)(return_value_getcurrenttime_8 - loop_start_time);
           if(delay >= 1)
             msleep_approx((unsigned long int)delay);
 
@@ -2672,9 +2672,9 @@ static void cmd_save_print_stats(void)
 // file hdhomerun_config.c line 240
 static signed int cmd_scan(const char *tuner_str, const char *filename)
 {
-  signed int return_value_hdhomerun_device_set_tuner_from_str$1;
-  return_value_hdhomerun_device_set_tuner_from_str$1=hdhomerun_device_set_tuner_from_str(hd, tuner_str);
-  if(!(return_value_hdhomerun_device_set_tuner_from_str$1 >= 1))
+  signed int return_value_hdhomerun_device_set_tuner_from_str_1;
+  return_value_hdhomerun_device_set_tuner_from_str_1=hdhomerun_device_set_tuner_from_str(hd, tuner_str);
+  if(!(return_value_hdhomerun_device_set_tuner_from_str_1 >= 1))
   {
     fprintf(stderr, "invalid tuner number\n");
     return -1;
@@ -2683,9 +2683,9 @@ static signed int cmd_scan(const char *tuner_str, const char *filename)
   else
   {
     char *ret_error;
-    signed int return_value_hdhomerun_device_tuner_lockkey_request$2;
-    return_value_hdhomerun_device_tuner_lockkey_request$2=hdhomerun_device_tuner_lockkey_request(hd, &ret_error);
-    if(!(return_value_hdhomerun_device_tuner_lockkey_request$2 >= 1))
+    signed int return_value_hdhomerun_device_tuner_lockkey_request_2;
+    return_value_hdhomerun_device_tuner_lockkey_request_2=hdhomerun_device_tuner_lockkey_request(hd, &ret_error);
+    if(!(return_value_hdhomerun_device_tuner_lockkey_request_2 >= 1))
     {
       fprintf(stderr, "failed to lock tuner\n");
       if(!(ret_error == ((char *)NULL)))
@@ -2698,9 +2698,9 @@ static signed int cmd_scan(const char *tuner_str, const char *filename)
     {
       hdhomerun_device_set_tuner_target(hd, "none");
       char *channelmap;
-      signed int return_value_hdhomerun_device_get_tuner_channelmap$3;
-      return_value_hdhomerun_device_get_tuner_channelmap$3=hdhomerun_device_get_tuner_channelmap(hd, &channelmap);
-      if(!(return_value_hdhomerun_device_get_tuner_channelmap$3 >= 1))
+      signed int return_value_hdhomerun_device_get_tuner_channelmap_3;
+      return_value_hdhomerun_device_get_tuner_channelmap_3=hdhomerun_device_get_tuner_channelmap(hd, &channelmap);
+      if(!(return_value_hdhomerun_device_get_tuner_channelmap_3 >= 1))
       {
         fprintf(stderr, "failed to query channelmap from device\n");
         return -1;
@@ -2718,9 +2718,9 @@ static signed int cmd_scan(const char *tuner_str, const char *filename)
 
         else
         {
-          signed int return_value_hdhomerun_device_channelscan_init$4;
-          return_value_hdhomerun_device_channelscan_init$4=hdhomerun_device_channelscan_init(hd, channelmap_scan_group);
-          if(!(return_value_hdhomerun_device_channelscan_init$4 >= 1))
+          signed int return_value_hdhomerun_device_channelscan_init_4;
+          return_value_hdhomerun_device_channelscan_init_4=hdhomerun_device_channelscan_init(hd, channelmap_scan_group);
+          if(!(return_value_hdhomerun_device_channelscan_init_4 >= 1))
           {
             fprintf(stderr, "failed to initialize channel scan\n");
             return -1;
@@ -2814,21 +2814,21 @@ static void cmd_scan_printf(struct _IO_FILE *fp, const char *fmt, ...)
 // file hdhomerun_config.c line 161
 static signed int cmd_set(const char *item, const char *value)
 {
-  signed int tmp_statement_expression$2;
+  signed int tmp_statement_expression_2;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$3;
-  return_value___builtin_strcmp$3=__builtin_strcmp(value, "-");
-  tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-  if(tmp_statement_expression$2 == 0)
+  signed int return_value___builtin_strcmp_3;
+  return_value___builtin_strcmp_3=__builtin_strcmp(value, "-");
+  tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+  if(tmp_statement_expression_2 == 0)
   {
     char *buffer = (char *)(void *)0;
     unsigned long int pos = (unsigned long int)0;
     while((_Bool)1)
     {
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)buffer, pos + (unsigned long int)1024);
-      buffer = (char *)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)buffer, pos + (unsigned long int)1024);
+      buffer = (char *)return_value_realloc_1;
       if(buffer == ((char *)NULL))
       {
         fprintf(stderr, "out of memory\n");
@@ -2849,9 +2849,9 @@ static signed int cmd_set(const char *item, const char *value)
     return ret;
   }
 
-  signed int return_value_cmd_set_internal$4;
-  return_value_cmd_set_internal$4=cmd_set_internal(item, value);
-  return return_value_cmd_set_internal$4;
+  signed int return_value_cmd_set_internal_4;
+  return_value_cmd_set_internal_4=cmd_set_internal(item, value);
+  return return_value_cmd_set_internal_4;
 }
 
 // cmd_set_internal
@@ -2859,9 +2859,9 @@ static signed int cmd_set(const char *item, const char *value)
 static signed int cmd_set_internal(const char *item, const char *value)
 {
   char *ret_error;
-  signed int return_value_hdhomerun_device_set_var$1;
-  return_value_hdhomerun_device_set_var$1=hdhomerun_device_set_var(hd, item, value, (char **)(void *)0, &ret_error);
-  if(!(return_value_hdhomerun_device_set_var$1 >= 0))
+  signed int return_value_hdhomerun_device_set_var_1;
+  return_value_hdhomerun_device_set_var_1=hdhomerun_device_set_var(hd, item, value, (char **)(void *)0, &ret_error);
+  if(!(return_value_hdhomerun_device_set_var_1 >= 0))
   {
     fprintf(stderr, "communication error sending request to hdhomerun device\n");
     return -1;
@@ -2893,9 +2893,9 @@ static signed int cmd_upgrade(const char *filename)
   else
   {
     printf("uploading firmware...\n");
-    signed int return_value_hdhomerun_device_upgrade$1;
-    return_value_hdhomerun_device_upgrade$1=hdhomerun_device_upgrade(hd, fp);
-    if(!(return_value_hdhomerun_device_upgrade$1 >= 1))
+    signed int return_value_hdhomerun_device_upgrade_1;
+    return_value_hdhomerun_device_upgrade_1=hdhomerun_device_upgrade(hd, fp);
+    if(!(return_value_hdhomerun_device_upgrade_1 >= 1))
     {
       fprintf(stderr, "error sending upgrade file to hdhomerun device\n");
       fclose(fp);
@@ -2913,9 +2913,9 @@ static signed int cmd_upgrade(const char *filename)
       char *version_str;
       while((_Bool)1)
       {
-        signed int return_value_hdhomerun_device_get_version$2;
-        return_value_hdhomerun_device_get_version$2=hdhomerun_device_get_version(hd, &version_str, (unsigned int *)(void *)0);
-        if(return_value_hdhomerun_device_get_version$2 >= 0)
+        signed int return_value_hdhomerun_device_get_version_2;
+        return_value_hdhomerun_device_get_version_2=hdhomerun_device_get_version(hd, &version_str, (unsigned int *)(void *)0);
+        if(return_value_hdhomerun_device_get_version_2 >= 0)
           break;
 
         count = count + 1;
@@ -2937,40 +2937,40 @@ static signed int cmd_upgrade(const char *filename)
 // file hdhomerun_config.c line 63
 static signed int contains(const char *arg, const char *cmpstr)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(arg, cmpstr);
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  const char *tmp_post$3;
-  const char *tmp_post$4;
-  signed int tmp_statement_expression$5;
-  if(tmp_statement_expression$1 == 0)
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(arg, cmpstr);
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  const char *tmp_post_3;
+  const char *tmp_post_4;
+  signed int tmp_statement_expression_5;
+  if(tmp_statement_expression_1 == 0)
     return 1;
 
   else
   {
-    tmp_post$3 = arg;
+    tmp_post_3 = arg;
     arg = arg + 1l;
-    if(!((signed int)*tmp_post$3 == 45))
+    if(!((signed int)*tmp_post_3 == 45))
       return 0;
 
     else
     {
-      tmp_post$4 = arg;
+      tmp_post_4 = arg;
       arg = arg + 1l;
-      if(!((signed int)*tmp_post$4 == 45))
+      if(!((signed int)*tmp_post_4 == 45))
         return 0;
 
       else
       {
-        unsigned long int contains$$1$$5$$__s1_len;
-        unsigned long int contains$$1$$5$$__s2_len;
-        signed int return_value___builtin_strcmp$6;
-        return_value___builtin_strcmp$6=__builtin_strcmp(arg, cmpstr);
-        tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-        if(tmp_statement_expression$5 == 0)
+        unsigned long int contains__1__5____s1_len;
+        unsigned long int contains__1__5____s2_len;
+        signed int return_value___builtin_strcmp_6;
+        return_value___builtin_strcmp_6=__builtin_strcmp(arg, cmpstr);
+        tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+        if(tmp_statement_expression_5 == 0)
           return 1;
 
         else
@@ -3087,9 +3087,9 @@ extern unsigned int hdhomerun_channel_frequency_round(unsigned int frequency, un
 // file hdhomerun_channels.c line 276
 extern unsigned int hdhomerun_channel_frequency_round_normal(unsigned int frequency)
 {
-  unsigned int return_value_hdhomerun_channel_frequency_round$1;
-  return_value_hdhomerun_channel_frequency_round$1=hdhomerun_channel_frequency_round(frequency, (unsigned int)125000);
-  return return_value_hdhomerun_channel_frequency_round$1;
+  unsigned int return_value_hdhomerun_channel_frequency_round_1;
+  return_value_hdhomerun_channel_frequency_round_1=hdhomerun_channel_frequency_round(frequency, (unsigned int)125000);
+  return return_value_hdhomerun_channel_frequency_round_1;
 }
 
 // hdhomerun_channel_frequency_to_number
@@ -3147,9 +3147,9 @@ static void hdhomerun_channel_list_build_range(struct hdhomerun_channel_list_t *
   for( ; (signed int)range->channel_range_end >= (signed int)channel_number; channel_number = channel_number + 1)
   {
     struct hdhomerun_channel_entry_t *entry;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hdhomerun_channel_entry_t) /*40ul*/ );
-    entry = (struct hdhomerun_channel_entry_t *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hdhomerun_channel_entry_t) /*40ul*/ );
+    entry = (struct hdhomerun_channel_entry_t *)return_value_calloc_1;
     if(entry == ((struct hdhomerun_channel_entry_t *)NULL))
       goto __CPROVER_DUMP_L4;
 
@@ -3178,9 +3178,9 @@ static void hdhomerun_channel_list_build_ranges(struct hdhomerun_channel_list_t 
 extern struct hdhomerun_channel_list_t * hdhomerun_channel_list_create(const char *channelmap)
 {
   struct hdhomerun_channel_list_t *channel_list;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hdhomerun_channel_list_t) /*16ul*/ );
-  channel_list = (struct hdhomerun_channel_list_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hdhomerun_channel_list_t) /*16ul*/ );
+  channel_list = (struct hdhomerun_channel_list_t *)return_value_calloc_1;
   if(channel_list == ((struct hdhomerun_channel_list_t *)NULL))
     return (struct hdhomerun_channel_list_t *)(void *)0;
 
@@ -3189,9 +3189,9 @@ extern struct hdhomerun_channel_list_t * hdhomerun_channel_list_create(const cha
     struct hdhomerun_channelmap_record_t *record = hdhomerun_channelmap_table;
     while(!(record->channelmap == ((const char *)NULL)))
     {
-      char *return_value_strstr$2;
-      return_value_strstr$2=strstr(channelmap, record->channelmap);
-      if(return_value_strstr$2 == ((char *)NULL))
+      char *return_value_strstr_2;
+      return_value_strstr_2=strstr(channelmap, record->channelmap);
+      if(return_value_strstr_2 == ((char *)NULL))
         record = record + 1l;
 
       else
@@ -3312,16 +3312,16 @@ extern const char * hdhomerun_channelmap_get_channelmap_from_country_source(cons
   struct hdhomerun_channelmap_record_t *record = hdhomerun_channelmap_table;
   while(!(record->channelmap == ((const char *)NULL)))
   {
-    char *return_value_strstr$1;
-    return_value_strstr$1=strstr(record->channelmap, source);
-    if(return_value_strstr$1 == ((char *)NULL))
+    char *return_value_strstr_1;
+    return_value_strstr_1=strstr(record->channelmap, source);
+    if(return_value_strstr_1 == ((char *)NULL))
       record = record + 1l;
 
     else
     {
-      char *return_value_strstr$2;
-      return_value_strstr$2=strstr(supported, record->channelmap);
-      if(return_value_strstr$2 == ((char *)NULL))
+      char *return_value_strstr_2;
+      return_value_strstr_2=strstr(supported, record->channelmap);
+      if(return_value_strstr_2 == ((char *)NULL))
         record = record + 1l;
 
       else
@@ -3333,9 +3333,9 @@ extern const char * hdhomerun_channelmap_get_channelmap_from_country_source(cons
 
         else
         {
-          char *return_value_strstr$3;
-          return_value_strstr$3=strstr(record->countrycodes, countrycode);
-          if(return_value_strstr$3 == ((char *)NULL))
+          char *return_value_strstr_3;
+          return_value_strstr_3=strstr(record->countrycodes, countrycode);
+          if(return_value_strstr_3 == ((char *)NULL))
             record = record + 1l;
 
           else
@@ -3353,9 +3353,9 @@ extern const char * hdhomerun_channelmap_get_channelmap_scan_group(const char *c
   struct hdhomerun_channelmap_record_t *record = hdhomerun_channelmap_table;
   while(!(record->channelmap == ((const char *)NULL)))
   {
-    char *return_value_strstr$1;
-    return_value_strstr$1=strstr(channelmap, record->channelmap);
-    if(!(return_value_strstr$1 == ((char *)NULL)))
+    char *return_value_strstr_1;
+    return_value_strstr_1=strstr(channelmap, record->channelmap);
+    if(!(return_value_strstr_1 == ((char *)NULL)))
       return record->channelmap_scan_group;
 
     record = record + 1l;
@@ -3397,9 +3397,9 @@ static signed int hdhomerun_control_connect_sock(struct hdhomerun_control_sock_t
 
     __CPROVER_DUMP_L2:
       ;
-      signed int return_value_hdhomerun_discover_is_ip_multicast$1;
-      return_value_hdhomerun_discover_is_ip_multicast$1=hdhomerun_discover_is_ip_multicast(cs->desired_device_ip);
-      if(!(return_value_hdhomerun_discover_is_ip_multicast$1 == 0))
+      signed int return_value_hdhomerun_discover_is_ip_multicast_1;
+      return_value_hdhomerun_discover_is_ip_multicast_1=hdhomerun_discover_is_ip_multicast(cs->desired_device_ip);
+      if(!(return_value_hdhomerun_discover_is_ip_multicast_1 == 0))
       {
         hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_connect_sock: cannot use multicast ip address for device operations\n");
         return 0;
@@ -3408,9 +3408,9 @@ static signed int hdhomerun_control_connect_sock(struct hdhomerun_control_sock_t
       else
       {
         struct hdhomerun_discover_device_t result;
-        signed int return_value_hdhomerun_discover_find_devices_custom_v2$2;
-        return_value_hdhomerun_discover_find_devices_custom_v2$2=hdhomerun_discover_find_devices_custom_v2(cs->desired_device_ip, 0xFFFFFFFF, cs->desired_device_id, &result, 1);
-        if(!(return_value_hdhomerun_discover_find_devices_custom_v2$2 >= 1))
+        signed int return_value_hdhomerun_discover_find_devices_custom_v2_2;
+        return_value_hdhomerun_discover_find_devices_custom_v2_2=hdhomerun_discover_find_devices_custom_v2(cs->desired_device_ip, 0xFFFFFFFF, cs->desired_device_id, &result, 1);
+        if(!(return_value_hdhomerun_discover_find_devices_custom_v2_2 >= 1))
         {
           hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_connect_sock: device not found\n");
           return 0;
@@ -3423,19 +3423,19 @@ static signed int hdhomerun_control_connect_sock(struct hdhomerun_control_sock_t
           cs->sock=hdhomerun_sock_create_tcp();
           if(cs->sock == -1)
           {
-            signed int return_value_hdhomerun_sock_getlasterror$3;
-            return_value_hdhomerun_sock_getlasterror$3=hdhomerun_sock_getlasterror();
-            hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_connect_sock: failed to create socket (%d)\n", return_value_hdhomerun_sock_getlasterror$3);
+            signed int return_value_hdhomerun_sock_getlasterror_3;
+            return_value_hdhomerun_sock_getlasterror_3=hdhomerun_sock_getlasterror();
+            hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_connect_sock: failed to create socket (%d)\n", return_value_hdhomerun_sock_getlasterror_3);
             return 0;
           }
 
-          signed int return_value_hdhomerun_sock_connect$5;
-          return_value_hdhomerun_sock_connect$5=hdhomerun_sock_connect(cs->sock, cs->actual_device_ip, (unsigned short int)65001, (unsigned long int)2500);
-          if(return_value_hdhomerun_sock_connect$5 == 0)
+          signed int return_value_hdhomerun_sock_connect_5;
+          return_value_hdhomerun_sock_connect_5=hdhomerun_sock_connect(cs->sock, cs->actual_device_ip, (unsigned short int)65001, (unsigned long int)2500);
+          if(return_value_hdhomerun_sock_connect_5 == 0)
           {
-            signed int return_value_hdhomerun_sock_getlasterror$4;
-            return_value_hdhomerun_sock_getlasterror$4=hdhomerun_sock_getlasterror();
-            hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_connect_sock: failed to connect (%d)\n", return_value_hdhomerun_sock_getlasterror$4);
+            signed int return_value_hdhomerun_sock_getlasterror_4;
+            return_value_hdhomerun_sock_getlasterror_4=hdhomerun_sock_getlasterror();
+            hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_connect_sock: failed to connect (%d)\n", return_value_hdhomerun_sock_getlasterror_4);
             hdhomerun_control_close_sock(cs);
             return 0;
           }
@@ -3451,9 +3451,9 @@ static signed int hdhomerun_control_connect_sock(struct hdhomerun_control_sock_t
 extern struct hdhomerun_control_sock_t * hdhomerun_control_create(unsigned int device_id, unsigned int device_ip, struct hdhomerun_debug_t *dbg)
 {
   struct hdhomerun_control_sock_t *cs;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hdhomerun_control_sock_t) /*6256ul*/ );
-  cs = (struct hdhomerun_control_sock_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hdhomerun_control_sock_t) /*6256ul*/ );
+  cs = (struct hdhomerun_control_sock_t *)return_value_calloc_1;
   if(cs == ((struct hdhomerun_control_sock_t *)NULL))
   {
     hdhomerun_debug_printf(dbg, "hdhomerun_control_create: failed to allocate control object\n");
@@ -3481,18 +3481,18 @@ extern void hdhomerun_control_destroy(struct hdhomerun_control_sock_t *cs)
 // file hdhomerun_control.c line 340
 extern signed int hdhomerun_control_get(struct hdhomerun_control_sock_t *cs, const char *name, char **pvalue, char **perror)
 {
-  signed int return_value_hdhomerun_control_get_set$1;
-  return_value_hdhomerun_control_get_set$1=hdhomerun_control_get_set(cs, name, (const char *)(void *)0, (unsigned int)0, pvalue, perror);
-  return return_value_hdhomerun_control_get_set$1;
+  signed int return_value_hdhomerun_control_get_set_1;
+  return_value_hdhomerun_control_get_set_1=hdhomerun_control_get_set(cs, name, (const char *)(void *)0, (unsigned int)0, pvalue, perror);
+  return return_value_hdhomerun_control_get_set_1;
 }
 
 // hdhomerun_control_get_device_id
 // file hdhomerun_control.c line 122
 extern unsigned int hdhomerun_control_get_device_id(struct hdhomerun_control_sock_t *cs)
 {
-  signed int return_value_hdhomerun_control_connect_sock$1;
-  return_value_hdhomerun_control_connect_sock$1=hdhomerun_control_connect_sock(cs);
-  if(return_value_hdhomerun_control_connect_sock$1 == 0)
+  signed int return_value_hdhomerun_control_connect_sock_1;
+  return_value_hdhomerun_control_connect_sock_1=hdhomerun_control_connect_sock(cs);
+  if(return_value_hdhomerun_control_connect_sock_1 == 0)
   {
     hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_get_device_id: connect failed\n");
     return (unsigned int)0;
@@ -3513,9 +3513,9 @@ extern unsigned int hdhomerun_control_get_device_id_requested(struct hdhomerun_c
 // file hdhomerun_control.c line 132
 extern unsigned int hdhomerun_control_get_device_ip(struct hdhomerun_control_sock_t *cs)
 {
-  signed int return_value_hdhomerun_control_connect_sock$1;
-  return_value_hdhomerun_control_connect_sock$1=hdhomerun_control_connect_sock(cs);
-  if(return_value_hdhomerun_control_connect_sock$1 == 0)
+  signed int return_value_hdhomerun_control_connect_sock_1;
+  return_value_hdhomerun_control_connect_sock_1=hdhomerun_control_connect_sock(cs);
+  if(return_value_hdhomerun_control_connect_sock_1 == 0)
   {
     hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_get_device_ip: connect failed\n");
     return (unsigned int)0;
@@ -3536,9 +3536,9 @@ extern unsigned int hdhomerun_control_get_device_ip_requested(struct hdhomerun_c
 // file hdhomerun_control.c line 152
 extern unsigned int hdhomerun_control_get_local_addr(struct hdhomerun_control_sock_t *cs)
 {
-  signed int return_value_hdhomerun_control_connect_sock$1;
-  return_value_hdhomerun_control_connect_sock$1=hdhomerun_control_connect_sock(cs);
-  if(return_value_hdhomerun_control_connect_sock$1 == 0)
+  signed int return_value_hdhomerun_control_connect_sock_1;
+  return_value_hdhomerun_control_connect_sock_1=hdhomerun_control_connect_sock(cs);
+  if(return_value_hdhomerun_control_connect_sock_1 == 0)
   {
     hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_get_local_addr: connect failed\n");
     return (unsigned int)0;
@@ -3550,9 +3550,9 @@ extern unsigned int hdhomerun_control_get_local_addr(struct hdhomerun_control_so
     addr=hdhomerun_sock_getsockname_addr(cs->sock);
     if(addr == 0u)
     {
-      signed int return_value_hdhomerun_sock_getlasterror$2;
-      return_value_hdhomerun_sock_getlasterror$2=hdhomerun_sock_getlasterror();
-      hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_get_local_addr: getsockname failed (%d)\n", return_value_hdhomerun_sock_getlasterror$2);
+      signed int return_value_hdhomerun_sock_getlasterror_2;
+      return_value_hdhomerun_sock_getlasterror_2=hdhomerun_sock_getlasterror();
+      hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_get_local_addr: getsockname failed (%d)\n", return_value_hdhomerun_sock_getlasterror_2);
       return (unsigned int)0;
     }
 
@@ -3568,9 +3568,9 @@ static signed int hdhomerun_control_get_set(struct hdhomerun_control_sock_t *cs,
   struct hdhomerun_pkt_t *rx_pkt = &cs->rx_pkt;
   hdhomerun_pkt_reset(tx_pkt);
   signed int name_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  name_len = (signed int)return_value_strlen$1 + 1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  name_len = (signed int)return_value_strlen_1 + 1;
   if(!(tx_pkt->limit >= tx_pkt->end + 3l + (signed long int)name_len))
   {
     hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_get_set: request too long\n");
@@ -3585,9 +3585,9 @@ static signed int hdhomerun_control_get_set(struct hdhomerun_control_sock_t *cs,
     if(!(value == ((const char *)NULL)))
     {
       signed int value_len;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(value);
-      value_len = (signed int)return_value_strlen$2 + 1;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(value);
+      value_len = (signed int)return_value_strlen_2 + 1;
       if(!(tx_pkt->limit >= tx_pkt->end + 3l + (signed long int)value_len))
       {
         hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_get_set: request too long\n");
@@ -3612,9 +3612,9 @@ static signed int hdhomerun_control_get_set(struct hdhomerun_control_sock_t *cs,
       hdhomerun_pkt_write_u32(tx_pkt, lockkey);
     }
 
-    signed int return_value_hdhomerun_control_send_recv_internal$3;
-    return_value_hdhomerun_control_send_recv_internal$3=hdhomerun_control_send_recv_internal(cs, tx_pkt, rx_pkt, (unsigned short int)0x0004, (unsigned long int)2500);
-    if(!(return_value_hdhomerun_control_send_recv_internal$3 >= 0))
+    signed int return_value_hdhomerun_control_send_recv_internal_3;
+    return_value_hdhomerun_control_send_recv_internal_3=hdhomerun_control_send_recv_internal(cs, tx_pkt, rx_pkt, (unsigned short int)0x0004, (unsigned long int)2500);
+    if(!(return_value_hdhomerun_control_send_recv_internal_3 >= 0))
     {
       hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_get_set: send/recv error\n");
       return -1;
@@ -3673,9 +3673,9 @@ static signed int hdhomerun_control_get_set(struct hdhomerun_control_sock_t *cs,
 static signed int hdhomerun_control_recv_sock(struct hdhomerun_control_sock_t *cs, struct hdhomerun_pkt_t *rx_pkt, unsigned short int *ptype, unsigned long int recv_timeout)
 {
   unsigned long int stop_time;
-  unsigned long int return_value_getcurrenttime$1;
-  return_value_getcurrenttime$1=getcurrenttime();
-  stop_time = return_value_getcurrenttime$1 + recv_timeout;
+  unsigned long int return_value_getcurrenttime_1;
+  return_value_getcurrenttime_1=getcurrenttime();
+  stop_time = return_value_getcurrenttime_1 + recv_timeout;
   hdhomerun_pkt_reset(rx_pkt);
   while((_Bool)1)
   {
@@ -3689,13 +3689,13 @@ static signed int hdhomerun_control_recv_sock(struct hdhomerun_control_sock_t *c
     }
 
     unsigned long int length = (unsigned long int)(rx_pkt->limit - rx_pkt->end);
-    signed int return_value_hdhomerun_sock_recv$3;
-    return_value_hdhomerun_sock_recv$3=hdhomerun_sock_recv(cs->sock, (void *)rx_pkt->end, &length, stop_time - current_time);
-    if(return_value_hdhomerun_sock_recv$3 == 0)
+    signed int return_value_hdhomerun_sock_recv_3;
+    return_value_hdhomerun_sock_recv_3=hdhomerun_sock_recv(cs->sock, (void *)rx_pkt->end, &length, stop_time - current_time);
+    if(return_value_hdhomerun_sock_recv_3 == 0)
     {
-      signed int return_value_hdhomerun_sock_getlasterror$2;
-      return_value_hdhomerun_sock_getlasterror$2=hdhomerun_sock_getlasterror();
-      hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_recv_sock: recv failed (%d)\n", return_value_hdhomerun_sock_getlasterror$2);
+      signed int return_value_hdhomerun_sock_getlasterror_2;
+      return_value_hdhomerun_sock_getlasterror_2=hdhomerun_sock_getlasterror();
+      hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_recv_sock: recv failed (%d)\n", return_value_hdhomerun_sock_getlasterror_2);
       hdhomerun_control_close_sock(cs);
       return 0;
     }
@@ -3720,9 +3720,9 @@ static signed int hdhomerun_control_recv_sock(struct hdhomerun_control_sock_t *c
 // file hdhomerun_control.c line 250
 extern signed int hdhomerun_control_send_recv(struct hdhomerun_control_sock_t *cs, struct hdhomerun_pkt_t *tx_pkt, struct hdhomerun_pkt_t *rx_pkt, unsigned short int type)
 {
-  signed int return_value_hdhomerun_control_send_recv_internal$1;
-  return_value_hdhomerun_control_send_recv_internal$1=hdhomerun_control_send_recv_internal(cs, tx_pkt, rx_pkt, type, (unsigned long int)2500);
-  return return_value_hdhomerun_control_send_recv_internal$1;
+  signed int return_value_hdhomerun_control_send_recv_internal_1;
+  return_value_hdhomerun_control_send_recv_internal_1=hdhomerun_control_send_recv_internal(cs, tx_pkt, rx_pkt, type, (unsigned long int)2500);
+  return return_value_hdhomerun_control_send_recv_internal_1;
 }
 
 // hdhomerun_control_send_recv_internal
@@ -3735,9 +3735,9 @@ static signed int hdhomerun_control_send_recv_internal(struct hdhomerun_control_
   {
     if(cs->sock == -1)
     {
-      signed int return_value_hdhomerun_control_connect_sock$1;
-      return_value_hdhomerun_control_connect_sock$1=hdhomerun_control_connect_sock(cs);
-      if(return_value_hdhomerun_control_connect_sock$1 == 0)
+      signed int return_value_hdhomerun_control_connect_sock_1;
+      return_value_hdhomerun_control_connect_sock_1=hdhomerun_control_connect_sock(cs);
+      if(return_value_hdhomerun_control_connect_sock_1 == 0)
       {
         hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_send_recv: connect failed\n");
         return -1;
@@ -3745,17 +3745,17 @@ static signed int hdhomerun_control_send_recv_internal(struct hdhomerun_control_
 
     }
 
-    signed int return_value_hdhomerun_control_send_sock$2;
-    return_value_hdhomerun_control_send_sock$2=hdhomerun_control_send_sock(cs, tx_pkt);
-    if(!(return_value_hdhomerun_control_send_sock$2 == 0))
+    signed int return_value_hdhomerun_control_send_sock_2;
+    return_value_hdhomerun_control_send_sock_2=hdhomerun_control_send_sock(cs, tx_pkt);
+    if(!(return_value_hdhomerun_control_send_sock_2 == 0))
     {
       if(rx_pkt == ((struct hdhomerun_pkt_t *)NULL))
         return 1;
 
       unsigned short int rsp_type;
-      signed int return_value_hdhomerun_control_recv_sock$3;
-      return_value_hdhomerun_control_recv_sock$3=hdhomerun_control_recv_sock(cs, rx_pkt, &rsp_type, recv_timeout);
-      if(!(return_value_hdhomerun_control_recv_sock$3 == 0))
+      signed int return_value_hdhomerun_control_recv_sock_3;
+      return_value_hdhomerun_control_recv_sock_3=hdhomerun_control_recv_sock(cs, rx_pkt, &rsp_type, recv_timeout);
+      if(!(return_value_hdhomerun_control_recv_sock_3 == 0))
       {
         if(!((signed int)rsp_type == 1 + (signed int)type))
         {
@@ -3778,13 +3778,13 @@ static signed int hdhomerun_control_send_recv_internal(struct hdhomerun_control_
 // file hdhomerun_control.c line 168
 static signed int hdhomerun_control_send_sock(struct hdhomerun_control_sock_t *cs, struct hdhomerun_pkt_t *tx_pkt)
 {
-  signed int return_value_hdhomerun_sock_send$2;
-  return_value_hdhomerun_sock_send$2=hdhomerun_sock_send(cs->sock, (const void *)tx_pkt->start, (unsigned long int)(tx_pkt->end - tx_pkt->start), (unsigned long int)2500);
-  if(return_value_hdhomerun_sock_send$2 == 0)
+  signed int return_value_hdhomerun_sock_send_2;
+  return_value_hdhomerun_sock_send_2=hdhomerun_sock_send(cs->sock, (const void *)tx_pkt->start, (unsigned long int)(tx_pkt->end - tx_pkt->start), (unsigned long int)2500);
+  if(return_value_hdhomerun_sock_send_2 == 0)
   {
-    signed int return_value_hdhomerun_sock_getlasterror$1;
-    return_value_hdhomerun_sock_getlasterror$1=hdhomerun_sock_getlasterror();
-    hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_send_sock: send failed (%d)\n", return_value_hdhomerun_sock_getlasterror$1);
+    signed int return_value_hdhomerun_sock_getlasterror_1;
+    return_value_hdhomerun_sock_getlasterror_1=hdhomerun_sock_getlasterror();
+    hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_send_sock: send failed (%d)\n", return_value_hdhomerun_sock_getlasterror_1);
     hdhomerun_control_close_sock(cs);
     return 0;
   }
@@ -3796,9 +3796,9 @@ static signed int hdhomerun_control_send_sock(struct hdhomerun_control_sock_t *c
 // file hdhomerun_control.c line 345
 extern signed int hdhomerun_control_set(struct hdhomerun_control_sock_t *cs, const char *name, const char *value, char **pvalue, char **perror)
 {
-  signed int return_value_hdhomerun_control_get_set$1;
-  return_value_hdhomerun_control_get_set$1=hdhomerun_control_get_set(cs, name, value, (unsigned int)0, pvalue, perror);
-  return return_value_hdhomerun_control_get_set$1;
+  signed int return_value_hdhomerun_control_get_set_1;
+  return_value_hdhomerun_control_get_set_1=hdhomerun_control_get_set(cs, name, value, (unsigned int)0, pvalue, perror);
+  return return_value_hdhomerun_control_get_set_1;
 }
 
 // hdhomerun_control_set_device
@@ -3816,9 +3816,9 @@ extern void hdhomerun_control_set_device(struct hdhomerun_control_sock_t *cs, un
 // file hdhomerun_control.c line 350
 extern signed int hdhomerun_control_set_with_lockkey(struct hdhomerun_control_sock_t *cs, const char *name, const char *value, unsigned int lockkey, char **pvalue, char **perror)
 {
-  signed int return_value_hdhomerun_control_get_set$1;
-  return_value_hdhomerun_control_get_set$1=hdhomerun_control_get_set(cs, name, value, lockkey, pvalue, perror);
-  return return_value_hdhomerun_control_get_set$1;
+  signed int return_value_hdhomerun_control_get_set_1;
+  return_value_hdhomerun_control_get_set_1=hdhomerun_control_get_set(cs, name, value, lockkey, pvalue, perror);
+  return return_value_hdhomerun_control_get_set_1;
 }
 
 // hdhomerun_control_upgrade
@@ -3832,15 +3832,15 @@ extern signed int hdhomerun_control_upgrade(struct hdhomerun_control_sock_t *cs,
   char *version_str;
   signed int ret;
   ret=hdhomerun_control_get(cs, "/sys/version", &version_str, (char **)(void *)0);
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(ret >= 1)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(version_str, "20120704beta1");
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    upload_delay = (signed int)(tmp_statement_expression$1 == 0);
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(version_str, "20120704beta1");
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    upload_delay = (signed int)(tmp_statement_expression_1 == 0);
   }
 
   while((_Bool)1)
@@ -3854,9 +3854,9 @@ extern signed int hdhomerun_control_upgrade(struct hdhomerun_control_sock_t *cs,
     hdhomerun_pkt_reset(tx_pkt);
     hdhomerun_pkt_write_u32(tx_pkt, sequence);
     hdhomerun_pkt_write_mem(tx_pkt, (const void *)data, length);
-    signed int return_value_hdhomerun_control_send_recv_internal$3;
-    return_value_hdhomerun_control_send_recv_internal$3=hdhomerun_control_send_recv_internal(cs, tx_pkt, (struct hdhomerun_pkt_t *)(void *)0, (unsigned short int)0x0006, (unsigned long int)0);
-    if(!(return_value_hdhomerun_control_send_recv_internal$3 >= 0))
+    signed int return_value_hdhomerun_control_send_recv_internal_3;
+    return_value_hdhomerun_control_send_recv_internal_3=hdhomerun_control_send_recv_internal(cs, tx_pkt, (struct hdhomerun_pkt_t *)(void *)0, (unsigned short int)0x0006, (unsigned long int)0);
+    if(!(return_value_hdhomerun_control_send_recv_internal_3 >= 0))
     {
       hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_upgrade: send/recv failed\n");
       return -1;
@@ -3877,9 +3877,9 @@ extern signed int hdhomerun_control_upgrade(struct hdhomerun_control_sock_t *cs,
   {
     hdhomerun_pkt_reset(tx_pkt);
     hdhomerun_pkt_write_u32(tx_pkt, 0xFFFFFFFF);
-    signed int return_value_hdhomerun_control_send_recv_internal$4;
-    return_value_hdhomerun_control_send_recv_internal$4=hdhomerun_control_send_recv_internal(cs, tx_pkt, rx_pkt, (unsigned short int)0x0006, (unsigned long int)30000);
-    if(!(return_value_hdhomerun_control_send_recv_internal$4 >= 0))
+    signed int return_value_hdhomerun_control_send_recv_internal_4;
+    return_value_hdhomerun_control_send_recv_internal_4=hdhomerun_control_send_recv_internal(cs, tx_pkt, rx_pkt, (unsigned short int)0x0006, (unsigned long int)30000);
+    if(!(return_value_hdhomerun_control_send_recv_internal_4 >= 0))
     {
       hdhomerun_debug_printf(cs->dbg, "hdhomerun_control_upgrade: send/recv failed\n");
       return -1;
@@ -3950,21 +3950,21 @@ static void hdhomerun_debug_close_internal(struct hdhomerun_debug_t *dbg)
 extern struct hdhomerun_debug_t * hdhomerun_debug_create(void)
 {
   struct hdhomerun_debug_t *dbg;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hdhomerun_debug_t) /*200ul*/ );
-  dbg = (struct hdhomerun_debug_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hdhomerun_debug_t) /*200ul*/ );
+  dbg = (struct hdhomerun_debug_t *)return_value_calloc_1;
   if(dbg == ((struct hdhomerun_debug_t *)NULL))
     return (struct hdhomerun_debug_t *)(void *)0;
 
   else
   {
     dbg->sock = -1;
-    pthread_mutex_init(&dbg->print_lock, (const union anonymous$3 *)(void *)0);
-    pthread_mutex_init(&dbg->queue_lock, (const union anonymous$3 *)(void *)0);
-    pthread_mutex_init(&dbg->send_lock, (const union anonymous$3 *)(void *)0);
-    signed int return_value_pthread_create$2;
-    return_value_pthread_create$2=pthread_create(&dbg->thread, (const union pthread_attr_t *)(void *)0, hdhomerun_debug_thread_execute, (void *)dbg);
-    if(!(return_value_pthread_create$2 == 0))
+    pthread_mutex_init(&dbg->print_lock, (const union anonymous_3 *)(void *)0);
+    pthread_mutex_init(&dbg->queue_lock, (const union anonymous_3 *)(void *)0);
+    pthread_mutex_init(&dbg->send_lock, (const union anonymous_3 *)(void *)0);
+    signed int return_value_pthread_create_2;
+    return_value_pthread_create_2=pthread_create(&dbg->thread, (const union pthread_attr_t *)(void *)0, hdhomerun_debug_thread_execute, (void *)dbg);
+    if(!(return_value_pthread_create_2 == 0))
     {
       free((void *)dbg);
       return (struct hdhomerun_debug_t *)(void *)0;
@@ -4033,16 +4033,16 @@ extern signed int hdhomerun_debug_enabled(struct hdhomerun_debug_t *dbg)
 // file hdhomerun_debug.c line 229
 extern void hdhomerun_debug_flush(struct hdhomerun_debug_t *dbg, unsigned long int timeout)
 {
-  unsigned long int return_value_getcurrenttime$2;
+  unsigned long int return_value_getcurrenttime_2;
   if(!(dbg == ((struct hdhomerun_debug_t *)NULL)))
   {
-    unsigned long int return_value_getcurrenttime$1;
-    return_value_getcurrenttime$1=getcurrenttime();
-    timeout = return_value_getcurrenttime$1 + timeout;
+    unsigned long int return_value_getcurrenttime_1;
+    return_value_getcurrenttime_1=getcurrenttime();
+    timeout = return_value_getcurrenttime_1 + timeout;
     do
     {
-      return_value_getcurrenttime$2=getcurrenttime();
-      if(return_value_getcurrenttime$2 >= timeout)
+      return_value_getcurrenttime_2=getcurrenttime();
+      if(return_value_getcurrenttime_2 >= timeout)
         break;
 
       pthread_mutex_lock(&dbg->queue_lock);
@@ -4123,9 +4123,9 @@ static signed int hdhomerun_debug_output_message_sock(struct hdhomerun_debug_t *
       return 0;
     }
 
-    signed int return_value_hdhomerun_sock_connect$1;
-    return_value_hdhomerun_sock_connect$1=hdhomerun_sock_connect(dbg->sock, remote_addr, (unsigned short int)8002, (unsigned long int)10000);
-    if(return_value_hdhomerun_sock_connect$1 == 0)
+    signed int return_value_hdhomerun_sock_connect_1;
+    return_value_hdhomerun_sock_connect_1=hdhomerun_sock_connect(dbg->sock, remote_addr, (unsigned short int)8002, (unsigned long int)10000);
+    if(return_value_hdhomerun_sock_connect_1 == 0)
     {
       hdhomerun_debug_close_internal(dbg);
       return 0;
@@ -4135,9 +4135,9 @@ static signed int hdhomerun_debug_output_message_sock(struct hdhomerun_debug_t *
 
   unsigned long int length;
   length=strlen(message->buffer);
-  signed int return_value_hdhomerun_sock_send$2;
-  return_value_hdhomerun_sock_send$2=hdhomerun_sock_send(dbg->sock, (const void *)message->buffer, length, (unsigned long int)10000);
-  if(return_value_hdhomerun_sock_send$2 == 0)
+  signed int return_value_hdhomerun_sock_send_2;
+  return_value_hdhomerun_sock_send_2=hdhomerun_sock_send(dbg->sock, (const void *)message->buffer, length, (unsigned long int)10000);
+  if(return_value_hdhomerun_sock_send_2 == 0)
   {
     hdhomerun_debug_close_internal(dbg);
     return 0;
@@ -4177,7 +4177,7 @@ extern void hdhomerun_debug_printf(struct hdhomerun_debug_t *dbg, const char *fm
 // file hdhomerun_debug.c line 149
 extern void hdhomerun_debug_set_filename(struct hdhomerun_debug_t *dbg, const char *filename)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(!(dbg == ((struct hdhomerun_debug_t *)NULL)))
   {
     pthread_mutex_lock(&dbg->send_lock);
@@ -4201,10 +4201,10 @@ extern void hdhomerun_debug_set_filename(struct hdhomerun_debug_t *dbg, const ch
 
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(filename, dbg->file_name);
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(!(tmp_statement_expression$1 == 0))
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(filename, dbg->file_name);
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(!(tmp_statement_expression_1 == 0))
           goto __CPROVER_DUMP_L2;
 
         pthread_mutex_unlock(&dbg->send_lock);
@@ -4225,9 +4225,9 @@ extern void hdhomerun_debug_set_filename(struct hdhomerun_debug_t *dbg, const ch
 
         if(!(filename == ((const char *)NULL)))
         {
-          char *return_value___strdup$3;
-          return_value___strdup$3=__strdup(filename);
-          dbg->file_name = return_value___strdup$3;
+          char *return_value___strdup_3;
+          return_value___strdup_3=__strdup(filename);
+          dbg->file_name = return_value___strdup_3;
         }
 
         pthread_mutex_unlock(&dbg->send_lock);
@@ -4252,9 +4252,9 @@ extern void hdhomerun_debug_set_prefix(struct hdhomerun_debug_t *dbg, const char
 
     if(!(prefix == ((const char *)NULL)))
     {
-      char *return_value___strdup$1;
-      return_value___strdup$1=__strdup(prefix);
-      dbg->prefix = return_value___strdup$1;
+      char *return_value___strdup_1;
+      return_value___strdup_1=__strdup(prefix);
+      dbg->prefix = return_value___strdup_1;
     }
 
     pthread_mutex_unlock(&dbg->print_lock);
@@ -4282,9 +4282,9 @@ static void * hdhomerun_debug_thread_execute(void *arg)
 
       else
       {
-        signed int return_value_hdhomerun_debug_output_message$1;
-        return_value_hdhomerun_debug_output_message$1=hdhomerun_debug_output_message(dbg, message);
-        if(return_value_hdhomerun_debug_output_message$1 == 0)
+        signed int return_value_hdhomerun_debug_output_message_1;
+        return_value_hdhomerun_debug_output_message_1=hdhomerun_debug_output_message(dbg, message);
+        if(return_value_hdhomerun_debug_output_message_1 == 0)
           msleep_approx((unsigned long int)250);
 
         else
@@ -4303,9 +4303,9 @@ extern void hdhomerun_debug_vprintf(struct hdhomerun_debug_t *dbg, const char *f
     if(!(dbg->enabled == 0))
     {
       struct hdhomerun_debug_message_t *message;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct hdhomerun_debug_message_t) /*2064ul*/ );
-      message = (struct hdhomerun_debug_message_t *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct hdhomerun_debug_message_t) /*2064ul*/ );
+      message = (struct hdhomerun_debug_message_t *)return_value_malloc_1;
       if(!(message == ((struct hdhomerun_debug_message_t *)NULL)))
       {
         char *ptr = message->buffer;
@@ -4313,11 +4313,11 @@ extern void hdhomerun_debug_vprintf(struct hdhomerun_debug_t *dbg, const char *f
         *end = (char)0;
         signed long int current_time;
         current_time=time((signed long int *)(void *)0);
-        struct tm *return_value_localtime$2;
-        return_value_localtime$2=localtime(&current_time);
-        unsigned long int return_value_strftime$3;
-        return_value_strftime$3=strftime(ptr, (unsigned long int)(end - ptr), "%Y%m%d-%H:%M:%S ", return_value_localtime$2);
-        ptr = ptr + (signed long int)return_value_strftime$3;
+        struct tm *return_value_localtime_2;
+        return_value_localtime_2=localtime(&current_time);
+        unsigned long int return_value_strftime_3;
+        return_value_strftime_3=strftime(ptr, (unsigned long int)(end - ptr), "%Y%m%d-%H:%M:%S ", return_value_localtime_2);
+        ptr = ptr + (signed long int)return_value_strftime_3;
         if(!(end >= ptr))
           ptr = end;
 
@@ -4325,16 +4325,16 @@ extern void hdhomerun_debug_vprintf(struct hdhomerun_debug_t *dbg, const char *f
         if(!(dbg->prefix == ((char *)NULL)))
         {
           hdhomerun_sprintf(ptr, end, "%s ", dbg->prefix);
-          void *return_value___rawmemchr$4;
-          return_value___rawmemchr$4=__rawmemchr((const void *)ptr, 0);
-          ptr = (char *)return_value___rawmemchr$4;
+          void *return_value___rawmemchr_4;
+          return_value___rawmemchr_4=__rawmemchr((const void *)ptr, 0);
+          ptr = (char *)return_value___rawmemchr_4;
         }
 
         pthread_mutex_unlock(&dbg->print_lock);
         hdhomerun_vsprintf(ptr, end, fmt, args);
-        void *return_value___rawmemchr$5;
-        return_value___rawmemchr$5=__rawmemchr((const void *)ptr, 0);
-        ptr = (char *)return_value___rawmemchr$5;
+        void *return_value___rawmemchr_5;
+        return_value___rawmemchr_5=__rawmemchr((const void *)ptr, 0);
+        ptr = (char *)return_value___rawmemchr_5;
         if(!((signed int)ptr[-1l] == 10))
           hdhomerun_sprintf(ptr, end, "\n");
 
@@ -4417,9 +4417,9 @@ extern unsigned char hdhomerun_device_channelscan_get_progress(struct hdhomerun_
 
   else
   {
-    unsigned char return_value_channelscan_get_progress$1;
-    return_value_channelscan_get_progress$1=channelscan_get_progress(hd->scan);
-    return return_value_channelscan_get_progress$1;
+    unsigned char return_value_channelscan_get_progress_1;
+    return_value_channelscan_get_progress_1=channelscan_get_progress(hd->scan);
+    return return_value_channelscan_get_progress_1;
   }
 }
 
@@ -4445,37 +4445,37 @@ extern signed int hdhomerun_device_channelscan_init(struct hdhomerun_device_t *h
 // file hdhomerun_device.c line 149
 extern struct hdhomerun_device_t * hdhomerun_device_create(unsigned int device_id, unsigned int device_ip, unsigned int tuner, struct hdhomerun_debug_t *dbg)
 {
-  struct hdhomerun_device_t *hdhomerun_device_create$$1$$hd;
-  hdhomerun_device_create$$1$$hd=hdhomerun_device_create_internal(dbg);
-  if(hdhomerun_device_create$$1$$hd == ((struct hdhomerun_device_t *)NULL))
+  struct hdhomerun_device_t *hdhomerun_device_create__1__hd;
+  hdhomerun_device_create__1__hd=hdhomerun_device_create_internal(dbg);
+  if(hdhomerun_device_create__1__hd == ((struct hdhomerun_device_t *)NULL))
     return (struct hdhomerun_device_t *)(void *)0;
 
   else
     if(device_id == 0u && device_ip == 0u && tuner == 0u)
-      return hdhomerun_device_create$$1$$hd;
+      return hdhomerun_device_create__1__hd;
 
     else
     {
-      signed int return_value_hdhomerun_device_set_device$1;
-      return_value_hdhomerun_device_set_device$1=hdhomerun_device_set_device(hdhomerun_device_create$$1$$hd, device_id, device_ip);
-      if(!(return_value_hdhomerun_device_set_device$1 >= 1))
+      signed int return_value_hdhomerun_device_set_device_1;
+      return_value_hdhomerun_device_set_device_1=hdhomerun_device_set_device(hdhomerun_device_create__1__hd, device_id, device_ip);
+      if(!(return_value_hdhomerun_device_set_device_1 >= 1))
       {
-        free((void *)hdhomerun_device_create$$1$$hd);
+        free((void *)hdhomerun_device_create__1__hd);
         return (struct hdhomerun_device_t *)(void *)0;
       }
 
       else
       {
-        signed int return_value_hdhomerun_device_set_tuner$2;
-        return_value_hdhomerun_device_set_tuner$2=hdhomerun_device_set_tuner(hdhomerun_device_create$$1$$hd, tuner);
-        if(!(return_value_hdhomerun_device_set_tuner$2 >= 1))
+        signed int return_value_hdhomerun_device_set_tuner_2;
+        return_value_hdhomerun_device_set_tuner_2=hdhomerun_device_set_tuner(hdhomerun_device_create__1__hd, tuner);
+        if(!(return_value_hdhomerun_device_set_tuner_2 >= 1))
         {
-          free((void *)hdhomerun_device_create$$1$$hd);
+          free((void *)hdhomerun_device_create__1__hd);
           return (struct hdhomerun_device_t *)(void *)0;
         }
 
         else
-          return hdhomerun_device_create$$1$$hd;
+          return hdhomerun_device_create__1__hd;
       }
     }
 }
@@ -4485,61 +4485,61 @@ extern struct hdhomerun_device_t * hdhomerun_device_create(unsigned int device_i
 extern struct hdhomerun_device_t * hdhomerun_device_create_from_str(const char *device_str, struct hdhomerun_debug_t *dbg)
 {
   unsigned int a[4l];
-  signed int return_value_sscanf$6;
-  return_value_sscanf$6=sscanf(device_str, "%u.%u.%u.%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3]);
-  if(return_value_sscanf$6 == 4)
+  signed int return_value_sscanf_6;
+  return_value_sscanf_6=sscanf(device_str, "%u.%u.%u.%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3]);
+  if(return_value_sscanf_6 == 4)
   {
     unsigned int ip_addr = (unsigned int)(a[(signed long int)0] << 24 | a[(signed long int)1] << 16 | a[(signed long int)2] << 8 | a[(signed long int)3] << 0);
     unsigned int port;
-    signed int return_value_sscanf$2;
-    return_value_sscanf$2=sscanf(device_str, "%u.%u.%u.%u:%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3], &port);
-    if(return_value_sscanf$2 == 5)
+    signed int return_value_sscanf_2;
+    return_value_sscanf_2=sscanf(device_str, "%u.%u.%u.%u:%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3], &port);
+    if(return_value_sscanf_2 == 5)
     {
-      struct hdhomerun_device_t *return_value_hdhomerun_device_create_multicast$1;
-      return_value_hdhomerun_device_create_multicast$1=hdhomerun_device_create_multicast(ip_addr, (unsigned short int)port, dbg);
-      return return_value_hdhomerun_device_create_multicast$1;
+      struct hdhomerun_device_t *return_value_hdhomerun_device_create_multicast_1;
+      return_value_hdhomerun_device_create_multicast_1=hdhomerun_device_create_multicast(ip_addr, (unsigned short int)port, dbg);
+      return return_value_hdhomerun_device_create_multicast_1;
     }
 
     unsigned int tuner;
-    signed int return_value_sscanf$4;
-    return_value_sscanf$4=sscanf(device_str, "%u.%u.%u.%u-%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3], &tuner);
-    if(return_value_sscanf$4 == 5)
+    signed int return_value_sscanf_4;
+    return_value_sscanf_4=sscanf(device_str, "%u.%u.%u.%u-%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3], &tuner);
+    if(return_value_sscanf_4 == 5)
     {
-      struct hdhomerun_device_t *return_value_hdhomerun_device_create$3;
-      return_value_hdhomerun_device_create$3=hdhomerun_device_create(0xFFFFFFFF, ip_addr, tuner, dbg);
-      return return_value_hdhomerun_device_create$3;
+      struct hdhomerun_device_t *return_value_hdhomerun_device_create_3;
+      return_value_hdhomerun_device_create_3=hdhomerun_device_create(0xFFFFFFFF, ip_addr, tuner, dbg);
+      return return_value_hdhomerun_device_create_3;
     }
 
-    struct hdhomerun_device_t *return_value_hdhomerun_device_create$5;
-    return_value_hdhomerun_device_create$5=hdhomerun_device_create(0xFFFFFFFF, ip_addr, (unsigned int)0, dbg);
-    return return_value_hdhomerun_device_create$5;
+    struct hdhomerun_device_t *return_value_hdhomerun_device_create_5;
+    return_value_hdhomerun_device_create_5=hdhomerun_device_create(0xFFFFFFFF, ip_addr, (unsigned int)0, dbg);
+    return return_value_hdhomerun_device_create_5;
   }
 
   char *end;
   unsigned int device_id;
-  unsigned long int return_value_strtoul$7;
-  return_value_strtoul$7=strtoul(device_str, &end, 16);
-  device_id = (unsigned int)return_value_strtoul$7;
-  signed int return_value_hdhomerun_discover_validate_device_id$11;
+  unsigned long int return_value_strtoul_7;
+  return_value_strtoul_7=strtoul(device_str, &end, 16);
+  device_id = (unsigned int)return_value_strtoul_7;
+  signed int return_value_hdhomerun_discover_validate_device_id_11;
   if(end == device_str + 8l)
   {
-    return_value_hdhomerun_discover_validate_device_id$11=hdhomerun_discover_validate_device_id(device_id);
-    if(!(return_value_hdhomerun_discover_validate_device_id$11 == 0))
+    return_value_hdhomerun_discover_validate_device_id_11=hdhomerun_discover_validate_device_id(device_id);
+    if(!(return_value_hdhomerun_discover_validate_device_id_11 == 0))
     {
       if((signed int)*end == 45)
       {
-        unsigned int hdhomerun_device_create_from_str$$1$$2$$1$$tuner;
-        unsigned long int return_value_strtoul$8;
-        return_value_strtoul$8=strtoul(end + (signed long int)1, (char ** restrict )(void *)0, 10);
-        hdhomerun_device_create_from_str$$1$$2$$1$$tuner = (unsigned int)return_value_strtoul$8;
-        struct hdhomerun_device_t *return_value_hdhomerun_device_create$9;
-        return_value_hdhomerun_device_create$9=hdhomerun_device_create(device_id, (unsigned int)0, hdhomerun_device_create_from_str$$1$$2$$1$$tuner, dbg);
-        return return_value_hdhomerun_device_create$9;
+        unsigned int hdhomerun_device_create_from_str__1__2__1__tuner;
+        unsigned long int return_value_strtoul_8;
+        return_value_strtoul_8=strtoul(end + (signed long int)1, (char ** restrict )(void *)0, 10);
+        hdhomerun_device_create_from_str__1__2__1__tuner = (unsigned int)return_value_strtoul_8;
+        struct hdhomerun_device_t *return_value_hdhomerun_device_create_9;
+        return_value_hdhomerun_device_create_9=hdhomerun_device_create(device_id, (unsigned int)0, hdhomerun_device_create_from_str__1__2__1__tuner, dbg);
+        return return_value_hdhomerun_device_create_9;
       }
 
-      struct hdhomerun_device_t *return_value_hdhomerun_device_create$10;
-      return_value_hdhomerun_device_create$10=hdhomerun_device_create(device_id, (unsigned int)0, (unsigned int)0, dbg);
-      return return_value_hdhomerun_device_create$10;
+      struct hdhomerun_device_t *return_value_hdhomerun_device_create_10;
+      return_value_hdhomerun_device_create_10=hdhomerun_device_create(device_id, (unsigned int)0, (unsigned int)0, dbg);
+      return return_value_hdhomerun_device_create_10;
     }
 
   }
@@ -4550,27 +4550,27 @@ extern struct hdhomerun_device_t * hdhomerun_device_create_from_str(const char *
   hints.ai_socktype = 1;
   hints.ai_protocol = 6;
   struct addrinfo *sock_info;
-  signed int return_value_getaddrinfo$12;
-  return_value_getaddrinfo$12=getaddrinfo(device_str, "65001", &hints, &sock_info);
-  if(!(return_value_getaddrinfo$12 == 0))
+  signed int return_value_getaddrinfo_12;
+  return_value_getaddrinfo_12=getaddrinfo(device_str, "65001", &hints, &sock_info);
+  if(!(return_value_getaddrinfo_12 == 0))
     return (struct hdhomerun_device_t *)(void *)0;
 
   else
   {
     struct sockaddr_in *sock_addr = (struct sockaddr_in *)sock_info->ai_addr;
-    unsigned int hdhomerun_device_create_from_str$$1$$ip_addr;
-    unsigned int return_value___bswap_32$13;
-    return_value___bswap_32$13=__bswap_32(sock_addr->sin_addr.s_addr);
-    hdhomerun_device_create_from_str$$1$$ip_addr = (unsigned int)return_value___bswap_32$13;
+    unsigned int hdhomerun_device_create_from_str__1__ip_addr;
+    unsigned int return_value___bswap_32_13;
+    return_value___bswap_32_13=__bswap_32(sock_addr->sin_addr.s_addr);
+    hdhomerun_device_create_from_str__1__ip_addr = (unsigned int)return_value___bswap_32_13;
     freeaddrinfo(sock_info);
-    if(hdhomerun_device_create_from_str$$1$$ip_addr == 0u)
+    if(hdhomerun_device_create_from_str__1__ip_addr == 0u)
       return (struct hdhomerun_device_t *)(void *)0;
 
     else
     {
-      struct hdhomerun_device_t *return_value_hdhomerun_device_create$14;
-      return_value_hdhomerun_device_create$14=hdhomerun_device_create(0xFFFFFFFF, hdhomerun_device_create_from_str$$1$$ip_addr, (unsigned int)0, dbg);
-      return return_value_hdhomerun_device_create$14;
+      struct hdhomerun_device_t *return_value_hdhomerun_device_create_14;
+      return_value_hdhomerun_device_create_14=hdhomerun_device_create(0xFFFFFFFF, hdhomerun_device_create_from_str__1__ip_addr, (unsigned int)0, dbg);
+      return return_value_hdhomerun_device_create_14;
     }
   }
 }
@@ -4579,11 +4579,11 @@ extern struct hdhomerun_device_t * hdhomerun_device_create_from_str(const char *
 // file hdhomerun_device.c line 137
 static struct hdhomerun_device_t * hdhomerun_device_create_internal(struct hdhomerun_debug_t *dbg)
 {
-  struct hdhomerun_device_t *hdhomerun_device_create_internal$$1$$hd;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hdhomerun_device_t) /*120ul*/ );
-  hdhomerun_device_create_internal$$1$$hd = (struct hdhomerun_device_t *)return_value_calloc$1;
-  if(hdhomerun_device_create_internal$$1$$hd == ((struct hdhomerun_device_t *)NULL))
+  struct hdhomerun_device_t *hdhomerun_device_create_internal__1__hd;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hdhomerun_device_t) /*120ul*/ );
+  hdhomerun_device_create_internal__1__hd = (struct hdhomerun_device_t *)return_value_calloc_1;
+  if(hdhomerun_device_create_internal__1__hd == ((struct hdhomerun_device_t *)NULL))
   {
     hdhomerun_debug_printf(dbg, "hdhomerun_device_create: failed to allocate device object\n");
     return (struct hdhomerun_device_t *)(void *)0;
@@ -4591,8 +4591,8 @@ static struct hdhomerun_device_t * hdhomerun_device_create_internal(struct hdhom
 
   else
   {
-    hdhomerun_device_create_internal$$1$$hd->dbg = dbg;
-    return hdhomerun_device_create_internal$$1$$hd;
+    hdhomerun_device_create_internal__1__hd->dbg = dbg;
+    return hdhomerun_device_create_internal__1__hd;
   }
 }
 
@@ -4600,23 +4600,23 @@ static struct hdhomerun_device_t * hdhomerun_device_create_internal(struct hdhom
 // file hdhomerun_device.c line 172
 extern struct hdhomerun_device_t * hdhomerun_device_create_multicast(unsigned int multicast_ip, unsigned short int multicast_port, struct hdhomerun_debug_t *dbg)
 {
-  struct hdhomerun_device_t *hdhomerun_device_create_multicast$$1$$hd;
-  hdhomerun_device_create_multicast$$1$$hd=hdhomerun_device_create_internal(dbg);
-  if(hdhomerun_device_create_multicast$$1$$hd == ((struct hdhomerun_device_t *)NULL))
+  struct hdhomerun_device_t *hdhomerun_device_create_multicast__1__hd;
+  hdhomerun_device_create_multicast__1__hd=hdhomerun_device_create_internal(dbg);
+  if(hdhomerun_device_create_multicast__1__hd == ((struct hdhomerun_device_t *)NULL))
     return (struct hdhomerun_device_t *)(void *)0;
 
   else
   {
-    signed int return_value_hdhomerun_device_set_multicast$1;
-    return_value_hdhomerun_device_set_multicast$1=hdhomerun_device_set_multicast(hdhomerun_device_create_multicast$$1$$hd, multicast_ip, multicast_port);
-    if(!(return_value_hdhomerun_device_set_multicast$1 >= 1))
+    signed int return_value_hdhomerun_device_set_multicast_1;
+    return_value_hdhomerun_device_set_multicast_1=hdhomerun_device_set_multicast(hdhomerun_device_create_multicast__1__hd, multicast_ip, multicast_port);
+    if(!(return_value_hdhomerun_device_set_multicast_1 >= 1))
     {
-      free((void *)hdhomerun_device_create_multicast$$1$$hd);
+      free((void *)hdhomerun_device_create_multicast__1__hd);
       return (struct hdhomerun_device_t *)(void *)0;
     }
 
     else
-      return hdhomerun_device_create_multicast$$1$$hd;
+      return hdhomerun_device_create_multicast__1__hd;
   }
 }
 
@@ -4624,9 +4624,9 @@ extern struct hdhomerun_device_t * hdhomerun_device_create_multicast(unsigned in
 // file hdhomerun_device.c line 1320
 extern void hdhomerun_device_debug_print_video_stats(struct hdhomerun_device_t *hd)
 {
-  signed int return_value_hdhomerun_debug_enabled$1;
-  return_value_hdhomerun_debug_enabled$1=hdhomerun_debug_enabled(hd->dbg);
-  if(!(return_value_hdhomerun_debug_enabled$1 == 0))
+  signed int return_value_hdhomerun_debug_enabled_1;
+  return_value_hdhomerun_debug_enabled_1=hdhomerun_debug_enabled(hd->dbg);
+  if(!(return_value_hdhomerun_debug_enabled_1 == 0))
   {
     if(!(hd->cs == ((struct hdhomerun_control_sock_t *)NULL)))
     {
@@ -4700,9 +4700,9 @@ extern unsigned int hdhomerun_device_get_device_id_requested(struct hdhomerun_de
   {
     if(!(hd->cs == ((struct hdhomerun_control_sock_t *)NULL)))
     {
-      unsigned int return_value_hdhomerun_control_get_device_id_requested$1;
-      return_value_hdhomerun_control_get_device_id_requested$1=hdhomerun_control_get_device_id_requested(hd->cs);
-      return return_value_hdhomerun_control_get_device_id_requested$1;
+      unsigned int return_value_hdhomerun_control_get_device_id_requested_1;
+      return_value_hdhomerun_control_get_device_id_requested_1=hdhomerun_control_get_device_id_requested(hd->cs);
+      return return_value_hdhomerun_control_get_device_id_requested_1;
     }
 
     return (unsigned int)0;
@@ -4720,9 +4720,9 @@ extern unsigned int hdhomerun_device_get_device_ip(struct hdhomerun_device_t *hd
   {
     if(!(hd->cs == ((struct hdhomerun_control_sock_t *)NULL)))
     {
-      unsigned int return_value_hdhomerun_control_get_device_ip$1;
-      return_value_hdhomerun_control_get_device_ip$1=hdhomerun_control_get_device_ip(hd->cs);
-      return return_value_hdhomerun_control_get_device_ip$1;
+      unsigned int return_value_hdhomerun_control_get_device_ip_1;
+      return_value_hdhomerun_control_get_device_ip_1=hdhomerun_control_get_device_ip(hd->cs);
+      return return_value_hdhomerun_control_get_device_ip_1;
     }
 
     return (unsigned int)0;
@@ -4740,9 +4740,9 @@ extern unsigned int hdhomerun_device_get_device_ip_requested(struct hdhomerun_de
   {
     if(!(hd->cs == ((struct hdhomerun_control_sock_t *)NULL)))
     {
-      unsigned int return_value_hdhomerun_control_get_device_ip_requested$1;
-      return_value_hdhomerun_control_get_device_ip_requested$1=hdhomerun_control_get_device_ip_requested(hd->cs);
-      return return_value_hdhomerun_control_get_device_ip_requested$1;
+      unsigned int return_value_hdhomerun_control_get_device_ip_requested_1;
+      return_value_hdhomerun_control_get_device_ip_requested_1=hdhomerun_control_get_device_ip_requested(hd->cs);
+      return return_value_hdhomerun_control_get_device_ip_requested_1;
     }
 
     return (unsigned int)0;
@@ -4784,9 +4784,9 @@ extern signed int hdhomerun_device_get_ir_target(struct hdhomerun_device_t *hd, 
 
   else
   {
-    signed int return_value_hdhomerun_control_get$1;
-    return_value_hdhomerun_control_get$1=hdhomerun_control_get(hd->cs, "/ir/target", ptarget, (char **)(void *)0);
-    return return_value_hdhomerun_control_get$1;
+    signed int return_value_hdhomerun_control_get_1;
+    return_value_hdhomerun_control_get_1=hdhomerun_control_get(hd->cs, "/ir/target", ptarget, (char **)(void *)0);
+    return return_value_hdhomerun_control_get_1;
   }
 }
 
@@ -4796,9 +4796,9 @@ extern unsigned int hdhomerun_device_get_local_machine_addr(struct hdhomerun_dev
 {
   if(!(hd->cs == ((struct hdhomerun_control_sock_t *)NULL)))
   {
-    unsigned int return_value_hdhomerun_control_get_local_addr$1;
-    return_value_hdhomerun_control_get_local_addr$1=hdhomerun_control_get_local_addr(hd->cs);
-    return return_value_hdhomerun_control_get_local_addr$1;
+    unsigned int return_value_hdhomerun_control_get_local_addr_1;
+    return_value_hdhomerun_control_get_local_addr_1=hdhomerun_control_get_local_addr(hd->cs);
+    return return_value_hdhomerun_control_get_local_addr_1;
   }
 
   return (unsigned int)0;
@@ -4860,9 +4860,9 @@ extern signed int hdhomerun_device_get_oob_plotsample(struct hdhomerun_device_t 
 
   else
   {
-    signed int return_value_hdhomerun_device_get_tuner_plotsample_internal$1;
-    return_value_hdhomerun_device_get_tuner_plotsample_internal$1=hdhomerun_device_get_tuner_plotsample_internal(hd, "/oob/plotsample", psamples, pcount);
-    return return_value_hdhomerun_device_get_tuner_plotsample_internal$1;
+    signed int return_value_hdhomerun_device_get_tuner_plotsample_internal_1;
+    return_value_hdhomerun_device_get_tuner_plotsample_internal_1=hdhomerun_device_get_tuner_plotsample_internal(hd, "/oob/plotsample", psamples, pcount);
+    return return_value_hdhomerun_device_get_tuner_plotsample_internal_1;
   }
 }
 
@@ -4870,7 +4870,7 @@ extern signed int hdhomerun_device_get_oob_plotsample(struct hdhomerun_device_t 
 // file hdhomerun_device.c line 494
 extern signed int hdhomerun_device_get_oob_status(struct hdhomerun_device_t *hd, char **pstatus_str, struct hdhomerun_tuner_status_t *status)
 {
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_3;
   if(hd->cs == ((struct hdhomerun_control_sock_t *)NULL))
   {
     hdhomerun_debug_printf(hd->dbg, "hdhomerun_device_get_oob_status: device not set\n");
@@ -4903,19 +4903,19 @@ extern signed int hdhomerun_device_get_oob_status(struct hdhomerun_device_t *hd,
         if(!(lock == ((char *)NULL)))
           sscanf(lock + (signed long int)5, "%31s", (const void *)status->lock_str);
 
-        unsigned int return_value_hdhomerun_device_get_status_parse$1;
-        return_value_hdhomerun_device_get_status_parse$1=hdhomerun_device_get_status_parse(status_str, "ss=");
-        status->signal_strength = (unsigned int)return_value_hdhomerun_device_get_status_parse$1;
-        unsigned int return_value_hdhomerun_device_get_status_parse$2;
-        return_value_hdhomerun_device_get_status_parse$2=hdhomerun_device_get_status_parse(status_str, "snq=");
-        status->signal_to_noise_quality = (unsigned int)return_value_hdhomerun_device_get_status_parse$2;
+        unsigned int return_value_hdhomerun_device_get_status_parse_1;
+        return_value_hdhomerun_device_get_status_parse_1=hdhomerun_device_get_status_parse(status_str, "ss=");
+        status->signal_strength = (unsigned int)return_value_hdhomerun_device_get_status_parse_1;
+        unsigned int return_value_hdhomerun_device_get_status_parse_2;
+        return_value_hdhomerun_device_get_status_parse_2=hdhomerun_device_get_status_parse(status_str, "snq=");
+        status->signal_to_noise_quality = (unsigned int)return_value_hdhomerun_device_get_status_parse_2;
         status->signal_present = (signed int)(status->signal_strength >= (unsigned int)45);
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$4;
-        return_value___builtin_strcmp$4=__builtin_strcmp(status->lock_str, "none");
-        tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-        status->lock_supported = (signed int)(tmp_statement_expression$3 != 0);
+        signed int return_value___builtin_strcmp_4;
+        return_value___builtin_strcmp_4=__builtin_strcmp(status->lock_str, "none");
+        tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+        status->lock_supported = (signed int)(tmp_statement_expression_3 != 0);
       }
 
       return 1;
@@ -4935,9 +4935,9 @@ static unsigned int hdhomerun_device_get_status_parse(const char *status_str, co
   else
   {
     unsigned int value = (unsigned int)0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(tag);
-    sscanf(ptr + (signed long int)return_value_strlen$1, "%u", &value);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(tag);
+    sscanf(ptr + (signed long int)return_value_strlen_1, "%u", &value);
     return (unsigned int)value;
   }
 }
@@ -4976,13 +4976,13 @@ extern signed int hdhomerun_device_get_supported(struct hdhomerun_device_t *hd, 
 
         else
         {
-          unsigned long int return_value_strlen$1;
-          return_value_strlen$1=strlen(prefix);
-          ptr = ptr + (signed long int)return_value_strlen$1;
+          unsigned long int return_value_strlen_1;
+          return_value_strlen_1=strlen(prefix);
+          ptr = ptr + (signed long int)return_value_strlen_1;
           *pstr = ptr;
-          char *return_value___builtin_strchr$2;
-          return_value___builtin_strchr$2=__builtin_strchr(ptr, 10);
-          ptr = return_value___builtin_strchr$2;
+          char *return_value___builtin_strchr_2;
+          return_value___builtin_strchr_2=__builtin_strchr(ptr, 10);
+          ptr = return_value___builtin_strchr_2;
           if(!(ptr == ((char *)NULL)))
             *ptr = (char)0;
 
@@ -5013,9 +5013,9 @@ extern signed int hdhomerun_device_get_tuner_channel(struct hdhomerun_device_t *
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/channel", hd->tuner);
-    signed int return_value_hdhomerun_control_get$1;
-    return_value_hdhomerun_control_get$1=hdhomerun_control_get(hd->cs, name, pchannel, (char **)(void *)0);
-    return return_value_hdhomerun_control_get$1;
+    signed int return_value_hdhomerun_control_get_1;
+    return_value_hdhomerun_control_get_1=hdhomerun_control_get(hd->cs, name, pchannel, (char **)(void *)0);
+    return return_value_hdhomerun_control_get_1;
   }
 }
 
@@ -5033,9 +5033,9 @@ extern signed int hdhomerun_device_get_tuner_channelmap(struct hdhomerun_device_
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/channelmap", hd->tuner);
-    signed int return_value_hdhomerun_control_get$1;
-    return_value_hdhomerun_control_get$1=hdhomerun_control_get(hd->cs, name, pchannelmap, (char **)(void *)0);
-    return return_value_hdhomerun_control_get$1;
+    signed int return_value_hdhomerun_control_get_1;
+    return_value_hdhomerun_control_get_1=hdhomerun_control_get(hd->cs, name, pchannelmap, (char **)(void *)0);
+    return return_value_hdhomerun_control_get_1;
   }
 }
 
@@ -5053,9 +5053,9 @@ extern signed int hdhomerun_device_get_tuner_filter(struct hdhomerun_device_t *h
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/filter", hd->tuner);
-    signed int return_value_hdhomerun_control_get$1;
-    return_value_hdhomerun_control_get$1=hdhomerun_control_get(hd->cs, name, pfilter, (char **)(void *)0);
-    return return_value_hdhomerun_control_get$1;
+    signed int return_value_hdhomerun_control_get_1;
+    return_value_hdhomerun_control_get_1=hdhomerun_control_get(hd->cs, name, pfilter, (char **)(void *)0);
+    return return_value_hdhomerun_control_get_1;
   }
 }
 
@@ -5073,9 +5073,9 @@ extern signed int hdhomerun_device_get_tuner_lockkey_owner(struct hdhomerun_devi
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/lockkey", hd->tuner);
-    signed int return_value_hdhomerun_control_get$1;
-    return_value_hdhomerun_control_get$1=hdhomerun_control_get(hd->cs, name, powner, (char **)(void *)0);
-    return return_value_hdhomerun_control_get$1;
+    signed int return_value_hdhomerun_control_get_1;
+    return_value_hdhomerun_control_get_1=hdhomerun_control_get(hd->cs, name, powner, (char **)(void *)0);
+    return return_value_hdhomerun_control_get_1;
   }
 }
 
@@ -5093,9 +5093,9 @@ extern signed int hdhomerun_device_get_tuner_plotsample(struct hdhomerun_device_
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/plotsample", hd->tuner);
-    signed int return_value_hdhomerun_device_get_tuner_plotsample_internal$1;
-    return_value_hdhomerun_device_get_tuner_plotsample_internal$1=hdhomerun_device_get_tuner_plotsample_internal(hd, name, psamples, pcount);
-    return return_value_hdhomerun_device_get_tuner_plotsample_internal$1;
+    signed int return_value_hdhomerun_device_get_tuner_plotsample_internal_1;
+    return_value_hdhomerun_device_get_tuner_plotsample_internal_1=hdhomerun_device_get_tuner_plotsample_internal(hd, name, psamples, pcount);
+    return return_value_hdhomerun_device_get_tuner_plotsample_internal_1;
   }
 }
 
@@ -5106,7 +5106,7 @@ static signed int hdhomerun_device_get_tuner_plotsample_internal(struct hdhomeru
   char *result;
   signed int ret;
   ret=hdhomerun_control_get(hd->cs, name, &result, (char **)(void *)0);
-  char *tmp_post$2;
+  char *tmp_post_2;
   if(!(ret >= 1))
     return ret;
 
@@ -5118,19 +5118,19 @@ static signed int hdhomerun_device_get_tuner_plotsample_internal(struct hdhomeru
     while((_Bool)1)
     {
       char *ptr;
-      char *return_value___builtin_strchr$1;
-      return_value___builtin_strchr$1=__builtin_strchr(result, 32);
-      ptr = return_value___builtin_strchr$1;
+      char *return_value___builtin_strchr_1;
+      return_value___builtin_strchr_1=__builtin_strchr(result, 32);
+      ptr = return_value___builtin_strchr_1;
       if(ptr == ((char *)NULL))
         break;
 
-      tmp_post$2 = ptr;
+      tmp_post_2 = ptr;
       ptr = ptr + 1l;
-      *tmp_post$2 = (char)0;
+      *tmp_post_2 = (char)0;
       unsigned int raw;
-      signed int return_value_sscanf$3;
-      return_value_sscanf$3=sscanf(result, "%x", &raw);
-      if(!(return_value_sscanf$3 == 1))
+      signed int return_value_sscanf_3;
+      return_value_sscanf_3=sscanf(result, "%x", &raw);
+      if(!(return_value_sscanf_3 == 1))
         break;
 
       unsigned short int real = (unsigned short int)(raw >> 12 & (unsigned int)0x0FFF);
@@ -5166,9 +5166,9 @@ extern signed int hdhomerun_device_get_tuner_program(struct hdhomerun_device_t *
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/program", hd->tuner);
-    signed int return_value_hdhomerun_control_get$1;
-    return_value_hdhomerun_control_get$1=hdhomerun_control_get(hd->cs, name, pprogram, (char **)(void *)0);
-    return return_value_hdhomerun_control_get$1;
+    signed int return_value_hdhomerun_control_get_1;
+    return_value_hdhomerun_control_get_1=hdhomerun_control_get(hd->cs, name, pprogram, (char **)(void *)0);
+    return return_value_hdhomerun_control_get_1;
   }
 }
 
@@ -5176,7 +5176,7 @@ extern signed int hdhomerun_device_get_tuner_program(struct hdhomerun_device_t *
 // file hdhomerun_device.h line 106
 extern signed int hdhomerun_device_get_tuner_status(struct hdhomerun_device_t *hd, char **pstatus_str, struct hdhomerun_tuner_status_t *status)
 {
-  signed int tmp_statement_expression$4;
+  signed int tmp_statement_expression_4;
   if(hd->cs == ((struct hdhomerun_control_sock_t *)NULL))
   {
     hdhomerun_debug_printf(hd->dbg, "hdhomerun_device_get_tuner_status: device not set\n");
@@ -5211,24 +5211,24 @@ extern signed int hdhomerun_device_get_tuner_status(struct hdhomerun_device_t *h
         if(!(lock == ((char *)NULL)))
           sscanf(lock + (signed long int)5, "%31s", (const void *)status->lock_str);
 
-        unsigned int return_value_hdhomerun_device_get_status_parse$1;
-        return_value_hdhomerun_device_get_status_parse$1=hdhomerun_device_get_status_parse(status_str, "ss=");
-        status->signal_strength = (unsigned int)return_value_hdhomerun_device_get_status_parse$1;
-        unsigned int return_value_hdhomerun_device_get_status_parse$2;
-        return_value_hdhomerun_device_get_status_parse$2=hdhomerun_device_get_status_parse(status_str, "snq=");
-        status->signal_to_noise_quality = (unsigned int)return_value_hdhomerun_device_get_status_parse$2;
-        unsigned int return_value_hdhomerun_device_get_status_parse$3;
-        return_value_hdhomerun_device_get_status_parse$3=hdhomerun_device_get_status_parse(status_str, "seq=");
-        status->symbol_error_quality = (unsigned int)return_value_hdhomerun_device_get_status_parse$3;
+        unsigned int return_value_hdhomerun_device_get_status_parse_1;
+        return_value_hdhomerun_device_get_status_parse_1=hdhomerun_device_get_status_parse(status_str, "ss=");
+        status->signal_strength = (unsigned int)return_value_hdhomerun_device_get_status_parse_1;
+        unsigned int return_value_hdhomerun_device_get_status_parse_2;
+        return_value_hdhomerun_device_get_status_parse_2=hdhomerun_device_get_status_parse(status_str, "snq=");
+        status->signal_to_noise_quality = (unsigned int)return_value_hdhomerun_device_get_status_parse_2;
+        unsigned int return_value_hdhomerun_device_get_status_parse_3;
+        return_value_hdhomerun_device_get_status_parse_3=hdhomerun_device_get_status_parse(status_str, "seq=");
+        status->symbol_error_quality = (unsigned int)return_value_hdhomerun_device_get_status_parse_3;
         status->raw_bits_per_second=hdhomerun_device_get_status_parse(status_str, "bps=");
         status->packets_per_second=hdhomerun_device_get_status_parse(status_str, "pps=");
         status->signal_present = (signed int)(status->signal_strength >= (unsigned int)45);
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$5;
-        return_value___builtin_strcmp$5=__builtin_strcmp(status->lock_str, "none");
-        tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-        if(!(tmp_statement_expression$4 == 0))
+        signed int return_value___builtin_strcmp_5;
+        return_value___builtin_strcmp_5=__builtin_strcmp(status->lock_str, "none");
+        tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+        if(!(tmp_statement_expression_4 == 0))
         {
           if((signed int)status->lock_str[0l] == 40)
             status->lock_unsupported = 1;
@@ -5248,34 +5248,34 @@ extern signed int hdhomerun_device_get_tuner_status(struct hdhomerun_device_t *h
 // file hdhomerun_device.c line 375
 static signed int hdhomerun_device_get_tuner_status_lock_is_bcast(struct hdhomerun_tuner_status_t *status)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(status->lock_str, "8vsb");
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  if(tmp_statement_expression$1 == 0)
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(status->lock_str, "8vsb");
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  if(tmp_statement_expression_1 == 0)
     return 1;
 
   else
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(status->lock_str, "t8", (unsigned long int)2);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(status->lock_str, "t8", (unsigned long int)2);
+    if(return_value_strncmp_3 == 0)
       return 1;
 
     else
     {
-      signed int return_value_strncmp$4;
-      return_value_strncmp$4=strncmp(status->lock_str, "t7", (unsigned long int)2);
-      if(return_value_strncmp$4 == 0)
+      signed int return_value_strncmp_4;
+      return_value_strncmp_4=strncmp(status->lock_str, "t7", (unsigned long int)2);
+      if(return_value_strncmp_4 == 0)
         return 1;
 
       else
       {
-        signed int return_value_strncmp$5;
-        return_value_strncmp$5=strncmp(status->lock_str, "t6", (unsigned long int)2);
-        if(return_value_strncmp$5 == 0)
+        signed int return_value_strncmp_5;
+        return_value_strncmp_5=strncmp(status->lock_str, "t6", (unsigned long int)2);
+        if(return_value_strncmp_5 == 0)
           return 1;
 
         else
@@ -5322,9 +5322,9 @@ extern unsigned int hdhomerun_device_get_tuner_status_ss_color(struct hdhomerun_
 
   else
   {
-    signed int return_value_hdhomerun_device_get_tuner_status_lock_is_bcast$1;
-    return_value_hdhomerun_device_get_tuner_status_lock_is_bcast$1=hdhomerun_device_get_tuner_status_lock_is_bcast(status);
-    if(!(return_value_hdhomerun_device_get_tuner_status_lock_is_bcast$1 == 0))
+    signed int return_value_hdhomerun_device_get_tuner_status_lock_is_bcast_1;
+    return_value_hdhomerun_device_get_tuner_status_lock_is_bcast_1=hdhomerun_device_get_tuner_status_lock_is_bcast(status);
+    if(!(return_value_hdhomerun_device_get_tuner_status_lock_is_bcast_1 == 0))
     {
       ss_yellow_min = (unsigned int)50;
       ss_green_min = (unsigned int)75;
@@ -5361,9 +5361,9 @@ extern signed int hdhomerun_device_get_tuner_streaminfo(struct hdhomerun_device_
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/streaminfo", hd->tuner);
-    signed int return_value_hdhomerun_control_get$1;
-    return_value_hdhomerun_control_get$1=hdhomerun_control_get(hd->cs, name, pstreaminfo, (char **)(void *)0);
-    return return_value_hdhomerun_control_get$1;
+    signed int return_value_hdhomerun_control_get_1;
+    return_value_hdhomerun_control_get_1=hdhomerun_control_get(hd->cs, name, pstreaminfo, (char **)(void *)0);
+    return return_value_hdhomerun_control_get_1;
   }
 }
 
@@ -5381,9 +5381,9 @@ extern signed int hdhomerun_device_get_tuner_target(struct hdhomerun_device_t *h
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/target", hd->tuner);
-    signed int return_value_hdhomerun_control_get$1;
-    return_value_hdhomerun_control_get$1=hdhomerun_control_get(hd->cs, name, ptarget, (char **)(void *)0);
-    return return_value_hdhomerun_control_get$1;
+    signed int return_value_hdhomerun_control_get_1;
+    return_value_hdhomerun_control_get_1=hdhomerun_control_get(hd->cs, name, ptarget, (char **)(void *)0);
+    return return_value_hdhomerun_control_get_1;
   }
 }
 
@@ -5401,9 +5401,9 @@ extern signed int hdhomerun_device_get_tuner_vchannel(struct hdhomerun_device_t 
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/vchannel", hd->tuner);
-    signed int return_value_hdhomerun_control_get$1;
-    return_value_hdhomerun_control_get$1=hdhomerun_control_get(hd->cs, name, pvchannel, (char **)(void *)0);
-    return return_value_hdhomerun_control_get$1;
+    signed int return_value_hdhomerun_control_get_1;
+    return_value_hdhomerun_control_get_1=hdhomerun_control_get(hd->cs, name, pvchannel, (char **)(void *)0);
+    return return_value_hdhomerun_control_get_1;
   }
 }
 
@@ -5460,29 +5460,29 @@ extern signed int hdhomerun_device_get_tuner_vstatus(struct hdhomerun_device_t *
         if(!(cgms == ((char *)NULL)))
           sscanf(cgms + (signed long int)5, "%31s", (const void *)vstatus->cgms);
 
-        signed int return_value_strncmp$1;
-        return_value_strncmp$1=strncmp(vstatus->auth, "not-subscribed", (unsigned long int)14);
-        if(return_value_strncmp$1 == 0)
+        signed int return_value_strncmp_1;
+        return_value_strncmp_1=strncmp(vstatus->auth, "not-subscribed", (unsigned long int)14);
+        if(return_value_strncmp_1 == 0)
           vstatus->not_subscribed = 1;
 
-        signed int return_value_strncmp$2;
-        return_value_strncmp$2=strncmp(vstatus->auth, "error", (unsigned long int)5);
-        if(return_value_strncmp$2 == 0)
+        signed int return_value_strncmp_2;
+        return_value_strncmp_2=strncmp(vstatus->auth, "error", (unsigned long int)5);
+        if(return_value_strncmp_2 == 0)
           vstatus->not_available = 1;
 
-        signed int return_value_strncmp$3;
-        return_value_strncmp$3=strncmp(vstatus->auth, "dialog", (unsigned long int)6);
-        if(return_value_strncmp$3 == 0)
+        signed int return_value_strncmp_3;
+        return_value_strncmp_3=strncmp(vstatus->auth, "dialog", (unsigned long int)6);
+        if(return_value_strncmp_3 == 0)
           vstatus->not_available = 1;
 
-        signed int return_value_strncmp$4;
-        return_value_strncmp$4=strncmp(vstatus->cci, "protected", (unsigned long int)9);
-        if(return_value_strncmp$4 == 0)
+        signed int return_value_strncmp_4;
+        return_value_strncmp_4=strncmp(vstatus->cci, "protected", (unsigned long int)9);
+        if(return_value_strncmp_4 == 0)
           vstatus->copy_protected = 1;
 
-        signed int return_value_strncmp$5;
-        return_value_strncmp$5=strncmp(vstatus->cgms, "protected", (unsigned long int)9);
-        if(return_value_strncmp$5 == 0)
+        signed int return_value_strncmp_5;
+        return_value_strncmp_5=strncmp(vstatus->cgms, "protected", (unsigned long int)9);
+        if(return_value_strncmp_5 == 0)
           vstatus->copy_protected = 1;
 
       }
@@ -5504,9 +5504,9 @@ extern signed int hdhomerun_device_get_var(struct hdhomerun_device_t *hd, const 
 
   else
   {
-    signed int return_value_hdhomerun_control_get$1;
-    return_value_hdhomerun_control_get$1=hdhomerun_control_get(hd->cs, name, pvalue, perror);
-    return return_value_hdhomerun_control_get$1;
+    signed int return_value_hdhomerun_control_get_1;
+    return_value_hdhomerun_control_get_1=hdhomerun_control_get(hd->cs, name, pvalue, perror);
+    return return_value_hdhomerun_control_get_1;
   }
 }
 
@@ -5536,9 +5536,9 @@ extern signed int hdhomerun_device_get_version(struct hdhomerun_device_t *hd, ch
       if(!(pversion_num == ((unsigned int *)NULL)))
       {
         unsigned int version_num;
-        signed int return_value_sscanf$1;
-        return_value_sscanf$1=sscanf(version_str, "%u", &version_num);
-        if(!(return_value_sscanf$1 == 1))
+        signed int return_value_sscanf_1;
+        return_value_sscanf_1=sscanf(version_str, "%u", &version_num);
+        if(!(return_value_sscanf_1 == 1))
           *pversion_num = (unsigned int)0;
 
         else
@@ -5598,18 +5598,18 @@ extern void hdhomerun_device_selector_add_device(struct hdhomerun_device_selecto
       goto __CPROVER_DUMP_L5;
 
   }
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)hds->hd_list, (hds->hd_count + (unsigned long int)1) * sizeof(struct hdhomerun_device_selector_t *) /*8ul*/ );
-  hds->hd_list = (struct hdhomerun_device_t **)return_value_realloc$1;
-  unsigned long int tmp_post$2;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)hds->hd_list, (hds->hd_count + (unsigned long int)1) * sizeof(struct hdhomerun_device_selector_t *) /*8ul*/ );
+  hds->hd_list = (struct hdhomerun_device_t **)return_value_realloc_1;
+  unsigned long int tmp_post_2;
   if(hds->hd_list == ((struct hdhomerun_device_t **)NULL))
     hdhomerun_debug_printf(hds->dbg, "hdhomerun_device_selector_add_device: failed to allocate device list\n");
 
   else
   {
-    tmp_post$2 = hds->hd_count;
+    tmp_post_2 = hds->hd_count;
     hds->hd_count = hds->hd_count + 1ul;
-    hds->hd_list[(signed long int)tmp_post$2] = hd;
+    hds->hd_list[(signed long int)tmp_post_2] = hd;
   }
 
 __CPROVER_DUMP_L5:
@@ -5622,9 +5622,9 @@ extern struct hdhomerun_device_t * hdhomerun_device_selector_choose_and_lock(str
 {
   if(!(prefered == ((struct hdhomerun_device_t *)NULL)))
   {
-    signed int return_value_hdhomerun_device_selector_choose_test$1;
-    return_value_hdhomerun_device_selector_choose_test$1=hdhomerun_device_selector_choose_test(hds, prefered);
-    if(!(return_value_hdhomerun_device_selector_choose_test$1 == 0))
+    signed int return_value_hdhomerun_device_selector_choose_test_1;
+    return_value_hdhomerun_device_selector_choose_test_1=hdhomerun_device_selector_choose_test(hds, prefered);
+    if(!(return_value_hdhomerun_device_selector_choose_test_1 == 0))
       return prefered;
 
   }
@@ -5635,9 +5635,9 @@ extern struct hdhomerun_device_t * hdhomerun_device_selector_choose_and_lock(str
     struct hdhomerun_device_t *entry = hds->hd_list[(signed long int)index];
     if(!(entry == prefered))
     {
-      signed int return_value_hdhomerun_device_selector_choose_test$2;
-      return_value_hdhomerun_device_selector_choose_test$2=hdhomerun_device_selector_choose_test(hds, entry);
-      if(!(return_value_hdhomerun_device_selector_choose_test$2 == 0))
+      signed int return_value_hdhomerun_device_selector_choose_test_2;
+      return_value_hdhomerun_device_selector_choose_test_2=hdhomerun_device_selector_choose_test(hds, entry);
+      if(!(return_value_hdhomerun_device_selector_choose_test_2 == 0))
         return entry;
 
     }
@@ -5656,8 +5656,8 @@ static signed int hdhomerun_device_selector_choose_test(struct hdhomerun_device_
   char *error;
   signed int ret;
   ret=hdhomerun_device_tuner_lockkey_request(test_hd, &error);
-  signed int tmp_statement_expression$1;
-  signed int return_value_strncmp$3;
+  signed int tmp_statement_expression_1;
+  signed int return_value_strncmp_3;
   if(ret >= 1)
   {
     hdhomerun_debug_printf(hds->dbg, "hdhomerun_device_selector_choose_test: device %s chosen\n", name);
@@ -5692,10 +5692,10 @@ static signed int hdhomerun_device_selector_choose_test(struct hdhomerun_device_
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$2;
-          return_value___builtin_strcmp$2=__builtin_strcmp(target, "none");
-          tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-          if(tmp_statement_expression$1 == 0)
+          signed int return_value___builtin_strcmp_2;
+          return_value___builtin_strcmp_2=__builtin_strcmp(target, "none");
+          tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+          if(tmp_statement_expression_1 == 0)
           {
             hdhomerun_debug_printf(hds->dbg, "hdhomerun_device_selector_choose_test: device %s in use, no target set\n", name);
             return 0;
@@ -5703,12 +5703,12 @@ static signed int hdhomerun_device_selector_choose_test(struct hdhomerun_device_
 
           else
           {
-            signed int return_value_strncmp$4;
-            return_value_strncmp$4=strncmp(target, "udp://", (unsigned long int)6);
-            if(!(return_value_strncmp$4 == 0))
+            signed int return_value_strncmp_4;
+            return_value_strncmp_4=strncmp(target, "udp://", (unsigned long int)6);
+            if(!(return_value_strncmp_4 == 0))
             {
-              return_value_strncmp$3=strncmp(target, "rtp://", (unsigned long int)6);
-              if(return_value_strncmp$3 == 0)
+              return_value_strncmp_3=strncmp(target, "rtp://", (unsigned long int)6);
+              if(return_value_strncmp_3 == 0)
                 goto __CPROVER_DUMP_L6;
 
               hdhomerun_debug_printf(hds->dbg, "hdhomerun_device_selector_choose_test: device %s in use by %s\n", name, target);
@@ -5722,9 +5722,9 @@ static signed int hdhomerun_device_selector_choose_test(struct hdhomerun_device_
               ;
               unsigned int a[4l];
               unsigned int target_port;
-              signed int return_value_sscanf$5;
-              return_value_sscanf$5=sscanf(target + (signed long int)6, "%u.%u.%u.%u:%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3], &target_port);
-              if(!(return_value_sscanf$5 == 5))
+              signed int return_value_sscanf_5;
+              return_value_sscanf_5=sscanf(target + (signed long int)6, "%u.%u.%u.%u:%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3], &target_port);
+              if(!(return_value_sscanf_5 == 5))
               {
                 hdhomerun_debug_printf(hds->dbg, "hdhomerun_device_selector_choose_test: device %s in use, unexpected target set (%s)\n", name, target);
                 return 0;
@@ -5754,9 +5754,9 @@ static signed int hdhomerun_device_selector_choose_test(struct hdhomerun_device_
                   else
                   {
                     signed int inuse;
-                    signed int return_value_hdhomerun_sock_bind$6;
-                    return_value_hdhomerun_sock_bind$6=hdhomerun_sock_bind(test_sock, (unsigned int)0x00000000, (unsigned short int)target_port, 0);
-                    inuse = (signed int)(return_value_hdhomerun_sock_bind$6 == 0);
+                    signed int return_value_hdhomerun_sock_bind_6;
+                    return_value_hdhomerun_sock_bind_6=hdhomerun_sock_bind(test_sock, (unsigned int)0x00000000, (unsigned short int)target_port, 0);
+                    inuse = (signed int)(return_value_hdhomerun_sock_bind_6 == 0);
                     hdhomerun_sock_destroy(test_sock);
                     if(!(inuse == 0))
                     {
@@ -5818,9 +5818,9 @@ static signed int hdhomerun_device_selector_choose_test(struct hdhomerun_device_
 extern struct hdhomerun_device_selector_t * hdhomerun_device_selector_create(struct hdhomerun_debug_t *dbg)
 {
   struct hdhomerun_device_selector_t *hds;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hdhomerun_device_selector_t) /*24ul*/ );
-  hds = (struct hdhomerun_device_selector_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hdhomerun_device_selector_t) /*24ul*/ );
+  hds = (struct hdhomerun_device_selector_t *)return_value_calloc_1;
   if(hds == ((struct hdhomerun_device_selector_t *)NULL))
   {
     hdhomerun_debug_printf(dbg, "hdhomerun_device_selector_create: failed to allocate selector object\n");
@@ -5862,13 +5862,13 @@ extern struct hdhomerun_device_t * hdhomerun_device_selector_find_device(struct 
   for( ; !(index >= hds->hd_count); index = index + 1ul)
   {
     struct hdhomerun_device_t *entry = hds->hd_list[(signed long int)index];
-    unsigned int return_value_hdhomerun_device_get_device_id$1;
-    return_value_hdhomerun_device_get_device_id$1=hdhomerun_device_get_device_id(entry);
-    if(return_value_hdhomerun_device_get_device_id$1 == device_id)
+    unsigned int return_value_hdhomerun_device_get_device_id_1;
+    return_value_hdhomerun_device_get_device_id_1=hdhomerun_device_get_device_id(entry);
+    if(return_value_hdhomerun_device_get_device_id_1 == device_id)
     {
-      unsigned int return_value_hdhomerun_device_get_tuner$2;
-      return_value_hdhomerun_device_get_tuner$2=hdhomerun_device_get_tuner(entry);
-      if(return_value_hdhomerun_device_get_tuner$2 == tuner_index)
+      unsigned int return_value_hdhomerun_device_get_tuner_2;
+      return_value_hdhomerun_device_get_tuner_2=hdhomerun_device_get_tuner(entry);
+      if(return_value_hdhomerun_device_get_tuner_2 == tuner_index)
         return entry;
 
     }
@@ -5899,14 +5899,14 @@ extern signed int hdhomerun_device_selector_load_from_file(struct hdhomerun_devi
     while((_Bool)1)
     {
       char device_str[32l];
-      char *return_value_fgets$1;
-      return_value_fgets$1=fgets(device_str, (signed int)sizeof(char [32l]) /*32ul*/ , fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      char *return_value_fgets_1;
+      return_value_fgets_1=fgets(device_str, (signed int)sizeof(char [32l]) /*32ul*/ , fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
-      signed int return_value_hdhomerun_device_selector_load_from_str$2;
-      return_value_hdhomerun_device_selector_load_from_str$2=hdhomerun_device_selector_load_from_str(hds, device_str);
-      count = count + return_value_hdhomerun_device_selector_load_from_str$2;
+      signed int return_value_hdhomerun_device_selector_load_from_str_2;
+      return_value_hdhomerun_device_selector_load_from_str_2=hdhomerun_device_selector_load_from_str(hds, device_str);
+      count = count + return_value_hdhomerun_device_selector_load_from_str_2;
     }
     fclose(fp);
     return count;
@@ -5918,73 +5918,73 @@ extern signed int hdhomerun_device_selector_load_from_file(struct hdhomerun_devi
 extern signed int hdhomerun_device_selector_load_from_str(struct hdhomerun_device_selector_t *hds, char *device_str)
 {
   unsigned int a[4l];
-  signed int return_value_sscanf$4;
-  return_value_sscanf$4=sscanf(device_str, "%u.%u.%u.%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3]);
-  if(return_value_sscanf$4 == 4)
+  signed int return_value_sscanf_4;
+  return_value_sscanf_4=sscanf(device_str, "%u.%u.%u.%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3]);
+  if(return_value_sscanf_4 == 4)
   {
     unsigned int ip_addr = (unsigned int)(a[(signed long int)0] << 24 | a[(signed long int)1] << 16 | a[(signed long int)2] << 8 | a[(signed long int)3] << 0);
     unsigned int port;
-    signed int return_value_sscanf$1;
-    return_value_sscanf$1=sscanf(device_str, "%u.%u.%u.%u:%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3], &port);
-    if(return_value_sscanf$1 == 5)
+    signed int return_value_sscanf_1;
+    return_value_sscanf_1=sscanf(device_str, "%u.%u.%u.%u:%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3], &port);
+    if(return_value_sscanf_1 == 5)
     {
-      struct hdhomerun_device_t *hdhomerun_device_selector_load_from_str$$1$$1$$1$$hd;
-      hdhomerun_device_selector_load_from_str$$1$$1$$1$$hd=hdhomerun_device_create_multicast(ip_addr, (unsigned short int)port, hds->dbg);
-      if(hdhomerun_device_selector_load_from_str$$1$$1$$1$$hd == ((struct hdhomerun_device_t *)NULL))
+      struct hdhomerun_device_t *hdhomerun_device_selector_load_from_str__1__1__1__hd;
+      hdhomerun_device_selector_load_from_str__1__1__1__hd=hdhomerun_device_create_multicast(ip_addr, (unsigned short int)port, hds->dbg);
+      if(hdhomerun_device_selector_load_from_str__1__1__1__hd == ((struct hdhomerun_device_t *)NULL))
         return 0;
 
-      hdhomerun_device_selector_add_device(hds, hdhomerun_device_selector_load_from_str$$1$$1$$1$$hd);
+      hdhomerun_device_selector_add_device(hds, hdhomerun_device_selector_load_from_str__1__1__1__hd);
       return 1;
     }
 
     unsigned int tuner;
-    signed int return_value_sscanf$2;
-    return_value_sscanf$2=sscanf(device_str, "%u.%u.%u.%u-%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3], &tuner);
-    if(return_value_sscanf$2 == 5)
+    signed int return_value_sscanf_2;
+    return_value_sscanf_2=sscanf(device_str, "%u.%u.%u.%u-%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3], &tuner);
+    if(return_value_sscanf_2 == 5)
     {
-      struct hdhomerun_device_t *hdhomerun_device_selector_load_from_str$$1$$1$$2$$hd;
-      hdhomerun_device_selector_load_from_str$$1$$1$$2$$hd=hdhomerun_device_create(0xFFFFFFFF, ip_addr, tuner, hds->dbg);
-      if(hdhomerun_device_selector_load_from_str$$1$$1$$2$$hd == ((struct hdhomerun_device_t *)NULL))
+      struct hdhomerun_device_t *hdhomerun_device_selector_load_from_str__1__1__2__hd;
+      hdhomerun_device_selector_load_from_str__1__1__2__hd=hdhomerun_device_create(0xFFFFFFFF, ip_addr, tuner, hds->dbg);
+      if(hdhomerun_device_selector_load_from_str__1__1__2__hd == ((struct hdhomerun_device_t *)NULL))
         return 0;
 
-      hdhomerun_device_selector_add_device(hds, hdhomerun_device_selector_load_from_str$$1$$1$$2$$hd);
+      hdhomerun_device_selector_add_device(hds, hdhomerun_device_selector_load_from_str__1__1__2__hd);
       return 1;
     }
 
-    signed int return_value_hdhomerun_device_selector_load_from_str_discover$3;
-    return_value_hdhomerun_device_selector_load_from_str_discover$3=hdhomerun_device_selector_load_from_str_discover(hds, ip_addr, 0xFFFFFFFF);
-    return return_value_hdhomerun_device_selector_load_from_str_discover$3;
+    signed int return_value_hdhomerun_device_selector_load_from_str_discover_3;
+    return_value_hdhomerun_device_selector_load_from_str_discover_3=hdhomerun_device_selector_load_from_str_discover(hds, ip_addr, 0xFFFFFFFF);
+    return return_value_hdhomerun_device_selector_load_from_str_discover_3;
   }
 
   char *end;
   unsigned int device_id;
-  unsigned long int return_value_strtoul$5;
-  return_value_strtoul$5=strtoul(device_str, &end, 16);
-  device_id = (unsigned int)return_value_strtoul$5;
-  signed int return_value_hdhomerun_discover_validate_device_id$8;
+  unsigned long int return_value_strtoul_5;
+  return_value_strtoul_5=strtoul(device_str, &end, 16);
+  device_id = (unsigned int)return_value_strtoul_5;
+  signed int return_value_hdhomerun_discover_validate_device_id_8;
   if(end == device_str + 8l)
   {
-    return_value_hdhomerun_discover_validate_device_id$8=hdhomerun_discover_validate_device_id(device_id);
-    if(!(return_value_hdhomerun_discover_validate_device_id$8 == 0))
+    return_value_hdhomerun_discover_validate_device_id_8=hdhomerun_discover_validate_device_id(device_id);
+    if(!(return_value_hdhomerun_discover_validate_device_id_8 == 0))
     {
       if((signed int)*end == 45)
       {
-        unsigned int hdhomerun_device_selector_load_from_str$$1$$2$$1$$tuner;
-        unsigned long int return_value_strtoul$6;
-        return_value_strtoul$6=strtoul(end + (signed long int)1, (char ** restrict )(void *)0, 10);
-        hdhomerun_device_selector_load_from_str$$1$$2$$1$$tuner = (unsigned int)return_value_strtoul$6;
-        struct hdhomerun_device_t *hdhomerun_device_selector_load_from_str$$1$$2$$1$$hd;
-        hdhomerun_device_selector_load_from_str$$1$$2$$1$$hd=hdhomerun_device_create(device_id, (unsigned int)0, hdhomerun_device_selector_load_from_str$$1$$2$$1$$tuner, hds->dbg);
-        if(hdhomerun_device_selector_load_from_str$$1$$2$$1$$hd == ((struct hdhomerun_device_t *)NULL))
+        unsigned int hdhomerun_device_selector_load_from_str__1__2__1__tuner;
+        unsigned long int return_value_strtoul_6;
+        return_value_strtoul_6=strtoul(end + (signed long int)1, (char ** restrict )(void *)0, 10);
+        hdhomerun_device_selector_load_from_str__1__2__1__tuner = (unsigned int)return_value_strtoul_6;
+        struct hdhomerun_device_t *hdhomerun_device_selector_load_from_str__1__2__1__hd;
+        hdhomerun_device_selector_load_from_str__1__2__1__hd=hdhomerun_device_create(device_id, (unsigned int)0, hdhomerun_device_selector_load_from_str__1__2__1__tuner, hds->dbg);
+        if(hdhomerun_device_selector_load_from_str__1__2__1__hd == ((struct hdhomerun_device_t *)NULL))
           return 0;
 
-        hdhomerun_device_selector_add_device(hds, hdhomerun_device_selector_load_from_str$$1$$2$$1$$hd);
+        hdhomerun_device_selector_add_device(hds, hdhomerun_device_selector_load_from_str__1__2__1__hd);
         return 1;
       }
 
-      signed int return_value_hdhomerun_device_selector_load_from_str_discover$7;
-      return_value_hdhomerun_device_selector_load_from_str_discover$7=hdhomerun_device_selector_load_from_str_discover(hds, (unsigned int)0, device_id);
-      return return_value_hdhomerun_device_selector_load_from_str_discover$7;
+      signed int return_value_hdhomerun_device_selector_load_from_str_discover_7;
+      return_value_hdhomerun_device_selector_load_from_str_discover_7=hdhomerun_device_selector_load_from_str_discover(hds, (unsigned int)0, device_id);
+      return return_value_hdhomerun_device_selector_load_from_str_discover_7;
     }
 
   }
@@ -5995,27 +5995,27 @@ extern signed int hdhomerun_device_selector_load_from_str(struct hdhomerun_devic
   hints.ai_socktype = 1;
   hints.ai_protocol = 6;
   struct addrinfo *sock_info;
-  signed int return_value_getaddrinfo$9;
-  return_value_getaddrinfo$9=getaddrinfo(device_str, "65001", &hints, &sock_info);
-  if(!(return_value_getaddrinfo$9 == 0))
+  signed int return_value_getaddrinfo_9;
+  return_value_getaddrinfo_9=getaddrinfo(device_str, "65001", &hints, &sock_info);
+  if(!(return_value_getaddrinfo_9 == 0))
     return 0;
 
   else
   {
     struct sockaddr_in *sock_addr = (struct sockaddr_in *)sock_info->ai_addr;
-    unsigned int hdhomerun_device_selector_load_from_str$$1$$ip_addr;
-    unsigned int return_value___bswap_32$10;
-    return_value___bswap_32$10=__bswap_32$link1(sock_addr->sin_addr.s_addr);
-    hdhomerun_device_selector_load_from_str$$1$$ip_addr = (unsigned int)return_value___bswap_32$10;
+    unsigned int hdhomerun_device_selector_load_from_str__1__ip_addr;
+    unsigned int return_value___bswap_32_10;
+    return_value___bswap_32_10=__bswap_32_link1(sock_addr->sin_addr.s_addr);
+    hdhomerun_device_selector_load_from_str__1__ip_addr = (unsigned int)return_value___bswap_32_10;
     freeaddrinfo(sock_info);
-    if(hdhomerun_device_selector_load_from_str$$1$$ip_addr == 0u)
+    if(hdhomerun_device_selector_load_from_str__1__ip_addr == 0u)
       return 0;
 
     else
     {
-      signed int return_value_hdhomerun_device_selector_load_from_str_discover$11;
-      return_value_hdhomerun_device_selector_load_from_str_discover$11=hdhomerun_device_selector_load_from_str_discover(hds, hdhomerun_device_selector_load_from_str$$1$$ip_addr, 0xFFFFFFFF);
-      return return_value_hdhomerun_device_selector_load_from_str_discover$11;
+      signed int return_value_hdhomerun_device_selector_load_from_str_discover_11;
+      return_value_hdhomerun_device_selector_load_from_str_discover_11=hdhomerun_device_selector_load_from_str_discover(hds, hdhomerun_device_selector_load_from_str__1__ip_addr, 0xFFFFFFFF);
+      return return_value_hdhomerun_device_selector_load_from_str_discover_11;
     }
   }
 }
@@ -6036,11 +6036,11 @@ static signed int hdhomerun_device_selector_load_from_str_discover(struct hdhome
     unsigned int tuner_index = (unsigned int)0;
     for( ; !(tuner_index >= (unsigned int)result->tuner_count); tuner_index = tuner_index + 1u)
     {
-      struct hdhomerun_device_t *hdhomerun_device_selector_load_from_str_discover$$1$$1$$1$$1$$1$$hd;
-      hdhomerun_device_selector_load_from_str_discover$$1$$1$$1$$1$$1$$hd=hdhomerun_device_create(result->device_id, result->ip_addr, tuner_index, hds->dbg);
-      if(!(hdhomerun_device_selector_load_from_str_discover$$1$$1$$1$$1$$1$$hd == ((struct hdhomerun_device_t *)NULL)))
+      struct hdhomerun_device_t *hdhomerun_device_selector_load_from_str_discover__1__1__1__1__1__hd;
+      hdhomerun_device_selector_load_from_str_discover__1__1__1__1__1__hd=hdhomerun_device_create(result->device_id, result->ip_addr, tuner_index, hds->dbg);
+      if(!(hdhomerun_device_selector_load_from_str_discover__1__1__1__1__1__hd == ((struct hdhomerun_device_t *)NULL)))
       {
-        hdhomerun_device_selector_add_device(hds, hdhomerun_device_selector_load_from_str_discover$$1$$1$$1$$1$$1$$hd);
+        hdhomerun_device_selector_add_device(hds, hdhomerun_device_selector_load_from_str_discover__1__1__1__1__1__hd);
         count = count + 1;
       }
 
@@ -6087,9 +6087,9 @@ extern signed int hdhomerun_device_set_device(struct hdhomerun_device_t *hd, uns
 
   else
   {
-    signed int return_value_hdhomerun_discover_is_ip_multicast$1;
-    return_value_hdhomerun_discover_is_ip_multicast$1=hdhomerun_discover_is_ip_multicast(device_ip);
-    if(!(return_value_hdhomerun_discover_is_ip_multicast$1 == 0))
+    signed int return_value_hdhomerun_discover_is_ip_multicast_1;
+    return_value_hdhomerun_discover_is_ip_multicast_1=hdhomerun_discover_is_ip_multicast(device_ip);
+    if(!(return_value_hdhomerun_discover_is_ip_multicast_1 == 0))
     {
       hdhomerun_debug_printf(hd->dbg, "hdhomerun_device_set_device: invalid address %08X\n", (unsigned int)device_ip);
       return -1;
@@ -6139,9 +6139,9 @@ extern signed int hdhomerun_device_set_ir_target(struct hdhomerun_device_t *hd, 
 
   else
   {
-    signed int return_value_hdhomerun_control_set$1;
-    return_value_hdhomerun_control_set$1=hdhomerun_control_set(hd->cs, "/ir/target", target, (char **)(void *)0, (char **)(void *)0);
-    return return_value_hdhomerun_control_set$1;
+    signed int return_value_hdhomerun_control_set_1;
+    return_value_hdhomerun_control_set_1=hdhomerun_control_set(hd->cs, "/ir/target", target, (char **)(void *)0, (char **)(void *)0);
+    return return_value_hdhomerun_control_set_1;
   }
 }
 
@@ -6149,9 +6149,9 @@ extern signed int hdhomerun_device_set_ir_target(struct hdhomerun_device_t *hd, 
 // file hdhomerun_device.c line 75
 extern signed int hdhomerun_device_set_multicast(struct hdhomerun_device_t *hd, unsigned int multicast_ip, unsigned short int multicast_port)
 {
-  signed int return_value_hdhomerun_discover_is_ip_multicast$1;
-  return_value_hdhomerun_discover_is_ip_multicast$1=hdhomerun_discover_is_ip_multicast(multicast_ip);
-  if(return_value_hdhomerun_discover_is_ip_multicast$1 == 0)
+  signed int return_value_hdhomerun_discover_is_ip_multicast_1;
+  return_value_hdhomerun_discover_is_ip_multicast_1=hdhomerun_discover_is_ip_multicast(multicast_ip);
+  if(return_value_hdhomerun_discover_is_ip_multicast_1 == 0)
   {
     hdhomerun_debug_printf(hd->dbg, "hdhomerun_device_set_device_multicast: invalid address %08X\n", (unsigned int)multicast_ip);
     return -1;
@@ -6196,9 +6196,9 @@ extern signed int hdhomerun_device_set_sys_dvbc_modulation(struct hdhomerun_devi
 
   else
   {
-    signed int return_value_hdhomerun_control_set$1;
-    return_value_hdhomerun_control_set$1=hdhomerun_control_set(hd->cs, "/sys/dvbc_modulation", modulation_list, (char **)(void *)0, (char **)(void *)0);
-    return return_value_hdhomerun_control_set$1;
+    signed int return_value_hdhomerun_control_set_1;
+    return_value_hdhomerun_control_set_1=hdhomerun_control_set(hd->cs, "/sys/dvbc_modulation", modulation_list, (char **)(void *)0, (char **)(void *)0);
+    return return_value_hdhomerun_control_set_1;
   }
 }
 
@@ -6239,9 +6239,9 @@ extern signed int hdhomerun_device_set_tuner_channel(struct hdhomerun_device_t *
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/channel", hd->tuner);
-    signed int return_value_hdhomerun_control_set_with_lockkey$1;
-    return_value_hdhomerun_control_set_with_lockkey$1=hdhomerun_control_set_with_lockkey(hd->cs, name, channel, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
-    return return_value_hdhomerun_control_set_with_lockkey$1;
+    signed int return_value_hdhomerun_control_set_with_lockkey_1;
+    return_value_hdhomerun_control_set_with_lockkey_1=hdhomerun_control_set_with_lockkey(hd->cs, name, channel, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
+    return return_value_hdhomerun_control_set_with_lockkey_1;
   }
 }
 
@@ -6259,9 +6259,9 @@ extern signed int hdhomerun_device_set_tuner_channelmap(struct hdhomerun_device_
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/channelmap", hd->tuner);
-    signed int return_value_hdhomerun_control_set_with_lockkey$1;
-    return_value_hdhomerun_control_set_with_lockkey$1=hdhomerun_control_set_with_lockkey(hd->cs, name, channelmap, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
-    return return_value_hdhomerun_control_set_with_lockkey$1;
+    signed int return_value_hdhomerun_control_set_with_lockkey_1;
+    return_value_hdhomerun_control_set_with_lockkey_1=hdhomerun_control_set_with_lockkey(hd->cs, name, channelmap, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
+    return return_value_hdhomerun_control_set_with_lockkey_1;
   }
 }
 
@@ -6279,9 +6279,9 @@ extern signed int hdhomerun_device_set_tuner_filter(struct hdhomerun_device_t *h
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/filter", hd->tuner);
-    signed int return_value_hdhomerun_control_set_with_lockkey$1;
-    return_value_hdhomerun_control_set_with_lockkey$1=hdhomerun_control_set_with_lockkey(hd->cs, name, filter, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
-    return return_value_hdhomerun_control_set_with_lockkey$1;
+    signed int return_value_hdhomerun_control_set_with_lockkey_1;
+    return_value_hdhomerun_control_set_with_lockkey_1=hdhomerun_control_set_with_lockkey(hd->cs, name, filter, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
+    return return_value_hdhomerun_control_set_with_lockkey_1;
   }
 }
 
@@ -6302,14 +6302,14 @@ extern signed int hdhomerun_device_set_tuner_filter_by_array(struct hdhomerun_de
       if((signed int)range_begin == 0xFFFF)
         goto __CPROVER_DUMP_L5;
 
-      signed int return_value_hdhomerun_device_set_tuner_filter_by_array_append$1;
-      return_value_hdhomerun_device_set_tuner_filter_by_array_append$1=hdhomerun_device_set_tuner_filter_by_array_append(ptr, end, range_begin, range_end);
-      if(return_value_hdhomerun_device_set_tuner_filter_by_array_append$1 == 0)
+      signed int return_value_hdhomerun_device_set_tuner_filter_by_array_append_1;
+      return_value_hdhomerun_device_set_tuner_filter_by_array_append_1=hdhomerun_device_set_tuner_filter_by_array_append(ptr, end, range_begin, range_end);
+      if(return_value_hdhomerun_device_set_tuner_filter_by_array_append_1 == 0)
         return 0;
 
-      void *return_value___rawmemchr$2;
-      return_value___rawmemchr$2=__rawmemchr((const void *)ptr, 0);
-      ptr = (char *)return_value___rawmemchr$2;
+      void *return_value___rawmemchr_2;
+      return_value___rawmemchr_2=__rawmemchr((const void *)ptr, 0);
+      ptr = (char *)return_value___rawmemchr_2;
       range_begin = (unsigned short int)0xFFFF;
       range_end = (unsigned short int)0xFFFF;
       goto __CPROVER_DUMP_L5;
@@ -6329,14 +6329,14 @@ extern signed int hdhomerun_device_set_tuner_filter_by_array(struct hdhomerun_de
   }
   if(!((signed int)range_begin == 0xFFFF))
   {
-    signed int return_value_hdhomerun_device_set_tuner_filter_by_array_append$3;
-    return_value_hdhomerun_device_set_tuner_filter_by_array_append$3=hdhomerun_device_set_tuner_filter_by_array_append(ptr, end, range_begin, range_end);
-    if(return_value_hdhomerun_device_set_tuner_filter_by_array_append$3 == 0)
+    signed int return_value_hdhomerun_device_set_tuner_filter_by_array_append_3;
+    return_value_hdhomerun_device_set_tuner_filter_by_array_append_3=hdhomerun_device_set_tuner_filter_by_array_append(ptr, end, range_begin, range_end);
+    if(return_value_hdhomerun_device_set_tuner_filter_by_array_append_3 == 0)
       return 0;
 
-    void *return_value___rawmemchr$4;
-    return_value___rawmemchr$4=__rawmemchr((const void *)ptr, 0);
-    ptr = (char *)return_value___rawmemchr$4;
+    void *return_value___rawmemchr_4;
+    return_value___rawmemchr_4=__rawmemchr((const void *)ptr, 0);
+    ptr = (char *)return_value___rawmemchr_4;
   }
 
   if(!(filter >= ptr))
@@ -6345,9 +6345,9 @@ extern signed int hdhomerun_device_set_tuner_filter_by_array(struct hdhomerun_de
     *ptr = (char)0;
   }
 
-  signed int return_value_hdhomerun_device_set_tuner_filter$5;
-  return_value_hdhomerun_device_set_tuner_filter$5=hdhomerun_device_set_tuner_filter(hd, filter);
-  return return_value_hdhomerun_device_set_tuner_filter$5;
+  signed int return_value_hdhomerun_device_set_tuner_filter_5;
+  return_value_hdhomerun_device_set_tuner_filter_5=hdhomerun_device_set_tuner_filter(hd, filter);
+  return return_value_hdhomerun_device_set_tuner_filter_5;
 }
 
 // hdhomerun_device_set_tuner_filter_by_array_append
@@ -6356,16 +6356,16 @@ static signed int hdhomerun_device_set_tuner_filter_by_array_append(char *ptr, c
 {
   if(range_begin == range_end)
   {
-    signed int return_value_hdhomerun_sprintf$1;
-    return_value_hdhomerun_sprintf$1=hdhomerun_sprintf(ptr, end, "0x%04x ", (unsigned int)range_begin);
-    return return_value_hdhomerun_sprintf$1;
+    signed int return_value_hdhomerun_sprintf_1;
+    return_value_hdhomerun_sprintf_1=hdhomerun_sprintf(ptr, end, "0x%04x ", (unsigned int)range_begin);
+    return return_value_hdhomerun_sprintf_1;
   }
 
   else
   {
-    signed int return_value_hdhomerun_sprintf$2;
-    return_value_hdhomerun_sprintf$2=hdhomerun_sprintf(ptr, end, "0x%04x-0x%04x ", (unsigned int)range_begin, (unsigned int)range_end);
-    return return_value_hdhomerun_sprintf$2;
+    signed int return_value_hdhomerun_sprintf_2;
+    return_value_hdhomerun_sprintf_2=hdhomerun_sprintf(ptr, end, "0x%04x-0x%04x ", (unsigned int)range_begin, (unsigned int)range_end);
+    return return_value_hdhomerun_sprintf_2;
   }
 }
 
@@ -6374,9 +6374,9 @@ static signed int hdhomerun_device_set_tuner_filter_by_array_append(char *ptr, c
 extern signed int hdhomerun_device_set_tuner_from_str(struct hdhomerun_device_t *hd, const char *tuner_str)
 {
   unsigned int tuner;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(tuner_str, "%u", &tuner);
-  if(return_value_sscanf$1 == 1)
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(tuner_str, "%u", &tuner);
+  if(return_value_sscanf_1 == 1)
   {
     hdhomerun_device_set_tuner(hd, tuner);
     return 1;
@@ -6384,9 +6384,9 @@ extern signed int hdhomerun_device_set_tuner_from_str(struct hdhomerun_device_t 
 
   else
   {
-    signed int return_value_sscanf$2;
-    return_value_sscanf$2=sscanf(tuner_str, "/tuner%u", &tuner);
-    if(return_value_sscanf$2 == 1)
+    signed int return_value_sscanf_2;
+    return_value_sscanf_2=sscanf(tuner_str, "/tuner%u", &tuner);
+    if(return_value_sscanf_2 == 1)
     {
       hdhomerun_device_set_tuner(hd, tuner);
       return 1;
@@ -6411,9 +6411,9 @@ extern signed int hdhomerun_device_set_tuner_program(struct hdhomerun_device_t *
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/program", hd->tuner);
-    signed int return_value_hdhomerun_control_set_with_lockkey$1;
-    return_value_hdhomerun_control_set_with_lockkey$1=hdhomerun_control_set_with_lockkey(hd->cs, name, program, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
-    return return_value_hdhomerun_control_set_with_lockkey$1;
+    signed int return_value_hdhomerun_control_set_with_lockkey_1;
+    return_value_hdhomerun_control_set_with_lockkey_1=hdhomerun_control_set_with_lockkey(hd->cs, name, program, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
+    return return_value_hdhomerun_control_set_with_lockkey_1;
   }
 }
 
@@ -6431,9 +6431,9 @@ extern signed int hdhomerun_device_set_tuner_target(struct hdhomerun_device_t *h
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/target", hd->tuner);
-    signed int return_value_hdhomerun_control_set_with_lockkey$1;
-    return_value_hdhomerun_control_set_with_lockkey$1=hdhomerun_control_set_with_lockkey(hd->cs, name, target, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
-    return return_value_hdhomerun_control_set_with_lockkey$1;
+    signed int return_value_hdhomerun_control_set_with_lockkey_1;
+    return_value_hdhomerun_control_set_with_lockkey_1=hdhomerun_control_set_with_lockkey(hd->cs, name, target, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
+    return return_value_hdhomerun_control_set_with_lockkey_1;
   }
 }
 
@@ -6462,9 +6462,9 @@ static signed int hdhomerun_device_set_tuner_target_to_local(struct hdhomerun_de
       unsigned short int local_port;
       local_port=hdhomerun_video_get_local_port(hd->vs);
       hdhomerun_sprintf(target, target + (signed long int)sizeof(char [64l]) /*64ul*/ , "%s://%u.%u.%u.%u:%u", protocol, (unsigned int)(local_ip >> 24) & (unsigned int)0xFF, (unsigned int)(local_ip >> 16) & (unsigned int)0xFF, (unsigned int)(local_ip >> 8) & (unsigned int)0xFF, (unsigned int)(local_ip >> 0) & (unsigned int)0xFF, (unsigned int)local_port);
-      signed int return_value_hdhomerun_device_set_tuner_target$1;
-      return_value_hdhomerun_device_set_tuner_target$1=hdhomerun_device_set_tuner_target(hd, target);
-      return return_value_hdhomerun_device_set_tuner_target$1;
+      signed int return_value_hdhomerun_device_set_tuner_target_1;
+      return_value_hdhomerun_device_set_tuner_target_1=hdhomerun_device_set_tuner_target(hd, target);
+      return return_value_hdhomerun_device_set_tuner_target_1;
     }
 }
 
@@ -6482,9 +6482,9 @@ extern signed int hdhomerun_device_set_tuner_vchannel(struct hdhomerun_device_t 
   {
     char name[32l];
     hdhomerun_sprintf(name, name + (signed long int)sizeof(char [32l]) /*32ul*/ , "/tuner%u/vchannel", hd->tuner);
-    signed int return_value_hdhomerun_control_set_with_lockkey$1;
-    return_value_hdhomerun_control_set_with_lockkey$1=hdhomerun_control_set_with_lockkey(hd->cs, name, vchannel, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
-    return return_value_hdhomerun_control_set_with_lockkey$1;
+    signed int return_value_hdhomerun_control_set_with_lockkey_1;
+    return_value_hdhomerun_control_set_with_lockkey_1=hdhomerun_control_set_with_lockkey(hd->cs, name, vchannel, hd->lockkey, (char **)(void *)0, (char **)(void *)0);
+    return return_value_hdhomerun_control_set_with_lockkey_1;
   }
 }
 
@@ -6500,9 +6500,9 @@ extern signed int hdhomerun_device_set_var(struct hdhomerun_device_t *hd, const 
 
   else
   {
-    signed int return_value_hdhomerun_control_set_with_lockkey$1;
-    return_value_hdhomerun_control_set_with_lockkey$1=hdhomerun_control_set_with_lockkey(hd->cs, name, value, hd->lockkey, pvalue, perror);
-    return return_value_hdhomerun_control_set_with_lockkey$1;
+    signed int return_value_hdhomerun_control_set_with_lockkey_1;
+    return_value_hdhomerun_control_set_with_lockkey_1=hdhomerun_control_set_with_lockkey(hd->cs, name, value, hd->lockkey, pvalue, perror);
+    return return_value_hdhomerun_control_set_with_lockkey_1;
   }
 }
 
@@ -6529,9 +6529,9 @@ extern unsigned char * hdhomerun_device_stream_recv(struct hdhomerun_device_t *h
 
   else
   {
-    unsigned char *return_value_hdhomerun_video_recv$1;
-    return_value_hdhomerun_video_recv$1=hdhomerun_video_recv(hd->vs, max_size, pactual_size);
-    return return_value_hdhomerun_video_recv$1;
+    unsigned char *return_value_hdhomerun_video_recv_1;
+    return_value_hdhomerun_video_recv_1=hdhomerun_video_recv(hd->vs, max_size, pactual_size);
+    return return_value_hdhomerun_video_recv_1;
   }
 }
 
@@ -6547,10 +6547,10 @@ extern signed int hdhomerun_device_stream_start(struct hdhomerun_device_t *hd)
   {
     if(!(hd->multicast_ip == 0u))
     {
-      signed int hdhomerun_device_stream_start$$1$$2$$ret;
-      hdhomerun_device_stream_start$$1$$2$$ret=hdhomerun_video_join_multicast_group(hd->vs, hd->multicast_ip, (unsigned int)0);
-      if(!(hdhomerun_device_stream_start$$1$$2$$ret >= 1))
-        return hdhomerun_device_stream_start$$1$$2$$ret;
+      signed int hdhomerun_device_stream_start__1__2__ret;
+      hdhomerun_device_stream_start__1__2__ret=hdhomerun_video_join_multicast_group(hd->vs, hd->multicast_ip, (unsigned int)0);
+      if(!(hdhomerun_device_stream_start__1__2__ret >= 1))
+        return hdhomerun_device_stream_start__1__2__ret;
 
     }
 
@@ -6703,9 +6703,9 @@ extern signed int hdhomerun_device_upgrade(struct hdhomerun_device_t *hd, struct
     hdhomerun_control_set(hd->cs, "/tuner0/channel", "none", (char **)(void *)0, (char **)(void *)0);
     hdhomerun_control_set(hd->cs, "/tuner1/lockkey", "force", (char **)(void *)0, (char **)(void *)0);
     hdhomerun_control_set(hd->cs, "/tuner1/channel", "none", (char **)(void *)0, (char **)(void *)0);
-    signed int return_value_hdhomerun_control_upgrade$1;
-    return_value_hdhomerun_control_upgrade$1=hdhomerun_control_upgrade(hd->cs, upgrade_file);
-    return return_value_hdhomerun_control_upgrade$1;
+    signed int return_value_hdhomerun_control_upgrade_1;
+    return_value_hdhomerun_control_upgrade_1=hdhomerun_control_upgrade(hd->cs, upgrade_file);
+    return return_value_hdhomerun_control_upgrade_1;
   }
 }
 
@@ -6715,10 +6715,10 @@ extern signed int hdhomerun_device_wait_for_lock(struct hdhomerun_device_t *hd, 
 {
   msleep_minimum((unsigned long int)250);
   unsigned long int timeout;
-  unsigned long int return_value_getcurrenttime$1;
-  return_value_getcurrenttime$1=getcurrenttime();
-  timeout = return_value_getcurrenttime$1 + (unsigned long int)2500;
-  _Bool tmp_if_expr$2;
+  unsigned long int return_value_getcurrenttime_1;
+  return_value_getcurrenttime_1=getcurrenttime();
+  timeout = return_value_getcurrenttime_1 + (unsigned long int)2500;
+  _Bool tmp_if_expr_2;
   while((_Bool)1)
   {
     signed int ret;
@@ -6730,16 +6730,16 @@ extern signed int hdhomerun_device_wait_for_lock(struct hdhomerun_device_t *hd, 
       return 1;
 
     if(!(status->lock_supported == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = status->lock_unsupported != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = status->lock_unsupported != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 1;
 
-    unsigned long int return_value_getcurrenttime$3;
-    return_value_getcurrenttime$3=getcurrenttime();
-    if(return_value_getcurrenttime$3 >= timeout)
+    unsigned long int return_value_getcurrenttime_3;
+    return_value_getcurrenttime_3=getcurrenttime();
+    if(return_value_getcurrenttime_3 >= timeout)
       return 1;
 
     msleep_approx((unsigned long int)250);
@@ -6751,18 +6751,18 @@ extern signed int hdhomerun_device_wait_for_lock(struct hdhomerun_device_t *hd, 
 extern struct hdhomerun_discover_t * hdhomerun_discover_create(struct hdhomerun_debug_t *dbg)
 {
   struct hdhomerun_discover_t *ds;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hdhomerun_discover_t) /*6496ul*/ );
-  ds = (struct hdhomerun_discover_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hdhomerun_discover_t) /*6496ul*/ );
+  ds = (struct hdhomerun_discover_t *)return_value_calloc_1;
   if(ds == ((struct hdhomerun_discover_t *)NULL))
     return (struct hdhomerun_discover_t *)(void *)0;
 
   else
   {
     ds->dbg = dbg;
-    signed int return_value_hdhomerun_discover_sock_add$2;
-    return_value_hdhomerun_discover_sock_add$2=hdhomerun_discover_sock_add(ds, (unsigned int)0, (unsigned int)0);
-    if(return_value_hdhomerun_discover_sock_add$2 == 0)
+    signed int return_value_hdhomerun_discover_sock_add_2;
+    return_value_hdhomerun_discover_sock_add_2=hdhomerun_discover_sock_add(ds, (unsigned int)0, (unsigned int)0);
+    if(return_value_hdhomerun_discover_sock_add_2 == 0)
     {
       free((void *)ds);
       return (struct hdhomerun_discover_t *)(void *)0;
@@ -6790,9 +6790,9 @@ extern void hdhomerun_discover_destroy(struct hdhomerun_discover_t *ds)
 // file hdhomerun_discover.h line 48
 extern signed int hdhomerun_discover_find_devices_custom_v2(unsigned int target_ip, unsigned int device_type, unsigned int device_id, struct hdhomerun_discover_device_t *result_list, signed int max_count)
 {
-  signed int return_value_hdhomerun_discover_is_ip_multicast$1;
-  return_value_hdhomerun_discover_is_ip_multicast$1=hdhomerun_discover_is_ip_multicast(target_ip);
-  if(!(return_value_hdhomerun_discover_is_ip_multicast$1 == 0))
+  signed int return_value_hdhomerun_discover_is_ip_multicast_1;
+  return_value_hdhomerun_discover_is_ip_multicast_1=hdhomerun_discover_is_ip_multicast(target_ip);
+  if(!(return_value_hdhomerun_discover_is_ip_multicast_1 == 0))
     return 0;
 
   else
@@ -6821,26 +6821,26 @@ extern signed int hdhomerun_discover_find_devices_v2(struct hdhomerun_discover_t
   signed int attempt = 0;
   for( ; !(attempt >= 2); attempt = attempt + 1)
   {
-    signed int return_value_hdhomerun_discover_send$1;
-    return_value_hdhomerun_discover_send$1=hdhomerun_discover_send(ds, target_ip, device_type, device_id);
-    if(return_value_hdhomerun_discover_send$1 == 0)
+    signed int return_value_hdhomerun_discover_send_1;
+    return_value_hdhomerun_discover_send_1=hdhomerun_discover_send(ds, target_ip, device_type, device_id);
+    if(return_value_hdhomerun_discover_send_1 == 0)
       return -1;
 
     unsigned long int timeout;
-    unsigned long int return_value_getcurrenttime$2;
-    return_value_getcurrenttime$2=getcurrenttime();
-    timeout = return_value_getcurrenttime$2 + (unsigned long int)200;
+    unsigned long int return_value_getcurrenttime_2;
+    return_value_getcurrenttime_2=getcurrenttime();
+    timeout = return_value_getcurrenttime_2 + (unsigned long int)200;
     while((_Bool)1)
     {
       struct hdhomerun_discover_device_t *result = &result_list[(signed long int)count];
       memset((void *)result, 0, sizeof(struct hdhomerun_discover_device_t) /*76ul*/ );
-      signed int return_value_hdhomerun_discover_recv$4;
-      return_value_hdhomerun_discover_recv$4=hdhomerun_discover_recv(ds, result);
-      if(return_value_hdhomerun_discover_recv$4 == 0)
+      signed int return_value_hdhomerun_discover_recv_4;
+      return_value_hdhomerun_discover_recv_4=hdhomerun_discover_recv(ds, result);
+      if(return_value_hdhomerun_discover_recv_4 == 0)
       {
-        unsigned long int return_value_getcurrenttime$3;
-        return_value_getcurrenttime$3=getcurrenttime();
-        if(return_value_getcurrenttime$3 >= timeout)
+        unsigned long int return_value_getcurrenttime_3;
+        return_value_getcurrenttime_3=getcurrenttime();
+        if(return_value_getcurrenttime_3 >= timeout)
           break;
 
         msleep_approx((unsigned long int)10);
@@ -6871,9 +6871,9 @@ extern signed int hdhomerun_discover_find_devices_v2(struct hdhomerun_discover_t
 
         __CPROVER_DUMP_L7:
           ;
-          struct hdhomerun_discover_device_t *return_value_hdhomerun_discover_find_in_list$5;
-          return_value_hdhomerun_discover_find_in_list$5=hdhomerun_discover_find_in_list(result_list, count, result);
-          if(return_value_hdhomerun_discover_find_in_list$5 == ((struct hdhomerun_discover_device_t *)NULL))
+          struct hdhomerun_discover_device_t *return_value_hdhomerun_discover_find_in_list_5;
+          return_value_hdhomerun_discover_find_in_list_5=hdhomerun_discover_find_in_list(result_list, count, result);
+          if(return_value_hdhomerun_discover_find_in_list_5 == ((struct hdhomerun_discover_device_t *)NULL))
           {
             count = count + 1;
             if(count >= max_count)
@@ -6896,9 +6896,9 @@ static struct hdhomerun_discover_device_t * hdhomerun_discover_find_in_list(stru
   for( ; !(index >= count); index = index + 1)
   {
     struct hdhomerun_discover_device_t *entry = &result_list[(signed long int)index];
-    signed int return_value_memcmp$1;
-    return_value_memcmp$1=memcmp((const void *)lookup, (const void *)entry, sizeof(struct hdhomerun_discover_device_t) /*76ul*/ );
-    if(return_value_memcmp$1 == 0)
+    signed int return_value_memcmp_1;
+    return_value_memcmp_1=memcmp((const void *)lookup, (const void *)entry, sizeof(struct hdhomerun_discover_device_t) /*76ul*/ );
+    if(return_value_memcmp_1 == 0)
       return entry;
 
   }
@@ -6947,9 +6947,9 @@ static signed int hdhomerun_discover_recv(struct hdhomerun_discover_t *ds, struc
   for( ; !(i >= ds->sock_count); i = i + 1u)
   {
     struct hdhomerun_discover_sock_t *dss = &ds->socks[(signed long int)i];
-    signed int return_value_hdhomerun_discover_recv_internal$1;
-    return_value_hdhomerun_discover_recv_internal$1=hdhomerun_discover_recv_internal(ds, dss, result);
-    if(!(return_value_hdhomerun_discover_recv_internal$1 == 0))
+    signed int return_value_hdhomerun_discover_recv_internal_1;
+    return_value_hdhomerun_discover_recv_internal_1=hdhomerun_discover_recv_internal(ds, dss, result);
+    if(!(return_value_hdhomerun_discover_recv_internal_1 == 0))
       return 1;
 
   }
@@ -6965,18 +6965,18 @@ static signed int hdhomerun_discover_recv_internal(struct hdhomerun_discover_t *
   unsigned int remote_addr;
   unsigned short int remote_port;
   unsigned long int length = (unsigned long int)(rx_pkt->limit - rx_pkt->end);
-  signed int return_value_hdhomerun_sock_recvfrom$1;
-  return_value_hdhomerun_sock_recvfrom$1=hdhomerun_sock_recvfrom(dss->sock, &remote_addr, &remote_port, (void *)rx_pkt->end, &length, (unsigned long int)0);
-  if(return_value_hdhomerun_sock_recvfrom$1 == 0)
+  signed int return_value_hdhomerun_sock_recvfrom_1;
+  return_value_hdhomerun_sock_recvfrom_1=hdhomerun_sock_recvfrom(dss->sock, &remote_addr, &remote_port, (void *)rx_pkt->end, &length, (unsigned long int)0);
+  if(return_value_hdhomerun_sock_recvfrom_1 == 0)
     return 0;
 
   else
   {
     rx_pkt->end = rx_pkt->end + (signed long int)length;
     unsigned short int type;
-    signed int return_value_hdhomerun_pkt_open_frame$2;
-    return_value_hdhomerun_pkt_open_frame$2=hdhomerun_pkt_open_frame(rx_pkt, &type);
-    if(!(return_value_hdhomerun_pkt_open_frame$2 >= 1))
+    signed int return_value_hdhomerun_pkt_open_frame_2;
+    return_value_hdhomerun_pkt_open_frame_2=hdhomerun_pkt_open_frame(rx_pkt, &type);
+    if(!(return_value_hdhomerun_pkt_open_frame_2 >= 1))
       return 0;
 
     else
@@ -7043,15 +7043,15 @@ static signed int hdhomerun_discover_recv_internal(struct hdhomerun_discover_t *
               for( ; !(i >= 24); i = i + 4)
               {
                 unsigned int raw24;
-                unsigned char return_value_hdhomerun_pkt_read_u8$3;
-                return_value_hdhomerun_pkt_read_u8$3=hdhomerun_pkt_read_u8(rx_pkt);
-                raw24 = (unsigned int)return_value_hdhomerun_pkt_read_u8$3 << 16;
-                unsigned char return_value_hdhomerun_pkt_read_u8$4;
-                return_value_hdhomerun_pkt_read_u8$4=hdhomerun_pkt_read_u8(rx_pkt);
-                raw24 = raw24 | (unsigned int)return_value_hdhomerun_pkt_read_u8$4 << 8;
-                unsigned char return_value_hdhomerun_pkt_read_u8$5;
-                return_value_hdhomerun_pkt_read_u8$5=hdhomerun_pkt_read_u8(rx_pkt);
-                raw24 = raw24 | (unsigned int)return_value_hdhomerun_pkt_read_u8$5 << 0;
+                unsigned char return_value_hdhomerun_pkt_read_u8_3;
+                return_value_hdhomerun_pkt_read_u8_3=hdhomerun_pkt_read_u8(rx_pkt);
+                raw24 = (unsigned int)return_value_hdhomerun_pkt_read_u8_3 << 16;
+                unsigned char return_value_hdhomerun_pkt_read_u8_4;
+                return_value_hdhomerun_pkt_read_u8_4=hdhomerun_pkt_read_u8(rx_pkt);
+                raw24 = raw24 | (unsigned int)return_value_hdhomerun_pkt_read_u8_4 << 8;
+                unsigned char return_value_hdhomerun_pkt_read_u8_5;
+                return_value_hdhomerun_pkt_read_u8_5=hdhomerun_pkt_read_u8(rx_pkt);
+                raw24 = raw24 | (unsigned int)return_value_hdhomerun_pkt_read_u8_5 << 0;
                 static char hdhomerun_discover_recv_base64_encode_table[65l] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '/', 0 };
                 result->device_auth[(signed long int)(i + 0)] = hdhomerun_discover_recv_base64_encode_table[(signed long int)(raw24 >> 18 & (unsigned int)0x3F)];
                 result->device_auth[(signed long int)(i + 1)] = hdhomerun_discover_recv_base64_encode_table[(signed long int)(raw24 >> 12 & (unsigned int)0x3F)];
@@ -7100,16 +7100,16 @@ static signed int hdhomerun_discover_send(struct hdhomerun_discover_t *ds, unsig
 {
   if(target_ip == 0u)
   {
-    signed int return_value_hdhomerun_discover_send_wildcard_ip$1;
-    return_value_hdhomerun_discover_send_wildcard_ip$1=hdhomerun_discover_send_wildcard_ip(ds, device_type, device_id);
-    return return_value_hdhomerun_discover_send_wildcard_ip$1;
+    signed int return_value_hdhomerun_discover_send_wildcard_ip_1;
+    return_value_hdhomerun_discover_send_wildcard_ip_1=hdhomerun_discover_send_wildcard_ip(ds, device_type, device_id);
+    return return_value_hdhomerun_discover_send_wildcard_ip_1;
   }
 
   else
   {
-    signed int return_value_hdhomerun_discover_send_target_ip$2;
-    return_value_hdhomerun_discover_send_target_ip$2=hdhomerun_discover_send_target_ip(ds, target_ip, device_type, device_id);
-    return return_value_hdhomerun_discover_send_target_ip$2;
+    signed int return_value_hdhomerun_discover_send_target_ip_2;
+    return_value_hdhomerun_discover_send_target_ip_2=hdhomerun_discover_send_target_ip(ds, target_ip, device_type, device_id);
+    return return_value_hdhomerun_discover_send_target_ip_2;
   }
 }
 
@@ -7126,9 +7126,9 @@ static signed int hdhomerun_discover_send_internal(struct hdhomerun_discover_t *
   hdhomerun_pkt_write_var_length(tx_pkt, (unsigned long int)4);
   hdhomerun_pkt_write_u32(tx_pkt, device_id);
   hdhomerun_pkt_seal_frame(tx_pkt, (unsigned short int)0x0002);
-  signed int return_value_hdhomerun_sock_sendto$1;
-  return_value_hdhomerun_sock_sendto$1=hdhomerun_sock_sendto(dss->sock, target_ip, (unsigned short int)65001, (const void *)tx_pkt->start, (unsigned long int)(tx_pkt->end - tx_pkt->start), (unsigned long int)0);
-  return return_value_hdhomerun_sock_sendto$1;
+  signed int return_value_hdhomerun_sock_sendto_1;
+  return_value_hdhomerun_sock_sendto_1=hdhomerun_sock_sendto(dss->sock, target_ip, (unsigned short int)65001, (const void *)tx_pkt->start, (unsigned long int)(tx_pkt->end - tx_pkt->start), (unsigned long int)0);
+  return return_value_hdhomerun_sock_sendto_1;
 }
 
 // hdhomerun_discover_send_target_ip
@@ -7142,16 +7142,16 @@ static signed int hdhomerun_discover_send_target_ip(struct hdhomerun_discover_t 
     struct hdhomerun_discover_sock_t *dss = &ds->socks[(signed long int)i];
     if((dss->subnet_mask & target_ip) == (dss->local_ip & dss->subnet_mask))
     {
-      signed int return_value_hdhomerun_discover_send_internal$1;
-      return_value_hdhomerun_discover_send_internal$1=hdhomerun_discover_send_internal(ds, dss, target_ip, device_type, device_id);
-      result = result | return_value_hdhomerun_discover_send_internal$1;
+      signed int return_value_hdhomerun_discover_send_internal_1;
+      return_value_hdhomerun_discover_send_internal_1=hdhomerun_discover_send_internal(ds, dss, target_ip, device_type, device_id);
+      result = result | return_value_hdhomerun_discover_send_internal_1;
     }
 
   }
   if(result == 0)
   {
-    struct hdhomerun_discover_sock_t *hdhomerun_discover_send_target_ip$$1$$2$$dss = &ds->socks[(signed long int)0];
-    result=hdhomerun_discover_send_internal(ds, hdhomerun_discover_send_target_ip$$1$$2$$dss, target_ip, device_type, device_id);
+    struct hdhomerun_discover_sock_t *hdhomerun_discover_send_target_ip__1__2__dss = &ds->socks[(signed long int)0];
+    result=hdhomerun_discover_send_internal(ds, hdhomerun_discover_send_target_ip__1__2__dss, target_ip, device_type, device_id);
   }
 
   return result;
@@ -7167,14 +7167,14 @@ static signed int hdhomerun_discover_send_wildcard_ip(struct hdhomerun_discover_
   {
     struct hdhomerun_discover_sock_t *dss = &ds->socks[(signed long int)i];
     unsigned int target_ip = dss->local_ip | ~dss->subnet_mask;
-    signed int return_value_hdhomerun_discover_send_internal$1;
-    return_value_hdhomerun_discover_send_internal$1=hdhomerun_discover_send_internal(ds, dss, target_ip, device_type, device_id);
-    result = result | return_value_hdhomerun_discover_send_internal$1;
+    signed int return_value_hdhomerun_discover_send_internal_1;
+    return_value_hdhomerun_discover_send_internal_1=hdhomerun_discover_send_internal(ds, dss, target_ip, device_type, device_id);
+    result = result | return_value_hdhomerun_discover_send_internal_1;
   }
   if(result == 0)
   {
-    struct hdhomerun_discover_sock_t *hdhomerun_discover_send_wildcard_ip$$1$$2$$dss = &ds->socks[(signed long int)0];
-    result=hdhomerun_discover_send_internal(ds, hdhomerun_discover_send_wildcard_ip$$1$$2$$dss, 0xFFFFFFFF, device_type, device_id);
+    struct hdhomerun_discover_sock_t *hdhomerun_discover_send_wildcard_ip__1__2__dss = &ds->socks[(signed long int)0];
+    result=hdhomerun_discover_send_internal(ds, hdhomerun_discover_send_wildcard_ip__1__2__dss, 0xFFFFFFFF, device_type, device_id);
   }
 
   return result;
@@ -7199,7 +7199,7 @@ static signed int hdhomerun_discover_sock_add(struct hdhomerun_discover_t *ds, u
     }
 
   }
-  unsigned int tmp_post$2;
+  unsigned int tmp_post_2;
   if(ds->sock_count >= 16u)
     return 0;
 
@@ -7212,9 +7212,9 @@ static signed int hdhomerun_discover_sock_add(struct hdhomerun_discover_t *ds, u
 
     else
     {
-      signed int return_value_hdhomerun_sock_bind$1;
-      return_value_hdhomerun_sock_bind$1=hdhomerun_sock_bind(sock, local_ip, (unsigned short int)0, 0);
-      if(return_value_hdhomerun_sock_bind$1 == 0)
+      signed int return_value_hdhomerun_sock_bind_1;
+      return_value_hdhomerun_sock_bind_1=hdhomerun_sock_bind(sock, local_ip, (unsigned short int)0, 0);
+      if(return_value_hdhomerun_sock_bind_1 == 0)
       {
         hdhomerun_debug_printf(ds->dbg, "discover: failed to bind to %u.%u.%u.%u:0\n", (unsigned int)(local_ip >> 24) & (unsigned int)0xFF, (unsigned int)(local_ip >> 16) & (unsigned int)0xFF, (unsigned int)(local_ip >> 8) & (unsigned int)0xFF, (unsigned int)(local_ip >> 0) & (unsigned int)0xFF);
         hdhomerun_sock_destroy(sock);
@@ -7223,14 +7223,14 @@ static signed int hdhomerun_discover_sock_add(struct hdhomerun_discover_t *ds, u
 
       else
       {
-        struct hdhomerun_discover_sock_t *hdhomerun_discover_sock_add$$1$$dss;
-        tmp_post$2 = ds->sock_count;
+        struct hdhomerun_discover_sock_t *hdhomerun_discover_sock_add__1__dss;
+        tmp_post_2 = ds->sock_count;
         ds->sock_count = ds->sock_count + 1u;
-        hdhomerun_discover_sock_add$$1$$dss = &ds->socks[(signed long int)tmp_post$2];
-        hdhomerun_discover_sock_add$$1$$dss->sock = sock;
-        hdhomerun_discover_sock_add$$1$$dss->detected = 1;
-        hdhomerun_discover_sock_add$$1$$dss->local_ip = local_ip;
-        hdhomerun_discover_sock_add$$1$$dss->subnet_mask = subnet_mask;
+        hdhomerun_discover_sock_add__1__dss = &ds->socks[(signed long int)tmp_post_2];
+        hdhomerun_discover_sock_add__1__dss->sock = sock;
+        hdhomerun_discover_sock_add__1__dss->detected = 1;
+        hdhomerun_discover_sock_add__1__dss->local_ip = local_ip;
+        hdhomerun_discover_sock_add__1__dss->subnet_mask = subnet_mask;
         return 1;
       }
     }
@@ -7324,9 +7324,9 @@ extern signed int hdhomerun_local_ip_info(struct hdhomerun_local_ip_info_t *ip_i
     while((_Bool)1)
     {
       ifc.ifc_len = (signed int)ifreq_buffer_size;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(ifreq_buffer_size);
-      ifc.ifc_ifcu.ifcu_buf = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(ifreq_buffer_size);
+      ifc.ifc_ifcu.ifcu_buf = (char *)return_value_malloc_1;
       if(ifc.ifc_ifcu.ifcu_buf == ((char *)NULL))
       {
         close(sock);
@@ -7334,9 +7334,9 @@ extern signed int hdhomerun_local_ip_info(struct hdhomerun_local_ip_info_t *ip_i
       }
 
       memset((void *)ifc.ifc_ifcu.ifcu_buf, 0, ifreq_buffer_size);
-      signed int return_value_ioctl$2;
-      return_value_ioctl$2=ioctl(sock, (unsigned long int)0x8912, &ifc);
-      if(!(return_value_ioctl$2 == 0))
+      signed int return_value_ioctl_2;
+      return_value_ioctl_2=ioctl(sock, (unsigned long int)0x8912, &ifc);
+      if(!(return_value_ioctl_2 == 0))
       {
         free((void *)ifc.ifc_ifcu.ifcu_buf);
         close(sock);
@@ -7356,30 +7356,30 @@ extern signed int hdhomerun_local_ip_info(struct hdhomerun_local_ip_info_t *ip_i
     {
       struct ifreq *ifr = (struct ifreq *)ptr;
       ptr = ptr + (signed long int)sizeof(struct ifreq) /*40ul*/ ;
-      signed int return_value_ioctl$3;
-      return_value_ioctl$3=ioctl(sock, (unsigned long int)0x8913, ifr);
-      if(return_value_ioctl$3 == 0)
+      signed int return_value_ioctl_3;
+      return_value_ioctl_3=ioctl(sock, (unsigned long int)0x8913, ifr);
+      if(return_value_ioctl_3 == 0)
       {
         if(!((1 & (signed int)ifr->ifr_ifru.ifru_flags) == 0))
         {
           if(!((64 & (signed int)ifr->ifr_ifru.ifru_flags) == 0))
           {
-            signed int return_value_ioctl$4;
-            return_value_ioctl$4=ioctl(sock, (unsigned long int)0x8915, ifr);
-            if(return_value_ioctl$4 == 0)
+            signed int return_value_ioctl_4;
+            return_value_ioctl_4=ioctl(sock, (unsigned long int)0x8915, ifr);
+            if(return_value_ioctl_4 == 0)
             {
               struct sockaddr_in *ip_addr_in = (struct sockaddr_in *)&ifr->ifr_ifru.ifru_addr;
               unsigned int ip_addr;
-              ip_addr=__bswap_32$link2(ip_addr_in->sin_addr.s_addr);
+              ip_addr=__bswap_32_link2(ip_addr_in->sin_addr.s_addr);
               if(!(ip_addr == 0u))
               {
-                signed int return_value_ioctl$5;
-                return_value_ioctl$5=ioctl(sock, (unsigned long int)0x891b, ifr);
-                if(return_value_ioctl$5 == 0)
+                signed int return_value_ioctl_5;
+                return_value_ioctl_5=ioctl(sock, (unsigned long int)0x891b, ifr);
+                if(return_value_ioctl_5 == 0)
                 {
                   struct sockaddr_in *subnet_mask_in = (struct sockaddr_in *)&ifr->ifr_ifru.ifru_addr;
                   unsigned int subnet_mask;
-                  subnet_mask=__bswap_32$link2(subnet_mask_in->sin_addr.s_addr);
+                  subnet_mask=__bswap_32_link2(subnet_mask_in->sin_addr.s_addr);
                   if(!(count >= max_count))
                   {
                     struct hdhomerun_local_ip_info_t *ip_info = &ip_info_list[(signed long int)count];
@@ -7413,13 +7413,13 @@ static unsigned int hdhomerun_pkt_calc_crc(unsigned char *start, unsigned char *
 {
   unsigned char *pos = start;
   unsigned int crc = 0xFFFFFFFF;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   while(!(pos >= end))
   {
     unsigned char x;
-    tmp_post$1 = pos;
+    tmp_post_1 = pos;
     pos = pos + 1l;
-    x = (unsigned char)((signed int)(unsigned char)crc ^ (signed int)*tmp_post$1);
+    x = (unsigned char)((signed int)(unsigned char)crc ^ (signed int)*tmp_post_1);
     crc = crc >> 8;
     if(!((0x01 & (signed int)x) == 0))
       crc = crc ^ (unsigned int)0x77073096;
@@ -7454,9 +7454,9 @@ static unsigned int hdhomerun_pkt_calc_crc(unsigned char *start, unsigned char *
 extern struct hdhomerun_pkt_t * hdhomerun_pkt_create(void)
 {
   struct hdhomerun_pkt_t *pkt;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hdhomerun_pkt_t) /*3112ul*/ );
-  pkt = (struct hdhomerun_pkt_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hdhomerun_pkt_t) /*3112ul*/ );
+  pkt = (struct hdhomerun_pkt_t *)return_value_calloc_1;
   if(pkt == ((struct hdhomerun_pkt_t *)NULL))
     return (struct hdhomerun_pkt_t *)(void *)0;
 
@@ -7479,10 +7479,10 @@ extern void hdhomerun_pkt_destroy(struct hdhomerun_pkt_t *pkt)
 extern signed int hdhomerun_pkt_open_frame(struct hdhomerun_pkt_t *pkt, unsigned short int *ptype)
 {
   pkt->pos = pkt->start;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
   if(!(pkt->end >= pkt->pos + 4l))
     return 0;
 
@@ -7490,9 +7490,9 @@ extern signed int hdhomerun_pkt_open_frame(struct hdhomerun_pkt_t *pkt, unsigned
   {
     *ptype=hdhomerun_pkt_read_u16(pkt);
     unsigned long int length;
-    unsigned short int return_value_hdhomerun_pkt_read_u16$1;
-    return_value_hdhomerun_pkt_read_u16$1=hdhomerun_pkt_read_u16(pkt);
-    length = (unsigned long int)return_value_hdhomerun_pkt_read_u16$1;
+    unsigned short int return_value_hdhomerun_pkt_read_u16_1;
+    return_value_hdhomerun_pkt_read_u16_1=hdhomerun_pkt_read_u16(pkt);
+    length = (unsigned long int)return_value_hdhomerun_pkt_read_u16_1;
     pkt->pos = pkt->pos + (signed long int)length;
     if(!(pkt->end >= pkt->pos + 4l))
     {
@@ -7505,18 +7505,18 @@ extern signed int hdhomerun_pkt_open_frame(struct hdhomerun_pkt_t *pkt, unsigned
       unsigned int calc_crc;
       calc_crc=hdhomerun_pkt_calc_crc(pkt->start, pkt->pos);
       unsigned int packet_crc;
-      tmp_post$2 = pkt->pos;
+      tmp_post_2 = pkt->pos;
       pkt->pos = pkt->pos + 1l;
-      packet_crc = (unsigned int)*tmp_post$2 << 0;
-      tmp_post$3 = pkt->pos;
+      packet_crc = (unsigned int)*tmp_post_2 << 0;
+      tmp_post_3 = pkt->pos;
       pkt->pos = pkt->pos + 1l;
-      packet_crc = packet_crc | (unsigned int)*tmp_post$3 << 8;
-      tmp_post$4 = pkt->pos;
+      packet_crc = packet_crc | (unsigned int)*tmp_post_3 << 8;
+      tmp_post_4 = pkt->pos;
       pkt->pos = pkt->pos + 1l;
-      packet_crc = packet_crc | (unsigned int)*tmp_post$4 << 16;
-      tmp_post$5 = pkt->pos;
+      packet_crc = packet_crc | (unsigned int)*tmp_post_4 << 16;
+      tmp_post_5 = pkt->pos;
       pkt->pos = pkt->pos + 1l;
-      packet_crc = packet_crc | (unsigned int)*tmp_post$5 << 24;
+      packet_crc = packet_crc | (unsigned int)*tmp_post_5 << 24;
       if(!(calc_crc == packet_crc))
         return -1;
 
@@ -7563,12 +7563,12 @@ extern unsigned char * hdhomerun_pkt_read_tlv(struct hdhomerun_pkt_t *pkt, unsig
 extern unsigned short int hdhomerun_pkt_read_u16(struct hdhomerun_pkt_t *pkt)
 {
   unsigned short int v;
-  unsigned char *tmp_post$1 = pkt->pos;
+  unsigned char *tmp_post_1 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  v = (unsigned short int)((signed int)(unsigned short int)*tmp_post$1 << 8);
-  unsigned char *tmp_post$2 = pkt->pos;
+  v = (unsigned short int)((signed int)(unsigned short int)*tmp_post_1 << 8);
+  unsigned char *tmp_post_2 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  v = v | (unsigned short int)((signed int)(unsigned short int)*tmp_post$2 << 0);
+  v = v | (unsigned short int)((signed int)(unsigned short int)*tmp_post_2 << 0);
   return v;
 }
 
@@ -7577,18 +7577,18 @@ extern unsigned short int hdhomerun_pkt_read_u16(struct hdhomerun_pkt_t *pkt)
 extern unsigned int hdhomerun_pkt_read_u32(struct hdhomerun_pkt_t *pkt)
 {
   unsigned int v;
-  unsigned char *tmp_post$1 = pkt->pos;
+  unsigned char *tmp_post_1 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  v = (unsigned int)*tmp_post$1 << 24;
-  unsigned char *tmp_post$2 = pkt->pos;
+  v = (unsigned int)*tmp_post_1 << 24;
+  unsigned char *tmp_post_2 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  v = v | (unsigned int)*tmp_post$2 << 16;
-  unsigned char *tmp_post$3 = pkt->pos;
+  v = v | (unsigned int)*tmp_post_2 << 16;
+  unsigned char *tmp_post_3 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  v = v | (unsigned int)*tmp_post$3 << 8;
-  unsigned char *tmp_post$4 = pkt->pos;
+  v = v | (unsigned int)*tmp_post_3 << 8;
+  unsigned char *tmp_post_4 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  v = v | (unsigned int)*tmp_post$4 << 0;
+  v = v | (unsigned int)*tmp_post_4 << 0;
   return v;
 }
 
@@ -7597,9 +7597,9 @@ extern unsigned int hdhomerun_pkt_read_u32(struct hdhomerun_pkt_t *pkt)
 extern unsigned char hdhomerun_pkt_read_u8(struct hdhomerun_pkt_t *pkt)
 {
   unsigned char v;
-  unsigned char *tmp_post$1 = pkt->pos;
+  unsigned char *tmp_post_1 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  v = *tmp_post$1;
+  v = *tmp_post_1;
   return v;
 }
 
@@ -7608,25 +7608,25 @@ extern unsigned char hdhomerun_pkt_read_u8(struct hdhomerun_pkt_t *pkt)
 extern unsigned long int hdhomerun_pkt_read_var_length(struct hdhomerun_pkt_t *pkt)
 {
   unsigned long int length;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
   if(!(pkt->end >= pkt->pos + 1l))
     return (unsigned long int)-1;
 
   else
   {
-    tmp_post$1 = pkt->pos;
+    tmp_post_1 = pkt->pos;
     pkt->pos = pkt->pos + 1l;
-    length = (unsigned long int)*tmp_post$1;
+    length = (unsigned long int)*tmp_post_1;
     if(!((128ul & length) == 0ul))
     {
       if(!(pkt->end >= pkt->pos + 1l))
         return (unsigned long int)-1;
 
       length = length & (unsigned long int)0x007F;
-      tmp_post$2 = pkt->pos;
+      tmp_post_2 = pkt->pos;
       pkt->pos = pkt->pos + 1l;
-      length = length | (unsigned long int)*tmp_post$2 << 7;
+      length = length | (unsigned long int)*tmp_post_2 << 7;
     }
 
     return length;
@@ -7654,18 +7654,18 @@ extern void hdhomerun_pkt_seal_frame(struct hdhomerun_pkt_t *pkt, unsigned short
   hdhomerun_pkt_write_u16(pkt, (unsigned short int)length);
   unsigned int crc;
   crc=hdhomerun_pkt_calc_crc(pkt->start, pkt->end);
-  unsigned char *tmp_post$1 = pkt->end;
+  unsigned char *tmp_post_1 = pkt->end;
   pkt->end = pkt->end + 1l;
-  *tmp_post$1 = (unsigned char)(crc >> 0);
-  unsigned char *tmp_post$2 = pkt->end;
+  *tmp_post_1 = (unsigned char)(crc >> 0);
+  unsigned char *tmp_post_2 = pkt->end;
   pkt->end = pkt->end + 1l;
-  *tmp_post$2 = (unsigned char)(crc >> 8);
-  unsigned char *tmp_post$3 = pkt->end;
+  *tmp_post_2 = (unsigned char)(crc >> 8);
+  unsigned char *tmp_post_3 = pkt->end;
   pkt->end = pkt->end + 1l;
-  *tmp_post$3 = (unsigned char)(crc >> 16);
-  unsigned char *tmp_post$4 = pkt->end;
+  *tmp_post_3 = (unsigned char)(crc >> 16);
+  unsigned char *tmp_post_4 = pkt->end;
   pkt->end = pkt->end + 1l;
-  *tmp_post$4 = (unsigned char)(crc >> 24);
+  *tmp_post_4 = (unsigned char)(crc >> 24);
   pkt->pos = pkt->start;
 }
 
@@ -7684,12 +7684,12 @@ extern void hdhomerun_pkt_write_mem(struct hdhomerun_pkt_t *pkt, const void *mem
 // file hdhomerun_pkt.c line 143
 extern void hdhomerun_pkt_write_u16(struct hdhomerun_pkt_t *pkt, unsigned short int v)
 {
-  unsigned char *tmp_post$1 = pkt->pos;
+  unsigned char *tmp_post_1 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  *tmp_post$1 = (unsigned char)((signed int)v >> 8);
-  unsigned char *tmp_post$2 = pkt->pos;
+  *tmp_post_1 = (unsigned char)((signed int)v >> 8);
+  unsigned char *tmp_post_2 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  *tmp_post$2 = (unsigned char)((signed int)v >> 0);
+  *tmp_post_2 = (unsigned char)((signed int)v >> 0);
   if(!(pkt->end >= pkt->pos))
     pkt->end = pkt->pos;
 
@@ -7699,18 +7699,18 @@ extern void hdhomerun_pkt_write_u16(struct hdhomerun_pkt_t *pkt, unsigned short 
 // file hdhomerun_pkt.h line 161
 extern void hdhomerun_pkt_write_u32(struct hdhomerun_pkt_t *pkt, unsigned int v)
 {
-  unsigned char *tmp_post$1 = pkt->pos;
+  unsigned char *tmp_post_1 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  *tmp_post$1 = (unsigned char)(v >> 24);
-  unsigned char *tmp_post$2 = pkt->pos;
+  *tmp_post_1 = (unsigned char)(v >> 24);
+  unsigned char *tmp_post_2 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  *tmp_post$2 = (unsigned char)(v >> 16);
-  unsigned char *tmp_post$3 = pkt->pos;
+  *tmp_post_2 = (unsigned char)(v >> 16);
+  unsigned char *tmp_post_3 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  *tmp_post$3 = (unsigned char)(v >> 8);
-  unsigned char *tmp_post$4 = pkt->pos;
+  *tmp_post_3 = (unsigned char)(v >> 8);
+  unsigned char *tmp_post_4 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  *tmp_post$4 = (unsigned char)(v >> 0);
+  *tmp_post_4 = (unsigned char)(v >> 0);
   if(!(pkt->end >= pkt->pos))
     pkt->end = pkt->pos;
 
@@ -7720,9 +7720,9 @@ extern void hdhomerun_pkt_write_u32(struct hdhomerun_pkt_t *pkt, unsigned int v)
 // file hdhomerun_pkt.h line 159
 extern void hdhomerun_pkt_write_u8(struct hdhomerun_pkt_t *pkt, unsigned char v)
 {
-  unsigned char *tmp_post$1 = pkt->pos;
+  unsigned char *tmp_post_1 = pkt->pos;
   pkt->pos = pkt->pos + 1l;
-  *tmp_post$1 = v;
+  *tmp_post_1 = v;
   if(!(pkt->end >= pkt->pos))
     pkt->end = pkt->pos;
 
@@ -7732,24 +7732,24 @@ extern void hdhomerun_pkt_write_u8(struct hdhomerun_pkt_t *pkt, unsigned char v)
 // file hdhomerun_pkt.h line 162
 extern void hdhomerun_pkt_write_var_length(struct hdhomerun_pkt_t *pkt, unsigned long int v)
 {
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
   if(!(v >= 128ul))
   {
-    tmp_post$1 = pkt->pos;
+    tmp_post_1 = pkt->pos;
     pkt->pos = pkt->pos + 1l;
-    *tmp_post$1 = (unsigned char)v;
+    *tmp_post_1 = (unsigned char)v;
   }
 
   else
   {
-    tmp_post$2 = pkt->pos;
+    tmp_post_2 = pkt->pos;
     pkt->pos = pkt->pos + 1l;
-    *tmp_post$2 = (unsigned char)(v | (unsigned long int)0x80);
-    tmp_post$3 = pkt->pos;
+    *tmp_post_2 = (unsigned char)(v | (unsigned long int)0x80);
+    tmp_post_3 = pkt->pos;
     pkt->pos = pkt->pos + 1l;
-    *tmp_post$3 = (unsigned char)(v >> 7);
+    *tmp_post_3 = (unsigned char)(v >> 7);
   }
   if(!(pkt->end >= pkt->pos))
     pkt->end = pkt->pos;
@@ -7765,16 +7765,16 @@ extern signed int hdhomerun_sock_bind(signed int sock, unsigned int local_addr, 
   struct sockaddr_in sock_addr;
   memset((void *)&sock_addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   sock_addr.sin_family = (unsigned short int)2;
-  sock_addr.sin_addr.s_addr=__bswap_32$link2(local_addr);
-  unsigned short int tmp_statement_expression$1;
+  sock_addr.sin_addr.s_addr=__bswap_32_link2(local_addr);
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)local_port;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  sock_addr.sin_port = tmp_statement_expression$1;
-  signed int return_value_bind$2;
-  return_value_bind$2=bind(sock, (struct sockaddr *)&sock_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_bind$2 == 0))
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  sock_addr.sin_port = tmp_statement_expression_1;
+  signed int return_value_bind_2;
+  return_value_bind_2=bind(sock, (struct sockaddr *)&sock_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_bind_2 == 0))
     return 0;
 
   else
@@ -7788,28 +7788,28 @@ extern signed int hdhomerun_sock_connect(signed int sock, unsigned int remote_ad
   struct sockaddr_in sock_addr;
   memset((void *)&sock_addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   sock_addr.sin_family = (unsigned short int)2;
-  sock_addr.sin_addr.s_addr=__bswap_32$link2(remote_addr);
-  unsigned short int tmp_statement_expression$1;
+  sock_addr.sin_addr.s_addr=__bswap_32_link2(remote_addr);
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)remote_port;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  sock_addr.sin_port = tmp_statement_expression$1;
-  signed int return_value_connect$5;
-  return_value_connect$5=connect(sock, (struct sockaddr *)&sock_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$2;
-  if(!(return_value_connect$5 == 0))
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  sock_addr.sin_port = tmp_statement_expression_1;
+  signed int return_value_connect_5;
+  return_value_connect_5=connect(sock, (struct sockaddr *)&sock_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_2;
+  if(!(return_value_connect_5 == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(!(*return_value___errno_location$4 == 11))
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(!(*return_value___errno_location_4 == 11))
     {
-      return_value___errno_location$3=__errno_location();
-      if(!(*return_value___errno_location$3 == 11))
+      return_value___errno_location_3=__errno_location();
+      if(!(*return_value___errno_location_3 == 11))
       {
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 115))
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 115))
           return 0;
 
       }
@@ -7819,12 +7819,12 @@ extern signed int hdhomerun_sock_connect(signed int sock, unsigned int remote_ad
   }
 
   unsigned long int stop_time;
-  unsigned long int return_value_getcurrenttime$6;
-  return_value_getcurrenttime$6=getcurrenttime();
-  stop_time = return_value_getcurrenttime$6 + timeout;
-  signed int return_value_hdhomerun_sock_wait_for_event$7;
-  return_value_hdhomerun_sock_wait_for_event$7=hdhomerun_sock_wait_for_event(sock, (signed short int)0x004, stop_time);
-  return return_value_hdhomerun_sock_wait_for_event$7;
+  unsigned long int return_value_getcurrenttime_6;
+  return_value_getcurrenttime_6=getcurrenttime();
+  stop_time = return_value_getcurrenttime_6 + timeout;
+  signed int return_value_hdhomerun_sock_wait_for_event_7;
+  return_value_hdhomerun_sock_wait_for_event_7=hdhomerun_sock_wait_for_event(sock, (signed short int)0x004, stop_time);
+  return return_value_hdhomerun_sock_wait_for_event_7;
 }
 
 // hdhomerun_sock_create_tcp
@@ -7832,17 +7832,17 @@ extern signed int hdhomerun_sock_connect(signed int sock, unsigned int remote_ad
 extern signed int hdhomerun_sock_create_tcp(void)
 {
   signed int sock;
-  signed int return_value_socket$1;
-  return_value_socket$1=socket(2, 1, 0);
-  sock = (signed int)return_value_socket$1;
+  signed int return_value_socket_1;
+  return_value_socket_1=socket(2, 1, 0);
+  sock = (signed int)return_value_socket_1;
   if(sock == -1)
     return -1;
 
   else
   {
-    signed int return_value_fcntl$2;
-    return_value_fcntl$2=fcntl(sock, 4, 04000);
-    if(!(return_value_fcntl$2 == 0))
+    signed int return_value_fcntl_2;
+    return_value_fcntl_2=fcntl(sock, 4, 04000);
+    if(!(return_value_fcntl_2 == 0))
     {
       close(sock);
       return -1;
@@ -7858,17 +7858,17 @@ extern signed int hdhomerun_sock_create_tcp(void)
 extern signed int hdhomerun_sock_create_udp(void)
 {
   signed int sock;
-  signed int return_value_socket$1;
-  return_value_socket$1=socket(2, 2, 0);
-  sock = (signed int)return_value_socket$1;
+  signed int return_value_socket_1;
+  return_value_socket_1=socket(2, 2, 0);
+  sock = (signed int)return_value_socket_1;
   if(sock == -1)
     return -1;
 
   else
   {
-    signed int return_value_fcntl$2;
-    return_value_fcntl$2=fcntl(sock, 4, 04000);
-    if(!(return_value_fcntl$2 == 0))
+    signed int return_value_fcntl_2;
+    return_value_fcntl_2=fcntl(sock, 4, 04000);
+    if(!(return_value_fcntl_2 == 0))
     {
       close(sock);
       return -1;
@@ -7900,16 +7900,16 @@ extern unsigned int hdhomerun_sock_getaddrinfo_addr(signed int sock, const char 
   hints.ai_socktype = 1;
   hints.ai_protocol = 6;
   struct addrinfo *sock_info;
-  signed int return_value_getaddrinfo$1;
-  return_value_getaddrinfo$1=getaddrinfo(name, (const char *)(void *)0, &hints, &sock_info);
-  if(!(return_value_getaddrinfo$1 == 0))
+  signed int return_value_getaddrinfo_1;
+  return_value_getaddrinfo_1=getaddrinfo(name, (const char *)(void *)0, &hints, &sock_info);
+  if(!(return_value_getaddrinfo_1 == 0))
     return (unsigned int)0;
 
   else
   {
     struct sockaddr_in *sock_addr = (struct sockaddr_in *)sock_info->ai_addr;
     unsigned int addr;
-    addr=__bswap_32$link2(sock_addr->sin_addr.s_addr);
+    addr=__bswap_32_link2(sock_addr->sin_addr.s_addr);
     freeaddrinfo(sock_info);
     return addr;
   }
@@ -7919,9 +7919,9 @@ extern unsigned int hdhomerun_sock_getaddrinfo_addr(signed int sock, const char 
 // file hdhomerun_sock.h line 39
 extern signed int hdhomerun_sock_getlasterror(void)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  return *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  return *return_value___errno_location_1;
 }
 
 // hdhomerun_sock_getpeername_addr
@@ -7930,16 +7930,16 @@ extern unsigned int hdhomerun_sock_getpeername_addr(signed int sock)
 {
   struct sockaddr_in sock_addr;
   unsigned int sockaddr_size = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-  signed int return_value_getpeername$1;
-  return_value_getpeername$1=getpeername(sock, (struct sockaddr *)&sock_addr, &sockaddr_size);
-  if(!(return_value_getpeername$1 == 0))
+  signed int return_value_getpeername_1;
+  return_value_getpeername_1=getpeername(sock, (struct sockaddr *)&sock_addr, &sockaddr_size);
+  if(!(return_value_getpeername_1 == 0))
     return (unsigned int)0;
 
   else
   {
-    unsigned int return_value___bswap_32$2;
-    return_value___bswap_32$2=__bswap_32$link2(sock_addr.sin_addr.s_addr);
-    return return_value___bswap_32$2;
+    unsigned int return_value___bswap_32_2;
+    return_value___bswap_32_2=__bswap_32_link2(sock_addr.sin_addr.s_addr);
+    return return_value___bswap_32_2;
   }
 }
 
@@ -7949,16 +7949,16 @@ extern unsigned int hdhomerun_sock_getsockname_addr(signed int sock)
 {
   struct sockaddr_in sock_addr;
   unsigned int sockaddr_size = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-  signed int return_value_getsockname$1;
-  return_value_getsockname$1=getsockname(sock, (struct sockaddr *)&sock_addr, &sockaddr_size);
-  if(!(return_value_getsockname$1 == 0))
+  signed int return_value_getsockname_1;
+  return_value_getsockname_1=getsockname(sock, (struct sockaddr *)&sock_addr, &sockaddr_size);
+  if(!(return_value_getsockname_1 == 0))
     return (unsigned int)0;
 
   else
   {
-    unsigned int return_value___bswap_32$2;
-    return_value___bswap_32$2=__bswap_32$link2(sock_addr.sin_addr.s_addr);
-    return return_value___bswap_32$2;
+    unsigned int return_value___bswap_32_2;
+    return_value___bswap_32_2=__bswap_32_link2(sock_addr.sin_addr.s_addr);
+    return return_value___bswap_32_2;
   }
 }
 
@@ -7968,19 +7968,19 @@ extern unsigned short int hdhomerun_sock_getsockname_port(signed int sock)
 {
   struct sockaddr_in sock_addr;
   unsigned int sockaddr_size = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-  signed int return_value_getsockname$1;
-  return_value_getsockname$1=getsockname(sock, (struct sockaddr *)&sock_addr, &sockaddr_size);
-  unsigned short int tmp_statement_expression$2;
-  if(!(return_value_getsockname$1 == 0))
+  signed int return_value_getsockname_1;
+  return_value_getsockname_1=getsockname(sock, (struct sockaddr *)&sock_addr, &sockaddr_size);
+  unsigned short int tmp_statement_expression_2;
+  if(!(return_value_getsockname_1 == 0))
     return (unsigned short int)0;
 
   else
   {
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)sock_addr.sin_port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    return tmp_statement_expression$2;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = __v;
+    return tmp_statement_expression_2;
   }
 }
 
@@ -7990,11 +7990,11 @@ extern signed int hdhomerun_sock_join_multicast_group(signed int sock, unsigned 
 {
   struct ip_mreq imr;
   memset((void *)&imr, 0, sizeof(struct ip_mreq) /*8ul*/ );
-  imr.imr_multiaddr.s_addr=__bswap_32$link2(multicast_ip);
-  imr.imr_interface.s_addr=__bswap_32$link2(local_ip);
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(sock, 0, 35, (const void *)(const char *)&imr, (unsigned int)sizeof(struct ip_mreq) /*8ul*/ );
-  if(!(return_value_setsockopt$1 == 0))
+  imr.imr_multiaddr.s_addr=__bswap_32_link2(multicast_ip);
+  imr.imr_interface.s_addr=__bswap_32_link2(local_ip);
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(sock, 0, 35, (const void *)(const char *)&imr, (unsigned int)sizeof(struct ip_mreq) /*8ul*/ );
+  if(!(return_value_setsockopt_1 == 0))
     return 0;
 
   else
@@ -8007,11 +8007,11 @@ extern signed int hdhomerun_sock_leave_multicast_group(signed int sock, unsigned
 {
   struct ip_mreq imr;
   memset((void *)&imr, 0, sizeof(struct ip_mreq) /*8ul*/ );
-  imr.imr_multiaddr.s_addr=__bswap_32$link2(multicast_ip);
-  imr.imr_interface.s_addr=__bswap_32$link2(local_ip);
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(sock, 0, 36, (const void *)(const char *)&imr, (unsigned int)sizeof(struct ip_mreq) /*8ul*/ );
-  if(!(return_value_setsockopt$1 == 0))
+  imr.imr_multiaddr.s_addr=__bswap_32_link2(multicast_ip);
+  imr.imr_interface.s_addr=__bswap_32_link2(local_ip);
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(sock, 0, 36, (const void *)(const char *)&imr, (unsigned int)sizeof(struct ip_mreq) /*8ul*/ );
+  if(!(return_value_setsockopt_1 == 0))
     return 0;
 
   else
@@ -8023,37 +8023,37 @@ extern signed int hdhomerun_sock_leave_multicast_group(signed int sock, unsigned
 extern signed int hdhomerun_sock_recv(signed int sock, void *data, unsigned long int *length, unsigned long int timeout)
 {
   unsigned long int stop_time;
-  unsigned long int return_value_getcurrenttime$1;
-  return_value_getcurrenttime$1=getcurrenttime();
-  stop_time = return_value_getcurrenttime$1 + timeout;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$3;
+  unsigned long int return_value_getcurrenttime_1;
+  return_value_getcurrenttime_1=getcurrenttime();
+  stop_time = return_value_getcurrenttime_1 + timeout;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_3;
   while((_Bool)1)
   {
     signed int ret;
-    signed long int return_value_recv$2;
-    return_value_recv$2=recv(sock, data, *length, 0);
-    ret = (signed int)return_value_recv$2;
+    signed long int return_value_recv_2;
+    return_value_recv_2=recv(sock, data, *length, 0);
+    ret = (signed int)return_value_recv_2;
     if(!(ret >= 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(!(*return_value___errno_location$5 == 11))
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(!(*return_value___errno_location_5 == 11))
       {
-        return_value___errno_location$4=__errno_location();
-        if(!(*return_value___errno_location$4 == 11))
+        return_value___errno_location_4=__errno_location();
+        if(!(*return_value___errno_location_4 == 11))
         {
-          return_value___errno_location$3=__errno_location();
-          if(!(*return_value___errno_location$3 == 115))
+          return_value___errno_location_3=__errno_location();
+          if(!(*return_value___errno_location_3 == 115))
             return 0;
 
         }
 
       }
 
-      signed int return_value_hdhomerun_sock_wait_for_event$6;
-      return_value_hdhomerun_sock_wait_for_event$6=hdhomerun_sock_wait_for_event(sock, (signed short int)0x001, stop_time);
-      if(return_value_hdhomerun_sock_wait_for_event$6 == 0)
+      signed int return_value_hdhomerun_sock_wait_for_event_6;
+      return_value_hdhomerun_sock_wait_for_event_6=hdhomerun_sock_wait_for_event(sock, (signed short int)0x001, stop_time);
+      if(return_value_hdhomerun_sock_wait_for_event_6 == 0)
         return 0;
 
       continue;
@@ -8072,41 +8072,41 @@ extern signed int hdhomerun_sock_recv(signed int sock, void *data, unsigned long
 extern signed int hdhomerun_sock_recvfrom(signed int sock, unsigned int *remote_addr, unsigned short int *remote_port, void *data, unsigned long int *length, unsigned long int timeout)
 {
   unsigned long int stop_time;
-  unsigned long int return_value_getcurrenttime$1;
-  return_value_getcurrenttime$1=getcurrenttime();
-  stop_time = return_value_getcurrenttime$1 + timeout;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$3;
-  unsigned short int tmp_statement_expression$7;
+  unsigned long int return_value_getcurrenttime_1;
+  return_value_getcurrenttime_1=getcurrenttime();
+  stop_time = return_value_getcurrenttime_1 + timeout;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_3;
+  unsigned short int tmp_statement_expression_7;
   while((_Bool)1)
   {
     struct sockaddr_in sock_addr;
     memset((void *)&sock_addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
     unsigned int sockaddr_size = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
     signed int ret;
-    signed long int return_value_recvfrom$2;
-    return_value_recvfrom$2=recvfrom(sock, data, *length, 0, (struct sockaddr *)&sock_addr, &sockaddr_size);
-    ret = (signed int)return_value_recvfrom$2;
+    signed long int return_value_recvfrom_2;
+    return_value_recvfrom_2=recvfrom(sock, data, *length, 0, (struct sockaddr *)&sock_addr, &sockaddr_size);
+    ret = (signed int)return_value_recvfrom_2;
     if(!(ret >= 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(!(*return_value___errno_location$5 == 11))
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(!(*return_value___errno_location_5 == 11))
       {
-        return_value___errno_location$4=__errno_location();
-        if(!(*return_value___errno_location$4 == 11))
+        return_value___errno_location_4=__errno_location();
+        if(!(*return_value___errno_location_4 == 11))
         {
-          return_value___errno_location$3=__errno_location();
-          if(!(*return_value___errno_location$3 == 115))
+          return_value___errno_location_3=__errno_location();
+          if(!(*return_value___errno_location_3 == 115))
             return 0;
 
         }
 
       }
 
-      signed int return_value_hdhomerun_sock_wait_for_event$6;
-      return_value_hdhomerun_sock_wait_for_event$6=hdhomerun_sock_wait_for_event(sock, (signed short int)0x001, stop_time);
-      if(return_value_hdhomerun_sock_wait_for_event$6 == 0)
+      signed int return_value_hdhomerun_sock_wait_for_event_6;
+      return_value_hdhomerun_sock_wait_for_event_6=hdhomerun_sock_wait_for_event(sock, (signed short int)0x001, stop_time);
+      if(return_value_hdhomerun_sock_wait_for_event_6 == 0)
         return 0;
 
       continue;
@@ -8115,12 +8115,12 @@ extern signed int hdhomerun_sock_recvfrom(signed int sock, unsigned int *remote_
     if(ret == 0)
       return 0;
 
-    *remote_addr=__bswap_32$link2(sock_addr.sin_addr.s_addr);
+    *remote_addr=__bswap_32_link2(sock_addr.sin_addr.s_addr);
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)sock_addr.sin_port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$7 = __v;
-    *remote_port = tmp_statement_expression$7;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_7 = __v;
+    *remote_port = tmp_statement_expression_7;
     *length = (unsigned long int)ret;
     return 1;
   }
@@ -8131,38 +8131,38 @@ extern signed int hdhomerun_sock_recvfrom(signed int sock, unsigned int *remote_
 extern signed int hdhomerun_sock_send(signed int sock, const void *data, unsigned long int length, unsigned long int timeout)
 {
   unsigned long int stop_time;
-  unsigned long int return_value_getcurrenttime$1;
-  return_value_getcurrenttime$1=getcurrenttime();
-  stop_time = return_value_getcurrenttime$1 + timeout;
+  unsigned long int return_value_getcurrenttime_1;
+  return_value_getcurrenttime_1=getcurrenttime();
+  stop_time = return_value_getcurrenttime_1 + timeout;
   const unsigned char *ptr = (const unsigned char *)data;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_3;
   while((_Bool)1)
   {
     signed int ret;
-    signed long int return_value_send$2;
-    return_value_send$2=send(sock, (const void *)ptr, length, 16384);
-    ret = (signed int)return_value_send$2;
+    signed long int return_value_send_2;
+    return_value_send_2=send(sock, (const void *)ptr, length, 16384);
+    ret = (signed int)return_value_send_2;
     if(!(ret >= 1))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(!(*return_value___errno_location$5 == 11))
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(!(*return_value___errno_location_5 == 11))
       {
-        return_value___errno_location$4=__errno_location();
-        if(!(*return_value___errno_location$4 == 11))
+        return_value___errno_location_4=__errno_location();
+        if(!(*return_value___errno_location_4 == 11))
         {
-          return_value___errno_location$3=__errno_location();
-          if(!(*return_value___errno_location$3 == 115))
+          return_value___errno_location_3=__errno_location();
+          if(!(*return_value___errno_location_3 == 115))
             return 0;
 
         }
 
       }
 
-      signed int return_value_hdhomerun_sock_wait_for_event$6;
-      return_value_hdhomerun_sock_wait_for_event$6=hdhomerun_sock_wait_for_event(sock, (signed short int)0x004, stop_time);
-      if(return_value_hdhomerun_sock_wait_for_event$6 == 0)
+      signed int return_value_hdhomerun_sock_wait_for_event_6;
+      return_value_hdhomerun_sock_wait_for_event_6=hdhomerun_sock_wait_for_event(sock, (signed short int)0x004, stop_time);
+      if(return_value_hdhomerun_sock_wait_for_event_6 == 0)
         return 0;
 
       continue;
@@ -8184,48 +8184,48 @@ extern signed int hdhomerun_sock_send(signed int sock, const void *data, unsigne
 extern signed int hdhomerun_sock_sendto(signed int sock, unsigned int remote_addr, unsigned short int remote_port, const void *data, unsigned long int length, unsigned long int timeout)
 {
   unsigned long int stop_time;
-  unsigned long int return_value_getcurrenttime$1;
-  return_value_getcurrenttime$1=getcurrenttime();
-  stop_time = return_value_getcurrenttime$1 + timeout;
+  unsigned long int return_value_getcurrenttime_1;
+  return_value_getcurrenttime_1=getcurrenttime();
+  stop_time = return_value_getcurrenttime_1 + timeout;
   const unsigned char *ptr = (const unsigned char *)data;
-  unsigned short int tmp_statement_expression$2;
-  signed int *return_value___errno_location$5;
-  signed int *return_value___errno_location$4;
+  unsigned short int tmp_statement_expression_2;
+  signed int *return_value___errno_location_5;
+  signed int *return_value___errno_location_4;
   while((_Bool)1)
   {
     struct sockaddr_in sock_addr;
     memset((void *)&sock_addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
     sock_addr.sin_family = (unsigned short int)2;
-    sock_addr.sin_addr.s_addr=__bswap_32$link2(remote_addr);
+    sock_addr.sin_addr.s_addr=__bswap_32_link2(remote_addr);
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)remote_port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    sock_addr.sin_port = tmp_statement_expression$2;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = __v;
+    sock_addr.sin_port = tmp_statement_expression_2;
     signed int ret;
-    signed long int return_value_sendto$3;
-    return_value_sendto$3=sendto(sock, (const void *)ptr, length, 0, (struct sockaddr *)&sock_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    ret = (signed int)return_value_sendto$3;
+    signed long int return_value_sendto_3;
+    return_value_sendto_3=sendto(sock, (const void *)ptr, length, 0, (struct sockaddr *)&sock_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    ret = (signed int)return_value_sendto_3;
     if(!(ret >= 1))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      if(!(*return_value___errno_location$6 == 11))
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      if(!(*return_value___errno_location_6 == 11))
       {
-        return_value___errno_location$5=__errno_location();
-        if(!(*return_value___errno_location$5 == 11))
+        return_value___errno_location_5=__errno_location();
+        if(!(*return_value___errno_location_5 == 11))
         {
-          return_value___errno_location$4=__errno_location();
-          if(!(*return_value___errno_location$4 == 115))
+          return_value___errno_location_4=__errno_location();
+          if(!(*return_value___errno_location_4 == 115))
             return 0;
 
         }
 
       }
 
-      signed int return_value_hdhomerun_sock_wait_for_event$7;
-      return_value_hdhomerun_sock_wait_for_event$7=hdhomerun_sock_wait_for_event(sock, (signed short int)0x004, stop_time);
-      if(return_value_hdhomerun_sock_wait_for_event$7 == 0)
+      signed int return_value_hdhomerun_sock_wait_for_event_7;
+      return_value_hdhomerun_sock_wait_for_event_7=hdhomerun_sock_wait_for_event(sock, (signed short int)0x004, stop_time);
+      if(return_value_hdhomerun_sock_wait_for_event_7 == 0)
         return 0;
 
       continue;
@@ -8258,9 +8258,9 @@ static signed int hdhomerun_sock_wait_for_event(signed int sock, signed short in
     poll_event.events = event_type;
     poll_event.revents = (signed short int)0;
     unsigned long int timeout = stop_time - current_time;
-    signed int return_value_poll$1;
-    return_value_poll$1=poll(&poll_event, (unsigned long int)1, (signed int)timeout);
-    if(!(return_value_poll$1 >= 1))
+    signed int return_value_poll_1;
+    return_value_poll_1=poll(&poll_event, (unsigned long int)1, (signed int)timeout);
+    if(!(return_value_poll_1 >= 1))
       return 0;
 
     else
@@ -8288,13 +8288,13 @@ extern signed int hdhomerun_sprintf(char *buffer, char *end, const char *fmt, ..
 extern struct hdhomerun_video_sock_t * hdhomerun_video_create(unsigned short int listen_port, signed int allow_port_reuse, unsigned long int buffer_size, struct hdhomerun_debug_t *dbg)
 {
   struct hdhomerun_video_sock_t *vs;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hdhomerun_video_sock_t) /*8328ul*/ );
-  vs = (struct hdhomerun_video_sock_t *)return_value_calloc$1;
-  void *return_value_malloc$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hdhomerun_video_sock_t) /*8328ul*/ );
+  vs = (struct hdhomerun_video_sock_t *)return_value_calloc_1;
+  void *return_value_malloc_2;
   signed int rx_size;
-  signed int return_value_hdhomerun_sock_bind$3;
-  signed int return_value_pthread_create$4;
+  signed int return_value_hdhomerun_sock_bind_3;
+  signed int return_value_pthread_create_4;
   if(vs == ((struct hdhomerun_video_sock_t *)NULL))
   {
     hdhomerun_debug_printf(dbg, "hdhomerun_video_create: failed to allocate video object\n");
@@ -8305,7 +8305,7 @@ extern struct hdhomerun_video_sock_t * hdhomerun_video_create(unsigned short int
   {
     vs->dbg = dbg;
     vs->sock = -1;
-    pthread_mutex_init(&vs->lock, (const union anonymous$3 *)(void *)0);
+    pthread_mutex_init(&vs->lock, (const union anonymous_3 *)(void *)0);
     hdhomerun_video_flush(vs);
     vs->buffer_size = (buffer_size / (unsigned long int)(188 * 7)) * (unsigned long int)(188 * 7);
     if(vs->buffer_size == 0ul)
@@ -8314,8 +8314,8 @@ extern struct hdhomerun_video_sock_t * hdhomerun_video_create(unsigned short int
     else
     {
       vs->buffer_size = vs->buffer_size + (unsigned long int)(188 * 7);
-      return_value_malloc$2=malloc(vs->buffer_size);
-      vs->buffer = (unsigned char *)return_value_malloc$2;
+      return_value_malloc_2=malloc(vs->buffer_size);
+      vs->buffer = (unsigned char *)return_value_malloc_2;
       if(vs->buffer == ((unsigned char *)NULL))
         hdhomerun_debug_printf(dbg, "hdhomerun_video_create: failed to allocate buffer (%lu bytes)\n", (unsigned long int)vs->buffer_size);
 
@@ -8329,14 +8329,14 @@ extern struct hdhomerun_video_sock_t * hdhomerun_video_create(unsigned short int
         {
           rx_size = 1024 * 1024;
           setsockopt(vs->sock, 1, 8, (const void *)(char *)&rx_size, (unsigned int)sizeof(signed int) /*4ul*/ );
-          return_value_hdhomerun_sock_bind$3=hdhomerun_sock_bind(vs->sock, (unsigned int)0x00000000, listen_port, allow_port_reuse);
-          if(return_value_hdhomerun_sock_bind$3 == 0)
+          return_value_hdhomerun_sock_bind_3=hdhomerun_sock_bind(vs->sock, (unsigned int)0x00000000, listen_port, allow_port_reuse);
+          if(return_value_hdhomerun_sock_bind_3 == 0)
             hdhomerun_debug_printf(dbg, "hdhomerun_video_create: failed to bind socket (port %u)\n", listen_port);
 
           else
           {
-            return_value_pthread_create$4=pthread_create(&vs->thread, (const union pthread_attr_t *)(void *)0, hdhomerun_video_thread_execute, (void *)vs);
-            if(!(return_value_pthread_create$4 == 0))
+            return_value_pthread_create_4=pthread_create(&vs->thread, (const union pthread_attr_t *)(void *)0, hdhomerun_video_thread_execute, (void *)vs);
+            if(!(return_value_pthread_create_4 == 0))
               hdhomerun_debug_printf(dbg, "hdhomerun_video_create: failed to start thread\n");
 
             else
@@ -8406,9 +8406,9 @@ extern unsigned short int hdhomerun_video_get_local_port(struct hdhomerun_video_
   port=hdhomerun_sock_getsockname_port(vs->sock);
   if((signed int)port == 0)
   {
-    signed int return_value_hdhomerun_sock_getlasterror$1;
-    return_value_hdhomerun_sock_getlasterror$1=hdhomerun_sock_getlasterror();
-    hdhomerun_debug_printf(vs->dbg, "hdhomerun_video_get_local_port: getsockname failed (%d)\n", return_value_hdhomerun_sock_getlasterror$1);
+    signed int return_value_hdhomerun_sock_getlasterror_1;
+    return_value_hdhomerun_sock_getlasterror_1=hdhomerun_sock_getlasterror();
+    hdhomerun_debug_printf(vs->dbg, "hdhomerun_video_get_local_port: getsockname failed (%d)\n", return_value_hdhomerun_sock_getlasterror_1);
     return (unsigned short int)0;
   }
 
@@ -8440,13 +8440,13 @@ extern void hdhomerun_video_get_stats(struct hdhomerun_video_sock_t *vs, struct 
 // file hdhomerun_video.h line 64
 extern signed int hdhomerun_video_join_multicast_group(struct hdhomerun_video_sock_t *vs, unsigned int multicast_ip, unsigned int local_ip)
 {
-  signed int return_value_hdhomerun_sock_join_multicast_group$2;
-  return_value_hdhomerun_sock_join_multicast_group$2=hdhomerun_sock_join_multicast_group(vs->sock, multicast_ip, local_ip);
-  if(return_value_hdhomerun_sock_join_multicast_group$2 == 0)
+  signed int return_value_hdhomerun_sock_join_multicast_group_2;
+  return_value_hdhomerun_sock_join_multicast_group_2=hdhomerun_sock_join_multicast_group(vs->sock, multicast_ip, local_ip);
+  if(return_value_hdhomerun_sock_join_multicast_group_2 == 0)
   {
-    signed int return_value_hdhomerun_sock_getlasterror$1;
-    return_value_hdhomerun_sock_getlasterror$1=hdhomerun_sock_getlasterror();
-    hdhomerun_debug_printf(vs->dbg, "hdhomerun_video_join_multicast_group: setsockopt failed (%d)\n", return_value_hdhomerun_sock_getlasterror$1);
+    signed int return_value_hdhomerun_sock_getlasterror_1;
+    return_value_hdhomerun_sock_getlasterror_1=hdhomerun_sock_getlasterror();
+    hdhomerun_debug_printf(vs->dbg, "hdhomerun_video_join_multicast_group: setsockopt failed (%d)\n", return_value_hdhomerun_sock_getlasterror_1);
     return -1;
   }
 
@@ -8457,13 +8457,13 @@ extern signed int hdhomerun_video_join_multicast_group(struct hdhomerun_video_so
 // file hdhomerun_video.h line 65
 extern void hdhomerun_video_leave_multicast_group(struct hdhomerun_video_sock_t *vs, unsigned int multicast_ip, unsigned int local_ip)
 {
-  signed int return_value_hdhomerun_sock_leave_multicast_group$2;
-  return_value_hdhomerun_sock_leave_multicast_group$2=hdhomerun_sock_leave_multicast_group(vs->sock, multicast_ip, local_ip);
-  if(return_value_hdhomerun_sock_leave_multicast_group$2 == 0)
+  signed int return_value_hdhomerun_sock_leave_multicast_group_2;
+  return_value_hdhomerun_sock_leave_multicast_group_2=hdhomerun_sock_leave_multicast_group(vs->sock, multicast_ip, local_ip);
+  if(return_value_hdhomerun_sock_leave_multicast_group_2 == 0)
   {
-    signed int return_value_hdhomerun_sock_getlasterror$1;
-    return_value_hdhomerun_sock_getlasterror$1=hdhomerun_sock_getlasterror();
-    hdhomerun_debug_printf(vs->dbg, "hdhomerun_video_leave_multicast_group: setsockopt failed (%d)\n", return_value_hdhomerun_sock_getlasterror$1);
+    signed int return_value_hdhomerun_sock_getlasterror_1;
+    return_value_hdhomerun_sock_getlasterror_1=hdhomerun_sock_getlasterror();
+    hdhomerun_debug_printf(vs->dbg, "hdhomerun_video_leave_multicast_group: setsockopt failed (%d)\n", return_value_hdhomerun_sock_getlasterror_1);
   }
 
 }
@@ -8474,9 +8474,9 @@ static void hdhomerun_video_parse_rtp(struct hdhomerun_video_sock_t *vs, struct 
 {
   pkt->pos = pkt->pos + (signed long int)2;
   unsigned int rtp_sequence;
-  unsigned short int return_value_hdhomerun_pkt_read_u16$1;
-  return_value_hdhomerun_pkt_read_u16$1=hdhomerun_pkt_read_u16(pkt);
-  rtp_sequence = (unsigned int)return_value_hdhomerun_pkt_read_u16$1;
+  unsigned short int return_value_hdhomerun_pkt_read_u16_1;
+  return_value_hdhomerun_pkt_read_u16_1=hdhomerun_pkt_read_u16(pkt);
+  rtp_sequence = (unsigned int)return_value_hdhomerun_pkt_read_u16_1;
   pkt->pos = pkt->pos + (signed long int)8;
   unsigned int previous_rtp_sequence = vs->rtp_sequence;
   vs->rtp_sequence = rtp_sequence;
@@ -8595,9 +8595,9 @@ static void * hdhomerun_video_thread_execute(void *arg)
     struct hdhomerun_pkt_t *pkt = &pkt_inst;
     hdhomerun_pkt_reset(pkt);
     unsigned long int length = (unsigned long int)(188 * 7 + 12);
-    signed int return_value_hdhomerun_sock_recv$1;
-    return_value_hdhomerun_sock_recv$1=hdhomerun_sock_recv(vs->sock, (void *)pkt->end, &length, (unsigned long int)25);
-    if(!(return_value_hdhomerun_sock_recv$1 == 0))
+    signed int return_value_hdhomerun_sock_recv_1;
+    return_value_hdhomerun_sock_recv_1=hdhomerun_sock_recv(vs->sock, (void *)pkt->end, &length, (unsigned long int)25);
+    if(!(return_value_hdhomerun_sock_recv_1 == 0))
     {
       pkt->end = pkt->end + (signed long int)length;
       if(length == 1328ul)
@@ -8706,139 +8706,139 @@ static signed int main_cmd(signed int argc, char **argv)
 {
   if(!(argc >= 1))
   {
-    signed int return_value_help$1;
-    return_value_help$1=help();
-    return return_value_help$1;
+    signed int return_value_help_1;
+    return_value_help_1=help();
+    return return_value_help_1;
   }
 
   char *cmd;
-  char **tmp_post$2 = argv;
+  char **tmp_post_2 = argv;
   argv = argv + 1l;
-  cmd = *tmp_post$2;
+  cmd = *tmp_post_2;
   argc = argc - 1;
-  signed int return_value_contains$5;
-  return_value_contains$5=contains(cmd, "key");
-  if(!(return_value_contains$5 == 0))
+  signed int return_value_contains_5;
+  return_value_contains_5=contains(cmd, "key");
+  if(!(return_value_contains_5 == 0))
   {
     if(!(argc >= 2))
     {
-      signed int return_value_help$3;
-      return_value_help$3=help();
-      return return_value_help$3;
+      signed int return_value_help_3;
+      return_value_help_3=help();
+      return return_value_help_3;
     }
 
     unsigned int lockkey;
-    unsigned long int return_value_strtoul$4;
-    return_value_strtoul$4=strtoul(argv[(signed long int)0], (char ** restrict )(void *)0, 0);
-    lockkey = (unsigned int)return_value_strtoul$4;
+    unsigned long int return_value_strtoul_4;
+    return_value_strtoul_4=strtoul(argv[(signed long int)0], (char ** restrict )(void *)0, 0);
+    lockkey = (unsigned int)return_value_strtoul_4;
     hdhomerun_device_tuner_lockkey_use_value(hd, lockkey);
     cmd = argv[(signed long int)1];
     argv = argv + (signed long int)2;
     argc = argc - 2;
   }
 
-  signed int return_value_contains$8;
-  return_value_contains$8=contains(cmd, "get");
-  if(!(return_value_contains$8 == 0))
+  signed int return_value_contains_8;
+  return_value_contains_8=contains(cmd, "get");
+  if(!(return_value_contains_8 == 0))
   {
     if(!(argc >= 1))
     {
-      signed int return_value_help$6;
-      return_value_help$6=help();
-      return return_value_help$6;
+      signed int return_value_help_6;
+      return_value_help_6=help();
+      return return_value_help_6;
     }
 
-    signed int return_value_cmd_get$7;
-    return_value_cmd_get$7=cmd_get(argv[(signed long int)0]);
-    return return_value_cmd_get$7;
+    signed int return_value_cmd_get_7;
+    return_value_cmd_get_7=cmd_get(argv[(signed long int)0]);
+    return return_value_cmd_get_7;
   }
 
-  signed int return_value_contains$11;
-  return_value_contains$11=contains(cmd, "set");
-  if(!(return_value_contains$11 == 0))
+  signed int return_value_contains_11;
+  return_value_contains_11=contains(cmd, "set");
+  if(!(return_value_contains_11 == 0))
   {
     if(!(argc >= 2))
     {
-      signed int return_value_help$9;
-      return_value_help$9=help();
-      return return_value_help$9;
+      signed int return_value_help_9;
+      return_value_help_9=help();
+      return return_value_help_9;
     }
 
-    signed int return_value_cmd_set$10;
-    return_value_cmd_set$10=cmd_set(argv[(signed long int)0], argv[(signed long int)1]);
-    return return_value_cmd_set$10;
+    signed int return_value_cmd_set_10;
+    return_value_cmd_set_10=cmd_set(argv[(signed long int)0], argv[(signed long int)1]);
+    return return_value_cmd_set_10;
   }
 
-  signed int return_value_contains$15;
-  return_value_contains$15=contains(cmd, "scan");
-  if(!(return_value_contains$15 == 0))
+  signed int return_value_contains_15;
+  return_value_contains_15=contains(cmd, "scan");
+  if(!(return_value_contains_15 == 0))
   {
     if(!(argc >= 1))
     {
-      signed int return_value_help$12;
-      return_value_help$12=help();
-      return return_value_help$12;
+      signed int return_value_help_12;
+      return_value_help_12=help();
+      return return_value_help_12;
     }
 
     if(!(argc >= 2))
     {
-      signed int return_value_cmd_scan$13;
-      return_value_cmd_scan$13=cmd_scan(argv[(signed long int)0], (const char *)(void *)0);
-      return return_value_cmd_scan$13;
+      signed int return_value_cmd_scan_13;
+      return_value_cmd_scan_13=cmd_scan(argv[(signed long int)0], (const char *)(void *)0);
+      return return_value_cmd_scan_13;
     }
 
     else
     {
-      signed int return_value_cmd_scan$14;
-      return_value_cmd_scan$14=cmd_scan(argv[(signed long int)0], argv[(signed long int)1]);
-      return return_value_cmd_scan$14;
+      signed int return_value_cmd_scan_14;
+      return_value_cmd_scan_14=cmd_scan(argv[(signed long int)0], argv[(signed long int)1]);
+      return return_value_cmd_scan_14;
     }
   }
 
-  signed int return_value_contains$18;
-  return_value_contains$18=contains(cmd, "save");
-  if(!(return_value_contains$18 == 0))
+  signed int return_value_contains_18;
+  return_value_contains_18=contains(cmd, "save");
+  if(!(return_value_contains_18 == 0))
   {
     if(!(argc >= 2))
     {
-      signed int return_value_help$16;
-      return_value_help$16=help();
-      return return_value_help$16;
+      signed int return_value_help_16;
+      return_value_help_16=help();
+      return return_value_help_16;
     }
 
-    signed int return_value_cmd_save$17;
-    return_value_cmd_save$17=cmd_save(argv[(signed long int)0], argv[(signed long int)1]);
-    return return_value_cmd_save$17;
+    signed int return_value_cmd_save_17;
+    return_value_cmd_save_17=cmd_save(argv[(signed long int)0], argv[(signed long int)1]);
+    return return_value_cmd_save_17;
   }
 
-  signed int return_value_contains$21;
-  return_value_contains$21=contains(cmd, "upgrade");
-  if(!(return_value_contains$21 == 0))
+  signed int return_value_contains_21;
+  return_value_contains_21=contains(cmd, "upgrade");
+  if(!(return_value_contains_21 == 0))
   {
     if(!(argc >= 1))
     {
-      signed int return_value_help$19;
-      return_value_help$19=help();
-      return return_value_help$19;
+      signed int return_value_help_19;
+      return_value_help_19=help();
+      return return_value_help_19;
     }
 
-    signed int return_value_cmd_upgrade$20;
-    return_value_cmd_upgrade$20=cmd_upgrade(argv[(signed long int)0]);
-    return return_value_cmd_upgrade$20;
+    signed int return_value_cmd_upgrade_20;
+    return_value_cmd_upgrade_20=cmd_upgrade(argv[(signed long int)0]);
+    return return_value_cmd_upgrade_20;
   }
 
-  signed int return_value_contains$23;
-  return_value_contains$23=contains(cmd, "execute");
-  if(!(return_value_contains$23 == 0))
+  signed int return_value_contains_23;
+  return_value_contains_23=contains(cmd, "execute");
+  if(!(return_value_contains_23 == 0))
   {
-    signed int return_value_cmd_execute$22;
-    return_value_cmd_execute$22=cmd_execute();
-    return return_value_cmd_execute$22;
+    signed int return_value_cmd_execute_22;
+    return_value_cmd_execute_22=cmd_execute();
+    return return_value_cmd_execute_22;
   }
 
-  signed int return_value_help$24;
-  return_value_help$24=help();
-  return return_value_help$24;
+  signed int return_value_help_24;
+  return_value_help_24=help();
+  return return_value_help_24;
 }
 
 // main_internal
@@ -8850,41 +8850,41 @@ static signed int main_internal(signed int argc, char **argv)
   argc = argc - 1;
   if(argc == 0)
   {
-    signed int return_value_help$1;
-    return_value_help$1=help();
-    return return_value_help$1;
+    signed int return_value_help_1;
+    return_value_help_1=help();
+    return return_value_help_1;
   }
 
   char *id_str;
-  char **tmp_post$2 = argv;
+  char **tmp_post_2 = argv;
   argv = argv + 1l;
-  id_str = *tmp_post$2;
+  id_str = *tmp_post_2;
   argc = argc - 1;
-  signed int return_value_contains$4;
-  return_value_contains$4=contains(id_str, "help");
-  if(!(return_value_contains$4 == 0))
+  signed int return_value_contains_4;
+  return_value_contains_4=contains(id_str, "help");
+  if(!(return_value_contains_4 == 0))
   {
-    signed int return_value_help$3;
-    return_value_help$3=help();
-    return return_value_help$3;
+    signed int return_value_help_3;
+    return_value_help_3=help();
+    return return_value_help_3;
   }
 
-  signed int return_value_contains$7;
-  return_value_contains$7=contains(id_str, "discover");
-  if(!(return_value_contains$7 == 0))
+  signed int return_value_contains_7;
+  return_value_contains_7=contains(id_str, "discover");
+  if(!(return_value_contains_7 == 0))
   {
     if(!(argc >= 1))
     {
-      signed int return_value_discover_print$5;
-      return_value_discover_print$5=discover_print((char *)(void *)0);
-      return return_value_discover_print$5;
+      signed int return_value_discover_print_5;
+      return_value_discover_print_5=discover_print((char *)(void *)0);
+      return return_value_discover_print_5;
     }
 
     else
     {
-      signed int return_value_discover_print$6;
-      return_value_discover_print$6=discover_print(argv[(signed long int)0]);
-      return return_value_discover_print$6;
+      signed int return_value_discover_print_6;
+      return_value_discover_print_6=discover_print(argv[(signed long int)0]);
+      return return_value_discover_print_6;
     }
   }
 
@@ -8899,9 +8899,9 @@ static signed int main_internal(signed int argc, char **argv)
   {
     unsigned int device_id_requested;
     device_id_requested=hdhomerun_device_get_device_id_requested(hd);
-    signed int return_value_hdhomerun_discover_validate_device_id$8;
-    return_value_hdhomerun_discover_validate_device_id$8=hdhomerun_discover_validate_device_id(device_id_requested);
-    if(return_value_hdhomerun_discover_validate_device_id$8 == 0)
+    signed int return_value_hdhomerun_discover_validate_device_id_8;
+    return_value_hdhomerun_discover_validate_device_id_8=hdhomerun_discover_validate_device_id(device_id_requested);
+    if(return_value_hdhomerun_discover_validate_device_id_8 == 0)
       fprintf(stderr, "invalid device id: %08X\n", (unsigned int)device_id_requested);
 
     const char *model;
@@ -8945,9 +8945,9 @@ extern void msleep_approx(unsigned long int ms)
 extern void msleep_minimum(unsigned long int ms)
 {
   unsigned long int stop_time;
-  unsigned long int return_value_getcurrenttime$1;
-  return_value_getcurrenttime$1=getcurrenttime();
-  stop_time = return_value_getcurrenttime$1 + ms;
+  unsigned long int return_value_getcurrenttime_1;
+  return_value_getcurrenttime_1=getcurrenttime();
+  stop_time = return_value_getcurrenttime_1 + ms;
   while((_Bool)1)
   {
     unsigned long int current_time;
@@ -8967,9 +8967,9 @@ __CPROVER_DUMP_L4:
 static unsigned int parse_ip_addr(const char *str)
 {
   unsigned int a[4l];
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(str, "%u.%u.%u.%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3]);
-  if(!(return_value_sscanf$1 == 4))
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(str, "%u.%u.%u.%u", &a[(signed long int)0], &a[(signed long int)1], &a[(signed long int)2], &a[(signed long int)3]);
+  if(!(return_value_sscanf_1 == 4))
     return (unsigned int)0;
 
   else
@@ -8983,19 +8983,19 @@ extern unsigned int random_get32(void)
   pthread_once(&random_get32_once, random_get32_init);
   if(random_get32_fp == ((struct _IO_FILE *)NULL))
   {
-    unsigned long int return_value_getcurrenttime$1;
-    return_value_getcurrenttime$1=getcurrenttime();
-    return (unsigned int)return_value_getcurrenttime$1;
+    unsigned long int return_value_getcurrenttime_1;
+    return_value_getcurrenttime_1=getcurrenttime();
+    return (unsigned int)return_value_getcurrenttime_1;
   }
 
   unsigned int Result;
-  unsigned long int return_value_fread$3;
-  return_value_fread$3=fread((void *)&Result, (unsigned long int)4, (unsigned long int)1, random_get32_fp);
-  if(!(return_value_fread$3 == 1ul))
+  unsigned long int return_value_fread_3;
+  return_value_fread_3=fread((void *)&Result, (unsigned long int)4, (unsigned long int)1, random_get32_fp);
+  if(!(return_value_fread_3 == 1ul))
   {
-    unsigned long int return_value_getcurrenttime$2;
-    return_value_getcurrenttime$2=getcurrenttime();
-    return (unsigned int)return_value_getcurrenttime$2;
+    unsigned long int return_value_getcurrenttime_2;
+    return_value_getcurrenttime_2=getcurrenttime();
+    return (unsigned int)return_value_getcurrenttime_2;
   }
 
   return Result;
@@ -9034,8 +9034,8 @@ static void siginfo_handler(signed int arg)
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 36
 static inline signed int vprintf(const char * restrict __fmt, void **__arg)
 {
-  signed int return_value_vfprintf$1;
-  return_value_vfprintf$1=vfprintf(stdout, __fmt, __arg);
-  return return_value_vfprintf$1;
+  signed int return_value_vfprintf_1;
+  return_value_vfprintf_1=vfprintf(stdout, __fmt, __arg);
+  return return_value_vfprintf_1;
 }
 

@@ -1,118 +1,118 @@
-// #anon_enum$G_CONNECT_AFTER=1$G_CONNECT_SWAPPED=2
+// #anon_enum_G_CONNECT_AFTER=1_G_CONNECT_SWAPPED=2
 // file /usr/include/glib-2.0/gobject/gsignal.h line 155
-enum anonymous$5 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
+enum anonymous_5 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
 
-// #anon_enum$G_FILE_MONITOR_EVENT_CHANGED=0$G_FILE_MONITOR_EVENT_CHANGES_DONE_HINT=1$G_FILE_MONITOR_EVENT_DELETED=2$G_FILE_MONITOR_EVENT_CREATED=3$G_FILE_MONITOR_EVENT_ATTRIBUTE_CHANGED=4$G_FILE_MONITOR_EVENT_PRE_UNMOUNT=5$G_FILE_MONITOR_EVENT_UNMOUNTED=6$G_FILE_MONITOR_EVENT_MOVED=7$G_FILE_MONITOR_EVENT_RENAMED=8$G_FILE_MONITOR_EVENT_MOVED_IN=9$G_FILE_MONITOR_EVENT_MOVED_OUT=10
+// #anon_enum_G_FILE_MONITOR_EVENT_CHANGED=0_G_FILE_MONITOR_EVENT_CHANGES_DONE_HINT=1_G_FILE_MONITOR_EVENT_DELETED=2_G_FILE_MONITOR_EVENT_CREATED=3_G_FILE_MONITOR_EVENT_ATTRIBUTE_CHANGED=4_G_FILE_MONITOR_EVENT_PRE_UNMOUNT=5_G_FILE_MONITOR_EVENT_UNMOUNTED=6_G_FILE_MONITOR_EVENT_MOVED=7_G_FILE_MONITOR_EVENT_RENAMED=8_G_FILE_MONITOR_EVENT_MOVED_IN=9_G_FILE_MONITOR_EVENT_MOVED_OUT=10
 // file /usr/include/glib-2.0/gio/gioenums.h line 416
-enum anonymous$8 { G_FILE_MONITOR_EVENT_CHANGED=0, G_FILE_MONITOR_EVENT_CHANGES_DONE_HINT=1, G_FILE_MONITOR_EVENT_DELETED=2, G_FILE_MONITOR_EVENT_CREATED=3, G_FILE_MONITOR_EVENT_ATTRIBUTE_CHANGED=4, G_FILE_MONITOR_EVENT_PRE_UNMOUNT=5, G_FILE_MONITOR_EVENT_UNMOUNTED=6, G_FILE_MONITOR_EVENT_MOVED=7, G_FILE_MONITOR_EVENT_RENAMED=8, G_FILE_MONITOR_EVENT_MOVED_IN=9, G_FILE_MONITOR_EVENT_MOVED_OUT=10 };
+enum anonymous_8 { G_FILE_MONITOR_EVENT_CHANGED=0, G_FILE_MONITOR_EVENT_CHANGES_DONE_HINT=1, G_FILE_MONITOR_EVENT_DELETED=2, G_FILE_MONITOR_EVENT_CREATED=3, G_FILE_MONITOR_EVENT_ATTRIBUTE_CHANGED=4, G_FILE_MONITOR_EVENT_PRE_UNMOUNT=5, G_FILE_MONITOR_EVENT_UNMOUNTED=6, G_FILE_MONITOR_EVENT_MOVED=7, G_FILE_MONITOR_EVENT_RENAMED=8, G_FILE_MONITOR_EVENT_MOVED_IN=9, G_FILE_MONITOR_EVENT_MOVED_OUT=10 };
 
-// #anon_enum$G_FILE_MONITOR_NONE=0$G_FILE_MONITOR_WATCH_MOUNTS=1$G_FILE_MONITOR_SEND_MOVED=2$G_FILE_MONITOR_WATCH_HARD_LINKS=4$G_FILE_MONITOR_WATCH_MOVES=8
+// #anon_enum_G_FILE_MONITOR_NONE=0_G_FILE_MONITOR_WATCH_MOUNTS=1_G_FILE_MONITOR_SEND_MOVED=2_G_FILE_MONITOR_WATCH_HARD_LINKS=4_G_FILE_MONITOR_WATCH_MOVES=8
 // file /usr/include/glib-2.0/gio/gioenums.h line 342
-enum anonymous$9 { G_FILE_MONITOR_NONE=0, G_FILE_MONITOR_WATCH_MOUNTS=1, G_FILE_MONITOR_SEND_MOVED=2, G_FILE_MONITOR_WATCH_HARD_LINKS=4, G_FILE_MONITOR_WATCH_MOVES=8 };
+enum anonymous_9 { G_FILE_MONITOR_NONE=0, G_FILE_MONITOR_WATCH_MOUNTS=1, G_FILE_MONITOR_SEND_MOVED=2, G_FILE_MONITOR_WATCH_HARD_LINKS=4, G_FILE_MONITOR_WATCH_MOVES=8 };
 
-// #anon_enum$G_FILE_QUERY_INFO_NONE=0$G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS=1
+// #anon_enum_G_FILE_QUERY_INFO_NONE=0_G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS=1
 // file /usr/include/glib-2.0/gio/gioenums.h line 184
-enum anonymous$7 { G_FILE_QUERY_INFO_NONE=0, G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS=1 };
+enum anonymous_7 { G_FILE_QUERY_INFO_NONE=0, G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS=1 };
 
-// #anon_enum$G_FILE_TYPE_UNKNOWN=0$G_FILE_TYPE_REGULAR=1$G_FILE_TYPE_DIRECTORY=2$G_FILE_TYPE_SYMBOLIC_LINK=3$G_FILE_TYPE_SPECIAL=4$G_FILE_TYPE_SHORTCUT=5$G_FILE_TYPE_MOUNTABLE=6
+// #anon_enum_G_FILE_TYPE_UNKNOWN=0_G_FILE_TYPE_REGULAR=1_G_FILE_TYPE_DIRECTORY=2_G_FILE_TYPE_SYMBOLIC_LINK=3_G_FILE_TYPE_SPECIAL=4_G_FILE_TYPE_SHORTCUT=5_G_FILE_TYPE_MOUNTABLE=6
 // file /usr/include/glib-2.0/gio/gioenums.h line 365
-enum anonymous$6 { G_FILE_TYPE_UNKNOWN=0, G_FILE_TYPE_REGULAR=1, G_FILE_TYPE_DIRECTORY=2, G_FILE_TYPE_SYMBOLIC_LINK=3, G_FILE_TYPE_SPECIAL=4, G_FILE_TYPE_SHORTCUT=5, G_FILE_TYPE_MOUNTABLE=6 };
+enum anonymous_6 { G_FILE_TYPE_UNKNOWN=0, G_FILE_TYPE_REGULAR=1, G_FILE_TYPE_DIRECTORY=2, G_FILE_TYPE_SYMBOLIC_LINK=3, G_FILE_TYPE_SPECIAL=4, G_FILE_TYPE_SHORTCUT=5, G_FILE_TYPE_MOUNTABLE=6 };
 
-// #anon_enum$G_KEY_FILE_NONE=0$G_KEY_FILE_KEEP_COMMENTS=1$G_KEY_FILE_KEEP_TRANSLATIONS=2
+// #anon_enum_G_KEY_FILE_NONE=0_G_KEY_FILE_KEEP_COMMENTS=1_G_KEY_FILE_KEEP_TRANSLATIONS=2
 // file /usr/include/glib-2.0/glib/gkeyfile.h line 50
-enum anonymous$28 { G_KEY_FILE_NONE=0, G_KEY_FILE_KEEP_COMMENTS=1, G_KEY_FILE_KEEP_TRANSLATIONS=2 };
+enum anonymous_28 { G_KEY_FILE_NONE=0, G_KEY_FILE_KEEP_COMMENTS=1, G_KEY_FILE_KEEP_TRANSLATIONS=2 };
 
-// tag-#anon#ST[*{SYM#tag-_ftsent#}$SYM#tag-_ftsent#$'fts_cur'||*{SYM#tag-_ftsent#}$SYM#tag-_ftsent#$'fts_child'||*{*{SYM#tag-_ftsent#}$SYM#tag-_ftsent#$}$*{SYM#tag-_ftsent#}$SYM#tag-_ftsent#$$'fts_array'||U64'fts_dev'||*{S8}$S8$'fts_path'||S32'fts_rfd'||S32'fts_pathlen'||S32'fts_nitems'||U32'$pad0'||*{S32(*{cV}$cV$|*{cV}$cV$)->S32}$S32(*{cV}$cV$|*{cV}$cV$)->S32$'fts_compar'||S32'fts_options'||U32'$pad1'|]
+// tag-#anon#ST[*{SYM#tag-_ftsent#}_SYM#tag-_ftsent#_'fts_cur'||*{SYM#tag-_ftsent#}_SYM#tag-_ftsent#_'fts_child'||*{*{SYM#tag-_ftsent#}_SYM#tag-_ftsent#_}_*{SYM#tag-_ftsent#}_SYM#tag-_ftsent#__'fts_array'||U64'fts_dev'||*{S8}_S8_'fts_path'||S32'fts_rfd'||S32'fts_pathlen'||S32'fts_nitems'||U32'_pad0'||*{S32(*{cV}_cV_|*{cV}_cV_)->S32}_S32(*{cV}_cV_|*{cV}_cV_)->S32_'fts_compar'||S32'fts_options'||U32'_pad1'|]
 // file /usr/include/fts.h line 45
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/regex.h line 452
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$22;
+struct anonymous_22;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$27;
+struct anonymous_27;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#UN[*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'ht_dst'||*{SYM#tag-_GTree#}$SYM#tag-_GTree#$'bt_dst'|]
+// tag-#anon#UN[*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'ht_dst'||*{SYM#tag-_GTree#}_SYM#tag-_GTree#_'bt_dst'|]
 // file glibex.c line 25
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$26;
+union anonymous_26;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}$V$'v_pointer'|]
+// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}_V_'v_pointer'|]
 // file /usr/include/glib-2.0/gobject/gvalue.h line 112
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$17;
+union anonymous_17;
 
 // tag-_GCancellable
 // file /usr/include/glib-2.0/gio/giotypes.h line 38
@@ -577,21 +577,21 @@ static inline signed int _exitcode_process(struct ctx *ctx_p, signed int exitcod
 // _info
 // file error.c line 256
 extern void _info(const char * const function_name, const char *fmt, ...);
-// _privileged_fork_execvp$object
+// _privileged_fork_execvp_object
 //
-signed int _privileged_fork_execvp$object(const char *, char * const *);
-// _privileged_kill_child$object
+signed int _privileged_fork_execvp_object(const char *, char * const *);
+// _privileged_kill_child_object
 //
-signed int _privileged_kill_child$object(signed int, signed int, char);
+signed int _privileged_kill_child_object(signed int, signed int, char);
 // _socket_send
 // file socket.c line 272
 signed int _socket_send(struct clsyncsock *clsyncsock, unsigned long int *cmd_num_p, enum sockcmd_id cmd_id, void **ap);
 // _str_splitargs
 // file stringex.c line 27
 static signed int _str_splitargs(char *ptr, char **arg_start_p, signed int quotes, signed int (*handler)(char *, unsigned long int, void *), char *additional_arg);
-// _str_splitargs::handler$object
+// _str_splitargs::handler_object
 //
-signed int handler$object(char *, unsigned long int, void *);
+signed int handler_object(char *, unsigned long int, void *);
 // _sync_idle_dosync_collectedevents
 // file sync.c line 2262
 void _sync_idle_dosync_collectedevents(void *fpath_gp, void *evinfo_gp, void *arg_gp);
@@ -612,7 +612,7 @@ static inline signed int _thread_info_unlock(const char * const function_name, s
 extern void _warning(const char * const function_name, const char *fmt, ...);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$17, unsigned int *);
+extern signed int accept(signed int, union anonymous_17, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -651,7 +651,7 @@ extern char ** backtrace_symbols(void * const *, signed int);
 signed int becomedaemon();
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$17, unsigned int);
+extern signed int bind(signed int, union anonymous_17, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -720,7 +720,7 @@ void ctx_cleanup(struct ctx *ctx_p);
 signed int ctx_set(struct ctx *ctx_p, const char * const parameter_name, const char * const parameter_value);
 // dir_gotevent
 // file mon_gio.c line 103
-static void dir_gotevent(struct _GFileMonitor *filemon, struct _GFile *file, struct _GFile *file_other, enum anonymous$8 event, void *arg);
+static void dir_gotevent(struct _GFileMonitor *filemon, struct _GFile *file, struct _GFile *file_other, enum anonymous_8 event, void *arg);
 // dlclose
 // file /usr/include/dlfcn.h line 60
 extern signed int dlclose(void *);
@@ -759,7 +759,7 @@ static inline void event_free(struct event *ev);
 static inline struct event * event_pop();
 // event_push
 // file mon_gio.c line 64
-static inline signed int event_push(char *path, unsigned long int handle_id, enum anonymous$8 event, enum eventobjtype objtype_event, enum eventobjtype objtype_old, enum eventobjtype objtype_new);
+static inline signed int event_push(char *path, unsigned long int handle_id, enum anonymous_8 event, enum eventobjtype objtype_event, enum eventobjtype objtype_old, enum eventobjtype objtype_new);
 // evinfo_initialevmask
 // file sync.c line 1209
 static inline void evinfo_initialevmask(struct ctx *ctx_p, struct eventinfo *evinfo_p, signed int isdir);
@@ -843,16 +843,16 @@ void free_filemondat(void *_fmdat);
 extern signed int ftruncate(signed int, signed long int);
 // fts_close
 // file /usr/include/fts.h line 124
-signed int fts_close(struct anonymous$16 *);
+signed int fts_close(struct anonymous_16 *);
 // fts_open
 // file /usr/include/fts.h line 125
-struct anonymous$16 * fts_open(char * const *, signed int, signed int (*)(const struct _ftsent **, const struct _ftsent **));
+struct anonymous_16 * fts_open(char * const *, signed int, signed int (*)(const struct _ftsent **, const struct _ftsent **));
 // fts_read
 // file /usr/include/fts.h line 127
-struct _ftsent * fts_read(struct anonymous$16 *);
+struct _ftsent * fts_read(struct anonymous_16 *);
 // fts_set
 // file /usr/include/fts.h line 128
-signed int fts_set(struct anonymous$16 *, struct _ftsent *, signed int);
+signed int fts_set(struct anonymous_16 *, struct _ftsent *, signed int);
 // fwrite
 // file /usr/include/stdio.h line 715
 extern unsigned long int fwrite(const void *, unsigned long int, unsigned long int, struct _IO_FILE *);
@@ -867,13 +867,13 @@ extern unsigned int g_direct_hash(const void *);
 extern char * g_file_get_path(struct _GFile *);
 // g_file_monitor_directory
 // file /usr/include/glib-2.0/gio/gfile.h line 1098
-extern struct _GFileMonitor * g_file_monitor_directory(struct _GFile *, enum anonymous$9, struct _GCancellable *, struct _GError **);
+extern struct _GFileMonitor * g_file_monitor_directory(struct _GFile *, enum anonymous_9, struct _GCancellable *, struct _GError **);
 // g_file_new_for_path
 // file /usr/include/glib-2.0/gio/gfile.h line 595
 extern struct _GFile * g_file_new_for_path(const char *);
 // g_file_query_file_type
 // file /usr/include/glib-2.0/gio/gfile.h line 772
-extern enum anonymous$6 g_file_query_file_type(struct _GFile *, enum anonymous$7, struct _GCancellable *);
+extern enum anonymous_6 g_file_query_file_type(struct _GFile *, enum anonymous_7, struct _GCancellable *);
 // g_free
 // file /usr/include/glib-2.0/glib/gmem.h line 71
 extern void g_free(void *);
@@ -883,33 +883,33 @@ extern void g_hash_table_destroy(struct _GHashTable *);
 // g_hash_table_dup
 // file glibex.c line 43
 extern struct _GHashTable * g_hash_table_dup(struct _GHashTable *src, unsigned int (*hash_funct)(const void *), signed int (*key_equal_funct)(const void *, const void *), void (*key_destroy_funct)(void *), void (*value_destroy_funct)(void *), void * (*key_dup_funct)(void *), void * (*value_dup_funct)(void *));
-// g_hash_table_dup::hash_funct$object
+// g_hash_table_dup::hash_funct_object
 //
-unsigned int hash_funct$object(const void *);
-// g_hash_table_dup::key_destroy_funct$object
+unsigned int hash_funct_object(const void *);
+// g_hash_table_dup::key_destroy_funct_object
 //
-void key_destroy_funct$object(void *);
-// g_hash_table_dup::key_dup_funct$object
+void key_destroy_funct_object(void *);
+// g_hash_table_dup::key_dup_funct_object
 //
-void * key_dup_funct$object(void *);
-// g_hash_table_dup::key_equal_funct$object
+void * key_dup_funct_object(void *);
+// g_hash_table_dup::key_equal_funct_object
 //
-signed int key_equal_funct$object(const void *, const void *);
-// g_hash_table_dup::value_destroy_funct$object
+signed int key_equal_funct_object(const void *, const void *);
+// g_hash_table_dup::value_destroy_funct_object
 //
-void value_destroy_funct$object(void *);
-// g_hash_table_dup::value_dup_funct$object
+void value_destroy_funct_object(void *);
+// g_hash_table_dup::value_dup_funct_object
 //
-void * value_dup_funct$object(void *);
+void * value_dup_funct_object(void *);
 // g_hash_table_dup_item
 // file glibex.c line 33
 void g_hash_table_dup_item(void *k, void *v, void *arg_gp);
-// g_hash_table_dup_item::1::k_dup_funct$object
+// g_hash_table_dup_item::1::k_dup_funct_object
 //
-void * k_dup_funct$object(void *);
-// g_hash_table_dup_item::1::v_dup_funct$object
+void * k_dup_funct_object(void *);
+// g_hash_table_dup_item::1::v_dup_funct_object
 //
-void * v_dup_funct$object(void *);
+void * v_dup_funct_object(void *);
 // g_hash_table_foreach
 // file /usr/include/glib-2.0/glib/ghash.h line 99
 extern void g_hash_table_foreach(struct _GHashTable *, void (*)(void *, void *, void *), void *);
@@ -948,7 +948,7 @@ extern void g_key_file_free(struct _GKeyFile *);
 extern char * g_key_file_get_value(struct _GKeyFile *, const char *, const char *, struct _GError **);
 // g_key_file_load_from_file
 // file /usr/include/glib-2.0/glib/gkeyfile.h line 69
-extern signed int g_key_file_load_from_file(struct _GKeyFile *, const char *, enum anonymous$28, struct _GError **);
+extern signed int g_key_file_load_from_file(struct _GKeyFile *, const char *, enum anonymous_28, struct _GError **);
 // g_key_file_new
 // file /usr/include/glib-2.0/glib/gkeyfile.h line 58
 extern struct _GKeyFile * g_key_file_new(void);
@@ -963,7 +963,7 @@ extern void g_main_context_wakeup(struct _GMainContext *);
 extern struct _GMainLoop * g_main_loop_new(struct _GMainContext *, signed int);
 // g_signal_connect_data
 // file /usr/include/glib-2.0/gobject/gsignal.h line 388
-extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous$5);
+extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous_5);
 // g_signal_handler_disconnect
 // file /usr/include/glib-2.0/gobject/gsignal.h line 401
 extern void g_signal_handler_disconnect(void *, unsigned long int);
@@ -976,30 +976,30 @@ extern unsigned int g_str_hash(const void *);
 // g_tree_dup
 // file glibex.c line 66
 extern struct _GTree * g_tree_dup(struct _GTree *src, signed int (*key_compare_func)(const void *, const void *, void *), void *key_compare_data, void (*key_destroy_func)(void *), void (*value_destroy_func)(void *), void * (*key_dup_funct)(void *), void * (*value_dup_funct)(void *));
-// g_tree_dup::key_compare_func$object
+// g_tree_dup::key_compare_func_object
 //
-signed int key_compare_func$object(const void *, const void *, void *);
-// g_tree_dup::key_destroy_func$object
+signed int key_compare_func_object(const void *, const void *, void *);
+// g_tree_dup::key_destroy_func_object
 //
-void key_destroy_func$object(void *);
-// g_tree_dup::key_dup_funct$object
+void key_destroy_func_object(void *);
+// g_tree_dup::key_dup_funct_object
 //
-void * key_dup_funct$object(void *);
-// g_tree_dup::value_destroy_func$object
+void * key_dup_funct_object(void *);
+// g_tree_dup::value_destroy_func_object
 //
-void value_destroy_func$object(void *);
-// g_tree_dup::value_dup_funct$object
+void value_destroy_func_object(void *);
+// g_tree_dup::value_dup_funct_object
 //
-void * value_dup_funct$object(void *);
+void * value_dup_funct_object(void *);
 // g_tree_dup_item
 // file glibex.c line 56
 signed int g_tree_dup_item(void *k, void *v, void *arg_gp);
-// g_tree_dup_item::1::k_dup_funct$object
+// g_tree_dup_item::1::k_dup_funct_object
 //
-void * k_dup_funct$object(void *);
-// g_tree_dup_item::1::v_dup_funct$object
+void * k_dup_funct_object(void *);
+// g_tree_dup_item::1::v_dup_funct_object
 //
-void * v_dup_funct$object(void *);
+void * v_dup_funct_object(void *);
 // g_tree_foreach
 // file /usr/include/glib-2.0/glib/gtree.h line 83
 extern void g_tree_foreach(struct _GTree *, signed int (*)(void *, void *, void *), void *);
@@ -1207,9 +1207,9 @@ extern void openlog(const char *, signed int, signed int);
 // parameter_expand
 // file main.c line 642
 char * parameter_expand(struct ctx *ctx_p, char *arg, signed int exceptionflags, signed int *macro_count_p, signed int *expand_count_p, const char * (*parameter_get)(const char *, void *), void *parameter_get_arg);
-// parameter_expand::parameter_get$object
+// parameter_expand::parameter_get_object
 //
-const char * parameter_get$object(const char *, void *);
+const char * parameter_get_object(const char *, void *);
 // parameter_get
 // file main.c line 559
 const char * parameter_get(const char *variable_name, void *_ctx_p);
@@ -1251,31 +1251,31 @@ extern signed int privileged_deinit(struct ctx *ctx_p);
 extern signed int privileged_init(struct ctx *ctx_p);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$1 *);
+extern signed int pthread_cond_broadcast(union anonymous_1 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$1 *);
+extern signed int pthread_cond_destroy(union anonymous_1 *);
 // pthread_cond_destroy_shared
 // file pthreadex.c line 54
-extern signed int pthread_cond_destroy_shared(union anonymous$1 *cond_p);
+extern signed int pthread_cond_destroy_shared(union anonymous_1 *cond_p);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$1 *, const union anonymous$0 *);
+extern signed int pthread_cond_init(union anonymous_1 *, const union anonymous_0 *);
 // pthread_cond_init_shared
 // file pthreadex.c line 43
-extern signed int pthread_cond_init_shared(union anonymous$1 **cond_p);
+extern signed int pthread_cond_init_shared(union anonymous_1 **cond_p);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$1 *, union anonymous *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_1 *, union anonymous *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$1 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_1 *, union anonymous *);
 // pthread_condattr_init
 // file /usr/include/pthread.h line 1010
-extern signed int pthread_condattr_init(union anonymous$0 *);
+extern signed int pthread_condattr_init(union anonymous_0 *);
 // pthread_condattr_setpshared
 // file /usr/include/pthread.h line 1024
-extern signed int pthread_condattr_setpshared(union anonymous$0 *, signed int);
+extern signed int pthread_condattr_setpshared(union anonymous_0 *, signed int);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1293,7 +1293,7 @@ extern signed int pthread_mutex_destroy(union anonymous *);
 extern signed int pthread_mutex_destroy_shared(union anonymous *mutex_p);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_init_shared
 // file pthreadex.h line 22
 extern signed int pthread_mutex_init_shared(union anonymous **mutex_p);
@@ -1314,16 +1314,16 @@ extern signed int pthread_mutex_trylock(union anonymous *);
 extern signed int pthread_mutex_unlock(union anonymous *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$0 *);
+extern signed int pthread_mutexattr_init(union anonymous_0 *);
 // pthread_mutexattr_setpshared
 // file /usr/include/pthread.h line 822
-extern signed int pthread_mutexattr_setpshared(union anonymous$0 *, signed int);
+extern signed int pthread_mutexattr_setpshared(union anonymous_0 *, signed int);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$15 *, struct anonymous$15 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_15 *, struct anonymous_15 *);
 // pthread_spin_init
 // file /usr/include/pthread.h line 1046
 extern signed int pthread_spin_init(volatile signed int *, signed int);
@@ -1365,7 +1365,7 @@ extern signed int regcomp(struct re_pattern_buffer *, const char *, signed int);
 extern unsigned long int regerror(signed int, const struct re_pattern_buffer *, char *, unsigned long int);
 // regexec
 // file /usr/include/regex.h line 566
-extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous$10 *, signed int);
+extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous_10 *, signed int);
 // regfree
 // file /usr/include/regex.h line 574
 extern void regfree(struct re_pattern_buffer *);
@@ -1401,7 +1401,7 @@ extern enum ruleaction_enum rules_getperm(const char *fpath, unsigned int st_mod
 extern enum ruleaction_enum rules_search_getperm(const char *fpath, unsigned int st_mode, struct rule *rules_p, const enum ruleaction_enum ruleaction, struct rule **rule_pp);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$3 *, struct anonymous$3 *, struct anonymous$3 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_3 *, struct anonymous_3 *, struct anonymous_3 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -1426,9 +1426,9 @@ extern signed int setgid(unsigned int);
 // sethandler_sigchld
 // file main.c line 440
 signed int sethandler_sigchld(void (*handler)());
-// sethandler_sigchld::handler$object
+// sethandler_sigchld::handler_object
 //
-void handler$object();
+void handler_object();
 // setmntent
 // file /usr/include/mntent.h line 66
 extern struct _IO_FILE * setmntent(const char *, const char *);
@@ -1467,22 +1467,22 @@ extern signed int shmget(signed int, unsigned long int, signed int);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$15 *, signed int);
+extern signed int sigaddset(struct anonymous_15 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$15 *);
+extern signed int sigemptyset(struct anonymous_15 *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$15 *);
+extern signed int sigfillset(struct anonymous_15 *);
 // sigismember
 // file /usr/include/signal.h line 227
-extern signed int sigismember(const struct anonymous$15 *, signed int);
+extern signed int sigismember(const struct anonymous_15 *, signed int);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
 // sigwait
 // file /usr/include/signal.h line 270
-extern signed int sigwait(const struct anonymous$15 *, signed int *);
+extern signed int sigwait(const struct anonymous_15 *, signed int *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1546,9 +1546,9 @@ static inline signed int socket_overflow_fix(char *buf, char **data_start_p, cha
 // socket_procclsyncsock
 // file socket.c line 616
 extern signed int socket_procclsyncsock(struct socket_sockthreaddata *arg);
-// socket_procclsyncsock::1::procfunct$object
+// socket_procclsyncsock::1::procfunct_object
 //
-signed int procfunct$object(struct socket_sockthreaddata *, struct sockcmd *);
+signed int procfunct_object(struct socket_sockthreaddata *, struct sockcmd *);
 // socket_recv
 // file socket.c line 485
 extern signed int socket_recv(struct clsyncsock *clsyncsock, struct sockcmd *sockcmd_p);
@@ -1561,9 +1561,9 @@ extern signed int socket_send(struct clsyncsock *clsyncsock_p, enum sockcmd_id c
 // socket_send_cb
 // file socket.c line 349
 extern signed int socket_send_cb(struct clsyncsock *clsyncsock_p, enum sockcmd_id cmd_id, signed int (*cb)(struct socket_sockthreaddata *, struct sockcmd *, void *), void *cb_arg, ...);
-// socket_send_cb::cb$object
+// socket_send_cb::cb_object
 //
-signed int cb$object(struct socket_sockthreaddata *, struct sockcmd *, void *);
+signed int cb_object(struct socket_sockthreaddata *, struct sockcmd *, void *);
 // socket_sendinvalid
 // file socket.c line 609
 extern signed int socket_sendinvalid(struct clsyncsock *clsyncsock_p, struct sockcmd *sockcmd_p);
@@ -1597,9 +1597,9 @@ unsigned int stat_diff(struct stat64 *a, struct stat64 *b);
 // str_splitargs
 // file stringex.c line 72
 signed int str_splitargs(char *_instr, signed int (*handler)(char *, unsigned long int, void *), void *arg);
-// str_splitargs::handler$object
+// str_splitargs::handler_object
 //
-signed int handler$object(char *, unsigned long int, void *);
+signed int handler_object(char *, unsigned long int, void *);
 // strchr
 // file /usr/include/string.h line 235
 extern char * strchr(const char *, signed int);
@@ -1654,15 +1654,15 @@ signed int sync_dump_thread(struct threadinfo *threadinfo_p, void *_arg);
 // sync_exec_argv
 // file sync.c line 1011
 signed int sync_exec_argv(struct ctx *ctx_p, struct indexes *indexes_p, signed int (*callback)(struct ctx *, struct thread_callbackfunct_arg *), struct thread_callbackfunct_arg *callback_arg_p, char **argv);
-// sync_exec_argv::callback$object
+// sync_exec_argv::callback_object
 //
-signed int callback$object(struct ctx *, struct thread_callbackfunct_arg *);
+signed int callback_object(struct ctx *, struct thread_callbackfunct_arg *);
 // sync_exec_argv_thread
 // file sync.c line 1128
 static inline signed int sync_exec_argv_thread(struct ctx *ctx_p, struct indexes *indexes_p, signed int (*callback)(struct ctx *, struct thread_callbackfunct_arg *), struct thread_callbackfunct_arg *callback_arg_p, char **argv);
-// sync_exec_argv_thread::callback$object
+// sync_exec_argv_thread::callback_object
 //
-signed int callback$object(struct ctx *, struct thread_callbackfunct_arg *);
+signed int callback_object(struct ctx *, struct thread_callbackfunct_arg *);
 // sync_idle
 // file sync.c line 3011
 signed int sync_idle(struct ctx *ctx_p, struct indexes *indexes_p);
@@ -1813,9 +1813,9 @@ extern signed long int thread_nextexpiretime();
 // threads_foreach
 // file sync.c line 221
 extern signed int threads_foreach(signed int (*funct)(struct threadinfo *, void *), enum state_enum state, void *arg);
-// threads_foreach::funct$object
+// threads_foreach::funct_object
 //
-signed int funct$object(struct threadinfo *, void *);
+signed int funct_object(struct threadinfo *, void *);
 // time
 // file /usr/include/time.h line 192
 extern signed long int time(signed long int *);
@@ -1868,7 +1868,7 @@ extern void * xrealloc(void *oldptr, unsigned long int size);
 // file main.c line 819
 static inline signed long int xstrtol(const char *str, signed int *err);
 
-struct anonymous$16
+struct anonymous_16
 {
   // fts_cur
   struct _ftsent *fts_cur;
@@ -1892,7 +1892,7 @@ struct anonymous$16
   signed int fts_options;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // _call_addr
   void *_call_addr;
@@ -1902,7 +1902,7 @@ struct anonymous$25
   unsigned int _arch;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // si_addr
   void *si_addr;
@@ -1910,19 +1910,19 @@ struct anonymous$23
   signed short int si_addr_lsb;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -1942,7 +1942,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // rm_so
   signed int rm_so;
@@ -1950,7 +1950,7 @@ struct anonymous$10
   signed int rm_eo;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_pid
   signed int si_pid;
@@ -1958,7 +1958,7 @@ struct anonymous$19
   unsigned int si_uid;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // si_pid
   signed int si_pid;
@@ -1980,7 +1980,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // si_pid
   signed int si_pid;
@@ -1990,7 +1990,7 @@ struct anonymous$21
   union sigval si_sigval;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // si_tid
   signed int si_tid;
@@ -2000,7 +2000,7 @@ struct anonymous$20
   union sigval si_sigval;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // si_band
   signed long int si_band;
@@ -2008,27 +2008,27 @@ struct anonymous$24
   signed int si_fd;
 };
 
-union anonymous$26
+union anonymous_26
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$19 _kill;
+  struct anonymous_19 _kill;
   // _timer
-  struct anonymous$20 _timer;
+  struct anonymous_20 _timer;
   // _rt
-  struct anonymous$21 _rt;
+  struct anonymous_21 _rt;
   // _sigchld
-  struct anonymous$22 _sigchld;
+  struct anonymous_22 _sigchld;
   // _sigfault
-  struct anonymous$23 _sigfault;
+  struct anonymous_23 _sigfault;
   // _sigpoll
-  struct anonymous$24 _sigpoll;
+  struct anonymous_24 _sigpoll;
   // _sigsys
-  struct anonymous$25 _sigsys;
+  struct anonymous_25 _sigsys;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // si_signo
   signed int si_signo;
@@ -2037,10 +2037,10 @@ struct anonymous$27
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$26 _sifields;
+  union anonymous_26 _sifields;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // ht_dst
   struct _GHashTable *ht_dst;
@@ -2048,15 +2048,15 @@ union anonymous$11
   struct _GTree *bt_dst;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$27 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_27 *, void *);
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2066,7 +2066,7 @@ union anonymous$12
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -2074,7 +2074,7 @@ union anonymous$0
   signed int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // v_int
   signed int v_int;
@@ -2096,10 +2096,10 @@ union anonymous$4
   void *v_pointer;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -2144,7 +2144,7 @@ union anonymous
   signed long int __align;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2174,7 +2174,7 @@ union anonymous$14
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$17
+union anonymous_17
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2295,7 +2295,7 @@ struct _GValue
   // g_type
   unsigned long int g_type;
   // data
-  union anonymous$4 data[2l];
+  union anonymous_4 data[2l];
 };
 
 struct _IO_FILE
@@ -2667,7 +2667,7 @@ struct ctx
   // synctimeout
   unsigned int synctimeout;
   // sigset
-  struct anonymous$15 *sigset;
+  struct anonymous_15 *sigset;
   // isignoredexitcode
   char isignoredexitcode[256l];
   // blockthread
@@ -2731,7 +2731,7 @@ struct event
   // handle_id
   unsigned long int handle_id;
   // event_id
-  enum anonymous$8 event_id;
+  enum anonymous_8 event_id;
   // objtype_event
   enum eventobjtype objtype_event;
   // objtype_old
@@ -2835,7 +2835,7 @@ struct group
 struct in6_addr
 {
   // __in6_u
-  union anonymous$12 __in6_u;
+  union anonymous_12 __in6_u;
 };
 
 struct in_addr
@@ -2908,8 +2908,8 @@ struct ipc_perm
 
 struct keyvalue_copy_arg
 {
-  // $anon0
-  union anonymous$11 $anon0;
+  // _anon0
+  union anonymous_11 _anon0;
   // k_dup_funct
   void * (*k_dup_funct)(void *);
   // v_dup_funct
@@ -3005,9 +3005,9 @@ struct shmid_ds
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$18 __sigaction_handler;
+  union anonymous_18 __sigaction_handler;
   // sa_mask
-  struct anonymous$15 sa_mask;
+  struct anonymous_15 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -3023,7 +3023,7 @@ struct sighandler_arg
   // exitcode_p
   signed int *exitcode_p;
   // sigset_p
-  struct anonymous$15 *sigset_p;
+  struct anonymous_15 *sigset_p;
 };
 
 struct sockaddr
@@ -3271,7 +3271,7 @@ struct threadsinfo
   // mutex
   union anonymous mutex[3l];
   // cond
-  union anonymous$1 cond[3l];
+  union anonymous_1 cond[3l];
   // mutex_init
   char mutex_init;
   // allocated
@@ -3382,7 +3382,7 @@ static void * (*flushfunct[3l])(signed int);
 static void * (*flushfunct[3l])(signed int) = { (void * (*)(signed int))flush_stderr, (void * (*)(signed int))flush_stdout, (void * (*)(signed int))syslog_flush };
 // gio_cond_gotevent
 // file mon_gio.c line 54
-union anonymous$1 gio_cond_gotevent = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_1 gio_cond_gotevent = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -3698,8 +3698,8 @@ signed int __privileged_fork_execvp(const char *file, char * const *argv)
   _debug(4, "__privileged_fork_execvp", "");
   signed int pid;
   pid=fork();
-  signed int return_value_setgid$1;
-  signed int return_value_setuid$2;
+  signed int return_value_setgid_1;
+  signed int return_value_setuid_2;
   if(!(pid == -1))
   {
     if(pid == 0)
@@ -3714,17 +3714,17 @@ signed int __privileged_fork_execvp(const char *file, char * const *argv)
 
   __CPROVER_DUMP_L3:
     ;
-    return_value_setgid$1=setgid(__privileged_fork_execvp_gid);
-    _debug(4, "__privileged_fork_execvp", "setgid(%u) == %i", __privileged_fork_execvp_gid, return_value_setgid$1);
-    return_value_setuid$2=setuid(__privileged_fork_execvp_uid);
-    _debug(4, "__privileged_fork_execvp", "setuid(%u) == %i", __privileged_fork_execvp_uid, return_value_setuid$2);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 0;
+    return_value_setgid_1=setgid(__privileged_fork_execvp_gid);
+    _debug(4, "__privileged_fork_execvp", "setgid(%u) == %i", __privileged_fork_execvp_gid, return_value_setgid_1);
+    return_value_setuid_2=setuid(__privileged_fork_execvp_uid);
+    _debug(4, "__privileged_fork_execvp", "setuid(%u) == %i", __privileged_fork_execvp_uid, return_value_setuid_2);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 0;
     execvp(file, argv);
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    exit(*return_value___errno_location$4);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    exit(*return_value___errno_location_4);
   }
   return pid;
 }
@@ -3733,21 +3733,21 @@ signed int __privileged_fork_execvp(const char *file, char * const *argv)
 // file privileged.c line 455
 signed int __privileged_kill_child_itself(signed int child_pid, signed int signal, char ignoreerrors)
 {
-  signed int return_value_waitpid$3;
-  return_value_waitpid$3=waitpid(child_pid, (signed int *)(void *)0, 1);
-  if(return_value_waitpid$3 >= 0)
+  signed int return_value_waitpid_3;
+  return_value_waitpid_3=waitpid(child_pid, (signed int *)(void *)0, 1);
+  if(return_value_waitpid_3 >= 0)
   {
     _debug(3, "__privileged_kill_child_itself", "Sending signal %u to child process with pid %u.", signal, child_pid);
-    signed int return_value_kill$2;
-    return_value_kill$2=kill(child_pid, signal);
-    if(!(return_value_kill$2 == 0))
+    signed int return_value_kill_2;
+    return_value_kill_2=kill(child_pid, signal);
+    if(!(return_value_kill_2 == 0))
     {
       if(ignoreerrors == 0)
         _error("__privileged_kill_child_itself", "Got error while kill(%u, %u)", child_pid, signal);
 
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
     waitpid_timed(child_pid, (signed int *)(void *)0, (signed long int)1, (signed long int)0);
@@ -3762,41 +3762,41 @@ signed int __privileged_kill_child_itself(signed int child_pid, signed int signa
 // file sync.c line 1086
 signed int __sync_exec_thread(struct threadinfo *threadinfo_p)
 {
-  char **__sync_exec_thread$$1$$argv = threadinfo_p->argv;
+  char **__sync_exec_thread__1__argv = threadinfo_p->argv;
   struct ctx *ctx_p = threadinfo_p->ctx_p;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  _debug(3, "__sync_exec_thread", "thread_num == %i; threadinfo_p == %p; i_p->pthread %p; thread %p", threadinfo_p->thread_num, threadinfo_p, threadinfo_p->pthread, return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  _debug(3, "__sync_exec_thread", "thread_num == %i; threadinfo_p == %p; i_p->pthread %p; thread %p", threadinfo_p->thread_num, threadinfo_p, threadinfo_p->pthread, return_value_pthread_self_1);
   signed int err = 0;
   signed int exec_exitcode = 0;
   signed int try_again;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   do
   {
     try_again = 0;
     threadinfo_p->try_n = threadinfo_p->try_n + 1;
-    exec_exitcode=exec_argv(__sync_exec_thread$$1$$argv, &threadinfo_p->child_pid);
+    exec_exitcode=exec_argv(__sync_exec_thread__1__argv, &threadinfo_p->child_pid);
     err=exitcode_process(threadinfo_p->ctx_p, exec_exitcode);
     if(!(err == 0))
     {
       if(ctx_p->retries == 0)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = threadinfo_p->try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = threadinfo_p->try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      try_again = (signed int)tmp_if_expr$4;
+        tmp_if_expr_4 = (_Bool)0;
+      try_again = (signed int)tmp_if_expr_4;
       _warning("__sync_exec_thread", "__sync_exec_thread(): Bad exitcode %i (errcode %i). %s.", exec_exitcode, err, try_again != 0 ? "Retrying" : "Give up");
       if(!(try_again == 0))
       {
@@ -3826,9 +3826,9 @@ signed int __sync_exec_thread(struct threadinfo *threadinfo_p)
     pthread_kill(pthread_sighandler, 15);
   }
 
-  unsigned long int return_value_pthread_self$5;
-  return_value_pthread_self$5=pthread_self();
-  _debug(3, "__sync_exec_thread", "thread_num == %i; threadinfo_p == %p; i_p->pthread %p; thread %p; errcode %i", threadinfo_p->thread_num, threadinfo_p, threadinfo_p->pthread, return_value_pthread_self$5, threadinfo_p->errcode);
+  unsigned long int return_value_pthread_self_5;
+  return_value_pthread_self_5=pthread_self();
+  _debug(3, "__sync_exec_thread", "thread_num == %i; threadinfo_p == %p; i_p->pthread %p; thread %p; errcode %i", threadinfo_p->thread_num, threadinfo_p, threadinfo_p->pthread, return_value_pthread_self_5, threadinfo_p->errcode);
   return exec_exitcode;
 }
 
@@ -3854,13 +3854,13 @@ extern void _critical(const char * const function_name, const char *fmt, ...)
     args = (void **)&fmt;
     voutfunct[(signed long int)method](fmt, args);
     args = ((void **)NULL);
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    outfunct[(signed long int)method](" (current errno %i: %s)", *return_value___errno_location$1, return_value_strerror$3);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    outfunct[(signed long int)method](" (current errno %i: %s)", *return_value___errno_location_1, return_value_strerror_3);
     flushfunct[(signed long int)method](2);
     void *buf[256l];
     char **strings;
@@ -3869,13 +3869,13 @@ extern void _critical(const char * const function_name, const char *fmt, ...)
     strings=backtrace_symbols(buf, backtrace_len);
     if(strings == ((char **)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      outfunct[(signed long int)method]("_critical(): Got error, but cannot print the backtrace. Current errno: %u: %s\n", *return_value___errno_location$4, return_value_strerror$6);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      outfunct[(signed long int)method]("_critical(): Got error, but cannot print the backtrace. Current errno: %u: %s\n", *return_value___errno_location_4, return_value_strerror_6);
       flushfunct[(signed long int)method](2);
       pthread_mutex_unlock(error_mutex_p);
       exit(1);
@@ -3893,9 +3893,9 @@ extern void _critical(const char * const function_name, const char *fmt, ...)
       pthread_mutex_unlock(error_mutex_p);
 
     error_deinit();
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    exit(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    exit(*return_value___errno_location_7);
   }
 
 }
@@ -3936,9 +3936,9 @@ extern void _debug(signed int debug_level, const char * const function_name, con
 extern void _error(const char * const function_name, const char *fmt, ...)
 {
   void **args;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(*quiet == 0)
   {
     if(*verbose >= 1)
@@ -3955,14 +3955,14 @@ extern void _error(const char * const function_name, const char *fmt, ...)
       args = (void **)&fmt;
       voutfunct[(signed long int)method](fmt, args);
       args = ((void **)NULL);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 0))
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 0))
       {
-        return_value___errno_location$1=__errno_location();
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        outfunct[(signed long int)method](" (%i: %s)", *return_value___errno_location$1, return_value_strerror$3);
+        return_value___errno_location_1=__errno_location();
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        outfunct[(signed long int)method](" (%i: %s)", *return_value___errno_location_1, return_value_strerror_3);
       }
 
       flushfunct[(signed long int)method](3);
@@ -4041,7 +4041,7 @@ signed int _socket_send(struct clsyncsock *clsyncsock, unsigned long int *cmd_nu
   char prebuf1[4096l];
   char sendbuf[4096l];
   ret = 0;
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   if((signed int)clsyncsock->prot == 0)
   {
     if((signed int)clsyncsock->subprot == 0)
@@ -4059,11 +4059,11 @@ signed int _socket_send(struct clsyncsock *clsyncsock, unsigned long int *cmd_nu
       ap_copy = (void **)ap;
       vsprintf(prebuf1, textmessage_descr[(signed long int)cmd_id], ap);
       unsigned long int sendlen;
-      tmp_post$1 = *cmd_num_p;
+      tmp_post_1 = *cmd_num_p;
       *cmd_num_p = *cmd_num_p + 1ul;
-      signed int return_value_sprintf$2;
-      return_value_sprintf$2=sprintf(sendbuf, "%lu %u %s :%s\n", tmp_post$1, cmd_id, (const void *)prebuf0, (const void *)prebuf1);
-      sendlen = (unsigned long int)return_value_sprintf$2;
+      signed int return_value_sprintf_2;
+      return_value_sprintf_2=sprintf(sendbuf, "%lu %u %s :%s\n", tmp_post_1, cmd_id, (const void *)prebuf0, (const void *)prebuf1);
+      sendlen = (unsigned long int)return_value_sprintf_2;
       _debug(5, "_socket_send", "send(): \"%s\"", (const void *)sendbuf);
       send(clsyncsock->sock, (const void *)sendbuf, sendlen, 0);
       goto __CPROVER_DUMP_L8;
@@ -4097,15 +4097,15 @@ static signed int _str_splitargs(char *ptr, char **arg_start_p, signed int quote
   arg_start = *arg_start_p;
   *arg_start_p = &ptr[(signed long int)1];
   arg_len = (unsigned long int)(ptr - arg_start);
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(arg_len == 0ul)
     return 0;
 
   else
   {
-    void *return_value_xmalloc$1;
-    return_value_xmalloc$1=xmalloc(arg_len + (unsigned long int)1);
-    arg = (char *)return_value_xmalloc$1;
+    void *return_value_xmalloc_1;
+    return_value_xmalloc_1=xmalloc(arg_len + (unsigned long int)1);
+    arg = (char *)return_value_xmalloc_1;
     if(!(quotes == 0))
     {
       signed int s;
@@ -4114,9 +4114,9 @@ static signed int _str_splitargs(char *ptr, char **arg_start_p, signed int quote
       for( ; !((unsigned long int)s >= arg_len); s = s + 1)
         if(!(arg_start[(signed long int)s] == 0))
         {
-          tmp_post$2 = d;
+          tmp_post_2 = d;
           d = d + 1;
-          arg[(signed long int)tmp_post$2] = arg_start[(signed long int)s];
+          arg[(signed long int)tmp_post_2] = arg_start[(signed long int)s];
         }
 
       arg_len = (unsigned long int)d;
@@ -4148,17 +4148,17 @@ void _sync_idle_dosync_collectedevents(void *fpath_gp, void *evinfo_gp, void *ar
   struct indexes *indexes_p = ((struct dosync_arg *)arg_gp)->indexes_p;
   enum queue_id queue_id = (enum queue_id)((struct dosync_arg *)arg_gp)->data;
   _debug(3, "_sync_idle_dosync_collectedevents", "queue_id == %i.", queue_id);
-  signed int return_value_sync_islocked$2;
+  signed int return_value_sync_islocked_2;
   if(ctx_p->flags[112l] == PM_SAFE)
   {
-    return_value_sync_islocked$2=sync_islocked(fpath);
-    if(!(return_value_sync_islocked$2 == 0))
+    return_value_sync_islocked_2=sync_islocked(fpath);
+    if(!(return_value_sync_islocked_2 == 0))
     {
       _debug(3, "_sync_idle_dosync_collectedevents", "\"%s\" is locked, dropping to waitlock queue", fpath);
       struct eventinfo *evinfo_dup;
-      void *return_value_xmalloc$1;
-      return_value_xmalloc$1=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
-      evinfo_dup = (struct eventinfo *)return_value_xmalloc$1;
+      void *return_value_xmalloc_1;
+      return_value_xmalloc_1=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
+      evinfo_dup = (struct eventinfo *)return_value_xmalloc_1;
       memcpy((void *)evinfo_dup, (const void *)evinfo, sizeof(struct eventinfo) /*40ul*/ );
       sync_queuesync(fpath, evinfo_dup, ctx_p, indexes_p, (enum queue_id)QUEUE_LOCKWAIT);
       goto __CPROVER_DUMP_L21;
@@ -4166,8 +4166,8 @@ void _sync_idle_dosync_collectedevents(void *fpath_gp, void *evinfo_gp, void *ar
 
   }
 
-  signed int tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  signed int tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(ctx_p->listoutdir == ((char *)NULL))
   {
     if(!((SHFL_INCLUDE_LIST & (signed int)ctx_p->synchandler_argf) == 0))
@@ -4178,24 +4178,24 @@ void _sync_idle_dosync_collectedevents(void *fpath_gp, void *evinfo_gp, void *ar
 
     _debug(3, "_sync_idle_dosync_collectedevents", "calling sync_dosync()");
     signed long int _SAFE_rc;
-    signed int return_value_sync_dosync$6;
-    return_value_sync_dosync$6=sync_dosync(fpath, evinfo->evmask, ctx_p, indexes_p);
-    _SAFE_rc = (signed long int)return_value_sync_dosync$6;
+    signed int return_value_sync_dosync_6;
+    return_value_sync_dosync_6=sync_dosync(fpath, evinfo->evmask, ctx_p, indexes_p);
+    _SAFE_rc = (signed long int)return_value_sync_dosync_6;
     if(!(_SAFE_rc == 0l))
     {
       _error("_sync_idle_dosync_collectedevents", "Got error while sync_dosync(fpath, evinfo->evmask, ctx_p, indexes_p)");
       _debug(1, "_sync_idle_dosync_collectedevents", "fpath == \"%s\"; evmask == 0x%o", fpath, evinfo->evmask);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(!(*return_value___errno_location$3 == 0))
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(!(*return_value___errno_location_3 == 0))
       {
-        return_value___errno_location$4=__errno_location();
-        tmp_if_expr$5 = *return_value___errno_location$4;
+        return_value___errno_location_4=__errno_location();
+        tmp_if_expr_5 = *return_value___errno_location_4;
       }
 
       else
-        tmp_if_expr$5 = -1;
-      exit(tmp_if_expr$5);
+        tmp_if_expr_5 = -1;
+      exit(tmp_if_expr_5);
     }
 
     _SAFE_rc;
@@ -4211,9 +4211,9 @@ void _sync_idle_dosync_collectedevents(void *fpath_gp, void *evinfo_gp, void *ar
     evinfo_idx=indexes_fpath2ei(indexes_p, fpath);
     if(evinfo_idx == ((struct eventinfo *)NULL))
     {
-      void *return_value_xmalloc$7;
-      return_value_xmalloc$7=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
-      evinfo_idx = (struct eventinfo *)return_value_xmalloc$7;
+      void *return_value_xmalloc_7;
+      return_value_xmalloc_7=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
+      evinfo_idx = (struct eventinfo *)return_value_xmalloc_7;
       memset((void *)evinfo_idx, 0, sizeof(struct eventinfo) /*40ul*/ );
       isnew = isnew + 1;
       *evcount_p = *evcount_p + 1;
@@ -4240,9 +4240,9 @@ void _sync_idle_dosync_collectedevents(void *fpath_gp, void *evinfo_gp, void *ar
         {
           evinfo_merge(ctx_p, evinfo_idx, evinfo_q);
           indexes_removefromqueue(indexes_p, fpath, (enum queue_id)_queue_id);
-          signed int return_value_indexes_queuelen$8;
-          return_value_indexes_queuelen$8=indexes_queuelen(indexes_p, (enum queue_id)_queue_id);
-          if(return_value_indexes_queuelen$8 == 0)
+          signed int return_value_indexes_queuelen_8;
+          return_value_indexes_queuelen_8=indexes_queuelen(indexes_p, (enum queue_id)_queue_id);
+          if(return_value_indexes_queuelen_8 == 0)
             ctx_p->_queues[(signed long int)_queue_id].stime = (signed long int)0;
 
         }
@@ -4271,9 +4271,9 @@ void _sync_idle_dosync_collectedexcludes(void *fpath_gp, void *flags_gp, void *a
   char *fpath = (char *)fpath_gp;
   struct indexes *indexes_p = ((struct dosync_arg *)arg_gp)->indexes_p;
   _debug(3, "_sync_idle_dosync_collectedexcludes", "\"%s\", %u (%p).", fpath, (signed int)(signed long int)flags_gp, flags_gp);
-  char *return_value_strdup$1;
-  return_value_strdup$1=strdup(fpath);
-  indexes_addexclude_aggr(indexes_p, return_value_strdup$1, (enum eventinfo_flags)(signed int)(signed long int)flags_gp);
+  char *return_value_strdup_1;
+  return_value_strdup_1=strdup(fpath);
+  indexes_addexclude_aggr(indexes_p, return_value_strdup_1, (enum eventinfo_flags)(signed int)(signed long int)flags_gp);
   goto __CPROVER_DUMP_L2;
 
 __CPROVER_DUMP_L2:
@@ -4420,43 +4420,43 @@ signed int arguments_parse(signed int argc, char **argv, struct ctx *ctx_p)
   signed int c;
   signed int option_index = 0;
   char *optstring;
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca((unsigned long int)((((((122 - 97) + 1) * 3 + 57) - 48) + 1) * 3 + 1));
-  optstring = (char *)return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca((unsigned long int)((((((122 - 97) + 1) * 3 + 57) - 48) + 1) * 3 + 1));
+  optstring = (char *)return_value___builtin_alloca_1;
   char *optstring_ptr = optstring;
   struct option *lo_ptr = long_options;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
   for( ; !(lo_ptr->name == ((const char *)NULL)); lo_ptr = lo_ptr + 1l)
     if((768 & lo_ptr->val) == 0)
     {
-      tmp_post$2 = optstring_ptr;
+      tmp_post_2 = optstring_ptr;
       optstring_ptr = optstring_ptr + 1l;
-      *tmp_post$2 = (char)(lo_ptr->val & 0xff);
+      *tmp_post_2 = (char)(lo_ptr->val & 0xff);
       if(lo_ptr->has_arg == 1)
       {
-        tmp_post$3 = optstring_ptr;
+        tmp_post_3 = optstring_ptr;
         optstring_ptr = optstring_ptr + 1l;
-        *tmp_post$3 = (char)58;
+        *tmp_post_3 = (char)58;
       }
 
       if(lo_ptr->has_arg == 2)
       {
-        tmp_post$4 = optstring_ptr;
+        tmp_post_4 = optstring_ptr;
         optstring_ptr = optstring_ptr + 1l;
-        *tmp_post$4 = (char)58;
-        tmp_post$5 = optstring_ptr;
+        *tmp_post_4 = (char)58;
+        tmp_post_5 = optstring_ptr;
         optstring_ptr = optstring_ptr + 1l;
-        *tmp_post$5 = (char)58;
+        *tmp_post_5 = (char)58;
       }
 
     }
 
   *optstring_ptr = (char)0;
-  char *tmp_if_expr$7;
-  char *return_value_strdup$6;
+  char *tmp_if_expr_7;
+  char *return_value_strdup_6;
   while((_Bool)1)
   {
     c=getopt_long(argc, argv, optstring, long_options, &option_index);
@@ -4465,21 +4465,21 @@ signed int arguments_parse(signed int argc, char **argv, struct ctx *ctx_p)
 
     signed int ret;
     if(optarg == ((char *)NULL))
-      tmp_if_expr$7 = (char *)(void *)0;
+      tmp_if_expr_7 = (char *)(void *)0;
 
     else
     {
-      return_value_strdup$6=strdup(optarg);
-      tmp_if_expr$7 = return_value_strdup$6;
+      return_value_strdup_6=strdup(optarg);
+      tmp_if_expr_7 = return_value_strdup_6;
     }
-    ret=parse_parameter(ctx_p, (unsigned short int)c, tmp_if_expr$7, (enum paramsource_enum)PS_ARGUMENT);
+    ret=parse_parameter(ctx_p, (unsigned short int)c, tmp_if_expr_7, (enum paramsource_enum)PS_ARGUMENT);
     if(!(ret == 0))
       return ret;
 
   }
-  _Bool tmp_if_expr$12;
-  signed int tmp_post$9;
-  signed int *return_value___errno_location$8;
+  _Bool tmp_if_expr_12;
+  signed int tmp_post_9;
+  signed int *return_value___errno_location_8;
   if(!(optind >= argc))
   {
     struct synchandler_args *args_p = &ctx_p->synchandler_args[(signed long int)SHARGS_PRIMARY];
@@ -4489,23 +4489,23 @@ signed int arguments_parse(signed int argc, char **argv, struct ctx *ctx_p)
       free((void *)args_p->v[(signed long int)args_p->c]);
     }
     if(!(1 + optind == argc))
-      tmp_if_expr$12 = (_Bool)1;
+      tmp_if_expr_12 = (_Bool)1;
 
     else
-      tmp_if_expr$12 = *argv[(signed long int)optind] != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = *argv[(signed long int)optind] != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_12)
       do
       {
-        tmp_post$9 = optind;
+        tmp_post_9 = optind;
         optind = optind + 1;
-        char *return_value_strdup$10;
-        return_value_strdup$10=strdup(argv[(signed long int)tmp_post$9]);
-        signed int return_value_synchandler_arg0$11;
-        return_value_synchandler_arg0$11=synchandler_arg0(return_value_strdup$10, (unsigned long int)0, (void *)ctx_p);
-        if(!(return_value_synchandler_arg0$11 == 0))
+        char *return_value_strdup_10;
+        return_value_strdup_10=strdup(argv[(signed long int)tmp_post_9]);
+        signed int return_value_synchandler_arg0_11;
+        return_value_synchandler_arg0_11=synchandler_arg0(return_value_strdup_10, (unsigned long int)0, (void *)ctx_p);
+        if(!(return_value_synchandler_arg0_11 == 0))
         {
-          return_value___errno_location$8=__errno_location();
-          return *return_value___errno_location$8;
+          return_value___errno_location_8=__errno_location();
+          return *return_value___errno_location_8;
         }
 
       }
@@ -4536,12 +4536,12 @@ __CPROVER_DUMP_L4:
 static void argv_free(char **argv)
 {
   char **argv_p = argv;
-  char **tmp_post$1;
+  char **tmp_post_1;
   while(!(*argv_p == ((char *)NULL)))
   {
-    tmp_post$1 = argv_p;
+    tmp_post_1 = argv_p;
     argv_p = argv_p + 1l;
-    free((void *)*tmp_post$1);
+    free((void *)*tmp_post_1);
   }
   free((void *)argv);
   goto __CPROVER_DUMP_L3;
@@ -4557,7 +4557,7 @@ signed int becomedaemon()
   signed int pid;
   signal(13, (void (*)(signed int))1);
   pid=fork();
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(pid == -1))
   {
     if(pid == 0)
@@ -4568,8 +4568,8 @@ signed int becomedaemon()
   else
   {
     _error("becomedaemon", "Cannot fork().");
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
 
   __CPROVER_DUMP_L2:
     ;
@@ -4577,9 +4577,9 @@ signed int becomedaemon()
     goto __CPROVER_DUMP_L5;
   }
   _debug(1, "becomedaemon", "fork()-ed, pid is %i.", pid);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = 0;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = 0;
   exit(0);
 
 __CPROVER_DUMP_L5:
@@ -4591,9 +4591,9 @@ __CPROVER_DUMP_L5:
 // file main.c line 431
 void child_sigchld()
 {
-  signed int return_value_getppid$1;
-  return_value_getppid$1=getppid();
-  if(return_value_getppid$1 == 1)
+  signed int return_value_getppid_1;
+  return_value_getppid_1=getppid();
+  if(return_value_getppid_1 == 1)
   {
     _debug(1, "child_sigchld", "Got SIGCHLD (parent ended). Exit.");
     exit(-1);
@@ -4622,15 +4622,15 @@ static inline void closecontrol(struct ctx *ctx_p)
 extern signed int clsyncapi_fork(struct ctx *ctx_p)
 {
   signed int i = 0;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   while(!(i >= ctx_p->children))
   {
-    signed int return_value_waitpid$2;
-    return_value_waitpid$2=waitpid(ctx_p->child_pid[(signed long int)i], (signed int *)(void *)0, 1);
-    if(!(return_value_waitpid$2 >= 0))
+    signed int return_value_waitpid_2;
+    return_value_waitpid_2=waitpid(ctx_p->child_pid[(signed long int)i], (signed int *)(void *)0, 1);
+    if(!(return_value_waitpid_2 >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 10)
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 10)
       {
         ctx_p->children = ctx_p->children - 1;
         ctx_p->child_pid[(signed long int)i] = ctx_p->child_pid[(signed long int)ctx_p->children];
@@ -4642,17 +4642,17 @@ extern signed int clsyncapi_fork(struct ctx *ctx_p)
   }
   if(ctx_p->children >= 256)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 125;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 125;
     return -1;
   }
 
   signed int pid;
   pid=fork();
-  signed int tmp_post$4 = ctx_p->children;
+  signed int tmp_post_4 = ctx_p->children;
   ctx_p->children = ctx_p->children + 1;
-  ctx_p->child_pid[(signed long int)tmp_post$4] = pid;
+  ctx_p->child_pid[(signed long int)tmp_post_4] = pid;
   return pid;
 }
 
@@ -4674,10 +4674,10 @@ signed int config_block_parse(struct ctx *ctx_p, const char * const config_block
   if(rc == 0)
     rc=ctx_check(ctx_p);
 
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = rc;
-  return *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = rc;
+  return *return_value___errno_location_1;
 }
 
 // configs_parse
@@ -4686,23 +4686,23 @@ signed int configs_parse(struct ctx *ctx_p, enum paramsource_enum paramsource)
 {
   struct _GKeyFile *gkf;
   gkf=g_key_file_new();
-  unsigned long int tmp_if_expr$5;
-  unsigned long int return_value_strlen$4;
+  unsigned long int tmp_if_expr_5;
+  unsigned long int return_value_strlen_4;
   if(!(ctx_p->config_path == ((char *)NULL)))
   {
     struct _GError *g_error = (struct _GError *)(void *)0;
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(ctx_p->config_path, "/NULL/");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(ctx_p->config_path, "/NULL/");
+    if(return_value_strcmp_1 == 0)
     {
       _debug(2, "configs_parse", "Empty path to config file. Don't read any of config files.");
       return 0;
     }
 
     _debug(1, "configs_parse", "Trying config-file \"%s\" (case #0)", ctx_p->config_path);
-    signed int return_value_g_key_file_load_from_file$2;
-    return_value_g_key_file_load_from_file$2=g_key_file_load_from_file(gkf, ctx_p->config_path, (enum anonymous$28)G_KEY_FILE_NONE, &g_error);
-    if(return_value_g_key_file_load_from_file$2 == 0)
+    signed int return_value_g_key_file_load_from_file_2;
+    return_value_g_key_file_load_from_file_2=g_key_file_load_from_file(gkf, ctx_p->config_path, (enum anonymous_28)G_KEY_FILE_NONE, &g_error);
+    if(return_value_g_key_file_load_from_file_2 == 0)
     {
       _error("configs_parse", "Cannot open/parse file \"%s\" (g_error #%u.%u: %s)", ctx_p->config_path, g_error->domain, g_error->code, g_error->message);
       g_key_file_free(gkf);
@@ -4718,22 +4718,22 @@ signed int configs_parse(struct ctx *ctx_p, enum paramsource_enum paramsource)
     char *config_paths[6l] = { ".clsync.conf", "/etc/clsync/clsync.conf", "/etc/clsync.conf", "/usr/local/etc/clsync/clsync.conf", "/usr/local/etc/clsync.conf", (char *)(void *)0 };
     char **config_path_p = config_paths;
     char *config_path_real;
-    void *return_value_xmalloc$3;
-    return_value_xmalloc$3=xmalloc((unsigned long int)4096);
-    config_path_real = (char *)return_value_xmalloc$3;
+    void *return_value_xmalloc_3;
+    return_value_xmalloc_3=xmalloc((unsigned long int)4096);
+    config_path_real = (char *)return_value_xmalloc_3;
     unsigned long int config_path_real_size = (unsigned long int)4096;
     char *homedir;
     homedir=getenv("HOME");
     unsigned long int homedir_len;
     if(homedir == ((char *)NULL))
-      tmp_if_expr$5 = (unsigned long int)0;
+      tmp_if_expr_5 = (unsigned long int)0;
 
     else
     {
-      return_value_strlen$4=strlen(homedir);
-      tmp_if_expr$5 = return_value_strlen$4;
+      return_value_strlen_4=strlen(homedir);
+      tmp_if_expr_5 = return_value_strlen_4;
     }
-    homedir_len = tmp_if_expr$5;
+    homedir_len = tmp_if_expr_5;
     while(!(*config_path_p == ((char *)NULL)))
     {
       unsigned long int config_path_len;
@@ -4741,9 +4741,9 @@ signed int configs_parse(struct ctx *ctx_p, enum paramsource_enum paramsource)
       if(!(config_path_real_size >= 3ul + config_path_len + homedir_len))
       {
         config_path_real_size = config_path_len + homedir_len + (unsigned long int)3;
-        void *return_value_xmalloc$6;
-        return_value_xmalloc$6=xmalloc(config_path_real_size);
-        config_path_real = (char *)return_value_xmalloc$6;
+        void *return_value_xmalloc_6;
+        return_value_xmalloc_6=xmalloc(config_path_real_size);
+        config_path_real = (char *)return_value_xmalloc_6;
       }
 
       if(!((signed int)*(*config_path_p) == 47))
@@ -4756,9 +4756,9 @@ signed int configs_parse(struct ctx *ctx_p, enum paramsource_enum paramsource)
       else
         memcpy((void *)config_path_real, (const void *)*config_path_p, config_path_len + (unsigned long int)1);
       _debug(1, "configs_parse", "Trying config-file \"%s\" (case #1)", config_path_real);
-      signed int return_value_g_key_file_load_from_file$7;
-      return_value_g_key_file_load_from_file$7=g_key_file_load_from_file(gkf, config_path_real, (enum anonymous$28)G_KEY_FILE_NONE, (struct _GError **)(void *)0);
-      if(return_value_g_key_file_load_from_file$7 == 0)
+      signed int return_value_g_key_file_load_from_file_7;
+      return_value_g_key_file_load_from_file_7=g_key_file_load_from_file(gkf, config_path_real, (enum anonymous_28)G_KEY_FILE_NONE, (struct _GError **)(void *)0);
+      if(return_value_g_key_file_load_from_file_7 == 0)
       {
         _debug(1, "configs_parse", "Cannot open/parse file \"%s\"", config_path_real);
         config_path_p = config_path_p + 1l;
@@ -4796,45 +4796,45 @@ signed int control_dump(struct ctx *ctx_p, struct clsyncsock *clsyncsock_p, stru
 {
   struct sockcmd_dat_dump *dat = (struct sockcmd_dat_dump *)sockcmd_p->data;
   _debug(3, "control_dump", "%s", (const void *)dat->dir_path);
-  signed int return_value_sync_dump$1;
-  return_value_sync_dump$1=sync_dump(ctx_p, dat->dir_path);
-  signed int tmp_if_expr$4;
-  signed int return_value_control_error$2;
-  signed int return_value_socket_reply$3;
-  if(!(return_value_sync_dump$1 == 0))
+  signed int return_value_sync_dump_1;
+  return_value_sync_dump_1=sync_dump(ctx_p, dat->dir_path);
+  signed int tmp_if_expr_4;
+  signed int return_value_control_error_2;
+  signed int return_value_socket_reply_3;
+  if(!(return_value_sync_dump_1 == 0))
   {
-    return_value_control_error$2=control_error(clsyncsock_p, sockcmd_p, "sync_dump", dat->dir_path);
-    tmp_if_expr$4 = return_value_control_error$2;
+    return_value_control_error_2=control_error(clsyncsock_p, sockcmd_p, "sync_dump", dat->dir_path);
+    tmp_if_expr_4 = return_value_control_error_2;
   }
 
   else
   {
-    return_value_socket_reply$3=socket_reply(clsyncsock_p, sockcmd_p, (enum sockcmd_id)SOCKCMD_REPLY_DUMP);
-    tmp_if_expr$4 = return_value_socket_reply$3;
+    return_value_socket_reply_3=socket_reply(clsyncsock_p, sockcmd_p, (enum sockcmd_id)SOCKCMD_REPLY_DUMP);
+    tmp_if_expr_4 = return_value_socket_reply_3;
   }
-  return tmp_if_expr$4;
+  return tmp_if_expr_4;
 }
 
 // control_error
 // file control.c line 40
 static inline signed int control_error(struct clsyncsock *clsyncsock_p, struct sockcmd *sockcmd_p, const char * const funct, const char * const args)
 {
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  return_value___errno_location$1=__errno_location();
-  return_value___errno_location$2=__errno_location();
-  return_value_strerror$3=strerror(*return_value___errno_location$2);
-  _debug(3, "control_error", "%s(%s): %u: %s", funct, args, *return_value___errno_location$1, return_value_strerror$3);
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  signed int *return_value___errno_location$5;
-  return_value___errno_location$5=__errno_location();
-  char *return_value_strerror$6;
-  return_value_strerror$6=strerror(*return_value___errno_location$5);
-  signed int return_value_socket_reply$7;
-  return_value_socket_reply$7=socket_reply(clsyncsock_p, sockcmd_p, (enum sockcmd_id)SOCKCMD_REPLY_ECUSTOM, funct, args, *return_value___errno_location$4, return_value_strerror$6);
-  return return_value_socket_reply$7;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  return_value___errno_location_1=__errno_location();
+  return_value___errno_location_2=__errno_location();
+  return_value_strerror_3=strerror(*return_value___errno_location_2);
+  _debug(3, "control_error", "%s(%s): %u: %s", funct, args, *return_value___errno_location_1, return_value_strerror_3);
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  signed int *return_value___errno_location_5;
+  return_value___errno_location_5=__errno_location();
+  char *return_value_strerror_6;
+  return_value_strerror_6=strerror(*return_value___errno_location_5);
+  signed int return_value_socket_reply_7;
+  return_value_socket_reply_7=socket_reply(clsyncsock_p, sockcmd_p, (enum sockcmd_id)SOCKCMD_REPLY_ECUSTOM, funct, args, *return_value___errno_location_4, return_value_strerror_6);
+  return return_value_socket_reply_7;
 }
 
 // control_loop
@@ -4849,9 +4849,9 @@ signed int control_loop(struct ctx *ctx_p)
     if(s == 0)
       break;
 
-    signed int return_value_socket_check_bysock$1;
-    return_value_socket_check_bysock$1=socket_check_bysock(s);
-    if(!(return_value_socket_check_bysock$1 == 0))
+    signed int return_value_socket_check_bysock_1;
+    return_value_socket_check_bysock_1=socket_check_bysock(s);
+    if(!(return_value_socket_check_bysock_1 == 0))
     {
       _error("control_loop", "Control socket closed [case 0]");
       closecontrol(ctx_p);
@@ -4860,17 +4860,17 @@ signed int control_loop(struct ctx *ctx_p)
     else
     {
       _debug(3, "control_loop", "waiting for events on the socket");
-      struct anonymous$3 rfds;
+      struct anonymous_3 rfds;
       do
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       (&rfds)->fds_bits[(signed long int)(s / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rfds)->fds_bits[(signed long int)(s / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << s % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
       signed int count;
-      count=select(s + 1, &rfds, (struct anonymous$3 *)(void *)0, (struct anonymous$3 *)(void *)0, (struct timeval *)(void *)0);
+      count=select(s + 1, &rfds, (struct anonymous_3 *)(void *)0, (struct anonymous_3 *)(void *)0, (struct timeval *)(void *)0);
       _debug(2, "control_loop", "got %i events with select()", count);
       if(count == 0)
         _debug(2, "control_loop", "select() timed out.");
@@ -4895,9 +4895,9 @@ signed int control_loop(struct ctx *ctx_p)
             clsyncsock_p=socket_accept(s);
             if(clsyncsock_p == ((struct clsyncsock *)NULL))
             {
-              signed int *return_value___errno_location$2;
-              return_value___errno_location$2=__errno_location();
-              if(*return_value___errno_location$2 == 87)
+              signed int *return_value___errno_location_2;
+              return_value___errno_location_2=__errno_location();
+              if(*return_value___errno_location_2 == 87)
                 continue;
 
               _error("control_loop", "Cannot socket_accept()");
@@ -4922,9 +4922,9 @@ signed int control_loop(struct ctx *ctx_p)
               threaddata_p->running = &ctx_p->socket;
               threaddata_p->authtype = (enum sockauth_id)ctx_p->flags[(signed long int)525];
               threaddata_p->flags = (enum sockprocflags)0;
-              signed int return_value_socket_thread_start$3;
-              return_value_socket_thread_start$3=socket_thread_start(threaddata_p);
-              if(!(return_value_socket_thread_start$3 == 0))
+              signed int return_value_socket_thread_start_3;
+              return_value_socket_thread_start_3=socket_thread_start(threaddata_p);
+              if(!(return_value_socket_thread_start_3 == 0))
               {
                 _error("control_loop", "Cannot start a thread for connection");
                 closecontrol(ctx_p);
@@ -4988,8 +4988,8 @@ signed int control_procclsyncsock(struct socket_sockthreaddata *arg, struct sock
 // file control.h line 23
 extern signed int control_run(struct ctx *ctx_p)
 {
-  signed int return_value_chmod$3;
-  signed int return_value_chown$5;
+  signed int return_value_chmod_3;
+  signed int return_value_chown_5;
   if(!(ctx_p->socketpath == ((char *)NULL)))
   {
     signed int ret = 0;
@@ -5004,9 +5004,9 @@ extern signed int control_run(struct ctx *ctx_p)
       clsyncsock=socket_listen_unix(ctx_p->socketpath);
       if(clsyncsock == ((struct clsyncsock *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        ret = *return_value___errno_location$1;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        ret = *return_value___errno_location_1;
       }
 
       else
@@ -5020,26 +5020,26 @@ extern signed int control_run(struct ctx *ctx_p)
     {
       if(!(ctx_p->flags[526l] == 0))
       {
-        return_value_chmod$3=chmod(ctx_p->socketpath, ctx_p->socketmod);
-        if(!(return_value_chmod$3 == 0))
+        return_value_chmod_3=chmod(ctx_p->socketpath, ctx_p->socketmod);
+        if(!(return_value_chmod_3 == 0))
         {
           _error("control_run", "Error, Cannot chmod(\"%s\", %o)", ctx_p->socketpath, ctx_p->socketmod);
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          ret = *return_value___errno_location$2;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          ret = *return_value___errno_location_2;
         }
 
       }
 
       if(!(ctx_p->flags[527l] == 0))
       {
-        return_value_chown$5=chown(ctx_p->socketpath, ctx_p->socketuid, ctx_p->socketgid);
-        if(!(return_value_chown$5 == 0))
+        return_value_chown_5=chown(ctx_p->socketpath, ctx_p->socketuid, ctx_p->socketgid);
+        if(!(return_value_chown_5 == 0))
         {
           _error("control_run", "Error, Cannot chown(\"%s\", %u, %u)", ctx_p->socketpath, ctx_p->socketuid, ctx_p->socketgid);
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          ret = *return_value___errno_location$4;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          ret = *return_value___errno_location_4;
         }
 
       }
@@ -5076,10 +5076,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(ctx_p->socketpath == ((char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 22;
-      ret = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 22;
+      ret = *return_value___errno_location_1;
       _error("ctx_check", "\"--socket-own\" is useless without \"--socket\"");
     }
 
@@ -5089,10 +5089,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(ctx_p->socketpath == ((char *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 22;
-      ret = *return_value___errno_location$2;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 22;
+      ret = *return_value___errno_location_2;
       _error("ctx_check", "\"--socket-mod\" is useless without \"--socket\"");
     }
 
@@ -5102,10 +5102,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(ctx_p->socketpath == ((char *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 22;
-      ret = *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 22;
+      ret = *return_value___errno_location_3;
       _error("ctx_check", "\"--socket-auth\" is useless without \"--socket\"");
     }
 
@@ -5115,10 +5115,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(ctx_p->chroot_dir == ((char *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = 22;
-      ret = *return_value___errno_location$4;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = 22;
+      ret = *return_value___errno_location_4;
       _error("ctx_check", "\"--pivot-root\" cannot be used without \"--chroot\"");
     }
 
@@ -5135,10 +5135,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(ctx_p->flags[77l] == 1)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = 22;
-      ret = *return_value___errno_location$5;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = 22;
+      ret = *return_value___errno_location_5;
       _error("ctx_check", "Sorry but option \"--standby-file\" cannot be used in mode \"simple\", yet.");
     }
 
@@ -5148,10 +5148,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(!(ctx_p->flags[519l] == 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6 = 22;
-      ret = *return_value___errno_location$6;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6 = 22;
+      ret = *return_value___errno_location_6;
       _error("ctx_check", "Conflicting options: This value of \"--threading\" cannot be used in conjunction with \"--only-initialsync\".");
     }
 
@@ -5161,10 +5161,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(!(ctx_p->flags[520l] == 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      *return_value___errno_location$7 = 22;
-      ret = *return_value___errno_location$7;
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      *return_value___errno_location_7 = 22;
+      ret = *return_value___errno_location_7;
       _error("ctx_check", "Conflicting options: This value of \"--threading\" cannot be used in conjunction with \"--exit-on-no-events\".");
     }
 
@@ -5174,10 +5174,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(!(ctx_p->flags[528l] == 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      *return_value___errno_location$8 = 22;
-      ret = *return_value___errno_location$8;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      *return_value___errno_location_8 = 22;
+      ret = *return_value___errno_location_8;
       _error("ctx_check", "Conflicting options: This value of \"--threading\" cannot be used in conjunction with \"--max-iterations\".");
     }
 
@@ -5187,10 +5187,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(!(ctx_p->flags[524l] == 0))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      *return_value___errno_location$9 = 22;
-      ret = *return_value___errno_location$9;
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      *return_value___errno_location_9 = 22;
+      ret = *return_value___errno_location_9;
       _error("ctx_check", "Conflicting options: This value of \"--threading\" cannot be used in conjunction with \"--pre-exit-hook\".");
     }
 
@@ -5200,10 +5200,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(ctx_p->flags[538l] == 1)
     {
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      *return_value___errno_location$10 = 22;
-      ret = *return_value___errno_location$10;
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      *return_value___errno_location_10 = 22;
+      ret = *return_value___errno_location_10;
       _error("ctx_check", "Conflicting options: This value of \"--threading\" cannot be used in conjunction with \"--splitting=thread\".");
     }
 
@@ -5213,10 +5213,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(!(ctx_p->flags[520l] == 0))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      *return_value___errno_location$11 = 22;
-      ret = *return_value___errno_location$11;
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      *return_value___errno_location_11 = 22;
+      ret = *return_value___errno_location_11;
       _error("ctx_check", "Conflicting options: \"--skip-initialsync\" and \"--exit-on-no-events\" cannot be used together.");
     }
 
@@ -5226,10 +5226,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(!(ctx_p->flags[520l] == 0))
     {
-      signed int *return_value___errno_location$12;
-      return_value___errno_location$12=__errno_location();
-      *return_value___errno_location$12 = 22;
-      ret = *return_value___errno_location$12;
+      signed int *return_value___errno_location_12;
+      return_value___errno_location_12=__errno_location();
+      *return_value___errno_location_12 = 22;
+      ret = *return_value___errno_location_12;
       _error("ctx_check", "Conflicting options: \"--only-initialsync\" and \"--exit-on-no-events\" cannot be used together.");
     }
 
@@ -5239,10 +5239,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(!(ctx_p->flags[519l] == 0))
     {
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      *return_value___errno_location$13 = 22;
-      ret = *return_value___errno_location$13;
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      *return_value___errno_location_13 = 22;
+      ret = *return_value___errno_location_13;
       _error("ctx_check", "Conflicting options: \"--skip-initialsync\" and \"--only-initialsync\" cannot be used together.");
     }
 
@@ -5252,10 +5252,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(!(ctx_p->flags[518l] == 0))
     {
-      signed int *return_value___errno_location$14;
-      return_value___errno_location$14=__errno_location();
-      *return_value___errno_location$14 = 22;
-      ret = *return_value___errno_location$14;
+      signed int *return_value___errno_location_14;
+      return_value___errno_location_14=__errno_location();
+      *return_value___errno_location_14 = 22;
+      ret = *return_value___errno_location_14;
       _error("ctx_check", "Conflicting options: \"--full-initialsync\" and \"--skip-initialsync\" cannot be used together.");
     }
 
@@ -5265,10 +5265,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(!((1 & ctx_p->flags[556l]) == 0))
     {
-      signed int *return_value___errno_location$15;
-      return_value___errno_location$15=__errno_location();
-      *return_value___errno_location$15 = 22;
-      ret = *return_value___errno_location$15;
+      signed int *return_value___errno_location_15;
+      return_value___errno_location_15=__errno_location();
+      *return_value___errno_location_15 = 22;
+      ret = *return_value___errno_location_15;
       _error("ctx_check", "Conflicting options: \"--modification-signature\" and \"--cancel-syscalls=mon_stat\" cannot be used together.");
     }
 
@@ -5279,19 +5279,19 @@ signed int ctx_check(struct ctx *ctx_p)
 
   if(ctx_p->flags[77l] == 0)
   {
-    signed int *return_value___errno_location$16;
-    return_value___errno_location$16=__errno_location();
-    *return_value___errno_location$16 = 22;
-    ret = *return_value___errno_location$16;
+    signed int *return_value___errno_location_16;
+    return_value___errno_location_16=__errno_location();
+    *return_value___errno_location_16 = 22;
+    ret = *return_value___errno_location_16;
     _error("ctx_check", "\"--mode\" is not set.");
   }
 
   if(ctx_p->watchdir == ((char *)NULL))
   {
-    signed int *return_value___errno_location$17;
-    return_value___errno_location$17=__errno_location();
-    *return_value___errno_location$17 = 22;
-    ret = *return_value___errno_location$17;
+    signed int *return_value___errno_location_17;
+    return_value___errno_location_17=__errno_location();
+    *return_value___errno_location_17 = 22;
+    ret = *return_value___errno_location_17;
     _error("ctx_check", "\"--watch-dir\" is not set.");
   }
 
@@ -5310,10 +5310,10 @@ signed int ctx_check(struct ctx *ctx_p)
       }
       default:
       {
-        signed int *return_value___errno_location$18;
-        return_value___errno_location$18=__errno_location();
-        *return_value___errno_location$18 = 22;
-        ret = *return_value___errno_location$18;
+        signed int *return_value___errno_location_18;
+        return_value___errno_location_18=__errno_location();
+        *return_value___errno_location_18 = 22;
+        ret = *return_value___errno_location_18;
         _error("ctx_check", "\"--sync-handler\" path is not set.");
       }
     }
@@ -5322,10 +5322,10 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(ctx_p->destdir == ((char *)NULL))
     {
-      signed int *return_value___errno_location$19;
-      return_value___errno_location$19=__errno_location();
-      *return_value___errno_location$19 = 22;
-      ret = *return_value___errno_location$19;
+      signed int *return_value___errno_location_19;
+      return_value___errno_location_19=__errno_location();
+      *return_value___errno_location_19 = 22;
+      ret = *return_value___errno_location_19;
       _error("ctx_check", "Mode \"rsyncdirect\" cannot be used without specifying \"--dest-dir\".");
     }
 
@@ -5337,45 +5337,45 @@ signed int ctx_check(struct ctx *ctx_p)
     ctx_p->synchandler_argf = ctx_p->synchandler_argf | (enum shflags)SHFL_INCLUDE_LIST_PATH;
   }
 
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$21;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_21;
   if(!(ctx_p->flags[514l] == 0))
   {
     if(ctx_p->flags[77l] == 5)
-      tmp_if_expr$20 = (_Bool)1;
+      tmp_if_expr_20 = (_Bool)1;
 
     else
-      tmp_if_expr$20 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$20)
-      tmp_if_expr$21 = (_Bool)1;
+      tmp_if_expr_20 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_20)
+      tmp_if_expr_21 = (_Bool)1;
 
     else
-      tmp_if_expr$21 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$21)
+      tmp_if_expr_21 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_21)
       _warning("ctx_check", "Option \"--rsyncpreferinclude\" is useless if mode is not \"rsyncdirect\", \"rsyncshell\" or \"rsyncso\".");
 
   }
 
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$24;
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_24;
   if(!(ctx_p->flags[512l] == 0))
   {
     if(ctx_p->flags[77l] == 5)
-      tmp_if_expr$23 = (_Bool)1;
+      tmp_if_expr_23 = (_Bool)1;
 
     else
-      tmp_if_expr$23 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$23)
-      tmp_if_expr$24 = (_Bool)1;
+      tmp_if_expr_23 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_23)
+      tmp_if_expr_24 = (_Bool)1;
 
     else
-      tmp_if_expr$24 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$24)
+      tmp_if_expr_24 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_24)
     {
-      signed int *return_value___errno_location$22;
-      return_value___errno_location$22=__errno_location();
-      *return_value___errno_location$22 = 22;
-      ret = *return_value___errno_location$22;
+      signed int *return_value___errno_location_22;
+      return_value___errno_location_22=__errno_location();
+      *return_value___errno_location_22 = 22;
+      ret = *return_value___errno_location_22;
       _error("ctx_check", "Option \"--have-recursive-sync\" with nodes \"rsyncdirect\", \"rsyncshell\" and \"rsyncso\" are incompatible.");
     }
 
@@ -5385,35 +5385,35 @@ signed int ctx_check(struct ctx *ctx_p)
   {
     if(ctx_p->listoutdir == ((char *)NULL))
     {
-      signed int *return_value___errno_location$25;
-      return_value___errno_location$25=__errno_location();
-      *return_value___errno_location$25 = 22;
-      ret = *return_value___errno_location$25;
+      signed int *return_value___errno_location_25;
+      return_value___errno_location_25=__errno_location();
+      *return_value___errno_location_25 = 22;
+      ret = *return_value___errno_location_25;
       _error("ctx_check", "Option \"--dir-lists\" should be set to use option \"--synclist-simplify\".");
     }
 
   }
 
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$28;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_28;
   if(!(ctx_p->flags[515l] == 0))
   {
     if(ctx_p->flags[77l] == 5)
-      tmp_if_expr$27 = (_Bool)1;
+      tmp_if_expr_27 = (_Bool)1;
 
     else
-      tmp_if_expr$27 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$27)
-      tmp_if_expr$28 = (_Bool)1;
+      tmp_if_expr_27 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_27)
+      tmp_if_expr_28 = (_Bool)1;
 
     else
-      tmp_if_expr$28 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$28)
+      tmp_if_expr_28 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_28)
     {
-      signed int *return_value___errno_location$26;
-      return_value___errno_location$26=__errno_location();
-      *return_value___errno_location$26 = 22;
-      ret = *return_value___errno_location$26;
+      signed int *return_value___errno_location_26;
+      return_value___errno_location_26=__errno_location();
+      *return_value___errno_location_26 = 22;
+      ret = *return_value___errno_location_26;
       _error("ctx_check", "Option \"--synclist-simplify\" with nodes \"rsyncdirect\" and \"rsyncshell\" are incompatible.");
     }
 
@@ -5422,26 +5422,26 @@ signed int ctx_check(struct ctx *ctx_p)
   if(ctx_p->flags[532l] == NE_INOTIFY || ctx_p->flags[532l] == NE_GIO)
     goto __CPROVER_DUMP_L46;
 
-  signed int *return_value___errno_location$29;
-  return_value___errno_location$29=__errno_location();
-  *return_value___errno_location$29 = 22;
-  ret = *return_value___errno_location$29;
+  signed int *return_value___errno_location_29;
+  return_value___errno_location_29=__errno_location();
+  *return_value___errno_location_29 = 22;
+  ret = *return_value___errno_location_29;
   _error("ctx_check", "Required one of the next options: \"--monitor=inotify\" \"--monitor=gio\"");
 
 __CPROVER_DUMP_L46:
   ;
-  signed int *return_value___errno_location$30;
+  signed int *return_value___errno_location_30;
   if(!(ctx_p->flags[522l] == 0))
   {
-    signed int return_value_access$31;
-    return_value_access$31=access(ctx_p->exithookfile, 1);
-    if(return_value_access$31 == -1)
+    signed int return_value_access_31;
+    return_value_access_31=access(ctx_p->exithookfile, 1);
+    if(return_value_access_31 == -1)
     {
       _error("ctx_check", "\"%s\" is not executable.", ctx_p->exithookfile);
       if(ret == 0)
       {
-        return_value___errno_location$30=__errno_location();
-        ret = *return_value___errno_location$30;
+        return_value___errno_location_30=__errno_location();
+        ret = *return_value___errno_location_30;
       }
 
     }
@@ -5452,10 +5452,10 @@ __CPROVER_DUMP_L46:
   {
     if(ctx_p->flags[77l] == 2)
     {
-      signed int *return_value___errno_location$32;
-      return_value___errno_location$32=__errno_location();
-      *return_value___errno_location$32 = 22;
-      ret = *return_value___errno_location$32;
+      signed int *return_value___errno_location_32;
+      return_value___errno_location_32=__errno_location();
+      *return_value___errno_location_32 = 22;
+      ret = *return_value___errno_location_32;
       _error("ctx_check", "Options --check-execvp-arguments/--secure-splitting cannot be used in conjunction with --mode=direct (see \"man 1 clsync\": --check-execvp-arguments).");
     }
 
@@ -5468,12 +5468,12 @@ __CPROVER_DUMP_L46:
 // file main.c line 2225
 void ctx_cleanup(struct ctx *ctx_p)
 {
-  signed int ctx_cleanup$$1$$i = 0;
-  for( ; !(ctx_cleanup$$1$$i >= 1024); ctx_cleanup$$1$$i = ctx_cleanup$$1$$i + 1)
-    if(!(ctx_p->flags_values_raw[(signed long int)ctx_cleanup$$1$$i] == ((char *)NULL)))
+  signed int ctx_cleanup__1__i = 0;
+  for( ; !(ctx_cleanup__1__i >= 1024); ctx_cleanup__1__i = ctx_cleanup__1__i + 1)
+    if(!(ctx_p->flags_values_raw[(signed long int)ctx_cleanup__1__i] == ((char *)NULL)))
     {
-      free((void *)ctx_p->flags_values_raw[(signed long int)ctx_cleanup$$1$$i]);
-      ctx_p->flags_values_raw[(signed long int)ctx_cleanup$$1$$i] = (char *)(void *)0;
+      free((void *)ctx_p->flags_values_raw[(signed long int)ctx_cleanup__1__i]);
+      ctx_p->flags_values_raw[(signed long int)ctx_cleanup__1__i] = (char *)(void *)0;
     }
 
   signed int n = 0;
@@ -5503,13 +5503,13 @@ signed int ctx_set(struct ctx *ctx_p, const char * const parameter_name, const c
   struct option *lo_ptr = long_options;
   while(!(lo_ptr->name == ((const char *)NULL)))
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(lo_ptr->name, parameter_name);
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(lo_ptr->name, parameter_name);
+    if(return_value_strcmp_2 == 0)
     {
-      char *return_value_strdup$1;
-      return_value_strdup$1=strdup(parameter_value);
-      ret=parse_parameter(ctx_p, (unsigned short int)lo_ptr->val, return_value_strdup$1, (enum paramsource_enum)PS_CONTROL);
+      char *return_value_strdup_1;
+      return_value_strdup_1=strdup(parameter_value);
+      ret=parse_parameter(ctx_p, (unsigned short int)lo_ptr->val, return_value_strdup_1, (enum paramsource_enum)PS_CONTROL);
       break;
     }
 
@@ -5524,15 +5524,15 @@ signed int ctx_set(struct ctx *ctx_p, const char * const parameter_name, const c
 
 // dir_gotevent
 // file mon_gio.c line 103
-static void dir_gotevent(struct _GFileMonitor *filemon, struct _GFile *file, struct _GFile *file_other, enum anonymous$8 event, void *arg)
+static void dir_gotevent(struct _GFileMonitor *filemon, struct _GFile *file, struct _GFile *file_other, enum anonymous_8 event, void *arg)
 {
   enum eventobjtype objtype_old;
   enum eventobjtype objtype_new;
   enum eventobjtype objtype;
   struct filemondata *fmdat = (struct filemondata *)arg;
   struct ctx *ctx_p = fmdat->ctx_p;
-  enum anonymous$6 filetype;
-  filetype=g_file_query_file_type(file, (enum anonymous$7)G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS, (struct _GCancellable *)(void *)0);
+  enum anonymous_6 filetype;
+  filetype=g_file_query_file_type(file, (enum anonymous_7)G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS, (struct _GCancellable *)(void *)0);
   char *path_full;
   char *path_rel;
   if((signed int)event == G_FILE_MONITOR_EVENT_CHANGED || (signed int)event == G_FILE_MONITOR_EVENT_DELETED || (signed int)event == G_FILE_MONITOR_EVENT_CREATED || (signed int)event == G_FILE_MONITOR_EVENT_ATTRIBUTE_CHANGED)
@@ -5582,9 +5582,9 @@ __CPROVER_DUMP_L6:
 
     case G_FILE_MONITOR_EVENT_ATTRIBUTE_CHANGED:
     {
-      signed int return_value_event_push$1;
-      return_value_event_push$1=event_push(path_rel, fmdat->handle_id, event, objtype, objtype_old, objtype_new);
-      if(!(return_value_event_push$1 == 0))
+      signed int return_value_event_push_1;
+      return_value_event_push_1=event_push(path_rel, fmdat->handle_id, event, objtype, objtype_old, objtype_new);
+      if(!(return_value_event_push_1 == 0))
         _critical("dir_gotevent", "Assert: event_push(path_rel, fmdat->handle_id, event, objtype, objtype_old, objtype_new)");
 
     }
@@ -5599,9 +5599,9 @@ void * eidup(void *ei_gp)
 {
   struct eventinfo *ei = (struct eventinfo *)ei_gp;
   struct eventinfo *ei_dup;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
-  ei_dup = (struct eventinfo *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
+  ei_dup = (struct eventinfo *)return_value_xmalloc_1;
   memcpy((void *)ei_dup, (const void *)ei, sizeof(struct eventinfo) /*40ul*/ );
   return (void *)ei_dup;
 }
@@ -5656,7 +5656,7 @@ extern void error_init_ipc(enum ipc_type _ipc_type)
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
       error_mutex_p = &error_mutex;
-      pthread_mutex_init(error_mutex_p, (const union anonymous$0 *)(void *)0);
+      pthread_mutex_init(error_mutex_p, (const union anonymous_0 *)(void *)0);
       break;
     }
     default:
@@ -5688,7 +5688,7 @@ static inline struct event * event_pop()
 
 // event_push
 // file mon_gio.c line 64
-static inline signed int event_push(char *path, unsigned long int handle_id, enum anonymous$8 event, enum eventobjtype objtype_event, enum eventobjtype objtype_old, enum eventobjtype objtype_new)
+static inline signed int event_push(char *path, unsigned long int handle_id, enum anonymous_8 event, enum eventobjtype objtype_event, enum eventobjtype objtype_old, enum eventobjtype objtype_new)
 {
   struct event *ev;
   pthread_spin_lock(&queue_lock);
@@ -5698,14 +5698,14 @@ static inline signed int event_push(char *path, unsigned long int handle_id, enu
     if(queue_alloc >= 1024)
       _critical("event_push", "Assert: queue_alloc >= (1024*1024)");
 
-    void *return_value_xrealloc$1;
-    return_value_xrealloc$1=xrealloc((void *)queue, (unsigned long int)queue_alloc * sizeof(struct event) /*32ul*/ );
-    queue = (struct event *)return_value_xrealloc$1;
+    void *return_value_xrealloc_1;
+    return_value_xrealloc_1=xrealloc((void *)queue, (unsigned long int)queue_alloc * sizeof(struct event) /*32ul*/ );
+    queue = (struct event *)return_value_xrealloc_1;
   }
 
-  signed int tmp_post$2 = queue_length;
+  signed int tmp_post_2 = queue_length;
   queue_length = queue_length + 1;
-  ev = &queue[(signed long int)tmp_post$2];
+  ev = &queue[(signed long int)tmp_post_2];
   ev->path = path;
   ev->event_id = event;
   ev->handle_id = handle_id;
@@ -5765,9 +5765,9 @@ static inline void evinfo_merge(struct ctx *ctx_p, struct eventinfo *evinfo_dst,
 // file sync.c line 506
 signed int exec_argv(char **argv, signed int *child_pid)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  _debug(3, "exec_argv", "Thread %p.", return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  _debug(3, "exec_argv", "Thread %p.", return_value_pthread_self_1);
   signed int pid;
   signed int status;
   pid=_privileged_fork_execvp(argv[(signed long int)0], (char * const *)argv);
@@ -5775,23 +5775,23 @@ signed int exec_argv(char **argv, signed int *child_pid)
   if(!(child_pid == ((signed int *)NULL)))
     *child_pid = pid;
 
-  signed int return_value_waitpid$4;
-  return_value_waitpid$4=waitpid(pid, &status, 0);
-  if(!(return_value_waitpid$4 == pid))
+  signed int return_value_waitpid_4;
+  return_value_waitpid_4=waitpid(pid, &status, 0);
+  if(!(return_value_waitpid_4 == pid))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 10)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 10)
       _debug(2, "exec_argv", "Child %u is already dead.", pid);
 
     _error("exec_argv", "Cannot waitid().");
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$13
+union anonymous_13
 {
   // __in
   signed int __in;
@@ -5801,9 +5801,9 @@ union anonymous$13
 
 /* */
   ;
-  signed int exec_argv$$1$$exitcode = (((union anonymous$13){ .__in=status }).__i & 0xff00) >> 8;
-  _debug(3, "exec_argv", "execution completed with exitcode %i", exec_argv$$1$$exitcode);
-  return exec_argv$$1$$exitcode;
+  signed int exec_argv__1__exitcode = (((union anonymous_13){ .__in=status }).__i & 0xff00) >> 8;
+  _debug(3, "exec_argv", "execution completed with exitcode %i", exec_argv__1__exitcode);
+  return exec_argv__1__exitcode;
 }
 
 // exitcode_process
@@ -5812,11 +5812,11 @@ signed int exitcode_process(struct ctx *ctx_p, signed int exitcode)
 {
   signed int err;
   err=_exitcode_process(ctx_p, exitcode);
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   if(!(err == 0))
   {
-    return_value_strerror$1=strerror(exitcode);
-    _error("exitcode_process", "Got error-report from exitcode_process().\nExitcode is %i, strerror(%i) returns \"%s\". However strerror() is not ensures compliance between exitcode and error description for every utility. So, e.g if you're using rsync, you should look for the error description into rsync's manpage (\"man 1 rsync\"). Also some advices about diagnostics can be found in clsync's manpage (\"man 1 clsync\", see DIAGNOSTICS)", exitcode, exitcode, return_value_strerror$1);
+    return_value_strerror_1=strerror(exitcode);
+    _error("exitcode_process", "Got error-report from exitcode_process().\nExitcode is %i, strerror(%i) returns \"%s\". However strerror() is not ensures compliance between exitcode and error description for every utility. So, e.g if you're using rsync, you should look for the error description into rsync's manpage (\"man 1 rsync\"). Also some advices about diagnostics can be found in clsync's manpage (\"man 1 clsync\", see DIAGNOSTICS)", exitcode, exitcode, return_value_strerror_1);
   }
 
   return err;
@@ -5830,21 +5830,21 @@ char * fd2fpath_malloc(signed int fd)
   if(!(fd >= 1))
   {
     _error("fd2fpath_malloc", "Invalid file descriptor supplied: fd2fpath_malloc(%i).", fd);
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (char *)(void *)0;
   }
 
   char *fpath;
-  void *return_value_xmalloc$2;
-  return_value_xmalloc$2=xmalloc((unsigned long int)((1 << 8) + 2));
-  fpath = (char *)return_value_xmalloc$2;
+  void *return_value_xmalloc_2;
+  return_value_xmalloc_2=xmalloc((unsigned long int)((1 << 8) + 2));
+  fpath = (char *)return_value_xmalloc_2;
   sprintf(fpath, "/proc/self/fd/%i", fd);
-  signed int return_value_lstat64$3;
-  return_value_lstat64$3=lstat64(fpath, &st64);
-  void *return_value_xrealloc$4;
-  if(!(return_value_lstat64$3 == 0))
+  signed int return_value_lstat64_3;
+  return_value_lstat64_3=lstat64(fpath, &st64);
+  void *return_value_xrealloc_4;
+  if(!(return_value_lstat64_3 == 0))
   {
     _error("fd2fpath_malloc", "Cannot lstat64(\"%s\", st64).", fpath);
     return (char *)(void *)0;
@@ -5855,8 +5855,8 @@ char * fd2fpath_malloc(signed int fd)
     signed long int fpathlen = st64.st_size;
     if(fpathlen >= 257l)
     {
-      return_value_xrealloc$4=xrealloc((void *)fpath, (unsigned long int)(fpathlen + (signed long int)2));
-      fpath = (char *)return_value_xrealloc$4;
+      return_value_xrealloc_4=xrealloc((void *)fpath, (unsigned long int)(fpathlen + (signed long int)2));
+      fpath = (char *)return_value_xrealloc_4;
     }
 
     _debug(3, "fd2fpath_malloc", "Getting file path from symlink \"%s\". Path length is: %i.", fpath, fpathlen);
@@ -5880,13 +5880,13 @@ char * fd2fpath_malloc(signed int fd)
 // file sync.c line 1946
 signed int fileischanged(struct ctx *ctx_p, struct indexes *indexes_p, const char *path_rel, struct stat64 *lstat_p, signed int is_deleted)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(lstat_p == ((struct stat64 *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(ctx_p->flags[(signed long int)555] != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(ctx_p->flags[(signed long int)555] != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 1;
 
   else
@@ -5896,9 +5896,9 @@ signed int fileischanged(struct ctx *ctx_p, struct indexes *indexes_p, const cha
     if(!(finfo == ((struct fileinfo *)NULL)))
     {
       unsigned int diff;
-      unsigned int return_value_stat_diff$2;
-      return_value_stat_diff$2=stat_diff(&finfo->lstat, lstat_p);
-      diff = return_value_stat_diff$2 & (unsigned int)ctx_p->flags[(signed long int)555];
+      unsigned int return_value_stat_diff_2;
+      return_value_stat_diff_2=stat_diff(&finfo->lstat, lstat_p);
+      diff = return_value_stat_diff_2 & (unsigned int)ctx_p->flags[(signed long int)555];
       if(diff == 0u)
       {
         _debug(8, "fileischanged", "Modification signature: File not changed: \"%s\"", path_rel);
@@ -5923,9 +5923,9 @@ signed int fileischanged(struct ctx *ctx_p, struct indexes *indexes_p, const cha
     else
     {
       _debug(8, "fileischanged", "There's no information about this file/dir: \"%s\". Just remembering the current state.", path_rel);
-      void *return_value_xmalloc$3;
-      return_value_xmalloc$3=xmalloc(sizeof(struct fileinfo) /*144ul*/ );
-      finfo = (struct fileinfo *)return_value_xmalloc$3;
+      void *return_value_xmalloc_3;
+      return_value_xmalloc_3=xmalloc(sizeof(struct fileinfo) /*144ul*/ );
+      finfo = (struct fileinfo *)return_value_xmalloc_3;
       memcpy((void *)&finfo->lstat, (const void *)lstat_p, sizeof(struct stat64) /*144ul*/ );
       indexes_fileinfo_add(indexes_p, path_rel, finfo);
     }
@@ -5942,36 +5942,36 @@ signed short int fileutils_calcdirlevel(const char *path)
   if(path == ((const char *)NULL))
   {
     _error("fileutils_calcdirlevel", "path is NULL.");
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (signed short int)-1;
   }
 
   if((signed int)*path == 0)
   {
     _error("fileutils_calcdirlevel", "path has zero length.");
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return (signed short int)-2;
   }
 
   if(!((signed int)*path == 47))
   {
     _error("fileutils_calcdirlevel", "path \"%s\" is not canonized.", path);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 22;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 22;
     return (signed short int)-3;
   }
 
-  const char *tmp_post$4;
+  const char *tmp_post_4;
   do
   {
-    tmp_post$4 = ptr;
+    tmp_post_4 = ptr;
     ptr = ptr + 1l;
-    if(*tmp_post$4 == 0)
+    if(*tmp_post_4 == 0)
       break;
 
     if((signed int)*ptr == 47)
@@ -5993,25 +5993,25 @@ signed int fileutils_copy(const char *path_from, const char *path_to)
   if(from == ((struct _IO_FILE *)NULL))
   {
     _error("fileutils_copy", "fileutils_copy(\"%s\", \"%s\"): Cannot open file \"%s\" for reading", path_from, path_to, path_from);
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   to=fopen(path_to, "w");
   if(to == ((struct _IO_FILE *)NULL))
   {
     _error("fileutils_copy", "fileutils_copy(\"%s\", \"%s\"): Cannot open file \"%s\" for writing", path_from, path_to, path_to);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    return *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    return *return_value___errno_location_2;
   }
 
-  signed int return_value_feof$3;
+  signed int return_value_feof_3;
   do
   {
-    return_value_feof$3=feof(from);
-    if(!(return_value_feof$3 == 0))
+    return_value_feof_3=feof(from);
+    if(!(return_value_feof_3 == 0))
       break;
 
     signed int err;
@@ -6022,9 +6022,9 @@ signed int fileutils_copy(const char *path_from, const char *path_to)
     if(!(err == 0))
     {
       _error("fileutils_copy", "fileutils_copy(\"%s\", \"%s\"): Cannot read from file \"%s\"", path_from, path_to, path_from);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      return *return_value___errno_location$4;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      return *return_value___errno_location_4;
     }
 
     w=fwrite((const void *)buf, (unsigned long int)1, r, to);
@@ -6032,17 +6032,17 @@ signed int fileutils_copy(const char *path_from, const char *path_to)
     if(!(err == 0))
     {
       _error("fileutils_copy", "fileutils_copy(\"%s\", \"%s\"): Cannot write to file \"%s\"", path_from, path_to, path_to);
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      return *return_value___errno_location$5;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      return *return_value___errno_location_5;
     }
 
     if(!(r == w))
     {
       _error("fileutils_copy", "fileutils_copy(\"%s\", \"%s\"): Got error while writing to file \"%s\" (%u != %u)", path_from, path_to, path_to, r, w);
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      return *return_value___errno_location$6;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      return *return_value___errno_location_6;
     }
 
   }
@@ -6119,7 +6119,7 @@ extern struct _GHashTable * g_hash_table_dup(struct _GHashTable *src, unsigned i
   struct _GHashTable *dst;
   dst=g_hash_table_new_full(hash_funct, key_equal_funct, key_destroy_funct, value_destroy_funct);
   struct keyvalue_copy_arg arg;
-  arg.$anon0.ht_dst = dst;
+  arg._anon0.ht_dst = dst;
   arg.k_dup_funct = key_dup_funct;
   arg.v_dup_funct = value_dup_funct;
   g_hash_table_foreach(src, g_hash_table_dup_item, (void *)&arg);
@@ -6130,30 +6130,30 @@ extern struct _GHashTable * g_hash_table_dup(struct _GHashTable *src, unsigned i
 // file glibex.c line 33
 void g_hash_table_dup_item(void *k, void *v, void *arg_gp)
 {
-  struct _GHashTable *ht_dst = ((struct keyvalue_copy_arg *)arg_gp)->$anon0.ht_dst;
+  struct _GHashTable *ht_dst = ((struct keyvalue_copy_arg *)arg_gp)->_anon0.ht_dst;
   void * (*k_dup_funct)(void *) = ((struct keyvalue_copy_arg *)arg_gp)->k_dup_funct;
   void * (*v_dup_funct)(void *) = ((struct keyvalue_copy_arg *)arg_gp)->v_dup_funct;
-  void *tmp_if_expr$1;
+  void *tmp_if_expr_1;
   void *return_value;
   if(k_dup_funct == ((void * (*)(void *))NULL))
-    tmp_if_expr$1 = (void *)0;
+    tmp_if_expr_1 = (void *)0;
 
   else
   {
     return_value=k_dup_funct(k);
-    tmp_if_expr$1 = return_value;
+    tmp_if_expr_1 = return_value;
   }
-  void *tmp_if_expr$2;
+  void *tmp_if_expr_2;
   void *return_value_1;
   if(v_dup_funct == ((void * (*)(void *))NULL))
-    tmp_if_expr$2 = (void *)0;
+    tmp_if_expr_2 = (void *)0;
 
   else
   {
     return_value_1=v_dup_funct(v);
-    tmp_if_expr$2 = return_value_1;
+    tmp_if_expr_2 = return_value_1;
   }
-  g_hash_table_insert(ht_dst, tmp_if_expr$1, tmp_if_expr$2);
+  g_hash_table_insert(ht_dst, tmp_if_expr_1, tmp_if_expr_2);
   goto __CPROVER_DUMP_L5;
 
 __CPROVER_DUMP_L5:
@@ -6168,16 +6168,16 @@ void * g_iteration_stop(void *_timeout_p)
   struct timeval tv_abs;
   struct timeval timeout_abs;
   struct timespec ts_abs;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&gio_mutex_prefetcher);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&gio_mutex_prefetcher);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
     _critical("g_iteration_stop", "Assert: pthread_mutex_lock(&gio_mutex_prefetcher)");
 
   if(!(cancel_g_iteration_stop == 0))
   {
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&gio_mutex_prefetcher);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&gio_mutex_prefetcher);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
       _critical("g_iteration_stop", "Assert: pthread_mutex_unlock(&gio_mutex_prefetcher)");
 
     return (void *)0;
@@ -6203,10 +6203,10 @@ void * g_iteration_stop(void *_timeout_p)
     while((_Bool)0);
     ts_abs.tv_sec = timeout_abs.tv_sec;
     ts_abs.tv_nsec = timeout_abs.tv_usec * (signed long int)1000;
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3=pthread_cond_timedwait(&gio_cond_gotevent, &gio_mutex_prefetcher, &ts_abs);
-    if(*return_value___errno_location$3 == 0 || *return_value___errno_location$3 == 110)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3=pthread_cond_timedwait(&gio_cond_gotevent, &gio_mutex_prefetcher, &ts_abs);
+    if(*return_value___errno_location_3 == 0 || *return_value___errno_location_3 == 110)
       goto __CPROVER_DUMP_L13;
 
     _critical("g_iteration_stop", "Got error while pthread_cond_timedwait(&gio_cond_gotevent, &gio_mutex_prefetcher, &ts_abs)");
@@ -6226,7 +6226,7 @@ extern struct _GTree * g_tree_dup(struct _GTree *src, signed int (*key_compare_f
   struct _GTree *dst;
   dst=g_tree_new_full(key_compare_func, key_compare_data, key_destroy_func, value_destroy_func);
   struct keyvalue_copy_arg arg;
-  arg.$anon0.bt_dst = dst;
+  arg._anon0.bt_dst = dst;
   arg.k_dup_funct = key_dup_funct;
   arg.v_dup_funct = value_dup_funct;
   g_tree_foreach(src, g_tree_dup_item, (void *)&arg);
@@ -6237,30 +6237,30 @@ extern struct _GTree * g_tree_dup(struct _GTree *src, signed int (*key_compare_f
 // file glibex.c line 56
 signed int g_tree_dup_item(void *k, void *v, void *arg_gp)
 {
-  struct _GTree *bt_dst = ((struct keyvalue_copy_arg *)arg_gp)->$anon0.bt_dst;
+  struct _GTree *bt_dst = ((struct keyvalue_copy_arg *)arg_gp)->_anon0.bt_dst;
   void * (*k_dup_funct)(void *) = ((struct keyvalue_copy_arg *)arg_gp)->k_dup_funct;
   void * (*v_dup_funct)(void *) = ((struct keyvalue_copy_arg *)arg_gp)->v_dup_funct;
-  void *tmp_if_expr$1;
+  void *tmp_if_expr_1;
   void *return_value;
   if(k_dup_funct == ((void * (*)(void *))NULL))
-    tmp_if_expr$1 = (void *)0;
+    tmp_if_expr_1 = (void *)0;
 
   else
   {
     return_value=k_dup_funct(k);
-    tmp_if_expr$1 = return_value;
+    tmp_if_expr_1 = return_value;
   }
-  void *tmp_if_expr$2;
+  void *tmp_if_expr_2;
   void *return_value_1;
   if(v_dup_funct == ((void * (*)(void *))NULL))
-    tmp_if_expr$2 = (void *)0;
+    tmp_if_expr_2 = (void *)0;
 
   else
   {
     return_value_1=v_dup_funct(v);
-    tmp_if_expr$2 = return_value_1;
+    tmp_if_expr_2 = return_value_1;
   }
-  g_tree_replace(bt_dst, tmp_if_expr$1, tmp_if_expr$2);
+  g_tree_replace(bt_dst, tmp_if_expr_1, tmp_if_expr_2);
   return 0;
 }
 
@@ -6271,28 +6271,28 @@ extern signed int gio_add_watch_dir(struct ctx *ctx_p, struct indexes *indexes_p
   struct filemondata *fmdat;
   struct _GError *error = (struct _GError *)(void *)0;
   _debug(3, "gio_add_watch_dir", "\"%s\"", accpath);
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(mondirs_ht, (const void *)accpath);
-  fmdat = (struct filemondata *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(mondirs_ht, (const void *)accpath);
+  fmdat = (struct filemondata *)return_value_g_hash_table_lookup_1;
   if(!(fmdat == ((struct filemondata *)NULL)))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 98;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 98;
     _warning("gio_add_watch_dir", "Directory \"%s\" is already monitored.", accpath);
     return -1;
   }
 
-  void *return_value_xmalloc$3;
-  return_value_xmalloc$3=xmalloc(sizeof(struct filemondata) /*32ul*/ );
-  fmdat = (struct filemondata *)return_value_xmalloc$3;
+  void *return_value_xmalloc_3;
+  return_value_xmalloc_3=xmalloc(sizeof(struct filemondata) /*32ul*/ );
+  fmdat = (struct filemondata *)return_value_xmalloc_3;
   fmdat->ctx_p = ctx_p;
   fmdat->file=g_file_new_for_path(accpath);
-  fmdat->filemon=g_file_monitor_directory(fmdat->file, (enum anonymous$9)0, (struct _GCancellable *)(void *)0, &error);
-  fmdat->handle_id=g_signal_connect_data((void *)fmdat->filemon, "changed", (void (*)(void))dir_gotevent, (void *)fmdat, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$5)0);
-  char *return_value_strdup$4;
-  return_value_strdup$4=strdup(accpath);
-  g_hash_table_replace(mondirs_ht, (void *)return_value_strdup$4, (void *)fmdat);
+  fmdat->filemon=g_file_monitor_directory(fmdat->file, (enum anonymous_9)0, (struct _GCancellable *)(void *)0, &error);
+  fmdat->handle_id=g_signal_connect_data((void *)fmdat->filemon, "changed", (void (*)(void))dir_gotevent, (void *)fmdat, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_5)0);
+  char *return_value_strdup_4;
+  return_value_strdup_4=strdup(accpath);
+  g_hash_table_replace(mondirs_ht, (void *)return_value_strdup_4, (void *)fmdat);
   return (signed int)fmdat->handle_id;
 }
 
@@ -6311,15 +6311,15 @@ extern signed int gio_handle(struct ctx *ctx_p, struct indexes *indexes_p)
   char *path_full = (char *)(void *)0;
   unsigned long int path_full_len = (unsigned long int)0;
   count = 0;
-  signed int return_value_gio_wait$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_lstat64$3;
+  signed int return_value_gio_wait_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_lstat64_3;
   do
   {
     static struct timeval tv = { .tv_sec=(signed long int)0, .tv_usec=0l };
-    return_value_gio_wait$1=gio_wait(ctx_p, indexes_p, &tv);
-    if(return_value_gio_wait$1 == 0)
+    return_value_gio_wait_1=gio_wait(ctx_p, indexes_p, &tv);
+    if(return_value_gio_wait_1 == 0)
       break;
 
     struct event *ev;
@@ -6329,19 +6329,19 @@ extern signed int gio_handle(struct ctx *ctx_p, struct indexes *indexes_p)
     unsigned int st_mode;
     unsigned long int st_size;
     if((signed int)ev->objtype_new == EOT_DOESNTEXIST)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (ctx_p->flags[(signed long int)556] & 1) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_2 = (ctx_p->flags[(signed long int)556] & 1) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_lstat64$3=lstat64(ev->path, &lstat);
-      tmp_if_expr$4 = return_value_lstat64$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_lstat64_3=lstat64(ev->path, &lstat);
+      tmp_if_expr_4 = return_value_lstat64_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       _debug(2, "gio_handle", "Cannot lstat64(\"%s\", lstat). Seems, that the object had been deleted (%i) or option \"--cancel-syscalls mon_stat\" (%i) is set.", ev->path, (signed int)ev->objtype_new == EOT_DOESNTEXIST, ctx_p->flags[(signed long int)556] & 1);
       st_mode = (unsigned int)((signed int)ev->objtype_event == EOT_DIR ? 0040000 : 0100000);
@@ -6355,9 +6355,9 @@ extern signed int gio_handle(struct ctx *ctx_p, struct indexes *indexes_p)
       st_size = (unsigned long int)lstat.st_size;
       lstat_p = &lstat;
     }
-    signed int return_value_sync_prequeue_loadmark$5;
-    return_value_sync_prequeue_loadmark$5=sync_prequeue_loadmark(1, ctx_p, indexes_p, (const char *)(void *)0, ev->path, lstat_p, ev->objtype_old, ev->objtype_new, (unsigned int)ev->event_id, (signed int)ev->handle_id, st_mode, (signed long int)st_size, &path_full, &path_full_len, (struct eventinfo *)(void *)0);
-    if(!(return_value_sync_prequeue_loadmark$5 == 0))
+    signed int return_value_sync_prequeue_loadmark_5;
+    return_value_sync_prequeue_loadmark_5=sync_prequeue_loadmark(1, ctx_p, indexes_p, (const char *)(void *)0, ev->path, lstat_p, ev->objtype_old, ev->objtype_new, (unsigned int)ev->event_id, (signed int)ev->handle_id, st_mode, (signed long int)st_size, &path_full, &path_full_len, (struct eventinfo *)(void *)0);
+    if(!(return_value_sync_prequeue_loadmark_5 == 0))
     {
       event_free(ev);
       count = -1;
@@ -6379,8 +6379,8 @@ extern signed int gio_init(struct ctx *ctx_p)
 {
   queue_length = 0;
   queue_alloc = 0;
-  pthread_mutex_init(&gio_mutex_prefetcher, (const union anonymous$0 *)(void *)0);
-  pthread_cond_init(&gio_cond_gotevent, (const union anonymous$0 *)(void *)0);
+  pthread_mutex_init(&gio_mutex_prefetcher, (const union anonymous_0 *)(void *)0);
+  pthread_cond_init(&gio_cond_gotevent, (const union anonymous_0 *)(void *)0);
   pthread_spin_init(&queue_lock, 1);
   mondirs_ht=g_hash_table_new_full(g_str_hash, g_str_equal, free, free_filemondat);
   gio_loop=g_main_loop_new((struct _GMainContext *)(void *)0, (signed int)!(0 != 0));
@@ -6393,9 +6393,9 @@ extern signed int gio_init(struct ctx *ctx_p)
 extern signed int gio_wait(struct ctx *ctx_p, struct indexes *indexes_p, struct timeval *tv_p)
 {
   signed int ret;
-  signed int return_value_pthread_spin_lock$1;
+  signed int return_value_pthread_spin_lock_1;
   ret=gio_wait_now(ctx_p, indexes_p, tv_p);
-  signed int return_value_pthread_spin_unlock$2;
+  signed int return_value_pthread_spin_unlock_2;
   return ret;
 }
 
@@ -6405,24 +6405,24 @@ static inline signed int gio_wait_now(struct ctx *ctx_p, struct indexes *indexes
 {
   void *ret;
   signed int result;
-  signed long int tmp_if_expr$1;
-  signed long int tmp_if_expr$2;
+  signed long int tmp_if_expr_1;
+  signed long int tmp_if_expr_2;
   if(tv_p == ((struct timeval *)NULL))
-    tmp_if_expr$1 = (signed long int)-1;
+    tmp_if_expr_1 = (signed long int)-1;
 
   else
-    tmp_if_expr$1 = tv_p->tv_sec;
+    tmp_if_expr_1 = tv_p->tv_sec;
   if(tv_p == ((struct timeval *)NULL))
-    tmp_if_expr$2 = (signed long int)0;
+    tmp_if_expr_2 = (signed long int)0;
 
   else
-    tmp_if_expr$2 = tv_p->tv_usec;
-  _debug(3, "gio_wait_now", "(ctx_p, indexes_p, %p {%u, %u})", tv_p, tmp_if_expr$1, tmp_if_expr$2);
+    tmp_if_expr_2 = tv_p->tv_usec;
+  _debug(3, "gio_wait_now", "(ctx_p, indexes_p, %p {%u, %u})", tv_p, tmp_if_expr_1, tmp_if_expr_2);
   if(tv_p == ((struct timeval *)NULL))
     _critical("gio_wait_now", "Assert: tv_p == ((void *)0)");
 
-  signed int return_value_pthread_spin_unlock$3;
-  signed int return_value_pthread_spin_lock$4;
+  signed int return_value_pthread_spin_unlock_3;
+  signed int return_value_pthread_spin_lock_4;
   if(!(queue_length == 0))
     return queue_length;
 
@@ -6444,25 +6444,25 @@ static inline signed int gio_wait_now(struct ctx *ctx_p, struct indexes *indexes
       cancel_g_iteration_stop = 0;
       pthread_create(&thread_g_iteration_stop, (const union pthread_attr_t *)(void *)0, g_iteration_stop, (void *)tv_p);
       result=g_main_context_iteration((struct _GMainContext *)(void *)0, (signed int)!(0 != 0));
-      signed int return_value_pthread_mutex_lock$5;
-      return_value_pthread_mutex_lock$5=pthread_mutex_lock(&gio_mutex_prefetcher);
-      if(!(return_value_pthread_mutex_lock$5 == 0))
+      signed int return_value_pthread_mutex_lock_5;
+      return_value_pthread_mutex_lock_5=pthread_mutex_lock(&gio_mutex_prefetcher);
+      if(!(return_value_pthread_mutex_lock_5 == 0))
         _critical("gio_wait_now", "Assert: pthread_mutex_lock(&gio_mutex_prefetcher)");
 
       cancel_g_iteration_stop = 1;
-      signed int return_value_pthread_mutex_unlock$6;
-      return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&gio_mutex_prefetcher);
-      if(!(return_value_pthread_mutex_unlock$6 == 0))
+      signed int return_value_pthread_mutex_unlock_6;
+      return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&gio_mutex_prefetcher);
+      if(!(return_value_pthread_mutex_unlock_6 == 0))
         _critical("gio_wait_now", "Assert: pthread_mutex_unlock(&gio_mutex_prefetcher)");
 
-      signed int return_value_pthread_cond_broadcast$7;
-      return_value_pthread_cond_broadcast$7=pthread_cond_broadcast(&gio_cond_gotevent);
-      if(!(return_value_pthread_cond_broadcast$7 == 0))
+      signed int return_value_pthread_cond_broadcast_7;
+      return_value_pthread_cond_broadcast_7=pthread_cond_broadcast(&gio_cond_gotevent);
+      if(!(return_value_pthread_cond_broadcast_7 == 0))
         _critical("gio_wait_now", "Assert: pthread_cond_broadcast(&gio_cond_gotevent)");
 
-      signed int return_value_pthread_join$8;
-      return_value_pthread_join$8=pthread_join(thread_g_iteration_stop, &ret);
-      if(!(return_value_pthread_join$8 == 0))
+      signed int return_value_pthread_join_8;
+      return_value_pthread_join_8=pthread_join(thread_g_iteration_stop, &ret);
+      if(!(return_value_pthread_join_8 == 0))
         _critical("gio_wait_now", "Assert: pthread_join(thread_g_iteration_stop, &ret)");
 
       return queue_length;
@@ -6517,8 +6517,8 @@ __CPROVER_DUMP_L10:
 void hook_preexit(struct ctx *ctx_p)
 {
   _debug(2, "hook_preexit", "\"%s\" \"%s\"", ctx_p->preexithookfile, ctx_p->label);
-  char *hook_preexit$$1$$argv[3l] = { ctx_p->preexithookfile, ctx_p->label, (char *)(void *)0 };
-  exec_argv(hook_preexit$$1$$argv, (signed int *)(void *)0);
+  char *hook_preexit__1__argv[3l] = { ctx_p->preexithookfile, ctx_p->label, (char *)(void *)0 };
+  exec_argv(hook_preexit__1__argv, (signed int *)(void *)0);
   goto __CPROVER_DUMP_L2;
 
 __CPROVER_DUMP_L2:
@@ -6532,9 +6532,9 @@ struct eventinfo * ht_fpath_isincluded(struct _GHashTable *ht, const char * cons
   char *ptr;
   char *end;
   struct eventinfo *evinfo;
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(ht, (const void *)fpath);
-  evinfo = (struct eventinfo *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(ht, (const void *)fpath);
+  evinfo = (struct eventinfo *)return_value_g_hash_table_lookup_1;
   _debug(5, "ht_fpath_isincluded", "looking up for \"%s\": %p", fpath, evinfo);
   if(!(evinfo == ((struct eventinfo *)NULL)))
     return evinfo;
@@ -6545,9 +6545,9 @@ struct eventinfo * ht_fpath_isincluded(struct _GHashTable *ht, const char * cons
 
     else
     {
-      void *return_value_g_hash_table_lookup$2;
-      return_value_g_hash_table_lookup$2=g_hash_table_lookup(ht, (const void *)"");
-      evinfo = (struct eventinfo *)return_value_g_hash_table_lookup$2;
+      void *return_value_g_hash_table_lookup_2;
+      return_value_g_hash_table_lookup_2=g_hash_table_lookup(ht, (const void *)"");
+      evinfo = (struct eventinfo *)return_value_g_hash_table_lookup_2;
       if(!(evinfo == ((struct eventinfo *)NULL)))
       {
         _debug(5, "ht_fpath_isincluded", "recursive looking up for \"\": %p (%x: recusively: %x)", evinfo, evinfo->flags, evinfo->flags & (unsigned int)EVIF_RECURSIVELY);
@@ -6572,9 +6572,9 @@ struct eventinfo * ht_fpath_isincluded(struct _GHashTable *ht, const char * cons
           if((signed int)*ptr == 47)
           {
             *ptr = (char)0;
-            void *return_value_g_hash_table_lookup$3;
-            return_value_g_hash_table_lookup$3=g_hash_table_lookup(ht, (const void *)buf);
-            evinfo = (struct eventinfo *)return_value_g_hash_table_lookup$3;
+            void *return_value_g_hash_table_lookup_3;
+            return_value_g_hash_table_lookup_3=g_hash_table_lookup(ht, (const void *)buf);
+            evinfo = (struct eventinfo *)return_value_g_hash_table_lookup_3;
             if(!(evinfo == ((struct eventinfo *)NULL)))
             {
               _debug(5, "ht_fpath_isincluded", "recursive looking up for \"%s\": %p (%x: recusively: %x)", (const void *)buf, evinfo, evinfo->flags, evinfo->flags & (unsigned int)EVIF_RECURSIVELY);
@@ -6597,9 +6597,9 @@ static inline signed int indexes_add_wd(struct indexes *indexes_p, signed int wd
 {
   _debug(4, "indexes_add_wd", "indexes_add_wd(indexes_p, %i, \"%s\", %i)", wd, fpath_const, fpathlen);
   char *fpath;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(fpathlen + (unsigned long int)1);
-  fpath = (char *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(fpathlen + (unsigned long int)1);
+  fpath = (char *)return_value_xmalloc_1;
   memcpy((void *)fpath, (const void *)fpath_const, fpathlen + (unsigned long int)1);
   g_hash_table_insert(indexes_p->wd2fpath_ht, (void *)(signed long int)wd, (void *)fpath);
   g_hash_table_insert(indexes_p->fpath2wd_ht, (void *)fpath, (void *)(signed long int)wd);
@@ -6611,9 +6611,9 @@ static inline signed int indexes_add_wd(struct indexes *indexes_p, signed int wd
 static inline signed int indexes_addexclude(struct indexes *indexes_p, char *fpath, enum eventinfo_flags flags, enum queue_id queue_id)
 {
   g_hash_table_replace(indexes_p->exc_fpath_coll_ht[(signed long int)queue_id], (void *)fpath, (void *)(signed long int)flags);
-  unsigned int return_value_g_hash_table_size$1;
-  return_value_g_hash_table_size$1=g_hash_table_size(indexes_p->exc_fpath_coll_ht[(signed long int)queue_id]);
-  _debug(3, "indexes_addexclude", "indexes_addexclude(indexes_p, \"%s\", %i). It's now %i events collected in queue %i.", fpath, queue_id, return_value_g_hash_table_size$1, queue_id);
+  unsigned int return_value_g_hash_table_size_1;
+  return_value_g_hash_table_size_1=g_hash_table_size(indexes_p->exc_fpath_coll_ht[(signed long int)queue_id]);
+  _debug(3, "indexes_addexclude", "indexes_addexclude(indexes_p, \"%s\", %i). It's now %i events collected in queue %i.", fpath, queue_id, return_value_g_hash_table_size_1, queue_id);
   return 0;
 }
 
@@ -6639,9 +6639,9 @@ static inline signed int indexes_addexclude_aggr(struct indexes *indexes_p, char
 // file indexes.h line 176
 static inline struct fileinfo * indexes_fileinfo(struct indexes *indexes_p, const char *fpath)
 {
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(indexes_p->fileinfo_ht, (const void *)fpath);
-  return (struct fileinfo *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(indexes_p->fileinfo_ht, (const void *)fpath);
+  return (struct fileinfo *)return_value_g_hash_table_lookup_1;
 }
 
 // indexes_fileinfo_add
@@ -6652,9 +6652,9 @@ static inline signed int indexes_fileinfo_add(struct indexes *indexes_p, const c
   fpathlen=strlen(fpath_const);
   _debug(4, "indexes_fileinfo_add", "indexes_add_wd(indexes_p, \"%s\", %p)", fpath_const, fpathlen);
   char *fpath;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(fpathlen + (unsigned long int)1);
-  fpath = (char *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(fpathlen + (unsigned long int)1);
+  fpath = (char *)return_value_xmalloc_1;
   memcpy((void *)fpath, (const void *)fpath_const, fpathlen + (unsigned long int)1);
   g_hash_table_insert(indexes_p->fileinfo_ht, (void *)fpath, (void *)fi);
   return 0;
@@ -6664,9 +6664,9 @@ static inline signed int indexes_fileinfo_add(struct indexes *indexes_p, const c
 // file indexes.h line 101
 static inline struct eventinfo * indexes_fpath2ei(struct indexes *indexes_p, const char *fpath)
 {
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(indexes_p->fpath2ei_ht, (const void *)fpath);
-  return (struct eventinfo *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(indexes_p->fpath2ei_ht, (const void *)fpath);
+  return (struct eventinfo *)return_value_g_hash_table_lookup_1;
 }
 
 // indexes_fpath2ei_add
@@ -6695,9 +6695,9 @@ static inline signed int indexes_fpath2wd(struct indexes *indexes_p, const char 
 // file indexes.h line 120
 static inline struct eventinfo * indexes_lookupinqueue(struct indexes *indexes_p, const char *fpath, enum queue_id queue_id)
 {
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id], (const void *)fpath);
-  return (struct eventinfo *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id], (const void *)fpath);
+  return (struct eventinfo *)return_value_g_hash_table_lookup_1;
 }
 
 // indexes_outaggr_add
@@ -6722,9 +6722,9 @@ static inline signed int indexes_outaggr_add(struct indexes *indexes_p, char *ou
 static inline signed int indexes_queueevent(struct indexes *indexes_p, char *fpath, struct eventinfo *evinfo, enum queue_id queue_id)
 {
   g_hash_table_replace(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id], (void *)fpath, (void *)evinfo);
-  unsigned int return_value_g_hash_table_size$1;
-  return_value_g_hash_table_size$1=g_hash_table_size(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id]);
-  _debug(3, "indexes_queueevent", "indexes_queueevent(indexes_p, \"%s\", evinfo, %i). It's now %i events collected in queue %i.", fpath, queue_id, return_value_g_hash_table_size$1, queue_id);
+  unsigned int return_value_g_hash_table_size_1;
+  return_value_g_hash_table_size_1=g_hash_table_size(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id]);
+  _debug(3, "indexes_queueevent", "indexes_queueevent(indexes_p, \"%s\", evinfo, %i). It's now %i events collected in queue %i.", fpath, queue_id, return_value_g_hash_table_size_1, queue_id);
   return 0;
 }
 
@@ -6732,9 +6732,9 @@ static inline signed int indexes_queueevent(struct indexes *indexes_p, char *fpa
 // file indexes.h line 124
 static inline signed int indexes_queuelen(struct indexes *indexes_p, enum queue_id queue_id)
 {
-  unsigned int return_value_g_hash_table_size$1;
-  return_value_g_hash_table_size$1=g_hash_table_size(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id]);
-  return (signed int)return_value_g_hash_table_size$1;
+  unsigned int return_value_g_hash_table_size_1;
+  return_value_g_hash_table_size_1=g_hash_table_size(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id]);
+  return (signed int)return_value_g_hash_table_size_1;
 }
 
 // indexes_remove_bywd
@@ -6743,12 +6743,12 @@ static inline signed int indexes_remove_bywd(struct indexes *indexes_p, signed i
 {
   signed int ret = 0;
   char *fpath;
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(indexes_p->wd2fpath_ht, (void *)(signed long int)wd);
-  fpath = (char *)return_value_g_hash_table_lookup$1;
-  signed int return_value_g_hash_table_remove$2;
-  return_value_g_hash_table_remove$2=g_hash_table_remove(indexes_p->wd2fpath_ht, (void *)(signed long int)wd);
-  ret = ret | return_value_g_hash_table_remove$2;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(indexes_p->wd2fpath_ht, (void *)(signed long int)wd);
+  fpath = (char *)return_value_g_hash_table_lookup_1;
+  signed int return_value_g_hash_table_remove_2;
+  return_value_g_hash_table_remove_2=g_hash_table_remove(indexes_p->wd2fpath_ht, (void *)(signed long int)wd);
+  ret = ret | return_value_g_hash_table_remove_2;
   if(fpath == ((char *)NULL))
   {
     _error("indexes_remove_bywd", "Cannot remove from index \"fpath2wd\" by wd %i.", wd);
@@ -6757,9 +6757,9 @@ static inline signed int indexes_remove_bywd(struct indexes *indexes_p, signed i
 
   else
   {
-    signed int return_value_g_hash_table_remove$3;
-    return_value_g_hash_table_remove$3=g_hash_table_remove(indexes_p->fpath2wd_ht, (const void *)fpath);
-    ret = ret | return_value_g_hash_table_remove$3;
+    signed int return_value_g_hash_table_remove_3;
+    return_value_g_hash_table_remove_3=g_hash_table_remove(indexes_p->fpath2wd_ht, (const void *)fpath);
+    ret = ret | return_value_g_hash_table_remove_3;
     return ret;
   }
 }
@@ -6769,9 +6769,9 @@ static inline signed int indexes_remove_bywd(struct indexes *indexes_p, signed i
 static inline signed int indexes_removefromqueue(struct indexes *indexes_p, char *fpath, enum queue_id queue_id)
 {
   g_hash_table_remove(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id], (const void *)fpath);
-  unsigned int return_value_g_hash_table_size$1;
-  return_value_g_hash_table_size$1=g_hash_table_size(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id]);
-  _debug(3, "indexes_removefromqueue", "indexes_removefromqueue(indexes_p, \"%s\", %i). It's now %i events collected in queue %i.", fpath, queue_id, return_value_g_hash_table_size$1, queue_id);
+  unsigned int return_value_g_hash_table_size_1;
+  return_value_g_hash_table_size_1=g_hash_table_size(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id]);
+  _debug(3, "indexes_removefromqueue", "indexes_removefromqueue(indexes_p, \"%s\", %i). It's now %i events collected in queue %i.", fpath, queue_id, return_value_g_hash_table_size_1, queue_id);
   return 0;
 }
 
@@ -6779,9 +6779,9 @@ static inline signed int indexes_removefromqueue(struct indexes *indexes_p, char
 // file indexes.h line 71
 static inline char * indexes_wd2fpath(struct indexes *indexes_p, signed int wd)
 {
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(indexes_p->wd2fpath_ht, (void *)(signed long int)wd);
-  return (char *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(indexes_p->wd2fpath_ht, (void *)(signed long int)wd);
+  return (char *)return_value_g_hash_table_lookup_1;
 }
 
 // inotify_add_watch_dir
@@ -6789,9 +6789,9 @@ static inline char * indexes_wd2fpath(struct indexes *indexes_p, signed int wd)
 extern signed int inotify_add_watch_dir(struct ctx *ctx_p, struct indexes *indexes_p, const char * const accpath)
 {
   signed int inotify_d = (signed int)(signed long int)ctx_p->fsmondata;
-  signed int return_value_inotify_add_watch$1;
-  return_value_inotify_add_watch$1=inotify_add_watch(inotify_d, accpath, (unsigned int)(0x00000004 | 0x00000008 | 0x00000100 | 0x00000200 | 0x00000400 | 0x00000800 | 0x00000040 | 0x00000080 | 0x00000002 | 0x02000000));
-  return return_value_inotify_add_watch$1;
+  signed int return_value_inotify_add_watch_1;
+  return_value_inotify_add_watch_1=inotify_add_watch(inotify_d, accpath, (unsigned int)(0x00000004 | 0x00000008 | 0x00000100 | 0x00000200 | 0x00000400 | 0x00000800 | 0x00000040 | 0x00000080 | 0x00000002 | 0x02000000));
+  return return_value_inotify_add_watch_1;
 }
 
 // inotify_deinit
@@ -6800,9 +6800,9 @@ extern signed int inotify_deinit(struct ctx *ctx_p)
 {
   signed int inotify_d = (signed int)(signed long int)ctx_p->fsmondata;
   _debug(3, "inotify_deinit", "Closing inotify_d");
-  signed int return_value_close$1;
-  return_value_close$1=close(inotify_d);
-  return return_value_close$1;
+  signed int return_value_close_1;
+  return_value_close_1=close(inotify_d);
+  return return_value_close_1;
 }
 
 // inotify_handle
@@ -6811,12 +6811,12 @@ extern signed int inotify_handle(struct ctx *ctx_p, struct indexes *indexes_p)
 {
   signed int inotify_d = (signed int)(signed long int)ctx_p->fsmondata;
   signed int count = 0;
-  struct anonymous$3 rfds;
+  struct anonymous_3 rfds;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&rfds)->fds_bits[(signed long int)(inotify_d / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rfds)->fds_bits[(signed long int)(inotify_d / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << inotify_d % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -6824,23 +6824,23 @@ extern signed int inotify_handle(struct ctx *ctx_p, struct indexes *indexes_p)
   unsigned long int path_rel_len = (unsigned long int)0;
   char *path_full = (char *)(void *)0;
   unsigned long int path_full_size = (unsigned long int)0;
-  signed int return_value_select$1;
-  char *tmp_if_expr$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_lstat64$7;
+  signed int return_value_select_1;
+  char *tmp_if_expr_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_lstat64_7;
   do
   {
     static struct timeval tv = { .tv_sec=(signed long int)0, .tv_usec=0l };
-    return_value_select$1=select(1024, &rfds, (struct anonymous$3 *)(void *)0, (struct anonymous$3 *)(void *)0, &tv);
-    if(return_value_select$1 == 0)
+    return_value_select_1=select(1024, &rfds, (struct anonymous_3 *)(void *)0, (struct anonymous_3 *)(void *)0, &tv);
+    if(return_value_select_1 == 0)
       break;
 
     char buf[8193l];
     unsigned long int r;
-    signed long int return_value_read$2;
-    return_value_read$2=read(inotify_d, (void *)buf, (unsigned long int)8192);
-    r = (unsigned long int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read(inotify_d, (void *)buf, (unsigned long int)8192);
+    r = (unsigned long int)return_value_read_2;
     if(!(r >= 1ul))
     {
       _error("inotify_handle", "Got error while reading events from inotify with read().");
@@ -6876,20 +6876,20 @@ extern signed int inotify_handle(struct ctx *ctx_p, struct indexes *indexes_p)
         else
         {
           if(event->len >= 1u)
-            tmp_if_expr$3 = event->name;
+            tmp_if_expr_3 = event->name;
 
           else
-            tmp_if_expr$3 = "";
-          _debug(2, "inotify_handle", "Event %p on \"%s\" (wd: %i; fpath: \"%s\").", (void *)(signed long int)event->mask, tmp_if_expr$3, event->wd, fpath);
+            tmp_if_expr_3 = "";
+          _debug(2, "inotify_handle", "Event %p on \"%s\" (wd: %i; fpath: \"%s\").", (void *)(signed long int)event->mask, tmp_if_expr_3, event->wd, fpath);
           unsigned long int path_full_memreq;
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(fpath);
-          path_full_memreq = return_value_strlen$4 + (unsigned long int)event->len + (unsigned long int)2;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(fpath);
+          path_full_memreq = return_value_strlen_4 + (unsigned long int)event->len + (unsigned long int)2;
           if(!(path_full_size >= path_full_memreq))
           {
-            void *return_value_xrealloc$5;
-            return_value_xrealloc$5=xrealloc((void *)path_full, path_full_memreq);
-            path_full = (char *)return_value_xrealloc$5;
+            void *return_value_xrealloc_5;
+            return_value_xrealloc_5=xrealloc((void *)path_full, path_full_memreq);
+            path_full = (char *)return_value_xrealloc_5;
             path_full_size = path_full_memreq;
           }
 
@@ -6898,28 +6898,28 @@ extern signed int inotify_handle(struct ctx *ctx_p, struct indexes *indexes_p)
 
           else
             sprintf(path_full, "%s", fpath);
-          struct recognize_event_return inotify_handle$$1$$2$$2$$r = { .objtype_old=(enum eventobjtype)0, .objtype_new=(enum eventobjtype)0 };
-          recognize_event(&inotify_handle$$1$$2$$2$$r, event->mask);
+          struct recognize_event_return inotify_handle__1__2__2__r = { .objtype_old=(enum eventobjtype)0, .objtype_new=(enum eventobjtype)0 };
+          recognize_event(&inotify_handle__1__2__2__r, event->mask);
           struct stat64 lstat;
           struct stat64 *lstat_p;
           unsigned int st_mode;
           unsigned long int st_size;
-          if((signed int)inotify_handle$$1$$2$$2$$r.objtype_new == EOT_DOESNTEXIST)
-            tmp_if_expr$6 = (_Bool)1;
+          if((signed int)inotify_handle__1__2__2__r.objtype_new == EOT_DOESNTEXIST)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (ctx_p->flags[(signed long int)556] & 1) != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
-            tmp_if_expr$8 = (_Bool)1;
+            tmp_if_expr_6 = (ctx_p->flags[(signed long int)556] & 1) != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
+            tmp_if_expr_8 = (_Bool)1;
 
           else
           {
-            return_value_lstat64$7=lstat64(path_full, &lstat);
-            tmp_if_expr$8 = return_value_lstat64$7 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lstat64_7=lstat64(path_full, &lstat);
+            tmp_if_expr_8 = return_value_lstat64_7 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$8)
+          if(tmp_if_expr_8)
           {
-            _debug(2, "inotify_handle", "Cannot lstat64(\"%s\", lstat). Seems, that the object had been deleted (%i) or option \"--cancel-syscalls mon_stat\" (%i) is set.", path_full, (signed int)inotify_handle$$1$$2$$2$$r.objtype_new == EOT_DOESNTEXIST, ctx_p->flags[(signed long int)556] & 1);
+            _debug(2, "inotify_handle", "Cannot lstat64(\"%s\", lstat). Seems, that the object had been deleted (%i) or option \"--cancel-syscalls mon_stat\" (%i) is set.", path_full, (signed int)inotify_handle__1__2__2__r.objtype_new == EOT_DOESNTEXIST, ctx_p->flags[(signed long int)556] & 1);
             st_mode = (unsigned int)((event->mask & (unsigned int)0x40000000) != 0u ? 0040000 : 0100000);
             st_size = (unsigned long int)0;
             lstat_p = (struct stat64 *)(void *)0;
@@ -6931,9 +6931,9 @@ extern signed int inotify_handle(struct ctx *ctx_p, struct indexes *indexes_p)
             st_size = (unsigned long int)lstat.st_size;
             lstat_p = &lstat;
           }
-          signed int return_value_sync_prequeue_loadmark$9;
-          return_value_sync_prequeue_loadmark$9=sync_prequeue_loadmark(1, ctx_p, indexes_p, path_full, (const char *)(void *)0, lstat_p, inotify_handle$$1$$2$$2$$r.objtype_old, inotify_handle$$1$$2$$2$$r.objtype_new, event->mask, event->wd, st_mode, (signed long int)st_size, &path_rel, &path_rel_len, (struct eventinfo *)(void *)0);
-          if(!(return_value_sync_prequeue_loadmark$9 == 0))
+          signed int return_value_sync_prequeue_loadmark_9;
+          return_value_sync_prequeue_loadmark_9=sync_prequeue_loadmark(1, ctx_p, indexes_p, path_full, (const char *)(void *)0, lstat_p, inotify_handle__1__2__2__r.objtype_old, inotify_handle__1__2__2__r.objtype_new, event->mask, event->wd, st_mode, (signed long int)st_size, &path_rel, &path_rel_len, (struct eventinfo *)(void *)0);
+          if(!(return_value_sync_prequeue_loadmark_9 == 0))
           {
             count = -1;
             goto l_inotify_handle_end;
@@ -6965,18 +6965,18 @@ extern signed int inotify_wait(struct ctx *ctx_p, struct indexes *indexes_p, str
 {
   signed int inotify_d = (signed int)(signed long int)ctx_p->fsmondata;
   _debug(3, "inotify_wait", "select with timeout %li secs (fd == %u).", tv_p->tv_sec, inotify_d);
-  struct anonymous$3 rfds;
+  struct anonymous_3 rfds;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&rfds)->fds_bits[(signed long int)(inotify_d / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rfds)->fds_bits[(signed long int)(inotify_d / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << inotify_d % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-  signed int return_value_select$1;
-  return_value_select$1=select(inotify_d + 1, &rfds, (struct anonymous$3 *)(void *)0, (struct anonymous$3 *)(void *)0, tv_p);
-  return return_value_select$1;
+  signed int return_value_select_1;
+  return_value_select_1=select(inotify_d + 1, &rfds, (struct anonymous_3 *)(void *)0, (struct anonymous_3 *)(void *)0, tv_p);
+  return return_value_select_1;
 }
 
 // main
@@ -6984,25 +6984,25 @@ extern signed int inotify_wait(struct ctx *ctx_p, struct indexes *indexes_p, str
 signed int main(signed int _argc, char **_argv)
 {
   struct ctx *ctx_p;
-  void *return_value_xcalloc$1;
-  return_value_xcalloc$1=xcalloc((unsigned long int)1, sizeof(struct ctx) /*51696ul*/ );
-  ctx_p = (struct ctx *)return_value_xcalloc$1;
+  void *return_value_xcalloc_1;
+  return_value_xcalloc_1=xcalloc((unsigned long int)1, sizeof(struct ctx) /*51696ul*/ );
+  ctx_p = (struct ctx *)return_value_xcalloc_1;
   argv = _argv;
   argc = _argc;
   signed int ret = 0;
   signed int nret;
   signed int rm_listoutdir = 0;
-  signed long int main$$1$$1$$_SAFE_rc = (signed long int)0;
-  if(!(main$$1$$1$$_SAFE_rc == 0l))
+  signed long int main__1__1___SAFE_rc = (signed long int)0;
+  if(!(main__1__1___SAFE_rc == 0l))
   {
     _error("main", "Got error while (0)");
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    ret = (signed int)main$$1$$1$$_SAFE_rc;
-    *return_value___errno_location$2 = ret;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    ret = (signed int)main__1__1___SAFE_rc;
+    *return_value___errno_location_2 = ret;
   }
 
-  main$$1$$1$$_SAFE_rc;
+  main__1__1___SAFE_rc;
   ctx_p->flags[(signed long int)532] = NE_INOTIFY;
   ctx_p->syncdelay = (unsigned int)30;
   ctx_p->_queues[(signed long int)QUEUE_NORMAL].collectdelay = (unsigned int)30;
@@ -7044,9 +7044,9 @@ signed int main(signed int _argc, char **_argv)
 
   if(ctx_p->dump_path == ((char *)NULL))
   {
-    char *return_value_strdup$3;
-    return_value_strdup$3=strdup("/tmp/clsync-dump-%label%");
-    ctx_p->dump_path=parameter_expand(ctx_p, return_value_strdup$3, 2, (signed int *)(void *)0, (signed int *)(void *)0, parameter_get, (void *)ctx_p);
+    char *return_value_strdup_3;
+    return_value_strdup_3=strdup("/tmp/clsync-dump-%label%");
+    ctx_p->dump_path=parameter_expand(ctx_p, return_value_strdup_3, 2, (signed int *)(void *)0, (signed int *)(void *)0, parameter_get, (void *)ctx_p);
     ctx_p->flags_values_raw[(signed long int)530] = ctx_p->dump_path;
   }
 
@@ -7089,16 +7089,16 @@ signed int main(signed int _argc, char **_argv)
 
     if(!(args_line1 == ((char *)NULL)))
     {
-      char *main$$1$$4$$3$$args_line;
-      main$$1$$4$$3$$args_line=strdup(args_line1);
-      parse_parameter(ctx_p, (unsigned short int)534, main$$1$$4$$3$$args_line, (enum paramsource_enum)PS_DEFAULTS);
+      char *main__1__4__3__args_line;
+      main__1__4__3__args_line=strdup(args_line1);
+      parse_parameter(ctx_p, (unsigned short int)534, main__1__4__3__args_line, (enum paramsource_enum)PS_DEFAULTS);
     }
 
   }
 
   _debug(4, "main", "ncpus == %u", ncpus);
   _debug(4, "main", "debugging flags: %u %u %u %u", ctx_p->flags[(signed long int)89], ctx_p->flags[(signed long int)113], ctx_p->flags[(signed long int)118], ctx_p->flags[(signed long int)100]);
-  signed int *return_value___errno_location$5;
+  signed int *return_value___errno_location_5;
   if(!(ctx_p->watchdir == ((char *)NULL)))
   {
     char *rwatchdir;
@@ -7106,9 +7106,9 @@ signed int main(signed int _argc, char **_argv)
     if(rwatchdir == ((char *)NULL))
     {
       _error("main", "Got error while realpath() on \"%s\" [#0].", ctx_p->watchdir);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      ret = *return_value___errno_location$4;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      ret = *return_value___errno_location_4;
     }
 
     _debug(5, "main", "rwatchdir == \"%s\"", rwatchdir);
@@ -7119,15 +7119,15 @@ signed int main(signed int _argc, char **_argv)
     .st_mtim={ .tv_sec=0l, .tv_nsec=0l },
     .st_ctim={ .tv_sec=0l, .tv_nsec=0l },
     .__glibc_reserved={ 0l, 0l, 0l } };
-    signed int return_value_lstat64$6;
-    return_value_lstat64$6=lstat64(ctx_p->watchdir, &stat64);
-    if(!(return_value_lstat64$6 == 0))
+    signed int return_value_lstat64_6;
+    return_value_lstat64_6=lstat64(ctx_p->watchdir, &stat64);
+    if(!(return_value_lstat64_6 == 0))
     {
       _error("main", "Cannot lstat64() on \"%s\"", ctx_p->watchdir);
       if(ret == 0)
       {
-        return_value___errno_location$5=__errno_location();
-        ret = *return_value___errno_location$5;
+        return_value___errno_location_5=__errno_location();
+        ret = *return_value___errno_location_5;
       }
 
     }
@@ -7152,14 +7152,14 @@ signed int main(signed int _argc, char **_argv)
 
       else
       {
-        unsigned long int main$$1$$7$$6$$2$$size = ctx_p->watchdirlen + (unsigned long int)2;
+        unsigned long int main__1__7__6__2__size = ctx_p->watchdirlen + (unsigned long int)2;
         char *newwatchdir;
-        void *return_value_xmalloc$7;
-        return_value_xmalloc$7=xmalloc(main$$1$$7$$6$$2$$size);
-        newwatchdir = (char *)return_value_xmalloc$7;
+        void *return_value_xmalloc_7;
+        return_value_xmalloc_7=xmalloc(main__1__7__6__2__size);
+        newwatchdir = (char *)return_value_xmalloc_7;
         memcpy((void *)newwatchdir, (const void *)ctx_p->watchdir, ctx_p->watchdirlen);
         ctx_p->watchdirwslash = newwatchdir;
-        ctx_p->watchdirwslashsize = main$$1$$7$$6$$2$$size;
+        ctx_p->watchdirwslashsize = main__1__7__6__2__size;
         memcpy((void *)&ctx_p->watchdirwslash[(signed long int)ctx_p->watchdirlen], (const void *)"/", (unsigned long int)2);
         ctx_p->watchdir_dirlevel=fileutils_calcdirlevel(ctx_p->watchdirwslash);
       }
@@ -7167,22 +7167,22 @@ signed int main(signed int _argc, char **_argv)
 
   }
 
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_11;
   if(!(ctx_p->destdir == ((char *)NULL)))
-    tmp_if_expr$11 = ctx_p->destproto == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_11 = ctx_p->destproto == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (_Bool)0;
+  if(tmp_if_expr_11)
   {
     char *rdestdir;
     rdestdir=realpath(ctx_p->destdir, (char *)(void *)0);
     if(rdestdir == ((char *)NULL))
     {
       _error("main", "Got error while realpath() on \"%s\" [#1].", ctx_p->destdir);
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      ret = *return_value___errno_location$8;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      ret = *return_value___errno_location_8;
     }
 
     _debug(5, "main", "rdestdir == \"%s\"", rdestdir);
@@ -7193,10 +7193,10 @@ signed int main(signed int _argc, char **_argv)
       ctx_p->destdirsize = ctx_p->destdirlen;
       if(ctx_p->destdirlen == 1ul)
       {
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        *return_value___errno_location$9 = 22;
-        ret = *return_value___errno_location$9;
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        *return_value___errno_location_9 = 22;
+        ret = *return_value___errno_location_9;
         _error("main", "destdir is supposed to be not \"/\".");
       }
 
@@ -7206,9 +7206,9 @@ signed int main(signed int _argc, char **_argv)
     {
       unsigned long int size = ctx_p->destdirlen + (unsigned long int)2;
       char *newdestdir;
-      void *return_value_xmalloc$10;
-      return_value_xmalloc$10=xmalloc(size);
-      newdestdir = (char *)return_value_xmalloc$10;
+      void *return_value_xmalloc_10;
+      return_value_xmalloc_10=xmalloc(size);
+      newdestdir = (char *)return_value_xmalloc_10;
       memcpy((void *)newdestdir, (const void *)ctx_p->destdir, ctx_p->destdirlen);
       ctx_p->destdirwslash = newdestdir;
       ctx_p->destdirwslashsize = size;
@@ -7244,24 +7244,24 @@ signed int main(signed int _argc, char **_argv)
 
   }
 
-  signed int return_value_chdir$13;
-  return_value_chdir$13=chdir(ctx_p->watchdir);
-  if(!(return_value_chdir$13 == 0))
+  signed int return_value_chdir_13;
+  return_value_chdir_13=chdir(ctx_p->watchdir);
+  if(!(return_value_chdir_13 == 0))
   {
     _error("main", "Got error while chdir(\"%s\")", ctx_p->watchdir);
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    ret = *return_value___errno_location$12;
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    ret = *return_value___errno_location_12;
   }
 
   signed int n = 0;
-  signed int tmp_post$14;
+  signed int tmp_post_14;
   while(!(n >= SHARGS_MAX))
   {
     struct synchandler_args *args_p;
-    tmp_post$14 = n;
+    tmp_post_14 = n;
     n = n + 1;
-    args_p = &ctx_p->synchandler_args[(signed long int)tmp_post$14];
+    args_p = &ctx_p->synchandler_args[(signed long int)tmp_post_14];
     signed int i = 0;
     while(!(i >= args_p->c))
     {
@@ -7283,9 +7283,9 @@ signed int main(signed int _argc, char **_argv)
     if(ent_f == ((struct _IO_FILE *)NULL))
     {
       _error("main", "Got error while setmntent(\"/proc/mounts\", \"r\")");
-      signed int *return_value___errno_location$15;
-      return_value___errno_location$15=__errno_location();
-      ret = *return_value___errno_location$15;
+      signed int *return_value___errno_location_15;
+      return_value___errno_location_15=__errno_location();
+      ret = *return_value___errno_location_15;
     }
 
   }
@@ -7303,65 +7303,65 @@ signed int main(signed int _argc, char **_argv)
     unshare(0x00040000);
   }
 
-  _Bool tmp_if_expr$22;
+  _Bool tmp_if_expr_22;
   if(!(ctx_p->flags[543l] == PW_OFF))
-    tmp_if_expr$22 = (_Bool)1;
+    tmp_if_expr_22 = (_Bool)1;
 
   else
-    tmp_if_expr$22 = ctx_p->mountpoints != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$22)
+    tmp_if_expr_22 = ctx_p->mountpoints != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_22)
   {
-    signed int return_value_unshare$17;
-    return_value_unshare$17=unshare(0x00000400);
-    if(!(return_value_unshare$17 == 0))
+    signed int return_value_unshare_17;
+    return_value_unshare_17=unshare(0x00000400);
+    if(!(return_value_unshare_17 == 0))
     {
       _error("main", "Got error from unshare(0x00000400)");
-      signed int *return_value___errno_location$16;
-      return_value___errno_location$16=__errno_location();
-      ret = *return_value___errno_location$16;
+      signed int *return_value___errno_location_16;
+      return_value___errno_location_16=__errno_location();
+      ret = *return_value___errno_location_16;
     }
 
-    signed int return_value_unshare$19;
-    return_value_unshare$19=unshare(0x00000200);
-    if(!(return_value_unshare$19 == 0))
+    signed int return_value_unshare_19;
+    return_value_unshare_19=unshare(0x00000200);
+    if(!(return_value_unshare_19 == 0))
     {
       _error("main", "Got error from unshare(0x00000200)");
-      signed int *return_value___errno_location$18;
-      return_value___errno_location$18=__errno_location();
-      ret = *return_value___errno_location$18;
+      signed int *return_value___errno_location_18;
+      return_value___errno_location_18=__errno_location();
+      ret = *return_value___errno_location_18;
     }
 
-    signed int return_value_unshare$21;
-    return_value_unshare$21=unshare(0x00020000);
-    if(!(return_value_unshare$21 == 0))
+    signed int return_value_unshare_21;
+    return_value_unshare_21=unshare(0x00020000);
+    if(!(return_value_unshare_21 == 0))
     {
       _error("main", "Got error from unshare(0x00020000)");
-      signed int *return_value___errno_location$20;
-      return_value___errno_location$20=__errno_location();
-      ret = *return_value___errno_location$20;
+      signed int *return_value___errno_location_20;
+      return_value___errno_location_20=__errno_location();
+      ret = *return_value___errno_location_20;
     }
 
   }
 
-  signed int return_value_unshare$24;
+  signed int return_value_unshare_24;
   if(ctx_p->flags[544l] == DN_EVERYWHERE)
   {
-    return_value_unshare$24=unshare(0x40000000);
-    if(!(return_value_unshare$24 == 0))
+    return_value_unshare_24=unshare(0x40000000);
+    if(!(return_value_unshare_24 == 0))
     {
       _error("main", "Got error from unshare(0x40000000)");
-      signed int *return_value___errno_location$23;
-      return_value___errno_location$23=__errno_location();
-      ret = *return_value___errno_location$23;
+      signed int *return_value___errno_location_23;
+      return_value___errno_location_23=__errno_location();
+      ret = *return_value___errno_location_23;
     }
 
   }
 
-  signed int return_value_chdir$26;
-  signed int return_value_mkdir$29;
-  signed int return_value_mkdir$32;
+  signed int return_value_chdir_26;
+  signed int return_value_mkdir_29;
+  signed int return_value_mkdir_32;
   unsigned long int mount_flags;
-  signed int return_value_mount$34;
+  signed int return_value_mount_34;
   if(!(ctx_p->chroot_dir == ((char *)NULL)))
     switch(ctx_p->flags[(signed long int)543])
     {
@@ -7373,55 +7373,55 @@ signed int main(signed int _argc, char **_argv)
 
       case PW_AUTORO:
       {
-        return_value_chdir$26=chdir(ctx_p->chroot_dir);
-        if(!(return_value_chdir$26 == 0))
+        return_value_chdir_26=chdir(ctx_p->chroot_dir);
+        if(!(return_value_chdir_26 == 0))
         {
           _error("main", "Got error while chdir(\"%s\")", ctx_p->chroot_dir);
-          signed int *return_value___errno_location$25;
-          return_value___errno_location$25=__errno_location();
-          ret = *return_value___errno_location$25;
+          signed int *return_value___errno_location_25;
+          return_value___errno_location_25=__errno_location();
+          ret = *return_value___errno_location_25;
         }
 
-        return_value_mkdir$29=mkdir("old_root", (unsigned int)0700);
-        if(!(return_value_mkdir$29 == 0))
+        return_value_mkdir_29=mkdir("old_root", (unsigned int)0700);
+        if(!(return_value_mkdir_29 == 0))
         {
-          signed int *return_value___errno_location$28;
-          return_value___errno_location$28=__errno_location();
-          if(!(*return_value___errno_location$28 == 17))
+          signed int *return_value___errno_location_28;
+          return_value___errno_location_28=__errno_location();
+          if(!(*return_value___errno_location_28 == 17))
           {
             _error("main", "Got error from mkdir(\"old_root\", 0700)");
-            signed int *return_value___errno_location$27;
-            return_value___errno_location$27=__errno_location();
-            ret = *return_value___errno_location$27;
+            signed int *return_value___errno_location_27;
+            return_value___errno_location_27=__errno_location();
+            ret = *return_value___errno_location_27;
             goto __CPROVER_DUMP_L68;
           }
 
         }
 
-        return_value_mkdir$32=mkdir("/dev/shm/clsync-rootfs", (unsigned int)0700);
-        if(!(return_value_mkdir$32 == 0))
+        return_value_mkdir_32=mkdir("/dev/shm/clsync-rootfs", (unsigned int)0700);
+        if(!(return_value_mkdir_32 == 0))
         {
-          signed int *return_value___errno_location$31;
-          return_value___errno_location$31=__errno_location();
-          if(!(*return_value___errno_location$31 == 17))
+          signed int *return_value___errno_location_31;
+          return_value___errno_location_31=__errno_location();
+          if(!(*return_value___errno_location_31 == 17))
           {
             _error("main", "Got error from mkdir(\"/dev/shm/clsync-rootfs\", 0700)");
-            signed int *return_value___errno_location$30;
-            return_value___errno_location$30=__errno_location();
-            ret = *return_value___errno_location$30;
+            signed int *return_value___errno_location_30;
+            return_value___errno_location_30=__errno_location();
+            ret = *return_value___errno_location_30;
             goto __CPROVER_DUMP_L68;
           }
 
         }
 
         mount_flags = (unsigned long int)(4096 | 16384 | (ctx_p->flags[(signed long int)543] == PW_AUTORO ? 1 : 0));
-        return_value_mount$34=mount(ctx_p->chroot_dir, "/dev/shm/clsync-rootfs", (const char *)(void *)0, mount_flags, (void *)0);
-        if(!(return_value_mount$34 == 0))
+        return_value_mount_34=mount(ctx_p->chroot_dir, "/dev/shm/clsync-rootfs", (const char *)(void *)0, mount_flags, (void *)0);
+        if(!(return_value_mount_34 == 0))
         {
           _error("main", "Got error while mount(\"%s\", \"%s\", NULL, %o, NULL)", ctx_p->chroot_dir, (const void *)"/dev/shm/clsync-rootfs", mount_flags);
-          signed int *return_value___errno_location$33;
-          return_value___errno_location$33=__errno_location();
-          ret = *return_value___errno_location$33;
+          signed int *return_value___errno_location_33;
+          return_value___errno_location_33=__errno_location();
+          ret = *return_value___errno_location_33;
           goto __CPROVER_DUMP_L68;
         }
 
@@ -7433,21 +7433,21 @@ signed int main(signed int _argc, char **_argv)
       __CPROVER_DUMP_L68:
         ;
         _debug(7, "main", "chdir(\"%s\")", ctx_p->chroot_dir);
-        signed int return_value_chdir$36;
-        return_value_chdir$36=chdir(ctx_p->chroot_dir);
-        if(!(return_value_chdir$36 == 0))
+        signed int return_value_chdir_36;
+        return_value_chdir_36=chdir(ctx_p->chroot_dir);
+        if(!(return_value_chdir_36 == 0))
         {
           _error("main", "Got error while chdir(\"%s\")", ctx_p->chroot_dir);
-          signed int *return_value___errno_location$35;
-          return_value___errno_location$35=__errno_location();
-          ret = *return_value___errno_location$35;
+          signed int *return_value___errno_location_35;
+          return_value___errno_location_35=__errno_location();
+          ret = *return_value___errno_location_35;
         }
 
       }
     }
 
-  signed int *return_value___errno_location$40;
-  signed int *return_value___errno_location$39;
+  signed int *return_value___errno_location_40;
+  signed int *return_value___errno_location_39;
   if(!(ctx_p->mountpoints == 0))
   {
     if(!(ent_f == ((struct _IO_FILE *)NULL)))
@@ -7458,35 +7458,35 @@ signed int main(signed int _argc, char **_argv)
         if(ent == ((struct mntent *)NULL))
           break;
 
-        signed int main$$1$$14$$7$$1$$i;
+        signed int main__1__14__7__1__i;
         _debug(8, "main", "Checking should \"%s\" be umount or not", ent->mnt_dir);
-        main$$1$$14$$7$$1$$i = 0;
-        while(!(main$$1$$14$$7$$1$$i >= ctx_p->mountpoints))
+        main__1__14__7__1__i = 0;
+        while(!(main__1__14__7__1__i >= ctx_p->mountpoints))
         {
-          signed int return_value_strcmp$37;
-          return_value_strcmp$37=strcmp(ent->mnt_dir, ctx_p->mountpoint[(signed long int)main$$1$$14$$7$$1$$i]);
-          if(return_value_strcmp$37 == 0)
+          signed int return_value_strcmp_37;
+          return_value_strcmp_37=strcmp(ent->mnt_dir, ctx_p->mountpoint[(signed long int)main__1__14__7__1__i]);
+          if(return_value_strcmp_37 == 0)
             break;
 
-          main$$1$$14$$7$$1$$i = main$$1$$14$$7$$1$$i + 1;
+          main__1__14__7__1__i = main__1__14__7__1__i + 1;
         }
-        if(main$$1$$14$$7$$1$$i >= ctx_p->mountpoints)
+        if(main__1__14__7__1__i >= ctx_p->mountpoints)
         {
           _debug(1, "main", "umount2(\"%s\", MNT_DETACH)", ent->mnt_dir);
-          signed int return_value_umount2$41;
-          return_value_umount2$41=umount2(ent->mnt_dir, 2);
-          if(!(return_value_umount2$41 == 0))
+          signed int return_value_umount2_41;
+          return_value_umount2_41=umount2(ent->mnt_dir, 2);
+          if(!(return_value_umount2_41 == 0))
           {
-            return_value___errno_location$40=__errno_location();
-            if(!(*return_value___errno_location$40 == 2))
+            return_value___errno_location_40=__errno_location();
+            if(!(*return_value___errno_location_40 == 2))
             {
-              return_value___errno_location$39=__errno_location();
-              if(!(*return_value___errno_location$39 == 22))
+              return_value___errno_location_39=__errno_location();
+              if(!(*return_value___errno_location_39 == 22))
               {
                 _error("main", "Got error while umount2(\"%s\", MNT_DETACH)", ent->mnt_dir);
-                signed int *return_value___errno_location$38;
-                return_value___errno_location$38=__errno_location();
-                ret = *return_value___errno_location$38;
+                signed int *return_value___errno_location_38;
+                return_value___errno_location_38=__errno_location();
+                ret = *return_value___errno_location_38;
               }
 
             }
@@ -7502,8 +7502,8 @@ signed int main(signed int _argc, char **_argv)
 
   }
 
-  signed int return_value_pivot_root$43;
-  signed int return_value_umount2$47;
+  signed int return_value_pivot_root_43;
+  signed int return_value_umount2_47;
   if(!(ctx_p->chroot_dir == ((char *)NULL)))
   {
     if(ret == 0)
@@ -7517,13 +7517,13 @@ signed int main(signed int _argc, char **_argv)
 
         case PW_AUTORO:
         {
-          return_value_pivot_root$43=pivot_root(".", "old_root");
-          if(!(return_value_pivot_root$43 == 0))
+          return_value_pivot_root_43=pivot_root(".", "old_root");
+          if(!(return_value_pivot_root_43 == 0))
           {
             _error("main", "Got error while pivot_root(\".\", \"old_root\")");
-            signed int *return_value___errno_location$42;
-            return_value___errno_location$42=__errno_location();
-            ret = *return_value___errno_location$42;
+            signed int *return_value___errno_location_42;
+            return_value___errno_location_42=__errno_location();
+            ret = *return_value___errno_location_42;
           }
 
         }
@@ -7532,14 +7532,14 @@ signed int main(signed int _argc, char **_argv)
       }
 
     _debug(7, "main", "chroot(\".\")");
-    signed int return_value_chroot$45;
-    return_value_chroot$45=chroot(".");
-    if(!(return_value_chroot$45 == 0))
+    signed int return_value_chroot_45;
+    return_value_chroot_45=chroot(".");
+    if(!(return_value_chroot_45 == 0))
     {
       _error("main", "Got error while chroot(\".\")");
-      signed int *return_value___errno_location$44;
-      return_value___errno_location$44=__errno_location();
-      ret = *return_value___errno_location$44;
+      signed int *return_value___errno_location_44;
+      return_value___errno_location_44=__errno_location();
+      ret = *return_value___errno_location_44;
     }
 
     if(ret == 0)
@@ -7553,13 +7553,13 @@ signed int main(signed int _argc, char **_argv)
 
         case PW_AUTORO:
         {
-          return_value_umount2$47=umount2("old_root", 2);
-          if(!(return_value_umount2$47 == 0))
+          return_value_umount2_47=umount2("old_root", 2);
+          if(!(return_value_umount2_47 == 0))
           {
             _error("main", "Got error while umount2(\"old_root\", MNT_DETACH)");
-            signed int *return_value___errno_location$46;
-            return_value___errno_location$46=__errno_location();
-            ret = *return_value___errno_location$46;
+            signed int *return_value___errno_location_46;
+            return_value___errno_location_46=__errno_location();
+            ret = *return_value___errno_location_46;
           }
 
         }
@@ -7569,11 +7569,11 @@ signed int main(signed int _argc, char **_argv)
 
   }
 
-  unsigned int tmp_if_expr$49;
-  unsigned int return_value_getuid$48;
-  unsigned int tmp_if_expr$51;
-  unsigned int return_value_getgid$50;
-  signed int return_value_fileno$52;
+  unsigned int tmp_if_expr_49;
+  unsigned int return_value_getuid_48;
+  unsigned int tmp_if_expr_51;
+  unsigned int return_value_getgid_50;
+  signed int return_value_fileno_52;
   if(!(ctx_p->statusfile == ((char *)NULL)))
   {
     _debug(1, "main", "Trying to open the status file for writing.");
@@ -7582,33 +7582,33 @@ signed int main(signed int _argc, char **_argv)
     {
       unsigned int uid;
       if(!(ctx_p->flags[117l] == 0))
-        tmp_if_expr$49 = ctx_p->uid;
+        tmp_if_expr_49 = ctx_p->uid;
 
       else
       {
-        return_value_getuid$48=getuid();
-        tmp_if_expr$49 = return_value_getuid$48;
+        return_value_getuid_48=getuid();
+        tmp_if_expr_49 = return_value_getuid_48;
       }
-      uid = tmp_if_expr$49;
+      uid = tmp_if_expr_49;
       unsigned int gid;
       if(!(ctx_p->flags[103l] == 0))
-        tmp_if_expr$51 = ctx_p->gid;
+        tmp_if_expr_51 = ctx_p->gid;
 
       else
       {
-        return_value_getgid$50=getgid();
-        tmp_if_expr$51 = return_value_getgid$50;
+        return_value_getgid_50=getgid();
+        tmp_if_expr_51 = return_value_getgid_50;
       }
-      gid = tmp_if_expr$51;
+      gid = tmp_if_expr_51;
       _debug(1, "main", "Changing owner of the status file to %u:%u", uid, gid);
-      signed int return_value_fileno$53;
-      return_value_fileno$53=fileno(main_statusfile_f);
-      signed int return_value_fchown$54;
-      return_value_fchown$54=fchown(return_value_fileno$53, uid, gid);
-      if(!(return_value_fchown$54 == 0))
+      signed int return_value_fileno_53;
+      return_value_fileno_53=fileno(main_statusfile_f);
+      signed int return_value_fchown_54;
+      return_value_fchown_54=fchown(return_value_fileno_53, uid, gid);
+      if(!(return_value_fchown_54 == 0))
       {
-        return_value_fileno$52=fileno(main_statusfile_f);
-        _warning("main", "Cannot fchown(%u -> \"%s\", %u, %u)", return_value_fileno$52, ctx_p->statusfile, uid, gid);
+        return_value_fileno_52=fileno(main_statusfile_f);
+        _warning("main", "Cannot fchown(%u -> \"%s\", %u, %u)", return_value_fileno_52, ctx_p->statusfile, uid, gid);
       }
 
       main_status_update(ctx_p);
@@ -7630,9 +7630,9 @@ signed int main(signed int _argc, char **_argv)
       if(!(ctx_p->flags[103l] == 65536))
       {
         _error("main", "Cannot setegid(%u)", ctx_p->gid);
-        signed int *return_value___errno_location$55;
-        return_value___errno_location$55=__errno_location();
-        ret = *return_value___errno_location$55;
+        signed int *return_value___errno_location_55;
+        return_value___errno_location_55=__errno_location();
+        ret = *return_value___errno_location_55;
       }
 
     }
@@ -7641,17 +7641,17 @@ signed int main(signed int _argc, char **_argv)
 
   if(!(ctx_p->flags[117l] == 0))
   {
-    signed int main$$1$$17$$rc;
+    signed int main__1__17__rc;
     _debug(3, "main", "Trying to drop effective uid to %i", ctx_p->uid);
-    main$$1$$17$$rc=seteuid(ctx_p->uid);
-    if(!(main$$1$$17$$rc == 0))
+    main__1__17__rc=seteuid(ctx_p->uid);
+    if(!(main__1__17__rc == 0))
     {
       if(!(ctx_p->flags[117l] == 65536))
       {
         _error("main", "Cannot seteuid(%u)", ctx_p->uid);
-        signed int *return_value___errno_location$56;
-        return_value___errno_location$56=__errno_location();
-        ret = *return_value___errno_location$56;
+        signed int *return_value___errno_location_56;
+        return_value___errno_location_56=__errno_location();
+        ret = *return_value___errno_location_56;
       }
 
     }
@@ -7667,32 +7667,32 @@ signed int main(signed int _argc, char **_argv)
       if(main_statusfile_f == ((struct _IO_FILE *)NULL))
       {
         _error("main", "Cannot open file \"%s\" for writing.", ctx_p->statusfile);
-        signed int *return_value___errno_location$57;
-        return_value___errno_location$57=__errno_location();
-        ret = *return_value___errno_location$57;
+        signed int *return_value___errno_location_57;
+        return_value___errno_location_57=__errno_location();
+        ret = *return_value___errno_location_57;
       }
 
     }
 
   }
 
-  char *tmp_if_expr$58;
-  char *tmp_if_expr$59;
+  char *tmp_if_expr_58;
+  char *tmp_if_expr_59;
   if(!(ctx_p->destdir == ((char *)NULL)))
-    tmp_if_expr$58 = ctx_p->destdir;
+    tmp_if_expr_58 = ctx_p->destdir;
 
   else
-    tmp_if_expr$58 = "";
+    tmp_if_expr_58 = "";
   if(!(ctx_p->destdirwslash == ((char *)NULL)))
-    tmp_if_expr$59 = ctx_p->destdirwslash;
+    tmp_if_expr_59 = ctx_p->destdirwslash;
 
   else
-    tmp_if_expr$59 = "";
-  _debug(1, "main", "%s [%s] (%p) -> %s [%s] (%p)", ctx_p->watchdir, ctx_p->watchdirwslash, ctx_p->watchdirwslash, tmp_if_expr$58, tmp_if_expr$59, ctx_p->destdirwslash);
-  signed int main$$1$$20$$rc;
-  main$$1$$20$$rc=ctx_check(ctx_p);
+    tmp_if_expr_59 = "";
+  _debug(1, "main", "%s [%s] (%p) -> %s [%s] (%p)", ctx_p->watchdir, ctx_p->watchdirwslash, ctx_p->watchdirwslash, tmp_if_expr_58, tmp_if_expr_59, ctx_p->destdirwslash);
+  signed int main__1__20__rc;
+  main__1__20__rc=ctx_check(ctx_p);
   if(ret == 0)
-    ret = main$$1$$20$$rc;
+    ret = main__1__20__rc;
 
   if(ctx_p->listoutdir == ((char *)NULL))
   {
@@ -7703,9 +7703,9 @@ signed int main(signed int _argc, char **_argv)
       ctx_p->listoutdir=mkdtemp(template);
       if(ctx_p->listoutdir == ((char *)NULL))
       {
-        signed int *return_value___errno_location$60;
-        return_value___errno_location$60=__errno_location();
-        ret = *return_value___errno_location$60;
+        signed int *return_value___errno_location_60;
+        return_value___errno_location_60=__errno_location();
+        ret = *return_value___errno_location_60;
         _error("main", "Cannot create temporary dir for list files");
       }
 
@@ -7724,29 +7724,29 @@ signed int main(signed int _argc, char **_argv)
     .st_mtim={ .tv_sec=0l, .tv_nsec=0l },
     .st_ctim={ .tv_sec=0l, .tv_nsec=0l },
     .__glibc_reserved={ 0l, 0l, 0l } };
-    signed int *return_value___errno_location$61;
-    return_value___errno_location$61=__errno_location();
-    *return_value___errno_location$61 = 0;
-    signed int return_value_stat$67;
-    return_value_stat$67=stat(ctx_p->listoutdir, &st);
-    if(!(return_value_stat$67 == 0))
+    signed int *return_value___errno_location_61;
+    return_value___errno_location_61=__errno_location();
+    *return_value___errno_location_61 = 0;
+    signed int return_value_stat_67;
+    return_value_stat_67=stat(ctx_p->listoutdir, &st);
+    if(!(return_value_stat_67 == 0))
     {
-      signed int *return_value___errno_location$66;
-      return_value___errno_location$66=__errno_location();
-      if(*return_value___errno_location$66 == 2)
+      signed int *return_value___errno_location_66;
+      return_value___errno_location_66=__errno_location();
+      if(*return_value___errno_location_66 == 2)
       {
         _warning("main", "Directory \"%s\" doesn't exist. Creating it.", ctx_p->listoutdir);
-        signed int *return_value___errno_location$62;
-        return_value___errno_location$62=__errno_location();
-        *return_value___errno_location$62 = 0;
-        signed int return_value_mkdir$64;
-        return_value_mkdir$64=mkdir(ctx_p->listoutdir, (unsigned int)(0400 | 0200 | 0100));
-        if(!(return_value_mkdir$64 == 0))
+        signed int *return_value___errno_location_62;
+        return_value___errno_location_62=__errno_location();
+        *return_value___errno_location_62 = 0;
+        signed int return_value_mkdir_64;
+        return_value_mkdir_64=mkdir(ctx_p->listoutdir, (unsigned int)(0400 | 0200 | 0100));
+        if(!(return_value_mkdir_64 == 0))
         {
           _error("main", "Cannot create directory \"%s\".", ctx_p->listoutdir);
-          signed int *return_value___errno_location$63;
-          return_value___errno_location$63=__errno_location();
-          ret = *return_value___errno_location$63;
+          signed int *return_value___errno_location_63;
+          return_value___errno_location_63=__errno_location();
+          ret = *return_value___errno_location_63;
         }
 
         else
@@ -7756,22 +7756,22 @@ signed int main(signed int _argc, char **_argv)
       else
       {
         _error("main", "Got error while stat() on \"%s\".", ctx_p->listoutdir);
-        signed int *return_value___errno_location$65;
-        return_value___errno_location$65=__errno_location();
-        ret = *return_value___errno_location$65;
+        signed int *return_value___errno_location_65;
+        return_value___errno_location_65=__errno_location();
+        ret = *return_value___errno_location_65;
       }
     }
 
-    signed int *return_value___errno_location$69;
-    return_value___errno_location$69=__errno_location();
-    if(*return_value___errno_location$69 == 0)
+    signed int *return_value___errno_location_69;
+    return_value___errno_location_69=__errno_location();
+    if(*return_value___errno_location_69 == 0)
     {
       if(!((63u & st.st_mode) == 0u))
       {
-        signed int *return_value___errno_location$68;
-        return_value___errno_location$68=__errno_location();
-        *return_value___errno_location$68 = 13;
-        ret = *return_value___errno_location$68;
+        signed int *return_value___errno_location_68;
+        return_value___errno_location_68=__errno_location();
+        *return_value___errno_location_68 = 13;
+        ret = *return_value___errno_location_68;
         _error("main", "Insecure: Others have access to directory \"%s\". Exit.", ctx_p->listoutdir);
       }
 
@@ -7796,9 +7796,9 @@ signed int main(signed int _argc, char **_argv)
     pidfile=fopen(ctx_p->pidfile, "w");
     if(pidfile == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$85;
-      return_value___errno_location$85=__errno_location();
-      if(*return_value___errno_location$85 == 13)
+      signed int *return_value___errno_location_85;
+      return_value___errno_location_85=__errno_location();
+      if(*return_value___errno_location_85 == 13)
       {
         signed int fd;
         unsigned int euid;
@@ -7806,101 +7806,101 @@ signed int main(signed int _argc, char **_argv)
         unsigned int egid;
         egid=getegid();
         _debug(1, "main", "Don't have permissions to open file \"%s\". Trying seteuid(0)+open()+fchown()+close()+seteuid(%i)", ctx_p->pidfile, euid);
-        signed int *return_value___errno_location$70;
-        return_value___errno_location$70=__errno_location();
-        *return_value___errno_location$70 = 0;
-        signed int *return_value___errno_location$73;
-        return_value___errno_location$73=__errno_location();
-        if(*return_value___errno_location$73 == 0)
+        signed int *return_value___errno_location_70;
+        return_value___errno_location_70=__errno_location();
+        *return_value___errno_location_70 = 0;
+        signed int *return_value___errno_location_73;
+        return_value___errno_location_73=__errno_location();
+        if(*return_value___errno_location_73 == 0)
         {
-          signed long int main$$1$$24$$2$$1$$2$$_SAFE_rc;
-          signed int return_value_seteuid$72;
-          return_value_seteuid$72=seteuid((unsigned int)0);
-          main$$1$$24$$2$$1$$2$$_SAFE_rc = (signed long int)return_value_seteuid$72;
-          if(!(main$$1$$24$$2$$1$$2$$_SAFE_rc == 0l))
+          signed long int main__1__24__2__1__2___SAFE_rc;
+          signed int return_value_seteuid_72;
+          return_value_seteuid_72=seteuid((unsigned int)0);
+          main__1__24__2__1__2___SAFE_rc = (signed long int)return_value_seteuid_72;
+          if(!(main__1__24__2__1__2___SAFE_rc == 0l))
           {
             _error("main", "Got error while seteuid(0)");
-            signed int *return_value___errno_location$71;
-            return_value___errno_location$71=__errno_location();
-            ret = *return_value___errno_location$71;
+            signed int *return_value___errno_location_71;
+            return_value___errno_location_71=__errno_location();
+            ret = *return_value___errno_location_71;
           }
 
-          main$$1$$24$$2$$1$$2$$_SAFE_rc;
+          main__1__24__2__1__2___SAFE_rc;
         }
 
-        signed int *return_value___errno_location$75;
-        return_value___errno_location$75=__errno_location();
-        if(*return_value___errno_location$75 == 0)
+        signed int *return_value___errno_location_75;
+        return_value___errno_location_75=__errno_location();
+        if(*return_value___errno_location_75 == 0)
         {
-          signed long int main$$1$$24$$2$$1$$3$$_SAFE_rc;
+          signed long int main__1__24__2__1__3___SAFE_rc;
           fd=open(ctx_p->pidfile, 0100 | 01, 0644);
-          main$$1$$24$$2$$1$$3$$_SAFE_rc = (signed long int)(fd == -1);
-          if(!(main$$1$$24$$2$$1$$3$$_SAFE_rc == 0l))
+          main__1__24__2__1__3___SAFE_rc = (signed long int)(fd == -1);
+          if(!(main__1__24__2__1__3___SAFE_rc == 0l))
           {
             _error("main", "Got error while (fd = open(ctx_p->pidfile, 0100|01, 0644)) == -1");
-            signed int *return_value___errno_location$74;
-            return_value___errno_location$74=__errno_location();
-            ret = *return_value___errno_location$74;
+            signed int *return_value___errno_location_74;
+            return_value___errno_location_74=__errno_location();
+            ret = *return_value___errno_location_74;
           }
 
-          main$$1$$24$$2$$1$$3$$_SAFE_rc;
+          main__1__24__2__1__3___SAFE_rc;
         }
 
-        signed int *return_value___errno_location$78;
-        return_value___errno_location$78=__errno_location();
-        if(*return_value___errno_location$78 == 0)
+        signed int *return_value___errno_location_78;
+        return_value___errno_location_78=__errno_location();
+        if(*return_value___errno_location_78 == 0)
         {
-          signed long int main$$1$$24$$2$$1$$4$$_SAFE_rc;
-          signed int return_value_fchown$77;
-          return_value_fchown$77=fchown(fd, euid, egid);
-          main$$1$$24$$2$$1$$4$$_SAFE_rc = (signed long int)return_value_fchown$77;
-          if(!(main$$1$$24$$2$$1$$4$$_SAFE_rc == 0l))
+          signed long int main__1__24__2__1__4___SAFE_rc;
+          signed int return_value_fchown_77;
+          return_value_fchown_77=fchown(fd, euid, egid);
+          main__1__24__2__1__4___SAFE_rc = (signed long int)return_value_fchown_77;
+          if(!(main__1__24__2__1__4___SAFE_rc == 0l))
           {
             _error("main", "Got error while fchown(fd, euid, egid)");
-            signed int *return_value___errno_location$76;
-            return_value___errno_location$76=__errno_location();
-            ret = *return_value___errno_location$76;
+            signed int *return_value___errno_location_76;
+            return_value___errno_location_76=__errno_location();
+            ret = *return_value___errno_location_76;
           }
 
-          main$$1$$24$$2$$1$$4$$_SAFE_rc;
+          main__1__24__2__1__4___SAFE_rc;
         }
 
-        signed int *return_value___errno_location$81;
-        return_value___errno_location$81=__errno_location();
-        if(*return_value___errno_location$81 == 0)
+        signed int *return_value___errno_location_81;
+        return_value___errno_location_81=__errno_location();
+        if(*return_value___errno_location_81 == 0)
         {
-          signed long int main$$1$$24$$2$$1$$5$$_SAFE_rc;
-          signed int return_value_close$80;
-          return_value_close$80=close(fd);
-          main$$1$$24$$2$$1$$5$$_SAFE_rc = (signed long int)return_value_close$80;
-          if(!(main$$1$$24$$2$$1$$5$$_SAFE_rc == 0l))
+          signed long int main__1__24__2__1__5___SAFE_rc;
+          signed int return_value_close_80;
+          return_value_close_80=close(fd);
+          main__1__24__2__1__5___SAFE_rc = (signed long int)return_value_close_80;
+          if(!(main__1__24__2__1__5___SAFE_rc == 0l))
           {
             _error("main", "Got error while close(fd)");
-            signed int *return_value___errno_location$79;
-            return_value___errno_location$79=__errno_location();
-            ret = *return_value___errno_location$79;
+            signed int *return_value___errno_location_79;
+            return_value___errno_location_79=__errno_location();
+            ret = *return_value___errno_location_79;
           }
 
-          main$$1$$24$$2$$1$$5$$_SAFE_rc;
+          main__1__24__2__1__5___SAFE_rc;
         }
 
-        signed int *return_value___errno_location$84;
-        return_value___errno_location$84=__errno_location();
-        if(*return_value___errno_location$84 == 0)
+        signed int *return_value___errno_location_84;
+        return_value___errno_location_84=__errno_location();
+        if(*return_value___errno_location_84 == 0)
         {
-          signed long int main$$1$$24$$2$$1$$6$$_SAFE_rc;
-          signed int return_value_seteuid$83;
-          return_value_seteuid$83=seteuid(euid);
-          main$$1$$24$$2$$1$$6$$_SAFE_rc = (signed long int)return_value_seteuid$83;
-          if(!(main$$1$$24$$2$$1$$6$$_SAFE_rc == 0l))
+          signed long int main__1__24__2__1__6___SAFE_rc;
+          signed int return_value_seteuid_83;
+          return_value_seteuid_83=seteuid(euid);
+          main__1__24__2__1__6___SAFE_rc = (signed long int)return_value_seteuid_83;
+          if(!(main__1__24__2__1__6___SAFE_rc == 0l))
           {
             _error("main", "Got error while seteuid(euid)");
-            signed int *return_value___errno_location$82;
-            return_value___errno_location$82=__errno_location();
-            ret = *return_value___errno_location$82;
+            signed int *return_value___errno_location_82;
+            return_value___errno_location_82=__errno_location();
+            ret = *return_value___errno_location_82;
           }
 
-          main$$1$$24$$2$$1$$6$$_SAFE_rc;
+          main__1__24__2__1__6___SAFE_rc;
         }
 
         pidfile=fopen(ctx_p->pidfile, "w");
@@ -7909,23 +7909,23 @@ signed int main(signed int _argc, char **_argv)
       if(pidfile == ((struct _IO_FILE *)NULL))
       {
         _error("main", "Cannot open file \"%s\" to write a pid there", ctx_p->pidfile);
-        signed int *return_value___errno_location$86;
-        return_value___errno_location$86=__errno_location();
-        ret = *return_value___errno_location$86;
+        signed int *return_value___errno_location_86;
+        return_value___errno_location_86=__errno_location();
+        ret = *return_value___errno_location_86;
       }
 
     }
 
     if(!(pidfile == ((struct _IO_FILE *)NULL)))
     {
-      signed int return_value_fprintf$88;
-      return_value_fprintf$88=fprintf(pidfile, "%u", pid);
-      if(!(return_value_fprintf$88 >= 0))
+      signed int return_value_fprintf_88;
+      return_value_fprintf_88=fprintf(pidfile, "%u", pid);
+      if(!(return_value_fprintf_88 >= 0))
       {
         _error("main", "Cannot write pid into file \"%s\"", ctx_p->pidfile);
-        signed int *return_value___errno_location$87;
-        return_value___errno_location$87=__errno_location();
-        ret = *return_value___errno_location$87;
+        signed int *return_value___errno_location_87;
+        return_value___errno_location_87=__errno_location();
+        ret = *return_value___errno_location_87;
       }
 
       fclose(pidfile);
@@ -7937,61 +7937,61 @@ signed int main(signed int _argc, char **_argv)
   if(ret == 0)
     ret=sync_run(ctx_p);
 
-  signed int *return_value___errno_location$89;
-  char *return_value_strerror$90;
+  signed int *return_value___errno_location_89;
+  char *return_value_strerror_90;
   if(!(ctx_p->pidfile == ((char *)NULL)))
   {
-    signed int return_value_unlink$92;
-    return_value_unlink$92=unlink(ctx_p->pidfile);
-    if(!(return_value_unlink$92 == 0))
+    signed int return_value_unlink_92;
+    return_value_unlink_92=unlink(ctx_p->pidfile);
+    if(!(return_value_unlink_92 == 0))
     {
-      struct _IO_FILE *main$$1$$26$$1$$pidfile;
-      return_value___errno_location$89=__errno_location();
-      return_value_strerror$90=strerror(*return_value___errno_location$89);
-      _debug(1, "main", "Cannot unlink pidfile \"%s\": %s. Just truncating the file.", ctx_p->pidfile, return_value_strerror$90);
+      struct _IO_FILE *main__1__26__1__pidfile;
+      return_value___errno_location_89=__errno_location();
+      return_value_strerror_90=strerror(*return_value___errno_location_89);
+      _debug(1, "main", "Cannot unlink pidfile \"%s\": %s. Just truncating the file.", ctx_p->pidfile, return_value_strerror_90);
       signed long int _SAFE_rc;
-      main$$1$$26$$1$$pidfile=fopen(ctx_p->pidfile, "w");
-      _SAFE_rc = (signed long int)(main$$1$$26$$1$$pidfile == (struct _IO_FILE *)(void *)0);
+      main__1__26__1__pidfile=fopen(ctx_p->pidfile, "w");
+      _SAFE_rc = (signed long int)(main__1__26__1__pidfile == (struct _IO_FILE *)(void *)0);
       if(!(_SAFE_rc == 0l))
       {
         _error("main", "Got error while (pidfile = fopen(ctx_p->pidfile, \"w\")) == ((void *)0)");
-        signed int *return_value___errno_location$91;
-        return_value___errno_location$91=__errno_location();
-        ret = *return_value___errno_location$91;
+        signed int *return_value___errno_location_91;
+        return_value___errno_location_91=__errno_location();
+        ret = *return_value___errno_location_91;
       }
 
       _SAFE_rc;
-      if(!(main$$1$$26$$1$$pidfile == ((struct _IO_FILE *)NULL)))
-        fclose(main$$1$$26$$1$$pidfile);
+      if(!(main__1__26__1__pidfile == ((struct _IO_FILE *)NULL)))
+        fclose(main__1__26__1__pidfile);
 
     }
 
   }
 
-  signed int return_value_fclose$94;
+  signed int return_value_fclose_94;
   if(!(ctx_p->statusfile == ((char *)NULL)))
   {
     if(!(main_statusfile_f == ((struct _IO_FILE *)NULL)))
     {
-      return_value_fclose$94=fclose(main_statusfile_f);
-      if(!(return_value_fclose$94 == 0))
+      return_value_fclose_94=fclose(main_statusfile_f);
+      if(!(return_value_fclose_94 == 0))
       {
         _error("main", "Cannot close file \"%s\".", ctx_p->statusfile);
-        signed int *return_value___errno_location$93;
-        return_value___errno_location$93=__errno_location();
-        ret = *return_value___errno_location$93;
+        signed int *return_value___errno_location_93;
+        return_value___errno_location_93=__errno_location();
+        ret = *return_value___errno_location_93;
       }
 
     }
 
-    signed int return_value_unlink$96;
-    return_value_unlink$96=unlink(ctx_p->statusfile);
-    if(!(return_value_unlink$96 == 0))
+    signed int return_value_unlink_96;
+    return_value_unlink_96=unlink(ctx_p->statusfile);
+    if(!(return_value_unlink_96 == 0))
     {
       _error("main", "Cannot unlink status file \"%s\"", ctx_p->statusfile);
-      signed int *return_value___errno_location$95;
-      return_value___errno_location$95=__errno_location();
-      ret = *return_value___errno_location$95;
+      signed int *return_value___errno_location_95;
+      return_value___errno_location_95=__errno_location();
+      ret = *return_value___errno_location_95;
     }
 
   }
@@ -8003,9 +8003,9 @@ signed int main(signed int _argc, char **_argv)
       if(!(rm_listoutdir == 0))
       {
         _debug(2, "main", "rmdir(\"%s\")", ctx_p->listoutdir);
-        signed int return_value_rmdir$97;
-        return_value_rmdir$97=rmdir(ctx_p->listoutdir);
-        if(!(return_value_rmdir$97 == 0))
+        signed int return_value_rmdir_97;
+        return_value_rmdir_97=rmdir(ctx_p->listoutdir);
+        if(!(return_value_rmdir_97 == 0))
           _error("main", "Cannot rmdir(\"%s\")", ctx_p->listoutdir);
 
         if(rm_listoutdir == 2)
@@ -8029,21 +8029,21 @@ signed int main(signed int _argc, char **_argv)
 
   error_deinit();
   ctx_cleanup(ctx_p);
-  char *return_value_strerror$98;
-  return_value_strerror$98=strerror(ret);
-  _debug(1, "main", "finished, exitcode: %i: %s.", ret, return_value_strerror$98);
+  char *return_value_strerror_98;
+  return_value_strerror_98=strerror(ret);
+  _debug(1, "main", "finished, exitcode: %i: %s.", ret, return_value_strerror_98);
   free((void *)ctx_p);
-  signed long int main$$1$$30$$_SAFE_rc = (signed long int)0;
-  if(!(main$$1$$30$$_SAFE_rc == 0l))
+  signed long int main__1__30___SAFE_rc = (signed long int)0;
+  if(!(main__1__30___SAFE_rc == 0l))
   {
     _error("main", "Got error while (0)");
-    signed int *return_value___errno_location$99;
-    return_value___errno_location$99=__errno_location();
-    ret = (signed int)main$$1$$30$$_SAFE_rc;
-    *return_value___errno_location$99 = ret;
+    signed int *return_value___errno_location_99;
+    return_value___errno_location_99=__errno_location();
+    ret = (signed int)main__1__30___SAFE_rc;
+    *return_value___errno_location_99 = ret;
   }
 
-  main$$1$$30$$_SAFE_rc;
+  main__1__30___SAFE_rc;
   return ret;
 }
 
@@ -8052,15 +8052,15 @@ signed int main(signed int _argc, char **_argv)
 signed int main_cleanup(struct ctx *ctx_p)
 {
   signed int i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   while(!(i >= 256))
   {
     if((signed int)ctx_p->rules[(signed long int)i].mask == RA_NONE)
       break;
 
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    regfree(&ctx_p->rules[(signed long int)tmp_post$1].expr);
+    regfree(&ctx_p->rules[(signed long int)tmp_post_1].expr);
   }
   _debug(3, "main_cleanup", "%i %i %i %i", ctx_p->watchdirsize, ctx_p->watchdirwslashsize, ctx_p->destdirsize, ctx_p->destdirwslashsize);
   return 0;
@@ -8113,37 +8113,37 @@ signed int main_status_update(struct ctx *ctx_p)
       _debug(3, "main_status_update", "Setting status to %i: %s.", state, status_descr[(signed long int)state]);
       state_old = state;
       signed int ret = 0;
-      signed int return_value_fileno$2;
-      return_value_fileno$2=fileno(main_statusfile_f);
-      signed int return_value_ftruncate$3;
-      return_value_ftruncate$3=ftruncate(return_value_fileno$2, (signed long int)0);
-      if(!(return_value_ftruncate$3 == 0))
+      signed int return_value_fileno_2;
+      return_value_fileno_2=fileno(main_statusfile_f);
+      signed int return_value_ftruncate_3;
+      return_value_ftruncate_3=ftruncate(return_value_fileno_2, (signed long int)0);
+      if(!(return_value_ftruncate_3 == 0))
       {
         _error("main_status_update", "Cannot ftruncate() the file \"%s\".", ctx_p->statusfile);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        return *return_value___errno_location$1;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        return *return_value___errno_location_1;
       }
 
       rewind(main_statusfile_f);
-      signed int return_value_fprintf$5;
-      return_value_fprintf$5=fprintf(main_statusfile_f, "%s", status_descr[(signed long int)state]);
-      if(!(return_value_fprintf$5 >= 1))
+      signed int return_value_fprintf_5;
+      return_value_fprintf_5=fprintf(main_statusfile_f, "%s", status_descr[(signed long int)state]);
+      if(!(return_value_fprintf_5 >= 1))
       {
         _error("main_status_update", "Cannot write to file \"%s\".", ctx_p->statusfile);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        return *return_value___errno_location$4;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        return *return_value___errno_location_4;
       }
 
-      signed int return_value_fflush$7;
-      return_value_fflush$7=fflush(main_statusfile_f);
-      if(!(return_value_fflush$7 == 0))
+      signed int return_value_fflush_7;
+      return_value_fflush_7=fflush(main_statusfile_f);
+      if(!(return_value_fflush_7 == 0))
       {
         _error("main_status_update", "Cannot fflush() on file \"%s\".", ctx_p->statusfile);
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        return *return_value___errno_location$6;
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        return *return_value___errno_location_6;
       }
 
       return ret;
@@ -8164,9 +8164,9 @@ signed int mkdirat_open(const char * const dir_path, signed int dirfd_parent, un
 {
   signed int dirfd;
   _debug(5, "mkdirat_open", "mkdirat(%u, \"%s\", %o)", dirfd_parent, dir_path, dir_mode);
-  signed int return_value_mkdirat$1;
-  return_value_mkdirat$1=mkdirat(dirfd_parent, dir_path, dir_mode);
-  if(!(return_value_mkdirat$1 == 0))
+  signed int return_value_mkdirat_1;
+  return_value_mkdirat_1=mkdirat(dirfd_parent, dir_path, dir_mode);
+  if(!(return_value_mkdirat_1 == 0))
     return -1;
 
   else
@@ -8194,13 +8194,13 @@ signed int notify_wait(struct ctx *ctx_p, struct indexes *indexes_p)
   pthread_cond_broadcast(&threadsinfo_p->cond[(signed long int)0]);
   pthread_mutex_unlock(&threadsinfo_p->mutex[(signed long int)0]);
   signed long int queue_id = (signed long int)0;
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   while(!(queue_id >= 4l))
   {
     struct queueinfo *queueinfo;
-    tmp_post$1 = queue_id;
+    tmp_post_1 = queue_id;
     queue_id = queue_id + 1l;
-    queueinfo = &ctx_p->_queues[tmp_post$1];
+    queueinfo = &ctx_p->_queues[tmp_post_1];
     if(!(queueinfo->stime == 0l))
     {
       if(queueinfo->collectdelay == 4294967295u)
@@ -8231,9 +8231,9 @@ signed int notify_wait(struct ctx *ctx_p, struct indexes *indexes_p)
     if(!(_thread_nextexpiretime == 0l))
     {
       signed long int thread_expiredelay;
-      signed long int return_value_thread_nextexpiretime$2;
-      return_value_thread_nextexpiretime$2=thread_nextexpiretime();
-      thread_expiredelay = ((signed long int)return_value_thread_nextexpiretime$2 - (signed long int)tm) + (signed long int)1;
+      signed long int return_value_thread_nextexpiretime_2;
+      return_value_thread_nextexpiretime_2=thread_nextexpiretime();
+      thread_expiredelay = ((signed long int)return_value_thread_nextexpiretime_2 - (signed long int)tm) + (signed long int)1;
       _debug(3, "notify_wait", "thread_expiredelay == %i", thread_expiredelay);
       thread_expiredelay = thread_expiredelay > (signed long int)0 ? thread_expiredelay : (signed long int)0;
       _debug(3, "notify_wait", "delay = MIN(%li, %li)", delay, thread_expiredelay);
@@ -8242,14 +8242,14 @@ signed int notify_wait(struct ctx *ctx_p, struct indexes *indexes_p)
 
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(delay == 0l)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)ctx_p->state != STATE_RUNNING ? (_Bool)1 : (_Bool)0;
-  signed int *return_value___errno_location$5;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (signed int)ctx_p->state != STATE_RUNNING ? (_Bool)1 : (_Bool)0;
+  signed int *return_value___errno_location_5;
+  if(tmp_if_expr_3)
     return 0;
 
   else
@@ -8286,12 +8286,12 @@ signed int notify_wait(struct ctx *ctx_p, struct indexes *indexes_p)
       pthread_mutex_unlock(&threadsinfo_p->mutex[(signed long int)1]);
       if(ret == -1)
       {
-        return_value___errno_location$5=__errno_location();
-        if(*return_value___errno_location$5 == 4)
+        return_value___errno_location_5=__errno_location();
+        if(*return_value___errno_location_5 == 4)
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = 0;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = 0;
           ret = 0;
         }
 
@@ -8326,9 +8326,9 @@ char * parameter_expand(struct ctx *ctx_p, char *arg, signed int exceptionflags,
   unsigned long int ret_len = (unsigned long int)0;
   if(arg == ((char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (char *)(void *)0;
   }
 
@@ -8339,19 +8339,19 @@ char * parameter_expand(struct ctx *ctx_p, char *arg, signed int exceptionflags,
     *expand_count_p = 0;
 
   char *ptr = &arg[(signed long int)-1];
-  unsigned long int tmp_post$2;
-  char *tmp_post$3;
+  unsigned long int tmp_post_2;
+  char *tmp_post_3;
   char nest_searching;
   char *ptr_nest;
   char *variable_name;
   const char *variable_value;
   unsigned long int variable_value_len;
-  signed int return_value_strcmp$10;
-  _Bool tmp_if_expr$9;
-  signed int *return_value___errno_location$7;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
-  unsigned long int tmp_post$13;
+  signed int return_value_strcmp_10;
+  _Bool tmp_if_expr_9;
+  signed int *return_value___errno_location_7;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
+  unsigned long int tmp_post_13;
   while((_Bool)1)
   {
     ptr = ptr + 1l;
@@ -8374,11 +8374,11 @@ char * parameter_expand(struct ctx *ctx_p, char *arg, signed int exceptionflags,
       {
         if((signed int)ptr[1l] == 37)
         {
-          tmp_post$2 = ret_len;
+          tmp_post_2 = ret_len;
           ret_len = ret_len + 1ul;
-          tmp_post$3 = ptr;
+          tmp_post_3 = ptr;
           ptr = ptr + 1l;
-          ret[(signed long int)tmp_post$2] = *tmp_post$3;
+          ret[(signed long int)tmp_post_2] = *tmp_post_3;
           break;
         }
 
@@ -8406,8 +8406,8 @@ char * parameter_expand(struct ctx *ctx_p, char *arg, signed int exceptionflags,
               nest_searching = (char)0;
               *ptr_nest = (char)0;
               variable_name = &ptr[(signed long int)1];
-              return_value_strcmp$10=strcmp(variable_name, "PID");
-              if(return_value_strcmp$10 == 0)
+              return_value_strcmp_10=strcmp(variable_name, "PID");
+              if(return_value_strcmp_10 == 0)
               {
                 if(ctx_p->pid_str[0l] == 0)
                 {
@@ -8422,11 +8422,11 @@ char * parameter_expand(struct ctx *ctx_p, char *arg, signed int exceptionflags,
               else
               {
                 if((signed int)*variable_name >= 65)
-                  tmp_if_expr$9 = (signed int)*variable_name <= 90 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_9 = (signed int)*variable_name <= 90 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$9 = (_Bool)0;
-                if(!((4 & exceptionflags) == 0) && tmp_if_expr$9)
+                  tmp_if_expr_9 = (_Bool)0;
+                if(!((4 & exceptionflags) == 0) && tmp_if_expr_9)
                 {
                   variable_value = ptr;
                   variable_value_len = (unsigned long int)((ptr_nest - ptr) + (signed long int)1);
@@ -8435,28 +8435,28 @@ char * parameter_expand(struct ctx *ctx_p, char *arg, signed int exceptionflags,
 
                 else
                 {
-                  signed int *return_value___errno_location$4;
-                  return_value___errno_location$4=__errno_location();
-                  *return_value___errno_location$4 = 0;
+                  signed int *return_value___errno_location_4;
+                  return_value___errno_location_4=__errno_location();
+                  *return_value___errno_location_4 = 0;
                   variable_value=parameter_get(variable_name, parameter_get_arg);
                   if(variable_value == ((const char *)NULL))
                   {
                     if((2 & exceptionflags) == 0)
                     {
-                      return_value___errno_location$7=__errno_location();
-                      if(!(*return_value___errno_location$7 == 2))
+                      return_value___errno_location_7=__errno_location();
+                      if(!(*return_value___errno_location_7 == 2))
                       {
-                        return_value___errno_location$5=__errno_location();
-                        return_value_strerror$6=strerror(*return_value___errno_location$5);
-                        _warning("parameter_expand", "Variable \"%s\" is not set (%s)", variable_name, return_value_strerror$6);
+                        return_value___errno_location_5=__errno_location();
+                        return_value_strerror_6=strerror(*return_value___errno_location_5);
+                        _warning("parameter_expand", "Variable \"%s\" is not set (%s)", variable_name, return_value_strerror_6);
                       }
 
                     }
 
                     *ptr_nest = (char)37;
-                    signed int *return_value___errno_location$8;
-                    return_value___errno_location$8=__errno_location();
-                    *return_value___errno_location$8 = 0;
+                    signed int *return_value___errno_location_8;
+                    return_value___errno_location_8=__errno_location();
+                    *return_value___errno_location_8 = 0;
                     break;
                   }
 
@@ -8470,9 +8470,9 @@ char * parameter_expand(struct ctx *ctx_p, char *arg, signed int exceptionflags,
               if(1ul + variable_value_len + ret_len >= ret_size)
               {
                 ret_size = ret_len + variable_value_len + (unsigned long int)1 + (unsigned long int)(1 << 10);
-                void *return_value_xrealloc$11;
-                return_value_xrealloc$11=xrealloc((void *)ret, ret_size);
-                ret = (char *)return_value_xrealloc$11;
+                void *return_value_xrealloc_11;
+                return_value_xrealloc_11=xrealloc((void *)ret, ret_size);
+                ret = (char *)return_value_xrealloc_11;
               }
 
               memcpy((void *)&ret[(signed long int)ret_len], (const void *)variable_value, variable_value_len);
@@ -8490,14 +8490,14 @@ char * parameter_expand(struct ctx *ctx_p, char *arg, signed int exceptionflags,
         if(2ul + ret_len >= ret_size)
         {
           ret_size = ret_size + (unsigned long int)((1 << 10) + 2);
-          void *return_value_xrealloc$12;
-          return_value_xrealloc$12=xrealloc((void *)ret, ret_size);
-          ret = (char *)return_value_xrealloc$12;
+          void *return_value_xrealloc_12;
+          return_value_xrealloc_12=xrealloc((void *)ret, ret_size);
+          ret = (char *)return_value_xrealloc_12;
         }
 
-        tmp_post$13 = ret_len;
+        tmp_post_13 = ret_len;
         ret_len = ret_len + 1ul;
-        ret[(signed long int)tmp_post$13] = *ptr;
+        ret[(signed long int)tmp_post_13] = *ptr;
       }
     }
   }
@@ -8515,9 +8515,9 @@ const char * parameter_get(const char *variable_name, void *_ctx_p)
   _debug(8, "parameter_get", "(\"%s\", %p)", variable_name, ctx_p);
   while(!(long_option_p->name == ((const char *)NULL)))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(long_option_p->name, variable_name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(long_option_p->name, variable_name);
+    if(return_value_strcmp_1 == 0)
     {
       param_id = long_option_p->val;
       break;
@@ -8527,9 +8527,9 @@ const char * parameter_get(const char *variable_name, void *_ctx_p)
   }
   if(param_id == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 2;
     return (const char *)(void *)0;
   }
 
@@ -8541,24 +8541,24 @@ const char * parameter_get(const char *variable_name, void *_ctx_p)
 const char * parameter_get_wmacro(const char *variable_name, void *_ctx_p)
 {
   struct ctx *ctx_p = (struct ctx *)_ctx_p;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!((signed int)*variable_name >= 65))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)*variable_name > 90 ? (_Bool)1 : (_Bool)0;
-  const char *return_value_parameter_get$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)*variable_name > 90 ? (_Bool)1 : (_Bool)0;
+  const char *return_value_parameter_get_1;
+  if(tmp_if_expr_2)
   {
-    return_value_parameter_get$1=parameter_get(variable_name, _ctx_p);
-    return return_value_parameter_get$1;
+    return_value_parameter_get_1=parameter_get(variable_name, _ctx_p);
+    return return_value_parameter_get_1;
   }
 
   else
   {
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(variable_name, "RSYNC-ARGS");
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(variable_name, "RSYNC-ARGS");
+    if(return_value_strcmp_3 == 0)
     {
       ctx_p->synchandler_argf = ctx_p->synchandler_argf | (enum shflags)SHFL_RSYNC_ARGS;
       return (const char *)(void *)0;
@@ -8566,9 +8566,9 @@ const char * parameter_get_wmacro(const char *variable_name, void *_ctx_p)
 
     else
     {
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp(variable_name, "INCLUDE-LIST");
-      if(return_value_strcmp$4 == 0)
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp(variable_name, "INCLUDE-LIST");
+      if(return_value_strcmp_4 == 0)
       {
         ctx_p->synchandler_argf = ctx_p->synchandler_argf | (enum shflags)SHFL_INCLUDE_LIST;
         return (const char *)(void *)0;
@@ -8601,9 +8601,9 @@ const char * parameter_get_wmacro(const char *variable_name, void *_ctx_p)
 
           else
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            *return_value___errno_location$5 = 2;
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            *return_value___errno_location_5 = 2;
             return (const char *)(void *)0;
           }
       }
@@ -8617,17 +8617,17 @@ signed int parent_isalive()
 {
   signed int rc;
   rc=kill(parent_pid, 0);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(rc == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 3)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 3)
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      _debug(1, "parent_isalive", "kill(%u, 0) => %i; errno => %s", parent_pid, rc, return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      _debug(1, "parent_isalive", "kill(%u, 0) => %i; errno => %s", parent_pid, rc, return_value_strerror_2);
       return 0;
     }
 
@@ -8643,26 +8643,26 @@ static inline signed int parse_customsignals(struct ctx *ctx_p, char *arg)
   char *ptr = arg;
   char *start = arg;
   signed int ret = 0;
-  unsigned int parse_customsignals$$1$$signal;
-  signed int return_value_atoi$2;
-  char *tmp_post$1;
+  unsigned int parse_customsignals__1__signal;
+  signed int return_value_atoi_2;
+  char *tmp_post_1;
   while((_Bool)1)
   {
     if((signed int)*ptr == 0 || (signed int)*ptr == 44 || (signed int)*ptr == 58)
     {
-      return_value_atoi$2=atoi(start);
-      parse_customsignals$$1$$signal = (unsigned int)return_value_atoi$2;
+      return_value_atoi_2=atoi(start);
+      parse_customsignals__1__signal = (unsigned int)return_value_atoi_2;
       if(!(ret == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = ret;
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        return *return_value___errno_location$4;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = ret;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        return *return_value___errno_location_4;
       }
 
-      if(parse_customsignals$$1$$signal == 0u)
+      if(parse_customsignals__1__signal == 0u)
       {
         signed int i = 0;
         for( ; !(i >= 256); i = i + 1)
@@ -8680,17 +8680,17 @@ static inline signed int parse_customsignals(struct ctx *ctx_p, char *arg)
         {
           char ch = *ptr;
           *ptr = (char)0;
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = 22;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = 22;
           _error("parse_customsignals", "Expected \":\" in \"%s\"", start);
           *ptr = ch;
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          return *return_value___errno_location$6;
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          return *return_value___errno_location_6;
         }
 
-        char parse_customsignals$$1$$1$$1$$3$$2$$ch;
+        char parse_customsignals__1__1__1__3__2__ch;
         char *end;
         ptr = ptr + 1l;
         end = ptr;
@@ -8700,49 +8700,49 @@ static inline signed int parse_customsignals(struct ctx *ctx_p, char *arg)
 
         if(end == ptr)
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          *return_value___errno_location$7 = 22;
-          _error("parse_customsignals", "Empty config block name on signal \"%u\"", parse_customsignals$$1$$signal);
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          return *return_value___errno_location$8;
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          *return_value___errno_location_7 = 22;
+          _error("parse_customsignals", "Empty config block name on signal \"%u\"", parse_customsignals__1__signal);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          return *return_value___errno_location_8;
         }
 
-        if(parse_customsignals$$1$$signal >= 513u)
+        if(parse_customsignals__1__signal >= 513u)
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          *return_value___errno_location$9 = 22;
-          _error("parse_customsignals", "Too high value of the signal: \"%u\" > (1<<9)", parse_customsignals$$1$$signal);
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          return *return_value___errno_location$10;
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          *return_value___errno_location_9 = 22;
+          _error("parse_customsignals", "Too high value of the signal: \"%u\" > (1<<9)", parse_customsignals__1__signal);
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          return *return_value___errno_location_10;
         }
 
-        parse_customsignals$$1$$1$$1$$3$$2$$ch = *end;
+        parse_customsignals__1__1__1__3__2__ch = *end;
         *end = (char)0;
-        ctx_p->customsignal[(signed long int)parse_customsignals$$1$$signal]=strdup(ptr);
-        *end = parse_customsignals$$1$$1$$1$$3$$2$$ch;
+        ctx_p->customsignal[(signed long int)parse_customsignals__1__signal]=strdup(ptr);
+        *end = parse_customsignals__1__1__1__3__2__ch;
         ptr = end;
       }
       start = ptr + (signed long int)1;
       goto __CPROVER_DUMP_L15;
     }
 
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    *return_value___errno_location$11 = 22;
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    *return_value___errno_location_11 = 22;
     _error("parse_customsignals", "Expected a digit, comma (or colon) but got \"%c\"", *ptr);
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    return *return_value___errno_location$12;
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    return *return_value___errno_location_12;
 
   __CPROVER_DUMP_L15:
     ;
-    tmp_post$1 = ptr;
+    tmp_post_1 = ptr;
     ptr = ptr + 1l;
-    if(*tmp_post$1 == 0)
+    if(*tmp_post_1 == 0)
       break;
 
   }
@@ -8800,58 +8800,58 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     ctx_p->flags_values_raw[(signed long int)param_id] = arg;
   }
 
-  signed int return_value_parse_customsignals$2;
-  signed int *return_value___errno_location$1;
+  signed int return_value_parse_customsignals_2;
+  signed int *return_value___errno_location_1;
   struct passwd *pwd;
   struct group *grp;
-  char *parse_parameter$$1$$3$$6$$value;
-  char *parse_parameter$$1$$3$$6$$arg_orig;
+  char *parse_parameter__1__3__6__value;
+  char *parse_parameter__1__3__6__arg_orig;
   enum pivotroot_way pivotway;
-  signed int return_value_getsubopt$5;
+  signed int return_value_getsubopt_5;
   char *value;
   char *arg_orig;
   enum detachnetwork_way detachnetwork_way;
-  signed int return_value_getsubopt$7;
-  char *parse_parameter$$1$$3$$8$$ptr;
-  signed int tmp_post$11;
-  signed long int return_value_xstrtol$12;
-  char *parse_parameter$$1$$3$$10$$value;
-  char *parse_parameter$$1$$3$$10$$arg_orig;
+  signed int return_value_getsubopt_7;
+  char *parse_parameter__1__3__8__ptr;
+  signed int tmp_post_11;
+  signed long int return_value_xstrtol_12;
+  char *parse_parameter__1__3__10__value;
+  char *parse_parameter__1__3__10__arg_orig;
   enum threadingmode threadingmode;
-  signed int return_value_getsubopt$13;
-  char *parse_parameter$$1$$3$$11$$value;
-  char *parse_parameter$$1$$3$$11$$arg_orig;
-  enum outputmethod parse_parameter$$1$$3$$11$$outputmethod;
-  signed int return_value_getsubopt$15;
-  unsigned long int return_value_strlen$17;
-  char *parse_parameter$$1$$3$$14$$subopts;
-  signed long int return_value_xstrtol$18;
-  signed long int return_value_xstrtol$19;
-  signed long int return_value_xstrtol$20;
-  signed long int return_value_xstrtol$21;
+  signed int return_value_getsubopt_13;
+  char *parse_parameter__1__3__11__value;
+  char *parse_parameter__1__3__11__arg_orig;
+  enum outputmethod parse_parameter__1__3__11__outputmethod;
+  signed int return_value_getsubopt_15;
+  unsigned long int return_value_strlen_17;
+  char *parse_parameter__1__3__14__subopts;
+  signed long int return_value_xstrtol_18;
+  signed long int return_value_xstrtol_19;
+  signed long int return_value_xstrtol_20;
+  signed long int return_value_xstrtol_21;
   char *subopts;
-  char *parse_parameter$$1$$3$$16$$value;
-  char *parse_parameter$$1$$3$$16$$arg_orig;
+  char *parse_parameter__1__3__16__value;
+  char *parse_parameter__1__3__16__arg_orig;
   enum notifyengine_enum notifyengine;
-  signed int return_value_getsubopt$22;
-  signed long int return_value_xstrtol$24;
-  signed long int return_value_xstrtol$25;
-  unsigned long int return_value_strlen$26;
-  unsigned long int return_value_strlen$27;
-  char *parse_parameter$$1$$3$$21$$ptr;
+  signed int return_value_getsubopt_22;
+  signed long int return_value_xstrtol_24;
+  signed long int return_value_xstrtol_25;
+  unsigned long int return_value_strlen_26;
+  unsigned long int return_value_strlen_27;
+  char *parse_parameter__1__3__21__ptr;
   char *start;
-  unsigned char parse_parameter$$1$$3$$21$$exitcode;
-  signed int return_value_atoi$29;
-  signed int tmp_post$30;
-  char *tmp_post$28;
+  unsigned char parse_parameter__1__3__21__exitcode;
+  signed int return_value_atoi_29;
+  signed int tmp_post_30;
+  char *tmp_post_28;
   char *sep;
-  _Bool tmp_if_expr$33;
-  signed int return_value_sscanf$35;
+  _Bool tmp_if_expr_33;
+  signed int return_value_sscanf_35;
   char *colon;
   unsigned int uid;
   unsigned int gid;
-  char *parse_parameter$$1$$3$$27$$value;
-  signed long int return_value_xstrtol$38;
+  char *parse_parameter__1__3__27__value;
+  signed long int return_value_xstrtol_38;
   switch((signed int)param_id)
   {
     case 63:
@@ -8881,11 +8881,11 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
         return 0;
       }
 
-      return_value_parse_customsignals$2=parse_customsignals(ctx_p, arg);
-      if(!(return_value_parse_customsignals$2 == 0))
+      return_value_parse_customsignals_2=parse_customsignals(ctx_p, arg);
+      if(!(return_value_parse_customsignals_2 == 0))
       {
-        return_value___errno_location$1=__errno_location();
-        return *return_value___errno_location$1;
+        return_value___errno_location_1=__errno_location();
+        return *return_value___errno_location_1;
       }
 
       break;
@@ -8896,9 +8896,9 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
       ctx_p->flags[(signed long int)param_id] = ctx_p->flags[(signed long int)param_id] + 1;
       if(pwd == ((struct passwd *)NULL))
       {
-        signed long int return_value_xstrtol$3;
-        return_value_xstrtol$3=xstrtol(arg, &ret);
-        ctx_p->uid = (unsigned int)return_value_xstrtol$3;
+        signed long int return_value_xstrtol_3;
+        return_value_xstrtol_3=xstrtol(arg, &ret);
+        ctx_p->uid = (unsigned int)return_value_xstrtol_3;
         break;
       }
 
@@ -8911,9 +8911,9 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
       ctx_p->flags[(signed long int)param_id] = ctx_p->flags[(signed long int)param_id] + 1;
       if(grp == ((struct group *)NULL))
       {
-        signed long int return_value_xstrtol$4;
-        return_value_xstrtol$4=xstrtol(arg, &ret);
-        ctx_p->gid = (unsigned int)return_value_xstrtol$4;
+        signed long int return_value_xstrtol_4;
+        return_value_xstrtol_4=xstrtol(arg, &ret);
+        ctx_p->gid = (unsigned int)return_value_xstrtol_4;
         break;
       }
 
@@ -8940,21 +8940,21 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 543:
     {
-      parse_parameter$$1$$3$$6$$arg_orig = arg;
+      parse_parameter__1__3__6__arg_orig = arg;
       if(*arg == 0)
       {
         ctx_p->flags[(signed long int)543] = PW_OFF;
         return 0;
       }
 
-      return_value_getsubopt$5=getsubopt(&arg, pivotrootways, &parse_parameter$$1$$3$$6$$value);
-      pivotway = (enum pivotroot_way)return_value_getsubopt$5;
+      return_value_getsubopt_5=getsubopt(&arg, pivotrootways, &parse_parameter__1__3__6__value);
+      pivotway = (enum pivotroot_way)return_value_getsubopt_5;
       if((signed int)pivotway == -1)
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        *return_value___errno_location$6 = 22;
-        _error("parse_parameter", "Invalid pivot_root use way entered: \"%s\"", parse_parameter$$1$$3$$6$$arg_orig);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        *return_value___errno_location_6 = 22;
+        _error("parse_parameter", "Invalid pivot_root use way entered: \"%s\"", parse_parameter__1__3__6__arg_orig);
         return 22;
       }
 
@@ -8970,13 +8970,13 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
         return 0;
       }
 
-      return_value_getsubopt$7=getsubopt(&arg, detachnetworkways, &value);
-      detachnetwork_way = (enum detachnetwork_way)return_value_getsubopt$7;
+      return_value_getsubopt_7=getsubopt(&arg, detachnetworkways, &value);
+      detachnetwork_way = (enum detachnetwork_way)return_value_getsubopt_7;
       if((signed int)detachnetwork_way == -1)
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        *return_value___errno_location$8 = 22;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        *return_value___errno_location_8 = 22;
         _error("parse_parameter", "Invalid network detach way entered: \"%s\"", arg_orig);
         return 22;
       }
@@ -9000,15 +9000,15 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
       if(*arg == 0)
         break;
 
-      parse_parameter$$1$$3$$8$$ptr = arg;
+      parse_parameter__1__3__8__ptr = arg;
       while((_Bool)1)
       {
         char *end;
-        end=strchr(parse_parameter$$1$$3$$8$$ptr, 44);
+        end=strchr(parse_parameter__1__3__8__ptr, 44);
         if(!(end == ((char *)NULL)))
           *end = (char)0;
 
-        if(*parse_parameter$$1$$3$$8$$ptr == 0)
+        if(*parse_parameter__1__3__8__ptr == 0)
         {
           while(!(ctx_p->mountpoints == 0))
           {
@@ -9016,7 +9016,7 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
             free((void *)ctx_p->mountpoint[(signed long int)ctx_p->mountpoints]);
           }
           if(!(end == ((char *)NULL)))
-            parse_parameter$$1$$3$$8$$ptr = &end[(signed long int)1];
+            parse_parameter__1__3__8__ptr = &end[(signed long int)1];
 
         }
 
@@ -9024,23 +9024,23 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
         {
           if(ctx_p->mountpoints >= 256)
           {
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            *return_value___errno_location$9 = 22;
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            *return_value___errno_location_9 = 22;
             _error("parse_parameter", "Too many mountpoints");
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            return *return_value___errno_location$10;
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            return *return_value___errno_location_10;
           }
 
-          tmp_post$11 = ctx_p->mountpoints;
+          tmp_post_11 = ctx_p->mountpoints;
           ctx_p->mountpoints = ctx_p->mountpoints + 1;
-          ctx_p->mountpoint[(signed long int)tmp_post$11]=strdup(parse_parameter$$1$$3$$8$$ptr);
+          ctx_p->mountpoint[(signed long int)tmp_post_11]=strdup(parse_parameter__1__3__8__ptr);
           if(end == ((char *)NULL))
             break;
 
           *end = (char)44;
-          parse_parameter$$1$$3$$8$$ptr = &end[(signed long int)1];
+          parse_parameter__1__3__8__ptr = &end[(signed long int)1];
         }
       }
       break;
@@ -9058,27 +9058,27 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 114:
     {
-      return_value_xstrtol$12=xstrtol(arg, &ret);
-      ctx_p->retries = (signed int)(unsigned int)return_value_xstrtol$12;
+      return_value_xstrtol_12=xstrtol(arg, &ret);
+      ctx_p->retries = (signed int)(unsigned int)return_value_xstrtol_12;
       break;
     }
     case 112:
     {
-      parse_parameter$$1$$3$$10$$arg_orig = arg;
+      parse_parameter__1__3__10__arg_orig = arg;
       if(*arg == 0)
       {
         ctx_p->flags[(signed long int)param_id] = 0;
         return 0;
       }
 
-      return_value_getsubopt$13=getsubopt(&arg, threading_modes, &parse_parameter$$1$$3$$10$$value);
-      threadingmode = (enum threadingmode)return_value_getsubopt$13;
+      return_value_getsubopt_13=getsubopt(&arg, threading_modes, &parse_parameter__1__3__10__value);
+      threadingmode = (enum threadingmode)return_value_getsubopt_13;
       if((signed int)threadingmode == -1)
       {
-        signed int *return_value___errno_location$14;
-        return_value___errno_location$14=__errno_location();
-        *return_value___errno_location$14 = 22;
-        _error("parse_parameter", "Invalid threading mode entered: \"%s\"", parse_parameter$$1$$3$$10$$arg_orig);
+        signed int *return_value___errno_location_14;
+        return_value___errno_location_14=__errno_location();
+        *return_value___errno_location_14 = 22;
+        _error("parse_parameter", "Invalid threading mode entered: \"%s\"", parse_parameter__1__3__10__arg_orig);
         return 22;
       }
 
@@ -9087,25 +9087,25 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 89:
     {
-      parse_parameter$$1$$3$$11$$arg_orig = arg;
+      parse_parameter__1__3__11__arg_orig = arg;
       if(*arg == 0)
       {
         ctx_p->flags[(signed long int)param_id] = 0;
         return 0;
       }
 
-      return_value_getsubopt$15=getsubopt(&arg, output_methods, &parse_parameter$$1$$3$$11$$value);
-      parse_parameter$$1$$3$$11$$outputmethod = (enum outputmethod)return_value_getsubopt$15;
-      if((signed int)parse_parameter$$1$$3$$11$$outputmethod == -1)
+      return_value_getsubopt_15=getsubopt(&arg, output_methods, &parse_parameter__1__3__11__value);
+      parse_parameter__1__3__11__outputmethod = (enum outputmethod)return_value_getsubopt_15;
+      if((signed int)parse_parameter__1__3__11__outputmethod == -1)
       {
-        signed int *return_value___errno_location$16;
-        return_value___errno_location$16=__errno_location();
-        *return_value___errno_location$16 = 22;
-        _error("parse_parameter", "Invalid log writing destination entered: \"%s\"", parse_parameter$$1$$3$$11$$arg_orig);
+        signed int *return_value___errno_location_16;
+        return_value___errno_location_16=__errno_location();
+        *return_value___errno_location_16 = 22;
+        _error("parse_parameter", "Invalid log writing destination entered: \"%s\"", parse_parameter__1__3__11__arg_orig);
         return 22;
       }
 
-      ctx_p->flags[(signed long int)89] = (signed int)parse_parameter$$1$$3$$11$$outputmethod;
+      ctx_p->flags[(signed long int)89] = (signed int)parse_parameter__1__3__11__outputmethod;
       break;
     }
     case 76:
@@ -9120,8 +9120,8 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 521:
     {
-      return_value_strlen$17=strlen(arg);
-      if(!(return_value_strlen$17 == 0ul))
+      return_value_strlen_17=strlen(arg);
+      if(!(return_value_strlen_17 == 0ul))
       {
         ctx_p->standbyfile = arg;
         ctx_p->flags[(signed long int)521] = 1;
@@ -9136,14 +9136,14 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 555:
     {
-      parse_parameter$$1$$3$$14$$subopts = arg;
+      parse_parameter__1__3__14__subopts = arg;
       ctx_p->flags[(signed long int)555] = 0;
-      while(!((signed int)*parse_parameter$$1$$3$$14$$subopts == 0))
+      while(!((signed int)*parse_parameter__1__3__14__subopts == 0))
       {
-        char *parse_parameter$$1$$3$$14$$1$$value;
+        char *parse_parameter__1__3__14__1__value;
         signed int field;
-        field=getsubopt(&parse_parameter$$1$$3$$14$$subopts, stat_fields, &parse_parameter$$1$$3$$14$$1$$value);
-        _debug(4, "parse_parameter", "field == %i -> %x (%s)", field, xstatfield_to_statfield[(signed long int)field], parse_parameter$$1$$3$$14$$1$$value);
+        field=getsubopt(&parse_parameter__1__3__14__subopts, stat_fields, &parse_parameter__1__3__14__1__value);
+        _debug(4, "parse_parameter", "field == %i -> %x (%s)", field, xstatfield_to_statfield[(signed long int)field], parse_parameter__1__3__14__1__value);
         if(!(field == 0))
           ctx_p->flags[(signed long int)555] = ctx_p->flags[(signed long int)555] | (signed int)xstatfield_to_statfield[(signed long int)field];
 
@@ -9153,26 +9153,26 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 119:
     {
-      return_value_xstrtol$18=xstrtol(arg, &ret);
-      ctx_p->syncdelay = (unsigned int)return_value_xstrtol$18;
+      return_value_xstrtol_18=xstrtol(arg, &ret);
+      ctx_p->syncdelay = (unsigned int)return_value_xstrtol_18;
       break;
     }
     case 116:
     {
-      return_value_xstrtol$19=xstrtol(arg, &ret);
-      ctx_p->_queues[(signed long int)QUEUE_NORMAL].collectdelay = (unsigned int)return_value_xstrtol$19;
+      return_value_xstrtol_19=xstrtol(arg, &ret);
+      ctx_p->_queues[(signed long int)QUEUE_NORMAL].collectdelay = (unsigned int)return_value_xstrtol_19;
       break;
     }
     case 84:
     {
-      return_value_xstrtol$20=xstrtol(arg, &ret);
-      ctx_p->_queues[(signed long int)QUEUE_BIGFILE].collectdelay = (unsigned int)return_value_xstrtol$20;
+      return_value_xstrtol_20=xstrtol(arg, &ret);
+      ctx_p->_queues[(signed long int)QUEUE_BIGFILE].collectdelay = (unsigned int)return_value_xstrtol_20;
       break;
     }
     case 66:
     {
-      return_value_xstrtol$21=xstrtol(arg, &ret);
-      ctx_p->bfilethreshold = (unsigned long int)return_value_xstrtol$21;
+      return_value_xstrtol_21=xstrtol(arg, &ret);
+      ctx_p->bfilethreshold = (unsigned long int)return_value_xstrtol_21;
       break;
     }
     case 556:
@@ -9180,9 +9180,9 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
       subopts = arg;
       while(!((signed int)*subopts == 0))
       {
-        char *parse_parameter$$1$$3$$15$$1$$value;
+        char *parse_parameter__1__3__15__1__value;
         signed int syscall_bitmask;
-        syscall_bitmask=getsubopt(&subopts, syscalls_bitmask, &parse_parameter$$1$$3$$15$$1$$value);
+        syscall_bitmask=getsubopt(&subopts, syscalls_bitmask, &parse_parameter__1__3__15__1__value);
         _debug(4, "parse_parameter", "cancel syscall == %i -> 0x%x", syscall_bitmask, xcsc_to_csc[(signed long int)syscall_bitmask]);
         if(syscall_bitmask == 0)
           ctx_p->flags[(signed long int)556] = 0;
@@ -9194,7 +9194,7 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 532:
     {
-      parse_parameter$$1$$3$$16$$arg_orig = arg;
+      parse_parameter__1__3__16__arg_orig = arg;
       if((signed int)paramsource == PS_CONTROL)
       {
         _warning("parse_parameter", "Cannot change \"monitor\" in run-time. Ignoring.");
@@ -9207,21 +9207,21 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
         return 0;
       }
 
-      return_value_getsubopt$22=getsubopt(&arg, notify_engines, &parse_parameter$$1$$3$$16$$value);
-      notifyengine = (enum notifyengine_enum)return_value_getsubopt$22;
+      return_value_getsubopt_22=getsubopt(&arg, notify_engines, &parse_parameter__1__3__16__value);
+      notifyengine = (enum notifyengine_enum)return_value_getsubopt_22;
       if((signed int)notifyengine == -1)
       {
-        signed int *return_value___errno_location$23;
-        return_value___errno_location$23=__errno_location();
-        *return_value___errno_location$23 = 22;
-        _error("parse_parameter", "Invalid FS monitor subsystem entered: \"%s\"", parse_parameter$$1$$3$$16$$arg_orig);
+        signed int *return_value___errno_location_23;
+        return_value___errno_location_23=__errno_location();
+        *return_value___errno_location_23 = 22;
+        _error("parse_parameter", "Invalid FS monitor subsystem entered: \"%s\"", parse_parameter__1__3__16__arg_orig);
         return 22;
       }
 
       if((signed int)notifyengine == NE_INOTIFY || (signed int)notifyengine == NE_GIO)
         goto __CPROVER_DUMP_L83;
 
-      _error("parse_parameter", "clsync is compiled without %s subsystem support. Recompile with option \"--with-%s\" if you're planning to use it.", parse_parameter$$1$$3$$16$$arg_orig, parse_parameter$$1$$3$$16$$arg_orig);
+      _error("parse_parameter", "clsync is compiled without %s subsystem support. Recompile with option \"--with-%s\" if you're planning to use it.", parse_parameter__1__3__16__arg_orig, parse_parameter__1__3__16__arg_orig);
       return 22;
 
     __CPROVER_DUMP_L83:
@@ -9231,20 +9231,20 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 513:
     {
-      return_value_xstrtol$24=xstrtol(arg, &ret);
-      ctx_p->rsyncinclimit = (unsigned int)return_value_xstrtol$24;
+      return_value_xstrtol_24=xstrtol(arg, &ret);
+      ctx_p->rsyncinclimit = (unsigned int)return_value_xstrtol_24;
       break;
     }
     case 107:
     {
-      return_value_xstrtol$25=xstrtol(arg, &ret);
-      ctx_p->synctimeout = (unsigned int)return_value_xstrtol$25;
+      return_value_xstrtol_25=xstrtol(arg, &ret);
+      ctx_p->synctimeout = (unsigned int)return_value_xstrtol_25;
       break;
     }
     case 524:
     {
-      return_value_strlen$26=strlen(arg);
-      if(!(return_value_strlen$26 == 0ul))
+      return_value_strlen_26=strlen(arg);
+      if(!(return_value_strlen_26 == 0ul))
       {
         ctx_p->preexithookfile = arg;
         ctx_p->flags[(signed long int)524] = 1;
@@ -9259,8 +9259,8 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 522:
     {
-      return_value_strlen$27=strlen(arg);
-      if(!(return_value_strlen$27 == 0ul))
+      return_value_strlen_27=strlen(arg);
+      if(!(return_value_strlen_27 == 0ul))
       {
         ctx_p->exithookfile = arg;
         ctx_p->flags[(signed long int)522] = 1;
@@ -9275,43 +9275,43 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 120:
     {
-      parse_parameter$$1$$3$$21$$ptr = arg;
+      parse_parameter__1__3__21__ptr = arg;
       start = arg;
       while((_Bool)1)
       {
-        if((signed int)*parse_parameter$$1$$3$$21$$ptr == 0 || (signed int)*parse_parameter$$1$$3$$21$$ptr == 44)
+        if((signed int)*parse_parameter__1__3__21__ptr == 0 || (signed int)*parse_parameter__1__3__21__ptr == 44)
         {
-          return_value_atoi$29=atoi(start);
-          parse_parameter$$1$$3$$21$$exitcode = (unsigned char)return_value_atoi$29;
-          if((signed int)parse_parameter$$1$$3$$21$$exitcode == 0)
+          return_value_atoi_29=atoi(start);
+          parse_parameter__1__3__21__exitcode = (unsigned char)return_value_atoi_29;
+          if((signed int)parse_parameter__1__3__21__exitcode == 0)
           {
             signed int i = 0;
-            for( ; !(i >= 256); ctx_p->isignoredexitcode[(signed long int)tmp_post$30] = (char)0)
+            for( ; !(i >= 256); ctx_p->isignoredexitcode[(signed long int)tmp_post_30] = (char)0)
             {
-              tmp_post$30 = i;
+              tmp_post_30 = i;
               i = i + 1;
             }
           }
 
           else
-            ctx_p->isignoredexitcode[(signed long int)parse_parameter$$1$$3$$21$$exitcode] = (char)1;
-          start = parse_parameter$$1$$3$$21$$ptr + (signed long int)1;
+            ctx_p->isignoredexitcode[(signed long int)parse_parameter__1__3__21__exitcode] = (char)1;
+          start = parse_parameter__1__3__21__ptr + (signed long int)1;
           goto __CPROVER_DUMP_L100;
         }
 
-        signed int *return_value___errno_location$31;
-        return_value___errno_location$31=__errno_location();
-        *return_value___errno_location$31 = 22;
-        _error("parse_parameter", "Expected a digit or comma but got \"%c\"", *parse_parameter$$1$$3$$21$$ptr);
-        signed int *return_value___errno_location$32;
-        return_value___errno_location$32=__errno_location();
-        return *return_value___errno_location$32;
+        signed int *return_value___errno_location_31;
+        return_value___errno_location_31=__errno_location();
+        *return_value___errno_location_31 = 22;
+        _error("parse_parameter", "Expected a digit or comma but got \"%c\"", *parse_parameter__1__3__21__ptr);
+        signed int *return_value___errno_location_32;
+        return_value___errno_location_32=__errno_location();
+        return *return_value___errno_location_32;
 
       __CPROVER_DUMP_L100:
         ;
-        tmp_post$28 = parse_parameter$$1$$3$$21$$ptr;
-        parse_parameter$$1$$3$$21$$ptr = parse_parameter$$1$$3$$21$$ptr + 1l;
-        if(*tmp_post$28 == 0)
+        tmp_post_28 = parse_parameter__1__3__21__ptr;
+        parse_parameter__1__3__21__ptr = parse_parameter__1__3__21__ptr + 1l;
+        if(*tmp_post_28 == 0)
           break;
 
       }
@@ -9372,20 +9372,20 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
       for( ; !(ptr >= sep); ptr = ptr + 1l)
       {
         if(!((signed int)*ptr >= 97))
-          tmp_if_expr$33 = (_Bool)1;
+          tmp_if_expr_33 = (_Bool)1;
 
         else
-          tmp_if_expr$33 = (signed int)*ptr > 122 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$33)
+          tmp_if_expr_33 = (signed int)*ptr > 122 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_33)
           break;
 
       }
       if(ptr == sep)
       {
         unsigned long int len = (unsigned long int)((ptr - arg) + (signed long int)1);
-        void *return_value_xmalloc$34;
-        return_value_xmalloc$34=xmalloc(len + (unsigned long int)1);
-        ctx_p->destproto = (char *)return_value_xmalloc$34;
+        void *return_value_xmalloc_34;
+        return_value_xmalloc_34=xmalloc(len + (unsigned long int)1);
+        ctx_p->destproto = (char *)return_value_xmalloc_34;
         memcpy((void *)ctx_p->destproto, (const void *)arg, len);
         ctx_p->destproto[(signed long int)len] = (char)0;
       }
@@ -9400,8 +9400,8 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 525:
     {
-      char *parse_parameter$$1$$3$$24$$value;
-      ctx_p->flags[(signed long int)525]=getsubopt(&arg, socketauth, &parse_parameter$$1$$3$$24$$value);
+      char *parse_parameter__1__3__24__value;
+      ctx_p->flags[(signed long int)525]=getsubopt(&arg, socketauth, &parse_parameter__1__3__24__value);
       if(ctx_p->flags[525l] == -1)
       {
         _error("parse_parameter", "Wrong socket auth mech entered: \"%s\"", arg);
@@ -9411,8 +9411,8 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 526:
     {
-      return_value_sscanf$35=sscanf(arg, "%o", (unsigned int *)&ctx_p->socketmod);
-      if(return_value_sscanf$35 == 0)
+      return_value_sscanf_35=sscanf(arg, "%o", (unsigned int *)&ctx_p->socketmod);
+      if(return_value_sscanf_35 == 0)
       {
         _error("parse_parameter", "Non octal value passed to --socket-mod: \"%s\"", arg);
         return 22;
@@ -9445,20 +9445,20 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
         memcpy((void *)user, (const void *)arg, (unsigned long int)((signed long int)(1 << 8) < colon - arg ? (signed long int)(1 << 8) : colon - arg));
         user[colon - arg] = (char)0;
         strncpy(group, &colon[(signed long int)1], (unsigned long int)(1 << 8));
-        signed int *return_value___errno_location$36;
-        return_value___errno_location$36=__errno_location();
-        *return_value___errno_location$36 = 0;
-        struct passwd *parse_parameter$$1$$3$$26$$2$$pwent;
-        parse_parameter$$1$$3$$26$$2$$pwent=getpwnam(user);
-        if(parse_parameter$$1$$3$$26$$2$$pwent == ((struct passwd *)NULL))
+        signed int *return_value___errno_location_36;
+        return_value___errno_location_36=__errno_location();
+        *return_value___errno_location_36 = 0;
+        struct passwd *parse_parameter__1__3__26__2__pwent;
+        parse_parameter__1__3__26__2__pwent=getpwnam(user);
+        if(parse_parameter__1__3__26__2__pwent == ((struct passwd *)NULL))
         {
           _error("parse_parameter", "Cannot find username \"%s\" (case #1)", (const void *)user);
           return 22;
         }
 
-        signed int *return_value___errno_location$37;
-        return_value___errno_location$37=__errno_location();
-        *return_value___errno_location$37 = 0;
+        signed int *return_value___errno_location_37;
+        return_value___errno_location_37=__errno_location();
+        *return_value___errno_location_37 = 0;
         struct group *grent;
         grent=getgrnam(group);
         if(grent == ((struct group *)NULL))
@@ -9467,7 +9467,7 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
           return 22;
         }
 
-        uid = parse_parameter$$1$$3$$26$$2$$pwent->pw_uid;
+        uid = parse_parameter__1__3__26__2__pwent->pw_uid;
         gid = grent->gr_gid;
       }
       ctx_p->socketuid = uid;
@@ -9488,7 +9488,7 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
     }
     case 77:
     {
-      ctx_p->flags[(signed long int)77]=getsubopt(&arg, modes, &parse_parameter$$1$$3$$27$$value);
+      ctx_p->flags[(signed long int)77]=getsubopt(&arg, modes, &parse_parameter__1__3__27__value);
       if(ctx_p->flags[77l] == -1)
       {
         _error("parse_parameter", "Wrong mode name entered: \"%s\"", arg);
@@ -9513,8 +9513,8 @@ static signed int parse_parameter(struct ctx *ctx_p, unsigned short int param_id
 
       else
       {
-        return_value_xstrtol$38=xstrtol(arg, &ret);
-        ctx_p->flags[(signed long int)param_id] = (signed int)return_value_xstrtol$38;
+        return_value_xstrtol_38=xstrtol(arg, &ret);
+        ctx_p->flags[(signed long int)param_id] = (signed int)return_value_xstrtol_38;
       }
   }
   return ret;
@@ -9536,9 +9536,9 @@ extern signed int parse_rules_fromfile(struct ctx *ctx_p)
     rules->mask = (enum ruleaction_enum)RA_NONE;
     rules->perm = (enum ruleaction_enum)RA_ALL;
     _error("parse_rules_fromfile", "Cannot open \"%s\" for reading.", rulfpath);
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   struct _GHashTable *autowrules_ht;
@@ -9546,14 +9546,14 @@ extern signed int parse_rules_fromfile(struct ctx *ctx_p)
   signed int i = 0;
   unsigned long int linelen;
   unsigned long int size = (unsigned long int)0;
-  signed long int return_value_getline$2;
-  signed int tmp_post$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  signed long int return_value_getline_2;
+  signed int tmp_post_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   do
   {
-    return_value_getline$2=getline(&line_buf, &size, f);
-    linelen = (unsigned long int)return_value_getline$2;
+    return_value_getline_2=getline(&line_buf, &size, f);
+    linelen = (unsigned long int)return_value_getline_2;
     if(linelen == 18446744073709551615ul)
       break;
 
@@ -9562,9 +9562,9 @@ extern signed int parse_rules_fromfile(struct ctx *ctx_p)
       unsigned char sign = (unsigned char)0;
       char *line = line_buf;
       struct rule *rule = &rules[(signed long int)i];
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i + 1;
-      rule->num = tmp_post$3;
+      rule->num = tmp_post_3;
       linelen = linelen - 1ul;
       line[(signed long int)linelen] = (char)0;
       switch((signed int)*line)
@@ -9624,16 +9624,16 @@ extern signed int parse_rules_fromfile(struct ctx *ctx_p)
         case 119:
         {
           if(ctx_p->flags[77l] == 5)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_4 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
             _warning("parse_rules_fromfile", "Used \"w\" rule in \"--rsync\" case. This may cause unexpected problems.");
 
           rule->objtype = (unsigned int)0040000;
@@ -9709,9 +9709,9 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
       {
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_negotiation) /*4ul*/ );
         struct sockcmd_dat_negotiation *d = (struct sockcmd_dat_negotiation *)sockcmd_p->data;
-        signed int return_value_sscanf$1;
-        return_value_sscanf$1=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &d->prot, &d->subprot);
-        if(!(return_value_sscanf$1 >= min_args))
+        signed int return_value_sscanf_1;
+        return_value_sscanf_1=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &d->prot, &d->subprot);
+        if(!(return_value_sscanf_1 >= min_args))
           return 22;
 
         break;
@@ -9719,10 +9719,10 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
       case SOCKCMD_REQUEST_DUMP:
       {
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_dump) /*4096ul*/ );
-        struct sockcmd_dat_dump *parse_text_data$$1$$3$$2$$d = (struct sockcmd_dat_dump *)sockcmd_p->data;
-        signed int return_value_sscanf$2;
-        return_value_sscanf$2=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data$$1$$3$$2$$d->dir_path);
-        if(!(return_value_sscanf$2 >= min_args))
+        struct sockcmd_dat_dump *parse_text_data__1__3__2__d = (struct sockcmd_dat_dump *)sockcmd_p->data;
+        signed int return_value_sscanf_2;
+        return_value_sscanf_2=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data__1__3__2__d->dir_path);
+        if(!(return_value_sscanf_2 >= min_args))
           return 22;
 
         break;
@@ -9730,10 +9730,10 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
       case SOCKCMD_REQUEST_SET:
       {
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_set) /*16384ul*/ );
-        struct sockcmd_dat_set *parse_text_data$$1$$3$$3$$d = (struct sockcmd_dat_set *)sockcmd_p->data;
-        signed int return_value_sscanf$3;
-        return_value_sscanf$3=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data$$1$$3$$3$$d->key, &parse_text_data$$1$$3$$3$$d->value);
-        if(!(return_value_sscanf$3 >= min_args))
+        struct sockcmd_dat_set *parse_text_data__1__3__3__d = (struct sockcmd_dat_set *)sockcmd_p->data;
+        signed int return_value_sscanf_3;
+        return_value_sscanf_3=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data__1__3__3__d->key, &parse_text_data__1__3__3__d->value);
+        if(!(return_value_sscanf_3 >= min_args))
           return 22;
 
         break;
@@ -9741,10 +9741,10 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
       case SOCKCMD_REPLY_ACK:
       {
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_ack) /*16ul*/ );
-        struct sockcmd_dat_ack *parse_text_data$$1$$3$$4$$d = (struct sockcmd_dat_ack *)sockcmd_p->data;
-        signed int return_value_sscanf$4;
-        return_value_sscanf$4=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data$$1$$3$$4$$d->cmd_id, &parse_text_data$$1$$3$$4$$d->cmd_num);
-        if(!(return_value_sscanf$4 >= min_args))
+        struct sockcmd_dat_ack *parse_text_data__1__3__4__d = (struct sockcmd_dat_ack *)sockcmd_p->data;
+        signed int return_value_sscanf_4;
+        return_value_sscanf_4=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data__1__3__4__d->cmd_id, &parse_text_data__1__3__4__d->cmd_num);
+        if(!(return_value_sscanf_4 >= min_args))
           return 22;
 
         break;
@@ -9752,10 +9752,10 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
       case SOCKCMD_REPLY_EINVAL:
       {
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_ack) /*16ul*/ );
-        struct sockcmd_dat_ack *parse_text_data$$1$$3$$5$$d = (struct sockcmd_dat_ack *)sockcmd_p->data;
-        signed int return_value_sscanf$5;
-        return_value_sscanf$5=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data$$1$$3$$5$$d->cmd_id, &parse_text_data$$1$$3$$5$$d->cmd_num);
-        if(!(return_value_sscanf$5 >= min_args))
+        struct sockcmd_dat_ack *parse_text_data__1__3__5__d = (struct sockcmd_dat_ack *)sockcmd_p->data;
+        signed int return_value_sscanf_5;
+        return_value_sscanf_5=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data__1__3__5__d->cmd_id, &parse_text_data__1__3__5__d->cmd_num);
+        if(!(return_value_sscanf_5 >= min_args))
           return 22;
 
         break;
@@ -9769,10 +9769,10 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
         }
 
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_version) /*264ul*/ );
-        struct sockcmd_dat_version *parse_text_data$$1$$3$$6$$d = (struct sockcmd_dat_version *)sockcmd_p->data;
-        signed int return_value_sscanf$6;
-        return_value_sscanf$6=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data$$1$$3$$6$$d->major, &parse_text_data$$1$$3$$6$$d->minor, &parse_text_data$$1$$3$$6$$d->revision);
-        if(!(return_value_sscanf$6 >= min_args))
+        struct sockcmd_dat_version *parse_text_data__1__3__6__d = (struct sockcmd_dat_version *)sockcmd_p->data;
+        signed int return_value_sscanf_6;
+        return_value_sscanf_6=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data__1__3__6__d->major, &parse_text_data__1__3__6__d->minor, &parse_text_data__1__3__6__d->revision);
+        if(!(return_value_sscanf_6 >= min_args))
           return 22;
 
         break;
@@ -9786,10 +9786,10 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
         }
 
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_info) /*2560ul*/ );
-        struct sockcmd_dat_info *parse_text_data$$1$$3$$7$$d = (struct sockcmd_dat_info *)sockcmd_p->data;
-        signed int return_value_sscanf$7;
-        return_value_sscanf$7=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data$$1$$3$$7$$d->config_block, &parse_text_data$$1$$3$$7$$d->label, &parse_text_data$$1$$3$$7$$d->flags, &parse_text_data$$1$$3$$7$$d->flags_set);
-        if(!(return_value_sscanf$7 >= min_args))
+        struct sockcmd_dat_info *parse_text_data__1__3__7__d = (struct sockcmd_dat_info *)sockcmd_p->data;
+        signed int return_value_sscanf_7;
+        return_value_sscanf_7=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data__1__3__7__d->config_block, &parse_text_data__1__3__7__d->label, &parse_text_data__1__3__7__d->flags, &parse_text_data__1__3__7__d->flags_set);
+        if(!(return_value_sscanf_7 >= min_args))
           return 22;
 
         break;
@@ -9797,10 +9797,10 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
       case SOCKCMD_REPLY_UNKNOWNCMD:
       {
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_ack) /*16ul*/ );
-        struct sockcmd_dat_ack *parse_text_data$$1$$3$$8$$d = (struct sockcmd_dat_ack *)sockcmd_p->data;
-        signed int return_value_sscanf$8;
-        return_value_sscanf$8=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data$$1$$3$$8$$d->cmd_id, &parse_text_data$$1$$3$$8$$d->cmd_num);
-        if(!(return_value_sscanf$8 >= min_args))
+        struct sockcmd_dat_ack *parse_text_data__1__3__8__d = (struct sockcmd_dat_ack *)sockcmd_p->data;
+        signed int return_value_sscanf_8;
+        return_value_sscanf_8=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data__1__3__8__d->cmd_id, &parse_text_data__1__3__8__d->cmd_num);
+        if(!(return_value_sscanf_8 >= min_args))
           return 22;
 
         break;
@@ -9808,10 +9808,10 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
       case SOCKCMD_REPLY_INVALIDCMDID:
       {
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_invalidcmd) /*8ul*/ );
-        struct sockcmd_dat_invalidcmd *parse_text_data$$1$$3$$9$$d = (struct sockcmd_dat_invalidcmd *)sockcmd_p->data;
-        signed int return_value_sscanf$9;
-        return_value_sscanf$9=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data$$1$$3$$9$$d->cmd_num);
-        if(!(return_value_sscanf$9 >= min_args))
+        struct sockcmd_dat_invalidcmd *parse_text_data__1__3__9__d = (struct sockcmd_dat_invalidcmd *)sockcmd_p->data;
+        signed int return_value_sscanf_9;
+        return_value_sscanf_9=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data__1__3__9__d->cmd_num);
+        if(!(return_value_sscanf_9 >= min_args))
           return 22;
 
         break;
@@ -9819,10 +9819,10 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
       case SOCKCMD_REPLY_EEXIST:
       {
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_eexist) /*4096ul*/ );
-        struct sockcmd_dat_eexist *parse_text_data$$1$$3$$10$$d = (struct sockcmd_dat_eexist *)sockcmd_p->data;
-        signed int return_value_sscanf$10;
-        return_value_sscanf$10=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data$$1$$3$$10$$d->file_path);
-        if(!(return_value_sscanf$10 >= min_args))
+        struct sockcmd_dat_eexist *parse_text_data__1__3__10__d = (struct sockcmd_dat_eexist *)sockcmd_p->data;
+        signed int return_value_sscanf_10;
+        return_value_sscanf_10=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data__1__3__10__d->file_path);
+        if(!(return_value_sscanf_10 >= min_args))
           return 22;
 
         break;
@@ -9830,10 +9830,10 @@ static inline signed int parse_text_data(struct sockcmd *sockcmd_p, char *args, 
       case SOCKCMD_REPLY_EPERM:
       {
         sockcmd_p->data=xmalloc(sizeof(struct sockcmd_dat_eperm) /*8192ul*/ );
-        struct sockcmd_dat_eperm *parse_text_data$$1$$3$$11$$d = (struct sockcmd_dat_eperm *)sockcmd_p->data;
-        signed int return_value_sscanf$11;
-        return_value_sscanf$11=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data$$1$$3$$11$$d->descr);
-        if(!(return_value_sscanf$11 >= min_args))
+        struct sockcmd_dat_eperm *parse_text_data__1__3__11__d = (struct sockcmd_dat_eperm *)sockcmd_p->data;
+        signed int return_value_sscanf_11;
+        return_value_sscanf_11=sscanf(args, textmessage_args[(signed long int)sockcmd_p->cmd_id], &parse_text_data__1__3__11__d->descr);
+        if(!(return_value_sscanf_11 >= min_args))
           return 22;
 
         break;
@@ -9895,7 +9895,7 @@ extern signed int privileged_init(struct ctx *ctx_p)
 
 // pthread_cond_destroy_shared
 // file pthreadex.c line 54
-extern signed int pthread_cond_destroy_shared(union anonymous$1 *cond_p)
+extern signed int pthread_cond_destroy_shared(union anonymous_1 *cond_p)
 {
   signed int rc;
   rc=pthread_cond_destroy(cond_p);
@@ -9905,22 +9905,22 @@ extern signed int pthread_cond_destroy_shared(union anonymous$1 *cond_p)
 
 // pthread_cond_init_shared
 // file pthreadex.c line 43
-extern signed int pthread_cond_init_shared(union anonymous$1 **cond_p)
+extern signed int pthread_cond_init_shared(union anonymous_1 **cond_p)
 {
-  void *return_value_shm_malloc$1;
-  return_value_shm_malloc$1=shm_malloc(sizeof(union anonymous$1) /*48ul*/ );
-  *cond_p = (union anonymous$1 *)return_value_shm_malloc$1;
-  static union anonymous$1 cond_initial = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+  void *return_value_shm_malloc_1;
+  return_value_shm_malloc_1=shm_malloc(sizeof(union anonymous_1) /*48ul*/ );
+  *cond_p = (union anonymous_1 *)return_value_shm_malloc_1;
+  static union anonymous_1 cond_initial = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
-  memcpy((void *)*cond_p, (const void *)&cond_initial, sizeof(union anonymous$1) /*48ul*/ );
-  union anonymous$0 attr;
+  memcpy((void *)*cond_p, (const void *)&cond_initial, sizeof(union anonymous_1) /*48ul*/ );
+  union anonymous_0 attr;
   pthread_condattr_init(&attr);
   pthread_condattr_setpshared(&attr, 1);
-  signed int return_value_pthread_cond_init$2;
-  return_value_pthread_cond_init$2=pthread_cond_init(*cond_p, &attr);
-  return return_value_pthread_cond_init$2;
+  signed int return_value_pthread_cond_init_2;
+  return_value_pthread_cond_init_2=pthread_cond_init(*cond_p, &attr);
+  return return_value_pthread_cond_init_2;
 }
 
 // pthread_mutex_destroy_shared
@@ -9937,19 +9937,19 @@ extern signed int pthread_mutex_destroy_shared(union anonymous *mutex_p)
 // file pthreadex.h line 22
 extern signed int pthread_mutex_init_shared(union anonymous **mutex_p)
 {
-  void *return_value_shm_malloc_try$1;
-  return_value_shm_malloc_try$1=shm_malloc_try(sizeof(union anonymous) /*40ul*/ );
-  *mutex_p = (union anonymous *)return_value_shm_malloc_try$1;
+  void *return_value_shm_malloc_try_1;
+  return_value_shm_malloc_try_1=shm_malloc_try(sizeof(union anonymous) /*40ul*/ );
+  *mutex_p = (union anonymous *)return_value_shm_malloc_try_1;
   static union anonymous mutex_initial = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
   memcpy((void *)*mutex_p, (const void *)&mutex_initial, sizeof(union anonymous) /*40ul*/ );
-  union anonymous$0 attr;
+  union anonymous_0 attr;
   pthread_mutexattr_init(&attr);
   pthread_mutexattr_setpshared(&attr, 1);
-  signed int return_value_pthread_mutex_init$2;
-  return_value_pthread_mutex_init$2=pthread_mutex_init(*mutex_p, &attr);
-  return return_value_pthread_mutex_init$2;
+  signed int return_value_pthread_mutex_init_2;
+  return_value_pthread_mutex_init_2=pthread_mutex_init(*mutex_p, &attr);
+  return return_value_pthread_mutex_init_2;
 }
 
 // pthread_mutex_reltimedlock
@@ -9957,9 +9957,9 @@ extern signed int pthread_mutex_init_shared(union anonymous **mutex_p)
 extern signed int pthread_mutex_reltimedlock(union anonymous *mutex_p, signed long int tv_sec, signed long int tv_nsec)
 {
   struct timespec abs_time;
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$1=clock_gettime(0, &abs_time);
-  if(!(return_value_clock_gettime$1 == 0))
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_1=clock_gettime(0, &abs_time);
+  if(!(return_value_clock_gettime_1 == 0))
     return -1;
 
   else
@@ -9972,9 +9972,9 @@ extern signed int pthread_mutex_reltimedlock(union anonymous *mutex_p, signed lo
       abs_time.tv_nsec = abs_time.tv_nsec - (signed long int)(1000 * 1000 * 1000);
     }
 
-    signed int return_value_pthread_mutex_timedlock$2;
-    return_value_pthread_mutex_timedlock$2=pthread_mutex_timedlock(mutex_p, &abs_time);
-    return return_value_pthread_mutex_timedlock$2;
+    signed int return_value_pthread_mutex_timedlock_2;
+    return_value_pthread_mutex_timedlock_2=pthread_mutex_timedlock(mutex_p, &abs_time);
+    return return_value_pthread_mutex_timedlock_2;
   }
 }
 
@@ -10043,7 +10043,7 @@ const char * rsync_escape(const char *path)
 
 l_rsync_escape_loop0_end:
   ;
-  unsigned long int tmp_post$2;
+  unsigned long int tmp_post_2;
   if(sc_count == 0ul)
     return path;
 
@@ -10053,17 +10053,17 @@ l_rsync_escape_loop0_end:
     if(required_size >= rsync_escape_result_size)
     {
       rsync_escape_result_size = required_size + (unsigned long int)(1 << 10);
-      void *return_value_xrealloc$1;
-      return_value_xrealloc$1=xrealloc((void *)rsync_escape_result, rsync_escape_result_size);
-      rsync_escape_result = (char *)return_value_xrealloc$1;
+      void *return_value_xrealloc_1;
+      return_value_xrealloc_1=xrealloc((void *)rsync_escape_result, rsync_escape_result_size);
+      rsync_escape_result = (char *)return_value_xrealloc_1;
     }
 
     i = i + 1ul;
     do
     {
-      tmp_post$2 = i;
+      tmp_post_2 = i;
       i = i - 1ul;
-      if(tmp_post$2 == 0ul)
+      if(tmp_post_2 == 0ul)
         break;
 
       rsync_escape_result[(signed long int)(i + sc_count)] = path[(signed long int)i];
@@ -10095,23 +10095,23 @@ static inline signed int rsync_listpush(struct indexes *indexes_p, const char *f
   char *fpathwslash;
   if(fpath_len >= 1ul)
   {
-    void *return_value___builtin_alloca$1;
-    return_value___builtin_alloca$1=__builtin_alloca(fpath_len + (unsigned long int)2);
-    fpathwslash = (char *)return_value___builtin_alloca$1;
+    void *return_value___builtin_alloca_1;
+    return_value___builtin_alloca_1=__builtin_alloca(fpath_len + (unsigned long int)2);
+    fpathwslash = (char *)return_value___builtin_alloca_1;
     fpathwslash[(signed long int)0] = (char)47;
     memcpy((void *)&fpathwslash[(signed long int)1], (const void *)fpath, fpath_len + (unsigned long int)1);
   }
 
   else
     fpathwslash = (char *)fpath;
-  const char *return_value_rsync_escape$2;
-  return_value_rsync_escape$2=rsync_escape(fpathwslash);
-  fpathwslash = (char *)return_value_rsync_escape$2;
+  const char *return_value_rsync_escape_2;
+  return_value_rsync_escape_2=rsync_escape(fpathwslash);
+  fpathwslash = (char *)return_value_rsync_escape_2;
   char *end = fpathwslash;
   _debug(3, "rsync_listpush", "\"%s\": Adding to rsynclist: \"%s\" with flags %p.", fpathwslash, fpathwslash, (void *)(signed long int)flags);
-  char *return_value_strdup$3;
-  return_value_strdup$3=strdup(fpathwslash);
-  indexes_outaggr_add(indexes_p, return_value_strdup$3, flags);
+  char *return_value_strdup_3;
+  return_value_strdup_3=strdup(fpathwslash);
+  indexes_outaggr_add(indexes_p, return_value_strdup_3, flags);
   if(!(linescount_p == ((signed int *)NULL)))
     *linescount_p = *linescount_p + 1;
 
@@ -10121,9 +10121,9 @@ static inline signed int rsync_listpush(struct indexes *indexes_p, const char *f
       break;
 
     _debug(3, "rsync_listpush", "Non-recursively \"%s\": Adding to rsynclist: \"%s\".", fpathwslash, fpathwslash);
-    char *return_value_strdup$4;
-    return_value_strdup$4=strdup(fpathwslash);
-    indexes_outaggr_add(indexes_p, return_value_strdup$4, (enum eventinfo_flags)EVIF_NONE);
+    char *return_value_strdup_4;
+    return_value_strdup_4=strdup(fpathwslash);
+    indexes_outaggr_add(indexes_p, return_value_strdup_4, (enum eventinfo_flags)EVIF_NONE);
     if(!(linescount_p == ((signed int *)NULL)))
       *linescount_p = *linescount_p + 1;
 
@@ -10146,9 +10146,9 @@ static inline signed int rsync_outline(struct _IO_FILE *outf, char *outline, enu
   if(!((EVIF_RECURSIVELY & (signed int)flags) == 0))
   {
     _debug(3, "rsync_outline", "Recursively \"%s\": Writing to rsynclist: \"%s/***\".", outline, outline);
-    signed int return_value_fprintf$1;
-    return_value_fprintf$1=fprintf(outf, "%s/***\n", outline);
-    if(!(return_value_fprintf$1 >= 1))
+    signed int return_value_fprintf_1;
+    return_value_fprintf_1=fprintf(outf, "%s/***\n", outline);
+    if(!(return_value_fprintf_1 >= 1))
       _critical("rsync_outline", "Assert: fprintf(outf, \"%s/***\\n\", outline) <= 0");
 
   }
@@ -10157,9 +10157,9 @@ static inline signed int rsync_outline(struct _IO_FILE *outf, char *outline, enu
     if(!((EVIF_CONTENTRECURSIVELY & (signed int)flags) == 0))
     {
       _debug(3, "rsync_outline", "Content-recursively \"%s\": Writing to rsynclist: \"%s/**\".", outline, outline);
-      signed int return_value_fprintf$2;
-      return_value_fprintf$2=fprintf(outf, "%s/**\n", outline);
-      if(!(return_value_fprintf$2 >= 1))
+      signed int return_value_fprintf_2;
+      return_value_fprintf_2=fprintf(outf, "%s/**\n", outline);
+      if(!(return_value_fprintf_2 >= 1))
         _critical("rsync_outline", "Assert: fprintf(outf, \"%s/**\\n\", outline) <= 0");
 
     }
@@ -10167,9 +10167,9 @@ static inline signed int rsync_outline(struct _IO_FILE *outf, char *outline, enu
     else
     {
       _debug(3, "rsync_outline", "Non-recursively \"%s\": Writing to rsynclist: \"%s\".", outline, outline);
-      signed int return_value_fprintf$3;
-      return_value_fprintf$3=fprintf(outf, "%s\n", outline);
-      if(!(return_value_fprintf$3 >= 1))
+      signed int return_value_fprintf_3;
+      return_value_fprintf_3=fprintf(outf, "%s\n", outline);
+      if(!(return_value_fprintf_3 >= 1))
         _critical("rsync_outline", "Assert: fprintf(outf, \"%s\\n\", outline) <= 0");
 
     }
@@ -10255,15 +10255,15 @@ extern enum ruleaction_enum rules_search_getperm(const char *fpath, unsigned int
   }
 
   _debug(3, "rules_search_getperm", "Starting from position %i", i);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!((signed int)rule_p->mask == RA_NONE))
   {
     if(!(rule_p->objtype == 0u))
-      tmp_if_expr$1 = rule_p->objtype != ftype ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = rule_p->objtype != ftype ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    _debug(3, "rules_search_getperm", "%i -> %p/%p: type compare: %p, %p -> %i", i, (void *)(signed long int)rule_p->perm, (void *)(signed long int)rule_p->mask, (void *)(unsigned long int)ftype, (void *)(unsigned long int)rule_p->objtype, (unsigned char)!tmp_if_expr$1);
+      tmp_if_expr_1 = (_Bool)0;
+    _debug(3, "rules_search_getperm", "%i -> %p/%p: type compare: %p, %p -> %i", i, (void *)(signed long int)rule_p->perm, (void *)(signed long int)rule_p->mask, (void *)(unsigned long int)ftype, (void *)(unsigned long int)rule_p->objtype, (unsigned char)!tmp_if_expr_1);
     if(((signed int)rule_p->mask & (signed int)ruleaction) == 0)
     {
       _debug(3, "rules_search_getperm", "action-mask mismatch. Skipping.");
@@ -10287,9 +10287,9 @@ extern enum ruleaction_enum rules_search_getperm(const char *fpath, unsigned int
 
       __CPROVER_DUMP_L12:
         ;
-        signed int return_value_regexec$2;
-        return_value_regexec$2=regexec(&rule_p->expr, fpath, (unsigned long int)0, (struct anonymous$10 *)(void *)0, 0);
-        if(return_value_regexec$2 == 0)
+        signed int return_value_regexec_2;
+        return_value_regexec_2=regexec(&rule_p->expr, fpath, (unsigned long int)0, (struct anonymous_10 *)(void *)0, 0);
+        if(return_value_regexec_2 == 0)
           break;
 
         _debug(3, "rules_search_getperm", "doesn't match regex. Skipping.");
@@ -10325,9 +10325,9 @@ signed int sethandler_sigchld(void (*handler)())
   sa.__sigaction_handler.sa_handler = (void (*)(signed int))handler;
   sigemptyset(&sa.sa_mask);
   sa.sa_flags = 0x10000000 | 1;
-  signed int return_value_sigaction$1;
-  return_value_sigaction$1=sigaction(17, &sa, ((struct sigaction *)NULL));
-  if(return_value_sigaction$1 == -1)
+  signed int return_value_sigaction_1;
+  return_value_sigaction_1=sigaction(17, &sa, ((struct sigaction *)NULL));
+  if(return_value_sigaction_1 == -1)
     _critical("sethandler_sigchld", "Assert: sigaction(17, &sa, 0) == -1");
 
   return 0;
@@ -10411,25 +10411,25 @@ extern void * shm_malloc_try(unsigned long int size)
 static inline signed int so_call_rsync(struct ctx *ctx_p, struct indexes *indexes_p, const char *inclistfile, const char *exclistfile)
 {
   _debug(2, "so_call_rsync", "inclistfile == \"%s\"; exclistfile == \"%s\"", inclistfile, exclistfile);
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
   if(!(ctx_p->flags[112l] == PM_OFF))
   {
     if(!(ctx_p->flags[112l] == PM_SAFE))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(!tmp_if_expr$6)
+    tmp_if_expr_6 = (_Bool)0;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(!tmp_if_expr_6)
   {
     _debug(3, "so_call_rsync", "ctx_p->handler_funct.rsync == %p", ctx_p->handler_funct.rsync);
     indexes_p->nonthreaded_syncing_fpath2ei_ht = indexes_p->fpath2ei_ht;
@@ -10462,21 +10462,21 @@ static inline signed int so_call_rsync(struct ctx *ctx_p, struct indexes *indexe
       }
 
       if(ctx_p->retries == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      try_again = (signed int)tmp_if_expr$3;
+        tmp_if_expr_3 = (_Bool)0;
+      try_again = (signed int)tmp_if_expr_3;
       _warning("so_call_rsync", "Bad exitcode %i (errcode %i). %s.", rc, err, try_again != 0 ? "Retrying" : "Give up");
       if(!(try_again == 0))
       {
@@ -10487,11 +10487,11 @@ static inline signed int so_call_rsync(struct ctx *ctx_p, struct indexes *indexe
     }
 
     if(!(err == 0))
-      tmp_if_expr$4 = !(ctx_p->flags[(signed long int)529] != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = !(ctx_p->flags[(signed long int)529] != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       _error("so_call_rsync", "Bad exitcode %i (errcode %i)", rc, err);
       rc = err;
@@ -10515,20 +10515,20 @@ static inline signed int so_call_rsync(struct ctx *ctx_p, struct indexes *indexe
 
   struct threadinfo *threadinfo_p;
   threadinfo_p=thread_new();
-  signed int *return_value___errno_location$7;
+  signed int *return_value___errno_location_7;
   if(threadinfo_p == ((struct threadinfo *)NULL))
   {
-    return_value___errno_location$7=__errno_location();
-    return *return_value___errno_location$7;
+    return_value___errno_location_7=__errno_location();
+    return *return_value___errno_location_7;
   }
 
   else
   {
     threadinfo_p->try_n = 0;
     threadinfo_p->callback = (signed int (*)(struct ctx *, struct thread_callbackfunct_arg *))(void *)0;
-    void *return_value_xmalloc$8;
-    return_value_xmalloc$8=xmalloc(sizeof(char *) /*8ul*/  * (unsigned long int)3);
-    threadinfo_p->argv = (char **)return_value_xmalloc$8;
+    void *return_value_xmalloc_8;
+    return_value_xmalloc_8=xmalloc(sizeof(char *) /*8ul*/  * (unsigned long int)3);
+    threadinfo_p->argv = (char **)return_value_xmalloc_8;
     threadinfo_p->ctx_p = ctx_p;
     threadinfo_p->starttime=time((signed long int *)(void *)0);
     threadinfo_p->fpath2ei_ht=g_hash_table_dup(indexes_p->fpath2ei_ht, g_str_hash, g_str_equal, free, free, (void * (*)(void *))strdup, eidup);
@@ -10538,14 +10538,14 @@ static inline signed int so_call_rsync(struct ctx *ctx_p, struct indexes *indexe
     if(!(ctx_p->synctimeout == 0u))
       threadinfo_p->expiretime = threadinfo_p->starttime + (signed long int)ctx_p->synctimeout;
 
-    signed int return_value_pthread_create$10;
-    return_value_pthread_create$10=pthread_create(&threadinfo_p->pthread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))so_call_rsync_thread, (void *)threadinfo_p);
-    if(!(return_value_pthread_create$10 == 0))
+    signed int return_value_pthread_create_10;
+    return_value_pthread_create_10=pthread_create(&threadinfo_p->pthread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))so_call_rsync_thread, (void *)threadinfo_p);
+    if(!(return_value_pthread_create_10 == 0))
     {
       _error("so_call_rsync", "Cannot pthread_create().");
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      return *return_value___errno_location$9;
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      return *return_value___errno_location_9;
     }
 
     _debug(3, "so_call_rsync", "thread %p", threadinfo_p->pthread);
@@ -10597,39 +10597,39 @@ static inline signed int so_call_rsync_finished(struct ctx *ctx_p, const char *i
 // file sync.c line 750
 signed int so_call_rsync_thread(struct threadinfo *threadinfo_p)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  _debug(3, "so_call_rsync_thread", "thread_num == %i; threadinfo_p == %p; i_p->pthread %p; thread %p", threadinfo_p->thread_num, threadinfo_p, threadinfo_p->pthread, return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  _debug(3, "so_call_rsync_thread", "thread_num == %i; threadinfo_p == %p; i_p->pthread %p; thread %p", threadinfo_p->thread_num, threadinfo_p, threadinfo_p->pthread, return_value_pthread_self_1);
   struct ctx *ctx_p = threadinfo_p->ctx_p;
-  char **so_call_rsync_thread$$1$$argv = threadinfo_p->argv;
+  char **so_call_rsync_thread__1__argv = threadinfo_p->argv;
   signed int err = 0;
   signed int rc = 0;
   signed int try_again;
   try_again = 0;
   threadinfo_p->try_n = threadinfo_p->try_n + 1;
-  rc=ctx_p->handler_funct.rsync(so_call_rsync_thread$$1$$argv[(signed long int)0], so_call_rsync_thread$$1$$argv[(signed long int)1]);
+  rc=ctx_p->handler_funct.rsync(so_call_rsync_thread__1__argv[(signed long int)0], so_call_rsync_thread__1__argv[(signed long int)1]);
   err=exitcode_process(threadinfo_p->ctx_p, rc);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(!(err == 0))
   {
     if(ctx_p->retries == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = threadinfo_p->try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = threadinfo_p->try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    try_again = (signed int)tmp_if_expr$4;
+      tmp_if_expr_4 = (_Bool)0;
+    try_again = (signed int)tmp_if_expr_4;
     _warning("so_call_rsync_thread", "Bad exitcode %i (errcode %i). %s.", rc, err, try_again != 0 ? "Retrying" : "Give up");
     if(!(try_again == 0))
     {
@@ -10649,16 +10649,16 @@ signed int so_call_rsync_thread(struct threadinfo *threadinfo_p)
 
   }
 
-  err=so_call_rsync_finished(ctx_p, so_call_rsync_thread$$1$$argv[(signed long int)0], so_call_rsync_thread$$1$$argv[(signed long int)1]);
+  err=so_call_rsync_finished(ctx_p, so_call_rsync_thread__1__argv[(signed long int)0], so_call_rsync_thread__1__argv[(signed long int)1]);
   if(!(err == 0))
   {
     exitcode = err;
     pthread_kill(pthread_sighandler, 15);
   }
 
-  free((void *)so_call_rsync_thread$$1$$argv[(signed long int)0]);
-  free((void *)so_call_rsync_thread$$1$$argv[(signed long int)1]);
-  free((void *)so_call_rsync_thread$$1$$argv);
+  free((void *)so_call_rsync_thread__1__argv[(signed long int)0]);
+  free((void *)so_call_rsync_thread__1__argv[(signed long int)1]);
+  free((void *)so_call_rsync_thread__1__argv);
   err=thread_exit(threadinfo_p, rc);
   if(!(err == 0))
   {
@@ -10674,29 +10674,29 @@ signed int so_call_rsync_thread(struct threadinfo *threadinfo_p)
 static inline signed int so_call_sync(struct ctx *ctx_p, struct indexes *indexes_p, signed int n, struct api_eventinfo *ei)
 {
   _debug(2, "so_call_sync", "n == %i", n);
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
   if(!(ctx_p->flags[112l] == PM_OFF))
   {
     if(!(ctx_p->flags[112l] == PM_SAFE))
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_9 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$10 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$8;
-  if(!tmp_if_expr$10)
+    tmp_if_expr_10 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_8;
+  if(!tmp_if_expr_10)
   {
     signed int rc = 0;
     signed int ret = 0;
@@ -10729,21 +10729,21 @@ static inline signed int so_call_sync(struct ctx *ctx_p, struct indexes *indexes
       }
 
       if(ctx_p->retries == 0)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      try_again = (signed int)tmp_if_expr$7;
+        tmp_if_expr_7 = (_Bool)0;
+      try_again = (signed int)tmp_if_expr_7;
       _warning("so_call_sync", "Bad exitcode %i (errcode %i). %s.", rc, err, try_again != 0 ? "Retrying" : "Give up");
       if(!(try_again == 0))
       {
@@ -10756,31 +10756,31 @@ static inline signed int so_call_sync(struct ctx *ctx_p, struct indexes *indexes
     if(!(err == 0))
     {
       if(ctx_p->retries == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
     if(!(err == 0))
-      tmp_if_expr$8 = !(ctx_p->flags[(signed long int)529] != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = !(ctx_p->flags[(signed long int)529] != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
     {
       _error("so_call_sync", "Bad exitcode %i (errcode %i)", rc, err);
       ret = err;
@@ -10800,11 +10800,11 @@ static inline signed int so_call_sync(struct ctx *ctx_p, struct indexes *indexes
 
   struct threadinfo *threadinfo_p;
   threadinfo_p=thread_new();
-  signed int *return_value___errno_location$11;
+  signed int *return_value___errno_location_11;
   if(threadinfo_p == ((struct threadinfo *)NULL))
   {
-    return_value___errno_location$11=__errno_location();
-    return *return_value___errno_location$11;
+    return_value___errno_location_11=__errno_location();
+    return *return_value___errno_location_11;
   }
 
   else
@@ -10821,14 +10821,14 @@ static inline signed int so_call_sync(struct ctx *ctx_p, struct indexes *indexes
     if(!(ctx_p->synctimeout == 0u))
       threadinfo_p->expiretime = threadinfo_p->starttime + (signed long int)ctx_p->synctimeout;
 
-    signed int return_value_pthread_create$13;
-    return_value_pthread_create$13=pthread_create(&threadinfo_p->pthread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))so_call_sync_thread, (void *)threadinfo_p);
-    if(!(return_value_pthread_create$13 == 0))
+    signed int return_value_pthread_create_13;
+    return_value_pthread_create_13=pthread_create(&threadinfo_p->pthread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))so_call_sync_thread, (void *)threadinfo_p);
+    if(!(return_value_pthread_create_13 == 0))
     {
       _error("so_call_sync", "Cannot pthread_create().");
-      signed int *return_value___errno_location$12;
-      return_value___errno_location$12=__errno_location();
-      return *return_value___errno_location$12;
+      signed int *return_value___errno_location_12;
+      return_value___errno_location_12=__errno_location();
+      return *return_value___errno_location_12;
     }
 
     _debug(3, "so_call_sync", "thread %p", threadinfo_p->pthread);
@@ -10868,9 +10868,9 @@ __CPROVER_DUMP_L6:
 // file sync.c line 605
 signed int so_call_sync_thread(struct threadinfo *threadinfo_p)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  _debug(3, "so_call_sync_thread", "thread_num == %i; threadinfo_p == %p; i_p->pthread %p; thread %p", threadinfo_p->thread_num, threadinfo_p, threadinfo_p->pthread, return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  _debug(3, "so_call_sync_thread", "thread_num == %i; threadinfo_p == %p; i_p->pthread %p; thread %p", threadinfo_p->thread_num, threadinfo_p, threadinfo_p->pthread, return_value_pthread_self_1);
   struct ctx *ctx_p = threadinfo_p->ctx_p;
   signed int n = threadinfo_p->n;
   struct api_eventinfo *ei = threadinfo_p->ei;
@@ -10881,27 +10881,27 @@ signed int so_call_sync_thread(struct threadinfo *threadinfo_p)
   threadinfo_p->try_n = threadinfo_p->try_n + 1;
   rc=ctx_p->handler_funct.sync(n, ei);
   err=exitcode_process(threadinfo_p->ctx_p, rc);
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
   if(!(err == 0))
   {
     if(ctx_p->retries == 0)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = threadinfo_p->try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = threadinfo_p->try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    try_again = (signed int)tmp_if_expr$8;
+      tmp_if_expr_8 = (_Bool)0;
+    try_again = (signed int)tmp_if_expr_8;
     _warning("so_call_sync_thread", "Bad exitcode %i (errcode %i). %s.", rc, err, try_again != 0 ? "Retrying" : "Give up");
     if(!(try_again == 0))
     {
@@ -10911,32 +10911,32 @@ signed int so_call_sync_thread(struct threadinfo *threadinfo_p)
 
   }
 
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(!(err == 0))
   {
     if(ctx_p->retries == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = threadinfo_p->try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = threadinfo_p->try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$5 = (_Bool)0;
+    tmp_if_expr_5 = (_Bool)0;
   if(!(err == 0))
   {
     if(ctx_p->flags[529l] == 0)
@@ -10973,9 +10973,9 @@ extern struct clsyncsock * socket_accept(signed int sock)
 
   else
   {
-    struct clsyncsock *return_value_socket_new$1;
-    return_value_socket_new$1=socket_new(clsyncsock_sock);
-    return return_value_socket_new$1;
+    struct clsyncsock *return_value_socket_new_1;
+    return_value_socket_new_1=socket_new(clsyncsock_sock);
+    return return_value_socket_new_1;
   }
 }
 
@@ -10983,9 +10983,9 @@ extern struct clsyncsock * socket_accept(signed int sock)
 // file socket.c line 122
 static inline signed int socket_check(struct clsyncsock *clsyncsock_p)
 {
-  signed int return_value_socket_check_bysock$1;
-  return_value_socket_check_bysock$1=socket_check_bysock(clsyncsock_p->sock);
-  return return_value_socket_check_bysock$1;
+  signed int return_value_socket_check_bysock_1;
+  return_value_socket_check_bysock_1=socket_check_bysock(clsyncsock_p->sock);
+  return return_value_socket_check_bysock_1;
 }
 
 // socket_check_bysock
@@ -10998,16 +10998,16 @@ extern signed int socket_check_bysock(signed int sock)
   ret=getsockopt(sock, 1, 4, (void *)&error_code, &error_code_len);
   if(!(ret == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   if(!(error_code == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = error_code;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = error_code;
     return error_code;
   }
 
@@ -11031,9 +11031,9 @@ extern signed int socket_cleanup(struct clsyncsock *clsyncsock_p)
 extern signed int socket_close(struct clsyncsock *clsyncsock_p)
 {
   close(clsyncsock_p->sock);
-  signed int return_value_socket_cleanup$1;
-  return_value_socket_cleanup$1=socket_cleanup(clsyncsock_p);
-  return return_value_socket_cleanup$1;
+  signed int return_value_socket_cleanup_1;
+  return_value_socket_cleanup_1=socket_cleanup(clsyncsock_p);
+  return return_value_socket_cleanup_1;
 }
 
 // socket_deinit
@@ -11075,13 +11075,13 @@ extern struct clsyncsock * socket_listen_unix(const char * const socket_path)
 {
   signed int s;
   s=socket(1, 1, 0);
-  signed int return_value_access$2;
-  return_value_access$2=access(socket_path, 0);
-  signed int return_value_unlink$1;
-  if(return_value_access$2 == 0)
+  signed int return_value_access_2;
+  return_value_access_2=access(socket_path, 0);
+  signed int return_value_unlink_1;
+  if(return_value_access_2 == 0)
   {
-    return_value_unlink$1=unlink(socket_path);
-    if(return_value_unlink$1 == 0)
+    return_value_unlink_1=unlink(socket_path);
+    if(return_value_unlink_1 == 0)
       goto __CPROVER_DUMP_L1;
 
     _error("socket_listen_unix", "Cannot unlink() \"%s\".", socket_path);
@@ -11098,9 +11098,9 @@ extern struct clsyncsock * socket_listen_unix(const char * const socket_path)
     memset((void *)&addr, 0, sizeof(struct sockaddr_un) /*110ul*/ );
     addr.sun_family = (unsigned short int)1;
     strncpy(addr.sun_path, socket_path, sizeof(char [108l]) /*108ul*/  - (unsigned long int)1);
-    signed int return_value_bind$3;
-    return_value_bind$3=bind(s, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-    if(!(return_value_bind$3 == 0))
+    signed int return_value_bind_3;
+    return_value_bind_3=bind(s, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+    if(!(return_value_bind_3 == 0))
     {
       _error("socket_listen_unix", "Cannot bind() on address \"%s\".", socket_path);
       close(s);
@@ -11109,9 +11109,9 @@ extern struct clsyncsock * socket_listen_unix(const char * const socket_path)
 
     else
     {
-      signed int return_value_listen$4;
-      return_value_listen$4=listen(s, 2);
-      if(!(return_value_listen$4 == 0))
+      signed int return_value_listen_4;
+      return_value_listen_4=listen(s, 2);
+      if(!(return_value_listen_4 == 0))
       {
         _error("socket_listen_unix", "Cannot listen() on address \"%s\".", socket_path);
         close(s);
@@ -11120,9 +11120,9 @@ extern struct clsyncsock * socket_listen_unix(const char * const socket_path)
 
       else
       {
-        struct clsyncsock *return_value_socket_new$5;
-        return_value_socket_new$5=socket_new(s);
-        return return_value_socket_new$5;
+        struct clsyncsock *return_value_socket_new_5;
+        return_value_socket_new_5=socket_new(s);
+        return return_value_socket_new_5;
       }
     }
   }
@@ -11133,9 +11133,9 @@ extern struct clsyncsock * socket_listen_unix(const char * const socket_path)
 struct clsyncsock * socket_new(signed int clsyncsock_sock)
 {
   struct clsyncsock *clsyncsock_p;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct clsyncsock) /*14392ul*/ );
-  clsyncsock_p = (struct clsyncsock *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct clsyncsock) /*14392ul*/ );
+  clsyncsock_p = (struct clsyncsock *)return_value_xmalloc_1;
   _debug(2, "socket_new", "sock == %i.", clsyncsock_sock);
   clsyncsock_p->sock = clsyncsock_sock;
   clsyncsock_p->prot = (unsigned short int)0;
@@ -11189,8 +11189,8 @@ enum auth_flags { AUTHFLAG_ENTERED_LOGIN=1 };
   _debug(3, "socket_procclsyncsock", "Started new thread for new connection.");
   arg->state = (enum clsyncsock_state)((signed int)arg->authtype == SOCKAUTH_NULL ? CLSTATE_MAIN : CLSTATE_AUTH);
   socket_send(clsyncsock_p, (enum sockcmd_id)SOCKCMD_REQUEST_NEGOTIATION, clsyncsock_p->prot, clsyncsock_p->subprot);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(arg->running == ((signed int *)NULL)))
   {
     if(!(*arg->running == 0))
@@ -11267,13 +11267,13 @@ enum auth_flags { AUTHFLAG_ENTERED_LOGIN=1 };
             sockcmd_p->data = (void *)0;
           }
 
-          signed int return_value_socket_check$3;
-          return_value_socket_check$3=socket_check(clsyncsock_p);
-          if(!(return_value_socket_check$3 == 0))
+          signed int return_value_socket_check_3;
+          return_value_socket_check_3=socket_check(clsyncsock_p);
+          if(!(return_value_socket_check_3 == 0))
           {
-            return_value___errno_location$1=__errno_location();
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            _debug(1, "socket_procclsyncsock", "clsyncsock socket error: %s", return_value_strerror$2);
+            return_value___errno_location_1=__errno_location();
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            _debug(1, "socket_procclsyncsock", "clsyncsock socket error: %s", return_value_strerror_2);
           }
 
           else
@@ -11308,9 +11308,9 @@ extern signed int socket_recv(struct clsyncsock *clsyncsock, struct sockcmd *soc
   unsigned long int rest_length;
   unsigned long int recv_length;
   unsigned long int filled_length_new;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   clsyncsock_sock = clsyncsock->sock;
   static char bufs[8l][4096l];
   buf = bufs[(signed long int)clsyncsock_sock];
@@ -11319,16 +11319,16 @@ extern signed int socket_recv(struct clsyncsock *clsyncsock, struct sockcmd *soc
   ptr = recv_ptrs[(signed long int)clsyncsock_sock];
   ptr = ptr == (char *)(void *)0 ? buf : ptr;
   _debug(3, "socket_recv", "buf==%p; start==%p; ptr==%p", buf, start, ptr);
-  signed int *return_value___errno_location$4;
+  signed int *return_value___errno_location_4;
   while((_Bool)1)
   {
     filled_length = (unsigned long int)(ptr - buf);
     rest_length = ((unsigned long int)(1 << 12) - filled_length) - (unsigned long int)16;
     if(!(rest_length >= 1ul))
     {
-      signed int return_value_socket_overflow_fix$2;
-      return_value_socket_overflow_fix$2=socket_overflow_fix(buf, &start, &ptr);
-      if(return_value_socket_overflow_fix$2 == 0)
+      signed int return_value_socket_overflow_fix_2;
+      return_value_socket_overflow_fix_2=socket_overflow_fix(buf, &start, &ptr);
+      if(return_value_socket_overflow_fix_2 == 0)
       {
         _debug(1, "socket_recv", "Got too big message. Ignoring.");
         ptr = buf;
@@ -11337,9 +11337,9 @@ extern signed int socket_recv(struct clsyncsock *clsyncsock, struct sockcmd *soc
       continue;
     }
 
-    signed long int return_value_recv$3;
-    return_value_recv$3=recv(clsyncsock_sock, (void *)ptr, rest_length, 0);
-    recv_length = (unsigned long int)return_value_recv$3;
+    signed long int return_value_recv_3;
+    return_value_recv_3=recv(clsyncsock_sock, (void *)ptr, rest_length, 0);
+    recv_length = (unsigned long int)return_value_recv_3;
     filled_length_new = filled_length + recv_length;
     _debug(5, "socket_recv", "recv_length == %u; filled_length_new == %u", recv_length, filled_length_new);
     if(recv_length == 0ul)
@@ -11354,17 +11354,17 @@ extern signed int socket_recv(struct clsyncsock *clsyncsock, struct sockcmd *soc
         end=strchr(ptr, 10);
         if(!(end == ((char *)NULL)))
         {
-          signed int return_value_sscanf$6;
-          return_value_sscanf$6=sscanf(start, "%lu %u", &sockcmd_p->cmd_num, (unsigned int *)&sockcmd_p->cmd_id);
-          if(!(return_value_sscanf$6 == 2))
+          signed int return_value_sscanf_6;
+          return_value_sscanf_6=sscanf(start, "%lu %u", &sockcmd_p->cmd_num, (unsigned int *)&sockcmd_p->cmd_id);
+          if(!(return_value_sscanf_6 == 2))
           {
             *end = (char)0;
             _error("socket_recv", "It's expected to parse \"%%lu %%u\" from \"%s\"", start);
             *end = (char)10;
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            *return_value___errno_location$5 = 42;
-            return *return_value___errno_location$5;
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            *return_value___errno_location_5 = 42;
+            return *return_value___errno_location_5;
           }
 
           char *str_args = start;
@@ -11387,20 +11387,20 @@ extern signed int socket_recv(struct clsyncsock *clsyncsock, struct sockcmd *soc
         goto __CPROVER_DUMP_L18;
       }
 
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      *return_value___errno_location$7 = 92;
-      return *return_value___errno_location$7;
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      *return_value___errno_location_7 = 92;
+      return *return_value___errno_location_7;
 
     __CPROVER_DUMP_L18:
       ;
       goto __CPROVER_DUMP_L20;
     }
 
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    *return_value___errno_location$8 = 92;
-    return *return_value___errno_location$8;
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    *return_value___errno_location_8 = 92;
+    return *return_value___errno_location_8;
 
   __CPROVER_DUMP_L20:
     ;
@@ -11453,14 +11453,14 @@ extern signed int socket_send_cb(struct clsyncsock *clsyncsock_p, enum sockcmd_i
 {
   if(clsyncsock_p->cbqueue_len >= 256ul)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 75;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 75;
     _error("socket_send_cb", "Callback queue overflowed. Closing the socket.");
     socket_close(clsyncsock_p);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    return *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    return *return_value___errno_location_2;
   }
 
   void **ap;
@@ -11490,18 +11490,18 @@ extern signed int socket_send_cb(struct clsyncsock *clsyncsock_p, enum sockcmd_i
 // file socket.c line 609
 extern signed int socket_sendinvalid(struct clsyncsock *clsyncsock_p, struct sockcmd *sockcmd_p)
 {
-  signed int return_value_socket_reply$1;
-  signed int return_value_socket_reply$2;
+  signed int return_value_socket_reply_1;
+  signed int return_value_socket_reply_2;
   if((signed int)sockcmd_p->cmd_id >= 1000)
   {
-    return_value_socket_reply$1=socket_reply(clsyncsock_p, sockcmd_p, (enum sockcmd_id)SOCKCMD_REPLY_INVALIDCMDID, sockcmd_p->cmd_num);
-    return return_value_socket_reply$1;
+    return_value_socket_reply_1=socket_reply(clsyncsock_p, sockcmd_p, (enum sockcmd_id)SOCKCMD_REPLY_INVALIDCMDID, sockcmd_p->cmd_num);
+    return return_value_socket_reply_1;
   }
 
   else
   {
-    return_value_socket_reply$2=socket_reply(clsyncsock_p, sockcmd_p, (enum sockcmd_id)SOCKCMD_REPLY_UNKNOWNCMD, sockcmd_p->cmd_id, sockcmd_p->cmd_num);
-    return return_value_socket_reply$2;
+    return_value_socket_reply_2=socket_reply(clsyncsock_p, sockcmd_p, (enum sockcmd_id)SOCKCMD_REPLY_UNKNOWNCMD, sockcmd_p->cmd_id, sockcmd_p->cmd_num);
+    return return_value_socket_reply_2;
   }
 }
 
@@ -11551,9 +11551,9 @@ struct socket_sockthreaddata * socket_thread_new()
   if(clsyncsockthreads_num >= 8)
   {
     _error("socket_thread_new", "Warning: socket_thread_new(): Too many connection threads.");
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 87;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 87;
     pthread_mutex_unlock(&socket_thread_mutex);
     return (struct socket_sockthreaddata *)(void *)0;
   }
@@ -11572,9 +11572,9 @@ struct socket_sockthreaddata * socket_thread_new()
   {
     _error("socket_thread_new", "Internal-Error: socket_newconnarg(): connproc_arg->state != CLSTATE_NONE");
     pthread_mutex_unlock(&socket_thread_mutex);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 84;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 84;
     return (struct socket_sockthreaddata *)(void *)0;
   }
 
@@ -11589,14 +11589,14 @@ struct socket_sockthreaddata * socket_thread_new()
 // file socket.c line 794
 extern signed int socket_thread_start(struct socket_sockthreaddata *threaddata_p)
 {
-  signed int return_value_pthread_create$2;
-  return_value_pthread_create$2=pthread_create(&threaddata_p->thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))socket_procclsyncsock, (void *)threaddata_p);
-  if(!(return_value_pthread_create$2 == 0))
+  signed int return_value_pthread_create_2;
+  return_value_pthread_create_2=pthread_create(&threaddata_p->thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))socket_procclsyncsock, (void *)threaddata_p);
+  if(!(return_value_pthread_create_2 == 0))
   {
     _error("socket_thread_start", "Cannot create a thread for connection");
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   return 0;
@@ -11667,25 +11667,25 @@ signed int str_splitargs(char *_instr, signed int (*handler)(char *, unsigned lo
   instr=strdup(_instr);
   ptr = instr;
   arg_start = instr;
-  char *tmp_post$1;
-  signed int str_splitargs$$1$$2$$1$$1$$rc;
+  char *tmp_post_1;
+  signed int str_splitargs__1__2__1__1__rc;
   while((_Bool)1)
   {
     ptr=strpbrk(ptr, " \t\"'");
     if(ptr == ((char *)NULL))
       break;
 
-    tmp_post$1 = ptr;
+    tmp_post_1 = ptr;
     ptr = ptr + 1l;
-    switch((signed int)*tmp_post$1)
+    switch((signed int)*tmp_post_1)
     {
       case 32:
 
       case 9:
       {
-        str_splitargs$$1$$2$$1$$1$$rc=_str_splitargs(&ptr[(signed long int)-1], &arg_start, quotes, handler, (char *)arg);
-        if(!(str_splitargs$$1$$2$$1$$1$$rc == 0))
-          return str_splitargs$$1$$2$$1$$1$$rc;
+        str_splitargs__1__2__1__1__rc=_str_splitargs(&ptr[(signed long int)-1], &arg_start, quotes, handler, (char *)arg);
+        if(!(str_splitargs__1__2__1__1__rc == 0))
+          return str_splitargs__1__2__1__1__rc;
 
         quotes = 0;
         break;
@@ -11715,13 +11715,13 @@ signed int str_splitargs(char *_instr, signed int (*handler)(char *, unsigned lo
         while((_Bool)1);
         if(ptr == ((char *)NULL))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          *return_value___errno_location$2 = 22;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          *return_value___errno_location_2 = 22;
           _error("str_splitargs", "Unterminated quote <\"> in string: <%s>", instr);
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          return *return_value___errno_location$3;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          return *return_value___errno_location_3;
         }
 
         *ptr = (char)0;
@@ -11736,13 +11736,13 @@ signed int str_splitargs(char *_instr, signed int (*handler)(char *, unsigned lo
         ptr=strchr(ptr, 39);
         if(ptr == ((char *)NULL))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = 22;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = 22;
           _error("str_splitargs", "Unterminated quote <'> in string: <%s>", instr);
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          return *return_value___errno_location$5;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          return *return_value___errno_location_5;
         }
 
         *ptr = (char)0;
@@ -11752,9 +11752,9 @@ signed int str_splitargs(char *_instr, signed int (*handler)(char *, unsigned lo
     }
   }
   signed int rc;
-  char *return_value_strchr$6;
-  return_value_strchr$6=strchr(arg_start, 0);
-  rc=_str_splitargs(return_value_strchr$6, &arg_start, quotes, handler, (char *)arg);
+  char *return_value_strchr_6;
+  return_value_strchr_6=strchr(arg_start, 0);
+  rc=_str_splitargs(return_value_strchr_6, &arg_start, quotes, handler, (char *)arg);
   free((void *)instr);
   return rc;
 }
@@ -11765,18 +11765,18 @@ static char ** sync_customargv(struct ctx *ctx_p, struct dosync_arg *dosync_arg_
 {
   signed int d;
   signed int s;
-  char **sync_customargv$$1$$argv;
-  void *return_value_xcalloc$1;
-  return_value_xcalloc$1=xcalloc(sizeof(char *) /*8ul*/ , (unsigned long int)((1 << 8) + 2));
-  sync_customargv$$1$$argv = (char **)return_value_xcalloc$1;
+  char **sync_customargv__1__argv;
+  void *return_value_xcalloc_1;
+  return_value_xcalloc_1=xcalloc(sizeof(char *) /*8ul*/ , (unsigned long int)((1 << 8) + 2));
+  sync_customargv__1__argv = (char **)return_value_xcalloc_1;
   d = 0;
   s = d;
-  signed int tmp_post$2 = d;
+  signed int tmp_post_2 = d;
   d = d + 1;
-  sync_customargv$$1$$argv[(signed long int)tmp_post$2]=strdup(ctx_p->handlerfpath);
-  signed int tmp_post$3;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
+  sync_customargv__1__argv[(signed long int)tmp_post_2]=strdup(ctx_p->handlerfpath);
+  signed int tmp_post_3;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
   while(!(s >= args_p->c))
   {
     char *arg = args_p->v[(signed long int)s];
@@ -11784,16 +11784,16 @@ static char ** sync_customargv(struct ctx *ctx_p, struct dosync_arg *dosync_arg_
     s = s + 1;
     if(!(isexpanded == 0))
     {
-      tmp_post$3 = d;
+      tmp_post_3 = d;
       d = d + 1;
-      sync_customargv$$1$$argv[(signed long int)tmp_post$3]=strdup(arg);
+      sync_customargv__1__argv[(signed long int)tmp_post_3]=strdup(arg);
     }
 
     else
     {
-      signed int return_value_strcmp$8;
-      return_value_strcmp$8=strcmp(arg, "%INCLUDE-LIST%");
-      if(return_value_strcmp$8 == 0)
+      signed int return_value_strcmp_8;
+      return_value_strcmp_8=strcmp(arg, "%INCLUDE-LIST%");
+      if(return_value_strcmp_8 == 0)
       {
         signed int i = 0;
         signed int e = (signed int)dosync_arg_p->include_list_count;
@@ -11802,39 +11802,39 @@ static char ** sync_customargv(struct ctx *ctx_p, struct dosync_arg *dosync_arg_
         {
           if(d >= 256)
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            *return_value___errno_location$4 = 7;
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            *return_value___errno_location_4 = 7;
             _critical("sync_customargv", "Too many arguments");
           }
 
-          tmp_post$5 = d;
+          tmp_post_5 = d;
           d = d + 1;
-          tmp_post$6 = i;
+          tmp_post_6 = i;
           i = i + 1;
-          char *return_value_strdup$7;
-          return_value_strdup$7=strdup(include_list[(signed long int)tmp_post$6]);
-          sync_customargv$$1$$argv[(signed long int)tmp_post$5]=parameter_expand(ctx_p, return_value_strdup$7, 0, (signed int *)(void *)0, (signed int *)(void *)0, sync_parameter_get, (void *)dosync_arg_p);
+          char *return_value_strdup_7;
+          return_value_strdup_7=strdup(include_list[(signed long int)tmp_post_6]);
+          sync_customargv__1__argv[(signed long int)tmp_post_5]=parameter_expand(ctx_p, return_value_strdup_7, 0, (signed int *)(void *)0, (signed int *)(void *)0, sync_parameter_get, (void *)dosync_arg_p);
         }
         continue;
       }
 
       if(d >= 256)
       {
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        *return_value___errno_location$9 = 7;
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        *return_value___errno_location_9 = 7;
         _critical("sync_customargv", "Too many arguments");
       }
 
-      char *return_value_strdup$10;
-      return_value_strdup$10=strdup(arg);
-      sync_customargv$$1$$argv[(signed long int)d]=parameter_expand(ctx_p, return_value_strdup$10, 0, (signed int *)(void *)0, (signed int *)(void *)0, sync_parameter_get, (void *)dosync_arg_p);
+      char *return_value_strdup_10;
+      return_value_strdup_10=strdup(arg);
+      sync_customargv__1__argv[(signed long int)d]=parameter_expand(ctx_p, return_value_strdup_10, 0, (signed int *)(void *)0, (signed int *)(void *)0, sync_parameter_get, (void *)dosync_arg_p);
       d = d + 1;
     }
   }
-  sync_customargv$$1$$argv[(signed long int)d] = (char *)(void *)0;
-  return sync_customargv$$1$$argv;
+  sync_customargv__1__argv[(signed long int)d] = (char *)(void *)0;
+  return sync_customargv__1__argv;
 }
 
 // sync_dosync
@@ -11843,9 +11843,9 @@ signed int sync_dosync(const char *fpath, unsigned int evmask, struct ctx *ctx_p
 {
   signed int ret;
   char *evmask_str;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc((unsigned long int)(1 << 8));
-  evmask_str = (char *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc((unsigned long int)(1 << 8));
+  evmask_str = (char *)return_value_xmalloc_1;
   sprintf(evmask_str, "%u", evmask);
   ret=sync_dosync_exec(ctx_p, indexes_p, evmask_str, fpath);
   free((void *)evmask_str);
@@ -11863,39 +11863,39 @@ static inline signed int sync_dosync_exec(struct ctx *ctx_p, struct indexes *ind
   dosync_arg.include_list_count = (unsigned long int)1;
   dosync_arg.list_type_str = "sync";
   dosync_arg.evmask_str = evmask_str;
-  char **sync_dosync_exec$$1$$argv;
-  sync_dosync_exec$$1$$argv=sync_customargv(ctx_p, &dosync_arg, &ctx_p->synchandler_args[(signed long int)SHARGS_PRIMARY]);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  char **sync_dosync_exec__1__argv;
+  sync_dosync_exec__1__argv=sync_customargv(ctx_p, &dosync_arg, &ctx_p->synchandler_args[(signed long int)SHARGS_PRIMARY]);
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(ctx_p->flags[112l] == PM_OFF))
   {
     if(!(ctx_p->flags[112l] == PM_SAFE))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  rc=(tmp_if_expr$2 ? sync_exec_argv_thread : sync_exec_argv)(ctx_p, indexes_p, (signed int (*)(struct ctx *, struct thread_callbackfunct_arg *))(void *)0, (struct thread_callbackfunct_arg *)(void *)0, sync_dosync_exec$$1$$argv);
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+    tmp_if_expr_2 = (_Bool)0;
+  rc=(tmp_if_expr_2 ? sync_exec_argv_thread : sync_exec_argv)(ctx_p, indexes_p, (signed int (*)(struct ctx *, struct thread_callbackfunct_arg *))(void *)0, (struct thread_callbackfunct_arg *)(void *)0, sync_dosync_exec__1__argv);
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(!(ctx_p->flags[112l] == PM_OFF))
   {
     if(!(ctx_p->flags[112l] == PM_SAFE))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  if(!tmp_if_expr$4)
-    argv_free(sync_dosync_exec$$1$$argv);
+    tmp_if_expr_4 = (_Bool)0;
+  if(!tmp_if_expr_4)
+    argv_free(sync_dosync_exec__1__argv);
 
   return rc;
 }
@@ -11912,16 +11912,16 @@ extern signed int sync_dump(struct ctx *ctx_p, const char * const dir_path)
   enum dump_dirfd_obj dirfd_obj;
   arg.ctx_p = ctx_p;
   _debug(3, "sync_dump", "%s", dir_path);
-  char *return_value_getenv$2;
+  char *return_value_getenv_2;
   signed int queue_id;
   if(dir_path == ((const char *)NULL))
     return 22;
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
     rootfd=mkdirat_open(dir_path, -100, (unsigned int)0750);
     if(rootfd == -1)
       _error("sync_dump", "Cannot open directory \"%s\"", dir_path);
@@ -11934,8 +11934,8 @@ extern signed int sync_dump(struct ctx *ctx_p, const char * const dir_path)
 
       else
       {
-        return_value_getenv$2=getenv("CLSYNC_STATUS");
-        dprintf(fd_out, "status == %s\n", return_value_getenv$2);
+        return_value_getenv_2=getenv("CLSYNC_STATUS");
+        dprintf(fd_out, "status == %s\n", return_value_getenv_2);
         arg.fd_out = fd_out;
         arg.data = 2;
         if(!(indexes_p->nonthreaded_syncing_fpath2ei_ht == ((struct _GHashTable *)NULL)))
@@ -11989,14 +11989,14 @@ extern signed int sync_dump(struct ctx *ctx_p, const char * const dir_path)
 
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 0))
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 0))
       _error("sync_dump", "Cannot create the dump to \"%s\"", dir_path);
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    return *return_value___errno_location$4;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    return *return_value___errno_location_4;
   }
 }
 
@@ -12009,7 +12009,7 @@ void sync_dump_liststep(void *fpath_gp, void *evinfo_gp, void *arg_gp)
   struct sync_dump_arg *arg = (struct sync_dump_arg *)arg_gp;
   char act;
   char num;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(fpath == ((char *)NULL)) && !(evinfo == ((struct eventinfo *)NULL)))
   {
     switch(arg->data)
@@ -12030,11 +12030,11 @@ void sync_dump_liststep(void *fpath_gp, void *evinfo_gp, void *arg_gp)
       {
         act = (char)43;
         if(!((1u & evinfo->flags) == 0u))
-          tmp_if_expr$1 = 42;
+          tmp_if_expr_1 = 42;
 
         else
-          tmp_if_expr$1 = (evinfo->flags & (unsigned int)EVIF_CONTENTRECURSIVELY) != 0u ? 47 : 49;
-        num = (char)tmp_if_expr$1;
+          tmp_if_expr_1 = (evinfo->flags & (unsigned int)EVIF_CONTENTRECURSIVELY) != 0u ? 47 : 49;
+        num = (char)tmp_if_expr_1;
         break;
       }
       default:
@@ -12060,24 +12060,24 @@ signed int sync_dump_thread(struct threadinfo *threadinfo_p, void *_arg)
   char buf[8192l];
   snprintf(buf, (unsigned long int)8192, "%u-%u-%lx", threadinfo_p->iteration, threadinfo_p->thread_num, (signed long int)threadinfo_p->pthread);
   arg->fd_out=openat(arg->dirfd[(signed long int)DUMP_DIRFD_THREAD], buf, 01 | 0100, 0644);
-  signed int *return_value___errno_location$1;
-  char **tmp_post$2;
+  signed int *return_value___errno_location_1;
+  char **tmp_post_2;
   if(arg->fd_out == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
   {
-    char **sync_dump_thread$$1$$1$$argv;
+    char **sync_dump_thread__1__1__argv;
     dprintf(arg->fd_out, "thread:\n\titeration == %u\n\tnum == %u\n\tpthread == %lx\n\tstarttime == %lu\n\texpiretime == %lu\n\tchild_pid == %u\n\ttry_n == %u\nCommand:", threadinfo_p->iteration, threadinfo_p->thread_num, (signed long int)threadinfo_p->pthread, threadinfo_p->starttime, threadinfo_p->expiretime, threadinfo_p->child_pid, threadinfo_p->try_n);
-    sync_dump_thread$$1$$1$$argv = threadinfo_p->argv;
-    while(!(*sync_dump_thread$$1$$1$$argv == ((char *)NULL)))
+    sync_dump_thread__1__1__argv = threadinfo_p->argv;
+    while(!(*sync_dump_thread__1__1__argv == ((char *)NULL)))
     {
-      tmp_post$2 = sync_dump_thread$$1$$1$$argv;
-      sync_dump_thread$$1$$1$$argv = sync_dump_thread$$1$$1$$argv + 1l;
-      dprintf(arg->fd_out, " \"%s\"", *tmp_post$2);
+      tmp_post_2 = sync_dump_thread__1__1__argv;
+      sync_dump_thread__1__1__argv = sync_dump_thread__1__1__argv + 1l;
+      dprintf(arg->fd_out, " \"%s\"", *tmp_post_2);
     }
     dprintf(arg->fd_out, "\n");
     arg->data = 2;
@@ -12096,15 +12096,15 @@ signed int sync_exec_argv(struct ctx *ctx_p, struct indexes *indexes_p, signed i
     argv_dump(2, argv);
 
   indexes_p->nonthreaded_syncing_fpath2ei_ht = indexes_p->fpath2ei_ht;
-  signed int sync_exec_argv$$1$$exitcode = 0;
+  signed int sync_exec_argv__1__exitcode = 0;
   signed int ret = 0;
   signed int err = 0;
   signed int try_n = 0;
   signed int try_again;
   enum state_enum status = (enum state_enum)STATE_UNKNOWN;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   do
   {
     try_again = 0;
@@ -12112,10 +12112,10 @@ signed int sync_exec_argv(struct ctx *ctx_p, struct indexes *indexes_p, signed i
     _debug(2, "sync_exec_argv", "try_n == %u (retries == %u)", try_n, ctx_p->retries);
     alarm(ctx_p->synctimeout);
     ctx_p->children = 1;
-    sync_exec_argv$$1$$exitcode=exec_argv(argv, ctx_p->child_pid);
+    sync_exec_argv__1__exitcode=exec_argv(argv, ctx_p->child_pid);
     ctx_p->children = 0;
     alarm((unsigned int)0);
-    err=exitcode_process(ctx_p, sync_exec_argv$$1$$exitcode);
+    err=exitcode_process(ctx_p, sync_exec_argv__1__exitcode);
     if(!(err == 0))
     {
       if(try_n == 1)
@@ -12134,22 +12134,22 @@ signed int sync_exec_argv(struct ctx *ctx_p, struct indexes *indexes_p, signed i
       }
 
       if(ctx_p->retries == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = try_n < ctx_p->retries ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (signed int)ctx_p->state != STATE_TERM ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (signed int)ctx_p->state != STATE_EXIT ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      try_again = (signed int)tmp_if_expr$3;
-      _warning("sync_exec_argv", "Bad exitcode %i (errcode %i). %s.", sync_exec_argv$$1$$exitcode, err, try_again != 0 ? "Retrying" : "Give up");
+        tmp_if_expr_3 = (_Bool)0;
+      try_again = (signed int)tmp_if_expr_3;
+      _warning("sync_exec_argv", "Bad exitcode %i (errcode %i). %s.", sync_exec_argv__1__exitcode, err, try_again != 0 ? "Retrying" : "Give up");
       if(!(try_again == 0))
       {
         _debug(2, "sync_exec_argv", "Sleeping for %u seconds before the retry.", ctx_p->syncdelay);
@@ -12160,15 +12160,15 @@ signed int sync_exec_argv(struct ctx *ctx_p, struct indexes *indexes_p, signed i
 
   }
   while(!(try_again == 0));
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(err == 0))
-    tmp_if_expr$4 = !(ctx_p->flags[(signed long int)529] != 0) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = !(ctx_p->flags[(signed long int)529] != 0) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  if(tmp_if_expr_4)
   {
-    _error("sync_exec_argv", "Bad exitcode %i (errcode %i)", sync_exec_argv$$1$$exitcode, err);
+    _error("sync_exec_argv", "Bad exitcode %i (errcode %i)", sync_exec_argv__1__exitcode, err);
     ret = err;
   }
 
@@ -12207,11 +12207,11 @@ static inline signed int sync_exec_argv_thread(struct ctx *ctx_p, struct indexes
 
   struct threadinfo *threadinfo_p;
   threadinfo_p=thread_new();
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(threadinfo_p == ((struct threadinfo *)NULL))
   {
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -12227,14 +12227,14 @@ static inline signed int sync_exec_argv_thread(struct ctx *ctx_p, struct indexes
     if(!(ctx_p->synctimeout == 0u))
       threadinfo_p->expiretime = threadinfo_p->starttime + (signed long int)ctx_p->synctimeout;
 
-    signed int return_value_pthread_create$3;
-    return_value_pthread_create$3=pthread_create(&threadinfo_p->pthread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))__sync_exec_thread, (void *)threadinfo_p);
-    if(!(return_value_pthread_create$3 == 0))
+    signed int return_value_pthread_create_3;
+    return_value_pthread_create_3=pthread_create(&threadinfo_p->pthread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))__sync_exec_thread, (void *)threadinfo_p);
+    if(!(return_value_pthread_create_3 == 0))
     {
       _error("sync_exec_argv_thread", "Cannot pthread_create().");
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      return *return_value___errno_location$2;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      return *return_value___errno_location_2;
     }
 
     _debug(3, "sync_exec_argv_thread", "thread %p", threadinfo_p->pthread);
@@ -12256,9 +12256,9 @@ signed int sync_idle(struct ctx *ctx_p, struct indexes *indexes_p)
     if(!(ctx_p->flags[521l] == 0))
     {
       struct stat st;
-      signed int return_value_stat$1;
-      return_value_stat$1=stat(ctx_p->standbyfile, &st);
-      if(return_value_stat$1 == 0)
+      signed int return_value_stat_1;
+      return_value_stat_1=stat(ctx_p->standbyfile, &st);
+      if(return_value_stat_1 == 0)
       {
         enum state_enum state_old = ctx_p->state;
         ctx_p->state = (volatile enum state_enum)STATE_HOLDON;
@@ -12298,25 +12298,25 @@ signed int sync_idle_dosync_collectedevents(struct ctx *ctx_p, struct indexes *i
   dosync_arg.ctx_p = ctx_p;
   dosync_arg.indexes_p = indexes_p;
   char isrsyncpreferexclude;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ctx_p->flags[77l] == 5)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = !(ctx_p->flags[(signed long int)514] != 0) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = !(ctx_p->flags[(signed long int)514] != 0) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  isrsyncpreferexclude = (char)tmp_if_expr$3;
+    tmp_if_expr_3 = (_Bool)0;
+  isrsyncpreferexclude = (char)tmp_if_expr_3;
   if(!(ctx_p->listoutdir == ((char *)NULL)))
   {
     g_hash_table_remove_all(indexes_p->fpath2ei_ht);
@@ -12325,14 +12325,14 @@ signed int sync_idle_dosync_collectedevents(struct ctx *ctx_p, struct indexes *i
 
   }
 
-  signed long int return_value_time$4;
-  return_value_time$4=time((signed long int *)(void *)0);
-  ctx_p->synctime = return_value_time$4 + (signed long int)ctx_p->syncdelay;
+  signed long int return_value_time_4;
+  return_value_time_4=time((signed long int *)(void *)0);
+  ctx_p->synctime = return_value_time_4 + (signed long int)ctx_p->syncdelay;
   _debug(3, "sync_idle_dosync_collectedevents", "Next sync will be not before: %u", ctx_p->synctime);
   signed int queue_id = 0;
   while(!(queue_id >= QUEUE_MAX))
   {
-    signed int sync_idle_dosync_collectedevents$$1$$4$$ret;
+    signed int sync_idle_dosync_collectedevents__1__4__ret;
     if(queue_id == QUEUE_LOCKWAIT)
     {
       if(ctx_p->flags[112l] == PM_SAFE)
@@ -12348,23 +12348,23 @@ signed int sync_idle_dosync_collectedevents(struct ctx *ctx_p, struct indexes *i
       ;
       enum queue_id *queue_id_p = (enum queue_id *)&dosync_arg.data;
       *queue_id_p = (enum queue_id)queue_id;
-      sync_idle_dosync_collectedevents$$1$$4$$ret=sync_idle_dosync_collectedevents_aggrqueue((enum queue_id)queue_id, ctx_p, indexes_p, &dosync_arg);
-      if(!(sync_idle_dosync_collectedevents$$1$$4$$ret == 0))
+      sync_idle_dosync_collectedevents__1__4__ret=sync_idle_dosync_collectedevents_aggrqueue((enum queue_id)queue_id, ctx_p, indexes_p, &dosync_arg);
+      if(!(sync_idle_dosync_collectedevents__1__4__ret == 0))
       {
         _error("sync_idle_dosync_collectedevents", "Got error while processing queue #%i\n.", queue_id);
         g_hash_table_remove_all(indexes_p->fpath2ei_ht);
         if(!(isrsyncpreferexclude == 0))
           g_hash_table_remove_all(indexes_p->exc_fpath_ht);
 
-        return sync_idle_dosync_collectedevents$$1$$4$$ret;
+        return sync_idle_dosync_collectedevents__1__4__ret;
       }
 
       queue_id = queue_id + 1;
     }
   }
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
   if(dosync_arg.evcount == 0)
   {
     _debug(3, "sync_idle_dosync_collectedevents", "Summary events' count is zero. Return 0.");
@@ -12376,18 +12376,18 @@ signed int sync_idle_dosync_collectedevents(struct ctx *ctx_p, struct indexes *i
     if(ctx_p->flags[77l] == 7)
     {
       _debug(3, "sync_idle_dosync_collectedevents", "There's %i events. Processing.", dosync_arg.evcount);
-      void *return_value_xmalloc$5;
-      return_value_xmalloc$5=xmalloc((unsigned long int)dosync_arg.evcount * sizeof(struct api_eventinfo) /*32ul*/ );
-      dosync_arg.api_ei = (struct api_eventinfo *)return_value_xmalloc$5;
+      void *return_value_xmalloc_5;
+      return_value_xmalloc_5=xmalloc((unsigned long int)dosync_arg.evcount * sizeof(struct api_eventinfo) /*32ul*/ );
+      dosync_arg.api_ei = (struct api_eventinfo *)return_value_xmalloc_5;
     }
 
     signed int ret;
     if(!(ctx_p->listoutdir == ((char *)NULL)))
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = ctx_p->flags[(signed long int)77] == 7 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = ctx_p->flags[(signed long int)77] == 7 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
     {
       if(ctx_p->flags[77l] == 7)
         goto __CPROVER_DUMP_L26;
@@ -12405,9 +12405,9 @@ signed int sync_idle_dosync_collectedevents(struct ctx *ctx_p, struct indexes *i
         g_hash_table_remove_all(indexes_p->out_lines_aggr_ht);
         g_hash_table_foreach_remove(indexes_p->exc_fpath_ht, sync_idle_dosync_collectedevents_rsync_exclistpush, (void *)&dosync_arg);
         g_hash_table_foreach_remove(indexes_p->out_lines_aggr_ht, rsync_aggrout, (void *)&dosync_arg);
-        signed int return_value_fclose$6;
-        return_value_fclose$6=fclose(dosync_arg.outf);
-        if(!(return_value_fclose$6 == 0))
+        signed int return_value_fclose_6;
+        return_value_fclose_6=fclose(dosync_arg.outf);
+        if(!(return_value_fclose_6 == 0))
           _critical("sync_idle_dosync_collectedevents", "Assert: fclose(dosync_arg.outf)");
 
         strcpy(dosync_arg.excf_path, dosync_arg.outf_path);
@@ -12427,16 +12427,16 @@ signed int sync_idle_dosync_collectedevents(struct ctx *ctx_p, struct indexes *i
     __CPROVER_DUMP_L26:
       ;
       if(!(ctx_p->listoutdir == ((char *)NULL)))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = ctx_p->flags[(signed long int)77] == 7 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = ctx_p->flags[(signed long int)77] == 7 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = ((signed int)ctx_p->synchandler_argf & SHFL_INCLUDE_LIST) != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = ((signed int)ctx_p->synchandler_argf & SHFL_INCLUDE_LIST) != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
       {
         g_hash_table_remove_all(indexes_p->out_lines_aggr_ht);
         g_hash_table_foreach(indexes_p->fpath2ei_ht, sync_idle_dosync_collectedevents_listpush, (void *)&dosync_arg);
@@ -12483,9 +12483,9 @@ signed int sync_idle_dosync_collectedevents_aggrqueue(enum queue_id queue_id, st
     ;
     queueinfo->stime = (signed long int)0;
     signed int evcount_real;
-    unsigned int return_value_g_hash_table_size$1;
-    return_value_g_hash_table_size$1=g_hash_table_size(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id]);
-    evcount_real = (signed int)return_value_g_hash_table_size$1;
+    unsigned int return_value_g_hash_table_size_1;
+    return_value_g_hash_table_size_1=g_hash_table_size(indexes_p->fpath2ei_coll_ht[(signed long int)queue_id]);
+    evcount_real = (signed int)return_value_g_hash_table_size_1;
     _debug(3, "sync_idle_dosync_collectedevents_aggrqueue", "(%i, ...): evcount_real == %i", queue_id, evcount_real);
     if(!(evcount_real >= 1))
     {
@@ -12529,14 +12529,14 @@ signed int sync_idle_dosync_collectedevents_cleanup(struct ctx *ctx_p, struct th
 {
   signed int ret0 = 0;
   signed int ret1 = 0;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   if(!(ctx_p->flags[85l] == 0))
     return 0;
 
   else
   {
-    return_value_pthread_self$1=pthread_self();
-    _debug(3, "sync_idle_dosync_collectedevents_cleanup", "(ctx_p, {inc: %p, exc: %p}) thread %p", arg_p->incfpath, arg_p->excfpath, return_value_pthread_self$1);
+    return_value_pthread_self_1=pthread_self();
+    _debug(3, "sync_idle_dosync_collectedevents_cleanup", "(ctx_p, {inc: %p, exc: %p}) thread %p", arg_p->incfpath, arg_p->excfpath, return_value_pthread_self_1);
     if(!(arg_p->excfpath == ((char *)NULL)))
     {
       _debug(3, "sync_idle_dosync_collectedevents_cleanup", "unlink()-ing exclude-file: \"%s\"", arg_p->excfpath);
@@ -12563,76 +12563,76 @@ signed int sync_idle_dosync_collectedevents_commitpart(struct dosync_arg *dosync
   struct ctx *ctx_p = dosync_arg_p->ctx_p;
   struct indexes *indexes_p = dosync_arg_p->indexes_p;
   _debug(3, "sync_idle_dosync_collectedevents_commitpart", "Committing the file (flags[MODE] == %i)", ctx_p->flags[(signed long int)77]);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ctx_p->flags[77l] == 5)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     g_hash_table_foreach_remove(indexes_p->out_lines_aggr_ht, rsync_aggrout, (void *)dosync_arg_p);
 
   if(!(dosync_arg_p->outf == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_fclose$3;
-    return_value_fclose$3=fclose(dosync_arg_p->outf);
-    if(!(return_value_fclose$3 == 0))
+    signed int return_value_fclose_3;
+    return_value_fclose_3=fclose(dosync_arg_p->outf);
+    if(!(return_value_fclose_3 == 0))
       _critical("sync_idle_dosync_collectedevents_commitpart", "Assert: fclose(dosync_arg_p->outf)");
 
     dosync_arg_p->outf = (struct _IO_FILE *)(void *)0;
   }
 
-  char *tmp_if_expr$4;
-  char *tmp_if_expr$5;
-  char *tmp_if_expr$7;
-  signed int return_value_so_call_rsync$8;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$13;
+  char *tmp_if_expr_4;
+  char *tmp_if_expr_5;
+  char *tmp_if_expr_7;
+  signed int return_value_so_call_rsync_8;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_13;
   if(dosync_arg_p->evcount >= 1)
   {
     struct thread_callbackfunct_arg *callback_arg_p;
     if(!(ctx_p->destdir == ((char *)NULL)))
-      tmp_if_expr$4 = ctx_p->destdir;
+      tmp_if_expr_4 = ctx_p->destdir;
 
     else
-      tmp_if_expr$4 = "";
+      tmp_if_expr_4 = "";
     if(!(ctx_p->destdirwslash == ((char *)NULL)))
-      tmp_if_expr$5 = ctx_p->destdirwslash;
+      tmp_if_expr_5 = ctx_p->destdirwslash;
 
     else
-      tmp_if_expr$5 = "";
-    _debug(3, "sync_idle_dosync_collectedevents_commitpart", "%s [%s] (%p) -> %s [%s]", ctx_p->watchdir, ctx_p->watchdirwslash, ctx_p->watchdirwslash, tmp_if_expr$4, tmp_if_expr$5);
+      tmp_if_expr_5 = "";
+    _debug(3, "sync_idle_dosync_collectedevents_commitpart", "%s [%s] (%p) -> %s [%s]", ctx_p->watchdir, ctx_p->watchdirwslash, ctx_p->watchdirwslash, tmp_if_expr_4, tmp_if_expr_5);
     if(ctx_p->flags[77l] == 7)
     {
       struct api_eventinfo *ei = dosync_arg_p->api_ei;
-      signed int return_value_so_call_sync$6;
-      return_value_so_call_sync$6=so_call_sync(ctx_p, indexes_p, dosync_arg_p->evcount, ei);
-      return return_value_so_call_sync$6;
+      signed int return_value_so_call_sync_6;
+      return_value_so_call_sync_6=so_call_sync(ctx_p, indexes_p, dosync_arg_p->evcount, ei);
+      return return_value_so_call_sync_6;
     }
 
     if(ctx_p->flags[77l] == 6)
     {
       if(!(dosync_arg_p->excf_path[0l] == 0))
-        tmp_if_expr$7 = dosync_arg_p->excf_path;
+        tmp_if_expr_7 = dosync_arg_p->excf_path;
 
       else
-        tmp_if_expr$7 = (char *)(void *)0;
-      return_value_so_call_rsync$8=so_call_rsync(ctx_p, indexes_p, dosync_arg_p->outf_path, tmp_if_expr$7);
-      return return_value_so_call_rsync$8;
+        tmp_if_expr_7 = (char *)(void *)0;
+      return_value_so_call_rsync_8=so_call_rsync(ctx_p, indexes_p, dosync_arg_p->outf_path, tmp_if_expr_7);
+      return return_value_so_call_rsync_8;
     }
 
-    void *return_value_xcalloc$9;
-    return_value_xcalloc$9=xcalloc((unsigned long int)1, sizeof(struct thread_callbackfunct_arg) /*16ul*/ );
-    callback_arg_p = (struct thread_callbackfunct_arg *)return_value_xcalloc$9;
+    void *return_value_xcalloc_9;
+    return_value_xcalloc_9=xcalloc((unsigned long int)1, sizeof(struct thread_callbackfunct_arg) /*16ul*/ );
+    callback_arg_p = (struct thread_callbackfunct_arg *)return_value_xcalloc_9;
     if(!((SHFL_INCLUDE_LIST_PATH & (signed int)ctx_p->synchandler_argf) == 0))
       callback_arg_p->incfpath=strdup(dosync_arg_p->outf_path);
 
@@ -12641,13 +12641,13 @@ signed int sync_idle_dosync_collectedevents_commitpart(struct dosync_arg *dosync
 
     signed int rc;
     if(ctx_p->flags[77l] == 5)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
-    dosync_arg_p->list_type_str = tmp_if_expr$10 ? "rsynclist" : "synclist";
-    char **sync_idle_dosync_collectedevents_commitpart$$1$$3$$3$$argv;
-    sync_idle_dosync_collectedevents_commitpart$$1$$3$$3$$argv=sync_customargv(ctx_p, dosync_arg_p, &ctx_p->synchandler_args[(signed long int)SHARGS_PRIMARY]);
+      tmp_if_expr_10 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
+    dosync_arg_p->list_type_str = tmp_if_expr_10 ? "rsynclist" : "synclist";
+    char **sync_idle_dosync_collectedevents_commitpart__1__3__3__argv;
+    sync_idle_dosync_collectedevents_commitpart__1__3__3__argv=sync_customargv(ctx_p, dosync_arg_p, &ctx_p->synchandler_args[(signed long int)SHARGS_PRIMARY]);
     while(!(dosync_arg_p->include_list_count == 0ul))
     {
       dosync_arg_p->include_list_count = dosync_arg_p->include_list_count - 1ul;
@@ -12656,30 +12656,30 @@ signed int sync_idle_dosync_collectedevents_commitpart(struct dosync_arg *dosync
     if(!(ctx_p->flags[112l] == PM_OFF))
     {
       if(!(ctx_p->flags[112l] == PM_SAFE))
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_11 = (_Bool)1;
 
       else
-        tmp_if_expr$11 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    rc=(tmp_if_expr$12 ? sync_exec_argv_thread : sync_exec_argv)(ctx_p, indexes_p, sync_idle_dosync_collectedevents_cleanup, callback_arg_p, sync_idle_dosync_collectedevents_commitpart$$1$$3$$3$$argv);
+      tmp_if_expr_12 = (_Bool)0;
+    rc=(tmp_if_expr_12 ? sync_exec_argv_thread : sync_exec_argv)(ctx_p, indexes_p, sync_idle_dosync_collectedevents_cleanup, callback_arg_p, sync_idle_dosync_collectedevents_commitpart__1__3__3__argv);
     if(!(ctx_p->flags[112l] == PM_OFF))
     {
       if(!(ctx_p->flags[112l] == PM_SAFE))
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_13 = (_Bool)1;
 
       else
-        tmp_if_expr$13 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$14 = tmp_if_expr$13 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_13 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_14 = tmp_if_expr_13 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$14 = (_Bool)0;
-    if(!tmp_if_expr$14)
-      argv_free(sync_idle_dosync_collectedevents_commitpart$$1$$3$$3$$argv);
+      tmp_if_expr_14 = (_Bool)0;
+    if(!tmp_if_expr_14)
+      argv_free(sync_idle_dosync_collectedevents_commitpart__1__3__3__argv);
 
     return rc;
   }
@@ -12708,9 +12708,9 @@ signed int sync_idle_dosync_collectedevents_listcreate(struct dosync_arg *dosync
     if(dosync_arg_p->outf == ((struct _IO_FILE *)NULL))
     {
       _error("sync_idle_dosync_collectedevents_listcreate", "Cannot open \"%s\" as file for writing.", fpath);
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
     setbuffer(dosync_arg_p->outf, dosync_arg_p->buf, (unsigned long int)8192);
@@ -12734,13 +12734,13 @@ void sync_idle_dosync_collectedevents_listpush(void *fpath_gp, void *evinfo_gp, 
   struct api_eventinfo **api_ei_p = &dosync_arg_p->api_ei;
   signed int *api_ei_count_p = &dosync_arg_p->api_ei_count;
   _debug(3, "sync_idle_dosync_collectedevents_listpush", "\"%s\" with int-flags %p. evinfo: seqid_min == %u, seqid_max == %u type_o == %i, type_n == %i", fpath, (void *)(unsigned long int)evinfo->flags, evinfo->seqid_min, evinfo->seqid_max, evinfo->objtype_old, evinfo->objtype_new);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(ctx_p->flags[77l] == 7)
   {
     struct api_eventinfo *ei;
-    tmp_post$1 = *api_ei_count_p;
+    tmp_post_1 = *api_ei_count_p;
     *api_ei_count_p = *api_ei_count_p + 1;
-    ei = &(*api_ei_p)[(signed long int)tmp_post$1];
+    ei = &(*api_ei_p)[(signed long int)tmp_post_1];
     ei->evmask = evinfo->evmask;
     ei->flags = evinfo->flags;
     ei->objtype_old = evinfo->objtype_old;
@@ -12750,53 +12750,53 @@ void sync_idle_dosync_collectedevents_listpush(void *fpath_gp, void *evinfo_gp, 
     goto __CPROVER_DUMP_L20;
   }
 
-  unsigned long int tmp_post$2;
-  signed int tmp_if_expr$3;
+  unsigned long int tmp_post_2;
+  signed int tmp_if_expr_3;
   if(!((SHFL_INCLUDE_LIST & (signed int)ctx_p->synchandler_argf) == 0))
   {
-    tmp_post$2 = dosync_arg_p->include_list_count;
+    tmp_post_2 = dosync_arg_p->include_list_count;
     dosync_arg_p->include_list_count = dosync_arg_p->include_list_count + 1ul;
-    dosync_arg_p->include_list[(signed long int)tmp_post$2]=strdup(fpath);
+    dosync_arg_p->include_list[(signed long int)tmp_post_2]=strdup(fpath);
     if(!(ctx_p->synchandler_args[1l].c >= ctx_p->synchandler_args[0l].c))
-      tmp_if_expr$3 = ctx_p->synchandler_args[(signed long int)SHARGS_PRIMARY].c;
+      tmp_if_expr_3 = ctx_p->synchandler_args[(signed long int)SHARGS_PRIMARY].c;
 
     else
-      tmp_if_expr$3 = ctx_p->synchandler_args[(signed long int)SHARGS_INITIAL].c;
-    if(dosync_arg_p->include_list_count >= (unsigned long int)(256 + -tmp_if_expr$3))
+      tmp_if_expr_3 = ctx_p->synchandler_args[(signed long int)SHARGS_INITIAL].c;
+    if(dosync_arg_p->include_list_count >= (unsigned long int)(256 + -tmp_if_expr_3))
       sync_inclist_rotate(ctx_p, dosync_arg_p);
 
   }
 
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   if(!((12 & (signed int)ctx_p->synchandler_argf) == 0))
   {
     if(ctx_p->flags[77l] == 4)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = ctx_p->flags[(signed long int)77] == 5 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = ctx_p->flags[(signed long int)77] == 5 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$7)
+      tmp_if_expr_7 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_7)
     {
       if(!(ctx_p->flags[515l] == 0))
       {
-        signed int return_value_fprintf$4;
-        return_value_fprintf$4=fprintf(outf, "%s\n", fpath);
-        if(!(return_value_fprintf$4 >= 1))
+        signed int return_value_fprintf_4;
+        return_value_fprintf_4=fprintf(outf, "%s\n", fpath);
+        if(!(return_value_fprintf_4 >= 1))
           _critical("sync_idle_dosync_collectedevents_listpush", "Assert: fprintf(outf, \"%s\\n\", fpath) <= 0");
 
       }
 
       else
       {
-        signed int return_value_fprintf$5;
-        return_value_fprintf$5=fprintf(outf, "sync %s %i %s\n", ctx_p->label, evinfo->evmask, fpath);
-        if(!(return_value_fprintf$5 >= 1))
+        signed int return_value_fprintf_5;
+        return_value_fprintf_5=fprintf(outf, "sync %s %i %s\n", ctx_p->label, evinfo->evmask, fpath);
+        if(!(return_value_fprintf_5 >= 1))
           _critical("sync_idle_dosync_collectedevents_listpush", "Assert: fprintf(outf, \"sync %s %i %s\\n\", ctx_p->label, evinfo->evmask, fpath) <= 0");
 
       }
@@ -12812,9 +12812,9 @@ void sync_idle_dosync_collectedevents_listpush(void *fpath_gp, void *evinfo_gp, 
       }
 
       signed int ret;
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(fpath);
-      ret=rsync_listpush(indexes_p, fpath, return_value_strlen$8, (enum eventinfo_flags)evinfo->flags, linescount_p);
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(fpath);
+      ret=rsync_listpush(indexes_p, fpath, return_value_strlen_8, (enum eventinfo_flags)evinfo->flags, linescount_p);
       if(!(ret == 0))
       {
         _error("sync_idle_dosync_collectedevents_listpush", "Got error from rsync_listpush(). Exit.");
@@ -12844,18 +12844,18 @@ signed int sync_idle_dosync_collectedevents_rsync_exclistpush(void *fpath_gp, vo
   char *fpathwslash;
   if(fpath_len >= 1ul)
   {
-    void *return_value___builtin_alloca$1;
-    return_value___builtin_alloca$1=__builtin_alloca(fpath_len + (unsigned long int)2);
-    fpathwslash = (char *)return_value___builtin_alloca$1;
+    void *return_value___builtin_alloca_1;
+    return_value___builtin_alloca_1=__builtin_alloca(fpath_len + (unsigned long int)2);
+    fpathwslash = (char *)return_value___builtin_alloca_1;
     fpathwslash[(signed long int)0] = (char)47;
     memcpy((void *)&fpathwslash[(signed long int)1], (const void *)fpath, fpath_len + (unsigned long int)1);
   }
 
   else
     fpathwslash = fpath;
-  const char *return_value_rsync_escape$2;
-  return_value_rsync_escape$2=rsync_escape(fpathwslash);
-  fpathwslash = (char *)return_value_rsync_escape$2;
+  const char *return_value_rsync_escape_2;
+  return_value_rsync_escape_2=rsync_escape(fpathwslash);
+  fpathwslash = (char *)return_value_rsync_escape_2;
   signed int ret;
   ret=rsync_outline(excf, fpathwslash, flags);
   if(!(ret == 0))
@@ -12877,30 +12877,30 @@ signed int sync_idle_dosync_collectedevents_uniqfname(struct ctx *ctx_p, char *f
   tm=time((signed long int *)(void *)0);
   struct stat64 stat64;
   signed int counter = 0;
-  signed int tmp_post$4;
-  signed int *return_value___errno_location$1;
+  signed int tmp_post_4;
+  signed int *return_value___errno_location_1;
   do
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    signed int return_value_rand$3;
-    return_value_rand$3=rand();
-    snprintf(fpath, (unsigned long int)4096, "%s/.clsync-%s.%u.%lu.%lu.%u", ctx_p->listoutdir, name, pid, (signed long int)return_value_pthread_self$2, (unsigned long int)tm, return_value_rand$3);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    signed int return_value_rand_3;
+    return_value_rand_3=rand();
+    snprintf(fpath, (unsigned long int)4096, "%s/.clsync-%s.%u.%lu.%lu.%u", ctx_p->listoutdir, name, pid, (signed long int)return_value_pthread_self_2, (unsigned long int)tm, return_value_rand_3);
     lstat64(fpath, &stat64);
-    tmp_post$4 = counter;
+    tmp_post_4 = counter;
     counter = counter + 1;
-    if(tmp_post$4 >= 1025)
+    if(tmp_post_4 >= 1025)
     {
       _error("sync_idle_dosync_collectedevents_uniqfname", "Cannot find unused filename for list-file. The last try was \"%s\".", fpath);
       return 2;
     }
 
-    return_value___errno_location$1=__errno_location();
+    return_value___errno_location_1=__errno_location();
   }
-  while(!(*return_value___errno_location$1 == 2));
-  signed int *return_value___errno_location$5;
-  return_value___errno_location$5=__errno_location();
-  *return_value___errno_location$5 = 0;
+  while(!(*return_value___errno_location_1 == 2));
+  signed int *return_value___errno_location_5;
+  return_value___errno_location_5=__errno_location();
+  *return_value___errno_location_5 = 0;
   return 0;
 }
 
@@ -12966,11 +12966,11 @@ static inline signed int sync_indexes_fpath2ei_addfixed(struct ctx *ctx_p, struc
 
   }
 
-  char *return_value_strdup$1;
-  return_value_strdup$1=strdup(fpath_fixed);
-  signed int return_value_indexes_fpath2ei_add$2;
-  return_value_indexes_fpath2ei_add$2=indexes_fpath2ei_add(indexes_p, return_value_strdup$1, evinfo);
-  return return_value_indexes_fpath2ei_add$2;
+  char *return_value_strdup_1;
+  return_value_strdup_1=strdup(fpath_fixed);
+  signed int return_value_indexes_fpath2ei_add_2;
+  return_value_indexes_fpath2ei_add_2=indexes_fpath2ei_add(indexes_p, return_value_strdup_1, evinfo);
+  return return_value_indexes_fpath2ei_add_2;
 }
 
 // sync_initialsync
@@ -12985,24 +12985,24 @@ signed int sync_initialsync(const char *path, struct ctx *ctx_p, struct indexes 
 
   else
     queue_id = (enum queue_id)QUEUE_NORMAL;
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_10;
   if(ctx_p->flags[77l] == 5)
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_10 = (_Bool)1;
 
   else
-    tmp_if_expr$10 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$11;
-  if(tmp_if_expr$10)
-    tmp_if_expr$11 = (_Bool)1;
+    tmp_if_expr_10 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_11;
+  if(tmp_if_expr_10)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
-    tmp_if_expr$11 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
-  struct synchandler_args *tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  if(!tmp_if_expr$11)
+    tmp_if_expr_11 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
+  struct synchandler_args *tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  if(!tmp_if_expr_11)
   {
     _debug(3, "sync_initialsync", "syncing \"%s\"", path);
     if(!(ctx_p->flags[512l] == 0))
@@ -13010,9 +13010,9 @@ signed int sync_initialsync(const char *path, struct ctx *ctx_p, struct indexes 
       if(ctx_p->flags[77l] == 7)
       {
         struct api_eventinfo *ei;
-        void *return_value_xmalloc$1;
-        return_value_xmalloc$1=xmalloc(sizeof(struct api_eventinfo) /*32ul*/ );
-        ei = (struct api_eventinfo *)return_value_xmalloc$1;
+        void *return_value_xmalloc_1;
+        return_value_xmalloc_1=xmalloc(sizeof(struct api_eventinfo) /*32ul*/ );
+        ei = (struct api_eventinfo *)return_value_xmalloc_1;
         api_evinfo_initialevmask(ctx_p, ei, 1);
         ei->flags = (unsigned int)EVIF_RECURSIVELY;
         ei->path_len=strlen(path);
@@ -13020,9 +13020,9 @@ signed int sync_initialsync(const char *path, struct ctx *ctx_p, struct indexes 
         ei->objtype_old = (enum eventobjtype)EOT_DOESNTEXIST;
         ei->objtype_new = (enum eventobjtype)EOT_DIR;
         ret=so_call_sync(ctx_p, indexes_p, 1, ei);
-        signed int return_value_sync_initialsync_finish$2;
-        return_value_sync_initialsync_finish$2=sync_initialsync_finish(ctx_p, initsync, ret);
-        return return_value_sync_initialsync_finish$2;
+        signed int return_value_sync_initialsync_finish_2;
+        return_value_sync_initialsync_finish_2=sync_initialsync_finish(ctx_p, initsync, ret);
+        return return_value_sync_initialsync_finish_2;
       }
 
       else
@@ -13030,48 +13030,48 @@ signed int sync_initialsync(const char *path, struct ctx *ctx_p, struct indexes 
         struct dosync_arg dosync_arg;
         struct synchandler_args *args_p;
         if(!(ctx_p->synchandler_args[1l].c == 0))
-          tmp_if_expr$3 = &ctx_p->synchandler_args[(signed long int)SHARGS_INITIAL];
+          tmp_if_expr_3 = &ctx_p->synchandler_args[(signed long int)SHARGS_INITIAL];
 
         else
-          tmp_if_expr$3 = &ctx_p->synchandler_args[(signed long int)SHARGS_PRIMARY];
-        args_p = tmp_if_expr$3;
+          tmp_if_expr_3 = &ctx_p->synchandler_args[(signed long int)SHARGS_PRIMARY];
+        args_p = tmp_if_expr_3;
         dosync_arg.ctx_p = ctx_p;
         dosync_arg.include_list[0l] = path;
         dosync_arg.include_list_count = (unsigned long int)1;
         dosync_arg.list_type_str = "initialsync";
-        char **sync_initialsync$$1$$2$$2$$2$$argv;
-        sync_initialsync$$1$$2$$2$$2$$argv=sync_customargv(ctx_p, &dosync_arg, args_p);
+        char **sync_initialsync__1__2__2__2__argv;
+        sync_initialsync__1__2__2__2__argv=sync_customargv(ctx_p, &dosync_arg, args_p);
         if(!(ctx_p->flags[112l] == PM_OFF))
         {
           if(!(ctx_p->flags[112l] == PM_SAFE))
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        ret=(tmp_if_expr$5 ? sync_exec_argv_thread : sync_exec_argv)(ctx_p, indexes_p, (signed int (*)(struct ctx *, struct thread_callbackfunct_arg *))(void *)0, (struct thread_callbackfunct_arg *)(void *)0, sync_initialsync$$1$$2$$2$$2$$argv);
+          tmp_if_expr_5 = (_Bool)0;
+        ret=(tmp_if_expr_5 ? sync_exec_argv_thread : sync_exec_argv)(ctx_p, indexes_p, (signed int (*)(struct ctx *, struct thread_callbackfunct_arg *))(void *)0, (struct thread_callbackfunct_arg *)(void *)0, sync_initialsync__1__2__2__2__argv);
         if(!(ctx_p->flags[112l] == PM_OFF))
         {
           if(!(ctx_p->flags[112l] == PM_SAFE))
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = ctx_p->iteration_num != 0u ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(!tmp_if_expr$7)
-          argv_free(sync_initialsync$$1$$2$$2$$2$$argv);
+          tmp_if_expr_7 = (_Bool)0;
+        if(!tmp_if_expr_7)
+          argv_free(sync_initialsync__1__2__2__2__argv);
 
-        signed int return_value_sync_initialsync_finish$8;
-        return_value_sync_initialsync_finish$8=sync_initialsync_finish(ctx_p, initsync, ret);
-        return return_value_sync_initialsync_finish$8;
+        signed int return_value_sync_initialsync_finish_8;
+        return_value_sync_initialsync_finish_8=sync_initialsync_finish(ctx_p, initsync, ret);
+        return return_value_sync_initialsync_finish_8;
       }
     }
 
@@ -13079,9 +13079,9 @@ signed int sync_initialsync(const char *path, struct ctx *ctx_p, struct indexes 
     if(!(ret == 0))
       _error("sync_initialsync", "Cannot get synclist");
 
-    signed int return_value_sync_initialsync_finish$9;
-    return_value_sync_initialsync_finish$9=sync_initialsync_finish(ctx_p, initsync, ret);
-    return return_value_sync_initialsync_finish$9;
+    signed int return_value_sync_initialsync_finish_9;
+    return_value_sync_initialsync_finish_9=sync_initialsync_finish(ctx_p, initsync, ret);
+    return return_value_sync_initialsync_finish_9;
   }
 
   if(ctx_p->flags[514l] == 0)
@@ -13091,9 +13091,9 @@ signed int sync_initialsync(const char *path, struct ctx *ctx_p, struct indexes 
       queueinfo->stime=time((signed long int *)(void *)0);
 
     struct eventinfo *evinfo;
-    void *return_value_xmalloc$12;
-    return_value_xmalloc$12=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
-    evinfo = (struct eventinfo *)return_value_xmalloc$12;
+    void *return_value_xmalloc_12;
+    return_value_xmalloc_12=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
+    evinfo = (struct eventinfo *)return_value_xmalloc_12;
     memset((void *)evinfo, 0, sizeof(struct eventinfo) /*40ul*/ );
     evinfo->flags = evinfo->flags | (unsigned int)EVIF_RECURSIVELY;
     evinfo->seqid_min=sync_seqid();
@@ -13104,24 +13104,24 @@ signed int sync_initialsync(const char *path, struct ctx *ctx_p, struct indexes 
     if(!(ret == 0))
     {
       _error("sync_initialsync", "Cannot get exclude what to exclude");
-      signed int return_value_sync_initialsync_finish$13;
-      return_value_sync_initialsync_finish$13=sync_initialsync_finish(ctx_p, initsync, ret);
-      return return_value_sync_initialsync_finish$13;
+      signed int return_value_sync_initialsync_finish_13;
+      return_value_sync_initialsync_finish_13=sync_initialsync_finish(ctx_p, initsync, ret);
+      return return_value_sync_initialsync_finish_13;
     }
 
     _debug(3, "sync_initialsync", "queueing \"%s\" with int-flags %p", path, (void *)(unsigned long int)evinfo->flags);
     char *path_rel;
     path_rel=sync_path_abs2rel(ctx_p, path, (unsigned long int)-1, (unsigned long int *)(void *)0, (char *)(void *)0);
     ret=indexes_queueevent(indexes_p, path_rel, evinfo, queue_id);
-    signed int return_value_sync_initialsync_finish$14;
-    return_value_sync_initialsync_finish$14=sync_initialsync_finish(ctx_p, initsync, ret);
-    return return_value_sync_initialsync_finish$14;
+    signed int return_value_sync_initialsync_finish_14;
+    return_value_sync_initialsync_finish_14=sync_initialsync_finish(ctx_p, initsync, ret);
+    return return_value_sync_initialsync_finish_14;
   }
 
   ret=sync_initialsync_walk(ctx_p, path, indexes_p, queue_id, initsync);
-  signed int return_value_sync_initialsync_finish$15;
-  return_value_sync_initialsync_finish$15=sync_initialsync_finish(ctx_p, initsync, ret);
-  return return_value_sync_initialsync_finish$15;
+  signed int return_value_sync_initialsync_finish_15;
+  return_value_sync_initialsync_finish_15=sync_initialsync_finish(ctx_p, initsync, ret);
+  return return_value_sync_initialsync_finish_15;
 }
 
 // sync_initialsync_finish
@@ -13139,51 +13139,51 @@ signed int sync_initialsync_walk(struct ctx *ctx_p, const char *dirpath, struct 
   signed int ret = 0;
   const char *rootpaths[2l] = { dirpath, (const char *)(void *)0 };
   struct eventinfo evinfo;
-  struct anonymous$16 *tree;
+  struct anonymous_16 *tree;
   struct rule *rules_p = ctx_p->rules;
   _debug(2, "sync_initialsync_walk", "(ctx_p, \"%s\", indexes_p, %i, %i).", dirpath, queue_id, initsync);
   char skip_rules;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)initsync == INITSYNC_FULL)
-    tmp_if_expr$1 = ctx_p->flags[(signed long int)70] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ctx_p->flags[(signed long int)70] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  skip_rules = (char)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  skip_rules = (char)tmp_if_expr_1;
   char rsync_and_prefer_excludes;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(ctx_p->flags[77l] == 5)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = ctx_p->flags[(signed long int)77] == 4 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = !(ctx_p->flags[(signed long int)514] != 0) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = !(ctx_p->flags[(signed long int)514] != 0) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  rsync_and_prefer_excludes = (char)tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+    tmp_if_expr_4 = (_Bool)0;
+  rsync_and_prefer_excludes = (char)tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   signed int fts_errno;
-  char *return_value_strerror$9;
-  char *return_value_strerror$10;
-  char *return_value_strdup$11;
-  signed int tmp_post$12;
-  char *return_value_strdup$13;
-  unsigned int tmp_if_expr$14;
-  char *return_value_strdup$15;
-  signed int tmp_post$16;
-  char *return_value_strdup$17;
-  signed long int tmp_if_expr$19;
+  char *return_value_strerror_9;
+  char *return_value_strerror_10;
+  char *return_value_strdup_11;
+  signed int tmp_post_12;
+  char *return_value_strdup_13;
+  unsigned int tmp_if_expr_14;
+  char *return_value_strdup_15;
+  signed int tmp_post_16;
+  char *return_value_strdup_17;
+  signed long int tmp_if_expr_19;
   if(ctx_p->flags[514l] == 0)
   {
     if(skip_rules == 0)
@@ -13200,30 +13200,30 @@ signed int sync_initialsync_walk(struct ctx *ctx_p, const char *dirpath, struct 
     skip_rules = skip_rules | (char)(ctx_p->rules_count == (unsigned long int)0);
     char fts_no_stat;
     if((signed int)initsync == INITSYNC_FULL)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = ctx_p->_queues[(signed long int)QUEUE_NORMAL].collectdelay == ctx_p->_queues[(signed long int)QUEUE_BIGFILE].collectdelay ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = ctx_p->_queues[(signed long int)QUEUE_NORMAL].collectdelay == ctx_p->_queues[(signed long int)QUEUE_BIGFILE].collectdelay ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = ctx_p->bfilethreshold == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = !(ctx_p->flags[(signed long int)88] != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = ctx_p->bfilethreshold == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = !(ctx_p->flags[(signed long int)88] != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    fts_no_stat = (char)tmp_if_expr$7;
+      tmp_if_expr_7 = (_Bool)0;
+    fts_no_stat = (char)tmp_if_expr_7;
     signed int fts_opts = 0x0004 | 0x0010 | (fts_no_stat != 0 ? 0x0008 : 0) | (ctx_p->flags[(signed long int)516] != 0 ? 0x0040 : 0);
     _debug(3, "sync_initialsync_walk", "fts_opts == %p", (void *)(signed long int)fts_opts);
     tree=fts_open((char * const *)&rootpaths, fts_opts, (signed int (*)(const struct _ftsent **, const struct _ftsent **))(void *)0);
-    if(tree == ((struct anonymous$16 *)NULL))
+    if(tree == ((struct anonymous_16 *)NULL))
     {
       _error("sync_initialsync_walk", "Cannot privileged_fts_open() on \"%s\".", dirpath);
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      return *return_value___errno_location$8;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      return *return_value___errno_location_8;
     }
 
     memset((void *)&evinfo, 0, sizeof(struct eventinfo) /*40ul*/ );
@@ -13265,13 +13265,13 @@ signed int sync_initialsync_walk(struct ctx *ctx_p, const char *dirpath, struct 
           fts_errno = node->fts_errno;
           if(fts_errno == 2)
           {
-            return_value_strerror$9=strerror(fts_errno);
-            _debug(1, "sync_initialsync_walk", "Got error while privileged_fts_read(): %s (errno: %i; fts_info: %i).", return_value_strerror$9, fts_errno, node->fts_info);
+            return_value_strerror_9=strerror(fts_errno);
+            _debug(1, "sync_initialsync_walk", "Got error while privileged_fts_read(): %s (errno: %i; fts_info: %i).", return_value_strerror_9, fts_errno, node->fts_info);
             goto __CPROVER_DUMP_L60;
           }
 
-          return_value_strerror$10=strerror(fts_errno);
-          _error("sync_initialsync_walk", "Got error while privileged_fts_read(): %s (errno: %i; fts_info: %i).", return_value_strerror$10, fts_errno, node->fts_info);
+          return_value_strerror_10=strerror(fts_errno);
+          _error("sync_initialsync_walk", "Got error while privileged_fts_read(): %s (errno: %i; fts_info: %i).", return_value_strerror_10, fts_errno, node->fts_info);
           ret = node->fts_errno;
           goto l_sync_initialsync_walk_end;
         }
@@ -13298,17 +13298,17 @@ signed int sync_initialsync_walk(struct ctx *ctx_p, const char *dirpath, struct 
                 signed int i = 0;
                 while(!(i >= QUEUE_MAX))
                 {
-                  return_value_strdup$11=strdup(path_rel);
-                  tmp_post$12 = i;
+                  return_value_strdup_11=strdup(path_rel);
+                  tmp_post_12 = i;
                   i = i + 1;
-                  indexes_addexclude(indexes_p, return_value_strdup$11, (enum eventinfo_flags)EVIF_CONTENTRECURSIVELY, (enum queue_id)tmp_post$12);
+                  indexes_addexclude(indexes_p, return_value_strdup_11, (enum eventinfo_flags)EVIF_CONTENTRECURSIVELY, (enum queue_id)tmp_post_12);
                 }
               }
 
               else
               {
-                return_value_strdup$13=strdup(path_rel);
-                indexes_addexclude(indexes_p, return_value_strdup$13, (enum eventinfo_flags)EVIF_CONTENTRECURSIVELY, queue_id);
+                return_value_strdup_13=strdup(path_rel);
+                indexes_addexclude(indexes_p, return_value_strdup_13, (enum eventinfo_flags)EVIF_CONTENTRECURSIVELY, queue_id);
               }
               fts_set(tree, node, 4);
             }
@@ -13325,11 +13325,11 @@ signed int sync_initialsync_walk(struct ctx *ctx_p, const char *dirpath, struct 
 
       unsigned int st_mode;
       if(!(fts_no_stat == 0))
-        tmp_if_expr$14 = (unsigned int)((signed int)node->fts_info == 1 ? 0040000 : 0100000);
+        tmp_if_expr_14 = (unsigned int)((signed int)node->fts_info == 1 ? 0040000 : 0100000);
 
       else
-        tmp_if_expr$14 = node->fts_statp->st_mode;
-      st_mode = tmp_if_expr$14;
+        tmp_if_expr_14 = node->fts_statp->st_mode;
+      st_mode = tmp_if_expr_14;
       if(skip_rules == 0)
       {
         enum ruleaction_enum perm;
@@ -13347,20 +13347,20 @@ signed int sync_initialsync_walk(struct ctx *ctx_p, const char *dirpath, struct 
           {
             if((signed int)queue_id == QUEUE_AUTO)
             {
-              signed int sync_initialsync_walk$$1$$4$$4$$2$$2$$1$$i = 0;
-              while(!(sync_initialsync_walk$$1$$4$$4$$2$$2$$1$$i >= QUEUE_MAX))
+              signed int sync_initialsync_walk__1__4__4__2__2__1__i = 0;
+              while(!(sync_initialsync_walk__1__4__4__2__2__1__i >= QUEUE_MAX))
               {
-                return_value_strdup$15=strdup(path_rel);
-                tmp_post$16 = sync_initialsync_walk$$1$$4$$4$$2$$2$$1$$i;
-                sync_initialsync_walk$$1$$4$$4$$2$$2$$1$$i = sync_initialsync_walk$$1$$4$$4$$2$$2$$1$$i + 1;
-                indexes_addexclude(indexes_p, return_value_strdup$15, (enum eventinfo_flags)EVIF_NONE, (enum queue_id)tmp_post$16);
+                return_value_strdup_15=strdup(path_rel);
+                tmp_post_16 = sync_initialsync_walk__1__4__4__2__2__1__i;
+                sync_initialsync_walk__1__4__4__2__2__1__i = sync_initialsync_walk__1__4__4__2__2__1__i + 1;
+                indexes_addexclude(indexes_p, return_value_strdup_15, (enum eventinfo_flags)EVIF_NONE, (enum queue_id)tmp_post_16);
               }
             }
 
             else
             {
-              return_value_strdup$17=strdup(path_rel);
-              indexes_addexclude(indexes_p, return_value_strdup$17, (enum eventinfo_flags)EVIF_NONE, queue_id);
+              return_value_strdup_17=strdup(path_rel);
+              indexes_addexclude(indexes_p, return_value_strdup_17, (enum eventinfo_flags)EVIF_NONE, queue_id);
             }
           }
 
@@ -13375,9 +13375,9 @@ signed int sync_initialsync_walk(struct ctx *ctx_p, const char *dirpath, struct 
         if(ctx_p->flags[77l] == 1)
         {
           signed long int _SAFE_rc;
-          signed int return_value_sync_dosync$18;
-          return_value_sync_dosync$18=sync_dosync(node->fts_path, evinfo.evmask, ctx_p, indexes_p);
-          _SAFE_rc = (signed long int)return_value_sync_dosync$18;
+          signed int return_value_sync_dosync_18;
+          return_value_sync_dosync_18=sync_dosync(node->fts_path, evinfo.evmask, ctx_p, indexes_p);
+          _SAFE_rc = (signed long int)return_value_sync_dosync_18;
           if(!(_SAFE_rc == 0l))
           {
             _error("sync_initialsync_walk", "Got error while sync_dosync(node->fts_path, evinfo.evmask, ctx_p, indexes_p)");
@@ -13394,20 +13394,20 @@ signed int sync_initialsync_walk(struct ctx *ctx_p, const char *dirpath, struct 
         evinfo.objtype_old = (enum eventobjtype)EOT_DOESNTEXIST;
         evinfo.objtype_new = (enum eventobjtype)((signed int)node->fts_info == 1 ? EOT_DIR : EOT_FILE);
         if(!(fts_no_stat == 0))
-          tmp_if_expr$19 = (signed long int)0;
+          tmp_if_expr_19 = (signed long int)0;
 
         else
-          tmp_if_expr$19 = node->fts_statp->st_size;
-        evinfo.fsize = (unsigned long int)tmp_if_expr$19;
+          tmp_if_expr_19 = node->fts_statp->st_size;
+        evinfo.fsize = (unsigned long int)tmp_if_expr_19;
         _debug(3, "sync_initialsync_walk", "queueing \"%s\" (depth: %i) with int-flags %p", node->fts_path, node->fts_level, (void *)(unsigned long int)evinfo.flags);
         signed int _ret;
         _ret=sync_queuesync(path_rel, &evinfo, ctx_p, indexes_p, queue_id);
         if(!(_ret == 0))
         {
           _error("sync_initialsync_walk", "Got error while queueing \"%s\".", node->fts_path);
-          signed int *return_value___errno_location$20;
-          return_value___errno_location$20=__errno_location();
-          ret = *return_value___errno_location$20;
+          signed int *return_value___errno_location_20;
+          return_value___errno_location_20=__errno_location();
+          ret = *return_value___errno_location_20;
           goto l_sync_initialsync_walk_end;
         }
 
@@ -13433,25 +13433,25 @@ signed int sync_initialsync_walk(struct ctx *ctx_p, const char *dirpath, struct 
       ;
     }
     while((_Bool)1);
-    signed int *return_value___errno_location$22;
-    return_value___errno_location$22=__errno_location();
-    if(!(*return_value___errno_location$22 == 0))
+    signed int *return_value___errno_location_22;
+    return_value___errno_location_22=__errno_location();
+    if(!(*return_value___errno_location_22 == 0))
     {
       _error("sync_initialsync_walk", "Got error while privileged_fts_read() and related routines.");
-      signed int *return_value___errno_location$21;
-      return_value___errno_location$21=__errno_location();
-      ret = *return_value___errno_location$21;
+      signed int *return_value___errno_location_21;
+      return_value___errno_location_21=__errno_location();
+      ret = *return_value___errno_location_21;
       goto l_sync_initialsync_walk_end;
     }
 
-    signed int return_value_fts_close$24;
-    return_value_fts_close$24=fts_close(tree);
-    if(!(return_value_fts_close$24 == 0))
+    signed int return_value_fts_close_24;
+    return_value_fts_close_24=fts_close(tree);
+    if(!(return_value_fts_close_24 == 0))
     {
       _error("sync_initialsync_walk", "Got error while privileged_fts_close().");
-      signed int *return_value___errno_location$23;
-      return_value___errno_location$23=__errno_location();
-      ret = *return_value___errno_location$23;
+      signed int *return_value___errno_location_23;
+      return_value___errno_location_23=__errno_location();
+      ret = *return_value___errno_location_23;
       goto l_sync_initialsync_walk_end;
     }
 
@@ -13479,12 +13479,12 @@ static inline signed int sync_islocked(const char * const fpath)
 // file sync.c line 3188
 signed int sync_loop(struct ctx *ctx_p, struct indexes *indexes_p)
 {
-  signed int sync_loop$$1$$ret;
+  signed int sync_loop__1__ret;
   struct threadsinfo *threadsinfo_p;
   threadsinfo_p=thread_info();
   state_p = &ctx_p->state;
   ctx_p->state = (volatile enum state_enum)(ctx_p->flags[(signed long int)518] != 0 ? STATE_RUNNING : STATE_INITSYNC);
-  signed int return_value_thread_gc$1;
+  signed int return_value_thread_gc_1;
   while(!((signed int)ctx_p->state == STATE_EXIT))
   {
     signed int events;
@@ -13506,8 +13506,8 @@ signed int sync_loop(struct ctx *ctx_p, struct indexes *indexes_p)
       case STATE_THREAD_GC:
       {
         main_status_update(ctx_p);
-        return_value_thread_gc$1=thread_gc(ctx_p);
-        if(!(return_value_thread_gc$1 == 0))
+        return_value_thread_gc_1=thread_gc(ctx_p);
+        if(!(return_value_thread_gc_1 == 0))
         {
           ctx_p->state = (volatile enum state_enum)STATE_EXIT;
           break;
@@ -13530,22 +13530,22 @@ signed int sync_loop(struct ctx *ctx_p, struct indexes *indexes_p)
         main_status_update(ctx_p);
         pthread_cond_broadcast(&threadsinfo_p->cond[(signed long int)0]);
         pthread_mutex_unlock(&threadsinfo_p->mutex[(signed long int)0]);
-        sync_loop$$1$$ret=sync_initialsync(ctx_p->watchdir, ctx_p, indexes_p, (enum initsync)INITSYNC_FULL);
-        if(!(sync_loop$$1$$ret == 0))
-          return sync_loop$$1$$ret;
+        sync_loop__1__ret=sync_initialsync(ctx_p->watchdir, ctx_p, indexes_p, (enum initsync)INITSYNC_FULL);
+        if(!(sync_loop__1__ret == 0))
+          return sync_loop__1__ret;
 
         if(!(ctx_p->flags[519l] == 0))
         {
-          signed int sync_loop$$1$$1$$4$$4$$1$$ret;
-          sync_loop$$1$$1$$4$$4$$1$$ret=sync_idle(ctx_p, indexes_p);
-          if(!(sync_loop$$1$$1$$4$$4$$1$$ret == 0))
+          signed int sync_loop__1__1__4__4__1__ret;
+          sync_loop__1__1__4__4__1__ret=sync_idle(ctx_p, indexes_p);
+          if(!(sync_loop__1__1__4__4__1__ret == 0))
           {
             _error("sync_loop", "got error while sync_idle().");
-            return sync_loop$$1$$1$$4$$4$$1$$ret;
+            return sync_loop__1__1__4__4__1__ret;
           }
 
           ctx_p->state = (volatile enum state_enum)STATE_EXIT;
-          return sync_loop$$1$$ret;
+          return sync_loop__1__ret;
         }
 
         ctx_p->state = (volatile enum state_enum)STATE_RUNNING;
@@ -13642,9 +13642,9 @@ signed int sync_loop(struct ctx *ctx_p, struct indexes *indexes_p)
       if(!(events >= 0))
       {
         _error("sync_loop", "Got error while waiting for event from notify subsystem.");
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        return *return_value___errno_location$2;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        return *return_value___errno_location_2;
       }
 
       signed int count;
@@ -13652,20 +13652,20 @@ signed int sync_loop(struct ctx *ctx_p, struct indexes *indexes_p)
       if(!(count >= 1))
       {
         _error("sync_loop", "Cannot handle with notify events.");
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        return *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        return *return_value___errno_location_3;
       }
 
       main_status_update(ctx_p);
       if(!(ctx_p->flags[520l] == 0))
       {
-        signed int sync_loop$$1$$1$$8$$ret;
-        sync_loop$$1$$1$$8$$ret=sync_idle(ctx_p, indexes_p);
-        if(!(sync_loop$$1$$1$$8$$ret == 0))
+        signed int sync_loop__1__1__8__ret;
+        sync_loop__1__1__8__ret=sync_idle(ctx_p, indexes_p);
+        if(!(sync_loop__1__1__8__ret == 0))
         {
           _error("sync_loop", "got error while sync_idle().");
-          return sync_loop$$1$$1$$8$$ret;
+          return sync_loop__1__1__8__ret;
         }
 
       }
@@ -13675,12 +13675,12 @@ signed int sync_loop(struct ctx *ctx_p, struct indexes *indexes_p)
   __CPROVER_DUMP_L38:
     ;
   }
-  signed int sync_loop$$1$$2$$ret;
-  sync_loop$$1$$2$$ret=sync_idle(ctx_p, indexes_p);
-  if(!(sync_loop$$1$$2$$ret == 0))
+  signed int sync_loop__1__2__ret;
+  sync_loop__1__2__ret=sync_idle(ctx_p, indexes_p);
+  if(!(sync_loop__1__2__ret == 0))
   {
     _error("sync_loop", "got error while sync_idle().");
-    return sync_loop$$1$$2$$ret;
+    return sync_loop__1__2__ret;
   }
 
   else
@@ -13696,29 +13696,29 @@ signed int sync_mark_walk(struct ctx *ctx_p, const char *dirpath, struct indexes
 {
   signed int ret = 0;
   const char *rootpaths[2l] = { dirpath, (const char *)(void *)0 };
-  struct anonymous$16 *tree;
+  struct anonymous_16 *tree;
   struct rule *rules_p = ctx_p->rules;
   _debug(2, "sync_mark_walk", "(ctx_p, \"%s\", indexes_p).", dirpath);
   signed int fts_opts = 0x0004 | 0x0010 | 0x0008 | (ctx_p->flags[(signed long int)516] != 0 ? 0x0040 : 0);
   _debug(3, "sync_mark_walk", "fts_opts == %p", (void *)(signed long int)fts_opts);
   tree=fts_open((char * const *)rootpaths, fts_opts, (signed int (*)(const struct _ftsent **, const struct _ftsent **))(void *)0);
-  if(tree == ((struct anonymous$16 *)NULL))
+  if(tree == ((struct anonymous_16 *)NULL))
   {
     if((signed int)ctx_p->state == STATE_STARTING)
       _error("sync_mark_walk", "Cannot privileged_fts_open() on \"%s\".", dirpath);
 
     else
       _debug((signed int)ctx_p->state == STATE_STARTING ? -1 : 2, "sync_mark_walk", "Cannot privileged_fts_open() on \"%s\".", dirpath);
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   struct _ftsent *node;
   char *path_rel = (char *)(void *)0;
   unsigned long int path_rel_len = (unsigned long int)0;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_2;
   do
   {
     node=fts_read(tree);
@@ -13752,8 +13752,8 @@ signed int sync_mark_walk(struct ctx *ctx_p, const char *dirpath, struct indexes
 
       case 4:
       {
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 2)
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 2)
         {
           _debug(1, "sync_mark_walk", "Got error while privileged_fts_read(); fts_info: %i.", node->fts_info);
           goto __CPROVER_DUMP_L31;
@@ -13764,8 +13764,8 @@ signed int sync_mark_walk(struct ctx *ctx_p, const char *dirpath, struct indexes
 
         else
           _debug((signed int)ctx_p->state == STATE_STARTING ? -1 : 2, "sync_mark_walk", "Got error while privileged_fts_read(); fts_info: %i.", node->fts_info);
-        return_value___errno_location$2=__errno_location();
-        ret = *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        ret = *return_value___errno_location_2;
         goto l_sync_mark_walk_end;
       }
       default:
@@ -13786,9 +13786,9 @@ signed int sync_mark_walk(struct ctx *ctx_p, const char *dirpath, struct indexes
     if((RA_WALK & (signed int)perm) == 0)
     {
       _debug(2, "sync_mark_walk", "setting an FTS_SKIP on the directory");
-      signed int return_value_fts_set$4;
-      return_value_fts_set$4=fts_set(tree, node, 4);
-      if(!(return_value_fts_set$4 == 0))
+      signed int return_value_fts_set_4;
+      return_value_fts_set_4=fts_set(tree, node, 4);
+      if(!(return_value_fts_set_4 == 0))
         _warning("sync_mark_walk", "Got error while fts_set(tree, node, FTS_SKIP): %s", path_rel);
 
     }
@@ -13808,9 +13808,9 @@ signed int sync_mark_walk(struct ctx *ctx_p, const char *dirpath, struct indexes
 
         else
           _debug((signed int)ctx_p->state == STATE_STARTING ? -1 : 2, "sync_mark_walk", "Got error while notify-marking \"%s\".", node->fts_path);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        ret = *return_value___errno_location$5;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        ret = *return_value___errno_location_5;
         goto l_sync_mark_walk_end;
       }
 
@@ -13821,33 +13821,33 @@ signed int sync_mark_walk(struct ctx *ctx_p, const char *dirpath, struct indexes
     ;
   }
   while((_Bool)1);
-  signed int *return_value___errno_location$7;
-  return_value___errno_location$7=__errno_location();
-  if(!(*return_value___errno_location$7 == 0))
+  signed int *return_value___errno_location_7;
+  return_value___errno_location_7=__errno_location();
+  if(!(*return_value___errno_location_7 == 0))
   {
     if((signed int)ctx_p->state == STATE_STARTING)
       _error("sync_mark_walk", "Got error while privileged_fts_read() and related routines.");
 
     else
       _debug((signed int)ctx_p->state == STATE_STARTING ? -1 : 2, "sync_mark_walk", "Got error while privileged_fts_read() and related routines.");
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    ret = *return_value___errno_location$6;
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    ret = *return_value___errno_location_6;
     goto l_sync_mark_walk_end;
   }
 
-  signed int return_value_fts_close$9;
-  return_value_fts_close$9=fts_close(tree);
-  if(!(return_value_fts_close$9 == 0))
+  signed int return_value_fts_close_9;
+  return_value_fts_close_9=fts_close(tree);
+  if(!(return_value_fts_close_9 == 0))
   {
     if((signed int)ctx_p->state == STATE_STARTING)
       _error("sync_mark_walk", "Got error while privileged_fts_close().");
 
     else
       _debug((signed int)ctx_p->state == STATE_STARTING ? -1 : 2, "sync_mark_walk", "Got error while privileged_fts_close().");
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    ret = *return_value___errno_location$8;
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    ret = *return_value___errno_location_8;
     goto l_sync_mark_walk_end;
   }
 
@@ -13864,14 +13864,14 @@ l_sync_mark_walk_end:
 // file sync.c line 1833
 signed int sync_notify_init(struct ctx *ctx_p)
 {
-  signed int return_value_inotify_init1$1;
-  signed int *return_value___errno_location$3;
+  signed int return_value_inotify_init1_1;
+  signed int *return_value___errno_location_3;
   switch(ctx_p->flags[(signed long int)532])
   {
     case NE_INOTIFY:
     {
-      return_value_inotify_init1$1=inotify_init1(524288);
-      ctx_p->fsmondata = (void *)(signed long int)return_value_inotify_init1$1;
+      return_value_inotify_init1_1=inotify_init1(524288);
+      ctx_p->fsmondata = (void *)(signed long int)return_value_inotify_init1_1;
       if((signed long int)ctx_p->fsmondata == -1l)
       {
         _error("sync_notify_init", "cannot inotify_init1(%i).", 524288);
@@ -13882,9 +13882,9 @@ signed int sync_notify_init(struct ctx *ctx_p)
     }
     case NE_GIO:
     {
-      signed int return_value_gio_init$2;
-      return_value_gio_init$2=gio_init(ctx_p);
-      if(return_value_gio_init$2 == -1)
+      signed int return_value_gio_init_2;
+      return_value_gio_init_2=gio_init(ctx_p);
+      if(return_value_gio_init_2 == -1)
         _critical("sync_notify_init", "Assert: gio_init(ctx_p) == -1");
 
       return 0;
@@ -13892,8 +13892,8 @@ signed int sync_notify_init(struct ctx *ctx_p)
     default:
     {
       _error("sync_notify_init", "unknown notify-engine: %i", ctx_p->flags[(signed long int)532]);
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 22;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 22;
       return -1;
     }
   }
@@ -13918,9 +13918,9 @@ signed int sync_notify_mark(struct ctx *ctx_p, const char *accpath, const char *
     wd=ctx_p->notifyenginefunct.add_watch_dir(ctx_p, indexes_p, accpath);
     if(wd == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 2)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 2)
         return -2;
 
       _error("sync_notify_mark", "Cannot ctx_p->notifyenginefunct.add_watch_dir() on \"%s\".", path);
@@ -13939,66 +13939,66 @@ extern const char * sync_parameter_get(const char *variable_name, void *_dosync_
 {
   struct dosync_arg *dosync_arg_p = (struct dosync_arg *)_dosync_arg_p;
   struct ctx *ctx_p = dosync_arg_p->ctx_p;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(ctx_p == ((struct ctx *)NULL))
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = ((signed int)ctx_p->synchandler_argf & SHFL_INCLUDE_LIST_PATH) != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcmp$7;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = ((signed int)ctx_p->synchandler_argf & SHFL_INCLUDE_LIST_PATH) != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcmp_7;
+  if(tmp_if_expr_6)
   {
-    return_value_strcmp$7=strcmp(variable_name, "INCLUDE-LIST-PATH");
-    tmp_if_expr$8 = !(return_value_strcmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_7=strcmp(variable_name, "INCLUDE-LIST-PATH");
+    tmp_if_expr_8 = !(return_value_strcmp_7 != 0) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$8 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(tmp_if_expr_8)
     return dosync_arg_p->outf_path;
 
   else
   {
     if(ctx_p == ((struct ctx *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = ((signed int)ctx_p->synchandler_argf & SHFL_EXCLUDE_LIST_PATH) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = ((signed int)ctx_p->synchandler_argf & SHFL_EXCLUDE_LIST_PATH) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_strcmp$4=strcmp(variable_name, "EXCLUDE-LIST-PATH");
-      tmp_if_expr$5 = !(return_value_strcmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_4=strcmp(variable_name, "EXCLUDE-LIST-PATH");
+      tmp_if_expr_5 = !(return_value_strcmp_4 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       return dosync_arg_p->excf_path;
 
     else
     {
-      return_value_strcmp$2=strcmp(variable_name, "TYPE");
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(variable_name, "TYPE");
+      if(return_value_strcmp_2 == 0)
         return dosync_arg_p->list_type_str;
 
       else
       {
-        return_value_strcmp$1=strcmp(variable_name, "EVENT-MASK");
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(variable_name, "EVENT-MASK");
+        if(return_value_strcmp_1 == 0)
           return dosync_arg_p->evmask_str;
 
       }
     }
   }
-  signed int *return_value___errno_location$9;
-  return_value___errno_location$9=__errno_location();
-  *return_value___errno_location$9 = 2;
+  signed int *return_value___errno_location_9;
+  return_value___errno_location_9=__errno_location();
+  *return_value___errno_location_9 = 2;
   return (const char *)(void *)0;
 }
 
@@ -14006,10 +14006,10 @@ extern const char * sync_parameter_get(const char *variable_name, void *_dosync_
 // file sync.c line 943
 char * sync_path_abs2rel(struct ctx *ctx_p, const char *path_abs, unsigned long int path_abs_len, unsigned long int *path_rel_len_p, char *path_rel_oldptr)
 {
-  unsigned long int tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  char *tmp_if_expr$4;
-  void *return_value_xrealloc$3;
+  unsigned long int tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  char *tmp_if_expr_4;
+  void *return_value_xrealloc_3;
   if(path_abs == ((const char *)NULL))
     return (char *)(void *)0;
 
@@ -14022,27 +14022,27 @@ char * sync_path_abs2rel(struct ctx *ctx_p, const char *path_abs, unsigned long 
     char *path_rel;
     unsigned long int watchdirlen;
     if(ctx_p->watchdir == ctx_p->watchdirwslash)
-      tmp_if_expr$1 = (unsigned long int)0;
+      tmp_if_expr_1 = (unsigned long int)0;
 
     else
-      tmp_if_expr$1 = ctx_p->watchdirlen;
-    watchdirlen = tmp_if_expr$1;
+      tmp_if_expr_1 = ctx_p->watchdirlen;
+    watchdirlen = tmp_if_expr_1;
     signed long int path_rel_len_signed = (signed long int)(path_abs_len - (watchdirlen + (unsigned long int)1));
     path_rel_len = (unsigned long int)(path_rel_len_signed > (signed long int)0 ? path_rel_len_signed : (signed long int)0);
     if(path_rel_len_p == ((unsigned long int *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = path_rel_len >= *path_rel_len_p ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = path_rel_len >= *path_rel_len_p ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      return_value_xrealloc$3=xrealloc((void *)path_rel_oldptr, path_rel_len + (unsigned long int)1);
-      tmp_if_expr$4 = (char *)return_value_xrealloc$3;
+      return_value_xrealloc_3=xrealloc((void *)path_rel_oldptr, path_rel_len + (unsigned long int)1);
+      tmp_if_expr_4 = (char *)return_value_xrealloc_3;
     }
 
     else
-      tmp_if_expr$4 = path_rel_oldptr;
-    path_rel = tmp_if_expr$4;
+      tmp_if_expr_4 = path_rel_oldptr;
+    path_rel = tmp_if_expr_4;
     if(path_rel_len == 0ul)
     {
       path_rel[(signed long int)0] = (char)0;
@@ -14064,10 +14064,10 @@ char * sync_path_abs2rel(struct ctx *ctx_p, const char *path_abs, unsigned long 
 // file sync.c line 913
 char * sync_path_rel2abs(struct ctx *ctx_p, const char *path_rel, unsigned long int path_rel_len, unsigned long int *path_abs_len_p, char *path_abs_oldptr)
 {
-  unsigned long int tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  char *tmp_if_expr$4;
-  void *return_value_xrealloc$3;
+  unsigned long int tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  char *tmp_if_expr_4;
+  void *return_value_xrealloc_3;
   if(path_rel == ((const char *)NULL))
     return (char *)(void *)0;
 
@@ -14079,26 +14079,26 @@ char * sync_path_rel2abs(struct ctx *ctx_p, const char *path_rel, unsigned long 
     char *path_abs;
     unsigned long int watchdirlen;
     if(ctx_p->watchdir == ctx_p->watchdirwslash)
-      tmp_if_expr$1 = (unsigned long int)0;
+      tmp_if_expr_1 = (unsigned long int)0;
 
     else
-      tmp_if_expr$1 = ctx_p->watchdirlen;
-    watchdirlen = tmp_if_expr$1;
+      tmp_if_expr_1 = ctx_p->watchdirlen;
+    watchdirlen = tmp_if_expr_1;
     unsigned long int path_abs_len = path_rel_len + watchdirlen + (unsigned long int)1;
     if(path_abs_len_p == ((unsigned long int *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = path_abs_len >= *path_abs_len_p ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = path_abs_len >= *path_abs_len_p ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      return_value_xrealloc$3=xrealloc((void *)path_abs_oldptr, path_abs_len + (unsigned long int)1);
-      tmp_if_expr$4 = (char *)return_value_xrealloc$3;
+      return_value_xrealloc_3=xrealloc((void *)path_abs_oldptr, path_abs_len + (unsigned long int)1);
+      tmp_if_expr_4 = (char *)return_value_xrealloc_3;
     }
 
     else
-      tmp_if_expr$4 = path_abs_oldptr;
-    path_abs = tmp_if_expr$4;
+      tmp_if_expr_4 = path_abs_oldptr;
+    path_abs = tmp_if_expr_4;
     if(path_abs_oldptr == ((char *)NULL))
     {
       memcpy((void *)path_abs, (const void *)ctx_p->watchdir, watchdirlen);
@@ -14117,7 +14117,7 @@ char * sync_path_rel2abs(struct ctx *ctx_p, const char *path_rel, unsigned long 
 // file sync.c line 1998
 extern signed int sync_prequeue_loadmark(signed int monitored, struct ctx *ctx_p, struct indexes *indexes_p, const char *path_full, const char *path_rel, struct stat64 *lstat_p, enum eventobjtype objtype_old, enum eventobjtype objtype_new, unsigned int event_mask, signed int event_wd, unsigned int st_mode, signed long int st_size, char **path_buf_p, unsigned long int *path_buf_len_p, struct eventinfo *evinfo)
 {
-  signed long int tmp_statement_expression$4;
+  signed long int tmp_statement_expression_4;
   if((path_buf_p == ((char **)NULL) || path_buf_len_p == ((unsigned long int *)NULL)) && (path_full == ((const char *)NULL) || path_rel == ((const char *)NULL)))
   {
     _error("sync_prequeue_loadmark", "path_rel_p == NULL || path_rel_len_p == NULL");
@@ -14178,13 +14178,13 @@ extern signed int sync_prequeue_loadmark(signed int monitored, struct ctx *ctx_p
             ret=sync_initialsync(path_full, ctx_p, indexes_p, (enum initsync)INITSYNC_SUBDIR);
             if(!(ret == 0))
             {
-              signed int *return_value___errno_location$1;
-              return_value___errno_location$1=__errno_location();
-              *return_value___errno_location$1 = ret;
+              signed int *return_value___errno_location_1;
+              return_value___errno_location_1=__errno_location();
+              *return_value___errno_location_1 = ret;
               _error("sync_prequeue_loadmark", "Got error from sync_initialsync()");
-              signed int *return_value___errno_location$2;
-              return_value___errno_location$2=__errno_location();
-              return *return_value___errno_location$2;
+              signed int *return_value___errno_location_2;
+              return_value___errno_location_2=__errno_location();
+              return *return_value___errno_location_2;
             }
 
           }
@@ -14204,9 +14204,9 @@ extern signed int sync_prequeue_loadmark(signed int monitored, struct ctx *ctx_p
 
       else
       {
-        signed int return_value_fileischanged$3;
-        return_value_fileischanged$3=fileischanged(ctx_p, indexes_p, path_rel, lstat_p, is_deleted);
-        if(return_value_fileischanged$3 == 0)
+        signed int return_value_fileischanged_3;
+        return_value_fileischanged_3=fileischanged(ctx_p, indexes_p, path_rel, lstat_p, is_deleted);
+        if(return_value_fileischanged_3 == 0)
         {
           _debug(4, "sync_prequeue_loadmark", "The file is not changed. Returning.");
           return 0;
@@ -14217,9 +14217,9 @@ extern signed int sync_prequeue_loadmark(signed int monitored, struct ctx *ctx_p
           if(ctx_p->flags[77l] == 1)
           {
             signed long int _SAFE_rc;
-            signed int return_value_sync_dosync$5;
-            return_value_sync_dosync$5=sync_dosync(path_rel, event_mask, ctx_p, indexes_p);
-            _SAFE_rc = (signed long int)return_value_sync_dosync$5;
+            signed int return_value_sync_dosync_5;
+            return_value_sync_dosync_5=sync_dosync(path_rel, event_mask, ctx_p, indexes_p);
+            _SAFE_rc = (signed long int)return_value_sync_dosync_5;
             if(!(_SAFE_rc == 0l))
             {
               _error("sync_prequeue_loadmark", "Got error while sync_dosync(path_rel, event_mask, ctx_p, indexes_p)");
@@ -14227,8 +14227,8 @@ extern signed int sync_prequeue_loadmark(signed int monitored, struct ctx *ctx_p
               return -1;
             }
 
-            tmp_statement_expression$4 = _SAFE_rc;
-            return (signed int)tmp_statement_expression$4;
+            tmp_statement_expression_4 = _SAFE_rc;
+            return (signed int)tmp_statement_expression_4;
           }
 
           signed int isnew = 0;
@@ -14239,9 +14239,9 @@ extern signed int sync_prequeue_loadmark(signed int monitored, struct ctx *ctx_p
             isnew = isnew + 1;
           if(evinfo == ((struct eventinfo *)NULL))
           {
-            void *return_value_xmalloc$6;
-            return_value_xmalloc$6=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
-            evinfo = (struct eventinfo *)return_value_xmalloc$6;
+            void *return_value_xmalloc_6;
+            return_value_xmalloc_6=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
+            evinfo = (struct eventinfo *)return_value_xmalloc_6;
             memset((void *)evinfo, 0, sizeof(struct eventinfo) /*40ul*/ );
             evinfo->fsize = (unsigned long int)st_size;
             evinfo->wd = event_wd;
@@ -14283,9 +14283,9 @@ extern signed int sync_prequeue_unload(struct ctx *ctx_p, struct indexes *indexe
   struct dosync_arg dosync_arg;
   dosync_arg.ctx_p = ctx_p;
   dosync_arg.indexes_p = indexes_p;
-  unsigned int return_value_g_hash_table_size$1;
-  return_value_g_hash_table_size$1=g_hash_table_size(indexes_p->fpath2ei_ht);
-  _debug(3, "sync_prequeue_unload", "collected %i events per this time.", return_value_g_hash_table_size$1);
+  unsigned int return_value_g_hash_table_size_1;
+  return_value_g_hash_table_size_1=g_hash_table_size(indexes_p->fpath2ei_ht);
+  _debug(3, "sync_prequeue_unload", "collected %i events per this time.", return_value_g_hash_table_size_1);
   g_hash_table_foreach(indexes_p->fpath2ei_ht, sync_queuesync_wrapper, (void *)&dosync_arg);
   g_hash_table_remove_all(indexes_p->fpath2ei_ht);
   return 0;
@@ -14303,9 +14303,9 @@ static signed int sync_queuesync(const char *fpath_rel, struct eventinfo *evinfo
   if(queueinfo->stime == 0l)
     queueinfo->stime=time((signed long int *)(void *)0);
 
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr(fpath_rel, 10);
-  if(!(return_value_strchr$1 == ((char *)NULL)))
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr(fpath_rel, 10);
+  if(!(return_value_strchr_1 == ((char *)NULL)))
   {
     _debug(3, "sync_queuesync", "There's \"\\n\" character in path \"%s\". Ignoring it :(. Feedback to: https://github.com/xaionaro/clsync/issues/12", fpath_rel);
     return 0;
@@ -14318,15 +14318,15 @@ static signed int sync_queuesync(const char *fpath_rel, struct eventinfo *evinfo
     if(evinfo_q == ((struct eventinfo *)NULL))
     {
       struct eventinfo *evinfo_dup;
-      void *return_value_xmalloc$2;
-      return_value_xmalloc$2=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
-      evinfo_dup = (struct eventinfo *)return_value_xmalloc$2;
+      void *return_value_xmalloc_2;
+      return_value_xmalloc_2=xmalloc(sizeof(struct eventinfo) /*40ul*/ );
+      evinfo_dup = (struct eventinfo *)return_value_xmalloc_2;
       memcpy((void *)evinfo_dup, (const void *)evinfo, sizeof(struct eventinfo) /*40ul*/ );
-      char *return_value_strdup$3;
-      return_value_strdup$3=strdup(fpath_rel);
-      signed int return_value_indexes_queueevent$4;
-      return_value_indexes_queueevent$4=indexes_queueevent(indexes_p, return_value_strdup$3, evinfo_dup, queue_id);
-      return return_value_indexes_queueevent$4;
+      char *return_value_strdup_3;
+      return_value_strdup_3=strdup(fpath_rel);
+      signed int return_value_indexes_queueevent_4;
+      return_value_indexes_queueevent_4=indexes_queueevent(indexes_p, return_value_strdup_3, evinfo_dup, queue_id);
+      return return_value_indexes_queueevent_4;
     }
 
     else
@@ -14354,9 +14354,9 @@ __CPROVER_DUMP_L1:
 // file sync.h line 68
 extern signed int sync_run(struct ctx *ctx_p)
 {
-  signed int sync_run$$1$$ret;
+  signed int sync_run__1__ret;
   struct sighandler_arg sighandler_arg = { .ctx_p=((struct ctx *)NULL), .pthread_parent=0ul, .exitcode_p=((signed int *)NULL),
-    .sigset_p=((struct anonymous$15 *)NULL) };
+    .sigset_p=((struct anonymous_15 *)NULL) };
   struct indexes indexes = { .wd2fpath_ht=(struct _GHashTable *)(void *)0, .fpath2wd_ht=((struct _GHashTable *)NULL),
     .fpath2ei_ht=((struct _GHashTable *)NULL),
     .exc_fpath_ht=((struct _GHashTable *)NULL),
@@ -14365,15 +14365,15 @@ extern signed int sync_run(struct ctx *ctx_p)
     .out_lines_aggr_ht=((struct _GHashTable *)NULL),
     .nonthreaded_syncing_fpath2ei_ht=((struct _GHashTable *)NULL),
     .fileinfo_ht=((struct _GHashTable *)NULL) };
-  signed int sync_run$$1$$2$$i;
+  signed int sync_run__1__2__i;
   if(ctx_p->blockthread_count >= 16ul)
     _critical("sync_run", "Assert: ctx_p->blockthread_count >= (1<<4)");
 
-  unsigned long int tmp_post$1 = ctx_p->blockthread_count;
+  unsigned long int tmp_post_1 = ctx_p->blockthread_count;
   ctx_p->blockthread_count = ctx_p->blockthread_count + 1ul;
-  ctx_p->blockthread[(signed long int)tmp_post$1]=pthread_self();
+  ctx_p->blockthread[(signed long int)tmp_post_1]=pthread_self();
   _debug(3, "sync_run", "register_blockthread(): ctx_p->blockthread_count -> %i", ctx_p->blockthread_count);
-  struct anonymous$15 sigset_sighandler;
+  struct anonymous_15 sigset_sighandler;
   sigemptyset(&sigset_sighandler);
   sigaddset(&sigset_sighandler, 14);
   sigaddset(&sigset_sighandler, 1);
@@ -14384,42 +14384,42 @@ extern signed int sync_run(struct ctx *ctx_p)
   sigaddset(&sigset_sighandler, 10);
   sigaddset(&sigset_sighandler, 12);
   sigaddset(&sigset_sighandler, 29);
-  sync_run$$1$$2$$i = 0;
-  for( ; !(sync_run$$1$$2$$i >= 512); sync_run$$1$$2$$i = sync_run$$1$$2$$i + 1)
-    if(!(ctx_p->customsignal[(signed long int)sync_run$$1$$2$$i] == ((char *)NULL)))
-      sigaddset(&sigset_sighandler, sync_run$$1$$2$$i);
+  sync_run__1__2__i = 0;
+  for( ; !(sync_run__1__2__i >= 512); sync_run__1__2__i = sync_run__1__2__i + 1)
+    if(!(ctx_p->customsignal[(signed long int)sync_run__1__2__i] == ((char *)NULL)))
+      sigaddset(&sigset_sighandler, sync_run__1__2__i);
 
-  sync_run$$1$$ret=pthread_sigmask(0, &sigset_sighandler, (struct anonymous$15 *)(void *)0);
-  _Bool tmp_if_expr$16;
-  unsigned int return_value_getuid$10;
-  signed long int return_value_time$17;
-  signed int *return_value___errno_location$18;
-  if(!(sync_run$$1$$ret == 0))
-    return sync_run$$1$$ret;
+  sync_run__1__ret=pthread_sigmask(0, &sigset_sighandler, (struct anonymous_15 *)(void *)0);
+  _Bool tmp_if_expr_16;
+  unsigned int return_value_getuid_10;
+  signed long int return_value_time_17;
+  signed int *return_value___errno_location_18;
+  if(!(sync_run__1__ret == 0))
+    return sync_run__1__ret;
 
   else
   {
     sighandler_arg.ctx_p = ctx_p;
     sighandler_arg.pthread_parent=pthread_self();
-    sighandler_arg.exitcode_p = &sync_run$$1$$ret;
+    sighandler_arg.exitcode_p = &sync_run__1__ret;
     sighandler_arg.sigset_p = &sigset_sighandler;
-    sync_run$$1$$ret=pthread_create(&pthread_sighandler, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))sync_sighandler, (void *)&sighandler_arg);
-    if(!(sync_run$$1$$ret == 0))
-      return sync_run$$1$$ret;
+    sync_run__1__ret=pthread_create(&pthread_sighandler, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))sync_sighandler, (void *)&sighandler_arg);
+    if(!(sync_run__1__ret == 0))
+      return sync_run__1__ret;
 
     else
     {
-      struct anonymous$15 sigset_parent;
+      struct anonymous_15 sigset_parent;
       sigemptyset(&sigset_parent);
       sigaddset(&sigset_parent, 16);
-      sync_run$$1$$ret=pthread_sigmask(1, &sigset_parent, (struct anonymous$15 *)(void *)0);
-      if(!(sync_run$$1$$ret == 0))
-        return sync_run$$1$$ret;
+      sync_run__1__ret=pthread_sigmask(1, &sigset_parent, (struct anonymous_15 *)(void *)0);
+      if(!(sync_run__1__ret == 0))
+        return sync_run__1__ret;
 
       else
       {
         signal(16, sync_sig_int);
-        signed int sync_run$$1$$4$$i;
+        signed int sync_run__1__4__i;
         ctx_p->indexes_p = (void *)&indexes;
         indexes.wd2fpath_ht=g_hash_table_new_full(g_direct_hash, g_direct_equal, ((void (*)(void *))NULL), ((void (*)(void *))NULL));
         indexes.fpath2wd_ht=g_hash_table_new_full(g_str_hash, g_str_equal, free, ((void (*)(void *))NULL));
@@ -14427,41 +14427,41 @@ extern signed int sync_run(struct ctx *ctx_p)
         indexes.exc_fpath_ht=g_hash_table_new_full(g_str_hash, g_str_equal, free, ((void (*)(void *))NULL));
         indexes.out_lines_aggr_ht=g_hash_table_new_full(g_str_hash, g_str_equal, free, ((void (*)(void *))NULL));
         indexes.fileinfo_ht=g_hash_table_new_full(g_str_hash, g_str_equal, free, free);
-        sync_run$$1$$4$$i = 0;
-        for( ; !(sync_run$$1$$4$$i >= QUEUE_MAX); sync_run$$1$$4$$i = sync_run$$1$$4$$i + 1)
+        sync_run__1__4__i = 0;
+        for( ; !(sync_run__1__4__i >= QUEUE_MAX); sync_run__1__4__i = sync_run__1__4__i + 1)
         {
-          if(sync_run$$1$$4$$i == QUEUE_LOCKWAIT)
+          if(sync_run__1__4__i == QUEUE_LOCKWAIT)
           {
-            indexes.fpath2ei_coll_ht[(signed long int)sync_run$$1$$4$$i]=g_hash_table_new_full(g_str_hash, g_str_equal, free, ((void (*)(void *))NULL));
+            indexes.fpath2ei_coll_ht[(signed long int)sync_run__1__4__i]=g_hash_table_new_full(g_str_hash, g_str_equal, free, ((void (*)(void *))NULL));
             goto __CPROVER_DUMP_L15;
           }
 
-          indexes.fpath2ei_coll_ht[(signed long int)sync_run$$1$$4$$i]=g_hash_table_new_full(g_str_hash, g_str_equal, free, free);
-          indexes.exc_fpath_coll_ht[(signed long int)sync_run$$1$$4$$i]=g_hash_table_new_full(g_str_hash, g_str_equal, free, ((void (*)(void *))NULL));
+          indexes.fpath2ei_coll_ht[(signed long int)sync_run__1__4__i]=g_hash_table_new_full(g_str_hash, g_str_equal, free, free);
+          indexes.exc_fpath_coll_ht[(signed long int)sync_run__1__4__i]=g_hash_table_new_full(g_str_hash, g_str_equal, free, ((void (*)(void *))NULL));
 
         __CPROVER_DUMP_L15:
           ;
         }
         if(ctx_p->flags[77l] == 7)
-          tmp_if_expr$16 = (_Bool)1;
+          tmp_if_expr_16 = (_Bool)1;
 
         else
-          tmp_if_expr$16 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$16)
+          tmp_if_expr_16 = ctx_p->flags[(signed long int)77] == 6 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_16)
         {
           struct stat so_stat;
-          signed int return_value_stat$5;
-          return_value_stat$5=stat(ctx_p->handlerfpath, &so_stat);
-          if(return_value_stat$5 == -1)
+          signed int return_value_stat_5;
+          return_value_stat_5=stat(ctx_p->handlerfpath, &so_stat);
+          if(return_value_stat_5 == -1)
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            char *return_value_strerror$3;
-            return_value_strerror$3=strerror(*return_value___errno_location$2);
-            _error("sync_run", "Can't stat shared object file \"%s\": %s", ctx_p->handlerfpath, return_value_strerror$3);
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            return *return_value___errno_location$4;
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            char *return_value_strerror_3;
+            return_value_strerror_3=strerror(*return_value___errno_location_2);
+            _error("sync_run", "Can't stat shared object file \"%s\": %s", ctx_p->handlerfpath, return_value_strerror_3);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            return *return_value___errno_location_4;
           }
 
           if(!((61440u & so_stat.st_mode) == 32768u))
@@ -14472,26 +14472,26 @@ extern signed int sync_run(struct ctx *ctx_p)
 
           if(!(so_stat.st_uid == 0u))
           {
-            return_value_getuid$10=getuid();
-            if(!(so_stat.st_uid == return_value_getuid$10))
+            return_value_getuid_10=getuid();
+            if(!(so_stat.st_uid == return_value_getuid_10))
             {
               struct stat cl_stat;
               char *cl_str;
-              void *return_value___builtin_alloca$6;
-              return_value___builtin_alloca$6=__builtin_alloca((unsigned long int)20);
-              cl_str = (char *)return_value___builtin_alloca$6;
+              void *return_value___builtin_alloca_6;
+              return_value___builtin_alloca_6=__builtin_alloca((unsigned long int)20);
+              cl_str = (char *)return_value___builtin_alloca_6;
               signed int ret;
-              signed int return_value_getpid$7;
-              return_value_getpid$7=getpid();
-              snprintf(cl_str, (unsigned long int)20, "/proc/%i/exe", return_value_getpid$7);
+              signed int return_value_getpid_7;
+              return_value_getpid_7=getpid();
+              snprintf(cl_str, (unsigned long int)20, "/proc/%i/exe", return_value_getpid_7);
               ret=stat(cl_str, &cl_stat);
               if(ret == -1)
               {
-                signed int *return_value___errno_location$8;
-                return_value___errno_location$8=__errno_location();
-                char *return_value_strerror$9;
-                return_value_strerror$9=strerror(*return_value___errno_location$8);
-                _error("sync_run", "Can't stat clsync binary file \"%s\": %s", cl_str, return_value_strerror$9);
+                signed int *return_value___errno_location_8;
+                return_value___errno_location_8=__errno_location();
+                char *return_value_strerror_9;
+                return_value_strerror_9=strerror(*return_value___errno_location_8);
+                _error("sync_run", "Can't stat clsync binary file \"%s\": %s", cl_str, return_value_strerror_9);
               }
 
               if(ret == -1 || !(so_stat.st_uid == cl_stat.st_uid))
@@ -14514,35 +14514,35 @@ extern signed int sync_run(struct ctx *ctx_p)
           synchandler_handle=dlopen(ctx_p->handlerfpath, 0x00002 | 0);
           if(synchandler_handle == NULL)
           {
-            char *return_value_dlerror$11;
-            return_value_dlerror$11=dlerror();
-            _error("sync_run", "Cannot load shared object file \"%s\": %s", ctx_p->handlerfpath, return_value_dlerror$11);
+            char *return_value_dlerror_11;
+            return_value_dlerror_11=dlerror();
+            _error("sync_run", "Cannot load shared object file \"%s\": %s", ctx_p->handlerfpath, return_value_dlerror_11);
             return -1;
           }
 
           ctx_p->handler_handle = synchandler_handle;
-          void *return_value_dlsym$12;
-          return_value_dlsym$12=dlsym(ctx_p->handler_handle, "clsyncapi_init");
-          ctx_p->handler_funct.init = (signed int (*)(struct ctx *, struct indexes *))return_value_dlsym$12;
+          void *return_value_dlsym_12;
+          return_value_dlsym_12=dlsym(ctx_p->handler_handle, "clsyncapi_init");
+          ctx_p->handler_funct.init = (signed int (*)(struct ctx *, struct indexes *))return_value_dlsym_12;
           if(ctx_p->flags[77l] == 6)
           {
-            void *return_value_dlsym$13;
-            return_value_dlsym$13=dlsym(ctx_p->handler_handle, "clsyncapi_rsync");
-            ctx_p->handler_funct.rsync = (signed int (*)(const char *, const char *))return_value_dlsym$13;
+            void *return_value_dlsym_13;
+            return_value_dlsym_13=dlsym(ctx_p->handler_handle, "clsyncapi_rsync");
+            ctx_p->handler_funct.rsync = (signed int (*)(const char *, const char *))return_value_dlsym_13;
             if(ctx_p->handler_funct.rsync == ((signed int (*)(const char *, const char *))NULL))
             {
-              char *sync_run$$1$$6$$6$$1$$dlerror_str;
-              sync_run$$1$$6$$6$$1$$dlerror_str=dlerror();
-              _error("sync_run", "Cannot resolve symbol clsyncapi_rsync in shared object \"%s\": %s", ctx_p->handlerfpath, sync_run$$1$$6$$6$$1$$dlerror_str != (char *)(void *)0 ? sync_run$$1$$6$$6$$1$$dlerror_str : "No error description returned.");
+              char *sync_run__1__6__6__1__dlerror_str;
+              sync_run__1__6__6__1__dlerror_str=dlerror();
+              _error("sync_run", "Cannot resolve symbol clsyncapi_rsync in shared object \"%s\": %s", ctx_p->handlerfpath, sync_run__1__6__6__1__dlerror_str != (char *)(void *)0 ? sync_run__1__6__6__1__dlerror_str : "No error description returned.");
             }
 
           }
 
           else
           {
-            void *return_value_dlsym$14;
-            return_value_dlsym$14=dlsym(ctx_p->handler_handle, "clsyncapi_sync");
-            ctx_p->handler_funct.sync = (signed int (*)(signed int, struct api_eventinfo *))return_value_dlsym$14;
+            void *return_value_dlsym_14;
+            return_value_dlsym_14=dlsym(ctx_p->handler_handle, "clsyncapi_sync");
+            ctx_p->handler_funct.sync = (signed int (*)(signed int, struct api_eventinfo *))return_value_dlsym_14;
             if(ctx_p->handler_funct.sync == ((signed int (*)(signed int, struct api_eventinfo *))NULL))
             {
               char *dlerror_str;
@@ -14551,16 +14551,16 @@ extern signed int sync_run(struct ctx *ctx_p)
             }
 
           }
-          void *return_value_dlsym$15;
-          return_value_dlsym$15=dlsym(ctx_p->handler_handle, "clsyncapi_deinit");
-          ctx_p->handler_funct.deinit = (signed int (*)())return_value_dlsym$15;
+          void *return_value_dlsym_15;
+          return_value_dlsym_15=dlsym(ctx_p->handler_handle, "clsyncapi_deinit");
+          ctx_p->handler_funct.deinit = (signed int (*)())return_value_dlsym_15;
           if(!(ctx_p->handler_funct.init == ((signed int (*)(struct ctx *, struct indexes *))NULL)))
           {
-            sync_run$$1$$ret=ctx_p->handler_funct.init(ctx_p, &indexes);
-            if(!(sync_run$$1$$ret == 0))
+            sync_run__1__ret=ctx_p->handler_funct.init(ctx_p, &indexes);
+            if(!(sync_run__1__ret == 0))
             {
               _error("sync_run", "Cannot init sync-handler module.");
-              return sync_run$$1$$ret;
+              return sync_run__1__ret;
             }
 
           }
@@ -14569,25 +14569,25 @@ extern signed int sync_run(struct ctx *ctx_p)
 
         if(!(ctx_p->listoutdir == ((char *)NULL)))
         {
-          return_value_time$17=time((signed long int *)(void *)0);
-          srand((unsigned int)return_value_time$17);
+          return_value_time_17=time((signed long int *)(void *)0);
+          srand((unsigned int)return_value_time_17);
         }
 
         if(ctx_p->flags[519l] == 0)
         {
-          signed int return_value_sync_notify_init$19;
-          return_value_sync_notify_init$19=sync_notify_init(ctx_p);
-          if(!(return_value_sync_notify_init$19 == 0))
+          signed int return_value_sync_notify_init_19;
+          return_value_sync_notify_init_19=sync_notify_init(ctx_p);
+          if(!(return_value_sync_notify_init_19 == 0))
           {
-            return_value___errno_location$18=__errno_location();
-            return *return_value___errno_location$18;
+            return_value___errno_location_18=__errno_location();
+            return *return_value___errno_location_18;
           }
 
         }
 
-        sync_run$$1$$ret=privileged_init(ctx_p);
-        if(!(sync_run$$1$$ret == 0))
-          return sync_run$$1$$ret;
+        sync_run__1__ret=privileged_init(ctx_p);
+        if(!(sync_run__1__ret == 0))
+          return sync_run__1__ret;
 
         else
         {
@@ -14608,15 +14608,15 @@ extern signed int sync_run(struct ctx *ctx_p)
             }
           }
           if(!(ctx_p->socketpath == ((char *)NULL)))
-            sync_run$$1$$ret=control_run(ctx_p);
+            sync_run__1__ret=control_run(ctx_p);
 
           if(ctx_p->flags[519l] == 0)
           {
-            sync_run$$1$$ret=sync_mark_walk(ctx_p, ctx_p->watchdir, &indexes);
-            if(sync_run$$1$$ret == 0)
+            sync_run__1__ret=sync_mark_walk(ctx_p, ctx_p->watchdir, &indexes);
+            if(sync_run__1__ret == 0)
               goto __CPROVER_DUMP_L43;
 
-            return sync_run$$1$$ret;
+            return sync_run__1__ret;
           }
 
           else
@@ -14624,9 +14624,9 @@ extern signed int sync_run(struct ctx *ctx_p)
 
           __CPROVER_DUMP_L43:
             ;
-            sync_run$$1$$ret=sync_loop(ctx_p, &indexes);
-            if(!(sync_run$$1$$ret == 0))
-              return sync_run$$1$$ret;
+            sync_run__1__ret=sync_loop(ctx_p, &indexes);
+            if(!(sync_run__1__ret == 0))
+              return sync_run__1__ret;
 
             else
             {
@@ -14657,22 +14657,22 @@ extern signed int sync_run(struct ctx *ctx_p)
                   if(!(_ret == 0))
                   {
                     _error("sync_run", "Cannot deinit sync-handler module.");
-                    if(sync_run$$1$$ret == 0)
-                      sync_run$$1$$ret = _ret;
+                    if(sync_run__1__ret == 0)
+                      sync_run__1__ret = _ret;
 
                   }
 
                 }
 
-                signed int return_value_dlclose$21;
-                return_value_dlclose$21=dlclose(ctx_p->handler_handle);
-                if(!(return_value_dlclose$21 == 0))
+                signed int return_value_dlclose_21;
+                return_value_dlclose_21=dlclose(ctx_p->handler_handle);
+                if(!(return_value_dlclose_21 == 0))
                 {
-                  char *return_value_dlerror$20;
-                  return_value_dlerror$20=dlerror();
-                  _error("sync_run", "Cannot unload shared object file \"%s\": %s", ctx_p->handlerfpath, return_value_dlerror$20);
-                  if(sync_run$$1$$ret == 0)
-                    sync_run$$1$$ret = -1;
+                  char *return_value_dlerror_20;
+                  return_value_dlerror_20=dlerror();
+                  _error("sync_run", "Cannot unload shared object file \"%s\": %s", ctx_p->handlerfpath, return_value_dlerror_20);
+                  if(sync_run__1__ret == 0)
+                    sync_run__1__ret = -1;
 
                 }
 
@@ -14704,16 +14704,16 @@ extern signed int sync_run(struct ctx *ctx_p)
               }
               if(!(ctx_p->flags[522l] == 0))
               {
-                char *sync_run$$1$$16$$argv[3l] = { ctx_p->exithookfile, ctx_p->label, (char *)(void *)0 };
-                exec_argv(sync_run$$1$$16$$argv, (signed int *)(void *)0);
+                char *sync_run__1__16__argv[3l] = { ctx_p->exithookfile, ctx_p->label, (char *)(void *)0 };
+                exec_argv(sync_run__1__16__argv, (signed int *)(void *)0);
               }
 
               _debug(3, "sync_run", "privileged_deinit()");
-              signed int return_value_privileged_deinit$22;
-              return_value_privileged_deinit$22=privileged_deinit(ctx_p);
-              sync_run$$1$$ret = sync_run$$1$$ret | return_value_privileged_deinit$22;
+              signed int return_value_privileged_deinit_22;
+              return_value_privileged_deinit_22=privileged_deinit(ctx_p);
+              sync_run__1__ret = sync_run__1__ret | return_value_privileged_deinit_22;
               _debug(3, "sync_run", "finish");
-              return sync_run$$1$$ret;
+              return sync_run__1__ret;
             }
           }
         }
@@ -14726,18 +14726,18 @@ extern signed int sync_run(struct ctx *ctx_p)
 // file sync.c line 71
 static inline unsigned int sync_seqid()
 {
-  unsigned int tmp_post$1 = _sync_seqid_value;
+  unsigned int tmp_post_1 = _sync_seqid_value;
   _sync_seqid_value = _sync_seqid_value + 1u;
-  return tmp_post$1;
+  return tmp_post_1;
 }
 
 // sync_sig_int
 // file sync.c line 3315
 void sync_sig_int(signed int signal)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  _debug(2, "sync_sig_int", "%i: Thread %p", signal, return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  _debug(2, "sync_sig_int", "%i: Thread %p", signal, return_value_pthread_self_1);
 }
 
 // sync_sigchld
@@ -14751,16 +14751,16 @@ void sync_sigchld()
 // file sync.c line 3624
 signed int sync_sighandler(struct sighandler_arg *sighandler_arg_p)
 {
-  signed int sync_sighandler$$1$$signal = 0;
+  signed int sync_sighandler__1__signal = 0;
   signed int ret;
-  struct anonymous$15 sigset_full;
+  struct anonymous_15 sigset_full;
   struct ctx *ctx_p = sighandler_arg_p->ctx_p;
   unsigned long int pthread_parent = sighandler_arg_p->pthread_parent;
   signed int *exitcode_p = sighandler_arg_p->exitcode_p;
   sync_sighandler_exitcode_p = exitcode_p;
   sethandler_sigchld(sync_sigchld);
   sigfillset(&sigset_full);
-  signed int return_value_sigismember$1;
+  signed int return_value_sigismember_1;
   signed int return_value_1;
   signed int return_value_2;
   while((_Bool)1)
@@ -14783,11 +14783,11 @@ signed int sync_sighandler(struct sighandler_arg *sighandler_arg_p)
       }
     }
 
-    return_value_sigismember$1=sigismember(&sigset_full, 15);
-    _debug(3, "sync_sighandler", "waiting for signal (is sigset filled == %i)", return_value_sigismember$1);
-    ret=sigwait(&sigset_full, &sync_sighandler$$1$$signal);
+    return_value_sigismember_1=sigismember(&sigset_full, 15);
+    _debug(3, "sync_sighandler", "waiting for signal (is sigset filled == %i)", return_value_sigismember_1);
+    ret=sigwait(&sigset_full, &sync_sighandler__1__signal);
     if(state_p == ((volatile enum state_enum *)NULL))
-      switch(sync_sighandler$$1$$signal)
+      switch(sync_sighandler__1__signal)
       {
         case 14:
           *exitcode_p = 62;
@@ -14803,28 +14803,28 @@ signed int sync_sighandler(struct sighandler_arg *sighandler_arg_p)
           break;
         }
         default:
-          _warning("sync_sighandler", "Got signal %i, but the main loop is not started, yet. Ignoring the signal.", sync_sighandler$$1$$signal);
+          _warning("sync_sighandler", "Got signal %i, but the main loop is not started, yet. Ignoring the signal.", sync_sighandler__1__signal);
       }
 
     else
     {
-      _debug(3, "sync_sighandler", "got signal %i. ctx_p->state == %i.", sync_sighandler$$1$$signal, ctx_p->state);
-      if(!(ctx_p->customsignal[(signed long int)sync_sighandler$$1$$signal] == ((char *)NULL)))
+      _debug(3, "sync_sighandler", "got signal %i. ctx_p->state == %i.", sync_sighandler__1__signal, ctx_p->state);
+      if(!(ctx_p->customsignal[(signed long int)sync_sighandler__1__signal] == ((char *)NULL)))
       {
-        signed int return_value_config_block_parse$3;
-        return_value_config_block_parse$3=config_block_parse(ctx_p, ctx_p->customsignal[(signed long int)sync_sighandler$$1$$signal]);
-        if(!(return_value_config_block_parse$3 == 0))
+        signed int return_value_config_block_parse_3;
+        return_value_config_block_parse_3=config_block_parse(ctx_p, ctx_p->customsignal[(signed long int)sync_sighandler__1__signal]);
+        if(!(return_value_config_block_parse_3 == 0))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          *exitcode_p = *return_value___errno_location$2;
-          sync_sighandler$$1$$signal = 15;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          *exitcode_p = *return_value___errno_location_2;
+          sync_sighandler__1__signal = 15;
         }
 
         continue;
       }
 
-      switch(sync_sighandler$$1$$signal)
+      switch(sync_sighandler__1__signal)
       {
         case 14:
           *exitcode_p = 62;
@@ -14848,14 +14848,14 @@ signed int sync_sighandler(struct sighandler_arg *sighandler_arg_p)
             ctx_p->children = ctx_p->children - 1;
             child_pid = ctx_p->child_pid[(signed long int)ctx_p->children];
             signed int return_value;
-            return_value=_privileged_kill_child(child_pid, sync_sighandler$$1$$signal, (char)0);
+            return_value=_privileged_kill_child(child_pid, sync_sighandler__1__signal, (char)0);
             if(!(return_value == 2))
             {
-              if(!(sync_sighandler$$1$$signal == 3))
+              if(!(sync_sighandler__1__signal == 3))
                 return_value_1=_privileged_kill_child(child_pid, 3, (char)0);
 
               else
-                if(!(sync_sighandler$$1$$signal == 15))
+                if(!(sync_sighandler__1__signal == 15))
                   return_value_2=_privileged_kill_child(child_pid, 15, (char)0);
 
                 else
@@ -14896,7 +14896,7 @@ signed int sync_sighandler(struct sighandler_arg *sighandler_arg_p)
         }
         default:
         {
-          _error("sync_sighandler", "Unknown signal: %i. Exit.", sync_sighandler$$1$$signal);
+          _error("sync_sighandler", "Unknown signal: %i. Exit.", sync_sighandler__1__signal);
           sync_switch_state(ctx_p, pthread_parent, STATE_TERM);
         }
       }
@@ -14915,10 +14915,10 @@ signed int sync_switch_state(struct ctx *ctx_p, unsigned long int pthread_parent
 {
   union anonymous *pthread_mutex_state;
   union anonymous *pthread_mutex_select;
-  union anonymous$1 *pthread_cond_state;
-  signed int return_value_pthread_mutex_trylock$1;
-  signed int return_value_pthread_mutex_trylock$2;
-  signed int return_value__thread_info_unlock$3;
+  union anonymous_1 *pthread_cond_state;
+  signed int return_value_pthread_mutex_trylock_1;
+  signed int return_value_pthread_mutex_trylock_2;
+  signed int return_value__thread_info_unlock_3;
   if(state_p == ((volatile enum state_enum *)NULL))
   {
     _debug(3, "sync_switch_state", "sync_switch_state(ctx_p, %p, %i), but state_p == NULL", pthread_parent, newstate);
@@ -14942,8 +14942,8 @@ signed int sync_switch_state(struct ctx *ctx_p, unsigned long int pthread_parent
       _debug(4, "sync_switch_state", "while(pthread_mutex_trylock( pthread_mutex_state ))");
       do
       {
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(pthread_mutex_state);
-        if(!(return_value_pthread_mutex_trylock$1 == 16))
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(pthread_mutex_state);
+        if(!(return_value_pthread_mutex_trylock_1 == 16))
           break;
 
         signed int rc;
@@ -14960,16 +14960,16 @@ signed int sync_switch_state(struct ctx *ctx_p, unsigned long int pthread_parent
       _debug(4, "sync_switch_state", "while(pthread_mutex_trylock( pthread_mutex_select ))");
       do
       {
-        return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(pthread_mutex_select);
-        if(!(return_value_pthread_mutex_trylock$2 == 16))
+        return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(pthread_mutex_select);
+        if(!(return_value_pthread_mutex_trylock_2 == 16))
           break;
 
-        signed int sync_switch_state$$1$$8$$rc;
-        sync_switch_state$$1$$8$$rc=sync_tryforcecycle(ctx_p, pthread_parent);
-        if(!(sync_switch_state$$1$$8$$rc == 0) && !(sync_switch_state$$1$$8$$rc == 115))
-          return sync_switch_state$$1$$8$$rc;
+        signed int sync_switch_state__1__8__rc;
+        sync_switch_state__1__8__rc=sync_tryforcecycle(ctx_p, pthread_parent);
+        if(!(sync_switch_state__1__8__rc == 0) && !(sync_switch_state__1__8__rc == 115))
+          return sync_switch_state__1__8__rc;
 
-        if(sync_switch_state$$1$$8$$rc == 0)
+        if(sync_switch_state__1__8__rc == 0)
           break;
 
       }
@@ -14982,8 +14982,8 @@ signed int sync_switch_state(struct ctx *ctx_p, unsigned long int pthread_parent
       pthread_mutex_unlock(pthread_mutex_state);
       _debug(4, "sync_switch_state", "pthread_mutex_unlock( pthread_mutex_select )");
       pthread_mutex_unlock(pthread_mutex_select);
-      return_value__thread_info_unlock$3=_thread_info_unlock("sync_switch_state", 0);
-      return return_value__thread_info_unlock$3;
+      return_value__thread_info_unlock_3=_thread_info_unlock("sync_switch_state", 0);
+      return return_value__thread_info_unlock_3;
     }
 
     else
@@ -14993,9 +14993,9 @@ signed int sync_switch_state(struct ctx *ctx_p, unsigned long int pthread_parent
       ;
       *state_p = (volatile enum state_enum)newstate;
       pthread_kill(pthread_parent, 16);
-      signed int return_value__thread_info_unlock$4;
-      return_value__thread_info_unlock$4=_thread_info_unlock("sync_switch_state", 0);
-      return return_value__thread_info_unlock$4;
+      signed int return_value__thread_info_unlock_4;
+      return_value__thread_info_unlock_4=_thread_info_unlock("sync_switch_state", 0);
+      return return_value__thread_info_unlock_4;
     }
   }
 }
@@ -15005,9 +15005,9 @@ signed int sync_switch_state(struct ctx *ctx_p, unsigned long int pthread_parent
 extern signed int sync_term(signed int exitcode)
 {
   *sync_sighandler_exitcode_p = exitcode;
-  signed int return_value_pthread_kill$1;
-  return_value_pthread_kill$1=pthread_kill(pthread_sighandler, 15);
-  return return_value_pthread_kill$1;
+  signed int return_value_pthread_kill_1;
+  return_value_pthread_kill_1=pthread_kill(pthread_sighandler, 15);
+  return return_value_pthread_kill_1;
 }
 
 // sync_tryforcecycle
@@ -15047,13 +15047,13 @@ signed int sync_trylocked(void *fpath_gp, void *evinfo_gp, void *arg_gp)
   struct ctx *ctx_p = arg_p->ctx_p;
   struct indexes *indexes_p = arg_p->indexes_p;
   struct trylocked_arg *data = (struct trylocked_arg *)arg_p->data;
-  signed int return_value_sync_islocked$2;
-  return_value_sync_islocked$2=sync_islocked(fpath);
-  if(return_value_sync_islocked$2 == 0)
+  signed int return_value_sync_islocked_2;
+  return_value_sync_islocked_2=sync_islocked(fpath);
+  if(return_value_sync_islocked_2 == 0)
   {
-    signed int return_value_sync_prequeue_loadmark$1;
-    return_value_sync_prequeue_loadmark$1=sync_prequeue_loadmark(0, ctx_p, indexes_p, (const char *)(void *)0, fpath, (struct stat64 *)(void *)0, (enum eventobjtype)evinfo->evmask, evinfo->objtype_old, (unsigned int)evinfo->objtype_new, 0, (unsigned int)0, (signed long int)0, &data->path_full, &data->path_full_len, evinfo);
-    if(!(return_value_sync_prequeue_loadmark$1 == 0))
+    signed int return_value_sync_prequeue_loadmark_1;
+    return_value_sync_prequeue_loadmark_1=sync_prequeue_loadmark(0, ctx_p, indexes_p, (const char *)(void *)0, fpath, (struct stat64 *)(void *)0, (enum eventobjtype)evinfo->evmask, evinfo->objtype_old, (unsigned int)evinfo->objtype_new, 0, (unsigned int)0, (signed long int)0, &data->path_full, &data->path_full_len, evinfo);
+    if(!(return_value_sync_prequeue_loadmark_1 == 0))
     {
       _critical("sync_trylocked", "Cannot re-queue \"%s\" to be synced", fpath);
       return 0;
@@ -15070,34 +15070,34 @@ signed int sync_trylocked(void *fpath_gp, void *evinfo_gp, void *arg_gp)
 static inline signed int synchandler_arg(char *arg, unsigned long int arg_len, void *_ctx_p, enum shargsid shargsid)
 {
   struct ctx *ctx_p = (struct ctx *)_ctx_p;
-  signed int return_value_strcmp$6;
-  return_value_strcmp$6=strcmp(arg, "%RSYNC-ARGS%");
-  char **tmp_if_expr$1;
-  signed int *return_value___errno_location$2;
-  if(return_value_strcmp$6 == 0)
+  signed int return_value_strcmp_6;
+  return_value_strcmp_6=strcmp(arg, "%RSYNC-ARGS%");
+  char **tmp_if_expr_1;
+  signed int *return_value___errno_location_2;
+  if(return_value_strcmp_6 == 0)
   {
     char *args_e[8l] = { "-aH", "--delete", "--exclude-from", "%EXCLUDE-LIST-PATH%", "--include-from", "%INCLUDE-LIST-PATH%", "--exclude=*", (char *)(void *)0 };
     char *args_i[6l] = { "-aH", "--delete", "--include-from", "%INCLUDE-LIST-PATH%", "--exclude=*", (char *)(void *)0 };
     char **args_p;
     free((void *)arg);
     if(!(ctx_p->flags[514l] == 0))
-      tmp_if_expr$1 = args_i;
+      tmp_if_expr_1 = args_i;
 
     else
-      tmp_if_expr$1 = args_e;
-    args_p = tmp_if_expr$1;
+      tmp_if_expr_1 = args_e;
+    args_p = tmp_if_expr_1;
     while(!(*args_p == ((char *)NULL)))
     {
-      char *return_value_strdup$3;
-      return_value_strdup$3=strdup(*args_p);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(*args_p);
-      signed int return_value_synchandler_arg$5;
-      return_value_synchandler_arg$5=synchandler_arg(return_value_strdup$3, return_value_strlen$4, (void *)ctx_p, shargsid);
-      if(!(return_value_synchandler_arg$5 == 0))
+      char *return_value_strdup_3;
+      return_value_strdup_3=strdup(*args_p);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(*args_p);
+      signed int return_value_synchandler_arg_5;
+      return_value_synchandler_arg_5=synchandler_arg(return_value_strdup_3, return_value_strlen_4, (void *)ctx_p, shargsid);
+      if(!(return_value_synchandler_arg_5 == 0))
       {
-        return_value___errno_location$2=__errno_location();
-        return *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        return *return_value___errno_location_2;
       }
 
       args_p = args_p + 1l;
@@ -15107,18 +15107,18 @@ static inline signed int synchandler_arg(char *arg, unsigned long int arg_len, v
 
   if(ctx_p->synchandler_args[(signed long int)shargsid].c >= 254)
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    *return_value___errno_location$7 = 7;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    *return_value___errno_location_7 = 7;
     _error("synchandler_arg", "There're too many sync-handler arguments (%u > (1<<8)-2; arg == \"%s\").", arg);
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    return *return_value___errno_location$8;
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    return *return_value___errno_location_8;
   }
 
-  signed int tmp_post$9 = ctx_p->synchandler_args[(signed long int)shargsid].c;
+  signed int tmp_post_9 = ctx_p->synchandler_args[(signed long int)shargsid].c;
   ctx_p->synchandler_args[(signed long int)shargsid].c = ctx_p->synchandler_args[(signed long int)shargsid].c + 1;
-  ctx_p->synchandler_args[(signed long int)shargsid].v[(signed long int)tmp_post$9] = arg;
+  ctx_p->synchandler_args[(signed long int)shargsid].v[(signed long int)tmp_post_9] = arg;
   return 0;
 }
 
@@ -15126,18 +15126,18 @@ static inline signed int synchandler_arg(char *arg, unsigned long int arg_len, v
 // file main.c line 810
 static signed int synchandler_arg0(char *arg, unsigned long int arg_len, void *_ctx_p)
 {
-  signed int return_value_synchandler_arg$1;
-  return_value_synchandler_arg$1=synchandler_arg(arg, arg_len, _ctx_p, (enum shargsid)SHARGS_PRIMARY);
-  return return_value_synchandler_arg$1;
+  signed int return_value_synchandler_arg_1;
+  return_value_synchandler_arg_1=synchandler_arg(arg, arg_len, _ctx_p, (enum shargsid)SHARGS_PRIMARY);
+  return return_value_synchandler_arg_1;
 }
 
 // synchandler_arg1
 // file main.c line 814
 static signed int synchandler_arg1(char *arg, unsigned long int arg_len, void *_ctx_p)
 {
-  signed int return_value_synchandler_arg$1;
-  return_value_synchandler_arg$1=synchandler_arg(arg, arg_len, _ctx_p, (enum shargsid)SHARGS_INITIAL);
-  return return_value_synchandler_arg$1;
+  signed int return_value_synchandler_arg_1;
+  return_value_synchandler_arg_1=synchandler_arg(arg, arg_len, _ctx_p, (enum shargsid)SHARGS_INITIAL);
+  return return_value_synchandler_arg_1;
 }
 
 // syntax
@@ -15146,7 +15146,7 @@ signed int syntax()
 {
   _info("syntax", "possible options:");
   signed int i = -1;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   do
   {
     i = i + 1;
@@ -15159,11 +15159,11 @@ signed int syntax()
     if((256 & long_options[(signed long int)i].val) == 0)
     {
       if(!((512 & long_options[(signed long int)i].val) == 0))
-        tmp_if_expr$1 = 32;
+        tmp_if_expr_1 = 32;
 
       else
-        tmp_if_expr$1 = long_options[(signed long int)i].val;
-      _info("syntax", "\t--%-24s%c%c%s", long_options[(signed long int)i].name, (long_options[(signed long int)i].val & 1 << 9) != 0 ? 32 : 45, tmp_if_expr$1, long_options[(signed long int)i].has_arg == 1 ? " argument" : "");
+        tmp_if_expr_1 = long_options[(signed long int)i].val;
+      _info("syntax", "\t--%-24s%c%c%s", long_options[(signed long int)i].name, (long_options[(signed long int)i].val & 1 << 9) != 0 ? 32 : 45, tmp_if_expr_1, long_options[(signed long int)i].has_arg == 1 ? " argument" : "");
     }
 
   }
@@ -15198,14 +15198,14 @@ signed int thread_cleanup(struct ctx *ctx_p)
   _debug(3, "thread_cleanup", "");
   struct threadsinfo *threadsinfo_p;
   threadsinfo_p=_thread_info_lock("thread_cleanup");
-  signed int *return_value___errno_location$1;
-  signed int return_value__thread_info_unlock$2;
-  char **tmp_post$3;
+  signed int *return_value___errno_location_1;
+  signed int return_value__thread_info_unlock_2;
+  char **tmp_post_3;
   if(threadsinfo_p == ((struct threadsinfo *)NULL))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value__thread_info_unlock$2=_thread_info_unlock("thread_cleanup", *return_value___errno_location$1);
-    return return_value__thread_info_unlock$2;
+    return_value___errno_location_1=__errno_location();
+    return_value__thread_info_unlock_2=_thread_info_unlock("thread_cleanup", *return_value___errno_location_1);
+    return return_value__thread_info_unlock_2;
   }
 
   else
@@ -15225,9 +15225,9 @@ signed int thread_cleanup(struct ctx *ctx_p)
         char **ptr = threadinfo_p->argv;
         while(!(*ptr == ((char *)NULL)))
         {
-          tmp_post$3 = ptr;
+          tmp_post_3 = ptr;
           ptr = ptr + 1l;
-          free((void *)*tmp_post$3);
+          free((void *)*tmp_post_3);
         }
         free((void *)threadinfo_p->argv);
       }
@@ -15252,9 +15252,9 @@ signed int thread_cleanup(struct ctx *ctx_p)
 
     memset((void *)threadsinfo_p, 0, sizeof(struct threadsinfo) /*304ul*/ );
     _debug(3, "thread_cleanup", "done.");
-    signed int return_value__thread_info_unlock$4;
-    return_value__thread_info_unlock$4=_thread_info_unlock("thread_cleanup", 0);
-    return return_value__thread_info_unlock$4;
+    signed int return_value__thread_info_unlock_4;
+    return_value__thread_info_unlock_4=_thread_info_unlock("thread_cleanup", 0);
+    return return_value__thread_info_unlock_4;
   }
 }
 
@@ -15265,23 +15265,23 @@ signed int thread_del_bynum(signed int thread_num)
   _debug(2, "thread_del_bynum", "thread_del_bynum(%i)", thread_num);
   struct threadsinfo *threadsinfo_p;
   threadsinfo_p=_thread_info_lock("thread_del_bynum");
-  signed int *return_value___errno_location$1;
-  signed int return_value__thread_info_unlock$2;
-  signed int return_value__thread_info_unlock$3;
-  char **tmp_post$4;
-  signed int tmp_post$7;
+  signed int *return_value___errno_location_1;
+  signed int return_value__thread_info_unlock_2;
+  signed int return_value__thread_info_unlock_3;
+  char **tmp_post_4;
+  signed int tmp_post_7;
   if(threadsinfo_p == ((struct threadsinfo *)NULL))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value__thread_info_unlock$2=_thread_info_unlock("thread_del_bynum", *return_value___errno_location$1);
-    return return_value__thread_info_unlock$2;
+    return_value___errno_location_1=__errno_location();
+    return_value__thread_info_unlock_2=_thread_info_unlock("thread_del_bynum", *return_value___errno_location_1);
+    return return_value__thread_info_unlock_2;
   }
 
   else
     if(thread_num >= threadsinfo_p->used)
     {
-      return_value__thread_info_unlock$3=_thread_info_unlock("thread_del_bynum", 22);
-      return return_value__thread_info_unlock$3;
+      return_value__thread_info_unlock_3=_thread_info_unlock("thread_del_bynum", 22);
+      return return_value__thread_info_unlock_3;
     }
 
     else
@@ -15293,9 +15293,9 @@ signed int thread_del_bynum(signed int thread_num)
       {
         while(!(*ptr == ((char *)NULL)))
         {
-          tmp_post$4 = ptr;
+          tmp_post_4 = ptr;
           ptr = ptr + 1l;
-          free((void *)*tmp_post$4);
+          free((void *)*tmp_post_4);
         }
         free((void *)threadinfo_p->argv);
       }
@@ -15304,9 +15304,9 @@ signed int thread_del_bynum(signed int thread_num)
       {
         threadsinfo_p->used = threadsinfo_p->used - 1;
         _debug(3, "thread_del_bynum", "thread_del_bynum(%i): there're %i threads left (#0).", thread_num, threadsinfo_p->used - threadsinfo_p->stacklen);
-        signed int return_value__thread_info_unlock$5;
-        return_value__thread_info_unlock$5=_thread_info_unlock("thread_del_bynum", 0);
-        return return_value__thread_info_unlock$5;
+        signed int return_value__thread_info_unlock_5;
+        return_value__thread_info_unlock_5=_thread_info_unlock("thread_del_bynum", 0);
+        return return_value__thread_info_unlock_5;
       }
 
       struct threadinfo *t = &threadsinfo_p->threads[(signed long int)(threadsinfo_p->used - 1)];
@@ -15322,19 +15322,19 @@ signed int thread_del_bynum(signed int thread_num)
         if(threadsinfo_p->stacklen >= threadsinfo_p->allocated)
         {
           _error("thread_del_bynum", "Threads metadata structures pointers stack overflowed!");
-          signed int return_value__thread_info_unlock$6;
-          return_value__thread_info_unlock$6=_thread_info_unlock("thread_del_bynum", 22);
-          return return_value__thread_info_unlock$6;
+          signed int return_value__thread_info_unlock_6;
+          return_value__thread_info_unlock_6=_thread_info_unlock("thread_del_bynum", 22);
+          return return_value__thread_info_unlock_6;
         }
 
-        tmp_post$7 = threadsinfo_p->stacklen;
+        tmp_post_7 = threadsinfo_p->stacklen;
         threadsinfo_p->stacklen = threadsinfo_p->stacklen + 1;
-        threadsinfo_p->threadsstack[(signed long int)tmp_post$7] = threadinfo_p;
+        threadsinfo_p->threadsstack[(signed long int)tmp_post_7] = threadinfo_p;
       }
       _debug(3, "thread_del_bynum", "thread_del_bynum(%i): there're %i threads left (#1).", thread_num, threadsinfo_p->used - threadsinfo_p->stacklen);
-      signed int return_value__thread_info_unlock$8;
-      return_value__thread_info_unlock$8=_thread_info_unlock("thread_del_bynum", 0);
-      return return_value__thread_info_unlock$8;
+      signed int return_value__thread_info_unlock_8;
+      return_value__thread_info_unlock_8=_thread_info_unlock("thread_del_bynum", 0);
+      return return_value__thread_info_unlock_8;
     }
 }
 
@@ -15349,17 +15349,17 @@ static inline signed int thread_exit(struct threadinfo *threadinfo_p, signed int
     if(threadinfo_p->ctx_p->flags[100l] >= 3)
     {
       _debug(3, "thread_exit", "thread %p, argv: ", threadinfo_p->pthread);
-      char **thread_exit$$1$$1$$1$$argv = threadinfo_p->argv;
-      for( ; !(*thread_exit$$1$$1$$1$$argv == ((char *)NULL)); thread_exit$$1$$1$$1$$argv = thread_exit$$1$$1$$1$$argv + 1l)
-        _debug(3, "thread_exit", "\t%p == %s", *thread_exit$$1$$1$$1$$argv, *thread_exit$$1$$1$$1$$argv);
+      char **thread_exit__1__1__1__argv = threadinfo_p->argv;
+      for( ; !(*thread_exit__1__1__1__argv == ((char *)NULL)); thread_exit__1__1__1__argv = thread_exit__1__1__1__argv + 1l)
+        _debug(3, "thread_exit", "\t%p == %s", *thread_exit__1__1__1__argv, *thread_exit__1__1__1__argv);
     }
 
     err=threadinfo_p->callback(threadinfo_p->ctx_p, threadinfo_p->callback_arg);
     if(!(err == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(err);
-      _error("thread_exit", "Got error from callback function.", return_value_strerror$1, err);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(err);
+      _error("thread_exit", "Got error from callback function.", return_value_strerror_1, err);
       threadinfo_p->errcode = err;
     }
 
@@ -15367,9 +15367,9 @@ static inline signed int thread_exit(struct threadinfo *threadinfo_p, signed int
 
   threadinfo_p->state = (enum state_enum)STATE_TERM;
   _debug(3, "thread_exit", "thread %p is sending signal to sighandler to call GC", threadinfo_p->pthread);
-  signed int return_value_pthread_kill$2;
-  return_value_pthread_kill$2=pthread_kill(pthread_sighandler, 10);
-  return return_value_pthread_kill$2;
+  signed int return_value_pthread_kill_2;
+  return_value_pthread_kill_2=pthread_kill(pthread_sighandler, 10);
+  return return_value_pthread_kill_2;
 }
 
 // thread_gc
@@ -15379,12 +15379,12 @@ signed int thread_gc(struct ctx *ctx_p)
   signed int thread_num;
   signed long int tm;
   tm=time((signed long int *)(void *)0);
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  _debug(3, "thread_gc", "tm == %i; thread %p", tm, return_value_pthread_self$1);
-  signed int *return_value___errno_location$2;
-  signed int return_value__thread_info_unlock$3;
-  signed int *return_value___errno_location$9;
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  _debug(3, "thread_gc", "tm == %i; thread %p", tm, return_value_pthread_self_1);
+  signed int *return_value___errno_location_2;
+  signed int return_value__thread_info_unlock_3;
+  signed int *return_value___errno_location_9;
   if(ctx_p->flags[112l] == 0)
     return 0;
 
@@ -15394,9 +15394,9 @@ signed int thread_gc(struct ctx *ctx_p)
     threadsinfo_p=_thread_info_lock("thread_gc");
     if(threadsinfo_p == ((struct threadsinfo *)NULL))
     {
-      return_value___errno_location$2=__errno_location();
-      return_value__thread_info_unlock$3=_thread_info_unlock("thread_gc", *return_value___errno_location$2);
-      return return_value__thread_info_unlock$3;
+      return_value___errno_location_2=__errno_location();
+      return_value__thread_info_unlock_3=_thread_info_unlock("thread_gc", *return_value___errno_location_2);
+      return return_value__thread_info_unlock_3;
     }
 
     else
@@ -15418,14 +15418,14 @@ signed int thread_gc(struct ctx *ctx_p)
           {
             if(tm >= threadinfo_p->expiretime)
             {
-              signed int return_value_pthread_tryjoin_np$5;
-              return_value_pthread_tryjoin_np$5=pthread_tryjoin_np(threadinfo_p->pthread, (void **)(void *)0);
-              if(!(return_value_pthread_tryjoin_np$5 == 0))
+              signed int return_value_pthread_tryjoin_np_5;
+              return_value_pthread_tryjoin_np_5=pthread_tryjoin_np(threadinfo_p->pthread, (void **)(void *)0);
+              if(!(return_value_pthread_tryjoin_np_5 == 0))
               {
                 _error("thread_gc", "Debug3: thread_gc(): Thread #%i is alive too long: %lu <= %lu (started at %lu)", thread_num, threadinfo_p->expiretime, tm, threadinfo_p->starttime);
-                signed int return_value__thread_info_unlock$4;
-                return_value__thread_info_unlock$4=_thread_info_unlock("thread_gc", 62);
-                return return_value__thread_info_unlock$4;
+                signed int return_value__thread_info_unlock_4;
+                return_value__thread_info_unlock_4=_thread_info_unlock("thread_gc", 62);
+                return return_value__thread_info_unlock_4;
               }
 
             }
@@ -15445,14 +15445,14 @@ signed int thread_gc(struct ctx *ctx_p)
               goto __CPROVER_DUMP_L16;
             }
 
-            char *return_value_strerror$6;
-            return_value_strerror$6=strerror(err);
-            _error("thread_gc", "Got error while pthread_join() or pthread_tryjoin_np().", return_value_strerror$6, err);
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            signed int return_value__thread_info_unlock$8;
-            return_value__thread_info_unlock$8=_thread_info_unlock("thread_gc", *return_value___errno_location$7);
-            return return_value__thread_info_unlock$8;
+            char *return_value_strerror_6;
+            return_value_strerror_6=strerror(err);
+            _error("thread_gc", "Got error while pthread_join() or pthread_tryjoin_np().", return_value_strerror_6, err);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            signed int return_value__thread_info_unlock_8;
+            return_value__thread_info_unlock_8=_thread_info_unlock("thread_gc", *return_value___errno_location_7);
+            return return_value__thread_info_unlock_8;
 
           __CPROVER_DUMP_L16:
             ;
@@ -15465,12 +15465,12 @@ signed int thread_gc(struct ctx *ctx_p)
             }
 
             _thread_info_unlock("thread_gc", 0);
-            signed int return_value_thread_del_bynum$10;
-            return_value_thread_del_bynum$10=thread_del_bynum(thread_num);
-            if(!(return_value_thread_del_bynum$10 == 0))
+            signed int return_value_thread_del_bynum_10;
+            return_value_thread_del_bynum_10=thread_del_bynum(thread_num);
+            if(!(return_value_thread_del_bynum_10 == 0))
             {
-              return_value___errno_location$9=__errno_location();
-              return *return_value___errno_location$9;
+              return_value___errno_location_9=__errno_location();
+              return *return_value___errno_location_9;
             }
 
             _thread_info_lock("thread_gc");
@@ -15480,9 +15480,9 @@ signed int thread_gc(struct ctx *ctx_p)
       }
       while((_Bool)1);
       _debug(3, "thread_gc", "There're %i threads left.", threadsinfo_p->used - threadsinfo_p->stacklen);
-      signed int return_value__thread_info_unlock$11;
-      return_value__thread_info_unlock$11=_thread_info_unlock("thread_gc", 0);
-      return return_value__thread_info_unlock$11;
+      signed int return_value__thread_info_unlock_11;
+      return_value__thread_info_unlock_11=_thread_info_unlock("thread_gc", 0);
+      return return_value__thread_info_unlock_11;
     }
   }
 }
@@ -15514,17 +15514,17 @@ extern struct threadsinfo * thread_info()
     signed int i = 0;
     while(!(i >= 3))
     {
-      signed int return_value_pthread_mutex_init$1;
-      return_value_pthread_mutex_init$1=pthread_mutex_init(&threadsinfo.mutex[(signed long int)i], (const union anonymous$0 *)(void *)0);
-      if(!(return_value_pthread_mutex_init$1 == 0))
+      signed int return_value_pthread_mutex_init_1;
+      return_value_pthread_mutex_init_1=pthread_mutex_init(&threadsinfo.mutex[(signed long int)i], (const union anonymous_0 *)(void *)0);
+      if(!(return_value_pthread_mutex_init_1 == 0))
       {
         _error("thread_info", "Cannot pthread_mutex_init().");
         return (struct threadsinfo *)(void *)0;
       }
 
-      signed int return_value_pthread_cond_init$2;
-      return_value_pthread_cond_init$2=pthread_cond_init(&threadsinfo.cond[(signed long int)i], (const union anonymous$0 *)(void *)0);
-      if(!(return_value_pthread_cond_init$2 == 0))
+      signed int return_value_pthread_cond_init_2;
+      return_value_pthread_cond_init_2=pthread_cond_init(&threadsinfo.cond[(signed long int)i], (const union anonymous_0 *)(void *)0);
+      if(!(return_value_pthread_cond_init_2 == 0))
       {
         _error("thread_info", "Cannot pthread_cond_init().");
         return (struct threadsinfo *)(void *)0;
@@ -15544,7 +15544,7 @@ struct threadinfo * thread_new()
 {
   struct threadsinfo *threadsinfo_p;
   threadsinfo_p=_thread_info_lock("thread_new");
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   if(threadsinfo_p == ((struct threadsinfo *)NULL))
   {
     _thread_info_unlock("thread_new", 0);
@@ -15568,17 +15568,17 @@ struct threadinfo * thread_new()
       {
         threadsinfo_p->allocated = threadsinfo_p->allocated + (1 << 10);
         _debug(2, "thread_new", "Reallocated memory for threadsinfo -> %i.", threadsinfo_p->allocated);
-        void *return_value_xrealloc$1;
-        return_value_xrealloc$1=xrealloc((void *)(char *)threadsinfo_p->threads, sizeof(struct threadinfo) /*112ul*/  * (unsigned long int)(threadsinfo_p->allocated + 2));
-        threadsinfo_p->threads = (struct threadinfo *)return_value_xrealloc$1;
-        void *return_value_xrealloc$2;
-        return_value_xrealloc$2=xrealloc((void *)(char *)threadsinfo_p->threadsstack, sizeof(struct threadinfo *) /*8ul*/  * (unsigned long int)(threadsinfo_p->allocated + 2));
-        threadsinfo_p->threadsstack = (struct threadinfo **)return_value_xrealloc$2;
+        void *return_value_xrealloc_1;
+        return_value_xrealloc_1=xrealloc((void *)(char *)threadsinfo_p->threads, sizeof(struct threadinfo) /*112ul*/  * (unsigned long int)(threadsinfo_p->allocated + 2));
+        threadsinfo_p->threads = (struct threadinfo *)return_value_xrealloc_1;
+        void *return_value_xrealloc_2;
+        return_value_xrealloc_2=xrealloc((void *)(char *)threadsinfo_p->threadsstack, sizeof(struct threadinfo *) /*8ul*/  * (unsigned long int)(threadsinfo_p->allocated + 2));
+        threadsinfo_p->threadsstack = (struct threadinfo **)return_value_xrealloc_2;
       }
 
-      tmp_post$3 = threadsinfo_p->used;
+      tmp_post_3 = threadsinfo_p->used;
       threadsinfo_p->used = threadsinfo_p->used + 1;
-      thread_num = tmp_post$3;
+      thread_num = tmp_post_3;
       threadinfo_p = &threadsinfo_p->threads[(signed long int)thread_num];
     }
     memset((void *)threadinfo_p, 0, sizeof(struct threadinfo) /*112ul*/ );
@@ -15597,13 +15597,13 @@ extern signed long int thread_nextexpiretime()
   signed long int nextexpiretime = (signed long int)0;
   struct threadsinfo *threadsinfo_p;
   threadsinfo_p=_thread_info_lock("thread_nextexpiretime");
-  signed int return_value__thread_info_unlock$1;
-  signed int tmp_post$2;
-  signed long int tmp_if_expr$3;
+  signed int return_value__thread_info_unlock_1;
+  signed int tmp_post_2;
+  signed long int tmp_if_expr_3;
   if(threadsinfo_p == ((struct threadsinfo *)NULL))
   {
-    return_value__thread_info_unlock$1=_thread_info_unlock("thread_nextexpiretime", 0);
-    return (signed long int)return_value__thread_info_unlock$1;
+    return_value__thread_info_unlock_1=_thread_info_unlock("thread_nextexpiretime", 0);
+    return (signed long int)return_value__thread_info_unlock_1;
   }
 
   else
@@ -15611,9 +15611,9 @@ extern signed long int thread_nextexpiretime()
     signed int thread_num = threadsinfo_p->used;
     do
     {
-      tmp_post$2 = thread_num;
+      tmp_post_2 = thread_num;
       thread_num = thread_num - 1;
-      if(tmp_post$2 == 0)
+      if(tmp_post_2 == 0)
         break;
 
       struct threadinfo *threadinfo_p = &threadsinfo_p->threads[(signed long int)thread_num];
@@ -15625,11 +15625,11 @@ extern signed long int thread_nextexpiretime()
           if(!(nextexpiretime == 0l))
           {
             if(!(nextexpiretime >= threadinfo_p->expiretime))
-              tmp_if_expr$3 = nextexpiretime;
+              tmp_if_expr_3 = nextexpiretime;
 
             else
-              tmp_if_expr$3 = threadinfo_p->expiretime;
-            nextexpiretime = tmp_if_expr$3;
+              tmp_if_expr_3 = threadinfo_p->expiretime;
+            nextexpiretime = tmp_if_expr_3;
           }
 
           else
@@ -15654,13 +15654,13 @@ extern signed int threads_foreach(signed int (*funct)(struct threadinfo *, void 
   signed int rc;
   struct threadsinfo *threadsinfo_p;
   threadsinfo_p=_thread_info_lock("threads_foreach");
-  signed int return_value__thread_info_unlock$1;
-  signed int tmp_post$2;
-  _Bool tmp_if_expr$3;
+  signed int return_value__thread_info_unlock_1;
+  signed int tmp_post_2;
+  _Bool tmp_if_expr_3;
   if(threadsinfo_p == ((struct threadsinfo *)NULL))
   {
-    return_value__thread_info_unlock$1=_thread_info_unlock("threads_foreach", 22);
-    return return_value__thread_info_unlock$1;
+    return_value__thread_info_unlock_1=_thread_info_unlock("threads_foreach", 22);
+    return return_value__thread_info_unlock_1;
   }
 
   else
@@ -15670,15 +15670,15 @@ extern signed int threads_foreach(signed int (*funct)(struct threadinfo *, void 
     while(!(i >= threadsinfo_p->used))
     {
       struct threadinfo *threadinfo_p;
-      tmp_post$2 = i;
+      tmp_post_2 = i;
       i = i + 1;
-      threadinfo_p = &threadsinfo_p->threads[(signed long int)tmp_post$2];
+      threadinfo_p = &threadsinfo_p->threads[(signed long int)tmp_post_2];
       if((signed int)state == STATE_UNKNOWN)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = threadinfo_p->state == state ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = threadinfo_p->state == state ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         rc=funct(threadinfo_p, arg);
         if(!(rc == 0))
@@ -15687,9 +15687,9 @@ extern signed int threads_foreach(signed int (*funct)(struct threadinfo *, void 
       }
 
     }
-    signed int return_value__thread_info_unlock$4;
-    return_value__thread_info_unlock$4=_thread_info_unlock("threads_foreach", rc);
-    return return_value__thread_info_unlock$4;
+    signed int return_value__thread_info_unlock_4;
+    return_value__thread_info_unlock_4=_thread_info_unlock("threads_foreach", rc);
+    return return_value__thread_info_unlock_4;
   }
 }
 
@@ -15705,18 +15705,18 @@ signed int version()
 // file error.c line 70
 static signed int vprintf_stderr(const char *fmt, void **args)
 {
-  signed int return_value_vfprintf$1;
-  return_value_vfprintf$1=vfprintf(stderr, fmt, args);
-  return return_value_vfprintf$1;
+  signed int return_value_vfprintf_1;
+  return_value_vfprintf_1=vfprintf(stderr, fmt, args);
+  return return_value_vfprintf_1;
 }
 
 // vprintf_stdout
 // file error.c line 74
 static signed int vprintf_stdout(const char *fmt, void **args)
 {
-  signed int return_value_vfprintf$1;
-  return_value_vfprintf$1=vfprintf(stdout, fmt, args);
-  return return_value_vfprintf$1;
+  signed int return_value_vfprintf_1;
+  return_value_vfprintf_1=vfprintf(stdout, fmt, args);
+  return return_value_vfprintf_1;
 }
 
 // vsyslog_buf
@@ -15753,13 +15753,13 @@ signed int waitpid_timed(signed int child_pid, signed int *status_p, signed long
   ts.tv_nsec = nsec;
   while(ts.tv_sec >= 0l)
   {
-    signed int return_value_waitpid$2;
-    return_value_waitpid$2=waitpid(child_pid, &status, 1);
-    if(!(return_value_waitpid$2 >= 0))
+    signed int return_value_waitpid_2;
+    return_value_waitpid_2=waitpid(child_pid, &status, 1);
+    if(!(return_value_waitpid_2 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 10)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 10)
         return child_pid;
 
       return -1;
@@ -15827,19 +15827,19 @@ static inline signed long int xstrtol(const char *str, signed int *err)
 {
   signed long int res;
   char *endptr;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   res=strtol(str, &endptr, 0);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  _Bool tmp_if_expr$3;
-  if(!(*return_value___errno_location$2 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  _Bool tmp_if_expr_3;
+  if(!(*return_value___errno_location_2 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = *endptr != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = *endptr != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     _error("xstrtol", "argument \"%s\" can't be parsed as a number", str);
     *err = 22;

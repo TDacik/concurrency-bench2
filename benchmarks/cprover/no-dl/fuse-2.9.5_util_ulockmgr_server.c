@@ -1,54 +1,54 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
 struct anonymous;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$8;
+union anonymous_8;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -204,13 +204,13 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$8 *, const union anonymous$10 *);
+extern signed int pthread_mutex_init(union anonymous_8 *, const union anonymous_10 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$8 *);
+extern signed int pthread_mutex_lock(union anonymous_8 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$8 *);
+extern signed int pthread_mutex_unlock(union anonymous_8 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -251,7 +251,7 @@ extern signed long int strtol(const char *, char ** restrict , signed int);
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 125
 extern signed int waitpid(signed int, signed int *, signed int);
 
-struct anonymous$4
+struct anonymous_4
 {
   // _call_addr
   void *_call_addr;
@@ -261,7 +261,7 @@ struct anonymous$4
   unsigned int _arch;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // si_addr
   void *si_addr;
@@ -275,7 +275,7 @@ struct anonymous
   unsigned long int __val[16l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_pid
   signed int si_pid;
@@ -283,7 +283,7 @@ struct anonymous$5
   unsigned int si_uid;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // si_pid
   signed int si_pid;
@@ -305,7 +305,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // si_pid
   signed int si_pid;
@@ -315,7 +315,7 @@ struct anonymous$0
   union sigval si_sigval;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_tid
   signed int si_tid;
@@ -325,7 +325,7 @@ struct anonymous$9
   union sigval si_sigval;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // si_band
   signed long int si_band;
@@ -333,27 +333,27 @@ struct anonymous$3
   signed int si_fd;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$5 _kill;
+  struct anonymous_5 _kill;
   // _timer
-  struct anonymous$9 _timer;
+  struct anonymous_9 _timer;
   // _rt
-  struct anonymous$0 _rt;
+  struct anonymous_0 _rt;
   // _sigchld
-  struct anonymous$1 _sigchld;
+  struct anonymous_1 _sigchld;
   // _sigfault
-  struct anonymous$2 _sigfault;
+  struct anonymous_2 _sigfault;
   // _sigpoll
-  struct anonymous$3 _sigpoll;
+  struct anonymous_3 _sigpoll;
   // _sigsys
-  struct anonymous$4 _sigsys;
+  struct anonymous_4 _sigsys;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_signo
   signed int si_signo;
@@ -362,18 +362,18 @@ struct anonymous$7
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$6 _sifields;
+  union anonymous_6 _sifields;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$7 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_7 *, void *);
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __size
   char __size[4l];
@@ -409,7 +409,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -592,7 +592,7 @@ struct owner
   // fds
   struct fd_store *fds;
   // lock
-  union anonymous$8 lock;
+  union anonymous_8 lock;
 };
 
 union pthread_attr_t
@@ -618,7 +618,7 @@ struct req_data
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$11 __sigaction_handler;
+  union anonymous_11 __sigaction_handler;
   // sa_mask
   struct anonymous sa_mask;
   // sa_flags
@@ -651,9 +651,9 @@ static signed int closefrom(signed int minfd)
 
       char *end;
       signed int fd;
-      signed long int return_value_strtol$1;
-      return_value_strtol$1=strtol(ent->d_name, &end, 10);
-      fd = (signed int)return_value_strtol$1;
+      signed long int return_value_strtol_1;
+      return_value_strtol_1=strtol(ent->d_name, &end, 10);
+      fd = (signed int)return_value_strtol_1;
       if(!(ent->d_name[0l] == 0))
       {
         if(*end == 0)
@@ -685,27 +685,27 @@ signed int main(signed int argc, char **argv)
   char *end;
   signed int cfd;
   struct anonymous empty;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(argc == 2))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(argv[(signed long int)1][(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-  signed long int return_value_strtol$2;
-  signed int return_value_fork$3;
-  signed int return_value_setsid$4;
-  signed int return_value_dup2$5;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(argv[(signed long int)1][(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+  signed long int return_value_strtol_2;
+  signed int return_value_fork_3;
+  signed int return_value_setsid_4;
+  signed int return_value_dup2_5;
+  if(!tmp_if_expr_1)
   {
-    return_value_strtol$2=strtol(argv[(signed long int)1], &end, 10);
-    cfd = (signed int)return_value_strtol$2;
+    return_value_strtol_2=strtol(argv[(signed long int)1], &end, 10);
+    cfd = (signed int)return_value_strtol_2;
     if(!(*end == 0))
       goto out_inval;
 
-    return_value_fork$3=fork();
-    if(!(return_value_fork$3 == -1))
+    return_value_fork_3=fork();
+    if(!(return_value_fork_3 == -1))
     {
-      if(return_value_fork$3 == 0)
+      if(return_value_fork_3 == 0)
         goto __CPROVER_DUMP_L4;
 
     }
@@ -723,8 +723,8 @@ signed int main(signed int argc, char **argv)
 
   __CPROVER_DUMP_L6:
     ;
-    return_value_setsid$4=setsid();
-    if(return_value_setsid$4 == -1)
+    return_value_setsid_4=setsid();
+    if(return_value_setsid_4 == -1)
     {
       perror("ulockmgr_server: setsid");
       exit(1);
@@ -733,8 +733,8 @@ signed int main(signed int argc, char **argv)
     chdir("/");
     sigemptyset(&empty);
     sigprocmask(2, &empty, (struct anonymous *)(void *)0);
-    return_value_dup2$5=dup2(cfd, 4);
-    if(return_value_dup2$5 == -1)
+    return_value_dup2_5=dup2(cfd, 4);
+    if(return_value_dup2_5 == -1)
     {
       perror("ulockmgr_server: dup2");
       exit(1);
@@ -818,11 +818,11 @@ static void process_message(struct owner *o, struct message *msg, signed int cfd
   struct req_data *d;
   unsigned long int tid;
   signed int res;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  signed int tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  signed int tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   if(msg->cmd == 6)
   {
     if(!((signed int)msg->lock.l_type == 2))
@@ -839,11 +839,11 @@ static void process_message(struct owner *o, struct message *msg, signed int cfd
     {
       f = *fp;
       if(f->origfd == msg->fd)
-        tmp_if_expr$1 = !(f->inuse != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = !(f->inuse != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         close(f->fd);
         *fp = f->next;
@@ -889,9 +889,9 @@ static void process_message(struct owner *o, struct message *msg, signed int cfd
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct fd_store) /*24ul*/ );
-      f = (struct fd_store *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct fd_store) /*24ul*/ );
+      f = (struct fd_store *)return_value_malloc_2;
       newf = f;
       if(f == ((struct fd_store *)NULL))
       {
@@ -906,27 +906,27 @@ static void process_message(struct owner *o, struct message *msg, signed int cfd
       f->inuse = 0;
     }
     if(msg->cmd == 5)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = msg->cmd == 6 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = msg->cmd == 6 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)msg->lock.l_type == 2 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)msg->lock.l_type == 2 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
       res=fcntl(f->fd, msg->cmd, &msg->lock);
       if(res == -1)
       {
-        return_value___errno_location$3=__errno_location();
-        tmp_if_expr$4 = *return_value___errno_location$3;
+        return_value___errno_location_3=__errno_location();
+        tmp_if_expr_4 = *return_value___errno_location_3;
       }
 
       else
-        tmp_if_expr$4 = 0;
-      msg->error = tmp_if_expr$4;
+        tmp_if_expr_4 = 0;
+      msg->error = tmp_if_expr_4;
       send_reply(cfd, msg);
       close(cfd);
       if(!(newf == ((struct fd_store *)NULL)))
@@ -938,9 +938,9 @@ static void process_message(struct owner *o, struct message *msg, signed int cfd
       goto __CPROVER_DUMP_L26;
     }
 
-    void *return_value_malloc$7;
-    return_value_malloc$7=malloc(sizeof(struct req_data) /*88ul*/ );
-    d = (struct req_data *)return_value_malloc$7;
+    void *return_value_malloc_7;
+    return_value_malloc_7=malloc(sizeof(struct req_data) /*88ul*/ );
+    d = (struct req_data *)return_value_malloc_7;
     if(d == ((struct req_data *)NULL))
     {
       msg->error = 37;
@@ -993,16 +993,16 @@ static void process_owner(signed int cfd)
   memset((void *)&sa, 0, sizeof(struct sigaction) /*152ul*/ );
   sa.__sigaction_handler.sa_handler = sigusr1_handler;
   sigemptyset(&sa.sa_mask);
-  signed int return_value_sigaction$1;
-  return_value_sigaction$1=sigaction(10, &sa, (struct sigaction *)(void *)0);
-  if(return_value_sigaction$1 == -1)
+  signed int return_value_sigaction_1;
+  return_value_sigaction_1=sigaction(10, &sa, (struct sigaction *)(void *)0);
+  if(return_value_sigaction_1 == -1)
   {
     perror("ulockmgr_server: cannot set sigusr1 signal handler");
     exit(1);
   }
 
   memset((void *)&o, 0, sizeof(struct owner) /*48ul*/ );
-  pthread_mutex_init(&o.lock, (const union anonymous$10 *)(void *)0);
+  pthread_mutex_init(&o.lock, (const union anonymous_10 *)(void *)0);
   while((_Bool)1)
   {
     struct message msg;
@@ -1048,11 +1048,11 @@ static void * process_request(void *d_)
   /* assertion d->msg.cmd == 7 */
   assert(d->msg.cmd == 7);
   res=fcntl(d->f->fd, 6, &d->msg.lock);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(res == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 11)
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 11)
     {
       d->msg.error = 11;
       d->msg.thr=pthread_self();
@@ -1062,17 +1062,17 @@ static void * process_request(void *d_)
 
   }
 
-  signed int tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed int tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   if(res == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    tmp_if_expr$3 = *return_value___errno_location$2;
+    return_value___errno_location_2=__errno_location();
+    tmp_if_expr_3 = *return_value___errno_location_2;
   }
 
   else
-    tmp_if_expr$3 = 0;
-  d->msg.error = tmp_if_expr$3;
+    tmp_if_expr_3 = 0;
+  d->msg.error = tmp_if_expr_3;
   pthread_mutex_lock(&d->o->lock);
   d->f->inuse = d->f->inuse - 1;
   pthread_mutex_unlock(&d->o->lock);
@@ -1102,20 +1102,20 @@ static signed int receive_message(signed int sock, void *buf, unsigned long int 
   msg.msg_iovlen = (unsigned long int)1;
   msg.msg_control = (void *)ccmsg;
   msg.msg_controllen = sizeof(unsigned long int [3l]) /*24ul*/ ;
-  signed long int return_value_recvmsg$1;
-  return_value_recvmsg$1=recvmsg(sock, &msg, 256);
-  res = (signed int)return_value_recvmsg$1;
+  signed long int return_value_recvmsg_1;
+  return_value_recvmsg_1=recvmsg(sock, &msg, 256);
+  res = (signed int)return_value_recvmsg_1;
   if(res == 0)
   {
-    signed long int return_value_recvmsg$2;
-    return_value_recvmsg$2=recvmsg(sock, &msg, 256);
-    res = (signed int)return_value_recvmsg$2;
+    signed long int return_value_recvmsg_2;
+    return_value_recvmsg_2=recvmsg(sock, &msg, 256);
+    res = (signed int)return_value_recvmsg_2;
     if(res == 0)
       return 0;
 
   }
 
-  struct cmsghdr *tmp_if_expr$3;
+  struct cmsghdr *tmp_if_expr_3;
   if(res == -1)
   {
     perror("ulockmgr_server: recvmsg");
@@ -1132,11 +1132,11 @@ static signed int receive_message(signed int sock, void *buf, unsigned long int 
     else
     {
       if(msg.msg_controllen >= sizeof(struct cmsghdr) /*16ul*/ )
-        tmp_if_expr$3 = (struct cmsghdr *)(&msg)->msg_control;
+        tmp_if_expr_3 = (struct cmsghdr *)(&msg)->msg_control;
 
       else
-        tmp_if_expr$3 = (struct cmsghdr *)0;
-      cmsg = tmp_if_expr$3;
+        tmp_if_expr_3 = (struct cmsghdr *)0;
+      cmsg = tmp_if_expr_3;
       if(!(cmsg == ((struct cmsghdr *)NULL)))
       {
         if((signed int)(cmsg->cmsg_type == 0) == 1)
@@ -1180,9 +1180,9 @@ static signed int receive_message(signed int sock, void *buf, unsigned long int 
 static void send_reply(signed int cfd, struct message *msg)
 {
   signed int res;
-  signed long int return_value_send$1;
-  return_value_send$1=send(cfd, (const void *)msg, sizeof(struct message) /*64ul*/ , 16384);
-  res = (signed int)return_value_send$1;
+  signed long int return_value_send_1;
+  return_value_send_1=send(cfd, (const void *)msg, sizeof(struct message) /*64ul*/ , 16384);
+  res = (signed int)return_value_send_1;
   if(res == -1)
     perror("ulockmgr_server: sending reply");
 

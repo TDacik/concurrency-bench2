@@ -1,130 +1,130 @@
-// #anon_enum$Interfaces=0$NetStat=1$FlowDump=2$HelpPage=3
+// #anon_enum_Interfaces=0_NetStat=1_FlowDump=2_HelpPage=3
 // file trafshow.h line 36
-enum anonymous$13 { Interfaces=0, NetStat=1, FlowDump=2, HelpPage=3 };
+enum anonymous_13 { Interfaces=0, NetStat=1, FlowDump=2, HelpPage=3 };
 
-// #anon_enum$IpAddress=0$DomainName=1$MailExchanger=2
+// #anon_enum_IpAddress=0_DomainName=1_MailExchanger=2
 // file domain_resolver.c line 53
-enum anonymous$14 { IpAddress=0, DomainName=1, MailExchanger=2 };
+enum anonymous_14 { IpAddress=0, DomainName=1, MailExchanger=2 };
 
-// #anon_enum$PlainFile=0$TextStream=1$DataSequence=2
+// #anon_enum_PlainFile=0_TextStream=1_DataSequence=2
 // file session.h line 24
-enum anonymous$6 { PlainFile=0, TextStream=1, DataSequence=2 };
+enum anonymous_6 { PlainFile=0, TextStream=1, DataSequence=2 };
 
-// #anon_enum$Size=0$Data=1$Packets=2
+// #anon_enum_Size=0_Data=1_Packets=2
 // file show_stat.h line 18
 enum anonymous { Size=0, Data=1, Packets=2 };
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[BF{U32}$U32$'id'||BF{U32}$U32$'rd'||BF{U32}$U32$'tc'||BF{U32}$U32$'aa'||BF{U32}$U32$'opcode'||BF{U32}$U32$'qr'||BF{U32}$U32$'rcode'||BF{U32}$U32$'cd'||BF{U32}$U32$'ad'||BF{U32}$U32$'unused'||BF{U32}$U32$'ra'||BF{U32}$U32$'qdcount'||BF{U32}$U32$'ancount'||BF{U32}$U32$'nscount'||BF{U32}$U32$'arcount'|]
+// tag-#anon#ST[BF{U32}_U32_'id'||BF{U32}_U32_'rd'||BF{U32}_U32_'tc'||BF{U32}_U32_'aa'||BF{U32}_U32_'opcode'||BF{U32}_U32_'qr'||BF{U32}_U32_'rcode'||BF{U32}_U32_'cd'||BF{U32}_U32_'ad'||BF{U32}_U32_'unused'||BF{U32}_U32_'ra'||BF{U32}_U32_'qdcount'||BF{U32}_U32_'ancount'||BF{U32}_U32_'nscount'||BF{U32}_U32_'arcount'|]
 // file /usr/include/arpa/nameser_compat.h line 48
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[SYM#tag-ip#'idi_ip'|]
 // file /usr/include/netinet/ip_icmp.h line 185
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[U16'encoding'||U16'parity'|]
 // file /usr/include/linux/hdlc/ioctl.h line 52
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]
 // file /usr/include/netinet/udp.h line 67
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}$U16$'res1'||BF{U16}$U16$'doff'||BF{U16}$U16$'fin'||BF{U16}$U16$'syn'||BF{U16}$U16$'rst'||BF{U16}$U16$'psh'||BF{U16}$U16$'ack'||BF{U16}$U16$'urg'||BF{U16}$U16$'res2'||U16'window'||U16'check'||U16'urg_ptr'|]
+// tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}_U16_'res1'||BF{U16}_U16_'doff'||BF{U16}_U16_'fin'||BF{U16}_U16_'syn'||BF{U16}_U16_'rst'||BF{U16}_U16_'psh'||BF{U16}_U16_'ack'||BF{U16}_U16_'urg'||BF{U16}_U16_'res2'||U16'window'||U16'check'||U16'urg_ptr'|]
 // file /usr/include/netinet/tcp.h line 103
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}$U8$'th_x2'||BF{U8}$U8$'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]
+// tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}_U8_'th_x2'||BF{U8}_U8_'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]
 // file /usr/include/netinet/tcp.h line 78
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]
 // file /usr/include/netinet/udp.h line 60
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]
+// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]
 // file /usr/include/linux/hdlc/ioctl.h line 39
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]
+// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]
 // file /usr/include/linux/hdlc/ioctl.h line 45
-struct anonymous$25;
+struct anonymous_25;
 
 // tag-#anon#ST[U32'dlci'|]
 // file /usr/include/linux/hdlc/ioctl.h line 67
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]
+// tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]
 // file /usr/include/linux/hdlc/ioctl.h line 71
-struct anonymous$23;
+struct anonymous_23;
 
 // tag-#anon#ST[U32'interval'||U32'timeout'|]
 // file /usr/include/linux/hdlc/ioctl.h line 76
-struct anonymous$20;
+struct anonymous_20;
 
 // tag-#anon#ST[U32'its_otime'||U32'its_rtime'||U32'its_ttime'|]
 // file /usr/include/netinet/ip_icmp.h line 179
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]
 // file /usr/include/linux/hdlc/ioctl.h line 57
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[U8'ssap'||U8'dsap'|]
 // file netstat.h line 79
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#UN[*{SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#}$SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#$'raw_hdlc'||*{SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#}$SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#$'cisco'||*{SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#}$SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#$'fr'||*{SYM#tag-#anon#ST[U32'dlci'|]#}$SYM#tag-#anon#ST[U32'dlci'|]#$'fr_pvc'||*{SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]#}$SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]#$'fr_pvc_info'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]#}$SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]#$'sync'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]#}$SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]#$'te1'|]
+// tag-#anon#UN[*{SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#}_SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#_'raw_hdlc'||*{SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#}_SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#_'cisco'||*{SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#}_SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#_'fr'||*{SYM#tag-#anon#ST[U32'dlci'|]#}_SYM#tag-#anon#ST[U32'dlci'|]#_'fr_pvc'||*{SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]#}_SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]#_'fr_pvc_info'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]#}_SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]#_'sync'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]#}_SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]#_'te1'|]
 // file /usr/include/linux/if.h line 182
-union anonymous$26;
+union anonymous_26;
 
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/linux/if.h line 205
-union anonymous$27;
+union anonymous_27;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$30;
+union anonymous_30;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}$U8$'th_x2'||BF{U8}$U8$'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]#'$anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}$U16$'res1'||BF{U16}$U16$'doff'||BF{U16}$U16$'fin'||BF{U16}$U16$'syn'||BF{U16}$U16$'rst'||BF{U16}$U16$'psh'||BF{U16}$U16$'ack'||BF{U16}$U16$'urg'||BF{U16}$U16$'res2'||U16'window'||U16'check'||U16'urg_ptr'|]#'$anon1'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}_U8_'th_x2'||BF{U8}_U8_'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]#'_anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}_U16_'res1'||BF{U16}_U16_'doff'||BF{U16}_U16_'fin'||BF{U16}_U16_'syn'||BF{U16}_U16_'rst'||BF{U16}_U16_'psh'||BF{U16}_U16_'ack'||BF{U16}_U16_'urg'||BF{U16}_U16_'res2'||U16'window'||U16'check'||U16'urg_ptr'|]#'_anon1'|]
 // file /usr/include/netinet/tcp.h line 76
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]#'$anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]#'$anon1'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]#'_anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]#'_anon1'|]
 // file /usr/include/netinet/udp.h line 58
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U32'its_otime'||U32'its_rtime'||U32'its_ttime'|]#'id_ts'||SYM#tag-#anon#ST[SYM#tag-ip#'idi_ip'|]#'id_ip'||SYM#tag-icmp_ra_addr#'id_radv'||U32'id_mask'||ARR1{U8}$U8$'id_data'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U32'its_otime'||U32'its_rtime'||U32'its_ttime'|]#'id_ts'||SYM#tag-#anon#ST[SYM#tag-ip#'idi_ip'|]#'id_ip'||SYM#tag-icmp_ra_addr#'id_radv'||U32'id_mask'||ARR1{U8}_U8_'id_data'|]
 // file /usr/include/netinet/ip_icmp.h line 177
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$12;
+union anonymous_12;
 
 // tag-#anon#UN[SYM#tag-in_addr#'ipa4'|]
 // file netstat.h line 38
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{V}$V$'ifru_data'||SYM#tag-if_settings#'ifru_settings'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{V}_V_'ifru_data'||SYM#tag-if_settings#'ifru_settings'|]
 // file /usr/include/linux/if.h line 210
-union anonymous$28;
+union anonymous_28;
 
 // tag-#anon#UN[U16'tag'||SYM#tag-#anon#ST[U8'ssap'||U8'dsap'|]#'llc'|]
 // file netstat.h line 77
-union anonymous$18;
+union anonymous_18;
 
 // tag-#anon#UN[U8'ih_pptr'||SYM#tag-in_addr#'ih_gwaddr'||SYM#tag-ih_idseq#'ih_idseq'||U32'ih_void'||SYM#tag-ih_pmtu#'ih_pmtu'||SYM#tag-ih_rtradv#'ih_rtradv'|]
 // file /usr/include/netinet/ip_icmp.h line 142
-union anonymous$7;
+union anonymous_7;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -447,9 +447,9 @@ static signed int add_colormask(const char *s, struct cm_entry *m);
 // add_event
 // file events.h line 62
 signed int add_event(struct timeval *tvp, void (*func)(void *), void *arg);
-// add_event::func$object
+// add_event::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // atexit
 // file /usr/include/stdlib.h line 519
 extern signed int atexit(void (*)(void));
@@ -477,9 +477,9 @@ extern signed int cbreak(void);
 // change_event
 // file events.c line 264
 signed int change_event(void (*func)(void *), void *arg, void *new_arg);
-// change_event::func$object
+// change_event::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // checksum
 // file lookupa.c line 170
 void checksum(unsigned char *k, unsigned long int len, unsigned long int *state);
@@ -528,21 +528,21 @@ void domain_data_free(struct domain_data_ent **list, const char *name);
 // domain_resolve_addr
 // file domain_resolver.c line 187
 signed int domain_resolve_addr(const char *domain, struct session_ent *sd, void (*notify)(struct session_ent *, struct domain_data_ent *));
-// domain_resolve_addr::notify$object
+// domain_resolve_addr::notify_object
 //
-void notify$object(struct session_ent *, struct domain_data_ent *);
+void notify_object(struct session_ent *, struct domain_data_ent *);
 // domain_resolve_mxlist
 // file domain_resolver.c line 196
 signed int domain_resolve_mxlist(const char *domain, struct session_ent *sd, void (*notify)(struct session_ent *, struct domain_data_ent *));
-// domain_resolve_mxlist::notify$object
+// domain_resolve_mxlist::notify_object
 //
-void notify$object(struct session_ent *, struct domain_data_ent *);
+void notify_object(struct session_ent *, struct domain_data_ent *);
 // domain_resolve_name
 // file domain_resolver.h line 58
 signed int domain_resolve_name(unsigned int ipaddr, struct session_ent *sd, void (*notify)(struct session_ent *, struct domain_data_ent *));
-// domain_resolve_name::notify$object
+// domain_resolve_name::notify_object
 //
-void notify$object(struct session_ent *, struct domain_data_ent *);
+void notify_object(struct session_ent *, struct domain_data_ent *);
 // domain_resolver_init
 // file domain_resolver.c line 133
 signed int domain_resolver_init();
@@ -603,9 +603,9 @@ static signed int find_backflow(struct netstat **list, signed int items, struct 
 // find_event
 // file events.c line 281
 struct event_ent * find_event(void (*func)(void *), void *arg);
-// find_event::func$object
+// find_event::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // find_transact
 // file domain_resolver.c line 303
 static struct domain_transact_ent * find_transact(unsigned short int reqid);
@@ -734,10 +734,10 @@ signed int help_page_key(signed int idx);
 static signed int help_page_line(char *dst, signed int size, struct help_page_entry *hp, signed int idx);
 // help_page_list
 // file help_page.h line 18
-struct selector * help_page_list(enum anonymous$13 mode);
+struct selector * help_page_list(enum anonymous_13 mode);
 // help_page_mode
 // file help_page.h line 19
-enum anonymous$13 help_page_mode();
+enum anonymous_13 help_page_mode();
 // help_page_selector
 // file help_page.h line 17
 struct selector * help_page_selector();
@@ -917,10 +917,10 @@ static void nameserver_error(struct session_ent *sd, signed int error);
 static void nameserver_reply(struct session_ent *sd, const unsigned char *data, signed int len);
 // nameserver_request
 // file domain_resolver.c line 459
-static signed int nameserver_request(const char *domain, enum anonymous$14 type, struct session_ent *org, void (*notify)(struct session_ent *, struct domain_data_ent *));
-// nameserver_request::notify$object
+static signed int nameserver_request(const char *domain, enum anonymous_14 type, struct session_ent *org, void (*notify)(struct session_ent *, struct domain_data_ent *));
+// nameserver_request::notify_object
 //
-void notify$object(struct session_ent *, struct domain_data_ent *);
+void notify_object(struct session_ent *, struct domain_data_ent *);
 // nameserver_send
 // file domain_resolver.c line 538
 static signed int nameserver_send(struct session_ent *sd);
@@ -1115,16 +1115,16 @@ extern signed int pthread_cancel(unsigned long int);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$12 *);
+extern signed int pthread_mutex_destroy(union anonymous_12 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$12 *, const union anonymous$30 *);
+extern signed int pthread_mutex_init(union anonymous_12 *, const union anonymous_30 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$12 *);
+extern signed int pthread_mutex_lock(union anonymous_12 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$12 *);
+extern signed int pthread_mutex_unlock(union anonymous_12 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -1158,9 +1158,9 @@ struct reroot * remkroot(unsigned long int size);
 // remove_event
 // file events.h line 69
 signed int remove_event(void (*func)(void *), void *arg);
-// remove_event::func$object
+// remove_event::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // renewx
 // file recycle.h line 52
 char * renewx(struct reroot *r);
@@ -1176,12 +1176,12 @@ char * satoa(struct sockaddr *sa, char *dst, signed int size);
 // scale_size
 // file show_if.c line 29
 static void scale_size(signed int *name, signed int *addr, signed int *descr);
-// scale_size$link1
+// scale_size_link1
 // file show_stat.c line 36
-static void scale_size$link1(signed int *addr$link1, signed int *prot, signed int *data, signed int *rate);
-// scale_size$link2
+static void scale_size_link1(signed int *addr_link1, signed int *prot, signed int *data, signed int *rate);
+// scale_size_link2
 // file help_page.c line 80
-static void scale_size$link2(signed int *name$link1, signed int *descr$link1);
+static void scale_size_link2(signed int *name_link1, signed int *descr_link1);
 // scan_key
 // file getkey.c line 416
 static signed int scan_key(const unsigned char *buf, signed int len);
@@ -1208,13 +1208,13 @@ void screen_update(void);
 extern signed int scrollok(struct _win_st *, _Bool);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$11 *, struct anonymous$11 *, struct anonymous$11 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_11 *, struct anonymous_11 *, struct anonymous_11 *, struct timeval *);
 // select_event
 // file events.h line 56
 signed int select_event(struct timeval *tvp);
-// select_event::1::1::1::1::func$object
+// select_event::1::1::1::1::func_object
 //
-void func$object();
+void func_object();
 // selector_get
 // file selector.c line 249
 signed int selector_get(struct selector *sp);
@@ -1239,15 +1239,15 @@ extern signed long int send(signed int, const void *, unsigned long int, signed 
 // session_bind
 // file session.c line 253
 signed int session_bind(struct session_ent *sd, void (*notify)(void *), void *arg);
-// session_bind::notify$object
+// session_bind::notify_object
 //
-void notify$object(void *);
+void notify_object(void *);
 // session_cookie
 // file session.h line 90
 const void * session_cookie(struct session_ent *sd);
 // session_find
 // file session.c line 350
-struct session_ent * session_find(struct sockaddr *peer, enum anonymous$6 type);
+struct session_ent * session_find(struct sockaddr *peer, enum anonymous_6 type);
 // session_free
 // file session.c line 313
 void session_free(struct session_ent *free_sd);
@@ -1259,10 +1259,10 @@ struct sockaddr * session_from(struct session_ent *sd);
 signed int session_idle(struct session_ent *sd);
 // session_open
 // file session.h line 79
-struct session_ent * session_open(signed int sock, struct sockaddr *peer, enum anonymous$6 type);
+struct session_ent * session_open(signed int sock, struct sockaddr *peer, enum anonymous_6 type);
 // session_operate
 // file session.h line 95
-void session_operate(struct anonymous$11 *readfds, struct anonymous$11 *writefds);
+void session_operate(struct anonymous_11 *readfds, struct anonymous_11 *writefds);
 // session_peer
 // file session.c line 682
 struct sockaddr * session_peer(struct session_ent *sd);
@@ -1271,22 +1271,22 @@ struct sockaddr * session_peer(struct session_ent *sd);
 static signed int session_read(struct session_ent *sd);
 // session_select
 // file session.h line 93
-signed int session_select(signed int *nfds, struct anonymous$11 *readfds, struct anonymous$11 *writefds, struct timeval *timeout, signed int *block);
+signed int session_select(signed int *nfds, struct anonymous_11 *readfds, struct anonymous_11 *writefds, struct timeval *timeout, signed int *block);
 // session_send
 // file session.c line 387
 signed int session_send(struct session_ent *sd, const unsigned char *data, signed int len);
 // session_setcallback
 // file session.h line 85
 void session_setcallback(struct session_ent *sd, void (*connected)(struct session_ent *), void (*read_error)(struct session_ent *, signed int), void (*read_data)(struct session_ent *, const unsigned char *, signed int));
-// session_setcallback::connected$object
+// session_setcallback::connected_object
 //
-void connected$object(struct session_ent *);
-// session_setcallback::read_data$object
+void connected_object(struct session_ent *);
+// session_setcallback::read_data_object
 //
-void read_data$object(struct session_ent *, const unsigned char *, signed int);
-// session_setcallback::read_error$object
+void read_data_object(struct session_ent *, const unsigned char *, signed int);
+// session_setcallback::read_error_object
 //
-void read_error$object(struct session_ent *, signed int);
+void read_error_object(struct session_ent *, signed int);
 // session_setcookie
 // file session.h line 89
 void session_setcookie(struct session_ent *sd, const void *cookie);
@@ -1308,9 +1308,9 @@ void session_timeout();
 // session_unbind
 // file session.c line 282
 void session_unbind(struct session_ent *sd, void (*notify)(void *), void *arg);
-// session_unbind::notify$object
+// session_unbind::notify_object
 //
-void notify$object(void *);
+void notify_object(void *);
 // setsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 226
 extern signed int setsockopt(signed int, signed int, signed int, const void *, unsigned int);
@@ -1382,16 +1382,16 @@ signed int show_stat_search(struct pcap_handler *ph, const char *str);
 struct selector * show_stat_selector(struct pcap_handler *ph);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$29 *, signed int);
+extern signed int sigaddset(struct anonymous_29 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$29 *);
+extern signed int sigemptyset(struct anonymous_29 *);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$29 *, struct anonymous$29 *);
+extern signed int sigprocmask(signed int, const struct anonymous_29 *, struct anonymous_29 *);
 // sigwait
 // file /usr/include/signal.h line 270
-extern signed int sigwait(const struct anonymous$29 *, signed int *);
+extern signed int sigwait(const struct anonymous_29 *, signed int *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1561,19 +1561,19 @@ extern signed int wrefresh(struct _win_st *);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$11
+struct anonymous_11
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // id
   unsigned int id : 16;
@@ -1639,13 +1639,13 @@ struct ip
   struct in_addr ip_dst;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // idi_ip
   struct ip idi_ip;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // encoding
   unsigned short int encoding;
@@ -1653,7 +1653,7 @@ struct anonymous$19
   unsigned short int parity;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // source
   unsigned short int source;
@@ -1665,7 +1665,7 @@ struct anonymous$0
   unsigned short int check;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // source
   unsigned short int source;
@@ -1701,7 +1701,7 @@ struct anonymous$4
   unsigned short int urg_ptr;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // th_sport
   unsigned short int th_sport;
@@ -1725,7 +1725,7 @@ struct anonymous$3
   unsigned short int th_urp;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // uh_sport
   unsigned short int uh_sport;
@@ -1737,7 +1737,7 @@ struct anonymous$1
   unsigned short int uh_sum;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // clock_rate
   unsigned int clock_rate;
@@ -1747,7 +1747,7 @@ struct anonymous$24
   unsigned short int loopback;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // clock_rate
   unsigned int clock_rate;
@@ -1759,13 +1759,13 @@ struct anonymous$25
   unsigned int slot_map;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // dlci
   unsigned int dlci;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // dlci
   unsigned int dlci;
@@ -1773,7 +1773,7 @@ struct anonymous$23
   char master[16l];
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // interval
   unsigned int interval;
@@ -1781,7 +1781,7 @@ struct anonymous$20
   unsigned int timeout;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // its_otime
   unsigned int its_otime;
@@ -1791,7 +1791,7 @@ struct anonymous$8
   unsigned int its_ttime;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // t391
   unsigned int t391;
@@ -1809,7 +1809,7 @@ struct anonymous$21
   unsigned short int dce;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // ssap
   unsigned char ssap;
@@ -1817,31 +1817,31 @@ struct anonymous$17
   unsigned char dsap;
 };
 
-union anonymous$26
+union anonymous_26
 {
   // raw_hdlc
-  struct anonymous$19 *raw_hdlc;
+  struct anonymous_19 *raw_hdlc;
   // cisco
-  struct anonymous$20 *cisco;
+  struct anonymous_20 *cisco;
   // fr
-  struct anonymous$21 *fr;
+  struct anonymous_21 *fr;
   // fr_pvc
-  struct anonymous$22 *fr_pvc;
+  struct anonymous_22 *fr_pvc;
   // fr_pvc_info
-  struct anonymous$23 *fr_pvc_info;
+  struct anonymous_23 *fr_pvc_info;
   // sync
-  struct anonymous$24 *sync;
+  struct anonymous_24 *sync;
   // te1
-  struct anonymous$25 *te1;
+  struct anonymous_25 *te1;
 };
 
-union anonymous$27
+union anonymous_27
 {
   // ifrn_name
   char ifrn_name[16l];
 };
 
-union anonymous$30
+union anonymous_30
 {
   // __size
   char __size[4l];
@@ -1849,20 +1849,20 @@ union anonymous$30
   signed int __align;
 };
 
-union anonymous$5
+union anonymous_5
 {
-  // $anon0
-  struct anonymous$3 $anon0;
-  // $anon1
-  struct anonymous$4 $anon1;
+  // _anon0
+  struct anonymous_3 _anon0;
+  // _anon1
+  struct anonymous_4 _anon1;
 };
 
-union anonymous$2
+union anonymous_2
 {
-  // $anon0
-  struct anonymous$1 $anon0;
-  // $anon1
-  struct anonymous$0 $anon1;
+  // _anon0
+  struct anonymous_1 _anon0;
+  // _anon1
+  struct anonymous_0 _anon1;
 };
 
 struct icmp_ra_addr
@@ -1873,12 +1873,12 @@ struct icmp_ra_addr
   unsigned int ira_preference;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // id_ts
-  struct anonymous$8 id_ts;
+  struct anonymous_8 id_ts;
   // id_ip
-  struct anonymous$9 id_ip;
+  struct anonymous_9 id_ip;
   // id_radv
   struct icmp_ra_addr id_radv;
   // id_mask
@@ -1915,7 +1915,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1925,7 +1925,7 @@ union anonymous$12
   signed long int __align;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // ipa4
   struct in_addr ipa4;
@@ -1962,10 +1962,10 @@ struct if_settings
   // size
   unsigned int size;
   // ifs_ifsu
-  union anonymous$26 ifs_ifsu;
+  union anonymous_26 ifs_ifsu;
 };
 
-union anonymous$28
+union anonymous_28
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -1995,12 +1995,12 @@ union anonymous$28
   struct if_settings ifru_settings;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // tag
   unsigned short int tag;
   // llc
-  struct anonymous$17 llc;
+  struct anonymous_17 llc;
 };
 
 struct ih_idseq
@@ -2029,7 +2029,7 @@ struct ih_rtradv
   unsigned short int irt_lifetime;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // ih_pptr
   unsigned char ih_pptr;
@@ -2214,7 +2214,7 @@ struct bpf_program
 struct ip_address
 {
   // ipaddr
-  union anonymous$16 ipaddr;
+  union anonymous_16 ipaddr;
   // ip_port
   unsigned short int ip_port;
 };
@@ -2462,7 +2462,7 @@ struct domain_transact_ent
   // domain
   char *domain;
   // type
-  enum anonymous$14 type;
+  enum anonymous_14 type;
   // rcode
   signed int rcode;
   // data
@@ -2534,7 +2534,7 @@ struct ethernet_header
   // type
   unsigned short int type;
   // param
-  union anonymous$18 param;
+  union anonymous_18 param;
 };
 
 struct timeval
@@ -2636,17 +2636,17 @@ struct icmp
   // icmp_cksum
   unsigned short int icmp_cksum;
   // icmp_hun
-  union anonymous$7 icmp_hun;
+  union anonymous_7 icmp_hun;
   // icmp_dun
-  union anonymous$10 icmp_dun;
+  union anonymous_10 icmp_dun;
 };
 
 struct ifreq
 {
   // ifr_ifrn
-  union anonymous$27 ifr_ifrn;
+  union anonymous_27 ifr_ifrn;
   // ifr_ifru
-  union anonymous$28 ifr_ifru;
+  union anonymous_28 ifr_ifru;
 };
 
 struct netstat_header
@@ -2732,7 +2732,7 @@ struct pcap_handler
   // maskhdr
   struct netstat_header *maskhdr;
   // ns_mutex
-  union anonymous$12 *ns_mutex;
+  union anonymous_12 *ns_mutex;
   // ns_hash
   struct htab *ns_hash;
   // selector
@@ -2914,7 +2914,7 @@ struct session_ent
   // from
   struct sockaddr_storage from;
   // type
-  enum anonymous$6 type;
+  enum anonymous_6 type;
   // timeout
   unsigned int timeout;
   // expire
@@ -3005,8 +3005,8 @@ struct stat
 
 struct tcphdr
 {
-  // $anon0
-  union anonymous$5 $anon0;
+  // _anon0
+  union anonymous_5 _anon0;
 };
 
 struct timezone
@@ -3053,8 +3053,8 @@ struct tok
 
 struct udphdr
 {
-  // $anon0
-  union anonymous$2 $anon0;
+  // _anon0
+  union anonymous_2 _anon0;
 };
 
 struct winsize
@@ -3207,7 +3207,7 @@ static struct session_ent *first_session = ((struct session_ent *)NULL);
 static struct domain_transact_ent *first_transact = ((struct domain_transact_ent *)NULL);
 // help_mode
 // file help_page.c line 30
-static enum anonymous$13 help_mode = (enum anonymous$13)HelpPage;
+static enum anonymous_13 help_mode = (enum anonymous_13)HelpPage;
 // hex
 // file addrtoname.c line 319
 static char hex[17l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 0 };
@@ -3418,7 +3418,7 @@ static struct sockaddr_in *secondary = ((struct sockaddr_in *)NULL);
 struct hnamemem servtable[4096l];
 // show_mode
 // file trafshow.c line 82
-enum anonymous$13 show_mode = (enum anonymous$13)Interfaces;
+enum anonymous_13 show_mode = (enum anonymous_13)Interfaces;
 // show_stat_mode
 // file show_stat.c line 31
 enum anonymous show_stat_mode = (enum anonymous)Size;
@@ -3466,18 +3466,18 @@ static signed int add_colormask(const char *s, struct cm_entry *m)
   signed short int bc;
   char f[100l];
   char *b;
-  char *return_value_strcpy$2;
-  return_value_strcpy$2=strcpy(f, s);
-  b=strchr(return_value_strcpy$2, 58);
-  char *tmp_post$1;
+  char *return_value_strcpy_2;
+  return_value_strcpy_2=strcpy(f, s);
+  b=strchr(return_value_strcpy_2, 58);
+  char *tmp_post_1;
   if(!(b == ((char *)NULL)))
   {
-    tmp_post$1 = b;
+    tmp_post_1 = b;
     b = b + 1l;
-    *tmp_post$1 = (char)0;
+    *tmp_post_1 = (char)0;
   }
 
-  signed int return_value_strcasecmp$3;
+  signed int return_value_strcasecmp_3;
   static signed short int fc_def = (signed short int)-1;
   static char *ctab[8l] = { "black", "red", "green", "yellow", "blue", "magenta", "cyan", "white" };
   if(!(f[0l] == 0))
@@ -3485,8 +3485,8 @@ static signed int add_colormask(const char *s, struct cm_entry *m)
     i = 0;
     for( ; !(i >= 8); i = i + 1)
     {
-      return_value_strcasecmp$3=strcasecmp(ctab[(signed long int)i], f);
-      if(return_value_strcasecmp$3 == 0)
+      return_value_strcasecmp_3=strcasecmp(ctab[(signed long int)i], f);
+      if(return_value_strcasecmp_3 == 0)
         break;
 
     }
@@ -3495,9 +3495,9 @@ static signed int add_colormask(const char *s, struct cm_entry *m)
 
     else
     {
-      signed int return_value_atoi$4;
-      return_value_atoi$4=atoi(f);
-      fc = (signed short int)return_value_atoi$4;
+      signed int return_value_atoi_4;
+      return_value_atoi_4=atoi(f);
+      fc = (signed short int)return_value_atoi_4;
       if(!(COLORS >= (signed int)fc) || !((signed int)fc >= 1))
       {
         fprintf(stderr, "%s: line %d: Unknown color `%s'\n", rc_file, rc_line, (const void *)f);
@@ -3505,30 +3505,30 @@ static signed int add_colormask(const char *s, struct cm_entry *m)
       }
 
     }
-    const unsigned short int **return_value___ctype_b_loc$5;
-    return_value___ctype_b_loc$5=__ctype_b_loc();
-    if(!((256 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)f[0l]]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_5;
+    return_value___ctype_b_loc_5=__ctype_b_loc();
+    if(!((256 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)f[0l]]) == 0))
       attr = attr | (signed int)((unsigned long int)1UL << 13 + 8);
 
   }
 
   else
     fc = fc_def;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_9;
   if(!(b == ((char *)NULL)))
-    tmp_if_expr$9 = *b != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_9 = *b != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  signed int return_value_strcasecmp$6;
+    tmp_if_expr_9 = (_Bool)0;
+  signed int return_value_strcasecmp_6;
   static signed short int bc_def = (signed short int)-1;
-  if(tmp_if_expr$9)
+  if(tmp_if_expr_9)
   {
     i = 0;
     for( ; !(i >= 8); i = i + 1)
     {
-      return_value_strcasecmp$6=strcasecmp(ctab[(signed long int)i], b);
-      if(return_value_strcasecmp$6 == 0)
+      return_value_strcasecmp_6=strcasecmp(ctab[(signed long int)i], b);
+      if(return_value_strcasecmp_6 == 0)
         break;
 
     }
@@ -3537,9 +3537,9 @@ static signed int add_colormask(const char *s, struct cm_entry *m)
 
     else
     {
-      signed int return_value_atoi$7;
-      return_value_atoi$7=atoi(b);
-      bc = (signed short int)return_value_atoi$7;
+      signed int return_value_atoi_7;
+      return_value_atoi_7=atoi(b);
+      bc = (signed short int)return_value_atoi_7;
       if(!(COLORS >= (signed int)bc) || !((signed int)bc >= 1))
       {
         fprintf(stderr, "%s: line %d: Unknown color `%s'\n", rc_file, rc_line, b);
@@ -3547,9 +3547,9 @@ static signed int add_colormask(const char *s, struct cm_entry *m)
       }
 
     }
-    const unsigned short int **return_value___ctype_b_loc$8;
-    return_value___ctype_b_loc$8=__ctype_b_loc();
-    if(!((256 & (signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)*b]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_8;
+    return_value___ctype_b_loc_8=__ctype_b_loc();
+    if(!((256 & (signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)*b]) == 0))
       attr = attr | (signed int)((unsigned long int)1UL << 11 + 8);
 
   }
@@ -3559,9 +3559,9 @@ static signed int add_colormask(const char *s, struct cm_entry *m)
   if(!(m == ((struct cm_entry *)NULL)))
   {
     n_masks = n_masks + 1;
-    void *return_value_realloc$10;
-    return_value_realloc$10=realloc((void *)color_mask, (unsigned long int)n_masks * sizeof(struct cm_entry) /*36ul*/ );
-    color_mask = (struct cm_entry *)return_value_realloc$10;
+    void *return_value_realloc_10;
+    return_value_realloc_10=realloc((void *)color_mask, (unsigned long int)n_masks * sizeof(struct cm_entry) /*36ul*/ );
+    color_mask = (struct cm_entry *)return_value_realloc_10;
     if(color_mask == ((struct cm_entry *)NULL))
     {
       fprintf(stderr, "add_colormask: realloc: Out of memory?\n");
@@ -3638,11 +3638,11 @@ signed int add_event(struct timeval *tvp, void (*func)(void *), void *arg)
 
     prev = ep;
   }
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(ep == ((struct event_ent *)NULL))
   {
-    return_value_malloc$1=malloc(sizeof(struct event_ent) /*40ul*/ );
-    ep = (struct event_ent *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct event_ent) /*40ul*/ );
+    ep = (struct event_ent *)return_value_malloc_1;
     if(!(ep == ((struct event_ent *)NULL)))
       goto __CPROVER_DUMP_L8;
 
@@ -3682,35 +3682,35 @@ static char * build_filter_expr(char *dst, signed int size, const struct netstat
   dst_addr[(signed long int)0] = (char)0;
   if((signed int)ns->ns_hdr.in_hdr.ver == 4)
   {
-    const char *return_value_intoa$1;
-    return_value_intoa$1=intoa(ns->ns_hdr.in_hdr.src.ipaddr.ipa4.s_addr);
-    strcpy(src_addr, return_value_intoa$1);
-    const char *return_value_intoa$2;
-    return_value_intoa$2=intoa(ns->ns_hdr.in_hdr.dst.ipaddr.ipa4.s_addr);
-    strcpy(dst_addr, return_value_intoa$2);
+    const char *return_value_intoa_1;
+    return_value_intoa_1=intoa(ns->ns_hdr.in_hdr.src.ipaddr.ipa4.s_addr);
+    strcpy(src_addr, return_value_intoa_1);
+    const char *return_value_intoa_2;
+    return_value_intoa_2=intoa(ns->ns_hdr.in_hdr.dst.ipaddr.ipa4.s_addr);
+    strcpy(dst_addr, return_value_intoa_2);
   }
 
   else
     if(!(ns->ns_hdr.en_hdr.type == 0))
     {
-      const char *return_value_etheraddr_string$3;
-      return_value_etheraddr_string$3=etheraddr_string(ns->ns_hdr.en_hdr.src);
-      strcpy(src_addr, return_value_etheraddr_string$3);
-      const char *return_value_etheraddr_string$4;
-      return_value_etheraddr_string$4=etheraddr_string(ns->ns_hdr.en_hdr.dst);
-      strcpy(dst_addr, return_value_etheraddr_string$4);
+      const char *return_value_etheraddr_string_3;
+      return_value_etheraddr_string_3=etheraddr_string(ns->ns_hdr.en_hdr.src);
+      strcpy(src_addr, return_value_etheraddr_string_3);
+      const char *return_value_etheraddr_string_4;
+      return_value_etheraddr_string_4=etheraddr_string(ns->ns_hdr.en_hdr.dst);
+      strcpy(dst_addr, return_value_etheraddr_string_4);
     }
 
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if((signed int)src_addr[0l] == 0)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = (signed int)dst_addr[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcmp$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcmp$7;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (signed int)dst_addr[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcmp_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcmp_7;
+  if(tmp_if_expr_5)
     return ((char *)NULL);
 
   else
@@ -3720,16 +3720,16 @@ static char * build_filter_expr(char *dst, signed int size, const struct netstat
 
     else
     {
-      return_value_strcmp$6=strcmp(dst_addr, "broadcast");
-      if(return_value_strcmp$6 == 0)
-        tmp_if_expr$8 = (_Bool)1;
+      return_value_strcmp_6=strcmp(dst_addr, "broadcast");
+      if(return_value_strcmp_6 == 0)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$7=strcmp(dst_addr, "multicast");
-        tmp_if_expr$8 = !(return_value_strcmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_7=strcmp(dst_addr, "multicast");
+        tmp_if_expr_8 = !(return_value_strcmp_7 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$8)
+      if(tmp_if_expr_8)
         snprintf(dst, (unsigned long int)size, "ether src %s and ether %s", (const void *)src_addr, (const void *)dst_addr);
 
       else
@@ -3743,14 +3743,14 @@ static char * build_filter_expr(char *dst, signed int size, const struct netstat
 // file trafshow.c line 269
 static void * catch_signals(void *arg)
 {
-  struct anonymous$29 sigset;
+  struct anonymous_29 sigset;
   signed int sig;
   do
   {
-    sigset = *((struct anonymous$29 *)arg);
-    signed int return_value_sigwait$1;
-    return_value_sigwait$1=sigwait(&sigset, &sig);
-    if(!(return_value_sigwait$1 == 0))
+    sigset = *((struct anonymous_29 *)arg);
+    signed int return_value_sigwait_1;
+    return_value_sigwait_1=sigwait(&sigset, &sig);
+    if(!(return_value_sigwait_1 == 0))
       break;
 
     if(sig == 28)
@@ -3767,15 +3767,15 @@ signed int change_event(void (*func)(void *), void *arg, void *new_arg)
 {
   signed int found = 0;
   struct event_ent *ep = first_event;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(ep == ((struct event_ent *)NULL)); ep = ep->next)
   {
     if(func == ((void (*)(void *))NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ep->func == func ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = ep->func == func ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(ep->arg == arg)
       {
@@ -4107,7 +4107,7 @@ signed int cisco_netflow_init(struct pcap_handler **ph_list, signed int port)
     memset((void *)&sin, 0, sizeof(struct sockaddr_in) /*16ul*/ );
     sin.sin_family = (unsigned short int)2;
     sin.sin_port=htons((unsigned short int)port);
-    sd=session_open(-1, ((struct sockaddr *)NULL), (enum anonymous$6)DataSequence);
+    sd=session_open(-1, ((struct sockaddr *)NULL), (enum anonymous_6)DataSequence);
     if(sd == ((struct session_ent *)NULL))
     {
       perror("session_open");
@@ -4118,9 +4118,9 @@ signed int cisco_netflow_init(struct pcap_handler **ph_list, signed int port)
     {
       sock=session_sock(sd);
       slen = (unsigned int)sizeof(signed int) /*4ul*/ ;
-      signed int return_value_setsockopt$1;
-      return_value_setsockopt$1=setsockopt(sock, 1, 15, (const void *)&on, slen);
-      if(!(return_value_setsockopt$1 >= 0))
+      signed int return_value_setsockopt_1;
+      return_value_setsockopt_1=setsockopt(sock, 1, 15, (const void *)&on, slen);
+      if(!(return_value_setsockopt_1 >= 0))
       {
         perror("setsockopt SO_REUSEPORT");
         return -1;
@@ -4129,9 +4129,9 @@ signed int cisco_netflow_init(struct pcap_handler **ph_list, signed int port)
       else
       {
         slen = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-        signed int return_value_bind$2;
-        return_value_bind$2=bind(sock, (struct sockaddr *)&sin, slen);
-        if(!(return_value_bind$2 >= 0))
+        signed int return_value_bind_2;
+        return_value_bind_2=bind(sock, (struct sockaddr *)&sin, slen);
+        if(!(return_value_bind_2 >= 0))
         {
           perror("bind");
           return -1;
@@ -4218,9 +4218,9 @@ signed int colormask(struct netstat_header *nh)
         {
           if(!(cm->dst_mask == 0))
           {
-            unsigned int colormask$$1$$1$$1$$1$$5$$1$$mask;
-            colormask$$1$$1$$1$$1$$5$$1$$mask=netmask(cm->dst_mask);
-            if(!((cm->in_hdr.dst.ipaddr.ipa4.s_addr & colormask$$1$$1$$1$$1$$5$$1$$mask ^ nh->in_hdr.dst.ipaddr.ipa4.s_addr & colormask$$1$$1$$1$$1$$5$$1$$mask) == 0u))
+            unsigned int colormask__1__1__1__1__5__1__mask;
+            colormask__1__1__1__1__5__1__mask=netmask(cm->dst_mask);
+            if(!((cm->in_hdr.dst.ipaddr.ipa4.s_addr & colormask__1__1__1__1__5__1__mask ^ nh->in_hdr.dst.ipaddr.ipa4.s_addr & colormask__1__1__1__1__5__1__mask) == 0u))
               goto __CPROVER_DUMP_L13;
 
           }
@@ -4305,25 +4305,25 @@ char * copy_argv(char **av)
   char *src;
   char *dst;
   p = av;
-  char **tmp_post$1;
-  unsigned long int return_value_strlen$2;
-  char **tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
+  char **tmp_post_1;
+  unsigned long int return_value_strlen_2;
+  char **tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
   if(*p == ((char *)NULL))
     return ((char *)NULL);
 
   else
   {
-    for( ; !(*p == ((char *)NULL)); len = len + (unsigned int)(return_value_strlen$2 + (unsigned long int)1))
+    for( ; !(*p == ((char *)NULL)); len = len + (unsigned int)(return_value_strlen_2 + (unsigned long int)1))
     {
-      tmp_post$1 = p;
+      tmp_post_1 = p;
       p = p + 1l;
-      return_value_strlen$2=strlen(*tmp_post$1);
+      return_value_strlen_2=strlen(*tmp_post_1);
     }
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)len);
-    buf = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)len);
+    buf = (char *)return_value_malloc_3;
     if(buf == ((char *)NULL))
     {
       perror("malloc");
@@ -4336,20 +4336,20 @@ char * copy_argv(char **av)
       dst = buf;
       do
       {
-        tmp_post$4 = p;
+        tmp_post_4 = p;
         p = p + 1l;
-        src = *tmp_post$4;
+        src = *tmp_post_4;
         if(src == ((char *)NULL))
           break;
 
         do
         {
-          tmp_post$5 = dst;
+          tmp_post_5 = dst;
           dst = dst + 1l;
-          tmp_post$6 = src;
+          tmp_post_6 = src;
           src = src + 1l;
-          *tmp_post$5 = *tmp_post$6;
-          if((signed int)*tmp_post$5 == 0)
+          *tmp_post_5 = *tmp_post_6;
+          if((signed int)*tmp_post_5 == 0)
             break;
 
         }
@@ -4385,17 +4385,17 @@ struct domain_data_ent * domain_data_add(struct domain_data_ent **list, const ch
   struct domain_data_ent *prev;
   signed int insert;
   char *cp;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(list == ((struct domain_data_ent **)NULL) || name == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return ((struct domain_data_ent *)NULL);
   }
 
@@ -4403,13 +4403,13 @@ struct domain_data_ent * domain_data_add(struct domain_data_ent **list, const ch
   last = prev;
   insert = 0;
   curr = *list;
-  signed int return_value_strcasecmp$3;
+  signed int return_value_strcasecmp_3;
   for( ; !(curr == ((struct domain_data_ent *)NULL)); curr = curr->next)
   {
     if(!(curr->name == ((char *)NULL)))
     {
-      return_value_strcasecmp$3=strcasecmp(curr->name, name);
-      if(return_value_strcasecmp$3 == 0)
+      return_value_strcasecmp_3=strcasecmp(curr->name, name);
+      if(return_value_strcasecmp_3 == 0)
         return curr;
 
     }
@@ -4426,9 +4426,9 @@ struct domain_data_ent * domain_data_add(struct domain_data_ent **list, const ch
 
     last = curr;
   }
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(struct domain_data_ent) /*32ul*/ );
-  curr = (struct domain_data_ent *)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(struct domain_data_ent) /*32ul*/ );
+  curr = (struct domain_data_ent *)return_value_malloc_4;
   if(curr == ((struct domain_data_ent *)NULL))
     return ((struct domain_data_ent *)NULL);
 
@@ -4439,13 +4439,13 @@ struct domain_data_ent * domain_data_add(struct domain_data_ent **list, const ch
     if(curr->name == ((char *)NULL))
     {
       signed int save_errno;
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      save_errno = *return_value___errno_location$5;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      save_errno = *return_value___errno_location_5;
       free((void *)curr);
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      save_errno = *return_value___errno_location$6;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      save_errno = *return_value___errno_location_6;
       return ((struct domain_data_ent *)NULL);
     }
 
@@ -4489,13 +4489,13 @@ struct domain_data_ent * domain_data_add(struct domain_data_ent **list, const ch
 struct domain_data_ent * domain_data_find(struct domain_data_ent **list, const char *name)
 {
   struct domain_data_ent *curr;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(list == ((struct domain_data_ent **)NULL) || name == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return ((struct domain_data_ent *)NULL);
 
   else
@@ -4503,9 +4503,9 @@ struct domain_data_ent * domain_data_find(struct domain_data_ent **list, const c
     curr = *list;
     for( ; !(curr == ((struct domain_data_ent *)NULL)); curr = curr->next)
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(curr->name, name);
-      if(return_value_strcasecmp$2 == 0)
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(curr->name, name);
+      if(return_value_strcasecmp_2 == 0)
         return curr;
 
     }
@@ -4520,11 +4520,11 @@ void domain_data_free(struct domain_data_ent **list, const char *name)
   struct domain_data_ent *curr;
   struct domain_data_ent *prev;
   struct domain_data_ent *next;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcasecmp$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcasecmp_4;
   if(!(list == ((struct domain_data_ent **)NULL)))
   {
     curr = *list;
@@ -4532,31 +4532,31 @@ void domain_data_free(struct domain_data_ent **list, const char *name)
     while(!(curr == ((struct domain_data_ent *)NULL)))
     {
       if(name == ((const char *)NULL))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
         if((signed int)*name == 0)
-          tmp_if_expr$1 = curr->addr == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = curr->addr == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = curr->name == name ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_3 = curr->name == name ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$4=strcasecmp(curr->name, name);
-        tmp_if_expr$5 = !(return_value_strcasecmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_4=strcasecmp(curr->name, name);
+        tmp_if_expr_5 = !(return_value_strcasecmp_4 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
       {
         next = curr->next;
         if(!(prev == ((struct domain_data_ent *)NULL)))
@@ -4585,27 +4585,27 @@ void domain_data_free(struct domain_data_ent **list, const char *name)
 // file domain_resolver.c line 187
 signed int domain_resolve_addr(const char *domain, struct session_ent *sd, void (*notify)(struct session_ent *, struct domain_data_ent *))
 {
-  signed int return_value_nameserver_request$1;
-  return_value_nameserver_request$1=nameserver_request(domain, (enum anonymous$14)IpAddress, sd, notify);
-  return return_value_nameserver_request$1;
+  signed int return_value_nameserver_request_1;
+  return_value_nameserver_request_1=nameserver_request(domain, (enum anonymous_14)IpAddress, sd, notify);
+  return return_value_nameserver_request_1;
 }
 
 // domain_resolve_mxlist
 // file domain_resolver.c line 196
 signed int domain_resolve_mxlist(const char *domain, struct session_ent *sd, void (*notify)(struct session_ent *, struct domain_data_ent *))
 {
-  signed int return_value_nameserver_request$1;
-  return_value_nameserver_request$1=nameserver_request(domain, (enum anonymous$14)MailExchanger, sd, notify);
-  return return_value_nameserver_request$1;
+  signed int return_value_nameserver_request_1;
+  return_value_nameserver_request_1=nameserver_request(domain, (enum anonymous_14)MailExchanger, sd, notify);
+  return return_value_nameserver_request_1;
 }
 
 // domain_resolve_name
 // file domain_resolver.h line 58
 signed int domain_resolve_name(unsigned int ipaddr, struct session_ent *sd, void (*notify)(struct session_ent *, struct domain_data_ent *))
 {
-  signed int return_value_nameserver_request$1;
-  return_value_nameserver_request$1=nameserver_request((char *)&ipaddr, (enum anonymous$14)DomainName, sd, notify);
-  return return_value_nameserver_request$1;
+  signed int return_value_nameserver_request_1;
+  return_value_nameserver_request_1=nameserver_request((char *)&ipaddr, (enum anonymous_14)DomainName, sd, notify);
+  return return_value_nameserver_request_1;
 }
 
 // domain_resolver_init
@@ -4618,9 +4618,9 @@ signed int domain_resolver_init()
   char buf[1024l];
   if(primary == ((struct sockaddr_in *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct sockaddr_in) /*16ul*/ );
-    primary = (struct sockaddr_in *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct sockaddr_in) /*16ul*/ );
+    primary = (struct sockaddr_in *)return_value_malloc_1;
     if(primary == ((struct sockaddr_in *)NULL))
       return -1;
 
@@ -4637,16 +4637,16 @@ signed int domain_resolver_init()
   }
 
   fp=fopen("/etc/resolv.conf", "r");
-  char *return_value_fgets$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed int tmp_post$6;
+  char *return_value_fgets_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_post_6;
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
     do
     {
-      return_value_fgets$2=fgets(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-      if(return_value_fgets$2 == ((char *)NULL))
+      return_value_fgets_2=fgets(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+      if(return_value_fgets_2 == ((char *)NULL))
         break;
 
       buf[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1)] = (char)0;
@@ -4654,16 +4654,16 @@ signed int domain_resolver_init()
       for( ; !(*cp == 0); cp = cp + 1l)
       {
         if((signed int)*cp == 35)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)*cp == 13 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = (signed int)*cp == 13 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)*cp == 10 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (signed int)*cp == 10 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
         {
           *cp = (char)0;
           break;
@@ -4675,22 +4675,22 @@ signed int domain_resolver_init()
       }
       if(!((signed int)buf[0l] == 0))
       {
-        signed int return_value_strncasecmp$7;
-        return_value_strncasecmp$7=strncasecmp(buf, "nameserver", sizeof(char [11l]) /*11ul*/  - (unsigned long int)1);
-        if(return_value_strncasecmp$7 == 0)
+        signed int return_value_strncasecmp_7;
+        return_value_strncasecmp_7=strncasecmp(buf, "nameserver", sizeof(char [11l]) /*11ul*/  - (unsigned long int)1);
+        if(return_value_strncasecmp_7 == 0)
         {
           cp=strip_blanks((buf + (signed long int)sizeof(char [11l]) /*11ul*/ ) - (signed long int)1);
-          tmp_post$6 = ns_cnt;
+          tmp_post_6 = ns_cnt;
           ns_cnt = ns_cnt + 1;
-          if(tmp_post$6 == 0)
+          if(tmp_post_6 == 0)
             primary->sin_addr.s_addr=inet_addr(cp);
 
           else
             if(secondary == ((struct sockaddr_in *)NULL))
             {
-              void *return_value_malloc$5;
-              return_value_malloc$5=malloc(sizeof(struct sockaddr_in) /*16ul*/ );
-              secondary = (struct sockaddr_in *)return_value_malloc$5;
+              void *return_value_malloc_5;
+              return_value_malloc_5=malloc(sizeof(struct sockaddr_in) /*16ul*/ );
+              secondary = (struct sockaddr_in *)return_value_malloc_5;
               if(!(secondary == ((struct sockaddr_in *)NULL)))
               {
                 memset((void *)secondary, 0, sizeof(struct sockaddr_in) /*16ul*/ );
@@ -4718,86 +4718,86 @@ signed int domain_resolver_init()
 static void dump_netflow_v1(const struct cnf_data_v1 *dp)
 {
   struct _IO_FILE *fp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dump_file == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     fp=fopen(dump_file, "a");
-    tmp_if_expr$1 = fp == ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = fp == ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  if(!tmp_if_expr$1)
+  if(!tmp_if_expr_1)
   {
     fprintf(fp, "\nNetflow:  V1\n");
-    const char *return_value_intoa$2;
-    return_value_intoa$2=intoa(dp->src_addr);
-    fprintf(fp, "SrcAddr:  %s\n", return_value_intoa$2);
-    const char *return_value_intoa$3;
-    return_value_intoa$3=intoa(dp->dst_addr);
-    fprintf(fp, "DstAddr:  %s\n", return_value_intoa$3);
-    const char *return_value_intoa$4;
-    return_value_intoa$4=intoa(dp->nexthop);
-    fprintf(fp, "NextHop:  %s\n", return_value_intoa$4);
-    unsigned short int return_value_ntohs$5;
-    return_value_ntohs$5=ntohs(dp->ifin);
-    fprintf(fp, "InputIf:  %d\n", (signed int)return_value_ntohs$5);
-    unsigned short int return_value_ntohs$6;
-    return_value_ntohs$6=ntohs(dp->ifout);
-    fprintf(fp, "OutputIf: %d\n", (signed int)return_value_ntohs$6);
-    unsigned int return_value_ntohl$7;
-    return_value_ntohl$7=ntohl(dp->dpkts);
-    fprintf(fp, "Packets:  %u\n", (unsigned int)return_value_ntohl$7);
-    unsigned int return_value_ntohl$8;
-    return_value_ntohl$8=ntohl(dp->doctets);
-    fprintf(fp, "Octets:   %u\n", (unsigned int)return_value_ntohl$8);
-    unsigned int return_value_ntohl$9;
-    return_value_ntohl$9=ntohl(dp->firsttime);
-    fprintf(fp, "First:    %u\n", (unsigned int)return_value_ntohl$9);
-    unsigned int return_value_ntohl$10;
-    return_value_ntohl$10=ntohl(dp->lasttime);
-    fprintf(fp, "Last:     %u\n", (unsigned int)return_value_ntohl$10);
+    const char *return_value_intoa_2;
+    return_value_intoa_2=intoa(dp->src_addr);
+    fprintf(fp, "SrcAddr:  %s\n", return_value_intoa_2);
+    const char *return_value_intoa_3;
+    return_value_intoa_3=intoa(dp->dst_addr);
+    fprintf(fp, "DstAddr:  %s\n", return_value_intoa_3);
+    const char *return_value_intoa_4;
+    return_value_intoa_4=intoa(dp->nexthop);
+    fprintf(fp, "NextHop:  %s\n", return_value_intoa_4);
+    unsigned short int return_value_ntohs_5;
+    return_value_ntohs_5=ntohs(dp->ifin);
+    fprintf(fp, "InputIf:  %d\n", (signed int)return_value_ntohs_5);
+    unsigned short int return_value_ntohs_6;
+    return_value_ntohs_6=ntohs(dp->ifout);
+    fprintf(fp, "OutputIf: %d\n", (signed int)return_value_ntohs_6);
+    unsigned int return_value_ntohl_7;
+    return_value_ntohl_7=ntohl(dp->dpkts);
+    fprintf(fp, "Packets:  %u\n", (unsigned int)return_value_ntohl_7);
+    unsigned int return_value_ntohl_8;
+    return_value_ntohl_8=ntohl(dp->doctets);
+    fprintf(fp, "Octets:   %u\n", (unsigned int)return_value_ntohl_8);
+    unsigned int return_value_ntohl_9;
+    return_value_ntohl_9=ntohl(dp->firsttime);
+    fprintf(fp, "First:    %u\n", (unsigned int)return_value_ntohl_9);
+    unsigned int return_value_ntohl_10;
+    return_value_ntohl_10=ntohl(dp->lasttime);
+    fprintf(fp, "Last:     %u\n", (unsigned int)return_value_ntohl_10);
     if((signed int)dp->proto == 6)
     {
-      unsigned short int return_value_ntohs$11;
-      return_value_ntohs$11=ntohs(dp->src_port);
-      const char *return_value_tcpport_string$12;
-      return_value_tcpport_string$12=tcpport_string(return_value_ntohs$11);
-      fprintf(fp, "SrcPort:  %s\n", return_value_tcpport_string$12);
-      unsigned short int return_value_ntohs$13;
-      return_value_ntohs$13=ntohs(dp->dst_port);
-      const char *return_value_tcpport_string$14;
-      return_value_tcpport_string$14=tcpport_string(return_value_ntohs$13);
-      fprintf(fp, "DstPort:  %s\n", return_value_tcpport_string$14);
+      unsigned short int return_value_ntohs_11;
+      return_value_ntohs_11=ntohs(dp->src_port);
+      const char *return_value_tcpport_string_12;
+      return_value_tcpport_string_12=tcpport_string(return_value_ntohs_11);
+      fprintf(fp, "SrcPort:  %s\n", return_value_tcpport_string_12);
+      unsigned short int return_value_ntohs_13;
+      return_value_ntohs_13=ntohs(dp->dst_port);
+      const char *return_value_tcpport_string_14;
+      return_value_tcpport_string_14=tcpport_string(return_value_ntohs_13);
+      fprintf(fp, "DstPort:  %s\n", return_value_tcpport_string_14);
     }
 
     else
       if((signed int)dp->proto == 17)
       {
-        unsigned short int return_value_ntohs$15;
-        return_value_ntohs$15=ntohs(dp->src_port);
-        const char *return_value_udpport_string$16;
-        return_value_udpport_string$16=udpport_string(return_value_ntohs$15);
-        fprintf(fp, "SrcPort:  %s\n", return_value_udpport_string$16);
-        unsigned short int return_value_ntohs$17;
-        return_value_ntohs$17=ntohs(dp->dst_port);
-        const char *return_value_udpport_string$18;
-        return_value_udpport_string$18=udpport_string(return_value_ntohs$17);
-        fprintf(fp, "DstPort:  %s\n", return_value_udpport_string$18);
+        unsigned short int return_value_ntohs_15;
+        return_value_ntohs_15=ntohs(dp->src_port);
+        const char *return_value_udpport_string_16;
+        return_value_udpport_string_16=udpport_string(return_value_ntohs_15);
+        fprintf(fp, "SrcPort:  %s\n", return_value_udpport_string_16);
+        unsigned short int return_value_ntohs_17;
+        return_value_ntohs_17=ntohs(dp->dst_port);
+        const char *return_value_udpport_string_18;
+        return_value_udpport_string_18=udpport_string(return_value_ntohs_17);
+        fprintf(fp, "DstPort:  %s\n", return_value_udpport_string_18);
       }
 
       else
       {
-        unsigned short int return_value_ntohs$19;
-        return_value_ntohs$19=ntohs(dp->src_port);
-        fprintf(fp, "SrcPort:  %d\n", (signed int)return_value_ntohs$19);
-        unsigned short int return_value_ntohs$20;
-        return_value_ntohs$20=ntohs(dp->dst_port);
-        fprintf(fp, "DstPort:  %d\n", (signed int)return_value_ntohs$20);
+        unsigned short int return_value_ntohs_19;
+        return_value_ntohs_19=ntohs(dp->src_port);
+        fprintf(fp, "SrcPort:  %d\n", (signed int)return_value_ntohs_19);
+        unsigned short int return_value_ntohs_20;
+        return_value_ntohs_20=ntohs(dp->dst_port);
+        fprintf(fp, "DstPort:  %d\n", (signed int)return_value_ntohs_20);
       }
-    const char *return_value_ipproto_string$21;
-    return_value_ipproto_string$21=ipproto_string(dp->proto);
-    fprintf(fp, "Protocol: %s\n", return_value_ipproto_string$21);
+    const char *return_value_ipproto_string_21;
+    return_value_ipproto_string_21=ipproto_string(dp->proto);
+    fprintf(fp, "Protocol: %s\n", return_value_ipproto_string_21);
     fprint_tos(fp, (signed int)dp->tos);
     fprint_tcpflags(fp, (signed int)dp->flags);
     fclose(fp);
@@ -4810,94 +4810,94 @@ static void dump_netflow_v1(const struct cnf_data_v1 *dp)
 static void dump_netflow_v5(const struct cnf_data_v5 *dp)
 {
   struct _IO_FILE *fp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dump_file == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     fp=fopen(dump_file, "a");
-    tmp_if_expr$1 = fp == ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = fp == ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  if(!tmp_if_expr$1)
+  if(!tmp_if_expr_1)
   {
     fprintf(fp, "\nNetflow:  V5\n");
-    const char *return_value_intoa$2;
-    return_value_intoa$2=intoa(dp->src_addr);
-    fprintf(fp, "SrcAddr:  %s\n", return_value_intoa$2);
-    const char *return_value_intoa$3;
-    return_value_intoa$3=intoa(dp->dst_addr);
-    fprintf(fp, "DstAddr:  %s\n", return_value_intoa$3);
-    const char *return_value_intoa$4;
-    return_value_intoa$4=intoa(dp->nexthop);
-    fprintf(fp, "NextHop:  %s\n", return_value_intoa$4);
-    unsigned short int return_value_ntohs$5;
-    return_value_ntohs$5=ntohs(dp->ifin);
-    fprintf(fp, "InputIf:  %d\n", (signed int)return_value_ntohs$5);
-    unsigned short int return_value_ntohs$6;
-    return_value_ntohs$6=ntohs(dp->ifout);
-    fprintf(fp, "OutputIf: %d\n", (signed int)return_value_ntohs$6);
-    unsigned int return_value_ntohl$7;
-    return_value_ntohl$7=ntohl(dp->dpkts);
-    fprintf(fp, "Packets:  %u\n", (unsigned int)return_value_ntohl$7);
-    unsigned int return_value_ntohl$8;
-    return_value_ntohl$8=ntohl(dp->doctets);
-    fprintf(fp, "Octets:   %u\n", (unsigned int)return_value_ntohl$8);
-    unsigned int return_value_ntohl$9;
-    return_value_ntohl$9=ntohl(dp->firsttime);
-    fprintf(fp, "First:    %u\n", (unsigned int)return_value_ntohl$9);
-    unsigned int return_value_ntohl$10;
-    return_value_ntohl$10=ntohl(dp->lasttime);
-    fprintf(fp, "Last:     %u\n", (unsigned int)return_value_ntohl$10);
+    const char *return_value_intoa_2;
+    return_value_intoa_2=intoa(dp->src_addr);
+    fprintf(fp, "SrcAddr:  %s\n", return_value_intoa_2);
+    const char *return_value_intoa_3;
+    return_value_intoa_3=intoa(dp->dst_addr);
+    fprintf(fp, "DstAddr:  %s\n", return_value_intoa_3);
+    const char *return_value_intoa_4;
+    return_value_intoa_4=intoa(dp->nexthop);
+    fprintf(fp, "NextHop:  %s\n", return_value_intoa_4);
+    unsigned short int return_value_ntohs_5;
+    return_value_ntohs_5=ntohs(dp->ifin);
+    fprintf(fp, "InputIf:  %d\n", (signed int)return_value_ntohs_5);
+    unsigned short int return_value_ntohs_6;
+    return_value_ntohs_6=ntohs(dp->ifout);
+    fprintf(fp, "OutputIf: %d\n", (signed int)return_value_ntohs_6);
+    unsigned int return_value_ntohl_7;
+    return_value_ntohl_7=ntohl(dp->dpkts);
+    fprintf(fp, "Packets:  %u\n", (unsigned int)return_value_ntohl_7);
+    unsigned int return_value_ntohl_8;
+    return_value_ntohl_8=ntohl(dp->doctets);
+    fprintf(fp, "Octets:   %u\n", (unsigned int)return_value_ntohl_8);
+    unsigned int return_value_ntohl_9;
+    return_value_ntohl_9=ntohl(dp->firsttime);
+    fprintf(fp, "First:    %u\n", (unsigned int)return_value_ntohl_9);
+    unsigned int return_value_ntohl_10;
+    return_value_ntohl_10=ntohl(dp->lasttime);
+    fprintf(fp, "Last:     %u\n", (unsigned int)return_value_ntohl_10);
     if((signed int)dp->proto == 6)
     {
-      unsigned short int return_value_ntohs$11;
-      return_value_ntohs$11=ntohs(dp->src_port);
-      const char *return_value_tcpport_string$12;
-      return_value_tcpport_string$12=tcpport_string(return_value_ntohs$11);
-      fprintf(fp, "SrcPort:  %s\n", return_value_tcpport_string$12);
-      unsigned short int return_value_ntohs$13;
-      return_value_ntohs$13=ntohs(dp->dst_port);
-      const char *return_value_tcpport_string$14;
-      return_value_tcpport_string$14=tcpport_string(return_value_ntohs$13);
-      fprintf(fp, "DstPort:  %s\n", return_value_tcpport_string$14);
+      unsigned short int return_value_ntohs_11;
+      return_value_ntohs_11=ntohs(dp->src_port);
+      const char *return_value_tcpport_string_12;
+      return_value_tcpport_string_12=tcpport_string(return_value_ntohs_11);
+      fprintf(fp, "SrcPort:  %s\n", return_value_tcpport_string_12);
+      unsigned short int return_value_ntohs_13;
+      return_value_ntohs_13=ntohs(dp->dst_port);
+      const char *return_value_tcpport_string_14;
+      return_value_tcpport_string_14=tcpport_string(return_value_ntohs_13);
+      fprintf(fp, "DstPort:  %s\n", return_value_tcpport_string_14);
     }
 
     else
       if((signed int)dp->proto == 17)
       {
-        unsigned short int return_value_ntohs$15;
-        return_value_ntohs$15=ntohs(dp->src_port);
-        const char *return_value_udpport_string$16;
-        return_value_udpport_string$16=udpport_string(return_value_ntohs$15);
-        fprintf(fp, "SrcPort:  %s\n", return_value_udpport_string$16);
-        unsigned short int return_value_ntohs$17;
-        return_value_ntohs$17=ntohs(dp->dst_port);
-        const char *return_value_udpport_string$18;
-        return_value_udpport_string$18=udpport_string(return_value_ntohs$17);
-        fprintf(fp, "DstPort:  %s\n", return_value_udpport_string$18);
+        unsigned short int return_value_ntohs_15;
+        return_value_ntohs_15=ntohs(dp->src_port);
+        const char *return_value_udpport_string_16;
+        return_value_udpport_string_16=udpport_string(return_value_ntohs_15);
+        fprintf(fp, "SrcPort:  %s\n", return_value_udpport_string_16);
+        unsigned short int return_value_ntohs_17;
+        return_value_ntohs_17=ntohs(dp->dst_port);
+        const char *return_value_udpport_string_18;
+        return_value_udpport_string_18=udpport_string(return_value_ntohs_17);
+        fprintf(fp, "DstPort:  %s\n", return_value_udpport_string_18);
       }
 
       else
       {
-        unsigned short int return_value_ntohs$19;
-        return_value_ntohs$19=ntohs(dp->src_port);
-        fprintf(fp, "SrcPort:  %d\n", (signed int)return_value_ntohs$19);
-        unsigned short int return_value_ntohs$20;
-        return_value_ntohs$20=ntohs(dp->dst_port);
-        fprintf(fp, "DstPort:  %d\n", (signed int)return_value_ntohs$20);
+        unsigned short int return_value_ntohs_19;
+        return_value_ntohs_19=ntohs(dp->src_port);
+        fprintf(fp, "SrcPort:  %d\n", (signed int)return_value_ntohs_19);
+        unsigned short int return_value_ntohs_20;
+        return_value_ntohs_20=ntohs(dp->dst_port);
+        fprintf(fp, "DstPort:  %d\n", (signed int)return_value_ntohs_20);
       }
     fprint_tcpflags(fp, (signed int)dp->flags);
-    const char *return_value_ipproto_string$21;
-    return_value_ipproto_string$21=ipproto_string(dp->proto);
-    fprintf(fp, "Protocol: %s\n", return_value_ipproto_string$21);
+    const char *return_value_ipproto_string_21;
+    return_value_ipproto_string_21=ipproto_string(dp->proto);
+    fprintf(fp, "Protocol: %s\n", return_value_ipproto_string_21);
     fprint_tos(fp, (signed int)dp->tos);
-    unsigned short int return_value_ntohs$22;
-    return_value_ntohs$22=ntohs(dp->src_as);
-    fprintf(fp, "SrcASN:   %d\n", (signed int)return_value_ntohs$22);
-    unsigned short int return_value_ntohs$23;
-    return_value_ntohs$23=ntohs(dp->dst_as);
-    fprintf(fp, "DstASN:   %d\n", (signed int)return_value_ntohs$23);
+    unsigned short int return_value_ntohs_22;
+    return_value_ntohs_22=ntohs(dp->src_as);
+    fprintf(fp, "SrcASN:   %d\n", (signed int)return_value_ntohs_22);
+    unsigned short int return_value_ntohs_23;
+    return_value_ntohs_23=ntohs(dp->dst_as);
+    fprintf(fp, "DstASN:   %d\n", (signed int)return_value_ntohs_23);
     fprintf(fp, "SrcMask:  %d\n", (signed int)dp->src_mask);
     fprintf(fp, "DstMask:  %d\n", (signed int)dp->dst_mask);
     fclose(fp);
@@ -4910,99 +4910,99 @@ static void dump_netflow_v5(const struct cnf_data_v5 *dp)
 static void dump_netflow_v7(const struct cnf_data_v7 *dp)
 {
   struct _IO_FILE *fp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dump_file == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     fp=fopen(dump_file, "a");
-    tmp_if_expr$1 = fp == ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = fp == ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  if(!tmp_if_expr$1)
+  if(!tmp_if_expr_1)
   {
     fprintf(fp, "\nNetflow:  V7\n");
-    const char *return_value_intoa$2;
-    return_value_intoa$2=intoa(dp->src_addr);
-    fprintf(fp, "SrcAddr:  %s\n", return_value_intoa$2);
-    const char *return_value_intoa$3;
-    return_value_intoa$3=intoa(dp->dst_addr);
-    fprintf(fp, "DstAddr:  %s\n", return_value_intoa$3);
-    const char *return_value_intoa$4;
-    return_value_intoa$4=intoa(dp->nexthop);
-    fprintf(fp, "NextHop:  %s\n", return_value_intoa$4);
-    unsigned short int return_value_ntohs$5;
-    return_value_ntohs$5=ntohs(dp->ifin);
-    fprintf(fp, "InputIf:  %d\n", (signed int)return_value_ntohs$5);
-    unsigned short int return_value_ntohs$6;
-    return_value_ntohs$6=ntohs(dp->ifout);
-    fprintf(fp, "OutputIf: %d\n", (signed int)return_value_ntohs$6);
-    unsigned int return_value_ntohl$7;
-    return_value_ntohl$7=ntohl(dp->dpkts);
-    fprintf(fp, "Packets:  %u\n", (unsigned int)return_value_ntohl$7);
-    unsigned int return_value_ntohl$8;
-    return_value_ntohl$8=ntohl(dp->doctets);
-    fprintf(fp, "Octets:   %u\n", (unsigned int)return_value_ntohl$8);
-    unsigned int return_value_ntohl$9;
-    return_value_ntohl$9=ntohl(dp->firsttime);
-    fprintf(fp, "First:    %u\n", (unsigned int)return_value_ntohl$9);
-    unsigned int return_value_ntohl$10;
-    return_value_ntohl$10=ntohl(dp->lasttime);
-    fprintf(fp, "Last:     %u\n", (unsigned int)return_value_ntohl$10);
+    const char *return_value_intoa_2;
+    return_value_intoa_2=intoa(dp->src_addr);
+    fprintf(fp, "SrcAddr:  %s\n", return_value_intoa_2);
+    const char *return_value_intoa_3;
+    return_value_intoa_3=intoa(dp->dst_addr);
+    fprintf(fp, "DstAddr:  %s\n", return_value_intoa_3);
+    const char *return_value_intoa_4;
+    return_value_intoa_4=intoa(dp->nexthop);
+    fprintf(fp, "NextHop:  %s\n", return_value_intoa_4);
+    unsigned short int return_value_ntohs_5;
+    return_value_ntohs_5=ntohs(dp->ifin);
+    fprintf(fp, "InputIf:  %d\n", (signed int)return_value_ntohs_5);
+    unsigned short int return_value_ntohs_6;
+    return_value_ntohs_6=ntohs(dp->ifout);
+    fprintf(fp, "OutputIf: %d\n", (signed int)return_value_ntohs_6);
+    unsigned int return_value_ntohl_7;
+    return_value_ntohl_7=ntohl(dp->dpkts);
+    fprintf(fp, "Packets:  %u\n", (unsigned int)return_value_ntohl_7);
+    unsigned int return_value_ntohl_8;
+    return_value_ntohl_8=ntohl(dp->doctets);
+    fprintf(fp, "Octets:   %u\n", (unsigned int)return_value_ntohl_8);
+    unsigned int return_value_ntohl_9;
+    return_value_ntohl_9=ntohl(dp->firsttime);
+    fprintf(fp, "First:    %u\n", (unsigned int)return_value_ntohl_9);
+    unsigned int return_value_ntohl_10;
+    return_value_ntohl_10=ntohl(dp->lasttime);
+    fprintf(fp, "Last:     %u\n", (unsigned int)return_value_ntohl_10);
     if((signed int)dp->proto == 6)
     {
-      unsigned short int return_value_ntohs$11;
-      return_value_ntohs$11=ntohs(dp->src_port);
-      const char *return_value_tcpport_string$12;
-      return_value_tcpport_string$12=tcpport_string(return_value_ntohs$11);
-      fprintf(fp, "SrcPort:  %s\n", return_value_tcpport_string$12);
-      unsigned short int return_value_ntohs$13;
-      return_value_ntohs$13=ntohs(dp->dst_port);
-      const char *return_value_tcpport_string$14;
-      return_value_tcpport_string$14=tcpport_string(return_value_ntohs$13);
-      fprintf(fp, "DstPort:  %s\n", return_value_tcpport_string$14);
+      unsigned short int return_value_ntohs_11;
+      return_value_ntohs_11=ntohs(dp->src_port);
+      const char *return_value_tcpport_string_12;
+      return_value_tcpport_string_12=tcpport_string(return_value_ntohs_11);
+      fprintf(fp, "SrcPort:  %s\n", return_value_tcpport_string_12);
+      unsigned short int return_value_ntohs_13;
+      return_value_ntohs_13=ntohs(dp->dst_port);
+      const char *return_value_tcpport_string_14;
+      return_value_tcpport_string_14=tcpport_string(return_value_ntohs_13);
+      fprintf(fp, "DstPort:  %s\n", return_value_tcpport_string_14);
     }
 
     else
       if((signed int)dp->proto == 17)
       {
-        unsigned short int return_value_ntohs$15;
-        return_value_ntohs$15=ntohs(dp->src_port);
-        const char *return_value_udpport_string$16;
-        return_value_udpport_string$16=udpport_string(return_value_ntohs$15);
-        fprintf(fp, "SrcPort:  %s\n", return_value_udpport_string$16);
-        unsigned short int return_value_ntohs$17;
-        return_value_ntohs$17=ntohs(dp->dst_port);
-        const char *return_value_udpport_string$18;
-        return_value_udpport_string$18=udpport_string(return_value_ntohs$17);
-        fprintf(fp, "DstPort:  %s\n", return_value_udpport_string$18);
+        unsigned short int return_value_ntohs_15;
+        return_value_ntohs_15=ntohs(dp->src_port);
+        const char *return_value_udpport_string_16;
+        return_value_udpport_string_16=udpport_string(return_value_ntohs_15);
+        fprintf(fp, "SrcPort:  %s\n", return_value_udpport_string_16);
+        unsigned short int return_value_ntohs_17;
+        return_value_ntohs_17=ntohs(dp->dst_port);
+        const char *return_value_udpport_string_18;
+        return_value_udpport_string_18=udpport_string(return_value_ntohs_17);
+        fprintf(fp, "DstPort:  %s\n", return_value_udpport_string_18);
       }
 
       else
       {
-        unsigned short int return_value_ntohs$19;
-        return_value_ntohs$19=ntohs(dp->src_port);
-        fprintf(fp, "SrcPort:  %d\n", (signed int)return_value_ntohs$19);
-        unsigned short int return_value_ntohs$20;
-        return_value_ntohs$20=ntohs(dp->dst_port);
-        fprintf(fp, "DstPort:  %d\n", (signed int)return_value_ntohs$20);
+        unsigned short int return_value_ntohs_19;
+        return_value_ntohs_19=ntohs(dp->src_port);
+        fprintf(fp, "SrcPort:  %d\n", (signed int)return_value_ntohs_19);
+        unsigned short int return_value_ntohs_20;
+        return_value_ntohs_20=ntohs(dp->dst_port);
+        fprintf(fp, "DstPort:  %d\n", (signed int)return_value_ntohs_20);
       }
     fprint_tcpflags(fp, (signed int)dp->flags);
-    const char *return_value_ipproto_string$21;
-    return_value_ipproto_string$21=ipproto_string(dp->proto);
-    fprintf(fp, "Protocol: %s\n", return_value_ipproto_string$21);
+    const char *return_value_ipproto_string_21;
+    return_value_ipproto_string_21=ipproto_string(dp->proto);
+    fprintf(fp, "Protocol: %s\n", return_value_ipproto_string_21);
     fprint_tos(fp, (signed int)dp->tos);
-    unsigned int return_value_ntohl$22;
-    return_value_ntohl$22=ntohl(dp->src_as);
-    fprintf(fp, "SrcASN:   %d\n", (signed int)return_value_ntohl$22);
-    unsigned int return_value_ntohl$23;
-    return_value_ntohl$23=ntohl(dp->dst_as);
-    fprintf(fp, "DstASN:   %d\n", (signed int)return_value_ntohl$23);
+    unsigned int return_value_ntohl_22;
+    return_value_ntohl_22=ntohl(dp->src_as);
+    fprintf(fp, "SrcASN:   %d\n", (signed int)return_value_ntohl_22);
+    unsigned int return_value_ntohl_23;
+    return_value_ntohl_23=ntohl(dp->dst_as);
+    fprintf(fp, "DstASN:   %d\n", (signed int)return_value_ntohl_23);
     fprintf(fp, "SrcMask:  %d\n", (signed int)dp->src_mask);
     fprintf(fp, "DstMask:  %d\n", (signed int)dp->dst_mask);
-    const char *return_value_intoa$24;
-    return_value_intoa$24=intoa(dp->router_sc);
-    fprintf(fp, "RouterSc: %s\n", return_value_intoa$24);
+    const char *return_value_intoa_24;
+    return_value_intoa_24=intoa(dp->router_sc);
+    fprintf(fp, "RouterSc: %s\n", return_value_intoa_24);
     fclose(fp);
   }
 
@@ -5013,12 +5013,12 @@ static void dump_netflow_v7(const struct cnf_data_v7 *dp)
 static signed int edit_string(signed int ch)
 {
   signed int i;
-  unsigned long int return_value_strlen$1;
-  char *return_value_strchr$3;
-  char *return_value_strchr$5;
-  char *return_value_strchr$7;
-  unsigned long int return_value_strlen$8;
-  unsigned long int return_value_strlen$9;
+  unsigned long int return_value_strlen_1;
+  char *return_value_strchr_3;
+  char *return_value_strchr_5;
+  char *return_value_strchr_7;
+  unsigned long int return_value_strlen_8;
+  unsigned long int return_value_strlen_9;
   if(!(ch == 10) && !(ch == 13) && !(ch == 0x0100))
   {
     if(ch == 0x0600)
@@ -5088,8 +5088,8 @@ static signed int edit_string(signed int ch)
 
   __CPROVER_DUMP_L5:
     ;
-    return_value_strlen$1=strlen(&prompt_buf[(signed long int)cur]);
-    if(!(return_value_strlen$1 >= (unsigned long int)barlen))
+    return_value_strlen_1=strlen(&prompt_buf[(signed long int)cur]);
+    if(!(return_value_strlen_1 >= (unsigned long int)barlen))
       cur = nb;
 
     else
@@ -5103,17 +5103,17 @@ static signed int edit_string(signed int ch)
     for( ; i >= 1; i = i - 1)
       if(ch == 0)
       {
-        char *return_value_strchr$2;
-        return_value_strchr$2=strchr(spaces, (signed int)prompt_buf[(signed long int)(i - 1)]);
-        if(!(return_value_strchr$2 == ((char *)NULL)))
+        char *return_value_strchr_2;
+        return_value_strchr_2=strchr(spaces, (signed int)prompt_buf[(signed long int)(i - 1)]);
+        if(!(return_value_strchr_2 == ((char *)NULL)))
           ch = ch + 1;
 
       }
 
       else
       {
-        return_value_strchr$3=strchr(spaces, (signed int)prompt_buf[(signed long int)(i - 1)]);
-        if(return_value_strchr$3 == ((char *)NULL))
+        return_value_strchr_3=strchr(spaces, (signed int)prompt_buf[(signed long int)(i - 1)]);
+        if(return_value_strchr_3 == ((char *)NULL))
           break;
 
       }
@@ -5127,17 +5127,17 @@ static signed int edit_string(signed int ch)
     for( ; !(i >= nb); i = i + 1)
       if(ch == 0)
       {
-        char *return_value_strchr$4;
-        return_value_strchr$4=strchr(spaces, (signed int)prompt_buf[(signed long int)i]);
-        if(!(return_value_strchr$4 == ((char *)NULL)))
+        char *return_value_strchr_4;
+        return_value_strchr_4=strchr(spaces, (signed int)prompt_buf[(signed long int)i]);
+        if(!(return_value_strchr_4 == ((char *)NULL)))
           ch = ch + 1;
 
       }
 
       else
       {
-        return_value_strchr$5=strchr(spaces, (signed int)prompt_buf[(signed long int)i]);
-        if(return_value_strchr$5 == ((char *)NULL))
+        return_value_strchr_5=strchr(spaces, (signed int)prompt_buf[(signed long int)i]);
+        if(return_value_strchr_5 == ((char *)NULL))
           break;
 
       }
@@ -5203,17 +5203,17 @@ static signed int edit_string(signed int ch)
     for( ; i >= 1; i = i - 1)
       if(ch == 0)
       {
-        char *return_value_strchr$6;
-        return_value_strchr$6=strchr(spaces, (signed int)prompt_buf[(signed long int)(i - 1)]);
-        if(!(return_value_strchr$6 == ((char *)NULL)))
+        char *return_value_strchr_6;
+        return_value_strchr_6=strchr(spaces, (signed int)prompt_buf[(signed long int)(i - 1)]);
+        if(!(return_value_strchr_6 == ((char *)NULL)))
           ch = ch + 1;
 
       }
 
       else
       {
-        return_value_strchr$7=strchr(spaces, (signed int)prompt_buf[(signed long int)(i - 1)]);
-        if(return_value_strchr$7 == ((char *)NULL))
+        return_value_strchr_7=strchr(spaces, (signed int)prompt_buf[(signed long int)(i - 1)]);
+        if(return_value_strchr_7 == ((char *)NULL))
           break;
 
       }
@@ -5238,12 +5238,12 @@ static signed int edit_string(signed int ch)
 
   __CPROVER_DUMP_L40:
     ;
-    return_value_strlen$8=strlen(cut_buf);
-    i = (signed int)return_value_strlen$8;
+    return_value_strlen_8=strlen(cut_buf);
+    i = (signed int)return_value_strlen_8;
     if(!(i == 0))
     {
-      return_value_strlen$9=strlen(prompt_buf);
-      if((unsigned long int)(buf_size + -1) + -return_value_strlen$9 >= (unsigned long int)i)
+      return_value_strlen_9=strlen(prompt_buf);
+      if((unsigned long int)(buf_size + -1) + -return_value_strlen_9 >= (unsigned long int)i)
       {
         memmove((void *)&prompt_buf[(signed long int)(cur + i)], (const void *)&prompt_buf[(signed long int)cur], (unsigned long int)(nb - cur));
         memmove((void *)&prompt_buf[(signed long int)cur], (const void *)cut_buf, (unsigned long int)i);
@@ -5255,16 +5255,16 @@ static signed int edit_string(signed int ch)
 
     goto __CPROVER_DUMP_L48;
   }
-  char *return_value_strchr$10;
-  signed int tmp_post$11;
+  char *return_value_strchr_10;
+  signed int tmp_post_11;
   if(ch >= 127 || !(ch >= 32))
     return 0;
 
   else
     if(!(char_set == ((const char *)NULL)))
     {
-      return_value_strchr$10=strchr(char_set, ch);
-      if(!(return_value_strchr$10 == ((char *)NULL)))
+      return_value_strchr_10=strchr(char_set, ch);
+      if(!(return_value_strchr_10 == ((char *)NULL)))
         goto __CPROVER_DUMP_L44;
 
       beep();
@@ -5293,9 +5293,9 @@ static signed int edit_string(signed int ch)
         if(!(cur >= nb))
           memmove((void *)&prompt_buf[(signed long int)(cur + 1)], (const void *)&prompt_buf[(signed long int)cur], (unsigned long int)(nb - cur));
 
-        tmp_post$11 = cur;
+        tmp_post_11 = cur;
         cur = cur + 1;
-        prompt_buf[(signed long int)tmp_post$11] = (char)ch;
+        prompt_buf[(signed long int)tmp_post_11] = (char)ch;
         nb = nb + 1;
 
       __CPROVER_DUMP_L48:
@@ -5342,27 +5342,27 @@ const char * etheraddr_string(const unsigned char *ep)
   struct enamemem *tp;
   char buf[(signed long int)sizeof(char [18l]) /*18l*/ ];
   tp=lookup_emem(ep);
-  char *tmp_post$1;
-  char *tmp_post$2;
-  const unsigned char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  const unsigned char *tmp_post$7;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  const unsigned char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  const unsigned char *tmp_post_7;
   if(!(tp->e_name == ((const char *)NULL)))
     return tp->e_name;
 
   else
   {
     cp = buf;
-    tmp_post$1 = cp;
+    tmp_post_1 = cp;
     cp = cp + 1l;
-    *tmp_post$1 = hex[(signed long int)((signed int)*ep >> 4)];
-    tmp_post$2 = cp;
+    *tmp_post_1 = hex[(signed long int)((signed int)*ep >> 4)];
+    tmp_post_2 = cp;
     cp = cp + 1l;
-    tmp_post$3 = ep;
+    tmp_post_3 = ep;
     ep = ep + 1l;
-    *tmp_post$2 = hex[(signed long int)((signed int)*tmp_post$3 & 0xf)];
+    *tmp_post_2 = hex[(signed long int)((signed int)*tmp_post_3 & 0xf)];
     i = (unsigned int)5;
     do
     {
@@ -5370,17 +5370,17 @@ const char * etheraddr_string(const unsigned char *ep)
       if(!((signed int)i >= 0))
         break;
 
-      tmp_post$4 = cp;
+      tmp_post_4 = cp;
       cp = cp + 1l;
-      *tmp_post$4 = (char)58;
-      tmp_post$5 = cp;
+      *tmp_post_4 = (char)58;
+      tmp_post_5 = cp;
       cp = cp + 1l;
-      *tmp_post$5 = hex[(signed long int)((signed int)*ep >> 4)];
-      tmp_post$6 = cp;
+      *tmp_post_5 = hex[(signed long int)((signed int)*ep >> 4)];
+      tmp_post_6 = cp;
       cp = cp + 1l;
-      tmp_post$7 = ep;
+      tmp_post_7 = ep;
       ep = ep + 1l;
-      *tmp_post$6 = hex[(signed long int)((signed int)*tmp_post$7 & 0xf)];
+      *tmp_post_6 = hex[(signed long int)((signed int)*tmp_post_7 & 0xf)];
     }
     while((_Bool)1);
     *cp = (char)0;
@@ -5406,29 +5406,29 @@ const char * ethertype_string(unsigned short int type)
   tp->nxt=newhnamemem();
   cp = buf;
   type=ntohs(type);
-  char *tmp_post$1 = cp;
+  char *tmp_post_1 = cp;
   cp = cp + 1l;
-  signed int return_value_toupper$2;
-  return_value_toupper$2=toupper((signed int)hex[(signed long int)((signed int)type >> 12 & 0xf)]);
-  *tmp_post$1 = (char)return_value_toupper$2;
-  char *tmp_post$3 = cp;
+  signed int return_value_toupper_2;
+  return_value_toupper_2=toupper((signed int)hex[(signed long int)((signed int)type >> 12 & 0xf)]);
+  *tmp_post_1 = (char)return_value_toupper_2;
+  char *tmp_post_3 = cp;
   cp = cp + 1l;
-  signed int return_value_toupper$4;
-  return_value_toupper$4=toupper((signed int)hex[(signed long int)((signed int)type >> 8 & 0xf)]);
-  *tmp_post$3 = (char)return_value_toupper$4;
-  char *tmp_post$5 = cp;
+  signed int return_value_toupper_4;
+  return_value_toupper_4=toupper((signed int)hex[(signed long int)((signed int)type >> 8 & 0xf)]);
+  *tmp_post_3 = (char)return_value_toupper_4;
+  char *tmp_post_5 = cp;
   cp = cp + 1l;
-  signed int return_value_toupper$6;
-  return_value_toupper$6=toupper((signed int)hex[(signed long int)((signed int)type >> 4 & 0xf)]);
-  *tmp_post$5 = (char)return_value_toupper$6;
-  char *tmp_post$7 = cp;
+  signed int return_value_toupper_6;
+  return_value_toupper_6=toupper((signed int)hex[(signed long int)((signed int)type >> 4 & 0xf)]);
+  *tmp_post_5 = (char)return_value_toupper_6;
+  char *tmp_post_7 = cp;
   cp = cp + 1l;
-  signed int return_value_toupper$8;
-  return_value_toupper$8=toupper((signed int)hex[(signed long int)((signed int)type & 0xf)]);
-  *tmp_post$7 = (char)return_value_toupper$8;
-  char *tmp_post$9 = cp;
+  signed int return_value_toupper_8;
+  return_value_toupper_8=toupper((signed int)hex[(signed long int)((signed int)type & 0xf)]);
+  *tmp_post_7 = (char)return_value_toupper_8;
+  char *tmp_post_9 = cp;
   cp = cp + 1l;
-  *tmp_post$9 = (char)0;
+  *tmp_post_9 = (char)0;
   tp->name=strdup(buf);
   return tp->name;
 }
@@ -5438,9 +5438,9 @@ const char * ethertype_string(unsigned short int type)
 signed long int fd_size(signed int fd)
 {
   struct stat st;
-  signed int return_value_fstat$1;
-  return_value_fstat$1=fstat(fd, &st);
-  if(!(return_value_fstat$1 >= 0))
+  signed int return_value_fstat_1;
+  return_value_fstat_1=fstat(fd, &st);
+  if(!(return_value_fstat_1 >= 0))
     return (signed long int)-1;
 
   else
@@ -5456,41 +5456,41 @@ static void file_pcap_parse(unsigned char *a, struct pcap_pkthdr *h, const unsig
   signed long int sz;
   signed int hdrlen;
   struct netstat ns;
-  _Bool tmp_if_expr$2;
-  signed int return_value_fileno$1;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_2;
+  signed int return_value_fileno_1;
+  _Bool tmp_if_expr_5;
   if(!(file_pcap == ((struct pcap *)NULL)))
   {
     fp=pcap_file(file_pcap);
     if(fp == ((struct _IO_FILE *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_fileno$1=fileno(fp);
-      sz=fd_size(return_value_fileno$1);
-      tmp_if_expr$2 = sz < (signed long int)0 ? (_Bool)1 : (_Bool)0;
+      return_value_fileno_1=fileno(fp);
+      sz=fd_size(return_value_fileno_1);
+      tmp_if_expr_2 = sz < (signed long int)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$2)
+    if(!tmp_if_expr_2)
     {
-      signed long int return_value_ftell$3;
-      return_value_ftell$3=ftell(fp);
-      if((signed long int)(1536 * LINES) >= sz + -return_value_ftell$3)
+      signed long int return_value_ftell_3;
+      return_value_ftell_3=ftell(fp);
+      if((signed long int)(1536 * LINES) >= sz + -return_value_ftell_3)
       {
         memset((void *)&ns, 0, sizeof(struct netstat) /*96ul*/ );
-        signed int return_value_pcap_datalink$4;
-        return_value_pcap_datalink$4=pcap_datalink(file_pcap);
-        hdrlen=parse_dl(&ns, return_value_pcap_datalink$4, (signed int)h->caplen, (signed int)h->len, p);
+        signed int return_value_pcap_datalink_4;
+        return_value_pcap_datalink_4=pcap_datalink(file_pcap);
+        hdrlen=parse_dl(&ns, return_value_pcap_datalink_4, (signed int)h->caplen, (signed int)h->len, p);
         if(!(hdrlen >= 0))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = (unsigned int)hdrlen > h->caplen ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$5)
+          tmp_if_expr_5 = (unsigned int)hdrlen > h->caplen ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_5)
         {
-          signed int return_value_netstat_match$6;
-          return_value_netstat_match$6=netstat_match(&ns, dump_match);
-          if(!(return_value_netstat_match$6 == 0))
+          signed int return_value_netstat_match_6;
+          return_value_netstat_match_6=netstat_match(&ns, dump_match);
+          if(!(return_value_netstat_match_6 == 0))
           {
             ns.mtime = h->ts;
             switch((signed int)show_stat_mode)
@@ -5533,9 +5533,9 @@ static signed int find_backflow(struct netstat **list, signed int items, struct 
     i = 0;
     for( ; !(i >= items); i = i + 1)
     {
-      signed int return_value_netstat_bidir$1;
-      return_value_netstat_bidir$1=netstat_bidir(at, list[(signed long int)i]);
-      if(!(return_value_netstat_bidir$1 == 0))
+      signed int return_value_netstat_bidir_1;
+      return_value_netstat_bidir_1=netstat_bidir(at, list[(signed long int)i]);
+      if(!(return_value_netstat_bidir_1 == 0))
         return i;
 
     }
@@ -5769,7 +5769,7 @@ static void get_colors(const struct selector *sp, signed int *fore, signed int *
 static char * get_name(struct sockaddr *sa, char *dst, signed int size)
 {
   struct hostent *hp = ((struct hostent *)NULL);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sa == ((struct sockaddr *)NULL))
     return ((char *)NULL);
 
@@ -5784,11 +5784,11 @@ static char * get_name(struct sockaddr *sa, char *dst, signed int size)
       for( ; !(i >= size + -1); i = i + 1)
       {
         if((signed int)hp->h_name[(signed long int)i] == 0)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)hp->h_name[(signed long int)i] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)hp->h_name[(signed long int)i] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           break;
 
         dst[(signed long int)i] = hp->h_name[(signed long int)i];
@@ -5805,29 +5805,29 @@ static char * get_name(struct sockaddr *sa, char *dst, signed int size)
 // file getkey.c line 83
 static struct selector * get_selector(struct pcap_handler *ph_list)
 {
-  struct selector *return_value_show_if_selector$1;
-  struct pcap_handler *return_value_pcap_get_selected$2;
-  struct selector *return_value_show_stat_selector$3;
-  struct selector *return_value_help_page_selector$4;
+  struct selector *return_value_show_if_selector_1;
+  struct pcap_handler *return_value_pcap_get_selected_2;
+  struct selector *return_value_show_stat_selector_3;
+  struct selector *return_value_help_page_selector_4;
   switch((signed int)show_mode)
   {
     case Interfaces:
     {
-      return_value_show_if_selector$1=show_if_selector();
-      return return_value_show_if_selector$1;
+      return_value_show_if_selector_1=show_if_selector();
+      return return_value_show_if_selector_1;
     }
     case NetStat:
     {
-      return_value_pcap_get_selected$2=pcap_get_selected(ph_list);
-      return_value_show_stat_selector$3=show_stat_selector(return_value_pcap_get_selected$2);
-      return return_value_show_stat_selector$3;
+      return_value_pcap_get_selected_2=pcap_get_selected(ph_list);
+      return_value_show_stat_selector_3=show_stat_selector(return_value_pcap_get_selected_2);
+      return return_value_show_stat_selector_3;
     }
     case FlowDump:
       goto __CPROVER_DUMP_L5;
     case HelpPage:
     {
-      return_value_help_page_selector$4=help_page_selector();
-      return return_value_help_page_selector$4;
+      return_value_help_page_selector_4=help_page_selector();
+      return return_value_help_page_selector_4;
     }
     default:
     {
@@ -5888,7 +5888,7 @@ static void get_size(const struct selector *sp, signed int *lines, signed int *c
 void getkey_init(struct pcap_handler *ph)
 {
   struct session_ent *sd;
-  sd=session_open(0, ((struct sockaddr *)NULL), (enum anonymous$6)PlainFile);
+  sd=session_open(0, ((struct sockaddr *)NULL), (enum anonymous_6)PlainFile);
   if(sd == ((struct session_ent *)NULL))
   {
     perror("session_open 0");
@@ -5908,11 +5908,11 @@ const char * getname(const unsigned char *ap)
   struct hnamemem *p;
   signed int found;
   memcpy((void *)&addr, (const void *)ap, sizeof(unsigned int) /*4ul*/ );
-  const char *return_value_intoa$1;
+  const char *return_value_intoa_1;
   if(!(nflag == 0))
   {
-    return_value_intoa$1=intoa(addr);
-    return return_value_intoa$1;
+    return_value_intoa_1=intoa(addr);
+    return return_value_intoa_1;
   }
 
   else
@@ -5930,16 +5930,16 @@ const char * getname(const unsigned char *ap)
     {
       p->addr = addr;
       p->nxt=newhnamemem();
-      const char *return_value_intoa$2;
-      return_value_intoa$2=intoa(addr);
-      p->name=strdup(return_value_intoa$2);
+      const char *return_value_intoa_2;
+      return_value_intoa_2=intoa(addr);
+      p->name=strdup(return_value_intoa_2);
     }
 
     if(p->resolving == 0)
     {
-      signed int return_value_domain_resolve_name$3;
-      return_value_domain_resolve_name$3=domain_resolve_name(addr, ((struct session_ent *)NULL), (void (*)(struct session_ent *, struct domain_data_ent *))name_resolved);
-      if(!(return_value_domain_resolve_name$3 >= 0))
+      signed int return_value_domain_resolve_name_3;
+      return_value_domain_resolve_name_3=domain_resolve_name(addr, ((struct session_ent *)NULL), (void (*)(struct session_ent *, struct domain_data_ent *))name_resolved);
+      if(!(return_value_domain_resolve_name_3 >= 0))
         p->resolving = -1;
 
       else
@@ -5961,14 +5961,14 @@ signed int hadd(struct htab *t, unsigned char *key, unsigned long int keyl, void
   x=lookup(key, keyl, (unsigned long int)0);
   y = x & t->mask;
   h = t->table[(signed long int)y];
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   for( ; !(h == ((struct hitem *)NULL)); h = h->next)
     if(x == h->hval)
     {
       if(keyl == h->keyl)
       {
-        return_value_memcmp$1=memcmp((const void *)key, (const void *)h->key, keyl);
-        if(return_value_memcmp$1 == 0)
+        return_value_memcmp_1=memcmp((const void *)key, (const void *)h->key, keyl);
+        if(return_value_memcmp_1 == 0)
         {
           t->apos = y;
           t->ipos = h;
@@ -5979,20 +5979,20 @@ signed int hadd(struct htab *t, unsigned char *key, unsigned long int keyl, void
 
     }
 
-  char *tmp_if_expr$3;
-  char *return_value_renewx$2;
+  char *tmp_if_expr_3;
+  char *return_value_renewx_2;
   if(!(t->space->numleft == 0))
   {
     t->space->numleft = t->space->numleft - (signed int)t->space->size;
-    tmp_if_expr$3 = (char *)(t->space->list + (signed long int)1) + (signed long int)t->space->numleft;
+    tmp_if_expr_3 = (char *)(t->space->list + (signed long int)1) + (signed long int)t->space->numleft;
   }
 
   else
   {
-    return_value_renewx$2=renewx(t->space);
-    tmp_if_expr$3 = return_value_renewx$2;
+    return_value_renewx_2=renewx(t->space);
+    tmp_if_expr_3 = return_value_renewx_2;
   }
-  h = (struct hitem *)tmp_if_expr$3;
+  h = (struct hitem *)tmp_if_expr_3;
   if(h == ((struct hitem *)NULL))
     return -1;
 
@@ -6025,18 +6025,18 @@ struct htab * hcreate(signed int logsize)
   unsigned long int i;
   unsigned long int len;
   struct htab *t;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct htab) /*64ul*/ );
-  t = (struct htab *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct htab) /*64ul*/ );
+  t = (struct htab *)return_value_malloc_1;
   if(t == ((struct htab *)NULL))
     return ((struct htab *)NULL);
 
   else
   {
     len = (unsigned long int)1 << logsize;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct hitem *) /*8ul*/  * (unsigned long int)len);
-    t->table = (struct hitem **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct hitem *) /*8ul*/  * (unsigned long int)len);
+    t->table = (struct hitem **)return_value_malloc_2;
     if(t->table == ((struct hitem **)NULL))
       return ((struct htab *)NULL);
 
@@ -6113,11 +6113,11 @@ void hdr2str(struct netstat_header *nh, char *src_buf, signed int src_len, char 
   if(!(proto_buf == ((char *)NULL)))
     *proto_buf = (char)0;
 
-  const char *return_value_ipproto_string$1;
-  unsigned short int return_value_ntohs$9;
-  unsigned short int return_value_ntohs$4;
-  const char *return_value_ethertype_string$5;
-  const char *return_value_llcsap_string$8;
+  const char *return_value_ipproto_string_1;
+  unsigned short int return_value_ntohs_9;
+  unsigned short int return_value_ntohs_4;
+  const char *return_value_ethertype_string_5;
+  const char *return_value_llcsap_string_8;
   if(!(nh == ((struct netstat_header *)NULL)))
   {
     ns = (struct netstat *)nh;
@@ -6136,8 +6136,8 @@ void hdr2str(struct netstat_header *nh, char *src_buf, signed int src_len, char 
 
         else
         {
-          return_value_ipproto_string$1=ipproto_string(ns->ns_hdr.in_hdr.proto);
-          strncpy(proto_buf, return_value_ipproto_string$1, (unsigned long int)proto_len);
+          return_value_ipproto_string_1=ipproto_string(ns->ns_hdr.in_hdr.proto);
+          strncpy(proto_buf, return_value_ipproto_string_1, (unsigned long int)proto_len);
         }
         proto_buf[(signed long int)(proto_len - 1)] = (char)0;
       }
@@ -6146,22 +6146,22 @@ void hdr2str(struct netstat_header *nh, char *src_buf, signed int src_len, char 
 
     else
     {
-      return_value_ntohs$9=ntohs(ns->ns_hdr.en_hdr.type);
-      if((signed int)return_value_ntohs$9 >= 1501)
+      return_value_ntohs_9=ntohs(ns->ns_hdr.en_hdr.type);
+      if((signed int)return_value_ntohs_9 >= 1501)
       {
         if(src_len >= 2 && !(src_buf == ((char *)NULL)))
         {
-          const char *return_value_etheraddr_string$2;
-          return_value_etheraddr_string$2=etheraddr_string(ns->ns_hdr.en_hdr.src);
-          strncpy(src_buf, return_value_etheraddr_string$2, (unsigned long int)src_len);
+          const char *return_value_etheraddr_string_2;
+          return_value_etheraddr_string_2=etheraddr_string(ns->ns_hdr.en_hdr.src);
+          strncpy(src_buf, return_value_etheraddr_string_2, (unsigned long int)src_len);
           src_buf[(signed long int)(src_len - 1)] = (char)0;
         }
 
         if(dst_len >= 2 && !(dst_buf == ((char *)NULL)))
         {
-          const char *return_value_etheraddr_string$3;
-          return_value_etheraddr_string$3=etheraddr_string(ns->ns_hdr.en_hdr.dst);
-          strncpy(dst_buf, return_value_etheraddr_string$3, (unsigned long int)dst_len);
+          const char *return_value_etheraddr_string_3;
+          return_value_etheraddr_string_3=etheraddr_string(ns->ns_hdr.en_hdr.dst);
+          strncpy(dst_buf, return_value_etheraddr_string_3, (unsigned long int)dst_len);
           dst_buf[(signed long int)(dst_len - 1)] = (char)0;
         }
 
@@ -6169,14 +6169,14 @@ void hdr2str(struct netstat_header *nh, char *src_buf, signed int src_len, char 
         {
           if(!(nflag == 0))
           {
-            return_value_ntohs$4=ntohs(ns->ns_hdr.en_hdr.type);
-            snprintf(proto_buf, (unsigned long int)proto_len, "%04x", return_value_ntohs$4);
+            return_value_ntohs_4=ntohs(ns->ns_hdr.en_hdr.type);
+            snprintf(proto_buf, (unsigned long int)proto_len, "%04x", return_value_ntohs_4);
           }
 
           else
           {
-            return_value_ethertype_string$5=ethertype_string(ns->ns_hdr.en_hdr.type);
-            strncpy(proto_buf, return_value_ethertype_string$5, (unsigned long int)proto_len);
+            return_value_ethertype_string_5=ethertype_string(ns->ns_hdr.en_hdr.type);
+            strncpy(proto_buf, return_value_ethertype_string_5, (unsigned long int)proto_len);
           }
           proto_buf[(signed long int)(proto_len - 1)] = (char)0;
         }
@@ -6188,17 +6188,17 @@ void hdr2str(struct netstat_header *nh, char *src_buf, signed int src_len, char 
         {
           if(src_len >= 2 && !(src_buf == ((char *)NULL)))
           {
-            const char *return_value_etheraddr_string$6;
-            return_value_etheraddr_string$6=etheraddr_string(ns->ns_hdr.en_hdr.src);
-            strncpy(src_buf, return_value_etheraddr_string$6, (unsigned long int)src_len);
+            const char *return_value_etheraddr_string_6;
+            return_value_etheraddr_string_6=etheraddr_string(ns->ns_hdr.en_hdr.src);
+            strncpy(src_buf, return_value_etheraddr_string_6, (unsigned long int)src_len);
             src_buf[(signed long int)(src_len - 1)] = (char)0;
           }
 
           if(dst_len >= 2 && !(dst_buf == ((char *)NULL)))
           {
-            const char *return_value_etheraddr_string$7;
-            return_value_etheraddr_string$7=etheraddr_string(ns->ns_hdr.en_hdr.dst);
-            strncpy(dst_buf, return_value_etheraddr_string$7, (unsigned long int)dst_len);
+            const char *return_value_etheraddr_string_7;
+            return_value_etheraddr_string_7=etheraddr_string(ns->ns_hdr.en_hdr.dst);
+            strncpy(dst_buf, return_value_etheraddr_string_7, (unsigned long int)dst_len);
             dst_buf[(signed long int)(dst_len - 1)] = (char)0;
           }
 
@@ -6209,8 +6209,8 @@ void hdr2str(struct netstat_header *nh, char *src_buf, signed int src_len, char 
 
             else
             {
-              return_value_llcsap_string$8=llcsap_string(ns->ns_hdr.en_hdr.param.llc.ssap);
-              strncpy(proto_buf, return_value_llcsap_string$8, (unsigned long int)proto_len);
+              return_value_llcsap_string_8=llcsap_string(ns->ns_hdr.en_hdr.param.llc.ssap);
+              strncpy(proto_buf, return_value_llcsap_string_8, (unsigned long int)proto_len);
             }
             proto_buf[(signed long int)(proto_len - 1)] = (char)0;
           }
@@ -6245,24 +6245,24 @@ static signed int help_page_footer(char *dst, signed int size, const char *topic
   signed int len;
   struct selector *sp;
   sp=help_page_selector();
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(dst == ((char *)NULL) || topic == ((const char *)NULL) || sp == ((struct selector *)NULL) || !(size >= 1))
     return 0;
 
   else
   {
     i = 0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(topic);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(topic);
+    len = (signed int)return_value_strlen_1;
     if(len >= 1)
     {
       if(!(len >= sp->COLS))
       {
         len = sp->COLS / 2 - len / 2;
-        for( ; !(i >= len); dst[(signed long int)tmp_post$2] = (char)32)
+        for( ; !(i >= len); dst[(signed long int)tmp_post_2] = (char)32)
         {
-          tmp_post$2 = i;
+          tmp_post_2 = i;
           i = i + 1;
         }
       }
@@ -6286,7 +6286,7 @@ static signed int help_page_header(char *dst, signed int size, const void *unuse
 
   else
   {
-    scale_size$link2(&name_sz, &desc_sz);
+    scale_size_link2(&name_sz, &desc_sz);
     snprintf(dst, (unsigned long int)size, "%-*.*s %-*.*s", name_sz, name_sz, (const void *)" KeyPress", desc_sz, desc_sz, (const void *)"Action");
     return 0;
   }
@@ -6300,8 +6300,8 @@ signed int help_page_key(signed int idx)
   struct selector *sp;
   struct help_page_entry *hp;
   sp=help_page_selector();
-  signed int tmp_post$1;
-  signed int tmp_if_expr$2;
+  signed int tmp_post_1;
+  signed int tmp_if_expr_2;
   if(sp == ((struct selector *)NULL))
     return -1;
 
@@ -6311,18 +6311,18 @@ signed int help_page_key(signed int idx)
     i = 0;
     for( ; !(hp == ((struct help_page_entry *)NULL)); hp = hp + 1l)
     {
-      tmp_post$1 = i;
+      tmp_post_1 = i;
       i = i + 1;
-      if(tmp_post$1 == idx)
+      if(tmp_post_1 == idx)
         break;
 
     }
     if(!(hp == ((struct help_page_entry *)NULL)))
-      tmp_if_expr$2 = hp->key;
+      tmp_if_expr_2 = hp->key;
 
     else
-      tmp_if_expr$2 = -1;
-    return tmp_if_expr$2;
+      tmp_if_expr_2 = -1;
+    return tmp_if_expr_2;
   }
 }
 
@@ -6337,7 +6337,7 @@ static signed int help_page_line(char *dst, signed int size, struct help_page_en
 
   else
   {
-    scale_size$link2(&name_sz, &desc_sz);
+    scale_size_link2(&name_sz, &desc_sz);
     snprintf(dst, (unsigned long int)size, "%-*.*s %-*.*s", name_sz, name_sz, (hp + (signed long int)idx)->name, desc_sz, desc_sz, (hp + (signed long int)idx)->descr);
     return 0;
   }
@@ -6345,12 +6345,12 @@ static signed int help_page_line(char *dst, signed int size, struct help_page_en
 
 // help_page_list
 // file help_page.h line 18
-struct selector * help_page_list(enum anonymous$13 mode)
+struct selector * help_page_list(enum anonymous_13 mode)
 {
   struct help_page_entry *hp = ((struct help_page_entry *)NULL);
   char *topic = ((char *)NULL);
   struct selector *sp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   switch((signed int)mode)
   {
     case Interfaces:
@@ -6385,11 +6385,11 @@ struct selector * help_page_list(enum anonymous$13 mode)
         do
         {
           if(!(hp == ((struct help_page_entry *)NULL)))
-            tmp_if_expr$1 = hp->name != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = hp->name != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
           sp->items = sp->items + 1;
@@ -6405,7 +6405,7 @@ struct selector * help_page_list(enum anonymous$13 mode)
 
 // help_page_mode
 // file help_page.h line 19
-enum anonymous$13 help_page_mode()
+enum anonymous_13 help_page_mode()
 {
   return help_mode;
 }
@@ -6414,7 +6414,7 @@ enum anonymous$13 help_page_mode()
 // file help_page.h line 17
 struct selector * help_page_selector()
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   static struct selector *sp = ((struct selector *)NULL);
   if(sp == ((struct selector *)NULL))
   {
@@ -6423,16 +6423,16 @@ struct selector * help_page_selector()
     {
       signed int name_sz;
       signed int desc_sz;
-      scale_size$link2(&name_sz, &desc_sz);
+      scale_size_link2(&name_sz, &desc_sz);
       sp->window_color = (signed int)((unsigned long int)1UL << 10 + 8);
       sp->cursor_color = (signed int)(1UL - 1UL);
       sp->COLS = name_sz + desc_sz < COLS ? name_sz + desc_sz : COLS;
       if(!(sp->COLS / 3 >= LINES))
-        tmp_if_expr$1 = sp->COLS / 3;
+        tmp_if_expr_1 = sp->COLS / 3;
 
       else
-        tmp_if_expr$1 = LINES;
-      sp->LINES = tmp_if_expr$1;
+        tmp_if_expr_1 = LINES;
+      sp->LINES = tmp_if_expr_1;
       sp->COL = COLS / 2 - sp->COLS / 2;
       sp->LINE = LINES / 2 - sp->LINES / 2;
       sp->get_header = help_page_header;
@@ -6454,14 +6454,14 @@ signed int hfind(struct htab *t, unsigned char *key, unsigned long int keyl)
   x=lookup(key, keyl, (unsigned long int)0);
   unsigned long int y = x & t->mask;
   h = t->table[(signed long int)y];
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   for( ; !(h == ((struct hitem *)NULL)); h = h->next)
     if(x == h->hval)
     {
       if(keyl == h->keyl)
       {
-        return_value_memcmp$1=memcmp((const void *)key, (const void *)h->key, keyl);
-        if(return_value_memcmp$1 == 0)
+        return_value_memcmp_1=memcmp((const void *)key, (const void *)h->key, keyl);
+        if(return_value_memcmp_1 == 0)
         {
           t->apos = y;
           t->ipos = h;
@@ -6495,10 +6495,10 @@ static void hgrow(struct htab *t)
   unsigned long int i;
   struct hitem **oldtab = t->table;
   struct hitem **newtab;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(newsize * sizeof(struct hitem *) /*8ul*/ );
-  newtab = (struct hitem **)return_value_malloc$1;
-  unsigned long int tmp_post$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(newsize * sizeof(struct hitem *) /*8ul*/ );
+  newtab = (struct hitem **)return_value_malloc_1;
+  unsigned long int tmp_post_2;
   if(!(newtab == ((struct hitem **)NULL)))
   {
     i = (unsigned long int)0;
@@ -6509,9 +6509,9 @@ static void hgrow(struct htab *t)
     i = newsize >> 1;
     do
     {
-      tmp_post$2 = i;
+      tmp_post_2 = i;
       i = i - 1ul;
-      if(tmp_post$2 == 0ul)
+      if(tmp_post_2 == 0ul)
         break;
 
       struct hitem *this;
@@ -6572,11 +6572,11 @@ void hstat(struct _IO_FILE *fp, struct htab *t)
   struct hitem *walk2;
   struct hitem *stat = (struct hitem *)0;
   i = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
-  char *tmp_if_expr$3;
-  char *return_value_renewx$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_1;
+  char *tmp_if_expr_3;
+  char *return_value_renewx_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
   for( ; t->mask >= i; i = i + 1ul)
   {
     h = t->table[(signed long int)i];
@@ -6587,11 +6587,11 @@ void hstat(struct _IO_FILE *fp, struct htab *t)
     do
     {
       if(!(walk == ((struct hitem *)NULL)))
-        tmp_if_expr$1 = walk->keyl != j ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = walk->keyl != j ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       walk = walk->next;
@@ -6605,15 +6605,15 @@ void hstat(struct _IO_FILE *fp, struct htab *t)
       if(!(t->space->numleft == 0))
       {
         t->space->numleft = t->space->numleft - (signed int)t->space->size;
-        tmp_if_expr$3 = (char *)(t->space->list + (signed long int)1) + (signed long int)t->space->numleft;
+        tmp_if_expr_3 = (char *)(t->space->list + (signed long int)1) + (signed long int)t->space->numleft;
       }
 
       else
       {
-        return_value_renewx$2=renewx(t->space);
-        tmp_if_expr$3 = return_value_renewx$2;
+        return_value_renewx_2=renewx(t->space);
+        tmp_if_expr_3 = return_value_renewx_2;
       }
-      walk = (struct hitem *)tmp_if_expr$3;
+      walk = (struct hitem *)tmp_if_expr_3;
       if(walk == ((struct hitem *)NULL))
       {
         fprintf(fp, "renew: Can't allocate memory?\n");
@@ -6623,11 +6623,11 @@ void hstat(struct _IO_FILE *fp, struct htab *t)
       walk->keyl = j;
       walk->hval = (unsigned long int)1;
       if(stat == ((struct hitem *)NULL))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = stat->keyl > j ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = stat->keyl > j ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
       {
         walk->next = stat;
         stat = walk;
@@ -6639,11 +6639,11 @@ void hstat(struct _IO_FILE *fp, struct htab *t)
         do
         {
           if(!(walk2->next == ((struct hitem *)NULL)))
-            tmp_if_expr$4 = walk2->next->keyl < j ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = walk2->next->keyl < j ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(!tmp_if_expr_4)
             break;
 
           walk2 = walk2->next;
@@ -6689,9 +6689,9 @@ static signed int htab_insert(struct htab *ht, const struct netstat *ns)
   key = (unsigned char *)&ns->ns_hdr;
   keyl = sizeof(struct netstat_header) /*36ul*/ ;
   op=hadd(ht, key, keyl, NULL);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_tv_diff$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_tv_diff_2;
   if(!(op >= 0))
     return -1;
 
@@ -6699,9 +6699,9 @@ static signed int htab_insert(struct htab *ht, const struct netstat *ns)
   {
     if(!(op == 0))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct netstat) /*96ul*/ );
-      dp = (struct netstat *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct netstat) /*96ul*/ );
+      dp = (struct netstat *)return_value_malloc_1;
       if(dp == ((struct netstat *)NULL))
       {
         hdel(ht);
@@ -6731,16 +6731,16 @@ static signed int htab_insert(struct htab *ht, const struct netstat *ns)
       dp->gain_pkt_len = dp->gain_pkt_len + ns->pkt_len;
       dp->gain_data_len = dp->gain_data_len + ns->data_len;
       if(!(ns->pkt_cnt_rate == 0u))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = ns->pkt_len_rate != 0u ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = ns->pkt_len_rate != 0u ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = ns->data_len_rate != 0u ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = ns->data_len_rate != 0u ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
         dp->mtime = ns->mtime;
         dp->pkt_cnt_rate = ns->pkt_cnt_rate;
@@ -6750,8 +6750,8 @@ static signed int htab_insert(struct htab *ht, const struct netstat *ns)
 
       else
       {
-        return_value_tv_diff$2=tv_diff(&dp->mtime, &ns->mtime);
-        op = (signed int)return_value_tv_diff$2;
+        return_value_tv_diff_2=tv_diff(&dp->mtime, &ns->mtime);
+        op = (signed int)return_value_tv_diff_2;
         if(op >= 1000)
         {
           dp->mtime = ns->mtime;
@@ -6869,21 +6869,21 @@ signed int init_colormask(void)
     fp=fopen(color_conf, "r");
     if(fp == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "%s: %s\n", color_conf, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "%s: %s\n", color_conf, return_value_strerror_2);
       return -1;
     }
 
     rc_file=strdup(color_conf);
   }
-  char *return_value_fgets$3;
-  _Bool tmp_if_expr$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  signed int return_value_add_colormask$9;
+  char *return_value_fgets_3;
+  _Bool tmp_if_expr_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  signed int return_value_add_colormask_9;
   if(rc_file == ((const char *)NULL))
   {
     fprintf(stderr, "init_colormask: strdup: Out of memory?\n");
@@ -6898,24 +6898,24 @@ signed int init_colormask(void)
     use_default_colors();
     do
     {
-      return_value_fgets$3=fgets(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-      if(return_value_fgets$3 == ((char *)NULL))
+      return_value_fgets_3=fgets(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+      if(return_value_fgets_3 == ((char *)NULL))
         break;
 
       rc_line = rc_line + 1;
       if((signed int)buf[0l] == 10)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)buf[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)buf[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_4)
       {
         cp=strchr(buf, 35);
         if(!(cp == ((char *)NULL)))
         {
-          tmp_post$5 = cp;
+          tmp_post_5 = cp;
           cp = cp + 1l;
-          *tmp_post$5 = (char)10;
+          *tmp_post_5 = (char)10;
           *cp = (char)0;
         }
 
@@ -6923,16 +6923,16 @@ signed int init_colormask(void)
         num=sscanf(buf, "%s %s %s %s\n", (const void *)s1, (const void *)s2, (const void *)s3, (const void *)s4);
         if(num == 2)
         {
-          signed int return_value_strcasecmp$10;
-          return_value_strcasecmp$10=strcasecmp(s1, "default");
-          if(!(return_value_strcasecmp$10 == 0))
+          signed int return_value_strcasecmp_10;
+          return_value_strcasecmp_10=strcasecmp(s1, "default");
+          if(!(return_value_strcasecmp_10 == 0))
           {
             cp=strchr(s1, 47);
             if(!(cp == ((char *)NULL)))
             {
-              tmp_post$6 = cp;
+              tmp_post_6 = cp;
               cp = cp + 1l;
-              *tmp_post$6 = (char)0;
+              *tmp_post_6 = (char)0;
               cp=str2proto(cp, &num);
               if(cp == ((char *)NULL))
               {
@@ -6952,9 +6952,9 @@ signed int init_colormask(void)
 
             cm->in_hdr.src.ip_port = (unsigned short int)num;
             cm->in_hdr.dst.ip_port = (unsigned short int)0;
-            signed int return_value_add_colormask$7;
-            return_value_add_colormask$7=add_colormask(s2, cm);
-            if(!(return_value_add_colormask$7 >= 0))
+            signed int return_value_add_colormask_7;
+            return_value_add_colormask_7=add_colormask(s2, cm);
+            if(!(return_value_add_colormask_7 >= 0))
             {
               fclose(fp);
               return -1;
@@ -6962,9 +6962,9 @@ signed int init_colormask(void)
 
             cm->in_hdr.src.ip_port = (unsigned short int)0;
             cm->in_hdr.dst.ip_port = (unsigned short int)num;
-            signed int return_value_add_colormask$8;
-            return_value_add_colormask$8=add_colormask(s2, cm);
-            if(!(return_value_add_colormask$8 >= 0))
+            signed int return_value_add_colormask_8;
+            return_value_add_colormask_8=add_colormask(s2, cm);
+            if(!(return_value_add_colormask_8 >= 0))
             {
               fclose(fp);
               return -1;
@@ -6974,8 +6974,8 @@ signed int init_colormask(void)
 
           else
           {
-            return_value_add_colormask$9=add_colormask(s2, ((struct cm_entry *)NULL));
-            if(!(return_value_add_colormask$9 >= 0))
+            return_value_add_colormask_9=add_colormask(s2, ((struct cm_entry *)NULL));
+            if(!(return_value_add_colormask_9 >= 0))
             {
               fclose(fp);
               return -1;
@@ -7017,9 +7017,9 @@ signed int init_colormask(void)
 
               }
 
-            signed int return_value_add_colormask$11;
-            return_value_add_colormask$11=add_colormask(s3, cm);
-            if(!(return_value_add_colormask$11 >= 0))
+            signed int return_value_add_colormask_11;
+            return_value_add_colormask_11=add_colormask(s3, cm);
+            if(!(return_value_add_colormask_11 >= 0))
             {
               fclose(fp);
               return -1;
@@ -7068,9 +7068,9 @@ signed int init_colormask(void)
 
                 }
 
-              signed int return_value_add_colormask$12;
-              return_value_add_colormask$12=add_colormask(s4, cm);
-              if(!(return_value_add_colormask$12 >= 0))
+              signed int return_value_add_colormask_12;
+              return_value_add_colormask_12=add_colormask(s4, cm);
+              if(!(return_value_add_colormask_12 >= 0))
               {
                 fclose(fp);
                 return -1;
@@ -7102,9 +7102,9 @@ static void init_edit_string(const char *prompter, const char *charset, signed i
   touch = 0;
   show_win = 0;
   cut_buf[0l] = (char)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(prompter);
-  bartop = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(prompter);
+  bartop = (signed int)return_value_strlen_1;
   i = COLS - (bartop + 3);
   buf_size = size;
   barlen = buf_size;
@@ -7125,9 +7125,9 @@ static void init_edit_string(const char *prompter, const char *charset, signed i
   wmove(stdscr, LINES - 1, 0);
   wclrtoeol(stdscr);
   waddnstr(stdscr, prompter, -1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(prompt_buf);
-  nb = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(prompt_buf);
+  nb = (signed int)return_value_strlen_2;
   if(nb >= buf_size)
     nb = buf_size - 1;
 
@@ -7194,16 +7194,16 @@ static void init_etypearray(void)
   for( ; !(ethertype_db[(signed long int)i].s == ((const char *)NULL)); i = i + 1)
   {
     signed int j;
-    unsigned short int return_value_htons$1;
-    return_value_htons$1=htons((unsigned short int)ethertype_db[(signed long int)i].v);
-    j = (signed int)return_value_htons$1 & 4096 - 1;
+    unsigned short int return_value_htons_1;
+    return_value_htons_1=htons((unsigned short int)ethertype_db[(signed long int)i].v);
+    j = (signed int)return_value_htons_1 & 4096 - 1;
     table = &etypetable[(signed long int)j];
     for( ; !(table->name == ((const char *)NULL)); table = table->nxt)
       ;
     table->name = ethertype_db[(signed long int)i].s;
-    unsigned short int return_value_htons$2;
-    return_value_htons$2=htons((unsigned short int)ethertype_db[(signed long int)i].v);
-    table->addr = (unsigned int)return_value_htons$2;
+    unsigned short int return_value_htons_2;
+    return_value_htons_2=htons((unsigned short int)ethertype_db[(signed long int)i].v);
+    table->addr = (unsigned int)return_value_htons_2;
     table->nxt=newhnamemem();
   }
 }
@@ -7261,16 +7261,16 @@ static void init_ipxsaparray(void)
   for( ; !(ipxsap_db[(signed long int)i].s == ((const char *)NULL)); i = i + 1)
   {
     signed int j;
-    unsigned short int return_value_htons$1;
-    return_value_htons$1=htons((unsigned short int)ipxsap_db[(signed long int)i].v);
-    j = (signed int)return_value_htons$1 & 4096 - 1;
+    unsigned short int return_value_htons_1;
+    return_value_htons_1=htons((unsigned short int)ipxsap_db[(signed long int)i].v);
+    j = (signed int)return_value_htons_1 & 4096 - 1;
     table = &ipxsaptable[(signed long int)j];
     for( ; !(table->name == ((const char *)NULL)); table = table->nxt)
       ;
     table->name = ipxsap_db[(signed long int)i].s;
-    unsigned short int return_value_htons$2;
-    return_value_htons$2=htons((unsigned short int)ipxsap_db[(signed long int)i].v);
-    table->addr = (unsigned int)return_value_htons$2;
+    unsigned short int return_value_htons_2;
+    return_value_htons_2=htons((unsigned short int)ipxsap_db[(signed long int)i].v);
+    table->addr = (unsigned int)return_value_htons_2;
     table->nxt=newhnamemem();
   }
 }
@@ -7330,7 +7330,7 @@ static void init_servarray(void)
   struct servent *sv;
   struct hnamemem *table;
   signed int i;
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   do
   {
     sv=getservent();
@@ -7338,9 +7338,9 @@ static void init_servarray(void)
       break;
 
     signed int port;
-    unsigned short int return_value_ntohs$1;
-    return_value_ntohs$1=ntohs((unsigned short int)sv->s_port);
-    port = (signed int)return_value_ntohs$1;
+    unsigned short int return_value_ntohs_1;
+    return_value_ntohs_1=ntohs((unsigned short int)sv->s_port);
+    port = (signed int)return_value_ntohs_1;
     i = port & 4096 - 1;
     table = &servtable[(signed long int)i];
     if(!(table->addr == (unsigned int)port))
@@ -7351,15 +7351,15 @@ static void init_servarray(void)
       table->nxt=newhnamemem();
     }
 
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(sv->s_proto, "tcp");
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(sv->s_proto, "tcp");
+    if(return_value_strcmp_3 == 0)
       table = &tporttable[(signed long int)i];
 
     else
     {
-      return_value_strcmp$2=strcmp(sv->s_proto, "udp");
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(sv->s_proto, "udp");
+      if(return_value_strcmp_2 == 0)
         table = &uporttable[(signed long int)i];
 
       else
@@ -7437,8 +7437,8 @@ static char * ip_print(signed int ver, signed int proto, struct ip_address *addr
 
   else
     snprintf(dst, (unsigned long int)size, "IPv%d", ver);
-  unsigned short int return_value_ntohs$2;
-  unsigned short int return_value_ntohs$4;
+  unsigned short int return_value_ntohs_2;
+  unsigned short int return_value_ntohs_4;
   if(!(addr->ip_port == 0))
   {
     char pb[20l];
@@ -7449,16 +7449,16 @@ static char * ip_print(signed int ver, signed int proto, struct ip_address *addr
       {
         if(!(nflag == 0))
         {
-          unsigned short int return_value_ntohs$1;
-          return_value_ntohs$1=ntohs(addr->ip_port);
-          sprintf(pb, "%d", return_value_ntohs$1);
+          unsigned short int return_value_ntohs_1;
+          return_value_ntohs_1=ntohs(addr->ip_port);
+          sprintf(pb, "%d", return_value_ntohs_1);
           cp = pb;
         }
 
         else
         {
-          return_value_ntohs$2=ntohs(addr->ip_port);
-          cp=tcpport_string(return_value_ntohs$2);
+          return_value_ntohs_2=ntohs(addr->ip_port);
+          cp=tcpport_string(return_value_ntohs_2);
         }
         break;
       }
@@ -7466,16 +7466,16 @@ static char * ip_print(signed int ver, signed int proto, struct ip_address *addr
       {
         if(!(nflag == 0))
         {
-          unsigned short int return_value_ntohs$3;
-          return_value_ntohs$3=ntohs(addr->ip_port);
-          sprintf(pb, "%d", return_value_ntohs$3);
+          unsigned short int return_value_ntohs_3;
+          return_value_ntohs_3=ntohs(addr->ip_port);
+          sprintf(pb, "%d", return_value_ntohs_3);
           cp = pb;
         }
 
         else
         {
-          return_value_ntohs$4=ntohs(addr->ip_port);
-          cp=udpport_string(return_value_ntohs$4);
+          return_value_ntohs_4=ntohs(addr->ip_port);
+          cp=udpport_string(return_value_ntohs_4);
         }
         break;
       }
@@ -7493,21 +7493,21 @@ static char * ip_print(signed int ver, signed int proto, struct ip_address *addr
       }
       default:
       {
-        unsigned short int return_value_ntohs$5;
-        return_value_ntohs$5=ntohs(addr->ip_port);
-        sprintf(pb, "%d", return_value_ntohs$5);
+        unsigned short int return_value_ntohs_5;
+        return_value_ntohs_5=ntohs(addr->ip_port);
+        sprintf(pb, "%d", return_value_ntohs_5);
         cp = pb;
       }
     }
     buf[(signed long int)0] = (char)44;
     strncpy(&buf[(signed long int)1], cp, (unsigned long int)10);
     buf[(signed long int)11] = (char)0;
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(buf);
-    len = (signed int)return_value_strlen$6;
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(dst);
-    if(!(return_value_strlen$7 + (unsigned long int)len >= (unsigned long int)size))
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(buf);
+    len = (signed int)return_value_strlen_6;
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(dst);
+    if(!(return_value_strlen_7 + (unsigned long int)len >= (unsigned long int)size))
       strcat(dst, buf);
 
     else
@@ -7553,29 +7553,29 @@ const char * ipxsap_string(unsigned short int port)
   tp->nxt=newhnamemem();
   cp = buf;
   port=ntohs(port);
-  char *tmp_post$1 = cp;
+  char *tmp_post_1 = cp;
   cp = cp + 1l;
-  signed int return_value_toupper$2;
-  return_value_toupper$2=toupper((signed int)hex[(signed long int)((signed int)port >> 12 & 0xf)]);
-  *tmp_post$1 = (char)return_value_toupper$2;
-  char *tmp_post$3 = cp;
+  signed int return_value_toupper_2;
+  return_value_toupper_2=toupper((signed int)hex[(signed long int)((signed int)port >> 12 & 0xf)]);
+  *tmp_post_1 = (char)return_value_toupper_2;
+  char *tmp_post_3 = cp;
   cp = cp + 1l;
-  signed int return_value_toupper$4;
-  return_value_toupper$4=toupper((signed int)hex[(signed long int)((signed int)port >> 8 & 0xf)]);
-  *tmp_post$3 = (char)return_value_toupper$4;
-  char *tmp_post$5 = cp;
+  signed int return_value_toupper_4;
+  return_value_toupper_4=toupper((signed int)hex[(signed long int)((signed int)port >> 8 & 0xf)]);
+  *tmp_post_3 = (char)return_value_toupper_4;
+  char *tmp_post_5 = cp;
   cp = cp + 1l;
-  signed int return_value_toupper$6;
-  return_value_toupper$6=toupper((signed int)hex[(signed long int)((signed int)port >> 4 & 0xf)]);
-  *tmp_post$5 = (char)return_value_toupper$6;
-  char *tmp_post$7 = cp;
+  signed int return_value_toupper_6;
+  return_value_toupper_6=toupper((signed int)hex[(signed long int)((signed int)port >> 4 & 0xf)]);
+  *tmp_post_5 = (char)return_value_toupper_6;
+  char *tmp_post_7 = cp;
   cp = cp + 1l;
-  signed int return_value_toupper$8;
-  return_value_toupper$8=toupper((signed int)hex[(signed long int)((signed int)port & 0xf)]);
-  *tmp_post$7 = (char)return_value_toupper$8;
-  char *tmp_post$9 = cp;
+  signed int return_value_toupper_8;
+  return_value_toupper_8=toupper((signed int)hex[(signed long int)((signed int)port & 0xf)]);
+  *tmp_post_7 = (char)return_value_toupper_8;
+  char *tmp_post_9 = cp;
   cp = cp + 1l;
-  *tmp_post$9 = (char)0;
+  *tmp_post_9 = (char)0;
   tp->name=strdup(buf);
   return tp->name;
 }
@@ -7584,40 +7584,40 @@ const char * ipxsap_string(unsigned short int port)
 // file colormask.c line 196
 static signed int is_any(const char *s)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(s == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*s != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcasecmp$3;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcasecmp$5;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*s != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcasecmp_3;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcasecmp_5;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(s, "*");
-    if(return_value_strcmp$2 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(s, "*");
+    if(return_value_strcmp_2 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$3=strcasecmp(s, "any");
-      tmp_if_expr$4 = !(return_value_strcasecmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_3=strcasecmp(s, "any");
+      tmp_if_expr_4 = !(return_value_strcasecmp_3 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
-      tmp_if_expr$6 = (_Bool)1;
+    if(tmp_if_expr_4)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$5=strcasecmp(s, "all");
-      tmp_if_expr$6 = !(return_value_strcasecmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_5=strcasecmp(s, "all");
+      tmp_if_expr_6 = !(return_value_strcasecmp_5 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    return (signed int)tmp_if_expr$6;
+    return (signed int)tmp_if_expr_6;
   }
 }
 
@@ -7625,22 +7625,22 @@ static signed int is_any(const char *s)
 // file colormask.c line 203
 static signed int is_number(const char *s)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(s == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*s != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*s != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     for( ; !(*s == 0); s = s + 1l)
     {
-      const unsigned short int **return_value___ctype_b_loc$2;
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*s]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_2;
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*s]) == 0)
         return 0;
 
     }
@@ -7664,18 +7664,18 @@ const char * isonsap_string(const unsigned char *nsap)
   char *cp;
   struct enamemem *tp;
   tp=lookup_nsap(nsap);
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  const unsigned char *tmp_post$5;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  const unsigned char *tmp_post_5;
   if(!(tp->e_name == ((const char *)NULL)))
     return tp->e_name;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)(nlen * (unsigned int)2 + (unsigned int)2));
-    cp = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)(nlen * (unsigned int)2 + (unsigned int)2));
+    cp = (char *)return_value_malloc_1;
     tp->e_name = cp;
     if(cp == ((char *)NULL))
     {
@@ -7684,9 +7684,9 @@ const char * isonsap_string(const unsigned char *nsap)
     }
 
     nsap = nsap + 1l;
-    tmp_post$2 = cp;
+    tmp_post_2 = cp;
     cp = cp + 1l;
-    *tmp_post$2 = (char)47;
+    *tmp_post_2 = (char)47;
     i = nlen;
     do
     {
@@ -7694,14 +7694,14 @@ const char * isonsap_string(const unsigned char *nsap)
       if(!((signed int)i >= 0))
         break;
 
-      tmp_post$3 = cp;
+      tmp_post_3 = cp;
       cp = cp + 1l;
-      *tmp_post$3 = hex[(signed long int)((signed int)*nsap >> 4)];
-      tmp_post$4 = cp;
+      *tmp_post_3 = hex[(signed long int)((signed int)*nsap >> 4)];
+      tmp_post_4 = cp;
       cp = cp + 1l;
-      tmp_post$5 = nsap;
+      tmp_post_5 = nsap;
       nsap = nsap + 1l;
-      *tmp_post$4 = hex[(signed long int)((signed int)*tmp_post$5 & 0xf)];
+      *tmp_post_4 = hex[(signed long int)((signed int)*tmp_post_5 & 0xf)];
     }
     while((_Bool)1);
     *cp = (char)0;
@@ -7731,13 +7731,13 @@ const char * linkaddr_string(const unsigned char *ep, const unsigned int len)
   unsigned int j;
   char *cp;
   struct enamemem *tp;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  const unsigned char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  const unsigned char *tmp_post$8;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  const unsigned char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  const unsigned char *tmp_post_8;
   if(ep == ((const unsigned char *)NULL) || !(len >= 1u))
     return "";
 
@@ -7749,9 +7749,9 @@ const char * linkaddr_string(const unsigned char *ep, const unsigned int len)
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)(len * (unsigned int)3));
-      cp = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)(len * (unsigned int)3));
+      cp = (char *)return_value_malloc_1;
       tp->e_name = cp;
       if(tp->e_name == ((const char *)NULL))
       {
@@ -7762,35 +7762,35 @@ const char * linkaddr_string(const unsigned char *ep, const unsigned int len)
       j = (unsigned int)((signed int)*ep >> 4);
       if(!(j == 0u))
       {
-        tmp_post$2 = cp;
+        tmp_post_2 = cp;
         cp = cp + 1l;
-        *tmp_post$2 = hex[(signed long int)j];
+        *tmp_post_2 = hex[(signed long int)j];
       }
 
-      tmp_post$3 = cp;
+      tmp_post_3 = cp;
       cp = cp + 1l;
-      tmp_post$4 = ep;
+      tmp_post_4 = ep;
       ep = ep + 1l;
-      *tmp_post$3 = hex[(signed long int)((signed int)*tmp_post$4 & 0xf)];
+      *tmp_post_3 = hex[(signed long int)((signed int)*tmp_post_4 & 0xf)];
       i = len - (unsigned int)1;
       for( ; i >= 1u; i = i - 1u)
       {
-        tmp_post$5 = cp;
+        tmp_post_5 = cp;
         cp = cp + 1l;
-        *tmp_post$5 = (char)58;
+        *tmp_post_5 = (char)58;
         j = (unsigned int)((signed int)*ep >> 4);
         if(!(j == 0u))
         {
-          tmp_post$6 = cp;
+          tmp_post_6 = cp;
           cp = cp + 1l;
-          *tmp_post$6 = hex[(signed long int)j];
+          *tmp_post_6 = hex[(signed long int)j];
         }
 
-        tmp_post$7 = cp;
+        tmp_post_7 = cp;
         cp = cp + 1l;
-        tmp_post$8 = ep;
+        tmp_post_8 = ep;
         ep = ep + 1l;
-        *tmp_post$7 = hex[(signed long int)((signed int)*tmp_post$8 & 0xf)];
+        *tmp_post_7 = hex[(signed long int)((signed int)*tmp_post_8 & 0xf)];
       }
       *cp = (char)0;
       return tp->e_name;
@@ -7803,28 +7803,28 @@ const char * linkaddr_string(const unsigned char *ep, const unsigned int len)
 static void * live_pcap_dump()
 {
   signed int op;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   while(!(live_pcap == ((struct pcap *)NULL)) && !(live_dump == ((struct pcap_dumper *)NULL)))
   {
     op=pcap_dispatch(live_pcap, -1, live_pcap_parse, (unsigned char *)live_dump);
     if(op == -2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(op == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 != 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 != 11 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       break;
 
     if(!(op >= 1))
@@ -7842,15 +7842,15 @@ static void live_pcap_parse(unsigned char *a, struct pcap_pkthdr *h, const unsig
   if(!(live_pcap == ((struct pcap *)NULL)) && !(a == ((unsigned char *)NULL)))
   {
     memset((void *)&ns, 0, sizeof(struct netstat) /*96ul*/ );
-    signed int return_value_pcap_datalink$1;
-    return_value_pcap_datalink$1=pcap_datalink(live_pcap);
-    signed int return_value_parse_dl$2;
-    return_value_parse_dl$2=parse_dl(&ns, return_value_pcap_datalink$1, (signed int)h->caplen, (signed int)h->len, p);
-    if(return_value_parse_dl$2 >= 0)
+    signed int return_value_pcap_datalink_1;
+    return_value_pcap_datalink_1=pcap_datalink(live_pcap);
+    signed int return_value_parse_dl_2;
+    return_value_parse_dl_2=parse_dl(&ns, return_value_pcap_datalink_1, (signed int)h->caplen, (signed int)h->len, p);
+    if(return_value_parse_dl_2 >= 0)
     {
-      signed int return_value_netstat_match$3;
-      return_value_netstat_match$3=netstat_match(&ns, dump_match);
-      if(!(return_value_netstat_match$3 == 0))
+      signed int return_value_netstat_match_3;
+      return_value_netstat_match_3=netstat_match(&ns, dump_match);
+      if(!(return_value_netstat_match_3 == 0))
       {
         pcap_dump(a, h, p);
         pcap_dump_flush((struct pcap_dumper *)a);
@@ -7907,9 +7907,9 @@ char * load_file(const char *name)
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)(sz + (signed long int)1));
-      cp = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)(sz + (signed long int)1));
+      cp = (char *)return_value_malloc_1;
       if(cp == ((char *)NULL))
       {
         perror(name);
@@ -8070,31 +8070,31 @@ static inline struct enamemem * lookup_bytestring(const unsigned char *bs, const
       i = j;
     }
   tp = &bytestringtable[(signed long int)((i ^ j) & (unsigned int)(4096 - 1))];
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_memcmp$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_memcmp_3;
   while(!(tp->e_nxt == ((struct enamemem *)NULL)))
   {
     if((unsigned int)tp->e_addr0 == i)
-      tmp_if_expr$1 = (unsigned int)tp->e_addr1 == j ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (unsigned int)tp->e_addr1 == j ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (unsigned int)tp->e_addr2 == k ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (unsigned int)tp->e_addr2 == k ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      return_value_memcmp$3=memcmp((const void *)(const char *)bs, (const void *)(const char *)tp->e_nsap, (unsigned long int)nlen);
-      tmp_if_expr$4 = return_value_memcmp$3 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_memcmp_3=memcmp((const void *)(const char *)bs, (const void *)(const char *)tp->e_nsap, (unsigned long int)nlen);
+      tmp_if_expr_4 = return_value_memcmp_3 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       return tp;
 
     else
@@ -8103,13 +8103,13 @@ static inline struct enamemem * lookup_bytestring(const unsigned char *bs, const
   tp->e_addr0 = (unsigned short int)i;
   tp->e_addr1 = (unsigned short int)j;
   tp->e_addr2 = (unsigned short int)k;
-  void *return_value_calloc$5;
-  return_value_calloc$5=calloc((unsigned long int)1, (unsigned long int)(nlen + (unsigned int)1));
-  tp->e_nsap = (unsigned char *)return_value_calloc$5;
+  void *return_value_calloc_5;
+  return_value_calloc_5=calloc((unsigned long int)1, (unsigned long int)(nlen + (unsigned int)1));
+  tp->e_nsap = (unsigned char *)return_value_calloc_5;
   memcpy((void *)tp->e_nsap, (const void *)bs, (unsigned long int)nlen);
-  void *return_value_calloc$6;
-  return_value_calloc$6=calloc((unsigned long int)1, sizeof(struct enamemem) /*32ul*/ );
-  tp->e_nxt = (struct enamemem *)return_value_calloc$6;
+  void *return_value_calloc_6;
+  return_value_calloc_6=calloc((unsigned long int)1, sizeof(struct enamemem) /*32ul*/ );
+  tp->e_nxt = (struct enamemem *)return_value_calloc_6;
   if(tp->e_nxt == ((struct enamemem *)NULL))
   {
     perror("lookup_bytestring: calloc");
@@ -8131,21 +8131,21 @@ static inline struct enamemem * lookup_emem(const unsigned char *ep)
   j = (unsigned int)((signed int)ep[(signed long int)2] << 8 | (signed int)ep[(signed long int)3]);
   i = (unsigned int)((signed int)ep[(signed long int)4] << 8 | (signed int)ep[(signed long int)5]);
   tp = &enametable[(signed long int)((i ^ j) & (unsigned int)(4096 - 1))];
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   while(!(tp->e_nxt == ((struct enamemem *)NULL)))
   {
     if((unsigned int)tp->e_addr0 == i)
-      tmp_if_expr$1 = (unsigned int)tp->e_addr1 == j ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (unsigned int)tp->e_addr1 == j ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (unsigned int)tp->e_addr2 == k ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (unsigned int)tp->e_addr2 == k ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       return tp;
 
     else
@@ -8154,9 +8154,9 @@ static inline struct enamemem * lookup_emem(const unsigned char *ep)
   tp->e_addr0 = (unsigned short int)i;
   tp->e_addr1 = (unsigned short int)j;
   tp->e_addr2 = (unsigned short int)k;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct enamemem) /*32ul*/ );
-  tp->e_nxt = (struct enamemem *)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct enamemem) /*32ul*/ );
+  tp->e_nxt = (struct enamemem *)return_value_calloc_3;
   if(tp->e_nxt == ((struct enamemem *)NULL))
   {
     perror("lookup_emem: calloc");
@@ -8190,37 +8190,37 @@ static inline struct enamemem * lookup_nsap(const unsigned char *nsap)
     i = j;
   }
   tp = &nsaptable[(signed long int)((i ^ j) & (unsigned int)(4096 - 1))];
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_memcmp$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_memcmp_4;
   while(!(tp->e_nxt == ((struct enamemem *)NULL)))
   {
     if((unsigned int)tp->e_addr0 == i)
-      tmp_if_expr$1 = (unsigned int)tp->e_addr1 == j ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (unsigned int)tp->e_addr1 == j ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (unsigned int)tp->e_addr2 == k ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (unsigned int)tp->e_addr2 == k ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (unsigned int)tp->e_nsap[(signed long int)0] == nlen ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (unsigned int)tp->e_nsap[(signed long int)0] == nlen ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_memcmp$4=memcmp((const void *)(const char *)&nsap[(signed long int)1], (const void *)(char *)&tp->e_nsap[(signed long int)1], (unsigned long int)nlen);
-      tmp_if_expr$5 = return_value_memcmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_memcmp_4=memcmp((const void *)(const char *)&nsap[(signed long int)1], (const void *)(char *)&tp->e_nsap[(signed long int)1], (unsigned long int)nlen);
+      tmp_if_expr_5 = return_value_memcmp_4 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       return tp;
 
     else
@@ -8229,9 +8229,9 @@ static inline struct enamemem * lookup_nsap(const unsigned char *nsap)
   tp->e_addr0 = (unsigned short int)i;
   tp->e_addr1 = (unsigned short int)j;
   tp->e_addr2 = (unsigned short int)k;
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc((unsigned long int)(nlen + (unsigned int)1));
-  tp->e_nsap = (unsigned char *)return_value_malloc$6;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc((unsigned long int)(nlen + (unsigned int)1));
+  tp->e_nsap = (unsigned char *)return_value_malloc_6;
   if(tp->e_nsap == ((unsigned char *)NULL))
   {
     perror("lookup_nsap: malloc");
@@ -8239,9 +8239,9 @@ static inline struct enamemem * lookup_nsap(const unsigned char *nsap)
   }
 
   memcpy((void *)(char *)tp->e_nsap, (const void *)(const char *)nsap, (unsigned long int)(nlen + (unsigned int)1));
-  void *return_value_calloc$7;
-  return_value_calloc$7=calloc((unsigned long int)1, sizeof(struct enamemem) /*32ul*/ );
-  tp->e_nxt = (struct enamemem *)return_value_calloc$7;
+  void *return_value_calloc_7;
+  return_value_calloc_7=calloc((unsigned long int)1, sizeof(struct enamemem) /*32ul*/ );
+  tp->e_nxt = (struct enamemem *)return_value_calloc_7;
   if(tp->e_nxt == ((struct enamemem *)NULL))
   {
     perror("lookup_nsap: calloc");
@@ -8261,15 +8261,15 @@ static inline struct protoidmem * lookup_protoid(const unsigned char *pi)
   i = (unsigned int)((((signed int)pi[(signed long int)0] << 8) + (signed int)pi[(signed long int)1] << 8) + (signed int)pi[(signed long int)2]);
   j = (unsigned int)(((signed int)pi[(signed long int)3] << 8) + (signed int)pi[(signed long int)4]);
   tp = &protoidtable[(signed long int)((i ^ j) & (unsigned int)(4096 - 1))];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(tp->p_nxt == ((struct protoidmem *)NULL)))
   {
     if(tp->p_oui == i)
-      tmp_if_expr$1 = (unsigned int)tp->p_proto == j ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (unsigned int)tp->p_proto == j ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       return tp;
 
     else
@@ -8277,9 +8277,9 @@ static inline struct protoidmem * lookup_protoid(const unsigned char *pi)
   }
   tp->p_oui = i;
   tp->p_proto = (unsigned short int)j;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct protoidmem) /*24ul*/ );
-  tp->p_nxt = (struct protoidmem *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct protoidmem) /*24ul*/ );
+  tp->p_nxt = (struct protoidmem *)return_value_calloc_2;
   if(tp->p_nxt == ((struct protoidmem *)NULL))
   {
     perror("lookup_protoid: calloc");
@@ -8300,22 +8300,22 @@ signed int main(signed int argc, char **argv)
   struct pcap_handler *ph_list = ((struct pcap_handler *)NULL);
   signed int op;
   signed int udp_port = 9995;
-  struct anonymous$29 sigset;
+  struct anonymous_29 sigset;
   unsigned long int show_thr;
   unsigned long int sig_thr;
   unsigned long int pcap_thr;
-  char *return_value_strip_path$1;
-  return_value_strip_path$1=strip_path(argv[(signed long int)0]);
-  progname=strdup(return_value_strip_path$1);
-  signed int return_value_gethostname$2;
-  return_value_gethostname$2=gethostname(buf, sizeof(char [256l]) /*256ul*/ );
-  if(!(return_value_gethostname$2 >= 0))
+  char *return_value_strip_path_1;
+  return_value_strip_path_1=strip_path(argv[(signed long int)0]);
+  progname=strdup(return_value_strip_path_1);
+  signed int return_value_gethostname_2;
+  return_value_gethostname_2=gethostname(buf, sizeof(char [256l]) /*256ul*/ );
+  if(!(return_value_gethostname_2 >= 0))
     strcpy(buf, "localhost");
 
   hostname=strdup(buf);
-  signed int return_value_pcap_findalldevs$3;
-  return_value_pcap_findalldevs$3=pcap_findalldevs(&dev_list, buf);
-  if(!(return_value_pcap_findalldevs$3 >= 0))
+  signed int return_value_pcap_findalldevs_3;
+  return_value_pcap_findalldevs_3=pcap_findalldevs(&dev_list, buf);
+  if(!(return_value_pcap_findalldevs_3 >= 0))
   {
     fprintf(stderr, "pcap_findalldevs: %s\n", (const void *)buf);
     exit(1);
@@ -8429,11 +8429,11 @@ signed int main(signed int argc, char **argv)
     exit(1);
   }
 
-  signed int return_value_cisco_netflow_init$4;
+  signed int return_value_cisco_netflow_init_4;
   if(udp_port >= 2)
   {
-    return_value_cisco_netflow_init$4=cisco_netflow_init(&ph_list, udp_port);
-    if(!(return_value_cisco_netflow_init$4 >= 0))
+    return_value_cisco_netflow_init_4=cisco_netflow_init(&ph_list, udp_port);
+    if(!(return_value_cisco_netflow_init_4 >= 0))
     {
       fprintf(stderr, "Can't start cisco-netflow collector at UDP port %d\n", udp_port);
       exit(1);
@@ -8444,12 +8444,12 @@ signed int main(signed int argc, char **argv)
   if(op == 1 && !(ph_list == ((struct pcap_handler *)NULL)))
   {
     ph_list->selected = 1;
-    show_mode = (enum anonymous$13)NetStat;
+    show_mode = (enum anonymous_13)NetStat;
   }
 
-  unsigned int return_value_getuid$5;
-  return_value_getuid$5=getuid();
-  setuid(return_value_getuid$5);
+  unsigned int return_value_getuid_5;
+  return_value_getuid_5=getuid();
+  setuid(return_value_getuid_5);
   if(!(ph_list == ((struct pcap_handler *)NULL)))
   {
     if(!(argv[(signed long int)optind] == ((char *)NULL)) || !(filter == ((char *)NULL)))
@@ -8474,9 +8474,9 @@ signed int main(signed int argc, char **argv)
   }
 
   init_addrtoname();
-  signed int return_value_screen_open$6;
-  return_value_screen_open$6=screen_open(0);
-  if(!(return_value_screen_open$6 >= 0))
+  signed int return_value_screen_open_6;
+  return_value_screen_open_6=screen_open(0);
+  if(!(return_value_screen_open_6 >= 0))
   {
     screen_close();
     exit(1);
@@ -8486,32 +8486,32 @@ signed int main(signed int argc, char **argv)
   show_thr=pthread_self();
   sigemptyset(&sigset);
   sigaddset(&sigset, 28);
-  sigprocmask(0, &sigset, ((struct anonymous$29 *)NULL));
-  signed int return_value_pthread_create$7;
-  return_value_pthread_create$7=pthread_create(&sig_thr, ((const union pthread_attr_t *)NULL), catch_signals, (void *)&sigset);
-  if(!(return_value_pthread_create$7 == 0))
+  sigprocmask(0, &sigset, ((struct anonymous_29 *)NULL));
+  signed int return_value_pthread_create_7;
+  return_value_pthread_create_7=pthread_create(&sig_thr, ((const union pthread_attr_t *)NULL), catch_signals, (void *)&sigset);
+  if(!(return_value_pthread_create_7 == 0))
   {
     perror("pthread_create(catch_signals)");
     exit(1);
   }
 
-  signed int return_value_pthread_create$10;
+  signed int return_value_pthread_create_10;
   if(!(ph_list == ((struct pcap_handler *)NULL)))
   {
     struct pcap_handler *ph = ph_list;
     for( ; !(ph == ((struct pcap_handler *)NULL)); ph = ph->next)
     {
-      signed int return_value_pcap_get_selectable_fd$8;
-      return_value_pcap_get_selectable_fd$8=pcap_get_selectable_fd(ph->pcap);
-      if(!(return_value_pcap_get_selectable_fd$8 >= 0))
+      signed int return_value_pcap_get_selectable_fd_8;
+      return_value_pcap_get_selectable_fd_8=pcap_get_selectable_fd(ph->pcap);
+      if(!(return_value_pcap_get_selectable_fd_8 >= 0))
         break;
 
     }
     if(ph == ((struct pcap_handler *)NULL))
     {
-      signed int return_value_pthread_create$9;
-      return_value_pthread_create$9=pthread_create(&pcap_thr, ((const union pthread_attr_t *)NULL), pcap_feed2, (void *)ph_list);
-      if(!(return_value_pthread_create$9 == 0))
+      signed int return_value_pthread_create_9;
+      return_value_pthread_create_9=pthread_create(&pcap_thr, ((const union pthread_attr_t *)NULL), pcap_feed2, (void *)ph_list);
+      if(!(return_value_pthread_create_9 == 0))
       {
         perror("pthread_create(pcap_feed2)");
         exit(1);
@@ -8521,8 +8521,8 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      return_value_pthread_create$10=pthread_create(&pcap_thr, ((const union pthread_attr_t *)NULL), pcap_feed, (void *)ph_list);
-      if(!(return_value_pthread_create$10 == 0))
+      return_value_pthread_create_10=pthread_create(&pcap_thr, ((const union pthread_attr_t *)NULL), pcap_feed, (void *)ph_list);
+      if(!(return_value_pthread_create_10 == 0))
       {
         perror("pthread_create(pcap_feed)");
         exit(1);
@@ -8562,7 +8562,7 @@ static void maskit(unsigned char *bp, signed int len, signed int bits)
 static struct pcap_handler * match_feeder(struct pcap_handler *ph, struct sockaddr *sa)
 {
   const struct pcap_addr *ap;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sa == ((struct sockaddr *)NULL))
     return ((struct pcap_handler *)NULL);
 
@@ -8575,17 +8575,17 @@ static struct pcap_handler * match_feeder(struct pcap_handler *ph, struct sockad
         for( ; !(ap == ((const struct pcap_addr *)NULL)); ap = ap->next)
         {
           if(ap->addr == ((struct sockaddr *)NULL))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = ap->addr->sa_family != sa->sa_family ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = ap->addr->sa_family != sa->sa_family ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_1)
           {
             if((signed int)ap->addr->sa_family == 2)
             {
-              signed int return_value_memcmp$2;
-              return_value_memcmp$2=memcmp((const void *)&((struct sockaddr_in *)ap->addr)->sin_addr, (const void *)&((struct sockaddr_in *)sa)->sin_addr, sizeof(struct in_addr) /*4ul*/ );
-              if(return_value_memcmp$2 == 0)
+              signed int return_value_memcmp_2;
+              return_value_memcmp_2=memcmp((const void *)&((struct sockaddr_in *)ap->addr)->sin_addr, (const void *)&((struct sockaddr_in *)sa)->sin_addr, sizeof(struct in_addr) /*4ul*/ );
+              if(return_value_memcmp_2 == 0)
                 return ph;
 
             }
@@ -8628,11 +8628,11 @@ static void name_resolved(void *unused, struct domain_data_ent *dd)
 static void nameserver_close(struct session_ent *sd)
 {
   struct domain_transact_ent *dt;
-  const void *return_value_session_cookie$1;
-  return_value_session_cookie$1=session_cookie(sd);
-  dt = (struct domain_transact_ent *)return_value_session_cookie$1;
+  const void *return_value_session_cookie_1;
+  return_value_session_cookie_1=session_cookie(sd);
+  dt = (struct domain_transact_ent *)return_value_session_cookie_1;
   session_free(sd);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(dt == ((struct domain_transact_ent *)NULL)))
   {
     if(!(dt->data == ((struct domain_data_ent *)NULL)))
@@ -8643,11 +8643,11 @@ static void nameserver_close(struct session_ent *sd)
       else
       {
         if(dt->data->addr == 0u)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = dt->data->addr == (unsigned int)-1 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = dt->data->addr == (unsigned int)-1 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           memcpy((void *)&dt->data->addr, (const void *)dt->name, sizeof(unsigned int) /*4ul*/ );
 
       }
@@ -8669,9 +8669,9 @@ static void nameserver_close(struct session_ent *sd)
 static void nameserver_error(struct session_ent *sd, signed int error)
 {
   struct domain_transact_ent *dt;
-  const void *return_value_session_cookie$1;
-  return_value_session_cookie$1=session_cookie(sd);
-  dt = (struct domain_transact_ent *)return_value_session_cookie$1;
+  const void *return_value_session_cookie_1;
+  return_value_session_cookie_1=session_cookie(sd);
+  dt = (struct domain_transact_ent *)return_value_session_cookie_1;
   if(!(dt == ((struct domain_transact_ent *)NULL)) && !(sd == ((struct session_ent *)NULL)))
   {
     if(!(error == 110))
@@ -8698,9 +8698,9 @@ static void nameserver_error(struct session_ent *sd, signed int error)
 static void nameserver_reply(struct session_ent *sd, const unsigned char *data, signed int len)
 {
   struct domain_transact_ent *dt;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(!(sd == ((struct session_ent *)NULL)))
   {
     dt=parse_packet(data, len);
@@ -8711,23 +8711,23 @@ static void nameserver_reply(struct session_ent *sd, const unsigned char *data, 
         if(dt->rcode == 0)
         {
           if((signed int)dt->type == MailExchanger)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
             if((signed int)dt->type == IpAddress)
-              tmp_if_expr$3 = dt->expand != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = dt->expand != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(tmp_if_expr$3)
-              tmp_if_expr$4 = (signed int)dt->expand < 3 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = (_Bool)0;
+            if(tmp_if_expr_3)
+              tmp_if_expr_4 = (signed int)dt->expand < 3 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (_Bool)0;
+            tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$5)
+          if(tmp_if_expr_5)
           {
             struct domain_data_ent *dd = dt->data;
             for( ; !(dd == ((struct domain_data_ent *)NULL)); dd = dd->next)
@@ -8737,9 +8737,9 @@ static void nameserver_reply(struct session_ent *sd, const unsigned char *data, 
                 {
                   if(!(dt->domain == ((char *)NULL)))
                   {
-                    signed int return_value_strcasecmp$1;
-                    return_value_strcasecmp$1=strcasecmp(dd->name, dt->domain);
-                    if(return_value_strcasecmp$1 == 0)
+                    signed int return_value_strcasecmp_1;
+                    return_value_strcasecmp_1=strcasecmp(dd->name, dt->domain);
+                    if(return_value_strcasecmp_1 == 0)
                       break;
 
                     free((void *)dt->domain);
@@ -8752,10 +8752,10 @@ static void nameserver_reply(struct session_ent *sd, const unsigned char *data, 
                   dt->reqid=unique_reqid();
                   dt->expand = dt->expand + 1;
                   dt->retry = 0;
-                  dt->type = (enum anonymous$14)IpAddress;
-                  signed int return_value_nameserver_send$2;
-                  return_value_nameserver_send$2=nameserver_send(sd);
-                  if(!(return_value_nameserver_send$2 >= 0))
+                  dt->type = (enum anonymous_14)IpAddress;
+                  signed int return_value_nameserver_send_2;
+                  return_value_nameserver_send_2=nameserver_send(sd);
+                  if(!(return_value_nameserver_send_2 >= 0))
                     break;
 
                   goto __CPROVER_DUMP_L15;
@@ -8781,34 +8781,34 @@ __CPROVER_DUMP_L15:
 
 // nameserver_request
 // file domain_resolver.c line 459
-static signed int nameserver_request(const char *domain, enum anonymous$14 type, struct session_ent *org, void (*notify)(struct session_ent *, struct domain_data_ent *))
+static signed int nameserver_request(const char *domain, enum anonymous_14 type, struct session_ent *org, void (*notify)(struct session_ent *, struct domain_data_ent *))
 {
   struct session_ent *sd;
   struct domain_transact_ent *dt;
   char buf[1025l];
   const unsigned char *cp;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(domain == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*domain != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(*domain != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  signed int return_value_domain_resolver_init$3;
-  void *return_value_malloc$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_session_bind$13;
+  signed int return_value_domain_resolver_init_3;
+  void *return_value_malloc_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_session_bind_13;
   if(primary == ((struct sockaddr_in *)NULL))
   {
-    return_value_domain_resolver_init$3=domain_resolver_init();
-    if(return_value_domain_resolver_init$3 >= 0)
+    return_value_domain_resolver_init_3=domain_resolver_init();
+    if(return_value_domain_resolver_init_3 >= 0)
       goto __CPROVER_DUMP_L4;
 
     return -1;
@@ -8819,7 +8819,7 @@ static signed int nameserver_request(const char *domain, enum anonymous$14 type,
 
   __CPROVER_DUMP_L4:
     ;
-    sd=session_open(-1, (struct sockaddr *)primary, (enum anonymous$6)DataSequence);
+    sd=session_open(-1, (struct sockaddr *)primary, (enum anonymous_6)DataSequence);
     if(sd == ((struct session_ent *)NULL))
       return -1;
 
@@ -8829,13 +8829,13 @@ static signed int nameserver_request(const char *domain, enum anonymous$14 type,
       if(dt == ((struct domain_transact_ent *)NULL))
       {
         signed int save_errno;
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        save_errno = *return_value___errno_location$4;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        save_errno = *return_value___errno_location_4;
         session_free(sd);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        *return_value___errno_location$5 = save_errno;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        *return_value___errno_location_5 = save_errno;
         return -1;
       }
 
@@ -8853,8 +8853,8 @@ static signed int nameserver_request(const char *domain, enum anonymous$14 type,
         }
         case DomainName:
         {
-          return_value_malloc$6=malloc(sizeof(unsigned int) /*4ul*/ );
-          dt->name = (char *)return_value_malloc$6;
+          return_value_malloc_6=malloc(sizeof(unsigned int) /*4ul*/ );
+          dt->name = (char *)return_value_malloc_6;
           if(dt->name == ((char *)NULL))
             break;
 
@@ -8865,21 +8865,21 @@ static signed int nameserver_request(const char *domain, enum anonymous$14 type,
         }
       }
       if(dt->name == ((char *)NULL))
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = !(dt->domain != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = !(dt->domain != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
       {
-        signed int nameserver_request$$1$$4$$save_errno;
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        nameserver_request$$1$$4$$save_errno = *return_value___errno_location$7;
+        signed int nameserver_request__1__4__save_errno;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        nameserver_request__1__4__save_errno = *return_value___errno_location_7;
         session_free(sd);
         free_transact(dt);
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        *return_value___errno_location$8 = nameserver_request$$1$$4$$save_errno;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        *return_value___errno_location_8 = nameserver_request__1__4__save_errno;
         return -1;
       }
 
@@ -8888,26 +8888,26 @@ static signed int nameserver_request(const char *domain, enum anonymous$14 type,
       session_setcallback(sd, ((void (*)(struct session_ent *))NULL), nameserver_error, nameserver_reply);
       session_setcookie(sd, (const void *)dt);
       session_settimeout(sd, (unsigned int)10);
-      signed int return_value_nameserver_send$12;
-      return_value_nameserver_send$12=nameserver_send(sd);
-      if(!(return_value_nameserver_send$12 >= 0))
+      signed int return_value_nameserver_send_12;
+      return_value_nameserver_send_12=nameserver_send(sd);
+      if(!(return_value_nameserver_send_12 >= 0))
       {
-        signed int nameserver_request$$1$$5$$save_errno;
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        nameserver_request$$1$$5$$save_errno = *return_value___errno_location$10;
+        signed int nameserver_request__1__5__save_errno;
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        nameserver_request__1__5__save_errno = *return_value___errno_location_10;
         session_free(sd);
         free_transact(dt);
-        signed int *return_value___errno_location$11;
-        return_value___errno_location$11=__errno_location();
-        *return_value___errno_location$11 = nameserver_request$$1$$5$$save_errno;
+        signed int *return_value___errno_location_11;
+        return_value___errno_location_11=__errno_location();
+        *return_value___errno_location_11 = nameserver_request__1__5__save_errno;
         return -1;
       }
 
       if(!(org == ((struct session_ent *)NULL)))
       {
-        return_value_session_bind$13=session_bind(org, discard_request, (void *)dt);
-        if(!(return_value_session_bind$13 == -1))
+        return_value_session_bind_13=session_bind(org, discard_request, (void *)dt);
+        if(!(return_value_session_bind_13 == -1))
           dt->sd = org;
 
       }
@@ -8923,11 +8923,11 @@ static signed int nameserver_request(const char *domain, enum anonymous$14 type,
 static signed int nameserver_send(struct session_ent *sd)
 {
   struct domain_transact_ent *dt;
-  const void *return_value_session_cookie$1;
-  return_value_session_cookie$1=session_cookie(sd);
-  dt = (struct domain_transact_ent *)return_value_session_cookie$1;
+  const void *return_value_session_cookie_1;
+  return_value_session_cookie_1=session_cookie(sd);
+  dt = (struct domain_transact_ent *)return_value_session_cookie_1;
   unsigned char buf[512l];
-  struct anonymous$15 *hp = (struct anonymous$15 *)buf;
+  struct anonymous_15 *hp = (struct anonymous_15 *)buf;
   signed int len;
   unsigned char *cp;
   unsigned char *dnptrs[50l];
@@ -8935,34 +8935,34 @@ static signed int nameserver_send(struct session_ent *sd)
   unsigned char **lastdnptr;
   if(dt == ((struct domain_transact_ent *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
   memset((void *)hp, 0, (unsigned long int)12);
-  unsigned short int return_value_htons$3;
-  return_value_htons$3=htons(dt->reqid);
-  hp->id = (unsigned int)return_value_htons$3;
+  unsigned short int return_value_htons_3;
+  return_value_htons_3=htons(dt->reqid);
+  hp->id = (unsigned int)return_value_htons_3;
   hp->rd = (unsigned int)1;
-  unsigned short int return_value_htons$4;
-  return_value_htons$4=htons((unsigned short int)1);
-  hp->qdcount = (unsigned int)return_value_htons$4;
+  unsigned short int return_value_htons_4;
+  return_value_htons_4=htons((unsigned short int)1);
+  hp->qdcount = (unsigned int)return_value_htons_4;
   cp = buf + (signed long int)12;
   len = 512 - (12 + 4);
   dpp = dnptrs;
-  unsigned char **tmp_post$5 = dpp;
+  unsigned char **tmp_post_5 = dpp;
   dpp = dpp + 1l;
-  *tmp_post$5 = buf;
+  *tmp_post_5 = buf;
   *dpp = ((unsigned char *)NULL);
   lastdnptr = dnptrs + (signed long int)(sizeof(unsigned char *[50l]) /*400ul*/  / sizeof(unsigned char *) /*8ul*/ );
   len=__dn_comp(dt->domain, cp, len, dnptrs, lastdnptr);
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  signed int return_value_session_send$10;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  signed int return_value_session_send_10;
   if(!(len >= 0))
     return -1;
 
@@ -8975,12 +8975,12 @@ static signed int nameserver_send(struct session_ent *sd)
       {
         do
         {
-          unsigned short int nameserver_send$$1$$2$$1$$t_s = (unsigned short int)1;
-          unsigned char *nameserver_send$$1$$2$$1$$t_cp = (unsigned char *)cp;
-          tmp_post$6 = nameserver_send$$1$$2$$1$$t_cp;
-          nameserver_send$$1$$2$$1$$t_cp = nameserver_send$$1$$2$$1$$t_cp + 1l;
-          *tmp_post$6 = (unsigned char)((signed int)nameserver_send$$1$$2$$1$$t_s >> 8);
-          *nameserver_send$$1$$2$$1$$t_cp = (unsigned char)nameserver_send$$1$$2$$1$$t_s;
+          unsigned short int nameserver_send__1__2__1__t_s = (unsigned short int)1;
+          unsigned char *nameserver_send__1__2__1__t_cp = (unsigned char *)cp;
+          tmp_post_6 = nameserver_send__1__2__1__t_cp;
+          nameserver_send__1__2__1__t_cp = nameserver_send__1__2__1__t_cp + 1l;
+          *tmp_post_6 = (unsigned char)((signed int)nameserver_send__1__2__1__t_s >> 8);
+          *nameserver_send__1__2__1__t_cp = (unsigned char)nameserver_send__1__2__1__t_s;
           cp = cp + (signed long int)2;
         }
         while((_Bool)0);
@@ -8990,12 +8990,12 @@ static signed int nameserver_send(struct session_ent *sd)
       {
         do
         {
-          unsigned short int nameserver_send$$1$$2$$2$$t_s = (unsigned short int)12;
+          unsigned short int nameserver_send__1__2__2__t_s = (unsigned short int)12;
           unsigned char *t_cp = (unsigned char *)cp;
-          tmp_post$7 = t_cp;
+          tmp_post_7 = t_cp;
           t_cp = t_cp + 1l;
-          *tmp_post$7 = (unsigned char)((signed int)nameserver_send$$1$$2$$2$$t_s >> 8);
-          *t_cp = (unsigned char)nameserver_send$$1$$2$$2$$t_s;
+          *tmp_post_7 = (unsigned char)((signed int)nameserver_send__1__2__2__t_s >> 8);
+          *t_cp = (unsigned char)nameserver_send__1__2__2__t_s;
           cp = cp + (signed long int)2;
         }
         while((_Bool)0);
@@ -9005,11 +9005,11 @@ static signed int nameserver_send(struct session_ent *sd)
         do
         {
           unsigned short int t_s = (unsigned short int)15;
-          unsigned char *nameserver_send$$1$$2$$3$$t_cp = (unsigned char *)cp;
-          tmp_post$8 = nameserver_send$$1$$2$$3$$t_cp;
-          nameserver_send$$1$$2$$3$$t_cp = nameserver_send$$1$$2$$3$$t_cp + 1l;
-          *tmp_post$8 = (unsigned char)((signed int)t_s >> 8);
-          *nameserver_send$$1$$2$$3$$t_cp = (unsigned char)t_s;
+          unsigned char *nameserver_send__1__2__3__t_cp = (unsigned char *)cp;
+          tmp_post_8 = nameserver_send__1__2__3__t_cp;
+          nameserver_send__1__2__3__t_cp = nameserver_send__1__2__3__t_cp + 1l;
+          *tmp_post_8 = (unsigned char)((signed int)t_s >> 8);
+          *nameserver_send__1__2__3__t_cp = (unsigned char)t_s;
           cp = cp + (signed long int)2;
         }
         while((_Bool)0);
@@ -9020,18 +9020,18 @@ static signed int nameserver_send(struct session_ent *sd)
 
         __CPROVER_DUMP_L6:
           ;
-          unsigned short int nameserver_send$$1$$3$$t_s = (unsigned short int)1;
-          unsigned char *nameserver_send$$1$$3$$t_cp = (unsigned char *)cp;
-          tmp_post$9 = nameserver_send$$1$$3$$t_cp;
-          nameserver_send$$1$$3$$t_cp = nameserver_send$$1$$3$$t_cp + 1l;
-          *tmp_post$9 = (unsigned char)((signed int)nameserver_send$$1$$3$$t_s >> 8);
-          *nameserver_send$$1$$3$$t_cp = (unsigned char)nameserver_send$$1$$3$$t_s;
+          unsigned short int nameserver_send__1__3__t_s = (unsigned short int)1;
+          unsigned char *nameserver_send__1__3__t_cp = (unsigned char *)cp;
+          tmp_post_9 = nameserver_send__1__3__t_cp;
+          nameserver_send__1__3__t_cp = nameserver_send__1__3__t_cp + 1l;
+          *tmp_post_9 = (unsigned char)((signed int)nameserver_send__1__3__t_s >> 8);
+          *nameserver_send__1__3__t_cp = (unsigned char)nameserver_send__1__3__t_s;
           cp = cp + (signed long int)2;
         }
         while((_Bool)0);
         len = (signed int)(cp - buf);
-        return_value_session_send$10=session_send(sd, buf, len);
-        return return_value_session_send$10;
+        return_value_session_send_10=session_send(sd, buf, len);
+        return return_value_session_send_10;
       }
     }
   }
@@ -9048,16 +9048,16 @@ static unsigned int netmask(signed int bits)
     mask = mask >> 1;
     mask = mask | (unsigned int)0x80000000L;
   }
-  unsigned int return_value_htonl$1;
-  return_value_htonl$1=htonl(mask);
-  return (unsigned int)return_value_htonl$1;
+  unsigned int return_value_htonl_1;
+  return_value_htonl_1=htonl(mask);
+  return (unsigned int)return_value_htonl_1;
 }
 
 // netstat_aggregate
 // file netstat.h line 132
 void netstat_aggregate(struct netstat_header *nh, signed int bits)
 {
-  signed int return_value_isservport$1;
+  signed int return_value_isservport_1;
   if(!(nh == ((struct netstat_header *)NULL)) && bits >= 0)
   {
     memset((void *)&nh->en_hdr.src, 0, sizeof(unsigned char [6l]) /*6ul*/ );
@@ -9066,8 +9066,8 @@ void netstat_aggregate(struct netstat_header *nh, signed int bits)
     {
       struct ip_address *src = &nh->in_hdr.src;
       struct ip_address *dst = &nh->in_hdr.dst;
-      maskit((unsigned char *)&src->ipaddr, (signed int)sizeof(union anonymous$16) /*4ul*/ , bits);
-      maskit((unsigned char *)&dst->ipaddr, (signed int)sizeof(union anonymous$16) /*4ul*/ , bits);
+      maskit((unsigned char *)&src->ipaddr, (signed int)sizeof(union anonymous_16) /*4ul*/ , bits);
+      maskit((unsigned char *)&dst->ipaddr, (signed int)sizeof(union anonymous_16) /*4ul*/ , bits);
       if(!(src->ip_port == 0))
       {
         if(!(dst->ip_port == 0))
@@ -9076,15 +9076,15 @@ void netstat_aggregate(struct netstat_header *nh, signed int bits)
           sport=ntohs(src->ip_port);
           unsigned short int dport;
           dport=ntohs(dst->ip_port);
-          signed int return_value_isservport$2;
-          return_value_isservport$2=isservport(sport);
-          if(!(return_value_isservport$2 == 0))
+          signed int return_value_isservport_2;
+          return_value_isservport_2=isservport(sport);
+          if(!(return_value_isservport_2 == 0))
             dst->ip_port = (unsigned short int)0;
 
           else
           {
-            return_value_isservport$1=isservport(dport);
-            if(!(return_value_isservport$1 == 0))
+            return_value_isservport_1=isservport(dport);
+            if(!(return_value_isservport_1 == 0))
               src->ip_port = (unsigned short int)0;
 
             else
@@ -9124,10 +9124,10 @@ void netstat_aggregate(struct netstat_header *nh, signed int bits)
 // file netstat.h line 139
 signed int netstat_bidir(const struct netstat *p1, const struct netstat *p2)
 {
-  signed int return_value_memcmp$2;
-  signed int return_value_memcmp$1;
-  signed int return_value_memcmp$4;
-  signed int return_value_memcmp$3;
+  signed int return_value_memcmp_2;
+  signed int return_value_memcmp_1;
+  signed int return_value_memcmp_4;
+  signed int return_value_memcmp_3;
   if(p1 == ((const struct netstat *)NULL) || p2 == ((const struct netstat *)NULL))
     return 0;
 
@@ -9139,11 +9139,11 @@ signed int netstat_bidir(const struct netstat *p1, const struct netstat *p2)
       {
         if(p1->ns_hdr.in_hdr.proto == p2->ns_hdr.in_hdr.proto)
         {
-          return_value_memcmp$2=memcmp((const void *)&p1->ns_hdr.in_hdr.src, (const void *)&p2->ns_hdr.in_hdr.dst, sizeof(struct ip_address) /*8ul*/ );
-          if(return_value_memcmp$2 == 0)
+          return_value_memcmp_2=memcmp((const void *)&p1->ns_hdr.in_hdr.src, (const void *)&p2->ns_hdr.in_hdr.dst, sizeof(struct ip_address) /*8ul*/ );
+          if(return_value_memcmp_2 == 0)
           {
-            return_value_memcmp$1=memcmp((const void *)&p2->ns_hdr.in_hdr.src, (const void *)&p1->ns_hdr.in_hdr.dst, sizeof(struct ip_address) /*8ul*/ );
-            if(return_value_memcmp$1 == 0)
+            return_value_memcmp_1=memcmp((const void *)&p2->ns_hdr.in_hdr.src, (const void *)&p1->ns_hdr.in_hdr.dst, sizeof(struct ip_address) /*8ul*/ );
+            if(return_value_memcmp_1 == 0)
               return 1;
 
           }
@@ -9159,11 +9159,11 @@ signed int netstat_bidir(const struct netstat *p1, const struct netstat *p2)
       {
         if(p1->ns_hdr.en_hdr.type == p2->ns_hdr.en_hdr.type)
         {
-          return_value_memcmp$4=memcmp((const void *)p1->ns_hdr.en_hdr.src, (const void *)p2->ns_hdr.en_hdr.dst, (unsigned long int)6);
-          if(return_value_memcmp$4 == 0)
+          return_value_memcmp_4=memcmp((const void *)p1->ns_hdr.en_hdr.src, (const void *)p2->ns_hdr.en_hdr.dst, (unsigned long int)6);
+          if(return_value_memcmp_4 == 0)
           {
-            return_value_memcmp$3=memcmp((const void *)p2->ns_hdr.en_hdr.src, (const void *)p1->ns_hdr.en_hdr.dst, (unsigned long int)6);
-            if(return_value_memcmp$3 == 0)
+            return_value_memcmp_3=memcmp((const void *)p2->ns_hdr.en_hdr.src, (const void *)p1->ns_hdr.en_hdr.dst, (unsigned long int)6);
+            if(return_value_memcmp_3 == 0)
               return 1;
 
           }
@@ -9180,13 +9180,13 @@ signed int netstat_bidir(const struct netstat *p1, const struct netstat *p2)
 // file netstat.h line 133
 signed int netstat_count(const struct pcap_handler *ph)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ph == ((const struct pcap_handler *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(ph->ns_hash != ((struct htab *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(ph->ns_hash != ((struct htab *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -9205,17 +9205,17 @@ signed int netstat_fetch(struct netstat ***list, struct pcap_handler *ph)
   struct netstat **array;
   if(list == ((struct netstat ***)NULL) || ph == ((struct pcap_handler *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   cnt=netstat_count(ph);
-  signed int tmp_post$3;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$5;
-  signed int return_value_hnbucket$4;
+  signed int tmp_post_3;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_5;
+  signed int return_value_hnbucket_4;
   if(!(cnt >= 1))
   {
     if(!(*list == ((struct netstat **)NULL)))
@@ -9227,15 +9227,15 @@ signed int netstat_fetch(struct netstat ***list, struct pcap_handler *ph)
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)cnt * sizeof(struct netstat *) /*8ul*/ );
-    array = (struct netstat **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)cnt * sizeof(struct netstat *) /*8ul*/ );
+    array = (struct netstat **)return_value_malloc_2;
     if(array == ((struct netstat **)NULL))
       return -1;
 
     else
     {
-      if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+      if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
         pthread_mutex_lock(ph->ns_mutex);
 
       ht = ph->ns_hash;
@@ -9252,9 +9252,9 @@ signed int netstat_fetch(struct netstat ***list, struct pcap_handler *ph)
         ns = (struct netstat *)ht->ipos->stuff;
         if(!(ns == ((struct netstat *)NULL)))
         {
-          tmp_post$3 = i;
+          tmp_post_3 = i;
           i = i + 1;
-          array[(signed long int)tmp_post$3] = ns;
+          array[(signed long int)tmp_post_3] = ns;
           ph->pkt_cnt = ph->pkt_cnt + (unsigned long int)ns->pkt_cnt;
           ph->pkt_len = ph->pkt_len + (unsigned long int)ns->pkt_len;
           ph->data_len = ph->data_len + (unsigned long int)ns->data_len;
@@ -9264,28 +9264,28 @@ signed int netstat_fetch(struct netstat ***list, struct pcap_handler *ph)
         }
 
         if(ht->ipos == ((struct hitem *)NULL))
-          tmp_if_expr$6 = 0;
+          tmp_if_expr_6 = 0;
 
         else
         {
           ht->ipos = ht->ipos->next;
           if(!(ht->ipos == ((struct hitem *)NULL)))
-            tmp_if_expr$5 = 1;
+            tmp_if_expr_5 = 1;
 
           else
           {
-            return_value_hnbucket$4=hnbucket(ht);
-            tmp_if_expr$5 = return_value_hnbucket$4;
+            return_value_hnbucket_4=hnbucket(ht);
+            tmp_if_expr_5 = return_value_hnbucket_4;
           }
-          tmp_if_expr$6 = tmp_if_expr$5;
+          tmp_if_expr_6 = tmp_if_expr_5;
         }
-        op = tmp_if_expr$6;
+        op = tmp_if_expr_6;
       }
       if(!(*list == ((struct netstat **)NULL)))
         free((void *)*list);
 
       *list = array;
-      if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+      if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
         pthread_mutex_unlock(ph->ns_mutex);
 
       return i;
@@ -9302,30 +9302,30 @@ signed int netstat_find(struct pcap_handler *ph, struct netstat *ns)
   unsigned long int keyl;
   struct netstat *found;
   signed int ok = 0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_netstat_count$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_netstat_count_1;
   if(ns == ((struct netstat *)NULL) || ph == ((struct pcap_handler *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_netstat_count$1=netstat_count(ph);
-    tmp_if_expr$2 = return_value_netstat_count$1 < 1 ? (_Bool)1 : (_Bool)0;
+    return_value_netstat_count_1=netstat_count(ph);
+    tmp_if_expr_2 = return_value_netstat_count_1 < 1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return 0;
 
   else
   {
-    if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+    if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
       pthread_mutex_lock(ph->ns_mutex);
 
     ht = ph->ns_hash;
     key = (unsigned char *)&ns->ns_hdr;
     keyl = sizeof(struct netstat_header) /*36ul*/ ;
-    signed int return_value_hfind$3;
-    return_value_hfind$3=hfind(ht, key, keyl);
-    if(!(return_value_hfind$3 == 0))
+    signed int return_value_hfind_3;
+    return_value_hfind_3=hfind(ht, key, keyl);
+    if(!(return_value_hfind_3 == 0))
     {
       found = (struct netstat *)ht->ipos->stuff;
       if(!(found == ((struct netstat *)NULL)))
@@ -9336,7 +9336,7 @@ signed int netstat_find(struct pcap_handler *ph, struct netstat *ns)
 
     }
 
-    if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+    if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
       pthread_mutex_unlock(ph->ns_mutex);
 
     return ok;
@@ -9351,7 +9351,7 @@ void netstat_free(struct pcap_handler *ph)
   if(!(ph == ((struct pcap_handler *)NULL)))
   {
     netstat_purge(ph, ((struct timeval *)NULL));
-    if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+    if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
       pthread_mutex_lock(ph->ns_mutex);
 
     ht = ph->ns_hash;
@@ -9359,7 +9359,7 @@ void netstat_free(struct pcap_handler *ph)
     if(!(ht == ((struct htab *)NULL)))
       hdestroy(ht);
 
-    if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+    if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
       pthread_mutex_unlock(ph->ns_mutex);
 
   }
@@ -9374,9 +9374,9 @@ signed int netstat_insert(struct pcap_handler *ph, const struct netstat *ns)
   struct netstat ns_buf;
   if(ns == ((const struct netstat *)NULL) || ph == ((struct pcap_handler *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9401,11 +9401,11 @@ signed int netstat_insert(struct pcap_handler *ph, const struct netstat *ns)
       ns = &ns_buf;
     }
 
-    if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+    if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
       pthread_mutex_lock(ph->ns_mutex);
 
     op=htab_insert(ph->ns_hash, ns);
-    if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+    if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
       pthread_mutex_unlock(ph->ns_mutex);
 
     return op;
@@ -9421,9 +9421,9 @@ signed int netstat_match(const struct netstat *p1, const struct netstat *p2)
 
   else
   {
-    signed int return_value_memcmp$1;
-    return_value_memcmp$1=memcmp((const void *)&p1->ns_hdr, (const void *)&p2->ns_hdr, sizeof(struct netstat_header) /*36ul*/ );
-    return (signed int)!(return_value_memcmp$1 != 0);
+    signed int return_value_memcmp_1;
+    return_value_memcmp_1=memcmp((const void *)&p1->ns_hdr, (const void *)&p2->ns_hdr, sizeof(struct netstat_header) /*36ul*/ );
+    return (signed int)!(return_value_memcmp_1 != 0);
   }
 }
 
@@ -9437,25 +9437,25 @@ signed int netstat_purge(struct pcap_handler *ph, struct timeval *at)
   struct netstat *ns;
   if(ph == ((struct pcap_handler *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  signed int return_value_netstat_count$2;
-  return_value_netstat_count$2=netstat_count(ph);
-  _Bool tmp_if_expr$7;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$4;
-  signed int return_value_hnbucket$3;
-  if(!(return_value_netstat_count$2 >= 1))
+  signed int return_value_netstat_count_2;
+  return_value_netstat_count_2=netstat_count(ph);
+  _Bool tmp_if_expr_7;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_4;
+  signed int return_value_hnbucket_3;
+  if(!(return_value_netstat_count_2 >= 1))
     return 0;
 
   else
   {
-    if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+    if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
       pthread_mutex_lock(ph->ns_mutex);
 
     ht = ph->ns_hash;
@@ -9472,18 +9472,18 @@ signed int netstat_purge(struct pcap_handler *ph, struct timeval *at)
       else
       {
         if(at == ((struct timeval *)NULL))
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
           if(ns->mtime.tv_sec == at->tv_sec)
-            tmp_if_expr$6 = (signed int)((&ns->mtime)->tv_usec < at->tv_usec);
+            tmp_if_expr_6 = (signed int)((&ns->mtime)->tv_usec < at->tv_usec);
 
           else
-            tmp_if_expr$6 = (signed int)((&ns->mtime)->tv_sec < at->tv_sec);
-          tmp_if_expr$7 = tmp_if_expr$6 != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = (signed int)((&ns->mtime)->tv_sec < at->tv_sec);
+          tmp_if_expr_7 = tmp_if_expr_6 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           free((void *)ns);
           op=hdel(ht);
@@ -9493,26 +9493,26 @@ signed int netstat_purge(struct pcap_handler *ph, struct timeval *at)
         else
         {
           if(ht->ipos == ((struct hitem *)NULL))
-            tmp_if_expr$5 = 0;
+            tmp_if_expr_5 = 0;
 
           else
           {
             ht->ipos = ht->ipos->next;
             if(!(ht->ipos == ((struct hitem *)NULL)))
-              tmp_if_expr$4 = 1;
+              tmp_if_expr_4 = 1;
 
             else
             {
-              return_value_hnbucket$3=hnbucket(ht);
-              tmp_if_expr$4 = return_value_hnbucket$3;
+              return_value_hnbucket_3=hnbucket(ht);
+              tmp_if_expr_4 = return_value_hnbucket_3;
             }
-            tmp_if_expr$5 = tmp_if_expr$4;
+            tmp_if_expr_5 = tmp_if_expr_4;
           }
-          op = tmp_if_expr$5;
+          op = tmp_if_expr_5;
         }
       }
     }
-    if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+    if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
       pthread_mutex_unlock(ph->ns_mutex);
 
     return cnt;
@@ -9524,9 +9524,9 @@ signed int netstat_purge(struct pcap_handler *ph, struct timeval *at)
 static struct domain_transact_ent * new_transact()
 {
   struct domain_transact_ent *curr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct domain_transact_ent) /*64ul*/ );
-  curr = (struct domain_transact_ent *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct domain_transact_ent) /*64ul*/ );
+  curr = (struct domain_transact_ent *)return_value_malloc_1;
   if(curr == ((struct domain_transact_ent *)NULL))
     return ((struct domain_transact_ent *)NULL);
 
@@ -9557,9 +9557,9 @@ struct hnamemem * newhnamemem(void)
   if(!(num >= 1u))
   {
     num = (unsigned int)64;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)num, sizeof(struct hnamemem) /*24ul*/ );
-    ptr = (struct hnamemem *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)num, sizeof(struct hnamemem) /*24ul*/ );
+    ptr = (struct hnamemem *)return_value_calloc_1;
     if(ptr == ((struct hnamemem *)NULL))
     {
       perror("newhnamemem: calloc");
@@ -9569,9 +9569,9 @@ struct hnamemem * newhnamemem(void)
   }
 
   num = num - 1u;
-  struct hnamemem *tmp_post$2 = ptr;
+  struct hnamemem *tmp_post_2 = ptr;
   ptr = ptr + 1l;
-  p = tmp_post$2;
+  p = tmp_post_2;
   return p;
 }
 
@@ -9587,12 +9587,12 @@ signed int parse_dl(struct netstat *ns, signed int dlt, signed int caplen, signe
   unsigned int hdrlen;
   unsigned char dsap;
   unsigned char ssap;
-  unsigned short int return_value_ntohs$1;
-  _Bool tmp_if_expr$4;
-  const unsigned char *tmp_post$5;
-  unsigned short int return_value_ntohs$7;
-  unsigned short int return_value_ntohs$9;
-  unsigned short int return_value_ntohs$10;
+  unsigned short int return_value_ntohs_1;
+  _Bool tmp_if_expr_4;
+  const unsigned char *tmp_post_5;
+  unsigned short int return_value_ntohs_7;
+  unsigned short int return_value_ntohs_9;
+  unsigned short int return_value_ntohs_10;
   if(pkt == ((const unsigned char *)NULL))
     return -1;
 
@@ -9634,8 +9634,8 @@ signed int parse_dl(struct netstat *ns, signed int dlt, signed int caplen, signe
           ns->ns_hdr.en_hdr.type = ether->ether_type;
         }
 
-        return_value_ntohs$1=ntohs(ether->ether_type);
-        type = (unsigned int)return_value_ntohs$1;
+        return_value_ntohs_1=ntohs(ether->ether_type);
+        type = (unsigned int)return_value_ntohs_1;
         if(!(type >= 1501u))
         {
           if(!((unsigned int)caplen >= 3u + hdrlen))
@@ -9665,9 +9665,9 @@ signed int parse_dl(struct netstat *ns, signed int dlt, signed int caplen, signe
               if(!(ns == ((struct netstat *)NULL)))
                 ns->ns_hdr.en_hdr.type = (unsigned short int)type;
 
-              unsigned short int return_value_ntohs$2;
-              return_value_ntohs$2=ntohs((unsigned short int)type);
-              type = (unsigned int)return_value_ntohs$2;
+              unsigned short int return_value_ntohs_2;
+              return_value_ntohs_2=ntohs((unsigned short int)type);
+              type = (unsigned int)return_value_ntohs_2;
               hdrlen = hdrlen + (unsigned int)5;
             }
 
@@ -9683,9 +9683,9 @@ signed int parse_dl(struct netstat *ns, signed int dlt, signed int caplen, signe
             if(!(ns == ((struct netstat *)NULL)))
               ns->ns_hdr.en_hdr.param.tag = ((struct ether_dot1q_header *)p)->tag;
 
-            unsigned short int return_value_ntohs$3;
-            return_value_ntohs$3=ntohs(((struct ether_dot1q_header *)p)->proto);
-            type = (unsigned int)return_value_ntohs$3;
+            unsigned short int return_value_ntohs_3;
+            return_value_ntohs_3=ntohs(((struct ether_dot1q_header *)p)->proto);
+            type = (unsigned int)return_value_ntohs_3;
           }
 
         p = p + (signed long int)hdrlen;
@@ -9710,11 +9710,11 @@ signed int parse_dl(struct netstat *ns, signed int dlt, signed int caplen, signe
       case 51:
       {
         if(!(caplen >= 6))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = p[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = p[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
           return -1;
 
         p = p + (signed long int)6;
@@ -9739,17 +9739,17 @@ signed int parse_dl(struct netstat *ns, signed int dlt, signed int caplen, signe
 
         if(!((01 & (signed int)*p) == 0))
         {
-          tmp_post$5 = p;
+          tmp_post_5 = p;
           p = p + 1l;
-          type = (unsigned int)*tmp_post$5;
+          type = (unsigned int)*tmp_post_5;
           hdrlen = hdrlen + 1u;
         }
 
         else
         {
-          unsigned short int return_value_ntohs$6;
-          return_value_ntohs$6=ntohs(*((unsigned short int *)p));
-          type = (unsigned int)return_value_ntohs$6;
+          unsigned short int return_value_ntohs_6;
+          return_value_ntohs_6=ntohs(*((unsigned short int *)p));
+          type = (unsigned int)return_value_ntohs_6;
           p = p + (signed long int)2;
           hdrlen = hdrlen + (unsigned int)2;
         }
@@ -9780,8 +9780,8 @@ signed int parse_dl(struct netstat *ns, signed int dlt, signed int caplen, signe
 
         }
 
-        return_value_ntohs$7=ntohs(*((unsigned short int *)&p[(signed long int)2]));
-        type = (unsigned int)return_value_ntohs$7;
+        return_value_ntohs_7=ntohs(*((unsigned short int *)&p[(signed long int)2]));
+        type = (unsigned int)return_value_ntohs_7;
         if(!(type == 2048u) && !(type == 34525u))
           return -1;
 
@@ -9796,16 +9796,16 @@ signed int parse_dl(struct netstat *ns, signed int dlt, signed int caplen, signe
         if(!(caplen >= 16))
           return -1;
 
-        return_value_ntohs$9=ntohs(((struct sll_header *)p)->sll_halen);
-        if((signed int)return_value_ntohs$9 == 6)
+        return_value_ntohs_9=ntohs(((struct sll_header *)p)->sll_halen);
+        if((signed int)return_value_ntohs_9 == 6)
         {
           if(!(ns == ((struct netstat *)NULL)))
           {
             memcpy((void *)ns->ns_hdr.en_hdr.src, (const void *)((struct sll_header *)p)->sll_addr, (unsigned long int)6);
             memset((void *)ns->ns_hdr.en_hdr.dst, 0, (unsigned long int)6);
-            unsigned short int return_value_ntohs$8;
-            return_value_ntohs$8=ntohs(((struct sll_header *)p)->sll_pkttype);
-            type = (unsigned int)return_value_ntohs$8;
+            unsigned short int return_value_ntohs_8;
+            return_value_ntohs_8=ntohs(((struct sll_header *)p)->sll_pkttype);
+            type = (unsigned int)return_value_ntohs_8;
             if(!(type == 4u))
             {
               if(type == 1u)
@@ -9825,8 +9825,8 @@ signed int parse_dl(struct netstat *ns, signed int dlt, signed int caplen, signe
           ether = (struct ether_header *)p;
         }
 
-        return_value_ntohs$10=ntohs(((struct sll_header *)p)->sll_protocol);
-        type = (unsigned int)return_value_ntohs$10;
+        return_value_ntohs_10=ntohs(((struct sll_header *)p)->sll_protocol);
+        type = (unsigned int)return_value_ntohs_10;
         p = p + (signed long int)16;
         caplen = caplen - 16;
         length = length - (unsigned int)16;
@@ -9911,20 +9911,20 @@ static void parse_feed(unsigned char *a, struct pcap_pkthdr *h, const unsigned c
 {
   struct pcap_handler *ph = (struct pcap_handler *)a;
   struct netstat ns;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ph == ((struct pcap_handler *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(ph->pcap != ((struct pcap *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(ph->pcap != ((struct pcap *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     memset((void *)&ns, 0, sizeof(struct netstat) /*96ul*/ );
-    signed int return_value_pcap_datalink$2;
-    return_value_pcap_datalink$2=pcap_datalink(ph->pcap);
-    signed int return_value_parse_dl$3;
-    return_value_parse_dl$3=parse_dl(&ns, return_value_pcap_datalink$2, (signed int)h->caplen, (signed int)h->len, p);
-    if(return_value_parse_dl$3 >= 0)
+    signed int return_value_pcap_datalink_2;
+    return_value_pcap_datalink_2=pcap_datalink(ph->pcap);
+    signed int return_value_parse_dl_3;
+    return_value_parse_dl_3=parse_dl(&ns, return_value_pcap_datalink_2, (signed int)h->caplen, (signed int)h->len, p);
+    if(return_value_parse_dl_3 >= 0)
     {
       ns.mtime = h->ts;
       pcap_save(ph, &ns);
@@ -9960,29 +9960,29 @@ signed int parse_ip(struct netstat *ns, signed int caplen, struct ip *ip)
         ns->ns_hdr.in_hdr.proto = ip->ip_p;
         src->ipaddr.ipa4 = ip->ip_src;
         dst->ipaddr.ipa4 = ip->ip_dst;
-        unsigned short int return_value_ntohs$1;
-        return_value_ntohs$1=ntohs(ip->ip_len);
-        ns->pkt_len = (unsigned int)return_value_ntohs$1;
+        unsigned short int return_value_ntohs_1;
+        return_value_ntohs_1=ntohs(ip->ip_len);
+        ns->pkt_len = (unsigned int)return_value_ntohs_1;
       }
 
       hdrlen = (signed int)ip->ip_hl << 2;
       caplen = caplen - hdrlen;
-      unsigned short int return_value_ntohs$2;
-      return_value_ntohs$2=ntohs(ip->ip_off);
-      if((0x1fff & (signed int)return_value_ntohs$2) == 0)
+      unsigned short int return_value_ntohs_2;
+      return_value_ntohs_2=ntohs(ip->ip_off);
+      if((0x1fff & (signed int)return_value_ntohs_2) == 0)
       {
         p = (const unsigned char *)ip + (signed long int)hdrlen;
         switch((signed int)ip->ip_p)
         {
           case 6:
           {
-            len = (signed int)((struct tcphdr *)p)->$anon0.$anon1.doff << 2;
+            len = (signed int)((struct tcphdr *)p)->_anon0._anon1.doff << 2;
             hdrlen = hdrlen + len;
             caplen = caplen - len;
             if(caplen >= 0 && !(dst == ((struct ip_address *)NULL)) && !(src == ((struct ip_address *)NULL)))
             {
-              src->ip_port = ((struct tcphdr *)p)->$anon0.$anon1.source;
-              dst->ip_port = ((struct tcphdr *)p)->$anon0.$anon1.dest;
+              src->ip_port = ((struct tcphdr *)p)->_anon0._anon1.source;
+              dst->ip_port = ((struct tcphdr *)p)->_anon0._anon1.dest;
             }
 
             break;
@@ -9994,8 +9994,8 @@ signed int parse_ip(struct netstat *ns, signed int caplen, struct ip *ip)
             caplen = caplen - len;
             if(caplen >= 0 && !(dst == ((struct ip_address *)NULL)) && !(src == ((struct ip_address *)NULL)))
             {
-              src->ip_port = ((struct udphdr *)p)->$anon0.$anon1.source;
-              dst->ip_port = ((struct udphdr *)p)->$anon0.$anon1.dest;
+              src->ip_port = ((struct udphdr *)p)->_anon0._anon1.source;
+              dst->ip_port = ((struct udphdr *)p)->_anon0._anon1.dest;
             }
 
             break;
@@ -10036,11 +10036,11 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
   struct pcap_handler *ph = ((struct pcap_handler *)NULL);
   struct selector *sp = ((struct selector *)NULL);
   struct timeval now;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
+  _Bool tmp_if_expr_5;
   if(!(prompt_mode == 0))
   {
     const char *txt = ((const char *)NULL);
@@ -10093,14 +10093,14 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
         case 70:
         {
           if(expression == ((char *)NULL))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$1=strcmp(prompt_buf, expression);
-            tmp_if_expr$2 = return_value_strcmp$1 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_1=strcmp(prompt_buf, expression);
+            tmp_if_expr_2 = return_value_strcmp_1 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$2)
+          if(tmp_if_expr_2)
           {
             if(!(expression == ((char *)NULL)))
               free((void *)expression);
@@ -10137,14 +10137,14 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
           else
           {
             if(search == ((char *)NULL))
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$3=strcmp(prompt_buf, search);
-              tmp_if_expr$4 = return_value_strcmp$3 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_3=strcmp(prompt_buf, search);
+              tmp_if_expr_4 = return_value_strcmp_3 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$4)
+            if(tmp_if_expr_4)
             {
               if(!(search == ((char *)NULL)))
                 free((void *)search);
@@ -10175,12 +10175,12 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
           if((signed int)show_mode == NetStat)
           {
             ph=pcap_get_selected(ph_list);
-            tmp_if_expr$5 = ph != ((struct pcap_handler *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = ph != ((struct pcap_handler *)NULL) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
           {
             if(!(ph->masklen == ch))
             {
@@ -10223,8 +10223,8 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
     goto __CPROVER_DUMP_L95;
   }
 
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$12;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_12;
   if(!(ch == 81) && !(ch == 113) && !(ch == 0x0100))
   {
     if(ch == 12)
@@ -10269,22 +10269,22 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
       {
         ph=pcap_get_selected(ph_list);
         if(!(ph == ((struct pcap_handler *)NULL)))
-          tmp_if_expr$6 = ph->top != ((struct pcap_handler *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = ph->top != ((struct pcap_handler *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
           pcaph_close(ph);
 
         else
-          show_mode = (enum anonymous$13)Interfaces;
+          show_mode = (enum anonymous_13)Interfaces;
         pcap_show((void *)ph_list);
         goto __CPROVER_DUMP_L95;
       }
       case FlowDump:
       {
         show_dump_close();
-        show_mode = (enum anonymous$13)NetStat;
+        show_mode = (enum anonymous_13)NetStat;
         pcap_show((void *)ph_list);
         goto __CPROVER_DUMP_L95;
       }
@@ -10307,11 +10307,11 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
 
   __CPROVER_DUMP_L47:
     ;
-    struct selector *return_value_help_page_list$7;
-    return_value_help_page_list$7=help_page_list(show_mode);
-    if(!(return_value_help_page_list$7 == ((struct selector *)NULL)))
+    struct selector *return_value_help_page_list_7;
+    return_value_help_page_list_7=help_page_list(show_mode);
+    if(!(return_value_help_page_list_7 == ((struct selector *)NULL)))
     {
-      show_mode = (enum anonymous$13)HelpPage;
+      show_mode = (enum anonymous_13)HelpPage;
       pcap_show((void *)ph_list);
       goto __CPROVER_DUMP_L95;
     }
@@ -10325,9 +10325,9 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
       prompt_mode = ch;
       snprintf(prompt_buf, sizeof(char [512l]) /*512ul*/ , "%d", refresh_time);
       init_edit_string("Refresh seconds: ", numbers, 5);
-      struct selector *return_value_get_selector$8;
-      return_value_get_selector$8=get_selector(ph_list);
-      selector_withdraw(return_value_get_selector$8);
+      struct selector *return_value_get_selector_8;
+      return_value_get_selector_8=get_selector(ph_list);
+      selector_withdraw(return_value_get_selector_8);
       screen_update();
       goto __CPROVER_DUMP_L95;
     }
@@ -10341,9 +10341,9 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
       prompt_mode = ch;
       snprintf(prompt_buf, sizeof(char [512l]) /*512ul*/ , "%d", purge_time);
       init_edit_string("Purge seconds: ", numbers, 5);
-      struct selector *return_value_get_selector$9;
-      return_value_get_selector$9=get_selector(ph_list);
-      selector_withdraw(return_value_get_selector$9);
+      struct selector *return_value_get_selector_9;
+      return_value_get_selector_9=get_selector(ph_list);
+      selector_withdraw(return_value_get_selector_9);
       screen_update();
       goto __CPROVER_DUMP_L95;
     }
@@ -10363,9 +10363,9 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
       }
 
       init_edit_string("Filter expression: ", ((const char *)NULL), (signed int)sizeof(char [512l]) /*512ul*/ );
-      struct selector *return_value_get_selector$10;
-      return_value_get_selector$10=get_selector(ph_list);
-      selector_withdraw(return_value_get_selector$10);
+      struct selector *return_value_get_selector_10;
+      return_value_get_selector_10=get_selector(ph_list);
+      selector_withdraw(return_value_get_selector_10);
       screen_update();
       goto __CPROVER_DUMP_L95;
     }
@@ -10385,9 +10385,9 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
       }
 
       init_edit_string("Search string: ", ((const char *)NULL), (signed int)sizeof(char [512l]) /*512ul*/ );
-      struct selector *return_value_get_selector$11;
-      return_value_get_selector$11=get_selector(ph_list);
-      selector_withdraw(return_value_get_selector$11);
+      struct selector *return_value_get_selector_11;
+      return_value_get_selector_11=get_selector(ph_list);
+      selector_withdraw(return_value_get_selector_11);
       screen_update();
       goto __CPROVER_DUMP_L95;
     }
@@ -10420,12 +10420,12 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
       if((signed int)show_mode == NetStat)
       {
         ph=pcap_get_selected(ph_list);
-        tmp_if_expr$12 = ph != ((struct pcap_handler *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_12 = ph != ((struct pcap_handler *)NULL) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$12 = (_Bool)0;
-      if(tmp_if_expr$12)
+        tmp_if_expr_12 = (_Bool)0;
+      if(tmp_if_expr_12)
       {
         if(ph->masklen >= 0)
           snprintf(prompt_buf, sizeof(char [512l]) /*512ul*/ , "%d", ph->masklen);
@@ -10441,9 +10441,9 @@ static void parse_key(signed int key, struct pcap_handler *ph_list)
         strcpy(buf, "Aggregation netmask length: ");
       }
       init_edit_string(buf, numbers, 5);
-      struct selector *return_value_get_selector$13;
-      return_value_get_selector$13=get_selector(ph_list);
-      selector_withdraw(return_value_get_selector$13);
+      struct selector *return_value_get_selector_13;
+      return_value_get_selector_13=get_selector(ph_list);
+      selector_withdraw(return_value_get_selector_13);
       screen_update();
       goto __CPROVER_DUMP_L95;
     }
@@ -10482,9 +10482,9 @@ __CPROVER_DUMP_L76:
   gettimeofday(&now, ((struct timezone *)NULL));
   now.tv_sec = now.tv_sec + (signed long int)refresh_time;
   add_event(&now, pcap_show, (void *)ph_list);
-  signed int return_value_show_stat_input$14;
-  struct netstat *return_value_show_stat_get$17;
-  struct pcap_handler *return_value_pcaph_create$18;
+  signed int return_value_show_stat_input_14;
+  struct netstat *return_value_show_stat_get_17;
+  struct pcap_handler *return_value_pcaph_create_18;
   switch((signed int)show_mode)
   {
     case Interfaces:
@@ -10499,8 +10499,8 @@ __CPROVER_DUMP_L76:
         break;
 
       sp=show_stat_selector(ph);
-      return_value_show_stat_input$14=show_stat_input(ph, ch);
-      if(!(return_value_show_stat_input$14 == 0))
+      return_value_show_stat_input_14=show_stat_input(ph, ch);
+      if(!(return_value_show_stat_input_14 == 0))
       {
         selector_redraw(sp);
         break;
@@ -10533,7 +10533,7 @@ __CPROVER_DUMP_L76:
             if(ph == ((struct pcap_handler *)NULL))
               break;
 
-            show_mode = (enum anonymous$13)NetStat;
+            show_mode = (enum anonymous_13)NetStat;
             pcap_show((void *)ph_list);
             break;
           }
@@ -10541,20 +10541,20 @@ __CPROVER_DUMP_L76:
           {
             if(ph->masklen == -1)
             {
-              struct netstat *return_value_show_stat_get$15;
-              return_value_show_stat_get$15=show_stat_get(ph, ch);
-              signed int return_value_show_dump_open$16;
-              return_value_show_dump_open$16=show_dump_open(ph, return_value_show_stat_get$15);
-              if(return_value_show_dump_open$16 == 0)
-                show_mode = (enum anonymous$13)FlowDump;
+              struct netstat *return_value_show_stat_get_15;
+              return_value_show_stat_get_15=show_stat_get(ph, ch);
+              signed int return_value_show_dump_open_16;
+              return_value_show_dump_open_16=show_dump_open(ph, return_value_show_stat_get_15);
+              if(return_value_show_dump_open_16 == 0)
+                show_mode = (enum anonymous_13)FlowDump;
 
             }
 
             else
             {
-              return_value_show_stat_get$17=show_stat_get(ph, ch);
-              return_value_pcaph_create$18=pcaph_create(ph, (struct netstat_header *)return_value_show_stat_get$17);
-              if(!(return_value_pcaph_create$18 == ((struct pcap_handler *)NULL)))
+              return_value_show_stat_get_17=show_stat_get(ph, ch);
+              return_value_pcaph_create_18=pcaph_create(ph, (struct netstat_header *)return_value_show_stat_get_17);
+              if(!(return_value_pcaph_create_18 == ((struct pcap_handler *)NULL)))
                 pcap_show((void *)ph_list);
 
             }
@@ -10589,7 +10589,7 @@ __CPROVER_DUMP_L95:
 static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, signed int len)
 {
   struct timeval now;
-  signed int parse_netflow$$1$$version;
+  signed int parse_netflow__1__version;
   signed int counter;
   signed int msec;
   signed int hdrlen;
@@ -10602,19 +10602,19 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
   struct cnf_data_v7 *v7d = ((struct cnf_data_v7 *)NULL);
   struct netstat ns;
   v1h = (struct cnf_hdr_v1 *)data;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int return_value_strcmp$12;
-  signed int return_value_netstat_match$11;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int return_value_strcmp_12;
+  signed int return_value_netstat_match_11;
   if(!(v1h == ((struct cnf_hdr_v1 *)NULL)) && (unsigned long int)len >= sizeof(struct cnf_hdr_v1) /*16ul*/ )
   {
-    unsigned short int return_value_ntohs$1;
-    return_value_ntohs$1=ntohs(v1h->version);
-    parse_netflow$$1$$version = (signed int)return_value_ntohs$1;
-    unsigned short int return_value_ntohs$2;
-    return_value_ntohs$2=ntohs(v1h->counter);
-    counter = (signed int)return_value_ntohs$2;
-    if(parse_netflow$$1$$version == 1)
+    unsigned short int return_value_ntohs_1;
+    return_value_ntohs_1=ntohs(v1h->version);
+    parse_netflow__1__version = (signed int)return_value_ntohs_1;
+    unsigned short int return_value_ntohs_2;
+    return_value_ntohs_2=ntohs(v1h->counter);
+    counter = (signed int)return_value_ntohs_2;
+    if(parse_netflow__1__version == 1)
     {
       v1d = (struct cnf_data_v1 *)(data + (signed long int)sizeof(struct cnf_hdr_v1) /*16ul*/ );
       len = len - (signed int)sizeof(unsigned long int) /*8ul*/ ;
@@ -10622,7 +10622,7 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
     }
 
     else
-      if(parse_netflow$$1$$version == 5)
+      if(parse_netflow__1__version == 5)
       {
         v5h = (struct cnf_hdr_v5 *)data;
         v5d = (struct cnf_data_v5 *)(data + (signed long int)sizeof(struct cnf_hdr_v5) /*24ul*/ );
@@ -10631,7 +10631,7 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
       }
 
       else
-        if(parse_netflow$$1$$version == 7)
+        if(parse_netflow__1__version == 7)
         {
           v7h = (struct cnf_hdr_v7 *)data;
           v7d = (struct cnf_data_v7 *)(data + (signed long int)sizeof(struct cnf_hdr_v7) /*24ul*/ );
@@ -10644,14 +10644,14 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
     gettimeofday(&now, ((struct timezone *)NULL));
     do
     {
-      tmp_post$3 = counter;
+      tmp_post_3 = counter;
       counter = counter - 1;
-      if(!(tmp_post$3 >= 1))
+      if(!(tmp_post_3 >= 1))
         break;
 
-      tmp_post$4 = len;
+      tmp_post_4 = len;
       len = len - 1;
-      if(!(tmp_post$4 >= 1))
+      if(!(tmp_post_4 >= 1))
         break;
 
       struct ip_address *src = &ns.ns_hdr.in_hdr.src;
@@ -10661,7 +10661,7 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
       ns.mtime = now;
       msec = 0;
       dump_it = 0;
-      if(parse_netflow$$1$$version == 1 && !(v1d == ((struct cnf_data_v1 *)NULL)))
+      if(parse_netflow__1__version == 1 && !(v1d == ((struct cnf_data_v1 *)NULL)))
       {
         ns.ns_hdr.in_hdr.proto = v1d->proto;
         src->ipaddr.ipa4.s_addr = v1d->src_addr;
@@ -10670,15 +10670,15 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
         dst->ip_port = v1d->dst_port;
         ns.pkt_cnt=ntohl(v1d->dpkts);
         ns.pkt_len=ntohl(v1d->doctets);
-        unsigned int return_value_ntohl$5;
-        return_value_ntohl$5=ntohl(v1d->lasttime);
-        unsigned int return_value_ntohl$6;
-        return_value_ntohl$6=ntohl(v1d->firsttime);
-        msec = (signed int)(return_value_ntohl$5 - return_value_ntohl$6);
+        unsigned int return_value_ntohl_5;
+        return_value_ntohl_5=ntohl(v1d->lasttime);
+        unsigned int return_value_ntohl_6;
+        return_value_ntohl_6=ntohl(v1d->firsttime);
+        msec = (signed int)(return_value_ntohl_5 - return_value_ntohl_6);
       }
 
       else
-        if(parse_netflow$$1$$version == 5 && !(v5d == ((struct cnf_data_v5 *)NULL)))
+        if(parse_netflow__1__version == 5 && !(v5d == ((struct cnf_data_v5 *)NULL)))
         {
           ns.ns_hdr.in_hdr.proto = v5d->proto;
           src->ipaddr.ipa4.s_addr = v5d->src_addr;
@@ -10687,15 +10687,15 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
           dst->ip_port = v5d->dst_port;
           ns.pkt_cnt=ntohl(v5d->dpkts);
           ns.pkt_len=ntohl(v5d->doctets);
-          unsigned int return_value_ntohl$7;
-          return_value_ntohl$7=ntohl(v5d->lasttime);
-          unsigned int return_value_ntohl$8;
-          return_value_ntohl$8=ntohl(v5d->firsttime);
-          msec = (signed int)(return_value_ntohl$7 - return_value_ntohl$8);
+          unsigned int return_value_ntohl_7;
+          return_value_ntohl_7=ntohl(v5d->lasttime);
+          unsigned int return_value_ntohl_8;
+          return_value_ntohl_8=ntohl(v5d->firsttime);
+          msec = (signed int)(return_value_ntohl_7 - return_value_ntohl_8);
         }
 
         else
-          if(parse_netflow$$1$$version == 7 && !(v7d == ((struct cnf_data_v7 *)NULL)))
+          if(parse_netflow__1__version == 7 && !(v7d == ((struct cnf_data_v7 *)NULL)))
           {
             ns.ns_hdr.in_hdr.proto = v7d->proto;
             src->ipaddr.ipa4.s_addr = v7d->src_addr;
@@ -10704,11 +10704,11 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
             dst->ip_port = v7d->dst_port;
             ns.pkt_cnt=ntohl(v7d->dpkts);
             ns.pkt_len=ntohl(v7d->doctets);
-            unsigned int return_value_ntohl$9;
-            return_value_ntohl$9=ntohl(v7d->lasttime);
-            unsigned int return_value_ntohl$10;
-            return_value_ntohl$10=ntohl(v7d->firsttime);
-            msec = (signed int)(return_value_ntohl$9 - return_value_ntohl$10);
+            unsigned int return_value_ntohl_9;
+            return_value_ntohl_9=ntohl(v7d->lasttime);
+            unsigned int return_value_ntohl_10;
+            return_value_ntohl_10=ntohl(v7d->firsttime);
+            msec = (signed int)(return_value_ntohl_9 - return_value_ntohl_10);
           }
 
       hdrlen = (signed int)sizeof(struct ip) /*20ul*/ ;
@@ -10743,11 +10743,11 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
       {
         if(!(ph->name == ((const char *)NULL)))
         {
-          return_value_strcmp$12=strcmp(cisco_netflow_dump, ph->name);
-          if(return_value_strcmp$12 == 0)
+          return_value_strcmp_12=strcmp(cisco_netflow_dump, ph->name);
+          if(return_value_strcmp_12 == 0)
           {
-            return_value_netstat_match$11=netstat_match(&ns, dump_match);
-            if(!(return_value_netstat_match$11 == 0))
+            return_value_netstat_match_11=netstat_match(&ns, dump_match);
+            if(!(return_value_netstat_match_11 == 0))
               dump_it = dump_it + 1;
 
           }
@@ -10756,7 +10756,7 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
 
       }
 
-      if(parse_netflow$$1$$version == 1 && !(v1d == ((struct cnf_data_v1 *)NULL)))
+      if(parse_netflow__1__version == 1 && !(v1d == ((struct cnf_data_v1 *)NULL)))
       {
         if(!(dump_it == 0))
           dump_netflow_v1(v1d);
@@ -10765,7 +10765,7 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
       }
 
       else
-        if(parse_netflow$$1$$version == 5 && !(v5d == ((struct cnf_data_v5 *)NULL)))
+        if(parse_netflow__1__version == 5 && !(v5d == ((struct cnf_data_v5 *)NULL)))
         {
           if(!(dump_it == 0))
             dump_netflow_v5(v5d);
@@ -10774,7 +10774,7 @@ static void parse_netflow(struct pcap_handler *ph, const unsigned char *data, si
         }
 
         else
-          if(parse_netflow$$1$$version == 7 && !(v7d == ((struct cnf_data_v7 *)NULL)))
+          if(parse_netflow__1__version == 7 && !(v7d == ((struct cnf_data_v7 *)NULL)))
           {
             if(!(dump_it == 0))
               dump_netflow_v7(v7d);
@@ -10796,13 +10796,13 @@ __CPROVER_DUMP_L24:
 static struct domain_transact_ent * parse_packet(const unsigned char *data, signed int len)
 {
   const unsigned char *pkt = data;
-  struct anonymous$15 *hp = (struct anonymous$15 *)pkt;
+  struct anonymous_15 *hp = (struct anonymous_15 *)pkt;
   const unsigned char *cp = pkt + (signed long int)12;
   signed int qdcount;
   signed int ancount;
   signed int nscount;
   signed int arcount;
-  signed int parse_packet$$1$$nb;
+  signed int parse_packet__1__nb;
   struct domain_transact_ent *dt;
   struct domain_data_ent *dd;
   unsigned short int type;
@@ -10811,23 +10811,23 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
   unsigned short int pref;
   unsigned int ttl;
   char name[1026l];
-  _Bool tmp_if_expr$1;
-  signed int tmp_post$7;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
-  signed int tmp_post$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
-  signed int tmp_post$19;
-  signed int tmp_post$20;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$22;
-  if(hp == ((struct anonymous$15 *)NULL) || !(len >= 12))
+  _Bool tmp_if_expr_1;
+  signed int tmp_post_7;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
+  signed int tmp_post_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
+  signed int tmp_post_19;
+  signed int tmp_post_20;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_22;
+  if(hp == ((struct anonymous_15 *)NULL) || !(len >= 12))
     return ((struct domain_transact_ent *)NULL);
 
   else
@@ -10841,59 +10841,59 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
       else
       {
         if(!((signed int)hp->rcode >= 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)hp->rcode > 5 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)hp->rcode > 5 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           return ((struct domain_transact_ent *)NULL);
 
         else
         {
-          unsigned short int return_value_ntohs$2;
-          return_value_ntohs$2=ntohs((unsigned short int)hp->id);
-          dt=find_transact(return_value_ntohs$2);
+          unsigned short int return_value_ntohs_2;
+          return_value_ntohs_2=ntohs((unsigned short int)hp->id);
+          dt=find_transact(return_value_ntohs_2);
           if(dt == ((struct domain_transact_ent *)NULL))
             return ((struct domain_transact_ent *)NULL);
 
           else
           {
             dt->rcode = (signed int)hp->rcode;
-            unsigned short int return_value_ntohs$3;
-            return_value_ntohs$3=ntohs((unsigned short int)hp->qdcount);
-            qdcount = (signed int)return_value_ntohs$3;
-            unsigned short int return_value_ntohs$4;
-            return_value_ntohs$4=ntohs((unsigned short int)hp->ancount);
-            ancount = (signed int)return_value_ntohs$4;
-            unsigned short int return_value_ntohs$5;
-            return_value_ntohs$5=ntohs((unsigned short int)hp->nscount);
-            nscount = (signed int)return_value_ntohs$5;
-            unsigned short int return_value_ntohs$6;
-            return_value_ntohs$6=ntohs((unsigned short int)hp->arcount);
-            arcount = (signed int)return_value_ntohs$6;
+            unsigned short int return_value_ntohs_3;
+            return_value_ntohs_3=ntohs((unsigned short int)hp->qdcount);
+            qdcount = (signed int)return_value_ntohs_3;
+            unsigned short int return_value_ntohs_4;
+            return_value_ntohs_4=ntohs((unsigned short int)hp->ancount);
+            ancount = (signed int)return_value_ntohs_4;
+            unsigned short int return_value_ntohs_5;
+            return_value_ntohs_5=ntohs((unsigned short int)hp->nscount);
+            nscount = (signed int)return_value_ntohs_5;
+            unsigned short int return_value_ntohs_6;
+            return_value_ntohs_6=ntohs((unsigned short int)hp->arcount);
+            arcount = (signed int)return_value_ntohs_6;
             do
             {
-              tmp_post$7 = qdcount;
+              tmp_post_7 = qdcount;
               qdcount = qdcount - 1;
-              if(!(tmp_post$7 >= 1))
+              if(!(tmp_post_7 >= 1))
                 break;
 
-              parse_packet$$1$$nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
-              if(!(parse_packet$$1$$nb >= 0))
+              parse_packet__1__nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
+              if(!(parse_packet__1__nb >= 0))
               {
                 dt->rcode = -1;
                 return dt;
               }
 
-              signed int return_value_strcasecmp$8;
-              return_value_strcasecmp$8=strcasecmp(name, dt->domain);
-              if(!(return_value_strcasecmp$8 == 0))
+              signed int return_value_strcasecmp_8;
+              return_value_strcasecmp_8=strcasecmp(name, dt->domain);
+              if(!(return_value_strcasecmp_8 == 0))
               {
                 dt->rcode = -2;
                 return dt;
               }
 
-              cp = cp + (signed long int)parse_packet$$1$$nb;
+              cp = cp + (signed long int)parse_packet__1__nb;
               if(!(pkt + (signed long int)len >= cp + 4l))
               {
                 dt->rcode = -3;
@@ -10909,8 +10909,8 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
               while((_Bool)0);
               do
               {
-                const unsigned char *parse_packet$$1$$6$$5$$t_cp = (const unsigned char *)cp;
-                class = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$6$$5$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$6$$5$$t_cp[(signed long int)1]);
+                const unsigned char *parse_packet__1__6__5__t_cp = (const unsigned char *)cp;
+                class = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__6__5__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__6__5__t_cp[(signed long int)1]);
                 cp = cp + (signed long int)2;
               }
               while((_Bool)0);
@@ -10921,35 +10921,35 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
               }
 
               if((signed int)type == 1)
-                tmp_if_expr$9 = (signed int)dt->type == IpAddress ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_9 = (signed int)dt->type == IpAddress ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$9 = (_Bool)0;
-              if(tmp_if_expr$9)
-                tmp_if_expr$11 = (_Bool)1;
+                tmp_if_expr_9 = (_Bool)0;
+              if(tmp_if_expr_9)
+                tmp_if_expr_11 = (_Bool)1;
 
               else
               {
                 if((signed int)type == 12)
-                  tmp_if_expr$10 = (signed int)dt->type == DomainName ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_10 = (signed int)dt->type == DomainName ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$10 = (_Bool)0;
-                tmp_if_expr$11 = tmp_if_expr$10 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_10 = (_Bool)0;
+                tmp_if_expr_11 = tmp_if_expr_10 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$11)
-                tmp_if_expr$13 = (_Bool)1;
+              if(tmp_if_expr_11)
+                tmp_if_expr_13 = (_Bool)1;
 
               else
               {
                 if((signed int)type == 15)
-                  tmp_if_expr$12 = (signed int)dt->type == MailExchanger ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_12 = (signed int)dt->type == MailExchanger ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$12 = (_Bool)0;
-                tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_12 = (_Bool)0;
+                tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
               }
-              if(!tmp_if_expr$13)
+              if(!tmp_if_expr_13)
               {
                 dt->rcode = -5;
                 return dt;
@@ -10959,19 +10959,19 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
             while((_Bool)1);
             do
             {
-              tmp_post$14 = ancount;
+              tmp_post_14 = ancount;
               ancount = ancount - 1;
-              if(!(tmp_post$14 >= 1))
+              if(!(tmp_post_14 >= 1))
                 break;
 
-              parse_packet$$1$$nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
-              if(!(parse_packet$$1$$nb >= 0))
+              parse_packet__1__nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
+              if(!(parse_packet__1__nb >= 0))
               {
                 dt->rcode = -10;
                 return dt;
               }
 
-              cp = cp + (signed long int)parse_packet$$1$$nb;
+              cp = cp + (signed long int)parse_packet__1__nb;
               if(!(pkt + (signed long int)len >= cp + 10l))
               {
                 dt->rcode = -11;
@@ -10980,29 +10980,29 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
 
               do
               {
-                const unsigned char *parse_packet$$1$$7$$3$$t_cp = (const unsigned char *)cp;
-                type = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$7$$3$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$7$$3$$t_cp[(signed long int)1]);
+                const unsigned char *parse_packet__1__7__3__t_cp = (const unsigned char *)cp;
+                type = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__7__3__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__7__3__t_cp[(signed long int)1]);
                 cp = cp + (signed long int)2;
               }
               while((_Bool)0);
               do
               {
-                const unsigned char *parse_packet$$1$$7$$4$$t_cp = (const unsigned char *)cp;
-                class = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$7$$4$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$7$$4$$t_cp[(signed long int)1]);
+                const unsigned char *parse_packet__1__7__4__t_cp = (const unsigned char *)cp;
+                class = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__7__4__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__7__4__t_cp[(signed long int)1]);
                 cp = cp + (signed long int)2;
               }
               while((_Bool)0);
               do
               {
-                const unsigned char *parse_packet$$1$$7$$5$$t_cp = (const unsigned char *)cp;
-                ttl = (unsigned int)parse_packet$$1$$7$$5$$t_cp[(signed long int)0] << 24 | (unsigned int)parse_packet$$1$$7$$5$$t_cp[(signed long int)1] << 16 | (unsigned int)parse_packet$$1$$7$$5$$t_cp[(signed long int)2] << 8 | (unsigned int)parse_packet$$1$$7$$5$$t_cp[(signed long int)3];
+                const unsigned char *parse_packet__1__7__5__t_cp = (const unsigned char *)cp;
+                ttl = (unsigned int)parse_packet__1__7__5__t_cp[(signed long int)0] << 24 | (unsigned int)parse_packet__1__7__5__t_cp[(signed long int)1] << 16 | (unsigned int)parse_packet__1__7__5__t_cp[(signed long int)2] << 8 | (unsigned int)parse_packet__1__7__5__t_cp[(signed long int)3];
                 cp = cp + (signed long int)4;
               }
               while((_Bool)0);
               do
               {
-                const unsigned char *parse_packet$$1$$7$$6$$t_cp = (const unsigned char *)cp;
-                rdlen = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$7$$6$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$7$$6$$t_cp[(signed long int)1]);
+                const unsigned char *parse_packet__1__7__6__t_cp = (const unsigned char *)cp;
+                rdlen = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__7__6__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__7__6__t_cp[(signed long int)1]);
                 cp = cp + (signed long int)2;
               }
               while((_Bool)0);
@@ -11035,19 +11035,19 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
                   if(!(dd == ((struct domain_data_ent *)NULL)))
                   {
                     if(dd->ttl == 0u || ttl == 0u)
-                      tmp_if_expr$15 = (_Bool)1;
+                      tmp_if_expr_15 = (_Bool)1;
 
                     else
-                      tmp_if_expr$15 = dd->ttl > ttl ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$15)
+                      tmp_if_expr_15 = dd->ttl > ttl ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_15)
                       dd->ttl = ttl;
 
                     if(dd->addr == 0u)
-                      tmp_if_expr$16 = (_Bool)1;
+                      tmp_if_expr_16 = (_Bool)1;
 
                     else
-                      tmp_if_expr$16 = dd->addr == (unsigned int)-1 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$16)
+                      tmp_if_expr_16 = dd->addr == (unsigned int)-1 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_16)
                       dd->addr = *((unsigned int *)cp);
 
                   }
@@ -11074,16 +11074,16 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
 
                   do
                   {
-                    const unsigned char *parse_packet$$1$$7$$10$$2$$t_cp = (const unsigned char *)cp;
-                    pref = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$7$$10$$2$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$7$$10$$2$$t_cp[(signed long int)1]);
+                    const unsigned char *parse_packet__1__7__10__2__t_cp = (const unsigned char *)cp;
+                    pref = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__7__10__2__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__7__10__2__t_cp[(signed long int)1]);
                     cp = cp + (signed long int)2;
                   }
                   while((_Bool)0);
                   rdlen = rdlen - (unsigned short int)2;
-                  for( ; (signed int)rdlen >= 1; rdlen = rdlen - (unsigned short int)parse_packet$$1$$nb)
+                  for( ; (signed int)rdlen >= 1; rdlen = rdlen - (unsigned short int)parse_packet__1__nb)
                   {
-                    parse_packet$$1$$nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
-                    if(!(parse_packet$$1$$nb >= 0))
+                    parse_packet__1__nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
+                    if(!(parse_packet__1__nb >= 0))
                     {
                       dt->rcode = -16;
                       return dt;
@@ -11093,16 +11093,16 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
                     if(!(dd == ((struct domain_data_ent *)NULL)))
                     {
                       if(dd->ttl == 0u || ttl == 0u)
-                        tmp_if_expr$17 = (_Bool)1;
+                        tmp_if_expr_17 = (_Bool)1;
 
                       else
-                        tmp_if_expr$17 = dd->ttl > ttl ? (_Bool)1 : (_Bool)0;
-                      if(tmp_if_expr$17)
+                        tmp_if_expr_17 = dd->ttl > ttl ? (_Bool)1 : (_Bool)0;
+                      if(tmp_if_expr_17)
                         dd->ttl = ttl;
 
                     }
 
-                    cp = cp + (signed long int)parse_packet$$1$$nb;
+                    cp = cp + (signed long int)parse_packet__1__nb;
                   }
                 }
 
@@ -11116,10 +11116,10 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
                     if(!((signed int)dt->type == DomainName))
                       goto __CPROVER_DUMP_L56;
 
-                    for( ; (signed int)rdlen >= 1; rdlen = rdlen - (unsigned short int)parse_packet$$1$$nb)
+                    for( ; (signed int)rdlen >= 1; rdlen = rdlen - (unsigned short int)parse_packet__1__nb)
                     {
-                      parse_packet$$1$$nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
-                      if(!(parse_packet$$1$$nb >= 0))
+                      parse_packet__1__nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
+                      if(!(parse_packet__1__nb >= 0))
                       {
                         dt->rcode = -17;
                         return dt;
@@ -11129,16 +11129,16 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
                       if(!(dd == ((struct domain_data_ent *)NULL)))
                       {
                         if(dd->ttl == 0u || ttl == 0u)
-                          tmp_if_expr$18 = (_Bool)1;
+                          tmp_if_expr_18 = (_Bool)1;
 
                         else
-                          tmp_if_expr$18 = dd->ttl > ttl ? (_Bool)1 : (_Bool)0;
-                        if(tmp_if_expr$18)
+                          tmp_if_expr_18 = dd->ttl > ttl ? (_Bool)1 : (_Bool)0;
+                        if(tmp_if_expr_18)
                           dd->ttl = ttl;
 
                       }
 
-                      cp = cp + (signed long int)parse_packet$$1$$nb;
+                      cp = cp + (signed long int)parse_packet__1__nb;
                     }
                   }
 
@@ -11167,19 +11167,19 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
             {
               do
               {
-                tmp_post$19 = nscount;
+                tmp_post_19 = nscount;
                 nscount = nscount - 1;
-                if(!(tmp_post$19 >= 1))
+                if(!(tmp_post_19 >= 1))
                   break;
 
-                parse_packet$$1$$nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
-                if(!(parse_packet$$1$$nb >= 0))
+                parse_packet__1__nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
+                if(!(parse_packet__1__nb >= 0))
                 {
                   dt->rcode = -20;
                   return dt;
                 }
 
-                cp = cp + (signed long int)parse_packet$$1$$nb;
+                cp = cp + (signed long int)parse_packet__1__nb;
                 if(!(pkt + (signed long int)len >= cp + 10l))
                 {
                   dt->rcode = -21;
@@ -11188,29 +11188,29 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
 
                 do
                 {
-                  const unsigned char *parse_packet$$1$$8$$3$$t_cp = (const unsigned char *)cp;
-                  type = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$8$$3$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$8$$3$$t_cp[(signed long int)1]);
+                  const unsigned char *parse_packet__1__8__3__t_cp = (const unsigned char *)cp;
+                  type = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__8__3__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__8__3__t_cp[(signed long int)1]);
                   cp = cp + (signed long int)2;
                 }
                 while((_Bool)0);
                 do
                 {
-                  const unsigned char *parse_packet$$1$$8$$4$$t_cp = (const unsigned char *)cp;
-                  class = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$8$$4$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$8$$4$$t_cp[(signed long int)1]);
+                  const unsigned char *parse_packet__1__8__4__t_cp = (const unsigned char *)cp;
+                  class = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__8__4__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__8__4__t_cp[(signed long int)1]);
                   cp = cp + (signed long int)2;
                 }
                 while((_Bool)0);
                 do
                 {
-                  const unsigned char *parse_packet$$1$$8$$5$$t_cp = (const unsigned char *)cp;
-                  ttl = (unsigned int)parse_packet$$1$$8$$5$$t_cp[(signed long int)0] << 24 | (unsigned int)parse_packet$$1$$8$$5$$t_cp[(signed long int)1] << 16 | (unsigned int)parse_packet$$1$$8$$5$$t_cp[(signed long int)2] << 8 | (unsigned int)parse_packet$$1$$8$$5$$t_cp[(signed long int)3];
+                  const unsigned char *parse_packet__1__8__5__t_cp = (const unsigned char *)cp;
+                  ttl = (unsigned int)parse_packet__1__8__5__t_cp[(signed long int)0] << 24 | (unsigned int)parse_packet__1__8__5__t_cp[(signed long int)1] << 16 | (unsigned int)parse_packet__1__8__5__t_cp[(signed long int)2] << 8 | (unsigned int)parse_packet__1__8__5__t_cp[(signed long int)3];
                   cp = cp + (signed long int)4;
                 }
                 while((_Bool)0);
                 do
                 {
-                  const unsigned char *parse_packet$$1$$8$$6$$t_cp = (const unsigned char *)cp;
-                  rdlen = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$8$$6$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$8$$6$$t_cp[(signed long int)1]);
+                  const unsigned char *parse_packet__1__8__6__t_cp = (const unsigned char *)cp;
+                  rdlen = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__8__6__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__8__6__t_cp[(signed long int)1]);
                   cp = cp + (signed long int)2;
                 }
                 while((_Bool)0);
@@ -11225,19 +11225,19 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
               while((_Bool)1);
               do
               {
-                tmp_post$20 = arcount;
+                tmp_post_20 = arcount;
                 arcount = arcount - 1;
-                if(!(tmp_post$20 >= 1))
+                if(!(tmp_post_20 >= 1))
                   break;
 
-                parse_packet$$1$$nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
-                if(!(parse_packet$$1$$nb >= 0))
+                parse_packet__1__nb=__dn_expand(pkt, pkt + (signed long int)len, cp, name, (signed int)sizeof(char [1026l]) /*1026ul*/ );
+                if(!(parse_packet__1__nb >= 0))
                 {
                   dt->rcode = -30;
                   return dt;
                 }
 
-                cp = cp + (signed long int)parse_packet$$1$$nb;
+                cp = cp + (signed long int)parse_packet__1__nb;
                 if(!(pkt + (signed long int)len >= cp + 10l))
                 {
                   dt->rcode = -31;
@@ -11246,29 +11246,29 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
 
                 do
                 {
-                  const unsigned char *parse_packet$$1$$9$$3$$t_cp = (const unsigned char *)cp;
-                  type = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$9$$3$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$9$$3$$t_cp[(signed long int)1]);
+                  const unsigned char *parse_packet__1__9__3__t_cp = (const unsigned char *)cp;
+                  type = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__9__3__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__9__3__t_cp[(signed long int)1]);
                   cp = cp + (signed long int)2;
                 }
                 while((_Bool)0);
                 do
                 {
-                  const unsigned char *parse_packet$$1$$9$$4$$t_cp = (const unsigned char *)cp;
-                  class = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$9$$4$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$9$$4$$t_cp[(signed long int)1]);
+                  const unsigned char *parse_packet__1__9__4__t_cp = (const unsigned char *)cp;
+                  class = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__9__4__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__9__4__t_cp[(signed long int)1]);
                   cp = cp + (signed long int)2;
                 }
                 while((_Bool)0);
                 do
                 {
-                  const unsigned char *parse_packet$$1$$9$$5$$t_cp = (const unsigned char *)cp;
-                  ttl = (unsigned int)parse_packet$$1$$9$$5$$t_cp[(signed long int)0] << 24 | (unsigned int)parse_packet$$1$$9$$5$$t_cp[(signed long int)1] << 16 | (unsigned int)parse_packet$$1$$9$$5$$t_cp[(signed long int)2] << 8 | (unsigned int)parse_packet$$1$$9$$5$$t_cp[(signed long int)3];
+                  const unsigned char *parse_packet__1__9__5__t_cp = (const unsigned char *)cp;
+                  ttl = (unsigned int)parse_packet__1__9__5__t_cp[(signed long int)0] << 24 | (unsigned int)parse_packet__1__9__5__t_cp[(signed long int)1] << 16 | (unsigned int)parse_packet__1__9__5__t_cp[(signed long int)2] << 8 | (unsigned int)parse_packet__1__9__5__t_cp[(signed long int)3];
                   cp = cp + (signed long int)4;
                 }
                 while((_Bool)0);
                 do
                 {
-                  const unsigned char *parse_packet$$1$$9$$6$$t_cp = (const unsigned char *)cp;
-                  rdlen = (unsigned short int)((signed int)(unsigned short int)parse_packet$$1$$9$$6$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet$$1$$9$$6$$t_cp[(signed long int)1]);
+                  const unsigned char *parse_packet__1__9__6__t_cp = (const unsigned char *)cp;
+                  rdlen = (unsigned short int)((signed int)(unsigned short int)parse_packet__1__9__6__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)parse_packet__1__9__6__t_cp[(signed long int)1]);
                   cp = cp + (signed long int)2;
                 }
                 while((_Bool)0);
@@ -11292,19 +11292,19 @@ static struct domain_transact_ent * parse_packet(const unsigned char *data, sign
                     if(!(dd == ((struct domain_data_ent *)NULL)))
                     {
                       if(dd->ttl == 0u || ttl == 0u)
-                        tmp_if_expr$21 = (_Bool)1;
+                        tmp_if_expr_21 = (_Bool)1;
 
                       else
-                        tmp_if_expr$21 = dd->ttl > ttl ? (_Bool)1 : (_Bool)0;
-                      if(tmp_if_expr$21)
+                        tmp_if_expr_21 = dd->ttl > ttl ? (_Bool)1 : (_Bool)0;
+                      if(tmp_if_expr_21)
                         dd->ttl = ttl;
 
                       if(dd->addr == 0u)
-                        tmp_if_expr$22 = (_Bool)1;
+                        tmp_if_expr_22 = (_Bool)1;
 
                       else
-                        tmp_if_expr$22 = dd->addr == (unsigned int)-1 ? (_Bool)1 : (_Bool)0;
-                      if(tmp_if_expr$22)
+                        tmp_if_expr_22 = dd->addr == (unsigned int)-1 ? (_Bool)1 : (_Bool)0;
+                      if(tmp_if_expr_22)
                         dd->addr = *((unsigned int *)cp);
 
                     }
@@ -11348,9 +11348,9 @@ static void * pcap_feed(void *arg)
   signed int npkt = -1;
   signed int ndev;
   signed int op;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   while((_Bool)1)
   {
     if(npkt == 0)
@@ -11370,21 +11370,21 @@ static void * pcap_feed(void *arg)
         else
         {
           if(op == -2)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
             if(op == -1)
             {
-              return_value___errno_location$1=__errno_location();
-              tmp_if_expr$2 = *return_value___errno_location$1 != 11 ? (_Bool)1 : (_Bool)0;
+              return_value___errno_location_1=__errno_location();
+              tmp_if_expr_2 = *return_value___errno_location_1 != 11 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = (_Bool)0;
+            tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$3)
+          if(tmp_if_expr_3)
           {
             pcap_close(ph->pcap);
             ph->pcap = ((struct pcap *)NULL);
@@ -11415,12 +11415,12 @@ static void * pcap_feed2(void *arg)
   signed int npkt = -1;
   signed int ndev;
   signed int op;
-  struct anonymous$11 readfds;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  struct anonymous_11 readfds;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   do
   {
     npkt = 0;
@@ -11429,7 +11429,7 @@ static void * pcap_feed2(void *arg)
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     ph = ph_list;
@@ -11450,20 +11450,20 @@ static void * pcap_feed2(void *arg)
     if(!(ndev >= 1))
       break;
 
-    op=select(ndev, &readfds, ((struct anonymous$11 *)NULL), ((struct anonymous$11 *)NULL), ((struct timeval *)NULL));
+    op=select(ndev, &readfds, ((struct anonymous_11 *)NULL), ((struct anonymous_11 *)NULL), ((struct timeval *)NULL));
     if(!(op >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
-        tmp_if_expr$3 = (_Bool)1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         continue;
 
       break;
@@ -11482,21 +11482,21 @@ static void * pcap_feed2(void *arg)
           else
           {
             if(op == -2)
-              tmp_if_expr$6 = (_Bool)1;
+              tmp_if_expr_6 = (_Bool)1;
 
             else
             {
               if(op == -1)
               {
-                return_value___errno_location$4=__errno_location();
-                tmp_if_expr$5 = *return_value___errno_location$4 != 11 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_4=__errno_location();
+                tmp_if_expr_5 = *return_value___errno_location_4 != 11 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$5 = (_Bool)0;
-              tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = (_Bool)0;
+              tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$6)
+            if(tmp_if_expr_6)
             {
               pcap_close(ph->pcap);
               ph->pcap = ((struct pcap *)NULL);
@@ -11540,13 +11540,13 @@ static signed int pcap_init(struct pcap_handler **ph_list, struct pcap_if *dp)
   struct pcap_handler *ph_prev = ((struct pcap_handler *)NULL);
   char *cp;
   char buf[256l];
-  _Bool tmp_if_expr$6;
-  const char *return_value_parse_dl_name$5;
-  unsigned long int tmp_if_expr$9;
-  unsigned long int return_value_strlen$8;
-  _Bool tmp_if_expr$13;
-  char *tmp_post$14;
-  unsigned long int return_value_strlen$15;
+  _Bool tmp_if_expr_6;
+  const char *return_value_parse_dl_name_5;
+  unsigned long int tmp_if_expr_9;
+  unsigned long int return_value_strlen_8;
+  _Bool tmp_if_expr_13;
+  char *tmp_post_14;
+  unsigned long int return_value_strlen_15;
   if(ph_list == ((struct pcap_handler **)NULL))
     return -1;
 
@@ -11554,9 +11554,9 @@ static signed int pcap_init(struct pcap_handler **ph_list, struct pcap_if *dp)
   {
     for( ; !(dp == ((struct pcap_if *)NULL)); dp = dp->next)
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(dp->name, "any");
-      if(!(return_value_strcasecmp$1 == 0))
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(dp->name, "any");
+      if(!(return_value_strcasecmp_1 == 0))
       {
         buf[(signed long int)0] = (char)0;
         pd=pcap_open_live(dp->name, 68, promisc, 1, buf);
@@ -11569,9 +11569,9 @@ static signed int pcap_init(struct pcap_handler **ph_list, struct pcap_if *dp)
         else
         {
           type=pcap_datalink(pd);
-          signed int return_value_is_parse_dl$2;
-          return_value_is_parse_dl$2=is_parse_dl(type);
-          if(return_value_is_parse_dl$2 == 0)
+          signed int return_value_is_parse_dl_2;
+          return_value_is_parse_dl_2=is_parse_dl(type);
+          if(return_value_is_parse_dl_2 == 0)
           {
             fprintf(stderr, "%s: datalink type %d is not supported\n", dp->name, type);
             pcap_close(pd);
@@ -11586,9 +11586,9 @@ static signed int pcap_init(struct pcap_handler **ph_list, struct pcap_if *dp)
               err = err + 1;
             }
 
-            signed int return_value_pcap_setnonblock$3;
-            return_value_pcap_setnonblock$3=pcap_setnonblock(pd, 1, buf);
-            if(!(return_value_pcap_setnonblock$3 >= 0))
+            signed int return_value_pcap_setnonblock_3;
+            return_value_pcap_setnonblock_3=pcap_setnonblock(pd, 1, buf);
+            if(!(return_value_pcap_setnonblock_3 >= 0))
             {
               fprintf(stderr, "%s: %s\n", dp->name, (const void *)buf);
               pcap_close(pd);
@@ -11597,9 +11597,9 @@ static signed int pcap_init(struct pcap_handler **ph_list, struct pcap_if *dp)
 
             else
             {
-              void *return_value_malloc$4;
-              return_value_malloc$4=malloc(sizeof(struct pcap_handler) /*168ul*/ );
-              ph = (struct pcap_handler *)return_value_malloc$4;
+              void *return_value_malloc_4;
+              return_value_malloc_4=malloc(sizeof(struct pcap_handler) /*168ul*/ );
+              ph = (struct pcap_handler *)return_value_malloc_4;
               if(ph == ((struct pcap_handler *)NULL))
               {
                 perror("malloc");
@@ -11610,11 +11610,11 @@ static signed int pcap_init(struct pcap_handler **ph_list, struct pcap_if *dp)
               ph->masklen = aggregate;
               ph->name=strdup(dp->name);
               if(!(dp->description == ((char *)NULL)))
-                tmp_if_expr$6 = *dp->description != 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_6 = *dp->description != 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$6 = (_Bool)0;
-              if(tmp_if_expr$6)
+                tmp_if_expr_6 = (_Bool)0;
+              if(tmp_if_expr_6)
                 ph->descr=strdup(dp->description);
 
               else
@@ -11623,8 +11623,8 @@ static signed int pcap_init(struct pcap_handler **ph_list, struct pcap_if *dp)
 
                 else
                 {
-                  return_value_parse_dl_name$5=parse_dl_name(type);
-                  ph->descr=strdup(return_value_parse_dl_name$5);
+                  return_value_parse_dl_name_5=parse_dl_name(type);
+                  ph->descr=strdup(return_value_parse_dl_name_5);
                 }
               ph->pcap = pd;
               ph->addr = dp->addresses;
@@ -11640,27 +11640,27 @@ static signed int pcap_init(struct pcap_handler **ph_list, struct pcap_if *dp)
                   {
                     struct ifreq ifr;
                     memset((void *)&ifr, 0, sizeof(struct ifreq) /*40ul*/ );
-                    unsigned long int return_value_strlen$7;
-                    return_value_strlen$7=strlen(dp->name);
-                    if(!(return_value_strlen$7 >= 15ul))
+                    unsigned long int return_value_strlen_7;
+                    return_value_strlen_7=strlen(dp->name);
+                    if(!(return_value_strlen_7 >= 15ul))
                     {
-                      return_value_strlen$8=strlen(dp->name);
-                      tmp_if_expr$9 = return_value_strlen$8;
+                      return_value_strlen_8=strlen(dp->name);
+                      tmp_if_expr_9 = return_value_strlen_8;
                     }
 
                     else
-                      tmp_if_expr$9 = sizeof(char [16l]) /*16ul*/  - (unsigned long int)1;
-                    memcpy((void *)ifr.ifr_ifrn.ifrn_name, (const void *)dp->name, tmp_if_expr$9);
-                    signed int return_value_ioctl$12;
-                    return_value_ioctl$12=ioctl(sfd, (unsigned long int)0x8927, &ifr);
-                    if(!(return_value_ioctl$12 == -1))
+                      tmp_if_expr_9 = sizeof(char [16l]) /*16ul*/  - (unsigned long int)1;
+                    memcpy((void *)ifr.ifr_ifrn.ifrn_name, (const void *)dp->name, tmp_if_expr_9);
+                    signed int return_value_ioctl_12;
+                    return_value_ioctl_12=ioctl(sfd, (unsigned long int)0x8927, &ifr);
+                    if(!(return_value_ioctl_12 == -1))
                     {
-                      const char *return_value_linkaddr_string$10;
-                      return_value_linkaddr_string$10=linkaddr_string((unsigned char *)ifr.ifr_ifru.ifru_hwaddr.sa_data, (const unsigned int)6);
-                      strcpy(cp, return_value_linkaddr_string$10);
-                      unsigned long int return_value_strlen$11;
-                      return_value_strlen$11=strlen(cp);
-                      cp = cp + (signed long int)return_value_strlen$11;
+                      const char *return_value_linkaddr_string_10;
+                      return_value_linkaddr_string_10=linkaddr_string((unsigned char *)ifr.ifr_ifru.ifru_hwaddr.sa_data, (const unsigned int)6);
+                      strcpy(cp, return_value_linkaddr_string_10);
+                      unsigned long int return_value_strlen_11;
+                      return_value_strlen_11=strlen(cp);
+                      cp = cp + (signed long int)return_value_strlen_11;
                     }
 
                     close(sfd);
@@ -11674,27 +11674,27 @@ static signed int pcap_init(struct pcap_handler **ph_list, struct pcap_if *dp)
               do
               {
                 if(!(ap == ((const struct pcap_addr *)NULL)))
-                  tmp_if_expr$13 = cp < (buf + (signed long int)sizeof(char [256l]) /*256ul*/ ) - (signed long int)1 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_13 = cp < (buf + (signed long int)sizeof(char [256l]) /*256ul*/ ) - (signed long int)1 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$13 = (_Bool)0;
-                if(!tmp_if_expr$13)
+                  tmp_if_expr_13 = (_Bool)0;
+                if(!tmp_if_expr_13)
                   break;
 
                 if(!(buf[0l] == 0))
                 {
-                  tmp_post$14 = cp;
+                  tmp_post_14 = cp;
                   cp = cp + 1l;
-                  *tmp_post$14 = (char)32;
+                  *tmp_post_14 = (char)32;
                   *cp = (char)0;
                 }
 
-                char *return_value_satoa$16;
-                return_value_satoa$16=satoa(ap->addr, cp, (signed int)((buf + (signed long int)sizeof(char [256l]) /*256ul*/ ) - cp));
-                if(!(return_value_satoa$16 == ((char *)NULL)))
+                char *return_value_satoa_16;
+                return_value_satoa_16=satoa(ap->addr, cp, (signed int)((buf + (signed long int)sizeof(char [256l]) /*256ul*/ ) - cp));
+                if(!(return_value_satoa_16 == ((char *)NULL)))
                 {
-                  return_value_strlen$15=strlen(cp);
-                  cp = cp + (signed long int)return_value_strlen$15;
+                  return_value_strlen_15=strlen(cp);
+                  cp = cp + (signed long int)return_value_strlen_15;
                 }
 
                 ap = ap->next;
@@ -11702,16 +11702,16 @@ static signed int pcap_init(struct pcap_handler **ph_list, struct pcap_if *dp)
               while((_Bool)1);
               *cp = (char)0;
               ph->addrstr=strdup(buf);
-              void *return_value_malloc$17;
-              return_value_malloc$17=malloc(sizeof(union anonymous$12) /*40ul*/ );
-              ph->ns_mutex = (union anonymous$12 *)return_value_malloc$17;
-              if(ph->ns_mutex == ((union anonymous$12 *)NULL))
+              void *return_value_malloc_17;
+              return_value_malloc_17=malloc(sizeof(union anonymous_12) /*40ul*/ );
+              ph->ns_mutex = (union anonymous_12 *)return_value_malloc_17;
+              if(ph->ns_mutex == ((union anonymous_12 *)NULL))
               {
                 perror("malloc");
                 exit(1);
               }
 
-              pthread_mutex_init(ph->ns_mutex, ((const union anonymous$30 *)NULL));
+              pthread_mutex_init(ph->ns_mutex, ((const union anonymous_30 *)NULL));
               ph->prev = ph_prev;
               if(!(ph_prev == ((struct pcap_handler *)NULL)))
                 ph_prev->next = ph;
@@ -11742,13 +11742,13 @@ static struct pcap_if * pcap_matchdev(struct pcap_if *dp, const char *name)
 {
   for( ; !(dp == ((struct pcap_if *)NULL)); dp = dp->next)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(dp->name, "any");
-    if(!(return_value_strcasecmp$1 == 0))
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(dp->name, "any");
+    if(!(return_value_strcasecmp_1 == 0))
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(dp->name, name);
-      if(return_value_strcasecmp$2 == 0)
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(dp->name, name);
+      if(return_value_strcasecmp_2 == 0)
       {
         dp->next = ((struct pcap_if *)NULL);
         return dp;
@@ -11786,13 +11786,13 @@ void pcap_save(struct pcap_handler *ph, const struct netstat *ns)
 {
   signed int num;
   struct netstat_header nh;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(ns == ((const struct netstat *)NULL)) && !(ph == ((struct pcap_handler *)NULL)))
   {
-    signed int return_value_netstat_insert$3;
-    return_value_netstat_insert$3=netstat_insert(ph, ns);
-    if(!(return_value_netstat_insert$3 == 0))
+    signed int return_value_netstat_insert_3;
+    return_value_netstat_insert_3=netstat_insert(ph, ns);
+    if(!(return_value_netstat_insert_3 == 0))
     {
       if(!(aggregate >= 0))
       {
@@ -11808,11 +11808,11 @@ void pcap_save(struct pcap_handler *ph, const struct netstat *ns)
           if(num >= 1001)
           {
             if(!(ph->masklen >= 0))
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = ph->masklen > 16 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = ph->masklen > 16 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_1)
               ph->masklen = 16;
 
           }
@@ -11821,11 +11821,11 @@ void pcap_save(struct pcap_handler *ph, const struct netstat *ns)
             if(num >= 251)
             {
               if(!(ph->masklen >= 0))
-                tmp_if_expr$2 = (_Bool)1;
+                tmp_if_expr_2 = (_Bool)1;
 
               else
-                tmp_if_expr$2 = ph->masklen > 24 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$2)
+                tmp_if_expr_2 = ph->masklen > 24 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_2)
                 ph->masklen = 24;
 
             }
@@ -11842,9 +11842,9 @@ void pcap_save(struct pcap_handler *ph, const struct netstat *ns)
       {
         memcpy((void *)&nh, (const void *)&ns->ns_hdr, sizeof(struct netstat_header) /*36ul*/ );
         netstat_aggregate(&nh, num);
-        signed int return_value_memcmp$4;
-        return_value_memcmp$4=memcmp((const void *)&nh, (const void *)ph->maskhdr, sizeof(struct netstat_header) /*36ul*/ );
-        if(return_value_memcmp$4 == 0)
+        signed int return_value_memcmp_4;
+        return_value_memcmp_4=memcmp((const void *)&nh, (const void *)ph->maskhdr, sizeof(struct netstat_header) /*36ul*/ );
+        if(return_value_memcmp_4 == 0)
           netstat_insert(ph, ns);
 
       }
@@ -11860,12 +11860,12 @@ struct pcap_handler * pcap_set_selected(struct pcap_handler *ph, signed int idx)
 {
   struct pcap_handler *sel = ((struct pcap_handler *)NULL);
   signed int i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(ph == ((struct pcap_handler *)NULL)); ph = ph->next)
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    if(tmp_post$1 == idx)
+    if(tmp_post_1 == idx)
     {
       sel = ph;
       ph->selected = 1;
@@ -11887,8 +11887,8 @@ char * pcap_setexpr(struct pcap_handler *ph, const char *expr)
   unsigned int mask;
   char name[100l];
   char buf[256l];
-  char *return_value_pcap_geterr$3;
-  char *return_value_pcap_geterr$5;
+  char *return_value_pcap_geterr_3;
+  char *return_value_pcap_geterr_5;
   if(expr == ((const char *)NULL))
     return ((char *)NULL);
 
@@ -11897,11 +11897,11 @@ char * pcap_setexpr(struct pcap_handler *ph, const char *expr)
     for( ; !(ph == ((struct pcap_handler *)NULL)); ph = ph->next)
       if(!(ph->pcap == ((struct pcap *)NULL)))
       {
-        char *return_value_strcpy$1;
-        return_value_strcpy$1=strcpy(name, ph->name);
-        signed int return_value_pcap_lookupnet$2;
-        return_value_pcap_lookupnet$2=pcap_lookupnet(return_value_strcpy$1, &net, &mask, buf);
-        if(!(return_value_pcap_lookupnet$2 >= 0))
+        char *return_value_strcpy_1;
+        return_value_strcpy_1=strcpy(name, ph->name);
+        signed int return_value_pcap_lookupnet_2;
+        return_value_pcap_lookupnet_2=pcap_lookupnet(return_value_strcpy_1, &net, &mask, buf);
+        if(!(return_value_pcap_lookupnet_2 >= 0))
         {
           net = (unsigned int)0;
           mask = (unsigned int)0;
@@ -11909,20 +11909,20 @@ char * pcap_setexpr(struct pcap_handler *ph, const char *expr)
 
         strncpy(buf, expr, sizeof(char [256l]) /*256ul*/ );
         buf[(signed long int)(sizeof(char [256l]) /*256ul*/  - (unsigned long int)1)] = (char)0;
-        signed int return_value_pcap_compile$4;
-        return_value_pcap_compile$4=pcap_compile(ph->pcap, &filter, buf, Oflag, mask);
-        if(!(return_value_pcap_compile$4 >= 0))
+        signed int return_value_pcap_compile_4;
+        return_value_pcap_compile_4=pcap_compile(ph->pcap, &filter, buf, Oflag, mask);
+        if(!(return_value_pcap_compile_4 >= 0))
         {
-          return_value_pcap_geterr$3=pcap_geterr(ph->pcap);
-          return return_value_pcap_geterr$3;
+          return_value_pcap_geterr_3=pcap_geterr(ph->pcap);
+          return return_value_pcap_geterr_3;
         }
 
         op=pcap_setfilter(ph->pcap, &filter);
         pcap_freecode(&filter);
         if(!(op >= 0))
         {
-          return_value_pcap_geterr$5=pcap_geterr(ph->pcap);
-          return return_value_pcap_geterr$5;
+          return_value_pcap_geterr_5=pcap_geterr(ph->pcap);
+          return return_value_pcap_geterr_5;
         }
 
       }
@@ -11940,8 +11940,8 @@ void pcap_show(void *arg)
   signed int idx;
   struct timeval now;
   gettimeofday(&now, ((struct timezone *)NULL));
-  struct pcap_handler *return_value_pcap_get_selected$1;
-  struct selector *return_value_help_page_selector$2;
+  struct pcap_handler *return_value_pcap_get_selected_1;
+  struct selector *return_value_help_page_selector_2;
   switch((signed int)show_mode)
   {
     case Interfaces:
@@ -11975,14 +11975,14 @@ void pcap_show(void *arg)
     }
     case FlowDump:
     {
-      return_value_pcap_get_selected$1=pcap_get_selected(ph);
-      show_dump_print(return_value_pcap_get_selected$1);
+      return_value_pcap_get_selected_1=pcap_get_selected(ph);
+      show_dump_print(return_value_pcap_get_selected_1);
       break;
     }
     case HelpPage:
     {
-      return_value_help_page_selector$2=help_page_selector();
-      selector_redraw(return_value_help_page_selector$2);
+      return_value_help_page_selector_2=help_page_selector();
+      selector_redraw(return_value_help_page_selector_2);
     }
   }
   now.tv_sec = now.tv_sec + (signed long int)refresh_time;
@@ -11993,24 +11993,24 @@ void pcap_show(void *arg)
 // file trafshow.c line 451
 void pcaph_close(struct pcap_handler *ph)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ph == ((struct pcap_handler *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(ph->top != ((struct pcap_handler *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(ph->top != ((struct pcap_handler *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     ph->top->deep = ((struct pcap_handler *)NULL);
     if(!(ph->deep == ((struct pcap_handler *)NULL)))
       pcaph_close(ph->deep);
 
     netstat_free(ph);
-    if(!(ph->ns_mutex == ((union anonymous$12 *)NULL)))
+    if(!(ph->ns_mutex == ((union anonymous_12 *)NULL)))
     {
       pthread_mutex_destroy(ph->ns_mutex);
       free((void *)ph->ns_mutex);
-      ph->ns_mutex = ((union anonymous$12 *)NULL);
+      ph->ns_mutex = ((union anonymous_12 *)NULL);
     }
 
     remove_event(((void (*)(void *))NULL), (void *)ph);
@@ -12035,20 +12035,20 @@ void pcaph_close(struct pcap_handler *ph)
 struct pcap_handler * pcaph_create(struct pcap_handler *top, struct netstat_header *nh)
 {
   struct pcap_handler *ph;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(top == ((struct pcap_handler *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = top->masklen < 0 ? (_Bool)1 : (_Bool)0;
-  if(nh == ((struct netstat_header *)NULL) || tmp_if_expr$1)
+    tmp_if_expr_1 = top->masklen < 0 ? (_Bool)1 : (_Bool)0;
+  if(nh == ((struct netstat_header *)NULL) || tmp_if_expr_1)
     return ((struct pcap_handler *)NULL);
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pcap_handler) /*168ul*/ );
-    ph = (struct pcap_handler *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pcap_handler) /*168ul*/ );
+    ph = (struct pcap_handler *)return_value_malloc_2;
     if(ph == ((struct pcap_handler *)NULL))
       return ((struct pcap_handler *)NULL);
 
@@ -12056,9 +12056,9 @@ struct pcap_handler * pcaph_create(struct pcap_handler *top, struct netstat_head
     {
       memset((void *)ph, 0, sizeof(struct pcap_handler) /*168ul*/ );
       ph->masklen = -1;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct netstat_header) /*36ul*/ );
-      ph->maskhdr = (struct netstat_header *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct netstat_header) /*36ul*/ );
+      ph->maskhdr = (struct netstat_header *)return_value_malloc_3;
       if(ph->maskhdr == ((struct netstat_header *)NULL))
         return ((struct pcap_handler *)NULL);
 
@@ -12066,10 +12066,10 @@ struct pcap_handler * pcaph_create(struct pcap_handler *top, struct netstat_head
       {
         memcpy((void *)ph->maskhdr, (const void *)nh, sizeof(struct netstat_header) /*36ul*/ );
         netstat_aggregate(ph->maskhdr, top->masklen);
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(sizeof(union anonymous$12) /*40ul*/ );
-        ph->ns_mutex = (union anonymous$12 *)return_value_malloc$4;
-        if(ph->ns_mutex == ((union anonymous$12 *)NULL))
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(sizeof(union anonymous_12) /*40ul*/ );
+        ph->ns_mutex = (union anonymous_12 *)return_value_malloc_4;
+        if(ph->ns_mutex == ((union anonymous_12 *)NULL))
         {
           free((void *)ph->maskhdr);
           return ((struct pcap_handler *)NULL);
@@ -12077,7 +12077,7 @@ struct pcap_handler * pcaph_create(struct pcap_handler *top, struct netstat_head
 
         else
         {
-          pthread_mutex_init(ph->ns_mutex, ((const union anonymous$30 *)NULL));
+          pthread_mutex_init(ph->ns_mutex, ((const union anonymous_30 *)NULL));
           ph->name = top->name;
           ph->descr = top->descr;
           ph->pcap = top->pcap;
@@ -12152,13 +12152,13 @@ const char * protoid_string(const unsigned char *pi)
   struct protoidmem *tp;
   char buf[(signed long int)sizeof(char [15l]) /*15l*/ ];
   tp=lookup_protoid(pi);
-  char *tmp_post$1;
-  char *tmp_post$2;
-  const unsigned char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  const unsigned char *tmp_post$7;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  const unsigned char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  const unsigned char *tmp_post_7;
   if(!(tp->p_name == ((const char *)NULL)))
     return tp->p_name;
 
@@ -12168,16 +12168,16 @@ const char * protoid_string(const unsigned char *pi)
     j = (unsigned int)((signed int)*pi >> 4);
     if(!(j == 0u))
     {
-      tmp_post$1 = cp;
+      tmp_post_1 = cp;
       cp = cp + 1l;
-      *tmp_post$1 = hex[(signed long int)j];
+      *tmp_post_1 = hex[(signed long int)j];
     }
 
-    tmp_post$2 = cp;
+    tmp_post_2 = cp;
     cp = cp + 1l;
-    tmp_post$3 = pi;
+    tmp_post_3 = pi;
     pi = pi + 1l;
-    *tmp_post$2 = hex[(signed long int)((signed int)*tmp_post$3 & 0xf)];
+    *tmp_post_2 = hex[(signed long int)((signed int)*tmp_post_3 & 0xf)];
     i = (unsigned int)4;
     do
     {
@@ -12185,22 +12185,22 @@ const char * protoid_string(const unsigned char *pi)
       if(!((signed int)i >= 0))
         break;
 
-      tmp_post$4 = cp;
+      tmp_post_4 = cp;
       cp = cp + 1l;
-      *tmp_post$4 = (char)58;
+      *tmp_post_4 = (char)58;
       j = (unsigned int)((signed int)*pi >> 4);
       if(!(j == 0u))
       {
-        tmp_post$5 = cp;
+        tmp_post_5 = cp;
         cp = cp + 1l;
-        *tmp_post$5 = hex[(signed long int)j];
+        *tmp_post_5 = hex[(signed long int)j];
       }
 
-      tmp_post$6 = cp;
+      tmp_post_6 = cp;
       cp = cp + 1l;
-      tmp_post$7 = pi;
+      tmp_post_7 = pi;
       pi = pi + 1l;
-      *tmp_post$6 = hex[(signed long int)((signed int)*tmp_post$7 & 0xf)];
+      *tmp_post_6 = hex[(signed long int)((signed int)*tmp_post_7 & 0xf)];
     }
     while((_Bool)1);
     *cp = (char)0;
@@ -12213,15 +12213,15 @@ const char * protoid_string(const unsigned char *pi)
 // file getkey.c line 69
 static void read_key(struct session_ent *sd, const unsigned char *data, signed int len)
 {
-  const void *return_value_session_cookie$1;
+  const void *return_value_session_cookie_1;
   if(len >= 1 && !(sd == ((struct session_ent *)NULL)) && !(data == ((const unsigned char *)NULL)))
   {
     signed int key;
     key=scan_key(data, len);
     if(!(key == -1))
     {
-      return_value_session_cookie$1=session_cookie(sd);
-      parse_key(key, (struct pcap_handler *)return_value_session_cookie$1);
+      return_value_session_cookie_1=session_cookie(sd);
+      parse_key(key, (struct pcap_handler *)return_value_session_cookie_1);
     }
 
   }
@@ -12235,9 +12235,9 @@ static void read_netflow(struct session_ent *sd, const unsigned char *data, sign
   struct sockaddr *from;
   struct pcap_handler *ph;
   struct pcap_handler **ph_list;
-  const void *return_value_session_cookie$1;
-  return_value_session_cookie$1=session_cookie(sd);
-  ph_list = (struct pcap_handler **)return_value_session_cookie$1;
+  const void *return_value_session_cookie_1;
+  return_value_session_cookie_1=session_cookie(sd);
+  ph_list = (struct pcap_handler **)return_value_session_cookie_1;
   if(!(ph_list == ((struct pcap_handler **)NULL)) && !(data == ((const unsigned char *)NULL)) && (unsigned long int)len >= sizeof(struct cnf_hdr_v1) /*16ul*/ )
   {
     from=session_from(sd);
@@ -12258,9 +12258,9 @@ static void read_netflow(struct session_ent *sd, const unsigned char *data, sign
 
           ph_prev = ph;
         }
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(sizeof(struct pcap_handler) /*168ul*/ );
-        ph = (struct pcap_handler *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(sizeof(struct pcap_handler) /*168ul*/ );
+        ph = (struct pcap_handler *)return_value_malloc_2;
         if(ph == ((struct pcap_handler *)NULL))
         {
           perror("malloc");
@@ -12269,25 +12269,25 @@ static void read_netflow(struct session_ent *sd, const unsigned char *data, sign
 
         memset((void *)ph, 0, sizeof(struct pcap_handler) /*168ul*/ );
         ph->masklen = aggregate;
-        char *return_value_get_name$3;
-        return_value_get_name$3=get_name(from, buf, (signed int)sizeof(char [256l]) /*256ul*/ );
-        if(return_value_get_name$3 == ((char *)NULL))
+        char *return_value_get_name_3;
+        return_value_get_name_3=get_name(from, buf, (signed int)sizeof(char [256l]) /*256ul*/ );
+        if(return_value_get_name_3 == ((char *)NULL))
           sprintf(buf, "netflow%d", cnt);
 
         ph->name=strdup(buf);
-        unsigned short int return_value_ntohs$4;
-        return_value_ntohs$4=ntohs(((struct cnf_hdr_v1 *)data)->version);
-        sprintf(buf, "Netflow V%d", return_value_ntohs$4);
+        unsigned short int return_value_ntohs_4;
+        return_value_ntohs_4=ntohs(((struct cnf_hdr_v1 *)data)->version);
+        sprintf(buf, "Netflow V%d", return_value_ntohs_4);
         ph->descr=strdup(buf);
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc(sizeof(struct pcap_addr) /*40ul*/ );
-        ap = (struct pcap_addr *)return_value_malloc$6;
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc(sizeof(struct pcap_addr) /*40ul*/ );
+        ap = (struct pcap_addr *)return_value_malloc_6;
         if(!(ap == ((struct pcap_addr *)NULL)))
         {
           memset((void *)ap, 0, sizeof(struct pcap_addr) /*40ul*/ );
-          void *return_value_malloc$5;
-          return_value_malloc$5=malloc(sizeof(struct sockaddr) /*16ul*/ );
-          ap->addr = (struct sockaddr *)return_value_malloc$5;
+          void *return_value_malloc_5;
+          return_value_malloc_5=malloc(sizeof(struct sockaddr) /*16ul*/ );
+          ap->addr = (struct sockaddr *)return_value_malloc_5;
           if(ap->addr == ((struct sockaddr *)NULL))
           {
             perror("malloc");
@@ -12298,16 +12298,16 @@ static void read_netflow(struct session_ent *sd, const unsigned char *data, sign
         }
 
         ph->addr = ap;
-        void *return_value_malloc$7;
-        return_value_malloc$7=malloc(sizeof(union anonymous$12) /*40ul*/ );
-        ph->ns_mutex = (union anonymous$12 *)return_value_malloc$7;
-        if(ph->ns_mutex == ((union anonymous$12 *)NULL))
+        void *return_value_malloc_7;
+        return_value_malloc_7=malloc(sizeof(union anonymous_12) /*40ul*/ );
+        ph->ns_mutex = (union anonymous_12 *)return_value_malloc_7;
+        if(ph->ns_mutex == ((union anonymous_12 *)NULL))
         {
           perror("malloc");
           goto __CPROVER_DUMP_L14;
         }
 
-        pthread_mutex_init(ph->ns_mutex, ((const union anonymous$30 *)NULL));
+        pthread_mutex_init(ph->ns_mutex, ((const union anonymous_30 *)NULL));
         ph->prev = ph_prev;
         if(!(ph_prev == ((struct pcap_handler *)NULL)))
           ph_prev->next = ph;
@@ -12350,9 +12350,9 @@ __CPROVER_DUMP_L3:
 struct reroot * remkroot(unsigned long int size)
 {
   struct reroot *r;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct reroot) /*40ul*/ );
-  r = (struct reroot *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct reroot) /*40ul*/ );
+  r = (struct reroot *)return_value_malloc_1;
   if(!(r == ((struct reroot *)NULL)))
   {
     r->list = (struct recycle *)0;
@@ -12371,15 +12371,15 @@ signed int remove_event(void (*func)(void *), void *arg)
 {
   signed int found = 0;
   struct event_ent *ep = first_event;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(ep == ((struct event_ent *)NULL)); ep = ep->next)
   {
     if(func == ((void (*)(void *))NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ep->func == func ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = ep->func == func ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(ep->arg == arg)
       {
@@ -12411,9 +12411,9 @@ char * renewx(struct reroot *r)
     if(!(r->numleft >= 32000))
       r->logsize = r->logsize + 1ul;
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct recycle) /*8ul*/  + (unsigned long int)r->numleft);
-    temp = (struct recycle *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct recycle) /*8ul*/  + (unsigned long int)r->numleft);
+    temp = (struct recycle *)return_value_malloc_1;
     if(temp == ((struct recycle *)NULL))
       return ((char *)NULL);
 
@@ -12431,27 +12431,27 @@ static char * sap_print(const unsigned char *addr, unsigned char sap, char *dst,
 {
   char buf[20l];
   signed int len;
-  const char *return_value_etheraddr_string$1;
-  return_value_etheraddr_string$1=etheraddr_string(addr);
-  strncpy(dst, return_value_etheraddr_string$1, (unsigned long int)size);
+  const char *return_value_etheraddr_string_1;
+  return_value_etheraddr_string_1=etheraddr_string(addr);
+  strncpy(dst, return_value_etheraddr_string_1, (unsigned long int)size);
   dst[(signed long int)(size - 1)] = (char)0;
   buf[(signed long int)0] = (char)47;
-  const char *return_value_llcsap_string$2;
+  const char *return_value_llcsap_string_2;
   if(!(nflag == 0))
     sprintf(&buf[(signed long int)1], "sap-%02x", (signed int)sap & 0xff);
 
   else
   {
-    return_value_llcsap_string$2=llcsap_string(sap);
-    strncpy(&buf[(signed long int)1], return_value_llcsap_string$2, (unsigned long int)10);
+    return_value_llcsap_string_2=llcsap_string(sap);
+    strncpy(&buf[(signed long int)1], return_value_llcsap_string_2, (unsigned long int)10);
   }
   buf[(signed long int)11] = (char)0;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(buf);
-  len = (signed int)return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(dst);
-  if(!(return_value_strlen$4 + (unsigned long int)len >= (unsigned long int)size))
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(buf);
+  len = (signed int)return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(dst);
+  if(!(return_value_strlen_4 + (unsigned long int)len >= (unsigned long int)size))
     strcat(dst, buf);
 
   else
@@ -12493,22 +12493,22 @@ static void scale_size(signed int *name, signed int *addr, signed int *descr)
   *descr = (signed int)(line_factor * (double)20);
 }
 
-// scale_size$link1
+// scale_size_link1
 // file show_stat.c line 36
-static void scale_size$link1(signed int *addr$link1, signed int *prot, signed int *data, signed int *rate)
+static void scale_size_link1(signed int *addr_link1, signed int *prot, signed int *data, signed int *rate)
 {
-  *addr$link1 = (signed int)(line_factor * (double)25);
+  *addr_link1 = (signed int)(line_factor * (double)25);
   *prot = (signed int)(line_factor * (double)10);
   *data = (signed int)(line_factor * (double)10);
   *rate = (signed int)(line_factor * (double)10);
 }
 
-// scale_size$link2
+// scale_size_link2
 // file help_page.c line 80
-static void scale_size$link2(signed int *name$link1, signed int *descr$link1)
+static void scale_size_link2(signed int *name_link1, signed int *descr_link1)
 {
-  *name$link1 = (signed int)(line_factor * (double)10);
-  *descr$link1 = (signed int)(line_factor * (double)50);
+  *name_link1 = (signed int)(line_factor * (double)10);
+  *descr_link1 = (signed int)(line_factor * (double)50);
 }
 
 // scan_key
@@ -12516,7 +12516,7 @@ static void scale_size$link2(signed int *name$link1, signed int *descr$link1)
 static signed int scan_key(const unsigned char *buf, signed int len)
 {
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)*buf == 27))
     return (signed int)buf[(signed long int)0];
 
@@ -12528,11 +12528,11 @@ static signed int scan_key(const unsigned char *buf, signed int len)
     {
       i = 1;
       if((signed int)buf[(signed long int)i] == 91)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)buf[(signed long int)i] == 79 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)buf[(signed long int)i] == 79 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         i = i + 1;
         if(!(i >= len))
@@ -12686,23 +12686,23 @@ signed int screen_open(signed int resize)
 {
   if(resize == 0)
   {
-    struct _win_st *return_value_initscr$1;
-    return_value_initscr$1=initscr();
-    if(return_value_initscr$1 == (struct _win_st *)-1)
+    struct _win_st *return_value_initscr_1;
+    return_value_initscr_1=initscr();
+    if(return_value_initscr_1 == (struct _win_st *)-1)
     {
       fprintf(stderr, "Can't initialize terminal -- unknown terminal type?\n");
       return -1;
     }
 
-    _Bool return_value_has_colors$2;
-    return_value_has_colors$2=has_colors();
-    use_colors = (signed int)return_value_has_colors$2;
+    _Bool return_value_has_colors_2;
+    return_value_has_colors_2=has_colors();
+    use_colors = (signed int)return_value_has_colors_2;
     if(!(use_colors == 0))
     {
       start_color();
-      signed int return_value_init_colormask$3;
-      return_value_init_colormask$3=init_colormask();
-      if(!(return_value_init_colormask$3 >= 0))
+      signed int return_value_init_colormask_3;
+      return_value_init_colormask_3=init_colormask();
+      if(!(return_value_init_colormask_3 >= 0))
       {
         endwin();
         return -1;
@@ -12725,9 +12725,9 @@ signed int screen_open(signed int resize)
     fd=open("/dev/tty", 0);
     if(!(fd == -1))
     {
-      signed int return_value_ioctl$4;
-      return_value_ioctl$4=ioctl(fd, (unsigned long int)0x5413, &ws);
-      if(!(return_value_ioctl$4 == -1))
+      signed int return_value_ioctl_4;
+      return_value_ioctl_4=ioctl(fd, (unsigned long int)0x5413, &ws);
+      if(!(return_value_ioctl_4 == -1))
       {
         new_rows = (signed int)ws.ws_row;
         new_cols = (signed int)ws.ws_col;
@@ -12800,11 +12800,11 @@ void screen_status(const char *fmt, ...)
 
   else
     -1;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  signed int return_value_wmove$2;
-  return_value_wmove$2=wmove(stdscr, LINES - 2, (signed int)((unsigned long int)(COLS / 2) - return_value_strlen$1 / (unsigned long int)2));
-  if(return_value_wmove$2 == -1)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  signed int return_value_wmove_2;
+  return_value_wmove_2=wmove(stdscr, LINES - 2, (signed int)((unsigned long int)(COLS / 2) - return_value_strlen_1 / (unsigned long int)2));
+  if(return_value_wmove_2 == -1)
     -1;
 
   else
@@ -12849,19 +12849,19 @@ again:
   (&earliest)->tv_usec = (signed long int)0;
   (&earliest)->tv_sec = (&earliest)->tv_usec;
   ep = first_event;
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_2;
   for( ; !(ep == ((struct event_ent *)NULL)); ep = ep->next)
     if(!(ep->func == ((void (*)(void *))NULL)))
     {
       if(gap.tv_sec == ep->tv.tv_sec)
-        tmp_if_expr$4 = (signed int)((&gap)->tv_usec > (&ep->tv)->tv_usec);
+        tmp_if_expr_4 = (signed int)((&gap)->tv_usec > (&ep->tv)->tv_usec);
 
       else
-        tmp_if_expr$4 = (signed int)((&gap)->tv_sec > (&ep->tv)->tv_sec);
-      if(!(tmp_if_expr$4 == 0))
+        tmp_if_expr_4 = (signed int)((&gap)->tv_sec > (&ep->tv)->tv_sec);
+      if(!(tmp_if_expr_4 == 0))
       {
         void (*func)() = (void (*)())ep->func;
         ep->func = ((void (*)(void *))NULL);
@@ -12871,23 +12871,23 @@ again:
       else
       {
         if(!(earliest.tv_sec == 0l))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (&earliest)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$1)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_1 = (&earliest)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_1)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
           if(ep->tv.tv_sec == earliest.tv_sec)
-            tmp_if_expr$2 = (signed int)((&ep->tv)->tv_usec < (&earliest)->tv_usec);
+            tmp_if_expr_2 = (signed int)((&ep->tv)->tv_usec < (&earliest)->tv_usec);
 
           else
-            tmp_if_expr$2 = (signed int)((&ep->tv)->tv_sec < (&earliest)->tv_sec);
-          tmp_if_expr$3 = tmp_if_expr$2 != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (signed int)((&ep->tv)->tv_sec < (&earliest)->tv_sec);
+          tmp_if_expr_3 = tmp_if_expr_2 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           earliest = ep->tv;
           next_event = ep;
@@ -12915,31 +12915,31 @@ again:
 // file selector.c line 249
 signed int selector_get(struct selector *sp)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sp == ((struct selector *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(sp->list != NULL) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = !(sp->list != NULL) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = sp->items < 1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = sp->items < 1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = sp->index < 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = sp->index < 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = sp->index >= sp->items ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = sp->index >= sp->items ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
     return -1;
 
   else
@@ -12951,9 +12951,9 @@ signed int selector_get(struct selector *sp)
 struct selector * selector_init()
 {
   struct selector *sp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct selector) /*96ul*/ );
-  sp = (struct selector *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct selector) /*96ul*/ );
+  sp = (struct selector *)return_value_malloc_1;
   if(!(sp == ((struct selector *)NULL)))
   {
     memset((void *)sp, 0, sizeof(struct selector) /*96ul*/ );
@@ -12969,7 +12969,7 @@ struct selector * selector_init()
 signed int selector_move(signed int ch, struct selector *sp)
 {
   signed int lines;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sp == ((struct selector *)NULL))
     return -1;
 
@@ -13045,11 +13045,11 @@ signed int selector_move(signed int ch, struct selector *sp)
             sp->index = sp->index - lines;
             sp->fline = sp->fline - lines;
             if(!(sp->index >= 0))
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = sp->fline < 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = sp->fline < 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_1)
             {
               sp->fline = 0;
               sp->index = sp->fline;
@@ -13145,18 +13145,18 @@ void selector_redraw(struct selector *sp)
   signed int attr;
   char *cp;
   char buf[1024l];
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$1;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  _Bool tmp_if_expr$6;
-  signed int tmp_post$5;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$9;
-  _Bool tmp_if_expr$11;
-  signed int tmp_post$10;
-  signed int tmp_post$12;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_1;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  _Bool tmp_if_expr_6;
+  signed int tmp_post_5;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
+  _Bool tmp_if_expr_11;
+  signed int tmp_post_10;
+  signed int tmp_post_12;
   if(!(sp == ((struct selector *)NULL)))
   {
     if(sp->index >= sp->items)
@@ -13186,14 +13186,14 @@ void selector_redraw(struct selector *sp)
       cp = buf;
       if(!(*cp == 0))
       {
-        tmp_post$1 = r;
+        tmp_post_1 = r;
         r = r - 1;
-        tmp_if_expr$2 = tmp_post$1 > 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = tmp_post_1 > 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if((signed int)*cp >= 33)
           waddch(stdscr, (const unsigned long int)((signed int)*cp | attr));
@@ -13203,16 +13203,16 @@ void selector_redraw(struct selector *sp)
         cp = cp + 1l;
       }
 
-      tmp_post$3 = r;
+      tmp_post_3 = r;
       r = r - 1;
-      if(tmp_post$3 >= 1)
+      if(tmp_post_3 >= 1)
         waddch(stdscr, (const unsigned long int)(32 | attr));
 
       wmove(stdscr, first_line + 1, first_col);
       r = cols;
-      tmp_post$4 = r;
+      tmp_post_4 = r;
       r = r - 1;
-      if(tmp_post$4 >= 1)
+      if(tmp_post_4 >= 1)
         waddch(stdscr, acs_map[(signed long int)(unsigned char)113] | (unsigned long int)attr);
 
       first_line = first_line + 2;
@@ -13238,14 +13238,14 @@ void selector_redraw(struct selector *sp)
           cp = buf;
           if(!(*cp == 0))
           {
-            tmp_post$5 = r;
+            tmp_post_5 = r;
             r = r - 1;
-            tmp_if_expr$6 = tmp_post$5 > 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = tmp_post_5 > 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(tmp_if_expr_6)
           {
             if((signed int)*cp >= 33)
               waddch(stdscr, (const unsigned long int)((signed int)*cp | attr));
@@ -13268,9 +13268,9 @@ void selector_redraw(struct selector *sp)
 
       do
       {
-        tmp_post$7 = r;
+        tmp_post_7 = r;
         r = r - 1;
-        if(!(tmp_post$7 >= 1))
+        if(!(tmp_post_7 >= 1))
           break;
 
         waddch(stdscr, (const unsigned long int)(32 | attr));
@@ -13285,13 +13285,13 @@ void selector_redraw(struct selector *sp)
       return_value_2=sp->get_footer(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , sp->footer);
       attr = attr | return_value_2;
       first_line = first_line + l;
-      tmp_post$8 = first_line;
+      tmp_post_8 = first_line;
       first_line = first_line + 1;
-      wmove(stdscr, tmp_post$8, first_col);
+      wmove(stdscr, tmp_post_8, first_col);
       r = cols;
-      tmp_post$9 = r;
+      tmp_post_9 = r;
       r = r - 1;
-      if(tmp_post$9 >= 1)
+      if(tmp_post_9 >= 1)
         waddch(stdscr, acs_map[(signed long int)(unsigned char)113] | (unsigned long int)attr);
 
       if(prompt_mode == 0 || !(first_line == LINES + -1))
@@ -13301,14 +13301,14 @@ void selector_redraw(struct selector *sp)
         cp = buf;
         if(!(*cp == 0))
         {
-          tmp_post$10 = r;
+          tmp_post_10 = r;
           r = r - 1;
-          tmp_if_expr$11 = tmp_post$10 > 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = tmp_post_10 > 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        if(tmp_if_expr$11)
+          tmp_if_expr_11 = (_Bool)0;
+        if(tmp_if_expr_11)
         {
           if((signed int)*cp >= 33)
             waddch(stdscr, (const unsigned long int)((signed int)*cp | attr));
@@ -13318,9 +13318,9 @@ void selector_redraw(struct selector *sp)
           cp = cp + 1l;
         }
 
-        tmp_post$12 = r;
+        tmp_post_12 = r;
         r = r - 1;
-        if(tmp_post$12 >= 1)
+        if(tmp_post_12 >= 1)
           waddch(stdscr, (const unsigned long int)(32 | attr));
 
       }
@@ -13384,16 +13384,16 @@ void selector_withdraw(struct selector *sp)
   signed int attr;
   char *cp;
   char buf[1024l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sp == ((struct selector *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(sp->get_line != ((signed int (*)(char *, signed int, const void *, signed int))NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$2;
-  signed int tmp_post$4;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(sp->get_line != ((signed int (*)(char *, signed int, const void *, signed int))NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_2;
+  signed int tmp_post_4;
+  if(!tmp_if_expr_1)
   {
     get_size(sp, &lines, &cols);
     get_colors(sp, &fg_color, ((signed int *)NULL));
@@ -13430,14 +13430,14 @@ void selector_withdraw(struct selector *sp)
             cp = buf;
             if(!(*cp == 0))
             {
-              tmp_post$2 = r;
+              tmp_post_2 = r;
               r = r - 1;
-              tmp_if_expr$3 = tmp_post$2 > 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = tmp_post_2 > 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (_Bool)0;
+            if(tmp_if_expr_3)
             {
               if((signed int)*cp >= 33)
                 waddch(stdscr, (const unsigned long int)((signed int)*cp | attr));
@@ -13454,9 +13454,9 @@ void selector_withdraw(struct selector *sp)
               cp = cp + 1l;
             }
 
-            tmp_post$4 = r;
+            tmp_post_4 = r;
             r = r - 1;
-            if(tmp_post$4 >= 1)
+            if(tmp_post_4 >= 1)
               waddch(stdscr, (const unsigned long int)(32 | attr));
 
           }
@@ -13480,9 +13480,9 @@ signed int session_bind(struct session_ent *sd, void (*notify)(void *), void *ar
   struct session_binder_ent *last = ((struct session_binder_ent *)NULL);
   if(notify == ((void (*)(void *))NULL) || arg == NULL || sd == ((struct session_ent *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -13498,9 +13498,9 @@ signed int session_bind(struct session_ent *sd, void (*notify)(void *), void *ar
 
     last = curr;
   }
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct session_binder_ent) /*24ul*/ );
-  curr = (struct session_binder_ent *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct session_binder_ent) /*24ul*/ );
+  curr = (struct session_binder_ent *)return_value_malloc_2;
   if(curr == ((struct session_binder_ent *)NULL))
     return -1;
 
@@ -13522,29 +13522,29 @@ signed int session_bind(struct session_ent *sd, void (*notify)(void *), void *ar
 // file session.h line 90
 const void * session_cookie(struct session_ent *sd)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(sd == ((struct session_ent *)NULL)))
-    tmp_if_expr$1 = sd->sid != 0ul ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = sd->sid != 0ul ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  const void *tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = sd->cookie;
+    tmp_if_expr_1 = (_Bool)0;
+  const void *tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = sd->cookie;
 
   else
-    tmp_if_expr$2 = NULL;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = NULL;
+  return tmp_if_expr_2;
 }
 
 // session_find
 // file session.c line 350
-struct session_ent * session_find(struct sockaddr *peer, enum anonymous$6 type)
+struct session_ent * session_find(struct sockaddr *peer, enum anonymous_6 type)
 {
   struct session_ent *sd;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed int return_value_memcmp$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_memcmp_3;
   if(peer == ((struct sockaddr *)NULL))
     return ((struct session_ent *)NULL);
 
@@ -13554,24 +13554,24 @@ struct session_ent * session_find(struct sockaddr *peer, enum anonymous$6 type)
     for( ; !(sd == ((struct session_ent *)NULL)); sd = sd->next)
     {
       if(sd->sid == 0ul)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = sd->type != type ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_1 = sd->type != type ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = sd->peer.ss_family != peer->sa_family ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = sd->peer.ss_family != peer->sa_family ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_2)
       {
         if((signed int)peer->sa_family == 2)
         {
           struct sockaddr_in *sin = (struct sockaddr_in *)&sd->peer;
           if(sin->sin_port == ((struct sockaddr_in *)peer)->sin_port)
           {
-            return_value_memcmp$3=memcmp((const void *)&sin->sin_addr, (const void *)&((struct sockaddr_in *)peer)->sin_addr, sizeof(struct in_addr) /*4ul*/ );
-            if(return_value_memcmp$3 == 0)
+            return_value_memcmp_3=memcmp((const void *)&sin->sin_addr, (const void *)&((struct sockaddr_in *)peer)->sin_addr, sizeof(struct in_addr) /*4ul*/ );
+            if(return_value_memcmp_3 == 0)
               return sd;
 
           }
@@ -13640,32 +13640,32 @@ void session_free(struct session_ent *free_sd)
 // file session.c line 692
 struct sockaddr * session_from(struct session_ent *sd)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(sd == ((struct session_ent *)NULL)))
-    tmp_if_expr$1 = sd->from.ss_family != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = sd->from.ss_family != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  struct sockaddr *tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (struct sockaddr *)&sd->from;
+    tmp_if_expr_1 = (_Bool)0;
+  struct sockaddr *tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (struct sockaddr *)&sd->from;
 
   else
-    tmp_if_expr$2 = ((struct sockaddr *)NULL);
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = ((struct sockaddr *)NULL);
+  return tmp_if_expr_2;
 }
 
 // session_idle
 // file session.c line 245
 signed int session_idle(struct session_ent *sd)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sd == ((struct session_ent *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(sd->sid != 0ul) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(sd->sid != 0ul) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -13674,7 +13674,7 @@ signed int session_idle(struct session_ent *sd)
 
 // session_open
 // file session.h line 79
-struct session_ent * session_open(signed int sock, struct sockaddr *peer, enum anonymous$6 type)
+struct session_ent * session_open(signed int sock, struct sockaddr *peer, enum anonymous_6 type)
 {
   struct session_ent *sd;
   struct session_ent *prev = ((struct session_ent *)NULL);
@@ -13690,11 +13690,11 @@ struct session_ent * session_open(signed int sock, struct sockaddr *peer, enum a
 
     prev = sd;
   }
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(sd == ((struct session_ent *)NULL))
   {
-    return_value_malloc$1=malloc(sizeof(struct session_ent) /*352ul*/ );
-    sd = (struct session_ent *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct session_ent) /*352ul*/ );
+    sd = (struct session_ent *)return_value_malloc_1;
     if(!(sd == ((struct session_ent *)NULL)))
       goto __CPROVER_DUMP_L4;
 
@@ -13731,9 +13731,9 @@ struct session_ent * session_open(signed int sock, struct sockaddr *peer, enum a
     if(first_session == ((struct session_ent *)NULL))
       first_session = sd;
 
-    signed int return_value_session_start$2;
-    return_value_session_start$2=session_start(sd);
-    if(!(return_value_session_start$2 >= 0))
+    signed int return_value_session_start_2;
+    return_value_session_start_2=session_start(sd);
+    if(!(return_value_session_start_2 >= 0))
     {
       sd->sid = (unsigned long int)0;
       sd = ((struct session_ent *)NULL);
@@ -13745,23 +13745,23 @@ struct session_ent * session_open(signed int sock, struct sockaddr *peer, enum a
 
 // session_operate
 // file session.h line 95
-void session_operate(struct anonymous$11 *readfds, struct anonymous$11 *writefds)
+void session_operate(struct anonymous_11 *readfds, struct anonymous_11 *writefds)
 {
   struct session_ent *sd;
   signed int try_conn;
   signed int error;
   sd = first_session;
-  _Bool tmp_if_expr$1;
-  signed int return_value_session_read$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_1;
+  signed int return_value_session_read_3;
+  signed int *return_value___errno_location_2;
   for( ; !(sd == ((struct session_ent *)NULL)); sd = sd->next)
   {
     if(sd->sid == 0ul)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       try_conn = (signed int)(sd->connected != ((void (*)(struct session_ent *))NULL));
       if(try_conn == 0)
@@ -13775,11 +13775,11 @@ void session_operate(struct anonymous$11 *readfds, struct anonymous$11 *writefds
             error=socket_error(sd->sock);
           if(error == 0)
           {
-            return_value_session_read$3=session_read(sd);
-            if(!(return_value_session_read$3 >= 0))
+            return_value_session_read_3=session_read(sd);
+            if(!(return_value_session_read_3 >= 0))
             {
-              return_value___errno_location$2=__errno_location();
-              error = *return_value___errno_location$2;
+              return_value___errno_location_2=__errno_location();
+              error = *return_value___errno_location_2;
             }
 
           }
@@ -13842,19 +13842,19 @@ void session_operate(struct anonymous$11 *readfds, struct anonymous$11 *writefds
 // file session.c line 682
 struct sockaddr * session_peer(struct session_ent *sd)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(sd == ((struct session_ent *)NULL)))
-    tmp_if_expr$1 = sd->peer.ss_family != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = sd->peer.ss_family != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  struct sockaddr *tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (struct sockaddr *)&sd->peer;
+    tmp_if_expr_1 = (_Bool)0;
+  struct sockaddr *tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (struct sockaddr *)&sd->peer;
 
   else
-    tmp_if_expr$2 = ((struct sockaddr *)NULL);
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = ((struct sockaddr *)NULL);
+  return tmp_if_expr_2;
 }
 
 // session_read
@@ -13868,32 +13868,32 @@ static signed int session_read(struct session_ent *sd)
   char buf[8192l];
   if(sd == ((struct session_ent *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(sd->sid == 0ul)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 107;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 107;
     return -1;
   }
 
   buf[(signed long int)0] = (char)0;
   if((signed int)sd->type == PlainFile)
   {
-    signed long int return_value_read$4;
-    return_value_read$4=read(sd->sock, (void *)buf, sizeof(char [8192l]) /*8192ul*/ );
-    rlen = (signed int)return_value_read$4;
+    signed long int return_value_read_4;
+    return_value_read_4=read(sd->sock, (void *)buf, sizeof(char [8192l]) /*8192ul*/ );
+    rlen = (signed int)return_value_read_4;
   }
 
   else
@@ -13901,18 +13901,18 @@ static signed int session_read(struct session_ent *sd)
     {
       if(!(sd->buf == ((char *)NULL)))
       {
-        char *return_value_strcpy$5;
-        return_value_strcpy$5=strcpy(buf, sd->buf);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(return_value_strcpy$5);
-        rest = (signed int)return_value_strlen$6;
+        char *return_value_strcpy_5;
+        return_value_strcpy_5=strcpy(buf, sd->buf);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(return_value_strcpy_5);
+        rest = (signed int)return_value_strlen_6;
         free((void *)sd->buf);
         sd->buf = ((char *)NULL);
       }
 
-      signed long int return_value_read$7;
-      return_value_read$7=read(sd->sock, (void *)&buf[(signed long int)rest], (sizeof(char [8192l]) /*8192ul*/  - (unsigned long int)1) - (unsigned long int)rest);
-      rlen = (signed int)return_value_read$7;
+      signed long int return_value_read_7;
+      return_value_read_7=read(sd->sock, (void *)&buf[(signed long int)rest], (sizeof(char [8192l]) /*8192ul*/  - (unsigned long int)1) - (unsigned long int)rest);
+      rlen = (signed int)return_value_read_7;
     }
 
     else
@@ -13920,9 +13920,9 @@ static signed int session_read(struct session_ent *sd)
       {
         struct sockaddr from;
         unsigned int slen = (unsigned int)sizeof(struct sockaddr) /*16ul*/ ;
-        signed long int return_value_recvfrom$8;
-        return_value_recvfrom$8=recvfrom(sd->sock, (void *)buf, sizeof(char [8192l]) /*8192ul*/ , 0, &from, &slen);
-        rlen = (signed int)return_value_recvfrom$8;
+        signed long int return_value_recvfrom_8;
+        return_value_recvfrom_8=recvfrom(sd->sock, (void *)buf, sizeof(char [8192l]) /*8192ul*/ , 0, &from, &slen);
+        rlen = (signed int)return_value_recvfrom_8;
         if(!(rlen == -1))
         {
           if((unsigned long int)slen >= 17ul || !((unsigned long int)slen >= sizeof(struct sockaddr_in) /*16ul*/ ))
@@ -13944,50 +13944,50 @@ static signed int session_read(struct session_ent *sd)
 
       else
       {
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        *return_value___errno_location$9 = 94;
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        *return_value___errno_location_9 = 94;
         return -1;
       }
-  _Bool tmp_if_expr$12;
-  signed int *return_value___errno_location$11;
-  signed int *return_value___errno_location$10;
+  _Bool tmp_if_expr_12;
+  signed int *return_value___errno_location_11;
+  signed int *return_value___errno_location_10;
   if(!(rlen >= 1))
   {
     if(rlen == 0)
-      tmp_if_expr$12 = (_Bool)1;
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$11=__errno_location();
-      tmp_if_expr$12 = !(*return_value___errno_location$11 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_11=__errno_location();
+      tmp_if_expr_12 = !(*return_value___errno_location_11 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$12)
+    if(tmp_if_expr_12)
     {
-      return_value___errno_location$10=__errno_location();
-      *return_value___errno_location$10 = 104;
+      return_value___errno_location_10=__errno_location();
+      *return_value___errno_location_10 = 104;
     }
 
     return -1;
   }
 
-  _Bool tmp_if_expr$20;
+  _Bool tmp_if_expr_20;
   if((signed int)sd->type == PlainFile)
-    tmp_if_expr$20 = (_Bool)1;
+    tmp_if_expr_20 = (_Bool)1;
 
   else
-    tmp_if_expr$20 = (signed int)sd->type == DataSequence ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$13;
-  char *tmp_post$14;
-  _Bool tmp_if_expr$15;
-  if(tmp_if_expr$20)
+    tmp_if_expr_20 = (signed int)sd->type == DataSequence ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_13;
+  char *tmp_post_14;
+  _Bool tmp_if_expr_15;
+  if(tmp_if_expr_20)
   {
     if(sd->sid == 0ul)
-      tmp_if_expr$13 = (_Bool)1;
+      tmp_if_expr_13 = (_Bool)1;
 
     else
-      tmp_if_expr$13 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$13)
+      tmp_if_expr_13 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_13)
       return 0;
 
     if(!(sd->read_data == ((void (*)(struct session_ent *, const unsigned char *, signed int))NULL)))
@@ -14012,27 +14012,27 @@ static signed int session_read(struct session_ent *sd)
 
       }
 
-      tmp_post$14 = line;
+      tmp_post_14 = line;
       line = line + 1l;
-      *tmp_post$14 = (char)0;
+      *tmp_post_14 = (char)0;
       if(sd->sid == 0ul)
-        tmp_if_expr$15 = (_Bool)1;
+        tmp_if_expr_15 = (_Bool)1;
 
       else
-        tmp_if_expr$15 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$15)
+        tmp_if_expr_15 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_15)
         return 0;
 
       if(!(sd->read_data == ((void (*)(struct session_ent *, const unsigned char *, signed int))NULL)))
       {
-        unsigned long int return_value_strlen$16;
-        return_value_strlen$16=strlen(cp);
-        rest = (signed int)return_value_strlen$16;
+        unsigned long int return_value_strlen_16;
+        return_value_strlen_16=strlen(cp);
+        rest = (signed int)return_value_strlen_16;
         if(rest >= 1501)
         {
-          signed int *return_value___errno_location$17;
-          return_value___errno_location$17=__errno_location();
-          *return_value___errno_location$17 = 90;
+          signed int *return_value___errno_location_17;
+          return_value___errno_location_17=__errno_location();
+          *return_value___errno_location_17 = 90;
           return -1;
         }
 
@@ -14046,13 +14046,13 @@ static signed int session_read(struct session_ent *sd)
     {
       if(!(*cp == 0))
       {
-        unsigned long int return_value_strlen$19;
-        return_value_strlen$19=strlen(cp);
-        if(return_value_strlen$19 >= 1501ul)
+        unsigned long int return_value_strlen_19;
+        return_value_strlen_19=strlen(cp);
+        if(return_value_strlen_19 >= 1501ul)
         {
-          signed int *return_value___errno_location$18;
-          return_value___errno_location$18=__errno_location();
-          *return_value___errno_location$18 = 90;
+          signed int *return_value___errno_location_18;
+          return_value___errno_location_18=__errno_location();
+          *return_value___errno_location_18 = 90;
           return -1;
         }
 
@@ -14067,7 +14067,7 @@ static signed int session_read(struct session_ent *sd)
 
 // session_select
 // file session.h line 93
-signed int session_select(signed int *nfds, struct anonymous$11 *readfds, struct anonymous$11 *writefds, struct timeval *timeout, signed int *block)
+signed int session_select(signed int *nfds, struct anonymous_11 *readfds, struct anonymous_11 *writefds, struct timeval *timeout, signed int *block)
 {
   struct session_ent *sd;
   struct timeval earliest;
@@ -14077,19 +14077,19 @@ signed int session_select(signed int *nfds, struct anonymous$11 *readfds, struct
   (&earliest)->tv_usec = (signed long int)0;
   (&earliest)->tv_sec = (&earliest)->tv_usec;
   sd = first_session;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_3;
   for( ; !(sd == ((struct session_ent *)NULL)); sd = sd->next)
   {
     if(sd->sid == 0ul)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(!(sd->sock == -1))
         session_stop(sd);
@@ -14108,39 +14108,39 @@ signed int session_select(signed int *nfds, struct anonymous$11 *readfds, struct
       else
         writefds->__fds_bits[(signed long int)(sd->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = writefds->__fds_bits[(signed long int)(sd->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sd->sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
       if(!(sd->expire.tv_sec == 0l))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (&sd->expire)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (&sd->expire)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
       {
         pending = pending + 1;
         if(!(earliest.tv_sec == 0l))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (&earliest)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$2)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_2 = (&earliest)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_2)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
           if(sd->expire.tv_sec == earliest.tv_sec)
-            tmp_if_expr$3 = (signed int)((&sd->expire)->tv_usec < (&earliest)->tv_usec);
+            tmp_if_expr_3 = (signed int)((&sd->expire)->tv_usec < (&earliest)->tv_usec);
 
           else
-            tmp_if_expr$3 = (signed int)((&sd->expire)->tv_sec < (&earliest)->tv_sec);
-          tmp_if_expr$4 = tmp_if_expr$3 != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (signed int)((&sd->expire)->tv_sec < (&earliest)->tv_sec);
+          tmp_if_expr_4 = tmp_if_expr_3 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
           earliest = sd->expire;
 
       }
 
     }
   }
-  _Bool tmp_if_expr$7;
-  signed int tmp_if_expr$6;
+  _Bool tmp_if_expr_7;
+  signed int tmp_if_expr_6;
   if(pending == 0)
     return active;
 
@@ -14149,18 +14149,18 @@ signed int session_select(signed int *nfds, struct anonymous$11 *readfds, struct
     gettimeofday(&now, ((struct timezone *)NULL));
     tv_sub(&earliest, &now);
     if(!(*block == 0))
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
       if(earliest.tv_sec == timeout->tv_sec)
-        tmp_if_expr$6 = (signed int)((&earliest)->tv_usec < timeout->tv_usec);
+        tmp_if_expr_6 = (signed int)((&earliest)->tv_usec < timeout->tv_usec);
 
       else
-        tmp_if_expr$6 = (signed int)((&earliest)->tv_sec < timeout->tv_sec);
-      tmp_if_expr$7 = tmp_if_expr$6 != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (signed int)((&earliest)->tv_sec < timeout->tv_sec);
+      tmp_if_expr_7 = tmp_if_expr_6 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
     {
       *timeout = earliest;
       *block = 0;
@@ -14177,39 +14177,39 @@ signed int session_send(struct session_ent *sd, const unsigned char *data, signe
   signed int wlen = 0;
   if(sd == ((struct session_ent *)NULL) || !(len >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(sd->sid == 0ul)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 107;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 107;
     return -1;
   }
 
-  signed long int return_value_write$4;
-  _Bool tmp_if_expr$8;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed long int return_value_send$11;
+  signed long int return_value_write_4;
+  _Bool tmp_if_expr_8;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed long int return_value_send_11;
   if(!(data == ((const unsigned char *)NULL)))
   {
     if((signed int)sd->type == PlainFile)
     {
       if(!(len == 0))
       {
-        return_value_write$4=write(sd->sock, (const void *)data, (unsigned long int)len);
-        wlen = (signed int)return_value_write$4;
+        return_value_write_4=write(sd->sock, (const void *)data, (unsigned long int)len);
+        wlen = (signed int)return_value_write_4;
       }
 
     }
@@ -14220,9 +14220,9 @@ signed int session_send(struct session_ent *sd, const unsigned char *data, signe
         char buf[8192l];
         if(sd->peer.ss_family == 0)
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = 107;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = 107;
           return -1;
         }
 
@@ -14233,23 +14233,23 @@ signed int session_send(struct session_ent *sd, const unsigned char *data, signe
           memcpy((void *)buf, (const void *)data, (unsigned long int)len);
 
         if(len == 0)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = (signed int)buf[(signed long int)(len - 1)] != 10 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (signed int)buf[(signed long int)(len - 1)] != 10 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
         {
-          tmp_post$6 = len;
+          tmp_post_6 = len;
           len = len + 1;
-          buf[(signed long int)tmp_post$6] = (char)13;
-          tmp_post$7 = len;
+          buf[(signed long int)tmp_post_6] = (char)13;
+          tmp_post_7 = len;
           len = len + 1;
-          buf[(signed long int)tmp_post$7] = (char)10;
+          buf[(signed long int)tmp_post_7] = (char)10;
         }
 
-        signed long int return_value_write$9;
-        return_value_write$9=write(sd->sock, (const void *)buf, (unsigned long int)len);
-        wlen = (signed int)return_value_write$9;
+        signed long int return_value_write_9;
+        return_value_write_9=write(sd->sock, (const void *)buf, (unsigned long int)len);
+        wlen = (signed int)return_value_write_9;
       }
 
       else
@@ -14257,16 +14257,16 @@ signed int session_send(struct session_ent *sd, const unsigned char *data, signe
         {
           if(sd->peer.ss_family == 0)
           {
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            *return_value___errno_location$10 = 107;
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            *return_value___errno_location_10 = 107;
             return -1;
           }
 
           if(!(len == 0))
           {
-            return_value_send$11=send(sd->sock, (const void *)data, (unsigned long int)len, 0);
-            wlen = (signed int)return_value_send$11;
+            return_value_send_11=send(sd->sock, (const void *)data, (unsigned long int)len, 0);
+            wlen = (signed int)return_value_send_11;
           }
 
         }
@@ -14274,40 +14274,40 @@ signed int session_send(struct session_ent *sd, const unsigned char *data, signe
         else
         {
           wlen = -1;
-          signed int *return_value___errno_location$12;
-          return_value___errno_location$12=__errno_location();
-          *return_value___errno_location$12 = 94;
+          signed int *return_value___errno_location_12;
+          return_value___errno_location_12=__errno_location();
+          *return_value___errno_location_12 = 94;
         }
   }
 
-  _Bool tmp_if_expr$17;
-  signed int *return_value___errno_location$16;
+  _Bool tmp_if_expr_17;
+  signed int *return_value___errno_location_16;
   if(wlen == -1)
   {
-    signed int *return_value___errno_location$15;
-    return_value___errno_location$15=__errno_location();
-    if(*return_value___errno_location$15 == 11)
-      tmp_if_expr$17 = (_Bool)1;
+    signed int *return_value___errno_location_15;
+    return_value___errno_location_15=__errno_location();
+    if(*return_value___errno_location_15 == 11)
+      tmp_if_expr_17 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$16=__errno_location();
-      tmp_if_expr$17 = *return_value___errno_location$16 == 115 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_16=__errno_location();
+      tmp_if_expr_17 = *return_value___errno_location_16 == 115 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$17)
+    if(tmp_if_expr_17)
     {
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      *return_value___errno_location$13 = 0;
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      *return_value___errno_location_13 = 0;
       wlen = 0;
     }
 
     else
       if(!(sd->read_error == ((void (*)(struct session_ent *, signed int))NULL)))
       {
-        signed int *return_value___errno_location$14;
-        return_value___errno_location$14=__errno_location();
-        sd->read_error(sd, *return_value___errno_location$14);
+        signed int *return_value___errno_location_14;
+        return_value___errno_location_14=__errno_location();
+        sd->read_error(sd, *return_value___errno_location_14);
         return wlen;
       }
 
@@ -14367,13 +14367,13 @@ void session_setcookie(struct session_ent *sd, const void *cookie)
 unsigned int session_settimeout(struct session_ent *sd, unsigned int timeout)
 {
   unsigned int prev;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sd == ((struct session_ent *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(sd->sid != 0ul) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(sd->sid != 0ul) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (unsigned int)0;
 
   else
@@ -14394,13 +14394,13 @@ unsigned int session_settimeout(struct session_ent *sd, unsigned int timeout)
 // file session.c line 170
 signed int session_sock(struct session_ent *sd)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(sd == ((struct session_ent *)NULL)))
-    tmp_if_expr$1 = sd->sock;
+    tmp_if_expr_1 = sd->sock;
 
   else
-    tmp_if_expr$1 = -1;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = -1;
+  return tmp_if_expr_1;
 }
 
 // session_start
@@ -14410,33 +14410,33 @@ signed int session_start(struct session_ent *sd)
   signed int af;
   if(sd == ((struct session_ent *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = 9;
-  _Bool tmp_if_expr$4;
-  signed int return_value_socket_peer$3;
-  _Bool tmp_if_expr$9;
-  signed int *return_value___errno_location$8;
-  signed int *return_value___errno_location$5;
-  _Bool tmp_if_expr$13;
-  signed int *return_value___errno_location$12;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = 9;
+  _Bool tmp_if_expr_4;
+  signed int return_value_socket_peer_3;
+  _Bool tmp_if_expr_9;
+  signed int *return_value___errno_location_8;
+  signed int *return_value___errno_location_5;
+  _Bool tmp_if_expr_13;
+  signed int *return_value___errno_location_12;
   if(!(sd->sock == -1))
   {
     if((signed int)sd->type == PlainFile)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_socket_peer$3=socket_peer((struct sockaddr *)&sd->peer, sd->sock);
-      tmp_if_expr$4 = return_value_socket_peer$3 != -1 ? (_Bool)1 : (_Bool)0;
+      return_value_socket_peer_3=socket_peer((struct sockaddr *)&sd->peer, sd->sock);
+      tmp_if_expr_4 = return_value_socket_peer_3 != -1 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$4)
+    if(!tmp_if_expr_4)
       goto __CPROVER_DUMP_L5;
 
     socket_nonblock(sd->sock, 0);
@@ -14455,25 +14455,25 @@ signed int session_start(struct session_ent *sd)
     if(af == 0)
       af = 2;
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    if(*return_value___errno_location$7 == 9)
-      tmp_if_expr$9 = (_Bool)1;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    if(*return_value___errno_location_7 == 9)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$8=__errno_location();
-      tmp_if_expr$9 = *return_value___errno_location$8 == 88 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_8=__errno_location();
+      tmp_if_expr_9 = *return_value___errno_location_8 == 88 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
     {
       switch((signed int)sd->type)
       {
         case PlainFile:
         {
           sd->sock = -1;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = 22;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = 22;
           break;
         }
         case TextStream:
@@ -14487,35 +14487,35 @@ signed int session_start(struct session_ent *sd)
       if(sd->sock == -1)
         return -1;
 
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6 = 107;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6 = 107;
     }
 
-    signed int *return_value___errno_location$14;
-    return_value___errno_location$14=__errno_location();
-    if(*return_value___errno_location$14 == 107)
+    signed int *return_value___errno_location_14;
+    return_value___errno_location_14=__errno_location();
+    if(*return_value___errno_location_14 == 107)
     {
       socket_nonblock(sd->sock, 1);
       if(sd->peer.ss_family == 0)
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        *return_value___errno_location$10 = 0;
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        *return_value___errno_location_10 = 0;
         return 0;
       }
 
-      signed int return_value_connect$11;
-      return_value_connect$11=connect(sd->sock, (struct sockaddr *)&sd->peer, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
-      if(!(return_value_connect$11 == -1))
-        tmp_if_expr$13 = (_Bool)1;
+      signed int return_value_connect_11;
+      return_value_connect_11=connect(sd->sock, (struct sockaddr *)&sd->peer, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
+      if(!(return_value_connect_11 == -1))
+        tmp_if_expr_13 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$12=__errno_location();
-        tmp_if_expr$13 = *return_value___errno_location$12 == 115 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_12=__errno_location();
+        tmp_if_expr_13 = *return_value___errno_location_12 == 115 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13)
+      if(tmp_if_expr_13)
         return 0;
 
     }
@@ -14557,31 +14557,31 @@ void session_timeout()
   struct timeval now;
   gettimeofday(&now, ((struct timezone *)NULL));
   sd = first_session;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_2;
   for( ; !(sd == ((struct session_ent *)NULL)); sd = sd->next)
   {
     if(sd->sid == 0ul)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = sd->sock == -1 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       if(!(sd->expire.tv_sec == 0l))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (&sd->expire)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (&sd->expire)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         if(sd->expire.tv_sec == now.tv_sec)
-          tmp_if_expr$2 = (signed int)((&sd->expire)->tv_usec < (&now)->tv_usec);
+          tmp_if_expr_2 = (signed int)((&sd->expire)->tv_usec < (&now)->tv_usec);
 
         else
-          tmp_if_expr$2 = (signed int)((&sd->expire)->tv_sec < (&now)->tv_sec);
-        if(!(tmp_if_expr$2 == 0))
+          tmp_if_expr_2 = (signed int)((&sd->expire)->tv_sec < (&now)->tv_sec);
+        if(!(tmp_if_expr_2 == 0))
         {
           if(!(sd->read_error == ((void (*)(struct session_ent *, signed int))NULL)))
             sd->read_error(sd, 110);
@@ -14602,31 +14602,31 @@ void session_unbind(struct session_ent *sd, void (*notify)(void *), void *arg)
   struct session_binder_ent *curr;
   struct session_binder_ent *prev;
   struct session_binder_ent *next;
-  struct session_binder_ent *tmp_if_expr$1;
+  struct session_binder_ent *tmp_if_expr_1;
   if(!(sd == ((struct session_ent *)NULL)))
-    tmp_if_expr$1 = sd->sb;
+    tmp_if_expr_1 = sd->sb;
 
   else
-    tmp_if_expr$1 = ((struct session_binder_ent *)NULL);
-  curr = tmp_if_expr$1;
+    tmp_if_expr_1 = ((struct session_binder_ent *)NULL);
+  curr = tmp_if_expr_1;
   prev = ((struct session_binder_ent *)NULL);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   while(!(curr == ((struct session_binder_ent *)NULL)))
   {
     if(notify == ((void (*)(void *))NULL) && arg == NULL)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(curr->notify == notify)
-        tmp_if_expr$2 = curr->arg == arg ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = curr->arg == arg ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       next = curr->next;
       if(!(prev == ((struct session_binder_ent *)NULL)))
@@ -14731,14 +14731,14 @@ void show_dump_close(void)
 // file show_dump.h line 21
 void show_dump_input(signed int ch)
 {
-  signed int return_value_show_stat_input$1;
+  signed int return_value_show_stat_input_1;
   if(ch == 18 || ch == 67 || ch == 99)
     screen_clear();
 
   else
   {
-    return_value_show_stat_input$1=show_stat_input(((struct pcap_handler *)NULL), ch);
-    if(!(return_value_show_stat_input$1 == 0))
+    return_value_show_stat_input_1=show_stat_input(((struct pcap_handler *)NULL), ch);
+    if(!(return_value_show_stat_input_1 == 0))
       print_mode();
 
   }
@@ -14754,7 +14754,7 @@ signed int show_dump_open(const struct pcap_handler *ph, const struct netstat *n
   unsigned int mask;
   char name[100l];
   char buf[256l];
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(ns == ((const struct netstat *)NULL) || ph == ((const struct pcap_handler *)NULL))
     return -1;
 
@@ -14763,8 +14763,8 @@ signed int show_dump_open(const struct pcap_handler *ph, const struct netstat *n
     show_dump_close();
     if(dump_match == ((struct netstat *)NULL))
     {
-      return_value_malloc$1=malloc(sizeof(struct netstat) /*96ul*/ );
-      dump_match = (struct netstat *)return_value_malloc$1;
+      return_value_malloc_1=malloc(sizeof(struct netstat) /*96ul*/ );
+      dump_match = (struct netstat *)return_value_malloc_1;
       if(!(dump_match == ((struct netstat *)NULL)))
         goto __CPROVER_DUMP_L2;
 
@@ -14782,41 +14782,41 @@ signed int show_dump_open(const struct pcap_handler *ph, const struct netstat *n
       if(!(ph->pcap == ((struct pcap *)NULL)))
       {
         buf[(signed long int)0] = (char)0;
-        char *return_value_strcpy$2;
-        return_value_strcpy$2=strcpy(name, ph->name);
-        live_pcap=pcap_open_live(return_value_strcpy$2, 1536, promisc, 1, buf);
+        char *return_value_strcpy_2;
+        return_value_strcpy_2=strcpy(name, ph->name);
+        live_pcap=pcap_open_live(return_value_strcpy_2, 1536, promisc, 1, buf);
         if(!((signed int)buf[0l] == 0))
           screen_status("%s: %s", ph->name, (const void *)buf);
 
         if(live_pcap == ((struct pcap *)NULL))
           return -1;
 
-        char *return_value_strcpy$3;
-        return_value_strcpy$3=strcpy(name, ph->name);
-        signed int return_value_pcap_lookupnet$4;
-        return_value_pcap_lookupnet$4=pcap_lookupnet(return_value_strcpy$3, &net, &mask, buf);
-        if(!(return_value_pcap_lookupnet$4 >= 0))
+        char *return_value_strcpy_3;
+        return_value_strcpy_3=strcpy(name, ph->name);
+        signed int return_value_pcap_lookupnet_4;
+        return_value_pcap_lookupnet_4=pcap_lookupnet(return_value_strcpy_3, &net, &mask, buf);
+        if(!(return_value_pcap_lookupnet_4 >= 0))
         {
           net = (unsigned int)0;
           mask = (unsigned int)0;
         }
 
-        char *return_value_build_filter_expr$5;
-        return_value_build_filter_expr$5=build_filter_expr(buf, (signed int)sizeof(char [256l]) /*256ul*/ , ns);
-        if(return_value_build_filter_expr$5 == ((char *)NULL))
+        char *return_value_build_filter_expr_5;
+        return_value_build_filter_expr_5=build_filter_expr(buf, (signed int)sizeof(char [256l]) /*256ul*/ , ns);
+        if(return_value_build_filter_expr_5 == ((char *)NULL))
         {
           screen_status("%s: Can't build filter expression", ph->name);
           show_dump_close();
           return -1;
         }
 
-        signed int return_value_pcap_compile$7;
-        return_value_pcap_compile$7=pcap_compile(live_pcap, &filter, buf, Oflag, mask);
-        if(!(return_value_pcap_compile$7 >= 0))
+        signed int return_value_pcap_compile_7;
+        return_value_pcap_compile_7=pcap_compile(live_pcap, &filter, buf, Oflag, mask);
+        if(!(return_value_pcap_compile_7 >= 0))
         {
-          char *return_value_pcap_geterr$6;
-          return_value_pcap_geterr$6=pcap_geterr(live_pcap);
-          screen_status("%s: %s", ph->name, return_value_pcap_geterr$6);
+          char *return_value_pcap_geterr_6;
+          return_value_pcap_geterr_6=pcap_geterr(live_pcap);
+          screen_status("%s: %s", ph->name, return_value_pcap_geterr_6);
           show_dump_close();
           return -1;
         }
@@ -14825,9 +14825,9 @@ signed int show_dump_open(const struct pcap_handler *ph, const struct netstat *n
         pcap_freecode(&filter);
         if(!(op >= 0))
         {
-          char *return_value_pcap_geterr$8;
-          return_value_pcap_geterr$8=pcap_geterr(live_pcap);
-          screen_status("%s: %s", ph->name, return_value_pcap_geterr$8);
+          char *return_value_pcap_geterr_8;
+          return_value_pcap_geterr_8=pcap_geterr(live_pcap);
+          screen_status("%s: %s", ph->name, return_value_pcap_geterr_8);
           show_dump_close();
           return -1;
         }
@@ -14849,11 +14849,11 @@ signed int show_dump_open(const struct pcap_handler *ph, const struct netstat *n
       op=mkstemp(buf);
       if(!(op >= 0))
       {
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        char *return_value_strerror$10;
-        return_value_strerror$10=strerror(*return_value___errno_location$9);
-        screen_status("%s: %s: %s", ph->name, (const void *)buf, return_value_strerror$10);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        char *return_value_strerror_10;
+        return_value_strerror_10=strerror(*return_value___errno_location_9);
+        screen_status("%s: %s: %s", ph->name, (const void *)buf, return_value_strerror_10);
         show_dump_close();
         return -1;
       }
@@ -14874,17 +14874,17 @@ signed int show_dump_open(const struct pcap_handler *ph, const struct netstat *n
           live_dump=pcap_dump_open(live_pcap, dump_file);
           if(live_dump == ((struct pcap_dumper *)NULL))
           {
-            char *return_value_pcap_geterr$11;
-            return_value_pcap_geterr$11=pcap_geterr(live_pcap);
-            screen_status("%s: %s", ph->name, return_value_pcap_geterr$11);
+            char *return_value_pcap_geterr_11;
+            return_value_pcap_geterr_11=pcap_geterr(live_pcap);
+            screen_status("%s: %s", ph->name, return_value_pcap_geterr_11);
             show_dump_close();
             return -1;
           }
 
           pcap_dump_flush(live_dump);
-          void *return_value_malloc$12;
-          return_value_malloc$12=malloc(sizeof(unsigned long int) /*8ul*/ );
-          live_pcap_thr = (unsigned long int *)return_value_malloc$12;
+          void *return_value_malloc_12;
+          return_value_malloc_12=malloc(sizeof(unsigned long int) /*8ul*/ );
+          live_pcap_thr = (unsigned long int *)return_value_malloc_12;
           if(live_pcap_thr == ((unsigned long int *)NULL))
           {
             screen_status("%s: malloc: Out of memory?", ph->name);
@@ -14892,9 +14892,9 @@ signed int show_dump_open(const struct pcap_handler *ph, const struct netstat *n
             return -1;
           }
 
-          signed int return_value_pthread_create$13;
-          return_value_pthread_create$13=pthread_create(live_pcap_thr, ((const union pthread_attr_t *)NULL), (void * (*)(void *))live_pcap_dump, NULL);
-          if(!(return_value_pthread_create$13 == 0))
+          signed int return_value_pthread_create_13;
+          return_value_pthread_create_13=pthread_create(live_pcap_thr, ((const union pthread_attr_t *)NULL), (void * (*)(void *))live_pcap_dump, NULL);
+          if(!(return_value_pthread_create_13 == 0))
           {
             screen_status("%s: pthread_create: Out of resources?", ph->name);
             show_dump_close();
@@ -14916,11 +14916,11 @@ signed int show_dump_open(const struct pcap_handler *ph, const struct netstat *n
           file_netflow=fopen(dump_file, "r");
           if(file_netflow == ((struct _IO_FILE *)NULL))
           {
-            signed int *return_value___errno_location$14;
-            return_value___errno_location$14=__errno_location();
-            char *return_value_strerror$15;
-            return_value_strerror$15=strerror(*return_value___errno_location$14);
-            screen_status("%s: %s: %s", ph->name, dump_file, return_value_strerror$15);
+            signed int *return_value___errno_location_14;
+            return_value___errno_location_14=__errno_location();
+            char *return_value_strerror_15;
+            return_value_strerror_15=strerror(*return_value___errno_location_14);
+            screen_status("%s: %s: %s", ph->name, dump_file, return_value_strerror_15);
             show_dump_close();
             return -1;
           }
@@ -14939,17 +14939,17 @@ signed int show_dump_open(const struct pcap_handler *ph, const struct netstat *n
 // file show_dump.h line 19
 void show_dump_print(struct pcap_handler *ph)
 {
-  char *return_value_pcap_geterr$2;
-  char *return_value_fgets$3;
+  char *return_value_pcap_geterr_2;
+  char *return_value_fgets_3;
   if(cisco_netflow_dump == ((const char *)NULL))
   {
     signed int op;
     if(file_pcap == ((struct pcap *)NULL))
       goto __CPROVER_DUMP_L12;
 
-    struct _IO_FILE *return_value_pcap_file$1;
-    return_value_pcap_file$1=pcap_file(file_pcap);
-    clearerr(return_value_pcap_file$1);
+    struct _IO_FILE *return_value_pcap_file_1;
+    return_value_pcap_file_1=pcap_file(file_pcap);
+    clearerr(return_value_pcap_file_1);
     do
     {
       op=pcap_dispatch(file_pcap, -1, file_pcap_parse, (unsigned char *)ph);
@@ -14962,8 +14962,8 @@ void show_dump_print(struct pcap_handler *ph)
     {
       if(op == -1)
       {
-        return_value_pcap_geterr$2=pcap_geterr(file_pcap);
-        screen_status(return_value_pcap_geterr$2);
+        return_value_pcap_geterr_2=pcap_geterr(file_pcap);
+        screen_status(return_value_pcap_geterr_2);
       }
 
       goto __CPROVER_DUMP_L12;
@@ -14981,8 +14981,8 @@ void show_dump_print(struct pcap_handler *ph)
     clearerr(file_netflow);
     do
     {
-      return_value_fgets$3=fgets(buf, (signed int)sizeof(char [256l]) /*256ul*/ , file_netflow);
-      if(return_value_fgets$3 == ((char *)NULL))
+      return_value_fgets_3=fgets(buf, (signed int)sizeof(char [256l]) /*256ul*/ , file_netflow);
+      if(return_value_fgets_3 == ((char *)NULL))
         break;
 
       buf[(signed long int)(sizeof(char [256l]) /*256ul*/  - (unsigned long int)1)] = (char)0;
@@ -15015,9 +15015,9 @@ static void show_header_dump(struct pcap_handler *ph, const struct netstat *ns)
   char src_buf[100l];
   char dst_buf[100l];
   char proto_buf[20l];
-  struct tm *return_value_localtime$1;
-  return_value_localtime$1=localtime((signed long int *)&ns->mtime.tv_sec);
-  strftime(time_buf, sizeof(char [100l]) /*100ul*/ , "%T", return_value_localtime$1);
+  struct tm *return_value_localtime_1;
+  return_value_localtime_1=localtime((signed long int *)&ns->mtime.tv_sec);
+  strftime(time_buf, sizeof(char [100l]) /*100ul*/ , "%T", return_value_localtime_1);
   hdr2str(&ns->ns_hdr, src_buf, (signed int)sizeof(char [100l]) /*100ul*/ , dst_buf, (signed int)sizeof(char [100l]) /*100ul*/ , proto_buf, (signed int)sizeof(char [20l]) /*20ul*/ );
   printw("\n%s.%03d %s %s > %s %d/%d bytes", (const void *)time_buf, (signed int)(ns->mtime.tv_usec / (signed long int)1000), (const void *)proto_buf, (const void *)src_buf, (const void *)dst_buf, (signed int)ns->pkt_len, (signed int)ns->data_len);
   redraw_lines = redraw_lines + 1;
@@ -15037,12 +15037,12 @@ static void show_hex_dump(const unsigned char *cp, signed int length)
   char asciistuff[100l];
   char *asp;
   unsigned int maxlength = (unsigned int)(16 / 2);
-  const unsigned char *tmp_post$1;
-  const unsigned char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$5;
-  const unsigned char *tmp_post$7;
-  char *tmp_post$8;
+  const unsigned char *tmp_post_1;
+  const unsigned char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_5;
+  const unsigned char *tmp_post_7;
+  char *tmp_post_8;
   if(!(cp == ((const unsigned char *)NULL)) && length >= 1)
   {
     nshorts = (signed int)((unsigned long int)length / sizeof(unsigned short int) /*2ul*/ );
@@ -15055,24 +15055,24 @@ static void show_hex_dump(const unsigned char *cp, signed int length)
       if(!(nshorts >= 0))
         break;
 
-      tmp_post$1 = cp;
+      tmp_post_1 = cp;
       cp = cp + 1l;
-      s1 = (signed int)*tmp_post$1;
-      tmp_post$2 = cp;
+      s1 = (signed int)*tmp_post_1;
+      tmp_post_2 = cp;
       cp = cp + 1l;
-      s2 = (signed int)*tmp_post$2;
+      s2 = (signed int)*tmp_post_2;
       snprintf(hsp, sizeof(char [41l]) /*41ul*/  - (unsigned long int)(hsp - hexstuff), " %02x%02x", s1, s2);
       hsp = hsp + (signed long int)5;
-      tmp_post$3 = asp;
+      tmp_post_3 = asp;
       asp = asp + 1l;
-      const unsigned short int **return_value___ctype_b_loc$4;
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      *tmp_post$3 = (char)(((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)s1] & (signed int)(unsigned short int)32768) != 0 ? s1 : 46);
-      tmp_post$5 = asp;
+      const unsigned short int **return_value___ctype_b_loc_4;
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      *tmp_post_3 = (char)(((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)s1] & (signed int)(unsigned short int)32768) != 0 ? s1 : 46);
+      tmp_post_5 = asp;
       asp = asp + 1l;
-      const unsigned short int **return_value___ctype_b_loc$6;
-      return_value___ctype_b_loc$6=__ctype_b_loc();
-      *tmp_post$5 = (char)(((signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)s2] & (signed int)(unsigned short int)32768) != 0 ? s2 : 46);
+      const unsigned short int **return_value___ctype_b_loc_6;
+      return_value___ctype_b_loc_6=__ctype_b_loc();
+      *tmp_post_5 = (char)(((signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)s2] & (signed int)(unsigned short int)32768) != 0 ? s2 : 46);
       i = i + 1u;
       if(i >= maxlength)
       {
@@ -15095,16 +15095,16 @@ static void show_hex_dump(const unsigned char *cp, signed int length)
     while((_Bool)1);
     if(!((1 & length) == 0))
     {
-      tmp_post$7 = cp;
+      tmp_post_7 = cp;
       cp = cp + 1l;
-      s1 = (signed int)*tmp_post$7;
+      s1 = (signed int)*tmp_post_7;
       snprintf(hsp, sizeof(char [41l]) /*41ul*/  - (unsigned long int)(hsp - hexstuff), " %02x", s1);
       hsp = hsp + (signed long int)3;
-      tmp_post$8 = asp;
+      tmp_post_8 = asp;
       asp = asp + 1l;
-      const unsigned short int **return_value___ctype_b_loc$9;
-      return_value___ctype_b_loc$9=__ctype_b_loc();
-      *tmp_post$8 = (char)(((signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)s1] & (signed int)(unsigned short int)32768) != 0 ? s1 : 46);
+      const unsigned short int **return_value___ctype_b_loc_9;
+      return_value___ctype_b_loc_9=__ctype_b_loc();
+      *tmp_post_8 = (char)(((signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)s1] & (signed int)(unsigned short int)32768) != 0 ? s1 : 46);
       i = i + 1u;
     }
 
@@ -15166,8 +15166,8 @@ static signed int show_if_line(char *dst, signed int size, const struct pcap_han
   signed int name_sz;
   signed int addr_sz;
   signed int desc_sz;
-  signed int tmp_post$1;
-  const char *tmp_if_expr$2;
+  signed int tmp_post_1;
+  const char *tmp_if_expr_2;
   if(dst == ((char *)NULL) || !(size >= 1))
     return 0;
 
@@ -15177,9 +15177,9 @@ static signed int show_if_line(char *dst, signed int size, const struct pcap_han
     i = 0;
     for( ; !(ph == ((const struct pcap_handler *)NULL)); ph = ph->next)
     {
-      tmp_post$1 = i;
+      tmp_post_1 = i;
       i = i + 1;
-      if(tmp_post$1 == idx)
+      if(tmp_post_1 == idx)
         break;
 
     }
@@ -15190,11 +15190,11 @@ static signed int show_if_line(char *dst, signed int size, const struct pcap_han
     {
       scale_size(&name_sz, &addr_sz, &desc_sz);
       if(!(ph->descr == ((const char *)NULL)))
-        tmp_if_expr$2 = ph->descr;
+        tmp_if_expr_2 = ph->descr;
 
       else
-        tmp_if_expr$2 = "";
-      snprintf(dst, (unsigned long int)size, "%-*.*s %-*.*s %-*.*s", name_sz, name_sz, ph->name, addr_sz, addr_sz, ph->addrstr, desc_sz, desc_sz, tmp_if_expr$2);
+        tmp_if_expr_2 = "";
+      snprintf(dst, (unsigned long int)size, "%-*.*s %-*.*s %-*.*s", name_sz, name_sz, ph->name, addr_sz, addr_sz, ph->addrstr, desc_sz, desc_sz, tmp_if_expr_2);
       return 0;
     }
   }
@@ -15205,16 +15205,16 @@ static signed int show_if_line(char *dst, signed int size, const struct pcap_han
 struct selector * show_if_list(struct pcap_handler *ph)
 {
   struct selector *sp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ph == ((struct pcap_handler *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     sp=show_if_selector();
-    tmp_if_expr$1 = sp == ((struct selector *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = sp == ((struct selector *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
     return ((struct selector *)NULL);
 
   else
@@ -15234,13 +15234,13 @@ struct selector * show_if_list(struct pcap_handler *ph)
 signed int show_if_search(struct pcap_handler *ph, const char *str)
 {
   signed int idx;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)*str == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)*str == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -15248,14 +15248,14 @@ signed int show_if_search(struct pcap_handler *ph, const char *str)
     idx = 0;
     for( ; !(ph == ((struct pcap_handler *)NULL)); idx = idx + 1)
     {
-      char *return_value_strstr$2;
-      return_value_strstr$2=strstr(ph->name, str);
-      if(!(return_value_strstr$2 == ((char *)NULL)))
+      char *return_value_strstr_2;
+      return_value_strstr_2=strstr(ph->name, str);
+      if(!(return_value_strstr_2 == ((char *)NULL)))
         return idx;
 
-      char *return_value_strstr$3;
-      return_value_strstr$3=strstr(ph->addrstr, str);
-      if(!(return_value_strstr$3 == ((char *)NULL)))
+      char *return_value_strstr_3;
+      return_value_strstr_3=strstr(ph->addrstr, str);
+      if(!(return_value_strstr_3 == ((char *)NULL)))
         return idx;
 
       ph = ph->next;
@@ -15304,23 +15304,23 @@ static signed int show_stat_footer(char *dst, signed int size, const struct pcap
 
   else
   {
-    scale_size$link1(&addr_sz, &prot_sz, &data_sz, &rate_sz);
+    scale_size_link1(&addr_sz, &prot_sz, &data_sz, &rate_sz);
     depth = 0;
     top = ph->top;
     for( ; !(top == ((const struct pcap_handler *)NULL)); top = top->top)
       depth = depth + 1;
     if(!(depth == 0))
     {
-      signed int return_value_netstat_count$1;
-      return_value_netstat_count$1=netstat_count(ph);
-      snprintf(stat_buf, sizeof(char [50l]) /*50ul*/ , "%d Flows (depth %d)", return_value_netstat_count$1, depth);
+      signed int return_value_netstat_count_1;
+      return_value_netstat_count_1=netstat_count(ph);
+      snprintf(stat_buf, sizeof(char [50l]) /*50ul*/ , "%d Flows (depth %d)", return_value_netstat_count_1, depth);
     }
 
     else
     {
-      signed int return_value_netstat_count$2;
-      return_value_netstat_count$2=netstat_count(ph);
-      snprintf(stat_buf, sizeof(char [50l]) /*50ul*/ , "%d Flows", return_value_netstat_count$2);
+      signed int return_value_netstat_count_2;
+      return_value_netstat_count_2=netstat_count(ph);
+      snprintf(stat_buf, sizeof(char [50l]) /*50ul*/ , "%d Flows", return_value_netstat_count_2);
     }
     switch((signed int)show_stat_mode)
     {
@@ -15371,22 +15371,22 @@ struct netstat * show_stat_get(struct pcap_handler *ph, signed int idx)
 {
   struct selector *sp;
   struct netstat **ns_list;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ph == ((struct pcap_handler *)NULL) || !(idx >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     sp=show_stat_selector(ph);
-    tmp_if_expr$1 = sp == ((struct selector *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = sp == ((struct selector *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = idx >= sp->items ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = idx >= sp->items ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return ((struct netstat *)NULL);
 
   else
@@ -15413,17 +15413,17 @@ static signed int show_stat_header(char *dst, signed int size, const struct pcap
 
   else
   {
-    scale_size$link1(&addr_sz, &prot_sz, &data_sz, &rate_sz);
+    scale_size_link1(&addr_sz, &prot_sz, &data_sz, &rate_sz);
     strcpy(src_buf, "Source");
     strcpy(dst_buf, "Destination");
     if(ph->masklen >= 0)
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(src_buf);
-      sprintf(src_buf + (signed long int)return_value_strlen$1, "/%d", ph->masklen);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(dst_buf);
-      sprintf(dst_buf + (signed long int)return_value_strlen$2, "/%d", ph->masklen);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(src_buf);
+      sprintf(src_buf + (signed long int)return_value_strlen_1, "/%d", ph->masklen);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(dst_buf);
+      sprintf(dst_buf + (signed long int)return_value_strlen_2, "/%d", ph->masklen);
     }
 
     rate_ptr = "?";
@@ -15514,9 +15514,9 @@ signed int show_stat_input(struct pcap_handler *ph, signed int ch)
         idx = 0;
         for( ; !(idx >= sp->items); idx = idx + 1)
         {
-          signed int return_value_netstat_bidir$1;
-          return_value_netstat_bidir$1=netstat_bidir(ns, ns_list[(signed long int)idx]);
-          if(!(return_value_netstat_bidir$1 == 0))
+          signed int return_value_netstat_bidir_1;
+          return_value_netstat_bidir_1=netstat_bidir(ns, ns_list[(signed long int)idx]);
+          if(!(return_value_netstat_bidir_1 == 0))
           {
             selector_set(idx, sp);
             return 1;
@@ -15554,7 +15554,7 @@ static signed int show_stat_line(char *dst, signed int size, const struct netsta
   else
   {
     ns = ns_list[(signed long int)idx];
-    scale_size$link1(&addr_sz, &prot_sz, &data_sz, &rate_sz);
+    scale_size_link1(&addr_sz, &prot_sz, &data_sz, &rate_sz);
     hdr2str(&ns->ns_hdr, src_buf, (signed int)(sizeof(char [100l]) /*100ul*/  < (unsigned long int)(addr_sz + 1) ? sizeof(char [100l]) /*100ul*/  : (unsigned long int)(addr_sz + 1)), dst_buf, (signed int)(sizeof(char [100l]) /*100ul*/  < (unsigned long int)(addr_sz + 1) ? sizeof(char [100l]) /*100ul*/  : (unsigned long int)(addr_sz + 1)), proto_buf, (signed int)(sizeof(char [20l]) /*20ul*/  < (unsigned long int)(prot_sz + 1) ? sizeof(char [20l]) /*20ul*/  : (unsigned long int)(prot_sz + 1)));
     data_buf[(signed long int)0] = (char)0;
     rate_buf[(signed long int)0] = (char)0;
@@ -15611,16 +15611,16 @@ struct selector * show_stat_list(struct pcap_handler *ph)
 {
   struct selector *sp;
   signed int cnt;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ph == ((struct pcap_handler *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     sp=show_stat_selector(ph);
-    tmp_if_expr$1 = sp == ((struct selector *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = sp == ((struct selector *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
     return ((struct selector *)NULL);
 
   else
@@ -15674,26 +15674,26 @@ signed int show_stat_search(struct pcap_handler *ph, const char *str)
   char src_buf[100l];
   char dst_buf[100l];
   char proto_buf[20l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((const char *)NULL) || ph == ((struct pcap_handler *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)*str == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)*str == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     sp=show_stat_selector(ph);
-    tmp_if_expr$2 = sp == ((struct selector *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = sp == ((struct selector *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  char *return_value_strstr$4;
-  _Bool tmp_if_expr$7;
-  char *return_value_strstr$6;
-  if(tmp_if_expr$2)
+  _Bool tmp_if_expr_5;
+  char *return_value_strstr_4;
+  _Bool tmp_if_expr_7;
+  char *return_value_strstr_6;
+  if(tmp_if_expr_2)
     return -1;
 
   else
@@ -15704,25 +15704,25 @@ signed int show_stat_search(struct pcap_handler *ph, const char *str)
     {
       ns = ns_list[(signed long int)idx];
       hdr2str(&ns->ns_hdr, src_buf, (signed int)sizeof(char [100l]) /*100ul*/ , dst_buf, (signed int)sizeof(char [100l]) /*100ul*/ , proto_buf, (signed int)sizeof(char [20l]) /*20ul*/ );
-      char *return_value_strstr$3;
-      return_value_strstr$3=strstr(src_buf, str);
-      if(!(return_value_strstr$3 == ((char *)NULL)))
-        tmp_if_expr$5 = (_Bool)1;
+      char *return_value_strstr_3;
+      return_value_strstr_3=strstr(src_buf, str);
+      if(!(return_value_strstr_3 == ((char *)NULL)))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strstr$4=strstr(dst_buf, str);
-        tmp_if_expr$5 = return_value_strstr$4 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        return_value_strstr_4=strstr(dst_buf, str);
+        tmp_if_expr_5 = return_value_strstr_4 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
-        tmp_if_expr$7 = (_Bool)1;
+      if(tmp_if_expr_5)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_strstr$6=strstr(proto_buf, str);
-        tmp_if_expr$7 = return_value_strstr$6 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        return_value_strstr_6=strstr(proto_buf, str);
+        tmp_if_expr_7 = return_value_strstr_6 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
         return idx;
 
     }
@@ -15763,15 +15763,15 @@ signed int socket_error(signed int sock)
   unsigned int arglen;
   struct sockaddr peer;
   arglen = (unsigned int)sizeof(signed int) /*4ul*/ ;
-  signed int return_value_getsockopt$2;
-  return_value_getsockopt$2=getsockopt(sock, 1, 4, (void *)&argbuf, &arglen);
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$5;
-  if(!(return_value_getsockopt$2 >= 0))
+  signed int return_value_getsockopt_2;
+  return_value_getsockopt_2=getsockopt(sock, 1, 4, (void *)&argbuf, &arglen);
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_5;
+  if(!(return_value_getsockopt_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -15781,12 +15781,12 @@ signed int socket_error(signed int sock)
     else
     {
       arglen = (unsigned int)sizeof(signed int) /*4ul*/ ;
-      signed int return_value_getsockopt$4;
-      return_value_getsockopt$4=getsockopt(sock, 1, 3, (void *)&argbuf, &arglen);
-      if(!(return_value_getsockopt$4 >= 0))
+      signed int return_value_getsockopt_4;
+      return_value_getsockopt_4=getsockopt(sock, 1, 3, (void *)&argbuf, &arglen);
+      if(!(return_value_getsockopt_4 >= 0))
       {
-        return_value___errno_location$3=__errno_location();
-        return *return_value___errno_location$3;
+        return_value___errno_location_3=__errno_location();
+        return *return_value___errno_location_3;
       }
 
       else
@@ -15794,12 +15794,12 @@ signed int socket_error(signed int sock)
         if(argbuf == 1)
         {
           arglen = (unsigned int)sizeof(struct sockaddr) /*16ul*/ ;
-          signed int return_value_getpeername$6;
-          return_value_getpeername$6=getpeername(sock, &peer, &arglen);
-          if(!(return_value_getpeername$6 >= 0))
+          signed int return_value_getpeername_6;
+          return_value_getpeername_6=getpeername(sock, &peer, &arglen);
+          if(!(return_value_getpeername_6 >= 0))
           {
-            return_value___errno_location$5=__errno_location();
-            return *return_value___errno_location$5;
+            return_value___errno_location_5=__errno_location();
+            return *return_value___errno_location_5;
           }
 
         }
@@ -15815,9 +15815,9 @@ signed int socket_keepalive(signed int sock, signed int on)
 {
   signed int curr = 0;
   unsigned int slen = (unsigned int)sizeof(signed int) /*4ul*/ ;
-  signed int return_value_getsockopt$1;
-  return_value_getsockopt$1=getsockopt(sock, 1, 9, (void *)&curr, &slen);
-  if(!(return_value_getsockopt$1 >= 0))
+  signed int return_value_getsockopt_1;
+  return_value_getsockopt_1=getsockopt(sock, 1, 9, (void *)&curr, &slen);
+  if(!(return_value_getsockopt_1 >= 0))
     return -1;
 
   else
@@ -15825,9 +15825,9 @@ signed int socket_keepalive(signed int sock, signed int on)
     curr = (signed int)(curr != 0);
     if(!(on == curr))
     {
-      signed int return_value_setsockopt$2;
-      return_value_setsockopt$2=setsockopt(sock, 1, 9, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_setsockopt$2 >= 0))
+      signed int return_value_setsockopt_2;
+      return_value_setsockopt_2=setsockopt(sock, 1, 9, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_setsockopt_2 >= 0))
         return -1;
 
     }
@@ -15843,16 +15843,16 @@ signed int socket_name(struct sockaddr *name, signed int sock)
   unsigned int arglen;
   if(name == ((struct sockaddr *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   arglen = (unsigned int)sizeof(struct sockaddr) /*16ul*/ ;
-  signed int return_value_getsockname$2;
-  return_value_getsockname$2=getsockname(sock, name, &arglen);
-  return return_value_getsockname$2;
+  signed int return_value_getsockname_2;
+  return_value_getsockname_2=getsockname(sock, name, &arglen);
+  return return_value_getsockname_2;
 }
 
 // socket_nonblock
@@ -15875,9 +15875,9 @@ signed int socket_nonblock(signed int sock, signed int on)
 
       else
         mode = mode & ~04000;
-      signed int return_value_fcntl$1;
-      return_value_fcntl$1=fcntl(sock, 4, mode);
-      if(!(return_value_fcntl$1 == 0))
+      signed int return_value_fcntl_1;
+      return_value_fcntl_1=fcntl(sock, 4, mode);
+      if(!(return_value_fcntl_1 == 0))
         return -1;
 
     }
@@ -15893,16 +15893,16 @@ signed int socket_peer(struct sockaddr *peer, signed int sock)
   unsigned int arglen;
   if(peer == ((struct sockaddr *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   arglen = (unsigned int)sizeof(struct sockaddr) /*16ul*/ ;
-  signed int return_value_getpeername$2;
-  return_value_getpeername$2=getpeername(sock, peer, &arglen);
-  return return_value_getpeername$2;
+  signed int return_value_getpeername_2;
+  return_value_getpeername_2=getpeername(sock, peer, &arglen);
+  return return_value_getpeername_2;
 }
 
 // sort_backflow
@@ -15912,12 +15912,12 @@ static void sort_backflow(struct netstat **list, signed int items)
   signed int i = 0;
   signed int at;
   struct netstat *ns;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   while(!(i >= items + -1))
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    ns = list[(signed long int)tmp_post$1];
+    ns = list[(signed long int)tmp_post_1];
     at=find_backflow(&list[(signed long int)i], items - i, ns);
     if(at >= 0)
     {
@@ -15944,15 +15944,15 @@ static signed int str2addr(const char *str, const char *proto, struct ip_address
   char *cp;
   char *mp;
   char *pp;
-  signed int return_value_strcasecmp$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  signed int return_value_is_number$4;
-  unsigned long int tmp_if_expr$7;
+  signed int return_value_strcasecmp_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  signed int return_value_is_number_4;
+  unsigned long int tmp_if_expr_7;
   if(!(proto == ((const char *)NULL)))
   {
-    return_value_strcasecmp$1=strcasecmp(proto, "IPv6");
-    if(!(return_value_strcasecmp$1 == 0))
+    return_value_strcasecmp_1=strcasecmp(proto, "IPv6");
+    if(!(return_value_strcasecmp_1 == 0))
       goto __CPROVER_DUMP_L1;
 
     fprintf(stderr, "%s: line %d: IPv6 is unsupported at this system\n", rc_file, rc_line);
@@ -15968,24 +15968,24 @@ static signed int str2addr(const char *str, const char *proto, struct ip_address
     mp=strchr(cp, 47);
     if(!(mp == ((char *)NULL)))
     {
-      tmp_post$2 = mp;
+      tmp_post_2 = mp;
       mp = mp + 1l;
-      *tmp_post$2 = (char)0;
+      *tmp_post_2 = (char)0;
       cp = mp;
     }
 
     pp=strchr(cp, 44);
     if(!(pp == ((char *)NULL)))
     {
-      tmp_post$3 = pp;
+      tmp_post_3 = pp;
       pp = pp + 1l;
-      *tmp_post$3 = (char)0;
+      *tmp_post_3 = (char)0;
     }
 
     if(!(mp == ((char *)NULL)))
     {
-      return_value_is_number$4=is_number(mp);
-      if(!(return_value_is_number$4 == 0))
+      return_value_is_number_4=is_number(mp);
+      if(!(return_value_is_number_4 == 0))
         goto __CPROVER_DUMP_L4;
 
       fprintf(stderr, "%s: line %d: %s: Mask must be number of bits\n", rc_file, rc_line, mp);
@@ -15997,9 +15997,9 @@ static signed int str2addr(const char *str, const char *proto, struct ip_address
 
     __CPROVER_DUMP_L4:
       ;
-      signed int return_value_is_any$8;
-      return_value_is_any$8=is_any(buf);
-      if(return_value_is_any$8 == 0)
+      signed int return_value_is_any_8;
+      return_value_is_any_8=is_any(buf);
+      if(return_value_is_any_8 == 0)
       {
         op = 0;
         if(op == 0)
@@ -16008,11 +16008,11 @@ static signed int str2addr(const char *str, const char *proto, struct ip_address
           op=inet_pton(2, buf, (void *)&addr->ipaddr.ipa4);
           if(!(op >= 0))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            char *return_value_strerror$6;
-            return_value_strerror$6=strerror(*return_value___errno_location$5);
-            fprintf(stderr, "%s: line %d: %s: %s\n", rc_file, rc_line, (const void *)buf, return_value_strerror$6);
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            char *return_value_strerror_6;
+            return_value_strerror_6=strerror(*return_value___errno_location_5);
+            fprintf(stderr, "%s: line %d: %s: %s\n", rc_file, rc_line, (const void *)buf, return_value_strerror_6);
             return -1;
           }
 
@@ -16032,11 +16032,11 @@ static signed int str2addr(const char *str, const char *proto, struct ip_address
           {
             ver = 4;
             if((unsigned long int)he->h_length >= 5ul)
-              tmp_if_expr$7 = sizeof(struct in_addr) /*4ul*/ ;
+              tmp_if_expr_7 = sizeof(struct in_addr) /*4ul*/ ;
 
             else
-              tmp_if_expr$7 = (unsigned long int)he->h_length;
-            memcpy((void *)&addr->ipaddr.ipa4, (const void *)he->h_addr_list[(signed long int)0], tmp_if_expr$7);
+              tmp_if_expr_7 = (unsigned long int)he->h_length;
+            memcpy((void *)&addr->ipaddr.ipa4, (const void *)he->h_addr_list[(signed long int)0], tmp_if_expr_7);
           }
 
           else
@@ -16086,12 +16086,12 @@ static signed int str2port(const char *str, const char *proto)
 {
   signed int num;
   struct servent *se;
-  signed int return_value_is_any$1;
-  return_value_is_any$1=is_any(str);
-  unsigned short int return_value_htons$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(!(return_value_is_any$1 == 0))
+  signed int return_value_is_any_1;
+  return_value_is_any_1=is_any(str);
+  unsigned short int return_value_htons_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(!(return_value_is_any_1 == 0))
     return 0;
 
   else
@@ -16099,29 +16099,29 @@ static signed int str2port(const char *str, const char *proto)
     num=atoi(str);
     if(num >= 1 && !(num >= 65536))
     {
-      return_value_htons$2=htons((unsigned short int)num);
-      return (signed int)return_value_htons$2;
+      return_value_htons_2=htons((unsigned short int)num);
+      return (signed int)return_value_htons_2;
     }
 
     else
     {
       if(!(proto == ((const char *)NULL)))
-        tmp_if_expr$3 = *proto != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = *proto != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      se=getservbyname(str, tmp_if_expr$3 ? proto : ((const char *)NULL));
+        tmp_if_expr_3 = (_Bool)0;
+      se=getservbyname(str, tmp_if_expr_3 ? proto : ((const char *)NULL));
       if(!(se == ((struct servent *)NULL)))
         return se->s_port;
 
       else
       {
         if(!(proto == ((const char *)NULL)))
-          tmp_if_expr$4 = *proto != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = *proto != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
           fprintf(stderr, "%s: line %d: Unknown port `%s' at protocol `%s'\n", rc_file, rc_line, str, proto);
 
         else
@@ -16138,9 +16138,9 @@ static char * str2proto(const char *str, signed int *proto)
 {
   signed int num;
   struct protoent *pe;
-  signed int return_value_is_any$1;
-  return_value_is_any$1=is_any(str);
-  if(!(return_value_is_any$1 == 0))
+  signed int return_value_is_any_1;
+  return_value_is_any_1=is_any(str);
+  if(!(return_value_is_any_1 == 0))
   {
     *proto = 0;
     return "";
@@ -16148,9 +16148,9 @@ static char * str2proto(const char *str, signed int *proto)
 
   else
   {
-    signed int return_value_is_number$2;
-    return_value_is_number$2=is_number(str);
-    if(!(return_value_is_number$2 == 0))
+    signed int return_value_is_number_2;
+    return_value_is_number_2=is_number(str);
+    if(!(return_value_is_number_2 == 0))
     {
       num=atoi(str);
       if(!(num >= 1) || num >= 256)
@@ -16194,14 +16194,14 @@ char * strip_blanks(char *str)
 {
   char *bp;
   char *ep;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*str != 0) ? (_Bool)1 : (_Bool)0;
-  char *tmp_post$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*str != 0) ? (_Bool)1 : (_Bool)0;
+  char *tmp_post_3;
+  if(tmp_if_expr_1)
     return str;
 
   else
@@ -16218,10 +16218,10 @@ char * strip_blanks(char *str)
 
   __CPROVER_DUMP_L6:
     ;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(bp);
-    ep = bp + (signed long int)(return_value_strlen$2 - (unsigned long int)1);
-    for( ; ep >= bp; *tmp_post$3 = (char)0)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(bp);
+    ep = bp + (signed long int)(return_value_strlen_2 - (unsigned long int)1);
+    for( ; ep >= bp; *tmp_post_3 = (char)0)
     {
       if(!((signed int)*ep == 32))
       {
@@ -16238,7 +16238,7 @@ char * strip_blanks(char *str)
 
       }
 
-      tmp_post$3 = ep;
+      tmp_post_3 = ep;
       ep = ep - 1l;
     }
     return bp;
@@ -16295,20 +16295,20 @@ static void * traf_show(void *arg)
   struct pcap_handler *ph_list = (struct pcap_handler *)arg;
   signed int op;
   signed int nfds;
-  struct anonymous$11 readfds;
-  struct anonymous$11 writefds;
+  struct anonymous_11 readfds;
+  struct anonymous_11 writefds;
   struct timeval timeout;
   pcap_purge((void *)ph_list);
   getkey_init(ph_list);
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   while((_Bool)1)
   {
     if(!(resize_pending == 0))
     {
-      signed int return_value_screen_open$1;
-      return_value_screen_open$1=screen_open(resize_pending);
-      if(!(return_value_screen_open$1 >= 0))
+      signed int return_value_screen_open_1;
+      return_value_screen_open_1=screen_open(resize_pending);
+      if(!(return_value_screen_open_1 >= 0))
         return NULL;
 
       add_event(((struct timeval *)NULL), pcap_show, (void *)ph_list);
@@ -16320,45 +16320,45 @@ static void * traf_show(void *arg)
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
-      signed int traf_show$$1$$1$$1$$3$$__d0;
-      signed int traf_show$$1$$1$$1$$3$$__d1;
-      asm("cld; rep; stosq" : "=c"(traf_show$$1$$1$$1$$3$$__d0), "=D"(traf_show$$1$$1$$1$$3$$__d1) : "a"(0), "0"(sizeof(struct anonymous$11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writefds)->__fds_bits[(signed long int)0]) : "memory");
+      signed int traf_show__1__1__1__3____d0;
+      signed int traf_show__1__1__1__3____d1;
+      asm("cld; rep; stosq" : "=c"(traf_show__1__1__1__3____d0), "=D"(traf_show__1__1__1__3____d1) : "a"(0), "0"(sizeof(struct anonymous_11) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writefds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     op=select_event(&timeout);
-    signed int return_value_session_select$2;
-    return_value_session_select$2=session_select(&nfds, &readfds, &writefds, &timeout, &op);
-    if(return_value_session_select$2 == 0)
+    signed int return_value_session_select_2;
+    return_value_session_select_2=session_select(&nfds, &readfds, &writefds, &timeout, &op);
+    if(return_value_session_select_2 == 0)
       return NULL;
 
-    op=select(nfds, &readfds, &writefds, ((struct anonymous$11 *)NULL), op != 0 ? ((struct timeval *)NULL) : &timeout);
+    op=select(nfds, &readfds, &writefds, ((struct anonymous_11 *)NULL), op != 0 ? ((struct timeval *)NULL) : &timeout);
     if(!(op >= 1))
     {
       if(!(op >= 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 4)
-          tmp_if_expr$5 = (_Bool)1;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 4)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$4=__errno_location();
-          tmp_if_expr$5 = *return_value___errno_location$4 == 11 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_4=__errno_location();
+          tmp_if_expr_5 = *return_value___errno_location_4 == 11 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
           continue;
 
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        screen_status("select: %s", return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        screen_status("select: %s", return_value_strerror_7);
         return NULL;
       }
 
@@ -16391,38 +16391,38 @@ void tv_add(struct timeval *out, struct timeval *in)
 unsigned long int tv_diff(struct timeval *tvp1, struct timeval *tvp2)
 {
   struct timeval diff;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(tvp1->tv_sec == 0l))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = tvp1->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = tvp1->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if(!(tvp2->tv_sec == 0l))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = tvp2->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$3 = !tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = tvp2->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = !tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  signed int tmp_if_expr$4;
-  if(tmp_if_expr$3)
+  signed int tmp_if_expr_4;
+  if(tmp_if_expr_3)
     return (unsigned long int)0;
 
   else
   {
     if(tvp1->tv_sec == tvp2->tv_sec)
-      tmp_if_expr$4 = (signed int)(tvp1->tv_usec > tvp2->tv_usec);
+      tmp_if_expr_4 = (signed int)(tvp1->tv_usec > tvp2->tv_usec);
 
     else
-      tmp_if_expr$4 = (signed int)(tvp1->tv_sec > tvp2->tv_sec);
-    if(!(tmp_if_expr$4 == 0))
+      tmp_if_expr_4 = (signed int)(tvp1->tv_sec > tvp2->tv_sec);
+    if(!(tmp_if_expr_4 == 0))
     {
       diff = *tvp1;
       tv_sub(&diff, tvp2);
@@ -16464,9 +16464,9 @@ void tv_sharp(struct timeval *tvp, signed int period)
       period = 1;
 
     tvp->tv_sec = tvp->tv_sec + (signed long int)period;
-    signed long int return_value_random$1;
-    return_value_random$1=random();
-    tvp->tv_usec = (signed long int)return_value_random$1 % 1000000L;
+    signed long int return_value_random_1;
+    return_value_random_1=random();
+    tvp->tv_usec = (signed long int)return_value_random_1 % 1000000L;
   }
 
 }
@@ -16550,9 +16550,9 @@ static void vers()
 {
   signed int hc = 0;
   initscr();
-  _Bool return_value_has_colors$1;
-  return_value_has_colors$1=has_colors();
-  hc = (signed int)return_value_has_colors$1;
+  _Bool return_value_has_colors_1;
+  return_value_has_colors_1=has_colors();
+  hc = (signed int)return_value_has_colors_1;
   endwin();
   fprintf(stderr, "\n%s Version %s\ncompiled for %s with\n %s\n", progname, (const void *)version, (const void *)target, (const void *)compiled);
   fprintf(stderr, "\tlibpcap version %s\n", (const void *)pcap_version);

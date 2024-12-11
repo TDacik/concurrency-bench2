@@ -1,26 +1,26 @@
-// #anon_enum$CONFIG_ERR_NONE=0$CONFIG_ERR_FILE_IO=1$CONFIG_ERR_PARSE=2
+// #anon_enum_CONFIG_ERR_NONE=0_CONFIG_ERR_FILE_IO=1_CONFIG_ERR_PARSE=2
 // file /usr/include/libconfig.h line 92
 enum anonymous { CONFIG_ERR_NONE=0, CONFIG_ERR_FILE_IO=1, CONFIG_ERR_PARSE=2 };
 
-// #anon_enum$JackPositionBBT=16$JackPositionTimecode=32$JackBBTFrameOffset=64$JackAudioVideoRatio=128$JackVideoFrameOffset=256
+// #anon_enum_JackPositionBBT=16_JackPositionTimecode=32_JackBBTFrameOffset=64_JackAudioVideoRatio=128_JackVideoFrameOffset=256
 // file /usr/include/jack/types.h line 539
-enum anonymous$1 { JackPositionBBT=16, JackPositionTimecode=32, JackBBTFrameOffset=64, JackAudioVideoRatio=128, JackVideoFrameOffset=256 };
+enum anonymous_1 { JackPositionBBT=16, JackPositionTimecode=32, JackBBTFrameOffset=64, JackAudioVideoRatio=128, JackVideoFrameOffset=256 };
 
-// #anon_enum$JackTransportStopped=0$JackTransportRolling=1$JackTransportLooping=2$JackTransportStarting=3$JackTransportNetStarting=4
+// #anon_enum_JackTransportStopped=0_JackTransportRolling=1_JackTransportLooping=2_JackTransportStarting=3_JackTransportNetStarting=4
 // file /usr/include/jack/types.h line 523
-enum anonymous$2 { JackTransportStopped=0, JackTransportRolling=1, JackTransportLooping=2, JackTransportStarting=3, JackTransportNetStarting=4 };
+enum anonymous_2 { JackTransportStopped=0, JackTransportRolling=1, JackTransportLooping=2, JackTransportStarting=3, JackTransportNetStarting=4 };
 
-// tag-#anon#ST[U64'attr'||ARR5{S32}$S32$'chars'||U32'$pad0'|]
+// tag-#anon#ST[U64'attr'||ARR5{S32}_S32_'chars'||U32'_pad0'|]
 // file /usr/include/curses.h line 397
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
 // tag-JackOptions
 // file /usr/include/jack/types.h line 82
@@ -497,13 +497,13 @@ signed int jack_set_process_callback(struct _jack_client *, signed int (*)(unsig
 signed int jack_set_session_callback(struct _jack_client *, void (*)(struct _jack_session_event *, void *), void *);
 // jack_set_sync_callback
 // file /usr/include/jack/transport.h line 74
-signed int jack_set_sync_callback(struct _jack_client *, signed int (*)(enum anonymous$2, struct _jack_position *, void *), void *);
+signed int jack_set_sync_callback(struct _jack_client *, signed int (*)(enum anonymous_2, struct _jack_position *, void *), void *);
 // jack_transport_locate
 // file /usr/include/jack/transport.h line 144
 signed int jack_transport_locate(struct _jack_client *, unsigned int);
 // jack_transport_query
 // file /usr/include/jack/transport.h line 162
-enum anonymous$2 jack_transport_query(const struct _jack_client *, struct _jack_position *);
+enum anonymous_2 jack_transport_query(const struct _jack_client *, struct _jack_position *);
 // jack_transport_start
 // file /usr/include/jack/transport.h line 204
 void jack_transport_start(struct _jack_client *);
@@ -584,7 +584,7 @@ extern signed int printw(const char *, ...);
 static signed int process_jack_data(unsigned int nframes, void *arg);
 // process_jack_sync
 // file meterec.c line 701
-static signed int process_jack_sync(enum anonymous$2 state, struct _jack_position *pos, void *arg);
+static signed int process_jack_sync(enum anonymous_2 state, struct _jack_position *pos, void *arg);
 // process_port_register
 // file ports.c line 32
 void process_port_register(unsigned int port_id, signed int new, void *arg);
@@ -599,13 +599,13 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$4 *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous_4 *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // read_disk_buffer_level
 // file disk.h line 25
 float read_disk_buffer_level(struct meterec_s *meterec);
@@ -778,7 +778,7 @@ struct SNDFILE_tag * write_disk_open_fd(struct meterec_s *meterec);
 // file disk.c line 84
 void * writer_thread(void *d);
 
-struct anonymous$3
+struct anonymous_3
 {
   // attr
   unsigned long int attr;
@@ -786,7 +786,7 @@ struct anonymous$3
   signed int chars[5l];
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -822,7 +822,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -931,7 +931,7 @@ struct _jack_position
   // frame
   unsigned int frame;
   // valid
-  enum anonymous$1 valid;
+  enum anonymous_1 valid;
   // bar
   signed int bar;
   // beat
@@ -1053,7 +1053,7 @@ struct _win_st
   // _yoffset
   signed short int _yoffset;
   // _bkgrnd
-  struct anonymous$3 _bkgrnd;
+  struct anonymous_3 _bkgrnd;
 };
 
 struct config_list_t
@@ -1353,7 +1353,7 @@ struct meterec_s
   // event
   struct event_s *event;
   // event_mutex
-  union anonymous$4 event_mutex;
+  union anonymous_4 event_mutex;
   // output_fmt
   unsigned int output_fmt;
   // output_ext
@@ -1447,9 +1447,9 @@ void add_event(struct meterec_s *meterec, unsigned int queue, unsigned int type,
   struct event_s *event = meterec->event;
   if(event == ((struct event_s *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct event_s) /*40ul*/ );
-    event = (struct event_s *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct event_s) /*40ul*/ );
+    event = (struct event_s *)return_value_malloc_1;
     event->prev = (struct event_s *)(void *)0;
     event->next = (struct event_s *)(void *)0;
     meterec->event = event;
@@ -1459,9 +1459,9 @@ void add_event(struct meterec_s *meterec, unsigned int queue, unsigned int type,
   {
     for( ; !(event->next == ((struct event_s *)NULL)); event = event->next)
       ;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct event_s) /*40ul*/ );
-    event->next = (struct event_s *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct event_s) /*40ul*/ );
+    event->next = (struct event_s *)return_value_malloc_2;
     event->next->prev = event;
     event->next->next = (struct event_s *)(void *)0;
     event = event->next;
@@ -1493,11 +1493,11 @@ void cancel_record(struct meterec_s *meterec)
 signed int changed_takes_to_playback(struct meterec_s *meterec)
 {
   unsigned int port = (unsigned int)0;
-  unsigned int return_value_take_to_playback$1;
+  unsigned int return_value_take_to_playback_1;
   for( ; !(port >= meterec->n_ports); port = port + 1u)
   {
-    return_value_take_to_playback$1=take_to_playback(meterec, port);
-    if(!(meterec->ports[(signed long int)port].playback_take == return_value_take_to_playback$1))
+    return_value_take_to_playback_1=take_to_playback(meterec, port);
+    if(!(meterec->ports[(signed long int)port].playback_take == return_value_take_to_playback_1))
       return 1;
 
   }
@@ -1549,8 +1549,8 @@ void cleanup_jack(struct meterec_s *meterec)
   const char **all_ports;
   unsigned int i;
   unsigned int port;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
   if(!(meterec->client == ((struct _jack_client *)NULL)))
   {
     port = (unsigned int)0;
@@ -1563,19 +1563,19 @@ void cleanup_jack(struct meterec_s *meterec)
         do
         {
           if(!(all_ports == ((const char **)NULL)))
-            tmp_if_expr$1 = all_ports[(signed long int)i] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = all_ports[(signed long int)i] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
-          const char *return_value_jack_port_name$2;
-          return_value_jack_port_name$2=jack_port_name(meterec->ports[(signed long int)port].input);
-          fprintf(meterec->fd_log, "Disconnecting input port '%s' from '%s'.\n", return_value_jack_port_name$2, all_ports[(signed long int)i]);
-          const char *return_value_jack_port_name$3;
-          return_value_jack_port_name$3=jack_port_name(meterec->ports[(signed long int)port].input);
-          jack_disconnect(meterec->client, all_ports[(signed long int)i], return_value_jack_port_name$3);
+          const char *return_value_jack_port_name_2;
+          return_value_jack_port_name_2=jack_port_name(meterec->ports[(signed long int)port].input);
+          fprintf(meterec->fd_log, "Disconnecting input port '%s' from '%s'.\n", return_value_jack_port_name_2, all_ports[(signed long int)i]);
+          const char *return_value_jack_port_name_3;
+          return_value_jack_port_name_3=jack_port_name(meterec->ports[(signed long int)port].input);
+          jack_disconnect(meterec->client, all_ports[(signed long int)i], return_value_jack_port_name_3);
           i = i + 1u;
         }
         while((_Bool)1);
@@ -1589,19 +1589,19 @@ void cleanup_jack(struct meterec_s *meterec)
         do
         {
           if(!(all_ports == ((const char **)NULL)))
-            tmp_if_expr$4 = all_ports[(signed long int)i] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = all_ports[(signed long int)i] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(!tmp_if_expr_4)
             break;
 
-          const char *return_value_jack_port_name$5;
-          return_value_jack_port_name$5=jack_port_name(meterec->ports[(signed long int)port].output);
-          fprintf(meterec->fd_log, "Disconnecting output port '%s' from '%s'.\n", return_value_jack_port_name$5, all_ports[(signed long int)i]);
-          const char *return_value_jack_port_name$6;
-          return_value_jack_port_name$6=jack_port_name(meterec->ports[(signed long int)port].output);
-          jack_disconnect(meterec->client, all_ports[(signed long int)i], return_value_jack_port_name$6);
+          const char *return_value_jack_port_name_5;
+          return_value_jack_port_name_5=jack_port_name(meterec->ports[(signed long int)port].output);
+          fprintf(meterec->fd_log, "Disconnecting output port '%s' from '%s'.\n", return_value_jack_port_name_5, all_ports[(signed long int)i]);
+          const char *return_value_jack_port_name_6;
+          return_value_jack_port_name_6=jack_port_name(meterec->ports[(signed long int)port].output);
+          jack_disconnect(meterec->client, all_ports[(signed long int)i], return_value_jack_port_name_6);
           i = i + 1u;
         }
         while((_Bool)1);
@@ -1685,13 +1685,13 @@ void * connect_all_ports(void *d)
 {
   unsigned int port;
   unsigned int con;
-  struct meterec_s *connect_all_ports$$1$$meterec = (struct meterec_s *)d;
+  struct meterec_s *connect_all_ports__1__meterec = (struct meterec_s *)d;
   port = (unsigned int)0;
-  for( ; !(port >= connect_all_ports$$1$$meterec->n_ports); port = port + 1u)
+  for( ; !(port >= connect_all_ports__1__meterec->n_ports); port = port + 1u)
   {
     con = (unsigned int)0;
-    for( ; !(con >= connect_all_ports$$1$$meterec->ports[(signed long int)port].n_cons); con = con + 1u)
-      connect_any_port(connect_all_ports$$1$$meterec, connect_all_ports$$1$$meterec->ports[(signed long int)port].connections[(signed long int)con], port);
+    for( ; !(con >= connect_all_ports__1__meterec->ports[(signed long int)port].n_cons); con = con + 1u)
+      connect_any_port(connect_all_ports__1__meterec, connect_all_ports__1__meterec->ports[(signed long int)port].connections[(signed long int)con], port);
   }
   return (void *)0;
 }
@@ -1708,32 +1708,32 @@ void connect_any_port(struct meterec_s *meterec, char *port_name, unsigned int p
     jack_flags=jack_port_flags(jack_port);
     if(!((1 & jack_flags) == 0))
     {
-      const char *return_value_jack_port_name$1;
-      return_value_jack_port_name$1=jack_port_name(meterec->ports[(signed long int)port].output);
-      fprintf(meterec->fd_log, "Connecting '%s' to '%s'...\n", return_value_jack_port_name$1, port_name);
-      signed int return_value_jack_port_connected_to$4;
-      return_value_jack_port_connected_to$4=jack_port_connected_to(meterec->ports[(signed long int)port].output, port_name);
-      if(!(return_value_jack_port_connected_to$4 == 0))
+      const char *return_value_jack_port_name_1;
+      return_value_jack_port_name_1=jack_port_name(meterec->ports[(signed long int)port].output);
+      fprintf(meterec->fd_log, "Connecting '%s' to '%s'...\n", return_value_jack_port_name_1, port_name);
+      signed int return_value_jack_port_connected_to_4;
+      return_value_jack_port_connected_to_4=jack_port_connected_to(meterec->ports[(signed long int)port].output, port_name);
+      if(!(return_value_jack_port_connected_to_4 == 0))
       {
-        const char *return_value_jack_port_name$2;
-        return_value_jack_port_name$2=jack_port_name(meterec->ports[(signed long int)port].output);
-        const char *return_value_jack_port_name$3;
-        return_value_jack_port_name$3=jack_port_name(jack_port);
-        fprintf(meterec->fd_log, "Ports '%s' and '%s' already connected\n", return_value_jack_port_name$2, return_value_jack_port_name$3);
+        const char *return_value_jack_port_name_2;
+        return_value_jack_port_name_2=jack_port_name(meterec->ports[(signed long int)port].output);
+        const char *return_value_jack_port_name_3;
+        return_value_jack_port_name_3=jack_port_name(jack_port);
+        fprintf(meterec->fd_log, "Ports '%s' and '%s' already connected\n", return_value_jack_port_name_2, return_value_jack_port_name_3);
         goto __CPROVER_DUMP_L8;
       }
 
-      const char *return_value_jack_port_name$7;
-      return_value_jack_port_name$7=jack_port_name(meterec->ports[(signed long int)port].output);
-      signed int return_value_jack_connect$8;
-      return_value_jack_connect$8=jack_connect(meterec->client, return_value_jack_port_name$7, port_name);
-      if(!(return_value_jack_connect$8 == 0))
+      const char *return_value_jack_port_name_7;
+      return_value_jack_port_name_7=jack_port_name(meterec->ports[(signed long int)port].output);
+      signed int return_value_jack_connect_8;
+      return_value_jack_connect_8=jack_connect(meterec->client, return_value_jack_port_name_7, port_name);
+      if(!(return_value_jack_connect_8 == 0))
       {
-        const char *return_value_jack_port_name$5;
-        return_value_jack_port_name$5=jack_port_name(meterec->ports[(signed long int)port].output);
-        const char *return_value_jack_port_name$6;
-        return_value_jack_port_name$6=jack_port_name(jack_port);
-        fprintf(meterec->fd_log, "Cannot connect port '%s' to '%s'\n", return_value_jack_port_name$5, return_value_jack_port_name$6);
+        const char *return_value_jack_port_name_5;
+        return_value_jack_port_name_5=jack_port_name(meterec->ports[(signed long int)port].output);
+        const char *return_value_jack_port_name_6;
+        return_value_jack_port_name_6=jack_port_name(jack_port);
+        fprintf(meterec->fd_log, "Cannot connect port '%s' to '%s'\n", return_value_jack_port_name_5, return_value_jack_port_name_6);
         exit_on_error("Cannot connect ports");
       }
 
@@ -1741,32 +1741,32 @@ void connect_any_port(struct meterec_s *meterec, char *port_name, unsigned int p
 
     if(!((2 & jack_flags) == 0))
     {
-      const char *return_value_jack_port_name$9;
-      return_value_jack_port_name$9=jack_port_name(meterec->ports[(signed long int)port].input);
-      fprintf(meterec->fd_log, "Connecting '%s' to '%s'...\n", port_name, return_value_jack_port_name$9);
-      signed int return_value_jack_port_connected_to$12;
-      return_value_jack_port_connected_to$12=jack_port_connected_to(meterec->ports[(signed long int)port].input, port_name);
-      if(!(return_value_jack_port_connected_to$12 == 0))
+      const char *return_value_jack_port_name_9;
+      return_value_jack_port_name_9=jack_port_name(meterec->ports[(signed long int)port].input);
+      fprintf(meterec->fd_log, "Connecting '%s' to '%s'...\n", port_name, return_value_jack_port_name_9);
+      signed int return_value_jack_port_connected_to_12;
+      return_value_jack_port_connected_to_12=jack_port_connected_to(meterec->ports[(signed long int)port].input, port_name);
+      if(!(return_value_jack_port_connected_to_12 == 0))
       {
-        const char *return_value_jack_port_name$10;
-        return_value_jack_port_name$10=jack_port_name(meterec->ports[(signed long int)port].input);
-        const char *return_value_jack_port_name$11;
-        return_value_jack_port_name$11=jack_port_name(jack_port);
-        fprintf(meterec->fd_log, "Ports '%s' and '%s' already connected\n", return_value_jack_port_name$10, return_value_jack_port_name$11);
+        const char *return_value_jack_port_name_10;
+        return_value_jack_port_name_10=jack_port_name(meterec->ports[(signed long int)port].input);
+        const char *return_value_jack_port_name_11;
+        return_value_jack_port_name_11=jack_port_name(jack_port);
+        fprintf(meterec->fd_log, "Ports '%s' and '%s' already connected\n", return_value_jack_port_name_10, return_value_jack_port_name_11);
         goto __CPROVER_DUMP_L8;
       }
 
-      const char *return_value_jack_port_name$15;
-      return_value_jack_port_name$15=jack_port_name(meterec->ports[(signed long int)port].input);
-      signed int return_value_jack_connect$16;
-      return_value_jack_connect$16=jack_connect(meterec->client, port_name, return_value_jack_port_name$15);
-      if(!(return_value_jack_connect$16 == 0))
+      const char *return_value_jack_port_name_15;
+      return_value_jack_port_name_15=jack_port_name(meterec->ports[(signed long int)port].input);
+      signed int return_value_jack_connect_16;
+      return_value_jack_connect_16=jack_connect(meterec->client, port_name, return_value_jack_port_name_15);
+      if(!(return_value_jack_connect_16 == 0))
       {
-        const char *return_value_jack_port_name$13;
-        return_value_jack_port_name$13=jack_port_name(jack_port);
-        const char *return_value_jack_port_name$14;
-        return_value_jack_port_name$14=jack_port_name(meterec->ports[(signed long int)port].input);
-        fprintf(meterec->fd_log, "Cannot connect port '%s' to '%s'\n", return_value_jack_port_name$13, return_value_jack_port_name$14);
+        const char *return_value_jack_port_name_13;
+        return_value_jack_port_name_13=jack_port_name(jack_port);
+        const char *return_value_jack_port_name_14;
+        return_value_jack_port_name_14=jack_port_name(meterec->ports[(signed long int)port].input);
+        fprintf(meterec->fd_log, "Cannot connect port '%s' to '%s'\n", return_value_jack_port_name_13, return_value_jack_port_name_14);
         exit_on_error("Cannot connect ports");
       }
 
@@ -1853,11 +1853,11 @@ void deregister_port(struct meterec_s *meterec, char *port_name, unsigned int po
   unsigned int con;
   unsigned int n_cons = meterec->ports[(signed long int)port].n_cons;
   con = (unsigned int)0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(con >= n_cons); con = con + 1u)
   {
-    return_value_strcmp$1=strcmp(meterec->ports[(signed long int)port].connections[(signed long int)con], port_name);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(meterec->ports[(signed long int)port].connections[(signed long int)con], port_name);
+    if(return_value_strcmp_1 == 0)
       break;
 
   }
@@ -1885,36 +1885,36 @@ void disconnect_any_port(struct meterec_s *meterec, char *port_name, unsigned in
     jack_flags=jack_port_flags(jack_port);
     if(!((1 & jack_flags) == 0))
     {
-      const char *return_value_jack_port_name$1;
-      return_value_jack_port_name$1=jack_port_name(meterec->ports[(signed long int)port].output);
-      const char *return_value_jack_port_name$2;
-      return_value_jack_port_name$2=jack_port_name(jack_port);
-      fprintf(meterec->fd_log, "Disconnecting '%s' from '%s'...\n", return_value_jack_port_name$1, return_value_jack_port_name$2);
-      signed int return_value_jack_port_connected_to$5;
-      return_value_jack_port_connected_to$5=jack_port_connected_to(meterec->ports[(signed long int)port].output, port_name);
-      if(return_value_jack_port_connected_to$5 == 0)
+      const char *return_value_jack_port_name_1;
+      return_value_jack_port_name_1=jack_port_name(meterec->ports[(signed long int)port].output);
+      const char *return_value_jack_port_name_2;
+      return_value_jack_port_name_2=jack_port_name(jack_port);
+      fprintf(meterec->fd_log, "Disconnecting '%s' from '%s'...\n", return_value_jack_port_name_1, return_value_jack_port_name_2);
+      signed int return_value_jack_port_connected_to_5;
+      return_value_jack_port_connected_to_5=jack_port_connected_to(meterec->ports[(signed long int)port].output, port_name);
+      if(return_value_jack_port_connected_to_5 == 0)
       {
-        const char *return_value_jack_port_name$3;
-        return_value_jack_port_name$3=jack_port_name(meterec->ports[(signed long int)port].output);
-        const char *return_value_jack_port_name$4;
-        return_value_jack_port_name$4=jack_port_name(jack_port);
-        fprintf(meterec->fd_log, "Ports '%s' and '%s' already disconnected\n", return_value_jack_port_name$3, return_value_jack_port_name$4);
+        const char *return_value_jack_port_name_3;
+        return_value_jack_port_name_3=jack_port_name(meterec->ports[(signed long int)port].output);
+        const char *return_value_jack_port_name_4;
+        return_value_jack_port_name_4=jack_port_name(jack_port);
+        fprintf(meterec->fd_log, "Ports '%s' and '%s' already disconnected\n", return_value_jack_port_name_3, return_value_jack_port_name_4);
         goto __CPROVER_DUMP_L8;
       }
 
-      const char *return_value_jack_port_name$8;
-      return_value_jack_port_name$8=jack_port_name(meterec->ports[(signed long int)port].output);
-      const char *return_value_jack_port_name$9;
-      return_value_jack_port_name$9=jack_port_name(jack_port);
-      signed int return_value_jack_disconnect$10;
-      return_value_jack_disconnect$10=jack_disconnect(meterec->client, return_value_jack_port_name$8, return_value_jack_port_name$9);
-      if(!(return_value_jack_disconnect$10 == 0))
+      const char *return_value_jack_port_name_8;
+      return_value_jack_port_name_8=jack_port_name(meterec->ports[(signed long int)port].output);
+      const char *return_value_jack_port_name_9;
+      return_value_jack_port_name_9=jack_port_name(jack_port);
+      signed int return_value_jack_disconnect_10;
+      return_value_jack_disconnect_10=jack_disconnect(meterec->client, return_value_jack_port_name_8, return_value_jack_port_name_9);
+      if(!(return_value_jack_disconnect_10 == 0))
       {
-        const char *return_value_jack_port_name$6;
-        return_value_jack_port_name$6=jack_port_name(meterec->ports[(signed long int)port].output);
-        const char *return_value_jack_port_name$7;
-        return_value_jack_port_name$7=jack_port_name(jack_port);
-        fprintf(meterec->fd_log, "Cannot disconnect ports '%s' and '%s'\n", return_value_jack_port_name$6, return_value_jack_port_name$7);
+        const char *return_value_jack_port_name_6;
+        return_value_jack_port_name_6=jack_port_name(meterec->ports[(signed long int)port].output);
+        const char *return_value_jack_port_name_7;
+        return_value_jack_port_name_7=jack_port_name(jack_port);
+        fprintf(meterec->fd_log, "Cannot disconnect ports '%s' and '%s'\n", return_value_jack_port_name_6, return_value_jack_port_name_7);
         exit_on_error("Cannot disconnect ports");
       }
 
@@ -1922,36 +1922,36 @@ void disconnect_any_port(struct meterec_s *meterec, char *port_name, unsigned in
 
     if(!((2 & jack_flags) == 0))
     {
-      const char *return_value_jack_port_name$11;
-      return_value_jack_port_name$11=jack_port_name(jack_port);
-      const char *return_value_jack_port_name$12;
-      return_value_jack_port_name$12=jack_port_name(meterec->ports[(signed long int)port].input);
-      fprintf(meterec->fd_log, "Disconnecting '%s' from '%s'...\n", return_value_jack_port_name$11, return_value_jack_port_name$12);
-      signed int return_value_jack_port_connected_to$15;
-      return_value_jack_port_connected_to$15=jack_port_connected_to(meterec->ports[(signed long int)port].input, port_name);
-      if(return_value_jack_port_connected_to$15 == 0)
+      const char *return_value_jack_port_name_11;
+      return_value_jack_port_name_11=jack_port_name(jack_port);
+      const char *return_value_jack_port_name_12;
+      return_value_jack_port_name_12=jack_port_name(meterec->ports[(signed long int)port].input);
+      fprintf(meterec->fd_log, "Disconnecting '%s' from '%s'...\n", return_value_jack_port_name_11, return_value_jack_port_name_12);
+      signed int return_value_jack_port_connected_to_15;
+      return_value_jack_port_connected_to_15=jack_port_connected_to(meterec->ports[(signed long int)port].input, port_name);
+      if(return_value_jack_port_connected_to_15 == 0)
       {
-        const char *return_value_jack_port_name$13;
-        return_value_jack_port_name$13=jack_port_name(meterec->ports[(signed long int)port].input);
-        const char *return_value_jack_port_name$14;
-        return_value_jack_port_name$14=jack_port_name(jack_port);
-        fprintf(meterec->fd_log, "Ports '%s' and '%s' already disconnected\n", return_value_jack_port_name$13, return_value_jack_port_name$14);
+        const char *return_value_jack_port_name_13;
+        return_value_jack_port_name_13=jack_port_name(meterec->ports[(signed long int)port].input);
+        const char *return_value_jack_port_name_14;
+        return_value_jack_port_name_14=jack_port_name(jack_port);
+        fprintf(meterec->fd_log, "Ports '%s' and '%s' already disconnected\n", return_value_jack_port_name_13, return_value_jack_port_name_14);
         goto __CPROVER_DUMP_L8;
       }
 
-      const char *return_value_jack_port_name$18;
-      return_value_jack_port_name$18=jack_port_name(jack_port);
-      const char *return_value_jack_port_name$19;
-      return_value_jack_port_name$19=jack_port_name(meterec->ports[(signed long int)port].input);
-      signed int return_value_jack_disconnect$20;
-      return_value_jack_disconnect$20=jack_disconnect(meterec->client, return_value_jack_port_name$18, return_value_jack_port_name$19);
-      if(!(return_value_jack_disconnect$20 == 0))
+      const char *return_value_jack_port_name_18;
+      return_value_jack_port_name_18=jack_port_name(jack_port);
+      const char *return_value_jack_port_name_19;
+      return_value_jack_port_name_19=jack_port_name(meterec->ports[(signed long int)port].input);
+      signed int return_value_jack_disconnect_20;
+      return_value_jack_disconnect_20=jack_disconnect(meterec->client, return_value_jack_port_name_18, return_value_jack_port_name_19);
+      if(!(return_value_jack_disconnect_20 == 0))
       {
-        const char *return_value_jack_port_name$16;
-        return_value_jack_port_name$16=jack_port_name(jack_port);
-        const char *return_value_jack_port_name$17;
-        return_value_jack_port_name$17=jack_port_name(meterec->ports[(signed long int)port].input);
-        fprintf(meterec->fd_log, "Cannot disconnect ports '%s' and '%s'\n", return_value_jack_port_name$16, return_value_jack_port_name$17);
+        const char *return_value_jack_port_name_16;
+        return_value_jack_port_name_16=jack_port_name(jack_port);
+        const char *return_value_jack_port_name_17;
+        return_value_jack_port_name_17=jack_port_name(meterec->ports[(signed long int)port].input);
+        fprintf(meterec->fd_log, "Cannot disconnect ports '%s' and '%s'\n", return_value_jack_port_name_16, return_value_jack_port_name_17);
         exit_on_error("Cannot disconnect ports");
       }
 
@@ -1971,9 +1971,9 @@ void display_cpu_load(struct meterec_s *meterec, unsigned int width)
   unsigned int size;
   unsigned int i;
   width = width - (unsigned int)(31 + 3 * 13);
-  float return_value_jack_cpu_load$1;
-  return_value_jack_cpu_load$1=jack_cpu_load(meterec->client);
-  size = (unsigned int)(((float)width * return_value_jack_cpu_load$1) / (float)100);
+  float return_value_jack_cpu_load_1;
+  return_value_jack_cpu_load_1=jack_cpu_load(meterec->client);
+  size = (unsigned int)(((float)width * return_value_jack_cpu_load_1) / (float)100);
   static unsigned int peak = (unsigned int)0;
   if(!(peak >= size))
     peak = size;
@@ -2051,7 +2051,7 @@ void display_meter(struct meterec_s *meterec, signed int display_names, signed i
   printw("%s\n", scale);
   printw("%s\n", line);
   port = (unsigned int)0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(port >= meterec->n_ports); port = port + 1u)
   {
     color_port(meterec, port);
@@ -2075,9 +2075,9 @@ void display_meter(struct meterec_s *meterec, signed int display_names, signed i
 
     else
     {
-      tmp_post$1 = meterec->ports[(signed long int)port].dktime_in;
+      tmp_post_1 = meterec->ports[(signed long int)port].dktime_in;
       meterec->ports[(signed long int)port].dktime_in = meterec->ports[(signed long int)port].dktime_in + 1;
-      if(!(decay_len >= tmp_post$1))
+      if(!(decay_len >= tmp_post_1))
         meterec->ports[(signed long int)port].dkpeak_in = size_in;
 
     }
@@ -2091,9 +2091,9 @@ void display_meter(struct meterec_s *meterec, signed int display_names, signed i
           if(!(meterec->ports[(signed long int)port].name == ((char *)NULL)))
           {
             printw("%s", meterec->ports[(signed long int)port].name);
-            unsigned long int return_value_strlen$2;
-            return_value_strlen$2=strlen(meterec->ports[(signed long int)port].name);
-            i = i + (signed int)return_value_strlen$2;
+            unsigned long int return_value_strlen_2;
+            return_value_strlen_2=strlen(meterec->ports[(signed long int)port].name);
+            i = i + (signed int)return_value_strlen_2;
           }
 
         }
@@ -2220,15 +2220,15 @@ void display_ports(struct meterec_s *meterec)
 {
   unsigned int port = (unsigned int)0;
   unsigned int i;
-  signed int display_ports$$1$$line = 0;
+  signed int display_ports__1__line = 0;
   const char **in;
   const char **out = meterec->all_input_ports;
   in = meterec->all_output_ports;
   printw("\n\n\n");
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$3;
-  _Bool tmp_if_expr$5;
-  for( ; (_Bool)1; display_ports$$1$$line = display_ports$$1$$line + 1)
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_3;
+  _Bool tmp_if_expr_5;
+  for( ; (_Bool)1; display_ports__1__line = display_ports__1__line + 1)
   {
     if(!(in == ((const char **)NULL)))
     {
@@ -2261,22 +2261,22 @@ void display_ports(struct meterec_s *meterec)
     }
     printw("  ");
     if(!(in == ((const char **)NULL)))
-      tmp_if_expr$2 = *in != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = *in != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(meterec->pos.inout == -1)
       {
-        if(meterec->pos.con_in == display_ports$$1$$line)
+        if(meterec->pos.con_in == display_ports__1__line)
           wattr_on(stdscr, (unsigned long int)((unsigned long int)1UL << 10 + 8), (void *)0);
 
       }
 
-      signed int return_value_jack_port_connected_to$1;
-      return_value_jack_port_connected_to$1=jack_port_connected_to(meterec->ports[(signed long int)meterec->pos.port].input, *in);
-      if(!(return_value_jack_port_connected_to$1 == 0))
+      signed int return_value_jack_port_connected_to_1;
+      return_value_jack_port_connected_to_1=jack_port_connected_to(meterec->ports[(signed long int)meterec->pos.port].input, *in);
+      if(!(return_value_jack_port_connected_to_1 == 0))
       {
         wattr_on(stdscr, (unsigned long int)((unsigned long int)1UL << 13 + 8), (void *)0);
         printw("%20s", *in);
@@ -2345,8 +2345,8 @@ void display_ports(struct meterec_s *meterec)
       i = (unsigned int)0;
       do
       {
-        return_value_strlen$3=strlen(meterec->jack_name);
-        if((unsigned long int)i >= 2ul * return_value_strlen$3 + 17ul)
+        return_value_strlen_3=strlen(meterec->jack_name);
+        if((unsigned long int)i >= 2ul * return_value_strlen_3 + 17ul)
           break;
 
         printw(" ");
@@ -2360,15 +2360,15 @@ void display_ports(struct meterec_s *meterec)
     else
       printw(" ");
     if(!(out == ((const char **)NULL)))
-      tmp_if_expr$5 = *out != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = *out != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
-      signed int return_value_jack_port_connected_to$4;
-      return_value_jack_port_connected_to$4=jack_port_connected_to(meterec->ports[(signed long int)meterec->pos.port].output, *out);
-      if(!(return_value_jack_port_connected_to$4 == 0))
+      signed int return_value_jack_port_connected_to_4;
+      return_value_jack_port_connected_to_4=jack_port_connected_to(meterec->ports[(signed long int)meterec->pos.port].output, *out);
+      if(!(return_value_jack_port_connected_to_4 == 0))
       {
         printw("+-");
         wattr_on(stdscr, (unsigned long int)((unsigned long int)1UL << 13 + 8), (void *)0);
@@ -2382,7 +2382,7 @@ void display_ports(struct meterec_s *meterec)
           printw("| ");
       if(meterec->pos.inout == 1)
       {
-        if(meterec->pos.con_out == display_ports$$1$$line)
+        if(meterec->pos.con_out == display_ports__1__line)
           wattr_on(stdscr, (unsigned long int)((unsigned long int)1UL << 10 + 8), (void *)0);
 
       }
@@ -2422,9 +2422,9 @@ void display_rd_buffer(struct meterec_s *meterec)
   signed int size;
   signed int i;
   const signed int width = 11;
-  float return_value_read_disk_buffer_level$1;
-  return_value_read_disk_buffer_level$1=read_disk_buffer_level(meterec);
-  size = (signed int)((float)width * return_value_read_disk_buffer_level$1);
+  float return_value_read_disk_buffer_level_1;
+  return_value_read_disk_buffer_level_1=read_disk_buffer_level(meterec);
+  size = (signed int)((float)width * return_value_read_disk_buffer_level_1);
   static signed int peak = 0;
   if(!(peak >= size))
   {
@@ -2565,9 +2565,9 @@ void display_wr_buffer(struct meterec_s *meterec)
   signed int size;
   signed int i;
   const signed int width = 11;
-  float return_value_write_disk_buffer_level$1;
-  return_value_write_disk_buffer_level$1=write_disk_buffer_level(meterec);
-  size = (signed int)((float)width * return_value_write_disk_buffer_level$1);
+  float return_value_write_disk_buffer_level_1;
+  return_value_write_disk_buffer_level_1=write_disk_buffer_level(meterec);
+  size = (signed int)((float)width * return_value_write_disk_buffer_level_1);
   static signed int peak = 0;
   if(!(peak >= size))
     peak = size;
@@ -2800,8 +2800,8 @@ unsigned int fill_buffer(struct meterec_s *meterec, unsigned int *zbuff_pos)
   unsigned int track;
   unsigned int ntrack = (unsigned int)0;
   unsigned int fill;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(meterec->read_disk_buffer_thread_pos == meterec->read_disk_buffer_process_pos)
     return meterec->read_disk_buffer_thread_pos;
 
@@ -2814,9 +2814,9 @@ unsigned int fill_buffer(struct meterec_s *meterec, unsigned int *zbuff_pos)
         if(!(meterec->takes[(signed long int)take].take_fd == ((struct SNDFILE_tag *)NULL)))
         {
           ntrack = meterec->takes[(signed long int)take].ntrack;
-          signed long int return_value_sf_read_float$1;
-          return_value_sf_read_float$1=sf_read_float(meterec->takes[(signed long int)take].take_fd, meterec->takes[(signed long int)take].buf, (signed long int)((unsigned int)4096 * ntrack));
-          fill = (unsigned int)return_value_sf_read_float$1;
+          signed long int return_value_sf_read_float_1;
+          return_value_sf_read_float_1=sf_read_float(meterec->takes[(signed long int)take].take_fd, meterec->takes[(signed long int)take].buf, (signed long int)((unsigned int)4096 * ntrack));
+          fill = (unsigned int)return_value_sf_read_float_1;
           for( ; !(fill >= 4096u * ntrack); fill = fill + 1u)
             meterec->takes[(signed long int)take].buf[(signed long int)fill] = 0.0f;
         }
@@ -2827,11 +2827,11 @@ unsigned int fill_buffer(struct meterec_s *meterec, unsigned int *zbuff_pos)
     do
     {
       if(!(rdbuff_pos == meterec->read_disk_buffer_process_pos))
-        tmp_if_expr$2 = *zbuff_pos < (unsigned int)4096 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = *zbuff_pos < (unsigned int)4096 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       take = (unsigned int)1;
@@ -2846,11 +2846,11 @@ unsigned int fill_buffer(struct meterec_s *meterec, unsigned int *zbuff_pos)
             if(meterec->ports[(signed long int)port].playback_take == take)
             {
               if(!(meterec->ports[(signed long int)port].record == 1))
-                tmp_if_expr$3 = (_Bool)1;
+                tmp_if_expr_3 = (_Bool)1;
 
               else
-                tmp_if_expr$3 = !(meterec->record_sts != 0u) ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = !(meterec->record_sts != 0u) ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_3)
                 meterec->ports[(signed long int)port].read_disk_buffer[(signed long int)rdbuff_pos] = meterec->takes[(signed long int)take].buf[(signed long int)(*zbuff_pos * ntrack + track)];
 
             }
@@ -2883,12 +2883,12 @@ void filter_existing_ports(const char **port_list, const char *port_name_pattern
   {
     if(!(*port_name_pattern == 0))
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(port_name_pattern);
-      len = (unsigned int)return_value_strlen$1;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)(len + (unsigned int)2));
-      pattern = (char *)return_value_malloc$2;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(port_name_pattern);
+      len = (unsigned int)return_value_strlen_1;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)(len + (unsigned int)2));
+      pattern = (char *)return_value_malloc_2;
       strcpy(pattern, port_name_pattern);
       pattern[(signed long int)len] = (char)58;
       pattern[(signed long int)(len + (unsigned int)1)] = (char)0;
@@ -2896,25 +2896,25 @@ void filter_existing_ports(const char **port_list, const char *port_name_pattern
       if(!(port == ((const char **)NULL)))
         while(!(*port == ((const char *)NULL)))
         {
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(*port);
-          len = (unsigned int)return_value_strlen$3;
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc((unsigned long int)(len + (unsigned int)1));
-          copy = (char *)return_value_malloc$4;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(*port);
+          len = (unsigned int)return_value_strlen_3;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc((unsigned long int)(len + (unsigned int)1));
+          copy = (char *)return_value_malloc_4;
           strcpy(copy, *port);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(pattern);
-          if(!(return_value_strlen$6 >= (unsigned long int)len))
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(pattern);
+          if(!(return_value_strlen_6 >= (unsigned long int)len))
           {
-            unsigned long int return_value_strlen$5;
-            return_value_strlen$5=strlen(pattern);
-            copy[(signed long int)return_value_strlen$5] = (char)0;
+            unsigned long int return_value_strlen_5;
+            return_value_strlen_5=strlen(pattern);
+            copy[(signed long int)return_value_strlen_5] = (char)0;
           }
 
-          signed int return_value_strcmp$7;
-          return_value_strcmp$7=strcmp(copy, pattern);
-          if(return_value_strcmp$7 == 0)
+          signed int return_value_strcmp_7;
+          return_value_strcmp_7=strcmp(copy, pattern);
+          if(return_value_strcmp_7 == 0)
           {
             tmp = port;
             for( ; !(*port == ((const char *)NULL)); port = port + 1l)
@@ -2939,20 +2939,20 @@ void find_existing_takes(struct meterec_s *meterec)
   unsigned int take = (unsigned int)1;
   for( ; !(take >= 100u); take = take + 1u)
   {
-    signed int return_value_find_take_name$4;
-    return_value_find_take_name$4=find_take_name(meterec->session, take, &meterec->takes[(signed long int)take].take_file);
-    if(!(return_value_find_take_name$4 == 0))
+    signed int return_value_find_take_name_4;
+    return_value_find_take_name_4=find_take_name(meterec->session, take, &meterec->takes[(signed long int)take].take_file);
+    if(!(return_value_find_take_name_4 == 0))
       fprintf(meterec->fd_log, "Found existing file '%s' for take %d\n", meterec->takes[(signed long int)take].take_file, take);
 
     else
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(meterec->session);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen("_0000.????");
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)1);
-      meterec->takes[(signed long int)take].take_file = (char *)return_value_malloc$3;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(meterec->session);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen("_0000.????");
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)1);
+      meterec->takes[(signed long int)take].take_file = (char *)return_value_malloc_3;
       sprintf(meterec->takes[(signed long int)take].take_file, "%s_%04d.%s", meterec->session, take, meterec->output_ext);
     }
   }
@@ -2971,9 +2971,9 @@ struct event_s * find_first_event(struct meterec_s *meterec, unsigned int queue,
     event = meterec->event;
     while(!(event == ((struct event_s *)NULL)))
     {
-      signed int return_value_event_match$1;
-      return_value_event_match$1=event_match(event, queue, type);
-      if(!(return_value_event_match$1 == 0))
+      signed int return_value_event_match_1;
+      return_value_event_match_1=event_match(event, queue, type);
+      if(!(return_value_event_match_1 == 0))
         return event;
 
       event = event->next;
@@ -2997,9 +2997,9 @@ struct event_s * find_last_event(struct meterec_s *meterec, unsigned int queue, 
       ;
     while(!(event == ((struct event_s *)NULL)))
     {
-      signed int return_value_event_match$1;
-      return_value_event_match$1=event_match(event, queue, type);
-      if(!(return_value_event_match$1 == 0))
+      signed int return_value_event_match_1;
+      return_value_event_match_1=event_match(event, queue, type);
+      if(!(return_value_event_match_1 == 0))
         return event;
 
       event = event->prev;
@@ -3028,17 +3028,17 @@ signed int find_take_name(char *session, unsigned int take, char **name)
   struct __dirstream *dp;
   char *current = ".";
   char *pattern;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(session);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen("_0000.");
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)1);
-  pattern = (char *)return_value_malloc$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(session);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen("_0000.");
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)1);
+  pattern = (char *)return_value_malloc_3;
   sprintf(pattern, "%s_%04d.", session, take);
   dp=opendir(current);
-  unsigned long int return_value_strlen$6;
-  signed int return_value_strncmp$7;
+  unsigned long int return_value_strlen_6;
+  signed int return_value_strncmp_7;
   if(dp == ((struct __dirstream *)NULL))
   {
     perror("opendir");
@@ -3053,15 +3053,15 @@ signed int find_take_name(char *session, unsigned int take, char **name)
       if(entry == ((struct dirent *)NULL))
         break;
 
-      return_value_strlen$6=strlen(pattern);
-      return_value_strncmp$7=strncmp(entry->d_name, pattern, return_value_strlen$6);
-      if(return_value_strncmp$7 == 0)
+      return_value_strlen_6=strlen(pattern);
+      return_value_strncmp_7=strncmp(entry->d_name, pattern, return_value_strlen_6);
+      if(return_value_strncmp_7 == 0)
       {
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(entry->d_name);
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc(return_value_strlen$4 + (unsigned long int)1);
-        *name = (char *)return_value_malloc$5;
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(entry->d_name);
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc(return_value_strlen_4 + (unsigned long int)1);
+        *name = (char *)return_value_malloc_5;
         strcpy(*name, entry->d_name);
         closedir(dp);
         free((void *)pattern);
@@ -3135,9 +3135,9 @@ void free_takes(struct meterec_s *meterec)
 // file meterec.c line 168
 static signed int fsleep(float secs)
 {
-  signed int return_value_usleep$1;
-  return_value_usleep$1=usleep((unsigned int)(secs * (float)1000000ul));
-  return return_value_usleep$1;
+  signed int return_value_usleep_1;
+  return_value_usleep_1=usleep((unsigned int)(secs * (float)1000000ul));
+  return return_value_usleep_1;
 }
 
 // halt
@@ -3196,18 +3196,18 @@ void init_display_scale(unsigned int width)
   char *scale0;
   char *line0;
   width = width - (unsigned int)3;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(width + (unsigned int)1 + (unsigned int)2));
-  scale0 = (char *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(width + (unsigned int)1 + (unsigned int)2));
-  line0 = (char *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)(width + (unsigned int)1 + (unsigned int)2));
-  scale = (char *)return_value_malloc$3;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)(width + (unsigned int)1 + (unsigned int)2));
-  line = (char *)return_value_malloc$4;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(width + (unsigned int)1 + (unsigned int)2));
+  scale0 = (char *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(width + (unsigned int)1 + (unsigned int)2));
+  line0 = (char *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)(width + (unsigned int)1 + (unsigned int)2));
+  scale = (char *)return_value_malloc_3;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)(width + (unsigned int)1 + (unsigned int)2));
+  line = (char *)return_value_malloc_4;
   i = (unsigned int)0;
   for( ; !(i >= width); i = i + 1u)
   {
@@ -3221,22 +3221,22 @@ void init_display_scale(unsigned int width)
   {
     char mark[5l];
     signed int pos;
-    signed int return_value_iec_scale$5;
-    return_value_iec_scale$5=iec_scale((float)marks[(signed long int)i], (signed int)width);
-    pos = return_value_iec_scale$5 - 1;
+    signed int return_value_iec_scale_5;
+    return_value_iec_scale_5=iec_scale((float)marks[(signed long int)i], (signed int)width);
+    pos = return_value_iec_scale_5 - 1;
     signed int spos;
     signed int slen;
     snprintf(mark, (unsigned long int)4, "%d", marks[(signed long int)i]);
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(mark);
-    slen = (signed int)return_value_strlen$6;
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(mark);
+    slen = (signed int)return_value_strlen_6;
     spos = pos - slen / 2;
     if(!(spos >= 0))
       spos = 0;
 
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(mark);
-    if(!((unsigned long int)width >= return_value_strlen$7 + (unsigned long int)spos))
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(mark);
+    if(!((unsigned long int)width >= return_value_strlen_7 + (unsigned long int)spos))
       spos = (signed int)(width - (unsigned int)slen);
 
     memcpy((void *)(scale0 + (signed long int)spos), (const void *)mark, (unsigned long int)slen);
@@ -3318,7 +3318,7 @@ void init_takes(struct meterec_s *meterec)
 // file keyboard.c line 48
 void * keyboard_thread(void *arg)
 {
-  struct meterec_s *keyboard_thread$$1$$meterec;
+  struct meterec_s *keyboard_thread__1__meterec;
   struct event_s *event;
   unsigned int y_pos;
   unsigned int x_pos;
@@ -3327,25 +3327,25 @@ void * keyboard_thread(void *arg)
   signed int key = 0;
   signed int freetext = 0;
   char *text = (char *)(void *)0;
-  keyboard_thread$$1$$meterec = (struct meterec_s *)arg;
+  keyboard_thread__1__meterec = (struct meterec_s *)arg;
   noecho();
   cbreak();
   nodelay(stdscr, (_Bool)0);
   keypad(stdscr, (_Bool)1);
-  signed int return_value_changed_takes_to_playback$1;
-  signed int return_value_changed_takes_to_playback$2;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
-  signed int return_value_set_loop$11;
-  while(!(keyboard_thread$$1$$meterec->keyboard_cmd == 0u))
+  signed int return_value_changed_takes_to_playback_1;
+  signed int return_value_changed_takes_to_playback_2;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
+  signed int return_value_set_loop_11;
+  while(!(keyboard_thread__1__meterec->keyboard_cmd == 0u))
   {
     key=wgetch(stdscr);
-    fprintf(keyboard_thread$$1$$meterec->fd_log, "Key pressed: %d '%c'\n", key, key);
-    y_pos = keyboard_thread$$1$$meterec->pos.port;
-    x_pos = keyboard_thread$$1$$meterec->pos.take;
+    fprintf(keyboard_thread__1__meterec->fd_log, "Key pressed: %d '%c'\n", key, key);
+    y_pos = keyboard_thread__1__meterec->pos.port;
+    x_pos = keyboard_thread__1__meterec->pos.take;
     if(!(freetext == 0))
     {
       if(key == 10)
@@ -3384,7 +3384,7 @@ void * keyboard_thread(void *arg)
 
     else
     {
-      switch(keyboard_thread$$1$$meterec->display.view)
+      switch(keyboard_thread__1__meterec->display.view)
       {
         case (unsigned long int)1:
         {
@@ -3392,37 +3392,37 @@ void * keyboard_thread(void *arg)
           {
             case 0404:
             {
-              if(keyboard_thread$$1$$meterec->pos.take >= 2u)
-                keyboard_thread$$1$$meterec->pos.take = keyboard_thread$$1$$meterec->pos.take - 1u;
+              if(keyboard_thread__1__meterec->pos.take >= 2u)
+                keyboard_thread__1__meterec->pos.take = keyboard_thread__1__meterec->pos.take - 1u;
 
               break;
             }
             case 0405:
-              if(!(keyboard_thread$$1$$meterec->pos.take >= keyboard_thread$$1$$meterec->n_takes))
-                keyboard_thread$$1$$meterec->pos.take = keyboard_thread$$1$$meterec->pos.take + 1u;
+              if(!(keyboard_thread__1__meterec->pos.take >= keyboard_thread__1__meterec->n_takes))
+                keyboard_thread__1__meterec->pos.take = keyboard_thread__1__meterec->pos.take + 1u;
 
           }
-          event=find_first_event(keyboard_thread$$1$$meterec, (unsigned int)0, (unsigned int)3);
+          event=find_first_event(keyboard_thread__1__meterec, (unsigned int)0, (unsigned int)3);
           if(event == ((struct event_s *)NULL))
             switch(key)
             {
               case 76:
               {
                 take = (unsigned int)0;
-                for( ; !(take >= 1u + keyboard_thread$$1$$meterec->n_takes); take = take + 1u)
-                  keyboard_thread$$1$$meterec->takes[(signed long int)take].port_has_lock[(signed long int)y_pos] = (unsigned int)0;
+                for( ; !(take >= 1u + keyboard_thread__1__meterec->n_takes); take = take + 1u)
+                  keyboard_thread__1__meterec->takes[(signed long int)take].port_has_lock[(signed long int)y_pos] = (unsigned int)0;
               }
               case 108:
               {
-                keyboard_thread$$1$$meterec->takes[(signed long int)x_pos].port_has_lock[(signed long int)y_pos] = (unsigned int)!(keyboard_thread$$1$$meterec->takes[(signed long int)x_pos].port_has_lock[(signed long int)y_pos] != 0u);
-                return_value_changed_takes_to_playback$1=changed_takes_to_playback(keyboard_thread$$1$$meterec);
-                if(!(return_value_changed_takes_to_playback$1 == 0))
+                keyboard_thread__1__meterec->takes[(signed long int)x_pos].port_has_lock[(signed long int)y_pos] = (unsigned int)!(keyboard_thread__1__meterec->takes[(signed long int)x_pos].port_has_lock[(signed long int)y_pos] != 0u);
+                return_value_changed_takes_to_playback_1=changed_takes_to_playback(keyboard_thread__1__meterec);
+                if(!(return_value_changed_takes_to_playback_1 == 0))
                 {
-                  if(!(keyboard_thread$$1$$meterec->playback_sts == 0u))
+                  if(!(keyboard_thread__1__meterec->playback_sts == 0u))
                   {
-                    pthread_mutex_lock(&keyboard_thread$$1$$meterec->event_mutex);
-                    add_event(keyboard_thread$$1$$meterec, (unsigned int)1, (unsigned int)3, (unsigned int)-1, (unsigned int)keyboard_thread$$1$$meterec->jack.playhead, (unsigned int)-1);
-                    pthread_mutex_unlock(&keyboard_thread$$1$$meterec->event_mutex);
+                    pthread_mutex_lock(&keyboard_thread__1__meterec->event_mutex);
+                    add_event(keyboard_thread__1__meterec, (unsigned int)1, (unsigned int)3, (unsigned int)-1, (unsigned int)keyboard_thread__1__meterec->jack.playhead, (unsigned int)-1);
+                    pthread_mutex_unlock(&keyboard_thread__1__meterec->event_mutex);
                   }
 
                 }
@@ -3432,36 +3432,36 @@ void * keyboard_thread(void *arg)
               case 65:
               {
                 port = (unsigned int)0;
-                for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
+                for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
                 {
                   take = (unsigned int)0;
-                  for( ; !(take >= 1u + keyboard_thread$$1$$meterec->n_takes); take = take + 1u)
-                    keyboard_thread$$1$$meterec->takes[(signed long int)take].port_has_lock[(signed long int)port] = (unsigned int)0;
+                  for( ; !(take >= 1u + keyboard_thread__1__meterec->n_takes); take = take + 1u)
+                    keyboard_thread__1__meterec->takes[(signed long int)take].port_has_lock[(signed long int)port] = (unsigned int)0;
                 }
               }
               case 97:
               {
-                if(!(keyboard_thread$$1$$meterec->takes[(signed long int)x_pos].port_has_lock[(signed long int)y_pos] == 0u))
+                if(!(keyboard_thread__1__meterec->takes[(signed long int)x_pos].port_has_lock[(signed long int)y_pos] == 0u))
                 {
                   port = (unsigned int)0;
-                  for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-                    keyboard_thread$$1$$meterec->takes[(signed long int)x_pos].port_has_lock[(signed long int)port] = (unsigned int)0;
+                  for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+                    keyboard_thread__1__meterec->takes[(signed long int)x_pos].port_has_lock[(signed long int)port] = (unsigned int)0;
                 }
 
                 else
                 {
                   port = (unsigned int)0;
-                  for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-                    keyboard_thread$$1$$meterec->takes[(signed long int)x_pos].port_has_lock[(signed long int)port] = (unsigned int)1;
+                  for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+                    keyboard_thread__1__meterec->takes[(signed long int)x_pos].port_has_lock[(signed long int)port] = (unsigned int)1;
                 }
-                return_value_changed_takes_to_playback$2=changed_takes_to_playback(keyboard_thread$$1$$meterec);
-                if(!(return_value_changed_takes_to_playback$2 == 0))
+                return_value_changed_takes_to_playback_2=changed_takes_to_playback(keyboard_thread__1__meterec);
+                if(!(return_value_changed_takes_to_playback_2 == 0))
                 {
-                  if(!(keyboard_thread$$1$$meterec->playback_sts == 0u))
+                  if(!(keyboard_thread__1__meterec->playback_sts == 0u))
                   {
-                    pthread_mutex_lock(&keyboard_thread$$1$$meterec->event_mutex);
-                    add_event(keyboard_thread$$1$$meterec, (unsigned int)1, (unsigned int)3, (unsigned int)-1, (unsigned int)keyboard_thread$$1$$meterec->jack.playhead, (unsigned int)-1);
-                    pthread_mutex_unlock(&keyboard_thread$$1$$meterec->event_mutex);
+                    pthread_mutex_lock(&keyboard_thread__1__meterec->event_mutex);
+                    add_event(keyboard_thread__1__meterec, (unsigned int)1, (unsigned int)3, (unsigned int)-1, (unsigned int)keyboard_thread__1__meterec->jack.playhead, (unsigned int)-1);
+                    pthread_mutex_unlock(&keyboard_thread__1__meterec->event_mutex);
                   }
 
                 }
@@ -3475,40 +3475,40 @@ void * keyboard_thread(void *arg)
         }
         case (unsigned long int)0:
         {
-          event=find_first_event(keyboard_thread$$1$$meterec, (unsigned int)0, (unsigned int)1);
+          event=find_first_event(keyboard_thread__1__meterec, (unsigned int)0, (unsigned int)1);
           switch(key)
           {
             case 110:
             {
-              keyboard_thread$$1$$meterec->display.names = (unsigned long int)!(keyboard_thread$$1$$meterec->display.names != 0ul);
+              keyboard_thread__1__meterec->display.names = (unsigned long int)!(keyboard_thread__1__meterec->display.names != 0ul);
               break;
             }
             case 118:
             {
               port = (unsigned int)0;
-              for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
+              for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
               {
-                keyboard_thread$$1$$meterec->ports[(signed long int)port].dkmax_in = 0;
-                keyboard_thread$$1$$meterec->ports[(signed long int)port].max_in = (float)0;
-                float return_value_log10f$3;
-                return_value_log10f$3=log10f((float)0);
-                keyboard_thread$$1$$meterec->ports[(signed long int)port].db_max_in = 20.0f * return_value_log10f$3;
+                keyboard_thread__1__meterec->ports[(signed long int)port].dkmax_in = 0;
+                keyboard_thread__1__meterec->ports[(signed long int)port].max_in = (float)0;
+                float return_value_log10f_3;
+                return_value_log10f_3=log10f((float)0);
+                keyboard_thread__1__meterec->ports[(signed long int)port].db_max_in = 20.0f * return_value_log10f_3;
               }
               break;
             }
             case 0404:
             {
-              if(keyboard_thread$$1$$meterec->record_sts == 0u)
+              if(keyboard_thread__1__meterec->record_sts == 0u)
               {
-                if(!(keyboard_thread$$1$$meterec->playback_sts == 0u))
+                if(!(keyboard_thread__1__meterec->playback_sts == 0u))
                 {
                   if(event == ((struct event_s *)NULL))
                   {
-                    pthread_mutex_lock(&keyboard_thread$$1$$meterec->event_mutex);
-                    unsigned int return_value_seek$4;
-                    return_value_seek$4=seek(keyboard_thread$$1$$meterec, -5);
-                    add_event(keyboard_thread$$1$$meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, return_value_seek$4, (unsigned int)-1);
-                    pthread_mutex_unlock(&keyboard_thread$$1$$meterec->event_mutex);
+                    pthread_mutex_lock(&keyboard_thread__1__meterec->event_mutex);
+                    unsigned int return_value_seek_4;
+                    return_value_seek_4=seek(keyboard_thread__1__meterec, -5);
+                    add_event(keyboard_thread__1__meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, return_value_seek_4, (unsigned int)-1);
+                    pthread_mutex_unlock(&keyboard_thread__1__meterec->event_mutex);
                   }
 
                 }
@@ -3518,17 +3518,17 @@ void * keyboard_thread(void *arg)
               break;
             }
             case 0405:
-              if(keyboard_thread$$1$$meterec->record_sts == 0u)
+              if(keyboard_thread__1__meterec->record_sts == 0u)
               {
-                if(!(keyboard_thread$$1$$meterec->playback_sts == 0u))
+                if(!(keyboard_thread__1__meterec->playback_sts == 0u))
                 {
                   if(event == ((struct event_s *)NULL))
                   {
-                    pthread_mutex_lock(&keyboard_thread$$1$$meterec->event_mutex);
-                    unsigned int return_value_seek$5;
-                    return_value_seek$5=seek(keyboard_thread$$1$$meterec, 5);
-                    add_event(keyboard_thread$$1$$meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, return_value_seek$5, (unsigned int)-1);
-                    pthread_mutex_unlock(&keyboard_thread$$1$$meterec->event_mutex);
+                    pthread_mutex_lock(&keyboard_thread__1__meterec->event_mutex);
+                    unsigned int return_value_seek_5;
+                    return_value_seek_5=seek(keyboard_thread__1__meterec, 5);
+                    add_event(keyboard_thread__1__meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, return_value_seek_5, (unsigned int)-1);
+                    pthread_mutex_unlock(&keyboard_thread__1__meterec->event_mutex);
                   }
 
                 }
@@ -3543,304 +3543,304 @@ void * keyboard_thread(void *arg)
           {
             case 0404:
             {
-              keyboard_thread$$1$$meterec->pos.inout = keyboard_thread$$1$$meterec->pos.inout - 1;
-              if(!(keyboard_thread$$1$$meterec->pos.inout >= -1))
-                keyboard_thread$$1$$meterec->pos.inout = 1;
+              keyboard_thread__1__meterec->pos.inout = keyboard_thread__1__meterec->pos.inout - 1;
+              if(!(keyboard_thread__1__meterec->pos.inout >= -1))
+                keyboard_thread__1__meterec->pos.inout = 1;
 
-              if(keyboard_thread$$1$$meterec->pos.inout == -1)
-                keyboard_thread$$1$$meterec->pos.con_in = (signed int)keyboard_thread$$1$$meterec->pos.port;
+              if(keyboard_thread__1__meterec->pos.inout == -1)
+                keyboard_thread__1__meterec->pos.con_in = (signed int)keyboard_thread__1__meterec->pos.port;
 
-              if(!(keyboard_thread$$1$$meterec->pos.n_con_in >= keyboard_thread$$1$$meterec->pos.con_in))
-                keyboard_thread$$1$$meterec->pos.con_in = keyboard_thread$$1$$meterec->pos.n_con_in;
+              if(!(keyboard_thread__1__meterec->pos.n_con_in >= keyboard_thread__1__meterec->pos.con_in))
+                keyboard_thread__1__meterec->pos.con_in = keyboard_thread__1__meterec->pos.n_con_in;
 
               break;
             }
             case 0405:
             {
-              keyboard_thread$$1$$meterec->pos.inout = keyboard_thread$$1$$meterec->pos.inout + 1;
-              if(keyboard_thread$$1$$meterec->pos.inout >= 2)
-                keyboard_thread$$1$$meterec->pos.inout = -1;
+              keyboard_thread__1__meterec->pos.inout = keyboard_thread__1__meterec->pos.inout + 1;
+              if(keyboard_thread__1__meterec->pos.inout >= 2)
+                keyboard_thread__1__meterec->pos.inout = -1;
 
-              if(keyboard_thread$$1$$meterec->pos.inout == 1)
-                keyboard_thread$$1$$meterec->pos.con_out = (signed int)keyboard_thread$$1$$meterec->pos.port;
+              if(keyboard_thread__1__meterec->pos.inout == 1)
+                keyboard_thread__1__meterec->pos.con_out = (signed int)keyboard_thread__1__meterec->pos.port;
 
-              if(!(keyboard_thread$$1$$meterec->pos.n_con_out >= keyboard_thread$$1$$meterec->pos.con_out))
-                keyboard_thread$$1$$meterec->pos.con_out = keyboard_thread$$1$$meterec->pos.n_con_out;
+              if(!(keyboard_thread__1__meterec->pos.n_con_out >= keyboard_thread__1__meterec->pos.con_out))
+                keyboard_thread__1__meterec->pos.con_out = keyboard_thread__1__meterec->pos.n_con_out;
 
               break;
             }
             case 99:
             {
-              if(keyboard_thread$$1$$meterec->pos.inout == -1)
-                register_connect_port(keyboard_thread$$1$$meterec, (char *)keyboard_thread$$1$$meterec->all_output_ports[(signed long int)keyboard_thread$$1$$meterec->pos.con_in], keyboard_thread$$1$$meterec->pos.port);
+              if(keyboard_thread__1__meterec->pos.inout == -1)
+                register_connect_port(keyboard_thread__1__meterec, (char *)keyboard_thread__1__meterec->all_output_ports[(signed long int)keyboard_thread__1__meterec->pos.con_in], keyboard_thread__1__meterec->pos.port);
 
               else
-                if(keyboard_thread$$1$$meterec->pos.inout == 1)
-                  register_connect_port(keyboard_thread$$1$$meterec, (char *)keyboard_thread$$1$$meterec->all_input_ports[(signed long int)keyboard_thread$$1$$meterec->pos.con_out], keyboard_thread$$1$$meterec->pos.port);
+                if(keyboard_thread__1__meterec->pos.inout == 1)
+                  register_connect_port(keyboard_thread__1__meterec, (char *)keyboard_thread__1__meterec->all_input_ports[(signed long int)keyboard_thread__1__meterec->pos.con_out], keyboard_thread__1__meterec->pos.port);
 
               break;
             }
             case 120:
-              if(keyboard_thread$$1$$meterec->pos.inout == -1)
-                deregister_disconnect_port(keyboard_thread$$1$$meterec, (char *)keyboard_thread$$1$$meterec->all_output_ports[(signed long int)keyboard_thread$$1$$meterec->pos.con_in], keyboard_thread$$1$$meterec->pos.port);
+              if(keyboard_thread__1__meterec->pos.inout == -1)
+                deregister_disconnect_port(keyboard_thread__1__meterec, (char *)keyboard_thread__1__meterec->all_output_ports[(signed long int)keyboard_thread__1__meterec->pos.con_in], keyboard_thread__1__meterec->pos.port);
 
               else
-                if(keyboard_thread$$1$$meterec->pos.inout == 1)
-                  deregister_disconnect_port(keyboard_thread$$1$$meterec, (char *)keyboard_thread$$1$$meterec->all_input_ports[(signed long int)keyboard_thread$$1$$meterec->pos.con_out], keyboard_thread$$1$$meterec->pos.port);
+                if(keyboard_thread__1__meterec->pos.inout == 1)
+                  deregister_disconnect_port(keyboard_thread__1__meterec, (char *)keyboard_thread__1__meterec->all_input_ports[(signed long int)keyboard_thread__1__meterec->pos.con_out], keyboard_thread__1__meterec->pos.port);
 
           }
       }
-      if(keyboard_thread$$1$$meterec->record_sts == 0u)
+      if(keyboard_thread__1__meterec->record_sts == 0u)
         switch(key)
         {
           case 82:
           {
-            if(keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record == 1)
+            if(keyboard_thread__1__meterec->ports[(signed long int)y_pos].record == 1)
             {
               port = (unsigned int)0;
-              for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-                keyboard_thread$$1$$meterec->ports[(signed long int)port].record = 0;
+              for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+                keyboard_thread__1__meterec->ports[(signed long int)port].record = 0;
             }
 
             else
             {
               port = (unsigned int)0;
-              for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-                keyboard_thread$$1$$meterec->ports[(signed long int)port].record = 1;
+              for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+                keyboard_thread__1__meterec->ports[(signed long int)port].record = 1;
             }
             break;
           }
           case 114:
           {
-            if(keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record == 1)
-              keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record = 0;
+            if(keyboard_thread__1__meterec->ports[(signed long int)y_pos].record == 1)
+              keyboard_thread__1__meterec->ports[(signed long int)y_pos].record = 0;
 
             else
-              keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record = 1;
+              keyboard_thread__1__meterec->ports[(signed long int)y_pos].record = 1;
             break;
           }
           case 68:
           {
-            if(keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record == 2)
+            if(keyboard_thread__1__meterec->ports[(signed long int)y_pos].record == 2)
             {
               port = (unsigned int)0;
-              for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-                keyboard_thread$$1$$meterec->ports[(signed long int)port].record = 0;
+              for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+                keyboard_thread__1__meterec->ports[(signed long int)port].record = 0;
             }
 
             else
             {
               port = (unsigned int)0;
-              for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-                keyboard_thread$$1$$meterec->ports[(signed long int)port].record = 2;
+              for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+                keyboard_thread__1__meterec->ports[(signed long int)port].record = 2;
             }
             break;
           }
           case 100:
           {
-            if(keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record == 2)
-              keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record = 0;
+            if(keyboard_thread__1__meterec->ports[(signed long int)y_pos].record == 2)
+              keyboard_thread__1__meterec->ports[(signed long int)y_pos].record = 0;
 
             else
-              keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record = 2;
+              keyboard_thread__1__meterec->ports[(signed long int)y_pos].record = 2;
             break;
           }
           case 79:
           {
-            if(keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record == 4)
+            if(keyboard_thread__1__meterec->ports[(signed long int)y_pos].record == 4)
             {
               port = (unsigned int)0;
-              for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-                keyboard_thread$$1$$meterec->ports[(signed long int)port].record = 0;
+              for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+                keyboard_thread__1__meterec->ports[(signed long int)port].record = 0;
             }
 
             else
             {
               port = (unsigned int)0;
-              for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-                keyboard_thread$$1$$meterec->ports[(signed long int)port].record = 4;
+              for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+                keyboard_thread__1__meterec->ports[(signed long int)port].record = 4;
             }
             break;
           }
           case 111:
-            if(keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record == 4)
-              keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record = 0;
+            if(keyboard_thread__1__meterec->ports[(signed long int)y_pos].record == 4)
+              keyboard_thread__1__meterec->ports[(signed long int)y_pos].record = 0;
 
             else
-              keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].record = 4;
+              keyboard_thread__1__meterec->ports[(signed long int)y_pos].record = 4;
         }
 
       switch(key)
       {
         case 105:
         {
-          text=port_rename(keyboard_thread$$1$$meterec, y_pos);
+          text=port_rename(keyboard_thread__1__meterec, y_pos);
           freetext = 80;
           goto __CPROVER_DUMP_L149;
         }
         case 84:
         {
-          if(!(keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].thru == 0))
+          if(!(keyboard_thread__1__meterec->ports[(signed long int)y_pos].thru == 0))
           {
             port = (unsigned int)0;
-            for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-              keyboard_thread$$1$$meterec->ports[(signed long int)port].thru = 0;
+            for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+              keyboard_thread__1__meterec->ports[(signed long int)port].thru = 0;
           }
 
           else
           {
             port = (unsigned int)0;
-            for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-              keyboard_thread$$1$$meterec->ports[(signed long int)port].thru = 1;
+            for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+              keyboard_thread__1__meterec->ports[(signed long int)port].thru = 1;
           }
           goto __CPROVER_DUMP_L149;
         }
         case 116:
         {
-          keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].thru = (signed int)!(keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].thru != 0);
+          keyboard_thread__1__meterec->ports[(signed long int)y_pos].thru = (signed int)!(keyboard_thread__1__meterec->ports[(signed long int)y_pos].thru != 0);
           goto __CPROVER_DUMP_L149;
         }
         case 77:
         {
-          if(!(keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].mute == 0))
+          if(!(keyboard_thread__1__meterec->ports[(signed long int)y_pos].mute == 0))
           {
             port = (unsigned int)0;
-            for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-              keyboard_thread$$1$$meterec->ports[(signed long int)port].mute = 0;
+            for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+              keyboard_thread__1__meterec->ports[(signed long int)port].mute = 0;
           }
 
           else
           {
             port = (unsigned int)0;
-            for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-              keyboard_thread$$1$$meterec->ports[(signed long int)port].mute = 1;
+            for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+              keyboard_thread__1__meterec->ports[(signed long int)port].mute = 1;
           }
           goto __CPROVER_DUMP_L149;
         }
         case 109:
         {
-          keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].mute = (signed int)!(keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].mute != 0);
+          keyboard_thread__1__meterec->ports[(signed long int)y_pos].mute = (signed int)!(keyboard_thread__1__meterec->ports[(signed long int)y_pos].mute != 0);
           goto __CPROVER_DUMP_L149;
         }
         case 83:
         {
           port = (unsigned int)0;
-          for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-            keyboard_thread$$1$$meterec->ports[(signed long int)port].mute = 0;
+          for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+            keyboard_thread__1__meterec->ports[(signed long int)port].mute = 0;
           goto __CPROVER_DUMP_L149;
         }
         case 115:
         {
           port = (unsigned int)0;
-          for( ; !(port >= keyboard_thread$$1$$meterec->n_ports); port = port + 1u)
-            keyboard_thread$$1$$meterec->ports[(signed long int)port].mute = 1;
-          keyboard_thread$$1$$meterec->ports[(signed long int)y_pos].mute = 0;
+          for( ; !(port >= keyboard_thread__1__meterec->n_ports); port = port + 1u)
+            keyboard_thread__1__meterec->ports[(signed long int)port].mute = 1;
+          keyboard_thread__1__meterec->ports[(signed long int)y_pos].mute = 0;
           goto __CPROVER_DUMP_L149;
         }
         case 0403:
         {
-          if(keyboard_thread$$1$$meterec->display.view == 2ul)
-            tmp_if_expr$6 = keyboard_thread$$1$$meterec->pos.inout != 0 ? (_Bool)1 : (_Bool)0;
+          if(keyboard_thread__1__meterec->display.view == 2ul)
+            tmp_if_expr_6 = keyboard_thread__1__meterec->pos.inout != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(tmp_if_expr_6)
           {
-            if(keyboard_thread$$1$$meterec->pos.inout == -1)
-              keyboard_thread$$1$$meterec->pos.con_in = keyboard_thread$$1$$meterec->pos.con_in - 1;
+            if(keyboard_thread__1__meterec->pos.inout == -1)
+              keyboard_thread__1__meterec->pos.con_in = keyboard_thread__1__meterec->pos.con_in - 1;
 
-            if(!(keyboard_thread$$1$$meterec->pos.con_in >= 0))
-              keyboard_thread$$1$$meterec->pos.con_in = keyboard_thread$$1$$meterec->pos.n_con_in;
+            if(!(keyboard_thread__1__meterec->pos.con_in >= 0))
+              keyboard_thread__1__meterec->pos.con_in = keyboard_thread__1__meterec->pos.n_con_in;
 
-            if(keyboard_thread$$1$$meterec->pos.inout == 1)
-              keyboard_thread$$1$$meterec->pos.con_out = keyboard_thread$$1$$meterec->pos.con_out - 1;
+            if(keyboard_thread__1__meterec->pos.inout == 1)
+              keyboard_thread__1__meterec->pos.con_out = keyboard_thread__1__meterec->pos.con_out - 1;
 
-            if(!(keyboard_thread$$1$$meterec->pos.con_out >= 0))
-              keyboard_thread$$1$$meterec->pos.con_out = keyboard_thread$$1$$meterec->pos.n_con_out;
+            if(!(keyboard_thread__1__meterec->pos.con_out >= 0))
+              keyboard_thread__1__meterec->pos.con_out = keyboard_thread__1__meterec->pos.n_con_out;
 
           }
 
           else
           {
-            keyboard_thread$$1$$meterec->ports[(signed long int)keyboard_thread$$1$$meterec->pos.port].monitor = 0;
-            if(keyboard_thread$$1$$meterec->pos.port == 0u)
-              keyboard_thread$$1$$meterec->pos.port = keyboard_thread$$1$$meterec->n_ports - (unsigned int)1;
+            keyboard_thread__1__meterec->ports[(signed long int)keyboard_thread__1__meterec->pos.port].monitor = 0;
+            if(keyboard_thread__1__meterec->pos.port == 0u)
+              keyboard_thread__1__meterec->pos.port = keyboard_thread__1__meterec->n_ports - (unsigned int)1;
 
             else
-              keyboard_thread$$1$$meterec->pos.port = keyboard_thread$$1$$meterec->pos.port - 1u;
-            keyboard_thread$$1$$meterec->ports[(signed long int)keyboard_thread$$1$$meterec->pos.port].monitor = 1;
+              keyboard_thread__1__meterec->pos.port = keyboard_thread__1__meterec->pos.port - 1u;
+            keyboard_thread__1__meterec->ports[(signed long int)keyboard_thread__1__meterec->pos.port].monitor = 1;
           }
           goto __CPROVER_DUMP_L149;
         }
         case 0402:
         {
-          if(keyboard_thread$$1$$meterec->display.view == 2ul)
-            tmp_if_expr$7 = keyboard_thread$$1$$meterec->pos.inout != 0 ? (_Bool)1 : (_Bool)0;
+          if(keyboard_thread__1__meterec->display.view == 2ul)
+            tmp_if_expr_7 = keyboard_thread__1__meterec->pos.inout != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
           {
-            if(keyboard_thread$$1$$meterec->pos.inout == -1)
-              keyboard_thread$$1$$meterec->pos.con_in = keyboard_thread$$1$$meterec->pos.con_in + 1;
+            if(keyboard_thread__1__meterec->pos.inout == -1)
+              keyboard_thread__1__meterec->pos.con_in = keyboard_thread__1__meterec->pos.con_in + 1;
 
-            if(!(keyboard_thread$$1$$meterec->pos.n_con_in >= keyboard_thread$$1$$meterec->pos.con_in))
-              keyboard_thread$$1$$meterec->pos.con_in = 0;
+            if(!(keyboard_thread__1__meterec->pos.n_con_in >= keyboard_thread__1__meterec->pos.con_in))
+              keyboard_thread__1__meterec->pos.con_in = 0;
 
-            if(keyboard_thread$$1$$meterec->pos.inout == 1)
-              keyboard_thread$$1$$meterec->pos.con_out = keyboard_thread$$1$$meterec->pos.con_out + 1;
+            if(keyboard_thread__1__meterec->pos.inout == 1)
+              keyboard_thread__1__meterec->pos.con_out = keyboard_thread__1__meterec->pos.con_out + 1;
 
-            if(!(keyboard_thread$$1$$meterec->pos.n_con_out >= keyboard_thread$$1$$meterec->pos.con_out))
-              keyboard_thread$$1$$meterec->pos.con_out = 0;
+            if(!(keyboard_thread__1__meterec->pos.n_con_out >= keyboard_thread__1__meterec->pos.con_out))
+              keyboard_thread__1__meterec->pos.con_out = 0;
 
           }
 
           else
           {
-            keyboard_thread$$1$$meterec->ports[(signed long int)keyboard_thread$$1$$meterec->pos.port].monitor = 0;
-            if(keyboard_thread$$1$$meterec->pos.port == keyboard_thread$$1$$meterec->n_ports + 4294967295u)
-              keyboard_thread$$1$$meterec->pos.port = (unsigned int)0;
+            keyboard_thread__1__meterec->ports[(signed long int)keyboard_thread__1__meterec->pos.port].monitor = 0;
+            if(keyboard_thread__1__meterec->pos.port == keyboard_thread__1__meterec->n_ports + 4294967295u)
+              keyboard_thread__1__meterec->pos.port = (unsigned int)0;
 
             else
-              keyboard_thread$$1$$meterec->pos.port = keyboard_thread$$1$$meterec->pos.port + 1u;
-            keyboard_thread$$1$$meterec->ports[(signed long int)keyboard_thread$$1$$meterec->pos.port].monitor = 1;
+              keyboard_thread__1__meterec->pos.port = keyboard_thread__1__meterec->pos.port + 1u;
+            keyboard_thread__1__meterec->ports[(signed long int)keyboard_thread__1__meterec->pos.port].monitor = 1;
           }
           goto __CPROVER_DUMP_L149;
         }
         case 9:
         {
-          if(keyboard_thread$$1$$meterec->display.view == 0ul)
-            keyboard_thread$$1$$meterec->display.view = (unsigned long int)1;
+          if(keyboard_thread__1__meterec->display.view == 0ul)
+            keyboard_thread__1__meterec->display.view = (unsigned long int)1;
 
           else
-            if(keyboard_thread$$1$$meterec->display.view == 1ul)
+            if(keyboard_thread__1__meterec->display.view == 1ul)
             {
-              keyboard_thread$$1$$meterec->display.view = (unsigned long int)2;
-              retreive_connected_ports(keyboard_thread$$1$$meterec);
-              retreive_existing_ports(keyboard_thread$$1$$meterec);
-              filter_existing_ports(keyboard_thread$$1$$meterec->all_input_ports, keyboard_thread$$1$$meterec->jack_name);
-              filter_existing_ports(keyboard_thread$$1$$meterec->all_output_ports, keyboard_thread$$1$$meterec->jack_name);
-              count_all_io_ports(keyboard_thread$$1$$meterec);
+              keyboard_thread__1__meterec->display.view = (unsigned long int)2;
+              retreive_connected_ports(keyboard_thread__1__meterec);
+              retreive_existing_ports(keyboard_thread__1__meterec);
+              filter_existing_ports(keyboard_thread__1__meterec->all_input_ports, keyboard_thread__1__meterec->jack_name);
+              filter_existing_ports(keyboard_thread__1__meterec->all_output_ports, keyboard_thread__1__meterec->jack_name);
+              count_all_io_ports(keyboard_thread__1__meterec);
             }
 
             else
-              if(keyboard_thread$$1$$meterec->display.view == 2ul)
-                keyboard_thread$$1$$meterec->display.view = (unsigned long int)0;
+              if(keyboard_thread__1__meterec->display.view == 2ul)
+                keyboard_thread__1__meterec->display.view = (unsigned long int)0;
 
           goto __CPROVER_DUMP_L149;
         }
         case 10:
         {
-          if(keyboard_thread$$1$$meterec->playback_sts == 3u)
-            stop(keyboard_thread$$1$$meterec);
+          if(keyboard_thread__1__meterec->playback_sts == 3u)
+            stop(keyboard_thread__1__meterec);
 
           else
           {
-            if(keyboard_thread$$1$$meterec->record_sts == 0u)
-              start_record(keyboard_thread$$1$$meterec);
+            if(keyboard_thread__1__meterec->record_sts == 0u)
+              start_record(keyboard_thread__1__meterec);
 
-            if(keyboard_thread$$1$$meterec->playback_sts == 0u)
-              roll(keyboard_thread$$1$$meterec);
+            if(keyboard_thread__1__meterec->playback_sts == 0u)
+              roll(keyboard_thread__1__meterec);
 
           }
           goto __CPROVER_DUMP_L149;
@@ -3849,29 +3849,29 @@ void * keyboard_thread(void *arg)
 
         case 263:
         {
-          if(keyboard_thread$$1$$meterec->record_sts == 3u)
-            tmp_if_expr$9 = keyboard_thread$$1$$meterec->playback_sts == (unsigned int)3 ? (_Bool)1 : (_Bool)0;
+          if(keyboard_thread__1__meterec->record_sts == 3u)
+            tmp_if_expr_9 = keyboard_thread__1__meterec->playback_sts == (unsigned int)3 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(tmp_if_expr$9)
-            keyboard_thread$$1$$meterec->record_cmd = (unsigned int)2;
+            tmp_if_expr_9 = (_Bool)0;
+          if(tmp_if_expr_9)
+            keyboard_thread__1__meterec->record_cmd = (unsigned int)2;
 
           else
           {
-            if(keyboard_thread$$1$$meterec->record_sts == 0u)
-              tmp_if_expr$8 = keyboard_thread$$1$$meterec->playback_sts == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            if(keyboard_thread__1__meterec->record_sts == 0u)
+              tmp_if_expr_8 = keyboard_thread__1__meterec->playback_sts == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$8 = (_Bool)0;
-            if(tmp_if_expr$8)
-              start_record(keyboard_thread$$1$$meterec);
+              tmp_if_expr_8 = (_Bool)0;
+            if(tmp_if_expr_8)
+              start_record(keyboard_thread__1__meterec);
 
             else
-              if(keyboard_thread$$1$$meterec->record_sts == 3u)
+              if(keyboard_thread__1__meterec->record_sts == 3u)
               {
-                if(keyboard_thread$$1$$meterec->playback_sts == 0u)
-                  cancel_record(keyboard_thread$$1$$meterec);
+                if(keyboard_thread__1__meterec->playback_sts == 0u)
+                  cancel_record(keyboard_thread__1__meterec);
 
               }
 
@@ -3880,43 +3880,43 @@ void * keyboard_thread(void *arg)
         }
         case 32:
         {
-          if(keyboard_thread$$1$$meterec->playback_sts == 3u)
-            tmp_if_expr$10 = keyboard_thread$$1$$meterec->record_sts == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+          if(keyboard_thread__1__meterec->playback_sts == 3u)
+            tmp_if_expr_10 = keyboard_thread__1__meterec->record_sts == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
-            stop(keyboard_thread$$1$$meterec);
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
+            stop(keyboard_thread__1__meterec);
 
           else
-            if(keyboard_thread$$1$$meterec->playback_sts == 0u)
-              roll(keyboard_thread$$1$$meterec);
+            if(keyboard_thread__1__meterec->playback_sts == 0u)
+              roll(keyboard_thread__1__meterec);
 
           goto __CPROVER_DUMP_L149;
         }
         case 45:
         {
-          clr_loop(keyboard_thread$$1$$meterec, (unsigned int)3);
+          clr_loop(keyboard_thread__1__meterec, (unsigned int)3);
           goto __CPROVER_DUMP_L149;
         }
         case 47:
         {
-          clr_loop(keyboard_thread$$1$$meterec, (unsigned int)1);
+          clr_loop(keyboard_thread__1__meterec, (unsigned int)1);
           goto __CPROVER_DUMP_L149;
         }
         case 42:
         {
-          clr_loop(keyboard_thread$$1$$meterec, (unsigned int)2);
+          clr_loop(keyboard_thread__1__meterec, (unsigned int)2);
           goto __CPROVER_DUMP_L149;
         }
         case 43:
         {
-          return_value_set_loop$11=set_loop(keyboard_thread$$1$$meterec, (unsigned int)keyboard_thread$$1$$meterec->jack.playhead);
-          if(!(return_value_set_loop$11 == 0))
+          return_value_set_loop_11=set_loop(keyboard_thread__1__meterec, (unsigned int)keyboard_thread__1__meterec->jack.playhead);
+          if(!(return_value_set_loop_11 == 0))
           {
-            pthread_mutex_lock(&keyboard_thread$$1$$meterec->event_mutex);
-            add_event(keyboard_thread$$1$$meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, keyboard_thread$$1$$meterec->loop.low, (unsigned int)-1);
-            pthread_mutex_unlock(&keyboard_thread$$1$$meterec->event_mutex);
+            pthread_mutex_lock(&keyboard_thread__1__meterec->event_mutex);
+            add_event(keyboard_thread__1__meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, keyboard_thread__1__meterec->loop.low, (unsigned int)-1);
+            pthread_mutex_unlock(&keyboard_thread__1__meterec->event_mutex);
           }
 
           goto __CPROVER_DUMP_L149;
@@ -3925,7 +3925,7 @@ void * keyboard_thread(void *arg)
 
         case 113:
         {
-          keyboard_thread$$1$$meterec->keyboard_cmd = (unsigned int)0;
+          keyboard_thread__1__meterec->keyboard_cmd = (unsigned int)0;
           halt(0);
         }
         default:
@@ -3934,48 +3934,48 @@ void * keyboard_thread(void *arg)
         __CPROVER_DUMP_L149:
           ;
           if(key >= 13 && !(key >= 289))
-            keyboard_thread$$1$$meterec->seek_index[(signed long int)(key - (0410 + 13))] = (unsigned int)keyboard_thread$$1$$meterec->jack.playhead;
+            keyboard_thread__1__meterec->seek_index[(signed long int)(key - (0410 + 13))] = (unsigned int)keyboard_thread__1__meterec->jack.playhead;
 
           if(key >= 25 && !(key >= 301))
           {
-            if(keyboard_thread$$1$$meterec->seek_index[(signed long int)(key + -289)] == 4294967295u)
+            if(keyboard_thread__1__meterec->seek_index[(signed long int)(key + -289)] == 4294967295u)
             {
-              keyboard_thread$$1$$meterec->seek_index[(signed long int)(key - (0410 + 25))] = (unsigned int)keyboard_thread$$1$$meterec->jack.playhead;
-              signed int return_value_set_loop$12;
-              return_value_set_loop$12=set_loop(keyboard_thread$$1$$meterec, (unsigned int)keyboard_thread$$1$$meterec->jack.playhead);
-              if(!(return_value_set_loop$12 == 0))
+              keyboard_thread__1__meterec->seek_index[(signed long int)(key - (0410 + 25))] = (unsigned int)keyboard_thread__1__meterec->jack.playhead;
+              signed int return_value_set_loop_12;
+              return_value_set_loop_12=set_loop(keyboard_thread__1__meterec, (unsigned int)keyboard_thread__1__meterec->jack.playhead);
+              if(!(return_value_set_loop_12 == 0))
               {
-                pthread_mutex_lock(&keyboard_thread$$1$$meterec->event_mutex);
-                add_event(keyboard_thread$$1$$meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, keyboard_thread$$1$$meterec->loop.low, (unsigned int)-1);
-                pthread_mutex_unlock(&keyboard_thread$$1$$meterec->event_mutex);
+                pthread_mutex_lock(&keyboard_thread__1__meterec->event_mutex);
+                add_event(keyboard_thread__1__meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, keyboard_thread__1__meterec->loop.low, (unsigned int)-1);
+                pthread_mutex_unlock(&keyboard_thread__1__meterec->event_mutex);
               }
 
             }
 
             else
-              set_loop(keyboard_thread$$1$$meterec, keyboard_thread$$1$$meterec->seek_index[(signed long int)(key - (0410 + 25))]);
+              set_loop(keyboard_thread__1__meterec, keyboard_thread__1__meterec->seek_index[(signed long int)(key - (0410 + 25))]);
           }
 
-          if(keyboard_thread$$1$$meterec->record_sts == 0u)
+          if(keyboard_thread__1__meterec->record_sts == 0u)
           {
-            if(!(keyboard_thread$$1$$meterec->playback_sts == 0u))
+            if(!(keyboard_thread__1__meterec->playback_sts == 0u))
             {
               if(key >= 1 && !(key >= 277))
               {
-                if(!(keyboard_thread$$1$$meterec->seek_index[(signed long int)(key + -265)] == 4294967295u))
+                if(!(keyboard_thread__1__meterec->seek_index[(signed long int)(key + -265)] == 4294967295u))
                 {
-                  pthread_mutex_lock(&keyboard_thread$$1$$meterec->event_mutex);
-                  add_event(keyboard_thread$$1$$meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, keyboard_thread$$1$$meterec->seek_index[(signed long int)(key - (0410 + 1))], (unsigned int)-1);
-                  pthread_mutex_unlock(&keyboard_thread$$1$$meterec->event_mutex);
+                  pthread_mutex_lock(&keyboard_thread__1__meterec->event_mutex);
+                  add_event(keyboard_thread__1__meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, keyboard_thread__1__meterec->seek_index[(signed long int)(key - (0410 + 1))], (unsigned int)-1);
+                  pthread_mutex_unlock(&keyboard_thread__1__meterec->event_mutex);
                 }
 
               }
 
               if(key == 0406)
               {
-                pthread_mutex_lock(&keyboard_thread$$1$$meterec->event_mutex);
-                add_event(keyboard_thread$$1$$meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, (unsigned int)0, (unsigned int)-1);
-                pthread_mutex_unlock(&keyboard_thread$$1$$meterec->event_mutex);
+                pthread_mutex_lock(&keyboard_thread__1__meterec->event_mutex);
+                add_event(keyboard_thread__1__meterec, (unsigned int)1, (unsigned int)1, (unsigned int)-1, (unsigned int)0, (unsigned int)-1);
+                pthread_mutex_unlock(&keyboard_thread__1__meterec->event_mutex);
               }
 
             }
@@ -4017,9 +4017,9 @@ void load_conf(struct meterec_s *meterec)
   fprintf(meterec->fd_log, "Loading '%s'\n", meterec->conf_file);
   cf = &cfg;
   config_init(cf);
-  signed int return_value_config_read_file$1;
-  return_value_config_read_file$1=config_read_file(cf, meterec->conf_file);
-  if(return_value_config_read_file$1 == 0)
+  signed int return_value_config_read_file_1;
+  return_value_config_read_file_1=config_read_file(cf, meterec->conf_file);
+  if(return_value_config_read_file_1 == 0)
   {
     fprintf(meterec->fd_log, "Error in '%s' %d - %s\n", meterec->conf_file, cf->error_line, cf->error_text);
     config_destroy(cf);
@@ -4033,20 +4033,20 @@ void load_conf(struct meterec_s *meterec)
     for( ; !(index >= 12u); index = index + 1u)
     {
       sprintf(fn, "f%d", index + (unsigned int)1);
-      signed int return_value_config_setting_lookup_string$2;
-      return_value_config_setting_lookup_string$2=config_setting_lookup_string(index_group, fn, &time);
-      if(!(return_value_config_setting_lookup_string$2 == 0))
+      signed int return_value_config_setting_lookup_string_2;
+      return_value_config_setting_lookup_string_2=config_setting_lookup_string(index_group, fn, &time);
+      if(!(return_value_config_setting_lookup_string_2 == 0))
         parse_time(meterec, index, time);
 
     }
   }
 
   jack_group=config_lookup(cf, "jack");
-  signed int return_value_config_setting_lookup_int$3;
+  signed int return_value_config_setting_lookup_int_3;
   if(!(jack_group == ((const struct config_setting_t *)NULL)))
   {
-    return_value_config_setting_lookup_int$3=config_setting_lookup_int(jack_group, "sample_rate", (signed int *)&sample_rate);
-    if(!(return_value_config_setting_lookup_int$3 == 0))
+    return_value_config_setting_lookup_int_3=config_setting_lookup_int(jack_group, "sample_rate", (signed int *)&sample_rate);
+    if(!(return_value_config_setting_lookup_int_3 == 0))
       meterec->jack.sample_rate = (unsigned int)(signed int)sample_rate;
 
   }
@@ -4054,72 +4054,72 @@ void load_conf(struct meterec_s *meterec)
   port_list=config_lookup(cf, "ports");
   if(!(port_list == ((const struct config_setting_t *)NULL)))
   {
-    signed int return_value_config_setting_length$4;
-    return_value_config_setting_length$4=config_setting_length(port_list);
-    port_list_len = (unsigned int)return_value_config_setting_length$4;
+    signed int return_value_config_setting_length_4;
+    return_value_config_setting_length_4=config_setting_length(port_list);
+    port_list_len = (unsigned int)return_value_config_setting_length_4;
     port = (unsigned int)0;
     for( ; !(port >= port_list_len); port = port + 1u)
     {
       port_group=config_setting_get_elem(port_list, port);
       if(!(port_group == ((const struct config_setting_t *)NULL)))
       {
-        void *return_value_calloc$5;
-        return_value_calloc$5=calloc((unsigned long int)0x20000, sizeof(float) /*4ul*/ );
-        meterec->ports[(signed long int)port].read_disk_buffer = (float *)return_value_calloc$5;
-        void *return_value_calloc$6;
-        return_value_calloc$6=calloc((unsigned long int)0x20000, sizeof(float) /*4ul*/ );
-        meterec->ports[(signed long int)port].write_disk_buffer = (float *)return_value_calloc$6;
+        void *return_value_calloc_5;
+        return_value_calloc_5=calloc((unsigned long int)0x20000, sizeof(float) /*4ul*/ );
+        meterec->ports[(signed long int)port].read_disk_buffer = (float *)return_value_calloc_5;
+        void *return_value_calloc_6;
+        return_value_calloc_6=calloc((unsigned long int)0x20000, sizeof(float) /*4ul*/ );
+        meterec->ports[(signed long int)port].write_disk_buffer = (float *)return_value_calloc_6;
         create_input_port(meterec, port);
         create_output_port(meterec, port);
-        signed int return_value_config_setting_lookup_string$7;
-        return_value_config_setting_lookup_string$7=config_setting_lookup_string(port_group, "takes", &takes);
-        if(!(return_value_config_setting_lookup_string$7 == 0))
+        signed int return_value_config_setting_lookup_string_7;
+        return_value_config_setting_lookup_string_7=config_setting_lookup_string(port_group, "takes", &takes);
+        if(!(return_value_config_setting_lookup_string_7 == 0))
           meterec->n_takes=parse_takes(meterec, port, takes);
 
-        signed int return_value_config_setting_lookup_bool$8;
-        return_value_config_setting_lookup_bool$8=config_setting_lookup_bool(port_group, "mute", &mute);
-        if(!(return_value_config_setting_lookup_bool$8 == 0))
+        signed int return_value_config_setting_lookup_bool_8;
+        return_value_config_setting_lookup_bool_8=config_setting_lookup_bool(port_group, "mute", &mute);
+        if(!(return_value_config_setting_lookup_bool_8 == 0))
           meterec->ports[(signed long int)port].mute = mute;
 
-        signed int return_value_config_setting_lookup_bool$9;
-        return_value_config_setting_lookup_bool$9=config_setting_lookup_bool(port_group, "thru", &thru);
-        if(!(return_value_config_setting_lookup_bool$9 == 0))
+        signed int return_value_config_setting_lookup_bool_9;
+        return_value_config_setting_lookup_bool_9=config_setting_lookup_bool(port_group, "thru", &thru);
+        if(!(return_value_config_setting_lookup_bool_9 == 0))
           meterec->ports[(signed long int)port].thru = thru;
 
-        signed int return_value_config_setting_lookup_string$10;
-        return_value_config_setting_lookup_string$10=config_setting_lookup_string(port_group, "record", &record);
-        if(!(return_value_config_setting_lookup_string$10 == 0))
+        signed int return_value_config_setting_lookup_string_10;
+        return_value_config_setting_lookup_string_10=config_setting_lookup_string(port_group, "record", &record);
+        if(!(return_value_config_setting_lookup_string_10 == 0))
           meterec->ports[(signed long int)port].record=parse_record(record);
 
-        signed int return_value_config_setting_lookup_string$13;
-        return_value_config_setting_lookup_string$13=config_setting_lookup_string(port_group, "name", &name);
-        if(!(return_value_config_setting_lookup_string$13 == 0))
+        signed int return_value_config_setting_lookup_string_13;
+        return_value_config_setting_lookup_string_13=config_setting_lookup_string(port_group, "name", &name);
+        if(!(return_value_config_setting_lookup_string_13 == 0))
         {
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(name);
-          void *return_value_malloc$12;
-          return_value_malloc$12=malloc(return_value_strlen$11 + (unsigned long int)1);
-          meterec->ports[(signed long int)port].name = (char *)return_value_malloc$12;
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(name);
+          void *return_value_malloc_12;
+          return_value_malloc_12=malloc(return_value_strlen_11 + (unsigned long int)1);
+          meterec->ports[(signed long int)port].name = (char *)return_value_malloc_12;
           strcpy(meterec->ports[(signed long int)port].name, name);
         }
 
         connection_list=config_setting_get_member(port_group, "connections");
         if(!(connection_list == ((const struct config_setting_t *)NULL)))
         {
-          signed int return_value_config_setting_length$14;
-          return_value_config_setting_length$14=config_setting_length(connection_list);
-          connection_list_len = (unsigned int)return_value_config_setting_length$14;
+          signed int return_value_config_setting_length_14;
+          return_value_config_setting_length_14=config_setting_length(connection_list);
+          connection_list_len = (unsigned int)return_value_config_setting_length_14;
           con = (unsigned int)0;
           for( ; !(con >= connection_list_len); con = con + 1u)
           {
             port_name=config_setting_get_string_elem(connection_list, (signed int)con);
             if(!(port_name == ((const char *)NULL)))
             {
-              unsigned long int return_value_strlen$15;
-              return_value_strlen$15=strlen(port_name);
-              void *return_value_malloc$16;
-              return_value_malloc$16=malloc(return_value_strlen$15 + (unsigned long int)1);
-              meterec->ports[(signed long int)port].connections[(signed long int)con] = (char *)return_value_malloc$16;
+              unsigned long int return_value_strlen_15;
+              return_value_strlen_15=strlen(port_name);
+              void *return_value_malloc_16;
+              return_value_malloc_16=malloc(return_value_strlen_15 + (unsigned long int)1);
+              meterec->ports[(signed long int)port].connections[(signed long int)con] = (char *)return_value_malloc_16;
               strcpy(meterec->ports[(signed long int)port].connections[(signed long int)con], port_name);
               register_port(meterec, (char *)port_name, port);
             }
@@ -4156,11 +4156,11 @@ void load_session(struct meterec_s *meterec)
   }
 
   fprintf(meterec->fd_log, "Loading '%s'\n", meterec->session_file);
-  unsigned long int return_value_fread$1;
+  unsigned long int return_value_fread_1;
   do
   {
-    return_value_fread$1=fread((void *)buf, sizeof(char) /*1ul*/ , (unsigned long int)1, fd_conf);
-    if(return_value_fread$1 == 0ul)
+    return_value_fread_1=fread((void *)buf, sizeof(char) /*1ul*/ , (unsigned long int)1, fd_conf);
+    if(return_value_fread_1 == 0ul)
       break;
 
     if((signed int)buf[0l] == 88)
@@ -4212,20 +4212,20 @@ void load_setup(struct meterec_s *meterec)
   }
 
   fprintf(meterec->fd_log, "Loading '%s'\n", meterec->setup_file);
-  unsigned long int return_value_fread$1;
-  _Bool tmp_if_expr$2;
+  unsigned long int return_value_fread_1;
+  _Bool tmp_if_expr_2;
   do
   {
-    return_value_fread$1=fread((void *)buf, sizeof(char) /*1ul*/ , (unsigned long int)1, fd_conf);
-    if(return_value_fread$1 == 0ul)
+    return_value_fread_1=fread((void *)buf, sizeof(char) /*1ul*/ , (unsigned long int)1, fd_conf);
+    if(return_value_fread_1 == 0ul)
       break;
 
     if((signed int)buf[0l] == 76)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)buf[0l] == 108 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)buf[0l] == 108 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       fprintf(meterec->fd_log, "Playback LOCK on Port %d take %d\n", port + (unsigned int)1, take);
       meterec->takes[(signed long int)take].port_has_lock[(signed long int)port] = (unsigned int)1;
@@ -4233,12 +4233,12 @@ void load_setup(struct meterec_s *meterec)
 
     if((signed int)buf[0l] == 124)
     {
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)0x20000, sizeof(float) /*4ul*/ );
-      meterec->ports[(signed long int)port].read_disk_buffer = (float *)return_value_calloc$3;
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc((unsigned long int)0x20000, sizeof(float) /*4ul*/ );
-      meterec->ports[(signed long int)port].write_disk_buffer = (float *)return_value_calloc$4;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)0x20000, sizeof(float) /*4ul*/ );
+      meterec->ports[(signed long int)port].read_disk_buffer = (float *)return_value_calloc_3;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc((unsigned long int)0x20000, sizeof(float) /*4ul*/ );
+      meterec->ports[(signed long int)port].write_disk_buffer = (float *)return_value_calloc_4;
       create_input_port(meterec, port);
       create_output_port(meterec, port);
       parse_port_con(meterec, fd_conf, port);
@@ -4308,13 +4308,13 @@ signed int main(signed int argc, char **argv)
   signed int opt;
   signed int decay_len;
   float bias = 1.0f;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct meterec_s) /*43064ul*/ );
-  meterec = (struct meterec_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct meterec_s) /*43064ul*/ );
+  meterec = (struct meterec_s *)return_value_malloc_1;
   init_ports(meterec);
   init_takes(meterec);
   pre_option_init(meterec);
-  double return_value_atof$2;
+  double return_value_atof_2;
   do
   {
     opt=getopt(argc, argv, "r:w:f:s:j:o:u:ptchvi");
@@ -4325,8 +4325,8 @@ signed int main(signed int argc, char **argv)
     {
       case 114:
       {
-        return_value_atof$2=atof(optarg);
-        ref_lev = (float)return_value_atof$2;
+        return_value_atof_2=atof(optarg);
+        ref_lev = (float)return_value_atof_2;
         bias=powf(10.0f, ref_lev * -0.05f);
         break;
       }
@@ -4422,9 +4422,9 @@ signed int main(signed int argc, char **argv)
     exit(1);
   }
 
-  char *return_value_jack_get_client_name$3;
-  return_value_jack_get_client_name$3=jack_get_client_name(meterec->client);
-  fprintf(meterec->fd_log, "Registered as '%s'.\n", return_value_jack_get_client_name$3);
+  char *return_value_jack_get_client_name_3;
+  return_value_jack_get_client_name_3=jack_get_client_name(meterec->client);
+  fprintf(meterec->fd_log, "Registered as '%s'.\n", return_value_jack_get_client_name_3);
   meterec->jack_sts = (unsigned int)3;
   jack_set_process_callback(meterec->client, process_jack_data, (void *)meterec);
   jack_set_buffer_size_callback(meterec->client, update_jack_buffsize, (void *)meterec);
@@ -4434,17 +4434,17 @@ signed int main(signed int argc, char **argv)
   jack_set_port_registration_callback(meterec->client, process_port_register, (void *)meterec);
   jack_set_session_callback(meterec->client, session_callback, (void *)meterec);
   meterec->jack_buffsize=jack_get_buffer_size(meterec->client);
-  signed int return_value_jack_activate$4;
-  return_value_jack_activate$4=jack_activate(meterec->client);
-  if(!(return_value_jack_activate$4 == 0))
+  signed int return_value_jack_activate_4;
+  return_value_jack_activate_4=jack_activate(meterec->client);
+  if(!(return_value_jack_activate_4 == 0))
   {
     fprintf(meterec->fd_log, "Cannot activate client.\n");
     exit_on_error("Cannot activate client");
   }
 
-  signed int return_value_file_exists$5;
-  return_value_file_exists$5=file_exists(meterec->conf_file);
-  if(!(return_value_file_exists$5 == 0))
+  signed int return_value_file_exists_5;
+  return_value_file_exists_5=file_exists(meterec->conf_file);
+  if(!(return_value_file_exists_5 == 0))
   {
     load_conf(meterec);
     if(!(meterec->connect_ports == 0))
@@ -4460,18 +4460,18 @@ signed int main(signed int argc, char **argv)
     fprintf(meterec->fd_log, "Converted old configuration to %s.\n", meterec->conf_file);
     exit_on_error("Converted old configuration");
   }
-  unsigned int return_value_jack_get_sample_rate$7;
+  unsigned int return_value_jack_get_sample_rate_7;
   if(meterec->jack.sample_rate == 0u)
     meterec->jack.sample_rate=jack_get_sample_rate(meterec->client);
 
   else
   {
-    return_value_jack_get_sample_rate$7=jack_get_sample_rate(meterec->client);
-    if(!(meterec->jack.sample_rate == return_value_jack_get_sample_rate$7))
+    return_value_jack_get_sample_rate_7=jack_get_sample_rate(meterec->client);
+    if(!(meterec->jack.sample_rate == return_value_jack_get_sample_rate_7))
     {
-      unsigned int return_value_jack_get_sample_rate$6;
-      return_value_jack_get_sample_rate$6=jack_get_sample_rate(meterec->client);
-      fprintf(meterec->fd_log, "Session sample rate (%dHz) is not the same as jackd sample rate (%dHz).\n", meterec->jack.sample_rate, return_value_jack_get_sample_rate$6);
+      unsigned int return_value_jack_get_sample_rate_6;
+      return_value_jack_get_sample_rate_6=jack_get_sample_rate(meterec->client);
+      fprintf(meterec->fd_log, "Session sample rate (%dHz) is not the same as jackd sample rate (%dHz).\n", meterec->jack.sample_rate, return_value_jack_get_sample_rate_6);
       fprintf(meterec->fd_log, "Restart jackd with %dHz saple rate or remove sample rate entry from '%s' configuration file.\n", meterec->jack.sample_rate, meterec->conf_file);
       exit_on_error("Session sample rate is not the same as jackd sample rate.");
     }
@@ -4494,15 +4494,15 @@ signed int main(signed int argc, char **argv)
   init_pair((signed short int)2, (signed short int)3, (signed short int)0);
   init_pair((signed short int)4, (signed short int)4, (signed short int)0);
   init_pair((signed short int)3, (signed short int)1, (signed short int)0);
-  signed int tmp_if_expr$8;
+  signed int tmp_if_expr_8;
   if(console_width == 0)
   {
     if(!(mainwin == ((struct _win_st *)NULL)))
-      tmp_if_expr$8 = (signed int)mainwin->_maxx + 1;
+      tmp_if_expr_8 = (signed int)mainwin->_maxx + 1;
 
     else
-      tmp_if_expr$8 = -1;
-    console_width = tmp_if_expr$8;
+      tmp_if_expr_8 = -1;
+    console_width = tmp_if_expr_8;
   }
 
   console_width = console_width - 1;
@@ -4552,28 +4552,28 @@ signed int main(signed int argc, char **argv)
 // file conf.c line 40
 void parse_port_con(struct meterec_s *meterec, struct _IO_FILE *fd_conf, unsigned int port)
 {
-  char parse_port_con$$1$$line[1000l];
+  char parse_port_con__1__line[1000l];
   char label[100l];
   char port_name[100l];
   unsigned int i;
   unsigned int u;
-  signed int return_value_fscanf$1;
-  return_value_fscanf$1=fscanf(fd_conf, "%s%[^\r\n]%*[\r\n ]", (const void *)label, (const void *)parse_port_con$$1$$line);
-  i = (unsigned int)return_value_fscanf$1;
+  signed int return_value_fscanf_1;
+  return_value_fscanf_1=fscanf(fd_conf, "%s%[^\r\n]%*[\r\n ]", (const void *)label, (const void *)parse_port_con__1__line);
+  i = (unsigned int)return_value_fscanf_1;
   i = (unsigned int)0;
-  signed int return_value_sscanf$2;
+  signed int return_value_sscanf_2;
   do
   {
-    return_value_sscanf$2=sscanf(parse_port_con$$1$$line + (signed long int)i, "%s%u", (const void *)port_name, &u);
-    if(return_value_sscanf$2 == 0)
+    return_value_sscanf_2=sscanf(parse_port_con__1__line + (signed long int)i, "%s%u", (const void *)port_name, &u);
+    if(return_value_sscanf_2 == 0)
       break;
 
     register_port_old(meterec, port_name, port);
     connect_any_port(meterec, port_name, port);
     i = i + u;
-    for( ; (signed int)parse_port_con$$1$$line[(signed long int)i] == 32; i = i + 1u)
+    for( ; (signed int)parse_port_con__1__line[(signed long int)i] == 32; i = i + 1u)
       ;
-    if((signed int)parse_port_con$$1$$line[(signed long int)i] == 0)
+    if((signed int)parse_port_con__1__line[(signed long int)i] == 0)
       break;
 
   }
@@ -4584,30 +4584,30 @@ void parse_port_con(struct meterec_s *meterec, struct _IO_FILE *fd_conf, unsigne
 // file conf.c line 323
 signed int parse_record(const char *record)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(record, "---");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(record, "---");
+  if(return_value_strcmp_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(record, "rec");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(record, "rec");
+    if(return_value_strcmp_2 == 0)
       return 1;
 
     else
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(record, "dub");
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(record, "dub");
+      if(return_value_strcmp_3 == 0)
         return 2;
 
       else
       {
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(record, "ovr");
-        if(return_value_strcmp$4 == 0)
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(record, "ovr");
+        if(return_value_strcmp_4 == 0)
           return 4;
 
         else
@@ -4655,9 +4655,9 @@ unsigned int parse_takes(struct meterec_s *meterec, unsigned int port, const cha
 void parse_time(struct meterec_s *meterec, unsigned int index, const char *time_str)
 {
   struct time_s time;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(time_str, "%u:%u:%u.%u%*s", &time.h, &time.m, &time.s, &time.ms);
-  if(return_value_sscanf$1 == 4)
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(time_str, "%u:%u:%u.%u%*s", &time.h, &time.m, &time.s, &time.ms);
+  if(return_value_sscanf_1 == 4)
   {
     time.rate=jack_get_sample_rate(meterec->client);
     time_frm(&time);
@@ -4672,9 +4672,9 @@ void parse_time_index(struct meterec_s *meterec, struct _IO_FILE *fd_conf, unsig
 {
   struct time_s time;
   unsigned int u;
-  signed int return_value_fscanf$1;
-  return_value_fscanf$1=fscanf(fd_conf, "%u:%u:%u.%u%*s", &time.h, &time.m, &time.s, &time.ms);
-  u = (unsigned int)return_value_fscanf$1;
+  signed int return_value_fscanf_1;
+  return_value_fscanf_1=fscanf(fd_conf, "%u:%u:%u.%u%*s", &time.h, &time.m, &time.s, &time.ms);
+  u = (unsigned int)return_value_fscanf_1;
   if(u == 4u)
   {
     time.rate=jack_get_sample_rate(meterec->client);
@@ -4684,9 +4684,9 @@ void parse_time_index(struct meterec_s *meterec, struct _IO_FILE *fd_conf, unsig
 
   else
   {
-    signed int return_value_fscanf$2;
-    return_value_fscanf$2=fscanf(fd_conf, "%*s");
-    u = (unsigned int)return_value_fscanf$2;
+    signed int return_value_fscanf_2;
+    return_value_fscanf_2=fscanf(fd_conf, "%*s");
+    u = (unsigned int)return_value_fscanf_2;
   }
 }
 
@@ -4695,9 +4695,9 @@ void parse_time_index(struct meterec_s *meterec, struct _IO_FILE *fd_conf, unsig
 char * port_rename(struct meterec_s *meterec, unsigned int port)
 {
   char *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(80 + 1));
-  new = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(80 + 1));
+  new = (char *)return_value_malloc_1;
   if(!(meterec->ports[(signed long int)port].name == ((char *)NULL)))
     free((void *)meterec->ports[(signed long int)port].name);
 
@@ -4712,67 +4712,67 @@ char * port_rename(struct meterec_s *meterec, unsigned int port)
 void post_option_init(struct meterec_s *meterec)
 {
   char *session = meterec->session;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(session);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen("..sess");
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)1);
-  meterec->session_file = (char *)return_value_malloc$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(session);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen("..sess");
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)1);
+  meterec->session_file = (char *)return_value_malloc_3;
   sprintf(meterec->session_file, ".%s.sess", session);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(session);
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(".conf");
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(return_value_strlen$4 + return_value_strlen$5 + (unsigned long int)1);
-  meterec->setup_file = (char *)return_value_malloc$6;
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(session);
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(".conf");
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(return_value_strlen_4 + return_value_strlen_5 + (unsigned long int)1);
+  meterec->setup_file = (char *)return_value_malloc_6;
   sprintf(meterec->setup_file, "%s.conf", session);
-  unsigned long int return_value_strlen$7;
-  return_value_strlen$7=strlen(session);
-  unsigned long int return_value_strlen$8;
-  return_value_strlen$8=strlen(".log");
-  void *return_value_malloc$9;
-  return_value_malloc$9=malloc(return_value_strlen$7 + return_value_strlen$8 + (unsigned long int)1);
-  meterec->log_file = (char *)return_value_malloc$9;
+  unsigned long int return_value_strlen_7;
+  return_value_strlen_7=strlen(session);
+  unsigned long int return_value_strlen_8;
+  return_value_strlen_8=strlen(".log");
+  void *return_value_malloc_9;
+  return_value_malloc_9=malloc(return_value_strlen_7 + return_value_strlen_8 + (unsigned long int)1);
+  meterec->log_file = (char *)return_value_malloc_9;
   sprintf(meterec->log_file, "%s.log", session);
-  unsigned long int return_value_strlen$10;
-  return_value_strlen$10=strlen(output_ext);
-  void *return_value_malloc$11;
-  return_value_malloc$11=malloc(return_value_strlen$10 + (unsigned long int)1);
-  meterec->output_ext = (char *)return_value_malloc$11;
+  unsigned long int return_value_strlen_10;
+  return_value_strlen_10=strlen(output_ext);
+  void *return_value_malloc_11;
+  return_value_malloc_11=malloc(return_value_strlen_10 + (unsigned long int)1);
+  meterec->output_ext = (char *)return_value_malloc_11;
   sprintf(meterec->output_ext, "%s", output_ext);
-  signed int return_value_strcmp$16;
-  return_value_strcmp$16=strcmp(output_ext, "wav");
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  if(return_value_strcmp$16 == 0)
+  signed int return_value_strcmp_16;
+  return_value_strcmp_16=strcmp(output_ext, "wav");
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  if(return_value_strcmp_16 == 0)
     meterec->output_fmt = (unsigned int)(65536 | 3);
 
   else
   {
-    return_value_strcmp$15=strcmp(output_ext, "w64");
-    if(return_value_strcmp$15 == 0)
+    return_value_strcmp_15=strcmp(output_ext, "w64");
+    if(return_value_strcmp_15 == 0)
       meterec->output_fmt = (unsigned int)(720896 | 3);
 
     else
     {
-      return_value_strcmp$14=strcmp(output_ext, "ogg");
-      if(return_value_strcmp$14 == 0)
+      return_value_strcmp_14=strcmp(output_ext, "ogg");
+      if(return_value_strcmp_14 == 0)
         meterec->output_fmt = (unsigned int)(2097152 | 96);
 
       else
       {
-        return_value_strcmp$13=strcmp(output_ext, "oga");
-        if(return_value_strcmp$13 == 0)
+        return_value_strcmp_13=strcmp(output_ext, "oga");
+        if(return_value_strcmp_13 == 0)
           meterec->output_fmt = (unsigned int)(2097152 | 96);
 
         else
         {
-          return_value_strcmp$12=strcmp(output_ext, "flac");
-          if(return_value_strcmp$12 == 0)
+          return_value_strcmp_12=strcmp(output_ext, "flac");
+          if(return_value_strcmp_12 == 0)
             meterec->output_fmt = (unsigned int)(1507328 | 3);
 
           else
@@ -4795,11 +4795,11 @@ void pre_option_init(struct meterec_s *meterec)
   meterec->connect_ports = 1;
   meterec->jack_name = "meterec";
   meterec->session = (char *)(void *)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen("meterec");
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-  meterec->session = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen("meterec");
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+  meterec->session = (char *)return_value_malloc_2;
   strcpy(meterec->session, "meterec");
   meterec->conf_file = (char *)(void *)0;
   meterec->monitor = (struct _jack_port *)(void *)0;
@@ -4841,7 +4841,7 @@ void pre_option_init(struct meterec_s *meterec)
   meterec->display.view = (unsigned long int)0;
   meterec->display.names = (unsigned long int)1;
   meterec->event = (struct event_s *)(void *)0;
-  pthread_mutex_init(&meterec->event_mutex, (const union anonymous$0 *)(void *)0);
+  pthread_mutex_init(&meterec->event_mutex, (const union anonymous_0 *)(void *)0);
 }
 
 // process_jack_data
@@ -4861,88 +4861,88 @@ static signed int process_jack_data(unsigned int nframes, void *arg)
   unsigned int playback_ongoing;
   unsigned int record_ongoing;
   float s;
-  struct meterec_s *process_jack_data$$1$$meterec;
+  struct meterec_s *process_jack_data__1__meterec;
   struct event_s *event;
-  process_jack_data$$1$$meterec = (struct meterec_s *)arg;
-  _Bool tmp_if_expr$1;
-  if(!(process_jack_data$$1$$meterec->jack_transport == 0u))
+  process_jack_data__1__meterec = (struct meterec_s *)arg;
+  _Bool tmp_if_expr_1;
+  if(!(process_jack_data__1__meterec->jack_transport == 0u))
   {
-    static enum anonymous$2 transport_state = (enum anonymous$2)JackTransportStopped;
-    static enum anonymous$2 previous_transport_state;
+    static enum anonymous_2 transport_state = (enum anonymous_2)JackTransportStopped;
+    static enum anonymous_2 previous_transport_state;
     previous_transport_state = transport_state;
-    transport_state=jack_transport_query(process_jack_data$$1$$meterec->client, &pos);
+    transport_state=jack_transport_query(process_jack_data__1__meterec->client, &pos);
     if(!(previous_transport_state == transport_state))
     {
       if((signed int)transport_state == JackTransportStopped)
       {
-        process_jack_data$$1$$meterec->playback_cmd = (unsigned int)0;
-        process_jack_data$$1$$meterec->record_cmd = (unsigned int)0;
+        process_jack_data__1__meterec->playback_cmd = (unsigned int)0;
+        process_jack_data__1__meterec->record_cmd = (unsigned int)0;
       }
 
     }
 
     if((signed int)transport_state == JackTransportRolling)
-      tmp_if_expr$1 = process_jack_data$$1$$meterec->playback_sts == (unsigned int)3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = process_jack_data__1__meterec->playback_sts == (unsigned int)3 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    playback_ongoing = (unsigned int)tmp_if_expr$1;
+      tmp_if_expr_1 = (_Bool)0;
+    playback_ongoing = (unsigned int)tmp_if_expr_1;
   }
 
   else
-    playback_ongoing = (unsigned int)(process_jack_data$$1$$meterec->playback_sts == (unsigned int)3);
-  record_ongoing = (unsigned int)(process_jack_data$$1$$meterec->record_cmd != (unsigned int)0);
-  event=find_first_event(process_jack_data$$1$$meterec, (unsigned int)3, (unsigned int)0);
+    playback_ongoing = (unsigned int)(process_jack_data__1__meterec->playback_sts == (unsigned int)3);
+  record_ongoing = (unsigned int)(process_jack_data__1__meterec->record_cmd != (unsigned int)0);
+  event=find_first_event(process_jack_data__1__meterec, (unsigned int)3, (unsigned int)0);
   if(!(event == ((struct event_s *)NULL)))
     switch(event->type)
     {
       case (unsigned int)3:
       {
-        process_jack_data$$1$$meterec->read_disk_buffer_process_pos = event->buffer_pos - (unsigned int)1;
-        process_jack_data$$1$$meterec->read_disk_buffer_process_pos = process_jack_data$$1$$meterec->read_disk_buffer_process_pos + (unsigned int)(process_jack_data$$1$$meterec->jack.playhead - (unsigned long int)event->new_playhead);
-        process_jack_data$$1$$meterec->read_disk_buffer_process_pos = process_jack_data$$1$$meterec->read_disk_buffer_process_pos & (unsigned int)(0x20000 - 1);
-        pthread_mutex_lock(&process_jack_data$$1$$meterec->event_mutex);
-        rm_event(process_jack_data$$1$$meterec, event);
+        process_jack_data__1__meterec->read_disk_buffer_process_pos = event->buffer_pos - (unsigned int)1;
+        process_jack_data__1__meterec->read_disk_buffer_process_pos = process_jack_data__1__meterec->read_disk_buffer_process_pos + (unsigned int)(process_jack_data__1__meterec->jack.playhead - (unsigned long int)event->new_playhead);
+        process_jack_data__1__meterec->read_disk_buffer_process_pos = process_jack_data__1__meterec->read_disk_buffer_process_pos & (unsigned int)(0x20000 - 1);
+        pthread_mutex_lock(&process_jack_data__1__meterec->event_mutex);
+        rm_event(process_jack_data__1__meterec, event);
         event = (struct event_s *)(void *)0;
-        pthread_mutex_unlock(&process_jack_data$$1$$meterec->event_mutex);
+        pthread_mutex_unlock(&process_jack_data__1__meterec->event_mutex);
         break;
       }
       case (unsigned int)1:
       {
-        process_jack_data$$1$$meterec->read_disk_buffer_process_pos = event->buffer_pos;
-        process_jack_data$$1$$meterec->jack.playhead = (unsigned long int)event->new_playhead;
-        pthread_mutex_lock(&process_jack_data$$1$$meterec->event_mutex);
-        rm_event(process_jack_data$$1$$meterec, event);
+        process_jack_data__1__meterec->read_disk_buffer_process_pos = event->buffer_pos;
+        process_jack_data__1__meterec->jack.playhead = (unsigned long int)event->new_playhead;
+        pthread_mutex_lock(&process_jack_data__1__meterec->event_mutex);
+        rm_event(process_jack_data__1__meterec, event);
         event = (struct event_s *)(void *)0;
-        pthread_mutex_unlock(&process_jack_data$$1$$meterec->event_mutex);
+        pthread_mutex_unlock(&process_jack_data__1__meterec->event_mutex);
       }
     }
 
-  if(!(process_jack_data$$1$$meterec->monitor == ((struct _jack_port *)NULL)))
+  if(!(process_jack_data__1__meterec->monitor == ((struct _jack_port *)NULL)))
   {
-    void *return_value_jack_port_get_buffer$2;
-    return_value_jack_port_get_buffer$2=jack_port_get_buffer(process_jack_data$$1$$meterec->monitor, nframes);
-    mon = (float *)return_value_jack_port_get_buffer$2;
+    void *return_value_jack_port_get_buffer_2;
+    return_value_jack_port_get_buffer_2=jack_port_get_buffer(process_jack_data__1__meterec->monitor, nframes);
+    mon = (float *)return_value_jack_port_get_buffer_2;
     i = (unsigned int)0;
     for( ; !(i >= nframes); i = i + 1u)
       mon[(signed long int)i] = 0.0f;
   }
 
   port = (unsigned int)0;
-  for( ; !(port >= process_jack_data$$1$$meterec->n_ports); port = port + 1u)
-    if(!(process_jack_data$$1$$meterec->ports[(signed long int)port].input == ((struct _jack_port *)NULL)))
+  for( ; !(port >= process_jack_data__1__meterec->n_ports); port = port + 1u)
+    if(!(process_jack_data__1__meterec->ports[(signed long int)port].input == ((struct _jack_port *)NULL)))
     {
-      if(!(process_jack_data$$1$$meterec->ports[(signed long int)port].output == ((struct _jack_port *)NULL)))
+      if(!(process_jack_data__1__meterec->ports[(signed long int)port].output == ((struct _jack_port *)NULL)))
       {
-        void *return_value_jack_port_get_buffer$3;
-        return_value_jack_port_get_buffer$3=jack_port_get_buffer(process_jack_data$$1$$meterec->ports[(signed long int)port].output, nframes);
-        out = (float *)return_value_jack_port_get_buffer$3;
-        void *return_value_jack_port_get_buffer$4;
-        return_value_jack_port_get_buffer$4=jack_port_get_buffer(process_jack_data$$1$$meterec->ports[(signed long int)port].input, nframes);
-        in = (float *)return_value_jack_port_get_buffer$4;
-        if(!(process_jack_data$$1$$meterec->monitor == ((struct _jack_port *)NULL)))
+        void *return_value_jack_port_get_buffer_3;
+        return_value_jack_port_get_buffer_3=jack_port_get_buffer(process_jack_data__1__meterec->ports[(signed long int)port].output, nframes);
+        out = (float *)return_value_jack_port_get_buffer_3;
+        void *return_value_jack_port_get_buffer_4;
+        return_value_jack_port_get_buffer_4=jack_port_get_buffer(process_jack_data__1__meterec->ports[(signed long int)port].input, nframes);
+        in = (float *)return_value_jack_port_get_buffer_4;
+        if(!(process_jack_data__1__meterec->monitor == ((struct _jack_port *)NULL)))
         {
-          if(!(process_jack_data$$1$$meterec->ports[(signed long int)port].monitor == 0))
+          if(!(process_jack_data__1__meterec->ports[(signed long int)port].monitor == 0))
           {
             i = (unsigned int)0;
             for( ; !(i >= nframes); i = i + 1u)
@@ -4953,41 +4953,41 @@ static signed int process_jack_data(unsigned int nframes, void *arg)
 
         if(!(playback_ongoing == 0u))
         {
-          read_pos = process_jack_data$$1$$meterec->read_disk_buffer_process_pos;
+          read_pos = process_jack_data__1__meterec->read_disk_buffer_process_pos;
           i = (unsigned int)0;
           for( ; !(i >= nframes); i = i + 1u)
           {
-            if(!(process_jack_data$$1$$meterec->ports[(signed long int)port].mute == 0))
+            if(!(process_jack_data__1__meterec->ports[(signed long int)port].mute == 0))
               out[(signed long int)i] = 0.0f;
 
             else
-              out[(signed long int)i] = process_jack_data$$1$$meterec->ports[(signed long int)port].read_disk_buffer[(signed long int)read_pos];
+              out[(signed long int)i] = process_jack_data__1__meterec->ports[(signed long int)port].read_disk_buffer[(signed long int)read_pos];
             read_pos = read_pos + (unsigned int)1 & (unsigned int)(0x20000 - 1);
-            double return_value_fabs$5;
-            return_value_fabs$5=fabs((double)(in[(signed long int)i] * 1.0f));
-            s = (float)return_value_fabs$5;
-            if(s > process_jack_data$$1$$meterec->ports[(signed long int)port].peak_in)
-              process_jack_data$$1$$meterec->ports[(signed long int)port].peak_in = s;
+            double return_value_fabs_5;
+            return_value_fabs_5=fabs((double)(in[(signed long int)i] * 1.0f));
+            s = (float)return_value_fabs_5;
+            if(s > process_jack_data__1__meterec->ports[(signed long int)port].peak_in)
+              process_jack_data__1__meterec->ports[(signed long int)port].peak_in = s;
 
-            double return_value_fabs$6;
-            return_value_fabs$6=fabs((double)(process_jack_data$$1$$meterec->ports[(signed long int)port].read_disk_buffer[(signed long int)read_pos] * 1.0f));
-            s = (float)return_value_fabs$6;
-            if(s > process_jack_data$$1$$meterec->ports[(signed long int)port].peak_out)
-              process_jack_data$$1$$meterec->ports[(signed long int)port].peak_out = s;
+            double return_value_fabs_6;
+            return_value_fabs_6=fabs((double)(process_jack_data__1__meterec->ports[(signed long int)port].read_disk_buffer[(signed long int)read_pos] * 1.0f));
+            s = (float)return_value_fabs_6;
+            if(s > process_jack_data__1__meterec->ports[(signed long int)port].peak_out)
+              process_jack_data__1__meterec->ports[(signed long int)port].peak_out = s;
 
           }
           if(!(record_ongoing == 0u))
           {
-            write_pos = process_jack_data$$1$$meterec->write_disk_buffer_process_pos;
+            write_pos = process_jack_data__1__meterec->write_disk_buffer_process_pos;
             i = (unsigned int)0;
             for( ; !(i >= nframes); i = i + 1u)
             {
-              if(process_jack_data$$1$$meterec->ports[(signed long int)port].record == 4)
-                process_jack_data$$1$$meterec->ports[(signed long int)port].write_disk_buffer[(signed long int)write_pos] = in[(signed long int)i] + out[(signed long int)i];
+              if(process_jack_data__1__meterec->ports[(signed long int)port].record == 4)
+                process_jack_data__1__meterec->ports[(signed long int)port].write_disk_buffer[(signed long int)write_pos] = in[(signed long int)i] + out[(signed long int)i];
 
               else
-                if(!(process_jack_data$$1$$meterec->ports[(signed long int)port].record == 0))
-                  process_jack_data$$1$$meterec->ports[(signed long int)port].write_disk_buffer[(signed long int)write_pos] = in[(signed long int)i];
+                if(!(process_jack_data__1__meterec->ports[(signed long int)port].record == 0))
+                  process_jack_data__1__meterec->ports[(signed long int)port].write_disk_buffer[(signed long int)write_pos] = in[(signed long int)i];
 
               write_pos = write_pos + (unsigned int)1 & (unsigned int)(0x20000 - 1);
             }
@@ -5001,15 +5001,15 @@ static signed int process_jack_data(unsigned int nframes, void *arg)
           for( ; !(i >= nframes); i = i + 1u)
           {
             out[(signed long int)i] = 0.0f;
-            double return_value_fabs$7;
-            return_value_fabs$7=fabs((double)(in[(signed long int)i] * 1.0f));
-            s = (float)return_value_fabs$7;
-            if(s > process_jack_data$$1$$meterec->ports[(signed long int)port].peak_in)
-              process_jack_data$$1$$meterec->ports[(signed long int)port].peak_in = s;
+            double return_value_fabs_7;
+            return_value_fabs_7=fabs((double)(in[(signed long int)i] * 1.0f));
+            s = (float)return_value_fabs_7;
+            if(s > process_jack_data__1__meterec->ports[(signed long int)port].peak_in)
+              process_jack_data__1__meterec->ports[(signed long int)port].peak_in = s;
 
           }
         }
-        if(!(process_jack_data$$1$$meterec->ports[(signed long int)port].thru == 0))
+        if(!(process_jack_data__1__meterec->ports[(signed long int)port].thru == 0))
         {
           i = (unsigned int)0;
           for( ; !(i >= nframes); i = i + 1u)
@@ -5022,23 +5022,23 @@ static signed int process_jack_data(unsigned int nframes, void *arg)
 
   if(!(playback_ongoing == 0u))
   {
-    remaining_read_disk_buffer = (unsigned int)0x20000 - (process_jack_data$$1$$meterec->read_disk_buffer_thread_pos - process_jack_data$$1$$meterec->read_disk_buffer_process_pos & (unsigned int)(0x20000 - 1));
+    remaining_read_disk_buffer = (unsigned int)0x20000 - (process_jack_data__1__meterec->read_disk_buffer_thread_pos - process_jack_data__1__meterec->read_disk_buffer_process_pos & (unsigned int)(0x20000 - 1));
     if(nframes >= remaining_read_disk_buffer)
-      process_jack_data$$1$$meterec->read_disk_buffer_overflow = process_jack_data$$1$$meterec->read_disk_buffer_overflow + 1u;
+      process_jack_data__1__meterec->read_disk_buffer_overflow = process_jack_data__1__meterec->read_disk_buffer_overflow + 1u;
 
-    process_jack_data$$1$$meterec->read_disk_buffer_process_pos = process_jack_data$$1$$meterec->read_disk_buffer_process_pos + nframes & (unsigned int)(0x20000 - 1);
-    process_jack_data$$1$$meterec->jack.playhead = process_jack_data$$1$$meterec->jack.playhead + (unsigned long int)nframes;
+    process_jack_data__1__meterec->read_disk_buffer_process_pos = process_jack_data__1__meterec->read_disk_buffer_process_pos + nframes & (unsigned int)(0x20000 - 1);
+    process_jack_data__1__meterec->jack.playhead = process_jack_data__1__meterec->jack.playhead + (unsigned long int)nframes;
     if(!(event == ((struct event_s *)NULL)))
     {
       if(event->type == 2u)
       {
-        if(!((unsigned long int)event->new_playhead >= process_jack_data$$1$$meterec->jack.playhead))
+        if(!((unsigned long int)event->new_playhead >= process_jack_data__1__meterec->jack.playhead))
         {
-          process_jack_data$$1$$meterec->jack.playhead = process_jack_data$$1$$meterec->jack.playhead - (unsigned long int)(event->new_playhead - event->old_playhead);
-          pthread_mutex_lock(&process_jack_data$$1$$meterec->event_mutex);
-          rm_event(process_jack_data$$1$$meterec, event);
+          process_jack_data__1__meterec->jack.playhead = process_jack_data__1__meterec->jack.playhead - (unsigned long int)(event->new_playhead - event->old_playhead);
+          pthread_mutex_lock(&process_jack_data__1__meterec->event_mutex);
+          rm_event(process_jack_data__1__meterec, event);
           event = (struct event_s *)(void *)0;
-          pthread_mutex_unlock(&process_jack_data$$1$$meterec->event_mutex);
+          pthread_mutex_unlock(&process_jack_data__1__meterec->event_mutex);
         }
 
       }
@@ -5047,34 +5047,34 @@ static signed int process_jack_data(unsigned int nframes, void *arg)
 
     if(!(record_ongoing == 0u))
     {
-      remaining_write_disk_buffer = (unsigned int)0x20000 - (process_jack_data$$1$$meterec->write_disk_buffer_process_pos - process_jack_data$$1$$meterec->write_disk_buffer_thread_pos & (unsigned int)(0x20000 - 1));
+      remaining_write_disk_buffer = (unsigned int)0x20000 - (process_jack_data__1__meterec->write_disk_buffer_process_pos - process_jack_data__1__meterec->write_disk_buffer_thread_pos & (unsigned int)(0x20000 - 1));
       if(nframes >= remaining_write_disk_buffer)
-        process_jack_data$$1$$meterec->write_disk_buffer_overflow = process_jack_data$$1$$meterec->write_disk_buffer_overflow + 1u;
+        process_jack_data__1__meterec->write_disk_buffer_overflow = process_jack_data__1__meterec->write_disk_buffer_overflow + 1u;
 
-      process_jack_data$$1$$meterec->write_disk_buffer_process_pos = process_jack_data$$1$$meterec->write_disk_buffer_process_pos + nframes & (unsigned int)(0x20000 - 1);
+      process_jack_data__1__meterec->write_disk_buffer_process_pos = process_jack_data__1__meterec->write_disk_buffer_process_pos + nframes & (unsigned int)(0x20000 - 1);
     }
 
   }
 
   else
-    process_jack_data$$1$$meterec->jack.playhead = (unsigned long int)0;
+    process_jack_data__1__meterec->jack.playhead = (unsigned long int)0;
   return 0;
 }
 
 // process_jack_sync
 // file meterec.c line 701
-static signed int process_jack_sync(enum anonymous$2 state, struct _jack_position *pos, void *arg)
+static signed int process_jack_sync(enum anonymous_2 state, struct _jack_position *pos, void *arg)
 {
-  struct meterec_s *process_jack_sync$$1$$meterec = (struct meterec_s *)arg;
+  struct meterec_s *process_jack_sync__1__meterec = (struct meterec_s *)arg;
   if((signed int)state == JackTransportStarting)
   {
-    if(process_jack_sync$$1$$meterec->playback_sts == 0u)
+    if(process_jack_sync__1__meterec->playback_sts == 0u)
     {
-      start_playback(process_jack_sync$$1$$meterec);
+      start_playback(process_jack_sync__1__meterec);
       goto __CPROVER_DUMP_L2;
     }
 
-    if(!(process_jack_sync$$1$$meterec->playback_sts == 3u))
+    if(!(process_jack_sync__1__meterec->playback_sts == 3u))
       goto __CPROVER_DUMP_L2;
 
     return 1;
@@ -5101,37 +5101,37 @@ static signed int process_jack_sync(enum anonymous$2 state, struct _jack_positio
 // file ports.c line 32
 void process_port_register(unsigned int port_id, signed int new, void *arg)
 {
-  struct meterec_s *process_port_register$$1$$meterec;
+  struct meterec_s *process_port_register__1__meterec;
   unsigned int port;
   unsigned int con;
   const char *port_name;
   struct _jack_port *jack_port;
   signed int needs_connection = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(new == 0))
   {
-    process_port_register$$1$$meterec = (struct meterec_s *)arg;
-    if(!(process_port_register$$1$$meterec->connect_ports == 0))
+    process_port_register__1__meterec = (struct meterec_s *)arg;
+    if(!(process_port_register__1__meterec->connect_ports == 0))
     {
-      jack_port=jack_port_by_id(process_port_register$$1$$meterec->client, port_id);
+      jack_port=jack_port_by_id(process_port_register__1__meterec->client, port_id);
       port_name=jack_port_name(jack_port);
       port = (unsigned int)0;
-      for( ; !(port >= process_port_register$$1$$meterec->n_ports); port = port + 1u)
+      for( ; !(port >= process_port_register__1__meterec->n_ports); port = port + 1u)
       {
         con = (unsigned int)0;
-        for( ; !(con >= process_port_register$$1$$meterec->ports[(signed long int)port].n_cons); con = con + 1u)
+        for( ; !(con >= process_port_register__1__meterec->ports[(signed long int)port].n_cons); con = con + 1u)
         {
-          return_value_strcmp$1=strcmp(port_name, process_port_register$$1$$meterec->ports[(signed long int)port].connections[(signed long int)con]);
-          if(return_value_strcmp$1 == 0)
+          return_value_strcmp_1=strcmp(port_name, process_port_register__1__meterec->ports[(signed long int)port].connections[(signed long int)con]);
+          if(return_value_strcmp_1 == 0)
           {
-            fprintf(process_port_register$$1$$meterec->fd_log, "Found new port '%s' to be connected to port No %d.\n", port_name, port);
+            fprintf(process_port_register__1__meterec->fd_log, "Found new port '%s' to be connected to port No %d.\n", port_name, port);
             needs_connection = needs_connection + 1;
           }
 
         }
       }
       if(!(needs_connection == 0))
-        pthread_create(&cn_dt, (const union pthread_attr_t *)(void *)0, connect_all_ports, (void *)process_port_register$$1$$meterec);
+        pthread_create(&cn_dt, (const union pthread_attr_t *)(void *)0, connect_all_ports, (void *)process_port_register__1__meterec);
 
     }
 
@@ -5212,9 +5212,9 @@ void read_disk_open_fd(struct meterec_s *meterec)
 
           fprintf(meterec->fd_log, "Reader thread: Opened '%s' for reading\n", meterec->takes[(signed long int)take].take_file);
           fprintf(meterec->fd_log, "Reader thread: Allocating local buffer space %d*%d for take %d\n", meterec->takes[(signed long int)take].ntrack, 4096, take);
-          void *return_value_calloc$1;
-          return_value_calloc$1=calloc((unsigned long int)((unsigned int)4096 * meterec->takes[(signed long int)take].ntrack), sizeof(float) /*4ul*/ );
-          meterec->takes[(signed long int)take].buf = (float *)return_value_calloc$1;
+          void *return_value_calloc_1;
+          return_value_calloc_1=calloc((unsigned long int)((unsigned int)4096 * meterec->takes[(signed long int)take].ntrack), sizeof(float) /*4ul*/ );
+          meterec->takes[(signed long int)take].buf = (float *)return_value_calloc_1;
         }
 
         else
@@ -5251,18 +5251,18 @@ void read_peak(float bias)
     if(meterec->ports[(signed long int)port].peak_in > meterec->ports[(signed long int)port].max_in)
     {
       meterec->ports[(signed long int)port].max_in = meterec->ports[(signed long int)port].peak_in;
-      float return_value_log10f$1;
-      return_value_log10f$1=log10f(meterec->ports[(signed long int)port].max_in * bias);
-      meterec->ports[(signed long int)port].db_max_in = 20.0f * return_value_log10f$1;
+      float return_value_log10f_1;
+      return_value_log10f_1=log10f(meterec->ports[(signed long int)port].max_in * bias);
+      meterec->ports[(signed long int)port].db_max_in = 20.0f * return_value_log10f_1;
     }
 
-    float return_value_log10f$2;
-    return_value_log10f$2=log10f(meterec->ports[(signed long int)port].peak_in * bias);
-    meterec->ports[(signed long int)port].db_in = 20.0f * return_value_log10f$2;
+    float return_value_log10f_2;
+    return_value_log10f_2=log10f(meterec->ports[(signed long int)port].peak_in * bias);
+    meterec->ports[(signed long int)port].db_in = 20.0f * return_value_log10f_2;
     meterec->ports[(signed long int)port].peak_in = 0.0f;
-    float return_value_log10f$3;
-    return_value_log10f$3=log10f(meterec->ports[(signed long int)port].peak_out * bias);
-    meterec->ports[(signed long int)port].db_out = 20.0f * return_value_log10f$3;
+    float return_value_log10f_3;
+    return_value_log10f_3=log10f(meterec->ports[(signed long int)port].peak_out * bias);
+    meterec->ports[(signed long int)port].db_out = 20.0f * return_value_log10f_3;
     meterec->ports[(signed long int)port].peak_out = 0.0f;
   }
 }
@@ -5277,130 +5277,130 @@ void * reader_thread(void *d)
   unsigned int may_loop;
   struct event_s *event;
   struct event_s *event_kill;
-  struct meterec_s *reader_thread$$1$$meterec = (struct meterec_s *)d;
-  reader_thread$$1$$meterec->playback_sts = (unsigned int)1;
-  fprintf(reader_thread$$1$$meterec->fd_log, "Reader thread: started.\n");
-  thread_delay=set_thread_delay(reader_thread$$1$$meterec);
-  reader_thread$$1$$meterec->read_disk_buffer_thread_pos = reader_thread$$1$$meterec->read_disk_buffer_process_pos + (unsigned int)1;
-  reader_thread$$1$$meterec->read_disk_buffer_thread_pos = reader_thread$$1$$meterec->read_disk_buffer_thread_pos & (unsigned int)(0x20000 - 1);
-  read_disk_open_fd(reader_thread$$1$$meterec);
-  fprintf(reader_thread$$1$$meterec->fd_log, "Reader thread: Start reading files.\n");
+  struct meterec_s *reader_thread__1__meterec = (struct meterec_s *)d;
+  reader_thread__1__meterec->playback_sts = (unsigned int)1;
+  fprintf(reader_thread__1__meterec->fd_log, "Reader thread: started.\n");
+  thread_delay=set_thread_delay(reader_thread__1__meterec);
+  reader_thread__1__meterec->read_disk_buffer_thread_pos = reader_thread__1__meterec->read_disk_buffer_process_pos + (unsigned int)1;
+  reader_thread__1__meterec->read_disk_buffer_thread_pos = reader_thread__1__meterec->read_disk_buffer_thread_pos & (unsigned int)(0x20000 - 1);
+  read_disk_open_fd(reader_thread__1__meterec);
+  fprintf(reader_thread__1__meterec->fd_log, "Reader thread: Start reading files.\n");
   zbuff_pos = (unsigned int)0;
-  for( ; !(reader_thread$$1$$meterec->read_disk_buffer_thread_pos == reader_thread$$1$$meterec->read_disk_buffer_process_pos); reader_thread$$1$$meterec->read_disk_buffer_thread_pos = rdbuff_pos)
-    rdbuff_pos=fill_buffer(reader_thread$$1$$meterec, &zbuff_pos);
-  reader_thread$$1$$meterec->playback_sts = (unsigned int)3;
-  while(reader_thread$$1$$meterec->playback_cmd == 1u)
+  for( ; !(reader_thread__1__meterec->read_disk_buffer_thread_pos == reader_thread__1__meterec->read_disk_buffer_process_pos); reader_thread__1__meterec->read_disk_buffer_thread_pos = rdbuff_pos)
+    rdbuff_pos=fill_buffer(reader_thread__1__meterec, &zbuff_pos);
+  reader_thread__1__meterec->playback_sts = (unsigned int)3;
+  while(reader_thread__1__meterec->playback_cmd == 1u)
   {
-    event=find_last_event(reader_thread$$1$$meterec, (unsigned int)1, (unsigned int)0);
+    event=find_last_event(reader_thread__1__meterec, (unsigned int)1, (unsigned int)0);
     if(!(event == ((struct event_s *)NULL)))
       switch(event->type)
       {
         case (unsigned int)3:
         {
-          read_disk_close_fd(reader_thread$$1$$meterec);
-          compute_takes_to_playback(reader_thread$$1$$meterec);
-          read_disk_open_fd(reader_thread$$1$$meterec);
+          read_disk_close_fd(reader_thread__1__meterec);
+          compute_takes_to_playback(reader_thread__1__meterec);
+          read_disk_open_fd(reader_thread__1__meterec);
         }
         case (unsigned int)1:
         {
-          reader_thread$$1$$meterec->read_disk_buffer_thread_pos = reader_thread$$1$$meterec->read_disk_buffer_process_pos - (unsigned int)(0x20000 / 2);
-          reader_thread$$1$$meterec->read_disk_buffer_thread_pos = reader_thread$$1$$meterec->read_disk_buffer_thread_pos & (unsigned int)(0x20000 - 1);
-          read_disk_seek(reader_thread$$1$$meterec, event->new_playhead);
+          reader_thread__1__meterec->read_disk_buffer_thread_pos = reader_thread__1__meterec->read_disk_buffer_process_pos - (unsigned int)(0x20000 / 2);
+          reader_thread__1__meterec->read_disk_buffer_thread_pos = reader_thread__1__meterec->read_disk_buffer_thread_pos & (unsigned int)(0x20000 - 1);
+          read_disk_seek(reader_thread__1__meterec, event->new_playhead);
           zbuff_pos = (unsigned int)0;
-          event->buffer_pos = reader_thread$$1$$meterec->read_disk_buffer_thread_pos;
+          event->buffer_pos = reader_thread__1__meterec->read_disk_buffer_thread_pos;
           event->buffer_pos = event->buffer_pos & (unsigned int)(0x20000 - 1);
-          reader_thread$$1$$meterec->disk.playhead = (unsigned long int)event->new_playhead;
+          reader_thread__1__meterec->disk.playhead = (unsigned long int)event->new_playhead;
           event->queue = (unsigned int)2;
-          pthread_mutex_lock(&reader_thread$$1$$meterec->event_mutex);
-          find_rm_events(reader_thread$$1$$meterec, (unsigned int)3, (unsigned int)0);
-          find_rm_events(reader_thread$$1$$meterec, (unsigned int)1, (unsigned int)0);
-          pthread_mutex_unlock(&reader_thread$$1$$meterec->event_mutex);
+          pthread_mutex_lock(&reader_thread__1__meterec->event_mutex);
+          find_rm_events(reader_thread__1__meterec, (unsigned int)3, (unsigned int)0);
+          find_rm_events(reader_thread__1__meterec, (unsigned int)1, (unsigned int)0);
+          pthread_mutex_unlock(&reader_thread__1__meterec->event_mutex);
           break;
         }
         case (unsigned int)2:
-          if(!(reader_thread$$1$$meterec->loop.enable == 0u))
+          if(!(reader_thread__1__meterec->loop.enable == 0u))
           {
-            if(!((unsigned long int)reader_thread$$1$$meterec->loop.high >= reader_thread$$1$$meterec->disk.playhead))
+            if(!((unsigned long int)reader_thread__1__meterec->loop.high >= reader_thread__1__meterec->disk.playhead))
             {
-              if(!(reader_thread$$1$$meterec->jack.playhead >= (unsigned long int)reader_thread$$1$$meterec->loop.high))
+              if(!(reader_thread__1__meterec->jack.playhead >= (unsigned long int)reader_thread__1__meterec->loop.high))
               {
-                reader_thread$$1$$meterec->read_disk_buffer_thread_pos = reader_thread$$1$$meterec->read_disk_buffer_thread_pos - reader_thread$$1$$meterec->loop.high;
-                reader_thread$$1$$meterec->read_disk_buffer_thread_pos = reader_thread$$1$$meterec->read_disk_buffer_thread_pos + (unsigned int)reader_thread$$1$$meterec->disk.playhead;
-                reader_thread$$1$$meterec->read_disk_buffer_thread_pos = reader_thread$$1$$meterec->read_disk_buffer_thread_pos & (unsigned int)(0x20000 - 1);
-                read_disk_seek(reader_thread$$1$$meterec, reader_thread$$1$$meterec->loop.low);
+                reader_thread__1__meterec->read_disk_buffer_thread_pos = reader_thread__1__meterec->read_disk_buffer_thread_pos - reader_thread__1__meterec->loop.high;
+                reader_thread__1__meterec->read_disk_buffer_thread_pos = reader_thread__1__meterec->read_disk_buffer_thread_pos + (unsigned int)reader_thread__1__meterec->disk.playhead;
+                reader_thread__1__meterec->read_disk_buffer_thread_pos = reader_thread__1__meterec->read_disk_buffer_thread_pos & (unsigned int)(0x20000 - 1);
+                read_disk_seek(reader_thread__1__meterec, reader_thread__1__meterec->loop.low);
                 zbuff_pos = (unsigned int)0;
-                reader_thread$$1$$meterec->disk.playhead = (unsigned long int)reader_thread$$1$$meterec->loop.low;
+                reader_thread__1__meterec->disk.playhead = (unsigned long int)reader_thread__1__meterec->loop.low;
               }
 
             }
 
-            pthread_mutex_lock(&reader_thread$$1$$meterec->event_mutex);
-            rm_event(reader_thread$$1$$meterec, event);
+            pthread_mutex_lock(&reader_thread__1__meterec->event_mutex);
+            rm_event(reader_thread__1__meterec, event);
             event = (struct event_s *)(void *)0;
-            pthread_mutex_unlock(&reader_thread$$1$$meterec->event_mutex);
+            pthread_mutex_unlock(&reader_thread__1__meterec->event_mutex);
           }
 
           else
           {
-            event_kill=find_first_event(reader_thread$$1$$meterec, (unsigned int)3, (unsigned int)2);
+            event_kill=find_first_event(reader_thread__1__meterec, (unsigned int)3, (unsigned int)2);
             if(!(event_kill == ((struct event_s *)NULL)))
-              reader_thread$$1$$meterec->read_disk_buffer_thread_pos = event_kill->buffer_pos;
+              reader_thread__1__meterec->read_disk_buffer_thread_pos = event_kill->buffer_pos;
 
-            pthread_mutex_lock(&reader_thread$$1$$meterec->event_mutex);
-            find_rm_events(reader_thread$$1$$meterec, (unsigned int)0, (unsigned int)2);
+            pthread_mutex_lock(&reader_thread__1__meterec->event_mutex);
+            find_rm_events(reader_thread__1__meterec, (unsigned int)0, (unsigned int)2);
             event = (struct event_s *)(void *)0;
-            pthread_mutex_unlock(&reader_thread$$1$$meterec->event_mutex);
+            pthread_mutex_unlock(&reader_thread__1__meterec->event_mutex);
           }
       }
 
     may_loop = (unsigned int)0;
-    if(!(reader_thread$$1$$meterec->loop.enable == 0u))
+    if(!(reader_thread__1__meterec->loop.enable == 0u))
     {
-      if(!(reader_thread$$1$$meterec->disk.playhead >= (unsigned long int)reader_thread$$1$$meterec->loop.high))
+      if(!(reader_thread__1__meterec->disk.playhead >= (unsigned long int)reader_thread__1__meterec->loop.high))
         may_loop = (unsigned int)1;
 
     }
 
-    rdbuff_pos=fill_buffer(reader_thread$$1$$meterec, &zbuff_pos);
+    rdbuff_pos=fill_buffer(reader_thread__1__meterec, &zbuff_pos);
     if(!(may_loop == 0u))
     {
-      if(reader_thread$$1$$meterec->disk.playhead >= (unsigned long int)reader_thread$$1$$meterec->loop.high)
+      if(reader_thread__1__meterec->disk.playhead >= (unsigned long int)reader_thread__1__meterec->loop.high)
       {
-        read_disk_seek(reader_thread$$1$$meterec, reader_thread$$1$$meterec->loop.low);
+        read_disk_seek(reader_thread__1__meterec, reader_thread__1__meterec->loop.low);
         zbuff_pos = (unsigned int)0;
-        rdbuff_pos = rdbuff_pos - (unsigned int)(reader_thread$$1$$meterec->disk.playhead - (unsigned long int)reader_thread$$1$$meterec->loop.high);
+        rdbuff_pos = rdbuff_pos - (unsigned int)(reader_thread__1__meterec->disk.playhead - (unsigned long int)reader_thread__1__meterec->loop.high);
         rdbuff_pos = rdbuff_pos & (unsigned int)(0x20000 - 1);
-        reader_thread$$1$$meterec->disk.playhead = (unsigned long int)reader_thread$$1$$meterec->loop.low;
-        pthread_mutex_lock(&reader_thread$$1$$meterec->event_mutex);
-        add_event(reader_thread$$1$$meterec, (unsigned int)3, (unsigned int)2, reader_thread$$1$$meterec->loop.low, reader_thread$$1$$meterec->loop.high, rdbuff_pos);
-        pthread_mutex_unlock(&reader_thread$$1$$meterec->event_mutex);
+        reader_thread__1__meterec->disk.playhead = (unsigned long int)reader_thread__1__meterec->loop.low;
+        pthread_mutex_lock(&reader_thread__1__meterec->event_mutex);
+        add_event(reader_thread__1__meterec, (unsigned int)3, (unsigned int)2, reader_thread__1__meterec->loop.low, reader_thread__1__meterec->loop.high, rdbuff_pos);
+        pthread_mutex_unlock(&reader_thread__1__meterec->event_mutex);
       }
 
     }
 
-    event=find_first_event(reader_thread$$1$$meterec, (unsigned int)2, (unsigned int)0);
+    event=find_first_event(reader_thread__1__meterec, (unsigned int)2, (unsigned int)0);
     if(!(event == ((struct event_s *)NULL)))
       switch(event->type)
       {
         case (unsigned int)1:
         {
-          if(!(reader_thread$$1$$meterec->read_disk_buffer_thread_pos == rdbuff_pos))
+          if(!(reader_thread__1__meterec->read_disk_buffer_thread_pos == rdbuff_pos))
             event->queue = (unsigned int)3;
 
           break;
         }
         case (unsigned int)3:
-          if(!(4096ul + reader_thread$$1$$meterec->jack.playhead >= reader_thread$$1$$meterec->disk.playhead))
+          if(!(4096ul + reader_thread__1__meterec->jack.playhead >= reader_thread__1__meterec->disk.playhead))
             event->queue = (unsigned int)3;
 
       }
 
-    reader_thread$$1$$meterec->read_disk_buffer_thread_pos = rdbuff_pos;
+    reader_thread__1__meterec->read_disk_buffer_thread_pos = rdbuff_pos;
     usleep(thread_delay);
   }
-  read_disk_close_fd(reader_thread$$1$$meterec);
-  fprintf(reader_thread$$1$$meterec->fd_log, "Reader thread: done.\n");
-  reader_thread$$1$$meterec->playback_sts = (unsigned int)0;
+  read_disk_close_fd(reader_thread__1__meterec);
+  fprintf(reader_thread__1__meterec->fd_log, "Reader thread: done.\n");
+  reader_thread__1__meterec->playback_sts = (unsigned int)0;
   return NULL;
 }
 
@@ -5422,11 +5422,11 @@ void register_port(struct meterec_s *meterec, char *port_name, unsigned int port
   if(jack_port == ((struct _jack_port *)NULL))
     fprintf(meterec->fd_log, "Can't find port '%s' will connect later if port becomes available.\n", port_name);
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(port_name);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-  meterec->ports[(signed long int)port].connections[(signed long int)con] = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(port_name);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+  meterec->ports[(signed long int)port].connections[(signed long int)con] = (char *)return_value_malloc_2;
   strcpy(meterec->ports[(signed long int)port].connections[(signed long int)con], port_name);
   meterec->ports[(signed long int)port].n_cons = meterec->ports[(signed long int)port].n_cons + (unsigned int)1;
 }
@@ -5443,31 +5443,31 @@ void register_port_old(struct meterec_s *meterec, char *port_name, unsigned int 
     fprintf(meterec->fd_log, "Can't find port '%s' assuming this is part of port name.\n", port_name);
     if(!(meterec->ports[(signed long int)port].name == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(meterec->ports[(signed long int)port].name);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-      tmp = (char *)return_value_malloc$2;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(meterec->ports[(signed long int)port].name);
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+      tmp = (char *)return_value_malloc_2;
       strcpy(tmp, meterec->ports[(signed long int)port].name);
       free((void *)meterec->ports[(signed long int)port].name);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(port_name);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(tmp);
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(return_value_strlen$3 + (unsigned long int)1 + return_value_strlen$4 + (unsigned long int)1);
-      meterec->ports[(signed long int)port].name = (char *)return_value_malloc$5;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(port_name);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(tmp);
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(return_value_strlen_3 + (unsigned long int)1 + return_value_strlen_4 + (unsigned long int)1);
+      meterec->ports[(signed long int)port].name = (char *)return_value_malloc_5;
       sprintf(meterec->ports[(signed long int)port].name, "%s %s", tmp, port_name);
       free((void *)tmp);
     }
 
     else
     {
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(port_name);
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc(return_value_strlen$6 + (unsigned long int)1);
-      meterec->ports[(signed long int)port].name = (char *)return_value_malloc$7;
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(port_name);
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc(return_value_strlen_6 + (unsigned long int)1);
+      meterec->ports[(signed long int)port].name = (char *)return_value_malloc_7;
       strcpy(meterec->ports[(signed long int)port].name, port_name);
     }
     goto __CPROVER_DUMP_L5;
@@ -5475,11 +5475,11 @@ void register_port_old(struct meterec_s *meterec, char *port_name, unsigned int 
 
   else
   {
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(port_name);
-    void *return_value_malloc$9;
-    return_value_malloc$9=malloc(return_value_strlen$8 + (unsigned long int)1);
-    meterec->ports[(signed long int)port].connections[(signed long int)meterec->ports[(signed long int)port].n_cons] = (char *)return_value_malloc$9;
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(port_name);
+    void *return_value_malloc_9;
+    return_value_malloc_9=malloc(return_value_strlen_8 + (unsigned long int)1);
+    meterec->ports[(signed long int)port].connections[(signed long int)meterec->ports[(signed long int)port].n_cons] = (char *)return_value_malloc_9;
     strcpy(meterec->ports[(signed long int)port].connections[(signed long int)meterec->ports[(signed long int)port].n_cons], port_name);
     meterec->ports[(signed long int)port].n_cons = meterec->ports[(signed long int)port].n_cons + (unsigned int)1;
   }
@@ -5495,28 +5495,28 @@ void resolve_conf_file(struct meterec_s *meterec, char *conf_file)
   char *conf_file_test;
   unsigned int i;
   free((void *)meterec->session);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(conf_file);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-  meterec->session = (char *)return_value_malloc$2;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(conf_file);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(".mrec");
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)1);
-  meterec->conf_file = (char *)return_value_malloc$5;
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen(conf_file);
-  unsigned long int return_value_strlen$7;
-  return_value_strlen$7=strlen("/.mrec");
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc((unsigned long int)2 * return_value_strlen$6 + return_value_strlen$7 + (unsigned long int)1);
-  conf_file_test = (char *)return_value_malloc$8;
-  unsigned long int return_value_strlen$9;
-  return_value_strlen$9=strlen(conf_file);
-  i = (unsigned int)return_value_strlen$9;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(conf_file);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+  meterec->session = (char *)return_value_malloc_2;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(conf_file);
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(".mrec");
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)1);
+  meterec->conf_file = (char *)return_value_malloc_5;
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen(conf_file);
+  unsigned long int return_value_strlen_7;
+  return_value_strlen_7=strlen("/.mrec");
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc((unsigned long int)2 * return_value_strlen_6 + return_value_strlen_7 + (unsigned long int)1);
+  conf_file_test = (char *)return_value_malloc_8;
+  unsigned long int return_value_strlen_9;
+  return_value_strlen_9=strlen(conf_file);
+  i = (unsigned int)return_value_strlen_9;
   for( ; !(i == 0u); i = i - 1u)
     if((signed int)conf_file[(signed long int)i] == 47)
       break;
@@ -5526,23 +5526,23 @@ void resolve_conf_file(struct meterec_s *meterec, char *conf_file)
     strcpy(conf_file_test, conf_file);
     conf_file_test[(signed long int)i] = (char)0;
     printf("Changing to session directory '%s'\n", conf_file_test);
-    signed int return_value_chdir$10;
-    return_value_chdir$10=chdir(conf_file_test);
+    signed int return_value_chdir_10;
+    return_value_chdir_10=chdir(conf_file_test);
     conf_file = conf_file + (signed long int)(i + (unsigned int)1);
   }
 
-  unsigned long int return_value_strlen$17;
-  return_value_strlen$17=strlen(conf_file);
-  unsigned long int return_value_strlen$18;
-  return_value_strlen$18=strlen(".mrec");
-  signed int return_value_strcmp$19;
-  return_value_strcmp$19=strcmp((conf_file + (signed long int)return_value_strlen$17) - (signed long int)return_value_strlen$18, ".mrec");
-  if(!(return_value_strcmp$19 == 0))
+  unsigned long int return_value_strlen_17;
+  return_value_strlen_17=strlen(conf_file);
+  unsigned long int return_value_strlen_18;
+  return_value_strlen_18=strlen(".mrec");
+  signed int return_value_strcmp_19;
+  return_value_strcmp_19=strcmp((conf_file + (signed long int)return_value_strlen_17) - (signed long int)return_value_strlen_18, ".mrec");
+  if(!(return_value_strcmp_19 == 0))
   {
     sprintf(conf_file_test, "%s.mrec", conf_file);
-    signed int return_value_file_exists$11;
-    return_value_file_exists$11=file_exists(conf_file_test);
-    if(!(return_value_file_exists$11 == 0))
+    signed int return_value_file_exists_11;
+    return_value_file_exists_11=file_exists(conf_file_test);
+    if(!(return_value_file_exists_11 == 0))
     {
       strcpy(meterec->session, conf_file);
       strcpy(meterec->conf_file, conf_file_test);
@@ -5551,12 +5551,12 @@ void resolve_conf_file(struct meterec_s *meterec, char *conf_file)
     }
 
     sprintf(conf_file_test, "%s/%s.mrec", conf_file, conf_file);
-    signed int return_value_file_exists$13;
-    return_value_file_exists$13=file_exists(conf_file_test);
-    if(!(return_value_file_exists$13 == 0))
+    signed int return_value_file_exists_13;
+    return_value_file_exists_13=file_exists(conf_file_test);
+    if(!(return_value_file_exists_13 == 0))
     {
-      signed int return_value_chdir$12;
-      return_value_chdir$12=chdir(conf_file);
+      signed int return_value_chdir_12;
+      return_value_chdir_12=chdir(conf_file);
       strcpy(meterec->session, conf_file);
       sprintf(meterec->conf_file, "%s.mrec", conf_file);
       free((void *)conf_file_test);
@@ -5569,17 +5569,17 @@ void resolve_conf_file(struct meterec_s *meterec, char *conf_file)
 
   else
   {
-    signed int return_value_file_exists$16;
-    return_value_file_exists$16=file_exists(conf_file);
-    if(!(return_value_file_exists$16 == 0))
+    signed int return_value_file_exists_16;
+    return_value_file_exists_16=file_exists(conf_file);
+    if(!(return_value_file_exists_16 == 0))
     {
       strcpy(meterec->conf_file, conf_file);
       strcpy(meterec->session, conf_file);
-      unsigned long int return_value_strlen$14;
-      return_value_strlen$14=strlen(conf_file);
-      unsigned long int return_value_strlen$15;
-      return_value_strlen$15=strlen(".mrec");
-      meterec->session[(signed long int)(return_value_strlen$14 - return_value_strlen$15)] = (char)0;
+      unsigned long int return_value_strlen_14;
+      return_value_strlen_14=strlen(conf_file);
+      unsigned long int return_value_strlen_15;
+      return_value_strlen_15=strlen(".mrec");
+      meterec->session[(signed long int)(return_value_strlen_14 - return_value_strlen_15)] = (char)0;
       free((void *)conf_file_test);
       goto __CPROVER_DUMP_L9;
     }
@@ -5686,7 +5686,7 @@ void save_conf(struct meterec_s *meterec)
 
   fprintf(fd_conf, "ports=\n(\n");
   port = (unsigned int)0;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   for( ; !(port >= meterec->n_ports); port = port + 1u)
   {
     if(!(port == 0u))
@@ -5728,11 +5728,11 @@ void save_conf(struct meterec_s *meterec)
     }
     fprintf(fd_conf, "); ");
     if(!(meterec->ports[(signed long int)port].name == ((char *)NULL)))
-      tmp_if_expr$1 = meterec->ports[(signed long int)port].name;
+      tmp_if_expr_1 = meterec->ports[(signed long int)port].name;
 
     else
-      tmp_if_expr$1 = "";
-    fprintf(fd_conf, "name=\"%s\"; }", tmp_if_expr$1);
+      tmp_if_expr_1 = "";
+    fprintf(fd_conf, "name=\"%s\"; }", tmp_if_expr_1);
   }
   fprintf(fd_conf, "\n);\n\n");
   fprintf(fd_conf, "indexes=\n{\n");
@@ -5770,11 +5770,11 @@ unsigned int seek(struct meterec_s *meterec, signed int seek_sec)
   nframes = (unsigned int)meterec->jack.playhead;
   sample_rate = meterec->jack.sample_rate;
   fprintf(meterec->fd_log, "seek: at %d needs to seek %d (sr=%d)\n", nframes, (unsigned int)seek_sec * sample_rate, sample_rate);
-  signed int return_value_abs$1;
+  signed int return_value_abs_1;
   if(!(seek_sec >= 0))
   {
-    return_value_abs$1=abs(seek_sec);
-    if(nframes >= sample_rate * (unsigned int)return_value_abs$1)
+    return_value_abs_1=abs(seek_sec);
+    if(nframes >= sample_rate * (unsigned int)return_value_abs_1)
       goto __CPROVER_DUMP_L1;
 
     return (unsigned int)0;
@@ -5794,14 +5794,14 @@ unsigned int seek(struct meterec_s *meterec, signed int seek_sec)
 void session_callback(struct _jack_session_event *event, void *arg)
 {
   char retval[200l];
-  struct meterec_s *session_callback$$1$$meterec;
+  struct meterec_s *session_callback__1__meterec;
   char *pwd;
-  session_callback$$1$$meterec = (struct meterec_s *)arg;
+  session_callback__1__meterec = (struct meterec_s *)arg;
   pwd=getcwd((char *)(void *)0, (unsigned long int)0);
-  snprintf(retval, (unsigned long int)200, "meterec -s %s/%s.mrec -j %s -u %s", pwd, session_callback$$1$$meterec->session, session_callback$$1$$meterec->jack_name, event->client_uuid);
+  snprintf(retval, (unsigned long int)200, "meterec -s %s/%s.mrec -j %s -u %s", pwd, session_callback__1__meterec->session, session_callback__1__meterec->jack_name, event->client_uuid);
   event->command_line=strdup(retval);
   event->flags = (enum JackSessionFlags)JackSessionNeedTerminal;
-  jack_session_reply(session_callback$$1$$meterec->client, event);
+  jack_session_reply(session_callback__1__meterec->client, event);
   if((signed int)event->type == JackSessionSaveAndQuit)
   {
     jack_session_event_free(event);
@@ -5951,8 +5951,8 @@ void time_sprint(struct time_s *time, char *string)
 // file meterec.c line 691
 static signed int update_jack_buffsize(unsigned int nframes, void *arg)
 {
-  struct meterec_s *update_jack_buffsize$$1$$meterec = (struct meterec_s *)arg;
-  update_jack_buffsize$$1$$meterec->jack_buffsize = nframes;
+  struct meterec_s *update_jack_buffsize__1__meterec = (struct meterec_s *)arg;
+  update_jack_buffsize__1__meterec->jack_buffsize = nframes;
   return 0;
 }
 
@@ -6047,9 +6047,9 @@ struct SNDFILE_tag * write_disk_open_fd(struct meterec_s *meterec)
   info.channels = (signed int)meterec->n_tracks;
   info.samplerate = (signed int)meterec->jack.sample_rate;
   take_file = meterec->takes[(signed long int)(meterec->n_takes + (unsigned int)1)].take_file;
-  signed int return_value_sf_format_check$1;
-  return_value_sf_format_check$1=sf_format_check(&info);
-  if(return_value_sf_format_check$1 == 0)
+  signed int return_value_sf_format_check_1;
+  return_value_sf_format_check_1=sf_format_check(&info);
+  if(return_value_sf_format_check_1 == 0)
   {
     fprintf(meterec->fd_log, "Writer thread: Cannot open take file '%s' for writing (%d, %d, %d)\n", take_file, info.format, info.channels, info.samplerate);
     meterec->record_sts = (unsigned int)0;
@@ -6086,29 +6086,29 @@ void * writer_thread(void *d)
   unsigned int thread_delay;
   struct SNDFILE_tag *out;
   float buf[98304l];
-  struct meterec_s *writer_thread$$1$$meterec = (struct meterec_s *)d;
-  writer_thread$$1$$meterec->record_sts = (unsigned int)1;
-  fprintf(writer_thread$$1$$meterec->fd_log, "Writer thread: Started.\n");
-  thread_delay=set_thread_delay(writer_thread$$1$$meterec);
-  out=write_disk_open_fd(writer_thread$$1$$meterec);
+  struct meterec_s *writer_thread__1__meterec = (struct meterec_s *)d;
+  writer_thread__1__meterec->record_sts = (unsigned int)1;
+  fprintf(writer_thread__1__meterec->fd_log, "Writer thread: Started.\n");
+  thread_delay=set_thread_delay(writer_thread__1__meterec);
+  out=write_disk_open_fd(writer_thread__1__meterec);
   if(out == ((struct SNDFILE_tag *)NULL))
     return (void *)1;
 
   else
   {
-    writer_thread$$1$$meterec->record_sts = (unsigned int)3;
+    writer_thread__1__meterec->record_sts = (unsigned int)3;
     zbuff_pos = (unsigned int)0;
-    while(!(writer_thread$$1$$meterec->record_sts == 0u))
+    while(!(writer_thread__1__meterec->record_sts == 0u))
     {
-      i = writer_thread$$1$$meterec->write_disk_buffer_thread_pos;
-      for( ; !(i == writer_thread$$1$$meterec->write_disk_buffer_process_pos) && !(zbuff_pos >= 4096u); zbuff_pos = zbuff_pos + 1u)
+      i = writer_thread__1__meterec->write_disk_buffer_thread_pos;
+      for( ; !(i == writer_thread__1__meterec->write_disk_buffer_process_pos) && !(zbuff_pos >= 4096u); zbuff_pos = zbuff_pos + 1u)
       {
         track = (unsigned int)0;
         port = (unsigned int)0;
-        for( ; !(port >= writer_thread$$1$$meterec->n_ports); port = port + 1u)
-          if(!(writer_thread$$1$$meterec->ports[(signed long int)port].record == 0))
+        for( ; !(port >= writer_thread__1__meterec->n_ports); port = port + 1u)
+          if(!(writer_thread__1__meterec->ports[(signed long int)port].record == 0))
           {
-            buf[(signed long int)(zbuff_pos * writer_thread$$1$$meterec->n_tracks + track)] = writer_thread$$1$$meterec->ports[(signed long int)port].write_disk_buffer[(signed long int)i];
+            buf[(signed long int)(zbuff_pos * writer_thread__1__meterec->n_tracks + track)] = writer_thread__1__meterec->ports[(signed long int)port].write_disk_buffer[(signed long int)i];
             track = track + 1u;
           }
 
@@ -6120,21 +6120,21 @@ void * writer_thread(void *d)
         zbuff_pos = (unsigned int)0;
       }
 
-      writer_thread$$1$$meterec->write_disk_buffer_thread_pos = i;
-      if(writer_thread$$1$$meterec->record_cmd == 2u)
+      writer_thread__1__meterec->write_disk_buffer_thread_pos = i;
+      if(writer_thread__1__meterec->record_cmd == 2u)
       {
-        write_disk_close_fd(writer_thread$$1$$meterec, out);
-        if(!(writer_thread$$1$$meterec->config_sts == 0u))
-          save_conf(writer_thread$$1$$meterec);
+        write_disk_close_fd(writer_thread__1__meterec, out);
+        if(!(writer_thread__1__meterec->config_sts == 0u))
+          save_conf(writer_thread__1__meterec);
 
-        compute_tracks_to_record(writer_thread$$1$$meterec);
-        out=write_disk_open_fd(writer_thread$$1$$meterec);
-        writer_thread$$1$$meterec->record_cmd = (unsigned int)1;
+        compute_tracks_to_record(writer_thread__1__meterec);
+        out=write_disk_open_fd(writer_thread__1__meterec);
+        writer_thread__1__meterec->record_cmd = (unsigned int)1;
       }
 
-      if(writer_thread$$1$$meterec->record_sts == 5u)
+      if(writer_thread__1__meterec->record_sts == 5u)
       {
-        if(writer_thread$$1$$meterec->write_disk_buffer_thread_pos == writer_thread$$1$$meterec->write_disk_buffer_process_pos)
+        if(writer_thread__1__meterec->write_disk_buffer_thread_pos == writer_thread__1__meterec->write_disk_buffer_process_pos)
         {
           sf_writef_float(out, buf, (signed long int)zbuff_pos);
           break;
@@ -6142,17 +6142,17 @@ void * writer_thread(void *d)
 
       }
 
-      if(writer_thread$$1$$meterec->record_cmd == 0u)
-        writer_thread$$1$$meterec->record_sts = (unsigned int)5;
+      if(writer_thread__1__meterec->record_cmd == 0u)
+        writer_thread__1__meterec->record_sts = (unsigned int)5;
 
       usleep(thread_delay);
     }
-    write_disk_close_fd(writer_thread$$1$$meterec, out);
-    if(!(writer_thread$$1$$meterec->config_sts == 0u))
-      save_conf(writer_thread$$1$$meterec);
+    write_disk_close_fd(writer_thread__1__meterec, out);
+    if(!(writer_thread__1__meterec->config_sts == 0u))
+      save_conf(writer_thread__1__meterec);
 
-    fprintf(writer_thread$$1$$meterec->fd_log, "Writer thread: done.\n");
-    writer_thread$$1$$meterec->record_sts = (unsigned int)0;
+    fprintf(writer_thread__1__meterec->fd_log, "Writer thread: done.\n");
+    writer_thread__1__meterec->record_sts = (unsigned int)0;
     return (void *)0;
   }
 }

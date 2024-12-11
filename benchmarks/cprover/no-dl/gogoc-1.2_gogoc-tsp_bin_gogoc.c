@@ -1,166 +1,166 @@
-// #anon_enum$DNS_RCODE_NOERROR=0$DNS_RCODE_FORMERR=1$DNS_RCODE_SERVFAIL=2$DNS_RCODE_NXDOMAIN=3$DNS_RCODE_NOTIMP=4$DNS_RCODE_REFUSED=5$DNS_RCODE_YXDOMAIN=6$DNS_RCODE_YXRRSET=7$DNS_RCODE_NXRRSET=8$DNS_RCODE_NOTAUTH=9$DNS_RCODE_NOTZONE=10$DNS_RCODE_11=11$DNS_RCODE_12=12$DNS_RCODE_13=13$DNS_RCODE_14=14$DNS_RCODE_15=15
+// #anon_enum_DNS_RCODE_NOERROR=0_DNS_RCODE_FORMERR=1_DNS_RCODE_SERVFAIL=2_DNS_RCODE_NXDOMAIN=3_DNS_RCODE_NOTIMP=4_DNS_RCODE_REFUSED=5_DNS_RCODE_YXDOMAIN=6_DNS_RCODE_YXRRSET=7_DNS_RCODE_NXRRSET=8_DNS_RCODE_NOTAUTH=9_DNS_RCODE_NOTZONE=10_DNS_RCODE_11=11_DNS_RCODE_12=12_DNS_RCODE_13=13_DNS_RCODE_14=14_DNS_RCODE_15=15
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/dns.h line 45
-enum anonymous$10 { DNS_RCODE_NOERROR=0, DNS_RCODE_FORMERR=1, DNS_RCODE_SERVFAIL=2, DNS_RCODE_NXDOMAIN=3, DNS_RCODE_NOTIMP=4, DNS_RCODE_REFUSED=5, DNS_RCODE_YXDOMAIN=6, DNS_RCODE_YXRRSET=7, DNS_RCODE_NXRRSET=8, DNS_RCODE_NOTAUTH=9, DNS_RCODE_NOTZONE=10, DNS_RCODE_11=11, DNS_RCODE_12=12, DNS_RCODE_13=13, DNS_RCODE_14=14, DNS_RCODE_15=15 };
+enum anonymous_10 { DNS_RCODE_NOERROR=0, DNS_RCODE_FORMERR=1, DNS_RCODE_SERVFAIL=2, DNS_RCODE_NXDOMAIN=3, DNS_RCODE_NOTIMP=4, DNS_RCODE_REFUSED=5, DNS_RCODE_YXDOMAIN=6, DNS_RCODE_YXRRSET=7, DNS_RCODE_NXRRSET=8, DNS_RCODE_NOTAUTH=9, DNS_RCODE_NOTZONE=10, DNS_RCODE_11=11, DNS_RCODE_12=12, DNS_RCODE_13=13, DNS_RCODE_14=14, DNS_RCODE_15=15 };
 
-// #anon_enum$FALSE=0$TRUE=1
+// #anon_enum_FALSE=0_TRUE=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/config.h line 38
-enum anonymous$0 { FALSE=0, TRUE=1 };
+enum anonymous_0 { FALSE=0, TRUE=1 };
 
-// #anon_enum$GOGOC_CLISTAT__DISCONNECTEDIDLE=0$GOGOC_CLISTAT__DISCONNECTEDNORETRY=1$GOGOC_CLISTAT__DISCONNECTEDERROR=2$GOGOC_CLISTAT__DISCONNECTEDHACCESSSETUPERROR=3$GOGOC_CLISTAT__DISCONNECTEDHACCESSEXPOSEDEVICESERROR=4$GOGOC_CLISTAT__CONNECTING=5$GOGOC_CLISTAT__CONNECTED=6
+// #anon_enum_GOGOC_CLISTAT__DISCONNECTEDIDLE=0_GOGOC_CLISTAT__DISCONNECTEDNORETRY=1_GOGOC_CLISTAT__DISCONNECTEDERROR=2_GOGOC_CLISTAT__DISCONNECTEDHACCESSSETUPERROR=3_GOGOC_CLISTAT__DISCONNECTEDHACCESSEXPOSEDEVICESERROR=4_GOGOC_CLISTAT__CONNECTING=5_GOGOC_CLISTAT__CONNECTED=6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-messaging/gogocmessaging/gogocmsgdata.h line 43
-enum anonymous$21 { GOGOC_CLISTAT__DISCONNECTEDIDLE=0, GOGOC_CLISTAT__DISCONNECTEDNORETRY=1, GOGOC_CLISTAT__DISCONNECTEDERROR=2, GOGOC_CLISTAT__DISCONNECTEDHACCESSSETUPERROR=3, GOGOC_CLISTAT__DISCONNECTEDHACCESSEXPOSEDEVICESERROR=4, GOGOC_CLISTAT__CONNECTING=5, GOGOC_CLISTAT__CONNECTED=6 };
+enum anonymous_21 { GOGOC_CLISTAT__DISCONNECTEDIDLE=0, GOGOC_CLISTAT__DISCONNECTEDNORETRY=1, GOGOC_CLISTAT__DISCONNECTEDERROR=2, GOGOC_CLISTAT__DISCONNECTEDHACCESSSETUPERROR=3, GOGOC_CLISTAT__DISCONNECTEDHACCESSEXPOSEDEVICESERROR=4, GOGOC_CLISTAT__CONNECTING=5, GOGOC_CLISTAT__CONNECTED=6 };
 
-// #anon_enum$HACCESS_DEVMAPSTTS_SUCCESS=0$HACCESS_DEVMAPSTTS_ERROR=1$HACCESS_DEVMAPSTTS_NEW=2$HACCESS_DEVMAPSTTS_MODIFIED=3$HACCESS_DEVMAPSTTS_UNKNOWN=4
+// #anon_enum_HACCESS_DEVMAPSTTS_SUCCESS=0_HACCESS_DEVMAPSTTS_ERROR=1_HACCESS_DEVMAPSTTS_NEW=2_HACCESS_DEVMAPSTTS_MODIFIED=3_HACCESS_DEVMAPSTTS_UNKNOWN=4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-messaging/gogocmessaging/haccessmsgdata.h line 59
-enum anonymous$30 { HACCESS_DEVMAPSTTS_SUCCESS=0, HACCESS_DEVMAPSTTS_ERROR=1, HACCESS_DEVMAPSTTS_NEW=2, HACCESS_DEVMAPSTTS_MODIFIED=3, HACCESS_DEVMAPSTTS_UNKNOWN=4 };
+enum anonymous_30 { HACCESS_DEVMAPSTTS_SUCCESS=0, HACCESS_DEVMAPSTTS_ERROR=1, HACCESS_DEVMAPSTTS_NEW=2, HACCESS_DEVMAPSTTS_MODIFIED=3, HACCESS_DEVMAPSTTS_UNKNOWN=4 };
 
-// #anon_enum$HACCESS_FEATSTTS_SUCCESS=0$HACCESS_FEATSTTS_ERROR=1
+// #anon_enum_HACCESS_FEATSTTS_SUCCESS=0_HACCESS_FEATSTTS_ERROR=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-messaging/gogocmessaging/haccessmsgdata.h line 85
-enum anonymous$18 { HACCESS_FEATSTTS_SUCCESS=0, HACCESS_FEATSTTS_ERROR=1 };
+enum anonymous_18 { HACCESS_FEATSTTS_SUCCESS=0, HACCESS_FEATSTTS_ERROR=1 };
 
-// #anon_enum$IEE_MODE_OTHER=0$IEE_MODE_KA=1$IEE_MODE_ACD=2
+// #anon_enum_IEE_MODE_OTHER=0_IEE_MODE_KA=1_IEE_MODE_ACD=2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/icmp_echo_engine.h line 45
-enum anonymous$28 { IEE_MODE_OTHER=0, IEE_MODE_KA=1, IEE_MODE_ACD=2 };
+enum anonymous_28 { IEE_MODE_OTHER=0, IEE_MODE_KA=1, IEE_MODE_ACD=2 };
 
-// #anon_enum$IEE_SUCCESS=0$IEE_INVALID_PARMS=1$IEE_RESOURCE_STARVATION=2$IEE_CONNECTIVITY_ASSESSED=3$IEE_GENERAL_ECHO_TIMEOUT=4$IEE_GENERAL_ECHO_ERROR=5
+// #anon_enum_IEE_SUCCESS=0_IEE_INVALID_PARMS=1_IEE_RESOURCE_STARVATION=2_IEE_CONNECTIVITY_ASSESSED=3_IEE_GENERAL_ECHO_TIMEOUT=4_IEE_GENERAL_ECHO_ERROR=5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/icmp_echo_engine.h line 35
-enum anonymous$26 { IEE_SUCCESS=0, IEE_INVALID_PARMS=1, IEE_RESOURCE_STARVATION=2, IEE_CONNECTIVITY_ASSESSED=3, IEE_GENERAL_ECHO_TIMEOUT=4, IEE_GENERAL_ECHO_ERROR=5 };
+enum anonymous_26 { IEE_SUCCESS=0, IEE_INVALID_PARMS=1, IEE_RESOURCE_STARVATION=2, IEE_CONNECTIVITY_ASSESSED=3, IEE_GENERAL_ECHO_TIMEOUT=4, IEE_GENERAL_ECHO_ERROR=5 };
 
-// #anon_enum$KA_ERROR=0$KA_SUCCESS=1
+// #anon_enum_KA_ERROR=0_KA_SUCCESS=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 19
-enum anonymous$8 { KA_ERROR=0, KA_SUCCESS=1 };
+enum anonymous_8 { KA_ERROR=0, KA_SUCCESS=1 };
 
-// #anon_enum$KA_PRIV_SUCCESS=0$KA_INVALID_PARMS=1$KA_RESOURCE_STARVATION=2
+// #anon_enum_KA_PRIV_SUCCESS=0_KA_INVALID_PARMS=1_KA_RESOURCE_STARVATION=2
 // file net_ka.c line 40
-enum anonymous$25 { KA_PRIV_SUCCESS=0, KA_INVALID_PARMS=1, KA_RESOURCE_STARVATION=2 };
+enum anonymous_25 { KA_PRIV_SUCCESS=0, KA_INVALID_PARMS=1, KA_RESOURCE_STARVATION=2 };
 
-// #anon_enum$KA_STAT_INVALID=0$KA_STAT_ONGOING=1$KA_STAT_FIN_SUCCESS=2$KA_STAT_FIN_TIMEOUT=3$KA_STAT_FIN_ERROR=4
+// #anon_enum_KA_STAT_INVALID=0_KA_STAT_ONGOING=1_KA_STAT_FIN_SUCCESS=2_KA_STAT_FIN_TIMEOUT=3_KA_STAT_FIN_ERROR=4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 25
-enum anonymous$9 { KA_STAT_INVALID=0, KA_STAT_ONGOING=1, KA_STAT_FIN_SUCCESS=2, KA_STAT_FIN_TIMEOUT=3, KA_STAT_FIN_ERROR=4 };
+enum anonymous_9 { KA_STAT_INVALID=0, KA_STAT_ONGOING=1, KA_STAT_FIN_SUCCESS=2, KA_STAT_FIN_TIMEOUT=3, KA_STAT_FIN_ERROR=4 };
 
-// #anon_enum$READ_SELECT_ERROR=0$READ_SELECT_TIMEOUT=1$READ_SOCKET_CLOSED=2$READ_RECV_ERROR=3$SEND_PINGOUT_SUCCESS=4$SEND_PINGOUT_ERROR=5$SEND_MEMORY_STARVATION=6$ANAL_PACKET_BAD=7$ANAL_PACKET_IGNORED=8$ANAL_PACKET_PINGIN_LATE=9$ANAL_PACKET_PINGIN_ONTIME=10$ECHO_EVENT_REMOVED=11$ECHO_EVENT_NOTFOUND=12
+// #anon_enum_READ_SELECT_ERROR=0_READ_SELECT_TIMEOUT=1_READ_SOCKET_CLOSED=2_READ_RECV_ERROR=3_SEND_PINGOUT_SUCCESS=4_SEND_PINGOUT_ERROR=5_SEND_MEMORY_STARVATION=6_ANAL_PACKET_BAD=7_ANAL_PACKET_IGNORED=8_ANAL_PACKET_PINGIN_LATE=9_ANAL_PACKET_PINGIN_ONTIME=10_ECHO_EVENT_REMOVED=11_ECHO_EVENT_NOTFOUND=12
 // file icmp_echo_engine.c line 134
-enum anonymous$32 { READ_SELECT_ERROR=0, READ_SELECT_TIMEOUT=1, READ_SOCKET_CLOSED=2, READ_RECV_ERROR=3, SEND_PINGOUT_SUCCESS=4, SEND_PINGOUT_ERROR=5, SEND_MEMORY_STARVATION=6, ANAL_PACKET_BAD=7, ANAL_PACKET_IGNORED=8, ANAL_PACKET_PINGIN_LATE=9, ANAL_PACKET_PINGIN_ONTIME=10, ECHO_EVENT_REMOVED=11, ECHO_EVENT_NOTFOUND=12 };
+enum anonymous_32 { READ_SELECT_ERROR=0, READ_SELECT_TIMEOUT=1, READ_SOCKET_CLOSED=2, READ_RECV_ERROR=3, SEND_PINGOUT_SUCCESS=4, SEND_PINGOUT_ERROR=5, SEND_MEMORY_STARVATION=6, ANAL_PACKET_BAD=7, ANAL_PACKET_IGNORED=8, ANAL_PACKET_PINGIN_LATE=9, ANAL_PACKET_PINGIN_ONTIME=10, ECHO_EVENT_REMOVED=11, ECHO_EVENT_NOTFOUND=12 };
 
-// #anon_enum$SOCKET_ADDRESS_OK=0$SOCKET_ADDRESS_WRONG_FAMILY=1$SOCKET_ADDRESS_PROBLEM_RESOLVING=2$SOCKET_ADDRESS_ERROR=3
+// #anon_enum_SOCKET_ADDRESS_OK=0_SOCKET_ADDRESS_WRONG_FAMILY=1_SOCKET_ADDRESS_PROBLEM_RESOLVING=2_SOCKET_ADDRESS_ERROR=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_echo_request.h line 26
-enum anonymous$38 { SOCKET_ADDRESS_OK=0, SOCKET_ADDRESS_WRONG_FAMILY=1, SOCKET_ADDRESS_PROBLEM_RESOLVING=2, SOCKET_ADDRESS_ERROR=3 };
+enum anonymous_38 { SOCKET_ADDRESS_OK=0, SOCKET_ADDRESS_WRONG_FAMILY=1, SOCKET_ADDRESS_PROBLEM_RESOLVING=2, SOCKET_ADDRESS_ERROR=3 };
 
-// #anon_enum$TSP_REDIRECT_BROKER_TYPE_NONE=0$TSP_REDIRECT_BROKER_TYPE_FQDN=1$TSP_REDIRECT_BROKER_TYPE_IPV4=2$TSP_REDIRECT_BROKER_TYPE_IPV6=3
+// #anon_enum_TSP_REDIRECT_BROKER_TYPE_NONE=0_TSP_REDIRECT_BROKER_TYPE_FQDN=1_TSP_REDIRECT_BROKER_TYPE_IPV4=2_TSP_REDIRECT_BROKER_TYPE_IPV6=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 69
-enum anonymous$29 { TSP_REDIRECT_BROKER_TYPE_NONE=0, TSP_REDIRECT_BROKER_TYPE_FQDN=1, TSP_REDIRECT_BROKER_TYPE_IPV4=2, TSP_REDIRECT_BROKER_TYPE_IPV6=3 };
+enum anonymous_29 { TSP_REDIRECT_BROKER_TYPE_NONE=0, TSP_REDIRECT_BROKER_TYPE_FQDN=1, TSP_REDIRECT_BROKER_TYPE_IPV4=2, TSP_REDIRECT_BROKER_TYPE_IPV6=3 };
 
-// #anon_enum$TSP_REDIRECT_OK=0$TSP_REDIRECT_INTERNAL_ERR=1$TSP_REDIRECT_CANT_OPEN_FILE=2$TSP_REDIRECT_NO_LAST_SERVER=3$TSP_REDIRECT_CANT_WRITE_TO_FILE=4$TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST=5$TSP_REDIRECT_CANT_EXTRACT_PAYLOAD=6$TSP_REDIRECT_CANT_CREATE_LIST=7$TSP_REDIRECT_CANT_SORT_LIST=8$TSP_REDIRECT_CANT_LOG_REDIRECTION=9$TSP_REDIRECT_CANT_ALLOCATE_MEM=10$TSP_REDIRECT_ADDRESS_TRUNCATED=11$TSP_REDIRECT_CANT_GET_DISTANCES=12$TSP_REDIRECT_CANT_INSERT_BROKER_IN_LIST=13$TSP_REDIRECT_CANT_SAVE_BROKER_LIST=14$TSP_REDIRECT_EMPTY_BROKER_LIST=15$TSP_REDIRECT_TOO_MANY_BROKERS=16$TSP_REDIRECT_CANT_INIT_THREAD_ARG=17$TSP_REDIRECT_CANT_CREATE_THREAD=18$TSP_REDIRECT_CANT_WAIT_FOR_THREAD=19$TSP_REDIRECT_ECHO_REQUEST_TIMEOUT=20$TSP_REDIRECT_ECHO_REQUEST_ERROR=21$TSP_REDIRECT_CANT_MALLOC_THREAD_ARRAY=22$TSP_REDIRECT_CANT_MALLOC_THREAD_ARGS=23
+// #anon_enum_TSP_REDIRECT_OK=0_TSP_REDIRECT_INTERNAL_ERR=1_TSP_REDIRECT_CANT_OPEN_FILE=2_TSP_REDIRECT_NO_LAST_SERVER=3_TSP_REDIRECT_CANT_WRITE_TO_FILE=4_TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST=5_TSP_REDIRECT_CANT_EXTRACT_PAYLOAD=6_TSP_REDIRECT_CANT_CREATE_LIST=7_TSP_REDIRECT_CANT_SORT_LIST=8_TSP_REDIRECT_CANT_LOG_REDIRECTION=9_TSP_REDIRECT_CANT_ALLOCATE_MEM=10_TSP_REDIRECT_ADDRESS_TRUNCATED=11_TSP_REDIRECT_CANT_GET_DISTANCES=12_TSP_REDIRECT_CANT_INSERT_BROKER_IN_LIST=13_TSP_REDIRECT_CANT_SAVE_BROKER_LIST=14_TSP_REDIRECT_EMPTY_BROKER_LIST=15_TSP_REDIRECT_TOO_MANY_BROKERS=16_TSP_REDIRECT_CANT_INIT_THREAD_ARG=17_TSP_REDIRECT_CANT_CREATE_THREAD=18_TSP_REDIRECT_CANT_WAIT_FOR_THREAD=19_TSP_REDIRECT_ECHO_REQUEST_TIMEOUT=20_TSP_REDIRECT_ECHO_REQUEST_ERROR=21_TSP_REDIRECT_CANT_MALLOC_THREAD_ARRAY=22_TSP_REDIRECT_CANT_MALLOC_THREAD_ARGS=23
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 42
-enum anonymous$27 { TSP_REDIRECT_OK=0, TSP_REDIRECT_INTERNAL_ERR=1, TSP_REDIRECT_CANT_OPEN_FILE=2, TSP_REDIRECT_NO_LAST_SERVER=3, TSP_REDIRECT_CANT_WRITE_TO_FILE=4, TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST=5, TSP_REDIRECT_CANT_EXTRACT_PAYLOAD=6, TSP_REDIRECT_CANT_CREATE_LIST=7, TSP_REDIRECT_CANT_SORT_LIST=8, TSP_REDIRECT_CANT_LOG_REDIRECTION=9, TSP_REDIRECT_CANT_ALLOCATE_MEM=10, TSP_REDIRECT_ADDRESS_TRUNCATED=11, TSP_REDIRECT_CANT_GET_DISTANCES=12, TSP_REDIRECT_CANT_INSERT_BROKER_IN_LIST=13, TSP_REDIRECT_CANT_SAVE_BROKER_LIST=14, TSP_REDIRECT_EMPTY_BROKER_LIST=15, TSP_REDIRECT_TOO_MANY_BROKERS=16, TSP_REDIRECT_CANT_INIT_THREAD_ARG=17, TSP_REDIRECT_CANT_CREATE_THREAD=18, TSP_REDIRECT_CANT_WAIT_FOR_THREAD=19, TSP_REDIRECT_ECHO_REQUEST_TIMEOUT=20, TSP_REDIRECT_ECHO_REQUEST_ERROR=21, TSP_REDIRECT_CANT_MALLOC_THREAD_ARRAY=22, TSP_REDIRECT_CANT_MALLOC_THREAD_ARGS=23 };
+enum anonymous_27 { TSP_REDIRECT_OK=0, TSP_REDIRECT_INTERNAL_ERR=1, TSP_REDIRECT_CANT_OPEN_FILE=2, TSP_REDIRECT_NO_LAST_SERVER=3, TSP_REDIRECT_CANT_WRITE_TO_FILE=4, TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST=5, TSP_REDIRECT_CANT_EXTRACT_PAYLOAD=6, TSP_REDIRECT_CANT_CREATE_LIST=7, TSP_REDIRECT_CANT_SORT_LIST=8, TSP_REDIRECT_CANT_LOG_REDIRECTION=9, TSP_REDIRECT_CANT_ALLOCATE_MEM=10, TSP_REDIRECT_ADDRESS_TRUNCATED=11, TSP_REDIRECT_CANT_GET_DISTANCES=12, TSP_REDIRECT_CANT_INSERT_BROKER_IN_LIST=13, TSP_REDIRECT_CANT_SAVE_BROKER_LIST=14, TSP_REDIRECT_EMPTY_BROKER_LIST=15, TSP_REDIRECT_TOO_MANY_BROKERS=16, TSP_REDIRECT_CANT_INIT_THREAD_ARG=17, TSP_REDIRECT_CANT_CREATE_THREAD=18, TSP_REDIRECT_CANT_WAIT_FOR_THREAD=19, TSP_REDIRECT_ECHO_REQUEST_TIMEOUT=20, TSP_REDIRECT_ECHO_REQUEST_ERROR=21, TSP_REDIRECT_CANT_MALLOC_THREAD_ARRAY=22, TSP_REDIRECT_CANT_MALLOC_THREAD_ARGS=23 };
 
-// #anon_enum$TUNTYPE_V6V4=0$TUNTYPE_V6UDPV4=1$TUNTYPE_V4V6=2
+// #anon_enum_TUNTYPE_V6V4=0_TUNTYPE_V6UDPV4=1_TUNTYPE_V4V6=2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-messaging/gogocmessaging/gogocmsgdata.h line 54
-enum anonymous$22 { TUNTYPE_V6V4=0, TUNTYPE_V6UDPV4=1, TUNTYPE_V4V6=2 };
+enum anonymous_22 { TUNTYPE_V6V4=0, TUNTYPE_V6UDPV4=1, TUNTYPE_V4V6=2 };
 
-// #anon_enum$V6V4=1$V6UDPV4=2$V6ANYV4=3$V4V6=4$DSLITE=5
+// #anon_enum_V6V4=1_V6UDPV4=2_V6ANYV4=3_V4V6=4_DSLITE=5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/config.h line 44
-enum anonymous$23 { V6V4=1, V6UDPV4=2, V6ANYV4=3, V4V6=4, DSLITE=5 };
+enum anonymous_23 { V6V4=1, V6UDPV4=2, V6ANYV4=3, V4V6=4, DSLITE=5 };
 
-// tag-#anon#ST[*{S8}$S8$'realm'||*{S8}$S8$'nonce'||*{S8}$S8$'qop'||*{S8}$S8$'algorithm'||*{S8}$S8$'charset'||*{S8}$S8$'rspauth'|]
+// tag-#anon#ST[*{S8}_S8_'realm'||*{S8}_S8_'nonce'||*{S8}_S8_'qop'||*{S8}_S8_'algorithm'||*{S8}_S8_'charset'||*{S8}_S8_'rspauth'|]
 // file tsp_auth.c line 30
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[*{SYM#tag-nodeptr#}$SYM#tag-nodeptr#$'head'||*{SYM#tag-nodeptr#}$SYM#tag-nodeptr#$'tail'||*{SYM#tag-nodeptr#}$SYM#tag-nodeptr#$'cursor'||S32'size'||S32'sorted'||S32'item_deleted'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-nodeptr#}_SYM#tag-nodeptr#_'head'||*{SYM#tag-nodeptr#}_SYM#tag-nodeptr#_'tail'||*{SYM#tag-nodeptr#}_SYM#tag-nodeptr#_'cursor'||S32'size'||S32'sorted'||S32'item_deleted'||U32'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/deque.h line 32
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[*{U8}$U8$'buf'||U64'alloc'||U64'offset'||U64'end'|]
+// tag-#anon#ST[*{U8}_U8_'buf'||U64'alloc'||U64'offset'||U64'end'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/buffer.h line 30
 struct anonymous;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[BF{U32}$U32$'__w_stopval'||BF{U32}$U32$'__w_stopsig'||BF{U32}$U32$'$anon0'|]
+// tag-#anon#ST[BF{U32}_U32_'__w_stopval'||BF{U32}_U32_'__w_stopsig'||BF{U32}_U32_'_anon0'|]
 // file /usr/include/x86_64-linux-gnu/bits/waitstatus.h line 84
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[BF{U32}$U32$'__w_termsig'||BF{U32}$U32$'__w_coredump'||BF{U32}$U32$'__w_retcode'||BF{U32}$U32$'$anon0'|]
+// tag-#anon#ST[BF{U32}_U32_'__w_termsig'||BF{U32}_U32_'__w_coredump'||BF{U32}_U32_'__w_retcode'||BF{U32}_U32_'_anon0'|]
 // file /usr/include/x86_64-linux-gnu/bits/waitstatus.h line 69
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S32'_id'||U32'$pad0'||*{cS8}$cS8$'_str'|]
+// tag-#anon#ST[S32'_id'||U32'_pad0'||*{cS8}_cS8_'_str'|]
 // file src/gogocuistrings.c line 22
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[U16'encoding'||U16'parity'|]
 // file /usr/include/linux/hdlc/ioctl.h line 52
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]
+// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]
 // file /usr/include/linux/hdlc/ioctl.h line 39
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]
+// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]
 // file /usr/include/linux/hdlc/ioctl.h line 45
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[U32'dlci'|]
 // file /usr/include/linux/hdlc/ioctl.h line 67
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]
+// tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]
 // file /usr/include/linux/hdlc/ioctl.h line 71
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[U32'interval'||U32'timeout'|]
 // file /usr/include/linux/hdlc/ioctl.h line 76
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]
 // file /usr/include/linux/hdlc/ioctl.h line 57
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
-union anonymous$40;
+union anonymous_40;
 
-// tag-#anon#UN[*{SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#}$SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#$'raw_hdlc'||*{SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#}$SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#$'cisco'||*{SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#}$SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#$'fr'||*{SYM#tag-#anon#ST[U32'dlci'|]#}$SYM#tag-#anon#ST[U32'dlci'|]#$'fr_pvc'||*{SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]#}$SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]#$'fr_pvc_info'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]#}$SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]#$'sync'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]#}$SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]#$'te1'|]
+// tag-#anon#UN[*{SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#}_SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#_'raw_hdlc'||*{SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#}_SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#_'cisco'||*{SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#}_SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#_'fr'||*{SYM#tag-#anon#ST[U32'dlci'|]#}_SYM#tag-#anon#ST[U32'dlci'|]#_'fr_pvc'||*{SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]#}_SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]#_'fr_pvc_info'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]#}_SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]#_'sync'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]#}_SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]#_'te1'|]
 // file /usr/include/linux/if.h line 182
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[*{SYM#tag-wait#}$SYM#tag-wait#$'__uptr'||*{S32}$S32$'__iptr'|]
+// tag-#anon#UN[*{SYM#tag-wait#}_SYM#tag-wait#_'__uptr'||*{S32}_S32_'__iptr'|]
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 60
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[*{SYM#tag-wait#}$SYM#tag-wait#$'__uptr'||*{S32}$S32$'__iptr'|]$transparent
+// tag-#anon#UN[*{SYM#tag-wait#}_SYM#tag-wait#_'__uptr'||*{S32}_S32_'__iptr'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 60
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
-union anonymous$39;
+union anonymous_39;
 
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/linux/if.h line 205
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 129
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{V}$V$'ifru_data'||SYM#tag-if_settings#'ifru_settings'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{V}_V_'ifru_data'||SYM#tag-if_settings#'ifru_settings'|]
 // file /usr/include/linux/if.h line 210
-union anonymous$24;
+union anonymous_24;
 
 // tag-#anon#UN[SYM#tag-sockaddr_in#'in4'||SYM#tag-sockaddr_in6#'in6'|]
 // file icmp_echo_engine.c line 120
-union anonymous$31;
+union anonymous_31;
 
 // tag-ASN1_VALUE_st
 // file /usr/include/openssl/asn1.h line 299
@@ -561,16 +561,16 @@ signed int DH_size(const struct dh_st *);
 static unsigned short int DNSGenerateID(void);
 // DNSMessageCreate
 // file dns.c line 128
-static enum anonymous$10 DNSMessageCreate(char *Buffer, unsigned short int DNSid, char *Domain, char *Name, unsigned int TTL, char *AAAA, unsigned long int *Len_p);
+static enum anonymous_10 DNSMessageCreate(char *Buffer, unsigned short int DNSid, char *Domain, char *Name, unsigned int TTL, char *AAAA, unsigned long int *Len_p);
 // DNSNameEncode
 // file dns.c line 70
-static enum anonymous$10 DNSNameEncode(char **Pos_pp, char *Name, unsigned short int Offset);
+static enum anonymous_10 DNSNameEncode(char **Pos_pp, char *Name, unsigned short int Offset);
 // DNSUpdate
 // file dns.c line 236
-static enum anonymous$10 DNSUpdate(signed int Socket, char *Name, char *Domain, char *AAAA);
+static enum anonymous_10 DNSUpdate(signed int Socket, char *Name, char *Domain, char *AAAA);
 // DNSUpdateAddAAAA
 // file dns.c line 329
-enum anonymous$10 DNSUpdateAddAAAA(signed int Socket, char *Name, char *Domain, char *AAAA);
+enum anonymous_10 DNSUpdateAddAAAA(signed int Socket, char *Name, char *Domain, char *AAAA);
 // DNSUpdateClose
 // file dns.c line 320
 signed int DNSUpdateClose(signed int Socket);
@@ -579,7 +579,7 @@ signed int DNSUpdateClose(signed int Socket);
 signed int DNSUpdateConnect(char *Server);
 // DNSUpdateDelRRSets
 // file dns.c line 339
-enum anonymous$10 DNSUpdateDelRRSets(signed int Socket, char *Name, char *Domain);
+enum anonymous_10 DNSUpdateDelRRSets(signed int Socket, char *Name, char *Domain);
 // DSA_SIG_free
 // file /usr/include/openssl/dsa.h line 189
 void DSA_SIG_free(struct DSA_SIG_st *);
@@ -615,7 +615,7 @@ const struct env_md_st * EVP_sha1(void);
 static void Encode(unsigned char *output, unsigned int *input, unsigned int len);
 // ExtractChallenge
 // file tsp_auth.c line 195
-void ExtractChallenge(struct anonymous$36 *c, char *String);
+void ExtractChallenge(struct anonymous_36 *c, char *String);
 // FormatBrokerListAddr
 // file tsp_client.c line 875
 signed int FormatBrokerListAddr(struct stBrokerList *listElement, char **ppAddr);
@@ -645,22 +645,22 @@ signed int GetSizeOfNullTerminatedArray(char **a);
 unsigned char * HMAC(const struct env_md_st *, const void *, signed int, const unsigned char *, unsigned long int, unsigned char *, unsigned int *);
 // IEE_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/icmp_echo_engine.h line 65
-enum anonymous$26 IEE_destroy(void **pp_config);
+enum anonymous_26 IEE_destroy(void **pp_config);
 // IEE_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/icmp_echo_engine.h line 55
-enum anonymous$26 IEE_init(void **pp_config, enum anonymous$28 eng_mode, unsigned int send_interval, unsigned int echo_num, unsigned int echo_timeout, unsigned char echo_timeout_threshold, char *src, char *dst, signed int af, void (*send_clbk)(void), void (*recv_clbk)(double));
-// IEE_init::recv_clbk$object
+enum anonymous_26 IEE_init(void **pp_config, enum anonymous_28 eng_mode, unsigned int send_interval, unsigned int echo_num, unsigned int echo_timeout, unsigned char echo_timeout_threshold, char *src, char *dst, signed int af, void (*send_clbk)(void), void (*recv_clbk)(double));
+// IEE_init::recv_clbk_object
 //
-void recv_clbk$object(double);
-// IEE_init::send_clbk$object
+void recv_clbk_object(double);
+// IEE_init::send_clbk_object
 //
-void send_clbk$object(void);
+void send_clbk_object(void);
 // IEE_process
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/icmp_echo_engine.h line 67
-enum anonymous$26 IEE_process(void *p_config);
+enum anonymous_26 IEE_process(void *p_config);
 // IEE_stop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/icmp_echo_engine.h line 70
-enum anonymous$26 IEE_stop(void *p_config);
+enum anonymous_26 IEE_stop(void *p_config);
 // InitLogSystem
 // file tsp_client.c line 1856
 signed int InitLogSystem(const struct stConf *p_config);
@@ -669,7 +669,7 @@ signed int InitLogSystem(const struct stConf *p_config);
 void InitNetToolsArray(struct net_tools *nt_array);
 // InsertInChallegeStruct
 // file tsp_auth.c line 155
-signed int InsertInChallegeStruct(struct anonymous$36 *c, char *Token, char *Value);
+signed int InsertInChallegeStruct(struct anonymous_36 *c, char *Token, char *Value);
 // IsAddressInPrefix
 // file lib.c line 125
 signed int IsAddressInPrefix(const char *address, const char *prefix, const signed short int prefix_len);
@@ -681,19 +681,19 @@ signed int IsAll(char *AllowedChars, char *Value);
 signed int IsPresent(char *Value);
 // KA_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 47
-enum anonymous$8 KA_destroy(void **pp_engine);
+enum anonymous_8 KA_destroy(void **pp_engine);
 // KA_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 35
-enum anonymous$8 KA_init(void **pp_engine, unsigned int ka_send_interval, char *ka_src_addr, char *ka_dst_addr, signed int ka_af);
+enum anonymous_8 KA_init(void **pp_engine, unsigned int ka_send_interval, char *ka_src_addr, char *ka_dst_addr, signed int ka_af);
 // KA_qry_status
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 43
-enum anonymous$9 KA_qry_status(void *p_engine);
+enum anonymous_9 KA_qry_status(void *p_engine);
 // KA_start
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 41
-enum anonymous$8 KA_start(void *p_engine);
+enum anonymous_8 KA_start(void *p_engine);
 // KA_stop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 45
-enum anonymous$8 KA_stop(void *p_engine);
+enum anonymous_8 KA_stop(void *p_engine);
 // LogBufferLineToFile
 // file log.c line 313
 static signed int LogBufferLineToFile(char *LogLine, struct stLogConfiguration *configuration, signed int *OutputBufferChars);
@@ -825,88 +825,88 @@ static signed int ParseSyslogFacility(struct stConf *pConf, char *facility);
 void PrintUsage(char *message);
 // Q_BSearch
 // file deque.c line 805
-static signed int Q_BSearch(struct anonymous$37 *q, void *key, signed int (*Comp)(const void *, const void *));
-// Q_BSearch::Comp$object
+static signed int Q_BSearch(struct anonymous_37 *q, void *key, signed int (*Comp)(const void *, const void *));
+// Q_BSearch::Comp_object
 //
-signed int Comp$object(const void *, const void *);
+signed int Comp_object(const void *, const void *);
 // Q_DelCur
 // file deque.c line 542
-void * Q_DelCur(struct anonymous$37 *q);
+void * Q_DelCur(struct anonymous_37 *q);
 // Q_Empty
 // file deque.c line 191
-signed int Q_Empty(struct anonymous$37 *q);
+signed int Q_Empty(struct anonymous_37 *q);
 // Q_End
 // file deque.c line 171
-signed int Q_End(struct anonymous$37 *q);
+signed int Q_End(struct anonymous_37 *q);
 // Q_Find
 // file deque.c line 639
-signed int Q_Find(struct anonymous$37 *q, void *data, signed int (*Comp)(const void *, const void *));
-// Q_Find::Comp$object
+signed int Q_Find(struct anonymous_37 *q, void *data, signed int (*Comp)(const void *, const void *));
+// Q_Find::Comp_object
 //
-signed int Comp$object(const void *, const void *);
+signed int Comp_object(const void *, const void *);
 // Q_First
 // file deque.c line 230
-void * Q_First(struct anonymous$37 *q);
+void * Q_First(struct anonymous_37 *q);
 // Q_Get
 // file deque.c line 587
-void * Q_Get(struct anonymous$37 *q);
+void * Q_Get(struct anonymous_37 *q);
 // Q_Init
 // file deque.c line 127
-signed int Q_Init(struct anonymous$37 *q);
+signed int Q_Init(struct anonymous_37 *q);
 // Q_Insert
 // file deque.c line 891
-signed int Q_Insert(struct anonymous$37 *q, void *data, signed int (*Comp)(const void *, const void *));
-// Q_Insert::Comp$object
+signed int Q_Insert(struct anonymous_37 *q, void *data, signed int (*Comp)(const void *, const void *));
+// Q_Insert::Comp_object
 //
-signed int Comp$object(const void *, const void *);
+signed int Comp_object(const void *, const void *);
 // Q_Last
 // file deque.c line 255
-void * Q_Last(struct anonymous$37 *q);
+void * Q_Last(struct anonymous_37 *q);
 // Q_Next
 // file deque.c line 486
-void * Q_Next(struct anonymous$37 *q);
+void * Q_Next(struct anonymous_37 *q);
 // Q_PopHead
 // file deque.c line 397
-void * Q_PopHead(struct anonymous$37 *q);
+void * Q_PopHead(struct anonymous_37 *q);
 // Q_PopTail
 // file deque.c line 441
-void * Q_PopTail(struct anonymous$37 *q);
+void * Q_PopTail(struct anonymous_37 *q);
 // Q_Previous
 // file deque.c line 513
-void * Q_Previous(struct anonymous$37 *q);
+void * Q_Previous(struct anonymous_37 *q);
 // Q_PushHead
 // file deque.c line 280
-signed int Q_PushHead(struct anonymous$37 *q, void *d);
+signed int Q_PushHead(struct anonymous_37 *q, void *d);
 // Q_PushTail
 // file deque.c line 339
-signed int Q_PushTail(struct anonymous$37 *q, void *d);
+signed int Q_PushTail(struct anonymous_37 *q, void *d);
 // Q_Put
 // file deque.c line 610
-signed int Q_Put(struct anonymous$37 *q, void *data);
+signed int Q_Put(struct anonymous_37 *q, void *data);
 // Q_Seek
 // file deque.c line 850
-void * Q_Seek(struct anonymous$37 *q, void *data, signed int (*Comp)(const void *, const void *));
-// Q_Seek::Comp$object
+void * Q_Seek(struct anonymous_37 *q, void *data, signed int (*Comp)(const void *, const void *));
+// Q_Seek::Comp_object
 //
-signed int Comp$object(const void *, const void *);
+signed int Comp_object(const void *, const void *);
 // Q_Size
 // file deque.c line 210
-signed int Q_Size(struct anonymous$37 *q);
+signed int Q_Size(struct anonymous_37 *q);
 // Q_Sort
 // file deque.c line 725
-signed int Q_Sort(struct anonymous$37 *q, signed int (*Comp)(const void *, const void *));
-// Q_Sort::Comp$object
+signed int Q_Sort(struct anonymous_37 *q, signed int (*Comp)(const void *, const void *));
+// Q_Sort::Comp_object
 //
-signed int Comp$object(const void *, const void *);
+signed int Comp_object(const void *, const void *);
 // Q_Start
 // file deque.c line 151
-signed int Q_Start(struct anonymous$37 *q);
+signed int Q_Start(struct anonymous_37 *q);
 // QuickSort
 // file deque.c line 660
 static void QuickSort(void **list, signed int low, signed int high, signed int (*Comp)(const void *, const void *));
-// QuickSort::Comp$object
+// QuickSort::Comp_object
 //
-signed int Comp$object(const void *, const void *);
+signed int Comp_object(const void *, const void *);
 // RetrieveBrokerList
 // file tsp_client.c line 698
 signed int RetrieveBrokerList(struct __BROKER_LIST **ppBrokerList);
@@ -942,7 +942,7 @@ static signed int SkipBlanks(char *str, signed int pos);
 signed int TunInit(char *TunDevice);
 // TunMainLoop
 // file tsp_tun.c line 76
-unsigned int TunMainLoop(signed int tunfd, signed int Socket, enum anonymous$0 keepalive, signed int keepalive_interval, char *local_address_ipv6, char *keepalive_address);
+unsigned int TunMainLoop(signed int tunfd, signed int Socket, enum anonymous_0 keepalive, signed int keepalive_interval, char *local_address_ipv6, char *keepalive_address);
 // XMLParse
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/xmlparse.h line 67
 extern signed int XMLParse(char *str, struct stNode *nodes);
@@ -952,15 +952,15 @@ extern void __assert_fail(const char *, const char *, unsigned int, const char *
 // __bswap_32
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx);
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1);
-// __bswap_32$link2
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1);
+// __bswap_32_link2
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link2(unsigned int __bsx$link2);
-// __bswap_32$link3
+static inline unsigned int __bswap_32_link2(unsigned int __bsx_link2);
+// __bswap_32_link3
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link3(unsigned int __bsx$link3);
+static inline unsigned int __bswap_32_link3(unsigned int __bsx_link3);
 // __ctype_b_loc
 // file /usr/include/ctype.h line 79
 extern const unsigned short int ** __ctype_b_loc(void);
@@ -1002,25 +1002,25 @@ void _conv_ms_to_tv(double ms, struct timeval *tv);
 struct __ECHO_EVENT * _create_insert_echo_event(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct timeval *tv_sent, unsigned int echo_seq);
 // _create_ka_engine
 // file net_ka.c line 323
-enum anonymous$25 _create_ka_engine(struct __KA_ENGINE_PARMS **pp_engine);
+enum anonymous_25 _create_ka_engine(struct __KA_ENGINE_PARMS **pp_engine);
 // _decode_icmp_packet
 // file icmp_echo_engine.c line 902
-enum anonymous$32 _decode_icmp_packet(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, unsigned char *pkt_data, unsigned int pkt_len, unsigned int *echo_seq);
+enum anonymous_32 _decode_icmp_packet(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, unsigned char *pkt_data, unsigned int pkt_len, unsigned int *echo_seq);
 // _destroy_ka_engine
 // file net_ka.c line 358
-enum anonymous$25 _destroy_ka_engine(struct __KA_ENGINE_PARMS **pp_engine);
+enum anonymous_25 _destroy_ka_engine(struct __KA_ENGINE_PARMS **pp_engine);
 // _do_read
 // file icmp_echo_engine.c line 812
-enum anonymous$32 _do_read(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct timeval *tv_delay, unsigned int *echo_seq);
+enum anonymous_32 _do_read(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct timeval *tv_delay, unsigned int *echo_seq);
 // _do_read_wrap
 // file icmp_echo_engine.c line 661
-enum anonymous$26 _do_read_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct timeval *tv_ref);
+enum anonymous_26 _do_read_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct timeval *tv_ref);
 // _do_send
 // file icmp_echo_engine.c line 533
-enum anonymous$32 _do_send(struct __ICMP_ECHO_ENGINE_PARMS *p_engine);
+enum anonymous_32 _do_send(struct __ICMP_ECHO_ENGINE_PARMS *p_engine);
 // _do_send_wrap
 // file icmp_echo_engine.c line 490
-enum anonymous$26 _do_send_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine);
+enum anonymous_26 _do_send_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine);
 // _free_echo_event_list
 // file icmp_echo_engine.c line 1209
 void _free_echo_event_list(struct __ECHO_EVENT *p_event);
@@ -1038,28 +1038,28 @@ void _ka_send_callback(void);
 void * _ka_start_thread(void *arg);
 // _remove_free_echo_event
 // file icmp_echo_engine.c line 1171
-enum anonymous$32 _remove_free_echo_event(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, unsigned int echo_seq);
+enum anonymous_32 _remove_free_echo_event(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, unsigned int echo_seq);
 // add_dsakey_to_keyfile
 // file tsp_auth_passdss.c line 228
-signed int add_dsakey_to_keyfile(struct dsa_st *dsa, char *host, char *filename, enum anonymous$0 autoaccept);
+signed int add_dsakey_to_keyfile(struct dsa_st *dsa, char *host, char *filename, enum anonymous_0 autoaccept);
 // ask
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/cli.h line 14
 signed int ask(char *question, ...);
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1);
-// atoi$link2
+static inline signed int atoi_link1(const char *__nptr_link1);
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2);
-// atoi$link3
+static inline signed int atoi_link2(const char *__nptr_link2);
+// atoi_link3
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link3(const char *__nptr$link3);
-// atoi$link4
+static inline signed int atoi_link3(const char *__nptr_link3);
+// atoi_link4
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link4(const char *__nptr$link4);
+static inline signed int atoi_link4(const char *__nptr_link4);
 // atol
 // file /usr/include/stdlib.h line 283
 static inline signed long int atol(const char *__nptr);
@@ -1215,16 +1215,16 @@ extern void freeaddrinfo(struct addrinfo *);
 extern signed long int ftell(struct _IO_FILE *);
 // getSocketAddress
 // file net_echo_request.c line 388
-enum anonymous$38 getSocketAddress(char *server, enum anonymous$29 address_type, enum anonymous$23 tunnel_mode, struct addrinfo **address_info_root, struct addrinfo **address_info);
+enum anonymous_38 getSocketAddress(char *server, enum anonymous_29 address_type, enum anonymous_23 tunnel_mode, struct addrinfo **address_info_root, struct addrinfo **address_info);
 // get_always_use_last_server
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 75
-void get_always_use_last_server(enum anonymous$0 *);
+void get_always_use_last_server(enum anonymous_0 *);
 // get_auth_method
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 59
 void get_auth_method(char **);
 // get_auto_retry_connect
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 60
-void get_auto_retry_connect(enum anonymous$0 *);
+void get_auto_retry_connect(enum anonymous_0 *);
 // get_broker_list_file
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 73
 void get_broker_list_file(char **);
@@ -1245,10 +1245,10 @@ void get_gogoc_dir(char **);
 void get_haccess_document_root(char **);
 // get_haccess_proxy_enabled
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 82
-void get_haccess_proxy_enabled(enum anonymous$0 *);
+void get_haccess_proxy_enabled(enum anonymous_0 *);
 // get_haccess_web_enabled
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 83
-void get_haccess_web_enabled(enum anonymous$0 *);
+void get_haccess_web_enabled(enum anonymous_0 *);
 // get_host_type
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 54
 void get_host_type(char **);
@@ -1263,7 +1263,7 @@ void get_if_tun_v6v4(char **);
 void get_ifprefix(char **);
 // get_keepalive
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 63
-void get_keepalive(enum anonymous$0 *);
+void get_keepalive(enum anonymous_0 *);
 // get_keepalive_interval
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 64
 void get_keepalive_interval(signed int *);
@@ -1278,10 +1278,10 @@ void get_log(const char *, signed short int *);
 void get_log_filename(char **);
 // get_log_rotation
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 78
-void get_log_rotation(enum anonymous$0 *);
+void get_log_rotation(enum anonymous_0 *);
 // get_log_rotation_del
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 80
-void get_log_rotation_del(enum anonymous$0 *);
+void get_log_rotation_del(enum anonymous_0 *);
 // get_log_rotation_sz
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 79
 void get_log_rotation_sz(signed int *);
@@ -1299,7 +1299,7 @@ void get_passwd(char **);
 void get_prefixlen(signed int *);
 // get_proxy_client
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 72
-void get_proxy_client(enum anonymous$0 *);
+void get_proxy_client(enum anonymous_0 *);
 // get_retry_delay
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogoc_c_wrapper.h line 61
 void get_retry_delay(signed int *);
@@ -1464,13 +1464,13 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous$2 *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous_2 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 784
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -1494,7 +1494,7 @@ extern signed int rttengine_init(struct rttengine_statistics *s);
 extern float rttengine_update(struct rttengine_statistics *s, unsigned int rtt);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$4 *, struct anonymous$4 *, struct anonymous$4 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_4 *, struct anonymous_4 *, struct anonymous_4 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -1581,16 +1581,16 @@ extern signed int system(const char *);
 extern signed long int time(signed long int *);
 // timeEchoRequestReply
 // file net_echo_request.c line 238
-enum anonymous$27 timeEchoRequestReply(signed int sfd, char *address, struct rttengine_statistics *engine, unsigned int *distance);
+enum anonymous_27 timeEchoRequestReply(signed int sfd, char *address, struct rttengine_statistics *engine, unsigned int *distance);
 // tolower
 // file /usr/include/ctype.h line 215
 static inline signed int tolower(signed int __c);
-// tolower$link1
+// tolower_link1
 // file /usr/include/ctype.h line 215
-static inline signed int tolower$link1(signed int __c$link1);
+static inline signed int tolower_link1(signed int __c_link1);
 // tspAddBrokerToList
 // file tsp_redirect.c line 42
-enum anonymous$27 tspAddBrokerToList(struct stBrokerList **broker_list, char *address, enum anonymous$29 address_type, unsigned int distance);
+enum anonymous_27 tspAddBrokerToList(struct stBrokerList **broker_list, char *address, enum anonymous_29 address_type, unsigned int distance);
 // tspAddPayloadString
 // file tsp_client.c line 173
 char * tspAddPayloadString(struct stPayload *Payload, char *Addition);
@@ -1617,10 +1617,10 @@ unsigned int tspClose(signed int sock, struct net_tools *nt);
 unsigned int tspConnect(signed int *p_sock, char *srvname, unsigned short int srvport, struct net_tools *nt);
 // tspCreateBrokerList
 // file tsp_redirect.c line 166
-enum anonymous$27 tspCreateBrokerList(struct stTunnel *tunnel_info, struct stBrokerList **broker_list, signed int *broker_count);
+enum anonymous_27 tspCreateBrokerList(struct stTunnel *tunnel_info, struct stBrokerList **broker_list, signed int *broker_count);
 // tspDoEchoRequest
 // file net_echo_request.c line 495
-extern enum anonymous$27 tspDoEchoRequest(char *address, enum anonymous$29 address_type, struct stConf *conf, unsigned int *distance);
+extern enum anonymous_27 tspDoEchoRequest(char *address, enum anonymous_29 address_type, struct stConf *conf, unsigned int *distance);
 // tspExtractCapability
 // file tsp_cap.c line 26
 unsigned int tspExtractCapability(char *String);
@@ -1635,7 +1635,7 @@ char * tspFormatCapabilities(char *szBuffer, const unsigned long int bufLen, con
 void tspFree(char *var);
 // tspFreeBrokerList
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 92
-extern enum anonymous$27 tspFreeBrokerList(struct stBrokerList *broker_list);
+extern enum anonymous_27 tspFreeBrokerList(struct stBrokerList *broker_list);
 // tspFreeLinkedList
 // file xml_tun.c line 337
 void tspFreeLinkedList(struct stLinkedList *list);
@@ -1644,7 +1644,7 @@ void tspFreeLinkedList(struct stLinkedList *list);
 void * tspGetBrokerDistance(void *threadarg);
 // tspGetBrokerDistances
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 88
-extern enum anonymous$27 tspGetBrokerDistances(struct stBrokerList *broker_list, signed int broker_count, struct stConf *conf);
+extern enum anonymous_27 tspGetBrokerDistances(struct stBrokerList *broker_list, signed int broker_count, struct stConf *conf);
 // tspGetCapabilities
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_cap.h line 45
 unsigned int tspGetCapabilities(signed int socket, struct net_tools *nt, unsigned int *capability, signed int version_index, struct stConf *conf, struct stBrokerList **broker_list);
@@ -1668,13 +1668,13 @@ const char * tspGetTspStatusStr(signed int tsp_status);
 extern signed int tspGoDaemon(struct stConf *c);
 // tspHandleRedirect
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 93
-extern enum anonymous$27 tspHandleRedirect(char *payload, struct stConf *conf, struct stBrokerList **broker_list);
+extern enum anonymous_27 tspHandleRedirect(char *payload, struct stConf *conf, struct stBrokerList **broker_list);
 // tspInitialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/config.h line 148
 unsigned int tspInitialize(signed int argc, char **argv, struct stConf *pConf);
 // tspInsertInBrokerList
 // file tsp_redirect.c line 246
-enum anonymous$27 tspInsertInBrokerList(struct stBrokerList *new_element, struct stBrokerList **sorted_list);
+enum anonymous_27 tspInsertInBrokerList(struct stBrokerList *new_element, struct stBrokerList **sorted_list);
 // tspIsRedirectStatus
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 90
 extern signed int tspIsRedirectStatus(signed int status);
@@ -1689,10 +1689,10 @@ signed long int tspLeaseGetExpTime(const signed long int tun_lifetime);
 void tspLogOSInfo(void);
 // tspLogReceivedRedirection
 // file tsp_redirect.c line 331
-enum anonymous$27 tspLogReceivedRedirection(char *payload, struct stConf *conf);
+enum anonymous_27 tspLogReceivedRedirection(char *payload, struct stConf *conf);
 // tspLogRedirectionList
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 91
-extern enum anonymous$27 tspLogRedirectionList(struct stBrokerList *broker_list, signed int sorted);
+extern enum anonymous_27 tspLogRedirectionList(struct stBrokerList *broker_list, signed int sorted);
 // tspMain
 // file tsp_client.c line 921
 signed int tspMain(signed int argc, char **argv);
@@ -1701,13 +1701,13 @@ signed int tspMain(signed int argc, char **argv);
 unsigned int tspPerformTunnelLoop(struct __TUNNEL_LOOP_CONFIG * const pTunLoopCfg);
 // tspReadBrokerListFromFile
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 96
-extern enum anonymous$27 tspReadBrokerListFromFile(char *broker_list_file, struct stBrokerList **broker_list);
+extern enum anonymous_27 tspReadBrokerListFromFile(char *broker_list_file, struct stBrokerList **broker_list);
 // tspReadConfigFile
 // file config.c line 92
 unsigned int tspReadConfigFile(char *szFile, struct stConf *pConf);
 // tspReadLastServerFromFile
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 94
-extern enum anonymous$27 tspReadLastServerFromFile(char *last_server_file, char *buffer);
+extern enum anonymous_27 tspReadLastServerFromFile(char *last_server_file, char *buffer);
 // tspSend
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_net.h line 48
 signed int tspSend(signed int socket, struct stPayload *pl, struct net_tools *nt);
@@ -1731,7 +1731,7 @@ extern signed int tspSetupInterfaceLocal(struct stConf *pConf, struct stTunnel *
 unsigned int tspSetupTunnel(struct stConf *conf, struct net_tools *nt, signed int version_index, struct stBrokerList **broker_list);
 // tspSortBrokerList
 // file tsp_redirect.c line 278
-enum anonymous$27 tspSortBrokerList(struct stBrokerList **broker_list, struct stConf *conf, signed int broker_count);
+enum anonymous_27 tspSortBrokerList(struct stBrokerList **broker_list, struct stConf *conf, signed int broker_count);
 // tspStartLocal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_client.h line 52
 extern unsigned int tspStartLocal(signed int socket, struct stConf *c, struct stTunnel *t, struct net_tools *nt);
@@ -1749,10 +1749,10 @@ unsigned int tspTunnelNegotiation(signed int socket, struct stTunnel *tunnel_inf
 unsigned int tspUpdateSourceAddr(struct stConf *pConf, signed int fd);
 // tspWriteBrokerListToFile
 // file tsp_redirect.c line 489
-extern enum anonymous$27 tspWriteBrokerListToFile(char *broker_list_file, struct stBrokerList *broker_list);
+extern enum anonymous_27 tspWriteBrokerListToFile(char *broker_list_file, struct stBrokerList *broker_list);
 // tspWriteLastServerToFile
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 95
-extern enum anonymous$27 tspWriteLastServerToFile(char *last_server_file, char *last_server);
+extern enum anonymous_27 tspWriteLastServerToFile(char *last_server_file, char *last_server);
 // tspXMLParse
 // file xml_tun.c line 425
 signed int tspXMLParse(char *Data, struct stTunnel *Tunnel);
@@ -1779,12 +1779,12 @@ signed int validate_tunnel_info(const struct stTunnel *pTunnelInfo);
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // wait
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 102
-extern signed int wait(union anonymous$6);
+extern signed int wait(union anonymous_6);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$36
+struct anonymous_36
 {
   // realm
   char *realm;
@@ -1800,7 +1800,7 @@ struct anonymous$36
   char *rspauth;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // head
   struct nodeptr *head;
@@ -1828,23 +1828,23 @@ struct anonymous
   unsigned long int end;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // __w_stopval
   unsigned int __w_stopval : 8;
   // __w_stopsig
   unsigned int __w_stopsig : 8;
-  // $anon0
-  unsigned int $anon0 : 16;
+  // _anon0
+  unsigned int _anon0 : 16;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // __w_termsig
   unsigned int __w_termsig : 7;
@@ -1852,11 +1852,11 @@ struct anonymous$33
   unsigned int __w_coredump : 1;
   // __w_retcode
   unsigned int __w_retcode : 8;
-  // $anon0
-  unsigned int $anon0 : 16;
+  // _anon0
+  unsigned int _anon0 : 16;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // _id
   signed int _id;
@@ -1864,7 +1864,7 @@ struct anonymous$3
   const char *_str;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // encoding
   unsigned short int encoding;
@@ -1872,7 +1872,7 @@ struct anonymous$13
   unsigned short int parity;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // clock_rate
   unsigned int clock_rate;
@@ -1882,7 +1882,7 @@ struct anonymous$11
   unsigned short int loopback;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // clock_rate
   unsigned int clock_rate;
@@ -1894,13 +1894,13 @@ struct anonymous$12
   unsigned int slot_map;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // dlci
   unsigned int dlci;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // dlci
   unsigned int dlci;
@@ -1908,7 +1908,7 @@ struct anonymous$16
   char master[16l];
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // interval
   unsigned int interval;
@@ -1916,7 +1916,7 @@ struct anonymous$17
   unsigned int timeout;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // t391
   unsigned int t391;
@@ -1934,7 +1934,7 @@ struct anonymous$14
   unsigned short int dce;
 };
 
-union anonymous$40
+union anonymous_40
 {
   // ptr
   char *ptr;
@@ -1980,25 +1980,25 @@ union anonymous$40
   struct ASN1_VALUE_st *asn1_value;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // raw_hdlc
-  struct anonymous$13 *raw_hdlc;
+  struct anonymous_13 *raw_hdlc;
   // cisco
-  struct anonymous$17 *cisco;
+  struct anonymous_17 *cisco;
   // fr
-  struct anonymous$14 *fr;
+  struct anonymous_14 *fr;
   // fr_pvc
-  struct anonymous$15 *fr_pvc;
+  struct anonymous_15 *fr_pvc;
   // fr_pvc_info
-  struct anonymous$16 *fr_pvc_info;
+  struct anonymous_16 *fr_pvc_info;
   // sync
-  struct anonymous$11 *sync;
+  struct anonymous_11 *sync;
   // te1
-  struct anonymous$12 *te1;
+  struct anonymous_12 *te1;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __uptr
   union wait *__uptr;
@@ -2006,7 +2006,7 @@ union anonymous$5
   signed int *__iptr;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __uptr
   union wait *__uptr;
@@ -2014,7 +2014,7 @@ union anonymous$6
   signed int *__iptr;
 } __attribute__ ((__transparent_union__));
 
-union anonymous$39
+union anonymous_39
 {
   // cb_1
   void (*cb_1)(signed int, signed int, void *);
@@ -2022,13 +2022,13 @@ union anonymous$39
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$20
+union anonymous_20
 {
   // ifrn_name
   char ifrn_name[16l];
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2038,7 +2038,7 @@ union anonymous$7
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __size
   char __size[4l];
@@ -2074,7 +2074,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2115,10 +2115,10 @@ struct if_settings
   // size
   unsigned int size;
   // ifs_ifsu
-  union anonymous$19 ifs_ifsu;
+  union anonymous_19 ifs_ifsu;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -2169,7 +2169,7 @@ struct sockaddr_in
 struct in6_addr
 {
   // __in6_u
-  union anonymous$7 __in6_u;
+  union anonymous_7 __in6_u;
 };
 
 struct sockaddr_in6
@@ -2186,7 +2186,7 @@ struct sockaddr_in6
   unsigned int sin6_scope_id;
 };
 
-union anonymous$31
+union anonymous_31
 {
   // in4
   struct sockaddr_in in4;
@@ -2327,11 +2327,11 @@ struct __HACCESS_CONFIG_INFO
 struct __HACCESS_STATUS_INFO
 {
   // haccess_proxy_status
-  enum anonymous$18 haccess_proxy_status;
+  enum anonymous_18 haccess_proxy_status;
   // haccess_web_status
-  enum anonymous$18 haccess_web_status;
+  enum anonymous_18 haccess_web_status;
   // haccess_devmapmod_status
-  enum anonymous$18 haccess_devmapmod_status;
+  enum anonymous_18 haccess_devmapmod_status;
   // haccess_devmap_statuses
   struct __MAPPING_STATUS *haccess_devmap_statuses;
 };
@@ -2371,9 +2371,9 @@ struct __ICMP_ECHO_ENGINE_PARMS
   // icmp_saf
   signed int icmp_saf;
   // echo_addr_src
-  union anonymous$31 echo_addr_src;
+  union anonymous_31 echo_addr_src;
   // echo_addr_dst
-  union anonymous$31 echo_addr_dst;
+  union anonymous_31 echo_addr_dst;
 };
 
 struct __ICMP_ECHO_HEADER
@@ -2413,7 +2413,7 @@ struct __KA_ENGINE_PARMS
   // ka_thread_id
   unsigned long int ka_thread_id;
   // ka_status
-  enum anonymous$9 ka_status;
+  enum anonymous_9 ka_status;
   // p_echo_engine
   void *p_echo_engine;
 };
@@ -2423,7 +2423,7 @@ struct __MAPPING_STATUS
   // device_name
   char *device_name;
   // mapping_status
-  enum anonymous$30 mapping_status;
+  enum anonymous_30 mapping_status;
   // next
   struct __MAPPING_STATUS *next;
 };
@@ -2431,7 +2431,7 @@ struct __MAPPING_STATUS
 struct __STATUS_INFO
 {
   // eStatus
-  enum anonymous$21 eStatus;
+  enum anonymous_21 eStatus;
   // nStatus
   signed int nStatus;
 };
@@ -2449,7 +2449,7 @@ struct __TUNNEL_INFO
   // szBrokerName
   char *szBrokerName;
   // eTunnelType
-  enum anonymous$22 eTunnelType;
+  enum anonymous_22 eTunnelType;
   // szIPV4AddrLocalEndpoint
   char *szIPV4AddrLocalEndpoint;
   // szIPV6AddrLocalEndpoint
@@ -2535,7 +2535,7 @@ struct asn1_type_st
   // type
   signed int type;
   // value
-  union anonymous$40 value;
+  union anonymous_40 value;
 };
 
 struct bignum_st
@@ -2625,7 +2625,7 @@ struct bn_gencb_st
   // arg
   void *arg;
   // cb
-  union anonymous$39 cb;
+  union anonymous_39 cb;
 };
 
 struct bn_mont_ctx_st
@@ -2887,9 +2887,9 @@ struct evp_cipher_st
 struct ifreq
 {
   // ifr_ifrn
-  union anonymous$20 ifr_ifrn;
+  union anonymous_20 ifr_ifrn;
   // ifr_ifru
-  union anonymous$24 ifr_ifru;
+  union anonymous_24 ifr_ifru;
 };
 
 struct net_tools
@@ -2977,7 +2977,7 @@ struct stBrokerList
   // address
   char address[255l];
   // address_type
-  enum anonymous$29 address_type;
+  enum anonymous_29 address_type;
   // distance
   unsigned int distance;
   // next
@@ -3061,31 +3061,31 @@ struct stConf
   // log_level_file
   signed short int log_level_file;
   // keepalive
-  enum anonymous$0 keepalive;
+  enum anonymous_0 keepalive;
   // syslog
-  enum anonymous$0 syslog;
+  enum anonymous_0 syslog;
   // proxy_client
-  enum anonymous$0 proxy_client;
+  enum anonymous_0 proxy_client;
   // log_rotation
-  enum anonymous$0 log_rotation;
+  enum anonymous_0 log_rotation;
   // log_rotation_delete
-  enum anonymous$0 log_rotation_delete;
+  enum anonymous_0 log_rotation_delete;
   // always_use_same_server
-  enum anonymous$0 always_use_same_server;
+  enum anonymous_0 always_use_same_server;
   // auto_retry_connect
-  enum anonymous$0 auto_retry_connect;
+  enum anonymous_0 auto_retry_connect;
   // tunnel_mode
-  enum anonymous$23 tunnel_mode;
+  enum anonymous_23 tunnel_mode;
   // haccess_web_enabled
-  enum anonymous$0 haccess_web_enabled;
+  enum anonymous_0 haccess_web_enabled;
   // haccess_proxy_enabled
-  enum anonymous$0 haccess_proxy_enabled;
+  enum anonymous_0 haccess_proxy_enabled;
   // boot_mode
-  enum anonymous$0 boot_mode;
+  enum anonymous_0 boot_mode;
   // nodaemon
-  enum anonymous$0 nodaemon;
+  enum anonymous_0 nodaemon;
   // no_questions
-  enum anonymous$0 no_questions;
+  enum anonymous_0 no_questions;
   // addr_local_v4
   char addr_local_v4[46l];
   // port_local_v4
@@ -3313,9 +3313,9 @@ union wait
   // w_status
   signed int w_status;
   // __wait_terminated
-  struct anonymous$33 __wait_terminated;
+  struct anonymous_33 __wait_terminated;
   // __wait_stopped
-  struct anonymous$34 __wait_stopped;
+  struct anonymous_34 __wait_stopped;
 };
 
 
@@ -3571,7 +3571,7 @@ struct __STATUS_INFO gStatusInfo;
 struct __TUNNEL_INFO gTunnelInfo;
 // gogocUIStrings
 // file src/gogocuistrings.c line 25
-static const struct anonymous$3 gogocUIStrings[70l] = { { ._id=(signed int)0x00010000, ._str="Name=Value Parser Error" },
+static const struct anonymous_3 gogocUIStrings[70l] = { { ._id=(signed int)0x00010000, ._str="Name=Value Parser Error" },
     { ._id=(signed int)0x00010001, ._str="Failed to open specified file." },
     { ._id=(signed int)0x00010002, ._str="Bad configuration file." },
     { ._id=(signed int)0x00010003, ._str="Failed to open file to write configuration data." },
@@ -3641,9 +3641,9 @@ static const struct anonymous$3 gogocUIStrings[70l] = { { ._id=(signed int)0x000
     { ._id=(signed int)0x00040030, ._str="(keepalive=)Keep-alives cannot be turned on when proxy mode is on." },
     { ._id=(signed int)0x00040031, ._str="(retry_delay_max=)Retry delay max must be between 0 and 3600." },
     { ._id=(signed int)0x00040032, ._str="(retry_delay_max=)Retry delay max must be greater than retry delay." } };
-// gogocUIStrings$link1
+// gogocUIStrings_link1
 // file src/gogocuistrings.c line 29
-static const struct anonymous$3 gogocUIStrings$link1[44l] = { { ._id=(signed int)0x00000000, ._str="SUCCESS" },
+static const struct anonymous_3 gogocUIStrings_link1[44l] = { { ._id=(signed int)0x00000000, ._str="SUCCESS" },
     { ._id=(signed int)0x00000001, ._str="Failed writing on the named pipe." },
     { ._id=(signed int)0x00000002, ._str="Failed \"peeking\" IO status on named pipe." },
     { ._id=(signed int)0x00000003, ._str="Failed reading on the named pipe." },
@@ -3698,7 +3698,7 @@ signed int indSigHUP = 0;
 static signed int keepalive;
 // logMutex
 // file log.c line 24
-union anonymous$1 logMutex;
+union anonymous_1 logMutex;
 // optarg
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-pal/defs/pal_getopt.def line 18
 extern char *optarg;
@@ -3738,10 +3738,10 @@ static struct stTunnel *theTunnelInfo;
 static signed int Assign(char *str, char **toStr)
 {
   char *tol;
-  signed int tmp_statement_expression$1;
-  signed int tmp_if_expr$3;
-  const signed int **return_value___ctype_tolower_loc$2;
-  const signed int **return_value___ctype_tolower_loc$4;
+  signed int tmp_statement_expression_1;
+  signed int tmp_if_expr_3;
+  const signed int **return_value___ctype_tolower_loc_2;
+  const signed int **return_value___ctype_tolower_loc_4;
   if(str == ((char *)NULL))
     return 0;
 
@@ -3752,14 +3752,14 @@ static signed int Assign(char *str, char **toStr)
     {
       signed int __res;
       __res=tolower((signed int)*tol);
-      tmp_statement_expression$1 = __res;
-      *tol = (char)tmp_statement_expression$1;
+      tmp_statement_expression_1 = __res;
+      *tol = (char)tmp_statement_expression_1;
     }
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(str);
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc(return_value_strlen$5 + (unsigned long int)1);
-    *toStr = (char *)return_value_malloc$6;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(str);
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc(return_value_strlen_5 + (unsigned long int)1);
+    *toStr = (char *)return_value_malloc_6;
     if(*toStr == ((char *)NULL))
     {
       printf("Assign: Memory allocation error!\n");
@@ -3784,9 +3784,9 @@ static signed int AssignToList(char *str, struct stLinkedList **toList)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct stLinkedList) /*16ul*/ );
-    ll = (struct stLinkedList *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct stLinkedList) /*16ul*/ );
+    ll = (struct stLinkedList *)return_value_malloc_1;
     if(ll == ((struct stLinkedList *)NULL))
     {
       printf("AssignToList: Memory allocation error!\n");
@@ -3795,11 +3795,11 @@ static signed int AssignToList(char *str, struct stLinkedList **toList)
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(str);
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(return_value_strlen$2 + (unsigned long int)1);
-      ll->Value = (char *)return_value_malloc$3;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(str);
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(return_value_strlen_2 + (unsigned long int)1);
+      ll->Value = (char *)return_value_malloc_3;
       if(ll->Value == ((char *)NULL))
       {
         printf("AssignToList: Memory allocation error!\n");
@@ -3835,13 +3835,13 @@ unsigned int AuthANONYMOUS(signed int socket, struct net_tools *nt, struct stCon
   else
   {
     tsp_status=tspGetStatusCode(Buffer);
-    signed int return_value_tspIsRedirectStatus$2;
-    return_value_tspIsRedirectStatus$2=tspIsRedirectStatus(tsp_status);
-    if(!(return_value_tspIsRedirectStatus$2 == 0))
+    signed int return_value_tspIsRedirectStatus_2;
+    return_value_tspIsRedirectStatus_2=tspIsRedirectStatus(tsp_status);
+    if(!(return_value_tspIsRedirectStatus_2 == 0))
     {
-      enum anonymous$27 return_value_tspHandleRedirect$1;
-      return_value_tspHandleRedirect$1=tspHandleRedirect(Buffer, conf, broker_list);
-      if((signed int)return_value_tspHandleRedirect$1 == TSP_REDIRECT_OK)
+      enum anonymous_27 return_value_tspHandleRedirect_1;
+      return_value_tspHandleRedirect_1=tspHandleRedirect(Buffer, conf, broker_list);
+      if((signed int)return_value_tspHandleRedirect_1 == TSP_REDIRECT_OK)
         return (unsigned int)(57345 | 5 << 16);
 
       else
@@ -3850,9 +3850,9 @@ unsigned int AuthANONYMOUS(signed int socket, struct net_tools *nt, struct stCon
 
     if(!(tsp_status == 200))
     {
-      const char *return_value_tspGetTspStatusStr$3;
-      return_value_tspGetTspStatusStr$3=tspGetTspStatusStr(tsp_status);
-      Display(1, (enum tSeverityLevel)ELError, "AuthANONYMOUS", "Unknown TSP error during authentication. (%s)", return_value_tspGetTspStatusStr$3);
+      const char *return_value_tspGetTspStatusStr_3;
+      return_value_tspGetTspStatusStr_3=tspGetTspStatusStr(tsp_status);
+      Display(1, (enum tSeverityLevel)ELError, "AuthANONYMOUS", "Unknown TSP error during authentication. (%s)", return_value_tspGetTspStatusStr_3);
       return (unsigned int)(13 | 5 << 16);
     }
 
@@ -3872,21 +3872,21 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
   char BufferIn[4096l];
   signed long int cnonce;
   cnonce=time((signed long int *)(void *)0);
-  struct anonymous$36 c;
+  struct anonymous_36 c;
   signed int tsp_status;
   memset((void *)BufferIn, 0, sizeof(char [4096l]) /*4096ul*/ );
   signed int return_value;
   return_value=nt->netsendrecv(socket, string, (signed int)sizeof(char [26l]) /*26ul*/ , BufferIn, (signed int)sizeof(char [4096l]) /*4096ul*/ );
-  _Bool tmp_if_expr$29;
-  unsigned long int return_value_strlen$25;
-  _Bool tmp_if_expr$28;
-  signed int tmp_statement_expression$26;
-  unsigned long int return_value_strlen$20;
-  char *return_value_md5$21;
-  unsigned long int return_value_strlen$22;
-  char *return_value_md5$23;
-  _Bool tmp_if_expr$39;
-  unsigned long int tmp_post$38;
+  _Bool tmp_if_expr_29;
+  unsigned long int return_value_strlen_25;
+  _Bool tmp_if_expr_28;
+  signed int tmp_statement_expression_26;
+  unsigned long int return_value_strlen_20;
+  char *return_value_md5_21;
+  unsigned long int return_value_strlen_22;
+  char *return_value_md5_23;
+  _Bool tmp_if_expr_39;
+  unsigned long int tmp_post_38;
   if(return_value == -1)
   {
     Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Failed to write/read on network socket.");
@@ -3896,13 +3896,13 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
   else
   {
     tsp_status=tspGetStatusCode(BufferIn);
-    signed int return_value_tspIsRedirectStatus$2;
-    return_value_tspIsRedirectStatus$2=tspIsRedirectStatus(tsp_status);
-    if(!(return_value_tspIsRedirectStatus$2 == 0))
+    signed int return_value_tspIsRedirectStatus_2;
+    return_value_tspIsRedirectStatus_2=tspIsRedirectStatus(tsp_status);
+    if(!(return_value_tspIsRedirectStatus_2 == 0))
     {
-      enum anonymous$27 return_value_tspHandleRedirect$1;
-      return_value_tspHandleRedirect$1=tspHandleRedirect(BufferIn, conf, broker_list);
-      if((signed int)return_value_tspHandleRedirect$1 == TSP_REDIRECT_OK)
+      enum anonymous_27 return_value_tspHandleRedirect_1;
+      return_value_tspHandleRedirect_1=tspHandleRedirect(BufferIn, conf, broker_list);
+      if((signed int)return_value_tspHandleRedirect_1 == TSP_REDIRECT_OK)
         return (unsigned int)(57345 | 5 << 16);
 
       else
@@ -3917,11 +3917,11 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
 
     else
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(BufferIn);
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)((unsigned int)return_value_strlen$3 + (unsigned int)1));
-      ChallengeString = (char *)return_value_malloc$4;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(BufferIn);
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)((unsigned int)return_value_strlen_3 + (unsigned int)1));
+      ChallengeString = (char *)return_value_malloc_4;
       if(ChallengeString == ((char *)NULL))
       {
         Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Failed memory allocation.");
@@ -3944,14 +3944,14 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
         char cA2[33l];
         char *String;
         unsigned long int len;
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(A2Fmt);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(conf->server);
-        len = (unsigned long int)((unsigned int)return_value_strlen$5 + (unsigned int)12 + (unsigned int)return_value_strlen$6 + (unsigned int)1);
-        void *return_value_malloc$7;
-        return_value_malloc$7=malloc(len);
-        String = (char *)return_value_malloc$7;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(A2Fmt);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(conf->server);
+        len = (unsigned long int)((unsigned int)return_value_strlen_5 + (unsigned int)12 + (unsigned int)return_value_strlen_6 + (unsigned int)1);
+        void *return_value_malloc_7;
+        return_value_malloc_7=malloc(len);
+        String = (char *)return_value_malloc_7;
         if(String == ((char *)NULL))
         {
           Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Failed memory allocation.");
@@ -3961,30 +3961,30 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
         else
         {
           snprintf(String, len, A2Fmt, (const void *)"AUTHENTICATE", conf->server);
-          unsigned long int return_value_strlen$8;
-          return_value_strlen$8=strlen(String);
-          char *return_value_md5$9;
-          return_value_md5$9=md5(String, (unsigned long int)(unsigned int)return_value_strlen$8);
-          __builtin_strncpy(A2, return_value_md5$9, (unsigned long int)33);
+          unsigned long int return_value_strlen_8;
+          return_value_strlen_8=strlen(String);
+          char *return_value_md5_9;
+          return_value_md5_9=md5(String, (unsigned long int)(unsigned int)return_value_strlen_8);
+          __builtin_strncpy(A2, return_value_md5_9, (unsigned long int)33);
           snprintf(String, len, A2Fmt, (const void *)"", conf->server);
-          unsigned long int return_value_strlen$10;
-          return_value_strlen$10=strlen(String);
-          char *return_value_md5$11;
-          return_value_md5$11=md5(String, (unsigned long int)(unsigned int)return_value_strlen$10);
-          __builtin_strncpy(cA2, return_value_md5$11, (unsigned long int)33);
+          unsigned long int return_value_strlen_10;
+          return_value_strlen_10=strlen(String);
+          char *return_value_md5_11;
+          return_value_md5_11=md5(String, (unsigned long int)(unsigned int)return_value_strlen_10);
+          __builtin_strncpy(cA2, return_value_md5_11, (unsigned long int)33);
           free((void *)String);
-          unsigned long int return_value_strlen$12;
-          return_value_strlen$12=strlen(A1_1Fmt);
-          unsigned long int return_value_strlen$13;
-          return_value_strlen$13=strlen(conf->userid);
-          unsigned long int return_value_strlen$14;
-          return_value_strlen$14=strlen(c.realm);
-          unsigned long int return_value_strlen$15;
-          return_value_strlen$15=strlen(conf->passwd);
-          len = (unsigned long int)((unsigned int)return_value_strlen$12 + (unsigned int)return_value_strlen$13 + (unsigned int)return_value_strlen$14 + (unsigned int)return_value_strlen$15 + (unsigned int)1);
-          void *return_value_malloc$16;
-          return_value_malloc$16=malloc(len);
-          String = (char *)return_value_malloc$16;
+          unsigned long int return_value_strlen_12;
+          return_value_strlen_12=strlen(A1_1Fmt);
+          unsigned long int return_value_strlen_13;
+          return_value_strlen_13=strlen(conf->userid);
+          unsigned long int return_value_strlen_14;
+          return_value_strlen_14=strlen(c.realm);
+          unsigned long int return_value_strlen_15;
+          return_value_strlen_15=strlen(conf->passwd);
+          len = (unsigned long int)((unsigned int)return_value_strlen_12 + (unsigned int)return_value_strlen_13 + (unsigned int)return_value_strlen_14 + (unsigned int)return_value_strlen_15 + (unsigned int)1);
+          void *return_value_malloc_16;
+          return_value_malloc_16=malloc(len);
+          String = (char *)return_value_malloc_16;
           if(String == ((char *)NULL))
           {
             Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Failed memory allocation.");
@@ -3994,16 +3994,16 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
           else
           {
             snprintf(String, len, A1_1Fmt, conf->userid, c.realm, conf->passwd);
-            unsigned long int return_value_strlen$17;
-            return_value_strlen$17=strlen(String);
-            md5digest(String, (unsigned long int)(unsigned int)return_value_strlen$17, A1_1);
+            unsigned long int return_value_strlen_17;
+            return_value_strlen_17=strlen(String);
+            md5digest(String, (unsigned long int)(unsigned int)return_value_strlen_17, A1_1);
             free((void *)String);
-            unsigned long int return_value_strlen$18;
-            return_value_strlen$18=strlen(c.nonce);
-            len = (unsigned long int)((unsigned int)(16 + 1) + (unsigned int)return_value_strlen$18 + (unsigned int)16 + (unsigned int)1);
-            void *return_value_malloc$19;
-            return_value_malloc$19=malloc(len);
-            String = (char *)return_value_malloc$19;
+            unsigned long int return_value_strlen_18;
+            return_value_strlen_18=strlen(c.nonce);
+            len = (unsigned long int)((unsigned int)(16 + 1) + (unsigned int)return_value_strlen_18 + (unsigned int)16 + (unsigned int)1);
+            void *return_value_malloc_19;
+            return_value_malloc_19=malloc(len);
+            String = (char *)return_value_malloc_19;
             if(String == ((char *)NULL))
             {
               Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Failed memory allocation.");
@@ -4015,52 +4015,52 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
               memcpy((void *)String, (const void *)A1_1, (unsigned long int)16);
               snprintf(String + (signed long int)16, len - (unsigned long int)16, A1Fmt, c.nonce, cnonce);
               A1_1[(signed long int)16] = (char)0;
-              unsigned long int return_value_strlen$24;
-              return_value_strlen$24=strlen(A1_1);
-              if(!((unsigned int)return_value_strlen$24 >= 16u))
+              unsigned long int return_value_strlen_24;
+              return_value_strlen_24=strlen(A1_1);
+              if(!((unsigned int)return_value_strlen_24 >= 16u))
               {
-                return_value_strlen$25=strlen(TSPProtoVerStr[(signed long int)version_index]);
-                if((unsigned int)return_value_strlen$25 >= 6u)
-                  tmp_if_expr$28 = (_Bool)1;
+                return_value_strlen_25=strlen(TSPProtoVerStr[(signed long int)version_index]);
+                if((unsigned int)return_value_strlen_25 >= 6u)
+                  tmp_if_expr_28 = (_Bool)1;
 
                 else
                 {
                   unsigned long int __s1_len;
                   unsigned long int __s2_len;
-                  signed int return_value___builtin_strcmp$27;
-                  return_value___builtin_strcmp$27=__builtin_strcmp(TSPProtoVerStr[(signed long int)version_index], "2.0.0");
-                  tmp_statement_expression$26 = return_value___builtin_strcmp$27;
-                  tmp_if_expr$28 = tmp_statement_expression$26 > 0 ? (_Bool)1 : (_Bool)0;
+                  signed int return_value___builtin_strcmp_27;
+                  return_value___builtin_strcmp_27=__builtin_strcmp(TSPProtoVerStr[(signed long int)version_index], "2.0.0");
+                  tmp_statement_expression_26 = return_value___builtin_strcmp_27;
+                  tmp_if_expr_28 = tmp_statement_expression_26 > 0 ? (_Bool)1 : (_Bool)0;
                 }
-                tmp_if_expr$29 = !tmp_if_expr$28 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_29 = !tmp_if_expr_28 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$29 = (_Bool)0;
-              if(tmp_if_expr$29)
+                tmp_if_expr_29 = (_Bool)0;
+              if(tmp_if_expr_29)
               {
-                return_value_strlen$20=strlen(String);
-                return_value_md5$21=md5(String, (unsigned long int)(unsigned int)return_value_strlen$20);
-                __builtin_strncpy(A1, return_value_md5$21, (unsigned long int)33);
+                return_value_strlen_20=strlen(String);
+                return_value_md5_21=md5(String, (unsigned long int)(unsigned int)return_value_strlen_20);
+                __builtin_strncpy(A1, return_value_md5_21, (unsigned long int)33);
               }
 
               else
               {
-                return_value_strlen$22=strlen(String + (signed long int)16);
-                return_value_md5$23=md5(String, (unsigned long int)((unsigned int)16 + (unsigned int)return_value_strlen$22));
-                __builtin_strncpy(A1, return_value_md5$23, (unsigned long int)33);
+                return_value_strlen_22=strlen(String + (signed long int)16);
+                return_value_md5_23=md5(String, (unsigned long int)((unsigned int)16 + (unsigned int)return_value_strlen_22));
+                __builtin_strncpy(A1, return_value_md5_23, (unsigned long int)33);
               }
               free((void *)String);
-              unsigned long int return_value_strlen$30;
-              return_value_strlen$30=strlen(ChallRespFmt);
-              unsigned long int return_value_strlen$31;
-              return_value_strlen$31=strlen(c.nonce);
-              unsigned long int return_value_strlen$32;
-              return_value_strlen$32=strlen(c.qop);
-              len = (unsigned long int)((unsigned int)return_value_strlen$30 + (unsigned int)32 + (unsigned int)return_value_strlen$31 + (unsigned int)16 + (unsigned int)return_value_strlen$32 + (unsigned int)32 + (unsigned int)1);
-              void *return_value_malloc$33;
-              return_value_malloc$33=malloc(len);
-              String = (char *)return_value_malloc$33;
+              unsigned long int return_value_strlen_30;
+              return_value_strlen_30=strlen(ChallRespFmt);
+              unsigned long int return_value_strlen_31;
+              return_value_strlen_31=strlen(c.nonce);
+              unsigned long int return_value_strlen_32;
+              return_value_strlen_32=strlen(c.qop);
+              len = (unsigned long int)((unsigned int)return_value_strlen_30 + (unsigned int)32 + (unsigned int)return_value_strlen_31 + (unsigned int)16 + (unsigned int)return_value_strlen_32 + (unsigned int)32 + (unsigned int)1);
+              void *return_value_malloc_33;
+              return_value_malloc_33=malloc(len);
+              String = (char *)return_value_malloc_33;
               if(String == ((char *)NULL))
               {
                 Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Failed memory allocation.");
@@ -4070,17 +4070,17 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
               else
               {
                 snprintf(String, len, ChallRespFmt, (const void *)A1, c.nonce, cnonce, c.qop, (const void *)A2);
-                unsigned long int return_value_strlen$34;
-                return_value_strlen$34=strlen(String);
-                char *return_value_md5$35;
-                return_value_md5$35=md5(String, (unsigned long int)(unsigned int)return_value_strlen$34);
-                __builtin_strncpy(Response, return_value_md5$35, (unsigned long int)33);
+                unsigned long int return_value_strlen_34;
+                return_value_strlen_34=strlen(String);
+                char *return_value_md5_35;
+                return_value_md5_35=md5(String, (unsigned long int)(unsigned int)return_value_strlen_34);
+                __builtin_strncpy(Response, return_value_md5_35, (unsigned long int)33);
                 snprintf(String, len, ChallRespFmt, (const void *)A1, c.nonce, cnonce, c.qop, (const void *)cA2);
-                unsigned long int return_value_strlen$36;
-                return_value_strlen$36=strlen(String);
-                char *return_value_md5$37;
-                return_value_md5$37=md5(String, (unsigned long int)(unsigned int)return_value_strlen$36);
-                __builtin_strncpy(cResponse, return_value_md5$37, (unsigned long int)33);
+                unsigned long int return_value_strlen_36;
+                return_value_strlen_36=strlen(String);
+                char *return_value_md5_37;
+                return_value_md5_37=md5(String, (unsigned long int)(unsigned int)return_value_strlen_36);
+                __builtin_strncpy(cResponse, return_value_md5_37, (unsigned long int)33);
                 free((void *)String);
                 char userid[512l];
                 char *cc;
@@ -4090,15 +4090,15 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
                 if(!(*cc == 0) && !(i >= 512ul))
                 {
                   if((signed int)*cc == 34)
-                    tmp_if_expr$39 = (_Bool)1;
+                    tmp_if_expr_39 = (_Bool)1;
 
                   else
-                    tmp_if_expr$39 = (signed int)*cc == 92 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$39)
+                    tmp_if_expr_39 = (signed int)*cc == 92 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_39)
                   {
-                    tmp_post$38 = i;
+                    tmp_post_38 = i;
                     i = i + 1ul;
-                    userid[(signed long int)tmp_post$38] = (char)92;
+                    userid[(signed long int)tmp_post_38] = (char)92;
                   }
 
                   userid[(signed long int)i] = *cc;
@@ -4107,22 +4107,22 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
                 }
 
                 userid[(signed long int)i] = (char)0;
-                unsigned long int return_value_strlen$40;
-                return_value_strlen$40=strlen(ResponseFmt);
-                unsigned long int return_value_strlen$41;
-                return_value_strlen$41=strlen(c.charset);
-                unsigned long int return_value_strlen$42;
-                return_value_strlen$42=strlen(userid);
-                unsigned long int return_value_strlen$43;
-                return_value_strlen$43=strlen(c.realm);
-                unsigned long int return_value_strlen$44;
-                return_value_strlen$44=strlen(c.nonce);
-                unsigned long int return_value_strlen$45;
-                return_value_strlen$45=strlen(conf->server);
-                len = (unsigned long int)((unsigned int)return_value_strlen$40 + (unsigned int)return_value_strlen$41 + (unsigned int)return_value_strlen$42 + (unsigned int)return_value_strlen$43 + (unsigned int)return_value_strlen$44 + (unsigned int)16 + (unsigned int)return_value_strlen$45 + (unsigned int)32);
-                void *return_value_malloc$46;
-                return_value_malloc$46=malloc(len);
-                String = (char *)return_value_malloc$46;
+                unsigned long int return_value_strlen_40;
+                return_value_strlen_40=strlen(ResponseFmt);
+                unsigned long int return_value_strlen_41;
+                return_value_strlen_41=strlen(c.charset);
+                unsigned long int return_value_strlen_42;
+                return_value_strlen_42=strlen(userid);
+                unsigned long int return_value_strlen_43;
+                return_value_strlen_43=strlen(c.realm);
+                unsigned long int return_value_strlen_44;
+                return_value_strlen_44=strlen(c.nonce);
+                unsigned long int return_value_strlen_45;
+                return_value_strlen_45=strlen(conf->server);
+                len = (unsigned long int)((unsigned int)return_value_strlen_40 + (unsigned int)return_value_strlen_41 + (unsigned int)return_value_strlen_42 + (unsigned int)return_value_strlen_43 + (unsigned int)return_value_strlen_44 + (unsigned int)16 + (unsigned int)return_value_strlen_45 + (unsigned int)32);
+                void *return_value_malloc_46;
+                return_value_malloc_46=malloc(len);
+                String = (char *)return_value_malloc_46;
                 if(String == ((char *)NULL))
                 {
                   Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Failed memory allocation.");
@@ -4133,9 +4133,9 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
                 {
                   snprintf(String, len, ResponseFmt, c.charset, (const void *)userid, c.realm, c.nonce, cnonce, conf->server, (const void *)Response);
                   memset((void *)Buffer, 0, sizeof(char [4096l]) /*4096ul*/ );
-                  unsigned long int return_value_strlen$47;
-                  return_value_strlen$47=strlen(String);
-                  base64encode(Buffer, String, (signed int)(unsigned int)return_value_strlen$47);
+                  unsigned long int return_value_strlen_47;
+                  return_value_strlen_47=strlen(String);
+                  base64encode(Buffer, String, (signed int)(unsigned int)return_value_strlen_47);
                   free((void *)String);
                   memset((void *)BufferIn, 0, sizeof(char [4096l]) /*4096ul*/ );
                   signed int return_value_1;
@@ -4149,13 +4149,13 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
                   else
                   {
                     tsp_status=tspGetStatusCode(BufferIn);
-                    signed int return_value_tspIsRedirectStatus$49;
-                    return_value_tspIsRedirectStatus$49=tspIsRedirectStatus(tsp_status);
-                    if(!(return_value_tspIsRedirectStatus$49 == 0))
+                    signed int return_value_tspIsRedirectStatus_49;
+                    return_value_tspIsRedirectStatus_49=tspIsRedirectStatus(tsp_status);
+                    if(!(return_value_tspIsRedirectStatus_49 == 0))
                     {
-                      enum anonymous$27 return_value_tspHandleRedirect$48;
-                      return_value_tspHandleRedirect$48=tspHandleRedirect(BufferIn, conf, broker_list);
-                      if((signed int)return_value_tspHandleRedirect$48 == TSP_REDIRECT_OK)
+                      enum anonymous_27 return_value_tspHandleRedirect_48;
+                      return_value_tspHandleRedirect_48=tspHandleRedirect(BufferIn, conf, broker_list);
+                      if((signed int)return_value_tspHandleRedirect_48 == TSP_REDIRECT_OK)
                         return (unsigned int)(57345 | 5 << 16);
 
                       else
@@ -4170,11 +4170,11 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
 
                     else
                     {
-                      unsigned long int return_value_strlen$50;
-                      return_value_strlen$50=strlen(BufferIn);
-                      void *return_value_malloc$51;
-                      return_value_malloc$51=malloc((unsigned long int)((unsigned int)return_value_strlen$50 + (unsigned int)1));
-                      ChallengeString = (char *)return_value_malloc$51;
+                      unsigned long int return_value_strlen_50;
+                      return_value_strlen_50=strlen(BufferIn);
+                      void *return_value_malloc_51;
+                      return_value_malloc_51=malloc((unsigned long int)((unsigned int)return_value_strlen_50 + (unsigned int)1));
+                      ChallengeString = (char *)return_value_malloc_51;
                       if(ChallengeString == ((char *)NULL))
                       {
                         Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Failed memory allocation.");
@@ -4186,9 +4186,9 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
                         base64decode(ChallengeString, BufferIn);
                         ExtractChallenge(&c, ChallengeString);
                         free((void *)ChallengeString);
-                        signed int return_value_memcmp$52;
-                        return_value_memcmp$52=memcmp((const void *)c.rspauth, (const void *)cResponse, (unsigned long int)32);
-                        if(!(return_value_memcmp$52 == 0))
+                        signed int return_value_memcmp_52;
+                        return_value_memcmp_52=memcmp((const void *)c.rspauth, (const void *)cResponse, (unsigned long int)32);
+                        if(!(return_value_memcmp_52 == 0))
                         {
                           Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Invalid MD5 response from server.");
                           return (unsigned int)(16 | 5 << 16);
@@ -4207,13 +4207,13 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
                           else
                           {
                             tsp_status=tspGetStatusCode(Buffer);
-                            signed int return_value_tspIsRedirectStatus$54;
-                            return_value_tspIsRedirectStatus$54=tspIsRedirectStatus(tsp_status);
-                            if(!(return_value_tspIsRedirectStatus$54 == 0))
+                            signed int return_value_tspIsRedirectStatus_54;
+                            return_value_tspIsRedirectStatus_54=tspIsRedirectStatus(tsp_status);
+                            if(!(return_value_tspIsRedirectStatus_54 == 0))
                             {
-                              enum anonymous$27 return_value_tspHandleRedirect$53;
-                              return_value_tspHandleRedirect$53=tspHandleRedirect(Buffer, conf, broker_list);
-                              if((signed int)return_value_tspHandleRedirect$53 == TSP_REDIRECT_OK)
+                              enum anonymous_27 return_value_tspHandleRedirect_53;
+                              return_value_tspHandleRedirect_53=tspHandleRedirect(Buffer, conf, broker_list);
+                              if((signed int)return_value_tspHandleRedirect_53 == TSP_REDIRECT_OK)
                                 return (unsigned int)(57345 | 5 << 16);
 
                               else
@@ -4226,9 +4226,9 @@ unsigned int AuthDIGEST_MD5(signed int socket, struct net_tools *nt, struct stCo
                               return (unsigned int)(16 | 5 << 16);
                             }
 
-                            const char *return_value_tspGetTspStatusStr$55;
-                            return_value_tspGetTspStatusStr$55=tspGetTspStatusStr(tsp_status);
-                            Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Unknown TSP error during authentication. (%s)", return_value_tspGetTspStatusStr$55);
+                            const char *return_value_tspGetTspStatusStr_55;
+                            return_value_tspGetTspStatusStr_55=tspGetTspStatusStr(tsp_status);
+                            Display(1, (enum tSeverityLevel)ELError, "AuthDIGEST_MD5", "Unknown TSP error during authentication. (%s)", return_value_tspGetTspStatusStr_55);
                             return (unsigned int)(13 | 5 << 16);
                             return (unsigned int)(0 | 5 << 16);
                           }
@@ -4284,69 +4284,69 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
   unsigned int status = (unsigned int)(0 | 0 << 16);
   signed int tsp_status;
   dh=DH_new();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dh == ((struct dh_st *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     server_pubkey=BN_new();
-    tmp_if_expr$1 = server_pubkey == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = server_pubkey == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  void *return_value_calloc$8;
-  void *return_value_calloc$9;
-  _Bool tmp_if_expr$10;
-  struct bio_method_st *return_value_BIO_s_mem$11;
-  struct bio_method_st *return_value_BIO_f_base64$12;
-  signed int return_value_DH_generate_key$13;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  void *return_value_calloc_8;
+  void *return_value_calloc_9;
+  _Bool tmp_if_expr_10;
+  struct bio_method_st *return_value_BIO_s_mem_11;
+  struct bio_method_st *return_value_BIO_f_base64_12;
+  signed int return_value_DH_generate_key_13;
   signed int return_value;
-  void *return_value_buffer_ptr$14;
-  unsigned long int return_value_buffer_len$15;
-  void *return_value_buffer_ptr$16;
-  unsigned long int return_value_buffer_len$17;
-  signed long int return_value_BIO_ctrl$18;
-  unsigned int return_value_buffer_get_int$19;
-  void *return_value_buffer_ptr$20;
-  void *return_value_buffer_get_string$21;
-  void *return_value_buffer_ptr$22;
-  unsigned int return_value_buffer_get_int$23;
-  void *return_value_buffer_get_string$24;
-  _Bool tmp_if_expr$25;
-  signed int return_value_DH_size$27;
-  void *return_value_calloc$28;
-  char *return_value_BN_bn2hex$29;
-  void *return_value_buffer_ptr$30;
-  unsigned long int return_value_buffer_len$31;
-  void *return_value_buffer_ptr$32;
-  unsigned long int return_value_buffer_len$33;
-  char *return_value_BN_bn2hex$35;
-  char *return_value_BN_bn2hex$36;
-  signed int return_value_DSA_do_verify$37;
-  void *return_value_buffer_ptr$38;
-  unsigned long int return_value_buffer_len$39;
-  void *return_value_buffer_ptr$40;
-  unsigned long int return_value_buffer_len$41;
-  void *return_value_buffer_ptr$42;
-  unsigned long int return_value_buffer_len$43;
-  void *return_value_buffer_ptr$44;
-  unsigned long int return_value_buffer_len$45;
-  void *return_value_buffer_ptr$49;
-  const struct env_md_st *return_value_EVP_sha1$50;
-  void *return_value_buffer_ptr$51;
-  unsigned long int return_value_buffer_len$52;
-  struct bio_method_st *return_value_BIO_f_cipher$53;
-  const struct evp_cipher_st *return_value_EVP_des_ede3_cbc$54;
-  void *return_value_buffer_ptr$55;
-  unsigned long int return_value_buffer_len$56;
-  signed long int return_value_BIO_ctrl$57;
-  signed int return_value_tspIsRedirectStatus$59;
-  if(tmp_if_expr$1)
+  void *return_value_buffer_ptr_14;
+  unsigned long int return_value_buffer_len_15;
+  void *return_value_buffer_ptr_16;
+  unsigned long int return_value_buffer_len_17;
+  signed long int return_value_BIO_ctrl_18;
+  unsigned int return_value_buffer_get_int_19;
+  void *return_value_buffer_ptr_20;
+  void *return_value_buffer_get_string_21;
+  void *return_value_buffer_ptr_22;
+  unsigned int return_value_buffer_get_int_23;
+  void *return_value_buffer_get_string_24;
+  _Bool tmp_if_expr_25;
+  signed int return_value_DH_size_27;
+  void *return_value_calloc_28;
+  char *return_value_BN_bn2hex_29;
+  void *return_value_buffer_ptr_30;
+  unsigned long int return_value_buffer_len_31;
+  void *return_value_buffer_ptr_32;
+  unsigned long int return_value_buffer_len_33;
+  char *return_value_BN_bn2hex_35;
+  char *return_value_BN_bn2hex_36;
+  signed int return_value_DSA_do_verify_37;
+  void *return_value_buffer_ptr_38;
+  unsigned long int return_value_buffer_len_39;
+  void *return_value_buffer_ptr_40;
+  unsigned long int return_value_buffer_len_41;
+  void *return_value_buffer_ptr_42;
+  unsigned long int return_value_buffer_len_43;
+  void *return_value_buffer_ptr_44;
+  unsigned long int return_value_buffer_len_45;
+  void *return_value_buffer_ptr_49;
+  const struct env_md_st *return_value_EVP_sha1_50;
+  void *return_value_buffer_ptr_51;
+  unsigned long int return_value_buffer_len_52;
+  struct bio_method_st *return_value_BIO_f_cipher_53;
+  const struct evp_cipher_st *return_value_EVP_des_ede3_cbc_54;
+  void *return_value_buffer_ptr_55;
+  unsigned long int return_value_buffer_len_56;
+  signed long int return_value_BIO_ctrl_57;
+  signed int return_value_tspIsRedirectStatus_59;
+  if(tmp_if_expr_1)
   {
     Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Failed memory allocation.");
     status = (unsigned int)(2 | 5 << 16);
@@ -4359,11 +4359,11 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
     static unsigned char dh_g[1l] = { (unsigned char)0x02 };
     dh->g=BN_bin2bn(dh_g, (signed int)sizeof(unsigned char [1l]) /*1ul*/ , (struct bignum_st *)(void *)0);
     if(dh->p == ((struct bignum_st *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = dh->g == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = dh->g == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "DH initialization error.");
       status = (unsigned int)(16 | 5 << 16);
@@ -4382,46 +4382,46 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
       {
         dsa=DSA_new();
         if(dsa == ((struct dsa_st *)NULL))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
           dsa->p=BN_new();
-          tmp_if_expr$3 = dsa->p == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = dsa->p == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
           dsa->q=BN_new();
-          tmp_if_expr$4 = dsa->q == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = dsa->q == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (_Bool)1;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
           dsa->g=BN_new();
-          tmp_if_expr$5 = dsa->g == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = dsa->g == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (_Bool)1;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
           dsa->pub_key=BN_new();
-          tmp_if_expr$6 = dsa->pub_key == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = dsa->pub_key == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (_Bool)1;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
           dsa->priv_key=BN_new();
-          tmp_if_expr$7 = dsa->priv_key == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = dsa->priv_key == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Failed memory allocation.");
           status = (unsigned int)(2 | 5 << 16);
@@ -4438,10 +4438,10 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
 
           else
           {
-            return_value_calloc$8=calloc((unsigned long int)1, (unsigned long int)4096);
-            BufferIn = (char *)return_value_calloc$8;
-            return_value_calloc$9=calloc((unsigned long int)1, (unsigned long int)4096);
-            BufferOut = (char *)return_value_calloc$9;
+            return_value_calloc_8=calloc((unsigned long int)1, (unsigned long int)4096);
+            BufferIn = (char *)return_value_calloc_8;
+            return_value_calloc_9=calloc((unsigned long int)1, (unsigned long int)4096);
+            BufferOut = (char *)return_value_calloc_9;
             if(BufferIn == ((char *)NULL) || BufferOut == ((char *)NULL))
             {
               Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Failed memory allocation.");
@@ -4453,11 +4453,11 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
               buffer_init(Buf_Space);
               buffer_init(Buf_H);
               if(Buf_Space->buf == ((unsigned char *)NULL))
-                tmp_if_expr$10 = (_Bool)1;
+                tmp_if_expr_10 = (_Bool)1;
 
               else
-                tmp_if_expr$10 = Buf_H->buf == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$10)
+                tmp_if_expr_10 = Buf_H->buf == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_10)
               {
                 Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Failed memory allocation.");
                 status = (unsigned int)(2 | 5 << 16);
@@ -4465,10 +4465,10 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
 
               else
               {
-                return_value_BIO_s_mem$11=BIO_s_mem();
-                bio_rw=BIO_new(return_value_BIO_s_mem$11);
-                return_value_BIO_f_base64$12=BIO_f_base64();
-                b64=BIO_new(return_value_BIO_f_base64$12);
+                return_value_BIO_s_mem_11=BIO_s_mem();
+                bio_rw=BIO_new(return_value_BIO_s_mem_11);
+                return_value_BIO_f_base64_12=BIO_f_base64();
+                b64=BIO_new(return_value_BIO_f_base64_12);
                 if(b64 == ((struct bio_st *)NULL) || bio_rw == ((struct bio_st *)NULL))
                 {
                   Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Failed memory allocation.");
@@ -4477,8 +4477,8 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
 
                 else
                 {
-                  return_value_DH_generate_key$13=DH_generate_key(dh);
-                  if(return_value_DH_generate_key$13 == 0)
+                  return_value_DH_generate_key_13=DH_generate_key(dh);
+                  if(return_value_DH_generate_key_13 == 0)
                   {
                     Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "DH generation error.");
                     status = (unsigned int)(16 | 5 << 16);
@@ -4498,17 +4498,17 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                       buffer_put_int(Buf_Space, (unsigned int)0);
                       buffer_put_cstring(Buf_Space, conf->userid);
                       buffer_put_bignum(Buf_Space, dh->pub_key);
-                      return_value_buffer_ptr$14=buffer_ptr(Buf_Space);
-                      return_value_buffer_len$15=buffer_len(Buf_Space);
-                      buffer_append(Buf_H, return_value_buffer_ptr$14, return_value_buffer_len$15);
+                      return_value_buffer_ptr_14=buffer_ptr(Buf_Space);
+                      return_value_buffer_len_15=buffer_len(Buf_Space);
+                      buffer_append(Buf_H, return_value_buffer_ptr_14, return_value_buffer_len_15);
                       BIO_push(b64, bio_rw);
                       BIO_set_flags(b64, 0x100);
-                      return_value_buffer_ptr$16=buffer_ptr(Buf_Space);
-                      return_value_buffer_len$17=buffer_len(Buf_Space);
-                      BIO_write(b64, return_value_buffer_ptr$16, (signed int)return_value_buffer_len$17);
+                      return_value_buffer_ptr_16=buffer_ptr(Buf_Space);
+                      return_value_buffer_len_17=buffer_len(Buf_Space);
+                      BIO_write(b64, return_value_buffer_ptr_16, (signed int)return_value_buffer_len_17);
                       BIO_ctrl(b64, 11, (signed long int)0, (void *)0);
-                      return_value_BIO_ctrl$18=BIO_ctrl(bio_rw, 3, (signed long int)0, (void *)(char *)&BufferPtr);
-                      buflen = (signed int)return_value_BIO_ctrl$18;
+                      return_value_BIO_ctrl_18=BIO_ctrl(bio_rw, 3, (signed long int)0, (void *)(char *)&BufferPtr);
+                      buflen = (signed int)return_value_BIO_ctrl_18;
                       readlen=nt->netsendrecv(socket, BufferPtr, buflen, BufferIn, 4096);
                       if(readlen == -1)
                       {
@@ -4523,8 +4523,8 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                         buflen = 0;
                         buflen=base64decode(BufferOut, BufferIn);
                         buffer_append(Buf_Space, (const void *)BufferOut, (unsigned long int)buflen);
-                        return_value_buffer_get_int$19=buffer_get_int(Buf_Space);
-                        pklength = (signed int)return_value_buffer_get_int$19;
+                        return_value_buffer_get_int_19=buffer_get_int(Buf_Space);
+                        pklength = (signed int)return_value_buffer_get_int_19;
                         if(!(pklength >= 240))
                         {
                           Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Received data is invalid.");
@@ -4534,10 +4534,10 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                         else
                         {
                           buffer_put_int(Buf_H, (unsigned int)pklength);
-                          return_value_buffer_ptr$20=buffer_ptr(Buf_Space);
-                          buffer_append(Buf_H, return_value_buffer_ptr$20, (unsigned long int)pklength);
-                          return_value_buffer_get_string$21=buffer_get_string(Buf_Space, (unsigned int *)&buflen);
-                          s = (char *)return_value_buffer_get_string$21;
+                          return_value_buffer_ptr_20=buffer_ptr(Buf_Space);
+                          buffer_append(Buf_H, return_value_buffer_ptr_20, (unsigned long int)pklength);
+                          return_value_buffer_get_string_21=buffer_get_string(Buf_Space, (unsigned int *)&buflen);
+                          s = (char *)return_value_buffer_get_string_21;
                           free((void *)s);
                           s = (char *)(void *)0;
                           buffer_get_bignum(Buf_Space, dsa->p);
@@ -4546,13 +4546,13 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                           buffer_get_bignum(Buf_Space, dsa->pub_key);
                           buffer_get_bignum(Buf_Space, server_pubkey);
                           buffer_put_bignum(Buf_H, server_pubkey);
-                          return_value_buffer_ptr$22=buffer_ptr(Buf_Space);
-                          buffer_append(Buf_H, return_value_buffer_ptr$22, (unsigned long int)4);
+                          return_value_buffer_ptr_22=buffer_ptr(Buf_Space);
+                          buffer_append(Buf_H, return_value_buffer_ptr_22, (unsigned long int)4);
                           ssecmask=buffer_get_octet(Buf_Space);
                           buffer_get(Buf_Space, (void *)(char *)num, (unsigned int)3);
                           sbuflen = (signed int)((unsigned long int)(unsigned char)num[(signed long int)0] << 16 | (unsigned long int)(unsigned char)num[(signed long int)1] << 8 | (unsigned long int)(unsigned char)num[(signed long int)2]);
-                          return_value_buffer_get_int$23=buffer_get_int(Buf_Space);
-                          siglength = (signed int)return_value_buffer_get_int$23;
+                          return_value_buffer_get_int_23=buffer_get_int(Buf_Space);
+                          siglength = (signed int)return_value_buffer_get_int_23;
                           if(!(siglength >= 59))
                           {
                             Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Received data is invalid.");
@@ -4561,20 +4561,20 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
 
                           else
                           {
-                            return_value_buffer_get_string$24=buffer_get_string(Buf_Space, (unsigned int *)&buflen);
-                            s = (char *)return_value_buffer_get_string$24;
+                            return_value_buffer_get_string_24=buffer_get_string(Buf_Space, (unsigned int *)&buflen);
+                            s = (char *)return_value_buffer_get_string_24;
                             free((void *)s);
                             s = (char *)(void *)0;
                             sig->r=BN_new();
                             if(sig->r == ((struct bignum_st *)NULL))
-                              tmp_if_expr$25 = (_Bool)1;
+                              tmp_if_expr_25 = (_Bool)1;
 
                             else
                             {
                               sig->s=BN_new();
-                              tmp_if_expr$25 = sig->s == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                              tmp_if_expr_25 = sig->s == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$25)
+                            if(tmp_if_expr_25)
                             {
                               Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Failed memory allocation.");
                               status = (unsigned int)(2 | 5 << 16);
@@ -4584,9 +4584,9 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                             {
                               buffer_get_bignum(Buf_Space, sig->r);
                               buffer_get_bignum(Buf_Space, sig->s);
-                              signed int return_value_add_dsakey_to_keyfile$26;
-                              return_value_add_dsakey_to_keyfile$26=add_dsakey_to_keyfile(dsa, conf->server, "/var/lib/gogoc/gogockeys.pub", conf->no_questions);
-                              if(return_value_add_dsakey_to_keyfile$26 == 0)
+                              signed int return_value_add_dsakey_to_keyfile_26;
+                              return_value_add_dsakey_to_keyfile_26=add_dsakey_to_keyfile(dsa, conf->server, "/var/lib/gogoc/gogockeys.pub", conf->no_questions);
+                              if(return_value_add_dsakey_to_keyfile_26 == 0)
                               {
                                 Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Key verification error.");
                                 status = (unsigned int)(16 | 5 << 16);
@@ -4594,9 +4594,9 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
 
                               else
                               {
-                                return_value_DH_size$27=DH_size(dh);
-                                return_value_calloc$28=calloc((unsigned long int)1, (unsigned long int)return_value_DH_size$27);
-                                s = (char *)return_value_calloc$28;
+                                return_value_DH_size_27=DH_size(dh);
+                                return_value_calloc_28=calloc((unsigned long int)1, (unsigned long int)return_value_DH_size_27);
+                                s = (char *)return_value_calloc_28;
                                 if(s == ((char *)NULL))
                                 {
                                   Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Failed memory allocation.");
@@ -4618,28 +4618,28 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                                     memset((void *)s, 0, (unsigned long int)keysize);
                                     free((void *)s);
                                     s = (char *)(void *)0;
-                                    return_value_BN_bn2hex$29=BN_bn2hex(dh_K);
-                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "DH shared key: %s.", return_value_BN_bn2hex$29);
+                                    return_value_BN_bn2hex_29=BN_bn2hex(dh_K);
+                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "DH shared key: %s.", return_value_BN_bn2hex_29);
                                     buffer_clear(Buf_Space);
-                                    return_value_buffer_ptr$30=buffer_ptr(Buf_H);
-                                    return_value_buffer_len$31=buffer_len(Buf_H);
-                                    buffer_append(Buf_Space, return_value_buffer_ptr$30, return_value_buffer_len$31);
+                                    return_value_buffer_ptr_30=buffer_ptr(Buf_H);
+                                    return_value_buffer_len_31=buffer_len(Buf_H);
+                                    buffer_append(Buf_Space, return_value_buffer_ptr_30, return_value_buffer_len_31);
                                     buffer_put_bignum(Buf_Space, dh_K);
-                                    return_value_buffer_ptr$32=buffer_ptr(Buf_Space);
-                                    return_value_buffer_len$33=buffer_len(Buf_Space);
-                                    SHA1((const unsigned char *)return_value_buffer_ptr$32, return_value_buffer_len$33, hash);
+                                    return_value_buffer_ptr_32=buffer_ptr(Buf_Space);
+                                    return_value_buffer_len_33=buffer_len(Buf_Space);
+                                    SHA1((const unsigned char *)return_value_buffer_ptr_32, return_value_buffer_len_33, hash);
                                     struct bignum_st *h;
                                     h=BN_bin2bn(hash, 20, (struct bignum_st *)(void *)0);
-                                    char *return_value_BN_bn2hex$34;
-                                    return_value_BN_bn2hex$34=BN_bn2hex(h);
-                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "Signed hash: %s.", return_value_BN_bn2hex$34);
+                                    char *return_value_BN_bn2hex_34;
+                                    return_value_BN_bn2hex_34=BN_bn2hex(h);
+                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "Signed hash: %s.", return_value_BN_bn2hex_34);
                                     BN_free(h);
-                                    return_value_BN_bn2hex$35=BN_bn2hex(sig->r);
-                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "DSA sign r:%s.", return_value_BN_bn2hex$35);
-                                    return_value_BN_bn2hex$36=BN_bn2hex(sig->s);
-                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "DSA sign s:%s.", return_value_BN_bn2hex$36);
-                                    return_value_DSA_do_verify$37=DSA_do_verify(hash, (signed int)sizeof(unsigned char [20l]) /*20ul*/ , sig, dsa);
-                                    if(return_value_DSA_do_verify$37 == 0)
+                                    return_value_BN_bn2hex_35=BN_bn2hex(sig->r);
+                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "DSA sign r:%s.", return_value_BN_bn2hex_35);
+                                    return_value_BN_bn2hex_36=BN_bn2hex(sig->s);
+                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "DSA sign s:%s.", return_value_BN_bn2hex_36);
+                                    return_value_DSA_do_verify_37=DSA_do_verify(hash, (signed int)sizeof(unsigned char [20l]) /*20ul*/ , sig, dsa);
+                                    if(return_value_DSA_do_verify_37 == 0)
                                     {
                                       Display(1, (enum tSeverityLevel)ELError, "PASSDSS-3DES-1", "Incorrect signature from server.");
                                       status = (unsigned int)(16 | 5 << 16);
@@ -4651,30 +4651,30 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                                     buffer_put_bignum(Buf_Space, dh_K);
                                     buffer_put_octet(Buf_Space, 65);
                                     buffer_append(Buf_Space, (const void *)hash, (unsigned long int)20);
-                                    return_value_buffer_ptr$38=buffer_ptr(Buf_Space);
-                                    return_value_buffer_len$39=buffer_len(Buf_Space);
-                                    SHA1((const unsigned char *)return_value_buffer_ptr$38, return_value_buffer_len$39, tmphash);
+                                    return_value_buffer_ptr_38=buffer_ptr(Buf_Space);
+                                    return_value_buffer_len_39=buffer_len(Buf_Space);
+                                    SHA1((const unsigned char *)return_value_buffer_ptr_38, return_value_buffer_len_39, tmphash);
                                     memcpy((void *)enc_iv, (const void *)tmphash, (unsigned long int)8);
                                     buffer_clear(Buf_Space);
                                     buffer_put_bignum(Buf_Space, dh_K);
                                     buffer_put_octet(Buf_Space, 69);
                                     buffer_append(Buf_Space, (const void *)hash, (unsigned long int)20);
-                                    return_value_buffer_ptr$40=buffer_ptr(Buf_Space);
-                                    return_value_buffer_len$41=buffer_len(Buf_Space);
-                                    SHA1((const unsigned char *)return_value_buffer_ptr$40, return_value_buffer_len$41, int_key);
+                                    return_value_buffer_ptr_40=buffer_ptr(Buf_Space);
+                                    return_value_buffer_len_41=buffer_len(Buf_Space);
+                                    SHA1((const unsigned char *)return_value_buffer_ptr_40, return_value_buffer_len_41, int_key);
                                     buffer_clear(Buf_Space);
                                     buffer_put_bignum(Buf_Space, dh_K);
                                     buffer_put_octet(Buf_Space, 67);
                                     buffer_append(Buf_Space, (const void *)hash, (unsigned long int)20);
-                                    return_value_buffer_ptr$42=buffer_ptr(Buf_Space);
-                                    return_value_buffer_len$43=buffer_len(Buf_Space);
-                                    SHA1((const unsigned char *)return_value_buffer_ptr$42, return_value_buffer_len$43, tmphash);
+                                    return_value_buffer_ptr_42=buffer_ptr(Buf_Space);
+                                    return_value_buffer_len_43=buffer_len(Buf_Space);
+                                    SHA1((const unsigned char *)return_value_buffer_ptr_42, return_value_buffer_len_43, tmphash);
                                     buffer_clear(Buf_Space);
                                     buffer_put_bignum(Buf_Space, dh_K);
                                     buffer_append(Buf_Space, (const void *)tmphash, (unsigned long int)20);
-                                    return_value_buffer_ptr$44=buffer_ptr(Buf_Space);
-                                    return_value_buffer_len$45=buffer_len(Buf_Space);
-                                    SHA1((const unsigned char *)return_value_buffer_ptr$44, return_value_buffer_len$45, tmphash + (signed long int)20);
+                                    return_value_buffer_ptr_44=buffer_ptr(Buf_Space);
+                                    return_value_buffer_len_45=buffer_len(Buf_Space);
+                                    SHA1((const unsigned char *)return_value_buffer_ptr_44, return_value_buffer_len_45, tmphash + (signed long int)20);
                                     memcpy((void *)enc_key, (const void *)tmphash, (unsigned long int)24);
                                     struct bignum_st *enc;
                                     struct bignum_st *i;
@@ -4682,15 +4682,15 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                                     enc=BN_bin2bn(enc_key, 24, (struct bignum_st *)(void *)0);
                                     iv=BN_bin2bn(enc_iv, 8, (struct bignum_st *)(void *)0);
                                     i=BN_bin2bn(int_key, 20, (struct bignum_st *)(void *)0);
-                                    char *return_value_BN_bn2hex$46;
-                                    return_value_BN_bn2hex$46=BN_bn2hex(enc);
-                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "PASSDSS: encryption key: %s.", return_value_BN_bn2hex$46);
-                                    char *return_value_BN_bn2hex$47;
-                                    return_value_BN_bn2hex$47=BN_bn2hex(iv);
-                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "PASSDSS: iv: %s.", return_value_BN_bn2hex$47);
-                                    char *return_value_BN_bn2hex$48;
-                                    return_value_BN_bn2hex$48=BN_bn2hex(i);
-                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "PASSDSS: integrity key: %s.", return_value_BN_bn2hex$48);
+                                    char *return_value_BN_bn2hex_46;
+                                    return_value_BN_bn2hex_46=BN_bn2hex(enc);
+                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "PASSDSS: encryption key: %s.", return_value_BN_bn2hex_46);
+                                    char *return_value_BN_bn2hex_47;
+                                    return_value_BN_bn2hex_47=BN_bn2hex(iv);
+                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "PASSDSS: iv: %s.", return_value_BN_bn2hex_47);
+                                    char *return_value_BN_bn2hex_48;
+                                    return_value_BN_bn2hex_48=BN_bn2hex(i);
+                                    Display(3, (enum tSeverityLevel)ELDebug, "PASSDSS-3DES-1", "PASSDSS: integrity key: %s.", return_value_BN_bn2hex_48);
                                     BN_free(enc);
                                     BN_free(i);
                                     BN_free(iv);
@@ -4700,29 +4700,29 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                                     buffer_put_octet(Buf_Space, 0);
                                     buffer_put_octet(Buf_Space, 0);
                                     buffer_put_cstring(Buf_Space, conf->passwd);
-                                    return_value_buffer_ptr$49=buffer_ptr(Buf_Space);
-                                    buffer_append(Buf_H, return_value_buffer_ptr$49, (unsigned long int)4);
-                                    return_value_EVP_sha1$50=EVP_sha1();
-                                    return_value_buffer_ptr$51=buffer_ptr(Buf_H);
-                                    return_value_buffer_len$52=buffer_len(Buf_H);
-                                    HMAC(return_value_EVP_sha1$50, (const void *)int_key, (signed int)sizeof(unsigned char [20l]) /*20ul*/ , (const unsigned char *)return_value_buffer_ptr$51, return_value_buffer_len$52, hmac, (unsigned int *)&keysize);
+                                    return_value_buffer_ptr_49=buffer_ptr(Buf_Space);
+                                    buffer_append(Buf_H, return_value_buffer_ptr_49, (unsigned long int)4);
+                                    return_value_EVP_sha1_50=EVP_sha1();
+                                    return_value_buffer_ptr_51=buffer_ptr(Buf_H);
+                                    return_value_buffer_len_52=buffer_len(Buf_H);
+                                    HMAC(return_value_EVP_sha1_50, (const void *)int_key, (signed int)sizeof(unsigned char [20l]) /*20ul*/ , (const unsigned char *)return_value_buffer_ptr_51, return_value_buffer_len_52, hmac, (unsigned int *)&keysize);
                                     buffer_append(Buf_Space, (const void *)hmac, (unsigned long int)keysize);
                                     BIO_ctrl(bio_rw, 1, (signed long int)0, (void *)0);
                                     memset((void *)BufferOut, 0, (unsigned long int)4096);
                                     memset((void *)BufferIn, 0, (unsigned long int)4096);
                                     buflen = 0;
-                                    return_value_BIO_f_cipher$53=BIO_f_cipher();
-                                    cipher=BIO_new(return_value_BIO_f_cipher$53);
-                                    return_value_EVP_des_ede3_cbc$54=EVP_des_ede3_cbc();
-                                    BIO_set_cipher(cipher, return_value_EVP_des_ede3_cbc$54, enc_key, enc_iv, 1);
+                                    return_value_BIO_f_cipher_53=BIO_f_cipher();
+                                    cipher=BIO_new(return_value_BIO_f_cipher_53);
+                                    return_value_EVP_des_ede3_cbc_54=EVP_des_ede3_cbc();
+                                    BIO_set_cipher(cipher, return_value_EVP_des_ede3_cbc_54, enc_key, enc_iv, 1);
                                     BIO_push(cipher, b64);
                                     BIO_push(b64, bio_rw);
-                                    return_value_buffer_ptr$55=buffer_ptr(Buf_Space);
-                                    return_value_buffer_len$56=buffer_len(Buf_Space);
-                                    BIO_write(cipher, return_value_buffer_ptr$55, (signed int)return_value_buffer_len$56);
+                                    return_value_buffer_ptr_55=buffer_ptr(Buf_Space);
+                                    return_value_buffer_len_56=buffer_len(Buf_Space);
+                                    BIO_write(cipher, return_value_buffer_ptr_55, (signed int)return_value_buffer_len_56);
                                     BIO_ctrl(cipher, 11, (signed long int)0, (void *)0);
-                                    return_value_BIO_ctrl$57=BIO_ctrl(bio_rw, 3, (signed long int)0, (void *)(char *)&BufferPtr);
-                                    buflen = (signed int)return_value_BIO_ctrl$57;
+                                    return_value_BIO_ctrl_57=BIO_ctrl(bio_rw, 3, (signed long int)0, (void *)(char *)&BufferPtr);
+                                    buflen = (signed int)return_value_BIO_ctrl_57;
                                     memset((void *)enc_key, 0, sizeof(unsigned char [24l]) /*24ul*/ );
                                     memset((void *)enc_iv, 0, sizeof(unsigned char [8l]) /*8ul*/ );
                                     readlen=nt->netsendrecv(socket, BufferPtr, buflen, BufferIn, 4096);
@@ -4735,12 +4735,12 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                                     else
                                     {
                                       tsp_status=tspGetStatusCode(BufferIn);
-                                      return_value_tspIsRedirectStatus$59=tspIsRedirectStatus(tsp_status);
-                                      if(!(return_value_tspIsRedirectStatus$59 == 0))
+                                      return_value_tspIsRedirectStatus_59=tspIsRedirectStatus(tsp_status);
+                                      if(!(return_value_tspIsRedirectStatus_59 == 0))
                                       {
-                                        enum anonymous$27 return_value_tspHandleRedirect$58;
-                                        return_value_tspHandleRedirect$58=tspHandleRedirect(BufferIn, conf, broker_list);
-                                        if((signed int)return_value_tspHandleRedirect$58 == TSP_REDIRECT_OK)
+                                        enum anonymous_27 return_value_tspHandleRedirect_58;
+                                        return_value_tspHandleRedirect_58=tspHandleRedirect(BufferIn, conf, broker_list);
+                                        if((signed int)return_value_tspHandleRedirect_58 == TSP_REDIRECT_OK)
                                           status = (unsigned int)(57345 | 5 << 16);
 
                                         else
@@ -4753,9 +4753,9 @@ unsigned int AuthPASSDSS_3DES_1(signed int socket, struct net_tools *nt, struct 
                                         status = (unsigned int)(16 | 5 << 16);
                                       }
 
-                                      const char *return_value_tspGetTspStatusStr$60;
-                                      return_value_tspGetTspStatusStr$60=tspGetTspStatusStr(tsp_status);
-                                      Display(1, (enum tSeverityLevel)ELError, "AuthPASSDSS_3DES_1", "Unknown TSP error during authentication. (%s)", return_value_tspGetTspStatusStr$60);
+                                      const char *return_value_tspGetTspStatusStr_60;
+                                      return_value_tspGetTspStatusStr_60=tspGetTspStatusStr(tsp_status);
+                                      Display(1, (enum tSeverityLevel)ELError, "AuthPASSDSS_3DES_1", "Unknown TSP error during authentication. (%s)", return_value_tspGetTspStatusStr_60);
                                       status = (unsigned int)(13 | 5 << 16);
                                       status = (unsigned int)(0 | 0 << 16);
                                     }
@@ -4853,13 +4853,13 @@ unsigned int AuthPLAIN(signed int socket, struct net_tools *nt, struct stConf *c
     else
     {
       tsp_status=tspGetStatusCode(BufferOut);
-      signed int return_value_tspIsRedirectStatus$2;
-      return_value_tspIsRedirectStatus$2=tspIsRedirectStatus(tsp_status);
-      if(!(return_value_tspIsRedirectStatus$2 == 0))
+      signed int return_value_tspIsRedirectStatus_2;
+      return_value_tspIsRedirectStatus_2=tspIsRedirectStatus(tsp_status);
+      if(!(return_value_tspIsRedirectStatus_2 == 0))
       {
-        enum anonymous$27 return_value_tspHandleRedirect$1;
-        return_value_tspHandleRedirect$1=tspHandleRedirect(BufferOut, conf, broker_list);
-        if((signed int)return_value_tspHandleRedirect$1 == TSP_REDIRECT_OK)
+        enum anonymous_27 return_value_tspHandleRedirect_1;
+        return_value_tspHandleRedirect_1=tspHandleRedirect(BufferOut, conf, broker_list);
+        if((signed int)return_value_tspHandleRedirect_1 == TSP_REDIRECT_OK)
           return (unsigned int)(57345 | 5 << 16);
 
         else
@@ -4872,9 +4872,9 @@ unsigned int AuthPLAIN(signed int socket, struct net_tools *nt, struct stConf *c
         return (unsigned int)(16 | 5 << 16);
       }
 
-      const char *return_value_tspGetTspStatusStr$3;
-      return_value_tspGetTspStatusStr$3=tspGetTspStatusStr(tsp_status);
-      Display(1, (enum tSeverityLevel)ELError, "AuthPLAIN", "Unknown TSP error during authentication. (%s)", return_value_tspGetTspStatusStr$3);
+      const char *return_value_tspGetTspStatusStr_3;
+      return_value_tspGetTspStatusStr_3=tspGetTspStatusStr(tsp_status);
+      Display(1, (enum tSeverityLevel)ELError, "AuthPLAIN", "Unknown TSP error during authentication. (%s)", return_value_tspGetTspStatusStr_3);
       return (unsigned int)(13 | 5 << 16);
       return (unsigned int)(0 | 5 << 16);
     }
@@ -4888,7 +4888,7 @@ static signed int CopyLogFileToBackup(char *filename, char *backupname)
   struct _IO_FILE *from;
   struct _IO_FILE *to;
   char buffer[4096l];
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(backupname == ((char *)NULL) || filename == ((char *)NULL))
     return 1;
 
@@ -4911,13 +4911,13 @@ static signed int CopyLogFileToBackup(char *filename, char *backupname)
       {
         do
         {
-          return_value_fgets$1=fgets(buffer, 4096, from);
-          if(return_value_fgets$1 == ((char *)NULL))
+          return_value_fgets_1=fgets(buffer, 4096, from);
+          if(return_value_fgets_1 == ((char *)NULL))
             break;
 
-          signed int return_value_fputs$2;
-          return_value_fputs$2=fputs(buffer, to);
-          if(return_value_fputs$2 == -1)
+          signed int return_value_fputs_2;
+          return_value_fputs_2=fputs(buffer, to);
+          if(return_value_fputs_2 == -1)
           {
             fclose(from);
             fclose(to);
@@ -4926,9 +4926,9 @@ static signed int CopyLogFileToBackup(char *filename, char *backupname)
 
         }
         while((_Bool)1);
-        signed int return_value_feof$3;
-        return_value_feof$3=feof(from);
-        if(return_value_feof$3 == 0)
+        signed int return_value_feof_3;
+        return_value_feof_3=feof(from);
+        if(return_value_feof_3 == 0)
           return 1;
 
         else
@@ -4948,12 +4948,12 @@ static unsigned short int DNSGenerateID(void)
 {
   struct timeval now;
   gettimeofday(&now, (struct timezone *)(void *)0);
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   static unsigned short int id = (unsigned short int)0;
   if(id == 0)
   {
-    return_value_getpid$1=getpid();
-    id = (unsigned short int)((signed long int)0xffff & (now.tv_sec ^ now.tv_usec ^ (signed long int)return_value_getpid$1));
+    return_value_getpid_1=getpid();
+    id = (unsigned short int)((signed long int)0xffff & (now.tv_sec ^ now.tv_usec ^ (signed long int)return_value_getpid_1));
   }
 
   else
@@ -4963,38 +4963,38 @@ static unsigned short int DNSGenerateID(void)
 
 // DNSMessageCreate
 // file dns.c line 128
-static enum anonymous$10 DNSMessageCreate(char *Buffer, unsigned short int DNSid, char *Domain, char *Name, unsigned int TTL, char *AAAA, unsigned long int *Len_p)
+static enum anonymous_10 DNSMessageCreate(char *Buffer, unsigned short int DNSid, char *Domain, char *Name, unsigned int TTL, char *AAAA, unsigned long int *Len_p)
 {
   char *p;
   unsigned long int Domain_len;
   unsigned long int Name_len;
   struct in6_addr AAAA_addr;
   struct in6_addr *AAAA_addr_p = (struct in6_addr *)(void *)0;
-  enum anonymous$10 ret;
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$2;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$4;
-  unsigned short int tmp_statement_expression$5;
-  unsigned short int tmp_statement_expression$6;
-  unsigned short int tmp_statement_expression$7;
-  unsigned short int tmp_statement_expression$8;
-  unsigned short int tmp_statement_expression$9;
-  unsigned short int tmp_statement_expression$10;
-  unsigned short int tmp_statement_expression$11;
-  unsigned short int tmp_statement_expression$12;
-  unsigned short int tmp_statement_expression$13;
-  unsigned short int tmp_statement_expression$14;
-  unsigned short int tmp_statement_expression$15;
+  enum anonymous_10 ret;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_2;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_4;
+  unsigned short int tmp_statement_expression_5;
+  unsigned short int tmp_statement_expression_6;
+  unsigned short int tmp_statement_expression_7;
+  unsigned short int tmp_statement_expression_8;
+  unsigned short int tmp_statement_expression_9;
+  unsigned short int tmp_statement_expression_10;
+  unsigned short int tmp_statement_expression_11;
+  unsigned short int tmp_statement_expression_12;
+  unsigned short int tmp_statement_expression_13;
+  unsigned short int tmp_statement_expression_14;
+  unsigned short int tmp_statement_expression_15;
   if(Buffer == ((char *)NULL) || Domain == ((char *)NULL) || Name == ((char *)NULL) || Len_p == ((unsigned long int *)NULL))
-    return (enum anonymous$10)DNS_RCODE_FORMERR;
+    return (enum anonymous_10)DNS_RCODE_FORMERR;
 
   else
   {
     Name_len=strlen(Name);
     Domain_len=strlen(Domain);
     if(1ul + Domain_len + Name_len >= 254ul || Name_len >= 64ul)
-      return (enum anonymous$10)DNS_RCODE_FORMERR;
+      return (enum anonymous_10)DNS_RCODE_FORMERR;
 
     else
       if(!(AAAA == ((char *)NULL)))
@@ -5003,7 +5003,7 @@ static enum anonymous$10 DNSMessageCreate(char *Buffer, unsigned short int DNSid
         if(!(AAAA_addr_p == ((struct in6_addr *)NULL)))
           goto __CPROVER_DUMP_L3;
 
-        return (enum anonymous$10)DNS_RCODE_FORMERR;
+        return (enum anonymous_10)DNS_RCODE_FORMERR;
       }
 
       else
@@ -5012,47 +5012,47 @@ static enum anonymous$10 DNSMessageCreate(char *Buffer, unsigned short int DNSid
       __CPROVER_DUMP_L3:
         ;
         p = Buffer + (signed long int)2;
-        unsigned short int *DNSMessageCreate$$1$$2$$bb = (unsigned short int *)p;
-        unsigned short int DNSMessageCreate$$1$$2$$1$$__v;
-        unsigned short int DNSMessageCreate$$1$$2$$1$$__x = (unsigned short int)DNSid;
-        asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$2$$1$$__v) : "0"(DNSMessageCreate$$1$$2$$1$$__x) : "cc");
-        tmp_statement_expression$1 = DNSMessageCreate$$1$$2$$1$$__v;
-        *DNSMessageCreate$$1$$2$$bb = tmp_statement_expression$1;
+        unsigned short int *DNSMessageCreate__1__2__bb = (unsigned short int *)p;
+        unsigned short int DNSMessageCreate__1__2__1____v;
+        unsigned short int DNSMessageCreate__1__2__1____x = (unsigned short int)DNSid;
+        asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__2__1____v) : "0"(DNSMessageCreate__1__2__1____x) : "cc");
+        tmp_statement_expression_1 = DNSMessageCreate__1__2__1____v;
+        *DNSMessageCreate__1__2__bb = tmp_statement_expression_1;
         p = p + (signed long int)2;
-        unsigned short int *DNSMessageCreate$$1$$3$$bb = (unsigned short int *)p;
-        unsigned short int DNSMessageCreate$$1$$3$$1$$__v;
-        unsigned short int DNSMessageCreate$$1$$3$$1$$__x = (unsigned short int)(5 << 11);
-        asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$3$$1$$__v) : "0"(DNSMessageCreate$$1$$3$$1$$__x) : "cc");
-        tmp_statement_expression$2 = DNSMessageCreate$$1$$3$$1$$__v;
-        *DNSMessageCreate$$1$$3$$bb = tmp_statement_expression$2;
+        unsigned short int *DNSMessageCreate__1__3__bb = (unsigned short int *)p;
+        unsigned short int DNSMessageCreate__1__3__1____v;
+        unsigned short int DNSMessageCreate__1__3__1____x = (unsigned short int)(5 << 11);
+        asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__3__1____v) : "0"(DNSMessageCreate__1__3__1____x) : "cc");
+        tmp_statement_expression_2 = DNSMessageCreate__1__3__1____v;
+        *DNSMessageCreate__1__3__bb = tmp_statement_expression_2;
         p = p + (signed long int)2;
-        unsigned short int *DNSMessageCreate$$1$$4$$bb = (unsigned short int *)p;
-        unsigned short int DNSMessageCreate$$1$$4$$1$$__v;
-        unsigned short int DNSMessageCreate$$1$$4$$1$$__x = (unsigned short int)1;
-        asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$4$$1$$__v) : "0"(DNSMessageCreate$$1$$4$$1$$__x) : "cc");
-        tmp_statement_expression$3 = DNSMessageCreate$$1$$4$$1$$__v;
-        *DNSMessageCreate$$1$$4$$bb = tmp_statement_expression$3;
+        unsigned short int *DNSMessageCreate__1__4__bb = (unsigned short int *)p;
+        unsigned short int DNSMessageCreate__1__4__1____v;
+        unsigned short int DNSMessageCreate__1__4__1____x = (unsigned short int)1;
+        asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__4__1____v) : "0"(DNSMessageCreate__1__4__1____x) : "cc");
+        tmp_statement_expression_3 = DNSMessageCreate__1__4__1____v;
+        *DNSMessageCreate__1__4__bb = tmp_statement_expression_3;
         p = p + (signed long int)2;
-        unsigned short int *DNSMessageCreate$$1$$5$$bb = (unsigned short int *)p;
-        unsigned short int DNSMessageCreate$$1$$5$$1$$__v;
-        unsigned short int DNSMessageCreate$$1$$5$$1$$__x = (unsigned short int)0;
-        asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$5$$1$$__v) : "0"(DNSMessageCreate$$1$$5$$1$$__x) : "cc");
-        tmp_statement_expression$4 = DNSMessageCreate$$1$$5$$1$$__v;
-        *DNSMessageCreate$$1$$5$$bb = tmp_statement_expression$4;
+        unsigned short int *DNSMessageCreate__1__5__bb = (unsigned short int *)p;
+        unsigned short int DNSMessageCreate__1__5__1____v;
+        unsigned short int DNSMessageCreate__1__5__1____x = (unsigned short int)0;
+        asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__5__1____v) : "0"(DNSMessageCreate__1__5__1____x) : "cc");
+        tmp_statement_expression_4 = DNSMessageCreate__1__5__1____v;
+        *DNSMessageCreate__1__5__bb = tmp_statement_expression_4;
         p = p + (signed long int)2;
-        unsigned short int *DNSMessageCreate$$1$$6$$bb = (unsigned short int *)p;
-        unsigned short int DNSMessageCreate$$1$$6$$1$$__v;
-        unsigned short int DNSMessageCreate$$1$$6$$1$$__x = (unsigned short int)1;
-        asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$6$$1$$__v) : "0"(DNSMessageCreate$$1$$6$$1$$__x) : "cc");
-        tmp_statement_expression$5 = DNSMessageCreate$$1$$6$$1$$__v;
-        *DNSMessageCreate$$1$$6$$bb = tmp_statement_expression$5;
+        unsigned short int *DNSMessageCreate__1__6__bb = (unsigned short int *)p;
+        unsigned short int DNSMessageCreate__1__6__1____v;
+        unsigned short int DNSMessageCreate__1__6__1____x = (unsigned short int)1;
+        asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__6__1____v) : "0"(DNSMessageCreate__1__6__1____x) : "cc");
+        tmp_statement_expression_5 = DNSMessageCreate__1__6__1____v;
+        *DNSMessageCreate__1__6__bb = tmp_statement_expression_5;
         p = p + (signed long int)2;
-        unsigned short int *DNSMessageCreate$$1$$7$$bb = (unsigned short int *)p;
-        unsigned short int DNSMessageCreate$$1$$7$$1$$__v;
-        unsigned short int DNSMessageCreate$$1$$7$$1$$__x = (unsigned short int)0;
-        asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$7$$1$$__v) : "0"(DNSMessageCreate$$1$$7$$1$$__x) : "cc");
-        tmp_statement_expression$6 = DNSMessageCreate$$1$$7$$1$$__v;
-        *DNSMessageCreate$$1$$7$$bb = tmp_statement_expression$6;
+        unsigned short int *DNSMessageCreate__1__7__bb = (unsigned short int *)p;
+        unsigned short int DNSMessageCreate__1__7__1____v;
+        unsigned short int DNSMessageCreate__1__7__1____x = (unsigned short int)0;
+        asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__7__1____v) : "0"(DNSMessageCreate__1__7__1____x) : "cc");
+        tmp_statement_expression_6 = DNSMessageCreate__1__7__1____v;
+        *DNSMessageCreate__1__7__bb = tmp_statement_expression_6;
         p = p + (signed long int)2;
         ret=DNSNameEncode(&p, Domain, (unsigned short int)0);
         if(!((signed int)ret == DNS_RCODE_NOERROR))
@@ -5060,19 +5060,19 @@ static enum anonymous$10 DNSMessageCreate(char *Buffer, unsigned short int DNSid
 
         else
         {
-          unsigned short int *DNSMessageCreate$$1$$8$$bb = (unsigned short int *)p;
-          unsigned short int DNSMessageCreate$$1$$8$$1$$__v;
-          unsigned short int DNSMessageCreate$$1$$8$$1$$__x = (unsigned short int)6;
-          asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$8$$1$$__v) : "0"(DNSMessageCreate$$1$$8$$1$$__x) : "cc");
-          tmp_statement_expression$7 = DNSMessageCreate$$1$$8$$1$$__v;
-          *DNSMessageCreate$$1$$8$$bb = tmp_statement_expression$7;
+          unsigned short int *DNSMessageCreate__1__8__bb = (unsigned short int *)p;
+          unsigned short int DNSMessageCreate__1__8__1____v;
+          unsigned short int DNSMessageCreate__1__8__1____x = (unsigned short int)6;
+          asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__8__1____v) : "0"(DNSMessageCreate__1__8__1____x) : "cc");
+          tmp_statement_expression_7 = DNSMessageCreate__1__8__1____v;
+          *DNSMessageCreate__1__8__bb = tmp_statement_expression_7;
           p = p + (signed long int)2;
-          unsigned short int *DNSMessageCreate$$1$$9$$bb = (unsigned short int *)p;
-          unsigned short int DNSMessageCreate$$1$$9$$1$$__v;
-          unsigned short int DNSMessageCreate$$1$$9$$1$$__x = (unsigned short int)1;
-          asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$9$$1$$__v) : "0"(DNSMessageCreate$$1$$9$$1$$__x) : "cc");
-          tmp_statement_expression$8 = DNSMessageCreate$$1$$9$$1$$__v;
-          *DNSMessageCreate$$1$$9$$bb = tmp_statement_expression$8;
+          unsigned short int *DNSMessageCreate__1__9__bb = (unsigned short int *)p;
+          unsigned short int DNSMessageCreate__1__9__1____v;
+          unsigned short int DNSMessageCreate__1__9__1____x = (unsigned short int)1;
+          asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__9__1____v) : "0"(DNSMessageCreate__1__9__1____x) : "cc");
+          tmp_statement_expression_8 = DNSMessageCreate__1__9__1____v;
+          *DNSMessageCreate__1__9__bb = tmp_statement_expression_8;
           p = p + (signed long int)2;
           ret=DNSNameEncode(&p, Name, (unsigned short int)12);
           if(!((signed int)ret == DNS_RCODE_NOERROR))
@@ -5082,29 +5082,29 @@ static enum anonymous$10 DNSMessageCreate(char *Buffer, unsigned short int DNSid
           {
             if(!(AAAA_addr_p == ((struct in6_addr *)NULL)))
             {
-              unsigned short int *DNSMessageCreate$$1$$10$$1$$bb = (unsigned short int *)p;
-              unsigned short int DNSMessageCreate$$1$$10$$1$$1$$__v;
-              unsigned short int DNSMessageCreate$$1$$10$$1$$1$$__x = (unsigned short int)28;
-              asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$10$$1$$1$$__v) : "0"(DNSMessageCreate$$1$$10$$1$$1$$__x) : "cc");
-              tmp_statement_expression$9 = DNSMessageCreate$$1$$10$$1$$1$$__v;
-              *DNSMessageCreate$$1$$10$$1$$bb = tmp_statement_expression$9;
+              unsigned short int *DNSMessageCreate__1__10__1__bb = (unsigned short int *)p;
+              unsigned short int DNSMessageCreate__1__10__1__1____v;
+              unsigned short int DNSMessageCreate__1__10__1__1____x = (unsigned short int)28;
+              asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__10__1__1____v) : "0"(DNSMessageCreate__1__10__1__1____x) : "cc");
+              tmp_statement_expression_9 = DNSMessageCreate__1__10__1__1____v;
+              *DNSMessageCreate__1__10__1__bb = tmp_statement_expression_9;
               p = p + (signed long int)2;
-              unsigned short int *DNSMessageCreate$$1$$10$$2$$bb = (unsigned short int *)p;
-              unsigned short int DNSMessageCreate$$1$$10$$2$$1$$__v;
+              unsigned short int *DNSMessageCreate__1__10__2__bb = (unsigned short int *)p;
+              unsigned short int DNSMessageCreate__1__10__2__1____v;
               unsigned short int __x = (unsigned short int)1;
-              asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$10$$2$$1$$__v) : "0"(__x) : "cc");
-              tmp_statement_expression$10 = DNSMessageCreate$$1$$10$$2$$1$$__v;
-              *DNSMessageCreate$$1$$10$$2$$bb = tmp_statement_expression$10;
+              asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__10__2__1____v) : "0"(__x) : "cc");
+              tmp_statement_expression_10 = DNSMessageCreate__1__10__2__1____v;
+              *DNSMessageCreate__1__10__2__bb = tmp_statement_expression_10;
               p = p + (signed long int)2;
               unsigned int *bb = (unsigned int *)p;
               *bb=__bswap_32(TTL);
               p = p + (signed long int)4;
-              unsigned short int *DNSMessageCreate$$1$$10$$4$$bb = (unsigned short int *)p;
+              unsigned short int *DNSMessageCreate__1__10__4__bb = (unsigned short int *)p;
               unsigned short int __v;
-              unsigned short int DNSMessageCreate$$1$$10$$4$$1$$__x = (unsigned short int)16;
-              asm("rorw $8, %w0" : "=r"(__v) : "0"(DNSMessageCreate$$1$$10$$4$$1$$__x) : "cc");
-              tmp_statement_expression$11 = __v;
-              *DNSMessageCreate$$1$$10$$4$$bb = tmp_statement_expression$11;
+              unsigned short int DNSMessageCreate__1__10__4__1____x = (unsigned short int)16;
+              asm("rorw _8, %w0" : "=r"(__v) : "0"(DNSMessageCreate__1__10__4__1____x) : "cc");
+              tmp_statement_expression_11 = __v;
+              *DNSMessageCreate__1__10__4__bb = tmp_statement_expression_11;
               p = p + (signed long int)2;
               memcpy((void *)p, (const void *)AAAA_addr_p, (unsigned long int)16);
               p = p + (signed long int)16;
@@ -5112,41 +5112,41 @@ static enum anonymous$10 DNSMessageCreate(char *Buffer, unsigned short int DNSid
 
             else
             {
-              unsigned short int *DNSMessageCreate$$1$$11$$1$$bb = (unsigned short int *)p;
-              unsigned short int DNSMessageCreate$$1$$11$$1$$1$$__v;
-              unsigned short int DNSMessageCreate$$1$$11$$1$$1$$__x = (unsigned short int)255;
-              asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$11$$1$$1$$__v) : "0"(DNSMessageCreate$$1$$11$$1$$1$$__x) : "cc");
-              tmp_statement_expression$12 = DNSMessageCreate$$1$$11$$1$$1$$__v;
-              *DNSMessageCreate$$1$$11$$1$$bb = tmp_statement_expression$12;
+              unsigned short int *DNSMessageCreate__1__11__1__bb = (unsigned short int *)p;
+              unsigned short int DNSMessageCreate__1__11__1__1____v;
+              unsigned short int DNSMessageCreate__1__11__1__1____x = (unsigned short int)255;
+              asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__11__1__1____v) : "0"(DNSMessageCreate__1__11__1__1____x) : "cc");
+              tmp_statement_expression_12 = DNSMessageCreate__1__11__1__1____v;
+              *DNSMessageCreate__1__11__1__bb = tmp_statement_expression_12;
               p = p + (signed long int)2;
-              unsigned short int *DNSMessageCreate$$1$$11$$2$$bb = (unsigned short int *)p;
-              unsigned short int DNSMessageCreate$$1$$11$$2$$1$$__v;
-              unsigned short int DNSMessageCreate$$1$$11$$2$$1$$__x = (unsigned short int)255;
-              asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$11$$2$$1$$__v) : "0"(DNSMessageCreate$$1$$11$$2$$1$$__x) : "cc");
-              tmp_statement_expression$13 = DNSMessageCreate$$1$$11$$2$$1$$__v;
-              *DNSMessageCreate$$1$$11$$2$$bb = tmp_statement_expression$13;
+              unsigned short int *DNSMessageCreate__1__11__2__bb = (unsigned short int *)p;
+              unsigned short int DNSMessageCreate__1__11__2__1____v;
+              unsigned short int DNSMessageCreate__1__11__2__1____x = (unsigned short int)255;
+              asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__11__2__1____v) : "0"(DNSMessageCreate__1__11__2__1____x) : "cc");
+              tmp_statement_expression_13 = DNSMessageCreate__1__11__2__1____v;
+              *DNSMessageCreate__1__11__2__bb = tmp_statement_expression_13;
               p = p + (signed long int)2;
-              unsigned int *DNSMessageCreate$$1$$11$$3$$bb = (unsigned int *)p;
-              *DNSMessageCreate$$1$$11$$3$$bb=__bswap_32((unsigned int)0);
+              unsigned int *DNSMessageCreate__1__11__3__bb = (unsigned int *)p;
+              *DNSMessageCreate__1__11__3__bb=__bswap_32((unsigned int)0);
               p = p + (signed long int)4;
-              unsigned short int *DNSMessageCreate$$1$$11$$4$$bb = (unsigned short int *)p;
-              unsigned short int DNSMessageCreate$$1$$11$$4$$1$$__v;
-              unsigned short int DNSMessageCreate$$1$$11$$4$$1$$__x = (unsigned short int)0;
-              asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$11$$4$$1$$__v) : "0"(DNSMessageCreate$$1$$11$$4$$1$$__x) : "cc");
-              tmp_statement_expression$14 = DNSMessageCreate$$1$$11$$4$$1$$__v;
-              *DNSMessageCreate$$1$$11$$4$$bb = tmp_statement_expression$14;
+              unsigned short int *DNSMessageCreate__1__11__4__bb = (unsigned short int *)p;
+              unsigned short int DNSMessageCreate__1__11__4__1____v;
+              unsigned short int DNSMessageCreate__1__11__4__1____x = (unsigned short int)0;
+              asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__11__4__1____v) : "0"(DNSMessageCreate__1__11__4__1____x) : "cc");
+              tmp_statement_expression_14 = DNSMessageCreate__1__11__4__1____v;
+              *DNSMessageCreate__1__11__4__bb = tmp_statement_expression_14;
               p = p + (signed long int)2;
             }
             *Len_p = (unsigned long int)(p - Buffer);
             p = Buffer;
-            unsigned short int *DNSMessageCreate$$1$$12$$bb = (unsigned short int *)p;
-            unsigned short int DNSMessageCreate$$1$$12$$1$$__v;
-            unsigned short int DNSMessageCreate$$1$$12$$1$$__x = (unsigned short int)((signed int)(unsigned short int)*Len_p - 2);
-            asm("rorw $8, %w0" : "=r"(DNSMessageCreate$$1$$12$$1$$__v) : "0"(DNSMessageCreate$$1$$12$$1$$__x) : "cc");
-            tmp_statement_expression$15 = DNSMessageCreate$$1$$12$$1$$__v;
-            *DNSMessageCreate$$1$$12$$bb = tmp_statement_expression$15;
+            unsigned short int *DNSMessageCreate__1__12__bb = (unsigned short int *)p;
+            unsigned short int DNSMessageCreate__1__12__1____v;
+            unsigned short int DNSMessageCreate__1__12__1____x = (unsigned short int)((signed int)(unsigned short int)*Len_p - 2);
+            asm("rorw _8, %w0" : "=r"(DNSMessageCreate__1__12__1____v) : "0"(DNSMessageCreate__1__12__1____x) : "cc");
+            tmp_statement_expression_15 = DNSMessageCreate__1__12__1____v;
+            *DNSMessageCreate__1__12__bb = tmp_statement_expression_15;
             p = p + (signed long int)2;
-            return (enum anonymous$10)DNS_RCODE_NOERROR;
+            return (enum anonymous_10)DNS_RCODE_NOERROR;
           }
         }
       }
@@ -5155,35 +5155,35 @@ static enum anonymous$10 DNSMessageCreate(char *Buffer, unsigned short int DNSid
 
 // DNSNameEncode
 // file dns.c line 70
-static enum anonymous$10 DNSNameEncode(char **Pos_pp, char *Name, unsigned short int Offset)
+static enum anonymous_10 DNSNameEncode(char **Pos_pp, char *Name, unsigned short int Offset)
 {
   char *Pos_p;
   char *Name_p;
   char *Dot_p;
   unsigned long int Len;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(Pos_pp == ((char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (char *)(void *)0 == *Pos_pp ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  if(Name == ((char *)NULL) || tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = (char *)(void *)0 == *Pos_pp ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  if(Name == ((char *)NULL) || tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strlen$2=strlen(Name);
-    tmp_if_expr$3 = return_value_strlen$2 > (unsigned long int)253 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_2=strlen(Name);
+    tmp_if_expr_3 = return_value_strlen_2 > (unsigned long int)253 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int tmp_if_expr$6;
-  unsigned long int return_value_strlen$5;
-  char *tmp_post$7;
-  unsigned short int tmp_statement_expression$8;
-  char *tmp_post$9;
-  if(tmp_if_expr$3)
-    return (enum anonymous$10)DNS_RCODE_FORMERR;
+  unsigned long int tmp_if_expr_6;
+  unsigned long int return_value_strlen_5;
+  char *tmp_post_7;
+  unsigned short int tmp_statement_expression_8;
+  char *tmp_post_9;
+  if(tmp_if_expr_3)
+    return (enum anonymous_10)DNS_RCODE_FORMERR;
 
   else
   {
@@ -5191,23 +5191,23 @@ static enum anonymous$10 DNSNameEncode(char **Pos_pp, char *Name, unsigned short
     Name_p = Name;
     while(!((signed int)*Name_p == 0))
     {
-      char *return_value___builtin_strchr$4;
-      return_value___builtin_strchr$4=__builtin_strchr(Name_p, 46);
-      Dot_p = return_value___builtin_strchr$4;
+      char *return_value___builtin_strchr_4;
+      return_value___builtin_strchr_4=__builtin_strchr(Name_p, 46);
+      Dot_p = return_value___builtin_strchr_4;
       if(!(Dot_p == ((char *)NULL)))
-        tmp_if_expr$6 = (unsigned long int)(Dot_p - Name_p);
+        tmp_if_expr_6 = (unsigned long int)(Dot_p - Name_p);
 
       else
       {
-        return_value_strlen$5=strlen(Name_p);
-        tmp_if_expr$6 = return_value_strlen$5;
+        return_value_strlen_5=strlen(Name_p);
+        tmp_if_expr_6 = return_value_strlen_5;
       }
-      Len = tmp_if_expr$6;
+      Len = tmp_if_expr_6;
       if(!(Len == 0ul))
       {
-        tmp_post$7 = Pos_p;
+        tmp_post_7 = Pos_p;
         Pos_p = Pos_p + 1l;
-        *tmp_post$7 = (char)(unsigned char)Len;
+        *tmp_post_7 = (char)(unsigned char)Len;
         memcpy((void *)Pos_p, (const void *)Name_p, Len);
         Pos_p = Pos_p + (signed long int)Len;
         Name_p = Name_p + (signed long int)Len;
@@ -5222,26 +5222,26 @@ static enum anonymous$10 DNSNameEncode(char **Pos_pp, char *Name, unsigned short
       unsigned short int *bb = (unsigned short int *)Pos_p;
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)(0xc000 | (signed int)Offset);
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$8 = __v;
-      *bb = tmp_statement_expression$8;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_8 = __v;
+      *bb = tmp_statement_expression_8;
       Pos_p = Pos_p + (signed long int)2;
     }
 
     else
     {
-      tmp_post$9 = Pos_p;
+      tmp_post_9 = Pos_p;
       Pos_p = Pos_p + 1l;
-      *tmp_post$9 = (char)0;
+      *tmp_post_9 = (char)0;
     }
     *Pos_pp = Pos_p;
-    return (enum anonymous$10)DNS_RCODE_NOERROR;
+    return (enum anonymous_10)DNS_RCODE_NOERROR;
   }
 }
 
 // DNSUpdate
 // file dns.c line 236
-static enum anonymous$10 DNSUpdate(signed int Socket, char *Name, char *Domain, char *AAAA)
+static enum anonymous_10 DNSUpdate(signed int Socket, char *Name, char *Domain, char *AAAA)
 {
   unsigned short int DNSid;
   unsigned short int DNSidReply;
@@ -5249,55 +5249,55 @@ static enum anonymous$10 DNSUpdate(signed int Socket, char *Name, char *Domain, 
   unsigned short int QR;
   unsigned short int OPCode;
   unsigned short int RCode;
-  enum anonymous$10 ret;
+  enum anonymous_10 ret;
   char Buffer[512l];
   unsigned long int Len;
   char *p;
   DNSid=DNSGenerateID();
   ret=DNSMessageCreate(Buffer, DNSid, Domain, Name, (unsigned int)3600, AAAA, &Len);
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$4;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_4;
   if(!((signed int)ret == DNS_RCODE_NOERROR))
     return ret;
 
   else
   {
-    signed int return_value_NetTCP6Write$1;
-    return_value_NetTCP6Write$1=NetTCP6Write(Socket, Buffer, (signed int)Len);
-    if(!(return_value_NetTCP6Write$1 == (signed int)Len))
-      return (enum anonymous$10)DNS_RCODE_SERVFAIL;
+    signed int return_value_NetTCP6Write_1;
+    return_value_NetTCP6Write_1=NetTCP6Write(Socket, Buffer, (signed int)Len);
+    if(!(return_value_NetTCP6Write_1 == (signed int)Len))
+      return (enum anonymous_10)DNS_RCODE_SERVFAIL;
 
     else
     {
-      signed int return_value_NetTCP6Read$2;
-      return_value_NetTCP6Read$2=NetTCP6Read(Socket, Buffer, (signed int)sizeof(char [512l]) /*512ul*/ );
-      Len = (unsigned long int)return_value_NetTCP6Read$2;
+      signed int return_value_NetTCP6Read_2;
+      return_value_NetTCP6Read_2=NetTCP6Read(Socket, Buffer, (signed int)sizeof(char [512l]) /*512ul*/ );
+      Len = (unsigned long int)return_value_NetTCP6Read_2;
       if(!(Len >= 14ul))
-        return (enum anonymous$10)DNS_RCODE_SERVFAIL;
+        return (enum anonymous_10)DNS_RCODE_SERVFAIL;
 
       else
       {
         p = Buffer + (signed long int)2;
         unsigned short int __v;
         unsigned short int __x = (unsigned short int)*((unsigned short int *)p);
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-        tmp_statement_expression$3 = __v;
-        DNSidReply = tmp_statement_expression$3;
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+        tmp_statement_expression_3 = __v;
+        DNSidReply = tmp_statement_expression_3;
         p = p + (signed long int)2;
-        unsigned short int DNSUpdate$$1$$2$$1$$__v;
-        unsigned short int DNSUpdate$$1$$2$$1$$__x = (unsigned short int)*((unsigned short int *)p);
-        asm("rorw $8, %w0" : "=r"(DNSUpdate$$1$$2$$1$$__v) : "0"(DNSUpdate$$1$$2$$1$$__x) : "cc");
-        tmp_statement_expression$4 = DNSUpdate$$1$$2$$1$$__v;
-        Header = tmp_statement_expression$4;
+        unsigned short int DNSUpdate__1__2__1____v;
+        unsigned short int DNSUpdate__1__2__1____x = (unsigned short int)*((unsigned short int *)p);
+        asm("rorw _8, %w0" : "=r"(DNSUpdate__1__2__1____v) : "0"(DNSUpdate__1__2__1____x) : "cc");
+        tmp_statement_expression_4 = DNSUpdate__1__2__1____v;
+        Header = tmp_statement_expression_4;
         p = p + (signed long int)2;
         QR = (unsigned short int)(((signed int)Header & 0x8000) >> 15);
         OPCode = (unsigned short int)(((signed int)Header & 0x7800) >> 11);
         RCode = (unsigned short int)((signed int)Header & 0x000f);
         if(!(DNSid == DNSidReply) || !((signed int)OPCode == 5) || !((signed int)QR == 1))
-          return (enum anonymous$10)DNS_RCODE_SERVFAIL;
+          return (enum anonymous_10)DNS_RCODE_SERVFAIL;
 
         else
-          return (enum anonymous$10)RCode;
+          return (enum anonymous_10)RCode;
       }
     }
   }
@@ -5305,20 +5305,20 @@ static enum anonymous$10 DNSUpdate(signed int Socket, char *Name, char *Domain, 
 
 // DNSUpdateAddAAAA
 // file dns.c line 329
-enum anonymous$10 DNSUpdateAddAAAA(signed int Socket, char *Name, char *Domain, char *AAAA)
+enum anonymous_10 DNSUpdateAddAAAA(signed int Socket, char *Name, char *Domain, char *AAAA)
 {
-  enum anonymous$10 return_value_DNSUpdate$1;
-  return_value_DNSUpdate$1=DNSUpdate(Socket, Name, Domain, AAAA);
-  return return_value_DNSUpdate$1;
+  enum anonymous_10 return_value_DNSUpdate_1;
+  return_value_DNSUpdate_1=DNSUpdate(Socket, Name, Domain, AAAA);
+  return return_value_DNSUpdate_1;
 }
 
 // DNSUpdateClose
 // file dns.c line 320
 signed int DNSUpdateClose(signed int Socket)
 {
-  signed int return_value_NetTCP6Close$1;
-  return_value_NetTCP6Close$1=NetTCP6Close(Socket);
-  return return_value_NetTCP6Close$1;
+  signed int return_value_NetTCP6Close_1;
+  return_value_NetTCP6Close_1=NetTCP6Close(Socket);
+  return return_value_NetTCP6Close_1;
 }
 
 // DNSUpdateConnect
@@ -5326,9 +5326,9 @@ signed int DNSUpdateClose(signed int Socket)
 signed int DNSUpdateConnect(char *Server)
 {
   signed int sock;
-  signed int return_value_NetTCP6Connect$1;
-  return_value_NetTCP6Connect$1=NetTCP6Connect(&sock, Server, (unsigned short int)853);
-  if(return_value_NetTCP6Connect$1 == 0)
+  signed int return_value_NetTCP6Connect_1;
+  return_value_NetTCP6Connect_1=NetTCP6Connect(&sock, Server, (unsigned short int)853);
+  if(return_value_NetTCP6Connect_1 == 0)
     return sock;
 
   else
@@ -5337,11 +5337,11 @@ signed int DNSUpdateConnect(char *Server)
 
 // DNSUpdateDelRRSets
 // file dns.c line 339
-enum anonymous$10 DNSUpdateDelRRSets(signed int Socket, char *Name, char *Domain)
+enum anonymous_10 DNSUpdateDelRRSets(signed int Socket, char *Name, char *Domain)
 {
-  enum anonymous$10 return_value_DNSUpdate$1;
-  return_value_DNSUpdate$1=DNSUpdate(Socket, Name, Domain, (char *)(void *)0);
-  return return_value_DNSUpdate$1;
+  enum anonymous_10 return_value_DNSUpdate_1;
+  return_value_DNSUpdate_1=DNSUpdate(Socket, Name, Domain, (char *)(void *)0);
+  return return_value_DNSUpdate_1;
 }
 
 // Decode
@@ -5370,7 +5370,7 @@ signed int DirectErrorMessage(char *message, ...)
   char concat_buffer[4096l];
   if(LogMutexInitialized == 0)
   {
-    pthread_mutex_init(&logMutex, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&logMutex, (const union anonymous_2 *)(void *)0);
     LogMutexInitialized = 1;
   }
 
@@ -5378,11 +5378,11 @@ signed int DirectErrorMessage(char *message, ...)
   argp = (void **)&message;
   vsnprintf(buffer, sizeof(char [4096l]) /*4096ul*/ , message, argp);
   argp = ((void **)NULL);
-  signed int return_value_fprintf$1;
-  return_value_fprintf$1=fprintf(stderr, "%s\n", (const void *)buffer);
-  _Bool tmp_if_expr$3;
-  char *tmp_if_expr$4;
-  if(!(return_value_fprintf$1 >= 0))
+  signed int return_value_fprintf_1;
+  return_value_fprintf_1=fprintf(stderr, "%s\n", (const void *)buffer);
+  _Bool tmp_if_expr_3;
+  char *tmp_if_expr_4;
+  if(!(return_value_fprintf_1 >= 0))
   {
     pthread_mutex_unlock(&logMutex);
     return 1;
@@ -5408,24 +5408,24 @@ signed int DirectErrorMessage(char *message, ...)
 
       else
       {
-        char return_value_SeverityToChar$2;
-        return_value_SeverityToChar$2=SeverityToChar((const enum tSeverityLevel)ELInfo);
+        char return_value_SeverityToChar_2;
+        return_value_SeverityToChar_2=SeverityToChar((const enum tSeverityLevel)ELInfo);
         if(LogConfiguration == ((struct stLogConfiguration *)NULL))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = LogConfiguration->identity == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = "gogoc";
+          tmp_if_expr_3 = LogConfiguration->identity == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = "gogoc";
 
         else
-          tmp_if_expr$4 = LogConfiguration->identity;
-        snprintf(concat_buffer, sizeof(char [4096l]) /*4096ul*/ , "%04d/%02d/%02d %02d:%02d:%02d %c %s: %s\n", tm->tm_year + 1900, tm->tm_mon + 1, tm->tm_mday, tm->tm_hour, tm->tm_min, tm->tm_sec, return_value_SeverityToChar$2, tmp_if_expr$4, (const void *)buffer);
+          tmp_if_expr_4 = LogConfiguration->identity;
+        snprintf(concat_buffer, sizeof(char [4096l]) /*4096ul*/ , "%04d/%02d/%02d %02d:%02d:%02d %c %s: %s\n", tm->tm_year + 1900, tm->tm_mon + 1, tm->tm_mday, tm->tm_hour, tm->tm_min, tm->tm_sec, return_value_SeverityToChar_2, tmp_if_expr_4, (const void *)buffer);
         if(!(Logfp == ((struct _IO_FILE *)NULL)))
         {
-          signed int return_value_fprintf$5;
-          return_value_fprintf$5=fprintf(Logfp, "%s", (const void *)concat_buffer);
-          if(return_value_fprintf$5 >= 0)
+          signed int return_value_fprintf_5;
+          return_value_fprintf_5=fprintf(Logfp, "%s", (const void *)concat_buffer);
+          if(return_value_fprintf_5 >= 0)
           {
             fflush(Logfp);
             pthread_mutex_unlock(&logMutex);
@@ -5450,7 +5450,7 @@ void Display(signed int VerboseLevel, enum tSeverityLevel SeverityLvl, const cha
   signed int j;
   char fmt[5000l];
   char clean[5000l];
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!((signed int)SeverityLvl == ELDebug))
   {
     pthread_mutex_lock(&logMutex);
@@ -5468,9 +5468,9 @@ void Display(signed int VerboseLevel, enum tSeverityLevel SeverityLvl, const cha
 
       }
 
-      tmp_post$1 = j;
+      tmp_post_1 = j;
       j = j + 1;
-      clean[(signed long int)tmp_post$1] = fmt[(signed long int)i];
+      clean[(signed long int)tmp_post_1] = fmt[(signed long int)i];
       if((signed int)fmt[(signed long int)i] == 0)
         break;
 
@@ -5521,53 +5521,53 @@ static void Encode(unsigned char *output, unsigned int *input, unsigned int len)
 
 // ExtractChallenge
 // file tsp_auth.c line 195
-void ExtractChallenge(struct anonymous$36 *c, char *String)
+void ExtractChallenge(struct anonymous_36 *c, char *String)
 {
   char *s;
   char *e;
   char *Token;
   char *Value;
   signed int len;
-  memset((void *)c, 0, sizeof(struct anonymous$36) /*48ul*/ );
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(String);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)((unsigned int)return_value_strlen$1 + (unsigned int)1));
-  Token = (char *)return_value_malloc$2;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(String);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)((unsigned int)return_value_strlen$3 + (unsigned int)1));
-  Value = (char *)return_value_malloc$4;
+  memset((void *)c, 0, sizeof(struct anonymous_36) /*48ul*/ );
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(String);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)((unsigned int)return_value_strlen_1 + (unsigned int)1));
+  Token = (char *)return_value_malloc_2;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(String);
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)((unsigned int)return_value_strlen_3 + (unsigned int)1));
+  Value = (char *)return_value_malloc_4;
   *Value = (char)0;
   *Token = *Value;
   e = String;
   s = e;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
   do
   {
     if((signed int)*e == 44)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)*e == 13 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = (signed int)*e == 13 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)*e == 10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = (signed int)*e == 10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
     {
       if(!(s == e))
       {
@@ -5622,26 +5622,26 @@ void ExtractChallenge(struct anonymous$36 *c, char *String)
     }
 
     if((signed int)*e == 61)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = (signed int)*e == 44 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_8 = (signed int)*e == 44 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = (signed int)*e == 13 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_9 = (signed int)*e == 13 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = (signed int)*e == 10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$10)
-      tmp_if_expr$11 = (_Bool)1;
+      tmp_if_expr_10 = (signed int)*e == 10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_10)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
-      tmp_if_expr$11 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$11)
+      tmp_if_expr_11 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_11)
     {
       if((signed int)*Token == 0)
       {
@@ -5689,12 +5689,12 @@ signed int FormatBrokerListAddr(struct stBrokerList *listElement, char **ppAddr)
     if((signed int)listElement->address_type == TSP_REDIRECT_BROKER_TYPE_IPV6)
     {
       unsigned long int len;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(listElement->address);
-      len = (unsigned long int)((unsigned int)return_value_strlen$1 + (unsigned int)3);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(len);
-      *ppAddr = (char *)return_value_malloc$2;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(listElement->address);
+      len = (unsigned long int)((unsigned int)return_value_strlen_1 + (unsigned int)3);
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(len);
+      *ppAddr = (char *)return_value_malloc_2;
       if(*ppAddr == ((char *)NULL))
       {
         Display(1, (enum tSeverityLevel)ELError, "FormatBrokerListAddr", "Failed memory allocation.");
@@ -5706,9 +5706,9 @@ signed int FormatBrokerListAddr(struct stBrokerList *listElement, char **ppAddr)
 
     else
     {
-      char *return_value___strdup$3;
-      return_value___strdup$3=__strdup(listElement->address);
-      *ppAddr = return_value___strdup$3;
+      char *return_value___strdup_3;
+      return_value___strdup_3=__strdup(listElement->address);
+      *ppAddr = return_value___strdup_3;
     }
     return 0;
   }
@@ -5811,9 +5811,9 @@ static signed int GetLogFileBackupName(char *filename, char *backupname)
         if(!(lastdot == ((char *)NULL)))
         {
           __builtin_strncpy(smallname, filename, (unsigned long int)(lastdot - filename));
-          unsigned long int return_value_strlen$1;
-          return_value_strlen$1=strlen(lastdot);
-          __builtin_strncpy(extension, lastdot, (unsigned long int)(unsigned int)return_value_strlen$1);
+          unsigned long int return_value_strlen_1;
+          return_value_strlen_1=strlen(lastdot);
+          __builtin_strncpy(extension, lastdot, (unsigned long int)(unsigned int)return_value_strlen_1);
           snprintf(backupname, (unsigned long int)255, "%s.%04d%02d%02d%02d%02d%02d%s", (const void *)smallname, tm->tm_year + 1900, tm->tm_mon + 1, tm->tm_mday, tm->tm_hour, tm->tm_min, tm->tm_sec, (const void *)extension);
         }
 
@@ -5838,17 +5838,17 @@ signed int GetSizeOfNullTerminatedArray(char **a)
 
 // IEE_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/icmp_echo_engine.h line 65
-enum anonymous$26 IEE_destroy(void **pp_config)
+enum anonymous_26 IEE_destroy(void **pp_config)
 {
   struct __ICMP_ECHO_ENGINE_PARMS *p_engine = (struct __ICMP_ECHO_ENGINE_PARMS *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pp_config == ((void **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *pp_config == (void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
-    return (enum anonymous$26)IEE_INVALID_PARMS;
+    tmp_if_expr_1 = *pp_config == (void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
+    return (enum anonymous_26)IEE_INVALID_PARMS;
 
   else
   {
@@ -5857,36 +5857,36 @@ enum anonymous$26 IEE_destroy(void **pp_config)
     _free_echo_event_list(p_engine->event_list);
     free((void *)p_engine);
     *pp_config = (void *)0;
-    return (enum anonymous$26)IEE_SUCCESS;
+    return (enum anonymous_26)IEE_SUCCESS;
   }
 }
 
 // IEE_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/icmp_echo_engine.h line 55
-enum anonymous$26 IEE_init(void **pp_config, enum anonymous$28 eng_mode, unsigned int send_interval, unsigned int echo_num, unsigned int echo_timeout, unsigned char echo_timeout_threshold, char *src, char *dst, signed int af, void (*send_clbk)(void), void (*recv_clbk)(double))
+enum anonymous_26 IEE_init(void **pp_config, enum anonymous_28 eng_mode, unsigned int send_interval, unsigned int echo_num, unsigned int echo_timeout, unsigned char echo_timeout_threshold, char *src, char *dst, signed int af, void (*send_clbk)(void), void (*recv_clbk)(double))
 {
   struct __ICMP_ECHO_ENGINE_PARMS *p_engine = (struct __ICMP_ECHO_ENGINE_PARMS *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pp_config == ((void **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *pp_config != (void *)0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_inet_pton$3;
-  signed int return_value_inet_pton$4;
-  signed int return_value_socket$5;
-  signed int return_value_inet_pton$6;
-  signed int return_value_inet_pton$7;
-  signed int return_value_socket$8;
-  if(dst == ((char *)NULL) || tmp_if_expr$1)
-    return (enum anonymous$26)IEE_INVALID_PARMS;
+    tmp_if_expr_1 = *pp_config != (void *)0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_inet_pton_3;
+  signed int return_value_inet_pton_4;
+  signed int return_value_socket_5;
+  signed int return_value_inet_pton_6;
+  signed int return_value_inet_pton_7;
+  signed int return_value_socket_8;
+  if(dst == ((char *)NULL) || tmp_if_expr_1)
+    return (enum anonymous_26)IEE_INVALID_PARMS;
 
   else
   {
     *pp_config=malloc(sizeof(struct __ICMP_ECHO_ENGINE_PARMS) /*136ul*/ );
     p_engine = (struct __ICMP_ECHO_ENGINE_PARMS *)*pp_config;
     if(p_engine == ((struct __ICMP_ECHO_ENGINE_PARMS *)NULL))
-      return (enum anonymous$26)IEE_RESOURCE_STARVATION;
+      return (enum anonymous_26)IEE_RESOURCE_STARVATION;
 
     else
     {
@@ -5904,87 +5904,87 @@ enum anonymous$26 IEE_init(void **pp_config, enum anonymous$28 eng_mode, unsigne
       p_engine->event_list = (struct __ECHO_EVENT *)(void *)0;
       p_engine->clbk_send = send_clbk;
       p_engine->clbk_recv = recv_clbk;
-      signed int return_value_getpid$2;
-      return_value_getpid$2=getpid();
-      p_engine->icmp_echo_id = (unsigned int)return_value_getpid$2;
+      signed int return_value_getpid_2;
+      return_value_getpid_2=getpid();
+      p_engine->icmp_echo_id = (unsigned int)return_value_getpid_2;
       p_engine->icmp_saf = af;
       switch(p_engine->icmp_saf)
       {
         case 2:
         {
-          return_value_inet_pton$3=inet_pton(2, src, (void *)&p_engine->echo_addr_src.in4.sin_addr);
-          if(!(return_value_inet_pton$3 >= 1))
+          return_value_inet_pton_3=inet_pton(2, src, (void *)&p_engine->echo_addr_src.in4.sin_addr);
+          if(!(return_value_inet_pton_3 >= 1))
           {
             free((void *)p_engine);
-            return (enum anonymous$26)IEE_INVALID_PARMS;
+            return (enum anonymous_26)IEE_INVALID_PARMS;
           }
 
           p_engine->echo_addr_src.in4.sin_family = (unsigned short int)2;
-          return_value_inet_pton$4=inet_pton(2, dst, (void *)&p_engine->echo_addr_dst.in4.sin_addr);
-          if(!(return_value_inet_pton$4 >= 1))
+          return_value_inet_pton_4=inet_pton(2, dst, (void *)&p_engine->echo_addr_dst.in4.sin_addr);
+          if(!(return_value_inet_pton_4 >= 1))
           {
             free((void *)p_engine);
-            return (enum anonymous$26)IEE_INVALID_PARMS;
+            return (enum anonymous_26)IEE_INVALID_PARMS;
           }
 
           p_engine->echo_addr_dst.in4.sin_family = (unsigned short int)2;
-          return_value_socket$5=socket(2, 3, 1);
-          p_engine->icmp_sfd = (signed int)return_value_socket$5;
+          return_value_socket_5=socket(2, 3, 1);
+          p_engine->icmp_sfd = (signed int)return_value_socket_5;
           break;
         }
         case 10:
         {
-          return_value_inet_pton$6=inet_pton(10, src, (void *)&p_engine->echo_addr_src.in6.sin6_addr);
-          if(!(return_value_inet_pton$6 >= 1))
+          return_value_inet_pton_6=inet_pton(10, src, (void *)&p_engine->echo_addr_src.in6.sin6_addr);
+          if(!(return_value_inet_pton_6 >= 1))
           {
             free((void *)p_engine);
-            return (enum anonymous$26)IEE_INVALID_PARMS;
+            return (enum anonymous_26)IEE_INVALID_PARMS;
           }
 
           p_engine->echo_addr_src.in6.sin6_family = (unsigned short int)10;
-          return_value_inet_pton$7=inet_pton(10, dst, (void *)&p_engine->echo_addr_dst.in6.sin6_addr);
-          if(!(return_value_inet_pton$7 >= 1))
+          return_value_inet_pton_7=inet_pton(10, dst, (void *)&p_engine->echo_addr_dst.in6.sin6_addr);
+          if(!(return_value_inet_pton_7 >= 1))
           {
             free((void *)p_engine);
-            return (enum anonymous$26)IEE_INVALID_PARMS;
+            return (enum anonymous_26)IEE_INVALID_PARMS;
           }
 
           p_engine->echo_addr_dst.in6.sin6_family = (unsigned short int)10;
-          return_value_socket$8=socket(10, 3, 58);
-          p_engine->icmp_sfd = (signed int)return_value_socket$8;
+          return_value_socket_8=socket(10, 3, 58);
+          p_engine->icmp_sfd = (signed int)return_value_socket_8;
           break;
         }
         default:
         {
           free((void *)p_engine);
-          return (enum anonymous$26)IEE_INVALID_PARMS;
+          return (enum anonymous_26)IEE_INVALID_PARMS;
         }
       }
       if(p_engine->icmp_sfd == -1)
       {
         free((void *)p_engine);
-        return (enum anonymous$26)IEE_GENERAL_ECHO_ERROR;
+        return (enum anonymous_26)IEE_GENERAL_ECHO_ERROR;
       }
 
       else
-        return (enum anonymous$26)IEE_SUCCESS;
+        return (enum anonymous_26)IEE_SUCCESS;
     }
   }
 }
 
 // IEE_process
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/icmp_echo_engine.h line 67
-enum anonymous$26 IEE_process(void *p_config)
+enum anonymous_26 IEE_process(void *p_config)
 {
   struct __ICMP_ECHO_ENGINE_PARMS *p_engine = (struct __ICMP_ECHO_ENGINE_PARMS *)p_config;
   struct timeval tv_reference;
-  enum anonymous$26 retval = (enum anonymous$26)IEE_SUCCESS;
+  enum anonymous_26 retval = (enum anonymous_26)IEE_SUCCESS;
   if(p_engine == ((struct __ICMP_ECHO_ENGINE_PARMS *)NULL))
-    return (enum anonymous$26)IEE_INVALID_PARMS;
+    return (enum anonymous_26)IEE_INVALID_PARMS;
 
   else
   {
-    if((signed int)(enum anonymous$28)p_engine->eng_mode == IEE_MODE_KA)
+    if((signed int)(enum anonymous_28)p_engine->eng_mode == IEE_MODE_KA)
     {
       unsigned int total_sleep_time = p_engine->send_interval;
       unsigned int sleep_time;
@@ -6027,17 +6027,17 @@ enum anonymous$26 IEE_process(void *p_config)
 
 // IEE_stop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/icmp_echo_engine.h line 70
-enum anonymous$26 IEE_stop(void *p_config)
+enum anonymous_26 IEE_stop(void *p_config)
 {
   struct __ICMP_ECHO_ENGINE_PARMS *p_engine = (struct __ICMP_ECHO_ENGINE_PARMS *)p_config;
   if(p_engine == ((struct __ICMP_ECHO_ENGINE_PARMS *)NULL))
-    return (enum anonymous$26)IEE_INVALID_PARMS;
+    return (enum anonymous_26)IEE_INVALID_PARMS;
 
   else
   {
     p_engine->eng_ongoing = (unsigned char)0;
     close(p_engine->icmp_sfd);
-    return (enum anonymous$26)IEE_SUCCESS;
+    return (enum anonymous_26)IEE_SUCCESS;
   }
 }
 
@@ -6051,9 +6051,9 @@ signed int InitLogSystem(const struct stConf *p_config)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct stLogConfiguration) /*56ul*/ );
-    p_log_config = (struct stLogConfiguration *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct stLogConfiguration) /*56ul*/ );
+    p_log_config = (struct stLogConfiguration *)return_value_malloc_1;
     if(p_log_config == ((struct stLogConfiguration *)NULL))
     {
       DirectErrorMessage("Failed memory allocation.");
@@ -6062,12 +6062,12 @@ signed int InitLogSystem(const struct stConf *p_config)
 
     else
     {
-      char *return_value___strdup$2;
-      return_value___strdup$2=__strdup("gogoc");
-      p_log_config->identity = return_value___strdup$2;
-      char *return_value___strdup$3;
-      return_value___strdup$3=__strdup(p_config->log_filename);
-      p_log_config->log_filename = return_value___strdup$3;
+      char *return_value___strdup_2;
+      return_value___strdup_2=__strdup("gogoc");
+      p_log_config->identity = return_value___strdup_2;
+      char *return_value___strdup_3;
+      return_value___strdup_3=__strdup(p_config->log_filename);
+      p_log_config->log_filename = return_value___strdup_3;
       p_log_config->log_level_stderr = (signed int)p_config->log_level_stderr;
       p_log_config->log_level_console = (signed int)p_config->log_level_console;
       p_log_config->log_level_syslog = (signed int)p_config->log_level_syslog;
@@ -6077,9 +6077,9 @@ signed int InitLogSystem(const struct stConf *p_config)
       p_log_config->log_rotation_size = p_config->log_rotation_size;
       p_log_config->delete_rotated_log = (signed int)p_config->log_rotation_delete;
       p_log_config->buffer = 0;
-      signed int return_value_LogConfigure$4;
-      return_value_LogConfigure$4=LogConfigure(p_log_config);
-      if(!(return_value_LogConfigure$4 == 0))
+      signed int return_value_LogConfigure_4;
+      return_value_LogConfigure_4=LogConfigure(p_log_config);
+      if(!(return_value_LogConfigure_4 == 0))
       {
         DirectErrorMessage("Failed to configure the logging system.");
         return -1;
@@ -6117,89 +6117,89 @@ void InitNetToolsArray(struct net_tools *nt_array)
 
 // InsertInChallegeStruct
 // file tsp_auth.c line 155
-signed int InsertInChallegeStruct(struct anonymous$36 *c, char *Token, char *Value)
+signed int InsertInChallegeStruct(struct anonymous_36 *c, char *Token, char *Value)
 {
-  signed int tmp_statement_expression$2;
-  unsigned long int InsertInChallegeStruct$$1$$1$$__s1_len;
-  unsigned long int InsertInChallegeStruct$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$3;
-  return_value___builtin_strcmp$3=__builtin_strcmp(Token, "realm");
-  tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-  if(tmp_statement_expression$2 == 0)
+  signed int tmp_statement_expression_2;
+  unsigned long int InsertInChallegeStruct__1__1____s1_len;
+  unsigned long int InsertInChallegeStruct__1__1____s2_len;
+  signed int return_value___builtin_strcmp_3;
+  return_value___builtin_strcmp_3=__builtin_strcmp(Token, "realm");
+  tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+  if(tmp_statement_expression_2 == 0)
   {
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(Value);
-    c->realm = return_value___strdup$1;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(Value);
+    c->realm = return_value___strdup_1;
     return 0;
   }
 
-  signed int tmp_statement_expression$5;
+  signed int tmp_statement_expression_5;
   unsigned long int __s1_len;
-  unsigned long int InsertInChallegeStruct$$1$$3$$__s2_len;
-  signed int return_value___builtin_strcmp$6;
-  return_value___builtin_strcmp$6=__builtin_strcmp(Token, "nonce");
-  tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-  if(tmp_statement_expression$5 == 0)
+  unsigned long int InsertInChallegeStruct__1__3____s2_len;
+  signed int return_value___builtin_strcmp_6;
+  return_value___builtin_strcmp_6=__builtin_strcmp(Token, "nonce");
+  tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+  if(tmp_statement_expression_5 == 0)
   {
-    char *return_value___strdup$4;
-    return_value___strdup$4=__strdup(Value);
-    c->nonce = return_value___strdup$4;
+    char *return_value___strdup_4;
+    return_value___strdup_4=__strdup(Value);
+    c->nonce = return_value___strdup_4;
     return 0;
   }
 
-  signed int tmp_statement_expression$8;
-  unsigned long int InsertInChallegeStruct$$1$$5$$__s1_len;
+  signed int tmp_statement_expression_8;
+  unsigned long int InsertInChallegeStruct__1__5____s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$9;
-  return_value___builtin_strcmp$9=__builtin_strcmp(Token, "qop");
-  tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-  if(tmp_statement_expression$8 == 0)
+  signed int return_value___builtin_strcmp_9;
+  return_value___builtin_strcmp_9=__builtin_strcmp(Token, "qop");
+  tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+  if(tmp_statement_expression_8 == 0)
   {
-    char *return_value___strdup$7;
-    return_value___strdup$7=__strdup(Value);
-    c->qop = return_value___strdup$7;
+    char *return_value___strdup_7;
+    return_value___strdup_7=__strdup(Value);
+    c->qop = return_value___strdup_7;
     return 0;
   }
 
-  signed int tmp_statement_expression$11;
-  unsigned long int InsertInChallegeStruct$$1$$7$$__s1_len;
-  unsigned long int InsertInChallegeStruct$$1$$7$$__s2_len;
-  signed int return_value___builtin_strcmp$12;
-  return_value___builtin_strcmp$12=__builtin_strcmp(Token, "algorithm");
-  tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-  if(tmp_statement_expression$11 == 0)
+  signed int tmp_statement_expression_11;
+  unsigned long int InsertInChallegeStruct__1__7____s1_len;
+  unsigned long int InsertInChallegeStruct__1__7____s2_len;
+  signed int return_value___builtin_strcmp_12;
+  return_value___builtin_strcmp_12=__builtin_strcmp(Token, "algorithm");
+  tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+  if(tmp_statement_expression_11 == 0)
   {
-    char *return_value___strdup$10;
-    return_value___strdup$10=__strdup(Value);
-    c->algorithm = return_value___strdup$10;
+    char *return_value___strdup_10;
+    return_value___strdup_10=__strdup(Value);
+    c->algorithm = return_value___strdup_10;
     return 0;
   }
 
-  signed int tmp_statement_expression$14;
-  unsigned long int InsertInChallegeStruct$$1$$9$$__s1_len;
-  unsigned long int InsertInChallegeStruct$$1$$9$$__s2_len;
-  signed int return_value___builtin_strcmp$15;
-  return_value___builtin_strcmp$15=__builtin_strcmp(Token, "charset");
-  tmp_statement_expression$14 = return_value___builtin_strcmp$15;
-  if(tmp_statement_expression$14 == 0)
+  signed int tmp_statement_expression_14;
+  unsigned long int InsertInChallegeStruct__1__9____s1_len;
+  unsigned long int InsertInChallegeStruct__1__9____s2_len;
+  signed int return_value___builtin_strcmp_15;
+  return_value___builtin_strcmp_15=__builtin_strcmp(Token, "charset");
+  tmp_statement_expression_14 = return_value___builtin_strcmp_15;
+  if(tmp_statement_expression_14 == 0)
   {
-    char *return_value___strdup$13;
-    return_value___strdup$13=__strdup(Value);
-    c->charset = return_value___strdup$13;
+    char *return_value___strdup_13;
+    return_value___strdup_13=__strdup(Value);
+    c->charset = return_value___strdup_13;
     return 0;
   }
 
-  signed int tmp_statement_expression$17;
-  unsigned long int InsertInChallegeStruct$$1$$11$$__s1_len;
-  unsigned long int InsertInChallegeStruct$$1$$11$$__s2_len;
-  signed int return_value___builtin_strcmp$18;
-  return_value___builtin_strcmp$18=__builtin_strcmp(Token, "rspauth");
-  tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-  if(tmp_statement_expression$17 == 0)
+  signed int tmp_statement_expression_17;
+  unsigned long int InsertInChallegeStruct__1__11____s1_len;
+  unsigned long int InsertInChallegeStruct__1__11____s2_len;
+  signed int return_value___builtin_strcmp_18;
+  return_value___builtin_strcmp_18=__builtin_strcmp(Token, "rspauth");
+  tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+  if(tmp_statement_expression_17 == 0)
   {
-    char *return_value___strdup$16;
-    return_value___strdup$16=__strdup(Value);
-    c->rspauth = return_value___strdup$16;
+    char *return_value___strdup_16;
+    return_value___strdup_16=__strdup(Value);
+    c->rspauth = return_value___strdup_16;
     return 0;
   }
 
@@ -6220,21 +6220,21 @@ signed int IsAddressInPrefix(const char *address, const char *prefix, const sign
   struct in6_addr *in6_prefix;
   memset((void *)&hints, 0x00, sizeof(struct addrinfo) /*48ul*/ );
   hints.ai_family = 10;
-  signed int return_value_getaddrinfo$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_getaddrinfo$2;
+  signed int return_value_getaddrinfo_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_getaddrinfo_2;
   if((signed int)prefix_len >= 1 && !(address == ((const char *)NULL)) && !(prefix == ((const char *)NULL)) && !((signed int)prefix_len >= 129))
   {
-    return_value_getaddrinfo$1=getaddrinfo(address, (const char *)(void *)0, &hints, &res_address);
-    if(!(return_value_getaddrinfo$1 == 0))
-      tmp_if_expr$3 = (_Bool)1;
+    return_value_getaddrinfo_1=getaddrinfo(address, (const char *)(void *)0, &hints, &res_address);
+    if(!(return_value_getaddrinfo_1 == 0))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_getaddrinfo$2=getaddrinfo(prefix, (const char *)(void *)0, &hints, &res_prefix);
-      tmp_if_expr$3 = return_value_getaddrinfo$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_getaddrinfo_2=getaddrinfo(prefix, (const char *)(void *)0, &hints, &res_prefix);
+      tmp_if_expr_3 = return_value_getaddrinfo_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
       goto __CPROVER_DUMP_L4;
 
     ret_code = -1;
@@ -6254,9 +6254,9 @@ signed int IsAddressInPrefix(const char *address, const char *prefix, const sign
       in6_prefix = &((struct sockaddr_in6 *)res_prefix->ai_addr)->sin6_addr;
       compare_bytes = (signed short int)((signed int)prefix_len / 8);
       compare_bits = (signed short int)((signed int)prefix_len % 8);
-      signed int return_value_memcmp$4;
-      return_value_memcmp$4=memcmp((const void *)in6_address, (const void *)in6_prefix, (unsigned long int)compare_bytes);
-      if(return_value_memcmp$4 == 0)
+      signed int return_value_memcmp_4;
+      return_value_memcmp_4=memcmp((const void *)in6_address, (const void *)in6_prefix, (unsigned long int)compare_bytes);
+      if(return_value_memcmp_4 == 0)
       {
         if((signed int)compare_bits >= 1)
         {
@@ -6296,9 +6296,9 @@ signed int IsAll(char *AllowedChars, char *Value)
   if(!(Value == ((char *)NULL)))
     for( ; !(*Value == 0); Value = Value + 1l)
     {
-      char *return_value___builtin_strchr$1;
-      return_value___builtin_strchr$1=__builtin_strchr(AllowedChars, (signed int)*Value);
-      if(return_value___builtin_strchr$1 == ((char *)NULL))
+      char *return_value___builtin_strchr_1;
+      return_value___builtin_strchr_1=__builtin_strchr(AllowedChars, (signed int)*Value);
+      if(return_value___builtin_strchr_1 == ((char *)NULL))
         return 0;
 
     }
@@ -6312,11 +6312,11 @@ signed int IsAll(char *AllowedChars, char *Value)
 // file lib.c line 79
 signed int IsPresent(char *Value)
 {
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(Value == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(Value);
-    if((unsigned int)return_value_strlen$1 == 0u)
+    return_value_strlen_1=strlen(Value);
+    if((unsigned int)return_value_strlen_1 == 0u)
       goto __CPROVER_DUMP_L1;
 
     return 1;
@@ -6333,21 +6333,21 @@ signed int IsPresent(char *Value)
 
 // KA_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 47
-enum anonymous$8 KA_destroy(void **pp_engine)
+enum anonymous_8 KA_destroy(void **pp_engine)
 {
   struct __KA_ENGINE_PARMS *p_ka_engine = (struct __KA_ENGINE_PARMS *)*pp_engine;
-  enum anonymous$25 ka_priv_ret;
-  enum anonymous$26 iee_ret;
-  _Bool tmp_if_expr$1;
+  enum anonymous_25 ka_priv_ret;
+  enum anonymous_26 iee_ret;
+  _Bool tmp_if_expr_1;
   if(p_ka_engine == ((struct __KA_ENGINE_PARMS *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = p_ka_engine->p_echo_engine == (void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = p_ka_engine->p_echo_engine == (void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     Display(1, (enum tSeverityLevel)ELError, "KA_destroy", "Keepalive destruction failed: Invalid pointer.");
-    return (enum anonymous$8)KA_ERROR;
+    return (enum anonymous_8)KA_ERROR;
   }
 
   else
@@ -6356,7 +6356,7 @@ enum anonymous$8 KA_destroy(void **pp_engine)
     if(!((signed int)iee_ret == IEE_SUCCESS))
     {
       Display(1, (enum tSeverityLevel)ELError, "KA_destroy", "Keepalive destruction failed: Failed to destroy ICMP echo engine.");
-      return (enum anonymous$8)KA_ERROR;
+      return (enum anonymous_8)KA_ERROR;
     }
 
     else
@@ -6369,26 +6369,26 @@ enum anonymous$8 KA_destroy(void **pp_engine)
         case KA_INVALID_PARMS:
         {
           Display(1, (enum tSeverityLevel)ELError, "KA_destroy", "Keepalive destruction failed: Invalid pointer.");
-          return (enum anonymous$8)KA_ERROR;
+          return (enum anonymous_8)KA_ERROR;
         }
         default:
         {
           Display(1, (enum tSeverityLevel)ELError, "KA_destroy", "Keepalive destruction failed: Unknown or unhandled error.");
-          return (enum anonymous$8)KA_ERROR;
+          return (enum anonymous_8)KA_ERROR;
         }
       }
-      return (enum anonymous$8)KA_SUCCESS;
+      return (enum anonymous_8)KA_SUCCESS;
     }
   }
 }
 
 // KA_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 35
-enum anonymous$8 KA_init(void **pp_engine, unsigned int ka_send_interval, char *ka_src_addr, char *ka_dst_addr, signed int ka_af)
+enum anonymous_8 KA_init(void **pp_engine, unsigned int ka_send_interval, char *ka_src_addr, char *ka_dst_addr, signed int ka_af)
 {
   struct __KA_ENGINE_PARMS *p_ka_engine;
-  enum anonymous$26 iee_ret;
-  enum anonymous$25 ka_priv_ret;
+  enum anonymous_26 iee_ret;
+  enum anonymous_25 ka_priv_ret;
   ka_priv_ret=_create_ka_engine((struct __KA_ENGINE_PARMS **)pp_engine);
   switch((signed int)ka_priv_ret)
   {
@@ -6397,12 +6397,12 @@ enum anonymous$8 KA_init(void **pp_engine, unsigned int ka_send_interval, char *
     case KA_INVALID_PARMS:
     {
       Display(1, (enum tSeverityLevel)ELError, "KA_init", "Keepalive initialisation failed: Already initialized.");
-      return (enum anonymous$8)KA_ERROR;
+      return (enum anonymous_8)KA_ERROR;
     }
     case KA_RESOURCE_STARVATION:
     {
       Display(1, (enum tSeverityLevel)ELError, "KA_init", "Keepalive initialisation failed: Failed memory allocation.");
-      return (enum anonymous$8)KA_ERROR;
+      return (enum anonymous_8)KA_ERROR;
     }
     default:
     {
@@ -6410,7 +6410,7 @@ enum anonymous$8 KA_init(void **pp_engine, unsigned int ka_send_interval, char *
     __CPROVER_DUMP_L4:
       ;
       p_ka_engine = (struct __KA_ENGINE_PARMS *)*pp_engine;
-      iee_ret=IEE_init(&p_ka_engine->p_echo_engine, (enum anonymous$28)IEE_MODE_KA, ka_send_interval, (unsigned int)0, (unsigned int)5000, (unsigned char)3, ka_src_addr, ka_dst_addr, ka_af, _ka_send_callback, _ka_recv_callback);
+      iee_ret=IEE_init(&p_ka_engine->p_echo_engine, (enum anonymous_28)IEE_MODE_KA, ka_send_interval, (unsigned int)0, (unsigned int)5000, (unsigned char)3, ka_src_addr, ka_dst_addr, ka_af, _ka_send_callback, _ka_recv_callback);
       switch((signed int)iee_ret)
       {
         case IEE_SUCCESS:
@@ -6422,35 +6422,35 @@ enum anonymous$8 KA_init(void **pp_engine, unsigned int ka_send_interval, char *
         {
           Display(1, (enum tSeverityLevel)ELError, "KA_init", "Keepalive initialisation failed: Invalid pointer.");
           _destroy_ka_engine(&p_ka_engine);
-          return (enum anonymous$8)KA_ERROR;
+          return (enum anonymous_8)KA_ERROR;
         }
         case IEE_RESOURCE_STARVATION:
         {
           Display(1, (enum tSeverityLevel)ELError, "KA_init", "Keepalive initialisation failed: Failed memory allocation.");
           _destroy_ka_engine(&p_ka_engine);
-          return (enum anonymous$8)KA_ERROR;
+          return (enum anonymous_8)KA_ERROR;
         }
         default:
         {
           Display(1, (enum tSeverityLevel)ELError, "KA_init", "Keepalive initialisation failed: Unknown or unhandled error.");
           _destroy_ka_engine(&p_ka_engine);
-          return (enum anonymous$8)KA_ERROR;
+          return (enum anonymous_8)KA_ERROR;
         }
       }
-      return (enum anonymous$8)KA_SUCCESS;
+      return (enum anonymous_8)KA_SUCCESS;
     }
   }
 }
 
 // KA_qry_status
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 43
-enum anonymous$9 KA_qry_status(void *p_engine)
+enum anonymous_9 KA_qry_status(void *p_engine)
 {
   struct __KA_ENGINE_PARMS *p_ka_engine = (struct __KA_ENGINE_PARMS *)p_engine;
   if(p_ka_engine == ((struct __KA_ENGINE_PARMS *)NULL))
   {
     Display(1, (enum tSeverityLevel)ELError, "KA_qry_status", "Keepalive status query failed: Invalid pointer.");
-    return (enum anonymous$9)KA_STAT_INVALID;
+    return (enum anonymous_9)KA_STAT_INVALID;
   }
 
   else
@@ -6459,14 +6459,14 @@ enum anonymous$9 KA_qry_status(void *p_engine)
 
 // KA_start
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 41
-enum anonymous$8 KA_start(void *p_engine)
+enum anonymous_8 KA_start(void *p_engine)
 {
   struct __KA_ENGINE_PARMS *p_ka_engine = (struct __KA_ENGINE_PARMS *)p_engine;
   signed int ret;
   if(p_ka_engine == ((struct __KA_ENGINE_PARMS *)NULL))
   {
     Display(1, (enum tSeverityLevel)ELError, "KA_start", "Keepalive start failed: Invalid pointer.");
-    return (enum anonymous$8)KA_ERROR;
+    return (enum anonymous_8)KA_ERROR;
   }
 
   else
@@ -6475,34 +6475,34 @@ enum anonymous$8 KA_start(void *p_engine)
     if(!(ret == 0))
     {
       Display(1, (enum tSeverityLevel)ELError, "KA_start", "%s%d", (const void *)"Keepalive start failed: Thread start error: ", ret);
-      return (enum anonymous$8)KA_ERROR;
+      return (enum anonymous_8)KA_ERROR;
     }
 
     else
     {
-      p_ka_engine->ka_status = (enum anonymous$9)KA_STAT_ONGOING;
-      return (enum anonymous$8)KA_SUCCESS;
+      p_ka_engine->ka_status = (enum anonymous_9)KA_STAT_ONGOING;
+      return (enum anonymous_8)KA_SUCCESS;
     }
   }
 }
 
 // KA_stop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_ka.h line 45
-enum anonymous$8 KA_stop(void *p_engine)
+enum anonymous_8 KA_stop(void *p_engine)
 {
   struct __KA_ENGINE_PARMS *p_ka_engine = (struct __KA_ENGINE_PARMS *)p_engine;
-  enum anonymous$26 iee_ret;
+  enum anonymous_26 iee_ret;
   signed int ret;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(p_ka_engine == ((struct __KA_ENGINE_PARMS *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = p_ka_engine->p_echo_engine == (void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = p_ka_engine->p_echo_engine == (void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     Display(1, (enum tSeverityLevel)ELError, "KA_stop", "Keepalive stop failed: Invalid pointer.");
-    return (enum anonymous$8)KA_ERROR;
+    return (enum anonymous_8)KA_ERROR;
   }
 
   else
@@ -6511,7 +6511,7 @@ enum anonymous$8 KA_stop(void *p_engine)
     if(!((signed int)iee_ret == IEE_SUCCESS))
     {
       Display(1, (enum tSeverityLevel)ELError, "KA_stop", "Keepalive stop failed: Failed to stop ICMP echo engine.");
-      return (enum anonymous$8)KA_ERROR;
+      return (enum anonymous_8)KA_ERROR;
     }
 
     else
@@ -6520,11 +6520,11 @@ enum anonymous$8 KA_stop(void *p_engine)
       if(!(ret == 0))
       {
         Display(1, (enum tSeverityLevel)ELError, "KA_stop", "%s%d", (const void *)"Keepalive stop failed: Thread join error: ", ret);
-        return (enum anonymous$8)KA_ERROR;
+        return (enum anonymous_8)KA_ERROR;
       }
 
       else
-        return (enum anonymous$8)KA_SUCCESS;
+        return (enum anonymous_8)KA_SUCCESS;
     }
   }
 }
@@ -6567,13 +6567,13 @@ static signed int LogBufferLineToFile(char *LogLine, struct stLogConfiguration *
           output_chars=snprintf(buffer, sizeof(char [4096l]) /*4096ul*/ , "%s", LogLine);
           if(configuration->log_rotation == TRUE)
           {
-            signed int return_value_RotateLogFile$1;
-            return_value_RotateLogFile$1=RotateLogFile(configuration->log_filename, configuration->log_rotation_size, buffer);
+            signed int return_value_RotateLogFile_1;
+            return_value_RotateLogFile_1=RotateLogFile(configuration->log_filename, configuration->log_rotation_size, buffer);
           }
 
-          signed int return_value_fprintf$2;
-          return_value_fprintf$2=fprintf(Logfp, "%s", (const void *)buffer);
-          if(!(return_value_fprintf$2 >= 0))
+          signed int return_value_fprintf_2;
+          return_value_fprintf_2=fprintf(Logfp, "%s", (const void *)buffer);
+          if(!(return_value_fprintf_2 >= 0))
           {
             *OutputBufferChars = 0;
             return 1;
@@ -6581,9 +6581,9 @@ static signed int LogBufferLineToFile(char *LogLine, struct stLogConfiguration *
 
           else
           {
-            signed int return_value_fflush$3;
-            return_value_fflush$3=fflush(Logfp);
-            if(!(return_value_fflush$3 == 0))
+            signed int return_value_fflush_3;
+            return_value_fflush_3=fflush(Logfp);
+            if(!(return_value_fflush_3 == 0))
             {
               *OutputBufferChars = 0;
               return 1;
@@ -6632,18 +6632,18 @@ signed int LogConfigure(struct stLogConfiguration *configuration)
 
   if(LogMutexInitialized == 0)
   {
-    pthread_mutex_init(&logMutex, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&logMutex, (const union anonymous_2 *)(void *)0);
     LogMutexInitialized = 1;
   }
 
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  signed int tmp_statement_expression$2;
-  unsigned long int return_value_buffer_len$5;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$11;
-  signed int tmp_statement_expression$9;
-  _Bool tmp_if_expr$12;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  signed int tmp_statement_expression_2;
+  unsigned long int return_value_buffer_len_5;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_11;
+  signed int tmp_statement_expression_9;
+  _Bool tmp_if_expr_12;
   if(configuration == ((struct stLogConfiguration *)NULL))
   {
     DirectErrorMessage("Received NULL configuration.");
@@ -6665,23 +6665,23 @@ signed int LogConfigure(struct stLogConfiguration *configuration)
         if(!(Logfp == ((struct _IO_FILE *)NULL)))
         {
           if(LogConfiguration == ((struct stLogConfiguration *)NULL))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = LogConfiguration->log_filename == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_1 = LogConfiguration->log_filename == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
-            unsigned long int LogConfigure$$1$$4$$1$$1$$1$$__s1_len;
-            unsigned long int LogConfigure$$1$$4$$1$$1$$1$$__s2_len;
-            signed int return_value___builtin_strcmp$3;
-            return_value___builtin_strcmp$3=__builtin_strcmp(LogConfiguration->log_filename, configuration->log_filename);
-            tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-            tmp_if_expr$4 = tmp_statement_expression$2 != 0 ? (_Bool)1 : (_Bool)0;
+            unsigned long int LogConfigure__1__4__1__1__1____s1_len;
+            unsigned long int LogConfigure__1__4__1__1__1____s2_len;
+            signed int return_value___builtin_strcmp_3;
+            return_value___builtin_strcmp_3=__builtin_strcmp(LogConfiguration->log_filename, configuration->log_filename);
+            tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+            tmp_if_expr_4 = tmp_statement_expression_2 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
           {
             fflush(Logfp);
             fclose(Logfp);
@@ -6722,15 +6722,15 @@ signed int LogConfigure(struct stLogConfiguration *configuration)
         }
         do
         {
-          return_value_buffer_len$5=buffer_len(&LogBuffer);
-          if(!(return_value_buffer_len$5 >= 1ul))
+          return_value_buffer_len_5=buffer_len(&LogBuffer);
+          if(!(return_value_buffer_len_5 >= 1ul))
             break;
 
-          void *return_value_buffer_ptr$6;
-          return_value_buffer_ptr$6=buffer_ptr(&LogBuffer);
-          signed int return_value_LogBufferLineToFile$7;
-          return_value_LogBufferLineToFile$7=LogBufferLineToFile((char *)return_value_buffer_ptr$6, configuration, &OutputBufferChars);
-          if(!(return_value_LogBufferLineToFile$7 == 0))
+          void *return_value_buffer_ptr_6;
+          return_value_buffer_ptr_6=buffer_ptr(&LogBuffer);
+          signed int return_value_LogBufferLineToFile_7;
+          return_value_LogBufferLineToFile_7=LogBufferLineToFile((char *)return_value_buffer_ptr_6, configuration, &OutputBufferChars);
+          if(!(return_value_LogBufferLineToFile_7 == 0))
             DirectErrorMessage("Failed to write the log buffer to file. Some logs may be lost.");
 
           OutputBufferChars = OutputBufferChars + 1;
@@ -6761,28 +6761,28 @@ signed int LogConfigure(struct stLogConfiguration *configuration)
         if(LogConfiguration->log_level_syslog >= 1)
         {
           if(LogConfiguration == ((struct stLogConfiguration *)NULL))
-            tmp_if_expr$8 = (_Bool)1;
+            tmp_if_expr_8 = (_Bool)1;
 
           else
-            tmp_if_expr$8 = LogConfiguration->identity == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$8)
-            tmp_if_expr$11 = (_Bool)1;
+            tmp_if_expr_8 = LogConfiguration->identity == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_8)
+            tmp_if_expr_11 = (_Bool)1;
 
           else
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$10;
-            return_value___builtin_strcmp$10=__builtin_strcmp(LogConfiguration->identity, configuration->identity);
-            tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-            tmp_if_expr$11 = tmp_statement_expression$9 != 0 ? (_Bool)1 : (_Bool)0;
+            signed int return_value___builtin_strcmp_10;
+            return_value___builtin_strcmp_10=__builtin_strcmp(LogConfiguration->identity, configuration->identity);
+            tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+            tmp_if_expr_11 = tmp_statement_expression_9 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$11)
-            tmp_if_expr$12 = (_Bool)1;
+          if(tmp_if_expr_11)
+            tmp_if_expr_12 = (_Bool)1;
 
           else
-            tmp_if_expr$12 = LogConfiguration->syslog_facility != configuration->syslog_facility ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$12)
+            tmp_if_expr_12 = LogConfiguration->syslog_facility != configuration->syslog_facility ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_12)
           {
             closelog();
             openlog(configuration->identity, 0, configuration->syslog_facility);
@@ -6823,9 +6823,9 @@ static signed int LogToFile(signed int buffer, enum tSeverityLevel SeverityLvl, 
   unsigned long int j;
   char line_to_log[4096l];
   char temp_buffer[4096l];
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_if_expr$6;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_if_expr_6;
   if(Logfp == ((struct _IO_FILE *)NULL) && buffer == 0)
     return 1;
 
@@ -6846,12 +6846,12 @@ static signed int LogToFile(signed int buffer, enum tSeverityLevel SeverityLvl, 
 
       else
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(line_to_log);
-        i = (unsigned long int)(unsigned int)return_value_strlen$1;
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(i + (unsigned long int)1);
-        s2 = (char *)return_value_malloc$2;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(line_to_log);
+        i = (unsigned long int)(unsigned int)return_value_strlen_1;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(i + (unsigned long int)1);
+        s2 = (char *)return_value_malloc_2;
         s1 = s2;
         if(s1 == ((char *)NULL))
           return 1;
@@ -6864,48 +6864,48 @@ static signed int LogToFile(signed int buffer, enum tSeverityLevel SeverityLvl, 
             {
               if(!((signed int)line_to_log[(signed long int)j] == 10))
               {
-                tmp_post$3 = s1;
+                tmp_post_3 = s1;
                 s1 = s1 + 1l;
-                *tmp_post$3 = line_to_log[(signed long int)j];
+                *tmp_post_3 = line_to_log[(signed long int)j];
               }
 
             }
 
-          tmp_post$4 = s1;
+          tmp_post_4 = s1;
           s1 = s1 + 1l;
-          *tmp_post$4 = (char)0;
-          char return_value_SeverityToChar$5;
-          return_value_SeverityToChar$5=SeverityToChar(SeverityLvl);
+          *tmp_post_4 = (char)0;
+          char return_value_SeverityToChar_5;
+          return_value_SeverityToChar_5=SeverityToChar(SeverityLvl);
           if(LogConfiguration->identity == ((char *)NULL))
-            tmp_if_expr$6 = "";
+            tmp_if_expr_6 = "";
 
           else
-            tmp_if_expr$6 = LogConfiguration->identity;
-          snprintf(temp_buffer, sizeof(char [4096l]) /*4096ul*/ , "%04d/%02d/%02d %02d:%02d:%02d %c %s: %s\n", tm->tm_year + 1900, tm->tm_mon + 1, tm->tm_mday, tm->tm_hour, tm->tm_min, tm->tm_sec, return_value_SeverityToChar$5, tmp_if_expr$6, s2);
+            tmp_if_expr_6 = LogConfiguration->identity;
+          snprintf(temp_buffer, sizeof(char [4096l]) /*4096ul*/ , "%04d/%02d/%02d %02d:%02d:%02d %c %s: %s\n", tm->tm_year + 1900, tm->tm_mon + 1, tm->tm_mday, tm->tm_hour, tm->tm_min, tm->tm_sec, return_value_SeverityToChar_5, tmp_if_expr_6, s2);
           free((void *)s2);
           if(!(buffer == 0))
           {
-            unsigned long int return_value_strlen$7;
-            return_value_strlen$7=strlen(temp_buffer);
-            buffer_append(&LogBuffer, (void *)temp_buffer, (unsigned long int)((unsigned int)return_value_strlen$7 + (unsigned int)1));
+            unsigned long int return_value_strlen_7;
+            return_value_strlen_7=strlen(temp_buffer);
+            buffer_append(&LogBuffer, (void *)temp_buffer, (unsigned long int)((unsigned int)return_value_strlen_7 + (unsigned int)1));
           }
 
           else
           {
             if(LogConfiguration->log_rotation == TRUE)
             {
-              signed int return_value_RotateLogFile$8;
-              return_value_RotateLogFile$8=RotateLogFile(LogConfiguration->log_filename, LogConfiguration->log_rotation_size, temp_buffer);
+              signed int return_value_RotateLogFile_8;
+              return_value_RotateLogFile_8=RotateLogFile(LogConfiguration->log_filename, LogConfiguration->log_rotation_size, temp_buffer);
             }
 
-            signed int return_value_fprintf$9;
-            return_value_fprintf$9=fprintf(Logfp, "%s", (const void *)temp_buffer);
-            if(!(return_value_fprintf$9 >= 0))
+            signed int return_value_fprintf_9;
+            return_value_fprintf_9=fprintf(Logfp, "%s", (const void *)temp_buffer);
+            if(!(return_value_fprintf_9 >= 0))
               return 1;
 
-            signed int return_value_fflush$10;
-            return_value_fflush$10=fflush(Logfp);
-            if(!(return_value_fflush$10 == 0))
+            signed int return_value_fflush_10;
+            return_value_fflush_10=fflush(Logfp);
+            if(!(return_value_fflush_10 == 0))
               return 1;
 
           }
@@ -6924,9 +6924,9 @@ static signed int LogToLocal(struct _IO_FILE *location, char *Format, ...)
   static char buffer[4096l];
   vsnprintf(buffer, sizeof(char [4096l]) /*4096ul*/ , Format, argp);
   argp = ((void **)NULL);
-  signed int return_value_fprintf$1;
-  return_value_fprintf$1=fprintf(location, "%s\n", (const void *)buffer);
-  if(!(return_value_fprintf$1 >= 0))
+  signed int return_value_fprintf_1;
+  return_value_fprintf_1=fprintf(location, "%s\n", (const void *)buffer);
+  if(!(return_value_fprintf_1 >= 0))
     return 1;
 
   else
@@ -7249,9 +7249,9 @@ extern signed int NetRUDPClose(signed int sock)
 {
   shutdown(sock, 2);
   close(sock);
-  signed int return_value_NetRUDPDestroy$1;
-  return_value_NetRUDPDestroy$1=NetRUDPDestroy();
-  return return_value_NetRUDPDestroy$1;
+  signed int return_value_NetRUDPDestroy_1;
+  return_value_NetRUDPDestroy_1=NetRUDPDestroy();
+  return return_value_NetRUDPDestroy_1;
 }
 
 // NetRUDPConnect
@@ -7269,17 +7269,17 @@ extern signed int NetRUDPConnect(signed int *p_sock, char *Host, unsigned short 
 
   else
   {
-    signed int return_value_socket$1;
-    return_value_socket$1=socket(2, 2, 0);
-    sfd = (signed int)return_value_socket$1;
+    signed int return_value_socket_1;
+    return_value_socket_1=socket(2, 2, 0);
+    sfd = (signed int)return_value_socket_1;
     if(sfd == -1)
       return -2;
 
     else
     {
-      signed int return_value_connect$2;
-      return_value_connect$2=connect(sfd, (struct sockaddr *)sai, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$2 == -1)
+      signed int return_value_connect_2;
+      return_value_connect_2=connect(sfd, (struct sockaddr *)sai, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_2 == -1)
       {
         close(sfd);
         return -2;
@@ -7298,9 +7298,9 @@ extern signed int NetRUDPConnect(signed int *p_sock, char *Host, unsigned short 
 // file net_rudp.c line 36
 signed int NetRUDPDestroy(void)
 {
-  signed int return_value_rttengine_deinit$1;
-  return_value_rttengine_deinit$1=rttengine_deinit(&rttengine_stats, (void *)0, (void *)0);
-  if(return_value_rttengine_deinit$1 == 0)
+  signed int return_value_rttengine_deinit_1;
+  return_value_rttengine_deinit_1=rttengine_deinit(&rttengine_stats, (void *)0, (void *)0);
+  if(return_value_rttengine_deinit_1 == 0)
     return 1;
 
   else
@@ -7312,9 +7312,9 @@ signed int NetRUDPDestroy(void)
 signed int NetRUDPInit(void)
 {
   memset((void *)&rttengine_stats, 0, sizeof(struct rttengine_statistics) /*56ul*/ );
-  signed int return_value_rttengine_init$1;
-  return_value_rttengine_init$1=rttengine_init(&rttengine_stats);
-  return return_value_rttengine_init$1;
+  signed int return_value_rttengine_init_1;
+  return_value_rttengine_init_1=rttengine_init(&rttengine_stats);
+  return return_value_rttengine_init_1;
 }
 
 // NetRUDPPrintf
@@ -7326,38 +7326,38 @@ extern signed int NetRUDPPrintf(signed int sock, char *out, signed int ol, char 
   argp = (void **)&Format;
   vsnprintf((char *)Data, sizeof(char [1024l]) /*1024ul*/ , Format, argp);
   argp = ((void **)NULL);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(Data);
-  signed int return_value_NetRUDPReadWrite$2;
-  return_value_NetRUDPReadWrite$2=NetRUDPReadWrite(sock, Data, (signed int)(unsigned int)return_value_strlen$1, out, ol);
-  return return_value_NetRUDPReadWrite$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(Data);
+  signed int return_value_NetRUDPReadWrite_2;
+  return_value_NetRUDPReadWrite_2=NetRUDPReadWrite(sock, Data, (signed int)(unsigned int)return_value_strlen_1, out, ol);
+  return return_value_NetRUDPReadWrite_2;
 }
 
 // NetRUDPRead
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_rudp.h line 29
 extern signed int NetRUDPRead(signed int sock, char *b, signed int l)
 {
-  signed int return_value_NetRUDPReadWrite$1;
-  return_value_NetRUDPReadWrite$1=NetRUDPReadWrite(sock, (char *)(void *)0, 0, b, l);
-  return return_value_NetRUDPReadWrite$1;
+  signed int return_value_NetRUDPReadWrite_1;
+  return_value_NetRUDPReadWrite_1=NetRUDPReadWrite(sock, (char *)(void *)0, 0, b, l);
+  return return_value_NetRUDPReadWrite_1;
 }
 
 // NetRUDPReadWrite
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_rudp.h line 24
 extern signed int NetRUDPReadWrite(signed int sock, char *in, signed int il, char *out, signed int ol)
 {
-  signed int return_value_internal_send_recv$1;
-  return_value_internal_send_recv$1=internal_send_recv(sock, (void *)in, il, (void *)out, ol);
-  return return_value_internal_send_recv$1;
+  signed int return_value_internal_send_recv_1;
+  return_value_internal_send_recv_1=internal_send_recv(sock, (void *)in, il, (void *)out, ol);
+  return return_value_internal_send_recv_1;
 }
 
 // NetRUDPWrite
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_rudp.h line 26
 extern signed int NetRUDPWrite(signed int sock, char *b, signed int l)
 {
-  signed int return_value_NetRUDPReadWrite$1;
-  return_value_NetRUDPReadWrite$1=NetRUDPReadWrite(sock, b, l, (char *)(void *)0, 0);
-  return return_value_NetRUDPReadWrite$1;
+  signed int return_value_NetRUDPReadWrite_1;
+  return_value_NetRUDPReadWrite_1=NetRUDPReadWrite(sock, b, l, (char *)(void *)0, 0);
+  return return_value_NetRUDPReadWrite_1;
 }
 
 // NetTCP6Close
@@ -7365,9 +7365,9 @@ extern signed int NetRUDPWrite(signed int sock, char *b, signed int l)
 extern signed int NetTCP6Close(signed int Socket)
 {
   shutdown(Socket, 2);
-  signed int return_value_close$1;
-  return_value_close$1=close(Socket);
-  return return_value_close$1;
+  signed int return_value_close_1;
+  return_value_close_1=close(Socket);
+  return return_value_close_1;
 }
 
 // NetTCP6Connect
@@ -7377,10 +7377,10 @@ extern signed int NetTCP6Connect(signed int *p_sock, char *Host, unsigned short 
   signed int sockfd;
   struct sockaddr_in6 serv_addr;
   struct in6_addr addr;
-  struct in6_addr *return_value_NetText2Addr6$1;
-  return_value_NetText2Addr6$1=NetText2Addr6(Host, &addr);
-  unsigned short int tmp_statement_expression$2;
-  if(return_value_NetText2Addr6$1 == ((struct in6_addr *)NULL))
+  struct in6_addr *return_value_NetText2Addr6_1;
+  return_value_NetText2Addr6_1=NetText2Addr6(Host, &addr);
+  unsigned short int tmp_statement_expression_2;
+  if(return_value_NetText2Addr6_1 == ((struct in6_addr *)NULL))
     return -1;
 
   else
@@ -7389,21 +7389,21 @@ extern signed int NetTCP6Connect(signed int *p_sock, char *Host, unsigned short 
     serv_addr.sin6_family = (unsigned short int)10;
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)Port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    serv_addr.sin6_port = tmp_statement_expression$2;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = __v;
+    serv_addr.sin6_port = tmp_statement_expression_2;
     serv_addr.sin6_addr = addr;
-    signed int return_value_socket$3;
-    return_value_socket$3=socket(10, 1, 0);
-    sockfd = (signed int)return_value_socket$3;
+    signed int return_value_socket_3;
+    return_value_socket_3=socket(10, 1, 0);
+    sockfd = (signed int)return_value_socket_3;
     if(!(sockfd >= 0))
       return -2;
 
     else
     {
-      signed int return_value_connect$4;
-      return_value_connect$4=connect(sockfd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ );
-      if(!(return_value_connect$4 >= 0))
+      signed int return_value_connect_4;
+      return_value_connect_4=connect(sockfd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ );
+      if(!(return_value_connect_4 >= 0))
       {
         close(sockfd);
         return -2;
@@ -7428,21 +7428,21 @@ extern signed int NetTCP6Printf(signed int sock, char *out, signed int pl, char 
   argp = (void **)&Format;
   vsnprintf(Data, sizeof(char [1024l]) /*1024ul*/ , Format, argp);
   argp = ((void **)NULL);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(Data);
-  Length = (signed int)(unsigned int)return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(Data);
-  signed int return_value_NetTCP6Write$3;
-  return_value_NetTCP6Write$3=NetTCP6Write(sock, Data, (signed int)(unsigned int)return_value_strlen$2);
-  if(!(return_value_NetTCP6Write$3 == Length))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(Data);
+  Length = (signed int)(unsigned int)return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(Data);
+  signed int return_value_NetTCP6Write_3;
+  return_value_NetTCP6Write_3=NetTCP6Write(sock, Data, (signed int)(unsigned int)return_value_strlen_2);
+  if(!(return_value_NetTCP6Write_3 == Length))
     return 0;
 
   else
   {
-    signed int return_value_NetTCP6Read$4;
-    return_value_NetTCP6Read$4=NetTCP6Read(sock, out, pl);
-    return return_value_NetTCP6Read$4;
+    signed int return_value_NetTCP6Read_4;
+    return_value_NetTCP6Read_4=NetTCP6Read(sock, out, pl);
+    return return_value_NetTCP6Read_4;
   }
 }
 
@@ -7450,25 +7450,25 @@ extern signed int NetTCP6Printf(signed int sock, char *out, signed int pl, char 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_tcp6.h line 34
 extern signed int NetTCP6Read(signed int sock, char *in, signed int l)
 {
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(sock, (void *)in, (unsigned long int)l, 0);
-  return (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(sock, (void *)in, (unsigned long int)l, 0);
+  return (signed int)return_value_recv_1;
 }
 
 // NetTCP6ReadWrite
 // file net_tcp6.c line 84
 extern signed int NetTCP6ReadWrite(signed int sock, char *bi, signed int li, char *bo, signed int lo)
 {
-  signed int return_value_NetTCP6Write$1;
-  return_value_NetTCP6Write$1=NetTCP6Write(sock, bi, li);
-  if(!(return_value_NetTCP6Write$1 == li))
+  signed int return_value_NetTCP6Write_1;
+  return_value_NetTCP6Write_1=NetTCP6Write(sock, bi, li);
+  if(!(return_value_NetTCP6Write_1 == li))
     return -1;
 
   else
   {
-    signed int return_value_NetTCP6Read$2;
-    return_value_NetTCP6Read$2=NetTCP6Read(sock, bo, lo);
-    return return_value_NetTCP6Read$2;
+    signed int return_value_NetTCP6Read_2;
+    return_value_NetTCP6Read_2=NetTCP6Read(sock, bo, lo);
+    return return_value_NetTCP6Read_2;
   }
 }
 
@@ -7482,9 +7482,9 @@ extern signed int NetTCP6Write(signed int sock, char *b, signed int l)
   nleft = l;
   while(nleft >= 1)
   {
-    signed long int return_value_send$1;
-    return_value_send$1=send(sock, (const void *)ptr, (unsigned long int)nleft, 0);
-    nwritten = (signed int)return_value_send$1;
+    signed long int return_value_send_1;
+    return_value_send_1=send(sock, (const void *)ptr, (unsigned long int)nleft, 0);
+    nwritten = (signed int)return_value_send_1;
     if(!(nwritten >= 1))
       return nwritten;
 
@@ -7499,9 +7499,9 @@ extern signed int NetTCP6Write(signed int sock, char *b, signed int l)
 extern signed int NetTCPClose(signed int Socket)
 {
   shutdown(Socket, 2);
-  signed int return_value_close$1;
-  return_value_close$1=close(Socket);
-  return return_value_close$1;
+  signed int return_value_close_1;
+  return_value_close_1=close(Socket);
+  return return_value_close_1;
 }
 
 // NetTCPConnect
@@ -7511,10 +7511,10 @@ extern signed int NetTCPConnect(signed int *p_sock, char *Host, unsigned short i
   signed int sockfd;
   struct sockaddr_in serv_addr;
   struct in_addr addr;
-  struct in_addr *return_value_NetText2Addr$1;
-  return_value_NetText2Addr$1=NetText2Addr(Host, &addr);
-  unsigned short int tmp_statement_expression$2;
-  if(return_value_NetText2Addr$1 == ((struct in_addr *)NULL))
+  struct in_addr *return_value_NetText2Addr_1;
+  return_value_NetText2Addr_1=NetText2Addr(Host, &addr);
+  unsigned short int tmp_statement_expression_2;
+  if(return_value_NetText2Addr_1 == ((struct in_addr *)NULL))
     return -1;
 
   else
@@ -7523,21 +7523,21 @@ extern signed int NetTCPConnect(signed int *p_sock, char *Host, unsigned short i
     serv_addr.sin_family = (unsigned short int)2;
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)Port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    serv_addr.sin_port = tmp_statement_expression$2;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = __v;
+    serv_addr.sin_port = tmp_statement_expression_2;
     serv_addr.sin_addr.s_addr = addr.s_addr;
-    signed int return_value_socket$3;
-    return_value_socket$3=socket(2, 1, 0);
-    sockfd = (signed int)return_value_socket$3;
+    signed int return_value_socket_3;
+    return_value_socket_3=socket(2, 1, 0);
+    sockfd = (signed int)return_value_socket_3;
     if(!(sockfd >= 0))
       return -2;
 
     else
     {
-      signed int return_value_connect$4;
-      return_value_connect$4=connect(sockfd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_connect$4 >= 0))
+      signed int return_value_connect_4;
+      return_value_connect_4=connect(sockfd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_connect_4 >= 0))
       {
         close(sockfd);
         return -2;
@@ -7562,21 +7562,21 @@ extern signed int NetTCPPrintf(signed int sock, char *out, signed int pl, char *
   argp = (void **)&Format;
   vsnprintf(Data, sizeof(char [1024l]) /*1024ul*/ , Format, argp);
   argp = ((void **)NULL);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(Data);
-  Length = (signed int)(unsigned int)return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(Data);
-  signed int return_value_NetTCPWrite$3;
-  return_value_NetTCPWrite$3=NetTCPWrite(sock, Data, (signed int)(unsigned int)return_value_strlen$2);
-  if(!(return_value_NetTCPWrite$3 == Length))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(Data);
+  Length = (signed int)(unsigned int)return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(Data);
+  signed int return_value_NetTCPWrite_3;
+  return_value_NetTCPWrite_3=NetTCPWrite(sock, Data, (signed int)(unsigned int)return_value_strlen_2);
+  if(!(return_value_NetTCPWrite_3 == Length))
     return 0;
 
   else
   {
-    signed int return_value_NetTCPRead$4;
-    return_value_NetTCPRead$4=NetTCPRead(sock, out, pl);
-    return return_value_NetTCPRead$4;
+    signed int return_value_NetTCPRead_4;
+    return_value_NetTCPRead_4=NetTCPRead(sock, out, pl);
+    return return_value_NetTCPRead_4;
   }
 }
 
@@ -7584,25 +7584,25 @@ extern signed int NetTCPPrintf(signed int sock, char *out, signed int pl, char *
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_tcp.h line 22
 extern signed int NetTCPRead(signed int sock, char *in, signed int l)
 {
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(sock, (void *)in, (unsigned long int)l, 0);
-  return (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(sock, (void *)in, (unsigned long int)l, 0);
+  return (signed int)return_value_recv_1;
 }
 
 // NetTCPReadWrite
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_tcp.h line 17
 extern signed int NetTCPReadWrite(signed int sock, char *bi, signed int li, char *bo, signed int lo)
 {
-  signed int return_value_NetTCPWrite$1;
-  return_value_NetTCPWrite$1=NetTCPWrite(sock, bi, li);
-  if(!(return_value_NetTCPWrite$1 == li))
+  signed int return_value_NetTCPWrite_1;
+  return_value_NetTCPWrite_1=NetTCPWrite(sock, bi, li);
+  if(!(return_value_NetTCPWrite_1 == li))
     return -1;
 
   else
   {
-    signed int return_value_NetTCPRead$2;
-    return_value_NetTCPRead$2=NetTCPRead(sock, bo, lo);
-    return return_value_NetTCPRead$2;
+    signed int return_value_NetTCPRead_2;
+    return_value_NetTCPRead_2=NetTCPRead(sock, bo, lo);
+    return return_value_NetTCPRead_2;
   }
 }
 
@@ -7616,9 +7616,9 @@ extern signed int NetTCPWrite(signed int sock, char *b, signed int l)
   nleft = l;
   while(nleft >= 1)
   {
-    signed long int return_value_send$1;
-    return_value_send$1=send(sock, (const void *)ptr, (unsigned long int)nleft, 0);
-    nwritten = (signed int)return_value_send$1;
+    signed long int return_value_send_1;
+    return_value_send_1=send(sock, (const void *)ptr, (unsigned long int)nleft, 0);
+    nwritten = (signed int)return_value_send_1;
     if(!(nwritten >= 1))
       return nwritten;
 
@@ -7637,10 +7637,10 @@ struct in_addr * NetText2Addr(char *Address, struct in_addr *in_p)
   struct addrinfo *result = (struct addrinfo *)(void *)0;
   char addr_cp[1024l];
   char *addr;
-  _Bool tmp_if_expr$3;
-  char *return_value___builtin_strchr$2;
-  char *return_value___builtin_strchr$5;
-  signed int return_value_getaddrinfo$6;
+  _Bool tmp_if_expr_3;
+  char *return_value___builtin_strchr_2;
+  char *return_value___builtin_strchr_5;
+  signed int return_value_getaddrinfo_6;
   if(Address == ((char *)NULL) || in_p == ((struct in_addr *)NULL))
     return (struct in_addr *)(void *)0;
 
@@ -7649,33 +7649,33 @@ struct in_addr * NetText2Addr(char *Address, struct in_addr *in_p)
     memset((void *)&hints, 0, sizeof(struct addrinfo) /*48ul*/ );
     hints.ai_family = 0;
     strcpy(addr_cp, Address);
-    char *return_value___builtin_strchr$1;
-    return_value___builtin_strchr$1=__builtin_strchr(Address, 91);
-    if(!(return_value___builtin_strchr$1 == ((char *)NULL)))
-      tmp_if_expr$3 = (_Bool)1;
+    char *return_value___builtin_strchr_1;
+    return_value___builtin_strchr_1=__builtin_strchr(Address, 91);
+    if(!(return_value___builtin_strchr_1 == ((char *)NULL)))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value___builtin_strchr$2=__builtin_strchr(Address, 93);
-      tmp_if_expr$3 = return_value___builtin_strchr$2 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      return_value___builtin_strchr_2=__builtin_strchr(Address, 93);
+      tmp_if_expr_3 = return_value___builtin_strchr_2 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
     {
-      return_value___builtin_strchr$5=__builtin_strchr(Address, 58);
-      addr = return_value___builtin_strchr$5;
+      return_value___builtin_strchr_5=__builtin_strchr(Address, 58);
+      addr = return_value___builtin_strchr_5;
       if(!(addr == ((char *)NULL)))
       {
-        char *return_value___builtin_strchr$4;
-        return_value___builtin_strchr$4=__builtin_strchr(addr + (signed long int)1, 58);
-        if(!(return_value___builtin_strchr$4 == ((char *)NULL)))
+        char *return_value___builtin_strchr_4;
+        return_value___builtin_strchr_4=__builtin_strchr(addr + (signed long int)1, 58);
+        if(!(return_value___builtin_strchr_4 == ((char *)NULL)))
           goto error_v4;
 
       }
 
       addr = addr_cp;
       strtok(addr_cp, ":");
-      return_value_getaddrinfo$6=getaddrinfo(addr, (const char *)(void *)0, &hints, &res);
-      if(return_value_getaddrinfo$6 == 0)
+      return_value_getaddrinfo_6=getaddrinfo(addr, (const char *)(void *)0, &hints, &res);
+      if(return_value_getaddrinfo_6 == 0)
       {
         result = res;
         for( ; !(result == ((struct addrinfo *)NULL)); result = result->ai_next)
@@ -7739,9 +7739,9 @@ struct in6_addr * NetText2Addr6(char *Address, struct in6_addr *in6_p)
 
     else
       strtok(p, ":");
-    signed int return_value_getaddrinfo$1;
-    return_value_getaddrinfo$1=getaddrinfo(p, (const char *)(void *)0, &hints, &res);
-    if(return_value_getaddrinfo$1 == 0)
+    signed int return_value_getaddrinfo_1;
+    return_value_getaddrinfo_1=getaddrinfo(p, (const char *)(void *)0, &hints, &res);
+    if(return_value_getaddrinfo_1 == 0)
     {
       result = res;
       for( ; !(result == ((struct addrinfo *)NULL)); result = result->ai_next)
@@ -7767,9 +7767,9 @@ struct in6_addr * NetText2Addr6(char *Address, struct in6_addr *in6_p)
 extern signed int NetUDPClose(signed int Socket)
 {
   shutdown(Socket, 2);
-  signed int return_value_close$1;
-  return_value_close$1=close(Socket);
-  return return_value_close$1;
+  signed int return_value_close_1;
+  return_value_close_1=close(Socket);
+  return return_value_close_1;
 }
 
 // NetUDPConnect
@@ -7779,10 +7779,10 @@ extern signed int NetUDPConnect(signed int *p_sock, char *Host, unsigned short i
   signed int sockfd;
   struct sockaddr_in serv_addr;
   struct in_addr addr;
-  struct in_addr *return_value_NetText2Addr$1;
-  return_value_NetText2Addr$1=NetText2Addr(Host, &addr);
-  unsigned short int tmp_statement_expression$2;
-  if(return_value_NetText2Addr$1 == ((struct in_addr *)NULL))
+  struct in_addr *return_value_NetText2Addr_1;
+  return_value_NetText2Addr_1=NetText2Addr(Host, &addr);
+  unsigned short int tmp_statement_expression_2;
+  if(return_value_NetText2Addr_1 == ((struct in_addr *)NULL))
     return -1;
 
   else
@@ -7791,21 +7791,21 @@ extern signed int NetUDPConnect(signed int *p_sock, char *Host, unsigned short i
     serv_addr.sin_family = (unsigned short int)2;
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)Port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    serv_addr.sin_port = tmp_statement_expression$2;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = __v;
+    serv_addr.sin_port = tmp_statement_expression_2;
     serv_addr.sin_addr.s_addr = addr.s_addr;
-    signed int return_value_socket$3;
-    return_value_socket$3=socket(2, 2, 0);
-    sockfd = (signed int)return_value_socket$3;
+    signed int return_value_socket_3;
+    return_value_socket_3=socket(2, 2, 0);
+    sockfd = (signed int)return_value_socket_3;
     if(!(sockfd >= 0))
       return -2;
 
     else
     {
-      signed int return_value_connect$4;
-      return_value_connect$4=connect(sockfd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_connect$4 >= 0))
+      signed int return_value_connect_4;
+      return_value_connect_4=connect(sockfd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_connect_4 >= 0))
       {
         close(sockfd);
         return -2;
@@ -7829,36 +7829,36 @@ extern signed int NetUDPPrintf(signed int sock, char *out, signed int ol, char *
   argp = (void **)&Format;
   vsnprintf(Data, sizeof(char [1024l]) /*1024ul*/ , Format, argp);
   argp = ((void **)NULL);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(Data);
-  signed int return_value_NetUDPReadWrite$2;
-  return_value_NetUDPReadWrite$2=NetUDPReadWrite(sock, Data, (signed int)(unsigned int)return_value_strlen$1, out, ol);
-  return return_value_NetUDPReadWrite$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(Data);
+  signed int return_value_NetUDPReadWrite_2;
+  return_value_NetUDPReadWrite_2=NetUDPReadWrite(sock, Data, (signed int)(unsigned int)return_value_strlen_1, out, ol);
+  return return_value_NetUDPReadWrite_2;
 }
 
 // NetUDPRead
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_udp.h line 22
 extern signed int NetUDPRead(signed int sock, char *b, signed int l)
 {
-  signed long int return_value_recvfrom$1;
-  return_value_recvfrom$1=recvfrom(sock, (void *)b, (unsigned long int)l, 0, (struct sockaddr *)(void *)0, (unsigned int *)(void *)0);
-  return (signed int)return_value_recvfrom$1;
+  signed long int return_value_recvfrom_1;
+  return_value_recvfrom_1=recvfrom(sock, (void *)b, (unsigned long int)l, 0, (struct sockaddr *)(void *)0, (unsigned int *)(void *)0);
+  return (signed int)return_value_recvfrom_1;
 }
 
 // NetUDPReadWrite
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/net_udp.h line 17
 extern signed int NetUDPReadWrite(signed int sock, char *bi, signed int li, char *bo, signed int lo)
 {
-  signed int return_value_NetUDPWrite$1;
-  return_value_NetUDPWrite$1=NetUDPWrite(sock, bi, li);
-  if(!(return_value_NetUDPWrite$1 == li))
+  signed int return_value_NetUDPWrite_1;
+  return_value_NetUDPWrite_1=NetUDPWrite(sock, bi, li);
+  if(!(return_value_NetUDPWrite_1 == li))
     return -1;
 
   else
   {
-    signed int return_value_NetUDPRead$2;
-    return_value_NetUDPRead$2=NetUDPRead(sock, bo, lo);
-    return return_value_NetUDPRead$2;
+    signed int return_value_NetUDPRead_2;
+    return_value_NetUDPRead_2=NetUDPRead(sock, bo, lo);
+    return return_value_NetUDPRead_2;
   }
 }
 
@@ -7872,9 +7872,9 @@ extern signed int NetUDPWrite(signed int sock, char *b, signed int l)
   nleft = l;
   while(nleft >= 1)
   {
-    signed long int return_value_send$1;
-    return_value_send$1=send(sock, (const void *)ptr, (unsigned long int)nleft, 0);
-    nwritten = (signed int)return_value_send$1;
+    signed long int return_value_send_1;
+    return_value_send_1=send(sock, (const void *)ptr, (unsigned long int)nleft, 0);
+    nwritten = (signed int)return_value_send_1;
     if(!(nwritten >= 1))
       return nwritten;
 
@@ -7906,17 +7906,17 @@ void ParseArguments(signed int argc, char **argv, struct stConf *Conf)
     {
       case 98:
       {
-        Conf->boot_mode = (enum anonymous$0)TRUE;
+        Conf->boot_mode = (enum anonymous_0)TRUE;
         break;
       }
       case 110:
       {
-        Conf->nodaemon = (enum anonymous$0)TRUE;
+        Conf->nodaemon = (enum anonymous_0)TRUE;
         break;
       }
       case 121:
       {
-        Conf->no_questions = (enum anonymous$0)TRUE;
+        Conf->no_questions = (enum anonymous_0)TRUE;
         break;
       }
       case 115:
@@ -7941,7 +7941,7 @@ void ParseArguments(signed int argc, char **argv, struct stConf *Conf)
       }
       case 114:
       {
-        Conf->retry_delay=atoi$link3(optarg);
+        Conf->retry_delay=atoi_link3(optarg);
         break;
       }
       case 63:
@@ -7966,7 +7966,7 @@ void ParseArguments(signed int argc, char **argv, struct stConf *Conf)
 static signed int ParseSyslogFacility(struct stConf *pConf, char *facility)
 {
   signed int index = 0;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; (_Bool)1; index = index + 1)
   {
     if(syslog_facilities[(signed long int)index].string == ((char *)NULL))
@@ -7974,10 +7974,10 @@ static signed int ParseSyslogFacility(struct stConf *pConf, char *facility)
 
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(facility, syslog_facilities[(signed long int)index].string);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(facility, syslog_facilities[(signed long int)index].string);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
     {
       pConf->syslog_facility = syslog_facilities[(signed long int)index].value;
       return 0;
@@ -7999,7 +7999,7 @@ void PrintUsage(char *message)
 
 // Q_BSearch
 // file deque.c line 805
-static signed int Q_BSearch(struct anonymous$37 *q, void *key, signed int (*Comp)(const void *, const void *))
+static signed int Q_BSearch(struct anonymous_37 *q, void *key, signed int (*Comp)(const void *, const void *))
 {
   signed int low;
   signed int mid;
@@ -8027,28 +8027,28 @@ static signed int Q_BSearch(struct anonymous$37 *q, void *key, signed int (*Comp
 
 // Q_DelCur
 // file deque.c line 542
-void * Q_DelCur(struct anonymous$37 *q)
+void * Q_DelCur(struct anonymous_37 *q)
 {
   void *d;
   struct nodeptr *n;
   struct nodeptr *p;
-  void *return_value_Q_PopHead$1;
-  void *return_value_Q_PopTail$2;
+  void *return_value_Q_PopHead_1;
+  void *return_value_Q_PopTail_2;
   if(q->cursor == ((struct nodeptr *)NULL))
     return (void *)0;
 
   else
     if(q->cursor == q->head)
     {
-      return_value_Q_PopHead$1=Q_PopHead(q);
-      return return_value_Q_PopHead$1;
+      return_value_Q_PopHead_1=Q_PopHead(q);
+      return return_value_Q_PopHead_1;
     }
 
     else
       if(q->cursor == q->tail)
       {
-        return_value_Q_PopTail$2=Q_PopTail(q);
-        return return_value_Q_PopTail$2;
+        return_value_Q_PopTail_2=Q_PopTail(q);
+        return return_value_Q_PopTail_2;
       }
 
       else
@@ -8070,21 +8070,21 @@ void * Q_DelCur(struct anonymous$37 *q)
 
 // Q_Empty
 // file deque.c line 191
-signed int Q_Empty(struct anonymous$37 *q)
+signed int Q_Empty(struct anonymous_37 *q)
 {
   return (signed int)(q->size == 0);
 }
 
 // Q_End
 // file deque.c line 171
-signed int Q_End(struct anonymous$37 *q)
+signed int Q_End(struct anonymous_37 *q)
 {
   return (signed int)(q->cursor == q->tail);
 }
 
 // Q_Find
 // file deque.c line 639
-signed int Q_Find(struct anonymous$37 *q, void *data, signed int (*Comp)(const void *, const void *))
+signed int Q_Find(struct anonymous_37 *q, void *data, signed int (*Comp)(const void *, const void *))
 {
   void *d;
   d=Q_First(q);
@@ -8096,8 +8096,8 @@ signed int Q_Find(struct anonymous$37 *q, void *data, signed int (*Comp)(const v
   else
   {
     d=Q_Next(q);
-    signed int return_value_Q_End$1;
-    return_value_Q_End$1=Q_End(q);
+    signed int return_value_Q_End_1;
+    return_value_Q_End_1=Q_End(q);
     signed int return_value_1;
     return_value_1=Comp(d, data);
     if(return_value_1 == 0)
@@ -8110,11 +8110,11 @@ signed int Q_Find(struct anonymous$37 *q, void *data, signed int (*Comp)(const v
 
 // Q_First
 // file deque.c line 230
-void * Q_First(struct anonymous$37 *q)
+void * Q_First(struct anonymous_37 *q)
 {
-  signed int return_value_Q_Empty$1;
-  return_value_Q_Empty$1=Q_Empty(q);
-  if(!(return_value_Q_Empty$1 == 0))
+  signed int return_value_Q_Empty_1;
+  return_value_Q_Empty_1=Q_Empty(q);
+  if(!(return_value_Q_Empty_1 == 0))
     return (void *)0;
 
   else
@@ -8126,7 +8126,7 @@ void * Q_First(struct anonymous$37 *q)
 
 // Q_Get
 // file deque.c line 587
-void * Q_Get(struct anonymous$37 *q)
+void * Q_Get(struct anonymous_37 *q)
 {
   if(q->cursor == ((struct nodeptr *)NULL))
     return (void *)0;
@@ -8137,7 +8137,7 @@ void * Q_Get(struct anonymous$37 *q)
 
 // Q_Init
 // file deque.c line 127
-signed int Q_Init(struct anonymous$37 *q)
+signed int Q_Init(struct anonymous_37 *q)
 {
   q->tail = (struct nodeptr *)(void *)0;
   q->head = q->tail;
@@ -8149,12 +8149,12 @@ signed int Q_Init(struct anonymous$37 *q)
 
 // Q_Insert
 // file deque.c line 891
-signed int Q_Insert(struct anonymous$37 *q, void *data, signed int (*Comp)(const void *, const void *))
+signed int Q_Insert(struct anonymous_37 *q, void *data, signed int (*Comp)(const void *, const void *))
 {
   Q_PushHead(q, data);
-  signed int return_value_Q_Sort$1;
-  return_value_Q_Sort$1=Q_Sort(q, Comp);
-  if(return_value_Q_Sort$1 == 0)
+  signed int return_value_Q_Sort_1;
+  return_value_Q_Sort_1=Q_Sort(q, Comp);
+  if(return_value_Q_Sort_1 == 0)
     return 0;
 
   else
@@ -8163,11 +8163,11 @@ signed int Q_Insert(struct anonymous$37 *q, void *data, signed int (*Comp)(const
 
 // Q_Last
 // file deque.c line 255
-void * Q_Last(struct anonymous$37 *q)
+void * Q_Last(struct anonymous_37 *q)
 {
-  signed int return_value_Q_Empty$1;
-  return_value_Q_Empty$1=Q_Empty(q);
-  if(!(return_value_Q_Empty$1 == 0))
+  signed int return_value_Q_Empty_1;
+  return_value_Q_Empty_1=Q_Empty(q);
+  if(!(return_value_Q_Empty_1 == 0))
     return (void *)0;
 
   else
@@ -8179,7 +8179,7 @@ void * Q_Last(struct anonymous$37 *q)
 
 // Q_Next
 // file deque.c line 486
-void * Q_Next(struct anonymous$37 *q)
+void * Q_Next(struct anonymous_37 *q)
 {
   if(q->cursor->next == ((struct nodeptr *)NULL))
     return (void *)0;
@@ -8193,13 +8193,13 @@ void * Q_Next(struct anonymous$37 *q)
 
 // Q_PopHead
 // file deque.c line 397
-void * Q_PopHead(struct anonymous$37 *q)
+void * Q_PopHead(struct anonymous_37 *q)
 {
   struct nodeptr *n;
   void *d;
-  signed int return_value_Q_Empty$1;
-  return_value_Q_Empty$1=Q_Empty(q);
-  if(!(return_value_Q_Empty$1 == 0))
+  signed int return_value_Q_Empty_1;
+  return_value_Q_Empty_1=Q_Empty(q);
+  if(!(return_value_Q_Empty_1 == 0))
     return (void *)0;
 
   else
@@ -8228,13 +8228,13 @@ void * Q_PopHead(struct anonymous$37 *q)
 
 // Q_PopTail
 // file deque.c line 441
-void * Q_PopTail(struct anonymous$37 *q)
+void * Q_PopTail(struct anonymous_37 *q)
 {
   struct nodeptr *p;
   void *d;
-  signed int return_value_Q_Empty$1;
-  return_value_Q_Empty$1=Q_Empty(q);
-  if(!(return_value_Q_Empty$1 == 0))
+  signed int return_value_Q_Empty_1;
+  return_value_Q_Empty_1=Q_Empty(q);
+  if(!(return_value_Q_Empty_1 == 0))
     return (void *)0;
 
   else
@@ -8263,7 +8263,7 @@ void * Q_PopTail(struct anonymous$37 *q)
 
 // Q_Previous
 // file deque.c line 513
-void * Q_Previous(struct anonymous$37 *q)
+void * Q_Previous(struct anonymous_37 *q)
 {
   if(q->cursor->prev == ((struct nodeptr *)NULL))
     return (void *)0;
@@ -8277,15 +8277,15 @@ void * Q_Previous(struct anonymous$37 *q)
 
 // Q_PushHead
 // file deque.c line 280
-signed int Q_PushHead(struct anonymous$37 *q, void *d)
+signed int Q_PushHead(struct anonymous_37 *q, void *d)
 {
   struct nodeptr *n = (struct nodeptr *)(void *)0;
   struct nodeptr *p;
   if(q->head == ((struct nodeptr *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct nodeptr) /*24ul*/ );
-    q->head = (struct nodeptr *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct nodeptr) /*24ul*/ );
+    q->head = (struct nodeptr *)return_value_malloc_1;
     if(q->head == ((struct nodeptr *)NULL))
       return 0;
 
@@ -8293,9 +8293,9 @@ signed int Q_PushHead(struct anonymous$37 *q, void *d)
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct nodeptr) /*24ul*/ );
-    q->head->prev = (struct nodeptr *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct nodeptr) /*24ul*/ );
+    q->head->prev = (struct nodeptr *)return_value_malloc_2;
     if(q->head->prev == ((struct nodeptr *)NULL))
       return 0;
 
@@ -8321,15 +8321,15 @@ signed int Q_PushHead(struct anonymous$37 *q, void *d)
 
 // Q_PushTail
 // file deque.c line 339
-signed int Q_PushTail(struct anonymous$37 *q, void *d)
+signed int Q_PushTail(struct anonymous_37 *q, void *d)
 {
   struct nodeptr *p = (struct nodeptr *)(void *)0;
   struct nodeptr *n;
   if(q->tail == ((struct nodeptr *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct nodeptr) /*24ul*/ );
-    q->tail = (struct nodeptr *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct nodeptr) /*24ul*/ );
+    q->tail = (struct nodeptr *)return_value_malloc_1;
     if(q->tail == ((struct nodeptr *)NULL))
       return 0;
 
@@ -8337,9 +8337,9 @@ signed int Q_PushTail(struct anonymous$37 *q, void *d)
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct nodeptr) /*24ul*/ );
-    q->tail->next = (struct nodeptr *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct nodeptr) /*24ul*/ );
+    q->tail->next = (struct nodeptr *)return_value_malloc_2;
     if(q->tail->next == ((struct nodeptr *)NULL))
       return 0;
 
@@ -8365,7 +8365,7 @@ signed int Q_PushTail(struct anonymous$37 *q, void *d)
 
 // Q_Put
 // file deque.c line 610
-signed int Q_Put(struct anonymous$37 *q, void *data)
+signed int Q_Put(struct anonymous_37 *q, void *data)
 {
   if(q->cursor == ((struct nodeptr *)NULL))
     return 0;
@@ -8379,14 +8379,14 @@ signed int Q_Put(struct anonymous$37 *q, void *data)
 
 // Q_Seek
 // file deque.c line 850
-void * Q_Seek(struct anonymous$37 *q, void *data, signed int (*Comp)(const void *, const void *))
+void * Q_Seek(struct anonymous_37 *q, void *data, signed int (*Comp)(const void *, const void *))
 {
   signed int idx;
   if(q->sorted == 0)
   {
-    signed int return_value_Q_Sort$1;
-    return_value_Q_Sort$1=Q_Sort(q, Comp);
-    if(return_value_Q_Sort$1 == 0)
+    signed int return_value_Q_Sort_1;
+    return_value_Q_Sort_1=Q_Sort(q, Comp);
+    if(return_value_Q_Sort_1 == 0)
       return (void *)0;
 
   }
@@ -8404,14 +8404,14 @@ void * Q_Seek(struct anonymous$37 *q, void *data, signed int (*Comp)(const void 
 
 // Q_Size
 // file deque.c line 210
-signed int Q_Size(struct anonymous$37 *q)
+signed int Q_Size(struct anonymous_37 *q)
 {
   return q->size;
 }
 
 // Q_Sort
 // file deque.c line 725
-signed int Q_Sort(struct anonymous$37 *q, signed int (*Comp)(const void *, const void *))
+signed int Q_Sort(struct anonymous_37 *q, signed int (*Comp)(const void *, const void *))
 {
   signed int i;
   void *d;
@@ -8423,18 +8423,18 @@ signed int Q_Sort(struct anonymous$37 *q, signed int (*Comp)(const void *, const
     q->sorted = 0;
   }
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)q->size * sizeof(void *) /*8ul*/ );
-  Q_index = (void **)return_value_malloc$1;
-  signed int tmp_post$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)q->size * sizeof(void *) /*8ul*/ );
+  Q_index = (void **)return_value_malloc_1;
+  signed int tmp_post_3;
   if(Q_index == ((void **)NULL))
     return 0;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)q->size * sizeof(struct nodeptr *) /*8ul*/ );
-    posn_index = (struct nodeptr **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)q->size * sizeof(struct nodeptr *) /*8ul*/ );
+    posn_index = (struct nodeptr **)return_value_malloc_2;
     if(posn_index == ((struct nodeptr **)NULL))
     {
       free((void *)Q_index);
@@ -8456,9 +8456,9 @@ signed int Q_Sort(struct anonymous$37 *q, signed int (*Comp)(const void *, const
       i = 0;
       for( ; !(dn == ((struct nodeptr *)NULL)); dn = dn->next)
       {
-        tmp_post$3 = i;
+        tmp_post_3 = i;
         i = i + 1;
-        dn->data = Q_index[(signed long int)tmp_post$3];
+        dn->data = Q_index[(signed long int)tmp_post_3];
       }
       if(!(d == NULL))
         Q_Find(q, d, Comp);
@@ -8473,7 +8473,7 @@ signed int Q_Sort(struct anonymous$37 *q, signed int (*Comp)(const void *, const
 
 // Q_Start
 // file deque.c line 151
-signed int Q_Start(struct anonymous$37 *q)
+signed int Q_Start(struct anonymous_37 *q)
 {
   return (signed int)(q->cursor == q->head);
 }
@@ -8534,12 +8534,12 @@ signed int RetrieveBrokerList(struct __BROKER_LIST **ppBrokerList)
   struct __BROKER_LIST *pList;
   /* assertion *ppBrokerList == ((void *)0) */
   assert(*ppBrokerList == (struct __BROKER_LIST *)(void *)0);
-  enum anonymous$27 return_value_tspReadBrokerListFromFile$1;
-  void *return_value_malloc$4;
+  enum anonymous_27 return_value_tspReadBrokerListFromFile_1;
+  void *return_value_malloc_4;
   if(!(gszBrokerListFile == ((char *)NULL)))
   {
-    return_value_tspReadBrokerListFromFile$1=tspReadBrokerListFromFile(gszBrokerListFile, &tspBrokerList);
-    if((signed int)return_value_tspReadBrokerListFromFile$1 == TSP_REDIRECT_OK)
+    return_value_tspReadBrokerListFromFile_1=tspReadBrokerListFromFile(gszBrokerListFile, &tspBrokerList);
+    if((signed int)return_value_tspReadBrokerListFromFile_1 == TSP_REDIRECT_OK)
       goto __CPROVER_DUMP_L1;
 
     return (signed int)0x00000016;
@@ -8552,21 +8552,21 @@ signed int RetrieveBrokerList(struct __BROKER_LIST **ppBrokerList)
     ;
     if(!(tspBrokerList == ((struct stBrokerList *)NULL)))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct __BROKER_LIST) /*24ul*/ );
-      pList = (struct __BROKER_LIST *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct __BROKER_LIST) /*24ul*/ );
+      pList = (struct __BROKER_LIST *)return_value_malloc_2;
       *ppBrokerList = pList;
       while(!(tspBrokerList == ((struct stBrokerList *)NULL)))
       {
-        char *return_value___strdup$3;
-        return_value___strdup$3=__strdup(tspBrokerList->address);
-        pList->szAddress = return_value___strdup$3;
+        char *return_value___strdup_3;
+        return_value___strdup_3=__strdup(tspBrokerList->address);
+        pList->szAddress = return_value___strdup_3;
         pList->nDistance = (signed int)tspBrokerList->distance;
         tspBrokerList = tspBrokerList->next;
         if(!(tspBrokerList == ((struct stBrokerList *)NULL)))
         {
-          return_value_malloc$4=malloc(sizeof(struct __BROKER_LIST) /*24ul*/ );
-          pList->next = (struct __BROKER_LIST *)return_value_malloc$4;
+          return_value_malloc_4=malloc(sizeof(struct __BROKER_LIST) /*24ul*/ );
+          pList->next = (struct __BROKER_LIST *)return_value_malloc_4;
           pList = pList->next;
         }
 
@@ -8622,9 +8622,9 @@ static signed int RotateLogFile(char *filename, signed int max_size, char *log_l
 
     else
     {
-      signed int return_value_fflush$1;
-      return_value_fflush$1=fflush(Logfp);
-      if(!(return_value_fflush$1 == 0))
+      signed int return_value_fflush_1;
+      return_value_fflush_1=fflush(Logfp);
+      if(!(return_value_fflush_1 == 0))
         return 1;
 
       else
@@ -8637,26 +8637,26 @@ static signed int RotateLogFile(char *filename, signed int max_size, char *log_l
         {
           if(!(log_line == ((char *)NULL)))
           {
-            unsigned long int return_value_strlen$2;
-            return_value_strlen$2=strlen(log_line);
-            delta = (unsigned long int)(unsigned int)return_value_strlen$2;
+            unsigned long int return_value_strlen_2;
+            return_value_strlen_2=strlen(log_line);
+            delta = (unsigned long int)(unsigned int)return_value_strlen_2;
           }
 
           if((signed int)delta + (signed int)(unsigned long int)pos >= 1024 * max_size)
           {
-            signed int return_value_RotationPendingHook$3;
-            return_value_RotationPendingHook$3=RotationPendingHook();
+            signed int return_value_RotationPendingHook_3;
+            return_value_RotationPendingHook_3=RotationPendingHook();
             fclose(Logfp);
             if(LogConfiguration->delete_rotated_log == FALSE)
             {
-              signed int return_value_GetLogFileBackupName$4;
-              return_value_GetLogFileBackupName$4=GetLogFileBackupName(filename, backup_file_name);
-              if(!(return_value_GetLogFileBackupName$4 == 0))
+              signed int return_value_GetLogFileBackupName_4;
+              return_value_GetLogFileBackupName_4=GetLogFileBackupName(filename, backup_file_name);
+              if(!(return_value_GetLogFileBackupName_4 == 0))
                 return 1;
 
-              signed int return_value_CopyLogFileToBackup$5;
-              return_value_CopyLogFileToBackup$5=CopyLogFileToBackup(filename, backup_file_name);
-              if(!(return_value_CopyLogFileToBackup$5 == 0))
+              signed int return_value_CopyLogFileToBackup_5;
+              return_value_CopyLogFileToBackup_5=CopyLogFileToBackup(filename, backup_file_name);
+              if(!(return_value_CopyLogFileToBackup_5 == 0))
                 return 1;
 
             }
@@ -8681,8 +8681,8 @@ static signed int RotationPendingHook()
   struct tm *tm;
   char concat_buffer[4096l];
   t=time((signed long int *)(void *)0);
-  _Bool tmp_if_expr$1;
-  char *tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  char *tmp_if_expr_2;
   if(t == -1l)
     return 1;
 
@@ -8695,21 +8695,21 @@ static signed int RotationPendingHook()
     else
     {
       if(LogConfiguration == ((struct stLogConfiguration *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = LogConfiguration->identity == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = "gogoc";
+        tmp_if_expr_1 = LogConfiguration->identity == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = "gogoc";
 
       else
-        tmp_if_expr$2 = LogConfiguration->identity;
-      snprintf(concat_buffer, sizeof(char [4096l]) /*4096ul*/ , "%04d/%02d/%02d %02d:%02d:%02d %s: %s\n", tm->tm_year + 1900, tm->tm_mon + 1, tm->tm_mday, tm->tm_hour, tm->tm_min, tm->tm_sec, tmp_if_expr$2, (const void *)"** ROTATING LOG FILE **");
+        tmp_if_expr_2 = LogConfiguration->identity;
+      snprintf(concat_buffer, sizeof(char [4096l]) /*4096ul*/ , "%04d/%02d/%02d %02d:%02d:%02d %s: %s\n", tm->tm_year + 1900, tm->tm_mon + 1, tm->tm_mday, tm->tm_hour, tm->tm_min, tm->tm_sec, tmp_if_expr_2, (const void *)"** ROTATING LOG FILE **");
       if(!(Logfp == ((struct _IO_FILE *)NULL)))
       {
-        signed int return_value_fprintf$3;
-        return_value_fprintf$3=fprintf(Logfp, "%s", (const void *)concat_buffer);
-        if(!(return_value_fprintf$3 >= 0))
+        signed int return_value_fprintf_3;
+        return_value_fprintf_3=fprintf(Logfp, "%s", (const void *)concat_buffer);
+        if(!(return_value_fprintf_3 >= 0))
           return 1;
 
         else
@@ -8794,8 +8794,8 @@ signed int TunInit(char *TunDevice)
   unsigned long int ioctl_nochecksum = (unsigned long int)1;
   strcpy(iftun, "/dev/net/tun");
   tunfd=open(iftun, 02);
-  _Bool tmp_if_expr$5;
-  signed int return_value_ioctl$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_ioctl_4;
   if(tunfd == -1)
   {
     Display(1, (enum tSeverityLevel)ELError, "TunInit", "Failed to open device: %s.", (const void *)iftun);
@@ -8808,23 +8808,23 @@ signed int TunInit(char *TunDevice)
     memset((void *)&ifr, 0, sizeof(struct ifreq) /*40ul*/ );
     ifr.ifr_ifru.ifru_flags = (signed short int)0x0001;
     __builtin_strncpy(ifr.ifr_ifrn.ifrn_name, TunDevice, (unsigned long int)16);
-    signed int return_value_ioctl$3;
-    return_value_ioctl$3=ioctl(tunfd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(202 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)&ifr);
-    if(return_value_ioctl$3 == -1)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_ioctl_3;
+    return_value_ioctl_3=ioctl(tunfd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(202 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)&ifr);
+    if(return_value_ioctl_3 == -1)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_ioctl$4=ioctl(tunfd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(200 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)ioctl_nochecksum);
-      tmp_if_expr$5 = return_value_ioctl$4 == -1 ? (_Bool)1 : (_Bool)0;
+      return_value_ioctl_4=ioctl(tunfd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(200 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)ioctl_nochecksum);
+      tmp_if_expr_5 = return_value_ioctl_4 == -1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      Display(1, (enum tSeverityLevel)ELError, "TunInit", "Failed to configure tun device %s : %s.", (const void *)iftun, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      Display(1, (enum tSeverityLevel)ELError, "TunInit", "Failed to configure tun device %s : %s.", (const void *)iftun, return_value_strerror_2);
       close(tunfd);
       return -1;
     }
@@ -8835,9 +8835,9 @@ signed int TunInit(char *TunDevice)
 
 // TunMainLoop
 // file tsp_tun.c line 76
-unsigned int TunMainLoop(signed int tunfd, signed int Socket, enum anonymous$0 keepalive, signed int keepalive_interval, char *local_address_ipv6, char *keepalive_address)
+unsigned int TunMainLoop(signed int tunfd, signed int Socket, enum anonymous_0 keepalive, signed int keepalive_interval, char *local_address_ipv6, char *keepalive_address)
 {
-  struct anonymous$4 rfds;
+  struct anonymous_4 rfds;
   signed int count;
   signed int maxfd;
   signed int ret;
@@ -8845,11 +8845,11 @@ unsigned int TunMainLoop(signed int tunfd, signed int Socket, enum anonymous$0 k
   unsigned char bufout[2048l];
   struct timeval timeout;
   void *p_ka_engine = (void *)0;
-  enum anonymous$9 ka_status;
-  enum anonymous$8 ka_ret;
+  enum anonymous_9 ka_status;
+  enum anonymous_8 ka_ret;
   signed int ongoing = 1;
   unsigned int status;
-  keepalive = (enum anonymous$0)(keepalive_interval != 0 ? TRUE : FALSE);
+  keepalive = (enum anonymous_0)(keepalive_interval != 0 ? TRUE : FALSE);
   if((signed int)keepalive == TRUE)
   {
     ka_ret=KA_init(&p_ka_engine, (unsigned int)(keepalive_interval * 1000), local_address_ipv6, keepalive_address, 10);
@@ -8872,9 +8872,9 @@ unsigned int TunMainLoop(signed int tunfd, signed int Socket, enum anonymous$0 k
     while(ongoing == 1)
     {
       status = (unsigned int)(0 | 0 << 16);
-      signed int return_value_tspCheckForStopOrWait$1;
-      return_value_tspCheckForStopOrWait$1=tspCheckForStopOrWait((const unsigned int)0);
-      if(!(return_value_tspCheckForStopOrWait$1 == 0))
+      signed int return_value_tspCheckForStopOrWait_1;
+      return_value_tspCheckForStopOrWait_1=tspCheckForStopOrWait((const unsigned int)0);
+      if(!(return_value_tspCheckForStopOrWait_1 == 0))
         ongoing = 0;
 
       if((signed int)keepalive == TRUE)
@@ -8921,20 +8921,20 @@ unsigned int TunMainLoop(signed int tunfd, signed int Socket, enum anonymous$0 k
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       (&rfds)->__fds_bits[(signed long int)(tunfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rfds)->__fds_bits[(signed long int)(tunfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << tunfd % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
       (&rfds)->__fds_bits[(signed long int)(Socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rfds)->__fds_bits[(signed long int)(Socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << Socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
       maxfd = tunfd > Socket ? tunfd : Socket;
-      ret=select(maxfd + 1, &rfds, (struct anonymous$4 *)(void *)0, (struct anonymous$4 *)(void *)0, &timeout);
+      ret=select(maxfd + 1, &rfds, (struct anonymous_4 *)(void *)0, (struct anonymous_4 *)(void *)0, &timeout);
       if(ret >= 1)
       {
         if(!((rfds.__fds_bits[(signed long int)(tunfd / 8)] & 1l << tunfd % 8) == 0l))
         {
-          signed long int return_value_read$2;
-          return_value_read$2=read(tunfd, (void *)bufout, sizeof(unsigned char [2048l]) /*2048ul*/ );
-          count = (signed int)return_value_read$2;
+          signed long int return_value_read_2;
+          return_value_read_2=read(tunfd, (void *)bufout, sizeof(unsigned char [2048l]) /*2048ul*/ );
+          count = (signed int)return_value_read_2;
           if(count == -1)
           {
             Display(1, (enum tSeverityLevel)ELError, "TunMainLoop", "Failed to read from tunnel device.");
@@ -8942,9 +8942,9 @@ unsigned int TunMainLoop(signed int tunfd, signed int Socket, enum anonymous$0 k
             goto done;
           }
 
-          signed long int return_value_send$3;
-          return_value_send$3=send(Socket, (const void *)(bufout + (signed long int)4), (unsigned long int)(count - 4), 0);
-          if(!(return_value_send$3 == (signed long int)(count + -4)))
+          signed long int return_value_send_3;
+          return_value_send_3=send(Socket, (const void *)(bufout + (signed long int)4), (unsigned long int)(count - 4), 0);
+          if(!(return_value_send_3 == (signed long int)(count + -4)))
           {
             Display(1, (enum tSeverityLevel)ELError, "TunMainLoop", "Failed to write on network socket.");
             status = (unsigned int)(23 | 8 << 16);
@@ -8955,12 +8955,12 @@ unsigned int TunMainLoop(signed int tunfd, signed int Socket, enum anonymous$0 k
 
         if(!((rfds.__fds_bits[(signed long int)(Socket / 8)] & 1l << Socket % 8) == 0l))
         {
-          signed long int return_value_recvfrom$4;
-          return_value_recvfrom$4=recvfrom(Socket, (void *)(bufin + (signed long int)4), (unsigned long int)(2048 - 4), 0, (struct sockaddr *)(void *)0, (unsigned int *)(void *)0);
-          count = (signed int)return_value_recvfrom$4;
-          signed long int return_value_write$5;
-          return_value_write$5=write(tunfd, (const void *)bufin, (unsigned long int)(count + 4));
-          if(!(return_value_write$5 == (signed long int)(4 + count)))
+          signed long int return_value_recvfrom_4;
+          return_value_recvfrom_4=recvfrom(Socket, (void *)(bufin + (signed long int)4), (unsigned long int)(2048 - 4), 0, (struct sockaddr *)(void *)0, (unsigned int *)(void *)0);
+          count = (signed int)return_value_recvfrom_4;
+          signed long int return_value_write_5;
+          return_value_write_5=write(tunfd, (const void *)bufin, (unsigned long int)(count + 4));
+          if(!(return_value_write_5 == (signed long int)(4 + count)))
           {
             Display(1, (enum tSeverityLevel)ELError, "TunMainLoop", "Failed to write to tunnel device.");
             status = (unsigned int)(23 | 8 << 16);
@@ -9001,14 +9001,14 @@ extern signed int XMLParse(char *str, struct stNode *nodes)
   if(!(debug == 0))
     printf("Beginning of XMLParse\n");
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-  string = (char *)return_value_malloc$2;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  const unsigned short int **return_value___ctype_b_loc$6;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+  string = (char *)return_value_malloc_2;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  const unsigned short int **return_value___ctype_b_loc_6;
   if(string == ((char *)NULL))
   {
     fprintf(stderr, "xmlparse: Error malloc\n");
@@ -9036,9 +9036,9 @@ extern signed int XMLParse(char *str, struct stNode *nodes)
       }
 
       pos = pos + 1;
-      const unsigned short int **return_value___ctype_b_loc$3;
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((1024 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)string[(signed long int)pos]]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_3;
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((1024 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)string[(signed long int)pos]]) == 0)
       {
         free((void *)string);
         return pos;
@@ -9047,8 +9047,8 @@ extern signed int XMLParse(char *str, struct stNode *nodes)
       tagName = &string[(signed long int)pos];
       for( ; !(string[(signed long int)pos] == 0); pos = pos + 1)
       {
-        return_value___ctype_b_loc$4=__ctype_b_loc();
-        if((8 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)string[(signed long int)pos]]) == 0)
+        return_value___ctype_b_loc_4=__ctype_b_loc();
+        if((8 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)string[(signed long int)pos]]) == 0)
         {
           if(!((signed int)string[(signed long int)pos] == 95))
             break;
@@ -9115,15 +9115,15 @@ extern signed int XMLParse(char *str, struct stNode *nodes)
           pos=SkipBlanks(string, pos);
           do
           {
-            return_value___ctype_b_loc$5=__ctype_b_loc();
-            if((1024 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)string[(signed long int)pos]]) == 0)
+            return_value___ctype_b_loc_5=__ctype_b_loc();
+            if((1024 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)string[(signed long int)pos]]) == 0)
               break;
 
             attrName = &string[(signed long int)pos];
             for( ; !(string[(signed long int)pos] == 0); pos = pos + 1)
             {
-              return_value___ctype_b_loc$6=__ctype_b_loc();
-              if((8 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)string[(signed long int)pos]]) == 0)
+              return_value___ctype_b_loc_6=__ctype_b_loc();
+              if((8 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)string[(signed long int)pos]]) == 0)
               {
                 if(!((signed int)string[(signed long int)pos] == 95))
                   break;
@@ -9281,9 +9281,9 @@ extern signed int XMLParse(char *str, struct stNode *nodes)
 
           }
 
-          unsigned long int return_value_strlen$7;
-          return_value_strlen$7=strlen(endToken);
-          pos = (signed int)(endTag - string) + (signed int)return_value_strlen$7;
+          unsigned long int return_value_strlen_7;
+          return_value_strlen_7=strlen(endToken);
+          pos = (signed int)(endTag - string) + (signed int)return_value_strlen_7;
         }
 
         else
@@ -9302,36 +9302,36 @@ extern signed int XMLParse(char *str, struct stNode *nodes)
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1)
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1)
 {
-  signed long int return_value___builtin_bswap32$1$link1;
-  return_value___builtin_bswap32$1$link1=__builtin_bswap32((signed long int)__bsx$link1);
-  return (unsigned int)return_value___builtin_bswap32$1$link1;
+  signed long int return_value___builtin_bswap32_1_link1;
+  return_value___builtin_bswap32_1_link1=__builtin_bswap32((signed long int)__bsx_link1);
+  return (unsigned int)return_value___builtin_bswap32_1_link1;
 }
 
-// __bswap_32$link2
+// __bswap_32_link2
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link2(unsigned int __bsx$link2)
+static inline unsigned int __bswap_32_link2(unsigned int __bsx_link2)
 {
-  signed long int return_value___builtin_bswap32$1$link2;
-  return_value___builtin_bswap32$1$link2=__builtin_bswap32((signed long int)__bsx$link2);
-  return (unsigned int)return_value___builtin_bswap32$1$link2;
+  signed long int return_value___builtin_bswap32_1_link2;
+  return_value___builtin_bswap32_1_link2=__builtin_bswap32((signed long int)__bsx_link2);
+  return (unsigned int)return_value___builtin_bswap32_1_link2;
 }
 
-// __bswap_32$link3
+// __bswap_32_link3
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link3(unsigned int __bsx$link3)
+static inline unsigned int __bswap_32_link3(unsigned int __bsx_link3)
 {
-  signed long int return_value___builtin_bswap32$1$link3;
-  return_value___builtin_bswap32$1$link3=__builtin_bswap32((signed long int)__bsx$link3);
-  return (unsigned int)return_value___builtin_bswap32$1$link3;
+  signed long int return_value___builtin_bswap32_1_link3;
+  return_value___builtin_bswap32_1_link3=__builtin_bswap32((signed long int)__bsx_link3);
+  return (unsigned int)return_value___builtin_bswap32_1_link3;
 }
 
 // _calc_icmp_csum
@@ -9347,7 +9347,7 @@ void _calc_icmp_csum(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct __ICMP_EC
     ip6_pseudo = (struct __IP6_PSEUDO_HEADER *)pseudo_buf;
     memcpy((void *)&ip6_pseudo->ip6_src, (const void *)&p_engine->echo_addr_src.in6.sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
     memcpy((void *)&ip6_pseudo->ip6_dst, (const void *)&p_engine->echo_addr_dst.in6.sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
-    ip6_pseudo->hdr_len=__bswap_32$link2((unsigned int)(sizeof(struct __ICMP_ECHO_HEADER) /*8ul*/  + sizeof(struct timeval) /*16ul*/ ));
+    ip6_pseudo->hdr_len=__bswap_32_link2((unsigned int)(sizeof(struct __ICMP_ECHO_HEADER) /*8ul*/  + sizeof(struct timeval) /*16ul*/ ));
     ip6_pseudo->nxt_hdr = (unsigned char)58;
     memcpy((void *)ip6_pseudo->icmp_hdr, (const void *)icmp_hdr, sizeof(struct __ICMP_ECHO_HEADER) /*8ul*/  + sizeof(struct timeval) /*16ul*/ );
     icmp_hdr->icmp_cksm=in_cksum((unsigned short int *)ip6_pseudo, (signed int)pseudo_buf_len);
@@ -9391,9 +9391,9 @@ double _compute_tv_diff_now(struct timeval *tv_diff)
 {
   struct timeval tv_now;
   gettimeofday(&tv_now, (struct timezone *)(void *)0);
-  double return_value__compare_tv$1;
-  return_value__compare_tv$1=_compare_tv(tv_diff, &tv_now);
-  return return_value__compare_tv$1;
+  double return_value__compare_tv_1;
+  return_value__compare_tv_1=_compare_tv(tv_diff, &tv_now);
+  return return_value__compare_tv_1;
 }
 
 // _conv_ms_to_tv
@@ -9415,9 +9415,9 @@ void _conv_ms_to_tv(double ms, struct timeval *tv)
 struct __ECHO_EVENT * _create_insert_echo_event(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct timeval *tv_sent, unsigned int echo_seq)
 {
   struct __ECHO_EVENT *p_event = (struct __ECHO_EVENT *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct __ECHO_EVENT) /*32ul*/ );
-  p_event = (struct __ECHO_EVENT *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct __ECHO_EVENT) /*32ul*/ );
+  p_event = (struct __ECHO_EVENT *)return_value_malloc_1;
   if(!(p_event == ((struct __ECHO_EVENT *)NULL)))
   {
     p_event->next = (struct __ECHO_EVENT *)(void *)0;
@@ -9432,44 +9432,44 @@ struct __ECHO_EVENT * _create_insert_echo_event(struct __ICMP_ECHO_ENGINE_PARMS 
 
 // _create_ka_engine
 // file net_ka.c line 323
-enum anonymous$25 _create_ka_engine(struct __KA_ENGINE_PARMS **pp_engine)
+enum anonymous_25 _create_ka_engine(struct __KA_ENGINE_PARMS **pp_engine)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pp_engine == ((struct __KA_ENGINE_PARMS **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *pp_engine != (struct __KA_ENGINE_PARMS *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
-    return (enum anonymous$25)KA_INVALID_PARMS;
+    tmp_if_expr_1 = *pp_engine != (struct __KA_ENGINE_PARMS *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
+    return (enum anonymous_25)KA_INVALID_PARMS;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct __KA_ENGINE_PARMS) /*24ul*/ );
-    *pp_engine = (struct __KA_ENGINE_PARMS *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct __KA_ENGINE_PARMS) /*24ul*/ );
+    *pp_engine = (struct __KA_ENGINE_PARMS *)return_value_malloc_2;
     if(*pp_engine == ((struct __KA_ENGINE_PARMS *)NULL))
-      return (enum anonymous$25)KA_RESOURCE_STARVATION;
+      return (enum anonymous_25)KA_RESOURCE_STARVATION;
 
     else
     {
       (*pp_engine)->ka_thread_id = (unsigned long int)0;
-      (*pp_engine)->ka_status = (enum anonymous$9)KA_STAT_INVALID;
+      (*pp_engine)->ka_status = (enum anonymous_9)KA_STAT_INVALID;
       (*pp_engine)->p_echo_engine = (void *)0;
-      return (enum anonymous$25)KA_PRIV_SUCCESS;
+      return (enum anonymous_25)KA_PRIV_SUCCESS;
     }
   }
 }
 
 // _decode_icmp_packet
 // file icmp_echo_engine.c line 902
-enum anonymous$32 _decode_icmp_packet(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, unsigned char *pkt_data, unsigned int pkt_len, unsigned int *echo_seq)
+enum anonymous_32 _decode_icmp_packet(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, unsigned char *pkt_data, unsigned int pkt_len, unsigned int *echo_seq)
 {
   struct __ICMP_ECHO_HEADER *icmp_hdr = (struct __ICMP_ECHO_HEADER *)(void *)0;
   unsigned char ip_ver;
   unsigned char ip_len = (unsigned char)0;
   double rtt;
-  enum anonymous$32 priv_retval = (enum anonymous$32)ANAL_PACKET_PINGIN_ONTIME;
+  enum anonymous_32 priv_retval = (enum anonymous_32)ANAL_PACKET_PINGIN_ONTIME;
   do
   {
     if(p_engine->icmp_saf == 2)
@@ -9477,14 +9477,14 @@ enum anonymous$32 _decode_icmp_packet(struct __ICMP_ECHO_ENGINE_PARMS *p_engine,
       ip_ver = (unsigned char)(((signed int)pkt_data[(signed long int)0] & 0xF0) >> 4);
       if(!((signed int)ip_ver == 0x04))
       {
-        priv_retval = (enum anonymous$32)ANAL_PACKET_BAD;
+        priv_retval = (enum anonymous_32)ANAL_PACKET_BAD;
         goto __CPROVER_DUMP_L21;
       }
 
       ip_len = (unsigned char)(((signed int)pkt_data[(signed long int)0] & 0x0F) << 2);
       if(!((unsigned long int)(pkt_len + -((unsigned int)ip_len)) >= sizeof(struct __ICMP_ECHO_HEADER) /*8ul*/ ))
       {
-        priv_retval = (enum anonymous$32)ANAL_PACKET_BAD;
+        priv_retval = (enum anonymous_32)ANAL_PACKET_BAD;
         goto __CPROVER_DUMP_L21;
       }
 
@@ -9495,11 +9495,11 @@ enum anonymous$32 _decode_icmp_packet(struct __ICMP_ECHO_ENGINE_PARMS *p_engine,
           break;
         case 8:
         {
-          priv_retval = (enum anonymous$32)ANAL_PACKET_IGNORED;
+          priv_retval = (enum anonymous_32)ANAL_PACKET_IGNORED;
           break;
         }
         default:
-          priv_retval = (enum anonymous$32)ANAL_PACKET_IGNORED;
+          priv_retval = (enum anonymous_32)ANAL_PACKET_IGNORED;
       }
     }
 
@@ -9508,7 +9508,7 @@ enum anonymous$32 _decode_icmp_packet(struct __ICMP_ECHO_ENGINE_PARMS *p_engine,
       {
         if(!((unsigned long int)pkt_len >= sizeof(struct __ICMP_ECHO_HEADER) /*8ul*/ ))
         {
-          priv_retval = (enum anonymous$32)ANAL_PACKET_BAD;
+          priv_retval = (enum anonymous_32)ANAL_PACKET_BAD;
           goto __CPROVER_DUMP_L21;
         }
 
@@ -9519,26 +9519,26 @@ enum anonymous$32 _decode_icmp_packet(struct __ICMP_ECHO_ENGINE_PARMS *p_engine,
             break;
           case 128:
           {
-            priv_retval = (enum anonymous$32)ANAL_PACKET_IGNORED;
+            priv_retval = (enum anonymous_32)ANAL_PACKET_IGNORED;
             break;
           }
           case 134:
           {
-            priv_retval = (enum anonymous$32)ANAL_PACKET_IGNORED;
+            priv_retval = (enum anonymous_32)ANAL_PACKET_IGNORED;
             break;
           }
           case 135:
           {
-            priv_retval = (enum anonymous$32)ANAL_PACKET_IGNORED;
+            priv_retval = (enum anonymous_32)ANAL_PACKET_IGNORED;
             break;
           }
           case 136:
           {
-            priv_retval = (enum anonymous$32)ANAL_PACKET_IGNORED;
+            priv_retval = (enum anonymous_32)ANAL_PACKET_IGNORED;
             break;
           }
           default:
-            priv_retval = (enum anonymous$32)ANAL_PACKET_IGNORED;
+            priv_retval = (enum anonymous_32)ANAL_PACKET_IGNORED;
         }
       }
 
@@ -9547,22 +9547,22 @@ enum anonymous$32 _decode_icmp_packet(struct __ICMP_ECHO_ENGINE_PARMS *p_engine,
 
     if(!((signed int)icmp_hdr->icmp_code == 0))
     {
-      priv_retval = (enum anonymous$32)IEE_GENERAL_ECHO_ERROR;
+      priv_retval = (enum anonymous_32)IEE_GENERAL_ECHO_ERROR;
       break;
     }
 
     if(!((unsigned int)icmp_hdr->echo_id == p_engine->icmp_echo_id))
     {
-      priv_retval = (enum anonymous$32)ANAL_PACKET_IGNORED;
+      priv_retval = (enum anonymous_32)ANAL_PACKET_IGNORED;
       break;
     }
 
     *echo_seq = (unsigned int)icmp_hdr->echo_seq;
-    double return_value__compute_tv_diff_now$1;
-    return_value__compute_tv_diff_now$1=_compute_tv_diff_now((struct timeval *)icmp_hdr->echo_data);
-    rtt = -return_value__compute_tv_diff_now$1;
+    double return_value__compute_tv_diff_now_1;
+    return_value__compute_tv_diff_now_1=_compute_tv_diff_now((struct timeval *)icmp_hdr->echo_data);
+    rtt = -return_value__compute_tv_diff_now_1;
     if(rtt > (double)p_engine->echo_timeout)
-      priv_retval = (enum anonymous$32)ANAL_PACKET_PINGIN_LATE;
+      priv_retval = (enum anonymous_32)ANAL_PACKET_PINGIN_LATE;
 
     if(!(p_engine->clbk_recv == ((void (*)(double))NULL)))
       p_engine->clbk_recv(rtt);
@@ -9577,95 +9577,95 @@ __CPROVER_DUMP_L21:
 
 // _destroy_ka_engine
 // file net_ka.c line 358
-enum anonymous$25 _destroy_ka_engine(struct __KA_ENGINE_PARMS **pp_engine)
+enum anonymous_25 _destroy_ka_engine(struct __KA_ENGINE_PARMS **pp_engine)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pp_engine == ((struct __KA_ENGINE_PARMS **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *pp_engine == (struct __KA_ENGINE_PARMS *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
-    return (enum anonymous$25)KA_INVALID_PARMS;
+    tmp_if_expr_1 = *pp_engine == (struct __KA_ENGINE_PARMS *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
+    return (enum anonymous_25)KA_INVALID_PARMS;
 
   else
   {
     free((void *)*pp_engine);
     *pp_engine = (struct __KA_ENGINE_PARMS *)(void *)0;
-    return (enum anonymous$25)KA_PRIV_SUCCESS;
+    return (enum anonymous_25)KA_PRIV_SUCCESS;
   }
 }
 
 // _do_read
 // file icmp_echo_engine.c line 812
-enum anonymous$32 _do_read(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct timeval *tv_delay, unsigned int *echo_seq)
+enum anonymous_32 _do_read(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct timeval *tv_delay, unsigned int *echo_seq)
 {
   unsigned char read_buf[2048l];
-  struct anonymous$4 fs;
+  struct anonymous_4 fs;
   signed int ret;
-  enum anonymous$32 retval;
+  enum anonymous_32 retval;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fs)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fs)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&fs)->__fds_bits[(signed long int)(p_engine->icmp_sfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fs)->__fds_bits[(signed long int)(p_engine->icmp_sfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << p_engine->icmp_sfd % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
-  ret=select((signed int)p_engine->icmp_sfd + 1, &fs, (struct anonymous$4 *)(void *)0, (struct anonymous$4 *)(void *)0, tv_delay);
-  signed long int return_value_recv$1;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$4;
+  ret=select((signed int)p_engine->icmp_sfd + 1, &fs, (struct anonymous_4 *)(void *)0, (struct anonymous_4 *)(void *)0, tv_delay);
+  signed long int return_value_recv_1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_4;
   switch(ret)
   {
     case 0:
     {
-      retval = (enum anonymous$32)READ_SELECT_TIMEOUT;
+      retval = (enum anonymous_32)READ_SELECT_TIMEOUT;
       break;
     }
     case 1:
     {
-      return_value_recv$1=recv(p_engine->icmp_sfd, (void *)read_buf, sizeof(unsigned char [2048l]) /*2048ul*/ , 0);
-      ret = (signed int)return_value_recv$1;
+      return_value_recv_1=recv(p_engine->icmp_sfd, (void *)read_buf, sizeof(unsigned char [2048l]) /*2048ul*/ , 0);
+      ret = (signed int)return_value_recv_1;
       if(ret >= 1)
         retval=_decode_icmp_packet(p_engine, read_buf, (unsigned int)ret, echo_seq);
 
       else
       {
         if(ret == -1)
-          tmp_if_expr$2 = (signed int)p_engine->eng_ongoing == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)p_engine->eng_ongoing == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          retval = (enum anonymous$32)READ_SOCKET_CLOSED;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          retval = (enum anonymous_32)READ_SOCKET_CLOSED;
 
         else
-          retval = (enum anonymous$32)READ_RECV_ERROR;
+          retval = (enum anonymous_32)READ_RECV_ERROR;
       }
       break;
     }
     default:
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 4)
-        retval = (enum anonymous$32)READ_SELECT_TIMEOUT;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 4)
+        retval = (enum anonymous_32)READ_SELECT_TIMEOUT;
 
       else
       {
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 9)
-          tmp_if_expr$4 = (signed int)p_engine->eng_ongoing == 0 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 9)
+          tmp_if_expr_4 = (signed int)p_engine->eng_ongoing == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          retval = (enum anonymous$32)READ_SOCKET_CLOSED;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          retval = (enum anonymous_32)READ_SOCKET_CLOSED;
 
         else
-          retval = (enum anonymous$32)READ_SELECT_ERROR;
+          retval = (enum anonymous_32)READ_SELECT_ERROR;
       }
     }
   }
@@ -9674,18 +9674,18 @@ enum anonymous$32 _do_read(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct tim
 
 // _do_read_wrap
 // file icmp_echo_engine.c line 661
-enum anonymous$26 _do_read_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct timeval *tv_ref)
+enum anonymous_26 _do_read_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct timeval *tv_ref)
 {
   double time_left_ms;
   double read_delay;
   struct timeval tv_delay;
   unsigned int echo_seq_read;
-  enum anonymous$32 priv_retval;
-  enum anonymous$26 retval = (enum anonymous$26)IEE_SUCCESS;
+  enum anonymous_32 priv_retval;
+  enum anonymous_26 retval = (enum anonymous_26)IEE_SUCCESS;
   time_left_ms=_compute_tv_diff_now(tv_ref);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(time_left_ms <= 0.0)
-    return (enum anonymous$26)IEE_SUCCESS;
+    return (enum anonymous_26)IEE_SUCCESS;
 
   else
   {
@@ -9727,10 +9727,10 @@ enum anonymous$26 _do_read_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struc
           if(!((signed int)priv_retval == ECHO_EVENT_REMOVED))
             p_engine->count_late = p_engine->count_late - 1u;
 
-          if((signed int)(enum anonymous$28)p_engine->eng_mode == IEE_MODE_ACD)
+          if((signed int)(enum anonymous_28)p_engine->eng_mode == IEE_MODE_ACD)
           {
             p_engine->eng_ongoing = (unsigned char)0;
-            retval = (enum anonymous$26)IEE_CONNECTIVITY_ASSESSED;
+            retval = (enum anonymous_26)IEE_CONNECTIVITY_ASSESSED;
           }
 
         }
@@ -9748,7 +9748,7 @@ enum anonymous$26 _do_read_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struc
         case READ_SOCKET_CLOSED:
         {
           p_engine->eng_ongoing = (unsigned char)0;
-          retval = (enum anonymous$26)IEE_SUCCESS;
+          retval = (enum anonymous_26)IEE_SUCCESS;
           break;
         }
         case READ_SELECT_ERROR:
@@ -9758,22 +9758,22 @@ enum anonymous$26 _do_read_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struc
         default:
         {
           p_engine->eng_ongoing = (unsigned char)0;
-          retval = (enum anonymous$26)IEE_GENERAL_ECHO_ERROR;
+          retval = (enum anonymous_26)IEE_GENERAL_ECHO_ERROR;
         }
       }
       if((unsigned int)p_engine->count_consec_late >= p_engine->echo_timeout_threshold)
       {
-        retval = (enum anonymous$26)IEE_GENERAL_ECHO_TIMEOUT;
+        retval = (enum anonymous_26)IEE_GENERAL_ECHO_TIMEOUT;
         p_engine->eng_ongoing = (unsigned char)0;
       }
 
       time_left_ms=_compute_tv_diff_now(tv_ref);
       if(time_left_ms > 0.0)
-        tmp_if_expr$1 = (signed int)p_engine->eng_ongoing == 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)p_engine->eng_ongoing == 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
     }
@@ -9783,12 +9783,12 @@ enum anonymous$26 _do_read_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struc
 
 // _do_send
 // file icmp_echo_engine.c line 533
-enum anonymous$32 _do_send(struct __ICMP_ECHO_ENGINE_PARMS *p_engine)
+enum anonymous_32 _do_send(struct __ICMP_ECHO_ENGINE_PARMS *p_engine)
 {
   struct __ICMP_ECHO_HEADER *icmp_hdr;
   unsigned char send_buf[(signed long int)(sizeof(struct __ICMP_ECHO_HEADER) * 3) /*24l*/ ];
   const unsigned short int send_buf_len = (const unsigned short int)(sizeof(struct __ICMP_ECHO_HEADER) /*8ul*/  + sizeof(struct timeval) /*16ul*/ );
-  enum anonymous$32 retval = (enum anonymous$32)SEND_PINGOUT_SUCCESS;
+  enum anonymous_32 retval = (enum anonymous_32)SEND_PINGOUT_SUCCESS;
   signed int ret;
   icmp_hdr = (struct __ICMP_ECHO_HEADER *)send_buf;
   if(p_engine->icmp_saf == 2)
@@ -9799,20 +9799,20 @@ enum anonymous$32 _do_send(struct __ICMP_ECHO_ENGINE_PARMS *p_engine)
   icmp_hdr->icmp_code = (unsigned char)0;
   icmp_hdr->icmp_cksm = (unsigned short int)0;
   icmp_hdr->echo_id = (unsigned short int)p_engine->icmp_echo_id;
-  unsigned int tmp_post$1 = p_engine->count_send;
+  unsigned int tmp_post_1 = p_engine->count_send;
   p_engine->count_send = p_engine->count_send + 1u;
-  icmp_hdr->echo_seq = (unsigned short int)tmp_post$1;
+  icmp_hdr->echo_seq = (unsigned short int)tmp_post_1;
   gettimeofday((struct timeval *)icmp_hdr->echo_data, (struct timezone *)(void *)0);
   _calc_icmp_csum(p_engine, icmp_hdr);
-  struct __ECHO_EVENT *return_value__create_insert_echo_event$3;
-  return_value__create_insert_echo_event$3=_create_insert_echo_event(p_engine, (struct timeval *)icmp_hdr->echo_data, (unsigned int)icmp_hdr->echo_seq);
-  if(!(return_value__create_insert_echo_event$3 == ((struct __ECHO_EVENT *)NULL)))
+  struct __ECHO_EVENT *return_value__create_insert_echo_event_3;
+  return_value__create_insert_echo_event_3=_create_insert_echo_event(p_engine, (struct timeval *)icmp_hdr->echo_data, (unsigned int)icmp_hdr->echo_seq);
+  if(!(return_value__create_insert_echo_event_3 == ((struct __ECHO_EVENT *)NULL)))
   {
-    signed long int return_value_sendto$2;
-    return_value_sendto$2=sendto(p_engine->icmp_sfd, (const void *)send_buf, (unsigned long int)send_buf_len, 0, (struct sockaddr *)&p_engine->echo_addr_dst, (unsigned int)sizeof(union anonymous$31) /*28ul*/ );
-    ret = (signed int)return_value_sendto$2;
+    signed long int return_value_sendto_2;
+    return_value_sendto_2=sendto(p_engine->icmp_sfd, (const void *)send_buf, (unsigned long int)send_buf_len, 0, (struct sockaddr *)&p_engine->echo_addr_dst, (unsigned int)sizeof(union anonymous_31) /*28ul*/ );
+    ret = (signed int)return_value_sendto_2;
     if(!(ret == (signed int)send_buf_len))
-      retval = (enum anonymous$32)SEND_PINGOUT_ERROR;
+      retval = (enum anonymous_32)SEND_PINGOUT_ERROR;
 
     else
       if(!(p_engine->clbk_send == ((void (*)(void))NULL)))
@@ -9821,33 +9821,33 @@ enum anonymous$32 _do_send(struct __ICMP_ECHO_ENGINE_PARMS *p_engine)
   }
 
   else
-    retval = (enum anonymous$32)SEND_MEMORY_STARVATION;
+    retval = (enum anonymous_32)SEND_MEMORY_STARVATION;
   return retval;
 }
 
 // _do_send_wrap
 // file icmp_echo_engine.c line 490
-enum anonymous$26 _do_send_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine)
+enum anonymous_26 _do_send_wrap(struct __ICMP_ECHO_ENGINE_PARMS *p_engine)
 {
-  enum anonymous$32 priv_retval;
-  enum anonymous$26 retval;
+  enum anonymous_32 priv_retval;
+  enum anonymous_26 retval;
   priv_retval=_do_send(p_engine);
   switch((signed int)priv_retval)
   {
     case SEND_PINGOUT_SUCCESS:
     {
-      retval = (enum anonymous$26)IEE_SUCCESS;
+      retval = (enum anonymous_26)IEE_SUCCESS;
       break;
     }
     case SEND_MEMORY_STARVATION:
     {
-      retval = (enum anonymous$26)IEE_RESOURCE_STARVATION;
+      retval = (enum anonymous_26)IEE_RESOURCE_STARVATION;
       break;
     }
     case SEND_PINGOUT_ERROR:
 
     default:
-      retval = (enum anonymous$26)IEE_GENERAL_ECHO_ERROR;
+      retval = (enum anonymous_26)IEE_GENERAL_ECHO_ERROR;
   }
   return retval;
 }
@@ -9878,9 +9878,9 @@ void _insert_echo_event(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, struct __ECHO
       goto __CPROVER_DUMP_L5;
     }
 
-    double return_value__compare_tv$1;
-    return_value__compare_tv$1=_compare_tv(&p_event_insert->tv_timeout, &(*pp_event)->tv_timeout);
-    if(return_value__compare_tv$1 > 0.0)
+    double return_value__compare_tv_1;
+    return_value__compare_tv_1=_compare_tv(&p_event_insert->tv_timeout, &(*pp_event)->tv_timeout);
+    if(return_value__compare_tv_1 > 0.0)
       pp_event = &(*pp_event)->next;
 
     else
@@ -9914,7 +9914,7 @@ void _ka_send_callback(void)
 void * _ka_start_thread(void *arg)
 {
   struct __KA_ENGINE_PARMS *p_ka_engine = (struct __KA_ENGINE_PARMS *)arg;
-  enum anonymous$26 iee_ret;
+  enum anonymous_26 iee_ret;
   if(!(p_ka_engine == ((struct __KA_ENGINE_PARMS *)NULL)))
   {
     iee_ret=IEE_process(p_ka_engine->p_echo_engine);
@@ -9922,31 +9922,31 @@ void * _ka_start_thread(void *arg)
     {
       case IEE_SUCCESS:
       {
-        p_ka_engine->ka_status = (enum anonymous$9)KA_STAT_FIN_SUCCESS;
+        p_ka_engine->ka_status = (enum anonymous_9)KA_STAT_FIN_SUCCESS;
         Display(3, (enum tSeverityLevel)ELInfo, "_ka_start_thread", "Keepalive processing stopped: Keepalive engine was explicitly stopped.");
         break;
       }
       case IEE_GENERAL_ECHO_TIMEOUT:
       {
-        p_ka_engine->ka_status = (enum anonymous$9)KA_STAT_FIN_TIMEOUT;
+        p_ka_engine->ka_status = (enum anonymous_9)KA_STAT_FIN_TIMEOUT;
         Display(1, (enum tSeverityLevel)ELWarning, "_ka_start_thread", "Keepalive processing stopped: General timeout detected.");
         break;
       }
       case IEE_INVALID_PARMS:
       {
-        p_ka_engine->ka_status = (enum anonymous$9)KA_STAT_FIN_ERROR;
+        p_ka_engine->ka_status = (enum anonymous_9)KA_STAT_FIN_ERROR;
         Display(1, (enum tSeverityLevel)ELError, "_ka_start_thread", "Keepalive processing stopped: Invalid pointer.");
         break;
       }
       case IEE_GENERAL_ECHO_ERROR:
       {
-        p_ka_engine->ka_status = (enum anonymous$9)KA_STAT_FIN_ERROR;
+        p_ka_engine->ka_status = (enum anonymous_9)KA_STAT_FIN_ERROR;
         Display(1, (enum tSeverityLevel)ELError, "_ka_start_thread", "Keepalive processing stopped: Networking error.");
         break;
       }
       default:
       {
-        p_ka_engine->ka_status = (enum anonymous$9)KA_STAT_FIN_ERROR;
+        p_ka_engine->ka_status = (enum anonymous_9)KA_STAT_FIN_ERROR;
         Display(1, (enum tSeverityLevel)ELError, "_ka_start_thread", "Keepalive processing stopped: Unknown or unhandled error.");
       }
     }
@@ -9960,9 +9960,9 @@ void * _ka_start_thread(void *arg)
 
 // _remove_free_echo_event
 // file icmp_echo_engine.c line 1171
-enum anonymous$32 _remove_free_echo_event(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, unsigned int echo_seq)
+enum anonymous_32 _remove_free_echo_event(struct __ICMP_ECHO_ENGINE_PARMS *p_engine, unsigned int echo_seq)
 {
-  enum anonymous$32 priv_retval = (enum anonymous$32)ECHO_EVENT_NOTFOUND;
+  enum anonymous_32 priv_retval = (enum anonymous_32)ECHO_EVENT_NOTFOUND;
   struct __ECHO_EVENT **pp_event = &p_engine->event_list;
   struct __ECHO_EVENT *p_event_to_free = (struct __ECHO_EVENT *)(void *)0;
   for( ; !(*pp_event == ((struct __ECHO_EVENT *)NULL)); pp_event = &(*pp_event)->next)
@@ -9971,7 +9971,7 @@ enum anonymous$32 _remove_free_echo_event(struct __ICMP_ECHO_ENGINE_PARMS *p_eng
       p_event_to_free = *pp_event;
       *pp_event = (*pp_event)->next;
       free((void *)p_event_to_free);
-      priv_retval = (enum anonymous$32)ECHO_EVENT_REMOVED;
+      priv_retval = (enum anonymous_32)ECHO_EVENT_REMOVED;
       break;
     }
 
@@ -9980,20 +9980,20 @@ enum anonymous$32 _remove_free_echo_event(struct __ICMP_ECHO_ENGINE_PARMS *p_eng
 
 // add_dsakey_to_keyfile
 // file tsp_auth_passdss.c line 228
-signed int add_dsakey_to_keyfile(struct dsa_st *dsa, char *host, char *filename, enum anonymous$0 autoaccept)
+signed int add_dsakey_to_keyfile(struct dsa_st *dsa, char *host, char *filename, enum anonymous_0 autoaccept)
 {
   struct _IO_FILE *fp = (struct _IO_FILE *)(void *)0;
   struct anonymous buf;
   char *str = (char *)(void *)0;
   signed int ret = 0;
-  signed int return_value_is_dsakey_in_keyfile$1;
-  return_value_is_dsakey_in_keyfile$1=is_dsakey_in_keyfile(dsa, host, filename);
-  unsigned long int return_value_buffer_len$3;
-  void *return_value_malloc$4;
-  void *return_value_buffer_ptr$5;
-  unsigned long int return_value_buffer_len$6;
-  signed int return_value_base64encode$7;
-  switch(return_value_is_dsakey_in_keyfile$1)
+  signed int return_value_is_dsakey_in_keyfile_1;
+  return_value_is_dsakey_in_keyfile_1=is_dsakey_in_keyfile(dsa, host, filename);
+  unsigned long int return_value_buffer_len_3;
+  void *return_value_malloc_4;
+  void *return_value_buffer_ptr_5;
+  unsigned long int return_value_buffer_len_6;
+  signed int return_value_base64encode_7;
+  switch(return_value_is_dsakey_in_keyfile_1)
   {
     case 0:
     {
@@ -10005,9 +10005,9 @@ signed int add_dsakey_to_keyfile(struct dsa_st *dsa, char *host, char *filename,
     {
       if(autoaccept == /*enum*/FALSE)
       {
-        signed int return_value_ask$2;
-        return_value_ask$2=ask("%s is an unknown host, do you want to add its key?", host);
-        if(return_value_ask$2 == 0)
+        signed int return_value_ask_2;
+        return_value_ask_2=ask("%s is an unknown host, do you want to add its key?", host);
+        if(return_value_ask_2 == 0)
         {
           Display(3, (enum tSeverityLevel)ELWarning, "PASSDSS-3DES-1", "Server key rejected by the user.");
           break;
@@ -10027,16 +10027,16 @@ signed int add_dsakey_to_keyfile(struct dsa_st *dsa, char *host, char *filename,
       buffer_put_bignum(&buf, dsa->q);
       buffer_put_bignum(&buf, dsa->g);
       buffer_put_bignum(&buf, dsa->pub_key);
-      return_value_buffer_len$3=buffer_len(&buf);
-      return_value_malloc$4=malloc((unsigned long int)2 * return_value_buffer_len$3);
-      str = (char *)return_value_malloc$4;
+      return_value_buffer_len_3=buffer_len(&buf);
+      return_value_malloc_4=malloc((unsigned long int)2 * return_value_buffer_len_3);
+      str = (char *)return_value_malloc_4;
       if(str == ((char *)NULL))
         break;
 
-      return_value_buffer_ptr$5=buffer_ptr(&buf);
-      return_value_buffer_len$6=buffer_len(&buf);
-      return_value_base64encode$7=base64encode(str, (const char *)return_value_buffer_ptr$5, (signed int)return_value_buffer_len$6);
-      if(!(return_value_base64encode$7 >= 1))
+      return_value_buffer_ptr_5=buffer_ptr(&buf);
+      return_value_buffer_len_6=buffer_len(&buf);
+      return_value_base64encode_7=base64encode(str, (const char *)return_value_buffer_ptr_5, (signed int)return_value_buffer_len_6);
+      if(!(return_value_base64encode_7 >= 1))
         break;
 
       fp=fopen(filename, "a");
@@ -10075,13 +10075,13 @@ signed int ask(char *question, ...)
   char *buf;
   signed int c;
   signed int ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)1024);
-  buf = (char *)return_value_malloc$1;
-  signed int tmp_statement_expression$2;
-  signed int tmp_if_expr$4;
-  const signed int **return_value___ctype_tolower_loc$3;
-  const signed int **return_value___ctype_tolower_loc$5;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)1024);
+  buf = (char *)return_value_malloc_1;
+  signed int tmp_statement_expression_2;
+  signed int tmp_if_expr_4;
+  const signed int **return_value___ctype_tolower_loc_3;
+  const signed int **return_value___ctype_tolower_loc_5;
   if(buf == ((char *)NULL))
   {
     Display(1, (enum tSeverityLevel)ELError, "ask", "Failed memory allocation.");
@@ -10102,9 +10102,9 @@ signed int ask(char *question, ...)
       c=fgetc(stdin);
       fflush(stdin);
       signed int __res;
-      __res=tolower$link1(c);
-      tmp_statement_expression$2 = __res;
-      c = tmp_statement_expression$2;
+      __res=tolower_link1(c);
+      tmp_statement_expression_2 = __res;
+      c = tmp_statement_expression_2;
       if((signed int)(char)c == 121)
       {
         ret = 1;
@@ -10128,54 +10128,54 @@ signed int ask(char *question, ...)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1)
+static inline signed int atoi_link1(const char *__nptr_link1)
 {
-  signed long int return_value_strtol$1$link1;
-  return_value_strtol$1$link1=strtol(__nptr$link1, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1;
+  signed long int return_value_strtol_1_link1;
+  return_value_strtol_1_link1=strtol(__nptr_link1, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1;
 }
 
-// atoi$link2
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2)
+static inline signed int atoi_link2(const char *__nptr_link2)
 {
-  signed long int return_value_strtol$1$link2;
-  return_value_strtol$1$link2=strtol(__nptr$link2, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link2;
+  signed long int return_value_strtol_1_link2;
+  return_value_strtol_1_link2=strtol(__nptr_link2, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link2;
 }
 
-// atoi$link3
+// atoi_link3
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link3(const char *__nptr$link3)
+static inline signed int atoi_link3(const char *__nptr_link3)
 {
-  signed long int return_value_strtol$1$link3;
-  return_value_strtol$1$link3=strtol(__nptr$link3, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link3;
+  signed long int return_value_strtol_1_link3;
+  return_value_strtol_1_link3=strtol(__nptr_link3, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link3;
 }
 
-// atoi$link4
+// atoi_link4
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link4(const char *__nptr$link4)
+static inline signed int atoi_link4(const char *__nptr_link4)
 {
-  signed long int return_value_strtol$1$link4;
-  return_value_strtol$1$link4=strtol(__nptr$link4, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link4;
+  signed long int return_value_strtol_1_link4;
+  return_value_strtol_1_link4=strtol(__nptr_link4, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link4;
 }
 
 // atol
 // file /usr/include/stdlib.h line 283
 static inline signed long int atol(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return return_value_strtol_1;
 }
 
 // base64decode
@@ -10197,12 +10197,12 @@ signed int base64decode_binary(unsigned char *bufplain, const char *bufcoded)
   unsigned char *bufout;
   signed int nprbytes;
   bufin = (const unsigned char *)bufcoded;
-  const unsigned char *tmp_post$1;
+  const unsigned char *tmp_post_1;
   do
   {
-    tmp_post$1 = bufin;
+    tmp_post_1 = bufin;
     bufin = bufin + 1l;
-    if((signed int)pr2six[(signed long int)*tmp_post$1] >= 64)
+    if((signed int)pr2six[(signed long int)*tmp_post_1] >= 64)
       break;
 
   }
@@ -10211,44 +10211,44 @@ signed int base64decode_binary(unsigned char *bufplain, const char *bufcoded)
   nbytesdecoded = ((nprbytes + 3) / 4) * 3;
   bufout = (unsigned char *)bufplain;
   bufin = (const unsigned char *)bufcoded;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
   for( ; nprbytes >= 5; nprbytes = nprbytes - 4)
   {
-    tmp_post$2 = bufout;
+    tmp_post_2 = bufout;
     bufout = bufout + 1l;
-    *tmp_post$2 = (unsigned char)((signed int)pr2six[(signed long int)*bufin] << 2 | (signed int)pr2six[(signed long int)bufin[(signed long int)1]] >> 4);
-    tmp_post$3 = bufout;
+    *tmp_post_2 = (unsigned char)((signed int)pr2six[(signed long int)*bufin] << 2 | (signed int)pr2six[(signed long int)bufin[(signed long int)1]] >> 4);
+    tmp_post_3 = bufout;
     bufout = bufout + 1l;
-    *tmp_post$3 = (unsigned char)((signed int)pr2six[(signed long int)bufin[(signed long int)1]] << 4 | (signed int)pr2six[(signed long int)bufin[(signed long int)2]] >> 2);
-    tmp_post$4 = bufout;
+    *tmp_post_3 = (unsigned char)((signed int)pr2six[(signed long int)bufin[(signed long int)1]] << 4 | (signed int)pr2six[(signed long int)bufin[(signed long int)2]] >> 2);
+    tmp_post_4 = bufout;
     bufout = bufout + 1l;
-    *tmp_post$4 = (unsigned char)((signed int)pr2six[(signed long int)bufin[(signed long int)2]] << 6 | (signed int)pr2six[(signed long int)bufin[(signed long int)3]]);
+    *tmp_post_4 = (unsigned char)((signed int)pr2six[(signed long int)bufin[(signed long int)2]] << 6 | (signed int)pr2six[(signed long int)bufin[(signed long int)3]]);
     bufin = bufin + (signed long int)4;
   }
-  unsigned char *tmp_post$5;
+  unsigned char *tmp_post_5;
   if(nprbytes >= 2)
   {
-    tmp_post$5 = bufout;
+    tmp_post_5 = bufout;
     bufout = bufout + 1l;
-    *tmp_post$5 = (unsigned char)((signed int)pr2six[(signed long int)*bufin] << 2 | (signed int)pr2six[(signed long int)bufin[(signed long int)1]] >> 4);
+    *tmp_post_5 = (unsigned char)((signed int)pr2six[(signed long int)*bufin] << 2 | (signed int)pr2six[(signed long int)bufin[(signed long int)1]] >> 4);
   }
 
-  unsigned char *tmp_post$6;
+  unsigned char *tmp_post_6;
   if(nprbytes >= 3)
   {
-    tmp_post$6 = bufout;
+    tmp_post_6 = bufout;
     bufout = bufout + 1l;
-    *tmp_post$6 = (unsigned char)((signed int)pr2six[(signed long int)bufin[(signed long int)1]] << 4 | (signed int)pr2six[(signed long int)bufin[(signed long int)2]] >> 2);
+    *tmp_post_6 = (unsigned char)((signed int)pr2six[(signed long int)bufin[(signed long int)1]] << 4 | (signed int)pr2six[(signed long int)bufin[(signed long int)2]] >> 2);
   }
 
-  unsigned char *tmp_post$7;
+  unsigned char *tmp_post_7;
   if(nprbytes >= 4)
   {
-    tmp_post$7 = bufout;
+    tmp_post_7 = bufout;
     bufout = bufout + 1l;
-    *tmp_post$7 = (unsigned char)((signed int)pr2six[(signed long int)bufin[(signed long int)2]] << 6 | (signed int)pr2six[(signed long int)bufin[(signed long int)3]]);
+    *tmp_post_7 = (unsigned char)((signed int)pr2six[(signed long int)bufin[(signed long int)2]] << 6 | (signed int)pr2six[(signed long int)bufin[(signed long int)3]]);
   }
 
   nbytesdecoded = nbytesdecoded - (4 - nprbytes & 3);
@@ -10263,12 +10263,12 @@ signed int base64decode_len(const char *bufcoded)
   const unsigned char *bufin;
   signed int nprbytes;
   bufin = (const unsigned char *)bufcoded;
-  const unsigned char *tmp_post$1;
+  const unsigned char *tmp_post_1;
   do
   {
-    tmp_post$1 = bufin;
+    tmp_post_1 = bufin;
     bufin = bufin + 1l;
-    if((signed int)pr2six[(signed long int)*tmp_post$1] >= 64)
+    if((signed int)pr2six[(signed long int)*tmp_post_1] >= 64)
       break;
 
   }
@@ -10282,9 +10282,9 @@ signed int base64decode_len(const char *bufcoded)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/base64.h line 17
 signed int base64encode(char *encoded, const char *string, signed int len)
 {
-  signed int return_value_base64encode_binary$1;
-  return_value_base64encode_binary$1=base64encode_binary(encoded, (const unsigned char *)string, len);
-  return return_value_base64encode_binary$1;
+  signed int return_value_base64encode_binary_1;
+  return_value_base64encode_binary_1=base64encode_binary(encoded, (const unsigned char *)string, len);
+  return return_value_base64encode_binary_1;
 }
 
 // base64encode_binary
@@ -10294,63 +10294,63 @@ signed int base64encode_binary(char *encoded, const unsigned char *string, signe
   signed int i;
   char *p = encoded;
   i = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   for( ; !(i >= len + -2); i = i + 3)
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p + 1l;
-    *tmp_post$1 = basis_64[(signed long int)((signed int)string[(signed long int)i] >> 2 & 0x3F)];
-    tmp_post$2 = p;
+    *tmp_post_1 = basis_64[(signed long int)((signed int)string[(signed long int)i] >> 2 & 0x3F)];
+    tmp_post_2 = p;
     p = p + 1l;
-    *tmp_post$2 = basis_64[(signed long int)(((signed int)string[(signed long int)i] & 0x3) << 4 | (signed int)((signed int)string[(signed long int)(i + 1)] & 0xF0) >> 4)];
-    tmp_post$3 = p;
+    *tmp_post_2 = basis_64[(signed long int)(((signed int)string[(signed long int)i] & 0x3) << 4 | (signed int)((signed int)string[(signed long int)(i + 1)] & 0xF0) >> 4)];
+    tmp_post_3 = p;
     p = p + 1l;
-    *tmp_post$3 = basis_64[(signed long int)(((signed int)string[(signed long int)(i + 1)] & 0xF) << 2 | (signed int)((signed int)string[(signed long int)(i + 2)] & 0xC0) >> 6)];
-    tmp_post$4 = p;
+    *tmp_post_3 = basis_64[(signed long int)(((signed int)string[(signed long int)(i + 1)] & 0xF) << 2 | (signed int)((signed int)string[(signed long int)(i + 2)] & 0xC0) >> 6)];
+    tmp_post_4 = p;
     p = p + 1l;
-    *tmp_post$4 = basis_64[(signed long int)((signed int)string[(signed long int)(i + 2)] & 0x3F)];
+    *tmp_post_4 = basis_64[(signed long int)((signed int)string[(signed long int)(i + 2)] & 0x3F)];
   }
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  char *tmp_post$10;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  char *tmp_post_10;
   if(!(i >= len))
   {
-    tmp_post$5 = p;
+    tmp_post_5 = p;
     p = p + 1l;
-    *tmp_post$5 = basis_64[(signed long int)((signed int)string[(signed long int)i] >> 2 & 0x3F)];
+    *tmp_post_5 = basis_64[(signed long int)((signed int)string[(signed long int)i] >> 2 & 0x3F)];
     if(i == len + -1)
     {
-      tmp_post$6 = p;
+      tmp_post_6 = p;
       p = p + 1l;
-      *tmp_post$6 = basis_64[(signed long int)(((signed int)string[(signed long int)i] & 0x3) << 4)];
-      tmp_post$7 = p;
+      *tmp_post_6 = basis_64[(signed long int)(((signed int)string[(signed long int)i] & 0x3) << 4)];
+      tmp_post_7 = p;
       p = p + 1l;
-      *tmp_post$7 = (char)61;
+      *tmp_post_7 = (char)61;
     }
 
     else
     {
-      tmp_post$8 = p;
+      tmp_post_8 = p;
       p = p + 1l;
-      *tmp_post$8 = basis_64[(signed long int)(((signed int)string[(signed long int)i] & 0x3) << 4 | (signed int)((signed int)string[(signed long int)(i + 1)] & 0xF0) >> 4)];
-      tmp_post$9 = p;
+      *tmp_post_8 = basis_64[(signed long int)(((signed int)string[(signed long int)i] & 0x3) << 4 | (signed int)((signed int)string[(signed long int)(i + 1)] & 0xF0) >> 4)];
+      tmp_post_9 = p;
       p = p + 1l;
-      *tmp_post$9 = basis_64[(signed long int)(((signed int)string[(signed long int)(i + 1)] & 0xF) << 2)];
+      *tmp_post_9 = basis_64[(signed long int)(((signed int)string[(signed long int)(i + 1)] & 0xF) << 2)];
     }
-    tmp_post$10 = p;
+    tmp_post_10 = p;
     p = p + 1l;
-    *tmp_post$10 = (char)61;
+    *tmp_post_10 = (char)61;
   }
 
-  char *tmp_post$11 = p;
+  char *tmp_post_11 = p;
   p = p + 1l;
-  *tmp_post$11 = (char)0;
+  *tmp_post_11 = (char)0;
   return (signed int)(p - encoded);
 }
 
@@ -10391,7 +10391,7 @@ void * buffer_append_space(struct anonymous *buffer, unsigned long int len)
 
 restart:
   ;
-  void *return_value_realloc$1;
+  void *return_value_realloc_1;
   for( ; (_Bool)1; buffer->alloc = newlen)
   {
     if(!(buffer->end + len >= buffer->alloc))
@@ -10416,8 +10416,8 @@ restart:
       exit(-1);
     }
 
-    return_value_realloc$1=realloc((void *)buffer->buf, newlen);
-    buffer->buf = (unsigned char *)return_value_realloc$1;
+    return_value_realloc_1=realloc((void *)buffer->buf, newlen);
+    buffer->buf = (unsigned char *)return_value_realloc_1;
   }
 }
 
@@ -10479,26 +10479,26 @@ void buffer_get_bignum(struct anonymous *buffer, struct bignum_st *value)
 {
   signed int bytes;
   unsigned char *bin;
-  unsigned int return_value_buffer_get_int$1;
-  return_value_buffer_get_int$1=buffer_get_int(buffer);
-  bytes = (signed int)return_value_buffer_get_int$1;
+  unsigned int return_value_buffer_get_int_1;
+  return_value_buffer_get_int_1=buffer_get_int(buffer);
+  bytes = (signed int)return_value_buffer_get_int_1;
   if(bytes >= 8193)
   {
     Display(1, (enum tSeverityLevel)ELError, "buffer_get_bignum", "Failed to handle BN of size %d.", bytes);
     exit(1);
   }
 
-  unsigned long int return_value_buffer_len$2;
-  return_value_buffer_len$2=buffer_len(buffer);
-  if(!((signed int)return_value_buffer_len$2 >= bytes))
+  unsigned long int return_value_buffer_len_2;
+  return_value_buffer_len_2=buffer_len(buffer);
+  if(!((signed int)return_value_buffer_len_2 >= bytes))
   {
     Display(1, (enum tSeverityLevel)ELError, "buffer_get_bignum", "Input buffer too small.");
     exit(1);
   }
 
-  void *return_value_buffer_ptr$3;
-  return_value_buffer_ptr$3=buffer_ptr(buffer);
-  bin = (unsigned char *)return_value_buffer_ptr$3;
+  void *return_value_buffer_ptr_3;
+  return_value_buffer_ptr_3=buffer_ptr(buffer);
+  bin = (unsigned char *)return_value_buffer_ptr_3;
   BN_bin2bn(bin, bytes, value);
   buffer_consume(buffer, (unsigned int)bytes);
 }
@@ -10534,9 +10534,9 @@ void * buffer_get_string(struct anonymous *buffer, unsigned int *length_ptr)
     exit(1);
   }
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(len + (unsigned int)1));
-  value = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(len + (unsigned int)1));
+  value = (unsigned char *)return_value_malloc_1;
   buffer_get(buffer, (void *)value, len);
   value[(signed long int)len] = (unsigned char)0;
   if(!(length_ptr == ((unsigned int *)NULL)))
@@ -10551,9 +10551,9 @@ void buffer_init(struct anonymous *buffer)
 {
   const unsigned int len = (const unsigned int)4096;
   buffer->alloc = (unsigned long int)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)len);
-  buffer->buf = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)len);
+  buffer->buf = (unsigned char *)return_value_malloc_1;
   buffer->alloc = (unsigned long int)len;
   buffer->offset = (unsigned long int)0;
   buffer->end = (unsigned long int)0;
@@ -10581,9 +10581,9 @@ void buffer_put_bignum(struct anonymous *buffer, struct bignum_st *value)
   bits=BN_num_bits(value);
   signed int bin_size = (bits + 7) / 8;
   unsigned char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)bin_size);
-  buf = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)bin_size);
+  buf = (unsigned char *)return_value_malloc_1;
   signed int oi;
   if(buf == ((unsigned char *)NULL))
   {
@@ -10614,9 +10614,9 @@ void buffer_put_cstring(struct anonymous *buffer, const char *s)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  buffer_put_string(buffer, (const void *)s, (unsigned int)return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  buffer_put_string(buffer, (const void *)s, (unsigned int)return_value_strlen_1);
 }
 
 // buffer_put_int
@@ -10662,17 +10662,17 @@ signed int createConnectedSocket(struct addrinfo *address_info)
   signed int sa_len = 0;
   memset((void *)&sai, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   memset((void *)&sai6, 0, sizeof(struct sockaddr_in6) /*28ul*/ );
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_2;
   if(address_info->ai_family == 2)
   {
     memcpy((void *)&sai.sin_addr, (const void *)&((struct sockaddr_in *)address_info->ai_addr)->sin_addr, sizeof(struct in_addr) /*4ul*/ );
     sai.sin_family = (unsigned short int)2;
-    unsigned short int createConnectedSocket$$1$$1$$1$$__v;
+    unsigned short int createConnectedSocket__1__1__1____v;
     unsigned short int __x = (unsigned short int)3653;
-    asm("rorw $8, %w0" : "=r"(createConnectedSocket$$1$$1$$1$$__v) : "0"(__x) : "cc");
-    tmp_statement_expression$1 = createConnectedSocket$$1$$1$$1$$__v;
-    sai.sin_port = tmp_statement_expression$1;
+    asm("rorw _8, %w0" : "=r"(createConnectedSocket__1__1__1____v) : "0"(__x) : "cc");
+    tmp_statement_expression_1 = createConnectedSocket__1__1__1____v;
+    sai.sin_port = tmp_statement_expression_1;
     sa = (struct sockaddr *)&sai;
     sa_len = (signed int)sizeof(struct sockaddr_in) /*16ul*/ ;
   }
@@ -10683,27 +10683,27 @@ signed int createConnectedSocket(struct addrinfo *address_info)
       memcpy((void *)&sai6.sin6_addr, (const void *)&((struct sockaddr_in6 *)address_info->ai_addr)->sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
       sai6.sin6_family = (unsigned short int)10;
       unsigned short int __v;
-      unsigned short int createConnectedSocket$$1$$2$$1$$__x = (unsigned short int)3653;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(createConnectedSocket$$1$$2$$1$$__x) : "cc");
-      tmp_statement_expression$2 = __v;
-      sai6.sin6_port = tmp_statement_expression$2;
+      unsigned short int createConnectedSocket__1__2__1____x = (unsigned short int)3653;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(createConnectedSocket__1__2__1____x) : "cc");
+      tmp_statement_expression_2 = __v;
+      sai6.sin6_port = tmp_statement_expression_2;
       sa = (struct sockaddr *)&sai6;
       sa_len = (signed int)sizeof(struct sockaddr_in6) /*28ul*/ ;
     }
 
     else
       return (signed int)-1;
-  signed int return_value_socket$3;
-  return_value_socket$3=socket(address_info->ai_family, address_info->ai_socktype, 0);
-  sfd = (signed int)return_value_socket$3;
+  signed int return_value_socket_3;
+  return_value_socket_3=socket(address_info->ai_family, address_info->ai_socktype, 0);
+  sfd = (signed int)return_value_socket_3;
   if(sfd == -1)
     return (signed int)-1;
 
   else
   {
-    signed int return_value_connect$4;
-    return_value_connect$4=connect(sfd, sa, (unsigned int)sa_len);
-    if(return_value_connect$4 == -1)
+    signed int return_value_connect_4;
+    return_value_connect_4=connect(sfd, sa, (unsigned int)sa_len);
+    if(return_value_connect_4 == -1)
       return (signed int)-1;
 
     else
@@ -10716,9 +10716,9 @@ signed int createConnectedSocket(struct addrinfo *address_info)
 struct rttengine_statistics * createStatEngine()
 {
   struct rttengine_statistics *engine = (struct rttengine_statistics *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct rttengine_statistics) /*56ul*/ );
-  engine = (struct rttengine_statistics *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct rttengine_statistics) /*56ul*/ );
+  engine = (struct rttengine_statistics *)return_value_malloc_1;
   if(engine == ((struct rttengine_statistics *)NULL))
     return (struct rttengine_statistics *)(void *)0;
 
@@ -10749,7 +10749,7 @@ signed int execScript(const char *cmd)
   snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%s > %s", cmd, (const void *)"/tmp/gogoc-tmp.log");
   retVal=system(buf);
   f_log=fopen("/tmp/gogoc-tmp.log", "r");
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   if(f_log == ((struct _IO_FILE *)NULL))
   {
     Display(1, (enum tSeverityLevel)ELError, "execScript", "Failed to open temporary file./tmp/gogoc-tmp.log");
@@ -10760,13 +10760,13 @@ signed int execScript(const char *cmd)
   {
     do
     {
-      return_value_feof$1=feof(f_log);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(f_log);
+      if(!(return_value_feof_1 == 0))
         break;
 
-      char *return_value_fgets$2;
-      return_value_fgets$2=fgets(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , f_log);
-      if(!(return_value_fgets$2 == ((char *)NULL)))
+      char *return_value_fgets_2;
+      return_value_fgets_2=fgets(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , f_log);
+      if(!(return_value_fgets_2 == ((char *)NULL)))
         Display(3, (enum tSeverityLevel)ELInfo, "execScript", "%s", (const void *)buf);
 
     }
@@ -10782,15 +10782,15 @@ signed int execScript(const char *cmd)
 static struct stAttribute * findAttribute(char *name, struct stAttribute *attributes)
 {
   struct stAttribute *a = attributes;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; !(*a->name == 0); a = a + 1l)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(name, a->name);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(name, a->name);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
       return a;
 
   }
@@ -10802,15 +10802,15 @@ static struct stAttribute * findAttribute(char *name, struct stAttribute *attrib
 static struct stNode * findNode(char *name, struct stNode *nodes)
 {
   struct stNode *n = nodes;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; !(*n->name == 0); n = n + 1l)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(name, n->name);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(name, n->name);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
       return n;
 
   }
@@ -10824,13 +10824,13 @@ static signed int freadline(char *buf, signed int max_len, struct _IO_FILE *fp)
   signed int pos;
   char c;
   pos = 0;
-  signed int return_value_fgetc$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  signed int return_value_fgetc_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   do
   {
-    return_value_fgetc$1=fgetc(fp);
-    c = (char)return_value_fgetc$1;
+    return_value_fgetc_1=fgetc(fp);
+    c = (char)return_value_fgetc_1;
     if((signed int)c == -1)
       break;
 
@@ -10839,18 +10839,18 @@ static signed int freadline(char *buf, signed int max_len, struct _IO_FILE *fp)
 
     if((signed int)c == 10)
     {
-      tmp_post$2 = pos;
+      tmp_post_2 = pos;
       pos = pos + 1;
-      buf[(signed long int)tmp_post$2] = c;
+      buf[(signed long int)tmp_post_2] = c;
       buf[(signed long int)pos] = (char)10;
       return 1;
     }
 
     else
     {
-      tmp_post$3 = pos;
+      tmp_post_3 = pos;
       pos = pos + 1;
-      buf[(signed long int)tmp_post$3] = c;
+      buf[(signed long int)tmp_post_3] = c;
     }
   }
   while((_Bool)1);
@@ -10859,11 +10859,11 @@ static signed int freadline(char *buf, signed int max_len, struct _IO_FILE *fp)
 
 // getSocketAddress
 // file net_echo_request.c line 388
-enum anonymous$38 getSocketAddress(char *server, enum anonymous$29 address_type, enum anonymous$23 tunnel_mode, struct addrinfo **address_info_root, struct addrinfo **address_info)
+enum anonymous_38 getSocketAddress(char *server, enum anonymous_29 address_type, enum anonymous_23 tunnel_mode, struct addrinfo **address_info_root, struct addrinfo **address_info)
 {
   struct addrinfo hints;
   struct addrinfo *result = (struct addrinfo *)(void *)0;
-  enum anonymous$38 status = (enum anonymous$38)SOCKET_ADDRESS_OK;
+  enum anonymous_38 status = (enum anonymous_38)SOCKET_ADDRESS_OK;
   struct addrinfo *result_index = (struct addrinfo *)(void *)0;
   signed int need_v6_endpoint = 0;
   signed int found_family_address = 0;
@@ -10872,14 +10872,14 @@ enum anonymous$38 getSocketAddress(char *server, enum anonymous$29 address_type,
   if((signed int)tunnel_mode == V4V6)
     need_v6_endpoint = 1;
 
-  signed int return_value_getaddrinfo$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  signed int return_value_getaddrinfo_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   switch((signed int)address_type)
   {
     case TSP_REDIRECT_BROKER_TYPE_NONE:
-      return (enum anonymous$38)SOCKET_ADDRESS_ERROR;
+      return (enum anonymous_38)SOCKET_ADDRESS_ERROR;
     case TSP_REDIRECT_BROKER_TYPE_IPV4:
     {
       hints.ai_family = 2;
@@ -10899,36 +10899,36 @@ enum anonymous$38 getSocketAddress(char *server, enum anonymous$29 address_type,
 
     __CPROVER_DUMP_L6:
       ;
-      return_value_getaddrinfo$1=getaddrinfo(server, "3653", &hints, &result);
-      if(!(return_value_getaddrinfo$1 == 0))
+      return_value_getaddrinfo_1=getaddrinfo(server, "3653", &hints, &result);
+      if(!(return_value_getaddrinfo_1 == 0))
       {
         if(!(result == ((struct addrinfo *)NULL)))
           freeaddrinfo(result);
 
-        return (enum anonymous$38)SOCKET_ADDRESS_PROBLEM_RESOLVING;
+        return (enum anonymous_38)SOCKET_ADDRESS_PROBLEM_RESOLVING;
       }
 
       result_index = result;
       switch((signed int)address_type)
       {
         case TSP_REDIRECT_BROKER_TYPE_NONE:
-          return (enum anonymous$38)SOCKET_ADDRESS_ERROR;
+          return (enum anonymous_38)SOCKET_ADDRESS_ERROR;
         case TSP_REDIRECT_BROKER_TYPE_IPV4:
         {
           if(!(need_v6_endpoint == 0))
-            status = (enum anonymous$38)SOCKET_ADDRESS_WRONG_FAMILY;
+            status = (enum anonymous_38)SOCKET_ADDRESS_WRONG_FAMILY;
 
           else
-            status = (enum anonymous$38)SOCKET_ADDRESS_OK;
+            status = (enum anonymous_38)SOCKET_ADDRESS_OK;
           goto __CPROVER_DUMP_L27;
         }
         case TSP_REDIRECT_BROKER_TYPE_IPV6:
         {
           if(!(need_v6_endpoint == 0))
-            status = (enum anonymous$38)SOCKET_ADDRESS_OK;
+            status = (enum anonymous_38)SOCKET_ADDRESS_OK;
 
           else
-            status = (enum anonymous$38)SOCKET_ADDRESS_WRONG_FAMILY;
+            status = (enum anonymous_38)SOCKET_ADDRESS_WRONG_FAMILY;
           goto __CPROVER_DUMP_L27;
         }
         case TSP_REDIRECT_BROKER_TYPE_FQDN:
@@ -10937,23 +10937,23 @@ enum anonymous$38 getSocketAddress(char *server, enum anonymous$29 address_type,
           for( ; !(result_index == ((struct addrinfo *)NULL)); result_index = result_index->ai_next)
           {
             if(!(need_v6_endpoint == 0))
-              tmp_if_expr$2 = result_index->ai_family == 10 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = result_index->ai_family == 10 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(tmp_if_expr$2)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)0;
+            if(tmp_if_expr_2)
+              tmp_if_expr_4 = (_Bool)1;
 
             else
             {
               if(need_v6_endpoint == 0)
-                tmp_if_expr$3 = result_index->ai_family == 2 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_3 = result_index->ai_family == 2 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_3 = (_Bool)0;
+              tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$4)
+            if(tmp_if_expr_4)
             {
               found_family_address = 1;
               break;
@@ -10961,11 +10961,11 @@ enum anonymous$38 getSocketAddress(char *server, enum anonymous$29 address_type,
 
           }
           if(!(found_family_address == 0))
-            status = (enum anonymous$38)SOCKET_ADDRESS_OK;
+            status = (enum anonymous_38)SOCKET_ADDRESS_OK;
 
           else
           {
-            status = (enum anonymous$38)SOCKET_ADDRESS_WRONG_FAMILY;
+            status = (enum anonymous_38)SOCKET_ADDRESS_WRONG_FAMILY;
             result_index = result;
           }
         }
@@ -10987,11 +10987,11 @@ enum anonymous$38 getSocketAddress(char *server, enum anonymous$29 address_type,
 // file src/gogocuistrings.c line 144
 const char * get_mui_string(const signed int id)
 {
-  const unsigned int n = (const unsigned int)(sizeof(const struct anonymous$3 [44l]) /*704ul*/  / sizeof(const struct anonymous$3) /*16ul*/ );
+  const unsigned int n = (const unsigned int)(sizeof(const struct anonymous_3 [44l]) /*704ul*/  / sizeof(const struct anonymous_3) /*16ul*/ );
   unsigned int i = (unsigned int)0;
   for( ; !(i >= n); i = i + 1u)
-    if(gogocUIStrings$link1[(signed long int)i]._id == id)
-      return gogocUIStrings$link1[(signed long int)i]._str;
+    if(gogocUIStrings_link1[(signed long int)i]._id == id)
+      return gogocUIStrings_link1[(signed long int)i]._str;
 
   return (const char *)0;
 }
@@ -11035,7 +11035,7 @@ static char * get_template_script(const struct stConf *pConfig)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/../gogoc-config/gogocconfig/gogocuistrings.h line 108
 const char * get_ui_string(const signed int id)
 {
-  const unsigned int n = (const unsigned int)(sizeof(const struct anonymous$3 [70l]) /*1120ul*/  / sizeof(const struct anonymous$3) /*16ul*/ );
+  const unsigned int n = (const unsigned int)(sizeof(const struct anonymous_3 [70l]) /*1120ul*/  / sizeof(const struct anonymous_3) /*16ul*/ );
   unsigned int i = (unsigned int)0;
   for( ; !(i >= n); i = i + 1u)
     if(gogocUIStrings[(signed long int)i]._id == id)
@@ -11052,12 +11052,12 @@ unsigned short int in_cksum(unsigned short int *addr, signed int len)
   signed int sum = 0;
   unsigned short int *w = addr;
   unsigned short int answer = (unsigned short int)0;
-  unsigned short int *tmp_post$1;
+  unsigned short int *tmp_post_1;
   for( ; nleft >= 2; nleft = nleft - 2)
   {
-    tmp_post$1 = w;
+    tmp_post_1 = w;
     w = w + 1l;
-    sum = sum + (signed int)*tmp_post$1;
+    sum = sum + (signed int)*tmp_post_1;
   }
   if(nleft == 1)
   {
@@ -11101,22 +11101,22 @@ static struct sockaddr_in * internal_get_sai(struct rttengine_statistics *s, cha
 {
   struct sockaddr_in *sai;
   struct in_addr addr;
-  unsigned short int tmp_statement_expression$3;
+  unsigned short int tmp_statement_expression_3;
   if(!(s->sai == ((struct sockaddr *)NULL)))
     return (struct sockaddr_in *)s->sai;
 
   else
   {
-    struct in_addr *return_value_NetText2Addr$1;
-    return_value_NetText2Addr$1=NetText2Addr(Host, &addr);
-    if(return_value_NetText2Addr$1 == ((struct in_addr *)NULL))
+    struct in_addr *return_value_NetText2Addr_1;
+    return_value_NetText2Addr_1=NetText2Addr(Host, &addr);
+    if(return_value_NetText2Addr_1 == ((struct in_addr *)NULL))
       return (struct sockaddr_in *)(void *)0;
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct sockaddr_in) /*16ul*/ );
-      sai = (struct sockaddr_in *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct sockaddr_in) /*16ul*/ );
+      sai = (struct sockaddr_in *)return_value_malloc_2;
       if(sai == ((struct sockaddr_in *)NULL))
         return (struct sockaddr_in *)(void *)0;
 
@@ -11126,9 +11126,9 @@ static struct sockaddr_in * internal_get_sai(struct rttengine_statistics *s, cha
         sai->sin_family = (unsigned short int)2;
         unsigned short int __v;
         unsigned short int __x = (unsigned short int)Port;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-        tmp_statement_expression$3 = __v;
-        sai->sin_port = tmp_statement_expression$3;
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+        tmp_statement_expression_3 = __v;
+        sai->sin_port = tmp_statement_expression_3;
         sai->sin_addr.s_addr = addr.s_addr;
         s->sai = (struct sockaddr *)sai;
         return sai;
@@ -11142,9 +11142,9 @@ static struct sockaddr_in * internal_get_sai(struct rttengine_statistics *s, cha
 extern unsigned int internal_get_timestamp(struct rttengine_statistics *s)
 {
   struct timeval tv;
-  signed int return_value_gettimeofday$1;
-  return_value_gettimeofday$1=gettimeofday(&tv, (struct timezone *)(void *)0);
-  if(return_value_gettimeofday$1 == -1)
+  signed int return_value_gettimeofday_1;
+  return_value_gettimeofday_1=gettimeofday(&tv, (struct timezone *)(void *)0);
+  if(return_value_gettimeofday_1 == -1)
     return (unsigned int)0;
 
   else
@@ -11156,18 +11156,18 @@ extern unsigned int internal_get_timestamp(struct rttengine_statistics *s)
 extern void * internal_prepare_message(struct rudp_message_struct **hdr, unsigned long int msglen)
 {
   void *buf;
-  void *return_value_malloc$1;
-  void *return_value_malloc$2;
+  void *return_value_malloc_1;
+  void *return_value_malloc_2;
   if(msglen == 0ul)
   {
-    return_value_malloc$1=malloc(sizeof(struct rudp_message_struct) /*8ul*/ );
-    buf = (void *)(struct rudp_message_struct *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct rudp_message_struct) /*8ul*/ );
+    buf = (void *)(struct rudp_message_struct *)return_value_malloc_1;
   }
 
   else
   {
-    return_value_malloc$2=malloc(msglen + sizeof(struct rudp_message_struct) /*8ul*/ );
-    buf = (void *)return_value_malloc$2;
+    return_value_malloc_2=malloc(msglen + sizeof(struct rudp_message_struct) /*8ul*/ );
+    buf = (void *)return_value_malloc_2;
   }
   if(!(buf == NULL))
     *hdr = (struct rudp_message_struct *)buf;
@@ -11179,7 +11179,7 @@ extern void * internal_prepare_message(struct rudp_message_struct **hdr, unsigne
 // file net_rudp.c line 130
 extern signed int internal_send_recv(signed int fd, void *in, signed int il, void *out, signed int ol)
 {
-  struct anonymous$4 fs;
+  struct anonymous_4 fs;
   signed int ret;
   signed int ls;
   struct rudp_message_struct *omh = (struct rudp_message_struct *)(void *)0;
@@ -11188,11 +11188,11 @@ extern signed int internal_send_recv(signed int fd, void *in, signed int il, voi
   void *im = (void *)0;
   struct timeval tv_sel;
   struct timeval tv_beg;
-  unsigned int tmp_post$1;
-  unsigned int return_value_internal_get_timestamp$2;
-  unsigned int return_value___bswap_32$3;
-  unsigned int return_value___bswap_32$4;
-  signed long int return_value_send$5;
+  unsigned int tmp_post_1;
+  unsigned int return_value_internal_get_timestamp_2;
+  unsigned int return_value___bswap_32_3;
+  unsigned int return_value___bswap_32_4;
+  signed long int return_value_send_5;
   if(rttengine_stats.initiated == 0)
     return -1;
 
@@ -11211,9 +11211,9 @@ extern signed int internal_send_recv(signed int fd, void *in, signed int il, voi
     else
     {
       memcpy((void *)((char *)om + (signed long int)sizeof(struct rudp_message_struct) /*8ul*/ ), in, (unsigned long int)il);
-      tmp_post$1 = rttengine_stats.sequence;
+      tmp_post_1 = rttengine_stats.sequence;
       rttengine_stats.sequence = rttengine_stats.sequence + 1u;
-      omh->sequence=__bswap_32$link1(tmp_post$1 | 0xf0000000);
+      omh->sequence=__bswap_32_link1(tmp_post_1 | 0xf0000000);
 
     sendloop:
       ;
@@ -11237,13 +11237,13 @@ extern signed int internal_send_recv(signed int fd, void *in, signed int il, voi
           return -1;
         }
 
-        return_value_internal_get_timestamp$2=internal_get_timestamp(&rttengine_stats);
-        omh->timestamp=__bswap_32$link1(return_value_internal_get_timestamp$2);
-        return_value___bswap_32$3=__bswap_32$link1(omh->sequence);
-        return_value___bswap_32$4=__bswap_32$link1(omh->timestamp);
-        Display(3, (enum tSeverityLevel)ELInfo, "internal_send_recv", "RUDP packet %i, RTO %f, sequence 0x%x timestamp %i.", rttengine_stats.retries, rttengine_stats.rto, return_value___bswap_32$3, return_value___bswap_32$4);
-        return_value_send$5=send(fd, om, (unsigned long int)il + sizeof(struct rudp_message_struct) /*8ul*/ , 0);
-        ls = (signed int)return_value_send$5;
+        return_value_internal_get_timestamp_2=internal_get_timestamp(&rttengine_stats);
+        omh->timestamp=__bswap_32_link1(return_value_internal_get_timestamp_2);
+        return_value___bswap_32_3=__bswap_32_link1(omh->sequence);
+        return_value___bswap_32_4=__bswap_32_link1(omh->timestamp);
+        Display(3, (enum tSeverityLevel)ELInfo, "internal_send_recv", "RUDP packet %i, RTO %f, sequence 0x%x timestamp %i.", rttengine_stats.retries, rttengine_stats.rto, return_value___bswap_32_3, return_value___bswap_32_4);
+        return_value_send_5=send(fd, om, (unsigned long int)il + sizeof(struct rudp_message_struct) /*8ul*/ , 0);
+        ls = (signed int)return_value_send_5;
         if(ls == -1)
         {
           rttengine_deinit(&rttengine_stats, om, im);
@@ -11258,9 +11258,9 @@ extern signed int internal_send_recv(signed int fd, void *in, signed int il, voi
         ;
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fs)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fs)->__fds_bits[(signed long int)0]) : "memory");
         (&fs)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fs)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
-        ret=select((signed int)fd + 1, &fs, (struct anonymous$4 *)(void *)0, (struct anonymous$4 *)(void *)0, &tv_sel);
+        ret=select((signed int)fd + 1, &fs, (struct anonymous_4 *)(void *)0, (struct anonymous_4 *)(void *)0, &tv_sel);
         if(!(ret == 0))
         {
           if(ret == 1)
@@ -11277,14 +11277,14 @@ extern signed int internal_send_recv(signed int fd, void *in, signed int il, voi
         }
 
       }
-      signed long int return_value_recv$6;
-      return_value_recv$6=recv(fd, im, sizeof(struct rudp_message_struct) /*8ul*/  + (unsigned long int)ol, 0);
-      ret = (signed int)return_value_recv$6;
-      unsigned int return_value___bswap_32$7;
-      return_value___bswap_32$7=__bswap_32$link1(imh->sequence);
-      unsigned int return_value___bswap_32$8;
-      return_value___bswap_32$8=__bswap_32$link1(imh->timestamp);
-      Display(3, (enum tSeverityLevel)ELInfo, "internal_send_recv", "Reply: RUDP packet %i, RTO %f, sequence 0x%x timestamp %i.", rttengine_stats.retries, rttengine_stats.rto, return_value___bswap_32$7, return_value___bswap_32$8);
+      signed long int return_value_recv_6;
+      return_value_recv_6=recv(fd, im, sizeof(struct rudp_message_struct) /*8ul*/  + (unsigned long int)ol, 0);
+      ret = (signed int)return_value_recv_6;
+      unsigned int return_value___bswap_32_7;
+      return_value___bswap_32_7=__bswap_32_link1(imh->sequence);
+      unsigned int return_value___bswap_32_8;
+      return_value___bswap_32_8=__bswap_32_link1(imh->timestamp);
+      Display(3, (enum tSeverityLevel)ELInfo, "internal_send_recv", "Reply: RUDP packet %i, RTO %f, sequence 0x%x timestamp %i.", rttengine_stats.retries, rttengine_stats.rto, return_value___bswap_32_7, return_value___bswap_32_8);
       if(ret == -1)
       {
         rttengine_deinit(&rttengine_stats, om, im);
@@ -11315,11 +11315,11 @@ extern signed int internal_send_recv(signed int fd, void *in, signed int il, voi
 
       __CPROVER_DUMP_L16:
         ;
-        unsigned int return_value_internal_get_timestamp$9;
-        return_value_internal_get_timestamp$9=internal_get_timestamp(&rttengine_stats);
-        unsigned int return_value___bswap_32$10;
-        return_value___bswap_32$10=__bswap_32$link1(imh->timestamp);
-        rttengine_update(&rttengine_stats, return_value_internal_get_timestamp$9 - return_value___bswap_32$10);
+        unsigned int return_value_internal_get_timestamp_9;
+        return_value_internal_get_timestamp_9=internal_get_timestamp(&rttengine_stats);
+        unsigned int return_value___bswap_32_10;
+        return_value___bswap_32_10=__bswap_32_link1(imh->timestamp);
+        rttengine_update(&rttengine_stats, return_value_internal_get_timestamp_9 - return_value___bswap_32_10);
         memcpy(out, (const void *)((char *)im + (signed long int)sizeof(struct rudp_message_struct) /*8ul*/ ), (unsigned long int)ret);
         internal_discard_message(om);
         internal_discard_message(im);
@@ -11347,16 +11347,16 @@ static signed int is_dsakey_in_keyfile(struct dsa_st *dsa_1, char *host, char *f
   signed int ret = 1;
   unsigned long int str_size = (unsigned long int)0;
   signed int i;
-  void *return_value_malloc$1;
-  signed int return_value_freadline$2;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$5;
-  _Bool tmp_if_expr$11;
-  signed int return_value_BN_cmp$10;
-  _Bool tmp_if_expr$13;
-  signed int return_value_BN_cmp$12;
-  _Bool tmp_if_expr$15;
-  signed int return_value_BN_cmp$14;
+  void *return_value_malloc_1;
+  signed int return_value_freadline_2;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_5;
+  _Bool tmp_if_expr_11;
+  signed int return_value_BN_cmp_10;
+  _Bool tmp_if_expr_13;
+  signed int return_value_BN_cmp_12;
+  _Bool tmp_if_expr_15;
+  signed int return_value_BN_cmp_14;
   if(filename == ((char *)NULL) || host == ((char *)NULL) || dsa_1 == ((struct dsa_st *)NULL))
     return 0;
 
@@ -11369,42 +11369,42 @@ static signed int is_dsakey_in_keyfile(struct dsa_st *dsa_1, char *host, char *f
 
     else
     {
-      return_value_malloc$1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)4096);
-      line_buf = (char *)return_value_malloc$1;
+      return_value_malloc_1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)4096);
+      line_buf = (char *)return_value_malloc_1;
       if(line_buf == ((char *)NULL))
         ret = 0;
 
       else
         do
         {
-          return_value_freadline$2=freadline(line_buf, 4095, fp);
-          if(return_value_freadline$2 == -1)
+          return_value_freadline_2=freadline(line_buf, 4095, fp);
+          if(return_value_freadline_2 == -1)
             break;
 
           signed int len;
           str_base64=strtok(line_buf, " ");
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$4;
-          return_value___builtin_strcmp$4=__builtin_strcmp(host, str_base64);
-          tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-          if(tmp_statement_expression$3 == 0)
+          signed int return_value___builtin_strcmp_4;
+          return_value___builtin_strcmp_4=__builtin_strcmp(host, str_base64);
+          tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+          if(tmp_statement_expression_3 == 0)
           {
             str_base64=strtok((char *)(void *)0, " ");
-            unsigned long int is_dsakey_in_keyfile$$1$$3$$2$$__s1_len;
-            unsigned long int is_dsakey_in_keyfile$$1$$3$$2$$__s2_len;
-            signed int return_value___builtin_strcmp$6;
-            return_value___builtin_strcmp$6=__builtin_strcmp("ssh-dss", str_base64);
-            tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-            if(tmp_statement_expression$5 == 0)
+            unsigned long int is_dsakey_in_keyfile__1__3__2____s1_len;
+            unsigned long int is_dsakey_in_keyfile__1__3__2____s2_len;
+            signed int return_value___builtin_strcmp_6;
+            return_value___builtin_strcmp_6=__builtin_strcmp("ssh-dss", str_base64);
+            tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+            if(tmp_statement_expression_5 == 0)
             {
               str_base64=strtok((char *)(void *)0, " ");
-              unsigned long int return_value_strlen$7;
-              return_value_strlen$7=strlen(str_base64);
-              str_size = (unsigned long int)(unsigned int)return_value_strlen$7 * sizeof(char) /*1ul*/ ;
-              void *return_value_malloc$8;
-              return_value_malloc$8=malloc(str_size);
-              str = (char *)return_value_malloc$8;
+              unsigned long int return_value_strlen_7;
+              return_value_strlen_7=strlen(str_base64);
+              str_size = (unsigned long int)(unsigned int)return_value_strlen_7 * sizeof(char) /*1ul*/ ;
+              void *return_value_malloc_8;
+              return_value_malloc_8=malloc(str_size);
+              str = (char *)return_value_malloc_8;
               if(str == ((char *)NULL))
               {
                 ret = 0;
@@ -11441,33 +11441,33 @@ static signed int is_dsakey_in_keyfile(struct dsa_st *dsa_1, char *host, char *f
               buffer_get_bignum(&keyfile_buf, bn_q);
               buffer_get_bignum(&keyfile_buf, bn_g);
               buffer_get_bignum(&keyfile_buf, bn_pub_key);
-              signed int return_value_BN_cmp$9;
-              return_value_BN_cmp$9=BN_cmp(dsa_1->p, bn_p);
-              if(return_value_BN_cmp$9 == 0)
+              signed int return_value_BN_cmp_9;
+              return_value_BN_cmp_9=BN_cmp(dsa_1->p, bn_p);
+              if(return_value_BN_cmp_9 == 0)
               {
-                return_value_BN_cmp$10=BN_cmp(dsa_1->q, bn_q);
-                tmp_if_expr$11 = !(return_value_BN_cmp$10 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_BN_cmp_10=BN_cmp(dsa_1->q, bn_q);
+                tmp_if_expr_11 = !(return_value_BN_cmp_10 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$11 = (_Bool)0;
-              if(tmp_if_expr$11)
+                tmp_if_expr_11 = (_Bool)0;
+              if(tmp_if_expr_11)
               {
-                return_value_BN_cmp$12=BN_cmp(dsa_1->g, bn_g);
-                tmp_if_expr$13 = !(return_value_BN_cmp$12 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_BN_cmp_12=BN_cmp(dsa_1->g, bn_g);
+                tmp_if_expr_13 = !(return_value_BN_cmp_12 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$13 = (_Bool)0;
-              if(tmp_if_expr$13)
+                tmp_if_expr_13 = (_Bool)0;
+              if(tmp_if_expr_13)
               {
-                return_value_BN_cmp$14=BN_cmp(dsa_1->pub_key, bn_pub_key);
-                tmp_if_expr$15 = !(return_value_BN_cmp$14 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_BN_cmp_14=BN_cmp(dsa_1->pub_key, bn_pub_key);
+                tmp_if_expr_15 = !(return_value_BN_cmp_14 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$15 = (_Bool)0;
-              if(tmp_if_expr$15)
+                tmp_if_expr_15 = (_Bool)0;
+              if(tmp_if_expr_15)
                 ret = 2;
 
               else
@@ -11552,42 +11552,42 @@ void md5digest(char *string, unsigned long int len, char *digest)
 // file xml_tun.c line 280
 signed int p_address(struct stNode *n, char *content)
 {
-  signed int tmp_statement_expression$1;
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$8;
-  signed int tmp_statement_expression$6;
-  signed int tmp_statement_expression$10;
-  signed int tmp_statement_expression$16;
-  signed int tmp_statement_expression$14;
-  signed int tmp_statement_expression$12;
-  signed int tmp_statement_expression$20;
-  signed int tmp_statement_expression$18;
-  signed int tmp_statement_expression$26;
-  signed int tmp_statement_expression$24;
-  signed int tmp_statement_expression$22;
+  signed int tmp_statement_expression_1;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_8;
+  signed int tmp_statement_expression_6;
+  signed int tmp_statement_expression_10;
+  signed int tmp_statement_expression_16;
+  signed int tmp_statement_expression_14;
+  signed int tmp_statement_expression_12;
+  signed int tmp_statement_expression_20;
+  signed int tmp_statement_expression_18;
+  signed int tmp_statement_expression_26;
+  signed int tmp_statement_expression_24;
+  signed int tmp_statement_expression_22;
   if(!(client == 0))
   {
     if(!(keepalive == 0))
     {
-      unsigned long int p_address$$1$$1$$1$$1$$__s1_len;
-      unsigned long int p_address$$1$$1$$1$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
-        tmp_if_expr$5 = (_Bool)1;
+      unsigned long int p_address__1__1__1__1____s1_len;
+      unsigned long int p_address__1__1__1__1____s2_len;
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        unsigned long int p_address$$1$$1$$1$$2$$__s1_len;
-        unsigned long int p_address$$1$$1$$1$$2$$__s2_len;
-        signed int return_value___builtin_strcmp$4;
-        return_value___builtin_strcmp$4=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv4");
-        tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-        tmp_if_expr$5 = !(tmp_statement_expression$3 != 0) ? (_Bool)1 : (_Bool)0;
+        unsigned long int p_address__1__1__1__2____s1_len;
+        unsigned long int p_address__1__1__1__2____s2_len;
+        signed int return_value___builtin_strcmp_4;
+        return_value___builtin_strcmp_4=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv4");
+        tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+        tmp_if_expr_5 = !(tmp_statement_expression_3 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         Assign(content, &theTunnelInfo->keepalive_address);
 
     }
@@ -11599,20 +11599,20 @@ signed int p_address(struct stNode *n, char *content)
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$9;
-          return_value___builtin_strcmp$9=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv4");
-          tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-          if(tmp_statement_expression$8 == 0)
+          signed int return_value___builtin_strcmp_9;
+          return_value___builtin_strcmp_9=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv4");
+          tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+          if(tmp_statement_expression_8 == 0)
             AssignToList(content, &theTunnelInfo->dns_server_address_ipv4);
 
           else
           {
-            unsigned long int p_address$$1$$1$$2$$1$$3$$__s1_len;
-            unsigned long int p_address$$1$$1$$2$$1$$3$$__s2_len;
-            signed int return_value___builtin_strcmp$7;
-            return_value___builtin_strcmp$7=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
-            tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-            if(tmp_statement_expression$6 == 0)
+            unsigned long int p_address__1__1__2__1__3____s1_len;
+            unsigned long int p_address__1__1__2__1__3____s2_len;
+            signed int return_value___builtin_strcmp_7;
+            return_value___builtin_strcmp_7=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
+            tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+            if(tmp_statement_expression_6 == 0)
               AssignToList(content, &theTunnelInfo->dns_server_address_ipv6);
 
           }
@@ -11623,44 +11623,44 @@ signed int p_address(struct stNode *n, char *content)
       else
         if(!(dns_server == 0))
         {
-          unsigned long int p_address$$1$$1$$3$$1$$__s1_len;
-          unsigned long int p_address$$1$$1$$3$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$11;
-          return_value___builtin_strcmp$11=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
-          tmp_statement_expression$10 = return_value___builtin_strcmp$11;
-          if(tmp_statement_expression$10 == 0)
+          unsigned long int p_address__1__1__3__1____s1_len;
+          unsigned long int p_address__1__1__3__1____s2_len;
+          signed int return_value___builtin_strcmp_11;
+          return_value___builtin_strcmp_11=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
+          tmp_statement_expression_10 = return_value___builtin_strcmp_11;
+          if(tmp_statement_expression_10 == 0)
             Assign(content, &theTunnelInfo->client_dns_server_address_ipv6);
 
         }
 
         else
         {
-          unsigned long int p_address$$1$$1$$4$$1$$__s1_len;
-          unsigned long int p_address$$1$$1$$4$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$17;
-          return_value___builtin_strcmp$17=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv4");
-          tmp_statement_expression$16 = return_value___builtin_strcmp$17;
-          if(tmp_statement_expression$16 == 0)
+          unsigned long int p_address__1__1__4__1____s1_len;
+          unsigned long int p_address__1__1__4__1____s2_len;
+          signed int return_value___builtin_strcmp_17;
+          return_value___builtin_strcmp_17=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv4");
+          tmp_statement_expression_16 = return_value___builtin_strcmp_17;
+          if(tmp_statement_expression_16 == 0)
             Assign(content, &theTunnelInfo->client_address_ipv4);
 
           else
           {
-            unsigned long int p_address$$1$$1$$4$$3$$__s1_len;
-            unsigned long int p_address$$1$$1$$4$$3$$__s2_len;
-            signed int return_value___builtin_strcmp$15;
-            return_value___builtin_strcmp$15=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
-            tmp_statement_expression$14 = return_value___builtin_strcmp$15;
-            if(tmp_statement_expression$14 == 0)
+            unsigned long int p_address__1__1__4__3____s1_len;
+            unsigned long int p_address__1__1__4__3____s2_len;
+            signed int return_value___builtin_strcmp_15;
+            return_value___builtin_strcmp_15=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
+            tmp_statement_expression_14 = return_value___builtin_strcmp_15;
+            if(tmp_statement_expression_14 == 0)
               Assign(content, &theTunnelInfo->client_address_ipv6);
 
             else
             {
-              unsigned long int p_address$$1$$1$$4$$5$$__s1_len;
-              unsigned long int p_address$$1$$1$$4$$5$$__s2_len;
-              signed int return_value___builtin_strcmp$13;
-              return_value___builtin_strcmp$13=__builtin_strcmp(n->attributes[(signed long int)0].value, "dn");
-              tmp_statement_expression$12 = return_value___builtin_strcmp$13;
-              if(tmp_statement_expression$12 == 0)
+              unsigned long int p_address__1__1__4__5____s1_len;
+              unsigned long int p_address__1__1__4__5____s2_len;
+              signed int return_value___builtin_strcmp_13;
+              return_value___builtin_strcmp_13=__builtin_strcmp(n->attributes[(signed long int)0].value, "dn");
+              tmp_statement_expression_12 = return_value___builtin_strcmp_13;
+              if(tmp_statement_expression_12 == 0)
                 Assign(content, &theTunnelInfo->client_dns_name);
 
             }
@@ -11671,22 +11671,22 @@ signed int p_address(struct stNode *n, char *content)
   else
     if(!(server == 0))
     {
-      unsigned long int p_address$$1$$2$$1$$__s1_len;
-      unsigned long int p_address$$1$$2$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$21;
-      return_value___builtin_strcmp$21=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv4");
-      tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-      if(tmp_statement_expression$20 == 0)
+      unsigned long int p_address__1__2__1____s1_len;
+      unsigned long int p_address__1__2__1____s2_len;
+      signed int return_value___builtin_strcmp_21;
+      return_value___builtin_strcmp_21=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv4");
+      tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+      if(tmp_statement_expression_20 == 0)
         Assign(content, &theTunnelInfo->server_address_ipv4);
 
       else
       {
-        unsigned long int p_address$$1$$2$$3$$__s1_len;
-        unsigned long int p_address$$1$$2$$3$$__s2_len;
-        signed int return_value___builtin_strcmp$19;
-        return_value___builtin_strcmp$19=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
-        tmp_statement_expression$18 = return_value___builtin_strcmp$19;
-        if(tmp_statement_expression$18 == 0)
+        unsigned long int p_address__1__2__3____s1_len;
+        unsigned long int p_address__1__2__3____s2_len;
+        signed int return_value___builtin_strcmp_19;
+        return_value___builtin_strcmp_19=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
+        tmp_statement_expression_18 = return_value___builtin_strcmp_19;
+        if(tmp_statement_expression_18 == 0)
           Assign(content, &theTunnelInfo->server_address_ipv6);
 
       }
@@ -11695,32 +11695,32 @@ signed int p_address(struct stNode *n, char *content)
     else
       if(!(broker == 0))
       {
-        unsigned long int p_address$$1$$3$$1$$__s1_len;
-        unsigned long int p_address$$1$$3$$1$$__s2_len;
-        signed int return_value___builtin_strcmp$27;
-        return_value___builtin_strcmp$27=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv4");
-        tmp_statement_expression$26 = return_value___builtin_strcmp$27;
-        if(tmp_statement_expression$26 == 0)
+        unsigned long int p_address__1__3__1____s1_len;
+        unsigned long int p_address__1__3__1____s2_len;
+        signed int return_value___builtin_strcmp_27;
+        return_value___builtin_strcmp_27=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv4");
+        tmp_statement_expression_26 = return_value___builtin_strcmp_27;
+        if(tmp_statement_expression_26 == 0)
           AssignToList(content, &theTunnelInfo->broker_redirect_ipv4);
 
         else
         {
-          unsigned long int p_address$$1$$3$$3$$__s1_len;
-          unsigned long int p_address$$1$$3$$3$$__s2_len;
-          signed int return_value___builtin_strcmp$25;
-          return_value___builtin_strcmp$25=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
-          tmp_statement_expression$24 = return_value___builtin_strcmp$25;
-          if(tmp_statement_expression$24 == 0)
+          unsigned long int p_address__1__3__3____s1_len;
+          unsigned long int p_address__1__3__3____s2_len;
+          signed int return_value___builtin_strcmp_25;
+          return_value___builtin_strcmp_25=__builtin_strcmp(n->attributes[(signed long int)0].value, "ipv6");
+          tmp_statement_expression_24 = return_value___builtin_strcmp_25;
+          if(tmp_statement_expression_24 == 0)
             AssignToList(content, &theTunnelInfo->broker_redirect_ipv6);
 
           else
           {
-            unsigned long int p_address$$1$$3$$5$$__s1_len;
-            unsigned long int p_address$$1$$3$$5$$__s2_len;
-            signed int return_value___builtin_strcmp$23;
-            return_value___builtin_strcmp$23=__builtin_strcmp(n->attributes[(signed long int)0].value, "dn");
-            tmp_statement_expression$22 = return_value___builtin_strcmp$23;
-            if(tmp_statement_expression$22 == 0)
+            unsigned long int p_address__1__3__5____s1_len;
+            unsigned long int p_address__1__3__5____s2_len;
+            signed int return_value___builtin_strcmp_23;
+            return_value___builtin_strcmp_23=__builtin_strcmp(n->attributes[(signed long int)0].value, "dn");
+            tmp_statement_expression_22 = return_value___builtin_strcmp_23;
+            if(tmp_statement_expression_22 == 0)
               AssignToList(content, &theTunnelInfo->broker_redirect_dn);
 
           }
@@ -11770,9 +11770,9 @@ signed int p_client(struct stNode *n, char *content)
 // file xml_tun.c line 182
 signed int p_default(struct stNode *n, char *content)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(content);
-  printf("Found <%s>%.10s%s</%s>\n", n->name, content, return_value_strlen$1 > (unsigned long int)10 ? "..." : "", n->name);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(content);
+  printf("Found <%s>%.10s%s</%s>\n", n->name, content, return_value_strlen_1 > (unsigned long int)10 ? "..." : "", n->name);
   return 0;
 }
 
@@ -11840,9 +11840,9 @@ signed int p_tunnel(struct stNode *n, char *content)
   Assign(n->attributes[(signed long int)2].value, &theTunnelInfo->lifetime);
   Assign(n->attributes[(signed long int)3].value, &theTunnelInfo->proxy);
   Assign(n->attributes[(signed long int)4].value, &theTunnelInfo->mtu);
-  signed int return_value_XMLParse$1;
-  return_value_XMLParse$1=XMLParse(content, Tunnel);
-  return return_value_XMLParse$1;
+  signed int return_value_XMLParse_1;
+  return_value_XMLParse_1=XMLParse(content, Tunnel);
+  return return_value_XMLParse_1;
 }
 
 // parse_addr_port
@@ -11858,9 +11858,9 @@ signed int parse_addr_port(const char *addr_port, char **addr, unsigned short in
   else
   {
     snprintf(buffer, sizeof(char [1024l]) /*1024ul*/ , "%s", addr_port);
-    char *return_value___builtin_strchr$1;
-    return_value___builtin_strchr$1=__builtin_strchr(buffer, 91);
-    srvname = return_value___builtin_strchr$1;
+    char *return_value___builtin_strchr_1;
+    return_value___builtin_strchr_1=__builtin_strchr(buffer, 91);
+    srvname = return_value___builtin_strchr_1;
     if(!(srvname == ((char *)NULL)))
     {
       srvname=strtok(buffer, "]");
@@ -11869,11 +11869,11 @@ signed int parse_addr_port(const char *addr_port, char **addr, unsigned short in
 
     else
       srvname=strtok(buffer, ":");
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(srvname);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)((unsigned int)return_value_strlen$2 + (unsigned int)1));
-    *addr = (char *)return_value_malloc$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(srvname);
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)((unsigned int)return_value_strlen_2 + (unsigned int)1));
+    *addr = (char *)return_value_malloc_3;
     if(*addr == ((char *)NULL))
     {
       Display(1, (enum tSeverityLevel)ELError, "parse_addr_port", "Failed memory allocation.");
@@ -11945,9 +11945,9 @@ extern signed int rttengine_init(struct rttengine_statistics *s)
 
     else
     {
-      signed int return_value_gettimeofday$1;
-      return_value_gettimeofday$1=gettimeofday(&tv, (struct timezone *)(void *)0);
-      if(return_value_gettimeofday$1 == -1)
+      signed int return_value_gettimeofday_1;
+      return_value_gettimeofday_1=gettimeofday(&tv, (struct timezone *)(void *)0);
+      if(return_value_gettimeofday_1 == -1)
         memset((void *)&tv, 0, sizeof(struct timeval) /*16ul*/ );
 
       s->rtt = (float)0;
@@ -12024,22 +12024,22 @@ void set_tsp_env_variables(const struct stConf *pConfig, const struct stTunnel *
   tspSetEnv("TSP_HOME_DIR", TspHomeDir, 1);
   tspSetEnv("TSP_TUNNEL_MODE", pTunnelInfo->type, 1);
   tspSetEnv("TSP_HOST_TYPE", pConfig->host_type, 1);
-  signed int return_value_strcasecmp$2;
-  return_value_strcasecmp$2=strcasecmp(pTunnelInfo->type, "v6v4");
-  signed int return_value_strcasecmp$1;
-  if(return_value_strcasecmp$2 == 0)
+  signed int return_value_strcasecmp_2;
+  return_value_strcasecmp_2=strcasecmp(pTunnelInfo->type, "v6v4");
+  signed int return_value_strcasecmp_1;
+  if(return_value_strcasecmp_2 == 0)
   {
     tspSetEnv("TSP_TUNNEL_INTERFACE", pConfig->if_tunnel_v6v4, 1);
-    gTunnelInfo.eTunnelType = (enum anonymous$22)TUNTYPE_V6V4;
+    gTunnelInfo.eTunnelType = (enum anonymous_22)TUNTYPE_V6V4;
   }
 
   else
   {
-    return_value_strcasecmp$1=strcasecmp(pTunnelInfo->type, "v6udpv4");
-    if(return_value_strcasecmp$1 == 0)
+    return_value_strcasecmp_1=strcasecmp(pTunnelInfo->type, "v6udpv4");
+    if(return_value_strcasecmp_1 == 0)
     {
       tspSetEnv("TSP_TUNNEL_INTERFACE", pConfig->if_tunnel_v6udpv4, 1);
-      gTunnelInfo.eTunnelType = (enum anonymous$22)TUNTYPE_V6UDPV4;
+      gTunnelInfo.eTunnelType = (enum anonymous_22)TUNTYPE_V6UDPV4;
     }
 
   }
@@ -12060,19 +12060,19 @@ void set_tsp_env_variables(const struct stConf *pConfig, const struct stTunnel *
   gTunnelInfo.szIPV4AddrRemoteEndpoint = pTunnelInfo->server_address_ipv4;
   tspSetEnv("TSP_SERVER_ADDRESS_IPV6", pTunnelInfo->server_address_ipv6, 1);
   gTunnelInfo.szIPV6AddrRemoteEndpoint = pTunnelInfo->server_address_ipv6;
-  signed int return_value_strcasecmp$3;
-  return_value_strcasecmp$3=strcasecmp(pTunnelInfo->type, "v6v4");
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcasecmp$4;
-  if(return_value_strcasecmp$3 == 0)
-    tmp_if_expr$5 = (_Bool)1;
+  signed int return_value_strcasecmp_3;
+  return_value_strcasecmp_3=strcasecmp(pTunnelInfo->type, "v6v4");
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcasecmp_4;
+  if(return_value_strcasecmp_3 == 0)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_strcasecmp$4=strcasecmp(pTunnelInfo->type, "v6udpv4");
-    tmp_if_expr$5 = return_value_strcasecmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_4=strcasecmp(pTunnelInfo->type, "v6udpv4");
+    tmp_if_expr_5 = return_value_strcasecmp_4 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
     tspSetEnv("TSP_TUNNEL_PREFIXLEN", "128", 1);
 
   if(!(gTunnelInfo.szDelegatedPrefix == ((char *)NULL)))
@@ -12081,76 +12081,76 @@ void set_tsp_env_variables(const struct stConf *pConfig, const struct stTunnel *
     gTunnelInfo.szDelegatedPrefix = (char *)(void *)0;
   }
 
-  _Bool tmp_if_expr$17;
-  signed int return_value_strcasecmp$16;
-  signed int tmp_if_expr$9;
-  signed int return_value_atoi$7;
-  signed int return_value_atoi$8;
-  signed int tmp_if_expr$13;
-  signed int return_value_atoi$11;
-  signed int return_value_atoi$12;
+  _Bool tmp_if_expr_17;
+  signed int return_value_strcasecmp_16;
+  signed int tmp_if_expr_9;
+  signed int return_value_atoi_7;
+  signed int return_value_atoi_8;
+  signed int tmp_if_expr_13;
+  signed int return_value_atoi_11;
+  signed int return_value_atoi_12;
   if(!(pTunnelInfo->prefix == ((char *)NULL)))
   {
     char chPrefix[128l];
     unsigned long int len;
     unsigned long int sep;
-    signed int return_value_strcasecmp$15;
-    return_value_strcasecmp$15=strcasecmp(pTunnelInfo->type, "v6v4");
-    if(return_value_strcasecmp$15 == 0)
-      tmp_if_expr$17 = (_Bool)1;
+    signed int return_value_strcasecmp_15;
+    return_value_strcasecmp_15=strcasecmp(pTunnelInfo->type, "v6v4");
+    if(return_value_strcasecmp_15 == 0)
+      tmp_if_expr_17 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$16=strcasecmp(pTunnelInfo->type, "v6udpv4");
-      tmp_if_expr$17 = return_value_strcasecmp$16 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_16=strcasecmp(pTunnelInfo->type, "v6udpv4");
+      tmp_if_expr_17 = return_value_strcasecmp_16 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$17)
+    if(tmp_if_expr_17)
     {
-      signed int return_value_atoi$6;
-      return_value_atoi$6=atoi$link4(pTunnelInfo->prefix_length);
-      if(!(return_value_atoi$6 % 16 == 0))
+      signed int return_value_atoi_6;
+      return_value_atoi_6=atoi_link4(pTunnelInfo->prefix_length);
+      if(!(return_value_atoi_6 % 16 == 0))
       {
-        return_value_atoi$7=atoi$link4(pTunnelInfo->prefix_length);
-        tmp_if_expr$9 = (return_value_atoi$7 / 16 + 1) * 4;
+        return_value_atoi_7=atoi_link4(pTunnelInfo->prefix_length);
+        tmp_if_expr_9 = (return_value_atoi_7 / 16 + 1) * 4;
       }
 
       else
       {
-        return_value_atoi$8=atoi$link4(pTunnelInfo->prefix_length);
-        tmp_if_expr$9 = (return_value_atoi$8 / 16) * 4;
+        return_value_atoi_8=atoi_link4(pTunnelInfo->prefix_length);
+        tmp_if_expr_9 = (return_value_atoi_8 / 16) * 4;
       }
-      len = (unsigned long int)tmp_if_expr$9;
-      signed int return_value_atoi$10;
-      return_value_atoi$10=atoi$link4(pTunnelInfo->prefix_length);
-      if(!(return_value_atoi$10 % 16 == 0))
+      len = (unsigned long int)tmp_if_expr_9;
+      signed int return_value_atoi_10;
+      return_value_atoi_10=atoi_link4(pTunnelInfo->prefix_length);
+      if(!(return_value_atoi_10 % 16 == 0))
       {
-        return_value_atoi$11=atoi$link4(pTunnelInfo->prefix_length);
-        tmp_if_expr$13 = return_value_atoi$11 / 16;
+        return_value_atoi_11=atoi_link4(pTunnelInfo->prefix_length);
+        tmp_if_expr_13 = return_value_atoi_11 / 16;
       }
 
       else
       {
-        return_value_atoi$12=atoi$link4(pTunnelInfo->prefix_length);
-        tmp_if_expr$13 = return_value_atoi$12 / 16 - 1;
+        return_value_atoi_12=atoi_link4(pTunnelInfo->prefix_length);
+        tmp_if_expr_13 = return_value_atoi_12 / 16 - 1;
       }
-      sep = (unsigned long int)tmp_if_expr$13;
+      sep = (unsigned long int)tmp_if_expr_13;
     }
 
     else
     {
-      unsigned long int return_value_strlen$14;
-      return_value_strlen$14=strlen(pTunnelInfo->prefix);
-      len = (unsigned long int)(unsigned int)return_value_strlen$14;
+      unsigned long int return_value_strlen_14;
+      return_value_strlen_14=strlen(pTunnelInfo->prefix);
+      len = (unsigned long int)(unsigned int)return_value_strlen_14;
       sep = (unsigned long int)0;
     }
     memset((void *)chPrefix, 0, (unsigned long int)128);
     memcpy((void *)chPrefix, (const void *)pTunnelInfo->prefix, len + sep);
     tspSetEnv("TSP_PREFIX", chPrefix, 1);
-    unsigned long int return_value_strlen$18;
-    return_value_strlen$18=strlen(chPrefix);
-    void *return_value_malloc$19;
-    return_value_malloc$19=malloc((unsigned long int)((unsigned int)return_value_strlen$18 + (unsigned int)10));
-    gTunnelInfo.szDelegatedPrefix = (char *)return_value_malloc$19;
+    unsigned long int return_value_strlen_18;
+    return_value_strlen_18=strlen(chPrefix);
+    void *return_value_malloc_19;
+    return_value_malloc_19=malloc((unsigned long int)((unsigned int)return_value_strlen_18 + (unsigned int)10));
+    gTunnelInfo.szDelegatedPrefix = (char *)return_value_malloc_19;
     strcpy(gTunnelInfo.szDelegatedPrefix, chPrefix);
     tspSetEnv("TSP_PREFIXLEN", pTunnelInfo->prefix_length, 1);
     strcat(gTunnelInfo.szDelegatedPrefix, "/");
@@ -12172,14 +12172,14 @@ void signal_handler(signed int sigraised)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 453
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // timeEchoRequestReply
 // file net_echo_request.c line 238
-enum anonymous$27 timeEchoRequestReply(signed int sfd, char *address, struct rttengine_statistics *engine, unsigned int *distance)
+enum anonymous_27 timeEchoRequestReply(signed int sfd, char *address, struct rttengine_statistics *engine, unsigned int *distance)
 {
   char data_in[4096l];
   char data_out[4096l];
@@ -12191,25 +12191,25 @@ enum anonymous$27 timeEchoRequestReply(signed int sfd, char *address, struct rtt
   void *im = (void *)0;
   signed int length_sent = 0;
   signed int ret = 0;
-  struct anonymous$4 fs;
+  struct anonymous_4 fs;
   struct timeval tv_select;
   memset((void *)data_in, 0, sizeof(char [4096l]) /*4096ul*/ );
   snprintf(data_out, sizeof(char [4096l]) /*4096ul*/ , "ECHO REQUEST");
   data_in_size = (signed int)sizeof(char [4096l]) /*4096ul*/ ;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(data_out);
-  data_out_size = (unsigned long int)(unsigned int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(data_out);
+  data_out_size = (unsigned long int)(unsigned int)return_value_strlen_1;
   im=internal_prepare_message(&imh, (unsigned long int)data_in_size);
   om=internal_prepare_message(&omh, data_out_size);
-  unsigned int tmp_post$2;
-  unsigned int return_value_internal_get_timestamp$3;
-  signed long int return_value_send$4;
+  unsigned int tmp_post_2;
+  unsigned int return_value_internal_get_timestamp_3;
+  signed long int return_value_send_4;
   if(im == NULL || om == NULL)
   {
     rttengine_deinit(engine, im, om);
     *distance = *distance + (unsigned int)(10 * 1000 * 2);
     Display(1, (enum tSeverityLevel)ELError, "timeEchoRequestReply", "Failed to create an RUDP message to send an echo request to %s.", address);
-    return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
+    return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
   }
 
   else
@@ -12217,9 +12217,9 @@ enum anonymous$27 timeEchoRequestReply(signed int sfd, char *address, struct rtt
     memset(im, 0, (unsigned long int)data_in_size);
     memset(om, 0, data_out_size);
     memcpy((void *)((char *)om + (signed long int)sizeof(struct rudp_message_struct) /*8ul*/ ), (const void *)data_out, data_out_size);
-    tmp_post$2 = engine->sequence;
+    tmp_post_2 = engine->sequence;
     engine->sequence = engine->sequence + 1u;
-    omh->sequence=__bswap_32$link3(tmp_post$2 | 0xf0000000);
+    omh->sequence=__bswap_32_link3(tmp_post_2 | 0xf0000000);
 
   send_loop:
     ;
@@ -12230,20 +12230,20 @@ enum anonymous$27 timeEchoRequestReply(signed int sfd, char *address, struct rtt
         rttengine_deinit(engine, im, om);
         *distance = *distance + (unsigned int)(10 * 1000 * 2);
         Display(3, (enum tSeverityLevel)ELWarning, "timeEchoRequestReply", "Maximal number of echo request attempts (%u) reached for %s.", 3, address);
-        return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_TIMEOUT;
+        return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_TIMEOUT;
       }
 
-      return_value_internal_get_timestamp$3=internal_get_timestamp(engine);
-      omh->timestamp=__bswap_32$link3(return_value_internal_get_timestamp$3);
+      return_value_internal_get_timestamp_3=internal_get_timestamp(engine);
+      omh->timestamp=__bswap_32_link3(return_value_internal_get_timestamp_3);
       Display(3, (enum tSeverityLevel)ELInfo, "timeEchoRequestReply", "Sending echo request message #%u to %s.", engine->retries + 1, address);
-      return_value_send$4=send(sfd, om, (unsigned long int)(signed int)(data_out_size + sizeof(struct rudp_message_struct) /*8ul*/ ), 0);
-      length_sent = (signed int)return_value_send$4;
+      return_value_send_4=send(sfd, om, (unsigned long int)(signed int)(data_out_size + sizeof(struct rudp_message_struct) /*8ul*/ ), 0);
+      length_sent = (signed int)return_value_send_4;
       if(length_sent == -1)
       {
         rttengine_deinit(engine, im, om);
         *distance = *distance + (unsigned int)(10 * 1000 * 2);
         Display(1, (enum tSeverityLevel)ELError, "timeEchoRequestReply", "Failed to send an echo request message to %s.", address);
-        return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
+        return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
       }
 
       tv_select.tv_sec = (signed long int)((10 * 1000) / 1000);
@@ -12253,10 +12253,10 @@ enum anonymous$27 timeEchoRequestReply(signed int sfd, char *address, struct rtt
       ;
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fs)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fs)->__fds_bits[(signed long int)0]) : "memory");
       (&fs)->__fds_bits[(signed long int)(sfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fs)->__fds_bits[(signed long int)(sfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << sfd % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
       Display(3, (enum tSeverityLevel)ELInfo, "timeEchoRequestReply", "Waiting for an echo reply from %s.", address);
-      ret=select((signed int)sfd + 1, &fs, (struct anonymous$4 *)(void *)0, (struct anonymous$4 *)(void *)0, &tv_select);
+      ret=select((signed int)sfd + 1, &fs, (struct anonymous_4 *)(void *)0, (struct anonymous_4 *)(void *)0, &tv_select);
       if(!(ret == 0))
       {
         if(ret == 1)
@@ -12268,26 +12268,26 @@ enum anonymous$27 timeEchoRequestReply(signed int sfd, char *address, struct rtt
       Display(3, (enum tSeverityLevel)ELWarning, "timeEchoRequestReply", "Timed out waiting for an echo reply from %s.", address);
     }
     Display(3, (enum tSeverityLevel)ELWarning, "timeEchoRequestReply", "Receiving an RUDP message from %s.", address);
-    signed long int return_value_recv$5;
-    return_value_recv$5=recv(sfd, im, sizeof(struct rudp_message_struct) /*8ul*/  + (unsigned long int)data_in_size, 0);
-    ret = (signed int)return_value_recv$5;
+    signed long int return_value_recv_5;
+    return_value_recv_5=recv(sfd, im, sizeof(struct rudp_message_struct) /*8ul*/  + (unsigned long int)data_in_size, 0);
+    ret = (signed int)return_value_recv_5;
     if(ret == -1)
     {
       rttengine_deinit(engine, im, om);
       *distance = *distance + (unsigned int)(10 * 1000 * 2);
       Display(1, (enum tSeverityLevel)ELError, "timeEchoRequestReply", "Failed to receive an RUDP message from %s.", address);
-      return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
+      return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
     }
 
     else
     {
       if(imh->sequence == omh->sequence)
       {
-        unsigned int return_value_internal_get_timestamp$6;
-        return_value_internal_get_timestamp$6=internal_get_timestamp(engine);
-        unsigned int return_value___bswap_32$7;
-        return_value___bswap_32$7=__bswap_32$link3(omh->timestamp);
-        *distance = *distance + (return_value_internal_get_timestamp$6 - return_value___bswap_32$7);
+        unsigned int return_value_internal_get_timestamp_6;
+        return_value_internal_get_timestamp_6=internal_get_timestamp(engine);
+        unsigned int return_value___bswap_32_7;
+        return_value___bswap_32_7=__bswap_32_link3(omh->timestamp);
+        *distance = *distance + (return_value_internal_get_timestamp_6 - return_value___bswap_32_7);
         ret = (signed int)((unsigned long int)ret - sizeof(struct rudp_message_struct) /*8ul*/ );
         Display(3, (enum tSeverityLevel)ELInfo, "timeEchoRequestReply", "Received RUDP message from %s correctly.", address);
         goto __CPROVER_DUMP_L11;
@@ -12304,31 +12304,31 @@ enum anonymous$27 timeEchoRequestReply(signed int sfd, char *address, struct rtt
       rttengine_deinit(engine, im, om);
       *distance = *distance + (unsigned int)(10 * 1000 * 2);
       Display(1, (enum tSeverityLevel)ELError, "timeEchoRequestReply", "Failed to wait for an echo reply from %s.", address);
-      return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
+      return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
 
     __CPROVER_DUMP_L11:
       ;
-      unsigned int return_value_internal_get_timestamp$8;
-      return_value_internal_get_timestamp$8=internal_get_timestamp(engine);
-      unsigned int return_value___bswap_32$9;
-      return_value___bswap_32$9=__bswap_32$link3(imh->timestamp);
-      rttengine_update(engine, return_value_internal_get_timestamp$8 - return_value___bswap_32$9);
+      unsigned int return_value_internal_get_timestamp_8;
+      return_value_internal_get_timestamp_8=internal_get_timestamp(engine);
+      unsigned int return_value___bswap_32_9;
+      return_value___bswap_32_9=__bswap_32_link3(imh->timestamp);
+      rttengine_update(engine, return_value_internal_get_timestamp_8 - return_value___bswap_32_9);
       memcpy((void *)data_in, (const void *)((char *)im + (signed long int)sizeof(struct rudp_message_struct) /*8ul*/ ), (unsigned long int)ret);
       internal_discard_message(im);
       internal_discard_message(om);
       engine->retries = 0;
-      signed int return_value_tspGetStatusCode$10;
-      return_value_tspGetStatusCode$10=tspGetStatusCode(data_in);
-      if(!(return_value_tspGetStatusCode$10 == 200))
+      signed int return_value_tspGetStatusCode_10;
+      return_value_tspGetStatusCode_10=tspGetStatusCode(data_in);
+      if(!(return_value_tspGetStatusCode_10 == 200))
       {
         Display(1, (enum tSeverityLevel)ELError, "timeEchoRequestReply", "Received unexpected echo reply from %s: %s.", address, (const void *)data_in);
-        return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
+        return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
       }
 
       else
       {
         Display(3, (enum tSeverityLevel)ELInfo, "timeEchoRequestReply", "Received expected echo reply from %s: %s.", address, (const void *)data_in);
-        return (enum anonymous$27)TSP_REDIRECT_OK;
+        return (enum anonymous_27)TSP_REDIRECT_OK;
       }
     }
   }
@@ -12338,77 +12338,77 @@ enum anonymous$27 timeEchoRequestReply(signed int sfd, char *address, struct rtt
 // file /usr/include/ctype.h line 215
 static inline signed int tolower(signed int __c)
 {
-  signed int tmp_if_expr$2;
-  const signed int **return_value___ctype_tolower_loc$1;
+  signed int tmp_if_expr_2;
+  const signed int **return_value___ctype_tolower_loc_1;
   if(__c >= -128 && !(__c >= 256))
   {
-    return_value___ctype_tolower_loc$1=__ctype_tolower_loc();
-    tmp_if_expr$2 = (*return_value___ctype_tolower_loc$1)[(signed long int)__c];
+    return_value___ctype_tolower_loc_1=__ctype_tolower_loc();
+    tmp_if_expr_2 = (*return_value___ctype_tolower_loc_1)[(signed long int)__c];
   }
 
   else
-    tmp_if_expr$2 = __c;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = __c;
+  return tmp_if_expr_2;
 }
 
-// tolower$link1
+// tolower_link1
 // file /usr/include/ctype.h line 215
-static inline signed int tolower$link1(signed int __c$link1)
+static inline signed int tolower_link1(signed int __c_link1)
 {
-  signed int tmp_if_expr$2$link1;
-  const signed int **return_value___ctype_tolower_loc$1$link1;
-  if(__c$link1 >= -128 && !(__c$link1 >= 256))
+  signed int tmp_if_expr_2_link1;
+  const signed int **return_value___ctype_tolower_loc_1_link1;
+  if(__c_link1 >= -128 && !(__c_link1 >= 256))
   {
-    return_value___ctype_tolower_loc$1$link1=__ctype_tolower_loc();
-    tmp_if_expr$2$link1 = (*return_value___ctype_tolower_loc$1$link1)[(signed long int)__c$link1];
+    return_value___ctype_tolower_loc_1_link1=__ctype_tolower_loc();
+    tmp_if_expr_2_link1 = (*return_value___ctype_tolower_loc_1_link1)[(signed long int)__c_link1];
   }
 
   else
-    tmp_if_expr$2$link1 = __c$link1;
-  return tmp_if_expr$2$link1;
+    tmp_if_expr_2_link1 = __c_link1;
+  return tmp_if_expr_2_link1;
 }
 
 // tspAddBrokerToList
 // file tsp_redirect.c line 42
-enum anonymous$27 tspAddBrokerToList(struct stBrokerList **broker_list, char *address, enum anonymous$29 address_type, unsigned int distance)
+enum anonymous_27 tspAddBrokerToList(struct stBrokerList **broker_list, char *address, enum anonymous_29 address_type, unsigned int distance)
 {
   struct stBrokerList *new_broker = (struct stBrokerList *)(void *)0;
   if(broker_list == ((struct stBrokerList **)NULL))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspAddBrokerToList", "Internal error trying to add a server address to the server redirection list.");
-    return (enum anonymous$27)TSP_REDIRECT_INTERNAL_ERR;
+    return (enum anonymous_27)TSP_REDIRECT_INTERNAL_ERR;
   }
 
   else
     if(address == ((char *)NULL))
     {
       Display(1, (enum tSeverityLevel)ELError, "tspAddBrokerToList", "Internal error trying to add a server address to the server redirection list.");
-      return (enum anonymous$27)TSP_REDIRECT_INTERNAL_ERR;
+      return (enum anonymous_27)TSP_REDIRECT_INTERNAL_ERR;
     }
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct stBrokerList) /*272ul*/ );
-      new_broker = (struct stBrokerList *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct stBrokerList) /*272ul*/ );
+      new_broker = (struct stBrokerList *)return_value_malloc_1;
       if(new_broker == ((struct stBrokerList *)NULL))
       {
         Display(1, (enum tSeverityLevel)ELError, "tspAddBrokerToList", "Failed to allocate memory for a new server address in the server redirection list.");
-        return (enum anonymous$27)TSP_REDIRECT_CANT_ALLOCATE_MEM;
+        return (enum anonymous_27)TSP_REDIRECT_CANT_ALLOCATE_MEM;
       }
 
       else
       {
         snprintf(new_broker->address, (unsigned long int)255, address);
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(new_broker->address);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(address);
-        if(!(return_value_strlen$2 == return_value_strlen$3))
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(new_broker->address);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(address);
+        if(!(return_value_strlen_2 == return_value_strlen_3))
         {
           free((void *)new_broker);
           Display(1, (enum tSeverityLevel)ELError, "tspAddBrokerToList", "Failed to set server Address in server redirection list: address too long.");
-          return (enum anonymous$27)TSP_REDIRECT_ADDRESS_TRUNCATED;
+          return (enum anonymous_27)TSP_REDIRECT_ADDRESS_TRUNCATED;
         }
 
         else
@@ -12425,7 +12425,7 @@ enum anonymous$27 tspAddBrokerToList(struct stBrokerList **broker_list, char *ad
               ;
             (*broker_list)->next = new_broker;
           }
-          return (enum anonymous$27)TSP_REDIRECT_OK;
+          return (enum anonymous_27)TSP_REDIRECT_OK;
         }
       }
     }
@@ -12440,9 +12440,9 @@ char * tspAddPayloadString(struct stPayload *Payload, char *Addition)
   {
     if(Payload->PayloadCapacity == 0l)
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)2048);
-      Payload->payload = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)2048);
+      Payload->payload = (char *)return_value_malloc_1;
       NewPayload = Payload->payload;
       if(NewPayload == ((char *)NULL))
       {
@@ -12454,14 +12454,14 @@ char * tspAddPayloadString(struct stPayload *Payload, char *Addition)
       Payload->PayloadCapacity = (signed long int)2048;
     }
 
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(Addition);
-    if(!(Payload->PayloadCapacity >= 1l + Payload->size + (signed long int)(unsigned int)return_value_strlen$3))
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(Addition);
+    if(!(Payload->PayloadCapacity >= 1l + Payload->size + (signed long int)(unsigned int)return_value_strlen_3))
     {
       Payload->PayloadCapacity = Payload->PayloadCapacity + (signed long int)2048;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)Payload->PayloadCapacity);
-      NewPayload = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)Payload->PayloadCapacity);
+      NewPayload = (char *)return_value_malloc_2;
       if(NewPayload == ((char *)NULL))
       {
         Display(1, (enum tSeverityLevel)ELError, "tspAddPayloadString", "Failed memory allocation.");
@@ -12474,9 +12474,9 @@ char * tspAddPayloadString(struct stPayload *Payload, char *Addition)
     }
 
     strcat(Payload->payload, Addition);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(Addition);
-    Payload->size = Payload->size + (signed long int)(unsigned int)return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(Addition);
+    Payload->size = Payload->size + (signed long int)(unsigned int)return_value_strlen_4;
   }
 
   return Payload->payload;
@@ -12488,16 +12488,16 @@ unsigned int tspAuthenticate(signed int socket, unsigned int cap, struct net_too
 {
   unsigned int status = (unsigned int)(17 | 5 << 16);
   unsigned int Mechanism;
-  signed int return_value_strcasecmp$1;
-  return_value_strcasecmp$1=strcasecmp(conf->auth_method, "any");
-  if(return_value_strcasecmp$1 == 0)
+  signed int return_value_strcasecmp_1;
+  return_value_strcasecmp_1=strcasecmp(conf->auth_method, "any");
+  if(return_value_strcasecmp_1 == 0)
     Mechanism = (unsigned int)0x00F0;
 
   else
     Mechanism=tspSetCapability("AUTH", conf->auth_method);
-  signed int return_value_strcasecmp$2;
-  return_value_strcasecmp$2=strcasecmp(conf->auth_method, "anonymous");
-  if(!(return_value_strcasecmp$2 == 0))
+  signed int return_value_strcasecmp_2;
+  return_value_strcasecmp_2=strcasecmp(conf->auth_method, "anonymous");
+  if(!(return_value_strcasecmp_2 == 0))
   {
     if(!((128u & Mechanism & cap) == 0u))
     {
@@ -12538,15 +12538,15 @@ EndAuthenticate:
     unsigned long int nWritten;
     char bufDisplay[256l];
     snprintf(bufDisplay, sizeof(char [256l]) /*256ul*/ , "%s", szStrings[(signed long int)0]);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(szStrings[(signed long int)0]);
-    nWritten = (unsigned long int)(unsigned int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(szStrings[(signed long int)0]);
+    nWritten = (unsigned long int)(unsigned int)return_value_strlen_3;
     tspFormatCapabilities(bufDisplay + (signed long int)nWritten, sizeof(char [256l]) /*256ul*/  - nWritten, cap);
     Display(1, (enum tSeverityLevel)ELWarning, "tspAuthenticate", bufDisplay);
     snprintf(bufDisplay, sizeof(char [256l]) /*256ul*/ , "%s", szStrings[(signed long int)1]);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(szStrings[(signed long int)1]);
-    nWritten = (unsigned long int)(unsigned int)return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(szStrings[(signed long int)1]);
+    nWritten = (unsigned long int)(unsigned int)return_value_strlen_4;
     tspFormatCapabilities(bufDisplay + (signed long int)nWritten, sizeof(char [256l]) /*256ul*/  - nWritten, Mechanism);
     Display(1, (enum tSeverityLevel)ELWarning, "tspAuthenticate", bufDisplay);
     Display(1, (enum tSeverityLevel)ELError, "tspAuthenticate", "Failed to find common authentication method with server.");
@@ -12600,23 +12600,23 @@ char * tspBuildCreateRequest(struct stConf *conf)
     strcat((char *)Request, Buffer);
   }
 
-  signed int tmp_statement_expression$7;
+  signed int tmp_statement_expression_7;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$8;
-  return_value___builtin_strcmp$8=__builtin_strcmp(conf->host_type, "router");
-  tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-  signed int tmp_statement_expression$1;
-  signed int tmp_statement_expression$5;
-  if(tmp_statement_expression$7 == 0)
+  signed int return_value___builtin_strcmp_8;
+  return_value___builtin_strcmp_8=__builtin_strcmp(conf->host_type, "router");
+  tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+  signed int tmp_statement_expression_1;
+  signed int tmp_statement_expression_5;
+  if(tmp_statement_expression_7 == 0)
   {
     strcat((char *)Request, "  <router");
-    unsigned long int tspBuildCreateRequest$$1$$3$$1$$__s1_len;
-    unsigned long int tspBuildCreateRequest$$1$$3$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(conf->protocol, "default_route");
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(!(tmp_statement_expression$1 == 0))
+    unsigned long int tspBuildCreateRequest__1__3__1____s1_len;
+    unsigned long int tspBuildCreateRequest__1__3__1____s2_len;
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(conf->protocol, "default_route");
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(!(tmp_statement_expression_1 == 0))
     {
       snprintf(Buffer, sizeof(char [1024l]) /*1024ul*/ , " protocol=\"%s\"", conf->protocol);
       strcat((char *)Request, Buffer);
@@ -12632,32 +12632,32 @@ char * tspBuildCreateRequest(struct stConf *conf)
 
     snprintf(Buffer, sizeof(char [1024l]) /*1024ul*/ , "   <prefix length=\"%d\"/>\r\n", conf->prefixlen);
     strcat((char *)Request, Buffer);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(conf->dns_server);
-    if(!(return_value_strlen$3 == 0ul))
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(conf->dns_server);
+    if(!(return_value_strlen_3 == 0ul))
     {
-      char *tspBuildCreateRequest$$1$$3$$4$$Server;
+      char *tspBuildCreateRequest__1__3__4__Server;
       strcat((char *)Request, "   <dns_server>\r\n");
-      tspBuildCreateRequest$$1$$3$$4$$Server=strtok(conf->dns_server, ":");
-      while(!(tspBuildCreateRequest$$1$$3$$4$$Server == ((char *)NULL)))
+      tspBuildCreateRequest__1__3__4__Server=strtok(conf->dns_server, ":");
+      while(!(tspBuildCreateRequest__1__3__4__Server == ((char *)NULL)))
       {
-        snprintf(Buffer, sizeof(char [1024l]) /*1024ul*/ , "     <address type=\"dn\">%s</address>\r\n", tspBuildCreateRequest$$1$$3$$4$$Server);
+        snprintf(Buffer, sizeof(char [1024l]) /*1024ul*/ , "     <address type=\"dn\">%s</address>\r\n", tspBuildCreateRequest__1__3__4__Server);
         strcat((char *)Request, Buffer);
-        tspBuildCreateRequest$$1$$3$$4$$Server=strtok((char *)(void *)0, ":");
+        tspBuildCreateRequest__1__3__4__Server=strtok((char *)(void *)0, ":");
       }
       strcat((char *)Request, "   </dns_server>\r\n");
     }
 
-    unsigned long int tspBuildCreateRequest$$1$$3$$5$$__s1_len;
-    unsigned long int tspBuildCreateRequest$$1$$3$$5$$__s2_len;
-    signed int return_value___builtin_strcmp$6;
-    return_value___builtin_strcmp$6=__builtin_strcmp(conf->protocol, "default_route");
-    tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-    if(tmp_statement_expression$5 == 0)
+    unsigned long int tspBuildCreateRequest__1__3__5____s1_len;
+    unsigned long int tspBuildCreateRequest__1__3__5____s2_len;
+    signed int return_value___builtin_strcmp_6;
+    return_value___builtin_strcmp_6=__builtin_strcmp(conf->protocol, "default_route");
+    tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+    if(tmp_statement_expression_5 == 0)
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(conf->routing_info);
-      if(return_value_strlen$4 >= 1ul)
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(conf->routing_info);
+      if(return_value_strlen_4 >= 1ul)
       {
         snprintf(Buffer, sizeof(char [1024l]) /*1024ul*/ , "    %s\r\n", conf->routing_info);
         strcat((char *)Request, Buffer);
@@ -12745,7 +12745,7 @@ unsigned int tspConnect(signed int *p_sock, char *srvname, unsigned short int sr
 
 // tspCreateBrokerList
 // file tsp_redirect.c line 166
-enum anonymous$27 tspCreateBrokerList(struct stTunnel *tunnel_info, struct stBrokerList **broker_list, signed int *broker_count)
+enum anonymous_27 tspCreateBrokerList(struct stTunnel *tunnel_info, struct stBrokerList **broker_list, signed int *broker_count)
 {
   struct stLinkedList *current_broker = (struct stLinkedList *)(void *)0;
   tspFreeBrokerList(*broker_list);
@@ -12755,14 +12755,14 @@ enum anonymous$27 tspCreateBrokerList(struct stTunnel *tunnel_info, struct stBro
   for( ; !(current_broker == ((struct stLinkedList *)NULL)); current_broker = current_broker->next)
     if(!(*broker_count >= 50))
     {
-      enum anonymous$27 return_value_tspAddBrokerToList$1;
-      return_value_tspAddBrokerToList$1=tspAddBrokerToList(broker_list, current_broker->Value, (enum anonymous$29)TSP_REDIRECT_BROKER_TYPE_IPV4, (unsigned int)0);
-      if(!((signed int)return_value_tspAddBrokerToList$1 == TSP_REDIRECT_OK))
+      enum anonymous_27 return_value_tspAddBrokerToList_1;
+      return_value_tspAddBrokerToList_1=tspAddBrokerToList(broker_list, current_broker->Value, (enum anonymous_29)TSP_REDIRECT_BROKER_TYPE_IPV4, (unsigned int)0);
+      if(!((signed int)return_value_tspAddBrokerToList_1 == TSP_REDIRECT_OK))
       {
         Display(1, (enum tSeverityLevel)ELError, "tspCreateBrokerList", "Failed to add a new server address while creating the server redirection list.");
         tspFreeBrokerList(*broker_list);
         *broker_list = (struct stBrokerList *)(void *)0;
-        return (enum anonymous$27)TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST;
+        return (enum anonymous_27)TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST;
       }
 
       else
@@ -12774,20 +12774,20 @@ enum anonymous$27 tspCreateBrokerList(struct stTunnel *tunnel_info, struct stBro
       Display(1, (enum tSeverityLevel)ELError, "tspCreateBrokerList", "Too many entries in the server redirection list than the allowed limit (%u). Discarding.", 50);
       tspFreeBrokerList(*broker_list);
       *broker_list = (struct stBrokerList *)(void *)0;
-      return (enum anonymous$27)TSP_REDIRECT_TOO_MANY_BROKERS;
+      return (enum anonymous_27)TSP_REDIRECT_TOO_MANY_BROKERS;
     }
   current_broker = tunnel_info->broker_redirect_ipv6;
   for( ; !(current_broker == ((struct stLinkedList *)NULL)); current_broker = current_broker->next)
     if(!(*broker_count >= 50))
     {
-      enum anonymous$27 return_value_tspAddBrokerToList$2;
-      return_value_tspAddBrokerToList$2=tspAddBrokerToList(broker_list, current_broker->Value, (enum anonymous$29)TSP_REDIRECT_BROKER_TYPE_IPV6, (unsigned int)0);
-      if(!((signed int)return_value_tspAddBrokerToList$2 == TSP_REDIRECT_OK))
+      enum anonymous_27 return_value_tspAddBrokerToList_2;
+      return_value_tspAddBrokerToList_2=tspAddBrokerToList(broker_list, current_broker->Value, (enum anonymous_29)TSP_REDIRECT_BROKER_TYPE_IPV6, (unsigned int)0);
+      if(!((signed int)return_value_tspAddBrokerToList_2 == TSP_REDIRECT_OK))
       {
         Display(1, (enum tSeverityLevel)ELError, "tspCreateBrokerList", "Failed to add a new server address while creating the server redirection list.");
         tspFreeBrokerList(*broker_list);
         *broker_list = (struct stBrokerList *)(void *)0;
-        return (enum anonymous$27)TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST;
+        return (enum anonymous_27)TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST;
       }
 
       else
@@ -12799,20 +12799,20 @@ enum anonymous$27 tspCreateBrokerList(struct stTunnel *tunnel_info, struct stBro
       Display(1, (enum tSeverityLevel)ELError, "tspCreateBrokerList", "Too many entries in the server redirection list than the allowed limit (%u). Discarding.", 50);
       tspFreeBrokerList(*broker_list);
       *broker_list = (struct stBrokerList *)(void *)0;
-      return (enum anonymous$27)TSP_REDIRECT_TOO_MANY_BROKERS;
+      return (enum anonymous_27)TSP_REDIRECT_TOO_MANY_BROKERS;
     }
   current_broker = tunnel_info->broker_redirect_dn;
   for( ; !(current_broker == ((struct stLinkedList *)NULL)); current_broker = current_broker->next)
     if(!(*broker_count >= 50))
     {
-      enum anonymous$27 return_value_tspAddBrokerToList$3;
-      return_value_tspAddBrokerToList$3=tspAddBrokerToList(broker_list, current_broker->Value, (enum anonymous$29)TSP_REDIRECT_BROKER_TYPE_FQDN, (unsigned int)0);
-      if(!((signed int)return_value_tspAddBrokerToList$3 == TSP_REDIRECT_OK))
+      enum anonymous_27 return_value_tspAddBrokerToList_3;
+      return_value_tspAddBrokerToList_3=tspAddBrokerToList(broker_list, current_broker->Value, (enum anonymous_29)TSP_REDIRECT_BROKER_TYPE_FQDN, (unsigned int)0);
+      if(!((signed int)return_value_tspAddBrokerToList_3 == TSP_REDIRECT_OK))
       {
         Display(1, (enum tSeverityLevel)ELError, "tspCreateBrokerList", "Failed to add a new server address while creating the server redirection list.");
         tspFreeBrokerList(*broker_list);
         *broker_list = (struct stBrokerList *)(void *)0;
-        return (enum anonymous$27)TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST;
+        return (enum anonymous_27)TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST;
       }
 
       else
@@ -12824,21 +12824,21 @@ enum anonymous$27 tspCreateBrokerList(struct stTunnel *tunnel_info, struct stBro
       Display(1, (enum tSeverityLevel)ELError, "tspCreateBrokerList", "Too many entries in the server redirection list than the allowed limit (%u). Discarding.", 50);
       tspFreeBrokerList(*broker_list);
       *broker_list = (struct stBrokerList *)(void *)0;
-      return (enum anonymous$27)TSP_REDIRECT_TOO_MANY_BROKERS;
+      return (enum anonymous_27)TSP_REDIRECT_TOO_MANY_BROKERS;
     }
-  return (enum anonymous$27)TSP_REDIRECT_OK;
+  return (enum anonymous_27)TSP_REDIRECT_OK;
 }
 
 // tspDoEchoRequest
 // file net_echo_request.c line 495
-extern enum anonymous$27 tspDoEchoRequest(char *address, enum anonymous$29 address_type, struct stConf *conf, unsigned int *distance)
+extern enum anonymous_27 tspDoEchoRequest(char *address, enum anonymous_29 address_type, struct stConf *conf, unsigned int *distance)
 {
   struct rttengine_statistics *engine = (struct rttengine_statistics *)(void *)0;
   struct addrinfo *address_info = (struct addrinfo *)(void *)0;
   struct addrinfo *address_info_root = (struct addrinfo *)(void *)0;
   signed int sfd;
-  enum anonymous$38 socket_address_status = (enum anonymous$38)SOCKET_ADDRESS_OK;
-  enum anonymous$27 status = (enum anonymous$27)TSP_REDIRECT_OK;
+  enum anonymous_38 socket_address_status = (enum anonymous_38)SOCKET_ADDRESS_OK;
+  enum anonymous_27 status = (enum anonymous_27)TSP_REDIRECT_OK;
   *distance = (unsigned int)0;
   socket_address_status=getSocketAddress(address, address_type, conf->tunnel_mode, &address_info_root, &address_info);
   if((signed int)socket_address_status == SOCKET_ADDRESS_WRONG_FAMILY)
@@ -12855,7 +12855,7 @@ extern enum anonymous$27 tspDoEchoRequest(char *address, enum anonymous$29 addre
         freeaddrinfo(address_info_root);
 
       Display(1, (enum tSeverityLevel)ELError, "tspDoEchoRequest", "Failed to create an address structure to send an echo request to %s.", address);
-      return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
+      return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
     }
 
     else
@@ -12866,7 +12866,7 @@ extern enum anonymous$27 tspDoEchoRequest(char *address, enum anonymous$29 addre
           freeaddrinfo(address_info_root);
 
         Display(1, (enum tSeverityLevel)ELError, "tspDoEchoRequest", "Failed to resolve %s to an IP address.", address);
-        return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
+        return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
       }
 
   sfd=createConnectedSocket(address_info);
@@ -12878,7 +12878,7 @@ extern enum anonymous$27 tspDoEchoRequest(char *address, enum anonymous$29 addre
 
     destroySocket(sfd);
     Display(1, (enum tSeverityLevel)ELError, "tspDoEchoRequest", "Failed to create a connected socket to send an echo request to %s.", address);
-    return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
+    return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
   }
 
   else
@@ -12892,20 +12892,20 @@ extern enum anonymous$27 tspDoEchoRequest(char *address, enum anonymous$29 addre
       *distance = *distance + (unsigned int)(10 * 1000 * 2);
       destroySocket(sfd);
       Display(1, (enum tSeverityLevel)ELError, "tspDoEchoRequest", "Failed to allocate a stat engine to send an echo request to %s.", address);
-      return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
+      return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
     }
 
     else
     {
-      signed int return_value_rttengine_init$1;
-      return_value_rttengine_init$1=rttengine_init(engine);
-      if(!(return_value_rttengine_init$1 == 1))
+      signed int return_value_rttengine_init_1;
+      return_value_rttengine_init_1=rttengine_init(engine);
+      if(!(return_value_rttengine_init_1 == 1))
       {
         *distance = *distance + (unsigned int)(10 * 1000 * 2);
         destroySocket(sfd);
         free((void *)engine);
         Display(1, (enum tSeverityLevel)ELError, "tspDoEchoRequest", "Failed to initialize a stat engine to send an echo request to %s.", address);
-        return (enum anonymous$27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
+        return (enum anonymous_27)TSP_REDIRECT_ECHO_REQUEST_ERROR;
       }
 
       else
@@ -12930,45 +12930,45 @@ unsigned int tspExtractCapability(char *String)
   char *Token;
   char *Value;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(String);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-  Token = (char *)return_value_malloc$2;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(String);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(return_value_strlen$3 + (unsigned long int)1);
-  Value = (char *)return_value_malloc$4;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(String);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+  Token = (char *)return_value_malloc_2;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(String);
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(return_value_strlen_3 + (unsigned long int)1);
+  Value = (char *)return_value_malloc_4;
   *Value = (char)0;
   *Token = *Value;
   e = String + (signed long int)11;
   s = e;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
   for( ; !(*e == 0); e = e + 1l)
   {
     if((signed int)*e == 32)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)*e == 13 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = (signed int)*e == 13 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = (signed int)*e == 10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_7 = (signed int)*e == 10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
     {
       if(!(s == e))
       {
@@ -12987,9 +12987,9 @@ unsigned int tspExtractCapability(char *String)
         {
           if(!(*Value == 0))
           {
-            unsigned int return_value_tspSetCapability$5;
-            return_value_tspSetCapability$5=tspSetCapability(Token, Value);
-            flags = flags | return_value_tspSetCapability$5;
+            unsigned int return_value_tspSetCapability_5;
+            return_value_tspSetCapability_5=tspSetCapability(Token, Value);
+            flags = flags | return_value_tspSetCapability_5;
             *Token = (char)0;
             *Value = *Token;
           }
@@ -13003,26 +13003,26 @@ unsigned int tspExtractCapability(char *String)
     }
 
     if((signed int)*e == 61)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = (signed int)*e == 32 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_9 = (signed int)*e == 32 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = (signed int)*e == 13 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$10)
-      tmp_if_expr$11 = (_Bool)1;
+      tmp_if_expr_10 = (signed int)*e == 13 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_10)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
-      tmp_if_expr$11 = (signed int)*e == 10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$11)
-      tmp_if_expr$12 = (_Bool)1;
+      tmp_if_expr_11 = (signed int)*e == 10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_11)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
-      tmp_if_expr$12 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_12)
     {
       if(!(e == s))
       {
@@ -13049,11 +13049,11 @@ signed int tspExtractPayload(char *Payload, struct stTunnel *t)
   signed int rc;
   memset((void *)t, 0, sizeof(struct stTunnel) /*200ul*/ );
   Display(3, (enum tSeverityLevel)ELInfo, "tspExtractPayload", "Processing server reply.");
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(Payload, 10);
-  char *return_value___builtin_strchr$2;
-  return_value___builtin_strchr$2=__builtin_strchr(return_value___builtin_strchr$1, 60);
-  p = return_value___builtin_strchr$2;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(Payload, 10);
+  char *return_value___builtin_strchr_2;
+  return_value___builtin_strchr_2=__builtin_strchr(return_value___builtin_strchr_1, 60);
+  p = return_value___builtin_strchr_2;
   if(p == ((char *)NULL))
     return 1;
 
@@ -13077,33 +13077,33 @@ char * tspFormatCapabilities(char *szBuffer, const unsigned long int bufLen, con
   if((128u & cap) == 128u)
   {
     __builtin_strncpy(szBuffer + (signed long int)nWritten, authTab[(signed long int)1], bufLen - nWritten);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(authTab[(signed long int)1]);
-    nWritten = nWritten + return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(authTab[(signed long int)1]);
+    nWritten = nWritten + return_value_strlen_1;
   }
 
   if((64u & cap) == 64u)
   {
     __builtin_strncpy(szBuffer + (signed long int)nWritten, authTab[(signed long int)2], bufLen - nWritten);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(authTab[(signed long int)2]);
-    nWritten = nWritten + return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(authTab[(signed long int)2]);
+    nWritten = nWritten + return_value_strlen_2;
   }
 
   if((16u & cap) == 16u && !((240u & cap) == 240u))
   {
     __builtin_strncpy(szBuffer + (signed long int)nWritten, authTab[(signed long int)3], bufLen - nWritten);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(authTab[(signed long int)3]);
-    nWritten = nWritten + return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(authTab[(signed long int)3]);
+    nWritten = nWritten + return_value_strlen_3;
   }
 
   if((32u & cap) == 32u)
   {
     __builtin_strncpy(szBuffer + (signed long int)nWritten, authTab[(signed long int)4], bufLen - nWritten);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(authTab[(signed long int)4]);
-    nWritten = nWritten + return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(authTab[(signed long int)4]);
+    nWritten = nWritten + return_value_strlen_4;
   }
 
   if(nWritten >= 3ul)
@@ -13123,7 +13123,7 @@ void tspFree(char *var)
 
 // tspFreeBrokerList
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 92
-extern enum anonymous$27 tspFreeBrokerList(struct stBrokerList *broker_list)
+extern enum anonymous_27 tspFreeBrokerList(struct stBrokerList *broker_list)
 {
   struct stBrokerList *next_broker = (struct stBrokerList *)(void *)0;
   for( ; !(broker_list == ((struct stBrokerList *)NULL)); broker_list = next_broker)
@@ -13131,7 +13131,7 @@ extern enum anonymous$27 tspFreeBrokerList(struct stBrokerList *broker_list)
     next_broker = broker_list->next;
     free((void *)broker_list);
   }
-  return (enum anonymous$27)TSP_REDIRECT_OK;
+  return (enum anonymous_27)TSP_REDIRECT_OK;
 }
 
 // tspFreeLinkedList
@@ -13162,9 +13162,9 @@ void tspFreeLinkedList(struct stLinkedList *list)
 void * tspGetBrokerDistance(void *threadarg)
 {
   struct stBrokerTimingThreadArg *arguments = (struct stBrokerTimingThreadArg *)(void *)0;
-  struct stBrokerList *tspGetBrokerDistance$$1$$broker = (struct stBrokerList *)(void *)0;
+  struct stBrokerList *tspGetBrokerDistance__1__broker = (struct stBrokerList *)(void *)0;
   struct stConf *conf = (struct stConf *)(void *)0;
-  enum anonymous$27 status = (enum anonymous$27)TSP_REDIRECT_OK;
+  enum anonymous_27 status = (enum anonymous_27)TSP_REDIRECT_OK;
   unsigned int distance = (unsigned int)0;
   if(threadarg == NULL)
   {
@@ -13175,10 +13175,10 @@ void * tspGetBrokerDistance(void *threadarg)
   else
   {
     arguments = (struct stBrokerTimingThreadArg *)threadarg;
-    tspGetBrokerDistance$$1$$broker = (struct stBrokerList *)arguments->broker;
+    tspGetBrokerDistance__1__broker = (struct stBrokerList *)arguments->broker;
     conf = (struct stConf *)arguments->conf;
-    status=tspDoEchoRequest(tspGetBrokerDistance$$1$$broker->address, tspGetBrokerDistance$$1$$broker->address_type, conf, &distance);
-    tspGetBrokerDistance$$1$$broker->distance = distance;
+    status=tspDoEchoRequest(tspGetBrokerDistance__1__broker->address, tspGetBrokerDistance__1__broker->address_type, conf, &distance);
+    tspGetBrokerDistance__1__broker->distance = distance;
     pthread_exit((void *)status);
     return (void *)status;
   }
@@ -13186,34 +13186,34 @@ void * tspGetBrokerDistance(void *threadarg)
 
 // tspGetBrokerDistances
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 88
-extern enum anonymous$27 tspGetBrokerDistances(struct stBrokerList *broker_list, signed int broker_count, struct stConf *conf)
+extern enum anonymous_27 tspGetBrokerDistances(struct stBrokerList *broker_list, signed int broker_count, struct stConf *conf)
 {
   signed int rc = 0;
   signed int t = 0;
-  enum anonymous$27 status = (enum anonymous$27)TSP_REDIRECT_OK;
+  enum anonymous_27 status = (enum anonymous_27)TSP_REDIRECT_OK;
   void *thread_status = NULL;
   unsigned long int *threads = (unsigned long int *)(void *)0;
   struct stBrokerTimingThreadArg *thread_arguments = (struct stBrokerTimingThreadArg *)(void *)0;
   struct stBrokerList *broker_list_index = (struct stBrokerList *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)broker_count * sizeof(unsigned long int) /*8ul*/ );
-  threads = (unsigned long int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)broker_count * sizeof(unsigned long int) /*8ul*/ );
+  threads = (unsigned long int *)return_value_malloc_1;
   if(threads == ((unsigned long int *)NULL))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspGetBrokerDistances", "Failed to allocate memory for the server timing threads.");
-    return (enum anonymous$27)TSP_REDIRECT_CANT_MALLOC_THREAD_ARRAY;
+    return (enum anonymous_27)TSP_REDIRECT_CANT_MALLOC_THREAD_ARRAY;
   }
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)broker_count * sizeof(struct stBrokerTimingThreadArg) /*16ul*/ );
-    thread_arguments = (struct stBrokerTimingThreadArg *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)broker_count * sizeof(struct stBrokerTimingThreadArg) /*16ul*/ );
+    thread_arguments = (struct stBrokerTimingThreadArg *)return_value_malloc_2;
     if(thread_arguments == ((struct stBrokerTimingThreadArg *)NULL))
     {
       free((void *)threads);
       Display(1, (enum tSeverityLevel)ELError, "tspGetBrokerDistances", "Failed to allocate memory for the server timing thread arguments.");
-      return (enum anonymous$27)TSP_REDIRECT_CANT_MALLOC_THREAD_ARGS;
+      return (enum anonymous_27)TSP_REDIRECT_CANT_MALLOC_THREAD_ARGS;
     }
 
     else
@@ -13231,7 +13231,7 @@ extern enum anonymous$27 tspGetBrokerDistances(struct stBrokerList *broker_list,
           free((void *)threads);
           free((void *)thread_arguments);
           Display(1, (enum tSeverityLevel)ELError, "tspGetBrokerDistances", "Failed to create timing thread for %s.", (const void *)broker_list_index->address);
-          return (enum anonymous$27)TSP_REDIRECT_CANT_CREATE_THREAD;
+          return (enum anonymous_27)TSP_REDIRECT_CANT_CREATE_THREAD;
         }
 
         broker_list_index = broker_list_index->next;
@@ -13247,10 +13247,10 @@ extern enum anonymous$27 tspGetBrokerDistances(struct stBrokerList *broker_list,
           free((void *)threads);
           free((void *)thread_arguments);
           Display(1, (enum tSeverityLevel)ELError, "tspGetBrokerDistances", "Failed to wait for %s timing thread to complete.", (const void *)broker_list_index->address);
-          return (enum anonymous$27)TSP_REDIRECT_CANT_WAIT_FOR_THREAD;
+          return (enum anonymous_27)TSP_REDIRECT_CANT_WAIT_FOR_THREAD;
         }
 
-        status = (enum anonymous$27)thread_status;
+        status = (enum anonymous_27)thread_status;
         if((signed int)status == TSP_REDIRECT_OK)
           Display(3, (enum tSeverityLevel)ELInfo, "tspGetBrokerDistances", "server timing for %s completed successfully (%u ms).", (const void *)broker_list_index->address, broker_list_index->distance);
 
@@ -13264,7 +13264,7 @@ extern enum anonymous$27 tspGetBrokerDistances(struct stBrokerList *broker_list,
       }
       free((void *)threads);
       free((void *)thread_arguments);
-      return (enum anonymous$27)TSP_REDIRECT_OK;
+      return (enum anonymous_27)TSP_REDIRECT_OK;
     }
   }
 }
@@ -13279,30 +13279,30 @@ unsigned int tspGetCapabilities(signed int socket, struct net_tools *nt, unsigne
   unsigned int status = (unsigned int)(0 | 4 << 16);
   memset((void *)datain, 0, sizeof(char [4096l]) /*4096ul*/ );
   snprintf(dataout, sizeof(char [256l]) /*256ul*/ , "VERSION=%s\r\n", TSPProtoVerStr[(signed long int)version_index]);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(dataout);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(dataout);
   signed int return_value;
-  return_value=nt->netsendrecv(socket, dataout, (signed int)(unsigned int)return_value_strlen$1, datain, (signed int)sizeof(char [4096l]) /*4096ul*/ );
+  return_value=nt->netsendrecv(socket, dataout, (signed int)(unsigned int)return_value_strlen_1, datain, (signed int)sizeof(char [4096l]) /*4096ul*/ );
   if(return_value == -1)
     return (unsigned int)(10 | 4 << 16);
 
   else
   {
-    signed int return_value_memcmp$5;
-    return_value_memcmp$5=memcmp((const void *)"CAPABILITY ", (const void *)datain, (unsigned long int)11);
-    if(return_value_memcmp$5 == 0)
+    signed int return_value_memcmp_5;
+    return_value_memcmp_5=memcmp((const void *)"CAPABILITY ", (const void *)datain, (unsigned long int)11);
+    if(return_value_memcmp_5 == 0)
       *capability=tspExtractCapability(datain);
 
     else
     {
       tsp_status=tspGetStatusCode(datain);
-      signed int return_value_tspIsRedirectStatus$4;
-      return_value_tspIsRedirectStatus$4=tspIsRedirectStatus(tsp_status);
-      if(!(return_value_tspIsRedirectStatus$4 == 0))
+      signed int return_value_tspIsRedirectStatus_4;
+      return_value_tspIsRedirectStatus_4=tspIsRedirectStatus(tsp_status);
+      if(!(return_value_tspIsRedirectStatus_4 == 0))
       {
-        enum anonymous$27 return_value_tspHandleRedirect$2;
-        return_value_tspHandleRedirect$2=tspHandleRedirect(datain, conf, broker_list);
-        if((signed int)return_value_tspHandleRedirect$2 == TSP_REDIRECT_OK)
+        enum anonymous_27 return_value_tspHandleRedirect_2;
+        return_value_tspHandleRedirect_2=tspHandleRedirect(datain, conf, broker_list);
+        if((signed int)return_value_tspHandleRedirect_2 == TSP_REDIRECT_OK)
           status = (unsigned int)(57345 | 4 << 16);
 
         else
@@ -13319,9 +13319,9 @@ unsigned int tspGetCapabilities(signed int socket, struct net_tools *nt, unsigne
           status = (unsigned int)(11 | 4 << 16);
         }
 
-        const char *return_value_tspGetTspStatusStr$3;
-        return_value_tspGetTspStatusStr$3=tspGetTspStatusStr(tsp_status);
-        Display(1, (enum tSeverityLevel)ELError, "tspGetCapabilities", "A TSP error occurred. Status: %d. Info: %s", tsp_status, return_value_tspGetTspStatusStr$3);
+        const char *return_value_tspGetTspStatusStr_3;
+        return_value_tspGetTspStatusStr_3=tspGetTspStatusStr(tsp_status);
+        Display(1, (enum tSeverityLevel)ELError, "tspGetCapabilities", "A TSP error occurred. Status: %d. Info: %s", tsp_status, return_value_tspGetTspStatusStr_3);
         status = (unsigned int)(13 | 4 << 16);
         Display(1, (enum tSeverityLevel)ELError, "tspGetCapabilities", "Failed to retrieve TSP capabilities.");
       }
@@ -13353,11 +13353,11 @@ extern char * tspGetLocalAddress(signed int socket, char *buffer, signed int siz
   struct sockaddr_in *addr_v4 = (struct sockaddr_in *)&addr;
   struct sockaddr_in6 *addr_v6 = (struct sockaddr_in6 *)&addr;
   unsigned int len = (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ ;
-  signed int return_value_getsockname$1;
-  return_value_getsockname$1=getsockname(socket, (struct sockaddr *)&addr, &len);
-  const char *return_value_inet_ntop$2;
-  const char *return_value_inet_ntop$3;
-  if(!(return_value_getsockname$1 >= 0))
+  signed int return_value_getsockname_1;
+  return_value_getsockname_1=getsockname(socket, (struct sockaddr *)&addr, &len);
+  const char *return_value_inet_ntop_2;
+  const char *return_value_inet_ntop_3;
+  if(!(return_value_getsockname_1 >= 0))
   {
     Display(1, (enum tSeverityLevel)ELError, "TryServer", "Failed to find source IP address.");
     return (char *)(void *)0;
@@ -13366,14 +13366,14 @@ extern char * tspGetLocalAddress(signed int socket, char *buffer, signed int siz
   else
     if((signed int)addr.sin6_family == 10)
     {
-      return_value_inet_ntop$2=inet_ntop(10, (const void *)&addr_v6->sin6_addr, buffer, (unsigned int)size);
-      return (char *)return_value_inet_ntop$2;
+      return_value_inet_ntop_2=inet_ntop(10, (const void *)&addr_v6->sin6_addr, buffer, (unsigned int)size);
+      return (char *)return_value_inet_ntop_2;
     }
 
     else
     {
-      return_value_inet_ntop$3=inet_ntop(2, (const void *)&addr_v4->sin_addr, buffer, (unsigned int)size);
-      return (char *)return_value_inet_ntop$3;
+      return_value_inet_ntop_3=inet_ntop(2, (const void *)&addr_v4->sin_addr, buffer, (unsigned int)size);
+      return (char *)return_value_inet_ntop_3;
     }
 }
 
@@ -13390,17 +13390,17 @@ extern void tspGetOSInfo(const unsigned long int len, char *buf)
 // file tsp_client.c line 147
 signed int tspGetStatusCode(char *payload)
 {
-  signed int tmp_if_expr$2;
-  signed int return_value_atoi$1;
+  signed int tmp_if_expr_2;
+  signed int return_value_atoi_1;
   if(!(payload == ((char *)NULL)))
   {
-    return_value_atoi$1=atoi$link1(payload);
-    tmp_if_expr$2 = return_value_atoi$1;
+    return_value_atoi_1=atoi_link1(payload);
+    tmp_if_expr_2 = return_value_atoi_1;
   }
 
   else
-    tmp_if_expr$2 = 0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = 0;
+  return tmp_if_expr_2;
 }
 
 // tspGetTspStatusStr
@@ -13419,16 +13419,16 @@ const char * tspGetTspStatusStr(signed int tsp_status)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_client.h line 63
 extern signed int tspGoDaemon(struct stConf *c)
 {
-  signed int return_value_getppid$2;
+  signed int return_value_getppid_2;
   if(c->nodaemon == /*enum*/FALSE)
   {
-    return_value_getppid$2=getppid();
-    if(!(return_value_getppid$2 == 1))
+    return_value_getppid_2=getppid();
+    if(!(return_value_getppid_2 == 1))
     {
       Display(3, (enum tSeverityLevel)ELInfo, "tspGoDaemon", "Going daemon.");
-      signed int return_value_daemon$1;
-      return_value_daemon$1=daemon(1, 0);
-      if(return_value_daemon$1 == -1)
+      signed int return_value_daemon_1;
+      return_value_daemon_1=daemon(1, 0);
+      if(return_value_daemon_1 == -1)
       {
         Display(1, (enum tSeverityLevel)ELError, "tspGoDaemon", "Failed to fork.");
         return -1;
@@ -13443,54 +13443,54 @@ extern signed int tspGoDaemon(struct stConf *c)
 
 // tspHandleRedirect
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 93
-extern enum anonymous$27 tspHandleRedirect(char *payload, struct stConf *conf, struct stBrokerList **broker_list)
+extern enum anonymous_27 tspHandleRedirect(char *payload, struct stConf *conf, struct stBrokerList **broker_list)
 {
   struct stTunnel tunnel_info;
   signed int broker_count = 0;
   tspLogReceivedRedirection(payload, conf);
-  signed int return_value_tspExtractPayload$1;
-  return_value_tspExtractPayload$1=tspExtractPayload(payload, &tunnel_info);
-  if(!(return_value_tspExtractPayload$1 == 0))
+  signed int return_value_tspExtractPayload_1;
+  return_value_tspExtractPayload_1=tspExtractPayload(payload, &tunnel_info);
+  if(!(return_value_tspExtractPayload_1 == 0))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspHandleRedirect", "Failed to parse the XML payload while handling server redirection.");
-    return (enum anonymous$27)TSP_REDIRECT_CANT_EXTRACT_PAYLOAD;
+    return (enum anonymous_27)TSP_REDIRECT_CANT_EXTRACT_PAYLOAD;
   }
 
   else
   {
-    enum anonymous$27 return_value_tspCreateBrokerList$2;
-    return_value_tspCreateBrokerList$2=tspCreateBrokerList(&tunnel_info, broker_list, &broker_count);
-    if(!((signed int)return_value_tspCreateBrokerList$2 == TSP_REDIRECT_OK))
+    enum anonymous_27 return_value_tspCreateBrokerList_2;
+    return_value_tspCreateBrokerList_2=tspCreateBrokerList(&tunnel_info, broker_list, &broker_count);
+    if(!((signed int)return_value_tspCreateBrokerList_2 == TSP_REDIRECT_OK))
     {
       Display(1, (enum tSeverityLevel)ELError, "tspHandleRedirect", "Failed to create the server redirection list.");
-      return (enum anonymous$27)TSP_REDIRECT_CANT_CREATE_LIST;
+      return (enum anonymous_27)TSP_REDIRECT_CANT_CREATE_LIST;
     }
 
     else
     {
-      enum anonymous$27 return_value_tspLogRedirectionList$3;
-      return_value_tspLogRedirectionList$3=tspLogRedirectionList(*broker_list, 0);
-      if(!((signed int)return_value_tspLogRedirectionList$3 == TSP_REDIRECT_OK))
+      enum anonymous_27 return_value_tspLogRedirectionList_3;
+      return_value_tspLogRedirectionList_3=tspLogRedirectionList(*broker_list, 0);
+      if(!((signed int)return_value_tspLogRedirectionList_3 == TSP_REDIRECT_OK))
         Display(1, (enum tSeverityLevel)ELError, "tspHandleRedirect", "Failed to log server redirection details.");
 
       if(broker_count >= 2)
       {
-        enum anonymous$27 return_value_tspSortBrokerList$4;
-        return_value_tspSortBrokerList$4=tspSortBrokerList(broker_list, conf, broker_count);
-        if(!((signed int)return_value_tspSortBrokerList$4 == TSP_REDIRECT_OK))
+        enum anonymous_27 return_value_tspSortBrokerList_4;
+        return_value_tspSortBrokerList_4=tspSortBrokerList(broker_list, conf, broker_count);
+        if(!((signed int)return_value_tspSortBrokerList_4 == TSP_REDIRECT_OK))
         {
           Display(1, (enum tSeverityLevel)ELError, "tspHandleRedirect", "Failed to sort the server redirection list.");
-          return (enum anonymous$27)TSP_REDIRECT_CANT_SORT_LIST;
+          return (enum anonymous_27)TSP_REDIRECT_CANT_SORT_LIST;
         }
 
-        enum anonymous$27 return_value_tspLogRedirectionList$5;
-        return_value_tspLogRedirectionList$5=tspLogRedirectionList(*broker_list, 1);
-        if(!((signed int)return_value_tspLogRedirectionList$5 == TSP_REDIRECT_OK))
+        enum anonymous_27 return_value_tspLogRedirectionList_5;
+        return_value_tspLogRedirectionList_5=tspLogRedirectionList(*broker_list, 1);
+        if(!((signed int)return_value_tspLogRedirectionList_5 == TSP_REDIRECT_OK))
           Display(1, (enum tSeverityLevel)ELError, "tspHandleRedirect", "Failed to log server redirection details.");
 
-        enum anonymous$27 return_value_tspWriteBrokerListToFile$6;
-        return_value_tspWriteBrokerListToFile$6=tspWriteBrokerListToFile(conf->broker_list_file, *broker_list);
-        if(!((signed int)return_value_tspWriteBrokerListToFile$6 == TSP_REDIRECT_OK))
+        enum anonymous_27 return_value_tspWriteBrokerListToFile_6;
+        return_value_tspWriteBrokerListToFile_6=tspWriteBrokerListToFile(conf->broker_list_file, *broker_list);
+        if(!((signed int)return_value_tspWriteBrokerListToFile_6 == TSP_REDIRECT_OK))
           Display(1, (enum tSeverityLevel)ELError, "tspHandleRedirect", "Failed to write the server redirection list to file.");
 
       }
@@ -13498,11 +13498,11 @@ extern enum anonymous$27 tspHandleRedirect(char *payload, struct stConf *conf, s
       if(broker_count == 0)
       {
         Display(1, (enum tSeverityLevel)ELError, "tspHandleRedirect", "Received an empty server address list while handling server redirection.");
-        return (enum anonymous$27)TSP_REDIRECT_EMPTY_BROKER_LIST;
+        return (enum anonymous_27)TSP_REDIRECT_EMPTY_BROKER_LIST;
       }
 
       else
-        return (enum anonymous$27)TSP_REDIRECT_OK;
+        return (enum anonymous_27)TSP_REDIRECT_OK;
     }
   }
 }
@@ -13514,13 +13514,13 @@ unsigned int tspInitialize(signed int argc, char **argv, struct stConf *pConf)
   struct stConf CmdLine;
   unsigned int status = (unsigned int)(0 | 0 << 16);
   const char *cszTemplDir = "template";
-  pConf->syslog = (enum anonymous$0)FALSE;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup("default_route");
-  pConf->protocol = return_value___strdup$1;
-  char *return_value___strdup$2;
-  return_value___strdup$2=__strdup("");
-  pConf->routing_info = return_value___strdup$2;
+  pConf->syslog = (enum anonymous_0)FALSE;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup("default_route");
+  pConf->protocol = return_value___strdup_1;
+  char *return_value___strdup_2;
+  return_value___strdup_2=__strdup("");
+  pConf->routing_info = return_value___strdup_2;
   memset((void *)&CmdLine, 0, sizeof(struct stConf) /*360ul*/ );
   if(argc >= 2)
     ParseArguments(argc, argv, &CmdLine);
@@ -13543,18 +13543,18 @@ unsigned int tspInitialize(signed int argc, char **argv, struct stConf *pConf)
     pConf->boot_mode = CmdLine.boot_mode;
     pConf->nodaemon = CmdLine.nodaemon;
     pConf->no_questions = CmdLine.no_questions;
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen(pConf->tsp_dir);
-    if(!(return_value_strlen$9 == 0ul))
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen(pConf->tsp_dir);
+    if(!(return_value_strlen_9 == 0ul))
     {
       TspHomeDir = pConf->tsp_dir;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(pConf->tsp_dir);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(cszTemplDir);
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc((unsigned long int)(return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)2));
-      ScriptDir = (char *)return_value_malloc$5;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(pConf->tsp_dir);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(cszTemplDir);
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc((unsigned long int)(return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)2));
+      ScriptDir = (char *)return_value_malloc_5;
       if(ScriptDir == ((char *)NULL))
       {
         DirectErrorMessage("Failed memory allocation.");
@@ -13566,13 +13566,13 @@ unsigned int tspInitialize(signed int argc, char **argv, struct stConf *pConf)
 
     else
     {
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(TspHomeDir);
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(cszTemplDir);
-      void *return_value_malloc$8;
-      return_value_malloc$8=malloc((unsigned long int)(return_value_strlen$6 + return_value_strlen$7 + (unsigned long int)2));
-      ScriptDir = (char *)return_value_malloc$8;
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(TspHomeDir);
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(cszTemplDir);
+      void *return_value_malloc_8;
+      return_value_malloc_8=malloc((unsigned long int)(return_value_strlen_6 + return_value_strlen_7 + (unsigned long int)2));
+      ScriptDir = (char *)return_value_malloc_8;
       if(ScriptDir == ((char *)NULL))
       {
         DirectErrorMessage("Failed memory allocation.");
@@ -13587,7 +13587,7 @@ unsigned int tspInitialize(signed int argc, char **argv, struct stConf *pConf)
 
 // tspInsertInBrokerList
 // file tsp_redirect.c line 246
-enum anonymous$27 tspInsertInBrokerList(struct stBrokerList *new_element, struct stBrokerList **sorted_list)
+enum anonymous_27 tspInsertInBrokerList(struct stBrokerList *new_element, struct stBrokerList **sorted_list)
 {
   struct stBrokerList *compared_broker = (struct stBrokerList *)(void *)0;
   struct stBrokerList *precedent_broker = (struct stBrokerList *)(void *)0;
@@ -13611,7 +13611,7 @@ enum anonymous$27 tspInsertInBrokerList(struct stBrokerList *new_element, struct
     else
       *sorted_list = new_element;
   }
-  return (enum anonymous$27)TSP_REDIRECT_OK;
+  return (enum anonymous_27)TSP_REDIRECT_OK;
 }
 
 // tspIsRedirectStatus
@@ -13648,61 +13648,61 @@ signed long int tspLeaseGetExpTime(const signed long int tun_lifetime)
 void tspLogOSInfo(void)
 {
   char bufOSInfo[256l];
-  char *return_value_tsp_get_version$1;
-  return_value_tsp_get_version$1=tsp_get_version();
-  Display(1, (enum tSeverityLevel)ELInfo, "tspLogOSInfo", "%s", return_value_tsp_get_version$1);
+  char *return_value_tsp_get_version_1;
+  return_value_tsp_get_version_1=tsp_get_version();
+  Display(1, (enum tSeverityLevel)ELInfo, "tspLogOSInfo", "%s", return_value_tsp_get_version_1);
   tspGetOSInfo(sizeof(char [256l]) /*256ul*/ , bufOSInfo);
   Display(1, (enum tSeverityLevel)ELInfo, "tspLogOSInfo", "%s", (const void *)bufOSInfo);
 }
 
 // tspLogReceivedRedirection
 // file tsp_redirect.c line 331
-enum anonymous$27 tspLogReceivedRedirection(char *payload, struct stConf *conf)
+enum anonymous_27 tspLogReceivedRedirection(char *payload, struct stConf *conf)
 {
   char status[1024l];
   memset((void *)status, 0, sizeof(char [1024l]) /*1024ul*/ );
   sscanf(payload, "%[^\n]", (const void *)status);
   Display(1, (enum tSeverityLevel)ELInfo, "tspLogReceivedRedirection", "Received a TSP redirection message from server %s (%s).", conf->server, (const void *)status);
-  return (enum anonymous$27)TSP_REDIRECT_OK;
+  return (enum anonymous_27)TSP_REDIRECT_OK;
 }
 
 // tspLogRedirectionList
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 91
-extern enum anonymous$27 tspLogRedirectionList(struct stBrokerList *broker_list, signed int sorted)
+extern enum anonymous_27 tspLogRedirectionList(struct stBrokerList *broker_list, signed int sorted)
 {
   char broker_list_string[4096l];
   char *index = broker_list_string;
   signed int first_broker = 1;
   unsigned long int space_left = (unsigned long int)(4096 - 1);
   unsigned long int space_needed = (unsigned long int)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen("[ ");
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(", ");
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen("...");
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(" ]");
-  space_left = space_left - (return_value_strlen$1 + return_value_strlen$2 + return_value_strlen$3 + return_value_strlen$4);
-  signed int return_value_sprintf$5;
-  return_value_sprintf$5=sprintf(index, "%s", (const void *)"[ ");
-  index = index + (signed long int)return_value_sprintf$5;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen("[ ");
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(", ");
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen("...");
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(" ]");
+  space_left = space_left - (return_value_strlen_1 + return_value_strlen_2 + return_value_strlen_3 + return_value_strlen_4);
+  signed int return_value_sprintf_5;
+  return_value_sprintf_5=sprintf(index, "%s", (const void *)"[ ");
+  index = index + (signed long int)return_value_sprintf_5;
   for( ; !(broker_list == ((struct stBrokerList *)NULL)); broker_list = broker_list->next)
     if(!(first_broker == 0))
     {
       space_needed=strlen(broker_list->address);
       if(space_left >= space_needed)
       {
-        signed int return_value_sprintf$6;
-        return_value_sprintf$6=sprintf(index, "%s", (const void *)broker_list->address);
-        index = index + (signed long int)return_value_sprintf$6;
+        signed int return_value_sprintf_6;
+        return_value_sprintf_6=sprintf(index, "%s", (const void *)broker_list->address);
+        index = index + (signed long int)return_value_sprintf_6;
       }
 
       else
       {
-        signed int return_value_sprintf$7;
-        return_value_sprintf$7=sprintf(index, "%s", (const void *)"...");
-        index = index + (signed long int)return_value_sprintf$7;
+        signed int return_value_sprintf_7;
+        return_value_sprintf_7=sprintf(index, "%s", (const void *)"...");
+        index = index + (signed long int)return_value_sprintf_7;
         break;
       }
       first_broker = 0;
@@ -13710,35 +13710,35 @@ extern enum anonymous$27 tspLogRedirectionList(struct stBrokerList *broker_list,
 
     else
     {
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(", ");
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(broker_list->address);
-      space_needed = return_value_strlen$8 + return_value_strlen$9;
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(", ");
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(broker_list->address);
+      space_needed = return_value_strlen_8 + return_value_strlen_9;
       if(space_left >= space_needed)
       {
-        signed int return_value_sprintf$10;
-        return_value_sprintf$10=sprintf(index, "%s%s", (const void *)", ", (const void *)broker_list->address);
-        index = index + (signed long int)return_value_sprintf$10;
+        signed int return_value_sprintf_10;
+        return_value_sprintf_10=sprintf(index, "%s%s", (const void *)", ", (const void *)broker_list->address);
+        index = index + (signed long int)return_value_sprintf_10;
       }
 
       else
       {
-        signed int return_value_sprintf$11;
-        return_value_sprintf$11=sprintf(index, "%s%s", (const void *)", ", (const void *)"...");
-        index = index + (signed long int)return_value_sprintf$11;
+        signed int return_value_sprintf_11;
+        return_value_sprintf_11=sprintf(index, "%s%s", (const void *)", ", (const void *)"...");
+        index = index + (signed long int)return_value_sprintf_11;
         break;
       }
     }
-  signed int return_value_sprintf$12;
-  return_value_sprintf$12=sprintf(index, "%s", (const void *)" ]");
-  index = index + (signed long int)return_value_sprintf$12;
+  signed int return_value_sprintf_12;
+  return_value_sprintf_12=sprintf(index, "%s", (const void *)" ]");
+  index = index + (signed long int)return_value_sprintf_12;
   if(!(sorted == 0))
     Display(1, (enum tSeverityLevel)ELInfo, "tspLogRedirection", "The optimized server redirection list is %s.", (const void *)broker_list_string);
 
   else
     Display(1, (enum tSeverityLevel)ELInfo, "tspLogRedirection", "The server redirection list is %s.", (const void *)broker_list_string);
-  return (enum anonymous$27)TSP_REDIRECT_OK;
+  return (enum anonymous_27)TSP_REDIRECT_OK;
 }
 
 // tspMain
@@ -13752,29 +13752,29 @@ signed int tspMain(signed int argc, char **argv)
   signed int read_last_server = 0;
   char original_server[255l];
   char last_server[255l];
-  enum anonymous$27 last_server_status = (enum anonymous$27)TSP_REDIRECT_OK;
+  enum anonymous_27 last_server_status = (enum anonymous_27)TSP_REDIRECT_OK;
   unsigned int status;
   signed int loop_delay;
-  gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDIDLE;
+  gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDIDLE;
   gStatusInfo.nStatus = (signed int)0x00000000;
   memset((void *)&c, 0, sizeof(struct stConf) /*360ul*/ );
   status=tspInitialize(argc, argv, &c);
-  signed int return_value_InitLogSystem$1;
-  signed int return_value_tspGoDaemon$2;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$4;
-  char *return_value___strdup$3;
-  signed int tmp_post$12;
-  signed int return_value_tspCheckForStopOrWait$13;
-  unsigned int tmp_post$14;
-  signed int return_value_tspCheckForStopOrWait$15;
+  signed int return_value_InitLogSystem_1;
+  signed int return_value_tspGoDaemon_2;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_4;
+  char *return_value___strdup_3;
+  signed int tmp_post_12;
+  signed int return_value_tspCheckForStopOrWait_13;
+  unsigned int tmp_post_14;
+  signed int return_value_tspCheckForStopOrWait_15;
   if(!((65535u & status) == 0u))
     gStatusInfo.nStatus = (signed int)0x00000017;
 
   else
   {
-    return_value_InitLogSystem$1=InitLogSystem(&c);
-    if(!(return_value_InitLogSystem$1 == 0))
+    return_value_InitLogSystem_1=InitLogSystem(&c);
+    if(!(return_value_InitLogSystem_1 == 0))
     {
       status = (unsigned int)(6 | 1 << 16);
       gStatusInfo.nStatus = (signed int)0x00000017;
@@ -13784,20 +13784,20 @@ signed int tspMain(signed int argc, char **argv)
     {
       log_display_ok = 1;
       tspLogOSInfo();
-      return_value_tspGoDaemon$2=tspGoDaemon(&c);
-      if(return_value_tspGoDaemon$2 == 0)
+      return_value_tspGoDaemon_2=tspGoDaemon(&c);
+      if(return_value_tspGoDaemon_2 == 0)
       {
         gszBrokerListFile = c.broker_list_file;
         strcpy(original_server, c.server);
         if((signed int)c.always_use_same_server == TRUE)
         {
-          return_value_strlen$4=strlen(c.last_server_file);
-          tmp_if_expr$5 = (unsigned int)return_value_strlen$4 > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_4=strlen(c.last_server_file);
+          tmp_if_expr_5 = (unsigned int)return_value_strlen_4 > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
           last_server_status=tspReadLastServerFromFile(c.last_server_file, last_server);
           switch((signed int)last_server_status)
@@ -13805,8 +13805,8 @@ signed int tspMain(signed int argc, char **argv)
             case TSP_REDIRECT_OK:
             {
               free((void *)c.server);
-              return_value___strdup$3=__strdup(last_server);
-              c.server = return_value___strdup$3;
+              return_value___strdup_3=__strdup(last_server);
+              c.server = return_value___strdup_3;
               read_last_server = 1;
               trying_original_server = 0;
               Display(2, (enum tSeverityLevel)ELInfo, "tspMain", "Trying last server address %s.", (const void *)last_server);
@@ -13847,16 +13847,16 @@ signed int tspMain(signed int argc, char **argv)
           signed int quick_cycle = 0;
           struct stBrokerList *current_broker_in_list = (struct stBrokerList *)(void *)0;
           signed int trying_broker_list = 0;
-          enum anonymous$27 broker_list_status = (enum anonymous$27)TSP_REDIRECT_OK;
+          enum anonymous_27 broker_list_status = (enum anonymous_27)TSP_REDIRECT_OK;
           unsigned short int effective_retry_delay;
           unsigned char consec_retry = (unsigned char)0;
           memset((void *)nt, 0, sizeof(struct net_tools [5l]) /*280ul*/ );
           InitNetToolsArray(nt);
           while(!(connected == 0))
           {
-            signed int return_value_tspCheckForStopOrWait$6;
-            return_value_tspCheckForStopOrWait$6=tspCheckForStopOrWait((const unsigned int)0);
-            if(!(return_value_tspCheckForStopOrWait$6 == 0))
+            signed int return_value_tspCheckForStopOrWait_6;
+            return_value_tspCheckForStopOrWait_6=tspCheckForStopOrWait((const unsigned int)0);
+            if(!(return_value_tspCheckForStopOrWait_6 == 0))
               goto endtspc;
 
             if(!(gStatusInfo.nStatus == 0x00000000) && !((signed int)gStatusInfo.eStatus == GOGOC_CLISTAT__DISCONNECTEDIDLE))
@@ -13952,7 +13952,7 @@ signed int tspMain(signed int argc, char **argv)
                 {
                   case (unsigned int)0:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDIDLE;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDIDLE;
                     gStatusInfo.nStatus = (signed int)0x00000000;
                     connected = 0;
                     goto __CPROVER_DUMP_L85;
@@ -13960,12 +13960,12 @@ signed int tspMain(signed int argc, char **argv)
                   case (unsigned int)21:
                   {
                     Display(1, (enum tSeverityLevel)ELError, "tspMain", "General timeout detected.");
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x00000024;
                     consec_retry = (unsigned char)0;
                     if((signed int)c.auto_retry_connect == FALSE)
                     {
-                      gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDNORETRY;
+                      gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDNORETRY;
                       connected = 0;
                       goto __CPROVER_DUMP_L85;
                     }
@@ -13974,35 +13974,35 @@ signed int tspMain(signed int argc, char **argv)
                   }
                   case (unsigned int)16:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x00000021;
                     connected = 0;
                     goto __CPROVER_DUMP_L85;
                   }
                   case (unsigned int)17:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x00000020;
                     connected = 0;
                     goto __CPROVER_DUMP_L85;
                   }
                   case (unsigned int)18:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x00000023;
                     connected = 0;
                     goto __CPROVER_DUMP_L85;
                   }
                   case (unsigned int)22:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDIDLE;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDIDLE;
                     gStatusInfo.nStatus = (signed int)0x00000027;
                     Display(1, (enum tSeverityLevel)ELWarning, "tspMain", "Tunnel allocation lease expired. Sending back TSP request.");
                     goto __CPROVER_DUMP_L85;
                   }
                   case (unsigned int)11:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x0000001D;
                     tsp_version_fallback = 1;
                     if(version_index == 2)
@@ -14016,7 +14016,7 @@ signed int tspMain(signed int argc, char **argv)
                   }
                   case (unsigned int)10:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x00000019;
                     consec_retry = (unsigned char)0;
                     if(!(quick_cycle == 0))
@@ -14029,7 +14029,7 @@ signed int tspMain(signed int argc, char **argv)
                   }
                   case (unsigned int)12:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x0000002A;
                     effective_retry_delay = (unsigned short int)c.retry_delay;
                     consec_retry = (unsigned char)1;
@@ -14037,7 +14037,7 @@ signed int tspMain(signed int argc, char **argv)
                   }
                   case (unsigned int)13:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x0000001E;
                     connected = 0;
                     goto __CPROVER_DUMP_L85;
@@ -14065,15 +14065,15 @@ signed int tspMain(signed int argc, char **argv)
 
                     effective_retry_delay = (unsigned short int)c.retry_delay;
                     consec_retry = (unsigned char)1;
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x0000001A;
                     if(trying_original_server == 1)
                     {
                       tspFreeBrokerList(broker_list);
                       broker_list = (struct stBrokerList *)(void *)0;
-                      unsigned long int return_value_strlen$8;
-                      return_value_strlen$8=strlen(c.broker_list_file);
-                      if((unsigned int)return_value_strlen$8 >= 1u)
+                      unsigned long int return_value_strlen_8;
+                      return_value_strlen_8=strlen(c.broker_list_file);
+                      if((unsigned int)return_value_strlen_8 >= 1u)
                       {
                         Display(2, (enum tSeverityLevel)ELInfo, "tspMain", "Trying to read the server redirection list from broker_list file %s.", c.broker_list_file);
                         broker_list_status=tspReadBrokerListFromFile(c.broker_list_file, &broker_list);
@@ -14094,9 +14094,9 @@ signed int tspMain(signed int argc, char **argv)
                               trying_broker_list = 1;
                               trying_original_server = 0;
                               current_broker_in_list = broker_list;
-                              signed int return_value_FormatBrokerListAddr$7;
-                              return_value_FormatBrokerListAddr$7=FormatBrokerListAddr(current_broker_in_list, &c.server);
-                              if(!(return_value_FormatBrokerListAddr$7 == 0))
+                              signed int return_value_FormatBrokerListAddr_7;
+                              return_value_FormatBrokerListAddr_7=FormatBrokerListAddr(current_broker_in_list, &c.server);
+                              if(!(return_value_FormatBrokerListAddr_7 == 0))
                               {
                                 tspFreeBrokerList(broker_list);
                                 broker_list = (struct stBrokerList *)(void *)0;
@@ -14159,18 +14159,18 @@ signed int tspMain(signed int argc, char **argv)
                         {
                           Display(2, (enum tSeverityLevel)ELInfo, "tspMain", "Reached the end of the server redirection list.");
                           free((void *)c.server);
-                          char *return_value___strdup$9;
-                          return_value___strdup$9=__strdup(original_server);
-                          c.server = return_value___strdup$9;
+                          char *return_value___strdup_9;
+                          return_value___strdup_9=__strdup(original_server);
+                          c.server = return_value___strdup_9;
                           cycle = 0;
                           trying_original_server = 1;
                           break;
                         }
 
                         current_broker_in_list = current_broker_in_list->next;
-                        signed int return_value_FormatBrokerListAddr$10;
-                        return_value_FormatBrokerListAddr$10=FormatBrokerListAddr(current_broker_in_list, &c.server);
-                        if(!(return_value_FormatBrokerListAddr$10 == 0))
+                        signed int return_value_FormatBrokerListAddr_10;
+                        return_value_FormatBrokerListAddr_10=FormatBrokerListAddr(current_broker_in_list, &c.server);
+                        if(!(return_value_FormatBrokerListAddr_10 == 0))
                         {
                           tspFreeBrokerList(broker_list);
                           broker_list = (struct stBrokerList *)(void *)0;
@@ -14189,7 +14189,7 @@ signed int tspMain(signed int argc, char **argv)
                   }
                   case (unsigned int)57345:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDIDLE;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDIDLE;
                     gStatusInfo.nStatus = (signed int)0x0000001B;
                     if(!(broker_list == ((struct stBrokerList *)NULL)))
                     {
@@ -14197,11 +14197,11 @@ signed int tspMain(signed int argc, char **argv)
                       trying_original_server = 0;
                       current_broker_in_list = broker_list;
                       cycle = 0;
-                      signed int return_value_FormatBrokerListAddr$11;
-                      return_value_FormatBrokerListAddr$11=FormatBrokerListAddr(current_broker_in_list, &c.server);
-                      if(!(return_value_FormatBrokerListAddr$11 == 0))
+                      signed int return_value_FormatBrokerListAddr_11;
+                      return_value_FormatBrokerListAddr_11=FormatBrokerListAddr(current_broker_in_list, &c.server);
+                      if(!(return_value_FormatBrokerListAddr_11 == 0))
                       {
-                        gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                        gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                         gStatusInfo.nStatus = (signed int)0x0000001C;
                         status = (unsigned int)((unsigned int)14 | (unsigned int)((status & 0xFFFF0000) >> 16) << 16);
                         connected = 0;
@@ -14219,7 +14219,7 @@ signed int tspMain(signed int argc, char **argv)
                   }
                   case (unsigned int)14:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x0000001C;
                     Display(1, (enum tSeverityLevel)ELError, "tspMain", "Failed to process a TSP redirection message from %s.", c.server);
                     tspFreeBrokerList(broker_list);
@@ -14229,35 +14229,35 @@ signed int tspMain(signed int argc, char **argv)
                   }
                   case (unsigned int)2:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x00000018;
                     connected = 0;
                     goto __CPROVER_DUMP_L85;
                   }
                   case (unsigned int)15:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x0000001F;
                     connected = 0;
                     goto __CPROVER_DUMP_L85;
                   }
                   case (unsigned int)23:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x00000026;
                     consec_retry = (unsigned char)0;
                     break;
                   }
                   case (unsigned int)20:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x00000025;
                     consec_retry = (unsigned char)0;
                     break;
                   }
                   case (unsigned int)19:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x00000022;
                     connected = 0;
                     goto __CPROVER_DUMP_L85;
@@ -14266,7 +14266,7 @@ signed int tspMain(signed int argc, char **argv)
 
                   case (unsigned int)8:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x0000002B;
                     connected = 0;
                     goto __CPROVER_DUMP_L85;
@@ -14277,7 +14277,7 @@ signed int tspMain(signed int argc, char **argv)
 
                   default:
                   {
-                    gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__DISCONNECTEDERROR;
+                    gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__DISCONNECTEDERROR;
                     gStatusInfo.nStatus = (signed int)0x00000015;
                     connected = 0;
                     goto __CPROVER_DUMP_L85;
@@ -14286,7 +14286,7 @@ signed int tspMain(signed int argc, char **argv)
                 send_status_info();
                 if((signed int)consec_retry >= 1)
                 {
-                  signed int tspMain$$1$$6$$1$$5$$sleepTime = c.retry_delay;
+                  signed int tspMain__1__6__1__5__sleepTime = c.retry_delay;
                   if((signed int)consec_retry % 3 == 0)
                   {
                     effective_retry_delay = effective_retry_delay * (unsigned short int)2;
@@ -14296,17 +14296,17 @@ signed int tspMain(signed int argc, char **argv)
                   }
 
                   consec_retry = consec_retry + 1;
-                  tspMain$$1$$6$$1$$5$$sleepTime = (signed int)effective_retry_delay;
+                  tspMain__1__6__1__5__sleepTime = (signed int)effective_retry_delay;
                   Display(1, (enum tSeverityLevel)ELInfo, "tspMain", "Disconnected. Retrying in %d seconds.", effective_retry_delay);
                   do
                   {
-                    tmp_post$12 = tspMain$$1$$6$$1$$5$$sleepTime;
-                    tspMain$$1$$6$$1$$5$$sleepTime = tspMain$$1$$6$$1$$5$$sleepTime - 1;
-                    if(!(tmp_post$12 >= 1))
+                    tmp_post_12 = tspMain__1__6__1__5__sleepTime;
+                    tspMain__1__6__1__5__sleepTime = tspMain__1__6__1__5__sleepTime - 1;
+                    if(!(tmp_post_12 >= 1))
                       break;
 
-                    return_value_tspCheckForStopOrWait$13=tspCheckForStopOrWait((const unsigned int)1000);
-                    if(!(return_value_tspCheckForStopOrWait$13 == 0))
+                    return_value_tspCheckForStopOrWait_13=tspCheckForStopOrWait((const unsigned int)1000);
+                    if(!(return_value_tspCheckForStopOrWait_13 == 0))
                       break;
 
                   }
@@ -14328,13 +14328,13 @@ signed int tspMain(signed int argc, char **argv)
           unsigned int sleepTime = (unsigned int)loop_delay;
           do
           {
-            tmp_post$14 = sleepTime;
+            tmp_post_14 = sleepTime;
             sleepTime = sleepTime - 1u;
-            if(!(tmp_post$14 >= 1u))
+            if(!(tmp_post_14 >= 1u))
               break;
 
-            return_value_tspCheckForStopOrWait$15=tspCheckForStopOrWait((const unsigned int)1000);
-            if(!(return_value_tspCheckForStopOrWait$15 == 0))
+            return_value_tspCheckForStopOrWait_15=tspCheckForStopOrWait((const unsigned int)1000);
+            if(!(return_value_tspCheckForStopOrWait_15 == 0))
               break;
 
           }
@@ -14377,15 +14377,15 @@ endtspc:
 unsigned int tspPerformTunnelLoop(struct __TUNNEL_LOOP_CONFIG * const pTunLoopCfg)
 {
   void *p_ka_engine = (void *)0;
-  enum anonymous$9 ka_status;
-  enum anonymous$8 ka_ret;
+  enum anonymous_9 ka_status;
+  enum anonymous_8 ka_ret;
   unsigned char ongoing = (unsigned char)1;
   signed long int tun_expiration = (signed long int)0;
   unsigned int status = (unsigned int)(0 | 0 << 16);
   if(!(pTunLoopCfg->tun_lifetime == 0l))
     tun_expiration=tspLeaseGetExpTime(pTunLoopCfg->tun_lifetime);
 
-  signed int return_value_tspLeaseCheckExp$2;
+  signed int return_value_tspLeaseCheckExp_2;
   if(pTunLoopCfg->ka_interval >= 1u)
   {
     ka_ret=KA_init(&p_ka_engine, pTunLoopCfg->ka_interval * (unsigned int)1000, pTunLoopCfg->ka_src_addr, pTunLoopCfg->ka_dst_addr, pTunLoopCfg->sa_family);
@@ -14407,9 +14407,9 @@ unsigned int tspPerformTunnelLoop(struct __TUNNEL_LOOP_CONFIG * const pTunLoopCf
     ;
     while((65535u & status) == 0u && (signed int)ongoing == 1)
     {
-      signed int return_value_tspCheckForStopOrWait$1;
-      return_value_tspCheckForStopOrWait$1=tspCheckForStopOrWait((const unsigned int)500);
-      if(!(return_value_tspCheckForStopOrWait$1 == 0))
+      signed int return_value_tspCheckForStopOrWait_1;
+      return_value_tspCheckForStopOrWait_1=tspCheckForStopOrWait((const unsigned int)500);
+      if(!(return_value_tspCheckForStopOrWait_1 == 0))
         ongoing = (unsigned char)0;
 
       if(pTunLoopCfg->ka_interval >= 1u)
@@ -14442,8 +14442,8 @@ unsigned int tspPerformTunnelLoop(struct __TUNNEL_LOOP_CONFIG * const pTunLoopCf
 
       if(!(tun_expiration == 0l))
       {
-        return_value_tspLeaseCheckExp$2=tspLeaseCheckExp(tun_expiration);
-        if(return_value_tspLeaseCheckExp$2 == 1)
+        return_value_tspLeaseCheckExp_2=tspLeaseCheckExp(tun_expiration);
+        if(return_value_tspLeaseCheckExp_2 == 1)
           status = (unsigned int)(22 | 8 << 16);
 
       }
@@ -14458,31 +14458,31 @@ unsigned int tspPerformTunnelLoop(struct __TUNNEL_LOOP_CONFIG * const pTunLoopCf
 
 // tspReadBrokerListFromFile
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 96
-extern enum anonymous$27 tspReadBrokerListFromFile(char *broker_list_file, struct stBrokerList **broker_list)
+extern enum anonymous_27 tspReadBrokerListFromFile(char *broker_list_file, struct stBrokerList **broker_list)
 {
   struct _IO_FILE *file;
   char line[255l];
   signed int broker_count = 0;
-  char *return_value_fgets$1;
-  unsigned long int return_value_strlen$3;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$8;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_strlen$9;
-  unsigned long int return_value_strlen$7;
+  char *return_value_fgets_1;
+  unsigned long int return_value_strlen_3;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_8;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_strlen_9;
+  unsigned long int return_value_strlen_7;
   if(broker_list_file == ((char *)NULL))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspReadBrokerListFromFile", "Internal error trying to write the server redirection list to the broker_list file.");
-    return (enum anonymous$27)TSP_REDIRECT_INTERNAL_ERR;
+    return (enum anonymous_27)TSP_REDIRECT_INTERNAL_ERR;
   }
 
   else
     if(broker_list == ((struct stBrokerList **)NULL))
     {
       Display(1, (enum tSeverityLevel)ELError, "tspReadBrokerListFromFile", "Internal error trying to write the server redirection list to the broker_list file.");
-      return (enum anonymous$27)TSP_REDIRECT_INTERNAL_ERR;
+      return (enum anonymous_27)TSP_REDIRECT_INTERNAL_ERR;
     }
 
     else
@@ -14490,71 +14490,71 @@ extern enum anonymous$27 tspReadBrokerListFromFile(char *broker_list_file, struc
       *broker_list = (struct stBrokerList *)(void *)0;
       file=fopen(broker_list_file, "r");
       if(file == ((struct _IO_FILE *)NULL))
-        return (enum anonymous$27)TSP_REDIRECT_CANT_OPEN_FILE;
+        return (enum anonymous_27)TSP_REDIRECT_CANT_OPEN_FILE;
 
       else
       {
         do
         {
-          return_value_fgets$1=fgets(line, (signed int)sizeof(char [255l]) /*255ul*/ , file);
-          if(return_value_fgets$1 == ((char *)NULL))
+          return_value_fgets_1=fgets(line, (signed int)sizeof(char [255l]) /*255ul*/ , file);
+          if(return_value_fgets_1 == ((char *)NULL))
             break;
 
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(line);
-          if(!(return_value_strlen$6 == 0ul))
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(line);
+          if(!(return_value_strlen_6 == 0ul))
           {
-            return_value_strlen$3=strlen(line);
-            if((signed int)line[-1l + (signed long int)return_value_strlen$3] == 10)
-              tmp_if_expr$5 = (_Bool)1;
+            return_value_strlen_3=strlen(line);
+            if((signed int)line[-1l + (signed long int)return_value_strlen_3] == 10)
+              tmp_if_expr_5 = (_Bool)1;
 
             else
             {
-              return_value_strlen$4=strlen(line);
-              tmp_if_expr$5 = (signed int)line[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
+              return_value_strlen_4=strlen(line);
+              tmp_if_expr_5 = (signed int)line[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$5)
+            if(tmp_if_expr_5)
             {
-              return_value_strlen$2=strlen(line);
-              line[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+              return_value_strlen_2=strlen(line);
+              line[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
             }
 
           }
 
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(line);
-          if(!(return_value_strlen$11 == 0ul))
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(line);
+          if(!(return_value_strlen_11 == 0ul))
           {
-            return_value_strlen$8=strlen(line);
-            if((signed int)line[-1l + (signed long int)return_value_strlen$8] == 10)
-              tmp_if_expr$10 = (_Bool)1;
+            return_value_strlen_8=strlen(line);
+            if((signed int)line[-1l + (signed long int)return_value_strlen_8] == 10)
+              tmp_if_expr_10 = (_Bool)1;
 
             else
             {
-              return_value_strlen$9=strlen(line);
-              tmp_if_expr$10 = (signed int)line[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
+              return_value_strlen_9=strlen(line);
+              tmp_if_expr_10 = (signed int)line[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$10)
+            if(tmp_if_expr_10)
             {
-              return_value_strlen$7=strlen(line);
-              line[(signed long int)(return_value_strlen$7 - (unsigned long int)1)] = (char)0;
+              return_value_strlen_7=strlen(line);
+              line[(signed long int)(return_value_strlen_7 - (unsigned long int)1)] = (char)0;
             }
 
           }
 
-          unsigned long int return_value_strlen$13;
-          return_value_strlen$13=strlen(line);
-          if(return_value_strlen$13 >= 1ul)
+          unsigned long int return_value_strlen_13;
+          return_value_strlen_13=strlen(line);
+          if(return_value_strlen_13 >= 1ul)
           {
             if(!(broker_count >= 50))
             {
-              enum anonymous$27 return_value_tspAddBrokerToList$12;
-              return_value_tspAddBrokerToList$12=tspAddBrokerToList(broker_list, line, (enum anonymous$29)TSP_REDIRECT_BROKER_TYPE_NONE, (unsigned int)0);
-              if(!((signed int)return_value_tspAddBrokerToList$12 == TSP_REDIRECT_OK))
+              enum anonymous_27 return_value_tspAddBrokerToList_12;
+              return_value_tspAddBrokerToList_12=tspAddBrokerToList(broker_list, line, (enum anonymous_29)TSP_REDIRECT_BROKER_TYPE_NONE, (unsigned int)0);
+              if(!((signed int)return_value_tspAddBrokerToList_12 == TSP_REDIRECT_OK))
               {
                 Display(1, (enum tSeverityLevel)ELError, "tspReadBrokerListFromFile", "Failed to add a new server address while creating the server redirection list from file %s.", broker_list_file);
                 fclose(file);
-                return (enum anonymous$27)TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST;
+                return (enum anonymous_27)TSP_REDIRECT_CANT_ADD_BROKER_TO_LIST;
               }
 
               else
@@ -14564,14 +14564,14 @@ extern enum anonymous$27 tspReadBrokerListFromFile(char *broker_list_file, struc
             else
             {
               fclose(file);
-              return (enum anonymous$27)TSP_REDIRECT_TOO_MANY_BROKERS;
+              return (enum anonymous_27)TSP_REDIRECT_TOO_MANY_BROKERS;
             }
           }
 
         }
         while((_Bool)1);
         fclose(file);
-        return (enum anonymous$27)TSP_REDIRECT_OK;
+        return (enum anonymous_27)TSP_REDIRECT_OK;
       }
     }
 }
@@ -14585,10 +14585,10 @@ unsigned int tspReadConfigFile(char *szFile, struct stConf *pConf)
   signed int iRet;
   unsigned int *tErrors = (unsigned int *)(void *)0;
   char *szValue = (char *)(void *)0;
-  const char *return_value_get_ui_string$1;
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$7;
-  signed int tmp_statement_expression$5;
+  const char *return_value_get_ui_string_1;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_7;
+  signed int tmp_statement_expression_5;
   if(szFile == ((char *)NULL) || pConf == ((struct stConf *)NULL))
     return (unsigned int)(3 | 1 << 16);
 
@@ -14603,16 +14603,16 @@ unsigned int tspReadConfigFile(char *szFile, struct stConf *pConf)
         i = 0;
         for( ; !(i >= nErrors); i = i + 1)
         {
-          return_value_get_ui_string$1=get_ui_string((const signed int)tErrors[(signed long int)i]);
-          DirectErrorMessage((char *)return_value_get_ui_string$1);
+          return_value_get_ui_string_1=get_ui_string((const signed int)tErrors[(signed long int)i]);
+          DirectErrorMessage((char *)return_value_get_ui_string_1);
         }
       }
 
       else
       {
-        const char *return_value_get_ui_string$2;
-        return_value_get_ui_string$2=get_ui_string(iRet);
-        DirectErrorMessage((char *)return_value_get_ui_string$2);
+        const char *return_value_get_ui_string_2;
+        return_value_get_ui_string_2=get_ui_string(iRet);
+        DirectErrorMessage((char *)return_value_get_ui_string_2);
       }
       return (unsigned int)(3 | 1 << 16);
     }
@@ -14620,14 +14620,14 @@ unsigned int tspReadConfigFile(char *szFile, struct stConf *pConf)
     else
     {
       get_server(&pConf->server);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(pConf->server);
-      if(return_value_strlen$4 == 0ul)
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(pConf->server);
+      if(return_value_strlen_4 == 0ul)
       {
         free((void *)pConf->server);
-        const char *return_value_get_ui_string$3;
-        return_value_get_ui_string$3=get_ui_string((signed int)0x00040004);
-        DirectErrorMessage((char *)return_value_get_ui_string$3);
+        const char *return_value_get_ui_string_3;
+        return_value_get_ui_string_3=get_ui_string((signed int)0x00040004);
+        DirectErrorMessage((char *)return_value_get_ui_string_3);
         return (unsigned int)(3 | 1 << 16);
       }
 
@@ -14642,32 +14642,32 @@ unsigned int tspReadConfigFile(char *szFile, struct stConf *pConf)
       get_if_tun_v6udpv4(&pConf->if_tunnel_v6udpv4);
       get_tunnel_mode(&szValue);
       unsigned long int __s1_len;
-      unsigned long int tspReadConfigFile$$1$$4$$__s2_len;
-      signed int return_value___builtin_strcmp$10;
-      return_value___builtin_strcmp$10=__builtin_strcmp(szValue, "v6anyv4");
-      tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-      if(tmp_statement_expression$9 == 0)
-        pConf->tunnel_mode = (enum anonymous$23)V6ANYV4;
+      unsigned long int tspReadConfigFile__1__4____s2_len;
+      signed int return_value___builtin_strcmp_10;
+      return_value___builtin_strcmp_10=__builtin_strcmp(szValue, "v6anyv4");
+      tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+      if(tmp_statement_expression_9 == 0)
+        pConf->tunnel_mode = (enum anonymous_23)V6ANYV4;
 
       else
       {
-        unsigned long int tspReadConfigFile$$1$$6$$__s1_len;
+        unsigned long int tspReadConfigFile__1__6____s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$8;
-        return_value___builtin_strcmp$8=__builtin_strcmp(szValue, "v6v4");
-        tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-        if(tmp_statement_expression$7 == 0)
-          pConf->tunnel_mode = (enum anonymous$23)V6V4;
+        signed int return_value___builtin_strcmp_8;
+        return_value___builtin_strcmp_8=__builtin_strcmp(szValue, "v6v4");
+        tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+        if(tmp_statement_expression_7 == 0)
+          pConf->tunnel_mode = (enum anonymous_23)V6V4;
 
         else
         {
-          unsigned long int tspReadConfigFile$$1$$8$$__s1_len;
-          unsigned long int tspReadConfigFile$$1$$8$$__s2_len;
-          signed int return_value___builtin_strcmp$6;
-          return_value___builtin_strcmp$6=__builtin_strcmp(szValue, "v6udpv4");
-          tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-          if(tmp_statement_expression$5 == 0)
-            pConf->tunnel_mode = (enum anonymous$23)V6UDPV4;
+          unsigned long int tspReadConfigFile__1__8____s1_len;
+          unsigned long int tspReadConfigFile__1__8____s2_len;
+          signed int return_value___builtin_strcmp_6;
+          return_value___builtin_strcmp_6=__builtin_strcmp(szValue, "v6udpv4");
+          tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+          if(tmp_statement_expression_5 == 0)
+            pConf->tunnel_mode = (enum anonymous_23)V6UDPV4;
 
         }
       }
@@ -14708,99 +14708,99 @@ unsigned int tspReadConfigFile(char *szFile, struct stConf *pConf)
 
 // tspReadLastServerFromFile
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 94
-extern enum anonymous$27 tspReadLastServerFromFile(char *last_server_file, char *buffer)
+extern enum anonymous_27 tspReadLastServerFromFile(char *last_server_file, char *buffer)
 {
   struct _IO_FILE *file;
   char line[255l];
   signed int found_server = 0;
-  char *return_value_fgets$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$5;
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_strlen$6;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$10;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_strlen$11;
-  unsigned long int return_value_strlen$9;
+  char *return_value_fgets_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_5;
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_strlen_6;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_10;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_strlen_11;
+  unsigned long int return_value_strlen_9;
   if(last_server_file == ((char *)NULL))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspReadLastServerFromFile", "Internal error trying to read the last server address from the last_server file.");
-    return (enum anonymous$27)TSP_REDIRECT_INTERNAL_ERR;
+    return (enum anonymous_27)TSP_REDIRECT_INTERNAL_ERR;
   }
 
   else
     if(buffer == ((char *)NULL))
     {
       Display(1, (enum tSeverityLevel)ELError, "tspReadLastServerFromFile", "Internal error trying to read the last server address from the last_server file.");
-      return (enum anonymous$27)TSP_REDIRECT_INTERNAL_ERR;
+      return (enum anonymous_27)TSP_REDIRECT_INTERNAL_ERR;
     }
 
     else
     {
       file=fopen(last_server_file, "r");
       if(file == ((struct _IO_FILE *)NULL))
-        return (enum anonymous$27)TSP_REDIRECT_CANT_OPEN_FILE;
+        return (enum anonymous_27)TSP_REDIRECT_CANT_OPEN_FILE;
 
       else
       {
         do
         {
-          return_value_fgets$1=fgets(line, (signed int)sizeof(char [255l]) /*255ul*/ , file);
-          if(return_value_fgets$1 == ((char *)NULL))
+          return_value_fgets_1=fgets(line, (signed int)sizeof(char [255l]) /*255ul*/ , file);
+          if(return_value_fgets_1 == ((char *)NULL))
             break;
 
           if((signed int)line[0l] == 35)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = (signed int)line[0l] == 13 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_2 = (signed int)line[0l] == 13 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = (signed int)line[0l] == 10 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = (signed int)line[0l] == 10 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_3)
           {
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen(line);
-            if(!(return_value_strlen$8 == 0ul))
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen(line);
+            if(!(return_value_strlen_8 == 0ul))
             {
-              return_value_strlen$5=strlen(line);
-              if((signed int)line[-1l + (signed long int)return_value_strlen$5] == 10)
-                tmp_if_expr$7 = (_Bool)1;
+              return_value_strlen_5=strlen(line);
+              if((signed int)line[-1l + (signed long int)return_value_strlen_5] == 10)
+                tmp_if_expr_7 = (_Bool)1;
 
               else
               {
-                return_value_strlen$6=strlen(line);
-                tmp_if_expr$7 = (signed int)line[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
+                return_value_strlen_6=strlen(line);
+                tmp_if_expr_7 = (signed int)line[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$7)
+              if(tmp_if_expr_7)
               {
-                return_value_strlen$4=strlen(line);
-                line[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+                return_value_strlen_4=strlen(line);
+                line[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
               }
 
             }
 
-            unsigned long int return_value_strlen$13;
-            return_value_strlen$13=strlen(line);
-            if(!(return_value_strlen$13 == 0ul))
+            unsigned long int return_value_strlen_13;
+            return_value_strlen_13=strlen(line);
+            if(!(return_value_strlen_13 == 0ul))
             {
-              return_value_strlen$10=strlen(line);
-              if((signed int)line[-1l + (signed long int)return_value_strlen$10] == 10)
-                tmp_if_expr$12 = (_Bool)1;
+              return_value_strlen_10=strlen(line);
+              if((signed int)line[-1l + (signed long int)return_value_strlen_10] == 10)
+                tmp_if_expr_12 = (_Bool)1;
 
               else
               {
-                return_value_strlen$11=strlen(line);
-                tmp_if_expr$12 = (signed int)line[(signed long int)(return_value_strlen$11 - (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
+                return_value_strlen_11=strlen(line);
+                tmp_if_expr_12 = (signed int)line[(signed long int)(return_value_strlen_11 - (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$12)
+              if(tmp_if_expr_12)
               {
-                return_value_strlen$9=strlen(line);
-                line[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
+                return_value_strlen_9=strlen(line);
+                line[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
               }
 
             }
@@ -14814,10 +14814,10 @@ extern enum anonymous$27 tspReadLastServerFromFile(char *last_server_file, char 
         while((_Bool)1);
         fclose(file);
         if(!(found_server == 0))
-          return (enum anonymous$27)TSP_REDIRECT_OK;
+          return (enum anonymous_27)TSP_REDIRECT_OK;
 
         else
-          return (enum anonymous$27)TSP_REDIRECT_NO_LAST_SERVER;
+          return (enum anonymous_27)TSP_REDIRECT_NO_LAST_SERVER;
       }
     }
 }
@@ -14830,9 +14830,9 @@ signed int tspSend(signed int socket, struct stPayload *pl, struct net_tools *nt
   signed long int ClSize;
   signed int ret;
   snprintf(buffer, (unsigned long int)4096, "Content-length: %ld\r\n", pl->size);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buffer);
-  ClSize = (signed long int)(unsigned int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buffer);
+  ClSize = (signed long int)(unsigned int)return_value_strlen_1;
   if(pl->size + ClSize >= 4097l)
   {
     Display(1, (enum tSeverityLevel)ELError, "tspSend", "Payload size is bigger than PROTOCOLFRAMESIZE.");
@@ -14864,19 +14864,19 @@ signed int tspSendRecv(signed int socket, struct stPayload *plin, struct stPaylo
   char buffer[4096l];
   char *ptr_b;
   char *ptr_c;
-  signed int tspSendRecv$$1$$read;
+  signed int tspSendRecv__1__read;
   signed int ret;
   signed int size;
   signed int left;
   snprintf(buffer, (unsigned long int)4096, string, plin->size);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buffer);
-  size = (signed int)(unsigned int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buffer);
+  size = (signed int)(unsigned int)return_value_strlen_1;
   memcpy((void *)(buffer + (signed long int)size), (const void *)plin->payload, (unsigned long int)plin->size);
   buffer[(signed long int)size + plin->size] = (char)0;
   Display(3, (enum tSeverityLevel)ELInfo, "tspSendRecv", "Sending: '%s'", (const void *)buffer);
   ret=nt->netsendrecv(socket, buffer, (signed int)((signed long int)size + plin->size), plout->payload, (signed int)plout->size);
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(ret >= 1))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspSendRecv", "Failed to write/read on network socket.");
@@ -14885,9 +14885,9 @@ signed int tspSendRecv(signed int socket, struct stPayload *plin, struct stPaylo
 
   else
   {
-    signed int return_value_memcmp$2;
-    return_value_memcmp$2=memcmp((const void *)plout->payload, (const void *)"Content-length:", (unsigned long int)15);
-    if(!(return_value_memcmp$2 == 0))
+    signed int return_value_memcmp_2;
+    return_value_memcmp_2=memcmp((const void *)plout->payload, (const void *)"Content-length:", (unsigned long int)15);
+    if(!(return_value_memcmp_2 == 0))
     {
       Display(1, (enum tSeverityLevel)ELError, "tspSendRecv", "Was expecting 'Content-length:'. Received %s.", plout->payload);
       return -1;
@@ -14895,9 +14895,9 @@ signed int tspSendRecv(signed int socket, struct stPayload *plin, struct stPaylo
 
     else
     {
-      char *return_value___builtin_strchr$3;
-      return_value___builtin_strchr$3=__builtin_strchr(plout->payload, 10);
-      ptr_c = return_value___builtin_strchr$3;
+      char *return_value___builtin_strchr_3;
+      return_value___builtin_strchr_3=__builtin_strchr(plout->payload, 10);
+      ptr_c = return_value___builtin_strchr_3;
       if(ptr_c == ((char *)NULL))
       {
         Display(1, (enum tSeverityLevel)ELError, "tspSendRecv", "Received invalid TSP data.");
@@ -14907,16 +14907,16 @@ signed int tspSendRecv(signed int socket, struct stPayload *plin, struct stPaylo
       else
       {
         ptr_c = ptr_c + 1l;
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(ptr_c);
-        size = (signed int)(unsigned int)return_value_strlen$4;
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(ptr_c);
+        size = (signed int)(unsigned int)return_value_strlen_4;
         plout->size=atol(plout->payload + (signed long int)15);
         if(!(plout->size >= 1l))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = (signed long int)size > plout->size ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (signed long int)size > plout->size ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
         {
           Display(1, (enum tSeverityLevel)ELError, "tspSendRecv", "Invalid payload size.");
           return -1;
@@ -14927,21 +14927,21 @@ signed int tspSendRecv(signed int socket, struct stPayload *plin, struct stPaylo
           left = (signed int)(plout->size - (signed long int)size);
           if(left >= 1)
           {
-            tspSendRecv$$1$$read=nt->netrecv(socket, ptr_c + (signed long int)size, left);
-            if(!(tspSendRecv$$1$$read >= 1))
+            tspSendRecv__1__read=nt->netrecv(socket, ptr_c + (signed long int)size, left);
+            if(!(tspSendRecv__1__read >= 1))
             {
               Display(1, (enum tSeverityLevel)ELError, "tspSendRecv", "Failed to read from network socket.");
               return 1;
             }
 
-            size = size + tspSendRecv$$1$$read;
-            left = left - tspSendRecv$$1$$read;
+            size = size + tspSendRecv__1__read;
+            left = left - tspSendRecv__1__read;
           }
 
           size = size + 1;
-          void *return_value_malloc$6;
-          return_value_malloc$6=malloc((unsigned long int)size);
-          ptr_b = (char *)return_value_malloc$6;
+          void *return_value_malloc_6;
+          return_value_malloc_6=malloc((unsigned long int)size);
+          ptr_b = (char *)return_value_malloc_6;
           memset((void *)ptr_b, 0, (unsigned long int)size);
           size = size - 1;
           memcpy((void *)ptr_b, (const void *)ptr_c, (unsigned long int)size);
@@ -14959,31 +14959,31 @@ signed int tspSendRecv(signed int socket, struct stPayload *plin, struct stPaylo
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_cap.h line 44
 unsigned int tspSetCapability(char *Token, char *Value)
 {
-  signed int tmp_statement_expression$5;
-  unsigned long int tspSetCapability$$1$$1$$__s1_len;
-  unsigned long int tspSetCapability$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$6;
-  return_value___builtin_strcmp$6=__builtin_strcmp("TUNNEL", Token);
-  tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-  signed int tmp_statement_expression$1;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$11;
-  if(tmp_statement_expression$5 == 0)
+  signed int tmp_statement_expression_5;
+  unsigned long int tspSetCapability__1__1____s1_len;
+  unsigned long int tspSetCapability__1__1____s2_len;
+  signed int return_value___builtin_strcmp_6;
+  return_value___builtin_strcmp_6=__builtin_strcmp("TUNNEL", Token);
+  tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+  signed int tmp_statement_expression_1;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_11;
+  if(tmp_statement_expression_5 == 0)
   {
-    unsigned long int tspSetCapability$$1$$2$$1$$__s1_len;
-    unsigned long int tspSetCapability$$1$$2$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp("V6V4", Value);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    unsigned long int tspSetCapability__1__2__1____s1_len;
+    unsigned long int tspSetCapability__1__2__1____s2_len;
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp("V6V4", Value);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
       return (unsigned int)0x0001;
 
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$4;
-    return_value___builtin_strcmp$4=__builtin_strcmp("V6UDPV4", Value);
-    tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-    if(!(tmp_statement_expression$3 == 0))
+    signed int return_value___builtin_strcmp_4;
+    return_value___builtin_strcmp_4=__builtin_strcmp("V6UDPV4", Value);
+    tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+    if(!(tmp_statement_expression_3 == 0))
       goto __CPROVER_DUMP_L2;
 
     return (unsigned int)0x0002;
@@ -14994,31 +14994,31 @@ unsigned int tspSetCapability(char *Token, char *Value)
 
   __CPROVER_DUMP_L2:
     ;
-    unsigned long int tspSetCapability$$1$$3$$__s1_len;
-    unsigned long int tspSetCapability$$1$$3$$__s2_len;
-    signed int return_value___builtin_strcmp$12;
-    return_value___builtin_strcmp$12=__builtin_strcmp("AUTH", Token);
-    tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-    if(tmp_statement_expression$11 == 0)
+    unsigned long int tspSetCapability__1__3____s1_len;
+    unsigned long int tspSetCapability__1__3____s2_len;
+    signed int return_value___builtin_strcmp_12;
+    return_value___builtin_strcmp_12=__builtin_strcmp("AUTH", Token);
+    tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+    if(tmp_statement_expression_11 == 0)
     {
-      signed int return_value_strcasecmp$7;
-      return_value_strcasecmp$7=strcasecmp("PASSDSS-3DES-1", Value);
-      if(return_value_strcasecmp$7 == 0)
+      signed int return_value_strcasecmp_7;
+      return_value_strcasecmp_7=strcasecmp("PASSDSS-3DES-1", Value);
+      if(return_value_strcasecmp_7 == 0)
         return (unsigned int)0x0080;
 
-      signed int return_value_strcasecmp$8;
-      return_value_strcasecmp$8=strcasecmp("DIGEST-MD5", Value);
-      if(return_value_strcasecmp$8 == 0)
+      signed int return_value_strcasecmp_8;
+      return_value_strcasecmp_8=strcasecmp("DIGEST-MD5", Value);
+      if(return_value_strcasecmp_8 == 0)
         return (unsigned int)0x0040;
 
-      signed int return_value_strcasecmp$9;
-      return_value_strcasecmp$9=strcasecmp("ANONYMOUS", Value);
-      if(return_value_strcasecmp$9 == 0)
+      signed int return_value_strcasecmp_9;
+      return_value_strcasecmp_9=strcasecmp("ANONYMOUS", Value);
+      if(return_value_strcasecmp_9 == 0)
         return (unsigned int)0x0010;
 
-      signed int return_value_strcasecmp$10;
-      return_value_strcasecmp$10=strcasecmp("PLAIN", Value);
-      if(return_value_strcasecmp$10 == 0)
+      signed int return_value_strcasecmp_10;
+      return_value_strcasecmp_10=strcasecmp("PLAIN", Value);
+      if(return_value_strcasecmp_10 == 0)
         return (unsigned int)0x0020;
 
     }
@@ -15041,11 +15041,11 @@ unsigned int tspSetupInterface(struct stConf *c, struct stTunnel *t)
 {
   unsigned int status = (unsigned int)(0 | 0 << 16);
   char *template_script;
-  signed int return_value_validate_tunnel_info$1;
-  return_value_validate_tunnel_info$1=validate_tunnel_info(t);
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcasecmp$5;
-  if(!(return_value_validate_tunnel_info$1 == 0))
+  signed int return_value_validate_tunnel_info_1;
+  return_value_validate_tunnel_info_1=validate_tunnel_info(t);
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcasecmp_5;
+  if(!(return_value_validate_tunnel_info_1 == 0))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspSetupInterface", "Errors in tunnel parameters in server response.");
     return (unsigned int)(19 | 7 << 16);
@@ -15055,9 +15055,9 @@ unsigned int tspSetupInterface(struct stConf *c, struct stTunnel *t)
   {
     tspSetEnv("TSP_OPERATION", "TSP_TUNNEL_CREATION", 1);
     set_tsp_env_variables(c, t);
-    signed int return_value_tspSetupInterfaceLocal$2;
-    return_value_tspSetupInterfaceLocal$2=tspSetupInterfaceLocal(c, t);
-    if(!(return_value_tspSetupInterfaceLocal$2 == 0))
+    signed int return_value_tspSetupInterfaceLocal_2;
+    return_value_tspSetupInterfaceLocal_2=tspSetupInterfaceLocal(c, t);
+    if(!(return_value_tspSetupInterfaceLocal_2 == 0))
       return (unsigned int)(18 | 7 << 16);
 
     else
@@ -15069,9 +15069,9 @@ unsigned int tspSetupInterface(struct stConf *c, struct stTunnel *t)
       else
       {
         Display(2, (enum tSeverityLevel)ELInfo, "tspSetupInterface", "Executing interface configuration script: %s.", template_script);
-        signed int return_value_execScript$3;
-        return_value_execScript$3=execScript(template_script);
-        if(!(return_value_execScript$3 == 0))
+        signed int return_value_execScript_3;
+        return_value_execScript_3=execScript(template_script);
+        if(!(return_value_execScript_3 == 0))
         {
           Display(1, (enum tSeverityLevel)ELError, "tspSetupInterface", "Interface configuration script completed with errors.");
           return (unsigned int)(18 | 7 << 16);
@@ -15083,17 +15083,17 @@ unsigned int tspSetupInterface(struct stConf *c, struct stTunnel *t)
           Display(2, (enum tSeverityLevel)ELInfo, "tspSetupInterface", "The host type is '%s'.", c->host_type);
           Display(2, (enum tSeverityLevel)ELInfo, "tspSetupInterface", "The tunnel type is %s.", t->type);
           Display(3, (enum tSeverityLevel)ELInfo, "tspSetupInterface", "Client proxying is %s.", (signed int)c->proxy_client == TRUE ? "enabled" : "disabled");
-          signed int return_value_strcasecmp$4;
-          return_value_strcasecmp$4=strcasecmp(t->type, "v6v4");
-          if(return_value_strcasecmp$4 == 0)
-            tmp_if_expr$6 = (_Bool)1;
+          signed int return_value_strcasecmp_4;
+          return_value_strcasecmp_4=strcasecmp(t->type, "v6v4");
+          if(return_value_strcasecmp_4 == 0)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value_strcasecmp$5=strcasecmp(t->type, "v6udpv4");
-            tmp_if_expr$6 = return_value_strcasecmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_5=strcasecmp(t->type, "v6udpv4");
+            tmp_if_expr_6 = return_value_strcasecmp_5 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$6)
+          if(tmp_if_expr_6)
           {
             Display(1, (enum tSeverityLevel)ELInfo, "tspSetupInterface", "Your IPv6 address is %s.", t->client_address_ipv6);
             if(!(t->prefix == ((char *)NULL)))
@@ -15129,7 +15129,7 @@ extern signed int tspSetupInterfaceLocal(struct stConf *pConf, struct stTunnel *
 // file tsp_client.c line 408
 unsigned int tspSetupTunnel(struct stConf *conf, struct net_tools *nt, signed int version_index, struct stBrokerList **broker_list)
 {
-  signed int tspSetupTunnel$$1$$socket;
+  signed int tspSetupTunnel__1__socket;
   unsigned int cap;
   struct stTunnel tunnel_params;
   unsigned int status = (unsigned int)(0 | 0 << 16);
@@ -15153,20 +15153,20 @@ unsigned int tspSetupTunnel(struct stConf *conf, struct net_tools *nt, signed in
     case 4:
       Display(2, (enum tSeverityLevel)ELInfo, "tspSetupTunnel", "Establishing connection to server %s using reliable UDPv6.", conf->server);
   }
-  gStatusInfo.eStatus = (enum anonymous$21)GOGOC_CLISTAT__CONNECTING;
+  gStatusInfo.eStatus = (enum anonymous_21)GOGOC_CLISTAT__CONNECTING;
   gStatusInfo.nStatus = (signed int)0x00000000;
   send_status_info();
   char *srvname;
-  signed int return_value_parse_addr_port$1;
-  return_value_parse_addr_port$1=parse_addr_port(conf->server, &srvname, &conf->port_remote_v4, (unsigned short int)3653);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  if(!(return_value_parse_addr_port$1 == 0))
+  signed int return_value_parse_addr_port_1;
+  return_value_parse_addr_port_1=parse_addr_port(conf->server, &srvname, &conf->port_remote_v4, (unsigned short int)3653);
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  if(!(return_value_parse_addr_port_1 == 0))
     return (unsigned int)(4 | 3 << 16);
 
   else
   {
-    status=tspConnect(&tspSetupTunnel$$1$$socket, srvname, conf->port_remote_v4, nt);
+    status=tspConnect(&tspSetupTunnel__1__socket, srvname, conf->port_remote_v4, nt);
     if(!((65535u & status) == 0u))
     {
       Display(1, (enum tSeverityLevel)ELError, "tspSetupTunnel", "Failed to connect to server %s on port %d.", srvname, conf->port_remote_v4);
@@ -15178,33 +15178,33 @@ unsigned int tspSetupTunnel(struct stConf *conf, struct net_tools *nt, signed in
     {
       free((void *)srvname);
       if(conf->transport == 2)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = conf->transport == 3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = conf->transport == 3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         Display(2, (enum tSeverityLevel)ELInfo, "tspSetupTunnel", "Connection to server %s successful.", conf->server);
 
       Display(3, (enum tSeverityLevel)ELInfo, "tspSetupTunnel", "Using TSP protocol version %s.", TSPProtoVerStr[(signed long int)version_index]);
       Display(3, (enum tSeverityLevel)ELInfo, "tspSetupTunnel", "Retrieving TSP capabilities from Server.");
-      status=tspGetCapabilities(tspSetupTunnel$$1$$socket, nt, &cap, version_index, conf, broker_list);
+      status=tspGetCapabilities(tspSetupTunnel__1__socket, nt, &cap, version_index, conf, broker_list);
       switch((unsigned int)(status & (unsigned int)0x0000FFFF))
       {
         case (unsigned int)0:
           break;
         case (unsigned int)57345:
         {
-          tspClose(tspSetupTunnel$$1$$socket, nt);
+          tspClose(tspSetupTunnel__1__socket, nt);
           return status;
         }
         case (unsigned int)10:
         {
           if(conf->transport == 0)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = conf->transport == 4 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = conf->transport == 4 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
           {
             Display(1, (enum tSeverityLevel)ELError, "tspSetupTunnel", "Failed to contact TSP listener at %s.", conf->server);
             status = (unsigned int)((unsigned int)9 | (unsigned int)((status & 0xFFFF0000) >> 16) << 16);
@@ -15215,76 +15215,76 @@ unsigned int tspSetupTunnel(struct stConf *conf, struct net_tools *nt, signed in
         }
         default:
         {
-          tspClose(tspSetupTunnel$$1$$socket, nt);
+          tspClose(tspSetupTunnel__1__socket, nt);
           return status;
         }
       }
       if((cap & (unsigned int)conf->tunnel_mode) == 0u)
       {
         Display(1, (enum tSeverityLevel)ELError, "tspSetupTunnel", "Requested tunnel mode not available on server %s.", conf->server);
-        tspClose(tspSetupTunnel$$1$$socket, nt);
+        tspClose(tspSetupTunnel__1__socket, nt);
         return (unsigned int)(15 | 4 << 16);
       }
 
       else
       {
         Display(3, (enum tSeverityLevel)ELInfo, "tspSetupTunnel", "Authenticating...");
-        status=tspAuthenticate(tspSetupTunnel$$1$$socket, cap, nt, conf, broker_list, version_index);
+        status=tspAuthenticate(tspSetupTunnel__1__socket, cap, nt, conf, broker_list, version_index);
         switch((unsigned int)(status & (unsigned int)0x0000FFFF))
         {
           case (unsigned int)0:
             break;
           case (unsigned int)57345:
           {
-            tspClose(tspSetupTunnel$$1$$socket, nt);
+            tspClose(tspSetupTunnel__1__socket, nt);
             return status;
           }
           default:
           {
-            tspClose(tspSetupTunnel$$1$$socket, nt);
+            tspClose(tspSetupTunnel__1__socket, nt);
             return status;
           }
         }
         Display(2, (enum tSeverityLevel)ELInfo, "tspSetupTunnel", "Authentication successful.");
-        status=tspUpdateSourceAddr(conf, tspSetupTunnel$$1$$socket);
+        status=tspUpdateSourceAddr(conf, tspSetupTunnel__1__socket);
         if(!((65535u & status) == 0u))
         {
           Display(1, (enum tSeverityLevel)ELError, "tspSetupTunnel", "Failed to get source address to communicate with server.");
-          tspClose(tspSetupTunnel$$1$$socket, nt);
+          tspClose(tspSetupTunnel__1__socket, nt);
           return status;
         }
 
         else
         {
           Display(3, (enum tSeverityLevel)ELInfo, "tspSetupTunnel", "Negotiating tunnel parameters with server");
-          status=tspTunnelNegotiation(tspSetupTunnel$$1$$socket, &tunnel_params, conf, nt, version_index, broker_list);
+          status=tspTunnelNegotiation(tspSetupTunnel__1__socket, &tunnel_params, conf, nt, version_index, broker_list);
           switch((unsigned int)(status & (unsigned int)0x0000FFFF))
           {
             case (unsigned int)0:
               break;
             case (unsigned int)57345:
             {
-              tspClose(tspSetupTunnel$$1$$socket, nt);
+              tspClose(tspSetupTunnel__1__socket, nt);
               return status;
             }
             default:
             {
               Display(1, (enum tSeverityLevel)ELError, "tspSetupTunnel", "Tunnel negotiation failed. Status: %d", status);
-              tspClose(tspSetupTunnel$$1$$socket, nt);
+              tspClose(tspSetupTunnel__1__socket, nt);
               return status;
             }
           }
           Display(2, (enum tSeverityLevel)ELInfo, "tspSetupTunnel", "Tunnel negotiation successful. Accepted offer.");
-          enum anonymous$27 return_value_tspWriteLastServerToFile$4;
-          return_value_tspWriteLastServerToFile$4=tspWriteLastServerToFile(conf->last_server_file, conf->server);
-          if(!((signed int)return_value_tspWriteLastServerToFile$4 == TSP_REDIRECT_OK))
+          enum anonymous_27 return_value_tspWriteLastServerToFile_4;
+          return_value_tspWriteLastServerToFile_4=tspWriteLastServerToFile(conf->last_server_file, conf->server);
+          if(!((signed int)return_value_tspWriteLastServerToFile_4 == TSP_REDIRECT_OK))
             Display(1, (enum tSeverityLevel)ELError, "tspSetupTunnel", "Failed to write the last server address (%s) to the last server file %s.", conf->server, conf->last_server_file);
 
-          status=tspStartLocal(tspSetupTunnel$$1$$socket, conf, &tunnel_params, nt);
+          status=tspStartLocal(tspSetupTunnel__1__socket, conf, &tunnel_params, nt);
           free((void *)gTunnelInfo.szDelegatedPrefix);
           memset((void *)&gTunnelInfo, 0x00, sizeof(struct __TUNNEL_INFO) /*80ul*/ );
           tspClearTunnelInfo(&tunnel_params);
-          tspClose(tspSetupTunnel$$1$$socket, nt);
+          tspClose(tspSetupTunnel__1__socket, nt);
           return status;
         }
       }
@@ -15294,18 +15294,18 @@ unsigned int tspSetupTunnel(struct stConf *conf, struct net_tools *nt, signed in
 
 // tspSortBrokerList
 // file tsp_redirect.c line 278
-enum anonymous$27 tspSortBrokerList(struct stBrokerList **broker_list, struct stConf *conf, signed int broker_count)
+enum anonymous_27 tspSortBrokerList(struct stBrokerList **broker_list, struct stConf *conf, signed int broker_count)
 {
   struct stBrokerList *sorted_list = (struct stBrokerList *)(void *)0;
   struct stBrokerList *current_broker = (struct stBrokerList *)(void *)0;
   struct stBrokerList *new_element = (struct stBrokerList *)(void *)0;
   Display(2, (enum tSeverityLevel)ELInfo, "tspSortBrokerList", "Sorting the server redirection list.");
-  enum anonymous$27 return_value_tspGetBrokerDistances$1;
-  return_value_tspGetBrokerDistances$1=tspGetBrokerDistances(*broker_list, broker_count, conf);
-  if(!((signed int)return_value_tspGetBrokerDistances$1 == TSP_REDIRECT_OK))
+  enum anonymous_27 return_value_tspGetBrokerDistances_1;
+  return_value_tspGetBrokerDistances_1=tspGetBrokerDistances(*broker_list, broker_count, conf);
+  if(!((signed int)return_value_tspGetBrokerDistances_1 == TSP_REDIRECT_OK))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspSortBrokerList", "Failed to get server timing information while sorting the server redirection list.");
-    return (enum anonymous$27)TSP_REDIRECT_CANT_GET_DISTANCES;
+    return (enum anonymous_27)TSP_REDIRECT_CANT_GET_DISTANCES;
   }
 
   else
@@ -15313,34 +15313,34 @@ enum anonymous$27 tspSortBrokerList(struct stBrokerList **broker_list, struct st
     current_broker = *broker_list;
     while(!(current_broker == ((struct stBrokerList *)NULL)))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct stBrokerList) /*272ul*/ );
-      new_element = (struct stBrokerList *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct stBrokerList) /*272ul*/ );
+      new_element = (struct stBrokerList *)return_value_malloc_2;
       if(new_element == ((struct stBrokerList *)NULL))
       {
         tspFreeBrokerList(sorted_list);
         Display(1, (enum tSeverityLevel)ELError, "tspSortBrokerList", "Failed to allocate memory for a new server address while sorting the server redirection list.");
-        return (enum anonymous$27)TSP_REDIRECT_CANT_ALLOCATE_MEM;
+        return (enum anonymous_27)TSP_REDIRECT_CANT_ALLOCATE_MEM;
       }
 
       strcpy(new_element->address, current_broker->address);
       new_element->distance = current_broker->distance;
       new_element->address_type = current_broker->address_type;
       new_element->next = (struct stBrokerList *)(void *)0;
-      enum anonymous$27 return_value_tspInsertInBrokerList$3;
-      return_value_tspInsertInBrokerList$3=tspInsertInBrokerList(new_element, &sorted_list);
-      if(!((signed int)return_value_tspInsertInBrokerList$3 == TSP_REDIRECT_OK))
+      enum anonymous_27 return_value_tspInsertInBrokerList_3;
+      return_value_tspInsertInBrokerList_3=tspInsertInBrokerList(new_element, &sorted_list);
+      if(!((signed int)return_value_tspInsertInBrokerList_3 == TSP_REDIRECT_OK))
       {
         tspFreeBrokerList(sorted_list);
         Display(1, (enum tSeverityLevel)ELError, "tspSortBrokerList", "Failed to insert a new server address while sorting the server redirection list.");
-        return (enum anonymous$27)TSP_REDIRECT_CANT_INSERT_BROKER_IN_LIST;
+        return (enum anonymous_27)TSP_REDIRECT_CANT_INSERT_BROKER_IN_LIST;
       }
 
       current_broker = current_broker->next;
     }
     tspFreeBrokerList(*broker_list);
     *broker_list = sorted_list;
-    return (enum anonymous$27)TSP_REDIRECT_OK;
+    return (enum anonymous_27)TSP_REDIRECT_OK;
   }
 }
 
@@ -15353,11 +15353,11 @@ extern unsigned int tspStartLocal(signed int socket, struct stConf *c, struct st
   signed int ka_interval = 0;
   signed int tunfd = -1;
   signed int pid;
-  unsigned int return_value_geteuid$1;
-  return_value_geteuid$1=geteuid();
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$5;
-  if(!(return_value_geteuid$1 == 0u))
+  unsigned int return_value_geteuid_1;
+  return_value_geteuid_1=geteuid();
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_5;
+  if(!(return_value_geteuid_1 == 0u))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspStartLocal", "You must be root to setup a tunnel.");
     return (unsigned int)(18 | 7 << 16);
@@ -15372,9 +15372,9 @@ extern unsigned int tspStartLocal(signed int socket, struct stConf *c, struct st
 
     else
     {
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(t->type, "v4v6");
-      if(return_value_strcasecmp$3 == 0)
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(t->type, "v4v6");
+      if(return_value_strcasecmp_3 == 0)
       {
         Display(1, (enum tSeverityLevel)ELError, "tspStartLocal", "v4v6 is not supported on this platform.");
         return (unsigned int)(18 | 7 << 16);
@@ -15382,8 +15382,8 @@ extern unsigned int tspStartLocal(signed int socket, struct stConf *c, struct st
 
       else
       {
-        return_value_strcasecmp$2=strcasecmp(t->type, "v6udpv4");
-        if(return_value_strcasecmp$2 == 0)
+        return_value_strcasecmp_2=strcasecmp(t->type, "v6udpv4");
+        if(return_value_strcasecmp_2 == 0)
         {
           tunfd=TunInit(c->if_tunnel_v6udpv4);
           if(tunfd == -1)
@@ -15417,9 +15417,9 @@ extern unsigned int tspStartLocal(signed int socket, struct stConf *c, struct st
           {
             signed int s = 0;
             Display(3, (enum tSeverityLevel)ELInfo, "tspStartLocal", "Waiting for setup script to complete.");
-            signed int return_value_wait$4;
-            return_value_wait$4=wait(&s);
-            if(!(return_value_wait$4 == pid))
+            signed int return_value_wait_4;
+            return_value_wait_4=wait(&s);
+            if(!(return_value_wait_4 == pid))
             {
               Display(1, (enum tSeverityLevel)ELError, "tspStartLocal", "Failed to wait for the script to complete.");
               status = (unsigned int)(18 | 7 << 16);
@@ -15434,7 +15434,7 @@ extern unsigned int tspStartLocal(signed int socket, struct stConf *c, struct st
             }
 
             /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$35
+union anonymous_35
 {
   // __in
   signed int __in;
@@ -15444,17 +15444,17 @@ union anonymous$35
 
 /* */
             ;
-            status = (unsigned int)((((union anonymous$35){ .__in=s }).__i & 0xff00) >> 8);
+            status = (unsigned int)((((union anonymous_35){ .__in=s }).__i & 0xff00) >> 8);
             if(!((65535u & status) == 0u))
               goto __CPROVER_DUMP_L15;
 
           }
         if(!(t->keepalive_interval == ((char *)NULL)))
-          ka_interval=atoi$link2(t->keepalive_interval);
+          ka_interval=atoi_link2(t->keepalive_interval);
 
-        signed int return_value_strcasecmp$6;
-        return_value_strcasecmp$6=strcasecmp(t->type, "v6udpv4");
-        if(return_value_strcasecmp$6 == 0)
+        signed int return_value_strcasecmp_6;
+        return_value_strcasecmp_6=strcasecmp(t->type, "v6udpv4");
+        if(return_value_strcasecmp_6 == 0)
         {
           status=TunMainLoop(tunfd, socket, c->keepalive, ka_interval, t->client_address_ipv6, t->keepalive_address);
           tspClose(socket, nt);
@@ -15462,8 +15462,8 @@ union anonymous$35
 
         else
         {
-          return_value_strcasecmp$5=strcasecmp(t->type, "v6v4");
-          if(return_value_strcasecmp$5 == 0)
+          return_value_strcasecmp_5=strcasecmp(t->type, "v6v4");
+          if(return_value_strcasecmp_5 == 0)
           {
             memset((void *)&tun_loop_cfg, 0x00, sizeof(struct __TUNNEL_LOOP_CONFIG) /*32ul*/ );
             tun_loop_cfg.ka_interval = (unsigned int)ka_interval;
@@ -15503,9 +15503,9 @@ unsigned int tspTearDownTunnel(struct stConf *pConf, struct stTunnel *pTunInfo)
   else
   {
     Display(2, (enum tSeverityLevel)ELInfo, "tspTearDownTunnel", "Executing interface configuration script: %s.", scriptName);
-    signed int return_value_execScript$1;
-    return_value_execScript$1=execScript(scriptName);
-    if(!(return_value_execScript$1 == 0))
+    signed int return_value_execScript_1;
+    return_value_execScript_1=execScript(scriptName);
+    if(!(return_value_execScript_1 == 0))
     {
       Display(1, (enum tSeverityLevel)ELError, "tspTearDownTunnel", "Interface configuration script completed with errors.");
       return (unsigned int)(18 | 9 << 16);
@@ -15524,9 +15524,9 @@ unsigned int tspTearDownTunnel(struct stConf *pConf, struct stTunnel *pTunInfo)
 unsigned int tspTestIPv6Support()
 {
   struct stat buf;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat("/proc/net/if_inet6", &buf);
-  if(return_value_stat$1 == -1)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat("/proc/net/if_inet6", &buf);
+  if(return_value_stat_1 == -1)
   {
     Display(1, (enum tSeverityLevel)ELError, "tspTestIPv6Support", "No IPv6 support found.");
     Display(1, (enum tSeverityLevel)ELError, "tspTestIPv6Support", "Try \"modprobe ipv6\".");
@@ -15550,13 +15550,13 @@ unsigned int tspTunnelNegotiation(signed int socket, struct stTunnel *tunnel_inf
   signed int ret;
   memset((void *)&plin, 0, sizeof(struct stPayload) /*24ul*/ );
   memset((void *)&plout, 0, sizeof(struct stPayload) /*24ul*/ );
-  char *return_value_tspBuildCreateRequest$1;
-  return_value_tspBuildCreateRequest$1=tspBuildCreateRequest(conf);
-  plin.payload=tspAddPayloadString(&plin, return_value_tspBuildCreateRequest$1);
+  char *return_value_tspBuildCreateRequest_1;
+  return_value_tspBuildCreateRequest_1=tspBuildCreateRequest(conf);
+  plin.payload=tspAddPayloadString(&plin, return_value_tspBuildCreateRequest_1);
   plout.size = (signed long int)4096;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)4096);
-  plout.payload = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)4096);
+  plout.payload = (char *)return_value_malloc_2;
   if(plout.payload == ((char *)NULL))
     return (unsigned int)(2 | 6 << 16);
 
@@ -15577,13 +15577,13 @@ unsigned int tspTunnelNegotiation(signed int socket, struct stTunnel *tunnel_inf
     else
     {
       tsp_status=tspGetStatusCode(plout.payload);
-      signed int return_value_tspIsRedirectStatus$5;
-      return_value_tspIsRedirectStatus$5=tspIsRedirectStatus(tsp_status);
-      if(!(return_value_tspIsRedirectStatus$5 == 0))
+      signed int return_value_tspIsRedirectStatus_5;
+      return_value_tspIsRedirectStatus_5=tspIsRedirectStatus(tsp_status);
+      if(!(return_value_tspIsRedirectStatus_5 == 0))
       {
-        enum anonymous$27 return_value_tspHandleRedirect$3;
-        return_value_tspHandleRedirect$3=tspHandleRedirect(plout.payload, conf, broker_list);
-        if((signed int)return_value_tspHandleRedirect$3 == TSP_REDIRECT_OK)
+        enum anonymous_27 return_value_tspHandleRedirect_3;
+        return_value_tspHandleRedirect_3=tspHandleRedirect(plout.payload, conf, broker_list);
+        if((signed int)return_value_tspHandleRedirect_3 == TSP_REDIRECT_OK)
         {
           free((void *)plout.payload);
           free((void *)plin.payload);
@@ -15605,9 +15605,9 @@ unsigned int tspTunnelNegotiation(signed int socket, struct stTunnel *tunnel_inf
       else
         if(!(tsp_status == 200))
         {
-          const char *return_value_tspGetTspStatusStr$4;
-          return_value_tspGetTspStatusStr$4=tspGetTspStatusStr(tsp_status);
-          Display(1, (enum tSeverityLevel)ELError, "tspTunnelNegotiation", "A TSP error occurred. Status: %d. Info: %s", tsp_status, return_value_tspGetTspStatusStr$4);
+          const char *return_value_tspGetTspStatusStr_4;
+          return_value_tspGetTspStatusStr_4=tspGetTspStatusStr(tsp_status);
+          Display(1, (enum tSeverityLevel)ELError, "tspTunnelNegotiation", "A TSP error occurred. Status: %d. Info: %s", tsp_status, return_value_tspGetTspStatusStr_4);
           return (unsigned int)(13 | 6 << 16);
         }
 
@@ -15622,12 +15622,12 @@ unsigned int tspTunnelNegotiation(signed int socket, struct stTunnel *tunnel_inf
       else
       {
         memset((void *)&plin, 0, sizeof(struct stPayload) /*24ul*/ );
-        char *return_value_tspBuildCreateAcknowledge$6;
-        return_value_tspBuildCreateAcknowledge$6=tspBuildCreateAcknowledge();
-        plin.payload=tspAddPayloadString(&plin, return_value_tspBuildCreateAcknowledge$6);
-        signed int return_value_tspSend$7;
-        return_value_tspSend$7=tspSend(socket, &plin, nt);
-        if(return_value_tspSend$7 == -1)
+        char *return_value_tspBuildCreateAcknowledge_6;
+        return_value_tspBuildCreateAcknowledge_6=tspBuildCreateAcknowledge();
+        plin.payload=tspAddPayloadString(&plin, return_value_tspBuildCreateAcknowledge_6);
+        signed int return_value_tspSend_7;
+        return_value_tspSend_7=tspSend(socket, &plin, nt);
+        if(return_value_tspSend_7 == -1)
         {
           Display(1, (enum tSeverityLevel)ELError, "tspTunnelNegotiation", "Failed to write on network socket.");
           return (unsigned int)(10 | 6 << 16);
@@ -15648,42 +15648,42 @@ unsigned int tspTunnelNegotiation(signed int socket, struct stTunnel *tunnel_inf
 // file tsp_client.c line 224
 unsigned int tspUpdateSourceAddr(struct stConf *pConf, signed int fd)
 {
-  unsigned long int return_value_strlen$6;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  char *return_value_tspGetLocalAddress$3;
+  unsigned long int return_value_strlen_6;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  char *return_value_tspGetLocalAddress_3;
   if(!((signed int)pConf->tunnel_mode == V4V6))
   {
     if(!((signed int)pConf->tunnel_mode == DSLITE))
     {
       if(!(pConf->client_v4 == ((char *)NULL)))
       {
-        return_value_strlen$6=strlen(pConf->client_v4);
-        if(!((unsigned int)return_value_strlen$6 == 0u))
+        return_value_strlen_6=strlen(pConf->client_v4);
+        if(!((unsigned int)return_value_strlen_6 == 0u))
         {
-          signed int return_value_strcasecmp$5;
-          return_value_strcasecmp$5=strcasecmp(pConf->client_v4, "auto");
-          if(return_value_strcasecmp$5 == 0)
+          signed int return_value_strcasecmp_5;
+          return_value_strcasecmp_5=strcasecmp(pConf->client_v4, "auto");
+          if(return_value_strcasecmp_5 == 0)
           {
             char addr_str[17l];
             if(pConf->transport == 0)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = pConf->transport == 2 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = pConf->transport == 2 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
             {
-              return_value_tspGetLocalAddress$3=tspGetLocalAddress(fd, addr_str, 16);
-              tmp_if_expr$4 = return_value_tspGetLocalAddress$3 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              return_value_tspGetLocalAddress_3=tspGetLocalAddress(fd, addr_str, 16);
+              tmp_if_expr_4 = return_value_tspGetLocalAddress_3 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(tmp_if_expr_4)
             {
-              char *return_value___strdup$1;
-              return_value___strdup$1=__strdup(addr_str);
-              pConf->client_v4 = return_value___strdup$1;
+              char *return_value___strdup_1;
+              return_value___strdup_1=__strdup(addr_str);
+              pConf->client_v4 = return_value___strdup_1;
               Display(3, (enum tSeverityLevel)ELInfo, "tspUpdateSourceAddr", "Using [%s] as source IPv4 address.", pConf->client_v4);
             }
 
@@ -15707,14 +15707,14 @@ unsigned int tspUpdateSourceAddr(struct stConf *pConf, signed int fd)
 
 // tspWriteBrokerListToFile
 // file tsp_redirect.c line 489
-extern enum anonymous$27 tspWriteBrokerListToFile(char *broker_list_file, struct stBrokerList *broker_list)
+extern enum anonymous_27 tspWriteBrokerListToFile(char *broker_list_file, struct stBrokerList *broker_list)
 {
   struct _IO_FILE *file;
   struct stBrokerList *current_broker = (struct stBrokerList *)(void *)0;
   if(broker_list_file == ((char *)NULL))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspWriteBrokerListToFile", "Internal error trying to write the server redirection list to the broker_list file.");
-    return (enum anonymous$27)TSP_REDIRECT_INTERNAL_ERR;
+    return (enum anonymous_27)TSP_REDIRECT_INTERNAL_ERR;
   }
 
   else
@@ -15723,7 +15723,7 @@ extern enum anonymous$27 tspWriteBrokerListToFile(char *broker_list_file, struct
     if(file == ((struct _IO_FILE *)NULL))
     {
       Display(1, (enum tSeverityLevel)ELError, "tspWriteBrokerListToFile", "Failed to open %s to save the server redirection list.", broker_list_file);
-      return (enum anonymous$27)TSP_REDIRECT_CANT_OPEN_FILE;
+      return (enum anonymous_27)TSP_REDIRECT_CANT_OPEN_FILE;
     }
 
     else
@@ -15731,38 +15731,38 @@ extern enum anonymous$27 tspWriteBrokerListToFile(char *broker_list_file, struct
       current_broker = broker_list;
       for( ; !(current_broker == ((struct stBrokerList *)NULL)); current_broker = current_broker->next)
       {
-        signed int return_value_fprintf$1;
-        return_value_fprintf$1=fprintf(file, "%s\n", (const void *)current_broker->address);
-        if(!(return_value_fprintf$1 >= 0))
+        signed int return_value_fprintf_1;
+        return_value_fprintf_1=fprintf(file, "%s\n", (const void *)current_broker->address);
+        if(!(return_value_fprintf_1 >= 0))
         {
           Display(1, (enum tSeverityLevel)ELError, "tspWriteBrokerListToFile", "Failed to write the server redirection list to %s.", broker_list_file);
           fclose(file);
-          return (enum anonymous$27)TSP_REDIRECT_CANT_WRITE_TO_FILE;
+          return (enum anonymous_27)TSP_REDIRECT_CANT_WRITE_TO_FILE;
         }
 
       }
       fclose(file);
-      return (enum anonymous$27)TSP_REDIRECT_OK;
+      return (enum anonymous_27)TSP_REDIRECT_OK;
     }
   }
 }
 
 // tspWriteLastServerToFile
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gogoc/gogoc-1.2/gogoc-tsp/include/tsp_redirect.h line 95
-extern enum anonymous$27 tspWriteLastServerToFile(char *last_server_file, char *last_server)
+extern enum anonymous_27 tspWriteLastServerToFile(char *last_server_file, char *last_server)
 {
   struct _IO_FILE *file;
   if(last_server_file == ((char *)NULL))
   {
     Display(1, (enum tSeverityLevel)ELError, "tspWriteLastServerToFile", "Internal error trying to write the last server address to the last_server file.");
-    return (enum anonymous$27)TSP_REDIRECT_INTERNAL_ERR;
+    return (enum anonymous_27)TSP_REDIRECT_INTERNAL_ERR;
   }
 
   else
     if(last_server == ((char *)NULL))
     {
       Display(1, (enum tSeverityLevel)ELError, "tspWriteLastServerToFile", "Internal error trying to write the last server address to the last_server file.");
-      return (enum anonymous$27)TSP_REDIRECT_INTERNAL_ERR;
+      return (enum anonymous_27)TSP_REDIRECT_INTERNAL_ERR;
     }
 
     else
@@ -15771,24 +15771,24 @@ extern enum anonymous$27 tspWriteLastServerToFile(char *last_server_file, char *
       if(file == ((struct _IO_FILE *)NULL))
       {
         Display(1, (enum tSeverityLevel)ELError, "tspWriteLastServerToFile", "Failed to open %s to save the last server address.", last_server_file);
-        return (enum anonymous$27)TSP_REDIRECT_CANT_OPEN_FILE;
+        return (enum anonymous_27)TSP_REDIRECT_CANT_OPEN_FILE;
       }
 
       else
       {
-        signed int return_value_fprintf$1;
-        return_value_fprintf$1=fprintf(file, "%s\n", last_server);
-        if(!(return_value_fprintf$1 >= 0))
+        signed int return_value_fprintf_1;
+        return_value_fprintf_1=fprintf(file, "%s\n", last_server);
+        if(!(return_value_fprintf_1 >= 0))
         {
           Display(1, (enum tSeverityLevel)ELError, "tspWriteLastServerToFile", "Failed to write last server address %s to %s.", last_server, last_server_file);
           fclose(file);
-          return (enum anonymous$27)TSP_REDIRECT_CANT_WRITE_TO_FILE;
+          return (enum anonymous_27)TSP_REDIRECT_CANT_WRITE_TO_FILE;
         }
 
         else
         {
           fclose(file);
-          return (enum anonymous$27)TSP_REDIRECT_OK;
+          return (enum anonymous_27)TSP_REDIRECT_OK;
         }
       }
     }
@@ -15805,9 +15805,9 @@ signed int tspXMLParse(char *Data, struct stTunnel *Tunnel)
   server = router;
   client = server;
   theTunnelInfo = Tunnel;
-  signed int return_value_XMLParse$1;
-  return_value_XMLParse$1=XMLParse(Data, Root);
-  return return_value_XMLParse$1;
+  signed int return_value_XMLParse_1;
+  return_value_XMLParse_1=XMLParse(Data, Root);
+  return return_value_XMLParse_1;
 }
 
 // tspXMLShowInfo
@@ -15815,132 +15815,132 @@ signed int tspXMLParse(char *Data, struct stTunnel *Tunnel)
 void tspXMLShowInfo(struct stTunnel *Tunnel)
 {
   printf("Parsed Info:\n\n");
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(Tunnel->action == ((char *)NULL))
-    tmp_if_expr$1 = "";
+    tmp_if_expr_1 = "";
 
   else
-    tmp_if_expr$1 = Tunnel->action;
-  printf("  action                         = [%s]\n", tmp_if_expr$1);
-  char *tmp_if_expr$2;
+    tmp_if_expr_1 = Tunnel->action;
+  printf("  action                         = [%s]\n", tmp_if_expr_1);
+  char *tmp_if_expr_2;
   if(Tunnel->type == ((char *)NULL))
-    tmp_if_expr$2 = "";
+    tmp_if_expr_2 = "";
 
   else
-    tmp_if_expr$2 = Tunnel->type;
-  printf("  type                           = [%s]\n", tmp_if_expr$2);
-  char *tmp_if_expr$3;
+    tmp_if_expr_2 = Tunnel->type;
+  printf("  type                           = [%s]\n", tmp_if_expr_2);
+  char *tmp_if_expr_3;
   if(Tunnel->lifetime == ((char *)NULL))
-    tmp_if_expr$3 = "";
+    tmp_if_expr_3 = "";
 
   else
-    tmp_if_expr$3 = Tunnel->lifetime;
-  printf("  lifetime                       = [%s]\n", tmp_if_expr$3);
-  char *tmp_if_expr$4;
+    tmp_if_expr_3 = Tunnel->lifetime;
+  printf("  lifetime                       = [%s]\n", tmp_if_expr_3);
+  char *tmp_if_expr_4;
   if(Tunnel->proxy == ((char *)NULL))
-    tmp_if_expr$4 = "";
+    tmp_if_expr_4 = "";
 
   else
-    tmp_if_expr$4 = Tunnel->proxy;
-  printf("  proxy                          = [%s]\n", tmp_if_expr$4);
-  char *tmp_if_expr$5;
+    tmp_if_expr_4 = Tunnel->proxy;
+  printf("  proxy                          = [%s]\n", tmp_if_expr_4);
+  char *tmp_if_expr_5;
   if(Tunnel->mtu == ((char *)NULL))
-    tmp_if_expr$5 = "";
+    tmp_if_expr_5 = "";
 
   else
-    tmp_if_expr$5 = Tunnel->mtu;
-  printf("  mtu                            = [%s]\n", tmp_if_expr$5);
-  char *tmp_if_expr$6;
+    tmp_if_expr_5 = Tunnel->mtu;
+  printf("  mtu                            = [%s]\n", tmp_if_expr_5);
+  char *tmp_if_expr_6;
   if(Tunnel->client_address_ipv4 == ((char *)NULL))
-    tmp_if_expr$6 = "";
+    tmp_if_expr_6 = "";
 
   else
-    tmp_if_expr$6 = Tunnel->client_address_ipv4;
-  printf("  client address ipv4            = [%s]\n", tmp_if_expr$6);
-  char *tmp_if_expr$7;
+    tmp_if_expr_6 = Tunnel->client_address_ipv4;
+  printf("  client address ipv4            = [%s]\n", tmp_if_expr_6);
+  char *tmp_if_expr_7;
   if(Tunnel->client_address_ipv6 == ((char *)NULL))
-    tmp_if_expr$7 = "";
+    tmp_if_expr_7 = "";
 
   else
-    tmp_if_expr$7 = Tunnel->client_address_ipv6;
-  printf("  client address ipv6            = [%s]\n", tmp_if_expr$7);
-  char *tmp_if_expr$8;
+    tmp_if_expr_7 = Tunnel->client_address_ipv6;
+  printf("  client address ipv6            = [%s]\n", tmp_if_expr_7);
+  char *tmp_if_expr_8;
   if(Tunnel->client_dns_server_address_ipv6 == ((char *)NULL))
-    tmp_if_expr$8 = "";
+    tmp_if_expr_8 = "";
 
   else
-    tmp_if_expr$8 = Tunnel->client_dns_server_address_ipv6;
-  printf("  client dns server address ipv6 = [%s]\n", tmp_if_expr$8);
-  char *tmp_if_expr$9;
+    tmp_if_expr_8 = Tunnel->client_dns_server_address_ipv6;
+  printf("  client dns server address ipv6 = [%s]\n", tmp_if_expr_8);
+  char *tmp_if_expr_9;
   if(Tunnel->client_dns_name == ((char *)NULL))
-    tmp_if_expr$9 = "";
+    tmp_if_expr_9 = "";
 
   else
-    tmp_if_expr$9 = Tunnel->client_dns_name;
-  printf("  client dns name                = [%s]\n", tmp_if_expr$9);
-  char *tmp_if_expr$10;
+    tmp_if_expr_9 = Tunnel->client_dns_name;
+  printf("  client dns name                = [%s]\n", tmp_if_expr_9);
+  char *tmp_if_expr_10;
   if(Tunnel->server_address_ipv4 == ((char *)NULL))
-    tmp_if_expr$10 = "";
+    tmp_if_expr_10 = "";
 
   else
-    tmp_if_expr$10 = Tunnel->server_address_ipv4;
-  printf("  server address ipv4            = [%s]\n", tmp_if_expr$10);
-  char *tmp_if_expr$11;
+    tmp_if_expr_10 = Tunnel->server_address_ipv4;
+  printf("  server address ipv4            = [%s]\n", tmp_if_expr_10);
+  char *tmp_if_expr_11;
   if(Tunnel->server_address_ipv6 == ((char *)NULL))
-    tmp_if_expr$11 = "";
+    tmp_if_expr_11 = "";
 
   else
-    tmp_if_expr$11 = Tunnel->server_address_ipv6;
-  printf("  server address ipv6            = [%s]\n", tmp_if_expr$11);
-  char *tmp_if_expr$12;
+    tmp_if_expr_11 = Tunnel->server_address_ipv6;
+  printf("  server address ipv6            = [%s]\n", tmp_if_expr_11);
+  char *tmp_if_expr_12;
   if(Tunnel->router_protocol == ((char *)NULL))
-    tmp_if_expr$12 = "";
+    tmp_if_expr_12 = "";
 
   else
-    tmp_if_expr$12 = Tunnel->router_protocol;
-  printf("  router protocol                = [%s]\n", tmp_if_expr$12);
-  char *tmp_if_expr$13;
+    tmp_if_expr_12 = Tunnel->router_protocol;
+  printf("  router protocol                = [%s]\n", tmp_if_expr_12);
+  char *tmp_if_expr_13;
   if(Tunnel->prefix_length == ((char *)NULL))
-    tmp_if_expr$13 = "";
+    tmp_if_expr_13 = "";
 
   else
-    tmp_if_expr$13 = Tunnel->prefix_length;
-  printf("  prefix length                  = [%s]\n", tmp_if_expr$13);
-  char *tmp_if_expr$14;
+    tmp_if_expr_13 = Tunnel->prefix_length;
+  printf("  prefix length                  = [%s]\n", tmp_if_expr_13);
+  char *tmp_if_expr_14;
   if(Tunnel->prefix == ((char *)NULL))
-    tmp_if_expr$14 = "";
+    tmp_if_expr_14 = "";
 
   else
-    tmp_if_expr$14 = Tunnel->prefix;
-  printf("  prefix                         = [%s]\n", tmp_if_expr$14);
-  char *tmp_if_expr$15;
+    tmp_if_expr_14 = Tunnel->prefix;
+  printf("  prefix                         = [%s]\n", tmp_if_expr_14);
+  char *tmp_if_expr_15;
   if(Tunnel->client_as == ((char *)NULL))
-    tmp_if_expr$15 = "";
+    tmp_if_expr_15 = "";
 
   else
-    tmp_if_expr$15 = Tunnel->client_as;
-  printf("  client as number               = [%s]\n", tmp_if_expr$15);
-  char *tmp_if_expr$16;
+    tmp_if_expr_15 = Tunnel->client_as;
+  printf("  client as number               = [%s]\n", tmp_if_expr_15);
+  char *tmp_if_expr_16;
   if(Tunnel->server_as == ((char *)NULL))
-    tmp_if_expr$16 = "";
+    tmp_if_expr_16 = "";
 
   else
-    tmp_if_expr$16 = Tunnel->server_as;
-  printf("  server as number               = [%s]\n", tmp_if_expr$16);
-  char *tmp_if_expr$17;
+    tmp_if_expr_16 = Tunnel->server_as;
+  printf("  server as number               = [%s]\n", tmp_if_expr_16);
+  char *tmp_if_expr_17;
   if(Tunnel->keepalive_interval == ((char *)NULL))
-    tmp_if_expr$17 = "";
+    tmp_if_expr_17 = "";
 
   else
-    tmp_if_expr$17 = Tunnel->keepalive_interval;
-  printf("  keepalive interval             = [%s]\n", tmp_if_expr$17);
-  char *tmp_if_expr$18;
+    tmp_if_expr_17 = Tunnel->keepalive_interval;
+  printf("  keepalive interval             = [%s]\n", tmp_if_expr_17);
+  char *tmp_if_expr_18;
   if(Tunnel->keepalive_address == ((char *)NULL))
-    tmp_if_expr$18 = "";
+    tmp_if_expr_18 = "";
 
   else
-    tmp_if_expr$18 = Tunnel->keepalive_address;
-  printf("  keepalive address              = [%s]\n", tmp_if_expr$18);
+    tmp_if_expr_18 = Tunnel->keepalive_address;
+  printf("  keepalive address              = [%s]\n", tmp_if_expr_18);
   printf("  dns server addresse(s) ipv4    = [");
   ShowList(Tunnel->dns_server_address_ipv4);
   printf("]\n");
@@ -15973,17 +15973,17 @@ char * tsp_get_version(void)
 signed int validate_tunnel_info(const struct stTunnel *pTunnelInfo)
 {
   signed int err_num = 0;
-  signed int return_value_IsAll$1;
-  return_value_IsAll$1=IsAll(".0123456789", pTunnelInfo->client_address_ipv4);
-  if(return_value_IsAll$1 == 0)
+  signed int return_value_IsAll_1;
+  return_value_IsAll_1=IsAll(".0123456789", pTunnelInfo->client_address_ipv4);
+  if(return_value_IsAll_1 == 0)
   {
     Display(1, (enum tSeverityLevel)ELError, "validate_tunnel_info", "Bad value received from server for client_address_ipv4.");
     err_num = err_num + 1;
   }
 
-  signed int return_value_IsAll$2;
-  return_value_IsAll$2=IsAll("ABCDEFabcdef:0123456789", pTunnelInfo->client_address_ipv6);
-  if(return_value_IsAll$2 == 0)
+  signed int return_value_IsAll_2;
+  return_value_IsAll_2=IsAll("ABCDEFabcdef:0123456789", pTunnelInfo->client_address_ipv6);
+  if(return_value_IsAll_2 == 0)
   {
     Display(1, (enum tSeverityLevel)ELError, "validate_tunnel_info", "Bad value received from server for client_address_ipv6.");
     err_num = err_num + 1;
@@ -15991,9 +15991,9 @@ signed int validate_tunnel_info(const struct stTunnel *pTunnelInfo)
 
   if(!(pTunnelInfo->client_dns_server_address_ipv6 == ((char *)NULL)))
   {
-    signed int return_value_IsAll$3;
-    return_value_IsAll$3=IsAll("ABCDEFabcdef:0123456789", pTunnelInfo->client_dns_server_address_ipv6);
-    if(return_value_IsAll$3 == 0)
+    signed int return_value_IsAll_3;
+    return_value_IsAll_3=IsAll("ABCDEFabcdef:0123456789", pTunnelInfo->client_dns_server_address_ipv6);
+    if(return_value_IsAll_3 == 0)
     {
       Display(1, (enum tSeverityLevel)ELError, "validate_tunnel_info", "Bad value received from server for client_dns_server_address_ipv6.");
       err_num = err_num + 1;
@@ -16001,17 +16001,17 @@ signed int validate_tunnel_info(const struct stTunnel *pTunnelInfo)
 
   }
 
-  signed int return_value_IsAll$4;
-  return_value_IsAll$4=IsAll(".0123456789", pTunnelInfo->server_address_ipv4);
-  if(return_value_IsAll$4 == 0)
+  signed int return_value_IsAll_4;
+  return_value_IsAll_4=IsAll(".0123456789", pTunnelInfo->server_address_ipv4);
+  if(return_value_IsAll_4 == 0)
   {
     Display(1, (enum tSeverityLevel)ELError, "validate_tunnel_info", "Bad value received from server for server_address_ipv4.");
     err_num = err_num + 1;
   }
 
-  signed int return_value_IsAll$5;
-  return_value_IsAll$5=IsAll("ABCDEFabcdef:0123456789", pTunnelInfo->server_address_ipv6);
-  if(return_value_IsAll$5 == 0)
+  signed int return_value_IsAll_5;
+  return_value_IsAll_5=IsAll("ABCDEFabcdef:0123456789", pTunnelInfo->server_address_ipv6);
+  if(return_value_IsAll_5 == 0)
   {
     Display(1, (enum tSeverityLevel)ELError, "validate_tunnel_info", "Bad value received from server for server_address_ipv6.");
     err_num = err_num + 1;
@@ -16019,17 +16019,17 @@ signed int validate_tunnel_info(const struct stTunnel *pTunnelInfo)
 
   if(!(pTunnelInfo->prefix == ((char *)NULL)))
   {
-    signed int return_value_IsAll$6;
-    return_value_IsAll$6=IsAll("ABCDEFabcdef:.0123456789", pTunnelInfo->prefix);
-    if(return_value_IsAll$6 == 0)
+    signed int return_value_IsAll_6;
+    return_value_IsAll_6=IsAll("ABCDEFabcdef:.0123456789", pTunnelInfo->prefix);
+    if(return_value_IsAll_6 == 0)
     {
       Display(1, (enum tSeverityLevel)ELError, "validate_tunnel_info", "Bad value received from server for prefix.");
       err_num = err_num + 1;
     }
 
-    signed int return_value_IsAll$7;
-    return_value_IsAll$7=IsAll("0123456789", pTunnelInfo->prefix_length);
-    if(return_value_IsAll$7 == 0)
+    signed int return_value_IsAll_7;
+    return_value_IsAll_7=IsAll("0123456789", pTunnelInfo->prefix_length);
+    if(return_value_IsAll_7 == 0)
     {
       Display(1, (enum tSeverityLevel)ELError, "validate_tunnel_info", "Bad value received from server for prefix_length.");
       err_num = err_num + 1;

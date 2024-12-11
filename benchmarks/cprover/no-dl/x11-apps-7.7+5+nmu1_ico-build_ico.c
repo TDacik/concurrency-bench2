@@ -1,214 +1,214 @@
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}$S8$'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'$pad0'||*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#$'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'||S32'qlen'||U32'$pad2'||U64'last_request_read'||U64'request'||*{S8}$S8$'private11'||*{S8}$S8$'private12'||*{S8}$S8$'private13'||*{S8}$S8$'private14'||U32'max_request_size'||U32'$pad3'||*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'||*{S8}$S8$'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}$S8$'private17'||*{S8}$S8$'private18'||S32'private19'||U32'$pad4'||*{S8}$S8$'xdefaults'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}_S8_'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'_pad0'||*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#_'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'||S32'qlen'||U32'_pad2'||U64'last_request_read'||U64'request'||*{S8}_S8_'private11'||*{S8}_S8_'private12'||*{S8}_S8_'private13'||*{S8}_S8_'private14'||U32'max_request_size'||U32'_pad3'||*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'||*{S8}_S8_'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}_S8_'private17'||*{S8}_S8_'private18'||S32'private19'||U32'_pad4'||*{S8}_S8_'xdefaults'|]
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{cS8}$cS8$'longname'||*{cS8}$cS8$'shortname'||*{cS8}$cS8$'dual'||S32'numverts'||S32'numedges'||S32'numfaces'||U32'$pad0'||ARR120{SYM#tag-#anon#ST[F64'x'||F64'y'||F64'z'|]#}$SYM#tag-#anon#ST[F64'x'||F64'y'||F64'z'|]#$'v'||ARR390{S32}$S32$'f'|]
+// tag-#anon#ST[*{cS8}_cS8_'longname'||*{cS8}_cS8_'shortname'||*{cS8}_cS8_'dual'||S32'numverts'||S32'numedges'||S32'numfaces'||U32'_pad0'||ARR120{SYM#tag-#anon#ST[F64'x'||F64'y'||F64'z'|]#}_SYM#tag-#anon#ST[F64'x'||F64'y'||F64'z'|]#_'v'||ARR390{S32}_S32_'f'|]
 // file ../ico/polyinfo.h line 19
-struct anonymous$48;
+struct anonymous_48;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[F64'x'||F64'y'||F64'z'|]
 // file ../ico/polyinfo.h line 14
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S16'x'||S16'y'|]
 // file /usr/include/X11/Xlib.h line 426
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[S16'x1'||S16'y1'||S16'x2'||S16'y2'|]
 // file /usr/include/X11/Xlib.h line 422
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]
+// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'function'||U32'$pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'$pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'$pad2'|]
+// tag-#anon#ST[S32'function'||U32'_pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'_pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'_pad2'|]
 // file /usr/include/X11/Xlib.h line 181
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[S32'prevX'||S32'prevY'||*{U64}$U64$'plane_masks'||U64'enplanemask'||*{SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#}$SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#$'colors'||*{U64}$U64$'pixels'|]
+// tag-#anon#ST[S32'prevX'||S32'prevY'||*{U64}_U64_'plane_masks'||U64'enplanemask'||*{SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#}_SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#_'colors'||*{U64}_U64_'pixels'|]
 // file ../ico/ico.c line 119
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'$pad1'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'_pad1'|]
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'|]
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'$pad2'||*{V}$V$'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'_pad2'||*{V}_V_'data'|]
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'from_configure'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'from_configure'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'override_redirect'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'override_redirect'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$47;
+struct anonymous_47;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'detail'||U32'$pad3'||U64'value_mask'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'detail'||U32'_pad3'||U64'value_mask'|]
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$40;
+struct anonymous_40;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 870
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||ARR32{S8}$S8$'key_vector'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||ARR32{S8}_S8_'key_vector'|]
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'mode'||S32'detail'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'mode'||S32'detail'|]
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'width'||S32'height'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'width'||S32'height'|]
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'message_type'||S32'format'||U32'$pad2'||SYM#tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]#'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'message_type'||S32'format'||U32'_pad2'||SYM#tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]#'data'|]
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'$pad2'||S32'same_screen'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'_pad2'||S32'same_screen'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'selection'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'selection'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'depth'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visual'||U64'root'||S32'class'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'$pad0'||U64'colormap'||S32'map_installed'||S32'map_state'||S64'all_event_masks'||S64'your_event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screen'|]
+// tag-#anon#ST[S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'depth'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visual'||U64'root'||S32'class'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'_pad0'||U64'colormap'||S32'map_installed'||S32'map_state'||S64'all_event_masks'||S64'your_event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screen'|]
 // file /usr/include/X11/Xlib.h line 308
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[U64'background_pixmap'||U64'background_pixel'||U64'border_pixmap'||U64'border_pixel'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U32'$pad0'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'$pad1'||S64'event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'$pad2'||U64'colormap'||U64'cursor'|]
+// tag-#anon#ST[U64'background_pixmap'||U64'background_pixel'||U64'border_pixmap'||U64'border_pixel'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U32'_pad0'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'_pad1'||S64'event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'_pad2'||U64'colormap'||U64'cursor'|]
 // file /usr/include/X11/Xlib.h line 290
-struct anonymous$26;
+struct anonymous_26;
 
 // tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]
 // file /usr/include/X11/Xlib.h line 410
 struct anonymous;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]
+// tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$37;
+union anonymous_37;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$34;
+union anonymous_34;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$36;
+union anonymous_36;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -281,7 +281,7 @@ static void FormatRotateMat(char axis, double angle, double (*m)[4l]);
 static void IdentMat(double (*m)[4l]);
 // PartialNonHomTransform
 // file ../ico/ico.c line 418
-static void PartialNonHomTransform(signed int n, double (*m)[4l], const struct anonymous$6 *in, struct anonymous$6 *out);
+static void PartialNonHomTransform(signed int n, double (*m)[4l], const struct anonymous_6 *in, struct anonymous_6 *out);
 // XAllocColorCells
 // file /usr/include/X11/Xlib.h line 1964
 extern signed int XAllocColorCells(struct _XDisplay *, unsigned long int, signed int, unsigned long int *, unsigned int, unsigned long int *, unsigned int);
@@ -293,7 +293,7 @@ extern signed int XAllocNamedColor(struct _XDisplay *, unsigned long int, const 
 extern signed int XBell(struct _XDisplay *, signed int);
 // XChangeGC
 // file /usr/include/X11/Xlib.h line 2038
-extern signed int XChangeGC(struct _XDisplay *, struct _XGC *, unsigned long int, struct anonymous$31 *);
+extern signed int XChangeGC(struct _XDisplay *, struct _XGC *, unsigned long int, struct anonymous_31 *);
 // XChangeProperty
 // file /usr/include/X11/Xlib.h line 2068
 extern signed int XChangeProperty(struct _XDisplay *, unsigned long int, unsigned long int, unsigned long int, signed int, signed int, const unsigned char *, signed int);
@@ -308,10 +308,10 @@ extern signed int XClearArea(struct _XDisplay *, unsigned long int, signed int, 
 extern signed int XCloseDisplay(struct _XDisplay *);
 // XCreateGC
 // file /usr/include/X11/Xlib.h line 1584
-extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$31 *);
+extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_31 *);
 // XCreateWindow
 // file /usr/include/X11/Xlib.h line 1636
-extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous$22 *, unsigned long int, struct anonymous$26 *);
+extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous_22 *, unsigned long int, struct anonymous_26 *);
 // XDefaultColormap
 // file /usr/include/X11/Xlib.h line 1818
 extern unsigned long int XDefaultColormap(struct _XDisplay *, signed int);
@@ -323,16 +323,16 @@ extern signed int XDestroyWindow(struct _XDisplay *, unsigned long int);
 extern char * XDisplayName(const char *);
 // XDrawSegments
 // file /usr/include/X11/Xlib.h line 2396
-extern signed int XDrawSegments(struct _XDisplay *, unsigned long int, struct _XGC *, struct anonymous$5 *, signed int);
+extern signed int XDrawSegments(struct _XDisplay *, unsigned long int, struct _XGC *, struct anonymous_5 *, signed int);
 // XFillPolygon
 // file /usr/include/X11/Xlib.h line 2479
-extern signed int XFillPolygon(struct _XDisplay *, unsigned long int, struct _XGC *, struct anonymous$3 *, signed int, signed int, signed int);
+extern signed int XFillPolygon(struct _XDisplay *, unsigned long int, struct _XGC *, struct anonymous_3 *, signed int, signed int, signed int);
 // XFillRectangle
 // file /usr/include/X11/Xlib.h line 2489
 extern signed int XFillRectangle(struct _XDisplay *, unsigned long int, struct _XGC *, signed int, signed int, unsigned int, unsigned int);
 // XGetWindowAttributes
 // file /usr/include/X11/Xlib.h line 2691
-extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous$27 *);
+extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous_27 *);
 // XIfEvent
 // file /usr/include/X11/Xlib.h line 2753
 extern signed int XIfEvent(struct _XDisplay *, union _XEvent *, signed int (*)(struct _XDisplay *, union _XEvent *, char *), char *);
@@ -347,7 +347,7 @@ extern unsigned long int XInternAtom(struct _XDisplay *, const char *, signed in
 extern signed int XLookupColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous *, struct anonymous *);
 // XLookupString
 // file /usr/include/X11/Xutil.h line 534
-extern signed int XLookupString(struct anonymous$8 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
+extern signed int XLookupString(struct anonymous_8 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
 // XMapWindow
 // file /usr/include/X11/Xlib.h line 2806
 extern signed int XMapWindow(struct _XDisplay *, unsigned long int);
@@ -395,13 +395,13 @@ extern double cos(double);
 static void * do_ico_window(void *ptr);
 // drawPoly
 // file ../ico/ico.c line 563
-static void drawPoly(struct closure *closure, struct anonymous$48 *poly, struct _XGC *gc, signed int icoX, signed int icoY, signed int icoW, signed int icoH, signed int prevX, signed int prevY);
+static void drawPoly(struct closure *closure, struct anonymous_48 *poly, struct _XGC *gc, signed int icoX, signed int icoY, signed int icoW, signed int icoH, signed int prevX, signed int prevY);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
 // findpoly
 // file ../ico/ico.c line 1142
-static struct anonymous$48 * findpoly(const char *name);
+static struct anonymous_48 * findpoly(const char *name);
 // fprintf
 // file /usr/include/stdio.h line 356
 extern signed int fprintf(struct _IO_FILE *, const char *, ...);
@@ -419,7 +419,7 @@ static void icoFatal(const char *fmt, const char *a0);
 static void initDBufs(struct closure *closure, unsigned long int fg, unsigned long int bg, signed int planesperbuf);
 // initPoly
 // file ../ico/ico.c line 468
-static void initPoly(struct closure *closure, struct anonymous$48 *poly, signed int icoW, signed int icoH);
+static void initPoly(struct closure *closure, struct anonymous_48 *poly, signed int icoW, signed int icoH);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -440,28 +440,28 @@ static signed int predicate(struct _XDisplay *display, union _XEvent *event, cha
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$34 *);
+extern signed int pthread_cond_broadcast(union anonymous_34 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$34 *, const union anonymous$37 *);
+extern signed int pthread_cond_init(union anonymous_34 *, const union anonymous_37 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$34 *, union anonymous$36 *);
+extern signed int pthread_cond_wait(union anonymous_34 *, union anonymous_36 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$36 *);
+extern signed int pthread_mutex_lock(union anonymous_36 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$36 *);
+extern signed int pthread_mutex_unlock(union anonymous_36 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$1 *, struct anonymous$1 *, struct anonymous$1 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_1 *, struct anonymous_1 *, struct anonymous_1 *, struct timeval *);
 // setBufColname
 // file ../ico/ico.c line 806
 static void setBufColname(struct closure *closure, signed int n, const char *colname);
@@ -499,7 +499,7 @@ extern signed long int time(signed long int *);
 // file ../ico/ico.c line 276
 static char * xalloc(unsigned int nbytes);
 
-struct anonymous$28
+struct anonymous_28
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -518,11 +518,11 @@ struct anonymous$28
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$23 *depths;
+  struct anonymous_23 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$22 *root_visual;
+  struct anonymous_22 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -543,7 +543,7 @@ struct anonymous$28
   signed long int root_input_mask;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -580,7 +580,7 @@ struct anonymous$0
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$30 *pixmap_format;
+  struct anonymous_30 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -616,7 +616,7 @@ struct anonymous$0
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$28 *screens;
+  struct anonymous_28 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -635,7 +635,7 @@ struct anonymous$0
   char *xdefaults;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -647,7 +647,7 @@ struct anonymous$30
   signed int scanline_pad;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -667,7 +667,7 @@ struct anonymous$22
   signed int map_entries;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // x
   double x;
@@ -677,7 +677,7 @@ struct anonymous$6
   double z;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // longname
   const char *longname;
@@ -692,18 +692,18 @@ struct anonymous$48
   // numfaces
   signed int numfaces;
   // v
-  struct anonymous$6 v[120l];
+  struct anonymous_6 v[120l];
   // f
   signed int f[390l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // x
   signed short int x;
@@ -711,7 +711,7 @@ struct anonymous$3
   signed short int y;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // x1
   signed short int x1;
@@ -723,7 +723,7 @@ struct anonymous$5
   signed short int y2;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // __lock
   signed int __lock;
@@ -743,17 +743,17 @@ struct anonymous$33
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$22 *visuals;
+  struct anonymous_22 *visuals;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // function
   signed int function;
@@ -803,7 +803,7 @@ struct anonymous$31
   char dashes;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // prevX
   signed int prevX;
@@ -819,7 +819,7 @@ struct anonymous$43
   unsigned long int *pixels;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // type
   signed int type;
@@ -837,7 +837,7 @@ struct anonymous$15
   unsigned char minor_code;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // type
   signed int type;
@@ -853,7 +853,7 @@ struct anonymous$16
   signed int evtype;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // type
   signed int type;
@@ -873,7 +873,7 @@ struct anonymous$17
   void *data;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // type
   signed int type;
@@ -891,7 +891,7 @@ struct anonymous$18
   signed int minor_code;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // type
   signed int type;
@@ -919,7 +919,7 @@ struct anonymous$12
   signed int minor_code;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // type
   signed int type;
@@ -935,7 +935,7 @@ struct anonymous$21
   unsigned long int window;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // type
   signed int type;
@@ -953,7 +953,7 @@ struct anonymous$24
   signed int from_configure;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // type
   signed int type;
@@ -971,7 +971,7 @@ struct anonymous$25
   signed int override_redirect;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // type
   signed int type;
@@ -989,7 +989,7 @@ struct anonymous$41
   signed int place;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
   signed int type;
@@ -1009,7 +1009,7 @@ struct anonymous$38
   signed int y;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
   signed int type;
@@ -1039,7 +1039,7 @@ struct anonymous$35
   signed int override_redirect;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // type
   signed int type;
@@ -1063,7 +1063,7 @@ struct anonymous$32
   signed int override_redirect;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // type
   signed int type;
@@ -1087,7 +1087,7 @@ struct anonymous$47
   unsigned long int time;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // type
   signed int type;
@@ -1103,7 +1103,7 @@ struct anonymous$29
   unsigned long int window;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // type
   signed int type;
@@ -1121,7 +1121,7 @@ struct anonymous$42
   signed int place;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // type
   signed int type;
@@ -1149,7 +1149,7 @@ struct anonymous$20
   signed int override_redirect;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // type
   signed int type;
@@ -1181,7 +1181,7 @@ struct anonymous$40
   unsigned long int value_mask;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // type
   signed int type;
@@ -1203,7 +1203,7 @@ struct anonymous$49
   unsigned long int time;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // type
   signed int type;
@@ -1217,7 +1217,7 @@ struct anonymous$7
   unsigned long int window;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // type
   signed int type;
@@ -1233,7 +1233,7 @@ struct anonymous$2
   char key_vector[32l];
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // type
   signed int type;
@@ -1251,7 +1251,7 @@ struct anonymous$51
   signed int detail;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // type
   signed int type;
@@ -1271,7 +1271,7 @@ struct anonymous$14
   signed int count;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // type
   signed int type;
@@ -1287,7 +1287,7 @@ struct anonymous$19
   signed int state;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // type
   signed int type;
@@ -1305,7 +1305,7 @@ struct anonymous$39
   signed int height;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // type
   signed int type;
@@ -1329,7 +1329,7 @@ struct anonymous$11
   signed int count;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // type
   signed int type;
@@ -1349,7 +1349,7 @@ struct anonymous$44
   signed int state;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // type
   signed int type;
@@ -1369,7 +1369,7 @@ struct anonymous$50
   signed int state;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // b
   char b[20l];
@@ -1379,7 +1379,7 @@ union anonymous$4
   signed long int l[5l];
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // type
   signed int type;
@@ -1396,10 +1396,10 @@ struct anonymous$13
   // format
   signed int format;
   // data
-  union anonymous$4 data;
+  union anonymous_4 data;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // type
   signed int type;
@@ -1437,7 +1437,7 @@ struct anonymous$46
   unsigned int state;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // type
   signed int type;
@@ -1471,7 +1471,7 @@ struct anonymous$10
   signed int same_screen;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // type
   signed int type;
@@ -1505,7 +1505,7 @@ struct anonymous$9
   signed int same_screen;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // type
   signed int type;
@@ -1539,7 +1539,7 @@ struct anonymous$8
   signed int same_screen;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // type
   signed int type;
@@ -1557,7 +1557,7 @@ struct anonymous$45
   unsigned long int time;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // x
   signed int x;
@@ -1572,7 +1572,7 @@ struct anonymous$27
   // depth
   signed int depth;
   // visual
-  struct anonymous$22 *visual;
+  struct anonymous_22 *visual;
   // root
   unsigned long int root;
   // class
@@ -1604,10 +1604,10 @@ struct anonymous$27
   // override_redirect
   signed int override_redirect;
   // screen
-  struct anonymous$28 *screen;
+  struct anonymous_28 *screen;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // background_pixmap
   unsigned long int background_pixmap;
@@ -1657,7 +1657,7 @@ struct anonymous
   char pad;
 };
 
-union anonymous$37
+union anonymous_37
 {
   // __size
   char __size[4l];
@@ -1665,10 +1665,10 @@ union anonymous$37
   signed int __align;
 };
 
-union anonymous$34
+union anonymous_34
 {
   // __data
-  struct anonymous$33 __data;
+  struct anonymous_33 __data;
   // __size
   char __size[48l];
   // __align
@@ -1703,7 +1703,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$36
+union anonymous_36
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1798,71 +1798,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$7 xany;
+  struct anonymous_7 xany;
   // xkey
-  struct anonymous$8 xkey;
+  struct anonymous_8 xkey;
   // xbutton
-  struct anonymous$9 xbutton;
+  struct anonymous_9 xbutton;
   // xmotion
-  struct anonymous$10 xmotion;
+  struct anonymous_10 xmotion;
   // xcrossing
-  struct anonymous$46 xcrossing;
+  struct anonymous_46 xcrossing;
   // xfocus
-  struct anonymous$51 xfocus;
+  struct anonymous_51 xfocus;
   // xexpose
-  struct anonymous$11 xexpose;
+  struct anonymous_11 xexpose;
   // xgraphicsexpose
-  struct anonymous$12 xgraphicsexpose;
+  struct anonymous_12 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$18 xnoexpose;
+  struct anonymous_18 xnoexpose;
   // xvisibility
-  struct anonymous$19 xvisibility;
+  struct anonymous_19 xvisibility;
   // xcreatewindow
-  struct anonymous$20 xcreatewindow;
+  struct anonymous_20 xcreatewindow;
   // xdestroywindow
-  struct anonymous$21 xdestroywindow;
+  struct anonymous_21 xdestroywindow;
   // xunmap
-  struct anonymous$24 xunmap;
+  struct anonymous_24 xunmap;
   // xmap
-  struct anonymous$25 xmap;
+  struct anonymous_25 xmap;
   // xmaprequest
-  struct anonymous$29 xmaprequest;
+  struct anonymous_29 xmaprequest;
   // xreparent
-  struct anonymous$32 xreparent;
+  struct anonymous_32 xreparent;
   // xconfigure
-  struct anonymous$35 xconfigure;
+  struct anonymous_35 xconfigure;
   // xgravity
-  struct anonymous$38 xgravity;
+  struct anonymous_38 xgravity;
   // xresizerequest
-  struct anonymous$39 xresizerequest;
+  struct anonymous_39 xresizerequest;
   // xconfigurerequest
-  struct anonymous$40 xconfigurerequest;
+  struct anonymous_40 xconfigurerequest;
   // xcirculate
-  struct anonymous$41 xcirculate;
+  struct anonymous_41 xcirculate;
   // xcirculaterequest
-  struct anonymous$42 xcirculaterequest;
+  struct anonymous_42 xcirculaterequest;
   // xproperty
-  struct anonymous$44 xproperty;
+  struct anonymous_44 xproperty;
   // xselectionclear
-  struct anonymous$45 xselectionclear;
+  struct anonymous_45 xselectionclear;
   // xselectionrequest
-  struct anonymous$47 xselectionrequest;
+  struct anonymous_47 xselectionrequest;
   // xselection
-  struct anonymous$49 xselection;
+  struct anonymous_49 xselection;
   // xcolormap
-  struct anonymous$50 xcolormap;
+  struct anonymous_50 xcolormap;
   // xclient
-  struct anonymous$13 xclient;
+  struct anonymous_13 xclient;
   // xmapping
-  struct anonymous$14 xmapping;
+  struct anonymous_14 xmapping;
   // xerror
-  struct anonymous$15 xerror;
+  struct anonymous_15 xerror;
   // xkeymap
-  struct anonymous$2 xkeymap;
+  struct anonymous_2 xkeymap;
   // xgeneric
-  struct anonymous$16 xgeneric;
+  struct anonymous_16 xgeneric;
   // xcookie
-  struct anonymous$17 xcookie;
+  struct anonymous_17 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -1896,11 +1896,11 @@ struct closure
   // dbufnum
   signed int dbufnum;
   // bufs
-  struct anonymous$43 bufs[2l];
+  struct anonymous_43 bufs[2l];
   // drawbuf
-  struct anonymous$43 *drawbuf;
+  struct anonymous_43 *drawbuf;
   // dpybuf
-  struct anonymous$43 *dpybuf;
+  struct anonymous_43 *dpybuf;
   // win
   unsigned long int win;
   // draw_window
@@ -1920,7 +1920,7 @@ struct closure
   // xform
   double xform[4l][4l];
   // xv
-  struct anonymous$6 xv[2l][120l];
+  struct anonymous_6 xv[2l][120l];
   // xv_buffer
   signed int xv_buffer;
   // wo2
@@ -1962,10 +1962,10 @@ static const char *background_colorname = (const char *)(void *)0;
 static const char **colornames;
 // count_cond
 // file ../ico/ico.c line 247
-static union anonymous$34 count_cond;
+static union anonymous_34 count_cond;
 // count_mutex
 // file ../ico/ico.c line 243
-static union anonymous$36 count_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_36 count_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // dash
@@ -2036,10 +2036,10 @@ static signed int multibufext = 0;
 static signed int numcolors = 0;
 // poly
 // file ../ico/ico.c line 236
-static struct anonymous$48 *poly;
+static struct anonymous_48 *poly;
 // polygons
 // file ../ico/ico.c line 108
-static struct anonymous$48 polygons[5l] = { { .longname="cube", .shortname="cube", .dual="octahedron", .numverts=8,
+static struct anonymous_48 polygons[5l] = { { .longname="cube", .shortname="cube", .dual="octahedron", .numverts=8,
     .numedges=12, .numfaces=6, .v={ { .x=0.577, .y=0.577, .z=0.577 }, { .x=0.577, .y=0.577, .z=-0.577 }, { .x=0.577, .y=-0.577, .z=-0.577 }, { .x=0.577, .y=-0.577, .z=0.577 }, { .x=-0.577, .y=0.577, .z=0.577 }, { .x=-0.577, .y=0.577, .z=-0.577 }, { .x=-0.577, .y=-0.577, .z=-0.577 }, { .x=-0.577, .y=-0.577, .z=0.577 }, { .x=0.000000, .y=0.000000, .z=0.000000 },
     { .x=0.000000, .y=0.000000, .z=0.000000 },
     { .x=0.000000, .y=0.000000, .z=0.000000 },
@@ -2719,7 +2719,7 @@ static void IdentMat(double (*m)[4l])
 
 // PartialNonHomTransform
 // file ../ico/ico.c line 418
-static void PartialNonHomTransform(signed int n, double (*m)[4l], const struct anonymous$6 *in, struct anonymous$6 *out)
+static void PartialNonHomTransform(signed int n, double (*m)[4l], const struct anonymous_6 *in, struct anonymous_6 *out)
 {
   for( ; n >= 1; out = out + 1l)
   {
@@ -2737,13 +2737,13 @@ static void * do_ico_window(void *ptr)
 {
   unsigned long int fg;
   unsigned long int bg;
-  struct anonymous$26 xswa;
-  struct anonymous$27 xwa;
+  struct anonymous_26 xswa;
+  struct anonymous_27 xwa;
   union _XEvent xev;
   signed int icoX;
   signed int icoY;
   unsigned long int vmask;
-  struct anonymous$31 xgcv;
+  struct anonymous_31 xgcv;
   signed int initcolors = 0;
   signed int icoDeltaX = 13;
   signed int icoDeltaY = 9;
@@ -2759,20 +2759,20 @@ static void * do_ico_window(void *ptr)
   char buf[20l];
   struct closure *closure = (struct closure *)ptr;
   signed int len;
-  closure->cmap=XDefaultColormap(dpy, ((struct anonymous$0 *)dpy)->default_screen);
+  closure->cmap=XDefaultColormap(dpy, ((struct anonymous_0 *)dpy)->default_screen);
   if(closure->cmap == 0ul)
     icoFatal("no default colormap!", (const char *)(void *)0);
 
-  fg = (&((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen])->white_pixel;
-  bg = (&((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen])->black_pixel;
+  fg = (&((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen])->white_pixel;
+  bg = (&((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen])->black_pixel;
   if(!(background_colorname == ((const char *)NULL)))
   {
-    struct anonymous do_ico_window$$1$$2$$cdef;
+    struct anonymous do_ico_window__1__2__cdef;
     struct anonymous igndef;
-    signed int return_value_XAllocNamedColor$1;
-    return_value_XAllocNamedColor$1=XAllocNamedColor(dpy, closure->cmap, background_colorname, &do_ico_window$$1$$2$$cdef, &igndef);
-    if(!(return_value_XAllocNamedColor$1 == 0))
-      bg = do_ico_window$$1$$2$$cdef.pixel;
+    signed int return_value_XAllocNamedColor_1;
+    return_value_XAllocNamedColor_1=XAllocNamedColor(dpy, closure->cmap, background_colorname, &do_ico_window__1__2__cdef, &igndef);
+    if(!(return_value_XAllocNamedColor_1 == 0))
+      bg = do_ico_window__1__2__cdef.pixel;
 
     else
       icoFatal("background: no such color \"%s\"", background_colorname);
@@ -2781,10 +2781,10 @@ static void * do_ico_window(void *ptr)
   if(!(numcolors == 0) && (dofaces == 0 || numcolors == 1))
   {
     struct anonymous cdef;
-    struct anonymous do_ico_window$$1$$3$$igndef;
-    signed int return_value_XAllocNamedColor$2;
-    return_value_XAllocNamedColor$2=XAllocNamedColor(dpy, closure->cmap, colornames[(signed long int)0], &cdef, &do_ico_window$$1$$3$$igndef);
-    if(!(return_value_XAllocNamedColor$2 == 0))
+    struct anonymous do_ico_window__1__3__igndef;
+    signed int return_value_XAllocNamedColor_2;
+    return_value_XAllocNamedColor_2=XAllocNamedColor(dpy, closure->cmap, colornames[(signed long int)0], &cdef, &do_ico_window__1__3__igndef);
+    if(!(return_value_XAllocNamedColor_2 == 0))
       fg = cdef.pixel;
 
     else
@@ -2800,26 +2800,26 @@ static void * do_ico_window(void *ptr)
 
   if(!(useRoot == 0))
   {
-    closure->draw_window = (&((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen])->root;
+    closure->draw_window = (&((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen])->root;
     winX = 0;
     winY = 0;
-    closure->winW = (&((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen])->width;
-    closure->winH = (&((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen])->height;
+    closure->winW = (&((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen])->width;
+    closure->winH = (&((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen])->height;
   }
 
   else
   {
     closure->winH = multibufext != 0 && dblbuf != 0 ? 300 : 600;
     closure->winW = closure->winH;
-    winX = (&((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen])->width - closure->winW >> 1;
-    winY = (&((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen])->height - closure->winH >> 1;
+    winX = (&((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen])->width - closure->winW >> 1;
+    winY = (&((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen])->height - closure->winH >> 1;
     if(!(geom == ((const char *)NULL)))
       XParseGeometry(geom, &winX, &winY, (unsigned int *)&closure->winW, (unsigned int *)&closure->winH);
 
     xswa.event_mask = 1L << 15 | 1L << 17 | 1L << 0;
     xswa.background_pixel = bg;
     xswa.border_pixel = fg;
-    closure->draw_window=XCreateWindow(dpy, (&((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen])->root, winX, winY, (unsigned int)closure->winW, (unsigned int)closure->winH, (unsigned int)0, (&((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen])->root_depth, (unsigned int)1, (&((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen])->root_visual, (unsigned long int)(1L << 11 | 1L << 1 | 1L << 3), &xswa);
+    closure->draw_window=XCreateWindow(dpy, (&((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen])->root, winX, winY, (unsigned int)closure->winW, (unsigned int)closure->winH, (unsigned int)0, (&((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen])->root_depth, (unsigned int)1, (&((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen])->root_visual, (unsigned long int)(1L << 11 | 1L << 1 | 1L << 3), &xswa);
     len=sprintf(buf, "Ico: thread %d", closure->thread_num);
     XChangeProperty(dpy, closure->draw_window, (unsigned long int)39, (unsigned long int)31, 8, 0, (unsigned char *)buf, len);
     XSetWMProtocols(dpy, closure->draw_window, &wm_delete_window, 1);
@@ -2832,9 +2832,9 @@ static void * do_ico_window(void *ptr)
 
     }
     while((_Bool)1);
-    signed int return_value_XGetWindowAttributes$3;
-    return_value_XGetWindowAttributes$3=XGetWindowAttributes(dpy, closure->draw_window, &xwa);
-    if(return_value_XGetWindowAttributes$3 == 0)
+    signed int return_value_XGetWindowAttributes_3;
+    return_value_XGetWindowAttributes_3=XGetWindowAttributes(dpy, closure->draw_window, &xwa);
+    if(return_value_XGetWindowAttributes_3 == 0)
       icoFatal("cannot get window attributes (size)", (const char *)(void *)0);
 
     closure->winW = xwa.width;
@@ -2911,21 +2911,21 @@ static void * do_ico_window(void *ptr)
   if(!(dsync == 0))
     XSync(dpy, 0);
 
-  signed long int return_value_time$4;
-  return_value_time$4=time((signed long int *)0);
-  srand((unsigned int)((signed int)return_value_time$4 % 231));
-  signed int return_value_rand$5;
-  return_value_rand$5=rand();
-  icoX = (closure->winW - icoW) * (return_value_rand$5 & 0xFF) >> 8;
-  signed int return_value_rand$6;
-  return_value_rand$6=rand();
-  icoY = (closure->winH - icoH) * (return_value_rand$6 & 0xFF) >> 8;
+  signed long int return_value_time_4;
+  return_value_time_4=time((signed long int *)0);
+  srand((unsigned int)((signed int)return_value_time_4 % 231));
+  signed int return_value_rand_5;
+  return_value_rand_5=rand();
+  icoX = (closure->winW - icoW) * (return_value_rand_5 & 0xFF) >> 8;
+  signed int return_value_rand_6;
+  return_value_rand_6=rand();
+  icoY = (closure->winH - icoH) * (return_value_rand_6 & 0xFF) >> 8;
   icodeltax2 = icoDeltaX * 2;
   icodeltay2 = icoDeltaY * 2;
   initPoly(closure, poly, icoW, icoH);
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
   while(!(do_it == 0))
   {
     signed int prevX;
@@ -2959,11 +2959,11 @@ static void * do_ico_window(void *ptr)
       }
 
       if(!(xev.xconfigure.width == closure->winW))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = xev.xconfigure.height != closure->winH ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = xev.xconfigure.height != closure->winH ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
         icoY = 1;
         icoX = icoY;
@@ -3007,11 +3007,11 @@ static void * do_ico_window(void *ptr)
       prevY = icoY;
       icoX = icoX + icoDeltaX;
       if(!(icoX >= 0))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = icoX + icoW > closure->winW ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = icoX + icoW > closure->winW ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
       {
         icoX = icoX - icodeltax2;
         icoDeltaX = -icoDeltaX;
@@ -3020,11 +3020,11 @@ static void * do_ico_window(void *ptr)
 
       icoY = icoY + icoDeltaY;
       if(!(icoY >= 0))
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = icoY + icoH > closure->winH ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = icoY + icoH > closure->winH ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
       {
         icoY = icoY - icodeltay2;
         icoDeltaY = -icoDeltaY;
@@ -3046,18 +3046,18 @@ static void * do_ico_window(void *ptr)
 
 // drawPoly
 // file ../ico/ico.c line 563
-static void drawPoly(struct closure *closure, struct anonymous$48 *poly, struct _XGC *gc, signed int icoX, signed int icoY, signed int icoW, signed int icoH, signed int prevX, signed int prevY)
+static void drawPoly(struct closure *closure, struct anonymous_48 *poly, struct _XGC *gc, signed int icoX, signed int icoY, signed int icoW, signed int icoH, signed int prevX, signed int prevY)
 {
   signed int *f = poly->f;
   signed int NV = poly->numverts;
   signed int NF = poly->numfaces;
   signed int p0;
   signed int p1;
-  struct anonymous$3 *pv2;
-  struct anonymous$5 *pe;
-  struct anonymous$6 *pxv;
-  struct anonymous$3 v2[120l];
-  struct anonymous$5 edges[180l];
+  struct anonymous_3 *pv2;
+  struct anonymous_5 *pe;
+  struct anonymous_6 *pxv;
+  struct anonymous_3 v2[120l];
+  struct anonymous_5 edges[180l];
   signed int i;
   signed int j;
   signed int k;
@@ -3065,7 +3065,7 @@ static void drawPoly(struct closure *closure, struct anonymous$48 *poly, struct 
   signed int facecolor;
   signed int pcount;
   double pxvz;
-  struct anonymous$3 ppts[20l];
+  struct anonymous_3 ppts[20l];
   closure->xv_buffer = (signed int)!(closure->xv_buffer != 0);
   PartialNonHomTransform(NV, closure->xform, closure->xv[(signed long int)!(closure->xv_buffer != 0)], closure->xv[(signed long int)closure->xv_buffer]);
   pxv = closure->xv[(signed long int)closure->xv_buffer];
@@ -3098,12 +3098,12 @@ static void drawPoly(struct closure *closure, struct anonymous$48 *poly, struct 
     XSync(dpy, 0);
 
   i = NF - 1;
-  signed int *tmp_post$1;
+  signed int *tmp_post_1;
   for( ; i >= 0; pf = pf + (signed long int)pcount)
   {
-    tmp_post$1 = pf;
+    tmp_post_1 = pf;
     pf = pf + 1l;
-    pcount = *tmp_post$1;
+    pcount = *tmp_post_1;
     pxvz = 0.0;
     j = 0;
     for( ; !(j >= pcount); j = j + 1)
@@ -3201,28 +3201,28 @@ static void drawPoly(struct closure *closure, struct anonymous$48 *poly, struct 
 
 // findpoly
 // file ../ico/ico.c line 1142
-static struct anonymous$48 * findpoly(const char *name)
+static struct anonymous_48 * findpoly(const char *name)
 {
   signed int i;
-  struct anonymous$48 *findpoly$$1$$poly;
+  struct anonymous_48 *findpoly__1__poly;
   i = 0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
   for( ; !((unsigned long int)i >= 5ul); i = i + 1)
   {
-    findpoly$$1$$poly = polygons + (signed long int)i;
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(name, findpoly$$1$$poly->longname);
-    if(return_value_strcmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    findpoly__1__poly = polygons + (signed long int)i;
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(name, findpoly__1__poly->longname);
+    if(return_value_strcmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$2=strcmp(name, findpoly$$1$$poly->shortname);
-      tmp_if_expr$3 = return_value_strcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_2=strcmp(name, findpoly__1__poly->shortname);
+      tmp_if_expr_3 = return_value_strcmp_2 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      return findpoly$$1$$poly;
+    if(tmp_if_expr_3)
+      return findpoly__1__poly;
 
   }
   icoFatal("can't find object %s", name);
@@ -3233,13 +3233,13 @@ static struct anonymous$48 * findpoly(const char *name)
 static void giveObjHelp(void)
 {
   signed int i;
-  struct anonymous$48 *giveObjHelp$$1$$poly;
+  struct anonymous_48 *giveObjHelp__1__poly;
   printf("%-16s%-12s  #Vert.  #Edges  #Faces  %-16s\n", (const void *)"Name", (const void *)"ShortName", (const void *)"Dual");
   i = 0;
   for( ; !((unsigned long int)i >= 5ul); i = i + 1)
   {
-    giveObjHelp$$1$$poly = polygons + (signed long int)i;
-    printf("%-16s%-12s%6d%8d%8d    %-16s\n", giveObjHelp$$1$$poly->longname, giveObjHelp$$1$$poly->shortname, giveObjHelp$$1$$poly->numverts, giveObjHelp$$1$$poly->numedges, giveObjHelp$$1$$poly->numfaces, giveObjHelp$$1$$poly->dual);
+    giveObjHelp__1__poly = polygons + (signed long int)i;
+    printf("%-16s%-12s%6d%8d%8d    %-16s\n", giveObjHelp__1__poly->longname, giveObjHelp__1__poly->shortname, giveObjHelp__1__poly->numverts, giveObjHelp__1__poly->numedges, giveObjHelp__1__poly->numfaces, giveObjHelp__1__poly->dual);
   }
 }
 
@@ -3283,7 +3283,7 @@ static void initDBufs(struct closure *closure, unsigned long int fg, unsigned lo
   signed int k;
   signed int m;
   signed int t;
-  struct anonymous$43 *b;
+  struct anonymous_43 *b;
   struct anonymous bgcolor;
   struct anonymous fgcolor;
   closure->nplanesets = dblbuf != 0 && !(multibufext != 0) ? 2 : 1;
@@ -3291,21 +3291,21 @@ static void initDBufs(struct closure *closure, unsigned long int fg, unsigned lo
   closure->pixelsperbuf = 1 << planesperbuf;
   closure->totalplanes = closure->nplanesets * planesperbuf;
   closure->totalpixels = 1 << closure->totalplanes;
-  char *return_value_xalloc$1;
-  return_value_xalloc$1=xalloc((unsigned int)((unsigned long int)closure->totalplanes * sizeof(unsigned long int) /*8ul*/ ));
-  closure->plane_masks = (unsigned long int *)return_value_xalloc$1;
+  char *return_value_xalloc_1;
+  return_value_xalloc_1=xalloc((unsigned int)((unsigned long int)closure->totalplanes * sizeof(unsigned long int) /*8ul*/ ));
+  closure->plane_masks = (unsigned long int *)return_value_xalloc_1;
   closure->dbufnum = 0;
   i = 0;
   for( ; !(i >= closure->nplanesets); i = i + 1)
   {
     b = closure->bufs + (signed long int)i;
     b->plane_masks = closure->plane_masks + (signed long int)(i * planesperbuf);
-    char *return_value_xalloc$2;
-    return_value_xalloc$2=xalloc((unsigned int)((unsigned long int)closure->totalpixels * sizeof(struct anonymous) /*16ul*/ ));
-    b->colors = (struct anonymous *)return_value_xalloc$2;
-    char *return_value_xalloc$3;
-    return_value_xalloc$3=xalloc((unsigned int)((unsigned long int)closure->pixelsperbuf * sizeof(unsigned long int) /*8ul*/ ));
-    b->pixels = (unsigned long int *)return_value_xalloc$3;
+    char *return_value_xalloc_2;
+    return_value_xalloc_2=xalloc((unsigned int)((unsigned long int)closure->totalpixels * sizeof(struct anonymous) /*16ul*/ ));
+    b->colors = (struct anonymous *)return_value_xalloc_2;
+    char *return_value_xalloc_3;
+    return_value_xalloc_3=xalloc((unsigned int)((unsigned long int)closure->pixelsperbuf * sizeof(unsigned long int) /*8ul*/ ));
+    b->pixels = (unsigned long int *)return_value_xalloc_3;
   }
   if(closure->totalplanes == 1)
   {
@@ -3327,7 +3327,7 @@ static void initDBufs(struct closure *closure, unsigned long int fg, unsigned lo
   setBufColor(closure, 0, &bgcolor);
   setBufColor(closure, 1, &fgcolor);
   i = 0;
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_4;
   for( ; !(i >= closure->nplanesets); i = i + 1)
   {
     b = closure->bufs + (signed long int)i;
@@ -3335,11 +3335,11 @@ static void initDBufs(struct closure *closure, unsigned long int fg, unsigned lo
     do
     {
       if(multibufext == 0 && !(dblbuf == 0))
-        tmp_if_expr$4 = closure->pixelsperbuf;
+        tmp_if_expr_4 = closure->pixelsperbuf;
 
       else
-        tmp_if_expr$4 = 1;
-      if(j0 >= tmp_if_expr$4)
+        tmp_if_expr_4 = 1;
+      if(j0 >= tmp_if_expr_4)
         break;
 
       j1 = 0;
@@ -3400,16 +3400,16 @@ static void initDBufs(struct closure *closure, unsigned long int fg, unsigned lo
 
 // initPoly
 // file ../ico/ico.c line 468
-static void initPoly(struct closure *closure, struct anonymous$48 *poly, signed int icoW, signed int icoH)
+static void initPoly(struct closure *closure, struct anonymous_48 *poly, signed int icoW, signed int icoH)
 {
-  struct anonymous$6 *vertices = poly->v;
+  struct anonymous_6 *vertices = poly->v;
   signed int NV = poly->numverts;
   double r1[4l][4l];
   double r2[4l][4l];
   FormatRotateMat((char)120, ((double)5 * 3.1416) / 180.0, r1);
   FormatRotateMat((char)121, ((double)5 * 3.1416) / 180.0, r2);
   ConcatMat(r1, r2, closure->xform);
-  memcpy((void *)(char *)closure->xv[(signed long int)0], (const void *)(char *)vertices, (unsigned long int)NV * sizeof(struct anonymous$6) /*24ul*/ );
+  memcpy((void *)(char *)closure->xv[(signed long int)0], (const void *)(char *)vertices, (unsigned long int)NV * sizeof(struct anonymous_6) /*24ul*/ );
   closure->xv_buffer = 0;
   closure->wo2 = (double)icoW / 2.0;
   closure->ho2 = (double)icoH / 2.0;
@@ -3427,35 +3427,35 @@ signed int main(signed int argc, const char **argv)
   poly=findpoly("icosahedron");
   argv = argv + 1l;
   argc = argc - 1;
-  signed int return_value_strncmp$25;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcmp$22;
-  signed int return_value_strcmp$21;
-  _Bool tmp_if_expr$1;
-  signed int return_value_strcmp$20;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strncmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strncmp$4;
-  signed int return_value_strcmp$3;
+  signed int return_value_strncmp_25;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcmp_22;
+  signed int return_value_strcmp_21;
+  _Bool tmp_if_expr_1;
+  signed int return_value_strcmp_20;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strncmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strncmp_4;
+  signed int return_value_strcmp_3;
   for( ; argc >= 1; argc = argc - 1)
   {
-    signed int return_value_strcmp$26;
-    return_value_strcmp$26=strcmp(*argv, "-display");
-    if(return_value_strcmp$26 == 0)
+    signed int return_value_strcmp_26;
+    return_value_strcmp_26=strcmp(*argv, "-display");
+    if(return_value_strcmp_26 == 0)
     {
       if(!(argc >= 2))
         icoFatal("missing argument for %s", *argv);
@@ -3467,8 +3467,8 @@ signed int main(signed int argc, const char **argv)
 
     else
     {
-      return_value_strncmp$25=strncmp(*argv, "-g", (unsigned long int)2);
-      if(return_value_strncmp$25 == 0)
+      return_value_strncmp_25=strncmp(*argv, "-g", (unsigned long int)2);
+      if(return_value_strncmp_25 == 0)
       {
         if(!(argc >= 2))
           icoFatal("missing argument for %s", *argv);
@@ -3480,14 +3480,14 @@ signed int main(signed int argc, const char **argv)
 
       else
       {
-        return_value_strcmp$24=strcmp(*argv, "-r");
-        if(return_value_strcmp$24 == 0)
+        return_value_strcmp_24=strcmp(*argv, "-r");
+        if(return_value_strcmp_24 == 0)
           useRoot = 1;
 
         else
         {
-          return_value_strcmp$23=strcmp(*argv, "-d");
-          if(return_value_strcmp$23 == 0)
+          return_value_strcmp_23=strcmp(*argv, "-d");
+          if(return_value_strcmp_23 == 0)
           {
             if(!(argc >= 2))
               icoFatal("missing argument for %s", *argv);
@@ -3499,8 +3499,8 @@ signed int main(signed int argc, const char **argv)
 
           else
           {
-            return_value_strcmp$22=strcmp(*argv, "-threads");
-            if(return_value_strcmp$22 == 0)
+            return_value_strcmp_22=strcmp(*argv, "-threads");
+            if(return_value_strcmp_22 == 0)
             {
               if(!(argc >= 2))
                 icoFatal("missing argument for %s", *argv);
@@ -3512,8 +3512,8 @@ signed int main(signed int argc, const char **argv)
 
             else
             {
-              return_value_strcmp$21=strcmp(*argv, "-colors");
-              if(return_value_strcmp$21 == 0)
+              return_value_strcmp_21=strcmp(*argv, "-colors");
+              if(return_value_strcmp_21 == 0)
               {
                 if(!(argc >= 2))
                   icoFatal("missing argument for %s", *argv);
@@ -3525,11 +3525,11 @@ signed int main(signed int argc, const char **argv)
                 do
                 {
                   if(argc >= 1)
-                    tmp_if_expr$1 = (signed int)argv[(signed long int)0][(signed long int)0] != 45 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_1 = (signed int)argv[(signed long int)0][(signed long int)0] != 45 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$1 = (_Bool)0;
-                  if(!tmp_if_expr$1)
+                    tmp_if_expr_1 = (_Bool)0;
+                  if(!tmp_if_expr_1)
                     break;
 
                   argv = argv + 1l;
@@ -3543,17 +3543,17 @@ signed int main(signed int argc, const char **argv)
 
               else
               {
-                return_value_strcmp$20=strcmp(*argv, "-copy");
-                if(!(return_value_strcmp$20 == 0))
+                return_value_strcmp_20=strcmp(*argv, "-copy");
+                if(!(return_value_strcmp_20 == 0))
                 {
-                  return_value_strcmp$19=strcmp(*argv, "-untouched");
-                  if(!(return_value_strcmp$19 == 0))
+                  return_value_strcmp_19=strcmp(*argv, "-untouched");
+                  if(!(return_value_strcmp_19 == 0))
                   {
-                    return_value_strcmp$18=strcmp(*argv, "-undefined");
-                    if(!(return_value_strcmp$18 == 0))
+                    return_value_strcmp_18=strcmp(*argv, "-undefined");
+                    if(!(return_value_strcmp_18 == 0))
                     {
-                      return_value_strcmp$17=strcmp(*argv, "-lw");
-                      if(return_value_strcmp$17 == 0)
+                      return_value_strcmp_17=strcmp(*argv, "-lw");
+                      if(return_value_strcmp_17 == 0)
                       {
                         if(!(argc >= 2))
                           icoFatal("missing argument for %s", *argv);
@@ -3565,14 +3565,14 @@ signed int main(signed int argc, const char **argv)
 
                       else
                       {
-                        return_value_strcmp$16=strcmp(*argv, "-dbl");
-                        if(return_value_strcmp$16 == 0)
+                        return_value_strcmp_16=strcmp(*argv, "-dbl");
+                        if(return_value_strcmp_16 == 0)
                           dblbuf = 1;
 
                         else
                         {
-                          return_value_strcmp$15=strcmp(*argv, "-softdbl");
-                          if(return_value_strcmp$15 == 0)
+                          return_value_strcmp_15=strcmp(*argv, "-softdbl");
+                          if(return_value_strcmp_15 == 0)
                           {
                             dblbuf = 1;
                             multibufext = 0;
@@ -3580,8 +3580,8 @@ signed int main(signed int argc, const char **argv)
 
                           else
                           {
-                            return_value_strncmp$14=strncmp(*argv, "-p", (unsigned long int)2);
-                            if(return_value_strncmp$14 == 0)
+                            return_value_strncmp_14=strncmp(*argv, "-p", (unsigned long int)2);
+                            if(return_value_strncmp_14 == 0)
                             {
                               numcolors=atoi(argv[(signed long int)0] + (signed long int)2);
                               if(numcolors >= 7 || !(numcolors >= 1))
@@ -3593,8 +3593,8 @@ signed int main(signed int argc, const char **argv)
 
                             else
                             {
-                              return_value_strcmp$13=strcmp(*argv, "-bg");
-                              if(return_value_strcmp$13 == 0)
+                              return_value_strcmp_13=strcmp(*argv, "-bg");
+                              if(return_value_strcmp_13 == 0)
                               {
                                 if(!(argc >= 2))
                                   icoFatal("missing argument for %s", *argv);
@@ -3606,26 +3606,26 @@ signed int main(signed int argc, const char **argv)
 
                               else
                               {
-                                return_value_strcmp$12=strcmp(*argv, "-noedges");
-                                if(return_value_strcmp$12 == 0)
+                                return_value_strcmp_12=strcmp(*argv, "-noedges");
+                                if(return_value_strcmp_12 == 0)
                                   doedges = 0;
 
                                 else
                                 {
-                                  return_value_strcmp$11=strcmp(*argv, "-faces");
-                                  if(return_value_strcmp$11 == 0)
+                                  return_value_strcmp_11=strcmp(*argv, "-faces");
+                                  if(return_value_strcmp_11 == 0)
                                     dofaces = 1;
 
                                   else
                                   {
-                                    return_value_strcmp$10=strcmp(*argv, "-i");
-                                    if(return_value_strcmp$10 == 0)
+                                    return_value_strcmp_10=strcmp(*argv, "-i");
+                                    if(return_value_strcmp_10 == 0)
                                       invert = 1;
 
                                     else
                                     {
-                                      return_value_strcmp$9=strcmp(*argv, "-size");
-                                      if(return_value_strcmp$9 == 0)
+                                      return_value_strcmp_9=strcmp(*argv, "-size");
+                                      if(return_value_strcmp_9 == 0)
                                       {
                                         if(!(argc >= 2))
                                           icoFatal("missing argument for %s", *argv);
@@ -3637,8 +3637,8 @@ signed int main(signed int argc, const char **argv)
 
                                       else
                                       {
-                                        return_value_strcmp$8=strcmp(*argv, "-delta");
-                                        if(return_value_strcmp$8 == 0)
+                                        return_value_strcmp_8=strcmp(*argv, "-delta");
+                                        if(return_value_strcmp_8 == 0)
                                         {
                                           if(!(argc >= 2))
                                             icoFatal("missing argument for %s", *argv);
@@ -3650,17 +3650,17 @@ signed int main(signed int argc, const char **argv)
 
                                         else
                                         {
-                                          return_value_strcmp$7=strcmp(*argv, "-sleep");
-                                          if(return_value_strcmp$7 == 0)
+                                          return_value_strcmp_7=strcmp(*argv, "-sleep");
+                                          if(return_value_strcmp_7 == 0)
                                           {
                                             float f;
                                             if(!(argc >= 2))
                                               icoFatal("missing argument for %s", *argv);
 
                                             argv = argv + 1l;
-                                            signed int return_value_sscanf$2;
-                                            return_value_sscanf$2=sscanf(*argv, "%f", &f);
-                                            if(!(return_value_sscanf$2 >= 1))
+                                            signed int return_value_sscanf_2;
+                                            return_value_sscanf_2=sscanf(*argv, "%f", &f);
+                                            if(!(return_value_sscanf_2 >= 1))
                                               icoFatal("invalid argument for %s", argv[(signed long int)-1]);
 
                                             msleepcount = (signed int)((double)f * 1000.0);
@@ -3669,8 +3669,8 @@ signed int main(signed int argc, const char **argv)
 
                                           else
                                           {
-                                            return_value_strcmp$6=strcmp(*argv, "-obj");
-                                            if(return_value_strcmp$6 == 0)
+                                            return_value_strcmp_6=strcmp(*argv, "-obj");
+                                            if(return_value_strcmp_6 == 0)
                                             {
                                               if(!(argc >= 2))
                                                 icoFatal("missing argument for %s", *argv);
@@ -3682,20 +3682,20 @@ signed int main(signed int argc, const char **argv)
 
                                             else
                                             {
-                                              return_value_strcmp$5=strcmp(*argv, "-dsync");
-                                              if(return_value_strcmp$5 == 0)
+                                              return_value_strcmp_5=strcmp(*argv, "-dsync");
+                                              if(return_value_strcmp_5 == 0)
                                                 dsync = 1;
 
                                               else
                                               {
-                                                return_value_strncmp$4=strncmp(*argv, "-sync", (unsigned long int)5);
-                                                if(return_value_strncmp$4 == 0)
+                                                return_value_strncmp_4=strncmp(*argv, "-sync", (unsigned long int)5);
+                                                if(return_value_strncmp_4 == 0)
                                                   xsync = 1;
 
                                                 else
                                                 {
-                                                  return_value_strcmp$3=strcmp(*argv, "-objhelp");
-                                                  if(return_value_strcmp$3 == 0)
+                                                  return_value_strcmp_3=strcmp(*argv, "-objhelp");
+                                                  if(return_value_strcmp_3 == 0)
                                                   {
                                                     giveObjHelp();
                                                     exit(1);
@@ -3743,25 +3743,25 @@ signed int main(signed int argc, const char **argv)
 
   XInitThreads();
   dpy=XOpenDisplay(display);
-  char *return_value_XDisplayName$27;
+  char *return_value_XDisplayName_27;
   if(dpy == ((struct _XDisplay *)NULL))
   {
-    return_value_XDisplayName$27=XDisplayName(display);
-    icoFatal("cannot open display \"%s\"", return_value_XDisplayName$27);
+    return_value_XDisplayName_27=XDisplayName(display);
+    icoFatal("cannot open display \"%s\"", return_value_XDisplayName_27);
   }
 
   wm_delete_window=XInternAtom(dpy, "WM_DELETE_WINDOW", 0);
   if(!(xsync == 0))
     XSynchronize(dpy, 1);
 
-  pthread_cond_init(&count_cond, (const union anonymous$37 *)(void *)0);
+  pthread_cond_init(&count_cond, (const union anonymous_37 *)(void *)0);
   thread_count = nthreads;
   i = 1;
   for( ; nthreads >= i; i = i + 1)
   {
-    char *return_value_xalloc$28;
-    return_value_xalloc$28=xalloc((unsigned int)sizeof(struct closure) /*20504ul*/ );
-    closure = (struct closure *)return_value_xalloc$28;
+    char *return_value_xalloc_28;
+    return_value_xalloc_28=xalloc((unsigned int)sizeof(struct closure) /*20504ul*/ );
+    closure = (struct closure *)return_value_xalloc_28;
     closure->thread_num = i;
     unsigned long int _tmpxthr;
     pthread_create(&_tmpxthr, (const union pthread_attr_t *)(void *)0, do_ico_window, (void *)closure);
@@ -3780,7 +3780,7 @@ static void msleep(unsigned int msecs)
   struct timeval timeout;
   timeout.tv_sec = (signed long int)(msecs / (unsigned int)1000);
   timeout.tv_usec = (signed long int)((msecs % (unsigned int)1000) * (unsigned int)1000);
-  select(1, (struct anonymous$1 *)(void *)0, (struct anonymous$1 *)(void *)0, (struct anonymous$1 *)(void *)0, &timeout);
+  select(1, (struct anonymous_1 *)(void *)0, (struct anonymous_1 *)(void *)0, (struct anonymous_1 *)(void *)0, &timeout);
 }
 
 // predicate
@@ -3812,10 +3812,10 @@ static void setBufColor(struct closure *closure, signed int n, struct anonymous 
   signed int i;
   signed int j;
   signed int cx;
-  struct anonymous$43 *b;
+  struct anonymous_43 *b;
   unsigned long int pix;
   i = 0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(i >= closure->nplanesets); i = i + 1)
   {
     b = closure->bufs + (signed long int)i;
@@ -3823,11 +3823,11 @@ static void setBufColor(struct closure *closure, signed int n, struct anonymous 
     do
     {
       if(multibufext == 0 && !(dblbuf == 0))
-        tmp_if_expr$1 = closure->pixelsperbuf;
+        tmp_if_expr_1 = closure->pixelsperbuf;
 
       else
-        tmp_if_expr$1 = 1;
-      if(j >= tmp_if_expr$1)
+        tmp_if_expr_1 = 1;
+      if(j >= tmp_if_expr_1)
         break;
 
       cx = n + j * closure->pixelsperbuf;
@@ -3855,7 +3855,7 @@ static void setDisplayBuf(struct closure *closure, signed int n, signed int firs
 // file ../ico/ico.c line 487
 static void setDrawBuf(struct closure *closure, signed int n)
 {
-  struct anonymous$31 xgcv;
+  struct anonymous_31 xgcv;
   unsigned long int mask;
   closure->drawbuf = closure->bufs + (signed long int)n;
   xgcv.foreground = closure->drawbuf->pixels[(signed long int)(closure->pixelsperbuf - 1)];
@@ -3875,9 +3875,9 @@ static void setDrawBuf(struct closure *closure, signed int n)
 static char * xalloc(unsigned int nbytes)
 {
   char *p;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)nbytes);
-  p = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)nbytes);
+  p = (char *)return_value_malloc_1;
   if(!(p == ((char *)NULL)))
     return p;
 

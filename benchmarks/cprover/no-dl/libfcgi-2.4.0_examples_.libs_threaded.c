@@ -1,98 +1,98 @@
-// tag-#anon#ST[*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'stdio_stream'||*{SYM#tag-FCGX_Stream#}$SYM#tag-FCGX_Stream#$'fcgx_stream'|]
+// tag-#anon#ST[*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'stdio_stream'||*{SYM#tag-FCGX_Stream#}_SYM#tag-FCGX_Stream#_'fcgx_stream'|]
 // file ../include/fcgi_stdio.h line 38
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{V(*{V}$V$|S32)->V}$V(*{V}$V$|S32)->V$'procPtr'||*{V}$V$'clientData'||S32'fd'||S32'len'||S32'offset'||U32'$pad0'||*{V}$V$'buf'||S32'inUse'||U32'$pad1'|]
+// tag-#anon#ST[*{V(*{V}_V_|S32)->V}_V(*{V}_V_|S32)->V_'procPtr'||*{V}_V_'clientData'||S32'fd'||S32'len'||S32'offset'||U32'_pad0'||*{V}_V_'buf'||S32'inUse'||U32'_pad1'|]
 // file os_unix.c line 70
 struct anonymous;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'__count'||SYM#tag-#anon#UN[U32'__wch'||ARR4{S8}$S8$'__wchb'|]#'__value'|]
+// tag-#anon#ST[S32'__count'||SYM#tag-#anon#UN[U32'__wch'||ARR4{S8}_S8_'__wchb'|]#'__value'|]
 // file /usr/include/wchar.h line 82
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S64'__pos'||SYM#tag-#anon#ST[S32'__count'||SYM#tag-#anon#UN[U32'__wch'||ARR4{S8}$S8$'__wchb'|]#'__value'|]#'__state'|]
+// tag-#anon#ST[S64'__pos'||SYM#tag-#anon#ST[S32'__count'||SYM#tag-#anon#UN[U32'__wch'||ARR4{S8}_S8_'__wchb'|]#'__value'|]#'__state'|]
 // file /usr/include/_G_config.h line 21
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[U8'version'||U8'type'||U8'requestIdB1'||U8'requestIdB0'||U8'contentLengthB1'||U8'contentLengthB0'||U8'paddingLength'||U8'reserved'|]#'header'||SYM#tag-#anon#ST[U8'appStatusB3'||U8'appStatusB2'||U8'appStatusB1'||U8'appStatusB0'||U8'protocolStatus'||ARR3{U8}$U8$'reserved'|]#'body'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[U8'version'||U8'type'||U8'requestIdB1'||U8'requestIdB0'||U8'contentLengthB1'||U8'contentLengthB0'||U8'paddingLength'||U8'reserved'|]#'header'||SYM#tag-#anon#ST[U8'appStatusB3'||U8'appStatusB2'||U8'appStatusB1'||U8'appStatusB0'||U8'protocolStatus'||ARR3{U8}_U8_'reserved'|]#'body'|]
 // file ../include/fastcgi.h line 103
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[U8'version'||U8'type'||U8'requestIdB1'||U8'requestIdB0'||U8'contentLengthB1'||U8'contentLengthB0'||U8'paddingLength'||U8'reserved'|]#'header'||SYM#tag-#anon#ST[U8'type'||ARR7{U8}$U8$'reserved'|]#'body'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[U8'version'||U8'type'||U8'requestIdB1'||U8'requestIdB0'||U8'contentLengthB1'||U8'contentLengthB0'||U8'paddingLength'||U8'reserved'|]#'header'||SYM#tag-#anon#ST[U8'type'||ARR7{U8}_U8_'reserved'|]#'body'|]
 // file ../include/fastcgi.h line 130
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[U8'appStatusB3'||U8'appStatusB2'||U8'appStatusB1'||U8'appStatusB0'||U8'protocolStatus'||ARR3{U8}$U8$'reserved'|]
+// tag-#anon#ST[U8'appStatusB3'||U8'appStatusB2'||U8'appStatusB1'||U8'appStatusB0'||U8'protocolStatus'||ARR3{U8}_U8_'reserved'|]
 // file ../include/fastcgi.h line 94
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[U8'roleB1'||U8'roleB0'||U8'flags'||ARR5{U8}$U8$'reserved'|]
+// tag-#anon#ST[U8'roleB1'||U8'roleB0'||U8'flags'||ARR5{U8}_U8_'reserved'|]
 // file ../include/fastcgi.h line 69
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[U8'type'||ARR7{U8}$U8$'reserved'|]
+// tag-#anon#ST[U8'type'||ARR7{U8}_U8_'reserved'|]
 // file ../include/fastcgi.h line 125
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[U8'version'||U8'type'||U8'requestIdB1'||U8'requestIdB0'||U8'contentLengthB1'||U8'contentLengthB0'||U8'paddingLength'||U8'reserved'|]
 // file ../include/fastcgi.h line 23
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[U32'__wch'||ARR4{S8}$S8$'__wchb'|]
+// tag-#anon#UN[U32'__wch'||ARR4{S8}_S8_'__wchb'|]
 // file /usr/include/wchar.h line 85
-union anonymous$8;
+union anonymous_8;
 
 // tag-FCGX_Request
 // file ../include/fcgiapp.h line 91
@@ -203,7 +203,7 @@ signed int FCGI_Accept(void);
 void FCGI_Finish(void);
 // FCGI_OpenFromFILE
 // file fcgi_stdio.c line 270
-static struct anonymous$16 * FCGI_OpenFromFILE(struct _IO_FILE *stream);
+static struct anonymous_16 * FCGI_OpenFromFILE(struct _IO_FILE *stream);
 // FCGI_SetExitStatus
 // file fcgi_stdio.c line 233
 void FCGI_SetExitStatus(signed int status);
@@ -212,64 +212,64 @@ void FCGI_SetExitStatus(signed int status);
 signed int FCGI_StartFilterData(void);
 // FCGI_clearerr
 // file fcgi_stdio.c line 716
-void FCGI_clearerr(struct anonymous$16 *fp);
+void FCGI_clearerr(struct anonymous_16 *fp);
 // FCGI_fclose
 // file fcgi_stdio.c line 307
-signed int FCGI_fclose(struct anonymous$16 *fp);
+signed int FCGI_fclose(struct anonymous_16 *fp);
 // FCGI_fdopen
 // file fcgi_stdio.c line 763
-struct anonymous$16 * FCGI_fdopen(signed int fd, const char *mode);
+struct anonymous_16 * FCGI_fdopen(signed int fd, const char *mode);
 // FCGI_feof
 // file fcgi_stdio.c line 695
-signed int FCGI_feof(struct anonymous$16 *fp);
+signed int FCGI_feof(struct anonymous_16 *fp);
 // FCGI_ferror
 // file fcgi_stdio.c line 706
-signed int FCGI_ferror(struct anonymous$16 *fp);
+signed int FCGI_ferror(struct anonymous_16 *fp);
 // FCGI_fflush
 // file fcgi_stdio.c line 323
-signed int FCGI_fflush(struct anonymous$16 *fp);
+signed int FCGI_fflush(struct anonymous_16 *fp);
 // FCGI_fgetc
 // file fcgi_stdio.c line 450
-signed int FCGI_fgetc(struct anonymous$16 *fp);
+signed int FCGI_fgetc(struct anonymous_16 *fp);
 // FCGI_fgetpos
 // file fcgi_stdio.c line 417
-signed int FCGI_fgetpos(struct anonymous$16 *fp, struct anonymous$11 *pos);
+signed int FCGI_fgetpos(struct anonymous_16 *fp, struct anonymous_11 *pos);
 // FCGI_fgets
 // file fcgi_stdio.c line 482
-char * FCGI_fgets(char *str, signed int size, struct anonymous$16 *fp);
+char * FCGI_fgets(char *str, signed int size, struct anonymous_16 *fp);
 // FCGI_fileno
 // file fcgi_stdio.c line 755
-signed int FCGI_fileno(struct anonymous$16 *fp);
+signed int FCGI_fileno(struct anonymous_16 *fp);
 // FCGI_fopen
 // file fcgi_stdio.c line 296
-struct anonymous$16 * FCGI_fopen(const char *path, const char *mode);
+struct anonymous_16 * FCGI_fopen(const char *path, const char *mode);
 // FCGI_fprintf
 // file fcgi_stdio.c line 597
-signed int FCGI_fprintf(struct anonymous$16 *fp, const char *format, ...);
+signed int FCGI_fprintf(struct anonymous_16 *fp, const char *format, ...);
 // FCGI_fputc
 // file fcgi_stdio.c line 537
-signed int FCGI_fputc(signed int c, struct anonymous$16 *fp);
+signed int FCGI_fputc(signed int c, struct anonymous_16 *fp);
 // FCGI_fputs
 // file fcgi_stdio.c line 560
-signed int FCGI_fputs(const char *str, struct anonymous$16 *fp);
+signed int FCGI_fputs(const char *str, struct anonymous_16 *fp);
 // FCGI_fread
 // file fcgi_stdio.c line 656
-unsigned long int FCGI_fread(void *ptr, unsigned long int size, unsigned long int nmemb, struct anonymous$16 *fp);
+unsigned long int FCGI_fread(void *ptr, unsigned long int size, unsigned long int nmemb, struct anonymous_16 *fp);
 // FCGI_freopen
 // file fcgi_stdio.c line 334
-struct anonymous$16 * FCGI_freopen(const char *path, const char *mode, struct anonymous$16 *fp);
+struct anonymous_16 * FCGI_freopen(const char *path, const char *mode, struct anonymous_16 *fp);
 // FCGI_fseek
 // file fcgi_stdio.c line 388
-signed int FCGI_fseek(struct anonymous$16 *fp, signed long int offset, signed int whence);
+signed int FCGI_fseek(struct anonymous_16 *fp, signed long int offset, signed int whence);
 // FCGI_fsetpos
 // file fcgi_stdio.c line 427
-signed int FCGI_fsetpos(struct anonymous$16 *fp, const struct anonymous$11 *pos);
+signed int FCGI_fsetpos(struct anonymous_16 *fp, const struct anonymous_11 *pos);
 // FCGI_ftell
 // file fcgi_stdio.c line 398
-signed int FCGI_ftell(struct anonymous$16 *fp);
+signed int FCGI_ftell(struct anonymous_16 *fp);
 // FCGI_fwrite
 // file fcgi_stdio.c line 671
-unsigned long int FCGI_fwrite(void *ptr, unsigned long int size, unsigned long int nmemb, struct anonymous$16 *fp);
+unsigned long int FCGI_fwrite(void *ptr, unsigned long int size, unsigned long int nmemb, struct anonymous_16 *fp);
 // FCGI_getchar
 // file fcgi_stdio.c line 459
 signed int FCGI_getchar(void);
@@ -278,13 +278,13 @@ signed int FCGI_getchar(void);
 char * FCGI_gets(char *str);
 // FCGI_pclose
 // file fcgi_stdio.c line 785
-signed int FCGI_pclose(struct anonymous$16 *fp);
+signed int FCGI_pclose(struct anonymous_16 *fp);
 // FCGI_perror
 // file fcgi_stdio.c line 249
 void FCGI_perror(const char *str);
 // FCGI_popen
 // file fcgi_stdio.c line 774
-struct anonymous$16 * FCGI_popen(const char *cmd, const char *type);
+struct anonymous_16 * FCGI_popen(const char *cmd, const char *type);
 // FCGI_printf
 // file fcgi_stdio.c line 610
 signed int FCGI_printf(const char *format, ...);
@@ -296,22 +296,22 @@ signed int FCGI_putchar(signed int c);
 signed int FCGI_puts(const char *str);
 // FCGI_rewind
 // file fcgi_stdio.c line 408
-void FCGI_rewind(struct anonymous$16 *fp);
+void FCGI_rewind(struct anonymous_16 *fp);
 // FCGI_setbuf
 // file fcgi_stdio.c line 373
-void FCGI_setbuf(struct anonymous$16 *fp, char *buf);
+void FCGI_setbuf(struct anonymous_16 *fp, char *buf);
 // FCGI_setvbuf
 // file fcgi_stdio.c line 364
-signed int FCGI_setvbuf(struct anonymous$16 *fp, char *buf, signed int bufmode, unsigned long int size);
+signed int FCGI_setvbuf(struct anonymous_16 *fp, char *buf, signed int bufmode, unsigned long int size);
 // FCGI_tmpfile
 // file fcgi_stdio.c line 735
-struct anonymous$16 * FCGI_tmpfile(void);
+struct anonymous_16 * FCGI_tmpfile(void);
 // FCGI_ungetc
 // file fcgi_stdio.c line 464
-signed int FCGI_ungetc(signed int c, struct anonymous$16 *fp);
+signed int FCGI_ungetc(signed int c, struct anonymous_16 *fp);
 // FCGI_vfprintf
 // file fcgi_stdio.c line 629
-signed int FCGI_vfprintf(struct anonymous$16 *fp, const char *format, void **ap);
+signed int FCGI_vfprintf(struct anonymous_16 *fp, const char *format, void **ap);
 // FCGI_vprintf
 // file fcgi_stdio.c line 638
 signed int FCGI_vprintf(const char *format, void **ap);
@@ -413,13 +413,13 @@ static void FreeParams(struct Params **paramsPtrPtr);
 static void GrowAsyncTable(void);
 // MakeEndRequestBody
 // file fcgiapp.c line 1230
-static struct anonymous$15 MakeEndRequestBody(signed int appStatus, signed int protocolStatus);
+static struct anonymous_15 MakeEndRequestBody(signed int appStatus, signed int protocolStatus);
 // MakeHeader
 // file fcgiapp.c line 1201
-static struct anonymous$13 MakeHeader(signed int type, signed int requestId, signed int contentLength, signed int paddingLength);
+static struct anonymous_13 MakeHeader(signed int type, signed int requestId, signed int contentLength, signed int paddingLength);
 // MakeUnknownTypeBody
 // file fcgiapp.c line 1253
-static struct anonymous$1 MakeUnknownTypeBody(signed int type);
+static struct anonymous_1 MakeUnknownTypeBody(signed int type);
 // Malloc
 // file fcgiapp.c line 79
 static void * Malloc(unsigned long int size);
@@ -441,21 +441,21 @@ signed int OS_Accept(signed int listen_sock, signed int fail_on_intr, const char
 // OS_AsyncRead
 // file os_unix.c line 644
 signed int OS_AsyncRead(signed int fd, signed int offset, void *buf, signed int len, void (*procPtr)(void *, signed int), void *clientData);
-// OS_AsyncRead::procPtr$object
+// OS_AsyncRead::procPtr_object
 //
-void procPtr$object(void *, signed int);
+void procPtr_object(void *, signed int);
 // OS_AsyncReadStdin
 // file os_unix.c line 585
 signed int OS_AsyncReadStdin(void *buf, signed int len, void (*procPtr)(void *, signed int), void *clientData);
-// OS_AsyncReadStdin::procPtr$object
+// OS_AsyncReadStdin::procPtr_object
 //
-void procPtr$object(void *, signed int);
+void procPtr_object(void *, signed int);
 // OS_AsyncWrite
 // file os_unix.c line 694
 signed int OS_AsyncWrite(signed int fd, signed int offset, void *buf, signed int len, void (*procPtr)(void *, signed int), void *clientData);
-// OS_AsyncWrite::procPtr$object
+// OS_AsyncWrite::procPtr_object
 //
-void procPtr$object(void *, signed int);
+void procPtr_object(void *, signed int);
 // OS_BuildSockAddrUn
 // file os_unix.c line 249
 static signed int OS_BuildSockAddrUn(const char *bindPath, struct sockaddr_un *servAddrPtr, signed int *servAddrLen);
@@ -471,9 +471,9 @@ signed int OS_CreateLocalIpcFd(const char *bindPath, signed int backlog);
 // OS_DoIo
 // file os_unix.c line 830
 signed int OS_DoIo(struct timeval *tmo);
-// OS_DoIo::1::procPtr$object
+// OS_DoIo::1::procPtr_object
 //
-void procPtr$object(void *, signed int);
+void procPtr_object(void *, signed int);
 // OS_FcgiConnect
 // file os_unix.c line 402
 signed int OS_FcgiConnect(char *bindPath);
@@ -518,7 +518,7 @@ signed int OS_Write(signed int fd, char *buf, unsigned long int len);
 static signed int ProcessBeginRecord(signed int requestId, struct FCGX_Stream *stream);
 // ProcessHeader
 // file fcgiapp.c line 1589
-static signed int ProcessHeader(struct anonymous$13 header, struct FCGX_Stream *stream);
+static signed int ProcessHeader(struct anonymous_13 header, struct FCGX_Stream *stream);
 // ProcessManagementRecord
 // file fcgiapp.c line 1454
 static signed int ProcessManagementRecord(signed int type, struct FCGX_Stream *stream);
@@ -608,7 +608,7 @@ extern signed int fflush(struct _IO_FILE *);
 extern signed int fgetc(struct _IO_FILE *);
 // fgetpos
 // file /usr/include/stdio.h line 798
-extern signed int fgetpos(struct _IO_FILE *, struct anonymous$11 *);
+extern signed int fgetpos(struct _IO_FILE *, struct anonymous_11 *);
 // fgets
 // file /usr/include/stdio.h line 622
 extern char * fgets(char *, signed int, struct _IO_FILE *);
@@ -647,7 +647,7 @@ extern double frexp(double, signed int *);
 extern signed int fseek(struct _IO_FILE *, signed long int, signed int);
 // fsetpos
 // file /usr/include/stdio.h line 803
-extern signed int fsetpos(struct _IO_FILE *, const struct anonymous$11 *);
+extern signed int fsetpos(struct _IO_FILE *, const struct anonymous_11 *);
 // ftell
 // file /usr/include/stdio.h line 754
 extern signed long int ftell(struct _IO_FILE *);
@@ -716,10 +716,10 @@ extern struct _IO_FILE * popen(const char *, const char *);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$24 *);
+extern signed int pthread_mutex_lock(union anonymous_24 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$24 *);
+extern signed int pthread_mutex_unlock(union anonymous_24 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -731,7 +731,7 @@ extern void * realloc(void *, unsigned long int);
 extern void rewind(struct _IO_FILE *);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$0 *, struct anonymous$0 *, struct anonymous$0 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_0 *, struct anonymous_0 *, struct anonymous_0 *, struct timeval *);
 // setbuf
 // file /usr/include/stdio.h line 332
 extern void setbuf(struct _IO_FILE *, char *);
@@ -749,7 +749,7 @@ extern signed int shutdown(signed int, signed int);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$3 *);
+extern signed int sigemptyset(struct anonymous_3 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -805,7 +805,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file fcgiapp.c line 1362
 static signed int write_it_all(signed int fd, char *buf, signed int len);
 
-struct anonymous$16
+struct anonymous_16
 {
   // stdio_stream
   struct _IO_FILE *stdio_stream;
@@ -831,7 +831,7 @@ struct anonymous
   signed int inUse;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // _call_addr
   void *_call_addr;
@@ -841,7 +841,7 @@ struct anonymous$20
   unsigned int _arch;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_addr
   void *si_addr;
@@ -849,19 +849,19 @@ struct anonymous$18
   signed short int si_addr_lsb;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __val
   unsigned long int __val[16l];
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __wch
   unsigned int __wch;
@@ -869,15 +869,15 @@ union anonymous$8
   char __wchb[4l];
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // __count
   signed int __count;
   // __value
-  union anonymous$8 __value;
+  union anonymous_8 __value;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_pid
   signed int si_pid;
@@ -885,7 +885,7 @@ struct anonymous$10
   unsigned int si_uid;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_pid
   signed int si_pid;
@@ -907,7 +907,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_pid
   signed int si_pid;
@@ -917,7 +917,7 @@ struct anonymous$14
   union sigval si_sigval;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_tid
   signed int si_tid;
@@ -927,7 +927,7 @@ struct anonymous$12
   union sigval si_sigval;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_band
   signed long int si_band;
@@ -935,27 +935,27 @@ struct anonymous$19
   signed int si_fd;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$10 _kill;
+  struct anonymous_10 _kill;
   // _timer
-  struct anonymous$12 _timer;
+  struct anonymous_12 _timer;
   // _rt
-  struct anonymous$14 _rt;
+  struct anonymous_14 _rt;
   // _sigchld
-  struct anonymous$17 _sigchld;
+  struct anonymous_17 _sigchld;
   // _sigfault
-  struct anonymous$18 _sigfault;
+  struct anonymous_18 _sigfault;
   // _sigpoll
-  struct anonymous$19 _sigpoll;
+  struct anonymous_19 _sigpoll;
   // _sigsys
-  struct anonymous$20 _sigsys;
+  struct anonymous_20 _sigsys;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_signo
   signed int si_signo;
@@ -964,18 +964,18 @@ struct anonymous$5
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$7 _sifields;
+  union anonymous_7 _sifields;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __pos
   signed long int __pos;
   // __state
-  struct anonymous$9 __state;
+  struct anonymous_9 __state;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // version
   unsigned char version;
@@ -995,7 +995,7 @@ struct anonymous$13
   unsigned char reserved;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // appStatusB3
   unsigned char appStatusB3;
@@ -1011,15 +1011,15 @@ struct anonymous$15
   unsigned char reserved[3l];
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // header
-  struct anonymous$13 header;
+  struct anonymous_13 header;
   // body
-  struct anonymous$15 body;
+  struct anonymous_15 body;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // type
   unsigned char type;
@@ -1027,15 +1027,15 @@ struct anonymous$1
   unsigned char reserved[7l];
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // header
-  struct anonymous$13 header;
+  struct anonymous_13 header;
   // body
-  struct anonymous$1 body;
+  struct anonymous_1 body;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // roleB1
   unsigned char roleB1;
@@ -1047,12 +1047,12 @@ struct anonymous$23
   unsigned char reserved[5l];
 };
 
-union anonymous$6
+union anonymous_6
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$5 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_5 *, void *);
 };
 
 struct __pthread_internal_list
@@ -1083,7 +1083,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1338,9 +1338,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$6 __sigaction_handler;
+  union anonymous_6 __sigaction_handler;
   // sa_mask
-  struct anonymous$3 sa_mask;
+  struct anonymous_3 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1358,7 +1358,7 @@ struct timeval
 
 // _fcgi_sF
 // file fcgi_stdio.c line 62
-struct anonymous$16 _fcgi_sF[3l];
+struct anonymous_16 _fcgi_sF[3l];
 // acceptCalled
 // file fcgi_stdio.c line 110
 static signed int acceptCalled = 0;
@@ -1386,9 +1386,9 @@ static signed int isFastCGI = -1;
 // libInitialized
 // file fcgiapp.c line 69
 static signed int libInitialized = 0;
-// libInitialized$link1
+// libInitialized_link1
 // file os_unix.c line 93
-static signed int libInitialized$link1 = 0;
+static signed int libInitialized_link1 = 0;
 // libfcgiIsAfUnixKeeperPollTimeout
 // file os_unix.c line 108
 static signed int libfcgiIsAfUnixKeeperPollTimeout = 2000;
@@ -1406,10 +1406,10 @@ static signed int numRdPosted = 0;
 static signed int numWrPosted = 0;
 // readFdSet
 // file os_unix.c line 95
-static struct anonymous$0 readFdSet;
+static struct anonymous_0 readFdSet;
 // readFdSetPost
 // file os_unix.c line 98
-static struct anonymous$0 readFdSetPost;
+static struct anonymous_0 readFdSetPost;
 // shutdownNow
 // file os_unix.c line 105
 static signed int shutdownNow = 0;
@@ -1433,10 +1433,10 @@ static struct FCGX_Request the_request;
 static char *webServerAddressList = (char *)(void *)0;
 // writeFdSet
 // file os_unix.c line 96
-static struct anonymous$0 writeFdSet;
+static struct anonymous_0 writeFdSet;
 // writeFdSetPost
 // file os_unix.c line 100
-static struct anonymous$0 writeFdSetPost;
+static struct anonymous_0 writeFdSetPost;
 
 // AcquireLock
 // file os_unix.c line 1000
@@ -1469,14 +1469,14 @@ static signed int ClientAddrOK(struct sockaddr_in *saPtr, const char *clientList
   char *clientListCopy;
   char *cur;
   char *next;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(clientList == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)*clientList == 0 ? (_Bool)1 : (_Bool)0;
-  char *tmp_post$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)*clientList == 0 ? (_Bool)1 : (_Bool)0;
+  char *tmp_post_2;
+  if(tmp_if_expr_1)
     return 1;
 
   else
@@ -1488,14 +1488,14 @@ static signed int ClientAddrOK(struct sockaddr_in *saPtr, const char *clientList
       next=strchr(cur, 44);
       if(!(next == ((char *)NULL)))
       {
-        tmp_post$2 = next;
+        tmp_post_2 = next;
         next = next + 1l;
-        *tmp_post$2 = (char)0;
+        *tmp_post_2 = (char)0;
       }
 
-      unsigned int return_value_inet_addr$3;
-      return_value_inet_addr$3=inet_addr(cur);
-      if(return_value_inet_addr$3 == saPtr->sin_addr.s_addr)
+      unsigned int return_value_inet_addr_3;
+      return_value_inet_addr_3=inet_addr(cur);
+      if(return_value_inet_addr_3 == saPtr->sin_addr.s_addr)
       {
         result = 1;
         break;
@@ -1514,15 +1514,15 @@ static void CopyAndAdvance(char **destPtr, char **srcPtr, signed int n)
   char *dest = *destPtr;
   char *src = *srcPtr;
   signed int i = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
+  char *tmp_post_1;
+  char *tmp_post_2;
   for( ; !(i >= n); i = i + 1)
   {
-    tmp_post$1 = dest;
+    tmp_post_1 = dest;
     dest = dest + 1l;
-    tmp_post$2 = src;
+    tmp_post_2 = src;
     src = src + 1l;
-    *tmp_post$1 = *tmp_post$2;
+    *tmp_post_1 = *tmp_post_2;
   }
   *destPtr = dest;
   *srcPtr = src;
@@ -1537,13 +1537,13 @@ static void EmptyBuffProc(struct FCGX_Stream *stream, signed int doClose)
   signed int eLen;
   if(data->rawWrite == 0)
   {
-    cLen = (signed int)((unsigned long int)(stream->wrNext - data->buff) - sizeof(struct anonymous$13) /*8ul*/ );
+    cLen = (signed int)((unsigned long int)(stream->wrNext - data->buff) - sizeof(struct anonymous_13) /*8ul*/ );
     if(cLen >= 1)
     {
       eLen=AlignInt8((unsigned int)cLen);
       memset((void *)stream->wrNext, 0, (unsigned long int)(eLen - cLen));
       stream->wrNext = stream->wrNext + (signed long int)(eLen - cLen);
-      *((struct anonymous$13 *)data->buff)=MakeHeader(data->type, data->reqDataPtr->requestId, cLen, eLen - cLen);
+      *((struct anonymous_13 *)data->buff)=MakeHeader(data->type, data->reqDataPtr->requestId, cLen, eLen - cLen);
     }
 
     else
@@ -1556,13 +1556,13 @@ static void EmptyBuffProc(struct FCGX_Stream *stream, signed int doClose)
   if(!(stream->wrNext == data->buff))
   {
     data->isAnythingWritten = 1;
-    signed int return_value_write_it_all$2;
-    return_value_write_it_all$2=write_it_all(data->reqDataPtr->ipcFd, (char *)data->buff, (signed int)(stream->wrNext - data->buff));
-    if(!(return_value_write_it_all$2 >= 0))
+    signed int return_value_write_it_all_2;
+    return_value_write_it_all_2=write_it_all(data->reqDataPtr->ipcFd, (char *)data->buff, (signed int)(stream->wrNext - data->buff));
+    if(!(return_value_write_it_all_2 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      SetError(stream, *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      SetError(stream, *return_value___errno_location_1);
       goto __CPROVER_DUMP_L7;
     }
 
@@ -1570,7 +1570,7 @@ static void EmptyBuffProc(struct FCGX_Stream *stream, signed int doClose)
   }
 
   if(data->rawWrite == 0)
-    stream->wrNext = stream->wrNext + (signed long int)sizeof(struct anonymous$13) /*8ul*/ ;
+    stream->wrNext = stream->wrNext + (signed long int)sizeof(struct anonymous_13) /*8ul*/ ;
 
 
 __CPROVER_DUMP_L7:
@@ -1641,18 +1641,18 @@ void FCGI_Finish(void)
 
 // FCGI_OpenFromFILE
 // file fcgi_stdio.c line 270
-static struct anonymous$16 * FCGI_OpenFromFILE(struct _IO_FILE *stream)
+static struct anonymous_16 * FCGI_OpenFromFILE(struct _IO_FILE *stream)
 {
-  struct anonymous$16 *fp;
+  struct anonymous_16 *fp;
   if(stream == ((struct _IO_FILE *)NULL))
-    return (struct anonymous$16 *)(void *)0;
+    return (struct anonymous_16 *)(void *)0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct anonymous$16) /*16ul*/ );
-    fp = (struct anonymous$16 *)return_value_malloc$1;
-    if(!(fp == ((struct anonymous$16 *)NULL)))
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct anonymous_16) /*16ul*/ );
+    fp = (struct anonymous_16 *)return_value_malloc_1;
+    if(!(fp == ((struct anonymous_16 *)NULL)))
     {
       fp->stdio_stream = stream;
       fp->fcgx_stream = (struct FCGX_Stream *)(void *)0;
@@ -1680,15 +1680,15 @@ signed int FCGI_StartFilterData(void)
 
   else
   {
-    signed int return_value_FCGX_StartFilterData$1;
-    return_value_FCGX_StartFilterData$1=FCGX_StartFilterData((&_fcgi_sF[(signed long int)0])->fcgx_stream);
-    return return_value_FCGX_StartFilterData$1;
+    signed int return_value_FCGX_StartFilterData_1;
+    return_value_FCGX_StartFilterData_1=FCGX_StartFilterData((&_fcgi_sF[(signed long int)0])->fcgx_stream);
+    return return_value_FCGX_StartFilterData_1;
   }
 }
 
 // FCGI_clearerr
 // file fcgi_stdio.c line 716
-void FCGI_clearerr(struct anonymous$16 *fp)
+void FCGI_clearerr(struct anonymous_16 *fp)
 {
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
     clearerr(fp->stdio_stream);
@@ -1701,7 +1701,7 @@ void FCGI_clearerr(struct anonymous$16 *fp)
 
 // FCGI_fclose
 // file fcgi_stdio.c line 307
-signed int FCGI_fclose(struct anonymous$16 *fp)
+signed int FCGI_fclose(struct anonymous_16 *fp)
 {
   signed int n = -1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
@@ -1733,13 +1733,13 @@ signed int FCGI_fclose(struct anonymous$16 *fp)
 
 // FCGI_fdopen
 // file fcgi_stdio.c line 763
-struct anonymous$16 * FCGI_fdopen(signed int fd, const char *mode)
+struct anonymous_16 * FCGI_fdopen(signed int fd, const char *mode)
 {
   struct _IO_FILE *file;
   file=fdopen(fd, mode);
-  struct anonymous$16 *fcgi_file;
+  struct anonymous_16 *fcgi_file;
   fcgi_file=FCGI_OpenFromFILE(file);
-  if(fcgi_file == ((struct anonymous$16 *)NULL) && !(file == ((struct _IO_FILE *)NULL)))
+  if(fcgi_file == ((struct anonymous_16 *)NULL) && !(file == ((struct _IO_FILE *)NULL)))
     fclose(file);
 
   return fcgi_file;
@@ -1747,21 +1747,21 @@ struct anonymous$16 * FCGI_fdopen(signed int fd, const char *mode)
 
 // FCGI_feof
 // file fcgi_stdio.c line 695
-signed int FCGI_feof(struct anonymous$16 *fp)
+signed int FCGI_feof(struct anonymous_16 *fp)
 {
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_feof$1;
-    return_value_feof$1=feof(fp->stdio_stream);
-    return return_value_feof$1;
+    signed int return_value_feof_1;
+    return_value_feof_1=feof(fp->stdio_stream);
+    return return_value_feof_1;
   }
 
   else
     if(!(fp->fcgx_stream == ((struct FCGX_Stream *)NULL)))
     {
-      signed int return_value_FCGX_HasSeenEOF$2;
-      return_value_FCGX_HasSeenEOF$2=FCGX_HasSeenEOF(fp->fcgx_stream);
-      return return_value_FCGX_HasSeenEOF$2;
+      signed int return_value_FCGX_HasSeenEOF_2;
+      return_value_FCGX_HasSeenEOF_2=FCGX_HasSeenEOF(fp->fcgx_stream);
+      return return_value_FCGX_HasSeenEOF_2;
     }
 
   return -1;
@@ -1769,21 +1769,21 @@ signed int FCGI_feof(struct anonymous$16 *fp)
 
 // FCGI_ferror
 // file fcgi_stdio.c line 706
-signed int FCGI_ferror(struct anonymous$16 *fp)
+signed int FCGI_ferror(struct anonymous_16 *fp)
 {
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_ferror$1;
-    return_value_ferror$1=ferror(fp->stdio_stream);
-    return return_value_ferror$1;
+    signed int return_value_ferror_1;
+    return_value_ferror_1=ferror(fp->stdio_stream);
+    return return_value_ferror_1;
   }
 
   else
     if(!(fp->fcgx_stream == ((struct FCGX_Stream *)NULL)))
     {
-      signed int return_value_FCGX_GetError$2;
-      return_value_FCGX_GetError$2=FCGX_GetError(fp->fcgx_stream);
-      return return_value_FCGX_GetError$2;
+      signed int return_value_FCGX_GetError_2;
+      return_value_FCGX_GetError_2=FCGX_GetError(fp->fcgx_stream);
+      return return_value_FCGX_GetError_2;
     }
 
   return -1;
@@ -1791,30 +1791,30 @@ signed int FCGI_ferror(struct anonymous$16 *fp)
 
 // FCGI_fflush
 // file fcgi_stdio.c line 323
-signed int FCGI_fflush(struct anonymous$16 *fp)
+signed int FCGI_fflush(struct anonymous_16 *fp)
 {
-  signed int return_value_fflush$1;
-  signed int return_value_fflush$2;
-  signed int return_value_FCGX_FFlush$3;
-  if(fp == ((struct anonymous$16 *)NULL))
+  signed int return_value_fflush_1;
+  signed int return_value_fflush_2;
+  signed int return_value_FCGX_FFlush_3;
+  if(fp == ((struct anonymous_16 *)NULL))
   {
-    return_value_fflush$1=fflush((struct _IO_FILE *)(void *)0);
-    return return_value_fflush$1;
+    return_value_fflush_1=fflush((struct _IO_FILE *)(void *)0);
+    return return_value_fflush_1;
   }
 
   else
   {
     if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
     {
-      return_value_fflush$2=fflush(fp->stdio_stream);
-      return return_value_fflush$2;
+      return_value_fflush_2=fflush(fp->stdio_stream);
+      return return_value_fflush_2;
     }
 
     else
       if(!(fp->fcgx_stream == ((struct FCGX_Stream *)NULL)))
       {
-        return_value_FCGX_FFlush$3=FCGX_FFlush(fp->fcgx_stream);
-        return return_value_FCGX_FFlush$3;
+        return_value_FCGX_FFlush_3=FCGX_FFlush(fp->fcgx_stream);
+        return return_value_FCGX_FFlush_3;
       }
 
     return -1;
@@ -1823,21 +1823,21 @@ signed int FCGI_fflush(struct anonymous$16 *fp)
 
 // FCGI_fgetc
 // file fcgi_stdio.c line 450
-signed int FCGI_fgetc(struct anonymous$16 *fp)
+signed int FCGI_fgetc(struct anonymous_16 *fp)
 {
-  signed int return_value_fgetc$1;
-  signed int return_value_FCGX_GetChar$2;
+  signed int return_value_fgetc_1;
+  signed int return_value_FCGX_GetChar_2;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fgetc$1=fgetc(fp->stdio_stream);
-    return return_value_fgetc$1;
+    return_value_fgetc_1=fgetc(fp->stdio_stream);
+    return return_value_fgetc_1;
   }
 
   else
     if(!(fp->fcgx_stream == ((struct FCGX_Stream *)NULL)))
     {
-      return_value_FCGX_GetChar$2=FCGX_GetChar(fp->fcgx_stream);
-      return return_value_FCGX_GetChar$2;
+      return_value_FCGX_GetChar_2=FCGX_GetChar(fp->fcgx_stream);
+      return return_value_FCGX_GetChar_2;
     }
 
   return -1;
@@ -1845,41 +1845,41 @@ signed int FCGI_fgetc(struct anonymous$16 *fp)
 
 // FCGI_fgetpos
 // file fcgi_stdio.c line 417
-signed int FCGI_fgetpos(struct anonymous$16 *fp, struct anonymous$11 *pos)
+signed int FCGI_fgetpos(struct anonymous_16 *fp, struct anonymous_11 *pos)
 {
-  signed int return_value_fgetpos$1;
+  signed int return_value_fgetpos_1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fgetpos$1=fgetpos(fp->stdio_stream, pos);
-    return return_value_fgetpos$1;
+    return_value_fgetpos_1=fgetpos(fp->stdio_stream, pos);
+    return return_value_fgetpos_1;
   }
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 29;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 29;
     return -1;
   }
 }
 
 // FCGI_fgets
 // file fcgi_stdio.c line 482
-char * FCGI_fgets(char *str, signed int size, struct anonymous$16 *fp)
+char * FCGI_fgets(char *str, signed int size, struct anonymous_16 *fp)
 {
-  char *return_value_fgets$1;
-  char *return_value_FCGX_GetLine$2;
+  char *return_value_fgets_1;
+  char *return_value_FCGX_GetLine_2;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fgets$1=fgets(str, size, fp->stdio_stream);
-    return return_value_fgets$1;
+    return_value_fgets_1=fgets(str, size, fp->stdio_stream);
+    return return_value_fgets_1;
   }
 
   else
     if(!(fp->fcgx_stream == ((struct FCGX_Stream *)NULL)))
     {
-      return_value_FCGX_GetLine$2=FCGX_GetLine(str, size, fp->fcgx_stream);
-      return return_value_FCGX_GetLine$2;
+      return_value_FCGX_GetLine_2=FCGX_GetLine(str, size, fp->fcgx_stream);
+      return return_value_FCGX_GetLine_2;
     }
 
   return (char *)(void *)0;
@@ -1887,13 +1887,13 @@ char * FCGI_fgets(char *str, signed int size, struct anonymous$16 *fp)
 
 // FCGI_fileno
 // file fcgi_stdio.c line 755
-signed int FCGI_fileno(struct anonymous$16 *fp)
+signed int FCGI_fileno(struct anonymous_16 *fp)
 {
-  signed int return_value_fileno$1;
+  signed int return_value_fileno_1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fileno$1=fileno(fp->stdio_stream);
-    return return_value_fileno$1;
+    return_value_fileno_1=fileno(fp->stdio_stream);
+    return return_value_fileno_1;
   }
 
   else
@@ -1902,13 +1902,13 @@ signed int FCGI_fileno(struct anonymous$16 *fp)
 
 // FCGI_fopen
 // file fcgi_stdio.c line 296
-struct anonymous$16 * FCGI_fopen(const char *path, const char *mode)
+struct anonymous_16 * FCGI_fopen(const char *path, const char *mode)
 {
   struct _IO_FILE *file;
   file=fopen(path, mode);
-  struct anonymous$16 *fcgi_file;
+  struct anonymous_16 *fcgi_file;
   fcgi_file=FCGI_OpenFromFILE(file);
-  if(fcgi_file == ((struct anonymous$16 *)NULL) && !(file == ((struct _IO_FILE *)NULL)))
+  if(fcgi_file == ((struct anonymous_16 *)NULL) && !(file == ((struct _IO_FILE *)NULL)))
     fclose(file);
 
   return fcgi_file;
@@ -1916,7 +1916,7 @@ struct anonymous$16 * FCGI_fopen(const char *path, const char *mode)
 
 // FCGI_fprintf
 // file fcgi_stdio.c line 597
-signed int FCGI_fprintf(struct anonymous$16 *fp, const char *format, ...)
+signed int FCGI_fprintf(struct anonymous_16 *fp, const char *format, ...)
 {
   void **ap;
   signed int n = 0;
@@ -1934,21 +1934,21 @@ signed int FCGI_fprintf(struct anonymous$16 *fp, const char *format, ...)
 
 // FCGI_fputc
 // file fcgi_stdio.c line 537
-signed int FCGI_fputc(signed int c, struct anonymous$16 *fp)
+signed int FCGI_fputc(signed int c, struct anonymous_16 *fp)
 {
-  signed int return_value_fputc$1;
-  signed int return_value_FCGX_PutChar$2;
+  signed int return_value_fputc_1;
+  signed int return_value_FCGX_PutChar_2;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fputc$1=fputc(c, fp->stdio_stream);
-    return return_value_fputc$1;
+    return_value_fputc_1=fputc(c, fp->stdio_stream);
+    return return_value_fputc_1;
   }
 
   else
     if(!(fp->fcgx_stream == ((struct FCGX_Stream *)NULL)))
     {
-      return_value_FCGX_PutChar$2=FCGX_PutChar(c, fp->fcgx_stream);
-      return return_value_FCGX_PutChar$2;
+      return_value_FCGX_PutChar_2=FCGX_PutChar(c, fp->fcgx_stream);
+      return return_value_FCGX_PutChar_2;
     }
 
     else
@@ -1957,21 +1957,21 @@ signed int FCGI_fputc(signed int c, struct anonymous$16 *fp)
 
 // FCGI_fputs
 // file fcgi_stdio.c line 560
-signed int FCGI_fputs(const char *str, struct anonymous$16 *fp)
+signed int FCGI_fputs(const char *str, struct anonymous_16 *fp)
 {
-  signed int return_value_fputs$1;
-  signed int return_value_FCGX_PutS$2;
+  signed int return_value_fputs_1;
+  signed int return_value_FCGX_PutS_2;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fputs$1=fputs(str, fp->stdio_stream);
-    return return_value_fputs$1;
+    return_value_fputs_1=fputs(str, fp->stdio_stream);
+    return return_value_fputs_1;
   }
 
   else
     if(!(fp->fcgx_stream == ((struct FCGX_Stream *)NULL)))
     {
-      return_value_FCGX_PutS$2=FCGX_PutS(str, fp->fcgx_stream);
-      return return_value_FCGX_PutS$2;
+      return_value_FCGX_PutS_2=FCGX_PutS(str, fp->fcgx_stream);
+      return return_value_FCGX_PutS_2;
     }
 
   return -1;
@@ -1979,14 +1979,14 @@ signed int FCGI_fputs(const char *str, struct anonymous$16 *fp)
 
 // FCGI_fread
 // file fcgi_stdio.c line 656
-unsigned long int FCGI_fread(void *ptr, unsigned long int size, unsigned long int nmemb, struct anonymous$16 *fp)
+unsigned long int FCGI_fread(void *ptr, unsigned long int size, unsigned long int nmemb, struct anonymous_16 *fp)
 {
   signed int n;
-  unsigned long int return_value_fread$1;
+  unsigned long int return_value_fread_1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fread$1=fread(ptr, size, nmemb, fp->stdio_stream);
-    return return_value_fread$1;
+    return_value_fread_1=fread(ptr, size, nmemb, fp->stdio_stream);
+    return return_value_fread_1;
   }
 
   else
@@ -2004,14 +2004,14 @@ unsigned long int FCGI_fread(void *ptr, unsigned long int size, unsigned long in
 
 // FCGI_freopen
 // file fcgi_stdio.c line 334
-struct anonymous$16 * FCGI_freopen(const char *path, const char *mode, struct anonymous$16 *fp)
+struct anonymous_16 * FCGI_freopen(const char *path, const char *mode, struct anonymous_16 *fp)
 {
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    struct _IO_FILE *return_value_freopen$1;
-    return_value_freopen$1=freopen(path, mode, fp->stdio_stream);
-    if(return_value_freopen$1 == ((struct _IO_FILE *)NULL))
-      return (struct anonymous$16 *)(void *)0;
+    struct _IO_FILE *return_value_freopen_1;
+    return_value_freopen_1=freopen(path, mode, fp->stdio_stream);
+    if(return_value_freopen_1 == ((struct _IO_FILE *)NULL))
+      return (struct anonymous_16 *)(void *)0;
 
     else
       return fp;
@@ -2023,7 +2023,7 @@ struct anonymous$16 * FCGI_freopen(const char *path, const char *mode, struct an
       FCGX_FClose(fp->fcgx_stream);
       fp->stdio_stream=fopen(path, mode);
       if(fp->stdio_stream == ((struct _IO_FILE *)NULL))
-        return (struct anonymous$16 *)(void *)0;
+        return (struct anonymous_16 *)(void *)0;
 
       else
       {
@@ -2032,79 +2032,79 @@ struct anonymous$16 * FCGI_freopen(const char *path, const char *mode, struct an
       }
     }
 
-  return (struct anonymous$16 *)(void *)0;
+  return (struct anonymous_16 *)(void *)0;
 }
 
 // FCGI_fseek
 // file fcgi_stdio.c line 388
-signed int FCGI_fseek(struct anonymous$16 *fp, signed long int offset, signed int whence)
+signed int FCGI_fseek(struct anonymous_16 *fp, signed long int offset, signed int whence)
 {
-  signed int return_value_fseek$1;
+  signed int return_value_fseek_1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fseek$1=fseek(fp->stdio_stream, offset, whence);
-    return return_value_fseek$1;
+    return_value_fseek_1=fseek(fp->stdio_stream, offset, whence);
+    return return_value_fseek_1;
   }
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 29;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 29;
     return -1;
   }
 }
 
 // FCGI_fsetpos
 // file fcgi_stdio.c line 427
-signed int FCGI_fsetpos(struct anonymous$16 *fp, const struct anonymous$11 *pos)
+signed int FCGI_fsetpos(struct anonymous_16 *fp, const struct anonymous_11 *pos)
 {
-  signed int return_value_fsetpos$1;
+  signed int return_value_fsetpos_1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fsetpos$1=fsetpos(fp->stdio_stream, pos);
-    return return_value_fsetpos$1;
+    return_value_fsetpos_1=fsetpos(fp->stdio_stream, pos);
+    return return_value_fsetpos_1;
   }
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 29;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 29;
     return -1;
   }
 }
 
 // FCGI_ftell
 // file fcgi_stdio.c line 398
-signed int FCGI_ftell(struct anonymous$16 *fp)
+signed int FCGI_ftell(struct anonymous_16 *fp)
 {
-  signed long int return_value_ftell$1;
+  signed long int return_value_ftell_1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_ftell$1=ftell(fp->stdio_stream);
-    return (signed int)return_value_ftell$1;
+    return_value_ftell_1=ftell(fp->stdio_stream);
+    return (signed int)return_value_ftell_1;
   }
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 29;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 29;
     return -1;
   }
 }
 
 // FCGI_fwrite
 // file fcgi_stdio.c line 671
-unsigned long int FCGI_fwrite(void *ptr, unsigned long int size, unsigned long int nmemb, struct anonymous$16 *fp)
+unsigned long int FCGI_fwrite(void *ptr, unsigned long int size, unsigned long int nmemb, struct anonymous_16 *fp)
 {
   signed int n;
-  unsigned long int return_value_fwrite$1;
+  unsigned long int return_value_fwrite_1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fwrite$1=fwrite(ptr, size, nmemb, fp->stdio_stream);
-    return return_value_fwrite$1;
+    return_value_fwrite_1=fwrite(ptr, size, nmemb, fp->stdio_stream);
+    return return_value_fwrite_1;
   }
 
   else
@@ -2124,9 +2124,9 @@ unsigned long int FCGI_fwrite(void *ptr, unsigned long int size, unsigned long i
 // file fcgi_stdio.c line 459
 signed int FCGI_getchar(void)
 {
-  signed int return_value_FCGI_fgetc$1;
-  return_value_FCGI_fgetc$1=FCGI_fgetc(&_fcgi_sF[(signed long int)0]);
-  return return_value_FCGI_fgetc$1;
+  signed int return_value_FCGI_fgetc_1;
+  return_value_FCGI_fgetc_1=FCGI_fgetc(&_fcgi_sF[(signed long int)0]);
+  return return_value_FCGI_fgetc_1;
 }
 
 // FCGI_gets
@@ -2136,7 +2136,7 @@ char * FCGI_gets(char *str)
   char *s;
   signed int c;
   s = str;
-  char *tmp_post$1;
+  char *tmp_post_1;
   do
   {
     c=FCGI_getchar();
@@ -2154,9 +2154,9 @@ char * FCGI_gets(char *str)
 
     else
     {
-      tmp_post$1 = s;
+      tmp_post_1 = s;
       s = s + 1l;
-      *tmp_post$1 = (char)c;
+      *tmp_post_1 = (char)c;
     }
   }
   while((_Bool)1);
@@ -2166,7 +2166,7 @@ char * FCGI_gets(char *str)
 
 // FCGI_pclose
 // file fcgi_stdio.c line 785
-signed int FCGI_pclose(struct anonymous$16 *fp)
+signed int FCGI_pclose(struct anonymous_16 *fp)
 {
   signed int n = -1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
@@ -2199,11 +2199,11 @@ void FCGI_perror(const char *str)
 {
   FCGI_fputs(str, &_fcgi_sF[(signed long int)2]);
   FCGI_fputs(": ", &_fcgi_sF[(signed long int)2]);
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  char *return_value_strerror$2;
-  return_value_strerror$2=strerror(*return_value___errno_location$1);
-  FCGI_fputs(return_value_strerror$2, &_fcgi_sF[(signed long int)2]);
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  char *return_value_strerror_2;
+  return_value_strerror_2=strerror(*return_value___errno_location_1);
+  FCGI_fputs(return_value_strerror_2, &_fcgi_sF[(signed long int)2]);
   goto __CPROVER_DUMP_L1;
 
 __CPROVER_DUMP_L1:
@@ -2212,13 +2212,13 @@ __CPROVER_DUMP_L1:
 
 // FCGI_popen
 // file fcgi_stdio.c line 774
-struct anonymous$16 * FCGI_popen(const char *cmd, const char *type)
+struct anonymous_16 * FCGI_popen(const char *cmd, const char *type)
 {
   struct _IO_FILE *file;
   file=popen(cmd, type);
-  struct anonymous$16 *fcgi_file;
+  struct anonymous_16 *fcgi_file;
   fcgi_file=FCGI_OpenFromFILE(file);
-  if(fcgi_file == ((struct anonymous$16 *)NULL) && !(file == ((struct _IO_FILE *)NULL)))
+  if(fcgi_file == ((struct anonymous_16 *)NULL) && !(file == ((struct _IO_FILE *)NULL)))
     pclose(file);
 
   return fcgi_file;
@@ -2240,9 +2240,9 @@ signed int FCGI_printf(const char *format, ...)
 // file fcgi_stdio.c line 546
 signed int FCGI_putchar(signed int c)
 {
-  signed int return_value_FCGI_fputc$1;
-  return_value_FCGI_fputc$1=FCGI_fputc(c, &_fcgi_sF[(signed long int)1]);
-  return return_value_FCGI_fputc$1;
+  signed int return_value_FCGI_fputc_1;
+  return_value_FCGI_fputc_1=FCGI_fputc(c, &_fcgi_sF[(signed long int)1]);
+  return return_value_FCGI_fputc_1;
 }
 
 // FCGI_puts
@@ -2250,8 +2250,8 @@ signed int FCGI_putchar(signed int c)
 signed int FCGI_puts(const char *str)
 {
   signed int n;
-  signed int return_value_fputc$1;
-  signed int return_value_FCGX_PutChar$2;
+  signed int return_value_fputc_1;
+  signed int return_value_FCGX_PutChar_2;
   if(!(_fcgi_sF[1l].stdio_stream == ((struct _IO_FILE *)NULL)))
   {
     n=fputs(str, (&_fcgi_sF[(signed long int)1])->stdio_stream);
@@ -2260,8 +2260,8 @@ signed int FCGI_puts(const char *str)
 
     else
     {
-      return_value_fputc$1=fputc(10, (&_fcgi_sF[(signed long int)1])->stdio_stream);
-      return return_value_fputc$1;
+      return_value_fputc_1=fputc(10, (&_fcgi_sF[(signed long int)1])->stdio_stream);
+      return return_value_fputc_1;
     }
   }
 
@@ -2274,8 +2274,8 @@ signed int FCGI_puts(const char *str)
 
       else
       {
-        return_value_FCGX_PutChar$2=FCGX_PutChar(10, (&_fcgi_sF[(signed long int)1])->fcgx_stream);
-        return return_value_FCGX_PutChar$2;
+        return_value_FCGX_PutChar_2=FCGX_PutChar(10, (&_fcgi_sF[(signed long int)1])->fcgx_stream);
+        return return_value_FCGX_PutChar_2;
       }
     }
 
@@ -2284,22 +2284,22 @@ signed int FCGI_puts(const char *str)
 
 // FCGI_rewind
 // file fcgi_stdio.c line 408
-void FCGI_rewind(struct anonymous$16 *fp)
+void FCGI_rewind(struct anonymous_16 *fp)
 {
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
     rewind(fp->stdio_stream);
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 29;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 29;
   }
 }
 
 // FCGI_setbuf
 // file fcgi_stdio.c line 373
-void FCGI_setbuf(struct anonymous$16 *fp, char *buf)
+void FCGI_setbuf(struct anonymous_16 *fp, char *buf)
 {
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
     setbuf(fp->stdio_stream, buf);
@@ -2308,13 +2308,13 @@ void FCGI_setbuf(struct anonymous$16 *fp, char *buf)
 
 // FCGI_setvbuf
 // file fcgi_stdio.c line 364
-signed int FCGI_setvbuf(struct anonymous$16 *fp, char *buf, signed int bufmode, unsigned long int size)
+signed int FCGI_setvbuf(struct anonymous_16 *fp, char *buf, signed int bufmode, unsigned long int size)
 {
-  signed int return_value_setvbuf$1;
+  signed int return_value_setvbuf_1;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_setvbuf$1=setvbuf(fp->stdio_stream, buf, bufmode, size);
-    return return_value_setvbuf$1;
+    return_value_setvbuf_1=setvbuf(fp->stdio_stream, buf, bufmode, size);
+    return return_value_setvbuf_1;
   }
 
   else
@@ -2323,13 +2323,13 @@ signed int FCGI_setvbuf(struct anonymous$16 *fp, char *buf, signed int bufmode, 
 
 // FCGI_tmpfile
 // file fcgi_stdio.c line 735
-struct anonymous$16 * FCGI_tmpfile(void)
+struct anonymous_16 * FCGI_tmpfile(void)
 {
   struct _IO_FILE *file;
   file=tmpfile();
-  struct anonymous$16 *fcgi_file;
+  struct anonymous_16 *fcgi_file;
   fcgi_file=FCGI_OpenFromFILE(file);
-  if(fcgi_file == ((struct anonymous$16 *)NULL) && !(file == ((struct _IO_FILE *)NULL)))
+  if(fcgi_file == ((struct anonymous_16 *)NULL) && !(file == ((struct _IO_FILE *)NULL)))
     fclose(file);
 
   return fcgi_file;
@@ -2337,21 +2337,21 @@ struct anonymous$16 * FCGI_tmpfile(void)
 
 // FCGI_ungetc
 // file fcgi_stdio.c line 464
-signed int FCGI_ungetc(signed int c, struct anonymous$16 *fp)
+signed int FCGI_ungetc(signed int c, struct anonymous_16 *fp)
 {
-  signed int return_value_ungetc$1;
-  signed int return_value_FCGX_UnGetChar$2;
+  signed int return_value_ungetc_1;
+  signed int return_value_FCGX_UnGetChar_2;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_ungetc$1=ungetc(c, fp->stdio_stream);
-    return return_value_ungetc$1;
+    return_value_ungetc_1=ungetc(c, fp->stdio_stream);
+    return return_value_ungetc_1;
   }
 
   else
     if(!(fp->fcgx_stream == ((struct FCGX_Stream *)NULL)))
     {
-      return_value_FCGX_UnGetChar$2=FCGX_UnGetChar(c, fp->fcgx_stream);
-      return return_value_FCGX_UnGetChar$2;
+      return_value_FCGX_UnGetChar_2=FCGX_UnGetChar(c, fp->fcgx_stream);
+      return return_value_FCGX_UnGetChar_2;
     }
 
   return -1;
@@ -2359,21 +2359,21 @@ signed int FCGI_ungetc(signed int c, struct anonymous$16 *fp)
 
 // FCGI_vfprintf
 // file fcgi_stdio.c line 629
-signed int FCGI_vfprintf(struct anonymous$16 *fp, const char *format, void **ap)
+signed int FCGI_vfprintf(struct anonymous_16 *fp, const char *format, void **ap)
 {
-  signed int return_value_vfprintf$1;
-  signed int return_value_FCGX_VFPrintF$2;
+  signed int return_value_vfprintf_1;
+  signed int return_value_FCGX_VFPrintF_2;
   if(!(fp->stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_vfprintf$1=vfprintf(fp->stdio_stream, format, ap);
-    return return_value_vfprintf$1;
+    return_value_vfprintf_1=vfprintf(fp->stdio_stream, format, ap);
+    return return_value_vfprintf_1;
   }
 
   else
     if(!(fp->fcgx_stream == ((struct FCGX_Stream *)NULL)))
     {
-      return_value_FCGX_VFPrintF$2=FCGX_VFPrintF(fp->fcgx_stream, format, ap);
-      return return_value_FCGX_VFPrintF$2;
+      return_value_FCGX_VFPrintF_2=FCGX_VFPrintF(fp->fcgx_stream, format, ap);
+      return return_value_FCGX_VFPrintF_2;
     }
 
   return -1;
@@ -2383,19 +2383,19 @@ signed int FCGI_vfprintf(struct anonymous$16 *fp, const char *format, void **ap)
 // file fcgi_stdio.c line 638
 signed int FCGI_vprintf(const char *format, void **ap)
 {
-  signed int return_value_vfprintf$1;
-  signed int return_value_FCGX_VFPrintF$2;
+  signed int return_value_vfprintf_1;
+  signed int return_value_FCGX_VFPrintF_2;
   if(!(_fcgi_sF[1l].stdio_stream == ((struct _IO_FILE *)NULL)))
   {
-    return_value_vfprintf$1=vfprintf((&_fcgi_sF[(signed long int)1])->stdio_stream, format, ap);
-    return return_value_vfprintf$1;
+    return_value_vfprintf_1=vfprintf((&_fcgi_sF[(signed long int)1])->stdio_stream, format, ap);
+    return return_value_vfprintf_1;
   }
 
   else
     if(!(_fcgi_sF[1l].fcgx_stream == ((struct FCGX_Stream *)NULL)))
     {
-      return_value_FCGX_VFPrintF$2=FCGX_VFPrintF((&_fcgi_sF[(signed long int)1])->fcgx_stream, format, ap);
-      return return_value_FCGX_VFPrintF$2;
+      return_value_FCGX_VFPrintF_2=FCGX_VFPrintF((&_fcgi_sF[(signed long int)1])->fcgx_stream, format, ap);
+      return return_value_FCGX_VFPrintF_2;
     }
 
   return -1;
@@ -2433,9 +2433,9 @@ signed int FCGX_Accept(struct FCGX_Stream **in, struct FCGX_Stream **out, struct
 // file ../include/fcgiapp.h line 207
 signed int FCGX_Accept_r(struct FCGX_Request *reqDataPtr)
 {
-  signed int tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  signed int return_value_ReadParams$5;
+  signed int tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  signed int return_value_ReadParams_5;
   if(libInitialized == 0)
     return -9998;
 
@@ -2450,17 +2450,17 @@ signed int FCGX_Accept_r(struct FCGX_Request *reqDataPtr)
         reqDataPtr->ipcFd=OS_Accept(reqDataPtr->listen_sock, fail_on_intr, webServerAddressList);
         if(!(reqDataPtr->ipcFd >= 0))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          if(*return_value___errno_location$1 >= 1)
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          if(*return_value___errno_location_1 >= 1)
           {
-            return_value___errno_location$2=__errno_location();
-            tmp_if_expr$3 = 0 - *return_value___errno_location$2;
+            return_value___errno_location_2=__errno_location();
+            tmp_if_expr_3 = 0 - *return_value___errno_location_2;
           }
 
           else
-            tmp_if_expr$3 = -9999;
-          return tmp_if_expr$3;
+            tmp_if_expr_3 = -9999;
+          return tmp_if_expr_3;
         }
 
       }
@@ -2492,12 +2492,12 @@ signed int FCGX_Accept_r(struct FCGX_Request *reqDataPtr)
             goto TryAgain;
         }
         reqDataPtr->paramsPtr=NewParams(30);
-        char *return_value_StringCopy$4;
-        return_value_StringCopy$4=StringCopy(roleStr);
-        PutParam(reqDataPtr->paramsPtr, return_value_StringCopy$4);
+        char *return_value_StringCopy_4;
+        return_value_StringCopy_4=StringCopy(roleStr);
+        PutParam(reqDataPtr->paramsPtr, return_value_StringCopy_4);
         SetReaderType(reqDataPtr->in, 4);
-        return_value_ReadParams$5=ReadParams(reqDataPtr->paramsPtr, reqDataPtr->in);
-        if(return_value_ReadParams$5 >= 0)
+        return_value_ReadParams_5=ReadParams(reqDataPtr->paramsPtr, reqDataPtr->in);
+        if(return_value_ReadParams_5 >= 0)
           break;
 
       }
@@ -2528,15 +2528,15 @@ void FCGX_ClearError(struct FCGX_Stream *stream)
 struct FCGX_Stream * FCGX_CreateWriter(signed int ipcFd, signed int requestId, signed int bufflen, signed int streamType)
 {
   struct FCGX_Request *reqDataPtr;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct FCGX_Request) /*80ul*/ );
-  reqDataPtr = (struct FCGX_Request *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct FCGX_Request) /*80ul*/ );
+  reqDataPtr = (struct FCGX_Request *)return_value_Malloc_1;
   reqDataPtr->ipcFd = ipcFd;
   reqDataPtr->requestId = requestId;
   reqDataPtr->nWriters = 2;
-  struct FCGX_Stream *return_value_NewWriter$2;
-  return_value_NewWriter$2=NewWriter(reqDataPtr, bufflen, streamType);
-  return return_value_NewWriter$2;
+  struct FCGX_Stream *return_value_NewWriter_2;
+  return_value_NewWriter_2=NewWriter(reqDataPtr, bufflen, streamType);
+  return return_value_NewWriter_2;
 }
 
 // FCGX_FClose
@@ -2576,13 +2576,13 @@ signed int FCGX_FClose(struct FCGX_Stream *stream)
 // file fcgiapp.c line 887
 signed int FCGX_FFlush(struct FCGX_Stream *stream)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(stream->isClosed == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = stream->isReader != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = stream->isReader != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -2614,24 +2614,24 @@ void FCGX_Finish(void)
 // file ../include/fcgiapp.h line 228
 void FCGX_Finish_r(struct FCGX_Request *reqDataPtr)
 {
-  signed int FCGX_Finish_r$$1$$close;
+  signed int FCGX_Finish_r__1__close;
   if(!(reqDataPtr == ((struct FCGX_Request *)NULL)))
   {
-    FCGX_Finish_r$$1$$close = (signed int)!(reqDataPtr->keepConnection != 0);
+    FCGX_Finish_r__1__close = (signed int)!(reqDataPtr->keepConnection != 0);
     if(!(reqDataPtr->in == ((struct FCGX_Stream *)NULL)))
     {
-      signed int return_value_FCGX_FClose$1;
-      return_value_FCGX_FClose$1=FCGX_FClose(reqDataPtr->err);
-      FCGX_Finish_r$$1$$close = FCGX_Finish_r$$1$$close | return_value_FCGX_FClose$1;
-      signed int return_value_FCGX_FClose$2;
-      return_value_FCGX_FClose$2=FCGX_FClose(reqDataPtr->out);
-      FCGX_Finish_r$$1$$close = FCGX_Finish_r$$1$$close | return_value_FCGX_FClose$2;
-      signed int return_value_FCGX_GetError$3;
-      return_value_FCGX_GetError$3=FCGX_GetError(reqDataPtr->in);
-      FCGX_Finish_r$$1$$close = FCGX_Finish_r$$1$$close | return_value_FCGX_GetError$3;
+      signed int return_value_FCGX_FClose_1;
+      return_value_FCGX_FClose_1=FCGX_FClose(reqDataPtr->err);
+      FCGX_Finish_r__1__close = FCGX_Finish_r__1__close | return_value_FCGX_FClose_1;
+      signed int return_value_FCGX_FClose_2;
+      return_value_FCGX_FClose_2=FCGX_FClose(reqDataPtr->out);
+      FCGX_Finish_r__1__close = FCGX_Finish_r__1__close | return_value_FCGX_FClose_2;
+      signed int return_value_FCGX_GetError_3;
+      return_value_FCGX_GetError_3=FCGX_GetError(reqDataPtr->in);
+      FCGX_Finish_r__1__close = FCGX_Finish_r__1__close | return_value_FCGX_GetError_3;
     }
 
-    FCGX_Free(reqDataPtr, FCGX_Finish_r$$1$$close);
+    FCGX_Free(reqDataPtr, FCGX_Finish_r__1__close);
   }
 
 }
@@ -2678,23 +2678,23 @@ void FCGX_FreeStream(struct FCGX_Stream **streamPtr)
 // file fcgiapp.c line 108
 signed int FCGX_GetChar(struct FCGX_Stream *stream)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(stream->isClosed == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(stream->isReader != 0) ? (_Bool)1 : (_Bool)0;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(stream->isReader != 0) ? (_Bool)1 : (_Bool)0;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  if(tmp_if_expr_1)
     return -1;
 
   else
     if(!(stream->rdNext == stream->stop))
     {
-      tmp_post$2 = stream->rdNext;
+      tmp_post_2 = stream->rdNext;
       stream->rdNext = stream->rdNext + 1l;
-      return (signed int)*tmp_post$2;
+      return (signed int)*tmp_post_2;
     }
 
     else
@@ -2708,9 +2708,9 @@ signed int FCGX_GetChar(struct FCGX_Stream *stream)
         stream->stopUnget = stream->rdNext;
         if(!(stream->rdNext == stream->stop))
         {
-          tmp_post$3 = stream->rdNext;
+          tmp_post_3 = stream->rdNext;
           stream->rdNext = stream->rdNext + 1l;
-          return (signed int)*tmp_post$3;
+          return (signed int)*tmp_post_3;
         }
 
         else
@@ -2737,7 +2737,7 @@ char * FCGX_GetLine(char *str, signed int n, struct FCGX_Stream *stream)
   signed int c;
   char *p = str;
   n = n - 1;
-  char *tmp_post$1;
+  char *tmp_post_1;
   while(n >= 1)
   {
     c=FCGX_GetChar(stream);
@@ -2750,9 +2750,9 @@ char * FCGX_GetLine(char *str, signed int n, struct FCGX_Stream *stream)
         break;
     }
 
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p + 1l;
-    *tmp_post$1 = (char)c;
+    *tmp_post_1 = (char)c;
     n = n - 1;
     if(c == 10)
       break;
@@ -2773,15 +2773,15 @@ char * FCGX_GetParam(const char *name, char **envp)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(name);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(name);
+    len = (signed int)return_value_strlen_1;
     p = envp;
     for( ; !(*p == ((char *)NULL)); p = p + 1l)
     {
-      signed int return_value_strncmp$2;
-      return_value_strncmp$2=strncmp(name, *p, (unsigned long int)len);
-      if(return_value_strncmp$2 == 0)
+      signed int return_value_strncmp_2;
+      return_value_strncmp_2=strncmp(name, *p, (unsigned long int)len);
+      if(return_value_strncmp_2 == 0)
       {
         if((signed int)(*p)[(signed long int)len] == 61)
           return *p + (signed long int)len + (signed long int)1;
@@ -2799,15 +2799,15 @@ signed int FCGX_GetStr(char *str, signed int n, struct FCGX_Stream *stream)
 {
   signed int m;
   signed int bytesMoved;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(stream->isClosed == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(stream->isReader != 0) ? (_Bool)1 : (_Bool)0;
-  signed long int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  if(!(n >= 1) || tmp_if_expr$1)
+    tmp_if_expr_1 = !(stream->isReader != 0) ? (_Bool)1 : (_Bool)0;
+  signed long int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  if(!(n >= 1) || tmp_if_expr_1)
     return 0;
 
   else
@@ -2824,11 +2824,11 @@ signed int FCGX_GetStr(char *str, signed int n, struct FCGX_Stream *stream)
       if(!(stream->rdNext == stream->stop))
       {
         if(!((signed long int)(n + -bytesMoved) >= stream->stop - stream->rdNext))
-          tmp_if_expr$2 = (signed long int)(n - bytesMoved);
+          tmp_if_expr_2 = (signed long int)(n - bytesMoved);
 
         else
-          tmp_if_expr$2 = stream->stop - stream->rdNext;
-        m = (signed int)tmp_if_expr$2;
+          tmp_if_expr_2 = stream->stop - stream->rdNext;
+        m = (signed int)tmp_if_expr_2;
         memcpy((void *)str, (const void *)stream->rdNext, (unsigned long int)m);
         bytesMoved = bytesMoved + m;
         stream->rdNext = stream->rdNext + (signed long int)m;
@@ -2839,11 +2839,11 @@ signed int FCGX_GetStr(char *str, signed int n, struct FCGX_Stream *stream)
       }
 
       if(!(stream->isClosed == 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = !(stream->isReader != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = !(stream->isReader != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         return bytesMoved;
 
       else
@@ -2870,43 +2870,43 @@ signed int FCGX_HasSeenEOF(struct FCGX_Stream *stream)
 signed int FCGX_Init(void)
 {
   char *p;
-  signed int tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  char *tmp_if_expr$6;
-  char *return_value_StringCopy$5;
+  signed int tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  char *tmp_if_expr_6;
+  char *return_value_StringCopy_5;
   if(!(libInitialized == 0))
     return 0;
 
   else
   {
     FCGX_InitRequest(&the_request, 0, 0);
-    signed int return_value_OS_LibInit$4;
-    return_value_OS_LibInit$4=OS_LibInit((signed int *)(void *)0);
-    if(return_value_OS_LibInit$4 == -1)
+    signed int return_value_OS_LibInit_4;
+    return_value_OS_LibInit_4=OS_LibInit((signed int *)(void *)0);
+    if(return_value_OS_LibInit_4 == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 0))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 0))
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2;
       }
 
       else
-        tmp_if_expr$3 = -9997;
-      return tmp_if_expr$3;
+        tmp_if_expr_3 = -9997;
+      return tmp_if_expr_3;
     }
 
     p=getenv("FCGI_WEB_SERVER_ADDRS");
     if(!(p == ((char *)NULL)))
     {
-      return_value_StringCopy$5=StringCopy(p);
-      tmp_if_expr$6 = return_value_StringCopy$5;
+      return_value_StringCopy_5=StringCopy(p);
+      tmp_if_expr_6 = return_value_StringCopy_5;
     }
 
     else
-      tmp_if_expr$6 = (char *)(void *)0;
-    webServerAddressList = tmp_if_expr$6;
+      tmp_if_expr_6 = (char *)(void *)0;
+    webServerAddressList = tmp_if_expr_6;
     libInitialized = 1;
     return 0;
   }
@@ -2962,25 +2962,25 @@ signed int FCGX_OpenSocket(const char *path, signed int backlog)
 // file fcgiapp.c line 282
 signed int FCGX_PutChar(signed int c, struct FCGX_Stream *stream)
 {
-  unsigned char *tmp_post$1;
-  _Bool tmp_if_expr$2;
-  unsigned char *tmp_post$3;
+  unsigned char *tmp_post_1;
+  _Bool tmp_if_expr_2;
+  unsigned char *tmp_post_3;
   if(!(stream->wrNext == stream->stop))
   {
-    tmp_post$1 = stream->wrNext;
+    tmp_post_1 = stream->wrNext;
     stream->wrNext = stream->wrNext + 1l;
-    *tmp_post$1 = (unsigned char)c;
-    return (signed int)*tmp_post$1;
+    *tmp_post_1 = (unsigned char)c;
+    return (signed int)*tmp_post_1;
   }
 
   else
   {
     if(!(stream->isClosed == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = stream->isReader != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = stream->isReader != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -1;
 
     else
@@ -2988,10 +2988,10 @@ signed int FCGX_PutChar(signed int c, struct FCGX_Stream *stream)
       stream->emptyBuffProc(stream, 0);
       if(!(stream->wrNext == stream->stop))
       {
-        tmp_post$3 = stream->wrNext;
+        tmp_post_3 = stream->wrNext;
         stream->wrNext = stream->wrNext + 1l;
-        *tmp_post$3 = (unsigned char)c;
-        return (signed int)*tmp_post$3;
+        *tmp_post_3 = (unsigned char)c;
+        return (signed int)*tmp_post_3;
       }
 
       else
@@ -3008,11 +3008,11 @@ signed int FCGX_PutChar(signed int c, struct FCGX_Stream *stream)
 // file fcgiapp.c line 356
 signed int FCGX_PutS(const char *str, struct FCGX_Stream *stream)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  signed int return_value_FCGX_PutStr$2;
-  return_value_FCGX_PutStr$2=FCGX_PutStr(str, (signed int)return_value_strlen$1, stream);
-  return return_value_FCGX_PutStr$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  signed int return_value_FCGX_PutStr_2;
+  return_value_FCGX_PutStr_2=FCGX_PutStr(str, (signed int)return_value_strlen_1, stream);
+  return return_value_FCGX_PutStr_2;
 }
 
 // FCGX_PutStr
@@ -3021,8 +3021,8 @@ signed int FCGX_PutStr(const char *str, signed int n, struct FCGX_Stream *stream
 {
   signed int m;
   signed int bytesMoved;
-  signed long int tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  signed long int tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(stream->stop - stream->wrNext >= (signed long int)n)
   {
     memcpy((void *)stream->wrNext, (const void *)str, (unsigned long int)n);
@@ -3036,11 +3036,11 @@ signed int FCGX_PutStr(const char *str, signed int n, struct FCGX_Stream *stream
     if(!(stream->wrNext == stream->stop))
     {
       if(!((signed long int)(n + -bytesMoved) >= stream->stop - stream->wrNext))
-        tmp_if_expr$1 = (signed long int)(n - bytesMoved);
+        tmp_if_expr_1 = (signed long int)(n - bytesMoved);
 
       else
-        tmp_if_expr$1 = stream->stop - stream->wrNext;
-      m = (signed int)tmp_if_expr$1;
+        tmp_if_expr_1 = stream->stop - stream->wrNext;
+      m = (signed int)tmp_if_expr_1;
       memcpy((void *)stream->wrNext, (const void *)str, (unsigned long int)m);
       bytesMoved = bytesMoved + m;
       stream->wrNext = stream->wrNext + (signed long int)m;
@@ -3051,11 +3051,11 @@ signed int FCGX_PutStr(const char *str, signed int n, struct FCGX_Stream *stream
     }
 
     if(!(stream->isClosed == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = stream->isReader != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = stream->isReader != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -1;
 
     else
@@ -3083,25 +3083,25 @@ void FCGX_ShutdownPending(void)
 signed int FCGX_StartFilterData(struct FCGX_Stream *stream)
 {
   struct FCGX_Stream_Data *data = (struct FCGX_Stream_Data *)stream->data;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(data->reqDataPtr->role == 3))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(stream->isReader != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = !(stream->isReader != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(stream->isClosed != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = !(stream->isClosed != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = data->type != 5 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = data->type != 5 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     SetError(stream, -5);
     return -1;
@@ -3118,25 +3118,25 @@ signed int FCGX_StartFilterData(struct FCGX_Stream *stream)
 // file fcgiapp.c line 237
 signed int FCGX_UnGetChar(signed int c, struct FCGX_Stream *stream)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(c == -1)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = stream->isClosed != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = stream->isClosed != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(stream->isReader != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = !(stream->isReader != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = stream->rdNext == stream->stopUnget ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = stream->rdNext == stream->stopUnget ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     return -1;
 
   else
@@ -3189,37 +3189,37 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
   long double lDoubleArg = 0.0L;
   fmtBuff[(signed long int)0] = (char)37;
   f = (char *)format;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(f);
-  fStop = f + (signed long int)return_value_strlen$1;
-  unsigned long int return_value_strlen$15;
-  unsigned long int return_value_strlen$16;
-  signed int return_value_gcc_builtin_va_arg$17;
-  unsigned long int return_value_strlen$18;
-  unsigned long int return_value_strlen$19;
-  unsigned long int return_value_strlen$20;
-  signed int return_value_gcc_builtin_va_arg$21;
-  unsigned long int return_value_strlen$22;
-  unsigned long int return_value_strlen$23;
-  unsigned long int return_value_strlen$26;
-  signed short int *return_value_gcc_builtin_va_arg$27;
-  unsigned long int return_value_strlen$28;
-  unsigned long int return_value_strlen$29;
-  unsigned long int return_value_strlen$30;
-  unsigned long int return_value_strlen$31;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(f);
+  fStop = f + (signed long int)return_value_strlen_1;
+  unsigned long int return_value_strlen_15;
+  unsigned long int return_value_strlen_16;
+  signed int return_value_gcc_builtin_va_arg_17;
+  unsigned long int return_value_strlen_18;
+  unsigned long int return_value_strlen_19;
+  unsigned long int return_value_strlen_20;
+  signed int return_value_gcc_builtin_va_arg_21;
+  unsigned long int return_value_strlen_22;
+  unsigned long int return_value_strlen_23;
+  unsigned long int return_value_strlen_26;
+  signed short int *return_value_gcc_builtin_va_arg_27;
+  unsigned long int return_value_strlen_28;
+  unsigned long int return_value_strlen_29;
+  unsigned long int return_value_strlen_30;
+  unsigned long int return_value_strlen_31;
   while(!(f == fStop))
   {
-    void *return_value_memchr$2;
-    return_value_memchr$2=memchr((const void *)f, 37, (unsigned long int)(fStop - f));
-    percentPtr = (char *)return_value_memchr$2;
+    void *return_value_memchr_2;
+    return_value_memchr_2=memchr((const void *)f, 37, (unsigned long int)(fStop - f));
+    percentPtr = (char *)return_value_memchr_2;
     if(percentPtr == ((char *)NULL))
       percentPtr = fStop;
 
     if(!(percentPtr == f))
     {
-      signed int return_value_FCGX_PutStr$3;
-      return_value_FCGX_PutStr$3=FCGX_PutStr(f, (signed int)(percentPtr - f), stream);
-      if(!(return_value_FCGX_PutStr$3 >= 0))
+      signed int return_value_FCGX_PutStr_3;
+      return_value_FCGX_PutStr_3=FCGX_PutStr(f, (signed int)(percentPtr - f), stream);
+      if(!(return_value_FCGX_PutStr_3 >= 0))
         goto ErrorReturn;
 
       streamCount = streamCount + (signed int)(percentPtr - f);
@@ -3261,30 +3261,30 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
       {
         p = percentPtr + (signed long int)1;
         fmtBuffPtr = &fmtBuff[(signed long int)1];
-        unsigned long int return_value_strspn$4;
-        return_value_strspn$4=strspn(p, "-0+ #");
-        n = (signed int)return_value_strspn$4;
+        unsigned long int return_value_strspn_4;
+        return_value_strspn_4=strspn(p, "-0+ #");
+        n = (signed int)return_value_strspn_4;
         if(n >= 6)
           goto ErrorReturn;
 
         CopyAndAdvance(&fmtBuffPtr, &p, n);
-        unsigned long int return_value_strspn$5;
-        return_value_strspn$5=strspn(p, "0123456789");
-        n = (signed int)return_value_strspn$5;
+        unsigned long int return_value_strspn_5;
+        return_value_strspn_5=strspn(p, "0123456789");
+        n = (signed int)return_value_strspn_5;
         if(n == 0)
         {
           if((signed int)*p == 42)
           {
             minWidth=va_arg(arg, __typeof__(minWidth));
-            signed int return_value_abs$6;
-            return_value_abs$6=abs(minWidth);
-            if(return_value_abs$6 >= 1000000)
+            signed int return_value_abs_6;
+            return_value_abs_6=abs(minWidth);
+            if(return_value_abs_6 >= 1000000)
               goto ErrorReturn;
 
             sprintf(fmtBuffPtr, "%d", minWidth);
-            unsigned long int return_value_strlen$7;
-            return_value_strlen$7=strlen(fmtBuffPtr);
-            fmtBuffPtr = fmtBuffPtr + (signed long int)return_value_strlen$7;
+            unsigned long int return_value_strlen_7;
+            return_value_strlen_7=strlen(fmtBuffPtr);
+            fmtBuffPtr = fmtBuffPtr + (signed long int)return_value_strlen_7;
             p = p + 1l;
           }
 
@@ -3295,9 +3295,9 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
         else
           if(!(n >= 7))
           {
-            signed long int return_value_strtol$8;
-            return_value_strtol$8=strtol(p, (char ** restrict )(void *)0, 10);
-            minWidth = (signed int)return_value_strtol$8;
+            signed long int return_value_strtol_8;
+            return_value_strtol_8=strtol(p, (char ** restrict )(void *)0, 10);
+            minWidth = (signed int)return_value_strtol_8;
             CopyAndAdvance(&fmtBuffPtr, &p, n);
           }
 
@@ -3306,9 +3306,9 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
         if((signed int)*p == 46)
         {
           CopyAndAdvance(&fmtBuffPtr, &p, 1);
-          unsigned long int return_value_strspn$9;
-          return_value_strspn$9=strspn(p, "0123456789");
-          n = (signed int)return_value_strspn$9;
+          unsigned long int return_value_strspn_9;
+          return_value_strspn_9=strspn(p, "0123456789");
+          n = (signed int)return_value_strspn_9;
           if(n == 0)
           {
             if((signed int)*p == 42)
@@ -3321,9 +3321,9 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
                 goto ErrorReturn;
 
               sprintf(fmtBuffPtr, "%d", precision);
-              unsigned long int return_value_strlen$10;
-              return_value_strlen$10=strlen(fmtBuffPtr);
-              fmtBuffPtr = fmtBuffPtr + (signed long int)return_value_strlen$10;
+              unsigned long int return_value_strlen_10;
+              return_value_strlen_10=strlen(fmtBuffPtr);
+              fmtBuffPtr = fmtBuffPtr + (signed long int)return_value_strlen_10;
               p = p + 1l;
             }
 
@@ -3334,9 +3334,9 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
           else
             if(!(n >= 7))
             {
-              signed long int return_value_strtol$11;
-              return_value_strtol$11=strtol(p, (char ** restrict )(void *)0, 10);
-              precision = (signed int)return_value_strtol$11;
+              signed long int return_value_strtol_11;
+              return_value_strtol_11=strtol(p, (char ** restrict )(void *)0, 10);
+              precision = (signed int)return_value_strtol_11;
               CopyAndAdvance(&fmtBuffPtr, &p, n);
             }
 
@@ -3392,16 +3392,16 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
 
             if(precision == -1)
             {
-              unsigned long int return_value_strlen$12;
-              return_value_strlen$12=strlen(charPtrArg);
-              buffReqd = (signed int)return_value_strlen$12;
+              unsigned long int return_value_strlen_12;
+              return_value_strlen_12=strlen(charPtrArg);
+              buffReqd = (signed int)return_value_strlen_12;
             }
 
             else
             {
-              void *return_value_memchr$13;
-              return_value_memchr$13=memchr((const void *)charPtrArg, 0, (unsigned long int)precision);
-              p = (char *)return_value_memchr$13;
+              void *return_value_memchr_13;
+              return_value_memchr_13=memchr((const void *)charPtrArg, 0, (unsigned long int)precision);
+              p = (char *)return_value_memchr_13;
               buffReqd = (signed int)(p == (char *)(void *)0 ? (signed long int)precision : p - charPtrArg);
             }
             break;
@@ -3466,9 +3466,9 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
             if(!(auxBuffPtr == ((char *)NULL)))
               free((void *)auxBuffPtr);
 
-            void *return_value_Malloc$14;
-            return_value_Malloc$14=Malloc((unsigned long int)buffReqd);
-            auxBuffPtr = (char *)return_value_Malloc$14;
+            void *return_value_Malloc_14;
+            return_value_Malloc_14=Malloc((unsigned long int)buffReqd);
+            auxBuffPtr = (char *)return_value_Malloc_14;
             auxBuffLen = buffReqd;
             if(auxBuffPtr == ((char *)NULL))
               goto ErrorReturn;
@@ -3492,25 +3492,25 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
             {
               intArg=va_arg(arg, __typeof__(intArg));
               sprintf(buffPtr, fmtBuff, intArg);
-              return_value_strlen$15=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$15;
+              return_value_strlen_15=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_15;
               break;
             }
             case 108:
             {
               longArg=va_arg(arg, __typeof__(longArg));
               sprintf(buffPtr, fmtBuff, longArg);
-              return_value_strlen$16=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$16;
+              return_value_strlen_16=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_16;
               break;
             }
             case 104:
             {
-              return_value_gcc_builtin_va_arg$17=va_arg(arg, __typeof__(return_value_gcc_builtin_va_arg$17));
-              shortArg = (signed short int)return_value_gcc_builtin_va_arg$17;
+              return_value_gcc_builtin_va_arg_17=va_arg(arg, __typeof__(return_value_gcc_builtin_va_arg_17));
+              shortArg = (signed short int)return_value_gcc_builtin_va_arg_17;
               sprintf(buffPtr, fmtBuff, shortArg);
-              return_value_strlen$18=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$18;
+              return_value_strlen_18=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_18;
               break;
             }
             default:
@@ -3532,25 +3532,25 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
             {
               unsignedArg=va_arg(arg, __typeof__(unsignedArg));
               sprintf(buffPtr, fmtBuff, unsignedArg);
-              return_value_strlen$19=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$19;
+              return_value_strlen_19=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_19;
               break;
             }
             case 108:
             {
               uLongArg=va_arg(arg, __typeof__(uLongArg));
               sprintf(buffPtr, fmtBuff, uLongArg);
-              return_value_strlen$20=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$20;
+              return_value_strlen_20=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_20;
               break;
             }
             case 104:
             {
-              return_value_gcc_builtin_va_arg$21=va_arg(arg, __typeof__(return_value_gcc_builtin_va_arg$21));
-              uShortArg = (unsigned short int)return_value_gcc_builtin_va_arg$21;
+              return_value_gcc_builtin_va_arg_21=va_arg(arg, __typeof__(return_value_gcc_builtin_va_arg_21));
+              uShortArg = (unsigned short int)return_value_gcc_builtin_va_arg_21;
               sprintf(buffPtr, fmtBuff, uShortArg);
-              return_value_strlen$22=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$22;
+              return_value_strlen_22=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_22;
               break;
             }
             default:
@@ -3566,8 +3566,8 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
             {
               intArg=va_arg(arg, __typeof__(intArg));
               sprintf(buffPtr, fmtBuff, intArg);
-              return_value_strlen$23=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$23;
+              return_value_strlen_23=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_23;
               break;
             }
             case 108:
@@ -3586,18 +3586,18 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
               if(!(fastPath == 0))
               {
                 buffPtr=va_arg(arg, __typeof__(buffPtr));
-                unsigned long int return_value_strlen$24;
-                return_value_strlen$24=strlen(buffPtr);
-                buffCount = (signed int)return_value_strlen$24;
+                unsigned long int return_value_strlen_24;
+                return_value_strlen_24=strlen(buffPtr);
+                buffCount = (signed int)return_value_strlen_24;
                 buffLen = buffCount + 1;
               }
 
               else
               {
                 sprintf(buffPtr, fmtBuff, charPtrArg);
-                unsigned long int return_value_strlen$25;
-                return_value_strlen$25=strlen(buffPtr);
-                buffCount = (signed int)return_value_strlen$25;
+                unsigned long int return_value_strlen_25;
+                return_value_strlen_25=strlen(buffPtr);
+                buffCount = (signed int)return_value_strlen_25;
               }
               break;
             }
@@ -3615,8 +3615,8 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
 
           voidPtrArg=va_arg(arg, __typeof__(voidPtrArg));
           sprintf(buffPtr, fmtBuff, voidPtrArg);
-          return_value_strlen$26=strlen(buffPtr);
-          buffCount = (signed int)return_value_strlen$26;
+          return_value_strlen_26=strlen(buffPtr);
+          buffCount = (signed int)return_value_strlen_26;
           break;
         }
         case 110:
@@ -3637,8 +3637,8 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
             }
             case 104:
             {
-              return_value_gcc_builtin_va_arg$27=va_arg(arg, __typeof__(return_value_gcc_builtin_va_arg$27));
-              shortPtrArg = (signed short int *)return_value_gcc_builtin_va_arg$27;
+              return_value_gcc_builtin_va_arg_27=va_arg(arg, __typeof__(return_value_gcc_builtin_va_arg_27));
+              shortPtrArg = (signed short int *)return_value_gcc_builtin_va_arg_27;
               *shortPtrArg = (signed short int)streamCount;
               break;
             }
@@ -3661,15 +3661,15 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
             case 32:
             {
               sprintf(buffPtr, fmtBuff, doubleArg);
-              return_value_strlen$28=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$28;
+              return_value_strlen_28=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_28;
               break;
             }
             case 76:
             {
               sprintf(buffPtr, fmtBuff, lDoubleArg);
-              return_value_strlen$29=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$29;
+              return_value_strlen_29=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_29;
               break;
             }
             default:
@@ -3691,16 +3691,16 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
             {
               doubleArg=va_arg(arg, __typeof__(doubleArg));
               sprintf(buffPtr, fmtBuff, doubleArg);
-              return_value_strlen$30=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$30;
+              return_value_strlen_30=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_30;
               break;
             }
             case 76:
             {
               lDoubleArg=va_arg(arg, __typeof__(lDoubleArg));
               sprintf(buffPtr, fmtBuff, lDoubleArg);
-              return_value_strlen$31=strlen(buffPtr);
-              buffCount = (signed int)return_value_strlen$31;
+              return_value_strlen_31=strlen(buffPtr);
+              buffCount = (signed int)return_value_strlen_31;
               break;
             }
             default:
@@ -3733,9 +3733,9 @@ signed int FCGX_VFPrintF(struct FCGX_Stream *stream, const char *format, __built
     assert(buffCount < buffLen);
     if(buffCount >= 1)
     {
-      signed int return_value_FCGX_PutStr$32;
-      return_value_FCGX_PutStr$32=FCGX_PutStr(buffPtr, buffCount, stream);
-      if(!(return_value_FCGX_PutStr$32 >= 0))
+      signed int return_value_FCGX_PutStr_32;
+      return_value_FCGX_PutStr_32=FCGX_PutStr(buffPtr, buffCount, stream);
+      if(!(return_value_FCGX_PutStr_32 >= 0))
         goto ErrorReturn;
 
       streamCount = streamCount + buffCount;
@@ -3766,15 +3766,15 @@ NormalReturn:
 static void FillBuffProc(struct FCGX_Stream *stream)
 {
   struct FCGX_Stream_Data *data = (struct FCGX_Stream_Data *)stream->data;
-  struct anonymous$13 header;
+  struct anonymous_13 header;
   signed int headerLen = 0;
   signed int status;
   signed int count;
-  signed int tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
-  signed long int tmp_if_expr$3;
-  signed long int tmp_if_expr$4;
-  signed long int tmp_if_expr$5;
+  signed int tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
+  signed long int tmp_if_expr_3;
+  signed long int tmp_if_expr_4;
+  signed long int tmp_if_expr_5;
   while((_Bool)1)
   {
     if(stream->rdNext == data->buffStop)
@@ -3783,14 +3783,14 @@ static void FillBuffProc(struct FCGX_Stream *stream)
       if(!(count >= 1))
       {
         if(count == 0)
-          tmp_if_expr$2 = -3;
+          tmp_if_expr_2 = -3;
 
         else
         {
-          return_value___errno_location$1=__errno_location();
-          tmp_if_expr$2 = *return_value___errno_location$1;
+          return_value___errno_location_1=__errno_location();
+          tmp_if_expr_2 = *return_value___errno_location_1;
         }
-        SetError(stream, tmp_if_expr$2);
+        SetError(stream, tmp_if_expr_2);
         goto __CPROVER_DUMP_L24;
       }
 
@@ -3801,11 +3801,11 @@ static void FillBuffProc(struct FCGX_Stream *stream)
     if(data->contentLen >= 1)
     {
       if(!((signed long int)data->contentLen >= data->buffStop - stream->rdNext))
-        tmp_if_expr$3 = (signed long int)data->contentLen;
+        tmp_if_expr_3 = (signed long int)data->contentLen;
 
       else
-        tmp_if_expr$3 = data->buffStop - stream->rdNext;
-      count = (signed int)tmp_if_expr$3;
+        tmp_if_expr_3 = data->buffStop - stream->rdNext;
+      count = (signed int)tmp_if_expr_3;
       data->contentLen = data->contentLen - count;
       if(data->skip == 0)
       {
@@ -3828,11 +3828,11 @@ static void FillBuffProc(struct FCGX_Stream *stream)
     if(data->paddingLen >= 1)
     {
       if(!((signed long int)data->paddingLen >= data->buffStop - stream->rdNext))
-        tmp_if_expr$4 = (signed long int)data->paddingLen;
+        tmp_if_expr_4 = (signed long int)data->paddingLen;
 
       else
-        tmp_if_expr$4 = data->buffStop - stream->rdNext;
-      count = (signed int)tmp_if_expr$4;
+        tmp_if_expr_4 = data->buffStop - stream->rdNext;
+      count = (signed int)tmp_if_expr_4;
       data->paddingLen = data->paddingLen - count;
       stream->rdNext = stream->rdNext + (signed long int)count;
       if(data->paddingLen >= 1)
@@ -3847,16 +3847,16 @@ static void FillBuffProc(struct FCGX_Stream *stream)
       break;
     }
 
-    if(!((signed long int)((signed int)sizeof(struct anonymous$13) /*8*/  + -headerLen) >= data->buffStop - stream->rdNext))
-      tmp_if_expr$5 = (signed long int)((signed int)sizeof(struct anonymous$13) /*8ul*/  - headerLen);
+    if(!((signed long int)((signed int)sizeof(struct anonymous_13) /*8*/  + -headerLen) >= data->buffStop - stream->rdNext))
+      tmp_if_expr_5 = (signed long int)((signed int)sizeof(struct anonymous_13) /*8ul*/  - headerLen);
 
     else
-      tmp_if_expr$5 = data->buffStop - stream->rdNext;
-    count = (signed int)tmp_if_expr$5;
+      tmp_if_expr_5 = data->buffStop - stream->rdNext;
+    count = (signed int)tmp_if_expr_5;
     memcpy((void *)((char *)&header + (signed long int)headerLen), (const void *)stream->rdNext, (unsigned long int)count);
     headerLen = headerLen + count;
     stream->rdNext = stream->rdNext + (signed long int)count;
-    if((unsigned long int)headerLen >= sizeof(struct anonymous$13) /*8ul*/ )
+    if((unsigned long int)headerLen >= sizeof(struct anonymous_13) /*8ul*/ )
     {
       headerLen = 0;
       data->eorStop = 1;
@@ -3927,17 +3927,17 @@ static void GrowAsyncTable(void)
 {
   signed int oldTableSize = asyncIoTableSize;
   asyncIoTableSize = asyncIoTableSize * 2;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)asyncIoTable, (unsigned long int)asyncIoTableSize * sizeof(struct anonymous) /*48ul*/ );
-  asyncIoTable = (struct anonymous *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)asyncIoTable, (unsigned long int)asyncIoTableSize * sizeof(struct anonymous) /*48ul*/ );
+  asyncIoTable = (struct anonymous *)return_value_realloc_1;
   if(asyncIoTable == ((struct anonymous *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    exit(*return_value___errno_location$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    exit(*return_value___errno_location_3);
   }
 
   memset((void *)(char *)&asyncIoTable[(signed long int)oldTableSize], 0, (unsigned long int)oldTableSize * sizeof(struct anonymous) /*48ul*/ );
@@ -3945,9 +3945,9 @@ static void GrowAsyncTable(void)
 
 // MakeEndRequestBody
 // file fcgiapp.c line 1230
-static struct anonymous$15 MakeEndRequestBody(signed int appStatus, signed int protocolStatus)
+static struct anonymous_15 MakeEndRequestBody(signed int appStatus, signed int protocolStatus)
 {
-  struct anonymous$15 body;
+  struct anonymous_15 body;
   body.appStatusB3 = (unsigned char)(appStatus >> 24 & 0xff);
   body.appStatusB2 = (unsigned char)(appStatus >> 16 & 0xff);
   body.appStatusB1 = (unsigned char)(appStatus >> 8 & 0xff);
@@ -3959,9 +3959,9 @@ static struct anonymous$15 MakeEndRequestBody(signed int appStatus, signed int p
 
 // MakeHeader
 // file fcgiapp.c line 1201
-static struct anonymous$13 MakeHeader(signed int type, signed int requestId, signed int contentLength, signed int paddingLength)
+static struct anonymous_13 MakeHeader(signed int type, signed int requestId, signed int contentLength, signed int paddingLength)
 {
-  struct anonymous$13 header;
+  struct anonymous_13 header;
   /* assertion contentLength >= 0 && contentLength <= 0xffff */
   assert(contentLength >= 0 && contentLength <= 0xffff);
   /* assertion paddingLength >= 0 && paddingLength <= 0xff */
@@ -3979,9 +3979,9 @@ static struct anonymous$13 MakeHeader(signed int type, signed int requestId, sig
 
 // MakeUnknownTypeBody
 // file fcgiapp.c line 1253
-static struct anonymous$1 MakeUnknownTypeBody(signed int type)
+static struct anonymous_1 MakeUnknownTypeBody(signed int type)
 {
-  struct anonymous$1 body;
+  struct anonymous_1 body;
   body.type = (unsigned char)type;
   memset((void *)body.reserved, 0, sizeof(unsigned char [7l]) /*7ul*/ );
   return body;
@@ -4003,12 +4003,12 @@ static void * Malloc(unsigned long int size)
 static struct Params * NewParams(signed int length)
 {
   struct Params *result;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct Params) /*24ul*/ );
-  result = (struct Params *)return_value_Malloc$1;
-  void *return_value_Malloc$2;
-  return_value_Malloc$2=Malloc((unsigned long int)length * sizeof(char *) /*8ul*/ );
-  result->vec = (char **)return_value_Malloc$2;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct Params) /*24ul*/ );
+  result = (struct Params *)return_value_Malloc_1;
+  void *return_value_Malloc_2;
+  return_value_Malloc_2=Malloc((unsigned long int)length * sizeof(char *) /*8ul*/ );
+  result->vec = (char **)return_value_Malloc_2;
   result->length = length;
   result->cur = result->vec;
   *result->cur = (char *)(void *)0;
@@ -4019,9 +4019,9 @@ static struct Params * NewParams(signed int length)
 // file fcgiapp.c line 1870
 static struct FCGX_Stream * NewReader(struct FCGX_Request *reqDataPtr, signed int bufflen, signed int streamType)
 {
-  struct FCGX_Stream *return_value_NewStream$1;
-  return_value_NewStream$1=NewStream(reqDataPtr, bufflen, 1, streamType);
-  return return_value_NewStream$1;
+  struct FCGX_Stream *return_value_NewStream_1;
+  return_value_NewStream_1=NewStream(reqDataPtr, bufflen, 1, streamType);
+  return return_value_NewStream_1;
 }
 
 // NewStream
@@ -4029,19 +4029,19 @@ static struct FCGX_Stream * NewReader(struct FCGX_Request *reqDataPtr, signed in
 static struct FCGX_Stream * NewStream(struct FCGX_Request *reqDataPtr, signed int bufflen, signed int isReader, signed int streamType)
 {
   struct FCGX_Stream *stream;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct FCGX_Stream) /*72ul*/ );
-  stream = (struct FCGX_Stream *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct FCGX_Stream) /*72ul*/ );
+  stream = (struct FCGX_Stream *)return_value_Malloc_1;
   struct FCGX_Stream_Data *data;
-  void *return_value_Malloc$2;
-  return_value_Malloc$2=Malloc(sizeof(struct FCGX_Stream_Data) /*72ul*/ );
-  data = (struct FCGX_Stream_Data *)return_value_Malloc$2;
+  void *return_value_Malloc_2;
+  return_value_Malloc_2=Malloc(sizeof(struct FCGX_Stream_Data) /*72ul*/ );
+  data = (struct FCGX_Stream_Data *)return_value_Malloc_2;
   data->reqDataPtr = reqDataPtr;
   bufflen=AlignInt8((unsigned int)((bufflen > 32 ? bufflen : 32) < 0xffff + 1 ? (bufflen > 32 ? bufflen : 32) : 0xffff + 1));
   data->bufflen = bufflen;
-  void *return_value_Malloc$3;
-  return_value_Malloc$3=Malloc((unsigned long int)bufflen);
-  data->mBuff = (unsigned char *)return_value_Malloc$3;
+  void *return_value_Malloc_3;
+  return_value_Malloc_3=Malloc((unsigned long int)bufflen);
+  data->mBuff = (unsigned char *)return_value_Malloc_3;
   data->buff=AlignPtr8(data->mBuff);
   if(!(data->buff == data->mBuff))
     data->bufflen = data->bufflen - 8;
@@ -4077,7 +4077,7 @@ static struct FCGX_Stream * NewStream(struct FCGX_Request *reqDataPtr, signed in
   {
     stream->fillBuffProc = (void (*)(struct FCGX_Stream *))(void *)0;
     stream->emptyBuffProc = EmptyBuffProc;
-    stream->wrNext = data->buff + (signed long int)sizeof(struct anonymous$13) /*8ul*/ ;
+    stream->wrNext = data->buff + (signed long int)sizeof(struct anonymous_13) /*8ul*/ ;
     stream->stop = data->buffStop;
     stream->stopUnget = (unsigned char *)(void *)0;
     stream->rdNext = stream->stop;
@@ -4089,18 +4089,18 @@ static struct FCGX_Stream * NewStream(struct FCGX_Request *reqDataPtr, signed in
 // file fcgiapp.c line 1886
 static struct FCGX_Stream * NewWriter(struct FCGX_Request *reqDataPtr, signed int bufflen, signed int streamType)
 {
-  struct FCGX_Stream *return_value_NewStream$1;
-  return_value_NewStream$1=NewStream(reqDataPtr, bufflen, 0, streamType);
-  return return_value_NewStream$1;
+  struct FCGX_Stream *return_value_NewStream_1;
+  return_value_NewStream_1=NewStream(reqDataPtr, bufflen, 0, streamType);
+  return return_value_NewStream_1;
 }
 
 // OS_Accept
 // file ../include/fcgios.h line 119
 signed int OS_Accept(signed int listen_sock, signed int fail_on_intr, const char *webServerAddrs)
 {
-  signed int OS_Accept$$1$$socket = -1;
-  /* tag-#anon#lUN[lSYM#tag-sockaddr_un#'un'||lSYM#tag-sockaddr_in#'in'||U896'$pad'|] */
-union anonymous$2
+  signed int OS_Accept__1__socket = -1;
+  /* tag-#anon#lUN[lSYM#tag-sockaddr_un#'un'||lSYM#tag-sockaddr_in#'in'||U896'_pad'|] */
+union anonymous_2
 {
   // un
   struct sockaddr_un un;
@@ -4110,19 +4110,19 @@ union anonymous$2
 
 /* */
   ;
-  union anonymous$2 sa;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$8;
-  signed int *return_value___errno_location$6;
-  signed int return_value_is_reasonable_accept_errno$7;
-  _Bool tmp_if_expr$13;
-  signed int return_value_is_af_unix_keeper$12;
+  union anonymous_2 sa;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_8;
+  signed int *return_value___errno_location_6;
+  signed int return_value_is_reasonable_accept_errno_7;
+  _Bool tmp_if_expr_13;
+  signed int return_value_is_af_unix_keeper_12;
   do
   {
-    signed int return_value_AcquireLock$1;
-    return_value_AcquireLock$1=AcquireLock(listen_sock, fail_on_intr);
-    if(!(return_value_AcquireLock$1 == 0))
+    signed int return_value_AcquireLock_1;
+    return_value_AcquireLock_1=AcquireLock(listen_sock, fail_on_intr);
+    if(!(return_value_AcquireLock_1 == 0))
       return -1;
 
     do
@@ -4130,54 +4130,54 @@ union anonymous$2
 
     __CPROVER_DUMP_L2:
       ;
-      signed int len = (signed int)sizeof(union anonymous$2) /*112ul*/ ;
+      signed int len = (signed int)sizeof(union anonymous_2) /*112ul*/ ;
       if(shutdownPending == 0)
       {
-        OS_Accept$$1$$socket=accept(listen_sock, (struct sockaddr *)&sa, (unsigned int *)&len);
-        if(!(OS_Accept$$1$$socket >= 0))
+        OS_Accept__1__socket=accept(listen_sock, (struct sockaddr *)&sa, (unsigned int *)&len);
+        if(!(OS_Accept__1__socket >= 0))
         {
-          return_value___errno_location$2=__errno_location();
-          tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_2=__errno_location();
+          tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(fail_on_intr == 0 && shutdownPending == 0 && tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(fail_on_intr == 0 && shutdownPending == 0 && tmp_if_expr_3)
           goto __CPROVER_DUMP_L2;
 
       }
 
-      if(!(OS_Accept$$1$$socket >= 0))
+      if(!(OS_Accept__1__socket >= 0))
       {
         if(!(shutdownPending == 0))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$6=__errno_location();
-          return_value_is_reasonable_accept_errno$7=is_reasonable_accept_errno(*return_value___errno_location$6);
-          tmp_if_expr$8 = !(return_value_is_reasonable_accept_errno$7 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_6=__errno_location();
+          return_value_is_reasonable_accept_errno_7=is_reasonable_accept_errno(*return_value___errno_location_6);
+          tmp_if_expr_8 = !(return_value_is_reasonable_accept_errno_7 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
         {
           signed int errnoSave;
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          errnoSave = *return_value___errno_location$4;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          errnoSave = *return_value___errno_location_4;
           ReleaseLock(listen_sock);
           if(shutdownPending == 0)
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            *return_value___errno_location$5 = errnoSave;
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            *return_value___errno_location_5 = errnoSave;
           }
 
           return -1;
         }
 
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        *return_value___errno_location$9 = 0;
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        *return_value___errno_location_9 = 0;
       }
 
       else
@@ -4186,36 +4186,36 @@ union anonymous$2
         if(!((signed int)sa.in.sin_family == 2))
           break;
 
-        setsockopt(OS_Accept$$1$$socket, 6, 1, (const void *)(char *)&set, (unsigned int)sizeof(signed int) /*4ul*/ );
-        signed int return_value_ClientAddrOK$10;
-        return_value_ClientAddrOK$10=ClientAddrOK(&sa.in, webServerAddrs);
-        if(!(return_value_ClientAddrOK$10 == 0))
+        setsockopt(OS_Accept__1__socket, 6, 1, (const void *)(char *)&set, (unsigned int)sizeof(signed int) /*4ul*/ );
+        signed int return_value_ClientAddrOK_10;
+        return_value_ClientAddrOK_10=ClientAddrOK(&sa.in, webServerAddrs);
+        if(!(return_value_ClientAddrOK_10 == 0))
           break;
 
-        close(OS_Accept$$1$$socket);
+        close(OS_Accept__1__socket);
       }
     }
     while((_Bool)1);
-    signed int return_value_ReleaseLock$11;
-    return_value_ReleaseLock$11=ReleaseLock(listen_sock);
-    if(!(return_value_ReleaseLock$11 == 0))
+    signed int return_value_ReleaseLock_11;
+    return_value_ReleaseLock_11=ReleaseLock(listen_sock);
+    if(!(return_value_ReleaseLock_11 == 0))
       return -1;
 
     if(!((signed int)sa.in.sin_family == 1))
-      tmp_if_expr$13 = (_Bool)1;
+      tmp_if_expr_13 = (_Bool)1;
 
     else
     {
-      return_value_is_af_unix_keeper$12=is_af_unix_keeper(OS_Accept$$1$$socket);
-      tmp_if_expr$13 = return_value_is_af_unix_keeper$12 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_is_af_unix_keeper_12=is_af_unix_keeper(OS_Accept__1__socket);
+      tmp_if_expr_13 = return_value_is_af_unix_keeper_12 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$13)
+    if(tmp_if_expr_13)
       break;
 
-    close(OS_Accept$$1$$socket);
+    close(OS_Accept__1__socket);
   }
   while((_Bool)1);
-  return OS_Accept$$1$$socket;
+  return OS_Accept__1__socket;
 }
 
 // OS_AsyncRead
@@ -4295,9 +4295,9 @@ signed int OS_AsyncWrite(signed int fd, signed int offset, void *buf, signed int
 static signed int OS_BuildSockAddrUn(const char *bindPath, struct sockaddr_un *servAddrPtr, signed int *servAddrLen)
 {
   signed int bindPathLen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(bindPath);
-  bindPathLen = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(bindPath);
+  bindPathLen = (signed int)return_value_strlen_1;
   if((unsigned long int)bindPathLen >= 109ul)
     return -1;
 
@@ -4315,8 +4315,8 @@ static signed int OS_BuildSockAddrUn(const char *bindPath, struct sockaddr_un *s
 // file os_unix.c line 736
 signed int OS_Close(signed int fd)
 {
-  _Bool tmp_if_expr$2;
-  signed long int return_value_read$1;
+  _Bool tmp_if_expr_2;
+  signed long int return_value_read_1;
   if(fd == -1)
     return 0;
 
@@ -4341,9 +4341,9 @@ signed int OS_Close(signed int fd)
 
     }
 
-    signed int return_value_shutdown$3;
-    return_value_shutdown$3=shutdown(fd, 1);
-    if(return_value_shutdown$3 == 0)
+    signed int return_value_shutdown_3;
+    return_value_shutdown_3=shutdown(fd, 1);
+    if(return_value_shutdown_3 == 0)
     {
       struct pollfd pfd;
       signed int rv;
@@ -4355,19 +4355,19 @@ signed int OS_Close(signed int fd)
         rv=poll(&pfd, (unsigned long int)1, libfcgiOsClosePollTimeout);
         if(rv >= 1)
         {
-          return_value_read$1=read(fd, (void *)trash, sizeof(char [1024l]) /*1024ul*/ );
-          tmp_if_expr$2 = return_value_read$1 > (signed long int)0 ? (_Bool)1 : (_Bool)0;
+          return_value_read_1=read(fd, (void *)trash, sizeof(char [1024l]) /*1024ul*/ );
+          tmp_if_expr_2 = return_value_read_1 > (signed long int)0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$2 = (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
       }
-      while(tmp_if_expr$2);
+      while(tmp_if_expr_2);
     }
 
-    signed int return_value_close$4;
-    return_value_close$4=close(fd);
-    return return_value_close$4;
+    signed int return_value_close_4;
+    return_value_close_4=close(fd);
+    return return_value_close_4;
   }
 }
 
@@ -4381,9 +4381,9 @@ signed int OS_CloseRead(signed int fd)
     (&readFdSet)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readFdSet)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
   }
 
-  signed int return_value_shutdown$1;
-  return_value_shutdown$1=shutdown(fd, 0);
-  return return_value_shutdown$1;
+  signed int return_value_shutdown_1;
+  return_value_shutdown_1=shutdown(fd, 0);
+  return return_value_shutdown_1;
 }
 
 // OS_CreateLocalIpcFd
@@ -4400,15 +4400,15 @@ signed int OS_CreateLocalIpcFd(const char *bindPath, signed int backlog)
   char host[1024l];
   strcpy(host, bindPath);
   tp=strchr(host, 58);
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(!(tp == ((char *)NULL)))
   {
-    tmp_post$1 = tp;
+    tmp_post_1 = tp;
     tp = tp + 1l;
-    *tmp_post$1 = (char)0;
-    signed int return_value_atoi$2;
-    return_value_atoi$2=atoi(tp);
-    port = (signed short int)return_value_atoi$2;
+    *tmp_post_1 = (char)0;
+    signed int return_value_atoi_2;
+    return_value_atoi_2=atoi(tp);
+    port = (signed short int)return_value_atoi_2;
     if((signed int)port == 0)
     {
       tp = tp - 1l;
@@ -4419,49 +4419,49 @@ signed int OS_CreateLocalIpcFd(const char *bindPath, signed int backlog)
       tcp = 1;
   }
 
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcmp$7;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcmp_7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
   if(!(tcp == 0))
   {
     if(host[0l] == 0)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$7=strcmp(host, "*");
-      tmp_if_expr$8 = !(return_value_strcmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_7=strcmp(host, "*");
+      tmp_if_expr_8 = !(return_value_strcmp_7 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
+    if(tmp_if_expr_8)
     {
-      unsigned int return_value_htonl$3;
-      return_value_htonl$3=htonl((unsigned int)0x00000000);
-      tcp_ia = (unsigned long int)return_value_htonl$3;
+      unsigned int return_value_htonl_3;
+      return_value_htonl_3=htonl((unsigned int)0x00000000);
+      tcp_ia = (unsigned long int)return_value_htonl_3;
     }
 
     else
     {
-      unsigned int return_value_inet_addr$4;
-      return_value_inet_addr$4=inet_addr(host);
-      tcp_ia = (unsigned long int)return_value_inet_addr$4;
+      unsigned int return_value_inet_addr_4;
+      return_value_inet_addr_4=inet_addr(host);
+      tcp_ia = (unsigned long int)return_value_inet_addr_4;
       if(tcp_ia == 4294967295ul)
       {
         struct hostent *hep;
         hep=gethostbyname(host);
         if(hep == ((struct hostent *)NULL))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
           if(!(hep->h_addrtype == 2))
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = !(hep->h_addr_list[(signed long int)0] != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = !(hep->h_addr_list[(signed long int)0] != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
         {
           fprintf(stderr, "Cannot resolve host name %s -- exiting!\n", (const void *)host);
           exit(1);
@@ -4486,9 +4486,9 @@ signed int OS_CreateLocalIpcFd(const char *bindPath, signed int backlog)
     if(listenSock >= 0)
     {
       signed int flag = 1;
-      signed int return_value_setsockopt$9;
-      return_value_setsockopt$9=setsockopt(listenSock, 1, 2, (const void *)(char *)&flag, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_setsockopt$9 >= 0))
+      signed int return_value_setsockopt_9;
+      return_value_setsockopt_9=setsockopt(listenSock, 1, 2, (const void *)(char *)&flag, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_setsockopt_9 >= 0))
       {
         fprintf(stderr, "Can't set SO_REUSEADDR.\n");
         exit(1001);
@@ -4500,8 +4500,8 @@ signed int OS_CreateLocalIpcFd(const char *bindPath, signed int backlog)
 
   else
     listenSock=socket(1, 1, 0);
-  _Bool tmp_if_expr$14;
-  signed int return_value_listen$13;
+  _Bool tmp_if_expr_14;
+  signed int return_value_listen_13;
   if(!(listenSock >= 0))
     return -1;
 
@@ -4519,31 +4519,31 @@ signed int OS_CreateLocalIpcFd(const char *bindPath, signed int backlog)
     else
     {
       unlink(bindPath);
-      signed int return_value_OS_BuildSockAddrUn$10;
-      return_value_OS_BuildSockAddrUn$10=OS_BuildSockAddrUn(bindPath, &sa.unixVariant, &servLen);
-      if(!(return_value_OS_BuildSockAddrUn$10 == 0))
+      signed int return_value_OS_BuildSockAddrUn_10;
+      return_value_OS_BuildSockAddrUn_10=OS_BuildSockAddrUn(bindPath, &sa.unixVariant, &servLen);
+      if(!(return_value_OS_BuildSockAddrUn_10 == 0))
       {
         fprintf(stderr, "Listening socket's path name is too long.\n");
         exit(1000);
       }
 
     }
-    signed int return_value_bind$12;
-    return_value_bind$12=bind(listenSock, (struct sockaddr *)&sa.unixVariant, (unsigned int)servLen);
-    if(!(return_value_bind$12 >= 0))
-      tmp_if_expr$14 = (_Bool)1;
+    signed int return_value_bind_12;
+    return_value_bind_12=bind(listenSock, (struct sockaddr *)&sa.unixVariant, (unsigned int)servLen);
+    if(!(return_value_bind_12 >= 0))
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
-      return_value_listen$13=listen(listenSock, backlog);
-      tmp_if_expr$14 = return_value_listen$13 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_listen_13=listen(listenSock, backlog);
+      tmp_if_expr_14 = return_value_listen_13 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$14)
+    if(tmp_if_expr_14)
     {
       perror("bind/listen");
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      exit(*return_value___errno_location$11);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      exit(*return_value___errno_location_11);
     }
 
     return listenSock;
@@ -4560,21 +4560,21 @@ signed int OS_DoIo(struct timeval *tmo)
   void (*procPtr)(void *, signed int);
   void *clientData;
   struct anonymous *aioPtr;
-  struct anonymous$0 readFdSetCpy;
-  struct anonymous$0 writeFdSetCpy;
+  struct anonymous_0 readFdSetCpy;
+  struct anonymous_0 writeFdSetCpy;
   asyncIoInUse = 1;
   do
   {
-    signed int OS_DoIo$$1$$1$$__d0;
-    signed int OS_DoIo$$1$$1$$__d1;
-    asm("cld; rep; stosq" : "=c"(OS_DoIo$$1$$1$$__d0), "=D"(OS_DoIo$$1$$1$$__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readFdSetCpy)->__fds_bits[(signed long int)0]) : "memory");
+    signed int OS_DoIo__1__1____d0;
+    signed int OS_DoIo__1__1____d1;
+    asm("cld; rep; stosq" : "=c"(OS_DoIo__1__1____d0), "=D"(OS_DoIo__1__1____d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readFdSetCpy)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writeFdSetCpy)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writeFdSetCpy)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   fd = 0;
@@ -4589,12 +4589,12 @@ signed int OS_DoIo(struct timeval *tmo)
   }
   if(numRdPosted == 0 && numWrPosted == 0)
   {
-    selectStatus=select(maxFd + 1, &readFdSetCpy, &writeFdSetCpy, (struct anonymous$0 *)(void *)0, tmo);
+    selectStatus=select(maxFd + 1, &readFdSetCpy, &writeFdSetCpy, (struct anonymous_0 *)(void *)0, tmo);
     if(!(selectStatus >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      exit(*return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      exit(*return_value___errno_location_1);
     }
 
     fd = 0;
@@ -4632,9 +4632,9 @@ signed int OS_DoIo(struct timeval *tmo)
           numRdPosted = numRdPosted - 1;
           (&readFdSetPost)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readFdSetPost)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
           aioPtr = &asyncIoTable[(signed long int)(fd * 2)];
-          signed long int return_value_read$2;
-          return_value_read$2=read(aioPtr->fd, aioPtr->buf, (unsigned long int)aioPtr->len);
-          len = (signed int)return_value_read$2;
+          signed long int return_value_read_2;
+          return_value_read_2=read(aioPtr->fd, aioPtr->buf, (unsigned long int)aioPtr->len);
+          len = (signed int)return_value_read_2;
           procPtr = aioPtr->procPtr;
           aioPtr->procPtr = (void (*)(void *, signed int))(void *)0;
           clientData = aioPtr->clientData;
@@ -4651,9 +4651,9 @@ signed int OS_DoIo(struct timeval *tmo)
           numWrPosted = numWrPosted - 1;
           (&writeFdSetPost)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&writeFdSetPost)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
           aioPtr = &asyncIoTable[(signed long int)(fd * 2 + 1)];
-          signed long int return_value_write$3;
-          return_value_write$3=write(aioPtr->fd, aioPtr->buf, (unsigned long int)aioPtr->len);
-          len = (signed int)return_value_write$3;
+          signed long int return_value_write_3;
+          return_value_write_3=write(aioPtr->fd, aioPtr->buf, (unsigned long int)aioPtr->len);
+          len = (signed int)return_value_write_3;
           procPtr = aioPtr->procPtr;
           aioPtr->procPtr = (void (*)(void *, signed int))(void *)0;
           clientData = aioPtr->clientData;
@@ -4682,15 +4682,15 @@ signed int OS_FcgiConnect(char *bindPath)
   signed int tcp = 0;
   strcpy(host, bindPath);
   tp=strchr(host, 58);
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(!(tp == ((char *)NULL)))
   {
-    tmp_post$1 = tp;
+    tmp_post_1 = tp;
     tp = tp + 1l;
-    *tmp_post$1 = (char)0;
-    signed int return_value_atoi$2;
-    return_value_atoi$2=atoi(tp);
-    port = (signed short int)return_value_atoi$2;
+    *tmp_post_1 = (char)0;
+    signed int return_value_atoi_2;
+    return_value_atoi_2=atoi(tp);
+    port = (signed short int)return_value_atoi_2;
     if((signed int)port == 0)
     {
       tp = tp - 1l;
@@ -4701,16 +4701,16 @@ signed int OS_FcgiConnect(char *bindPath)
       tcp = 1;
   }
 
-  char *tmp_if_expr$3;
+  char *tmp_if_expr_3;
   if(tcp == 1)
   {
     struct hostent *hp;
     if(!(host[0l] == 0))
-      tmp_if_expr$3 = host;
+      tmp_if_expr_3 = host;
 
     else
-      tmp_if_expr$3 = "localhost";
-    hp=gethostbyname(tmp_if_expr$3);
+      tmp_if_expr_3 = "localhost";
+    hp=gethostbyname(tmp_if_expr_3);
     if(hp == ((struct hostent *)NULL))
     {
       fprintf(stderr, "Unknown host: %s\n", bindPath);
@@ -4726,9 +4726,9 @@ signed int OS_FcgiConnect(char *bindPath)
 
   else
   {
-    signed int return_value_OS_BuildSockAddrUn$4;
-    return_value_OS_BuildSockAddrUn$4=OS_BuildSockAddrUn(bindPath, &sa.unixVariant, &servLen);
-    if(!(return_value_OS_BuildSockAddrUn$4 == 0))
+    signed int return_value_OS_BuildSockAddrUn_4;
+    return_value_OS_BuildSockAddrUn_4=OS_BuildSockAddrUn(bindPath, &sa.unixVariant, &servLen);
+    if(!(return_value_OS_BuildSockAddrUn_4 == 0))
     {
       fprintf(stderr, "Listening socket's path name is too long.\n");
       exit(1000);
@@ -4766,17 +4766,17 @@ static void OS_InstallSignalHandlers(signed int force)
 // file ../include/fcgios.h line 120
 signed int OS_IpcClose(signed int ipcFd)
 {
-  signed int return_value_OS_Close$1;
-  return_value_OS_Close$1=OS_Close(ipcFd);
-  return return_value_OS_Close$1;
+  signed int return_value_OS_Close_1;
+  return_value_OS_Close_1=OS_Close(ipcFd);
+  return return_value_OS_Close_1;
 }
 
 // OS_IsFcgi
 // file ../include/fcgios.h line 121
 signed int OS_IsFcgi(signed int sock)
 {
-  /* tag-#anon#lUN[lSYM#tag-sockaddr_in#'in'||lSYM#tag-sockaddr_un#'un'||U896'$pad'|] */
-union anonymous$4
+  /* tag-#anon#lUN[lSYM#tag-sockaddr_in#'in'||lSYM#tag-sockaddr_un#'un'||U896'_pad'|] */
+union anonymous_4
 {
   // in
   struct sockaddr_in in;
@@ -4786,24 +4786,24 @@ union anonymous$4
 
 /* */
   ;
-  union anonymous$4 sa;
-  signed int len = (signed int)sizeof(union anonymous$4) /*112ul*/ ;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  signed int return_value_getpeername$2;
-  return_value_getpeername$2=getpeername(sock, (struct sockaddr *)&sa, (unsigned int *)&len);
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  if(!(return_value_getpeername$2 == 0))
+  union anonymous_4 sa;
+  signed int len = (signed int)sizeof(union anonymous_4) /*112ul*/ ;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  signed int return_value_getpeername_2;
+  return_value_getpeername_2=getpeername(sock, (struct sockaddr *)&sa, (unsigned int *)&len);
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  if(!(return_value_getpeername_2 == 0))
   {
-    return_value___errno_location$3=__errno_location();
-    tmp_if_expr$4 = *return_value___errno_location$3 == 107 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_3=__errno_location();
+    tmp_if_expr_4 = *return_value___errno_location_3 == 107 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  if(tmp_if_expr_4)
     return 1;
 
   else
@@ -4814,7 +4814,7 @@ union anonymous$4
 // file ../include/fcgios.h line 103
 signed int OS_LibInit(signed int *stdioFds)
 {
-  if(!(libInitialized$link1 == 0))
+  if(!(libInitialized_link1 == 0))
     return 0;
 
   else
@@ -4829,48 +4829,48 @@ signed int OS_LibInit(signed int *stdioFds)
     if(!(libfcgiIsAfUnixKeeperPollTimeoutStr == ((char *)NULL)))
       libfcgiIsAfUnixKeeperPollTimeout=atoi(libfcgiIsAfUnixKeeperPollTimeoutStr);
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)asyncIoTableSize * sizeof(struct anonymous) /*48ul*/ );
-    asyncIoTable = (struct anonymous *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)asyncIoTableSize * sizeof(struct anonymous) /*48ul*/ );
+    asyncIoTable = (struct anonymous *)return_value_malloc_1;
     if(asyncIoTable == ((struct anonymous *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 12;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 12;
       return -1;
     }
 
     memset((void *)(char *)asyncIoTable, 0, (unsigned long int)asyncIoTableSize * sizeof(struct anonymous) /*48ul*/ );
     do
     {
-      signed int OS_LibInit$$1$$4$$__d0;
-      signed int OS_LibInit$$1$$4$$__d1;
-      asm("cld; rep; stosq" : "=c"(OS_LibInit$$1$$4$$__d0), "=D"(OS_LibInit$$1$$4$$__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readFdSet)->__fds_bits[(signed long int)0]) : "memory");
+      signed int OS_LibInit__1__4____d0;
+      signed int OS_LibInit__1__4____d1;
+      asm("cld; rep; stosq" : "=c"(OS_LibInit__1__4____d0), "=D"(OS_LibInit__1__4____d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readFdSet)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writeFdSet)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writeFdSet)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
-      signed int OS_LibInit$$1$$6$$__d0;
-      signed int OS_LibInit$$1$$6$$__d1;
-      asm("cld; rep; stosq" : "=c"(OS_LibInit$$1$$6$$__d0), "=D"(OS_LibInit$$1$$6$$__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readFdSetPost)->__fds_bits[(signed long int)0]) : "memory");
+      signed int OS_LibInit__1__6____d0;
+      signed int OS_LibInit__1__6____d1;
+      asm("cld; rep; stosq" : "=c"(OS_LibInit__1__6____d0), "=D"(OS_LibInit__1__6____d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readFdSetPost)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
-      signed int OS_LibInit$$1$$7$$__d0;
-      signed int OS_LibInit$$1$$7$$__d1;
-      asm("cld; rep; stosq" : "=c"(OS_LibInit$$1$$7$$__d0), "=D"(OS_LibInit$$1$$7$$__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writeFdSetPost)->__fds_bits[(signed long int)0]) : "memory");
+      signed int OS_LibInit__1__7____d0;
+      signed int OS_LibInit__1__7____d1;
+      asm("cld; rep; stosq" : "=c"(OS_LibInit__1__7____d0), "=D"(OS_LibInit__1__7____d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writeFdSetPost)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     OS_InstallSignalHandlers(0);
-    libInitialized$link1 = 1;
+    libInitialized_link1 = 1;
     return 0;
   }
 }
@@ -4879,11 +4879,11 @@ signed int OS_LibInit(signed int *stdioFds)
 // file os_unix.c line 220
 void OS_LibShutdown(void)
 {
-  if(!(libInitialized$link1 == 0))
+  if(!(libInitialized_link1 == 0))
   {
     free((void *)asyncIoTable);
     asyncIoTable = (struct anonymous *)(void *)0;
-    libInitialized$link1 = 0;
+    libInitialized_link1 = 0;
   }
 
 }
@@ -4897,9 +4897,9 @@ signed int OS_Read(signed int fd, char *buf, unsigned long int len)
 
   else
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)buf, len);
-    return (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)buf, len);
+    return (signed int)return_value_read_1;
   }
 }
 
@@ -4911,19 +4911,19 @@ void OS_SetFlags(signed int fd, signed int flags)
   val=fcntl(fd, 3, 0);
   if(!(val >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    exit(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    exit(*return_value___errno_location_1);
   }
 
   val = val | flags;
-  signed int return_value_fcntl$3;
-  return_value_fcntl$3=fcntl(fd, 4, val);
-  if(!(return_value_fcntl$3 >= 0))
+  signed int return_value_fcntl_3;
+  return_value_fcntl_3=fcntl(fd, 4, val);
+  if(!(return_value_fcntl_3 >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    exit(*return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    exit(*return_value___errno_location_2);
   }
 
 }
@@ -4957,9 +4957,9 @@ signed int OS_SpawnChild(char *appPath, signed int listenFd)
   forkResult=fork();
   if(!(forkResult >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    exit(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    exit(*return_value___errno_location_1);
   }
 
   if(forkResult == 0)
@@ -4974,9 +4974,9 @@ signed int OS_SpawnChild(char *appPath, signed int listenFd)
     close(1);
     close(2);
     execl(appPath, appPath, (void *)0);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    exit(*return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    exit(*return_value___errno_location_2);
   }
 
   return 0;
@@ -4991,9 +4991,9 @@ signed int OS_Write(signed int fd, char *buf, unsigned long int len)
 
   else
   {
-    signed long int return_value_write$1;
-    return_value_write$1=write(fd, (const void *)buf, len);
-    return (signed int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(fd, (const void *)buf, len);
+    return (signed int)return_value_write_1;
   }
 }
 
@@ -5002,30 +5002,30 @@ signed int OS_Write(signed int fd, char *buf, unsigned long int len)
 static signed int ProcessBeginRecord(signed int requestId, struct FCGX_Stream *stream)
 {
   struct FCGX_Stream_Data *data = (struct FCGX_Stream_Data *)stream->data;
-  struct anonymous$23 body;
-  _Bool tmp_if_expr$1;
+  struct anonymous_23 body;
+  _Bool tmp_if_expr_1;
   if(requestId == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (unsigned long int)data->contentLen != sizeof(struct anonymous$23) /*8ul*/  ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (unsigned long int)data->contentLen != sizeof(struct anonymous_23) /*8ul*/  ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -3;
 
   else
   {
     if(!(data->reqDataPtr->isBeginProcessed == 0))
     {
-      struct anonymous$21 endRequestRecord;
-      endRequestRecord.header=MakeHeader(3, requestId, (signed int)sizeof(struct anonymous$15) /*8ul*/ , 0);
+      struct anonymous_21 endRequestRecord;
+      endRequestRecord.header=MakeHeader(3, requestId, (signed int)sizeof(struct anonymous_15) /*8ul*/ , 0);
       endRequestRecord.body=MakeEndRequestBody(0, 1);
-      signed int return_value_write_it_all$3;
-      return_value_write_it_all$3=write_it_all(data->reqDataPtr->ipcFd, (char *)&endRequestRecord, (signed int)sizeof(struct anonymous$21) /*16ul*/ );
-      if(!(return_value_write_it_all$3 >= 0))
+      signed int return_value_write_it_all_3;
+      return_value_write_it_all_3=write_it_all(data->reqDataPtr->ipcFd, (char *)&endRequestRecord, (signed int)sizeof(struct anonymous_21) /*16ul*/ );
+      if(!(return_value_write_it_all_3 >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        SetError(stream, *return_value___errno_location$2);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        SetError(stream, *return_value___errno_location_2);
         return -1;
       }
 
@@ -5033,9 +5033,9 @@ static signed int ProcessBeginRecord(signed int requestId, struct FCGX_Stream *s
     }
 
     data->reqDataPtr->requestId = requestId;
-    signed int return_value_FCGX_GetStr$4;
-    return_value_FCGX_GetStr$4=FCGX_GetStr((char *)&body, (signed int)sizeof(struct anonymous$23) /*8ul*/ , stream);
-    if(!((unsigned long int)return_value_FCGX_GetStr$4 == sizeof(struct anonymous$23) /*8ul*/ ))
+    signed int return_value_FCGX_GetStr_4;
+    return_value_FCGX_GetStr_4=FCGX_GetStr((char *)&body, (signed int)sizeof(struct anonymous_23) /*8ul*/ , stream);
+    if(!((unsigned long int)return_value_FCGX_GetStr_4 == sizeof(struct anonymous_23) /*8ul*/ ))
       return -3;
 
     else
@@ -5050,7 +5050,7 @@ static signed int ProcessBeginRecord(signed int requestId, struct FCGX_Stream *s
 
 // ProcessHeader
 // file fcgiapp.c line 1589
-static signed int ProcessHeader(struct anonymous$13 header, struct FCGX_Stream *stream)
+static signed int ProcessHeader(struct anonymous_13 header, struct FCGX_Stream *stream)
 {
   struct FCGX_Stream_Data *data = (struct FCGX_Stream_Data *)stream->data;
   signed int requestId;
@@ -5064,16 +5064,16 @@ static signed int ProcessHeader(struct anonymous$13 header, struct FCGX_Stream *
     data->paddingLen = (signed int)header.paddingLength;
     if((signed int)header.type == 1)
     {
-      signed int return_value_ProcessBeginRecord$1;
-      return_value_ProcessBeginRecord$1=ProcessBeginRecord(requestId, stream);
-      return return_value_ProcessBeginRecord$1;
+      signed int return_value_ProcessBeginRecord_1;
+      return_value_ProcessBeginRecord_1=ProcessBeginRecord(requestId, stream);
+      return return_value_ProcessBeginRecord_1;
     }
 
     if(requestId == 0)
     {
-      signed int return_value_ProcessManagementRecord$2;
-      return_value_ProcessManagementRecord$2=ProcessManagementRecord((signed int)header.type, stream);
-      return return_value_ProcessManagementRecord$2;
+      signed int return_value_ProcessManagementRecord_2;
+      return_value_ProcessManagementRecord_2=ProcessManagementRecord((signed int)header.type, stream);
+      return return_value_ProcessManagementRecord_2;
     }
 
     if(!(requestId == data->reqDataPtr->requestId))
@@ -5102,20 +5102,20 @@ static signed int ProcessManagementRecord(signed int type, struct FCGX_Stream *s
   char value = (char)0;
   signed int len;
   signed int paddedLen;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
   if(type == 9)
   {
     ReadParams(paramsPtr, stream);
-    signed int return_value_FCGX_GetError$1;
-    return_value_FCGX_GetError$1=FCGX_GetError(stream);
-    if(!(return_value_FCGX_GetError$1 == 0))
-      tmp_if_expr$2 = (_Bool)1;
+    signed int return_value_FCGX_GetError_1;
+    return_value_FCGX_GetError_1=FCGX_GetError(stream);
+    if(!(return_value_FCGX_GetError_1 == 0))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = data->contentLen != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = data->contentLen != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       FreeParams(&paramsPtr);
       return -3;
@@ -5125,24 +5125,24 @@ static signed int ProcessManagementRecord(signed int type, struct FCGX_Stream *s
     for( ; !(pPtr >= paramsPtr->cur); pPtr = pPtr + 1l)
     {
       name = *pPtr;
-      char *return_value_strchr$3;
-      return_value_strchr$3=strchr(name, 61);
-      *return_value_strchr$3 = (char)0;
-      signed int return_value_strcmp$6;
-      return_value_strcmp$6=strcmp(name, "FCGI_MAX_CONNS");
-      if(return_value_strcmp$6 == 0)
+      char *return_value_strchr_3;
+      return_value_strchr_3=strchr(name, 61);
+      *return_value_strchr_3 = (char)0;
+      signed int return_value_strcmp_6;
+      return_value_strcmp_6=strcmp(name, "FCGI_MAX_CONNS");
+      if(return_value_strcmp_6 == 0)
         value = (char)49;
 
       else
       {
-        return_value_strcmp$5=strcmp(name, "FCGI_MAX_REQS");
-        if(return_value_strcmp$5 == 0)
+        return_value_strcmp_5=strcmp(name, "FCGI_MAX_REQS");
+        if(return_value_strcmp_5 == 0)
           value = (char)49;
 
         else
         {
-          return_value_strcmp$4=strcmp(name, "FCGI_MPXS_CONNS");
-          if(return_value_strcmp$4 == 0)
+          return_value_strcmp_4=strcmp(name, "FCGI_MPXS_CONNS");
+          if(return_value_strcmp_4 == 0)
             value = (char)48;
 
           else
@@ -5151,9 +5151,9 @@ static signed int ProcessManagementRecord(signed int type, struct FCGX_Stream *s
       }
       if(!(name == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(name);
-        len = (signed int)return_value_strlen$7;
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(name);
+        len = (signed int)return_value_strlen_7;
         sprintf(responseP, "%c%c%s%c", len, 1, name, value);
         responseP = responseP + (signed long int)(len + 3);
       }
@@ -5161,26 +5161,26 @@ static signed int ProcessManagementRecord(signed int type, struct FCGX_Stream *s
     }
     len = (signed int)(responseP - &response[(signed long int)8]);
     paddedLen=AlignInt8((unsigned int)len);
-    struct anonymous$13 *header = (struct anonymous$13 *)response;
+    struct anonymous_13 *header = (struct anonymous_13 *)response;
     *header=MakeHeader(10, 0, len, paddedLen - len);
     FreeParams(&paramsPtr);
   }
 
   else
   {
-    len = (signed int)sizeof(struct anonymous$1) /*8ul*/ ;
+    len = (signed int)sizeof(struct anonymous_1) /*8ul*/ ;
     paddedLen = len;
-    struct anonymous$22 *utr = (struct anonymous$22 *)response;
+    struct anonymous_22 *utr = (struct anonymous_22 *)response;
     utr->header=MakeHeader(11, 0, len, 0);
     utr->body=MakeUnknownTypeBody(type);
   }
-  signed int return_value_write_it_all$9;
-  return_value_write_it_all$9=write_it_all(data->reqDataPtr->ipcFd, response, 8 + paddedLen);
-  if(!(return_value_write_it_all$9 >= 0))
+  signed int return_value_write_it_all_9;
+  return_value_write_it_all_9=write_it_all(data->reqDataPtr->ipcFd, response, 8 + paddedLen);
+  if(!(return_value_write_it_all_9 >= 0))
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    SetError(stream, *return_value___errno_location$8);
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    SetError(stream, *return_value___errno_location_8);
     return -1;
   }
 
@@ -5192,16 +5192,16 @@ static signed int ProcessManagementRecord(signed int type, struct FCGX_Stream *s
 static void PutParam(struct Params *paramsPtr, char *nameValue)
 {
   signed int size;
-  char **tmp_post$1 = paramsPtr->cur;
+  char **tmp_post_1 = paramsPtr->cur;
   paramsPtr->cur = paramsPtr->cur + 1l;
-  *tmp_post$1 = nameValue;
+  *tmp_post_1 = nameValue;
   size = (signed int)(paramsPtr->cur - paramsPtr->vec);
   if(size >= paramsPtr->length)
   {
     paramsPtr->length = paramsPtr->length * 2;
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)paramsPtr->vec, (unsigned long int)paramsPtr->length * sizeof(char *) /*8ul*/ );
-    paramsPtr->vec = (char **)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)paramsPtr->vec, (unsigned long int)paramsPtr->length * sizeof(char *) /*8ul*/ );
+    paramsPtr->vec = (char **)return_value_realloc_2;
     paramsPtr->cur = paramsPtr->vec + (signed long int)size;
   }
 
@@ -5224,9 +5224,9 @@ static signed int ReadParams(struct Params *paramsPtr, struct FCGX_Stream *strea
 
     if(!((0x80 & nameLen) == 0))
     {
-      signed int return_value_FCGX_GetStr$1;
-      return_value_FCGX_GetStr$1=FCGX_GetStr((char *)&lenBuff[(signed long int)0], 3, stream);
-      if(!(return_value_FCGX_GetStr$1 == 3))
+      signed int return_value_FCGX_GetStr_1;
+      return_value_FCGX_GetStr_1=FCGX_GetStr((char *)&lenBuff[(signed long int)0], 3, stream);
+      if(!(return_value_FCGX_GetStr_1 == 3))
       {
         SetError(stream, -4);
         return -1;
@@ -5244,9 +5244,9 @@ static signed int ReadParams(struct Params *paramsPtr, struct FCGX_Stream *strea
 
     if(!((0x80 & valueLen) == 0))
     {
-      signed int return_value_FCGX_GetStr$2;
-      return_value_FCGX_GetStr$2=FCGX_GetStr((char *)&lenBuff[(signed long int)0], 3, stream);
-      if(!(return_value_FCGX_GetStr$2 == 3))
+      signed int return_value_FCGX_GetStr_2;
+      return_value_FCGX_GetStr_2=FCGX_GetStr((char *)&lenBuff[(signed long int)0], 3, stream);
+      if(!(return_value_FCGX_GetStr_2 == 3))
       {
         SetError(stream, -4);
         return -1;
@@ -5255,12 +5255,12 @@ static signed int ReadParams(struct Params *paramsPtr, struct FCGX_Stream *strea
       valueLen = ((valueLen & 0x7f) << 24) + ((signed int)lenBuff[(signed long int)0] << 16) + ((signed int)lenBuff[(signed long int)1] << 8) + (signed int)lenBuff[(signed long int)2];
     }
 
-    void *return_value_Malloc$3;
-    return_value_Malloc$3=Malloc((unsigned long int)(nameLen + valueLen + 2));
-    nameValue = (char *)return_value_Malloc$3;
-    signed int return_value_FCGX_GetStr$4;
-    return_value_FCGX_GetStr$4=FCGX_GetStr(nameValue, nameLen, stream);
-    if(!(return_value_FCGX_GetStr$4 == nameLen))
+    void *return_value_Malloc_3;
+    return_value_Malloc_3=Malloc((unsigned long int)(nameLen + valueLen + 2));
+    nameValue = (char *)return_value_Malloc_3;
+    signed int return_value_FCGX_GetStr_4;
+    return_value_FCGX_GetStr_4=FCGX_GetStr(nameValue, nameLen, stream);
+    if(!(return_value_FCGX_GetStr_4 == nameLen))
     {
       SetError(stream, -4);
       free((void *)nameValue);
@@ -5268,9 +5268,9 @@ static signed int ReadParams(struct Params *paramsPtr, struct FCGX_Stream *strea
     }
 
     nameValue[(signed long int)nameLen] = (char)61;
-    signed int return_value_FCGX_GetStr$5;
-    return_value_FCGX_GetStr$5=FCGX_GetStr(nameValue + (signed long int)nameLen + (signed long int)1, valueLen, stream);
-    if(!(return_value_FCGX_GetStr$5 == valueLen))
+    signed int return_value_FCGX_GetStr_5;
+    return_value_FCGX_GetStr_5=FCGX_GetStr(nameValue + (signed long int)nameLen + (signed long int)1, valueLen, stream);
+    if(!(return_value_FCGX_GetStr_5 == valueLen))
     {
       SetError(stream, -4);
       free((void *)nameValue);
@@ -5324,13 +5324,13 @@ static struct FCGX_Stream * SetReaderType(struct FCGX_Stream *stream, signed int
 static char * StringCopy(char *str)
 {
   signed int strLen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  strLen = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  strLen = (signed int)return_value_strlen_1;
   char *newString;
-  void *return_value_Malloc$2;
-  return_value_Malloc$2=Malloc((unsigned long int)(strLen + 1));
-  newString = (char *)return_value_Malloc$2;
+  void *return_value_Malloc_2;
+  return_value_Malloc_2=Malloc((unsigned long int)(strLen + 1));
+  newString = (char *)return_value_Malloc_2;
   memcpy((void *)newString, (const void *)str, (unsigned long int)strLen);
   newString[(signed long int)strLen] = (char)0;
   return newString;
@@ -5342,31 +5342,31 @@ static void WriteCloseRecords(struct FCGX_Stream *stream)
 {
   struct FCGX_Stream_Data *data = (struct FCGX_Stream_Data *)stream->data;
   data->rawWrite = 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(data->type == 7)
-    tmp_if_expr$1 = stream->wrNext == data->buff ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = stream->wrNext == data->buff ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = !(data->isAnythingWritten != 0) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = !(data->isAnythingWritten != 0) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(!tmp_if_expr_2)
   {
-    struct anonymous$13 header;
+    struct anonymous_13 header;
     header=MakeHeader(data->type, data->reqDataPtr->requestId, 0, 0);
-    FCGX_PutStr((char *)&header, (signed int)sizeof(struct anonymous$13) /*8ul*/ , stream);
+    FCGX_PutStr((char *)&header, (signed int)sizeof(struct anonymous_13) /*8ul*/ , stream);
   }
 
   if(data->reqDataPtr->nWriters == 1)
   {
-    struct anonymous$21 endRequestRecord;
-    endRequestRecord.header=MakeHeader(3, data->reqDataPtr->requestId, (signed int)sizeof(struct anonymous$15) /*8ul*/ , 0);
+    struct anonymous_21 endRequestRecord;
+    endRequestRecord.header=MakeHeader(3, data->reqDataPtr->requestId, (signed int)sizeof(struct anonymous_15) /*8ul*/ , 0);
     endRequestRecord.body=MakeEndRequestBody(data->reqDataPtr->appStatus, 0);
-    FCGX_PutStr((char *)&endRequestRecord, (signed int)sizeof(struct anonymous$21) /*16ul*/ , stream);
+    FCGX_PutStr((char *)&endRequestRecord, (signed int)sizeof(struct anonymous_21) /*16ul*/ , stream);
   }
 
   data->reqDataPtr->nWriters = data->reqDataPtr->nWriters - 1;
@@ -5386,7 +5386,7 @@ static void * doit(void *a)
   FCGX_InitRequest(&request, 0, 0);
   do
   {
-    static union anonymous$24 accept_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+    static union anonymous_24 accept_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
     pthread_mutex_lock(&accept_mutex);
@@ -5398,7 +5398,7 @@ static void * doit(void *a)
     server_name=FCGX_GetParam("SERVER_NAME", request.envp);
     FCGX_FPrintF(request.out, "Content-type: text/html\r\n\r\n<title>FastCGI Hello! (multi-threaded C, fcgiapp library)</title><h1>FastCGI Hello! (multi-threaded C, fcgiapp library)</h1>Thread %d, Process %ld<p>Request counts for %d threads running on host <i>%s</i><p><code>", thread_id, pid, 20, server_name != ((char *)NULL) ? server_name : "?");
     sleep((unsigned int)2);
-    static union anonymous$24 counts_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+    static union anonymous_24 counts_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
     pthread_mutex_lock(&counts_mutex);
@@ -5431,9 +5431,9 @@ static signed int is_af_unix_keeper(const signed int fd)
   struct pollfd pfd;
   pfd.fd = fd;
   pfd.events = (signed short int)0x001;
-  signed int return_value_poll$1;
-  return_value_poll$1=poll(&pfd, (unsigned long int)1, libfcgiIsAfUnixKeeperPollTimeout);
-  return (signed int)(return_value_poll$1 >= 0 ? (((signed int)pfd.revents & 0x001) != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0);
+  signed int return_value_poll_1;
+  return_value_poll_1=poll(&pfd, (unsigned long int)1, libfcgiIsAfUnixKeeperPollTimeout);
+  return (signed int)(return_value_poll_1 >= 0 ? (((signed int)pfd.revents & 0x001) != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0);
 }
 
 // is_reasonable_accept_errno
@@ -5465,11 +5465,11 @@ signed int main(void)
 static char * str_dup(const char *str)
 {
   char *sdup;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-  sdup = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+  sdup = (char *)return_value_malloc_2;
   if(!(sdup == ((char *)NULL)))
     strcpy(sdup, str);
 

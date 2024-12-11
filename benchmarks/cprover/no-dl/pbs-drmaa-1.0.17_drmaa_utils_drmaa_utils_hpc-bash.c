@@ -1,66 +1,66 @@
-// #anon_enum$FSD_CONF_INTEGER=0$FSD_CONF_STRING=1$FSD_CONF_DICT=2
+// #anon_enum_FSD_CONF_INTEGER=0_FSD_CONF_STRING=1_FSD_CONF_DICT=2
 // file ../drmaa_utils/conf.h line 29
-enum anonymous$5 { FSD_CONF_INTEGER=0, FSD_CONF_STRING=1, FSD_CONF_DICT=2 };
+enum anonymous_5 { FSD_CONF_INTEGER=0, FSD_CONF_STRING=1, FSD_CONF_DICT=2 };
 
-// #anon_enum$FSD_EXC_ENTER=0$FSD_EXC_TRY_BLOCK=1$FSD_EXC_EXCEPTION_HANDLE=2$FSD_EXC_ELSE_BLOCK=3$FSD_EXC_FINALLY_BLOCK=4$FSD_EXC_LEAVE=5
+// #anon_enum_FSD_EXC_ENTER=0_FSD_EXC_TRY_BLOCK=1_FSD_EXC_EXCEPTION_HANDLE=2_FSD_EXC_ELSE_BLOCK=3_FSD_EXC_FINALLY_BLOCK=4_FSD_EXC_LEAVE=5
 // file ../drmaa_utils/exception.h line 140
-enum anonymous$7 { FSD_EXC_ENTER=0, FSD_EXC_TRY_BLOCK=1, FSD_EXC_EXCEPTION_HANDLE=2, FSD_EXC_ELSE_BLOCK=3, FSD_EXC_FINALLY_BLOCK=4, FSD_EXC_LEAVE=5 };
+enum anonymous_7 { FSD_EXC_ENTER=0, FSD_EXC_TRY_BLOCK=1, FSD_EXC_EXCEPTION_HANDLE=2, FSD_EXC_ELSE_BLOCK=3, FSD_EXC_FINALLY_BLOCK=4, FSD_EXC_LEAVE=5 };
 
-// #anon_enum$FSD_LOG_ALL=0$FSD_LOG_TRACE=1$FSD_LOG_DEBUG=2$FSD_LOG_INFO=3$FSD_LOG_WARNING=4$FSD_LOG_ERROR=5$FSD_LOG_FATAL=6$FSD_LOG_NONE=7
+// #anon_enum_FSD_LOG_ALL=0_FSD_LOG_TRACE=1_FSD_LOG_DEBUG=2_FSD_LOG_INFO=3_FSD_LOG_WARNING=4_FSD_LOG_ERROR=5_FSD_LOG_FATAL=6_FSD_LOG_NONE=7
 // file ../drmaa_utils/logging.h line 84
-enum anonymous$3 { FSD_LOG_ALL=0, FSD_LOG_TRACE=1, FSD_LOG_DEBUG=2, FSD_LOG_INFO=3, FSD_LOG_WARNING=4, FSD_LOG_ERROR=5, FSD_LOG_FATAL=6, FSD_LOG_NONE=7 };
+enum anonymous_3 { FSD_LOG_ALL=0, FSD_LOG_TRACE=1, FSD_LOG_DEBUG=2, FSD_LOG_INFO=3, FSD_LOG_WARNING=4, FSD_LOG_ERROR=5, FSD_LOG_FATAL=6, FSD_LOG_NONE=7 };
 
-// #anon_enum$yyok=0$yyaccept=1$yyabort=2$yyerr=3
+// #anon_enum_yyok=0_yyaccept=1_yyabort=2_yyerr=3
 // file datetime_tab.c line 445
-enum anonymous$10 { yyok=0, yyaccept=1, yyabort=2, yyerr=3 };
+enum anonymous_10 { yyok=0, yyaccept=1, yyabort=2, yyerr=3 };
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[*{SYM#tag-yySemanticOption#}$SYM#tag-yySemanticOption#$'yyfirstVal'||SYM#tag-YYSTYPE#'yysval'|]$link1
+// tag-#anon#UN[*{SYM#tag-yySemanticOption#}_SYM#tag-yySemanticOption#_'yyfirstVal'||SYM#tag-YYSTYPE#'yysval'|]_link1
 // file datetime_tab.c line 677
 union anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[S32'integer'||*{S8}$S8$'string'||*{SYM#tag-fsd_conf_dict_s#}$SYM#tag-fsd_conf_dict_s#$'dict'|]
+// tag-#anon#UN[S32'integer'||*{S8}_S8_'string'||*{SYM#tag-fsd_conf_dict_s#}_SYM#tag-fsd_conf_dict_s#_'dict'|]
 // file ../drmaa_utils/conf.h line 37
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
 // tag-YYLTYPE
 // file ../drmaa_utils/conf_impl.h line 32
 struct YYLTYPE;
 
-// tag-YYLTYPE$link1
+// tag-YYLTYPE_link1
 // file datetime_tab.h line 71
-struct YYLTYPE$0;
+struct YYLTYPE_0;
 
 // tag-YYSTYPE
 // file ../drmaa_utils/conf_impl.h line 31
 union YYSTYPE;
 
-// tag-YYSTYPE$link1
+// tag-YYSTYPE_link1
 // file ../drmaa_utils/datetime_impl.h line 38
-union YYSTYPE$0;
+union YYSTYPE_0;
 
-// tag-YYSTYPE$link2
+// tag-YYSTYPE_link2
 // file ../drmaa_utils/datetime_impl.h line 38
-union YYSTYPE$1;
+union YYSTYPE_1;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -194,23 +194,23 @@ struct timezone;
 // file /usr/include/time.h line 133
 struct tm;
 
-// tag-yyGLRStack$link1
+// tag-yyGLRStack_link1
 // file datetime_tab.c line 663
 struct yyGLRStack;
 
-// tag-yyGLRStackItem$link1
+// tag-yyGLRStackItem_link1
 // file datetime_tab.c line 662
 union yyGLRStackItem;
 
-// tag-yyGLRState$link1
+// tag-yyGLRState_link1
 // file datetime_tab.c line 659
 struct yyGLRState;
 
-// tag-yyGLRStateSet$link1
+// tag-yyGLRStateSet_link1
 // file datetime_tab.c line 660
 struct yyGLRStateSet;
 
-// tag-yySemanticOption$link1
+// tag-yySemanticOption_link1
 // file datetime_tab.c line 661
 struct yySemanticOption;
 
@@ -344,22 +344,22 @@ signed int fsd_calloc_noraise_(void **p, unsigned long int n, unsigned long int 
 void fsd_color(char *output, unsigned long int len, signed int n);
 // fsd_cond_broadcast
 // file ../drmaa_utils/thread.h line 96
-void fsd_cond_broadcast(union anonymous$2 *cond);
+void fsd_cond_broadcast(union anonymous_2 *cond);
 // fsd_cond_destroy
 // file ../drmaa_utils/thread.h line 94
-void fsd_cond_destroy(union anonymous$2 *cond);
+void fsd_cond_destroy(union anonymous_2 *cond);
 // fsd_cond_init
 // file ../drmaa_utils/thread.h line 93
-void fsd_cond_init(union anonymous$2 *cond);
+void fsd_cond_init(union anonymous_2 *cond);
 // fsd_cond_signal
 // file thread.c line 182
-void fsd_cond_signal(union anonymous$2 *cond);
+void fsd_cond_signal(union anonymous_2 *cond);
 // fsd_cond_timedwait
 // file thread.c line 209
-_Bool fsd_cond_timedwait(union anonymous$2 *cond, union anonymous$1 *mutex, struct timespec *abstime);
+_Bool fsd_cond_timedwait(union anonymous_2 *cond, union anonymous_1 *mutex, struct timespec *abstime);
 // fsd_cond_wait
 // file thread.c line 200
-void fsd_cond_wait(union anonymous$2 *cond, union anonymous$1 *mutex);
+void fsd_cond_wait(union anonymous_2 *cond, union anonymous_1 *mutex);
 // fsd_conf_dict_create
 // file conf.c line 402
 struct fsd_conf_dict_s * fsd_conf_dict_create(void);
@@ -392,10 +392,10 @@ void fsd_conf_error(struct YYLTYPE *locp, struct fsd_conf_parser_s *parser, stru
 signed int fsd_conf_lex(union YYSTYPE *lvalp, struct YYLTYPE *locp, struct fsd_conf_lexer_s *lexer);
 // fsd_conf_option_create
 // file conf.c line 306
-struct fsd_conf_option_s * fsd_conf_option_create(enum anonymous$5 type, void *value);
+struct fsd_conf_option_s * fsd_conf_option_create(enum anonymous_5 type, void *value);
 // fsd_conf_option_create_noraise
 // file conf.c line 546
-struct fsd_conf_option_s * fsd_conf_option_create_noraise(enum anonymous$5 type, void *value);
+struct fsd_conf_option_s * fsd_conf_option_create_noraise(enum anonymous_5 type, void *value);
 // fsd_conf_option_destroy
 // file conf.c line 332
 void fsd_conf_option_destroy(struct fsd_conf_option_s *option);
@@ -440,7 +440,7 @@ const char * fsd_drmaa_strerror(signed int drmaa_errno);
 void fsd_dt_error(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer, const char *fmt, ...);
 // fsd_dt_lex
 // file datetime.c line 317
-signed int fsd_dt_lex(union YYSTYPE$0 *lvalp, struct fsd_dt_lexer_s *lex);
+signed int fsd_dt_lex(union YYSTYPE_0 *lvalp, struct fsd_dt_lexer_s *lex);
 // fsd_dt_parse
 // file ../drmaa_utils/datetime_impl.h line 57
 signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
@@ -528,9 +528,9 @@ struct fsd_exc_try_block_s * fsd_exc_try(const char *function, signed int lineno
 // fsd_exc_try_except
 // file exception.c line 588
 void * fsd_exc_try_except(void * (*f)(void *), void *data, signed int *error_code, char **error_message);
-// fsd_exc_try_except::f$object
+// fsd_exc_try_except::f_object
 //
-void * f$object(void *);
+void * f_object(void *);
 // fsd_exec_async
 // file exec.c line 95
 void fsd_exec_async(const char *command, char **args, signed int *stdin_desc, signed int *stdout_desc, signed int *stderr_desc, signed int *child_pid);
@@ -665,22 +665,22 @@ void * fsd_malloc_(void **p, unsigned long int size);
 signed int fsd_malloc_noraise_(void **p, unsigned long int size);
 // fsd_mutex_destroy
 // file ../drmaa_utils/thread.h line 81
-void fsd_mutex_destroy(union anonymous$1 *mutex);
+void fsd_mutex_destroy(union anonymous_1 *mutex);
 // fsd_mutex_init
 // file ../drmaa_utils/thread.h line 80
-void fsd_mutex_init(union anonymous$1 *mutex);
+void fsd_mutex_init(union anonymous_1 *mutex);
 // fsd_mutex_lock
 // file ../drmaa_utils/thread.h line 82
-_Bool fsd_mutex_lock(union anonymous$1 *mutex);
+_Bool fsd_mutex_lock(union anonymous_1 *mutex);
 // fsd_mutex_trylock
 // file thread.c line 132
-_Bool fsd_mutex_trylock(union anonymous$1 *mutex);
+_Bool fsd_mutex_trylock(union anonymous_1 *mutex);
 // fsd_mutex_unlock
 // file ../drmaa_utils/thread.h line 83
-_Bool fsd_mutex_unlock(union anonymous$1 *mutex);
+_Bool fsd_mutex_unlock(union anonymous_1 *mutex);
 // fsd_mutex_unlock_times
 // file thread.c line 148
-signed int fsd_mutex_unlock_times(union anonymous$1 *mutex);
+signed int fsd_mutex_unlock_times(union anonymous_1 *mutex);
 // fsd_parse_timedelta
 // file timedelta.rl line 37
 signed int fsd_parse_timedelta(const char *string);
@@ -707,7 +707,7 @@ char * fsd_replace(char *str, const char *placeholder, const char *value);
 void fsd_set_logging_fd(signed int fd);
 // fsd_set_verbosity_level
 // file logging.c line 64
-void fsd_set_verbosity_level(enum anonymous$3 level);
+void fsd_set_verbosity_level(enum anonymous_3 level);
 // fsd_snprintf
 // file fsd_util.c line 266
 unsigned long int fsd_snprintf(_Bool *truncated, char *str, unsigned long int size, const char *fmt, ...);
@@ -741,12 +741,12 @@ static const char * const * fsd_template_get_v_attr(const struct fsd_template_s 
 // fsd_template_new
 // file ../drmaa_utils/template.h line 37
 struct fsd_template_s * fsd_template_new(const struct fsd_attribute_s * (*by_name_method)(const struct fsd_template_s *, const char *), const struct fsd_attribute_s * (*by_code_method)(const struct fsd_template_s *, signed int), unsigned int n_attributes);
-// fsd_template_new::by_code_method$object
+// fsd_template_new::by_code_method_object
 //
-const struct fsd_attribute_s * by_code_method$object(const struct fsd_template_s *, signed int);
-// fsd_template_new::by_name_method$object
+const struct fsd_attribute_s * by_code_method_object(const struct fsd_template_s *, signed int);
+// fsd_template_new::by_name_method_object
 //
-const struct fsd_attribute_s * by_name_method$object(const struct fsd_template_s *, const char *);
+const struct fsd_attribute_s * by_name_method_object(const struct fsd_template_s *, const char *);
 // fsd_template_set_attr
 // file template.c line 56
 static void fsd_template_set_attr(struct fsd_template_s *self, const char *name, const char *value);
@@ -756,9 +756,9 @@ static void fsd_template_set_v_attr(struct fsd_template_s *self, const char *nam
 // fsd_thread_create
 // file thread.c line 55
 void fsd_thread_create(unsigned long int *thread, void * (*func)(void *), void *arg);
-// fsd_thread_create::func$object
+// fsd_thread_create::func_object
 //
-void * func$object(void *);
+void * func_object(void *);
 // fsd_thread_detach
 // file thread.c line 73
 void fsd_thread_detach(unsigned long int th);
@@ -842,22 +842,22 @@ extern signed int pipe(signed int *);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$2 *);
+extern signed int pthread_cond_broadcast(union anonymous_2 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$2 *);
+extern signed int pthread_cond_destroy(union anonymous_2 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$2 *, const union anonymous$8 *);
+extern signed int pthread_cond_init(union anonymous_2 *, const union anonymous_8 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$2 *);
+extern signed int pthread_cond_signal(union anonymous_2 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$2 *, union anonymous$1 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_2 *, union anonymous_1 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$2 *, union anonymous$1 *);
+extern signed int pthread_cond_wait(union anonymous_2 *, union anonymous_1 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -878,28 +878,28 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_key_create(unsigned int *, void (*)(void *));
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$1 *);
+extern signed int pthread_mutex_destroy(union anonymous_1 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous$8 *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous_8 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$1 *);
+extern signed int pthread_mutex_trylock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$8 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_8 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$8 *);
+extern signed int pthread_mutexattr_init(union anonymous_8 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$8 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_8 *, signed int);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
@@ -993,12 +993,12 @@ static void yydestroyGLRState(const char *yymsg, struct yyGLRState *yys, struct 
 // yydestruct
 // file conf_tab.c line 1038
 static void yydestruct(const char *yymsg, signed int yytype, union YYSTYPE *yyvaluep, struct YYLTYPE *yylocationp, struct fsd_conf_parser_s *parser, struct fsd_conf_lexer_s *lexer);
-// yydestruct$link1
+// yydestruct_link1
 // file datetime_tab.c line 1002
-static void yydestruct$link1(const char *yymsg$link1, signed int yytype$link1, union YYSTYPE$1 *yyvaluep$link1, struct fsd_dt_parser_s *parser$link1, struct fsd_dt_lexer_s *lexer$link1);
+static void yydestruct_link1(const char *yymsg_link1, signed int yytype_link1, union YYSTYPE_1 *yyvaluep_link1, struct fsd_dt_parser_s *parser_link1, struct fsd_dt_lexer_s *lexer_link1);
 // yydoAction
 // file datetime_tab.c line 1421
-static inline enum anonymous$10 yydoAction(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yyrule, union YYSTYPE$1 *yyvalp, struct YYLTYPE$0 *yylocp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
+static inline enum anonymous_10 yydoAction(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yyrule, union YYSTYPE_1 *yyvalp, struct YYLTYPE_0 *yylocp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyexpandGLRStack
 // file datetime_tab.c line 1241
 static void yyexpandGLRStack(struct yyGLRStack *yystackp);
@@ -1019,10 +1019,10 @@ static void yyfreeStateSet(struct yyGLRStateSet *yyset);
 static inline void yygetLRActions(signed int yystate, signed int yytoken, signed int *yyaction, const signed short int **yyconflicts);
 // yyglrReduce
 // file datetime_tab.c line 1514
-static inline enum anonymous$10 yyglrReduce(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yyrule, unsigned char yyforceEval, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
+static inline enum anonymous_10 yyglrReduce(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yyrule, unsigned char yyforceEval, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyglrShift
 // file datetime_tab.c line 1377
-static inline void yyglrShift(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yylrState, unsigned long int yyposn, union YYSTYPE$1 *yyvalp, struct YYLTYPE$0 *yylocp);
+static inline void yyglrShift(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yylrState, unsigned long int yyposn, union YYSTYPE_1 *yyvalp, struct YYLTYPE_0 *yylocp);
 // yyglrShiftDefer
 // file datetime_tab.c line 1398
 static inline void yyglrShiftDefer(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yylrState, unsigned long int yyposn, struct yyGLRState *rhs, signed int yyrule);
@@ -1061,7 +1061,7 @@ static inline union yyGLRStackItem * yynewGLRStackItem(struct yyGLRStack *yystac
 static signed int yypreference(struct yySemanticOption *y0, struct yySemanticOption *y1);
 // yyprocessOneStack
 // file datetime_tab.c line 2053
-static enum anonymous$10 yyprocessOneStack(struct yyGLRStack *yystackp, unsigned long int yyk, unsigned long int yyposn, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
+static enum anonymous_10 yyprocessOneStack(struct yyGLRStack *yystackp, unsigned long int yyk, unsigned long int yyposn, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyrecoverSyntaxError
 // file datetime_tab.c line 2230
 static void yyrecoverSyntaxError(struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
@@ -1070,25 +1070,25 @@ static void yyrecoverSyntaxError(struct yyGLRStack *yystackp, struct fsd_dt_pars
 static inline void yyremoveDeletes(struct yyGLRStack *yystackp);
 // yyreportAmbiguity
 // file datetime_tab.c line 1833
-static enum anonymous$10 yyreportAmbiguity(struct yySemanticOption *yyx0, struct yySemanticOption *yyx1, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
+static enum anonymous_10 yyreportAmbiguity(struct yySemanticOption *yyx0, struct yySemanticOption *yyx1, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyreportSyntaxError
 // file datetime_tab.c line 2126
 static void yyreportSyntaxError(struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyresolveAction
 // file datetime_tab.c line 1748
-static enum anonymous$10 yyresolveAction(struct yySemanticOption *yyopt, struct yyGLRStack *yystackp, union YYSTYPE$1 *yyvalp, struct YYLTYPE$0 *yylocp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
+static enum anonymous_10 yyresolveAction(struct yySemanticOption *yyopt, struct yyGLRStack *yystackp, union YYSTYPE_1 *yyvalp, struct YYLTYPE_0 *yylocp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyresolveLocations
 // file datetime_tab.c line 1856
 static void yyresolveLocations(struct yyGLRState *yys1, signed int yyn1, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyresolveStack
 // file datetime_tab.c line 2005
-static enum anonymous$10 yyresolveStack(struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
+static enum anonymous_10 yyresolveStack(struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyresolveStates
 // file datetime_tab.c line 1730
-static enum anonymous$10 yyresolveStates(struct yyGLRState *yys, signed int yyn, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
+static enum anonymous_10 yyresolveStates(struct yyGLRState *yys, signed int yyn, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyresolveValue
 // file datetime_tab.c line 1917
-static enum anonymous$10 yyresolveValue(struct yyGLRState *yys, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
+static enum anonymous_10 yyresolveValue(struct yyGLRState *yys, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyrhsLength
 // file datetime_tab.c line 1022
 static inline signed int yyrhsLength(signed int yyrule);
@@ -1103,18 +1103,18 @@ static void yyundeleteLastStack(struct yyGLRStack *yystackp);
 static inline void yyupdateSplit(struct yyGLRStack *yystackp, struct yyGLRState *yys);
 // yyuserAction
 // file datetime_tab.c line 816
-static enum anonymous$10 yyuserAction(signed int yyn, signed int yyrhslen, union yyGLRStackItem *yyvsp, union YYSTYPE$1 *yyvalp, struct YYLTYPE$0 *yylocp, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
+static enum anonymous_10 yyuserAction(signed int yyn, signed int yyrhslen, union yyGLRStackItem *yyvsp, union YYSTYPE_1 *yyvalp, struct YYLTYPE_0 *yylocp, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer);
 // yyuserMerge
 // file datetime_tab.c line 982
-static void yyuserMerge(signed int yyn, union YYSTYPE$1 *yy0, union YYSTYPE$1 *yy1);
+static void yyuserMerge(signed int yyn, union YYSTYPE_1 *yy0, union YYSTYPE_1 *yy1);
 
-struct anonymous$4
+struct anonymous_4
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __lock
   signed int __lock;
@@ -1154,7 +1154,7 @@ struct fsd_datetime_s
   signed long int tz_delta;
 };
 
-union YYSTYPE$1
+union YYSTYPE_1
 {
   // datetime
   struct fsd_datetime_s datetime;
@@ -1167,10 +1167,10 @@ union anonymous
   // yyfirstVal
   struct yySemanticOption *yyfirstVal;
   // yysval
-  union YYSTYPE$1 yysval;
+  union YYSTYPE_1 yysval;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __size
   char __size[4l];
@@ -1178,7 +1178,7 @@ union anonymous$8
   signed int __align;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // integer
   signed int integer;
@@ -1188,10 +1188,10 @@ union anonymous$6
   struct fsd_conf_dict_s *dict;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
-  struct anonymous$0 __data;
+  struct anonymous_0 __data;
   // __size
   char __size[48l];
   // __align
@@ -1226,7 +1226,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1248,7 +1248,7 @@ struct YYLTYPE
   signed int last_column;
 };
 
-struct YYLTYPE$0
+struct YYLTYPE_0
 {
   // yydummy
   char yydummy;
@@ -1276,7 +1276,7 @@ union YYSTYPE
   struct fsd_conf_pair_s pair;
 };
 
-union YYSTYPE$0
+union YYSTYPE_0
 {
   // datetime
   struct fsd_datetime_s datetime;
@@ -1363,7 +1363,7 @@ struct __jmp_buf_tag
   // __mask_was_saved
   signed int __mask_was_saved;
   // __saved_mask
-  struct anonymous$4 __saved_mask;
+  struct anonymous_4 __saved_mask;
 };
 
 struct drmaa_attrib
@@ -1415,9 +1415,9 @@ struct fsd_conf_lexer_s
 struct fsd_conf_option_s
 {
   // type
-  enum anonymous$5 type;
+  enum anonymous_5 type;
   // val
-  union anonymous$6 val;
+  union anonymous_6 val;
 };
 
 struct fsd_conf_parser_s
@@ -1519,7 +1519,7 @@ struct fsd_exc_try_block_s
   // handled_exc
   struct fsd_exc_s *handled_exc;
   // state
-  enum anonymous$7 state;
+  enum anonymous_7 state;
   // function
   const char *function;
   // lineno
@@ -1615,11 +1615,11 @@ struct fsd_job_s
   // project
   char *project;
   // mutex
-  union anonymous$1 mutex;
+  union anonymous_1 mutex;
   // status_cond
-  union anonymous$2 status_cond;
+  union anonymous_2 status_cond;
   // destroy_cond
-  union anonymous$2 destroy_cond;
+  union anonymous_2 destroy_cond;
 };
 
 struct fsd_job_set_s
@@ -1649,7 +1649,7 @@ struct fsd_job_set_s
   // n_jobs
   unsigned int n_jobs;
   // mutex
-  union anonymous$1 mutex;
+  union anonymous_1 mutex;
 };
 
 struct fsd_template_s
@@ -1807,9 +1807,9 @@ struct yyGLRStack
   // yyrawchar
   signed int yyrawchar;
   // yyval
-  union YYSTYPE$1 yyval;
+  union YYSTYPE_1 yyval;
   // yyloc
-  struct YYLTYPE$0 yyloc;
+  struct YYLTYPE_0 yyloc;
   // yyexception_buffer
   struct __jmp_buf_tag yyexception_buffer[1l];
   // yyitems
@@ -1841,7 +1841,7 @@ struct yyGLRState
   // yysemantics
   union anonymous yysemantics;
   // yyloc
-  struct YYLTYPE$0 yyloc;
+  struct YYLTYPE_0 yyloc;
 };
 
 struct yySemanticOption
@@ -1855,9 +1855,9 @@ struct yySemanticOption
   // yyrawchar
   signed int yyrawchar;
   // yyval
-  union YYSTYPE$1 yyval;
+  union YYSTYPE_1 yyval;
   // yyloc
-  struct YYLTYPE$0 yyloc;
+  struct YYLTYPE_0 yyloc;
   // yynext
   struct yySemanticOption *yynext;
 };
@@ -1927,7 +1927,7 @@ static struct timeval fsd_logging_start = { .tv_sec=(signed long int)0, .tv_usec
 static const signed int fsd_stacktrace_length = 32;
 // fsd_verbose_level
 // file logging.c line 51
-enum anonymous$3 fsd_verbose_level = (enum anonymous$3)FSD_LOG_FATAL;
+enum anonymous_3 fsd_verbose_level = (enum anonymous_3)FSD_LOG_FATAL;
 // no_memory_exception
 // file exception.c line 53
 static const struct fsd_exc_s no_memory_exception;
@@ -1964,9 +1964,9 @@ static struct stringpool_t stringpool_contents = { .stringpool_str8={ 'd', 'r', 
 // yycheck
 // file conf_tab.c line 522
 static const signed char yycheck[18l] = { (const signed char)3, (const signed char)4, (const signed char)4, (const signed char)6, (const signed char)6, (const signed char)9, (const signed char)4, (const signed char)0, (const signed char)8, (const signed char)-1, (const signed char)7, (const signed char)2, (const signed char)-1, (const signed char)9, (const signed char)-1, (const signed char)-1, (const signed char)-1, (const signed char)12 };
-// yycheck$link1
+// yycheck_link1
 // file datetime_tab.c line 386
-static const unsigned char yycheck$link1[26l] = { (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)6, (const unsigned char)0, (const unsigned char)5, (const unsigned char)9, (const unsigned char)10, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)8, (const unsigned char)11, (const unsigned char)21, (const unsigned char)6, (const unsigned char)3, (const unsigned char)7, (const unsigned char)3, (const unsigned char)8, (const unsigned char)8, (const unsigned char)3, (const unsigned char)3 };
+static const unsigned char yycheck_link1[26l] = { (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)6, (const unsigned char)0, (const unsigned char)5, (const unsigned char)9, (const unsigned char)10, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)8, (const unsigned char)11, (const unsigned char)21, (const unsigned char)6, (const unsigned char)3, (const unsigned char)7, (const unsigned char)3, (const unsigned char)8, (const unsigned char)8, (const unsigned char)3, (const unsigned char)3 };
 // yyconfl
 // file datetime_tab.c line 381
 static const signed short int yyconfl[1l] = { (const signed short int)0 };
@@ -1976,15 +1976,15 @@ static const unsigned char yyconflp[26l] = { (const unsigned char)0, (const unsi
 // yydefact
 // file conf_tab.c line 484
 static const unsigned char yydefact[19l] = { (const unsigned char)8, (const unsigned char)0, (const unsigned char)8, (const unsigned char)0, (const unsigned char)2, (const unsigned char)3, (const unsigned char)4, (const unsigned char)6, (const unsigned char)9, (const unsigned char)0, (const unsigned char)0, (const unsigned char)1, (const unsigned char)7, (const unsigned char)12, (const unsigned char)13, (const unsigned char)14, (const unsigned char)11, (const unsigned char)5, (const unsigned char)10 };
-// yydefact$link1
+// yydefact_link1
 // file datetime_tab.c line 325
-static const unsigned char yydefact$link1[32l] = { (const unsigned char)0, (const unsigned char)11, (const unsigned char)0, (const unsigned char)2, (const unsigned char)5, (const unsigned char)14, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)1, (const unsigned char)6, (const unsigned char)0, (const unsigned char)20, (const unsigned char)17, (const unsigned char)19, (const unsigned char)3, (const unsigned char)0, (const unsigned char)8, (const unsigned char)10, (const unsigned char)12, (const unsigned char)0, (const unsigned char)14, (const unsigned char)15, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)4, (const unsigned char)0, (const unsigned char)7, (const unsigned char)9, (const unsigned char)13, (const unsigned char)16 };
+static const unsigned char yydefact_link1[32l] = { (const unsigned char)0, (const unsigned char)11, (const unsigned char)0, (const unsigned char)2, (const unsigned char)5, (const unsigned char)14, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)1, (const unsigned char)6, (const unsigned char)0, (const unsigned char)20, (const unsigned char)17, (const unsigned char)19, (const unsigned char)3, (const unsigned char)0, (const unsigned char)8, (const unsigned char)10, (const unsigned char)12, (const unsigned char)0, (const unsigned char)14, (const unsigned char)15, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)4, (const unsigned char)0, (const unsigned char)7, (const unsigned char)9, (const unsigned char)13, (const unsigned char)16 };
 // yydefgoto
 // file conf_tab.c line 491
 static const signed char yydefgoto[8l] = { (const signed char)-1, (const signed char)3, (const signed char)4, (const signed char)5, (const signed char)6, (const signed char)7, (const signed char)8, (const signed char)16 };
-// yydefgoto$link1
+// yydefgoto_link1
 // file datetime_tab.c line 334
-static const signed char yydefgoto$link1[8l] = { (const signed char)-1, (const signed char)2, (const signed char)3, (const signed char)11, (const signed char)4, (const signed char)5, (const signed char)15, (const signed char)16 };
+static const signed char yydefgoto_link1[8l] = { (const signed char)-1, (const signed char)2, (const signed char)3, (const signed char)11, (const signed char)4, (const signed char)5, (const signed char)15, (const signed char)16 };
 // yydprec
 // file datetime_tab.c line 307
 static const unsigned char yydprec[21l] = { (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0 };
@@ -1994,48 +1994,48 @@ static const unsigned char yymerger[21l] = { (const unsigned char)0, (const unsi
 // yypact
 // file conf_tab.c line 499
 static const signed char yypact[19l] = { (const signed char)-2, (const signed char)-4, (const signed char)2, (const signed char)7, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)0, (const signed char)-5, (const signed char)-3, (const signed char)3, (const signed char)-5, (const signed char)2, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5 };
-// yypact$link1
+// yypact_link1
 // file datetime_tab.c line 342
-static const signed char yypact$link1[32l] = { (const signed char)-2, (const signed char)2, (const signed char)4, (const signed char)-5, (const signed char)0, (const signed char)-3, (const signed char)-1, (const signed char)8, (const signed char)9, (const signed char)-5, (const signed char)-5, (const signed char)10, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)11, (const signed char)12, (const signed char)13, (const signed char)7, (const signed char)14, (const signed char)-3, (const signed char)15, (const signed char)16, (const signed char)18, (const signed char)21, (const signed char)-5, (const signed char)22, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5 };
+static const signed char yypact_link1[32l] = { (const signed char)-2, (const signed char)2, (const signed char)4, (const signed char)-5, (const signed char)0, (const signed char)-3, (const signed char)-1, (const signed char)8, (const signed char)9, (const signed char)-5, (const signed char)-5, (const signed char)10, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)11, (const signed char)12, (const signed char)13, (const signed char)7, (const signed char)14, (const signed char)-3, (const signed char)15, (const signed char)16, (const signed char)18, (const signed char)21, (const signed char)-5, (const signed char)22, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5 };
 // yypgoto
 // file conf_tab.c line 506
 static const signed char yypgoto[8l] = { (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)4, (const signed char)9, (const signed char)-5, (const signed char)5, (const signed char)-5 };
-// yypgoto$link1
+// yypgoto_link1
 // file datetime_tab.c line 351
-static const signed char yypgoto$link1[8l] = { (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)5, (const signed char)-4, (const signed char)-5 };
+static const signed char yypgoto_link1[8l] = { (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)-5, (const signed char)5, (const signed char)-4, (const signed char)-5 };
 // yyr1
 // file conf_tab.c line 468
 static const unsigned char yyr1[15l] = { (const unsigned char)0, (const unsigned char)10, (const unsigned char)11, (const unsigned char)12, (const unsigned char)12, (const unsigned char)13, (const unsigned char)14, (const unsigned char)14, (const unsigned char)14, (const unsigned char)15, (const unsigned char)15, (const unsigned char)16, (const unsigned char)17, (const unsigned char)17, (const unsigned char)17 };
-// yyr1$link1
+// yyr1_link1
 // file datetime_tab.c line 291
-static const unsigned char yyr1$link1[21l] = { (const unsigned char)0, (const unsigned char)11, (const unsigned char)12, (const unsigned char)13, (const unsigned char)13, (const unsigned char)14, (const unsigned char)14, (const unsigned char)15, (const unsigned char)15, (const unsigned char)15, (const unsigned char)15, (const unsigned char)15, (const unsigned char)16, (const unsigned char)16, (const unsigned char)17, (const unsigned char)17, (const unsigned char)17, (const unsigned char)17, (const unsigned char)18, (const unsigned char)18, (const unsigned char)18 };
+static const unsigned char yyr1_link1[21l] = { (const unsigned char)0, (const unsigned char)11, (const unsigned char)12, (const unsigned char)13, (const unsigned char)13, (const unsigned char)14, (const unsigned char)14, (const unsigned char)15, (const unsigned char)15, (const unsigned char)15, (const unsigned char)15, (const unsigned char)15, (const unsigned char)16, (const unsigned char)16, (const unsigned char)17, (const unsigned char)17, (const unsigned char)17, (const unsigned char)17, (const unsigned char)18, (const unsigned char)18, (const unsigned char)18 };
 // yyr2
 // file conf_tab.c line 475
 static const unsigned char yyr2[15l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)1, (const unsigned char)1, (const unsigned char)1, (const unsigned char)3, (const unsigned char)1, (const unsigned char)2, (const unsigned char)0, (const unsigned char)1, (const unsigned char)3, (const unsigned char)3, (const unsigned char)1, (const unsigned char)1, (const unsigned char)1 };
-// yyr2$link1
+// yyr2_link1
 // file datetime_tab.c line 299
-static const unsigned char yyr2$link1[21l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)1, (const unsigned char)2, (const unsigned char)4, (const unsigned char)0, (const unsigned char)1, (const unsigned char)5, (const unsigned char)3, (const unsigned char)5, (const unsigned char)3, (const unsigned char)1, (const unsigned char)3, (const unsigned char)5, (const unsigned char)0, (const unsigned char)2, (const unsigned char)4, (const unsigned char)1, (const unsigned char)0, (const unsigned char)1, (const unsigned char)1 };
+static const unsigned char yyr2_link1[21l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)1, (const unsigned char)2, (const unsigned char)4, (const unsigned char)0, (const unsigned char)1, (const unsigned char)5, (const unsigned char)3, (const unsigned char)5, (const unsigned char)3, (const unsigned char)1, (const unsigned char)3, (const unsigned char)5, (const unsigned char)0, (const unsigned char)2, (const unsigned char)4, (const unsigned char)1, (const unsigned char)0, (const unsigned char)1, (const unsigned char)1 };
 // yystos
 // file conf_tab.c line 530
 static const unsigned char yystos[19l] = { (const unsigned char)0, (const unsigned char)4, (const unsigned char)6, (const unsigned char)11, (const unsigned char)12, (const unsigned char)13, (const unsigned char)14, (const unsigned char)15, (const unsigned char)16, (const unsigned char)9, (const unsigned char)14, (const unsigned char)0, (const unsigned char)8, (const unsigned char)3, (const unsigned char)4, (const unsigned char)13, (const unsigned char)17, (const unsigned char)7, (const unsigned char)16 };
-// yystos$link1
+// yystos_link1
 // file datetime_tab.c line 395
-static const unsigned char yystos$link1[32l] = { (const unsigned char)0, (const unsigned char)3, (const unsigned char)12, (const unsigned char)13, (const unsigned char)15, (const unsigned char)16, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)0, (const unsigned char)5, (const unsigned char)14, (const unsigned char)6, (const unsigned char)9, (const unsigned char)10, (const unsigned char)17, (const unsigned char)18, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)16, (const unsigned char)3, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)17, (const unsigned char)8, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3 };
+static const unsigned char yystos_link1[32l] = { (const unsigned char)0, (const unsigned char)3, (const unsigned char)12, (const unsigned char)13, (const unsigned char)15, (const unsigned char)16, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)0, (const unsigned char)5, (const unsigned char)14, (const unsigned char)6, (const unsigned char)9, (const unsigned char)10, (const unsigned char)17, (const unsigned char)18, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)16, (const unsigned char)3, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)17, (const unsigned char)8, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3, (const unsigned char)3 };
 // yytable
 // file conf_tab.c line 516
 static const unsigned char yytable[18l] = { (const unsigned char)13, (const unsigned char)14, (const unsigned char)1, (const unsigned char)2, (const unsigned char)2, (const unsigned char)9, (const unsigned char)1, (const unsigned char)11, (const unsigned char)12, (const unsigned char)0, (const unsigned char)17, (const unsigned char)10, (const unsigned char)0, (const unsigned char)15, (const unsigned char)0, (const unsigned char)0, (const unsigned char)0, (const unsigned char)18 };
-// yytable$link1
+// yytable_link1
 // file datetime_tab.c line 361
-static const signed char yytable$link1[26l] = { (const signed char)-18, (const signed char)1, (const signed char)17, (const signed char)12, (const signed char)9, (const signed char)10, (const signed char)13, (const signed char)14, (const signed char)6, (const signed char)7, (const signed char)8, (const signed char)18, (const signed char)19, (const signed char)20, (const signed char)22, (const signed char)25, (const signed char)21, (const signed char)26, (const signed char)23, (const signed char)28, (const signed char)24, (const signed char)29, (const signed char)8, (const signed char)27, (const signed char)30, (const signed char)31 };
+static const signed char yytable_link1[26l] = { (const signed char)-18, (const signed char)1, (const signed char)17, (const signed char)12, (const signed char)9, (const signed char)10, (const signed char)13, (const signed char)14, (const signed char)6, (const signed char)7, (const signed char)8, (const signed char)18, (const signed char)19, (const signed char)20, (const signed char)22, (const signed char)25, (const signed char)21, (const signed char)26, (const signed char)23, (const signed char)28, (const signed char)24, (const signed char)29, (const signed char)8, (const signed char)27, (const signed char)30, (const signed char)31 };
 // yytranslate
 // file conf_tab.c line 390
 static const unsigned char yytranslate[261l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)8, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)9, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)6, (const unsigned char)2, (const unsigned char)7, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)1, (const unsigned char)2, (const unsigned char)3, (const unsigned char)4, (const unsigned char)5 };
-// yytranslate$link1
+// yytranslate_link1
 // file datetime_tab.c line 218
-static const unsigned char yytranslate$link1[260l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)10, (const unsigned char)2, (const unsigned char)6, (const unsigned char)2, (const unsigned char)7, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)8, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)5, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)9, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)1, (const unsigned char)2, (const unsigned char)3, (const unsigned char)4 };
+static const unsigned char yytranslate_link1[260l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)10, (const unsigned char)2, (const unsigned char)6, (const unsigned char)2, (const unsigned char)7, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)8, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)5, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)9, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)1, (const unsigned char)2, (const unsigned char)3, (const unsigned char)4 };
 // yyval_default
 // file datetime_tab.c line 90
-static union YYSTYPE$1 yyval_default;
+static union YYSTYPE_1 yyval_default;
 
 // _fsd_log
 // file ../drmaa_utils/logging.h line 66
@@ -2049,9 +2049,9 @@ void _fsd_log(signed int level, const char *file, const char *function, signed i
   signed long int microseconds;
   const char *prefix;
   const char *p;
-  char *return_value_fsd_asprintf$1;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$5;
+  char *return_value_fsd_asprintf_1;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_5;
   if(!(level >= (signed int)fsd_verbose_level))
     free((void *)message);
 
@@ -2088,8 +2088,8 @@ void _fsd_log(signed int level, const char *file, const char *function, signed i
         do
           if(!((signed int)fsd_verbose_level >= 4))
           {
-            return_value_fsd_asprintf$1=fsd_asprintf("logging started at: %s.%02ld Z", (const void *)rep, microseconds / (signed long int)10000);
-            _fsd_log(FSD_LOG_INFO, "logging.c", "_fsd_log", 0, return_value_fsd_asprintf$1);
+            return_value_fsd_asprintf_1=fsd_asprintf("logging started at: %s.%02ld Z", (const void *)rep, microseconds / (signed long int)10000);
+            _fsd_log(FSD_LOG_INFO, "logging.c", "_fsd_log", 0, return_value_fsd_asprintf_1);
           }
 
         while((_Bool)0);
@@ -2142,22 +2142,22 @@ void _fsd_log(signed int level, const char *file, const char *function, signed i
           const char *end;
           char *line = (char *)(void *)0;
           signed int rc;
-          char *return_value___builtin_strchr$2;
-          return_value___builtin_strchr$2=__builtin_strchr(p, 10);
-          end = return_value___builtin_strchr$2;
+          char *return_value___builtin_strchr_2;
+          return_value___builtin_strchr_2=__builtin_strchr(p, 10);
+          end = return_value___builtin_strchr_2;
           if(end == ((const char *)NULL))
           {
-            return_value_strlen$3=strlen(p);
-            end = p + (signed long int)return_value_strlen$3;
+            return_value_strlen_3=strlen(p);
+            end = p + (signed long int)return_value_strlen_3;
           }
 
-          char return_value_fsd_log_level_char$4;
-          return_value_fsd_log_level_char$4=fsd_log_level_char(level);
-          rc=asprintf(&line, "%c #%s%04x%s [%6ld.%02ld] %s %s%.*s\n", return_value_fsd_log_level_char$4, (const void *)colorbeg, tid, colorend, seconds, microseconds / (signed long int)10000, prefix, function, (signed int)(end - p), p);
+          char return_value_fsd_log_level_char_4;
+          return_value_fsd_log_level_char_4=fsd_log_level_char(level);
+          rc=asprintf(&line, "%c #%s%04x%s [%6ld.%02ld] %s %s%.*s\n", return_value_fsd_log_level_char_4, (const void *)colorbeg, tid, colorend, seconds, microseconds / (signed long int)10000, prefix, function, (signed int)(end - p), p);
           if(!(rc == -1))
           {
-            return_value_strlen$5=strlen(line);
-            write(fsd_logging_output, (const void *)line, return_value_strlen$5);
+            return_value_strlen_5=strlen(line);
+            write(fsd_logging_output, (const void *)line, return_value_strlen_5);
           }
 
           else
@@ -2181,13 +2181,13 @@ __CPROVER_DUMP_L20:
 // file drmaa_attrib.gperf line 172
 inline struct drmaa_attrib * drmaa_attrib_lookup(const char *str, unsigned int len)
 {
-  signed int tmp_statement_expression$2;
+  signed int tmp_statement_expression_2;
   if(len >= 8u && !(len >= 27u))
   {
     signed int key;
-    unsigned int return_value_hash$1;
-    return_value_hash$1=hash(str, len);
-    key = (signed int)return_value_hash$1;
+    unsigned int return_value_hash_1;
+    return_value_hash_1=hash(str, len);
+    key = (signed int)return_value_hash_1;
     if(key >= 0 && !(key >= 47))
     {
       static struct drmaa_attrib wordlist[47l] = { { .name=-1, .attr=((const struct fsd_attribute_s *)NULL) },
@@ -2245,10 +2245,10 @@ inline struct drmaa_attrib * drmaa_attrib_lookup(const char *str, unsigned int l
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$3;
-          return_value___builtin_strcmp$3=__builtin_strcmp(str + (signed long int)1, s + (signed long int)1);
-          tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-          if(tmp_statement_expression$2 == 0)
+          signed int return_value___builtin_strcmp_3;
+          return_value___builtin_strcmp_3=__builtin_strcmp(str + (signed long int)1, s + (signed long int)1);
+          tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+          if(tmp_statement_expression_2 == 0)
             return &wordlist[(signed long int)key];
 
         }
@@ -2332,9 +2332,9 @@ static const struct fsd_attribute_s * drmaa_template_by_code(const struct fsd_te
 static const struct fsd_attribute_s * drmaa_template_by_name(const struct fsd_template_s *self, const char *name)
 {
   struct drmaa_attrib *found;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  found=drmaa_attrib_lookup(name, (unsigned int)return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  found=drmaa_attrib_lookup(name, (unsigned int)return_value_strlen_1);
   if(!(found == ((struct drmaa_attrib *)NULL)))
     return found->attr;
 
@@ -2346,9 +2346,9 @@ static const struct fsd_attribute_s * drmaa_template_by_name(const struct fsd_te
 // file drmaa_attrib.gperf line 105
 struct fsd_template_s * drmaa_template_new(void)
 {
-  struct fsd_template_s *return_value_fsd_template_new$1;
-  return_value_fsd_template_new$1=fsd_template_new(drmaa_template_by_name, drmaa_template_by_code, (unsigned int)21);
-  return return_value_fsd_template_new$1;
+  struct fsd_template_s *return_value_fsd_template_new_1;
+  return_value_fsd_template_new_1=fsd_template_new(drmaa_template_by_name, drmaa_template_by_code, (unsigned int)21);
+  return return_value_fsd_template_new_1;
 }
 
 // fsd_asprintf
@@ -2368,18 +2368,18 @@ char * fsd_asprintf(const char *fmt, ...)
 void fsd_assertion_failed(const char *file, signed int lineno, const char *function, const char *precondition)
 {
   char *message = (char *)(void *)0;
-  signed int return_value_asprintf$1;
-  return_value_asprintf$1=asprintf(&message, "%s:%d: %s: Assertion `%s' failed.", file, lineno, function, precondition);
-  if(return_value_asprintf$1 == -1)
+  signed int return_value_asprintf_1;
+  return_value_asprintf_1=asprintf(&message, "%s:%d: %s: Assertion `%s' failed.", file, lineno, function, precondition);
+  if(return_value_asprintf_1 == -1)
     message = (char *)(void *)0;
 
-  char *return_value_fsd_asprintf$2;
+  char *return_value_fsd_asprintf_2;
   if(!(message == ((char *)NULL)))
     do
       if(!((signed int)fsd_verbose_level >= 7))
       {
-        return_value_fsd_asprintf$2=fsd_asprintf("%s", message);
-        _fsd_log(FSD_LOG_FATAL, "exception.c", "fsd_assertion_failed", 0, return_value_fsd_asprintf$2);
+        return_value_fsd_asprintf_2=fsd_asprintf("%s", message);
+        _fsd_log(FSD_LOG_FATAL, "exception.c", "fsd_assertion_failed", 0, return_value_fsd_asprintf_2);
       }
 
     while((_Bool)0);
@@ -2398,7 +2398,7 @@ char * fsd_astrerror(signed int errnum, _Bool *malloced)
   char *buffer = (char *)(void *)0;
   unsigned long int buffer_size = (unsigned long int)0;
   char *result = (char *)(void *)0;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   do
   {
     if(buffer_size == 0ul)
@@ -2410,8 +2410,8 @@ char * fsd_astrerror(signed int errnum, _Bool *malloced)
     result=strerror_r(errnum, buffer, buffer_size);
     if(result == buffer)
     {
-      return_value_strlen$1=strlen(result);
-      if(1ul + return_value_strlen$1 == buffer_size)
+      return_value_strlen_1=strlen(result);
+      if(1ul + return_value_strlen_1 == buffer_size)
         continue;
 
     }
@@ -2432,11 +2432,11 @@ signed int fsd_atoi(const char *string)
   const char *s = string;
   signed int sign = +1;
   signed int v = 0;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*((const unsigned char *)s)]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*((const unsigned char *)s)]) == 0)
       break;
 
     s = s + 1l;
@@ -2456,24 +2456,24 @@ signed int fsd_atoi(const char *string)
       s = s + 1l;
     }
   }
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   do
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*((const unsigned char *)s)]) == 0)
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*((const unsigned char *)s)]) == 0)
       break;
 
     s = s + 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if((signed int)*s >= 48)
-    tmp_if_expr$4 = (signed int)*s <= 57 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = (signed int)*s <= 57 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  const char *tmp_post$3;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  const char *tmp_post_3;
+  if(tmp_if_expr_4)
     while((signed int)*s >= 48)
     {
       if((signed int)*s >= 58)
@@ -2483,9 +2483,9 @@ signed int fsd_atoi(const char *string)
         goto range_error;
 
       v = v * 10;
-      tmp_post$3 = s;
+      tmp_post_3 = s;
       s = s + 1l;
-      v = v + ((signed int)*tmp_post$3 - 48);
+      v = v + ((signed int)*tmp_post_3 - 48);
       if(!(v >= 0))
         goto range_error;
 
@@ -2493,11 +2493,11 @@ signed int fsd_atoi(const char *string)
 
   else
     goto nan_error;
-  const unsigned short int **return_value___ctype_b_loc$5;
+  const unsigned short int **return_value___ctype_b_loc_5;
   do
   {
-    return_value___ctype_b_loc$5=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*((const unsigned char *)s)]) == 0)
+    return_value___ctype_b_loc_5=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*((const unsigned char *)s)]) == 0)
       break;
 
     s = s + 1l;
@@ -2536,10 +2536,10 @@ void * fsd_calloc_(void **p, unsigned long int n, unsigned long int size)
     if(ptr == NULL)
     {
       *p = (void *)0;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 12;
-      fsd_exc_raise_sys(*return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 12;
+      fsd_exc_raise_sys(*return_value___errno_location_1);
     }
 
   }
@@ -2580,7 +2580,7 @@ void fsd_color(char *output, unsigned long int len, signed int n)
 
 // fsd_cond_broadcast
 // file ../drmaa_utils/thread.h line 96
-void fsd_cond_broadcast(union anonymous$2 *cond)
+void fsd_cond_broadcast(union anonymous_2 *cond)
 {
   signed int errno_ = 0;
   errno_=pthread_cond_broadcast(cond);
@@ -2591,7 +2591,7 @@ void fsd_cond_broadcast(union anonymous$2 *cond)
 
 // fsd_cond_destroy
 // file ../drmaa_utils/thread.h line 94
-void fsd_cond_destroy(union anonymous$2 *cond)
+void fsd_cond_destroy(union anonymous_2 *cond)
 {
   signed int errno_ = 0;
   errno_=pthread_cond_destroy(cond);
@@ -2602,10 +2602,10 @@ void fsd_cond_destroy(union anonymous$2 *cond)
 
 // fsd_cond_init
 // file ../drmaa_utils/thread.h line 93
-void fsd_cond_init(union anonymous$2 *cond)
+void fsd_cond_init(union anonymous_2 *cond)
 {
   signed int errno_ = 0;
-  errno_=pthread_cond_init(cond, (const union anonymous$8 *)(void *)0);
+  errno_=pthread_cond_init(cond, (const union anonymous_8 *)(void *)0);
   if(!(errno_ == 0))
     fsd_exc_raise_sys(errno_);
 
@@ -2613,7 +2613,7 @@ void fsd_cond_init(union anonymous$2 *cond)
 
 // fsd_cond_signal
 // file thread.c line 182
-void fsd_cond_signal(union anonymous$2 *cond)
+void fsd_cond_signal(union anonymous_2 *cond)
 {
   signed int errno_ = 0;
   errno_=pthread_cond_signal(cond);
@@ -2624,7 +2624,7 @@ void fsd_cond_signal(union anonymous$2 *cond)
 
 // fsd_cond_timedwait
 // file thread.c line 209
-_Bool fsd_cond_timedwait(union anonymous$2 *cond, union anonymous$1 *mutex, struct timespec *abstime)
+_Bool fsd_cond_timedwait(union anonymous_2 *cond, union anonymous_1 *mutex, struct timespec *abstime)
 {
   signed int errno_ = 0;
   errno_=pthread_cond_timedwait(cond, mutex, abstime);
@@ -2641,7 +2641,7 @@ _Bool fsd_cond_timedwait(union anonymous$2 *cond, union anonymous$1 *mutex, stru
 
 // fsd_cond_wait
 // file thread.c line 200
-void fsd_cond_wait(union anonymous$2 *cond, union anonymous$1 *mutex)
+void fsd_cond_wait(union anonymous_2 *cond, union anonymous_1 *mutex)
 {
   signed int errno_ = 0;
   errno_=pthread_cond_wait(cond, mutex);
@@ -2751,7 +2751,7 @@ void fsd_conf_dict_dump(struct fsd_conf_dict_s *dict)
 struct fsd_conf_option_s * fsd_conf_dict_get(struct fsd_conf_dict_s *dict, const char *key)
 {
   struct fsd_conf_dict_s *i;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(key == ((const char *)NULL) || dict == ((struct fsd_conf_dict_s *)NULL))
     return (struct fsd_conf_option_s *)(void *)0;
 
@@ -2762,10 +2762,10 @@ struct fsd_conf_option_s * fsd_conf_dict_get(struct fsd_conf_dict_s *dict, const
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(i->key, key);
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(i->key, key);
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
         return i->value;
 
     }
@@ -2779,7 +2779,7 @@ struct fsd_conf_dict_s * fsd_conf_dict_merge(struct fsd_conf_dict_s *lhs, struct
 {
   struct fsd_conf_dict_s *i;
   struct fsd_conf_dict_s *j;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(lhs == ((struct fsd_conf_dict_s *)NULL))
     return rhs;
 
@@ -2799,10 +2799,10 @@ struct fsd_conf_dict_s * fsd_conf_dict_merge(struct fsd_conf_dict_s *lhs, struct
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$2;
-          return_value___builtin_strcmp$2=__builtin_strcmp(i->key, r->key);
-          tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-          if(tmp_statement_expression$1 == 0)
+          signed int return_value___builtin_strcmp_2;
+          return_value___builtin_strcmp_2=__builtin_strcmp(i->key, r->key);
+          tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+          if(tmp_statement_expression_1 == 0)
             break;
 
         }
@@ -2829,15 +2829,15 @@ struct fsd_conf_dict_s * fsd_conf_dict_merge(struct fsd_conf_dict_s *lhs, struct
 void fsd_conf_dict_set(struct fsd_conf_dict_s *dict, const char *key, struct fsd_conf_option_s *value)
 {
   struct fsd_conf_dict_s *i = dict->next;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; !(i == ((struct fsd_conf_dict_s *)NULL)); i = i->next)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(i->key, key);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(i->key, key);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
       break;
 
   }
@@ -2972,7 +2972,7 @@ void fsd_conf_error(struct YYLTYPE *locp, struct fsd_conf_parser_s *parser, stru
 
   else
     _fsd_exc_rc = -3;
-  char *return_value_fsd_asprintf$1;
+  char *return_value_fsd_asprintf_1;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -2992,8 +2992,8 @@ void fsd_conf_error(struct YYLTYPE *locp, struct fsd_conf_parser_s *parser, stru
         do
           if(!((signed int)fsd_verbose_level >= 6))
           {
-            return_value_fsd_asprintf$1=fsd_asprintf("Parser error: %s:%d:%d: %s", parser->lexer->filename, locp->first_line, locp->first_column, message);
-            _fsd_log(FSD_LOG_ERROR, "conf.c", "fsd_conf_error", 0, return_value_fsd_asprintf$1);
+            return_value_fsd_asprintf_1=fsd_asprintf("Parser error: %s:%d:%d: %s", parser->lexer->filename, locp->first_line, locp->first_column, message);
+            _fsd_log(FSD_LOG_ERROR, "conf.c", "fsd_conf_error", 0, return_value_fsd_asprintf_1);
           }
 
         while((_Bool)0);
@@ -3053,13 +3053,13 @@ token_begin:
   ;
   locp->first_line = lexer->lineno;
   locp->first_column = (signed int)((c - lexer->cline) + (signed long int)1);
-  const unsigned char *tmp_post$1;
+  const unsigned char *tmp_post_1;
   signed int v;
   unsigned char delimiter;
   const unsigned char *begin;
-  const unsigned char *tmp_post$2;
-  const unsigned char *fsd_conf_lex$$1$$2$$3$$begin;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  const unsigned char *tmp_post_2;
+  const unsigned char *fsd_conf_lex__1__2__3__begin;
+  const unsigned short int **return_value___ctype_b_loc_3;
   if(c == end)
     result = 0;
 
@@ -3074,9 +3074,9 @@ token_begin:
 
       case 125:
       {
-        tmp_post$1 = c;
+        tmp_post_1 = c;
         c = c + 1l;
-        result = (signed int)*tmp_post$1;
+        result = (signed int)*tmp_post_1;
         break;
       }
       case 48:
@@ -3119,9 +3119,9 @@ token_begin:
 
       case 39:
       {
-        tmp_post$2 = c;
+        tmp_post_2 = c;
         c = c + 1l;
-        delimiter = *tmp_post$2;
+        delimiter = *tmp_post_2;
         begin = c;
         for( ; !(c >= end); c = c + 1l)
           if(*c == delimiter)
@@ -3143,11 +3143,11 @@ token_begin:
       }
       default:
       {
-        fsd_conf_lex$$1$$2$$3$$begin = c;
+        fsd_conf_lex__1__2__3__begin = c;
         for( ; !(c >= end); c = c + 1l)
         {
-          return_value___ctype_b_loc$3=__ctype_b_loc();
-          if(!((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*c]) == 0))
+          return_value___ctype_b_loc_3=__ctype_b_loc();
+          if(!((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*c]) == 0))
             break;
 
           if((signed int)*c == 44 || (signed int)*c == 58 || (signed int)*c == 123 || (signed int)*c == 125)
@@ -3157,7 +3157,7 @@ token_begin:
 
       end_of_string:
         ;
-        lvalp->string=fsd_strndup((const char *)fsd_conf_lex$$1$$2$$3$$begin, (unsigned long int)(c - fsd_conf_lex$$1$$2$$3$$begin));
+        lvalp->string=fsd_strndup((const char *)fsd_conf_lex__1__2__3__begin, (unsigned long int)(c - fsd_conf_lex__1__2__3__begin));
         result = 259;
       }
     }
@@ -3175,7 +3175,7 @@ token_begin:
 
 // fsd_conf_option_create
 // file conf.c line 306
-struct fsd_conf_option_s * fsd_conf_option_create(enum anonymous$5 type, void *value)
+struct fsd_conf_option_s * fsd_conf_option_create(enum anonymous_5 type, void *value)
 {
   struct fsd_conf_option_s *o = (struct fsd_conf_option_s *)(void *)0;
   fsd_malloc_((void **)(void *)&o, sizeof(struct fsd_conf_option_s) /*16ul*/ );
@@ -3207,7 +3207,7 @@ struct fsd_conf_option_s * fsd_conf_option_create(enum anonymous$5 type, void *v
 
 // fsd_conf_option_create_noraise
 // file conf.c line 546
-struct fsd_conf_option_s * fsd_conf_option_create_noraise(enum anonymous$5 type, void *value)
+struct fsd_conf_option_s * fsd_conf_option_create_noraise(enum anonymous_5 type, void *value)
 {
   struct fsd_conf_option_s * volatile result = (struct fsd_conf_option_s *)(void *)0;
   struct fsd_exc_try_block_s * volatile _fsd_exc_try_block = (struct fsd_exc_try_block_s *)(void *)0;
@@ -3309,13 +3309,13 @@ void fsd_conf_option_dump(struct fsd_conf_option_s *option)
 // file conf.c line 354
 struct fsd_conf_option_s * fsd_conf_option_merge(struct fsd_conf_option_s *lhs, struct fsd_conf_option_s *rhs)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(lhs->type == rhs->type)
-    tmp_if_expr$1 = (signed int)rhs->type == FSD_CONF_DICT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)rhs->type == FSD_CONF_DICT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     lhs->val.dict=fsd_conf_dict_merge(lhs->val.dict, rhs->val.dict);
     fsd_free((void *)rhs);
@@ -3388,9 +3388,9 @@ yysetstate:
 
     signed short int *yyss1 = yyss;
     union yyalloc *yyptr;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union YYSTYPE) /*16ul*/  + sizeof(struct YYLTYPE) /*16ul*/ ) + (unsigned long int)2 * (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1));
-    yyptr = (union yyalloc *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union YYSTYPE) /*16ul*/  + sizeof(struct YYLTYPE) /*16ul*/ ) + (unsigned long int)2 * (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1));
+    yyptr = (union yyalloc *)return_value_malloc_1;
     if(yyptr == ((union yyalloc *)NULL))
       goto yyexhaustedlab;
 
@@ -3405,20 +3405,20 @@ yysetstate:
     while((_Bool)0);
     do
     {
-      unsigned long int fsd_conf_parse$$1$$1$$1$$2$$yynewbytes;
+      unsigned long int fsd_conf_parse__1__1__1__2__yynewbytes;
       __builtin_memcpy((void *)&yyptr->yyvs, (const void *)yyvs, yysize * sizeof(union YYSTYPE) /*16ul*/ );
       yyvs = &yyptr->yyvs;
-      fsd_conf_parse$$1$$1$$1$$2$$yynewbytes = yystacksize * sizeof(union YYSTYPE) /*16ul*/  + (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1);
-      yyptr = yyptr + (signed long int)(fsd_conf_parse$$1$$1$$1$$2$$yynewbytes / sizeof(union yyalloc) /*16ul*/ );
+      fsd_conf_parse__1__1__1__2__yynewbytes = yystacksize * sizeof(union YYSTYPE) /*16ul*/  + (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1);
+      yyptr = yyptr + (signed long int)(fsd_conf_parse__1__1__1__2__yynewbytes / sizeof(union yyalloc) /*16ul*/ );
     }
     while((_Bool)0);
     do
     {
-      unsigned long int fsd_conf_parse$$1$$1$$1$$3$$yynewbytes;
+      unsigned long int fsd_conf_parse__1__1__1__3__yynewbytes;
       __builtin_memcpy((void *)&yyptr->yyls, (const void *)yyls, yysize * sizeof(struct YYLTYPE) /*16ul*/ );
       yyls = &yyptr->yyls;
-      fsd_conf_parse$$1$$1$$1$$3$$yynewbytes = yystacksize * sizeof(struct YYLTYPE) /*16ul*/  + (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1);
-      yyptr = yyptr + (signed long int)(fsd_conf_parse$$1$$1$$1$$3$$yynewbytes / sizeof(union yyalloc) /*16ul*/ );
+      fsd_conf_parse__1__1__1__3__yynewbytes = yystacksize * sizeof(struct YYLTYPE) /*16ul*/  + (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1);
+      yyptr = yyptr + (signed long int)(fsd_conf_parse__1__1__1__3__yynewbytes / sizeof(union yyalloc) /*16ul*/ );
     }
     while((_Bool)0);
     if(!(yyss1 == yyssa))
@@ -3436,8 +3436,8 @@ yysetstate:
 yybackup:
   ;
   yyn = (signed int)yypact[(signed long int)yystate];
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(!(yyn == -5))
   {
     if(fsd_conf_char == -2)
@@ -3452,19 +3452,19 @@ yybackup:
     else
     {
       if(!((unsigned int)fsd_conf_char >= 261u))
-        tmp_if_expr$2 = (signed int)yytranslate[(signed long int)fsd_conf_char];
+        tmp_if_expr_2 = (signed int)yytranslate[(signed long int)fsd_conf_char];
 
       else
-        tmp_if_expr$2 = 2;
-      yytoken = tmp_if_expr$2;
+        tmp_if_expr_2 = 2;
+      yytoken = tmp_if_expr_2;
     }
     yyn = yyn + yytoken;
     if(yyn >= 18 || !(yyn >= 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)yycheck[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)yycheck[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
     {
       yyn = (signed int)yytable[(signed long int)yyn];
       if(!(yyn >= 1))
@@ -3499,7 +3499,7 @@ yybackup:
 yydefault:
   ;
   yyn = (signed int)yydefact[(signed long int)yystate];
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(yyn == 0))
   {
 
@@ -3575,9 +3575,9 @@ yydefault:
       }
       case 10:
       {
-        signed int fsd_conf_parse$$1$$8$$7$$rc;
-        fsd_conf_parse$$1$$8$$7$$rc=fsd_conf_dict_set_noraise((yyvsp + (signed long int)(1 - 3))->dictionary, (yyvsp + (signed long int)(3 - 3))->pair.key, (yyvsp + (signed long int)(3 - 3))->pair.value);
-        if(!(fsd_conf_parse$$1$$8$$7$$rc == 0))
+        signed int fsd_conf_parse__1__8__7__rc;
+        fsd_conf_parse__1__8__7__rc=fsd_conf_dict_set_noraise((yyvsp + (signed long int)(1 - 3))->dictionary, (yyvsp + (signed long int)(3 - 3))->pair.key, (yyvsp + (signed long int)(3 - 3))->pair.value);
+        if(!(fsd_conf_parse__1__8__7__rc == 0))
           goto yyabortlab;
 
         yyval.dictionary = (yyvsp + (signed long int)(1 - 3))->dictionary;
@@ -3592,7 +3592,7 @@ yydefault:
       case 12:
       {
         struct fsd_conf_option_s *o;
-        o=fsd_conf_option_create_noraise((enum anonymous$5)FSD_CONF_INTEGER, (void *)&(yyvsp + (signed long int)(1 - 1))->integer);
+        o=fsd_conf_option_create_noraise((enum anonymous_5)FSD_CONF_INTEGER, (void *)&(yyvsp + (signed long int)(1 - 1))->integer);
         if(!(o == ((struct fsd_conf_option_s *)NULL)))
           yyval.option = o;
 
@@ -3602,10 +3602,10 @@ yydefault:
       }
       case 13:
       {
-        struct fsd_conf_option_s *fsd_conf_parse$$1$$8$$10$$o;
-        fsd_conf_parse$$1$$8$$10$$o=fsd_conf_option_create_noraise((enum anonymous$5)FSD_CONF_STRING, (void *)(yyvsp + (signed long int)(1 - 1))->string);
-        if(!(fsd_conf_parse$$1$$8$$10$$o == ((struct fsd_conf_option_s *)NULL)))
-          yyval.option = fsd_conf_parse$$1$$8$$10$$o;
+        struct fsd_conf_option_s *fsd_conf_parse__1__8__10__o;
+        fsd_conf_parse__1__8__10__o=fsd_conf_option_create_noraise((enum anonymous_5)FSD_CONF_STRING, (void *)(yyvsp + (signed long int)(1 - 1))->string);
+        if(!(fsd_conf_parse__1__8__10__o == ((struct fsd_conf_option_s *)NULL)))
+          yyval.option = fsd_conf_parse__1__8__10__o;
 
         else
           goto yyabortlab;
@@ -3613,10 +3613,10 @@ yydefault:
       }
       case 14:
       {
-        struct fsd_conf_option_s *fsd_conf_parse$$1$$8$$11$$o;
-        fsd_conf_parse$$1$$8$$11$$o=fsd_conf_option_create_noraise((enum anonymous$5)FSD_CONF_DICT, (void *)(yyvsp + (signed long int)(1 - 1))->dictionary);
-        if(!(fsd_conf_parse$$1$$8$$11$$o == ((struct fsd_conf_option_s *)NULL)))
-          yyval.option = fsd_conf_parse$$1$$8$$11$$o;
+        struct fsd_conf_option_s *fsd_conf_parse__1__8__11__o;
+        fsd_conf_parse__1__8__11__o=fsd_conf_option_create_noraise((enum anonymous_5)FSD_CONF_DICT, (void *)(yyvsp + (signed long int)(1 - 1))->dictionary);
+        if(!(fsd_conf_parse__1__8__11__o == ((struct fsd_conf_option_s *)NULL)))
+          yyval.option = fsd_conf_parse__1__8__11__o;
 
         else
           goto yyabortlab;
@@ -3633,11 +3633,11 @@ yydefault:
     yyn = (signed int)yyr1[(signed long int)yyn];
     yystate = (signed int)yypgoto[(signed long int)(yyn - 10)] + (signed int)*yyssp;
     if(yystate >= 0 && !(yystate >= 18))
-      tmp_if_expr$4 = (signed int)yycheck[(signed long int)yystate] == (signed int)*yyssp ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)yycheck[(signed long int)yystate] == (signed int)*yyssp ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       yystate = (signed int)yytable[(signed long int)yystate];
 
     else
@@ -3783,26 +3783,26 @@ struct fsd_conf_dict_s * fsd_conf_read(struct fsd_conf_dict_s * volatile configu
 
 __CPROVER_DUMP_L1:
   ;
-  struct fsd_exc_try_block_s * volatile fsd_conf_read$$1$$2$$_fsd_exc_try_block = (struct fsd_exc_try_block_s *)(void *)0;
-  signed int fsd_conf_read$$1$$2$$_fsd_exc_rc;
-  fsd_conf_read$$1$$2$$_fsd_exc_try_block=fsd_exc_try("fsd_conf_read", 61);
-  if(!(fsd_conf_read$$1$$2$$_fsd_exc_try_block == ((struct fsd_exc_try_block_s *)NULL)))
-    fsd_conf_read$$1$$2$$_fsd_exc_rc=_setjmp(fsd_conf_read$$1$$2$$_fsd_exc_try_block->env);
+  struct fsd_exc_try_block_s * volatile fsd_conf_read__1__2___fsd_exc_try_block = (struct fsd_exc_try_block_s *)(void *)0;
+  signed int fsd_conf_read__1__2___fsd_exc_rc;
+  fsd_conf_read__1__2___fsd_exc_try_block=fsd_exc_try("fsd_conf_read", 61);
+  if(!(fsd_conf_read__1__2___fsd_exc_try_block == ((struct fsd_exc_try_block_s *)NULL)))
+    fsd_conf_read__1__2___fsd_exc_rc=_setjmp(fsd_conf_read__1__2___fsd_exc_try_block->env);
 
   else
-    fsd_conf_read$$1$$2$$_fsd_exc_rc = -3;
+    fsd_conf_read__1__2___fsd_exc_rc = -3;
   signed int return_value;
   const char *return_value_1;
   const char *return_value_2;
-  char *return_value_fsd_asprintf$1;
+  char *return_value_fsd_asprintf_1;
   while((_Bool)1)
   {
-    _Bool fsd_conf_read$$1$$2$$1$$_fsd_exc_handled = (_Bool)0;
-    fsd_exc_control(fsd_conf_read$$1$$2$$_fsd_exc_try_block, &fsd_conf_read$$1$$2$$_fsd_exc_rc);
-    if(fsd_conf_read$$1$$2$$_fsd_exc_rc == -3)
+    _Bool fsd_conf_read__1__2__1___fsd_exc_handled = (_Bool)0;
+    fsd_exc_control(fsd_conf_read__1__2___fsd_exc_try_block, &fsd_conf_read__1__2___fsd_exc_rc);
+    if(fsd_conf_read__1__2___fsd_exc_rc == -3)
       break;
 
-    switch(fsd_conf_read$$1$$2$$_fsd_exc_rc)
+    switch(fsd_conf_read__1__2___fsd_exc_rc)
     {
       case 0:
       {
@@ -3859,8 +3859,8 @@ __CPROVER_DUMP_L1:
                   if(!((signed int)fsd_verbose_level >= 5))
                   {
                     return_value_2=e->message(e);
-                    return_value_fsd_asprintf$1=fsd_asprintf("%s: %s", filename, return_value_2);
-                    _fsd_log(FSD_LOG_WARNING, "conf.c", "fsd_conf_read", 0, return_value_fsd_asprintf$1);
+                    return_value_fsd_asprintf_1=fsd_asprintf("%s: %s", filename, return_value_2);
+                    _fsd_log(FSD_LOG_WARNING, "conf.c", "fsd_conf_read", 0, return_value_fsd_asprintf_1);
                   }
 
                 while((_Bool)0);
@@ -3911,11 +3911,11 @@ __CPROVER_DUMP_L1:
 
         if(parser->n_errors >= 1)
         {
-          char *return_value_fsd_explode$2;
-          return_value_fsd_explode$2=fsd_explode((const char * const *)parser->errors, (char)10, parser->n_errors);
-          struct fsd_exc_s *return_value_fsd_exc_new$3;
-          return_value_fsd_exc_new$3=fsd_exc_new(1001, return_value_fsd_explode$2, (_Bool)1);
-          fsd_exc_raise(return_value_fsd_exc_new$3);
+          char *return_value_fsd_explode_2;
+          return_value_fsd_explode_2=fsd_explode((const char * const *)parser->errors, (char)10, parser->n_errors);
+          struct fsd_exc_s *return_value_fsd_exc_new_3;
+          return_value_fsd_exc_new_3=fsd_exc_new(1001, return_value_fsd_explode_2, (_Bool)1);
+          fsd_exc_raise(return_value_fsd_exc_new_3);
         }
 
         break;
@@ -3946,13 +3946,13 @@ __CPROVER_DUMP_L1:
         fsd_conf_dict_destroy(result);
       }
     }
-    if(!(fsd_conf_read$$1$$2$$1$$_fsd_exc_handled == (_Bool)0))
+    if(!(fsd_conf_read__1__2__1___fsd_exc_handled == (_Bool)0))
     {
 
     __CPROVER_DUMP_L32:
       ;
-      fsd_conf_read$$1$$2$$_fsd_exc_try_block->handled_exc->destroy(fsd_conf_read$$1$$2$$_fsd_exc_try_block->handled_exc);
-      fsd_conf_read$$1$$2$$_fsd_exc_try_block->handled_exc = (struct fsd_exc_s *)(void *)0;
+      fsd_conf_read__1__2___fsd_exc_try_block->handled_exc->destroy(fsd_conf_read__1__2___fsd_exc_try_block->handled_exc);
+      fsd_conf_read__1__2___fsd_exc_try_block->handled_exc = (struct fsd_exc_s *)(void *)0;
     }
 
   }
@@ -4195,7 +4195,7 @@ __CPROVER_DUMP_L1:
 
   else
     _fsd_exc_rc = -3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -4214,22 +4214,22 @@ __CPROVER_DUMP_L1:
         lexer->parser = parser;
         lexer->p = (unsigned char *)string;
         lexer->begin = lexer->p;
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(string);
-        lexer->end = (unsigned char *)(string + (signed long int)return_value_strlen$1);
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(string);
+        lexer->end = (unsigned char *)(string + (signed long int)return_value_strlen_1);
         parse_err=fsd_dt_parse(parser, lexer);
         if(!(parse_err == 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = parser->n_errors != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = parser->n_errors != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           fsd_exc_raise_fmt(1005, "invalid date/time format: %s", string);
 
         dt = parser->result;
-        signed long int return_value_time$3;
-        return_value_time$3=time((signed long int *)(void *)0);
-        result=fsd_datetime_after(&dt, return_value_time$3);
+        signed long int return_value_time_3;
+        return_value_time_3=time((signed long int *)(void *)0);
+        result=fsd_datetime_after(&dt, return_value_time_3);
         break;
       }
       case -2:
@@ -4402,12 +4402,12 @@ void fsd_dt_error(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer, 
   args = (void **)&fmt;
   vasprintf(&msg, fmt, args);
   args = ((void **)NULL);
-  char *return_value_fsd_asprintf$1;
+  char *return_value_fsd_asprintf_1;
   do
     if(!((signed int)fsd_verbose_level >= 6))
     {
-      return_value_fsd_asprintf$1=fsd_asprintf("fsd_dt_error: %s", msg);
-      _fsd_log(FSD_LOG_ERROR, "datetime.c", "fsd_dt_error", 0, return_value_fsd_asprintf$1);
+      return_value_fsd_asprintf_1=fsd_asprintf("fsd_dt_error: %s", msg);
+      _fsd_log(FSD_LOG_ERROR, "datetime.c", "fsd_dt_error", 0, return_value_fsd_asprintf_1);
     }
 
   while((_Bool)0);
@@ -4416,14 +4416,14 @@ void fsd_dt_error(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer, 
 
 // fsd_dt_lex
 // file datetime.c line 317
-signed int fsd_dt_lex(union YYSTYPE$0 *lvalp, struct fsd_dt_lexer_s *lex)
+signed int fsd_dt_lex(union YYSTYPE_0 *lvalp, struct fsd_dt_lexer_s *lex)
 {
   const unsigned char *end = lex->end;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*lex->p]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*lex->p]) == 0)
       break;
 
     if(lex->p == end)
@@ -4432,10 +4432,10 @@ signed int fsd_dt_lex(union YYSTYPE$0 *lvalp, struct fsd_dt_lexer_s *lex)
     lex->p = lex->p + 1l;
   }
   while((_Bool)1);
-  const unsigned char *tmp_post$2;
-  _Bool tmp_if_expr$4;
-  const unsigned char *tmp_post$3;
-  const unsigned char *tmp_post$5;
+  const unsigned char *tmp_post_2;
+  _Bool tmp_if_expr_4;
+  const unsigned char *tmp_post_3;
+  const unsigned char *tmp_post_5;
   if(lex->p == end)
     return -1;
 
@@ -4443,28 +4443,28 @@ signed int fsd_dt_lex(union YYSTYPE$0 *lvalp, struct fsd_dt_lexer_s *lex)
   {
     if((signed int)*lex->p == 43 || (signed int)*lex->p == 45 || (signed int)*lex->p == 47 || (signed int)*lex->p == 58 || (signed int)*lex->p == 84 || (signed int)*lex->p == 90)
     {
-      tmp_post$2 = lex->p;
+      tmp_post_2 = lex->p;
       lex->p = lex->p + 1l;
-      return (signed int)*tmp_post$2;
+      return (signed int)*tmp_post_2;
     }
 
     signed int num = 0;
     if((signed int)*lex->p >= 48)
-      tmp_if_expr$4 = (signed int)*lex->p <= 57 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)*lex->p <= 57 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(!tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(!tmp_if_expr_4)
     {
-      tmp_post$3 = lex->p;
+      tmp_post_3 = lex->p;
       lex->p = lex->p + 1l;
-      fsd_dt_error(lex->parser, lex, "invalid char '%c'", *tmp_post$3);
+      fsd_dt_error(lex->parser, lex, "invalid char '%c'", *tmp_post_3);
       return 259;
     }
 
     else
     {
-      for( ; !(lex->p == end); num = num + ((signed int)*tmp_post$5 - 48))
+      for( ; !(lex->p == end); num = num + ((signed int)*tmp_post_5 - 48))
       {
         if(!((signed int)*lex->p >= 48))
           break;
@@ -4473,7 +4473,7 @@ signed int fsd_dt_lex(union YYSTYPE$0 *lvalp, struct fsd_dt_lexer_s *lex)
           break;
 
         num = num * 10;
-        tmp_post$5 = lex->p;
+        tmp_post_5 = lex->p;
         lex->p = lex->p + 1l;
       }
       lvalp->integer = num;
@@ -4492,20 +4492,20 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
   unsigned long int yyposn;
   yystackp->yyrawchar = YYEMPTY;
   yystackp->yyval = yyval_default;
-  unsigned char return_value_yyinitGLRStack$1;
-  return_value_yyinitGLRStack$1=yyinitGLRStack(yystackp, (unsigned long int)200);
-  signed int return_value__setjmp$2;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$6;
-  unsigned char return_value_yyisErrorAction$9;
-  signed int tmp_if_expr$15;
-  signed int tmp_if_expr$14;
-  if(!(return_value_yyinitGLRStack$1 == 0))
+  unsigned char return_value_yyinitGLRStack_1;
+  return_value_yyinitGLRStack_1=yyinitGLRStack(yystackp, (unsigned long int)200);
+  signed int return_value__setjmp_2;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_6;
+  unsigned char return_value_yyisErrorAction_9;
+  signed int tmp_if_expr_15;
+  signed int tmp_if_expr_14;
+  if(!(return_value_yyinitGLRStack_1 == 0))
   {
-    return_value__setjmp$2=_setjmp(yystack.yyexception_buffer);
-    switch(return_value__setjmp$2)
+    return_value__setjmp_2=_setjmp(yystack.yyexception_buffer);
+    switch(return_value__setjmp_2)
     {
       case 0:
         break;
@@ -4523,17 +4523,17 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
       while((_Bool)1)
       {
         signed int yyrule;
-        signed int fsd_dt_parse$$1$$2$$1$$yyaction;
-        const signed short int *fsd_dt_parse$$1$$2$$1$$yyconflicts;
-        signed int fsd_dt_parse$$1$$2$$1$$yystate = yystack.yytops.yystates[(signed long int)0]->yylrState;
-        if(fsd_dt_parse$$1$$2$$1$$yystate == 9)
+        signed int fsd_dt_parse__1__2__1__yyaction;
+        const signed short int *fsd_dt_parse__1__2__1__yyconflicts;
+        signed int fsd_dt_parse__1__2__1__yystate = yystack.yytops.yystates[(signed long int)0]->yylrState;
+        if(fsd_dt_parse__1__2__1__yystate == 9)
           goto yyacceptlab;
 
-        unsigned char return_value_yyisDefaultedState$11;
-        return_value_yyisDefaultedState$11=yyisDefaultedState(fsd_dt_parse$$1$$2$$1$$yystate);
-        if(!(return_value_yyisDefaultedState$11 == 0))
+        unsigned char return_value_yyisDefaultedState_11;
+        return_value_yyisDefaultedState_11=yyisDefaultedState(fsd_dt_parse__1__2__1__yystate);
+        if(!(return_value_yyisDefaultedState_11 == 0))
         {
-          yyrule=yydefaultAction(fsd_dt_parse$$1$$2$$1$$yystate);
+          yyrule=yydefaultAction(fsd_dt_parse__1__2__1__yystate);
           if(yyrule == 0)
           {
             yyreportSyntaxError(&yystack, parser, lexer);
@@ -4542,9 +4542,9 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
 
           do
           {
-            enum anonymous$10 return_value_yyglrReduce$3;
-            return_value_yyglrReduce$3=yyglrReduce(&yystack, (unsigned long int)0, yyrule, (unsigned char)1, parser, lexer);
-            switch((signed int)return_value_yyglrReduce$3)
+            enum anonymous_10 return_value_yyglrReduce_3;
+            return_value_yyglrReduce_3=yyglrReduce(&yystack, (unsigned long int)0, yyrule, (unsigned char)1, parser, lexer);
+            switch((signed int)return_value_yyglrReduce_3)
             {
               case yyok:
                 break;
@@ -4568,49 +4568,49 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
           {
             yystackp->yyrawchar=fsd_dt_lex(&yystackp->yyval, lexer);
             if(!(yystackp->yyrawchar >= 1))
-              tmp_if_expr$5 = YYEOF;
+              tmp_if_expr_5 = YYEOF;
 
             else
             {
               if(!((unsigned int)yystackp->yyrawchar >= 260u))
-                tmp_if_expr$4 = (signed int)yytranslate$link1[(signed long int)yystackp->yyrawchar];
+                tmp_if_expr_4 = (signed int)yytranslate_link1[(signed long int)yystackp->yyrawchar];
 
               else
-                tmp_if_expr$4 = 2;
-              tmp_if_expr$5 = tmp_if_expr$4;
+                tmp_if_expr_4 = 2;
+              tmp_if_expr_5 = tmp_if_expr_4;
             }
-            yytoken = (signed short int)tmp_if_expr$5;
+            yytoken = (signed short int)tmp_if_expr_5;
           }
 
           else
           {
             if(!(yystackp->yyrawchar >= 1))
-              tmp_if_expr$7 = YYEOF;
+              tmp_if_expr_7 = YYEOF;
 
             else
             {
               if(!((unsigned int)yystackp->yyrawchar >= 260u))
-                tmp_if_expr$6 = (signed int)yytranslate$link1[(signed long int)yystackp->yyrawchar];
+                tmp_if_expr_6 = (signed int)yytranslate_link1[(signed long int)yystackp->yyrawchar];
 
               else
-                tmp_if_expr$6 = 2;
-              tmp_if_expr$7 = tmp_if_expr$6;
+                tmp_if_expr_6 = 2;
+              tmp_if_expr_7 = tmp_if_expr_6;
             }
-            yytoken = (signed short int)tmp_if_expr$7;
+            yytoken = (signed short int)tmp_if_expr_7;
           }
-          yygetLRActions(fsd_dt_parse$$1$$2$$1$$yystate, (signed int)yytoken, &fsd_dt_parse$$1$$2$$1$$yyaction, &fsd_dt_parse$$1$$2$$1$$yyconflicts);
-          if(!((signed int)*fsd_dt_parse$$1$$2$$1$$yyconflicts == 0))
+          yygetLRActions(fsd_dt_parse__1__2__1__yystate, (signed int)yytoken, &fsd_dt_parse__1__2__1__yyaction, &fsd_dt_parse__1__2__1__yyconflicts);
+          if(!((signed int)*fsd_dt_parse__1__2__1__yyconflicts == 0))
             break;
 
-          unsigned char return_value_yyisShiftAction$10;
-          return_value_yyisShiftAction$10=yyisShiftAction(fsd_dt_parse$$1$$2$$1$$yyaction);
-          if(!(return_value_yyisShiftAction$10 == 0))
+          unsigned char return_value_yyisShiftAction_10;
+          return_value_yyisShiftAction_10=yyisShiftAction(fsd_dt_parse__1__2__1__yyaction);
+          if(!(return_value_yyisShiftAction_10 == 0))
           {
             if(!(yystackp->yyrawchar == YYEOF))
               yystackp->yyrawchar = YYEMPTY;
 
             yyposn = yyposn + (unsigned long int)1;
-            yyglrShift(&yystack, (unsigned long int)0, fsd_dt_parse$$1$$2$$1$$yyaction, yyposn, &yystackp->yyval, &yystackp->yyloc);
+            yyglrShift(&yystack, (unsigned long int)0, fsd_dt_parse__1__2__1__yyaction, yyposn, &yystackp->yyval, &yystackp->yyloc);
             if(yystack.yyerrState >= 1)
               yystack.yyerrState = yystack.yyerrState - 1;
 
@@ -4618,8 +4618,8 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
 
           else
           {
-            return_value_yyisErrorAction$9=yyisErrorAction(fsd_dt_parse$$1$$2$$1$$yyaction);
-            if(!(return_value_yyisErrorAction$9 == 0))
+            return_value_yyisErrorAction_9=yyisErrorAction(fsd_dt_parse__1__2__1__yyaction);
+            if(!(return_value_yyisErrorAction_9 == 0))
             {
               yyreportSyntaxError(&yystack, parser, lexer);
               goto yyuser_error;
@@ -4628,9 +4628,9 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
             else
               do
               {
-                enum anonymous$10 return_value_yyglrReduce$8;
-                return_value_yyglrReduce$8=yyglrReduce(&yystack, (unsigned long int)0, -fsd_dt_parse$$1$$2$$1$$yyaction, (unsigned char)1, parser, lexer);
-                switch((signed int)return_value_yyglrReduce$8)
+                enum anonymous_10 return_value_yyglrReduce_8;
+                return_value_yyglrReduce_8=yyglrReduce(&yystack, (unsigned long int)0, -fsd_dt_parse__1__2__1__yyaction, (unsigned char)1, parser, lexer);
+                switch((signed int)return_value_yyglrReduce_8)
                 {
                   case yyok:
                     break;
@@ -4658,9 +4658,9 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
         for( ; !(yys >= yystack.yytops.yysize); yys = yys + (unsigned long int)1)
           do
           {
-            enum anonymous$10 return_value_yyprocessOneStack$12;
-            return_value_yyprocessOneStack$12=yyprocessOneStack(&yystack, yys, yyposn, parser, lexer);
-            switch((signed int)return_value_yyprocessOneStack$12)
+            enum anonymous_10 return_value_yyprocessOneStack_12;
+            return_value_yyprocessOneStack_12=yyprocessOneStack(&yystack, yys, yyposn, parser, lexer);
+            switch((signed int)return_value_yyprocessOneStack_12)
             {
               case yyok:
                 break;
@@ -4684,9 +4684,9 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
 
           do
           {
-            enum anonymous$10 return_value_yyresolveStack$13;
-            return_value_yyresolveStack$13=yyresolveStack(&yystack, parser, lexer);
-            switch((signed int)return_value_yyresolveStack$13)
+            enum anonymous_10 return_value_yyresolveStack_13;
+            return_value_yyresolveStack_13=yyresolveStack(&yystack, parser, lexer);
+            switch((signed int)return_value_yyresolveStack_13)
             {
               case yyok:
                 break;
@@ -4706,18 +4706,18 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
         }
 
         if(!(yystackp->yyrawchar >= 1))
-          tmp_if_expr$15 = YYEOF;
+          tmp_if_expr_15 = YYEOF;
 
         else
         {
           if(!((unsigned int)yystackp->yyrawchar >= 260u))
-            tmp_if_expr$14 = (signed int)yytranslate$link1[(signed long int)yystackp->yyrawchar];
+            tmp_if_expr_14 = (signed int)yytranslate_link1[(signed long int)yystackp->yyrawchar];
 
           else
-            tmp_if_expr$14 = 2;
-          tmp_if_expr$15 = tmp_if_expr$14;
+            tmp_if_expr_14 = 2;
+          tmp_if_expr_15 = tmp_if_expr_14;
         }
-        yytoken_to_shift = (signed short int)tmp_if_expr$15;
+        yytoken_to_shift = (signed short int)tmp_if_expr_15;
         yystackp->yyrawchar = YYEMPTY;
         yyposn = yyposn + (unsigned long int)1;
         yys = (unsigned long int)0;
@@ -4733,9 +4733,9 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
         {
           do
           {
-            enum anonymous$10 return_value_yyresolveStack$16;
-            return_value_yyresolveStack$16=yyresolveStack(&yystack, parser, lexer);
-            switch((signed int)return_value_yyresolveStack$16)
+            enum anonymous_10 return_value_yyresolveStack_16;
+            return_value_yyresolveStack_16=yyresolveStack(&yystack, parser, lexer);
+            switch((signed int)return_value_yyresolveStack_16)
             {
               case yyok:
                 break;
@@ -4789,25 +4789,25 @@ signed int fsd_dt_parse(struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *l
 
 yyreturn:
   ;
-  signed int tmp_if_expr$18;
-  signed int tmp_if_expr$17;
+  signed int tmp_if_expr_18;
+  signed int tmp_if_expr_17;
   if(!(yystackp->yyrawchar == YYEOF))
   {
     if(!(yystackp->yyrawchar == YYEMPTY))
     {
       if(!(yystackp->yyrawchar >= 1))
-        tmp_if_expr$18 = YYEOF;
+        tmp_if_expr_18 = YYEOF;
 
       else
       {
         if(!((unsigned int)yystackp->yyrawchar >= 260u))
-          tmp_if_expr$17 = (signed int)yytranslate$link1[(signed long int)yystackp->yyrawchar];
+          tmp_if_expr_17 = (signed int)yytranslate_link1[(signed long int)yystackp->yyrawchar];
 
         else
-          tmp_if_expr$17 = 2;
-        tmp_if_expr$18 = tmp_if_expr$17;
+          tmp_if_expr_17 = 2;
+        tmp_if_expr_18 = tmp_if_expr_17;
       }
-      yydestruct$link1("Cleanup: discarding lookahead", tmp_if_expr$18, &yystackp->yyval, parser, lexer);
+      yydestruct_link1("Cleanup: discarding lookahead", tmp_if_expr_18, &yystackp->yyval, parser, lexer);
     }
 
   }
@@ -4824,9 +4824,9 @@ yyreturn:
         {
           while(!(yystates[(signed long int)yyk] == ((struct yyGLRState *)NULL)))
           {
-            struct yyGLRState *fsd_dt_parse$$1$$3$$1$$1$$1$$1$$yys = yystates[(signed long int)yyk];
-            yydestroyGLRState("Cleanup: popping", fsd_dt_parse$$1$$3$$1$$1$$1$$1$$yys, parser, lexer);
-            yystates[(signed long int)yyk] = fsd_dt_parse$$1$$3$$1$$1$$1$$1$$yys->yypred;
+            struct yyGLRState *fsd_dt_parse__1__3__1__1__1__1__yys = yystates[(signed long int)yyk];
+            yydestroyGLRState("Cleanup: popping", fsd_dt_parse__1__3__1__1__1__1__yys, parser, lexer);
+            yystates[(signed long int)yyk] = fsd_dt_parse__1__3__1__1__1__1__yys->yypred;
             yystack.yynextFree = yystack.yynextFree - (signed long int)1;
             yystack.yyspaceLeft = yystack.yyspaceLeft + (unsigned long int)1;
           }
@@ -4856,8 +4856,8 @@ static struct fsd_environ_s * fsd_environ_apply(struct fsd_environ_s *self)
 
   else
     _fsd_exc_rc = -3;
-  char *return_value_fsd_strdup$1;
-  char *return_value_fsd_strdup$2;
+  char *return_value_fsd_strdup_1;
+  char *return_value_fsd_strdup_2;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -4878,9 +4878,9 @@ static struct fsd_environ_s * fsd_environ_apply(struct fsd_environ_s *self)
           value=getenv(j->name);
           if(!(value == ((const char *)NULL)))
           {
-            return_value_fsd_strdup$1=fsd_strdup(j->name);
-            return_value_fsd_strdup$2=fsd_strdup(value);
-            saved_state->set(saved_state, return_value_fsd_strdup$1, return_value_fsd_strdup$2);
+            return_value_fsd_strdup_1=fsd_strdup(j->name);
+            return_value_fsd_strdup_2=fsd_strdup(value);
+            saved_state->set(saved_state, return_value_fsd_strdup_1, return_value_fsd_strdup_2);
           }
 
           setenv(j->name, j->value, 1);
@@ -4945,22 +4945,22 @@ static void fsd_environ_destroy(struct fsd_environ_s *self)
 // file environ.c line 58
 static const char * fsd_environ_get(struct fsd_environ_s *self, const char *name)
 {
-  unsigned int fsd_environ_get$$1$$hash;
+  unsigned int fsd_environ_get__1__hash;
   const struct fsd_environ_item_s *i;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  fsd_environ_get$$1$$hash=hashlittle((const void *)name, return_value_strlen$1, (unsigned int)0);
-  fsd_environ_get$$1$$hash = fsd_environ_get$$1$$hash & self->_table_size - (unsigned int)1;
-  i = self->_table[(signed long int)fsd_environ_get$$1$$hash];
-  signed int tmp_statement_expression$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  fsd_environ_get__1__hash=hashlittle((const void *)name, return_value_strlen_1, (unsigned int)0);
+  fsd_environ_get__1__hash = fsd_environ_get__1__hash & self->_table_size - (unsigned int)1;
+  i = self->_table[(signed long int)fsd_environ_get__1__hash];
+  signed int tmp_statement_expression_2;
   for( ; !(i == ((const struct fsd_environ_item_s *)NULL)); i = i->next)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$3;
-    return_value___builtin_strcmp$3=__builtin_strcmp(i->name, name);
-    tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-    if(tmp_statement_expression$2 == 0)
+    signed int return_value___builtin_strcmp_3;
+    return_value___builtin_strcmp_3=__builtin_strcmp(i->name, name);
+    tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+    if(tmp_statement_expression_2 == 0)
       return i->value;
 
   }
@@ -5126,7 +5126,7 @@ static void fsd_environ_restore(struct fsd_environ_s *self, struct fsd_environ_s
 // file environ.c line 71
 static void fsd_environ_set(struct fsd_environ_s *self, char *name, char *value)
 {
-  unsigned int fsd_environ_set$$1$$hash;
+  unsigned int fsd_environ_set__1__hash;
   struct fsd_environ_item_s *i;
   struct fsd_environ_item_s *item = (struct fsd_environ_item_s *)(void *)0;
   _Bool replaced = (_Bool)0;
@@ -5138,7 +5138,7 @@ static void fsd_environ_set(struct fsd_environ_s *self, char *name, char *value)
 
   else
     _fsd_exc_rc = -3;
-  signed int tmp_statement_expression$2;
+  signed int tmp_statement_expression_2;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -5148,19 +5148,19 @@ static void fsd_environ_set(struct fsd_environ_s *self, char *name, char *value)
 
     if(_fsd_exc_rc == 0)
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(name);
-      fsd_environ_set$$1$$hash=hashlittle((const void *)name, return_value_strlen$1, (unsigned int)0);
-      fsd_environ_set$$1$$hash = fsd_environ_set$$1$$hash & self->_table_size - (unsigned int)1;
-      i = self->_table[(signed long int)fsd_environ_set$$1$$hash];
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(name);
+      fsd_environ_set__1__hash=hashlittle((const void *)name, return_value_strlen_1, (unsigned int)0);
+      fsd_environ_set__1__hash = fsd_environ_set__1__hash & self->_table_size - (unsigned int)1;
+      i = self->_table[(signed long int)fsd_environ_set__1__hash];
       for( ; !(i == ((struct fsd_environ_item_s *)NULL)); i = i->next)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$3;
-        return_value___builtin_strcmp$3=__builtin_strcmp(i->name, name);
-        tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-        if(tmp_statement_expression$2 == 0)
+        signed int return_value___builtin_strcmp_3;
+        return_value___builtin_strcmp_3=__builtin_strcmp(i->name, name);
+        tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+        if(tmp_statement_expression_2 == 0)
         {
           fsd_free((void *)i->value);
           i->value = value;
@@ -5172,10 +5172,10 @@ static void fsd_environ_set(struct fsd_environ_s *self, char *name, char *value)
       if(replaced == (_Bool)0)
       {
         fsd_malloc_((void **)(void *)&item, sizeof(struct fsd_environ_item_s) /*24ul*/ );
-        item->next = self->_table[(signed long int)fsd_environ_set$$1$$hash];
+        item->next = self->_table[(signed long int)fsd_environ_set__1__hash];
         item->name = name;
         item->value = value;
-        self->_table[(signed long int)fsd_environ_set$$1$$hash] = item;
+        self->_table[(signed long int)fsd_environ_set__1__hash] = item;
       }
 
       goto __CPROVER_DUMP_L10;
@@ -5214,9 +5214,9 @@ static void fsd_environ_update(struct fsd_environ_s *self, const char * const *e
     const char *eq;
     char * volatile name = (char *)(void *)0;
     char * volatile value = (char *)(void *)0;
-    char *return_value___builtin_strchr$1;
-    return_value___builtin_strchr$1=__builtin_strchr(*i, 61);
-    eq = return_value___builtin_strchr$1;
+    char *return_value___builtin_strchr_1;
+    return_value___builtin_strchr_1=__builtin_strchr(*i, 61);
+    eq = return_value___builtin_strchr_1;
     if(eq == ((const char *)NULL))
       fsd_exc_raise_code(1005);
 
@@ -5370,19 +5370,19 @@ signed int fsd_exc_code(const struct fsd_exc_s *self)
 // file ../drmaa_utils/exception.h line 170
 void fsd_exc_control(struct fsd_exc_try_block_s *block, signed int *rc)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(block == ((struct fsd_exc_try_block_s *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *rc == -3 ? (_Bool)1 : (_Bool)0;
-  char *return_value_fsd_asprintf$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = *rc == -3 ? (_Bool)1 : (_Bool)0;
+  char *return_value_fsd_asprintf_2;
+  if(!tmp_if_expr_1)
     switch((signed int)block->state)
     {
       case FSD_EXC_ENTER:
       {
-        block->state = (enum anonymous$7)FSD_EXC_TRY_BLOCK;
+        block->state = (enum anonymous_7)FSD_EXC_TRY_BLOCK;
 
       __CPROVER_DUMP_L4:
         ;
@@ -5391,7 +5391,7 @@ void fsd_exc_control(struct fsd_exc_try_block_s *block, signed int *rc)
       case FSD_EXC_TRY_BLOCK:
         if(*rc == 0)
         {
-          block->state = (enum anonymous$7)FSD_EXC_ELSE_BLOCK;
+          block->state = (enum anonymous_7)FSD_EXC_ELSE_BLOCK;
           *rc = -1;
           break;
         }
@@ -5401,14 +5401,14 @@ void fsd_exc_control(struct fsd_exc_try_block_s *block, signed int *rc)
 
         __CPROVER_DUMP_L6:
           ;
-          block->state = (enum anonymous$7)FSD_EXC_EXCEPTION_HANDLE;
+          block->state = (enum anonymous_7)FSD_EXC_EXCEPTION_HANDLE;
           break;
         }
       case FSD_EXC_EXCEPTION_HANDLE:
 
       case FSD_EXC_ELSE_BLOCK:
       {
-        block->state = (enum anonymous$7)FSD_EXC_FINALLY_BLOCK;
+        block->state = (enum anonymous_7)FSD_EXC_FINALLY_BLOCK;
         *rc = -2;
         break;
       }
@@ -5417,7 +5417,7 @@ void fsd_exc_control(struct fsd_exc_try_block_s *block, signed int *rc)
         struct fsd_exc_try_block_s *current = (struct fsd_exc_try_block_s *)(void *)0;
         struct fsd_exc_try_block_s *upper = (struct fsd_exc_try_block_s *)(void *)0;
         struct fsd_exc_stack_s *stack = (struct fsd_exc_stack_s *)(void *)0;
-        block->state = (enum anonymous$7)FSD_EXC_LEAVE;
+        block->state = (enum anonymous_7)FSD_EXC_LEAVE;
         stack=fsd_exc_get_stack((_Bool)0);
         current = stack->restore_points[(signed long int)(stack->n_restore_points - 1)];
 
@@ -5438,8 +5438,8 @@ void fsd_exc_control(struct fsd_exc_try_block_s *block, signed int *rc)
               do
                 if(!((signed int)fsd_verbose_level >= 5))
                 {
-                  return_value_fsd_asprintf$2=fsd_asprintf("overriding previously raised exception: <%d:%s>", upper->handled_exc->_code, upper->handled_exc->_message);
-                  _fsd_log(FSD_LOG_WARNING, "exception.c", "fsd_exc_control", 0, return_value_fsd_asprintf$2);
+                  return_value_fsd_asprintf_2=fsd_asprintf("overriding previously raised exception: <%d:%s>", upper->handled_exc->_code, upper->handled_exc->_message);
+                  _fsd_log(FSD_LOG_WARNING, "exception.c", "fsd_exc_control", 0, return_value_fsd_asprintf_2);
                 }
 
               while((_Bool)0);
@@ -5511,30 +5511,30 @@ struct fsd_exc_stack_s * fsd_exc_get_stack(_Bool create)
   struct fsd_exc_stack_s *stack = (struct fsd_exc_stack_s *)(void *)0;
   signed int rc;
   rc=pthread_once(&fsd_exc_init_once, fsd_exc_init);
-  char *return_value_fsd_asprintf$2;
+  char *return_value_fsd_asprintf_2;
   if(!(rc == 0))
   {
     char errbuf[256l] = { 'I', 'n', 't', 'e', 'r', 'n', 'a', 'l', 'E', 'r', 'r', 'o', 'r', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    strerror_r(*return_value___errno_location$1, errbuf, (unsigned long int)256);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    strerror_r(*return_value___errno_location_1, errbuf, (unsigned long int)256);
     do
       if(!((signed int)fsd_verbose_level >= 7))
       {
-        return_value_fsd_asprintf$2=fsd_asprintf("pthread_once: %s", (const void *)errbuf);
-        _fsd_log(FSD_LOG_FATAL, "exception.c", "fsd_exc_get_stack", 0, return_value_fsd_asprintf$2);
+        return_value_fsd_asprintf_2=fsd_asprintf("pthread_once: %s", (const void *)errbuf);
+        _fsd_log(FSD_LOG_FATAL, "exception.c", "fsd_exc_get_stack", 0, return_value_fsd_asprintf_2);
       }
 
     while((_Bool)0);
     abort();
   }
 
-  void *return_value_pthread_getspecific$3;
-  return_value_pthread_getspecific$3=pthread_getspecific(fsd_exc_stack);
-  stack = (struct fsd_exc_stack_s *)return_value_pthread_getspecific$3;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  char *return_value_fsd_asprintf$5;
+  void *return_value_pthread_getspecific_3;
+  return_value_pthread_getspecific_3=pthread_getspecific(fsd_exc_stack);
+  stack = (struct fsd_exc_stack_s *)return_value_pthread_getspecific_3;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  char *return_value_fsd_asprintf_5;
   if(stack == ((struct fsd_exc_stack_s *)NULL) && !(create == (_Bool)0))
   {
     rc=fsd_malloc_noraise_((void **)(void *)&stack, sizeof(struct fsd_exc_stack_s) /*16ul*/ );
@@ -5546,23 +5546,23 @@ struct fsd_exc_stack_s * fsd_exc_get_stack(_Bool create)
     rc=pthread_setspecific(fsd_exc_stack, (const void *)stack);
     if(!(rc == 0))
     {
-      return_value___errno_location$6=__errno_location();
-      tmp_if_expr$7 = *return_value___errno_location$6 != 12 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_6=__errno_location();
+      tmp_if_expr_7 = *return_value___errno_location_6 != 12 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
     {
-      char fsd_exc_get_stack$$1$$2$$1$$errbuf[256l] = { 'I', 'n', 't', 'e', 'r', 'n', 'a', 'l', 'E', 'r', 'r', 'o', 'r', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      strerror_r(*return_value___errno_location$4, fsd_exc_get_stack$$1$$2$$1$$errbuf, (unsigned long int)256);
+      char fsd_exc_get_stack__1__2__1__errbuf[256l] = { 'I', 'n', 't', 'e', 'r', 'n', 'a', 'l', 'E', 'r', 'r', 'o', 'r', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      strerror_r(*return_value___errno_location_4, fsd_exc_get_stack__1__2__1__errbuf, (unsigned long int)256);
       do
         if(!((signed int)fsd_verbose_level >= 7))
         {
-          return_value_fsd_asprintf$5=fsd_asprintf("pthread_setspecific: %s", (const void *)fsd_exc_get_stack$$1$$2$$1$$errbuf);
-          _fsd_log(FSD_LOG_FATAL, "exception.c", "fsd_exc_get_stack", 0, return_value_fsd_asprintf$5);
+          return_value_fsd_asprintf_5=fsd_asprintf("pthread_setspecific: %s", (const void *)fsd_exc_get_stack__1__2__1__errbuf);
+          _fsd_log(FSD_LOG_FATAL, "exception.c", "fsd_exc_get_stack", 0, return_value_fsd_asprintf_5);
         }
 
       while((_Bool)0);
@@ -5591,18 +5591,18 @@ void fsd_exc_init(void)
 __CPROVER_DUMP_L1:
   ;
   rc=pthread_key_create(&fsd_exc_stack, (void (*)(void *))fsd_exc_stack_destroy);
-  char *return_value_fsd_asprintf$2;
+  char *return_value_fsd_asprintf_2;
   if(!(rc == 0))
   {
     char errbuf[256l] = { 'I', 'n', 't', 'e', 'r', 'n', 'a', 'l', 'E', 'r', 'r', 'o', 'r', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    strerror_r(*return_value___errno_location$1, errbuf, (unsigned long int)256);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    strerror_r(*return_value___errno_location_1, errbuf, (unsigned long int)256);
     do
       if(!((signed int)fsd_verbose_level >= 7))
       {
-        return_value_fsd_asprintf$2=fsd_asprintf("pthread_key_create: %s", (const void *)errbuf);
-        _fsd_log(FSD_LOG_FATAL, "exception.c", "fsd_exc_init", 0, return_value_fsd_asprintf$2);
+        return_value_fsd_asprintf_2=fsd_asprintf("pthread_key_create: %s", (const void *)errbuf);
+        _fsd_log(FSD_LOG_FATAL, "exception.c", "fsd_exc_init", 0, return_value_fsd_asprintf_2);
       }
 
     while((_Bool)0);
@@ -5627,7 +5627,7 @@ struct fsd_exc_s * fsd_exc_new(signed int code, char *message, _Bool own_message
 {
   struct fsd_exc_s *exc = (struct fsd_exc_s *)(void *)0;
   char * volatile message_buffer = (char *)(void *)0;
-  char *return_value_fsd_asprintf$1;
+  char *return_value_fsd_asprintf_1;
   if(code == 1006 || code == 1045)
 
     __CPROVER_DUMP_L1:
@@ -5637,8 +5637,8 @@ struct fsd_exc_s * fsd_exc_new(signed int code, char *message, _Bool own_message
     do
       if(!((signed int)fsd_verbose_level >= 6))
       {
-        return_value_fsd_asprintf$1=fsd_asprintf("fsd_exc_new(%d,%s,%d)", code, message, own_message);
-        _fsd_log(FSD_LOG_ERROR, "exception.c", "fsd_exc_new", 0, return_value_fsd_asprintf$1);
+        return_value_fsd_asprintf_1=fsd_asprintf("fsd_exc_new(%d,%s,%d)", code, message, own_message);
+        _fsd_log(FSD_LOG_ERROR, "exception.c", "fsd_exc_new", 0, return_value_fsd_asprintf_1);
       }
 
     while((_Bool)0);
@@ -5722,14 +5722,14 @@ __CPROVER_DUMP_L2:
 void fsd_exc_raise_code(signed int error_code)
 {
   struct fsd_exc_s *exc;
-  const char *return_value_fsd_strerror$1;
+  const char *return_value_fsd_strerror_1;
   if(error_code == 1002)
     exc = (struct fsd_exc_s *)&no_memory_exception;
 
   else
   {
-    return_value_fsd_strerror$1=fsd_strerror(error_code);
-    exc=fsd_exc_new(error_code, (char *)return_value_fsd_strerror$1, (_Bool)0);
+    return_value_fsd_strerror_1=fsd_strerror(error_code);
+    exc=fsd_exc_new(error_code, (char *)return_value_fsd_strerror_1, (_Bool)0);
   }
   fsd_exc_raise(exc);
 }
@@ -5793,11 +5793,11 @@ void fsd_exc_raise_fmtv(signed int error_code, const char *fmt, void **args)
 // file exception.c line 392
 void fsd_exc_raise_msg(signed int error_code, const char *message)
 {
-  char *return_value_fsd_strdup$1;
-  return_value_fsd_strdup$1=fsd_strdup(message);
-  struct fsd_exc_s *return_value_fsd_exc_new$2;
-  return_value_fsd_exc_new$2=fsd_exc_new(error_code, return_value_fsd_strdup$1, (_Bool)1);
-  fsd_exc_raise(return_value_fsd_exc_new$2);
+  char *return_value_fsd_strdup_1;
+  return_value_fsd_strdup_1=fsd_strdup(message);
+  struct fsd_exc_s *return_value_fsd_exc_new_2;
+  return_value_fsd_exc_new_2=fsd_exc_new(error_code, return_value_fsd_strdup_1, (_Bool)1);
+  fsd_exc_raise(return_value_fsd_exc_new_2);
 }
 
 // fsd_exc_raise_sys
@@ -5805,11 +5805,11 @@ void fsd_exc_raise_msg(signed int error_code, const char *message)
 void fsd_exc_raise_sys(signed int errno_code)
 {
   struct fsd_exc_s *exc = (struct fsd_exc_s *)(void *)0;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(errno_code == 0)
   {
-    return_value___errno_location$1=__errno_location();
-    errno_code = *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    errno_code = *return_value___errno_location_1;
   }
 
   if(errno_code == 12)
@@ -5847,9 +5847,9 @@ void fsd_exc_raise_sys(signed int errno_code)
 
       __CPROVER_DUMP_L9:
         ;
-        char *return_value_fsd_astrerror$2;
-        return_value_fsd_astrerror$2=fsd_astrerror(errno_code, (_Bool *)&own_message);
-        message = (char *)return_value_fsd_astrerror$2;
+        char *return_value_fsd_astrerror_2;
+        return_value_fsd_astrerror_2=fsd_astrerror(errno_code, (_Bool *)&own_message);
+        message = (char *)return_value_fsd_astrerror_2;
         exc=fsd_exc_new(code, message, own_message);
         goto __CPROVER_DUMP_L12;
       }
@@ -5929,7 +5929,7 @@ struct fsd_exc_try_block_s * fsd_exc_try(const char *function, signed int lineno
   struct fsd_exc_try_block_s *p = (struct fsd_exc_try_block_s *)(void *)0;
   signed int rc;
   stack=fsd_exc_get_stack((_Bool)1);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(stack == ((struct fsd_exc_stack_s *)NULL))
     return (struct fsd_exc_try_block_s *)(void *)0;
 
@@ -5948,12 +5948,12 @@ struct fsd_exc_try_block_s * fsd_exc_try(const char *function, signed int lineno
       else
       {
         p->handled_exc = (struct fsd_exc_s *)(void *)0;
-        p->state = (enum anonymous$7)FSD_EXC_ENTER;
+        p->state = (enum anonymous_7)FSD_EXC_ENTER;
         p->function = function;
         p->lineno = lineno;
-        tmp_post$1 = stack->n_restore_points;
+        tmp_post_1 = stack->n_restore_points;
         stack->n_restore_points = stack->n_restore_points + 1;
-        stack->restore_points[(signed long int)tmp_post$1] = p;
+        stack->restore_points[(signed long int)tmp_post_1] = p;
         return p;
       }
     }
@@ -6051,7 +6051,7 @@ __CPROVER_DUMP_L1:
 
   else
     _fsd_exc_rc = -3;
-  char *return_value_fsd_asprintf$1;
+  char *return_value_fsd_asprintf_1;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -6100,15 +6100,15 @@ __CPROVER_DUMP_L1:
           close(stdout_pipe[(signed long int)0]);
           dup2(stderr_pipe[(signed long int)1], 2);
           close(stderr_pipe[(signed long int)0]);
-          signed int return_value_execvp$2;
-          return_value_execvp$2=execvp(command, args);
-          if(return_value_execvp$2 == -1)
+          signed int return_value_execvp_2;
+          return_value_execvp_2=execvp(command, args);
+          if(return_value_execvp_2 == -1)
           {
             do
               if(!((signed int)fsd_verbose_level >= 6))
               {
-                return_value_fsd_asprintf$1=fsd_asprintf("Could not execute command: %s ", command);
-                _fsd_log(FSD_LOG_ERROR, "exec.c", "fsd_exec_async", 0, return_value_fsd_asprintf$1);
+                return_value_fsd_asprintf_1=fsd_asprintf("Could not execute command: %s ", command);
+                _fsd_log(FSD_LOG_ERROR, "exec.c", "fsd_exec_async", 0, return_value_fsd_asprintf_1);
               }
 
             while((_Bool)0);
@@ -6196,9 +6196,9 @@ __CPROVER_DUMP_L1:
         len=strlen(stdinb);
         while((_Bool)1)
         {
-          signed long int return_value_write$1;
-          return_value_write$1=write(stdin_d, (const void *)stdinb, len);
-          ret = (signed int)return_value_write$1;
+          signed long int return_value_write_1;
+          return_value_write_1=write(stdin_d, (const void *)stdinb, len);
+          ret = (signed int)return_value_write_1;
           if(ret == -1)
             fsd_exc_raise_sys(0);
 
@@ -6260,12 +6260,12 @@ signed int fsd_exec_wait(signed int child_pid)
 
 __CPROVER_DUMP_L1:
   ;
-  signed int return_value_waitpid$1;
-  return_value_waitpid$1=waitpid(child_pid, &status, 0);
-  if(!(return_value_waitpid$1 == -1))
+  signed int return_value_waitpid_1;
+  return_value_waitpid_1=waitpid(child_pid, &status, 0);
+  if(!(return_value_waitpid_1 == -1))
   {
     /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$9
+union anonymous_9
 {
   // __in
   signed int __in;
@@ -6276,7 +6276,7 @@ union anonymous$9
 /* */
     ;
     if((0x7f & status) == 0)
-      exit_code = (((union anonymous$9){ .__in=status }).__i & 0xff00) >> 8;
+      exit_code = (((union anonymous_9){ .__in=status }).__i & 0xff00) >> 8;
 
     else
       fsd_exc_raise_fmt(1001, "Spawned process pid = %d was aborted or signaled", (signed int)child_pid);
@@ -6309,8 +6309,8 @@ static void fsd_expand_drmaa_ph_destroy(struct fsd_expand_drmaa_ph_s *self)
 static char * fsd_expand_drmaa_ph_expand(struct fsd_expand_drmaa_ph_s *self, char *s, unsigned int set)
 {
   unsigned int mask = (unsigned int)1;
-  char *return_value_strstr$2;
-  char *return_value_fsd_asprintf$1;
+  char *return_value_strstr_2;
+  char *return_value_fsd_asprintf_1;
   for( ; !(mask >= 5u); mask = mask << 1)
   {
     const char *ph;
@@ -6319,19 +6319,19 @@ static char * fsd_expand_drmaa_ph_expand(struct fsd_expand_drmaa_ph_s *self, cha
     {
       case (unsigned int)1:
       {
-        ph = "$drmaa_hd_ph$";
+        ph = "_drmaa_hd_ph_";
         value = self->home_directory;
         break;
       }
       case (unsigned int)2:
       {
-        ph = "$drmaa_wd_ph$";
+        ph = "_drmaa_wd_ph_";
         value = self->working_directory;
         break;
       }
       case (unsigned int)4:
       {
-        ph = "$drmaa_incr_ph$";
+        ph = "_drmaa_incr_ph_";
         value = self->bulk_incr;
         break;
       }
@@ -6348,14 +6348,14 @@ static char * fsd_expand_drmaa_ph_expand(struct fsd_expand_drmaa_ph_s *self, cha
 
     else
     {
-      return_value_strstr$2=strstr(s, ph);
-      if(!(return_value_strstr$2 == ((char *)NULL)))
+      return_value_strstr_2=strstr(s, ph);
+      if(!(return_value_strstr_2 == ((char *)NULL)))
       {
         do
           if(!((signed int)fsd_verbose_level >= 5))
           {
-            return_value_fsd_asprintf$1=fsd_asprintf("'%s' can not be expanded in '%s'; removing from string", ph, s);
-            _fsd_log(FSD_LOG_WARNING, "drmaa_util.c", "fsd_expand_drmaa_ph_expand", 0, return_value_fsd_asprintf$1);
+            return_value_fsd_asprintf_1=fsd_asprintf("'%s' can not be expanded in '%s'; removing from string", ph, s);
+            _fsd_log(FSD_LOG_WARNING, "drmaa_util.c", "fsd_expand_drmaa_ph_expand", 0, return_value_fsd_asprintf_1);
           }
 
         while((_Bool)0);
@@ -6481,9 +6481,9 @@ static void fsd_expand_drmaa_ph_set(struct fsd_expand_drmaa_ph_s *self, signed i
 static char * fsd_expand_printf_ph(const char *fmt)
 {
   char * volatile result = (char *)(void *)0;
-  char *return_value_strstr$1;
-  return_value_strstr$1=strstr(fmt, "%m");
-  if(return_value_strstr$1 == ((char *)NULL))
+  char *return_value_strstr_1;
+  return_value_strstr_1=strstr(fmt, "%m");
+  if(return_value_strstr_1 == ((char *)NULL))
     return result;
 
   else
@@ -6521,22 +6521,22 @@ static char * fsd_expand_printf_ph(const char *fmt)
 
           char * volatile errno_msg = (char *)(void *)0;
           volatile _Bool own_errno_msg = (volatile _Bool)0;
-          struct fsd_exc_try_block_s * volatile fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block = (struct fsd_exc_try_block_s *)(void *)0;
-          signed int fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc;
-          fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block=fsd_exc_try("fsd_expand_printf_ph", 357);
-          if(!(fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block == ((struct fsd_exc_try_block_s *)NULL)))
-            fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc=_setjmp(fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block->env);
+          struct fsd_exc_try_block_s * volatile fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_try_block = (struct fsd_exc_try_block_s *)(void *)0;
+          signed int fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_rc;
+          fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_try_block=fsd_exc_try("fsd_expand_printf_ph", 357);
+          if(!(fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_try_block == ((struct fsd_exc_try_block_s *)NULL)))
+            fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_rc=_setjmp(fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_try_block->env);
 
           else
-            fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc = -3;
+            fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_rc = -3;
           while((_Bool)1)
           {
-            _Bool fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_handled = (_Bool)0;
-            fsd_exc_control(fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block, &fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc);
-            if(fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc == -3)
+            _Bool fsd_expand_printf_ph__1__1__1__1__1__1__1__1__1___fsd_exc_handled = (_Bool)0;
+            fsd_exc_control(fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_try_block, &fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_rc);
+            if(fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_rc == -3)
               break;
 
-            switch(fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc)
+            switch(fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_rc)
             {
               case 0:
               {
@@ -6545,9 +6545,9 @@ static char * fsd_expand_printf_ph(const char *fmt)
                 fmt_len=strlen(fmt);
                 unsigned long int ph_pos = (unsigned long int)(pos - fmt);
                 unsigned long int errno_msg_len;
-                signed int *return_value___errno_location$2;
-                return_value___errno_location$2=__errno_location();
-                errno_msg=fsd_astrerror(*return_value___errno_location$2, (_Bool *)&own_errno_msg);
+                signed int *return_value___errno_location_2;
+                return_value___errno_location_2=__errno_location();
+                errno_msg=fsd_astrerror(*return_value___errno_location_2, (_Bool *)&own_errno_msg);
                 errno_msg_len=strlen(errno_msg);
                 fsd_calloc_((void **)(void *)&buf, (fmt_len - (unsigned long int)2) + errno_msg_len + (unsigned long int)1, sizeof(char) /*1ul*/ );
                 __builtin_strncat(buf, fmt, ph_pos);
@@ -6563,13 +6563,13 @@ static char * fsd_expand_printf_ph(const char *fmt)
                   fsd_free((void *)errno_msg);
 
             }
-            if(!(fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_handled == (_Bool)0))
+            if(!(fsd_expand_printf_ph__1__1__1__1__1__1__1__1__1___fsd_exc_handled == (_Bool)0))
             {
 
             __CPROVER_DUMP_L14:
               ;
-              fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block->handled_exc->destroy(fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block->handled_exc);
-              fsd_expand_printf_ph$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block->handled_exc = (struct fsd_exc_s *)(void *)0;
+              fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_try_block->handled_exc->destroy(fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_try_block->handled_exc);
+              fsd_expand_printf_ph__1__1__1__1__1__1__1__1___fsd_exc_try_block->handled_exc = (struct fsd_exc_s *)(void *)0;
             }
 
           }
@@ -6621,9 +6621,9 @@ char * fsd_explode(const char * const *vector, char glue, signed int n)
 
   else
     _fsd_exc_rc = -3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  char *tmp_post$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  char *tmp_post_4;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -6640,19 +6640,19 @@ char * fsd_explode(const char * const *vector, char glue, signed int n)
         do
         {
           if(!(idx >= max))
-            tmp_if_expr$1 = *i != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = *i != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
           if(!(i == vector))
             size = size + 1ul;
 
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(*i);
-          size = size + return_value_strlen$2;
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(*i);
+          size = size + return_value_strlen_2;
           i = i + 1l;
           idx = idx + 1u;
         }
@@ -6664,24 +6664,24 @@ char * fsd_explode(const char * const *vector, char glue, signed int n)
         do
         {
           if(!(idx >= max))
-            tmp_if_expr$3 = *i != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = *i != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(!tmp_if_expr_3)
             break;
 
           if(!(i == vector))
           {
-            tmp_post$4 = s;
+            tmp_post_4 = s;
             s = s + 1l;
-            *tmp_post$4 = glue;
+            *tmp_post_4 = glue;
           }
 
           strcpy(s, *i);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(*i);
-          s = s + (signed long int)return_value_strlen$5;
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(*i);
+          s = s + (signed long int)return_value_strlen_5;
           i = i + 1l;
           idx = idx + 1u;
         }
@@ -6756,7 +6756,7 @@ void fsd_get_time(struct timespec *ts)
 char * fsd_getcwd(void)
 {
   char * volatile buffer = (char *)(void *)0;
-  char * volatile fsd_getcwd$$1$$result = (char *)(void *)0;
+  char * volatile fsd_getcwd__1__result = (char *)(void *)0;
   unsigned long int size = (unsigned long int)64;
   struct fsd_exc_try_block_s * volatile _fsd_exc_try_block = (struct fsd_exc_try_block_s *)(void *)0;
   signed int _fsd_exc_rc;
@@ -6766,7 +6766,7 @@ char * fsd_getcwd(void)
 
   else
     _fsd_exc_rc = -3;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -6788,8 +6788,8 @@ char * fsd_getcwd(void)
 
           else
           {
-            return_value___errno_location$1=__errno_location();
-            if(*return_value___errno_location$1 == 34)
+            return_value___errno_location_1=__errno_location();
+            if(*return_value___errno_location_1 == 34)
             {
               size = size * (unsigned long int)2;
               fsd_realloc_((void **)(void *)&buffer, size * sizeof(char) /*1ul*/ );
@@ -6799,14 +6799,14 @@ char * fsd_getcwd(void)
               fsd_exc_raise_sys(0);
           }
         }
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(buffer);
-        fsd_realloc_((void **)(void *)&buffer, (return_value_strlen$2 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(buffer);
+        fsd_realloc_((void **)(void *)&buffer, (return_value_strlen_2 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
         break;
       }
       case -1:
       {
-        fsd_getcwd$$1$$result = buffer;
+        fsd_getcwd__1__result = buffer;
         buffer = (char *)(void *)0;
         break;
       }
@@ -6823,7 +6823,7 @@ char * fsd_getcwd(void)
     }
 
   }
-  return fsd_getcwd$$1$$result;
+  return fsd_getcwd__1__result;
 }
 
 // fsd_iter_append
@@ -6838,7 +6838,7 @@ static void fsd_iter_append(struct fsd_iter_s *self, char *string)
 
   else
     _fsd_exc_rc = -3;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -6852,9 +6852,9 @@ static void fsd_iter_append(struct fsd_iter_s *self, char *string)
         fsd_exc_raise_msg(1001, "iter::append called on constant list");
 
       fsd_realloc_((void **)(void *)&self->_list, (unsigned long int)(self->_length + 1) * sizeof(char *) /*8ul*/ );
-      tmp_post$1 = self->_length;
+      tmp_post_1 = self->_length;
       self->_length = self->_length + 1;
-      self->_list[(signed long int)tmp_post$1] = string;
+      self->_list[(signed long int)tmp_post_1] = string;
       goto __CPROVER_DUMP_L7;
     }
 
@@ -6911,18 +6911,18 @@ static signed int fsd_iter_len(struct fsd_iter_s *self)
 // file iter.c line 135
 struct fsd_iter_s * fsd_iter_new(char **list, signed int length)
 {
-  struct fsd_iter_s *return_value_fsd_iter_new_impl$1;
-  return_value_fsd_iter_new_impl$1=fsd_iter_new_impl(list, length, (_Bool)1);
-  return return_value_fsd_iter_new_impl$1;
+  struct fsd_iter_s *return_value_fsd_iter_new_impl_1;
+  return_value_fsd_iter_new_impl_1=fsd_iter_new_impl(list, length, (_Bool)1);
+  return return_value_fsd_iter_new_impl_1;
 }
 
 // fsd_iter_new_const
 // file iter.c line 141
 struct fsd_iter_s * fsd_iter_new_const(const char * const *list, signed int length)
 {
-  struct fsd_iter_s *return_value_fsd_iter_new_impl$1;
-  return_value_fsd_iter_new_impl$1=fsd_iter_new_impl((char **)list, length, (_Bool)0);
-  return return_value_fsd_iter_new_impl$1;
+  struct fsd_iter_s *return_value_fsd_iter_new_impl_1;
+  return_value_fsd_iter_new_impl_1=fsd_iter_new_impl((char **)list, length, (_Bool)0);
+  return return_value_fsd_iter_new_impl_1;
 }
 
 // fsd_iter_new_impl
@@ -6982,9 +6982,9 @@ static struct fsd_iter_s * fsd_iter_new_impl(char **list, signed int length, _Bo
       {
         if(length >= 0)
         {
-          signed int fsd_iter_new_impl$$1$$1$$1$$1$$2$$1$$1$$1$$i = 0;
-          for( ; !(fsd_iter_new_impl$$1$$1$$1$$1$$2$$1$$1$$1$$i >= length); fsd_iter_new_impl$$1$$1$$1$$1$$2$$1$$1$$1$$i = fsd_iter_new_impl$$1$$1$$1$$1$$2$$1$$1$$1$$i + 1)
-            fsd_free((void *)list[(signed long int)fsd_iter_new_impl$$1$$1$$1$$1$$2$$1$$1$$1$$i]);
+          signed int fsd_iter_new_impl__1__1__1__1__2__1__1__1__i = 0;
+          for( ; !(fsd_iter_new_impl__1__1__1__1__2__1__1__1__i >= length); fsd_iter_new_impl__1__1__1__1__2__1__1__1__i = fsd_iter_new_impl__1__1__1__1__2__1__1__1__i + 1)
+            fsd_free((void *)list[(signed long int)fsd_iter_new_impl__1__1__1__1__2__1__1__1__i]);
           fsd_free((void *)list);
         }
 
@@ -7015,12 +7015,12 @@ static struct fsd_iter_s * fsd_iter_new_impl(char **list, signed int length, _Bo
 // file iter.c line 33
 static const char * fsd_iter_next(struct fsd_iter_s *self)
 {
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(self->_position >= self->_length))
   {
-    tmp_post$1 = self->_position;
+    tmp_post_1 = self->_position;
     self->_position = self->_position + 1;
-    return self->_list[(signed long int)tmp_post$1];
+    return self->_list[(signed long int)tmp_post_1];
   }
 
   else
@@ -7074,8 +7074,8 @@ static void fsd_job_get_termination_status(struct fsd_job_s *self, signed int *s
 
   else
     _fsd_exc_rc = -3;
-  char *return_value_fsd_asprintf$2;
-  char *return_value_fsd_asprintf$3;
+  char *return_value_fsd_asprintf_2;
+  char *return_value_fsd_asprintf_3;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -7095,48 +7095,48 @@ static void fsd_job_get_termination_status(struct fsd_job_s *self, signed int *s
       if(!(rusage_out == ((struct fsd_iter_s **)NULL)))
       {
         rusage=fsd_iter_new((char **)(void *)0, 0);
-        char *return_value_fsd_asprintf$1;
-        return_value_fsd_asprintf$1=fsd_asprintf("submission_time=%ld", (signed long int)self->submit_time);
-        rusage->append(rusage, return_value_fsd_asprintf$1);
+        char *return_value_fsd_asprintf_1;
+        return_value_fsd_asprintf_1=fsd_asprintf("submission_time=%ld", (signed long int)self->submit_time);
+        rusage->append(rusage, return_value_fsd_asprintf_1);
         if(!(self->start_time == 0l))
         {
-          return_value_fsd_asprintf$2=fsd_asprintf("start_time=%ld", (signed long int)self->start_time);
-          rusage->append(rusage, return_value_fsd_asprintf$2);
+          return_value_fsd_asprintf_2=fsd_asprintf("start_time=%ld", (signed long int)self->start_time);
+          rusage->append(rusage, return_value_fsd_asprintf_2);
         }
 
         if(!(self->end_time == 0l))
         {
-          return_value_fsd_asprintf$3=fsd_asprintf("end_time=%ld", (signed long int)self->end_time);
-          rusage->append(rusage, return_value_fsd_asprintf$3);
+          return_value_fsd_asprintf_3=fsd_asprintf("end_time=%ld", (signed long int)self->end_time);
+          rusage->append(rusage, return_value_fsd_asprintf_3);
         }
 
-        char *return_value_fsd_asprintf$4;
-        return_value_fsd_asprintf$4=fsd_asprintf("cpu=%ld", self->cpu_usage);
-        rusage->append(rusage, return_value_fsd_asprintf$4);
-        char *return_value_fsd_asprintf$5;
-        return_value_fsd_asprintf$5=fsd_asprintf("mem=%ld", self->mem_usage);
-        rusage->append(rusage, return_value_fsd_asprintf$5);
-        char *return_value_fsd_asprintf$6;
-        return_value_fsd_asprintf$6=fsd_asprintf("vmem=%ld", self->vmem_usage);
-        rusage->append(rusage, return_value_fsd_asprintf$6);
-        char *return_value_fsd_asprintf$7;
-        return_value_fsd_asprintf$7=fsd_asprintf("walltime=%ld", self->walltime);
-        rusage->append(rusage, return_value_fsd_asprintf$7);
-        char *return_value_fsd_asprintf$8;
-        return_value_fsd_asprintf$8=fsd_asprintf("hosts=%s", self->execution_hosts);
-        rusage->append(rusage, return_value_fsd_asprintf$8);
+        char *return_value_fsd_asprintf_4;
+        return_value_fsd_asprintf_4=fsd_asprintf("cpu=%ld", self->cpu_usage);
+        rusage->append(rusage, return_value_fsd_asprintf_4);
+        char *return_value_fsd_asprintf_5;
+        return_value_fsd_asprintf_5=fsd_asprintf("mem=%ld", self->mem_usage);
+        rusage->append(rusage, return_value_fsd_asprintf_5);
+        char *return_value_fsd_asprintf_6;
+        return_value_fsd_asprintf_6=fsd_asprintf("vmem=%ld", self->vmem_usage);
+        rusage->append(rusage, return_value_fsd_asprintf_6);
+        char *return_value_fsd_asprintf_7;
+        return_value_fsd_asprintf_7=fsd_asprintf("walltime=%ld", self->walltime);
+        rusage->append(rusage, return_value_fsd_asprintf_7);
+        char *return_value_fsd_asprintf_8;
+        return_value_fsd_asprintf_8=fsd_asprintf("hosts=%s", self->execution_hosts);
+        rusage->append(rusage, return_value_fsd_asprintf_8);
         if(!(self->queue == ((char *)NULL)))
         {
-          char *return_value_fsd_asprintf$9;
-          return_value_fsd_asprintf$9=fsd_asprintf("queue=%s", self->queue);
-          rusage->append(rusage, return_value_fsd_asprintf$9);
+          char *return_value_fsd_asprintf_9;
+          return_value_fsd_asprintf_9=fsd_asprintf("queue=%s", self->queue);
+          rusage->append(rusage, return_value_fsd_asprintf_9);
         }
 
         if(!(self->project == ((char *)NULL)))
         {
-          char *return_value_fsd_asprintf$10;
-          return_value_fsd_asprintf$10=fsd_asprintf("project=%s", self->project);
-          rusage->append(rusage, return_value_fsd_asprintf$10);
+          char *return_value_fsd_asprintf_10;
+          return_value_fsd_asprintf_10=fsd_asprintf("project=%s", self->project);
+          rusage->append(rusage, return_value_fsd_asprintf_10);
         }
 
       }
@@ -7271,12 +7271,12 @@ __CPROVER_DUMP_L13:
 // file fsd_job.c line 198
 static void fsd_job_on_missing(struct fsd_job_s *self)
 {
-  char *return_value_fsd_asprintf$1;
+  char *return_value_fsd_asprintf_1;
   do
     if(!((signed int)fsd_verbose_level >= 5))
     {
-      return_value_fsd_asprintf$1=fsd_asprintf("job %s missing from DRM queue", self->job_id);
-      _fsd_log(FSD_LOG_WARNING, "fsd_job.c", "fsd_job_on_missing", 0, return_value_fsd_asprintf$1);
+      return_value_fsd_asprintf_1=fsd_asprintf("job %s missing from DRM queue", self->job_id);
+      _fsd_log(FSD_LOG_WARNING, "fsd_job.c", "fsd_job_on_missing", 0, return_value_fsd_asprintf_1);
     }
 
   while((_Bool)0);
@@ -7313,9 +7313,9 @@ static void fsd_job_set_add(struct fsd_job_set_s *self, struct fsd_job_s *job)
 __CPROVER_DUMP_L1:
   ;
   fsd_mutex_lock(&self->mutex);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(job->job_id);
-  h=hashlittle((const void *)job->job_id, return_value_strlen$1, (unsigned int)0);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(job->job_id);
+  h=hashlittle((const void *)job->job_id, return_value_strlen_1, (unsigned int)0);
   h = h & self->tab_mask;
   job->next = self->tab[(signed long int)h];
   self->tab[(signed long int)h] = job;
@@ -7369,7 +7369,7 @@ static struct fsd_job_s * fsd_job_set_find_terminated(struct fsd_job_set_s *self
 {
   struct fsd_job_s *job = (struct fsd_job_s *)(void *)0;
   unsigned long int i;
-  union anonymous$1 * volatile mutex = &self->mutex;
+  union anonymous_1 * volatile mutex = &self->mutex;
 
 __CPROVER_DUMP_L1:
   ;
@@ -7451,20 +7451,20 @@ static struct fsd_job_s * fsd_job_set_get(struct fsd_job_set_s *self, const char
 __CPROVER_DUMP_L1:
   ;
   fsd_mutex_lock(&self->mutex);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(job_id);
-  h=hashlittle((const void *)job_id, return_value_strlen$1, (unsigned int)0);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(job_id);
+  h=hashlittle((const void *)job_id, return_value_strlen_1, (unsigned int)0);
   h = h & self->tab_mask;
   job = self->tab[(signed long int)h];
-  signed int tmp_statement_expression$2;
+  signed int tmp_statement_expression_2;
   for( ; !(job == ((struct fsd_job_s *)NULL)); job = job->next)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$3;
-    return_value___builtin_strcmp$3=__builtin_strcmp(job->job_id, job_id);
-    tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-    if(tmp_statement_expression$2 == 0)
+    signed int return_value___builtin_strcmp_3;
+    return_value___builtin_strcmp_3=__builtin_strcmp(job->job_id, job_id);
+    tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+    if(tmp_statement_expression_2 == 0)
       break;
 
   }
@@ -7498,7 +7498,7 @@ static char ** fsd_job_set_get_all_job_ids(struct fsd_job_set_s *self)
   char ** volatile job_ids = (char ** volatile )(void *)0;
   unsigned long int i;
   unsigned int j = (unsigned int)0;
-  union anonymous$1 * volatile mutex = &self->mutex;
+  union anonymous_1 * volatile mutex = &self->mutex;
 
 __CPROVER_DUMP_L1:
   ;
@@ -7511,7 +7511,7 @@ __CPROVER_DUMP_L1:
 
   else
     _fsd_exc_rc = -3;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -7530,9 +7530,9 @@ __CPROVER_DUMP_L1:
           job = self->tab[(signed long int)i];
           for( ; !(job == ((struct fsd_job_s *)NULL)); job = job->next)
           {
-            tmp_post$1 = j;
+            tmp_post_1 = j;
             j = j + 1u;
-            job_ids[(signed long int)tmp_post$1]=fsd_strdup(job->job_id);
+            job_ids[(signed long int)tmp_post_1]=fsd_strdup(job->job_id);
           }
         }
         fsd_realloc_((void **)(void *)&job_ids, (unsigned long int)(j + (unsigned int)1) * sizeof(char *) /*8ul*/ );
@@ -7541,9 +7541,9 @@ __CPROVER_DUMP_L1:
       case -2:
       {
         fsd_mutex_unlock(mutex);
-        const struct fsd_exc_s *return_value_fsd_exc_get$2;
-        return_value_fsd_exc_get$2=fsd_exc_get();
-        if(!(return_value_fsd_exc_get$2 == ((const struct fsd_exc_s *)NULL)))
+        const struct fsd_exc_s *return_value_fsd_exc_get_2;
+        return_value_fsd_exc_get_2=fsd_exc_get();
+        if(!(return_value_fsd_exc_get_2 == ((const struct fsd_exc_s *)NULL)))
           fsd_free_vector(job_ids);
 
       }
@@ -7668,9 +7668,9 @@ __CPROVER_DUMP_L1:
     {
       case 0:
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(job->job_id);
-        h=hashlittle((const void *)job->job_id, return_value_strlen$1, (unsigned int)0);
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(job->job_id);
+        h=hashlittle((const void *)job->job_id, return_value_strlen_1, (unsigned int)0);
         h = h & self->tab_mask;
         pjob = &self->tab[(signed long int)h];
         for( ; !(*pjob == ((struct fsd_job_s *)NULL)); pjob = &(*pjob)->next)
@@ -7712,7 +7712,7 @@ __CPROVER_DUMP_L15:
 static void fsd_job_set_signal_all(struct fsd_job_set_s *self)
 {
   struct fsd_job_s * volatile job = (struct fsd_job_s *)(void *)0;
-  union anonymous$1 * volatile mutex = &self->mutex;
+  union anonymous_1 * volatile mutex = &self->mutex;
 
 __CPROVER_DUMP_L1:
   ;
@@ -7743,22 +7743,22 @@ __CPROVER_DUMP_L1:
           for( ; !(job == ((struct fsd_job_s *)NULL)); job = job->next)
           {
             fsd_mutex_lock(&job->mutex);
-            struct fsd_exc_try_block_s * volatile fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block = (struct fsd_exc_try_block_s *)(void *)0;
-            signed int fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc;
-            fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block=fsd_exc_try("fsd_job_set_signal_all", 453);
-            if(!(fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block == ((struct fsd_exc_try_block_s *)NULL)))
-              fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc=_setjmp(fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block->env);
+            struct fsd_exc_try_block_s * volatile fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_try_block = (struct fsd_exc_try_block_s *)(void *)0;
+            signed int fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_rc;
+            fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_try_block=fsd_exc_try("fsd_job_set_signal_all", 453);
+            if(!(fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_try_block == ((struct fsd_exc_try_block_s *)NULL)))
+              fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_rc=_setjmp(fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_try_block->env);
 
             else
-              fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc = -3;
+              fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_rc = -3;
             while((_Bool)1)
             {
-              _Bool fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_handled = (_Bool)0;
-              fsd_exc_control(fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block, &fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc);
-              if(fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc == -3)
+              _Bool fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1__1___fsd_exc_handled = (_Bool)0;
+              fsd_exc_control(fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_try_block, &fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_rc);
+              if(fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_rc == -3)
                 break;
 
-              switch(fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_rc)
+              switch(fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_rc)
               {
                 case 0:
                 {
@@ -7768,13 +7768,13 @@ __CPROVER_DUMP_L1:
                 case -2:
                   fsd_mutex_unlock(&job->mutex);
               }
-              if(!(fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_handled == (_Bool)0))
+              if(!(fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1__1___fsd_exc_handled == (_Bool)0))
               {
 
               __CPROVER_DUMP_L14:
                 ;
-                fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block->handled_exc->destroy(fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block->handled_exc);
-                fsd_job_set_signal_all$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$_fsd_exc_try_block->handled_exc = (struct fsd_exc_s *)(void *)0;
+                fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_try_block->handled_exc->destroy(fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_try_block->handled_exc);
+                fsd_job_set_signal_all__1__2__1__1__1__1__1__1__1__1___fsd_exc_try_block->handled_exc = (struct fsd_exc_s *)(void *)0;
               }
 
             }
@@ -7813,74 +7813,74 @@ static void fsd_log_check_verbosity(void)
 {
   const char *log_level_str;
   log_level_str=getenv("DRMAA_LOG_LEVEL");
-  signed int tmp_statement_expression$11;
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$7;
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_11;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_7;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
   if(log_level_str == ((const char *)NULL))
     goto __CPROVER_DUMP_L9;
 
   else
   {
-    unsigned long int fsd_log_check_verbosity$$1$$2$$__s1_len;
-    unsigned long int fsd_log_check_verbosity$$1$$2$$__s2_len;
-    signed int return_value___builtin_strcmp$12;
-    return_value___builtin_strcmp$12=__builtin_strcmp(log_level_str, "TRACE");
-    tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-    if(tmp_statement_expression$11 == 0)
-      fsd_verbose_level = (enum anonymous$3)FSD_LOG_TRACE;
+    unsigned long int fsd_log_check_verbosity__1__2____s1_len;
+    unsigned long int fsd_log_check_verbosity__1__2____s2_len;
+    signed int return_value___builtin_strcmp_12;
+    return_value___builtin_strcmp_12=__builtin_strcmp(log_level_str, "TRACE");
+    tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+    if(tmp_statement_expression_11 == 0)
+      fsd_verbose_level = (enum anonymous_3)FSD_LOG_TRACE;
 
     else
     {
-      unsigned long int fsd_log_check_verbosity$$1$$4$$__s1_len;
-      unsigned long int fsd_log_check_verbosity$$1$$4$$__s2_len;
-      signed int return_value___builtin_strcmp$10;
-      return_value___builtin_strcmp$10=__builtin_strcmp(log_level_str, "DEBUG");
-      tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-      if(tmp_statement_expression$9 == 0)
-        fsd_verbose_level = (enum anonymous$3)FSD_LOG_DEBUG;
+      unsigned long int fsd_log_check_verbosity__1__4____s1_len;
+      unsigned long int fsd_log_check_verbosity__1__4____s2_len;
+      signed int return_value___builtin_strcmp_10;
+      return_value___builtin_strcmp_10=__builtin_strcmp(log_level_str, "DEBUG");
+      tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+      if(tmp_statement_expression_9 == 0)
+        fsd_verbose_level = (enum anonymous_3)FSD_LOG_DEBUG;
 
       else
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$8;
-        return_value___builtin_strcmp$8=__builtin_strcmp(log_level_str, "INFO");
-        tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-        if(tmp_statement_expression$7 == 0)
-          fsd_verbose_level = (enum anonymous$3)FSD_LOG_INFO;
+        signed int return_value___builtin_strcmp_8;
+        return_value___builtin_strcmp_8=__builtin_strcmp(log_level_str, "INFO");
+        tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+        if(tmp_statement_expression_7 == 0)
+          fsd_verbose_level = (enum anonymous_3)FSD_LOG_INFO;
 
         else
         {
-          unsigned long int fsd_log_check_verbosity$$1$$8$$__s1_len;
-          unsigned long int fsd_log_check_verbosity$$1$$8$$__s2_len;
-          signed int return_value___builtin_strcmp$6;
-          return_value___builtin_strcmp$6=__builtin_strcmp(log_level_str, "WARNING");
-          tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-          if(tmp_statement_expression$5 == 0)
-            fsd_verbose_level = (enum anonymous$3)FSD_LOG_WARNING;
+          unsigned long int fsd_log_check_verbosity__1__8____s1_len;
+          unsigned long int fsd_log_check_verbosity__1__8____s2_len;
+          signed int return_value___builtin_strcmp_6;
+          return_value___builtin_strcmp_6=__builtin_strcmp(log_level_str, "WARNING");
+          tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+          if(tmp_statement_expression_5 == 0)
+            fsd_verbose_level = (enum anonymous_3)FSD_LOG_WARNING;
 
           else
           {
-            unsigned long int fsd_log_check_verbosity$$1$$10$$__s1_len;
-            unsigned long int fsd_log_check_verbosity$$1$$10$$__s2_len;
-            signed int return_value___builtin_strcmp$4;
-            return_value___builtin_strcmp$4=__builtin_strcmp(log_level_str, "ERROR");
-            tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-            if(tmp_statement_expression$3 == 0)
-              fsd_verbose_level = (enum anonymous$3)FSD_LOG_ERROR;
+            unsigned long int fsd_log_check_verbosity__1__10____s1_len;
+            unsigned long int fsd_log_check_verbosity__1__10____s2_len;
+            signed int return_value___builtin_strcmp_4;
+            return_value___builtin_strcmp_4=__builtin_strcmp(log_level_str, "ERROR");
+            tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+            if(tmp_statement_expression_3 == 0)
+              fsd_verbose_level = (enum anonymous_3)FSD_LOG_ERROR;
 
             else
             {
-              unsigned long int fsd_log_check_verbosity$$1$$12$$__s1_len;
-              unsigned long int fsd_log_check_verbosity$$1$$12$$__s2_len;
-              signed int return_value___builtin_strcmp$2;
-              return_value___builtin_strcmp$2=__builtin_strcmp(log_level_str, "FATAL");
-              tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-              if(tmp_statement_expression$1 == 0)
-                fsd_verbose_level = (enum anonymous$3)FSD_LOG_FATAL;
+              unsigned long int fsd_log_check_verbosity__1__12____s1_len;
+              unsigned long int fsd_log_check_verbosity__1__12____s2_len;
+              signed int return_value___builtin_strcmp_2;
+              return_value___builtin_strcmp_2=__builtin_strcmp(log_level_str, "FATAL");
+              tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+              if(tmp_statement_expression_1 == 0)
+                fsd_verbose_level = (enum anonymous_3)FSD_LOG_FATAL;
 
               else
                 fprintf(stderr, "Illegal value of DRMAA_LOG_LEVEL=%s. Using default logging verbosity.", log_level_str);
@@ -7908,9 +7908,9 @@ void fsd_log_fmt(signed int level, const char *fmt, ...)
 // file logging.c line 262
 void fsd_log_fmtv(signed int level, const char *fmt, void **args)
 {
-  char *return_value_fsd_vasprintf$1;
-  return_value_fsd_vasprintf$1=fsd_vasprintf(fmt, args);
-  _fsd_log(level, (const char *)(void *)0, (const char *)(void *)0, 0, return_value_fsd_vasprintf$1);
+  char *return_value_fsd_vasprintf_1;
+  return_value_fsd_vasprintf_1=fsd_vasprintf(fmt, args);
+  _fsd_log(level, (const char *)(void *)0, (const char *)(void *)0, 0, return_value_fsd_vasprintf_1);
 }
 
 // fsd_log_level_char
@@ -7949,15 +7949,15 @@ void fsd_log_stacktrace(signed int skip, signed int limit)
 
   skip = skip + 1;
   n = skip + limit;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)n, sizeof(void *) /*8ul*/ );
-  ptr_buf = (void **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)n, sizeof(void *) /*8ul*/ );
+  ptr_buf = (void **)return_value_calloc_1;
   if(!(ptr_buf == ((void **)NULL)))
   {
     n=backtrace(ptr_buf, n);
-    char **return_value_backtrace_symbols$2;
-    return_value_backtrace_symbols$2=backtrace_symbols(ptr_buf, n);
-    symbols = (const char **)return_value_backtrace_symbols$2;
+    char **return_value_backtrace_symbols_2;
+    return_value_backtrace_symbols_2=backtrace_symbols(ptr_buf, n);
+    symbols = (const char **)return_value_backtrace_symbols_2;
     if(!(symbols == ((const char **)NULL)))
     {
 
@@ -7989,10 +7989,10 @@ void * fsd_malloc_(void **p, unsigned long int size)
     else
     {
       *p = (void *)0;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 12;
-      fsd_exc_raise_sys(*return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 12;
+      fsd_exc_raise_sys(*return_value___errno_location_1);
     }
   }
 
@@ -8022,7 +8022,7 @@ signed int fsd_malloc_noraise_(void **p, unsigned long int size)
 
 // fsd_mutex_destroy
 // file ../drmaa_utils/thread.h line 81
-void fsd_mutex_destroy(union anonymous$1 *mutex)
+void fsd_mutex_destroy(union anonymous_1 *mutex)
 {
   signed int errno_ = 0;
   errno_=pthread_mutex_destroy(mutex);
@@ -8033,10 +8033,10 @@ void fsd_mutex_destroy(union anonymous$1 *mutex)
 
 // fsd_mutex_init
 // file ../drmaa_utils/thread.h line 80
-void fsd_mutex_init(union anonymous$1 *mutex)
+void fsd_mutex_init(union anonymous_1 *mutex)
 {
   signed int errno_ = 0;
-  union anonymous$8 attr;
+  union anonymous_8 attr;
   do
   {
     errno_=pthread_mutexattr_init(&attr);
@@ -8061,7 +8061,7 @@ void fsd_mutex_init(union anonymous$1 *mutex)
 
 // fsd_mutex_lock
 // file ../drmaa_utils/thread.h line 82
-_Bool fsd_mutex_lock(union anonymous$1 *mutex)
+_Bool fsd_mutex_lock(union anonymous_1 *mutex)
 {
   signed int errno_ = 0;
   errno_=pthread_mutex_lock(mutex);
@@ -8073,7 +8073,7 @@ _Bool fsd_mutex_lock(union anonymous$1 *mutex)
 
 // fsd_mutex_trylock
 // file thread.c line 132
-_Bool fsd_mutex_trylock(union anonymous$1 *mutex)
+_Bool fsd_mutex_trylock(union anonymous_1 *mutex)
 {
   signed int errno_ = 0;
   errno_=pthread_mutex_trylock(mutex);
@@ -8090,7 +8090,7 @@ _Bool fsd_mutex_trylock(union anonymous$1 *mutex)
 
 // fsd_mutex_unlock
 // file ../drmaa_utils/thread.h line 83
-_Bool fsd_mutex_unlock(union anonymous$1 *mutex)
+_Bool fsd_mutex_unlock(union anonymous_1 *mutex)
 {
   signed int errno_ = 0;
   errno_=pthread_mutex_unlock(mutex);
@@ -8102,7 +8102,7 @@ _Bool fsd_mutex_unlock(union anonymous$1 *mutex)
 
 // fsd_mutex_unlock_times
 // file thread.c line 148
-signed int fsd_mutex_unlock_times(union anonymous$1 *mutex)
+signed int fsd_mutex_unlock_times(union anonymous_1 *mutex)
 {
   signed int count = 0;
   signed int errno_ = 0;
@@ -8130,9 +8130,9 @@ signed int fsd_parse_timedelta(const char *string)
   signed int i;
   const char *p = string;
   const char *pe;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(p);
-  pe = p + (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(p);
+  pe = p + (signed long int)return_value_strlen_1;
   const char *eof = pe;
   signed int cs;
 
@@ -8145,10 +8145,10 @@ __CPROVER_DUMP_L1:
   const char *_acts;
   unsigned int _nacts;
   const char *_keys;
-  const char *tmp_post$2;
-  unsigned int tmp_post$3;
-  const char *tmp_post$4;
-  signed int tmp_post$5;
+  const char *tmp_post_2;
+  unsigned int tmp_post_3;
+  const char *tmp_post_4;
+  signed int tmp_post_5;
   static const char _fsd_timedelta_actions[10l] = { (const char)0, (const char)1, (const char)0, (const char)1, (const char)1, (const char)1, (const char)3, (const char)2, (const char)2, (const char)3 };
   if(!(p == pe))
   {
@@ -8199,25 +8199,25 @@ __CPROVER_DUMP_L1:
       _klen = (signed int)_fsd_timedelta_range_lengths[(signed long int)cs];
       if(_klen >= 1)
       {
-        const char *fsd_parse_timedelta$$1$$3$$2$$_lower = _keys;
-        const char *fsd_parse_timedelta$$1$$3$$2$$_mid;
-        const char *fsd_parse_timedelta$$1$$3$$2$$_upper = (_keys + (signed long int)(_klen << 1)) - (signed long int)2;
+        const char *fsd_parse_timedelta__1__3__2___lower = _keys;
+        const char *fsd_parse_timedelta__1__3__2___mid;
+        const char *fsd_parse_timedelta__1__3__2___upper = (_keys + (signed long int)(_klen << 1)) - (signed long int)2;
         while((_Bool)1)
         {
-          if(!(fsd_parse_timedelta$$1$$3$$2$$_upper >= fsd_parse_timedelta$$1$$3$$2$$_lower))
+          if(!(fsd_parse_timedelta__1__3__2___upper >= fsd_parse_timedelta__1__3__2___lower))
             break;
 
-          fsd_parse_timedelta$$1$$3$$2$$_mid = fsd_parse_timedelta$$1$$3$$2$$_lower + (fsd_parse_timedelta$$1$$3$$2$$_upper - fsd_parse_timedelta$$1$$3$$2$$_lower >> 1 & (signed long int)~1);
-          if(!((signed int)*p >= (signed int)*fsd_parse_timedelta$$1$$3$$2$$_mid))
-            fsd_parse_timedelta$$1$$3$$2$$_upper = fsd_parse_timedelta$$1$$3$$2$$_mid - (signed long int)2;
+          fsd_parse_timedelta__1__3__2___mid = fsd_parse_timedelta__1__3__2___lower + (fsd_parse_timedelta__1__3__2___upper - fsd_parse_timedelta__1__3__2___lower >> 1 & (signed long int)~1);
+          if(!((signed int)*p >= (signed int)*fsd_parse_timedelta__1__3__2___mid))
+            fsd_parse_timedelta__1__3__2___upper = fsd_parse_timedelta__1__3__2___mid - (signed long int)2;
 
           else
-            if(!((signed int)fsd_parse_timedelta$$1$$3$$2$$_mid[1l] >= (signed int)*p))
-              fsd_parse_timedelta$$1$$3$$2$$_lower = fsd_parse_timedelta$$1$$3$$2$$_mid + (signed long int)2;
+            if(!((signed int)fsd_parse_timedelta__1__3__2___mid[1l] >= (signed int)*p))
+              fsd_parse_timedelta__1__3__2___lower = fsd_parse_timedelta__1__3__2___mid + (signed long int)2;
 
             else
             {
-              _trans = _trans + (unsigned int)(fsd_parse_timedelta$$1$$3$$2$$_mid - _keys >> 1);
+              _trans = _trans + (unsigned int)(fsd_parse_timedelta__1__3__2___mid - _keys >> 1);
               goto _match;
             }
         }
@@ -8233,19 +8233,19 @@ __CPROVER_DUMP_L1:
       if(!((signed int)_fsd_timedelta_trans_actions[(signed long int)_trans] == 0))
       {
         _acts = _fsd_timedelta_actions + (signed long int)_fsd_timedelta_trans_actions[(signed long int)_trans];
-        tmp_post$2 = _acts;
+        tmp_post_2 = _acts;
         _acts = _acts + 1l;
-        _nacts = (unsigned int)*tmp_post$2;
+        _nacts = (unsigned int)*tmp_post_2;
         do
         {
-          tmp_post$3 = _nacts;
+          tmp_post_3 = _nacts;
           _nacts = _nacts - 1u;
-          if(!(tmp_post$3 >= 1u))
+          if(!(tmp_post_3 >= 1u))
             break;
 
-          tmp_post$4 = _acts;
+          tmp_post_4 = _acts;
           _acts = _acts + 1l;
-          switch((signed int)*tmp_post$4)
+          switch((signed int)*tmp_post_4)
           {
             case 0:
             {
@@ -8254,9 +8254,9 @@ __CPROVER_DUMP_L1:
             }
             case 1:
             {
-              tmp_post$5 = n_fields;
+              tmp_post_5 = n_fields;
               n_fields = n_fields + 1;
-              fields[(signed long int)tmp_post$5] = v;
+              fields[(signed long int)tmp_post_5] = v;
               break;
             }
             case 2:
@@ -8288,28 +8288,28 @@ __CPROVER_DUMP_L1:
 
 _test_eof:
   ;
-  const char *tmp_post$6;
-  unsigned int tmp_post$7;
-  const char *tmp_post$8;
-  signed int tmp_post$9;
+  const char *tmp_post_6;
+  unsigned int tmp_post_7;
+  const char *tmp_post_8;
+  signed int tmp_post_9;
   if(p == eof)
   {
     static const char _fsd_timedelta_eof_actions[7l] = { (const char)0, (const char)1, (const char)1, (const char)1, (const char)1, (const char)3, (const char)3 };
     const char *__acts = _fsd_timedelta_actions + (signed long int)_fsd_timedelta_eof_actions[(signed long int)cs];
     unsigned int __nacts;
-    tmp_post$6 = __acts;
+    tmp_post_6 = __acts;
     __acts = __acts + 1l;
-    __nacts = (unsigned int)*tmp_post$6;
+    __nacts = (unsigned int)*tmp_post_6;
     do
     {
-      tmp_post$7 = __nacts;
+      tmp_post_7 = __nacts;
       __nacts = __nacts - 1u;
-      if(!(tmp_post$7 >= 1u))
+      if(!(tmp_post_7 >= 1u))
         break;
 
-      tmp_post$8 = __acts;
+      tmp_post_8 = __acts;
       __acts = __acts + 1l;
-      switch((signed int)*tmp_post$8)
+      switch((signed int)*tmp_post_8)
       {
         case 0:
         {
@@ -8318,9 +8318,9 @@ _test_eof:
         }
         case 1:
         {
-          tmp_post$9 = n_fields;
+          tmp_post_9 = n_fields;
           n_fields = n_fields + 1;
-          fields[(signed long int)tmp_post$9] = v;
+          fields[(signed long int)tmp_post_9] = v;
         }
       }
     }
@@ -8365,13 +8365,13 @@ __CPROVER_DUMP_L1:
     fsd_exc_raise_sys(0);
 
   i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(i >= 2); i = i + 1)
     while(!(fds[(signed long int)i] >= 3))
     {
-      tmp_post$1 = count;
+      tmp_post_1 = count;
       count = count + 1;
-      tmp[(signed long int)tmp_post$1] = fds[(signed long int)i];
+      tmp[(signed long int)tmp_post_1] = fds[(signed long int)i];
       fds[(signed long int)i]=dup(fds[(signed long int)i]);
       if(fds[(signed long int)i] == -1)
         ret = -1;
@@ -8425,9 +8425,9 @@ void fsd_read_file(const char *filename, _Bool must_exist, char **content, unsig
         fd=open(filename, 00);
         if(fd == -1)
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          if(*return_value___errno_location$1 == 2 && must_exist == (_Bool)0)
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          if(*return_value___errno_location_1 == 2 && must_exist == (_Bool)0)
           {
             *content = (char *)(void *)0;
             *length = (unsigned long int)0;
@@ -8500,12 +8500,12 @@ char * fsd_readline(struct _IO_FILE *f)
 
   else
     _fsd_exc_rc = -3;
-  signed int tmp_post$2;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  signed int tmp_post_2;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -8518,9 +8518,9 @@ char * fsd_readline(struct _IO_FILE *f)
       case 0:
       {
         fsd_calloc_((void **)(void *)&buffer, size + (unsigned long int)1, sizeof(char) /*1ul*/ );
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
         do
         {
           ch=_IO_getc(f);
@@ -8536,27 +8536,27 @@ char * fsd_readline(struct _IO_FILE *f)
             fsd_realloc_((void **)(void *)&buffer, (size + (unsigned long int)1) * sizeof(char) /*1ul*/ );
           }
 
-          tmp_post$2 = index;
+          tmp_post_2 = index;
           index = index + 1;
-          buffer[(signed long int)tmp_post$2] = (char)ch;
+          buffer[(signed long int)tmp_post_2] = (char)ch;
         }
         while((_Bool)1);
         if(ch == 10)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
           if(ch == -1)
           {
-            return_value___errno_location$5=__errno_location();
-            tmp_if_expr$6 = !(*return_value___errno_location$5 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_5=__errno_location();
+            tmp_if_expr_6 = !(*return_value___errno_location_5 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = (_Bool)0;
+          tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           if(index == 0)
             result = (char *)(void *)0;
@@ -8572,13 +8572,13 @@ char * fsd_readline(struct _IO_FILE *f)
         {
           if(ch == -1)
           {
-            return_value___errno_location$3=__errno_location();
-            tmp_if_expr$4 = *return_value___errno_location$3 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_3=__errno_location();
+            tmp_if_expr_4 = *return_value___errno_location_3 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(tmp_if_expr_4)
             fsd_exc_raise_sys(0);
 
           else
@@ -8609,7 +8609,7 @@ char * fsd_readline(struct _IO_FILE *f)
 void * fsd_realloc_(void **p, unsigned long int size)
 {
   void *ptr = *p;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(size == 0ul))
   {
     if(!(ptr == NULL))
@@ -8622,9 +8622,9 @@ void * fsd_realloc_(void **p, unsigned long int size)
 
     else
     {
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 12;
-      fsd_exc_raise_sys(*return_value___errno_location$1);
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 12;
+      fsd_exc_raise_sys(*return_value___errno_location_1);
     }
   }
 
@@ -8750,7 +8750,7 @@ void fsd_set_logging_fd(signed int fd)
 
 // fsd_set_verbosity_level
 // file logging.c line 64
-void fsd_set_verbosity_level(enum anonymous$3 level)
+void fsd_set_verbosity_level(enum anonymous_3 level)
 {
   fsd_verbose_level = level;
 }
@@ -8772,9 +8772,9 @@ unsigned long int fsd_snprintf(_Bool *truncated, char *str, unsigned long int si
 void fsd_str_append(_Bool *truncated, char **p, char *end, const char *fmt, ...)
 {
   void **args = (void **)&fmt;
-  unsigned long int return_value_fsd_vsnprintf$1;
-  return_value_fsd_vsnprintf$1=fsd_vsnprintf(truncated, *p, (unsigned long int)(end - *p), fmt, args);
-  *p = *p + (signed long int)return_value_fsd_vsnprintf$1;
+  unsigned long int return_value_fsd_vsnprintf_1;
+  return_value_fsd_vsnprintf_1=fsd_vsnprintf(truncated, *p, (unsigned long int)(end - *p), fmt, args);
+  *p = *p + (signed long int)return_value_fsd_vsnprintf_1;
   args = ((void **)NULL);
 }
 
@@ -8788,9 +8788,9 @@ char * fsd_strdup(const char *s)
 
   else
   {
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(s);
-    result = return_value___strdup$1;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(s);
+    result = return_value___strdup_1;
     if(result == ((char *)NULL))
       fsd_exc_raise_sys(12);
 
@@ -8887,9 +8887,9 @@ const char * fsd_strerror(signed int error_code)
 // file fsd_util.c line 393
 const char * fsd_strerror_r(signed int errnum, char *buffer, unsigned long int buffer_size)
 {
-  char *return_value_strerror_r$1;
-  return_value_strerror_r$1=strerror_r(errnum, buffer, buffer_size);
-  return return_value_strerror_r$1;
+  char *return_value_strerror_r_1;
+  return_value_strerror_r_1=strerror_r(errnum, buffer, buffer_size);
+  return return_value_strerror_r_1;
 }
 
 // fsd_strndup
@@ -8902,9 +8902,9 @@ char * fsd_strndup(const char *s, unsigned long int n)
 
   else
   {
-    char *return_value___strndup$1;
-    return_value___strndup$1=__strndup(s, n);
-    result = return_value___strndup$1;
+    char *return_value___strndup_1;
+    return_value___strndup_1=__strndup(s, n);
+    result = return_value___strndup_1;
     if(result == ((char *)NULL))
       fsd_exc_raise_sys(12);
 
@@ -9013,13 +9013,13 @@ static const char * fsd_template_get_attr(const struct fsd_template_s *self, con
     fsd_exc_raise_code(1003);
 
   attr=self->by_name(self, name);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(attr == ((const struct fsd_attribute_s *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = attr->is_vector != (_Bool)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = attr->is_vector != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     fsd_exc_raise_fmt(1003, "invalid scalar attribute name: %s", name);
 
   return (const char *)self->attributes[(signed long int)attr->code];
@@ -9034,13 +9034,13 @@ static const char * const * fsd_template_get_v_attr(const struct fsd_template_s 
     fsd_exc_raise_code(1003);
 
   attr=self->by_name(self, name);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(attr == ((const struct fsd_attribute_s *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(attr->is_vector != (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(attr->is_vector != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     fsd_exc_raise_fmt(1003, "invalid vector attribute name: %s", name);
 
   return (const char * const *)self->attributes[(signed long int)attr->code];
@@ -9120,32 +9120,32 @@ __CPROVER_DUMP_L1:
     fsd_exc_raise_code(1003);
 
   attr=self->by_name(self, name);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(attr == ((const struct fsd_attribute_s *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = attr->is_vector != (_Bool)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = attr->is_vector != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     fsd_exc_raise_fmt(1003, "invalid scalar attribute name: %s", name);
 
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(!(value == ((const char *)NULL)))
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(value);
-    if(return_value_strlen$3 >= 16384ul)
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(value);
+    if(return_value_strlen_3 >= 16384ul)
     {
-      return_value_strlen$2=strlen(value);
-      fsd_exc_raise_fmt(1003, "Argument length exceeds max size: %d > %d", (signed int)return_value_strlen$2, 16 * 1024 - 1);
+      return_value_strlen_2=strlen(value);
+      fsd_exc_raise_fmt(1003, "Argument length exceeds max size: %d > %d", (signed int)return_value_strlen_2, 16 * 1024 - 1);
     }
 
     if(!(self->attributes[(signed long int)attr->code] == NULL))
       fsd_free(self->attributes[(signed long int)attr->code]);
 
-    char *return_value_fsd_strdup$4;
-    return_value_fsd_strdup$4=fsd_strdup(value);
-    self->attributes[(signed long int)attr->code] = (void *)return_value_fsd_strdup$4;
+    char *return_value_fsd_strdup_4;
+    return_value_fsd_strdup_4=fsd_strdup(value);
+    self->attributes[(signed long int)attr->code] = (void *)return_value_fsd_strdup_4;
   }
 
   else
@@ -9162,13 +9162,13 @@ static void fsd_template_set_v_attr(struct fsd_template_s *self, const char *nam
     fsd_exc_raise_code(1003);
 
   attr=self->by_name(self, name);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(attr == ((const struct fsd_attribute_s *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(attr->is_vector != (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(attr->is_vector != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     fsd_exc_raise_fmt(1003, "invalid vector attribute name: %s", name);
 
   struct fsd_exc_try_block_s * volatile _fsd_exc_try_block = (struct fsd_exc_try_block_s *)(void *)0;
@@ -9235,9 +9235,9 @@ void fsd_thread_detach(unsigned long int th)
 // file ../drmaa_utils/thread.h line 122
 signed int fsd_thread_id(void)
 {
-  signed int return_value_gettid$1;
-  return_value_gettid$1=gettid();
-  return (signed int)return_value_gettid$1;
+  signed int return_value_gettid_1;
+  return_value_gettid_1=gettid();
+  return (signed int)return_value_gettid_1;
 }
 
 // fsd_thread_join
@@ -9359,9 +9359,9 @@ unsigned long int fsd_vsnprintf(_Bool *truncated, char *str, unsigned long int s
 // file thread.c line 39
 signed int gettid(void)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)186);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)186);
+  return (signed int)return_value_syscall_1;
 }
 
 // hash
@@ -9396,12 +9396,12 @@ unsigned int hashbig(const void *key, unsigned long int length, unsigned int ini
   a = b;
   if((_Bool)0)
   {
-    const unsigned int *hashbig$$1$$1$$k = (const unsigned int *)key;
-    for( ; length >= 13ul; hashbig$$1$$1$$k = hashbig$$1$$1$$k + (signed long int)3)
+    const unsigned int *hashbig__1__1__k = (const unsigned int *)key;
+    for( ; length >= 13ul; hashbig__1__1__k = hashbig__1__1__k + (signed long int)3)
     {
-      a = a + hashbig$$1$$1$$k[(signed long int)0];
-      b = b + hashbig$$1$$1$$k[(signed long int)1];
-      c = c + hashbig$$1$$1$$k[(signed long int)2];
+      a = a + hashbig__1__1__k[(signed long int)0];
+      b = b + hashbig__1__1__k[(signed long int)1];
+      c = c + hashbig__1__1__k[(signed long int)2];
       a = a - c;
       a = a ^ c << 4 ^ c >> 32 - 4;
       c = c + b;
@@ -9426,74 +9426,74 @@ unsigned int hashbig(const void *key, unsigned long int length, unsigned int ini
     {
       case (unsigned long int)12:
       {
-        c = c + hashbig$$1$$1$$k[(signed long int)2];
-        b = b + hashbig$$1$$1$$k[(signed long int)1];
-        a = a + hashbig$$1$$1$$k[(signed long int)0];
+        c = c + hashbig__1__1__k[(signed long int)2];
+        b = b + hashbig__1__1__k[(signed long int)1];
+        a = a + hashbig__1__1__k[(signed long int)0];
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)11:
       {
-        c = c + (hashbig$$1$$1$$k[(signed long int)2] << 8);
-        b = b + hashbig$$1$$1$$k[(signed long int)1];
-        a = a + hashbig$$1$$1$$k[(signed long int)0];
+        c = c + (hashbig__1__1__k[(signed long int)2] << 8);
+        b = b + hashbig__1__1__k[(signed long int)1];
+        a = a + hashbig__1__1__k[(signed long int)0];
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)10:
       {
-        c = c + (hashbig$$1$$1$$k[(signed long int)2] << 16);
-        b = b + hashbig$$1$$1$$k[(signed long int)1];
-        a = a + hashbig$$1$$1$$k[(signed long int)0];
+        c = c + (hashbig__1__1__k[(signed long int)2] << 16);
+        b = b + hashbig__1__1__k[(signed long int)1];
+        a = a + hashbig__1__1__k[(signed long int)0];
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)9:
       {
-        c = c + (hashbig$$1$$1$$k[(signed long int)2] << 24);
-        b = b + hashbig$$1$$1$$k[(signed long int)1];
-        a = a + hashbig$$1$$1$$k[(signed long int)0];
+        c = c + (hashbig__1__1__k[(signed long int)2] << 24);
+        b = b + hashbig__1__1__k[(signed long int)1];
+        a = a + hashbig__1__1__k[(signed long int)0];
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)8:
       {
-        b = b + hashbig$$1$$1$$k[(signed long int)1];
-        a = a + hashbig$$1$$1$$k[(signed long int)0];
+        b = b + hashbig__1__1__k[(signed long int)1];
+        a = a + hashbig__1__1__k[(signed long int)0];
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)7:
       {
-        b = b + (hashbig$$1$$1$$k[(signed long int)1] << 8);
-        a = a + hashbig$$1$$1$$k[(signed long int)0];
+        b = b + (hashbig__1__1__k[(signed long int)1] << 8);
+        a = a + hashbig__1__1__k[(signed long int)0];
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)6:
       {
-        b = b + (hashbig$$1$$1$$k[(signed long int)1] << 16);
-        a = a + hashbig$$1$$1$$k[(signed long int)0];
+        b = b + (hashbig__1__1__k[(signed long int)1] << 16);
+        a = a + hashbig__1__1__k[(signed long int)0];
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)5:
       {
-        b = b + (hashbig$$1$$1$$k[(signed long int)1] << 24);
-        a = a + hashbig$$1$$1$$k[(signed long int)0];
+        b = b + (hashbig__1__1__k[(signed long int)1] << 24);
+        a = a + hashbig__1__1__k[(signed long int)0];
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)4:
       {
-        a = a + hashbig$$1$$1$$k[(signed long int)0];
+        a = a + hashbig__1__1__k[(signed long int)0];
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)3:
       {
-        a = a + (hashbig$$1$$1$$k[(signed long int)0] << 8);
+        a = a + (hashbig__1__1__k[(signed long int)0] << 8);
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)2:
       {
-        a = a + (hashbig$$1$$1$$k[(signed long int)0] << 16);
+        a = a + (hashbig__1__1__k[(signed long int)0] << 16);
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)1:
       {
-        a = a + (hashbig$$1$$1$$k[(signed long int)0] << 24);
+        a = a + (hashbig__1__1__k[(signed long int)0] << 24);
         goto __CPROVER_DUMP_L16;
       }
       case (unsigned long int)0:
@@ -9719,12 +9719,12 @@ unsigned int hashlittle(const void *key, unsigned long int length, unsigned int 
   else
     if((_Bool)0)
     {
-      const unsigned short int *hashlittle$$1$$2$$k = (const unsigned short int *)key;
-      for( ; length >= 13ul; hashlittle$$1$$2$$k = hashlittle$$1$$2$$k + (signed long int)6)
+      const unsigned short int *hashlittle__1__2__k = (const unsigned short int *)key;
+      for( ; length >= 13ul; hashlittle__1__2__k = hashlittle__1__2__k + (signed long int)6)
       {
-        a = a + (unsigned int)hashlittle$$1$$2$$k[(signed long int)0] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)1] << 16);
-        b = b + (unsigned int)hashlittle$$1$$2$$k[(signed long int)2] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)3] << 16);
-        c = c + (unsigned int)hashlittle$$1$$2$$k[(signed long int)4] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)5] << 16);
+        a = a + (unsigned int)hashlittle__1__2__k[(signed long int)0] + ((unsigned int)hashlittle__1__2__k[(signed long int)1] << 16);
+        b = b + (unsigned int)hashlittle__1__2__k[(signed long int)2] + ((unsigned int)hashlittle__1__2__k[(signed long int)3] << 16);
+        c = c + (unsigned int)hashlittle__1__2__k[(signed long int)4] + ((unsigned int)hashlittle__1__2__k[(signed long int)5] << 16);
         a = a - c;
         a = a ^ c << 4 ^ c >> 32 - 4;
         c = c + b;
@@ -9749,53 +9749,53 @@ unsigned int hashlittle(const void *key, unsigned long int length, unsigned int 
       {
         case (unsigned long int)12:
         {
-          c = c + (unsigned int)hashlittle$$1$$2$$k[(signed long int)4] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)5] << 16);
-          b = b + (unsigned int)hashlittle$$1$$2$$k[(signed long int)2] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)3] << 16);
-          a = a + (unsigned int)hashlittle$$1$$2$$k[(signed long int)0] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)1] << 16);
+          c = c + (unsigned int)hashlittle__1__2__k[(signed long int)4] + ((unsigned int)hashlittle__1__2__k[(signed long int)5] << 16);
+          b = b + (unsigned int)hashlittle__1__2__k[(signed long int)2] + ((unsigned int)hashlittle__1__2__k[(signed long int)3] << 16);
+          a = a + (unsigned int)hashlittle__1__2__k[(signed long int)0] + ((unsigned int)hashlittle__1__2__k[(signed long int)1] << 16);
           goto __CPROVER_DUMP_L33;
         }
         case (unsigned long int)11:
-          c = c + ((unsigned int)((signed int)hashlittle$$1$$2$$k[(signed long int)5] & 0xff) << 16);
+          c = c + ((unsigned int)((signed int)hashlittle__1__2__k[(signed long int)5] & 0xff) << 16);
         case (unsigned long int)10:
         {
-          c = c + (unsigned int)hashlittle$$1$$2$$k[(signed long int)4];
-          b = b + (unsigned int)hashlittle$$1$$2$$k[(signed long int)2] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)3] << 16);
-          a = a + (unsigned int)hashlittle$$1$$2$$k[(signed long int)0] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)1] << 16);
+          c = c + (unsigned int)hashlittle__1__2__k[(signed long int)4];
+          b = b + (unsigned int)hashlittle__1__2__k[(signed long int)2] + ((unsigned int)hashlittle__1__2__k[(signed long int)3] << 16);
+          a = a + (unsigned int)hashlittle__1__2__k[(signed long int)0] + ((unsigned int)hashlittle__1__2__k[(signed long int)1] << 16);
           goto __CPROVER_DUMP_L33;
         }
         case (unsigned long int)9:
-          c = c + (unsigned int)((signed int)hashlittle$$1$$2$$k[(signed long int)4] & 0xff);
+          c = c + (unsigned int)((signed int)hashlittle__1__2__k[(signed long int)4] & 0xff);
         case (unsigned long int)8:
         {
-          b = b + (unsigned int)hashlittle$$1$$2$$k[(signed long int)2] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)3] << 16);
-          a = a + (unsigned int)hashlittle$$1$$2$$k[(signed long int)0] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)1] << 16);
+          b = b + (unsigned int)hashlittle__1__2__k[(signed long int)2] + ((unsigned int)hashlittle__1__2__k[(signed long int)3] << 16);
+          a = a + (unsigned int)hashlittle__1__2__k[(signed long int)0] + ((unsigned int)hashlittle__1__2__k[(signed long int)1] << 16);
           goto __CPROVER_DUMP_L33;
         }
         case (unsigned long int)7:
-          b = b + ((unsigned int)((signed int)hashlittle$$1$$2$$k[(signed long int)3] & 0xff) << 16);
+          b = b + ((unsigned int)((signed int)hashlittle__1__2__k[(signed long int)3] & 0xff) << 16);
         case (unsigned long int)6:
         {
-          b = b + (unsigned int)hashlittle$$1$$2$$k[(signed long int)2];
-          a = a + (unsigned int)hashlittle$$1$$2$$k[(signed long int)0] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)1] << 16);
+          b = b + (unsigned int)hashlittle__1__2__k[(signed long int)2];
+          a = a + (unsigned int)hashlittle__1__2__k[(signed long int)0] + ((unsigned int)hashlittle__1__2__k[(signed long int)1] << 16);
           goto __CPROVER_DUMP_L33;
         }
         case (unsigned long int)5:
-          b = b + (unsigned int)((signed int)hashlittle$$1$$2$$k[(signed long int)2] & 0xff);
+          b = b + (unsigned int)((signed int)hashlittle__1__2__k[(signed long int)2] & 0xff);
         case (unsigned long int)4:
         {
-          a = a + (unsigned int)hashlittle$$1$$2$$k[(signed long int)0] + ((unsigned int)hashlittle$$1$$2$$k[(signed long int)1] << 16);
+          a = a + (unsigned int)hashlittle__1__2__k[(signed long int)0] + ((unsigned int)hashlittle__1__2__k[(signed long int)1] << 16);
           goto __CPROVER_DUMP_L33;
         }
         case (unsigned long int)3:
-          a = a + ((unsigned int)((signed int)hashlittle$$1$$2$$k[(signed long int)1] & 0xff) << 16);
+          a = a + ((unsigned int)((signed int)hashlittle__1__2__k[(signed long int)1] & 0xff) << 16);
         case (unsigned long int)2:
         {
-          a = a + (unsigned int)hashlittle$$1$$2$$k[(signed long int)0];
+          a = a + (unsigned int)hashlittle__1__2__k[(signed long int)0];
           goto __CPROVER_DUMP_L33;
         }
         case (unsigned long int)1:
         {
-          a = a + (unsigned int)((signed int)hashlittle$$1$$2$$k[(signed long int)0] & 0xff);
+          a = a + (unsigned int)((signed int)hashlittle__1__2__k[(signed long int)0] & 0xff);
           goto __CPROVER_DUMP_L33;
         }
         case (unsigned long int)0:
@@ -9809,21 +9809,21 @@ unsigned int hashlittle(const void *key, unsigned long int length, unsigned int 
 
     else
     {
-      const unsigned char *hashlittle$$1$$3$$k = (const unsigned char *)key;
-      for( ; length >= 13ul; hashlittle$$1$$3$$k = hashlittle$$1$$3$$k + (signed long int)12)
+      const unsigned char *hashlittle__1__3__k = (const unsigned char *)key;
+      for( ; length >= 13ul; hashlittle__1__3__k = hashlittle__1__3__k + (signed long int)12)
       {
-        a = a + (unsigned int)hashlittle$$1$$3$$k[(signed long int)0];
-        a = a + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)1] << 8);
-        a = a + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)2] << 16);
-        a = a + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)3] << 24);
-        b = b + (unsigned int)hashlittle$$1$$3$$k[(signed long int)4];
-        b = b + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)5] << 8);
-        b = b + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)6] << 16);
-        b = b + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)7] << 24);
-        c = c + (unsigned int)hashlittle$$1$$3$$k[(signed long int)8];
-        c = c + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)9] << 8);
-        c = c + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)10] << 16);
-        c = c + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)11] << 24);
+        a = a + (unsigned int)hashlittle__1__3__k[(signed long int)0];
+        a = a + ((unsigned int)hashlittle__1__3__k[(signed long int)1] << 8);
+        a = a + ((unsigned int)hashlittle__1__3__k[(signed long int)2] << 16);
+        a = a + ((unsigned int)hashlittle__1__3__k[(signed long int)3] << 24);
+        b = b + (unsigned int)hashlittle__1__3__k[(signed long int)4];
+        b = b + ((unsigned int)hashlittle__1__3__k[(signed long int)5] << 8);
+        b = b + ((unsigned int)hashlittle__1__3__k[(signed long int)6] << 16);
+        b = b + ((unsigned int)hashlittle__1__3__k[(signed long int)7] << 24);
+        c = c + (unsigned int)hashlittle__1__3__k[(signed long int)8];
+        c = c + ((unsigned int)hashlittle__1__3__k[(signed long int)9] << 8);
+        c = c + ((unsigned int)hashlittle__1__3__k[(signed long int)10] << 16);
+        c = c + ((unsigned int)hashlittle__1__3__k[(signed long int)11] << 24);
         a = a - c;
         a = a ^ c << 4 ^ c >> 32 - 4;
         c = c + b;
@@ -9847,30 +9847,30 @@ unsigned int hashlittle(const void *key, unsigned long int length, unsigned int 
       switch(length)
       {
         case (unsigned long int)12:
-          c = c + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)11] << 24);
+          c = c + ((unsigned int)hashlittle__1__3__k[(signed long int)11] << 24);
         case (unsigned long int)11:
-          c = c + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)10] << 16);
+          c = c + ((unsigned int)hashlittle__1__3__k[(signed long int)10] << 16);
         case (unsigned long int)10:
-          c = c + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)9] << 8);
+          c = c + ((unsigned int)hashlittle__1__3__k[(signed long int)9] << 8);
         case (unsigned long int)9:
-          c = c + (unsigned int)hashlittle$$1$$3$$k[(signed long int)8];
+          c = c + (unsigned int)hashlittle__1__3__k[(signed long int)8];
         case (unsigned long int)8:
-          b = b + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)7] << 24);
+          b = b + ((unsigned int)hashlittle__1__3__k[(signed long int)7] << 24);
         case (unsigned long int)7:
-          b = b + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)6] << 16);
+          b = b + ((unsigned int)hashlittle__1__3__k[(signed long int)6] << 16);
         case (unsigned long int)6:
-          b = b + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)5] << 8);
+          b = b + ((unsigned int)hashlittle__1__3__k[(signed long int)5] << 8);
         case (unsigned long int)5:
-          b = b + (unsigned int)hashlittle$$1$$3$$k[(signed long int)4];
+          b = b + (unsigned int)hashlittle__1__3__k[(signed long int)4];
         case (unsigned long int)4:
-          a = a + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)3] << 24);
+          a = a + ((unsigned int)hashlittle__1__3__k[(signed long int)3] << 24);
         case (unsigned long int)3:
-          a = a + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)2] << 16);
+          a = a + ((unsigned int)hashlittle__1__3__k[(signed long int)2] << 16);
         case (unsigned long int)2:
-          a = a + ((unsigned int)hashlittle$$1$$3$$k[(signed long int)1] << 8);
+          a = a + ((unsigned int)hashlittle__1__3__k[(signed long int)1] << 8);
         case (unsigned long int)1:
         {
-          a = a + (unsigned int)hashlittle$$1$$3$$k[(signed long int)0];
+          a = a + (unsigned int)hashlittle__1__3__k[(signed long int)0];
           goto __CPROVER_DUMP_L50;
         }
         case (unsigned long int)0:
@@ -9983,16 +9983,16 @@ signed int main(signed int argc, char **argv)
   if(child_pid >= 1)
   {
     signed int status = -1;
-    signed int return_value_waitpid$1;
-    return_value_waitpid$1=waitpid(child_pid, &status, 0);
-    if(return_value_waitpid$1 == -1)
+    signed int return_value_waitpid_1;
+    return_value_waitpid_1=waitpid(child_pid, &status, 0);
+    if(return_value_waitpid_1 == -1)
     {
       perror("waitpid() failed");
       exit(5);
     }
 
     /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$9
+union anonymous_9
 {
   // __in
   signed int __in;
@@ -10003,11 +10003,11 @@ union anonymous$9
 /* */
     ;
     if((0x7f & status) == 0)
-      exit((((union anonymous$9){ .__in=status }).__i & 0xff00) >> 8);
+      exit((((union anonymous_9){ .__in=status }).__i & 0xff00) >> 8);
 
     else
       if((signed int)((127 & (signed char)status) + 1) >> 1 >= 1)
-        exit(128 + (((union anonymous$9){ .__in=status }).__i & 0x7f));
+        exit(128 + (((union anonymous_9){ .__in=status }).__i & 0x7f));
 
       else
       {
@@ -10053,7 +10053,7 @@ __CPROVER_DUMP_L1:
 
   else
     _fsd_exc_rc = -3;
-  char *return_value_fsd_asprintf$2;
+  char *return_value_fsd_asprintf_2;
   while((_Bool)1)
   {
     _Bool _fsd_exc_handled = (_Bool)0;
@@ -10063,9 +10063,9 @@ __CPROVER_DUMP_L1:
 
     if(_fsd_exc_rc == 0)
     {
-      void *return_value_fsd_calloc_$1;
-      return_value_fsd_calloc_$1=fsd_calloc_((void **)(void *)&content, (unsigned long int)(1024 * 1024 + 1), sizeof(char) /*1ul*/ );
-      content = (char *)return_value_fsd_calloc_$1;
+      void *return_value_fsd_calloc__1;
+      return_value_fsd_calloc__1=fsd_calloc_((void **)(void *)&content, (unsigned long int)(1024 * 1024 + 1), sizeof(char) /*1ul*/ );
+      content = (char *)return_value_fsd_calloc__1;
       content[(signed long int)0] = (char)0;
       while((_Bool)1)
       {
@@ -10075,8 +10075,8 @@ __CPROVER_DUMP_L1:
           do
             if(!((signed int)fsd_verbose_level >= 6))
             {
-              return_value_fsd_asprintf$2=fsd_asprintf("Stream buffer exceeded: %d", 1024 * 1024);
-              _fsd_log(FSD_LOG_ERROR, "exec.c", "stream_ripper", 0, return_value_fsd_asprintf$2);
+              return_value_fsd_asprintf_2=fsd_asprintf("Stream buffer exceeded: %d", 1024 * 1024);
+              _fsd_log(FSD_LOG_ERROR, "exec.c", "stream_ripper", 0, return_value_fsd_asprintf_2);
             }
 
           while((_Bool)0);
@@ -10125,9 +10125,9 @@ __CPROVER_DUMP_L1:
 unsigned long int strlcpy(char *dest, const char *src, unsigned long int size)
 {
   unsigned long int result = (unsigned long int)0;
-  char *tmp_post$1;
-  const char *tmp_post$2;
-  char *tmp_post$3;
+  char *tmp_post_1;
+  const char *tmp_post_2;
+  char *tmp_post_3;
   if(size == 0ul)
     return (unsigned long int)0;
 
@@ -10139,15 +10139,15 @@ unsigned long int strlcpy(char *dest, const char *src, unsigned long int size)
       if(!(size >= 1ul))
         break;
 
-      tmp_post$1 = dest;
+      tmp_post_1 = dest;
       dest = dest + 1l;
-      tmp_post$2 = src;
+      tmp_post_2 = src;
       src = src + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
-    tmp_post$3 = dest;
+    tmp_post_3 = dest;
     dest = dest + 1l;
-    *tmp_post$3 = (char)0;
+    *tmp_post_3 = (char)0;
     return result;
   }
 }
@@ -10168,20 +10168,20 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
   struct hpc_batch_job_s batch_job;
   memset((void *)&batch_job, 0, sizeof(struct hpc_batch_job_s) /*16ul*/ );
   out_fd=mkstemp(script_template);
-  signed int return_value_fchmod$1;
-  char *return_value_fgets$2;
-  char *return_value_strstr$25;
-  char *return_value_strstr$24;
-  char *return_value_strstr$15;
-  char *return_value_strstr$23;
-  char *return_value___strdup$26;
+  signed int return_value_fchmod_1;
+  char *return_value_fgets_2;
+  char *return_value_strstr_25;
+  char *return_value_strstr_24;
+  char *return_value_strstr_15;
+  char *return_value_strstr_23;
+  char *return_value___strdup_26;
   if(out_fd == -1)
     perror("mkstemp() failed");
 
   else
   {
-    return_value_fchmod$1=fchmod(out_fd, (unsigned int)(0100 | 0400 | 0200));
-    if(return_value_fchmod$1 == -1)
+    return_value_fchmod_1=fchmod(out_fd, (unsigned int)(0100 | 0400 | 0200));
+    if(return_value_fchmod_1 == -1)
       perror("fchmod() failed");
 
     else
@@ -10194,14 +10194,14 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
       {
         do
         {
-          return_value_fgets$2=fgets(line_buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , in_file);
-          if(return_value_fgets$2 == ((char *)NULL))
+          return_value_fgets_2=fgets(line_buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , in_file);
+          if(return_value_fgets_2 == ((char *)NULL))
             break;
 
           signed int line_length;
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(line_buf);
-          line_length = (signed int)return_value_strlen$3;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(line_buf);
+          line_length = (signed int)return_value_strlen_3;
           if(line_length >= 1)
           {
             if(!((signed int)line_buf[(signed long int)(line_length + -1)] == 10))
@@ -10214,21 +10214,21 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
 
           if(line_counter == 1)
           {
-            char *return_value_strstr$8;
-            return_value_strstr$8=strstr(line_buf, "hpc-bash");
-            if(!(return_value_strstr$8 == ((char *)NULL)))
+            char *return_value_strstr_8;
+            return_value_strstr_8=strstr(line_buf, "hpc-bash");
+            if(!(return_value_strstr_8 == ((char *)NULL)))
               do
               {
 
               __CPROVER_DUMP_L5:
                 ;
-                unsigned long int return_value_strlen$4;
-                return_value_strlen$4=strlen("#!/bin/bash\n");
-                signed long int return_value_write$5;
-                return_value_write$5=write(out_fd, (const void *)"#!/bin/bash\n", return_value_strlen$4);
-                unsigned long int return_value_strlen$6;
-                return_value_strlen$6=strlen("#!/bin/bash\n");
-                if(!((unsigned long int)return_value_write$5 == return_value_strlen$6))
+                unsigned long int return_value_strlen_4;
+                return_value_strlen_4=strlen("#!/bin/bash\n");
+                signed long int return_value_write_5;
+                return_value_write_5=write(out_fd, (const void *)"#!/bin/bash\n", return_value_strlen_4);
+                unsigned long int return_value_strlen_6;
+                return_value_strlen_6=strlen("#!/bin/bash\n");
+                if(!((unsigned long int)return_value_write_5 == return_value_strlen_6))
                 {
                   perror("write() failed");
                   goto out;
@@ -10242,9 +10242,9 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
               fprintf(stderr, "WARNING: no hpc-bash shebang found!");
               do
               {
-                signed long int return_value_write$7;
-                return_value_write$7=write(out_fd, (const void *)line_buf, (unsigned long int)line_length);
-                if(!(return_value_write$7 == (signed long int)line_length))
+                signed long int return_value_write_7;
+                return_value_write_7=write(out_fd, (const void *)line_buf, (unsigned long int)line_length);
+                if(!(return_value_write_7 == (signed long int)line_length))
                 {
                   perror("write() failed");
                   goto out;
@@ -10257,14 +10257,14 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
 
           else
           {
-            return_value_strstr$25=strstr(line_buf, "#pragma hpc-bash parallel for");
-            if(!(return_value_strstr$25 == ((char *)NULL)))
+            return_value_strstr_25=strstr(line_buf, "#pragma hpc-bash parallel for");
+            if(!(return_value_strstr_25 == ((char *)NULL)))
               in_for_loop = (_Bool)1;
 
             else
             {
-              return_value_strstr$24=strstr(line_buf, "#pragma hpc-bash batch-job");
-              if(!(return_value_strstr$24 == ((char *)NULL)))
+              return_value_strstr_24=strstr(line_buf, "#pragma hpc-bash batch-job");
+              if(!(return_value_strstr_24 == ((char *)NULL)))
                 in_batch_job = (_Bool)1;
 
               else
@@ -10276,13 +10276,13 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
 
                   __CPROVER_DUMP_L14:
                     ;
-                    unsigned long int return_value_strlen$9;
-                    return_value_strlen$9=strlen("\t/usr/lib/pbs-drmaa/bin/drmaa-run ");
-                    signed long int return_value_write$10;
-                    return_value_write$10=write(out_fd, (const void *)"\t/usr/lib/pbs-drmaa/bin/drmaa-run ", return_value_strlen$9);
-                    unsigned long int return_value_strlen$11;
-                    return_value_strlen$11=strlen("\t/usr/lib/pbs-drmaa/bin/drmaa-run ");
-                    if(!((unsigned long int)return_value_write$10 == return_value_strlen$11))
+                    unsigned long int return_value_strlen_9;
+                    return_value_strlen_9=strlen("\t/usr/lib/pbs-drmaa/bin/drmaa-run ");
+                    signed long int return_value_write_10;
+                    return_value_write_10=write(out_fd, (const void *)"\t/usr/lib/pbs-drmaa/bin/drmaa-run ", return_value_strlen_9);
+                    unsigned long int return_value_strlen_11;
+                    return_value_strlen_11=strlen("\t/usr/lib/pbs-drmaa/bin/drmaa-run ");
+                    if(!((unsigned long int)return_value_write_10 == return_value_strlen_11))
                     {
                       perror("write() failed");
                       goto out;
@@ -10295,21 +10295,21 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
 
                 if(!(in_for_loop == (_Bool)0))
                 {
-                  return_value_strstr$15=strstr(line_buf, "done");
-                  if(!(return_value_strstr$15 == ((char *)NULL)))
+                  return_value_strstr_15=strstr(line_buf, "done");
+                  if(!(return_value_strstr_15 == ((char *)NULL)))
                   {
                     do
                     {
 
                     __CPROVER_DUMP_L17:
                       ;
-                      unsigned long int return_value_strlen$12;
-                      return_value_strlen$12=strlen("\t}&\n");
-                      signed long int return_value_write$13;
-                      return_value_write$13=write(out_fd, (const void *)"\t}&\n", return_value_strlen$12);
-                      unsigned long int return_value_strlen$14;
-                      return_value_strlen$14=strlen("\t}&\n");
-                      if(!((unsigned long int)return_value_write$13 == return_value_strlen$14))
+                      unsigned long int return_value_strlen_12;
+                      return_value_strlen_12=strlen("\t}&\n");
+                      signed long int return_value_write_13;
+                      return_value_write_13=write(out_fd, (const void *)"\t}&\n", return_value_strlen_12);
+                      unsigned long int return_value_strlen_14;
+                      return_value_strlen_14=strlen("\t}&\n");
+                      if(!((unsigned long int)return_value_write_13 == return_value_strlen_14))
                       {
                         perror("write() failed");
                         goto out;
@@ -10325,9 +10325,9 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
 
                 do
                 {
-                  signed long int return_value_write$16;
-                  return_value_write$16=write(out_fd, (const void *)line_buf, (unsigned long int)line_length);
-                  if(!(return_value_write$16 == (signed long int)line_length))
+                  signed long int return_value_write_16;
+                  return_value_write_16=write(out_fd, (const void *)line_buf, (unsigned long int)line_length);
+                  if(!(return_value_write_16 == (signed long int)line_length))
                   {
                     perror("write() failed");
                     goto out;
@@ -10342,13 +10342,13 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
 
                   __CPROVER_DUMP_L21:
                     ;
-                    unsigned long int return_value_strlen$17;
-                    return_value_strlen$17=strlen("wait\n");
-                    signed long int return_value_write$18;
-                    return_value_write$18=write(out_fd, (const void *)"wait\n", return_value_strlen$17);
-                    unsigned long int return_value_strlen$19;
-                    return_value_strlen$19=strlen("wait\n");
-                    if(!((unsigned long int)return_value_write$18 == return_value_strlen$19))
+                    unsigned long int return_value_strlen_17;
+                    return_value_strlen_17=strlen("wait\n");
+                    signed long int return_value_write_18;
+                    return_value_write_18=write(out_fd, (const void *)"wait\n", return_value_strlen_17);
+                    unsigned long int return_value_strlen_19;
+                    return_value_strlen_19=strlen("wait\n");
+                    if(!((unsigned long int)return_value_write_18 == return_value_strlen_19))
                     {
                       perror("write() failed");
                       goto out;
@@ -10361,20 +10361,20 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
 
                 if(!(in_for_loop == (_Bool)0))
                 {
-                  return_value_strstr$23=strstr(line_buf, "do");
-                  if(!(return_value_strstr$23 == ((char *)NULL)))
+                  return_value_strstr_23=strstr(line_buf, "do");
+                  if(!(return_value_strstr_23 == ((char *)NULL)))
                     do
                     {
 
                     __CPROVER_DUMP_L24:
                       ;
-                      unsigned long int return_value_strlen$20;
-                      return_value_strlen$20=strlen("\t{\n");
-                      signed long int return_value_write$21;
-                      return_value_write$21=write(out_fd, (const void *)"\t{\n", return_value_strlen$20);
-                      unsigned long int return_value_strlen$22;
-                      return_value_strlen$22=strlen("\t{\n");
-                      if(!((unsigned long int)return_value_write$21 == return_value_strlen$22))
+                      unsigned long int return_value_strlen_20;
+                      return_value_strlen_20=strlen("\t{\n");
+                      signed long int return_value_write_21;
+                      return_value_write_21=write(out_fd, (const void *)"\t{\n", return_value_strlen_20);
+                      unsigned long int return_value_strlen_22;
+                      return_value_strlen_22=strlen("\t{\n");
+                      if(!((unsigned long int)return_value_write_21 == return_value_strlen_22))
                       {
                         perror("write() failed");
                         goto out;
@@ -10391,8 +10391,8 @@ static char * translate_hpc_bash_script(const char *orginal_script_name)
           line_counter = line_counter + 1;
         }
         while((_Bool)1);
-        return_value___strdup$26=__strdup(script_template);
-        tmp_script_file = return_value___strdup$26;
+        return_value___strdup_26=__strdup(script_template);
+        tmp_script_file = return_value___strdup_26;
       }
     }
   }
@@ -10431,18 +10431,18 @@ static void yyFail(struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, 
 // file datetime_tab.c line 1120
 static inline signed int yyLRgotoState(signed int yystate, signed short int yylhs)
 {
-  signed int yyr = (signed int)yypgoto$link1[(signed long int)((signed int)yylhs - 11)] + yystate;
-  _Bool tmp_if_expr$1;
+  signed int yyr = (signed int)yypgoto_link1[(signed long int)((signed int)yylhs - 11)] + yystate;
+  _Bool tmp_if_expr_1;
   if(yyr >= 0 && !(yyr >= 26))
-    tmp_if_expr$1 = (signed int)yycheck$link1[(signed long int)yyr] == yystate ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)yycheck_link1[(signed long int)yyr] == yystate ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
-    return (signed int)yytable$link1[(signed long int)yyr];
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
+    return (signed int)yytable_link1[(signed long int)yyr];
 
   else
-    return (signed int)yydefgoto$link1[(signed long int)((signed int)yylhs - 11)];
+    return (signed int)yydefgoto_link1[(signed long int)((signed int)yylhs - 11)];
 }
 
 // yyMemoryExhausted
@@ -10457,9 +10457,9 @@ static void yyMemoryExhausted(struct yyGLRStack *yystackp)
 static void yyaddDeferredAction(struct yyGLRStack *yystackp, unsigned long int yyk, struct yyGLRState *yystate, struct yyGLRState *rhs, signed int yyrule)
 {
   struct yySemanticOption *yynewOption;
-  union yyGLRStackItem *return_value_yynewGLRStackItem$1;
-  return_value_yynewGLRStackItem$1=yynewGLRStackItem(yystackp, (unsigned char)0);
-  yynewOption = &return_value_yynewGLRStackItem$1->yyoption;
+  union yyGLRStackItem *return_value_yynewGLRStackItem_1;
+  return_value_yynewGLRStackItem_1=yynewGLRStackItem(yystackp, (unsigned char)0);
+  yynewOption = &return_value_yynewGLRStackItem_1->yyoption;
   yynewOption->yystate = rhs;
   yynewOption->yyrule = yyrule;
   if(!(yystackp->yytops.yylookaheadNeeds[(signed long int)yyk] == 0))
@@ -10487,13 +10487,13 @@ static void yycompressStack(struct yyGLRStack *yystackp)
   struct yyGLRState *yyp;
   struct yyGLRState *yyq;
   struct yyGLRState *yyr;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(yystackp->yytops.yysize == 1ul))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = yystackp->yysplitPoint == (struct yyGLRState *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = yystackp->yysplitPoint == (struct yyGLRState *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     yyp = yystackp->yytops.yystates[(signed long int)0];
     yyq = yyp->yypred;
@@ -10525,7 +10525,7 @@ static void yycompressStack(struct yyGLRStack *yystackp)
 // file datetime_tab.c line 1081
 static inline signed int yydefaultAction(signed int yystate)
 {
-  return (signed int)yydefact$link1[(signed long int)yystate];
+  return (signed int)yydefact_link1[(signed long int)yystate];
 }
 
 // yydestroyGLRState
@@ -10533,7 +10533,7 @@ static inline signed int yydefaultAction(signed int yystate)
 static void yydestroyGLRState(const char *yymsg, struct yyGLRState *yys, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
 {
   if(!(yys->yyresolved == 0))
-    yydestruct$link1(yymsg, (signed int)yystos$link1[(signed long int)yys->yylrState], &yys->yysemantics.yysval, parser, lexer);
+    yydestruct_link1(yymsg, (signed int)yystos_link1[(signed long int)yys->yylrState], &yys->yysemantics.yysval, parser, lexer);
 
   else
     if(!(yys->yysemantics.yyfirstVal == ((struct yySemanticOption *)NULL)))
@@ -10595,21 +10595,21 @@ static void yydestruct(const char *yymsg, signed int yytype, union YYSTYPE *yyva
   }
 }
 
-// yydestruct$link1
+// yydestruct_link1
 // file datetime_tab.c line 1002
-static void yydestruct$link1(const char *yymsg$link1, signed int yytype$link1, union YYSTYPE$1 *yyvaluep$link1, struct fsd_dt_parser_s *parser$link1, struct fsd_dt_lexer_s *lexer$link1)
+static void yydestruct_link1(const char *yymsg_link1, signed int yytype_link1, union YYSTYPE_1 *yyvaluep_link1, struct fsd_dt_parser_s *parser_link1, struct fsd_dt_lexer_s *lexer_link1)
 {
-  (void)yyvaluep$link1;
-  (void)parser$link1;
-  (void)lexer$link1;
-  if(yymsg$link1 == ((const char *)NULL))
-    yymsg$link1 = "Deleting";
+  (void)yyvaluep_link1;
+  (void)parser_link1;
+  (void)lexer_link1;
+  if(yymsg_link1 == ((const char *)NULL))
+    yymsg_link1 = "Deleting";
 
 }
 
 // yydoAction
 // file datetime_tab.c line 1421
-static inline enum anonymous$10 yydoAction(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yyrule, union YYSTYPE$1 *yyvalp, struct YYLTYPE$0 *yylocp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
+static inline enum anonymous_10 yydoAction(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yyrule, union YYSTYPE_1 *yyvalp, struct YYLTYPE_0 *yylocp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
 {
   signed int yynrhs;
   yynrhs=yyrhsLength(yyrule);
@@ -10627,9 +10627,9 @@ static inline enum anonymous$10 yydoAction(struct yyGLRStack *yystackp, unsigned
     yystackp->yynextFree = yystackp->yynextFree - (signed long int)yynrhs;
     yystackp->yyspaceLeft = yystackp->yyspaceLeft + (unsigned long int)yynrhs;
     yystackp->yytops.yystates[(signed long int)0] = &(yystackp->yynextFree + (signed long int)-1)->yystate;
-    enum anonymous$10 return_value_yyuserAction$1;
-    return_value_yyuserAction$1=yyuserAction(yyrule, yynrhs, rhs, yyvalp, yylocp, yystackp, parser, lexer);
-    return return_value_yyuserAction$1;
+    enum anonymous_10 return_value_yyuserAction_1;
+    return_value_yyuserAction_1=yyuserAction(yyrule, yynrhs, rhs, yyvalp, yylocp, yystackp, parser, lexer);
+    return return_value_yyuserAction_1;
   }
 
   else
@@ -10654,9 +10654,9 @@ static inline enum anonymous$10 yydoAction(struct yyGLRStack *yystackp, unsigned
     }
     yyupdateSplit(yystackp, yys);
     yystackp->yytops.yystates[(signed long int)yyk] = yys;
-    enum anonymous$10 return_value_yyuserAction$2;
-    return_value_yyuserAction$2=yyuserAction(yyrule, yynrhs, (yyrhsVals + (signed long int)5 + (signed long int)0) - (signed long int)1, yyvalp, yylocp, yystackp, parser, lexer);
-    return return_value_yyuserAction$2;
+    enum anonymous_10 return_value_yyuserAction_2;
+    return_value_yyuserAction_2=yyuserAction(yyrule, yynrhs, (yyrhsVals + (signed long int)5 + (signed long int)0) - (signed long int)1, yyvalp, yylocp, yystackp, parser, lexer);
+    return return_value_yyuserAction_2;
   }
 }
 
@@ -10678,9 +10678,9 @@ static void yyexpandGLRStack(struct yyGLRStack *yystackp)
   if(yynewSize >= 10001ul)
     yynewSize = (unsigned long int)10000;
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(yynewSize * sizeof(union yyGLRStackItem) /*80ul*/ );
-  yynewItems = (union yyGLRStackItem *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(yynewSize * sizeof(union yyGLRStackItem) /*80ul*/ );
+  yynewItems = (union yyGLRStackItem *)return_value_malloc_1;
   if(yynewItems == ((union yyGLRStackItem *)NULL))
     yyMemoryExhausted(yystackp);
 
@@ -10797,55 +10797,55 @@ static void yyfreeStateSet(struct yyGLRStateSet *yyset)
 // file datetime_tab.c line 1098
 static inline void yygetLRActions(signed int yystate, signed int yytoken, signed int *yyaction, const signed short int **yyconflicts)
 {
-  signed int yyindex = (signed int)yypact$link1[(signed long int)yystate] + yytoken;
-  _Bool tmp_if_expr$1;
+  signed int yyindex = (signed int)yypact_link1[(signed long int)yystate] + yytoken;
+  _Bool tmp_if_expr_1;
   if(yyindex >= 26 || !(yyindex >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)yycheck$link1[(signed long int)yyindex] != yytoken ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)yycheck_link1[(signed long int)yyindex] != yytoken ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
-    *yyaction = -((signed int)yydefact$link1[(signed long int)yystate]);
+    *yyaction = -((signed int)yydefact_link1[(signed long int)yystate]);
     *yyconflicts = yyconfl;
   }
 
   else
   {
-    *yyaction = (signed int)yytable$link1[(signed long int)yyindex];
+    *yyaction = (signed int)yytable_link1[(signed long int)yyindex];
     *yyconflicts = yyconfl + (signed long int)yyconflp[(signed long int)yyindex];
   }
 }
 
 // yyglrReduce
 // file datetime_tab.c line 1514
-static inline enum anonymous$10 yyglrReduce(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yyrule, unsigned char yyforceEval, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
+static inline enum anonymous_10 yyglrReduce(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yyrule, unsigned char yyforceEval, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
 {
   unsigned long int yyposn = yystackp->yytops.yystates[(signed long int)yyk]->yyposn;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(yyforceEval == 0))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = yystackp->yysplitPoint == (struct yyGLRState *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = yystackp->yysplitPoint == (struct yyGLRState *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
-    union YYSTYPE$1 yysval;
-    struct YYLTYPE$0 yyloc;
+    union YYSTYPE_1 yysval;
+    struct YYLTYPE_0 yyloc;
     do
     {
-      enum anonymous$10 yyflag;
+      enum anonymous_10 yyflag;
       yyflag=yydoAction(yystackp, yyk, yyrule, &yysval, &yyloc, parser, lexer);
       if(!((signed int)yyflag == yyok))
         return yyflag;
 
     }
     while((_Bool)0);
-    signed short int return_value_yylhsNonterm$1;
-    return_value_yylhsNonterm$1=yylhsNonterm(yyrule);
-    signed int return_value_yyLRgotoState$2;
-    return_value_yyLRgotoState$2=yyLRgotoState(yystackp->yytops.yystates[(signed long int)yyk]->yylrState, return_value_yylhsNonterm$1);
-    yyglrShift(yystackp, yyk, return_value_yyLRgotoState$2, yyposn, &yysval, &yyloc);
+    signed short int return_value_yylhsNonterm_1;
+    return_value_yylhsNonterm_1=yylhsNonterm(yyrule);
+    signed int return_value_yyLRgotoState_2;
+    return_value_yyLRgotoState_2=yyLRgotoState(yystackp->yytops.yystates[(signed long int)yyk]->yylrState, return_value_yylhsNonterm_1);
+    yyglrShift(yystackp, yyk, return_value_yyLRgotoState_2, yyposn, &yysval, &yyloc);
   }
 
   else
@@ -10870,9 +10870,9 @@ static inline enum anonymous$10 yyglrReduce(struct yyGLRStack *yystackp, unsigne
       }
     }
     yyupdateSplit(yystackp, yys);
-    signed short int return_value_yylhsNonterm$3;
-    return_value_yylhsNonterm$3=yylhsNonterm(yyrule);
-    yynewLRState=yyLRgotoState(yys->yylrState, return_value_yylhsNonterm$3);
+    signed short int return_value_yylhsNonterm_3;
+    return_value_yylhsNonterm_3=yylhsNonterm(yyrule);
+    yynewLRState=yyLRgotoState(yys->yylrState, return_value_yylhsNonterm_3);
     yyi = (unsigned long int)0;
     for( ; !(yyi >= yystackp->yytops.yysize); yyi = yyi + (unsigned long int)1)
       if(!(yyi == yyk))
@@ -10896,7 +10896,7 @@ static inline enum anonymous$10 yyglrReduce(struct yyGLRStack *yystackp, unsigne
               {
                 yyaddDeferredAction(yystackp, yyk, yyp, yys0, yyrule);
                 yymarkStackDeleted(yystackp, yyk);
-                return (enum anonymous$10)yyok;
+                return (enum anonymous_10)yyok;
               }
 
             }
@@ -10909,17 +10909,17 @@ static inline enum anonymous$10 yyglrReduce(struct yyGLRStack *yystackp, unsigne
     yystackp->yytops.yystates[(signed long int)yyk] = yys;
     yyglrShiftDefer(yystackp, yyk, yynewLRState, yyposn, yys0, yyrule);
   }
-  return (enum anonymous$10)yyok;
+  return (enum anonymous_10)yyok;
 }
 
 // yyglrShift
 // file datetime_tab.c line 1377
-static inline void yyglrShift(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yylrState, unsigned long int yyposn, union YYSTYPE$1 *yyvalp, struct YYLTYPE$0 *yylocp)
+static inline void yyglrShift(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yylrState, unsigned long int yyposn, union YYSTYPE_1 *yyvalp, struct YYLTYPE_0 *yylocp)
 {
   struct yyGLRState *yynewState;
-  union yyGLRStackItem *return_value_yynewGLRStackItem$1;
-  return_value_yynewGLRStackItem$1=yynewGLRStackItem(yystackp, (unsigned char)1);
-  yynewState = &return_value_yynewGLRStackItem$1->yystate;
+  union yyGLRStackItem *return_value_yynewGLRStackItem_1;
+  return_value_yynewGLRStackItem_1=yynewGLRStackItem(yystackp, (unsigned char)1);
+  yynewState = &return_value_yynewGLRStackItem_1->yystate;
   yynewState->yylrState = yylrState;
   yynewState->yyposn = yyposn;
   yynewState->yyresolved = (unsigned char)1;
@@ -10939,9 +10939,9 @@ static inline void yyglrShift(struct yyGLRStack *yystackp, unsigned long int yyk
 static inline void yyglrShiftDefer(struct yyGLRStack *yystackp, unsigned long int yyk, signed int yylrState, unsigned long int yyposn, struct yyGLRState *rhs, signed int yyrule)
 {
   struct yyGLRState *yynewState;
-  union yyGLRStackItem *return_value_yynewGLRStackItem$1;
-  return_value_yynewGLRStackItem$1=yynewGLRStackItem(yystackp, (unsigned char)1);
-  yynewState = &return_value_yynewGLRStackItem$1->yystate;
+  union yyGLRStackItem *return_value_yynewGLRStackItem_1;
+  return_value_yynewGLRStackItem_1=yynewGLRStackItem(yystackp, (unsigned char)1);
+  yynewState = &return_value_yynewGLRStackItem_1->yystate;
   yynewState->yylrState = yylrState;
   yynewState->yyposn = yyposn;
   yynewState->yyresolved = (unsigned char)0;
@@ -10985,9 +10985,9 @@ static unsigned char yyinitGLRStack(struct yyGLRStack *yystackp, unsigned long i
   yystackp->yyerrState = 0;
   yystackp->yyerrcnt = 0;
   yystackp->yyspaceLeft = yysize;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(yysize * sizeof(union yyGLRStackItem) /*80ul*/ );
-  yystackp->yyitems = (union yyGLRStackItem *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(yysize * sizeof(union yyGLRStackItem) /*80ul*/ );
+  yystackp->yyitems = (union yyGLRStackItem *)return_value_malloc_1;
   if(yystackp->yyitems == ((union yyGLRStackItem *)NULL))
     return (unsigned char)0;
 
@@ -10996,9 +10996,9 @@ static unsigned char yyinitGLRStack(struct yyGLRStack *yystackp, unsigned long i
     yystackp->yynextFree = yystackp->yyitems;
     yystackp->yysplitPoint = (struct yyGLRState *)(void *)0;
     yystackp->yylastDeleted = (struct yyGLRState *)(void *)0;
-    unsigned char return_value_yyinitStateSet$2;
-    return_value_yyinitStateSet$2=yyinitStateSet(&yystackp->yytops);
-    return return_value_yyinitStateSet$2;
+    unsigned char return_value_yyinitStateSet_2;
+    return_value_yyinitStateSet_2=yyinitStateSet(&yystackp->yytops);
+    return return_value_yyinitStateSet_2;
   }
 }
 
@@ -11008,18 +11008,18 @@ static unsigned char yyinitStateSet(struct yyGLRStateSet *yyset)
 {
   yyset->yysize = (unsigned long int)1;
   yyset->yycapacity = (unsigned long int)16;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)16 * sizeof(struct yyGLRState *) /*8ul*/ );
-  yyset->yystates = (struct yyGLRState **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)16 * sizeof(struct yyGLRState *) /*8ul*/ );
+  yyset->yystates = (struct yyGLRState **)return_value_malloc_1;
   if(yyset->yystates == ((struct yyGLRState **)NULL))
     return (unsigned char)0;
 
   else
   {
     yyset->yystates[(signed long int)0] = (struct yyGLRState *)(void *)0;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)16 * sizeof(unsigned char) /*1ul*/ );
-    yyset->yylookaheadNeeds = (unsigned char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)16 * sizeof(unsigned char) /*1ul*/ );
+    yyset->yylookaheadNeeds = (unsigned char *)return_value_malloc_2;
     if(yyset->yylookaheadNeeds == ((unsigned char *)NULL))
     {
       free((void *)yyset->yystates);
@@ -11035,7 +11035,7 @@ static unsigned char yyinitStateSet(struct yyGLRStateSet *yyset)
 // file datetime_tab.c line 1074
 static inline unsigned char yyisDefaultedState(signed int yystate)
 {
-  return (unsigned char)((signed int)yypact$link1[(signed long int)yystate] == -5);
+  return (unsigned char)((signed int)yypact_link1[(signed long int)yystate] == -5);
 }
 
 // yyisErrorAction
@@ -11056,7 +11056,7 @@ static inline unsigned char yyisShiftAction(signed int yyaction)
 // file datetime_tab.c line 1063
 static inline signed short int yylhsNonterm(signed int yyrule)
 {
-  return (signed short int)yyr1$link1[(signed long int)yyrule];
+  return (signed short int)yyr1_link1[(signed long int)yyrule];
 }
 
 // yymarkStackDeleted
@@ -11150,15 +11150,15 @@ static signed int yypreference(struct yySemanticOption *y0, struct yySemanticOpt
   signed int r1 = y1->yyrule;
   signed int p0 = (signed int)yydprec[(signed long int)r0];
   signed int p1 = (signed int)yydprec[(signed long int)r1];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(p0 == p1)
   {
     if((signed int)yymerger[(signed long int)r0] == 0)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = yymerger[(signed long int)r0] != yymerger[(signed long int)r1] ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = yymerger[(signed long int)r0] != yymerger[(signed long int)r1] ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 0;
 
     return 1;
@@ -11182,16 +11182,16 @@ static signed int yypreference(struct yySemanticOption *y0, struct yySemanticOpt
 
 // yyprocessOneStack
 // file datetime_tab.c line 2053
-static enum anonymous$10 yyprocessOneStack(struct yyGLRStack *yystackp, unsigned long int yyk, unsigned long int yyposn, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
+static enum anonymous_10 yyprocessOneStack(struct yyGLRStack *yystackp, unsigned long int yyk, unsigned long int yyposn, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
 {
   signed int yyaction;
   const signed short int *yyconflicts;
   signed int yyrule;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$3;
-  unsigned char return_value_yyisErrorAction$5;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_3;
+  unsigned char return_value_yyisErrorAction_5;
   while(!(yystackp->yytops.yystates[(signed long int)yyk] == ((struct yyGLRState *)NULL)))
   {
     signed int yystate = yystackp->yytops.yystates[(signed long int)yyk]->yylrState;
@@ -11203,23 +11203,23 @@ static enum anonymous$10 yyprocessOneStack(struct yyGLRStack *yystackp, unsigned
       abort();
       (_Bool)0;
     }
-    unsigned char return_value_yyisDefaultedState$7;
-    return_value_yyisDefaultedState$7=yyisDefaultedState(yystate);
-    if(!(return_value_yyisDefaultedState$7 == 0))
+    unsigned char return_value_yyisDefaultedState_7;
+    return_value_yyisDefaultedState_7=yyisDefaultedState(yystate);
+    if(!(return_value_yyisDefaultedState_7 == 0))
     {
       yyrule=yydefaultAction(yystate);
       if(yyrule == 0)
       {
         yymarkStackDeleted(yystackp, yyk);
-        return (enum anonymous$10)yyok;
+        return (enum anonymous_10)yyok;
       }
 
       do
       {
-        enum anonymous$10 yyprocessOneStack$$1$$1$$1$$2$$yyflag;
-        yyprocessOneStack$$1$$1$$1$$2$$yyflag=yyglrReduce(yystackp, yyk, yyrule, (unsigned char)0, parser, lexer);
-        if(!((signed int)yyprocessOneStack$$1$$1$$1$$2$$yyflag == yyok))
-          return yyprocessOneStack$$1$$1$$1$$2$$yyflag;
+        enum anonymous_10 yyprocessOneStack__1__1__1__2__yyflag;
+        yyprocessOneStack__1__1__1__2__yyflag=yyglrReduce(yystackp, yyk, yyrule, (unsigned char)0, parser, lexer);
+        if(!((signed int)yyprocessOneStack__1__1__1__2__yyflag == yyok))
+          return yyprocessOneStack__1__1__1__2__yyflag;
 
       }
       while((_Bool)0);
@@ -11233,35 +11233,35 @@ static enum anonymous$10 yyprocessOneStack(struct yyGLRStack *yystackp, unsigned
       {
         yystackp->yyrawchar=fsd_dt_lex(&yystackp->yyval, lexer);
         if(!(yystackp->yyrawchar >= 1))
-          tmp_if_expr$2 = YYEOF;
+          tmp_if_expr_2 = YYEOF;
 
         else
         {
           if(!((unsigned int)yystackp->yyrawchar >= 260u))
-            tmp_if_expr$1 = (signed int)yytranslate$link1[(signed long int)yystackp->yyrawchar];
+            tmp_if_expr_1 = (signed int)yytranslate_link1[(signed long int)yystackp->yyrawchar];
 
           else
-            tmp_if_expr$1 = 2;
-          tmp_if_expr$2 = tmp_if_expr$1;
+            tmp_if_expr_1 = 2;
+          tmp_if_expr_2 = tmp_if_expr_1;
         }
-        yytoken = (signed short int)tmp_if_expr$2;
+        yytoken = (signed short int)tmp_if_expr_2;
       }
 
       else
       {
         if(!(yystackp->yyrawchar >= 1))
-          tmp_if_expr$4 = YYEOF;
+          tmp_if_expr_4 = YYEOF;
 
         else
         {
           if(!((unsigned int)yystackp->yyrawchar >= 260u))
-            tmp_if_expr$3 = (signed int)yytranslate$link1[(signed long int)yystackp->yyrawchar];
+            tmp_if_expr_3 = (signed int)yytranslate_link1[(signed long int)yystackp->yyrawchar];
 
           else
-            tmp_if_expr$3 = 2;
-          tmp_if_expr$4 = tmp_if_expr$3;
+            tmp_if_expr_3 = 2;
+          tmp_if_expr_4 = tmp_if_expr_3;
         }
-        yytoken = (signed short int)tmp_if_expr$4;
+        yytoken = (signed short int)tmp_if_expr_4;
       }
       yygetLRActions(yystate, (signed int)yytoken, &yyaction, &yyconflicts);
       while(!((signed int)*yyconflicts == 0))
@@ -11270,33 +11270,33 @@ static enum anonymous$10 yyprocessOneStack(struct yyGLRStack *yystackp, unsigned
         yynewStack=yysplitStack(yystackp, yyk);
         do
         {
-          enum anonymous$10 yyprocessOneStack$$1$$1$$2$$2$$1$$yyflag;
-          yyprocessOneStack$$1$$1$$2$$2$$1$$yyflag=yyglrReduce(yystackp, yynewStack, (signed int)*yyconflicts, (unsigned char)0, parser, lexer);
-          if(!((signed int)yyprocessOneStack$$1$$1$$2$$2$$1$$yyflag == yyok))
-            return yyprocessOneStack$$1$$1$$2$$2$$1$$yyflag;
+          enum anonymous_10 yyprocessOneStack__1__1__2__2__1__yyflag;
+          yyprocessOneStack__1__1__2__2__1__yyflag=yyglrReduce(yystackp, yynewStack, (signed int)*yyconflicts, (unsigned char)0, parser, lexer);
+          if(!((signed int)yyprocessOneStack__1__1__2__2__1__yyflag == yyok))
+            return yyprocessOneStack__1__1__2__2__1__yyflag;
 
         }
         while((_Bool)0);
         do
         {
-          enum anonymous$10 yyprocessOneStack$$1$$1$$2$$2$$2$$yyflag;
-          yyprocessOneStack$$1$$1$$2$$2$$2$$yyflag=yyprocessOneStack(yystackp, yynewStack, yyposn, parser, lexer);
-          if(!((signed int)yyprocessOneStack$$1$$1$$2$$2$$2$$yyflag == yyok))
-            return yyprocessOneStack$$1$$1$$2$$2$$2$$yyflag;
+          enum anonymous_10 yyprocessOneStack__1__1__2__2__2__yyflag;
+          yyprocessOneStack__1__1__2__2__2__yyflag=yyprocessOneStack(yystackp, yynewStack, yyposn, parser, lexer);
+          if(!((signed int)yyprocessOneStack__1__1__2__2__2__yyflag == yyok))
+            return yyprocessOneStack__1__1__2__2__2__yyflag;
 
         }
         while((_Bool)0);
         yyconflicts = yyconflicts + (signed long int)1;
       }
-      unsigned char return_value_yyisShiftAction$6;
-      return_value_yyisShiftAction$6=yyisShiftAction(yyaction);
-      if(!(return_value_yyisShiftAction$6 == 0))
+      unsigned char return_value_yyisShiftAction_6;
+      return_value_yyisShiftAction_6=yyisShiftAction(yyaction);
+      if(!(return_value_yyisShiftAction_6 == 0))
         break;
 
       else
       {
-        return_value_yyisErrorAction$5=yyisErrorAction(yyaction);
-        if(!(return_value_yyisErrorAction$5 == 0))
+        return_value_yyisErrorAction_5=yyisErrorAction(yyaction);
+        if(!(return_value_yyisErrorAction_5 == 0))
         {
           yymarkStackDeleted(yystackp, yyk);
           break;
@@ -11305,7 +11305,7 @@ static enum anonymous$10 yyprocessOneStack(struct yyGLRStack *yystackp, unsigned
         else
           do
           {
-            enum anonymous$10 yyflag;
+            enum anonymous_10 yyflag;
             yyflag=yyglrReduce(yystackp, yyk, -yyaction, (unsigned char)0, parser, lexer);
             if(!((signed int)yyflag == yyok))
               return yyflag;
@@ -11315,7 +11315,7 @@ static enum anonymous$10 yyprocessOneStack(struct yyGLRStack *yystackp, unsigned
       }
     }
   }
-  return (enum anonymous$10)yyok;
+  return (enum anonymous_10)yyok;
 }
 
 // yyrecoverSyntaxError
@@ -11324,11 +11324,11 @@ static void yyrecoverSyntaxError(struct yyGLRStack *yystackp, struct fsd_dt_pars
 {
   unsigned long int yyk;
   signed int yyj;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
   if(yystackp->yyerrState == 3)
     while((_Bool)1)
     {
@@ -11339,54 +11339,54 @@ static void yyrecoverSyntaxError(struct yyGLRStack *yystackp, struct fsd_dt_pars
       if(!(yystackp->yyrawchar == YYEMPTY))
       {
         if(!(yystackp->yyrawchar >= 1))
-          tmp_if_expr$2 = YYEOF;
+          tmp_if_expr_2 = YYEOF;
 
         else
         {
           if(!((unsigned int)yystackp->yyrawchar >= 260u))
-            tmp_if_expr$1 = (signed int)yytranslate$link1[(signed long int)yystackp->yyrawchar];
+            tmp_if_expr_1 = (signed int)yytranslate_link1[(signed long int)yystackp->yyrawchar];
 
           else
-            tmp_if_expr$1 = 2;
-          tmp_if_expr$2 = tmp_if_expr$1;
+            tmp_if_expr_1 = 2;
+          tmp_if_expr_2 = tmp_if_expr_1;
         }
-        yytoken = (signed short int)tmp_if_expr$2;
-        yydestruct$link1("Error: discarding", (signed int)yytoken, &yystackp->yyval, parser, lexer);
+        yytoken = (signed short int)tmp_if_expr_2;
+        yydestruct_link1("Error: discarding", (signed int)yytoken, &yystackp->yyval, parser, lexer);
       }
 
       yystackp->yyrawchar=fsd_dt_lex(&yystackp->yyval, lexer);
       if(!(yystackp->yyrawchar >= 1))
-        tmp_if_expr$4 = YYEOF;
+        tmp_if_expr_4 = YYEOF;
 
       else
       {
         if(!((unsigned int)yystackp->yyrawchar >= 260u))
-          tmp_if_expr$3 = (signed int)yytranslate$link1[(signed long int)yystackp->yyrawchar];
+          tmp_if_expr_3 = (signed int)yytranslate_link1[(signed long int)yystackp->yyrawchar];
 
         else
-          tmp_if_expr$3 = 2;
-        tmp_if_expr$4 = tmp_if_expr$3;
+          tmp_if_expr_3 = 2;
+        tmp_if_expr_4 = tmp_if_expr_3;
       }
-      yytoken = (signed short int)tmp_if_expr$4;
-      yyj = (signed int)yypact$link1[(signed long int)yystackp->yytops.yystates[(signed long int)0]->yylrState];
+      yytoken = (signed short int)tmp_if_expr_4;
+      yyj = (signed int)yypact_link1[(signed long int)yystackp->yytops.yystates[(signed long int)0]->yylrState];
       if(yyj == -5)
         goto __CPROVER_DUMP_L29;
 
       yyj = yyj + (signed int)yytoken;
       if(yyj >= 26 || !(yyj >= 0))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)yycheck$link1[(signed long int)yyj] != (signed int)yytoken ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)yycheck_link1[(signed long int)yyj] != (signed int)yytoken ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
       {
-        if(!((signed int)yydefact$link1[(signed long int)(*yystackp->yytops.yystates)->yylrState] == 0))
+        if(!((signed int)yydefact_link1[(signed long int)(*yystackp->yytops.yystates)->yylrState] == 0))
           goto __CPROVER_DUMP_L29;
 
       }
 
       else
-        if(!((signed int)yytable$link1[(signed long int)yyj] == 0))
+        if(!((signed int)yytable_link1[(signed long int)yyj] == 0))
           goto __CPROVER_DUMP_L29;
 
     }
@@ -11405,23 +11405,23 @@ static void yyrecoverSyntaxError(struct yyGLRStack *yystackp, struct fsd_dt_pars
   yyremoveDeletes(yystackp);
   yycompressStack(yystackp);
   yystackp->yyerrState = 3;
-  unsigned char return_value_yyisShiftAction$6;
+  unsigned char return_value_yyisShiftAction_6;
   while(!(*yystackp->yytops.yystates == ((struct yyGLRState *)NULL)))
   {
     struct yyGLRState *yys = yystackp->yytops.yystates[(signed long int)0];
-    yyj = (signed int)yypact$link1[(signed long int)yys->yylrState];
+    yyj = (signed int)yypact_link1[(signed long int)yys->yylrState];
     if(!(yyj == -5))
     {
       yyj = yyj + 1;
       if(yyj >= 0 && !(yyj >= 26))
       {
-        if((signed int)yycheck$link1[(signed long int)yyj] == 1)
+        if((signed int)yycheck_link1[(signed long int)yyj] == 1)
         {
-          return_value_yyisShiftAction$6=yyisShiftAction((signed int)yytable$link1[(signed long int)yyj]);
-          if(!(return_value_yyisShiftAction$6 == 0))
+          return_value_yyisShiftAction_6=yyisShiftAction((signed int)yytable_link1[(signed long int)yyj]);
+          if(!(return_value_yyisShiftAction_6 == 0))
           {
-            struct YYLTYPE$0 yyerrloc;
-            yyglrShift(yystackp, (unsigned long int)0, (signed int)yytable$link1[(signed long int)yyj], yys->yyposn, &yystackp->yyval, &yyerrloc);
+            struct YYLTYPE_0 yyerrloc;
+            yyglrShift(yystackp, (unsigned long int)0, (signed int)yytable_link1[(signed long int)yyj], yys->yyposn, &yystackp->yyval, &yyerrloc);
             yys = yystackp->yytops.yystates[(signed long int)0];
             break;
           }
@@ -11466,12 +11466,12 @@ static inline void yyremoveDeletes(struct yyGLRStack *yystackp)
 
 // yyreportAmbiguity
 // file datetime_tab.c line 1833
-static enum anonymous$10 yyreportAmbiguity(struct yySemanticOption *yyx0, struct yySemanticOption *yyx1, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
+static enum anonymous_10 yyreportAmbiguity(struct yySemanticOption *yyx0, struct yySemanticOption *yyx1, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
 {
   (void)yyx0;
   (void)yyx1;
   fsd_dt_error(parser, lexer, "syntax is ambiguous");
-  return (enum anonymous$10)yyabort;
+  return (enum anonymous_10)yyabort;
 }
 
 // yyreportSyntaxError
@@ -11488,14 +11488,14 @@ static void yyreportSyntaxError(struct yyGLRStack *yystackp, struct fsd_dt_parse
 
 // yyresolveAction
 // file datetime_tab.c line 1748
-static enum anonymous$10 yyresolveAction(struct yySemanticOption *yyopt, struct yyGLRStack *yystackp, union YYSTYPE$1 *yyvalp, struct YYLTYPE$0 *yylocp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
+static enum anonymous_10 yyresolveAction(struct yySemanticOption *yyopt, struct yyGLRStack *yystackp, union YYSTYPE_1 *yyvalp, struct YYLTYPE_0 *yylocp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
 {
   union yyGLRStackItem yyrhsVals[6l];
   signed int yynrhs;
   signed int yychar_current;
-  union YYSTYPE$1 yylval_current;
-  struct YYLTYPE$0 yylloc_current;
-  enum anonymous$10 yyflag;
+  union YYSTYPE_1 yylval_current;
+  struct YYLTYPE_0 yylloc_current;
+  enum anonymous_10 yyflag;
   yynrhs=yyrhsLength(yyopt->yyrule);
   yyflag=yyresolveStates(yyopt->yystate, yynrhs, yystackp, parser, lexer);
   if(!((signed int)yyflag == yyok))
@@ -11536,8 +11536,8 @@ static void yyresolveLocations(struct yyGLRState *yys1, signed int yyn1, struct 
       union yyGLRStackItem yyrhsloc[6l];
       signed int yynrhs;
       signed int yychar_current;
-      union YYSTYPE$1 yylval_current;
-      struct YYLTYPE$0 yylloc_current;
+      union YYSTYPE_1 yylval_current;
+      struct YYLTYPE_0 yylloc_current;
       yyoption = yys1->yysemantics.yyfirstVal;
       if(!(yyoption == ((struct yySemanticOption *)NULL)))
         (_Bool)1;
@@ -11584,7 +11584,7 @@ static void yyresolveLocations(struct yyGLRState *yys1, signed int yyn1, struct 
 
 // yyresolveStack
 // file datetime_tab.c line 2005
-static enum anonymous$10 yyresolveStack(struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
+static enum anonymous_10 yyresolveStack(struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
 {
   if(!(yystackp->yysplitPoint == ((struct yyGLRState *)NULL)))
   {
@@ -11595,7 +11595,7 @@ static enum anonymous$10 yyresolveStack(struct yyGLRStack *yystackp, struct fsd_
       yys = yys->yypred;
     do
     {
-      enum anonymous$10 yyflag;
+      enum anonymous_10 yyflag;
       yyflag=yyresolveStates(yystackp->yytops.yystates[(signed long int)0], yyn, yystackp, parser, lexer);
       if(!((signed int)yyflag == yyok))
         return yyflag;
@@ -11604,12 +11604,12 @@ static enum anonymous$10 yyresolveStack(struct yyGLRStack *yystackp, struct fsd_
     while((_Bool)0);
   }
 
-  return (enum anonymous$10)yyok;
+  return (enum anonymous_10)yyok;
 }
 
 // yyresolveStates
 // file datetime_tab.c line 1730
-static enum anonymous$10 yyresolveStates(struct yyGLRState *yys, signed int yyn, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
+static enum anonymous_10 yyresolveStates(struct yyGLRState *yys, signed int yyn, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
 {
   if(yyn >= 1)
   {
@@ -11623,17 +11623,17 @@ static enum anonymous$10 yyresolveStates(struct yyGLRState *yys, signed int yyn,
     }
     do
     {
-      enum anonymous$10 yyresolveStates$$1$$1$$1$$yyflag;
-      yyresolveStates$$1$$1$$1$$yyflag=yyresolveStates(yys->yypred, yyn - 1, yystackp, parser, lexer);
-      if(!((signed int)yyresolveStates$$1$$1$$1$$yyflag == yyok))
-        return yyresolveStates$$1$$1$$1$$yyflag;
+      enum anonymous_10 yyresolveStates__1__1__1__yyflag;
+      yyresolveStates__1__1__1__yyflag=yyresolveStates(yys->yypred, yyn - 1, yystackp, parser, lexer);
+      if(!((signed int)yyresolveStates__1__1__1__yyflag == yyok))
+        return yyresolveStates__1__1__1__yyflag;
 
     }
     while((_Bool)0);
     if(yys->yyresolved == 0)
       do
       {
-        enum anonymous$10 yyflag;
+        enum anonymous_10 yyflag;
         yyflag=yyresolveValue(yys, yystackp, parser, lexer);
         if(!((signed int)yyflag == yyok))
           return yyflag;
@@ -11643,30 +11643,30 @@ static enum anonymous$10 yyresolveStates(struct yyGLRState *yys, signed int yyn,
 
   }
 
-  return (enum anonymous$10)yyok;
+  return (enum anonymous_10)yyok;
 }
 
 // yyresolveValue
 // file datetime_tab.c line 1917
-static enum anonymous$10 yyresolveValue(struct yyGLRState *yys, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
+static enum anonymous_10 yyresolveValue(struct yyGLRState *yys, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
 {
   struct yySemanticOption *yyoptionList = yys->yysemantics.yyfirstVal;
   struct yySemanticOption *yybest;
   struct yySemanticOption **yypp;
   unsigned char yymerge;
-  union YYSTYPE$1 yysval;
-  enum anonymous$10 yyflag;
-  struct YYLTYPE$0 *yylocp = &yys->yyloc;
+  union YYSTYPE_1 yysval;
+  enum anonymous_10 yyflag;
+  struct YYLTYPE_0 *yylocp = &yys->yyloc;
   yybest = yyoptionList;
   yymerge = (unsigned char)0;
   yypp = &yyoptionList->yynext;
-  enum anonymous$10 return_value_yyreportAmbiguity$2;
+  enum anonymous_10 return_value_yyreportAmbiguity_2;
   while(!(*yypp == ((struct yySemanticOption *)NULL)))
   {
     struct yySemanticOption *yyp = *yypp;
-    unsigned char return_value_yyidenticalOptions$3;
-    return_value_yyidenticalOptions$3=yyidenticalOptions(yybest, yyp);
-    if(!(return_value_yyidenticalOptions$3 == 0))
+    unsigned char return_value_yyidenticalOptions_3;
+    return_value_yyidenticalOptions_3=yyidenticalOptions(yybest, yyp);
+    if(!(return_value_yyidenticalOptions_3 == 0))
     {
       yymergeOptionSets(yybest, yyp);
       *yypp = yyp->yynext;
@@ -11674,15 +11674,15 @@ static enum anonymous$10 yyresolveValue(struct yyGLRState *yys, struct yyGLRStac
 
     else
     {
-      signed int return_value_yypreference$1;
-      return_value_yypreference$1=yypreference(yybest, yyp);
-      switch(return_value_yypreference$1)
+      signed int return_value_yypreference_1;
+      return_value_yypreference_1=yypreference(yybest, yyp);
+      switch(return_value_yypreference_1)
       {
         case 0:
         {
           yyresolveLocations(yys, 1, yystackp, parser, lexer);
-          return_value_yyreportAmbiguity$2=yyreportAmbiguity(yybest, yyp, parser, lexer);
-          return return_value_yyreportAmbiguity$2;
+          return_value_yyreportAmbiguity_2=yyreportAmbiguity(yybest, yyp, parser, lexer);
+          return return_value_yyreportAmbiguity_2;
         }
         case 1:
         {
@@ -11705,25 +11705,25 @@ static enum anonymous$10 yyresolveValue(struct yyGLRState *yys, struct yyGLRStac
   }
   if(!(yymerge == 0))
   {
-    struct yySemanticOption *yyresolveValue$$1$$2$$yyp;
+    struct yySemanticOption *yyresolveValue__1__2__yyp;
     signed int yyprec = (signed int)yydprec[(signed long int)yybest->yyrule];
     yyflag=yyresolveAction(yybest, yystackp, &yysval, yylocp, parser, lexer);
     if((signed int)yyflag == yyok)
     {
-      yyresolveValue$$1$$2$$yyp = yybest->yynext;
-      for( ; !(yyresolveValue$$1$$2$$yyp == ((struct yySemanticOption *)NULL)); yyresolveValue$$1$$2$$yyp = yyresolveValue$$1$$2$$yyp->yynext)
-        if(yyprec == (signed int)yydprec[(signed long int)yyresolveValue$$1$$2$$yyp->yyrule])
+      yyresolveValue__1__2__yyp = yybest->yynext;
+      for( ; !(yyresolveValue__1__2__yyp == ((struct yySemanticOption *)NULL)); yyresolveValue__1__2__yyp = yyresolveValue__1__2__yyp->yynext)
+        if(yyprec == (signed int)yydprec[(signed long int)yyresolveValue__1__2__yyp->yyrule])
         {
-          union YYSTYPE$1 yysval_other;
-          struct YYLTYPE$0 yydummy;
-          yyflag=yyresolveAction(yyresolveValue$$1$$2$$yyp, yystackp, &yysval_other, &yydummy, parser, lexer);
+          union YYSTYPE_1 yysval_other;
+          struct YYLTYPE_0 yydummy;
+          yyflag=yyresolveAction(yyresolveValue__1__2__yyp, yystackp, &yysval_other, &yydummy, parser, lexer);
           if(!((signed int)yyflag == yyok))
           {
-            yydestruct$link1("Cleanup: discarding incompletely merged value for", (signed int)yystos$link1[(signed long int)yys->yylrState], &yysval, parser, lexer);
+            yydestruct_link1("Cleanup: discarding incompletely merged value for", (signed int)yystos_link1[(signed long int)yys->yylrState], &yysval, parser, lexer);
             break;
           }
 
-          yyuserMerge((signed int)yymerger[(signed long int)yyresolveValue$$1$$2$$yyp->yyrule], &yysval, &yysval_other);
+          yyuserMerge((signed int)yymerger[(signed long int)yyresolveValue__1__2__yyp->yyrule], &yysval, &yysval_other);
         }
 
     }
@@ -11747,7 +11747,7 @@ static enum anonymous$10 yyresolveValue(struct yyGLRState *yys, struct yyGLRStac
 // file datetime_tab.c line 1022
 static inline signed int yyrhsLength(signed int yyrule)
 {
-  return (signed int)yyr2$link1[(signed long int)yyrule];
+  return (signed int)yyr2_link1[(signed long int)yyrule];
 }
 
 // yysplitStack
@@ -11776,16 +11776,16 @@ static unsigned long int yysplitStack(struct yyGLRStack *yystackp, unsigned long
       yyMemoryExhausted(yystackp);
 
     yystackp->yytops.yycapacity = yystackp->yytops.yycapacity * (unsigned long int)2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)yystackp->yytops.yystates, yystackp->yytops.yycapacity * sizeof(struct yyGLRState *) /*8ul*/ );
-    yynewStates = (struct yyGLRState **)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)yystackp->yytops.yystates, yystackp->yytops.yycapacity * sizeof(struct yyGLRState *) /*8ul*/ );
+    yynewStates = (struct yyGLRState **)return_value_realloc_1;
     if(yynewStates == ((struct yyGLRState **)NULL))
       yyMemoryExhausted(yystackp);
 
     yystackp->yytops.yystates = yynewStates;
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)yystackp->yytops.yylookaheadNeeds, yystackp->yytops.yycapacity * sizeof(unsigned char) /*1ul*/ );
-    yynewLookaheadNeeds = (unsigned char *)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)yystackp->yytops.yylookaheadNeeds, yystackp->yytops.yycapacity * sizeof(unsigned char) /*1ul*/ );
+    yynewLookaheadNeeds = (unsigned char *)return_value_realloc_2;
     if(yynewLookaheadNeeds == ((unsigned char *)NULL))
       yyMemoryExhausted(yystackp);
 
@@ -11802,13 +11802,13 @@ static unsigned long int yysplitStack(struct yyGLRStack *yystackp, unsigned long
 // file datetime_tab.c line 1328
 static void yyundeleteLastStack(struct yyGLRStack *yystackp)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(yystackp->yylastDeleted == ((struct yyGLRState *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = yystackp->yytops.yysize != (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = yystackp->yytops.yysize != (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     yystackp->yytops.yystates[(signed long int)0] = yystackp->yylastDeleted;
     yystackp->yytops.yysize = (unsigned long int)1;
@@ -11832,136 +11832,136 @@ static inline void yyupdateSplit(struct yyGLRStack *yystackp, struct yyGLRState 
 
 // yyuserAction
 // file datetime_tab.c line 816
-static enum anonymous$10 yyuserAction(signed int yyn, signed int yyrhslen, union yyGLRStackItem *yyvsp, union YYSTYPE$1 *yyvalp, struct YYLTYPE$0 *yylocp, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
+static enum anonymous_10 yyuserAction(signed int yyn, signed int yyrhslen, union yyGLRStackItem *yyvsp, union YYSTYPE_1 *yyvalp, struct YYLTYPE_0 *yylocp, struct yyGLRStack *yystackp, struct fsd_dt_parser_s *parser, struct fsd_dt_lexer_s *lexer)
 {
   unsigned char yynormal = (unsigned char)(yystackp->yysplitPoint == (struct yyGLRState *)(void *)0);
   signed int yylow;
   (void)parser;
   (void)lexer;
   yylow = 1;
-  signed int return_value_yyfill$1;
+  signed int return_value_yyfill_1;
   if(yyrhslen == 0)
     *yyvalp = yyval_default;
 
   else
   {
-    return_value_yyfill$1=yyfill(yyvsp, &yylow, 1 - yyrhslen, yynormal);
-    *yyvalp = (yyvsp + (signed long int)return_value_yyfill$1)->yystate.yysemantics.yysval;
+    return_value_yyfill_1=yyfill(yyvsp, &yylow, 1 - yyrhslen, yynormal);
+    *yyvalp = (yyvsp + (signed long int)return_value_yyfill_1)->yystate.yysemantics.yysval;
   }
   switch(yyn)
   {
     case 2:
     {
-      signed int return_value_yyfill$2;
-      return_value_yyfill$2=yyfill(yyvsp, &yylow, 1 - 1, yynormal);
-      parser->result = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$2)->yystate.yysemantics.yysval.datetime;
+      signed int return_value_yyfill_2;
+      return_value_yyfill_2=yyfill(yyvsp, &yylow, 1 - 1, yynormal);
+      parser->result = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_2)->yystate.yysemantics.yysval.datetime;
       break;
     }
     case 3:
     {
-      signed int return_value_yyfill$3;
-      return_value_yyfill$3=yyfill(yyvsp, &yylow, 1 - 2, yynormal);
-      signed int return_value_yyfill$4;
-      return_value_yyfill$4=yyfill(yyvsp, &yylow, 2 - 2, yynormal);
-      yyvalp->datetime.mask = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$3)->yystate.yysemantics.yysval.datetime.mask | ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$4)->yystate.yysemantics.yysval.datetime.mask;
+      signed int return_value_yyfill_3;
+      return_value_yyfill_3=yyfill(yyvsp, &yylow, 1 - 2, yynormal);
+      signed int return_value_yyfill_4;
+      return_value_yyfill_4=yyfill(yyvsp, &yylow, 2 - 2, yynormal);
+      yyvalp->datetime.mask = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_3)->yystate.yysemantics.yysval.datetime.mask | ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_4)->yystate.yysemantics.yysval.datetime.mask;
       yyvalp->datetime.year = 0;
       yyvalp->datetime.month = 0;
       yyvalp->datetime.day = 0;
-      signed int return_value_yyfill$5;
-      return_value_yyfill$5=yyfill(yyvsp, &yylow, 1 - 2, yynormal);
-      yyvalp->datetime.hour = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$5)->yystate.yysemantics.yysval.datetime.hour;
-      signed int return_value_yyfill$6;
-      return_value_yyfill$6=yyfill(yyvsp, &yylow, 1 - 2, yynormal);
-      yyvalp->datetime.minute = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$6)->yystate.yysemantics.yysval.datetime.minute;
-      signed int return_value_yyfill$7;
-      return_value_yyfill$7=yyfill(yyvsp, &yylow, 1 - 2, yynormal);
-      yyvalp->datetime.second = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$7)->yystate.yysemantics.yysval.datetime.second;
-      signed int return_value_yyfill$8;
-      return_value_yyfill$8=yyfill(yyvsp, &yylow, 2 - 2, yynormal);
-      yyvalp->datetime.tz_delta = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$8)->yystate.yysemantics.yysval.datetime.tz_delta;
+      signed int return_value_yyfill_5;
+      return_value_yyfill_5=yyfill(yyvsp, &yylow, 1 - 2, yynormal);
+      yyvalp->datetime.hour = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_5)->yystate.yysemantics.yysval.datetime.hour;
+      signed int return_value_yyfill_6;
+      return_value_yyfill_6=yyfill(yyvsp, &yylow, 1 - 2, yynormal);
+      yyvalp->datetime.minute = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_6)->yystate.yysemantics.yysval.datetime.minute;
+      signed int return_value_yyfill_7;
+      return_value_yyfill_7=yyfill(yyvsp, &yylow, 1 - 2, yynormal);
+      yyvalp->datetime.second = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_7)->yystate.yysemantics.yysval.datetime.second;
+      signed int return_value_yyfill_8;
+      return_value_yyfill_8=yyfill(yyvsp, &yylow, 2 - 2, yynormal);
+      yyvalp->datetime.tz_delta = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_8)->yystate.yysemantics.yysval.datetime.tz_delta;
       break;
     }
     case 4:
     {
-      signed int return_value_yyfill$9;
-      return_value_yyfill$9=yyfill(yyvsp, &yylow, 1 - 4, yynormal);
-      signed int return_value_yyfill$10;
-      return_value_yyfill$10=yyfill(yyvsp, &yylow, 3 - 4, yynormal);
-      signed int return_value_yyfill$11;
-      return_value_yyfill$11=yyfill(yyvsp, &yylow, 4 - 4, yynormal);
-      yyvalp->datetime.mask = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$9)->yystate.yysemantics.yysval.datetime.mask | ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$10)->yystate.yysemantics.yysval.datetime.mask | ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$11)->yystate.yysemantics.yysval.datetime.mask;
-      signed int return_value_yyfill$12;
-      return_value_yyfill$12=yyfill(yyvsp, &yylow, 1 - 4, yynormal);
-      yyvalp->datetime.year = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$12)->yystate.yysemantics.yysval.datetime.year;
-      signed int return_value_yyfill$13;
-      return_value_yyfill$13=yyfill(yyvsp, &yylow, 1 - 4, yynormal);
-      yyvalp->datetime.month = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$13)->yystate.yysemantics.yysval.datetime.month;
-      signed int return_value_yyfill$14;
-      return_value_yyfill$14=yyfill(yyvsp, &yylow, 1 - 4, yynormal);
-      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$14)->yystate.yysemantics.yysval.datetime.day;
-      signed int return_value_yyfill$15;
-      return_value_yyfill$15=yyfill(yyvsp, &yylow, 3 - 4, yynormal);
-      yyvalp->datetime.hour = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$15)->yystate.yysemantics.yysval.datetime.hour;
-      signed int return_value_yyfill$16;
-      return_value_yyfill$16=yyfill(yyvsp, &yylow, 3 - 4, yynormal);
-      yyvalp->datetime.minute = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$16)->yystate.yysemantics.yysval.datetime.minute;
-      signed int return_value_yyfill$17;
-      return_value_yyfill$17=yyfill(yyvsp, &yylow, 3 - 4, yynormal);
-      yyvalp->datetime.second = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$17)->yystate.yysemantics.yysval.datetime.second;
-      signed int return_value_yyfill$18;
-      return_value_yyfill$18=yyfill(yyvsp, &yylow, 4 - 4, yynormal);
-      yyvalp->datetime.tz_delta = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$18)->yystate.yysemantics.yysval.datetime.tz_delta;
+      signed int return_value_yyfill_9;
+      return_value_yyfill_9=yyfill(yyvsp, &yylow, 1 - 4, yynormal);
+      signed int return_value_yyfill_10;
+      return_value_yyfill_10=yyfill(yyvsp, &yylow, 3 - 4, yynormal);
+      signed int return_value_yyfill_11;
+      return_value_yyfill_11=yyfill(yyvsp, &yylow, 4 - 4, yynormal);
+      yyvalp->datetime.mask = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_9)->yystate.yysemantics.yysval.datetime.mask | ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_10)->yystate.yysemantics.yysval.datetime.mask | ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_11)->yystate.yysemantics.yysval.datetime.mask;
+      signed int return_value_yyfill_12;
+      return_value_yyfill_12=yyfill(yyvsp, &yylow, 1 - 4, yynormal);
+      yyvalp->datetime.year = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_12)->yystate.yysemantics.yysval.datetime.year;
+      signed int return_value_yyfill_13;
+      return_value_yyfill_13=yyfill(yyvsp, &yylow, 1 - 4, yynormal);
+      yyvalp->datetime.month = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_13)->yystate.yysemantics.yysval.datetime.month;
+      signed int return_value_yyfill_14;
+      return_value_yyfill_14=yyfill(yyvsp, &yylow, 1 - 4, yynormal);
+      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_14)->yystate.yysemantics.yysval.datetime.day;
+      signed int return_value_yyfill_15;
+      return_value_yyfill_15=yyfill(yyvsp, &yylow, 3 - 4, yynormal);
+      yyvalp->datetime.hour = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_15)->yystate.yysemantics.yysval.datetime.hour;
+      signed int return_value_yyfill_16;
+      return_value_yyfill_16=yyfill(yyvsp, &yylow, 3 - 4, yynormal);
+      yyvalp->datetime.minute = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_16)->yystate.yysemantics.yysval.datetime.minute;
+      signed int return_value_yyfill_17;
+      return_value_yyfill_17=yyfill(yyvsp, &yylow, 3 - 4, yynormal);
+      yyvalp->datetime.second = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_17)->yystate.yysemantics.yysval.datetime.second;
+      signed int return_value_yyfill_18;
+      return_value_yyfill_18=yyfill(yyvsp, &yylow, 4 - 4, yynormal);
+      yyvalp->datetime.tz_delta = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_18)->yystate.yysemantics.yysval.datetime.tz_delta;
       break;
     }
     case 7:
     {
-      signed int return_value_yyfill$19;
-      return_value_yyfill$19=yyfill(yyvsp, &yylow, 1 - 5, yynormal);
-      yyvalp->datetime.year = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$19)->yystate.yysemantics.yysval.integer;
-      signed int return_value_yyfill$20;
-      return_value_yyfill$20=yyfill(yyvsp, &yylow, 3 - 5, yynormal);
-      yyvalp->datetime.month = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$20)->yystate.yysemantics.yysval.integer;
-      signed int return_value_yyfill$21;
-      return_value_yyfill$21=yyfill(yyvsp, &yylow, 5 - 5, yynormal);
-      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$21)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_19;
+      return_value_yyfill_19=yyfill(yyvsp, &yylow, 1 - 5, yynormal);
+      yyvalp->datetime.year = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_19)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_20;
+      return_value_yyfill_20=yyfill(yyvsp, &yylow, 3 - 5, yynormal);
+      yyvalp->datetime.month = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_20)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_21;
+      return_value_yyfill_21=yyfill(yyvsp, &yylow, 5 - 5, yynormal);
+      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_21)->yystate.yysemantics.yysval.integer;
       yyvalp->datetime.mask = (unsigned int)(1 | 2 | 4);
       break;
     }
     case 8:
     {
       yyvalp->datetime.year = 0;
-      signed int return_value_yyfill$22;
-      return_value_yyfill$22=yyfill(yyvsp, &yylow, 1 - 3, yynormal);
-      yyvalp->datetime.month = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$22)->yystate.yysemantics.yysval.integer;
-      signed int return_value_yyfill$23;
-      return_value_yyfill$23=yyfill(yyvsp, &yylow, 3 - 3, yynormal);
-      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$23)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_22;
+      return_value_yyfill_22=yyfill(yyvsp, &yylow, 1 - 3, yynormal);
+      yyvalp->datetime.month = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_22)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_23;
+      return_value_yyfill_23=yyfill(yyvsp, &yylow, 3 - 3, yynormal);
+      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_23)->yystate.yysemantics.yysval.integer;
       yyvalp->datetime.mask = (unsigned int)(2 | 4);
       break;
     }
     case 9:
     {
-      signed int return_value_yyfill$24;
-      return_value_yyfill$24=yyfill(yyvsp, &yylow, 1 - 5, yynormal);
-      yyvalp->datetime.year = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$24)->yystate.yysemantics.yysval.integer;
-      signed int return_value_yyfill$25;
-      return_value_yyfill$25=yyfill(yyvsp, &yylow, 3 - 5, yynormal);
-      yyvalp->datetime.month = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$25)->yystate.yysemantics.yysval.integer;
-      signed int return_value_yyfill$26;
-      return_value_yyfill$26=yyfill(yyvsp, &yylow, 5 - 5, yynormal);
-      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$26)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_24;
+      return_value_yyfill_24=yyfill(yyvsp, &yylow, 1 - 5, yynormal);
+      yyvalp->datetime.year = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_24)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_25;
+      return_value_yyfill_25=yyfill(yyvsp, &yylow, 3 - 5, yynormal);
+      yyvalp->datetime.month = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_25)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_26;
+      return_value_yyfill_26=yyfill(yyvsp, &yylow, 5 - 5, yynormal);
+      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_26)->yystate.yysemantics.yysval.integer;
       yyvalp->datetime.mask = (unsigned int)(1 | 2 | 4);
       break;
     }
     case 10:
     {
       yyvalp->datetime.year = 0;
-      signed int return_value_yyfill$27;
-      return_value_yyfill$27=yyfill(yyvsp, &yylow, 1 - 3, yynormal);
-      yyvalp->datetime.month = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$27)->yystate.yysemantics.yysval.integer;
-      signed int return_value_yyfill$28;
-      return_value_yyfill$28=yyfill(yyvsp, &yylow, 3 - 3, yynormal);
-      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$28)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_27;
+      return_value_yyfill_27=yyfill(yyvsp, &yylow, 1 - 3, yynormal);
+      yyvalp->datetime.month = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_27)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_28;
+      return_value_yyfill_28=yyfill(yyvsp, &yylow, 3 - 3, yynormal);
+      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_28)->yystate.yysemantics.yysval.integer;
       yyvalp->datetime.mask = (unsigned int)(2 | 4);
       break;
     }
@@ -11969,35 +11969,35 @@ static enum anonymous$10 yyuserAction(signed int yyn, signed int yyrhslen, union
     {
       yyvalp->datetime.year = 0;
       yyvalp->datetime.month = 0;
-      signed int return_value_yyfill$29;
-      return_value_yyfill$29=yyfill(yyvsp, &yylow, 1 - 1, yynormal);
-      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$29)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_29;
+      return_value_yyfill_29=yyfill(yyvsp, &yylow, 1 - 1, yynormal);
+      yyvalp->datetime.day = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_29)->yystate.yysemantics.yysval.integer;
       yyvalp->datetime.mask = (unsigned int)4;
       break;
     }
     case 12:
     {
-      signed int return_value_yyfill$30;
-      return_value_yyfill$30=yyfill(yyvsp, &yylow, 1 - 3, yynormal);
-      yyvalp->datetime.hour = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$30)->yystate.yysemantics.yysval.integer;
-      signed int return_value_yyfill$31;
-      return_value_yyfill$31=yyfill(yyvsp, &yylow, 3 - 3, yynormal);
-      yyvalp->datetime.minute = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$31)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_30;
+      return_value_yyfill_30=yyfill(yyvsp, &yylow, 1 - 3, yynormal);
+      yyvalp->datetime.hour = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_30)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_31;
+      return_value_yyfill_31=yyfill(yyvsp, &yylow, 3 - 3, yynormal);
+      yyvalp->datetime.minute = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_31)->yystate.yysemantics.yysval.integer;
       yyvalp->datetime.second = 0;
       yyvalp->datetime.mask = (unsigned int)(8 | 16);
       break;
     }
     case 13:
     {
-      signed int return_value_yyfill$32;
-      return_value_yyfill$32=yyfill(yyvsp, &yylow, 1 - 5, yynormal);
-      yyvalp->datetime.hour = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$32)->yystate.yysemantics.yysval.integer;
-      signed int return_value_yyfill$33;
-      return_value_yyfill$33=yyfill(yyvsp, &yylow, 3 - 5, yynormal);
-      yyvalp->datetime.minute = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$33)->yystate.yysemantics.yysval.integer;
-      signed int return_value_yyfill$34;
-      return_value_yyfill$34=yyfill(yyvsp, &yylow, 5 - 5, yynormal);
-      yyvalp->datetime.second = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$34)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_32;
+      return_value_yyfill_32=yyfill(yyvsp, &yylow, 1 - 5, yynormal);
+      yyvalp->datetime.hour = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_32)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_33;
+      return_value_yyfill_33=yyfill(yyvsp, &yylow, 3 - 5, yynormal);
+      yyvalp->datetime.minute = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_33)->yystate.yysemantics.yysval.integer;
+      signed int return_value_yyfill_34;
+      return_value_yyfill_34=yyfill(yyvsp, &yylow, 5 - 5, yynormal);
+      yyvalp->datetime.second = ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_34)->yystate.yysemantics.yysval.integer;
       yyvalp->datetime.mask = (unsigned int)(8 | 16 | 32);
       break;
     }
@@ -12009,23 +12009,23 @@ static enum anonymous$10 yyuserAction(signed int yyn, signed int yyrhslen, union
     }
     case 15:
     {
-      signed int return_value_yyfill$35;
-      return_value_yyfill$35=yyfill(yyvsp, &yylow, 1 - 2, yynormal);
-      signed int return_value_yyfill$36;
-      return_value_yyfill$36=yyfill(yyvsp, &yylow, 2 - 2, yynormal);
-      yyvalp->datetime.tz_delta = (signed long int)(((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$35)->yystate.yysemantics.yysval.integer * 3600 * ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$36)->yystate.yysemantics.yysval.integer);
+      signed int return_value_yyfill_35;
+      return_value_yyfill_35=yyfill(yyvsp, &yylow, 1 - 2, yynormal);
+      signed int return_value_yyfill_36;
+      return_value_yyfill_36=yyfill(yyvsp, &yylow, 2 - 2, yynormal);
+      yyvalp->datetime.tz_delta = (signed long int)(((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_35)->yystate.yysemantics.yysval.integer * 3600 * ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_36)->yystate.yysemantics.yysval.integer);
       yyvalp->datetime.mask = (unsigned int)64;
       break;
     }
     case 16:
     {
-      signed int return_value_yyfill$37;
-      return_value_yyfill$37=yyfill(yyvsp, &yylow, 1 - 4, yynormal);
-      signed int return_value_yyfill$38;
-      return_value_yyfill$38=yyfill(yyvsp, &yylow, 2 - 4, yynormal);
-      signed int return_value_yyfill$39;
-      return_value_yyfill$39=yyfill(yyvsp, &yylow, 4 - 4, yynormal);
-      yyvalp->datetime.tz_delta = (signed long int)(((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$37)->yystate.yysemantics.yysval.integer * 60 * (60 * ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$38)->yystate.yysemantics.yysval.integer + ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill$39)->yystate.yysemantics.yysval.integer));
+      signed int return_value_yyfill_37;
+      return_value_yyfill_37=yyfill(yyvsp, &yylow, 1 - 4, yynormal);
+      signed int return_value_yyfill_38;
+      return_value_yyfill_38=yyfill(yyvsp, &yylow, 2 - 4, yynormal);
+      signed int return_value_yyfill_39;
+      return_value_yyfill_39=yyfill(yyvsp, &yylow, 4 - 4, yynormal);
+      yyvalp->datetime.tz_delta = (signed long int)(((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_37)->yystate.yysemantics.yysval.integer * 60 * (60 * ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_38)->yystate.yysemantics.yysval.integer + ((const union yyGLRStackItem *)yyvsp + (signed long int)return_value_yyfill_39)->yystate.yysemantics.yysval.integer));
       yyvalp->datetime.mask = (unsigned int)64;
       break;
     }
@@ -12048,12 +12048,12 @@ static enum anonymous$10 yyuserAction(signed int yyn, signed int yyrhslen, union
     case 20:
       yyvalp->integer = -1;
   }
-  return (enum anonymous$10)yyok;
+  return (enum anonymous_10)yyok;
 }
 
 // yyuserMerge
 // file datetime_tab.c line 982
-static void yyuserMerge(signed int yyn, union YYSTYPE$1 *yy0, union YYSTYPE$1 *yy1)
+static void yyuserMerge(signed int yyn, union YYSTYPE_1 *yy0, union YYSTYPE_1 *yy1)
 {
   (void)yy0;
   (void)yy1;

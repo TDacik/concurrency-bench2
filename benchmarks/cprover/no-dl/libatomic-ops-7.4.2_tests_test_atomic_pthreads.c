@@ -1,34 +1,34 @@
-// #anon_enum$AO_BYTE_TS_clear=0$AO_BYTE_TS_set=255
+// #anon_enum_AO_BYTE_TS_clear=0_AO_BYTE_TS_set=255
 // file atomic_ops/sysdeps/gcc/../test_and_set_t_is_char.h line 30
-enum anonymous$2 { AO_BYTE_TS_clear=0, AO_BYTE_TS_set=255 };
+enum anonymous_2 { AO_BYTE_TS_clear=0, AO_BYTE_TS_set=255 };
 
-// #anon_enum$AO_TS_clear=0$AO_TS_set=1
+// #anon_enum_AO_TS_clear=0_AO_TS_set=1
 // file ../src/atomic_ops/sysdeps/test_and_set_t_is_ao_t.h line 29
-enum anonymous$1 { AO_TS_clear=0, AO_TS_set=1 };
+enum anonymous_1 { AO_TS_clear=0, AO_TS_set=1 };
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[U64'AO_v1'||U64'AO_v2'|]
 // file atomic_ops/sysdeps/standard_ao_double_t.h line 43
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[U64'AO_val1'||U64'AO_val2'|]
 // file ../src/atomic_ops/sysdeps/generic_pthread.h line 365
 struct anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U64'AO_v1'||U64'AO_v2'|]#'AO_parts'||VECconstant{F32}$F32$'AO_whole'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U64'AO_v1'||U64'AO_v2'|]#'AO_parts'||VECconstant{F32}_F32_'AO_whole'|]
 // file atomic_ops/sysdeps/standard_ao_double_t.h line 42
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -123,7 +123,7 @@ static inline signed int AO_compare_and_swap_release_write(volatile unsigned lon
 static inline signed int AO_compare_and_swap_write(volatile unsigned long int *addr, unsigned long int old_val, unsigned long int new_val);
 // AO_compare_double_and_swap_double_emulation
 // file atomic_ops.c line 172
-signed int AO_compare_double_and_swap_double_emulation(volatile union anonymous$4 *addr, unsigned long int old_val1, unsigned long int old_val2, unsigned long int new_val1, unsigned long int new_val2);
+signed int AO_compare_double_and_swap_double_emulation(volatile union anonymous_4 *addr, unsigned long int old_val1, unsigned long int old_val2, unsigned long int new_val1, unsigned long int new_val2);
 // AO_compare_double_and_swap_double_full
 // file ../src/atomic_ops/sysdeps/generic_pthread.h line 397
 static inline signed int AO_compare_double_and_swap_double_full(volatile struct anonymous *addr, unsigned long int old1, unsigned long int old2, unsigned long int new1, unsigned long int new2);
@@ -276,10 +276,10 @@ static inline void AO_store_full(volatile unsigned long int *addr, unsigned long
 void AO_store_full_emulation(volatile unsigned long int *addr, unsigned long int val);
 // AO_test_and_set_full
 // file ../src/atomic_ops/sysdeps/generic_pthread.h line 129
-static inline enum anonymous$1 AO_test_and_set_full(volatile unsigned long int *addr);
-// AO_test_and_set_full$link1
+static inline enum anonymous_1 AO_test_and_set_full(volatile unsigned long int *addr);
+// AO_test_and_set_full_link1
 // file atomic_ops/sysdeps/gcc/x86.h line 124
-static inline enum anonymous$2 AO_test_and_set_full$link1(volatile unsigned char *addr$link1);
+static inline enum anonymous_2 AO_test_and_set_full_link1(volatile unsigned char *addr_link1);
 // AO_xor_full
 // file ../src/atomic_ops/sysdeps/generic_pthread.h line 212
 static inline void AO_xor_full(volatile unsigned long int *p, unsigned long int value);
@@ -300,16 +300,16 @@ signed int add1sub1_test(void);
 void * add1sub1_thr(void *id);
 // block_all_signals
 // file atomic_ops.c line 130
-static inline void block_all_signals(struct anonymous$3 *old_sigs_ptr);
+static inline void block_all_signals(struct anonymous_3 *old_sigs_ptr);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
 // fprintf
 // file /usr/include/stdio.h line 356
 extern signed int fprintf(struct _IO_FILE *, const char *, ...);
-// lock$link1
+// lock_link1
 // file atomic_ops.c line 114
-static inline void lock$link1(volatile unsigned char *l);
+static inline void lock_link1(volatile unsigned char *l);
 // lock_ool
 // file atomic_ops.c line 106
 static void lock_ool(volatile unsigned char *l);
@@ -327,28 +327,28 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 784
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // run_parallel
 // file run_parallel.h line 55
 void * run_parallel(signed int nthreads, void * (*f1)(void *), signed int (*t)(void), const char *name);
-// run_parallel::f1$object
+// run_parallel::f1_object
 //
-void * f1$object(void *);
-// run_parallel::t$object
+void * f1_object(void *);
+// run_parallel::t_object
 //
-signed int t$object(void);
+signed int t_object(void);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$5 *, struct anonymous$5 *, struct anonymous$5 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_5 *, struct anonymous_5 *, struct anonymous_5 *, struct timeval *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$3 *);
+extern signed int sigfillset(struct anonymous_3 *);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$3 *, struct anonymous$3 *);
+extern signed int sigprocmask(signed int, const struct anonymous_3 *, struct anonymous_3 *);
 // test_and_set_test
 // file test_atomic.c line 173
 signed int test_and_set_test(void);
@@ -383,19 +383,19 @@ void test_atomic_write(void);
 // file atomic_ops.c line 120
 static inline void unlock(volatile unsigned char *l);
 
-struct anonymous$5
+struct anonymous_5
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // AO_v1
   unsigned long int AO_v1;
@@ -411,10 +411,10 @@ struct anonymous
   unsigned long int AO_val2;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // AO_parts
-  struct anonymous$6 AO_parts;
+  struct anonymous_6 AO_parts;
   // AO_whole
   __gcc_v4sf AO_whole;
 };
@@ -447,7 +447,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -566,12 +566,12 @@ unsigned char AO_locks[16l] = { (unsigned char)(unsigned long int)AO_BYTE_TS_cle
     (unsigned char)(unsigned long int)AO_BYTE_TS_clear };
 // AO_pt_lock
 // file atomic_ops.c line 78
-union anonymous$0 AO_pt_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_0 AO_pt_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // all_sigs
 // file atomic_ops.c line 126
-static struct anonymous$3 all_sigs;
+static struct anonymous_3 all_sigs;
 // counter
 // file test_atomic.c line 48
 unsigned long int counter = (unsigned long int)0;
@@ -616,27 +616,27 @@ static inline void AO_and_full(volatile unsigned long int *p, unsigned long int 
 // file ../src/atomic_ops/generalize-arithm.h line 87
 static inline signed int AO_char_compare_and_swap(volatile unsigned char *addr, unsigned char old_val, unsigned char new_val)
 {
-  unsigned char return_value_AO_char_fetch_compare_and_swap_full$1;
-  return_value_AO_char_fetch_compare_and_swap_full$1=AO_char_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_char_fetch_compare_and_swap_full$1 == old_val);
+  unsigned char return_value_AO_char_fetch_compare_and_swap_full_1;
+  return_value_AO_char_fetch_compare_and_swap_full_1=AO_char_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_char_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_char_compare_and_swap_acquire
 // file ../src/atomic_ops/generalize-arithm.h line 39
 static inline signed int AO_char_compare_and_swap_acquire(volatile unsigned char *addr, unsigned char old_val, unsigned char new_val)
 {
-  unsigned char return_value_AO_char_fetch_compare_and_swap_full$1;
-  return_value_AO_char_fetch_compare_and_swap_full$1=AO_char_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_char_fetch_compare_and_swap_full$1 == old_val);
+  unsigned char return_value_AO_char_fetch_compare_and_swap_full_1;
+  return_value_AO_char_fetch_compare_and_swap_full_1=AO_char_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_char_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_char_compare_and_swap_release
 // file ../src/atomic_ops/generalize-arithm.h line 51
 static inline signed int AO_char_compare_and_swap_release(volatile unsigned char *addr, unsigned char old_val, unsigned char new_val)
 {
-  unsigned char return_value_AO_char_fetch_compare_and_swap_full$1;
-  return_value_AO_char_fetch_compare_and_swap_full$1=AO_char_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_char_fetch_compare_and_swap_full$1 == old_val);
+  unsigned char return_value_AO_char_fetch_compare_and_swap_full_1;
+  return_value_AO_char_fetch_compare_and_swap_full_1=AO_char_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_char_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_char_fetch_and_add
@@ -644,13 +644,13 @@ static inline signed int AO_char_compare_and_swap_release(volatile unsigned char
 static inline unsigned char AO_char_fetch_and_add(volatile unsigned char *addr, unsigned char incr)
 {
   unsigned char old;
-  signed int return_value_AO_char_compare_and_swap$1;
+  signed int return_value_AO_char_compare_and_swap_1;
   do
   {
     old = *((unsigned char *)addr);
-    return_value_AO_char_compare_and_swap$1=AO_char_compare_and_swap(addr, old, (unsigned char)((signed int)old + (signed int)incr));
+    return_value_AO_char_compare_and_swap_1=AO_char_compare_and_swap(addr, old, (unsigned char)((signed int)old + (signed int)incr));
   }
-  while(return_value_AO_char_compare_and_swap$1 == 0);
+  while(return_value_AO_char_compare_and_swap_1 == 0);
   return old;
 }
 
@@ -659,13 +659,13 @@ static inline unsigned char AO_char_fetch_and_add(volatile unsigned char *addr, 
 static inline unsigned char AO_char_fetch_and_add_acquire(volatile unsigned char *addr, unsigned char incr)
 {
   unsigned char old;
-  signed int return_value_AO_char_compare_and_swap_acquire$1;
+  signed int return_value_AO_char_compare_and_swap_acquire_1;
   do
   {
     old = *((unsigned char *)addr);
-    return_value_AO_char_compare_and_swap_acquire$1=AO_char_compare_and_swap_acquire(addr, old, (unsigned char)((signed int)old + (signed int)incr));
+    return_value_AO_char_compare_and_swap_acquire_1=AO_char_compare_and_swap_acquire(addr, old, (unsigned char)((signed int)old + (signed int)incr));
   }
-  while(return_value_AO_char_compare_and_swap_acquire$1 == 0);
+  while(return_value_AO_char_compare_and_swap_acquire_1 == 0);
   return old;
 }
 
@@ -686,13 +686,13 @@ static inline unsigned char AO_char_fetch_and_add_full(volatile unsigned char *p
 static inline unsigned char AO_char_fetch_and_add_release(volatile unsigned char *addr, unsigned char incr)
 {
   unsigned char old;
-  signed int return_value_AO_char_compare_and_swap_release$1;
+  signed int return_value_AO_char_compare_and_swap_release_1;
   do
   {
     old = *((unsigned char *)addr);
-    return_value_AO_char_compare_and_swap_release$1=AO_char_compare_and_swap_release(addr, old, (unsigned char)((signed int)old + (signed int)incr));
+    return_value_AO_char_compare_and_swap_release_1=AO_char_compare_and_swap_release(addr, old, (unsigned char)((signed int)old + (signed int)incr));
   }
-  while(return_value_AO_char_compare_and_swap_release$1 == 0);
+  while(return_value_AO_char_compare_and_swap_release_1 == 0);
   return old;
 }
 
@@ -741,27 +741,27 @@ static inline void AO_char_store_full(volatile unsigned char *addr, unsigned cha
 // file ../src/atomic_ops/generalize-arithm.h line 2622
 static inline signed int AO_compare_and_swap(volatile unsigned long int *addr, unsigned long int old_val, unsigned long int new_val)
 {
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$1;
-  return_value_AO_fetch_compare_and_swap_full$1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_fetch_compare_and_swap_full$1 == old_val);
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_1;
+  return_value_AO_fetch_compare_and_swap_full_1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_compare_and_swap_acquire
 // file ../src/atomic_ops/generalize-arithm.h line 2574
 static inline signed int AO_compare_and_swap_acquire(volatile unsigned long int *addr, unsigned long int old_val, unsigned long int new_val)
 {
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$1;
-  return_value_AO_fetch_compare_and_swap_full$1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_fetch_compare_and_swap_full$1 == old_val);
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_1;
+  return_value_AO_fetch_compare_and_swap_full_1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_compare_and_swap_acquire_read
 // file ../src/atomic_ops/generalize-arithm.h line 2645
 static inline signed int AO_compare_and_swap_acquire_read(volatile unsigned long int *addr, unsigned long int old_val, unsigned long int new_val)
 {
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$1;
-  return_value_AO_fetch_compare_and_swap_full$1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_fetch_compare_and_swap_full$1 == old_val);
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_1;
+  return_value_AO_fetch_compare_and_swap_full_1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_compare_and_swap_double_full
@@ -786,63 +786,63 @@ static inline signed int AO_compare_and_swap_double_full(volatile struct anonymo
 // file ../src/atomic_ops/generalize-arithm.h line 2562
 static inline signed int AO_compare_and_swap_full(volatile unsigned long int *addr, unsigned long int old_val, unsigned long int new_val)
 {
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$1;
-  return_value_AO_fetch_compare_and_swap_full$1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_fetch_compare_and_swap_full$1 == old_val);
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_1;
+  return_value_AO_fetch_compare_and_swap_full_1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_compare_and_swap_read
 // file ../src/atomic_ops/generalize-arithm.h line 2610
 static inline signed int AO_compare_and_swap_read(volatile unsigned long int *addr, unsigned long int old_val, unsigned long int new_val)
 {
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$1;
-  return_value_AO_fetch_compare_and_swap_full$1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_fetch_compare_and_swap_full$1 == old_val);
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_1;
+  return_value_AO_fetch_compare_and_swap_full_1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_compare_and_swap_release
 // file ../src/atomic_ops/generalize-arithm.h line 2586
 static inline signed int AO_compare_and_swap_release(volatile unsigned long int *addr, unsigned long int old_val, unsigned long int new_val)
 {
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$1;
-  return_value_AO_fetch_compare_and_swap_full$1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_fetch_compare_and_swap_full$1 == old_val);
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_1;
+  return_value_AO_fetch_compare_and_swap_full_1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_compare_and_swap_release_write
 // file ../src/atomic_ops/generalize-arithm.h line 2633
 static inline signed int AO_compare_and_swap_release_write(volatile unsigned long int *addr, unsigned long int old_val, unsigned long int new_val)
 {
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$1;
-  return_value_AO_fetch_compare_and_swap_full$1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_fetch_compare_and_swap_full$1 == old_val);
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_1;
+  return_value_AO_fetch_compare_and_swap_full_1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_compare_and_swap_write
 // file ../src/atomic_ops/generalize-arithm.h line 2598
 static inline signed int AO_compare_and_swap_write(volatile unsigned long int *addr, unsigned long int old_val, unsigned long int new_val)
 {
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$1;
-  return_value_AO_fetch_compare_and_swap_full$1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_fetch_compare_and_swap_full$1 == old_val);
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_1;
+  return_value_AO_fetch_compare_and_swap_full_1=AO_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_compare_double_and_swap_double_emulation
 // file atomic_ops.c line 172
-signed int AO_compare_double_and_swap_double_emulation(volatile union anonymous$4 *addr, unsigned long int old_val1, unsigned long int old_val2, unsigned long int new_val1, unsigned long int new_val2)
+signed int AO_compare_double_and_swap_double_emulation(volatile union anonymous_4 *addr, unsigned long int old_val1, unsigned long int old_val2, unsigned long int new_val1, unsigned long int new_val2)
 {
   unsigned char *my_lock = AO_locks + (signed long int)((unsigned long int)addr >> 12 & (unsigned long int)(16 - 1));
   signed int result;
-  struct anonymous$3 old_sigs;
+  struct anonymous_3 old_sigs;
   block_all_signals(&old_sigs);
-  lock$link1(my_lock);
-  _Bool tmp_if_expr$1;
+  lock_link1(my_lock);
+  _Bool tmp_if_expr_1;
   if(addr->AO_parts.AO_v1 == old_val1)
-    tmp_if_expr$1 = addr->AO_parts.AO_v2 == old_val2 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = addr->AO_parts.AO_v2 == old_val2 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     addr->AO_parts.AO_v1 = new_val1;
     addr->AO_parts.AO_v2 = new_val2;
@@ -852,7 +852,7 @@ signed int AO_compare_double_and_swap_double_emulation(volatile union anonymous$
   else
     result = 0;
   unlock(my_lock);
-  sigprocmask(2, &old_sigs, (struct anonymous$3 *)(void *)0);
+  sigprocmask(2, &old_sigs, (struct anonymous_3 *)(void *)0);
   return result;
 }
 
@@ -861,13 +861,13 @@ signed int AO_compare_double_and_swap_double_emulation(volatile union anonymous$
 static inline signed int AO_compare_double_and_swap_double_full(volatile struct anonymous *addr, unsigned long int old1, unsigned long int old2, unsigned long int new1, unsigned long int new2)
 {
   pthread_mutex_lock(&AO_pt_lock);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(addr->AO_val1 == old1)
-    tmp_if_expr$1 = addr->AO_val2 == old2 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = addr->AO_val2 == old2 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     addr->AO_val1 = new1;
     addr->AO_val2 = new2;
@@ -884,72 +884,72 @@ static inline signed int AO_compare_double_and_swap_double_full(volatile struct 
 // file ../src/atomic_ops/generalize.h line 584
 static inline signed int AO_double_compare_and_swap(volatile struct anonymous *addr, struct anonymous old_val, struct anonymous new_val)
 {
-  signed int return_value_AO_compare_double_and_swap_double_full$1;
-  return_value_AO_compare_double_and_swap_double_full$1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
-  return return_value_AO_compare_double_and_swap_double_full$1;
+  signed int return_value_AO_compare_double_and_swap_double_full_1;
+  return_value_AO_compare_double_and_swap_double_full_1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
+  return return_value_AO_compare_double_and_swap_double_full_1;
 }
 
 // AO_double_compare_and_swap_acquire
 // file ../src/atomic_ops/generalize.h line 608
 static inline signed int AO_double_compare_and_swap_acquire(volatile struct anonymous *addr, struct anonymous old_val, struct anonymous new_val)
 {
-  signed int return_value_AO_compare_double_and_swap_double_full$1;
-  return_value_AO_compare_double_and_swap_double_full$1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
-  return return_value_AO_compare_double_and_swap_double_full$1;
+  signed int return_value_AO_compare_double_and_swap_double_full_1;
+  return_value_AO_compare_double_and_swap_double_full_1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
+  return return_value_AO_compare_double_and_swap_double_full_1;
 }
 
 // AO_double_compare_and_swap_acquire_read
 // file ../src/atomic_ops/generalize.h line 656
 static inline signed int AO_double_compare_and_swap_acquire_read(volatile struct anonymous *addr, struct anonymous old_val, struct anonymous new_val)
 {
-  signed int return_value_AO_compare_double_and_swap_double_full$1;
-  return_value_AO_compare_double_and_swap_double_full$1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
-  return return_value_AO_compare_double_and_swap_double_full$1;
+  signed int return_value_AO_compare_double_and_swap_double_full_1;
+  return_value_AO_compare_double_and_swap_double_full_1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
+  return return_value_AO_compare_double_and_swap_double_full_1;
 }
 
 // AO_double_compare_and_swap_full
 // file ../src/atomic_ops/generalize.h line 668
 static inline signed int AO_double_compare_and_swap_full(volatile struct anonymous *addr, struct anonymous old_val, struct anonymous new_val)
 {
-  signed int return_value_AO_compare_double_and_swap_double_full$1;
-  return_value_AO_compare_double_and_swap_double_full$1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
-  return return_value_AO_compare_double_and_swap_double_full$1;
+  signed int return_value_AO_compare_double_and_swap_double_full_1;
+  return_value_AO_compare_double_and_swap_double_full_1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
+  return return_value_AO_compare_double_and_swap_double_full_1;
 }
 
 // AO_double_compare_and_swap_read
 // file ../src/atomic_ops/generalize.h line 620
 static inline signed int AO_double_compare_and_swap_read(volatile struct anonymous *addr, struct anonymous old_val, struct anonymous new_val)
 {
-  signed int return_value_AO_compare_double_and_swap_double_full$1;
-  return_value_AO_compare_double_and_swap_double_full$1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
-  return return_value_AO_compare_double_and_swap_double_full$1;
+  signed int return_value_AO_compare_double_and_swap_double_full_1;
+  return_value_AO_compare_double_and_swap_double_full_1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
+  return return_value_AO_compare_double_and_swap_double_full_1;
 }
 
 // AO_double_compare_and_swap_release
 // file ../src/atomic_ops/generalize.h line 596
 static inline signed int AO_double_compare_and_swap_release(volatile struct anonymous *addr, struct anonymous old_val, struct anonymous new_val)
 {
-  signed int return_value_AO_compare_double_and_swap_double_full$1;
-  return_value_AO_compare_double_and_swap_double_full$1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
-  return return_value_AO_compare_double_and_swap_double_full$1;
+  signed int return_value_AO_compare_double_and_swap_double_full_1;
+  return_value_AO_compare_double_and_swap_double_full_1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
+  return return_value_AO_compare_double_and_swap_double_full_1;
 }
 
 // AO_double_compare_and_swap_release_write
 // file ../src/atomic_ops/generalize.h line 644
 static inline signed int AO_double_compare_and_swap_release_write(volatile struct anonymous *addr, struct anonymous old_val, struct anonymous new_val)
 {
-  signed int return_value_AO_compare_double_and_swap_double_full$1;
-  return_value_AO_compare_double_and_swap_double_full$1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
-  return return_value_AO_compare_double_and_swap_double_full$1;
+  signed int return_value_AO_compare_double_and_swap_double_full_1;
+  return_value_AO_compare_double_and_swap_double_full_1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
+  return return_value_AO_compare_double_and_swap_double_full_1;
 }
 
 // AO_double_compare_and_swap_write
 // file ../src/atomic_ops/generalize.h line 632
 static inline signed int AO_double_compare_and_swap_write(volatile struct anonymous *addr, struct anonymous old_val, struct anonymous new_val)
 {
-  signed int return_value_AO_compare_double_and_swap_double_full$1;
-  return_value_AO_compare_double_and_swap_double_full$1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
-  return return_value_AO_compare_double_and_swap_double_full$1;
+  signed int return_value_AO_compare_double_and_swap_double_full_1;
+  return_value_AO_compare_double_and_swap_double_full_1=AO_compare_double_and_swap_double_full(addr, old_val.AO_val1, old_val.AO_val2, new_val.AO_val1, new_val.AO_val2);
+  return return_value_AO_compare_double_and_swap_double_full_1;
 }
 
 // AO_double_load_full
@@ -979,13 +979,13 @@ static inline void AO_double_store_full(volatile struct anonymous *addr, struct 
 static inline unsigned long int AO_fetch_and_add(volatile unsigned long int *addr, unsigned long int incr)
 {
   unsigned long int old;
-  signed int return_value_AO_compare_and_swap$1;
+  signed int return_value_AO_compare_and_swap_1;
   do
   {
     old = *((unsigned long int *)addr);
-    return_value_AO_compare_and_swap$1=AO_compare_and_swap(addr, old, old + incr);
+    return_value_AO_compare_and_swap_1=AO_compare_and_swap(addr, old, old + incr);
   }
-  while(return_value_AO_compare_and_swap$1 == 0);
+  while(return_value_AO_compare_and_swap_1 == 0);
   return old;
 }
 
@@ -994,13 +994,13 @@ static inline unsigned long int AO_fetch_and_add(volatile unsigned long int *add
 static inline unsigned long int AO_fetch_and_add_acquire(volatile unsigned long int *addr, unsigned long int incr)
 {
   unsigned long int old;
-  signed int return_value_AO_compare_and_swap_acquire$1;
+  signed int return_value_AO_compare_and_swap_acquire_1;
   do
   {
     old = *((unsigned long int *)addr);
-    return_value_AO_compare_and_swap_acquire$1=AO_compare_and_swap_acquire(addr, old, old + incr);
+    return_value_AO_compare_and_swap_acquire_1=AO_compare_and_swap_acquire(addr, old, old + incr);
   }
-  while(return_value_AO_compare_and_swap_acquire$1 == 0);
+  while(return_value_AO_compare_and_swap_acquire_1 == 0);
   return old;
 }
 
@@ -1021,13 +1021,13 @@ static inline unsigned long int AO_fetch_and_add_full(volatile unsigned long int
 static inline unsigned long int AO_fetch_and_add_release(volatile unsigned long int *addr, unsigned long int incr)
 {
   unsigned long int old;
-  signed int return_value_AO_compare_and_swap_release$1;
+  signed int return_value_AO_compare_and_swap_release_1;
   do
   {
     old = *((unsigned long int *)addr);
-    return_value_AO_compare_and_swap_release$1=AO_compare_and_swap_release(addr, old, old + incr);
+    return_value_AO_compare_and_swap_release_1=AO_compare_and_swap_release(addr, old, old + incr);
   }
-  while(return_value_AO_compare_and_swap_release$1 == 0);
+  while(return_value_AO_compare_and_swap_release_1 == 0);
   return old;
 }
 
@@ -1037,15 +1037,15 @@ unsigned long int AO_fetch_compare_and_swap_emulation(volatile unsigned long int
 {
   unsigned char *my_lock = AO_locks + (signed long int)((unsigned long int)addr >> 12 & (unsigned long int)(16 - 1));
   unsigned long int fetched_val;
-  struct anonymous$3 old_sigs;
+  struct anonymous_3 old_sigs;
   block_all_signals(&old_sigs);
-  lock$link1(my_lock);
+  lock_link1(my_lock);
   fetched_val = *addr;
   if(fetched_val == old_val)
     *addr = new_val;
 
   unlock(my_lock);
-  sigprocmask(2, &old_sigs, (struct anonymous$3 *)(void *)0);
+  sigprocmask(2, &old_sigs, (struct anonymous_3 *)(void *)0);
   return fetched_val;
 }
 
@@ -1067,27 +1067,27 @@ static inline unsigned long int AO_fetch_compare_and_swap_full(volatile unsigned
 // file ../src/atomic_ops/generalize-arithm.h line 1777
 static inline signed int AO_int_compare_and_swap(volatile unsigned int *addr, unsigned int old_val, unsigned int new_val)
 {
-  unsigned int return_value_AO_int_fetch_compare_and_swap_full$1;
-  return_value_AO_int_fetch_compare_and_swap_full$1=AO_int_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_int_fetch_compare_and_swap_full$1 == old_val);
+  unsigned int return_value_AO_int_fetch_compare_and_swap_full_1;
+  return_value_AO_int_fetch_compare_and_swap_full_1=AO_int_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_int_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_int_compare_and_swap_acquire
 // file ../src/atomic_ops/generalize-arithm.h line 1729
 static inline signed int AO_int_compare_and_swap_acquire(volatile unsigned int *addr, unsigned int old_val, unsigned int new_val)
 {
-  unsigned int return_value_AO_int_fetch_compare_and_swap_full$1;
-  return_value_AO_int_fetch_compare_and_swap_full$1=AO_int_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_int_fetch_compare_and_swap_full$1 == old_val);
+  unsigned int return_value_AO_int_fetch_compare_and_swap_full_1;
+  return_value_AO_int_fetch_compare_and_swap_full_1=AO_int_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_int_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_int_compare_and_swap_release
 // file ../src/atomic_ops/generalize-arithm.h line 1741
 static inline signed int AO_int_compare_and_swap_release(volatile unsigned int *addr, unsigned int old_val, unsigned int new_val)
 {
-  unsigned int return_value_AO_int_fetch_compare_and_swap_full$1;
-  return_value_AO_int_fetch_compare_and_swap_full$1=AO_int_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_int_fetch_compare_and_swap_full$1 == old_val);
+  unsigned int return_value_AO_int_fetch_compare_and_swap_full_1;
+  return_value_AO_int_fetch_compare_and_swap_full_1=AO_int_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_int_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_int_fetch_and_add
@@ -1095,13 +1095,13 @@ static inline signed int AO_int_compare_and_swap_release(volatile unsigned int *
 static inline unsigned int AO_int_fetch_and_add(volatile unsigned int *addr, unsigned int incr)
 {
   unsigned int old;
-  signed int return_value_AO_int_compare_and_swap$1;
+  signed int return_value_AO_int_compare_and_swap_1;
   do
   {
     old = *((unsigned int *)addr);
-    return_value_AO_int_compare_and_swap$1=AO_int_compare_and_swap(addr, old, old + incr);
+    return_value_AO_int_compare_and_swap_1=AO_int_compare_and_swap(addr, old, old + incr);
   }
-  while(return_value_AO_int_compare_and_swap$1 == 0);
+  while(return_value_AO_int_compare_and_swap_1 == 0);
   return old;
 }
 
@@ -1110,13 +1110,13 @@ static inline unsigned int AO_int_fetch_and_add(volatile unsigned int *addr, uns
 static inline unsigned int AO_int_fetch_and_add_acquire(volatile unsigned int *addr, unsigned int incr)
 {
   unsigned int old;
-  signed int return_value_AO_int_compare_and_swap_acquire$1;
+  signed int return_value_AO_int_compare_and_swap_acquire_1;
   do
   {
     old = *((unsigned int *)addr);
-    return_value_AO_int_compare_and_swap_acquire$1=AO_int_compare_and_swap_acquire(addr, old, old + incr);
+    return_value_AO_int_compare_and_swap_acquire_1=AO_int_compare_and_swap_acquire(addr, old, old + incr);
   }
-  while(return_value_AO_int_compare_and_swap_acquire$1 == 0);
+  while(return_value_AO_int_compare_and_swap_acquire_1 == 0);
   return old;
 }
 
@@ -1137,13 +1137,13 @@ static inline unsigned int AO_int_fetch_and_add_full(volatile unsigned int *p, u
 static inline unsigned int AO_int_fetch_and_add_release(volatile unsigned int *addr, unsigned int incr)
 {
   unsigned int old;
-  signed int return_value_AO_int_compare_and_swap_release$1;
+  signed int return_value_AO_int_compare_and_swap_release_1;
   do
   {
     old = *((unsigned int *)addr);
-    return_value_AO_int_compare_and_swap_release$1=AO_int_compare_and_swap_release(addr, old, old + incr);
+    return_value_AO_int_compare_and_swap_release_1=AO_int_compare_and_swap_release(addr, old, old + incr);
   }
-  while(return_value_AO_int_compare_and_swap_release$1 == 0);
+  while(return_value_AO_int_compare_and_swap_release_1 == 0);
   return old;
 }
 
@@ -1259,7 +1259,7 @@ void AO_pause(signed int n)
     struct timeval tv;
     tv.tv_sec = (signed long int)0;
     tv.tv_usec = (signed long int)(n > 28 ? 100000 : 1 << n - 12);
-    select(0, ((struct anonymous$5 *)NULL), ((struct anonymous$5 *)NULL), ((struct anonymous$5 *)NULL), &tv);
+    select(0, ((struct anonymous_5 *)NULL), ((struct anonymous_5 *)NULL), ((struct anonymous_5 *)NULL), &tv);
   }
 }
 
@@ -1267,27 +1267,27 @@ void AO_pause(signed int n)
 // file ../src/atomic_ops/generalize-arithm.h line 932
 static inline signed int AO_short_compare_and_swap(volatile unsigned short int *addr, unsigned short int old_val, unsigned short int new_val)
 {
-  unsigned short int return_value_AO_short_fetch_compare_and_swap_full$1;
-  return_value_AO_short_fetch_compare_and_swap_full$1=AO_short_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_short_fetch_compare_and_swap_full$1 == old_val);
+  unsigned short int return_value_AO_short_fetch_compare_and_swap_full_1;
+  return_value_AO_short_fetch_compare_and_swap_full_1=AO_short_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_short_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_short_compare_and_swap_acquire
 // file ../src/atomic_ops/generalize-arithm.h line 884
 static inline signed int AO_short_compare_and_swap_acquire(volatile unsigned short int *addr, unsigned short int old_val, unsigned short int new_val)
 {
-  unsigned short int return_value_AO_short_fetch_compare_and_swap_full$1;
-  return_value_AO_short_fetch_compare_and_swap_full$1=AO_short_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_short_fetch_compare_and_swap_full$1 == old_val);
+  unsigned short int return_value_AO_short_fetch_compare_and_swap_full_1;
+  return_value_AO_short_fetch_compare_and_swap_full_1=AO_short_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_short_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_short_compare_and_swap_release
 // file ../src/atomic_ops/generalize-arithm.h line 896
 static inline signed int AO_short_compare_and_swap_release(volatile unsigned short int *addr, unsigned short int old_val, unsigned short int new_val)
 {
-  unsigned short int return_value_AO_short_fetch_compare_and_swap_full$1;
-  return_value_AO_short_fetch_compare_and_swap_full$1=AO_short_fetch_compare_and_swap_full(addr, old_val, new_val);
-  return (signed int)(return_value_AO_short_fetch_compare_and_swap_full$1 == old_val);
+  unsigned short int return_value_AO_short_fetch_compare_and_swap_full_1;
+  return_value_AO_short_fetch_compare_and_swap_full_1=AO_short_fetch_compare_and_swap_full(addr, old_val, new_val);
+  return (signed int)(return_value_AO_short_fetch_compare_and_swap_full_1 == old_val);
 }
 
 // AO_short_fetch_and_add
@@ -1295,13 +1295,13 @@ static inline signed int AO_short_compare_and_swap_release(volatile unsigned sho
 static inline unsigned short int AO_short_fetch_and_add(volatile unsigned short int *addr, unsigned short int incr)
 {
   unsigned short int old;
-  signed int return_value_AO_short_compare_and_swap$1;
+  signed int return_value_AO_short_compare_and_swap_1;
   do
   {
     old = *((unsigned short int *)addr);
-    return_value_AO_short_compare_and_swap$1=AO_short_compare_and_swap(addr, old, (unsigned short int)((signed int)old + (signed int)incr));
+    return_value_AO_short_compare_and_swap_1=AO_short_compare_and_swap(addr, old, (unsigned short int)((signed int)old + (signed int)incr));
   }
-  while(return_value_AO_short_compare_and_swap$1 == 0);
+  while(return_value_AO_short_compare_and_swap_1 == 0);
   return old;
 }
 
@@ -1310,13 +1310,13 @@ static inline unsigned short int AO_short_fetch_and_add(volatile unsigned short 
 static inline unsigned short int AO_short_fetch_and_add_acquire(volatile unsigned short int *addr, unsigned short int incr)
 {
   unsigned short int old;
-  signed int return_value_AO_short_compare_and_swap_acquire$1;
+  signed int return_value_AO_short_compare_and_swap_acquire_1;
   do
   {
     old = *((unsigned short int *)addr);
-    return_value_AO_short_compare_and_swap_acquire$1=AO_short_compare_and_swap_acquire(addr, old, (unsigned short int)((signed int)old + (signed int)incr));
+    return_value_AO_short_compare_and_swap_acquire_1=AO_short_compare_and_swap_acquire(addr, old, (unsigned short int)((signed int)old + (signed int)incr));
   }
-  while(return_value_AO_short_compare_and_swap_acquire$1 == 0);
+  while(return_value_AO_short_compare_and_swap_acquire_1 == 0);
   return old;
 }
 
@@ -1337,13 +1337,13 @@ static inline unsigned short int AO_short_fetch_and_add_full(volatile unsigned s
 static inline unsigned short int AO_short_fetch_and_add_release(volatile unsigned short int *addr, unsigned short int incr)
 {
   unsigned short int old;
-  signed int return_value_AO_short_compare_and_swap_release$1;
+  signed int return_value_AO_short_compare_and_swap_release_1;
   do
   {
     old = *((unsigned short int *)addr);
-    return_value_AO_short_compare_and_swap_release$1=AO_short_compare_and_swap_release(addr, old, (unsigned short int)((signed int)old + (signed int)incr));
+    return_value_AO_short_compare_and_swap_release_1=AO_short_compare_and_swap_release(addr, old, (unsigned short int)((signed int)old + (signed int)incr));
   }
-  while(return_value_AO_short_compare_and_swap_release$1 == 0);
+  while(return_value_AO_short_compare_and_swap_release_1 == 0);
   return old;
 }
 
@@ -1388,12 +1388,12 @@ static void AO_spin(signed int n)
   unsigned long int j;
   j=AO_load(&spin_dummy);
   signed int i = 2 << n;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
     j = j + (j - (unsigned long int)1 << 2);
@@ -1423,30 +1423,30 @@ static inline void AO_store_full(volatile unsigned long int *addr, unsigned long
 void AO_store_full_emulation(volatile unsigned long int *addr, unsigned long int val)
 {
   unsigned char *my_lock = AO_locks + (signed long int)((unsigned long int)addr >> 12 & (unsigned long int)(16 - 1));
-  lock$link1(my_lock);
+  lock_link1(my_lock);
   *addr = val;
   unlock(my_lock);
 }
 
 // AO_test_and_set_full
 // file ../src/atomic_ops/sysdeps/generic_pthread.h line 129
-static inline enum anonymous$1 AO_test_and_set_full(volatile unsigned long int *addr)
+static inline enum anonymous_1 AO_test_and_set_full(volatile unsigned long int *addr)
 {
-  enum anonymous$1 result;
+  enum anonymous_1 result;
   pthread_mutex_lock(&AO_pt_lock);
-  result = (enum anonymous$1)*addr;
+  result = (enum anonymous_1)*addr;
   *addr = (volatile unsigned long int)AO_TS_set;
   pthread_mutex_unlock(&AO_pt_lock);
   return result;
 }
 
-// AO_test_and_set_full$link1
+// AO_test_and_set_full_link1
 // file atomic_ops/sysdeps/gcc/x86.h line 124
-static inline enum anonymous$2 AO_test_and_set_full$link1(volatile unsigned char *addr$link1)
+static inline enum anonymous_2 AO_test_and_set_full_link1(volatile unsigned char *addr_link1)
 {
   unsigned char oldval;
-  asm("xchgb %0, %1" : "=q"(oldval), "=m"(*addr$link1) : "0"((unsigned char)0xff), "m"(*addr$link1) : "memory");
-  return (enum anonymous$2)oldval;
+  asm("xchgb %0, %1" : "=q"(oldval), "=m"(*addr_link1) : "0"((unsigned char)0xff), "m"(*addr_link1) : "memory");
+  return (enum anonymous_2)oldval;
 }
 
 // AO_xor_full
@@ -1536,13 +1536,13 @@ void * add1sub1_thr(void *id)
 
 // block_all_signals
 // file atomic_ops.c line 130
-static inline void block_all_signals(struct anonymous$3 *old_sigs_ptr)
+static inline void block_all_signals(struct anonymous_3 *old_sigs_ptr)
 {
-  unsigned long int return_value_AO_load_read$1;
-  return_value_AO_load_read$1=AO_load_read(&initialized);
-  if(return_value_AO_load_read$1 == 0ul)
+  unsigned long int return_value_AO_load_read_1;
+  return_value_AO_load_read_1=AO_load_read(&initialized);
+  if(return_value_AO_load_read_1 == 0ul)
   {
-    lock$link1(&init_lock);
+    lock_link1(&init_lock);
     if(initialized == 0ul)
       sigfillset(&all_sigs);
 
@@ -1554,13 +1554,13 @@ static inline void block_all_signals(struct anonymous$3 *old_sigs_ptr)
   sigprocmask(0, &all_sigs, old_sigs_ptr);
 }
 
-// lock$link1
+// lock_link1
 // file atomic_ops.c line 114
-static inline void lock$link1(volatile unsigned char *l)
+static inline void lock_link1(volatile unsigned char *l)
 {
-  enum anonymous$2 return_value_AO_test_and_set_full$1;
-  return_value_AO_test_and_set_full$1=AO_test_and_set_full$link1(l);
-  if((signed int)return_value_AO_test_and_set_full$1 == AO_BYTE_TS_set)
+  enum anonymous_2 return_value_AO_test_and_set_full_1;
+  return_value_AO_test_and_set_full_1=AO_test_and_set_full_link1(l);
+  if((signed int)return_value_AO_test_and_set_full_1 == AO_BYTE_TS_set)
     lock_ool(l);
 
 }
@@ -1570,11 +1570,11 @@ static inline void lock$link1(volatile unsigned char *l)
 static void lock_ool(volatile unsigned char *l)
 {
   signed int i = 0;
-  enum anonymous$2 return_value_AO_test_and_set_full$1;
+  enum anonymous_2 return_value_AO_test_and_set_full_1;
   do
   {
-    return_value_AO_test_and_set_full$1=AO_test_and_set_full$link1(l);
-    if(!((signed int)return_value_AO_test_and_set_full$1 == AO_BYTE_TS_set))
+    return_value_AO_test_and_set_full_1=AO_test_and_set_full_link1(l);
+    if(!((signed int)return_value_AO_test_and_set_full_1 == AO_BYTE_TS_set))
       break;
 
     i = i + 1;
@@ -1664,13 +1664,13 @@ signed int test_and_set_test(void)
 void * test_and_set_thr(void *id)
 {
   unsigned long int i = (unsigned long int)0;
-  enum anonymous$1 return_value_AO_test_and_set_full$1;
+  enum anonymous_1 return_value_AO_test_and_set_full_1;
   for( ; !(i >= 10000ul); i = i + 1ul)
   {
     do
     {
-      return_value_AO_test_and_set_full$1=AO_test_and_set_full(&lock);
-      if((signed int)return_value_AO_test_and_set_full$1 == AO_TS_clear)
+      return_value_AO_test_and_set_full_1=AO_test_and_set_full(&lock);
+      if((signed int)return_value_AO_test_and_set_full_1 == AO_TS_clear)
         break;
 
     }
@@ -1722,173 +1722,173 @@ void test_atomic(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_load_full$1;
-  return_value_AO_load_full$1=AO_load_full(&x);
-  if(!(return_value_AO_load_full$1 == 13ul))
+  unsigned long int return_value_AO_load_full_1;
+  return_value_AO_load_full_1=AO_load_full(&x);
+  if(!(return_value_AO_load_full_1 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 61);
     exit(1);
   }
 
   AO_store_full((unsigned long int *)&z, (unsigned long int)AO_TS_clear);
-  unsigned long int return_value_AO_fetch_and_add$2;
-  return_value_AO_fetch_and_add$2=AO_fetch_and_add(&x, (unsigned long int)42);
-  if(!(return_value_AO_fetch_and_add$2 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_2;
+  return_value_AO_fetch_and_add_2=AO_fetch_and_add(&x, (unsigned long int)42);
+  if(!(return_value_AO_fetch_and_add_2 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 77);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add$3;
-  return_value_AO_fetch_and_add$3=AO_fetch_and_add(&x, (unsigned long int)-42);
-  if(!(return_value_AO_fetch_and_add$3 == 55ul))
+  unsigned long int return_value_AO_fetch_and_add_3;
+  return_value_AO_fetch_and_add_3=AO_fetch_and_add(&x, (unsigned long int)-42);
+  if(!(return_value_AO_fetch_and_add_3 == 55ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 78);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add$4;
-  return_value_AO_fetch_and_add$4=AO_fetch_and_add(&x, (unsigned long int)1);
-  if(!(return_value_AO_fetch_and_add$4 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_4;
+  return_value_AO_fetch_and_add_4=AO_fetch_and_add(&x, (unsigned long int)1);
+  if(!(return_value_AO_fetch_and_add_4 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 83);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add$5;
-  return_value_AO_fetch_and_add$5=AO_fetch_and_add(&x, (unsigned long int)-1);
-  if(!(return_value_AO_fetch_and_add$5 == 14ul))
+  unsigned long int return_value_AO_fetch_and_add_5;
+  return_value_AO_fetch_and_add_5=AO_fetch_and_add(&x, (unsigned long int)-1);
+  if(!(return_value_AO_fetch_and_add_5 == 14ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 89);
     exit(1);
   }
 
   AO_short_store_full(&s, (unsigned short int)13);
-  unsigned short int return_value_AO_short_load_full$6;
-  return_value_AO_short_load_full$6=AO_short_load_full(&s);
-  if(!((signed int)return_value_AO_short_load_full$6 == 13))
+  unsigned short int return_value_AO_short_load_full_6;
+  return_value_AO_short_load_full_6=AO_short_load_full(&s);
+  if(!((signed int)return_value_AO_short_load_full_6 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 106);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add$7;
-  return_value_AO_short_fetch_and_add$7=AO_short_fetch_and_add(&s, (unsigned short int)42);
-  if(!((signed int)return_value_AO_short_fetch_and_add$7 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_7;
+  return_value_AO_short_fetch_and_add_7=AO_short_fetch_and_add(&s, (unsigned short int)42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_7 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 115);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add$8;
-  return_value_AO_short_fetch_and_add$8=AO_short_fetch_and_add(&s, (unsigned short int)-42);
-  if(!((signed int)return_value_AO_short_fetch_and_add$8 == 55))
+  unsigned short int return_value_AO_short_fetch_and_add_8;
+  return_value_AO_short_fetch_and_add_8=AO_short_fetch_and_add(&s, (unsigned short int)-42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_8 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 116);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add$9;
-  return_value_AO_short_fetch_and_add$9=AO_short_fetch_and_add(&s, (unsigned short int)1);
-  if(!((signed int)return_value_AO_short_fetch_and_add$9 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_9;
+  return_value_AO_short_fetch_and_add_9=AO_short_fetch_and_add(&s, (unsigned short int)1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_9 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 121);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add$10;
-  return_value_AO_short_fetch_and_add$10=AO_short_fetch_and_add(&s, (unsigned short int)-1);
-  if(!((signed int)return_value_AO_short_fetch_and_add$10 == 14))
+  unsigned short int return_value_AO_short_fetch_and_add_10;
+  return_value_AO_short_fetch_and_add_10=AO_short_fetch_and_add(&s, (unsigned short int)-1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_10 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 127);
     exit(1);
   }
 
   AO_char_store_full(&b, (unsigned char)13);
-  unsigned char return_value_AO_char_load_full$11;
-  return_value_AO_char_load_full$11=AO_char_load_full(&b);
-  if(!((signed int)return_value_AO_char_load_full$11 == 13))
+  unsigned char return_value_AO_char_load_full_11;
+  return_value_AO_char_load_full_11=AO_char_load_full(&b);
+  if(!((signed int)return_value_AO_char_load_full_11 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 144);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add$12;
-  return_value_AO_char_fetch_and_add$12=AO_char_fetch_and_add(&b, (unsigned char)42);
-  if(!((signed int)return_value_AO_char_fetch_and_add$12 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_12;
+  return_value_AO_char_fetch_and_add_12=AO_char_fetch_and_add(&b, (unsigned char)42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_12 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 152);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add$13;
-  return_value_AO_char_fetch_and_add$13=AO_char_fetch_and_add(&b, (unsigned char)-42);
-  if(!((signed int)return_value_AO_char_fetch_and_add$13 == 55))
+  unsigned char return_value_AO_char_fetch_and_add_13;
+  return_value_AO_char_fetch_and_add_13=AO_char_fetch_and_add(&b, (unsigned char)-42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_13 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 153);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add$14;
-  return_value_AO_char_fetch_and_add$14=AO_char_fetch_and_add(&b, (unsigned char)1);
-  if(!((signed int)return_value_AO_char_fetch_and_add$14 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_14;
+  return_value_AO_char_fetch_and_add_14=AO_char_fetch_and_add(&b, (unsigned char)1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_14 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 158);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add$15;
-  return_value_AO_char_fetch_and_add$15=AO_char_fetch_and_add(&b, (unsigned char)-1);
-  if(!((signed int)return_value_AO_char_fetch_and_add$15 == 14))
+  unsigned char return_value_AO_char_fetch_and_add_15;
+  return_value_AO_char_fetch_and_add_15=AO_char_fetch_and_add(&b, (unsigned char)-1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_15 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 164);
     exit(1);
   }
 
   AO_int_store_full(&zz, (unsigned int)13);
-  unsigned int return_value_AO_int_load_full$16;
-  return_value_AO_int_load_full$16=AO_int_load_full(&zz);
-  if(!(return_value_AO_int_load_full$16 == 13u))
+  unsigned int return_value_AO_int_load_full_16;
+  return_value_AO_int_load_full_16=AO_int_load_full(&zz);
+  if(!(return_value_AO_int_load_full_16 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 181);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add$17;
-  return_value_AO_int_fetch_and_add$17=AO_int_fetch_and_add(&zz, (unsigned int)42);
-  if(!(return_value_AO_int_fetch_and_add$17 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_17;
+  return_value_AO_int_fetch_and_add_17=AO_int_fetch_and_add(&zz, (unsigned int)42);
+  if(!(return_value_AO_int_fetch_and_add_17 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 189);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add$18;
-  return_value_AO_int_fetch_and_add$18=AO_int_fetch_and_add(&zz, (unsigned int)-42);
-  if(!(return_value_AO_int_fetch_and_add$18 == 55u))
+  unsigned int return_value_AO_int_fetch_and_add_18;
+  return_value_AO_int_fetch_and_add_18=AO_int_fetch_and_add(&zz, (unsigned int)-42);
+  if(!(return_value_AO_int_fetch_and_add_18 == 55u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 190);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add$19;
-  return_value_AO_int_fetch_and_add$19=AO_int_fetch_and_add(&zz, (unsigned int)1);
-  if(!(return_value_AO_int_fetch_and_add$19 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_19;
+  return_value_AO_int_fetch_and_add_19=AO_int_fetch_and_add(&zz, (unsigned int)1);
+  if(!(return_value_AO_int_fetch_and_add_19 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 195);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add$20;
-  return_value_AO_int_fetch_and_add$20=AO_int_fetch_and_add(&zz, (unsigned int)-1);
-  if(!(return_value_AO_int_fetch_and_add$20 == 14u))
+  unsigned int return_value_AO_int_fetch_and_add_20;
+  return_value_AO_int_fetch_and_add_20=AO_int_fetch_and_add(&zz, (unsigned int)-1);
+  if(!(return_value_AO_int_fetch_and_add_20 == 14u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 201);
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap$21;
-  return_value_AO_compare_and_swap$21=AO_compare_and_swap(&x, (unsigned long int)14, (unsigned long int)42);
-  if(!(return_value_AO_compare_and_swap$21 == 0))
+  signed int return_value_AO_compare_and_swap_21;
+  return_value_AO_compare_and_swap_21=AO_compare_and_swap(&x, (unsigned long int)14, (unsigned long int)42);
+  if(!(return_value_AO_compare_and_swap_21 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 207);
     exit(1);
@@ -1900,9 +1900,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap$22;
-  return_value_AO_compare_and_swap$22=AO_compare_and_swap(&x, (unsigned long int)13, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap$22 == 0)
+  signed int return_value_AO_compare_and_swap_22;
+  return_value_AO_compare_and_swap_22=AO_compare_and_swap(&x, (unsigned long int)13, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_22 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 209);
     exit(1);
@@ -1935,9 +1935,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$23;
-  return_value_AO_fetch_compare_and_swap_full$23=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$23 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_23;
+  return_value_AO_fetch_compare_and_swap_full_23=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_23 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 237);
     exit(1);
@@ -1949,9 +1949,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$24;
-  return_value_AO_fetch_compare_and_swap_full$24=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$24 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_24;
+  return_value_AO_fetch_compare_and_swap_full_24=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_24 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 239);
     exit(1);
@@ -1997,9 +1997,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$25;
-  return_value_AO_compare_double_and_swap_double_full$25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_double_and_swap_double_full$25 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_25;
+  return_value_AO_compare_double_and_swap_double_full_25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_double_and_swap_double_full_25 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 277);
     exit(1);
@@ -2011,9 +2011,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$26;
-  return_value_AO_compare_double_and_swap_double_full$26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_double_and_swap_double_full$26 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_26;
+  return_value_AO_compare_double_and_swap_double_full_26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_double_and_swap_double_full_26 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 279);
     exit(1);
@@ -2025,9 +2025,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$27;
-  return_value_AO_compare_double_and_swap_double_full$27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
-  if(!(return_value_AO_compare_double_and_swap_double_full$27 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_27;
+  return_value_AO_compare_double_and_swap_double_full_27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
+  if(!(return_value_AO_compare_double_and_swap_double_full_27 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 281);
     exit(1);
@@ -2039,9 +2039,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$28;
-  return_value_AO_compare_double_and_swap_double_full$28=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
-  if(!(return_value_AO_compare_double_and_swap_double_full$28 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_28;
+  return_value_AO_compare_double_and_swap_double_full_28=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
+  if(!(return_value_AO_compare_double_and_swap_double_full_28 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 283);
     exit(1);
@@ -2053,9 +2053,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$29;
-  return_value_AO_compare_double_and_swap_double_full$29=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(!(return_value_AO_compare_double_and_swap_double_full$29 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_29;
+  return_value_AO_compare_double_and_swap_double_full_29=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(!(return_value_AO_compare_double_and_swap_double_full_29 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 285);
     exit(1);
@@ -2067,9 +2067,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$30;
-  return_value_AO_compare_double_and_swap_double_full$30=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_double_and_swap_double_full$30 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_30;
+  return_value_AO_compare_double_and_swap_double_full_30=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_double_and_swap_double_full_30 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 287);
     exit(1);
@@ -2081,9 +2081,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$31;
-  return_value_AO_compare_double_and_swap_double_full$31=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_double_and_swap_double_full$31 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_31;
+  return_value_AO_compare_double_and_swap_double_full_31=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_double_and_swap_double_full_31 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 289);
     exit(1);
@@ -2095,9 +2095,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$32;
-  return_value_AO_compare_and_swap_double_full$32=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_and_swap_double_full$32 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_32;
+  return_value_AO_compare_and_swap_double_full_32=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_and_swap_double_full_32 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 295);
     exit(1);
@@ -2109,9 +2109,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$33;
-  return_value_AO_compare_and_swap_double_full$33=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_and_swap_double_full$33 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_33;
+  return_value_AO_compare_and_swap_double_full_33=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_and_swap_double_full_33 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 297);
     exit(1);
@@ -2123,9 +2123,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$34;
-  return_value_AO_compare_and_swap_double_full$34=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
-  if(!(return_value_AO_compare_and_swap_double_full$34 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_34;
+  return_value_AO_compare_and_swap_double_full_34=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
+  if(!(return_value_AO_compare_and_swap_double_full_34 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 299);
     exit(1);
@@ -2137,9 +2137,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$35;
-  return_value_AO_compare_and_swap_double_full$35=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
-  if(!(return_value_AO_compare_and_swap_double_full$35 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_35;
+  return_value_AO_compare_and_swap_double_full_35=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
+  if(!(return_value_AO_compare_and_swap_double_full_35 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 301);
     exit(1);
@@ -2151,9 +2151,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$36;
-  return_value_AO_compare_and_swap_double_full$36=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_double_full$36 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_36;
+  return_value_AO_compare_and_swap_double_full_36=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_double_full_36 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 303);
     exit(1);
@@ -2165,9 +2165,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$37;
-  return_value_AO_compare_and_swap_double_full$37=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_and_swap_double_full$37 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_37;
+  return_value_AO_compare_and_swap_double_full_37=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_and_swap_double_full_37 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 305);
     exit(1);
@@ -2183,9 +2183,9 @@ void test_atomic(void)
   old_w.AO_val2 = (unsigned long int)2121;
   new_w.AO_val1 = (unsigned long int)8537;
   new_w.AO_val2 = (unsigned long int)6410;
-  signed int return_value_AO_double_compare_and_swap$38;
-  return_value_AO_double_compare_and_swap$38=AO_double_compare_and_swap(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap$38 == 0))
+  signed int return_value_AO_double_compare_and_swap_38;
+  return_value_AO_double_compare_and_swap_38=AO_double_compare_and_swap(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_38 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 315);
     exit(1);
@@ -2197,9 +2197,9 @@ void test_atomic(void)
     exit(1);
   }
 
-  signed int return_value_AO_double_compare_and_swap$39;
-  return_value_AO_double_compare_and_swap$39=AO_double_compare_and_swap(&w, w, new_w);
-  if(return_value_AO_double_compare_and_swap$39 == 0)
+  signed int return_value_AO_double_compare_and_swap_39;
+  return_value_AO_double_compare_and_swap_39=AO_double_compare_and_swap(&w, w, new_w);
+  if(return_value_AO_double_compare_and_swap_39 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 317);
     exit(1);
@@ -2215,9 +2215,9 @@ void test_atomic(void)
   old_w.AO_val2 = (unsigned long int)29;
   new_w.AO_val1 = (unsigned long int)820;
   new_w.AO_val2 = (unsigned long int)5917;
-  signed int return_value_AO_double_compare_and_swap$40;
-  return_value_AO_double_compare_and_swap$40=AO_double_compare_and_swap(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap$40 == 0))
+  signed int return_value_AO_double_compare_and_swap_40;
+  return_value_AO_double_compare_and_swap_40=AO_double_compare_and_swap(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_40 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 323);
     exit(1);
@@ -2233,9 +2233,9 @@ void test_atomic(void)
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)3552;
   new_w.AO_val2 = (unsigned long int)1746;
-  signed int return_value_AO_double_compare_and_swap$41;
-  return_value_AO_double_compare_and_swap$41=AO_double_compare_and_swap(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap$41 == 0))
+  signed int return_value_AO_double_compare_and_swap_41;
+  return_value_AO_double_compare_and_swap_41=AO_double_compare_and_swap(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_41 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 329);
     exit(1);
@@ -2251,9 +2251,9 @@ void test_atomic(void)
   old_w.AO_val2 = (unsigned long int)8537;
   new_w.AO_val1 = (unsigned long int)4116;
   new_w.AO_val2 = (unsigned long int)2121;
-  signed int return_value_AO_double_compare_and_swap$42;
-  return_value_AO_double_compare_and_swap$42=AO_double_compare_and_swap(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap$42 == 0))
+  signed int return_value_AO_double_compare_and_swap_42;
+  return_value_AO_double_compare_and_swap_42=AO_double_compare_and_swap(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_42 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 335);
     exit(1);
@@ -2268,9 +2268,9 @@ void test_atomic(void)
   old_w.AO_val1 = old_w.AO_val2;
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)1;
-  signed int return_value_AO_double_compare_and_swap$43;
-  return_value_AO_double_compare_and_swap$43=AO_double_compare_and_swap(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap$43 == 0)
+  signed int return_value_AO_double_compare_and_swap_43;
+  return_value_AO_double_compare_and_swap_43=AO_double_compare_and_swap(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_43 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 340);
     exit(1);
@@ -2286,9 +2286,9 @@ void test_atomic(void)
   old_w.AO_val2 = w.AO_val2;
   new_w.AO_val1 = new_w.AO_val1 - 1ul;
   new_w.AO_val2 = (unsigned long int)0;
-  signed int return_value_AO_double_compare_and_swap$44;
-  return_value_AO_double_compare_and_swap$44=AO_double_compare_and_swap(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap$44 == 0)
+  signed int return_value_AO_double_compare_and_swap_44;
+  return_value_AO_double_compare_and_swap_44=AO_double_compare_and_swap(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_44 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: )\n", (const void *)"test_atomic_include.h", 346);
     exit(1);
@@ -2317,173 +2317,173 @@ void test_atomic_acquire(void)
   w.AO_val1 = (unsigned long int)0;
   w.AO_val2 = (unsigned long int)0;
   x = (unsigned long int)13;
-  unsigned long int return_value_AO_load_full$1;
-  return_value_AO_load_full$1=AO_load_full(&x);
-  if(!(return_value_AO_load_full$1 == 13ul))
+  unsigned long int return_value_AO_load_full_1;
+  return_value_AO_load_full_1=AO_load_full(&x);
+  if(!(return_value_AO_load_full_1 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 763);
     exit(1);
   }
 
   AO_store_full((unsigned long int *)&z, (unsigned long int)AO_TS_clear);
-  unsigned long int return_value_AO_fetch_and_add_acquire$2;
-  return_value_AO_fetch_and_add_acquire$2=AO_fetch_and_add_acquire(&x, (unsigned long int)42);
-  if(!(return_value_AO_fetch_and_add_acquire$2 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_acquire_2;
+  return_value_AO_fetch_and_add_acquire_2=AO_fetch_and_add_acquire(&x, (unsigned long int)42);
+  if(!(return_value_AO_fetch_and_add_acquire_2 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 779);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_acquire$3;
-  return_value_AO_fetch_and_add_acquire$3=AO_fetch_and_add_acquire(&x, (unsigned long int)-42);
-  if(!(return_value_AO_fetch_and_add_acquire$3 == 55ul))
+  unsigned long int return_value_AO_fetch_and_add_acquire_3;
+  return_value_AO_fetch_and_add_acquire_3=AO_fetch_and_add_acquire(&x, (unsigned long int)-42);
+  if(!(return_value_AO_fetch_and_add_acquire_3 == 55ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 780);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_acquire$4;
-  return_value_AO_fetch_and_add_acquire$4=AO_fetch_and_add_acquire(&x, (unsigned long int)1);
-  if(!(return_value_AO_fetch_and_add_acquire$4 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_acquire_4;
+  return_value_AO_fetch_and_add_acquire_4=AO_fetch_and_add_acquire(&x, (unsigned long int)1);
+  if(!(return_value_AO_fetch_and_add_acquire_4 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 785);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_acquire$5;
-  return_value_AO_fetch_and_add_acquire$5=AO_fetch_and_add_acquire(&x, (unsigned long int)-1);
-  if(!(return_value_AO_fetch_and_add_acquire$5 == 14ul))
+  unsigned long int return_value_AO_fetch_and_add_acquire_5;
+  return_value_AO_fetch_and_add_acquire_5=AO_fetch_and_add_acquire(&x, (unsigned long int)-1);
+  if(!(return_value_AO_fetch_and_add_acquire_5 == 14ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 791);
     exit(1);
   }
 
   s = (unsigned short int)13;
-  unsigned short int return_value_AO_short_load_full$6;
-  return_value_AO_short_load_full$6=AO_short_load_full(&s);
-  if(!((signed int)return_value_AO_short_load_full$6 == 13))
+  unsigned short int return_value_AO_short_load_full_6;
+  return_value_AO_short_load_full_6=AO_short_load_full(&s);
+  if(!((signed int)return_value_AO_short_load_full_6 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 808);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_acquire$7;
-  return_value_AO_short_fetch_and_add_acquire$7=AO_short_fetch_and_add_acquire(&s, (unsigned short int)42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_acquire$7 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_acquire_7;
+  return_value_AO_short_fetch_and_add_acquire_7=AO_short_fetch_and_add_acquire(&s, (unsigned short int)42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_acquire_7 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 817);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_acquire$8;
-  return_value_AO_short_fetch_and_add_acquire$8=AO_short_fetch_and_add_acquire(&s, (unsigned short int)-42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_acquire$8 == 55))
+  unsigned short int return_value_AO_short_fetch_and_add_acquire_8;
+  return_value_AO_short_fetch_and_add_acquire_8=AO_short_fetch_and_add_acquire(&s, (unsigned short int)-42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_acquire_8 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 818);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_acquire$9;
-  return_value_AO_short_fetch_and_add_acquire$9=AO_short_fetch_and_add_acquire(&s, (unsigned short int)1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_acquire$9 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_acquire_9;
+  return_value_AO_short_fetch_and_add_acquire_9=AO_short_fetch_and_add_acquire(&s, (unsigned short int)1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_acquire_9 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 823);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_acquire$10;
-  return_value_AO_short_fetch_and_add_acquire$10=AO_short_fetch_and_add_acquire(&s, (unsigned short int)-1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_acquire$10 == 14))
+  unsigned short int return_value_AO_short_fetch_and_add_acquire_10;
+  return_value_AO_short_fetch_and_add_acquire_10=AO_short_fetch_and_add_acquire(&s, (unsigned short int)-1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_acquire_10 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 829);
     exit(1);
   }
 
   b = (unsigned char)13;
-  unsigned char return_value_AO_char_load_full$11;
-  return_value_AO_char_load_full$11=AO_char_load_full(&b);
-  if(!((signed int)return_value_AO_char_load_full$11 == 13))
+  unsigned char return_value_AO_char_load_full_11;
+  return_value_AO_char_load_full_11=AO_char_load_full(&b);
+  if(!((signed int)return_value_AO_char_load_full_11 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 846);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_acquire$12;
-  return_value_AO_char_fetch_and_add_acquire$12=AO_char_fetch_and_add_acquire(&b, (unsigned char)42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_acquire$12 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_acquire_12;
+  return_value_AO_char_fetch_and_add_acquire_12=AO_char_fetch_and_add_acquire(&b, (unsigned char)42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_acquire_12 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 854);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_acquire$13;
-  return_value_AO_char_fetch_and_add_acquire$13=AO_char_fetch_and_add_acquire(&b, (unsigned char)-42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_acquire$13 == 55))
+  unsigned char return_value_AO_char_fetch_and_add_acquire_13;
+  return_value_AO_char_fetch_and_add_acquire_13=AO_char_fetch_and_add_acquire(&b, (unsigned char)-42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_acquire_13 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 855);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_acquire$14;
-  return_value_AO_char_fetch_and_add_acquire$14=AO_char_fetch_and_add_acquire(&b, (unsigned char)1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_acquire$14 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_acquire_14;
+  return_value_AO_char_fetch_and_add_acquire_14=AO_char_fetch_and_add_acquire(&b, (unsigned char)1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_acquire_14 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 860);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_acquire$15;
-  return_value_AO_char_fetch_and_add_acquire$15=AO_char_fetch_and_add_acquire(&b, (unsigned char)-1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_acquire$15 == 14))
+  unsigned char return_value_AO_char_fetch_and_add_acquire_15;
+  return_value_AO_char_fetch_and_add_acquire_15=AO_char_fetch_and_add_acquire(&b, (unsigned char)-1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_acquire_15 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 866);
     exit(1);
   }
 
   zz = (unsigned int)13;
-  unsigned int return_value_AO_int_load_full$16;
-  return_value_AO_int_load_full$16=AO_int_load_full(&zz);
-  if(!(return_value_AO_int_load_full$16 == 13u))
+  unsigned int return_value_AO_int_load_full_16;
+  return_value_AO_int_load_full_16=AO_int_load_full(&zz);
+  if(!(return_value_AO_int_load_full_16 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 883);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_acquire$17;
-  return_value_AO_int_fetch_and_add_acquire$17=AO_int_fetch_and_add_acquire(&zz, (unsigned int)42);
-  if(!(return_value_AO_int_fetch_and_add_acquire$17 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_acquire_17;
+  return_value_AO_int_fetch_and_add_acquire_17=AO_int_fetch_and_add_acquire(&zz, (unsigned int)42);
+  if(!(return_value_AO_int_fetch_and_add_acquire_17 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 891);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_acquire$18;
-  return_value_AO_int_fetch_and_add_acquire$18=AO_int_fetch_and_add_acquire(&zz, (unsigned int)-42);
-  if(!(return_value_AO_int_fetch_and_add_acquire$18 == 55u))
+  unsigned int return_value_AO_int_fetch_and_add_acquire_18;
+  return_value_AO_int_fetch_and_add_acquire_18=AO_int_fetch_and_add_acquire(&zz, (unsigned int)-42);
+  if(!(return_value_AO_int_fetch_and_add_acquire_18 == 55u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 892);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_acquire$19;
-  return_value_AO_int_fetch_and_add_acquire$19=AO_int_fetch_and_add_acquire(&zz, (unsigned int)1);
-  if(!(return_value_AO_int_fetch_and_add_acquire$19 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_acquire_19;
+  return_value_AO_int_fetch_and_add_acquire_19=AO_int_fetch_and_add_acquire(&zz, (unsigned int)1);
+  if(!(return_value_AO_int_fetch_and_add_acquire_19 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 897);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_acquire$20;
-  return_value_AO_int_fetch_and_add_acquire$20=AO_int_fetch_and_add_acquire(&zz, (unsigned int)-1);
-  if(!(return_value_AO_int_fetch_and_add_acquire$20 == 14u))
+  unsigned int return_value_AO_int_fetch_and_add_acquire_20;
+  return_value_AO_int_fetch_and_add_acquire_20=AO_int_fetch_and_add_acquire(&zz, (unsigned int)-1);
+  if(!(return_value_AO_int_fetch_and_add_acquire_20 == 14u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 903);
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_acquire$21;
-  return_value_AO_compare_and_swap_acquire$21=AO_compare_and_swap_acquire(&x, (unsigned long int)14, (unsigned long int)42);
-  if(!(return_value_AO_compare_and_swap_acquire$21 == 0))
+  signed int return_value_AO_compare_and_swap_acquire_21;
+  return_value_AO_compare_and_swap_acquire_21=AO_compare_and_swap_acquire(&x, (unsigned long int)14, (unsigned long int)42);
+  if(!(return_value_AO_compare_and_swap_acquire_21 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 909);
     exit(1);
@@ -2495,9 +2495,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_acquire$22;
-  return_value_AO_compare_and_swap_acquire$22=AO_compare_and_swap_acquire(&x, (unsigned long int)13, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_acquire$22 == 0)
+  signed int return_value_AO_compare_and_swap_acquire_22;
+  return_value_AO_compare_and_swap_acquire_22=AO_compare_and_swap_acquire(&x, (unsigned long int)13, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_acquire_22 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 911);
     exit(1);
@@ -2530,9 +2530,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$23;
-  return_value_AO_fetch_compare_and_swap_full$23=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$23 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_23;
+  return_value_AO_fetch_compare_and_swap_full_23=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_23 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 939);
     exit(1);
@@ -2544,9 +2544,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$24;
-  return_value_AO_fetch_compare_and_swap_full$24=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$24 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_24;
+  return_value_AO_fetch_compare_and_swap_full_24=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_24 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 941);
     exit(1);
@@ -2567,9 +2567,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$25;
-  return_value_AO_compare_double_and_swap_double_full$25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_double_and_swap_double_full$25 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_25;
+  return_value_AO_compare_double_and_swap_double_full_25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_double_and_swap_double_full_25 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 979);
     exit(1);
@@ -2581,9 +2581,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$26;
-  return_value_AO_compare_double_and_swap_double_full$26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_double_and_swap_double_full$26 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_26;
+  return_value_AO_compare_double_and_swap_double_full_26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_double_and_swap_double_full_26 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 981);
     exit(1);
@@ -2595,9 +2595,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$27;
-  return_value_AO_compare_double_and_swap_double_full$27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
-  if(!(return_value_AO_compare_double_and_swap_double_full$27 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_27;
+  return_value_AO_compare_double_and_swap_double_full_27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
+  if(!(return_value_AO_compare_double_and_swap_double_full_27 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 983);
     exit(1);
@@ -2609,9 +2609,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$28;
-  return_value_AO_compare_double_and_swap_double_full$28=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
-  if(!(return_value_AO_compare_double_and_swap_double_full$28 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_28;
+  return_value_AO_compare_double_and_swap_double_full_28=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
+  if(!(return_value_AO_compare_double_and_swap_double_full_28 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 985);
     exit(1);
@@ -2623,9 +2623,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$29;
-  return_value_AO_compare_double_and_swap_double_full$29=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(!(return_value_AO_compare_double_and_swap_double_full$29 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_29;
+  return_value_AO_compare_double_and_swap_double_full_29=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(!(return_value_AO_compare_double_and_swap_double_full_29 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 987);
     exit(1);
@@ -2637,9 +2637,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$30;
-  return_value_AO_compare_double_and_swap_double_full$30=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_double_and_swap_double_full$30 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_30;
+  return_value_AO_compare_double_and_swap_double_full_30=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_double_and_swap_double_full_30 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 989);
     exit(1);
@@ -2651,9 +2651,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$31;
-  return_value_AO_compare_double_and_swap_double_full$31=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_double_and_swap_double_full$31 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_31;
+  return_value_AO_compare_double_and_swap_double_full_31=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_double_and_swap_double_full_31 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 991);
     exit(1);
@@ -2665,9 +2665,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$32;
-  return_value_AO_compare_and_swap_double_full$32=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_and_swap_double_full$32 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_32;
+  return_value_AO_compare_and_swap_double_full_32=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_and_swap_double_full_32 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 997);
     exit(1);
@@ -2679,9 +2679,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$33;
-  return_value_AO_compare_and_swap_double_full$33=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_and_swap_double_full$33 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_33;
+  return_value_AO_compare_and_swap_double_full_33=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_and_swap_double_full_33 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 999);
     exit(1);
@@ -2693,9 +2693,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$34;
-  return_value_AO_compare_and_swap_double_full$34=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
-  if(!(return_value_AO_compare_and_swap_double_full$34 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_34;
+  return_value_AO_compare_and_swap_double_full_34=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
+  if(!(return_value_AO_compare_and_swap_double_full_34 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1001);
     exit(1);
@@ -2707,9 +2707,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$35;
-  return_value_AO_compare_and_swap_double_full$35=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
-  if(!(return_value_AO_compare_and_swap_double_full$35 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_35;
+  return_value_AO_compare_and_swap_double_full_35=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
+  if(!(return_value_AO_compare_and_swap_double_full_35 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1003);
     exit(1);
@@ -2721,9 +2721,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$36;
-  return_value_AO_compare_and_swap_double_full$36=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_double_full$36 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_36;
+  return_value_AO_compare_and_swap_double_full_36=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_double_full_36 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1005);
     exit(1);
@@ -2735,9 +2735,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$37;
-  return_value_AO_compare_and_swap_double_full$37=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_and_swap_double_full$37 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_37;
+  return_value_AO_compare_and_swap_double_full_37=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_and_swap_double_full_37 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1007);
     exit(1);
@@ -2753,9 +2753,9 @@ void test_atomic_acquire(void)
   old_w.AO_val2 = (unsigned long int)2121;
   new_w.AO_val1 = (unsigned long int)8537;
   new_w.AO_val2 = (unsigned long int)6410;
-  signed int return_value_AO_double_compare_and_swap_acquire$38;
-  return_value_AO_double_compare_and_swap_acquire$38=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_acquire$38 == 0))
+  signed int return_value_AO_double_compare_and_swap_acquire_38;
+  return_value_AO_double_compare_and_swap_acquire_38=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_acquire_38 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1017);
     exit(1);
@@ -2767,9 +2767,9 @@ void test_atomic_acquire(void)
     exit(1);
   }
 
-  signed int return_value_AO_double_compare_and_swap_acquire$39;
-  return_value_AO_double_compare_and_swap_acquire$39=AO_double_compare_and_swap_acquire(&w, w, new_w);
-  if(return_value_AO_double_compare_and_swap_acquire$39 == 0)
+  signed int return_value_AO_double_compare_and_swap_acquire_39;
+  return_value_AO_double_compare_and_swap_acquire_39=AO_double_compare_and_swap_acquire(&w, w, new_w);
+  if(return_value_AO_double_compare_and_swap_acquire_39 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1019);
     exit(1);
@@ -2785,9 +2785,9 @@ void test_atomic_acquire(void)
   old_w.AO_val2 = (unsigned long int)29;
   new_w.AO_val1 = (unsigned long int)820;
   new_w.AO_val2 = (unsigned long int)5917;
-  signed int return_value_AO_double_compare_and_swap_acquire$40;
-  return_value_AO_double_compare_and_swap_acquire$40=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_acquire$40 == 0))
+  signed int return_value_AO_double_compare_and_swap_acquire_40;
+  return_value_AO_double_compare_and_swap_acquire_40=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_acquire_40 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1025);
     exit(1);
@@ -2803,9 +2803,9 @@ void test_atomic_acquire(void)
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)3552;
   new_w.AO_val2 = (unsigned long int)1746;
-  signed int return_value_AO_double_compare_and_swap_acquire$41;
-  return_value_AO_double_compare_and_swap_acquire$41=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_acquire$41 == 0))
+  signed int return_value_AO_double_compare_and_swap_acquire_41;
+  return_value_AO_double_compare_and_swap_acquire_41=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_acquire_41 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1031);
     exit(1);
@@ -2821,9 +2821,9 @@ void test_atomic_acquire(void)
   old_w.AO_val2 = (unsigned long int)8537;
   new_w.AO_val1 = (unsigned long int)4116;
   new_w.AO_val2 = (unsigned long int)2121;
-  signed int return_value_AO_double_compare_and_swap_acquire$42;
-  return_value_AO_double_compare_and_swap_acquire$42=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_acquire$42 == 0))
+  signed int return_value_AO_double_compare_and_swap_acquire_42;
+  return_value_AO_double_compare_and_swap_acquire_42=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_acquire_42 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1037);
     exit(1);
@@ -2838,9 +2838,9 @@ void test_atomic_acquire(void)
   old_w.AO_val1 = old_w.AO_val2;
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)1;
-  signed int return_value_AO_double_compare_and_swap_acquire$43;
-  return_value_AO_double_compare_and_swap_acquire$43=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_acquire$43 == 0)
+  signed int return_value_AO_double_compare_and_swap_acquire_43;
+  return_value_AO_double_compare_and_swap_acquire_43=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_acquire_43 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1042);
     exit(1);
@@ -2856,9 +2856,9 @@ void test_atomic_acquire(void)
   old_w.AO_val2 = w.AO_val2;
   new_w.AO_val1 = new_w.AO_val1 - 1ul;
   new_w.AO_val2 = (unsigned long int)0;
-  signed int return_value_AO_double_compare_and_swap_acquire$44;
-  return_value_AO_double_compare_and_swap_acquire$44=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_acquire$44 == 0)
+  signed int return_value_AO_double_compare_and_swap_acquire_44;
+  return_value_AO_double_compare_and_swap_acquire_44=AO_double_compare_and_swap_acquire(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_acquire_44 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire)\n", (const void *)"test_atomic_include.h", 1048);
     exit(1);
@@ -2887,173 +2887,173 @@ void test_atomic_acquire_read(void)
   w.AO_val1 = (unsigned long int)0;
   w.AO_val2 = (unsigned long int)0;
   x = (unsigned long int)13;
-  unsigned long int return_value_AO_load_full$1;
-  return_value_AO_load_full$1=AO_load_full(&x);
-  if(!(return_value_AO_load_full$1 == 13ul))
+  unsigned long int return_value_AO_load_full_1;
+  return_value_AO_load_full_1=AO_load_full(&x);
+  if(!(return_value_AO_load_full_1 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2518);
     exit(1);
   }
 
   AO_store_full((unsigned long int *)&z, (unsigned long int)AO_TS_clear);
-  unsigned long int return_value_AO_fetch_and_add_full$2;
-  return_value_AO_fetch_and_add_full$2=AO_fetch_and_add_full(&x, (unsigned long int)42);
-  if(!(return_value_AO_fetch_and_add_full$2 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_full_2;
+  return_value_AO_fetch_and_add_full_2=AO_fetch_and_add_full(&x, (unsigned long int)42);
+  if(!(return_value_AO_fetch_and_add_full_2 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2534);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$3;
-  return_value_AO_fetch_and_add_full$3=AO_fetch_and_add_full(&x, (unsigned long int)-42);
-  if(!(return_value_AO_fetch_and_add_full$3 == 55ul))
+  unsigned long int return_value_AO_fetch_and_add_full_3;
+  return_value_AO_fetch_and_add_full_3=AO_fetch_and_add_full(&x, (unsigned long int)-42);
+  if(!(return_value_AO_fetch_and_add_full_3 == 55ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2535);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$4;
-  return_value_AO_fetch_and_add_full$4=AO_fetch_and_add_full(&x, (unsigned long int)1);
-  if(!(return_value_AO_fetch_and_add_full$4 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_full_4;
+  return_value_AO_fetch_and_add_full_4=AO_fetch_and_add_full(&x, (unsigned long int)1);
+  if(!(return_value_AO_fetch_and_add_full_4 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2540);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$5;
-  return_value_AO_fetch_and_add_full$5=AO_fetch_and_add_full(&x, (unsigned long int)-1);
-  if(!(return_value_AO_fetch_and_add_full$5 == 14ul))
+  unsigned long int return_value_AO_fetch_and_add_full_5;
+  return_value_AO_fetch_and_add_full_5=AO_fetch_and_add_full(&x, (unsigned long int)-1);
+  if(!(return_value_AO_fetch_and_add_full_5 == 14ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2546);
     exit(1);
   }
 
   s = (unsigned short int)13;
-  unsigned short int return_value_AO_short_load_full$6;
-  return_value_AO_short_load_full$6=AO_short_load_full(&s);
-  if(!((signed int)return_value_AO_short_load_full$6 == 13))
+  unsigned short int return_value_AO_short_load_full_6;
+  return_value_AO_short_load_full_6=AO_short_load_full(&s);
+  if(!((signed int)return_value_AO_short_load_full_6 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2563);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$7;
-  return_value_AO_short_fetch_and_add_full$7=AO_short_fetch_and_add_full(&s, (unsigned short int)42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$7 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_full_7;
+  return_value_AO_short_fetch_and_add_full_7=AO_short_fetch_and_add_full(&s, (unsigned short int)42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_7 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2572);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$8;
-  return_value_AO_short_fetch_and_add_full$8=AO_short_fetch_and_add_full(&s, (unsigned short int)-42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$8 == 55))
+  unsigned short int return_value_AO_short_fetch_and_add_full_8;
+  return_value_AO_short_fetch_and_add_full_8=AO_short_fetch_and_add_full(&s, (unsigned short int)-42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_8 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2573);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$9;
-  return_value_AO_short_fetch_and_add_full$9=AO_short_fetch_and_add_full(&s, (unsigned short int)1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$9 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_full_9;
+  return_value_AO_short_fetch_and_add_full_9=AO_short_fetch_and_add_full(&s, (unsigned short int)1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_9 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2578);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$10;
-  return_value_AO_short_fetch_and_add_full$10=AO_short_fetch_and_add_full(&s, (unsigned short int)-1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$10 == 14))
+  unsigned short int return_value_AO_short_fetch_and_add_full_10;
+  return_value_AO_short_fetch_and_add_full_10=AO_short_fetch_and_add_full(&s, (unsigned short int)-1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_10 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2584);
     exit(1);
   }
 
   b = (unsigned char)13;
-  unsigned char return_value_AO_char_load_full$11;
-  return_value_AO_char_load_full$11=AO_char_load_full(&b);
-  if(!((signed int)return_value_AO_char_load_full$11 == 13))
+  unsigned char return_value_AO_char_load_full_11;
+  return_value_AO_char_load_full_11=AO_char_load_full(&b);
+  if(!((signed int)return_value_AO_char_load_full_11 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2601);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$12;
-  return_value_AO_char_fetch_and_add_full$12=AO_char_fetch_and_add_full(&b, (unsigned char)42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$12 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_full_12;
+  return_value_AO_char_fetch_and_add_full_12=AO_char_fetch_and_add_full(&b, (unsigned char)42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_12 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2609);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$13;
-  return_value_AO_char_fetch_and_add_full$13=AO_char_fetch_and_add_full(&b, (unsigned char)-42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$13 == 55))
+  unsigned char return_value_AO_char_fetch_and_add_full_13;
+  return_value_AO_char_fetch_and_add_full_13=AO_char_fetch_and_add_full(&b, (unsigned char)-42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_13 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2610);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$14;
-  return_value_AO_char_fetch_and_add_full$14=AO_char_fetch_and_add_full(&b, (unsigned char)1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$14 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_full_14;
+  return_value_AO_char_fetch_and_add_full_14=AO_char_fetch_and_add_full(&b, (unsigned char)1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_14 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2615);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$15;
-  return_value_AO_char_fetch_and_add_full$15=AO_char_fetch_and_add_full(&b, (unsigned char)-1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$15 == 14))
+  unsigned char return_value_AO_char_fetch_and_add_full_15;
+  return_value_AO_char_fetch_and_add_full_15=AO_char_fetch_and_add_full(&b, (unsigned char)-1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_15 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2621);
     exit(1);
   }
 
   zz = (unsigned int)13;
-  unsigned int return_value_AO_int_load_full$16;
-  return_value_AO_int_load_full$16=AO_int_load_full(&zz);
-  if(!(return_value_AO_int_load_full$16 == 13u))
+  unsigned int return_value_AO_int_load_full_16;
+  return_value_AO_int_load_full_16=AO_int_load_full(&zz);
+  if(!(return_value_AO_int_load_full_16 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2638);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$17;
-  return_value_AO_int_fetch_and_add_full$17=AO_int_fetch_and_add_full(&zz, (unsigned int)42);
-  if(!(return_value_AO_int_fetch_and_add_full$17 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_full_17;
+  return_value_AO_int_fetch_and_add_full_17=AO_int_fetch_and_add_full(&zz, (unsigned int)42);
+  if(!(return_value_AO_int_fetch_and_add_full_17 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2646);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$18;
-  return_value_AO_int_fetch_and_add_full$18=AO_int_fetch_and_add_full(&zz, (unsigned int)-42);
-  if(!(return_value_AO_int_fetch_and_add_full$18 == 55u))
+  unsigned int return_value_AO_int_fetch_and_add_full_18;
+  return_value_AO_int_fetch_and_add_full_18=AO_int_fetch_and_add_full(&zz, (unsigned int)-42);
+  if(!(return_value_AO_int_fetch_and_add_full_18 == 55u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2647);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$19;
-  return_value_AO_int_fetch_and_add_full$19=AO_int_fetch_and_add_full(&zz, (unsigned int)1);
-  if(!(return_value_AO_int_fetch_and_add_full$19 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_full_19;
+  return_value_AO_int_fetch_and_add_full_19=AO_int_fetch_and_add_full(&zz, (unsigned int)1);
+  if(!(return_value_AO_int_fetch_and_add_full_19 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2652);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$20;
-  return_value_AO_int_fetch_and_add_full$20=AO_int_fetch_and_add_full(&zz, (unsigned int)-1);
-  if(!(return_value_AO_int_fetch_and_add_full$20 == 14u))
+  unsigned int return_value_AO_int_fetch_and_add_full_20;
+  return_value_AO_int_fetch_and_add_full_20=AO_int_fetch_and_add_full(&zz, (unsigned int)-1);
+  if(!(return_value_AO_int_fetch_and_add_full_20 == 14u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2658);
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_acquire_read$21;
-  return_value_AO_compare_and_swap_acquire_read$21=AO_compare_and_swap_acquire_read(&x, (unsigned long int)14, (unsigned long int)42);
-  if(!(return_value_AO_compare_and_swap_acquire_read$21 == 0))
+  signed int return_value_AO_compare_and_swap_acquire_read_21;
+  return_value_AO_compare_and_swap_acquire_read_21=AO_compare_and_swap_acquire_read(&x, (unsigned long int)14, (unsigned long int)42);
+  if(!(return_value_AO_compare_and_swap_acquire_read_21 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2664);
     exit(1);
@@ -3065,9 +3065,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_acquire_read$22;
-  return_value_AO_compare_and_swap_acquire_read$22=AO_compare_and_swap_acquire_read(&x, (unsigned long int)13, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_acquire_read$22 == 0)
+  signed int return_value_AO_compare_and_swap_acquire_read_22;
+  return_value_AO_compare_and_swap_acquire_read_22=AO_compare_and_swap_acquire_read(&x, (unsigned long int)13, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_acquire_read_22 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2666);
     exit(1);
@@ -3100,9 +3100,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$23;
-  return_value_AO_fetch_compare_and_swap_full$23=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$23 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_23;
+  return_value_AO_fetch_compare_and_swap_full_23=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_23 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2694);
     exit(1);
@@ -3114,9 +3114,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$24;
-  return_value_AO_fetch_compare_and_swap_full$24=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$24 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_24;
+  return_value_AO_fetch_compare_and_swap_full_24=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_24 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2696);
     exit(1);
@@ -3137,9 +3137,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$25;
-  return_value_AO_compare_double_and_swap_double_full$25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_double_and_swap_double_full$25 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_25;
+  return_value_AO_compare_double_and_swap_double_full_25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_double_and_swap_double_full_25 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2734);
     exit(1);
@@ -3151,9 +3151,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$26;
-  return_value_AO_compare_double_and_swap_double_full$26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_double_and_swap_double_full$26 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_26;
+  return_value_AO_compare_double_and_swap_double_full_26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_double_and_swap_double_full_26 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2736);
     exit(1);
@@ -3165,9 +3165,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$27;
-  return_value_AO_compare_double_and_swap_double_full$27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
-  if(!(return_value_AO_compare_double_and_swap_double_full$27 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_27;
+  return_value_AO_compare_double_and_swap_double_full_27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
+  if(!(return_value_AO_compare_double_and_swap_double_full_27 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2738);
     exit(1);
@@ -3179,9 +3179,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$28;
-  return_value_AO_compare_double_and_swap_double_full$28=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
-  if(!(return_value_AO_compare_double_and_swap_double_full$28 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_28;
+  return_value_AO_compare_double_and_swap_double_full_28=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
+  if(!(return_value_AO_compare_double_and_swap_double_full_28 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2740);
     exit(1);
@@ -3193,9 +3193,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$29;
-  return_value_AO_compare_double_and_swap_double_full$29=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(!(return_value_AO_compare_double_and_swap_double_full$29 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_29;
+  return_value_AO_compare_double_and_swap_double_full_29=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(!(return_value_AO_compare_double_and_swap_double_full_29 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2742);
     exit(1);
@@ -3207,9 +3207,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$30;
-  return_value_AO_compare_double_and_swap_double_full$30=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_double_and_swap_double_full$30 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_30;
+  return_value_AO_compare_double_and_swap_double_full_30=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_double_and_swap_double_full_30 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2744);
     exit(1);
@@ -3221,9 +3221,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$31;
-  return_value_AO_compare_double_and_swap_double_full$31=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_double_and_swap_double_full$31 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_31;
+  return_value_AO_compare_double_and_swap_double_full_31=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_double_and_swap_double_full_31 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2746);
     exit(1);
@@ -3235,9 +3235,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$32;
-  return_value_AO_compare_and_swap_double_full$32=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_and_swap_double_full$32 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_32;
+  return_value_AO_compare_and_swap_double_full_32=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_and_swap_double_full_32 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2752);
     exit(1);
@@ -3249,9 +3249,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$33;
-  return_value_AO_compare_and_swap_double_full$33=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_and_swap_double_full$33 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_33;
+  return_value_AO_compare_and_swap_double_full_33=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_and_swap_double_full_33 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2754);
     exit(1);
@@ -3263,9 +3263,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$34;
-  return_value_AO_compare_and_swap_double_full$34=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
-  if(!(return_value_AO_compare_and_swap_double_full$34 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_34;
+  return_value_AO_compare_and_swap_double_full_34=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
+  if(!(return_value_AO_compare_and_swap_double_full_34 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2756);
     exit(1);
@@ -3277,9 +3277,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$35;
-  return_value_AO_compare_and_swap_double_full$35=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
-  if(!(return_value_AO_compare_and_swap_double_full$35 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_35;
+  return_value_AO_compare_and_swap_double_full_35=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
+  if(!(return_value_AO_compare_and_swap_double_full_35 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2758);
     exit(1);
@@ -3291,9 +3291,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$36;
-  return_value_AO_compare_and_swap_double_full$36=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_double_full$36 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_36;
+  return_value_AO_compare_and_swap_double_full_36=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_double_full_36 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2760);
     exit(1);
@@ -3305,9 +3305,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$37;
-  return_value_AO_compare_and_swap_double_full$37=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_and_swap_double_full$37 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_37;
+  return_value_AO_compare_and_swap_double_full_37=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_and_swap_double_full_37 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2762);
     exit(1);
@@ -3323,9 +3323,9 @@ void test_atomic_acquire_read(void)
   old_w.AO_val2 = (unsigned long int)2121;
   new_w.AO_val1 = (unsigned long int)8537;
   new_w.AO_val2 = (unsigned long int)6410;
-  signed int return_value_AO_double_compare_and_swap_acquire_read$38;
-  return_value_AO_double_compare_and_swap_acquire_read$38=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_acquire_read$38 == 0))
+  signed int return_value_AO_double_compare_and_swap_acquire_read_38;
+  return_value_AO_double_compare_and_swap_acquire_read_38=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_acquire_read_38 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2772);
     exit(1);
@@ -3337,9 +3337,9 @@ void test_atomic_acquire_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_double_compare_and_swap_acquire_read$39;
-  return_value_AO_double_compare_and_swap_acquire_read$39=AO_double_compare_and_swap_acquire_read(&w, w, new_w);
-  if(return_value_AO_double_compare_and_swap_acquire_read$39 == 0)
+  signed int return_value_AO_double_compare_and_swap_acquire_read_39;
+  return_value_AO_double_compare_and_swap_acquire_read_39=AO_double_compare_and_swap_acquire_read(&w, w, new_w);
+  if(return_value_AO_double_compare_and_swap_acquire_read_39 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2774);
     exit(1);
@@ -3355,9 +3355,9 @@ void test_atomic_acquire_read(void)
   old_w.AO_val2 = (unsigned long int)29;
   new_w.AO_val1 = (unsigned long int)820;
   new_w.AO_val2 = (unsigned long int)5917;
-  signed int return_value_AO_double_compare_and_swap_acquire_read$40;
-  return_value_AO_double_compare_and_swap_acquire_read$40=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_acquire_read$40 == 0))
+  signed int return_value_AO_double_compare_and_swap_acquire_read_40;
+  return_value_AO_double_compare_and_swap_acquire_read_40=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_acquire_read_40 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2780);
     exit(1);
@@ -3373,9 +3373,9 @@ void test_atomic_acquire_read(void)
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)3552;
   new_w.AO_val2 = (unsigned long int)1746;
-  signed int return_value_AO_double_compare_and_swap_acquire_read$41;
-  return_value_AO_double_compare_and_swap_acquire_read$41=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_acquire_read$41 == 0))
+  signed int return_value_AO_double_compare_and_swap_acquire_read_41;
+  return_value_AO_double_compare_and_swap_acquire_read_41=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_acquire_read_41 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2786);
     exit(1);
@@ -3391,9 +3391,9 @@ void test_atomic_acquire_read(void)
   old_w.AO_val2 = (unsigned long int)8537;
   new_w.AO_val1 = (unsigned long int)4116;
   new_w.AO_val2 = (unsigned long int)2121;
-  signed int return_value_AO_double_compare_and_swap_acquire_read$42;
-  return_value_AO_double_compare_and_swap_acquire_read$42=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_acquire_read$42 == 0))
+  signed int return_value_AO_double_compare_and_swap_acquire_read_42;
+  return_value_AO_double_compare_and_swap_acquire_read_42=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_acquire_read_42 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2792);
     exit(1);
@@ -3408,9 +3408,9 @@ void test_atomic_acquire_read(void)
   old_w.AO_val1 = old_w.AO_val2;
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)1;
-  signed int return_value_AO_double_compare_and_swap_acquire_read$43;
-  return_value_AO_double_compare_and_swap_acquire_read$43=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_acquire_read$43 == 0)
+  signed int return_value_AO_double_compare_and_swap_acquire_read_43;
+  return_value_AO_double_compare_and_swap_acquire_read_43=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_acquire_read_43 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2797);
     exit(1);
@@ -3426,9 +3426,9 @@ void test_atomic_acquire_read(void)
   old_w.AO_val2 = w.AO_val2;
   new_w.AO_val1 = new_w.AO_val1 - 1ul;
   new_w.AO_val2 = (unsigned long int)0;
-  signed int return_value_AO_double_compare_and_swap_acquire_read$44;
-  return_value_AO_double_compare_and_swap_acquire_read$44=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_acquire_read$44 == 0)
+  signed int return_value_AO_double_compare_and_swap_acquire_read_44;
+  return_value_AO_double_compare_and_swap_acquire_read_44=AO_double_compare_and_swap_acquire_read(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_acquire_read_44 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _acquire_read)\n", (const void *)"test_atomic_include.h", 2803);
     exit(1);
@@ -3464,173 +3464,173 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_load_full$1;
-  return_value_AO_load_full$1=AO_load_full(&x);
-  if(!(return_value_AO_load_full$1 == 13ul))
+  unsigned long int return_value_AO_load_full_1;
+  return_value_AO_load_full_1=AO_load_full(&x);
+  if(!(return_value_AO_load_full_1 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1816);
     exit(1);
   }
 
   AO_store_full((unsigned long int *)&z, (unsigned long int)AO_TS_clear);
-  unsigned long int return_value_AO_fetch_and_add_full$2;
-  return_value_AO_fetch_and_add_full$2=AO_fetch_and_add_full(&x, (unsigned long int)42);
-  if(!(return_value_AO_fetch_and_add_full$2 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_full_2;
+  return_value_AO_fetch_and_add_full_2=AO_fetch_and_add_full(&x, (unsigned long int)42);
+  if(!(return_value_AO_fetch_and_add_full_2 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1832);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$3;
-  return_value_AO_fetch_and_add_full$3=AO_fetch_and_add_full(&x, (unsigned long int)-42);
-  if(!(return_value_AO_fetch_and_add_full$3 == 55ul))
+  unsigned long int return_value_AO_fetch_and_add_full_3;
+  return_value_AO_fetch_and_add_full_3=AO_fetch_and_add_full(&x, (unsigned long int)-42);
+  if(!(return_value_AO_fetch_and_add_full_3 == 55ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1833);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$4;
-  return_value_AO_fetch_and_add_full$4=AO_fetch_and_add_full(&x, (unsigned long int)1);
-  if(!(return_value_AO_fetch_and_add_full$4 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_full_4;
+  return_value_AO_fetch_and_add_full_4=AO_fetch_and_add_full(&x, (unsigned long int)1);
+  if(!(return_value_AO_fetch_and_add_full_4 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1838);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$5;
-  return_value_AO_fetch_and_add_full$5=AO_fetch_and_add_full(&x, (unsigned long int)-1);
-  if(!(return_value_AO_fetch_and_add_full$5 == 14ul))
+  unsigned long int return_value_AO_fetch_and_add_full_5;
+  return_value_AO_fetch_and_add_full_5=AO_fetch_and_add_full(&x, (unsigned long int)-1);
+  if(!(return_value_AO_fetch_and_add_full_5 == 14ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1844);
     exit(1);
   }
 
   AO_short_store_full(&s, (unsigned short int)13);
-  unsigned short int return_value_AO_short_load_full$6;
-  return_value_AO_short_load_full$6=AO_short_load_full(&s);
-  if(!((signed int)return_value_AO_short_load_full$6 == 13))
+  unsigned short int return_value_AO_short_load_full_6;
+  return_value_AO_short_load_full_6=AO_short_load_full(&s);
+  if(!((signed int)return_value_AO_short_load_full_6 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1861);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$7;
-  return_value_AO_short_fetch_and_add_full$7=AO_short_fetch_and_add_full(&s, (unsigned short int)42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$7 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_full_7;
+  return_value_AO_short_fetch_and_add_full_7=AO_short_fetch_and_add_full(&s, (unsigned short int)42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_7 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1870);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$8;
-  return_value_AO_short_fetch_and_add_full$8=AO_short_fetch_and_add_full(&s, (unsigned short int)-42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$8 == 55))
+  unsigned short int return_value_AO_short_fetch_and_add_full_8;
+  return_value_AO_short_fetch_and_add_full_8=AO_short_fetch_and_add_full(&s, (unsigned short int)-42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_8 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1871);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$9;
-  return_value_AO_short_fetch_and_add_full$9=AO_short_fetch_and_add_full(&s, (unsigned short int)1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$9 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_full_9;
+  return_value_AO_short_fetch_and_add_full_9=AO_short_fetch_and_add_full(&s, (unsigned short int)1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_9 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1876);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$10;
-  return_value_AO_short_fetch_and_add_full$10=AO_short_fetch_and_add_full(&s, (unsigned short int)-1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$10 == 14))
+  unsigned short int return_value_AO_short_fetch_and_add_full_10;
+  return_value_AO_short_fetch_and_add_full_10=AO_short_fetch_and_add_full(&s, (unsigned short int)-1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_10 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1882);
     exit(1);
   }
 
   AO_char_store_full(&b, (unsigned char)13);
-  unsigned char return_value_AO_char_load_full$11;
-  return_value_AO_char_load_full$11=AO_char_load_full(&b);
-  if(!((signed int)return_value_AO_char_load_full$11 == 13))
+  unsigned char return_value_AO_char_load_full_11;
+  return_value_AO_char_load_full_11=AO_char_load_full(&b);
+  if(!((signed int)return_value_AO_char_load_full_11 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1899);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$12;
-  return_value_AO_char_fetch_and_add_full$12=AO_char_fetch_and_add_full(&b, (unsigned char)42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$12 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_full_12;
+  return_value_AO_char_fetch_and_add_full_12=AO_char_fetch_and_add_full(&b, (unsigned char)42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_12 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1907);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$13;
-  return_value_AO_char_fetch_and_add_full$13=AO_char_fetch_and_add_full(&b, (unsigned char)-42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$13 == 55))
+  unsigned char return_value_AO_char_fetch_and_add_full_13;
+  return_value_AO_char_fetch_and_add_full_13=AO_char_fetch_and_add_full(&b, (unsigned char)-42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_13 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1908);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$14;
-  return_value_AO_char_fetch_and_add_full$14=AO_char_fetch_and_add_full(&b, (unsigned char)1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$14 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_full_14;
+  return_value_AO_char_fetch_and_add_full_14=AO_char_fetch_and_add_full(&b, (unsigned char)1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_14 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1913);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$15;
-  return_value_AO_char_fetch_and_add_full$15=AO_char_fetch_and_add_full(&b, (unsigned char)-1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$15 == 14))
+  unsigned char return_value_AO_char_fetch_and_add_full_15;
+  return_value_AO_char_fetch_and_add_full_15=AO_char_fetch_and_add_full(&b, (unsigned char)-1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_15 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1919);
     exit(1);
   }
 
   AO_int_store_full(&zz, (unsigned int)13);
-  unsigned int return_value_AO_int_load_full$16;
-  return_value_AO_int_load_full$16=AO_int_load_full(&zz);
-  if(!(return_value_AO_int_load_full$16 == 13u))
+  unsigned int return_value_AO_int_load_full_16;
+  return_value_AO_int_load_full_16=AO_int_load_full(&zz);
+  if(!(return_value_AO_int_load_full_16 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1936);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$17;
-  return_value_AO_int_fetch_and_add_full$17=AO_int_fetch_and_add_full(&zz, (unsigned int)42);
-  if(!(return_value_AO_int_fetch_and_add_full$17 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_full_17;
+  return_value_AO_int_fetch_and_add_full_17=AO_int_fetch_and_add_full(&zz, (unsigned int)42);
+  if(!(return_value_AO_int_fetch_and_add_full_17 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1944);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$18;
-  return_value_AO_int_fetch_and_add_full$18=AO_int_fetch_and_add_full(&zz, (unsigned int)-42);
-  if(!(return_value_AO_int_fetch_and_add_full$18 == 55u))
+  unsigned int return_value_AO_int_fetch_and_add_full_18;
+  return_value_AO_int_fetch_and_add_full_18=AO_int_fetch_and_add_full(&zz, (unsigned int)-42);
+  if(!(return_value_AO_int_fetch_and_add_full_18 == 55u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1945);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$19;
-  return_value_AO_int_fetch_and_add_full$19=AO_int_fetch_and_add_full(&zz, (unsigned int)1);
-  if(!(return_value_AO_int_fetch_and_add_full$19 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_full_19;
+  return_value_AO_int_fetch_and_add_full_19=AO_int_fetch_and_add_full(&zz, (unsigned int)1);
+  if(!(return_value_AO_int_fetch_and_add_full_19 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1950);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$20;
-  return_value_AO_int_fetch_and_add_full$20=AO_int_fetch_and_add_full(&zz, (unsigned int)-1);
-  if(!(return_value_AO_int_fetch_and_add_full$20 == 14u))
+  unsigned int return_value_AO_int_fetch_and_add_full_20;
+  return_value_AO_int_fetch_and_add_full_20=AO_int_fetch_and_add_full(&zz, (unsigned int)-1);
+  if(!(return_value_AO_int_fetch_and_add_full_20 == 14u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1956);
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_full$21;
-  return_value_AO_compare_and_swap_full$21=AO_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)42);
-  if(!(return_value_AO_compare_and_swap_full$21 == 0))
+  signed int return_value_AO_compare_and_swap_full_21;
+  return_value_AO_compare_and_swap_full_21=AO_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)42);
+  if(!(return_value_AO_compare_and_swap_full_21 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1962);
     exit(1);
@@ -3642,9 +3642,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_full$22;
-  return_value_AO_compare_and_swap_full$22=AO_compare_and_swap_full(&x, (unsigned long int)13, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_full$22 == 0)
+  signed int return_value_AO_compare_and_swap_full_22;
+  return_value_AO_compare_and_swap_full_22=AO_compare_and_swap_full(&x, (unsigned long int)13, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_full_22 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1964);
     exit(1);
@@ -3677,9 +3677,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$23;
-  return_value_AO_fetch_compare_and_swap_full$23=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$23 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_23;
+  return_value_AO_fetch_compare_and_swap_full_23=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_23 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1992);
     exit(1);
@@ -3691,9 +3691,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$24;
-  return_value_AO_fetch_compare_and_swap_full$24=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$24 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_24;
+  return_value_AO_fetch_compare_and_swap_full_24=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_24 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 1994);
     exit(1);
@@ -3739,9 +3739,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$25;
-  return_value_AO_compare_double_and_swap_double_full$25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_double_and_swap_double_full$25 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_25;
+  return_value_AO_compare_double_and_swap_double_full_25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_double_and_swap_double_full_25 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2032);
     exit(1);
@@ -3753,9 +3753,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$26;
-  return_value_AO_compare_double_and_swap_double_full$26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_double_and_swap_double_full$26 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_26;
+  return_value_AO_compare_double_and_swap_double_full_26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_double_and_swap_double_full_26 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2034);
     exit(1);
@@ -3767,9 +3767,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$27;
-  return_value_AO_compare_double_and_swap_double_full$27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
-  if(!(return_value_AO_compare_double_and_swap_double_full$27 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_27;
+  return_value_AO_compare_double_and_swap_double_full_27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
+  if(!(return_value_AO_compare_double_and_swap_double_full_27 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2036);
     exit(1);
@@ -3781,9 +3781,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$28;
-  return_value_AO_compare_double_and_swap_double_full$28=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
-  if(!(return_value_AO_compare_double_and_swap_double_full$28 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_28;
+  return_value_AO_compare_double_and_swap_double_full_28=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
+  if(!(return_value_AO_compare_double_and_swap_double_full_28 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2038);
     exit(1);
@@ -3795,9 +3795,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$29;
-  return_value_AO_compare_double_and_swap_double_full$29=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(!(return_value_AO_compare_double_and_swap_double_full$29 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_29;
+  return_value_AO_compare_double_and_swap_double_full_29=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(!(return_value_AO_compare_double_and_swap_double_full_29 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2040);
     exit(1);
@@ -3809,9 +3809,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$30;
-  return_value_AO_compare_double_and_swap_double_full$30=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_double_and_swap_double_full$30 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_30;
+  return_value_AO_compare_double_and_swap_double_full_30=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_double_and_swap_double_full_30 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2042);
     exit(1);
@@ -3823,9 +3823,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$31;
-  return_value_AO_compare_double_and_swap_double_full$31=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_double_and_swap_double_full$31 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_31;
+  return_value_AO_compare_double_and_swap_double_full_31=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_double_and_swap_double_full_31 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2044);
     exit(1);
@@ -3837,9 +3837,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$32;
-  return_value_AO_compare_and_swap_double_full$32=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_and_swap_double_full$32 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_32;
+  return_value_AO_compare_and_swap_double_full_32=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_and_swap_double_full_32 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2050);
     exit(1);
@@ -3851,9 +3851,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$33;
-  return_value_AO_compare_and_swap_double_full$33=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_and_swap_double_full$33 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_33;
+  return_value_AO_compare_and_swap_double_full_33=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_and_swap_double_full_33 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2052);
     exit(1);
@@ -3865,9 +3865,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$34;
-  return_value_AO_compare_and_swap_double_full$34=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
-  if(!(return_value_AO_compare_and_swap_double_full$34 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_34;
+  return_value_AO_compare_and_swap_double_full_34=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
+  if(!(return_value_AO_compare_and_swap_double_full_34 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2054);
     exit(1);
@@ -3879,9 +3879,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$35;
-  return_value_AO_compare_and_swap_double_full$35=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
-  if(!(return_value_AO_compare_and_swap_double_full$35 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_35;
+  return_value_AO_compare_and_swap_double_full_35=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
+  if(!(return_value_AO_compare_and_swap_double_full_35 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2056);
     exit(1);
@@ -3893,9 +3893,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$36;
-  return_value_AO_compare_and_swap_double_full$36=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_double_full$36 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_36;
+  return_value_AO_compare_and_swap_double_full_36=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_double_full_36 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2058);
     exit(1);
@@ -3907,9 +3907,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$37;
-  return_value_AO_compare_and_swap_double_full$37=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_and_swap_double_full$37 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_37;
+  return_value_AO_compare_and_swap_double_full_37=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_and_swap_double_full_37 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2060);
     exit(1);
@@ -3925,9 +3925,9 @@ void test_atomic_full(void)
   old_w.AO_val2 = (unsigned long int)2121;
   new_w.AO_val1 = (unsigned long int)8537;
   new_w.AO_val2 = (unsigned long int)6410;
-  signed int return_value_AO_double_compare_and_swap_full$38;
-  return_value_AO_double_compare_and_swap_full$38=AO_double_compare_and_swap_full(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_full$38 == 0))
+  signed int return_value_AO_double_compare_and_swap_full_38;
+  return_value_AO_double_compare_and_swap_full_38=AO_double_compare_and_swap_full(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_full_38 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2070);
     exit(1);
@@ -3939,9 +3939,9 @@ void test_atomic_full(void)
     exit(1);
   }
 
-  signed int return_value_AO_double_compare_and_swap_full$39;
-  return_value_AO_double_compare_and_swap_full$39=AO_double_compare_and_swap_full(&w, w, new_w);
-  if(return_value_AO_double_compare_and_swap_full$39 == 0)
+  signed int return_value_AO_double_compare_and_swap_full_39;
+  return_value_AO_double_compare_and_swap_full_39=AO_double_compare_and_swap_full(&w, w, new_w);
+  if(return_value_AO_double_compare_and_swap_full_39 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2072);
     exit(1);
@@ -3957,9 +3957,9 @@ void test_atomic_full(void)
   old_w.AO_val2 = (unsigned long int)29;
   new_w.AO_val1 = (unsigned long int)820;
   new_w.AO_val2 = (unsigned long int)5917;
-  signed int return_value_AO_double_compare_and_swap_full$40;
-  return_value_AO_double_compare_and_swap_full$40=AO_double_compare_and_swap_full(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_full$40 == 0))
+  signed int return_value_AO_double_compare_and_swap_full_40;
+  return_value_AO_double_compare_and_swap_full_40=AO_double_compare_and_swap_full(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_full_40 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2078);
     exit(1);
@@ -3975,9 +3975,9 @@ void test_atomic_full(void)
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)3552;
   new_w.AO_val2 = (unsigned long int)1746;
-  signed int return_value_AO_double_compare_and_swap_full$41;
-  return_value_AO_double_compare_and_swap_full$41=AO_double_compare_and_swap_full(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_full$41 == 0))
+  signed int return_value_AO_double_compare_and_swap_full_41;
+  return_value_AO_double_compare_and_swap_full_41=AO_double_compare_and_swap_full(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_full_41 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2084);
     exit(1);
@@ -3993,9 +3993,9 @@ void test_atomic_full(void)
   old_w.AO_val2 = (unsigned long int)8537;
   new_w.AO_val1 = (unsigned long int)4116;
   new_w.AO_val2 = (unsigned long int)2121;
-  signed int return_value_AO_double_compare_and_swap_full$42;
-  return_value_AO_double_compare_and_swap_full$42=AO_double_compare_and_swap_full(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_full$42 == 0))
+  signed int return_value_AO_double_compare_and_swap_full_42;
+  return_value_AO_double_compare_and_swap_full_42=AO_double_compare_and_swap_full(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_full_42 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2090);
     exit(1);
@@ -4010,9 +4010,9 @@ void test_atomic_full(void)
   old_w.AO_val1 = old_w.AO_val2;
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)1;
-  signed int return_value_AO_double_compare_and_swap_full$43;
-  return_value_AO_double_compare_and_swap_full$43=AO_double_compare_and_swap_full(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_full$43 == 0)
+  signed int return_value_AO_double_compare_and_swap_full_43;
+  return_value_AO_double_compare_and_swap_full_43=AO_double_compare_and_swap_full(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_full_43 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2095);
     exit(1);
@@ -4028,9 +4028,9 @@ void test_atomic_full(void)
   old_w.AO_val2 = w.AO_val2;
   new_w.AO_val1 = new_w.AO_val1 - 1ul;
   new_w.AO_val2 = (unsigned long int)0;
-  signed int return_value_AO_double_compare_and_swap_full$44;
-  return_value_AO_double_compare_and_swap_full$44=AO_double_compare_and_swap_full(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_full$44 == 0)
+  signed int return_value_AO_double_compare_and_swap_full_44;
+  return_value_AO_double_compare_and_swap_full_44=AO_double_compare_and_swap_full(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_full_44 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _full)\n", (const void *)"test_atomic_include.h", 2101);
     exit(1);
@@ -4060,173 +4060,173 @@ void test_atomic_read(void)
   w.AO_val2 = (unsigned long int)0;
   AO_nop_full();
   x = (unsigned long int)13;
-  unsigned long int return_value_AO_load_full$1;
-  return_value_AO_load_full$1=AO_load_full(&x);
-  if(!(return_value_AO_load_full$1 == 13ul))
+  unsigned long int return_value_AO_load_full_1;
+  return_value_AO_load_full_1=AO_load_full(&x);
+  if(!(return_value_AO_load_full_1 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1114);
     exit(1);
   }
 
   AO_store_full((unsigned long int *)&z, (unsigned long int)AO_TS_clear);
-  unsigned long int return_value_AO_fetch_and_add_full$2;
-  return_value_AO_fetch_and_add_full$2=AO_fetch_and_add_full(&x, (unsigned long int)42);
-  if(!(return_value_AO_fetch_and_add_full$2 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_full_2;
+  return_value_AO_fetch_and_add_full_2=AO_fetch_and_add_full(&x, (unsigned long int)42);
+  if(!(return_value_AO_fetch_and_add_full_2 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1130);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$3;
-  return_value_AO_fetch_and_add_full$3=AO_fetch_and_add_full(&x, (unsigned long int)-42);
-  if(!(return_value_AO_fetch_and_add_full$3 == 55ul))
+  unsigned long int return_value_AO_fetch_and_add_full_3;
+  return_value_AO_fetch_and_add_full_3=AO_fetch_and_add_full(&x, (unsigned long int)-42);
+  if(!(return_value_AO_fetch_and_add_full_3 == 55ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1131);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$4;
-  return_value_AO_fetch_and_add_full$4=AO_fetch_and_add_full(&x, (unsigned long int)1);
-  if(!(return_value_AO_fetch_and_add_full$4 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_full_4;
+  return_value_AO_fetch_and_add_full_4=AO_fetch_and_add_full(&x, (unsigned long int)1);
+  if(!(return_value_AO_fetch_and_add_full_4 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1136);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$5;
-  return_value_AO_fetch_and_add_full$5=AO_fetch_and_add_full(&x, (unsigned long int)-1);
-  if(!(return_value_AO_fetch_and_add_full$5 == 14ul))
+  unsigned long int return_value_AO_fetch_and_add_full_5;
+  return_value_AO_fetch_and_add_full_5=AO_fetch_and_add_full(&x, (unsigned long int)-1);
+  if(!(return_value_AO_fetch_and_add_full_5 == 14ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1142);
     exit(1);
   }
 
   s = (unsigned short int)13;
-  unsigned short int return_value_AO_short_load_full$6;
-  return_value_AO_short_load_full$6=AO_short_load_full(&s);
-  if(!((signed int)return_value_AO_short_load_full$6 == 13))
+  unsigned short int return_value_AO_short_load_full_6;
+  return_value_AO_short_load_full_6=AO_short_load_full(&s);
+  if(!((signed int)return_value_AO_short_load_full_6 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1159);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$7;
-  return_value_AO_short_fetch_and_add_full$7=AO_short_fetch_and_add_full(&s, (unsigned short int)42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$7 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_full_7;
+  return_value_AO_short_fetch_and_add_full_7=AO_short_fetch_and_add_full(&s, (unsigned short int)42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_7 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1168);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$8;
-  return_value_AO_short_fetch_and_add_full$8=AO_short_fetch_and_add_full(&s, (unsigned short int)-42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$8 == 55))
+  unsigned short int return_value_AO_short_fetch_and_add_full_8;
+  return_value_AO_short_fetch_and_add_full_8=AO_short_fetch_and_add_full(&s, (unsigned short int)-42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_8 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1169);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$9;
-  return_value_AO_short_fetch_and_add_full$9=AO_short_fetch_and_add_full(&s, (unsigned short int)1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$9 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_full_9;
+  return_value_AO_short_fetch_and_add_full_9=AO_short_fetch_and_add_full(&s, (unsigned short int)1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_9 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1174);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$10;
-  return_value_AO_short_fetch_and_add_full$10=AO_short_fetch_and_add_full(&s, (unsigned short int)-1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$10 == 14))
+  unsigned short int return_value_AO_short_fetch_and_add_full_10;
+  return_value_AO_short_fetch_and_add_full_10=AO_short_fetch_and_add_full(&s, (unsigned short int)-1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_10 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1180);
     exit(1);
   }
 
   b = (unsigned char)13;
-  unsigned char return_value_AO_char_load_full$11;
-  return_value_AO_char_load_full$11=AO_char_load_full(&b);
-  if(!((signed int)return_value_AO_char_load_full$11 == 13))
+  unsigned char return_value_AO_char_load_full_11;
+  return_value_AO_char_load_full_11=AO_char_load_full(&b);
+  if(!((signed int)return_value_AO_char_load_full_11 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1197);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$12;
-  return_value_AO_char_fetch_and_add_full$12=AO_char_fetch_and_add_full(&b, (unsigned char)42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$12 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_full_12;
+  return_value_AO_char_fetch_and_add_full_12=AO_char_fetch_and_add_full(&b, (unsigned char)42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_12 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1205);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$13;
-  return_value_AO_char_fetch_and_add_full$13=AO_char_fetch_and_add_full(&b, (unsigned char)-42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$13 == 55))
+  unsigned char return_value_AO_char_fetch_and_add_full_13;
+  return_value_AO_char_fetch_and_add_full_13=AO_char_fetch_and_add_full(&b, (unsigned char)-42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_13 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1206);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$14;
-  return_value_AO_char_fetch_and_add_full$14=AO_char_fetch_and_add_full(&b, (unsigned char)1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$14 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_full_14;
+  return_value_AO_char_fetch_and_add_full_14=AO_char_fetch_and_add_full(&b, (unsigned char)1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_14 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1211);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$15;
-  return_value_AO_char_fetch_and_add_full$15=AO_char_fetch_and_add_full(&b, (unsigned char)-1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$15 == 14))
+  unsigned char return_value_AO_char_fetch_and_add_full_15;
+  return_value_AO_char_fetch_and_add_full_15=AO_char_fetch_and_add_full(&b, (unsigned char)-1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_15 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1217);
     exit(1);
   }
 
   zz = (unsigned int)13;
-  unsigned int return_value_AO_int_load_full$16;
-  return_value_AO_int_load_full$16=AO_int_load_full(&zz);
-  if(!(return_value_AO_int_load_full$16 == 13u))
+  unsigned int return_value_AO_int_load_full_16;
+  return_value_AO_int_load_full_16=AO_int_load_full(&zz);
+  if(!(return_value_AO_int_load_full_16 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1234);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$17;
-  return_value_AO_int_fetch_and_add_full$17=AO_int_fetch_and_add_full(&zz, (unsigned int)42);
-  if(!(return_value_AO_int_fetch_and_add_full$17 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_full_17;
+  return_value_AO_int_fetch_and_add_full_17=AO_int_fetch_and_add_full(&zz, (unsigned int)42);
+  if(!(return_value_AO_int_fetch_and_add_full_17 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1242);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$18;
-  return_value_AO_int_fetch_and_add_full$18=AO_int_fetch_and_add_full(&zz, (unsigned int)-42);
-  if(!(return_value_AO_int_fetch_and_add_full$18 == 55u))
+  unsigned int return_value_AO_int_fetch_and_add_full_18;
+  return_value_AO_int_fetch_and_add_full_18=AO_int_fetch_and_add_full(&zz, (unsigned int)-42);
+  if(!(return_value_AO_int_fetch_and_add_full_18 == 55u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1243);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$19;
-  return_value_AO_int_fetch_and_add_full$19=AO_int_fetch_and_add_full(&zz, (unsigned int)1);
-  if(!(return_value_AO_int_fetch_and_add_full$19 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_full_19;
+  return_value_AO_int_fetch_and_add_full_19=AO_int_fetch_and_add_full(&zz, (unsigned int)1);
+  if(!(return_value_AO_int_fetch_and_add_full_19 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1248);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$20;
-  return_value_AO_int_fetch_and_add_full$20=AO_int_fetch_and_add_full(&zz, (unsigned int)-1);
-  if(!(return_value_AO_int_fetch_and_add_full$20 == 14u))
+  unsigned int return_value_AO_int_fetch_and_add_full_20;
+  return_value_AO_int_fetch_and_add_full_20=AO_int_fetch_and_add_full(&zz, (unsigned int)-1);
+  if(!(return_value_AO_int_fetch_and_add_full_20 == 14u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1254);
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_read$21;
-  return_value_AO_compare_and_swap_read$21=AO_compare_and_swap_read(&x, (unsigned long int)14, (unsigned long int)42);
-  if(!(return_value_AO_compare_and_swap_read$21 == 0))
+  signed int return_value_AO_compare_and_swap_read_21;
+  return_value_AO_compare_and_swap_read_21=AO_compare_and_swap_read(&x, (unsigned long int)14, (unsigned long int)42);
+  if(!(return_value_AO_compare_and_swap_read_21 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1260);
     exit(1);
@@ -4238,9 +4238,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_read$22;
-  return_value_AO_compare_and_swap_read$22=AO_compare_and_swap_read(&x, (unsigned long int)13, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_read$22 == 0)
+  signed int return_value_AO_compare_and_swap_read_22;
+  return_value_AO_compare_and_swap_read_22=AO_compare_and_swap_read(&x, (unsigned long int)13, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_read_22 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1262);
     exit(1);
@@ -4273,9 +4273,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$23;
-  return_value_AO_fetch_compare_and_swap_full$23=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$23 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_23;
+  return_value_AO_fetch_compare_and_swap_full_23=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_23 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1290);
     exit(1);
@@ -4287,9 +4287,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$24;
-  return_value_AO_fetch_compare_and_swap_full$24=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$24 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_24;
+  return_value_AO_fetch_compare_and_swap_full_24=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_24 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1292);
     exit(1);
@@ -4310,9 +4310,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$25;
-  return_value_AO_compare_double_and_swap_double_full$25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_double_and_swap_double_full$25 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_25;
+  return_value_AO_compare_double_and_swap_double_full_25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_double_and_swap_double_full_25 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1330);
     exit(1);
@@ -4324,9 +4324,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$26;
-  return_value_AO_compare_double_and_swap_double_full$26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_double_and_swap_double_full$26 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_26;
+  return_value_AO_compare_double_and_swap_double_full_26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_double_and_swap_double_full_26 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1332);
     exit(1);
@@ -4338,9 +4338,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$27;
-  return_value_AO_compare_double_and_swap_double_full$27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
-  if(!(return_value_AO_compare_double_and_swap_double_full$27 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_27;
+  return_value_AO_compare_double_and_swap_double_full_27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
+  if(!(return_value_AO_compare_double_and_swap_double_full_27 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1334);
     exit(1);
@@ -4352,9 +4352,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$28;
-  return_value_AO_compare_double_and_swap_double_full$28=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
-  if(!(return_value_AO_compare_double_and_swap_double_full$28 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_28;
+  return_value_AO_compare_double_and_swap_double_full_28=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
+  if(!(return_value_AO_compare_double_and_swap_double_full_28 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1336);
     exit(1);
@@ -4366,9 +4366,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$29;
-  return_value_AO_compare_double_and_swap_double_full$29=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(!(return_value_AO_compare_double_and_swap_double_full$29 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_29;
+  return_value_AO_compare_double_and_swap_double_full_29=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(!(return_value_AO_compare_double_and_swap_double_full_29 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1338);
     exit(1);
@@ -4380,9 +4380,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$30;
-  return_value_AO_compare_double_and_swap_double_full$30=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_double_and_swap_double_full$30 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_30;
+  return_value_AO_compare_double_and_swap_double_full_30=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_double_and_swap_double_full_30 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1340);
     exit(1);
@@ -4394,9 +4394,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$31;
-  return_value_AO_compare_double_and_swap_double_full$31=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_double_and_swap_double_full$31 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_31;
+  return_value_AO_compare_double_and_swap_double_full_31=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_double_and_swap_double_full_31 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1342);
     exit(1);
@@ -4408,9 +4408,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$32;
-  return_value_AO_compare_and_swap_double_full$32=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_and_swap_double_full$32 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_32;
+  return_value_AO_compare_and_swap_double_full_32=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_and_swap_double_full_32 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1348);
     exit(1);
@@ -4422,9 +4422,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$33;
-  return_value_AO_compare_and_swap_double_full$33=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_and_swap_double_full$33 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_33;
+  return_value_AO_compare_and_swap_double_full_33=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_and_swap_double_full_33 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1350);
     exit(1);
@@ -4436,9 +4436,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$34;
-  return_value_AO_compare_and_swap_double_full$34=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
-  if(!(return_value_AO_compare_and_swap_double_full$34 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_34;
+  return_value_AO_compare_and_swap_double_full_34=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
+  if(!(return_value_AO_compare_and_swap_double_full_34 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1352);
     exit(1);
@@ -4450,9 +4450,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$35;
-  return_value_AO_compare_and_swap_double_full$35=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
-  if(!(return_value_AO_compare_and_swap_double_full$35 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_35;
+  return_value_AO_compare_and_swap_double_full_35=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
+  if(!(return_value_AO_compare_and_swap_double_full_35 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1354);
     exit(1);
@@ -4464,9 +4464,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$36;
-  return_value_AO_compare_and_swap_double_full$36=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_double_full$36 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_36;
+  return_value_AO_compare_and_swap_double_full_36=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_double_full_36 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1356);
     exit(1);
@@ -4478,9 +4478,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$37;
-  return_value_AO_compare_and_swap_double_full$37=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_and_swap_double_full$37 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_37;
+  return_value_AO_compare_and_swap_double_full_37=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_and_swap_double_full_37 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1358);
     exit(1);
@@ -4496,9 +4496,9 @@ void test_atomic_read(void)
   old_w.AO_val2 = (unsigned long int)2121;
   new_w.AO_val1 = (unsigned long int)8537;
   new_w.AO_val2 = (unsigned long int)6410;
-  signed int return_value_AO_double_compare_and_swap_read$38;
-  return_value_AO_double_compare_and_swap_read$38=AO_double_compare_and_swap_read(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_read$38 == 0))
+  signed int return_value_AO_double_compare_and_swap_read_38;
+  return_value_AO_double_compare_and_swap_read_38=AO_double_compare_and_swap_read(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_read_38 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1368);
     exit(1);
@@ -4510,9 +4510,9 @@ void test_atomic_read(void)
     exit(1);
   }
 
-  signed int return_value_AO_double_compare_and_swap_read$39;
-  return_value_AO_double_compare_and_swap_read$39=AO_double_compare_and_swap_read(&w, w, new_w);
-  if(return_value_AO_double_compare_and_swap_read$39 == 0)
+  signed int return_value_AO_double_compare_and_swap_read_39;
+  return_value_AO_double_compare_and_swap_read_39=AO_double_compare_and_swap_read(&w, w, new_w);
+  if(return_value_AO_double_compare_and_swap_read_39 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1370);
     exit(1);
@@ -4528,9 +4528,9 @@ void test_atomic_read(void)
   old_w.AO_val2 = (unsigned long int)29;
   new_w.AO_val1 = (unsigned long int)820;
   new_w.AO_val2 = (unsigned long int)5917;
-  signed int return_value_AO_double_compare_and_swap_read$40;
-  return_value_AO_double_compare_and_swap_read$40=AO_double_compare_and_swap_read(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_read$40 == 0))
+  signed int return_value_AO_double_compare_and_swap_read_40;
+  return_value_AO_double_compare_and_swap_read_40=AO_double_compare_and_swap_read(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_read_40 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1376);
     exit(1);
@@ -4546,9 +4546,9 @@ void test_atomic_read(void)
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)3552;
   new_w.AO_val2 = (unsigned long int)1746;
-  signed int return_value_AO_double_compare_and_swap_read$41;
-  return_value_AO_double_compare_and_swap_read$41=AO_double_compare_and_swap_read(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_read$41 == 0))
+  signed int return_value_AO_double_compare_and_swap_read_41;
+  return_value_AO_double_compare_and_swap_read_41=AO_double_compare_and_swap_read(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_read_41 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1382);
     exit(1);
@@ -4564,9 +4564,9 @@ void test_atomic_read(void)
   old_w.AO_val2 = (unsigned long int)8537;
   new_w.AO_val1 = (unsigned long int)4116;
   new_w.AO_val2 = (unsigned long int)2121;
-  signed int return_value_AO_double_compare_and_swap_read$42;
-  return_value_AO_double_compare_and_swap_read$42=AO_double_compare_and_swap_read(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_read$42 == 0))
+  signed int return_value_AO_double_compare_and_swap_read_42;
+  return_value_AO_double_compare_and_swap_read_42=AO_double_compare_and_swap_read(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_read_42 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1388);
     exit(1);
@@ -4581,9 +4581,9 @@ void test_atomic_read(void)
   old_w.AO_val1 = old_w.AO_val2;
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)1;
-  signed int return_value_AO_double_compare_and_swap_read$43;
-  return_value_AO_double_compare_and_swap_read$43=AO_double_compare_and_swap_read(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_read$43 == 0)
+  signed int return_value_AO_double_compare_and_swap_read_43;
+  return_value_AO_double_compare_and_swap_read_43=AO_double_compare_and_swap_read(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_read_43 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1393);
     exit(1);
@@ -4599,9 +4599,9 @@ void test_atomic_read(void)
   old_w.AO_val2 = w.AO_val2;
   new_w.AO_val1 = new_w.AO_val1 - 1ul;
   new_w.AO_val2 = (unsigned long int)0;
-  signed int return_value_AO_double_compare_and_swap_read$44;
-  return_value_AO_double_compare_and_swap_read$44=AO_double_compare_and_swap_read(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_read$44 == 0)
+  signed int return_value_AO_double_compare_and_swap_read_44;
+  return_value_AO_double_compare_and_swap_read_44=AO_double_compare_and_swap_read(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_read_44 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _read)\n", (const void *)"test_atomic_include.h", 1399);
     exit(1);
@@ -4637,140 +4637,140 @@ void test_atomic_release(void)
   }
 
   AO_store_full((unsigned long int *)&z, (unsigned long int)AO_TS_clear);
-  unsigned long int return_value_AO_fetch_and_add_release$1;
-  return_value_AO_fetch_and_add_release$1=AO_fetch_and_add_release(&x, (unsigned long int)42);
-  if(!(return_value_AO_fetch_and_add_release$1 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_release_1;
+  return_value_AO_fetch_and_add_release_1=AO_fetch_and_add_release(&x, (unsigned long int)42);
+  if(!(return_value_AO_fetch_and_add_release_1 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 428);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_release$2;
-  return_value_AO_fetch_and_add_release$2=AO_fetch_and_add_release(&x, (unsigned long int)-42);
-  if(!(return_value_AO_fetch_and_add_release$2 == 55ul))
+  unsigned long int return_value_AO_fetch_and_add_release_2;
+  return_value_AO_fetch_and_add_release_2=AO_fetch_and_add_release(&x, (unsigned long int)-42);
+  if(!(return_value_AO_fetch_and_add_release_2 == 55ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 429);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_release$3;
-  return_value_AO_fetch_and_add_release$3=AO_fetch_and_add_release(&x, (unsigned long int)1);
-  if(!(return_value_AO_fetch_and_add_release$3 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_release_3;
+  return_value_AO_fetch_and_add_release_3=AO_fetch_and_add_release(&x, (unsigned long int)1);
+  if(!(return_value_AO_fetch_and_add_release_3 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 434);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_release$4;
-  return_value_AO_fetch_and_add_release$4=AO_fetch_and_add_release(&x, (unsigned long int)-1);
-  if(!(return_value_AO_fetch_and_add_release$4 == 14ul))
+  unsigned long int return_value_AO_fetch_and_add_release_4;
+  return_value_AO_fetch_and_add_release_4=AO_fetch_and_add_release(&x, (unsigned long int)-1);
+  if(!(return_value_AO_fetch_and_add_release_4 == 14ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 440);
     exit(1);
   }
 
   AO_short_store_full(&s, (unsigned short int)13);
-  unsigned short int return_value_AO_short_fetch_and_add_release$5;
-  return_value_AO_short_fetch_and_add_release$5=AO_short_fetch_and_add_release(&s, (unsigned short int)42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_release$5 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_release_5;
+  return_value_AO_short_fetch_and_add_release_5=AO_short_fetch_and_add_release(&s, (unsigned short int)42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_release_5 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 466);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_release$6;
-  return_value_AO_short_fetch_and_add_release$6=AO_short_fetch_and_add_release(&s, (unsigned short int)-42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_release$6 == 55))
+  unsigned short int return_value_AO_short_fetch_and_add_release_6;
+  return_value_AO_short_fetch_and_add_release_6=AO_short_fetch_and_add_release(&s, (unsigned short int)-42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_release_6 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 467);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_release$7;
-  return_value_AO_short_fetch_and_add_release$7=AO_short_fetch_and_add_release(&s, (unsigned short int)1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_release$7 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_release_7;
+  return_value_AO_short_fetch_and_add_release_7=AO_short_fetch_and_add_release(&s, (unsigned short int)1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_release_7 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 472);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_release$8;
-  return_value_AO_short_fetch_and_add_release$8=AO_short_fetch_and_add_release(&s, (unsigned short int)-1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_release$8 == 14))
+  unsigned short int return_value_AO_short_fetch_and_add_release_8;
+  return_value_AO_short_fetch_and_add_release_8=AO_short_fetch_and_add_release(&s, (unsigned short int)-1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_release_8 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 478);
     exit(1);
   }
 
   AO_char_store_full(&b, (unsigned char)13);
-  unsigned char return_value_AO_char_fetch_and_add_release$9;
-  return_value_AO_char_fetch_and_add_release$9=AO_char_fetch_and_add_release(&b, (unsigned char)42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_release$9 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_release_9;
+  return_value_AO_char_fetch_and_add_release_9=AO_char_fetch_and_add_release(&b, (unsigned char)42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_release_9 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 503);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_release$10;
-  return_value_AO_char_fetch_and_add_release$10=AO_char_fetch_and_add_release(&b, (unsigned char)-42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_release$10 == 55))
+  unsigned char return_value_AO_char_fetch_and_add_release_10;
+  return_value_AO_char_fetch_and_add_release_10=AO_char_fetch_and_add_release(&b, (unsigned char)-42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_release_10 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 504);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_release$11;
-  return_value_AO_char_fetch_and_add_release$11=AO_char_fetch_and_add_release(&b, (unsigned char)1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_release$11 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_release_11;
+  return_value_AO_char_fetch_and_add_release_11=AO_char_fetch_and_add_release(&b, (unsigned char)1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_release_11 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 509);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_release$12;
-  return_value_AO_char_fetch_and_add_release$12=AO_char_fetch_and_add_release(&b, (unsigned char)-1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_release$12 == 14))
+  unsigned char return_value_AO_char_fetch_and_add_release_12;
+  return_value_AO_char_fetch_and_add_release_12=AO_char_fetch_and_add_release(&b, (unsigned char)-1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_release_12 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 515);
     exit(1);
   }
 
   AO_int_store_full(&zz, (unsigned int)13);
-  unsigned int return_value_AO_int_fetch_and_add_release$13;
-  return_value_AO_int_fetch_and_add_release$13=AO_int_fetch_and_add_release(&zz, (unsigned int)42);
-  if(!(return_value_AO_int_fetch_and_add_release$13 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_release_13;
+  return_value_AO_int_fetch_and_add_release_13=AO_int_fetch_and_add_release(&zz, (unsigned int)42);
+  if(!(return_value_AO_int_fetch_and_add_release_13 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 540);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_release$14;
-  return_value_AO_int_fetch_and_add_release$14=AO_int_fetch_and_add_release(&zz, (unsigned int)-42);
-  if(!(return_value_AO_int_fetch_and_add_release$14 == 55u))
+  unsigned int return_value_AO_int_fetch_and_add_release_14;
+  return_value_AO_int_fetch_and_add_release_14=AO_int_fetch_and_add_release(&zz, (unsigned int)-42);
+  if(!(return_value_AO_int_fetch_and_add_release_14 == 55u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 541);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_release$15;
-  return_value_AO_int_fetch_and_add_release$15=AO_int_fetch_and_add_release(&zz, (unsigned int)1);
-  if(!(return_value_AO_int_fetch_and_add_release$15 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_release_15;
+  return_value_AO_int_fetch_and_add_release_15=AO_int_fetch_and_add_release(&zz, (unsigned int)1);
+  if(!(return_value_AO_int_fetch_and_add_release_15 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 546);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_release$16;
-  return_value_AO_int_fetch_and_add_release$16=AO_int_fetch_and_add_release(&zz, (unsigned int)-1);
-  if(!(return_value_AO_int_fetch_and_add_release$16 == 14u))
+  unsigned int return_value_AO_int_fetch_and_add_release_16;
+  return_value_AO_int_fetch_and_add_release_16=AO_int_fetch_and_add_release(&zz, (unsigned int)-1);
+  if(!(return_value_AO_int_fetch_and_add_release_16 == 14u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 552);
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_release$17;
-  return_value_AO_compare_and_swap_release$17=AO_compare_and_swap_release(&x, (unsigned long int)14, (unsigned long int)42);
-  if(!(return_value_AO_compare_and_swap_release$17 == 0))
+  signed int return_value_AO_compare_and_swap_release_17;
+  return_value_AO_compare_and_swap_release_17=AO_compare_and_swap_release(&x, (unsigned long int)14, (unsigned long int)42);
+  if(!(return_value_AO_compare_and_swap_release_17 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 558);
     exit(1);
@@ -4782,9 +4782,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_release$18;
-  return_value_AO_compare_and_swap_release$18=AO_compare_and_swap_release(&x, (unsigned long int)13, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_release$18 == 0)
+  signed int return_value_AO_compare_and_swap_release_18;
+  return_value_AO_compare_and_swap_release_18=AO_compare_and_swap_release(&x, (unsigned long int)13, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_release_18 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 560);
     exit(1);
@@ -4817,9 +4817,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$19;
-  return_value_AO_fetch_compare_and_swap_full$19=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$19 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_19;
+  return_value_AO_fetch_compare_and_swap_full_19=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_19 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 588);
     exit(1);
@@ -4831,9 +4831,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$20;
-  return_value_AO_fetch_compare_and_swap_full$20=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$20 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_20;
+  return_value_AO_fetch_compare_and_swap_full_20=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_20 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 590);
     exit(1);
@@ -4870,9 +4870,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$21;
-  return_value_AO_compare_double_and_swap_double_full$21=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_double_and_swap_double_full$21 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_21;
+  return_value_AO_compare_double_and_swap_double_full_21=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_double_and_swap_double_full_21 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 628);
     exit(1);
@@ -4884,9 +4884,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$22;
-  return_value_AO_compare_double_and_swap_double_full$22=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_double_and_swap_double_full$22 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_22;
+  return_value_AO_compare_double_and_swap_double_full_22=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_double_and_swap_double_full_22 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 630);
     exit(1);
@@ -4898,9 +4898,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$23;
-  return_value_AO_compare_double_and_swap_double_full$23=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
-  if(!(return_value_AO_compare_double_and_swap_double_full$23 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_23;
+  return_value_AO_compare_double_and_swap_double_full_23=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
+  if(!(return_value_AO_compare_double_and_swap_double_full_23 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 632);
     exit(1);
@@ -4912,9 +4912,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$24;
-  return_value_AO_compare_double_and_swap_double_full$24=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
-  if(!(return_value_AO_compare_double_and_swap_double_full$24 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_24;
+  return_value_AO_compare_double_and_swap_double_full_24=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
+  if(!(return_value_AO_compare_double_and_swap_double_full_24 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 634);
     exit(1);
@@ -4926,9 +4926,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$25;
-  return_value_AO_compare_double_and_swap_double_full$25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(!(return_value_AO_compare_double_and_swap_double_full$25 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_25;
+  return_value_AO_compare_double_and_swap_double_full_25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(!(return_value_AO_compare_double_and_swap_double_full_25 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 636);
     exit(1);
@@ -4940,9 +4940,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$26;
-  return_value_AO_compare_double_and_swap_double_full$26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_double_and_swap_double_full$26 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_26;
+  return_value_AO_compare_double_and_swap_double_full_26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_double_and_swap_double_full_26 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 638);
     exit(1);
@@ -4954,9 +4954,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$27;
-  return_value_AO_compare_double_and_swap_double_full$27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_double_and_swap_double_full$27 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_27;
+  return_value_AO_compare_double_and_swap_double_full_27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_double_and_swap_double_full_27 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 640);
     exit(1);
@@ -4968,9 +4968,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$28;
-  return_value_AO_compare_and_swap_double_full$28=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_and_swap_double_full$28 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_28;
+  return_value_AO_compare_and_swap_double_full_28=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_and_swap_double_full_28 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 646);
     exit(1);
@@ -4982,9 +4982,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$29;
-  return_value_AO_compare_and_swap_double_full$29=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_and_swap_double_full$29 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_29;
+  return_value_AO_compare_and_swap_double_full_29=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_and_swap_double_full_29 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 648);
     exit(1);
@@ -4996,9 +4996,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$30;
-  return_value_AO_compare_and_swap_double_full$30=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
-  if(!(return_value_AO_compare_and_swap_double_full$30 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_30;
+  return_value_AO_compare_and_swap_double_full_30=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
+  if(!(return_value_AO_compare_and_swap_double_full_30 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 650);
     exit(1);
@@ -5010,9 +5010,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$31;
-  return_value_AO_compare_and_swap_double_full$31=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
-  if(!(return_value_AO_compare_and_swap_double_full$31 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_31;
+  return_value_AO_compare_and_swap_double_full_31=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
+  if(!(return_value_AO_compare_and_swap_double_full_31 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 652);
     exit(1);
@@ -5024,9 +5024,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$32;
-  return_value_AO_compare_and_swap_double_full$32=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_double_full$32 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_32;
+  return_value_AO_compare_and_swap_double_full_32=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_double_full_32 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 654);
     exit(1);
@@ -5038,9 +5038,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$33;
-  return_value_AO_compare_and_swap_double_full$33=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_and_swap_double_full$33 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_33;
+  return_value_AO_compare_and_swap_double_full_33=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_and_swap_double_full_33 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 656);
     exit(1);
@@ -5056,9 +5056,9 @@ void test_atomic_release(void)
   old_w.AO_val2 = (unsigned long int)2121;
   new_w.AO_val1 = (unsigned long int)8537;
   new_w.AO_val2 = (unsigned long int)6410;
-  signed int return_value_AO_double_compare_and_swap_release$34;
-  return_value_AO_double_compare_and_swap_release$34=AO_double_compare_and_swap_release(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_release$34 == 0))
+  signed int return_value_AO_double_compare_and_swap_release_34;
+  return_value_AO_double_compare_and_swap_release_34=AO_double_compare_and_swap_release(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_release_34 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 666);
     exit(1);
@@ -5070,9 +5070,9 @@ void test_atomic_release(void)
     exit(1);
   }
 
-  signed int return_value_AO_double_compare_and_swap_release$35;
-  return_value_AO_double_compare_and_swap_release$35=AO_double_compare_and_swap_release(&w, w, new_w);
-  if(return_value_AO_double_compare_and_swap_release$35 == 0)
+  signed int return_value_AO_double_compare_and_swap_release_35;
+  return_value_AO_double_compare_and_swap_release_35=AO_double_compare_and_swap_release(&w, w, new_w);
+  if(return_value_AO_double_compare_and_swap_release_35 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 668);
     exit(1);
@@ -5088,9 +5088,9 @@ void test_atomic_release(void)
   old_w.AO_val2 = (unsigned long int)29;
   new_w.AO_val1 = (unsigned long int)820;
   new_w.AO_val2 = (unsigned long int)5917;
-  signed int return_value_AO_double_compare_and_swap_release$36;
-  return_value_AO_double_compare_and_swap_release$36=AO_double_compare_and_swap_release(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_release$36 == 0))
+  signed int return_value_AO_double_compare_and_swap_release_36;
+  return_value_AO_double_compare_and_swap_release_36=AO_double_compare_and_swap_release(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_release_36 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 674);
     exit(1);
@@ -5106,9 +5106,9 @@ void test_atomic_release(void)
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)3552;
   new_w.AO_val2 = (unsigned long int)1746;
-  signed int return_value_AO_double_compare_and_swap_release$37;
-  return_value_AO_double_compare_and_swap_release$37=AO_double_compare_and_swap_release(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_release$37 == 0))
+  signed int return_value_AO_double_compare_and_swap_release_37;
+  return_value_AO_double_compare_and_swap_release_37=AO_double_compare_and_swap_release(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_release_37 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 680);
     exit(1);
@@ -5124,9 +5124,9 @@ void test_atomic_release(void)
   old_w.AO_val2 = (unsigned long int)8537;
   new_w.AO_val1 = (unsigned long int)4116;
   new_w.AO_val2 = (unsigned long int)2121;
-  signed int return_value_AO_double_compare_and_swap_release$38;
-  return_value_AO_double_compare_and_swap_release$38=AO_double_compare_and_swap_release(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_release$38 == 0))
+  signed int return_value_AO_double_compare_and_swap_release_38;
+  return_value_AO_double_compare_and_swap_release_38=AO_double_compare_and_swap_release(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_release_38 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 686);
     exit(1);
@@ -5141,9 +5141,9 @@ void test_atomic_release(void)
   old_w.AO_val1 = old_w.AO_val2;
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)1;
-  signed int return_value_AO_double_compare_and_swap_release$39;
-  return_value_AO_double_compare_and_swap_release$39=AO_double_compare_and_swap_release(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_release$39 == 0)
+  signed int return_value_AO_double_compare_and_swap_release_39;
+  return_value_AO_double_compare_and_swap_release_39=AO_double_compare_and_swap_release(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_release_39 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 691);
     exit(1);
@@ -5159,9 +5159,9 @@ void test_atomic_release(void)
   old_w.AO_val2 = w.AO_val2;
   new_w.AO_val1 = new_w.AO_val1 - 1ul;
   new_w.AO_val2 = (unsigned long int)0;
-  signed int return_value_AO_double_compare_and_swap_release$40;
-  return_value_AO_double_compare_and_swap_release$40=AO_double_compare_and_swap_release(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_release$40 == 0)
+  signed int return_value_AO_double_compare_and_swap_release_40;
+  return_value_AO_double_compare_and_swap_release_40=AO_double_compare_and_swap_release(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_release_40 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release)\n", (const void *)"test_atomic_include.h", 697);
     exit(1);
@@ -5197,140 +5197,140 @@ void test_atomic_release_write(void)
   }
 
   AO_store_full((unsigned long int *)&z, (unsigned long int)AO_TS_clear);
-  unsigned long int return_value_AO_fetch_and_add_full$1;
-  return_value_AO_fetch_and_add_full$1=AO_fetch_and_add_full(&x, (unsigned long int)42);
-  if(!(return_value_AO_fetch_and_add_full$1 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_full_1;
+  return_value_AO_fetch_and_add_full_1=AO_fetch_and_add_full(&x, (unsigned long int)42);
+  if(!(return_value_AO_fetch_and_add_full_1 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2183);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$2;
-  return_value_AO_fetch_and_add_full$2=AO_fetch_and_add_full(&x, (unsigned long int)-42);
-  if(!(return_value_AO_fetch_and_add_full$2 == 55ul))
+  unsigned long int return_value_AO_fetch_and_add_full_2;
+  return_value_AO_fetch_and_add_full_2=AO_fetch_and_add_full(&x, (unsigned long int)-42);
+  if(!(return_value_AO_fetch_and_add_full_2 == 55ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2184);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$3;
-  return_value_AO_fetch_and_add_full$3=AO_fetch_and_add_full(&x, (unsigned long int)1);
-  if(!(return_value_AO_fetch_and_add_full$3 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_full_3;
+  return_value_AO_fetch_and_add_full_3=AO_fetch_and_add_full(&x, (unsigned long int)1);
+  if(!(return_value_AO_fetch_and_add_full_3 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2189);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$4;
-  return_value_AO_fetch_and_add_full$4=AO_fetch_and_add_full(&x, (unsigned long int)-1);
-  if(!(return_value_AO_fetch_and_add_full$4 == 14ul))
+  unsigned long int return_value_AO_fetch_and_add_full_4;
+  return_value_AO_fetch_and_add_full_4=AO_fetch_and_add_full(&x, (unsigned long int)-1);
+  if(!(return_value_AO_fetch_and_add_full_4 == 14ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2195);
     exit(1);
   }
 
   AO_short_store_full(&s, (unsigned short int)13);
-  unsigned short int return_value_AO_short_fetch_and_add_full$5;
-  return_value_AO_short_fetch_and_add_full$5=AO_short_fetch_and_add_full(&s, (unsigned short int)42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$5 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_full_5;
+  return_value_AO_short_fetch_and_add_full_5=AO_short_fetch_and_add_full(&s, (unsigned short int)42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_5 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2221);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$6;
-  return_value_AO_short_fetch_and_add_full$6=AO_short_fetch_and_add_full(&s, (unsigned short int)-42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$6 == 55))
+  unsigned short int return_value_AO_short_fetch_and_add_full_6;
+  return_value_AO_short_fetch_and_add_full_6=AO_short_fetch_and_add_full(&s, (unsigned short int)-42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_6 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2222);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$7;
-  return_value_AO_short_fetch_and_add_full$7=AO_short_fetch_and_add_full(&s, (unsigned short int)1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$7 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_full_7;
+  return_value_AO_short_fetch_and_add_full_7=AO_short_fetch_and_add_full(&s, (unsigned short int)1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_7 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2227);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$8;
-  return_value_AO_short_fetch_and_add_full$8=AO_short_fetch_and_add_full(&s, (unsigned short int)-1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$8 == 14))
+  unsigned short int return_value_AO_short_fetch_and_add_full_8;
+  return_value_AO_short_fetch_and_add_full_8=AO_short_fetch_and_add_full(&s, (unsigned short int)-1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_8 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2233);
     exit(1);
   }
 
   AO_char_store_full(&b, (unsigned char)13);
-  unsigned char return_value_AO_char_fetch_and_add_full$9;
-  return_value_AO_char_fetch_and_add_full$9=AO_char_fetch_and_add_full(&b, (unsigned char)42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$9 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_full_9;
+  return_value_AO_char_fetch_and_add_full_9=AO_char_fetch_and_add_full(&b, (unsigned char)42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_9 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2258);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$10;
-  return_value_AO_char_fetch_and_add_full$10=AO_char_fetch_and_add_full(&b, (unsigned char)-42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$10 == 55))
+  unsigned char return_value_AO_char_fetch_and_add_full_10;
+  return_value_AO_char_fetch_and_add_full_10=AO_char_fetch_and_add_full(&b, (unsigned char)-42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_10 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2259);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$11;
-  return_value_AO_char_fetch_and_add_full$11=AO_char_fetch_and_add_full(&b, (unsigned char)1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$11 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_full_11;
+  return_value_AO_char_fetch_and_add_full_11=AO_char_fetch_and_add_full(&b, (unsigned char)1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_11 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2264);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$12;
-  return_value_AO_char_fetch_and_add_full$12=AO_char_fetch_and_add_full(&b, (unsigned char)-1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$12 == 14))
+  unsigned char return_value_AO_char_fetch_and_add_full_12;
+  return_value_AO_char_fetch_and_add_full_12=AO_char_fetch_and_add_full(&b, (unsigned char)-1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_12 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2270);
     exit(1);
   }
 
   AO_int_store_full(&zz, (unsigned int)13);
-  unsigned int return_value_AO_int_fetch_and_add_full$13;
-  return_value_AO_int_fetch_and_add_full$13=AO_int_fetch_and_add_full(&zz, (unsigned int)42);
-  if(!(return_value_AO_int_fetch_and_add_full$13 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_full_13;
+  return_value_AO_int_fetch_and_add_full_13=AO_int_fetch_and_add_full(&zz, (unsigned int)42);
+  if(!(return_value_AO_int_fetch_and_add_full_13 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2295);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$14;
-  return_value_AO_int_fetch_and_add_full$14=AO_int_fetch_and_add_full(&zz, (unsigned int)-42);
-  if(!(return_value_AO_int_fetch_and_add_full$14 == 55u))
+  unsigned int return_value_AO_int_fetch_and_add_full_14;
+  return_value_AO_int_fetch_and_add_full_14=AO_int_fetch_and_add_full(&zz, (unsigned int)-42);
+  if(!(return_value_AO_int_fetch_and_add_full_14 == 55u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2296);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$15;
-  return_value_AO_int_fetch_and_add_full$15=AO_int_fetch_and_add_full(&zz, (unsigned int)1);
-  if(!(return_value_AO_int_fetch_and_add_full$15 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_full_15;
+  return_value_AO_int_fetch_and_add_full_15=AO_int_fetch_and_add_full(&zz, (unsigned int)1);
+  if(!(return_value_AO_int_fetch_and_add_full_15 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2301);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$16;
-  return_value_AO_int_fetch_and_add_full$16=AO_int_fetch_and_add_full(&zz, (unsigned int)-1);
-  if(!(return_value_AO_int_fetch_and_add_full$16 == 14u))
+  unsigned int return_value_AO_int_fetch_and_add_full_16;
+  return_value_AO_int_fetch_and_add_full_16=AO_int_fetch_and_add_full(&zz, (unsigned int)-1);
+  if(!(return_value_AO_int_fetch_and_add_full_16 == 14u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2307);
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_release_write$17;
-  return_value_AO_compare_and_swap_release_write$17=AO_compare_and_swap_release_write(&x, (unsigned long int)14, (unsigned long int)42);
-  if(!(return_value_AO_compare_and_swap_release_write$17 == 0))
+  signed int return_value_AO_compare_and_swap_release_write_17;
+  return_value_AO_compare_and_swap_release_write_17=AO_compare_and_swap_release_write(&x, (unsigned long int)14, (unsigned long int)42);
+  if(!(return_value_AO_compare_and_swap_release_write_17 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2313);
     exit(1);
@@ -5342,9 +5342,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_release_write$18;
-  return_value_AO_compare_and_swap_release_write$18=AO_compare_and_swap_release_write(&x, (unsigned long int)13, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_release_write$18 == 0)
+  signed int return_value_AO_compare_and_swap_release_write_18;
+  return_value_AO_compare_and_swap_release_write_18=AO_compare_and_swap_release_write(&x, (unsigned long int)13, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_release_write_18 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2315);
     exit(1);
@@ -5377,9 +5377,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$19;
-  return_value_AO_fetch_compare_and_swap_full$19=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$19 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_19;
+  return_value_AO_fetch_compare_and_swap_full_19=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_19 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2343);
     exit(1);
@@ -5391,9 +5391,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$20;
-  return_value_AO_fetch_compare_and_swap_full$20=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$20 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_20;
+  return_value_AO_fetch_compare_and_swap_full_20=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_20 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2345);
     exit(1);
@@ -5430,9 +5430,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$21;
-  return_value_AO_compare_double_and_swap_double_full$21=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_double_and_swap_double_full$21 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_21;
+  return_value_AO_compare_double_and_swap_double_full_21=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_double_and_swap_double_full_21 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2383);
     exit(1);
@@ -5444,9 +5444,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$22;
-  return_value_AO_compare_double_and_swap_double_full$22=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_double_and_swap_double_full$22 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_22;
+  return_value_AO_compare_double_and_swap_double_full_22=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_double_and_swap_double_full_22 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2385);
     exit(1);
@@ -5458,9 +5458,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$23;
-  return_value_AO_compare_double_and_swap_double_full$23=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
-  if(!(return_value_AO_compare_double_and_swap_double_full$23 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_23;
+  return_value_AO_compare_double_and_swap_double_full_23=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
+  if(!(return_value_AO_compare_double_and_swap_double_full_23 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2387);
     exit(1);
@@ -5472,9 +5472,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$24;
-  return_value_AO_compare_double_and_swap_double_full$24=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
-  if(!(return_value_AO_compare_double_and_swap_double_full$24 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_24;
+  return_value_AO_compare_double_and_swap_double_full_24=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
+  if(!(return_value_AO_compare_double_and_swap_double_full_24 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2389);
     exit(1);
@@ -5486,9 +5486,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$25;
-  return_value_AO_compare_double_and_swap_double_full$25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(!(return_value_AO_compare_double_and_swap_double_full$25 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_25;
+  return_value_AO_compare_double_and_swap_double_full_25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(!(return_value_AO_compare_double_and_swap_double_full_25 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2391);
     exit(1);
@@ -5500,9 +5500,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$26;
-  return_value_AO_compare_double_and_swap_double_full$26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_double_and_swap_double_full$26 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_26;
+  return_value_AO_compare_double_and_swap_double_full_26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_double_and_swap_double_full_26 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2393);
     exit(1);
@@ -5514,9 +5514,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$27;
-  return_value_AO_compare_double_and_swap_double_full$27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_double_and_swap_double_full$27 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_27;
+  return_value_AO_compare_double_and_swap_double_full_27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_double_and_swap_double_full_27 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2395);
     exit(1);
@@ -5528,9 +5528,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$28;
-  return_value_AO_compare_and_swap_double_full$28=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_and_swap_double_full$28 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_28;
+  return_value_AO_compare_and_swap_double_full_28=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_and_swap_double_full_28 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2401);
     exit(1);
@@ -5542,9 +5542,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$29;
-  return_value_AO_compare_and_swap_double_full$29=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_and_swap_double_full$29 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_29;
+  return_value_AO_compare_and_swap_double_full_29=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_and_swap_double_full_29 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2403);
     exit(1);
@@ -5556,9 +5556,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$30;
-  return_value_AO_compare_and_swap_double_full$30=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
-  if(!(return_value_AO_compare_and_swap_double_full$30 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_30;
+  return_value_AO_compare_and_swap_double_full_30=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
+  if(!(return_value_AO_compare_and_swap_double_full_30 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2405);
     exit(1);
@@ -5570,9 +5570,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$31;
-  return_value_AO_compare_and_swap_double_full$31=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
-  if(!(return_value_AO_compare_and_swap_double_full$31 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_31;
+  return_value_AO_compare_and_swap_double_full_31=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
+  if(!(return_value_AO_compare_and_swap_double_full_31 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2407);
     exit(1);
@@ -5584,9 +5584,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$32;
-  return_value_AO_compare_and_swap_double_full$32=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_double_full$32 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_32;
+  return_value_AO_compare_and_swap_double_full_32=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_double_full_32 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2409);
     exit(1);
@@ -5598,9 +5598,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$33;
-  return_value_AO_compare_and_swap_double_full$33=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_and_swap_double_full$33 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_33;
+  return_value_AO_compare_and_swap_double_full_33=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_and_swap_double_full_33 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2411);
     exit(1);
@@ -5616,9 +5616,9 @@ void test_atomic_release_write(void)
   old_w.AO_val2 = (unsigned long int)2121;
   new_w.AO_val1 = (unsigned long int)8537;
   new_w.AO_val2 = (unsigned long int)6410;
-  signed int return_value_AO_double_compare_and_swap_release_write$34;
-  return_value_AO_double_compare_and_swap_release_write$34=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_release_write$34 == 0))
+  signed int return_value_AO_double_compare_and_swap_release_write_34;
+  return_value_AO_double_compare_and_swap_release_write_34=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_release_write_34 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2421);
     exit(1);
@@ -5630,9 +5630,9 @@ void test_atomic_release_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_double_compare_and_swap_release_write$35;
-  return_value_AO_double_compare_and_swap_release_write$35=AO_double_compare_and_swap_release_write(&w, w, new_w);
-  if(return_value_AO_double_compare_and_swap_release_write$35 == 0)
+  signed int return_value_AO_double_compare_and_swap_release_write_35;
+  return_value_AO_double_compare_and_swap_release_write_35=AO_double_compare_and_swap_release_write(&w, w, new_w);
+  if(return_value_AO_double_compare_and_swap_release_write_35 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2423);
     exit(1);
@@ -5648,9 +5648,9 @@ void test_atomic_release_write(void)
   old_w.AO_val2 = (unsigned long int)29;
   new_w.AO_val1 = (unsigned long int)820;
   new_w.AO_val2 = (unsigned long int)5917;
-  signed int return_value_AO_double_compare_and_swap_release_write$36;
-  return_value_AO_double_compare_and_swap_release_write$36=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_release_write$36 == 0))
+  signed int return_value_AO_double_compare_and_swap_release_write_36;
+  return_value_AO_double_compare_and_swap_release_write_36=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_release_write_36 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2429);
     exit(1);
@@ -5666,9 +5666,9 @@ void test_atomic_release_write(void)
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)3552;
   new_w.AO_val2 = (unsigned long int)1746;
-  signed int return_value_AO_double_compare_and_swap_release_write$37;
-  return_value_AO_double_compare_and_swap_release_write$37=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_release_write$37 == 0))
+  signed int return_value_AO_double_compare_and_swap_release_write_37;
+  return_value_AO_double_compare_and_swap_release_write_37=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_release_write_37 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2435);
     exit(1);
@@ -5684,9 +5684,9 @@ void test_atomic_release_write(void)
   old_w.AO_val2 = (unsigned long int)8537;
   new_w.AO_val1 = (unsigned long int)4116;
   new_w.AO_val2 = (unsigned long int)2121;
-  signed int return_value_AO_double_compare_and_swap_release_write$38;
-  return_value_AO_double_compare_and_swap_release_write$38=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_release_write$38 == 0))
+  signed int return_value_AO_double_compare_and_swap_release_write_38;
+  return_value_AO_double_compare_and_swap_release_write_38=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_release_write_38 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2441);
     exit(1);
@@ -5701,9 +5701,9 @@ void test_atomic_release_write(void)
   old_w.AO_val1 = old_w.AO_val2;
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)1;
-  signed int return_value_AO_double_compare_and_swap_release_write$39;
-  return_value_AO_double_compare_and_swap_release_write$39=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_release_write$39 == 0)
+  signed int return_value_AO_double_compare_and_swap_release_write_39;
+  return_value_AO_double_compare_and_swap_release_write_39=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_release_write_39 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2446);
     exit(1);
@@ -5719,9 +5719,9 @@ void test_atomic_release_write(void)
   old_w.AO_val2 = w.AO_val2;
   new_w.AO_val1 = new_w.AO_val1 - 1ul;
   new_w.AO_val2 = (unsigned long int)0;
-  signed int return_value_AO_double_compare_and_swap_release_write$40;
-  return_value_AO_double_compare_and_swap_release_write$40=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_release_write$40 == 0)
+  signed int return_value_AO_double_compare_and_swap_release_write_40;
+  return_value_AO_double_compare_and_swap_release_write_40=AO_double_compare_and_swap_release_write(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_release_write_40 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _release_write)\n", (const void *)"test_atomic_include.h", 2452);
     exit(1);
@@ -5758,140 +5758,140 @@ void test_atomic_write(void)
   }
 
   AO_store_full((unsigned long int *)&z, (unsigned long int)AO_TS_clear);
-  unsigned long int return_value_AO_fetch_and_add_full$1;
-  return_value_AO_fetch_and_add_full$1=AO_fetch_and_add_full(&x, (unsigned long int)42);
-  if(!(return_value_AO_fetch_and_add_full$1 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_full_1;
+  return_value_AO_fetch_and_add_full_1=AO_fetch_and_add_full(&x, (unsigned long int)42);
+  if(!(return_value_AO_fetch_and_add_full_1 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1481);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$2;
-  return_value_AO_fetch_and_add_full$2=AO_fetch_and_add_full(&x, (unsigned long int)-42);
-  if(!(return_value_AO_fetch_and_add_full$2 == 55ul))
+  unsigned long int return_value_AO_fetch_and_add_full_2;
+  return_value_AO_fetch_and_add_full_2=AO_fetch_and_add_full(&x, (unsigned long int)-42);
+  if(!(return_value_AO_fetch_and_add_full_2 == 55ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1482);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$3;
-  return_value_AO_fetch_and_add_full$3=AO_fetch_and_add_full(&x, (unsigned long int)1);
-  if(!(return_value_AO_fetch_and_add_full$3 == 13ul))
+  unsigned long int return_value_AO_fetch_and_add_full_3;
+  return_value_AO_fetch_and_add_full_3=AO_fetch_and_add_full(&x, (unsigned long int)1);
+  if(!(return_value_AO_fetch_and_add_full_3 == 13ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1487);
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_and_add_full$4;
-  return_value_AO_fetch_and_add_full$4=AO_fetch_and_add_full(&x, (unsigned long int)-1);
-  if(!(return_value_AO_fetch_and_add_full$4 == 14ul))
+  unsigned long int return_value_AO_fetch_and_add_full_4;
+  return_value_AO_fetch_and_add_full_4=AO_fetch_and_add_full(&x, (unsigned long int)-1);
+  if(!(return_value_AO_fetch_and_add_full_4 == 14ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1493);
     exit(1);
   }
 
   AO_short_store_full(&s, (unsigned short int)13);
-  unsigned short int return_value_AO_short_fetch_and_add_full$5;
-  return_value_AO_short_fetch_and_add_full$5=AO_short_fetch_and_add_full(&s, (unsigned short int)42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$5 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_full_5;
+  return_value_AO_short_fetch_and_add_full_5=AO_short_fetch_and_add_full(&s, (unsigned short int)42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_5 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1519);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$6;
-  return_value_AO_short_fetch_and_add_full$6=AO_short_fetch_and_add_full(&s, (unsigned short int)-42);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$6 == 55))
+  unsigned short int return_value_AO_short_fetch_and_add_full_6;
+  return_value_AO_short_fetch_and_add_full_6=AO_short_fetch_and_add_full(&s, (unsigned short int)-42);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_6 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1520);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$7;
-  return_value_AO_short_fetch_and_add_full$7=AO_short_fetch_and_add_full(&s, (unsigned short int)1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$7 == 13))
+  unsigned short int return_value_AO_short_fetch_and_add_full_7;
+  return_value_AO_short_fetch_and_add_full_7=AO_short_fetch_and_add_full(&s, (unsigned short int)1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_7 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1525);
     exit(1);
   }
 
-  unsigned short int return_value_AO_short_fetch_and_add_full$8;
-  return_value_AO_short_fetch_and_add_full$8=AO_short_fetch_and_add_full(&s, (unsigned short int)-1);
-  if(!((signed int)return_value_AO_short_fetch_and_add_full$8 == 14))
+  unsigned short int return_value_AO_short_fetch_and_add_full_8;
+  return_value_AO_short_fetch_and_add_full_8=AO_short_fetch_and_add_full(&s, (unsigned short int)-1);
+  if(!((signed int)return_value_AO_short_fetch_and_add_full_8 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1531);
     exit(1);
   }
 
   AO_char_store_full(&b, (unsigned char)13);
-  unsigned char return_value_AO_char_fetch_and_add_full$9;
-  return_value_AO_char_fetch_and_add_full$9=AO_char_fetch_and_add_full(&b, (unsigned char)42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$9 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_full_9;
+  return_value_AO_char_fetch_and_add_full_9=AO_char_fetch_and_add_full(&b, (unsigned char)42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_9 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1556);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$10;
-  return_value_AO_char_fetch_and_add_full$10=AO_char_fetch_and_add_full(&b, (unsigned char)-42);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$10 == 55))
+  unsigned char return_value_AO_char_fetch_and_add_full_10;
+  return_value_AO_char_fetch_and_add_full_10=AO_char_fetch_and_add_full(&b, (unsigned char)-42);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_10 == 55))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1557);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$11;
-  return_value_AO_char_fetch_and_add_full$11=AO_char_fetch_and_add_full(&b, (unsigned char)1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$11 == 13))
+  unsigned char return_value_AO_char_fetch_and_add_full_11;
+  return_value_AO_char_fetch_and_add_full_11=AO_char_fetch_and_add_full(&b, (unsigned char)1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_11 == 13))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1562);
     exit(1);
   }
 
-  unsigned char return_value_AO_char_fetch_and_add_full$12;
-  return_value_AO_char_fetch_and_add_full$12=AO_char_fetch_and_add_full(&b, (unsigned char)-1);
-  if(!((signed int)return_value_AO_char_fetch_and_add_full$12 == 14))
+  unsigned char return_value_AO_char_fetch_and_add_full_12;
+  return_value_AO_char_fetch_and_add_full_12=AO_char_fetch_and_add_full(&b, (unsigned char)-1);
+  if(!((signed int)return_value_AO_char_fetch_and_add_full_12 == 14))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1568);
     exit(1);
   }
 
   AO_int_store_full(&zz, (unsigned int)13);
-  unsigned int return_value_AO_int_fetch_and_add_full$13;
-  return_value_AO_int_fetch_and_add_full$13=AO_int_fetch_and_add_full(&zz, (unsigned int)42);
-  if(!(return_value_AO_int_fetch_and_add_full$13 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_full_13;
+  return_value_AO_int_fetch_and_add_full_13=AO_int_fetch_and_add_full(&zz, (unsigned int)42);
+  if(!(return_value_AO_int_fetch_and_add_full_13 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1593);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$14;
-  return_value_AO_int_fetch_and_add_full$14=AO_int_fetch_and_add_full(&zz, (unsigned int)-42);
-  if(!(return_value_AO_int_fetch_and_add_full$14 == 55u))
+  unsigned int return_value_AO_int_fetch_and_add_full_14;
+  return_value_AO_int_fetch_and_add_full_14=AO_int_fetch_and_add_full(&zz, (unsigned int)-42);
+  if(!(return_value_AO_int_fetch_and_add_full_14 == 55u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1594);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$15;
-  return_value_AO_int_fetch_and_add_full$15=AO_int_fetch_and_add_full(&zz, (unsigned int)1);
-  if(!(return_value_AO_int_fetch_and_add_full$15 == 13u))
+  unsigned int return_value_AO_int_fetch_and_add_full_15;
+  return_value_AO_int_fetch_and_add_full_15=AO_int_fetch_and_add_full(&zz, (unsigned int)1);
+  if(!(return_value_AO_int_fetch_and_add_full_15 == 13u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1599);
     exit(1);
   }
 
-  unsigned int return_value_AO_int_fetch_and_add_full$16;
-  return_value_AO_int_fetch_and_add_full$16=AO_int_fetch_and_add_full(&zz, (unsigned int)-1);
-  if(!(return_value_AO_int_fetch_and_add_full$16 == 14u))
+  unsigned int return_value_AO_int_fetch_and_add_full_16;
+  return_value_AO_int_fetch_and_add_full_16=AO_int_fetch_and_add_full(&zz, (unsigned int)-1);
+  if(!(return_value_AO_int_fetch_and_add_full_16 == 14u))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1605);
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_write$17;
-  return_value_AO_compare_and_swap_write$17=AO_compare_and_swap_write(&x, (unsigned long int)14, (unsigned long int)42);
-  if(!(return_value_AO_compare_and_swap_write$17 == 0))
+  signed int return_value_AO_compare_and_swap_write_17;
+  return_value_AO_compare_and_swap_write_17=AO_compare_and_swap_write(&x, (unsigned long int)14, (unsigned long int)42);
+  if(!(return_value_AO_compare_and_swap_write_17 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1611);
     exit(1);
@@ -5903,9 +5903,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_write$18;
-  return_value_AO_compare_and_swap_write$18=AO_compare_and_swap_write(&x, (unsigned long int)13, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_write$18 == 0)
+  signed int return_value_AO_compare_and_swap_write_18;
+  return_value_AO_compare_and_swap_write_18=AO_compare_and_swap_write(&x, (unsigned long int)13, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_write_18 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1613);
     exit(1);
@@ -5938,9 +5938,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$19;
-  return_value_AO_fetch_compare_and_swap_full$19=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$19 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_19;
+  return_value_AO_fetch_compare_and_swap_full_19=AO_fetch_compare_and_swap_full(&x, (unsigned long int)14, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_19 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1641);
     exit(1);
@@ -5952,9 +5952,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  unsigned long int return_value_AO_fetch_compare_and_swap_full$20;
-  return_value_AO_fetch_compare_and_swap_full$20=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
-  if(!(return_value_AO_fetch_compare_and_swap_full$20 == 25ul))
+  unsigned long int return_value_AO_fetch_compare_and_swap_full_20;
+  return_value_AO_fetch_compare_and_swap_full_20=AO_fetch_compare_and_swap_full(&x, (unsigned long int)25, (unsigned long int)117);
+  if(!(return_value_AO_fetch_compare_and_swap_full_20 == 25ul))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1643);
     exit(1);
@@ -5991,9 +5991,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$21;
-  return_value_AO_compare_double_and_swap_double_full$21=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_double_and_swap_double_full$21 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_21;
+  return_value_AO_compare_double_and_swap_double_full_21=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_double_and_swap_double_full_21 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1681);
     exit(1);
@@ -6005,9 +6005,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$22;
-  return_value_AO_compare_double_and_swap_double_full$22=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_double_and_swap_double_full$22 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_22;
+  return_value_AO_compare_double_and_swap_double_full_22=AO_compare_double_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_double_and_swap_double_full_22 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1683);
     exit(1);
@@ -6019,9 +6019,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$23;
-  return_value_AO_compare_double_and_swap_double_full$23=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
-  if(!(return_value_AO_compare_double_and_swap_double_full$23 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_23;
+  return_value_AO_compare_double_and_swap_double_full_23=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)14, (unsigned long int)64, (unsigned long int)33);
+  if(!(return_value_AO_compare_double_and_swap_double_full_23 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1685);
     exit(1);
@@ -6033,9 +6033,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$24;
-  return_value_AO_compare_double_and_swap_double_full$24=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
-  if(!(return_value_AO_compare_double_and_swap_double_full$24 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_24;
+  return_value_AO_compare_double_and_swap_double_full_24=AO_compare_double_and_swap_double_full(&w, (unsigned long int)11, (unsigned long int)13, (unsigned long int)85, (unsigned long int)82);
+  if(!(return_value_AO_compare_double_and_swap_double_full_24 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1687);
     exit(1);
@@ -6047,9 +6047,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$25;
-  return_value_AO_compare_double_and_swap_double_full$25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(!(return_value_AO_compare_double_and_swap_double_full$25 == 0))
+  signed int return_value_AO_compare_double_and_swap_double_full_25;
+  return_value_AO_compare_double_and_swap_double_full_25=AO_compare_double_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(!(return_value_AO_compare_double_and_swap_double_full_25 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1689);
     exit(1);
@@ -6061,9 +6061,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$26;
-  return_value_AO_compare_double_and_swap_double_full$26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_double_and_swap_double_full$26 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_26;
+  return_value_AO_compare_double_and_swap_double_full_26=AO_compare_double_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)13, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_double_and_swap_double_full_26 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1691);
     exit(1);
@@ -6075,9 +6075,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_double_and_swap_double_full$27;
-  return_value_AO_compare_double_and_swap_double_full$27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_double_and_swap_double_full$27 == 0)
+  signed int return_value_AO_compare_double_and_swap_double_full_27;
+  return_value_AO_compare_double_and_swap_double_full_27=AO_compare_double_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)42, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_double_and_swap_double_full_27 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1693);
     exit(1);
@@ -6089,9 +6089,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$28;
-  return_value_AO_compare_and_swap_double_full$28=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
-  if(!(return_value_AO_compare_and_swap_double_full$28 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_28;
+  return_value_AO_compare_and_swap_double_full_28=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)12, (unsigned long int)13);
+  if(!(return_value_AO_compare_and_swap_double_full_28 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1699);
     exit(1);
@@ -6103,9 +6103,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$29;
-  return_value_AO_compare_and_swap_double_full$29=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
-  if(return_value_AO_compare_and_swap_double_full$29 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_29;
+  return_value_AO_compare_and_swap_double_full_29=AO_compare_and_swap_double_full(&w, (unsigned long int)0, (unsigned long int)12, (unsigned long int)13);
+  if(return_value_AO_compare_and_swap_double_full_29 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1701);
     exit(1);
@@ -6117,9 +6117,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$30;
-  return_value_AO_compare_and_swap_double_full$30=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
-  if(!(return_value_AO_compare_and_swap_double_full$30 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_30;
+  return_value_AO_compare_and_swap_double_full_30=AO_compare_and_swap_double_full(&w, (unsigned long int)13, (unsigned long int)12, (unsigned long int)33);
+  if(!(return_value_AO_compare_and_swap_double_full_30 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1703);
     exit(1);
@@ -6131,9 +6131,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$31;
-  return_value_AO_compare_and_swap_double_full$31=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
-  if(!(return_value_AO_compare_and_swap_double_full$31 == 0))
+  signed int return_value_AO_compare_and_swap_double_full_31;
+  return_value_AO_compare_and_swap_double_full_31=AO_compare_and_swap_double_full(&w, (unsigned long int)1213, (unsigned long int)48, (unsigned long int)86);
+  if(!(return_value_AO_compare_and_swap_double_full_31 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1705);
     exit(1);
@@ -6145,9 +6145,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$32;
-  return_value_AO_compare_and_swap_double_full$32=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
-  if(return_value_AO_compare_and_swap_double_full$32 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_32;
+  return_value_AO_compare_and_swap_double_full_32=AO_compare_and_swap_double_full(&w, (unsigned long int)12, (unsigned long int)17, (unsigned long int)42);
+  if(return_value_AO_compare_and_swap_double_full_32 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1707);
     exit(1);
@@ -6159,9 +6159,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_compare_and_swap_double_full$33;
-  return_value_AO_compare_and_swap_double_full$33=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
-  if(return_value_AO_compare_and_swap_double_full$33 == 0)
+  signed int return_value_AO_compare_and_swap_double_full_33;
+  return_value_AO_compare_and_swap_double_full_33=AO_compare_and_swap_double_full(&w, (unsigned long int)17, (unsigned long int)0, (unsigned long int)0);
+  if(return_value_AO_compare_and_swap_double_full_33 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1709);
     exit(1);
@@ -6177,9 +6177,9 @@ void test_atomic_write(void)
   old_w.AO_val2 = (unsigned long int)2121;
   new_w.AO_val1 = (unsigned long int)8537;
   new_w.AO_val2 = (unsigned long int)6410;
-  signed int return_value_AO_double_compare_and_swap_write$34;
-  return_value_AO_double_compare_and_swap_write$34=AO_double_compare_and_swap_write(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_write$34 == 0))
+  signed int return_value_AO_double_compare_and_swap_write_34;
+  return_value_AO_double_compare_and_swap_write_34=AO_double_compare_and_swap_write(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_write_34 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1719);
     exit(1);
@@ -6191,9 +6191,9 @@ void test_atomic_write(void)
     exit(1);
   }
 
-  signed int return_value_AO_double_compare_and_swap_write$35;
-  return_value_AO_double_compare_and_swap_write$35=AO_double_compare_and_swap_write(&w, w, new_w);
-  if(return_value_AO_double_compare_and_swap_write$35 == 0)
+  signed int return_value_AO_double_compare_and_swap_write_35;
+  return_value_AO_double_compare_and_swap_write_35=AO_double_compare_and_swap_write(&w, w, new_w);
+  if(return_value_AO_double_compare_and_swap_write_35 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1721);
     exit(1);
@@ -6209,9 +6209,9 @@ void test_atomic_write(void)
   old_w.AO_val2 = (unsigned long int)29;
   new_w.AO_val1 = (unsigned long int)820;
   new_w.AO_val2 = (unsigned long int)5917;
-  signed int return_value_AO_double_compare_and_swap_write$36;
-  return_value_AO_double_compare_and_swap_write$36=AO_double_compare_and_swap_write(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_write$36 == 0))
+  signed int return_value_AO_double_compare_and_swap_write_36;
+  return_value_AO_double_compare_and_swap_write_36=AO_double_compare_and_swap_write(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_write_36 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1727);
     exit(1);
@@ -6227,9 +6227,9 @@ void test_atomic_write(void)
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)3552;
   new_w.AO_val2 = (unsigned long int)1746;
-  signed int return_value_AO_double_compare_and_swap_write$37;
-  return_value_AO_double_compare_and_swap_write$37=AO_double_compare_and_swap_write(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_write$37 == 0))
+  signed int return_value_AO_double_compare_and_swap_write_37;
+  return_value_AO_double_compare_and_swap_write_37=AO_double_compare_and_swap_write(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_write_37 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1733);
     exit(1);
@@ -6245,9 +6245,9 @@ void test_atomic_write(void)
   old_w.AO_val2 = (unsigned long int)8537;
   new_w.AO_val1 = (unsigned long int)4116;
   new_w.AO_val2 = (unsigned long int)2121;
-  signed int return_value_AO_double_compare_and_swap_write$38;
-  return_value_AO_double_compare_and_swap_write$38=AO_double_compare_and_swap_write(&w, old_w, new_w);
-  if(!(return_value_AO_double_compare_and_swap_write$38 == 0))
+  signed int return_value_AO_double_compare_and_swap_write_38;
+  return_value_AO_double_compare_and_swap_write_38=AO_double_compare_and_swap_write(&w, old_w, new_w);
+  if(!(return_value_AO_double_compare_and_swap_write_38 == 0))
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1739);
     exit(1);
@@ -6262,9 +6262,9 @@ void test_atomic_write(void)
   old_w.AO_val1 = old_w.AO_val2;
   old_w.AO_val2 = (unsigned long int)6410;
   new_w.AO_val1 = (unsigned long int)1;
-  signed int return_value_AO_double_compare_and_swap_write$39;
-  return_value_AO_double_compare_and_swap_write$39=AO_double_compare_and_swap_write(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_write$39 == 0)
+  signed int return_value_AO_double_compare_and_swap_write_39;
+  return_value_AO_double_compare_and_swap_write_39=AO_double_compare_and_swap_write(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_write_39 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1744);
     exit(1);
@@ -6280,9 +6280,9 @@ void test_atomic_write(void)
   old_w.AO_val2 = w.AO_val2;
   new_w.AO_val1 = new_w.AO_val1 - 1ul;
   new_w.AO_val2 = (unsigned long int)0;
-  signed int return_value_AO_double_compare_and_swap_write$40;
-  return_value_AO_double_compare_and_swap_write$40=AO_double_compare_and_swap_write(&w, old_w, new_w);
-  if(return_value_AO_double_compare_and_swap_write$40 == 0)
+  signed int return_value_AO_double_compare_and_swap_write_40;
+  return_value_AO_double_compare_and_swap_write_40=AO_double_compare_and_swap_write(&w, old_w, new_w);
+  if(return_value_AO_double_compare_and_swap_write_40 == 0)
   {
     fprintf(stderr, "Assertion failed %s:%d (barrier: _write)\n", (const void *)"test_atomic_include.h", 1750);
     exit(1);

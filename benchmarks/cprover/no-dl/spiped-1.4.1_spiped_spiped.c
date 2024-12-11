@@ -1,38 +1,38 @@
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR32{U8}$U8$'Key'||ARR32{U8}$U8$'V'||U32'reseed_counter'|]
+// tag-#anon#ST[ARR32{U8}_U8_'Key'||ARR32{U8}_U8_'V'||U32'reseed_counter'|]
 // file ../libcperciva/crypto/crypto_entropy.c line 20
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[ARR8{U32}$U32$'state'||U64'count'||ARR64{U8}$U8$'buf'|]
+// tag-#anon#ST[ARR8{U32}_U32_'state'||U64'count'||ARR64{U8}_U8_'buf'|]
 // file ../libcperciva/alg/sha256.h line 23
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[ARR8{U32}$U32$'state'||U64'count'||ARR64{U8}$U8$'buf'|]#'ictx'||SYM#tag-#anon#ST[ARR8{U32}$U32$'state'||U64'count'||ARR64{U8}$U8$'buf'|]#'octx'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[ARR8{U32}_U32_'state'||U64'count'||ARR64{U8}_U8_'buf'|]#'ictx'||SYM#tag-#anon#ST[ARR8{U32}_U32_'state'||U64'count'||ARR64{U8}_U8_'buf'|]#'octx'|]
 // file ../libcperciva/alg/sha256.h line 55
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'|]
 // file /usr/include/netinet/in.h line 211
 union anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -200,9 +200,9 @@ struct timerqueue;
 
 // tag-timerrec
 // file ../libcperciva/datastruct/timerqueue.c line 14
-struct timerrec$0;
+struct timerrec_0;
 
-// tag-timerrec$link1
+// tag-timerrec_link1
 // file ../libcperciva/events/events_timer.c line 12
 struct timerrec;
 
@@ -283,7 +283,7 @@ unsigned long int ERR_get_error(void);
 void PBKDF2_SHA256(const unsigned char *passwd, unsigned long int passwdlen, const unsigned char *salt, unsigned long int saltlen, unsigned long int c, unsigned char *buf, unsigned long int dkLen);
 // SHA256_Pad
 // file ../libcperciva/alg/sha256.c line 175
-static void SHA256_Pad(struct anonymous$5 *ctx);
+static void SHA256_Pad(struct anonymous_5 *ctx);
 // SHA256_Transform
 // file ../libcperciva/alg/sha256.c line 74
 static void SHA256_Transform(unsigned int *state, const unsigned char *block);
@@ -344,9 +344,9 @@ static signed int callback_accept(void *cookie);
 // callback_buf
 // file ../libcperciva/network/network_read.c line 43
 static signed int callback_buf(void *cookie);
-// callback_buf$link1
+// callback_buf_link1
 // file ../libcperciva/network/network_write.c line 61
-static signed int callback_buf$link1(void *cookie$link1);
+static signed int callback_buf_link1(void *cookie_link1);
 // callback_conndied
 // file dispatch.c line 93
 static signed int callback_conndied(void *cookie);
@@ -392,18 +392,18 @@ static signed int callback_pipestatus(void *cookie);
 // callback_resolve
 // file dispatch.c line 38
 static signed int callback_resolve(void *cookie, struct sock_addr **sas);
-// callback_resolve$link1
+// callback_resolve_link1
 // file ../lib/dnsthread/dnsthread.c line 447
-static signed int callback_resolve$link1(void *cookie$link1, struct sock_addr **sas$link1);
+static signed int callback_resolve_link1(void *cookie_link1, struct sock_addr **sas_link1);
 // callback_resolveagain
 // file dispatch.c line 66
 static signed int callback_resolveagain(void *cookie);
 // callback_resolveone
 // file ../lib/dnsthread/dnsthread.c line 303
 static signed int callback_resolveone(void *cookie);
-// callback_resolveone::1::callback$object
+// callback_resolveone::1::callback_object
 //
-signed int callback$object(void *, struct sock_addr **);
+signed int callback_object(void *, struct sock_addr **);
 // callback_timeo
 // file ../libcperciva/network/network_connect.c line 100
 static signed int callback_timeo(void *cookie);
@@ -500,15 +500,15 @@ signed int dnsthread_kill(struct dnsthread_internal *T);
 // dnsthread_resolve
 // file ../lib/dnsthread/dnsthread.c line 414
 signed int dnsthread_resolve(const char *addr, signed int (*callback)(void *, struct sock_addr **), void *cookie);
-// dnsthread_resolve::callback$object
+// dnsthread_resolve::callback_object
 //
-signed int callback$object(void *, struct sock_addr **);
+signed int callback_object(void *, struct sock_addr **);
 // dnsthread_resolveone
 // file ../lib/dnsthread/dnsthread.h line 26
 signed int dnsthread_resolveone(struct dnsthread_internal *T, const char *addr, signed int (*callback)(void *, struct sock_addr **), void *cookie);
-// dnsthread_resolveone::callback$object
+// dnsthread_resolveone::callback_object
 //
-signed int callback$object(void *, struct sock_addr **);
+signed int callback_object(void *, struct sock_addr **);
 // dnsthread_spawn
 // file ../lib/dnsthread/dnsthread.h line 15
 struct dnsthread_internal * dnsthread_spawn(void);
@@ -518,12 +518,12 @@ static signed int doaccept(struct accept_state *A);
 // docallback
 // file ../libcperciva/network/network_connect.c line 30
 static signed int docallback(void *cookie);
-// docallback$link1
+// docallback_link1
 // file ../libcperciva/network/network_read.c line 27
-static signed int docallback$link1(struct network_read_cookie *C, signed long int nbytes);
-// docallback$link2
+static signed int docallback_link1(struct network_read_cookie *C, signed long int nbytes);
+// docallback_link2
 // file ../libcperciva/network/network_write.c line 45
-static signed int docallback$link2(struct network_write_cookie *C$link1, signed long int nbytes$link1);
+static signed int docallback_link2(struct network_write_cookie *C_link1, signed long int nbytes_link1);
 // doevent
 // file ../libcperciva/events/events.c line 60
 static inline signed int doevent(struct eventrec *r);
@@ -578,15 +578,15 @@ struct eventrec * events_immediate_get(void);
 // events_immediate_register
 // file ../libcperciva/events/events_immediate.c line 41
 void * events_immediate_register(signed int (*func)(void *), void *cookie, signed int prio);
-// events_immediate_register::func$object
+// events_immediate_register::func_object
 //
-signed int func$object(void *);
+signed int func_object(void *);
 // events_mkrec
 // file ../libcperciva/events/events_internal.h line 13
 struct eventrec * events_mkrec(signed int (*func)(void *), void *cookie);
-// events_mkrec::func$object
+// events_mkrec::func_object
 //
-signed int func$object(void *);
+signed int func_object(void *);
 // events_network_cancel
 // file ../libcperciva/events/events_network.c line 160
 signed int events_network_cancel(signed int s, signed int op);
@@ -596,9 +596,9 @@ struct eventrec * events_network_get(void);
 // events_network_register
 // file ../libcperciva/events/events.h line 34
 signed int events_network_register(signed int (*func)(void *), void *cookie, signed int s, signed int op);
-// events_network_register::func$object
+// events_network_register::func_object
 //
-signed int func$object(void *);
+signed int func_object(void *);
 // events_network_select
 // file ../libcperciva/events/events_network.c line 234
 signed int events_network_select(struct timeval *tv);
@@ -638,15 +638,15 @@ signed int events_timer_min(struct timeval **timeo);
 // events_timer_register
 // file ../libcperciva/events/events_timer.c line 47
 void * events_timer_register(signed int (*func)(void *), void *cookie, struct timeval *timeo);
-// events_timer_register::func$object
+// events_timer_register::func_object
 //
-signed int func$object(void *);
+signed int func_object(void *);
 // events_timer_register_double
 // file ../libcperciva/events/events.h line 63
 void * events_timer_register_double(signed int (*func)(void *), void *cookie, double timeo);
-// events_timer_register_double::func$object
+// events_timer_register_double::func_object
 //
-signed int func$object(void *);
+signed int func_object(void *);
 // events_timer_reset
 // file ../libcperciva/events/events_timer.c line 133
 signed int events_timer_reset(void *cookie);
@@ -719,21 +719,21 @@ static signed int handshakefail(struct handshake_cookie *H);
 // heapify
 // file ../libcperciva/datastruct/ptrheap.c line 81
 static void heapify(struct ptrlist_struct *elems, unsigned long int i, unsigned long int N, signed int (*compar)(void *, const void *, const void *), void (*setreccookie)(void *, void *, unsigned long int), void *cookie);
-// heapify::compar$object
+// heapify::compar_object
 //
-signed int compar$object(void *, const void *, const void *);
-// heapify::setreccookie$object
+signed int compar_object(void *, const void *, const void *);
+// heapify::setreccookie_object
 //
-void setreccookie$object(void *, void *, unsigned long int);
+void setreccookie_object(void *, void *, unsigned long int);
 // heapifyup
 // file ../libcperciva/datastruct/ptrheap.c line 49
 static void heapifyup(struct ptrlist_struct *elems, unsigned long int i, signed int (*compar)(void *, const void *, const void *), void (*setreccookie)(void *, void *, unsigned long int), void *cookie);
-// heapifyup::compar$object
+// heapifyup::compar_object
 //
-signed int compar$object(void *, const void *, const void *);
-// heapifyup::setreccookie$object
+signed int compar_object(void *, const void *, const void *);
+// heapifyup::setreccookie_object
 //
-void setreccookie$object(void *, void *, unsigned long int);
+void setreccookie_object(void *, void *, unsigned long int);
 // htons
 // file /usr/include/netinet/in.h line 379
 extern unsigned short int htons(unsigned short int);
@@ -752,21 +752,21 @@ static signed int initsocketlist(void);
 // insecure_memzero
 // file ../libcperciva/util/insecure_memzero.h line 27
 static inline void insecure_memzero(volatile void *buf, unsigned long int len);
-// insecure_memzero$link1
+// insecure_memzero_link1
 // file ../libcperciva/util/insecure_memzero.h line 27
-static inline void insecure_memzero$link1(volatile void *buf$link1, unsigned long int len$link1);
-// insecure_memzero$link2
+static inline void insecure_memzero_link1(volatile void *buf_link1, unsigned long int len_link1);
+// insecure_memzero_link2
 // file ../libcperciva/util/insecure_memzero.h line 27
-static inline void insecure_memzero$link2(volatile void *buf$link2, unsigned long int len$link2);
-// insecure_memzero$link3
+static inline void insecure_memzero_link2(volatile void *buf_link2, unsigned long int len_link2);
+// insecure_memzero_link3
 // file ../libcperciva/util/insecure_memzero.h line 27
-static inline void insecure_memzero$link3(volatile void *buf$link3, unsigned long int len$link3);
+static inline void insecure_memzero_link3(volatile void *buf_link3, unsigned long int len_link3);
 // insecure_memzero_func
 // file ../libcperciva/util/insecure_memzero.c line 8
 static void insecure_memzero_func(volatile void *buf, unsigned long int len);
-// insecure_memzero_ptr$object
+// insecure_memzero_ptr_object
 //
-void insecure_memzero_ptr$object(volatile void *, unsigned long int);
+void insecure_memzero_ptr_object(volatile void *, unsigned long int);
 // instantiate
 // file ../libcperciva/crypto/crypto_entropy.c line 45
 static signed int instantiate(void);
@@ -781,49 +781,49 @@ static signed int launchpipes(struct conn_state *C);
 void libcperciva_HMAC_SHA256_Buf(const void *K, unsigned long int Klen, const void *in, unsigned long int len, unsigned char *digest);
 // libcperciva_HMAC_SHA256_Final
 // file ../libcperciva/alg/sha256.h line 78
-void libcperciva_HMAC_SHA256_Final(unsigned char *digest, struct anonymous$2 *ctx);
+void libcperciva_HMAC_SHA256_Final(unsigned char *digest, struct anonymous_2 *ctx);
 // libcperciva_HMAC_SHA256_Init
 // file ../libcperciva/alg/sha256.h line 65
-void libcperciva_HMAC_SHA256_Init(struct anonymous$2 *ctx, const void *_K, unsigned long int Klen);
+void libcperciva_HMAC_SHA256_Init(struct anonymous_2 *ctx, const void *_K, unsigned long int Klen);
 // libcperciva_HMAC_SHA256_Update
 // file ../libcperciva/alg/sha256.h line 71
-void libcperciva_HMAC_SHA256_Update(struct anonymous$2 *ctx, const void *in, unsigned long int len);
+void libcperciva_HMAC_SHA256_Update(struct anonymous_2 *ctx, const void *in, unsigned long int len);
 // libcperciva_SHA256_Buf
 // file ../libcperciva/alg/sha256.c line 283
 void libcperciva_SHA256_Buf(const void *in, unsigned long int len, unsigned char *digest);
 // libcperciva_SHA256_Final
 // file ../libcperciva/alg/sha256.h line 46
-void libcperciva_SHA256_Final(unsigned char *digest, struct anonymous$5 *ctx);
+void libcperciva_SHA256_Final(unsigned char *digest, struct anonymous_5 *ctx);
 // libcperciva_SHA256_Init
 // file ../libcperciva/alg/sha256.h line 33
-void libcperciva_SHA256_Init(struct anonymous$5 *ctx);
+void libcperciva_SHA256_Init(struct anonymous_5 *ctx);
 // libcperciva_SHA256_Update
 // file ../libcperciva/alg/sha256.h line 39
-void libcperciva_SHA256_Update(struct anonymous$5 *ctx, const void *in, unsigned long int len);
+void libcperciva_SHA256_Update(struct anonymous_5 *ctx, const void *in, unsigned long int len);
 // libcperciva_asprintf
 // file ../libcperciva/util/asprintf.h line 14
 signed int libcperciva_asprintf(char **ret, const char *format, ...);
 // libcperciva_be32dec
 // file ../libcperciva/util/sysendian.h line 38
 static inline unsigned int libcperciva_be32dec(const void *pp);
-// libcperciva_be32dec$link1
+// libcperciva_be32dec_link1
 // file ../libcperciva/util/sysendian.h line 38
-static inline unsigned int libcperciva_be32dec$link1(const void *pp$link1);
+static inline unsigned int libcperciva_be32dec_link1(const void *pp_link1);
 // libcperciva_be32enc
 // file ../libcperciva/util/sysendian.h line 47
 static inline void libcperciva_be32enc(void *pp, unsigned int x);
-// libcperciva_be32enc$link1
+// libcperciva_be32enc_link1
 // file ../libcperciva/util/sysendian.h line 47
-static inline void libcperciva_be32enc$link1(void *pp$link1, unsigned int x$link1);
+static inline void libcperciva_be32enc_link1(void *pp_link1, unsigned int x_link1);
 // libcperciva_be64enc
 // file ../libcperciva/util/sysendian.h line 69
 static inline void libcperciva_be64enc(void *pp, unsigned long int x);
-// libcperciva_be64enc$link1
+// libcperciva_be64enc_link1
 // file ../libcperciva/util/sysendian.h line 69
-static inline void libcperciva_be64enc$link1(void *pp$link1, unsigned long int x$link1);
-// libcperciva_be64enc$link2
+static inline void libcperciva_be64enc_link1(void *pp_link1, unsigned long int x_link1);
+// libcperciva_be64enc_link2
 // file ../libcperciva/util/sysendian.h line 69
-static inline void libcperciva_be64enc$link2(void *pp$link2, unsigned long int x$link2);
+static inline void libcperciva_be64enc_link2(void *pp_link2, unsigned long int x_link2);
 // libcperciva_warn
 // file ../libcperciva/util/warnp.h line 21
 void libcperciva_warn(const char *fmt, ...);
@@ -872,42 +872,42 @@ static inline struct eventrec * mpool_eventrec_malloc(void);
 // network_accept
 // file ../libcperciva/network/network.h line 21
 void * network_accept(signed int fd, signed int (*callback)(void *, signed int), void *cookie);
-// network_accept::callback$object
+// network_accept::callback_object
 //
-signed int callback$object(void *, signed int);
+signed int callback_object(void *, signed int);
 // network_accept_cancel
 // file ../libcperciva/network/network_accept.c line 94
 void network_accept_cancel(void *cookie);
 // network_connect
 // file ../libcperciva/network/network.h line 39
 void * network_connect(struct sock_addr * const *sas, signed int (*callback)(void *, signed int), void *cookie);
-// network_connect::callback$object
+// network_connect::callback_object
 //
-signed int callback$object(void *, signed int);
+signed int callback_object(void *, signed int);
 // network_connect_cancel
 // file ../libcperciva/network/network.h line 55
 void network_connect_cancel(void *cookie);
 // network_connect_timeo
 // file ../libcperciva/network/network_connect.c line 192
 void * network_connect_timeo(struct sock_addr * const *sas, struct timeval *timeo, signed int (*callback)(void *, signed int), void *cookie);
-// network_connect_timeo::callback$object
+// network_connect_timeo::callback_object
 //
-signed int callback$object(void *, signed int);
+signed int callback_object(void *, signed int);
 // network_read
 // file ../libcperciva/network/network.h line 66
 void * network_read(signed int fd, unsigned char *buf, unsigned long int buflen, unsigned long int minread, signed int (*callback)(void *, signed long int), void *cookie);
-// network_read::callback$object
+// network_read::callback_object
 //
-signed int callback$object(void *, signed long int);
+signed int callback_object(void *, signed long int);
 // network_read_cancel
 // file ../libcperciva/network/network.h line 74
 void network_read_cancel(void *cookie);
 // network_write
 // file ../libcperciva/network/network.h line 85
 void * network_write(signed int fd, const unsigned char *buf, unsigned long int buflen, unsigned long int minwrite, signed int (*callback)(void *, signed long int), void *cookie);
-// network_write::callback$object
+// network_write::callback_object
 //
-signed int callback$object(void *, signed long int);
+signed int callback_object(void *, signed long int);
 // network_write_cancel
 // file ../libcperciva/network/network.h line 93
 void network_write_cancel(void *cookie);
@@ -935,9 +935,9 @@ static char * prettyprint_unix(struct sockaddr_un *name);
 // proto_conn_create
 // file ../proto/proto_conn.h line 22
 signed int proto_conn_create(signed int s, struct sock_addr **sas, signed int decr, signed int nofps, signed int requirefps, signed int nokeepalive, struct proto_secret *K, double timeo, signed int (*callback_dead)(void *), void *cookie);
-// proto_conn_create::callback_dead$object
+// proto_conn_create::callback_dead_object
 //
-signed int callback_dead$object(void *);
+signed int callback_dead_object(void *);
 // proto_crypt_dec
 // file ../proto/proto_crypt.c line 342
 signed long int proto_crypt_dec(unsigned char *ibuf, unsigned char *obuf, struct proto_keys *k);
@@ -965,33 +965,33 @@ struct proto_secret * proto_crypt_secret(const char *filename);
 // proto_handshake
 // file ../proto/proto_handshake.h line 21
 void * proto_handshake(signed int s, signed int decr, signed int nofps, signed int requirefps, struct proto_secret *K, signed int (*callback)(void *, struct proto_keys *, struct proto_keys *), void *cookie);
-// proto_handshake::callback$object
+// proto_handshake::callback_object
 //
-signed int callback$object(void *, struct proto_keys *, struct proto_keys *);
+signed int callback_object(void *, struct proto_keys *, struct proto_keys *);
 // proto_handshake_cancel
 // file ../proto/proto_handshake.h line 28
 void proto_handshake_cancel(void *cookie);
 // proto_pipe
 // file ../proto/proto_pipe.h line 14
 void * proto_pipe(signed int s_in, signed int s_out, signed int decr, struct proto_keys *k, signed int *status, signed int (*callback)(void *), void *cookie);
-// proto_pipe::callback$object
+// proto_pipe::callback_object
 //
-signed int callback$object(void *);
+signed int callback_object(void *);
 // proto_pipe_cancel
 // file ../proto/proto_pipe.h line 21
 void proto_pipe_cancel(void *cookie);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$4 *);
+extern signed int pthread_cond_destroy(union anonymous_4 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$4 *, const union anonymous$6 *);
+extern signed int pthread_cond_init(union anonymous_4 *, const union anonymous_6 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$4 *);
+extern signed int pthread_cond_signal(union anonymous_4 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$4 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_4 *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1000,28 +1000,28 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$6 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_6 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // ptrheap_add
 // file ../libcperciva/datastruct/ptrheap.c line 193
 signed int ptrheap_add(struct ptrheap *H, void *ptr);
 // ptrheap_create
 // file ../libcperciva/datastruct/ptrheap.c line 141
 struct ptrheap * ptrheap_create(signed int (*compar)(void *, const void *, const void *), void (*setreccookie)(void *, void *, unsigned long int), void *cookie, unsigned long int N, void **ptrs);
-// ptrheap_create::compar$object
+// ptrheap_create::compar_object
 //
-signed int compar$object(void *, const void *, const void *);
-// ptrheap_create::setreccookie$object
+signed int compar_object(void *, const void *, const void *);
+// ptrheap_create::setreccookie_object
 //
-void setreccookie$object(void *, void *, unsigned long int);
+void setreccookie_object(void *, void *, unsigned long int);
 // ptrheap_delete
 // file ../libcperciva/datastruct/ptrheap.c line 239
 void ptrheap_delete(struct ptrheap *H, unsigned long int rc);
@@ -1043,12 +1043,12 @@ void ptrheap_increasemin(struct ptrheap *H);
 // ptrheap_init
 // file ../libcperciva/datastruct/ptrheap.c line 126
 struct ptrheap * ptrheap_init(signed int (*compar)(void *, const void *, const void *), void (*setreccookie)(void *, void *, unsigned long int), void *cookie);
-// ptrheap_init::compar$object
+// ptrheap_init::compar_object
 //
-signed int compar$object(void *, const void *, const void *);
-// ptrheap_init::setreccookie$object
+signed int compar_object(void *, const void *, const void *);
+// ptrheap_init::setreccookie_object
 //
-void setreccookie$object(void *, void *, unsigned long int);
+void setreccookie_object(void *, void *, unsigned long int);
 // ptrlist_append
 // file ../libcperciva/datastruct/ptrheap.c line 7
 static inline signed int ptrlist_append(struct ptrlist_struct *EA, void * const *buf, unsigned long int nrec);
@@ -1081,7 +1081,7 @@ static signed int reseed(void);
 static signed int resize(struct elasticarray *EA, unsigned long int nsize);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$0 *, struct anonymous$0 *, struct anonymous$0 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_0 *, struct anonymous_0 *, struct anonymous_0 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -1202,9 +1202,9 @@ extern signed long int strtol(const char *, char ** restrict , signed int);
 // swap
 // file ../libcperciva/datastruct/ptrheap.c line 24
 static void swap(struct ptrlist_struct *elems, unsigned long int i, unsigned long int j, void (*setreccookie)(void *, void *, unsigned long int), void *cookie);
-// swap::setreccookie$object
+// swap::setreccookie_object
 //
-void setreccookie$object(void *, void *, unsigned long int);
+void setreccookie_object(void *, void *, unsigned long int);
 // timerqueue_add
 // file ../libcperciva/datastruct/timerqueue.c line 97
 void * timerqueue_add(struct timerqueue *Q, struct timeval *tv, void *ptr);
@@ -1257,13 +1257,13 @@ static void * workthread(void *cookie);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$0
+struct anonymous_0
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // Key
   unsigned char Key[32l];
@@ -1273,7 +1273,7 @@ struct anonymous$1
   unsigned int reseed_counter;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // state
   unsigned int state[8l];
@@ -1283,7 +1283,7 @@ struct anonymous$5
   unsigned char buf[64l];
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // __lock
   signed int __lock;
@@ -1303,12 +1303,12 @@ struct anonymous$7
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // ictx
-  struct anonymous$5 ictx;
+  struct anonymous_5 ictx;
   // octx
-  struct anonymous$5 octx;
+  struct anonymous_5 octx;
 };
 
 union anonymous
@@ -1317,7 +1317,7 @@ union anonymous
   unsigned char __u6_addr8[16l];
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[4l];
@@ -1325,10 +1325,10 @@ union anonymous$6
   signed int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
-  struct anonymous$7 __data;
+  struct anonymous_7 __data;
   // __size
   char __size[48l];
   // __align
@@ -1363,7 +1363,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1628,9 +1628,9 @@ struct dnsthread_internal
   // thr
   unsigned long int thr;
   // mtx
-  union anonymous$3 mtx;
+  union anonymous_3 mtx;
   // cv
-  union anonymous$4 cv;
+  union anonymous_4 cv;
   // state
   signed int state;
   // wakeupsock
@@ -1925,7 +1925,7 @@ struct timerqueue
   struct ptrheap *H;
 };
 
-struct timerrec$0
+struct timerrec_0
 {
   // tv
   struct timeval tv;
@@ -1980,7 +1980,7 @@ signed int cpusupport_x86_aesni_present = 0;
 unsigned char crypto_dh_group14[256l] = { (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xc9, (unsigned char)0x0f, (unsigned char)0xda, (unsigned char)0xa2, (unsigned char)0x21, (unsigned char)0x68, (unsigned char)0xc2, (unsigned char)0x34, (unsigned char)0xc4, (unsigned char)0xc6, (unsigned char)0x62, (unsigned char)0x8b, (unsigned char)0x80, (unsigned char)0xdc, (unsigned char)0x1c, (unsigned char)0xd1, (unsigned char)0x29, (unsigned char)0x02, (unsigned char)0x4e, (unsigned char)0x08, (unsigned char)0x8a, (unsigned char)0x67, (unsigned char)0xcc, (unsigned char)0x74, (unsigned char)0x02, (unsigned char)0x0b, (unsigned char)0xbe, (unsigned char)0xa6, (unsigned char)0x3b, (unsigned char)0x13, (unsigned char)0x9b, (unsigned char)0x22, (unsigned char)0x51, (unsigned char)0x4a, (unsigned char)0x08, (unsigned char)0x79, (unsigned char)0x8e, (unsigned char)0x34, (unsigned char)0x04, (unsigned char)0xdd, (unsigned char)0xef, (unsigned char)0x95, (unsigned char)0x19, (unsigned char)0xb3, (unsigned char)0xcd, (unsigned char)0x3a, (unsigned char)0x43, (unsigned char)0x1b, (unsigned char)0x30, (unsigned char)0x2b, (unsigned char)0x0a, (unsigned char)0x6d, (unsigned char)0xf2, (unsigned char)0x5f, (unsigned char)0x14, (unsigned char)0x37, (unsigned char)0x4f, (unsigned char)0xe1, (unsigned char)0x35, (unsigned char)0x6d, (unsigned char)0x6d, (unsigned char)0x51, (unsigned char)0xc2, (unsigned char)0x45, (unsigned char)0xe4, (unsigned char)0x85, (unsigned char)0xb5, (unsigned char)0x76, (unsigned char)0x62, (unsigned char)0x5e, (unsigned char)0x7e, (unsigned char)0xc6, (unsigned char)0xf4, (unsigned char)0x4c, (unsigned char)0x42, (unsigned char)0xe9, (unsigned char)0xa6, (unsigned char)0x37, (unsigned char)0xed, (unsigned char)0x6b, (unsigned char)0x0b, (unsigned char)0xff, (unsigned char)0x5c, (unsigned char)0xb6, (unsigned char)0xf4, (unsigned char)0x06, (unsigned char)0xb7, (unsigned char)0xed, (unsigned char)0xee, (unsigned char)0x38, (unsigned char)0x6b, (unsigned char)0xfb, (unsigned char)0x5a, (unsigned char)0x89, (unsigned char)0x9f, (unsigned char)0xa5, (unsigned char)0xae, (unsigned char)0x9f, (unsigned char)0x24, (unsigned char)0x11, (unsigned char)0x7c, (unsigned char)0x4b, (unsigned char)0x1f, (unsigned char)0xe6, (unsigned char)0x49, (unsigned char)0x28, (unsigned char)0x66, (unsigned char)0x51, (unsigned char)0xec, (unsigned char)0xe4, (unsigned char)0x5b, (unsigned char)0x3d, (unsigned char)0xc2, (unsigned char)0x00, (unsigned char)0x7c, (unsigned char)0xb8, (unsigned char)0xa1, (unsigned char)0x63, (unsigned char)0xbf, (unsigned char)0x05, (unsigned char)0x98, (unsigned char)0xda, (unsigned char)0x48, (unsigned char)0x36, (unsigned char)0x1c, (unsigned char)0x55, (unsigned char)0xd3, (unsigned char)0x9a, (unsigned char)0x69, (unsigned char)0x16, (unsigned char)0x3f, (unsigned char)0xa8, (unsigned char)0xfd, (unsigned char)0x24, (unsigned char)0xcf, (unsigned char)0x5f, (unsigned char)0x83, (unsigned char)0x65, (unsigned char)0x5d, (unsigned char)0x23, (unsigned char)0xdc, (unsigned char)0xa3, (unsigned char)0xad, (unsigned char)0x96, (unsigned char)0x1c, (unsigned char)0x62, (unsigned char)0xf3, (unsigned char)0x56, (unsigned char)0x20, (unsigned char)0x85, (unsigned char)0x52, (unsigned char)0xbb, (unsigned char)0x9e, (unsigned char)0xd5, (unsigned char)0x29, (unsigned char)0x07, (unsigned char)0x70, (unsigned char)0x96, (unsigned char)0x96, (unsigned char)0x6d, (unsigned char)0x67, (unsigned char)0x0c, (unsigned char)0x35, (unsigned char)0x4e, (unsigned char)0x4a, (unsigned char)0xbc, (unsigned char)0x98, (unsigned char)0x04, (unsigned char)0xf1, (unsigned char)0x74, (unsigned char)0x6c, (unsigned char)0x08, (unsigned char)0xca, (unsigned char)0x18, (unsigned char)0x21, (unsigned char)0x7c, (unsigned char)0x32, (unsigned char)0x90, (unsigned char)0x5e, (unsigned char)0x46, (unsigned char)0x2e, (unsigned char)0x36, (unsigned char)0xce, (unsigned char)0x3b, (unsigned char)0xe3, (unsigned char)0x9e, (unsigned char)0x77, (unsigned char)0x2c, (unsigned char)0x18, (unsigned char)0x0e, (unsigned char)0x86, (unsigned char)0x03, (unsigned char)0x9b, (unsigned char)0x27, (unsigned char)0x83, (unsigned char)0xa2, (unsigned char)0xec, (unsigned char)0x07, (unsigned char)0xa2, (unsigned char)0x8f, (unsigned char)0xb5, (unsigned char)0xc5, (unsigned char)0x5d, (unsigned char)0xf0, (unsigned char)0x6f, (unsigned char)0x4c, (unsigned char)0x52, (unsigned char)0xc9, (unsigned char)0xde, (unsigned char)0x2b, (unsigned char)0xcb, (unsigned char)0xf6, (unsigned char)0x95, (unsigned char)0x58, (unsigned char)0x17, (unsigned char)0x18, (unsigned char)0x39, (unsigned char)0x95, (unsigned char)0x49, (unsigned char)0x7c, (unsigned char)0xea, (unsigned char)0x95, (unsigned char)0x6a, (unsigned char)0xe5, (unsigned char)0x15, (unsigned char)0xd2, (unsigned char)0x26, (unsigned char)0x18, (unsigned char)0x98, (unsigned char)0xfa, (unsigned char)0x05, (unsigned char)0x10, (unsigned char)0x15, (unsigned char)0x72, (unsigned char)0x8e, (unsigned char)0x5a, (unsigned char)0x8a, (unsigned char)0xac, (unsigned char)0xaa, (unsigned char)0x68, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff };
 // drbg
 // file ../libcperciva/crypto/crypto_entropy.c line 24
-static struct anonymous$1 drbg;
+static struct anonymous_1 drbg;
 // fdscanpos
 // file ../libcperciva/events/events_network.c line 27
 static unsigned long int fdscanpos;
@@ -2031,7 +2031,7 @@ extern char *optarg;
 extern signed int optind;
 // readfds
 // file ../libcperciva/events/events_network.c line 23
-static struct anonymous$0 readfds;
+static struct anonymous_0 readfds;
 // running
 // file ../libcperciva/events/events_network_selectstats.c line 10
 static signed int running = 0;
@@ -2052,14 +2052,14 @@ static struct timeval tv_zero = { .tv_sec=(signed long int)0, .tv_usec=(signed l
 static unsigned char two_exp_256[33l] = { (unsigned char)0x01, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00 };
 // writefds
 // file ../libcperciva/events/events_network.c line 24
-static struct anonymous$0 writefds;
+static struct anonymous_0 writefds;
 
 // PBKDF2_SHA256
 // file ../libcperciva/alg/sha256.h line 92
 void PBKDF2_SHA256(const unsigned char *passwd, unsigned long int passwdlen, const unsigned char *salt, unsigned long int saltlen, unsigned long int c, unsigned char *buf, unsigned long int dkLen)
 {
-  struct anonymous$2 PShctx;
-  struct anonymous$2 hctx;
+  struct anonymous_2 PShctx;
+  struct anonymous_2 hctx;
   unsigned long int i;
   unsigned char ivec[4l];
   unsigned char U[32l];
@@ -2074,8 +2074,8 @@ void PBKDF2_SHA256(const unsigned char *passwd, unsigned long int passwdlen, con
   i = (unsigned long int)0;
   for( ; !(32ul * i >= dkLen); i = i + 1ul)
   {
-    libcperciva_be32enc$link1((void *)ivec, (unsigned int)(i + (unsigned long int)1));
-    memcpy((void *)&hctx, (const void *)&PShctx, sizeof(struct anonymous$2) /*208ul*/ );
+    libcperciva_be32enc_link1((void *)ivec, (unsigned int)(i + (unsigned long int)1));
+    memcpy((void *)&hctx, (const void *)&PShctx, sizeof(struct anonymous_2) /*208ul*/ );
     libcperciva_HMAC_SHA256_Update(&hctx, (const void *)ivec, (unsigned long int)4);
     libcperciva_HMAC_SHA256_Final(U, &hctx);
     memcpy((void *)T, (const void *)U, (unsigned long int)32);
@@ -2095,17 +2095,17 @@ void PBKDF2_SHA256(const unsigned char *passwd, unsigned long int passwdlen, con
 
     memcpy((void *)&buf[(signed long int)(i * (unsigned long int)32)], (const void *)T, clen);
   }
-  insecure_memzero((volatile void *)&PShctx, sizeof(struct anonymous$2) /*208ul*/ );
+  insecure_memzero((volatile void *)&PShctx, sizeof(struct anonymous_2) /*208ul*/ );
 }
 
 // SHA256_Pad
 // file ../libcperciva/alg/sha256.c line 175
-static void SHA256_Pad(struct anonymous$5 *ctx)
+static void SHA256_Pad(struct anonymous_5 *ctx)
 {
   unsigned char len[8l];
   unsigned int r;
   unsigned int plen;
-  libcperciva_be64enc$link1((void *)len, ctx->count);
+  libcperciva_be64enc_link1((void *)len, ctx->count);
   r = (unsigned int)(ctx->count >> 3 & (unsigned long int)0x3f);
   plen = r < (unsigned int)56 ? (unsigned int)56 - r : (unsigned int)120 - r;
   libcperciva_SHA256_Update(ctx, (const void *)PAD, (unsigned long int)plen);
@@ -2117,7 +2117,7 @@ static void SHA256_Pad(struct anonymous$5 *ctx)
 static void SHA256_Transform(unsigned int *state, const unsigned char *block)
 {
   unsigned int W[64l];
-  unsigned int SHA256_Transform$$1$$S[8l];
+  unsigned int SHA256_Transform__1__S[8l];
   unsigned int t0;
   unsigned int t1;
   signed int i;
@@ -2125,268 +2125,268 @@ static void SHA256_Transform(unsigned int *state, const unsigned char *block)
   i = 16;
   for( ; !(i >= 64); i = i + 1)
     W[(signed long int)i] = ((W[(signed long int)(i - 2)] >> 17 | W[(signed long int)(i - 2)] << 32 - 17) ^ (W[(signed long int)(i - 2)] >> 19 | W[(signed long int)(i - 2)] << 32 - 19) ^ W[(signed long int)(i - 2)] >> 10) + W[(signed long int)(i - 7)] + ((W[(signed long int)(i - 15)] >> 7 | W[(signed long int)(i - 15)] << 32 - 7) ^ (W[(signed long int)(i - 15)] >> 18 | W[(signed long int)(i - 15)] << 32 - 18) ^ W[(signed long int)(i - 15)] >> 3) + W[(signed long int)(i - 16)];
-  memcpy((void *)SHA256_Transform$$1$$S, (const void *)state, (unsigned long int)32);
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 0) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 0) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 0) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 0) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 0) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 0) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 0) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 0) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 0) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 0) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 0) % 8)]) + W[(signed long int)0] + (unsigned int)0x428a2f98;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 0) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 0) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 0) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 0) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 0) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 0) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 0) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 0) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 0) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 0) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 0) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 0) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 0) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 0) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 1) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 1) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 1) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 1) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 1) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 1) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 1) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 1) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 1) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 1) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 1) % 8)]) + W[(signed long int)1] + (unsigned int)0x71374491;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 1) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 1) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 1) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 1) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 1) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 1) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 1) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 1) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 1) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 1) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 1) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 1) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 1) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 1) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 2) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 2) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 2) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 2) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 2) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 2) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 2) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 2) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 2) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 2) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 2) % 8)]) + W[(signed long int)2] + 0xb5c0fbcf;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 2) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 2) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 2) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 2) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 2) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 2) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 2) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 2) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 2) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 2) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 2) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 2) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 2) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 2) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 3) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 3) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 3) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 3) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 3) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 3) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 3) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 3) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 3) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 3) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 3) % 8)]) + W[(signed long int)3] + 0xe9b5dba5;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 3) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 3) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 3) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 3) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 3) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 3) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 3) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 3) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 3) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 3) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 3) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 3) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 3) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 3) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 4) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 4) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 4) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 4) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 4) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 4) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 4) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 4) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 4) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 4) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 4) % 8)]) + W[(signed long int)4] + (unsigned int)0x3956c25b;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 4) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 4) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 4) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 4) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 4) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 4) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 4) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 4) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 4) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 4) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 4) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 4) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 4) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 4) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 5) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 5) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 5) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 5) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 5) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 5) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 5) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 5) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 5) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 5) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 5) % 8)]) + W[(signed long int)5] + (unsigned int)0x59f111f1;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 5) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 5) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 5) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 5) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 5) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 5) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 5) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 5) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 5) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 5) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 5) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 5) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 5) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 5) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 6) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 6) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 6) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 6) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 6) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 6) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 6) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 6) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 6) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 6) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 6) % 8)]) + W[(signed long int)6] + 0x923f82a4;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 6) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 6) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 6) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 6) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 6) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 6) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 6) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 6) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 6) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 6) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 6) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 6) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 6) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 6) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 7) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 7) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 7) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 7) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 7) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 7) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 7) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 7) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 7) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 7) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 7) % 8)]) + W[(signed long int)7] + 0xab1c5ed5;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 7) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 7) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 7) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 7) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 7) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 7) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 7) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 7) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 7) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 7) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 7) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 7) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 7) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 7) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 8) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 8) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 8) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 8) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 8) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 8) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 8) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 8) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 8) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 8) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 8) % 8)]) + W[(signed long int)8] + 0xd807aa98;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 8) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 8) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 8) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 8) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 8) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 8) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 8) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 8) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 8) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 8) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 8) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 8) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 8) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 8) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 9) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 9) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 9) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 9) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 9) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 9) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 9) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 9) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 9) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 9) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 9) % 8)]) + W[(signed long int)9] + (unsigned int)0x12835b01;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 9) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 9) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 9) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 9) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 9) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 9) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 9) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 9) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 9) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 9) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 9) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 9) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 9) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 9) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 10) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 10) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 10) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 10) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 10) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 10) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 10) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 10) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 10) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 10) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 10) % 8)]) + W[(signed long int)10] + (unsigned int)0x243185be;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 10) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 10) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 10) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 10) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 10) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 10) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 10) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 10) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 10) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 10) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 10) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 10) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 10) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 10) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 11) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 11) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 11) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 11) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 11) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 11) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 11) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 11) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 11) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 11) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 11) % 8)]) + W[(signed long int)11] + (unsigned int)0x550c7dc3;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 11) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 11) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 11) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 11) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 11) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 11) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 11) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 11) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 11) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 11) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 11) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 11) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 11) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 11) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 12) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 12) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 12) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 12) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 12) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 12) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 12) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 12) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 12) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 12) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 12) % 8)]) + W[(signed long int)12] + (unsigned int)0x72be5d74;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 12) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 12) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 12) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 12) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 12) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 12) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 12) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 12) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 12) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 12) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 12) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 12) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 12) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 12) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 13) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 13) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 13) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 13) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 13) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 13) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 13) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 13) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 13) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 13) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 13) % 8)]) + W[(signed long int)13] + 0x80deb1fe;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 13) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 13) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 13) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 13) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 13) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 13) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 13) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 13) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 13) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 13) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 13) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 13) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 13) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 13) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 14) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 14) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 14) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 14) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 14) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 14) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 14) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 14) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 14) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 14) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 14) % 8)]) + W[(signed long int)14] + 0x9bdc06a7;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 14) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 14) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 14) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 14) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 14) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 14) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 14) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 14) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 14) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 14) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 14) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 14) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 14) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 14) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 15) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 15) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 15) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 15) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 15) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 15) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 15) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 15) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 15) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 15) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 15) % 8)]) + W[(signed long int)15] + 0xc19bf174;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 15) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 15) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 15) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 15) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 15) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 15) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 15) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 15) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 15) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 15) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 15) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 15) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 15) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 15) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 16) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 16) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 16) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 16) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 16) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 16) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 16) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 16) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 16) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 16) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 16) % 8)]) + W[(signed long int)16] + 0xe49b69c1;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 16) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 16) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 16) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 16) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 16) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 16) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 16) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 16) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 16) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 16) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 16) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 16) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 16) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 16) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 17) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 17) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 17) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 17) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 17) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 17) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 17) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 17) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 17) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 17) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 17) % 8)]) + W[(signed long int)17] + 0xefbe4786;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 17) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 17) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 17) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 17) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 17) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 17) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 17) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 17) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 17) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 17) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 17) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 17) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 17) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 17) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 18) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 18) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 18) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 18) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 18) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 18) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 18) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 18) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 18) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 18) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 18) % 8)]) + W[(signed long int)18] + (unsigned int)0x0fc19dc6;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 18) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 18) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 18) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 18) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 18) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 18) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 18) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 18) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 18) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 18) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 18) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 18) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 18) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 18) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 19) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 19) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 19) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 19) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 19) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 19) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 19) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 19) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 19) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 19) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 19) % 8)]) + W[(signed long int)19] + (unsigned int)0x240ca1cc;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 19) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 19) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 19) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 19) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 19) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 19) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 19) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 19) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 19) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 19) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 19) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 19) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 19) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 19) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 20) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 20) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 20) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 20) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 20) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 20) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 20) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 20) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 20) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 20) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 20) % 8)]) + W[(signed long int)20] + (unsigned int)0x2de92c6f;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 20) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 20) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 20) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 20) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 20) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 20) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 20) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 20) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 20) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 20) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 20) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 20) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 20) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 20) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 21) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 21) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 21) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 21) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 21) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 21) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 21) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 21) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 21) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 21) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 21) % 8)]) + W[(signed long int)21] + (unsigned int)0x4a7484aa;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 21) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 21) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 21) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 21) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 21) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 21) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 21) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 21) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 21) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 21) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 21) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 21) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 21) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 21) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 22) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 22) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 22) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 22) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 22) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 22) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 22) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 22) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 22) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 22) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 22) % 8)]) + W[(signed long int)22] + (unsigned int)0x5cb0a9dc;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 22) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 22) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 22) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 22) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 22) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 22) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 22) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 22) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 22) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 22) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 22) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 22) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 22) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 22) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 23) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 23) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 23) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 23) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 23) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 23) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 23) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 23) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 23) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 23) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 23) % 8)]) + W[(signed long int)23] + (unsigned int)0x76f988da;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 23) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 23) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 23) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 23) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 23) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 23) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 23) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 23) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 23) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 23) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 23) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 23) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 23) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 23) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 24) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 24) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 24) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 24) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 24) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 24) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 24) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 24) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 24) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 24) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 24) % 8)]) + W[(signed long int)24] + 0x983e5152;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 24) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 24) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 24) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 24) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 24) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 24) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 24) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 24) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 24) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 24) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 24) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 24) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 24) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 24) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 25) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 25) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 25) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 25) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 25) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 25) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 25) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 25) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 25) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 25) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 25) % 8)]) + W[(signed long int)25] + 0xa831c66d;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 25) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 25) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 25) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 25) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 25) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 25) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 25) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 25) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 25) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 25) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 25) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 25) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 25) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 25) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 26) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 26) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 26) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 26) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 26) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 26) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 26) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 26) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 26) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 26) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 26) % 8)]) + W[(signed long int)26] + 0xb00327c8;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 26) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 26) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 26) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 26) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 26) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 26) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 26) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 26) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 26) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 26) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 26) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 26) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 26) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 26) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 27) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 27) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 27) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 27) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 27) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 27) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 27) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 27) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 27) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 27) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 27) % 8)]) + W[(signed long int)27] + 0xbf597fc7;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 27) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 27) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 27) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 27) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 27) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 27) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 27) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 27) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 27) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 27) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 27) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 27) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 27) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 27) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 28) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 28) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 28) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 28) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 28) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 28) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 28) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 28) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 28) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 28) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 28) % 8)]) + W[(signed long int)28] + 0xc6e00bf3;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 28) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 28) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 28) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 28) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 28) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 28) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 28) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 28) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 28) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 28) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 28) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 28) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 28) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 28) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 29) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 29) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 29) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 29) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 29) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 29) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 29) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 29) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 29) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 29) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 29) % 8)]) + W[(signed long int)29] + 0xd5a79147;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 29) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 29) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 29) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 29) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 29) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 29) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 29) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 29) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 29) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 29) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 29) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 29) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 29) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 29) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 30) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 30) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 30) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 30) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 30) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 30) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 30) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 30) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 30) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 30) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 30) % 8)]) + W[(signed long int)30] + (unsigned int)0x06ca6351;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 30) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 30) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 30) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 30) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 30) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 30) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 30) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 30) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 30) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 30) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 30) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 30) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 30) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 30) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 31) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 31) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 31) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 31) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 31) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 31) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 31) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 31) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 31) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 31) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 31) % 8)]) + W[(signed long int)31] + (unsigned int)0x14292967;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 31) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 31) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 31) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 31) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 31) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 31) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 31) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 31) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 31) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 31) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 31) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 31) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 31) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 31) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 32) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 32) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 32) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 32) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 32) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 32) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 32) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 32) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 32) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 32) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 32) % 8)]) + W[(signed long int)32] + (unsigned int)0x27b70a85;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 32) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 32) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 32) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 32) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 32) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 32) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 32) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 32) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 32) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 32) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 32) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 32) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 32) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 32) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 33) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 33) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 33) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 33) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 33) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 33) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 33) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 33) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 33) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 33) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 33) % 8)]) + W[(signed long int)33] + (unsigned int)0x2e1b2138;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 33) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 33) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 33) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 33) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 33) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 33) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 33) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 33) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 33) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 33) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 33) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 33) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 33) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 33) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 34) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 34) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 34) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 34) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 34) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 34) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 34) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 34) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 34) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 34) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 34) % 8)]) + W[(signed long int)34] + (unsigned int)0x4d2c6dfc;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 34) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 34) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 34) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 34) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 34) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 34) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 34) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 34) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 34) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 34) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 34) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 34) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 34) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 34) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 35) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 35) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 35) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 35) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 35) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 35) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 35) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 35) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 35) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 35) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 35) % 8)]) + W[(signed long int)35] + (unsigned int)0x53380d13;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 35) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 35) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 35) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 35) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 35) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 35) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 35) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 35) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 35) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 35) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 35) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 35) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 35) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 35) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 36) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 36) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 36) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 36) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 36) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 36) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 36) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 36) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 36) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 36) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 36) % 8)]) + W[(signed long int)36] + (unsigned int)0x650a7354;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 36) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 36) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 36) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 36) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 36) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 36) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 36) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 36) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 36) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 36) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 36) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 36) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 36) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 36) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 37) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 37) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 37) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 37) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 37) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 37) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 37) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 37) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 37) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 37) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 37) % 8)]) + W[(signed long int)37] + (unsigned int)0x766a0abb;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 37) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 37) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 37) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 37) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 37) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 37) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 37) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 37) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 37) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 37) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 37) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 37) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 37) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 37) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 38) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 38) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 38) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 38) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 38) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 38) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 38) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 38) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 38) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 38) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 38) % 8)]) + W[(signed long int)38] + 0x81c2c92e;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 38) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 38) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 38) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 38) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 38) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 38) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 38) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 38) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 38) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 38) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 38) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 38) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 38) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 38) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 39) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 39) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 39) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 39) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 39) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 39) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 39) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 39) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 39) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 39) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 39) % 8)]) + W[(signed long int)39] + 0x92722c85;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 39) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 39) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 39) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 39) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 39) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 39) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 39) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 39) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 39) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 39) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 39) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 39) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 39) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 39) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 40) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 40) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 40) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 40) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 40) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 40) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 40) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 40) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 40) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 40) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 40) % 8)]) + W[(signed long int)40] + 0xa2bfe8a1;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 40) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 40) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 40) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 40) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 40) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 40) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 40) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 40) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 40) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 40) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 40) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 40) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 40) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 40) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 41) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 41) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 41) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 41) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 41) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 41) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 41) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 41) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 41) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 41) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 41) % 8)]) + W[(signed long int)41] + 0xa81a664b;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 41) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 41) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 41) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 41) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 41) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 41) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 41) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 41) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 41) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 41) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 41) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 41) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 41) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 41) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 42) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 42) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 42) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 42) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 42) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 42) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 42) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 42) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 42) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 42) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 42) % 8)]) + W[(signed long int)42] + 0xc24b8b70;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 42) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 42) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 42) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 42) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 42) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 42) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 42) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 42) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 42) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 42) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 42) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 42) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 42) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 42) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 43) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 43) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 43) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 43) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 43) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 43) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 43) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 43) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 43) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 43) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 43) % 8)]) + W[(signed long int)43] + 0xc76c51a3;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 43) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 43) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 43) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 43) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 43) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 43) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 43) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 43) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 43) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 43) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 43) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 43) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 43) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 43) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 44) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 44) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 44) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 44) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 44) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 44) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 44) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 44) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 44) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 44) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 44) % 8)]) + W[(signed long int)44] + 0xd192e819;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 44) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 44) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 44) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 44) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 44) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 44) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 44) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 44) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 44) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 44) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 44) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 44) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 44) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 44) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 45) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 45) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 45) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 45) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 45) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 45) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 45) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 45) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 45) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 45) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 45) % 8)]) + W[(signed long int)45] + 0xd6990624;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 45) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 45) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 45) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 45) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 45) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 45) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 45) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 45) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 45) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 45) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 45) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 45) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 45) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 45) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 46) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 46) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 46) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 46) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 46) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 46) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 46) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 46) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 46) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 46) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 46) % 8)]) + W[(signed long int)46] + 0xf40e3585;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 46) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 46) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 46) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 46) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 46) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 46) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 46) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 46) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 46) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 46) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 46) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 46) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 46) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 46) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 47) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 47) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 47) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 47) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 47) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 47) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 47) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 47) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 47) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 47) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 47) % 8)]) + W[(signed long int)47] + (unsigned int)0x106aa070;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 47) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 47) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 47) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 47) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 47) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 47) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 47) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 47) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 47) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 47) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 47) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 47) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 47) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 47) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 48) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 48) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 48) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 48) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 48) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 48) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 48) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 48) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 48) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 48) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 48) % 8)]) + W[(signed long int)48] + (unsigned int)0x19a4c116;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 48) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 48) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 48) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 48) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 48) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 48) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 48) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 48) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 48) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 48) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 48) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 48) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 48) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 48) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 49) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 49) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 49) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 49) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 49) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 49) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 49) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 49) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 49) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 49) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 49) % 8)]) + W[(signed long int)49] + (unsigned int)0x1e376c08;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 49) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 49) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 49) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 49) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 49) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 49) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 49) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 49) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 49) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 49) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 49) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 49) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 49) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 49) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 50) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 50) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 50) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 50) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 50) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 50) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 50) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 50) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 50) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 50) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 50) % 8)]) + W[(signed long int)50] + (unsigned int)0x2748774c;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 50) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 50) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 50) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 50) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 50) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 50) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 50) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 50) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 50) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 50) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 50) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 50) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 50) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 50) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 51) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 51) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 51) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 51) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 51) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 51) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 51) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 51) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 51) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 51) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 51) % 8)]) + W[(signed long int)51] + (unsigned int)0x34b0bcb5;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 51) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 51) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 51) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 51) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 51) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 51) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 51) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 51) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 51) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 51) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 51) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 51) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 51) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 51) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 52) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 52) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 52) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 52) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 52) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 52) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 52) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 52) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 52) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 52) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 52) % 8)]) + W[(signed long int)52] + (unsigned int)0x391c0cb3;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 52) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 52) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 52) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 52) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 52) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 52) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 52) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 52) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 52) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 52) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 52) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 52) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 52) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 52) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 53) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 53) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 53) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 53) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 53) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 53) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 53) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 53) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 53) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 53) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 53) % 8)]) + W[(signed long int)53] + (unsigned int)0x4ed8aa4a;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 53) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 53) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 53) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 53) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 53) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 53) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 53) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 53) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 53) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 53) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 53) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 53) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 53) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 53) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 54) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 54) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 54) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 54) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 54) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 54) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 54) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 54) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 54) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 54) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 54) % 8)]) + W[(signed long int)54] + (unsigned int)0x5b9cca4f;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 54) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 54) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 54) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 54) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 54) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 54) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 54) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 54) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 54) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 54) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 54) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 54) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 54) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 54) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 55) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 55) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 55) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 55) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 55) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 55) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 55) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 55) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 55) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 55) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 55) % 8)]) + W[(signed long int)55] + (unsigned int)0x682e6ff3;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 55) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 55) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 55) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 55) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 55) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 55) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 55) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 55) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 55) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 55) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 55) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 55) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 55) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 55) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 56) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 56) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 56) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 56) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 56) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 56) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 56) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 56) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 56) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 56) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 56) % 8)]) + W[(signed long int)56] + (unsigned int)0x748f82ee;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 56) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 56) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 56) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 56) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 56) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 56) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 56) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 56) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 56) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 56) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 56) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 56) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 56) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 56) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 57) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 57) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 57) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 57) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 57) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 57) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 57) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 57) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 57) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 57) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 57) % 8)]) + W[(signed long int)57] + (unsigned int)0x78a5636f;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 57) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 57) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 57) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 57) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 57) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 57) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 57) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 57) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 57) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 57) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 57) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 57) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 57) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 57) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 58) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 58) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 58) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 58) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 58) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 58) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 58) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 58) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 58) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 58) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 58) % 8)]) + W[(signed long int)58] + 0x84c87814;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 58) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 58) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 58) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 58) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 58) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 58) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 58) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 58) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 58) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 58) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 58) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 58) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 58) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 58) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 59) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 59) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 59) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 59) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 59) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 59) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 59) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 59) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 59) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 59) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 59) % 8)]) + W[(signed long int)59] + 0x8cc70208;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 59) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 59) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 59) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 59) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 59) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 59) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 59) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 59) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 59) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 59) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 59) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 59) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 59) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 59) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 60) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 60) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 60) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 60) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 60) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 60) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 60) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 60) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 60) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 60) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 60) % 8)]) + W[(signed long int)60] + 0x90befffa;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 60) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 60) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 60) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 60) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 60) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 60) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 60) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 60) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 60) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 60) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 60) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 60) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 60) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 60) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 61) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 61) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 61) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 61) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 61) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 61) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 61) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 61) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 61) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 61) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 61) % 8)]) + W[(signed long int)61] + 0xa4506ceb;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 61) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 61) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 61) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 61) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 61) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 61) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 61) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 61) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 61) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 61) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 61) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 61) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 61) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 61) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 62) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 62) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 62) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 62) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 62) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 62) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 62) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 62) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 62) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 62) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 62) % 8)]) + W[(signed long int)62] + 0xbef9a3f7;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 62) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 62) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 62) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 62) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 62) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 62) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 62) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 62) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 62) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 62) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 62) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 62) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 62) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 62) % 8)] = t0 + t1;
-  t0 = SHA256_Transform$$1$$S[(signed long int)((71 - 63) % 8)] + ((SHA256_Transform$$1$$S[(signed long int)((68 - 63) % 8)] >> 6 | SHA256_Transform$$1$$S[(signed long int)((68 - 63) % 8)] << 32 - 6) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 63) % 8)] >> 11 | SHA256_Transform$$1$$S[(signed long int)((68 - 63) % 8)] << 32 - 11) ^ (SHA256_Transform$$1$$S[(signed long int)((68 - 63) % 8)] >> 25 | SHA256_Transform$$1$$S[(signed long int)((68 - 63) % 8)] << 32 - 25)) + (SHA256_Transform$$1$$S[(signed long int)((68 - 63) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((69 - 63) % 8)] ^ SHA256_Transform$$1$$S[(signed long int)((70 - 63) % 8)]) ^ SHA256_Transform$$1$$S[(signed long int)((70 - 63) % 8)]) + W[(signed long int)63] + 0xc67178f2;
-  t1 = ((SHA256_Transform$$1$$S[(signed long int)((64 - 63) % 8)] >> 2 | SHA256_Transform$$1$$S[(signed long int)((64 - 63) % 8)] << 32 - 2) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 63) % 8)] >> 13 | SHA256_Transform$$1$$S[(signed long int)((64 - 63) % 8)] << 32 - 13) ^ (SHA256_Transform$$1$$S[(signed long int)((64 - 63) % 8)] >> 22 | SHA256_Transform$$1$$S[(signed long int)((64 - 63) % 8)] << 32 - 22)) + (SHA256_Transform$$1$$S[(signed long int)((64 - 63) % 8)] & (SHA256_Transform$$1$$S[(signed long int)((65 - 63) % 8)] | SHA256_Transform$$1$$S[(signed long int)((66 - 63) % 8)]) | SHA256_Transform$$1$$S[(signed long int)((65 - 63) % 8)] & SHA256_Transform$$1$$S[(signed long int)((66 - 63) % 8)]);
-  SHA256_Transform$$1$$S[(signed long int)((67 - 63) % 8)] = SHA256_Transform$$1$$S[(signed long int)((67 - 63) % 8)] + t0;
-  SHA256_Transform$$1$$S[(signed long int)((71 - 63) % 8)] = t0 + t1;
+  memcpy((void *)SHA256_Transform__1__S, (const void *)state, (unsigned long int)32);
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 0) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 0) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 0) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 0) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 0) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 0) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 0) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 0) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 0) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 0) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 0) % 8)]) + W[(signed long int)0] + (unsigned int)0x428a2f98;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 0) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 0) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 0) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 0) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 0) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 0) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 0) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 0) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 0) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 0) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 0) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 0) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 0) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 0) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 1) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 1) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 1) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 1) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 1) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 1) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 1) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 1) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 1) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 1) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 1) % 8)]) + W[(signed long int)1] + (unsigned int)0x71374491;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 1) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 1) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 1) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 1) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 1) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 1) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 1) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 1) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 1) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 1) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 1) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 1) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 1) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 1) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 2) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 2) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 2) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 2) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 2) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 2) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 2) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 2) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 2) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 2) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 2) % 8)]) + W[(signed long int)2] + 0xb5c0fbcf;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 2) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 2) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 2) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 2) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 2) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 2) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 2) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 2) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 2) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 2) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 2) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 2) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 2) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 2) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 3) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 3) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 3) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 3) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 3) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 3) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 3) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 3) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 3) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 3) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 3) % 8)]) + W[(signed long int)3] + 0xe9b5dba5;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 3) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 3) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 3) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 3) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 3) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 3) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 3) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 3) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 3) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 3) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 3) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 3) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 3) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 3) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 4) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 4) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 4) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 4) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 4) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 4) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 4) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 4) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 4) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 4) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 4) % 8)]) + W[(signed long int)4] + (unsigned int)0x3956c25b;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 4) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 4) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 4) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 4) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 4) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 4) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 4) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 4) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 4) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 4) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 4) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 4) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 4) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 4) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 5) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 5) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 5) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 5) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 5) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 5) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 5) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 5) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 5) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 5) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 5) % 8)]) + W[(signed long int)5] + (unsigned int)0x59f111f1;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 5) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 5) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 5) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 5) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 5) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 5) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 5) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 5) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 5) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 5) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 5) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 5) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 5) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 5) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 6) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 6) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 6) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 6) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 6) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 6) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 6) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 6) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 6) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 6) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 6) % 8)]) + W[(signed long int)6] + 0x923f82a4;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 6) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 6) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 6) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 6) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 6) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 6) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 6) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 6) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 6) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 6) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 6) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 6) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 6) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 6) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 7) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 7) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 7) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 7) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 7) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 7) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 7) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 7) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 7) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 7) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 7) % 8)]) + W[(signed long int)7] + 0xab1c5ed5;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 7) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 7) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 7) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 7) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 7) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 7) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 7) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 7) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 7) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 7) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 7) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 7) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 7) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 7) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 8) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 8) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 8) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 8) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 8) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 8) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 8) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 8) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 8) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 8) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 8) % 8)]) + W[(signed long int)8] + 0xd807aa98;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 8) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 8) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 8) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 8) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 8) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 8) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 8) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 8) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 8) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 8) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 8) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 8) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 8) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 8) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 9) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 9) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 9) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 9) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 9) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 9) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 9) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 9) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 9) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 9) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 9) % 8)]) + W[(signed long int)9] + (unsigned int)0x12835b01;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 9) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 9) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 9) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 9) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 9) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 9) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 9) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 9) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 9) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 9) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 9) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 9) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 9) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 9) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 10) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 10) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 10) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 10) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 10) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 10) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 10) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 10) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 10) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 10) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 10) % 8)]) + W[(signed long int)10] + (unsigned int)0x243185be;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 10) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 10) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 10) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 10) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 10) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 10) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 10) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 10) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 10) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 10) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 10) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 10) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 10) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 10) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 11) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 11) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 11) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 11) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 11) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 11) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 11) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 11) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 11) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 11) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 11) % 8)]) + W[(signed long int)11] + (unsigned int)0x550c7dc3;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 11) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 11) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 11) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 11) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 11) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 11) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 11) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 11) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 11) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 11) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 11) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 11) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 11) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 11) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 12) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 12) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 12) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 12) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 12) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 12) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 12) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 12) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 12) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 12) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 12) % 8)]) + W[(signed long int)12] + (unsigned int)0x72be5d74;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 12) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 12) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 12) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 12) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 12) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 12) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 12) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 12) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 12) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 12) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 12) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 12) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 12) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 12) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 13) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 13) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 13) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 13) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 13) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 13) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 13) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 13) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 13) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 13) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 13) % 8)]) + W[(signed long int)13] + 0x80deb1fe;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 13) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 13) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 13) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 13) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 13) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 13) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 13) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 13) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 13) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 13) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 13) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 13) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 13) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 13) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 14) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 14) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 14) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 14) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 14) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 14) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 14) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 14) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 14) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 14) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 14) % 8)]) + W[(signed long int)14] + 0x9bdc06a7;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 14) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 14) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 14) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 14) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 14) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 14) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 14) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 14) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 14) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 14) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 14) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 14) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 14) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 14) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 15) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 15) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 15) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 15) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 15) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 15) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 15) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 15) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 15) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 15) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 15) % 8)]) + W[(signed long int)15] + 0xc19bf174;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 15) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 15) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 15) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 15) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 15) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 15) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 15) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 15) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 15) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 15) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 15) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 15) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 15) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 15) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 16) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 16) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 16) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 16) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 16) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 16) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 16) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 16) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 16) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 16) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 16) % 8)]) + W[(signed long int)16] + 0xe49b69c1;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 16) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 16) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 16) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 16) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 16) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 16) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 16) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 16) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 16) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 16) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 16) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 16) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 16) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 16) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 17) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 17) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 17) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 17) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 17) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 17) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 17) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 17) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 17) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 17) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 17) % 8)]) + W[(signed long int)17] + 0xefbe4786;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 17) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 17) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 17) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 17) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 17) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 17) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 17) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 17) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 17) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 17) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 17) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 17) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 17) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 17) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 18) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 18) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 18) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 18) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 18) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 18) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 18) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 18) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 18) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 18) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 18) % 8)]) + W[(signed long int)18] + (unsigned int)0x0fc19dc6;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 18) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 18) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 18) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 18) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 18) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 18) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 18) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 18) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 18) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 18) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 18) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 18) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 18) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 18) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 19) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 19) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 19) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 19) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 19) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 19) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 19) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 19) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 19) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 19) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 19) % 8)]) + W[(signed long int)19] + (unsigned int)0x240ca1cc;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 19) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 19) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 19) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 19) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 19) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 19) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 19) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 19) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 19) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 19) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 19) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 19) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 19) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 19) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 20) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 20) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 20) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 20) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 20) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 20) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 20) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 20) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 20) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 20) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 20) % 8)]) + W[(signed long int)20] + (unsigned int)0x2de92c6f;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 20) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 20) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 20) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 20) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 20) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 20) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 20) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 20) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 20) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 20) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 20) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 20) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 20) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 20) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 21) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 21) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 21) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 21) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 21) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 21) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 21) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 21) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 21) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 21) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 21) % 8)]) + W[(signed long int)21] + (unsigned int)0x4a7484aa;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 21) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 21) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 21) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 21) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 21) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 21) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 21) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 21) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 21) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 21) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 21) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 21) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 21) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 21) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 22) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 22) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 22) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 22) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 22) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 22) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 22) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 22) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 22) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 22) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 22) % 8)]) + W[(signed long int)22] + (unsigned int)0x5cb0a9dc;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 22) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 22) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 22) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 22) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 22) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 22) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 22) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 22) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 22) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 22) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 22) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 22) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 22) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 22) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 23) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 23) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 23) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 23) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 23) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 23) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 23) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 23) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 23) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 23) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 23) % 8)]) + W[(signed long int)23] + (unsigned int)0x76f988da;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 23) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 23) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 23) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 23) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 23) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 23) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 23) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 23) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 23) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 23) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 23) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 23) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 23) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 23) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 24) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 24) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 24) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 24) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 24) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 24) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 24) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 24) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 24) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 24) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 24) % 8)]) + W[(signed long int)24] + 0x983e5152;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 24) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 24) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 24) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 24) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 24) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 24) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 24) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 24) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 24) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 24) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 24) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 24) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 24) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 24) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 25) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 25) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 25) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 25) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 25) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 25) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 25) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 25) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 25) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 25) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 25) % 8)]) + W[(signed long int)25] + 0xa831c66d;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 25) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 25) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 25) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 25) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 25) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 25) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 25) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 25) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 25) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 25) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 25) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 25) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 25) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 25) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 26) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 26) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 26) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 26) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 26) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 26) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 26) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 26) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 26) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 26) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 26) % 8)]) + W[(signed long int)26] + 0xb00327c8;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 26) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 26) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 26) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 26) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 26) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 26) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 26) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 26) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 26) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 26) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 26) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 26) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 26) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 26) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 27) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 27) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 27) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 27) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 27) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 27) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 27) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 27) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 27) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 27) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 27) % 8)]) + W[(signed long int)27] + 0xbf597fc7;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 27) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 27) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 27) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 27) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 27) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 27) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 27) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 27) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 27) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 27) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 27) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 27) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 27) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 27) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 28) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 28) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 28) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 28) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 28) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 28) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 28) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 28) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 28) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 28) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 28) % 8)]) + W[(signed long int)28] + 0xc6e00bf3;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 28) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 28) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 28) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 28) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 28) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 28) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 28) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 28) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 28) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 28) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 28) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 28) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 28) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 28) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 29) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 29) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 29) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 29) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 29) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 29) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 29) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 29) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 29) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 29) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 29) % 8)]) + W[(signed long int)29] + 0xd5a79147;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 29) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 29) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 29) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 29) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 29) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 29) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 29) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 29) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 29) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 29) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 29) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 29) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 29) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 29) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 30) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 30) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 30) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 30) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 30) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 30) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 30) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 30) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 30) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 30) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 30) % 8)]) + W[(signed long int)30] + (unsigned int)0x06ca6351;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 30) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 30) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 30) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 30) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 30) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 30) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 30) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 30) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 30) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 30) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 30) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 30) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 30) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 30) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 31) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 31) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 31) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 31) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 31) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 31) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 31) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 31) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 31) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 31) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 31) % 8)]) + W[(signed long int)31] + (unsigned int)0x14292967;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 31) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 31) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 31) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 31) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 31) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 31) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 31) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 31) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 31) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 31) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 31) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 31) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 31) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 31) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 32) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 32) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 32) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 32) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 32) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 32) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 32) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 32) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 32) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 32) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 32) % 8)]) + W[(signed long int)32] + (unsigned int)0x27b70a85;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 32) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 32) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 32) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 32) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 32) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 32) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 32) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 32) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 32) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 32) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 32) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 32) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 32) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 32) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 33) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 33) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 33) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 33) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 33) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 33) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 33) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 33) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 33) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 33) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 33) % 8)]) + W[(signed long int)33] + (unsigned int)0x2e1b2138;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 33) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 33) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 33) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 33) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 33) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 33) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 33) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 33) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 33) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 33) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 33) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 33) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 33) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 33) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 34) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 34) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 34) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 34) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 34) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 34) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 34) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 34) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 34) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 34) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 34) % 8)]) + W[(signed long int)34] + (unsigned int)0x4d2c6dfc;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 34) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 34) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 34) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 34) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 34) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 34) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 34) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 34) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 34) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 34) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 34) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 34) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 34) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 34) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 35) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 35) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 35) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 35) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 35) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 35) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 35) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 35) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 35) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 35) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 35) % 8)]) + W[(signed long int)35] + (unsigned int)0x53380d13;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 35) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 35) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 35) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 35) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 35) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 35) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 35) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 35) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 35) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 35) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 35) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 35) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 35) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 35) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 36) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 36) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 36) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 36) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 36) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 36) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 36) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 36) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 36) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 36) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 36) % 8)]) + W[(signed long int)36] + (unsigned int)0x650a7354;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 36) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 36) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 36) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 36) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 36) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 36) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 36) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 36) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 36) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 36) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 36) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 36) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 36) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 36) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 37) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 37) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 37) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 37) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 37) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 37) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 37) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 37) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 37) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 37) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 37) % 8)]) + W[(signed long int)37] + (unsigned int)0x766a0abb;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 37) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 37) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 37) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 37) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 37) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 37) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 37) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 37) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 37) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 37) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 37) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 37) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 37) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 37) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 38) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 38) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 38) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 38) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 38) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 38) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 38) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 38) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 38) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 38) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 38) % 8)]) + W[(signed long int)38] + 0x81c2c92e;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 38) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 38) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 38) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 38) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 38) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 38) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 38) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 38) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 38) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 38) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 38) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 38) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 38) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 38) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 39) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 39) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 39) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 39) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 39) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 39) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 39) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 39) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 39) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 39) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 39) % 8)]) + W[(signed long int)39] + 0x92722c85;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 39) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 39) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 39) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 39) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 39) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 39) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 39) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 39) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 39) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 39) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 39) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 39) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 39) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 39) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 40) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 40) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 40) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 40) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 40) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 40) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 40) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 40) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 40) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 40) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 40) % 8)]) + W[(signed long int)40] + 0xa2bfe8a1;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 40) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 40) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 40) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 40) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 40) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 40) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 40) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 40) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 40) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 40) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 40) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 40) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 40) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 40) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 41) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 41) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 41) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 41) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 41) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 41) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 41) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 41) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 41) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 41) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 41) % 8)]) + W[(signed long int)41] + 0xa81a664b;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 41) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 41) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 41) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 41) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 41) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 41) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 41) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 41) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 41) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 41) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 41) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 41) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 41) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 41) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 42) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 42) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 42) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 42) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 42) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 42) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 42) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 42) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 42) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 42) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 42) % 8)]) + W[(signed long int)42] + 0xc24b8b70;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 42) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 42) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 42) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 42) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 42) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 42) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 42) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 42) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 42) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 42) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 42) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 42) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 42) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 42) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 43) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 43) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 43) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 43) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 43) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 43) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 43) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 43) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 43) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 43) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 43) % 8)]) + W[(signed long int)43] + 0xc76c51a3;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 43) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 43) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 43) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 43) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 43) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 43) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 43) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 43) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 43) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 43) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 43) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 43) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 43) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 43) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 44) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 44) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 44) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 44) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 44) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 44) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 44) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 44) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 44) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 44) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 44) % 8)]) + W[(signed long int)44] + 0xd192e819;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 44) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 44) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 44) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 44) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 44) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 44) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 44) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 44) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 44) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 44) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 44) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 44) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 44) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 44) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 45) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 45) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 45) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 45) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 45) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 45) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 45) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 45) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 45) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 45) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 45) % 8)]) + W[(signed long int)45] + 0xd6990624;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 45) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 45) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 45) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 45) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 45) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 45) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 45) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 45) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 45) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 45) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 45) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 45) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 45) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 45) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 46) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 46) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 46) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 46) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 46) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 46) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 46) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 46) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 46) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 46) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 46) % 8)]) + W[(signed long int)46] + 0xf40e3585;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 46) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 46) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 46) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 46) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 46) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 46) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 46) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 46) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 46) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 46) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 46) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 46) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 46) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 46) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 47) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 47) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 47) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 47) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 47) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 47) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 47) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 47) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 47) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 47) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 47) % 8)]) + W[(signed long int)47] + (unsigned int)0x106aa070;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 47) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 47) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 47) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 47) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 47) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 47) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 47) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 47) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 47) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 47) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 47) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 47) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 47) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 47) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 48) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 48) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 48) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 48) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 48) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 48) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 48) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 48) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 48) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 48) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 48) % 8)]) + W[(signed long int)48] + (unsigned int)0x19a4c116;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 48) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 48) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 48) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 48) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 48) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 48) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 48) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 48) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 48) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 48) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 48) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 48) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 48) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 48) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 49) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 49) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 49) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 49) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 49) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 49) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 49) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 49) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 49) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 49) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 49) % 8)]) + W[(signed long int)49] + (unsigned int)0x1e376c08;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 49) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 49) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 49) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 49) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 49) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 49) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 49) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 49) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 49) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 49) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 49) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 49) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 49) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 49) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 50) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 50) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 50) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 50) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 50) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 50) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 50) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 50) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 50) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 50) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 50) % 8)]) + W[(signed long int)50] + (unsigned int)0x2748774c;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 50) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 50) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 50) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 50) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 50) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 50) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 50) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 50) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 50) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 50) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 50) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 50) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 50) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 50) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 51) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 51) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 51) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 51) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 51) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 51) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 51) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 51) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 51) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 51) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 51) % 8)]) + W[(signed long int)51] + (unsigned int)0x34b0bcb5;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 51) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 51) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 51) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 51) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 51) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 51) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 51) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 51) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 51) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 51) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 51) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 51) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 51) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 51) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 52) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 52) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 52) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 52) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 52) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 52) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 52) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 52) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 52) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 52) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 52) % 8)]) + W[(signed long int)52] + (unsigned int)0x391c0cb3;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 52) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 52) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 52) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 52) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 52) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 52) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 52) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 52) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 52) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 52) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 52) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 52) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 52) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 52) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 53) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 53) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 53) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 53) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 53) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 53) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 53) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 53) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 53) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 53) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 53) % 8)]) + W[(signed long int)53] + (unsigned int)0x4ed8aa4a;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 53) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 53) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 53) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 53) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 53) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 53) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 53) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 53) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 53) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 53) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 53) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 53) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 53) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 53) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 54) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 54) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 54) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 54) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 54) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 54) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 54) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 54) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 54) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 54) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 54) % 8)]) + W[(signed long int)54] + (unsigned int)0x5b9cca4f;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 54) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 54) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 54) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 54) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 54) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 54) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 54) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 54) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 54) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 54) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 54) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 54) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 54) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 54) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 55) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 55) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 55) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 55) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 55) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 55) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 55) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 55) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 55) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 55) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 55) % 8)]) + W[(signed long int)55] + (unsigned int)0x682e6ff3;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 55) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 55) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 55) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 55) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 55) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 55) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 55) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 55) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 55) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 55) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 55) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 55) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 55) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 55) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 56) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 56) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 56) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 56) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 56) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 56) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 56) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 56) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 56) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 56) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 56) % 8)]) + W[(signed long int)56] + (unsigned int)0x748f82ee;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 56) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 56) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 56) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 56) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 56) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 56) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 56) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 56) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 56) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 56) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 56) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 56) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 56) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 56) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 57) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 57) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 57) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 57) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 57) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 57) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 57) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 57) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 57) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 57) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 57) % 8)]) + W[(signed long int)57] + (unsigned int)0x78a5636f;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 57) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 57) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 57) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 57) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 57) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 57) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 57) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 57) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 57) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 57) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 57) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 57) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 57) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 57) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 58) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 58) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 58) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 58) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 58) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 58) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 58) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 58) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 58) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 58) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 58) % 8)]) + W[(signed long int)58] + 0x84c87814;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 58) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 58) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 58) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 58) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 58) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 58) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 58) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 58) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 58) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 58) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 58) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 58) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 58) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 58) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 59) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 59) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 59) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 59) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 59) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 59) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 59) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 59) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 59) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 59) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 59) % 8)]) + W[(signed long int)59] + 0x8cc70208;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 59) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 59) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 59) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 59) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 59) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 59) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 59) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 59) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 59) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 59) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 59) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 59) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 59) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 59) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 60) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 60) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 60) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 60) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 60) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 60) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 60) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 60) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 60) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 60) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 60) % 8)]) + W[(signed long int)60] + 0x90befffa;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 60) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 60) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 60) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 60) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 60) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 60) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 60) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 60) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 60) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 60) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 60) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 60) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 60) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 60) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 61) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 61) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 61) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 61) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 61) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 61) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 61) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 61) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 61) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 61) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 61) % 8)]) + W[(signed long int)61] + 0xa4506ceb;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 61) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 61) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 61) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 61) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 61) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 61) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 61) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 61) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 61) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 61) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 61) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 61) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 61) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 61) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 62) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 62) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 62) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 62) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 62) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 62) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 62) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 62) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 62) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 62) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 62) % 8)]) + W[(signed long int)62] + 0xbef9a3f7;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 62) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 62) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 62) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 62) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 62) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 62) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 62) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 62) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 62) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 62) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 62) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 62) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 62) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 62) % 8)] = t0 + t1;
+  t0 = SHA256_Transform__1__S[(signed long int)((71 - 63) % 8)] + ((SHA256_Transform__1__S[(signed long int)((68 - 63) % 8)] >> 6 | SHA256_Transform__1__S[(signed long int)((68 - 63) % 8)] << 32 - 6) ^ (SHA256_Transform__1__S[(signed long int)((68 - 63) % 8)] >> 11 | SHA256_Transform__1__S[(signed long int)((68 - 63) % 8)] << 32 - 11) ^ (SHA256_Transform__1__S[(signed long int)((68 - 63) % 8)] >> 25 | SHA256_Transform__1__S[(signed long int)((68 - 63) % 8)] << 32 - 25)) + (SHA256_Transform__1__S[(signed long int)((68 - 63) % 8)] & (SHA256_Transform__1__S[(signed long int)((69 - 63) % 8)] ^ SHA256_Transform__1__S[(signed long int)((70 - 63) % 8)]) ^ SHA256_Transform__1__S[(signed long int)((70 - 63) % 8)]) + W[(signed long int)63] + 0xc67178f2;
+  t1 = ((SHA256_Transform__1__S[(signed long int)((64 - 63) % 8)] >> 2 | SHA256_Transform__1__S[(signed long int)((64 - 63) % 8)] << 32 - 2) ^ (SHA256_Transform__1__S[(signed long int)((64 - 63) % 8)] >> 13 | SHA256_Transform__1__S[(signed long int)((64 - 63) % 8)] << 32 - 13) ^ (SHA256_Transform__1__S[(signed long int)((64 - 63) % 8)] >> 22 | SHA256_Transform__1__S[(signed long int)((64 - 63) % 8)] << 32 - 22)) + (SHA256_Transform__1__S[(signed long int)((64 - 63) % 8)] & (SHA256_Transform__1__S[(signed long int)((65 - 63) % 8)] | SHA256_Transform__1__S[(signed long int)((66 - 63) % 8)]) | SHA256_Transform__1__S[(signed long int)((65 - 63) % 8)] & SHA256_Transform__1__S[(signed long int)((66 - 63) % 8)]);
+  SHA256_Transform__1__S[(signed long int)((67 - 63) % 8)] = SHA256_Transform__1__S[(signed long int)((67 - 63) % 8)] + t0;
+  SHA256_Transform__1__S[(signed long int)((71 - 63) % 8)] = t0 + t1;
   i = 0;
   for( ; !(i >= 8); i = i + 1)
-    state[(signed long int)i] = state[(signed long int)i] + SHA256_Transform$$1$$S[(signed long int)i];
+    state[(signed long int)i] = state[(signed long int)i] + SHA256_Transform__1__S[(signed long int)i];
   insecure_memzero((volatile void *)W, (unsigned long int)256);
-  insecure_memzero((volatile void *)SHA256_Transform$$1$$S, (unsigned long int)32);
+  insecure_memzero((volatile void *)SHA256_Transform__1__S, (unsigned long int)32);
   insecure_memzero((volatile void *)&t0, sizeof(unsigned int) /*4ul*/ );
   insecure_memzero((volatile void *)&t1, sizeof(unsigned int) /*4ul*/ );
 }
@@ -2396,9 +2396,9 @@ static void SHA256_Transform(unsigned int *state, const unsigned char *block)
 static inline signed int __get_cpuid(unsigned int __level, unsigned int *__eax, unsigned int *__ebx, unsigned int *__ecx, unsigned int *__edx)
 {
   unsigned int __ext = __level & 0x80000000;
-  unsigned int return_value___get_cpuid_max$1;
-  return_value___get_cpuid_max$1=__get_cpuid_max(__ext, ((unsigned int *)NULL));
-  if(!(return_value___get_cpuid_max$1 >= __level))
+  unsigned int return_value___get_cpuid_max_1;
+  return_value___get_cpuid_max_1=__get_cpuid_max(__ext, ((unsigned int *)NULL));
+  if(!(return_value___get_cpuid_max_1 >= __level))
     return 0;
 
   else
@@ -2427,27 +2427,27 @@ static inline unsigned int __get_cpuid_max(unsigned int __ext, unsigned int *__s
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/wmmintrin.h line 61
 static inline __gcc_v2di _mm_aesenc_si128(__gcc_v2di __X, __gcc_v2di __Y)
 {
-  __gcc_v2di return_value___builtin_ia32_aesenc128$1;
-  return_value___builtin_ia32_aesenc128$1=__builtin_ia32_aesenc128((__gcc_v2di)__X, (__gcc_v2di)__Y);
-  return (__gcc_v2di)return_value___builtin_ia32_aesenc128$1;
+  __gcc_v2di return_value___builtin_ia32_aesenc128_1;
+  return_value___builtin_ia32_aesenc128_1=__builtin_ia32_aesenc128((__gcc_v2di)__X, (__gcc_v2di)__Y);
+  return (__gcc_v2di)return_value___builtin_ia32_aesenc128_1;
 }
 
 // _mm_aesenclast_si128
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/wmmintrin.h line 69
 static inline __gcc_v2di _mm_aesenclast_si128(__gcc_v2di __X, __gcc_v2di __Y)
 {
-  __gcc_v2di return_value___builtin_ia32_aesenclast128$1;
-  return_value___builtin_ia32_aesenclast128$1=__builtin_ia32_aesenclast128((__gcc_v2di)__X, (__gcc_v2di)__Y);
-  return (__gcc_v2di)return_value___builtin_ia32_aesenclast128$1;
+  __gcc_v2di return_value___builtin_ia32_aesenclast128_1;
+  return_value___builtin_ia32_aesenclast128_1=__builtin_ia32_aesenclast128((__gcc_v2di)__X, (__gcc_v2di)__Y);
+  return (__gcc_v2di)return_value___builtin_ia32_aesenclast128_1;
 }
 
 // _mm_loadu_si128
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h line 696
 static inline __gcc_v2di _mm_loadu_si128(const __gcc_v2di *__P)
 {
-  __gcc_v16qi return_value___builtin_ia32_loaddqu$1;
-  return_value___builtin_ia32_loaddqu$1=__builtin_ia32_loaddqu((const char *)__P);
-  return (__gcc_v2di)return_value___builtin_ia32_loaddqu$1;
+  __gcc_v16qi return_value___builtin_ia32_loaddqu_1;
+  return_value___builtin_ia32_loaddqu_1=__builtin_ia32_loaddqu((const char *)__P);
+  return (__gcc_v2di)return_value___builtin_ia32_loaddqu_1;
 }
 
 // _mm_storeu_si128
@@ -2474,14 +2474,14 @@ static signed int aesnitest(unsigned char *ptext, unsigned char *key, unsigned l
   unsigned char ctext_aesni[16l];
   AES_set_encrypt_key(key, (const signed int)(keylen * (unsigned long int)8), &kexp_openssl);
   kexp_aesni=crypto_aes_key_expand_aesni(key, keylen);
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   if(!(kexp_aesni == NULL))
   {
     AES_encrypt(ptext, ctext_openssl, &kexp_openssl);
     crypto_aes_encrypt_block_aesni(ptext, ctext_aesni, kexp_aesni);
     crypto_aes_key_free_aesni(kexp_aesni);
-    return_value_memcmp$1=memcmp((const void *)ctext_openssl, (const void *)ctext_aesni, (unsigned long int)16);
-    return return_value_memcmp$1;
+    return_value_memcmp_1=memcmp((const void *)ctext_openssl, (const void *)ctext_aesni, (unsigned long int)16);
+    return return_value_memcmp_1;
   }
 
   else
@@ -2502,7 +2502,7 @@ static void be32dec_vect(unsigned int *dst, const unsigned char *src, unsigned l
   assert(len % (unsigned long int)4 == (unsigned long int)0);
   i = (unsigned long int)0;
   for( ; !(i >= len / 4ul); i = i + 1ul)
-    dst[(signed long int)i]=libcperciva_be32dec$link1((const void *)(src + (signed long int)(i * (unsigned long int)4)));
+    dst[(signed long int)i]=libcperciva_be32dec_link1((const void *)(src + (signed long int)(i * (unsigned long int)4)));
 }
 
 // be32enc_vect
@@ -2514,7 +2514,7 @@ static void be32enc_vect(unsigned char *dst, const unsigned int *src, unsigned l
   assert(len % (unsigned long int)4 == (unsigned long int)0);
   i = (unsigned long int)0;
   for( ; !(i >= len / 4ul); i = i + 1ul)
-    libcperciva_be32enc$link1((void *)(dst + (signed long int)(i * (unsigned long int)4)), src[(signed long int)i]);
+    libcperciva_be32enc_link1((void *)(dst + (signed long int)(i * (unsigned long int)4)), src[(signed long int)i]);
 }
 
 // blinded_modexp
@@ -2532,31 +2532,31 @@ static signed int blinded_modexp(unsigned char *r, struct bignum_st *a, const un
   struct bignum_st *r2;
   unsigned long int rlen;
   two_exp_256_bn=BN_bin2bn(two_exp_256, 33, (struct bignum_st *)(void *)0);
-  signed int return_value_BN_add$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_BN_add$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_BN_add$13;
-  _Bool tmp_if_expr$16;
-  signed int return_value_BN_add$15;
-  signed int return_value_crypto_entropy_read$17;
-  signed int return_value_BN_add$24;
-  signed int return_value_BN_sub$31;
-  signed int return_value_BN_mod_exp$47;
-  signed int return_value_BN_mod_exp$51;
-  signed int return_value_BN_mod_mul$55;
-  signed int return_value_BN_num_bits$56;
+  signed int return_value_BN_add_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_BN_add_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_BN_add_13;
+  _Bool tmp_if_expr_16;
+  signed int return_value_BN_add_15;
+  signed int return_value_crypto_entropy_read_17;
+  signed int return_value_BN_add_24;
+  signed int return_value_BN_sub_31;
+  signed int return_value_BN_mod_exp_47;
+  signed int return_value_BN_mod_exp_51;
+  signed int return_value_BN_mod_mul_55;
+  signed int return_value_BN_num_bits_56;
   if(two_exp_256_bn == ((struct bignum_st *)NULL))
     do
     {
-      unsigned long int return_value_ERR_get_error$1;
-      return_value_ERR_get_error$1=ERR_get_error();
-      char *return_value_ERR_error_string$2;
-      return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-      libcperciva_warnx("%s", return_value_ERR_error_string$2);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 0;
+      unsigned long int return_value_ERR_get_error_1;
+      return_value_ERR_get_error_1=ERR_get_error();
+      char *return_value_ERR_error_string_2;
+      return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+      libcperciva_warnx("%s", return_value_ERR_error_string_2);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 0;
     }
     while((_Bool)0);
 
@@ -2566,92 +2566,92 @@ static signed int blinded_modexp(unsigned char *r, struct bignum_st *a, const un
     if(priv_bn == ((struct bignum_st *)NULL))
       do
       {
-        unsigned long int return_value_ERR_get_error$4;
-        return_value_ERR_get_error$4=ERR_get_error();
-        char *return_value_ERR_error_string$5;
-        return_value_ERR_error_string$5=ERR_error_string(return_value_ERR_get_error$4, (char *)(void *)0);
-        libcperciva_warnx("%s", return_value_ERR_error_string$5);
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        *return_value___errno_location$6 = 0;
+        unsigned long int return_value_ERR_get_error_4;
+        return_value_ERR_get_error_4=ERR_get_error();
+        char *return_value_ERR_error_string_5;
+        return_value_ERR_error_string_5=ERR_error_string(return_value_ERR_get_error_4, (char *)(void *)0);
+        libcperciva_warnx("%s", return_value_ERR_error_string_5);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        *return_value___errno_location_6 = 0;
       }
       while((_Bool)0);
 
     else
     {
-      return_value_BN_add$10=BN_add(priv_bn, priv_bn, two_exp_256_bn);
-      if(return_value_BN_add$10 == 0)
-        tmp_if_expr$12 = (_Bool)1;
+      return_value_BN_add_10=BN_add(priv_bn, priv_bn, two_exp_256_bn);
+      if(return_value_BN_add_10 == 0)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
-        return_value_BN_add$11=BN_add(priv_bn, priv_bn, two_exp_256_bn);
-        tmp_if_expr$12 = !(return_value_BN_add$11 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_BN_add_11=BN_add(priv_bn, priv_bn, two_exp_256_bn);
+        tmp_if_expr_12 = !(return_value_BN_add_11 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
-        tmp_if_expr$14 = (_Bool)1;
+      if(tmp_if_expr_12)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
-        return_value_BN_add$13=BN_add(priv_bn, priv_bn, two_exp_256_bn);
-        tmp_if_expr$14 = !(return_value_BN_add$13 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_BN_add_13=BN_add(priv_bn, priv_bn, two_exp_256_bn);
+        tmp_if_expr_14 = !(return_value_BN_add_13 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$14)
-        tmp_if_expr$16 = (_Bool)1;
+      if(tmp_if_expr_14)
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
-        return_value_BN_add$15=BN_add(priv_bn, priv_bn, two_exp_256_bn);
-        tmp_if_expr$16 = !(return_value_BN_add$15 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_BN_add_15=BN_add(priv_bn, priv_bn, two_exp_256_bn);
+        tmp_if_expr_16 = !(return_value_BN_add_15 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$16)
+      if(tmp_if_expr_16)
         do
         {
-          unsigned long int return_value_ERR_get_error$7;
-          return_value_ERR_get_error$7=ERR_get_error();
-          char *return_value_ERR_error_string$8;
-          return_value_ERR_error_string$8=ERR_error_string(return_value_ERR_get_error$7, (char *)(void *)0);
-          libcperciva_warnx("%s", return_value_ERR_error_string$8);
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          *return_value___errno_location$9 = 0;
+          unsigned long int return_value_ERR_get_error_7;
+          return_value_ERR_get_error_7=ERR_get_error();
+          char *return_value_ERR_error_string_8;
+          return_value_ERR_error_string_8=ERR_error_string(return_value_ERR_get_error_7, (char *)(void *)0);
+          libcperciva_warnx("%s", return_value_ERR_error_string_8);
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          *return_value___errno_location_9 = 0;
         }
         while((_Bool)0);
 
       else
       {
-        return_value_crypto_entropy_read$17=crypto_entropy_read(blinding, (unsigned long int)32);
-        if(return_value_crypto_entropy_read$17 == 0)
+        return_value_crypto_entropy_read_17=crypto_entropy_read(blinding, (unsigned long int)32);
+        if(return_value_crypto_entropy_read_17 == 0)
         {
           blinding_bn=BN_bin2bn(blinding, 32, (struct bignum_st *)(void *)0);
           if(blinding_bn == ((struct bignum_st *)NULL))
             do
             {
-              unsigned long int return_value_ERR_get_error$18;
-              return_value_ERR_get_error$18=ERR_get_error();
-              char *return_value_ERR_error_string$19;
-              return_value_ERR_error_string$19=ERR_error_string(return_value_ERR_get_error$18, (char *)(void *)0);
-              libcperciva_warnx("%s", return_value_ERR_error_string$19);
-              signed int *return_value___errno_location$20;
-              return_value___errno_location$20=__errno_location();
-              *return_value___errno_location$20 = 0;
+              unsigned long int return_value_ERR_get_error_18;
+              return_value_ERR_get_error_18=ERR_get_error();
+              char *return_value_ERR_error_string_19;
+              return_value_ERR_error_string_19=ERR_error_string(return_value_ERR_get_error_18, (char *)(void *)0);
+              libcperciva_warnx("%s", return_value_ERR_error_string_19);
+              signed int *return_value___errno_location_20;
+              return_value___errno_location_20=__errno_location();
+              *return_value___errno_location_20 = 0;
             }
             while((_Bool)0);
 
           else
           {
-            return_value_BN_add$24=BN_add(blinding_bn, blinding_bn, two_exp_256_bn);
-            if(return_value_BN_add$24 == 0)
+            return_value_BN_add_24=BN_add(blinding_bn, blinding_bn, two_exp_256_bn);
+            if(return_value_BN_add_24 == 0)
               do
               {
-                unsigned long int return_value_ERR_get_error$21;
-                return_value_ERR_get_error$21=ERR_get_error();
-                char *return_value_ERR_error_string$22;
-                return_value_ERR_error_string$22=ERR_error_string(return_value_ERR_get_error$21, (char *)(void *)0);
-                libcperciva_warnx("%s", return_value_ERR_error_string$22);
-                signed int *return_value___errno_location$23;
-                return_value___errno_location$23=__errno_location();
-                *return_value___errno_location$23 = 0;
+                unsigned long int return_value_ERR_get_error_21;
+                return_value_ERR_get_error_21=ERR_get_error();
+                char *return_value_ERR_error_string_22;
+                return_value_ERR_error_string_22=ERR_error_string(return_value_ERR_get_error_21, (char *)(void *)0);
+                libcperciva_warnx("%s", return_value_ERR_error_string_22);
+                signed int *return_value___errno_location_23;
+                return_value___errno_location_23=__errno_location();
+                *return_value___errno_location_23 = 0;
               }
               while((_Bool)0);
 
@@ -2661,31 +2661,31 @@ static signed int blinded_modexp(unsigned char *r, struct bignum_st *a, const un
               if(priv_blinded == ((struct bignum_st *)NULL))
                 do
                 {
-                  unsigned long int return_value_ERR_get_error$25;
-                  return_value_ERR_get_error$25=ERR_get_error();
-                  char *return_value_ERR_error_string$26;
-                  return_value_ERR_error_string$26=ERR_error_string(return_value_ERR_get_error$25, (char *)(void *)0);
-                  libcperciva_warnx("%s", return_value_ERR_error_string$26);
-                  signed int *return_value___errno_location$27;
-                  return_value___errno_location$27=__errno_location();
-                  *return_value___errno_location$27 = 0;
+                  unsigned long int return_value_ERR_get_error_25;
+                  return_value_ERR_get_error_25=ERR_get_error();
+                  char *return_value_ERR_error_string_26;
+                  return_value_ERR_error_string_26=ERR_error_string(return_value_ERR_get_error_25, (char *)(void *)0);
+                  libcperciva_warnx("%s", return_value_ERR_error_string_26);
+                  signed int *return_value___errno_location_27;
+                  return_value___errno_location_27=__errno_location();
+                  *return_value___errno_location_27 = 0;
                 }
                 while((_Bool)0);
 
               else
               {
-                return_value_BN_sub$31=BN_sub(priv_blinded, priv_bn, blinding_bn);
-                if(return_value_BN_sub$31 == 0)
+                return_value_BN_sub_31=BN_sub(priv_blinded, priv_bn, blinding_bn);
+                if(return_value_BN_sub_31 == 0)
                   do
                   {
-                    unsigned long int return_value_ERR_get_error$28;
-                    return_value_ERR_get_error$28=ERR_get_error();
-                    char *return_value_ERR_error_string$29;
-                    return_value_ERR_error_string$29=ERR_error_string(return_value_ERR_get_error$28, (char *)(void *)0);
-                    libcperciva_warnx("%s", return_value_ERR_error_string$29);
-                    signed int *return_value___errno_location$30;
-                    return_value___errno_location$30=__errno_location();
-                    *return_value___errno_location$30 = 0;
+                    unsigned long int return_value_ERR_get_error_28;
+                    return_value_ERR_get_error_28=ERR_get_error();
+                    char *return_value_ERR_error_string_29;
+                    return_value_ERR_error_string_29=ERR_error_string(return_value_ERR_get_error_28, (char *)(void *)0);
+                    libcperciva_warnx("%s", return_value_ERR_error_string_29);
+                    signed int *return_value___errno_location_30;
+                    return_value___errno_location_30=__errno_location();
+                    *return_value___errno_location_30 = 0;
                   }
                   while((_Bool)0);
 
@@ -2695,14 +2695,14 @@ static signed int blinded_modexp(unsigned char *r, struct bignum_st *a, const un
                   if(m_bn == ((struct bignum_st *)NULL))
                     do
                     {
-                      unsigned long int return_value_ERR_get_error$32;
-                      return_value_ERR_get_error$32=ERR_get_error();
-                      char *return_value_ERR_error_string$33;
-                      return_value_ERR_error_string$33=ERR_error_string(return_value_ERR_get_error$32, (char *)(void *)0);
-                      libcperciva_warnx("%s", return_value_ERR_error_string$33);
-                      signed int *return_value___errno_location$34;
-                      return_value___errno_location$34=__errno_location();
-                      *return_value___errno_location$34 = 0;
+                      unsigned long int return_value_ERR_get_error_32;
+                      return_value_ERR_get_error_32=ERR_get_error();
+                      char *return_value_ERR_error_string_33;
+                      return_value_ERR_error_string_33=ERR_error_string(return_value_ERR_get_error_32, (char *)(void *)0);
+                      libcperciva_warnx("%s", return_value_ERR_error_string_33);
+                      signed int *return_value___errno_location_34;
+                      return_value___errno_location_34=__errno_location();
+                      *return_value___errno_location_34 = 0;
                     }
                     while((_Bool)0);
 
@@ -2712,14 +2712,14 @@ static signed int blinded_modexp(unsigned char *r, struct bignum_st *a, const un
                     if(ctx == ((struct bignum_ctx *)NULL))
                       do
                       {
-                        unsigned long int return_value_ERR_get_error$35;
-                        return_value_ERR_get_error$35=ERR_get_error();
-                        char *return_value_ERR_error_string$36;
-                        return_value_ERR_error_string$36=ERR_error_string(return_value_ERR_get_error$35, (char *)(void *)0);
-                        libcperciva_warnx("%s", return_value_ERR_error_string$36);
-                        signed int *return_value___errno_location$37;
-                        return_value___errno_location$37=__errno_location();
-                        *return_value___errno_location$37 = 0;
+                        unsigned long int return_value_ERR_get_error_35;
+                        return_value_ERR_get_error_35=ERR_get_error();
+                        char *return_value_ERR_error_string_36;
+                        return_value_ERR_error_string_36=ERR_error_string(return_value_ERR_get_error_35, (char *)(void *)0);
+                        libcperciva_warnx("%s", return_value_ERR_error_string_36);
+                        signed int *return_value___errno_location_37;
+                        return_value___errno_location_37=__errno_location();
+                        *return_value___errno_location_37 = 0;
                       }
                       while((_Bool)0);
 
@@ -2729,14 +2729,14 @@ static signed int blinded_modexp(unsigned char *r, struct bignum_st *a, const un
                       if(r1 == ((struct bignum_st *)NULL))
                         do
                         {
-                          unsigned long int return_value_ERR_get_error$38;
-                          return_value_ERR_get_error$38=ERR_get_error();
-                          char *return_value_ERR_error_string$39;
-                          return_value_ERR_error_string$39=ERR_error_string(return_value_ERR_get_error$38, (char *)(void *)0);
-                          libcperciva_warnx("%s", return_value_ERR_error_string$39);
-                          signed int *return_value___errno_location$40;
-                          return_value___errno_location$40=__errno_location();
-                          *return_value___errno_location$40 = 0;
+                          unsigned long int return_value_ERR_get_error_38;
+                          return_value_ERR_get_error_38=ERR_get_error();
+                          char *return_value_ERR_error_string_39;
+                          return_value_ERR_error_string_39=ERR_error_string(return_value_ERR_get_error_38, (char *)(void *)0);
+                          libcperciva_warnx("%s", return_value_ERR_error_string_39);
+                          signed int *return_value___errno_location_40;
+                          return_value___errno_location_40=__errno_location();
+                          *return_value___errno_location_40 = 0;
                         }
                         while((_Bool)0);
 
@@ -2746,79 +2746,79 @@ static signed int blinded_modexp(unsigned char *r, struct bignum_st *a, const un
                         if(r2 == ((struct bignum_st *)NULL))
                           do
                           {
-                            unsigned long int return_value_ERR_get_error$41;
-                            return_value_ERR_get_error$41=ERR_get_error();
-                            char *return_value_ERR_error_string$42;
-                            return_value_ERR_error_string$42=ERR_error_string(return_value_ERR_get_error$41, (char *)(void *)0);
-                            libcperciva_warnx("%s", return_value_ERR_error_string$42);
-                            signed int *return_value___errno_location$43;
-                            return_value___errno_location$43=__errno_location();
-                            *return_value___errno_location$43 = 0;
+                            unsigned long int return_value_ERR_get_error_41;
+                            return_value_ERR_get_error_41=ERR_get_error();
+                            char *return_value_ERR_error_string_42;
+                            return_value_ERR_error_string_42=ERR_error_string(return_value_ERR_get_error_41, (char *)(void *)0);
+                            libcperciva_warnx("%s", return_value_ERR_error_string_42);
+                            signed int *return_value___errno_location_43;
+                            return_value___errno_location_43=__errno_location();
+                            *return_value___errno_location_43 = 0;
                           }
                           while((_Bool)0);
 
                         else
                         {
-                          return_value_BN_mod_exp$47=BN_mod_exp(r1, a, blinding_bn, m_bn, ctx);
-                          if(return_value_BN_mod_exp$47 == 0)
+                          return_value_BN_mod_exp_47=BN_mod_exp(r1, a, blinding_bn, m_bn, ctx);
+                          if(return_value_BN_mod_exp_47 == 0)
                             do
                             {
-                              unsigned long int return_value_ERR_get_error$44;
-                              return_value_ERR_get_error$44=ERR_get_error();
-                              char *return_value_ERR_error_string$45;
-                              return_value_ERR_error_string$45=ERR_error_string(return_value_ERR_get_error$44, (char *)(void *)0);
-                              libcperciva_warnx("%s", return_value_ERR_error_string$45);
-                              signed int *return_value___errno_location$46;
-                              return_value___errno_location$46=__errno_location();
-                              *return_value___errno_location$46 = 0;
+                              unsigned long int return_value_ERR_get_error_44;
+                              return_value_ERR_get_error_44=ERR_get_error();
+                              char *return_value_ERR_error_string_45;
+                              return_value_ERR_error_string_45=ERR_error_string(return_value_ERR_get_error_44, (char *)(void *)0);
+                              libcperciva_warnx("%s", return_value_ERR_error_string_45);
+                              signed int *return_value___errno_location_46;
+                              return_value___errno_location_46=__errno_location();
+                              *return_value___errno_location_46 = 0;
                             }
                             while((_Bool)0);
 
                           else
                           {
-                            return_value_BN_mod_exp$51=BN_mod_exp(r2, a, priv_blinded, m_bn, ctx);
-                            if(return_value_BN_mod_exp$51 == 0)
+                            return_value_BN_mod_exp_51=BN_mod_exp(r2, a, priv_blinded, m_bn, ctx);
+                            if(return_value_BN_mod_exp_51 == 0)
                               do
                               {
-                                unsigned long int return_value_ERR_get_error$48;
-                                return_value_ERR_get_error$48=ERR_get_error();
-                                char *return_value_ERR_error_string$49;
-                                return_value_ERR_error_string$49=ERR_error_string(return_value_ERR_get_error$48, (char *)(void *)0);
-                                libcperciva_warnx("%s", return_value_ERR_error_string$49);
-                                signed int *return_value___errno_location$50;
-                                return_value___errno_location$50=__errno_location();
-                                *return_value___errno_location$50 = 0;
+                                unsigned long int return_value_ERR_get_error_48;
+                                return_value_ERR_get_error_48=ERR_get_error();
+                                char *return_value_ERR_error_string_49;
+                                return_value_ERR_error_string_49=ERR_error_string(return_value_ERR_get_error_48, (char *)(void *)0);
+                                libcperciva_warnx("%s", return_value_ERR_error_string_49);
+                                signed int *return_value___errno_location_50;
+                                return_value___errno_location_50=__errno_location();
+                                *return_value___errno_location_50 = 0;
                               }
                               while((_Bool)0);
 
                             else
                             {
-                              return_value_BN_mod_mul$55=BN_mod_mul(r1, r1, r2, m_bn, ctx);
-                              if(return_value_BN_mod_mul$55 == 0)
+                              return_value_BN_mod_mul_55=BN_mod_mul(r1, r1, r2, m_bn, ctx);
+                              if(return_value_BN_mod_mul_55 == 0)
                                 do
                                 {
-                                  unsigned long int return_value_ERR_get_error$52;
-                                  return_value_ERR_get_error$52=ERR_get_error();
-                                  char *return_value_ERR_error_string$53;
-                                  return_value_ERR_error_string$53=ERR_error_string(return_value_ERR_get_error$52, (char *)(void *)0);
-                                  libcperciva_warnx("%s", return_value_ERR_error_string$53);
-                                  signed int *return_value___errno_location$54;
-                                  return_value___errno_location$54=__errno_location();
-                                  *return_value___errno_location$54 = 0;
+                                  unsigned long int return_value_ERR_get_error_52;
+                                  return_value_ERR_get_error_52=ERR_get_error();
+                                  char *return_value_ERR_error_string_53;
+                                  return_value_ERR_error_string_53=ERR_error_string(return_value_ERR_get_error_52, (char *)(void *)0);
+                                  libcperciva_warnx("%s", return_value_ERR_error_string_53);
+                                  signed int *return_value___errno_location_54;
+                                  return_value___errno_location_54=__errno_location();
+                                  *return_value___errno_location_54 = 0;
                                 }
                                 while((_Bool)0);
 
                               else
                               {
-                                return_value_BN_num_bits$56=BN_num_bits(r1);
-                                rlen = (unsigned long int)((return_value_BN_num_bits$56 + 7) / 8);
+                                return_value_BN_num_bits_56=BN_num_bits(r1);
+                                rlen = (unsigned long int)((return_value_BN_num_bits_56 + 7) / 8);
                                 if(rlen >= 257ul)
                                   do
                                   {
                                     libcperciva_warnx("Exponent result too large!");
-                                    signed int *return_value___errno_location$57;
-                                    return_value___errno_location$57=__errno_location();
-                                    *return_value___errno_location$57 = 0;
+                                    signed int *return_value___errno_location_57;
+                                    return_value___errno_location_57=__errno_location();
+                                    *return_value___errno_location_57 = 0;
                                   }
                                   while((_Bool)0);
 
@@ -2898,41 +2898,41 @@ static signed int callback_accept(void *cookie)
   signed int s;
   signed int rc;
   s=accept(C->fd, (struct sockaddr *)(void *)0, (unsigned int *)(void *)0);
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
   if(s == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 11)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 11)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$4=__errno_location();
-      tmp_if_expr$5 = *return_value___errno_location$4 == 103 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_4=__errno_location();
+      tmp_if_expr_5 = *return_value___errno_location_4 == 103 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
-      tmp_if_expr$7 = (_Bool)1;
+    if(tmp_if_expr_5)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$6=__errno_location();
-      tmp_if_expr$7 = *return_value___errno_location$6 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_6=__errno_location();
+      tmp_if_expr_7 = *return_value___errno_location_6 == 4 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       goto tryagain;
 
   }
@@ -2943,9 +2943,9 @@ static signed int callback_accept(void *cookie)
 
 tryagain:
   ;
-  signed int return_value_events_network_register$8;
-  return_value_events_network_register$8=events_network_register(callback_accept, (void *)C, C->fd, 0);
-  return return_value_events_network_register$8;
+  signed int return_value_events_network_register_8;
+  return_value_events_network_register_8=events_network_register(callback_accept, (void *)C, C->fd, 0);
+  return return_value_events_network_register_8;
 }
 
 // callback_buf
@@ -2957,31 +2957,31 @@ static signed int callback_buf(void *cookie)
   signed long int len;
   oplen = C->buflen - C->bufpos;
   len=recv(C->fd, (void *)(C->buf + (signed long int)C->bufpos), oplen, 0);
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(len == -1l)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 11)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 11)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$4=__errno_location();
-      tmp_if_expr$5 = *return_value___errno_location$4 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_4=__errno_location();
+      tmp_if_expr_5 = *return_value___errno_location_4 == 4 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       goto tryagain;
 
     goto failed;
@@ -2992,12 +2992,12 @@ static signed int callback_buf(void *cookie)
       goto eof;
 
   C->bufpos = C->bufpos + (unsigned long int)len;
-  signed int return_value_docallback$6;
-  signed int return_value_docallback$8;
+  signed int return_value_docallback_6;
+  signed int return_value_docallback_8;
   if(C->bufpos >= C->minlen)
   {
-    return_value_docallback$6=docallback$link1(C, (signed long int)C->bufpos);
-    return return_value_docallback$6;
+    return_value_docallback_6=docallback_link1(C, (signed long int)C->bufpos);
+    return return_value_docallback_6;
   }
 
   else
@@ -3005,16 +3005,16 @@ static signed int callback_buf(void *cookie)
 
   tryagain:
     ;
-    signed int return_value_events_network_register$7;
-    return_value_events_network_register$7=events_network_register(callback_buf, (void *)C, C->fd, 0);
-    if(return_value_events_network_register$7 == 0)
+    signed int return_value_events_network_register_7;
+    return_value_events_network_register_7=events_network_register(callback_buf, (void *)C, C->fd, 0);
+    if(return_value_events_network_register_7 == 0)
     {
       return 0;
 
     eof:
       ;
-      return_value_docallback$8=docallback$link1(C, (signed long int)0);
-      return return_value_docallback$8;
+      return_value_docallback_8=docallback_link1(C, (signed long int)0);
+      return return_value_docallback_8;
     }
 
     else
@@ -3022,60 +3022,60 @@ static signed int callback_buf(void *cookie)
 
     failed:
       ;
-      signed int return_value_docallback$9;
-      return_value_docallback$9=docallback$link1(C, (signed long int)-1);
-      return return_value_docallback$9;
+      signed int return_value_docallback_9;
+      return_value_docallback_9=docallback_link1(C, (signed long int)-1);
+      return return_value_docallback_9;
     }
   }
 }
 
-// callback_buf$link1
+// callback_buf_link1
 // file ../libcperciva/network/network_write.c line 61
-static signed int callback_buf$link1(void *cookie$link1)
+static signed int callback_buf_link1(void *cookie_link1)
 {
-  struct network_write_cookie *C$link1 = (struct network_write_cookie *)cookie$link1;
-  unsigned long int oplen$link1;
-  signed long int len$link1;
-  oplen$link1 = C$link1->buflen - C$link1->bufpos;
-  len$link1=send(C$link1->fd, (const void *)(C$link1->buf + (signed long int)C$link1->bufpos), oplen$link1, 16384);
+  struct network_write_cookie *C_link1 = (struct network_write_cookie *)cookie_link1;
+  unsigned long int oplen_link1;
+  signed long int len_link1;
+  oplen_link1 = C_link1->buflen - C_link1->bufpos;
+  len_link1=send(C_link1->fd, (const void *)(C_link1->buf + (signed long int)C_link1->bufpos), oplen_link1, 16384);
   /* assertion len != 0 */
-  assert(len$link1 != (signed long int)0);
-  _Bool tmp_if_expr$3$link1;
-  signed int *return_value___errno_location$2$link1;
-  _Bool tmp_if_expr$5$link1;
-  signed int *return_value___errno_location$4$link1;
-  if(len$link1 == -1l)
+  assert(len_link1 != (signed long int)0);
+  _Bool tmp_if_expr_3_link1;
+  signed int *return_value___errno_location_2_link1;
+  _Bool tmp_if_expr_5_link1;
+  signed int *return_value___errno_location_4_link1;
+  if(len_link1 == -1l)
   {
-    signed int *return_value___errno_location$1$link1;
-    return_value___errno_location$1$link1=__errno_location();
-    if(*return_value___errno_location$1$link1 == 11)
-      tmp_if_expr$3$link1 = (_Bool)1;
+    signed int *return_value___errno_location_1_link1;
+    return_value___errno_location_1_link1=__errno_location();
+    if(*return_value___errno_location_1_link1 == 11)
+      tmp_if_expr_3_link1 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$2$link1=__errno_location();
-      tmp_if_expr$3$link1 = *return_value___errno_location$2$link1 == 11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2_link1=__errno_location();
+      tmp_if_expr_3_link1 = *return_value___errno_location_2_link1 == 11 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3$link1)
-      tmp_if_expr$5$link1 = (_Bool)1;
+    if(tmp_if_expr_3_link1)
+      tmp_if_expr_5_link1 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$4$link1=__errno_location();
-      tmp_if_expr$5$link1 = *return_value___errno_location$4$link1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_4_link1=__errno_location();
+      tmp_if_expr_5_link1 = *return_value___errno_location_4_link1 == 4 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5$link1)
+    if(tmp_if_expr_5_link1)
       goto tryagain;
 
     goto failed;
   }
 
-  C$link1->bufpos = C$link1->bufpos + (unsigned long int)len$link1;
-  signed int return_value_docallback$6$link1;
-  if(C$link1->bufpos >= C$link1->minlen)
+  C_link1->bufpos = C_link1->bufpos + (unsigned long int)len_link1;
+  signed int return_value_docallback_6_link1;
+  if(C_link1->bufpos >= C_link1->minlen)
   {
-    return_value_docallback$6$link1=docallback$link2(C$link1, (signed long int)C$link1->bufpos);
-    return return_value_docallback$6$link1;
+    return_value_docallback_6_link1=docallback_link2(C_link1, (signed long int)C_link1->bufpos);
+    return return_value_docallback_6_link1;
   }
 
   else
@@ -3083,9 +3083,9 @@ static signed int callback_buf$link1(void *cookie$link1)
 
   tryagain:
     ;
-    signed int return_value_events_network_register$7$link1;
-    return_value_events_network_register$7$link1=events_network_register(callback_buf$link1, (void *)C$link1, C$link1->fd, 1);
-    if(return_value_events_network_register$7$link1 == 0)
+    signed int return_value_events_network_register_7_link1;
+    return_value_events_network_register_7_link1=events_network_register(callback_buf_link1, (void *)C_link1, C_link1->fd, 1);
+    if(return_value_events_network_register_7_link1 == 0)
       return 0;
 
     else
@@ -3093,9 +3093,9 @@ static signed int callback_buf$link1(void *cookie$link1)
 
     failed:
       ;
-      signed int return_value_docallback$8$link1;
-      return_value_docallback$8$link1=docallback$link2(C$link1, (signed long int)-1);
-      return return_value_docallback$8$link1;
+      signed int return_value_docallback_8_link1;
+      return_value_docallback_8_link1=docallback_link2(C_link1, (signed long int)-1);
+      return return_value_docallback_8_link1;
     }
   }
 }
@@ -3106,9 +3106,9 @@ static signed int callback_conndied(void *cookie)
 {
   struct accept_state *A = (struct accept_state *)cookie;
   A->nconn = A->nconn - (unsigned long int)1;
-  signed int return_value_doaccept$1;
-  return_value_doaccept$1=doaccept(A);
-  return return_value_doaccept$1;
+  signed int return_value_doaccept_1;
+  return_value_doaccept_1=doaccept(A);
+  return return_value_doaccept_1;
 }
 
 // callback_connect
@@ -3124,20 +3124,20 @@ static signed int callback_connect(void *cookie)
     C->cookie_timeo = (void *)0;
   }
 
-  signed int return_value_getsockopt$1;
-  return_value_getsockopt$1=getsockopt(C->s, 1, 4, (void *)&sockerr, &sockerrlen);
-  signed int return_value_dofailed$2;
-  signed int return_value_docallback$3;
-  if(return_value_getsockopt$1 == 0)
+  signed int return_value_getsockopt_1;
+  return_value_getsockopt_1=getsockopt(C->s, 1, 4, (void *)&sockerr, &sockerrlen);
+  signed int return_value_dofailed_2;
+  signed int return_value_docallback_3;
+  if(return_value_getsockopt_1 == 0)
   {
     if(!(sockerr == 0))
     {
-      return_value_dofailed$2=dofailed(C);
-      return return_value_dofailed$2;
+      return_value_dofailed_2=dofailed(C);
+      return return_value_dofailed_2;
     }
 
-    return_value_docallback$3=docallback((void *)C);
-    return return_value_docallback$3;
+    return_value_docallback_3=docallback((void *)C);
+    return return_value_docallback_3;
   }
 
   else
@@ -3162,20 +3162,20 @@ static signed int callback_connect_done(void *cookie, signed int t)
   events_timer_cancel(C->connect_timeout_cookie);
   C->connect_timeout_cookie = (void *)0;
   C->t = t;
-  signed int return_value_dropconn$1;
+  signed int return_value_dropconn_1;
   if(C->t == -1)
   {
-    return_value_dropconn$1=dropconn(C);
-    return return_value_dropconn$1;
+    return_value_dropconn_1=dropconn(C);
+    return return_value_dropconn_1;
   }
 
   else
   {
     if(C->decr == 0)
     {
-      signed int return_value_starthandshake$2;
-      return_value_starthandshake$2=starthandshake(C, C->t, C->decr);
-      if(!(return_value_starthandshake$2 == 0))
+      signed int return_value_starthandshake_2;
+      return_value_starthandshake_2=starthandshake(C, C->t, C->decr);
+      if(!(return_value_starthandshake_2 == 0))
         goto err1;
 
     }
@@ -3186,9 +3186,9 @@ static signed int callback_connect_done(void *cookie, signed int t)
       {
         if(!(C->k_r == ((struct proto_keys *)NULL)))
         {
-          signed int return_value_launchpipes$3;
-          return_value_launchpipes$3=launchpipes(C);
-          if(!(return_value_launchpipes$3 == 0))
+          signed int return_value_launchpipes_3;
+          return_value_launchpipes_3=launchpipes(C);
+          if(!(return_value_launchpipes_3 == 0))
             goto err1;
 
         }
@@ -3212,9 +3212,9 @@ static signed int callback_connect_timeout(void *cookie)
 {
   struct conn_state *C = (struct conn_state *)cookie;
   C->connect_timeout_cookie = (void *)0;
-  signed int return_value_dropconn$1;
-  return_value_dropconn$1=dropconn(C);
-  return return_value_dropconn$1;
+  signed int return_value_dropconn_1;
+  return_value_dropconn_1=dropconn(C);
+  return return_value_dropconn_1;
 }
 
 // callback_dh_read
@@ -3223,37 +3223,37 @@ static signed int callback_dh_read(void *cookie, signed long int len)
 {
   struct handshake_cookie *H = (struct handshake_cookie *)cookie;
   H->read_cookie = (void *)0;
-  signed int return_value_handshakefail$1;
-  signed int return_value_handshakefail$2;
-  signed int return_value_dhwrite$4;
-  signed int return_value_handshakedone$5;
+  signed int return_value_handshakefail_1;
+  signed int return_value_handshakefail_2;
+  signed int return_value_dhwrite_4;
+  signed int return_value_handshakedone_5;
   if(!(len >= 288l))
   {
-    return_value_handshakefail$1=handshakefail(H);
-    return return_value_handshakefail$1;
+    return_value_handshakefail_1=handshakefail(H);
+    return return_value_handshakefail_1;
   }
 
   else
   {
-    signed int return_value_proto_crypt_dh_validate$3;
-    return_value_proto_crypt_dh_validate$3=proto_crypt_dh_validate(H->yh_remote, H->dhmac_remote, H->requirefps);
-    if(!(return_value_proto_crypt_dh_validate$3 == 0))
+    signed int return_value_proto_crypt_dh_validate_3;
+    return_value_proto_crypt_dh_validate_3=proto_crypt_dh_validate(H->yh_remote, H->dhmac_remote, H->requirefps);
+    if(!(return_value_proto_crypt_dh_validate_3 == 0))
     {
-      return_value_handshakefail$2=handshakefail(H);
-      return return_value_handshakefail$2;
+      return_value_handshakefail_2=handshakefail(H);
+      return return_value_handshakefail_2;
     }
 
     else
       if(!(H->decr == 0))
       {
-        return_value_dhwrite$4=dhwrite(H);
-        return return_value_dhwrite$4;
+        return_value_dhwrite_4=dhwrite(H);
+        return return_value_dhwrite_4;
       }
 
       else
       {
-        return_value_handshakedone$5=handshakedone(H);
-        return return_value_handshakedone$5;
+        return_value_handshakedone_5=handshakedone(H);
+        return return_value_handshakedone_5;
       }
   }
 }
@@ -3264,26 +3264,26 @@ static signed int callback_dh_write(void *cookie, signed long int len)
 {
   struct handshake_cookie *H = (struct handshake_cookie *)cookie;
   H->write_cookie = (void *)0;
-  signed int return_value_handshakefail$1;
-  signed int return_value_handshakedone$2;
-  signed int return_value_dhread$3;
+  signed int return_value_handshakefail_1;
+  signed int return_value_handshakedone_2;
+  signed int return_value_dhread_3;
   if(!(len >= 288l))
   {
-    return_value_handshakefail$1=handshakefail(H);
-    return return_value_handshakefail$1;
+    return_value_handshakefail_1=handshakefail(H);
+    return return_value_handshakefail_1;
   }
 
   else
     if(!(H->decr == 0))
     {
-      return_value_handshakedone$2=handshakedone(H);
-      return return_value_handshakedone$2;
+      return_value_handshakedone_2=handshakedone(H);
+      return return_value_handshakedone_2;
     }
 
     else
     {
-      return_value_dhread$3=dhread(H);
-      return return_value_dhread$3;
+      return_value_dhread_3=dhread(H);
+      return return_value_dhread_3;
     }
 }
 
@@ -3294,19 +3294,19 @@ static signed int callback_gotconn(void *cookie, signed int s)
   struct accept_state *A = (struct accept_state *)cookie;
   struct sock_addr **sas;
   A->accept_cookie = (void *)0;
-  signed int return_value_proto_conn_create$5;
-  signed int return_value_doaccept$6;
+  signed int return_value_proto_conn_create_5;
+  signed int return_value_doaccept_6;
   if(s == -1)
     do
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 0))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 0))
       {
         libcperciva_warn("network_accept failed");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
       }
 
       else
@@ -3320,18 +3320,18 @@ static signed int callback_gotconn(void *cookie, signed int s)
     sas=sock_addr_duplist(A->sas);
     if(!(sas == ((struct sock_addr **)NULL)))
     {
-      return_value_proto_conn_create$5=proto_conn_create(s, sas, A->decr, A->nofps, A->requirefps, A->nokeepalive, A->K, A->timeo, callback_conndied, (void *)A);
-      if(!(return_value_proto_conn_create$5 == 0))
+      return_value_proto_conn_create_5=proto_conn_create(s, sas, A->decr, A->nofps, A->requirefps, A->nokeepalive, A->K, A->timeo, callback_conndied, (void *)A);
+      if(!(return_value_proto_conn_create_5 == 0))
         do
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          if(!(*return_value___errno_location$4 == 0))
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          if(!(*return_value___errno_location_4 == 0))
           {
             libcperciva_warn("Failure setting up new connection");
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            *return_value___errno_location$3 = 0;
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            *return_value___errno_location_3 = 0;
           }
 
           else
@@ -3341,8 +3341,8 @@ static signed int callback_gotconn(void *cookie, signed int s)
 
       else
       {
-        return_value_doaccept$6=doaccept(A);
-        if(!(return_value_doaccept$6 == 0))
+        return_value_doaccept_6=doaccept(A);
+        if(!(return_value_doaccept_6 == 0))
           goto err0;
 
         return 0;
@@ -3373,11 +3373,11 @@ static signed int callback_handshake_done(void *cookie, struct proto_keys *f, st
   C->handshake_cookie = (void *)0;
   events_timer_cancel(C->handshake_timeout_cookie);
   C->handshake_timeout_cookie = (void *)0;
-  signed int return_value_dropconn$1;
+  signed int return_value_dropconn_1;
   if(f == ((struct proto_keys *)NULL) && r == ((struct proto_keys *)NULL))
   {
-    return_value_dropconn$1=dropconn(C);
-    return return_value_dropconn$1;
+    return_value_dropconn_1=dropconn(C);
+    return return_value_dropconn_1;
   }
 
   else
@@ -3394,9 +3394,9 @@ static signed int callback_handshake_done(void *cookie, struct proto_keys *f, st
       {
         if(!(C->k_r == ((struct proto_keys *)NULL)))
         {
-          signed int return_value_launchpipes$2;
-          return_value_launchpipes$2=launchpipes(C);
-          if(!(return_value_launchpipes$2 == 0))
+          signed int return_value_launchpipes_2;
+          return_value_launchpipes_2=launchpipes(C);
+          if(!(return_value_launchpipes_2 == 0))
             goto err1;
 
         }
@@ -3420,9 +3420,9 @@ static signed int callback_handshake_timeout(void *cookie)
 {
   struct conn_state *C = (struct conn_state *)cookie;
   C->handshake_timeout_cookie = (void *)0;
-  signed int return_value_dropconn$1;
-  return_value_dropconn$1=dropconn(C);
-  return return_value_dropconn$1;
+  signed int return_value_dropconn_1;
+  return_value_dropconn_1=dropconn(C);
+  return return_value_dropconn_1;
 }
 
 // callback_nonce_read
@@ -3431,19 +3431,19 @@ static signed int callback_nonce_read(void *cookie, signed long int len)
 {
   struct handshake_cookie *H = (struct handshake_cookie *)cookie;
   H->read_cookie = (void *)0;
-  signed int return_value_handshakefail$1;
-  signed int return_value_gotnonces$2;
+  signed int return_value_handshakefail_1;
+  signed int return_value_gotnonces_2;
   if(!(len >= 32l))
   {
-    return_value_handshakefail$1=handshakefail(H);
-    return return_value_handshakefail$1;
+    return_value_handshakefail_1=handshakefail(H);
+    return return_value_handshakefail_1;
   }
 
   else
     if(H->write_cookie == NULL)
     {
-      return_value_gotnonces$2=gotnonces(H);
-      return return_value_gotnonces$2;
+      return_value_gotnonces_2=gotnonces(H);
+      return return_value_gotnonces_2;
     }
 
     else
@@ -3456,19 +3456,19 @@ static signed int callback_nonce_write(void *cookie, signed long int len)
 {
   struct handshake_cookie *H = (struct handshake_cookie *)cookie;
   H->write_cookie = (void *)0;
-  signed int return_value_handshakefail$1;
-  signed int return_value_gotnonces$2;
+  signed int return_value_handshakefail_1;
+  signed int return_value_gotnonces_2;
   if(!(len >= 32l))
   {
-    return_value_handshakefail$1=handshakefail(H);
-    return return_value_handshakefail$1;
+    return_value_handshakefail_1=handshakefail(H);
+    return return_value_handshakefail_1;
   }
 
   else
     if(H->read_cookie == NULL)
     {
-      return_value_gotnonces$2=gotnonces(H);
-      return return_value_gotnonces$2;
+      return_value_gotnonces_2=gotnonces(H);
+      return return_value_gotnonces_2;
     }
 
     else
@@ -3596,18 +3596,18 @@ static signed int callback_pipe_write(void *cookie, signed long int len)
 static signed int callback_pipestatus(void *cookie)
 {
   struct conn_state *C = (struct conn_state *)cookie;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(C->stat_f == -1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = C->stat_r == -1 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_dropconn$1;
-  signed int return_value_dropconn$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = C->stat_r == -1 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_dropconn_1;
+  signed int return_value_dropconn_3;
+  if(tmp_if_expr_2)
   {
-    return_value_dropconn$1=dropconn(C);
-    return return_value_dropconn$1;
+    return_value_dropconn_1=dropconn(C);
+    return return_value_dropconn_1;
   }
 
   else
@@ -3616,8 +3616,8 @@ static signed int callback_pipestatus(void *cookie)
       if(!(C->stat_r == 0))
         goto __CPROVER_DUMP_L4;
 
-      return_value_dropconn$3=dropconn(C);
-      return return_value_dropconn$3;
+      return_value_dropconn_3=dropconn(C);
+      return return_value_dropconn_3;
     }
 
     else
@@ -3640,9 +3640,9 @@ static signed int callback_resolve(void *cookie, struct sock_addr **sas)
     A->sas = sas;
   }
 
-  void *return_value_events_timer_register_double$1;
-  return_value_events_timer_register_double$1=events_timer_register_double(callback_resolveagain, (void *)A, A->rtime);
-  if(!(return_value_events_timer_register_double$1 == NULL))
+  void *return_value_events_timer_register_double_1;
+  return_value_events_timer_register_double_1=events_timer_register_double(callback_resolveagain, (void *)A, A->rtime);
+  if(!(return_value_events_timer_register_double_1 == NULL))
     return 0;
 
   else
@@ -3654,16 +3654,16 @@ static signed int callback_resolve(void *cookie, struct sock_addr **sas)
   }
 }
 
-// callback_resolve$link1
+// callback_resolve_link1
 // file ../lib/dnsthread/dnsthread.c line 447
-static signed int callback_resolve$link1(void *cookie$link1, struct sock_addr **sas$link1)
+static signed int callback_resolve_link1(void *cookie_link1, struct sock_addr **sas_link1)
 {
-  struct resolve_cookie *R = (struct resolve_cookie *)cookie$link1;
+  struct resolve_cookie *R = (struct resolve_cookie *)cookie_link1;
   signed int rc;
-  rc=R->callback(R->cookie, sas$link1);
-  signed int return_value_dnsthread_kill$1;
-  return_value_dnsthread_kill$1=dnsthread_kill(R->T);
-  if(!(return_value_dnsthread_kill$1 == 0))
+  rc=R->callback(R->cookie, sas_link1);
+  signed int return_value_dnsthread_kill_1;
+  return_value_dnsthread_kill_1=dnsthread_kill(R->T);
+  if(!(return_value_dnsthread_kill_1 == 0))
     rc = -1;
 
   free((void *)R);
@@ -3675,9 +3675,9 @@ static signed int callback_resolve$link1(void *cookie$link1, struct sock_addr **
 static signed int callback_resolveagain(void *cookie)
 {
   struct accept_state *A = (struct accept_state *)cookie;
-  signed int return_value_dnsthread_resolveone$1;
-  return_value_dnsthread_resolveone$1=dnsthread_resolveone(A->T, A->tgt, callback_resolve, (void *)A);
-  return return_value_dnsthread_resolveone$1;
+  signed int return_value_dnsthread_resolveone_1;
+  return_value_dnsthread_resolveone_1=dnsthread_resolveone(A->T, A->tgt, callback_resolve, (void *)A);
+  return return_value_dnsthread_resolveone_1;
 }
 
 // callback_resolveone
@@ -3691,17 +3691,17 @@ static signed int callback_resolveone(void *cookie)
   signed int (*callback)(void *, struct sock_addr **);
   void *cb_cookie;
   signed int rc;
-  signed long int return_value_read$2;
-  return_value_read$2=read(T->wakeupsock[(signed long int)1], (void *)&zero, (unsigned long int)1);
-  signed int *return_value___errno_location$7;
+  signed long int return_value_read_2;
+  return_value_read_2=read(T->wakeupsock[(signed long int)1], (void *)&zero, (unsigned long int)1);
+  signed int *return_value___errno_location_7;
   signed int return_value;
-  if(!(return_value_read$2 == 1l))
+  if(!(return_value_read_2 == 1l))
     do
     {
       libcperciva_warnx("Error reading from wakeup socket");
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 0;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 0;
     }
     while((_Bool)0);
 
@@ -3711,12 +3711,12 @@ static signed int callback_resolveone(void *cookie)
     if(!(rc == 0))
       do
       {
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(rc);
-        libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror$3);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = 0;
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(rc);
+        libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror_3);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = 0;
       }
       while((_Bool)0);
 
@@ -3731,12 +3731,12 @@ static signed int callback_resolveone(void *cookie)
       if(!(rc == 0))
         do
         {
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(rc);
-          libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror$5);
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          *return_value___errno_location$6 = 0;
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(rc);
+          libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror_5);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          *return_value___errno_location_6 = 0;
         }
         while((_Bool)0);
 
@@ -3744,8 +3744,8 @@ static signed int callback_resolveone(void *cookie)
       {
         if(sas == ((struct sock_addr **)NULL))
         {
-          return_value___errno_location$7=__errno_location();
-          *return_value___errno_location$7 = res_errno;
+          return_value___errno_location_7=__errno_location();
+          *return_value___errno_location_7 = res_errno;
         }
 
         return_value=callback(cb_cookie, sas);
@@ -3766,21 +3766,21 @@ static signed int callback_timeo(void *cookie)
   struct connect_cookie *C = (struct connect_cookie *)cookie;
   C->cookie_timeo = (void *)0;
   events_network_cancel(C->s, 1);
-  signed int return_value_dofailed$1;
-  return_value_dofailed$1=dofailed(C);
-  return return_value_dofailed$1;
+  signed int return_value_dofailed_1;
+  return_value_dofailed_1=dofailed(C);
+  return return_value_dofailed_1;
 }
 
 // compar
 // file ../libcperciva/datastruct/timerqueue.c line 43
 static signed int compar(void *cookie, const void *x, const void *y)
 {
-  struct timerrec$0 *_x = (struct timerrec$0 *)x;
-  struct timerrec$0 *_y = (struct timerrec$0 *)y;
+  struct timerrec_0 *_x = (struct timerrec_0 *)x;
+  struct timerrec_0 *_y = (struct timerrec_0 *)y;
   (void)cookie;
-  signed int return_value_tvcmp$1;
-  return_value_tvcmp$1=tvcmp(&_x->tv, &_y->tv);
-  return return_value_tvcmp$1;
+  signed int return_value_tvcmp_1;
+  return_value_tvcmp_1=tvcmp(&_x->tv, &_y->tv);
+  return return_value_tvcmp_1;
 }
 
 // cpusupport_x86_aesni
@@ -3807,16 +3807,16 @@ signed int cpusupport_x86_aesni_detect(void)
   unsigned int ebx;
   unsigned int ecx;
   unsigned int edx;
-  signed int return_value___get_cpuid$1;
-  return_value___get_cpuid$1=__get_cpuid((unsigned int)0, &eax, &ebx, &ecx, &edx);
-  signed int return_value___get_cpuid$2;
-  if(!(return_value___get_cpuid$1 == 0))
+  signed int return_value___get_cpuid_1;
+  return_value___get_cpuid_1=__get_cpuid((unsigned int)0, &eax, &ebx, &ecx, &edx);
+  signed int return_value___get_cpuid_2;
+  if(!(return_value___get_cpuid_1 == 0))
   {
     if(!(eax >= 1u))
       goto unsupported;
 
-    return_value___get_cpuid$2=__get_cpuid((unsigned int)1, &eax, &ebx, &ecx, &edx);
-    if(return_value___get_cpuid$2 == 0)
+    return_value___get_cpuid_2=__get_cpuid((unsigned int)1, &eax, &ebx, &ecx, &edx);
+    if(return_value___get_cpuid_2 == 0)
       goto unsupported;
 
     return (signed int)(ecx & (unsigned int)(1 << 25));
@@ -3835,9 +3835,9 @@ signed int cpusupport_x86_aesni_detect(void)
 // file ../libcperciva/crypto/crypto_aes.c line 131
 void crypto_aes_encrypt_block(const unsigned char *in, unsigned char *out, struct crypto_aes_key *key)
 {
-  signed int return_value_useaesni$1;
-  return_value_useaesni$1=useaesni();
-  if(!(return_value_useaesni$1 == 0))
+  signed int return_value_useaesni_1;
+  return_value_useaesni_1=useaesni();
+  if(!(return_value_useaesni_1 == 0))
     crypto_aes_encrypt_block_aesni(in, out, (const void *)key);
 
   else
@@ -3886,20 +3886,20 @@ struct crypto_aes_key * crypto_aes_key_expand(const unsigned char *key, unsigned
   struct aes_key_st *kexp;
   /* assertion (len == 16) || (len == 32) */
   assert(len == (unsigned long int)16 || len == (unsigned long int)32);
-  signed int return_value_useaesni$2;
-  return_value_useaesni$2=useaesni();
-  void *return_value_crypto_aes_key_expand_aesni$1;
-  if(!(return_value_useaesni$2 == 0))
+  signed int return_value_useaesni_2;
+  return_value_useaesni_2=useaesni();
+  void *return_value_crypto_aes_key_expand_aesni_1;
+  if(!(return_value_useaesni_2 == 0))
   {
-    return_value_crypto_aes_key_expand_aesni$1=crypto_aes_key_expand_aesni(key, len);
-    return (struct crypto_aes_key *)return_value_crypto_aes_key_expand_aesni$1;
+    return_value_crypto_aes_key_expand_aesni_1=crypto_aes_key_expand_aesni(key, len);
+    return (struct crypto_aes_key *)return_value_crypto_aes_key_expand_aesni_1;
   }
 
   else
   {
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(struct aes_key_st) /*244ul*/ );
-    kexp = (struct aes_key_st *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(struct aes_key_st) /*244ul*/ );
+    kexp = (struct aes_key_st *)return_value_malloc_3;
     if(!(kexp == ((struct aes_key_st *)NULL)))
     {
       AES_set_encrypt_key(key, (const signed int)(len * (unsigned long int)8), kexp);
@@ -3923,192 +3923,192 @@ static void crypto_aes_key_expand_128_aesni(const unsigned char *key, __gcc_v2di
   rkeys[(signed long int)0]=_mm_loadu_si128((const __gcc_v2di *)&key[(signed long int)0]);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$1$$_s = rkeys[(signed long int)(1 - 1)];
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$1$$_t = rkeys[(signed long int)(1 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$1;
-    return_value___builtin_ia32_pslldqi128$1=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$1$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$1$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$1$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$1);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$2;
-    return_value___builtin_ia32_pslldqi128$2=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$1$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$1$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$1$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$2);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$3;
-    return_value___builtin_ia32_aeskeygenassist128$3=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$1$$_t, (signed int)0x01);
-    crypto_aes_key_expand_128_aesni$$1$$1$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$3;
-    __gcc_v4si return_value___builtin_ia32_pshufd$4;
-    return_value___builtin_ia32_pshufd$4=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$1$$_t, (signed int)0xff);
-    crypto_aes_key_expand_128_aesni$$1$$1$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$4;
-    rkeys[(signed long int)1]=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$1$$_s, crypto_aes_key_expand_128_aesni$$1$$1$$_t);
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__1___s = rkeys[(signed long int)(1 - 1)];
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__1___t = rkeys[(signed long int)(1 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_1;
+    return_value___builtin_ia32_pslldqi128_1=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__1___s, (signed int)4 * 8);
+    crypto_aes_key_expand_128_aesni__1__1___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__1___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_1);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_2;
+    return_value___builtin_ia32_pslldqi128_2=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__1___s, (signed int)8 * 8);
+    crypto_aes_key_expand_128_aesni__1__1___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__1___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_2);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_3;
+    return_value___builtin_ia32_aeskeygenassist128_3=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__1___t, (signed int)0x01);
+    crypto_aes_key_expand_128_aesni__1__1___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_3;
+    __gcc_v4si return_value___builtin_ia32_pshufd_4;
+    return_value___builtin_ia32_pshufd_4=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni__1__1___t, (signed int)0xff);
+    crypto_aes_key_expand_128_aesni__1__1___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_4;
+    rkeys[(signed long int)1]=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__1___s, crypto_aes_key_expand_128_aesni__1__1___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$2$$_s = rkeys[(signed long int)(2 - 1)];
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$2$$_t = rkeys[(signed long int)(2 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$5;
-    return_value___builtin_ia32_pslldqi128$5=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$2$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$2$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$2$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$5);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$6;
-    return_value___builtin_ia32_pslldqi128$6=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$2$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$2$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$2$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$6);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$7;
-    return_value___builtin_ia32_aeskeygenassist128$7=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$2$$_t, (signed int)0x02);
-    crypto_aes_key_expand_128_aesni$$1$$2$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$7;
-    __gcc_v4si return_value___builtin_ia32_pshufd$8;
-    return_value___builtin_ia32_pshufd$8=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$2$$_t, (signed int)0xff);
-    crypto_aes_key_expand_128_aesni$$1$$2$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$8;
-    rkeys[(signed long int)2]=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$2$$_s, crypto_aes_key_expand_128_aesni$$1$$2$$_t);
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__2___s = rkeys[(signed long int)(2 - 1)];
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__2___t = rkeys[(signed long int)(2 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_5;
+    return_value___builtin_ia32_pslldqi128_5=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__2___s, (signed int)4 * 8);
+    crypto_aes_key_expand_128_aesni__1__2___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__2___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_5);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_6;
+    return_value___builtin_ia32_pslldqi128_6=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__2___s, (signed int)8 * 8);
+    crypto_aes_key_expand_128_aesni__1__2___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__2___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_6);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_7;
+    return_value___builtin_ia32_aeskeygenassist128_7=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__2___t, (signed int)0x02);
+    crypto_aes_key_expand_128_aesni__1__2___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_7;
+    __gcc_v4si return_value___builtin_ia32_pshufd_8;
+    return_value___builtin_ia32_pshufd_8=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni__1__2___t, (signed int)0xff);
+    crypto_aes_key_expand_128_aesni__1__2___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_8;
+    rkeys[(signed long int)2]=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__2___s, crypto_aes_key_expand_128_aesni__1__2___t);
   }
   while((_Bool)0);
   do
   {
     __gcc_v2di _s = rkeys[(signed long int)(3 - 1)];
     __gcc_v2di _t = rkeys[(signed long int)(3 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$9;
-    return_value___builtin_ia32_pslldqi128$9=__builtin_ia32_pslldqi128((__gcc_v2di)_s, (signed int)4 * 8);
-    _s=_mm_xor_si128(_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$9);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$10;
-    return_value___builtin_ia32_pslldqi128$10=__builtin_ia32_pslldqi128((__gcc_v2di)_s, (signed int)8 * 8);
-    _s=_mm_xor_si128(_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$10);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$11;
-    return_value___builtin_ia32_aeskeygenassist128$11=__builtin_ia32_aeskeygenassist128((__gcc_v2di)_t, (signed int)0x04);
-    _t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$11;
-    __gcc_v4si return_value___builtin_ia32_pshufd$12;
-    return_value___builtin_ia32_pshufd$12=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)_t, (signed int)0xff);
-    _t = (__gcc_v2di)return_value___builtin_ia32_pshufd$12;
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_9;
+    return_value___builtin_ia32_pslldqi128_9=__builtin_ia32_pslldqi128((__gcc_v2di)_s, (signed int)4 * 8);
+    _s=_mm_xor_si128(_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_9);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_10;
+    return_value___builtin_ia32_pslldqi128_10=__builtin_ia32_pslldqi128((__gcc_v2di)_s, (signed int)8 * 8);
+    _s=_mm_xor_si128(_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_10);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_11;
+    return_value___builtin_ia32_aeskeygenassist128_11=__builtin_ia32_aeskeygenassist128((__gcc_v2di)_t, (signed int)0x04);
+    _t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_11;
+    __gcc_v4si return_value___builtin_ia32_pshufd_12;
+    return_value___builtin_ia32_pshufd_12=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)_t, (signed int)0xff);
+    _t = (__gcc_v2di)return_value___builtin_ia32_pshufd_12;
     rkeys[(signed long int)3]=_mm_xor_si128(_s, _t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$4$$_s = rkeys[(signed long int)(4 - 1)];
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$4$$_t = rkeys[(signed long int)(4 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$13;
-    return_value___builtin_ia32_pslldqi128$13=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$4$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$4$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$4$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$13);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$14;
-    return_value___builtin_ia32_pslldqi128$14=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$4$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$4$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$4$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$14);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$15;
-    return_value___builtin_ia32_aeskeygenassist128$15=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$4$$_t, (signed int)0x08);
-    crypto_aes_key_expand_128_aesni$$1$$4$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$15;
-    __gcc_v4si return_value___builtin_ia32_pshufd$16;
-    return_value___builtin_ia32_pshufd$16=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$4$$_t, (signed int)0xff);
-    crypto_aes_key_expand_128_aesni$$1$$4$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$16;
-    rkeys[(signed long int)4]=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$4$$_s, crypto_aes_key_expand_128_aesni$$1$$4$$_t);
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__4___s = rkeys[(signed long int)(4 - 1)];
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__4___t = rkeys[(signed long int)(4 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_13;
+    return_value___builtin_ia32_pslldqi128_13=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__4___s, (signed int)4 * 8);
+    crypto_aes_key_expand_128_aesni__1__4___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__4___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_13);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_14;
+    return_value___builtin_ia32_pslldqi128_14=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__4___s, (signed int)8 * 8);
+    crypto_aes_key_expand_128_aesni__1__4___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__4___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_14);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_15;
+    return_value___builtin_ia32_aeskeygenassist128_15=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__4___t, (signed int)0x08);
+    crypto_aes_key_expand_128_aesni__1__4___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_15;
+    __gcc_v4si return_value___builtin_ia32_pshufd_16;
+    return_value___builtin_ia32_pshufd_16=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni__1__4___t, (signed int)0xff);
+    crypto_aes_key_expand_128_aesni__1__4___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_16;
+    rkeys[(signed long int)4]=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__4___s, crypto_aes_key_expand_128_aesni__1__4___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$5$$_s = rkeys[(signed long int)(5 - 1)];
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$5$$_t = rkeys[(signed long int)(5 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$17;
-    return_value___builtin_ia32_pslldqi128$17=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$5$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$5$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$5$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$17);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$18;
-    return_value___builtin_ia32_pslldqi128$18=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$5$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$5$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$5$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$18);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$19;
-    return_value___builtin_ia32_aeskeygenassist128$19=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$5$$_t, (signed int)0x10);
-    crypto_aes_key_expand_128_aesni$$1$$5$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$19;
-    __gcc_v4si return_value___builtin_ia32_pshufd$20;
-    return_value___builtin_ia32_pshufd$20=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$5$$_t, (signed int)0xff);
-    crypto_aes_key_expand_128_aesni$$1$$5$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$20;
-    rkeys[(signed long int)5]=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$5$$_s, crypto_aes_key_expand_128_aesni$$1$$5$$_t);
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__5___s = rkeys[(signed long int)(5 - 1)];
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__5___t = rkeys[(signed long int)(5 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_17;
+    return_value___builtin_ia32_pslldqi128_17=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__5___s, (signed int)4 * 8);
+    crypto_aes_key_expand_128_aesni__1__5___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__5___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_17);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_18;
+    return_value___builtin_ia32_pslldqi128_18=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__5___s, (signed int)8 * 8);
+    crypto_aes_key_expand_128_aesni__1__5___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__5___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_18);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_19;
+    return_value___builtin_ia32_aeskeygenassist128_19=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__5___t, (signed int)0x10);
+    crypto_aes_key_expand_128_aesni__1__5___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_19;
+    __gcc_v4si return_value___builtin_ia32_pshufd_20;
+    return_value___builtin_ia32_pshufd_20=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni__1__5___t, (signed int)0xff);
+    crypto_aes_key_expand_128_aesni__1__5___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_20;
+    rkeys[(signed long int)5]=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__5___s, crypto_aes_key_expand_128_aesni__1__5___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$6$$_s = rkeys[(signed long int)(6 - 1)];
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$6$$_t = rkeys[(signed long int)(6 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$21;
-    return_value___builtin_ia32_pslldqi128$21=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$6$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$6$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$6$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$21);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$22;
-    return_value___builtin_ia32_pslldqi128$22=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$6$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$6$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$6$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$22);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$23;
-    return_value___builtin_ia32_aeskeygenassist128$23=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$6$$_t, (signed int)0x20);
-    crypto_aes_key_expand_128_aesni$$1$$6$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$23;
-    __gcc_v4si return_value___builtin_ia32_pshufd$24;
-    return_value___builtin_ia32_pshufd$24=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$6$$_t, (signed int)0xff);
-    crypto_aes_key_expand_128_aesni$$1$$6$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$24;
-    rkeys[(signed long int)6]=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$6$$_s, crypto_aes_key_expand_128_aesni$$1$$6$$_t);
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__6___s = rkeys[(signed long int)(6 - 1)];
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__6___t = rkeys[(signed long int)(6 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_21;
+    return_value___builtin_ia32_pslldqi128_21=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__6___s, (signed int)4 * 8);
+    crypto_aes_key_expand_128_aesni__1__6___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__6___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_21);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_22;
+    return_value___builtin_ia32_pslldqi128_22=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__6___s, (signed int)8 * 8);
+    crypto_aes_key_expand_128_aesni__1__6___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__6___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_22);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_23;
+    return_value___builtin_ia32_aeskeygenassist128_23=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__6___t, (signed int)0x20);
+    crypto_aes_key_expand_128_aesni__1__6___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_23;
+    __gcc_v4si return_value___builtin_ia32_pshufd_24;
+    return_value___builtin_ia32_pshufd_24=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni__1__6___t, (signed int)0xff);
+    crypto_aes_key_expand_128_aesni__1__6___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_24;
+    rkeys[(signed long int)6]=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__6___s, crypto_aes_key_expand_128_aesni__1__6___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$7$$_s = rkeys[(signed long int)(7 - 1)];
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$7$$_t = rkeys[(signed long int)(7 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$25;
-    return_value___builtin_ia32_pslldqi128$25=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$7$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$7$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$7$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$25);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$26;
-    return_value___builtin_ia32_pslldqi128$26=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$7$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$7$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$7$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$26);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$27;
-    return_value___builtin_ia32_aeskeygenassist128$27=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$7$$_t, (signed int)0x40);
-    crypto_aes_key_expand_128_aesni$$1$$7$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$27;
-    __gcc_v4si return_value___builtin_ia32_pshufd$28;
-    return_value___builtin_ia32_pshufd$28=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$7$$_t, (signed int)0xff);
-    crypto_aes_key_expand_128_aesni$$1$$7$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$28;
-    rkeys[(signed long int)7]=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$7$$_s, crypto_aes_key_expand_128_aesni$$1$$7$$_t);
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__7___s = rkeys[(signed long int)(7 - 1)];
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__7___t = rkeys[(signed long int)(7 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_25;
+    return_value___builtin_ia32_pslldqi128_25=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__7___s, (signed int)4 * 8);
+    crypto_aes_key_expand_128_aesni__1__7___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__7___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_25);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_26;
+    return_value___builtin_ia32_pslldqi128_26=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__7___s, (signed int)8 * 8);
+    crypto_aes_key_expand_128_aesni__1__7___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__7___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_26);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_27;
+    return_value___builtin_ia32_aeskeygenassist128_27=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__7___t, (signed int)0x40);
+    crypto_aes_key_expand_128_aesni__1__7___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_27;
+    __gcc_v4si return_value___builtin_ia32_pshufd_28;
+    return_value___builtin_ia32_pshufd_28=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni__1__7___t, (signed int)0xff);
+    crypto_aes_key_expand_128_aesni__1__7___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_28;
+    rkeys[(signed long int)7]=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__7___s, crypto_aes_key_expand_128_aesni__1__7___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$8$$_s = rkeys[(signed long int)(8 - 1)];
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$8$$_t = rkeys[(signed long int)(8 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$29;
-    return_value___builtin_ia32_pslldqi128$29=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$8$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$8$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$8$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$29);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$30;
-    return_value___builtin_ia32_pslldqi128$30=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$8$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$8$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$8$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$30);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$31;
-    return_value___builtin_ia32_aeskeygenassist128$31=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$8$$_t, (signed int)0x80);
-    crypto_aes_key_expand_128_aesni$$1$$8$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$31;
-    __gcc_v4si return_value___builtin_ia32_pshufd$32;
-    return_value___builtin_ia32_pshufd$32=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$8$$_t, (signed int)0xff);
-    crypto_aes_key_expand_128_aesni$$1$$8$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$32;
-    rkeys[(signed long int)8]=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$8$$_s, crypto_aes_key_expand_128_aesni$$1$$8$$_t);
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__8___s = rkeys[(signed long int)(8 - 1)];
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__8___t = rkeys[(signed long int)(8 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_29;
+    return_value___builtin_ia32_pslldqi128_29=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__8___s, (signed int)4 * 8);
+    crypto_aes_key_expand_128_aesni__1__8___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__8___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_29);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_30;
+    return_value___builtin_ia32_pslldqi128_30=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__8___s, (signed int)8 * 8);
+    crypto_aes_key_expand_128_aesni__1__8___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__8___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_30);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_31;
+    return_value___builtin_ia32_aeskeygenassist128_31=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__8___t, (signed int)0x80);
+    crypto_aes_key_expand_128_aesni__1__8___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_31;
+    __gcc_v4si return_value___builtin_ia32_pshufd_32;
+    return_value___builtin_ia32_pshufd_32=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni__1__8___t, (signed int)0xff);
+    crypto_aes_key_expand_128_aesni__1__8___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_32;
+    rkeys[(signed long int)8]=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__8___s, crypto_aes_key_expand_128_aesni__1__8___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$9$$_s = rkeys[(signed long int)(9 - 1)];
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$9$$_t = rkeys[(signed long int)(9 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$33;
-    return_value___builtin_ia32_pslldqi128$33=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$9$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$9$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$9$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$33);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$34;
-    return_value___builtin_ia32_pslldqi128$34=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$9$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$9$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$9$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$34);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$35;
-    return_value___builtin_ia32_aeskeygenassist128$35=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$9$$_t, (signed int)0x1b);
-    crypto_aes_key_expand_128_aesni$$1$$9$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$35;
-    __gcc_v4si return_value___builtin_ia32_pshufd$36;
-    return_value___builtin_ia32_pshufd$36=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$9$$_t, (signed int)0xff);
-    crypto_aes_key_expand_128_aesni$$1$$9$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$36;
-    rkeys[(signed long int)9]=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$9$$_s, crypto_aes_key_expand_128_aesni$$1$$9$$_t);
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__9___s = rkeys[(signed long int)(9 - 1)];
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__9___t = rkeys[(signed long int)(9 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_33;
+    return_value___builtin_ia32_pslldqi128_33=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__9___s, (signed int)4 * 8);
+    crypto_aes_key_expand_128_aesni__1__9___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__9___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_33);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_34;
+    return_value___builtin_ia32_pslldqi128_34=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__9___s, (signed int)8 * 8);
+    crypto_aes_key_expand_128_aesni__1__9___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__9___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_34);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_35;
+    return_value___builtin_ia32_aeskeygenassist128_35=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__9___t, (signed int)0x1b);
+    crypto_aes_key_expand_128_aesni__1__9___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_35;
+    __gcc_v4si return_value___builtin_ia32_pshufd_36;
+    return_value___builtin_ia32_pshufd_36=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni__1__9___t, (signed int)0xff);
+    crypto_aes_key_expand_128_aesni__1__9___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_36;
+    rkeys[(signed long int)9]=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__9___s, crypto_aes_key_expand_128_aesni__1__9___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$10$$_s = rkeys[(signed long int)(10 - 1)];
-    __gcc_v2di crypto_aes_key_expand_128_aesni$$1$$10$$_t = rkeys[(signed long int)(10 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$37;
-    return_value___builtin_ia32_pslldqi128$37=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$10$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$10$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$10$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$37);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$38;
-    return_value___builtin_ia32_pslldqi128$38=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$10$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_128_aesni$$1$$10$$_s=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$10$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$38);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$39;
-    return_value___builtin_ia32_aeskeygenassist128$39=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$10$$_t, (signed int)0x36);
-    crypto_aes_key_expand_128_aesni$$1$$10$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$39;
-    __gcc_v4si return_value___builtin_ia32_pshufd$40;
-    return_value___builtin_ia32_pshufd$40=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni$$1$$10$$_t, (signed int)0xff);
-    crypto_aes_key_expand_128_aesni$$1$$10$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$40;
-    rkeys[(signed long int)10]=_mm_xor_si128(crypto_aes_key_expand_128_aesni$$1$$10$$_s, crypto_aes_key_expand_128_aesni$$1$$10$$_t);
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__10___s = rkeys[(signed long int)(10 - 1)];
+    __gcc_v2di crypto_aes_key_expand_128_aesni__1__10___t = rkeys[(signed long int)(10 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_37;
+    return_value___builtin_ia32_pslldqi128_37=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__10___s, (signed int)4 * 8);
+    crypto_aes_key_expand_128_aesni__1__10___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__10___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_37);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_38;
+    return_value___builtin_ia32_pslldqi128_38=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__10___s, (signed int)8 * 8);
+    crypto_aes_key_expand_128_aesni__1__10___s=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__10___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_38);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_39;
+    return_value___builtin_ia32_aeskeygenassist128_39=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_128_aesni__1__10___t, (signed int)0x36);
+    crypto_aes_key_expand_128_aesni__1__10___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_39;
+    __gcc_v4si return_value___builtin_ia32_pshufd_40;
+    return_value___builtin_ia32_pshufd_40=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_128_aesni__1__10___t, (signed int)0xff);
+    crypto_aes_key_expand_128_aesni__1__10___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_40;
+    rkeys[(signed long int)10]=_mm_xor_si128(crypto_aes_key_expand_128_aesni__1__10___s, crypto_aes_key_expand_128_aesni__1__10___t);
   }
   while((_Bool)0);
 }
@@ -4123,247 +4123,247 @@ static void crypto_aes_key_expand_256_aesni(const unsigned char *key, __gcc_v2di
   {
     __gcc_v2di _s = rkeys[(signed long int)(2 - 2)];
     __gcc_v2di _t = rkeys[(signed long int)(2 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$1;
-    return_value___builtin_ia32_pslldqi128$1=__builtin_ia32_pslldqi128((__gcc_v2di)_s, (signed int)4 * 8);
-    _s=_mm_xor_si128(_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$1);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$2;
-    return_value___builtin_ia32_pslldqi128$2=__builtin_ia32_pslldqi128((__gcc_v2di)_s, (signed int)8 * 8);
-    _s=_mm_xor_si128(_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$2);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$3;
-    return_value___builtin_ia32_aeskeygenassist128$3=__builtin_ia32_aeskeygenassist128((__gcc_v2di)_t, (signed int)0x01);
-    _t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$3;
-    __gcc_v4si return_value___builtin_ia32_pshufd$4;
-    return_value___builtin_ia32_pshufd$4=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)_t, (signed int)0xff);
-    _t = (__gcc_v2di)return_value___builtin_ia32_pshufd$4;
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_1;
+    return_value___builtin_ia32_pslldqi128_1=__builtin_ia32_pslldqi128((__gcc_v2di)_s, (signed int)4 * 8);
+    _s=_mm_xor_si128(_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_1);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_2;
+    return_value___builtin_ia32_pslldqi128_2=__builtin_ia32_pslldqi128((__gcc_v2di)_s, (signed int)8 * 8);
+    _s=_mm_xor_si128(_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_2);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_3;
+    return_value___builtin_ia32_aeskeygenassist128_3=__builtin_ia32_aeskeygenassist128((__gcc_v2di)_t, (signed int)0x01);
+    _t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_3;
+    __gcc_v4si return_value___builtin_ia32_pshufd_4;
+    return_value___builtin_ia32_pshufd_4=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)_t, (signed int)0xff);
+    _t = (__gcc_v2di)return_value___builtin_ia32_pshufd_4;
     rkeys[(signed long int)2]=_mm_xor_si128(_s, _t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$2$$_s = rkeys[(signed long int)(3 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$2$$_t = rkeys[(signed long int)(3 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$5;
-    return_value___builtin_ia32_pslldqi128$5=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$2$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$2$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$2$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$5);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$6;
-    return_value___builtin_ia32_pslldqi128$6=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$2$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$2$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$2$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$6);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$7;
-    return_value___builtin_ia32_aeskeygenassist128$7=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$2$$_t, (signed int)0x00);
-    crypto_aes_key_expand_256_aesni$$1$$2$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$7;
-    __gcc_v4si return_value___builtin_ia32_pshufd$8;
-    return_value___builtin_ia32_pshufd$8=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$2$$_t, (signed int)0xaa);
-    crypto_aes_key_expand_256_aesni$$1$$2$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$8;
-    rkeys[(signed long int)3]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$2$$_s, crypto_aes_key_expand_256_aesni$$1$$2$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__2___s = rkeys[(signed long int)(3 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__2___t = rkeys[(signed long int)(3 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_5;
+    return_value___builtin_ia32_pslldqi128_5=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__2___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__2___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__2___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_5);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_6;
+    return_value___builtin_ia32_pslldqi128_6=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__2___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__2___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__2___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_6);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_7;
+    return_value___builtin_ia32_aeskeygenassist128_7=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__2___t, (signed int)0x00);
+    crypto_aes_key_expand_256_aesni__1__2___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_7;
+    __gcc_v4si return_value___builtin_ia32_pshufd_8;
+    return_value___builtin_ia32_pshufd_8=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__2___t, (signed int)0xaa);
+    crypto_aes_key_expand_256_aesni__1__2___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_8;
+    rkeys[(signed long int)3]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__2___s, crypto_aes_key_expand_256_aesni__1__2___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$3$$_s = rkeys[(signed long int)(4 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$3$$_t = rkeys[(signed long int)(4 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$9;
-    return_value___builtin_ia32_pslldqi128$9=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$3$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$3$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$3$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$9);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$10;
-    return_value___builtin_ia32_pslldqi128$10=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$3$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$3$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$3$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$10);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$11;
-    return_value___builtin_ia32_aeskeygenassist128$11=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$3$$_t, (signed int)0x02);
-    crypto_aes_key_expand_256_aesni$$1$$3$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$11;
-    __gcc_v4si return_value___builtin_ia32_pshufd$12;
-    return_value___builtin_ia32_pshufd$12=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$3$$_t, (signed int)0xff);
-    crypto_aes_key_expand_256_aesni$$1$$3$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$12;
-    rkeys[(signed long int)4]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$3$$_s, crypto_aes_key_expand_256_aesni$$1$$3$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__3___s = rkeys[(signed long int)(4 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__3___t = rkeys[(signed long int)(4 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_9;
+    return_value___builtin_ia32_pslldqi128_9=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__3___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__3___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__3___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_9);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_10;
+    return_value___builtin_ia32_pslldqi128_10=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__3___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__3___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__3___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_10);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_11;
+    return_value___builtin_ia32_aeskeygenassist128_11=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__3___t, (signed int)0x02);
+    crypto_aes_key_expand_256_aesni__1__3___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_11;
+    __gcc_v4si return_value___builtin_ia32_pshufd_12;
+    return_value___builtin_ia32_pshufd_12=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__3___t, (signed int)0xff);
+    crypto_aes_key_expand_256_aesni__1__3___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_12;
+    rkeys[(signed long int)4]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__3___s, crypto_aes_key_expand_256_aesni__1__3___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$4$$_s = rkeys[(signed long int)(5 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$4$$_t = rkeys[(signed long int)(5 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$13;
-    return_value___builtin_ia32_pslldqi128$13=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$4$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$4$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$4$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$13);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$14;
-    return_value___builtin_ia32_pslldqi128$14=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$4$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$4$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$4$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$14);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$15;
-    return_value___builtin_ia32_aeskeygenassist128$15=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$4$$_t, (signed int)0x00);
-    crypto_aes_key_expand_256_aesni$$1$$4$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$15;
-    __gcc_v4si return_value___builtin_ia32_pshufd$16;
-    return_value___builtin_ia32_pshufd$16=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$4$$_t, (signed int)0xaa);
-    crypto_aes_key_expand_256_aesni$$1$$4$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$16;
-    rkeys[(signed long int)5]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$4$$_s, crypto_aes_key_expand_256_aesni$$1$$4$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__4___s = rkeys[(signed long int)(5 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__4___t = rkeys[(signed long int)(5 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_13;
+    return_value___builtin_ia32_pslldqi128_13=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__4___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__4___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__4___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_13);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_14;
+    return_value___builtin_ia32_pslldqi128_14=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__4___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__4___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__4___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_14);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_15;
+    return_value___builtin_ia32_aeskeygenassist128_15=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__4___t, (signed int)0x00);
+    crypto_aes_key_expand_256_aesni__1__4___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_15;
+    __gcc_v4si return_value___builtin_ia32_pshufd_16;
+    return_value___builtin_ia32_pshufd_16=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__4___t, (signed int)0xaa);
+    crypto_aes_key_expand_256_aesni__1__4___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_16;
+    rkeys[(signed long int)5]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__4___s, crypto_aes_key_expand_256_aesni__1__4___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$5$$_s = rkeys[(signed long int)(6 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$5$$_t = rkeys[(signed long int)(6 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$17;
-    return_value___builtin_ia32_pslldqi128$17=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$5$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$5$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$5$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$17);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$18;
-    return_value___builtin_ia32_pslldqi128$18=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$5$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$5$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$5$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$18);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$19;
-    return_value___builtin_ia32_aeskeygenassist128$19=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$5$$_t, (signed int)0x04);
-    crypto_aes_key_expand_256_aesni$$1$$5$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$19;
-    __gcc_v4si return_value___builtin_ia32_pshufd$20;
-    return_value___builtin_ia32_pshufd$20=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$5$$_t, (signed int)0xff);
-    crypto_aes_key_expand_256_aesni$$1$$5$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$20;
-    rkeys[(signed long int)6]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$5$$_s, crypto_aes_key_expand_256_aesni$$1$$5$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__5___s = rkeys[(signed long int)(6 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__5___t = rkeys[(signed long int)(6 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_17;
+    return_value___builtin_ia32_pslldqi128_17=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__5___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__5___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__5___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_17);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_18;
+    return_value___builtin_ia32_pslldqi128_18=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__5___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__5___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__5___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_18);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_19;
+    return_value___builtin_ia32_aeskeygenassist128_19=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__5___t, (signed int)0x04);
+    crypto_aes_key_expand_256_aesni__1__5___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_19;
+    __gcc_v4si return_value___builtin_ia32_pshufd_20;
+    return_value___builtin_ia32_pshufd_20=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__5___t, (signed int)0xff);
+    crypto_aes_key_expand_256_aesni__1__5___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_20;
+    rkeys[(signed long int)6]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__5___s, crypto_aes_key_expand_256_aesni__1__5___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$6$$_s = rkeys[(signed long int)(7 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$6$$_t = rkeys[(signed long int)(7 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$21;
-    return_value___builtin_ia32_pslldqi128$21=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$6$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$6$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$6$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$21);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$22;
-    return_value___builtin_ia32_pslldqi128$22=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$6$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$6$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$6$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$22);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$23;
-    return_value___builtin_ia32_aeskeygenassist128$23=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$6$$_t, (signed int)0x00);
-    crypto_aes_key_expand_256_aesni$$1$$6$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$23;
-    __gcc_v4si return_value___builtin_ia32_pshufd$24;
-    return_value___builtin_ia32_pshufd$24=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$6$$_t, (signed int)0xaa);
-    crypto_aes_key_expand_256_aesni$$1$$6$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$24;
-    rkeys[(signed long int)7]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$6$$_s, crypto_aes_key_expand_256_aesni$$1$$6$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__6___s = rkeys[(signed long int)(7 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__6___t = rkeys[(signed long int)(7 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_21;
+    return_value___builtin_ia32_pslldqi128_21=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__6___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__6___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__6___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_21);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_22;
+    return_value___builtin_ia32_pslldqi128_22=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__6___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__6___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__6___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_22);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_23;
+    return_value___builtin_ia32_aeskeygenassist128_23=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__6___t, (signed int)0x00);
+    crypto_aes_key_expand_256_aesni__1__6___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_23;
+    __gcc_v4si return_value___builtin_ia32_pshufd_24;
+    return_value___builtin_ia32_pshufd_24=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__6___t, (signed int)0xaa);
+    crypto_aes_key_expand_256_aesni__1__6___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_24;
+    rkeys[(signed long int)7]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__6___s, crypto_aes_key_expand_256_aesni__1__6___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$7$$_s = rkeys[(signed long int)(8 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$7$$_t = rkeys[(signed long int)(8 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$25;
-    return_value___builtin_ia32_pslldqi128$25=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$7$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$7$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$7$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$25);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$26;
-    return_value___builtin_ia32_pslldqi128$26=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$7$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$7$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$7$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$26);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$27;
-    return_value___builtin_ia32_aeskeygenassist128$27=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$7$$_t, (signed int)0x08);
-    crypto_aes_key_expand_256_aesni$$1$$7$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$27;
-    __gcc_v4si return_value___builtin_ia32_pshufd$28;
-    return_value___builtin_ia32_pshufd$28=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$7$$_t, (signed int)0xff);
-    crypto_aes_key_expand_256_aesni$$1$$7$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$28;
-    rkeys[(signed long int)8]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$7$$_s, crypto_aes_key_expand_256_aesni$$1$$7$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__7___s = rkeys[(signed long int)(8 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__7___t = rkeys[(signed long int)(8 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_25;
+    return_value___builtin_ia32_pslldqi128_25=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__7___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__7___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__7___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_25);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_26;
+    return_value___builtin_ia32_pslldqi128_26=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__7___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__7___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__7___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_26);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_27;
+    return_value___builtin_ia32_aeskeygenassist128_27=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__7___t, (signed int)0x08);
+    crypto_aes_key_expand_256_aesni__1__7___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_27;
+    __gcc_v4si return_value___builtin_ia32_pshufd_28;
+    return_value___builtin_ia32_pshufd_28=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__7___t, (signed int)0xff);
+    crypto_aes_key_expand_256_aesni__1__7___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_28;
+    rkeys[(signed long int)8]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__7___s, crypto_aes_key_expand_256_aesni__1__7___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$8$$_s = rkeys[(signed long int)(9 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$8$$_t = rkeys[(signed long int)(9 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$29;
-    return_value___builtin_ia32_pslldqi128$29=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$8$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$8$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$8$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$29);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$30;
-    return_value___builtin_ia32_pslldqi128$30=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$8$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$8$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$8$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$30);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$31;
-    return_value___builtin_ia32_aeskeygenassist128$31=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$8$$_t, (signed int)0x00);
-    crypto_aes_key_expand_256_aesni$$1$$8$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$31;
-    __gcc_v4si return_value___builtin_ia32_pshufd$32;
-    return_value___builtin_ia32_pshufd$32=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$8$$_t, (signed int)0xaa);
-    crypto_aes_key_expand_256_aesni$$1$$8$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$32;
-    rkeys[(signed long int)9]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$8$$_s, crypto_aes_key_expand_256_aesni$$1$$8$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__8___s = rkeys[(signed long int)(9 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__8___t = rkeys[(signed long int)(9 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_29;
+    return_value___builtin_ia32_pslldqi128_29=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__8___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__8___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__8___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_29);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_30;
+    return_value___builtin_ia32_pslldqi128_30=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__8___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__8___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__8___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_30);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_31;
+    return_value___builtin_ia32_aeskeygenassist128_31=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__8___t, (signed int)0x00);
+    crypto_aes_key_expand_256_aesni__1__8___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_31;
+    __gcc_v4si return_value___builtin_ia32_pshufd_32;
+    return_value___builtin_ia32_pshufd_32=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__8___t, (signed int)0xaa);
+    crypto_aes_key_expand_256_aesni__1__8___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_32;
+    rkeys[(signed long int)9]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__8___s, crypto_aes_key_expand_256_aesni__1__8___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$9$$_s = rkeys[(signed long int)(10 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$9$$_t = rkeys[(signed long int)(10 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$33;
-    return_value___builtin_ia32_pslldqi128$33=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$9$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$9$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$9$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$33);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$34;
-    return_value___builtin_ia32_pslldqi128$34=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$9$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$9$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$9$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$34);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$35;
-    return_value___builtin_ia32_aeskeygenassist128$35=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$9$$_t, (signed int)0x10);
-    crypto_aes_key_expand_256_aesni$$1$$9$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$35;
-    __gcc_v4si return_value___builtin_ia32_pshufd$36;
-    return_value___builtin_ia32_pshufd$36=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$9$$_t, (signed int)0xff);
-    crypto_aes_key_expand_256_aesni$$1$$9$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$36;
-    rkeys[(signed long int)10]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$9$$_s, crypto_aes_key_expand_256_aesni$$1$$9$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__9___s = rkeys[(signed long int)(10 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__9___t = rkeys[(signed long int)(10 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_33;
+    return_value___builtin_ia32_pslldqi128_33=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__9___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__9___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__9___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_33);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_34;
+    return_value___builtin_ia32_pslldqi128_34=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__9___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__9___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__9___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_34);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_35;
+    return_value___builtin_ia32_aeskeygenassist128_35=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__9___t, (signed int)0x10);
+    crypto_aes_key_expand_256_aesni__1__9___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_35;
+    __gcc_v4si return_value___builtin_ia32_pshufd_36;
+    return_value___builtin_ia32_pshufd_36=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__9___t, (signed int)0xff);
+    crypto_aes_key_expand_256_aesni__1__9___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_36;
+    rkeys[(signed long int)10]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__9___s, crypto_aes_key_expand_256_aesni__1__9___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$10$$_s = rkeys[(signed long int)(11 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$10$$_t = rkeys[(signed long int)(11 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$37;
-    return_value___builtin_ia32_pslldqi128$37=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$10$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$10$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$10$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$37);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$38;
-    return_value___builtin_ia32_pslldqi128$38=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$10$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$10$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$10$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$38);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$39;
-    return_value___builtin_ia32_aeskeygenassist128$39=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$10$$_t, (signed int)0x00);
-    crypto_aes_key_expand_256_aesni$$1$$10$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$39;
-    __gcc_v4si return_value___builtin_ia32_pshufd$40;
-    return_value___builtin_ia32_pshufd$40=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$10$$_t, (signed int)0xaa);
-    crypto_aes_key_expand_256_aesni$$1$$10$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$40;
-    rkeys[(signed long int)11]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$10$$_s, crypto_aes_key_expand_256_aesni$$1$$10$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__10___s = rkeys[(signed long int)(11 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__10___t = rkeys[(signed long int)(11 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_37;
+    return_value___builtin_ia32_pslldqi128_37=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__10___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__10___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__10___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_37);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_38;
+    return_value___builtin_ia32_pslldqi128_38=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__10___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__10___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__10___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_38);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_39;
+    return_value___builtin_ia32_aeskeygenassist128_39=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__10___t, (signed int)0x00);
+    crypto_aes_key_expand_256_aesni__1__10___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_39;
+    __gcc_v4si return_value___builtin_ia32_pshufd_40;
+    return_value___builtin_ia32_pshufd_40=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__10___t, (signed int)0xaa);
+    crypto_aes_key_expand_256_aesni__1__10___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_40;
+    rkeys[(signed long int)11]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__10___s, crypto_aes_key_expand_256_aesni__1__10___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$11$$_s = rkeys[(signed long int)(12 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$11$$_t = rkeys[(signed long int)(12 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$41;
-    return_value___builtin_ia32_pslldqi128$41=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$11$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$11$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$11$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$41);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$42;
-    return_value___builtin_ia32_pslldqi128$42=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$11$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$11$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$11$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$42);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$43;
-    return_value___builtin_ia32_aeskeygenassist128$43=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$11$$_t, (signed int)0x20);
-    crypto_aes_key_expand_256_aesni$$1$$11$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$43;
-    __gcc_v4si return_value___builtin_ia32_pshufd$44;
-    return_value___builtin_ia32_pshufd$44=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$11$$_t, (signed int)0xff);
-    crypto_aes_key_expand_256_aesni$$1$$11$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$44;
-    rkeys[(signed long int)12]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$11$$_s, crypto_aes_key_expand_256_aesni$$1$$11$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__11___s = rkeys[(signed long int)(12 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__11___t = rkeys[(signed long int)(12 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_41;
+    return_value___builtin_ia32_pslldqi128_41=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__11___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__11___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__11___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_41);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_42;
+    return_value___builtin_ia32_pslldqi128_42=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__11___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__11___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__11___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_42);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_43;
+    return_value___builtin_ia32_aeskeygenassist128_43=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__11___t, (signed int)0x20);
+    crypto_aes_key_expand_256_aesni__1__11___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_43;
+    __gcc_v4si return_value___builtin_ia32_pshufd_44;
+    return_value___builtin_ia32_pshufd_44=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__11___t, (signed int)0xff);
+    crypto_aes_key_expand_256_aesni__1__11___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_44;
+    rkeys[(signed long int)12]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__11___s, crypto_aes_key_expand_256_aesni__1__11___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$12$$_s = rkeys[(signed long int)(13 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$12$$_t = rkeys[(signed long int)(13 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$45;
-    return_value___builtin_ia32_pslldqi128$45=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$12$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$12$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$12$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$45);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$46;
-    return_value___builtin_ia32_pslldqi128$46=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$12$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$12$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$12$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$46);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$47;
-    return_value___builtin_ia32_aeskeygenassist128$47=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$12$$_t, (signed int)0x00);
-    crypto_aes_key_expand_256_aesni$$1$$12$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$47;
-    __gcc_v4si return_value___builtin_ia32_pshufd$48;
-    return_value___builtin_ia32_pshufd$48=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$12$$_t, (signed int)0xaa);
-    crypto_aes_key_expand_256_aesni$$1$$12$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$48;
-    rkeys[(signed long int)13]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$12$$_s, crypto_aes_key_expand_256_aesni$$1$$12$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__12___s = rkeys[(signed long int)(13 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__12___t = rkeys[(signed long int)(13 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_45;
+    return_value___builtin_ia32_pslldqi128_45=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__12___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__12___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__12___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_45);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_46;
+    return_value___builtin_ia32_pslldqi128_46=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__12___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__12___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__12___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_46);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_47;
+    return_value___builtin_ia32_aeskeygenassist128_47=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__12___t, (signed int)0x00);
+    crypto_aes_key_expand_256_aesni__1__12___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_47;
+    __gcc_v4si return_value___builtin_ia32_pshufd_48;
+    return_value___builtin_ia32_pshufd_48=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__12___t, (signed int)0xaa);
+    crypto_aes_key_expand_256_aesni__1__12___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_48;
+    rkeys[(signed long int)13]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__12___s, crypto_aes_key_expand_256_aesni__1__12___t);
   }
   while((_Bool)0);
   do
   {
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$13$$_s = rkeys[(signed long int)(14 - 2)];
-    __gcc_v2di crypto_aes_key_expand_256_aesni$$1$$13$$_t = rkeys[(signed long int)(14 - 1)];
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$49;
-    return_value___builtin_ia32_pslldqi128$49=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$13$$_s, (signed int)4 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$13$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$13$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$49);
-    __gcc_v2di return_value___builtin_ia32_pslldqi128$50;
-    return_value___builtin_ia32_pslldqi128$50=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$13$$_s, (signed int)8 * 8);
-    crypto_aes_key_expand_256_aesni$$1$$13$$_s=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$13$$_s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128$50);
-    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128$51;
-    return_value___builtin_ia32_aeskeygenassist128$51=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$13$$_t, (signed int)0x40);
-    crypto_aes_key_expand_256_aesni$$1$$13$$_t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128$51;
-    __gcc_v4si return_value___builtin_ia32_pshufd$52;
-    return_value___builtin_ia32_pshufd$52=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni$$1$$13$$_t, (signed int)0xff);
-    crypto_aes_key_expand_256_aesni$$1$$13$$_t = (__gcc_v2di)return_value___builtin_ia32_pshufd$52;
-    rkeys[(signed long int)14]=_mm_xor_si128(crypto_aes_key_expand_256_aesni$$1$$13$$_s, crypto_aes_key_expand_256_aesni$$1$$13$$_t);
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__13___s = rkeys[(signed long int)(14 - 2)];
+    __gcc_v2di crypto_aes_key_expand_256_aesni__1__13___t = rkeys[(signed long int)(14 - 1)];
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_49;
+    return_value___builtin_ia32_pslldqi128_49=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__13___s, (signed int)4 * 8);
+    crypto_aes_key_expand_256_aesni__1__13___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__13___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_49);
+    __gcc_v2di return_value___builtin_ia32_pslldqi128_50;
+    return_value___builtin_ia32_pslldqi128_50=__builtin_ia32_pslldqi128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__13___s, (signed int)8 * 8);
+    crypto_aes_key_expand_256_aesni__1__13___s=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__13___s, (__gcc_v2di)return_value___builtin_ia32_pslldqi128_50);
+    __gcc_v2di return_value___builtin_ia32_aeskeygenassist128_51;
+    return_value___builtin_ia32_aeskeygenassist128_51=__builtin_ia32_aeskeygenassist128((__gcc_v2di)crypto_aes_key_expand_256_aesni__1__13___t, (signed int)0x40);
+    crypto_aes_key_expand_256_aesni__1__13___t = (__gcc_v2di)return_value___builtin_ia32_aeskeygenassist128_51;
+    __gcc_v4si return_value___builtin_ia32_pshufd_52;
+    return_value___builtin_ia32_pshufd_52=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)crypto_aes_key_expand_256_aesni__1__13___t, (signed int)0xff);
+    crypto_aes_key_expand_256_aesni__1__13___t = (__gcc_v2di)return_value___builtin_ia32_pshufd_52;
+    rkeys[(signed long int)14]=_mm_xor_si128(crypto_aes_key_expand_256_aesni__1__13___s, crypto_aes_key_expand_256_aesni__1__13___t);
   }
   while((_Bool)0);
 }
@@ -4373,9 +4373,9 @@ static void crypto_aes_key_expand_256_aesni(const unsigned char *key, __gcc_v2di
 void * crypto_aes_key_expand_aesni(const unsigned char *key, unsigned long int len)
 {
   struct crypto_aes_key_aesni *kexp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct crypto_aes_key_aesni) /*248ul*/ );
-  kexp = (struct crypto_aes_key_aesni *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct crypto_aes_key_aesni) /*248ul*/ );
+  kexp = (struct crypto_aes_key_aesni *)return_value_malloc_1;
   if(!(kexp == ((struct crypto_aes_key_aesni *)NULL)))
   {
     if(len == 16ul)
@@ -4396,9 +4396,9 @@ void * crypto_aes_key_expand_aesni(const unsigned char *key, unsigned long int l
         do
         {
           libcperciva_warnx("Unsupported AES key length: %zu bytes", len);
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          *return_value___errno_location$2 = 0;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          *return_value___errno_location_2 = 0;
         }
         while((_Bool)0);
         goto err1;
@@ -4420,14 +4420,14 @@ err0:
 // file ../libcperciva/crypto/crypto_aes.h line 29
 void crypto_aes_key_free(struct crypto_aes_key *key)
 {
-  signed int return_value_useaesni$1;
-  return_value_useaesni$1=useaesni();
-  if(!(return_value_useaesni$1 == 0))
+  signed int return_value_useaesni_1;
+  return_value_useaesni_1=useaesni();
+  if(!(return_value_useaesni_1 == 0))
     crypto_aes_key_free_aesni((void *)key);
 
   else
   {
-    insecure_memzero$link1((volatile void *)key, sizeof(struct aes_key_st) /*244ul*/ );
+    insecure_memzero_link1((volatile void *)key, sizeof(struct aes_key_st) /*244ul*/ );
     free((void *)key);
   }
 }
@@ -4436,7 +4436,7 @@ void crypto_aes_key_free(struct crypto_aes_key *key)
 // file ../libcperciva/crypto/crypto_aes_aesni.h line 29
 void crypto_aes_key_free_aesni(void *key)
 {
-  insecure_memzero$link2(key, sizeof(struct crypto_aes_key_aesni) /*248ul*/ );
+  insecure_memzero_link2(key, sizeof(struct crypto_aes_key_aesni) /*248ul*/ );
   free(key);
 }
 
@@ -4480,9 +4480,9 @@ void crypto_aesctr_free(struct crypto_aesctr *stream)
 struct crypto_aesctr * crypto_aesctr_init(struct crypto_aes_key *key, unsigned long int nonce)
 {
   struct crypto_aesctr *stream;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct crypto_aesctr) /*40ul*/ );
-  stream = (struct crypto_aesctr *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct crypto_aesctr) /*40ul*/ );
+  stream = (struct crypto_aesctr *)return_value_malloc_1;
   if(!(stream == ((struct crypto_aesctr *)NULL)))
   {
     stream->key = key;
@@ -4513,8 +4513,8 @@ void crypto_aesctr_stream(struct crypto_aesctr *stream, const unsigned char *inb
     bytemod = (signed int)(stream->bytectr % (unsigned long int)16);
     if(bytemod == 0)
     {
-      libcperciva_be64enc$link2((void *)pblk, stream->nonce);
-      libcperciva_be64enc$link2((void *)(pblk + (signed long int)8), stream->bytectr / (unsigned long int)16);
+      libcperciva_be64enc_link2((void *)pblk, stream->nonce);
+      libcperciva_be64enc_link2((void *)(pblk + (signed long int)8), stream->bytectr / (unsigned long int)16);
       crypto_aes_encrypt_block(pblk, stream->buf, stream->key);
     }
 
@@ -4529,25 +4529,25 @@ signed int crypto_dh_compute(const unsigned char *pub, const unsigned char *priv
 {
   struct bignum_st *a;
   a=BN_bin2bn(pub, 256, (struct bignum_st *)(void *)0);
-  signed int return_value_blinded_modexp$4;
+  signed int return_value_blinded_modexp_4;
   if(a == ((struct bignum_st *)NULL))
     do
     {
-      unsigned long int return_value_ERR_get_error$1;
-      return_value_ERR_get_error$1=ERR_get_error();
-      char *return_value_ERR_error_string$2;
-      return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-      libcperciva_warnx("%s", return_value_ERR_error_string$2);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 0;
+      unsigned long int return_value_ERR_get_error_1;
+      return_value_ERR_get_error_1=ERR_get_error();
+      char *return_value_ERR_error_string_2;
+      return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+      libcperciva_warnx("%s", return_value_ERR_error_string_2);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 0;
     }
     while((_Bool)0);
 
   else
   {
-    return_value_blinded_modexp$4=blinded_modexp(key, a, priv);
-    if(return_value_blinded_modexp$4 == 0)
+    return_value_blinded_modexp_4=blinded_modexp(key, a, priv);
+    if(return_value_blinded_modexp_4 == 0)
     {
       BN_free(a);
       return 0;
@@ -4568,13 +4568,13 @@ err0:
 // file ../libcperciva/crypto/crypto_dh.h line 24
 signed int crypto_dh_generate(unsigned char *pub, unsigned char *priv)
 {
-  signed int return_value_crypto_entropy_read$1;
-  return_value_crypto_entropy_read$1=crypto_entropy_read(priv, (unsigned long int)32);
-  signed int return_value_crypto_dh_generate_pub$2;
-  if(return_value_crypto_entropy_read$1 == 0)
+  signed int return_value_crypto_entropy_read_1;
+  return_value_crypto_entropy_read_1=crypto_entropy_read(priv, (unsigned long int)32);
+  signed int return_value_crypto_dh_generate_pub_2;
+  if(return_value_crypto_entropy_read_1 == 0)
   {
-    return_value_crypto_dh_generate_pub$2=crypto_dh_generate_pub(pub, priv);
-    if(!(return_value_crypto_dh_generate_pub$2 == 0))
+    return_value_crypto_dh_generate_pub_2=crypto_dh_generate_pub(pub, priv);
+    if(!(return_value_crypto_dh_generate_pub_2 == 0))
       goto err0;
 
     return 0;
@@ -4595,43 +4595,43 @@ signed int crypto_dh_generate_pub(unsigned char *pub, const unsigned char *priv)
 {
   struct bignum_st *two;
   two=BN_new();
-  signed int return_value_BN_set_word$7;
-  signed int return_value_blinded_modexp$8;
+  signed int return_value_BN_set_word_7;
+  signed int return_value_blinded_modexp_8;
   if(two == ((struct bignum_st *)NULL))
     do
     {
-      unsigned long int return_value_ERR_get_error$1;
-      return_value_ERR_get_error$1=ERR_get_error();
-      char *return_value_ERR_error_string$2;
-      return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-      libcperciva_warnx("%s", return_value_ERR_error_string$2);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 0;
+      unsigned long int return_value_ERR_get_error_1;
+      return_value_ERR_get_error_1=ERR_get_error();
+      char *return_value_ERR_error_string_2;
+      return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+      libcperciva_warnx("%s", return_value_ERR_error_string_2);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 0;
     }
     while((_Bool)0);
 
   else
   {
-    return_value_BN_set_word$7=BN_set_word(two, (unsigned long int)2);
-    if(return_value_BN_set_word$7 == 0)
+    return_value_BN_set_word_7=BN_set_word(two, (unsigned long int)2);
+    if(return_value_BN_set_word_7 == 0)
       do
       {
-        unsigned long int return_value_ERR_get_error$4;
-        return_value_ERR_get_error$4=ERR_get_error();
-        char *return_value_ERR_error_string$5;
-        return_value_ERR_error_string$5=ERR_error_string(return_value_ERR_get_error$4, (char *)(void *)0);
-        libcperciva_warnx("%s", return_value_ERR_error_string$5);
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        *return_value___errno_location$6 = 0;
+        unsigned long int return_value_ERR_get_error_4;
+        return_value_ERR_get_error_4=ERR_get_error();
+        char *return_value_ERR_error_string_5;
+        return_value_ERR_error_string_5=ERR_error_string(return_value_ERR_get_error_4, (char *)(void *)0);
+        libcperciva_warnx("%s", return_value_ERR_error_string_5);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        *return_value___errno_location_6 = 0;
       }
       while((_Bool)0);
 
     else
     {
-      return_value_blinded_modexp$8=blinded_modexp(pub, two, priv);
-      if(return_value_blinded_modexp$8 == 0)
+      return_value_blinded_modexp_8=blinded_modexp(pub, two, priv);
+      if(return_value_blinded_modexp_8 == 0)
       {
         BN_free(two);
         return 0;
@@ -4653,9 +4653,9 @@ err0:
 // file ../libcperciva/crypto/crypto_dh.h line 41
 signed int crypto_dh_sanitycheck(const unsigned char *pub)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)pub, (const void *)crypto_dh_group14, (unsigned long int)256);
-  if(return_value_memcmp$1 >= 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)pub, (const void *)crypto_dh_group14, (unsigned long int)256);
+  if(return_value_memcmp_1 >= 0)
     return -1;
 
   else
@@ -4669,9 +4669,9 @@ signed int crypto_entropy_read(unsigned char *buf, unsigned long int buflen)
   unsigned long int bytes_to_provide;
   if(instantiated == 0)
   {
-    signed int return_value_instantiate$1;
-    return_value_instantiate$1=instantiate();
-    if(!(return_value_instantiate$1 == 0))
+    signed int return_value_instantiate_1;
+    return_value_instantiate_1=instantiate();
+    if(!(return_value_instantiate_1 == 0))
       return -1;
 
     instantiated = 1;
@@ -4681,9 +4681,9 @@ signed int crypto_entropy_read(unsigned char *buf, unsigned long int buflen)
   {
     if(drbg.reseed_counter >= 257u)
     {
-      signed int return_value_reseed$2;
-      return_value_reseed$2=reseed();
-      if(!(return_value_reseed$2 == 0))
+      signed int return_value_reseed_2;
+      return_value_reseed_2=reseed();
+      if(!(return_value_reseed_2 == 0))
         return -1;
 
     }
@@ -4717,28 +4717,28 @@ signed int daemonize(const char *spid)
   struct _IO_FILE *f;
   signed int fd[2l];
   char dummy = (char)0;
-  signed int return_value_pipe$3;
-  return_value_pipe$3=pipe(fd);
-  signed int return_value_fork$4;
-  signed int return_value_close$7;
-  signed int return_value_setsid$17;
-  signed int return_value_getpid$22;
-  signed int return_value_fprintf$23;
-  signed int return_value_fclose$26;
-  signed long int return_value_noeintr_write$29;
-  signed int return_value_close$30;
-  signed int return_value_close$34;
-  if(!(return_value_pipe$3 == 0))
+  signed int return_value_pipe_3;
+  return_value_pipe_3=pipe(fd);
+  signed int return_value_fork_4;
+  signed int return_value_close_7;
+  signed int return_value_setsid_17;
+  signed int return_value_getpid_22;
+  signed int return_value_fprintf_23;
+  signed int return_value_fclose_26;
+  signed long int return_value_noeintr_write_29;
+  signed int return_value_close_30;
+  signed int return_value_close_34;
+  if(!(return_value_pipe_3 == 0))
     do
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 0))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 0))
       {
         libcperciva_warn("pipe");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
       }
 
       else
@@ -4748,10 +4748,10 @@ signed int daemonize(const char *spid)
 
   else
   {
-    return_value_fork$4=fork();
-    if(!(return_value_fork$4 == -1))
+    return_value_fork_4=fork();
+    if(!(return_value_fork_4 == -1))
     {
-      if(return_value_fork$4 == 0)
+      if(return_value_fork_4 == 0)
         goto __CPROVER_DUMP_L8;
 
     }
@@ -4760,14 +4760,14 @@ signed int daemonize(const char *spid)
     {
       do
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        if(!(*return_value___errno_location$6 == 0))
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        if(!(*return_value___errno_location_6 == 0))
         {
           libcperciva_warn("fork");
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = 0;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = 0;
         }
 
         else
@@ -4782,24 +4782,24 @@ signed int daemonize(const char *spid)
     }
     do
     {
-      return_value_close$7=close(fd[(signed long int)1]);
-      if(return_value_close$7 == 0)
+      return_value_close_7=close(fd[(signed long int)1]);
+      if(return_value_close_7 == 0)
         break;
 
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      if(!(*return_value___errno_location$8 == 4))
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      if(!(*return_value___errno_location_8 == 4))
       {
         do
         {
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          if(!(*return_value___errno_location$10 == 0))
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          if(!(*return_value___errno_location_10 == 0))
           {
             libcperciva_warn("close");
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            *return_value___errno_location$9 = 0;
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            *return_value___errno_location_9 = 0;
           }
 
           else
@@ -4813,14 +4813,14 @@ signed int daemonize(const char *spid)
     while((_Bool)1);
     do
     {
-      signed long int return_value_read$11;
-      return_value_read$11=read(fd[(signed long int)0], (void *)&dummy, (unsigned long int)1);
-      if(!(return_value_read$11 == -1l))
+      signed long int return_value_read_11;
+      return_value_read_11=read(fd[(signed long int)0], (void *)&dummy, (unsigned long int)1);
+      if(!(return_value_read_11 == -1l))
       {
-        if(return_value_read$11 == 0l)
+        if(return_value_read_11 == 0l)
           goto __CPROVER_DUMP_L16;
 
-        if(return_value_read$11 == 1l)
+        if(return_value_read_11 == 1l)
           goto __CPROVER_DUMP_L17;
 
       }
@@ -4840,20 +4840,20 @@ signed int daemonize(const char *spid)
 
     __CPROVER_DUMP_L18:
       ;
-      signed int *return_value___errno_location$14;
-      return_value___errno_location$14=__errno_location();
-      if(!(*return_value___errno_location$14 == 4))
+      signed int *return_value___errno_location_14;
+      return_value___errno_location_14=__errno_location();
+      if(!(*return_value___errno_location_14 == 4))
       {
         do
         {
-          signed int *return_value___errno_location$13;
-          return_value___errno_location$13=__errno_location();
-          if(!(*return_value___errno_location$13 == 0))
+          signed int *return_value___errno_location_13;
+          return_value___errno_location_13=__errno_location();
+          if(!(*return_value___errno_location_13 == 0))
           {
             libcperciva_warn("read");
-            signed int *return_value___errno_location$12;
-            return_value___errno_location$12=__errno_location();
-            *return_value___errno_location$12 = 0;
+            signed int *return_value___errno_location_12;
+            return_value___errno_location_12=__errno_location();
+            *return_value___errno_location_12 = 0;
           }
 
           else
@@ -4868,19 +4868,19 @@ signed int daemonize(const char *spid)
 
   __CPROVER_DUMP_L23:
     ;
-    return_value_setsid$17=setsid();
-    if(return_value_setsid$17 == -1)
+    return_value_setsid_17=setsid();
+    if(return_value_setsid_17 == -1)
     {
       do
       {
-        signed int *return_value___errno_location$16;
-        return_value___errno_location$16=__errno_location();
-        if(!(*return_value___errno_location$16 == 0))
+        signed int *return_value___errno_location_16;
+        return_value___errno_location_16=__errno_location();
+        if(!(*return_value___errno_location_16 == 0))
         {
           libcperciva_warn("setsid");
-          signed int *return_value___errno_location$15;
-          return_value___errno_location$15=__errno_location();
-          *return_value___errno_location$15 = 0;
+          signed int *return_value___errno_location_15;
+          return_value___errno_location_15=__errno_location();
+          *return_value___errno_location_15 = 0;
         }
 
         else
@@ -4895,14 +4895,14 @@ signed int daemonize(const char *spid)
     {
       do
       {
-        signed int *return_value___errno_location$19;
-        return_value___errno_location$19=__errno_location();
-        if(!(*return_value___errno_location$19 == 0))
+        signed int *return_value___errno_location_19;
+        return_value___errno_location_19=__errno_location();
+        if(!(*return_value___errno_location_19 == 0))
         {
           libcperciva_warn("fopen(%s)", spid);
-          signed int *return_value___errno_location$18;
-          return_value___errno_location$18=__errno_location();
-          *return_value___errno_location$18 = 0;
+          signed int *return_value___errno_location_18;
+          return_value___errno_location_18=__errno_location();
+          *return_value___errno_location_18 = 0;
         }
 
         else
@@ -4912,20 +4912,20 @@ signed int daemonize(const char *spid)
       goto die;
     }
 
-    return_value_getpid$22=getpid();
-    return_value_fprintf$23=fprintf(f, "%d", return_value_getpid$22);
-    if(!(return_value_fprintf$23 >= 0))
+    return_value_getpid_22=getpid();
+    return_value_fprintf_23=fprintf(f, "%d", return_value_getpid_22);
+    if(!(return_value_fprintf_23 >= 0))
     {
       do
       {
-        signed int *return_value___errno_location$21;
-        return_value___errno_location$21=__errno_location();
-        if(!(*return_value___errno_location$21 == 0))
+        signed int *return_value___errno_location_21;
+        return_value___errno_location_21=__errno_location();
+        if(!(*return_value___errno_location_21 == 0))
         {
           libcperciva_warn("fprintf");
-          signed int *return_value___errno_location$20;
-          return_value___errno_location$20=__errno_location();
-          *return_value___errno_location$20 = 0;
+          signed int *return_value___errno_location_20;
+          return_value___errno_location_20=__errno_location();
+          *return_value___errno_location_20 = 0;
         }
 
         else
@@ -4935,19 +4935,19 @@ signed int daemonize(const char *spid)
       goto die;
     }
 
-    return_value_fclose$26=fclose(f);
-    if(!(return_value_fclose$26 == 0))
+    return_value_fclose_26=fclose(f);
+    if(!(return_value_fclose_26 == 0))
     {
       do
       {
-        signed int *return_value___errno_location$25;
-        return_value___errno_location$25=__errno_location();
-        if(!(*return_value___errno_location$25 == 0))
+        signed int *return_value___errno_location_25;
+        return_value___errno_location_25=__errno_location();
+        if(!(*return_value___errno_location_25 == 0))
         {
           libcperciva_warn("fclose");
-          signed int *return_value___errno_location$24;
-          return_value___errno_location$24=__errno_location();
-          *return_value___errno_location$24 = 0;
+          signed int *return_value___errno_location_24;
+          return_value___errno_location_24=__errno_location();
+          *return_value___errno_location_24 = 0;
         }
 
         else
@@ -4957,19 +4957,19 @@ signed int daemonize(const char *spid)
       goto die;
     }
 
-    return_value_noeintr_write$29=noeintr_write(fd[(signed long int)1], (const void *)&dummy, (unsigned long int)1);
-    if(return_value_noeintr_write$29 == -1l)
+    return_value_noeintr_write_29=noeintr_write(fd[(signed long int)1], (const void *)&dummy, (unsigned long int)1);
+    if(return_value_noeintr_write_29 == -1l)
     {
       do
       {
-        signed int *return_value___errno_location$28;
-        return_value___errno_location$28=__errno_location();
-        if(!(*return_value___errno_location$28 == 0))
+        signed int *return_value___errno_location_28;
+        return_value___errno_location_28=__errno_location();
+        if(!(*return_value___errno_location_28 == 0))
         {
           libcperciva_warn("write");
-          signed int *return_value___errno_location$27;
-          return_value___errno_location$27=__errno_location();
-          *return_value___errno_location$27 = 0;
+          signed int *return_value___errno_location_27;
+          return_value___errno_location_27=__errno_location();
+          *return_value___errno_location_27 = 0;
         }
 
         else
@@ -4981,24 +4981,24 @@ signed int daemonize(const char *spid)
 
     do
     {
-      return_value_close$30=close(fd[(signed long int)0]);
-      if(return_value_close$30 == 0)
+      return_value_close_30=close(fd[(signed long int)0]);
+      if(return_value_close_30 == 0)
         break;
 
-      signed int *return_value___errno_location$31;
-      return_value___errno_location$31=__errno_location();
-      if(!(*return_value___errno_location$31 == 4))
+      signed int *return_value___errno_location_31;
+      return_value___errno_location_31=__errno_location();
+      if(!(*return_value___errno_location_31 == 4))
       {
         do
         {
-          signed int *return_value___errno_location$33;
-          return_value___errno_location$33=__errno_location();
-          if(!(*return_value___errno_location$33 == 0))
+          signed int *return_value___errno_location_33;
+          return_value___errno_location_33=__errno_location();
+          if(!(*return_value___errno_location_33 == 0))
           {
             libcperciva_warn("close");
-            signed int *return_value___errno_location$32;
-            return_value___errno_location$32=__errno_location();
-            *return_value___errno_location$32 = 0;
+            signed int *return_value___errno_location_32;
+            return_value___errno_location_32=__errno_location();
+            *return_value___errno_location_32 = 0;
           }
 
           else
@@ -5012,24 +5012,24 @@ signed int daemonize(const char *spid)
     while((_Bool)1);
     do
     {
-      return_value_close$34=close(fd[(signed long int)1]);
-      if(return_value_close$34 == 0)
+      return_value_close_34=close(fd[(signed long int)1]);
+      if(return_value_close_34 == 0)
         break;
 
-      signed int *return_value___errno_location$35;
-      return_value___errno_location$35=__errno_location();
-      if(!(*return_value___errno_location$35 == 4))
+      signed int *return_value___errno_location_35;
+      return_value___errno_location_35=__errno_location();
+      if(!(*return_value___errno_location_35 == 4))
       {
         do
         {
-          signed int *return_value___errno_location$37;
-          return_value___errno_location$37=__errno_location();
-          if(!(*return_value___errno_location$37 == 0))
+          signed int *return_value___errno_location_37;
+          return_value___errno_location_37=__errno_location();
+          if(!(*return_value___errno_location_37 == 0))
           {
             libcperciva_warn("close");
-            signed int *return_value___errno_location$36;
-            return_value___errno_location$36=__errno_location();
-            *return_value___errno_location$36 = 0;
+            signed int *return_value___errno_location_36;
+            return_value___errno_location_36=__errno_location();
+            *return_value___errno_location_36 = 0;
           }
 
           else
@@ -5082,9 +5082,9 @@ static signed int dhread(struct handshake_cookie *H)
 // file ../proto/proto_handshake.c line 236
 static signed int dhwrite(struct handshake_cookie *H)
 {
-  signed int return_value_proto_crypt_dh_generate$1;
-  return_value_proto_crypt_dh_generate$1=proto_crypt_dh_generate(H->yh_local, H->x, H->dhmac_local, H->nofps);
-  if(return_value_proto_crypt_dh_generate$1 == 0)
+  signed int return_value_proto_crypt_dh_generate_1;
+  return_value_proto_crypt_dh_generate_1=proto_crypt_dh_generate(H->yh_local, H->x, H->dhmac_local, H->nofps);
+  if(return_value_proto_crypt_dh_generate_1 == 0)
   {
     H->write_cookie=network_write(H->s, H->yh_local, (unsigned long int)(256 + 32), (unsigned long int)(256 + 32), callback_dh_write, (void *)H);
     if(H->write_cookie == NULL)
@@ -5107,10 +5107,10 @@ static signed int dhwrite(struct handshake_cookie *H)
 signed int dispatch_accept(signed int s, const char *tgt, double rtime, struct sock_addr **sas, signed int decr, signed int nofps, signed int requirefps, signed int nokeepalive, struct proto_secret *K, unsigned long int nconn_max, double timeo)
 {
   struct accept_state *A;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct accept_state) /*96ul*/ );
-  A = (struct accept_state *)return_value_malloc$1;
-  signed int return_value_doaccept$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct accept_state) /*96ul*/ );
+  A = (struct accept_state *)return_value_malloc_1;
+  signed int return_value_doaccept_3;
   if(!(A == ((struct accept_state *)NULL)))
   {
     A->s = s;
@@ -5129,15 +5129,15 @@ signed int dispatch_accept(signed int s, const char *tgt, double rtime, struct s
     if(rtime > 0.0)
     {
       A->T=dnsthread_spawn();
-      void *return_value_events_timer_register_double$2;
-      return_value_events_timer_register_double$2=events_timer_register_double(callback_resolveagain, (void *)A, A->rtime);
-      if(return_value_events_timer_register_double$2 == NULL)
+      void *return_value_events_timer_register_double_2;
+      return_value_events_timer_register_double_2=events_timer_register_double(callback_resolveagain, (void *)A, A->rtime);
+      if(return_value_events_timer_register_double_2 == NULL)
         goto err1;
 
     }
 
-    return_value_doaccept$3=doaccept(A);
-    if(return_value_doaccept$3 == 0)
+    return_value_doaccept_3=doaccept(A);
+    if(return_value_doaccept_3 == 0)
       return 0;
 
 
@@ -5166,12 +5166,12 @@ signed int dnsthread_kill(struct dnsthread_internal *T)
   if(!(rc == 0))
     do
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(rc);
-      libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror$1);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(rc);
+      libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror_1);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
     }
     while((_Bool)0);
 
@@ -5184,12 +5184,12 @@ signed int dnsthread_kill(struct dnsthread_internal *T)
     if(!(rc == 0))
       do
       {
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(rc);
-        libcperciva_warnx("pthread_cond_signal: %s", return_value_strerror$3);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = 0;
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(rc);
+        libcperciva_warnx("pthread_cond_signal: %s", return_value_strerror_3);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = 0;
       }
       while((_Bool)0);
 
@@ -5200,12 +5200,12 @@ signed int dnsthread_kill(struct dnsthread_internal *T)
       {
         do
         {
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(rc);
-          libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror$5);
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          *return_value___errno_location$6 = 0;
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(rc);
+          libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror_5);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          *return_value___errno_location_6 = 0;
         }
         while((_Bool)0);
         goto err0;
@@ -5218,12 +5218,12 @@ signed int dnsthread_kill(struct dnsthread_internal *T)
         {
           do
           {
-            char *return_value_strerror$7;
-            return_value_strerror$7=strerror(rc);
-            libcperciva_warnx("pthread_join: %s", return_value_strerror$7);
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            *return_value___errno_location$8 = 0;
+            char *return_value_strerror_7;
+            return_value_strerror_7=strerror(rc);
+            libcperciva_warnx("pthread_join: %s", return_value_strerror_7);
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            *return_value___errno_location_8 = 0;
           }
           while((_Bool)0);
           goto err0;
@@ -5249,10 +5249,10 @@ err0:
 signed int dnsthread_resolve(const char *addr, signed int (*callback)(void *, struct sock_addr **), void *cookie)
 {
   struct resolve_cookie *R;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct resolve_cookie) /*24ul*/ );
-  R = (struct resolve_cookie *)return_value_malloc$1;
-  signed int return_value_dnsthread_resolveone$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct resolve_cookie) /*24ul*/ );
+  R = (struct resolve_cookie *)return_value_malloc_1;
+  signed int return_value_dnsthread_resolveone_2;
   if(!(R == ((struct resolve_cookie *)NULL)))
   {
     R->callback = callback;
@@ -5260,8 +5260,8 @@ signed int dnsthread_resolve(const char *addr, signed int (*callback)(void *, st
     R->T=dnsthread_spawn();
     if(!(R->T == ((struct dnsthread_internal *)NULL)))
     {
-      return_value_dnsthread_resolveone$2=dnsthread_resolveone(R->T, addr, callback_resolve$link1, (void *)R);
-      if(return_value_dnsthread_resolveone$2 == 0)
+      return_value_dnsthread_resolveone_2=dnsthread_resolveone(R->T, addr, callback_resolve_link1, (void *)R);
+      if(return_value_dnsthread_resolveone_2 == 0)
         return 0;
 
 
@@ -5289,17 +5289,17 @@ signed int dnsthread_resolveone(struct dnsthread_internal *T, const char *addr, 
   signed int err = 0;
   signed int rc;
   rc=pthread_mutex_lock(&T->mtx);
-  signed int return_value_events_network_register$7;
-  signed int *return_value___errno_location$10;
+  signed int return_value_events_network_register_7;
+  signed int *return_value___errno_location_10;
   if(!(rc == 0))
     do
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(rc);
-      libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror$1);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(rc);
+      libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror_1);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
     }
     while((_Bool)0);
 
@@ -5322,30 +5322,30 @@ signed int dnsthread_resolveone(struct dnsthread_internal *T, const char *addr, 
       {
         do
         {
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(rc);
-          libcperciva_warnx("pthread_cond_signal: %s", return_value_strerror$3);
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = 0;
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(rc);
+          libcperciva_warnx("pthread_cond_signal: %s", return_value_strerror_3);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = 0;
         }
         while((_Bool)0);
         goto err1;
       }
 
-      return_value_events_network_register$7=events_network_register(callback_resolveone, (void *)T, T->wakeupsock[(signed long int)1], 0);
-      if(!(return_value_events_network_register$7 == 0))
+      return_value_events_network_register_7=events_network_register(callback_resolveone, (void *)T, T->wakeupsock[(signed long int)1], 0);
+      if(!(return_value_events_network_register_7 == 0))
       {
         do
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          if(!(*return_value___errno_location$6 == 0))
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          if(!(*return_value___errno_location_6 == 0))
           {
             libcperciva_warn("Error registering wakeup listener");
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            *return_value___errno_location$5 = 0;
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            *return_value___errno_location_5 = 0;
           }
 
           else
@@ -5363,12 +5363,12 @@ signed int dnsthread_resolveone(struct dnsthread_internal *T, const char *addr, 
     if(!(rc == 0))
       do
       {
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(rc);
-        libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror$8);
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        *return_value___errno_location$9 = 0;
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(rc);
+        libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror_8);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        *return_value___errno_location_9 = 0;
       }
       while((_Bool)0);
 
@@ -5376,8 +5376,8 @@ signed int dnsthread_resolveone(struct dnsthread_internal *T, const char *addr, 
     {
       if(!(err == 0))
       {
-        return_value___errno_location$10=__errno_location();
-        *return_value___errno_location$10 = err;
+        return_value___errno_location_10=__errno_location();
+        *return_value___errno_location_10 = err;
       }
 
       return 0;
@@ -5399,22 +5399,22 @@ struct dnsthread_internal * dnsthread_spawn(void)
 {
   struct dnsthread_internal *T;
   signed int rc;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dnsthread_internal) /*152ul*/ );
-  T = (struct dnsthread_internal *)return_value_malloc$1;
-  signed int return_value_socketpair$10;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dnsthread_internal) /*152ul*/ );
+  T = (struct dnsthread_internal *)return_value_malloc_1;
+  signed int return_value_socketpair_10;
   if(!(T == ((struct dnsthread_internal *)NULL)))
   {
-    rc=pthread_mutex_init(&T->mtx, (const union anonymous$6 *)(void *)0);
+    rc=pthread_mutex_init(&T->mtx, (const union anonymous_6 *)(void *)0);
     if(!(rc == 0))
       do
       {
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(rc);
-        libcperciva_warnx("pthread_mutex_init: %s", return_value_strerror$2);
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 0;
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(rc);
+        libcperciva_warnx("pthread_mutex_init: %s", return_value_strerror_2);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 0;
       }
       while((_Bool)0);
 
@@ -5424,44 +5424,44 @@ struct dnsthread_internal * dnsthread_spawn(void)
       if(!(rc == 0))
         do
         {
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(rc);
-          libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror$4);
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = 0;
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(rc);
+          libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror_4);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = 0;
         }
         while((_Bool)0);
 
       else
       {
-        rc=pthread_cond_init(&T->cv, (const union anonymous$6 *)(void *)0);
+        rc=pthread_cond_init(&T->cv, (const union anonymous_6 *)(void *)0);
         if(!(rc == 0))
           do
           {
-            char *return_value_strerror$6;
-            return_value_strerror$6=strerror(rc);
-            libcperciva_warnx("pthread_cond_init: %s", return_value_strerror$6);
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            *return_value___errno_location$7 = 0;
+            char *return_value_strerror_6;
+            return_value_strerror_6=strerror(rc);
+            libcperciva_warnx("pthread_cond_init: %s", return_value_strerror_6);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            *return_value___errno_location_7 = 0;
           }
           while((_Bool)0);
 
         else
         {
-          return_value_socketpair$10=socketpair(1, 1, 0, T->wakeupsock);
-          if(!(return_value_socketpair$10 == 0))
+          return_value_socketpair_10=socketpair(1, 1, 0, T->wakeupsock);
+          if(!(return_value_socketpair_10 == 0))
             do
             {
-              signed int *return_value___errno_location$9;
-              return_value___errno_location$9=__errno_location();
-              if(!(*return_value___errno_location$9 == 0))
+              signed int *return_value___errno_location_9;
+              return_value___errno_location_9=__errno_location();
+              if(!(*return_value___errno_location_9 == 0))
               {
                 libcperciva_warn("socketpair");
-                signed int *return_value___errno_location$8;
-                return_value___errno_location$8=__errno_location();
-                *return_value___errno_location$8 = 0;
+                signed int *return_value___errno_location_8;
+                return_value___errno_location_8=__errno_location();
+                *return_value___errno_location_8 = 0;
               }
 
               else
@@ -5476,12 +5476,12 @@ struct dnsthread_internal * dnsthread_spawn(void)
             if(!(rc == 0))
               do
               {
-                char *return_value_strerror$11;
-                return_value_strerror$11=strerror(rc);
-                libcperciva_warnx("pthread_create: %s", return_value_strerror$11);
-                signed int *return_value___errno_location$12;
-                return_value___errno_location$12=__errno_location();
-                *return_value___errno_location$12 = 0;
+                char *return_value_strerror_11;
+                return_value_strerror_11=strerror(rc);
+                libcperciva_warnx("pthread_create: %s", return_value_strerror_11);
+                signed int *return_value___errno_location_12;
+                return_value___errno_location_12=__errno_location();
+                *return_value___errno_location_12 = 0;
               }
               while((_Bool)0);
 
@@ -5492,12 +5492,12 @@ struct dnsthread_internal * dnsthread_spawn(void)
               {
                 do
                 {
-                  char *return_value_strerror$13;
-                  return_value_strerror$13=strerror(rc);
-                  libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror$13);
-                  signed int *return_value___errno_location$14;
-                  return_value___errno_location$14=__errno_location();
-                  *return_value___errno_location$14 = 0;
+                  char *return_value_strerror_13;
+                  return_value_strerror_13=strerror(rc);
+                  libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror_13);
+                  signed int *return_value___errno_location_14;
+                  return_value___errno_location_14=__errno_location();
+                  *return_value___errno_location_14 = 0;
                 }
                 while((_Bool)0);
                 goto err0;
@@ -5569,24 +5569,24 @@ static signed int docallback(void *cookie)
   return rc;
 }
 
-// docallback$link1
+// docallback_link1
 // file ../libcperciva/network/network_read.c line 27
-static signed int docallback$link1(struct network_read_cookie *C, signed long int nbytes)
+static signed int docallback_link1(struct network_read_cookie *C, signed long int nbytes)
 {
-  signed int rc$link1;
-  rc$link1=C->callback(C->cookie, nbytes);
+  signed int rc_link1;
+  rc_link1=C->callback(C->cookie, nbytes);
   free((void *)C);
-  return rc$link1;
+  return rc_link1;
 }
 
-// docallback$link2
+// docallback_link2
 // file ../libcperciva/network/network_write.c line 45
-static signed int docallback$link2(struct network_write_cookie *C$link1, signed long int nbytes$link1)
+static signed int docallback_link2(struct network_write_cookie *C_link1, signed long int nbytes_link1)
 {
-  signed int rc$link2;
-  rc$link2=C$link1->callback(C$link1->cookie, nbytes$link1);
-  free((void *)C$link1);
-  return rc$link2;
+  signed int rc_link2;
+  rc_link2=C_link1->callback(C_link1->cookie, nbytes_link1);
+  free((void *)C_link1);
+  return rc_link2;
 }
 
 // doevent
@@ -5606,9 +5606,9 @@ static signed int dofailed(struct connect_cookie *C)
   close(C->s);
   C->s = -1;
   C->sas = C->sas + 1l;
-  signed int return_value_tryconnect$1;
-  return_value_tryconnect$1=tryconnect(C);
-  return return_value_tryconnect$1;
+  signed int return_value_tryconnect_1;
+  return_value_tryconnect_1=tryconnect(C);
+  return return_value_tryconnect_1;
 }
 
 // done
@@ -5659,23 +5659,23 @@ static signed int dropconn(struct conn_state *C)
 signed int elasticarray_append(struct elasticarray *EA, const void *buf, unsigned long int nrec, unsigned long int reclen)
 {
   unsigned long int bufpos = EA->size;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(18446744073709551615UL / reclen >= nrec))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = nrec * reclen > 18446744073709551615UL - EA->size ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = nrec * reclen > 18446744073709551615UL - EA->size ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
     goto err0;
   }
 
-  signed int return_value_resize$3;
-  return_value_resize$3=resize(EA, EA->size + nrec * reclen);
-  if(return_value_resize$3 == 0)
+  signed int return_value_resize_3;
+  return_value_resize_3=resize(EA, EA->size + nrec * reclen);
+  if(return_value_resize_3 == 0)
   {
     memcpy((void *)((unsigned char *)EA->buf + (signed long int)bufpos), buf, nrec * reclen);
     return 0;
@@ -5694,9 +5694,9 @@ signed int elasticarray_append(struct elasticarray *EA, const void *buf, unsigne
 // file ../libcperciva/datastruct/elasticarray.c line 258
 signed int elasticarray_export(struct elasticarray *EA, void **buf, unsigned long int *nrec, unsigned long int reclen)
 {
-  signed int return_value_elasticarray_truncate$1;
-  return_value_elasticarray_truncate$1=elasticarray_truncate(EA);
-  if(return_value_elasticarray_truncate$1 == 0)
+  signed int return_value_elasticarray_truncate_1;
+  return_value_elasticarray_truncate_1=elasticarray_truncate(EA);
+  if(return_value_elasticarray_truncate_1 == 0)
   {
     *buf = EA->buf;
     *nrec=elasticarray_getsize(EA, reclen);
@@ -5743,17 +5743,17 @@ unsigned long int elasticarray_getsize(struct elasticarray *EA, unsigned long in
 struct elasticarray * elasticarray_init(unsigned long int nrec, unsigned long int reclen)
 {
   struct elasticarray *EA;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct elasticarray) /*24ul*/ );
-  EA = (struct elasticarray *)return_value_malloc$1;
-  signed int return_value_elasticarray_resize$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct elasticarray) /*24ul*/ );
+  EA = (struct elasticarray *)return_value_malloc_1;
+  signed int return_value_elasticarray_resize_2;
   if(!(EA == ((struct elasticarray *)NULL)))
   {
     EA->alloc = (unsigned long int)0;
     EA->size = EA->alloc;
     EA->buf = (void *)0;
-    return_value_elasticarray_resize$2=elasticarray_resize(EA, nrec, reclen);
-    if(return_value_elasticarray_resize$2 == 0)
+    return_value_elasticarray_resize_2=elasticarray_resize(EA, nrec, reclen);
+    if(return_value_elasticarray_resize_2 == 0)
       return EA;
 
 
@@ -5774,15 +5774,15 @@ signed int elasticarray_resize(struct elasticarray *EA, unsigned long int nrec, 
 {
   if(!(18446744073709551615UL / reclen >= nrec))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
     goto err0;
   }
 
-  signed int return_value_resize$2;
-  return_value_resize$2=resize(EA, nrec * reclen);
-  if(return_value_resize$2 == 0)
+  signed int return_value_resize_2;
+  return_value_resize_2=resize(EA, nrec * reclen);
+  if(return_value_resize_2 == 0)
     return 0;
 
   else
@@ -5799,20 +5799,20 @@ signed int elasticarray_resize(struct elasticarray *EA, unsigned long int nrec, 
 void elasticarray_shrink(struct elasticarray *EA, unsigned long int nrec, unsigned long int reclen)
 {
   unsigned long int nsize;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(18446744073709551615UL / reclen >= nrec))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = nrec * reclen > EA->size ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = nrec * reclen > EA->size ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     nsize = (unsigned long int)0;
 
   else
     nsize = EA->size - nrec * reclen;
-  signed int return_value_resize$2;
-  return_value_resize$2=resize(EA, nsize);
-  if(!(return_value_resize$2 == 0))
+  signed int return_value_resize_2;
+  return_value_resize_2=resize(EA, nsize);
+  if(!(return_value_resize_2 == 0))
     EA->size = nsize;
 
 }
@@ -5849,14 +5849,14 @@ signed int entropy_read(unsigned char *buf, unsigned long int buflen)
 {
   signed int fd;
   signed long int lenread;
-  signed int return_value_close$7;
+  signed int return_value_close_7;
   if(buflen >= 9223372036854775808ul)
     do
     {
       libcperciva_warnx("Programmer error: Trying to read insane amount of random data: %zu", buflen);
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 0;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 0;
     }
     while((_Bool)0);
 
@@ -5866,14 +5866,14 @@ signed int entropy_read(unsigned char *buf, unsigned long int buflen)
     if(fd == -1)
       do
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(!(*return_value___errno_location$3 == 0))
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(!(*return_value___errno_location_3 == 0))
         {
           libcperciva_warn("open(/dev/urandom)");
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          *return_value___errno_location$2 = 0;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          *return_value___errno_location_2 = 0;
         }
 
         else
@@ -5890,14 +5890,14 @@ signed int entropy_read(unsigned char *buf, unsigned long int buflen)
         {
           do
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            if(!(*return_value___errno_location$5 == 0))
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            if(!(*return_value___errno_location_5 == 0))
             {
               libcperciva_warn("read(/dev/urandom)");
-              signed int *return_value___errno_location$4;
-              return_value___errno_location$4=__errno_location();
-              *return_value___errno_location$4 = 0;
+              signed int *return_value___errno_location_4;
+              return_value___errno_location_4=__errno_location();
+              *return_value___errno_location_4 = 0;
             }
 
             else
@@ -5912,9 +5912,9 @@ signed int entropy_read(unsigned char *buf, unsigned long int buflen)
           do
           {
             libcperciva_warnx("EOF on /dev/urandom?");
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            *return_value___errno_location$6 = 0;
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            *return_value___errno_location_6 = 0;
           }
           while((_Bool)0);
           goto err1;
@@ -5924,24 +5924,24 @@ signed int entropy_read(unsigned char *buf, unsigned long int buflen)
       }
       do
       {
-        return_value_close$7=close(fd);
-        if(!(return_value_close$7 == -1))
+        return_value_close_7=close(fd);
+        if(!(return_value_close_7 == -1))
           break;
 
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        if(!(*return_value___errno_location$10 == 4))
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        if(!(*return_value___errno_location_10 == 4))
         {
           do
           {
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            if(!(*return_value___errno_location$9 == 0))
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            if(!(*return_value___errno_location_9 == 0))
             {
               libcperciva_warn("close(/dev/urandom)");
-              signed int *return_value___errno_location$8;
-              return_value___errno_location$8=__errno_location();
-              *return_value___errno_location$8 = 0;
+              signed int *return_value___errno_location_8;
+              return_value___errno_location_8=__errno_location();
+              *return_value___errno_location_8 = 0;
             }
 
             else
@@ -6093,21 +6093,21 @@ struct eventrec * events_mkrec(signed int (*func)(void *), void *cookie)
 signed int events_network_cancel(signed int s, signed int op)
 {
   struct eventrec **r;
-  signed int return_value_initsocketlist$1;
-  return_value_initsocketlist$1=initsocketlist();
-  unsigned long int return_value_socketlist_getsize$5;
-  struct socketrec *return_value_socketlist_get$6;
-  struct socketrec *return_value_socketlist_get$7;
-  if(return_value_initsocketlist$1 == 0)
+  signed int return_value_initsocketlist_1;
+  return_value_initsocketlist_1=initsocketlist();
+  unsigned long int return_value_socketlist_getsize_5;
+  struct socketrec *return_value_socketlist_get_6;
+  struct socketrec *return_value_socketlist_get_7;
+  if(return_value_initsocketlist_1 == 0)
   {
     if(s >= 1024 || !(s >= 0))
     {
       do
       {
         libcperciva_warnx("Invalid file descriptor for network event: %d", s);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 0;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 0;
       }
       while((_Bool)0);
       goto err0;
@@ -6118,39 +6118,39 @@ signed int events_network_cancel(signed int s, signed int op)
       do
       {
         libcperciva_warnx("Invalid operation for network event: %d", op);
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 0;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 0;
       }
       while((_Bool)0);
       goto err0;
     }
 
-    return_value_socketlist_getsize$5=socketlist_getsize(S);
-    if((unsigned long int)s >= return_value_socketlist_getsize$5)
+    return_value_socketlist_getsize_5=socketlist_getsize(S);
+    if((unsigned long int)s >= return_value_socketlist_getsize_5)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = 2;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = 2;
       goto err0;
     }
 
     if(op == 0)
     {
-      return_value_socketlist_get$6=socketlist_get(S, (unsigned long int)s);
-      r = &return_value_socketlist_get$6->reader;
+      return_value_socketlist_get_6=socketlist_get(S, (unsigned long int)s);
+      r = &return_value_socketlist_get_6->reader;
     }
 
     else
     {
-      return_value_socketlist_get$7=socketlist_get(S, (unsigned long int)s);
-      r = &return_value_socketlist_get$7->writer;
+      return_value_socketlist_get_7=socketlist_get(S, (unsigned long int)s);
+      r = &return_value_socketlist_get_7->writer;
     }
     if(*r == ((struct eventrec *)NULL))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      *return_value___errno_location$8 = 2;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      *return_value___errno_location_8 = 2;
       goto err0;
     }
 
@@ -6189,12 +6189,12 @@ struct eventrec * events_network_get(void)
   {
     if(!((readfds.__fds_bits[(signed long int)(fdscanpos / sizeof(signed long int) * 8 /*64ul*/ )] & (signed long int)(1UL << fdscanpos % sizeof(signed long int) * 8 /*64ul*/ )) == 0l))
     {
-      struct socketrec *return_value_socketlist_get$1;
-      return_value_socketlist_get$1=socketlist_get(S, fdscanpos);
-      r = return_value_socketlist_get$1->reader;
-      struct socketrec *return_value_socketlist_get$2;
-      return_value_socketlist_get$2=socketlist_get(S, fdscanpos);
-      return_value_socketlist_get$2->reader = (struct eventrec *)(void *)0;
+      struct socketrec *return_value_socketlist_get_1;
+      return_value_socketlist_get_1=socketlist_get(S, fdscanpos);
+      r = return_value_socketlist_get_1->reader;
+      struct socketrec *return_value_socketlist_get_2;
+      return_value_socketlist_get_2=socketlist_get(S, fdscanpos);
+      return_value_socketlist_get_2->reader = (struct eventrec *)(void *)0;
       nev = nev - 1ul;
       if(nev == 0ul)
         events_network_selectstats_stopclock();
@@ -6205,12 +6205,12 @@ struct eventrec * events_network_get(void)
 
     if(!((writefds.__fds_bits[(signed long int)(fdscanpos / sizeof(signed long int) * 8 /*64ul*/ )] & (signed long int)(1UL << fdscanpos % sizeof(signed long int) * 8 /*64ul*/ )) == 0l))
     {
-      struct socketrec *return_value_socketlist_get$3;
-      return_value_socketlist_get$3=socketlist_get(S, fdscanpos);
-      r = return_value_socketlist_get$3->writer;
-      struct socketrec *return_value_socketlist_get$4;
-      return_value_socketlist_get$4=socketlist_get(S, fdscanpos);
-      return_value_socketlist_get$4->writer = (struct eventrec *)(void *)0;
+      struct socketrec *return_value_socketlist_get_3;
+      return_value_socketlist_get_3=socketlist_get(S, fdscanpos);
+      r = return_value_socketlist_get_3->writer;
+      struct socketrec *return_value_socketlist_get_4;
+      return_value_socketlist_get_4=socketlist_get(S, fdscanpos);
+      return_value_socketlist_get_4->writer = (struct eventrec *)(void *)0;
       nev = nev - 1ul;
       if(nev == 0ul)
         events_network_selectstats_stopclock();
@@ -6228,23 +6228,23 @@ struct eventrec * events_network_get(void)
 signed int events_network_register(signed int (*func)(void *), void *cookie, signed int s, signed int op)
 {
   struct eventrec **r;
-  signed int return_value_initsocketlist$1;
-  return_value_initsocketlist$1=initsocketlist();
-  unsigned long int return_value_socketlist_getsize$5;
-  signed int return_value_growsocketlist$4;
-  struct socketrec *return_value_socketlist_get$6;
-  struct socketrec *return_value_socketlist_get$7;
-  unsigned long int tmp_post$9;
-  if(return_value_initsocketlist$1 == 0)
+  signed int return_value_initsocketlist_1;
+  return_value_initsocketlist_1=initsocketlist();
+  unsigned long int return_value_socketlist_getsize_5;
+  signed int return_value_growsocketlist_4;
+  struct socketrec *return_value_socketlist_get_6;
+  struct socketrec *return_value_socketlist_get_7;
+  unsigned long int tmp_post_9;
+  if(return_value_initsocketlist_1 == 0)
   {
     if(s >= 1024 || !(s >= 0))
     {
       do
       {
         libcperciva_warnx("Invalid file descriptor for network event: %d", s);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 0;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 0;
       }
       while((_Bool)0);
       goto err0;
@@ -6255,39 +6255,39 @@ signed int events_network_register(signed int (*func)(void *), void *cookie, sig
       do
       {
         libcperciva_warnx("Invalid operation for network event: %d", op);
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 0;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 0;
       }
       while((_Bool)0);
       goto err0;
     }
 
-    return_value_socketlist_getsize$5=socketlist_getsize(S);
-    if((unsigned long int)s >= return_value_socketlist_getsize$5)
+    return_value_socketlist_getsize_5=socketlist_getsize(S);
+    if((unsigned long int)s >= return_value_socketlist_getsize_5)
     {
-      return_value_growsocketlist$4=growsocketlist((unsigned long int)(s + 1));
-      if(!(return_value_growsocketlist$4 == 0))
+      return_value_growsocketlist_4=growsocketlist((unsigned long int)(s + 1));
+      if(!(return_value_growsocketlist_4 == 0))
         goto err0;
 
     }
 
     if(op == 0)
     {
-      return_value_socketlist_get$6=socketlist_get(S, (unsigned long int)s);
-      r = &return_value_socketlist_get$6->reader;
+      return_value_socketlist_get_6=socketlist_get(S, (unsigned long int)s);
+      r = &return_value_socketlist_get_6->reader;
     }
 
     else
     {
-      return_value_socketlist_get$7=socketlist_get(S, (unsigned long int)s);
-      r = &return_value_socketlist_get$7->writer;
+      return_value_socketlist_get_7=socketlist_get(S, (unsigned long int)s);
+      r = &return_value_socketlist_get_7->writer;
     }
     if(!(*r == ((struct eventrec *)NULL)))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      *return_value___errno_location$8 = 17;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      *return_value___errno_location_8 = 17;
       goto err0;
     }
 
@@ -6295,9 +6295,9 @@ signed int events_network_register(signed int (*func)(void *), void *cookie, sig
     if(*r == ((struct eventrec *)NULL))
       goto err0;
 
-    tmp_post$9 = nev;
+    tmp_post_9 = nev;
     nev = nev + 1ul;
-    if(tmp_post$9 == 0ul)
+    if(tmp_post_9 == 0ul)
       events_network_selectstats_startclock();
 
     return 0;
@@ -6317,42 +6317,42 @@ signed int events_network_register(signed int (*func)(void *), void *cookie, sig
 signed int events_network_select(struct timeval *tv)
 {
   unsigned long int i;
-  signed int return_value_initsocketlist$1;
-  return_value_initsocketlist$1=initsocketlist();
-  unsigned long int return_value_socketlist_getsize$2;
-  unsigned long int return_value_socketlist_getsize$5;
-  signed int return_value_select$6;
-  if(return_value_initsocketlist$1 == 0)
+  signed int return_value_initsocketlist_1;
+  return_value_initsocketlist_1=initsocketlist();
+  unsigned long int return_value_socketlist_getsize_2;
+  unsigned long int return_value_socketlist_getsize_5;
+  signed int return_value_select_6;
+  if(return_value_initsocketlist_1 == 0)
   {
     do
     {
       signed int __d0;
-      signed int events_network_select$$1$$1$$__d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(events_network_select$$1$$1$$__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
+      signed int events_network_select__1__1____d1;
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(events_network_select__1__1____d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
-      signed int events_network_select$$1$$2$$__d0;
+      signed int events_network_select__1__2____d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(events_network_select$$1$$2$$__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writefds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(events_network_select__1__2____d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writefds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     i = (unsigned long int)0;
     do
     {
-      return_value_socketlist_getsize$2=socketlist_getsize(S);
-      if(i >= return_value_socketlist_getsize$2)
+      return_value_socketlist_getsize_2=socketlist_getsize(S);
+      if(i >= return_value_socketlist_getsize_2)
         break;
 
-      struct socketrec *return_value_socketlist_get$3;
-      return_value_socketlist_get$3=socketlist_get(S, i);
-      if(!(return_value_socketlist_get$3->reader == ((struct eventrec *)NULL)))
+      struct socketrec *return_value_socketlist_get_3;
+      return_value_socketlist_get_3=socketlist_get(S, i);
+      if(!(return_value_socketlist_get_3->reader == ((struct eventrec *)NULL)))
         (&readfds)->__fds_bits[(signed long int)(i / (unsigned long int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->__fds_bits[(signed long int)(i / (unsigned long int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << i % (unsigned long int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
-      struct socketrec *return_value_socketlist_get$4;
-      return_value_socketlist_get$4=socketlist_get(S, i);
-      if(!(return_value_socketlist_get$4->writer == ((struct eventrec *)NULL)))
+      struct socketrec *return_value_socketlist_get_4;
+      return_value_socketlist_get_4=socketlist_get(S, i);
+      if(!(return_value_socketlist_get_4->writer == ((struct eventrec *)NULL)))
         (&writefds)->__fds_bits[(signed long int)(i / (unsigned long int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&writefds)->__fds_bits[(signed long int)(i / (unsigned long int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << i % (unsigned long int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
       i = i + 1ul;
@@ -6361,25 +6361,25 @@ signed int events_network_select(struct timeval *tv)
     events_network_selectstats_select();
     do
     {
-      return_value_socketlist_getsize$5=socketlist_getsize(S);
-      return_value_select$6=select((signed int)return_value_socketlist_getsize$5, &readfds, &writefds, (struct anonymous$0 *)(void *)0, tv);
-      if(!(return_value_select$6 == -1))
+      return_value_socketlist_getsize_5=socketlist_getsize(S);
+      return_value_select_6=select((signed int)return_value_socketlist_getsize_5, &readfds, &writefds, (struct anonymous_0 *)(void *)0, tv);
+      if(!(return_value_select_6 == -1))
         break;
 
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      if(!(*return_value___errno_location$7 == 4))
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      if(!(*return_value___errno_location_7 == 4))
       {
         do
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          if(!(*return_value___errno_location$9 == 0))
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          if(!(*return_value___errno_location_9 == 0))
           {
             libcperciva_warn("select()");
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            *return_value___errno_location$8 = 0;
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            *return_value___errno_location_8 = 0;
           }
 
           else
@@ -6434,9 +6434,9 @@ void events_network_selectstats_select(void)
   double d;
   if(!(running == 0))
   {
-    signed int return_value_monoclock_get$1;
-    return_value_monoclock_get$1=monoclock_get(&tnow);
-    if(return_value_monoclock_get$1 == 0)
+    signed int return_value_monoclock_get_1;
+    return_value_monoclock_get_1=monoclock_get(&tnow);
+    if(return_value_monoclock_get_1 == 0)
     {
       t = (double)(tnow.tv_sec - st.tv_sec) + (double)(tnow.tv_usec - st.tv_usec) * 0.000001;
       N = N + 1.0;
@@ -6462,9 +6462,9 @@ void events_network_selectstats_startclock(void)
 {
   if(running == 0)
   {
-    signed int return_value_monoclock_get$1;
-    return_value_monoclock_get$1=monoclock_get(&st);
-    if(return_value_monoclock_get$1 == 0)
+    signed int return_value_monoclock_get_1;
+    return_value_monoclock_get_1=monoclock_get(&st);
+    if(return_value_monoclock_get_1 == 0)
       running = 1;
 
   }
@@ -6503,8 +6503,8 @@ signed int events_run(void)
   struct timeval tv2;
   signed int rc = 0;
   r=events_immediate_get();
-  signed int return_value_events_timer_min$1;
-  signed int return_value_events_network_select$2;
+  signed int return_value_events_timer_min_1;
+  signed int return_value_events_network_select_2;
   if(!(r == ((struct eventrec *)NULL)))
     while(!(r == ((struct eventrec *)NULL)))
     {
@@ -6517,12 +6517,12 @@ signed int events_run(void)
 
   else
   {
-    return_value_events_timer_min$1=events_timer_min(&tv);
-    if(!(return_value_events_timer_min$1 == 0))
+    return_value_events_timer_min_1=events_timer_min(&tv);
+    if(!(return_value_events_timer_min_1 == 0))
       goto err0;
 
-    return_value_events_network_select$2=events_network_select(tv);
-    if(!(return_value_events_network_select$2 == 0))
+    return_value_events_network_select_2=events_network_select(tv);
+    if(!(return_value_events_network_select_2 == 0))
       goto err1;
 
     free((void *)tv);
@@ -6551,9 +6551,9 @@ signed int events_run(void)
         else
         {
           memcpy((void *)&tv2, (const void *)&tv_zero, sizeof(struct timeval) /*16ul*/ );
-          signed int return_value_events_network_select$3;
-          return_value_events_network_select$3=events_network_select(&tv2);
-          if(!(return_value_events_network_select$3 == 0))
+          signed int return_value_events_network_select_3;
+          return_value_events_network_select_3=events_network_select(&tv2);
+          if(!(return_value_events_network_select_3 == 0))
             goto err0;
 
           r=events_network_get();
@@ -6567,9 +6567,9 @@ signed int events_run(void)
 
           else
           {
-            signed int return_value_events_timer_get$4;
-            return_value_events_timer_get$4=events_timer_get(&r);
-            if(!(return_value_events_timer_get$4 == 0))
+            signed int return_value_events_timer_get_4;
+            return_value_events_timer_get_4=events_timer_get(&r);
+            if(!(return_value_events_timer_get_4 == 0))
               goto err0;
 
             if(!(r == ((struct eventrec *)NULL)))
@@ -6641,19 +6641,19 @@ signed int events_timer_get(struct eventrec **r)
 {
   struct timeval tnow;
   struct timerrec *t;
-  signed int return_value_monoclock_get$1;
-  void *return_value_timerqueue_getptr$2;
+  signed int return_value_monoclock_get_1;
+  void *return_value_timerqueue_getptr_2;
   if(Q == ((struct timerqueue *)NULL))
     *r = (struct eventrec *)(void *)0;
 
   else
   {
-    return_value_monoclock_get$1=monoclock_get(&tnow);
-    if(!(return_value_monoclock_get$1 == 0))
+    return_value_monoclock_get_1=monoclock_get(&tnow);
+    if(!(return_value_monoclock_get_1 == 0))
       goto err0;
 
-    return_value_timerqueue_getptr$2=timerqueue_getptr(Q, &tnow);
-    t = (struct timerrec *)return_value_timerqueue_getptr$2;
+    return_value_timerqueue_getptr_2=timerqueue_getptr(Q, &tnow);
+    t = (struct timerrec *)return_value_timerqueue_getptr_2;
     if(!(t == ((struct timerrec *)NULL)))
     {
       *r = t->r;
@@ -6679,10 +6679,10 @@ signed int events_timer_min(struct timeval **timeo)
 {
   struct timeval tnow;
   struct timeval *tv;
-  void *return_value_malloc$1;
-  signed int return_value_monoclock_get$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  void *return_value_malloc_1;
+  signed int return_value_monoclock_get_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(Q == ((struct timerqueue *)NULL))
     *timeo = (struct timeval *)(void *)0;
 
@@ -6694,28 +6694,28 @@ signed int events_timer_min(struct timeval **timeo)
 
     else
     {
-      return_value_malloc$1=malloc(sizeof(struct timeval) /*16ul*/ );
-      *timeo = (struct timeval *)return_value_malloc$1;
+      return_value_malloc_1=malloc(sizeof(struct timeval) /*16ul*/ );
+      *timeo = (struct timeval *)return_value_malloc_1;
       if(*timeo == ((struct timeval *)NULL))
         goto err0;
 
-      return_value_monoclock_get$2=monoclock_get(&tnow);
-      if(!(return_value_monoclock_get$2 == 0))
+      return_value_monoclock_get_2=monoclock_get(&tnow);
+      if(!(return_value_monoclock_get_2 == 0))
         goto err1;
 
       if(!(tv->tv_sec >= tnow.tv_sec))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         if(tnow.tv_sec == tv->tv_sec)
-          tmp_if_expr$3 = tnow.tv_usec > tv->tv_usec ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = tnow.tv_usec > tv->tv_usec ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
         (*timeo)->tv_sec = (signed long int)0;
         (*timeo)->tv_usec = (signed long int)0;
@@ -6764,18 +6764,18 @@ void * events_timer_register(signed int (*func)(void *), void *cookie, struct ti
   }
 
   r=events_mkrec(func, cookie);
-  void *return_value_malloc$1;
-  signed int return_value_gettimeout$2;
+  void *return_value_malloc_1;
+  signed int return_value_gettimeout_2;
   if(!(r == ((struct eventrec *)NULL)))
   {
-    return_value_malloc$1=malloc(sizeof(struct timerrec) /*32ul*/ );
-    t = (struct timerrec *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct timerrec) /*32ul*/ );
+    t = (struct timerrec *)return_value_malloc_1;
     if(!(t == ((struct timerrec *)NULL)))
     {
       t->r = r;
       memcpy((void *)&t->tv_orig, (const void *)timeo, sizeof(struct timeval) /*16ul*/ );
-      return_value_gettimeout$2=gettimeout(&tv, &t->tv_orig);
-      if(return_value_gettimeout$2 == 0)
+      return_value_gettimeout_2=gettimeout(&tv, &t->tv_orig);
+      if(return_value_gettimeout_2 == 0)
       {
         t->cookie=timerqueue_add(Q, &tv, (void *)t);
         if(!(t->cookie == NULL))
@@ -6808,9 +6808,9 @@ void * events_timer_register_double(signed int (*func)(void *), void *cookie, do
   struct timeval tv;
   tv.tv_sec = (signed long int)timeo;
   tv.tv_usec = (signed long int)((timeo - (double)tv.tv_sec) * 1000000.0);
-  void *return_value_events_timer_register$1;
-  return_value_events_timer_register$1=events_timer_register(func, cookie, &tv);
-  return return_value_events_timer_register$1;
+  void *return_value_events_timer_register_1;
+  return_value_events_timer_register_1=events_timer_register(func, cookie, &tv);
+  return return_value_events_timer_register_1;
 }
 
 // events_timer_reset
@@ -6819,9 +6819,9 @@ signed int events_timer_reset(void *cookie)
 {
   struct timerrec *t = (struct timerrec *)cookie;
   struct timeval tv;
-  signed int return_value_gettimeout$1;
-  return_value_gettimeout$1=gettimeout(&tv, &t->tv_orig);
-  if(return_value_gettimeout$1 == 0)
+  signed int return_value_gettimeout_1;
+  return_value_gettimeout_1=gettimeout(&tv, &t->tv_orig);
+  if(return_value_gettimeout_1 == 0)
   {
     timerqueue_increase(Q, t->cookie, &tv);
     return 0;
@@ -6840,11 +6840,11 @@ signed int events_timer_reset(void *cookie)
 // file ../libcperciva/events/events_timer.c line 265
 void events_timer_shutdown(void)
 {
-  struct timeval *return_value_timerqueue_getmin$1;
+  struct timeval *return_value_timerqueue_getmin_1;
   if(!(Q == ((struct timerqueue *)NULL)))
   {
-    return_value_timerqueue_getmin$1=timerqueue_getmin(Q);
-    if(return_value_timerqueue_getmin$1 == ((struct timeval *)NULL))
+    return_value_timerqueue_getmin_1=timerqueue_getmin(Q);
+    if(return_value_timerqueue_getmin_1 == ((struct timeval *)NULL))
     {
       timerqueue_free(Q);
       Q = (struct timerqueue *)(void *)0;
@@ -6881,9 +6881,9 @@ static void generate(unsigned char *buf, unsigned long int buflen)
 // file ../libcperciva/events/events_timer.c line 22
 static signed int gettimeout(struct timeval *tv, struct timeval *tdelta)
 {
-  signed int return_value_monoclock_get$1;
-  return_value_monoclock_get$1=monoclock_get(tv);
-  if(return_value_monoclock_get$1 == 0)
+  signed int return_value_monoclock_get_1;
+  return_value_monoclock_get_1=monoclock_get(tv);
+  if(return_value_monoclock_get_1 == 0)
   {
     tv->tv_sec = tv->tv_sec + tdelta->tv_sec;
     tv->tv_usec = tv->tv_usec + tdelta->tv_usec;
@@ -6910,18 +6910,18 @@ static signed int gettimeout(struct timeval *tv, struct timeval *tdelta)
 static signed int gotnonces(struct handshake_cookie *H)
 {
   proto_crypt_dhmac(H->K, H->nonce_local, H->nonce_remote, H->dhmac_local, H->dhmac_remote, H->decr);
-  signed int return_value_dhread$1;
-  signed int return_value_dhwrite$2;
+  signed int return_value_dhread_1;
+  signed int return_value_dhwrite_2;
   if(!(H->decr == 0))
   {
-    return_value_dhread$1=dhread(H);
-    return return_value_dhread$1;
+    return_value_dhread_1=dhread(H);
+    return return_value_dhread_1;
   }
 
   else
   {
-    return_value_dhwrite$2=dhwrite(H);
-    return return_value_dhwrite$2;
+    return_value_dhwrite_2=dhwrite(H);
+    return return_value_dhwrite_2;
   }
 }
 
@@ -6931,18 +6931,18 @@ static signed int growsocketlist(unsigned long int nrec)
 {
   unsigned long int i;
   i=socketlist_getsize(S);
-  signed int return_value_socketlist_resize$1;
-  return_value_socketlist_resize$1=socketlist_resize(S, nrec);
-  if(return_value_socketlist_resize$1 == 0)
+  signed int return_value_socketlist_resize_1;
+  return_value_socketlist_resize_1=socketlist_resize(S, nrec);
+  if(return_value_socketlist_resize_1 == 0)
   {
     for( ; !(i >= nrec); i = i + 1ul)
     {
-      struct socketrec *return_value_socketlist_get$2;
-      return_value_socketlist_get$2=socketlist_get(S, i);
-      return_value_socketlist_get$2->reader = (struct eventrec *)(void *)0;
-      struct socketrec *return_value_socketlist_get$3;
-      return_value_socketlist_get$3=socketlist_get(S, i);
-      return_value_socketlist_get$3->writer = (struct eventrec *)(void *)0;
+      struct socketrec *return_value_socketlist_get_2;
+      return_value_socketlist_get_2=socketlist_get(S, i);
+      return_value_socketlist_get_2->reader = (struct eventrec *)(void *)0;
+      struct socketrec *return_value_socketlist_get_3;
+      return_value_socketlist_get_3=socketlist_get(S, i);
+      return_value_socketlist_get_3->writer = (struct eventrec *)(void *)0;
     }
     return 0;
   }
@@ -6967,9 +6967,9 @@ static signed int handshakedone(struct handshake_cookie *H)
   assert(H->read_cookie == (void *)0);
   /* assertion H->write_cookie == ((void *)0) */
   assert(H->write_cookie == (void *)0);
-  signed int return_value_proto_crypt_mkkeys$1;
-  return_value_proto_crypt_mkkeys$1=proto_crypt_mkkeys(H->K, H->nonce_local, H->nonce_remote, H->yh_remote, H->x, H->nofps, H->decr, &c, &s);
-  if(return_value_proto_crypt_mkkeys$1 == 0)
+  signed int return_value_proto_crypt_mkkeys_1;
+  return_value_proto_crypt_mkkeys_1=proto_crypt_mkkeys(H->K, H->nonce_local, H->nonce_remote, H->yh_remote, H->x, H->nofps, H->decr, &c, &s);
+  if(return_value_proto_crypt_mkkeys_1 == 0)
   {
     rc=H->callback(H->cookie, c, s);
     free((void *)H);
@@ -7006,20 +7006,20 @@ static signed int handshakefail(struct handshake_cookie *H)
 static void heapify(struct ptrlist_struct *elems, unsigned long int i, unsigned long int N, signed int (*compar)(void *, const void *, const void *), void (*setreccookie)(void *, void *, unsigned long int), void *cookie)
 {
   unsigned long int min;
-  void **return_value_ptrlist_get$1;
-  void **return_value_ptrlist_get$2;
+  void **return_value_ptrlist_get_1;
+  void **return_value_ptrlist_get_2;
   signed int return_value;
-  void **return_value_ptrlist_get$3;
-  void **return_value_ptrlist_get$4;
+  void **return_value_ptrlist_get_3;
+  void **return_value_ptrlist_get_4;
   signed int return_value_1;
   do
   {
     min = i;
     if(!(2ul * i + 1ul >= N))
     {
-      return_value_ptrlist_get$1=ptrlist_get(elems, min);
-      return_value_ptrlist_get$2=ptrlist_get(elems, (unsigned long int)2 * i + (unsigned long int)1);
-      return_value=compar(cookie, *return_value_ptrlist_get$1, *return_value_ptrlist_get$2);
+      return_value_ptrlist_get_1=ptrlist_get(elems, min);
+      return_value_ptrlist_get_2=ptrlist_get(elems, (unsigned long int)2 * i + (unsigned long int)1);
+      return_value=compar(cookie, *return_value_ptrlist_get_1, *return_value_ptrlist_get_2);
       if(return_value >= 1)
         min = (unsigned long int)2 * i + (unsigned long int)1;
 
@@ -7027,9 +7027,9 @@ static void heapify(struct ptrlist_struct *elems, unsigned long int i, unsigned 
 
     if(!(2ul * i + 2ul >= N))
     {
-      return_value_ptrlist_get$3=ptrlist_get(elems, min);
-      return_value_ptrlist_get$4=ptrlist_get(elems, (unsigned long int)2 * i + (unsigned long int)2);
-      return_value_1=compar(cookie, *return_value_ptrlist_get$3, *return_value_ptrlist_get$4);
+      return_value_ptrlist_get_3=ptrlist_get(elems, min);
+      return_value_ptrlist_get_4=ptrlist_get(elems, (unsigned long int)2 * i + (unsigned long int)2);
+      return_value_1=compar(cookie, *return_value_ptrlist_get_3, *return_value_ptrlist_get_4);
       if(return_value_1 >= 1)
         min = (unsigned long int)2 * i + (unsigned long int)2;
 
@@ -7050,12 +7050,12 @@ static void heapifyup(struct ptrlist_struct *elems, unsigned long int i, signed 
 {
   if(!(i == 0ul))
   {
-    void **return_value_ptrlist_get$1;
-    return_value_ptrlist_get$1=ptrlist_get(elems, i);
-    void **return_value_ptrlist_get$2;
-    return_value_ptrlist_get$2=ptrlist_get(elems, (i - (unsigned long int)1) / (unsigned long int)2);
+    void **return_value_ptrlist_get_1;
+    return_value_ptrlist_get_1=ptrlist_get(elems, i);
+    void **return_value_ptrlist_get_2;
+    return_value_ptrlist_get_2=ptrlist_get(elems, (i - (unsigned long int)1) / (unsigned long int)2);
     signed int return_value;
-    return_value=compar(cookie, *return_value_ptrlist_get$1, *return_value_ptrlist_get$2);
+    return_value=compar(cookie, *return_value_ptrlist_get_1, *return_value_ptrlist_get_2);
     if(!(return_value >= 0))
     {
       swap(elems, i, (i - (unsigned long int)1) / (unsigned long int)2, setreccookie, cookie);
@@ -7072,17 +7072,17 @@ static inline void * imalloc(unsigned long int nrec, unsigned long int reclen)
 {
   if(!(18446744073709551615UL / reclen >= nrec))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
     return (void *)0;
   }
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(nrec * reclen);
-    return return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(nrec * reclen);
+    return return_value_malloc_2;
   }
 }
 
@@ -7117,25 +7117,25 @@ static inline void insecure_memzero(volatile void *buf, unsigned long int len)
   insecure_memzero_ptr(buf, len);
 }
 
-// insecure_memzero$link1
+// insecure_memzero_link1
 // file ../libcperciva/util/insecure_memzero.h line 27
-static inline void insecure_memzero$link1(volatile void *buf$link1, unsigned long int len$link1)
+static inline void insecure_memzero_link1(volatile void *buf_link1, unsigned long int len_link1)
 {
-  insecure_memzero_ptr(buf$link1, len$link1);
+  insecure_memzero_ptr(buf_link1, len_link1);
 }
 
-// insecure_memzero$link2
+// insecure_memzero_link2
 // file ../libcperciva/util/insecure_memzero.h line 27
-static inline void insecure_memzero$link2(volatile void *buf$link2, unsigned long int len$link2)
+static inline void insecure_memzero_link2(volatile void *buf_link2, unsigned long int len_link2)
 {
-  insecure_memzero_ptr(buf$link2, len$link2);
+  insecure_memzero_ptr(buf_link2, len_link2);
 }
 
-// insecure_memzero$link3
+// insecure_memzero_link3
 // file ../libcperciva/util/insecure_memzero.h line 27
-static inline void insecure_memzero$link3(volatile void *buf$link3, unsigned long int len$link3)
+static inline void insecure_memzero_link3(volatile void *buf_link3, unsigned long int len_link3)
 {
-  insecure_memzero_ptr(buf$link3, len$link3);
+  insecure_memzero_ptr(buf_link3, len_link3);
 }
 
 // insecure_memzero_func
@@ -7153,9 +7153,9 @@ static void insecure_memzero_func(volatile void *buf, unsigned long int len)
 static signed int instantiate(void)
 {
   unsigned char seed_material[48l];
-  signed int return_value_entropy_read$1;
-  return_value_entropy_read$1=entropy_read(seed_material, (unsigned long int)48);
-  if(!(return_value_entropy_read$1 == 0))
+  signed int return_value_entropy_read_1;
+  return_value_entropy_read_1=entropy_read(seed_material, (unsigned long int)48);
+  if(!(return_value_entropy_read_1 == 0))
     return -1;
 
   else
@@ -7164,7 +7164,7 @@ static signed int instantiate(void)
     memset((void *)drbg.V, 0x01, (unsigned long int)32);
     drbg.reseed_counter = (unsigned int)1;
     update(seed_material, (unsigned long int)48);
-    insecure_memzero$link3((volatile void *)seed_material, (unsigned long int)48);
+    insecure_memzero_link3((volatile void *)seed_material, (unsigned long int)48);
     return 0;
   }
 }
@@ -7212,7 +7212,7 @@ static signed int launchpipes(struct conn_state *C)
 // file ../libcperciva/alg/sha256.h line 85
 void libcperciva_HMAC_SHA256_Buf(const void *K, unsigned long int Klen, const void *in, unsigned long int len, unsigned char *digest)
 {
-  struct anonymous$2 ctx;
+  struct anonymous_2 ctx;
   libcperciva_HMAC_SHA256_Init(&ctx, K, Klen);
   libcperciva_HMAC_SHA256_Update(&ctx, in, len);
   libcperciva_HMAC_SHA256_Final(digest, &ctx);
@@ -7220,7 +7220,7 @@ void libcperciva_HMAC_SHA256_Buf(const void *K, unsigned long int Klen, const vo
 
 // libcperciva_HMAC_SHA256_Final
 // file ../libcperciva/alg/sha256.h line 78
-void libcperciva_HMAC_SHA256_Final(unsigned char *digest, struct anonymous$2 *ctx)
+void libcperciva_HMAC_SHA256_Final(unsigned char *digest, struct anonymous_2 *ctx)
 {
   unsigned char ihash[32l];
   libcperciva_SHA256_Final(ihash, &ctx->ictx);
@@ -7231,7 +7231,7 @@ void libcperciva_HMAC_SHA256_Final(unsigned char *digest, struct anonymous$2 *ct
 
 // libcperciva_HMAC_SHA256_Init
 // file ../libcperciva/alg/sha256.h line 65
-void libcperciva_HMAC_SHA256_Init(struct anonymous$2 *ctx, const void *_K, unsigned long int Klen)
+void libcperciva_HMAC_SHA256_Init(struct anonymous_2 *ctx, const void *_K, unsigned long int Klen)
 {
   unsigned char pad[64l];
   unsigned char khash[32l];
@@ -7264,7 +7264,7 @@ void libcperciva_HMAC_SHA256_Init(struct anonymous$2 *ctx, const void *_K, unsig
 
 // libcperciva_HMAC_SHA256_Update
 // file ../libcperciva/alg/sha256.h line 71
-void libcperciva_HMAC_SHA256_Update(struct anonymous$2 *ctx, const void *in, unsigned long int len)
+void libcperciva_HMAC_SHA256_Update(struct anonymous_2 *ctx, const void *in, unsigned long int len)
 {
   libcperciva_SHA256_Update(&ctx->ictx, in, len);
 }
@@ -7273,7 +7273,7 @@ void libcperciva_HMAC_SHA256_Update(struct anonymous$2 *ctx, const void *in, uns
 // file ../libcperciva/alg/sha256.c line 283
 void libcperciva_SHA256_Buf(const void *in, unsigned long int len, unsigned char *digest)
 {
-  struct anonymous$5 ctx;
+  struct anonymous_5 ctx;
   libcperciva_SHA256_Init(&ctx);
   libcperciva_SHA256_Update(&ctx, in, len);
   libcperciva_SHA256_Final(digest, &ctx);
@@ -7281,16 +7281,16 @@ void libcperciva_SHA256_Buf(const void *in, unsigned long int len, unsigned char
 
 // libcperciva_SHA256_Final
 // file ../libcperciva/alg/sha256.h line 46
-void libcperciva_SHA256_Final(unsigned char *digest, struct anonymous$5 *ctx)
+void libcperciva_SHA256_Final(unsigned char *digest, struct anonymous_5 *ctx)
 {
   SHA256_Pad(ctx);
   be32enc_vect(digest, ctx->state, (unsigned long int)32);
-  insecure_memzero((volatile void *)ctx, sizeof(struct anonymous$5) /*104ul*/ );
+  insecure_memzero((volatile void *)ctx, sizeof(struct anonymous_5) /*104ul*/ );
 }
 
 // libcperciva_SHA256_Init
 // file ../libcperciva/alg/sha256.h line 33
-void libcperciva_SHA256_Init(struct anonymous$5 *ctx)
+void libcperciva_SHA256_Init(struct anonymous_5 *ctx)
 {
   ctx->count = (unsigned long int)0;
   memcpy((void *)ctx->state, (const void *)initstate, sizeof(const unsigned int [8l]) /*32ul*/ );
@@ -7298,7 +7298,7 @@ void libcperciva_SHA256_Init(struct anonymous$5 *ctx)
 
 // libcperciva_SHA256_Update
 // file ../libcperciva/alg/sha256.h line 39
-void libcperciva_SHA256_Update(struct anonymous$5 *ctx, const void *in, unsigned long int len)
+void libcperciva_SHA256_Update(struct anonymous_5 *ctx, const void *in, unsigned long int len)
 {
   unsigned int r;
   const unsigned char *src = (const unsigned char *)in;
@@ -7336,12 +7336,12 @@ signed int libcperciva_asprintf(char **ret, const char *format, ...)
   ap = (void **)&format;
   len=vsnprintf((char *)(void *)0, (unsigned long int)0, format, ap);
   ap = ((void **)NULL);
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(len >= 0)
   {
     buflen = (unsigned long int)len + (unsigned long int)1;
-    return_value_malloc$1=malloc(buflen);
-    *ret = (char *)return_value_malloc$1;
+    return_value_malloc_1=malloc(buflen);
+    *ret = (char *)return_value_malloc_1;
     if(!(*ret == ((char *)NULL)))
     {
       ap = (void **)&format;
@@ -7372,12 +7372,12 @@ static inline unsigned int libcperciva_be32dec(const void *pp)
   return (unsigned int)p[(signed long int)3] + ((unsigned int)p[(signed long int)2] << 8) + ((unsigned int)p[(signed long int)1] << 16) + ((unsigned int)p[(signed long int)0] << 24);
 }
 
-// libcperciva_be32dec$link1
+// libcperciva_be32dec_link1
 // file ../libcperciva/util/sysendian.h line 38
-static inline unsigned int libcperciva_be32dec$link1(const void *pp$link1)
+static inline unsigned int libcperciva_be32dec_link1(const void *pp_link1)
 {
-  const unsigned char *p$link1 = (const unsigned char *)pp$link1;
-  return (unsigned int)p$link1[(signed long int)3] + ((unsigned int)p$link1[(signed long int)2] << 8) + ((unsigned int)p$link1[(signed long int)1] << 16) + ((unsigned int)p$link1[(signed long int)0] << 24);
+  const unsigned char *p_link1 = (const unsigned char *)pp_link1;
+  return (unsigned int)p_link1[(signed long int)3] + ((unsigned int)p_link1[(signed long int)2] << 8) + ((unsigned int)p_link1[(signed long int)1] << 16) + ((unsigned int)p_link1[(signed long int)0] << 24);
 }
 
 // libcperciva_be32enc
@@ -7391,15 +7391,15 @@ static inline void libcperciva_be32enc(void *pp, unsigned int x)
   p[(signed long int)0] = (unsigned char)(x >> 24 & (unsigned int)0xff);
 }
 
-// libcperciva_be32enc$link1
+// libcperciva_be32enc_link1
 // file ../libcperciva/util/sysendian.h line 47
-static inline void libcperciva_be32enc$link1(void *pp$link1, unsigned int x$link1)
+static inline void libcperciva_be32enc_link1(void *pp_link1, unsigned int x_link1)
 {
-  unsigned char *p$link1 = (unsigned char *)pp$link1;
-  p$link1[(signed long int)3] = (unsigned char)(x$link1 & (unsigned int)0xff);
-  p$link1[(signed long int)2] = (unsigned char)(x$link1 >> 8 & (unsigned int)0xff);
-  p$link1[(signed long int)1] = (unsigned char)(x$link1 >> 16 & (unsigned int)0xff);
-  p$link1[(signed long int)0] = (unsigned char)(x$link1 >> 24 & (unsigned int)0xff);
+  unsigned char *p_link1 = (unsigned char *)pp_link1;
+  p_link1[(signed long int)3] = (unsigned char)(x_link1 & (unsigned int)0xff);
+  p_link1[(signed long int)2] = (unsigned char)(x_link1 >> 8 & (unsigned int)0xff);
+  p_link1[(signed long int)1] = (unsigned char)(x_link1 >> 16 & (unsigned int)0xff);
+  p_link1[(signed long int)0] = (unsigned char)(x_link1 >> 24 & (unsigned int)0xff);
 }
 
 // libcperciva_be64enc
@@ -7417,34 +7417,34 @@ static inline void libcperciva_be64enc(void *pp, unsigned long int x)
   p[(signed long int)0] = (unsigned char)(x >> 56 & (unsigned long int)0xff);
 }
 
-// libcperciva_be64enc$link1
+// libcperciva_be64enc_link1
 // file ../libcperciva/util/sysendian.h line 69
-static inline void libcperciva_be64enc$link1(void *pp$link1, unsigned long int x$link1)
+static inline void libcperciva_be64enc_link1(void *pp_link1, unsigned long int x_link1)
 {
-  unsigned char *p$link1 = (unsigned char *)pp$link1;
-  p$link1[(signed long int)7] = (unsigned char)(x$link1 & (unsigned long int)0xff);
-  p$link1[(signed long int)6] = (unsigned char)(x$link1 >> 8 & (unsigned long int)0xff);
-  p$link1[(signed long int)5] = (unsigned char)(x$link1 >> 16 & (unsigned long int)0xff);
-  p$link1[(signed long int)4] = (unsigned char)(x$link1 >> 24 & (unsigned long int)0xff);
-  p$link1[(signed long int)3] = (unsigned char)(x$link1 >> 32 & (unsigned long int)0xff);
-  p$link1[(signed long int)2] = (unsigned char)(x$link1 >> 40 & (unsigned long int)0xff);
-  p$link1[(signed long int)1] = (unsigned char)(x$link1 >> 48 & (unsigned long int)0xff);
-  p$link1[(signed long int)0] = (unsigned char)(x$link1 >> 56 & (unsigned long int)0xff);
+  unsigned char *p_link1 = (unsigned char *)pp_link1;
+  p_link1[(signed long int)7] = (unsigned char)(x_link1 & (unsigned long int)0xff);
+  p_link1[(signed long int)6] = (unsigned char)(x_link1 >> 8 & (unsigned long int)0xff);
+  p_link1[(signed long int)5] = (unsigned char)(x_link1 >> 16 & (unsigned long int)0xff);
+  p_link1[(signed long int)4] = (unsigned char)(x_link1 >> 24 & (unsigned long int)0xff);
+  p_link1[(signed long int)3] = (unsigned char)(x_link1 >> 32 & (unsigned long int)0xff);
+  p_link1[(signed long int)2] = (unsigned char)(x_link1 >> 40 & (unsigned long int)0xff);
+  p_link1[(signed long int)1] = (unsigned char)(x_link1 >> 48 & (unsigned long int)0xff);
+  p_link1[(signed long int)0] = (unsigned char)(x_link1 >> 56 & (unsigned long int)0xff);
 }
 
-// libcperciva_be64enc$link2
+// libcperciva_be64enc_link2
 // file ../libcperciva/util/sysendian.h line 69
-static inline void libcperciva_be64enc$link2(void *pp$link2, unsigned long int x$link2)
+static inline void libcperciva_be64enc_link2(void *pp_link2, unsigned long int x_link2)
 {
-  unsigned char *p$link2 = (unsigned char *)pp$link2;
-  p$link2[(signed long int)7] = (unsigned char)(x$link2 & (unsigned long int)0xff);
-  p$link2[(signed long int)6] = (unsigned char)(x$link2 >> 8 & (unsigned long int)0xff);
-  p$link2[(signed long int)5] = (unsigned char)(x$link2 >> 16 & (unsigned long int)0xff);
-  p$link2[(signed long int)4] = (unsigned char)(x$link2 >> 24 & (unsigned long int)0xff);
-  p$link2[(signed long int)3] = (unsigned char)(x$link2 >> 32 & (unsigned long int)0xff);
-  p$link2[(signed long int)2] = (unsigned char)(x$link2 >> 40 & (unsigned long int)0xff);
-  p$link2[(signed long int)1] = (unsigned char)(x$link2 >> 48 & (unsigned long int)0xff);
-  p$link2[(signed long int)0] = (unsigned char)(x$link2 >> 56 & (unsigned long int)0xff);
+  unsigned char *p_link2 = (unsigned char *)pp_link2;
+  p_link2[(signed long int)7] = (unsigned char)(x_link2 & (unsigned long int)0xff);
+  p_link2[(signed long int)6] = (unsigned char)(x_link2 >> 8 & (unsigned long int)0xff);
+  p_link2[(signed long int)5] = (unsigned char)(x_link2 >> 16 & (unsigned long int)0xff);
+  p_link2[(signed long int)4] = (unsigned char)(x_link2 >> 24 & (unsigned long int)0xff);
+  p_link2[(signed long int)3] = (unsigned char)(x_link2 >> 32 & (unsigned long int)0xff);
+  p_link2[(signed long int)2] = (unsigned char)(x_link2 >> 40 & (unsigned long int)0xff);
+  p_link2[(signed long int)1] = (unsigned char)(x_link2 >> 48 & (unsigned long int)0xff);
+  p_link2[(signed long int)0] = (unsigned char)(x_link2 >> 56 & (unsigned long int)0xff);
 }
 
 // libcperciva_warn
@@ -7459,11 +7459,11 @@ void libcperciva_warn(const char *fmt, ...)
     vfprintf(stderr, fmt, ap);
   }
 
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  char *return_value_strerror$2;
-  return_value_strerror$2=strerror(*return_value___errno_location$1);
-  fprintf(stderr, ": %s\n", return_value_strerror$2);
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  char *return_value_strerror_2;
+  return_value_strerror_2=strerror(*return_value___errno_location_1);
+  fprintf(stderr, ": %s\n", return_value_strerror_2);
   ap = ((void **)NULL);
 }
 
@@ -7595,9 +7595,9 @@ signed int main(signed int argc, char **argv)
           do
           {
             libcperciva_warnx("Invalid option: -n %s", optarg);
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            *return_value___errno_location$1 = 0;
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            *return_value___errno_location_1 = 0;
           }
           while((_Bool)0);
           exit(1);
@@ -7608,9 +7608,9 @@ signed int main(signed int argc, char **argv)
           do
           {
             libcperciva_warnx("The parameter to -n must be between 1 and 500\n");
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            *return_value___errno_location$2 = 0;
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            *return_value___errno_location_2 = 0;
           }
           while((_Bool)0);
           exit(1);
@@ -7629,9 +7629,9 @@ signed int main(signed int argc, char **argv)
           do
           {
             libcperciva_warnx("Invalid option: -o %s", optarg);
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            *return_value___errno_location$3 = 0;
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            *return_value___errno_location_3 = 0;
           }
           while((_Bool)0);
           exit(1);
@@ -7651,14 +7651,14 @@ signed int main(signed int argc, char **argv)
 
           __CPROVER_DUMP_L32:
             ;
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            if(!(*return_value___errno_location$5 == 0))
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            if(!(*return_value___errno_location_5 == 0))
             {
               libcperciva_warn("Error parsing argument: -%c %s", ch, optarg);
-              signed int *return_value___errno_location$4;
-              return_value___errno_location$4=__errno_location();
-              *return_value___errno_location$4 = 0;
+              signed int *return_value___errno_location_4;
+              return_value___errno_location_4=__errno_location();
+              *return_value___errno_location_4 = 0;
             }
 
             else
@@ -7680,9 +7680,9 @@ signed int main(signed int argc, char **argv)
           do
           {
             libcperciva_warnx("Invalid option: -r %s", optarg);
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            *return_value___errno_location$6 = 0;
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            *return_value___errno_location_6 = 0;
           }
           while((_Bool)0);
           exit(1);
@@ -7754,20 +7754,20 @@ signed int main(signed int argc, char **argv)
 
   if(opt_p == ((char *)NULL))
   {
-    signed int return_value_libcperciva_asprintf$9;
-    return_value_libcperciva_asprintf$9=libcperciva_asprintf(&opt_p, "%s.pid", opt_s);
-    if(return_value_libcperciva_asprintf$9 == -1)
+    signed int return_value_libcperciva_asprintf_9;
+    return_value_libcperciva_asprintf_9=libcperciva_asprintf(&opt_p, "%s.pid", opt_s);
+    if(return_value_libcperciva_asprintf_9 == -1)
     {
       do
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        if(!(*return_value___errno_location$8 == 0))
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        if(!(*return_value___errno_location_8 == 0))
         {
           libcperciva_warn("asprintf");
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          *return_value___errno_location$7 = 0;
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          *return_value___errno_location_7 = 0;
         }
 
         else
@@ -7779,22 +7779,22 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  signed int return_value_daemonize$12;
+  signed int return_value_daemonize_12;
   if(opt_F == 0 && !(opt_D == 0))
   {
-    return_value_daemonize$12=daemonize(opt_p);
-    if(!(return_value_daemonize$12 == 0))
+    return_value_daemonize_12=daemonize(opt_p);
+    if(!(return_value_daemonize_12 == 0))
     {
       do
       {
-        signed int *return_value___errno_location$11;
-        return_value___errno_location$11=__errno_location();
-        if(!(*return_value___errno_location$11 == 0))
+        signed int *return_value___errno_location_11;
+        return_value___errno_location_11=__errno_location();
+        if(!(*return_value___errno_location_11 == 0))
         {
           libcperciva_warn("Failed to daemonize");
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          *return_value___errno_location$10 = 0;
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          *return_value___errno_location_10 = 0;
         }
 
         else
@@ -7816,14 +7816,14 @@ signed int main(signed int argc, char **argv)
     {
       do
       {
-        signed int *return_value___errno_location$14;
-        return_value___errno_location$14=__errno_location();
-        if(!(*return_value___errno_location$14 == 0))
+        signed int *return_value___errno_location_14;
+        return_value___errno_location_14=__errno_location();
+        if(!(*return_value___errno_location_14 == 0))
         {
           libcperciva_warn("Error resolving socket address: %s", opt_s);
-          signed int *return_value___errno_location$13;
-          return_value___errno_location$13=__errno_location();
-          *return_value___errno_location$13 = 0;
+          signed int *return_value___errno_location_13;
+          return_value___errno_location_13=__errno_location();
+          *return_value___errno_location_13 = 0;
         }
 
         else
@@ -7841,9 +7841,9 @@ signed int main(signed int argc, char **argv)
     do
     {
       libcperciva_warnx("No addresses found for %s", opt_s);
-      signed int *return_value___errno_location$15;
-      return_value___errno_location$15=__errno_location();
-      *return_value___errno_location$15 = 0;
+      signed int *return_value___errno_location_15;
+      return_value___errno_location_15=__errno_location();
+      *return_value___errno_location_15 = 0;
     }
     while((_Bool)0);
     exit(1);
@@ -7859,14 +7859,14 @@ signed int main(signed int argc, char **argv)
     {
       do
       {
-        signed int *return_value___errno_location$17;
-        return_value___errno_location$17=__errno_location();
-        if(!(*return_value___errno_location$17 == 0))
+        signed int *return_value___errno_location_17;
+        return_value___errno_location_17=__errno_location();
+        if(!(*return_value___errno_location_17 == 0))
         {
           libcperciva_warn("Error resolving socket address: %s", opt_t);
-          signed int *return_value___errno_location$16;
-          return_value___errno_location$16=__errno_location();
-          *return_value___errno_location$16 = 0;
+          signed int *return_value___errno_location_16;
+          return_value___errno_location_16=__errno_location();
+          *return_value___errno_location_16 = 0;
         }
 
         else
@@ -7884,9 +7884,9 @@ signed int main(signed int argc, char **argv)
     do
     {
       libcperciva_warnx("No addresses found for %s", opt_t);
-      signed int *return_value___errno_location$18;
-      return_value___errno_location$18=__errno_location();
-      *return_value___errno_location$18 = 0;
+      signed int *return_value___errno_location_18;
+      return_value___errno_location_18=__errno_location();
+      *return_value___errno_location_18 = 0;
     }
     while((_Bool)0);
     exit(1);
@@ -7897,14 +7897,14 @@ signed int main(signed int argc, char **argv)
   {
     do
     {
-      signed int *return_value___errno_location$20;
-      return_value___errno_location$20=__errno_location();
-      if(!(*return_value___errno_location$20 == 0))
+      signed int *return_value___errno_location_20;
+      return_value___errno_location_20=__errno_location();
+      if(!(*return_value___errno_location_20 == 0))
       {
         libcperciva_warn("Error reading shared secret");
-        signed int *return_value___errno_location$19;
-        return_value___errno_location$19=__errno_location();
-        *return_value___errno_location$19 = 0;
+        signed int *return_value___errno_location_19;
+        return_value___errno_location_19=__errno_location();
+        *return_value___errno_location_19 = 0;
       }
 
       else
@@ -7918,9 +7918,9 @@ signed int main(signed int argc, char **argv)
     do
     {
       libcperciva_warnx("Listening on first of multiple addresses found for %s", opt_s);
-      signed int *return_value___errno_location$21;
-      return_value___errno_location$21=__errno_location();
-      *return_value___errno_location$21 = 0;
+      signed int *return_value___errno_location_21;
+      return_value___errno_location_21=__errno_location();
+      *return_value___errno_location_21 = 0;
     }
     while((_Bool)0);
 
@@ -7928,22 +7928,22 @@ signed int main(signed int argc, char **argv)
   if(s == -1)
     exit(1);
 
-  signed int return_value_daemonize$24;
+  signed int return_value_daemonize_24;
   if(opt_F == 0)
   {
-    return_value_daemonize$24=daemonize(opt_p);
-    if(!(return_value_daemonize$24 == 0))
+    return_value_daemonize_24=daemonize(opt_p);
+    if(!(return_value_daemonize_24 == 0))
     {
       do
       {
-        signed int *return_value___errno_location$23;
-        return_value___errno_location$23=__errno_location();
-        if(!(*return_value___errno_location$23 == 0))
+        signed int *return_value___errno_location_23;
+        return_value___errno_location_23=__errno_location();
+        if(!(*return_value___errno_location_23 == 0))
         {
           libcperciva_warn("Failed to daemonize");
-          signed int *return_value___errno_location$22;
-          return_value___errno_location$22=__errno_location();
-          *return_value___errno_location$22 = 0;
+          signed int *return_value___errno_location_22;
+          return_value___errno_location_22=__errno_location();
+          *return_value___errno_location_22 = 0;
         }
 
         else
@@ -7955,20 +7955,20 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  signed int return_value_dispatch_accept$27;
-  return_value_dispatch_accept$27=dispatch_accept(s, opt_t, opt_R != 0 ? 0.0 : opt_r, sas_t, opt_d, opt_f, opt_g, opt_j, K, (unsigned long int)opt_n, opt_o);
-  if(!(return_value_dispatch_accept$27 == 0))
+  signed int return_value_dispatch_accept_27;
+  return_value_dispatch_accept_27=dispatch_accept(s, opt_t, opt_R != 0 ? 0.0 : opt_r, sas_t, opt_d, opt_f, opt_g, opt_j, K, (unsigned long int)opt_n, opt_o);
+  if(!(return_value_dispatch_accept_27 == 0))
   {
     do
     {
-      signed int *return_value___errno_location$26;
-      return_value___errno_location$26=__errno_location();
-      if(!(*return_value___errno_location$26 == 0))
+      signed int *return_value___errno_location_26;
+      return_value___errno_location_26=__errno_location();
+      if(!(*return_value___errno_location_26 == 0))
       {
         libcperciva_warn("Failed to initialize connection acceptor");
-        signed int *return_value___errno_location$25;
-        return_value___errno_location$25=__errno_location();
-        *return_value___errno_location$25 = 0;
+        signed int *return_value___errno_location_25;
+        return_value___errno_location_25=__errno_location();
+        *return_value___errno_location_25 = 0;
       }
 
       else
@@ -7980,20 +7980,20 @@ signed int main(signed int argc, char **argv)
 
   do
   {
-    signed int return_value_events_run$30;
-    return_value_events_run$30=events_run();
-    if(!(return_value_events_run$30 == 0))
+    signed int return_value_events_run_30;
+    return_value_events_run_30=events_run();
+    if(!(return_value_events_run_30 == 0))
     {
       do
       {
-        signed int *return_value___errno_location$29;
-        return_value___errno_location$29=__errno_location();
-        if(!(*return_value___errno_location$29 == 0))
+        signed int *return_value___errno_location_29;
+        return_value___errno_location_29=__errno_location();
+        if(!(*return_value___errno_location_29 == 0))
         {
           libcperciva_warn("Error running event loop");
-          signed int *return_value___errno_location$28;
-          return_value___errno_location$28=__errno_location();
-          *return_value___errno_location$28 = 0;
+          signed int *return_value___errno_location_28;
+          return_value___errno_location_28=__errno_location();
+          *return_value___errno_location_28 = 0;
         }
 
         else
@@ -8012,9 +8012,9 @@ signed int main(signed int argc, char **argv)
 static struct proto_keys * mkkeypair(unsigned char *kbuf)
 {
   struct proto_keys *k;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct proto_keys) /*48ul*/ );
-  k = (struct proto_keys *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct proto_keys) /*48ul*/ );
+  k = (struct proto_keys *)return_value_malloc_1;
   if(!(k == ((struct proto_keys *)NULL)))
   {
     k->k_aes=crypto_aes_key_expand(&kbuf[(signed long int)0], (unsigned long int)32);
@@ -8042,13 +8042,13 @@ err0:
 signed int monoclock_get(struct timeval *tv)
 {
   struct timespec tp;
-  signed int return_value_clock_gettime$9;
-  return_value_clock_gettime$9=clock_gettime(1, &tp);
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$8;
-  signed int *return_value___errno_location$7;
-  signed int return_value_clock_gettime$5;
-  if(return_value_clock_gettime$9 == 0)
+  signed int return_value_clock_gettime_9;
+  return_value_clock_gettime_9=clock_gettime(1, &tp);
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_8;
+  signed int *return_value___errno_location_7;
+  signed int return_value_clock_gettime_5;
+  if(return_value_clock_gettime_9 == 0)
   {
     tv->tv_sec = tp.tv_sec;
     tv->tv_usec = tp.tv_nsec / (signed long int)1000;
@@ -8056,27 +8056,27 @@ signed int monoclock_get(struct timeval *tv)
 
   else
   {
-    return_value___errno_location$6=__errno_location();
-    if(!(*return_value___errno_location$6 == 38))
+    return_value___errno_location_6=__errno_location();
+    if(!(*return_value___errno_location_6 == 38))
     {
-      return_value___errno_location$7=__errno_location();
-      tmp_if_expr$8 = *return_value___errno_location$7 != 22 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_7=__errno_location();
+      tmp_if_expr_8 = *return_value___errno_location_7 != 22 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
     {
       do
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 0))
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 0))
         {
           libcperciva_warn("clock_gettime(CLOCK_MONOTONIC)");
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          *return_value___errno_location$1 = 0;
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          *return_value___errno_location_1 = 0;
         }
 
         else
@@ -8088,8 +8088,8 @@ signed int monoclock_get(struct timeval *tv)
 
     else
     {
-      return_value_clock_gettime$5=clock_gettime(0, &tp);
-      if(return_value_clock_gettime$5 == 0)
+      return_value_clock_gettime_5=clock_gettime(0, &tp);
+      if(return_value_clock_gettime_5 == 0)
       {
         tv->tv_sec = tp.tv_sec;
         tv->tv_usec = tp.tv_nsec / (signed long int)1000;
@@ -8099,14 +8099,14 @@ signed int monoclock_get(struct timeval *tv)
       {
         do
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          if(!(*return_value___errno_location$4 == 0))
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          if(!(*return_value___errno_location_4 == 0))
           {
             libcperciva_warn("clock_gettime(CLOCK_REALTIME)");
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            *return_value___errno_location$3 = 0;
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            *return_value___errno_location_3 = 0;
           }
 
           else
@@ -8180,9 +8180,9 @@ static inline struct eventq * mpool_eventq_malloc(void)
       mpool_eventq_rec.atexit_set = 1;
     }
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct eventq) /*32ul*/  > sizeof(void *) /*8ul*/  ? sizeof(struct eventq) /*32ul*/  : sizeof(void *) /*8ul*/ );
-    p = (struct eventq *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct eventq) /*32ul*/  > sizeof(void *) /*8ul*/  ? sizeof(struct eventq) /*32ul*/  : sizeof(void *) /*8ul*/ );
+    p = (struct eventq *)return_value_malloc_1;
   }
   return p;
 }
@@ -8243,9 +8243,9 @@ static inline struct eventrec * mpool_eventrec_malloc(void)
       mpool_eventrec_rec.atexit_set = 1;
     }
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct eventrec) /*16ul*/  > sizeof(void *) /*8ul*/  ? sizeof(struct eventrec) /*16ul*/  : sizeof(void *) /*8ul*/ );
-    p = (struct eventrec *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct eventrec) /*16ul*/  > sizeof(void *) /*8ul*/  ? sizeof(struct eventrec) /*16ul*/  : sizeof(void *) /*8ul*/ );
+    p = (struct eventrec *)return_value_malloc_1;
   }
   return p;
 }
@@ -8255,17 +8255,17 @@ static inline struct eventrec * mpool_eventrec_malloc(void)
 void * network_accept(signed int fd, signed int (*callback)(void *, signed int), void *cookie)
 {
   struct accept_cookie *C;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct accept_cookie) /*24ul*/ );
-  C = (struct accept_cookie *)return_value_malloc$1;
-  signed int return_value_events_network_register$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct accept_cookie) /*24ul*/ );
+  C = (struct accept_cookie *)return_value_malloc_1;
+  signed int return_value_events_network_register_2;
   if(!(C == ((struct accept_cookie *)NULL)))
   {
     C->callback = callback;
     C->cookie = cookie;
     C->fd = fd;
-    return_value_events_network_register$2=events_network_register(callback_accept, (void *)C, C->fd, 0);
-    if(return_value_events_network_register$2 == 0)
+    return_value_events_network_register_2=events_network_register(callback_accept, (void *)C, C->fd, 0);
+    if(return_value_events_network_register_2 == 0)
       return (void *)C;
 
 
@@ -8293,9 +8293,9 @@ void network_accept_cancel(void *cookie)
 // file ../libcperciva/network/network.h line 39
 void * network_connect(struct sock_addr * const *sas, signed int (*callback)(void *, signed int), void *cookie)
 {
-  void *return_value_network_connect_timeo$1;
-  return_value_network_connect_timeo$1=network_connect_timeo(sas, (struct timeval *)(void *)0, callback, cookie);
-  return return_value_network_connect_timeo$1;
+  void *return_value_network_connect_timeo_1;
+  return_value_network_connect_timeo_1=network_connect_timeo(sas, (struct timeval *)(void *)0, callback, cookie);
+  return return_value_network_connect_timeo_1;
 }
 
 // network_connect_cancel
@@ -8303,22 +8303,22 @@ void * network_connect(struct sock_addr * const *sas, signed int (*callback)(voi
 void network_connect_cancel(void *cookie)
 {
   struct connect_cookie *C = (struct connect_cookie *)cookie;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(C->cookie_immediate == NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = C->s != -1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = C->s != -1 ? (_Bool)1 : (_Bool)0;
   /* assertion (C->cookie_immediate != ((void *)0)) || (C->s != -1) */
-  assert(tmp_if_expr$1);
-  _Bool tmp_if_expr$2;
+  assert(tmp_if_expr_1);
+  _Bool tmp_if_expr_2;
   if(C->cookie_immediate == NULL)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = C->s == -1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = C->s == -1 ? (_Bool)1 : (_Bool)0;
   /* assertion (C->cookie_immediate == ((void *)0)) || (C->s == -1) */
-  assert(tmp_if_expr$2);
+  assert(tmp_if_expr_2);
   if(!(C->cookie_timeo == NULL))
     events_timer_cancel(C->cookie_timeo);
 
@@ -8339,10 +8339,10 @@ void network_connect_cancel(void *cookie)
 void * network_connect_timeo(struct sock_addr * const *sas, struct timeval *timeo, signed int (*callback)(void *, signed int), void *cookie)
 {
   struct connect_cookie *C;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct connect_cookie) /*64ul*/ );
-  C = (struct connect_cookie *)return_value_malloc$1;
-  signed int return_value_tryconnect$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct connect_cookie) /*64ul*/ );
+  C = (struct connect_cookie *)return_value_malloc_1;
+  signed int return_value_tryconnect_2;
   if(!(C == ((struct connect_cookie *)NULL)))
   {
     C->callback = callback;
@@ -8359,8 +8359,8 @@ void * network_connect_timeo(struct sock_addr * const *sas, struct timeval *time
 
     else
       C->timeo_enabled = 0;
-    return_value_tryconnect$2=tryconnect(C);
-    if(!(return_value_tryconnect$2 == 0))
+    return_value_tryconnect_2=tryconnect(C);
+    if(!(return_value_tryconnect_2 == 0))
       goto err0;
 
     return (void *)C;
@@ -8384,10 +8384,10 @@ void * network_read(signed int fd, unsigned char *buf, unsigned long int buflen,
   assert(buflen != (unsigned long int)0);
   /* assertion buflen <= 0x7fffffffffffffffL */
   assert(buflen <= (unsigned long int)0x7fffffffffffffffL);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct network_read_cookie) /*56ul*/ );
-  C = (struct network_read_cookie *)return_value_malloc$1;
-  signed int return_value_events_network_register$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct network_read_cookie) /*56ul*/ );
+  C = (struct network_read_cookie *)return_value_malloc_1;
+  signed int return_value_events_network_register_2;
   if(!(C == ((struct network_read_cookie *)NULL)))
   {
     C->callback = callback;
@@ -8397,8 +8397,8 @@ void * network_read(signed int fd, unsigned char *buf, unsigned long int buflen,
     C->buflen = buflen;
     C->minlen = minread;
     C->bufpos = (unsigned long int)0;
-    return_value_events_network_register$2=events_network_register(callback_buf, (void *)C, C->fd, 0);
-    if(return_value_events_network_register$2 == 0)
+    return_value_events_network_register_2=events_network_register(callback_buf, (void *)C, C->fd, 0);
+    if(return_value_events_network_register_2 == 0)
       return (void *)C;
 
 
@@ -8431,10 +8431,10 @@ void * network_write(signed int fd, const unsigned char *buf, unsigned long int 
   assert(buflen != (unsigned long int)0);
   /* assertion buflen <= 0x7fffffffffffffffL */
   assert(buflen <= (unsigned long int)0x7fffffffffffffffL);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct network_write_cookie) /*56ul*/ );
-  C = (struct network_write_cookie *)return_value_malloc$1;
-  signed int return_value_events_network_register$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct network_write_cookie) /*56ul*/ );
+  C = (struct network_write_cookie *)return_value_malloc_1;
+  signed int return_value_events_network_register_2;
   if(!(C == ((struct network_write_cookie *)NULL)))
   {
     C->callback = callback;
@@ -8444,8 +8444,8 @@ void * network_write(signed int fd, const unsigned char *buf, unsigned long int 
     C->buflen = buflen;
     C->minlen = minwrite;
     C->bufpos = (unsigned long int)0;
-    return_value_events_network_register$2=events_network_register(callback_buf$link1, (void *)C, C->fd, 1);
-    if(return_value_events_network_register$2 == 0)
+    return_value_events_network_register_2=events_network_register(callback_buf_link1, (void *)C, C->fd, 1);
+    if(return_value_events_network_register_2 == 0)
       return (void *)C;
 
 
@@ -8483,9 +8483,9 @@ signed long int noeintr_write(signed int d, const void *buf, unsigned long int n
     lenwrit=write(d, (const void *)p, len);
     if(lenwrit == -1l)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
       goto err0;
@@ -8518,18 +8518,18 @@ static char * prettyprint_ipv4(struct sockaddr *name, unsigned long int namelen)
   else
   {
     memcpy((void *)&sa_in, (const void *)name, namelen);
-    const char *return_value_inet_ntop$1;
-    return_value_inet_ntop$1=inet_ntop(2, (const void *)&sa_in.sin_addr, addr, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-    if(return_value_inet_ntop$1 == ((const char *)NULL))
+    const char *return_value_inet_ntop_1;
+    return_value_inet_ntop_1=inet_ntop(2, (const void *)&sa_in.sin_addr, addr, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+    if(return_value_inet_ntop_1 == ((const char *)NULL))
       return (char *)(void *)0;
 
     else
     {
-      unsigned short int return_value_ntohs$2;
-      return_value_ntohs$2=ntohs(sa_in.sin_port);
-      signed int return_value_libcperciva_asprintf$3;
-      return_value_libcperciva_asprintf$3=libcperciva_asprintf(&s, "[%s]:%d", (const void *)addr, return_value_ntohs$2);
-      if(return_value_libcperciva_asprintf$3 == -1)
+      unsigned short int return_value_ntohs_2;
+      return_value_ntohs_2=ntohs(sa_in.sin_port);
+      signed int return_value_libcperciva_asprintf_3;
+      return_value_libcperciva_asprintf_3=libcperciva_asprintf(&s, "[%s]:%d", (const void *)addr, return_value_ntohs_2);
+      if(return_value_libcperciva_asprintf_3 == -1)
         return (char *)(void *)0;
 
       else
@@ -8551,18 +8551,18 @@ static char * prettyprint_ipv6(struct sockaddr *name, unsigned long int namelen)
   else
   {
     memcpy((void *)&sa_in6, (const void *)name, namelen);
-    const char *return_value_inet_ntop$1;
-    return_value_inet_ntop$1=inet_ntop(10, (const void *)&sa_in6.sin6_addr, addr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-    if(return_value_inet_ntop$1 == ((const char *)NULL))
+    const char *return_value_inet_ntop_1;
+    return_value_inet_ntop_1=inet_ntop(10, (const void *)&sa_in6.sin6_addr, addr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+    if(return_value_inet_ntop_1 == ((const char *)NULL))
       return (char *)(void *)0;
 
     else
     {
-      unsigned short int return_value_ntohs$2;
-      return_value_ntohs$2=ntohs(sa_in6.sin6_port);
-      signed int return_value_libcperciva_asprintf$3;
-      return_value_libcperciva_asprintf$3=libcperciva_asprintf(&s, "[%s]:%d", (const void *)addr, return_value_ntohs$2);
-      if(return_value_libcperciva_asprintf$3 == -1)
+      unsigned short int return_value_ntohs_2;
+      return_value_ntohs_2=ntohs(sa_in6.sin6_port);
+      signed int return_value_libcperciva_asprintf_3;
+      return_value_libcperciva_asprintf_3=libcperciva_asprintf(&s, "[%s]:%d", (const void *)addr, return_value_ntohs_2);
+      if(return_value_libcperciva_asprintf_3 == -1)
         return (char *)(void *)0;
 
       else
@@ -8575,9 +8575,9 @@ static char * prettyprint_ipv6(struct sockaddr *name, unsigned long int namelen)
 // file ../libcperciva/util/sock_util.c line 241
 static char * prettyprint_unix(struct sockaddr_un *name)
 {
-  char *return_value_strdup$1;
-  return_value_strdup$1=strdup(name->sun_path);
-  return return_value_strdup$1;
+  char *return_value_strdup_1;
+  return_value_strdup_1=strdup(name->sun_path);
+  return return_value_strdup_1;
 }
 
 // proto_conn_create
@@ -8585,9 +8585,9 @@ static char * prettyprint_unix(struct sockaddr_un *name)
 signed int proto_conn_create(signed int s, struct sock_addr **sas, signed int decr, signed int nofps, signed int requirefps, signed int nokeepalive, struct proto_secret *K, double timeo, signed int (*callback_dead)(void *), void *cookie)
 {
   struct conn_state *C;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct conn_state) /*136ul*/ );
-  C = (struct conn_state *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct conn_state) /*136ul*/ );
+  C = (struct conn_state *)return_value_malloc_1;
   if(!(C == ((struct conn_state *)NULL)))
   {
     C->callback_dead = callback_dead;
@@ -8619,9 +8619,9 @@ signed int proto_conn_create(signed int s, struct sock_addr **sas, signed int de
       {
         if(!(C->decr == 0))
         {
-          signed int return_value_starthandshake$2;
-          return_value_starthandshake$2=starthandshake(C, C->s, C->decr);
-          if(!(return_value_starthandshake$2 == 0))
+          signed int return_value_starthandshake_2;
+          return_value_starthandshake_2=starthandshake(C, C->s, C->decr);
+          if(!(return_value_starthandshake_2 == 0))
             goto err3;
 
         }
@@ -8655,7 +8655,7 @@ err0:
 // file ../proto/proto_crypt.c line 342
 signed long int proto_crypt_dec(unsigned char *ibuf, unsigned char *obuf, struct proto_keys *k)
 {
-  struct anonymous$2 ctx;
+  struct anonymous_2 ctx;
   unsigned char hbuf[32l];
   unsigned char pnum_exp[8l];
   unsigned long int len;
@@ -8664,18 +8664,18 @@ signed long int proto_crypt_dec(unsigned char *ibuf, unsigned char *obuf, struct
   libcperciva_HMAC_SHA256_Update(&ctx, (const void *)ibuf, (unsigned long int)(1024 + 4));
   libcperciva_HMAC_SHA256_Update(&ctx, (const void *)pnum_exp, (unsigned long int)8);
   libcperciva_HMAC_SHA256_Final(hbuf, &ctx);
-  unsigned char return_value_crypto_verify_bytes$1;
-  return_value_crypto_verify_bytes$1=crypto_verify_bytes(hbuf, &ibuf[(signed long int)(1024 + 4)], (unsigned long int)32);
-  if(!(return_value_crypto_verify_bytes$1 == 0))
+  unsigned char return_value_crypto_verify_bytes_1;
+  return_value_crypto_verify_bytes_1=crypto_verify_bytes(hbuf, &ibuf[(signed long int)(1024 + 4)], (unsigned long int)32);
+  if(!(return_value_crypto_verify_bytes_1 == 0))
     return (signed long int)-1;
 
   else
   {
     crypto_aesctr_buf(k->k_aes, k->pnum, ibuf, ibuf, (unsigned long int)(1024 + 4));
     k->pnum = k->pnum + (unsigned long int)1;
-    unsigned int return_value_libcperciva_be32dec$2;
-    return_value_libcperciva_be32dec$2=libcperciva_be32dec((const void *)&ibuf[(signed long int)1024]);
-    len = (unsigned long int)return_value_libcperciva_be32dec$2;
+    unsigned int return_value_libcperciva_be32dec_2;
+    return_value_libcperciva_be32dec_2=libcperciva_be32dec((const void *)&ibuf[(signed long int)1024]);
+    len = (unsigned long int)return_value_libcperciva_be32dec_2;
     if(len == 0ul || len >= 1025ul)
       return (signed long int)-1;
 
@@ -8699,9 +8699,9 @@ signed int proto_crypt_dh_generate(unsigned char *yh_l, unsigned char *x, const 
 
   else
   {
-    signed int return_value_crypto_dh_generate$1;
-    return_value_crypto_dh_generate$1=crypto_dh_generate(yh_l, x);
-    if(!(return_value_crypto_dh_generate$1 == 0))
+    signed int return_value_crypto_dh_generate_1;
+    return_value_crypto_dh_generate_1=crypto_dh_generate(yh_l, x);
+    if(!(return_value_crypto_dh_generate_1 == 0))
       goto err0;
 
   }
@@ -8719,25 +8719,25 @@ signed int proto_crypt_dh_validate(const unsigned char *yh_r, const unsigned cha
 {
   unsigned char hbuf[32l];
   libcperciva_HMAC_SHA256_Buf((const void *)dhmac_r, (unsigned long int)32, (const void *)yh_r, (unsigned long int)256, hbuf);
-  unsigned char return_value_crypto_verify_bytes$1;
-  return_value_crypto_verify_bytes$1=crypto_verify_bytes(&yh_r[(signed long int)256], hbuf, (unsigned long int)32);
-  if(!(return_value_crypto_verify_bytes$1 == 0))
+  unsigned char return_value_crypto_verify_bytes_1;
+  return_value_crypto_verify_bytes_1=crypto_verify_bytes(&yh_r[(signed long int)256], hbuf, (unsigned long int)32);
+  if(!(return_value_crypto_verify_bytes_1 == 0))
     return 1;
 
   else
   {
-    signed int return_value_crypto_dh_sanitycheck$2;
-    return_value_crypto_dh_sanitycheck$2=crypto_dh_sanitycheck(&yh_r[(signed long int)0]);
-    if(!(return_value_crypto_dh_sanitycheck$2 == 0))
+    signed int return_value_crypto_dh_sanitycheck_2;
+    return_value_crypto_dh_sanitycheck_2=crypto_dh_sanitycheck(&yh_r[(signed long int)0]);
+    if(!(return_value_crypto_dh_sanitycheck_2 == 0))
       return 1;
 
     else
     {
       if(!(requirefps == 0))
       {
-        signed int return_value_is_not_one$3;
-        return_value_is_not_one$3=is_not_one(&yh_r[(signed long int)0], (unsigned long int)256);
-        if(return_value_is_not_one$3 == 0)
+        signed int return_value_is_not_one_3;
+        return_value_is_not_one_3=is_not_one(&yh_r[(signed long int)0], (unsigned long int)256);
+        if(return_value_is_not_one_3 == 0)
           return 1;
 
       }
@@ -8772,7 +8772,7 @@ void proto_crypt_dhmac(struct proto_secret *K, const unsigned char *nonce_l, con
 // file ../proto/proto_crypt.c line 304
 void proto_crypt_enc(unsigned char *ibuf, unsigned long int len, unsigned char *obuf, struct proto_keys *k)
 {
-  struct anonymous$2 ctx;
+  struct anonymous_2 ctx;
   unsigned char pnum_exp[8l];
   /* assertion len <= 1024 */
   assert(len <= (unsigned long int)1024);
@@ -8820,9 +8820,9 @@ signed int proto_crypt_mkkeys(struct proto_secret *K, const unsigned char *nonce
 
   else
   {
-    signed int return_value_crypto_dh_compute$1;
-    return_value_crypto_dh_compute$1=crypto_dh_compute(yh_r, x, &nonce_y[(signed long int)(32 * 2)]);
-    if(!(return_value_crypto_dh_compute$1 == 0))
+    signed int return_value_crypto_dh_compute_1;
+    return_value_crypto_dh_compute_1=crypto_dh_compute(yh_r, x, &nonce_y[(signed long int)(32 * 2)]);
+    if(!(return_value_crypto_dh_compute_1 == 0))
       goto err0;
 
   }
@@ -8850,29 +8850,29 @@ err0:
 // file ../proto/proto_crypt.h line 28
 struct proto_secret * proto_crypt_secret(const char *filename)
 {
-  struct anonymous$5 ctx;
+  struct anonymous_5 ctx;
   struct _IO_FILE *f;
   struct proto_secret *K;
   unsigned char buf[8192l];
   unsigned long int lenread;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct proto_secret) /*32ul*/ );
-  K = (struct proto_secret *)return_value_malloc$1;
-  signed int return_value_feof$6;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct proto_secret) /*32ul*/ );
+  K = (struct proto_secret *)return_value_malloc_1;
+  signed int return_value_feof_6;
   if(!(K == ((struct proto_secret *)NULL)))
   {
     f=fopen(filename, "r");
     if(f == ((struct _IO_FILE *)NULL))
       do
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(!(*return_value___errno_location$3 == 0))
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(!(*return_value___errno_location_3 == 0))
         {
           libcperciva_warn("Cannot open file: %s", filename);
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          *return_value___errno_location$2 = 0;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          *return_value___errno_location_2 = 0;
         }
 
         else
@@ -8892,18 +8892,18 @@ struct proto_secret * proto_crypt_secret(const char *filename)
         libcperciva_SHA256_Update(&ctx, (const void *)buf, lenread);
       }
       while((_Bool)1);
-      return_value_feof$6=feof(f);
-      if(return_value_feof$6 == 0)
+      return_value_feof_6=feof(f);
+      if(return_value_feof_6 == 0)
         do
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          if(!(*return_value___errno_location$5 == 0))
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          if(!(*return_value___errno_location_5 == 0))
           {
             libcperciva_warn("Error reading file: %s", filename);
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            *return_value___errno_location$4 = 0;
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            *return_value___errno_location_4 = 0;
           }
 
           else
@@ -8939,10 +8939,10 @@ err0:
 void * proto_handshake(signed int s, signed int decr, signed int nofps, signed int requirefps, struct proto_secret *K, signed int (*callback)(void *, struct proto_keys *, struct proto_keys *), void *cookie)
 {
   struct handshake_cookie *H;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct handshake_cookie) /*792ul*/ );
-  H = (struct handshake_cookie *)return_value_malloc$1;
-  signed int return_value_crypto_entropy_read$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct handshake_cookie) /*792ul*/ );
+  H = (struct handshake_cookie *)return_value_malloc_1;
+  signed int return_value_crypto_entropy_read_2;
   if(!(H == ((struct handshake_cookie *)NULL)))
   {
     H->callback = callback;
@@ -8952,8 +8952,8 @@ void * proto_handshake(signed int s, signed int decr, signed int nofps, signed i
     H->nofps = nofps;
     H->requirefps = requirefps;
     H->K = K;
-    return_value_crypto_entropy_read$2=crypto_entropy_read(H->nonce_local, (unsigned long int)32);
-    if(return_value_crypto_entropy_read$2 == 0)
+    return_value_crypto_entropy_read_2=crypto_entropy_read(H->nonce_local, (unsigned long int)32);
+    if(return_value_crypto_entropy_read_2 == 0)
     {
       H->write_cookie=network_write(s, H->nonce_local, (unsigned long int)32, (unsigned long int)32, callback_nonce_write, (void *)H);
       if(!(H->write_cookie == NULL))
@@ -9001,9 +9001,9 @@ void proto_handshake_cancel(void *cookie)
 void * proto_pipe(signed int s_in, signed int s_out, signed int decr, struct proto_keys *k, signed int *status, signed int (*callback)(void *), void *cookie)
 {
   struct pipe_cookie *P;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pipe_cookie) /*2160ul*/ );
-  P = (struct pipe_cookie *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pipe_cookie) /*2160ul*/ );
+  P = (struct pipe_cookie *)return_value_malloc_1;
   if(!(P == ((struct pipe_cookie *)NULL)))
   {
     P->callback = callback;
@@ -9061,9 +9061,9 @@ void proto_pipe_cancel(void *cookie)
 // file ../libcperciva/datastruct/ptrheap.c line 193
 signed int ptrheap_add(struct ptrheap *H, void *ptr)
 {
-  signed int return_value_ptrlist_append$1;
-  return_value_ptrlist_append$1=ptrlist_append(H->elems, &ptr, (unsigned long int)1);
-  if(return_value_ptrlist_append$1 == 0)
+  signed int return_value_ptrlist_append_1;
+  return_value_ptrlist_append_1=ptrlist_append(H->elems, &ptr, (unsigned long int)1);
+  if(return_value_ptrlist_append_1 == 0)
   {
     H->nelems = H->nelems + (unsigned long int)1;
     if(!(H->setreccookie == ((void (*)(void *, void *, unsigned long int))NULL)))
@@ -9088,11 +9088,11 @@ struct ptrheap * ptrheap_create(signed int (*compar)(void *, const void *, const
 {
   struct ptrheap *H;
   unsigned long int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ptrheap) /*40ul*/ );
-  H = (struct ptrheap *)return_value_malloc$1;
-  void **return_value_ptrlist_get$2;
-  void **return_value_ptrlist_get$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ptrheap) /*40ul*/ );
+  H = (struct ptrheap *)return_value_malloc_1;
+  void **return_value_ptrlist_get_2;
+  void **return_value_ptrlist_get_3;
   if(!(H == ((struct ptrheap *)NULL)))
   {
     H->compar = compar;
@@ -9105,8 +9105,8 @@ struct ptrheap * ptrheap_create(signed int (*compar)(void *, const void *, const
       i = (unsigned long int)0;
       for( ; !(i >= N); i = i + 1ul)
       {
-        return_value_ptrlist_get$2=ptrlist_get(H->elems, i);
-        *return_value_ptrlist_get$2 = ptrs[(signed long int)i];
+        return_value_ptrlist_get_2=ptrlist_get(H->elems, i);
+        *return_value_ptrlist_get_2 = ptrs[(signed long int)i];
       }
       i = N - (unsigned long int)1;
       for( ; !(i >= N); i = i - 1ul)
@@ -9116,8 +9116,8 @@ struct ptrheap * ptrheap_create(signed int (*compar)(void *, const void *, const
         i = (unsigned long int)0;
         if(!(i >= N))
         {
-          return_value_ptrlist_get$3=ptrlist_get(H->elems, i);
-          H->setreccookie(H->cookie, *return_value_ptrlist_get$3, i);
+          return_value_ptrlist_get_3=ptrlist_get(H->elems, i);
+          H->setreccookie(H->cookie, *return_value_ptrlist_get_3, i);
           i = i + 1ul;
         }
 
@@ -9142,35 +9142,35 @@ err0:
 // file ../libcperciva/datastruct/ptrheap.c line 239
 void ptrheap_delete(struct ptrheap *H, unsigned long int rc)
 {
-  void **return_value_ptrlist_get$3;
-  _Bool tmp_if_expr$6;
-  void **return_value_ptrlist_get$4;
-  void **return_value_ptrlist_get$5;
+  void **return_value_ptrlist_get_3;
+  _Bool tmp_if_expr_6;
+  void **return_value_ptrlist_get_4;
+  void **return_value_ptrlist_get_5;
   signed int return_value;
   if(!(rc == H->nelems + 18446744073709551615ul))
   {
-    void **return_value_ptrlist_get$1;
-    return_value_ptrlist_get$1=ptrlist_get(H->elems, rc);
-    void **return_value_ptrlist_get$2;
-    return_value_ptrlist_get$2=ptrlist_get(H->elems, H->nelems - (unsigned long int)1);
-    *return_value_ptrlist_get$1 = *return_value_ptrlist_get$2;
+    void **return_value_ptrlist_get_1;
+    return_value_ptrlist_get_1=ptrlist_get(H->elems, rc);
+    void **return_value_ptrlist_get_2;
+    return_value_ptrlist_get_2=ptrlist_get(H->elems, H->nelems - (unsigned long int)1);
+    *return_value_ptrlist_get_1 = *return_value_ptrlist_get_2;
     if(!(H->setreccookie == ((void (*)(void *, void *, unsigned long int))NULL)))
     {
-      return_value_ptrlist_get$3=ptrlist_get(H->elems, rc);
-      H->setreccookie(H->cookie, *return_value_ptrlist_get$3, rc);
+      return_value_ptrlist_get_3=ptrlist_get(H->elems, rc);
+      H->setreccookie(H->cookie, *return_value_ptrlist_get_3, rc);
     }
 
     if(rc >= 1ul)
     {
-      return_value_ptrlist_get$4=ptrlist_get(H->elems, rc);
-      return_value_ptrlist_get$5=ptrlist_get(H->elems, (rc - (unsigned long int)1) / (unsigned long int)2);
-      return_value=H->compar(H->cookie, *return_value_ptrlist_get$4, *return_value_ptrlist_get$5);
-      tmp_if_expr$6 = return_value < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_ptrlist_get_4=ptrlist_get(H->elems, rc);
+      return_value_ptrlist_get_5=ptrlist_get(H->elems, (rc - (unsigned long int)1) / (unsigned long int)2);
+      return_value=H->compar(H->cookie, *return_value_ptrlist_get_4, *return_value_ptrlist_get_5);
+      tmp_if_expr_6 = return_value < 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
     {
       swap(H->elems, rc, (rc - (unsigned long int)1) / (unsigned long int)2, H->setreccookie, H->cookie);
       heapifyup(H->elems, (rc - (unsigned long int)1) / (unsigned long int)2, H->compar, H->setreccookie, H->cookie);
@@ -9207,11 +9207,11 @@ void ptrheap_free(struct ptrheap *H)
 // file ../libcperciva/datastruct/ptrheap.c line 223
 void * ptrheap_getmin(struct ptrheap *H)
 {
-  void **return_value_ptrlist_get$1;
+  void **return_value_ptrlist_get_1;
   if(!(H->nelems == 0ul))
   {
-    return_value_ptrlist_get$1=ptrlist_get(H->elems, (unsigned long int)0);
-    return *return_value_ptrlist_get$1;
+    return_value_ptrlist_get_1=ptrlist_get(H->elems, (unsigned long int)0);
+    return *return_value_ptrlist_get_1;
   }
 
   else
@@ -9236,18 +9236,18 @@ void ptrheap_increasemin(struct ptrheap *H)
 // file ../libcperciva/datastruct/ptrheap.c line 126
 struct ptrheap * ptrheap_init(signed int (*compar)(void *, const void *, const void *), void (*setreccookie)(void *, void *, unsigned long int), void *cookie)
 {
-  struct ptrheap *return_value_ptrheap_create$1;
-  return_value_ptrheap_create$1=ptrheap_create(compar, setreccookie, cookie, (unsigned long int)0, (void **)(void *)0);
-  return return_value_ptrheap_create$1;
+  struct ptrheap *return_value_ptrheap_create_1;
+  return_value_ptrheap_create_1=ptrheap_create(compar, setreccookie, cookie, (unsigned long int)0, (void **)(void *)0);
+  return return_value_ptrheap_create_1;
 }
 
 // ptrlist_append
 // file ../libcperciva/datastruct/ptrheap.c line 7
 static inline signed int ptrlist_append(struct ptrlist_struct *EA, void * const *buf, unsigned long int nrec)
 {
-  signed int return_value_elasticarray_append$1;
-  return_value_elasticarray_append$1=elasticarray_append((struct elasticarray *)EA, (const void *)buf, nrec, sizeof(void *) /*8ul*/ );
-  return return_value_elasticarray_append$1;
+  signed int return_value_elasticarray_append_1;
+  return_value_elasticarray_append_1=elasticarray_append((struct elasticarray *)EA, (const void *)buf, nrec, sizeof(void *) /*8ul*/ );
+  return return_value_elasticarray_append_1;
 }
 
 // ptrlist_free
@@ -9262,9 +9262,9 @@ static inline void ptrlist_free(struct ptrlist_struct *EA)
 static inline void ** ptrlist_get(struct ptrlist_struct *EA, unsigned long int pos)
 {
   void **rec;
-  void *return_value_elasticarray_get$1;
-  return_value_elasticarray_get$1=elasticarray_get((struct elasticarray *)EA, pos, sizeof(void *) /*8ul*/ );
-  rec = (void **)return_value_elasticarray_get$1;
+  void *return_value_elasticarray_get_1;
+  return_value_elasticarray_get_1=elasticarray_get((struct elasticarray *)EA, pos, sizeof(void *) /*8ul*/ );
+  rec = (void **)return_value_elasticarray_get_1;
   return rec;
 }
 
@@ -9289,16 +9289,16 @@ static inline void ptrlist_shrink(struct ptrlist_struct *EA, unsigned long int n
 static signed int reseed(void)
 {
   unsigned char seed_material[32l];
-  signed int return_value_entropy_read$1;
-  return_value_entropy_read$1=entropy_read(seed_material, (unsigned long int)32);
-  if(!(return_value_entropy_read$1 == 0))
+  signed int return_value_entropy_read_1;
+  return_value_entropy_read_1=entropy_read(seed_material, (unsigned long int)32);
+  if(!(return_value_entropy_read_1 == 0))
     return -1;
 
   else
   {
     update(seed_material, (unsigned long int)32);
     drbg.reseed_counter = (unsigned int)1;
-    insecure_memzero$link3((volatile void *)seed_material, (unsigned long int)32);
+    insecure_memzero_link3((volatile void *)seed_material, (unsigned long int)32);
     return 0;
   }
 }
@@ -9345,7 +9345,7 @@ err0:
 // file ../libcperciva/datastruct/timerqueue.c line 55
 static void setreccookie(void *cookie, void *ptr, unsigned long int rc)
 {
-  struct timerrec$0 *rec = (struct timerrec$0 *)ptr;
+  struct timerrec_0 *rec = (struct timerrec_0 *)ptr;
   (void)cookie;
   rec->rc = rc;
 }
@@ -9354,26 +9354,26 @@ static void setreccookie(void *cookie, void *ptr, unsigned long int rc)
 // file ../libcperciva/util/sock_util.c line 22
 signed int sock_addr_cmp(struct sock_addr *sa1, struct sock_addr *sa2)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(sa1->ai_family == sa2->ai_family))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = sa1->ai_socktype != sa2->ai_socktype ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = sa1->ai_socktype != sa2->ai_socktype ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = sa1->namelen != sa2->namelen ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = sa1->namelen != sa2->namelen ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 1;
 
   else
   {
-    signed int return_value_memcmp$3;
-    return_value_memcmp$3=memcmp((const void *)sa1->name, (const void *)sa2->name, (unsigned long int)sa1->namelen);
-    if(!(return_value_memcmp$3 == 0))
+    signed int return_value_memcmp_3;
+    return_value_memcmp_3=memcmp((const void *)sa1->name, (const void *)sa2->name, (unsigned long int)sa1->namelen);
+    if(!(return_value_memcmp_3 == 0))
       return 1;
 
     else
@@ -9386,12 +9386,12 @@ signed int sock_addr_cmp(struct sock_addr *sa1, struct sock_addr *sa2)
 struct sock_addr * sock_addr_deserialize(const unsigned char *buf, unsigned long int buflen)
 {
   struct sock_addr *sa;
-  void *return_value_malloc$1;
-  void *return_value_malloc$2;
+  void *return_value_malloc_1;
+  void *return_value_malloc_2;
   if(buflen >= sizeof(unsigned int) * 3 /*12ul*/ )
   {
-    return_value_malloc$1=malloc(sizeof(struct sock_addr) /*24ul*/ );
-    sa = (struct sock_addr *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct sock_addr) /*24ul*/ );
+    sa = (struct sock_addr *)return_value_malloc_1;
     if(!(sa == ((struct sock_addr *)NULL)))
     {
       memcpy((void *)&sa->ai_family, (const void *)buf, sizeof(signed int) /*4ul*/ );
@@ -9402,8 +9402,8 @@ struct sock_addr * sock_addr_deserialize(const unsigned char *buf, unsigned long
       buf = buf + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       if(buflen == sizeof(unsigned int) * 3 /*12ul*/  + (unsigned long int)sa->namelen)
       {
-        return_value_malloc$2=malloc((unsigned long int)sa->namelen);
-        sa->name = (struct sockaddr *)return_value_malloc$2;
+        return_value_malloc_2=malloc((unsigned long int)sa->namelen);
+        sa->name = (struct sockaddr *)return_value_malloc_2;
         if(!(sa->name == ((struct sockaddr *)NULL)))
         {
           memcpy((void *)sa->name, (const void *)buf, (unsigned long int)sa->namelen);
@@ -9431,17 +9431,17 @@ err0:
 struct sock_addr * sock_addr_dup(struct sock_addr *sa)
 {
   struct sock_addr *sa2;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct sock_addr) /*24ul*/ );
-  sa2 = (struct sock_addr *)return_value_malloc$1;
-  void *return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct sock_addr) /*24ul*/ );
+  sa2 = (struct sock_addr *)return_value_malloc_1;
+  void *return_value_malloc_2;
   if(!(sa2 == ((struct sock_addr *)NULL)))
   {
     sa2->ai_family = sa->ai_family;
     sa2->ai_socktype = sa->ai_socktype;
     sa2->namelen = sa->namelen;
-    return_value_malloc$2=malloc((unsigned long int)sa2->namelen);
-    sa2->name = (struct sockaddr *)return_value_malloc$2;
+    return_value_malloc_2=malloc((unsigned long int)sa2->namelen);
+    sa2->name = (struct sockaddr *)return_value_malloc_2;
     if(!(sa2->name == ((struct sockaddr *)NULL)))
     {
       memcpy((void *)sa2->name, (const void *)sa->name, (unsigned long int)sa2->namelen);
@@ -9468,9 +9468,9 @@ struct sock_addr ** sock_addr_duplist(struct sock_addr * const *sas)
   unsigned long int i = (unsigned long int)0;
   for( ; !(sas[(signed long int)i] == ((struct sock_addr *)NULL)); i = i + 1ul)
     ;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((i + (unsigned long int)1) * sizeof(struct sock_addr *) /*8ul*/ );
-  sas2 = (struct sock_addr **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((i + (unsigned long int)1) * sizeof(struct sock_addr *) /*8ul*/ );
+  sas2 = (struct sock_addr **)return_value_malloc_1;
   if(!(sas2 == ((struct sock_addr **)NULL)))
   {
     i = (unsigned long int)0;
@@ -9526,31 +9526,31 @@ void sock_addr_freelist(struct sock_addr **sas)
 // file ../libcperciva/util/sock_util.c line 257
 char * sock_addr_prettyprint(struct sock_addr *sa)
 {
-  char *return_value_prettyprint_ipv4$1;
-  char *return_value_prettyprint_ipv6$2;
-  char *return_value_prettyprint_unix$3;
-  char *return_value_strdup$4;
+  char *return_value_prettyprint_ipv4_1;
+  char *return_value_prettyprint_ipv6_2;
+  char *return_value_prettyprint_unix_3;
+  char *return_value_strdup_4;
   switch(sa->ai_family)
   {
     case 2:
     {
-      return_value_prettyprint_ipv4$1=prettyprint_ipv4(sa->name, (unsigned long int)sa->namelen);
-      return return_value_prettyprint_ipv4$1;
+      return_value_prettyprint_ipv4_1=prettyprint_ipv4(sa->name, (unsigned long int)sa->namelen);
+      return return_value_prettyprint_ipv4_1;
     }
     case 10:
     {
-      return_value_prettyprint_ipv6$2=prettyprint_ipv6(sa->name, (unsigned long int)sa->namelen);
-      return return_value_prettyprint_ipv6$2;
+      return_value_prettyprint_ipv6_2=prettyprint_ipv6(sa->name, (unsigned long int)sa->namelen);
+      return return_value_prettyprint_ipv6_2;
     }
     case 1:
     {
-      return_value_prettyprint_unix$3=prettyprint_unix((struct sockaddr_un *)sa->name);
-      return return_value_prettyprint_unix$3;
+      return_value_prettyprint_unix_3=prettyprint_unix((struct sockaddr_un *)sa->name);
+      return return_value_prettyprint_unix_3;
     }
     default:
     {
-      return_value_strdup$4=strdup("Unknown address");
-      return return_value_strdup$4;
+      return_value_strdup_4=strdup("Unknown address");
+      return return_value_strdup_4;
     }
   }
 }
@@ -9561,9 +9561,9 @@ signed int sock_addr_serialize(struct sock_addr *sa, unsigned char **buf, unsign
 {
   unsigned char *p;
   *buflen = (unsigned long int)2 * sizeof(signed int) /*4ul*/  + sizeof(unsigned int) /*4ul*/  + (unsigned long int)sa->namelen;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(*buflen);
-  *buf = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(*buflen);
+  *buf = (unsigned char *)return_value_malloc_1;
   p = *buf;
   if(!(p == ((unsigned char *)NULL)))
   {
@@ -9596,40 +9596,40 @@ signed int sock_connect(struct sock_addr * const *sas)
     s=socket(sas[(signed long int)0]->ai_family, sas[(signed long int)0]->ai_socktype, 0);
     if(!(s == -1))
     {
-      signed int return_value_connect$1;
-      return_value_connect$1=connect(s, sas[(signed long int)0]->name, sas[(signed long int)0]->namelen);
-      if(return_value_connect$1 == 0)
+      signed int return_value_connect_1;
+      return_value_connect_1=connect(s, sas[(signed long int)0]->name, sas[(signed long int)0]->namelen);
+      if(return_value_connect_1 == 0)
         break;
 
       close(s);
     }
 
   }
-  signed int return_value_fcntl$5;
+  signed int return_value_fcntl_5;
   if(*sas == ((struct sock_addr *)NULL))
     do
     {
       libcperciva_warnx("Could not connect");
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
     }
     while((_Bool)0);
 
   else
   {
-    return_value_fcntl$5=fcntl(s, 4, 04000);
-    if(return_value_fcntl$5 == -1)
+    return_value_fcntl_5=fcntl(s, 4, 04000);
+    if(return_value_fcntl_5 == -1)
       do
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(!(*return_value___errno_location$4 == 0))
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(!(*return_value___errno_location_4 == 0))
         {
           libcperciva_warn("Cannot make connection non-blocking");
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 0;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 0;
         }
 
         else
@@ -9656,24 +9656,24 @@ signed int sock_connect_nb(struct sock_addr *sa)
 {
   signed int s;
   s=socket(sa->ai_family, sa->ai_socktype, 0);
-  signed int return_value_fcntl$3;
-  signed int return_value_connect$6;
-  signed int *return_value___errno_location$5;
-  signed int *return_value___errno_location$4;
+  signed int return_value_fcntl_3;
+  signed int return_value_connect_6;
+  signed int *return_value___errno_location_5;
+  signed int *return_value___errno_location_4;
   if(!(s == -1))
   {
-    return_value_fcntl$3=fcntl(s, 4, 04000);
-    if(return_value_fcntl$3 == -1)
+    return_value_fcntl_3=fcntl(s, 4, 04000);
+    if(return_value_fcntl_3 == -1)
       do
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 0))
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 0))
         {
           libcperciva_warn("Cannot make socket non-blocking");
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          *return_value___errno_location$1 = 0;
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          *return_value___errno_location_1 = 0;
         }
 
         else
@@ -9683,14 +9683,14 @@ signed int sock_connect_nb(struct sock_addr *sa)
 
     else
     {
-      return_value_connect$6=connect(s, sa->name, sa->namelen);
-      if(return_value_connect$6 == -1)
+      return_value_connect_6=connect(s, sa->name, sa->namelen);
+      if(return_value_connect_6 == -1)
       {
-        return_value___errno_location$5=__errno_location();
-        if(!(*return_value___errno_location$5 == 115))
+        return_value___errno_location_5=__errno_location();
+        if(!(*return_value___errno_location_5 == 115))
         {
-          return_value___errno_location$4=__errno_location();
-          if(!(*return_value___errno_location$4 == 4))
+          return_value___errno_location_4=__errno_location();
+          if(!(*return_value___errno_location_4 == 4))
             goto err1;
 
         }
@@ -9718,21 +9718,21 @@ signed int sock_listener(struct sock_addr *sa)
   signed int s;
   signed int val = 1;
   s=socket(sa->ai_family, sa->ai_socktype, 0);
-  signed int return_value_setsockopt$5;
-  signed int return_value_bind$8;
-  signed int return_value_listen$11;
-  signed int return_value_fcntl$14;
+  signed int return_value_setsockopt_5;
+  signed int return_value_bind_8;
+  signed int return_value_listen_11;
+  signed int return_value_fcntl_14;
   if(s == -1)
     do
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 0))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 0))
       {
         libcperciva_warn("socket(%d, %d)", sa->ai_family, sa->ai_socktype);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
       }
 
       else
@@ -9742,18 +9742,18 @@ signed int sock_listener(struct sock_addr *sa)
 
   else
   {
-    return_value_setsockopt$5=setsockopt(s, 1, 2, (const void *)&val, (unsigned int)sizeof(signed int) /*4ul*/ );
-    if(!(return_value_setsockopt$5 == 0))
+    return_value_setsockopt_5=setsockopt(s, 1, 2, (const void *)&val, (unsigned int)sizeof(signed int) /*4ul*/ );
+    if(!(return_value_setsockopt_5 == 0))
       do
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(!(*return_value___errno_location$4 == 0))
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(!(*return_value___errno_location_4 == 0))
         {
           libcperciva_warn("setsockopt(SO_REUSEADDR)");
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 0;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 0;
         }
 
         else
@@ -9763,18 +9763,18 @@ signed int sock_listener(struct sock_addr *sa)
 
     else
     {
-      return_value_bind$8=bind(s, sa->name, sa->namelen);
-      if(!(return_value_bind$8 == 0))
+      return_value_bind_8=bind(s, sa->name, sa->namelen);
+      if(!(return_value_bind_8 == 0))
         do
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          if(!(*return_value___errno_location$7 == 0))
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          if(!(*return_value___errno_location_7 == 0))
           {
             libcperciva_warn("Error binding socket");
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            *return_value___errno_location$6 = 0;
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            *return_value___errno_location_6 = 0;
           }
 
           else
@@ -9784,18 +9784,18 @@ signed int sock_listener(struct sock_addr *sa)
 
       else
       {
-        return_value_listen$11=listen(s, 10);
-        if(!(return_value_listen$11 == 0))
+        return_value_listen_11=listen(s, 10);
+        if(!(return_value_listen_11 == 0))
           do
           {
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            if(!(*return_value___errno_location$10 == 0))
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            if(!(*return_value___errno_location_10 == 0))
             {
               libcperciva_warn("Error marking socket as listening");
-              signed int *return_value___errno_location$9;
-              return_value___errno_location$9=__errno_location();
-              *return_value___errno_location$9 = 0;
+              signed int *return_value___errno_location_9;
+              return_value___errno_location_9=__errno_location();
+              *return_value___errno_location_9 = 0;
             }
 
             else
@@ -9805,18 +9805,18 @@ signed int sock_listener(struct sock_addr *sa)
 
         else
         {
-          return_value_fcntl$14=fcntl(s, 4, 04000);
-          if(return_value_fcntl$14 == -1)
+          return_value_fcntl_14=fcntl(s, 4, 04000);
+          if(return_value_fcntl_14 == -1)
             do
             {
-              signed int *return_value___errno_location$13;
-              return_value___errno_location$13=__errno_location();
-              if(!(*return_value___errno_location$13 == 0))
+              signed int *return_value___errno_location_13;
+              return_value___errno_location_13=__errno_location();
+              if(!(*return_value___errno_location_13 == 0))
               {
                 libcperciva_warn("Error marking socket as non-blocking");
-                signed int *return_value___errno_location$12;
-                return_value___errno_location$12=__errno_location();
-                *return_value___errno_location$12 = 0;
+                signed int *return_value___errno_location_12;
+                return_value___errno_location_12=__errno_location();
+                *return_value___errno_location_12 = 0;
               }
 
               else
@@ -9849,10 +9849,10 @@ struct sock_addr ** sock_resolve(const char *addr)
   char *ports;
   char *ips;
   signed long int p;
-  char *tmp_post$2;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$5;
-  char *return_value_strchr$7;
+  char *tmp_post_2;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_5;
+  char *return_value_strchr_7;
   if((signed int)*addr == 47)
     res=sock_resolve_unix(addr);
 
@@ -9868,55 +9868,55 @@ struct sock_addr ** sock_resolve(const char *addr)
       do
       {
         libcperciva_warnx("Address must contain port number: %s", s);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
       }
       while((_Bool)0);
       goto err1;
     }
 
-    tmp_post$2 = ports;
+    tmp_post_2 = ports;
     ports = ports + 1l;
-    *tmp_post$2 = (char)0;
+    *tmp_post_2 = (char)0;
     if(!((signed int)*s == 91))
       res=sock_resolve_host(s, ports);
 
     else
     {
-      return_value_strlen$4=strlen(s);
-      if(!((signed int)s[-1l + (signed long int)return_value_strlen$4] == 93))
+      return_value_strlen_4=strlen(s);
+      if(!((signed int)s[-1l + (signed long int)return_value_strlen_4] == 93))
       {
         do
         {
           libcperciva_warnx("Invalid [IP address]: %s", s);
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 0;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 0;
         }
         while((_Bool)0);
         goto err1;
       }
 
       ips = &s[(signed long int)1];
-      return_value_strlen$5=strlen(ips);
-      ips[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
+      return_value_strlen_5=strlen(ips);
+      ips[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
       p=strtol(ports, (char ** restrict )(void *)0, 10);
       if(p >= 65536l || !(p >= 1l))
       {
         do
         {
           libcperciva_warnx("Invalid port number: %s", ports);
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          *return_value___errno_location$6 = 0;
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          *return_value___errno_location_6 = 0;
         }
         while((_Bool)0);
         goto err1;
       }
 
-      return_value_strchr$7=strchr(ips, 58);
-      if(!(return_value_strchr$7 == ((char *)NULL)))
+      return_value_strchr_7=strchr(ips, 58);
+      if(!(return_value_strchr_7 == ((char *)NULL)))
         res=sock_resolve_ipv6(ips, (unsigned short int)p);
 
       else
@@ -9956,16 +9956,16 @@ static struct sock_addr ** sock_resolve_host(const char *addr, const char *ports
   hints.ai_socktype = 1;
   hints.ai_protocol = 6;
   error=getaddrinfo(addr, ports, &hints, &res);
-  void *return_value_imalloc$3;
+  void *return_value_imalloc_3;
   if(!(error == 0))
     do
     {
-      const char *return_value_gai_strerror$1;
-      return_value_gai_strerror$1=gai_strerror(error);
-      libcperciva_warnx("Error looking up %s: %s", addr, return_value_gai_strerror$1);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
+      const char *return_value_gai_strerror_1;
+      return_value_gai_strerror_1=gai_strerror(error);
+      libcperciva_warnx("Error looking up %s: %s", addr, return_value_gai_strerror_1);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
     }
     while((_Bool)0);
 
@@ -9975,8 +9975,8 @@ static struct sock_addr ** sock_resolve_host(const char *addr, const char *ports
     r = res;
     for( ; !(r == ((struct addrinfo *)NULL)); r = r->ai_next)
       n = n + 1ul;
-    return_value_imalloc$3=imalloc(n + (unsigned long int)1, sizeof(struct sock_addr *) /*8ul*/ );
-    sas = (struct sock_addr **)return_value_imalloc$3;
+    return_value_imalloc_3=imalloc(n + (unsigned long int)1, sizeof(struct sock_addr *) /*8ul*/ );
+    sas = (struct sock_addr **)return_value_imalloc_3;
     if(sas == ((struct sock_addr **)NULL))
     {
       if(1ul + n >= 1ul)
@@ -9988,18 +9988,18 @@ static struct sock_addr ** sock_resolve_host(const char *addr, const char *ports
     r = res;
     for( ; !(r == ((struct addrinfo *)NULL)); r = r->ai_next)
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(struct sock_addr) /*24ul*/ );
-      sas[(signed long int)n] = (struct sock_addr *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(struct sock_addr) /*24ul*/ );
+      sas[(signed long int)n] = (struct sock_addr *)return_value_malloc_4;
       if(sas[(signed long int)n] == ((struct sock_addr *)NULL))
         goto err2;
 
       sas[(signed long int)n]->ai_family = r->ai_family;
       sas[(signed long int)n]->ai_socktype = r->ai_socktype;
       sas[(signed long int)n]->namelen = r->ai_addrlen;
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc((unsigned long int)sas[(signed long int)n]->namelen);
-      sas[(signed long int)n]->name = (struct sockaddr *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc((unsigned long int)sas[(signed long int)n]->namelen);
+      sas[(signed long int)n]->name = (struct sockaddr *)return_value_malloc_5;
       if(sas[(signed long int)n]->name == ((struct sockaddr *)NULL))
         goto err3;
 
@@ -10037,39 +10037,39 @@ static struct sock_addr ** sock_resolve_ipv4(const char *addr, unsigned short in
   struct sock_addr **sas;
   struct sock_addr *sa;
   struct sockaddr_in *sin;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct sockaddr_in) /*16ul*/ );
-  sin = (struct sockaddr_in *)return_value_calloc$1;
-  signed int return_value_inet_pton$3;
-  void *return_value_malloc$4;
-  void *return_value_malloc$5;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct sockaddr_in) /*16ul*/ );
+  sin = (struct sockaddr_in *)return_value_calloc_1;
+  signed int return_value_inet_pton_3;
+  void *return_value_malloc_4;
+  void *return_value_malloc_5;
   if(!(sin == ((struct sockaddr_in *)NULL)))
   {
     sin->sin_family = (unsigned short int)2;
     sin->sin_port=htons(p);
-    return_value_inet_pton$3=inet_pton(2, addr, (void *)&sin->sin_addr);
-    if(!(return_value_inet_pton$3 == 1))
+    return_value_inet_pton_3=inet_pton(2, addr, (void *)&sin->sin_addr);
+    if(!(return_value_inet_pton_3 == 1))
       do
       {
         libcperciva_warnx("Error parsing IP address: %s", addr);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 0;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 0;
       }
       while((_Bool)0);
 
     else
     {
-      return_value_malloc$4=malloc(sizeof(struct sock_addr) /*24ul*/ );
-      sa = (struct sock_addr *)return_value_malloc$4;
+      return_value_malloc_4=malloc(sizeof(struct sock_addr) /*24ul*/ );
+      sa = (struct sock_addr *)return_value_malloc_4;
       if(!(sa == ((struct sock_addr *)NULL)))
       {
         sa->ai_family = 2;
         sa->ai_socktype = 1;
         sa->name = (struct sockaddr *)sin;
         sa->namelen = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-        return_value_malloc$5=malloc((unsigned long int)2 * sizeof(struct sock_addr *) /*8ul*/ );
-        sas = (struct sock_addr **)return_value_malloc$5;
+        return_value_malloc_5=malloc((unsigned long int)2 * sizeof(struct sock_addr *) /*8ul*/ );
+        sas = (struct sock_addr **)return_value_malloc_5;
         if(!(sas == ((struct sock_addr **)NULL)))
         {
           sas[(signed long int)0] = sa;
@@ -10103,39 +10103,39 @@ static struct sock_addr ** sock_resolve_ipv6(const char *addr, unsigned short in
   struct sock_addr **sas;
   struct sock_addr *sa;
   struct sockaddr_in6 *sin6;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct sockaddr_in6) /*28ul*/ );
-  sin6 = (struct sockaddr_in6 *)return_value_calloc$1;
-  signed int return_value_inet_pton$3;
-  void *return_value_malloc$4;
-  void *return_value_malloc$5;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct sockaddr_in6) /*28ul*/ );
+  sin6 = (struct sockaddr_in6 *)return_value_calloc_1;
+  signed int return_value_inet_pton_3;
+  void *return_value_malloc_4;
+  void *return_value_malloc_5;
   if(!(sin6 == ((struct sockaddr_in6 *)NULL)))
   {
     sin6->sin6_family = (unsigned short int)10;
     sin6->sin6_port=htons(p);
-    return_value_inet_pton$3=inet_pton(10, addr, (void *)&sin6->sin6_addr);
-    if(!(return_value_inet_pton$3 == 1))
+    return_value_inet_pton_3=inet_pton(10, addr, (void *)&sin6->sin6_addr);
+    if(!(return_value_inet_pton_3 == 1))
       do
       {
         libcperciva_warnx("Error parsing IP address: %s", addr);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 0;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 0;
       }
       while((_Bool)0);
 
     else
     {
-      return_value_malloc$4=malloc(sizeof(struct sock_addr) /*24ul*/ );
-      sa = (struct sock_addr *)return_value_malloc$4;
+      return_value_malloc_4=malloc(sizeof(struct sock_addr) /*24ul*/ );
+      sa = (struct sock_addr *)return_value_malloc_4;
       if(!(sa == ((struct sock_addr *)NULL)))
       {
         sa->ai_family = 10;
         sa->ai_socktype = 1;
         sa->name = (struct sockaddr *)sin6;
         sa->namelen = (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ ;
-        return_value_malloc$5=malloc((unsigned long int)2 * sizeof(struct sock_addr *) /*8ul*/ );
-        sas = (struct sock_addr **)return_value_malloc$5;
+        return_value_malloc_5=malloc((unsigned long int)2 * sizeof(struct sock_addr *) /*8ul*/ );
+        sas = (struct sock_addr **)return_value_malloc_5;
         if(!(sas == ((struct sock_addr **)NULL)))
         {
           sas[(signed long int)0] = sa;
@@ -10169,39 +10169,39 @@ static struct sock_addr ** sock_resolve_unix(const char *addr)
   struct sock_addr **sas;
   struct sock_addr *sa;
   struct sockaddr_un *sa_un;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct sockaddr_un) /*110ul*/ );
-  sa_un = (struct sockaddr_un *)return_value_calloc$1;
-  unsigned long int return_value_strlen$3;
-  void *return_value_malloc$4;
-  void *return_value_malloc$5;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct sockaddr_un) /*110ul*/ );
+  sa_un = (struct sockaddr_un *)return_value_calloc_1;
+  unsigned long int return_value_strlen_3;
+  void *return_value_malloc_4;
+  void *return_value_malloc_5;
   if(!(sa_un == ((struct sockaddr_un *)NULL)))
   {
     sa_un->sun_family = (unsigned short int)1;
-    return_value_strlen$3=strlen(addr);
-    if(return_value_strlen$3 >= sizeof(char [108l]) /*108ul*/ )
+    return_value_strlen_3=strlen(addr);
+    if(return_value_strlen_3 >= sizeof(char [108l]) /*108ul*/ )
       do
       {
         libcperciva_warnx("socket path too long: %s", addr);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 0;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 0;
       }
       while((_Bool)0);
 
     else
     {
       strcpy(sa_un->sun_path, addr);
-      return_value_malloc$4=malloc(sizeof(struct sock_addr) /*24ul*/ );
-      sa = (struct sock_addr *)return_value_malloc$4;
+      return_value_malloc_4=malloc(sizeof(struct sock_addr) /*24ul*/ );
+      sa = (struct sock_addr *)return_value_malloc_4;
       if(!(sa == ((struct sock_addr *)NULL)))
       {
         sa->ai_family = 1;
         sa->ai_socktype = 1;
         sa->name = (struct sockaddr *)sa_un;
         sa->namelen = (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ ;
-        return_value_malloc$5=malloc((unsigned long int)2 * sizeof(struct sock_addr *) /*8ul*/ );
-        sas = (struct sock_addr **)return_value_malloc$5;
+        return_value_malloc_5=malloc((unsigned long int)2 * sizeof(struct sock_addr *) /*8ul*/ );
+        sas = (struct sock_addr **)return_value_malloc_5;
         if(!(sas == ((struct sock_addr **)NULL)))
         {
           sas[(signed long int)0] = sa;
@@ -10240,9 +10240,9 @@ static inline void socketlist_free(struct socketlist_struct *EA)
 static inline struct socketrec * socketlist_get(struct socketlist_struct *EA, unsigned long int pos)
 {
   struct socketrec *rec;
-  void *return_value_elasticarray_get$1;
-  return_value_elasticarray_get$1=elasticarray_get((struct elasticarray *)EA, pos, sizeof(struct socketrec) /*16ul*/ );
-  rec = (struct socketrec *)return_value_elasticarray_get$1;
+  void *return_value_elasticarray_get_1;
+  return_value_elasticarray_get_1=elasticarray_get((struct elasticarray *)EA, pos, sizeof(struct socketrec) /*16ul*/ );
+  rec = (struct socketrec *)return_value_elasticarray_get_1;
   return rec;
 }
 
@@ -10250,9 +10250,9 @@ static inline struct socketrec * socketlist_get(struct socketlist_struct *EA, un
 // file ../libcperciva/events/events_network.c line 19
 static inline unsigned long int socketlist_getsize(struct socketlist_struct *EA)
 {
-  unsigned long int return_value_elasticarray_getsize$1;
-  return_value_elasticarray_getsize$1=elasticarray_getsize((struct elasticarray *)EA, sizeof(struct socketrec) /*16ul*/ );
-  return return_value_elasticarray_getsize$1;
+  unsigned long int return_value_elasticarray_getsize_1;
+  return_value_elasticarray_getsize_1=elasticarray_getsize((struct elasticarray *)EA, sizeof(struct socketrec) /*16ul*/ );
+  return return_value_elasticarray_getsize_1;
 }
 
 // socketlist_init
@@ -10268,9 +10268,9 @@ static inline struct socketlist_struct * socketlist_init(unsigned long int nrec)
 // file ../libcperciva/events/events_network.c line 19
 static inline signed int socketlist_resize(struct socketlist_struct *EA, unsigned long int nrec)
 {
-  signed int return_value_elasticarray_resize$1;
-  return_value_elasticarray_resize$1=elasticarray_resize((struct elasticarray *)EA, nrec, sizeof(struct socketrec) /*16ul*/ );
-  return return_value_elasticarray_resize$1;
+  signed int return_value_elasticarray_resize_1;
+  return_value_elasticarray_resize_1=elasticarray_resize((struct elasticarray *)EA, nrec, sizeof(struct socketrec) /*16ul*/ );
+  return return_value_elasticarray_resize_1;
 }
 
 // starthandshake
@@ -10302,25 +10302,25 @@ err0:
 static void swap(struct ptrlist_struct *elems, unsigned long int i, unsigned long int j, void (*setreccookie)(void *, void *, unsigned long int), void *cookie)
 {
   void *tmp;
-  void **return_value_ptrlist_get$1;
-  return_value_ptrlist_get$1=ptrlist_get(elems, i);
-  tmp = *return_value_ptrlist_get$1;
-  void **return_value_ptrlist_get$2;
-  return_value_ptrlist_get$2=ptrlist_get(elems, i);
-  void **return_value_ptrlist_get$3;
-  return_value_ptrlist_get$3=ptrlist_get(elems, j);
-  *return_value_ptrlist_get$2 = *return_value_ptrlist_get$3;
-  void **return_value_ptrlist_get$4;
-  return_value_ptrlist_get$4=ptrlist_get(elems, j);
-  *return_value_ptrlist_get$4 = tmp;
+  void **return_value_ptrlist_get_1;
+  return_value_ptrlist_get_1=ptrlist_get(elems, i);
+  tmp = *return_value_ptrlist_get_1;
+  void **return_value_ptrlist_get_2;
+  return_value_ptrlist_get_2=ptrlist_get(elems, i);
+  void **return_value_ptrlist_get_3;
+  return_value_ptrlist_get_3=ptrlist_get(elems, j);
+  *return_value_ptrlist_get_2 = *return_value_ptrlist_get_3;
+  void **return_value_ptrlist_get_4;
+  return_value_ptrlist_get_4=ptrlist_get(elems, j);
+  *return_value_ptrlist_get_4 = tmp;
   if(!(setreccookie == ((void (*)(void *, void *, unsigned long int))NULL)))
   {
-    void **return_value_ptrlist_get$5;
-    return_value_ptrlist_get$5=ptrlist_get(elems, i);
-    setreccookie(cookie, *return_value_ptrlist_get$5, i);
-    void **return_value_ptrlist_get$6;
-    return_value_ptrlist_get$6=ptrlist_get(elems, j);
-    setreccookie(cookie, *return_value_ptrlist_get$6, j);
+    void **return_value_ptrlist_get_5;
+    return_value_ptrlist_get_5=ptrlist_get(elems, i);
+    setreccookie(cookie, *return_value_ptrlist_get_5, i);
+    void **return_value_ptrlist_get_6;
+    return_value_ptrlist_get_6=ptrlist_get(elems, j);
+    setreccookie(cookie, *return_value_ptrlist_get_6, j);
   }
 
 }
@@ -10329,17 +10329,17 @@ static void swap(struct ptrlist_struct *elems, unsigned long int i, unsigned lon
 // file ../libcperciva/datastruct/timerqueue.c line 97
 void * timerqueue_add(struct timerqueue *Q, struct timeval *tv, void *ptr)
 {
-  struct timerrec$0 *r;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct timerrec$0) /*32ul*/ );
-  r = (struct timerrec$0 *)return_value_malloc$1;
-  signed int return_value_ptrheap_add$2;
-  if(!(r == ((struct timerrec$0 *)NULL)))
+  struct timerrec_0 *r;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct timerrec_0) /*32ul*/ );
+  r = (struct timerrec_0 *)return_value_malloc_1;
+  signed int return_value_ptrheap_add_2;
+  if(!(r == ((struct timerrec_0 *)NULL)))
   {
     memcpy((void *)&r->tv, (const void *)tv, sizeof(struct timeval) /*16ul*/ );
     r->ptr = ptr;
-    return_value_ptrheap_add$2=ptrheap_add(Q->H, (void *)r);
-    if(return_value_ptrheap_add$2 == 0)
+    return_value_ptrheap_add_2=ptrheap_add(Q->H, (void *)r);
+    if(return_value_ptrheap_add_2 == 0)
       return (void *)r;
 
 
@@ -10358,7 +10358,7 @@ err0:
 // file ../libcperciva/datastruct/timerqueue.c line 132
 void timerqueue_delete(struct timerqueue *Q, void *cookie)
 {
-  struct timerrec$0 *r = (struct timerrec$0 *)cookie;
+  struct timerrec_0 *r = (struct timerrec_0 *)cookie;
   ptrheap_delete(Q->H, r->rc);
   free((void *)r);
 }
@@ -10367,13 +10367,13 @@ void timerqueue_delete(struct timerqueue *Q, void *cookie)
 // file ../libcperciva/datastruct/timerqueue.c line 226
 void timerqueue_free(struct timerqueue *Q)
 {
-  struct timerrec$0 *r;
-  void *return_value_ptrheap_getmin$1;
+  struct timerrec_0 *r;
+  void *return_value_ptrheap_getmin_1;
   do
   {
-    return_value_ptrheap_getmin$1=ptrheap_getmin(Q->H);
-    r = (struct timerrec$0 *)return_value_ptrheap_getmin$1;
-    if(r == ((struct timerrec$0 *)NULL))
+    return_value_ptrheap_getmin_1=ptrheap_getmin(Q->H);
+    r = (struct timerrec_0 *)return_value_ptrheap_getmin_1;
+    if(r == ((struct timerrec_0 *)NULL))
       break;
 
     free((void *)r);
@@ -10388,11 +10388,11 @@ void timerqueue_free(struct timerqueue *Q)
 // file ../libcperciva/datastruct/timerqueue.c line 168
 struct timeval * timerqueue_getmin(struct timerqueue *Q)
 {
-  struct timerrec$0 *r;
-  void *return_value_ptrheap_getmin$1;
-  return_value_ptrheap_getmin$1=ptrheap_getmin(Q->H);
-  r = (struct timerrec$0 *)return_value_ptrheap_getmin$1;
-  if(!(r == ((struct timerrec$0 *)NULL)))
+  struct timerrec_0 *r;
+  void *return_value_ptrheap_getmin_1;
+  return_value_ptrheap_getmin_1=ptrheap_getmin(Q->H);
+  r = (struct timerrec_0 *)return_value_ptrheap_getmin_1;
+  if(!(r == ((struct timerrec_0 *)NULL)))
     return &r->tv;
 
   else
@@ -10403,19 +10403,19 @@ struct timeval * timerqueue_getmin(struct timerqueue *Q)
 // file ../libcperciva/datastruct/timerqueue.c line 189
 void * timerqueue_getptr(struct timerqueue *Q, struct timeval *tv)
 {
-  struct timerrec$0 *r;
+  struct timerrec_0 *r;
   void *ptr;
-  void *return_value_ptrheap_getmin$1;
-  return_value_ptrheap_getmin$1=ptrheap_getmin(Q->H);
-  r = (struct timerrec$0 *)return_value_ptrheap_getmin$1;
-  if(r == ((struct timerrec$0 *)NULL))
+  void *return_value_ptrheap_getmin_1;
+  return_value_ptrheap_getmin_1=ptrheap_getmin(Q->H);
+  r = (struct timerrec_0 *)return_value_ptrheap_getmin_1;
+  if(r == ((struct timerrec_0 *)NULL))
     return (void *)0;
 
   else
   {
-    signed int return_value_tvcmp$2;
-    return_value_tvcmp$2=tvcmp(&r->tv, tv);
-    if(return_value_tvcmp$2 >= 1)
+    signed int return_value_tvcmp_2;
+    return_value_tvcmp_2=tvcmp(&r->tv, tv);
+    if(return_value_tvcmp_2 >= 1)
       return (void *)0;
 
     else
@@ -10432,7 +10432,7 @@ void * timerqueue_getptr(struct timerqueue *Q, struct timeval *tv)
 // file ../libcperciva/datastruct/timerqueue.c line 149
 void timerqueue_increase(struct timerqueue *Q, void *cookie, struct timeval *tv)
 {
-  struct timerrec$0 *r = (struct timerrec$0 *)cookie;
+  struct timerrec_0 *r = (struct timerrec_0 *)cookie;
   memcpy((void *)&r->tv, (const void *)tv, sizeof(struct timeval) /*16ul*/ );
   ptrheap_increase(Q->H, r->rc);
 }
@@ -10441,20 +10441,20 @@ void timerqueue_increase(struct timerqueue *Q, void *cookie, struct timeval *tv)
 // file ../libcperciva/datastruct/timerqueue.c line 69
 struct timerqueue * timerqueue_init(void)
 {
-  struct timerqueue *timerqueue_init$$1$$Q;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct timerqueue) /*8ul*/ );
-  timerqueue_init$$1$$Q = (struct timerqueue *)return_value_malloc$1;
-  if(!(timerqueue_init$$1$$Q == ((struct timerqueue *)NULL)))
+  struct timerqueue *timerqueue_init__1__Q;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct timerqueue) /*8ul*/ );
+  timerqueue_init__1__Q = (struct timerqueue *)return_value_malloc_1;
+  if(!(timerqueue_init__1__Q == ((struct timerqueue *)NULL)))
   {
-    timerqueue_init$$1$$Q->H=ptrheap_init(compar, setreccookie, (void *)timerqueue_init$$1$$Q);
-    if(!(timerqueue_init$$1$$Q->H == ((struct ptrheap *)NULL)))
-      return timerqueue_init$$1$$Q;
+    timerqueue_init__1__Q->H=ptrheap_init(compar, setreccookie, (void *)timerqueue_init__1__Q);
+    if(!(timerqueue_init__1__Q->H == ((struct ptrheap *)NULL)))
+      return timerqueue_init__1__Q;
 
 
   err1:
     ;
-    free((void *)timerqueue_init$$1$$Q);
+    free((void *)timerqueue_init__1__Q);
   }
 
 
@@ -10474,7 +10474,7 @@ static signed int tryconnect(struct connect_cookie *C)
       break;
 
   }
-  signed int return_value_events_network_register$1;
+  signed int return_value_events_network_register_1;
   if(!(*C->sas == ((struct sock_addr *)NULL)))
   {
     if(!(C->timeo_enabled == 0))
@@ -10487,8 +10487,8 @@ static signed int tryconnect(struct connect_cookie *C)
 
     else
       C->cookie_timeo = (void *)0;
-    return_value_events_network_register$1=events_network_register(callback_connect, (void *)C, C->s, 1);
-    if(!(return_value_events_network_register$1 == 0))
+    return_value_events_network_register_1=events_network_register(callback_connect, (void *)C, C->s, 1);
+    if(!(return_value_events_network_register_1 == 0))
       goto err2;
 
     return 0;
@@ -10549,7 +10549,7 @@ static signed int tvcmp(struct timeval *x, struct timeval *y)
 // file ../libcperciva/crypto/crypto_entropy.c line 73
 static void update(unsigned char *data, unsigned long int datalen)
 {
-  struct anonymous$2 ctx;
+  struct anonymous_2 ctx;
   unsigned char K[32l];
   unsigned char Vx[33l];
   memcpy((void *)K, (const void *)drbg.Key, (unsigned long int)32);
@@ -10572,8 +10572,8 @@ static void update(unsigned char *data, unsigned long int datalen)
 
   memcpy((void *)drbg.Key, (const void *)K, (unsigned long int)32);
   memcpy((void *)drbg.V, (const void *)Vx, (unsigned long int)32);
-  insecure_memzero$link3((volatile void *)K, (unsigned long int)32);
-  insecure_memzero$link3((volatile void *)Vx, (unsigned long int)33);
+  insecure_memzero_link3((volatile void *)K, (unsigned long int)32);
+  insecure_memzero_link3((volatile void *)Vx, (unsigned long int)33);
 }
 
 // usage
@@ -10591,15 +10591,15 @@ static signed int useaesni(void)
   unsigned char key[32l];
   unsigned char ptext[16l];
   unsigned long int i;
-  _Bool tmp_if_expr$5;
-  signed int return_value_aesnitest$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_aesnitest_4;
   static signed int aesnigood = -1;
   while(aesnigood == -1)
   {
     aesnigood = 0;
-    signed int return_value_cpusupport_x86_aesni$1;
-    return_value_cpusupport_x86_aesni$1=cpusupport_x86_aesni();
-    if(return_value_cpusupport_x86_aesni$1 == 0)
+    signed int return_value_cpusupport_x86_aesni_1;
+    return_value_cpusupport_x86_aesni_1=cpusupport_x86_aesni();
+    if(return_value_cpusupport_x86_aesni_1 == 0)
       break;
 
     i = (unsigned long int)0;
@@ -10608,24 +10608,24 @@ static signed int useaesni(void)
     i = (unsigned long int)0;
     for( ; !(i >= 32ul); i = i + 1ul)
       key[(signed long int)i] = (unsigned char)i;
-    signed int return_value_aesnitest$3;
-    return_value_aesnitest$3=aesnitest(ptext, key, (unsigned long int)16);
-    if(!(return_value_aesnitest$3 == 0))
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_aesnitest_3;
+    return_value_aesnitest_3=aesnitest(ptext, key, (unsigned long int)16);
+    if(!(return_value_aesnitest_3 == 0))
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_aesnitest$4=aesnitest(ptext, key, (unsigned long int)32);
-      tmp_if_expr$5 = return_value_aesnitest$4 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_aesnitest_4=aesnitest(ptext, key, (unsigned long int)32);
+      tmp_if_expr_5 = return_value_aesnitest_4 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
       do
       {
         libcperciva_warnx("Disabling AESNI due to failed self-test");
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 0;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 0;
       }
       while((_Bool)0);
       break;
@@ -10671,12 +10671,12 @@ static void * workthread(void *cookie)
   {
     do
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(rc);
-      libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror$1);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(rc);
+      libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror_1);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
     }
     while((_Bool)0);
     exit(1);
@@ -10685,7 +10685,7 @@ static void * workthread(void *cookie)
 
 __CPROVER_DUMP_L2:
   ;
-  signed int *return_value___errno_location$7;
+  signed int *return_value___errno_location_7;
   while((_Bool)1)
   {
     if(T->state == 0)
@@ -10695,12 +10695,12 @@ __CPROVER_DUMP_L2:
       {
         do
         {
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(rc);
-          libcperciva_warnx("pthread_cond_wait: %s", return_value_strerror$3);
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = 0;
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(rc);
+          libcperciva_warnx("pthread_cond_wait: %s", return_value_strerror_3);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = 0;
         }
         while((_Bool)0);
         exit(1);
@@ -10718,12 +10718,12 @@ __CPROVER_DUMP_L2:
     {
       do
       {
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(rc);
-        libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror$5);
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        *return_value___errno_location$6 = 0;
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(rc);
+        libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror_5);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        *return_value___errno_location_6 = 0;
       }
       while((_Bool)0);
       exit(1);
@@ -10732,8 +10732,8 @@ __CPROVER_DUMP_L2:
     sas=sock_resolve(addr);
     if(sas == ((struct sock_addr **)NULL))
     {
-      return_value___errno_location$7=__errno_location();
-      res_errno = *return_value___errno_location$7;
+      return_value___errno_location_7=__errno_location();
+      res_errno = *return_value___errno_location_7;
     }
 
     rc=pthread_mutex_lock(&T->mtx);
@@ -10741,12 +10741,12 @@ __CPROVER_DUMP_L2:
     {
       do
       {
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(rc);
-        libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror$8);
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        *return_value___errno_location$9 = 0;
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(rc);
+        libcperciva_warnx("pthread_mutex_lock: %s", return_value_strerror_8);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        *return_value___errno_location_9 = 0;
       }
       while((_Bool)0);
       exit(1);
@@ -10754,20 +10754,20 @@ __CPROVER_DUMP_L2:
 
     T->sas = sas;
     T->res_errno = res_errno;
-    signed long int return_value_noeintr_write$12;
-    return_value_noeintr_write$12=noeintr_write(T->wakeupsock[(signed long int)0], (const void *)&zero, (unsigned long int)1);
-    if(!(return_value_noeintr_write$12 == 1l))
+    signed long int return_value_noeintr_write_12;
+    return_value_noeintr_write_12=noeintr_write(T->wakeupsock[(signed long int)0], (const void *)&zero, (unsigned long int)1);
+    if(!(return_value_noeintr_write_12 == 1l))
     {
       do
       {
-        signed int *return_value___errno_location$11;
-        return_value___errno_location$11=__errno_location();
-        if(!(*return_value___errno_location$11 == 0))
+        signed int *return_value___errno_location_11;
+        return_value___errno_location_11=__errno_location();
+        if(!(*return_value___errno_location_11 == 0))
         {
           libcperciva_warn("Error writing to wakeup socket");
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          *return_value___errno_location$10 = 0;
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          *return_value___errno_location_10 = 0;
         }
 
         else
@@ -10788,12 +10788,12 @@ __CPROVER_DUMP_L2:
   {
     do
     {
-      char *return_value_strerror$13;
-      return_value_strerror$13=strerror(rc);
-      libcperciva_warnx("pthread_cond_destroy: %s", return_value_strerror$13);
-      signed int *return_value___errno_location$14;
-      return_value___errno_location$14=__errno_location();
-      *return_value___errno_location$14 = 0;
+      char *return_value_strerror_13;
+      return_value_strerror_13=strerror(rc);
+      libcperciva_warnx("pthread_cond_destroy: %s", return_value_strerror_13);
+      signed int *return_value___errno_location_14;
+      return_value___errno_location_14=__errno_location();
+      *return_value___errno_location_14 = 0;
     }
     while((_Bool)0);
     exit(1);
@@ -10804,12 +10804,12 @@ __CPROVER_DUMP_L2:
   {
     do
     {
-      char *return_value_strerror$15;
-      return_value_strerror$15=strerror(rc);
-      libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror$15);
-      signed int *return_value___errno_location$16;
-      return_value___errno_location$16=__errno_location();
-      *return_value___errno_location$16 = 0;
+      char *return_value_strerror_15;
+      return_value_strerror_15=strerror(rc);
+      libcperciva_warnx("pthread_mutex_unlock: %s", return_value_strerror_15);
+      signed int *return_value___errno_location_16;
+      return_value___errno_location_16=__errno_location();
+      *return_value___errno_location_16 = 0;
     }
     while((_Bool)0);
     exit(1);
@@ -10820,12 +10820,12 @@ __CPROVER_DUMP_L2:
   {
     do
     {
-      char *return_value_strerror$17;
-      return_value_strerror$17=strerror(rc);
-      libcperciva_warnx("pthread_mutex_destroy: %s", return_value_strerror$17);
-      signed int *return_value___errno_location$18;
-      return_value___errno_location$18=__errno_location();
-      *return_value___errno_location$18 = 0;
+      char *return_value_strerror_17;
+      return_value_strerror_17=strerror(rc);
+      libcperciva_warnx("pthread_mutex_destroy: %s", return_value_strerror_17);
+      signed int *return_value___errno_location_18;
+      return_value___errno_location_18=__errno_location();
+      *return_value___errno_location_18 = 0;
     }
     while((_Bool)0);
     exit(1);

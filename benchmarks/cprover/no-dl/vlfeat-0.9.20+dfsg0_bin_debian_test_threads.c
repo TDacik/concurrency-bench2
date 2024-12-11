@@ -1,46 +1,46 @@
-// #anon_enum$VlHomogeneousKernelIntersection=0$VlHomogeneousKernelChi2=1$VlHomogeneousKernelJS=2
+// #anon_enum_VlHomogeneousKernelIntersection=0_VlHomogeneousKernelChi2=1_VlHomogeneousKernelJS=2
 // file vl/homkermap.h line 22
-enum anonymous$3 { VlHomogeneousKernelIntersection=0, VlHomogeneousKernelChi2=1, VlHomogeneousKernelJS=2 };
+enum anonymous_3 { VlHomogeneousKernelIntersection=0, VlHomogeneousKernelChi2=1, VlHomogeneousKernelJS=2 };
 
-// #anon_enum$VlHomogeneousKernelMapWindowUniform=0$VlHomogeneousKernelMapWindowRectangular=1
+// #anon_enum_VlHomogeneousKernelMapWindowUniform=0_VlHomogeneousKernelMapWindowRectangular=1
 // file vl/homkermap.h line 29
-enum anonymous$4 { VlHomogeneousKernelMapWindowUniform=0, VlHomogeneousKernelMapWindowRectangular=1 };
+enum anonymous_4 { VlHomogeneousKernelMapWindowUniform=0, VlHomogeneousKernelMapWindowRectangular=1 };
 
-// #anon_enum$VlSvmLossHinge=0$VlSvmLossHinge2=1$VlSvmLossL1=2$VlSvmLossL2=3$VlSvmLossLogistic=4
+// #anon_enum_VlSvmLossHinge=0_VlSvmLossHinge2=1_VlSvmLossL1=2_VlSvmLossL2=3_VlSvmLossLogistic=4
 // file vl/svm.h line 53
-enum anonymous$9 { VlSvmLossHinge=0, VlSvmLossHinge2=1, VlSvmLossL1=2, VlSvmLossL2=3, VlSvmLossLogistic=4 };
+enum anonymous_9 { VlSvmLossHinge=0, VlSvmLossHinge2=1, VlSvmLossL1=2, VlSvmLossL2=3, VlSvmLossLogistic=4 };
 
-// #anon_enum$VlSvmSolverNone=0$VlSvmSolverSgd=1$VlSvmSolverSdca=2
+// #anon_enum_VlSvmSolverNone=0_VlSvmSolverSgd=1_VlSvmSolverSdca=2
 // file vl/svm.h line 38
-enum anonymous$6 { VlSvmSolverNone=0, VlSvmSolverSgd=1, VlSvmSolverSdca=2 };
+enum anonymous_6 { VlSvmSolverNone=0, VlSvmSolverSgd=1, VlSvmSolverSdca=2 };
 
-// #anon_enum$VlSvmStatusTraining=1$VlSvmStatusConverged=2$VlSvmStatusMaxNumIterationsReached=3
+// #anon_enum_VlSvmStatusTraining=1_VlSvmStatusConverged=2_VlSvmStatusMaxNumIterationsReached=3
 // file vl/svm.h line 63
-enum anonymous$7 { VlSvmStatusTraining=1, VlSvmStatusConverged=2, VlSvmStatusMaxNumIterationsReached=3 };
+enum anonymous_7 { VlSvmStatusTraining=1, VlSvmStatusConverged=2, VlSvmStatusMaxNumIterationsReached=3 };
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S64'w'||S64'j'|]
 // file vl/ikmeans_init.tc line 17
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#UN[ARR32{S8}$S8$'string'||ARR8{U32}$U32$'words'|]
+// tag-#anon#UN[ARR32{S8}_S8_'string'||ARR8{U32}_U32_'words'|]
 // file vl/host.h line 559
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-#anon#cUN[U32'raw'||F32'value'|]
 // file vl/mathop.h line 55
-union anonymous$8;
+union anonymous_8;
 
 // tag-#anon#cUN[U64'raw'||F64'value'|]
 // file vl/mathop.h line 65
@@ -370,15 +370,15 @@ static unsigned long long int _vl_fisher_encode_f(float *enc, const float *means
 // _vl_gmm_apply_bounds_d
 // file vl/gmm.c line 1006
 static void _vl_gmm_apply_bounds_d(struct _VlGMM *self);
-// _vl_gmm_apply_bounds_d::$tmp::return_value_vl_get_printf_func$1$object
+// _vl_gmm_apply_bounds_d::_tmp::return_value_vl_get_printf_func_1_object
 //
-signed int return_value_vl_get_printf_func$1$object(const char *, ...);
+signed int return_value_vl_get_printf_func_1_object(const char *, ...);
 // _vl_gmm_apply_bounds_f
 // file vl/gmm.c line 1006
 static void _vl_gmm_apply_bounds_f(struct _VlGMM *self);
-// _vl_gmm_apply_bounds_f::$tmp::return_value_vl_get_printf_func$1$object
+// _vl_gmm_apply_bounds_f::_tmp::return_value_vl_get_printf_func_1_object
 //
-signed int return_value_vl_get_printf_func$1$object(const char *, ...);
+signed int return_value_vl_get_printf_func_1_object(const char *, ...);
 // _vl_gmm_compute_init_sigma_d
 // file vl/gmm.c line 1377
 static void _vl_gmm_compute_init_sigma_d(struct _VlGMM *self, const double *data, double *initSigma, unsigned long long int dimension, unsigned long long int numData);
@@ -388,45 +388,45 @@ static void _vl_gmm_compute_init_sigma_f(struct _VlGMM *self, const float *data,
 // _vl_gmm_em_d
 // file vl/gmm.c line 1221
 static double _vl_gmm_em_d(struct _VlGMM *self, const double *data, unsigned long long int numData);
-// _vl_gmm_em_d::$tmp::return_value_vl_get_printf_func$1$object
+// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_1_object
 //
-signed int return_value_vl_get_printf_func$1$object(const char *, ...);
-// _vl_gmm_em_d::$tmp::return_value_vl_get_printf_func$2$object
+signed int return_value_vl_get_printf_func_1_object(const char *, ...);
+// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_2_object
 //
-signed int return_value_vl_get_printf_func$2$object(const char *, ...);
-// _vl_gmm_em_d::$tmp::return_value_vl_get_printf_func$4$object
+signed int return_value_vl_get_printf_func_2_object(const char *, ...);
+// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_4_object
 //
-signed int return_value_vl_get_printf_func$4$object(const char *, ...);
-// _vl_gmm_em_d::$tmp::return_value_vl_get_printf_func$5$object
+signed int return_value_vl_get_printf_func_4_object(const char *, ...);
+// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_5_object
 //
-signed int return_value_vl_get_printf_func$5$object(const char *, ...);
-// _vl_gmm_em_d::$tmp::return_value_vl_get_printf_func$6$object
+signed int return_value_vl_get_printf_func_5_object(const char *, ...);
+// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_6_object
 //
-signed int return_value_vl_get_printf_func$6$object(const char *, ...);
-// _vl_gmm_em_d::$tmp::return_value_vl_get_printf_func$7$object
+signed int return_value_vl_get_printf_func_6_object(const char *, ...);
+// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_7_object
 //
-signed int return_value_vl_get_printf_func$7$object(const char *, ...);
+signed int return_value_vl_get_printf_func_7_object(const char *, ...);
 // _vl_gmm_em_f
 // file vl/gmm.c line 1221
 static double _vl_gmm_em_f(struct _VlGMM *self, const float *data, unsigned long long int numData);
-// _vl_gmm_em_f::$tmp::return_value_vl_get_printf_func$1$object
+// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_1_object
 //
-signed int return_value_vl_get_printf_func$1$object(const char *, ...);
-// _vl_gmm_em_f::$tmp::return_value_vl_get_printf_func$2$object
+signed int return_value_vl_get_printf_func_1_object(const char *, ...);
+// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_2_object
 //
-signed int return_value_vl_get_printf_func$2$object(const char *, ...);
-// _vl_gmm_em_f::$tmp::return_value_vl_get_printf_func$4$object
+signed int return_value_vl_get_printf_func_2_object(const char *, ...);
+// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_4_object
 //
-signed int return_value_vl_get_printf_func$4$object(const char *, ...);
-// _vl_gmm_em_f::$tmp::return_value_vl_get_printf_func$5$object
+signed int return_value_vl_get_printf_func_4_object(const char *, ...);
+// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_5_object
 //
-signed int return_value_vl_get_printf_func$5$object(const char *, ...);
-// _vl_gmm_em_f::$tmp::return_value_vl_get_printf_func$6$object
+signed int return_value_vl_get_printf_func_5_object(const char *, ...);
+// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_6_object
 //
-signed int return_value_vl_get_printf_func$6$object(const char *, ...);
-// _vl_gmm_em_f::$tmp::return_value_vl_get_printf_func$7$object
+signed int return_value_vl_get_printf_func_6_object(const char *, ...);
+// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_7_object
 //
-signed int return_value_vl_get_printf_func$7$object(const char *, ...);
+signed int return_value_vl_get_printf_func_7_object(const char *, ...);
 // _vl_gmm_init_with_kmeans_d
 // file vl/gmm.c line 1316
 static void _vl_gmm_init_with_kmeans_d(struct _VlGMM *self, const double *data, unsigned long long int numData, struct _VlKMeans *kmeansInit);
@@ -442,60 +442,60 @@ static void _vl_gmm_init_with_rand_data_f(struct _VlGMM *self, const float *data
 // _vl_gmm_maximization_d
 // file vl/gmm.c line 1037
 static void _vl_gmm_maximization_d(struct _VlGMM *self, double *posteriors, double *priors, double *covariances, double *means, const double *data, unsigned long long int numData);
-// _vl_gmm_maximization_d::$tmp::return_value_vl_get_printf_func$1$object
+// _vl_gmm_maximization_d::_tmp::return_value_vl_get_printf_func_1_object
 //
-signed int return_value_vl_get_printf_func$1$object(const char *, ...);
-// _vl_gmm_maximization_d::$tmp::return_value_vl_get_printf_func$6$object
+signed int return_value_vl_get_printf_func_1_object(const char *, ...);
+// _vl_gmm_maximization_d::_tmp::return_value_vl_get_printf_func_6_object
 //
-signed int return_value_vl_get_printf_func$6$object(const char *, ...);
+signed int return_value_vl_get_printf_func_6_object(const char *, ...);
 // _vl_gmm_maximization_f
 // file vl/gmm.c line 1037
 static void _vl_gmm_maximization_f(struct _VlGMM *self, float *posteriors, float *priors, float *covariances, float *means, const float *data, unsigned long long int numData);
-// _vl_gmm_maximization_f::$tmp::return_value_vl_get_printf_func$1$object
+// _vl_gmm_maximization_f::_tmp::return_value_vl_get_printf_func_1_object
 //
-signed int return_value_vl_get_printf_func$1$object(const char *, ...);
-// _vl_gmm_maximization_f::$tmp::return_value_vl_get_printf_func$6$object
+signed int return_value_vl_get_printf_func_1_object(const char *, ...);
+// _vl_gmm_maximization_f::_tmp::return_value_vl_get_printf_func_6_object
 //
-signed int return_value_vl_get_printf_func$6$object(const char *, ...);
+signed int return_value_vl_get_printf_func_6_object(const char *, ...);
 // _vl_gmm_prepare_for_data
 // file vl/gmm.c line 337
 static void _vl_gmm_prepare_for_data(struct _VlGMM *self, unsigned long long int numData);
 // _vl_gmm_restart_empty_modes_d
 // file vl/gmm.c line 815
 static unsigned long long int _vl_gmm_restart_empty_modes_d(struct _VlGMM *self, const double *data);
-// _vl_gmm_restart_empty_modes_d::$tmp::return_value_vl_get_printf_func$10$object
+// _vl_gmm_restart_empty_modes_d::_tmp::return_value_vl_get_printf_func_10_object
 //
-signed int return_value_vl_get_printf_func$10$object(const char *, ...);
-// _vl_gmm_restart_empty_modes_d::$tmp::return_value_vl_get_printf_func$2$object
+signed int return_value_vl_get_printf_func_10_object(const char *, ...);
+// _vl_gmm_restart_empty_modes_d::_tmp::return_value_vl_get_printf_func_2_object
 //
-signed int return_value_vl_get_printf_func$2$object(const char *, ...);
-// _vl_gmm_restart_empty_modes_d::$tmp::return_value_vl_get_printf_func$4$object
+signed int return_value_vl_get_printf_func_2_object(const char *, ...);
+// _vl_gmm_restart_empty_modes_d::_tmp::return_value_vl_get_printf_func_4_object
 //
-signed int return_value_vl_get_printf_func$4$object(const char *, ...);
-// _vl_gmm_restart_empty_modes_d::$tmp::return_value_vl_get_printf_func$8$object
+signed int return_value_vl_get_printf_func_4_object(const char *, ...);
+// _vl_gmm_restart_empty_modes_d::_tmp::return_value_vl_get_printf_func_8_object
 //
-signed int return_value_vl_get_printf_func$8$object(const char *, ...);
-// _vl_gmm_restart_empty_modes_d::$tmp::return_value_vl_get_printf_func$9$object
+signed int return_value_vl_get_printf_func_8_object(const char *, ...);
+// _vl_gmm_restart_empty_modes_d::_tmp::return_value_vl_get_printf_func_9_object
 //
-signed int return_value_vl_get_printf_func$9$object(const char *, ...);
+signed int return_value_vl_get_printf_func_9_object(const char *, ...);
 // _vl_gmm_restart_empty_modes_f
 // file vl/gmm.c line 815
 static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self, const float *data);
-// _vl_gmm_restart_empty_modes_f::$tmp::return_value_vl_get_printf_func$10$object
+// _vl_gmm_restart_empty_modes_f::_tmp::return_value_vl_get_printf_func_10_object
 //
-signed int return_value_vl_get_printf_func$10$object(const char *, ...);
-// _vl_gmm_restart_empty_modes_f::$tmp::return_value_vl_get_printf_func$2$object
+signed int return_value_vl_get_printf_func_10_object(const char *, ...);
+// _vl_gmm_restart_empty_modes_f::_tmp::return_value_vl_get_printf_func_2_object
 //
-signed int return_value_vl_get_printf_func$2$object(const char *, ...);
-// _vl_gmm_restart_empty_modes_f::$tmp::return_value_vl_get_printf_func$4$object
+signed int return_value_vl_get_printf_func_2_object(const char *, ...);
+// _vl_gmm_restart_empty_modes_f::_tmp::return_value_vl_get_printf_func_4_object
 //
-signed int return_value_vl_get_printf_func$4$object(const char *, ...);
-// _vl_gmm_restart_empty_modes_f::$tmp::return_value_vl_get_printf_func$8$object
+signed int return_value_vl_get_printf_func_4_object(const char *, ...);
+// _vl_gmm_restart_empty_modes_f::_tmp::return_value_vl_get_printf_func_8_object
 //
-signed int return_value_vl_get_printf_func$8$object(const char *, ...);
-// _vl_gmm_restart_empty_modes_f::$tmp::return_value_vl_get_printf_func$9$object
+signed int return_value_vl_get_printf_func_8_object(const char *, ...);
+// _vl_gmm_restart_empty_modes_f::_tmp::return_value_vl_get_printf_func_9_object
 //
-signed int return_value_vl_get_printf_func$9$object(const char *, ...);
+signed int return_value_vl_get_printf_func_9_object(const char *, ...);
 // _vl_harris_response
 // file vl/covdet.c line 1837
 static void _vl_harris_response(float *harris, const float *image, unsigned long long int width, unsigned long long int height, double step, double sigma, double sigmaI, double alpha);
@@ -556,201 +556,201 @@ static inline void _vl_kmeans_f_qsort_swap(struct _VlKMeansSortWrapper *array, u
 // _vl_kmeans_init_centers_plus_plus_d
 // file vl/kmeans.c line 589
 static void _vl_kmeans_init_centers_plus_plus_d(struct _VlKMeans *self, const double *data, unsigned long long int dimension, unsigned long long int numData, unsigned long long int numCenters);
-// _vl_kmeans_init_centers_plus_plus_d::1::distFn$object
+// _vl_kmeans_init_centers_plus_plus_d::1::distFn_object
 //
-double distFn$object(unsigned long long int, const double *, const double *);
+double distFn_object(unsigned long long int, const double *, const double *);
 // _vl_kmeans_init_centers_plus_plus_f
 // file vl/kmeans.c line 589
 static void _vl_kmeans_init_centers_plus_plus_f(struct _VlKMeans *self, const float *data, unsigned long long int dimension, unsigned long long int numData, unsigned long long int numCenters);
-// _vl_kmeans_init_centers_plus_plus_f::1::distFn$object
+// _vl_kmeans_init_centers_plus_plus_f::1::distFn_object
 //
-float distFn$object(unsigned long long int, const float *, const float *);
+float distFn_object(unsigned long long int, const float *, const float *);
 // _vl_kmeans_init_centers_with_rand_data_d
 // file vl/kmeans.c line 528
 static void _vl_kmeans_init_centers_with_rand_data_d(struct _VlKMeans *self, const double *data, unsigned long long int dimension, unsigned long long int numData, unsigned long long int numCenters);
-// _vl_kmeans_init_centers_with_rand_data_d::1::1::distFn$object
+// _vl_kmeans_init_centers_with_rand_data_d::1::1::distFn_object
 //
-double distFn$object(unsigned long long int, const double *, const double *);
+double distFn_object(unsigned long long int, const double *, const double *);
 // _vl_kmeans_init_centers_with_rand_data_f
 // file vl/kmeans.c line 528
 static void _vl_kmeans_init_centers_with_rand_data_f(struct _VlKMeans *self, const float *data, unsigned long long int dimension, unsigned long long int numData, unsigned long long int numCenters);
-// _vl_kmeans_init_centers_with_rand_data_f::1::1::distFn$object
+// _vl_kmeans_init_centers_with_rand_data_f::1::1::distFn_object
 //
-float distFn$object(unsigned long long int, const float *, const float *);
+float distFn_object(unsigned long long int, const float *, const float *);
 // _vl_kmeans_quantize_ann_d
 // file vl/kmeans.c line 709
 static void _vl_kmeans_quantize_ann_d(struct _VlKMeans *self, unsigned int *assignments, double *distances, const double *data, unsigned long long int numData, signed int update);
-// _vl_kmeans_quantize_ann_d::1::distFn$object
+// _vl_kmeans_quantize_ann_d::1::distFn_object
 //
-double distFn$object(unsigned long long int, const double *, const double *);
+double distFn_object(unsigned long long int, const double *, const double *);
 // _vl_kmeans_quantize_ann_f
 // file vl/kmeans.c line 709
 static void _vl_kmeans_quantize_ann_f(struct _VlKMeans *self, unsigned int *assignments, float *distances, const float *data, unsigned long long int numData, signed int update);
-// _vl_kmeans_quantize_ann_f::1::distFn$object
+// _vl_kmeans_quantize_ann_f::1::distFn_object
 //
-float distFn$object(unsigned long long int, const float *, const float *);
+float distFn_object(unsigned long long int, const float *, const float *);
 // _vl_kmeans_quantize_d
 // file vl/kmeans.c line 656
 static void _vl_kmeans_quantize_d(struct _VlKMeans *self, unsigned int *assignments, double *distances, const double *data, unsigned long long int numData);
-// _vl_kmeans_quantize_d::1::distFn$object
+// _vl_kmeans_quantize_d::1::distFn_object
 //
-double distFn$object(unsigned long long int, const double *, const double *);
+double distFn_object(unsigned long long int, const double *, const double *);
 // _vl_kmeans_quantize_f
 // file vl/kmeans.c line 656
 static void _vl_kmeans_quantize_f(struct _VlKMeans *self, unsigned int *assignments, float *distances, const float *data, unsigned long long int numData);
-// _vl_kmeans_quantize_f::1::distFn$object
+// _vl_kmeans_quantize_f::1::distFn_object
 //
-float distFn$object(unsigned long long int, const float *, const float *);
+float distFn_object(unsigned long long int, const float *, const float *);
 // _vl_kmeans_refine_centers_ann_d
 // file vl/kmeans.c line 1004
 static double _vl_kmeans_refine_centers_ann_d(struct _VlKMeans *self, const double *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_ann_d::$tmp::return_value_vl_get_printf_func$10$object
+// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_10_object
 //
-signed int return_value_vl_get_printf_func$10$object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_d::$tmp::return_value_vl_get_printf_func$11$object
+signed int return_value_vl_get_printf_func_10_object(const char *, ...);
+// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_11_object
 //
-signed int return_value_vl_get_printf_func$11$object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_d::$tmp::return_value_vl_get_printf_func$6$object
+signed int return_value_vl_get_printf_func_11_object(const char *, ...);
+// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_6_object
 //
-signed int return_value_vl_get_printf_func$6$object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_d::$tmp::return_value_vl_get_printf_func$7$object
+signed int return_value_vl_get_printf_func_6_object(const char *, ...);
+// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_7_object
 //
-signed int return_value_vl_get_printf_func$7$object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_d::$tmp::return_value_vl_get_printf_func$8$object
+signed int return_value_vl_get_printf_func_7_object(const char *, ...);
+// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_8_object
 //
-signed int return_value_vl_get_printf_func$8$object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_d::$tmp::return_value_vl_get_printf_func$9$object
+signed int return_value_vl_get_printf_func_8_object(const char *, ...);
+// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_9_object
 //
-signed int return_value_vl_get_printf_func$9$object(const char *, ...);
+signed int return_value_vl_get_printf_func_9_object(const char *, ...);
 // _vl_kmeans_refine_centers_ann_f
 // file vl/kmeans.c line 1004
 static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const float *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_ann_f::$tmp::return_value_vl_get_printf_func$10$object
+// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_10_object
 //
-signed int return_value_vl_get_printf_func$10$object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_f::$tmp::return_value_vl_get_printf_func$11$object
+signed int return_value_vl_get_printf_func_10_object(const char *, ...);
+// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_11_object
 //
-signed int return_value_vl_get_printf_func$11$object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_f::$tmp::return_value_vl_get_printf_func$6$object
+signed int return_value_vl_get_printf_func_11_object(const char *, ...);
+// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_6_object
 //
-signed int return_value_vl_get_printf_func$6$object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_f::$tmp::return_value_vl_get_printf_func$7$object
+signed int return_value_vl_get_printf_func_6_object(const char *, ...);
+// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_7_object
 //
-signed int return_value_vl_get_printf_func$7$object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_f::$tmp::return_value_vl_get_printf_func$8$object
+signed int return_value_vl_get_printf_func_7_object(const char *, ...);
+// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_8_object
 //
-signed int return_value_vl_get_printf_func$8$object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_f::$tmp::return_value_vl_get_printf_func$9$object
+signed int return_value_vl_get_printf_func_8_object(const char *, ...);
+// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_9_object
 //
-signed int return_value_vl_get_printf_func$9$object(const char *, ...);
+signed int return_value_vl_get_printf_func_9_object(const char *, ...);
 // _vl_kmeans_refine_centers_d
 // file vl/kmeans.c line 1751
 static double _vl_kmeans_refine_centers_d(struct _VlKMeans *self, const double *data, unsigned long long int numData);
 // _vl_kmeans_refine_centers_elkan_d
 // file vl/kmeans.c line 1163
 static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const double *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_elkan_d::$tmp::return_value_vl_get_printf_func$13$object
+// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_13_object
 //
-signed int return_value_vl_get_printf_func$13$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::$tmp::return_value_vl_get_printf_func$16$object
+signed int return_value_vl_get_printf_func_13_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_16_object
 //
-signed int return_value_vl_get_printf_func$16$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::$tmp::return_value_vl_get_printf_func$17$object
+signed int return_value_vl_get_printf_func_16_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_17_object
 //
-signed int return_value_vl_get_printf_func$17$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::$tmp::return_value_vl_get_printf_func$18$object
+signed int return_value_vl_get_printf_func_17_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_18_object
 //
-signed int return_value_vl_get_printf_func$18$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::$tmp::return_value_vl_get_printf_func$19$object
+signed int return_value_vl_get_printf_func_18_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_19_object
 //
-signed int return_value_vl_get_printf_func$19$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::$tmp::return_value_vl_get_printf_func$20$object
+signed int return_value_vl_get_printf_func_19_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_20_object
 //
-signed int return_value_vl_get_printf_func$20$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::$tmp::return_value_vl_get_printf_func$21$object
+signed int return_value_vl_get_printf_func_20_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_21_object
 //
-signed int return_value_vl_get_printf_func$21$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::$tmp::return_value_vl_get_printf_func$22$object
+signed int return_value_vl_get_printf_func_21_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_22_object
 //
-signed int return_value_vl_get_printf_func$22$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::$tmp::return_value_vl_get_printf_func$23$object
+signed int return_value_vl_get_printf_func_22_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_23_object
 //
-signed int return_value_vl_get_printf_func$23$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::1::distFn$object
+signed int return_value_vl_get_printf_func_23_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_d::1::distFn_object
 //
-double distFn$object(unsigned long long int, const double *, const double *);
+double distFn_object(unsigned long long int, const double *, const double *);
 // _vl_kmeans_refine_centers_elkan_f
 // file vl/kmeans.c line 1163
 static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const float *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_elkan_f::$tmp::return_value_vl_get_printf_func$13$object
+// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_13_object
 //
-signed int return_value_vl_get_printf_func$13$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::$tmp::return_value_vl_get_printf_func$16$object
+signed int return_value_vl_get_printf_func_13_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_16_object
 //
-signed int return_value_vl_get_printf_func$16$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::$tmp::return_value_vl_get_printf_func$17$object
+signed int return_value_vl_get_printf_func_16_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_17_object
 //
-signed int return_value_vl_get_printf_func$17$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::$tmp::return_value_vl_get_printf_func$18$object
+signed int return_value_vl_get_printf_func_17_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_18_object
 //
-signed int return_value_vl_get_printf_func$18$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::$tmp::return_value_vl_get_printf_func$19$object
+signed int return_value_vl_get_printf_func_18_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_19_object
 //
-signed int return_value_vl_get_printf_func$19$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::$tmp::return_value_vl_get_printf_func$20$object
+signed int return_value_vl_get_printf_func_19_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_20_object
 //
-signed int return_value_vl_get_printf_func$20$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::$tmp::return_value_vl_get_printf_func$21$object
+signed int return_value_vl_get_printf_func_20_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_21_object
 //
-signed int return_value_vl_get_printf_func$21$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::$tmp::return_value_vl_get_printf_func$22$object
+signed int return_value_vl_get_printf_func_21_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_22_object
 //
-signed int return_value_vl_get_printf_func$22$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::$tmp::return_value_vl_get_printf_func$23$object
+signed int return_value_vl_get_printf_func_22_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_23_object
 //
-signed int return_value_vl_get_printf_func$23$object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::1::distFn$object
+signed int return_value_vl_get_printf_func_23_object(const char *, ...);
+// _vl_kmeans_refine_centers_elkan_f::1::distFn_object
 //
-float distFn$object(unsigned long long int, const float *, const float *);
+float distFn_object(unsigned long long int, const float *, const float *);
 // _vl_kmeans_refine_centers_f
 // file vl/kmeans.c line 1751
 static double _vl_kmeans_refine_centers_f(struct _VlKMeans *self, const float *data, unsigned long long int numData);
 // _vl_kmeans_refine_centers_lloyd_d
 // file vl/kmeans.c line 829
 static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const double *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_lloyd_d::$tmp::return_value_vl_get_printf_func$10$object
+// _vl_kmeans_refine_centers_lloyd_d::_tmp::return_value_vl_get_printf_func_10_object
 //
-signed int return_value_vl_get_printf_func$10$object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_d::$tmp::return_value_vl_get_printf_func$6$object
+signed int return_value_vl_get_printf_func_10_object(const char *, ...);
+// _vl_kmeans_refine_centers_lloyd_d::_tmp::return_value_vl_get_printf_func_6_object
 //
-signed int return_value_vl_get_printf_func$6$object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_d::$tmp::return_value_vl_get_printf_func$7$object
+signed int return_value_vl_get_printf_func_6_object(const char *, ...);
+// _vl_kmeans_refine_centers_lloyd_d::_tmp::return_value_vl_get_printf_func_7_object
 //
-signed int return_value_vl_get_printf_func$7$object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_d::$tmp::return_value_vl_get_printf_func$8$object
+signed int return_value_vl_get_printf_func_7_object(const char *, ...);
+// _vl_kmeans_refine_centers_lloyd_d::_tmp::return_value_vl_get_printf_func_8_object
 //
-signed int return_value_vl_get_printf_func$8$object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_d::$tmp::return_value_vl_get_printf_func$9$object
+signed int return_value_vl_get_printf_func_8_object(const char *, ...);
+// _vl_kmeans_refine_centers_lloyd_d::_tmp::return_value_vl_get_printf_func_9_object
 //
-signed int return_value_vl_get_printf_func$9$object(const char *, ...);
+signed int return_value_vl_get_printf_func_9_object(const char *, ...);
 // _vl_kmeans_refine_centers_lloyd_f
 // file vl/kmeans.c line 829
 static double _vl_kmeans_refine_centers_lloyd_f(struct _VlKMeans *self, const float *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_lloyd_f::$tmp::return_value_vl_get_printf_func$10$object
+// _vl_kmeans_refine_centers_lloyd_f::_tmp::return_value_vl_get_printf_func_10_object
 //
-signed int return_value_vl_get_printf_func$10$object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_f::$tmp::return_value_vl_get_printf_func$6$object
+signed int return_value_vl_get_printf_func_10_object(const char *, ...);
+// _vl_kmeans_refine_centers_lloyd_f::_tmp::return_value_vl_get_printf_func_6_object
 //
-signed int return_value_vl_get_printf_func$6$object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_f::$tmp::return_value_vl_get_printf_func$7$object
+signed int return_value_vl_get_printf_func_6_object(const char *, ...);
+// _vl_kmeans_refine_centers_lloyd_f::_tmp::return_value_vl_get_printf_func_7_object
 //
-signed int return_value_vl_get_printf_func$7$object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_f::$tmp::return_value_vl_get_printf_func$8$object
+signed int return_value_vl_get_printf_func_7_object(const char *, ...);
+// _vl_kmeans_refine_centers_lloyd_f::_tmp::return_value_vl_get_printf_func_8_object
 //
-signed int return_value_vl_get_printf_func$8$object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_f::$tmp::return_value_vl_get_printf_func$9$object
+signed int return_value_vl_get_printf_func_8_object(const char *, ...);
+// _vl_kmeans_refine_centers_lloyd_f::_tmp::return_value_vl_get_printf_func_9_object
 //
-signed int return_value_vl_get_printf_func$9$object(const char *, ...);
+signed int return_value_vl_get_printf_func_9_object(const char *, ...);
 // _vl_kmeans_set_centers_d
 // file vl/kmeans.c line 510
 static void _vl_kmeans_set_centers_d(struct _VlKMeans *self, const double *centers, unsigned long long int dimension, unsigned long long int numCenters);
@@ -772,15 +772,15 @@ static inline void _vl_kmeans_swap(unsigned long long int *array, unsigned long 
 // _vl_kmeans_update_center_distances_d
 // file vl/kmeans.c line 981
 static double _vl_kmeans_update_center_distances_d(struct _VlKMeans *self);
-// _vl_kmeans_update_center_distances_d::1::distFn$object
+// _vl_kmeans_update_center_distances_d::1::distFn_object
 //
-double distFn$object(unsigned long long int, const double *, const double *);
+double distFn_object(unsigned long long int, const double *, const double *);
 // _vl_kmeans_update_center_distances_f
 // file vl/kmeans.c line 981
 static double _vl_kmeans_update_center_distances_f(struct _VlKMeans *self);
-// _vl_kmeans_update_center_distances_f::1::distFn$object
+// _vl_kmeans_update_center_distances_f::1::distFn_object
 //
-float distFn$object(unsigned long long int, const float *, const float *);
+float distFn_object(unsigned long long int, const float *, const float *);
 // _vl_lbp_init_uniform
 // file vl/lbp.c line 172
 static void _vl_lbp_init_uniform(struct VlLbp_ *self);
@@ -990,10 +990,10 @@ extern double pow(double, double);
 extern signed int printf(const char *, ...);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$1 *);
+extern signed int pthread_cond_signal(union anonymous_1 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$1 *, union anonymous$0 *);
+extern signed int pthread_cond_wait(union anonymous_1 *, union anonymous_0 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1008,10 +1008,10 @@ extern void * pthread_getspecific(unsigned int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -1063,21 +1063,21 @@ extern signed int ungetc(signed int, struct _IO_FILE *);
 // vl_abs_d
 // file vl/mathop.h line 247
 static inline double vl_abs_d(double x);
-// vl_abs_d$link1
+// vl_abs_d_link1
 // file vl/mathop.h line 247
-static inline double vl_abs_d$link1(double x$link1);
-// vl_abs_d$link2
+static inline double vl_abs_d_link1(double x_link1);
+// vl_abs_d_link2
 // file vl/mathop.h line 247
-static inline double vl_abs_d$link2(double x$link2);
-// vl_abs_d$link3
+static inline double vl_abs_d_link2(double x_link2);
+// vl_abs_d_link3
 // file vl/mathop.h line 247
-static inline double vl_abs_d$link3(double x$link3);
+static inline double vl_abs_d_link3(double x_link3);
 // vl_abs_f
 // file vl/mathop.h line 233
 static inline float vl_abs_f(float x);
-// vl_abs_f$link1
+// vl_abs_f_link1
 // file vl/mathop.h line 233
-static inline float vl_abs_f$link1(float x$link1);
+static inline float vl_abs_f_link1(float x_link1);
 // vl_aib_calculate_information
 // file vl/aib.c line 437
 void vl_aib_calculate_information(struct _VlAIB *aib, double *I, double *H);
@@ -1108,9 +1108,9 @@ void vl_aib_normalize_P(double *P, unsigned int nelem);
 // vl_aib_process
 // file vl/aib.c line 588
 extern void vl_aib_process(struct _VlAIB *aib);
-// vl_aib_process::$tmp::return_value_vl_get_printf_func$1$object
+// vl_aib_process::_tmp::return_value_vl_get_printf_func_1_object
 //
-signed int return_value_vl_get_printf_func$1$object(const char *, ...);
+signed int return_value_vl_get_printf_func_1_object(const char *, ...);
 // vl_aib_update_beta
 // file vl/aib.c line 351
 void vl_aib_update_beta(struct _VlAIB *aib);
@@ -1153,9 +1153,9 @@ extern void * vl_calloc(unsigned long int n, unsigned long int size);
 // vl_ceil_d
 // file vl/mathop.h line 174
 static inline signed long int vl_ceil_d(double x);
-// vl_ceil_d$link1
+// vl_ceil_d_link1
 // file vl/mathop.h line 174
-static inline signed long int vl_ceil_d$link1(double x$link1);
+static inline signed long int vl_ceil_d_link1(double x_link1);
 // vl_ceil_f
 // file vl/mathop.h line 160
 static inline signed long int vl_ceil_f(float x);
@@ -1294,15 +1294,15 @@ extern struct _VlEnumerator * vl_enumeration_get_casei(const struct _VlEnumerato
 // vl_eval_vector_comparison_on_all_pairs_d
 // file vl/mathop.c line 555
 extern void vl_eval_vector_comparison_on_all_pairs_d(double *result, unsigned long long int dimension, const double *X, unsigned long long int numDataX, const double *Y, unsigned long long int numDataY, double (*function)(unsigned long long int, const double *, const double *));
-// vl_eval_vector_comparison_on_all_pairs_d::function$object
+// vl_eval_vector_comparison_on_all_pairs_d::function_object
 //
-double function$object(unsigned long long int, const double *, const double *);
+double function_object(unsigned long long int, const double *, const double *);
 // vl_eval_vector_comparison_on_all_pairs_f
 // file vl/mathop.c line 555
 extern void vl_eval_vector_comparison_on_all_pairs_f(float *result, unsigned long long int dimension, const float *X, unsigned long long int numDataX, const float *Y, unsigned long long int numDataY, float (*function)(unsigned long long int, const float *, const float *));
-// vl_eval_vector_comparison_on_all_pairs_f::function$object
+// vl_eval_vector_comparison_on_all_pairs_f::function_object
 //
-float function$object(unsigned long long int, const float *, const float *);
+float function_object(unsigned long long int, const float *, const float *);
 // vl_fast_atan2_f
 // file vl/mathop.h line 408
 static inline float vl_fast_atan2_f(float y, float x);
@@ -1327,15 +1327,15 @@ extern unsigned long long int vl_fisher_encode(void *enc, unsigned int dataType,
 // vl_floor_d
 // file vl/mathop.h line 147
 static inline signed long int vl_floor_d(double x);
-// vl_floor_d$link1
+// vl_floor_d_link1
 // file vl/mathop.h line 147
-static inline signed long int vl_floor_d$link1(double x$link1);
+static inline signed long int vl_floor_d_link1(double x_link1);
 // vl_floor_f
 // file vl/mathop.h line 135
 static inline signed long int vl_floor_f(float x);
-// vl_floor_f$link1
+// vl_floor_f_link1
 // file vl/mathop.h line 135
-static inline signed long int vl_floor_f$link1(float x$link1);
+static inline signed long int vl_floor_f_link1(float x_link1);
 // vl_free
 // file ./vl/generic.h line 147
 extern void vl_free(void *ptr);
@@ -1348,15 +1348,15 @@ extern double vl_get_cpu_time(void);
 // vl_get_gmm_data_posteriors_d
 // file vl/gmm.c line 712
 extern double vl_get_gmm_data_posteriors_d(double *posteriors, unsigned long long int numClusters, unsigned long long int numData, const double *priors, const double *means, unsigned long long int dimension, const double *covariances, const double *data);
-// vl_get_gmm_data_posteriors_d::1::distFn$object
+// vl_get_gmm_data_posteriors_d::1::distFn_object
 //
-double distFn$object(unsigned long long int, const double *, const double *, const double *);
+double distFn_object(unsigned long long int, const double *, const double *, const double *);
 // vl_get_gmm_data_posteriors_f
 // file vl/gmm.c line 712
 extern double vl_get_gmm_data_posteriors_f(float *posteriors, unsigned long long int numClusters, unsigned long long int numData, const float *priors, const float *means, unsigned long long int dimension, const float *covariances, const float *data);
-// vl_get_gmm_data_posteriors_f::1::distFn$object
+// vl_get_gmm_data_posteriors_f::1::distFn_object
 //
-float distFn$object(unsigned long long int, const float *, const float *, const float *);
+float distFn_object(unsigned long long int, const float *, const float *, const float *);
 // vl_get_last_error
 // file vl/generic.c line 1265
 extern signed int vl_get_last_error(void);
@@ -1390,57 +1390,57 @@ static inline struct _VlThreadState * vl_get_thread_specific_state(void);
 // vl_get_type_size
 // file vl/generic.h line 85
 static inline unsigned long long int vl_get_type_size(unsigned int type);
-// vl_get_type_size$link1
+// vl_get_type_size_link1
 // file vl/generic.h line 85
-static inline unsigned long long int vl_get_type_size$link1(unsigned int type$link1);
-// vl_get_type_size$link2
+static inline unsigned long long int vl_get_type_size_link1(unsigned int type_link1);
+// vl_get_type_size_link2
 // file vl/generic.h line 85
-static inline unsigned long long int vl_get_type_size$link2(unsigned int type$link2);
-// vl_get_type_size$link3
+static inline unsigned long long int vl_get_type_size_link2(unsigned int type_link2);
+// vl_get_type_size_link3
 // file vl/generic.h line 85
-static inline unsigned long long int vl_get_type_size$link3(unsigned int type$link3);
+static inline unsigned long long int vl_get_type_size_link3(unsigned int type_link3);
 // vl_get_vector_3_comparison_function_d
 // file vl/mathop.c line 521
 extern double (*vl_get_vector_3_comparison_function_d(enum _VlVectorComparisonType type))(unsigned long long int, const double *, const double *, const double *);
-// vl_get_vector_3_comparison_function_d::1::function$object
+// vl_get_vector_3_comparison_function_d::1::function_object
 //
-double function$object(unsigned long long int, const double *, const double *, const double *);
+double function_object(unsigned long long int, const double *, const double *, const double *);
 // vl_get_vector_3_comparison_function_f
 // file vl/mathop.c line 521
 extern float (*vl_get_vector_3_comparison_function_f(enum _VlVectorComparisonType type))(unsigned long long int, const float *, const float *, const float *);
-// vl_get_vector_3_comparison_function_f::1::function$object
+// vl_get_vector_3_comparison_function_f::1::function_object
 //
-float function$object(unsigned long long int, const float *, const float *, const float *);
+float function_object(unsigned long long int, const float *, const float *, const float *);
 // vl_get_vector_comparison_function_d
 // file vl/mathop.h line 669
 extern double (*vl_get_vector_comparison_function_d(enum _VlVectorComparisonType type))(unsigned long long int, const double *, const double *);
-// vl_get_vector_comparison_function_d::1::function$object
+// vl_get_vector_comparison_function_d::1::function_object
 //
-double function$object(unsigned long long int, const double *, const double *);
+double function_object(unsigned long long int, const double *, const double *);
 // vl_get_vector_comparison_function_f
 // file vl/mathop.h line 666
 extern float (*vl_get_vector_comparison_function_f(enum _VlVectorComparisonType type))(unsigned long long int, const float *, const float *);
-// vl_get_vector_comparison_function_f::1::function$object
+// vl_get_vector_comparison_function_f::1::function_object
 //
-float function$object(unsigned long long int, const float *, const float *);
+float function_object(unsigned long long int, const float *, const float *);
 // vl_get_version_string
 // file vl/generic.c line 868
 extern const char * vl_get_version_string(void);
 // vl_gmm_cluster
 // file vl/gmm.c line 1557
 extern double vl_gmm_cluster(struct _VlGMM *self, const void *data, unsigned long long int numData);
-// vl_gmm_cluster::$tmp::return_value_vl_get_printf_func$1$object
+// vl_gmm_cluster::_tmp::return_value_vl_get_printf_func_1_object
 //
-signed int return_value_vl_get_printf_func$1$object(const char *, ...);
-// vl_gmm_cluster::$tmp::return_value_vl_get_printf_func$2$object
+signed int return_value_vl_get_printf_func_1_object(const char *, ...);
+// vl_gmm_cluster::_tmp::return_value_vl_get_printf_func_2_object
 //
-signed int return_value_vl_get_printf_func$2$object(const char *, ...);
-// vl_gmm_cluster::$tmp::return_value_vl_get_printf_func$4$object
+signed int return_value_vl_get_printf_func_2_object(const char *, ...);
+// vl_gmm_cluster::_tmp::return_value_vl_get_printf_func_4_object
 //
-signed int return_value_vl_get_printf_func$4$object(const char *, ...);
-// vl_gmm_cluster::$tmp::return_value_vl_get_printf_func$6$object
+signed int return_value_vl_get_printf_func_4_object(const char *, ...);
+// vl_gmm_cluster::_tmp::return_value_vl_get_printf_func_6_object
 //
-signed int return_value_vl_get_printf_func$6$object(const char *, ...);
+signed int return_value_vl_get_printf_func_6_object(const char *, ...);
 // vl_gmm_delete
 // file vl/gmm.c line 414
 extern void vl_gmm_delete(struct _VlGMM *self);
@@ -1644,7 +1644,7 @@ extern void vl_homogeneouskernelmap_evaluate_f(const struct _VlHomogeneousKernel
 extern unsigned long long int vl_homogeneouskernelmap_get_dimension(const struct _VlHomogeneousKernelMap *self);
 // vl_homogeneouskernelmap_get_kernel_type
 // file vl/homkermap.c line 476
-extern enum anonymous$3 vl_homogeneouskernelmap_get_kernel_type(const struct _VlHomogeneousKernelMap *self);
+extern enum anonymous_3 vl_homogeneouskernelmap_get_kernel_type(const struct _VlHomogeneousKernelMap *self);
 // vl_homogeneouskernelmap_get_order
 // file vl/homkermap.c line 452
 extern unsigned long long int vl_homogeneouskernelmap_get_order(const struct _VlHomogeneousKernelMap *self);
@@ -1656,10 +1656,10 @@ static inline double vl_homogeneouskernelmap_get_smooth_spectrum(const struct _V
 static inline double vl_homogeneouskernelmap_get_spectrum(const struct _VlHomogeneousKernelMap *self, double omega);
 // vl_homogeneouskernelmap_get_window_type
 // file vl/homkermap.c line 488
-extern enum anonymous$4 vl_homogeneouskernelmap_get_window_type(const struct _VlHomogeneousKernelMap *self);
+extern enum anonymous_4 vl_homogeneouskernelmap_get_window_type(const struct _VlHomogeneousKernelMap *self);
 // vl_homogeneouskernelmap_new
 // file vl/homkermap.c line 326
-extern struct _VlHomogeneousKernelMap * vl_homogeneouskernelmap_new(enum anonymous$3 kernelType, double gamma, unsigned long long int order, double period, enum anonymous$4 windowType);
+extern struct _VlHomogeneousKernelMap * vl_homogeneouskernelmap_new(enum anonymous_3 kernelType, double gamma, unsigned long long int order, double period, enum anonymous_4 windowType);
 // vl_ikm_delete
 // file vl/ikmeans.h line 58
 extern void vl_ikm_delete(struct _VlIKMFilt *f);
@@ -1723,21 +1723,21 @@ extern void vl_ikm_set_verbosity(struct _VlIKMFilt *f, signed int verb);
 // vl_ikm_train
 // file vl/ikmeans.h line 66
 extern signed int vl_ikm_train(struct _VlIKMFilt *f, const unsigned char *data, unsigned long long int N);
-// vl_ikm_train::$tmp::return_value_vl_get_printf_func$1$object
+// vl_ikm_train::_tmp::return_value_vl_get_printf_func_1_object
 //
-signed int return_value_vl_get_printf_func$1$object(const char *, ...);
-// vl_ikm_train::$tmp::return_value_vl_get_printf_func$2$object
+signed int return_value_vl_get_printf_func_1_object(const char *, ...);
+// vl_ikm_train::_tmp::return_value_vl_get_printf_func_2_object
 //
-signed int return_value_vl_get_printf_func$2$object(const char *, ...);
+signed int return_value_vl_get_printf_func_2_object(const char *, ...);
 // vl_ikm_train_elkan
 // file vl/ikmeans_elkan.tc line 64
 static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *data, unsigned long long int N);
-// vl_ikm_train_elkan::$tmp::return_value_vl_get_printf_func$16$object
+// vl_ikm_train_elkan::_tmp::return_value_vl_get_printf_func_16_object
 //
-signed int return_value_vl_get_printf_func$16$object(const char *, ...);
-// vl_ikm_train_elkan::$tmp::return_value_vl_get_printf_func$17$object
+signed int return_value_vl_get_printf_func_16_object(const char *, ...);
+// vl_ikm_train_elkan::_tmp::return_value_vl_get_printf_func_17_object
 //
-signed int return_value_vl_get_printf_func$17$object(const char *, ...);
+signed int return_value_vl_get_printf_func_17_object(const char *, ...);
 // vl_ikm_train_lloyd
 // file vl/ikmeans_lloyd.tc line 34
 static signed int vl_ikm_train_lloyd(struct _VlIKMFilt *f, const unsigned char *data, unsigned long long int N);
@@ -1843,12 +1843,12 @@ static inline void vl_kdforest_neighbor_heap_update(struct _VlKDForestNeighbor *
 // vl_kdforest_new
 // file vl/kdtree.c line 332
 extern struct _VlKDForest * vl_kdforest_new(unsigned int dataType, unsigned long long int dimension, unsigned long long int numTrees, enum _VlVectorComparisonType distance);
-// vl_kdforest_new::$tmp::return_value_vl_get_vector_comparison_function_d$3$object
+// vl_kdforest_new::_tmp::return_value_vl_get_vector_comparison_function_d_3_object
 //
-double return_value_vl_get_vector_comparison_function_d$3$object(unsigned long long int, const double *, const double *);
-// vl_kdforest_new::$tmp::return_value_vl_get_vector_comparison_function_f$2$object
+double return_value_vl_get_vector_comparison_function_d_3_object(unsigned long long int, const double *, const double *);
+// vl_kdforest_new::_tmp::return_value_vl_get_vector_comparison_function_f_2_object
 //
-float return_value_vl_get_vector_comparison_function_f$2$object(unsigned long long int, const float *, const float *);
+float return_value_vl_get_vector_comparison_function_f_2_object(unsigned long long int, const float *, const float *);
 // vl_kdforest_new_searcher
 // file vl/kdtree.c line 388
 extern struct _VlKDForestSearcher * vl_kdforest_new_searcher(struct _VlKDForest *kdforest);
@@ -1921,15 +1921,15 @@ static inline void vl_kdtree_split_heap_update(struct _VlKDTreeSplitDimension *a
 // vl_kmeans_cluster
 // file vl/kmeans.h line 83
 extern double vl_kmeans_cluster(struct _VlKMeans *self, const void *data, unsigned long long int dimension, unsigned long long int numData, unsigned long long int numCenters);
-// vl_kmeans_cluster::$tmp::return_value_vl_get_printf_func$1$object
+// vl_kmeans_cluster::_tmp::return_value_vl_get_printf_func_1_object
 //
-signed int return_value_vl_get_printf_func$1$object(const char *, ...);
-// vl_kmeans_cluster::$tmp::return_value_vl_get_printf_func$2$object
+signed int return_value_vl_get_printf_func_1_object(const char *, ...);
+// vl_kmeans_cluster::_tmp::return_value_vl_get_printf_func_2_object
 //
-signed int return_value_vl_get_printf_func$2$object(const char *, ...);
-// vl_kmeans_cluster::$tmp::return_value_vl_get_printf_func$4$object
+signed int return_value_vl_get_printf_func_2_object(const char *, ...);
+// vl_kmeans_cluster::_tmp::return_value_vl_get_printf_func_4_object
 //
-signed int return_value_vl_get_printf_func$4$object(const char *, ...);
+signed int return_value_vl_get_printf_func_4_object(const char *, ...);
 // vl_kmeans_delete
 // file vl/kmeans.h line 75
 extern void vl_kmeans_delete(struct _VlKMeans *self);
@@ -2035,12 +2035,12 @@ static void vl_lock_state(void);
 // vl_log2_d
 // file vl/mathop.h line 262
 static inline double vl_log2_d(double x);
-// vl_log2_d$link1
+// vl_log2_d_link1
 // file vl/mathop.h line 262
-static inline double vl_log2_d$link1(double x$link1);
-// vl_log2_d$link2
+static inline double vl_log2_d_link1(double x_link1);
+// vl_log2_d_link2
 // file vl/mathop.h line 262
-static inline double vl_log2_d$link2(double x$link2);
+static inline double vl_log2_d_link2(double x_link2);
 // vl_log2_f
 // file vl/mathop.h line 275
 static inline float vl_log2_f(float x);
@@ -2125,18 +2125,18 @@ extern void vl_rand_seed_by_array(struct _VlRand *self, const unsigned int *key,
 // vl_rand_uindex
 // file vl/random.h line 65
 static inline unsigned long long int vl_rand_uindex(struct _VlRand *self, unsigned long long int range);
-// vl_rand_uindex$link1
+// vl_rand_uindex_link1
 // file vl/random.h line 65
-static inline unsigned long long int vl_rand_uindex$link1(struct _VlRand *self$link1, unsigned long long int range$link1);
+static inline unsigned long long int vl_rand_uindex_link1(struct _VlRand *self_link1, unsigned long long int range_link1);
 // vl_rand_uint32
 // file ./vl/random.h line 41
 extern unsigned int vl_rand_uint32(struct _VlRand *self);
 // vl_rand_uint64
 // file vl/random.h line 82
 static inline unsigned long long int vl_rand_uint64(struct _VlRand *self);
-// vl_rand_uint64$link1
+// vl_rand_uint64_link1
 // file vl/random.h line 82
-static inline unsigned long long int vl_rand_uint64$link1(struct _VlRand *self$link1);
+static inline unsigned long long int vl_rand_uint64_link1(struct _VlRand *self_link1);
 // vl_realloc
 // file vl/generic.h line 144
 extern void * vl_realloc(void *ptr, unsigned long int n);
@@ -2152,9 +2152,9 @@ extern void vl_rodrigues(double *R_pt, double *dR_pt, const double *om_pt);
 // vl_round_d
 // file vl/mathop.h line 212
 static inline signed long int vl_round_d(double x);
-// vl_round_d$link1
+// vl_round_d_link1
 // file vl/mathop.h line 212
-static inline signed long int vl_round_d$link1(double x$link1);
+static inline signed long int vl_round_d_link1(double x_link1);
 // vl_scalespace_delete
 // file vl/scalespace.h line 74
 extern void vl_scalespace_delete(struct _VlScaleSpace *self);
@@ -2197,18 +2197,18 @@ extern signed int vl_scalespacegeometry_is_equal(struct _VlScaleSpaceGeometry a,
 // vl_set_alloc_func
 // file vl/generic.c line 1289
 extern void vl_set_alloc_func(void * (*malloc_func)(unsigned long int), void * (*realloc_func)(void *, unsigned long int), void * (*calloc_func)(unsigned long int, unsigned long int), void (*free_func)(void *));
-// vl_set_alloc_func::calloc_func$object
+// vl_set_alloc_func::calloc_func_object
 //
-void * calloc_func$object(unsigned long int, unsigned long int);
-// vl_set_alloc_func::free_func$object
+void * calloc_func_object(unsigned long int, unsigned long int);
+// vl_set_alloc_func::free_func_object
 //
-void free_func$object(void *);
-// vl_set_alloc_func::malloc_func$object
+void free_func_object(void *);
+// vl_set_alloc_func::malloc_func_object
 //
-void * malloc_func$object(unsigned long int);
-// vl_set_alloc_func::realloc_func$object
+void * malloc_func_object(unsigned long int);
+// vl_set_alloc_func::realloc_func_object
 //
-void * realloc_func$object(void *, unsigned long int);
+void * realloc_func_object(void *, unsigned long int);
 // vl_set_last_error
 // file vl/generic.h line 132
 extern signed int vl_set_last_error(signed int error, const char *errorMessage, ...);
@@ -2218,9 +2218,9 @@ extern void vl_set_num_threads(unsigned long long int numThreads);
 // vl_set_printf_func
 // file vl/generic.c line 1372
 extern void vl_set_printf_func(signed int (*printf_func)(const char *, ...));
-// vl_set_printf_func::printf_func$object
+// vl_set_printf_func::printf_func_object
 //
-signed int printf_func$object(const char *, ...);
+signed int printf_func_object(const char *, ...);
 // vl_set_simd_enabled
 // file vl/generic.c line 1072
 extern void vl_set_simd_enabled(signed int x);
@@ -2236,15 +2236,15 @@ extern signed int vl_solve_linear_system_3(double *x, const double *A, const dou
 // vl_sqrt_d
 // file vl/mathop.h line 292
 static inline double vl_sqrt_d(double x);
-// vl_sqrt_d$link1
+// vl_sqrt_d_link1
 // file vl/mathop.h line 292
-static inline double vl_sqrt_d$link1(double x$link1);
+static inline double vl_sqrt_d_link1(double x_link1);
 // vl_sqrt_f
 // file vl/mathop.h line 303
 static inline float vl_sqrt_f(float x);
-// vl_sqrt_f$link1
+// vl_sqrt_f_link1
 // file vl/mathop.h line 303
-static inline float vl_sqrt_f$link1(float x$link1);
+static inline float vl_sqrt_f_link1(float x_link1);
 // vl_static_configuration_to_string_copy
 // file vl/host.c line 505
 extern char * vl_static_configuration_to_string_copy();
@@ -2319,7 +2319,7 @@ extern unsigned long long int vl_svm_get_num_data(struct VlSvm_ *self);
 extern const double * vl_svm_get_scores(const struct VlSvm_ *self);
 // vl_svm_get_solver
 // file vl/svm.c line 1271
-extern enum anonymous$6 vl_svm_get_solver(const struct VlSvm_ *self);
+extern enum anonymous_6 vl_svm_get_solver(const struct VlSvm_ *self);
 // vl_svm_get_statistics
 // file vl/svm.c line 1433
 extern const struct VlSvmStatistics_ * vl_svm_get_statistics(const struct VlSvm_ *self);
@@ -2388,19 +2388,19 @@ extern double vl_svm_logistic_loss(double inner, double label);
 extern double vl_svm_logistic_loss_derivative(double inner, double label);
 // vl_svm_new
 // file vl/svm.c line 957
-extern struct VlSvm_ * vl_svm_new(enum anonymous$6 type, const double *data, unsigned long long int dimension, unsigned long long int numData, const double *labels, double lambda);
+extern struct VlSvm_ * vl_svm_new(enum anonymous_6 type, const double *data, unsigned long long int dimension, unsigned long long int numData, const double *labels, double lambda);
 // vl_svm_new_with_abstract_data
 // file vl/svm.c line 1014
-extern struct VlSvm_ * vl_svm_new_with_abstract_data(enum anonymous$6 solver, void *data, unsigned long long int dimension, unsigned long long int numData, const double *labels, double lambda);
+extern struct VlSvm_ * vl_svm_new_with_abstract_data(enum anonymous_6 solver, void *data, unsigned long long int dimension, unsigned long long int numData, const double *labels, double lambda);
 // vl_svm_new_with_dataset
 // file vl/svm.c line 980
-extern struct VlSvm_ * vl_svm_new_with_dataset(enum anonymous$6 solver, struct VlSvmDataset_ *dataset, const double *labels, double lambda);
-// vl_svm_new_with_dataset::$tmp::return_value_vl_svmdataset_get_accumulate_function$4$object
+extern struct VlSvm_ * vl_svm_new_with_dataset(enum anonymous_6 solver, struct VlSvmDataset_ *dataset, const double *labels, double lambda);
+// vl_svm_new_with_dataset::_tmp::return_value_vl_svmdataset_get_accumulate_function_4_object
 //
-void return_value_vl_svmdataset_get_accumulate_function$4$object(const void *, unsigned long long int, double *, double);
-// vl_svm_new_with_dataset::$tmp::return_value_vl_svmdataset_get_inner_product_function$3$object
+void return_value_vl_svmdataset_get_accumulate_function_4_object(const void *, unsigned long long int, double *, double);
+// vl_svm_new_with_dataset::_tmp::return_value_vl_svmdataset_get_inner_product_function_3_object
 //
-double return_value_vl_svmdataset_get_inner_product_function$3$object(const void *, unsigned long long int, double *);
+double return_value_vl_svmdataset_get_inner_product_function_3_object(const void *, unsigned long long int, double *);
 // vl_svm_set_bias
 // file vl/svm.c line 1406
 extern void vl_svm_set_bias(struct VlSvm_ *self, double b);
@@ -2413,33 +2413,33 @@ extern void vl_svm_set_bias_multiplier(struct VlSvm_ *self, double b);
 // vl_svm_set_conjugate_loss_function
 // file vl/svm.c line 1529
 extern void vl_svm_set_conjugate_loss_function(struct VlSvm_ *self, double (*f)(double, double));
-// vl_svm_set_conjugate_loss_function::f$object
+// vl_svm_set_conjugate_loss_function::f_object
 //
-double f$object(double, double);
+double f_object(double, double);
 // vl_svm_set_data_functions
 // file vl/svm.c line 1492
 extern void vl_svm_set_data_functions(struct VlSvm_ *self, double (*inner)(const void *, unsigned long long int, double *), void (*acc)(const void *, unsigned long long int, double *, double));
-// vl_svm_set_data_functions::acc$object
+// vl_svm_set_data_functions::acc_object
 //
-void acc$object(const void *, unsigned long long int, double *, double);
-// vl_svm_set_data_functions::inner$object
+void acc_object(const void *, unsigned long long int, double *, double);
+// vl_svm_set_data_functions::inner_object
 //
-double inner$object(const void *, unsigned long long int, double *);
+double inner_object(const void *, unsigned long long int, double *);
 // vl_svm_set_dca_update_function
 // file vl/svm.c line 1539
 extern void vl_svm_set_dca_update_function(struct VlSvm_ *self, double (*f)(double, double, double, double));
-// vl_svm_set_dca_update_function::f$object
+// vl_svm_set_dca_update_function::f_object
 //
-double f$object(double, double, double, double);
+double f_object(double, double, double, double);
 // vl_svm_set_diagnostic_frequency
 // file vl/svm.c line 1248
 extern void vl_svm_set_diagnostic_frequency(struct VlSvm_ *self, unsigned long long int f);
 // vl_svm_set_diagnostic_function
 // file vl/svm.c line 1479
 extern void vl_svm_set_diagnostic_function(struct VlSvm_ *self, void (*f)(struct VlSvm_ *, void *), void *data);
-// vl_svm_set_diagnostic_function::f$object
+// vl_svm_set_diagnostic_function::f_object
 //
-void f$object(struct VlSvm_ *, void *);
+void f_object(struct VlSvm_ *, void *);
 // vl_svm_set_epsilon
 // file vl/svm.c line 1123
 extern void vl_svm_set_epsilon(struct VlSvm_ *self, double epsilon);
@@ -2451,19 +2451,19 @@ extern void vl_svm_set_iteration_number(struct VlSvm_ *self, unsigned long long 
 void vl_svm_set_lambda(struct VlSvm_ *self, double lambda);
 // vl_svm_set_loss
 // file vl/svm.c line 1552
-extern void vl_svm_set_loss(struct VlSvm_ *self, enum anonymous$9 loss);
+extern void vl_svm_set_loss(struct VlSvm_ *self, enum anonymous_9 loss);
 // vl_svm_set_loss_derivative_function
 // file vl/svm.c line 1519
 extern void vl_svm_set_loss_derivative_function(struct VlSvm_ *self, double (*f)(double, double));
-// vl_svm_set_loss_derivative_function::f$object
+// vl_svm_set_loss_derivative_function::f_object
 //
-double f$object(double, double);
+double f_object(double, double);
 // vl_svm_set_loss_function
 // file vl/svm.c line 1509
 extern void vl_svm_set_loss_function(struct VlSvm_ *self, double (*f)(double, double));
-// vl_svm_set_loss_function::f$object
+// vl_svm_set_loss_function::f_object
 //
-double f$object(double, double);
+double f_object(double, double);
 // vl_svm_set_max_num_iterations
 // file vl/svm.c line 1223
 extern void vl_svm_set_max_num_iterations(struct VlSvm_ *self, unsigned long long int n);
@@ -2542,11 +2542,11 @@ static inline double xlogx(double x);
 // xmeans
 // file vl/hikmeans.c line 104
 static struct _VlHIKMNode * xmeans(struct _VlHIKMTree *tree, const unsigned char *data, unsigned long long int N, unsigned long long int K, unsigned long long int height);
-// xmeans::$tmp::return_value_vl_get_printf_func$5$object
+// xmeans::_tmp::return_value_vl_get_printf_func_5_object
 //
-signed int return_value_vl_get_printf_func$5$object(const char *, ...);
+signed int return_value_vl_get_printf_func_5_object(const char *, ...);
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -2566,7 +2566,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // w
   signed long long int w;
@@ -2574,7 +2574,7 @@ struct anonymous$5
   signed long long int j;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // string
   char string[32l];
@@ -2582,10 +2582,10 @@ union anonymous$11
   unsigned int words[8l];
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -2620,7 +2620,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2630,7 +2630,7 @@ union anonymous$0
   signed long int __align;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // raw
   unsigned int raw;
@@ -2709,7 +2709,7 @@ struct VlSvmDataset_
 struct VlSvmStatistics_
 {
   // status
-  enum anonymous$7 status;
+  enum anonymous_7 status;
   // iteration
   unsigned long long int iteration;
   // epoch
@@ -2735,7 +2735,7 @@ struct VlSvmStatistics_
 struct VlSvm_
 {
   // solver
-  enum anonymous$6 solver;
+  enum anonymous_6 solver;
   // dimension
   unsigned long long int dimension;
   // model
@@ -3125,11 +3125,11 @@ struct _VlHIKMTree
 struct _VlHomogeneousKernelMap
 {
   // kernelType
-  enum anonymous$3 kernelType;
+  enum anonymous_3 kernelType;
   // gamma
   double gamma;
   // windowType
-  enum anonymous$4 windowType;
+  enum anonymous_4 windowType;
   // order
   unsigned long long int order;
   // period
@@ -3567,7 +3567,7 @@ struct _VlScaleSpaceOctaveGeometry
 struct _VlX86CpuInfo
 {
   // vendor
-  union anonymous$11 vendor;
+  union anonymous_11 vendor;
   // hasAVX
   signed int hasAVX;
   // hasSSE42
@@ -3589,11 +3589,11 @@ struct _VlState
   // threadKey
   unsigned int threadKey;
   // mutex
-  union anonymous$0 mutex;
+  union anonymous_0 mutex;
   // mutexOwner
   unsigned long int mutexOwner;
   // mutexCondition
-  union anonymous$1 mutexCondition;
+  union anonymous_1 mutexCondition;
   // mutexCount
   unsigned long int mutexCount;
   // printf_func
@@ -3685,42 +3685,42 @@ struct _VlEnumerator vlCovdetMethods[7l] = { { .name="DoG", .value=(signed long 
 // vl_infinity_d
 // file vl/mathop.h line 75
 static union anonymous vl_infinity_d = { .raw=0x7FF0000000000000ULL };
-// vl_infinity_d$link1
+// vl_infinity_d_link1
 // file vl/mathop.h line 75
-static union anonymous vl_infinity_d$link1 = { .raw=0x7FF0000000000000ULL };
-// vl_infinity_d$link2
+static union anonymous vl_infinity_d_link1 = { .raw=0x7FF0000000000000ULL };
+// vl_infinity_d_link2
 // file vl/mathop.h line 75
-static union anonymous vl_infinity_d$link2 = { .raw=0x7FF0000000000000ULL };
-// vl_infinity_d$link3
+static union anonymous vl_infinity_d_link2 = { .raw=0x7FF0000000000000ULL };
+// vl_infinity_d_link3
 // file vl/mathop.h line 75
-static union anonymous vl_infinity_d$link3 = { .raw=0x7FF0000000000000ULL };
-// vl_infinity_d$link4
+static union anonymous vl_infinity_d_link3 = { .raw=0x7FF0000000000000ULL };
+// vl_infinity_d_link4
 // file vl/mathop.h line 75
-static union anonymous vl_infinity_d$link4 = { .raw=0x7FF0000000000000ULL };
-// vl_infinity_d$link5
+static union anonymous vl_infinity_d_link4 = { .raw=0x7FF0000000000000ULL };
+// vl_infinity_d_link5
 // file vl/mathop.h line 75
-static union anonymous vl_infinity_d$link5 = { .raw=0x7FF0000000000000ULL };
+static union anonymous vl_infinity_d_link5 = { .raw=0x7FF0000000000000ULL };
 // vl_infinity_f
 // file vl/mathop.h line 61
-static union anonymous$8 vl_infinity_f = { .raw=(unsigned int)0x7F800000UL };
-// vl_infinity_f$link1
+static union anonymous_8 vl_infinity_f = { .raw=(unsigned int)0x7F800000UL };
+// vl_infinity_f_link1
 // file vl/mathop.h line 61
-static union anonymous$8 vl_infinity_f$link1 = { .raw=(unsigned int)0x7F800000UL };
-// vl_infinity_f$link2
+static union anonymous_8 vl_infinity_f_link1 = { .raw=(unsigned int)0x7F800000UL };
+// vl_infinity_f_link2
 // file vl/mathop.h line 61
-static union anonymous$8 vl_infinity_f$link2 = { .raw=(unsigned int)0x7F800000UL };
-// vl_infinity_f$link3
+static union anonymous_8 vl_infinity_f_link2 = { .raw=(unsigned int)0x7F800000UL };
+// vl_infinity_f_link3
 // file vl/mathop.h line 61
-static union anonymous$8 vl_infinity_f$link3 = { .raw=(unsigned int)0x7F800000UL };
+static union anonymous_8 vl_infinity_f_link3 = { .raw=(unsigned int)0x7F800000UL };
 // vl_nan_d
 // file vl/mathop.h line 66
 static union anonymous vl_nan_d = { .raw=0x7FF8000000000000ULL };
-// vl_nan_d$link1
+// vl_nan_d_link1
 // file vl/mathop.h line 66
-static union anonymous vl_nan_d$link1 = { .raw=0x7FF8000000000000ULL };
+static union anonymous vl_nan_d_link1 = { .raw=0x7FF8000000000000ULL };
 // vl_nan_f
 // file vl/mathop.h line 56
-static union anonymous$8 vl_nan_f = { .raw=(unsigned int)0x7FC00000UL };
+static union anonymous_8 vl_nan_f = { .raw=(unsigned int)0x7FC00000UL };
 
 // __strcspn_c1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 947
@@ -3778,10 +3778,10 @@ signed int _vl_covdet_check_frame_inside(struct _VlCovDet *self, struct _VlFrame
   double extent = margin;
   double A[4l] = { (double)frame.a11, (double)frame.a21, (double)frame.a12, (double)frame.a22 };
   double T[2l] = { (double)frame.x, (double)frame.y };
-  double x0 = +vl_infinity_d$link1.value;
-  double x1 = -vl_infinity_d$link1.value;
-  double y0 = +vl_infinity_d$link1.value;
-  double y1 = -vl_infinity_d$link1.value;
+  double x0 = +vl_infinity_d_link1.value;
+  double x1 = -vl_infinity_d_link1.value;
+  double y0 = +vl_infinity_d_link1.value;
+  double y1 = -vl_infinity_d_link1.value;
   double boxx[4l] = { extent, extent, -extent, -extent };
   double boxy[4l] = { -extent, extent, extent, -extent };
   struct _VlScaleSpaceGeometry geom;
@@ -3828,9 +3828,9 @@ static inline void _vl_cpuid(signed int *info, signed int function)
 static void _vl_det_hessian_response(float *hessian, const float *image, unsigned long long int width, unsigned long long int height, double step, double sigma)
 {
   float factor;
-  double return_value_pow$1;
-  return_value_pow$1=pow(sigma / step, 4.0);
-  factor = (float)return_value_pow$1;
+  double return_value_pow_1;
+  return_value_pow_1=pow(sigma / step, 4.0);
+  factor = (float)return_value_pow_1;
   const signed long long int xo = (const signed long long int)1;
   const signed long long int yo = (const signed long long int)width;
   unsigned long long int r;
@@ -3906,18 +3906,18 @@ extern double _vl_distance_chi2_d(unsigned long long int dimension, const double
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
   while(!(X >= X_end))
   {
     double a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     double b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
+    b = *tmp_post_2;
     double delta = a - b;
     double denom = a + b;
     double numer = delta * delta;
@@ -3937,18 +3937,18 @@ extern float _vl_distance_chi2_f(unsigned long long int dimension, const float *
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
   while(!(X >= X_end))
   {
     float a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     float b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
+    b = *tmp_post_2;
     float delta = a - b;
     float denom = a + b;
     float numer = delta * delta;
@@ -3968,21 +3968,21 @@ extern double _vl_distance_hellinger_d(unsigned long long int dimension, const d
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
   while(!(X >= X_end))
   {
     double a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     double b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
-    double return_value_sqrt$3;
-    return_value_sqrt$3=sqrt(a * b);
-    acc = acc + ((a + b) - 2.0 * return_value_sqrt$3);
+    b = *tmp_post_2;
+    double return_value_sqrt_3;
+    return_value_sqrt_3=sqrt(a * b);
+    acc = acc + ((a + b) - 2.0 * return_value_sqrt_3);
   }
   return acc;
 }
@@ -3993,21 +3993,21 @@ extern float _vl_distance_hellinger_f(unsigned long long int dimension, const fl
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
   while(!(X >= X_end))
   {
     float a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     float b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
-    float return_value_sqrtf$3;
-    return_value_sqrtf$3=sqrtf(a * b);
-    acc = acc + (float)((double)(a + b) - 2.0 * (double)return_value_sqrtf$3);
+    b = *tmp_post_2;
+    float return_value_sqrtf_3;
+    return_value_sqrtf_3=sqrtf(a * b);
+    acc = acc + (float)((double)(a + b) - 2.0 * (double)return_value_sqrtf_3);
   }
   return acc;
 }
@@ -4018,30 +4018,30 @@ extern double _vl_distance_js_d(unsigned long long int dimension, const double *
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
-  double return_value_vl_log2_d$3;
-  double return_value_vl_log2_d$4;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
+  double return_value_vl_log2_d_3;
+  double return_value_vl_log2_d_4;
   while(!(X >= X_end))
   {
     double x;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    x = *tmp_post$1;
+    x = *tmp_post_1;
     double y;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    y = *tmp_post$2;
+    y = *tmp_post_2;
     if(IEEE_FLOAT_NOTEQUAL(x, 0.000000))
     {
-      return_value_vl_log2_d$3=vl_log2_d((double)1 + y / x);
-      acc = acc + (x - x * return_value_vl_log2_d$3);
+      return_value_vl_log2_d_3=vl_log2_d((double)1 + y / x);
+      acc = acc + (x - x * return_value_vl_log2_d_3);
     }
 
     if(IEEE_FLOAT_NOTEQUAL(y, 0.000000))
     {
-      return_value_vl_log2_d$4=vl_log2_d((double)1 + x / y);
-      acc = acc + (y - y * return_value_vl_log2_d$4);
+      return_value_vl_log2_d_4=vl_log2_d((double)1 + x / y);
+      acc = acc + (y - y * return_value_vl_log2_d_4);
     }
 
   }
@@ -4054,30 +4054,30 @@ extern float _vl_distance_js_f(unsigned long long int dimension, const float *X,
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
-  float return_value_vl_log2_f$3;
-  float return_value_vl_log2_f$4;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
+  float return_value_vl_log2_f_3;
+  float return_value_vl_log2_f_4;
   while(!(X >= X_end))
   {
     float x;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    x = *tmp_post$1;
+    x = *tmp_post_1;
     float y;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    y = *tmp_post$2;
+    y = *tmp_post_2;
     if(IEEE_FLOAT_NOTEQUAL(x, 0.000000f))
     {
-      return_value_vl_log2_f$3=vl_log2_f((float)1 + y / x);
-      acc = acc + (x - x * return_value_vl_log2_f$3);
+      return_value_vl_log2_f_3=vl_log2_f((float)1 + y / x);
+      acc = acc + (x - x * return_value_vl_log2_f_3);
     }
 
     if(IEEE_FLOAT_NOTEQUAL(y, 0.000000f))
     {
-      return_value_vl_log2_f$4=vl_log2_f((float)1 + x / y);
-      acc = acc + (y - y * return_value_vl_log2_f$4);
+      return_value_vl_log2_f_4=vl_log2_f((float)1 + x / y);
+      acc = acc + (y - y * return_value_vl_log2_f_4);
     }
 
   }
@@ -4090,16 +4090,16 @@ extern double _vl_distance_l1_d(unsigned long long int dimension, const double *
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
   while(!(X >= X_end))
   {
     double d;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    d = *tmp_post$1 - *tmp_post$2;
+    d = *tmp_post_1 - *tmp_post_2;
     acc = acc + (d > -d ? d : -d);
   }
   return acc;
@@ -4111,16 +4111,16 @@ extern float _vl_distance_l1_f(unsigned long long int dimension, const float *X,
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
   while(!(X >= X_end))
   {
     float d;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    d = *tmp_post$1 - *tmp_post$2;
+    d = *tmp_post_1 - *tmp_post_2;
     acc = acc + (d > -d ? d : -d);
   }
   return acc;
@@ -4132,16 +4132,16 @@ extern double _vl_distance_l2_d(unsigned long long int dimension, const double *
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
   while(!(X >= X_end))
   {
     double d;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    d = *tmp_post$1 - *tmp_post$2;
+    d = *tmp_post_1 - *tmp_post_2;
     acc = acc + d * d;
   }
   return acc;
@@ -4153,16 +4153,16 @@ extern float _vl_distance_l2_f(unsigned long long int dimension, const float *X,
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
   while(!(X >= X_end))
   {
     float d;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    d = *tmp_post$1 - *tmp_post$2;
+    d = *tmp_post_1 - *tmp_post_2;
     acc = acc + d * d;
   }
   return acc;
@@ -4174,20 +4174,20 @@ extern double _vl_distance_mahalanobis_sq_d(unsigned long long int dimension, co
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
-  const double *tmp_post$3;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
+  const double *tmp_post_3;
   while(!(X >= X_end))
   {
     double d;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    tmp_post$2 = MU;
+    tmp_post_2 = MU;
     MU = MU + 1l;
-    d = *tmp_post$1 - *tmp_post$2;
-    tmp_post$3 = S;
+    d = *tmp_post_1 - *tmp_post_2;
+    tmp_post_3 = S;
     S = S + 1l;
-    acc = acc + d * d * *tmp_post$3;
+    acc = acc + d * d * *tmp_post_3;
   }
   return acc;
 }
@@ -4198,20 +4198,20 @@ extern float _vl_distance_mahalanobis_sq_f(unsigned long long int dimension, con
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
-  const float *tmp_post$3;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
+  const float *tmp_post_3;
   while(!(X >= X_end))
   {
     float d;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    tmp_post$2 = MU;
+    tmp_post_2 = MU;
     MU = MU + 1l;
-    d = *tmp_post$1 - *tmp_post$2;
-    tmp_post$3 = S;
+    d = *tmp_post_1 - *tmp_post_2;
+    tmp_post_3 = S;
     S = S + 1l;
-    acc = acc + d * d * *tmp_post$3;
+    acc = acc + d * d * *tmp_post_3;
   }
   return acc;
 }
@@ -4235,12 +4235,12 @@ static unsigned long long int _vl_fisher_encode_d(double *enc, const double *mea
   unsigned long long int numTerms = (unsigned long long int)0;
   double *posteriors;
   double *sqrtInvSigma;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(double) /*8ul*/  * numClusters * numData);
-  posteriors = (double *)return_value_vl_malloc$1;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(double) /*8ul*/  * dimension * numClusters);
-  sqrtInvSigma = (double *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(double) /*8ul*/  * numClusters * numData);
+  posteriors = (double *)return_value_vl_malloc_1;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(double) /*8ul*/  * dimension * numClusters);
+  sqrtInvSigma = (double *)return_value_vl_malloc_2;
   memset((void *)enc, 0, sizeof(double) /*8ul*/  * (unsigned long int)2 * dimension * numClusters);
   i_cl = (signed long long int)0;
   for( ; !(i_cl >= (signed long int)(signed int)numClusters); i_cl = i_cl + 1ll)
@@ -4286,8 +4286,8 @@ static unsigned long long int _vl_fisher_encode_d(double *enc, const double *mea
       i_d = (signed long long int)0;
       for( ; !(i_d >= (signed long int)(signed int)numData); i_d = i_d + 1ll)
       {
-        double _vl_fisher_encode_d$$1$$3$$1$$2$$1$$p = posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)];
-        if(!(_vl_fisher_encode_d$$1$$3$$1$$2$$1$$p < 1e-6))
+        double _vl_fisher_encode_d__1__3__1__2__1__p = posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)];
+        if(!(_vl_fisher_encode_d__1__3__1__2__1__p < 1e-6))
         {
           numTerms = numTerms + (unsigned long long int)1;
           dim = (unsigned long long int)0;
@@ -4295,20 +4295,20 @@ static unsigned long long int _vl_fisher_encode_d(double *enc, const double *mea
           {
             double diff = data[(signed long int)((unsigned long int)i_d * dimension + dim)] - means[(signed long int)((unsigned long int)i_cl * dimension + dim)];
             diff = diff * sqrtInvSigma[(signed long int)((unsigned long int)i_cl * dimension + dim)];
-            uk[(signed long int)dim] = uk[(signed long int)dim] + _vl_fisher_encode_d$$1$$3$$1$$2$$1$$p * diff;
-            vk[(signed long int)dim] = vk[(signed long int)dim] + _vl_fisher_encode_d$$1$$3$$1$$2$$1$$p * (diff * diff - (double)1);
+            uk[(signed long int)dim] = uk[(signed long int)dim] + _vl_fisher_encode_d__1__3__1__2__1__p * diff;
+            vk[(signed long int)dim] = vk[(signed long int)dim] + _vl_fisher_encode_d__1__3__1__2__1__p * (diff * diff - (double)1);
           }
         }
 
       }
       if(numData >= 1ul)
       {
-        double return_value_sqrt$3;
-        return_value_sqrt$3=sqrt(priors[i_cl]);
-        uprefix = (double)1 / ((double)numData * return_value_sqrt$3);
-        double return_value_sqrt$4;
-        return_value_sqrt$4=sqrt((double)2 * priors[i_cl]);
-        vprefix = (double)1 / ((double)numData * return_value_sqrt$4);
+        double return_value_sqrt_3;
+        return_value_sqrt_3=sqrt(priors[i_cl]);
+        uprefix = (double)1 / ((double)numData * return_value_sqrt_3);
+        double return_value_sqrt_4;
+        return_value_sqrt_4=sqrt((double)2 * priors[i_cl]);
+        vprefix = (double)1 / ((double)numData * return_value_sqrt_4);
         dim = (unsigned long long int)0;
         for( ; !(dim >= dimension); dim = dim + 1ull)
         {
@@ -4329,13 +4329,13 @@ static unsigned long long int _vl_fisher_encode_d(double *enc, const double *mea
     {
       double z = enc[(signed long int)dim];
       if(z >= 0.000000)
-        enc[(signed long int)dim]=vl_sqrt_d$link1(z);
+        enc[(signed long int)dim]=vl_sqrt_d_link1(z);
 
       else
       {
-        double return_value_vl_sqrt_d$5;
-        return_value_vl_sqrt_d$5=vl_sqrt_d$link1(-z);
-        enc[(signed long int)dim] = -return_value_vl_sqrt_d$5;
+        double return_value_vl_sqrt_d_5;
+        return_value_vl_sqrt_d_5=vl_sqrt_d_link1(-z);
+        enc[(signed long int)dim] = -return_value_vl_sqrt_d_5;
       }
     }
   }
@@ -4346,10 +4346,10 @@ static unsigned long long int _vl_fisher_encode_d(double *enc, const double *mea
     dim = (unsigned long long int)0;
     for( ; !(dim >= 2ul * dimension * numClusters); dim = dim + 1ull)
     {
-      double _vl_fisher_encode_d$$1$$5$$1$$1$$z = enc[(signed long int)dim];
-      n = n + _vl_fisher_encode_d$$1$$5$$1$$1$$z * _vl_fisher_encode_d$$1$$5$$1$$1$$z;
+      double _vl_fisher_encode_d__1__5__1__1__z = enc[(signed long int)dim];
+      n = n + _vl_fisher_encode_d__1__5__1__1__z * _vl_fisher_encode_d__1__5__1__1__z;
     }
-    n=vl_sqrt_d$link1(n);
+    n=vl_sqrt_d_link1(n);
     n = n > 1e-12 ? n : 1e-12;
     dim = (unsigned long long int)0;
     for( ; !(dim >= 2ul * dimension * numClusters); dim = dim + 1ull)
@@ -4369,12 +4369,12 @@ static unsigned long long int _vl_fisher_encode_f(float *enc, const float *means
   unsigned long long int numTerms = (unsigned long long int)0;
   float *posteriors;
   float *sqrtInvSigma;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(float) /*4ul*/  * numClusters * numData);
-  posteriors = (float *)return_value_vl_malloc$1;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(float) /*4ul*/  * dimension * numClusters);
-  sqrtInvSigma = (float *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(float) /*4ul*/  * numClusters * numData);
+  posteriors = (float *)return_value_vl_malloc_1;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(float) /*4ul*/  * dimension * numClusters);
+  sqrtInvSigma = (float *)return_value_vl_malloc_2;
   memset((void *)enc, 0, sizeof(float) /*4ul*/  * (unsigned long int)2 * dimension * numClusters);
   i_cl = (signed long long int)0;
   for( ; !(i_cl >= (signed long int)(signed int)numClusters); i_cl = i_cl + 1ll)
@@ -4382,9 +4382,9 @@ static unsigned long long int _vl_fisher_encode_f(float *enc, const float *means
     dim = (unsigned long long int)0;
     for( ; !(dim >= dimension); dim = dim + 1ull)
     {
-      double return_value_sqrt$3;
-      return_value_sqrt$3=sqrt(1.0 / (double)covariances[(signed long int)((unsigned long int)i_cl * dimension + dim)]);
-      sqrtInvSigma[(signed long int)((unsigned long int)i_cl * dimension + dim)] = (float)return_value_sqrt$3;
+      double return_value_sqrt_3;
+      return_value_sqrt_3=sqrt(1.0 / (double)covariances[(signed long int)((unsigned long int)i_cl * dimension + dim)]);
+      sqrtInvSigma[(signed long int)((unsigned long int)i_cl * dimension + dim)] = (float)return_value_sqrt_3;
     }
   }
   vl_get_gmm_data_posteriors_f(posteriors, numClusters, numData, priors, means, dimension, covariances, data);
@@ -4424,8 +4424,8 @@ static unsigned long long int _vl_fisher_encode_f(float *enc, const float *means
       i_d = (signed long long int)0;
       for( ; !(i_d >= (signed long int)(signed int)numData); i_d = i_d + 1ll)
       {
-        float _vl_fisher_encode_f$$1$$3$$1$$2$$1$$p = posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)];
-        if(!((double)_vl_fisher_encode_f$$1$$3$$1$$2$$1$$p < 1e-6))
+        float _vl_fisher_encode_f__1__3__1__2__1__p = posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)];
+        if(!((double)_vl_fisher_encode_f__1__3__1__2__1__p < 1e-6))
         {
           numTerms = numTerms + (unsigned long long int)1;
           dim = (unsigned long long int)0;
@@ -4433,20 +4433,20 @@ static unsigned long long int _vl_fisher_encode_f(float *enc, const float *means
           {
             float diff = data[(signed long int)((unsigned long int)i_d * dimension + dim)] - means[(signed long int)((unsigned long int)i_cl * dimension + dim)];
             diff = diff * sqrtInvSigma[(signed long int)((unsigned long int)i_cl * dimension + dim)];
-            uk[(signed long int)dim] = uk[(signed long int)dim] + _vl_fisher_encode_f$$1$$3$$1$$2$$1$$p * diff;
-            vk[(signed long int)dim] = vk[(signed long int)dim] + _vl_fisher_encode_f$$1$$3$$1$$2$$1$$p * (diff * diff - (float)1);
+            uk[(signed long int)dim] = uk[(signed long int)dim] + _vl_fisher_encode_f__1__3__1__2__1__p * diff;
+            vk[(signed long int)dim] = vk[(signed long int)dim] + _vl_fisher_encode_f__1__3__1__2__1__p * (diff * diff - (float)1);
           }
         }
 
       }
       if(numData >= 1ul)
       {
-        double return_value_sqrt$4;
-        return_value_sqrt$4=sqrt((double)priors[i_cl]);
-        uprefix = (float)((double)1 / ((double)numData * return_value_sqrt$4));
-        double return_value_sqrt$5;
-        return_value_sqrt$5=sqrt((double)((float)2 * priors[i_cl]));
-        vprefix = (float)((double)1 / ((double)numData * return_value_sqrt$5));
+        double return_value_sqrt_4;
+        return_value_sqrt_4=sqrt((double)priors[i_cl]);
+        uprefix = (float)((double)1 / ((double)numData * return_value_sqrt_4));
+        double return_value_sqrt_5;
+        return_value_sqrt_5=sqrt((double)((float)2 * priors[i_cl]));
+        vprefix = (float)((double)1 / ((double)numData * return_value_sqrt_5));
         dim = (unsigned long long int)0;
         for( ; !(dim >= dimension); dim = dim + 1ull)
         {
@@ -4465,15 +4465,15 @@ static unsigned long long int _vl_fisher_encode_f(float *enc, const float *means
     dim = (unsigned long long int)0;
     for( ; !(dim >= 2ul * dimension * numClusters); dim = dim + 1ull)
     {
-      float _vl_fisher_encode_f$$1$$4$$1$$1$$z = enc[(signed long int)dim];
-      if(_vl_fisher_encode_f$$1$$4$$1$$1$$z >= 0.000000f)
-        enc[(signed long int)dim]=vl_sqrt_f$link1(_vl_fisher_encode_f$$1$$4$$1$$1$$z);
+      float _vl_fisher_encode_f__1__4__1__1__z = enc[(signed long int)dim];
+      if(_vl_fisher_encode_f__1__4__1__1__z >= 0.000000f)
+        enc[(signed long int)dim]=vl_sqrt_f_link1(_vl_fisher_encode_f__1__4__1__1__z);
 
       else
       {
-        float return_value_vl_sqrt_f$6;
-        return_value_vl_sqrt_f$6=vl_sqrt_f$link1(-_vl_fisher_encode_f$$1$$4$$1$$1$$z);
-        enc[(signed long int)dim] = -return_value_vl_sqrt_f$6;
+        float return_value_vl_sqrt_f_6;
+        return_value_vl_sqrt_f_6=vl_sqrt_f_link1(-_vl_fisher_encode_f__1__4__1__1__z);
+        enc[(signed long int)dim] = -return_value_vl_sqrt_f_6;
       }
     }
   }
@@ -4487,7 +4487,7 @@ static unsigned long long int _vl_fisher_encode_f(float *enc, const float *means
       float z = enc[(signed long int)dim];
       n = n + z * z;
     }
-    n=vl_sqrt_f$link1(n);
+    n=vl_sqrt_f_link1(n);
     n = (float)((double)n > 1e-12 ? (double)n : 1e-12);
     dim = (unsigned long long int)0;
     for( ; !(dim >= 2ul * dimension * numClusters); dim = dim + 1ull)
@@ -4526,9 +4526,9 @@ static void _vl_gmm_apply_bounds_d(struct _VlGMM *self)
   {
     if(self->verbosity >= 1)
     {
-      signed int (*return_value_vl_get_printf_func$1)(const char *, ...);
-      return_value_vl_get_printf_func$1=vl_get_printf_func();
-      return_value_vl_get_printf_func$1("gmm: detected %d of %d modes with at least one dimension with covariance too small (set to lower bound)\n", numAdjusted, self->numClusters);
+      signed int (*return_value_vl_get_printf_func_1)(const char *, ...);
+      return_value_vl_get_printf_func_1=vl_get_printf_func();
+      return_value_vl_get_printf_func_1("gmm: detected %d of %d modes with at least one dimension with covariance too small (set to lower bound)\n", numAdjusted, self->numClusters);
     }
 
   }
@@ -4564,9 +4564,9 @@ static void _vl_gmm_apply_bounds_f(struct _VlGMM *self)
   {
     if(self->verbosity >= 1)
     {
-      signed int (*return_value_vl_get_printf_func$1)(const char *, ...);
-      return_value_vl_get_printf_func$1=vl_get_printf_func();
-      return_value_vl_get_printf_func$1("gmm: detected %d of %d modes with at least one dimension with covariance too small (set to lower bound)\n", numAdjusted, self->numClusters);
+      signed int (*return_value_vl_get_printf_func_1)(const char *, ...);
+      return_value_vl_get_printf_func_1=vl_get_printf_func();
+      return_value_vl_get_printf_func_1("gmm: detected %d of %d modes with at least one dimension with covariance too small (set to lower bound)\n", numAdjusted, self->numClusters);
     }
 
   }
@@ -4583,9 +4583,9 @@ static void _vl_gmm_compute_init_sigma_d(struct _VlGMM *self, const double *data
   memset((void *)initSigma, 0, sizeof(double) /*8ul*/  * dimension);
   if(numData >= 2ul)
   {
-    void *return_value_vl_malloc$1;
-    return_value_vl_malloc$1=vl_malloc(sizeof(double) /*8ul*/  * dimension);
-    dataMean = (double *)return_value_vl_malloc$1;
+    void *return_value_vl_malloc_1;
+    return_value_vl_malloc_1=vl_malloc(sizeof(double) /*8ul*/  * dimension);
+    dataMean = (double *)return_value_vl_malloc_1;
     memset((void *)dataMean, 0, sizeof(double) /*8ul*/  * dimension);
     dim = (unsigned long long int)0;
     for( ; !(dim >= dimension); dim = dim + 1ull)
@@ -4621,9 +4621,9 @@ static void _vl_gmm_compute_init_sigma_f(struct _VlGMM *self, const float *data,
   memset((void *)initSigma, 0, sizeof(float) /*4ul*/  * dimension);
   if(numData >= 2ul)
   {
-    void *return_value_vl_malloc$1;
-    return_value_vl_malloc$1=vl_malloc(sizeof(float) /*4ul*/  * dimension);
-    dataMean = (float *)return_value_vl_malloc$1;
+    void *return_value_vl_malloc_1;
+    return_value_vl_malloc_1=vl_malloc(sizeof(float) /*4ul*/  * dimension);
+    dataMean = (float *)return_value_vl_malloc_1;
     memset((void *)dataMean, 0, sizeof(float) /*4ul*/  * dimension);
     dim = (unsigned long long int)0;
     for( ; !(dim >= dimension); dim = dim + 1ull)
@@ -4666,49 +4666,49 @@ static double _vl_gmm_em_d(struct _VlGMM *self, const double *data, unsigned lon
     double eps;
     if(self->verbosity >= 2)
     {
-      signed int (*return_value_vl_get_printf_func$1)(const char *, ...);
-      return_value_vl_get_printf_func$1=vl_get_printf_func();
-      return_value_vl_get_printf_func$1("gmm: em: entering expectation step\n");
+      signed int (*return_value_vl_get_printf_func_1)(const char *, ...);
+      return_value_vl_get_printf_func_1=vl_get_printf_func();
+      return_value_vl_get_printf_func_1("gmm: em: entering expectation step\n");
       time=vl_get_cpu_time();
     }
 
     LL=vl_get_gmm_data_posteriors_d((double *)self->posteriors, self->numClusters, numData, (const double *)self->priors, (const double *)self->means, self->dimension, (const double *)self->covariances, data);
     if(self->verbosity >= 2)
     {
-      signed int (*return_value_vl_get_printf_func$2)(const char *, ...);
-      return_value_vl_get_printf_func$2=vl_get_printf_func();
-      double return_value_vl_get_cpu_time$3;
-      return_value_vl_get_cpu_time$3=vl_get_cpu_time();
-      return_value_vl_get_printf_func$2("gmm: em: expectation step completed in %.2f s\n", return_value_vl_get_cpu_time$3 - time);
+      signed int (*return_value_vl_get_printf_func_2)(const char *, ...);
+      return_value_vl_get_printf_func_2=vl_get_printf_func();
+      double return_value_vl_get_cpu_time_3;
+      return_value_vl_get_cpu_time_3=vl_get_cpu_time();
+      return_value_vl_get_printf_func_2("gmm: em: expectation step completed in %.2f s\n", return_value_vl_get_cpu_time_3 - time);
     }
 
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$4)(const char *, ...);
-      return_value_vl_get_printf_func$4=vl_get_printf_func();
-      return_value_vl_get_printf_func$4("gmm: em: iteration %d: loglikelihood = %f (variation = %f)\n", iteration, LL, LL - previousLL);
+      signed int (*return_value_vl_get_printf_func_4)(const char *, ...);
+      return_value_vl_get_printf_func_4=vl_get_printf_func();
+      return_value_vl_get_printf_func_4("gmm: em: iteration %d: loglikelihood = %f (variation = %f)\n", iteration, LL, LL - previousLL);
     }
 
     if(iteration >= self->maxNumIterations)
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$5)(const char *, ...);
-        return_value_vl_get_printf_func$5=vl_get_printf_func();
-        return_value_vl_get_printf_func$5("gmm: em: terminating because the maximum number of iterations (%d) has been reached.\n", self->maxNumIterations);
+        signed int (*return_value_vl_get_printf_func_5)(const char *, ...);
+        return_value_vl_get_printf_func_5=vl_get_printf_func();
+        return_value_vl_get_printf_func_5("gmm: em: terminating because the maximum number of iterations (%d) has been reached.\n", self->maxNumIterations);
       }
 
       break;
     }
 
-    eps=vl_abs_d$link1((LL - previousLL) / LL);
+    eps=vl_abs_d_link1((LL - previousLL) / LL);
     if(eps < 0.00001 && iteration >= 1ul)
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$6)(const char *, ...);
-        return_value_vl_get_printf_func$6=vl_get_printf_func();
-        return_value_vl_get_printf_func$6("gmm: em: terminating because the algorithm fully converged (log-likelihood variation = %f).\n", eps);
+        signed int (*return_value_vl_get_printf_func_6)(const char *, ...);
+        return_value_vl_get_printf_func_6=vl_get_printf_func();
+        return_value_vl_get_printf_func_6("gmm: em: terminating because the algorithm fully converged (log-likelihood variation = %f).\n", eps);
       }
 
       break;
@@ -4720,9 +4720,9 @@ static double _vl_gmm_em_d(struct _VlGMM *self, const double *data, unsigned lon
       restarted=_vl_gmm_restart_empty_modes_d(self, data);
       if(self->verbosity >= 1 && restarted >= 1ul)
       {
-        signed int (*return_value_vl_get_printf_func$7)(const char *, ...);
-        return_value_vl_get_printf_func$7=vl_get_printf_func();
-        return_value_vl_get_printf_func$7("gmm: em: %d Gaussian modes restarted because they had become empty.\n", restarted);
+        signed int (*return_value_vl_get_printf_func_7)(const char *, ...);
+        return_value_vl_get_printf_func_7=vl_get_printf_func();
+        return_value_vl_get_printf_func_7("gmm: em: %d Gaussian modes restarted because they had become empty.\n", restarted);
       }
 
     }
@@ -4749,49 +4749,49 @@ static double _vl_gmm_em_f(struct _VlGMM *self, const float *data, unsigned long
     double eps;
     if(self->verbosity >= 2)
     {
-      signed int (*return_value_vl_get_printf_func$1)(const char *, ...);
-      return_value_vl_get_printf_func$1=vl_get_printf_func();
-      return_value_vl_get_printf_func$1("gmm: em: entering expectation step\n");
+      signed int (*return_value_vl_get_printf_func_1)(const char *, ...);
+      return_value_vl_get_printf_func_1=vl_get_printf_func();
+      return_value_vl_get_printf_func_1("gmm: em: entering expectation step\n");
       time=vl_get_cpu_time();
     }
 
     LL=vl_get_gmm_data_posteriors_f((float *)self->posteriors, self->numClusters, numData, (const float *)self->priors, (const float *)self->means, self->dimension, (const float *)self->covariances, data);
     if(self->verbosity >= 2)
     {
-      signed int (*return_value_vl_get_printf_func$2)(const char *, ...);
-      return_value_vl_get_printf_func$2=vl_get_printf_func();
-      double return_value_vl_get_cpu_time$3;
-      return_value_vl_get_cpu_time$3=vl_get_cpu_time();
-      return_value_vl_get_printf_func$2("gmm: em: expectation step completed in %.2f s\n", return_value_vl_get_cpu_time$3 - time);
+      signed int (*return_value_vl_get_printf_func_2)(const char *, ...);
+      return_value_vl_get_printf_func_2=vl_get_printf_func();
+      double return_value_vl_get_cpu_time_3;
+      return_value_vl_get_cpu_time_3=vl_get_cpu_time();
+      return_value_vl_get_printf_func_2("gmm: em: expectation step completed in %.2f s\n", return_value_vl_get_cpu_time_3 - time);
     }
 
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$4)(const char *, ...);
-      return_value_vl_get_printf_func$4=vl_get_printf_func();
-      return_value_vl_get_printf_func$4("gmm: em: iteration %d: loglikelihood = %f (variation = %f)\n", iteration, LL, LL - previousLL);
+      signed int (*return_value_vl_get_printf_func_4)(const char *, ...);
+      return_value_vl_get_printf_func_4=vl_get_printf_func();
+      return_value_vl_get_printf_func_4("gmm: em: iteration %d: loglikelihood = %f (variation = %f)\n", iteration, LL, LL - previousLL);
     }
 
     if(iteration >= self->maxNumIterations)
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$5)(const char *, ...);
-        return_value_vl_get_printf_func$5=vl_get_printf_func();
-        return_value_vl_get_printf_func$5("gmm: em: terminating because the maximum number of iterations (%d) has been reached.\n", self->maxNumIterations);
+        signed int (*return_value_vl_get_printf_func_5)(const char *, ...);
+        return_value_vl_get_printf_func_5=vl_get_printf_func();
+        return_value_vl_get_printf_func_5("gmm: em: terminating because the maximum number of iterations (%d) has been reached.\n", self->maxNumIterations);
       }
 
       break;
     }
 
-    eps=vl_abs_d$link1((LL - previousLL) / LL);
+    eps=vl_abs_d_link1((LL - previousLL) / LL);
     if(eps < 0.00001 && iteration >= 1ul)
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$6)(const char *, ...);
-        return_value_vl_get_printf_func$6=vl_get_printf_func();
-        return_value_vl_get_printf_func$6("gmm: em: terminating because the algorithm fully converged (log-likelihood variation = %f).\n", eps);
+        signed int (*return_value_vl_get_printf_func_6)(const char *, ...);
+        return_value_vl_get_printf_func_6=vl_get_printf_func();
+        return_value_vl_get_printf_func_6("gmm: em: terminating because the algorithm fully converged (log-likelihood variation = %f).\n", eps);
       }
 
       break;
@@ -4803,9 +4803,9 @@ static double _vl_gmm_em_f(struct _VlGMM *self, const float *data, unsigned long
       restarted=_vl_gmm_restart_empty_modes_f(self, data);
       if(self->verbosity >= 1 && restarted >= 1ul)
       {
-        signed int (*return_value_vl_get_printf_func$7)(const char *, ...);
-        return_value_vl_get_printf_func$7=vl_get_printf_func();
-        return_value_vl_get_printf_func$7("gmm: em: %d Gaussian modes restarted because they had become empty.\n", restarted);
+        signed int (*return_value_vl_get_printf_func_7)(const char *, ...);
+        return_value_vl_get_printf_func_7=vl_get_printf_func();
+        return_value_vl_get_printf_func_7("gmm: em: %d Gaussian modes restarted because they had become empty.\n", restarted);
       }
 
     }
@@ -4821,9 +4821,9 @@ static void _vl_gmm_init_with_kmeans_d(struct _VlGMM *self, const double *data, 
 {
   unsigned long long int i_d;
   unsigned int *assignments;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
-  assignments = (unsigned int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
+  assignments = (unsigned int *)return_value_vl_malloc_1;
   _vl_gmm_prepare_for_data(self, numData);
   memset(self->means, 0, sizeof(double) /*8ul*/  * self->numClusters * self->dimension);
   memset(self->priors, 0, sizeof(double) /*8ul*/  * self->numClusters);
@@ -4868,9 +4868,9 @@ static void _vl_gmm_init_with_kmeans_f(struct _VlGMM *self, const float *data, u
 {
   unsigned long long int i_d;
   unsigned int *assignments;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
-  assignments = (unsigned int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
+  assignments = (unsigned int *)return_value_vl_malloc_1;
   _vl_gmm_prepare_for_data(self, numData);
   memset(self->means, 0, sizeof(float) /*4ul*/  * self->numClusters * self->dimension);
   memset(self->priors, 0, sizeof(float) /*4ul*/  * self->numClusters);
@@ -4931,9 +4931,9 @@ static void _vl_gmm_init_with_rand_data_d(struct _VlGMM *self, const double *dat
   }
   kmeans=vl_kmeans_new(self->dataType, (enum _VlVectorComparisonType)VlDistanceL2);
   vl_kmeans_init_centers_plus_plus(kmeans, (const void *)data, self->dimension, numData, self->numClusters);
-  const void *return_value_vl_kmeans_get_centers$1;
-  return_value_vl_kmeans_get_centers$1=vl_kmeans_get_centers(kmeans);
-  memcpy(self->means, return_value_vl_kmeans_get_centers$1, sizeof(double) /*8ul*/  * self->dimension * self->numClusters);
+  const void *return_value_vl_kmeans_get_centers_1;
+  return_value_vl_kmeans_get_centers_1=vl_kmeans_get_centers(kmeans);
+  memcpy(self->means, return_value_vl_kmeans_get_centers_1, sizeof(double) /*8ul*/  * self->dimension * self->numClusters);
   vl_kmeans_delete(kmeans);
 }
 
@@ -4959,9 +4959,9 @@ static void _vl_gmm_init_with_rand_data_f(struct _VlGMM *self, const float *data
   }
   kmeans=vl_kmeans_new(self->dataType, (enum _VlVectorComparisonType)VlDistanceL2);
   vl_kmeans_init_centers_plus_plus(kmeans, (const void *)data, self->dimension, numData, self->numClusters);
-  const void *return_value_vl_kmeans_get_centers$1;
-  return_value_vl_kmeans_get_centers$1=vl_kmeans_get_centers(kmeans);
-  memcpy(self->means, return_value_vl_kmeans_get_centers$1, sizeof(float) /*4ul*/  * self->dimension * self->numClusters);
+  const void *return_value_vl_kmeans_get_centers_1;
+  return_value_vl_kmeans_get_centers_1=vl_kmeans_get_centers(kmeans);
+  memcpy(self->means, return_value_vl_kmeans_get_centers_1, sizeof(float) /*4ul*/  * self->dimension * self->numClusters);
   vl_kmeans_delete(kmeans);
 }
 
@@ -4977,15 +4977,15 @@ static void _vl_gmm_maximization_d(struct _VlGMM *self, double *posteriors, doub
   double time = (double)0;
   if(self->verbosity >= 2)
   {
-    signed int (*return_value_vl_get_printf_func$1)(const char *, ...);
-    return_value_vl_get_printf_func$1=vl_get_printf_func();
-    return_value_vl_get_printf_func$1("gmm: em: entering maximization step\n");
+    signed int (*return_value_vl_get_printf_func_1)(const char *, ...);
+    return_value_vl_get_printf_func_1=vl_get_printf_func();
+    return_value_vl_get_printf_func_1("gmm: em: entering maximization step\n");
     time=vl_get_cpu_time();
   }
 
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(double) /*8ul*/  * self->dimension * numClusters);
-  oldMeans = (double *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(double) /*8ul*/  * self->dimension * numClusters);
+  oldMeans = (double *)return_value_vl_malloc_2;
   memcpy((void *)oldMeans, (const void *)means, sizeof(double) /*8ul*/  * self->dimension * numClusters);
   memset((void *)priors, 0, sizeof(double) /*8ul*/  * numClusters);
   memset((void *)means, 0, sizeof(double) /*8ul*/  * self->dimension * numClusters);
@@ -4993,15 +4993,15 @@ static void _vl_gmm_maximization_d(struct _VlGMM *self, double *posteriors, doub
   double *clusterPosteriorSum_;
   double *means_;
   double *covariances_;
-  void *return_value_vl_calloc$3;
-  return_value_vl_calloc$3=vl_calloc(sizeof(double) /*8ul*/ , numClusters);
-  clusterPosteriorSum_ = (double *)return_value_vl_calloc$3;
-  void *return_value_vl_calloc$4;
-  return_value_vl_calloc$4=vl_calloc(sizeof(double) /*8ul*/ , self->dimension * numClusters);
-  means_ = (double *)return_value_vl_calloc$4;
-  void *return_value_vl_calloc$5;
-  return_value_vl_calloc$5=vl_calloc(sizeof(double) /*8ul*/ , self->dimension * numClusters);
-  covariances_ = (double *)return_value_vl_calloc$5;
+  void *return_value_vl_calloc_3;
+  return_value_vl_calloc_3=vl_calloc(sizeof(double) /*8ul*/ , numClusters);
+  clusterPosteriorSum_ = (double *)return_value_vl_calloc_3;
+  void *return_value_vl_calloc_4;
+  return_value_vl_calloc_4=vl_calloc(sizeof(double) /*8ul*/ , self->dimension * numClusters);
+  means_ = (double *)return_value_vl_calloc_4;
+  void *return_value_vl_calloc_5;
+  return_value_vl_calloc_5=vl_calloc(sizeof(double) /*8ul*/ , self->dimension * numClusters);
+  covariances_ = (double *)return_value_vl_calloc_5;
   i_d = (signed long long int)0;
   for( ; !(i_d >= (signed long int)(signed int)numData); i_d = i_d + 1ll)
   {
@@ -5020,9 +5020,9 @@ static void _vl_gmm_maximization_d(struct _VlGMM *self, double *posteriors, doub
           {
             double x = data[(signed long int)((unsigned long int)i_d * self->dimension + dim)];
             double mu = oldMeans[(signed long int)((unsigned long int)i_cl * self->dimension + dim)];
-            double _vl_gmm_maximization_d$$1$$2$$2$$1$$1$$1$$2$$1$$1$$diff = x - mu;
+            double _vl_gmm_maximization_d__1__2__2__1__1__1__2__1__1__diff = x - mu;
             means_[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] = means_[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] + p * x;
-            covariances_[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] = covariances_[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] + p * _vl_gmm_maximization_d$$1$$2$$2$$1$$1$$1$$2$$1$$1$$diff * _vl_gmm_maximization_d$$1$$2$$2$$1$$1$$1$$2$$1$$1$$diff;
+            covariances_[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] = covariances_[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] + p * _vl_gmm_maximization_d__1__2__2__1__1__1__2__1__1__diff * _vl_gmm_maximization_d__1__2__2__1__1__1__2__1__1__diff;
           }
         }
 
@@ -5062,15 +5062,15 @@ static void _vl_gmm_maximization_d(struct _VlGMM *self, double *posteriors, doub
   i_cl = (signed long long int)0;
   for( ; !(i_cl >= (signed long int)(signed int)numClusters); i_cl = i_cl + 1ll)
   {
-    double _vl_gmm_maximization_d$$1$$4$$1$$mass = priors[i_cl];
-    if(_vl_gmm_maximization_d$$1$$4$$1$$mass >= 1e-6 / (double)numClusters)
+    double _vl_gmm_maximization_d__1__4__1__mass = priors[i_cl];
+    if(_vl_gmm_maximization_d__1__4__1__mass >= 1e-6 / (double)numClusters)
     {
       dim = (unsigned long long int)0;
       for( ; !(dim >= self->dimension); dim = dim + 1ull)
       {
-        double _vl_gmm_maximization_d$$1$$4$$1$$1$$1$$1$$mu = means[(signed long int)((unsigned long int)i_cl * self->dimension + dim)];
+        double _vl_gmm_maximization_d__1__4__1__1__1__1__mu = means[(signed long int)((unsigned long int)i_cl * self->dimension + dim)];
         double oldMu = oldMeans[(signed long int)((unsigned long int)i_cl * self->dimension + dim)];
-        double diff = _vl_gmm_maximization_d$$1$$4$$1$$1$$1$$1$$mu - oldMu;
+        double diff = _vl_gmm_maximization_d__1__4__1__1__1__1__mu - oldMu;
         covariances[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] = covariances[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] - diff * diff;
       }
     }
@@ -5087,11 +5087,11 @@ static void _vl_gmm_maximization_d(struct _VlGMM *self, double *posteriors, doub
     priors[i_cl] = priors[i_cl] / sum;
   if(self->verbosity >= 2)
   {
-    signed int (*return_value_vl_get_printf_func$6)(const char *, ...);
-    return_value_vl_get_printf_func$6=vl_get_printf_func();
-    double return_value_vl_get_cpu_time$7;
-    return_value_vl_get_cpu_time$7=vl_get_cpu_time();
-    return_value_vl_get_printf_func$6("gmm: em: maximization step completed in %.2f s\n", return_value_vl_get_cpu_time$7 - time);
+    signed int (*return_value_vl_get_printf_func_6)(const char *, ...);
+    return_value_vl_get_printf_func_6=vl_get_printf_func();
+    double return_value_vl_get_cpu_time_7;
+    return_value_vl_get_cpu_time_7=vl_get_cpu_time();
+    return_value_vl_get_printf_func_6("gmm: em: maximization step completed in %.2f s\n", return_value_vl_get_cpu_time_7 - time);
   }
 
   vl_free((void *)oldMeans);
@@ -5109,15 +5109,15 @@ static void _vl_gmm_maximization_f(struct _VlGMM *self, float *posteriors, float
   double time = (double)0;
   if(self->verbosity >= 2)
   {
-    signed int (*return_value_vl_get_printf_func$1)(const char *, ...);
-    return_value_vl_get_printf_func$1=vl_get_printf_func();
-    return_value_vl_get_printf_func$1("gmm: em: entering maximization step\n");
+    signed int (*return_value_vl_get_printf_func_1)(const char *, ...);
+    return_value_vl_get_printf_func_1=vl_get_printf_func();
+    return_value_vl_get_printf_func_1("gmm: em: entering maximization step\n");
     time=vl_get_cpu_time();
   }
 
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(float) /*4ul*/  * self->dimension * numClusters);
-  oldMeans = (float *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(float) /*4ul*/  * self->dimension * numClusters);
+  oldMeans = (float *)return_value_vl_malloc_2;
   memcpy((void *)oldMeans, (const void *)means, sizeof(float) /*4ul*/  * self->dimension * numClusters);
   memset((void *)priors, 0, sizeof(float) /*4ul*/  * numClusters);
   memset((void *)means, 0, sizeof(float) /*4ul*/  * self->dimension * numClusters);
@@ -5125,15 +5125,15 @@ static void _vl_gmm_maximization_f(struct _VlGMM *self, float *posteriors, float
   float *clusterPosteriorSum_;
   float *means_;
   float *covariances_;
-  void *return_value_vl_calloc$3;
-  return_value_vl_calloc$3=vl_calloc(sizeof(float) /*4ul*/ , numClusters);
-  clusterPosteriorSum_ = (float *)return_value_vl_calloc$3;
-  void *return_value_vl_calloc$4;
-  return_value_vl_calloc$4=vl_calloc(sizeof(float) /*4ul*/ , self->dimension * numClusters);
-  means_ = (float *)return_value_vl_calloc$4;
-  void *return_value_vl_calloc$5;
-  return_value_vl_calloc$5=vl_calloc(sizeof(float) /*4ul*/ , self->dimension * numClusters);
-  covariances_ = (float *)return_value_vl_calloc$5;
+  void *return_value_vl_calloc_3;
+  return_value_vl_calloc_3=vl_calloc(sizeof(float) /*4ul*/ , numClusters);
+  clusterPosteriorSum_ = (float *)return_value_vl_calloc_3;
+  void *return_value_vl_calloc_4;
+  return_value_vl_calloc_4=vl_calloc(sizeof(float) /*4ul*/ , self->dimension * numClusters);
+  means_ = (float *)return_value_vl_calloc_4;
+  void *return_value_vl_calloc_5;
+  return_value_vl_calloc_5=vl_calloc(sizeof(float) /*4ul*/ , self->dimension * numClusters);
+  covariances_ = (float *)return_value_vl_calloc_5;
   i_d = (signed long long int)0;
   for( ; !(i_d >= (signed long int)(signed int)numData); i_d = i_d + 1ll)
   {
@@ -5194,16 +5194,16 @@ static void _vl_gmm_maximization_f(struct _VlGMM *self, float *posteriors, float
   i_cl = (signed long long int)0;
   for( ; !(i_cl >= (signed long int)(signed int)numClusters); i_cl = i_cl + 1ll)
   {
-    float _vl_gmm_maximization_f$$1$$4$$1$$mass = priors[i_cl];
-    if((double)_vl_gmm_maximization_f$$1$$4$$1$$mass >= 1e-6 / (double)numClusters)
+    float _vl_gmm_maximization_f__1__4__1__mass = priors[i_cl];
+    if((double)_vl_gmm_maximization_f__1__4__1__mass >= 1e-6 / (double)numClusters)
     {
       dim = (unsigned long long int)0;
       for( ; !(dim >= self->dimension); dim = dim + 1ull)
       {
-        float _vl_gmm_maximization_f$$1$$4$$1$$1$$1$$1$$mu = means[(signed long int)((unsigned long int)i_cl * self->dimension + dim)];
+        float _vl_gmm_maximization_f__1__4__1__1__1__1__mu = means[(signed long int)((unsigned long int)i_cl * self->dimension + dim)];
         float oldMu = oldMeans[(signed long int)((unsigned long int)i_cl * self->dimension + dim)];
-        float _vl_gmm_maximization_f$$1$$4$$1$$1$$1$$1$$diff = _vl_gmm_maximization_f$$1$$4$$1$$1$$1$$1$$mu - oldMu;
-        covariances[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] = covariances[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] - _vl_gmm_maximization_f$$1$$4$$1$$1$$1$$1$$diff * _vl_gmm_maximization_f$$1$$4$$1$$1$$1$$1$$diff;
+        float _vl_gmm_maximization_f__1__4__1__1__1__1__diff = _vl_gmm_maximization_f__1__4__1__1__1__1__mu - oldMu;
+        covariances[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] = covariances[(signed long int)((unsigned long int)i_cl * self->dimension + dim)] - _vl_gmm_maximization_f__1__4__1__1__1__1__diff * _vl_gmm_maximization_f__1__4__1__1__1__1__diff;
       }
     }
 
@@ -5219,11 +5219,11 @@ static void _vl_gmm_maximization_f(struct _VlGMM *self, float *posteriors, float
     priors[i_cl] = priors[i_cl] / sum;
   if(self->verbosity >= 2)
   {
-    signed int (*return_value_vl_get_printf_func$6)(const char *, ...);
-    return_value_vl_get_printf_func$6=vl_get_printf_func();
-    double return_value_vl_get_cpu_time$7;
-    return_value_vl_get_cpu_time$7=vl_get_cpu_time();
-    return_value_vl_get_printf_func$6("gmm: em: maximization step completed in %.2f s\n", return_value_vl_get_cpu_time$7 - time);
+    signed int (*return_value_vl_get_printf_func_6)(const char *, ...);
+    return_value_vl_get_printf_func_6=vl_get_printf_func();
+    double return_value_vl_get_cpu_time_7;
+    return_value_vl_get_cpu_time_7=vl_get_cpu_time();
+    return_value_vl_get_printf_func_6("gmm: em: maximization step completed in %.2f s\n", return_value_vl_get_cpu_time_7 - time);
   }
 
   vl_free((void *)oldMeans);
@@ -5236,9 +5236,9 @@ static void _vl_gmm_prepare_for_data(struct _VlGMM *self, unsigned long long int
   if(!(self->numData >= numData))
   {
     vl_free(self->posteriors);
-    unsigned long long int return_value_vl_get_type_size$1;
-    return_value_vl_get_type_size$1=vl_get_type_size$link1(self->dataType);
-    self->posteriors=vl_malloc(return_value_vl_get_type_size$1 * numData * self->numClusters);
+    unsigned long long int return_value_vl_get_type_size_1;
+    return_value_vl_get_type_size_1=vl_get_type_size_link1(self->dataType);
+    self->posteriors=vl_malloc(return_value_vl_get_type_size_1 * numData * self->numClusters);
   }
 
   self->numData = numData;
@@ -5260,10 +5260,10 @@ static unsigned long long int _vl_gmm_restart_empty_modes_d(struct _VlGMM *self,
   double *covariances = (double *)self->covariances;
   double *posteriors = (double *)self->posteriors;
   double *mass;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(sizeof(double) /*8ul*/ , self->numClusters);
-  mass = (double *)return_value_vl_calloc$1;
-  double tmp_if_expr$3;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(sizeof(double) /*8ul*/ , self->numClusters);
+  mass = (double *)return_value_vl_calloc_1;
+  double tmp_if_expr_3;
   if(!(numClusters >= 2ul))
     return (unsigned long long int)0;
 
@@ -5287,9 +5287,9 @@ static unsigned long long int _vl_gmm_restart_empty_modes_d(struct _VlGMM *self,
     }
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$2)(const char *, ...);
-      return_value_vl_get_printf_func$2=vl_get_printf_func();
-      return_value_vl_get_printf_func$2("gmm: sparsity of data posterior: %.1f%%\n", ((double)numNullAssignments / (double)(self->numData * self->numClusters)) * (double)100);
+      signed int (*return_value_vl_get_printf_func_2)(const char *, ...);
+      return_value_vl_get_printf_func_2=vl_get_printf_func();
+      return_value_vl_get_printf_func_2("gmm: sparsity of data posterior: %.1f%%\n", ((double)numNullAssignments / (double)(self->numData * self->numClusters)) * (double)100);
     }
 
     i_cl = (signed long long int)0;
@@ -5298,17 +5298,17 @@ static unsigned long long int _vl_gmm_restart_empty_modes_d(struct _VlGMM *self,
       double size = -vl_infinity_d.value;
       signed long long int best = (signed long long int)-1;
       if((double)self->numData / (double)self->numClusters < 1.0)
-        tmp_if_expr$3 = 1.0;
+        tmp_if_expr_3 = 1.0;
 
       else
-        tmp_if_expr$3 = (double)self->numData / (double)self->numClusters;
-      if(!(mass[i_cl] >= 1e-2 * tmp_if_expr$3))
+        tmp_if_expr_3 = (double)self->numData / (double)self->numClusters;
+      if(!(mass[i_cl] >= 1e-2 * tmp_if_expr_3))
       {
         if(!(self->verbosity == 0))
         {
-          signed int (*return_value_vl_get_printf_func$4)(const char *, ...);
-          return_value_vl_get_printf_func$4=vl_get_printf_func();
-          return_value_vl_get_printf_func$4("gmm: mode %d is nearly empty (mass %f)\n", i_cl, mass[i_cl]);
+          signed int (*return_value_vl_get_printf_func_4)(const char *, ...);
+          return_value_vl_get_printf_func_4=vl_get_printf_func();
+          return_value_vl_get_printf_func_4("gmm: mode %d is nearly empty (mass %f)\n", i_cl, mass[i_cl]);
         }
 
         j_cl = (signed long long int)0;
@@ -5317,25 +5317,25 @@ static unsigned long long int _vl_gmm_restart_empty_modes_d(struct _VlGMM *self,
           double size_;
           if(!(priors[j_cl] < 1e-6))
           {
-            double return_value_log$5;
-            return_value_log$5=log((double)2 * 3.141592653589793);
-            size_ = +0.5 * (double)dimension * (1.0 + return_value_log$5);
+            double return_value_log_5;
+            return_value_log_5=log((double)2 * 3.141592653589793);
+            size_ = +0.5 * (double)dimension * (1.0 + return_value_log_5);
             d = (signed long long int)0;
             for( ; !(d >= (signed long int)(signed int)dimension); d = d + 1ll)
             {
               double sigma2 = covariances[(signed long int)((unsigned long int)j_cl * dimension + (unsigned long int)d)];
-              double return_value_log$6;
-              return_value_log$6=log(sigma2);
-              size_ = size_ + 0.5 * return_value_log$6;
+              double return_value_log_6;
+              return_value_log_6=log(sigma2);
+              size_ = size_ + 0.5 * return_value_log_6;
             }
-            double return_value_log$7;
-            return_value_log$7=log(priors[j_cl]);
-            size_ = priors[j_cl] * (size_ - return_value_log$7);
+            double return_value_log_7;
+            return_value_log_7=log(priors[j_cl]);
+            size_ = priors[j_cl] * (size_ - return_value_log_7);
             if(self->verbosity >= 2)
             {
-              signed int (*return_value_vl_get_printf_func$8)(const char *, ...);
-              return_value_vl_get_printf_func$8=vl_get_printf_func();
-              return_value_vl_get_printf_func$8("gmm: mode %d: prior %f, mass %f, entropy contribution %f\n", j_cl, priors[j_cl], mass[j_cl], size_);
+              signed int (*return_value_vl_get_printf_func_8)(const char *, ...);
+              return_value_vl_get_printf_func_8=vl_get_printf_func();
+              return_value_vl_get_printf_func_8("gmm: mode %d: prior %f, mass %f, entropy contribution %f\n", j_cl, priors[j_cl], mass[j_cl], size_);
             }
 
             if(size_ > size)
@@ -5352,9 +5352,9 @@ static unsigned long long int _vl_gmm_restart_empty_modes_d(struct _VlGMM *self,
         {
           if(!(self->verbosity == 0))
           {
-            signed int (*return_value_vl_get_printf_func$9)(const char *, ...);
-            return_value_vl_get_printf_func$9=vl_get_printf_func();
-            return_value_vl_get_printf_func$9("gmm: mode %d is empty, but no other mode to split could be found\n", i_cl);
+            signed int (*return_value_vl_get_printf_func_9)(const char *, ...);
+            return_value_vl_get_printf_func_9=vl_get_printf_func();
+            return_value_vl_get_printf_func_9("gmm: mode %d is empty, but no other mode to split could be found\n", i_cl);
           }
 
         }
@@ -5363,9 +5363,9 @@ static unsigned long long int _vl_gmm_restart_empty_modes_d(struct _VlGMM *self,
         {
           if(!(self->verbosity == 0))
           {
-            signed int (*return_value_vl_get_printf_func$10)(const char *, ...);
-            return_value_vl_get_printf_func$10=vl_get_printf_func();
-            return_value_vl_get_printf_func$10("gmm: reinitializing empty mode %d with mode %d (prior %f, mass %f, score %f)\n", i_cl, j_cl, priors[j_cl], mass[j_cl], size);
+            signed int (*return_value_vl_get_printf_func_10)(const char *, ...);
+            return_value_vl_get_printf_func_10=vl_get_printf_func();
+            return_value_vl_get_printf_func_10("gmm: reinitializing empty mode %d with mode %d (prior %f, mass %f, score %f)\n", i_cl, j_cl, priors[j_cl], mass[j_cl], size);
           }
 
           size = -vl_infinity_d.value;
@@ -5373,10 +5373,10 @@ static unsigned long long int _vl_gmm_restart_empty_modes_d(struct _VlGMM *self,
           d = (signed long long int)0;
           for( ; !(d >= (signed long int)(signed int)dimension); d = d + 1ll)
           {
-            double _vl_gmm_restart_empty_modes_d$$1$$3$$1$$6$$1$$sigma2 = covariances[(signed long int)((unsigned long int)j_cl * dimension + (unsigned long int)d)];
-            if(_vl_gmm_restart_empty_modes_d$$1$$3$$1$$6$$1$$sigma2 > size)
+            double _vl_gmm_restart_empty_modes_d__1__3__1__6__1__sigma2 = covariances[(signed long int)((unsigned long int)j_cl * dimension + (unsigned long int)d)];
+            if(_vl_gmm_restart_empty_modes_d__1__3__1__6__1__sigma2 > size)
             {
-              size = _vl_gmm_restart_empty_modes_d$$1$$3$$1$$6$$1$$sigma2;
+              size = _vl_gmm_restart_empty_modes_d__1__3__1__6__1__sigma2;
               best = d;
             }
 
@@ -5385,18 +5385,18 @@ static unsigned long long int _vl_gmm_restart_empty_modes_d(struct _VlGMM *self,
           i_d = (signed long long int)0;
           for( ; !(i_d >= (signed long int)(signed int)self->numData); i_d = i_d + 1ll)
           {
-            double _vl_gmm_restart_empty_modes_d$$1$$3$$1$$7$$1$$1$$p = posteriors[(signed long int)((unsigned long int)j_cl + self->numClusters * (unsigned long int)i_d)];
+            double _vl_gmm_restart_empty_modes_d__1__3__1__7__1__1__p = posteriors[(signed long int)((unsigned long int)j_cl + self->numClusters * (unsigned long int)i_d)];
             double q = posteriors[(signed long int)((unsigned long int)i_cl + self->numClusters * (unsigned long int)i_d)];
             if(data[(signed long int)self->dimension * (signed long int)(unsigned long int)i_d + (signed long int)(unsigned long int)best] < mu)
             {
-              posteriors[(signed long int)((unsigned long int)i_cl + self->numClusters * (unsigned long int)i_d)] = _vl_gmm_restart_empty_modes_d$$1$$3$$1$$7$$1$$1$$p + q;
+              posteriors[(signed long int)((unsigned long int)i_cl + self->numClusters * (unsigned long int)i_d)] = _vl_gmm_restart_empty_modes_d__1__3__1__7__1__1__p + q;
               posteriors[(signed long int)((unsigned long int)j_cl + self->numClusters * (unsigned long int)i_d)] = (double)0;
             }
 
             else
             {
               posteriors[(signed long int)((unsigned long int)i_cl + self->numClusters * (unsigned long int)i_d)] = (double)0;
-              posteriors[(signed long int)((unsigned long int)j_cl + self->numClusters * (unsigned long int)i_d)] = _vl_gmm_restart_empty_modes_d$$1$$3$$1$$7$$1$$1$$p + q;
+              posteriors[(signed long int)((unsigned long int)j_cl + self->numClusters * (unsigned long int)i_d)] = _vl_gmm_restart_empty_modes_d__1__3__1__7__1__1__p + q;
             }
           }
           _vl_gmm_maximization_d(self, posteriors, priors, covariances, means, data, self->numData);
@@ -5424,10 +5424,10 @@ static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self,
   float *covariances = (float *)self->covariances;
   float *posteriors = (float *)self->posteriors;
   float *mass;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(sizeof(float) /*4ul*/ , self->numClusters);
-  mass = (float *)return_value_vl_calloc$1;
-  double tmp_if_expr$3;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(sizeof(float) /*4ul*/ , self->numClusters);
+  mass = (float *)return_value_vl_calloc_1;
+  double tmp_if_expr_3;
   if(!(numClusters >= 2ul))
     return (unsigned long long int)0;
 
@@ -5451,9 +5451,9 @@ static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self,
     }
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$2)(const char *, ...);
-      return_value_vl_get_printf_func$2=vl_get_printf_func();
-      return_value_vl_get_printf_func$2("gmm: sparsity of data posterior: %.1f%%\n", ((double)numNullAssignments / (double)(self->numData * self->numClusters)) * (double)100);
+      signed int (*return_value_vl_get_printf_func_2)(const char *, ...);
+      return_value_vl_get_printf_func_2=vl_get_printf_func();
+      return_value_vl_get_printf_func_2("gmm: sparsity of data posterior: %.1f%%\n", ((double)numNullAssignments / (double)(self->numData * self->numClusters)) * (double)100);
     }
 
     i_cl = (signed long long int)0;
@@ -5462,17 +5462,17 @@ static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self,
       double size = -vl_infinity_d.value;
       signed long long int best = (signed long long int)-1;
       if((double)self->numData / (double)self->numClusters < 1.0)
-        tmp_if_expr$3 = 1.0;
+        tmp_if_expr_3 = 1.0;
 
       else
-        tmp_if_expr$3 = (double)self->numData / (double)self->numClusters;
-      if(!((double)mass[i_cl] >= 1e-2 * tmp_if_expr$3))
+        tmp_if_expr_3 = (double)self->numData / (double)self->numClusters;
+      if(!((double)mass[i_cl] >= 1e-2 * tmp_if_expr_3))
       {
         if(!(self->verbosity == 0))
         {
-          signed int (*return_value_vl_get_printf_func$4)(const char *, ...);
-          return_value_vl_get_printf_func$4=vl_get_printf_func();
-          return_value_vl_get_printf_func$4("gmm: mode %d is nearly empty (mass %f)\n", i_cl, mass[i_cl]);
+          signed int (*return_value_vl_get_printf_func_4)(const char *, ...);
+          return_value_vl_get_printf_func_4=vl_get_printf_func();
+          return_value_vl_get_printf_func_4("gmm: mode %d is nearly empty (mass %f)\n", i_cl, mass[i_cl]);
         }
 
         j_cl = (signed long long int)0;
@@ -5481,25 +5481,25 @@ static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self,
           double size_;
           if(!((double)priors[j_cl] < 1e-6))
           {
-            double return_value_log$5;
-            return_value_log$5=log((double)2 * 3.141592653589793);
-            size_ = +0.5 * (double)dimension * (1.0 + return_value_log$5);
+            double return_value_log_5;
+            return_value_log_5=log((double)2 * 3.141592653589793);
+            size_ = +0.5 * (double)dimension * (1.0 + return_value_log_5);
             d = (signed long long int)0;
             for( ; !(d >= (signed long int)(signed int)dimension); d = d + 1ll)
             {
               double sigma2 = (double)covariances[(signed long int)((unsigned long int)j_cl * dimension + (unsigned long int)d)];
-              double return_value_log$6;
-              return_value_log$6=log(sigma2);
-              size_ = size_ + 0.5 * return_value_log$6;
+              double return_value_log_6;
+              return_value_log_6=log(sigma2);
+              size_ = size_ + 0.5 * return_value_log_6;
             }
-            double return_value_log$7;
-            return_value_log$7=log((double)priors[j_cl]);
-            size_ = (double)priors[j_cl] * (size_ - return_value_log$7);
+            double return_value_log_7;
+            return_value_log_7=log((double)priors[j_cl]);
+            size_ = (double)priors[j_cl] * (size_ - return_value_log_7);
             if(self->verbosity >= 2)
             {
-              signed int (*return_value_vl_get_printf_func$8)(const char *, ...);
-              return_value_vl_get_printf_func$8=vl_get_printf_func();
-              return_value_vl_get_printf_func$8("gmm: mode %d: prior %f, mass %f, entropy contribution %f\n", j_cl, priors[j_cl], mass[j_cl], size_);
+              signed int (*return_value_vl_get_printf_func_8)(const char *, ...);
+              return_value_vl_get_printf_func_8=vl_get_printf_func();
+              return_value_vl_get_printf_func_8("gmm: mode %d: prior %f, mass %f, entropy contribution %f\n", j_cl, priors[j_cl], mass[j_cl], size_);
             }
 
             if(size_ > size)
@@ -5516,9 +5516,9 @@ static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self,
         {
           if(!(self->verbosity == 0))
           {
-            signed int (*return_value_vl_get_printf_func$9)(const char *, ...);
-            return_value_vl_get_printf_func$9=vl_get_printf_func();
-            return_value_vl_get_printf_func$9("gmm: mode %d is empty, but no other mode to split could be found\n", i_cl);
+            signed int (*return_value_vl_get_printf_func_9)(const char *, ...);
+            return_value_vl_get_printf_func_9=vl_get_printf_func();
+            return_value_vl_get_printf_func_9("gmm: mode %d is empty, but no other mode to split could be found\n", i_cl);
           }
 
         }
@@ -5527,9 +5527,9 @@ static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self,
         {
           if(!(self->verbosity == 0))
           {
-            signed int (*return_value_vl_get_printf_func$10)(const char *, ...);
-            return_value_vl_get_printf_func$10=vl_get_printf_func();
-            return_value_vl_get_printf_func$10("gmm: reinitializing empty mode %d with mode %d (prior %f, mass %f, score %f)\n", i_cl, j_cl, priors[j_cl], mass[j_cl], size);
+            signed int (*return_value_vl_get_printf_func_10)(const char *, ...);
+            return_value_vl_get_printf_func_10=vl_get_printf_func();
+            return_value_vl_get_printf_func_10("gmm: reinitializing empty mode %d with mode %d (prior %f, mass %f, score %f)\n", i_cl, j_cl, priors[j_cl], mass[j_cl], size);
           }
 
           size = -vl_infinity_d.value;
@@ -5537,10 +5537,10 @@ static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self,
           d = (signed long long int)0;
           for( ; !(d >= (signed long int)(signed int)dimension); d = d + 1ll)
           {
-            double _vl_gmm_restart_empty_modes_f$$1$$3$$1$$6$$1$$sigma2 = (double)covariances[(signed long int)((unsigned long int)j_cl * dimension + (unsigned long int)d)];
-            if(_vl_gmm_restart_empty_modes_f$$1$$3$$1$$6$$1$$sigma2 > size)
+            double _vl_gmm_restart_empty_modes_f__1__3__1__6__1__sigma2 = (double)covariances[(signed long int)((unsigned long int)j_cl * dimension + (unsigned long int)d)];
+            if(_vl_gmm_restart_empty_modes_f__1__3__1__6__1__sigma2 > size)
             {
-              size = _vl_gmm_restart_empty_modes_f$$1$$3$$1$$6$$1$$sigma2;
+              size = _vl_gmm_restart_empty_modes_f__1__3__1__6__1__sigma2;
               best = d;
             }
 
@@ -5549,18 +5549,18 @@ static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self,
           i_d = (signed long long int)0;
           for( ; !(i_d >= (signed long int)(signed int)self->numData); i_d = i_d + 1ll)
           {
-            float _vl_gmm_restart_empty_modes_f$$1$$3$$1$$7$$1$$1$$p = posteriors[(signed long int)((unsigned long int)j_cl + self->numClusters * (unsigned long int)i_d)];
+            float _vl_gmm_restart_empty_modes_f__1__3__1__7__1__1__p = posteriors[(signed long int)((unsigned long int)j_cl + self->numClusters * (unsigned long int)i_d)];
             float q = posteriors[(signed long int)((unsigned long int)i_cl + self->numClusters * (unsigned long int)i_d)];
             if(data[(signed long int)self->dimension * (signed long int)(unsigned long int)i_d + (signed long int)(unsigned long int)best] < mu)
             {
-              posteriors[(signed long int)((unsigned long int)i_cl + self->numClusters * (unsigned long int)i_d)] = _vl_gmm_restart_empty_modes_f$$1$$3$$1$$7$$1$$1$$p + q;
+              posteriors[(signed long int)((unsigned long int)i_cl + self->numClusters * (unsigned long int)i_d)] = _vl_gmm_restart_empty_modes_f__1__3__1__7__1__1__p + q;
               posteriors[(signed long int)((unsigned long int)j_cl + self->numClusters * (unsigned long int)i_d)] = (float)0;
             }
 
             else
             {
               posteriors[(signed long int)((unsigned long int)i_cl + self->numClusters * (unsigned long int)i_d)] = (float)0;
-              posteriors[(signed long int)((unsigned long int)j_cl + self->numClusters * (unsigned long int)i_d)] = _vl_gmm_restart_empty_modes_f$$1$$3$$1$$7$$1$$1$$p + q;
+              posteriors[(signed long int)((unsigned long int)j_cl + self->numClusters * (unsigned long int)i_d)] = _vl_gmm_restart_empty_modes_f__1__3__1__7__1__1__p + q;
             }
           }
           _vl_gmm_maximization_f(self, posteriors, priors, covariances, means, data, self->numData);
@@ -5577,22 +5577,22 @@ static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self,
 static void _vl_harris_response(float *harris, const float *image, unsigned long long int width, unsigned long long int height, double step, double sigma, double sigmaI, double alpha)
 {
   float factor;
-  double return_value_pow$1;
-  return_value_pow$1=pow(sigma / step, 4.0);
-  factor = (float)return_value_pow$1;
+  double return_value_pow_1;
+  return_value_pow_1=pow(sigma / step, 4.0);
+  factor = (float)return_value_pow_1;
   signed long long int k;
   float *LxLx;
   float *LyLy;
   float *LxLy;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(float) /*4ul*/  * width * height);
-  LxLx = (float *)return_value_vl_malloc$2;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(float) /*4ul*/  * width * height);
-  LyLy = (float *)return_value_vl_malloc$3;
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(float) /*4ul*/  * width * height);
-  LxLy = (float *)return_value_vl_malloc$4;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(float) /*4ul*/  * width * height);
+  LxLx = (float *)return_value_vl_malloc_2;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(float) /*4ul*/  * width * height);
+  LyLy = (float *)return_value_vl_malloc_3;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(float) /*4ul*/  * width * height);
+  LxLy = (float *)return_value_vl_malloc_4;
   vl_imgradient_f(LxLx, LyLy, (unsigned long long int)1, width, image, width, height, width);
   k = (signed long long int)0;
   for( ; !(k >= (signed long int)((signed int)height * (signed int)width)); k = k + 1ll)
@@ -5627,18 +5627,18 @@ extern double _vl_kernel_chi2_d(unsigned long long int dimension, const double *
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
   while(!(X >= X_end))
   {
     double a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     double b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
+    b = *tmp_post_2;
     double denom = a + b;
     if(IEEE_FLOAT_NOTEQUAL(denom, 0.000000))
     {
@@ -5657,18 +5657,18 @@ extern float _vl_kernel_chi2_f(unsigned long long int dimension, const float *X,
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
   while(!(X >= X_end))
   {
     float a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     float b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
+    b = *tmp_post_2;
     float denom = a + b;
     if(IEEE_FLOAT_NOTEQUAL(denom, 0.000000f))
     {
@@ -5687,21 +5687,21 @@ extern double _vl_kernel_hellinger_d(unsigned long long int dimension, const dou
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
   while(!(X >= X_end))
   {
     double a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     double b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
-    double return_value_sqrt$3;
-    return_value_sqrt$3=sqrt(a * b);
-    acc = acc + return_value_sqrt$3;
+    b = *tmp_post_2;
+    double return_value_sqrt_3;
+    return_value_sqrt_3=sqrt(a * b);
+    acc = acc + return_value_sqrt_3;
   }
   return acc;
 }
@@ -5712,21 +5712,21 @@ extern float _vl_kernel_hellinger_f(unsigned long long int dimension, const floa
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
   while(!(X >= X_end))
   {
     float a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     float b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
-    float return_value_sqrtf$3;
-    return_value_sqrtf$3=sqrtf(a * b);
-    acc = acc + return_value_sqrtf$3;
+    b = *tmp_post_2;
+    float return_value_sqrtf_3;
+    return_value_sqrtf_3=sqrtf(a * b);
+    acc = acc + return_value_sqrtf_3;
   }
   return acc;
 }
@@ -5737,30 +5737,30 @@ extern double _vl_kernel_js_d(unsigned long long int dimension, const double *X,
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
-  double return_value_vl_log2_d$3;
-  double return_value_vl_log2_d$4;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
+  double return_value_vl_log2_d_3;
+  double return_value_vl_log2_d_4;
   while(!(X >= X_end))
   {
     double x;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    x = *tmp_post$1;
+    x = *tmp_post_1;
     double y;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    y = *tmp_post$2;
+    y = *tmp_post_2;
     if(IEEE_FLOAT_NOTEQUAL(x, 0.000000))
     {
-      return_value_vl_log2_d$3=vl_log2_d((double)1 + y / x);
-      acc = acc + x * return_value_vl_log2_d$3;
+      return_value_vl_log2_d_3=vl_log2_d((double)1 + y / x);
+      acc = acc + x * return_value_vl_log2_d_3;
     }
 
     if(IEEE_FLOAT_NOTEQUAL(y, 0.000000))
     {
-      return_value_vl_log2_d$4=vl_log2_d((double)1 + x / y);
-      acc = acc + y * return_value_vl_log2_d$4;
+      return_value_vl_log2_d_4=vl_log2_d((double)1 + x / y);
+      acc = acc + y * return_value_vl_log2_d_4;
     }
 
   }
@@ -5773,30 +5773,30 @@ extern float _vl_kernel_js_f(unsigned long long int dimension, const float *X, c
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
-  float return_value_vl_log2_f$3;
-  float return_value_vl_log2_f$4;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
+  float return_value_vl_log2_f_3;
+  float return_value_vl_log2_f_4;
   while(!(X >= X_end))
   {
     float x;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    x = *tmp_post$1;
+    x = *tmp_post_1;
     float y;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    y = *tmp_post$2;
+    y = *tmp_post_2;
     if(IEEE_FLOAT_NOTEQUAL(x, 0.000000f))
     {
-      return_value_vl_log2_f$3=vl_log2_f((float)1 + y / x);
-      acc = acc + x * return_value_vl_log2_f$3;
+      return_value_vl_log2_f_3=vl_log2_f((float)1 + y / x);
+      acc = acc + x * return_value_vl_log2_f_3;
     }
 
     if(IEEE_FLOAT_NOTEQUAL(y, 0.000000f))
     {
-      return_value_vl_log2_f$4=vl_log2_f((float)1 + x / y);
-      acc = acc + y * return_value_vl_log2_f$4;
+      return_value_vl_log2_f_4=vl_log2_f((float)1 + x / y);
+      acc = acc + y * return_value_vl_log2_f_4;
     }
 
   }
@@ -5809,25 +5809,25 @@ extern double _vl_kernel_l1_d(unsigned long long int dimension, const double *X,
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
   while(!(X >= X_end))
   {
     double a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     double b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
+    b = *tmp_post_2;
     double a_;
     a_=vl_abs_d(a);
     double b_;
     b_=vl_abs_d(b);
-    double return_value_vl_abs_d$3;
-    return_value_vl_abs_d$3=vl_abs_d(a - b);
-    acc = acc + ((a_ + b_) - return_value_vl_abs_d$3);
+    double return_value_vl_abs_d_3;
+    return_value_vl_abs_d_3=vl_abs_d(a - b);
+    acc = acc + ((a_ + b_) - return_value_vl_abs_d_3);
   }
   return acc / (double)2;
 }
@@ -5838,25 +5838,25 @@ extern float _vl_kernel_l1_f(unsigned long long int dimension, const float *X, c
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
   while(!(X >= X_end))
   {
     float a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     float b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
+    b = *tmp_post_2;
     float a_;
     a_=vl_abs_f(a);
     float b_;
     b_=vl_abs_f(b);
-    float return_value_vl_abs_f$3;
-    return_value_vl_abs_f$3=vl_abs_f(a - b);
-    acc = acc + ((a_ + b_) - return_value_vl_abs_f$3);
+    float return_value_vl_abs_f_3;
+    return_value_vl_abs_f_3=vl_abs_f(a - b);
+    acc = acc + ((a_ + b_) - return_value_vl_abs_f_3);
   }
   return acc / (float)2;
 }
@@ -5867,18 +5867,18 @@ extern double _vl_kernel_l2_d(unsigned long long int dimension, const double *X,
 {
   const double *X_end = X + (signed long int)dimension;
   double acc = 0.0;
-  const double *tmp_post$1;
-  const double *tmp_post$2;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
   while(!(X >= X_end))
   {
     double a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     double b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
+    b = *tmp_post_2;
     acc = acc + a * b;
   }
   return acc;
@@ -5890,18 +5890,18 @@ extern float _vl_kernel_l2_f(unsigned long long int dimension, const float *X, c
 {
   const float *X_end = X + (signed long int)dimension;
   float acc = (float)0.0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
   while(!(X >= X_end))
   {
     float a;
-    tmp_post$1 = X;
+    tmp_post_1 = X;
     X = X + 1l;
-    a = *tmp_post$1;
+    a = *tmp_post_1;
     float b;
-    tmp_post$2 = Y;
+    tmp_post_2 = Y;
     Y = Y + 1l;
-    b = *tmp_post$2;
+    b = *tmp_post_2;
     acc = acc + a * b;
   }
   return acc;
@@ -5934,9 +5934,9 @@ static inline void _vl_kmeans_d_qsort_sort_recursive(struct _VlKMeansSortWrapper
   i = begin;
   for( ; !(i >= end); i = i + 1ull)
   {
-    double return_value__vl_kmeans_d_qsort_cmp$1;
-    return_value__vl_kmeans_d_qsort_cmp$1=_vl_kmeans_d_qsort_cmp(array, i, pivot);
-    if(return_value__vl_kmeans_d_qsort_cmp$1 <= 0.000000)
+    double return_value__vl_kmeans_d_qsort_cmp_1;
+    return_value__vl_kmeans_d_qsort_cmp_1=_vl_kmeans_d_qsort_cmp(array, i, pivot);
+    if(return_value__vl_kmeans_d_qsort_cmp_1 <= 0.000000)
     {
       _vl_kmeans_d_qsort_swap(array, lowPart, i);
       lowPart = lowPart + 1ull;
@@ -5989,9 +5989,9 @@ static inline void _vl_kmeans_f_qsort_sort_recursive(struct _VlKMeansSortWrapper
   i = begin;
   for( ; !(i >= end); i = i + 1ull)
   {
-    float return_value__vl_kmeans_f_qsort_cmp$1;
-    return_value__vl_kmeans_f_qsort_cmp$1=_vl_kmeans_f_qsort_cmp(array, i, pivot);
-    if(return_value__vl_kmeans_f_qsort_cmp$1 <= 0.000000f)
+    float return_value__vl_kmeans_f_qsort_cmp_1;
+    return_value__vl_kmeans_f_qsort_cmp_1=_vl_kmeans_f_qsort_cmp(array, i, pivot);
+    if(return_value__vl_kmeans_f_qsort_cmp_1 <= 0.000000f)
     {
       _vl_kmeans_f_qsort_swap(array, lowPart, i);
       lowPart = lowPart + 1ull;
@@ -6026,13 +6026,13 @@ static void _vl_kmeans_init_centers_plus_plus_d(struct _VlKMeans *self, const do
   struct _VlRand *rand;
   rand=vl_get_rand();
   double *distances;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(double) /*8ul*/  * numData);
-  distances = (double *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(double) /*8ul*/  * numData);
+  distances = (double *)return_value_vl_malloc_1;
   double *minDistances;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(double) /*8ul*/  * numData);
-  minDistances = (double *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(double) /*8ul*/  * numData);
+  minDistances = (double *)return_value_vl_malloc_2;
   double (*distFn)(unsigned long long int, const double *, const double *);
   distFn=vl_get_vector_comparison_function_d(self->distance);
   self->dimension = dimension;
@@ -6040,18 +6040,18 @@ static void _vl_kmeans_init_centers_plus_plus_d(struct _VlKMeans *self, const do
   self->centers=vl_malloc(sizeof(double) /*8ul*/  * dimension * numCenters);
   x = (unsigned long long int)0;
   for( ; !(x >= numData); x = x + 1ull)
-    minDistances[(signed long int)x] = (double)vl_infinity_d$link2.value;
+    minDistances[(signed long int)x] = (double)vl_infinity_d_link2.value;
   x=vl_rand_uindex(rand, numData);
   c = (unsigned long long int)0;
-  double tmp_if_expr$4;
+  double tmp_if_expr_4;
   while((_Bool)1)
   {
     double energy = (double)0;
     double acc = (double)0;
     double thresh;
-    double return_value_vl_rand_real1$3;
-    return_value_vl_rand_real1$3=vl_rand_real1(rand);
-    thresh = (double)return_value_vl_rand_real1$3;
+    double return_value_vl_rand_real1_3;
+    return_value_vl_rand_real1_3=vl_rand_real1(rand);
+    thresh = (double)return_value_vl_rand_real1_3;
     memcpy((void *)((double *)self->centers + (signed long int)(c * dimension)), (const void *)(data + (signed long int)(x * dimension)), sizeof(double) /*8ul*/  * dimension);
     c = c + 1ull;
     if(c == numCenters)
@@ -6062,11 +6062,11 @@ static void _vl_kmeans_init_centers_plus_plus_d(struct _VlKMeans *self, const do
     for( ; !(x >= numData); x = x + 1ull)
     {
       if(minDistances[(signed long int)x] < distances[(signed long int)x])
-        tmp_if_expr$4 = minDistances[(signed long int)x];
+        tmp_if_expr_4 = minDistances[(signed long int)x];
 
       else
-        tmp_if_expr$4 = distances[(signed long int)x];
-      minDistances[(signed long int)x] = tmp_if_expr$4;
+        tmp_if_expr_4 = distances[(signed long int)x];
+      minDistances[(signed long int)x] = tmp_if_expr_4;
       energy = energy + minDistances[(signed long int)x];
     }
     x = (unsigned long long int)0;
@@ -6091,13 +6091,13 @@ static void _vl_kmeans_init_centers_plus_plus_f(struct _VlKMeans *self, const fl
   struct _VlRand *rand;
   rand=vl_get_rand();
   float *distances;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(float) /*4ul*/  * numData);
-  distances = (float *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(float) /*4ul*/  * numData);
+  distances = (float *)return_value_vl_malloc_1;
   float *minDistances;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(float) /*4ul*/  * numData);
-  minDistances = (float *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(float) /*4ul*/  * numData);
+  minDistances = (float *)return_value_vl_malloc_2;
   float (*distFn)(unsigned long long int, const float *, const float *);
   distFn=vl_get_vector_comparison_function_f(self->distance);
   self->dimension = dimension;
@@ -6105,18 +6105,18 @@ static void _vl_kmeans_init_centers_plus_plus_f(struct _VlKMeans *self, const fl
   self->centers=vl_malloc(sizeof(float) /*4ul*/  * dimension * numCenters);
   x = (unsigned long long int)0;
   for( ; !(x >= numData); x = x + 1ull)
-    minDistances[(signed long int)x] = (float)vl_infinity_d$link2.value;
+    minDistances[(signed long int)x] = (float)vl_infinity_d_link2.value;
   x=vl_rand_uindex(rand, numData);
   c = (unsigned long long int)0;
-  float tmp_if_expr$4;
+  float tmp_if_expr_4;
   while((_Bool)1)
   {
     float energy = (float)0;
     float acc = (float)0;
     float thresh;
-    double return_value_vl_rand_real1$3;
-    return_value_vl_rand_real1$3=vl_rand_real1(rand);
-    thresh = (float)return_value_vl_rand_real1$3;
+    double return_value_vl_rand_real1_3;
+    return_value_vl_rand_real1_3=vl_rand_real1(rand);
+    thresh = (float)return_value_vl_rand_real1_3;
     memcpy((void *)((float *)self->centers + (signed long int)(c * dimension)), (const void *)(data + (signed long int)(x * dimension)), sizeof(float) /*4ul*/  * dimension);
     c = c + 1ull;
     if(c == numCenters)
@@ -6127,11 +6127,11 @@ static void _vl_kmeans_init_centers_plus_plus_f(struct _VlKMeans *self, const fl
     for( ; !(x >= numData); x = x + 1ull)
     {
       if(minDistances[(signed long int)x] < distances[(signed long int)x])
-        tmp_if_expr$4 = minDistances[(signed long int)x];
+        tmp_if_expr_4 = minDistances[(signed long int)x];
 
       else
-        tmp_if_expr$4 = distances[(signed long int)x];
-      minDistances[(signed long int)x] = tmp_if_expr$4;
+        tmp_if_expr_4 = distances[(signed long int)x];
+      minDistances[(signed long int)x] = tmp_if_expr_4;
       energy = energy + minDistances[(signed long int)x];
     }
     x = (unsigned long long int)0;
@@ -6160,15 +6160,15 @@ static void _vl_kmeans_init_centers_with_rand_data_d(struct _VlKMeans *self, con
   self->numCenters = numCenters;
   self->centers=vl_malloc(sizeof(double) /*8ul*/  * dimension * numCenters);
   unsigned long long int *perm;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
-  perm = (unsigned long long int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
+  perm = (unsigned long long int *)return_value_vl_malloc_1;
   double (*distFn)(unsigned long long int, const double *, const double *);
   distFn=vl_get_vector_comparison_function_d(self->distance);
   double *distances;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(double) /*8ul*/  * numCenters);
-  distances = (double *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(double) /*8ul*/  * numCenters);
+  distances = (double *)return_value_vl_malloc_2;
   i = (unsigned long long int)0;
   for( ; !(i >= numData); i = i + 1ull)
     perm[(signed long int)i] = i;
@@ -6212,15 +6212,15 @@ static void _vl_kmeans_init_centers_with_rand_data_f(struct _VlKMeans *self, con
   self->numCenters = numCenters;
   self->centers=vl_malloc(sizeof(float) /*4ul*/  * dimension * numCenters);
   unsigned long long int *perm;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
-  perm = (unsigned long long int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
+  perm = (unsigned long long int *)return_value_vl_malloc_1;
   float (*distFn)(unsigned long long int, const float *, const float *);
   distFn=vl_get_vector_comparison_function_f(self->distance);
   float *distances;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(float) /*4ul*/  * numCenters);
-  distances = (float *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(float) /*4ul*/  * numCenters);
+  distances = (float *)return_value_vl_malloc_2;
   i = (unsigned long long int)0;
   for( ; !(i >= numData); i = i + 1ull)
     perm[(signed long int)i] = i;
@@ -6359,14 +6359,14 @@ static void _vl_kmeans_quantize_d(struct _VlKMeans *self, unsigned int *assignme
   double (*distFn)(unsigned long long int, const double *, const double *);
   distFn=vl_get_vector_comparison_function_d(self->distance);
   double *distanceToCenters;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(double) /*8ul*/  * self->numCenters);
-  distanceToCenters = (double *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(double) /*8ul*/  * self->numCenters);
+  distanceToCenters = (double *)return_value_malloc_1;
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)(signed int)numData); i = i + 1ll)
   {
     unsigned long long int k;
-    double bestDistance = (double)vl_infinity_d$link2.value;
+    double bestDistance = (double)vl_infinity_d_link2.value;
     vl_eval_vector_comparison_on_all_pairs_d(distanceToCenters, self->dimension, data + (signed long int)(self->dimension * (unsigned long int)i), (unsigned long long int)1, (double *)self->centers, self->numCenters, distFn);
     k = (unsigned long long int)0;
     for( ; !(k >= self->numCenters); k = k + 1ull)
@@ -6391,14 +6391,14 @@ static void _vl_kmeans_quantize_f(struct _VlKMeans *self, unsigned int *assignme
   float (*distFn)(unsigned long long int, const float *, const float *);
   distFn=vl_get_vector_comparison_function_f(self->distance);
   float *distanceToCenters;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(float) /*4ul*/  * self->numCenters);
-  distanceToCenters = (float *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(float) /*4ul*/  * self->numCenters);
+  distanceToCenters = (float *)return_value_malloc_1;
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)(signed int)numData); i = i + 1ll)
   {
     unsigned long long int k;
-    float bestDistance = (float)vl_infinity_d$link2.value;
+    float bestDistance = (float)vl_infinity_d_link2.value;
     vl_eval_vector_comparison_on_all_pairs_f(distanceToCenters, self->dimension, data + (signed long int)(self->dimension * (unsigned long int)i), (unsigned long long int)1, (float *)self->centers, self->numCenters, distFn);
     k = (unsigned long long int)0;
     for( ; !(k >= self->numCenters); k = k + 1ull)
@@ -6421,10 +6421,10 @@ static double _vl_kmeans_refine_centers_ann_d(struct _VlKMeans *self, const doub
 {
   unsigned long long int c;
   unsigned long long int d;
-  unsigned long long int _vl_kmeans_refine_centers_ann_d$$1$$x;
+  unsigned long long int _vl_kmeans_refine_centers_ann_d__1__x;
   unsigned long long int iteration;
-  double initialEnergy = vl_infinity_d$link2.value;
-  double previousEnergy = vl_infinity_d$link2.value;
+  double initialEnergy = vl_infinity_d_link2.value;
+  double previousEnergy = vl_infinity_d_link2.value;
   double energy;
   unsigned int *permutations = (unsigned int *)(void *)0;
   unsigned long long int *numSeenSoFar = (unsigned long long int *)(void *)0;
@@ -6433,52 +6433,52 @@ static double _vl_kmeans_refine_centers_ann_d(struct _VlKMeans *self, const doub
   unsigned long long int totNumRestartedCenters = (unsigned long long int)0;
   unsigned long long int numRestartedCenters = (unsigned long long int)0;
   unsigned int *assignments;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
-  assignments = (unsigned int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
+  assignments = (unsigned int *)return_value_vl_malloc_1;
   unsigned long long int *clusterMasses;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
-  clusterMasses = (unsigned long long int *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
+  clusterMasses = (unsigned long long int *)return_value_vl_malloc_2;
   double *distances;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(double) /*8ul*/  * numData);
-  distances = (double *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(double) /*8ul*/  * numData);
+  distances = (double *)return_value_vl_malloc_3;
   if((signed int)self->distance == VlDistanceL1)
   {
-    void *return_value_vl_malloc$4;
-    return_value_vl_malloc$4=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
-    permutations = (unsigned int *)return_value_vl_malloc$4;
-    void *return_value_vl_malloc$5;
-    return_value_vl_malloc$5=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
-    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc$5;
+    void *return_value_vl_malloc_4;
+    return_value_vl_malloc_4=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
+    permutations = (unsigned int *)return_value_vl_malloc_4;
+    void *return_value_vl_malloc_5;
+    return_value_vl_malloc_5=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
+    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc_5;
     _vl_kmeans_sort_data_helper_d(self, permutations, data, numData);
   }
 
-  energy = vl_infinity_d$link2.value;
+  energy = vl_infinity_d_link2.value;
   iteration = (unsigned long long int)0;
-  signed int (*return_value_vl_get_printf_func$10)(const char *, ...);
+  signed int (*return_value_vl_get_printf_func_10)(const char *, ...);
   for( ; (_Bool)1; iteration = iteration + 1ull)
   {
     _vl_kmeans_quantize_ann_d(self, assignments, distances, data, numData, (signed int)(iteration > (unsigned long int)0));
     energy = (double)0;
-    _vl_kmeans_refine_centers_ann_d$$1$$x = (unsigned long long int)0;
-    for( ; !(_vl_kmeans_refine_centers_ann_d$$1$$x >= numData); _vl_kmeans_refine_centers_ann_d$$1$$x = _vl_kmeans_refine_centers_ann_d$$1$$x + 1ull)
-      energy = energy + distances[(signed long int)_vl_kmeans_refine_centers_ann_d$$1$$x];
+    _vl_kmeans_refine_centers_ann_d__1__x = (unsigned long long int)0;
+    for( ; !(_vl_kmeans_refine_centers_ann_d__1__x >= numData); _vl_kmeans_refine_centers_ann_d__1__x = _vl_kmeans_refine_centers_ann_d__1__x + 1ull)
+      energy = energy + distances[(signed long int)_vl_kmeans_refine_centers_ann_d__1__x];
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$6)(const char *, ...);
-      return_value_vl_get_printf_func$6=vl_get_printf_func();
-      return_value_vl_get_printf_func$6("kmeans: ANN iter %d: energy = %g\n", iteration, energy);
+      signed int (*return_value_vl_get_printf_func_6)(const char *, ...);
+      return_value_vl_get_printf_func_6=vl_get_printf_func();
+      return_value_vl_get_printf_func_6("kmeans: ANN iter %d: energy = %g\n", iteration, energy);
     }
 
     if(iteration >= self->maxNumIterations)
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$7)(const char *, ...);
-        return_value_vl_get_printf_func$7=vl_get_printf_func();
-        return_value_vl_get_printf_func$7("kmeans: ANN terminating because the maximum number of iterations has been reached\n");
+        signed int (*return_value_vl_get_printf_func_7)(const char *, ...);
+        return_value_vl_get_printf_func_7=vl_get_printf_func();
+        return_value_vl_get_printf_func_7("kmeans: ANN terminating because the maximum number of iterations has been reached\n");
       }
 
       break;
@@ -6488,9 +6488,9 @@ static double _vl_kmeans_refine_centers_ann_d(struct _VlKMeans *self, const doub
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$8)(const char *, ...);
-        return_value_vl_get_printf_func$8=vl_get_printf_func();
-        return_value_vl_get_printf_func$8("kmeans: ANN terminating because the algorithm fully converged\n");
+        signed int (*return_value_vl_get_printf_func_8)(const char *, ...);
+        return_value_vl_get_printf_func_8=vl_get_printf_func();
+        return_value_vl_get_printf_func_8("kmeans: ANN terminating because the algorithm fully converged\n");
       }
 
       break;
@@ -6506,9 +6506,9 @@ static double _vl_kmeans_refine_centers_ann_d(struct _VlKMeans *self, const doub
       {
         if(!(self->verbosity == 0))
         {
-          signed int (*return_value_vl_get_printf_func$9)(const char *, ...);
-          return_value_vl_get_printf_func$9=vl_get_printf_func();
-          return_value_vl_get_printf_func$9("kmeans: ANN terminating because the energy relative variation was less than %f\n", self->minEnergyVariation);
+          signed int (*return_value_vl_get_printf_func_9)(const char *, ...);
+          return_value_vl_get_printf_func_9=vl_get_printf_func();
+          return_value_vl_get_printf_func_9("kmeans: ANN terminating because the energy relative variation was less than %f\n", self->minEnergyVariation);
         }
 
         break;
@@ -6517,44 +6517,44 @@ static double _vl_kmeans_refine_centers_ann_d(struct _VlKMeans *self, const doub
     }
     previousEnergy = energy;
     memset((void *)clusterMasses, 0, sizeof(unsigned long long int) /*8ul*/  * numData);
-    _vl_kmeans_refine_centers_ann_d$$1$$x = (unsigned long long int)0;
-    for( ; !(_vl_kmeans_refine_centers_ann_d$$1$$x >= numData); _vl_kmeans_refine_centers_ann_d$$1$$x = _vl_kmeans_refine_centers_ann_d$$1$$x + 1ull)
-      clusterMasses[(signed long int)assignments[(signed long int)_vl_kmeans_refine_centers_ann_d$$1$$x]] = clusterMasses[(signed long int)assignments[(signed long int)_vl_kmeans_refine_centers_ann_d$$1$$x]] + 1ull;
+    _vl_kmeans_refine_centers_ann_d__1__x = (unsigned long long int)0;
+    for( ; !(_vl_kmeans_refine_centers_ann_d__1__x >= numData); _vl_kmeans_refine_centers_ann_d__1__x = _vl_kmeans_refine_centers_ann_d__1__x + 1ull)
+      clusterMasses[(signed long int)assignments[(signed long int)_vl_kmeans_refine_centers_ann_d__1__x]] = clusterMasses[(signed long int)assignments[(signed long int)_vl_kmeans_refine_centers_ann_d__1__x]] + 1ull;
     numRestartedCenters = (unsigned long long int)0;
     switch((signed int)self->distance)
     {
       case VlDistanceL2:
       {
         memset(self->centers, 0, sizeof(double) /*8ul*/  * self->dimension * self->numCenters);
-        _vl_kmeans_refine_centers_ann_d$$1$$x = (unsigned long long int)0;
-        for( ; !(_vl_kmeans_refine_centers_ann_d$$1$$x >= numData); _vl_kmeans_refine_centers_ann_d$$1$$x = _vl_kmeans_refine_centers_ann_d$$1$$x + 1ull)
+        _vl_kmeans_refine_centers_ann_d__1__x = (unsigned long long int)0;
+        for( ; !(_vl_kmeans_refine_centers_ann_d__1__x >= numData); _vl_kmeans_refine_centers_ann_d__1__x = _vl_kmeans_refine_centers_ann_d__1__x + 1ull)
         {
-          double *_vl_kmeans_refine_centers_ann_d$$1$$2$$1$$8$$1$$1$$cpt = (double *)self->centers + (signed long int)((unsigned long int)assignments[(signed long int)_vl_kmeans_refine_centers_ann_d$$1$$x] * self->dimension);
-          const double *xpt = data + (signed long int)(_vl_kmeans_refine_centers_ann_d$$1$$x * self->dimension);
+          double *_vl_kmeans_refine_centers_ann_d__1__2__1__8__1__1__cpt = (double *)self->centers + (signed long int)((unsigned long int)assignments[(signed long int)_vl_kmeans_refine_centers_ann_d__1__x] * self->dimension);
+          const double *xpt = data + (signed long int)(_vl_kmeans_refine_centers_ann_d__1__x * self->dimension);
           d = (unsigned long long int)0;
           for( ; !(d >= self->dimension); d = d + 1ull)
-            _vl_kmeans_refine_centers_ann_d$$1$$2$$1$$8$$1$$1$$cpt[(signed long int)d] = _vl_kmeans_refine_centers_ann_d$$1$$2$$1$$8$$1$$1$$cpt[(signed long int)d] + xpt[(signed long int)d];
+            _vl_kmeans_refine_centers_ann_d__1__2__1__8__1__1__cpt[(signed long int)d] = _vl_kmeans_refine_centers_ann_d__1__2__1__8__1__1__cpt[(signed long int)d] + xpt[(signed long int)d];
         }
         c = (unsigned long long int)0;
         for( ; !(c >= self->numCenters); c = c + 1ull)
         {
-          double *_vl_kmeans_refine_centers_ann_d$$1$$2$$1$$8$$2$$1$$cpt = (double *)self->centers + (signed long int)(c * self->dimension);
+          double *_vl_kmeans_refine_centers_ann_d__1__2__1__8__2__1__cpt = (double *)self->centers + (signed long int)(c * self->dimension);
           if(clusterMasses[(signed long int)c] >= 1ul)
           {
             double mass = (double)clusterMasses[(signed long int)c];
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_ann_d$$1$$2$$1$$8$$2$$1$$cpt[(signed long int)d] = _vl_kmeans_refine_centers_ann_d$$1$$2$$1$$8$$2$$1$$cpt[(signed long int)d] / mass;
+              _vl_kmeans_refine_centers_ann_d__1__2__1__8__2__1__cpt[(signed long int)d] = _vl_kmeans_refine_centers_ann_d__1__2__1__8__2__1__cpt[(signed long int)d] / mass;
           }
 
           else
           {
-            unsigned long long int _vl_kmeans_refine_centers_ann_d$$1$$2$$1$$8$$2$$1$$2$$x;
-            _vl_kmeans_refine_centers_ann_d$$1$$2$$1$$8$$2$$1$$2$$x=vl_rand_uindex(rand, numData);
+            unsigned long long int _vl_kmeans_refine_centers_ann_d__1__2__1__8__2__1__2__x;
+            _vl_kmeans_refine_centers_ann_d__1__2__1__8__2__1__2__x=vl_rand_uindex(rand, numData);
             numRestartedCenters = numRestartedCenters + 1ull;
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_ann_d$$1$$2$$1$$8$$2$$1$$cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_ann_d$$1$$2$$1$$8$$2$$1$$2$$x * self->dimension + d)];
+              _vl_kmeans_refine_centers_ann_d__1__2__1__8__2__1__cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_ann_d__1__2__1__8__2__1__2__x * self->dimension + d)];
           }
         }
         break;
@@ -6566,12 +6566,12 @@ static double _vl_kmeans_refine_centers_ann_d(struct _VlKMeans *self, const doub
         {
           unsigned int *perm = permutations + (signed long int)(d * numData);
           memset((void *)numSeenSoFar, 0, sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
-          _vl_kmeans_refine_centers_ann_d$$1$$x = (unsigned long long int)0;
-          for( ; !(_vl_kmeans_refine_centers_ann_d$$1$$x >= numData); _vl_kmeans_refine_centers_ann_d$$1$$x = _vl_kmeans_refine_centers_ann_d$$1$$x + 1ull)
+          _vl_kmeans_refine_centers_ann_d__1__x = (unsigned long long int)0;
+          for( ; !(_vl_kmeans_refine_centers_ann_d__1__x >= numData); _vl_kmeans_refine_centers_ann_d__1__x = _vl_kmeans_refine_centers_ann_d__1__x + 1ull)
           {
-            c = (unsigned long long int)assignments[(signed long int)perm[(signed long int)_vl_kmeans_refine_centers_ann_d$$1$$x]];
+            c = (unsigned long long int)assignments[(signed long int)perm[(signed long int)_vl_kmeans_refine_centers_ann_d__1__x]];
             if(!(2ul * numSeenSoFar[(signed long int)c] >= clusterMasses[(signed long int)c]))
-              ((double *)self->centers)[(signed long int)(d + c * self->dimension)] = data[(signed long int)(d + (unsigned long int)perm[(signed long int)_vl_kmeans_refine_centers_ann_d$$1$$x] * self->dimension)];
+              ((double *)self->centers)[(signed long int)(d + c * self->dimension)] = data[(signed long int)(d + (unsigned long int)perm[(signed long int)_vl_kmeans_refine_centers_ann_d__1__x] * self->dimension)];
 
             numSeenSoFar[(signed long int)c] = numSeenSoFar[(signed long int)c] + 1ull;
           }
@@ -6593,8 +6593,8 @@ static double _vl_kmeans_refine_centers_ann_d(struct _VlKMeans *self, const doub
       }
       default:
       {
-        return_value_vl_get_printf_func$10=vl_get_printf_func();
-        return_value_vl_get_printf_func$10("bad distance set: %d\n", self->distance);
+        return_value_vl_get_printf_func_10=vl_get_printf_func();
+        return_value_vl_get_printf_func_10("bad distance set: %d\n", self->distance);
       }
     }
     abort();
@@ -6603,9 +6603,9 @@ static double _vl_kmeans_refine_centers_ann_d(struct _VlKMeans *self, const doub
     {
       if(!(numRestartedCenters == 0ull))
       {
-        signed int (*return_value_vl_get_printf_func$11)(const char *, ...);
-        return_value_vl_get_printf_func$11=vl_get_printf_func();
-        return_value_vl_get_printf_func$11("kmeans: ANN iter %d: restarted %d centers\n", iteration, numRestartedCenters);
+        signed int (*return_value_vl_get_printf_func_11)(const char *, ...);
+        return_value_vl_get_printf_func_11=vl_get_printf_func();
+        return_value_vl_get_printf_func_11("kmeans: ANN iter %d: restarted %d centers\n", iteration, numRestartedCenters);
       }
 
     }
@@ -6631,8 +6631,8 @@ static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const floa
   unsigned long long int d;
   unsigned long long int x;
   unsigned long long int iteration;
-  double initialEnergy = vl_infinity_d$link2.value;
-  double previousEnergy = vl_infinity_d$link2.value;
+  double initialEnergy = vl_infinity_d_link2.value;
+  double previousEnergy = vl_infinity_d_link2.value;
   double energy;
   unsigned int *permutations = (unsigned int *)(void *)0;
   unsigned long long int *numSeenSoFar = (unsigned long long int *)(void *)0;
@@ -6641,31 +6641,31 @@ static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const floa
   unsigned long long int totNumRestartedCenters = (unsigned long long int)0;
   unsigned long long int numRestartedCenters = (unsigned long long int)0;
   unsigned int *assignments;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
-  assignments = (unsigned int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
+  assignments = (unsigned int *)return_value_vl_malloc_1;
   unsigned long long int *clusterMasses;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
-  clusterMasses = (unsigned long long int *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
+  clusterMasses = (unsigned long long int *)return_value_vl_malloc_2;
   float *distances;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(float) /*4ul*/  * numData);
-  distances = (float *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(float) /*4ul*/  * numData);
+  distances = (float *)return_value_vl_malloc_3;
   if((signed int)self->distance == VlDistanceL1)
   {
-    void *return_value_vl_malloc$4;
-    return_value_vl_malloc$4=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
-    permutations = (unsigned int *)return_value_vl_malloc$4;
-    void *return_value_vl_malloc$5;
-    return_value_vl_malloc$5=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
-    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc$5;
+    void *return_value_vl_malloc_4;
+    return_value_vl_malloc_4=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
+    permutations = (unsigned int *)return_value_vl_malloc_4;
+    void *return_value_vl_malloc_5;
+    return_value_vl_malloc_5=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
+    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc_5;
     _vl_kmeans_sort_data_helper_f(self, permutations, data, numData);
   }
 
-  energy = vl_infinity_d$link2.value;
+  energy = vl_infinity_d_link2.value;
   iteration = (unsigned long long int)0;
-  signed int (*return_value_vl_get_printf_func$10)(const char *, ...);
+  signed int (*return_value_vl_get_printf_func_10)(const char *, ...);
   for( ; (_Bool)1; iteration = iteration + 1ull)
   {
     _vl_kmeans_quantize_ann_f(self, assignments, distances, data, numData, (signed int)(iteration > (unsigned long int)0));
@@ -6675,18 +6675,18 @@ static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const floa
       energy = energy + (double)distances[(signed long int)x];
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$6)(const char *, ...);
-      return_value_vl_get_printf_func$6=vl_get_printf_func();
-      return_value_vl_get_printf_func$6("kmeans: ANN iter %d: energy = %g\n", iteration, energy);
+      signed int (*return_value_vl_get_printf_func_6)(const char *, ...);
+      return_value_vl_get_printf_func_6=vl_get_printf_func();
+      return_value_vl_get_printf_func_6("kmeans: ANN iter %d: energy = %g\n", iteration, energy);
     }
 
     if(iteration >= self->maxNumIterations)
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$7)(const char *, ...);
-        return_value_vl_get_printf_func$7=vl_get_printf_func();
-        return_value_vl_get_printf_func$7("kmeans: ANN terminating because the maximum number of iterations has been reached\n");
+        signed int (*return_value_vl_get_printf_func_7)(const char *, ...);
+        return_value_vl_get_printf_func_7=vl_get_printf_func();
+        return_value_vl_get_printf_func_7("kmeans: ANN terminating because the maximum number of iterations has been reached\n");
       }
 
       break;
@@ -6696,9 +6696,9 @@ static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const floa
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$8)(const char *, ...);
-        return_value_vl_get_printf_func$8=vl_get_printf_func();
-        return_value_vl_get_printf_func$8("kmeans: ANN terminating because the algorithm fully converged\n");
+        signed int (*return_value_vl_get_printf_func_8)(const char *, ...);
+        return_value_vl_get_printf_func_8=vl_get_printf_func();
+        return_value_vl_get_printf_func_8("kmeans: ANN terminating because the algorithm fully converged\n");
       }
 
       break;
@@ -6714,9 +6714,9 @@ static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const floa
       {
         if(!(self->verbosity == 0))
         {
-          signed int (*return_value_vl_get_printf_func$9)(const char *, ...);
-          return_value_vl_get_printf_func$9=vl_get_printf_func();
-          return_value_vl_get_printf_func$9("kmeans: ANN terminating because the energy relative variation was less than %f\n", self->minEnergyVariation);
+          signed int (*return_value_vl_get_printf_func_9)(const char *, ...);
+          return_value_vl_get_printf_func_9=vl_get_printf_func();
+          return_value_vl_get_printf_func_9("kmeans: ANN terminating because the energy relative variation was less than %f\n", self->minEnergyVariation);
         }
 
         break;
@@ -6746,23 +6746,23 @@ static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const floa
         c = (unsigned long long int)0;
         for( ; !(c >= self->numCenters); c = c + 1ull)
         {
-          float *_vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$2$$1$$cpt = (float *)self->centers + (signed long int)(c * self->dimension);
+          float *_vl_kmeans_refine_centers_ann_f__1__2__1__8__2__1__cpt = (float *)self->centers + (signed long int)(c * self->dimension);
           if(clusterMasses[(signed long int)c] >= 1ul)
           {
             float mass = (float)clusterMasses[(signed long int)c];
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$2$$1$$cpt[(signed long int)d] = _vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$2$$1$$cpt[(signed long int)d] / mass;
+              _vl_kmeans_refine_centers_ann_f__1__2__1__8__2__1__cpt[(signed long int)d] = _vl_kmeans_refine_centers_ann_f__1__2__1__8__2__1__cpt[(signed long int)d] / mass;
           }
 
           else
           {
-            unsigned long long int _vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$2$$1$$2$$x;
-            _vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$2$$1$$2$$x=vl_rand_uindex(rand, numData);
+            unsigned long long int _vl_kmeans_refine_centers_ann_f__1__2__1__8__2__1__2__x;
+            _vl_kmeans_refine_centers_ann_f__1__2__1__8__2__1__2__x=vl_rand_uindex(rand, numData);
             numRestartedCenters = numRestartedCenters + 1ull;
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$2$$1$$cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$2$$1$$2$$x * self->dimension + d)];
+              _vl_kmeans_refine_centers_ann_f__1__2__1__8__2__1__cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_ann_f__1__2__1__8__2__1__2__x * self->dimension + d)];
           }
         }
         break;
@@ -6787,13 +6787,13 @@ static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const floa
           for( ; !(c >= self->numCenters); c = c + 1ull)
             if(clusterMasses[(signed long int)c] == 0ul)
             {
-              float *_vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$3$$1$$2$$1$$1$$cpt = (float *)self->centers + (signed long int)(c * self->dimension);
-              unsigned long long int _vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$3$$1$$2$$1$$1$$x;
-              _vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$3$$1$$2$$1$$1$$x=vl_rand_uindex(rand, numData);
+              float *_vl_kmeans_refine_centers_ann_f__1__2__1__8__3__1__2__1__1__cpt = (float *)self->centers + (signed long int)(c * self->dimension);
+              unsigned long long int _vl_kmeans_refine_centers_ann_f__1__2__1__8__3__1__2__1__1__x;
+              _vl_kmeans_refine_centers_ann_f__1__2__1__8__3__1__2__1__1__x=vl_rand_uindex(rand, numData);
               numRestartedCenters = numRestartedCenters + 1ull;
               d = (unsigned long long int)0;
               for( ; !(d >= self->dimension); d = d + 1ull)
-                _vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$3$$1$$2$$1$$1$$cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_ann_f$$1$$2$$1$$8$$3$$1$$2$$1$$1$$x * self->dimension + d)];
+                _vl_kmeans_refine_centers_ann_f__1__2__1__8__3__1__2__1__1__cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_ann_f__1__2__1__8__3__1__2__1__1__x * self->dimension + d)];
             }
 
         }
@@ -6801,8 +6801,8 @@ static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const floa
       }
       default:
       {
-        return_value_vl_get_printf_func$10=vl_get_printf_func();
-        return_value_vl_get_printf_func$10("bad distance set: %d\n", self->distance);
+        return_value_vl_get_printf_func_10=vl_get_printf_func();
+        return_value_vl_get_printf_func_10("bad distance set: %d\n", self->distance);
       }
     }
     abort();
@@ -6811,9 +6811,9 @@ static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const floa
     {
       if(!(numRestartedCenters == 0ull))
       {
-        signed int (*return_value_vl_get_printf_func$11)(const char *, ...);
-        return_value_vl_get_printf_func$11=vl_get_printf_func();
-        return_value_vl_get_printf_func$11("kmeans: ANN iter %d: restarted %d centers\n", iteration, numRestartedCenters);
+        signed int (*return_value_vl_get_printf_func_11)(const char *, ...);
+        return_value_vl_get_printf_func_11=vl_get_printf_func();
+        return_value_vl_get_printf_func_11("kmeans: ANN iter %d: restarted %d centers\n", iteration, numRestartedCenters);
       }
 
     }
@@ -6835,25 +6835,25 @@ static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const floa
 // file vl/kmeans.c line 1751
 static double _vl_kmeans_refine_centers_d(struct _VlKMeans *self, const double *data, unsigned long long int numData)
 {
-  double return_value__vl_kmeans_refine_centers_lloyd_d$1;
-  double return_value__vl_kmeans_refine_centers_elkan_d$2;
-  double return_value__vl_kmeans_refine_centers_ann_d$3;
+  double return_value__vl_kmeans_refine_centers_lloyd_d_1;
+  double return_value__vl_kmeans_refine_centers_elkan_d_2;
+  double return_value__vl_kmeans_refine_centers_ann_d_3;
   switch((signed int)self->algorithm)
   {
     case VlKMeansLloyd:
     {
-      return_value__vl_kmeans_refine_centers_lloyd_d$1=_vl_kmeans_refine_centers_lloyd_d(self, data, numData);
-      return return_value__vl_kmeans_refine_centers_lloyd_d$1;
+      return_value__vl_kmeans_refine_centers_lloyd_d_1=_vl_kmeans_refine_centers_lloyd_d(self, data, numData);
+      return return_value__vl_kmeans_refine_centers_lloyd_d_1;
     }
     case VlKMeansElkan:
     {
-      return_value__vl_kmeans_refine_centers_elkan_d$2=_vl_kmeans_refine_centers_elkan_d(self, data, numData);
-      return return_value__vl_kmeans_refine_centers_elkan_d$2;
+      return_value__vl_kmeans_refine_centers_elkan_d_2=_vl_kmeans_refine_centers_elkan_d(self, data, numData);
+      return return_value__vl_kmeans_refine_centers_elkan_d_2;
     }
     case VlKMeansANN:
     {
-      return_value__vl_kmeans_refine_centers_ann_d$3=_vl_kmeans_refine_centers_ann_d(self, data, numData);
-      return return_value__vl_kmeans_refine_centers_ann_d$3;
+      return_value__vl_kmeans_refine_centers_ann_d_3=_vl_kmeans_refine_centers_ann_d(self, data, numData);
+      return return_value__vl_kmeans_refine_centers_ann_d_3;
     }
     default:
       abort();
@@ -6871,45 +6871,45 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
   unsigned int j;
   signed int allDone;
   double *distances;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(double) /*8ul*/  * numData);
-  distances = (double *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(double) /*8ul*/  * numData);
+  distances = (double *)return_value_vl_malloc_1;
   unsigned int *assignments;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
-  assignments = (unsigned int *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
+  assignments = (unsigned int *)return_value_vl_malloc_2;
   unsigned long long int *clusterMasses;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
-  clusterMasses = (unsigned long long int *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
+  clusterMasses = (unsigned long long int *)return_value_vl_malloc_3;
   struct _VlRand *rand;
   rand=vl_get_rand();
   double (*distFn)(unsigned long long int, const double *, const double *);
   distFn=vl_get_vector_comparison_function_d(self->distance);
   double *nextCenterDistances;
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(double) /*8ul*/  * self->numCenters);
-  nextCenterDistances = (double *)return_value_vl_malloc$4;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(double) /*8ul*/  * self->numCenters);
+  nextCenterDistances = (double *)return_value_vl_malloc_4;
   double *pointToClosestCenterUB;
-  void *return_value_vl_malloc$5;
-  return_value_vl_malloc$5=vl_malloc(sizeof(double) /*8ul*/  * numData);
-  pointToClosestCenterUB = (double *)return_value_vl_malloc$5;
+  void *return_value_vl_malloc_5;
+  return_value_vl_malloc_5=vl_malloc(sizeof(double) /*8ul*/  * numData);
+  pointToClosestCenterUB = (double *)return_value_vl_malloc_5;
   signed int *pointToClosestCenterUBIsStrict;
-  void *return_value_vl_malloc$6;
-  return_value_vl_malloc$6=vl_malloc(sizeof(signed int) /*4ul*/  * numData);
-  pointToClosestCenterUBIsStrict = (signed int *)return_value_vl_malloc$6;
+  void *return_value_vl_malloc_6;
+  return_value_vl_malloc_6=vl_malloc(sizeof(signed int) /*4ul*/  * numData);
+  pointToClosestCenterUBIsStrict = (signed int *)return_value_vl_malloc_6;
   double *pointToCenterLB;
-  void *return_value_vl_malloc$7;
-  return_value_vl_malloc$7=vl_malloc(sizeof(double) /*8ul*/  * numData * self->numCenters);
-  pointToCenterLB = (double *)return_value_vl_malloc$7;
+  void *return_value_vl_malloc_7;
+  return_value_vl_malloc_7=vl_malloc(sizeof(double) /*8ul*/  * numData * self->numCenters);
+  pointToCenterLB = (double *)return_value_vl_malloc_7;
   double *newCenters;
-  void *return_value_vl_malloc$8;
-  return_value_vl_malloc$8=vl_malloc(sizeof(double) /*8ul*/  * self->dimension * self->numCenters);
-  newCenters = (double *)return_value_vl_malloc$8;
+  void *return_value_vl_malloc_8;
+  return_value_vl_malloc_8=vl_malloc(sizeof(double) /*8ul*/  * self->dimension * self->numCenters);
+  newCenters = (double *)return_value_vl_malloc_8;
   double *centerToNewCenterDistances;
-  void *return_value_vl_malloc$9;
-  return_value_vl_malloc$9=vl_malloc(sizeof(double) /*8ul*/  * self->numCenters);
-  centerToNewCenterDistances = (double *)return_value_vl_malloc$9;
+  void *return_value_vl_malloc_9;
+  return_value_vl_malloc_9=vl_malloc(sizeof(double) /*8ul*/  * self->numCenters);
+  centerToNewCenterDistances = (double *)return_value_vl_malloc_9;
   unsigned int *permutations = (unsigned int *)(void *)0;
   unsigned long long int *numSeenSoFar = (unsigned long long int *)(void *)0;
   double energy;
@@ -6922,18 +6922,18 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
   unsigned long long int totNumRestartedCenters = (unsigned long long int)0;
   if((signed int)self->distance == VlDistanceL1)
   {
-    void *return_value_vl_malloc$10;
-    return_value_vl_malloc$10=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
-    permutations = (unsigned int *)return_value_vl_malloc$10;
-    void *return_value_vl_malloc$11;
-    return_value_vl_malloc$11=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
-    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc$11;
+    void *return_value_vl_malloc_10;
+    return_value_vl_malloc_10=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
+    permutations = (unsigned int *)return_value_vl_malloc_10;
+    void *return_value_vl_malloc_11;
+    return_value_vl_malloc_11=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
+    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc_11;
     _vl_kmeans_sort_data_helper_d(self, permutations, data, numData);
   }
 
-  double return_value__vl_kmeans_update_center_distances_d$12;
-  return_value__vl_kmeans_update_center_distances_d$12=_vl_kmeans_update_center_distances_d(self);
-  totDistanceComputationsToInit = totDistanceComputationsToInit + (unsigned long long int)return_value__vl_kmeans_update_center_distances_d$12;
+  double return_value__vl_kmeans_update_center_distances_d_12;
+  return_value__vl_kmeans_update_center_distances_d_12=_vl_kmeans_update_center_distances_d(self);
+  totDistanceComputationsToInit = totDistanceComputationsToInit + (unsigned long long int)return_value__vl_kmeans_update_center_distances_d_12;
   memset((void *)pointToCenterLB, 0, sizeof(double) /*8ul*/  * self->numCenters * numData);
   x = (signed long long int)0;
   if(!(x >= (signed long int)(signed int)numData))
@@ -6973,13 +6973,13 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
     energy = energy + pointToClosestCenterUB[x];
   if(!(self->verbosity == 0))
   {
-    signed int (*return_value_vl_get_printf_func$13)(const char *, ...);
-    return_value_vl_get_printf_func$13=vl_get_printf_func();
-    return_value_vl_get_printf_func$13("kmeans: Elkan iter 0: energy = %g, dist. calc. = %d\n", energy, totDistanceComputationsToInit);
+    signed int (*return_value_vl_get_printf_func_13)(const char *, ...);
+    return_value_vl_get_printf_func_13=vl_get_printf_func();
+    return_value_vl_get_printf_func_13("kmeans: Elkan iter 0: energy = %g, dist. calc. = %d\n", energy, totDistanceComputationsToInit);
   }
 
   iteration = (unsigned long long int)1;
-  double tmp_if_expr$15;
+  double tmp_if_expr_15;
   for( ; (_Bool)1; iteration = iteration + 1ull)
   {
     unsigned long long int numDistanceComputationsToRefreshUB = (unsigned long long int)0;
@@ -7008,23 +7008,23 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
         c = (unsigned int)0;
         for( ; !((unsigned long int)c >= self->numCenters); c = c + 1u)
         {
-          double *_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$2$$1$$cpt = newCenters + (signed long int)((unsigned long int)c * self->dimension);
+          double *_vl_kmeans_refine_centers_elkan_d__1__5__1__2__2__1__cpt = newCenters + (signed long int)((unsigned long int)c * self->dimension);
           if(clusterMasses[(signed long int)c] >= 1ul)
           {
             double mass = (double)clusterMasses[(signed long int)c];
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$2$$1$$cpt[(signed long int)d] = _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$2$$1$$cpt[(signed long int)d] / mass;
+              _vl_kmeans_refine_centers_elkan_d__1__5__1__2__2__1__cpt[(signed long int)d] = _vl_kmeans_refine_centers_elkan_d__1__5__1__2__2__1__cpt[(signed long int)d] / mass;
           }
 
           else
           {
-            unsigned long long int _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$2$$1$$2$$x;
-            _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$2$$1$$2$$x=vl_rand_uindex(rand, numData);
+            unsigned long long int _vl_kmeans_refine_centers_elkan_d__1__5__1__2__2__1__2__x;
+            _vl_kmeans_refine_centers_elkan_d__1__5__1__2__2__1__2__x=vl_rand_uindex(rand, numData);
             numRestartedCenters = numRestartedCenters + 1ull;
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$2$$1$$cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$2$$1$$2$$x * self->dimension + d)];
+              _vl_kmeans_refine_centers_elkan_d__1__5__1__2__2__1__cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_elkan_d__1__5__1__2__2__1__2__x * self->dimension + d)];
           }
         }
         break;
@@ -7050,13 +7050,13 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
         for( ; !((unsigned long int)c >= self->numCenters); c = c + 1u)
           if(clusterMasses[(signed long int)c] == 0ul)
           {
-            double *_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$4$$1$$1$$cpt = newCenters + (signed long int)((unsigned long int)c * self->dimension);
-            unsigned long long int _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$4$$1$$1$$x;
-            _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$4$$1$$1$$x=vl_rand_uindex(rand, numData);
+            double *_vl_kmeans_refine_centers_elkan_d__1__5__1__2__4__1__1__cpt = newCenters + (signed long int)((unsigned long int)c * self->dimension);
+            unsigned long long int _vl_kmeans_refine_centers_elkan_d__1__5__1__2__4__1__1__x;
+            _vl_kmeans_refine_centers_elkan_d__1__5__1__2__4__1__1__x=vl_rand_uindex(rand, numData);
             numRestartedCenters = numRestartedCenters + 1ull;
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$4$$1$$1$$cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$2$$4$$1$$1$$x * self->dimension + d)];
+              _vl_kmeans_refine_centers_elkan_d__1__5__1__2__4__1__1__cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_elkan_d__1__5__1__2__4__1__1__x * self->dimension + d)];
           }
 
         break;
@@ -7067,9 +7067,9 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
     c = (unsigned int)0;
     if(!((unsigned long int)c >= self->numCenters))
     {
-      double _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$3$$1$$distance;
-      _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$3$$1$$distance=distFn(self->dimension, newCenters + (signed long int)((unsigned long int)c * self->dimension), (double *)self->centers + (signed long int)((unsigned long int)c * self->dimension));
-      centerToNewCenterDistances[(signed long int)c] = _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$3$$1$$distance;
+      double _vl_kmeans_refine_centers_elkan_d__1__5__1__3__1__distance;
+      _vl_kmeans_refine_centers_elkan_d__1__5__1__3__1__distance=distFn(self->dimension, newCenters + (signed long int)((unsigned long int)c * self->dimension), (double *)self->centers + (signed long int)((unsigned long int)c * self->dimension));
+      centerToNewCenterDistances[(signed long int)c] = _vl_kmeans_refine_centers_elkan_d__1__5__1__3__1__distance;
       numDistanceComputationsToNewCenters = numDistanceComputationsToNewCenters + (unsigned long long int)1;
       c = c + 1u;
     }
@@ -7077,23 +7077,23 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
     double *tmp = (double *)self->centers;
     self->centers = (void *)newCenters;
     newCenters = tmp;
-    double return_value__vl_kmeans_update_center_distances_d$14;
-    return_value__vl_kmeans_update_center_distances_d$14=_vl_kmeans_update_center_distances_d(self);
-    numDistanceComputationsToRefreshCenterDistances = numDistanceComputationsToRefreshCenterDistances + (unsigned long long int)return_value__vl_kmeans_update_center_distances_d$14;
+    double return_value__vl_kmeans_update_center_distances_d_14;
+    return_value__vl_kmeans_update_center_distances_d_14=_vl_kmeans_update_center_distances_d(self);
+    numDistanceComputationsToRefreshCenterDistances = numDistanceComputationsToRefreshCenterDistances + (unsigned long long int)return_value__vl_kmeans_update_center_distances_d_14;
     c = (unsigned int)0;
     for( ; !((unsigned long int)c >= self->numCenters); c = c + 1u)
     {
-      nextCenterDistances[(signed long int)c] = (double)vl_infinity_d$link2.value;
+      nextCenterDistances[(signed long int)c] = (double)vl_infinity_d_link2.value;
       j = (unsigned int)0;
       for( ; !((unsigned long int)j >= self->numCenters); j = j + 1u)
         if(!(j == c))
         {
           if(nextCenterDistances[(signed long int)c] < ((double *)self->centerDistances)[(signed long int)self->numCenters * (signed long int)(unsigned long int)c + (signed long int)(unsigned long int)j])
-            tmp_if_expr$15 = nextCenterDistances[(signed long int)c];
+            tmp_if_expr_15 = nextCenterDistances[(signed long int)c];
 
           else
-            tmp_if_expr$15 = ((double *)self->centerDistances)[(signed long int)((unsigned long int)j + (unsigned long int)c * self->numCenters)];
-          nextCenterDistances[(signed long int)c] = tmp_if_expr$15;
+            tmp_if_expr_15 = ((double *)self->centerDistances)[(signed long int)((unsigned long int)j + (unsigned long int)c * self->numCenters)];
+          nextCenterDistances[(signed long int)c] = tmp_if_expr_15;
         }
 
     }
@@ -7119,20 +7119,20 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
       c = (unsigned int)0;
       for( ; !((unsigned long int)c >= self->numCenters); c = c + 1u)
       {
-        double _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$a = pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)];
-        double _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$b = centerToNewCenterDistances[(signed long int)c];
-        if(_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$a < _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$b)
+        double _vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__a = pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)];
+        double _vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__b = centerToNewCenterDistances[(signed long int)c];
+        if(_vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__a < _vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__b)
           pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = (double)0;
 
         else
           if((signed int)self->distance == VlDistanceL1)
-            pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$a - _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$b;
+            pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__a - _vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__b;
 
           else
           {
-            double _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$2$$2$$sqrtab;
-            _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$2$$2$$sqrtab=sqrt(_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$a * _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$b);
-            pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = (_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$a + _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$b) - 2.0 * _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$7$$1$$1$$1$$2$$2$$sqrtab;
+            double _vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__2__2__sqrtab;
+            _vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__2__2__sqrtab=sqrt(_vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__a * _vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__b);
+            pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = (_vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__a + _vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__b) - 2.0 * _vl_kmeans_refine_centers_elkan_d__1__5__1__7__1__1__1__2__2__sqrtab;
           }
       }
     }
@@ -7144,32 +7144,32 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
         c = (unsigned int)0;
         for( ; !((unsigned long int)c >= self->numCenters); c = c + 1u)
         {
-          unsigned int _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$cx = assignments[x];
-          double _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$distance;
-          if(!(_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$cx == c))
+          unsigned int _vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__cx = assignments[x];
+          double _vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__distance;
+          if(!(_vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__cx == c))
           {
-            if(!(((signed int)self->distance == VlDistanceL1 ? 2.0 : 4.0) * pointToClosestCenterUB[x] <= ((double *)self->centerDistances)[(signed long int)self->numCenters * (signed long int)(unsigned long int)_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$cx + (signed long int)(unsigned long int)c]))
+            if(!(((signed int)self->distance == VlDistanceL1 ? 2.0 : 4.0) * pointToClosestCenterUB[x] <= ((double *)self->centerDistances)[(signed long int)self->numCenters * (signed long int)(unsigned long int)_vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__cx + (signed long int)(unsigned long int)c]))
             {
               if(!(pointToClosestCenterUB[x] <= pointToCenterLB[(signed long int)self->numCenters * (signed long int)(unsigned long int)x + (signed long int)(unsigned long int)c]))
               {
                 if(pointToClosestCenterUBIsStrict[x] == 0)
                 {
-                  _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$distance=distFn(self->dimension, data + (signed long int)(self->dimension * (unsigned long int)x), (double *)self->centers + (signed long int)(self->dimension * (unsigned long int)_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$cx));
-                  pointToClosestCenterUB[x] = _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$distance;
+                  _vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__distance=distFn(self->dimension, data + (signed long int)(self->dimension * (unsigned long int)x), (double *)self->centers + (signed long int)(self->dimension * (unsigned long int)_vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__cx));
+                  pointToClosestCenterUB[x] = _vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__distance;
                   pointToClosestCenterUBIsStrict[x] = 1;
-                  pointToCenterLB[(signed long int)((unsigned long int)_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$cx + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$distance;
+                  pointToCenterLB[(signed long int)((unsigned long int)_vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__cx + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__distance;
                   numDistanceComputationsToRefreshUB = numDistanceComputationsToRefreshUB + (unsigned long long int)1;
                 }
 
                 else
                 {
-                  _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$distance=distFn(self->dimension, data + (signed long int)((unsigned long int)x * self->dimension), (double *)self->centers + (signed long int)((unsigned long int)c * self->dimension));
+                  _vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__distance=distFn(self->dimension, data + (signed long int)((unsigned long int)x * self->dimension), (double *)self->centers + (signed long int)((unsigned long int)c * self->dimension));
                   numDistanceComputationsToRefreshLB = numDistanceComputationsToRefreshLB + (unsigned long long int)1;
-                  pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$distance;
-                  if(_vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$distance < pointToClosestCenterUB[x])
+                  pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__distance;
+                  if(_vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__distance < pointToClosestCenterUB[x])
                   {
                     assignments[x] = c;
-                    pointToClosestCenterUB[x] = _vl_kmeans_refine_centers_elkan_d$$1$$5$$1$$8$$1$$2$$1$$distance;
+                    pointToClosestCenterUB[x] = _vl_kmeans_refine_centers_elkan_d__1__5__1__8__1__2__1__distance;
                     allDone = 0;
                   }
 
@@ -7195,21 +7195,21 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
     if(!(self->verbosity == 0))
     {
       unsigned long long int numDistanceComputations = numDistanceComputationsToRefreshUB + numDistanceComputationsToRefreshLB + numDistanceComputationsToRefreshCenterDistances + numDistanceComputationsToNewCenters;
-      signed int (*return_value_vl_get_printf_func$16)(const char *, ...);
-      return_value_vl_get_printf_func$16=vl_get_printf_func();
-      return_value_vl_get_printf_func$16("kmeans: Elkan iter %d: energy <= %g, dist. calc. = %d\n", iteration, energy, numDistanceComputations);
+      signed int (*return_value_vl_get_printf_func_16)(const char *, ...);
+      return_value_vl_get_printf_func_16=vl_get_printf_func();
+      return_value_vl_get_printf_func_16("kmeans: Elkan iter %d: energy <= %g, dist. calc. = %d\n", iteration, energy, numDistanceComputations);
       if(!(numRestartedCenters == 0ull))
       {
-        signed int (*return_value_vl_get_printf_func$17)(const char *, ...);
-        return_value_vl_get_printf_func$17=vl_get_printf_func();
-        return_value_vl_get_printf_func$17("kmeans: Elkan iter %d: restarted %d centers\n", iteration, energy, numRestartedCenters);
+        signed int (*return_value_vl_get_printf_func_17)(const char *, ...);
+        return_value_vl_get_printf_func_17=vl_get_printf_func();
+        return_value_vl_get_printf_func_17("kmeans: Elkan iter %d: restarted %d centers\n", iteration, energy, numRestartedCenters);
       }
 
       if(self->verbosity >= 2)
       {
-        signed int (*return_value_vl_get_printf_func$18)(const char *, ...);
-        return_value_vl_get_printf_func$18=vl_get_printf_func();
-        return_value_vl_get_printf_func$18("kmeans: Elkan iter %d: total dist. calc. per type: UB: %.1f%% (%d), LB: %.1f%% (%d), intra_center: %.1f%% (%d), new_center: %.1f%% (%d)\n", iteration, (100.0 * (double)numDistanceComputationsToRefreshUB) / (double)numDistanceComputations, numDistanceComputationsToRefreshUB, (100.0 * (double)numDistanceComputationsToRefreshLB) / (double)numDistanceComputations, numDistanceComputationsToRefreshLB, (100.0 * (double)numDistanceComputationsToRefreshCenterDistances) / (double)numDistanceComputations, numDistanceComputationsToRefreshCenterDistances, (100.0 * (double)numDistanceComputationsToNewCenters) / (double)numDistanceComputations, numDistanceComputationsToNewCenters);
+        signed int (*return_value_vl_get_printf_func_18)(const char *, ...);
+        return_value_vl_get_printf_func_18=vl_get_printf_func();
+        return_value_vl_get_printf_func_18("kmeans: Elkan iter %d: total dist. calc. per type: UB: %.1f%% (%d), LB: %.1f%% (%d), intra_center: %.1f%% (%d), new_center: %.1f%% (%d)\n", iteration, (100.0 * (double)numDistanceComputationsToRefreshUB) / (double)numDistanceComputations, numDistanceComputationsToRefreshUB, (100.0 * (double)numDistanceComputationsToRefreshLB) / (double)numDistanceComputations, numDistanceComputationsToRefreshLB, (100.0 * (double)numDistanceComputationsToRefreshCenterDistances) / (double)numDistanceComputations, numDistanceComputationsToRefreshCenterDistances, (100.0 * (double)numDistanceComputationsToNewCenters) / (double)numDistanceComputations, numDistanceComputationsToNewCenters);
       }
 
     }
@@ -7218,9 +7218,9 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$19)(const char *, ...);
-        return_value_vl_get_printf_func$19=vl_get_printf_func();
-        return_value_vl_get_printf_func$19("kmeans: Elkan terminating because maximum number of iterations reached\n");
+        signed int (*return_value_vl_get_printf_func_19)(const char *, ...);
+        return_value_vl_get_printf_func_19=vl_get_printf_func();
+        return_value_vl_get_printf_func_19("kmeans: Elkan terminating because maximum number of iterations reached\n");
       }
 
       break;
@@ -7230,9 +7230,9 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$20)(const char *, ...);
-        return_value_vl_get_printf_func$20=vl_get_printf_func();
-        return_value_vl_get_printf_func$20("kmeans: Elkan terminating because the algorithm fully converged\n");
+        signed int (*return_value_vl_get_printf_func_20)(const char *, ...);
+        return_value_vl_get_printf_func_20=vl_get_printf_func();
+        return_value_vl_get_printf_func_20("kmeans: Elkan terminating because the algorithm fully converged\n");
       }
 
       break;
@@ -7255,23 +7255,23 @@ static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const do
   double saving = (double)totDistanceComputations / (double)(iteration * self->numCenters * numData);
   if(!(self->verbosity == 0))
   {
-    signed int (*return_value_vl_get_printf_func$21)(const char *, ...);
-    return_value_vl_get_printf_func$21=vl_get_printf_func();
-    return_value_vl_get_printf_func$21("kmeans: Elkan: total dist. calc.: %d (%.2f %% of Lloyd)\n", totDistanceComputations, saving * 100.0);
+    signed int (*return_value_vl_get_printf_func_21)(const char *, ...);
+    return_value_vl_get_printf_func_21=vl_get_printf_func();
+    return_value_vl_get_printf_func_21("kmeans: Elkan: total dist. calc.: %d (%.2f %% of Lloyd)\n", totDistanceComputations, saving * 100.0);
     if(!(totNumRestartedCenters == 0ull))
     {
-      signed int (*return_value_vl_get_printf_func$22)(const char *, ...);
-      return_value_vl_get_printf_func$22=vl_get_printf_func();
-      return_value_vl_get_printf_func$22("kmeans: Elkan: there have been %d restarts\n", totNumRestartedCenters);
+      signed int (*return_value_vl_get_printf_func_22)(const char *, ...);
+      return_value_vl_get_printf_func_22=vl_get_printf_func();
+      return_value_vl_get_printf_func_22("kmeans: Elkan: there have been %d restarts\n", totNumRestartedCenters);
     }
 
   }
 
   if(self->verbosity >= 2)
   {
-    signed int (*return_value_vl_get_printf_func$23)(const char *, ...);
-    return_value_vl_get_printf_func$23=vl_get_printf_func();
-    return_value_vl_get_printf_func$23("kmeans: Elkan: total dist. calc. per type: init: %.1f%% (%d), UB: %.1f%% (%d), LB: %.1f%% (%d), intra_center: %.1f%% (%d), new_center: %.1f%% (%d), finalize: %.1f%% (%d)\n", (100.0 * (double)totDistanceComputationsToInit) / (double)totDistanceComputations, totDistanceComputationsToInit, (100.0 * (double)totDistanceComputationsToRefreshUB) / (double)totDistanceComputations, totDistanceComputationsToRefreshUB, (100.0 * (double)totDistanceComputationsToRefreshLB) / (double)totDistanceComputations, totDistanceComputationsToRefreshLB, (100.0 * (double)totDistanceComputationsToRefreshCenterDistances) / (double)totDistanceComputations, totDistanceComputationsToRefreshCenterDistances, (100.0 * (double)totDistanceComputationsToNewCenters) / (double)totDistanceComputations, totDistanceComputationsToNewCenters, (100.0 * (double)totDistanceComputationsToFinalize) / (double)totDistanceComputations, totDistanceComputationsToFinalize);
+    signed int (*return_value_vl_get_printf_func_23)(const char *, ...);
+    return_value_vl_get_printf_func_23=vl_get_printf_func();
+    return_value_vl_get_printf_func_23("kmeans: Elkan: total dist. calc. per type: init: %.1f%% (%d), UB: %.1f%% (%d), LB: %.1f%% (%d), intra_center: %.1f%% (%d), new_center: %.1f%% (%d), finalize: %.1f%% (%d)\n", (100.0 * (double)totDistanceComputationsToInit) / (double)totDistanceComputations, totDistanceComputationsToInit, (100.0 * (double)totDistanceComputationsToRefreshUB) / (double)totDistanceComputations, totDistanceComputationsToRefreshUB, (100.0 * (double)totDistanceComputationsToRefreshLB) / (double)totDistanceComputations, totDistanceComputationsToRefreshLB, (100.0 * (double)totDistanceComputationsToRefreshCenterDistances) / (double)totDistanceComputations, totDistanceComputationsToRefreshCenterDistances, (100.0 * (double)totDistanceComputationsToNewCenters) / (double)totDistanceComputations, totDistanceComputationsToNewCenters, (100.0 * (double)totDistanceComputationsToFinalize) / (double)totDistanceComputations, totDistanceComputationsToFinalize);
   }
 
   if(!(permutations == ((unsigned int *)NULL)))
@@ -7303,45 +7303,45 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
   unsigned int j;
   signed int allDone;
   float *distances;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(float) /*4ul*/  * numData);
-  distances = (float *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(float) /*4ul*/  * numData);
+  distances = (float *)return_value_vl_malloc_1;
   unsigned int *assignments;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
-  assignments = (unsigned int *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
+  assignments = (unsigned int *)return_value_vl_malloc_2;
   unsigned long long int *clusterMasses;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
-  clusterMasses = (unsigned long long int *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
+  clusterMasses = (unsigned long long int *)return_value_vl_malloc_3;
   struct _VlRand *rand;
   rand=vl_get_rand();
   float (*distFn)(unsigned long long int, const float *, const float *);
   distFn=vl_get_vector_comparison_function_f(self->distance);
   float *nextCenterDistances;
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(float) /*4ul*/  * self->numCenters);
-  nextCenterDistances = (float *)return_value_vl_malloc$4;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(float) /*4ul*/  * self->numCenters);
+  nextCenterDistances = (float *)return_value_vl_malloc_4;
   float *pointToClosestCenterUB;
-  void *return_value_vl_malloc$5;
-  return_value_vl_malloc$5=vl_malloc(sizeof(float) /*4ul*/  * numData);
-  pointToClosestCenterUB = (float *)return_value_vl_malloc$5;
+  void *return_value_vl_malloc_5;
+  return_value_vl_malloc_5=vl_malloc(sizeof(float) /*4ul*/  * numData);
+  pointToClosestCenterUB = (float *)return_value_vl_malloc_5;
   signed int *pointToClosestCenterUBIsStrict;
-  void *return_value_vl_malloc$6;
-  return_value_vl_malloc$6=vl_malloc(sizeof(signed int) /*4ul*/  * numData);
-  pointToClosestCenterUBIsStrict = (signed int *)return_value_vl_malloc$6;
+  void *return_value_vl_malloc_6;
+  return_value_vl_malloc_6=vl_malloc(sizeof(signed int) /*4ul*/  * numData);
+  pointToClosestCenterUBIsStrict = (signed int *)return_value_vl_malloc_6;
   float *pointToCenterLB;
-  void *return_value_vl_malloc$7;
-  return_value_vl_malloc$7=vl_malloc(sizeof(float) /*4ul*/  * numData * self->numCenters);
-  pointToCenterLB = (float *)return_value_vl_malloc$7;
+  void *return_value_vl_malloc_7;
+  return_value_vl_malloc_7=vl_malloc(sizeof(float) /*4ul*/  * numData * self->numCenters);
+  pointToCenterLB = (float *)return_value_vl_malloc_7;
   float *newCenters;
-  void *return_value_vl_malloc$8;
-  return_value_vl_malloc$8=vl_malloc(sizeof(float) /*4ul*/  * self->dimension * self->numCenters);
-  newCenters = (float *)return_value_vl_malloc$8;
+  void *return_value_vl_malloc_8;
+  return_value_vl_malloc_8=vl_malloc(sizeof(float) /*4ul*/  * self->dimension * self->numCenters);
+  newCenters = (float *)return_value_vl_malloc_8;
   float *centerToNewCenterDistances;
-  void *return_value_vl_malloc$9;
-  return_value_vl_malloc$9=vl_malloc(sizeof(float) /*4ul*/  * self->numCenters);
-  centerToNewCenterDistances = (float *)return_value_vl_malloc$9;
+  void *return_value_vl_malloc_9;
+  return_value_vl_malloc_9=vl_malloc(sizeof(float) /*4ul*/  * self->numCenters);
+  centerToNewCenterDistances = (float *)return_value_vl_malloc_9;
   unsigned int *permutations = (unsigned int *)(void *)0;
   unsigned long long int *numSeenSoFar = (unsigned long long int *)(void *)0;
   double energy;
@@ -7354,40 +7354,40 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
   unsigned long long int totNumRestartedCenters = (unsigned long long int)0;
   if((signed int)self->distance == VlDistanceL1)
   {
-    void *return_value_vl_malloc$10;
-    return_value_vl_malloc$10=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
-    permutations = (unsigned int *)return_value_vl_malloc$10;
-    void *return_value_vl_malloc$11;
-    return_value_vl_malloc$11=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
-    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc$11;
+    void *return_value_vl_malloc_10;
+    return_value_vl_malloc_10=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
+    permutations = (unsigned int *)return_value_vl_malloc_10;
+    void *return_value_vl_malloc_11;
+    return_value_vl_malloc_11=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
+    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc_11;
     _vl_kmeans_sort_data_helper_f(self, permutations, data, numData);
   }
 
-  double return_value__vl_kmeans_update_center_distances_f$12;
-  return_value__vl_kmeans_update_center_distances_f$12=_vl_kmeans_update_center_distances_f(self);
-  totDistanceComputationsToInit = totDistanceComputationsToInit + (unsigned long long int)return_value__vl_kmeans_update_center_distances_f$12;
+  double return_value__vl_kmeans_update_center_distances_f_12;
+  return_value__vl_kmeans_update_center_distances_f_12=_vl_kmeans_update_center_distances_f(self);
+  totDistanceComputationsToInit = totDistanceComputationsToInit + (unsigned long long int)return_value__vl_kmeans_update_center_distances_f_12;
   memset((void *)pointToCenterLB, 0, sizeof(float) /*4ul*/  * self->numCenters * numData);
   x = (signed long long int)0;
   if(!(x >= (signed long int)(signed int)numData))
   {
-    float _vl_kmeans_refine_centers_elkan_f$$1$$2$$1$$distance;
+    float _vl_kmeans_refine_centers_elkan_f__1__2__1__distance;
     assignments[x] = (unsigned int)0;
-    _vl_kmeans_refine_centers_elkan_f$$1$$2$$1$$distance=distFn(self->dimension, data + (signed long int)((unsigned long int)x * self->dimension), (float *)self->centers + (signed long int)0);
-    pointToClosestCenterUB[x] = _vl_kmeans_refine_centers_elkan_f$$1$$2$$1$$distance;
+    _vl_kmeans_refine_centers_elkan_f__1__2__1__distance=distFn(self->dimension, data + (signed long int)((unsigned long int)x * self->dimension), (float *)self->centers + (signed long int)0);
+    pointToClosestCenterUB[x] = _vl_kmeans_refine_centers_elkan_f__1__2__1__distance;
     pointToClosestCenterUBIsStrict[x] = 1;
-    pointToCenterLB[(signed long int)((unsigned long int)0 + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_f$$1$$2$$1$$distance;
+    pointToCenterLB[(signed long int)((unsigned long int)0 + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_f__1__2__1__distance;
     totDistanceComputationsToInit = totDistanceComputationsToInit + (unsigned long long int)1;
     c = (unsigned int)1;
     if(!((unsigned long int)c >= self->numCenters))
     {
       if(!(((signed int)self->distance == VlDistanceL1 ? 2.0 : 4.0) * (double)pointToClosestCenterUB[x] <= (double)((float *)self->centerDistances)[(signed long int)self->numCenters * (signed long int)(unsigned long int)assignments[x] + (signed long int)(unsigned long int)c]))
       {
-        _vl_kmeans_refine_centers_elkan_f$$1$$2$$1$$distance=distFn(self->dimension, data + (signed long int)((unsigned long int)x * self->dimension), (float *)self->centers + (signed long int)((unsigned long int)c * self->dimension));
-        pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_f$$1$$2$$1$$distance;
+        _vl_kmeans_refine_centers_elkan_f__1__2__1__distance=distFn(self->dimension, data + (signed long int)((unsigned long int)x * self->dimension), (float *)self->centers + (signed long int)((unsigned long int)c * self->dimension));
+        pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_f__1__2__1__distance;
         totDistanceComputationsToInit = totDistanceComputationsToInit + (unsigned long long int)1;
-        if(_vl_kmeans_refine_centers_elkan_f$$1$$2$$1$$distance < pointToClosestCenterUB[x])
+        if(_vl_kmeans_refine_centers_elkan_f__1__2__1__distance < pointToClosestCenterUB[x])
         {
-          pointToClosestCenterUB[x] = _vl_kmeans_refine_centers_elkan_f$$1$$2$$1$$distance;
+          pointToClosestCenterUB[x] = _vl_kmeans_refine_centers_elkan_f__1__2__1__distance;
           assignments[x] = c;
         }
 
@@ -7405,13 +7405,13 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
     energy = energy + (double)pointToClosestCenterUB[x];
   if(!(self->verbosity == 0))
   {
-    signed int (*return_value_vl_get_printf_func$13)(const char *, ...);
-    return_value_vl_get_printf_func$13=vl_get_printf_func();
-    return_value_vl_get_printf_func$13("kmeans: Elkan iter 0: energy = %g, dist. calc. = %d\n", energy, totDistanceComputationsToInit);
+    signed int (*return_value_vl_get_printf_func_13)(const char *, ...);
+    return_value_vl_get_printf_func_13=vl_get_printf_func();
+    return_value_vl_get_printf_func_13("kmeans: Elkan iter 0: energy = %g, dist. calc. = %d\n", energy, totDistanceComputationsToInit);
   }
 
   iteration = (unsigned long long int)1;
-  float tmp_if_expr$15;
+  float tmp_if_expr_15;
   for( ; (_Bool)1; iteration = iteration + 1ull)
   {
     unsigned long long int numDistanceComputationsToRefreshUB = (unsigned long long int)0;
@@ -7440,23 +7440,23 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
         c = (unsigned int)0;
         for( ; !((unsigned long int)c >= self->numCenters); c = c + 1u)
         {
-          float *_vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$2$$1$$cpt = newCenters + (signed long int)((unsigned long int)c * self->dimension);
+          float *_vl_kmeans_refine_centers_elkan_f__1__5__1__2__2__1__cpt = newCenters + (signed long int)((unsigned long int)c * self->dimension);
           if(clusterMasses[(signed long int)c] >= 1ul)
           {
             float mass = (float)clusterMasses[(signed long int)c];
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$2$$1$$cpt[(signed long int)d] = _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$2$$1$$cpt[(signed long int)d] / mass;
+              _vl_kmeans_refine_centers_elkan_f__1__5__1__2__2__1__cpt[(signed long int)d] = _vl_kmeans_refine_centers_elkan_f__1__5__1__2__2__1__cpt[(signed long int)d] / mass;
           }
 
           else
           {
-            unsigned long long int _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$2$$1$$2$$x;
-            _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$2$$1$$2$$x=vl_rand_uindex(rand, numData);
+            unsigned long long int _vl_kmeans_refine_centers_elkan_f__1__5__1__2__2__1__2__x;
+            _vl_kmeans_refine_centers_elkan_f__1__5__1__2__2__1__2__x=vl_rand_uindex(rand, numData);
             numRestartedCenters = numRestartedCenters + 1ull;
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$2$$1$$cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$2$$1$$2$$x * self->dimension + d)];
+              _vl_kmeans_refine_centers_elkan_f__1__5__1__2__2__1__cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_elkan_f__1__5__1__2__2__1__2__x * self->dimension + d)];
           }
         }
         break;
@@ -7482,13 +7482,13 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
         for( ; !((unsigned long int)c >= self->numCenters); c = c + 1u)
           if(clusterMasses[(signed long int)c] == 0ul)
           {
-            float *_vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$4$$1$$1$$cpt = newCenters + (signed long int)((unsigned long int)c * self->dimension);
-            unsigned long long int _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$4$$1$$1$$x;
-            _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$4$$1$$1$$x=vl_rand_uindex(rand, numData);
+            float *_vl_kmeans_refine_centers_elkan_f__1__5__1__2__4__1__1__cpt = newCenters + (signed long int)((unsigned long int)c * self->dimension);
+            unsigned long long int _vl_kmeans_refine_centers_elkan_f__1__5__1__2__4__1__1__x;
+            _vl_kmeans_refine_centers_elkan_f__1__5__1__2__4__1__1__x=vl_rand_uindex(rand, numData);
             numRestartedCenters = numRestartedCenters + 1ull;
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$4$$1$$1$$cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$2$$4$$1$$1$$x * self->dimension + d)];
+              _vl_kmeans_refine_centers_elkan_f__1__5__1__2__4__1__1__cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_elkan_f__1__5__1__2__4__1__1__x * self->dimension + d)];
           }
 
         break;
@@ -7499,9 +7499,9 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
     c = (unsigned int)0;
     if(!((unsigned long int)c >= self->numCenters))
     {
-      float _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$3$$1$$distance;
-      _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$3$$1$$distance=distFn(self->dimension, newCenters + (signed long int)((unsigned long int)c * self->dimension), (float *)self->centers + (signed long int)((unsigned long int)c * self->dimension));
-      centerToNewCenterDistances[(signed long int)c] = _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$3$$1$$distance;
+      float _vl_kmeans_refine_centers_elkan_f__1__5__1__3__1__distance;
+      _vl_kmeans_refine_centers_elkan_f__1__5__1__3__1__distance=distFn(self->dimension, newCenters + (signed long int)((unsigned long int)c * self->dimension), (float *)self->centers + (signed long int)((unsigned long int)c * self->dimension));
+      centerToNewCenterDistances[(signed long int)c] = _vl_kmeans_refine_centers_elkan_f__1__5__1__3__1__distance;
       numDistanceComputationsToNewCenters = numDistanceComputationsToNewCenters + (unsigned long long int)1;
       c = c + 1u;
     }
@@ -7509,23 +7509,23 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
     float *tmp = (float *)self->centers;
     self->centers = (void *)newCenters;
     newCenters = tmp;
-    double return_value__vl_kmeans_update_center_distances_f$14;
-    return_value__vl_kmeans_update_center_distances_f$14=_vl_kmeans_update_center_distances_f(self);
-    numDistanceComputationsToRefreshCenterDistances = numDistanceComputationsToRefreshCenterDistances + (unsigned long long int)return_value__vl_kmeans_update_center_distances_f$14;
+    double return_value__vl_kmeans_update_center_distances_f_14;
+    return_value__vl_kmeans_update_center_distances_f_14=_vl_kmeans_update_center_distances_f(self);
+    numDistanceComputationsToRefreshCenterDistances = numDistanceComputationsToRefreshCenterDistances + (unsigned long long int)return_value__vl_kmeans_update_center_distances_f_14;
     c = (unsigned int)0;
     for( ; !((unsigned long int)c >= self->numCenters); c = c + 1u)
     {
-      nextCenterDistances[(signed long int)c] = (float)vl_infinity_d$link2.value;
+      nextCenterDistances[(signed long int)c] = (float)vl_infinity_d_link2.value;
       j = (unsigned int)0;
       for( ; !((unsigned long int)j >= self->numCenters); j = j + 1u)
         if(!(j == c))
         {
           if(nextCenterDistances[(signed long int)c] < ((float *)self->centerDistances)[(signed long int)self->numCenters * (signed long int)(unsigned long int)c + (signed long int)(unsigned long int)j])
-            tmp_if_expr$15 = nextCenterDistances[(signed long int)c];
+            tmp_if_expr_15 = nextCenterDistances[(signed long int)c];
 
           else
-            tmp_if_expr$15 = ((float *)self->centerDistances)[(signed long int)((unsigned long int)j + (unsigned long int)c * self->numCenters)];
-          nextCenterDistances[(signed long int)c] = tmp_if_expr$15;
+            tmp_if_expr_15 = ((float *)self->centerDistances)[(signed long int)((unsigned long int)j + (unsigned long int)c * self->numCenters)];
+          nextCenterDistances[(signed long int)c] = tmp_if_expr_15;
         }
 
     }
@@ -7533,15 +7533,15 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
     for( ; !(x >= (signed long int)(signed int)numData); x = x + 1ll)
     {
       float a = pointToClosestCenterUB[x];
-      float _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$6$$1$$b = centerToNewCenterDistances[(signed long int)assignments[x]];
+      float _vl_kmeans_refine_centers_elkan_f__1__5__1__6__1__b = centerToNewCenterDistances[(signed long int)assignments[x]];
       if((signed int)self->distance == VlDistanceL1)
-        pointToClosestCenterUB[x] = a + _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$6$$1$$b;
+        pointToClosestCenterUB[x] = a + _vl_kmeans_refine_centers_elkan_f__1__5__1__6__1__b;
 
       else
       {
-        float _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$6$$1$$2$$sqrtab;
-        _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$6$$1$$2$$sqrtab=sqrtf(a * _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$6$$1$$b);
-        pointToClosestCenterUB[x] = (float)((double)(a + _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$6$$1$$b) + 2.0 * (double)_vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$6$$1$$2$$sqrtab);
+        float _vl_kmeans_refine_centers_elkan_f__1__5__1__6__1__2__sqrtab;
+        _vl_kmeans_refine_centers_elkan_f__1__5__1__6__1__2__sqrtab=sqrtf(a * _vl_kmeans_refine_centers_elkan_f__1__5__1__6__1__b);
+        pointToClosestCenterUB[x] = (float)((double)(a + _vl_kmeans_refine_centers_elkan_f__1__5__1__6__1__b) + 2.0 * (double)_vl_kmeans_refine_centers_elkan_f__1__5__1__6__1__2__sqrtab);
       }
       pointToClosestCenterUBIsStrict[x] = 0;
     }
@@ -7551,20 +7551,20 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
       c = (unsigned int)0;
       for( ; !((unsigned long int)c >= self->numCenters); c = c + 1u)
       {
-        float _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$7$$1$$1$$1$$a = pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)];
+        float _vl_kmeans_refine_centers_elkan_f__1__5__1__7__1__1__1__a = pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)];
         float b = centerToNewCenterDistances[(signed long int)c];
-        if(_vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$7$$1$$1$$1$$a < b)
+        if(_vl_kmeans_refine_centers_elkan_f__1__5__1__7__1__1__1__a < b)
           pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = (float)0;
 
         else
           if((signed int)self->distance == VlDistanceL1)
-            pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$7$$1$$1$$1$$a - b;
+            pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = _vl_kmeans_refine_centers_elkan_f__1__5__1__7__1__1__1__a - b;
 
           else
           {
             float sqrtab;
-            sqrtab=sqrtf(_vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$7$$1$$1$$1$$a * b);
-            pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = (float)((double)(_vl_kmeans_refine_centers_elkan_f$$1$$5$$1$$7$$1$$1$$1$$a + b) - 2.0 * (double)sqrtab);
+            sqrtab=sqrtf(_vl_kmeans_refine_centers_elkan_f__1__5__1__7__1__1__1__a * b);
+            pointToCenterLB[(signed long int)((unsigned long int)c + (unsigned long int)x * self->numCenters)] = (float)((double)(_vl_kmeans_refine_centers_elkan_f__1__5__1__7__1__1__1__a + b) - 2.0 * (double)sqrtab);
           }
       }
     }
@@ -7627,21 +7627,21 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
     if(!(self->verbosity == 0))
     {
       unsigned long long int numDistanceComputations = numDistanceComputationsToRefreshUB + numDistanceComputationsToRefreshLB + numDistanceComputationsToRefreshCenterDistances + numDistanceComputationsToNewCenters;
-      signed int (*return_value_vl_get_printf_func$16)(const char *, ...);
-      return_value_vl_get_printf_func$16=vl_get_printf_func();
-      return_value_vl_get_printf_func$16("kmeans: Elkan iter %d: energy <= %g, dist. calc. = %d\n", iteration, energy, numDistanceComputations);
+      signed int (*return_value_vl_get_printf_func_16)(const char *, ...);
+      return_value_vl_get_printf_func_16=vl_get_printf_func();
+      return_value_vl_get_printf_func_16("kmeans: Elkan iter %d: energy <= %g, dist. calc. = %d\n", iteration, energy, numDistanceComputations);
       if(!(numRestartedCenters == 0ull))
       {
-        signed int (*return_value_vl_get_printf_func$17)(const char *, ...);
-        return_value_vl_get_printf_func$17=vl_get_printf_func();
-        return_value_vl_get_printf_func$17("kmeans: Elkan iter %d: restarted %d centers\n", iteration, energy, numRestartedCenters);
+        signed int (*return_value_vl_get_printf_func_17)(const char *, ...);
+        return_value_vl_get_printf_func_17=vl_get_printf_func();
+        return_value_vl_get_printf_func_17("kmeans: Elkan iter %d: restarted %d centers\n", iteration, energy, numRestartedCenters);
       }
 
       if(self->verbosity >= 2)
       {
-        signed int (*return_value_vl_get_printf_func$18)(const char *, ...);
-        return_value_vl_get_printf_func$18=vl_get_printf_func();
-        return_value_vl_get_printf_func$18("kmeans: Elkan iter %d: total dist. calc. per type: UB: %.1f%% (%d), LB: %.1f%% (%d), intra_center: %.1f%% (%d), new_center: %.1f%% (%d)\n", iteration, (100.0 * (double)numDistanceComputationsToRefreshUB) / (double)numDistanceComputations, numDistanceComputationsToRefreshUB, (100.0 * (double)numDistanceComputationsToRefreshLB) / (double)numDistanceComputations, numDistanceComputationsToRefreshLB, (100.0 * (double)numDistanceComputationsToRefreshCenterDistances) / (double)numDistanceComputations, numDistanceComputationsToRefreshCenterDistances, (100.0 * (double)numDistanceComputationsToNewCenters) / (double)numDistanceComputations, numDistanceComputationsToNewCenters);
+        signed int (*return_value_vl_get_printf_func_18)(const char *, ...);
+        return_value_vl_get_printf_func_18=vl_get_printf_func();
+        return_value_vl_get_printf_func_18("kmeans: Elkan iter %d: total dist. calc. per type: UB: %.1f%% (%d), LB: %.1f%% (%d), intra_center: %.1f%% (%d), new_center: %.1f%% (%d)\n", iteration, (100.0 * (double)numDistanceComputationsToRefreshUB) / (double)numDistanceComputations, numDistanceComputationsToRefreshUB, (100.0 * (double)numDistanceComputationsToRefreshLB) / (double)numDistanceComputations, numDistanceComputationsToRefreshLB, (100.0 * (double)numDistanceComputationsToRefreshCenterDistances) / (double)numDistanceComputations, numDistanceComputationsToRefreshCenterDistances, (100.0 * (double)numDistanceComputationsToNewCenters) / (double)numDistanceComputations, numDistanceComputationsToNewCenters);
       }
 
     }
@@ -7650,9 +7650,9 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$19)(const char *, ...);
-        return_value_vl_get_printf_func$19=vl_get_printf_func();
-        return_value_vl_get_printf_func$19("kmeans: Elkan terminating because maximum number of iterations reached\n");
+        signed int (*return_value_vl_get_printf_func_19)(const char *, ...);
+        return_value_vl_get_printf_func_19=vl_get_printf_func();
+        return_value_vl_get_printf_func_19("kmeans: Elkan terminating because maximum number of iterations reached\n");
       }
 
       break;
@@ -7662,9 +7662,9 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$20)(const char *, ...);
-        return_value_vl_get_printf_func$20=vl_get_printf_func();
-        return_value_vl_get_printf_func$20("kmeans: Elkan terminating because the algorithm fully converged\n");
+        signed int (*return_value_vl_get_printf_func_20)(const char *, ...);
+        return_value_vl_get_printf_func_20=vl_get_printf_func();
+        return_value_vl_get_printf_func_20("kmeans: Elkan terminating because the algorithm fully converged\n");
       }
 
       break;
@@ -7675,9 +7675,9 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
   x = (signed long long int)0;
   if(!(x >= (signed long int)(signed int)numData))
   {
-    unsigned long long int _vl_kmeans_refine_centers_elkan_f$$1$$6$$1$$cx = (unsigned long long int)assignments[x];
+    unsigned long long int _vl_kmeans_refine_centers_elkan_f__1__6__1__cx = (unsigned long long int)assignments[x];
     float return_value;
-    return_value=distFn(self->dimension, data + (signed long int)(self->dimension * (unsigned long int)x), (float *)self->centers + (signed long int)(self->dimension * _vl_kmeans_refine_centers_elkan_f$$1$$6$$1$$cx));
+    return_value=distFn(self->dimension, data + (signed long int)(self->dimension * (unsigned long int)x), (float *)self->centers + (signed long int)(self->dimension * _vl_kmeans_refine_centers_elkan_f__1__6__1__cx));
     energy = energy + (double)return_value;
     totDistanceComputationsToFinalize = totDistanceComputationsToFinalize + (unsigned long long int)1;
     x = x + 1ll;
@@ -7687,23 +7687,23 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
   double saving = (double)totDistanceComputations / (double)(iteration * self->numCenters * numData);
   if(!(self->verbosity == 0))
   {
-    signed int (*return_value_vl_get_printf_func$21)(const char *, ...);
-    return_value_vl_get_printf_func$21=vl_get_printf_func();
-    return_value_vl_get_printf_func$21("kmeans: Elkan: total dist. calc.: %d (%.2f %% of Lloyd)\n", totDistanceComputations, saving * 100.0);
+    signed int (*return_value_vl_get_printf_func_21)(const char *, ...);
+    return_value_vl_get_printf_func_21=vl_get_printf_func();
+    return_value_vl_get_printf_func_21("kmeans: Elkan: total dist. calc.: %d (%.2f %% of Lloyd)\n", totDistanceComputations, saving * 100.0);
     if(!(totNumRestartedCenters == 0ull))
     {
-      signed int (*return_value_vl_get_printf_func$22)(const char *, ...);
-      return_value_vl_get_printf_func$22=vl_get_printf_func();
-      return_value_vl_get_printf_func$22("kmeans: Elkan: there have been %d restarts\n", totNumRestartedCenters);
+      signed int (*return_value_vl_get_printf_func_22)(const char *, ...);
+      return_value_vl_get_printf_func_22=vl_get_printf_func();
+      return_value_vl_get_printf_func_22("kmeans: Elkan: there have been %d restarts\n", totNumRestartedCenters);
     }
 
   }
 
   if(self->verbosity >= 2)
   {
-    signed int (*return_value_vl_get_printf_func$23)(const char *, ...);
-    return_value_vl_get_printf_func$23=vl_get_printf_func();
-    return_value_vl_get_printf_func$23("kmeans: Elkan: total dist. calc. per type: init: %.1f%% (%d), UB: %.1f%% (%d), LB: %.1f%% (%d), intra_center: %.1f%% (%d), new_center: %.1f%% (%d), finalize: %.1f%% (%d)\n", (100.0 * (double)totDistanceComputationsToInit) / (double)totDistanceComputations, totDistanceComputationsToInit, (100.0 * (double)totDistanceComputationsToRefreshUB) / (double)totDistanceComputations, totDistanceComputationsToRefreshUB, (100.0 * (double)totDistanceComputationsToRefreshLB) / (double)totDistanceComputations, totDistanceComputationsToRefreshLB, (100.0 * (double)totDistanceComputationsToRefreshCenterDistances) / (double)totDistanceComputations, totDistanceComputationsToRefreshCenterDistances, (100.0 * (double)totDistanceComputationsToNewCenters) / (double)totDistanceComputations, totDistanceComputationsToNewCenters, (100.0 * (double)totDistanceComputationsToFinalize) / (double)totDistanceComputations, totDistanceComputationsToFinalize);
+    signed int (*return_value_vl_get_printf_func_23)(const char *, ...);
+    return_value_vl_get_printf_func_23=vl_get_printf_func();
+    return_value_vl_get_printf_func_23("kmeans: Elkan: total dist. calc. per type: init: %.1f%% (%d), UB: %.1f%% (%d), LB: %.1f%% (%d), intra_center: %.1f%% (%d), new_center: %.1f%% (%d), finalize: %.1f%% (%d)\n", (100.0 * (double)totDistanceComputationsToInit) / (double)totDistanceComputations, totDistanceComputationsToInit, (100.0 * (double)totDistanceComputationsToRefreshUB) / (double)totDistanceComputations, totDistanceComputationsToRefreshUB, (100.0 * (double)totDistanceComputationsToRefreshLB) / (double)totDistanceComputations, totDistanceComputationsToRefreshLB, (100.0 * (double)totDistanceComputationsToRefreshCenterDistances) / (double)totDistanceComputations, totDistanceComputationsToRefreshCenterDistances, (100.0 * (double)totDistanceComputationsToNewCenters) / (double)totDistanceComputations, totDistanceComputationsToNewCenters, (100.0 * (double)totDistanceComputationsToFinalize) / (double)totDistanceComputations, totDistanceComputationsToFinalize);
   }
 
   if(!(permutations == ((unsigned int *)NULL)))
@@ -7728,25 +7728,25 @@ static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const fl
 // file vl/kmeans.c line 1751
 static double _vl_kmeans_refine_centers_f(struct _VlKMeans *self, const float *data, unsigned long long int numData)
 {
-  double return_value__vl_kmeans_refine_centers_lloyd_f$1;
-  double return_value__vl_kmeans_refine_centers_elkan_f$2;
-  double return_value__vl_kmeans_refine_centers_ann_f$3;
+  double return_value__vl_kmeans_refine_centers_lloyd_f_1;
+  double return_value__vl_kmeans_refine_centers_elkan_f_2;
+  double return_value__vl_kmeans_refine_centers_ann_f_3;
   switch((signed int)self->algorithm)
   {
     case VlKMeansLloyd:
     {
-      return_value__vl_kmeans_refine_centers_lloyd_f$1=_vl_kmeans_refine_centers_lloyd_f(self, data, numData);
-      return return_value__vl_kmeans_refine_centers_lloyd_f$1;
+      return_value__vl_kmeans_refine_centers_lloyd_f_1=_vl_kmeans_refine_centers_lloyd_f(self, data, numData);
+      return return_value__vl_kmeans_refine_centers_lloyd_f_1;
     }
     case VlKMeansElkan:
     {
-      return_value__vl_kmeans_refine_centers_elkan_f$2=_vl_kmeans_refine_centers_elkan_f(self, data, numData);
-      return return_value__vl_kmeans_refine_centers_elkan_f$2;
+      return_value__vl_kmeans_refine_centers_elkan_f_2=_vl_kmeans_refine_centers_elkan_f(self, data, numData);
+      return return_value__vl_kmeans_refine_centers_elkan_f_2;
     }
     case VlKMeansANN:
     {
-      return_value__vl_kmeans_refine_centers_ann_f$3=_vl_kmeans_refine_centers_ann_f(self, data, numData);
-      return return_value__vl_kmeans_refine_centers_ann_f$3;
+      return_value__vl_kmeans_refine_centers_ann_f_3=_vl_kmeans_refine_centers_ann_f(self, data, numData);
+      return return_value__vl_kmeans_refine_centers_ann_f_3;
     }
     default:
       abort();
@@ -7761,21 +7761,21 @@ static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const do
   unsigned long long int d;
   unsigned long long int x;
   unsigned long long int iteration;
-  double previousEnergy = vl_infinity_d$link2.value;
-  double initialEnergy = vl_infinity_d$link2.value;
+  double previousEnergy = vl_infinity_d_link2.value;
+  double initialEnergy = vl_infinity_d_link2.value;
   double energy;
   double *distances;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(double) /*8ul*/  * numData);
-  distances = (double *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(double) /*8ul*/  * numData);
+  distances = (double *)return_value_vl_malloc_1;
   unsigned int *assignments;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
-  assignments = (unsigned int *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
+  assignments = (unsigned int *)return_value_vl_malloc_2;
   unsigned long long int *clusterMasses;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
-  clusterMasses = (unsigned long long int *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
+  clusterMasses = (unsigned long long int *)return_value_vl_malloc_3;
   unsigned int *permutations = (unsigned int *)(void *)0;
   unsigned long long int *numSeenSoFar = (unsigned long long int *)(void *)0;
   struct _VlRand *rand;
@@ -7784,16 +7784,16 @@ static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const do
   unsigned long long int numRestartedCenters = (unsigned long long int)0;
   if((signed int)self->distance == VlDistanceL1)
   {
-    void *return_value_vl_malloc$4;
-    return_value_vl_malloc$4=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
-    permutations = (unsigned int *)return_value_vl_malloc$4;
-    void *return_value_vl_malloc$5;
-    return_value_vl_malloc$5=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
-    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc$5;
+    void *return_value_vl_malloc_4;
+    return_value_vl_malloc_4=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
+    permutations = (unsigned int *)return_value_vl_malloc_4;
+    void *return_value_vl_malloc_5;
+    return_value_vl_malloc_5=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
+    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc_5;
     _vl_kmeans_sort_data_helper_d(self, permutations, data, numData);
   }
 
-  energy = vl_infinity_d$link2.value;
+  energy = vl_infinity_d_link2.value;
   iteration = (unsigned long long int)0;
   for( ; (_Bool)1; iteration = iteration + 1ull)
   {
@@ -7804,18 +7804,18 @@ static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const do
       energy = energy + distances[(signed long int)x];
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$6)(const char *, ...);
-      return_value_vl_get_printf_func$6=vl_get_printf_func();
-      return_value_vl_get_printf_func$6("kmeans: Lloyd iter %d: energy = %g\n", iteration, energy);
+      signed int (*return_value_vl_get_printf_func_6)(const char *, ...);
+      return_value_vl_get_printf_func_6=vl_get_printf_func();
+      return_value_vl_get_printf_func_6("kmeans: Lloyd iter %d: energy = %g\n", iteration, energy);
     }
 
     if(iteration >= self->maxNumIterations)
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$7)(const char *, ...);
-        return_value_vl_get_printf_func$7=vl_get_printf_func();
-        return_value_vl_get_printf_func$7("kmeans: Lloyd terminating because maximum number of iterations reached\n");
+        signed int (*return_value_vl_get_printf_func_7)(const char *, ...);
+        return_value_vl_get_printf_func_7=vl_get_printf_func();
+        return_value_vl_get_printf_func_7("kmeans: Lloyd terminating because maximum number of iterations reached\n");
       }
 
       break;
@@ -7825,9 +7825,9 @@ static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const do
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$8)(const char *, ...);
-        return_value_vl_get_printf_func$8=vl_get_printf_func();
-        return_value_vl_get_printf_func$8("kmeans: Lloyd terminating because the algorithm fully converged\n");
+        signed int (*return_value_vl_get_printf_func_8)(const char *, ...);
+        return_value_vl_get_printf_func_8=vl_get_printf_func();
+        return_value_vl_get_printf_func_8("kmeans: Lloyd terminating because the algorithm fully converged\n");
       }
 
       break;
@@ -7843,9 +7843,9 @@ static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const do
       {
         if(!(self->verbosity == 0))
         {
-          signed int (*return_value_vl_get_printf_func$9)(const char *, ...);
-          return_value_vl_get_printf_func$9=vl_get_printf_func();
-          return_value_vl_get_printf_func$9("kmeans: ANN terminating because the energy relative variation was less than %f\n", self->minEnergyVariation);
+          signed int (*return_value_vl_get_printf_func_9)(const char *, ...);
+          return_value_vl_get_printf_func_9=vl_get_printf_func();
+          return_value_vl_get_printf_func_9("kmeans: ANN terminating because the energy relative variation was less than %f\n", self->minEnergyVariation);
         }
 
         break;
@@ -7866,11 +7866,11 @@ static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const do
         x = (unsigned long long int)0;
         for( ; !(x >= numData); x = x + 1ull)
         {
-          double *_vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$1$$1$$cpt = (double *)self->centers + (signed long int)((unsigned long int)assignments[(signed long int)x] * self->dimension);
+          double *_vl_kmeans_refine_centers_lloyd_d__1__2__1__8__1__1__cpt = (double *)self->centers + (signed long int)((unsigned long int)assignments[(signed long int)x] * self->dimension);
           const double *xpt = data + (signed long int)(x * self->dimension);
           d = (unsigned long long int)0;
           for( ; !(d >= self->dimension); d = d + 1ull)
-            _vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$1$$1$$cpt[(signed long int)d] = _vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$1$$1$$cpt[(signed long int)d] + xpt[(signed long int)d];
+            _vl_kmeans_refine_centers_lloyd_d__1__2__1__8__1__1__cpt[(signed long int)d] = _vl_kmeans_refine_centers_lloyd_d__1__2__1__8__1__1__cpt[(signed long int)d] + xpt[(signed long int)d];
         }
         c = (unsigned long long int)0;
         for( ; !(c >= self->numCenters); c = c + 1ull)
@@ -7886,12 +7886,12 @@ static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const do
 
           else
           {
-            unsigned long long int _vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$2$$1$$2$$x;
-            _vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$2$$1$$2$$x=vl_rand_uindex(rand, numData);
+            unsigned long long int _vl_kmeans_refine_centers_lloyd_d__1__2__1__8__2__1__2__x;
+            _vl_kmeans_refine_centers_lloyd_d__1__2__1__8__2__1__2__x=vl_rand_uindex(rand, numData);
             numRestartedCenters = numRestartedCenters + 1ull;
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$2$$1$$2$$x * self->dimension + d)];
+              cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_lloyd_d__1__2__1__8__2__1__2__x * self->dimension + d)];
           }
         }
         break;
@@ -7916,13 +7916,13 @@ static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const do
           for( ; !(c >= self->numCenters); c = c + 1ull)
             if(clusterMasses[(signed long int)c] == 0ul)
             {
-              double *_vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$3$$1$$2$$1$$1$$cpt = (double *)self->centers + (signed long int)(c * self->dimension);
-              unsigned long long int _vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$3$$1$$2$$1$$1$$x;
-              _vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$3$$1$$2$$1$$1$$x=vl_rand_uindex(rand, numData);
+              double *_vl_kmeans_refine_centers_lloyd_d__1__2__1__8__3__1__2__1__1__cpt = (double *)self->centers + (signed long int)(c * self->dimension);
+              unsigned long long int _vl_kmeans_refine_centers_lloyd_d__1__2__1__8__3__1__2__1__1__x;
+              _vl_kmeans_refine_centers_lloyd_d__1__2__1__8__3__1__2__1__1__x=vl_rand_uindex(rand, numData);
               numRestartedCenters = numRestartedCenters + 1ull;
               d = (unsigned long long int)0;
               for( ; !(d >= self->dimension); d = d + 1ull)
-                _vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$3$$1$$2$$1$$1$$cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_lloyd_d$$1$$2$$1$$8$$3$$1$$2$$1$$1$$x * self->dimension + d)];
+                _vl_kmeans_refine_centers_lloyd_d__1__2__1__8__3__1__2__1__1__cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_lloyd_d__1__2__1__8__3__1__2__1__1__x * self->dimension + d)];
             }
 
         }
@@ -7936,9 +7936,9 @@ static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const do
     {
       if(!(numRestartedCenters == 0ull))
       {
-        signed int (*return_value_vl_get_printf_func$10)(const char *, ...);
-        return_value_vl_get_printf_func$10=vl_get_printf_func();
-        return_value_vl_get_printf_func$10("kmeans: Lloyd iter %d: restarted %d centers\n", iteration, numRestartedCenters);
+        signed int (*return_value_vl_get_printf_func_10)(const char *, ...);
+        return_value_vl_get_printf_func_10=vl_get_printf_func();
+        return_value_vl_get_printf_func_10("kmeans: Lloyd iter %d: restarted %d centers\n", iteration, numRestartedCenters);
       }
 
     }
@@ -7962,23 +7962,23 @@ static double _vl_kmeans_refine_centers_lloyd_f(struct _VlKMeans *self, const fl
 {
   unsigned long long int c;
   unsigned long long int d;
-  unsigned long long int _vl_kmeans_refine_centers_lloyd_f$$1$$x;
+  unsigned long long int _vl_kmeans_refine_centers_lloyd_f__1__x;
   unsigned long long int iteration;
-  double previousEnergy = vl_infinity_d$link2.value;
-  double initialEnergy = vl_infinity_d$link2.value;
+  double previousEnergy = vl_infinity_d_link2.value;
+  double initialEnergy = vl_infinity_d_link2.value;
   double energy;
   float *distances;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(float) /*4ul*/  * numData);
-  distances = (float *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(float) /*4ul*/  * numData);
+  distances = (float *)return_value_vl_malloc_1;
   unsigned int *assignments;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
-  assignments = (unsigned int *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData);
+  assignments = (unsigned int *)return_value_vl_malloc_2;
   unsigned long long int *clusterMasses;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
-  clusterMasses = (unsigned long long int *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numData);
+  clusterMasses = (unsigned long long int *)return_value_vl_malloc_3;
   unsigned int *permutations = (unsigned int *)(void *)0;
   unsigned long long int *numSeenSoFar = (unsigned long long int *)(void *)0;
   struct _VlRand *rand;
@@ -7987,38 +7987,38 @@ static double _vl_kmeans_refine_centers_lloyd_f(struct _VlKMeans *self, const fl
   unsigned long long int numRestartedCenters = (unsigned long long int)0;
   if((signed int)self->distance == VlDistanceL1)
   {
-    void *return_value_vl_malloc$4;
-    return_value_vl_malloc$4=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
-    permutations = (unsigned int *)return_value_vl_malloc$4;
-    void *return_value_vl_malloc$5;
-    return_value_vl_malloc$5=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
-    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc$5;
+    void *return_value_vl_malloc_4;
+    return_value_vl_malloc_4=vl_malloc(sizeof(unsigned int) /*4ul*/  * numData * self->dimension);
+    permutations = (unsigned int *)return_value_vl_malloc_4;
+    void *return_value_vl_malloc_5;
+    return_value_vl_malloc_5=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
+    numSeenSoFar = (unsigned long long int *)return_value_vl_malloc_5;
     _vl_kmeans_sort_data_helper_f(self, permutations, data, numData);
   }
 
-  energy = vl_infinity_d$link2.value;
+  energy = vl_infinity_d_link2.value;
   iteration = (unsigned long long int)0;
   for( ; (_Bool)1; iteration = iteration + 1ull)
   {
     _vl_kmeans_quantize_f(self, assignments, distances, data, numData);
     energy = (double)0;
-    _vl_kmeans_refine_centers_lloyd_f$$1$$x = (unsigned long long int)0;
-    for( ; !(_vl_kmeans_refine_centers_lloyd_f$$1$$x >= numData); _vl_kmeans_refine_centers_lloyd_f$$1$$x = _vl_kmeans_refine_centers_lloyd_f$$1$$x + 1ull)
-      energy = energy + (double)distances[(signed long int)_vl_kmeans_refine_centers_lloyd_f$$1$$x];
+    _vl_kmeans_refine_centers_lloyd_f__1__x = (unsigned long long int)0;
+    for( ; !(_vl_kmeans_refine_centers_lloyd_f__1__x >= numData); _vl_kmeans_refine_centers_lloyd_f__1__x = _vl_kmeans_refine_centers_lloyd_f__1__x + 1ull)
+      energy = energy + (double)distances[(signed long int)_vl_kmeans_refine_centers_lloyd_f__1__x];
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$6)(const char *, ...);
-      return_value_vl_get_printf_func$6=vl_get_printf_func();
-      return_value_vl_get_printf_func$6("kmeans: Lloyd iter %d: energy = %g\n", iteration, energy);
+      signed int (*return_value_vl_get_printf_func_6)(const char *, ...);
+      return_value_vl_get_printf_func_6=vl_get_printf_func();
+      return_value_vl_get_printf_func_6("kmeans: Lloyd iter %d: energy = %g\n", iteration, energy);
     }
 
     if(iteration >= self->maxNumIterations)
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$7)(const char *, ...);
-        return_value_vl_get_printf_func$7=vl_get_printf_func();
-        return_value_vl_get_printf_func$7("kmeans: Lloyd terminating because maximum number of iterations reached\n");
+        signed int (*return_value_vl_get_printf_func_7)(const char *, ...);
+        return_value_vl_get_printf_func_7=vl_get_printf_func();
+        return_value_vl_get_printf_func_7("kmeans: Lloyd terminating because maximum number of iterations reached\n");
       }
 
       break;
@@ -8028,9 +8028,9 @@ static double _vl_kmeans_refine_centers_lloyd_f(struct _VlKMeans *self, const fl
     {
       if(!(self->verbosity == 0))
       {
-        signed int (*return_value_vl_get_printf_func$8)(const char *, ...);
-        return_value_vl_get_printf_func$8=vl_get_printf_func();
-        return_value_vl_get_printf_func$8("kmeans: Lloyd terminating because the algorithm fully converged\n");
+        signed int (*return_value_vl_get_printf_func_8)(const char *, ...);
+        return_value_vl_get_printf_func_8=vl_get_printf_func();
+        return_value_vl_get_printf_func_8("kmeans: Lloyd terminating because the algorithm fully converged\n");
       }
 
       break;
@@ -8046,9 +8046,9 @@ static double _vl_kmeans_refine_centers_lloyd_f(struct _VlKMeans *self, const fl
       {
         if(!(self->verbosity == 0))
         {
-          signed int (*return_value_vl_get_printf_func$9)(const char *, ...);
-          return_value_vl_get_printf_func$9=vl_get_printf_func();
-          return_value_vl_get_printf_func$9("kmeans: ANN terminating because the energy relative variation was less than %f\n", self->minEnergyVariation);
+          signed int (*return_value_vl_get_printf_func_9)(const char *, ...);
+          return_value_vl_get_printf_func_9=vl_get_printf_func();
+          return_value_vl_get_printf_func_9("kmeans: ANN terminating because the energy relative variation was less than %f\n", self->minEnergyVariation);
         }
 
         break;
@@ -8057,44 +8057,44 @@ static double _vl_kmeans_refine_centers_lloyd_f(struct _VlKMeans *self, const fl
     }
     previousEnergy = energy;
     memset((void *)clusterMasses, 0, sizeof(unsigned long long int) /*8ul*/  * numData);
-    _vl_kmeans_refine_centers_lloyd_f$$1$$x = (unsigned long long int)0;
-    for( ; !(_vl_kmeans_refine_centers_lloyd_f$$1$$x >= numData); _vl_kmeans_refine_centers_lloyd_f$$1$$x = _vl_kmeans_refine_centers_lloyd_f$$1$$x + 1ull)
-      clusterMasses[(signed long int)assignments[(signed long int)_vl_kmeans_refine_centers_lloyd_f$$1$$x]] = clusterMasses[(signed long int)assignments[(signed long int)_vl_kmeans_refine_centers_lloyd_f$$1$$x]] + 1ull;
+    _vl_kmeans_refine_centers_lloyd_f__1__x = (unsigned long long int)0;
+    for( ; !(_vl_kmeans_refine_centers_lloyd_f__1__x >= numData); _vl_kmeans_refine_centers_lloyd_f__1__x = _vl_kmeans_refine_centers_lloyd_f__1__x + 1ull)
+      clusterMasses[(signed long int)assignments[(signed long int)_vl_kmeans_refine_centers_lloyd_f__1__x]] = clusterMasses[(signed long int)assignments[(signed long int)_vl_kmeans_refine_centers_lloyd_f__1__x]] + 1ull;
     numRestartedCenters = (unsigned long long int)0;
     switch((signed int)self->distance)
     {
       case VlDistanceL2:
       {
         memset(self->centers, 0, sizeof(float) /*4ul*/  * self->dimension * self->numCenters);
-        _vl_kmeans_refine_centers_lloyd_f$$1$$x = (unsigned long long int)0;
-        for( ; !(_vl_kmeans_refine_centers_lloyd_f$$1$$x >= numData); _vl_kmeans_refine_centers_lloyd_f$$1$$x = _vl_kmeans_refine_centers_lloyd_f$$1$$x + 1ull)
+        _vl_kmeans_refine_centers_lloyd_f__1__x = (unsigned long long int)0;
+        for( ; !(_vl_kmeans_refine_centers_lloyd_f__1__x >= numData); _vl_kmeans_refine_centers_lloyd_f__1__x = _vl_kmeans_refine_centers_lloyd_f__1__x + 1ull)
         {
-          float *_vl_kmeans_refine_centers_lloyd_f$$1$$2$$1$$8$$1$$1$$cpt = (float *)self->centers + (signed long int)((unsigned long int)assignments[(signed long int)_vl_kmeans_refine_centers_lloyd_f$$1$$x] * self->dimension);
-          const float *xpt = data + (signed long int)(_vl_kmeans_refine_centers_lloyd_f$$1$$x * self->dimension);
+          float *_vl_kmeans_refine_centers_lloyd_f__1__2__1__8__1__1__cpt = (float *)self->centers + (signed long int)((unsigned long int)assignments[(signed long int)_vl_kmeans_refine_centers_lloyd_f__1__x] * self->dimension);
+          const float *xpt = data + (signed long int)(_vl_kmeans_refine_centers_lloyd_f__1__x * self->dimension);
           d = (unsigned long long int)0;
           for( ; !(d >= self->dimension); d = d + 1ull)
-            _vl_kmeans_refine_centers_lloyd_f$$1$$2$$1$$8$$1$$1$$cpt[(signed long int)d] = _vl_kmeans_refine_centers_lloyd_f$$1$$2$$1$$8$$1$$1$$cpt[(signed long int)d] + xpt[(signed long int)d];
+            _vl_kmeans_refine_centers_lloyd_f__1__2__1__8__1__1__cpt[(signed long int)d] = _vl_kmeans_refine_centers_lloyd_f__1__2__1__8__1__1__cpt[(signed long int)d] + xpt[(signed long int)d];
         }
         c = (unsigned long long int)0;
         for( ; !(c >= self->numCenters); c = c + 1ull)
         {
-          float *_vl_kmeans_refine_centers_lloyd_f$$1$$2$$1$$8$$2$$1$$cpt = (float *)self->centers + (signed long int)(c * self->dimension);
+          float *_vl_kmeans_refine_centers_lloyd_f__1__2__1__8__2__1__cpt = (float *)self->centers + (signed long int)(c * self->dimension);
           if(clusterMasses[(signed long int)c] >= 1ul)
           {
             float mass = (float)clusterMasses[(signed long int)c];
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_lloyd_f$$1$$2$$1$$8$$2$$1$$cpt[(signed long int)d] = _vl_kmeans_refine_centers_lloyd_f$$1$$2$$1$$8$$2$$1$$cpt[(signed long int)d] / mass;
+              _vl_kmeans_refine_centers_lloyd_f__1__2__1__8__2__1__cpt[(signed long int)d] = _vl_kmeans_refine_centers_lloyd_f__1__2__1__8__2__1__cpt[(signed long int)d] / mass;
           }
 
           else
           {
-            unsigned long long int _vl_kmeans_refine_centers_lloyd_f$$1$$2$$1$$8$$2$$1$$2$$x;
-            _vl_kmeans_refine_centers_lloyd_f$$1$$2$$1$$8$$2$$1$$2$$x=vl_rand_uindex(rand, numData);
+            unsigned long long int _vl_kmeans_refine_centers_lloyd_f__1__2__1__8__2__1__2__x;
+            _vl_kmeans_refine_centers_lloyd_f__1__2__1__8__2__1__2__x=vl_rand_uindex(rand, numData);
             numRestartedCenters = numRestartedCenters + 1ull;
             d = (unsigned long long int)0;
             for( ; !(d >= self->dimension); d = d + 1ull)
-              _vl_kmeans_refine_centers_lloyd_f$$1$$2$$1$$8$$2$$1$$cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_lloyd_f$$1$$2$$1$$8$$2$$1$$2$$x * self->dimension + d)];
+              _vl_kmeans_refine_centers_lloyd_f__1__2__1__8__2__1__cpt[(signed long int)d] = data[(signed long int)(_vl_kmeans_refine_centers_lloyd_f__1__2__1__8__2__1__2__x * self->dimension + d)];
           }
         }
         break;
@@ -8106,12 +8106,12 @@ static double _vl_kmeans_refine_centers_lloyd_f(struct _VlKMeans *self, const fl
         {
           unsigned int *perm = permutations + (signed long int)(d * numData);
           memset((void *)numSeenSoFar, 0, sizeof(unsigned long long int) /*8ul*/  * self->numCenters);
-          _vl_kmeans_refine_centers_lloyd_f$$1$$x = (unsigned long long int)0;
-          for( ; !(_vl_kmeans_refine_centers_lloyd_f$$1$$x >= numData); _vl_kmeans_refine_centers_lloyd_f$$1$$x = _vl_kmeans_refine_centers_lloyd_f$$1$$x + 1ull)
+          _vl_kmeans_refine_centers_lloyd_f__1__x = (unsigned long long int)0;
+          for( ; !(_vl_kmeans_refine_centers_lloyd_f__1__x >= numData); _vl_kmeans_refine_centers_lloyd_f__1__x = _vl_kmeans_refine_centers_lloyd_f__1__x + 1ull)
           {
-            c = (unsigned long long int)assignments[(signed long int)perm[(signed long int)_vl_kmeans_refine_centers_lloyd_f$$1$$x]];
+            c = (unsigned long long int)assignments[(signed long int)perm[(signed long int)_vl_kmeans_refine_centers_lloyd_f__1__x]];
             if(!(2ul * numSeenSoFar[(signed long int)c] >= clusterMasses[(signed long int)c]))
-              ((float *)self->centers)[(signed long int)(d + c * self->dimension)] = data[(signed long int)(d + (unsigned long int)perm[(signed long int)_vl_kmeans_refine_centers_lloyd_f$$1$$x] * self->dimension)];
+              ((float *)self->centers)[(signed long int)(d + c * self->dimension)] = data[(signed long int)(d + (unsigned long int)perm[(signed long int)_vl_kmeans_refine_centers_lloyd_f__1__x] * self->dimension)];
 
             numSeenSoFar[(signed long int)c] = numSeenSoFar[(signed long int)c] + 1ull;
           }
@@ -8139,9 +8139,9 @@ static double _vl_kmeans_refine_centers_lloyd_f(struct _VlKMeans *self, const fl
     {
       if(!(numRestartedCenters == 0ull))
       {
-        signed int (*return_value_vl_get_printf_func$10)(const char *, ...);
-        return_value_vl_get_printf_func$10=vl_get_printf_func();
-        return_value_vl_get_printf_func$10("kmeans: Lloyd iter %d: restarted %d centers\n", iteration, numRestartedCenters);
+        signed int (*return_value_vl_get_printf_func_10)(const char *, ...);
+        return_value_vl_get_printf_func_10=vl_get_printf_func();
+        return_value_vl_get_printf_func_10("kmeans: Lloyd iter %d: restarted %d centers\n", iteration, numRestartedCenters);
       }
 
     }
@@ -8309,13 +8309,13 @@ static double * _vl_new_gaussian_fitler_d(unsigned long long int *size, double s
   double mass = (double)1.0;
   signed long long int i;
   unsigned long long int width;
-  signed long int return_value_vl_ceil_d$1;
-  return_value_vl_ceil_d$1=vl_ceil_d$link1(sigma * 3.0);
-  width = (unsigned long long int)return_value_vl_ceil_d$1;
+  signed long int return_value_vl_ceil_d_1;
+  return_value_vl_ceil_d_1=vl_ceil_d_link1(sigma * 3.0);
+  width = (unsigned long long int)return_value_vl_ceil_d_1;
   *size = (unsigned long int)2 * width + (unsigned long int)1;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(*size * sizeof(double) /*8ul*/ );
-  filter = (double *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(*size * sizeof(double) /*8ul*/ );
+  filter = (double *)return_value_vl_malloc_2;
   filter[(signed long int)width] = 1.0;
   i = (signed long long int)1;
   for( ; (signed long int)(signed int)width >= i; i = i + 1ll)
@@ -8341,13 +8341,13 @@ static float * _vl_new_gaussian_fitler_f(unsigned long long int *size, double si
   float mass = (float)1.0;
   signed long long int i;
   unsigned long long int width;
-  signed long int return_value_vl_ceil_d$1;
-  return_value_vl_ceil_d$1=vl_ceil_d$link1(sigma * 3.0);
-  width = (unsigned long long int)return_value_vl_ceil_d$1;
+  signed long int return_value_vl_ceil_d_1;
+  return_value_vl_ceil_d_1=vl_ceil_d_link1(sigma * 3.0);
+  width = (unsigned long long int)return_value_vl_ceil_d_1;
   *size = (unsigned long int)2 * width + (unsigned long int)1;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(*size * sizeof(float) /*4ul*/ );
-  filter = (float *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(*size * sizeof(float) /*4ul*/ );
+  filter = (float *)return_value_vl_malloc_2;
   filter[(signed long int)width] = (float)1.0;
   i = (signed long long int)1;
   for( ; (signed long int)(signed int)width >= i; i = i + 1ll)
@@ -8413,9 +8413,9 @@ void _vl_scalespace_fill_octave(struct _VlScaleSpace *self, signed long long int
     double previousSigma;
     previousSigma=vl_scalespace_get_level_sigma(self, o, s - (signed long int)1);
     double deltaSigma;
-    float return_value_sqrtf$1;
-    return_value_sqrtf$1=sqrtf((float)(sigma * sigma - previousSigma * previousSigma));
-    deltaSigma = (double)return_value_sqrtf$1;
+    float return_value_sqrtf_1;
+    return_value_sqrtf_1=sqrtf((float)(sigma * sigma - previousSigma * previousSigma));
+    deltaSigma = (double)return_value_sqrtf_1;
     float *level;
     level=vl_scalespace_get_level(self, o, s);
     float *previous;
@@ -8437,12 +8437,12 @@ static void _vl_scalespace_start_octave_from_image(struct _VlScaleSpace *self, c
   op = (signed long long int)-1;
   for( ; op >= o; op = op - 1ll)
   {
-    struct _VlScaleSpaceOctaveGeometry _vl_scalespace_start_octave_from_image$$1$$1$$1$$ogeom;
-    _vl_scalespace_start_octave_from_image$$1$$1$$1$$ogeom=vl_scalespace_get_octave_geometry(self, op + (signed long int)1);
+    struct _VlScaleSpaceOctaveGeometry _vl_scalespace_start_octave_from_image__1__1__1__ogeom;
+    _vl_scalespace_start_octave_from_image__1__1__1__ogeom=vl_scalespace_get_octave_geometry(self, op + (signed long int)1);
     float *succLevel;
     succLevel=vl_scalespace_get_level(self, op + (signed long int)1, self->geom.octaveFirstSubdivision);
     level=vl_scalespace_get_level(self, op, self->geom.octaveFirstSubdivision);
-    copy_and_upsample(level, succLevel, _vl_scalespace_start_octave_from_image$$1$$1$$1$$ogeom.width, _vl_scalespace_start_octave_from_image$$1$$1$$1$$ogeom.height);
+    copy_and_upsample(level, succLevel, _vl_scalespace_start_octave_from_image__1__1__1__ogeom.width, _vl_scalespace_start_octave_from_image__1__1__1__ogeom.height);
   }
   sigma=vl_scalespace_get_level_sigma(self, o, self->geom.octaveFirstSubdivision);
   imageSigma = self->geom.nominalScale;
@@ -8468,13 +8468,13 @@ static void _vl_scalespace_start_octave_from_previous_octave(struct _VlScaleSpac
   float *prevLevel;
   signed long long int prevLevelIndex;
   struct _VlScaleSpaceOctaveGeometry ogeom;
-  signed long long int tmp_if_expr$1;
+  signed long long int tmp_if_expr_1;
   if(!(self->geom.octaveFirstSubdivision + (signed long int)(signed int)self->geom.octaveResolution >= self->geom.octaveLastSubdivision))
-    tmp_if_expr$1 = self->geom.octaveFirstSubdivision + (signed long int)(signed int)self->geom.octaveResolution;
+    tmp_if_expr_1 = self->geom.octaveFirstSubdivision + (signed long int)(signed int)self->geom.octaveResolution;
 
   else
-    tmp_if_expr$1 = self->geom.octaveLastSubdivision;
-  prevLevelIndex = tmp_if_expr$1;
+    tmp_if_expr_1 = self->geom.octaveLastSubdivision;
+  prevLevelIndex = tmp_if_expr_1;
   prevLevel=vl_scalespace_get_level(self, o - (signed long int)1, prevLevelIndex);
   level=vl_scalespace_get_level(self, o, self->geom.octaveFirstSubdivision);
   ogeom=vl_scalespace_get_octave_geometry(self, o - (signed long int)1);
@@ -8483,12 +8483,12 @@ static void _vl_scalespace_start_octave_from_previous_octave(struct _VlScaleSpac
   prevSigma=vl_scalespace_get_level_sigma(self, o - (signed long int)1, prevLevelIndex);
   if(sigma > prevSigma)
   {
-    struct _VlScaleSpaceOctaveGeometry _vl_scalespace_start_octave_from_previous_octave$$1$$1$$ogeom;
-    _vl_scalespace_start_octave_from_previous_octave$$1$$1$$ogeom=vl_scalespace_get_octave_geometry(self, o);
+    struct _VlScaleSpaceOctaveGeometry _vl_scalespace_start_octave_from_previous_octave__1__1__ogeom;
+    _vl_scalespace_start_octave_from_previous_octave__1__1__ogeom=vl_scalespace_get_octave_geometry(self, o);
     double deltaSigma;
     deltaSigma=sqrt(sigma * sigma - prevSigma * prevSigma);
     level=vl_scalespace_get_level(self, o, self->geom.octaveFirstSubdivision);
-    vl_imsmooth_f(level, _vl_scalespace_start_octave_from_previous_octave$$1$$1$$ogeom.width, level, _vl_scalespace_start_octave_from_previous_octave$$1$$1$$ogeom.width, _vl_scalespace_start_octave_from_previous_octave$$1$$1$$ogeom.height, _vl_scalespace_start_octave_from_previous_octave$$1$$1$$ogeom.width, deltaSigma / _vl_scalespace_start_octave_from_previous_octave$$1$$1$$ogeom.step, deltaSigma / _vl_scalespace_start_octave_from_previous_octave$$1$$1$$ogeom.step);
+    vl_imsmooth_f(level, _vl_scalespace_start_octave_from_previous_octave__1__1__ogeom.width, level, _vl_scalespace_start_octave_from_previous_octave__1__1__ogeom.width, _vl_scalespace_start_octave_from_previous_octave__1__1__ogeom.height, _vl_scalespace_start_octave_from_previous_octave__1__1__ogeom.width, deltaSigma / _vl_scalespace_start_octave_from_previous_octave__1__1__ogeom.step, deltaSigma / _vl_scalespace_start_octave_from_previous_octave__1__1__ogeom.step);
   }
 
 }
@@ -8500,12 +8500,12 @@ void _vl_svm_evaluate(struct VlSvm_ *self)
   double startTime;
   startTime=vl_get_cpu_time();
   _vl_svm_update_statistics(self);
-  double return_value_vl_get_cpu_time$1;
-  return_value_vl_get_cpu_time$1=vl_get_cpu_time();
-  self->statistics.elapsedTime = return_value_vl_get_cpu_time$1 - startTime;
+  double return_value_vl_get_cpu_time_1;
+  return_value_vl_get_cpu_time_1=vl_get_cpu_time();
+  self->statistics.elapsedTime = return_value_vl_get_cpu_time_1 - startTime;
   self->statistics.iteration = (unsigned long long int)0;
   self->statistics.epoch = (unsigned long long int)0;
-  self->statistics.status = (enum anonymous$7)VlSvmStatusConverged;
+  self->statistics.status = (enum anonymous_7)VlSvmStatusConverged;
   if(!(self->diagnosticFn == ((void (*)(struct VlSvm_ *, void *))NULL)))
     self->diagnosticFn(self, self->diagnosticFnData);
 
@@ -8527,16 +8527,16 @@ void _vl_svm_sdca_train(struct VlSvm_ *self)
   startTime=vl_get_cpu_time();
   struct _VlRand *rand;
   rand=vl_get_rand();
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(self->numData, sizeof(double) /*8ul*/ );
-  norm2 = (double *)return_value_vl_calloc$1;
-  void *return_value_vl_calloc$2;
-  return_value_vl_calloc$2=vl_calloc(self->numData, sizeof(signed long long int) /*8ul*/ );
-  permutation = (signed long long int *)return_value_vl_calloc$2;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(self->numData, sizeof(double) /*8ul*/ );
+  norm2 = (double *)return_value_vl_calloc_1;
+  void *return_value_vl_calloc_2;
+  return_value_vl_calloc_2=vl_calloc(self->numData, sizeof(signed long long int) /*8ul*/ );
+  permutation = (signed long long int *)return_value_vl_calloc_2;
   double *buffer;
-  void *return_value_vl_calloc$3;
-  return_value_vl_calloc$3=vl_calloc(self->dimension, sizeof(double) /*8ul*/ );
-  buffer = (double *)return_value_vl_calloc$3;
+  void *return_value_vl_calloc_3;
+  return_value_vl_calloc_3=vl_calloc(self->dimension, sizeof(double) /*8ul*/ );
+  buffer = (double *)return_value_vl_calloc_3;
   i = (unsigned long long int)0;
   if(!(i >= (unsigned long int)(unsigned int)self->numData))
   {
@@ -8552,8 +8552,8 @@ void _vl_svm_sdca_train(struct VlSvm_ *self)
 
   vl_free((void *)buffer);
   t = (unsigned long long int)0;
-  double tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
+  double tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
   for( ; (_Bool)1; t = t + 1ull)
   {
     if(t % self->numData == 0ul)
@@ -8561,11 +8561,11 @@ void _vl_svm_sdca_train(struct VlSvm_ *self)
 
     i = (unsigned long long int)permutation[(signed long int)(t % self->numData)];
     if(!(self->weights == ((const double *)NULL)))
-      tmp_if_expr$4 = self->weights[(signed long int)i];
+      tmp_if_expr_4 = self->weights[(signed long int)i];
 
     else
-      tmp_if_expr$4 = 1.0;
-    p = tmp_if_expr$4;
+      tmp_if_expr_4 = 1.0;
+    p = tmp_if_expr_4;
     if(p > 0.000000)
     {
       inner=self->innerProductFn(self->data, i, self->model);
@@ -8586,25 +8586,25 @@ void _vl_svm_sdca_train(struct VlSvm_ *self)
     }
 
     if((1ul + t) % self->diagnosticFrequency == 0ul)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = t + (unsigned long int)1 == self->maxNumIterations ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = t + (unsigned long int)1 == self->maxNumIterations ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
       _vl_svm_update_statistics(self);
-      double return_value_vl_get_cpu_time$5;
-      return_value_vl_get_cpu_time$5=vl_get_cpu_time();
-      self->statistics.elapsedTime = return_value_vl_get_cpu_time$5 - startTime;
+      double return_value_vl_get_cpu_time_5;
+      return_value_vl_get_cpu_time_5=vl_get_cpu_time();
+      self->statistics.elapsedTime = return_value_vl_get_cpu_time_5 - startTime;
       self->statistics.iteration = t;
       self->statistics.epoch = t / self->numData;
-      self->statistics.status = (enum anonymous$7)VlSvmStatusTraining;
+      self->statistics.status = (enum anonymous_7)VlSvmStatusTraining;
       if(self->statistics.dualityGap < self->epsilon)
-        self->statistics.status = (enum anonymous$7)VlSvmStatusConverged;
+        self->statistics.status = (enum anonymous_7)VlSvmStatusConverged;
 
       else
         if(1ul + t == self->maxNumIterations)
-          self->statistics.status = (enum anonymous$7)VlSvmStatusMaxNumIterationsReached;
+          self->statistics.status = (enum anonymous_7)VlSvmStatusMaxNumIterationsReached;
 
       if(!(self->diagnosticFn == ((void (*)(struct VlSvm_ *, void *))NULL)))
         self->diagnosticFn(self, self->diagnosticFnData);
@@ -8637,50 +8637,50 @@ void _vl_svm_sgd_train(struct VlSvm_ *self)
   double factor = 1.0;
   double biasFactor = 1.0;
   signed long long int t0;
-  signed long int return_value_vl_ceil_d$1;
-  return_value_vl_ceil_d$1=vl_ceil_d(1.0 / self->lambda);
-  signed long int tmp_if_expr$3;
-  signed long int return_value_vl_ceil_d$2;
-  if(!(return_value_vl_ceil_d$1 >= 2l))
-    tmp_if_expr$3 = (signed long int)2;
+  signed long int return_value_vl_ceil_d_1;
+  return_value_vl_ceil_d_1=vl_ceil_d(1.0 / self->lambda);
+  signed long int tmp_if_expr_3;
+  signed long int return_value_vl_ceil_d_2;
+  if(!(return_value_vl_ceil_d_1 >= 2l))
+    tmp_if_expr_3 = (signed long int)2;
 
   else
   {
-    return_value_vl_ceil_d$2=vl_ceil_d(1.0 / self->lambda);
-    tmp_if_expr$3 = return_value_vl_ceil_d$2;
+    return_value_vl_ceil_d_2=vl_ceil_d(1.0 / self->lambda);
+    tmp_if_expr_3 = return_value_vl_ceil_d_2;
   }
-  t0 = tmp_if_expr$3;
+  t0 = tmp_if_expr_3;
   double startTime;
   startTime=vl_get_cpu_time();
   struct _VlRand *rand;
   rand=vl_get_rand();
-  void *return_value_vl_calloc$4;
-  return_value_vl_calloc$4=vl_calloc(self->numData, sizeof(signed long long int) /*8ul*/ );
-  permutation = (signed long long int *)return_value_vl_calloc$4;
-  void *return_value_vl_calloc$5;
-  return_value_vl_calloc$5=vl_calloc(self->numData * (unsigned long int)2, sizeof(double) /*8ul*/ );
-  scores = (double *)return_value_vl_calloc$5;
+  void *return_value_vl_calloc_4;
+  return_value_vl_calloc_4=vl_calloc(self->numData, sizeof(signed long long int) /*8ul*/ );
+  permutation = (signed long long int *)return_value_vl_calloc_4;
+  void *return_value_vl_calloc_5;
+  return_value_vl_calloc_5=vl_calloc(self->numData * (unsigned long int)2, sizeof(double) /*8ul*/ );
+  scores = (double *)return_value_vl_calloc_5;
   previousScores = scores + (signed long int)self->numData;
   i = (unsigned long long int)0;
   for( ; !(i >= (unsigned long int)(unsigned int)self->numData); i = i + 1ull)
   {
     permutation[(signed long int)i] = (signed long long int)i;
-    previousScores[(signed long int)i] = -vl_infinity_d$link4.value;
+    previousScores[(signed long int)i] = -vl_infinity_d_link4.value;
   }
   t = (unsigned long long int)0;
-  double tmp_if_expr$6;
-  _Bool tmp_if_expr$9;
+  double tmp_if_expr_6;
+  _Bool tmp_if_expr_9;
   {
     if(t % self->numData == 0ul)
       vl_rand_permute_indexes(rand, permutation, self->numData);
 
     i = (unsigned long long int)permutation[(signed long int)(t % self->numData)];
     if(!(self->weights == ((const double *)NULL)))
-      tmp_if_expr$6 = self->weights[(signed long int)i];
+      tmp_if_expr_6 = self->weights[(signed long int)i];
 
     else
-      tmp_if_expr$6 = 1.0;
-    p = tmp_if_expr$6;
+      tmp_if_expr_6 = 1.0;
+    p = tmp_if_expr_6;
     p = 0.0 > p ? 0.0 : p;
     double return_value;
     return_value=self->innerProductFn(self->data, i, self->model);
@@ -8702,11 +8702,11 @@ void _vl_svm_sgd_train(struct VlSvm_ *self)
     }
 
     if((1ul + t) % self->diagnosticFrequency == 0ul)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = t + (unsigned long int)1 == self->maxNumIterations ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = t + (unsigned long int)1 == self->maxNumIterations ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
     {
       k = (unsigned long long int)0;
       if(!(k >= self->dimension))
@@ -8727,21 +8727,21 @@ void _vl_svm_sgd_train(struct VlSvm_ *self)
         k = k + 1ull;
       }
 
-      double return_value_sqrt$7;
-      return_value_sqrt$7=sqrt(self->statistics.scoresVariation);
-      self->statistics.scoresVariation = return_value_sqrt$7 / (double)self->numData;
-      double return_value_vl_get_cpu_time$8;
-      return_value_vl_get_cpu_time$8=vl_get_cpu_time();
-      self->statistics.elapsedTime = return_value_vl_get_cpu_time$8 - startTime;
+      double return_value_sqrt_7;
+      return_value_sqrt_7=sqrt(self->statistics.scoresVariation);
+      self->statistics.scoresVariation = return_value_sqrt_7 / (double)self->numData;
+      double return_value_vl_get_cpu_time_8;
+      return_value_vl_get_cpu_time_8=vl_get_cpu_time();
+      self->statistics.elapsedTime = return_value_vl_get_cpu_time_8 - startTime;
       self->statistics.iteration = t;
       self->statistics.epoch = t / self->numData;
-      self->statistics.status = (enum anonymous$7)VlSvmStatusTraining;
+      self->statistics.status = (enum anonymous_7)VlSvmStatusTraining;
       if(self->statistics.scoresVariation < self->epsilon)
-        self->statistics.status = (enum anonymous$7)VlSvmStatusConverged;
+        self->statistics.status = (enum anonymous_7)VlSvmStatusConverged;
 
       else
         if(1ul + t == self->maxNumIterations)
-          self->statistics.status = (enum anonymous$7)VlSvmStatusMaxNumIterationsReached;
+          self->statistics.status = (enum anonymous_7)VlSvmStatusMaxNumIterationsReached;
 
       if(!(self->diagnosticFn == ((void (*)(struct VlSvm_ *, void *))NULL)))
         self->diagnosticFn(self, self->diagnosticFnData);
@@ -8769,15 +8769,15 @@ void _vl_svm_update_statistics(struct VlSvm_ *self)
     self->statistics.regularizer = self->statistics.regularizer + self->model[(signed long int)i] * self->model[(signed long int)i];
   self->statistics.regularizer = self->statistics.regularizer * self->lambda * 0.5;
   k = (unsigned long long int)0;
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   for( ; !(k >= self->numData); k = k + 1ull)
   {
     if(!(self->weights == ((const double *)NULL)))
-      tmp_if_expr$1 = self->weights[(signed long int)k];
+      tmp_if_expr_1 = self->weights[(signed long int)k];
 
     else
-      tmp_if_expr$1 = 1.0;
-    p = tmp_if_expr$1;
+      tmp_if_expr_1 = 1.0;
+    p = tmp_if_expr_1;
     if(!(p <= 0.000000))
     {
       inner=self->innerProductFn(self->data, k, self->model);
@@ -8814,13 +8814,13 @@ double _vl_svmdataset_inner_product_d(const struct VlSvmDataset_ *self, unsigned
   double product = (double)0;
   double *data = (double *)self->data + (signed long int)(self->dimension * element);
   double *end = data + (signed long int)self->dimension;
-  double *tmp_post$1;
-  const double *tmp_post$2;
-  for( ; !(data == end); product = product + *tmp_post$1 * *tmp_post$2)
+  double *tmp_post_1;
+  const double *tmp_post_2;
+  for( ; !(data == end); product = product + *tmp_post_1 * *tmp_post_2)
   {
-    tmp_post$1 = data;
+    tmp_post_1 = data;
     data = data + 1l;
-    tmp_post$2 = model;
+    tmp_post_2 = model;
     model = model + 1l;
   }
   return product;
@@ -8833,13 +8833,13 @@ double _vl_svmdataset_inner_product_f(const struct VlSvmDataset_ *self, unsigned
   double product = (double)0;
   float *data = (float *)self->data + (signed long int)(self->dimension * element);
   float *end = data + (signed long int)self->dimension;
-  float *tmp_post$1;
-  const double *tmp_post$2;
-  for( ; !(data == end); product = product + (double)*tmp_post$1 * *tmp_post$2)
+  float *tmp_post_1;
+  const double *tmp_post_2;
+  for( ; !(data == end); product = product + (double)*tmp_post_1 * *tmp_post_2)
   {
-    tmp_post$1 = data;
+    tmp_post_1 = data;
     data = data + 1l;
-    tmp_post$2 = model;
+    tmp_post_2 = model;
     model = model + 1l;
   }
   return product;
@@ -8853,20 +8853,20 @@ double _vl_svmdataset_inner_product_hom_d(const struct VlSvmDataset_ *self, unsi
   double *data = (double *)self->data + (signed long int)(self->dimension * element);
   double *end = data + (signed long int)self->dimension;
   double *bufEnd = (double *)self->homBuffer + (signed long int)self->homDimension;
-  double *tmp_post$1;
-  double *tmp_post$2;
-  const double *tmp_post$3;
+  double *tmp_post_1;
+  double *tmp_post_2;
+  const double *tmp_post_3;
   while(!(data == end))
   {
     double *buf = (double *)self->homBuffer;
-    tmp_post$1 = data;
+    tmp_post_1 = data;
     data = data + 1l;
-    vl_homogeneouskernelmap_evaluate_d(self->hom, (double *)self->homBuffer, (unsigned long long int)1, *tmp_post$1);
-    for( ; !(buf == bufEnd); product = product + *tmp_post$2 * *tmp_post$3)
+    vl_homogeneouskernelmap_evaluate_d(self->hom, (double *)self->homBuffer, (unsigned long long int)1, *tmp_post_1);
+    for( ; !(buf == bufEnd); product = product + *tmp_post_2 * *tmp_post_3)
     {
-      tmp_post$2 = buf;
+      tmp_post_2 = buf;
       buf = buf + 1l;
-      tmp_post$3 = model;
+      tmp_post_3 = model;
       model = model + 1l;
     }
   }
@@ -8881,20 +8881,20 @@ double _vl_svmdataset_inner_product_hom_f(const struct VlSvmDataset_ *self, unsi
   float *data = (float *)self->data + (signed long int)(self->dimension * element);
   float *end = data + (signed long int)self->dimension;
   float *bufEnd = (float *)self->homBuffer + (signed long int)self->homDimension;
-  float *tmp_post$1;
-  float *tmp_post$2;
-  const double *tmp_post$3;
+  float *tmp_post_1;
+  float *tmp_post_2;
+  const double *tmp_post_3;
   while(!(data == end))
   {
     float *buf = (float *)self->homBuffer;
-    tmp_post$1 = data;
+    tmp_post_1 = data;
     data = data + 1l;
-    vl_homogeneouskernelmap_evaluate_f(self->hom, (float *)self->homBuffer, (unsigned long long int)1, (double)*tmp_post$1);
-    for( ; !(buf == bufEnd); product = product + (double)*tmp_post$2 * *tmp_post$3)
+    vl_homogeneouskernelmap_evaluate_f(self->hom, (float *)self->homBuffer, (unsigned long long int)1, (double)*tmp_post_1);
+    for( ; !(buf == bufEnd); product = product + (double)*tmp_post_2 * *tmp_post_3)
     {
-      tmp_post$2 = buf;
+      tmp_post_2 = buf;
       buf = buf + 1l;
-      tmp_post$3 = model;
+      tmp_post_3 = model;
       model = model + 1l;
     }
   }
@@ -8949,34 +8949,34 @@ static void _vl_vlad_encode_d(double *enc, const double *means, unsigned long lo
       dim = (unsigned long long int)0;
       for( ; !(dim >= dimension); dim = dim + 1ull)
       {
-        double _vl_vlad_encode_d$$1$$1$$1$$3$$1$$1$$z = enc[(signed long int)((unsigned long int)i_cl * dimension + dim)];
-        if(_vl_vlad_encode_d$$1$$1$$1$$3$$1$$1$$z >= 0.000000)
-          enc[(signed long int)((unsigned long int)i_cl * dimension + dim)]=vl_sqrt_d(_vl_vlad_encode_d$$1$$1$$1$$3$$1$$1$$z);
+        double _vl_vlad_encode_d__1__1__1__3__1__1__z = enc[(signed long int)((unsigned long int)i_cl * dimension + dim)];
+        if(_vl_vlad_encode_d__1__1__1__3__1__1__z >= 0.000000)
+          enc[(signed long int)((unsigned long int)i_cl * dimension + dim)]=vl_sqrt_d(_vl_vlad_encode_d__1__1__1__3__1__1__z);
 
         else
         {
-          double return_value_vl_sqrt_d$1;
-          return_value_vl_sqrt_d$1=vl_sqrt_d(-_vl_vlad_encode_d$$1$$1$$1$$3$$1$$1$$z);
-          enc[(signed long int)((unsigned long int)i_cl * dimension + dim)] = -return_value_vl_sqrt_d$1;
+          double return_value_vl_sqrt_d_1;
+          return_value_vl_sqrt_d_1=vl_sqrt_d(-_vl_vlad_encode_d__1__1__1__3__1__1__z);
+          enc[(signed long int)((unsigned long int)i_cl * dimension + dim)] = -return_value_vl_sqrt_d_1;
         }
       }
     }
 
     if(!((0x1 & flags) == 0))
     {
-      double _vl_vlad_encode_d$$1$$1$$1$$4$$n = (double)0;
+      double _vl_vlad_encode_d__1__1__1__4__n = (double)0;
       dim = (unsigned long long int)0;
       dim = (unsigned long long int)0;
       for( ; !(dim >= dimension); dim = dim + 1ull)
       {
-        double _vl_vlad_encode_d$$1$$1$$1$$4$$1$$1$$z = enc[(signed long int)((unsigned long int)i_cl * dimension + dim)];
-        _vl_vlad_encode_d$$1$$1$$1$$4$$n = _vl_vlad_encode_d$$1$$1$$1$$4$$n + _vl_vlad_encode_d$$1$$1$$1$$4$$1$$1$$z * _vl_vlad_encode_d$$1$$1$$1$$4$$1$$1$$z;
+        double _vl_vlad_encode_d__1__1__1__4__1__1__z = enc[(signed long int)((unsigned long int)i_cl * dimension + dim)];
+        _vl_vlad_encode_d__1__1__1__4__n = _vl_vlad_encode_d__1__1__1__4__n + _vl_vlad_encode_d__1__1__1__4__1__1__z * _vl_vlad_encode_d__1__1__1__4__1__1__z;
       }
-      _vl_vlad_encode_d$$1$$1$$1$$4$$n=vl_sqrt_d(_vl_vlad_encode_d$$1$$1$$1$$4$$n);
-      _vl_vlad_encode_d$$1$$1$$1$$4$$n = _vl_vlad_encode_d$$1$$1$$1$$4$$n > 1e-12 ? _vl_vlad_encode_d$$1$$1$$1$$4$$n : 1e-12;
+      _vl_vlad_encode_d__1__1__1__4__n=vl_sqrt_d(_vl_vlad_encode_d__1__1__1__4__n);
+      _vl_vlad_encode_d__1__1__1__4__n = _vl_vlad_encode_d__1__1__1__4__n > 1e-12 ? _vl_vlad_encode_d__1__1__1__4__n : 1e-12;
       dim = (unsigned long long int)0;
       for( ; !(dim >= dimension); dim = dim + 1ull)
-        enc[(signed long int)((unsigned long int)i_cl * dimension + dim)] = enc[(signed long int)((unsigned long int)i_cl * dimension + dim)] / _vl_vlad_encode_d$$1$$1$$1$$4$$n;
+        enc[(signed long int)((unsigned long int)i_cl * dimension + dim)] = enc[(signed long int)((unsigned long int)i_cl * dimension + dim)] / _vl_vlad_encode_d__1__1__1__4__n;
     }
 
   }
@@ -9052,9 +9052,9 @@ static void _vl_vlad_encode_f(float *enc, const float *means, unsigned long long
 
         else
         {
-          float return_value_vl_sqrt_f$1;
-          return_value_vl_sqrt_f$1=vl_sqrt_f(-z);
-          enc[(signed long int)((unsigned long int)i_cl * dimension + dim)] = -return_value_vl_sqrt_f$1;
+          float return_value_vl_sqrt_f_1;
+          return_value_vl_sqrt_f_1=vl_sqrt_f(-z);
+          enc[(signed long int)((unsigned long int)i_cl * dimension + dim)] = -return_value_vl_sqrt_f_1;
         }
       }
     }
@@ -9066,8 +9066,8 @@ static void _vl_vlad_encode_f(float *enc, const float *means, unsigned long long
       dim = (unsigned long long int)0;
       for( ; !(dim >= dimension); dim = dim + 1ull)
       {
-        float _vl_vlad_encode_f$$1$$1$$1$$4$$1$$1$$z = enc[(signed long int)((unsigned long int)i_cl * dimension + dim)];
-        n = n + _vl_vlad_encode_f$$1$$1$$1$$4$$1$$1$$z * _vl_vlad_encode_f$$1$$1$$1$$4$$1$$1$$z;
+        float _vl_vlad_encode_f__1__1__1__4__1__1__z = enc[(signed long int)((unsigned long int)i_cl * dimension + dim)];
+        n = n + _vl_vlad_encode_f__1__1__1__4__1__1__z * _vl_vlad_encode_f__1__1__1__4__1__1__z;
       }
       n=vl_sqrt_f(n);
       n = (float)((double)n > 1e-12 ? (double)n : 1e-12);
@@ -9079,18 +9079,18 @@ static void _vl_vlad_encode_f(float *enc, const float *means, unsigned long long
   }
   if((4 & flags) == 0)
   {
-    float _vl_vlad_encode_f$$1$$2$$n = (float)0;
+    float _vl_vlad_encode_f__1__2__n = (float)0;
     dim = (unsigned long long int)0;
     for( ; !(dim >= dimension * numClusters); dim = dim + 1ull)
     {
-      float _vl_vlad_encode_f$$1$$2$$1$$1$$z = enc[(signed long int)dim];
-      _vl_vlad_encode_f$$1$$2$$n = _vl_vlad_encode_f$$1$$2$$n + _vl_vlad_encode_f$$1$$2$$1$$1$$z * _vl_vlad_encode_f$$1$$2$$1$$1$$z;
+      float _vl_vlad_encode_f__1__2__1__1__z = enc[(signed long int)dim];
+      _vl_vlad_encode_f__1__2__n = _vl_vlad_encode_f__1__2__n + _vl_vlad_encode_f__1__2__1__1__z * _vl_vlad_encode_f__1__2__1__1__z;
     }
-    _vl_vlad_encode_f$$1$$2$$n=vl_sqrt_f(_vl_vlad_encode_f$$1$$2$$n);
-    _vl_vlad_encode_f$$1$$2$$n = (float)((double)_vl_vlad_encode_f$$1$$2$$n > 1e-12 ? (double)_vl_vlad_encode_f$$1$$2$$n : 1e-12);
+    _vl_vlad_encode_f__1__2__n=vl_sqrt_f(_vl_vlad_encode_f__1__2__n);
+    _vl_vlad_encode_f__1__2__n = (float)((double)_vl_vlad_encode_f__1__2__n > 1e-12 ? (double)_vl_vlad_encode_f__1__2__n : 1e-12);
     dim = (unsigned long long int)0;
     for( ; !(dim >= dimension * numClusters); dim = dim + 1ull)
-      enc[(signed long int)dim] = enc[(signed long int)dim] / _vl_vlad_encode_f$$1$$2$$n;
+      enc[(signed long int)dim] = enc[(signed long int)dim] / _vl_vlad_encode_f__1__2__n;
   }
 
 }
@@ -9130,9 +9130,9 @@ char * _vl_x86cpu_info_to_string_copy(const struct _VlX86CpuInfo *self)
   {
     if(length >= 1)
     {
-      void *return_value_vl_malloc$1;
-      return_value_vl_malloc$1=vl_malloc(sizeof(char) /*1ul*/  * (unsigned long int)length);
-      string = (char *)return_value_vl_malloc$1;
+      void *return_value_vl_malloc_1;
+      return_value_vl_malloc_1=vl_malloc(sizeof(char) /*1ul*/  * (unsigned long int)length);
+      string = (char *)return_value_vl_malloc_1;
       if(string == ((char *)NULL))
         break;
 
@@ -9148,14 +9148,14 @@ char * _vl_x86cpu_info_to_string_copy(const struct _VlX86CpuInfo *self)
 static inline void adv(signed int ndims, const signed int *dims, signed int *subs)
 {
   signed int d = 0;
-  signed int tmp_post$1;
-  for( ; !(d >= ndims); subs[(signed long int)tmp_post$1] = 0)
+  signed int tmp_post_1;
+  for( ; !(d >= ndims); subs[(signed long int)tmp_post_1] = 0)
   {
     subs[(signed long int)d] = subs[(signed long int)d] + 1;
     if(!(subs[(signed long int)d] >= dims[(signed long int)d]))
       goto __CPROVER_DUMP_L4;
 
-    tmp_post$1 = d;
+    tmp_post_1 = d;
     d = d + 1;
   }
 
@@ -9172,9 +9172,9 @@ static void alloc(struct _VlIKMFilt *f, unsigned long long int M, unsigned long 
 
   f->K = K;
   f->M = M;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(signed int) /*4ul*/  * M * K);
-  f->centers = (signed int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(signed int) /*4ul*/  * M * K);
+  f->centers = (signed int *)return_value_vl_malloc_1;
 }
 
 // calc_dist2
@@ -9224,8 +9224,8 @@ static inline unsigned int climb(struct _VlMserReg *r, unsigned int idx)
 // file vl/ikmeans_init.tc line 23
 static signed int cmp_pair(const void *a, const void *b)
 {
-  struct anonymous$5 *pa = (struct anonymous$5 *)a;
-  struct anonymous$5 *pb = (struct anonymous$5 *)b;
+  struct anonymous_5 *pa = (struct anonymous_5 *)a;
+  struct anonymous_5 *pb = (struct anonymous_5 *)b;
   signed int d = (signed int)(pa->w - pb->w);
   if(!(d == 0))
     return d;
@@ -9241,7 +9241,7 @@ static void copy_and_downsample(float *destination, const float *source, unsigne
   signed long long int x;
   signed long long int y;
   unsigned long long int step = (unsigned long long int)(1 << numOctaves);
-  float *tmp_post$1;
+  float *tmp_post_1;
   if(numOctaves == 0ul)
     memcpy((void *)destination, (const void *)source, sizeof(float) /*4ul*/  * width * height);
 
@@ -9254,9 +9254,9 @@ static void copy_and_downsample(float *destination, const float *source, unsigne
       x = (signed long long int)0;
       for( ; !(x >= (signed long int)((signed int)width + -((signed int)step + -1))); x = x + (signed long long int)step)
       {
-        tmp_post$1 = destination;
+        tmp_post_1 = destination;
         destination = destination + 1l;
-        *tmp_post$1 = *p;
+        *tmp_post_1 = *p;
         p = p + (signed long int)step;
       }
     }
@@ -9344,29 +9344,29 @@ extern signed int getopt_long(signed int argc, char * const *argv, const char *o
   char *oli;
   signed int has_colon = 0;
   signed int ret_val = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(optstring == ((const char *)NULL)))
-    tmp_if_expr$1 = (signed int)optstring[(signed long int)0] == 58 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)optstring[(signed long int)0] == 58 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  has_colon = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  has_colon = (signed int)tmp_if_expr_1;
   if(!(has_colon == 0))
     optstring = optstring + 1l;
 
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   static char *place = "";
   if(!(optreset == 0))
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = (signed int)*place == 0 ? (_Bool)1 : (_Bool)0;
-  unsigned long int tmp_statement_expression$2;
-  signed int return_value_strncmp$5;
-  _Bool tmp_if_expr$4;
+    tmp_if_expr_7 = (signed int)*place == 0 ? (_Bool)1 : (_Bool)0;
+  unsigned long int tmp_statement_expression_2;
+  signed int return_value_strncmp_5;
+  _Bool tmp_if_expr_4;
   static signed int optend = 0;
   static signed int optbegin = 0;
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
   {
     optreset = 0;
     if(optind >= argc)
@@ -9420,40 +9420,40 @@ extern signed int getopt_long(signed int argc, char * const *argv, const char *o
         if(!(place[1l] == 0))
         {
           unsigned long int namelen;
-          signed int getopt_long$$1$$1$$4$$i;
+          signed int getopt_long__1__1__4__i;
           place = place + 1l;
           char __r0;
           char __r1;
           char __r2;
-          unsigned long int return_value___builtin_strcspn$3;
-          return_value___builtin_strcspn$3=__builtin_strcspn(place, "=");
-          tmp_statement_expression$2 = return_value___builtin_strcspn$3;
-          namelen = tmp_statement_expression$2;
-          getopt_long$$1$$1$$4$$i = 0;
-          for( ; !((longopts + (signed long int)getopt_long$$1$$1$$4$$i)->name == ((const char *)NULL)); getopt_long$$1$$1$$4$$i = getopt_long$$1$$1$$4$$i + 1)
+          unsigned long int return_value___builtin_strcspn_3;
+          return_value___builtin_strcspn_3=__builtin_strcspn(place, "=");
+          tmp_statement_expression_2 = return_value___builtin_strcspn_3;
+          namelen = tmp_statement_expression_2;
+          getopt_long__1__1__4__i = 0;
+          for( ; !((longopts + (signed long int)getopt_long__1__1__4__i)->name == ((const char *)NULL)); getopt_long__1__1__4__i = getopt_long__1__1__4__i + 1)
           {
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen((longopts + (signed long int)getopt_long$$1$$1$$4$$i)->name);
-            if(return_value_strlen$6 == namelen)
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen((longopts + (signed long int)getopt_long__1__1__4__i)->name);
+            if(return_value_strlen_6 == namelen)
             {
-              return_value_strncmp$5=strncmp(place, (longopts + (signed long int)getopt_long$$1$$1$$4$$i)->name, namelen);
-              if(return_value_strncmp$5 == 0)
+              return_value_strncmp_5=strncmp(place, (longopts + (signed long int)getopt_long__1__1__4__i)->name, namelen);
+              if(return_value_strncmp_5 == 0)
               {
                 if(!(longindex == ((signed int *)NULL)))
-                  *longindex = getopt_long$$1$$1$$4$$i;
+                  *longindex = getopt_long__1__1__4__i;
 
-                if((longopts + (signed long int)getopt_long$$1$$1$$4$$i)->has_arg == 1)
-                  tmp_if_expr$4 = (_Bool)1;
+                if((longopts + (signed long int)getopt_long__1__1__4__i)->has_arg == 1)
+                  tmp_if_expr_4 = (_Bool)1;
 
                 else
-                  tmp_if_expr$4 = (longopts + (signed long int)getopt_long$$1$$1$$4$$i)->has_arg == 2 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$4)
+                  tmp_if_expr_4 = (longopts + (signed long int)getopt_long__1__1__4__i)->has_arg == 2 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_4)
                 {
                   if((signed int)place[(signed long int)namelen] == 61)
                     optarg = place + (signed long int)namelen + (signed long int)1;
 
                   else
-                    if((longopts + (signed long int)getopt_long$$1$$1$$4$$i)->has_arg == 1)
+                    if((longopts + (signed long int)getopt_long__1__1__4__i)->has_arg == 1)
                     {
                       if(optbegin >= argc + -1)
                       {
@@ -9471,12 +9471,12 @@ extern signed int getopt_long(signed int argc, char * const *argv, const char *o
 
                 }
 
-                if((longopts + (signed long int)getopt_long$$1$$1$$4$$i)->flag == ((signed int *)NULL))
-                  ret_val = (longopts + (signed long int)getopt_long$$1$$1$$4$$i)->val;
+                if((longopts + (signed long int)getopt_long__1__1__4__i)->flag == ((signed int *)NULL))
+                  ret_val = (longopts + (signed long int)getopt_long__1__1__4__i)->val;
 
                 else
                 {
-                  *(longopts + (signed long int)getopt_long$$1$$1$$4$$i)->flag = (longopts + (signed long int)getopt_long$$1$$1$$4$$i)->val;
+                  *(longopts + (signed long int)getopt_long__1__1__4__i)->flag = (longopts + (signed long int)getopt_long__1__1__4__i)->val;
                   ret_val = 0;
                 }
                 place = "";
@@ -9500,12 +9500,12 @@ extern signed int getopt_long(signed int argc, char * const *argv, const char *o
 
   }
 
-  char *tmp_post$8 = place;
+  char *tmp_post_8 = place;
   place = place + 1l;
-  optopt = (signed int)*tmp_post$8;
-  char *return_value___builtin_strchr$9;
-  return_value___builtin_strchr$9=__builtin_strchr(optstring, optopt);
-  oli = return_value___builtin_strchr$9;
+  optopt = (signed int)*tmp_post_8;
+  char *return_value___builtin_strchr_9;
+  return_value___builtin_strchr_9=__builtin_strchr(optstring, optopt);
+  oli = return_value___builtin_strchr_9;
   if(oli == ((char *)NULL))
   {
     if(has_colon == 0 && !(opterr == 0))
@@ -9563,12 +9563,12 @@ done_option:
   ;
   signed int pos = optend - optbegin;
   signed int c = pos;
-  signed int tmp_post$10;
+  signed int tmp_post_10;
   do
   {
-    tmp_post$10 = c;
+    tmp_post_10 = c;
     c = c - 1;
-    if(tmp_post$10 == 0)
+    if(tmp_post_10 == 0)
       break;
 
     signed int i;
@@ -9635,9 +9635,9 @@ static inline void neigh_sort_recursive(struct _VlLiopDesc *array, unsigned long
   i = begin;
   for( ; !(i >= end); i = i + 1ull)
   {
-    float return_value_neigh_cmp$1;
-    return_value_neigh_cmp$1=neigh_cmp(array, (signed long long int)i, (signed long long int)pivot);
-    if(return_value_neigh_cmp$1 <= 0.000000f)
+    float return_value_neigh_cmp_1;
+    return_value_neigh_cmp_1=neigh_cmp(array, (signed long long int)i, (signed long long int)pivot);
+    if(return_value_neigh_cmp_1 <= 0.000000f)
     {
       neigh_swap(array, (signed long long int)lowPart, (signed long long int)i);
       lowPart = lowPart + 1ull;
@@ -9692,9 +9692,9 @@ static inline void patch_sort_recursive(struct _VlLiopDesc *array, unsigned long
   i = begin;
   for( ; !(i >= end); i = i + 1ull)
   {
-    float return_value_patch_cmp$1;
-    return_value_patch_cmp$1=patch_cmp(array, (signed long long int)i, (signed long long int)pivot);
-    if(return_value_patch_cmp$1 <= 0.000000f)
+    float return_value_patch_cmp_1;
+    return_value_patch_cmp_1=patch_cmp(array, (signed long long int)i, (signed long long int)pivot);
+    if(return_value_patch_cmp_1 <= 0.000000f)
     {
       patch_swap(array, (signed long long int)lowPart, (signed long long int)i);
       lowPart = lowPart + 1ull;
@@ -9733,7 +9733,7 @@ static signed int remove_blanks(struct _IO_FILE *f)
 {
   signed int count = 0;
   signed int c;
-  signed int return_value_remove_line$1;
+  signed int return_value_remove_line_1;
   while((_Bool)1)
   {
     c=fgetc(f);
@@ -9754,8 +9754,8 @@ static signed int remove_blanks(struct _IO_FILE *f)
 
     __CPROVER_DUMP_L3:
       ;
-      return_value_remove_line$1=remove_line(f);
-      count = count + 1 + return_value_remove_line$1;
+      return_value_remove_line_1=remove_line(f);
+      count = count + 1 + return_value_remove_line_1;
       continue;
 
     __CPROVER_DUMP_L4:
@@ -9813,9 +9813,9 @@ static inline double sinc(double x)
 
   else
   {
-    double return_value_sin$1;
-    return_value_sin$1=sin(x);
-    return return_value_sin$1 / x;
+    double return_value_sin_1;
+    return_value_sin_1=sin(x);
+    return return_value_sin_1 / x;
   }
 }
 
@@ -9829,16 +9829,16 @@ void * testThread(void *args)
   j = 0;
   for( ; !(j >= 10); j = j + 1)
   {
-    struct _VlRand *return_value_vl_get_rand$1;
-    return_value_vl_get_rand$1=vl_get_rand();
-    signed int return_value_vl_rand_int31$2;
-    return_value_vl_rand_int31$2=vl_rand_int31(return_value_vl_get_rand$1);
-    printf("Thread %5d: %d\n", id, return_value_vl_rand_int31$2);
+    struct _VlRand *return_value_vl_get_rand_1;
+    return_value_vl_get_rand_1=vl_get_rand();
+    signed int return_value_vl_rand_int31_2;
+    return_value_vl_rand_int31_2=vl_rand_int31(return_value_vl_get_rand_1);
+    printf("Thread %5d: %d\n", id, return_value_vl_rand_int31_2);
     fflush(stdout);
   }
-  double return_value_vl_toc$3;
-  return_value_vl_toc$3=vl_toc();
-  printf("Thread %5d: elapsed time: %.2f s\n", id, return_value_vl_toc$3);
+  double return_value_vl_toc_3;
+  return_value_vl_toc_3=vl_toc();
+  printf("Thread %5d: elapsed time: %.2f s\n", id, return_value_vl_toc_3);
   return (void *)0;
 }
 
@@ -9846,71 +9846,71 @@ void * testThread(void *args)
 // file /usr/include/ctype.h line 215
 static inline signed int tolower(signed int __c)
 {
-  signed int tmp_if_expr$2;
-  const signed int **return_value___ctype_tolower_loc$1;
+  signed int tmp_if_expr_2;
+  const signed int **return_value___ctype_tolower_loc_1;
   if(__c >= -128 && !(__c >= 256))
   {
-    return_value___ctype_tolower_loc$1=__ctype_tolower_loc();
-    tmp_if_expr$2 = (*return_value___ctype_tolower_loc$1)[(signed long int)__c];
+    return_value___ctype_tolower_loc_1=__ctype_tolower_loc();
+    tmp_if_expr_2 = (*return_value___ctype_tolower_loc_1)[(signed long int)__c];
   }
 
   else
-    tmp_if_expr$2 = __c;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = __c;
+  return tmp_if_expr_2;
 }
 
 // vl_abs_d
 // file vl/mathop.h line 247
 static inline double vl_abs_d(double x)
 {
-  double return_value___builtin_fabs$1;
-  return_value___builtin_fabs$1=__builtin_fabs(x);
-  return return_value___builtin_fabs$1;
+  double return_value___builtin_fabs_1;
+  return_value___builtin_fabs_1=__builtin_fabs(x);
+  return return_value___builtin_fabs_1;
 }
 
-// vl_abs_d$link1
+// vl_abs_d_link1
 // file vl/mathop.h line 247
-static inline double vl_abs_d$link1(double x$link1)
+static inline double vl_abs_d_link1(double x_link1)
 {
-  double return_value___builtin_fabs$1$link1;
-  return_value___builtin_fabs$1$link1=__builtin_fabs(x$link1);
-  return return_value___builtin_fabs$1$link1;
+  double return_value___builtin_fabs_1_link1;
+  return_value___builtin_fabs_1_link1=__builtin_fabs(x_link1);
+  return return_value___builtin_fabs_1_link1;
 }
 
-// vl_abs_d$link2
+// vl_abs_d_link2
 // file vl/mathop.h line 247
-static inline double vl_abs_d$link2(double x$link2)
+static inline double vl_abs_d_link2(double x_link2)
 {
-  double return_value___builtin_fabs$1$link2;
-  return_value___builtin_fabs$1$link2=__builtin_fabs(x$link2);
-  return return_value___builtin_fabs$1$link2;
+  double return_value___builtin_fabs_1_link2;
+  return_value___builtin_fabs_1_link2=__builtin_fabs(x_link2);
+  return return_value___builtin_fabs_1_link2;
 }
 
-// vl_abs_d$link3
+// vl_abs_d_link3
 // file vl/mathop.h line 247
-static inline double vl_abs_d$link3(double x$link3)
+static inline double vl_abs_d_link3(double x_link3)
 {
-  double return_value___builtin_fabs$1$link3;
-  return_value___builtin_fabs$1$link3=__builtin_fabs(x$link3);
-  return return_value___builtin_fabs$1$link3;
+  double return_value___builtin_fabs_1_link3;
+  return_value___builtin_fabs_1_link3=__builtin_fabs(x_link3);
+  return return_value___builtin_fabs_1_link3;
 }
 
 // vl_abs_f
 // file vl/mathop.h line 233
 static inline float vl_abs_f(float x)
 {
-  float return_value___builtin_fabsf$1;
-  return_value___builtin_fabsf$1=__builtin_fabsf(x);
-  return return_value___builtin_fabsf$1;
+  float return_value___builtin_fabsf_1;
+  return_value___builtin_fabsf_1=__builtin_fabsf(x);
+  return return_value___builtin_fabsf_1;
 }
 
-// vl_abs_f$link1
+// vl_abs_f_link1
 // file vl/mathop.h line 233
-static inline float vl_abs_f$link1(float x$link1)
+static inline float vl_abs_f_link1(float x_link1)
 {
-  float return_value___builtin_fabsf$1$link1;
-  return_value___builtin_fabsf$1$link1=__builtin_fabsf(x$link1);
-  return return_value___builtin_fabsf$1$link1;
+  float return_value___builtin_fabsf_1_link1;
+  return_value___builtin_fabsf_1_link1=__builtin_fabsf(x_link1);
+  return return_value___builtin_fabsf_1_link1;
 }
 
 // vl_aib_calculate_information
@@ -9925,16 +9925,16 @@ void vl_aib_calculate_information(struct _VlAIB *aib, double *I, double *H)
   for( ; !(r >= aib->nentries); r = r + 1u)
     if(!IEEE_FLOAT_EQUAL(aib->Px[(signed long int)r], 0.000000))
     {
-      double return_value_log$1;
-      return_value_log$1=log(aib->Px[(signed long int)r]);
-      *H = *H + -return_value_log$1 * aib->Px[(signed long int)r];
+      double return_value_log_1;
+      return_value_log_1=log(aib->Px[(signed long int)r]);
+      *H = *H + -return_value_log_1 * aib->Px[(signed long int)r];
       c = (unsigned int)0;
       for( ; !(c >= aib->nlabels); c = c + 1u)
         if(!IEEE_FLOAT_EQUAL(aib->Pcx[(signed long int)(aib->nlabels * r + c)], 0.000000))
         {
-          double return_value_log$2;
-          return_value_log$2=log(aib->Pcx[(signed long int)(r * aib->nlabels + c)] / (aib->Px[(signed long int)r] * aib->Pc[(signed long int)c]));
-          *I = *I + aib->Pcx[(signed long int)(r * aib->nlabels + c)] * return_value_log$2;
+          double return_value_log_2;
+          return_value_log_2=log(aib->Pcx[(signed long int)(r * aib->nlabels + c)] / (aib->Px[(signed long int)r] * aib->Pc[(signed long int)c]));
+          *I = *I + aib->Pcx[(signed long int)(r * aib->nlabels + c)] * return_value_log_2;
         }
 
     }
@@ -10006,22 +10006,22 @@ void vl_aib_merge_nodes(struct _VlAIB *aib, unsigned int i, unsigned int j, unsi
     aib->Pcx[(signed long int)(j * aib->nlabels + c)] = aib->Pcx[(signed long int)(last_entry * aib->nlabels + c)];
   aib->nentries = aib->nentries - 1u;
   n = (unsigned int)0;
-  _Bool tmp_if_expr$2;
-  unsigned int tmp_post$1;
+  _Bool tmp_if_expr_2;
+  unsigned int tmp_post_1;
   for( ; !(n >= aib->nentries); n = n + 1u)
   {
     if(aib->bidx[(signed long int)n] == i)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = aib->bidx[(signed long int)n] == j ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = aib->bidx[(signed long int)n] == j ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       aib->bidx[(signed long int)n] = (unsigned int)0;
       aib->beta[(signed long int)n] = (double)1.79769313486231570815e+308L;
-      tmp_post$1 = aib->nwhich;
+      tmp_post_1 = aib->nwhich;
       aib->nwhich = aib->nwhich + 1u;
-      aib->which[(signed long int)tmp_post$1] = n;
+      aib->which[(signed long int)tmp_post_1] = n;
     }
 
     else
@@ -10055,9 +10055,9 @@ void vl_aib_min_beta(struct _VlAIB *aib, unsigned int *besti, unsigned int *best
 extern struct _VlAIB * vl_aib_new(double *Pcx, unsigned int nvalues, unsigned int nlabels)
 {
   struct _VlAIB *aib;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(struct _VlAIB) /*104ul*/ );
-  aib = (struct _VlAIB *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(struct _VlAIB) /*104ul*/ );
+  aib = (struct _VlAIB *)return_value_vl_malloc_1;
   unsigned int i;
   aib->verbosity = (unsigned int)0;
   aib->Pcx = Pcx;
@@ -10068,26 +10068,26 @@ extern struct _VlAIB * vl_aib_new(double *Pcx, unsigned int nvalues, unsigned in
   aib->Pc=vl_aib_new_Pc(aib->Pcx, aib->nvalues, aib->nlabels);
   aib->nentries = aib->nvalues;
   aib->nodes=vl_aib_new_nodelist(aib->nentries);
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)aib->nentries);
-  aib->beta = (double *)return_value_vl_malloc$2;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)aib->nentries);
-  aib->bidx = (unsigned int *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)aib->nentries);
+  aib->beta = (double *)return_value_vl_malloc_2;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)aib->nentries);
+  aib->bidx = (unsigned int *)return_value_vl_malloc_3;
   i = (unsigned int)0;
   for( ; !(i >= aib->nentries); i = i + 1u)
     aib->beta[(signed long int)i] = (double)1.79769313486231570815e+308L;
   aib->nwhich = aib->nvalues;
   aib->which=vl_aib_new_nodelist(aib->nwhich);
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(aib->nvalues * (unsigned int)2 - (unsigned int)1));
-  aib->parents = (unsigned int *)return_value_vl_malloc$4;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(aib->nvalues * (unsigned int)2 - (unsigned int)1));
+  aib->parents = (unsigned int *)return_value_vl_malloc_4;
   i = (unsigned int)0;
   for( ; !(i >= 2u * aib->nvalues + 4294967295u); i = i + 1u)
     aib->parents[(signed long int)i] = (unsigned int)2 * aib->nvalues;
-  void *return_value_vl_malloc$5;
-  return_value_vl_malloc$5=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)((aib->nvalues - (unsigned int)1) + (unsigned int)1));
-  aib->costs = (double *)return_value_vl_malloc$5;
+  void *return_value_vl_malloc_5;
+  return_value_vl_malloc_5=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)((aib->nvalues - (unsigned int)1) + (unsigned int)1));
+  aib->costs = (double *)return_value_vl_malloc_5;
   return aib;
 }
 
@@ -10096,9 +10096,9 @@ extern struct _VlAIB * vl_aib_new(double *Pcx, unsigned int nvalues, unsigned in
 double * vl_aib_new_Pc(double *Pcx, unsigned int nvalues, unsigned int nlabels)
 {
   double *Pc;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)nlabels);
-  Pc = (double *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)nlabels);
+  Pc = (double *)return_value_vl_malloc_1;
   unsigned int r;
   unsigned int c = (unsigned int)0;
   for( ; !(c >= nlabels); c = c + 1u)
@@ -10117,9 +10117,9 @@ double * vl_aib_new_Pc(double *Pcx, unsigned int nvalues, unsigned int nlabels)
 double * vl_aib_new_Px(double *Pcx, unsigned int nvalues, unsigned int nlabels)
 {
   double *Px;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)nvalues);
-  Px = (double *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)nvalues);
+  Px = (double *)return_value_vl_malloc_1;
   unsigned int r;
   unsigned int c;
   r = (unsigned int)0;
@@ -10139,9 +10139,9 @@ double * vl_aib_new_Px(double *Pcx, unsigned int nvalues, unsigned int nlabels)
 unsigned int * vl_aib_new_nodelist(unsigned int nentries)
 {
   unsigned int *nodelist;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)nentries);
-  nodelist = (unsigned int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)nentries);
+  nodelist = (unsigned int *)return_value_vl_malloc_1;
   unsigned int n = (unsigned int)0;
   for( ; !(n >= nentries); n = n + 1u)
     nodelist[(signed long int)n] = n;
@@ -10196,9 +10196,9 @@ extern void vl_aib_process(struct _VlAIB *aib)
     aib->costs[(signed long int)(i + (unsigned int)1)] = I;
     if(aib->verbosity >= 1u)
     {
-      signed int (*return_value_vl_get_printf_func$1)(const char *, ...);
-      return_value_vl_get_printf_func$1=vl_get_printf_func();
-      return_value_vl_get_printf_func$1("aib: (%5d,%5d)=%5d dE: %10.3g I: %6.4g H: %6.4g updt: %5d\n", nodei, nodej, newnode, minbeta, I, H, aib->nwhich);
+      signed int (*return_value_vl_get_printf_func_1)(const char *, ...);
+      return_value_vl_get_printf_func_1=vl_get_printf_func();
+      return_value_vl_get_printf_func_1("aib: (%5d,%5d)=%5d dE: %10.3g I: %6.4g H: %6.4g updt: %5d\n", nodei, nodej, newnode, minbeta, I, H, aib->nwhich);
     }
 
   }
@@ -10214,14 +10214,14 @@ void vl_aib_update_beta(struct _VlAIB *aib)
   double *Px = aib->Px;
   double *Pcx = aib->Pcx;
   double *tmp;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)aib->nentries);
-  tmp = (double *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)aib->nentries);
+  tmp = (double *)return_value_vl_malloc_1;
   unsigned int a;
   unsigned int b;
   unsigned int c;
   a = (unsigned int)0;
-  double return_value_log$2;
+  double return_value_log_2;
   for( ; !(a >= aib->nentries); a = a + 1u)
   {
     tmp[(signed long int)a] = (double)0;
@@ -10231,15 +10231,15 @@ void vl_aib_update_beta(struct _VlAIB *aib)
       double Pac = Pcx[(signed long int)(a * aib->nlabels + c)];
       if(IEEE_FLOAT_NOTEQUAL(Pac, 0.000000))
       {
-        return_value_log$2=log(Pac / Px[(signed long int)a]);
-        tmp[(signed long int)a] = tmp[(signed long int)a] + Pac * return_value_log$2;
+        return_value_log_2=log(Pac / Px[(signed long int)a]);
+        tmp[(signed long int)a] = tmp[(signed long int)a] + Pac * return_value_log_2;
       }
 
     }
   }
   i = (unsigned int)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   for( ; !(i >= aib->nwhich); i = i + 1u)
   {
     a = aib->which[(signed long int)i];
@@ -10248,31 +10248,31 @@ void vl_aib_update_beta(struct _VlAIB *aib)
     {
       double T1 = (double)0;
       if(a == b)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = IEEE_FLOAT_EQUAL(Px[(signed long int)a], (double)0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = IEEE_FLOAT_EQUAL(Px[(signed long int)a], (double)0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = IEEE_FLOAT_EQUAL(Px[(signed long int)b], (double)0) ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = IEEE_FLOAT_EQUAL(Px[(signed long int)b], (double)0) ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_4)
       {
-        double return_value_log$5;
-        return_value_log$5=log(Px[(signed long int)a] + Px[(signed long int)b]);
-        T1 = (Px[(signed long int)a] + Px[(signed long int)b]) * return_value_log$5;
+        double return_value_log_5;
+        return_value_log_5=log(Px[(signed long int)a] + Px[(signed long int)b]);
+        T1 = (Px[(signed long int)a] + Px[(signed long int)b]) * return_value_log_5;
         T1 = T1 + tmp[(signed long int)a] + tmp[(signed long int)b];
         c = (unsigned int)0;
         for( ; !(c >= aib->nlabels); c = c + 1u)
         {
-          double vl_aib_update_beta$$1$$2$$1$$1$$1$$1$$1$$Pac = Pcx[(signed long int)(a * aib->nlabels + c)];
+          double vl_aib_update_beta__1__2__1__1__1__1__1__Pac = Pcx[(signed long int)(a * aib->nlabels + c)];
           double Pbc = Pcx[(signed long int)(b * aib->nlabels + c)];
-          if(!IEEE_FLOAT_EQUAL(vl_aib_update_beta$$1$$2$$1$$1$$1$$1$$1$$Pac, 0.000000) || !IEEE_FLOAT_EQUAL(Pbc, 0.000000))
+          if(!IEEE_FLOAT_EQUAL(vl_aib_update_beta__1__2__1__1__1__1__1__Pac, 0.000000) || !IEEE_FLOAT_EQUAL(Pbc, 0.000000))
           {
-            double return_value_log$6;
-            return_value_log$6=log(vl_aib_update_beta$$1$$2$$1$$1$$1$$1$$1$$Pac + Pbc);
-            T1 = T1 + -((vl_aib_update_beta$$1$$2$$1$$1$$1$$1$$1$$Pac + Pbc) * return_value_log$6);
+            double return_value_log_6;
+            return_value_log_6=log(vl_aib_update_beta__1__2__1__1__1__1__1__Pac + Pbc);
+            T1 = T1 + -((vl_aib_update_beta__1__2__1__1__1__1__1__Pac + Pbc) * return_value_log_6);
           }
 
         }
@@ -10345,11 +10345,11 @@ extern struct _VlArray * vl_array_init(struct _VlArray *self, unsigned int type,
   self->type = type;
   self->numDimensions = numDimensions;
   memcpy((void *)self->dimensions, (const void *)dimensions, sizeof(unsigned long long int) /*8ul*/  * numDimensions);
-  unsigned long long int return_value_vl_get_type_size$1;
-  return_value_vl_get_type_size$1=vl_get_type_size$link3(type);
-  unsigned long long int return_value_vl_array_get_num_elements$2;
-  return_value_vl_array_get_num_elements$2=vl_array_get_num_elements(self);
-  self->data=vl_malloc(return_value_vl_get_type_size$1 * return_value_vl_array_get_num_elements$2);
+  unsigned long long int return_value_vl_get_type_size_1;
+  return_value_vl_get_type_size_1=vl_get_type_size_link3(type);
+  unsigned long long int return_value_vl_array_get_num_elements_2;
+  return_value_vl_array_get_num_elements_2=vl_array_get_num_elements(self);
+  self->data=vl_malloc(return_value_vl_get_type_size_1 * return_value_vl_array_get_num_elements_2);
   self->isEnvelope = 0;
   self->isSparse = 0;
   return self;
@@ -10373,9 +10373,9 @@ extern struct _VlArray * vl_array_init_envelope(struct _VlArray *self, void *dat
 extern struct _VlArray * vl_array_init_matrix(struct _VlArray *self, unsigned int type, unsigned long long int numRows, unsigned long long int numColumns)
 {
   unsigned long long int dimensions[2l] = { numRows, numColumns };
-  struct _VlArray *return_value_vl_array_init$1;
-  return_value_vl_array_init$1=vl_array_init(self, type, (unsigned long long int)2, dimensions);
-  return return_value_vl_array_init$1;
+  struct _VlArray *return_value_vl_array_init_1;
+  return_value_vl_array_init_1=vl_array_init(self, type, (unsigned long long int)2, dimensions);
+  return return_value_vl_array_init_1;
 }
 
 // vl_array_init_matrix_envelope
@@ -10383,9 +10383,9 @@ extern struct _VlArray * vl_array_init_matrix(struct _VlArray *self, unsigned in
 extern struct _VlArray * vl_array_init_matrix_envelope(struct _VlArray *self, void *data, unsigned int type, unsigned long long int numRows, unsigned long long int numColumns)
 {
   unsigned long long int dimensions[2l] = { numRows, numColumns };
-  struct _VlArray *return_value_vl_array_init_envelope$1;
-  return_value_vl_array_init_envelope$1=vl_array_init_envelope(self, data, type, (unsigned long long int)2, dimensions);
-  return return_value_vl_array_init_envelope$1;
+  struct _VlArray *return_value_vl_array_init_envelope_1;
+  return_value_vl_array_init_envelope_1=vl_array_init_envelope(self, data, type, (unsigned long long int)2, dimensions);
+  return return_value_vl_array_init_envelope_1;
 }
 
 // vl_array_new
@@ -10393,12 +10393,12 @@ extern struct _VlArray * vl_array_init_matrix_envelope(struct _VlArray *self, vo
 extern struct _VlArray * vl_array_new(unsigned int type, unsigned long long int numDimensions, const unsigned long long int *dimensions)
 {
   struct _VlArray *self;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(struct _VlArray) /*176ul*/ );
-  self = (struct _VlArray *)return_value_vl_malloc$1;
-  struct _VlArray *return_value_vl_array_init$2;
-  return_value_vl_array_init$2=vl_array_init(self, type, numDimensions, dimensions);
-  return return_value_vl_array_init$2;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(struct _VlArray) /*176ul*/ );
+  self = (struct _VlArray *)return_value_vl_malloc_1;
+  struct _VlArray *return_value_vl_array_init_2;
+  return_value_vl_array_init_2=vl_array_init(self, type, numDimensions, dimensions);
+  return return_value_vl_array_init_2;
 }
 
 // vl_array_new_envelope
@@ -10406,12 +10406,12 @@ extern struct _VlArray * vl_array_new(unsigned int type, unsigned long long int 
 extern struct _VlArray * vl_array_new_envelope(void *data, unsigned int type, unsigned long long int numDimensions, const unsigned long long int *dimensions)
 {
   struct _VlArray *self;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(struct _VlArray) /*176ul*/ );
-  self = (struct _VlArray *)return_value_vl_malloc$1;
-  struct _VlArray *return_value_vl_array_init_envelope$2;
-  return_value_vl_array_init_envelope$2=vl_array_init_envelope(self, data, type, numDimensions, dimensions);
-  return return_value_vl_array_init_envelope$2;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(struct _VlArray) /*176ul*/ );
+  self = (struct _VlArray *)return_value_vl_malloc_1;
+  struct _VlArray *return_value_vl_array_init_envelope_2;
+  return_value_vl_array_init_envelope_2=vl_array_init_envelope(self, data, type, numDimensions, dimensions);
+  return return_value_vl_array_init_envelope_2;
 }
 
 // vl_array_new_matrix
@@ -10419,9 +10419,9 @@ extern struct _VlArray * vl_array_new_envelope(void *data, unsigned int type, un
 extern struct _VlArray * vl_array_new_matrix(unsigned int type, unsigned long long int numRows, unsigned long long int numColumns)
 {
   unsigned long long int dimensions[2l] = { numRows, numColumns };
-  struct _VlArray *return_value_vl_array_new$1;
-  return_value_vl_array_new$1=vl_array_new(type, (unsigned long long int)2, dimensions);
-  return return_value_vl_array_new$1;
+  struct _VlArray *return_value_vl_array_new_1;
+  return_value_vl_array_new_1=vl_array_new(type, (unsigned long long int)2, dimensions);
+  return return_value_vl_array_new_1;
 }
 
 // vl_array_new_matrix_envelope
@@ -10429,19 +10429,19 @@ extern struct _VlArray * vl_array_new_matrix(unsigned int type, unsigned long lo
 extern struct _VlArray * vl_array_new_matrix_envelope(void *data, unsigned int type, unsigned long long int numRows, unsigned long long int numColumns)
 {
   unsigned long long int dimensions[2l] = { numRows, numColumns };
-  struct _VlArray *return_value_vl_array_new_envelope$1;
-  return_value_vl_array_new_envelope$1=vl_array_new_envelope(data, type, (unsigned long long int)2, dimensions);
-  return return_value_vl_array_new_envelope$1;
+  struct _VlArray *return_value_vl_array_new_envelope_1;
+  return_value_vl_array_new_envelope_1=vl_array_new_envelope(data, type, (unsigned long long int)2, dimensions);
+  return return_value_vl_array_new_envelope_1;
 }
 
 // vl_calloc
 // file vl/generic.h line 145
 extern void * vl_calloc(unsigned long int n, unsigned long int size)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
   void *return_value;
-  return_value=return_value_vl_get_state$1->calloc_func(n, size);
+  return_value=return_value_vl_get_state_1->calloc_func(n, size);
   return return_value;
 }
 
@@ -10449,27 +10449,27 @@ extern void * vl_calloc(unsigned long int n, unsigned long int size)
 // file vl/mathop.h line 174
 static inline signed long int vl_ceil_d(double x)
 {
-  signed int return_value___builtin_ceil$1;
-  return_value___builtin_ceil$1=__builtin_ceil(x);
-  return (signed long int)return_value___builtin_ceil$1;
+  signed int return_value___builtin_ceil_1;
+  return_value___builtin_ceil_1=__builtin_ceil(x);
+  return (signed long int)return_value___builtin_ceil_1;
 }
 
-// vl_ceil_d$link1
+// vl_ceil_d_link1
 // file vl/mathop.h line 174
-static inline signed long int vl_ceil_d$link1(double x$link1)
+static inline signed long int vl_ceil_d_link1(double x_link1)
 {
-  signed int return_value___builtin_ceil$1$link1;
-  return_value___builtin_ceil$1$link1=__builtin_ceil(x$link1);
-  return (signed long int)return_value___builtin_ceil$1$link1;
+  signed int return_value___builtin_ceil_1_link1;
+  return_value___builtin_ceil_1_link1=__builtin_ceil(x_link1);
+  return (signed long int)return_value___builtin_ceil_1_link1;
 }
 
 // vl_ceil_f
 // file vl/mathop.h line 160
 static inline signed long int vl_ceil_f(float x)
 {
-  float return_value___builtin_ceilf$1;
-  return_value___builtin_ceilf$1=__builtin_ceilf(x);
-  return (signed long int)return_value___builtin_ceilf$1;
+  float return_value___builtin_ceilf_1;
+  return_value___builtin_ceilf_1=__builtin_ceilf(x);
+  return (signed long int)return_value___builtin_ceilf_1;
 }
 
 // vl_configuration_to_string_copy
@@ -10481,31 +10481,31 @@ extern char * vl_configuration_to_string_copy(void)
   char *staticString;
   staticString=vl_static_configuration_to_string_copy();
   char *cpuString;
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  cpuString=_vl_x86cpu_info_to_string_copy(&return_value_vl_get_state$1->cpuInfo);
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  cpuString=_vl_x86cpu_info_to_string_copy(&return_value_vl_get_state_1->cpuInfo);
   const signed int debug = 0;
   while(string == ((char *)NULL))
   {
     if(length >= 1)
     {
-      void *return_value_vl_malloc$2;
-      return_value_vl_malloc$2=vl_malloc(sizeof(char) /*1ul*/  * (unsigned long int)length);
-      string = (char *)return_value_vl_malloc$2;
+      void *return_value_vl_malloc_2;
+      return_value_vl_malloc_2=vl_malloc(sizeof(char) /*1ul*/  * (unsigned long int)length);
+      string = (char *)return_value_vl_malloc_2;
       if(string == ((char *)NULL))
         break;
 
     }
 
-    const char *return_value_vl_get_version_string$3;
-    return_value_vl_get_version_string$3=vl_get_version_string();
-    unsigned long long int return_value_vl_get_num_cpus$4;
-    return_value_vl_get_num_cpus$4=vl_get_num_cpus();
-    signed int return_value_omp_get_max_threads$5;
-    return_value_omp_get_max_threads$5=omp_get_max_threads();
-    unsigned long long int return_value_vl_get_max_threads$6;
-    return_value_vl_get_max_threads$6=vl_get_max_threads();
-    length=snprintf(string, (unsigned long int)length, "VLFeat version %s\n    Static config: %s\n    %llu CPU(s): %s\n    OpenMP: max threads: %d (library: %llu)\n    Debug: %s\n", return_value_vl_get_version_string$3, staticString, return_value_vl_get_num_cpus$4, cpuString, return_value_omp_get_max_threads$5, return_value_vl_get_max_threads$6, debug != 0 ? "yes" : "no");
+    const char *return_value_vl_get_version_string_3;
+    return_value_vl_get_version_string_3=vl_get_version_string();
+    unsigned long long int return_value_vl_get_num_cpus_4;
+    return_value_vl_get_num_cpus_4=vl_get_num_cpus();
+    signed int return_value_omp_get_max_threads_5;
+    return_value_omp_get_max_threads_5=omp_get_max_threads();
+    unsigned long long int return_value_vl_get_max_threads_6;
+    return_value_vl_get_max_threads_6=vl_get_max_threads();
+    length=snprintf(string, (unsigned long int)length, "VLFeat version %s\n    Static config: %s\n    %llu CPU(s): %s\n    OpenMP: max threads: %d (library: %llu)\n    Debug: %s\n", return_value_vl_get_version_string_3, staticString, return_value_vl_get_num_cpus_4, cpuString, return_value_omp_get_max_threads_5, return_value_vl_get_max_threads_6, debug != 0 ? "yes" : "no");
     length = length + 1;
   }
   if(!(staticString == ((char *)NULL)))
@@ -10568,19 +10568,19 @@ extern void vl_covdet_detect(struct _VlCovDet *self)
   if((signed int)self->method == VL_COVDET_METHOD_DOG)
     cgeom.octaveLastSubdivision = cgeom.octaveLastSubdivision - (signed long long int)1;
 
-  _Bool tmp_if_expr$3;
-  struct _VlScaleSpaceGeometry return_value_vl_scalespace_get_geometry$1;
-  signed int return_value_vl_scalespacegeometry_is_equal$2;
+  _Bool tmp_if_expr_3;
+  struct _VlScaleSpaceGeometry return_value_vl_scalespace_get_geometry_1;
+  signed int return_value_vl_scalespacegeometry_is_equal_2;
   if(self->css == ((struct _VlScaleSpace *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_vl_scalespace_get_geometry$1=vl_scalespace_get_geometry(self->css);
-    return_value_vl_scalespacegeometry_is_equal$2=vl_scalespacegeometry_is_equal(cgeom, return_value_vl_scalespace_get_geometry$1);
-    tmp_if_expr$3 = !(return_value_vl_scalespacegeometry_is_equal$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_vl_scalespace_get_geometry_1=vl_scalespace_get_geometry(self->css);
+    return_value_vl_scalespacegeometry_is_equal_2=vl_scalespacegeometry_is_equal(cgeom, return_value_vl_scalespace_get_geometry_1);
+    tmp_if_expr_3 = !(return_value_vl_scalespacegeometry_is_equal_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     if(!(self->css == ((struct _VlScaleSpace *)NULL)))
       vl_scalespace_delete(self->css);
@@ -10588,29 +10588,29 @@ extern void vl_covdet_detect(struct _VlCovDet *self)
     self->css=vl_scalespace_new_with_geometry(cgeom);
   }
 
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if((signed int)self->method == VL_COVDET_METHOD_HARRIS_LAPLACE)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = (signed int)self->method == VL_COVDET_METHOD_MULTISCALE_HARRIS ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (signed int)self->method == VL_COVDET_METHOD_MULTISCALE_HARRIS ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_7)
   {
-    struct _VlScaleSpaceOctaveGeometry vl_covdet_detect$$1$$3$$oct;
-    vl_covdet_detect$$1$$3$$oct=vl_scalespace_get_octave_geometry(self->gss, geom.firstOctave);
-    void *return_value_vl_malloc$4;
-    return_value_vl_malloc$4=vl_malloc(vl_covdet_detect$$1$$3$$oct.width * vl_covdet_detect$$1$$3$$oct.height * sizeof(float) /*4ul*/ );
-    levelxx = (float *)return_value_vl_malloc$4;
-    void *return_value_vl_malloc$5;
-    return_value_vl_malloc$5=vl_malloc(vl_covdet_detect$$1$$3$$oct.width * vl_covdet_detect$$1$$3$$oct.height * sizeof(float) /*4ul*/ );
-    levelyy = (float *)return_value_vl_malloc$5;
-    void *return_value_vl_malloc$6;
-    return_value_vl_malloc$6=vl_malloc(vl_covdet_detect$$1$$3$$oct.width * vl_covdet_detect$$1$$3$$oct.height * sizeof(float) /*4ul*/ );
-    levelxy = (float *)return_value_vl_malloc$6;
+    struct _VlScaleSpaceOctaveGeometry vl_covdet_detect__1__3__oct;
+    vl_covdet_detect__1__3__oct=vl_scalespace_get_octave_geometry(self->gss, geom.firstOctave);
+    void *return_value_vl_malloc_4;
+    return_value_vl_malloc_4=vl_malloc(vl_covdet_detect__1__3__oct.width * vl_covdet_detect__1__3__oct.height * sizeof(float) /*4ul*/ );
+    levelxx = (float *)return_value_vl_malloc_4;
+    void *return_value_vl_malloc_5;
+    return_value_vl_malloc_5=vl_malloc(vl_covdet_detect__1__3__oct.width * vl_covdet_detect__1__3__oct.height * sizeof(float) /*4ul*/ );
+    levelyy = (float *)return_value_vl_malloc_5;
+    void *return_value_vl_malloc_6;
+    return_value_vl_malloc_6=vl_malloc(vl_covdet_detect__1__3__oct.width * vl_covdet_detect__1__3__oct.height * sizeof(float) /*4ul*/ );
+    levelxy = (float *)return_value_vl_malloc_6;
   }
 
   o = cgeom.firstOctave;
-  float *return_value_vl_scalespace_get_level$8;
+  float *return_value_vl_scalespace_get_level_8;
   for( ; cgeom.lastOctave >= o; o = o + 1ll)
   {
     struct _VlScaleSpaceOctaveGeometry oct;
@@ -10622,21 +10622,21 @@ extern void vl_covdet_detect(struct _VlCovDet *self)
       level=vl_scalespace_get_level(self->gss, o, s);
       float *clevel;
       clevel=vl_scalespace_get_level(self->css, o, s);
-      double vl_covdet_detect$$1$$4$$1$$1$$1$$sigma;
-      vl_covdet_detect$$1$$4$$1$$1$$1$$sigma=vl_scalespace_get_level_sigma(self->css, o, s);
+      double vl_covdet_detect__1__4__1__1__1__sigma;
+      vl_covdet_detect__1__4__1__1__1__sigma=vl_scalespace_get_level_sigma(self->css, o, s);
       switch((signed int)self->method)
       {
         case VL_COVDET_METHOD_DOG:
         {
-          return_value_vl_scalespace_get_level$8=vl_scalespace_get_level(self->gss, o, s + (signed long int)1);
-          _vl_dog_response(clevel, return_value_vl_scalespace_get_level$8, level, oct.width, oct.height);
+          return_value_vl_scalespace_get_level_8=vl_scalespace_get_level(self->gss, o, s + (signed long int)1);
+          _vl_dog_response(clevel, return_value_vl_scalespace_get_level_8, level, oct.width, oct.height);
           break;
         }
         case VL_COVDET_METHOD_HARRIS_LAPLACE:
 
         case VL_COVDET_METHOD_MULTISCALE_HARRIS:
         {
-          _vl_harris_response(clevel, level, oct.width, oct.height, oct.step, vl_covdet_detect$$1$$4$$1$$1$$1$$sigma, 1.4 * vl_covdet_detect$$1$$4$$1$$1$$1$$sigma, 0.05);
+          _vl_harris_response(clevel, level, oct.width, oct.height, oct.step, vl_covdet_detect__1__4__1__1__1__sigma, 1.4 * vl_covdet_detect__1__4__1__1__1__sigma, 0.05);
           break;
         }
         case VL_COVDET_METHOD_HESSIAN:
@@ -10645,7 +10645,7 @@ extern void vl_covdet_detect(struct _VlCovDet *self)
 
         case VL_COVDET_METHOD_MULTISCALE_HESSIAN:
         {
-          _vl_det_hessian_response(clevel, level, oct.width, oct.height, oct.step, vl_covdet_detect$$1$$4$$1$$1$$1$$sigma);
+          _vl_det_hessian_response(clevel, level, oct.width, oct.height, oct.step, vl_covdet_detect__1__4__1__1__1__sigma);
           break;
         }
         default:
@@ -10679,22 +10679,22 @@ extern void vl_covdet_detect(struct _VlCovDet *self)
         signed int ok;
         memset((void *)&feature, 0, sizeof(struct _VlCovDetFeature) /*40ul*/ );
         ok=vl_refine_local_extreum_3(&refined, octave, width, height, depth, extrema[(signed long int)((unsigned long int)3 * index + (unsigned long int)0)], extrema[(signed long int)((unsigned long int)3 * index + (unsigned long int)1)], extrema[(signed long int)((unsigned long int)3 * index + (unsigned long int)2)]);
-        double return_value_fabs$9;
-        return_value_fabs$9=fabs((double)refined.peakScore);
-        ok = ok & (signed int)(return_value_fabs$9 > self->peakThreshold);
+        double return_value_fabs_9;
+        return_value_fabs_9=fabs((double)refined.peakScore);
+        ok = ok & (signed int)(return_value_fabs_9 > self->peakThreshold);
         ok = ok & (signed int)((double)refined.edgeScore < self->edgeThreshold);
         if(!(ok == 0))
         {
-          double vl_covdet_detect$$1$$5$$1$$1$$1$$1$$1$$1$$1$$sigma;
-          double return_value_pow$10;
-          return_value_pow$10=pow(2.0, (double)((float)o + (refined.z + (float)cgeom.octaveFirstSubdivision) / (float)cgeom.octaveResolution));
-          vl_covdet_detect$$1$$5$$1$$1$$1$$1$$1$$1$$1$$sigma = cgeom.baseScale * return_value_pow$10;
+          double vl_covdet_detect__1__5__1__1__1__1__1__1__1__sigma;
+          double return_value_pow_10;
+          return_value_pow_10=pow(2.0, (double)((float)o + (refined.z + (float)cgeom.octaveFirstSubdivision) / (float)cgeom.octaveResolution));
+          vl_covdet_detect__1__5__1__1__1__1__1__1__1__sigma = cgeom.baseScale * return_value_pow_10;
           feature.frame.x = (float)((double)refined.x * step);
           feature.frame.y = (float)((double)refined.y * step);
-          feature.frame.a11 = (float)vl_covdet_detect$$1$$5$$1$$1$$1$$1$$1$$1$$1$$sigma;
+          feature.frame.a11 = (float)vl_covdet_detect__1__5__1__1__1__1__1__1__1__sigma;
           feature.frame.a12 = (float)0.0;
           feature.frame.a21 = (float)0.0;
-          feature.frame.a22 = (float)vl_covdet_detect$$1$$5$$1$$1$$1$$1$$1$$1$$1$$sigma;
+          feature.frame.a22 = (float)vl_covdet_detect__1__5__1__1__1__1__1__1__1__sigma;
           feature.peakScore = refined.peakScore;
           feature.edgeScore = refined.edgeScore;
           vl_covdet_append_feature(self, &feature);
@@ -10707,36 +10707,36 @@ extern void vl_covdet_detect(struct _VlCovDet *self)
     s = cgeom.octaveFirstSubdivision;
     for( ; !(s >= cgeom.octaveLastSubdivision); s = s + 1ll)
     {
-      const float *vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$level;
-      vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$level=vl_scalespace_get_level(self->css, o, s);
-      numExtrema=vl_find_local_extrema_2(&extrema, &extremaBufferSize, vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$level, width, height, 0.8 * self->peakThreshold);
+      const float *vl_covdet_detect__1__5__1__1__1__2__1__1__level;
+      vl_covdet_detect__1__5__1__1__1__2__1__1__level=vl_scalespace_get_level(self->css, o, s);
+      numExtrema=vl_find_local_extrema_2(&extrema, &extremaBufferSize, vl_covdet_detect__1__5__1__1__1__2__1__1__level, width, height, 0.8 * self->peakThreshold);
       index = (unsigned long long int)0;
       for( ; !(index >= numExtrema); index = index + 1ull)
       {
-        struct _VlCovDetExtremum2 vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$refined;
-        struct _VlCovDetFeature vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature;
-        signed int vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$ok;
-        memset((void *)&vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature, 0, sizeof(struct _VlCovDetFeature) /*40ul*/ );
-        vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$ok=vl_refine_local_extreum_2(&vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$refined, vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$level, width, height, extrema[(signed long int)((unsigned long int)2 * index + (unsigned long int)0)], extrema[(signed long int)((unsigned long int)2 * index + (unsigned long int)1)]);
-        double return_value_fabs$11;
-        return_value_fabs$11=fabs((double)vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$refined.peakScore);
-        vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$ok = vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$ok & (signed int)(return_value_fabs$11 > self->peakThreshold);
-        vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$ok = vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$ok & (signed int)((double)vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$refined.edgeScore < self->edgeThreshold);
-        if(!(vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$ok == 0))
+        struct _VlCovDetExtremum2 vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__refined;
+        struct _VlCovDetFeature vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature;
+        signed int vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__ok;
+        memset((void *)&vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature, 0, sizeof(struct _VlCovDetFeature) /*40ul*/ );
+        vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__ok=vl_refine_local_extreum_2(&vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__refined, vl_covdet_detect__1__5__1__1__1__2__1__1__level, width, height, extrema[(signed long int)((unsigned long int)2 * index + (unsigned long int)0)], extrema[(signed long int)((unsigned long int)2 * index + (unsigned long int)1)]);
+        double return_value_fabs_11;
+        return_value_fabs_11=fabs((double)vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__refined.peakScore);
+        vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__ok = vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__ok & (signed int)(return_value_fabs_11 > self->peakThreshold);
+        vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__ok = vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__ok & (signed int)((double)vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__refined.edgeScore < self->edgeThreshold);
+        if(!(vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__ok == 0))
         {
           double sigma;
-          double return_value_pow$12;
-          return_value_pow$12=pow(2.0, (double)o + (double)s / (double)cgeom.octaveResolution);
-          sigma = cgeom.baseScale * return_value_pow$12;
-          vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature.frame.x = (float)((double)vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$refined.x * step);
-          vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature.frame.y = (float)((double)vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$refined.y * step);
-          vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature.frame.a11 = (float)sigma;
-          vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature.frame.a12 = (float)0.0;
-          vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature.frame.a21 = (float)0.0;
-          vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature.frame.a22 = (float)sigma;
-          vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature.peakScore = vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$refined.peakScore;
-          vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature.edgeScore = vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$refined.edgeScore;
-          vl_covdet_append_feature(self, &vl_covdet_detect$$1$$5$$1$$1$$1$$2$$1$$1$$1$$1$$feature);
+          double return_value_pow_12;
+          return_value_pow_12=pow(2.0, (double)o + (double)s / (double)cgeom.octaveResolution);
+          sigma = cgeom.baseScale * return_value_pow_12;
+          vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature.frame.x = (float)((double)vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__refined.x * step);
+          vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature.frame.y = (float)((double)vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__refined.y * step);
+          vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature.frame.a11 = (float)sigma;
+          vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature.frame.a12 = (float)0.0;
+          vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature.frame.a21 = (float)0.0;
+          vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature.frame.a22 = (float)sigma;
+          vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature.peakScore = vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__refined.peakScore;
+          vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature.edgeScore = vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__refined.edgeScore;
+          vl_covdet_append_feature(self, &vl_covdet_detect__1__5__1__1__1__2__1__1__1__1__feature);
         }
 
       }
@@ -10754,11 +10754,11 @@ extern void vl_covdet_detect(struct _VlCovDet *self)
   if((signed int)self->method == VL_COVDET_METHOD_HESSIAN_LAPLACE || (signed int)self->method == VL_COVDET_METHOD_HARRIS_LAPLACE)
     vl_covdet_extract_laplacian_scales(self);
 
-  double return_value_vl_abs_d$16;
-  double return_value_vl_abs_d$15;
-  double return_value_vl_abs_d$13;
-  double return_value_vl_abs_d$14;
-  signed long long int tmp_post$17;
+  double return_value_vl_abs_d_16;
+  double return_value_vl_abs_d_15;
+  double return_value_vl_abs_d_13;
+  double return_value_vl_abs_d_14;
+  signed long long int tmp_post_17;
   if(IEEE_FLOAT_NOTEQUAL(self->nonExtremaSuppression, 0.000000))
   {
     signed long long int i;
@@ -10770,7 +10770,7 @@ extern void vl_covdet_detect(struct _VlCovDet *self)
     {
       double x = (double)(self->features + i)->frame.x;
       double y = (double)(self->features + i)->frame.y;
-      double vl_covdet_detect$$1$$7$$1$$1$$sigma = (double)(self->features + i)->frame.a11;
+      double vl_covdet_detect__1__7__1__1__sigma = (double)(self->features + i)->frame.a11;
       double score = (double)(self->features + i)->peakScore;
       j = (signed long long int)0;
       for( ; !(j >= (signed long int)(signed int)self->numFeatures); j = j + 1ll)
@@ -10781,17 +10781,17 @@ extern void vl_covdet_detect(struct _VlCovDet *self)
         double score_ = (double)(self->features + j)->peakScore;
         if(!IEEE_FLOAT_EQUAL(score_, 0.000000))
         {
-          if(sigma_ < (1.000000 + tol) * vl_covdet_detect$$1$$7$$1$$1$$sigma && vl_covdet_detect$$1$$7$$1$$1$$sigma < (1.000000 + tol) * sigma_)
+          if(sigma_ < (1.000000 + tol) * vl_covdet_detect__1__7__1__1__sigma && vl_covdet_detect__1__7__1__1__sigma < (1.000000 + tol) * sigma_)
           {
-            return_value_vl_abs_d$16=vl_abs_d$link2(dx_);
-            if(return_value_vl_abs_d$16 < tol * vl_covdet_detect$$1$$7$$1$$1$$sigma)
+            return_value_vl_abs_d_16=vl_abs_d_link2(dx_);
+            if(return_value_vl_abs_d_16 < tol * vl_covdet_detect__1__7__1__1__sigma)
             {
-              return_value_vl_abs_d$15=vl_abs_d$link2(dy_);
-              if(return_value_vl_abs_d$15 < tol * vl_covdet_detect$$1$$7$$1$$1$$sigma)
+              return_value_vl_abs_d_15=vl_abs_d_link2(dy_);
+              if(return_value_vl_abs_d_15 < tol * vl_covdet_detect__1__7__1__1__sigma)
               {
-                return_value_vl_abs_d$13=vl_abs_d$link2(score);
-                return_value_vl_abs_d$14=vl_abs_d$link2(score_);
-                if(return_value_vl_abs_d$13 > return_value_vl_abs_d$14)
+                return_value_vl_abs_d_13=vl_abs_d_link2(score);
+                return_value_vl_abs_d_14=vl_abs_d_link2(score_);
+                if(return_value_vl_abs_d_13 > return_value_vl_abs_d_14)
                 {
                   (self->features + j)->peakScore = (float)0;
                   self->numNonExtremaSuppressed = self->numNonExtremaSuppressed + 1ull;
@@ -10811,12 +10811,12 @@ extern void vl_covdet_detect(struct _VlCovDet *self)
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)(signed int)self->numFeatures); i = i + 1ll)
     {
-      struct _VlCovDetFeature vl_covdet_detect$$1$$7$$2$$1$$feature = self->features[i];
+      struct _VlCovDetFeature vl_covdet_detect__1__7__2__1__feature = self->features[i];
       if(IEEE_FLOAT_NOTEQUAL((self->features + i)->peakScore, 0.000000f))
       {
-        tmp_post$17 = j;
+        tmp_post_17 = j;
         j = j + 1ll;
-        self->features[tmp_post$17] = vl_covdet_detect$$1$$7$$2$$1$$feature;
+        self->features[tmp_post_17] = vl_covdet_detect__1__7__2__1__feature;
       }
 
     }
@@ -10866,9 +10866,9 @@ extern void vl_covdet_extract_affine_shape(struct _VlCovDet *self)
   unsigned long long int numFeatures;
   numFeatures=vl_covdet_get_num_features(self);
   struct _VlCovDetFeature *feature;
-  void *return_value_vl_covdet_get_features$1;
-  return_value_vl_covdet_get_features$1=vl_covdet_get_features(self);
-  feature = (struct _VlCovDetFeature *)return_value_vl_covdet_get_features$1;
+  void *return_value_vl_covdet_get_features_1;
+  return_value_vl_covdet_get_features_1=vl_covdet_get_features(self);
+  feature = (struct _VlCovDetFeature *)return_value_vl_covdet_get_features_1;
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)(signed int)numFeatures); i = i + 1ll)
   {
@@ -10891,7 +10891,7 @@ extern void vl_covdet_extract_affine_shape(struct _VlCovDet *self)
 extern signed int vl_covdet_extract_affine_shape_for_frame(struct _VlCovDet *self, struct _VlFrameOrientedEllipse *adapted, struct _VlFrameOrientedEllipse frame)
 {
   signed long long int iter = (signed long long int)0;
-  double vl_covdet_extract_affine_shape_for_frame$$1$$A[4l] = { (double)frame.a11, (double)frame.a21, (double)frame.a12, (double)frame.a22 };
+  double vl_covdet_extract_affine_shape_for_frame__1__A[4l] = { (double)frame.a11, (double)frame.a21, (double)frame.a12, (double)frame.a22 };
   double T[2l] = { (double)frame.x, (double)frame.y };
   double U[4l];
   double V[4l];
@@ -10910,9 +10910,9 @@ extern signed int vl_covdet_extract_affine_shape_for_frame(struct _VlCovDet *sel
   const unsigned long long int side = (const unsigned long long int)(2 * 20 + 1);
   const double extent = (const double)(3 * 3);
   *adapted = frame;
-  double tmp_if_expr$1;
-  double tmp_if_expr$2;
-  double tmp_if_expr$3;
+  double tmp_if_expr_1;
+  double tmp_if_expr_2;
+  double tmp_if_expr_3;
   while((_Bool)1)
   {
     double lxx = (double)0;
@@ -10920,51 +10920,51 @@ extern signed int vl_covdet_extract_affine_shape_for_frame(struct _VlCovDet *sel
     double lyy = (double)0;
     signed long long int k;
     signed int err;
-    vl_svd2(D, U, V, vl_covdet_extract_affine_shape_for_frame$$1$$A);
+    vl_svd2(D, U, V, vl_covdet_extract_affine_shape_for_frame__1__A);
     if(D[0l] / D[3l] > D[3l] / D[0l])
-      tmp_if_expr$1 = D[(signed long int)0] / D[(signed long int)3];
+      tmp_if_expr_1 = D[(signed long int)0] / D[(signed long int)3];
 
     else
-      tmp_if_expr$1 = D[(signed long int)3] / D[(signed long int)0];
-    anisotropy = tmp_if_expr$1;
+      tmp_if_expr_1 = D[(signed long int)3] / D[(signed long int)0];
+    anisotropy = tmp_if_expr_1;
     if(anisotropy > 5.000000)
       break;
 
     if(iter == 0l)
     {
       if(D[0l] < D[3l])
-        tmp_if_expr$2 = D[(signed long int)0];
+        tmp_if_expr_2 = D[(signed long int)0];
 
       else
-        tmp_if_expr$2 = D[(signed long int)3];
-      referenceScale = tmp_if_expr$2;
+        tmp_if_expr_2 = D[(signed long int)3];
+      referenceScale = tmp_if_expr_2;
       factor = 1.0;
     }
 
     else
     {
       if(D[0l] < D[3l])
-        tmp_if_expr$3 = D[(signed long int)0];
+        tmp_if_expr_3 = D[(signed long int)0];
 
       else
-        tmp_if_expr$3 = D[(signed long int)3];
-      factor = referenceScale / tmp_if_expr$3;
+        tmp_if_expr_3 = D[(signed long int)3];
+      factor = referenceScale / tmp_if_expr_3;
     }
     D[(signed long int)0] = D[(signed long int)0] * factor;
     D[(signed long int)3] = D[(signed long int)3] * factor;
-    vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)0] = U[(signed long int)0] * D[(signed long int)0];
-    vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)1] = U[(signed long int)1] * D[(signed long int)0];
-    vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)2] = U[(signed long int)2] * D[(signed long int)3];
-    vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)3] = U[(signed long int)3] * D[(signed long int)3];
-    adapted->a11 = (float)vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)0];
-    adapted->a21 = (float)vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)1];
-    adapted->a12 = (float)vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)2];
-    adapted->a22 = (float)vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)3];
+    vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)0] = U[(signed long int)0] * D[(signed long int)0];
+    vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)1] = U[(signed long int)1] * D[(signed long int)0];
+    vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)2] = U[(signed long int)2] * D[(signed long int)3];
+    vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)3] = U[(signed long int)3] * D[(signed long int)3];
+    adapted->a11 = (float)vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)0];
+    adapted->a21 = (float)vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)1];
+    adapted->a12 = (float)vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)2];
+    adapted->a22 = (float)vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)3];
     iter = iter + 1ll;
     if(iter >= 15l)
       break;
 
-    err=vl_covdet_extract_patch_helper(self, &sigma1, &sigma2, self->aaPatch, resolution, extent, sigmaD, vl_covdet_extract_affine_shape_for_frame$$1$$A, T, D[(signed long int)0], D[(signed long int)3]);
+    err=vl_covdet_extract_patch_helper(self, &sigma1, &sigma2, self->aaPatch, resolution, extent, sigmaD, vl_covdet_extract_affine_shape_for_frame__1__A, T, D[(signed long int)0], D[(signed long int)3]);
     if(!(err == 0))
       return err;
 
@@ -11011,11 +11011,11 @@ extern signed int vl_covdet_extract_affine_shape_for_frame(struct _VlCovDet *sel
     q0=sqrt(Q[(signed long int)0]);
     double q1;
     q1=sqrt(Q[(signed long int)3]);
-    Ap[(signed long int)0] = (vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)0] * P[(signed long int)0] + vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)2] * P[(signed long int)1]) / q0;
-    Ap[(signed long int)1] = (vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)1] * P[(signed long int)0] + vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)3] * P[(signed long int)1]) / q0;
-    Ap[(signed long int)2] = (vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)0] * P[(signed long int)2] + vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)2] * P[(signed long int)3]) / q1;
-    Ap[(signed long int)3] = (vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)1] * P[(signed long int)2] + vl_covdet_extract_affine_shape_for_frame$$1$$A[(signed long int)3] * P[(signed long int)3]) / q1;
-    memcpy((void *)vl_covdet_extract_affine_shape_for_frame$$1$$A, (const void *)Ap, (unsigned long int)4 * sizeof(double) /*8ul*/ );
+    Ap[(signed long int)0] = (vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)0] * P[(signed long int)0] + vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)2] * P[(signed long int)1]) / q0;
+    Ap[(signed long int)1] = (vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)1] * P[(signed long int)0] + vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)3] * P[(signed long int)1]) / q0;
+    Ap[(signed long int)2] = (vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)0] * P[(signed long int)2] + vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)2] * P[(signed long int)3]) / q1;
+    Ap[(signed long int)3] = (vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)1] * P[(signed long int)2] + vl_covdet_extract_affine_shape_for_frame__1__A[(signed long int)3] * P[(signed long int)3]) / q1;
+    memcpy((void *)vl_covdet_extract_affine_shape_for_frame__1__A, (const void *)Ap, (unsigned long int)4 * sizeof(double) /*8ul*/ );
   }
   double A[4l] = { (double)adapted->a11, (double)adapted->a21, (double)adapted->a12, (double)adapted->a22 };
   double ref[2l];
@@ -11089,19 +11089,19 @@ extern void vl_covdet_extract_laplacian_scales(struct _VlCovDet *self)
       scaled->frame.a22 = scaled->frame.a22 * (float)(scales + j)->scale;
     }
   }
-  signed long long int tmp_post$1;
+  signed long long int tmp_post_1;
   if(!(dropFeaturesWithoutScale == 0))
   {
     j = (signed long long int)0;
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)(signed int)self->numFeatures); i = i + 1ll)
     {
-      struct _VlCovDetFeature vl_covdet_extract_laplacian_scales$$1$$2$$1$$1$$feature = self->features[i];
-      if(IEEE_FLOAT_NOTEQUAL(vl_covdet_extract_laplacian_scales$$1$$2$$1$$1$$feature.peakScore, 0.000000f))
+      struct _VlCovDetFeature vl_covdet_extract_laplacian_scales__1__2__1__1__feature = self->features[i];
+      if(IEEE_FLOAT_NOTEQUAL(vl_covdet_extract_laplacian_scales__1__2__1__1__feature.peakScore, 0.000000f))
       {
-        tmp_post$1 = j;
+        tmp_post_1 = j;
         j = j + 1ll;
-        self->features[tmp_post$1] = vl_covdet_extract_laplacian_scales$$1$$2$$1$$1$$feature;
+        self->features[tmp_post_1] = vl_covdet_extract_laplacian_scales__1__2__1__1__feature;
       }
 
     }
@@ -11116,9 +11116,9 @@ extern struct _VlCovDetFeatureLaplacianScale * vl_covdet_extract_laplacian_scale
 {
   signed int err;
   double sigmaImage;
-  double return_value_sqrt$1;
-  return_value_sqrt$1=sqrt(2.0);
-  sigmaImage = 1.0 / return_value_sqrt$1;
+  double return_value_sqrt_1;
+  return_value_sqrt_1=sqrt(2.0);
+  sigmaImage = 1.0 / return_value_sqrt_1;
   const double step = 0.5 * sigmaImage;
   double actualSigmaImage;
   const unsigned long long int resolution = (const unsigned long long int)16;
@@ -11138,8 +11138,8 @@ extern struct _VlCovDetFeatureLaplacianScale * vl_covdet_extract_laplacian_scale
   *numScales = (unsigned long long int)0;
   vl_svd2(D, U, V, A);
   err=vl_covdet_extract_patch_helper(self, &sigma1, &sigma2, self->lapPatch, resolution, extent, sigmaImage, A, T, D[(signed long int)0], D[(signed long int)3]);
-  const float *tmp_post$2;
-  double return_value_vl_abs_d$3;
+  const float *tmp_post_2;
+  double return_value_vl_abs_d_3;
   if(!(err == 0))
     return (struct _VlCovDetFeatureLaplacianScale *)(void *)0;
 
@@ -11156,17 +11156,17 @@ extern struct _VlCovDetFeatureLaplacianScale * vl_covdet_extract_laplacian_scale
     {
       signed long long int q;
       double score = (double)0;
-      double vl_covdet_extract_laplacian_scales_for_frame$$1$$3$$1$$sigmaLap;
-      vl_covdet_extract_laplacian_scales_for_frame$$1$$3$$1$$sigmaLap=pow(2.0, -0.5 + (double)k / (double)(10 - 1));
-      vl_covdet_extract_laplacian_scales_for_frame$$1$$3$$1$$sigmaLap=sqrt((vl_covdet_extract_laplacian_scales_for_frame$$1$$3$$1$$sigmaLap * vl_covdet_extract_laplacian_scales_for_frame$$1$$3$$1$$sigmaLap - sigmaImage * sigmaImage) + actualSigmaImage * actualSigmaImage);
+      double vl_covdet_extract_laplacian_scales_for_frame__1__3__1__sigmaLap;
+      vl_covdet_extract_laplacian_scales_for_frame__1__3__1__sigmaLap=pow(2.0, -0.5 + (double)k / (double)(10 - 1));
+      vl_covdet_extract_laplacian_scales_for_frame__1__3__1__sigmaLap=sqrt((vl_covdet_extract_laplacian_scales_for_frame__1__3__1__sigmaLap * vl_covdet_extract_laplacian_scales_for_frame__1__3__1__sigmaLap - sigmaImage * sigmaImage) + actualSigmaImage * actualSigmaImage);
       q = (signed long long int)0;
       for( ; !(q >= (signed long int)((signed int)num * (signed int)num)); q = q + 1ll)
       {
-        tmp_post$2 = pt;
+        tmp_post_2 = pt;
         pt = pt + 1l;
-        score = score + (double)(*tmp_post$2 * self->lapPatch[q]);
+        score = score + (double)(*tmp_post_2 * self->lapPatch[q]);
       }
-      scores[k] = score * vl_covdet_extract_laplacian_scales_for_frame$$1$$3$$1$$sigmaLap * vl_covdet_extract_laplacian_scales_for_frame$$1$$3$$1$$sigmaLap;
+      scores[k] = score * vl_covdet_extract_laplacian_scales_for_frame__1__3__1__sigmaLap * vl_covdet_extract_laplacian_scales_for_frame__1__3__1__sigmaLap;
     }
     k = (signed long long int)1;
     for( ; !(k >= 9l); k = k + 1ll)
@@ -11177,8 +11177,8 @@ extern struct _VlCovDetFeatureLaplacianScale * vl_covdet_extract_laplacian_scale
       double t = self->lapPeakThreshold;
       if(b < a && b < c || b > a && b > c)
       {
-        return_value_vl_abs_d$3=vl_abs_d$link2(b);
-        if(return_value_vl_abs_d$3 >= t)
+        return_value_vl_abs_d_3=vl_abs_d_link2(b);
+        if(return_value_vl_abs_d_3 >= t)
         {
           double dk = (-0.5 * (c - a)) / ((c + a) - (double)2 * b);
           double s = (double)k + dk;
@@ -11276,7 +11276,7 @@ extern struct _VlCovDetFeatureOrientation * vl_covdet_extract_orientations_for_f
   A[(signed long int)3] = U[(signed long int)3] * D[(signed long int)3];
   theta0=atan2(V[(signed long int)1], V[(signed long int)0]);
   err=vl_covdet_extract_patch_helper(self, &sigma1, &sigma2, self->aaPatch, resolution, extent, sigmaD, A, T, D[(signed long int)0], D[(signed long int)3]);
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   if(!(err == 0))
   {
     *numOrientations = (unsigned long long int)0;
@@ -11314,25 +11314,25 @@ extern struct _VlCovDetFeatureOrientation * vl_covdet_extract_orientations_for_f
     {
       double prev = hist[(signed long int)(numBins - (unsigned long int)1)];
       double first = hist[(signed long int)0];
-      signed long long int vl_covdet_extract_orientations_for_frame$$1$$4$$1$$i = (signed long long int)0;
-      for( ; !(vl_covdet_extract_orientations_for_frame$$1$$4$$1$$i >= (signed long int)((signed int)numBins + -1)); vl_covdet_extract_orientations_for_frame$$1$$4$$1$$i = vl_covdet_extract_orientations_for_frame$$1$$4$$1$$i + 1ll)
+      signed long long int vl_covdet_extract_orientations_for_frame__1__4__1__i = (signed long long int)0;
+      for( ; !(vl_covdet_extract_orientations_for_frame__1__4__1__i >= (signed long int)((signed int)numBins + -1)); vl_covdet_extract_orientations_for_frame__1__4__1__i = vl_covdet_extract_orientations_for_frame__1__4__1__i + 1ll)
       {
-        double curr = (prev + hist[vl_covdet_extract_orientations_for_frame$$1$$4$$1$$i] + hist[(signed long int)((unsigned long int)(vl_covdet_extract_orientations_for_frame$$1$$4$$1$$i + (signed long int)1) % numBins)]) / 3.0;
-        prev = hist[vl_covdet_extract_orientations_for_frame$$1$$4$$1$$i];
-        hist[vl_covdet_extract_orientations_for_frame$$1$$4$$1$$i] = curr;
+        double curr = (prev + hist[vl_covdet_extract_orientations_for_frame__1__4__1__i] + hist[(signed long int)((unsigned long int)(vl_covdet_extract_orientations_for_frame__1__4__1__i + (signed long int)1) % numBins)]) / 3.0;
+        prev = hist[vl_covdet_extract_orientations_for_frame__1__4__1__i];
+        hist[vl_covdet_extract_orientations_for_frame__1__4__1__i] = curr;
       }
-      hist[vl_covdet_extract_orientations_for_frame$$1$$4$$1$$i] = (prev + hist[vl_covdet_extract_orientations_for_frame$$1$$4$$1$$i] + first) / 3.0;
+      hist[vl_covdet_extract_orientations_for_frame__1__4__1__i] = (prev + hist[vl_covdet_extract_orientations_for_frame__1__4__1__i] + first) / 3.0;
     }
     maxPeakValue = (double)0;
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)(signed int)numBins); i = i + 1ll)
     {
       if(maxPeakValue > hist[i])
-        tmp_if_expr$1 = maxPeakValue;
+        tmp_if_expr_1 = maxPeakValue;
 
       else
-        tmp_if_expr$1 = hist[i];
-      maxPeakValue = tmp_if_expr$1;
+        tmp_if_expr_1 = hist[i];
+      maxPeakValue = tmp_if_expr_1;
     }
     *numOrientations = (unsigned long long int)0;
     i = (signed long long int)0;
@@ -11372,9 +11372,9 @@ extern signed int vl_covdet_extract_patch_for_frame(struct _VlCovDet *self, floa
   double U[4l];
   double V[4l];
   vl_svd2(D, U, V, A);
-  signed int return_value_vl_covdet_extract_patch_helper$1;
-  return_value_vl_covdet_extract_patch_helper$1=vl_covdet_extract_patch_helper(self, (double *)(void *)0, (double *)(void *)0, patch, resolution, extent, sigma, A, T, D[(signed long int)0], D[(signed long int)3]);
-  return return_value_vl_covdet_extract_patch_helper$1;
+  signed int return_value_vl_covdet_extract_patch_helper_1;
+  return_value_vl_covdet_extract_patch_helper_1=vl_covdet_extract_patch_helper(self, (double *)(void *)0, (double *)(void *)0, patch, resolution, extent, sigma, A, T, D[(signed long int)0], D[(signed long int)3]);
+  return return_value_vl_covdet_extract_patch_helper_1;
 }
 
 // vl_covdet_extract_patch_helper
@@ -11398,14 +11398,14 @@ signed int vl_covdet_extract_patch_helper(struct _VlCovDet *self, double *sigma1
   o = geom.firstOctave + (signed long int)1;
   for( ; geom.lastOctave >= o; o = o + 1ll)
   {
-    double return_value_vl_log2_d$1;
-    return_value_vl_log2_d$1=vl_log2_d$link1(sigma / (factor * geom.baseScale));
-    s=vl_floor_d(return_value_vl_log2_d$1 - (double)o);
+    double return_value_vl_log2_d_1;
+    return_value_vl_log2_d_1=vl_log2_d_link1(sigma / (factor * geom.baseScale));
+    s=vl_floor_d(return_value_vl_log2_d_1 - (double)o);
     s = s > geom.octaveFirstSubdivision ? s : geom.octaveFirstSubdivision;
     s = s < geom.octaveLastSubdivision ? s : geom.octaveLastSubdivision;
-    double return_value_pow$2;
-    return_value_pow$2=pow(2.0, (double)o + (double)s / (double)geom.octaveResolution);
-    sigma_ = geom.baseScale * return_value_pow$2;
+    double return_value_pow_2;
+    return_value_pow_2=pow(2.0, (double)o + (double)s / (double)geom.octaveResolution);
+    sigma_ = geom.baseScale * return_value_pow_2;
     if(factor * sigma_ > sigma)
     {
       o = o - 1ll;
@@ -11414,14 +11414,14 @@ signed int vl_covdet_extract_patch_helper(struct _VlCovDet *self, double *sigma1
 
   }
   o = o < geom.lastOctave ? o : geom.lastOctave;
-  double return_value_vl_log2_d$3;
-  return_value_vl_log2_d$3=vl_log2_d$link1(sigma / (factor * geom.baseScale));
-  s=vl_floor_d(return_value_vl_log2_d$3 - (double)o);
+  double return_value_vl_log2_d_3;
+  return_value_vl_log2_d_3=vl_log2_d_link1(sigma / (factor * geom.baseScale));
+  s=vl_floor_d(return_value_vl_log2_d_3 - (double)o);
   s = s > geom.octaveFirstSubdivision ? s : geom.octaveFirstSubdivision;
   s = s < geom.octaveLastSubdivision ? s : geom.octaveLastSubdivision;
-  double return_value_pow$4;
-  return_value_pow$4=pow(2.0, (double)o + (double)s / (double)geom.octaveResolution);
-  sigma_ = geom.baseScale * return_value_pow$4;
+  double return_value_pow_4;
+  return_value_pow_4=pow(2.0, (double)o + (double)s / (double)geom.octaveResolution);
+  sigma_ = geom.baseScale * return_value_pow_4;
   if(!(sigma1 == ((double *)NULL)))
     *sigma1 = sigma_ / d1;
 
@@ -11443,10 +11443,10 @@ signed int vl_covdet_extract_patch_helper(struct _VlCovDet *self, double *sigma1
   signed long long int y0i;
   signed long long int x1i;
   signed long long int y1i;
-  double x0 = +vl_infinity_d$link1.value;
-  double x1 = -vl_infinity_d$link1.value;
-  double y0 = +vl_infinity_d$link1.value;
-  double y1 = -vl_infinity_d$link1.value;
+  double x0 = +vl_infinity_d_link1.value;
+  double x1 = -vl_infinity_d_link1.value;
+  double y0 = +vl_infinity_d_link1.value;
+  double y1 = -vl_infinity_d_link1.value;
   double boxx[4l] = { extent, extent, -extent, -extent };
   double boxy[4l] = { -extent, extent, extent, -extent };
   signed int i = 0;
@@ -11459,27 +11459,27 @@ signed int vl_covdet_extract_patch_helper(struct _VlCovDet *self, double *sigma1
     y0 = y0 < y ? y0 : y;
     y1 = y1 > y ? y1 : y;
   }
-  double return_value_floor$5;
-  return_value_floor$5=floor(x0);
-  x0i = (signed long long int)(return_value_floor$5 - (double)1);
-  double return_value_floor$6;
-  return_value_floor$6=floor(y0);
-  y0i = (signed long long int)(return_value_floor$6 - (double)1);
-  double return_value_ceil$7;
-  return_value_ceil$7=ceil(x1);
-  x1i = (signed long long int)(return_value_ceil$7 + (double)1);
-  double return_value_ceil$8;
-  return_value_ceil$8=ceil(y1);
-  y1i = (signed long long int)(return_value_ceil$8 + (double)1);
-  signed int return_value_vl_set_last_error$9;
-  float *tmp_post$10;
-  float *tmp_post$11;
-  const float *tmp_post$12;
-  float *tmp_post$13;
+  double return_value_floor_5;
+  return_value_floor_5=floor(x0);
+  x0i = (signed long long int)(return_value_floor_5 - (double)1);
+  double return_value_floor_6;
+  return_value_floor_6=floor(y0);
+  y0i = (signed long long int)(return_value_floor_6 - (double)1);
+  double return_value_ceil_7;
+  return_value_ceil_7=ceil(x1);
+  x1i = (signed long long int)(return_value_ceil_7 + (double)1);
+  double return_value_ceil_8;
+  return_value_ceil_8=ceil(y1);
+  y1i = (signed long long int)(return_value_ceil_8 + (double)1);
+  signed int return_value_vl_set_last_error_9;
+  float *tmp_post_10;
+  float *tmp_post_11;
+  const float *tmp_post_12;
+  float *tmp_post_13;
   if(!(x0i >= 0l) || !(y0i >= 0l) || !((signed long int)((signed int)height + -1) >= y1i) || !((signed long int)((signed int)width + -1) >= x1i))
   {
-    signed long long int vl_covdet_extract_patch_helper$$1$$2$$2$$xi;
-    signed long long int vl_covdet_extract_patch_helper$$1$$2$$2$$yi;
+    signed long long int vl_covdet_extract_patch_helper__1__2__2__xi;
+    signed long long int vl_covdet_extract_patch_helper__1__2__2__yi;
     signed long long int padx0 = (signed long int)0 > -x0i ? (signed long int)0 : -x0i;
     signed long long int pady0 = (signed long int)0 > -y0i ? (signed long int)0 : -y0i;
     signed long long int padx1 = (signed long int)0 > x1i - (signed long int)((signed int)width - 1) ? (signed long int)0 : x1i - (signed long int)((signed int)width - 1);
@@ -11493,47 +11493,47 @@ signed int vl_covdet_extract_patch_helper(struct _VlCovDet *self, double *sigma1
       err=_vl_resize_buffer((void **)&self->patch, &self->patchBufferSize, patchBufferSize);
       if(!(err == 0))
       {
-        return_value_vl_set_last_error$9=vl_set_last_error(2, (const char *)(void *)0);
-        return return_value_vl_set_last_error$9;
+        return_value_vl_set_last_error_9=vl_set_last_error(2, (const char *)(void *)0);
+        return return_value_vl_set_last_error_9;
       }
 
     }
 
     if(!(pady0 >= patchHeight + -pady1))
     {
-      vl_covdet_extract_patch_helper$$1$$2$$2$$yi = y0i + pady0;
-      for( ; !(vl_covdet_extract_patch_helper$$1$$2$$2$$yi >= patchHeight + y0i + -pady1); vl_covdet_extract_patch_helper$$1$$2$$2$$yi = vl_covdet_extract_patch_helper$$1$$2$$2$$yi + 1ll)
+      vl_covdet_extract_patch_helper__1__2__2__yi = y0i + pady0;
+      for( ; !(vl_covdet_extract_patch_helper__1__2__2__yi >= patchHeight + y0i + -pady1); vl_covdet_extract_patch_helper__1__2__2__yi = vl_covdet_extract_patch_helper__1__2__2__yi + 1ll)
       {
-        float *dst = self->patch + (vl_covdet_extract_patch_helper$$1$$2$$2$$yi - y0i) * patchWidth;
-        const float *src = level + (signed long int)((unsigned long int)vl_covdet_extract_patch_helper$$1$$2$$2$$yi * width) + (((signed long int)0 > x0i ? (signed long int)0 : x0i) < (signed long int)((signed int)width - 1) ? ((signed long int)0 > x0i ? (signed long int)0 : x0i) : (signed long int)((signed int)width - 1));
-        vl_covdet_extract_patch_helper$$1$$2$$2$$xi = x0i;
-        for( ; !(vl_covdet_extract_patch_helper$$1$$2$$2$$xi >= padx0 + x0i); vl_covdet_extract_patch_helper$$1$$2$$2$$xi = vl_covdet_extract_patch_helper$$1$$2$$2$$xi + 1ll)
+        float *dst = self->patch + (vl_covdet_extract_patch_helper__1__2__2__yi - y0i) * patchWidth;
+        const float *src = level + (signed long int)((unsigned long int)vl_covdet_extract_patch_helper__1__2__2__yi * width) + (((signed long int)0 > x0i ? (signed long int)0 : x0i) < (signed long int)((signed int)width - 1) ? ((signed long int)0 > x0i ? (signed long int)0 : x0i) : (signed long int)((signed int)width - 1));
+        vl_covdet_extract_patch_helper__1__2__2__xi = x0i;
+        for( ; !(vl_covdet_extract_patch_helper__1__2__2__xi >= padx0 + x0i); vl_covdet_extract_patch_helper__1__2__2__xi = vl_covdet_extract_patch_helper__1__2__2__xi + 1ll)
         {
-          tmp_post$10 = dst;
+          tmp_post_10 = dst;
           dst = dst + 1l;
-          *tmp_post$10 = *src;
+          *tmp_post_10 = *src;
         }
-        for( ; !(vl_covdet_extract_patch_helper$$1$$2$$2$$xi >= patchWidth + x0i + -padx1 + -2l); vl_covdet_extract_patch_helper$$1$$2$$2$$xi = vl_covdet_extract_patch_helper$$1$$2$$2$$xi + 1ll)
+        for( ; !(vl_covdet_extract_patch_helper__1__2__2__xi >= patchWidth + x0i + -padx1 + -2l); vl_covdet_extract_patch_helper__1__2__2__xi = vl_covdet_extract_patch_helper__1__2__2__xi + 1ll)
         {
-          tmp_post$11 = dst;
+          tmp_post_11 = dst;
           dst = dst + 1l;
-          tmp_post$12 = src;
+          tmp_post_12 = src;
           src = src + 1l;
-          *tmp_post$11 = *tmp_post$12;
+          *tmp_post_11 = *tmp_post_12;
         }
-        for( ; !(vl_covdet_extract_patch_helper$$1$$2$$2$$xi >= patchWidth + x0i); vl_covdet_extract_patch_helper$$1$$2$$2$$xi = vl_covdet_extract_patch_helper$$1$$2$$2$$xi + 1ll)
+        for( ; !(vl_covdet_extract_patch_helper__1__2__2__xi >= patchWidth + x0i); vl_covdet_extract_patch_helper__1__2__2__xi = vl_covdet_extract_patch_helper__1__2__2__xi + 1ll)
         {
-          tmp_post$13 = dst;
+          tmp_post_13 = dst;
           dst = dst + 1l;
-          *tmp_post$13 = *src;
+          *tmp_post_13 = *src;
         }
       }
-      vl_covdet_extract_patch_helper$$1$$2$$2$$yi = (signed long long int)0;
-      for( ; !(vl_covdet_extract_patch_helper$$1$$2$$2$$yi >= pady0); vl_covdet_extract_patch_helper$$1$$2$$2$$yi = vl_covdet_extract_patch_helper$$1$$2$$2$$yi + 1ll)
-        memcpy((void *)(self->patch + vl_covdet_extract_patch_helper$$1$$2$$2$$yi * patchWidth), (const void *)(self->patch + pady0 * patchWidth), (unsigned long int)patchWidth * sizeof(float) /*4ul*/ );
-      vl_covdet_extract_patch_helper$$1$$2$$2$$yi = patchHeight - pady1;
-      for( ; !(vl_covdet_extract_patch_helper$$1$$2$$2$$yi >= patchHeight); vl_covdet_extract_patch_helper$$1$$2$$2$$yi = vl_covdet_extract_patch_helper$$1$$2$$2$$yi + 1ll)
-        memcpy((void *)(self->patch + vl_covdet_extract_patch_helper$$1$$2$$2$$yi * patchWidth), (const void *)(self->patch + ((patchHeight - pady1) - (signed long int)1) * patchWidth), (unsigned long int)patchWidth * sizeof(float) /*4ul*/ );
+      vl_covdet_extract_patch_helper__1__2__2__yi = (signed long long int)0;
+      for( ; !(vl_covdet_extract_patch_helper__1__2__2__yi >= pady0); vl_covdet_extract_patch_helper__1__2__2__yi = vl_covdet_extract_patch_helper__1__2__2__yi + 1ll)
+        memcpy((void *)(self->patch + vl_covdet_extract_patch_helper__1__2__2__yi * patchWidth), (const void *)(self->patch + pady0 * patchWidth), (unsigned long int)patchWidth * sizeof(float) /*4ul*/ );
+      vl_covdet_extract_patch_helper__1__2__2__yi = patchHeight - pady1;
+      for( ; !(vl_covdet_extract_patch_helper__1__2__2__yi >= patchHeight); vl_covdet_extract_patch_helper__1__2__2__yi = vl_covdet_extract_patch_helper__1__2__2__yi + 1ll)
+        memcpy((void *)(self->patch + vl_covdet_extract_patch_helper__1__2__2__yi * patchWidth), (const void *)(self->patch + ((patchHeight - pady1) - (signed long int)1) * patchWidth), (unsigned long int)patchWidth * sizeof(float) /*4ul*/ );
     }
 
     else
@@ -11551,7 +11551,7 @@ signed int vl_covdet_extract_patch_helper(struct _VlCovDet *self, double *sigma1
   signed long long int yyi;
   double stephat = extent / (double)resolution;
   yyi = (signed long long int)0;
-  float *tmp_post$14;
+  float *tmp_post_14;
   for( ; !(yyi >= (signed long int)(2 * (signed int)resolution + 1)); yyi = yyi + 1ll)
   {
     double xhat = -extent;
@@ -11560,21 +11560,21 @@ signed int vl_covdet_extract_patch_helper(struct _VlCovDet *self, double *sigma1
     xxi = (signed long long int)0;
     for( ; !(xxi >= (signed long int)(2 * (signed int)resolution + 1)); xxi = xxi + 1ll)
     {
-      double vl_covdet_extract_patch_helper$$1$$3$$1$$1$$1$$1$$x = A[(signed long int)0] * xhat + rx;
-      double vl_covdet_extract_patch_helper$$1$$3$$1$$1$$1$$1$$y = A[(signed long int)1] * xhat + ry;
+      double vl_covdet_extract_patch_helper__1__3__1__1__1__1__x = A[(signed long int)0] * xhat + rx;
+      double vl_covdet_extract_patch_helper__1__3__1__1__1__1__y = A[(signed long int)1] * xhat + ry;
       signed long long int xi;
-      xi=vl_floor_d(vl_covdet_extract_patch_helper$$1$$3$$1$$1$$1$$1$$x);
+      xi=vl_floor_d(vl_covdet_extract_patch_helper__1__3__1__1__1__1__x);
       signed long long int yi;
-      yi=vl_floor_d(vl_covdet_extract_patch_helper$$1$$3$$1$$1$$1$$1$$y);
+      yi=vl_floor_d(vl_covdet_extract_patch_helper__1__3__1__1__1__1__y);
       double i00 = (double)level[(signed long int)((unsigned long int)yi * width + (unsigned long int)xi)];
       double i10 = (double)level[(signed long int)((unsigned long int)yi * width + (unsigned long int)xi + (unsigned long int)1)];
       double i01 = (double)level[(signed long int)((unsigned long int)(yi + (signed long int)1) * width + (unsigned long int)xi)];
       double i11 = (double)level[(signed long int)((unsigned long int)(yi + (signed long int)1) * width + (unsigned long int)xi + (unsigned long int)1)];
-      double wx = vl_covdet_extract_patch_helper$$1$$3$$1$$1$$1$$1$$x - (double)xi;
-      double wy = vl_covdet_extract_patch_helper$$1$$3$$1$$1$$1$$1$$y - (double)yi;
-      tmp_post$14 = pt;
+      double wx = vl_covdet_extract_patch_helper__1__3__1__1__1__1__x - (double)xi;
+      double wy = vl_covdet_extract_patch_helper__1__3__1__1__1__1__y - (double)yi;
+      tmp_post_14 = pt;
       pt = pt + 1l;
-      *tmp_post$14 = (float)((1.0 - wy) * ((1.0 - wx) * i00 + wx * i10) + wy * ((1.0 - wx) * i01 + wx * i11));
+      *tmp_post_14 = (float)((1.0 - wy) * ((1.0 - wx) * i00 + wx * i10) + wy * ((1.0 - wx) * i01 + wx * i11));
       xhat = xhat + stephat;
     }
     yhat = yhat + stephat;
@@ -11686,9 +11686,9 @@ extern signed int vl_covdet_get_transposed(const struct _VlCovDet *self)
 extern struct _VlCovDet * vl_covdet_new(enum _VlCovDetMethod method)
 {
   struct _VlCovDet *self;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(sizeof(struct _VlCovDet) /*75112ul*/ , (unsigned long int)1);
-  self = (struct _VlCovDet *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(sizeof(struct _VlCovDet) /*75112ul*/ , (unsigned long int)1);
+  self = (struct _VlCovDet *)return_value_vl_calloc_1;
   self->method = method;
   self->octaveResolution = (unsigned long long int)3;
   self->firstOctave = (signed long long int)-1;
@@ -11746,9 +11746,9 @@ extern struct _VlCovDet * vl_covdet_new(enum _VlCovDetMethod method)
         {
           double dx = ((double)i * step) / sigma;
           double dy = ((double)j * step) / sigma;
-          double return_value_exp$2;
-          return_value_exp$2=exp(-0.5 * (dx * dx + dy * dy));
-          self->aaMask[i + w + ((signed long int)2 * w + (signed long int)1) * (j + w)] = (float)return_value_exp$2;
+          double return_value_exp_2;
+          return_value_exp_2=exp(-0.5 * (dx * dx + dy * dy));
+          self->aaMask[i + w + ((signed long int)2 * w + (signed long int)1) * (j + w)] = (float)return_value_exp_2;
         }
       }
       signed long long int s = (signed long long int)0;
@@ -11757,22 +11757,22 @@ extern struct _VlCovDet * vl_covdet_new(enum _VlCovDetMethod method)
         double sigmaLap;
         sigmaLap=pow(2.0, -0.5 + (double)s / (double)(10 - 1));
         double sigmaImage;
-        double return_value_sqrt$3;
-        return_value_sqrt$3=sqrt(2.0);
-        sigmaImage = 1.0 / return_value_sqrt$3;
-        const double vl_covdet_new$$1$$3$$1$$1$$step = 0.5 * sigmaImage;
+        double return_value_sqrt_3;
+        return_value_sqrt_3=sqrt(2.0);
+        sigmaImage = 1.0 / return_value_sqrt_3;
+        const double vl_covdet_new__1__3__1__1__step = 0.5 * sigmaImage;
         double sigmaDelta;
         sigmaDelta=sqrt(sigmaLap * sigmaLap - sigmaImage * sigmaImage);
-        const unsigned long long int vl_covdet_new$$1$$3$$1$$1$$w = (const unsigned long long int)16;
-        const unsigned long long int num = (unsigned long int)2 * vl_covdet_new$$1$$3$$1$$1$$w + (unsigned long int)1;
+        const unsigned long long int vl_covdet_new__1__3__1__1__w = (const unsigned long long int)16;
+        const unsigned long long int num = (unsigned long int)2 * vl_covdet_new__1__3__1__1__w + (unsigned long int)1;
         float *pt = self->laplacians + (signed long int)((unsigned long int)s * num * num);
         memset((void *)pt, 0, num * num * sizeof(float) /*4ul*/ );
-        pt[(signed long int)((unsigned long int)0 + vl_covdet_new$$1$$3$$1$$1$$w + ((unsigned long int)0 + vl_covdet_new$$1$$3$$1$$1$$w) * ((unsigned long int)2 * vl_covdet_new$$1$$3$$1$$1$$w + (unsigned long int)1))] = (float)-4.0;
-        pt[(signed long int)((unsigned long int)-1 + vl_covdet_new$$1$$3$$1$$1$$w + ((unsigned long int)0 + vl_covdet_new$$1$$3$$1$$1$$w) * ((unsigned long int)2 * vl_covdet_new$$1$$3$$1$$1$$w + (unsigned long int)1))] = (float)1.0;
-        pt[(signed long int)((unsigned long int)+1 + vl_covdet_new$$1$$3$$1$$1$$w + ((unsigned long int)0 + vl_covdet_new$$1$$3$$1$$1$$w) * ((unsigned long int)2 * vl_covdet_new$$1$$3$$1$$1$$w + (unsigned long int)1))] = (float)1.0;
-        pt[(signed long int)((unsigned long int)0 + vl_covdet_new$$1$$3$$1$$1$$w + ((unsigned long int)1 + vl_covdet_new$$1$$3$$1$$1$$w) * ((unsigned long int)2 * vl_covdet_new$$1$$3$$1$$1$$w + (unsigned long int)1))] = (float)1.0;
-        pt[(signed long int)((unsigned long int)0 + vl_covdet_new$$1$$3$$1$$1$$w + ((unsigned long int)-1 + vl_covdet_new$$1$$3$$1$$1$$w) * ((unsigned long int)2 * vl_covdet_new$$1$$3$$1$$1$$w + (unsigned long int)1))] = (float)1.0;
-        vl_imsmooth_f(pt, num, pt, num, num, num, sigmaDelta / vl_covdet_new$$1$$3$$1$$1$$step, sigmaDelta / vl_covdet_new$$1$$3$$1$$1$$step);
+        pt[(signed long int)((unsigned long int)0 + vl_covdet_new__1__3__1__1__w + ((unsigned long int)0 + vl_covdet_new__1__3__1__1__w) * ((unsigned long int)2 * vl_covdet_new__1__3__1__1__w + (unsigned long int)1))] = (float)-4.0;
+        pt[(signed long int)((unsigned long int)-1 + vl_covdet_new__1__3__1__1__w + ((unsigned long int)0 + vl_covdet_new__1__3__1__1__w) * ((unsigned long int)2 * vl_covdet_new__1__3__1__1__w + (unsigned long int)1))] = (float)1.0;
+        pt[(signed long int)((unsigned long int)+1 + vl_covdet_new__1__3__1__1__w + ((unsigned long int)0 + vl_covdet_new__1__3__1__1__w) * ((unsigned long int)2 * vl_covdet_new__1__3__1__1__w + (unsigned long int)1))] = (float)1.0;
+        pt[(signed long int)((unsigned long int)0 + vl_covdet_new__1__3__1__1__w + ((unsigned long int)1 + vl_covdet_new__1__3__1__1__w) * ((unsigned long int)2 * vl_covdet_new__1__3__1__1__w + (unsigned long int)1))] = (float)1.0;
+        pt[(signed long int)((unsigned long int)0 + vl_covdet_new__1__3__1__1__w + ((unsigned long int)-1 + vl_covdet_new__1__3__1__1__w) * ((unsigned long int)2 * vl_covdet_new__1__3__1__1__w + (unsigned long int)1))] = (float)1.0;
+        vl_imsmooth_f(pt, num, pt, num, num, num, sigmaDelta / vl_covdet_new__1__3__1__1__step, sigmaDelta / vl_covdet_new__1__3__1__1__step);
       }
       return self;
     }
@@ -11789,9 +11789,9 @@ extern signed int vl_covdet_put_image(struct _VlCovDet *self, const float *image
   signed long long int octaveLastSubdivision;
   struct _VlScaleSpaceGeometry geom;
   geom=vl_scalespace_get_default_geometry(width, height);
-  double return_value_vl_log2_d$1;
-  return_value_vl_log2_d$1=vl_log2_d$link1(((double)width - (double)1 < (double)height - (double)1 ? (double)width - (double)1 : (double)height - (double)1) / (double)(minOctaveSize - (unsigned long int)1));
-  lastOctave=vl_floor_d(return_value_vl_log2_d$1);
+  double return_value_vl_log2_d_1;
+  return_value_vl_log2_d_1=vl_log2_d_link1(((double)width - (double)1 < (double)height - (double)1 ? (double)width - (double)1 : (double)height - (double)1) / (double)(minOctaveSize - (unsigned long int)1));
+  lastOctave=vl_floor_d(return_value_vl_log2_d_1);
   if((signed int)self->method == VL_COVDET_METHOD_DOG)
   {
     octaveFirstSubdivision = (signed long long int)-1;
@@ -11817,19 +11817,19 @@ extern signed int vl_covdet_put_image(struct _VlCovDet *self, const float *image
   geom.octaveResolution = self->octaveResolution;
   geom.octaveFirstSubdivision = octaveFirstSubdivision;
   geom.octaveLastSubdivision = octaveLastSubdivision;
-  _Bool tmp_if_expr$4;
-  struct _VlScaleSpaceGeometry return_value_vl_scalespace_get_geometry$2;
-  signed int return_value_vl_scalespacegeometry_is_equal$3;
+  _Bool tmp_if_expr_4;
+  struct _VlScaleSpaceGeometry return_value_vl_scalespace_get_geometry_2;
+  signed int return_value_vl_scalespacegeometry_is_equal_3;
   if(self->gss == ((struct _VlScaleSpace *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_vl_scalespace_get_geometry$2=vl_scalespace_get_geometry(self->gss);
-    return_value_vl_scalespacegeometry_is_equal$3=vl_scalespacegeometry_is_equal(geom, return_value_vl_scalespace_get_geometry$2);
-    tmp_if_expr$4 = !(return_value_vl_scalespacegeometry_is_equal$3 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_vl_scalespace_get_geometry_2=vl_scalespace_get_geometry(self->gss);
+    return_value_vl_scalespacegeometry_is_equal_3=vl_scalespacegeometry_is_equal(geom, return_value_vl_scalespace_get_geometry_2);
+    tmp_if_expr_4 = !(return_value_vl_scalespacegeometry_is_equal_3 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
   {
     if(!(self->gss == ((struct _VlScaleSpace *)NULL)))
       vl_scalespace_delete(self->gss);
@@ -11937,42 +11937,42 @@ extern void vl_covdet_set_transposed(struct _VlCovDet *self, signed int t)
 // file vl/generic.c line 1092
 extern signed int vl_cpu_has_avx(void)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  return return_value_vl_get_state$1->cpuInfo.hasAVX;
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  return return_value_vl_get_state_1->cpuInfo.hasAVX;
 }
 
 // vl_cpu_has_sse2
 // file vl/generic.c line 1120
 extern signed int vl_cpu_has_sse2(void)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  return return_value_vl_get_state$1->cpuInfo.hasSSE2;
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  return return_value_vl_get_state_1->cpuInfo.hasSSE2;
 }
 
 // vl_cpu_has_sse3
 // file vl/generic.c line 1106
 extern signed int vl_cpu_has_sse3(void)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  return return_value_vl_get_state$1->cpuInfo.hasSSE3;
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  return return_value_vl_get_state_1->cpuInfo.hasSSE3;
 }
 
 // vl_enumeration_get
 // file vl/stringop.c line 409
 extern struct _VlEnumerator * vl_enumeration_get(const struct _VlEnumerator *enumeration, const char *name)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; !(enumeration->name == ((const char *)NULL)); enumeration = enumeration + 1l)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(name, enumeration->name);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(name, enumeration->name);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
       return (struct _VlEnumerator *)enumeration;
 
   }
@@ -11996,9 +11996,9 @@ extern struct _VlEnumerator * vl_enumeration_get_casei(const struct _VlEnumerato
 {
   while(!(enumeration->name == ((const char *)NULL)))
   {
-    signed int return_value_vl_string_casei_cmp$1;
-    return_value_vl_string_casei_cmp$1=vl_string_casei_cmp(name, enumeration->name);
-    if(return_value_vl_string_casei_cmp$1 == 0)
+    signed int return_value_vl_string_casei_cmp_1;
+    return_value_vl_string_casei_cmp_1=vl_string_casei_cmp(name, enumeration->name);
+    if(return_value_vl_string_casei_cmp_1 == 0)
       return (struct _VlEnumerator *)enumeration;
 
     enumeration = enumeration + 1l;
@@ -12012,7 +12012,7 @@ extern void vl_eval_vector_comparison_on_all_pairs_d(double *result, unsigned lo
 {
   unsigned long long int xi;
   unsigned long long int yi;
-  double *tmp_post$1;
+  double *tmp_post_1;
   if(!(dimension == 0ul))
   {
     if(!(numDataX == 0ul))
@@ -12028,9 +12028,9 @@ extern void vl_eval_vector_comparison_on_all_pairs_d(double *result, unsigned lo
           xi = (unsigned long long int)0;
           if(!(xi >= numDataX))
           {
-            tmp_post$1 = result;
+            tmp_post_1 = result;
             result = result + 1l;
-            *tmp_post$1=function(dimension, X, Y);
+            *tmp_post_1=function(dimension, X, Y);
             X = X + (signed long int)dimension;
             xi = xi + 1ull;
           }
@@ -12081,7 +12081,7 @@ extern void vl_eval_vector_comparison_on_all_pairs_f(float *result, unsigned lon
 {
   unsigned long long int xi;
   unsigned long long int yi;
-  float *tmp_post$1;
+  float *tmp_post_1;
   if(!(dimension == 0ul))
   {
     if(!(numDataX == 0ul))
@@ -12097,9 +12097,9 @@ extern void vl_eval_vector_comparison_on_all_pairs_f(float *result, unsigned lon
           xi = (unsigned long long int)0;
           if(!(xi >= numDataX))
           {
-            tmp_post$1 = result;
+            tmp_post_1 = result;
             result = result + 1l;
-            *tmp_post$1=function(dimension, X, Y);
+            *tmp_post_1=function(dimension, X, Y);
             X = X + (signed long int)dimension;
             xi = xi + 1ull;
           }
@@ -12153,9 +12153,9 @@ static inline float vl_fast_atan2_f(float y, float x)
   const float c3 = 0.1821F;
   const float c1 = 0.9675F;
   float abs_y;
-  float return_value_vl_abs_f$1;
-  return_value_vl_abs_f$1=vl_abs_f$link1(y);
-  abs_y = return_value_vl_abs_f$1 + 1.19209290E-07F;
+  float return_value_vl_abs_f_1;
+  return_value_vl_abs_f_1=vl_abs_f_link1(y);
+  abs_y = return_value_vl_abs_f_1 + 1.19209290E-07F;
   if(x >= 0.000000f)
   {
     r = (x - abs_y) / (x + abs_y);
@@ -12176,7 +12176,7 @@ static inline float vl_fast_atan2_f(float y, float x)
 static inline float vl_fast_resqrt_f(float x)
 {
   /* tag-#anon#lUN[F32'x'||S32'i'|] */
-union anonymous$10
+union anonymous_10
 {
   // x
   float x;
@@ -12186,7 +12186,7 @@ union anonymous$10
 
 /* */
   ;
-  union anonymous$10 u;
+  union anonymous_10 u;
   float xhalf = (float)0.5 * x;
   u.x = x;
   u.i = 0x5f3759df - (u.i >> 1);
@@ -12199,17 +12199,17 @@ union anonymous$10
 // file vl/mathop.h line 545
 static inline float vl_fast_sqrt_f(float x)
 {
-  float tmp_if_expr$2;
-  float return_value_vl_fast_resqrt_f$1;
+  float tmp_if_expr_2;
+  float return_value_vl_fast_resqrt_f_1;
   if((double)x < 1e-8)
-    tmp_if_expr$2 = (float)0;
+    tmp_if_expr_2 = (float)0;
 
   else
   {
-    return_value_vl_fast_resqrt_f$1=vl_fast_resqrt_f(x);
-    tmp_if_expr$2 = x * return_value_vl_fast_resqrt_f$1;
+    return_value_vl_fast_resqrt_f_1=vl_fast_resqrt_f(x);
+    tmp_if_expr_2 = x * return_value_vl_fast_resqrt_f_1;
   }
-  return tmp_if_expr$2;
+  return tmp_if_expr_2;
 }
 
 // vl_fast_sqrt_ui64
@@ -12245,23 +12245,23 @@ extern unsigned long long int vl_find_local_extrema_2(signed long long int **ext
   unsigned long long int numExtrema = (unsigned long long int)0;
   unsigned long long int requiredSize = (unsigned long long int)0;
   y = (signed long long int)1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
   for( ; !(y >= (signed long int)((signed int)height + -1)); y = y + 1ll)
   {
     x = (signed long long int)1;
@@ -12269,93 +12269,93 @@ extern unsigned long long int vl_find_local_extrema_2(signed long long int **ext
     {
       float value = *pt;
       if((double)value >= threshold)
-        tmp_if_expr$1 = value > pt[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = value > pt[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = value > *(pt - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = value > *(pt - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = value > pt[(signed long int)yo] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = value > pt[(signed long int)yo] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = value > *(pt - (signed long int)yo) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = value > *(pt - (signed long int)yo) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = value > (pt + (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = value > (pt + (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = value > *((pt + (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = value > *((pt + (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = value > (pt - (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = value > (pt - (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = value > *((pt - (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = value > *((pt - (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$17 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_17 = (_Bool)1;
 
       else
       {
         if((double)value <= -threshold)
-          tmp_if_expr$9 = value < pt[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = value < pt[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
-          tmp_if_expr$10 = value < *(pt - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
+          tmp_if_expr_10 = value < *(pt - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
-          tmp_if_expr$11 = value < pt[(signed long int)yo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
+          tmp_if_expr_11 = value < pt[(signed long int)yo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        if(tmp_if_expr$11)
-          tmp_if_expr$12 = value < *(pt - (signed long int)yo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (_Bool)0;
+        if(tmp_if_expr_11)
+          tmp_if_expr_12 = value < *(pt - (signed long int)yo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        if(tmp_if_expr$12)
-          tmp_if_expr$13 = value < (pt + (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_12 = (_Bool)0;
+        if(tmp_if_expr_12)
+          tmp_if_expr_13 = value < (pt + (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
-          tmp_if_expr$14 = value < *((pt + (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
+          tmp_if_expr_14 = value < *((pt + (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        if(tmp_if_expr$14)
-          tmp_if_expr$15 = value < (pt - (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_14 = (_Bool)0;
+        if(tmp_if_expr_14)
+          tmp_if_expr_15 = value < (pt - (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$15 = (_Bool)0;
-        if(tmp_if_expr$15)
-          tmp_if_expr$16 = value < *((pt - (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_15 = (_Bool)0;
+        if(tmp_if_expr_15)
+          tmp_if_expr_16 = value < *((pt - (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$16 = (_Bool)0;
-        tmp_if_expr$17 = tmp_if_expr$16 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_16 = (_Bool)0;
+        tmp_if_expr_17 = tmp_if_expr_16 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$17)
+      if(tmp_if_expr_17)
       {
         numExtrema = numExtrema + 1ull;
         requiredSize = requiredSize + sizeof(signed long long int) /*8ul*/  * (unsigned long int)2;
@@ -12393,59 +12393,59 @@ extern unsigned long long int vl_find_local_extrema_3(signed long long int **ext
   unsigned long long int numExtrema = (unsigned long long int)0;
   unsigned long long int requiredSize = (unsigned long long int)0;
   z = (signed long long int)1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$26;
-  _Bool tmp_if_expr$53;
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$28;
-  _Bool tmp_if_expr$29;
-  _Bool tmp_if_expr$30;
-  _Bool tmp_if_expr$31;
-  _Bool tmp_if_expr$32;
-  _Bool tmp_if_expr$33;
-  _Bool tmp_if_expr$34;
-  _Bool tmp_if_expr$35;
-  _Bool tmp_if_expr$36;
-  _Bool tmp_if_expr$37;
-  _Bool tmp_if_expr$38;
-  _Bool tmp_if_expr$39;
-  _Bool tmp_if_expr$40;
-  _Bool tmp_if_expr$41;
-  _Bool tmp_if_expr$42;
-  _Bool tmp_if_expr$43;
-  _Bool tmp_if_expr$44;
-  _Bool tmp_if_expr$45;
-  _Bool tmp_if_expr$46;
-  _Bool tmp_if_expr$47;
-  _Bool tmp_if_expr$48;
-  _Bool tmp_if_expr$49;
-  _Bool tmp_if_expr$50;
-  _Bool tmp_if_expr$51;
-  _Bool tmp_if_expr$52;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_26;
+  _Bool tmp_if_expr_53;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_28;
+  _Bool tmp_if_expr_29;
+  _Bool tmp_if_expr_30;
+  _Bool tmp_if_expr_31;
+  _Bool tmp_if_expr_32;
+  _Bool tmp_if_expr_33;
+  _Bool tmp_if_expr_34;
+  _Bool tmp_if_expr_35;
+  _Bool tmp_if_expr_36;
+  _Bool tmp_if_expr_37;
+  _Bool tmp_if_expr_38;
+  _Bool tmp_if_expr_39;
+  _Bool tmp_if_expr_40;
+  _Bool tmp_if_expr_41;
+  _Bool tmp_if_expr_42;
+  _Bool tmp_if_expr_43;
+  _Bool tmp_if_expr_44;
+  _Bool tmp_if_expr_45;
+  _Bool tmp_if_expr_46;
+  _Bool tmp_if_expr_47;
+  _Bool tmp_if_expr_48;
+  _Bool tmp_if_expr_49;
+  _Bool tmp_if_expr_50;
+  _Bool tmp_if_expr_51;
+  _Bool tmp_if_expr_52;
   for( ; !(z >= (signed long int)((signed int)depth + -1)); z = z + 1ll)
   {
     y = (signed long long int)1;
@@ -12456,273 +12456,273 @@ extern unsigned long long int vl_find_local_extrema_3(signed long long int **ext
       {
         float value = *pt;
         if((double)value >= threshold)
-          tmp_if_expr$1 = value > pt[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = value > pt[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = value > *(pt - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = value > *(pt - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = value > pt[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = value > pt[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = value > *(pt - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = value > *(pt - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = value > pt[(signed long int)yo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = value > pt[(signed long int)yo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = value > *(pt - (signed long int)yo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = value > *(pt - (signed long int)yo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = value > (pt + (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = value > (pt + (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = value > *((pt + (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = value > *((pt + (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = value > (pt - (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (_Bool)0;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = value > (pt - (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
-          tmp_if_expr$10 = value > *((pt - (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
+          tmp_if_expr_10 = value > *((pt - (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
-          tmp_if_expr$11 = value > (pt + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
+          tmp_if_expr_11 = value > (pt + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        if(tmp_if_expr$11)
-          tmp_if_expr$12 = value > (pt - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (_Bool)0;
+        if(tmp_if_expr_11)
+          tmp_if_expr_12 = value > (pt - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        if(tmp_if_expr$12)
-          tmp_if_expr$13 = value > (pt + (signed long int)yo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_12 = (_Bool)0;
+        if(tmp_if_expr_12)
+          tmp_if_expr_13 = value > (pt + (signed long int)yo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
-          tmp_if_expr$14 = value > (pt - (signed long int)yo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
+          tmp_if_expr_14 = value > (pt - (signed long int)yo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        if(tmp_if_expr$14)
-          tmp_if_expr$15 = value > (pt + (signed long int)yo + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_14 = (_Bool)0;
+        if(tmp_if_expr_14)
+          tmp_if_expr_15 = value > (pt + (signed long int)yo + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$15 = (_Bool)0;
-        if(tmp_if_expr$15)
-          tmp_if_expr$16 = value > ((pt + (signed long int)yo) - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_15 = (_Bool)0;
+        if(tmp_if_expr_15)
+          tmp_if_expr_16 = value > ((pt + (signed long int)yo) - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$16 = (_Bool)0;
-        if(tmp_if_expr$16)
-          tmp_if_expr$17 = value > ((pt - (signed long int)yo) + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_16 = (_Bool)0;
+        if(tmp_if_expr_16)
+          tmp_if_expr_17 = value > ((pt - (signed long int)yo) + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$17 = (_Bool)0;
-        if(tmp_if_expr$17)
-          tmp_if_expr$18 = value > ((pt - (signed long int)yo) - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_17 = (_Bool)0;
+        if(tmp_if_expr_17)
+          tmp_if_expr_18 = value > ((pt - (signed long int)yo) - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        if(tmp_if_expr$18)
-          tmp_if_expr$19 = value > *((pt + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_18 = (_Bool)0;
+        if(tmp_if_expr_18)
+          tmp_if_expr_19 = value > *((pt + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$19 = (_Bool)0;
-        if(tmp_if_expr$19)
-          tmp_if_expr$20 = value > *((pt - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_19 = (_Bool)0;
+        if(tmp_if_expr_19)
+          tmp_if_expr_20 = value > *((pt - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$20 = (_Bool)0;
-        if(tmp_if_expr$20)
-          tmp_if_expr$21 = value > *((pt + (signed long int)yo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_20 = (_Bool)0;
+        if(tmp_if_expr_20)
+          tmp_if_expr_21 = value > *((pt + (signed long int)yo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$21 = (_Bool)0;
-        if(tmp_if_expr$21)
-          tmp_if_expr$22 = value > *((pt - (signed long int)yo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_21 = (_Bool)0;
+        if(tmp_if_expr_21)
+          tmp_if_expr_22 = value > *((pt - (signed long int)yo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$22 = (_Bool)0;
-        if(tmp_if_expr$22)
-          tmp_if_expr$23 = value > *((pt + (signed long int)yo + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_22 = (_Bool)0;
+        if(tmp_if_expr_22)
+          tmp_if_expr_23 = value > *((pt + (signed long int)yo + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$23 = (_Bool)0;
-        if(tmp_if_expr$23)
-          tmp_if_expr$24 = value > *(((pt + (signed long int)yo) - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_23 = (_Bool)0;
+        if(tmp_if_expr_23)
+          tmp_if_expr_24 = value > *(((pt + (signed long int)yo) - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$24 = (_Bool)0;
-        if(tmp_if_expr$24)
-          tmp_if_expr$25 = value > *(((pt - (signed long int)yo) + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_24 = (_Bool)0;
+        if(tmp_if_expr_24)
+          tmp_if_expr_25 = value > *(((pt - (signed long int)yo) + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$25 = (_Bool)0;
-        if(tmp_if_expr$25)
-          tmp_if_expr$26 = value > *(((pt - (signed long int)yo) - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_25 = (_Bool)0;
+        if(tmp_if_expr_25)
+          tmp_if_expr_26 = value > *(((pt - (signed long int)yo) - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$26 = (_Bool)0;
-        if(tmp_if_expr$26)
-          tmp_if_expr$53 = (_Bool)1;
+          tmp_if_expr_26 = (_Bool)0;
+        if(tmp_if_expr_26)
+          tmp_if_expr_53 = (_Bool)1;
 
         else
         {
           if((double)value <= -threshold)
-            tmp_if_expr$27 = value < pt[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_27 = value < pt[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$27 = (_Bool)0;
-          if(tmp_if_expr$27)
-            tmp_if_expr$28 = value < *(pt - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_27 = (_Bool)0;
+          if(tmp_if_expr_27)
+            tmp_if_expr_28 = value < *(pt - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$28 = (_Bool)0;
-          if(tmp_if_expr$28)
-            tmp_if_expr$29 = value < pt[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_28 = (_Bool)0;
+          if(tmp_if_expr_28)
+            tmp_if_expr_29 = value < pt[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$29 = (_Bool)0;
-          if(tmp_if_expr$29)
-            tmp_if_expr$30 = value < *(pt - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_29 = (_Bool)0;
+          if(tmp_if_expr_29)
+            tmp_if_expr_30 = value < *(pt - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$30 = (_Bool)0;
-          if(tmp_if_expr$30)
-            tmp_if_expr$31 = value < pt[(signed long int)yo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_30 = (_Bool)0;
+          if(tmp_if_expr_30)
+            tmp_if_expr_31 = value < pt[(signed long int)yo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$31 = (_Bool)0;
-          if(tmp_if_expr$31)
-            tmp_if_expr$32 = value < *(pt - (signed long int)yo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_31 = (_Bool)0;
+          if(tmp_if_expr_31)
+            tmp_if_expr_32 = value < *(pt - (signed long int)yo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$32 = (_Bool)0;
-          if(tmp_if_expr$32)
-            tmp_if_expr$33 = value < (pt + (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_32 = (_Bool)0;
+          if(tmp_if_expr_32)
+            tmp_if_expr_33 = value < (pt + (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$33 = (_Bool)0;
-          if(tmp_if_expr$33)
-            tmp_if_expr$34 = value < *((pt + (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_33 = (_Bool)0;
+          if(tmp_if_expr_33)
+            tmp_if_expr_34 = value < *((pt + (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$34 = (_Bool)0;
-          if(tmp_if_expr$34)
-            tmp_if_expr$35 = value < (pt - (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_34 = (_Bool)0;
+          if(tmp_if_expr_34)
+            tmp_if_expr_35 = value < (pt - (signed long int)yo)[(signed long int)xo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$35 = (_Bool)0;
-          if(tmp_if_expr$35)
-            tmp_if_expr$36 = value < *((pt - (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_35 = (_Bool)0;
+          if(tmp_if_expr_35)
+            tmp_if_expr_36 = value < *((pt - (signed long int)yo) - (signed long int)xo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$36 = (_Bool)0;
-          if(tmp_if_expr$36)
-            tmp_if_expr$37 = value < (pt + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_36 = (_Bool)0;
+          if(tmp_if_expr_36)
+            tmp_if_expr_37 = value < (pt + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$37 = (_Bool)0;
-          if(tmp_if_expr$37)
-            tmp_if_expr$38 = value < (pt - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_37 = (_Bool)0;
+          if(tmp_if_expr_37)
+            tmp_if_expr_38 = value < (pt - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$38 = (_Bool)0;
-          if(tmp_if_expr$38)
-            tmp_if_expr$39 = value < (pt + (signed long int)yo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_38 = (_Bool)0;
+          if(tmp_if_expr_38)
+            tmp_if_expr_39 = value < (pt + (signed long int)yo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$39 = (_Bool)0;
-          if(tmp_if_expr$39)
-            tmp_if_expr$40 = value < (pt - (signed long int)yo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_39 = (_Bool)0;
+          if(tmp_if_expr_39)
+            tmp_if_expr_40 = value < (pt - (signed long int)yo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$40 = (_Bool)0;
-          if(tmp_if_expr$40)
-            tmp_if_expr$41 = value < (pt + (signed long int)yo + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_40 = (_Bool)0;
+          if(tmp_if_expr_40)
+            tmp_if_expr_41 = value < (pt + (signed long int)yo + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$41 = (_Bool)0;
-          if(tmp_if_expr$41)
-            tmp_if_expr$42 = value < ((pt + (signed long int)yo) - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_41 = (_Bool)0;
+          if(tmp_if_expr_41)
+            tmp_if_expr_42 = value < ((pt + (signed long int)yo) - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$42 = (_Bool)0;
-          if(tmp_if_expr$42)
-            tmp_if_expr$43 = value < ((pt - (signed long int)yo) + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_42 = (_Bool)0;
+          if(tmp_if_expr_42)
+            tmp_if_expr_43 = value < ((pt - (signed long int)yo) + (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$43 = (_Bool)0;
-          if(tmp_if_expr$43)
-            tmp_if_expr$44 = value < ((pt - (signed long int)yo) - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_43 = (_Bool)0;
+          if(tmp_if_expr_43)
+            tmp_if_expr_44 = value < ((pt - (signed long int)yo) - (signed long int)xo)[(signed long int)zo] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$44 = (_Bool)0;
-          if(tmp_if_expr$44)
-            tmp_if_expr$45 = value < *((pt + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_44 = (_Bool)0;
+          if(tmp_if_expr_44)
+            tmp_if_expr_45 = value < *((pt + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$45 = (_Bool)0;
-          if(tmp_if_expr$45)
-            tmp_if_expr$46 = value < *((pt - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_45 = (_Bool)0;
+          if(tmp_if_expr_45)
+            tmp_if_expr_46 = value < *((pt - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$46 = (_Bool)0;
-          if(tmp_if_expr$46)
-            tmp_if_expr$47 = value < *((pt + (signed long int)yo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_46 = (_Bool)0;
+          if(tmp_if_expr_46)
+            tmp_if_expr_47 = value < *((pt + (signed long int)yo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$47 = (_Bool)0;
-          if(tmp_if_expr$47)
-            tmp_if_expr$48 = value < *((pt - (signed long int)yo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_47 = (_Bool)0;
+          if(tmp_if_expr_47)
+            tmp_if_expr_48 = value < *((pt - (signed long int)yo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$48 = (_Bool)0;
-          if(tmp_if_expr$48)
-            tmp_if_expr$49 = value < *((pt + (signed long int)yo + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_48 = (_Bool)0;
+          if(tmp_if_expr_48)
+            tmp_if_expr_49 = value < *((pt + (signed long int)yo + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$49 = (_Bool)0;
-          if(tmp_if_expr$49)
-            tmp_if_expr$50 = value < *(((pt + (signed long int)yo) - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_49 = (_Bool)0;
+          if(tmp_if_expr_49)
+            tmp_if_expr_50 = value < *(((pt + (signed long int)yo) - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$50 = (_Bool)0;
-          if(tmp_if_expr$50)
-            tmp_if_expr$51 = value < *(((pt - (signed long int)yo) + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_50 = (_Bool)0;
+          if(tmp_if_expr_50)
+            tmp_if_expr_51 = value < *(((pt - (signed long int)yo) + (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$51 = (_Bool)0;
-          if(tmp_if_expr$51)
-            tmp_if_expr$52 = value < *(((pt - (signed long int)yo) - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_51 = (_Bool)0;
+          if(tmp_if_expr_51)
+            tmp_if_expr_52 = value < *(((pt - (signed long int)yo) - (signed long int)xo) - (signed long int)zo) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$52 = (_Bool)0;
-          tmp_if_expr$53 = tmp_if_expr$52 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_52 = (_Bool)0;
+          tmp_if_expr_53 = tmp_if_expr_52 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$53)
+        if(tmp_if_expr_53)
         {
           numExtrema = numExtrema + 1ull;
           requiredSize = requiredSize + sizeof(signed long long int) /*8ul*/  * (unsigned long int)3;
@@ -12753,19 +12753,19 @@ extern unsigned long long int vl_find_local_extrema_3(signed long long int **ext
 // file vl/fisher.c line 549
 extern unsigned long long int vl_fisher_encode(void *enc, unsigned int dataType, const void *means, unsigned long long int dimension, unsigned long long int numClusters, const void *covariances, const void *priors, const void *data, unsigned long long int numData, signed int flags)
 {
-  unsigned long long int return_value__vl_fisher_encode_f$1;
-  unsigned long long int return_value__vl_fisher_encode_d$2;
+  unsigned long long int return_value__vl_fisher_encode_f_1;
+  unsigned long long int return_value__vl_fisher_encode_d_2;
   switch(dataType)
   {
     case (unsigned int)1:
     {
-      return_value__vl_fisher_encode_f$1=_vl_fisher_encode_f((float *)enc, (const float *)means, dimension, numClusters, (const float *)covariances, (const float *)priors, (const float *)data, numData, flags);
-      return return_value__vl_fisher_encode_f$1;
+      return_value__vl_fisher_encode_f_1=_vl_fisher_encode_f((float *)enc, (const float *)means, dimension, numClusters, (const float *)covariances, (const float *)priors, (const float *)data, numData, flags);
+      return return_value__vl_fisher_encode_f_1;
     }
     case (unsigned int)2:
     {
-      return_value__vl_fisher_encode_d$2=_vl_fisher_encode_d((double *)enc, (const double *)means, dimension, numClusters, (const double *)covariances, (const double *)priors, (const double *)data, numData, flags);
-      return return_value__vl_fisher_encode_d$2;
+      return_value__vl_fisher_encode_d_2=_vl_fisher_encode_d((double *)enc, (const double *)means, dimension, numClusters, (const double *)covariances, (const double *)priors, (const double *)data, numData, flags);
+      return return_value__vl_fisher_encode_d_2;
     }
     default:
       abort();
@@ -12784,16 +12784,16 @@ static inline signed long int vl_floor_d(double x)
     return xi - (signed long int)1;
 }
 
-// vl_floor_d$link1
+// vl_floor_d_link1
 // file vl/mathop.h line 147
-static inline signed long int vl_floor_d$link1(double x$link1)
+static inline signed long int vl_floor_d_link1(double x_link1)
 {
-  signed long int xi$link1 = (signed long int)x$link1;
-  if(x$link1 >= 0.000000 || IEEE_FLOAT_EQUAL((double)xi$link1, x$link1))
-    return xi$link1;
+  signed long int xi_link1 = (signed long int)x_link1;
+  if(x_link1 >= 0.000000 || IEEE_FLOAT_EQUAL((double)xi_link1, x_link1))
+    return xi_link1;
 
   else
-    return xi$link1 - (signed long int)1;
+    return xi_link1 - (signed long int)1;
 }
 
 // vl_floor_f
@@ -12808,25 +12808,25 @@ static inline signed long int vl_floor_f(float x)
     return xi - (signed long int)1;
 }
 
-// vl_floor_f$link1
+// vl_floor_f_link1
 // file vl/mathop.h line 135
-static inline signed long int vl_floor_f$link1(float x$link1)
+static inline signed long int vl_floor_f_link1(float x_link1)
 {
-  signed long int xi$link1 = (signed long int)x$link1;
-  if(x$link1 >= 0.000000f || IEEE_FLOAT_EQUAL((float)xi$link1, x$link1))
-    return xi$link1;
+  signed long int xi_link1 = (signed long int)x_link1;
+  if(x_link1 >= 0.000000f || IEEE_FLOAT_EQUAL((float)xi_link1, x_link1))
+    return xi_link1;
 
   else
-    return xi$link1 - (signed long int)1;
+    return xi_link1 - (signed long int)1;
 }
 
 // vl_free
 // file ./vl/generic.h line 147
 extern void vl_free(void *ptr)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  return_value_vl_get_state$1->free_func(ptr);
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  return_value_vl_get_state_1->free_func(ptr);
 }
 
 // vl_gaussian_elimination
@@ -12885,10 +12885,10 @@ extern signed int vl_gaussian_elimination(double *A, unsigned long long int numR
     ii = i - (signed long int)1;
     for( ; ii >= 0l; ii = ii - 1ll)
     {
-      double vl_gaussian_elimination$$1$$2$$1$$1$$1$$x = A[(signed long int)((unsigned long int)ii + (unsigned long int)i * numRows)];
+      double vl_gaussian_elimination__1__2__1__1__1__x = A[(signed long int)((unsigned long int)ii + (unsigned long int)i * numRows)];
       j = (signed long long int)numRows;
       for( ; !(j >= (signed long int)(signed int)numColumns); j = j + 1ll)
-        A[(signed long int)((unsigned long int)ii + (unsigned long int)j * numRows)] = A[(signed long int)((unsigned long int)ii + (unsigned long int)j * numRows)] - vl_gaussian_elimination$$1$$2$$1$$1$$1$$x * A[(signed long int)((unsigned long int)i + (unsigned long int)j * numRows)];
+        A[(signed long int)((unsigned long int)ii + (unsigned long int)j * numRows)] = A[(signed long int)((unsigned long int)ii + (unsigned long int)j * numRows)] - vl_gaussian_elimination__1__2__1__1__1__x * A[(signed long int)((unsigned long int)i + (unsigned long int)j * numRows)];
     }
   }
   return 0;
@@ -12898,9 +12898,9 @@ extern signed int vl_gaussian_elimination(double *A, unsigned long long int numR
 // file vl/generic.h line 206
 extern double vl_get_cpu_time(void)
 {
-  signed long int return_value_clock$1;
-  return_value_clock$1=clock();
-  return (double)return_value_clock$1 / (double)(signed long int)1000000;
+  signed long int return_value_clock_1;
+  return_value_clock_1=clock();
+  return (double)return_value_clock_1 / (double)(signed long int)1000000;
 }
 
 // vl_get_gmm_data_posteriors_d
@@ -12912,23 +12912,23 @@ extern double vl_get_gmm_data_posteriors_d(double *posteriors, unsigned long lon
   unsigned long long int dim;
   double LL = (double)0;
   double halfDimLog2Pi;
-  double return_value_log$1;
-  return_value_log$1=log(2.0 * 3.141592653589793);
-  halfDimLog2Pi = ((double)dimension / 2.0) * return_value_log$1;
+  double return_value_log_1;
+  return_value_log_1=log(2.0 * 3.141592653589793);
+  halfDimLog2Pi = ((double)dimension / 2.0) * return_value_log_1;
   double *logCovariances;
   double *logWeights;
   double *invCovariances;
   double (*distFn)(unsigned long long int, const double *, const double *, const double *);
   distFn=vl_get_vector_3_comparison_function_d((enum _VlVectorComparisonType)VlDistanceMahalanobis);
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(double) /*8ul*/  * numClusters);
-  logCovariances = (double *)return_value_vl_malloc$2;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(double) /*8ul*/  * numClusters * dimension);
-  invCovariances = (double *)return_value_vl_malloc$3;
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(double) /*8ul*/  * numClusters);
-  logWeights = (double *)return_value_vl_malloc$4;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(double) /*8ul*/  * numClusters);
+  logCovariances = (double *)return_value_vl_malloc_2;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(double) /*8ul*/  * numClusters * dimension);
+  invCovariances = (double *)return_value_vl_malloc_3;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(double) /*8ul*/  * numClusters);
+  logWeights = (double *)return_value_vl_malloc_4;
   i_cl = (signed long long int)0;
   for( ; !(i_cl >= (signed long int)(signed int)numClusters); i_cl = i_cl + 1ll)
   {
@@ -12941,9 +12941,9 @@ extern double vl_get_gmm_data_posteriors_d(double *posteriors, unsigned long lon
     dim = (unsigned long long int)0;
     for( ; !(dim >= dimension); dim = dim + 1ull)
     {
-      double return_value_log$5;
-      return_value_log$5=log(covariances[(signed long int)((unsigned long int)i_cl * dimension + dim)]);
-      logSigma = logSigma + return_value_log$5;
+      double return_value_log_5;
+      return_value_log_5=log(covariances[(signed long int)((unsigned long int)i_cl * dimension + dim)]);
+      logSigma = logSigma + return_value_log_5;
       invCovariances[(signed long int)((unsigned long int)i_cl * dimension + dim)] = (double)1.0 / covariances[(signed long int)((unsigned long int)i_cl * dimension + dim)];
     }
     logCovariances[i_cl] = logSigma;
@@ -12970,14 +12970,14 @@ extern double vl_get_gmm_data_posteriors_d(double *posteriors, unsigned long lon
     i_cl = (signed long long int)0;
     for( ; !(i_cl >= (signed long int)(signed int)numClusters); i_cl = i_cl + 1ll)
     {
-      double vl_get_gmm_data_posteriors_d$$1$$2$$1$$2$$1$$p = posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)];
-      vl_get_gmm_data_posteriors_d$$1$$2$$1$$2$$1$$p=exp(vl_get_gmm_data_posteriors_d$$1$$2$$1$$2$$1$$p - maxPosterior);
-      posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)] = vl_get_gmm_data_posteriors_d$$1$$2$$1$$2$$1$$p;
-      clusterPosteriorsSum = clusterPosteriorsSum + vl_get_gmm_data_posteriors_d$$1$$2$$1$$2$$1$$p;
+      double vl_get_gmm_data_posteriors_d__1__2__1__2__1__p = posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)];
+      vl_get_gmm_data_posteriors_d__1__2__1__2__1__p=exp(vl_get_gmm_data_posteriors_d__1__2__1__2__1__p - maxPosterior);
+      posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)] = vl_get_gmm_data_posteriors_d__1__2__1__2__1__p;
+      clusterPosteriorsSum = clusterPosteriorsSum + vl_get_gmm_data_posteriors_d__1__2__1__2__1__p;
     }
-    double return_value_log$6;
-    return_value_log$6=log(clusterPosteriorsSum);
-    LL = LL + return_value_log$6 + (double)maxPosterior;
+    double return_value_log_6;
+    return_value_log_6=log(clusterPosteriorsSum);
+    LL = LL + return_value_log_6 + (double)maxPosterior;
     i_cl = (signed long long int)0;
     for( ; !(i_cl >= (signed long int)(signed int)numClusters); i_cl = i_cl + 1ll)
       posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)] = posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)] / clusterPosteriorsSum;
@@ -12997,23 +12997,23 @@ extern double vl_get_gmm_data_posteriors_f(float *posteriors, unsigned long long
   unsigned long long int dim;
   double LL = (double)0;
   float halfDimLog2Pi;
-  double return_value_log$1;
-  return_value_log$1=log(2.0 * 3.141592653589793);
-  halfDimLog2Pi = (float)(((double)dimension / 2.0) * return_value_log$1);
+  double return_value_log_1;
+  return_value_log_1=log(2.0 * 3.141592653589793);
+  halfDimLog2Pi = (float)(((double)dimension / 2.0) * return_value_log_1);
   float *logCovariances;
   float *logWeights;
   float *invCovariances;
   float (*distFn)(unsigned long long int, const float *, const float *, const float *);
   distFn=vl_get_vector_3_comparison_function_f((enum _VlVectorComparisonType)VlDistanceMahalanobis);
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(float) /*4ul*/  * numClusters);
-  logCovariances = (float *)return_value_vl_malloc$2;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(float) /*4ul*/  * numClusters * dimension);
-  invCovariances = (float *)return_value_vl_malloc$3;
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(float) /*4ul*/  * numClusters);
-  logWeights = (float *)return_value_vl_malloc$4;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(float) /*4ul*/  * numClusters);
+  logCovariances = (float *)return_value_vl_malloc_2;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(float) /*4ul*/  * numClusters * dimension);
+  invCovariances = (float *)return_value_vl_malloc_3;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(float) /*4ul*/  * numClusters);
+  logWeights = (float *)return_value_vl_malloc_4;
   i_cl = (signed long long int)0;
   for( ; !(i_cl >= (signed long int)(signed int)numClusters); i_cl = i_cl + 1ll)
   {
@@ -13023,16 +13023,16 @@ extern double vl_get_gmm_data_posteriors_f(float *posteriors, unsigned long long
 
     else
     {
-      double return_value_log$5;
-      return_value_log$5=log((double)priors[i_cl]);
-      logWeights[i_cl] = (float)return_value_log$5;
+      double return_value_log_5;
+      return_value_log_5=log((double)priors[i_cl]);
+      logWeights[i_cl] = (float)return_value_log_5;
     }
     dim = (unsigned long long int)0;
     for( ; !(dim >= dimension); dim = dim + 1ull)
     {
-      double return_value_log$6;
-      return_value_log$6=log((double)covariances[(signed long int)((unsigned long int)i_cl * dimension + dim)]);
-      logSigma = logSigma + (float)return_value_log$6;
+      double return_value_log_6;
+      return_value_log_6=log((double)covariances[(signed long int)((unsigned long int)i_cl * dimension + dim)]);
+      logSigma = logSigma + (float)return_value_log_6;
       invCovariances[(signed long int)((unsigned long int)i_cl * dimension + dim)] = (float)1.0 / covariances[(signed long int)((unsigned long int)i_cl * dimension + dim)];
     }
     logCovariances[i_cl] = logSigma;
@@ -13059,16 +13059,16 @@ extern double vl_get_gmm_data_posteriors_f(float *posteriors, unsigned long long
     i_cl = (signed long long int)0;
     for( ; !(i_cl >= (signed long int)(signed int)numClusters); i_cl = i_cl + 1ll)
     {
-      float vl_get_gmm_data_posteriors_f$$1$$2$$1$$2$$1$$p = posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)];
-      double return_value_exp$7;
-      return_value_exp$7=exp((double)(vl_get_gmm_data_posteriors_f$$1$$2$$1$$2$$1$$p - maxPosterior));
-      vl_get_gmm_data_posteriors_f$$1$$2$$1$$2$$1$$p = (float)return_value_exp$7;
-      posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)] = vl_get_gmm_data_posteriors_f$$1$$2$$1$$2$$1$$p;
-      clusterPosteriorsSum = clusterPosteriorsSum + vl_get_gmm_data_posteriors_f$$1$$2$$1$$2$$1$$p;
+      float vl_get_gmm_data_posteriors_f__1__2__1__2__1__p = posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)];
+      double return_value_exp_7;
+      return_value_exp_7=exp((double)(vl_get_gmm_data_posteriors_f__1__2__1__2__1__p - maxPosterior));
+      vl_get_gmm_data_posteriors_f__1__2__1__2__1__p = (float)return_value_exp_7;
+      posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)] = vl_get_gmm_data_posteriors_f__1__2__1__2__1__p;
+      clusterPosteriorsSum = clusterPosteriorsSum + vl_get_gmm_data_posteriors_f__1__2__1__2__1__p;
     }
-    double return_value_log$8;
-    return_value_log$8=log((double)clusterPosteriorsSum);
-    LL = LL + return_value_log$8 + (double)maxPosterior;
+    double return_value_log_8;
+    return_value_log_8=log((double)clusterPosteriorsSum);
+    LL = LL + return_value_log_8 + (double)maxPosterior;
     i_cl = (signed long long int)0;
     for( ; !(i_cl >= (signed long int)(signed int)numClusters); i_cl = i_cl + 1ll)
       posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)] = posteriors[(signed long int)((unsigned long int)i_cl + (unsigned long int)i_d * numClusters)] / clusterPosteriorsSum;
@@ -13083,63 +13083,63 @@ extern double vl_get_gmm_data_posteriors_f(float *posteriors, unsigned long long
 // file vl/generic.c line 1265
 extern signed int vl_get_last_error(void)
 {
-  struct _VlThreadState *return_value_vl_get_thread_specific_state$1;
-  return_value_vl_get_thread_specific_state$1=vl_get_thread_specific_state();
-  return return_value_vl_get_thread_specific_state$1->lastError;
+  struct _VlThreadState *return_value_vl_get_thread_specific_state_1;
+  return_value_vl_get_thread_specific_state_1=vl_get_thread_specific_state();
+  return return_value_vl_get_thread_specific_state_1->lastError;
 }
 
 // vl_get_last_error_message
 // file vl/generic.c line 1275
 extern const char * vl_get_last_error_message(void)
 {
-  struct _VlThreadState *return_value_vl_get_thread_specific_state$1;
-  return_value_vl_get_thread_specific_state$1=vl_get_thread_specific_state();
-  return return_value_vl_get_thread_specific_state$1->lastErrorMessage;
+  struct _VlThreadState *return_value_vl_get_thread_specific_state_1;
+  return_value_vl_get_thread_specific_state_1=vl_get_thread_specific_state();
+  return return_value_vl_get_thread_specific_state_1->lastErrorMessage;
 }
 
 // vl_get_max_threads
 // file vl/generic.c line 1175
 extern unsigned long long int vl_get_max_threads(void)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  return return_value_vl_get_state$1->numThreads;
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  return return_value_vl_get_state_1->numThreads;
 }
 
 // vl_get_num_cpus
 // file vl/generic.c line 1055
 extern unsigned long long int vl_get_num_cpus(void)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  return return_value_vl_get_state$1->numCPUs;
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  return return_value_vl_get_state_1->numCPUs;
 }
 
 // vl_get_printf_func
 // file vl/generic.h line 156
 extern signed int (*vl_get_printf_func(void))(const char *, ...)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  return return_value_vl_get_state$1->printf_func;
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  return return_value_vl_get_state_1->printf_func;
 }
 
 // vl_get_rand
 // file ./vl/generic.h line 110
 extern struct _VlRand * vl_get_rand(void)
 {
-  struct _VlThreadState *return_value_vl_get_thread_specific_state$1;
-  return_value_vl_get_thread_specific_state$1=vl_get_thread_specific_state();
-  return &return_value_vl_get_thread_specific_state$1->rand;
+  struct _VlThreadState *return_value_vl_get_thread_specific_state_1;
+  return_value_vl_get_thread_specific_state_1=vl_get_thread_specific_state();
+  return &return_value_vl_get_thread_specific_state_1->rand;
 }
 
 // vl_get_simd_enabled
 // file vl/generic.c line 1082
 extern signed int vl_get_simd_enabled(void)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  return return_value_vl_get_state$1->simdEnabled;
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  return return_value_vl_get_state_1->simdEnabled;
 }
 
 // vl_get_state
@@ -13153,9 +13153,9 @@ static inline struct _VlState * vl_get_state(void)
 // file vl/generic.c line 1143
 extern unsigned long long int vl_get_thread_limit(void)
 {
-  signed int return_value_omp_get_thread_limit$1;
-  return_value_omp_get_thread_limit$1=omp_get_thread_limit();
-  return (unsigned long long int)return_value_omp_get_thread_limit$1;
+  signed int return_value_omp_get_thread_limit_1;
+  return_value_omp_get_thread_limit_1=omp_get_thread_limit();
+  return (unsigned long long int)return_value_omp_get_thread_limit_1;
 }
 
 // vl_get_thread_specific_state
@@ -13166,9 +13166,9 @@ static inline struct _VlThreadState * vl_get_thread_specific_state(void)
   struct _VlThreadState *threadState;
   vl_lock_state();
   state=vl_get_state();
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(state->threadKey);
-  threadState = (struct _VlThreadState *)return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(state->threadKey);
+  threadState = (struct _VlThreadState *)return_value_pthread_getspecific_1;
   if(threadState == ((struct _VlThreadState *)NULL))
     threadState=vl_thread_specific_state_new();
 
@@ -13228,157 +13228,157 @@ static inline unsigned long long int vl_get_type_size(unsigned int type)
   return dataSize;
 }
 
-// vl_get_type_size$link1
+// vl_get_type_size_link1
 // file vl/generic.h line 85
-static inline unsigned long long int vl_get_type_size$link1(unsigned int type$link1)
+static inline unsigned long long int vl_get_type_size_link1(unsigned int type_link1)
 {
-  unsigned long long int dataSize$link1 = (unsigned long long int)0;
-  switch(type$link1)
+  unsigned long long int dataSize_link1 = (unsigned long long int)0;
+  switch(type_link1)
   {
     case (unsigned int)2:
     {
-      dataSize$link1 = sizeof(double) /*8ul*/ ;
+      dataSize_link1 = sizeof(double) /*8ul*/ ;
       break;
     }
     case (unsigned int)1:
     {
-      dataSize$link1 = sizeof(float) /*4ul*/ ;
+      dataSize_link1 = sizeof(float) /*4ul*/ ;
       break;
     }
     case (unsigned int)9:
 
     case (unsigned int)10:
     {
-      dataSize$link1 = sizeof(signed long long int) /*8ul*/ ;
+      dataSize_link1 = sizeof(signed long long int) /*8ul*/ ;
       break;
     }
     case (unsigned int)7:
 
     case (unsigned int)8:
     {
-      dataSize$link1 = sizeof(signed int) /*4ul*/ ;
+      dataSize_link1 = sizeof(signed int) /*4ul*/ ;
       break;
     }
     case (unsigned int)5:
 
     case (unsigned int)6:
     {
-      dataSize$link1 = sizeof(signed short int) /*2ul*/ ;
+      dataSize_link1 = sizeof(signed short int) /*2ul*/ ;
       break;
     }
     case (unsigned int)3:
 
     case (unsigned int)4:
     {
-      dataSize$link1 = sizeof(char) /*1ul*/ ;
+      dataSize_link1 = sizeof(char) /*1ul*/ ;
       break;
     }
     default:
       abort();
   }
-  return dataSize$link1;
+  return dataSize_link1;
 }
 
-// vl_get_type_size$link2
+// vl_get_type_size_link2
 // file vl/generic.h line 85
-static inline unsigned long long int vl_get_type_size$link2(unsigned int type$link2)
+static inline unsigned long long int vl_get_type_size_link2(unsigned int type_link2)
 {
-  unsigned long long int dataSize$link2 = (unsigned long long int)0;
-  switch(type$link2)
+  unsigned long long int dataSize_link2 = (unsigned long long int)0;
+  switch(type_link2)
   {
     case (unsigned int)2:
     {
-      dataSize$link2 = sizeof(double) /*8ul*/ ;
+      dataSize_link2 = sizeof(double) /*8ul*/ ;
       break;
     }
     case (unsigned int)1:
     {
-      dataSize$link2 = sizeof(float) /*4ul*/ ;
+      dataSize_link2 = sizeof(float) /*4ul*/ ;
       break;
     }
     case (unsigned int)9:
 
     case (unsigned int)10:
     {
-      dataSize$link2 = sizeof(signed long long int) /*8ul*/ ;
+      dataSize_link2 = sizeof(signed long long int) /*8ul*/ ;
       break;
     }
     case (unsigned int)7:
 
     case (unsigned int)8:
     {
-      dataSize$link2 = sizeof(signed int) /*4ul*/ ;
+      dataSize_link2 = sizeof(signed int) /*4ul*/ ;
       break;
     }
     case (unsigned int)5:
 
     case (unsigned int)6:
     {
-      dataSize$link2 = sizeof(signed short int) /*2ul*/ ;
+      dataSize_link2 = sizeof(signed short int) /*2ul*/ ;
       break;
     }
     case (unsigned int)3:
 
     case (unsigned int)4:
     {
-      dataSize$link2 = sizeof(char) /*1ul*/ ;
+      dataSize_link2 = sizeof(char) /*1ul*/ ;
       break;
     }
     default:
       abort();
   }
-  return dataSize$link2;
+  return dataSize_link2;
 }
 
-// vl_get_type_size$link3
+// vl_get_type_size_link3
 // file vl/generic.h line 85
-static inline unsigned long long int vl_get_type_size$link3(unsigned int type$link3)
+static inline unsigned long long int vl_get_type_size_link3(unsigned int type_link3)
 {
-  unsigned long long int dataSize$link3 = (unsigned long long int)0;
-  switch(type$link3)
+  unsigned long long int dataSize_link3 = (unsigned long long int)0;
+  switch(type_link3)
   {
     case (unsigned int)2:
     {
-      dataSize$link3 = sizeof(double) /*8ul*/ ;
+      dataSize_link3 = sizeof(double) /*8ul*/ ;
       break;
     }
     case (unsigned int)1:
     {
-      dataSize$link3 = sizeof(float) /*4ul*/ ;
+      dataSize_link3 = sizeof(float) /*4ul*/ ;
       break;
     }
     case (unsigned int)9:
 
     case (unsigned int)10:
     {
-      dataSize$link3 = sizeof(signed long long int) /*8ul*/ ;
+      dataSize_link3 = sizeof(signed long long int) /*8ul*/ ;
       break;
     }
     case (unsigned int)7:
 
     case (unsigned int)8:
     {
-      dataSize$link3 = sizeof(signed int) /*4ul*/ ;
+      dataSize_link3 = sizeof(signed int) /*4ul*/ ;
       break;
     }
     case (unsigned int)5:
 
     case (unsigned int)6:
     {
-      dataSize$link3 = sizeof(signed short int) /*2ul*/ ;
+      dataSize_link3 = sizeof(signed short int) /*2ul*/ ;
       break;
     }
     case (unsigned int)3:
 
     case (unsigned int)4:
     {
-      dataSize$link3 = sizeof(char) /*1ul*/ ;
+      dataSize_link3 = sizeof(char) /*1ul*/ ;
       break;
     }
     default:
       abort();
   }
-  return dataSize$link3;
+  return dataSize_link3;
 }
 
 // vl_get_vector_3_comparison_function_d
@@ -13559,7 +13559,7 @@ extern double vl_gmm_cluster(struct _VlGMM *self, const void *data, unsigned lon
   void *bestCovariances = (void *)0;
   void *bestPosteriors = (void *)0;
   unsigned long long int size;
-  size=vl_get_type_size$link1(self->dataType);
+  size=vl_get_type_size_link1(self->dataType);
   double bestLL = -vl_infinity_d.value;
   unsigned long long int repetition;
   bestPriors=vl_malloc(size * self->numClusters);
@@ -13573,9 +13573,9 @@ extern double vl_gmm_cluster(struct _VlGMM *self, const void *data, unsigned lon
     double timeRef;
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$1)(const char *, ...);
-      return_value_vl_get_printf_func$1=vl_get_printf_func();
-      return_value_vl_get_printf_func$1("gmm: clustering: starting repetition %d of %d\n", repetition + (unsigned long int)1, self->numRepetitions);
+      signed int (*return_value_vl_get_printf_func_1)(const char *, ...);
+      return_value_vl_get_printf_func_1=vl_get_printf_func();
+      return_value_vl_get_printf_func_1("gmm: clustering: starting repetition %d of %d\n", repetition + (unsigned long int)1, self->numRepetitions);
     }
 
     timeRef=vl_get_cpu_time();
@@ -13598,22 +13598,22 @@ extern double vl_gmm_cluster(struct _VlGMM *self, const void *data, unsigned lon
     }
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$2)(const char *, ...);
-      return_value_vl_get_printf_func$2=vl_get_printf_func();
-      double return_value_vl_get_cpu_time$3;
-      return_value_vl_get_cpu_time$3=vl_get_cpu_time();
-      return_value_vl_get_printf_func$2("gmm: model initialized in %.2f s\n", return_value_vl_get_cpu_time$3 - timeRef);
+      signed int (*return_value_vl_get_printf_func_2)(const char *, ...);
+      return_value_vl_get_printf_func_2=vl_get_printf_func();
+      double return_value_vl_get_cpu_time_3;
+      return_value_vl_get_cpu_time_3=vl_get_cpu_time();
+      return_value_vl_get_printf_func_2("gmm: model initialized in %.2f s\n", return_value_vl_get_cpu_time_3 - timeRef);
     }
 
     timeRef=vl_get_cpu_time();
     LL=vl_gmm_em(self, data, numData);
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$4)(const char *, ...);
-      return_value_vl_get_printf_func$4=vl_get_printf_func();
-      double return_value_vl_get_cpu_time$5;
-      return_value_vl_get_cpu_time$5=vl_get_cpu_time();
-      return_value_vl_get_printf_func$4("gmm: optimization terminated in %.2f s with loglikelihood %f\n", return_value_vl_get_cpu_time$5 - timeRef, LL);
+      signed int (*return_value_vl_get_printf_func_4)(const char *, ...);
+      return_value_vl_get_printf_func_4=vl_get_printf_func();
+      double return_value_vl_get_cpu_time_5;
+      return_value_vl_get_cpu_time_5=vl_get_cpu_time();
+      return_value_vl_get_printf_func_4("gmm: optimization terminated in %.2f s with loglikelihood %f\n", return_value_vl_get_cpu_time_5 - timeRef, LL);
     }
 
     if(repetition == 0ul || LL > bestLL)
@@ -13645,9 +13645,9 @@ extern double vl_gmm_cluster(struct _VlGMM *self, const void *data, unsigned lon
   self->LL = bestLL;
   if(!(self->verbosity == 0))
   {
-    signed int (*return_value_vl_get_printf_func$6)(const char *, ...);
-    return_value_vl_get_printf_func$6=vl_get_printf_func();
-    return_value_vl_get_printf_func$6("gmm: all repetitions terminated with final loglikelihood %f\n", self->LL);
+    signed int (*return_value_vl_get_printf_func_6)(const char *, ...);
+    return_value_vl_get_printf_func_6=vl_get_printf_func();
+    return_value_vl_get_printf_func_6("gmm: all repetitions terminated with final loglikelihood %f\n", self->LL);
   }
 
   return bestLL;
@@ -13683,19 +13683,19 @@ extern void vl_gmm_delete(struct _VlGMM *self)
 // file vl/gmm.c line 1656
 extern double vl_gmm_em(struct _VlGMM *self, const void *data, unsigned long long int numData)
 {
-  double return_value__vl_gmm_em_f$1;
-  double return_value__vl_gmm_em_d$2;
+  double return_value__vl_gmm_em_f_1;
+  double return_value__vl_gmm_em_d_2;
   switch(self->dataType)
   {
     case (unsigned int)1:
     {
-      return_value__vl_gmm_em_f$1=_vl_gmm_em_f(self, (const float *)data, numData);
-      return return_value__vl_gmm_em_f$1;
+      return_value__vl_gmm_em_f_1=_vl_gmm_em_f(self, (const float *)data, numData);
+      return return_value__vl_gmm_em_f_1;
     }
     case (unsigned int)2:
     {
-      return_value__vl_gmm_em_d$2=_vl_gmm_em_d(self, (const double *)data, numData);
-      return return_value__vl_gmm_em_d$2;
+      return_value__vl_gmm_em_d_2=_vl_gmm_em_d(self, (const double *)data, numData);
+      return return_value__vl_gmm_em_d_2;
     }
     default:
     {
@@ -13860,11 +13860,11 @@ extern struct _VlGMM * vl_gmm_new(unsigned int dataType, unsigned long long int 
 {
   signed long long int i;
   unsigned long long int size;
-  size=vl_get_type_size$link1(dataType);
+  size=vl_get_type_size_link1(dataType);
   struct _VlGMM *self;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc((unsigned long int)1, sizeof(struct _VlGMM) /*128ul*/ );
-  self = (struct _VlGMM *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc((unsigned long int)1, sizeof(struct _VlGMM) /*128ul*/ );
+  self = (struct _VlGMM *)return_value_vl_calloc_1;
   self->dataType = dataType;
   self->numClusters = numComponents;
   self->numData = (unsigned long long int)0;
@@ -13883,9 +13883,9 @@ extern struct _VlGMM * vl_gmm_new(unsigned int dataType, unsigned long long int 
   self->priors=vl_calloc(numComponents, size);
   self->means=vl_calloc(numComponents * dimension, size);
   self->covariances=vl_calloc(numComponents * dimension, size);
-  void *return_value_vl_calloc$2;
-  return_value_vl_calloc$2=vl_calloc(dimension, sizeof(double) /*8ul*/ );
-  self->sigmaLowBound = (double *)return_value_vl_calloc$2;
+  void *return_value_vl_calloc_2;
+  return_value_vl_calloc_2=vl_calloc(dimension, sizeof(double) /*8ul*/ );
+  self->sigmaLowBound = (double *)return_value_vl_calloc_2;
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)(unsigned int)self->dimension); i = i + 1ll)
     self->sigmaLowBound[i] = 1e-4;
@@ -13897,7 +13897,7 @@ extern struct _VlGMM * vl_gmm_new(unsigned int dataType, unsigned long long int 
 extern struct _VlGMM * vl_gmm_new_copy(const struct _VlGMM *self)
 {
   unsigned long long int size;
-  size=vl_get_type_size$link1(self->dataType);
+  size=vl_get_type_size_link1(self->dataType);
   struct _VlGMM *gmm;
   gmm=vl_gmm_new(self->dataType, self->dimension, self->numClusters);
   gmm->initialization = self->initialization;
@@ -13955,9 +13955,9 @@ extern void vl_gmm_set_covariance_lower_bounds(struct _VlGMM *self, const double
 // file vl/gmm.c line 1686
 extern void vl_gmm_set_covariances(struct _VlGMM *self, const void *covariances)
 {
-  unsigned long long int return_value_vl_get_type_size$1;
-  return_value_vl_get_type_size$1=vl_get_type_size$link1(self->dataType);
-  memcpy(self->covariances, covariances, self->dimension * self->numClusters * return_value_vl_get_type_size$1);
+  unsigned long long int return_value_vl_get_type_size_1;
+  return_value_vl_get_type_size_1=vl_get_type_size_link1(self->dataType);
+  memcpy(self->covariances, covariances, self->dimension * self->numClusters * return_value_vl_get_type_size_1);
 }
 
 // vl_gmm_set_initialization
@@ -13993,9 +13993,9 @@ extern void vl_gmm_set_max_num_iterations(struct _VlGMM *self, unsigned long lon
 // file vl/gmm.c line 1675
 extern void vl_gmm_set_means(struct _VlGMM *self, const void *means)
 {
-  unsigned long long int return_value_vl_get_type_size$1;
-  return_value_vl_get_type_size$1=vl_get_type_size$link1(self->dataType);
-  memcpy(self->means, means, self->dimension * self->numClusters * return_value_vl_get_type_size$1);
+  unsigned long long int return_value_vl_get_type_size_1;
+  return_value_vl_get_type_size_1=vl_get_type_size_link1(self->dataType);
+  memcpy(self->means, means, self->dimension * self->numClusters * return_value_vl_get_type_size_1);
 }
 
 // vl_gmm_set_num_repetitions
@@ -14009,9 +14009,9 @@ extern void vl_gmm_set_num_repetitions(struct _VlGMM *self, unsigned long long i
 // file vl/gmm.c line 1697
 extern void vl_gmm_set_priors(struct _VlGMM *self, const void *priors)
 {
-  unsigned long long int return_value_vl_get_type_size$1;
-  return_value_vl_get_type_size$1=vl_get_type_size$link1(self->dataType);
-  memcpy(self->priors, priors, self->numClusters * return_value_vl_get_type_size$1);
+  unsigned long long int return_value_vl_get_type_size_1;
+  return_value_vl_get_type_size_1=vl_get_type_size_link1(self->dataType);
+  memcpy(self->priors, priors, self->numClusters * return_value_vl_get_type_size_1);
 }
 
 // vl_gmm_set_verbosity
@@ -14043,9 +14043,9 @@ static inline unsigned long long int vl_heap_parent(unsigned long long int index
 // file vl/heap-def.h line 213
 static inline unsigned long long int vl_heap_right_child(unsigned long long int index)
 {
-  unsigned long long int return_value_vl_heap_left_child$1;
-  return_value_vl_heap_left_child$1=vl_heap_left_child(index);
-  return return_value_vl_heap_left_child$1 + (unsigned long int)1;
+  unsigned long long int return_value_vl_heap_left_child_1;
+  return_value_vl_heap_left_child_1=vl_heap_left_child(index);
+  return return_value_vl_heap_left_child_1 + (unsigned long int)1;
 }
 
 // vl_hikm_copy_subset
@@ -14061,9 +14061,9 @@ unsigned char * vl_hikm_copy_subset(const unsigned char *data, unsigned int *ids
 
   *N2 = count;
   unsigned char *new_data;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(unsigned char) /*1ul*/  * M * count);
-  new_data = (unsigned char *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(unsigned char) /*1ul*/  * M * count);
+  new_data = (unsigned char *)return_value_vl_malloc_1;
   count = (unsigned long long int)0;
   i = (unsigned long long int)0;
   for( ; !(i >= N); i = i + 1ull)
@@ -14147,9 +14147,9 @@ extern void vl_hikm_init(struct _VlHIKMTree *f, unsigned long long int M, unsign
 extern struct _VlHIKMTree * vl_hikm_new(signed int method)
 {
   struct _VlHIKMTree *f;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(sizeof(struct _VlHIKMTree) /*48ul*/ , (unsigned long int)1);
-  f = (struct _VlHIKMTree *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(sizeof(struct _VlHIKMTree) /*48ul*/ , (unsigned long int)1);
+  f = (struct _VlHIKMTree *)return_value_vl_calloc_1;
   f->max_niters = (unsigned long long int)200;
   f->method = method;
   return f;
@@ -14202,13 +14202,13 @@ extern void vl_hikm_set_verbosity(struct _VlHIKMTree *f, signed int verb)
 // file vl/hikmeans.c line 238
 extern void vl_hikm_train(struct _VlHIKMTree *f, const unsigned char *data, unsigned long long int N)
 {
-  unsigned long long int tmp_if_expr$1;
+  unsigned long long int tmp_if_expr_1;
   if(!(f->K >= N))
-    tmp_if_expr$1 = f->K;
+    tmp_if_expr_1 = f->K;
 
   else
-    tmp_if_expr$1 = N;
-  f->root=xmeans(f, data, N, tmp_if_expr$1, f->depth);
+    tmp_if_expr_1 = N;
+  f->root=xmeans(f, data, N, tmp_if_expr_1, f->depth);
 }
 
 // vl_hog_delete
@@ -14279,14 +14279,14 @@ extern void vl_hog_extract(struct VlHog_ *self, float *features)
       iter = iter + 1l;
     }
   }
-  const float *vl_hog_extract$$1$$2$$iter = self->hog;
+  const float *vl_hog_extract__1__2__iter = self->hog;
   y = (signed long long int)0;
-  signed long long int tmp_if_expr$1;
-  signed long long int tmp_if_expr$2;
-  float return_value_sqrtf$11;
-  float return_value_sqrtf$12;
-  float return_value_sqrtf$13;
-  float return_value_sqrtf$14;
+  signed long long int tmp_if_expr_1;
+  signed long long int tmp_if_expr_2;
+  float return_value_sqrtf_11;
+  float return_value_sqrtf_12;
+  float return_value_sqrtf_13;
+  float return_value_sqrtf_14;
   for( ; !(y >= (signed long int)(signed int)self->hogHeight); y = y + 1ll)
   {
     x = (signed long long int)0;
@@ -14295,19 +14295,19 @@ extern void vl_hog_extract(struct VlHog_ *self, float *features)
       signed long long int xm = x - (signed long int)1 > (signed long int)0 ? x - (signed long int)1 : (signed long int)0;
       signed long long int xp;
       if(!(1l + x >= (signed long int)((signed int)self->hogWidth + -1)))
-        tmp_if_expr$1 = x + (signed long int)1;
+        tmp_if_expr_1 = x + (signed long int)1;
 
       else
-        tmp_if_expr$1 = (signed long int)((signed int)self->hogWidth - 1);
-      xp = tmp_if_expr$1;
+        tmp_if_expr_1 = (signed long int)((signed int)self->hogWidth - 1);
+      xp = tmp_if_expr_1;
       signed long long int ym = y - (signed long int)1 > (signed long int)0 ? y - (signed long int)1 : (signed long int)0;
       signed long long int yp;
       if(!(1l + y >= (signed long int)((signed int)self->hogHeight + -1)))
-        tmp_if_expr$2 = y + (signed long int)1;
+        tmp_if_expr_2 = y + (signed long int)1;
 
       else
-        tmp_if_expr$2 = (signed long int)((signed int)self->hogHeight - 1);
-      yp = tmp_if_expr$2;
+        tmp_if_expr_2 = (signed long int)((signed int)self->hogHeight - 1);
+      yp = tmp_if_expr_2;
       double norm1 = (double)self->hogNorm[(signed long int)((unsigned long int)xm + (unsigned long int)ym * self->hogWidth)];
       double norm2 = (double)self->hogNorm[(signed long int)((unsigned long int)x + (unsigned long int)ym * self->hogWidth)];
       double norm3 = (double)self->hogNorm[(signed long int)((unsigned long int)xp + (unsigned long int)ym * self->hogWidth)];
@@ -14328,40 +14328,40 @@ extern void vl_hog_extract(struct VlHog_ *self, float *features)
       float *oiter = features + x + (signed long int)(self->hogWidth * (unsigned long int)y);
       if(!(self->transposed == 0))
       {
-        double return_value_sqrt$3;
-        return_value_sqrt$3=sqrt(norm1 + norm2 + norm4 + norm5 + 1e-4);
-        factor1 = 1.0 / return_value_sqrt$3;
-        double return_value_sqrt$4;
-        return_value_sqrt$4=sqrt(norm2 + norm3 + norm5 + norm6 + 1e-4);
-        factor3 = 1.0 / return_value_sqrt$4;
-        double return_value_sqrt$5;
-        return_value_sqrt$5=sqrt(norm4 + norm5 + norm7 + norm8 + 1e-4);
-        factor2 = 1.0 / return_value_sqrt$5;
-        double return_value_sqrt$6;
-        return_value_sqrt$6=sqrt(norm5 + norm6 + norm8 + norm9 + 1e-4);
-        factor4 = 1.0 / return_value_sqrt$6;
+        double return_value_sqrt_3;
+        return_value_sqrt_3=sqrt(norm1 + norm2 + norm4 + norm5 + 1e-4);
+        factor1 = 1.0 / return_value_sqrt_3;
+        double return_value_sqrt_4;
+        return_value_sqrt_4=sqrt(norm2 + norm3 + norm5 + norm6 + 1e-4);
+        factor3 = 1.0 / return_value_sqrt_4;
+        double return_value_sqrt_5;
+        return_value_sqrt_5=sqrt(norm4 + norm5 + norm7 + norm8 + 1e-4);
+        factor2 = 1.0 / return_value_sqrt_5;
+        double return_value_sqrt_6;
+        return_value_sqrt_6=sqrt(norm5 + norm6 + norm8 + norm9 + 1e-4);
+        factor4 = 1.0 / return_value_sqrt_6;
       }
 
       else
       {
-        double return_value_sqrt$7;
-        return_value_sqrt$7=sqrt(norm1 + norm2 + norm4 + norm5 + 1e-4);
-        factor1 = 1.0 / return_value_sqrt$7;
-        double return_value_sqrt$8;
-        return_value_sqrt$8=sqrt(norm2 + norm3 + norm5 + norm6 + 1e-4);
-        factor2 = 1.0 / return_value_sqrt$8;
-        double return_value_sqrt$9;
-        return_value_sqrt$9=sqrt(norm4 + norm5 + norm7 + norm8 + 1e-4);
-        factor3 = 1.0 / return_value_sqrt$9;
-        double return_value_sqrt$10;
-        return_value_sqrt$10=sqrt(norm5 + norm6 + norm8 + norm9 + 1e-4);
-        factor4 = 1.0 / return_value_sqrt$10;
+        double return_value_sqrt_7;
+        return_value_sqrt_7=sqrt(norm1 + norm2 + norm4 + norm5 + 1e-4);
+        factor1 = 1.0 / return_value_sqrt_7;
+        double return_value_sqrt_8;
+        return_value_sqrt_8=sqrt(norm2 + norm3 + norm5 + norm6 + 1e-4);
+        factor2 = 1.0 / return_value_sqrt_8;
+        double return_value_sqrt_9;
+        return_value_sqrt_9=sqrt(norm4 + norm5 + norm7 + norm8 + 1e-4);
+        factor3 = 1.0 / return_value_sqrt_9;
+        double return_value_sqrt_10;
+        return_value_sqrt_10=sqrt(norm5 + norm6 + norm8 + norm9 + 1e-4);
+        factor4 = 1.0 / return_value_sqrt_10;
       }
       k = (unsigned long long int)0;
       for( ; !(k >= self->numOrientations); k = k + 1ull)
       {
-        double ha = (double)vl_hog_extract$$1$$2$$iter[(signed long int)(hogStride * k)];
-        double hb = (double)vl_hog_extract$$1$$2$$iter[(signed long int)(hogStride * (k + self->numOrientations))];
+        double ha = (double)vl_hog_extract__1__2__iter[(signed long int)(hogStride * k)];
+        double hb = (double)vl_hog_extract__1__2__iter[(signed long int)(hogStride * (k + self->numOrientations))];
         double hc;
         double ha1 = factor1 * ha;
         double ha2 = factor2 * ha;
@@ -14418,24 +14418,24 @@ extern void vl_hog_extract(struct VlHog_ *self, float *features)
         case VlHogVariantUoctti:
         {
           oiter = oiter + (signed long int)((unsigned long int)2 * hogStride * self->numOrientations);
-          return_value_sqrtf$11=sqrtf(18.0f);
-          *oiter = (float)((double)(1.0f / return_value_sqrtf$11) * t1);
+          return_value_sqrtf_11=sqrtf(18.0f);
+          *oiter = (float)((double)(1.0f / return_value_sqrtf_11) * t1);
           oiter = oiter + (signed long int)hogStride;
-          return_value_sqrtf$12=sqrtf(18.0f);
-          *oiter = (float)((double)(1.0f / return_value_sqrtf$12) * t2);
+          return_value_sqrtf_12=sqrtf(18.0f);
+          *oiter = (float)((double)(1.0f / return_value_sqrtf_12) * t2);
           oiter = oiter + (signed long int)hogStride;
-          return_value_sqrtf$13=sqrtf(18.0f);
-          *oiter = (float)((double)(1.0f / return_value_sqrtf$13) * t3);
+          return_value_sqrtf_13=sqrtf(18.0f);
+          *oiter = (float)((double)(1.0f / return_value_sqrtf_13) * t3);
           oiter = oiter + (signed long int)hogStride;
-          return_value_sqrtf$14=sqrtf(18.0f);
-          *oiter = (float)((double)(1.0f / return_value_sqrtf$14) * t4);
+          return_value_sqrtf_14=sqrtf(18.0f);
+          *oiter = (float)((double)(1.0f / return_value_sqrtf_14) * t4);
           oiter = oiter + (signed long int)hogStride;
           break;
         }
         case VlHogVariantDalalTriggs:
           ;
       }
-      vl_hog_extract$$1$$2$$iter = vl_hog_extract$$1$$2$$iter + 1l;
+      vl_hog_extract__1__2__iter = vl_hog_extract__1__2__iter + 1l;
     }
   }
 }
@@ -14489,42 +14489,42 @@ extern struct VlHog_ * vl_hog_new(enum VlHogVariant_ variant, unsigned long long
   signed long long int o;
   signed long long int k;
   struct VlHog_ *self;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc((unsigned long int)1, sizeof(struct VlHog_) /*104ul*/ );
-  self = (struct VlHog_ *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc((unsigned long int)1, sizeof(struct VlHog_) /*104ul*/ );
+  self = (struct VlHog_ *)return_value_vl_calloc_1;
   self->variant = variant;
   self->numOrientations = numOrientations;
   self->glyphSize = (unsigned long long int)21;
   self->transposed = transposed;
   self->useBilinearOrientationAssigment = 0;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(float) /*4ul*/  * self->numOrientations);
-  self->orientationX = (float *)return_value_vl_malloc$2;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(float) /*4ul*/  * self->numOrientations);
-  self->orientationY = (float *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(float) /*4ul*/  * self->numOrientations);
+  self->orientationX = (float *)return_value_vl_malloc_2;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(float) /*4ul*/  * self->numOrientations);
+  self->orientationY = (float *)return_value_vl_malloc_3;
   o = (signed long long int)0;
   for( ; !(o >= (signed long int)(signed int)self->numOrientations); o = o + 1ll)
   {
     double angle = ((double)o * 3.141592653589793) / (double)self->numOrientations;
     if(self->transposed == 0)
     {
-      double return_value_cos$4;
-      return_value_cos$4=cos(angle);
-      self->orientationX[o] = (float)return_value_cos$4;
-      double return_value_sin$5;
-      return_value_sin$5=sin(angle);
-      self->orientationY[o] = (float)return_value_sin$5;
+      double return_value_cos_4;
+      return_value_cos_4=cos(angle);
+      self->orientationX[o] = (float)return_value_cos_4;
+      double return_value_sin_5;
+      return_value_sin_5=sin(angle);
+      self->orientationY[o] = (float)return_value_sin_5;
     }
 
     else
     {
-      double return_value_sin$6;
-      return_value_sin$6=sin(angle);
-      self->orientationX[o] = (float)return_value_sin$6;
-      double return_value_cos$7;
-      return_value_cos$7=cos(angle);
-      self->orientationY[o] = (float)return_value_cos$7;
+      double return_value_sin_6;
+      return_value_sin_6=sin(angle);
+      self->orientationX[o] = (float)return_value_sin_6;
+      double return_value_cos_7;
+      return_value_cos_7=cos(angle);
+      self->orientationY[o] = (float)return_value_cos_7;
     }
   }
   switch((signed int)self->variant)
@@ -14537,10 +14537,10 @@ extern struct VlHog_ * vl_hog_new(enum VlHogVariant_ variant, unsigned long long
     case VlHogVariantDalalTriggs:
       self->dimension = (unsigned long int)4 * self->numOrientations;
   }
-  void *return_value_vl_malloc$8;
-  return_value_vl_malloc$8=vl_malloc(self->dimension * sizeof(signed long long int) /*8ul*/ );
-  self->permutation = (signed long long int *)return_value_vl_malloc$8;
-  void *return_value_vl_calloc$9;
+  void *return_value_vl_malloc_8;
+  return_value_vl_malloc_8=vl_malloc(self->dimension * sizeof(signed long long int) /*8ul*/ );
+  self->permutation = (signed long long int *)return_value_vl_malloc_8;
+  void *return_value_vl_calloc_9;
   switch((signed int)self->variant)
   {
     case VlHogVariantUoctti:
@@ -14568,14 +14568,14 @@ extern struct VlHog_ * vl_hog_new(enum VlHogVariant_ variant, unsigned long long
       k = (signed long long int)0;
       for( ; !(k >= 4l); k = k + 1ll)
       {
-        signed long long int vl_hog_new$$1$$3$$3$$1$$blockx = k % (signed long int)2;
-        signed long long int vl_hog_new$$1$$3$$3$$1$$blocky = k / (signed long int)2;
-        signed long long int vl_hog_new$$1$$3$$3$$1$$q = ((signed long int)1 - vl_hog_new$$1$$3$$3$$1$$blockx) + vl_hog_new$$1$$3$$3$$1$$blocky * (signed long int)2;
+        signed long long int vl_hog_new__1__3__3__1__blockx = k % (signed long int)2;
+        signed long long int vl_hog_new__1__3__3__1__blocky = k / (signed long int)2;
+        signed long long int vl_hog_new__1__3__3__1__q = ((signed long int)1 - vl_hog_new__1__3__3__1__blockx) + vl_hog_new__1__3__3__1__blocky * (signed long int)2;
         o = (signed long long int)0;
         for( ; !(o >= (signed long int)(signed int)self->numOrientations); o = o + 1ll)
         {
-          signed long long int vl_hog_new$$1$$3$$3$$1$$1$$1$$op = (signed long long int)(self->numOrientations - (unsigned long int)o);
-          self->permutation[(signed long int)((unsigned long int)o + (unsigned long int)k * self->numOrientations)] = (signed long long int)((unsigned long int)vl_hog_new$$1$$3$$3$$1$$1$$1$$op % self->numOrientations + (unsigned long int)vl_hog_new$$1$$3$$3$$1$$q * self->numOrientations);
+          signed long long int vl_hog_new__1__3__3__1__1__1__op = (signed long long int)(self->numOrientations - (unsigned long int)o);
+          self->permutation[(signed long int)((unsigned long int)o + (unsigned long int)k * self->numOrientations)] = (signed long long int)((unsigned long int)vl_hog_new__1__3__3__1__1__1__op % self->numOrientations + (unsigned long int)vl_hog_new__1__3__3__1__q * self->numOrientations);
         }
       }
     }
@@ -14584,37 +14584,37 @@ extern struct VlHog_ * vl_hog_new(enum VlHogVariant_ variant, unsigned long long
 
     __CPROVER_DUMP_L17:
       ;
-      return_value_vl_calloc$9=vl_calloc(self->glyphSize * self->glyphSize * self->numOrientations, sizeof(float) /*4ul*/ );
-      self->glyphs = (float *)return_value_vl_calloc$9;
+      return_value_vl_calloc_9=vl_calloc(self->glyphSize * self->glyphSize * self->numOrientations, sizeof(float) /*4ul*/ );
+      self->glyphs = (float *)return_value_vl_calloc_9;
       o = (signed long long int)0;
       for( ; !(o >= (signed long int)(signed int)self->numOrientations); o = o + 1ll)
       {
-        double vl_hog_new$$1$$4$$1$$angle;
-        vl_hog_new$$1$$4$$1$$angle=fmod(((double)o * 3.141592653589793) / (double)self->numOrientations + 3.141592653589793 / (double)2, 3.141592653589793);
+        double vl_hog_new__1__4__1__angle;
+        vl_hog_new__1__4__1__angle=fmod(((double)o * 3.141592653589793) / (double)self->numOrientations + 3.141592653589793 / (double)2, 3.141592653589793);
         double x2;
-        double return_value_cos$10;
-        return_value_cos$10=cos(vl_hog_new$$1$$4$$1$$angle);
-        x2 = ((double)self->glyphSize * return_value_cos$10) / (double)2;
+        double return_value_cos_10;
+        return_value_cos_10=cos(vl_hog_new__1__4__1__angle);
+        x2 = ((double)self->glyphSize * return_value_cos_10) / (double)2;
         double y2;
-        double return_value_sin$11;
-        return_value_sin$11=sin(vl_hog_new$$1$$4$$1$$angle);
-        y2 = ((double)self->glyphSize * return_value_sin$11) / (double)2;
-        if(vl_hog_new$$1$$4$$1$$angle <= 3.141592653589793 / 4.000000 || vl_hog_new$$1$$4$$1$$angle >= 9.424778e+0 / 4.000000)
+        double return_value_sin_11;
+        return_value_sin_11=sin(vl_hog_new__1__4__1__angle);
+        y2 = ((double)self->glyphSize * return_value_sin_11) / (double)2;
+        if(vl_hog_new__1__4__1__angle <= 3.141592653589793 / 4.000000 || vl_hog_new__1__4__1__angle >= 9.424778e+0 / 4.000000)
         {
-          double vl_hog_new$$1$$4$$1$$1$$slope = y2 / x2;
-          double offset = (((double)1 - vl_hog_new$$1$$4$$1$$1$$slope) * (double)(self->glyphSize - (unsigned long int)1)) / (double)2;
+          double vl_hog_new__1__4__1__1__slope = y2 / x2;
+          double offset = (((double)1 - vl_hog_new__1__4__1__1__slope) * (double)(self->glyphSize - (unsigned long int)1)) / (double)2;
           signed long long int skip;
-          double return_value_cos$12;
-          return_value_cos$12=cos(vl_hog_new$$1$$4$$1$$angle);
-          double return_value_fabs$13;
-          return_value_fabs$13=fabs(return_value_cos$12);
-          skip = (signed long long int)((((double)1 - return_value_fabs$13) / (double)2) * (double)self->glyphSize);
+          double return_value_cos_12;
+          return_value_cos_12=cos(vl_hog_new__1__4__1__angle);
+          double return_value_fabs_13;
+          return_value_fabs_13=fabs(return_value_cos_12);
+          skip = (signed long long int)((((double)1 - return_value_fabs_13) / (double)2) * (double)self->glyphSize);
           signed long long int i;
           signed long long int j;
           i = skip;
           for( ; !(i >= (signed long int)(signed int)self->glyphSize + -skip); i = i + 1ll)
           {
-            j=vl_round_d(vl_hog_new$$1$$4$$1$$1$$slope * (double)i + offset);
+            j=vl_round_d(vl_hog_new__1__4__1__1__slope * (double)i + offset);
             if(self->transposed == 0)
               self->glyphs[(signed long int)((unsigned long int)i + self->glyphSize * (unsigned long int)j + self->glyphSize * self->glyphSize * (unsigned long int)o)] = (float)1;
 
@@ -14626,21 +14626,21 @@ extern struct VlHog_ * vl_hog_new(enum VlHogVariant_ variant, unsigned long long
         else
         {
           double slope = x2 / y2;
-          double vl_hog_new$$1$$4$$1$$2$$offset = (((double)1 - slope) * (double)(self->glyphSize - (unsigned long int)1)) / (double)2;
-          signed long long int vl_hog_new$$1$$4$$1$$2$$skip;
-          double return_value_sin$14;
-          return_value_sin$14=sin(vl_hog_new$$1$$4$$1$$angle);
-          vl_hog_new$$1$$4$$1$$2$$skip = (signed long long int)((((double)1 - return_value_sin$14) / (double)2) * (double)self->glyphSize);
-          signed long long int vl_hog_new$$1$$4$$1$$2$$i;
-          signed long long int vl_hog_new$$1$$4$$1$$2$$j = vl_hog_new$$1$$4$$1$$2$$skip;
-          for( ; !(vl_hog_new$$1$$4$$1$$2$$j >= (signed long int)(signed int)self->glyphSize + -vl_hog_new$$1$$4$$1$$2$$skip); vl_hog_new$$1$$4$$1$$2$$j = vl_hog_new$$1$$4$$1$$2$$j + 1ll)
+          double vl_hog_new__1__4__1__2__offset = (((double)1 - slope) * (double)(self->glyphSize - (unsigned long int)1)) / (double)2;
+          signed long long int vl_hog_new__1__4__1__2__skip;
+          double return_value_sin_14;
+          return_value_sin_14=sin(vl_hog_new__1__4__1__angle);
+          vl_hog_new__1__4__1__2__skip = (signed long long int)((((double)1 - return_value_sin_14) / (double)2) * (double)self->glyphSize);
+          signed long long int vl_hog_new__1__4__1__2__i;
+          signed long long int vl_hog_new__1__4__1__2__j = vl_hog_new__1__4__1__2__skip;
+          for( ; !(vl_hog_new__1__4__1__2__j >= (signed long int)(signed int)self->glyphSize + -vl_hog_new__1__4__1__2__skip); vl_hog_new__1__4__1__2__j = vl_hog_new__1__4__1__2__j + 1ll)
           {
-            vl_hog_new$$1$$4$$1$$2$$i=vl_round_d(slope * (double)vl_hog_new$$1$$4$$1$$2$$j + vl_hog_new$$1$$4$$1$$2$$offset);
+            vl_hog_new__1__4__1__2__i=vl_round_d(slope * (double)vl_hog_new__1__4__1__2__j + vl_hog_new__1__4__1__2__offset);
             if(self->transposed == 0)
-              self->glyphs[(signed long int)((unsigned long int)vl_hog_new$$1$$4$$1$$2$$i + self->glyphSize * (unsigned long int)vl_hog_new$$1$$4$$1$$2$$j + self->glyphSize * self->glyphSize * (unsigned long int)o)] = (float)1;
+              self->glyphs[(signed long int)((unsigned long int)vl_hog_new__1__4__1__2__i + self->glyphSize * (unsigned long int)vl_hog_new__1__4__1__2__j + self->glyphSize * self->glyphSize * (unsigned long int)o)] = (float)1;
 
             else
-              self->glyphs[(signed long int)((unsigned long int)vl_hog_new$$1$$4$$1$$2$$j + self->glyphSize * (unsigned long int)vl_hog_new$$1$$4$$1$$2$$i + self->glyphSize * self->glyphSize * (unsigned long int)o)] = (float)1;
+              self->glyphs[(signed long int)((unsigned long int)vl_hog_new__1__4__1__2__j + self->glyphSize * (unsigned long int)vl_hog_new__1__4__1__2__i + self->glyphSize * self->glyphSize * (unsigned long int)o)] = (float)1;
           }
         }
       }
@@ -14684,12 +14684,12 @@ static void vl_hog_prepare_buffers(struct VlHog_ *self, unsigned long long int w
       self->hogNorm = (float *)(void *)0;
     }
 
-    void *return_value_vl_calloc$1;
-    return_value_vl_calloc$1=vl_calloc(hogWidth * hogHeight * self->numOrientations * (unsigned long int)2, sizeof(float) /*4ul*/ );
-    self->hog = (float *)return_value_vl_calloc$1;
-    void *return_value_vl_calloc$2;
-    return_value_vl_calloc$2=vl_calloc(hogWidth * hogHeight, sizeof(float) /*4ul*/ );
-    self->hogNorm = (float *)return_value_vl_calloc$2;
+    void *return_value_vl_calloc_1;
+    return_value_vl_calloc_1=vl_calloc(hogWidth * hogHeight * self->numOrientations * (unsigned long int)2, sizeof(float) /*4ul*/ );
+    self->hog = (float *)return_value_vl_calloc_1;
+    void *return_value_vl_calloc_2;
+    return_value_vl_calloc_2=vl_calloc(hogWidth * hogHeight, sizeof(float) /*4ul*/ );
+    self->hogNorm = (float *)return_value_vl_calloc_2;
     self->hogWidth = hogWidth;
     self->hogHeight = hogHeight;
   }
@@ -14707,7 +14707,7 @@ extern void vl_hog_put_image(struct VlHog_ *self, const float *image, unsigned l
   vl_hog_prepare_buffers(self, width, height, cellSize);
   hogStride = self->hogWidth * self->hogHeight;
   y = (signed long long int)1;
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   for( ; !(y >= (signed long int)((signed int)height + -1)); y = y + 1ll)
   {
     x = (signed long long int)1;
@@ -14777,11 +14777,11 @@ extern void vl_hog_put_image(struct VlHog_ *self, const float *image, unsigned l
       {
         float angle0;
         if((double)orientationWeights[0l] / ((double)gradNorm > 1e-10 ? (double)gradNorm : 1e-10) < 1.0)
-          tmp_if_expr$1 = (double)orientationWeights[(signed long int)0] / ((double)gradNorm > 1e-10 ? (double)gradNorm : 1e-10);
+          tmp_if_expr_1 = (double)orientationWeights[(signed long int)0] / ((double)gradNorm > 1e-10 ? (double)gradNorm : 1e-10);
 
         else
-          tmp_if_expr$1 = 1.0;
-        angle0=acosf((float)tmp_if_expr$1);
+          tmp_if_expr_1 = 1.0;
+        angle0=acosf((float)tmp_if_expr_1);
         orientationWeights[(signed long int)1] = (float)((double)angle0 / (3.141592653589793 / (double)self->numOrientations));
         orientationWeights[(signed long int)0] = (float)1 - orientationWeights[(signed long int)1];
       }
@@ -14800,8 +14800,8 @@ extern void vl_hog_put_image(struct VlHog_ *self, const float *image, unsigned l
         {
           hx = (float)(((double)x + 0.5) / (double)cellSize - 0.5);
           hy = (float)(((double)y + 0.5) / (double)cellSize - 0.5);
-          binx=vl_floor_f$link1(hx);
-          biny=vl_floor_f$link1(hy);
+          binx=vl_floor_f_link1(hx);
+          biny=vl_floor_f_link1(hy);
           wx2 = hx - (float)binx;
           wy2 = hy - (float)biny;
           wx1 = (float)(1.0 - (double)wx2);
@@ -14851,8 +14851,8 @@ extern void vl_hog_put_polar_field(struct VlHog_ *self, const float *modulus, co
   vl_hog_prepare_buffers(self, width, height, cellSize);
   hogStride = self->hogWidth * self->hogHeight;
   y = (signed long long int)0;
-  const float *tmp_post$1;
-  const float *tmp_post$2;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
   for( ; !(y >= (signed long int)(signed int)height); y = y + 1ll)
   {
     x = (signed long long int)0;
@@ -14874,17 +14874,17 @@ extern void vl_hog_put_polar_field(struct VlHog_ *self, const float *modulus, co
       signed long long int orientationBins[2l] = { (signed long long int)-1, (signed long long int)-1 };
       signed long long int orientation = (signed long long int)0;
       float thisAngle;
-      tmp_post$1 = angle;
+      tmp_post_1 = angle;
       angle = angle + 1l;
-      thisAngle = *tmp_post$1;
+      thisAngle = *tmp_post_1;
       float thisModulus;
-      tmp_post$2 = modulus;
+      tmp_post_2 = modulus;
       modulus = modulus + 1l;
-      thisModulus = *tmp_post$2;
+      thisModulus = *tmp_post_2;
       if(!(thisModulus <= 0.0f))
       {
         ho = (float)((double)(float)thisAngle / angleStep);
-        bino=vl_floor_f$link1(ho);
+        bino=vl_floor_f_link1(ho);
         wo2 = ho - (float)bino;
         wo1 = 1.0f - wo2;
         for( ; !(bino >= 0l); bino = bino + (signed long long int)(self->numOrientations * (unsigned long int)2))
@@ -14911,8 +14911,8 @@ extern void vl_hog_put_polar_field(struct VlHog_ *self, const float *modulus, co
           {
             hx = (float)(((double)x + 0.5) / (double)cellSize - 0.5);
             hy = (float)(((double)y + 0.5) / (double)cellSize - 0.5);
-            binx=vl_floor_f$link1(hx);
-            biny=vl_floor_f$link1(hy);
+            binx=vl_floor_f_link1(hx);
+            biny=vl_floor_f_link1(hy);
             wx2 = hx - (float)binx;
             wy2 = hy - (float)biny;
             wx1 = (float)(1.0 - (double)wx2);
@@ -14965,9 +14965,9 @@ extern void vl_hog_render(const struct VlHog_ *self, float *image, const float *
   signed long long int cy;
   unsigned long long int hogStride = width * height;
   y = (signed long long int)0;
-  float *tmp_post$1;
-  const float *tmp_post$2;
-  float *tmp_post$3;
+  float *tmp_post_1;
+  const float *tmp_post_2;
+  float *tmp_post_3;
   for( ; !(y >= (signed long int)(signed int)height); y = y + 1ll)
   {
     x = (signed long long int)0;
@@ -15004,28 +15004,28 @@ extern void vl_hog_render(const struct VlHog_ *self, float *image, const float *
           cx = (signed long long int)0;
           for( ; !(cx >= (signed long int)(signed int)self->glyphSize); cx = cx + 1ll)
           {
-            tmp_post$1 = glyphImage;
+            tmp_post_1 = glyphImage;
             glyphImage = glyphImage + 1l;
-            tmp_post$2 = glyph;
+            tmp_post_2 = glyph;
             glyph = glyph + 1l;
-            *tmp_post$1 = *tmp_post$1 + weight * *tmp_post$2;
+            *tmp_post_1 = *tmp_post_1 + weight * *tmp_post_2;
           }
           glyphImage = glyphImage + (signed long int)((width - (unsigned long int)1) * self->glyphSize);
         }
       }
-      float *vl_hog_render$$1$$1$$1$$1$$1$$2$$glyphImage = image + (signed long int)(self->glyphSize * (unsigned long int)x) + (signed long int)((unsigned long int)y * width * self->glyphSize * self->glyphSize);
+      float *vl_hog_render__1__1__1__1__1__2__glyphImage = image + (signed long int)(self->glyphSize * (unsigned long int)x) + (signed long int)((unsigned long int)y * width * self->glyphSize * self->glyphSize);
       cy = (signed long long int)0;
       for( ; !(cy >= (signed long int)(signed int)self->glyphSize); cy = cy + 1ll)
       {
         cx = (signed long long int)0;
         for( ; !(cx >= (signed long int)(signed int)self->glyphSize); cx = cx + 1ll)
         {
-          float value = *vl_hog_render$$1$$1$$1$$1$$1$$2$$glyphImage;
-          tmp_post$3 = vl_hog_render$$1$$1$$1$$1$$1$$2$$glyphImage;
-          vl_hog_render$$1$$1$$1$$1$$1$$2$$glyphImage = vl_hog_render$$1$$1$$1$$1$$1$$2$$glyphImage + 1l;
-          *tmp_post$3 = minWeight > (maxWeight < value ? maxWeight : value) ? minWeight : (maxWeight < value ? maxWeight : value);
+          float value = *vl_hog_render__1__1__1__1__1__2__glyphImage;
+          tmp_post_3 = vl_hog_render__1__1__1__1__1__2__glyphImage;
+          vl_hog_render__1__1__1__1__1__2__glyphImage = vl_hog_render__1__1__1__1__1__2__glyphImage + 1l;
+          *tmp_post_3 = minWeight > (maxWeight < value ? maxWeight : value) ? minWeight : (maxWeight < value ? maxWeight : value);
         }
-        vl_hog_render$$1$$1$$1$$1$$1$$2$$glyphImage = vl_hog_render$$1$$1$$1$$1$$1$$2$$glyphImage + (signed long int)((width - (unsigned long int)1) * self->glyphSize);
+        vl_hog_render__1__1__1__1__1__2__glyphImage = vl_hog_render__1__1__1__1__1__2__glyphImage + (signed long int)((width - (unsigned long int)1) * self->glyphSize);
       }
       descriptor = descriptor + 1l;
     }
@@ -15059,21 +15059,21 @@ extern void vl_homogeneouskernelmap_evaluate_d(const struct _VlHomogeneousKernel
   double sign = mantissa >= 0.0 ? +1.0 : -1.0;
   mantissa = mantissa * (double)2 * sign;
   exponent = exponent - 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(IEEE_FLOAT_EQUAL(mantissa, 0.000000))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed long int)exponent <= self->minExponent ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed long int)exponent <= self->minExponent ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed long int)exponent >= self->maxExponent ? (_Bool)1 : (_Bool)0;
-  const double *tmp_post$3;
-  const double *tmp_post$4;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed long int)exponent >= self->maxExponent ? (_Bool)1 : (_Bool)0;
+  const double *tmp_post_3;
+  const double *tmp_post_4;
+  if(tmp_if_expr_2)
   {
     j = (unsigned int)0;
     for( ; !((unsigned long int)j >= 2ul * self->order + 1ul); j = j + 1u)
@@ -15097,12 +15097,12 @@ extern void vl_homogeneouskernelmap_evaluate_d(const struct _VlHomogeneousKernel
     j = (unsigned int)0;
     for( ; !((unsigned long int)j >= featureDimension); j = j + 1u)
     {
-      tmp_post$3 = v1;
+      tmp_post_3 = v1;
       v1 = v1 + 1l;
-      f1 = *tmp_post$3;
-      tmp_post$4 = v2;
+      f1 = *tmp_post_3;
+      tmp_post_4 = v2;
       v2 = v2 + 1l;
-      f2 = *tmp_post$4;
+      f2 = *tmp_post_4;
       *destination = (double)sign * ((f2 - f1) * (double)self->numSubdivisions * mantissa + f1);
       destination = destination + (signed long int)stride;
     }
@@ -15120,21 +15120,21 @@ extern void vl_homogeneouskernelmap_evaluate_f(const struct _VlHomogeneousKernel
   double sign = mantissa >= 0.0 ? +1.0 : -1.0;
   mantissa = mantissa * (double)2 * sign;
   exponent = exponent - 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(IEEE_FLOAT_EQUAL(mantissa, 0.000000))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed long int)exponent <= self->minExponent ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed long int)exponent <= self->minExponent ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed long int)exponent >= self->maxExponent ? (_Bool)1 : (_Bool)0;
-  const double *tmp_post$3;
-  const double *tmp_post$4;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed long int)exponent >= self->maxExponent ? (_Bool)1 : (_Bool)0;
+  const double *tmp_post_3;
+  const double *tmp_post_4;
+  if(tmp_if_expr_2)
   {
     j = (unsigned int)0;
     for( ; !((unsigned long int)j >= 2ul * self->order + 1ul); j = j + 1u)
@@ -15158,12 +15158,12 @@ extern void vl_homogeneouskernelmap_evaluate_f(const struct _VlHomogeneousKernel
     j = (unsigned int)0;
     for( ; !((unsigned long int)j >= featureDimension); j = j + 1u)
     {
-      tmp_post$3 = v1;
+      tmp_post_3 = v1;
       v1 = v1 + 1l;
-      f1 = *tmp_post$3;
-      tmp_post$4 = v2;
+      f1 = *tmp_post_3;
+      tmp_post_4 = v2;
       v2 = v2 + 1l;
-      f2 = *tmp_post$4;
+      f2 = *tmp_post_4;
       *destination = (float)((double)(float)sign * ((f2 - f1) * (double)self->numSubdivisions * mantissa + f1));
       destination = destination + (signed long int)stride;
     }
@@ -15179,7 +15179,7 @@ extern unsigned long long int vl_homogeneouskernelmap_get_dimension(const struct
 
 // vl_homogeneouskernelmap_get_kernel_type
 // file vl/homkermap.c line 476
-extern enum anonymous$3 vl_homogeneouskernelmap_get_kernel_type(const struct _VlHomogeneousKernelMap *self)
+extern enum anonymous_3 vl_homogeneouskernelmap_get_kernel_type(const struct _VlHomogeneousKernelMap *self)
 {
   return self->kernelType;
 }
@@ -15215,9 +15215,9 @@ static inline double vl_homogeneouskernelmap_get_smooth_spectrum(const struct _V
         double win;
         win=sinc((self->period / 2.0) * omegap);
         win = win * (self->period / (2.0 * 3.141592653589793));
-        double return_value_vl_homogeneouskernelmap_get_spectrum$1;
-        return_value_vl_homogeneouskernelmap_get_spectrum$1=vl_homogeneouskernelmap_get_spectrum(self, omegap + omega);
-        kappa_hat = kappa_hat + win * return_value_vl_homogeneouskernelmap_get_spectrum$1;
+        double return_value_vl_homogeneouskernelmap_get_spectrum_1;
+        return_value_vl_homogeneouskernelmap_get_spectrum_1=vl_homogeneouskernelmap_get_spectrum(self, omegap + omega);
+        kappa_hat = kappa_hat + win * return_value_vl_homogeneouskernelmap_get_spectrum_1;
       }
       kappa_hat = kappa_hat * domega;
       kappa_hat = kappa_hat > 0.0 ? kappa_hat : 0.0;
@@ -15233,27 +15233,27 @@ static inline double vl_homogeneouskernelmap_get_smooth_spectrum(const struct _V
 // file vl/homkermap.c line 240
 static inline double vl_homogeneouskernelmap_get_spectrum(const struct _VlHomogeneousKernelMap *self, double omega)
 {
-  double return_value_exp$1;
-  double return_value_exp$2;
-  double return_value_log$3;
-  double return_value_exp$4;
-  double return_value_exp$5;
+  double return_value_exp_1;
+  double return_value_exp_2;
+  double return_value_log_3;
+  double return_value_exp_4;
+  double return_value_exp_5;
   switch((signed int)self->kernelType)
   {
     case VlHomogeneousKernelIntersection:
       return (2.0 / 3.141592653589793) / ((double)1 + (double)4 * omega * omega);
     case VlHomogeneousKernelChi2:
     {
-      return_value_exp$1=exp(3.141592653589793 * omega);
-      return_value_exp$2=exp(-3.141592653589793 * omega);
-      return 2.0 / (return_value_exp$1 + return_value_exp$2);
+      return_value_exp_1=exp(3.141592653589793 * omega);
+      return_value_exp_2=exp(-3.141592653589793 * omega);
+      return 2.0 / (return_value_exp_1 + return_value_exp_2);
     }
     case VlHomogeneousKernelJS:
     {
-      return_value_log$3=log(4.0);
-      return_value_exp$4=exp(3.141592653589793 * omega);
-      return_value_exp$5=exp(-3.141592653589793 * omega);
-      return (((2.0 / return_value_log$3) * 2.0) / (return_value_exp$4 + return_value_exp$5)) / ((double)1 + (double)4 * omega * omega);
+      return_value_log_3=log(4.0);
+      return_value_exp_4=exp(3.141592653589793 * omega);
+      return_value_exp_5=exp(-3.141592653589793 * omega);
+      return (((2.0 / return_value_log_3) * 2.0) / (return_value_exp_4 + return_value_exp_5)) / ((double)1 + (double)4 * omega * omega);
     }
     default:
       abort();
@@ -15262,30 +15262,30 @@ static inline double vl_homogeneouskernelmap_get_spectrum(const struct _VlHomoge
 
 // vl_homogeneouskernelmap_get_window_type
 // file vl/homkermap.c line 488
-extern enum anonymous$4 vl_homogeneouskernelmap_get_window_type(const struct _VlHomogeneousKernelMap *self)
+extern enum anonymous_4 vl_homogeneouskernelmap_get_window_type(const struct _VlHomogeneousKernelMap *self)
 {
   return self->windowType;
 }
 
 // vl_homogeneouskernelmap_new
 // file vl/homkermap.c line 326
-extern struct _VlHomogeneousKernelMap * vl_homogeneouskernelmap_new(enum anonymous$3 kernelType, double gamma, unsigned long long int order, double period, enum anonymous$4 windowType)
+extern struct _VlHomogeneousKernelMap * vl_homogeneouskernelmap_new(enum anonymous_3 kernelType, double gamma, unsigned long long int order, double period, enum anonymous_4 windowType)
 {
   signed int tableWidth;
   signed int tableHeight;
   struct _VlHomogeneousKernelMap *self;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(struct _VlHomogeneousKernelMap) /*80ul*/ );
-  self = (struct _VlHomogeneousKernelMap *)return_value_vl_malloc$1;
-  double return_value_sqrt$2;
-  double return_value_sqrt$3;
-  double return_value_log$4;
-  double return_value_sqrt$5;
-  double return_value_sqrt$6;
-  double return_value_log$7;
-  double *tmp_post$10;
-  double *tmp_post$11;
-  double *tmp_post$13;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(struct _VlHomogeneousKernelMap) /*80ul*/ );
+  self = (struct _VlHomogeneousKernelMap *)return_value_vl_malloc_1;
+  double return_value_sqrt_2;
+  double return_value_sqrt_3;
+  double return_value_log_4;
+  double return_value_sqrt_5;
+  double return_value_sqrt_6;
+  double return_value_log_7;
+  double *tmp_post_10;
+  double *tmp_post_11;
+  double *tmp_post_13;
   if(self == ((struct _VlHomogeneousKernelMap *)NULL))
     return (struct _VlHomogeneousKernelMap *)(void *)0;
 
@@ -15301,20 +15301,20 @@ extern struct _VlHomogeneousKernelMap * vl_homogeneouskernelmap_new(enum anonymo
           {
             case VlHomogeneousKernelChi2:
             {
-              return_value_sqrt$2=sqrt((double)(order + (unsigned long int)0));
-              period = 5.86 * return_value_sqrt$2 + 3.65;
+              return_value_sqrt_2=sqrt((double)(order + (unsigned long int)0));
+              period = 5.86 * return_value_sqrt_2 + 3.65;
               break;
             }
             case VlHomogeneousKernelJS:
             {
-              return_value_sqrt$3=sqrt((double)(order + (unsigned long int)0));
-              period = 6.64 * return_value_sqrt$3 + 7.24;
+              return_value_sqrt_3=sqrt((double)(order + (unsigned long int)0));
+              period = 6.64 * return_value_sqrt_3 + 7.24;
               break;
             }
             case VlHomogeneousKernelIntersection:
             {
-              return_value_log$4=log((double)order + 0.8);
-              period = 2.38 * return_value_log$4 + 5.6;
+              return_value_log_4=log((double)order + 0.8);
+              period = 2.38 * return_value_log_4 + 5.6;
             }
           }
           break;
@@ -15332,20 +15332,20 @@ extern struct _VlHomogeneousKernelMap * vl_homogeneouskernelmap_new(enum anonymo
             break;
           }
 
-          return_value_sqrt$5=sqrt((double)order + 4.44);
-          period = 8.80 * return_value_sqrt$5 - 12.6;
+          return_value_sqrt_5=sqrt((double)order + 4.44);
+          period = 8.80 * return_value_sqrt_5 - 12.6;
           break;
 
         __CPROVER_DUMP_L9:
           ;
-          return_value_sqrt$6=sqrt((double)order + 1.00);
-          period = 9.63 * return_value_sqrt$6 - 2.93;
+          return_value_sqrt_6=sqrt((double)order + 1.00);
+          period = 9.63 * return_value_sqrt_6 - 2.93;
           break;
 
         __CPROVER_DUMP_L10:
           ;
-          return_value_log$7=log((double)order + 0.99);
-          period = 2.00 * return_value_log$7 + 3.52;
+          return_value_log_7=log((double)order + 0.99);
+          period = 2.00 * return_value_log_7 + 3.52;
         }
       }
       period = period > 1.0 ? period : 1.0;
@@ -15362,9 +15362,9 @@ extern struct _VlHomogeneousKernelMap * vl_homogeneouskernelmap_new(enum anonymo
     self->maxExponent = (signed long long int)8;
     tableHeight = (signed int)((unsigned long int)2 * self->order + (unsigned long int)1);
     tableWidth = (signed int)(self->numSubdivisions * (unsigned long int)((self->maxExponent - self->minExponent) + (signed long int)1));
-    void *return_value_vl_malloc$8;
-    return_value_vl_malloc$8=vl_malloc(sizeof(double) /*8ul*/  * ((unsigned long int)(tableHeight * tableWidth) + (unsigned long int)2 * ((unsigned long int)1 + self->order)));
-    self->table = (double *)return_value_vl_malloc$8;
+    void *return_value_vl_malloc_8;
+    return_value_vl_malloc_8=vl_malloc(sizeof(double) /*8ul*/  * ((unsigned long int)(tableHeight * tableWidth) + (unsigned long int)2 * ((unsigned long int)1 + self->order)));
+    self->table = (double *)return_value_vl_malloc_8;
     if(self->table == ((double *)NULL))
     {
       vl_free((void *)self);
@@ -15406,26 +15406,26 @@ extern struct _VlHomogeneousKernelMap * vl_homogeneouskernelmap_new(enum anonymo
           x=ldexp(mantissa, (signed int)exponent);
           xgamma=pow(x, self->gamma);
           Lxgamma = L * xgamma;
-          double return_value_log$9;
-          return_value_log$9=log(x);
-          Llogx = L * return_value_log$9;
-          tmp_post$10 = tablep;
+          double return_value_log_9;
+          return_value_log_9=log(x);
+          Llogx = L * return_value_log_9;
+          tmp_post_10 = tablep;
           tablep = tablep + 1l;
-          *tmp_post$10=sqrt(Lxgamma * kappa[(signed long int)0]);
+          *tmp_post_10=sqrt(Lxgamma * kappa[(signed long int)0]);
           j = (unsigned long long int)1;
           for( ; self->order >= j; j = j + 1ull)
           {
             sqrt2kappaLxgamma=sqrt(2.0 * Lxgamma * kappa[(signed long int)j]);
-            tmp_post$11 = tablep;
+            tmp_post_11 = tablep;
             tablep = tablep + 1l;
-            double return_value_cos$12;
-            return_value_cos$12=cos(freq[(signed long int)j] * Llogx);
-            *tmp_post$11 = sqrt2kappaLxgamma * return_value_cos$12;
-            tmp_post$13 = tablep;
+            double return_value_cos_12;
+            return_value_cos_12=cos(freq[(signed long int)j] * Llogx);
+            *tmp_post_11 = sqrt2kappaLxgamma * return_value_cos_12;
+            tmp_post_13 = tablep;
             tablep = tablep + 1l;
-            double return_value_sin$14;
-            return_value_sin$14=sin(freq[(signed long int)j] * Llogx);
-            *tmp_post$13 = sqrt2kappaLxgamma * return_value_sin$14;
+            double return_value_sin_14;
+            return_value_sin_14=sin(freq[(signed long int)j] * Llogx);
+            *tmp_post_13 = sqrt2kappaLxgamma * return_value_sin_14;
           }
           i = i + 1ull;
         }
@@ -15533,9 +15533,9 @@ static void vl_ikm_init_elkan(struct _VlIKMFilt *f)
   if(!(f->inter_dist == ((signed int *)NULL)))
     vl_free((void *)f->inter_dist);
 
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(signed int) /*4ul*/  * f->K * f->K);
-  f->inter_dist = (signed int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(signed int) /*4ul*/  * f->K * f->K);
+  f->inter_dist = (signed int *)return_value_vl_malloc_1;
   vl_ikm_elkan_update_inter_dist(f);
 }
 
@@ -15577,9 +15577,9 @@ extern void vl_ikm_init_rand(struct _VlIKMFilt *f, unsigned long long int M, uns
     i = (unsigned long long int)0;
     for( ; !(i >= M); i = i + 1ull)
     {
-      unsigned int return_value_vl_rand_uint32$1;
-      return_value_vl_rand_uint32$1=vl_rand_uint32(rand);
-      f->centers[(signed long int)(k * M + i)] = (signed int)return_value_vl_rand_uint32$1;
+      unsigned int return_value_vl_rand_uint32_1;
+      return_value_vl_rand_uint32_1=vl_rand_uint32(rand);
+      f->centers[(signed long int)(k * M + i)] = (signed int)return_value_vl_rand_uint32_1;
     }
   }
   vl_ikm_init_helper(f);
@@ -15594,20 +15594,20 @@ extern void vl_ikm_init_rand_data(struct _VlIKMFilt *f, const unsigned char *dat
   unsigned long long int k;
   struct _VlRand *rand;
   rand=vl_get_rand();
-  struct anonymous$5 *pairs;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(struct anonymous$5) /*16ul*/  * N);
-  pairs = (struct anonymous$5 *)return_value_vl_malloc$1;
+  struct anonymous_5 *pairs;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(struct anonymous_5) /*16ul*/  * N);
+  pairs = (struct anonymous_5 *)return_value_vl_malloc_1;
   alloc(f, M, K);
   j = (unsigned long long int)0;
   for( ; !(j >= N); j = j + 1ull)
   {
     (pairs + (signed long int)j)->j = (signed long long int)j;
-    unsigned int return_value_vl_rand_uint32$2;
-    return_value_vl_rand_uint32$2=vl_rand_uint32(rand);
-    (pairs + (signed long int)j)->w = (signed long long int)((signed int)return_value_vl_rand_uint32$2 >> 2);
+    unsigned int return_value_vl_rand_uint32_2;
+    return_value_vl_rand_uint32_2=vl_rand_uint32(rand);
+    (pairs + (signed long int)j)->w = (signed long long int)((signed int)return_value_vl_rand_uint32_2 >> 2);
   }
-  qsort((void *)pairs, N, sizeof(struct anonymous$5) /*16ul*/ , cmp_pair);
+  qsort((void *)pairs, N, sizeof(struct anonymous_5) /*16ul*/ , cmp_pair);
   j = (unsigned long long int)0;
   k = (unsigned long long int)0;
   for( ; !(k >= K); k = k + 1ull)
@@ -15644,9 +15644,9 @@ extern void vl_ikm_init_rand_data(struct _VlIKMFilt *f, const unsigned char *dat
 extern struct _VlIKMFilt * vl_ikm_new(signed int method)
 {
   struct _VlIKMFilt *f;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(sizeof(struct _VlIKMFilt) /*48ul*/ , (unsigned long int)1);
-  f = (struct _VlIKMFilt *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(sizeof(struct _VlIKMFilt) /*48ul*/ , (unsigned long int)1);
+  f = (struct _VlIKMFilt *)return_value_vl_calloc_1;
   f->method = method;
   f->max_niters = (unsigned long long int)200;
   return f;
@@ -15772,12 +15772,12 @@ extern signed int vl_ikm_train(struct _VlIKMFilt *f, const unsigned char *data, 
   signed int err;
   if(!(f->verb == 0))
   {
-    signed int (*return_value_vl_get_printf_func$1)(const char *, ...);
-    return_value_vl_get_printf_func$1=vl_get_printf_func();
-    return_value_vl_get_printf_func$1("ikm: training with %d data\n", N);
-    signed int (*return_value_vl_get_printf_func$2)(const char *, ...);
-    return_value_vl_get_printf_func$2=vl_get_printf_func();
-    return_value_vl_get_printf_func$2("ikm: %d clusters\n", f->K);
+    signed int (*return_value_vl_get_printf_func_1)(const char *, ...);
+    return_value_vl_get_printf_func_1=vl_get_printf_func();
+    return_value_vl_get_printf_func_1("ikm: training with %d data\n", N);
+    signed int (*return_value_vl_get_printf_func_2)(const char *, ...);
+    return_value_vl_get_printf_func_2=vl_get_printf_func();
+    return_value_vl_get_printf_func_2("ikm: %d clusters\n", f->K);
   }
 
   switch(f->method)
@@ -15807,38 +15807,38 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
   unsigned long long int c;
   unsigned long long int cp;
   unsigned long long int x;
-  unsigned long long int vl_ikm_train_elkan$$1$$cx;
+  unsigned long long int vl_ikm_train_elkan__1__cx;
   unsigned long long int dist_calc = (unsigned long long int)0;
-  signed int vl_ikm_train_elkan$$1$$dist;
+  signed int vl_ikm_train_elkan__1__dist;
   signed int *m_pt;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(signed int) /*4ul*/  * f->M * f->K);
-  m_pt = (signed int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(signed int) /*4ul*/  * f->M * f->K);
+  m_pt = (signed int *)return_value_vl_malloc_1;
   signed int *u_pt;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(signed int) /*4ul*/  * N);
-  u_pt = (signed int *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(signed int) /*4ul*/  * N);
+  u_pt = (signed int *)return_value_vl_malloc_2;
   char *r_pt;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(char) /*1ul*/  * (unsigned long int)1 * N);
-  r_pt = (char *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(char) /*1ul*/  * (unsigned long int)1 * N);
+  r_pt = (char *)return_value_vl_malloc_3;
   signed int *s_pt;
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(signed int) /*4ul*/  * f->K);
-  s_pt = (signed int *)return_value_vl_malloc$4;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(signed int) /*4ul*/  * f->K);
+  s_pt = (signed int *)return_value_vl_malloc_4;
   signed int *l_pt;
-  void *return_value_vl_malloc$5;
-  return_value_vl_malloc$5=vl_malloc(sizeof(signed int) /*4ul*/  * N * f->K);
-  l_pt = (signed int *)return_value_vl_malloc$5;
+  void *return_value_vl_malloc_5;
+  return_value_vl_malloc_5=vl_malloc(sizeof(signed int) /*4ul*/  * N * f->K);
+  l_pt = (signed int *)return_value_vl_malloc_5;
   signed int *d_pt = f->inter_dist;
   unsigned int *asgn;
-  void *return_value_vl_malloc$6;
-  return_value_vl_malloc$6=vl_malloc(sizeof(unsigned int) /*4ul*/  * N);
-  asgn = (unsigned int *)return_value_vl_malloc$6;
+  void *return_value_vl_malloc_6;
+  return_value_vl_malloc_6=vl_malloc(sizeof(unsigned int) /*4ul*/  * N);
+  asgn = (unsigned int *)return_value_vl_malloc_6;
   unsigned int *counts;
-  void *return_value_vl_malloc$7;
-  return_value_vl_malloc$7=vl_malloc(sizeof(unsigned int) /*4ul*/  * N);
-  counts = (unsigned int *)return_value_vl_malloc$7;
+  void *return_value_vl_malloc_7;
+  return_value_vl_malloc_7=vl_malloc(sizeof(unsigned int) /*4ul*/  * N);
+  counts = (unsigned int *)return_value_vl_malloc_7;
   signed int done = 0;
   vl_ikm_elkan_update_inter_dist(f);
   memset((void *)l_pt, 0, sizeof(signed int) /*4ul*/  * N * f->K);
@@ -15847,47 +15847,47 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
   x = (unsigned long long int)0;
   for( ; !(x >= N); x = x + 1ull)
   {
-    signed int vl_ikm_train_elkan$$1$$1$$1$$best_dist;
+    signed int vl_ikm_train_elkan__1__1__1__best_dist;
     dist_calc = dist_calc + 1ull;
-    vl_ikm_train_elkan$$1$$dist = 0;
+    vl_ikm_train_elkan__1__dist = 0;
     i = (unsigned long long int)0;
     for( ; !(i >= f->M); i = i + 1ull)
     {
-      signed int vl_ikm_train_elkan$$1$$1$$1$$1$$1$$delta = (signed int)data[(signed long int)(x * f->M + i)] - f->centers[(signed long int)i];
-      vl_ikm_train_elkan$$1$$dist = vl_ikm_train_elkan$$1$$dist + vl_ikm_train_elkan$$1$$1$$1$$1$$1$$delta * vl_ikm_train_elkan$$1$$1$$1$$1$$1$$delta;
+      signed int vl_ikm_train_elkan__1__1__1__1__1__delta = (signed int)data[(signed long int)(x * f->M + i)] - f->centers[(signed long int)i];
+      vl_ikm_train_elkan__1__dist = vl_ikm_train_elkan__1__dist + vl_ikm_train_elkan__1__1__1__1__1__delta * vl_ikm_train_elkan__1__1__1__1__1__delta;
     }
-    vl_ikm_train_elkan$$1$$cx = (unsigned long long int)0;
-    vl_ikm_train_elkan$$1$$1$$1$$best_dist = vl_ikm_train_elkan$$1$$dist;
-    l_pt[(signed long int)x] = vl_ikm_train_elkan$$1$$dist;
+    vl_ikm_train_elkan__1__cx = (unsigned long long int)0;
+    vl_ikm_train_elkan__1__1__1__best_dist = vl_ikm_train_elkan__1__dist;
+    l_pt[(signed long int)x] = vl_ikm_train_elkan__1__dist;
     c = (unsigned long long int)1;
     for( ; !(c >= f->K); c = c + 1ull)
-      if(!(d_pt[(signed long int)f->K * (signed long int)vl_ikm_train_elkan$$1$$cx + (signed long int)c] >= vl_ikm_train_elkan$$1$$1$$1$$best_dist))
+      if(!(d_pt[(signed long int)f->K * (signed long int)vl_ikm_train_elkan__1__cx + (signed long int)c] >= vl_ikm_train_elkan__1__1__1__best_dist))
       {
         dist_calc = dist_calc + 1ull;
-        vl_ikm_train_elkan$$1$$dist = 0;
+        vl_ikm_train_elkan__1__dist = 0;
         i = (unsigned long long int)0;
         for( ; !(i >= f->M); i = i + 1ull)
         {
-          signed int vl_ikm_train_elkan$$1$$1$$1$$2$$1$$1$$1$$1$$delta = (signed int)data[(signed long int)(x * f->M + i)] - f->centers[(signed long int)(c * f->M + i)];
-          vl_ikm_train_elkan$$1$$dist = vl_ikm_train_elkan$$1$$dist + vl_ikm_train_elkan$$1$$1$$1$$2$$1$$1$$1$$1$$delta * vl_ikm_train_elkan$$1$$1$$1$$2$$1$$1$$1$$1$$delta;
+          signed int vl_ikm_train_elkan__1__1__1__2__1__1__1__1__delta = (signed int)data[(signed long int)(x * f->M + i)] - f->centers[(signed long int)(c * f->M + i)];
+          vl_ikm_train_elkan__1__dist = vl_ikm_train_elkan__1__dist + vl_ikm_train_elkan__1__1__1__2__1__1__1__1__delta * vl_ikm_train_elkan__1__1__1__2__1__1__1__1__delta;
         }
-        l_pt[(signed long int)(N * c + x)] = vl_ikm_train_elkan$$1$$dist;
-        if(!(vl_ikm_train_elkan$$1$$dist >= vl_ikm_train_elkan$$1$$1$$1$$best_dist))
+        l_pt[(signed long int)(N * c + x)] = vl_ikm_train_elkan__1__dist;
+        if(!(vl_ikm_train_elkan__1__dist >= vl_ikm_train_elkan__1__1__1__best_dist))
         {
-          vl_ikm_train_elkan$$1$$1$$1$$best_dist = vl_ikm_train_elkan$$1$$dist;
-          vl_ikm_train_elkan$$1$$cx = c;
+          vl_ikm_train_elkan__1__1__1__best_dist = vl_ikm_train_elkan__1__dist;
+          vl_ikm_train_elkan__1__cx = c;
         }
 
       }
 
-    asgn[(signed long int)x] = (unsigned int)vl_ikm_train_elkan$$1$$cx;
-    u_pt[(signed long int)x] = vl_ikm_train_elkan$$1$$1$$1$$best_dist;
+    asgn[(signed long int)x] = (unsigned int)vl_ikm_train_elkan__1__cx;
+    u_pt[(signed long int)x] = vl_ikm_train_elkan__1__1__1__best_dist;
   }
   pass = (unsigned long long int)0;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
   for( ; (_Bool)1; pass = pass + 1ull)
   {
     memset((void *)m_pt, 0, sizeof(signed int) /*4ul*/  * f->M * f->K);
@@ -15895,11 +15895,11 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
     x = (unsigned long long int)0;
     for( ; !(x >= N); x = x + 1ull)
     {
-      signed int vl_ikm_train_elkan$$1$$2$$1$$1$$1$$cx = (signed int)asgn[(signed long int)x];
-      counts[(signed long int)vl_ikm_train_elkan$$1$$2$$1$$1$$1$$cx] = counts[(signed long int)vl_ikm_train_elkan$$1$$2$$1$$1$$1$$cx] + 1u;
+      signed int vl_ikm_train_elkan__1__2__1__1__1__cx = (signed int)asgn[(signed long int)x];
+      counts[(signed long int)vl_ikm_train_elkan__1__2__1__1__1__cx] = counts[(signed long int)vl_ikm_train_elkan__1__2__1__1__1__cx] + 1u;
       i = (unsigned long long int)0;
       for( ; !(i >= f->M); i = i + 1ull)
-        m_pt[(signed long int)((unsigned long int)vl_ikm_train_elkan$$1$$2$$1$$1$$1$$cx * f->M + i)] = m_pt[(signed long int)((unsigned long int)vl_ikm_train_elkan$$1$$2$$1$$1$$1$$cx * f->M + i)] + (signed int)data[(signed long int)(x * f->M + i)];
+        m_pt[(signed long int)((unsigned long int)vl_ikm_train_elkan__1__2__1__1__1__cx * f->M + i)] = m_pt[(signed long int)((unsigned long int)vl_ikm_train_elkan__1__2__1__1__1__cx * f->M + i)] + (signed int)data[(signed long int)(x * f->M + i)];
     }
     c = (unsigned long long int)0;
     for( ; !(c >= f->K); c = c + 1ull)
@@ -15923,26 +15923,26 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
     for( ; !(c >= f->K); c = c + 1ull)
     {
       dist_calc = dist_calc + 1ull;
-      vl_ikm_train_elkan$$1$$dist = 0;
+      vl_ikm_train_elkan__1__dist = 0;
       i = (unsigned long long int)0;
       for( ; !(i >= f->M); i = i + 1ull)
       {
-        signed int vl_ikm_train_elkan$$1$$2$$1$$3$$1$$1$$1$$delta = (signed int)m_pt[(signed long int)(c * f->M + i)] - f->centers[(signed long int)(c * f->M + i)];
+        signed int vl_ikm_train_elkan__1__2__1__3__1__1__1__delta = (signed int)m_pt[(signed long int)(c * f->M + i)] - f->centers[(signed long int)(c * f->M + i)];
         f->centers[(signed long int)(c * f->M + i)] = m_pt[(signed long int)(c * f->M + i)];
-        vl_ikm_train_elkan$$1$$dist = vl_ikm_train_elkan$$1$$dist + vl_ikm_train_elkan$$1$$2$$1$$3$$1$$1$$1$$delta * vl_ikm_train_elkan$$1$$2$$1$$3$$1$$1$$1$$delta;
+        vl_ikm_train_elkan__1__dist = vl_ikm_train_elkan__1__dist + vl_ikm_train_elkan__1__2__1__3__1__1__1__delta * vl_ikm_train_elkan__1__2__1__3__1__1__1__delta;
       }
       x = (unsigned long long int)0;
       for( ; !(x >= N); x = x + 1ull)
       {
         signed int lxc = l_pt[(signed long int)(c * N + x)];
         unsigned long long int cx = (unsigned long long int)(signed int)asgn[(signed long int)x];
-        if(!(vl_ikm_train_elkan$$1$$dist >= lxc))
+        if(!(vl_ikm_train_elkan__1__dist >= lxc))
         {
-          unsigned long long int return_value_vl_fast_sqrt_ui64$8;
-          return_value_vl_fast_sqrt_ui64$8=vl_fast_sqrt_ui64((unsigned long long int)lxc);
-          unsigned long long int return_value_vl_fast_sqrt_ui64$9;
-          return_value_vl_fast_sqrt_ui64$9=vl_fast_sqrt_ui64((unsigned long long int)vl_ikm_train_elkan$$1$$dist);
-          lxc = (signed int)((unsigned long int)(lxc + vl_ikm_train_elkan$$1$$dist) - (unsigned long int)2 * (return_value_vl_fast_sqrt_ui64$8 + (unsigned long int)1) * (return_value_vl_fast_sqrt_ui64$9 + (unsigned long int)1));
+          unsigned long long int return_value_vl_fast_sqrt_ui64_8;
+          return_value_vl_fast_sqrt_ui64_8=vl_fast_sqrt_ui64((unsigned long long int)lxc);
+          unsigned long long int return_value_vl_fast_sqrt_ui64_9;
+          return_value_vl_fast_sqrt_ui64_9=vl_fast_sqrt_ui64((unsigned long long int)vl_ikm_train_elkan__1__dist);
+          lxc = (signed int)((unsigned long int)(lxc + vl_ikm_train_elkan__1__dist) - (unsigned long int)2 * (return_value_vl_fast_sqrt_ui64_8 + (unsigned long int)1) * (return_value_vl_fast_sqrt_ui64_9 + (unsigned long int)1));
         }
 
         else
@@ -15951,11 +15951,11 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
         if(c == cx)
         {
           signed int ux = u_pt[(signed long int)x];
-          unsigned long long int return_value_vl_fast_sqrt_ui64$10;
-          return_value_vl_fast_sqrt_ui64$10=vl_fast_sqrt_ui64((unsigned long long int)ux);
-          unsigned long long int return_value_vl_fast_sqrt_ui64$11;
-          return_value_vl_fast_sqrt_ui64$11=vl_fast_sqrt_ui64((unsigned long long int)vl_ikm_train_elkan$$1$$dist);
-          u_pt[(signed long int)x] = (signed int)((unsigned long int)(ux + vl_ikm_train_elkan$$1$$dist) + (unsigned long int)2 * (return_value_vl_fast_sqrt_ui64$10 + (unsigned long int)1) * (return_value_vl_fast_sqrt_ui64$11 + (unsigned long int)1));
+          unsigned long long int return_value_vl_fast_sqrt_ui64_10;
+          return_value_vl_fast_sqrt_ui64_10=vl_fast_sqrt_ui64((unsigned long long int)ux);
+          unsigned long long int return_value_vl_fast_sqrt_ui64_11;
+          return_value_vl_fast_sqrt_ui64_11=vl_fast_sqrt_ui64((unsigned long long int)vl_ikm_train_elkan__1__dist);
+          u_pt[(signed long int)x] = (signed int)((unsigned long int)(ux + vl_ikm_train_elkan__1__dist) + (unsigned long int)2 * (return_value_vl_fast_sqrt_ui64_10 + (unsigned long int)1) * (return_value_vl_fast_sqrt_ui64_11 + (unsigned long int)1));
           r_pt[(signed long int)x] = (char)1;
         }
 
@@ -15967,7 +15967,7 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
       cp = (unsigned long long int)0;
       for( ; !(cp >= f->K); cp = cp + 1ull)
       {
-        vl_ikm_train_elkan$$1$$dist = 0;
+        vl_ikm_train_elkan__1__dist = 0;
         if(!(c == cp))
         {
           dist_calc = dist_calc + 1ull;
@@ -15975,11 +15975,11 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
           for( ; !(i >= f->M); i = i + 1ull)
           {
             signed int delta = f->centers[(signed long int)(cp * f->M + i)] - f->centers[(signed long int)(c * f->M + i)];
-            vl_ikm_train_elkan$$1$$dist = vl_ikm_train_elkan$$1$$dist + delta * delta;
+            vl_ikm_train_elkan__1__dist = vl_ikm_train_elkan__1__dist + delta * delta;
           }
         }
 
-        d_pt[(signed long int)(cp * f->K + c)] = vl_ikm_train_elkan$$1$$dist >> 2;
+        d_pt[(signed long int)(cp * f->K + c)] = vl_ikm_train_elkan__1__dist >> 2;
         d_pt[(signed long int)(c * f->K + cp)] = d_pt[(signed long int)(cp * f->K + c)];
       }
     }
@@ -15990,9 +15990,9 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
       cp = (unsigned long long int)0;
       for( ; !(cp >= f->K); cp = cp + 1ull)
       {
-        vl_ikm_train_elkan$$1$$dist = d_pt[(signed long int)(c * f->K + cp)];
-        if(!(c == cp) && !(vl_ikm_train_elkan$$1$$dist >= best_dist))
-          best_dist = vl_ikm_train_elkan$$1$$dist;
+        vl_ikm_train_elkan__1__dist = d_pt[(signed long int)(c * f->K + cp)];
+        if(!(c == cp) && !(vl_ikm_train_elkan__1__dist >= best_dist))
+          best_dist = vl_ikm_train_elkan__1__dist;
 
       }
       s_pt[(signed long int)c] = best_dist >> 2;
@@ -16001,25 +16001,25 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
     x = (unsigned long long int)0;
     for( ; !(x >= N); x = x + 1ull)
     {
-      unsigned long long int vl_ikm_train_elkan$$1$$2$$1$$6$$1$$cx = (unsigned long long int)asgn[(signed long int)x];
-      signed int vl_ikm_train_elkan$$1$$2$$1$$6$$1$$ux = u_pt[(signed long int)x];
-      if(!(s_pt[(signed long int)vl_ikm_train_elkan$$1$$2$$1$$6$$1$$cx] >= vl_ikm_train_elkan$$1$$2$$1$$6$$1$$ux))
+      unsigned long long int vl_ikm_train_elkan__1__2__1__6__1__cx = (unsigned long long int)asgn[(signed long int)x];
+      signed int vl_ikm_train_elkan__1__2__1__6__1__ux = u_pt[(signed long int)x];
+      if(!(s_pt[(signed long int)vl_ikm_train_elkan__1__2__1__6__1__cx] >= vl_ikm_train_elkan__1__2__1__6__1__ux))
       {
         c = (unsigned long long int)0;
         for( ; !(c >= f->K); c = c + 1ull)
         {
           signed int dist = 0;
-          if(c == vl_ikm_train_elkan$$1$$2$$1$$6$$1$$cx)
-            tmp_if_expr$12 = (_Bool)1;
+          if(c == vl_ikm_train_elkan__1__2__1__6__1__cx)
+            tmp_if_expr_12 = (_Bool)1;
 
           else
-            tmp_if_expr$12 = vl_ikm_train_elkan$$1$$2$$1$$6$$1$$ux <= l_pt[(signed long int)(N * c + x)] ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$12)
-            tmp_if_expr$13 = (_Bool)1;
+            tmp_if_expr_12 = vl_ikm_train_elkan__1__2__1__6__1__ux <= l_pt[(signed long int)(N * c + x)] ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_12)
+            tmp_if_expr_13 = (_Bool)1;
 
           else
-            tmp_if_expr$13 = vl_ikm_train_elkan$$1$$2$$1$$6$$1$$ux <= d_pt[(signed long int)(f->K * c + vl_ikm_train_elkan$$1$$2$$1$$6$$1$$cx)] ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$13)
+            tmp_if_expr_13 = vl_ikm_train_elkan__1__2__1__6__1__ux <= d_pt[(signed long int)(f->K * c + vl_ikm_train_elkan__1__2__1__6__1__cx)] ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_13)
           {
             if(!(r_pt[(signed long int)x] == 0))
             {
@@ -16028,18 +16028,18 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
               i = (unsigned long long int)0;
               for( ; !(i >= f->M); i = i + 1ull)
               {
-                signed int vl_ikm_train_elkan$$1$$2$$1$$6$$1$$1$$1$$1$$1$$1$$delta = (signed int)data[(signed long int)(x * f->M + i)] - f->centers[(signed long int)(vl_ikm_train_elkan$$1$$2$$1$$6$$1$$cx * f->M + i)];
-                dist = dist + vl_ikm_train_elkan$$1$$2$$1$$6$$1$$1$$1$$1$$1$$1$$delta * vl_ikm_train_elkan$$1$$2$$1$$6$$1$$1$$1$$1$$1$$1$$delta;
+                signed int vl_ikm_train_elkan__1__2__1__6__1__1__1__1__1__1__delta = (signed int)data[(signed long int)(x * f->M + i)] - f->centers[(signed long int)(vl_ikm_train_elkan__1__2__1__6__1__cx * f->M + i)];
+                dist = dist + vl_ikm_train_elkan__1__2__1__6__1__1__1__1__1__1__delta * vl_ikm_train_elkan__1__2__1__6__1__1__1__1__1__1__delta;
               }
               u_pt[(signed long int)x] = dist;
-              vl_ikm_train_elkan$$1$$2$$1$$6$$1$$ux = u_pt[(signed long int)x];
+              vl_ikm_train_elkan__1__2__1__6__1__ux = u_pt[(signed long int)x];
               r_pt[(signed long int)x] = (char)0;
-              if(l_pt[(signed long int)c * (signed long int)N + (signed long int)x] >= vl_ikm_train_elkan$$1$$2$$1$$6$$1$$ux)
-                tmp_if_expr$14 = (_Bool)1;
+              if(l_pt[(signed long int)c * (signed long int)N + (signed long int)x] >= vl_ikm_train_elkan__1__2__1__6__1__ux)
+                tmp_if_expr_14 = (_Bool)1;
 
               else
-                tmp_if_expr$14 = vl_ikm_train_elkan$$1$$2$$1$$6$$1$$ux <= d_pt[(signed long int)(f->K * c + vl_ikm_train_elkan$$1$$2$$1$$6$$1$$cx)] ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$14)
+                tmp_if_expr_14 = vl_ikm_train_elkan__1__2__1__6__1__ux <= d_pt[(signed long int)(f->K * c + vl_ikm_train_elkan__1__2__1__6__1__cx)] ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_14)
                 goto __CPROVER_DUMP_L58;
 
             }
@@ -16049,14 +16049,14 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
             i = (unsigned long long int)0;
             for( ; !(i >= f->M); i = i + 1ull)
             {
-              signed int vl_ikm_train_elkan$$1$$2$$1$$6$$1$$1$$1$$2$$1$$delta = (signed int)data[(signed long int)(x * f->M + i)] - f->centers[(signed long int)(c * f->M + i)];
-              dist = dist + vl_ikm_train_elkan$$1$$2$$1$$6$$1$$1$$1$$2$$1$$delta * vl_ikm_train_elkan$$1$$2$$1$$6$$1$$1$$1$$2$$1$$delta;
+              signed int vl_ikm_train_elkan__1__2__1__6__1__1__1__2__1__delta = (signed int)data[(signed long int)(x * f->M + i)] - f->centers[(signed long int)(c * f->M + i)];
+              dist = dist + vl_ikm_train_elkan__1__2__1__6__1__1__1__2__1__delta * vl_ikm_train_elkan__1__2__1__6__1__1__1__2__1__delta;
             }
             l_pt[(signed long int)(N * c + x)] = dist;
-            if(!(dist >= vl_ikm_train_elkan$$1$$2$$1$$6$$1$$ux))
+            if(!(dist >= vl_ikm_train_elkan__1__2__1__6__1__ux))
             {
               u_pt[(signed long int)x] = dist;
-              vl_ikm_train_elkan$$1$$2$$1$$6$$1$$ux = u_pt[(signed long int)x];
+              vl_ikm_train_elkan__1__2__1__6__1__ux = u_pt[(signed long int)x];
               asgn[(signed long int)x] = (unsigned int)c;
               done = 0;
             }
@@ -16071,11 +16071,11 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
 
     }
     if(!(done == 0))
-      tmp_if_expr$15 = (_Bool)1;
+      tmp_if_expr_15 = (_Bool)1;
 
     else
-      tmp_if_expr$15 = pass == f->max_niters ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$15)
+      tmp_if_expr_15 = pass == f->max_niters ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_15)
       break;
 
   }
@@ -16088,12 +16088,12 @@ static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *
   vl_free((void *)m_pt);
   if(!(f->verb == 0))
   {
-    signed int (*return_value_vl_get_printf_func$16)(const char *, ...);
-    return_value_vl_get_printf_func$16=vl_get_printf_func();
-    return_value_vl_get_printf_func$16("ikm: Elkan algorithm: total iterations: %d\n", pass);
-    signed int (*return_value_vl_get_printf_func$17)(const char *, ...);
-    return_value_vl_get_printf_func$17=vl_get_printf_func();
-    return_value_vl_get_printf_func$17("ikm: Elkan algorithm: distance calculations: %d (speedup: %.2f)\n", dist_calc, ((float)N * (float)f->K * (float)(pass + (unsigned long int)2)) / (float)dist_calc - (float)1);
+    signed int (*return_value_vl_get_printf_func_16)(const char *, ...);
+    return_value_vl_get_printf_func_16=vl_get_printf_func();
+    return_value_vl_get_printf_func_16("ikm: Elkan algorithm: total iterations: %d\n", pass);
+    signed int (*return_value_vl_get_printf_func_17)(const char *, ...);
+    return_value_vl_get_printf_func_17=vl_get_printf_func();
+    return_value_vl_get_printf_func_17("ikm: Elkan algorithm: distance calculations: %d (speedup: %.2f)\n", dist_calc, ((float)N * (float)f->K * (float)(pass + (unsigned long int)2)) / (float)dist_calc - (float)1);
   }
 
   return 0;
@@ -16109,15 +16109,15 @@ static signed int vl_ikm_train_lloyd(struct _VlIKMFilt *f, const unsigned char *
   unsigned long long int j;
   unsigned long long int k;
   unsigned int *asgn;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(unsigned int) /*4ul*/  * N);
-  asgn = (unsigned int *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(unsigned int) /*4ul*/  * N);
+  asgn = (unsigned int *)return_value_vl_malloc_1;
   unsigned int *counts;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(unsigned int) /*4ul*/  * N);
-  counts = (unsigned int *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(unsigned int) /*4ul*/  * N);
+  counts = (unsigned int *)return_value_vl_malloc_2;
   iter = (unsigned long long int)0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   for( ; (_Bool)1; iter = iter + 1ull)
   {
     signed int done = 1;
@@ -16151,11 +16151,11 @@ static signed int vl_ikm_train_lloyd(struct _VlIKMFilt *f, const unsigned char *
 
     }
     if(!(done == 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = iter == f->max_niters ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = iter == f->max_niters ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       break;
 
     memset((void *)f->centers, 0, sizeof(signed int) /*4ul*/  * f->M * f->K);
@@ -16197,21 +16197,21 @@ extern void vl_image_distance_transform_d(const double *image, unsigned long lon
   unsigned long long int x;
   unsigned long long int y;
   double *from;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(double) /*8ul*/  * (numColumns + (unsigned long int)1));
-  from = (double *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(double) /*8ul*/  * (numColumns + (unsigned long int)1));
+  from = (double *)return_value_vl_malloc_1;
   double *base;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(double) /*8ul*/  * numColumns);
-  base = (double *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(double) /*8ul*/  * numColumns);
+  base = (double *)return_value_vl_malloc_2;
   unsigned long long int *baseIndexes;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numColumns);
-  baseIndexes = (unsigned long long int *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numColumns);
+  baseIndexes = (unsigned long long int *)return_value_vl_malloc_3;
   unsigned long long int *which;
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numColumns);
-  which = (unsigned long long int *)return_value_vl_malloc$4;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numColumns);
+  which = (unsigned long long int *)return_value_vl_malloc_4;
   unsigned long long int num = (unsigned long long int)0;
   y = (unsigned long long int)0;
   for( ; !(y >= numRows); y = y + 1ull)
@@ -16222,7 +16222,7 @@ extern void vl_image_distance_transform_d(const double *image, unsigned long lon
     {
       double r = image[(signed long int)(x * columnStride + y * rowStride)];
       double x2 = (double)(x * x);
-      double from_ = -vl_infinity_d$link5.value;
+      double from_ = -vl_infinity_d_link5.value;
       while(num >= 1ul)
       {
         unsigned long long int x_ = which[(signed long int)(num - (unsigned long int)1)];
@@ -16237,7 +16237,7 @@ extern void vl_image_distance_transform_d(const double *image, unsigned long lon
             inters = (((r - r_) + coeff * (x2 - x2_)) / (double)(x - x_)) / ((double)2 * coeff) + offset;
 
           else
-            inters = r < r_ ? -vl_infinity_d$link5.value : vl_infinity_d$link5.value;
+            inters = r < r_ ? -vl_infinity_d_link5.value : vl_infinity_d_link5.value;
         if(inters <= from[-1l + (signed long int)num])
           num = num - 1ull;
 
@@ -16255,7 +16255,7 @@ extern void vl_image_distance_transform_d(const double *image, unsigned long lon
 
       num = num + 1ull;
     }
-    from[(signed long int)num] = vl_infinity_d$link5.value;
+    from[(signed long int)num] = vl_infinity_d_link5.value;
     num = (unsigned long long int)0;
     x = (unsigned long long int)0;
     for( ; !(x >= numColumns); x = x + 1ull)
@@ -16283,21 +16283,21 @@ extern void vl_image_distance_transform_f(const float *image, unsigned long long
   unsigned long long int x;
   unsigned long long int y;
   float *from;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(float) /*4ul*/  * (numColumns + (unsigned long int)1));
-  from = (float *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(float) /*4ul*/  * (numColumns + (unsigned long int)1));
+  from = (float *)return_value_vl_malloc_1;
   float *base;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(float) /*4ul*/  * numColumns);
-  base = (float *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(float) /*4ul*/  * numColumns);
+  base = (float *)return_value_vl_malloc_2;
   unsigned long long int *baseIndexes;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numColumns);
-  baseIndexes = (unsigned long long int *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numColumns);
+  baseIndexes = (unsigned long long int *)return_value_vl_malloc_3;
   unsigned long long int *which;
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numColumns);
-  which = (unsigned long long int *)return_value_vl_malloc$4;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numColumns);
+  which = (unsigned long long int *)return_value_vl_malloc_4;
   unsigned long long int num = (unsigned long long int)0;
   y = (unsigned long long int)0;
   for( ; !(y >= numRows); y = y + 1ull)
@@ -16308,7 +16308,7 @@ extern void vl_image_distance_transform_f(const float *image, unsigned long long
     {
       float r = image[(signed long int)(x * columnStride + y * rowStride)];
       float x2 = (float)(x * x);
-      float from_ = -vl_infinity_f$link2.value;
+      float from_ = -vl_infinity_f_link2.value;
       while(num >= 1ul)
       {
         unsigned long long int x_ = which[(signed long int)(num - (unsigned long int)1)];
@@ -16323,7 +16323,7 @@ extern void vl_image_distance_transform_f(const float *image, unsigned long long
             inters = (((r - r_) + coeff * (x2 - x2_)) / (float)(x - x_)) / ((float)2 * coeff) + offset;
 
           else
-            inters = r < r_ ? -vl_infinity_f$link2.value : vl_infinity_f$link2.value;
+            inters = r < r_ ? -vl_infinity_f_link2.value : vl_infinity_f_link2.value;
         if(inters <= from[-1l + (signed long int)num])
           num = num - 1ull;
 
@@ -16341,7 +16341,7 @@ extern void vl_image_distance_transform_f(const float *image, unsigned long long
 
       num = num + 1ull;
     }
-    from[(signed long int)num] = vl_infinity_f$link2.value;
+    from[(signed long int)num] = vl_infinity_f_link2.value;
     num = (unsigned long long int)0;
     x = (unsigned long long int)0;
     for( ; !(x >= numColumns); x = x + 1ull)
@@ -16372,9 +16372,9 @@ extern void vl_imconvcol_vd(double *dst, unsigned long long int dst_stride, cons
   signed int transp = (signed int)(flags & (unsigned int)(0x1 << 2));
   signed int zeropad = (signed int)((flags & (unsigned int)0x3) == (unsigned int)(0x0 << 0));
   filt = filt + (filt_end - filt_begin);
-  const double *tmp_post$1;
-  const double *tmp_post$2;
-  const double *tmp_post$3;
+  const double *tmp_post_1;
+  const double *tmp_post_2;
+  const double *tmp_post_3;
   while(!(x >= (signed long int)(signed int)src_width))
   {
     const double *filti;
@@ -16398,9 +16398,9 @@ extern void vl_imconvcol_vd(double *dst, unsigned long long int dst_stride, cons
           v = src[x];
         for( ; !(filt + -stop >= filti); srci = srci + (signed long int)src_stride)
         {
-          tmp_post$1 = filti;
+          tmp_post_1 = filti;
           filti = filti - 1l;
-          c = *tmp_post$1;
+          c = *tmp_post_1;
           acc = acc + v * c;
         }
       }
@@ -16409,9 +16409,9 @@ extern void vl_imconvcol_vd(double *dst, unsigned long long int dst_stride, cons
       for( ; !(filt + -stop >= filti); srci = srci + (signed long int)src_stride)
       {
         v = *srci;
-        tmp_post$2 = filti;
+        tmp_post_2 = filti;
         filti = filti - 1l;
-        c = *tmp_post$2;
+        c = *tmp_post_2;
         acc = acc + v * c;
       }
       if(!(zeropad == 0))
@@ -16420,9 +16420,9 @@ extern void vl_imconvcol_vd(double *dst, unsigned long long int dst_stride, cons
       stop = (filt_end - filt_begin) + (signed long int)1;
       for( ; !(filt + -stop >= filti); acc = acc + v * c)
       {
-        tmp_post$3 = filti;
+        tmp_post_3 = filti;
         filti = filti - 1l;
-        c = *tmp_post$3;
+        c = *tmp_post_3;
       }
       if(!(transp == 0))
       {
@@ -16455,9 +16455,9 @@ extern void vl_imconvcol_vf(float *dst, unsigned long long int dst_stride, const
   signed int transp = (signed int)(flags & (unsigned int)(0x1 << 2));
   signed int zeropad = (signed int)((flags & (unsigned int)0x3) == (unsigned int)(0x0 << 0));
   filt = filt + (filt_end - filt_begin);
-  const float *tmp_post$1;
-  const float *tmp_post$2;
-  const float *tmp_post$3;
+  const float *tmp_post_1;
+  const float *tmp_post_2;
+  const float *tmp_post_3;
   while(!(x >= (signed long int)(signed int)src_width))
   {
     const float *filti;
@@ -16481,9 +16481,9 @@ extern void vl_imconvcol_vf(float *dst, unsigned long long int dst_stride, const
           v = src[x];
         for( ; !(filt + -stop >= filti); srci = srci + (signed long int)src_stride)
         {
-          tmp_post$1 = filti;
+          tmp_post_1 = filti;
           filti = filti - 1l;
-          c = *tmp_post$1;
+          c = *tmp_post_1;
           acc = acc + v * c;
         }
       }
@@ -16492,9 +16492,9 @@ extern void vl_imconvcol_vf(float *dst, unsigned long long int dst_stride, const
       for( ; !(filt + -stop >= filti); srci = srci + (signed long int)src_stride)
       {
         v = *srci;
-        tmp_post$2 = filti;
+        tmp_post_2 = filti;
         filti = filti - 1l;
-        c = *tmp_post$2;
+        c = *tmp_post_2;
         acc = acc + v * c;
       }
       if(!(zeropad == 0))
@@ -16503,9 +16503,9 @@ extern void vl_imconvcol_vf(float *dst, unsigned long long int dst_stride, const
       stop = (filt_end - filt_begin) + (signed long int)1;
       for( ; !(filt + -stop >= filti); acc = acc + v * c)
       {
-        tmp_post$3 = filti;
+        tmp_post_3 = filti;
         filti = filti - 1l;
-        c = *tmp_post$3;
+        c = *tmp_post_3;
       }
       if(!(transp == 0))
       {
@@ -16539,9 +16539,9 @@ extern void vl_imconvcoltri_d(double *dest, unsigned long long int destStride, c
   signed int zeropad = (signed int)((flags & (unsigned int)0x3) == (unsigned int)(0x0 << 0));
   double scale = (double)(1.0 / ((double)filterSize * (double)filterSize));
   double *buffer;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(double) /*8ul*/  * (imageHeight + filterSize));
-  buffer = (double *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(double) /*8ul*/  * (imageHeight + filterSize));
+  buffer = (double *)return_value_vl_malloc_1;
   buffer = buffer + (signed long int)filterSize;
   if(!(imageHeight == 0ul))
   {
@@ -16604,9 +16604,9 @@ extern void vl_imconvcoltri_f(float *dest, unsigned long long int destStride, co
   signed int zeropad = (signed int)((flags & (unsigned int)0x3) == (unsigned int)(0x0 << 0));
   float scale = (float)(1.0 / ((double)filterSize * (double)filterSize));
   float *buffer;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(float) /*4ul*/  * (imageHeight + filterSize));
-  buffer = (float *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(float) /*4ul*/  * (imageHeight + filterSize));
+  buffer = (float *)return_value_vl_malloc_1;
   buffer = buffer + (signed long int)filterSize;
   if(!(imageHeight == 0ul))
   {
@@ -16848,15 +16848,15 @@ extern void vl_imgradient_polar_d(double *gradientModulus, double *gradientAngle
   pgrad_ampl = gradientModulus;
   gx = src[+xo] - src[(signed long int)0];
   gy = src[+yo] - src[(signed long int)0];
-  float return_value_vl_fast_sqrt_f$1;
-  return_value_vl_fast_sqrt_f$1=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
-  *pgrad_ampl = (double)return_value_vl_fast_sqrt_f$1;
+  float return_value_vl_fast_sqrt_f_1;
+  return_value_vl_fast_sqrt_f_1=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
+  *pgrad_ampl = (double)return_value_vl_fast_sqrt_f_1;
   pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-  float return_value_vl_fast_atan2_f$2;
-  return_value_vl_fast_atan2_f$2=vl_fast_atan2_f((float)gy, (float)gx);
-  float return_value_vl_mod_2pi_f$3;
-  return_value_vl_mod_2pi_f$3=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$2 + (double)2 * 3.141592653589793));
-  *pgrad_angl = (double)return_value_vl_mod_2pi_f$3;
+  float return_value_vl_fast_atan2_f_2;
+  return_value_vl_fast_atan2_f_2=vl_fast_atan2_f((float)gy, (float)gx);
+  float return_value_vl_mod_2pi_f_3;
+  return_value_vl_mod_2pi_f_3=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_2 + (double)2 * 3.141592653589793));
+  *pgrad_angl = (double)return_value_vl_mod_2pi_f_3;
   pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
   src = src + 1l;
   end = ((src - (signed long int)1) + (signed long int)w) - (signed long int)1;
@@ -16864,29 +16864,29 @@ extern void vl_imgradient_polar_d(double *gradientModulus, double *gradientAngle
   {
     gx = 0.5 * (src[+xo] - src[-xo]);
     gy = src[+yo] - src[(signed long int)0];
-    float return_value_vl_fast_sqrt_f$4;
-    return_value_vl_fast_sqrt_f$4=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
-    *pgrad_ampl = (double)return_value_vl_fast_sqrt_f$4;
+    float return_value_vl_fast_sqrt_f_4;
+    return_value_vl_fast_sqrt_f_4=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
+    *pgrad_ampl = (double)return_value_vl_fast_sqrt_f_4;
     pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-    float return_value_vl_fast_atan2_f$5;
-    return_value_vl_fast_atan2_f$5=vl_fast_atan2_f((float)gy, (float)gx);
-    float return_value_vl_mod_2pi_f$6;
-    return_value_vl_mod_2pi_f$6=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$5 + (double)2 * 3.141592653589793));
-    *pgrad_angl = (double)return_value_vl_mod_2pi_f$6;
+    float return_value_vl_fast_atan2_f_5;
+    return_value_vl_fast_atan2_f_5=vl_fast_atan2_f((float)gy, (float)gx);
+    float return_value_vl_mod_2pi_f_6;
+    return_value_vl_mod_2pi_f_6=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_5 + (double)2 * 3.141592653589793));
+    *pgrad_angl = (double)return_value_vl_mod_2pi_f_6;
     pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
     src = src + 1l;
   }
   gx = src[(signed long int)0] - src[-xo];
   gy = src[+yo] - src[(signed long int)0];
-  float return_value_vl_fast_sqrt_f$7;
-  return_value_vl_fast_sqrt_f$7=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
-  *pgrad_ampl = (double)return_value_vl_fast_sqrt_f$7;
+  float return_value_vl_fast_sqrt_f_7;
+  return_value_vl_fast_sqrt_f_7=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
+  *pgrad_ampl = (double)return_value_vl_fast_sqrt_f_7;
   pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-  float return_value_vl_fast_atan2_f$8;
-  return_value_vl_fast_atan2_f$8=vl_fast_atan2_f((float)gy, (float)gx);
-  float return_value_vl_mod_2pi_f$9;
-  return_value_vl_mod_2pi_f$9=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$8 + (double)2 * 3.141592653589793));
-  *pgrad_angl = (double)return_value_vl_mod_2pi_f$9;
+  float return_value_vl_fast_atan2_f_8;
+  return_value_vl_fast_atan2_f_8=vl_fast_atan2_f((float)gy, (float)gx);
+  float return_value_vl_mod_2pi_f_9;
+  return_value_vl_mod_2pi_f_9=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_8 + (double)2 * 3.141592653589793));
+  *pgrad_angl = (double)return_value_vl_mod_2pi_f_9;
   pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
   src = src + 1l;
   gradientModulus = gradientModulus + (signed long int)gradHeightStride;
@@ -16900,15 +16900,15 @@ extern void vl_imgradient_polar_d(double *gradientModulus, double *gradientAngle
   {
     gx = src[+xo] - src[(signed long int)0];
     gy = 0.5 * (src[+yo] - src[-yo]);
-    float return_value_vl_fast_sqrt_f$10;
-    return_value_vl_fast_sqrt_f$10=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
-    *pgrad_ampl = (double)return_value_vl_fast_sqrt_f$10;
+    float return_value_vl_fast_sqrt_f_10;
+    return_value_vl_fast_sqrt_f_10=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
+    *pgrad_ampl = (double)return_value_vl_fast_sqrt_f_10;
     pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-    float return_value_vl_fast_atan2_f$11;
-    return_value_vl_fast_atan2_f$11=vl_fast_atan2_f((float)gy, (float)gx);
-    float return_value_vl_mod_2pi_f$12;
-    return_value_vl_mod_2pi_f$12=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$11 + (double)2 * 3.141592653589793));
-    *pgrad_angl = (double)return_value_vl_mod_2pi_f$12;
+    float return_value_vl_fast_atan2_f_11;
+    return_value_vl_fast_atan2_f_11=vl_fast_atan2_f((float)gy, (float)gx);
+    float return_value_vl_mod_2pi_f_12;
+    return_value_vl_mod_2pi_f_12=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_11 + (double)2 * 3.141592653589793));
+    *pgrad_angl = (double)return_value_vl_mod_2pi_f_12;
     pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
     src = src + 1l;
     end = ((src - (signed long int)1) + (signed long int)w) - (signed long int)1;
@@ -16916,29 +16916,29 @@ extern void vl_imgradient_polar_d(double *gradientModulus, double *gradientAngle
     {
       gx = 0.5 * (src[+xo] - src[-xo]);
       gy = 0.5 * (src[+yo] - src[-yo]);
-      float return_value_vl_fast_sqrt_f$13;
-      return_value_vl_fast_sqrt_f$13=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
-      *pgrad_ampl = (double)return_value_vl_fast_sqrt_f$13;
+      float return_value_vl_fast_sqrt_f_13;
+      return_value_vl_fast_sqrt_f_13=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
+      *pgrad_ampl = (double)return_value_vl_fast_sqrt_f_13;
       pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-      float return_value_vl_fast_atan2_f$14;
-      return_value_vl_fast_atan2_f$14=vl_fast_atan2_f((float)gy, (float)gx);
-      float return_value_vl_mod_2pi_f$15;
-      return_value_vl_mod_2pi_f$15=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$14 + (double)2 * 3.141592653589793));
-      *pgrad_angl = (double)return_value_vl_mod_2pi_f$15;
+      float return_value_vl_fast_atan2_f_14;
+      return_value_vl_fast_atan2_f_14=vl_fast_atan2_f((float)gy, (float)gx);
+      float return_value_vl_mod_2pi_f_15;
+      return_value_vl_mod_2pi_f_15=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_14 + (double)2 * 3.141592653589793));
+      *pgrad_angl = (double)return_value_vl_mod_2pi_f_15;
       pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
       src = src + 1l;
     }
     gx = src[(signed long int)0] - src[-xo];
     gy = 0.5 * (src[+yo] - src[-yo]);
-    float return_value_vl_fast_sqrt_f$16;
-    return_value_vl_fast_sqrt_f$16=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
-    *pgrad_ampl = (double)return_value_vl_fast_sqrt_f$16;
+    float return_value_vl_fast_sqrt_f_16;
+    return_value_vl_fast_sqrt_f_16=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
+    *pgrad_ampl = (double)return_value_vl_fast_sqrt_f_16;
     pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-    float return_value_vl_fast_atan2_f$17;
-    return_value_vl_fast_atan2_f$17=vl_fast_atan2_f((float)gy, (float)gx);
-    float return_value_vl_mod_2pi_f$18;
-    return_value_vl_mod_2pi_f$18=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$17 + (double)2 * 3.141592653589793));
-    *pgrad_angl = (double)return_value_vl_mod_2pi_f$18;
+    float return_value_vl_fast_atan2_f_17;
+    return_value_vl_fast_atan2_f_17=vl_fast_atan2_f((float)gy, (float)gx);
+    float return_value_vl_mod_2pi_f_18;
+    return_value_vl_mod_2pi_f_18=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_17 + (double)2 * 3.141592653589793));
+    *pgrad_angl = (double)return_value_vl_mod_2pi_f_18;
     pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
     src = src + 1l;
     gradientModulus = gradientModulus + (signed long int)gradHeightStride;
@@ -16950,15 +16950,15 @@ extern void vl_imgradient_polar_d(double *gradientModulus, double *gradientAngle
   }
   gx = src[+xo] - src[(signed long int)0];
   gy = src[(signed long int)0] - src[-yo];
-  float return_value_vl_fast_sqrt_f$19;
-  return_value_vl_fast_sqrt_f$19=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
-  *pgrad_ampl = (double)return_value_vl_fast_sqrt_f$19;
+  float return_value_vl_fast_sqrt_f_19;
+  return_value_vl_fast_sqrt_f_19=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
+  *pgrad_ampl = (double)return_value_vl_fast_sqrt_f_19;
   pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-  float return_value_vl_fast_atan2_f$20;
-  return_value_vl_fast_atan2_f$20=vl_fast_atan2_f((float)gy, (float)gx);
-  float return_value_vl_mod_2pi_f$21;
-  return_value_vl_mod_2pi_f$21=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$20 + (double)2 * 3.141592653589793));
-  *pgrad_angl = (double)return_value_vl_mod_2pi_f$21;
+  float return_value_vl_fast_atan2_f_20;
+  return_value_vl_fast_atan2_f_20=vl_fast_atan2_f((float)gy, (float)gx);
+  float return_value_vl_mod_2pi_f_21;
+  return_value_vl_mod_2pi_f_21=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_20 + (double)2 * 3.141592653589793));
+  *pgrad_angl = (double)return_value_vl_mod_2pi_f_21;
   pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
   src = src + 1l;
   end = ((src - (signed long int)1) + (signed long int)w) - (signed long int)1;
@@ -16966,29 +16966,29 @@ extern void vl_imgradient_polar_d(double *gradientModulus, double *gradientAngle
   {
     gx = 0.5 * (src[+xo] - src[-xo]);
     gy = src[(signed long int)0] - src[-yo];
-    float return_value_vl_fast_sqrt_f$22;
-    return_value_vl_fast_sqrt_f$22=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
-    *pgrad_ampl = (double)return_value_vl_fast_sqrt_f$22;
+    float return_value_vl_fast_sqrt_f_22;
+    return_value_vl_fast_sqrt_f_22=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
+    *pgrad_ampl = (double)return_value_vl_fast_sqrt_f_22;
     pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-    float return_value_vl_fast_atan2_f$23;
-    return_value_vl_fast_atan2_f$23=vl_fast_atan2_f((float)gy, (float)gx);
-    float return_value_vl_mod_2pi_f$24;
-    return_value_vl_mod_2pi_f$24=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$23 + (double)2 * 3.141592653589793));
-    *pgrad_angl = (double)return_value_vl_mod_2pi_f$24;
+    float return_value_vl_fast_atan2_f_23;
+    return_value_vl_fast_atan2_f_23=vl_fast_atan2_f((float)gy, (float)gx);
+    float return_value_vl_mod_2pi_f_24;
+    return_value_vl_mod_2pi_f_24=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_23 + (double)2 * 3.141592653589793));
+    *pgrad_angl = (double)return_value_vl_mod_2pi_f_24;
     pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
     src = src + 1l;
   }
   gx = src[(signed long int)0] - src[-xo];
   gy = src[(signed long int)0] - src[-yo];
-  float return_value_vl_fast_sqrt_f$25;
-  return_value_vl_fast_sqrt_f$25=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
-  *pgrad_ampl = (double)return_value_vl_fast_sqrt_f$25;
+  float return_value_vl_fast_sqrt_f_25;
+  return_value_vl_fast_sqrt_f_25=vl_fast_sqrt_f((float)(gx * gx + gy * gy));
+  *pgrad_ampl = (double)return_value_vl_fast_sqrt_f_25;
   pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-  float return_value_vl_fast_atan2_f$26;
-  return_value_vl_fast_atan2_f$26=vl_fast_atan2_f((float)gy, (float)gx);
-  float return_value_vl_mod_2pi_f$27;
-  return_value_vl_mod_2pi_f$27=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$26 + (double)2 * 3.141592653589793));
-  *pgrad_angl = (double)return_value_vl_mod_2pi_f$27;
+  float return_value_vl_fast_atan2_f_26;
+  return_value_vl_fast_atan2_f_26=vl_fast_atan2_f((float)gy, (float)gx);
+  float return_value_vl_mod_2pi_f_27;
+  return_value_vl_mod_2pi_f_27=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_26 + (double)2 * 3.141592653589793));
+  *pgrad_angl = (double)return_value_vl_mod_2pi_f_27;
   pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
   src = src + 1l;
 }
@@ -17015,9 +17015,9 @@ extern void vl_imgradient_polar_f(float *gradientModulus, float *gradientAngle, 
   gy = src[+yo] - src[(signed long int)0];
   *pgrad_ampl=vl_fast_sqrt_f(gx * gx + gy * gy);
   pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-  float return_value_vl_fast_atan2_f$1;
-  return_value_vl_fast_atan2_f$1=vl_fast_atan2_f(gy, gx);
-  *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$1 + (double)2 * 3.141592653589793));
+  float return_value_vl_fast_atan2_f_1;
+  return_value_vl_fast_atan2_f_1=vl_fast_atan2_f(gy, gx);
+  *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_1 + (double)2 * 3.141592653589793));
   pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
   src = src + 1l;
   end = ((src - (signed long int)1) + (signed long int)w) - (signed long int)1;
@@ -17027,9 +17027,9 @@ extern void vl_imgradient_polar_f(float *gradientModulus, float *gradientAngle, 
     gy = src[+yo] - src[(signed long int)0];
     *pgrad_ampl=vl_fast_sqrt_f(gx * gx + gy * gy);
     pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-    float return_value_vl_fast_atan2_f$2;
-    return_value_vl_fast_atan2_f$2=vl_fast_atan2_f(gy, gx);
-    *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$2 + (double)2 * 3.141592653589793));
+    float return_value_vl_fast_atan2_f_2;
+    return_value_vl_fast_atan2_f_2=vl_fast_atan2_f(gy, gx);
+    *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_2 + (double)2 * 3.141592653589793));
     pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
     src = src + 1l;
   }
@@ -17037,9 +17037,9 @@ extern void vl_imgradient_polar_f(float *gradientModulus, float *gradientAngle, 
   gy = src[+yo] - src[(signed long int)0];
   *pgrad_ampl=vl_fast_sqrt_f(gx * gx + gy * gy);
   pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-  float return_value_vl_fast_atan2_f$3;
-  return_value_vl_fast_atan2_f$3=vl_fast_atan2_f(gy, gx);
-  *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$3 + (double)2 * 3.141592653589793));
+  float return_value_vl_fast_atan2_f_3;
+  return_value_vl_fast_atan2_f_3=vl_fast_atan2_f(gy, gx);
+  *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_3 + (double)2 * 3.141592653589793));
   pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
   src = src + 1l;
   gradientModulus = gradientModulus + (signed long int)gradHeightStride;
@@ -17055,9 +17055,9 @@ extern void vl_imgradient_polar_f(float *gradientModulus, float *gradientAngle, 
     gy = (float)(0.5 * (double)(src[+yo] - src[-yo]));
     *pgrad_ampl=vl_fast_sqrt_f(gx * gx + gy * gy);
     pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-    float return_value_vl_fast_atan2_f$4;
-    return_value_vl_fast_atan2_f$4=vl_fast_atan2_f(gy, gx);
-    *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$4 + (double)2 * 3.141592653589793));
+    float return_value_vl_fast_atan2_f_4;
+    return_value_vl_fast_atan2_f_4=vl_fast_atan2_f(gy, gx);
+    *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_4 + (double)2 * 3.141592653589793));
     pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
     src = src + 1l;
     end = ((src - (signed long int)1) + (signed long int)w) - (signed long int)1;
@@ -17067,9 +17067,9 @@ extern void vl_imgradient_polar_f(float *gradientModulus, float *gradientAngle, 
       gy = (float)(0.5 * (double)(src[+yo] - src[-yo]));
       *pgrad_ampl=vl_fast_sqrt_f(gx * gx + gy * gy);
       pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-      float return_value_vl_fast_atan2_f$5;
-      return_value_vl_fast_atan2_f$5=vl_fast_atan2_f(gy, gx);
-      *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$5 + (double)2 * 3.141592653589793));
+      float return_value_vl_fast_atan2_f_5;
+      return_value_vl_fast_atan2_f_5=vl_fast_atan2_f(gy, gx);
+      *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_5 + (double)2 * 3.141592653589793));
       pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
       src = src + 1l;
     }
@@ -17077,9 +17077,9 @@ extern void vl_imgradient_polar_f(float *gradientModulus, float *gradientAngle, 
     gy = (float)(0.5 * (double)(src[+yo] - src[-yo]));
     *pgrad_ampl=vl_fast_sqrt_f(gx * gx + gy * gy);
     pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-    float return_value_vl_fast_atan2_f$6;
-    return_value_vl_fast_atan2_f$6=vl_fast_atan2_f(gy, gx);
-    *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$6 + (double)2 * 3.141592653589793));
+    float return_value_vl_fast_atan2_f_6;
+    return_value_vl_fast_atan2_f_6=vl_fast_atan2_f(gy, gx);
+    *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_6 + (double)2 * 3.141592653589793));
     pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
     src = src + 1l;
     gradientModulus = gradientModulus + (signed long int)gradHeightStride;
@@ -17093,9 +17093,9 @@ extern void vl_imgradient_polar_f(float *gradientModulus, float *gradientAngle, 
   gy = src[(signed long int)0] - src[-yo];
   *pgrad_ampl=vl_fast_sqrt_f(gx * gx + gy * gy);
   pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-  float return_value_vl_fast_atan2_f$7;
-  return_value_vl_fast_atan2_f$7=vl_fast_atan2_f(gy, gx);
-  *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$7 + (double)2 * 3.141592653589793));
+  float return_value_vl_fast_atan2_f_7;
+  return_value_vl_fast_atan2_f_7=vl_fast_atan2_f(gy, gx);
+  *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_7 + (double)2 * 3.141592653589793));
   pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
   src = src + 1l;
   end = ((src - (signed long int)1) + (signed long int)w) - (signed long int)1;
@@ -17105,9 +17105,9 @@ extern void vl_imgradient_polar_f(float *gradientModulus, float *gradientAngle, 
     gy = src[(signed long int)0] - src[-yo];
     *pgrad_ampl=vl_fast_sqrt_f(gx * gx + gy * gy);
     pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-    float return_value_vl_fast_atan2_f$8;
-    return_value_vl_fast_atan2_f$8=vl_fast_atan2_f(gy, gx);
-    *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$8 + (double)2 * 3.141592653589793));
+    float return_value_vl_fast_atan2_f_8;
+    return_value_vl_fast_atan2_f_8=vl_fast_atan2_f(gy, gx);
+    *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_8 + (double)2 * 3.141592653589793));
     pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
     src = src + 1l;
   }
@@ -17115,9 +17115,9 @@ extern void vl_imgradient_polar_f(float *gradientModulus, float *gradientAngle, 
   gy = src[(signed long int)0] - src[-yo];
   *pgrad_ampl=vl_fast_sqrt_f(gx * gx + gy * gy);
   pgrad_ampl = pgrad_ampl + (signed long int)gradientHorizontalStride;
-  float return_value_vl_fast_atan2_f$9;
-  return_value_vl_fast_atan2_f$9=vl_fast_atan2_f(gy, gx);
-  *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f$9 + (double)2 * 3.141592653589793));
+  float return_value_vl_fast_atan2_f_9;
+  return_value_vl_fast_atan2_f_9=vl_fast_atan2_f(gy, gx);
+  *pgrad_angl=vl_mod_2pi_f((float)((double)return_value_vl_fast_atan2_f_9 + (double)2 * 3.141592653589793));
   pgrad_angl = pgrad_angl + (signed long int)gradientHorizontalStride;
   src = src + 1l;
 }
@@ -17129,26 +17129,26 @@ extern void vl_imintegral_d(double *integral, unsigned long long int integralStr
   unsigned long long int x;
   unsigned long long int y;
   double temp = (double)0;
-  const double *tmp_post$1;
-  double *tmp_post$2;
+  const double *tmp_post_1;
+  double *tmp_post_2;
   if(imageHeight >= 1ul)
   {
     x = (unsigned long long int)0;
     for( ; !(x >= imageWidth); x = x + 1ull)
     {
-      tmp_post$1 = image;
+      tmp_post_1 = image;
       image = image + 1l;
-      temp = temp + *tmp_post$1;
-      tmp_post$2 = integral;
+      temp = temp + *tmp_post_1;
+      tmp_post_2 = integral;
       integral = integral + 1l;
-      *tmp_post$2 = temp;
+      *tmp_post_2 = temp;
     }
   }
 
   y = (unsigned long long int)1;
-  const double *tmp_post$3;
-  double *tmp_post$4;
-  double *tmp_post$5;
+  const double *tmp_post_3;
+  double *tmp_post_4;
+  double *tmp_post_5;
   for( ; !(y >= imageHeight); y = y + 1ull)
   {
     double *integralPrev;
@@ -17159,14 +17159,14 @@ extern void vl_imintegral_d(double *integral, unsigned long long int integralStr
     x = (unsigned long long int)0;
     for( ; !(x >= imageWidth); x = x + 1ull)
     {
-      tmp_post$3 = image;
+      tmp_post_3 = image;
       image = image + 1l;
-      temp = temp + *tmp_post$3;
-      tmp_post$4 = integral;
+      temp = temp + *tmp_post_3;
+      tmp_post_4 = integral;
       integral = integral + 1l;
-      tmp_post$5 = integralPrev;
+      tmp_post_5 = integralPrev;
       integralPrev = integralPrev + 1l;
-      *tmp_post$4 = *tmp_post$5 + temp;
+      *tmp_post_4 = *tmp_post_5 + temp;
     }
   }
 }
@@ -17178,26 +17178,26 @@ extern void vl_imintegral_f(float *integral, unsigned long long int integralStri
   unsigned long long int x;
   unsigned long long int y;
   float temp = (float)0;
-  const float *tmp_post$1;
-  float *tmp_post$2;
+  const float *tmp_post_1;
+  float *tmp_post_2;
   if(imageHeight >= 1ul)
   {
     x = (unsigned long long int)0;
     for( ; !(x >= imageWidth); x = x + 1ull)
     {
-      tmp_post$1 = image;
+      tmp_post_1 = image;
       image = image + 1l;
-      temp = temp + *tmp_post$1;
-      tmp_post$2 = integral;
+      temp = temp + *tmp_post_1;
+      tmp_post_2 = integral;
       integral = integral + 1l;
-      *tmp_post$2 = temp;
+      *tmp_post_2 = temp;
     }
   }
 
   y = (unsigned long long int)1;
-  const float *tmp_post$3;
-  float *tmp_post$4;
-  float *tmp_post$5;
+  const float *tmp_post_3;
+  float *tmp_post_4;
+  float *tmp_post_5;
   for( ; !(y >= imageHeight); y = y + 1ull)
   {
     float *integralPrev;
@@ -17208,14 +17208,14 @@ extern void vl_imintegral_f(float *integral, unsigned long long int integralStri
     x = (unsigned long long int)0;
     for( ; !(x >= imageWidth); x = x + 1ull)
     {
-      tmp_post$3 = image;
+      tmp_post_3 = image;
       image = image + 1l;
-      temp = temp + *tmp_post$3;
-      tmp_post$4 = integral;
+      temp = temp + *tmp_post_3;
+      tmp_post_4 = integral;
       integral = integral + 1l;
-      tmp_post$5 = integralPrev;
+      tmp_post_5 = integralPrev;
       integralPrev = integralPrev + 1l;
-      *tmp_post$4 = *tmp_post$5 + temp;
+      *tmp_post_4 = *tmp_post_5 + temp;
     }
   }
 }
@@ -17227,26 +17227,26 @@ extern void vl_imintegral_i32(signed int *integral, unsigned long long int integ
   unsigned long long int x;
   unsigned long long int y;
   signed int temp = 0;
-  const signed int *tmp_post$1;
-  signed int *tmp_post$2;
+  const signed int *tmp_post_1;
+  signed int *tmp_post_2;
   if(imageHeight >= 1ul)
   {
     x = (unsigned long long int)0;
     for( ; !(x >= imageWidth); x = x + 1ull)
     {
-      tmp_post$1 = image;
+      tmp_post_1 = image;
       image = image + 1l;
-      temp = temp + *tmp_post$1;
-      tmp_post$2 = integral;
+      temp = temp + *tmp_post_1;
+      tmp_post_2 = integral;
       integral = integral + 1l;
-      *tmp_post$2 = temp;
+      *tmp_post_2 = temp;
     }
   }
 
   y = (unsigned long long int)1;
-  const signed int *tmp_post$3;
-  signed int *tmp_post$4;
-  signed int *tmp_post$5;
+  const signed int *tmp_post_3;
+  signed int *tmp_post_4;
+  signed int *tmp_post_5;
   for( ; !(y >= imageHeight); y = y + 1ull)
   {
     signed int *integralPrev;
@@ -17257,14 +17257,14 @@ extern void vl_imintegral_i32(signed int *integral, unsigned long long int integ
     x = (unsigned long long int)0;
     for( ; !(x >= imageWidth); x = x + 1ull)
     {
-      tmp_post$3 = image;
+      tmp_post_3 = image;
       image = image + 1l;
-      temp = temp + *tmp_post$3;
-      tmp_post$4 = integral;
+      temp = temp + *tmp_post_3;
+      tmp_post_4 = integral;
       integral = integral + 1l;
-      tmp_post$5 = integralPrev;
+      tmp_post_5 = integralPrev;
       integralPrev = integralPrev + 1l;
-      *tmp_post$4 = *tmp_post$5 + temp;
+      *tmp_post_4 = *tmp_post_5 + temp;
     }
   }
 }
@@ -17276,26 +17276,26 @@ extern void vl_imintegral_ui32(unsigned int *integral, unsigned long long int in
   unsigned long long int x;
   unsigned long long int y;
   unsigned int temp = (unsigned int)0;
-  const unsigned int *tmp_post$1;
-  unsigned int *tmp_post$2;
+  const unsigned int *tmp_post_1;
+  unsigned int *tmp_post_2;
   if(imageHeight >= 1ul)
   {
     x = (unsigned long long int)0;
     for( ; !(x >= imageWidth); x = x + 1ull)
     {
-      tmp_post$1 = image;
+      tmp_post_1 = image;
       image = image + 1l;
-      temp = temp + *tmp_post$1;
-      tmp_post$2 = integral;
+      temp = temp + *tmp_post_1;
+      tmp_post_2 = integral;
       integral = integral + 1l;
-      *tmp_post$2 = temp;
+      *tmp_post_2 = temp;
     }
   }
 
   y = (unsigned long long int)1;
-  const unsigned int *tmp_post$3;
-  unsigned int *tmp_post$4;
-  unsigned int *tmp_post$5;
+  const unsigned int *tmp_post_3;
+  unsigned int *tmp_post_4;
+  unsigned int *tmp_post_5;
   for( ; !(y >= imageHeight); y = y + 1ull)
   {
     unsigned int *integralPrev;
@@ -17306,14 +17306,14 @@ extern void vl_imintegral_ui32(unsigned int *integral, unsigned long long int in
     x = (unsigned long long int)0;
     for( ; !(x >= imageWidth); x = x + 1ull)
     {
-      tmp_post$3 = image;
+      tmp_post_3 = image;
       image = image + 1l;
-      temp = temp + *tmp_post$3;
-      tmp_post$4 = integral;
+      temp = temp + *tmp_post_3;
+      tmp_post_4 = integral;
       integral = integral + 1l;
-      tmp_post$5 = integralPrev;
+      tmp_post_5 = integralPrev;
       integralPrev = integralPrev + 1l;
-      *tmp_post$4 = *tmp_post$5 + temp;
+      *tmp_post_4 = *tmp_post_5 + temp;
     }
   }
 }
@@ -17336,9 +17336,9 @@ extern void vl_imsmooth_d(double *smoothed, unsigned long long int smoothedStrid
 
   else
     filtery=_vl_new_gaussian_fitler_d(&sizey, sigmay);
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(width * height * sizeof(double) /*8ul*/ );
-  buffer = (double *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(width * height * sizeof(double) /*8ul*/ );
+  buffer = (double *)return_value_vl_malloc_1;
   vl_imconvcol_vd(buffer, height, image, width, height, stride, filtery, (signed long long int)(-((signed int)sizey - 1) / 2), (signed long long int)(((signed int)sizey - 1) / 2), 1, (unsigned int)(0x1 << 0 | 0x1 << 2));
   vl_imconvcol_vd(smoothed, smoothedStride, buffer, height, width, height, filterx, (signed long long int)(-((signed int)sizex - 1) / 2), (signed long long int)(((signed int)sizex - 1) / 2), 1, (unsigned int)(0x1 << 0 | 0x1 << 2));
   vl_free((void *)buffer);
@@ -17366,9 +17366,9 @@ extern void vl_imsmooth_f(float *smoothed, unsigned long long int smoothedStride
 
   else
     filtery=_vl_new_gaussian_fitler_f(&sizey, sigmay);
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(width * height * sizeof(float) /*4ul*/ );
-  buffer = (float *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(width * height * sizeof(float) /*4ul*/ );
+  buffer = (float *)return_value_vl_malloc_1;
   vl_imconvcol_vf(buffer, height, image, width, height, stride, filtery, (signed long long int)(-((signed int)sizey - 1) / 2), (signed long long int)(((signed int)sizey - 1) / 2), 1, (unsigned int)(0x1 << 0 | 0x1 << 2));
   vl_imconvcol_vf(smoothed, smoothedStride, buffer, height, width, height, filterx, (signed long long int)(-((signed int)sizex - 1) / 2), (signed long long int)(((signed int)sizex - 1) / 2), 1, (unsigned int)(0x1 << 0 | 0x1 << 2));
   vl_free((void *)buffer);
@@ -17384,22 +17384,22 @@ extern void vl_irodrigues(double *om_pt, double *dom_pt, const double *R_pt)
 {
   const double small = 1e-6;
   double th;
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   if(*R_pt + R_pt[4l] + R_pt[8l] > -1.000000)
-    tmp_if_expr$1 = R_pt[(signed long int)(0 + 3 * 0)] + R_pt[(signed long int)(1 + 3 * 1)] + R_pt[(signed long int)(2 + 3 * 2)];
+    tmp_if_expr_1 = R_pt[(signed long int)(0 + 3 * 0)] + R_pt[(signed long int)(1 + 3 * 1)] + R_pt[(signed long int)(2 + 3 * 2)];
 
   else
-    tmp_if_expr$1 = -1.0;
-  th=acos(0.5 * (tmp_if_expr$1 - 1.0));
+    tmp_if_expr_1 = -1.0;
+  th=acos(0.5 * (tmp_if_expr_1 - 1.0));
   double sth;
   sth=sin(th);
   double cth;
   cth=cos(th);
-  double return_value_fabs$7;
-  return_value_fabs$7=fabs(sth);
-  double tmp_if_expr$5;
-  double return_value_sin$4;
-  if(return_value_fabs$7 < small && cth < 0.000000)
+  double return_value_fabs_7;
+  return_value_fabs_7=fabs(sth);
+  double tmp_if_expr_5;
+  double return_value_sin_4;
+  if(return_value_fabs_7 < small && cth < 0.000000)
   {
     double W_pt[9l];
     double x;
@@ -17436,9 +17436,9 @@ extern void vl_irodrigues(double *om_pt, double *dom_pt, const double *R_pt)
         y = W_pt[(signed long int)(2 + 3 * 1)] >= (double)0 ? y : -y;
       }
     double scale;
-    double return_value_sqrt$2;
-    return_value_sqrt$2=sqrt((double)1 - cth);
-    scale = th / return_value_sqrt$2;
+    double return_value_sqrt_2;
+    return_value_sqrt_2=sqrt((double)1 - cth);
+    scale = th / return_value_sqrt_2;
     om_pt[(signed long int)0] = scale * x;
     om_pt[(signed long int)1] = scale * y;
     om_pt[(signed long int)2] = scale * z;
@@ -17446,7 +17446,7 @@ extern void vl_irodrigues(double *om_pt, double *dom_pt, const double *R_pt)
     {
       signed int k = 0;
       for( ; !(k >= 3); k = k + 1)
-        dom_pt[(signed long int)k] = vl_nan_d$link1.value;
+        dom_pt[(signed long int)k] = vl_nan_d_link1.value;
     }
 
     goto __CPROVER_DUMP_L16;
@@ -17455,26 +17455,26 @@ extern void vl_irodrigues(double *om_pt, double *dom_pt, const double *R_pt)
   else
   {
     double a;
-    double return_value_fabs$3;
-    return_value_fabs$3=fabs(sth);
-    if(return_value_fabs$3 < small)
-      tmp_if_expr$5 = (double)1;
+    double return_value_fabs_3;
+    return_value_fabs_3=fabs(sth);
+    if(return_value_fabs_3 < small)
+      tmp_if_expr_5 = (double)1;
 
     else
     {
-      return_value_sin$4=sin(th);
-      tmp_if_expr$5 = th / return_value_sin$4;
+      return_value_sin_4=sin(th);
+      tmp_if_expr_5 = th / return_value_sin_4;
     }
-    a = tmp_if_expr$5;
+    a = tmp_if_expr_5;
     double b;
     om_pt[(signed long int)0] = 0.5 * a * (R_pt[(signed long int)(2 + 3 * 1)] - R_pt[(signed long int)(1 + 3 * 2)]);
     om_pt[(signed long int)1] = 0.5 * a * (R_pt[(signed long int)(0 + 3 * 2)] - R_pt[(signed long int)(2 + 3 * 0)]);
     om_pt[(signed long int)2] = 0.5 * a * (R_pt[(signed long int)(1 + 3 * 0)] - R_pt[(signed long int)(0 + 3 * 1)]);
     if(!(dom_pt == ((double *)NULL)))
     {
-      double return_value_fabs$6;
-      return_value_fabs$6=fabs(sth);
-      if(return_value_fabs$6 < small)
+      double return_value_fabs_6;
+      return_value_fabs_6=fabs(sth);
+      if(return_value_fabs_6 < small)
       {
         a = 0.5;
         b = (double)0;
@@ -17530,49 +17530,49 @@ extern void vl_kdforest_build(struct _VlKDForest *self, unsigned long long int n
   double *searchBounds;
   self->data = data;
   self->numData = numData;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(struct _VlKDTree *) /*8ul*/  * self->numTrees);
-  self->trees = (struct _VlKDTree **)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(struct _VlKDTree *) /*8ul*/  * self->numTrees);
+  self->trees = (struct _VlKDTree **)return_value_vl_malloc_1;
   maxNumNodes = (unsigned long long int)0;
   ti = (unsigned long long int)0;
   for( ; !(ti >= self->numTrees); ti = ti + 1ull)
   {
-    void *return_value_vl_malloc$2;
-    return_value_vl_malloc$2=vl_malloc(sizeof(struct _VlKDTree) /*40ul*/ );
-    self->trees[(signed long int)ti] = (struct _VlKDTree *)return_value_vl_malloc$2;
-    void *return_value_vl_malloc$3;
-    return_value_vl_malloc$3=vl_malloc(sizeof(struct _VlKDTreeDataIndexEntry) /*16ul*/  * self->numData);
-    self->trees[(signed long int)ti]->dataIndex = (struct _VlKDTreeDataIndexEntry *)return_value_vl_malloc$3;
+    void *return_value_vl_malloc_2;
+    return_value_vl_malloc_2=vl_malloc(sizeof(struct _VlKDTree) /*40ul*/ );
+    self->trees[(signed long int)ti] = (struct _VlKDTree *)return_value_vl_malloc_2;
+    void *return_value_vl_malloc_3;
+    return_value_vl_malloc_3=vl_malloc(sizeof(struct _VlKDTreeDataIndexEntry) /*16ul*/  * self->numData);
+    self->trees[(signed long int)ti]->dataIndex = (struct _VlKDTreeDataIndexEntry *)return_value_vl_malloc_3;
     di = (unsigned long long int)0;
     for( ; !(di >= self->numData); di = di + 1ull)
       (self->trees[(signed long int)ti]->dataIndex + (signed long int)di)->index = (signed long long int)di;
     self->trees[(signed long int)ti]->numUsedNodes = (unsigned long long int)0;
     self->trees[(signed long int)ti]->numAllocatedNodes = (unsigned long int)2 * self->numData - (unsigned long int)1;
-    void *return_value_vl_malloc$4;
-    return_value_vl_malloc$4=vl_malloc(sizeof(struct _VlKDTreeNode) /*56ul*/  * self->trees[(signed long int)ti]->numAllocatedNodes);
-    self->trees[(signed long int)ti]->nodes = (struct _VlKDTreeNode *)return_value_vl_malloc$4;
+    void *return_value_vl_malloc_4;
+    return_value_vl_malloc_4=vl_malloc(sizeof(struct _VlKDTreeNode) /*56ul*/  * self->trees[(signed long int)ti]->numAllocatedNodes);
+    self->trees[(signed long int)ti]->nodes = (struct _VlKDTreeNode *)return_value_vl_malloc_4;
     self->trees[(signed long int)ti]->depth = (unsigned int)0;
-    unsigned long long int return_value_vl_kdtree_node_new$5;
-    return_value_vl_kdtree_node_new$5=vl_kdtree_node_new(self->trees[(signed long int)ti], (unsigned long long int)0);
-    vl_kdtree_build_recursively(self, self->trees[(signed long int)ti], return_value_vl_kdtree_node_new$5, (unsigned long long int)0, self->numData, (unsigned int)0);
+    unsigned long long int return_value_vl_kdtree_node_new_5;
+    return_value_vl_kdtree_node_new_5=vl_kdtree_node_new(self->trees[(signed long int)ti], (unsigned long long int)0);
+    vl_kdtree_build_recursively(self, self->trees[(signed long int)ti], return_value_vl_kdtree_node_new_5, (unsigned long long int)0, self->numData, (unsigned int)0);
     maxNumNodes = maxNumNodes + self->trees[(signed long int)ti]->numUsedNodes;
   }
-  void *return_value_vl_malloc$6;
-  return_value_vl_malloc$6=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)2 * self->dimension);
-  searchBounds = (double *)return_value_vl_malloc$6;
+  void *return_value_vl_malloc_6;
+  return_value_vl_malloc_6=vl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)2 * self->dimension);
+  searchBounds = (double *)return_value_vl_malloc_6;
   ti = (unsigned long long int)0;
-  double *tmp_post$7;
-  double *tmp_post$8;
+  double *tmp_post_7;
+  double *tmp_post_8;
   for( ; !(ti >= self->numTrees); ti = ti + 1ull)
   {
     double *iter = searchBounds;
     double *end = iter + (signed long int)((unsigned long int)2 * self->dimension);
-    for( ; !(iter >= end); *tmp_post$8 = (double)+vl_infinity_f.value)
+    for( ; !(iter >= end); *tmp_post_8 = (double)+vl_infinity_f.value)
     {
-      tmp_post$7 = iter;
+      tmp_post_7 = iter;
       iter = iter + 1l;
-      *tmp_post$7 = (double)-vl_infinity_f.value;
-      tmp_post$8 = iter;
+      *tmp_post_7 = (double)-vl_infinity_f.value;
+      tmp_post_8 = iter;
       iter = iter + 1l;
     }
     vl_kdtree_calc_bounds_recursively(self->trees[(signed long int)ti], (unsigned long long int)0, searchBounds);
@@ -17776,9 +17776,9 @@ static inline void vl_kdforest_neighbor_heap_update(struct _VlKDForestNeighbor *
 extern struct _VlKDForest * vl_kdforest_new(unsigned int dataType, unsigned long long int dimension, unsigned long long int numTrees, enum _VlVectorComparisonType distance)
 {
   struct _VlKDForest *self;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(sizeof(struct _VlKDForest) /*248ul*/ , (unsigned long int)1);
-  self = (struct _VlKDForest *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(sizeof(struct _VlKDForest) /*248ul*/ , (unsigned long int)1);
+  self = (struct _VlKDForest *)return_value_vl_calloc_1;
   self->rand=vl_get_rand();
   self->dataType = dataType;
   self->numData = (unsigned long long int)0;
@@ -17793,20 +17793,20 @@ extern struct _VlKDForest * vl_kdforest_new(unsigned int dataType, unsigned long
   self->maxNumNodes = (unsigned long long int)0;
   self->numSearchers = (unsigned long long int)0;
   self->headSearcher = ((struct _VlKDForestSearcher *)NULL);
-  float (*return_value_vl_get_vector_comparison_function_f$2)(unsigned long long int, const float *, const float *);
-  double (*return_value_vl_get_vector_comparison_function_d$3)(unsigned long long int, const double *, const double *);
+  float (*return_value_vl_get_vector_comparison_function_f_2)(unsigned long long int, const float *, const float *);
+  double (*return_value_vl_get_vector_comparison_function_d_3)(unsigned long long int, const double *, const double *);
   switch(self->dataType)
   {
     case (unsigned int)1:
     {
-      return_value_vl_get_vector_comparison_function_f$2=vl_get_vector_comparison_function_f(distance);
-      self->distanceFunction = (void (*)(void))return_value_vl_get_vector_comparison_function_f$2;
+      return_value_vl_get_vector_comparison_function_f_2=vl_get_vector_comparison_function_f(distance);
+      self->distanceFunction = (void (*)(void))return_value_vl_get_vector_comparison_function_f_2;
       break;
     }
     case (unsigned int)2:
     {
-      return_value_vl_get_vector_comparison_function_d$3=vl_get_vector_comparison_function_d(distance);
-      self->distanceFunction = (void (*)(void))return_value_vl_get_vector_comparison_function_d$3;
+      return_value_vl_get_vector_comparison_function_d_3=vl_get_vector_comparison_function_d(distance);
+      self->distanceFunction = (void (*)(void))return_value_vl_get_vector_comparison_function_d_3;
       break;
     }
     default:
@@ -17820,9 +17820,9 @@ extern struct _VlKDForest * vl_kdforest_new(unsigned int dataType, unsigned long
 extern struct _VlKDForestSearcher * vl_kdforest_new_searcher(struct _VlKDForest *kdforest)
 {
   struct _VlKDForestSearcher *self;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(sizeof(struct _VlKDForestSearcher) /*80ul*/ , (unsigned long int)1);
-  self = (struct _VlKDForestSearcher *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(sizeof(struct _VlKDForestSearcher) /*80ul*/ , (unsigned long int)1);
+  self = (struct _VlKDForestSearcher *)return_value_vl_calloc_1;
   if(kdforest->numSearchers == 0ul)
   {
     kdforest->headSearcher = self;
@@ -17847,12 +17847,12 @@ extern struct _VlKDForestSearcher * vl_kdforest_new_searcher(struct _VlKDForest 
   }
   kdforest->numSearchers = kdforest->numSearchers + 1ull;
   self->forest = kdforest;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(struct _VlKDForestSearchState) /*24ul*/  * kdforest->maxNumNodes);
-  self->searchHeapArray = (struct _VlKDForestSearchState *)return_value_vl_malloc$2;
-  void *return_value_vl_calloc$3;
-  return_value_vl_calloc$3=vl_calloc(sizeof(unsigned long long int) /*8ul*/ , kdforest->numData);
-  self->searchIdBook = (unsigned long long int *)return_value_vl_calloc$3;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(struct _VlKDForestSearchState) /*24ul*/  * kdforest->maxNumNodes);
+  self->searchHeapArray = (struct _VlKDForestSearchState *)return_value_vl_malloc_2;
+  void *return_value_vl_calloc_3;
+  return_value_vl_calloc_3=vl_calloc(sizeof(unsigned long long int) /*8ul*/ , kdforest->numData);
+  self->searchIdBook = (unsigned long long int *)return_value_vl_calloc_3;
   return self;
 }
 
@@ -17865,9 +17865,9 @@ extern unsigned long long int vl_kdforest_query(struct _VlKDForest *self, struct
   if(searcher == ((struct _VlKDForestSearcher *)NULL))
     searcher=vl_kdforest_new_searcher(self);
 
-  unsigned long long int return_value_vl_kdforestsearcher_query$1;
-  return_value_vl_kdforestsearcher_query$1=vl_kdforestsearcher_query(searcher, neighbors, numNeighbors, query);
-  return return_value_vl_kdforestsearcher_query$1;
+  unsigned long long int return_value_vl_kdforestsearcher_query_1;
+  return_value_vl_kdforestsearcher_query_1=vl_kdforestsearcher_query(searcher, neighbors, numNeighbors, query);
+  return return_value_vl_kdforestsearcher_query_1;
 }
 
 // vl_kdforest_query_recursively
@@ -17901,8 +17901,8 @@ unsigned long long int vl_kdforest_query_recursively(struct _VlKDForestSearcher 
     default:
       abort();
   }
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   float return_value;
   if(!(node->lowerChild >= 0l))
   {
@@ -17914,16 +17914,16 @@ unsigned long long int vl_kdforest_query_recursively(struct _VlKDForestSearcher 
       if(!(iter >= end))
       {
         if(searcher->forest->searchMaxNumComparisons == 0ul)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = searcher->searchNumComparisons < searcher->forest->searchMaxNumComparisons ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = searcher->searchNumComparisons < searcher->forest->searchMaxNumComparisons ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       signed long long int di = (tree->dataIndex + iter)->index;
@@ -17991,13 +17991,13 @@ unsigned long long int vl_kdforest_query_recursively(struct _VlKDForestSearcher 
     }
 
   }
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(*numAddedNeighbors >= numNeighbors))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (neighbors + (signed long int)0)->distance > saveDist ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (neighbors + (signed long int)0)->distance > saveDist ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     searchState = searcher->searchHeapArray + (signed long int)searcher->searchHeapNumNodes;
     searchState->tree = tree;
@@ -18006,9 +18006,9 @@ unsigned long long int vl_kdforest_query_recursively(struct _VlKDForestSearcher 
     vl_kdforest_search_heap_push(searcher->searchHeapArray, &searcher->searchHeapNumNodes);
   }
 
-  unsigned long long int return_value_vl_kdforest_query_recursively$4;
-  return_value_vl_kdforest_query_recursively$4=vl_kdforest_query_recursively(searcher, tree, (unsigned long long int)nextChild, neighbors, numNeighbors, numAddedNeighbors, dist, query);
-  return return_value_vl_kdforest_query_recursively$4;
+  unsigned long long int return_value_vl_kdforest_query_recursively_4;
+  return_value_vl_kdforest_query_recursively_4=vl_kdforest_query_recursively(searcher, tree, (unsigned long long int)nextChild, neighbors, numNeighbors, numAddedNeighbors, dist, query);
+  return return_value_vl_kdforest_query_recursively_4;
 }
 
 // vl_kdforest_query_with_array
@@ -18025,21 +18025,21 @@ extern unsigned long long int vl_kdforest_query_with_array(struct _VlKDForest *s
   struct _VlKDForestSearcher *searcher;
   struct _VlKDForestNeighbor *neighbors;
   searcher=vl_kdforest_new_searcher(self);
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(sizeof(struct _VlKDForestNeighbor) /*16ul*/ , numNeighbors);
-  neighbors = (struct _VlKDForestNeighbor *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(sizeof(struct _VlKDForestNeighbor) /*16ul*/ , numNeighbors);
+  neighbors = (struct _VlKDForestNeighbor *)return_value_vl_calloc_1;
   qi = (signed long long int)0;
   unsigned long long int ni;
-  unsigned long long int return_value_vl_kdforestsearcher_query$2;
-  unsigned long long int vl_kdforest_query_with_array$$1$$1$$2$$1$$1$$2$$ni;
-  unsigned long long int return_value_vl_kdforestsearcher_query$3;
+  unsigned long long int return_value_vl_kdforestsearcher_query_2;
+  unsigned long long int vl_kdforest_query_with_array__1__1__2__1__1__2__ni;
+  unsigned long long int return_value_vl_kdforestsearcher_query_3;
   for( ; !(qi >= (signed long int)(signed int)numQueries); qi = qi + 1ll)
     switch(dataType)
     {
       case (unsigned int)1:
       {
-        return_value_vl_kdforestsearcher_query$2=vl_kdforestsearcher_query(searcher, neighbors, numNeighbors, (const void *)((const float *)queries + (signed long int)((unsigned long int)qi * dimension)));
-        thisNumComparisons = thisNumComparisons + return_value_vl_kdforestsearcher_query$2;
+        return_value_vl_kdforestsearcher_query_2=vl_kdforestsearcher_query(searcher, neighbors, numNeighbors, (const void *)((const float *)queries + (signed long int)((unsigned long int)qi * dimension)));
+        thisNumComparisons = thisNumComparisons + return_value_vl_kdforestsearcher_query_2;
         ni = (unsigned long long int)0;
         for( ; !(ni >= numNeighbors); ni = ni + 1ull)
         {
@@ -18052,14 +18052,14 @@ extern unsigned long long int vl_kdforest_query_with_array(struct _VlKDForest *s
       }
       case (unsigned int)2:
       {
-        return_value_vl_kdforestsearcher_query$3=vl_kdforestsearcher_query(searcher, neighbors, numNeighbors, (const void *)((const double *)queries + (signed long int)((unsigned long int)qi * dimension)));
-        thisNumComparisons = thisNumComparisons + return_value_vl_kdforestsearcher_query$3;
-        vl_kdforest_query_with_array$$1$$1$$2$$1$$1$$2$$ni = (unsigned long long int)0;
-        for( ; !(vl_kdforest_query_with_array$$1$$1$$2$$1$$1$$2$$ni >= numNeighbors); vl_kdforest_query_with_array$$1$$1$$2$$1$$1$$2$$ni = vl_kdforest_query_with_array$$1$$1$$2$$1$$1$$2$$ni + 1ull)
+        return_value_vl_kdforestsearcher_query_3=vl_kdforestsearcher_query(searcher, neighbors, numNeighbors, (const void *)((const double *)queries + (signed long int)((unsigned long int)qi * dimension)));
+        thisNumComparisons = thisNumComparisons + return_value_vl_kdforestsearcher_query_3;
+        vl_kdforest_query_with_array__1__1__2__1__1__2__ni = (unsigned long long int)0;
+        for( ; !(vl_kdforest_query_with_array__1__1__2__1__1__2__ni >= numNeighbors); vl_kdforest_query_with_array__1__1__2__1__1__2__ni = vl_kdforest_query_with_array__1__1__2__1__1__2__ni + 1ull)
         {
-          indexes[(signed long int)((unsigned long int)qi * numNeighbors + vl_kdforest_query_with_array$$1$$1$$2$$1$$1$$2$$ni)] = (unsigned int)(neighbors + (signed long int)vl_kdforest_query_with_array$$1$$1$$2$$1$$1$$2$$ni)->index;
+          indexes[(signed long int)((unsigned long int)qi * numNeighbors + vl_kdforest_query_with_array__1__1__2__1__1__2__ni)] = (unsigned int)(neighbors + (signed long int)vl_kdforest_query_with_array__1__1__2__1__1__2__ni)->index;
           if(!(distances == NULL))
-            ((double *)distances + (signed long int)((unsigned long int)qi * numNeighbors))[(signed long int)vl_kdforest_query_with_array$$1$$1$$2$$1$$1$$2$$ni] = (neighbors + (signed long int)vl_kdforest_query_with_array$$1$$1$$2$$1$$1$$2$$ni)->distance;
+            ((double *)distances + (signed long int)((unsigned long int)qi * numNeighbors))[(signed long int)vl_kdforest_query_with_array__1__1__2__1__1__2__ni] = (neighbors + (signed long int)vl_kdforest_query_with_array__1__1__2__1__1__2__ni)->distance;
 
         }
         break;
@@ -18177,15 +18177,15 @@ extern void vl_kdforest_set_thresholding_method(struct _VlKDForest *self, enum _
 // file vl/kdtree.c line 423
 extern void vl_kdforestsearcher_delete(struct _VlKDForestSearcher *self)
 {
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(self->previous == ((struct _VlKDForestSearcher *)NULL)))
-    tmp_if_expr$3 = self->next != ((struct _VlKDForestSearcher *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = self->next != ((struct _VlKDForestSearcher *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  if(tmp_if_expr_3)
   {
     self->previous->next = self->next;
     self->next->previous = self->previous;
@@ -18194,21 +18194,21 @@ extern void vl_kdforestsearcher_delete(struct _VlKDForestSearcher *self)
   else
   {
     if(!(self->previous == ((struct _VlKDForestSearcher *)NULL)))
-      tmp_if_expr$2 = !(self->next != ((struct _VlKDForestSearcher *)NULL)) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = !(self->next != ((struct _VlKDForestSearcher *)NULL)) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       self->previous->next = (struct _VlKDForestSearcher *)(void *)0;
 
     else
     {
       if(self->previous == ((struct _VlKDForestSearcher *)NULL))
-        tmp_if_expr$1 = self->next != ((struct _VlKDForestSearcher *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = self->next != ((struct _VlKDForestSearcher *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         self->next->previous = (struct _VlKDForestSearcher *)(void *)0;
         self->forest->headSearcher = self->next;
@@ -18263,16 +18263,16 @@ extern unsigned long long int vl_kdforestsearcher_query(struct _VlKDForestSearch
 
     }
 
-    struct _VlKDForestSearchState *vl_kdforestsearcher_query$$1$$2$$searchState;
+    struct _VlKDForestSearchState *vl_kdforestsearcher_query__1__2__searchState;
     if(self->searchHeapNumNodes == 0ul)
       break;
 
-    unsigned long long int return_value_vl_kdforest_search_heap_pop$1;
-    return_value_vl_kdforest_search_heap_pop$1=vl_kdforest_search_heap_pop(self->searchHeapArray, &self->searchHeapNumNodes);
-    vl_kdforestsearcher_query$$1$$2$$searchState = self->searchHeapArray + (signed long int)return_value_vl_kdforest_search_heap_pop$1;
+    unsigned long long int return_value_vl_kdforest_search_heap_pop_1;
+    return_value_vl_kdforest_search_heap_pop_1=vl_kdforest_search_heap_pop(self->searchHeapArray, &self->searchHeapNumNodes);
+    vl_kdforestsearcher_query__1__2__searchState = self->searchHeapArray + (signed long int)return_value_vl_kdforest_search_heap_pop_1;
     if(numAddedNeighbors == numNeighbors)
     {
-      if(neighbors->distance < vl_kdforestsearcher_query$$1$$2$$searchState->distanceLowerBound)
+      if(neighbors->distance < vl_kdforestsearcher_query__1__2__searchState->distanceLowerBound)
       {
         self->searchNumSimplifications = self->searchNumSimplifications + 1ull;
         break;
@@ -18280,7 +18280,7 @@ extern unsigned long long int vl_kdforestsearcher_query(struct _VlKDForestSearch
 
     }
 
-    vl_kdforest_query_recursively(self, vl_kdforestsearcher_query$$1$$2$$searchState->tree, vl_kdforestsearcher_query$$1$$2$$searchState->nodeIndex, neighbors, numNeighbors, &numAddedNeighbors, vl_kdforestsearcher_query$$1$$2$$searchState->distanceLowerBound, query);
+    vl_kdforest_query_recursively(self, vl_kdforestsearcher_query__1__2__searchState->tree, vl_kdforestsearcher_query__1__2__searchState->nodeIndex, neighbors, numNeighbors, &numAddedNeighbors, vl_kdforestsearcher_query__1__2__searchState->distanceLowerBound, query);
   }
 
 __CPROVER_DUMP_L6:
@@ -18305,9 +18305,9 @@ static void vl_kdtree_build_recursively(struct _VlKDForest *forest, struct _VlKD
   unsigned long long int medianIndex;
   unsigned long long int splitIndex;
   struct _VlKDTreeNode *node = tree->nodes + (signed long int)nodeIndex;
-  struct _VlKDTreeSplitDimension *vl_kdtree_build_recursively$$1$$splitDimension;
-  unsigned long long int tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  struct _VlKDTreeSplitDimension *vl_kdtree_build_recursively__1__splitDimension;
+  unsigned long long int tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(!(dataEnd + -dataBegin >= 2ul))
   {
     if(!(tree->depth >= depth))
@@ -18345,9 +18345,9 @@ static void vl_kdtree_build_recursively(struct _VlKDForest *forest, struct _VlKD
 
         else
         {
-          unsigned int return_value_vl_rand_uint32$1;
-          return_value_vl_rand_uint32$1=vl_rand_uint32(forest->rand);
-          sampleIndex = return_value_vl_rand_uint32$1 % (unsigned int)1024;
+          unsigned int return_value_vl_rand_uint32_1;
+          return_value_vl_rand_uint32_1=vl_rand_uint32(forest->rand);
+          sampleIndex = return_value_vl_rand_uint32_1 % (unsigned int)1024;
         }
         sampleIndex = sampleIndex + (unsigned int)dataBegin;
         di = (tree->dataIndex + (signed long int)sampleIndex)->index;
@@ -18385,12 +18385,12 @@ static void vl_kdtree_build_recursively(struct _VlKDForest *forest, struct _VlKD
 
         else
         {
-          struct _VlKDTreeSplitDimension *vl_kdtree_build_recursively$$1$$2$$1$$4$$splitDimension = forest->splitHeapArray + (signed long int)0;
-          if(vl_kdtree_build_recursively$$1$$2$$1$$4$$splitDimension->variance < variance)
+          struct _VlKDTreeSplitDimension *vl_kdtree_build_recursively__1__2__1__4__splitDimension = forest->splitHeapArray + (signed long int)0;
+          if(vl_kdtree_build_recursively__1__2__1__4__splitDimension->variance < variance)
           {
-            vl_kdtree_build_recursively$$1$$2$$1$$4$$splitDimension->dimension = (unsigned int)d;
-            vl_kdtree_build_recursively$$1$$2$$1$$4$$splitDimension->mean = mean;
-            vl_kdtree_build_recursively$$1$$2$$1$$4$$splitDimension->variance = variance;
+            vl_kdtree_build_recursively__1__2__1__4__splitDimension->dimension = (unsigned int)d;
+            vl_kdtree_build_recursively__1__2__1__4__splitDimension->mean = mean;
+            vl_kdtree_build_recursively__1__2__1__4__splitDimension->variance = variance;
             vl_kdtree_split_heap_update(forest->splitHeapArray, forest->splitHeapNumNodes, (unsigned long long int)0);
           }
 
@@ -18406,52 +18406,52 @@ static void vl_kdtree_build_recursively(struct _VlKDForest *forest, struct _VlKD
 
     else
     {
-      unsigned int return_value_vl_rand_uint32$2;
-      return_value_vl_rand_uint32$2=vl_rand_uint32(forest->rand);
+      unsigned int return_value_vl_rand_uint32_2;
+      return_value_vl_rand_uint32_2=vl_rand_uint32(forest->rand);
       if(!(forest->splitHeapSize >= forest->splitHeapNumNodes))
-        tmp_if_expr$3 = forest->splitHeapSize;
+        tmp_if_expr_3 = forest->splitHeapSize;
 
       else
-        tmp_if_expr$3 = forest->splitHeapNumNodes;
-      vl_kdtree_build_recursively$$1$$splitDimension = forest->splitHeapArray + (signed long int)((unsigned long int)return_value_vl_rand_uint32$2 % tmp_if_expr$3);
-      node->splitDimension = vl_kdtree_build_recursively$$1$$splitDimension->dimension;
+        tmp_if_expr_3 = forest->splitHeapNumNodes;
+      vl_kdtree_build_recursively__1__splitDimension = forest->splitHeapArray + (signed long int)((unsigned long int)return_value_vl_rand_uint32_2 % tmp_if_expr_3);
+      node->splitDimension = vl_kdtree_build_recursively__1__splitDimension->dimension;
       i = dataBegin;
       for( ; !(i >= dataEnd); i = i + 1ull)
       {
-        signed long long int vl_kdtree_build_recursively$$1$$4$$1$$di = (tree->dataIndex + (signed long int)i)->index;
-        double vl_kdtree_build_recursively$$1$$4$$1$$datum;
+        signed long long int vl_kdtree_build_recursively__1__4__1__di = (tree->dataIndex + (signed long int)i)->index;
+        double vl_kdtree_build_recursively__1__4__1__datum;
         switch(forest->dataType)
         {
           case (unsigned int)1:
           {
-            vl_kdtree_build_recursively$$1$$4$$1$$datum = (double)((const float *)forest->data)[(signed long int)((unsigned long int)vl_kdtree_build_recursively$$1$$4$$1$$di * forest->dimension + (unsigned long int)vl_kdtree_build_recursively$$1$$splitDimension->dimension)];
+            vl_kdtree_build_recursively__1__4__1__datum = (double)((const float *)forest->data)[(signed long int)((unsigned long int)vl_kdtree_build_recursively__1__4__1__di * forest->dimension + (unsigned long int)vl_kdtree_build_recursively__1__splitDimension->dimension)];
             break;
           }
           case (unsigned int)2:
           {
-            vl_kdtree_build_recursively$$1$$4$$1$$datum = ((const double *)forest->data)[(signed long int)((unsigned long int)vl_kdtree_build_recursively$$1$$4$$1$$di * forest->dimension + (unsigned long int)vl_kdtree_build_recursively$$1$$splitDimension->dimension)];
+            vl_kdtree_build_recursively__1__4__1__datum = ((const double *)forest->data)[(signed long int)((unsigned long int)vl_kdtree_build_recursively__1__4__1__di * forest->dimension + (unsigned long int)vl_kdtree_build_recursively__1__splitDimension->dimension)];
             break;
           }
           default:
             abort();
         }
-        (tree->dataIndex + (signed long int)i)->value = vl_kdtree_build_recursively$$1$$4$$1$$datum;
+        (tree->dataIndex + (signed long int)i)->value = vl_kdtree_build_recursively__1__4__1__datum;
       }
       qsort((void *)(tree->dataIndex + (signed long int)dataBegin), dataEnd - dataBegin, sizeof(struct _VlKDTreeDataIndexEntry) /*16ul*/ , vl_kdtree_compare_index_entries);
       switch((signed int)forest->thresholdingMethod)
       {
         case VL_KDTREE_MEAN:
         {
-          node->splitThreshold = vl_kdtree_build_recursively$$1$$splitDimension->mean;
+          node->splitThreshold = vl_kdtree_build_recursively__1__splitDimension->mean;
           splitIndex = dataBegin;
           do
           {
             if(!(splitIndex >= dataEnd))
-              tmp_if_expr$4 = (tree->dataIndex + (signed long int)splitIndex)->value <= node->splitThreshold ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (tree->dataIndex + (signed long int)splitIndex)->value <= node->splitThreshold ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(!tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(!tmp_if_expr_4)
               break;
 
             splitIndex = splitIndex + 1ull;
@@ -18472,13 +18472,13 @@ static void vl_kdtree_build_recursively(struct _VlKDForest *forest, struct _VlKD
         default:
           abort();
       }
-      unsigned long long int return_value_vl_kdtree_node_new$5;
-      return_value_vl_kdtree_node_new$5=vl_kdtree_node_new(tree, nodeIndex);
-      node->lowerChild = (signed long long int)return_value_vl_kdtree_node_new$5;
+      unsigned long long int return_value_vl_kdtree_node_new_5;
+      return_value_vl_kdtree_node_new_5=vl_kdtree_node_new(tree, nodeIndex);
+      node->lowerChild = (signed long long int)return_value_vl_kdtree_node_new_5;
       vl_kdtree_build_recursively(forest, tree, (unsigned long long int)node->lowerChild, dataBegin, splitIndex + (unsigned long int)1, depth + (unsigned int)1);
-      unsigned long long int return_value_vl_kdtree_node_new$6;
-      return_value_vl_kdtree_node_new$6=vl_kdtree_node_new(tree, nodeIndex);
-      node->upperChild = (signed long long int)return_value_vl_kdtree_node_new$6;
+      unsigned long long int return_value_vl_kdtree_node_new_6;
+      return_value_vl_kdtree_node_new_6=vl_kdtree_node_new(tree, nodeIndex);
+      node->upperChild = (signed long long int)return_value_vl_kdtree_node_new_6;
       vl_kdtree_build_recursively(forest, tree, (unsigned long long int)node->upperChild, splitIndex + (unsigned long int)1, dataEnd, depth + (unsigned int)1);
     }
   }
@@ -18628,7 +18628,7 @@ static inline void vl_kdtree_split_heap_update(struct _VlKDTreeSplitDimension *a
 extern double vl_kmeans_cluster(struct _VlKMeans *self, const void *data, unsigned long long int dimension, unsigned long long int numData, unsigned long long int numCenters)
 {
   unsigned long long int repetition;
-  double bestEnergy = vl_infinity_d$link2.value;
+  double bestEnergy = vl_infinity_d_link2.value;
   void *bestCenters = (void *)0;
   repetition = (unsigned long long int)0;
   for( ; !(repetition >= self->numRepetitions); repetition = repetition + 1ull)
@@ -18637,9 +18637,9 @@ extern double vl_kmeans_cluster(struct _VlKMeans *self, const void *data, unsign
     double timeRef;
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$1)(const char *, ...);
-      return_value_vl_get_printf_func$1=vl_get_printf_func();
-      return_value_vl_get_printf_func$1("kmeans: repetition %d of %d\n", repetition + (unsigned long int)1, self->numRepetitions);
+      signed int (*return_value_vl_get_printf_func_1)(const char *, ...);
+      return_value_vl_get_printf_func_1=vl_get_printf_func();
+      return_value_vl_get_printf_func_1("kmeans: repetition %d of %d\n", repetition + (unsigned long int)1, self->numRepetitions);
     }
 
     timeRef=vl_get_cpu_time();
@@ -18660,22 +18660,22 @@ extern double vl_kmeans_cluster(struct _VlKMeans *self, const void *data, unsign
     }
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$2)(const char *, ...);
-      return_value_vl_get_printf_func$2=vl_get_printf_func();
-      double return_value_vl_get_cpu_time$3;
-      return_value_vl_get_cpu_time$3=vl_get_cpu_time();
-      return_value_vl_get_printf_func$2("kmeans: K-means initialized in %.2f s\n", return_value_vl_get_cpu_time$3 - timeRef);
+      signed int (*return_value_vl_get_printf_func_2)(const char *, ...);
+      return_value_vl_get_printf_func_2=vl_get_printf_func();
+      double return_value_vl_get_cpu_time_3;
+      return_value_vl_get_cpu_time_3=vl_get_cpu_time();
+      return_value_vl_get_printf_func_2("kmeans: K-means initialized in %.2f s\n", return_value_vl_get_cpu_time_3 - timeRef);
     }
 
     timeRef=vl_get_cpu_time();
     energy=vl_kmeans_refine_centers(self, data, numData);
     if(!(self->verbosity == 0))
     {
-      signed int (*return_value_vl_get_printf_func$4)(const char *, ...);
-      return_value_vl_get_printf_func$4=vl_get_printf_func();
-      double return_value_vl_get_cpu_time$5;
-      return_value_vl_get_cpu_time$5=vl_get_cpu_time();
-      return_value_vl_get_printf_func$4("kmeans: K-means terminated in %.2f s with energy %g\n", return_value_vl_get_cpu_time$5 - timeRef, energy);
+      signed int (*return_value_vl_get_printf_func_4)(const char *, ...);
+      return_value_vl_get_printf_func_4=vl_get_printf_func();
+      double return_value_vl_get_cpu_time_5;
+      return_value_vl_get_cpu_time_5=vl_get_cpu_time();
+      return_value_vl_get_printf_func_4("kmeans: K-means terminated in %.2f s with energy %g\n", return_value_vl_get_cpu_time_5 - timeRef, energy);
     }
 
     if(energy < bestEnergy || repetition == 0ul)
@@ -18684,9 +18684,9 @@ extern double vl_kmeans_cluster(struct _VlKMeans *self, const void *data, unsign
       bestEnergy = energy;
       if(bestCenters == NULL)
       {
-        unsigned long long int return_value_vl_get_type_size$6;
-        return_value_vl_get_type_size$6=vl_get_type_size$link2(self->dataType);
-        bestCenters=vl_malloc(return_value_vl_get_type_size$6 * self->dimension * self->numCenters);
+        unsigned long long int return_value_vl_get_type_size_6;
+        return_value_vl_get_type_size_6=vl_get_type_size_link2(self->dataType);
+        bestCenters=vl_malloc(return_value_vl_get_type_size_6 * self->dimension * self->numCenters);
       }
 
       temp = bestCenters;
@@ -18764,9 +18764,9 @@ extern void vl_kmeans_init_centers_with_rand_data(struct _VlKMeans *self, const 
 extern struct _VlKMeans * vl_kmeans_new(unsigned int dataType, enum _VlVectorComparisonType distance)
 {
   struct _VlKMeans *self;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc((unsigned long int)1, sizeof(struct _VlKMeans) /*128ul*/ );
-  self = (struct _VlKMeans *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc((unsigned long int)1, sizeof(struct _VlKMeans) /*128ul*/ );
+  self = (struct _VlKMeans *)return_value_vl_calloc_1;
   self->algorithm = (enum _VlKMeansAlgorithm)VlKMeansLloyd;
   self->distance = distance;
   self->dataType = dataType;
@@ -18787,9 +18787,9 @@ extern struct _VlKMeans * vl_kmeans_new(unsigned int dataType, enum _VlVectorCom
 extern struct _VlKMeans * vl_kmeans_new_copy(const struct _VlKMeans *kmeans)
 {
   struct _VlKMeans *self;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(struct _VlKMeans) /*128ul*/ );
-  self = (struct _VlKMeans *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(struct _VlKMeans) /*128ul*/ );
+  self = (struct _VlKMeans *)return_value_vl_malloc_1;
   self->algorithm = kmeans->algorithm;
   self->distance = kmeans->distance;
   self->dataType = kmeans->dataType;
@@ -18805,21 +18805,21 @@ extern struct _VlKMeans * vl_kmeans_new_copy(const struct _VlKMeans *kmeans)
   if(!(kmeans->centers == NULL))
   {
     unsigned long long int dataSize;
-    unsigned long long int return_value_vl_get_type_size$2;
-    return_value_vl_get_type_size$2=vl_get_type_size$link2(self->dataType);
-    dataSize = return_value_vl_get_type_size$2 * self->dimension * self->numCenters;
+    unsigned long long int return_value_vl_get_type_size_2;
+    return_value_vl_get_type_size_2=vl_get_type_size_link2(self->dataType);
+    dataSize = return_value_vl_get_type_size_2 * self->dimension * self->numCenters;
     self->centers=vl_malloc(dataSize);
     memcpy(self->centers, kmeans->centers, dataSize);
   }
 
   if(!(kmeans->centerDistances == NULL))
   {
-    unsigned long long int vl_kmeans_new_copy$$1$$2$$dataSize;
-    unsigned long long int return_value_vl_get_type_size$3;
-    return_value_vl_get_type_size$3=vl_get_type_size$link2(self->dataType);
-    vl_kmeans_new_copy$$1$$2$$dataSize = return_value_vl_get_type_size$3 * self->numCenters * self->numCenters;
-    self->centerDistances=vl_malloc(vl_kmeans_new_copy$$1$$2$$dataSize);
-    memcpy(self->centerDistances, kmeans->centerDistances, vl_kmeans_new_copy$$1$$2$$dataSize);
+    unsigned long long int vl_kmeans_new_copy__1__2__dataSize;
+    unsigned long long int return_value_vl_get_type_size_3;
+    return_value_vl_get_type_size_3=vl_get_type_size_link2(self->dataType);
+    vl_kmeans_new_copy__1__2__dataSize = return_value_vl_get_type_size_3 * self->numCenters * self->numCenters;
+    self->centerDistances=vl_malloc(vl_kmeans_new_copy__1__2__dataSize);
+    memcpy(self->centerDistances, kmeans->centerDistances, vl_kmeans_new_copy__1__2__dataSize);
   }
 
   return self;
@@ -18871,19 +18871,19 @@ extern void vl_kmeans_quantize_ann(struct _VlKMeans *self, unsigned int *assignm
 // file vl/kmeans.c line 1984
 extern double vl_kmeans_refine_centers(struct _VlKMeans *self, const void *data, unsigned long long int numData)
 {
-  double return_value__vl_kmeans_refine_centers_f$1;
-  double return_value__vl_kmeans_refine_centers_d$2;
+  double return_value__vl_kmeans_refine_centers_f_1;
+  double return_value__vl_kmeans_refine_centers_d_2;
   switch(self->dataType)
   {
     case (unsigned int)1:
     {
-      return_value__vl_kmeans_refine_centers_f$1=_vl_kmeans_refine_centers_f(self, (const float *)data, numData);
-      return return_value__vl_kmeans_refine_centers_f$1;
+      return_value__vl_kmeans_refine_centers_f_1=_vl_kmeans_refine_centers_f(self, (const float *)data, numData);
+      return return_value__vl_kmeans_refine_centers_f_1;
     }
     case (unsigned int)2:
     {
-      return_value__vl_kmeans_refine_centers_d$2=_vl_kmeans_refine_centers_d(self, (const double *)data, numData);
-      return return_value__vl_kmeans_refine_centers_d$2;
+      return_value__vl_kmeans_refine_centers_d_2=_vl_kmeans_refine_centers_d(self, (const double *)data, numData);
+      return return_value__vl_kmeans_refine_centers_d_2;
     }
     default:
       abort();
@@ -19142,9 +19142,9 @@ extern unsigned long long int vl_lbp_get_dimension(struct VlLbp_ *self)
 extern struct VlLbp_ * vl_lbp_new(enum _VlLbpMappingType type, signed int transposed)
 {
   struct VlLbp_ *self;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(struct VlLbp_) /*272ul*/ );
-  self = (struct VlLbp_ *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(struct VlLbp_) /*272ul*/ );
+  self = (struct VlLbp_ *)return_value_vl_malloc_1;
   if(self == ((struct VlLbp_ *)NULL))
   {
     vl_set_last_error(2, (const char *)(void *)0);
@@ -19189,9 +19189,9 @@ extern void vl_lbp_process(struct VlLbp_ *self, float *features, float *image, u
   {
     float wy1 = ((float)y + 0.5f) / (float)cellSize - 0.5f;
     signed int cy1;
-    signed long int return_value_vl_floor_f$1;
-    return_value_vl_floor_f$1=vl_floor_f(wy1);
-    cy1 = (signed int)return_value_vl_floor_f$1;
+    signed long int return_value_vl_floor_f_1;
+    return_value_vl_floor_f_1=vl_floor_f(wy1);
+    cy1 = (signed int)return_value_vl_floor_f_1;
     signed int cy2 = cy1 + 1;
     float wy2 = wy1 - (float)cy1;
     wy1 = 1.0f - wy2;
@@ -19202,9 +19202,9 @@ extern void vl_lbp_process(struct VlLbp_ *self, float *features, float *image, u
       {
         float wx1 = ((float)x + 0.5f) / (float)cellSize - 0.5f;
         signed int cx1;
-        signed long int return_value_vl_floor_f$2;
-        return_value_vl_floor_f$2=vl_floor_f(wx1);
-        cx1 = (signed int)return_value_vl_floor_f$2;
+        signed long int return_value_vl_floor_f_2;
+        return_value_vl_floor_f_2=vl_floor_f(wx1);
+        cx1 = (signed int)return_value_vl_floor_f_2;
         signed int cx2 = cx1 + 1;
         float wx2 = wx1 - (float)cx1;
         wx1 = 1.0f - wx2;
@@ -19265,15 +19265,15 @@ extern void vl_lbp_process(struct VlLbp_ *self, float *features, float *image, u
       k = (signed long long int)0;
       for( ; !(k >= (signed long int)(signed int)cdimension); k = k + 1ll)
         norm = norm + features[(signed long int)((unsigned long int)k * cstride)];
-      float return_value_sqrtf$3;
-      return_value_sqrtf$3=sqrtf(norm);
-      norm = return_value_sqrtf$3 + 1e-10f;
+      float return_value_sqrtf_3;
+      return_value_sqrtf_3=sqrtf(norm);
+      norm = return_value_sqrtf_3 + 1e-10f;
       k = (signed long long int)0;
       for( ; !(k >= (signed long int)(signed int)cdimension); k = k + 1ll)
       {
-        float return_value_sqrtf$4;
-        return_value_sqrtf$4=sqrtf(features[(signed long int)((unsigned long int)k * cstride)]);
-        features[(signed long int)((unsigned long int)k * cstride)] = return_value_sqrtf$4 / norm;
+        float return_value_sqrtf_4;
+        return_value_sqrtf_4=sqrtf(features[(signed long int)((unsigned long int)k * cstride)]);
+        features[(signed long int)((unsigned long int)k * cstride)] = return_value_sqrtf_4 / norm;
       }
       features = features + (signed long int)1;
     }
@@ -19336,66 +19336,66 @@ extern struct _VlLiopDesc * vl_liopdesc_new(signed int numNeighbours, signed int
   signed long long int i;
   signed long long int t;
   struct _VlLiopDesc *self;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(sizeof(struct _VlLiopDesc) /*104ul*/ , (unsigned long int)1);
-  self = (struct _VlLiopDesc *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(sizeof(struct _VlLiopDesc) /*104ul*/ , (unsigned long int)1);
+  self = (struct _VlLiopDesc *)return_value_vl_calloc_1;
   self->numNeighbours = numNeighbours;
   self->numSpatialBins = numSpatialBins;
   self->neighRadius = radius;
   self->intensityThreshold = (float)-(5.0 / (double)255);
-  signed int return_value_factorial$2;
-  return_value_factorial$2=factorial(numNeighbours);
-  self->dimension = (unsigned long long int)(return_value_factorial$2 * numSpatialBins);
+  signed int return_value_factorial_2;
+  return_value_factorial_2=factorial(numNeighbours);
+  self->dimension = (unsigned long long int)(return_value_factorial_2 * numSpatialBins);
   self->patchSize = (unsigned long long int)0;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * sideLength * sideLength);
-  self->patchPixels = (unsigned long long int *)return_value_vl_malloc$3;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * sideLength * sideLength);
+  self->patchPixels = (unsigned long long int *)return_value_vl_malloc_3;
   self->patchSideLength = sideLength;
-  signed long long int vl_liopdesc_new$$1$$1$$x;
-  signed long long int vl_liopdesc_new$$1$$1$$y;
-  signed long long int vl_liopdesc_new$$1$$1$$center = (signed long long int)((sideLength - (unsigned long int)1) / (unsigned long int)2);
-  double vl_liopdesc_new$$1$$1$$t = (double)((float)vl_liopdesc_new$$1$$1$$center - radius) + 0.6;
-  signed long long int t2 = (signed long long int)(vl_liopdesc_new$$1$$1$$t * vl_liopdesc_new$$1$$1$$t);
-  vl_liopdesc_new$$1$$1$$y = (signed long long int)0;
-  unsigned long long int tmp_post$4;
-  for( ; !(vl_liopdesc_new$$1$$1$$y >= (signed long int)(signed int)sideLength); vl_liopdesc_new$$1$$1$$y = vl_liopdesc_new$$1$$1$$y + 1ll)
+  signed long long int vl_liopdesc_new__1__1__x;
+  signed long long int vl_liopdesc_new__1__1__y;
+  signed long long int vl_liopdesc_new__1__1__center = (signed long long int)((sideLength - (unsigned long int)1) / (unsigned long int)2);
+  double vl_liopdesc_new__1__1__t = (double)((float)vl_liopdesc_new__1__1__center - radius) + 0.6;
+  signed long long int t2 = (signed long long int)(vl_liopdesc_new__1__1__t * vl_liopdesc_new__1__1__t);
+  vl_liopdesc_new__1__1__y = (signed long long int)0;
+  unsigned long long int tmp_post_4;
+  for( ; !(vl_liopdesc_new__1__1__y >= (signed long int)(signed int)sideLength); vl_liopdesc_new__1__1__y = vl_liopdesc_new__1__1__y + 1ll)
   {
-    vl_liopdesc_new$$1$$1$$x = (signed long long int)0;
-    for( ; !(vl_liopdesc_new$$1$$1$$x >= (signed long int)(signed int)sideLength); vl_liopdesc_new$$1$$1$$x = vl_liopdesc_new$$1$$1$$x + 1ll)
+    vl_liopdesc_new__1__1__x = (signed long long int)0;
+    for( ; !(vl_liopdesc_new__1__1__x >= (signed long int)(signed int)sideLength); vl_liopdesc_new__1__1__x = vl_liopdesc_new__1__1__x + 1ll)
     {
-      signed long long int dx = vl_liopdesc_new$$1$$1$$x - vl_liopdesc_new$$1$$1$$center;
-      signed long long int dy = vl_liopdesc_new$$1$$1$$y - vl_liopdesc_new$$1$$1$$center;
-      if(!(vl_liopdesc_new$$1$$1$$x == 0l) || !(vl_liopdesc_new$$1$$1$$y == 0l))
+      signed long long int dx = vl_liopdesc_new__1__1__x - vl_liopdesc_new__1__1__center;
+      signed long long int dy = vl_liopdesc_new__1__1__y - vl_liopdesc_new__1__1__center;
+      if(!(vl_liopdesc_new__1__1__x == 0l) || !(vl_liopdesc_new__1__1__y == 0l))
       {
         if(t2 >= dx * dx + dy * dy)
         {
-          tmp_post$4 = self->patchSize;
+          tmp_post_4 = self->patchSize;
           self->patchSize = self->patchSize + 1ull;
-          self->patchPixels[(signed long int)tmp_post$4] = (unsigned long int)vl_liopdesc_new$$1$$1$$x + (unsigned long int)vl_liopdesc_new$$1$$1$$y * sideLength;
+          self->patchPixels[(signed long int)tmp_post_4] = (unsigned long int)vl_liopdesc_new__1__1__x + (unsigned long int)vl_liopdesc_new__1__1__y * sideLength;
         }
 
       }
 
     }
   }
-  void *return_value_vl_malloc$5;
-  return_value_vl_malloc$5=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->patchSize);
-  self->patchIntensities = (float *)return_value_vl_malloc$5;
-  void *return_value_vl_malloc$6;
-  return_value_vl_malloc$6=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->patchSize);
-  self->patchPermutation = (unsigned long long int *)return_value_vl_malloc$6;
-  void *return_value_vl_malloc$7;
-  return_value_vl_malloc$7=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * (unsigned long int)self->numNeighbours);
-  self->neighPermutation = (unsigned long long int *)return_value_vl_malloc$7;
-  void *return_value_vl_malloc$8;
-  return_value_vl_malloc$8=vl_malloc(sizeof(float) /*4ul*/  * (unsigned long int)self->numNeighbours);
-  self->neighIntensities = (float *)return_value_vl_malloc$8;
-  void *return_value_vl_calloc$9;
-  return_value_vl_calloc$9=vl_calloc(sizeof(double) /*8ul*/ , (unsigned long int)self->numNeighbours * self->patchSize);
-  self->neighSamplesX = (double *)return_value_vl_calloc$9;
-  void *return_value_vl_calloc$10;
-  return_value_vl_calloc$10=vl_calloc(sizeof(double) /*8ul*/ , (unsigned long int)self->numNeighbours * self->patchSize);
-  self->neighSamplesY = (double *)return_value_vl_calloc$10;
+  void *return_value_vl_malloc_5;
+  return_value_vl_malloc_5=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->patchSize);
+  self->patchIntensities = (float *)return_value_vl_malloc_5;
+  void *return_value_vl_malloc_6;
+  return_value_vl_malloc_6=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * self->patchSize);
+  self->patchPermutation = (unsigned long long int *)return_value_vl_malloc_6;
+  void *return_value_vl_malloc_7;
+  return_value_vl_malloc_7=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * (unsigned long int)self->numNeighbours);
+  self->neighPermutation = (unsigned long long int *)return_value_vl_malloc_7;
+  void *return_value_vl_malloc_8;
+  return_value_vl_malloc_8=vl_malloc(sizeof(float) /*4ul*/  * (unsigned long int)self->numNeighbours);
+  self->neighIntensities = (float *)return_value_vl_malloc_8;
+  void *return_value_vl_calloc_9;
+  return_value_vl_calloc_9=vl_calloc(sizeof(double) /*8ul*/ , (unsigned long int)self->numNeighbours * self->patchSize);
+  self->neighSamplesX = (double *)return_value_vl_calloc_9;
+  void *return_value_vl_calloc_10;
+  return_value_vl_calloc_10=vl_calloc(sizeof(double) /*8ul*/ , (unsigned long int)self->numNeighbours * self->patchSize);
+  self->neighSamplesY = (double *)return_value_vl_calloc_10;
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)(signed int)self->patchSize); i = i + 1ll)
   {
@@ -19413,13 +19413,13 @@ extern struct _VlLiopDesc * vl_liopdesc_new(signed int numNeighbours, signed int
     for( ; !(t >= (signed long int)self->numNeighbours); t = t + 1ll)
     {
       double x1;
-      double return_value_cos$11;
-      return_value_cos$11=cos(angle0 + dangle * (double)t);
-      x1 = x + (double)radius * return_value_cos$11 + (double)center;
+      double return_value_cos_11;
+      return_value_cos_11=cos(angle0 + dangle * (double)t);
+      x1 = x + (double)radius * return_value_cos_11 + (double)center;
       double y1;
-      double return_value_sin$12;
-      return_value_sin$12=sin(angle0 + dangle * (double)t);
-      y1 = y + (double)radius * return_value_sin$12 + (double)center;
+      double return_value_sin_12;
+      return_value_sin_12=sin(angle0 + dangle * (double)t);
+      y1 = y + (double)radius * return_value_sin_12 + (double)center;
       self->neighSamplesX[t + (signed long int)(signed int)self->numNeighbours * i] = x1;
       self->neighSamplesY[t + (signed long int)(signed int)self->numNeighbours * i] = y1;
     }
@@ -19431,9 +19431,9 @@ extern struct _VlLiopDesc * vl_liopdesc_new(signed int numNeighbours, signed int
 // file vl/liop.c line 405
 extern struct _VlLiopDesc * vl_liopdesc_new_basic(unsigned long long int sideLength)
 {
-  struct _VlLiopDesc *return_value_vl_liopdesc_new$1;
-  return_value_vl_liopdesc_new$1=vl_liopdesc_new(4, 6, (float)6.0, sideLength);
-  return return_value_vl_liopdesc_new$1;
+  struct _VlLiopDesc *return_value_vl_liopdesc_new_1;
+  return_value_vl_liopdesc_new_1=vl_liopdesc_new(4, 6, (float)6.0, sideLength);
+  return return_value_vl_liopdesc_new_1;
 }
 
 // vl_liopdesc_process
@@ -19441,7 +19441,7 @@ extern struct _VlLiopDesc * vl_liopdesc_new_basic(unsigned long long int sideLen
 extern void vl_liopdesc_process(struct _VlLiopDesc *self, float *desc, const float *patch)
 {
   signed long long int i;
-  signed long long int vl_liopdesc_process$$1$$t;
+  signed long long int vl_liopdesc_process__1__t;
   signed long long int offset;
   signed long long int numPermutations;
   signed long long int spatialBinArea;
@@ -19460,22 +19460,22 @@ extern void vl_liopdesc_process(struct _VlLiopDesc *self, float *desc, const flo
   if(self->intensityThreshold < 0.000000f)
   {
     i = (signed long long int)self->patchPermutation[(signed long int)0];
-    vl_liopdesc_process$$1$$t = (signed long long int)self->patchPermutation[(signed long int)(self->patchSize - (unsigned long int)1)];
-    threshold = -self->intensityThreshold * (self->patchIntensities[vl_liopdesc_process$$1$$t] - self->patchIntensities[i]);
+    vl_liopdesc_process__1__t = (signed long long int)self->patchPermutation[(signed long int)(self->patchSize - (unsigned long int)1)];
+    threshold = -self->intensityThreshold * (self->patchIntensities[vl_liopdesc_process__1__t] - self->patchIntensities[i]);
   }
 
   else
     threshold = self->intensityThreshold;
-  signed int return_value_factorial$1;
-  return_value_factorial$1=factorial(self->numNeighbours);
-  numPermutations = (signed long long int)return_value_factorial$1;
+  signed int return_value_factorial_1;
+  return_value_factorial_1=factorial(self->numNeighbours);
+  numPermutations = (signed long long int)return_value_factorial_1;
   spatialBinArea = (signed long long int)(self->patchSize / (unsigned long int)self->numSpatialBins);
   spatialBinEnd = spatialBinArea;
   spatialBinIndex = (signed long long int)0;
   offset = (signed long long int)0;
   i = (signed long long int)0;
-  double *tmp_post$2;
-  double *tmp_post$3;
+  double *tmp_post_2;
+  double *tmp_post_3;
   for( ; !(i >= (signed long int)(signed int)self->patchSize); i = i + 1ll)
   {
     signed long long int permIndex;
@@ -19494,21 +19494,21 @@ extern void vl_liopdesc_process(struct _VlLiopDesc *self, float *desc, const flo
 
     sx = self->neighSamplesX + (signed long int)((unsigned long int)self->numNeighbours * self->patchPermutation[i]);
     sy = self->neighSamplesY + (signed long int)((unsigned long int)self->numNeighbours * self->patchPermutation[i]);
-    vl_liopdesc_process$$1$$t = (signed long long int)0;
-    for( ; !(vl_liopdesc_process$$1$$t >= (signed long int)self->numNeighbours); vl_liopdesc_process$$1$$t = vl_liopdesc_process$$1$$t + 1ll)
+    vl_liopdesc_process__1__t = (signed long long int)0;
+    for( ; !(vl_liopdesc_process__1__t >= (signed long int)self->numNeighbours); vl_liopdesc_process__1__t = vl_liopdesc_process__1__t + 1ll)
     {
       double x;
-      tmp_post$2 = sx;
+      tmp_post_2 = sx;
       sx = sx + 1l;
-      x = *tmp_post$2;
+      x = *tmp_post_2;
       double y;
-      tmp_post$3 = sy;
+      tmp_post_3 = sy;
       sy = sy + 1l;
-      y = *tmp_post$3;
+      y = *tmp_post_3;
       signed long long int ix;
-      ix=vl_floor_d$link1(x);
+      ix=vl_floor_d_link1(x);
       signed long long int iy;
-      iy=vl_floor_d$link1(y);
+      iy=vl_floor_d_link1(y);
       double wx = x - (double)ix;
       double wy = y - (double)iy;
       double a = (double)0;
@@ -19528,8 +19528,8 @@ extern void vl_liopdesc_process(struct _VlLiopDesc *self, float *desc, const flo
       if(!(ix >= (signed long int)(L + -1)) && !(iy >= (signed long int)(L + -1)))
         d = (double)patch[ix + (signed long int)1 + (iy + (signed long int)1) * (signed long int)L];
 
-      self->neighPermutation[vl_liopdesc_process$$1$$t] = (unsigned long long int)vl_liopdesc_process$$1$$t;
-      self->neighIntensities[vl_liopdesc_process$$1$$t] = (float)(((double)1 - wy) * (a + (b - a) * wx) + wy * (c + (d - c) * wx));
+      self->neighPermutation[vl_liopdesc_process__1__t] = (unsigned long long int)vl_liopdesc_process__1__t;
+      self->neighIntensities[vl_liopdesc_process__1__t] = (float)(((double)1 - wy) * (a + (b - a) * wx) + wy * (c + (d - c) * wx));
     }
     neigh_sort(self, (unsigned long long int)self->numNeighbours);
     permIndex=get_permutation_index(self->neighPermutation, (unsigned long long int)self->numNeighbours);
@@ -19542,9 +19542,9 @@ extern void vl_liopdesc_process(struct _VlLiopDesc *self, float *desc, const flo
       t = k + 1;
       for( ; !(t >= self->numNeighbours); t = t + 1)
       {
-        double vl_liopdesc_process$$1$$4$$1$$3$$1$$1$$1$$1$$a = (double)self->neighIntensities[(signed long int)k];
-        double vl_liopdesc_process$$1$$4$$1$$3$$1$$1$$1$$1$$b = (double)self->neighIntensities[(signed long int)t];
-        weight = weight + (float)(vl_liopdesc_process$$1$$4$$1$$3$$1$$1$$1$$1$$a > vl_liopdesc_process$$1$$4$$1$$3$$1$$1$$1$$1$$b + (double)threshold || vl_liopdesc_process$$1$$4$$1$$3$$1$$1$$1$$1$$b > vl_liopdesc_process$$1$$4$$1$$3$$1$$1$$1$$1$$a + (double)threshold);
+        double vl_liopdesc_process__1__4__1__3__1__1__1__1__a = (double)self->neighIntensities[(signed long int)k];
+        double vl_liopdesc_process__1__4__1__3__1__1__1__1__b = (double)self->neighIntensities[(signed long int)t];
+        weight = weight + (float)(vl_liopdesc_process__1__4__1__3__1__1__1__1__a > vl_liopdesc_process__1__4__1__3__1__1__1__1__b + (double)threshold || vl_liopdesc_process__1__4__1__3__1__1__1__1__b > vl_liopdesc_process__1__4__1__3__1__1__1__1__a + (double)threshold);
       }
     }
     desc[permIndex + offset] = desc[permIndex + offset] + weight;
@@ -19553,19 +19553,19 @@ extern void vl_liopdesc_process(struct _VlLiopDesc *self, float *desc, const flo
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)(signed int)self->dimension); i = i + 1ll)
     norm = norm + desc[i] * desc[i];
-  double return_value_sqrt$4;
-  return_value_sqrt$4=sqrt((double)norm);
-  double tmp_if_expr$6;
-  double return_value_sqrt$5;
-  if(return_value_sqrt$4 > 1e-12)
+  double return_value_sqrt_4;
+  return_value_sqrt_4=sqrt((double)norm);
+  double tmp_if_expr_6;
+  double return_value_sqrt_5;
+  if(return_value_sqrt_4 > 1e-12)
   {
-    return_value_sqrt$5=sqrt((double)norm);
-    tmp_if_expr$6 = return_value_sqrt$5;
+    return_value_sqrt_5=sqrt((double)norm);
+    tmp_if_expr_6 = return_value_sqrt_5;
   }
 
   else
-    tmp_if_expr$6 = 1e-12;
-  norm = (float)tmp_if_expr$6;
+    tmp_if_expr_6 = 1e-12;
+  norm = (float)tmp_if_expr_6;
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)(signed int)self->dimension); i = i + 1ll)
     desc[i] = desc[i] / norm;
@@ -19587,17 +19587,17 @@ static void vl_lock_state(void)
   unsigned long int thisThread;
   thisThread=pthread_self();
   pthread_mutex_lock(&state->mutex);
-  _Bool tmp_if_expr$2;
-  signed int return_value_pthread_equal$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_pthread_equal_1;
   if(state->mutexCount >= 1ul)
   {
-    return_value_pthread_equal$1=pthread_equal(state->mutexOwner, thisThread);
-    tmp_if_expr$2 = return_value_pthread_equal$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pthread_equal_1=pthread_equal(state->mutexOwner, thisThread);
+    tmp_if_expr_2 = return_value_pthread_equal_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     state->mutexCount = state->mutexCount + 1ul;
 
   else
@@ -19614,46 +19614,46 @@ static void vl_lock_state(void)
 // file vl/mathop.h line 262
 static inline double vl_log2_d(double x)
 {
-  double return_value___builtin_log2$1;
-  return_value___builtin_log2$1=__builtin_log2(x);
-  return return_value___builtin_log2$1;
+  double return_value___builtin_log2_1;
+  return_value___builtin_log2_1=__builtin_log2(x);
+  return return_value___builtin_log2_1;
 }
 
-// vl_log2_d$link1
+// vl_log2_d_link1
 // file vl/mathop.h line 262
-static inline double vl_log2_d$link1(double x$link1)
+static inline double vl_log2_d_link1(double x_link1)
 {
-  double return_value___builtin_log2$1$link1;
-  return_value___builtin_log2$1$link1=__builtin_log2(x$link1);
-  return return_value___builtin_log2$1$link1;
+  double return_value___builtin_log2_1_link1;
+  return_value___builtin_log2_1_link1=__builtin_log2(x_link1);
+  return return_value___builtin_log2_1_link1;
 }
 
-// vl_log2_d$link2
+// vl_log2_d_link2
 // file vl/mathop.h line 262
-static inline double vl_log2_d$link2(double x$link2)
+static inline double vl_log2_d_link2(double x_link2)
 {
-  double return_value___builtin_log2$1$link2;
-  return_value___builtin_log2$1$link2=__builtin_log2(x$link2);
-  return return_value___builtin_log2$1$link2;
+  double return_value___builtin_log2_1_link2;
+  return_value___builtin_log2_1_link2=__builtin_log2(x_link2);
+  return return_value___builtin_log2_1_link2;
 }
 
 // vl_log2_f
 // file vl/mathop.h line 275
 static inline float vl_log2_f(float x)
 {
-  float return_value___builtin_log2f$1;
-  return_value___builtin_log2f$1=__builtin_log2f(x);
-  return return_value___builtin_log2f$1;
+  float return_value___builtin_log2f_1;
+  return_value___builtin_log2f_1=__builtin_log2f(x);
+  return return_value___builtin_log2f_1;
 }
 
 // vl_malloc
 // file vl/generic.h line 143
 extern void * vl_malloc(unsigned long int n)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
   void *return_value;
-  return_value=return_value_vl_get_state$1->malloc_func(n);
+  return_value=return_value_vl_get_state_1->malloc_func(n);
   return return_value;
 }
 
@@ -19739,17 +19739,17 @@ extern void vl_mser_ell_fit(struct _VlMserFilt *f)
       if(!(f->ell == ((float *)NULL)))
         vl_free((void *)f->ell);
 
-      void *return_value_vl_malloc$1;
-      return_value_vl_malloc$1=vl_malloc(sizeof(float) /*4ul*/  * (unsigned long int)f->nmer * (unsigned long int)f->dof);
-      f->ell = (float *)return_value_vl_malloc$1;
+      void *return_value_vl_malloc_1;
+      return_value_vl_malloc_1=vl_malloc(sizeof(float) /*4ul*/  * (unsigned long int)f->nmer * (unsigned long int)f->dof);
+      f->ell = (float *)return_value_vl_malloc_1;
       f->rell = f->nmer;
     }
 
     if(f->acc == ((float *)NULL))
     {
-      void *return_value_vl_malloc$2;
-      return_value_vl_malloc$2=vl_malloc(sizeof(float) /*4ul*/  * (unsigned long int)f->nel);
-      f->acc = (float *)return_value_vl_malloc$2;
+      void *return_value_vl_malloc_2;
+      return_value_vl_malloc_2=vl_malloc(sizeof(float) /*4ul*/  * (unsigned long int)f->nel);
+      f->acc = (float *)return_value_vl_malloc_2;
     }
 
     acc = f->acc;
@@ -19784,9 +19784,9 @@ extern void vl_mser_ell_fit(struct _VlMserFilt *f)
       i = 0;
       for( ; !(i >= njoins); i = i + 1)
       {
-        unsigned int vl_mser_ell_fit$$1$$3$$1$$3$$1$$index = joins[(signed long int)i];
-        unsigned int parent = (r + (signed long int)vl_mser_ell_fit$$1$$3$$1$$3$$1$$index)->parent;
-        acc[(signed long int)parent] = acc[(signed long int)parent] + acc[(signed long int)vl_mser_ell_fit$$1$$3$$1$$3$$1$$index];
+        unsigned int vl_mser_ell_fit__1__3__1__3__1__index = joins[(signed long int)i];
+        unsigned int parent = (r + (signed long int)vl_mser_ell_fit__1__3__1__3__1__index)->parent;
+        acc[(signed long int)parent] = acc[(signed long int)parent] + acc[(signed long int)vl_mser_ell_fit__1__3__1__3__1__index];
       }
       i = 0;
       for( ; !(i >= nmer); i = i + 1)
@@ -19799,8 +19799,8 @@ extern void vl_mser_ell_fit(struct _VlMserFilt *f)
     for( ; !(index >= nmer); index = index + 1)
     {
       float *pt = ell + (signed long int)(index * dof);
-      unsigned int vl_mser_ell_fit$$1$$4$$1$$idx = mer[(signed long int)index];
-      float area = (float)(r + (signed long int)vl_mser_ell_fit$$1$$4$$1$$idx)->area;
+      unsigned int vl_mser_ell_fit__1__4__1__idx = mer[(signed long int)index];
+      float area = (float)(r + (signed long int)vl_mser_ell_fit__1__4__1__idx)->area;
       d = 0;
       for( ; !(d >= dof); d = d + 1)
       {
@@ -19828,22 +19828,22 @@ extern struct _VlMserFilt * vl_mser_new(signed int ndims, const signed int *dims
   struct _VlMserFilt *f;
   signed int *strides;
   signed int k;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc(sizeof(struct _VlMserFilt) /*208ul*/ , (unsigned long int)1);
-  f = (struct _VlMserFilt *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc(sizeof(struct _VlMserFilt) /*208ul*/ , (unsigned long int)1);
+  f = (struct _VlMserFilt *)return_value_vl_calloc_1;
   f->ndims = ndims;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)ndims);
-  f->dims = (signed int *)return_value_vl_malloc$2;
-  void *return_value_vl_malloc$3;
-  return_value_vl_malloc$3=vl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)ndims);
-  f->subs = (signed int *)return_value_vl_malloc$3;
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)ndims);
-  f->dsubs = (signed int *)return_value_vl_malloc$4;
-  void *return_value_vl_malloc$5;
-  return_value_vl_malloc$5=vl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)ndims);
-  f->strides = (signed int *)return_value_vl_malloc$5;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)ndims);
+  f->dims = (signed int *)return_value_vl_malloc_2;
+  void *return_value_vl_malloc_3;
+  return_value_vl_malloc_3=vl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)ndims);
+  f->subs = (signed int *)return_value_vl_malloc_3;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)ndims);
+  f->dsubs = (signed int *)return_value_vl_malloc_4;
+  void *return_value_vl_malloc_5;
+  return_value_vl_malloc_5=vl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)ndims);
+  f->strides = (signed int *)return_value_vl_malloc_5;
   strides = f->strides;
   k = 0;
   for( ; !(k >= ndims); k = k + 1)
@@ -19854,15 +19854,15 @@ extern struct _VlMserFilt * vl_mser_new(signed int ndims, const signed int *dims
     strides[(signed long int)k] = strides[(signed long int)(k - 1)] * dims[(signed long int)(k - 1)];
   f->nel = strides[(signed long int)(ndims - 1)] * dims[(signed long int)(ndims - 1)];
   f->dof = (ndims * (ndims + 1)) / 2 + ndims;
-  void *return_value_vl_malloc$6;
-  return_value_vl_malloc$6=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)f->nel);
-  f->perm = (unsigned int *)return_value_vl_malloc$6;
-  void *return_value_vl_malloc$7;
-  return_value_vl_malloc$7=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)f->nel);
-  f->joins = (unsigned int *)return_value_vl_malloc$7;
-  void *return_value_vl_malloc$8;
-  return_value_vl_malloc$8=vl_malloc(sizeof(struct _VlMserReg) /*16ul*/  * (unsigned long int)f->nel);
-  f->r = (struct _VlMserReg *)return_value_vl_malloc$8;
+  void *return_value_vl_malloc_6;
+  return_value_vl_malloc_6=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)f->nel);
+  f->perm = (unsigned int *)return_value_vl_malloc_6;
+  void *return_value_vl_malloc_7;
+  return_value_vl_malloc_7=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)f->nel);
+  f->joins = (unsigned int *)return_value_vl_malloc_7;
+  void *return_value_vl_malloc_8;
+  return_value_vl_malloc_8=vl_malloc(sizeof(struct _VlMserReg) /*16ul*/  * (unsigned long int)f->nel);
+  f->r = (struct _VlMserReg *)return_value_vl_malloc_8;
   f->er = ((struct _VlMserExtrReg *)NULL);
   f->rer = 0;
   f->mer = ((unsigned int *)NULL);
@@ -19918,33 +19918,33 @@ extern void vl_mser_process(struct _VlMserFilt *f, const unsigned char *im)
   i = (signed int)nel;
   while(i >= 1)
   {
-    unsigned char vl_mser_process$$1$$1$$3$$1$$v;
+    unsigned char vl_mser_process__1__1__3__1__v;
     i = i - 1;
-    vl_mser_process$$1$$1$$3$$1$$v = im[(signed long int)i];
-    unsigned int vl_mser_process$$1$$1$$3$$1$$j;
-    buckets[(signed long int)vl_mser_process$$1$$1$$3$$1$$v] = buckets[(signed long int)vl_mser_process$$1$$1$$3$$1$$v] - 1u;
-    vl_mser_process$$1$$1$$3$$1$$j = buckets[(signed long int)vl_mser_process$$1$$1$$3$$1$$v];
-    perm[(signed long int)vl_mser_process$$1$$1$$3$$1$$j] = (unsigned int)i;
+    vl_mser_process__1__1__3__1__v = im[(signed long int)i];
+    unsigned int vl_mser_process__1__1__3__1__j;
+    buckets[(signed long int)vl_mser_process__1__1__3__1__v] = buckets[(signed long int)vl_mser_process__1__1__3__1__v] - 1u;
+    vl_mser_process__1__1__3__1__j = buckets[(signed long int)vl_mser_process__1__1__3__1__v];
+    perm[(signed long int)vl_mser_process__1__1__3__1__j] = (unsigned int)i;
   }
   i = 0;
   for( ; !(i >= (signed int)nel); i = i + 1)
     (r + (signed long int)i)->parent = (unsigned int)((1ULL << 32) - (unsigned long int)1);
   i = 0;
-  _Bool tmp_if_expr$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  _Bool tmp_if_expr_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   for( ; !(i >= (signed int)nel); i = i + 1)
   {
-    unsigned int vl_mser_process$$1$$3$$1$$idx = perm[(signed long int)i];
-    unsigned char vl_mser_process$$1$$3$$1$$val = im[(signed long int)vl_mser_process$$1$$3$$1$$idx];
+    unsigned int vl_mser_process__1__3__1__idx = perm[(signed long int)i];
+    unsigned char vl_mser_process__1__3__1__val = im[(signed long int)vl_mser_process__1__3__1__idx];
     unsigned int r_idx;
-    (r + (signed long int)vl_mser_process$$1$$3$$1$$idx)->parent = vl_mser_process$$1$$3$$1$$idx;
-    (r + (signed long int)vl_mser_process$$1$$3$$1$$idx)->shortcut = vl_mser_process$$1$$3$$1$$idx;
-    (r + (signed long int)vl_mser_process$$1$$3$$1$$idx)->area = (unsigned int)1;
-    (r + (signed long int)vl_mser_process$$1$$3$$1$$idx)->height = (unsigned int)1;
-    r_idx = vl_mser_process$$1$$3$$1$$idx;
-    unsigned int temp = vl_mser_process$$1$$3$$1$$idx;
+    (r + (signed long int)vl_mser_process__1__3__1__idx)->parent = vl_mser_process__1__3__1__idx;
+    (r + (signed long int)vl_mser_process__1__3__1__idx)->shortcut = vl_mser_process__1__3__1__idx;
+    (r + (signed long int)vl_mser_process__1__3__1__idx)->area = (unsigned int)1;
+    (r + (signed long int)vl_mser_process__1__3__1__idx)->height = (unsigned int)1;
+    r_idx = vl_mser_process__1__3__1__idx;
+    unsigned int temp = vl_mser_process__1__3__1__idx;
     k = ndims - 1;
     for( ; k >= 0; k = k - 1)
     {
@@ -19959,16 +19959,16 @@ extern void vl_mser_process(struct _VlMserFilt *f, const unsigned char *im)
       k = 0;
       for( ; !(good == 0) && !(k >= ndims); k = k + 1)
       {
-        signed int vl_mser_process$$1$$3$$1$$2$$1$$1$$temp = dsubs[(signed long int)k] + subs[(signed long int)k];
-        if(vl_mser_process$$1$$3$$1$$2$$1$$1$$temp >= 0)
-          tmp_if_expr$1 = vl_mser_process$$1$$3$$1$$2$$1$$1$$temp < dims[(signed long int)k] ? (_Bool)1 : (_Bool)0;
+        signed int vl_mser_process__1__3__1__2__1__1__temp = dsubs[(signed long int)k] + subs[(signed long int)k];
+        if(vl_mser_process__1__3__1__2__1__1__temp >= 0)
+          tmp_if_expr_1 = vl_mser_process__1__3__1__2__1__1__temp < dims[(signed long int)k] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        good = good & (signed int)tmp_if_expr$1;
-        n_idx = n_idx + (unsigned int)(vl_mser_process$$1$$3$$1$$2$$1$$1$$temp * strides[(signed long int)k]);
+          tmp_if_expr_1 = (_Bool)0;
+        good = good & (signed int)tmp_if_expr_1;
+        n_idx = n_idx + (unsigned int)(vl_mser_process__1__3__1__2__1__1__temp * strides[(signed long int)k]);
       }
-      if(!(good == 0) && !(n_idx == vl_mser_process$$1$$3$$1$$idx))
+      if(!(good == 0) && !(n_idx == vl_mser_process__1__3__1__idx))
       {
         if(!((unsigned long int)(r + (signed long int)n_idx)->parent == 4294967295ull))
         {
@@ -19976,20 +19976,20 @@ extern void vl_mser_process(struct _VlMserFilt *f, const unsigned char *im)
           unsigned int nr_idx = (unsigned int)0;
           signed int hgt = (signed int)(r + (signed long int)r_idx)->height;
           signed int n_hgt = (signed int)(r + (signed long int)nr_idx)->height;
-          r_idx=climb(r, vl_mser_process$$1$$3$$1$$idx);
+          r_idx=climb(r, vl_mser_process__1__3__1__idx);
           nr_idx=climb(r, n_idx);
           if(!(r_idx == nr_idx))
           {
             nr_val = im[(signed long int)nr_idx];
-            if(nr_val == vl_mser_process$$1$$3$$1$$val && !(hgt >= n_hgt))
+            if(nr_val == vl_mser_process__1__3__1__val && !(hgt >= n_hgt))
             {
               (r + (signed long int)r_idx)->parent = nr_idx;
               (r + (signed long int)r_idx)->shortcut = nr_idx;
               (r + (signed long int)nr_idx)->area = (r + (signed long int)nr_idx)->area + (r + (signed long int)r_idx)->area;
               (r + (signed long int)nr_idx)->height = (unsigned int)(n_hgt > hgt + 1 ? n_hgt : hgt + 1);
-              tmp_post$2 = njoins;
+              tmp_post_2 = njoins;
               njoins = njoins + 1;
-              joins[(signed long int)tmp_post$2] = r_idx;
+              joins[(signed long int)tmp_post_2] = r_idx;
             }
 
             else
@@ -19998,10 +19998,10 @@ extern void vl_mser_process(struct _VlMserFilt *f, const unsigned char *im)
               (r + (signed long int)nr_idx)->shortcut = r_idx;
               (r + (signed long int)r_idx)->area = (r + (signed long int)r_idx)->area + (r + (signed long int)nr_idx)->area;
               (r + (signed long int)r_idx)->height = (unsigned int)(hgt > n_hgt + 1 ? hgt : n_hgt + 1);
-              tmp_post$3 = njoins;
+              tmp_post_3 = njoins;
               njoins = njoins + 1;
-              joins[(signed long int)tmp_post$3] = nr_idx;
-              if(!(nr_val == vl_mser_process$$1$$3$$1$$val))
+              joins[(signed long int)tmp_post_3] = nr_idx;
+              if(!(nr_val == vl_mser_process__1__3__1__val))
                 ner = ner + 1;
 
             }
@@ -20018,9 +20018,9 @@ extern void vl_mser_process(struct _VlMserFilt *f, const unsigned char *im)
         if(!(dsubs[(signed long int)k] >= 2))
           break;
 
-        tmp_post$4 = k;
+        tmp_post_4 = k;
         k = k + 1;
-        dsubs[(signed long int)tmp_post$4] = -1;
+        dsubs[(signed long int)tmp_post_4] = -1;
         if(k == ndims)
           goto done_all_neighbors;
 
@@ -20039,9 +20039,9 @@ extern void vl_mser_process(struct _VlMserFilt *f, const unsigned char *im)
     if(!(er == ((struct _VlMserExtrReg *)NULL)))
       vl_free((void *)er);
 
-    void *return_value_vl_malloc$5;
-    return_value_vl_malloc$5=vl_malloc(sizeof(struct _VlMserExtrReg) /*28ul*/  * (unsigned long int)ner);
-    er = (struct _VlMserExtrReg *)return_value_vl_malloc$5;
+    void *return_value_vl_malloc_5;
+    return_value_vl_malloc_5=vl_malloc(sizeof(struct _VlMserExtrReg) /*28ul*/  * (unsigned long int)ner);
+    er = (struct _VlMserExtrReg *)return_value_vl_malloc_5;
     f->er = er;
     f->rer = ner;
   }
@@ -20072,11 +20072,11 @@ extern void vl_mser_process(struct _VlMserFilt *f, const unsigned char *im)
   i = 0;
   for( ; !(i >= ner); i = i + 1)
   {
-    unsigned int vl_mser_process$$1$$6$$1$$idx = (unsigned int)(er + (signed long int)i)->index;
+    unsigned int vl_mser_process__1__6__1__idx = (unsigned int)(er + (signed long int)i)->index;
     do
-      vl_mser_process$$1$$6$$1$$idx = (r + (signed long int)vl_mser_process$$1$$6$$1$$idx)->parent;
-    while((unsigned long int)(r + (signed long int)vl_mser_process$$1$$6$$1$$idx)->shortcut == 4294967295ull);
-    (er + (signed long int)i)->parent = (signed int)(r + (signed long int)vl_mser_process$$1$$6$$1$$idx)->shortcut;
+      vl_mser_process__1__6__1__idx = (r + (signed long int)vl_mser_process__1__6__1__idx)->parent;
+    while((unsigned long int)(r + (signed long int)vl_mser_process__1__6__1__idx)->shortcut == 4294967295ull);
+    (er + (signed long int)i)->parent = (signed int)(r + (signed long int)vl_mser_process__1__6__1__idx)->shortcut;
     (er + (signed long int)i)->shortcut = (unsigned int)i;
   }
   i = 0;
@@ -20086,35 +20086,35 @@ extern void vl_mser_process(struct _VlMserFilt *f, const unsigned char *im)
     signed int top = (signed int)(er + (signed long int)i)->shortcut;
     while((_Bool)1)
     {
-      signed int vl_mser_process$$1$$7$$1$$1$$next = (er + (signed long int)top)->parent;
-      signed int next_val = (signed int)(er + (signed long int)vl_mser_process$$1$$7$$1$$1$$next)->value;
-      if(vl_mser_process$$1$$7$$1$$1$$next == top || !(top_val >= next_val))
+      signed int vl_mser_process__1__7__1__1__next = (er + (signed long int)top)->parent;
+      signed int next_val = (signed int)(er + (signed long int)vl_mser_process__1__7__1__1__next)->value;
+      if(vl_mser_process__1__7__1__1__next == top || !(top_val >= next_val))
         break;
 
-      top = vl_mser_process$$1$$7$$1$$1$$next;
+      top = vl_mser_process__1__7__1__1__next;
     }
-    signed int vl_mser_process$$1$$7$$1$$2$$area = (signed int)(er + (signed long int)i)->area;
+    signed int vl_mser_process__1__7__1__2__area = (signed int)(er + (signed long int)i)->area;
     signed int area_top = (signed int)(er + (signed long int)top)->area;
-    (er + (signed long int)i)->variation = (float)(area_top - vl_mser_process$$1$$7$$1$$2$$area) / (float)vl_mser_process$$1$$7$$1$$2$$area;
+    (er + (signed long int)i)->variation = (float)(area_top - vl_mser_process__1__7__1__2__area) / (float)vl_mser_process__1__7__1__2__area;
     (er + (signed long int)i)->max_stable = (unsigned int)1;
-    signed int vl_mser_process$$1$$7$$1$$3$$parent = (er + (signed long int)i)->parent;
-    signed int curr = (signed int)(er + (signed long int)vl_mser_process$$1$$7$$1$$3$$parent)->shortcut;
-    (er + (signed long int)vl_mser_process$$1$$7$$1$$3$$parent)->shortcut = (unsigned int)(top > curr ? top : curr);
+    signed int vl_mser_process__1__7__1__3__parent = (er + (signed long int)i)->parent;
+    signed int curr = (signed int)(er + (signed long int)vl_mser_process__1__7__1__3__parent)->shortcut;
+    (er + (signed long int)vl_mser_process__1__7__1__3__parent)->shortcut = (unsigned int)(top > curr ? top : curr);
   }
   nmer = ner;
   i = 0;
   for( ; !(i >= ner); i = i + 1)
   {
-    unsigned int vl_mser_process$$1$$8$$1$$parent = (unsigned int)(er + (signed long int)i)->parent;
-    unsigned char vl_mser_process$$1$$8$$1$$val = (er + (signed long int)i)->value;
+    unsigned int vl_mser_process__1__8__1__parent = (unsigned int)(er + (signed long int)i)->parent;
+    unsigned char vl_mser_process__1__8__1__val = (er + (signed long int)i)->value;
     float var = (er + (signed long int)i)->variation;
-    unsigned char vl_mser_process$$1$$8$$1$$p_val = (er + (signed long int)vl_mser_process$$1$$8$$1$$parent)->value;
-    float p_var = (er + (signed long int)vl_mser_process$$1$$8$$1$$parent)->variation;
+    unsigned char vl_mser_process__1__8__1__p_val = (er + (signed long int)vl_mser_process__1__8__1__parent)->value;
+    float p_var = (er + (signed long int)vl_mser_process__1__8__1__parent)->variation;
     unsigned int loser;
-    if(1 + (signed int)vl_mser_process$$1$$8$$1$$val >= (signed int)vl_mser_process$$1$$8$$1$$p_val)
+    if(1 + (signed int)vl_mser_process__1__8__1__val >= (signed int)vl_mser_process__1__8__1__p_val)
     {
       if(var < p_var)
-        loser = vl_mser_process$$1$$8$$1$$parent;
+        loser = vl_mser_process__1__8__1__parent;
 
       else
         loser = (unsigned int)i;
@@ -20201,9 +20201,9 @@ extern void vl_mser_process(struct _VlMserFilt *f, const unsigned char *im)
     if(!(mer == ((unsigned int *)NULL)))
       vl_free((void *)mer);
 
-    void *return_value_vl_malloc$6;
-    return_value_vl_malloc$6=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)nmer);
-    mer = (unsigned int *)return_value_vl_malloc$6;
+    void *return_value_vl_malloc_6;
+    return_value_vl_malloc_6=vl_malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)nmer);
+    mer = (unsigned int *)return_value_vl_malloc_6;
     f->mer = mer;
     f->rmer = nmer;
   }
@@ -20211,13 +20211,13 @@ extern void vl_mser_process(struct _VlMserFilt *f, const unsigned char *im)
   f->nmer = nmer;
   j = 0;
   i = 0;
-  signed int tmp_post$7;
+  signed int tmp_post_7;
   for( ; !(i >= ner); i = i + 1)
     if(!((er + (signed long int)i)->max_stable == 0u))
     {
-      tmp_post$7 = j;
+      tmp_post_7 = j;
       j = j + 1;
-      mer[(signed long int)tmp_post$7] = (unsigned int)(er + (signed long int)i)->index;
+      mer[(signed long int)tmp_post_7] = (unsigned int)(er + (signed long int)i)->index;
     }
 
 }
@@ -20238,14 +20238,14 @@ extern signed int vl_pgm_extract_data(struct _IO_FILE *f, const struct _VlPgmIma
     good = (signed int)(c == data_size);
     if(bpp == 2ul)
     {
-      unsigned long long int vl_pgm_extract_data$$1$$1$$1$$i;
+      unsigned long long int vl_pgm_extract_data__1__1__1__i;
       unsigned char *pt = (unsigned char *)data;
-      vl_pgm_extract_data$$1$$1$$1$$i = (unsigned long long int)0;
-      for( ; !(vl_pgm_extract_data$$1$$1$$1$$i >= 2ul * data_size); vl_pgm_extract_data$$1$$1$$1$$i = vl_pgm_extract_data$$1$$1$$1$$i + (unsigned long long int)2)
+      vl_pgm_extract_data__1__1__1__i = (unsigned long long int)0;
+      for( ; !(vl_pgm_extract_data__1__1__1__i >= 2ul * data_size); vl_pgm_extract_data__1__1__1__i = vl_pgm_extract_data__1__1__1__i + (unsigned long long int)2)
       {
-        unsigned char tmp = pt[(signed long int)vl_pgm_extract_data$$1$$1$$1$$i];
-        pt[(signed long int)vl_pgm_extract_data$$1$$1$$1$$i] = pt[(signed long int)(vl_pgm_extract_data$$1$$1$$1$$i + (unsigned long int)1)];
-        pt[(signed long int)(vl_pgm_extract_data$$1$$1$$1$$i + (unsigned long int)1)] = tmp;
+        unsigned char tmp = pt[(signed long int)vl_pgm_extract_data__1__1__1__i];
+        pt[(signed long int)vl_pgm_extract_data__1__1__1__i] = pt[(signed long int)(vl_pgm_extract_data__1__1__1__i + (unsigned long int)1)];
+        pt[(signed long int)(vl_pgm_extract_data__1__1__1__i + (unsigned long int)1)] = tmp;
       }
     }
 
@@ -20259,9 +20259,9 @@ extern signed int vl_pgm_extract_data(struct _IO_FILE *f, const struct _VlPgmIma
     i = (unsigned long long int)0;
     for( ; !(good == 0) && !(i >= data_size); i = i + 1ull)
     {
-      signed int return_value_fscanf$1;
-      return_value_fscanf$1=fscanf(f, " %ud", &v);
-      c = (unsigned long int)return_value_fscanf$1;
+      signed int return_value_fscanf_1;
+      return_value_fscanf_1=fscanf(f, " %ud", &v);
+      c = (unsigned long int)return_value_fscanf_1;
       if(bpp == 1ul)
         ((unsigned char *)data)[(signed long int)i] = (unsigned char)v;
 
@@ -20272,9 +20272,9 @@ extern signed int vl_pgm_extract_data(struct _IO_FILE *f, const struct _VlPgmIma
   }
   if(good == 0)
   {
-    signed int return_value_vl_set_last_error$2;
-    return_value_vl_set_last_error$2=vl_set_last_error(103, "Invalid PGM data");
-    return return_value_vl_set_last_error$2;
+    signed int return_value_vl_set_last_error_2;
+    return_value_vl_set_last_error_2=vl_set_last_error(103, "Invalid PGM data");
+    return return_value_vl_set_last_error_2;
   }
 
   return 0;
@@ -20295,9 +20295,9 @@ extern signed int vl_pgm_extract_head(struct _IO_FILE *f, struct _VlPgmImage *im
   sz=fread((void *)magic, (unsigned long int)1, (unsigned long int)2, f);
   if(!(sz >= 2ul))
   {
-    signed int return_value_vl_set_last_error$1;
-    return_value_vl_set_last_error$1=vl_set_last_error(101, "Invalid PGM header");
-    return return_value_vl_set_last_error$1;
+    signed int return_value_vl_set_last_error_1;
+    return_value_vl_set_last_error_1=vl_set_last_error(101, "Invalid PGM header");
+    return return_value_vl_set_last_error_1;
   }
 
   good = (signed int)((signed int)magic[(signed long int)0] == 80);
@@ -20318,9 +20318,9 @@ extern signed int vl_pgm_extract_head(struct _IO_FILE *f, struct _VlPgmImage *im
   }
   if(good == 0)
   {
-    signed int return_value_vl_set_last_error$2;
-    return_value_vl_set_last_error$2=vl_set_last_error(101, "Invalid PGM header");
-    return return_value_vl_set_last_error$2;
+    signed int return_value_vl_set_last_error_2;
+    return_value_vl_set_last_error_2=vl_set_last_error(101, "Invalid PGM header");
+    return return_value_vl_set_last_error_2;
   }
 
   good = 1;
@@ -20340,16 +20340,16 @@ extern signed int vl_pgm_extract_head(struct _IO_FILE *f, struct _VlPgmImage *im
   good = good & (signed int)(c == 10 || c == 9 || c == 32 || c == 13);
   if(good == 0)
   {
-    signed int return_value_vl_set_last_error$3;
-    return_value_vl_set_last_error$3=vl_set_last_error(102, "Invalid PGM meta information");
-    return return_value_vl_set_last_error$3;
+    signed int return_value_vl_set_last_error_3;
+    return_value_vl_set_last_error_3=vl_set_last_error(102, "Invalid PGM meta information");
+    return return_value_vl_set_last_error_3;
   }
 
   if((signed int)(max_value == 0) >= 65536)
   {
-    signed int return_value_vl_set_last_error$4;
-    return_value_vl_set_last_error$4=vl_set_last_error(102, "Invalid PGM meta information");
-    return return_value_vl_set_last_error$4;
+    signed int return_value_vl_set_last_error_4;
+    return_value_vl_set_last_error_4=vl_set_last_error(102, "Invalid PGM meta information");
+    return return_value_vl_set_last_error_4;
   }
 
   im->width = (unsigned long long int)width;
@@ -20387,9 +20387,9 @@ extern signed int vl_pgm_insert(struct _IO_FILE *f, const struct _VlPgmImage *im
   {
     unsigned long long int i;
     unsigned char *temp;
-    void *return_value_vl_malloc$1;
-    return_value_vl_malloc$1=vl_malloc((unsigned long int)2 * data_size);
-    temp = (unsigned char *)return_value_vl_malloc$1;
+    void *return_value_vl_malloc_1;
+    return_value_vl_malloc_1=vl_malloc((unsigned long int)2 * data_size);
+    temp = (unsigned char *)return_value_vl_malloc_1;
     memcpy((void *)temp, data, (unsigned long int)2 * data_size);
     i = (unsigned long long int)0;
     for( ; !(i >= 2ul * data_size); i = i + (unsigned long long int)2)
@@ -20406,9 +20406,9 @@ extern signed int vl_pgm_insert(struct _IO_FILE *f, const struct _VlPgmImage *im
     c=fwrite(data, bpp, data_size, f);
   if(!(c == data_size))
   {
-    signed int return_value_vl_set_last_error$2;
-    return_value_vl_set_last_error$2=vl_set_last_error(104, "Error writing PGM data");
-    return return_value_vl_set_last_error$2;
+    signed int return_value_vl_set_last_error_2;
+    return_value_vl_set_last_error_2=vl_set_last_error(104, "Error writing PGM data");
+    return return_value_vl_set_last_error_2;
   }
 
   return 0;
@@ -20423,9 +20423,9 @@ extern signed int vl_pgm_read_new(const char *name, struct _VlPgmImage *im, unsi
   f=fopen(name, "rb");
   if(f == ((struct _IO_FILE *)NULL))
   {
-    signed int return_value_vl_set_last_error$1;
-    return_value_vl_set_last_error$1=vl_set_last_error(104, "Error opening PGM file `%s' for reading", name);
-    return return_value_vl_set_last_error$1;
+    signed int return_value_vl_set_last_error_1;
+    return_value_vl_set_last_error_1=vl_set_last_error(104, "Error opening PGM file `%s' for reading", name);
+    return return_value_vl_set_last_error_1;
   }
 
   err=vl_pgm_extract_head(f, im);
@@ -20437,20 +20437,20 @@ extern signed int vl_pgm_read_new(const char *name, struct _VlPgmImage *im, unsi
 
   else
   {
-    unsigned long long int return_value_vl_pgm_get_bpp$3;
-    return_value_vl_pgm_get_bpp$3=vl_pgm_get_bpp(im);
-    if(return_value_vl_pgm_get_bpp$3 >= 2ul)
+    unsigned long long int return_value_vl_pgm_get_bpp_3;
+    return_value_vl_pgm_get_bpp_3=vl_pgm_get_bpp(im);
+    if(return_value_vl_pgm_get_bpp_3 >= 2ul)
     {
-      signed int return_value_vl_set_last_error$2;
-      return_value_vl_set_last_error$2=vl_set_last_error(3, "PGM with BPP > 1 not supported");
-      return return_value_vl_set_last_error$2;
+      signed int return_value_vl_set_last_error_2;
+      return_value_vl_set_last_error_2=vl_set_last_error(3, "PGM with BPP > 1 not supported");
+      return return_value_vl_set_last_error_2;
     }
 
-    unsigned long long int return_value_vl_pgm_get_npixels$4;
-    return_value_vl_pgm_get_npixels$4=vl_pgm_get_npixels(im);
-    void *return_value_vl_malloc$5;
-    return_value_vl_malloc$5=vl_malloc(return_value_vl_pgm_get_npixels$4 * sizeof(unsigned char) /*1ul*/ );
-    *data = (unsigned char *)return_value_vl_malloc$5;
+    unsigned long long int return_value_vl_pgm_get_npixels_4;
+    return_value_vl_pgm_get_npixels_4=vl_pgm_get_npixels(im);
+    void *return_value_vl_malloc_5;
+    return_value_vl_malloc_5=vl_malloc(return_value_vl_pgm_get_npixels_4 * sizeof(unsigned char) /*1ul*/ );
+    *data = (unsigned char *)return_value_vl_malloc_5;
     err=vl_pgm_extract_data(f, im, (void *)*data);
     if(!(err == 0))
     {
@@ -20477,9 +20477,9 @@ extern signed int vl_pgm_read_new_f(const char *name, struct _VlPgmImage *im, fl
   else
   {
     npixels=vl_pgm_get_npixels(im);
-    void *return_value_vl_malloc$1;
-    return_value_vl_malloc$1=vl_malloc(sizeof(float) /*4ul*/  * npixels);
-    *data = (float *)return_value_vl_malloc$1;
+    void *return_value_vl_malloc_1;
+    return_value_vl_malloc_1=vl_malloc(sizeof(float) /*4ul*/  * npixels);
+    *data = (float *)return_value_vl_malloc_1;
     unsigned long int k;
     float scale = 1.0f / (float)im->max_value;
     k = (unsigned long int)0;
@@ -20500,9 +20500,9 @@ extern signed int vl_pgm_write(const char *name, const unsigned char *data, sign
   f=fopen(name, "wb");
   if(f == ((struct _IO_FILE *)NULL))
   {
-    signed int return_value_vl_set_last_error$1;
-    return_value_vl_set_last_error$1=vl_set_last_error(104, "Error opening PGM file '%s' for writing", name);
-    return return_value_vl_set_last_error$1;
+    signed int return_value_vl_set_last_error_1;
+    return_value_vl_set_last_error_1=vl_set_last_error(104, "Error opening PGM file '%s' for writing", name);
+    return return_value_vl_set_last_error_1;
   }
 
   pgm.width = (unsigned long long int)width;
@@ -20520,30 +20520,30 @@ extern signed int vl_pgm_write_f(const char *name, const float *data, signed int
 {
   signed int err = 0;
   signed int k;
-  float min = +vl_infinity_f$link1.value;
-  float max = -vl_infinity_f$link1.value;
+  float min = +vl_infinity_f_link1.value;
+  float max = -vl_infinity_f_link1.value;
   float scale;
   unsigned char *buffer;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(float) /*4ul*/  * (unsigned long int)width * (unsigned long int)height);
-  buffer = (unsigned char *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(float) /*4ul*/  * (unsigned long int)width * (unsigned long int)height);
+  buffer = (unsigned char *)return_value_vl_malloc_1;
   k = 0;
-  float tmp_if_expr$2;
-  float tmp_if_expr$3;
+  float tmp_if_expr_2;
+  float tmp_if_expr_3;
   for( ; !(k >= height * width); k = k + 1)
   {
     if(min < data[(signed long int)k])
-      tmp_if_expr$2 = min;
+      tmp_if_expr_2 = min;
 
     else
-      tmp_if_expr$2 = data[(signed long int)k];
-    min = tmp_if_expr$2;
+      tmp_if_expr_2 = data[(signed long int)k];
+    min = tmp_if_expr_2;
     if(max > data[(signed long int)k])
-      tmp_if_expr$3 = max;
+      tmp_if_expr_3 = max;
 
     else
-      tmp_if_expr$3 = data[(signed long int)k];
-    max = tmp_if_expr$3;
+      tmp_if_expr_3 = data[(signed long int)k];
+    max = tmp_if_expr_3;
   }
   scale = (float)255 / ((max - min) + 1.19209290E-07F);
   k = 0;
@@ -20610,31 +20610,31 @@ static inline double vl_quickshift_inner(const double *I, signed int N1, signed 
 extern struct _VlQS * vl_quickshift_new(const double *image, signed int height, signed int width, signed int channels)
 {
   struct _VlQS *q;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(struct _VlQS) /*64ul*/ );
-  q = (struct _VlQS *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(struct _VlQS) /*64ul*/ );
+  q = (struct _VlQS *)return_value_vl_malloc_1;
   q->image = (double *)image;
   q->height = height;
   q->width = width;
   q->channels = channels;
   q->medoid = 0;
   q->tau = (double)((height > width ? height : width) / 50);
-  double tmp_if_expr$2;
+  double tmp_if_expr_2;
   if(q->tau / 3.000000 < 2.000000)
-    tmp_if_expr$2 = (double)2;
+    tmp_if_expr_2 = (double)2;
 
   else
-    tmp_if_expr$2 = q->tau / (double)3;
-  q->sigma = tmp_if_expr$2;
-  void *return_value_vl_calloc$3;
-  return_value_vl_calloc$3=vl_calloc((unsigned long int)(height * width), sizeof(double) /*8ul*/ );
-  q->dists = (double *)return_value_vl_calloc$3;
-  void *return_value_vl_calloc$4;
-  return_value_vl_calloc$4=vl_calloc((unsigned long int)(height * width), sizeof(signed int) /*4ul*/ );
-  q->parents = (signed int *)return_value_vl_calloc$4;
-  void *return_value_vl_calloc$5;
-  return_value_vl_calloc$5=vl_calloc((unsigned long int)(height * width), sizeof(double) /*8ul*/ );
-  q->density = (double *)return_value_vl_calloc$5;
+    tmp_if_expr_2 = q->tau / (double)3;
+  q->sigma = tmp_if_expr_2;
+  void *return_value_vl_calloc_3;
+  return_value_vl_calloc_3=vl_calloc((unsigned long int)(height * width), sizeof(double) /*8ul*/ );
+  q->dists = (double *)return_value_vl_calloc_3;
+  void *return_value_vl_calloc_4;
+  return_value_vl_calloc_4=vl_calloc((unsigned long int)(height * width), sizeof(signed int) /*4ul*/ );
+  q->parents = (signed int *)return_value_vl_calloc_4;
+  void *return_value_vl_calloc_5;
+  return_value_vl_calloc_5=vl_calloc((unsigned long int)(height * width), sizeof(double) /*8ul*/ );
+  q->density = (double *)return_value_vl_calloc_5;
   return q;
 }
 
@@ -20664,20 +20664,20 @@ extern void vl_quickshift_process(struct _VlQS *q)
   d = 2 + K;
   if(!(q->medoid == 0))
   {
-    void *return_value_vl_calloc$1;
-    return_value_vl_calloc$1=vl_calloc((unsigned long int)(N1 * N2 * d), sizeof(double) /*8ul*/ );
-    M = (double *)return_value_vl_calloc$1;
-    void *return_value_vl_calloc$2;
-    return_value_vl_calloc$2=vl_calloc((unsigned long int)(N1 * N2), sizeof(double) /*8ul*/ );
-    n = (double *)return_value_vl_calloc$2;
+    void *return_value_vl_calloc_1;
+    return_value_vl_calloc_1=vl_calloc((unsigned long int)(N1 * N2 * d), sizeof(double) /*8ul*/ );
+    M = (double *)return_value_vl_calloc_1;
+    void *return_value_vl_calloc_2;
+    return_value_vl_calloc_2=vl_calloc((unsigned long int)(N1 * N2), sizeof(double) /*8ul*/ );
+    n = (double *)return_value_vl_calloc_2;
   }
 
-  double return_value_ceil$3;
-  return_value_ceil$3=ceil((double)3 * sigma);
-  R = (signed int)return_value_ceil$3;
-  double return_value_ceil$4;
-  return_value_ceil$4=ceil(tau);
-  tR = (signed int)return_value_ceil$4;
+  double return_value_ceil_3;
+  return_value_ceil_3=ceil((double)3 * sigma);
+  R = (signed int)return_value_ceil_3;
+  double return_value_ceil_4;
+  return_value_ceil_4=ceil(tau);
+  tR = (signed int)return_value_ceil_4;
   if(!(n == ((double *)NULL)))
   {
     i2 = 0;
@@ -20708,9 +20708,9 @@ extern void vl_quickshift_process(struct _VlQS *q)
           double Dij;
           Dij=vl_quickshift_distance(I, N1, N2, K, i1, i2, j1, j2);
           double Fij;
-          double return_value_exp$5;
-          return_value_exp$5=exp(-Dij / ((double)2 * sigma * sigma));
-          Fij = -return_value_exp$5;
+          double return_value_exp_5;
+          return_value_exp_5=exp(-Dij / ((double)2 * sigma * sigma));
+          Fij = -return_value_exp_5;
           E[(signed long int)(i1 + N1 * i2)] = E[(signed long int)(i1 + N1 * i2)] - Fij;
           if(!(M == ((double *)NULL)))
           {
@@ -20737,23 +20737,23 @@ extern void vl_quickshift_process(struct _VlQS *q)
         double sc_best = (double)0;
         double j1_best = (double)i1;
         double j2_best = (double)i2;
-        signed int vl_quickshift_process$$1$$4$$1$$1$$1$$1$$j1min = i1 - R > 0 ? i1 - R : 0;
-        signed int vl_quickshift_process$$1$$4$$1$$1$$1$$1$$j1max = i1 + R < N1 - 1 ? i1 + R : N1 - 1;
-        signed int vl_quickshift_process$$1$$4$$1$$1$$1$$1$$j2min = i2 - R > 0 ? i2 - R : 0;
-        signed int vl_quickshift_process$$1$$4$$1$$1$$1$$1$$j2max = i2 + R < N2 - 1 ? i2 + R : N2 - 1;
-        j2 = vl_quickshift_process$$1$$4$$1$$1$$1$$1$$j2min;
-        for( ; vl_quickshift_process$$1$$4$$1$$1$$1$$1$$j2max >= j2; j2 = j2 + 1)
+        signed int vl_quickshift_process__1__4__1__1__1__1__j1min = i1 - R > 0 ? i1 - R : 0;
+        signed int vl_quickshift_process__1__4__1__1__1__1__j1max = i1 + R < N1 - 1 ? i1 + R : N1 - 1;
+        signed int vl_quickshift_process__1__4__1__1__1__1__j2min = i2 - R > 0 ? i2 - R : 0;
+        signed int vl_quickshift_process__1__4__1__1__1__1__j2max = i2 + R < N2 - 1 ? i2 + R : N2 - 1;
+        j2 = vl_quickshift_process__1__4__1__1__1__1__j2min;
+        for( ; vl_quickshift_process__1__4__1__1__1__1__j2max >= j2; j2 = j2 + 1)
         {
-          j1 = vl_quickshift_process$$1$$4$$1$$1$$1$$1$$j1min;
-          for( ; vl_quickshift_process$$1$$4$$1$$1$$1$$1$$j1max >= j1; j1 = j1 + 1)
+          j1 = vl_quickshift_process__1__4__1__1__1__1__j1min;
+          for( ; vl_quickshift_process__1__4__1__1__1__1__j1max >= j1; j1 = j1 + 1)
           {
             double Qij = -n[(signed long int)(j1 + j2 * N1)] * E[(signed long int)(i1 + i2 * N1)];
-            signed int vl_quickshift_process$$1$$4$$1$$1$$1$$1$$1$$1$$1$$1$$k;
+            signed int vl_quickshift_process__1__4__1__1__1__1__1__1__1__1__k;
             Qij = Qij - (double)(2 * j1) * M[(signed long int)(i1 + i2 * N1 + N1 * N2 * 0)];
             Qij = Qij - (double)(2 * j2) * M[(signed long int)(i1 + i2 * N1 + N1 * N2 * 1)];
-            vl_quickshift_process$$1$$4$$1$$1$$1$$1$$1$$1$$1$$1$$k = 0;
-            for( ; !(vl_quickshift_process$$1$$4$$1$$1$$1$$1$$1$$1$$1$$1$$k >= K); vl_quickshift_process$$1$$4$$1$$1$$1$$1$$1$$1$$1$$1$$k = vl_quickshift_process$$1$$4$$1$$1$$1$$1$$1$$1$$1$$1$$k + 1)
-              Qij = Qij - (double)2 * I[(signed long int)(j1 + j2 * N1 + N1 * N2 * vl_quickshift_process$$1$$4$$1$$1$$1$$1$$1$$1$$1$$1$$k)] * M[(signed long int)(i1 + i2 * N1 + N1 * N2 * (vl_quickshift_process$$1$$4$$1$$1$$1$$1$$1$$1$$1$$1$$k + 2))];
+            vl_quickshift_process__1__4__1__1__1__1__1__1__1__1__k = 0;
+            for( ; !(vl_quickshift_process__1__4__1__1__1__1__1__1__1__1__k >= K); vl_quickshift_process__1__4__1__1__1__1__1__1__1__1__k = vl_quickshift_process__1__4__1__1__1__1__1__1__1__1__k + 1)
+              Qij = Qij - (double)2 * I[(signed long int)(j1 + j2 * N1 + N1 * N2 * vl_quickshift_process__1__4__1__1__1__1__1__1__1__1__k)] * M[(signed long int)(i1 + i2 * N1 + N1 * N2 * (vl_quickshift_process__1__4__1__1__1__1__1__1__1__1__k + 2))];
             if(Qij > sc_best)
             {
               sc_best = Qij;
@@ -20778,33 +20778,33 @@ extern void vl_quickshift_process(struct _VlQS *q)
       for( ; !(i1 >= N1); i1 = i1 + 1)
       {
         double E0 = E[(signed long int)(i1 + N1 * i2)];
-        double d_best = vl_infinity_d$link3.value;
-        double vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j1_best = (double)i1;
-        double vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j2_best = (double)i2;
-        signed int vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j1min = i1 - tR > 0 ? i1 - tR : 0;
-        signed int vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j1max = i1 + tR < N1 - 1 ? i1 + tR : N1 - 1;
-        signed int vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j2min = i2 - tR > 0 ? i2 - tR : 0;
-        signed int vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j2max = i2 + tR < N2 - 1 ? i2 + tR : N2 - 1;
-        j2 = vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j2min;
-        for( ; vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j2max >= j2; j2 = j2 + 1)
+        double d_best = vl_infinity_d_link3.value;
+        double vl_quickshift_process__1__5__1__1__1__1__j1_best = (double)i1;
+        double vl_quickshift_process__1__5__1__1__1__1__j2_best = (double)i2;
+        signed int vl_quickshift_process__1__5__1__1__1__1__j1min = i1 - tR > 0 ? i1 - tR : 0;
+        signed int vl_quickshift_process__1__5__1__1__1__1__j1max = i1 + tR < N1 - 1 ? i1 + tR : N1 - 1;
+        signed int vl_quickshift_process__1__5__1__1__1__1__j2min = i2 - tR > 0 ? i2 - tR : 0;
+        signed int vl_quickshift_process__1__5__1__1__1__1__j2max = i2 + tR < N2 - 1 ? i2 + tR : N2 - 1;
+        j2 = vl_quickshift_process__1__5__1__1__1__1__j2min;
+        for( ; vl_quickshift_process__1__5__1__1__1__1__j2max >= j2; j2 = j2 + 1)
         {
-          j1 = vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j1min;
-          for( ; vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j1max >= j1; j1 = j1 + 1)
+          j1 = vl_quickshift_process__1__5__1__1__1__1__j1min;
+          for( ; vl_quickshift_process__1__5__1__1__1__1__j1max >= j1; j1 = j1 + 1)
             if(E[(signed long int)(N1 * j2 + j1)] > E0)
             {
-              double vl_quickshift_process$$1$$5$$1$$1$$1$$1$$1$$1$$1$$1$$1$$Dij;
-              vl_quickshift_process$$1$$5$$1$$1$$1$$1$$1$$1$$1$$1$$1$$Dij=vl_quickshift_distance(I, N1, N2, K, i1, i2, j1, j2);
-              if(vl_quickshift_process$$1$$5$$1$$1$$1$$1$$1$$1$$1$$1$$1$$Dij < d_best && vl_quickshift_process$$1$$5$$1$$1$$1$$1$$1$$1$$1$$1$$1$$Dij <= tau2)
+              double vl_quickshift_process__1__5__1__1__1__1__1__1__1__1__1__Dij;
+              vl_quickshift_process__1__5__1__1__1__1__1__1__1__1__1__Dij=vl_quickshift_distance(I, N1, N2, K, i1, i2, j1, j2);
+              if(vl_quickshift_process__1__5__1__1__1__1__1__1__1__1__1__Dij < d_best && vl_quickshift_process__1__5__1__1__1__1__1__1__1__1__1__Dij <= tau2)
               {
-                d_best = vl_quickshift_process$$1$$5$$1$$1$$1$$1$$1$$1$$1$$1$$1$$Dij;
-                vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j1_best = (double)j1;
-                vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j2_best = (double)j2;
+                d_best = vl_quickshift_process__1__5__1__1__1__1__1__1__1__1__1__Dij;
+                vl_quickshift_process__1__5__1__1__1__1__j1_best = (double)j1;
+                vl_quickshift_process__1__5__1__1__1__1__j2_best = (double)j2;
               }
 
             }
 
         }
-        parents[(signed long int)(i1 + N1 * i2)] = (signed int)(vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j1_best + (double)N1 * vl_quickshift_process$$1$$5$$1$$1$$1$$1$$j2_best);
+        parents[(signed long int)(i1 + N1 * i2)] = (signed int)(vl_quickshift_process__1__5__1__1__1__1__j1_best + (double)N1 * vl_quickshift_process__1__5__1__1__1__1__j2_best);
         dists[(signed long int)(i1 + N1 * i2)]=sqrt(d_best);
       }
     }
@@ -20829,9 +20829,9 @@ extern void vl_rand_init(struct _VlRand *self)
 // file ./vl/random.h line 106
 static inline signed int vl_rand_int31(struct _VlRand *self)
 {
-  unsigned int return_value_vl_rand_uint32$1;
-  return_value_vl_rand_uint32$1=vl_rand_uint32(self);
-  return (signed int)(return_value_vl_rand_uint32$1 >> 1);
+  unsigned int return_value_vl_rand_uint32_1;
+  return_value_vl_rand_uint32_1=vl_rand_uint32(self);
+  return (signed int)(return_value_vl_rand_uint32_1 >> 1);
 }
 
 // vl_rand_permute_indexes
@@ -20844,9 +20844,9 @@ extern void vl_rand_permute_indexes(struct _VlRand *self, signed long long int *
   i = (signed long long int)(size - (unsigned long int)1);
   for( ; i >= 1l; i = i - 1ll)
   {
-    unsigned long long int return_value_vl_rand_uindex$1;
-    return_value_vl_rand_uindex$1=vl_rand_uindex$link1(self, (unsigned long long int)(i + (signed long int)1));
-    j = (signed long long int)(signed int)return_value_vl_rand_uindex$1;
+    unsigned long long int return_value_vl_rand_uindex_1;
+    return_value_vl_rand_uindex_1=vl_rand_uindex_link1(self, (unsigned long long int)(i + (signed long int)1));
+    j = (signed long long int)(signed int)return_value_vl_rand_uindex_1;
     tmp = array[i];
     array[i] = array[j];
     array[j] = tmp;
@@ -20857,9 +20857,9 @@ extern void vl_rand_permute_indexes(struct _VlRand *self, signed long long int *
 // file vl/random.h line 117
 static inline double vl_rand_real1(struct _VlRand *self)
 {
-  unsigned int return_value_vl_rand_uint32$1;
-  return_value_vl_rand_uint32$1=vl_rand_uint32(self);
-  return (double)return_value_vl_rand_uint32$1 * (1.0 / 4294967295.0);
+  unsigned int return_value_vl_rand_uint32_1;
+  return_value_vl_rand_uint32_1=vl_rand_uint32(self);
+  return (double)return_value_vl_rand_uint32_1 * (1.0 / 4294967295.0);
 }
 
 // vl_rand_seed
@@ -20924,35 +20924,35 @@ static inline unsigned long long int vl_rand_uindex(struct _VlRand *self, unsign
 {
   if(!(range >= 4294967296ul))
   {
-    unsigned int return_value_vl_rand_uint32$1;
-    return_value_vl_rand_uint32$1=vl_rand_uint32(self);
-    return (unsigned long long int)(return_value_vl_rand_uint32$1 % (unsigned int)range);
+    unsigned int return_value_vl_rand_uint32_1;
+    return_value_vl_rand_uint32_1=vl_rand_uint32(self);
+    return (unsigned long long int)(return_value_vl_rand_uint32_1 % (unsigned int)range);
   }
 
   else
   {
-    unsigned long long int return_value_vl_rand_uint64$2;
-    return_value_vl_rand_uint64$2=vl_rand_uint64(self);
-    return return_value_vl_rand_uint64$2 % range;
+    unsigned long long int return_value_vl_rand_uint64_2;
+    return_value_vl_rand_uint64_2=vl_rand_uint64(self);
+    return return_value_vl_rand_uint64_2 % range;
   }
 }
 
-// vl_rand_uindex$link1
+// vl_rand_uindex_link1
 // file vl/random.h line 65
-static inline unsigned long long int vl_rand_uindex$link1(struct _VlRand *self$link1, unsigned long long int range$link1)
+static inline unsigned long long int vl_rand_uindex_link1(struct _VlRand *self_link1, unsigned long long int range_link1)
 {
-  if(!(range$link1 >= 4294967296ul))
+  if(!(range_link1 >= 4294967296ul))
   {
-    unsigned int return_value_vl_rand_uint32$1$link1;
-    return_value_vl_rand_uint32$1$link1=vl_rand_uint32(self$link1);
-    return (unsigned long long int)(return_value_vl_rand_uint32$1$link1 % (unsigned int)range$link1);
+    unsigned int return_value_vl_rand_uint32_1_link1;
+    return_value_vl_rand_uint32_1_link1=vl_rand_uint32(self_link1);
+    return (unsigned long long int)(return_value_vl_rand_uint32_1_link1 % (unsigned int)range_link1);
   }
 
   else
   {
-    unsigned long long int return_value_vl_rand_uint64$2$link1;
-    return_value_vl_rand_uint64$2$link1=vl_rand_uint64$link1(self$link1);
-    return return_value_vl_rand_uint64$2$link1 % range$link1;
+    unsigned long long int return_value_vl_rand_uint64_2_link1;
+    return_value_vl_rand_uint64_2_link1=vl_rand_uint64_link1(self_link1);
+    return return_value_vl_rand_uint64_2_link1 % range_link1;
   }
 }
 
@@ -20984,9 +20984,9 @@ extern unsigned int vl_rand_uint32(struct _VlRand *self)
     self->mti = (unsigned int)0;
   }
 
-  unsigned int tmp_post$1 = self->mti;
+  unsigned int tmp_post_1 = self->mti;
   self->mti = self->mti + 1u;
-  y = self->mt[(signed long int)tmp_post$1];
+  y = self->mt[(signed long int)tmp_post_1];
   y = y ^ y >> 11;
   y = y ^ y << 7 & 0x9d2c5680U;
   y = y ^ y << 15 & 0xefc60000U;
@@ -20999,39 +20999,39 @@ extern unsigned int vl_rand_uint32(struct _VlRand *self)
 static inline unsigned long long int vl_rand_uint64(struct _VlRand *self)
 {
   unsigned long long int a;
-  unsigned int return_value_vl_rand_uint32$1;
-  return_value_vl_rand_uint32$1=vl_rand_uint32(self);
-  a = (unsigned long long int)return_value_vl_rand_uint32$1;
+  unsigned int return_value_vl_rand_uint32_1;
+  return_value_vl_rand_uint32_1=vl_rand_uint32(self);
+  a = (unsigned long long int)return_value_vl_rand_uint32_1;
   unsigned long long int b;
-  unsigned int return_value_vl_rand_uint32$2;
-  return_value_vl_rand_uint32$2=vl_rand_uint32(self);
-  b = (unsigned long long int)return_value_vl_rand_uint32$2;
+  unsigned int return_value_vl_rand_uint32_2;
+  return_value_vl_rand_uint32_2=vl_rand_uint32(self);
+  b = (unsigned long long int)return_value_vl_rand_uint32_2;
   return a << 32 | b;
 }
 
-// vl_rand_uint64$link1
+// vl_rand_uint64_link1
 // file vl/random.h line 82
-static inline unsigned long long int vl_rand_uint64$link1(struct _VlRand *self$link1)
+static inline unsigned long long int vl_rand_uint64_link1(struct _VlRand *self_link1)
 {
-  unsigned long long int a$link1;
-  unsigned int return_value_vl_rand_uint32$1$link1;
-  return_value_vl_rand_uint32$1$link1=vl_rand_uint32(self$link1);
-  a$link1 = (unsigned long long int)return_value_vl_rand_uint32$1$link1;
-  unsigned long long int b$link1;
-  unsigned int return_value_vl_rand_uint32$2$link1;
-  return_value_vl_rand_uint32$2$link1=vl_rand_uint32(self$link1);
-  b$link1 = (unsigned long long int)return_value_vl_rand_uint32$2$link1;
-  return a$link1 << 32 | b$link1;
+  unsigned long long int a_link1;
+  unsigned int return_value_vl_rand_uint32_1_link1;
+  return_value_vl_rand_uint32_1_link1=vl_rand_uint32(self_link1);
+  a_link1 = (unsigned long long int)return_value_vl_rand_uint32_1_link1;
+  unsigned long long int b_link1;
+  unsigned int return_value_vl_rand_uint32_2_link1;
+  return_value_vl_rand_uint32_2_link1=vl_rand_uint32(self_link1);
+  b_link1 = (unsigned long long int)return_value_vl_rand_uint32_2_link1;
+  return a_link1 << 32 | b_link1;
 }
 
 // vl_realloc
 // file vl/generic.h line 144
 extern void * vl_realloc(void *ptr, unsigned long int n)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
   void *return_value;
-  return_value=return_value_vl_get_state$1->realloc_func(ptr, n);
+  return_value=return_value_vl_get_state_1->realloc_func(ptr, n);
   return return_value;
 }
 
@@ -21088,13 +21088,13 @@ extern signed int vl_refine_local_extreum_2(struct _VlCovDetExtremum2 *refined, 
   double alpha = ((Dxx + Dyy) * (Dxx + Dyy)) / (Dxx * Dyy - Dxy * Dxy);
   double edgeScore;
   if(alpha < 0.000000)
-    edgeScore = vl_infinity_d$link1.value;
+    edgeScore = vl_infinity_d_link1.value;
 
   else
   {
-    double return_value_sqrt$1;
-    return_value_sqrt$1=sqrt((0.25 * alpha - (double)1 > (double)0 ? 0.25 * alpha - (double)1 : (double)0) * alpha);
-    edgeScore = (0.5 * alpha - (double)1) + return_value_sqrt$1;
+    double return_value_sqrt_1;
+    return_value_sqrt_1=sqrt((0.25 * alpha - (double)1 > (double)0 ? 0.25 * alpha - (double)1 : (double)0) * alpha);
+    edgeScore = (0.5 * alpha - (double)1) + return_value_sqrt_1;
   }
   refined->xi = x;
   refined->yi = y;
@@ -21102,51 +21102,51 @@ extern signed int vl_refine_local_extreum_2(struct _VlCovDetExtremum2 *refined, 
   refined->y = (float)((double)y + b[(signed long int)1]);
   refined->peakScore = (float)peakScore;
   refined->edgeScore = (float)edgeScore;
-  _Bool tmp_if_expr$3;
-  double return_value_vl_abs_d$2;
+  _Bool tmp_if_expr_3;
+  double return_value_vl_abs_d_2;
   if(err == 0)
   {
-    return_value_vl_abs_d$2=vl_abs_d$link2(b[(signed long int)0]);
-    tmp_if_expr$3 = return_value_vl_abs_d$2 < 1.5 ? (_Bool)1 : (_Bool)0;
+    return_value_vl_abs_d_2=vl_abs_d_link2(b[(signed long int)0]);
+    tmp_if_expr_3 = return_value_vl_abs_d_2 < 1.5 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  double return_value_vl_abs_d$4;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  double return_value_vl_abs_d_4;
+  if(tmp_if_expr_3)
   {
-    return_value_vl_abs_d$4=vl_abs_d$link2(b[(signed long int)1]);
-    tmp_if_expr$5 = return_value_vl_abs_d$4 < 1.5 ? (_Bool)1 : (_Bool)0;
+    return_value_vl_abs_d_4=vl_abs_d_link2(b[(signed long int)1]);
+    tmp_if_expr_5 = return_value_vl_abs_d_4 < 1.5 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (float)0 <= refined->x ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (float)0 <= refined->x ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = refined->x <= (float)((signed int)width - 1) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_6 = (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = refined->x <= (float)((signed int)width - 1) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$8 = (float)0 <= refined->y ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_7 = (_Bool)0;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_8 = (float)0 <= refined->y ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$8 = (_Bool)0;
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$9 = refined->y <= (float)((signed int)height - 1) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_8 = (_Bool)0;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_9 = refined->y <= (float)((signed int)height - 1) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  return (signed int)tmp_if_expr$9;
+    tmp_if_expr_9 = (_Bool)0;
+  return (signed int)tmp_if_expr_9;
 }
 
 // vl_refine_local_extreum_3
@@ -21218,13 +21218,13 @@ extern signed int vl_refine_local_extreum_3(struct _VlCovDetExtremum3 *refined, 
   double alpha = ((Dxx + Dyy) * (Dxx + Dyy)) / (Dxx * Dyy - Dxy * Dxy);
   double edgeScore;
   if(alpha < 0.000000)
-    edgeScore = vl_infinity_d$link1.value;
+    edgeScore = vl_infinity_d_link1.value;
 
   else
   {
-    double return_value_sqrt$1;
-    return_value_sqrt$1=sqrt((0.25 * alpha - (double)1 > (double)0 ? 0.25 * alpha - (double)1 : (double)0) * alpha);
-    edgeScore = (0.5 * alpha - (double)1) + return_value_sqrt$1;
+    double return_value_sqrt_1;
+    return_value_sqrt_1=sqrt((0.25 * alpha - (double)1 > (double)0 ? 0.25 * alpha - (double)1 : (double)0) * alpha);
+    edgeScore = (0.5 * alpha - (double)1) + return_value_sqrt_1;
   }
   refined->xi = x;
   refined->yi = y;
@@ -21234,73 +21234,73 @@ extern signed int vl_refine_local_extreum_3(struct _VlCovDetExtremum3 *refined, 
   refined->z = (float)((double)z + b[(signed long int)2]);
   refined->peakScore = (float)peakScore;
   refined->edgeScore = (float)edgeScore;
-  _Bool tmp_if_expr$3;
-  double return_value_vl_abs_d$2;
+  _Bool tmp_if_expr_3;
+  double return_value_vl_abs_d_2;
   if(err == 0)
   {
-    return_value_vl_abs_d$2=vl_abs_d$link2(b[(signed long int)0]);
-    tmp_if_expr$3 = return_value_vl_abs_d$2 < 1.5 ? (_Bool)1 : (_Bool)0;
+    return_value_vl_abs_d_2=vl_abs_d_link2(b[(signed long int)0]);
+    tmp_if_expr_3 = return_value_vl_abs_d_2 < 1.5 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  double return_value_vl_abs_d$4;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  double return_value_vl_abs_d_4;
+  if(tmp_if_expr_3)
   {
-    return_value_vl_abs_d$4=vl_abs_d$link2(b[(signed long int)1]);
-    tmp_if_expr$5 = return_value_vl_abs_d$4 < 1.5 ? (_Bool)1 : (_Bool)0;
+    return_value_vl_abs_d_4=vl_abs_d_link2(b[(signed long int)1]);
+    tmp_if_expr_5 = return_value_vl_abs_d_4 < 1.5 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  _Bool tmp_if_expr$7;
-  double return_value_vl_abs_d$6;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  _Bool tmp_if_expr_7;
+  double return_value_vl_abs_d_6;
+  if(tmp_if_expr_5)
   {
-    return_value_vl_abs_d$6=vl_abs_d$link2(b[(signed long int)2]);
-    tmp_if_expr$7 = return_value_vl_abs_d$6 < 1.5 ? (_Bool)1 : (_Bool)0;
+    return_value_vl_abs_d_6=vl_abs_d_link2(b[(signed long int)2]);
+    tmp_if_expr_7 = return_value_vl_abs_d_6 < 1.5 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$8 = (float)0 <= refined->x ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_7 = (_Bool)0;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_8 = (float)0 <= refined->x ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$8 = (_Bool)0;
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$9 = refined->x <= (float)((signed int)width - 1) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_8 = (_Bool)0;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_9 = refined->x <= (float)((signed int)width - 1) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  _Bool tmp_if_expr$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$10 = (float)0 <= refined->y ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_9 = (_Bool)0;
+  _Bool tmp_if_expr_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_10 = (float)0 <= refined->y ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$10 = (_Bool)0;
-  _Bool tmp_if_expr$11;
-  if(tmp_if_expr$10)
-    tmp_if_expr$11 = refined->y <= (float)((signed int)height - 1) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_10 = (_Bool)0;
+  _Bool tmp_if_expr_11;
+  if(tmp_if_expr_10)
+    tmp_if_expr_11 = refined->y <= (float)((signed int)height - 1) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  _Bool tmp_if_expr$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$12 = (float)0 <= refined->z ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_11 = (_Bool)0;
+  _Bool tmp_if_expr_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_12 = (float)0 <= refined->z ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$12 = (_Bool)0;
-  _Bool tmp_if_expr$13;
-  if(tmp_if_expr$12)
-    tmp_if_expr$13 = refined->z <= (float)((signed int)depth - 1) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_12 = (_Bool)0;
+  _Bool tmp_if_expr_13;
+  if(tmp_if_expr_12)
+    tmp_if_expr_13 = refined->z <= (float)((signed int)depth - 1) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$13 = (_Bool)0;
-  return (signed int)tmp_if_expr$13;
+    tmp_if_expr_13 = (_Bool)0;
+  return (signed int)tmp_if_expr_13;
 }
 
 // vl_rodrigues
@@ -21424,18 +21424,18 @@ extern void vl_rodrigues(double *R_pt, double *dR_pt, const double *om_pt)
 // file vl/mathop.h line 212
 static inline signed long int vl_round_d(double x)
 {
-  signed int return_value___builtin_lround$1;
-  return_value___builtin_lround$1=__builtin_lround(x);
-  return (signed long int)return_value___builtin_lround$1;
+  signed int return_value___builtin_lround_1;
+  return_value___builtin_lround_1=__builtin_lround(x);
+  return (signed long int)return_value___builtin_lround_1;
 }
 
-// vl_round_d$link1
+// vl_round_d_link1
 // file vl/mathop.h line 212
-static inline signed long int vl_round_d$link1(double x$link1)
+static inline signed long int vl_round_d_link1(double x_link1)
 {
-  signed int return_value___builtin_lround$1$link1;
-  return_value___builtin_lround$1$link1=__builtin_lround(x$link1);
-  return (signed long int)return_value___builtin_lround$1$link1;
+  signed int return_value___builtin_lround_1_link1;
+  return_value___builtin_lround_1_link1=__builtin_lround(x_link1);
+  return (signed long int)return_value___builtin_lround_1_link1;
 }
 
 // vl_scalespace_delete
@@ -21467,29 +21467,29 @@ extern struct _VlScaleSpaceGeometry vl_scalespace_get_default_geometry(unsigned 
   geom.width = width;
   geom.height = height;
   geom.firstOctave = (signed long long int)0;
-  double return_value_vl_log2_d$1;
-  return_value_vl_log2_d$1=vl_log2_d$link2((double)(width < height ? width : height));
-  double return_value_floor$2;
-  return_value_floor$2=floor(return_value_vl_log2_d$1);
-  double tmp_if_expr$5;
-  double return_value_vl_log2_d$3;
-  double return_value_floor$4;
-  if(return_value_floor$2 + -3.000000 > 0.000000)
+  double return_value_vl_log2_d_1;
+  return_value_vl_log2_d_1=vl_log2_d_link2((double)(width < height ? width : height));
+  double return_value_floor_2;
+  return_value_floor_2=floor(return_value_vl_log2_d_1);
+  double tmp_if_expr_5;
+  double return_value_vl_log2_d_3;
+  double return_value_floor_4;
+  if(return_value_floor_2 + -3.000000 > 0.000000)
   {
-    return_value_vl_log2_d$3=vl_log2_d$link2((double)(width < height ? width : height));
-    return_value_floor$4=floor(return_value_vl_log2_d$3);
-    tmp_if_expr$5 = return_value_floor$4 - (double)3;
+    return_value_vl_log2_d_3=vl_log2_d_link2((double)(width < height ? width : height));
+    return_value_floor_4=floor(return_value_vl_log2_d_3);
+    tmp_if_expr_5 = return_value_floor_4 - (double)3;
   }
 
   else
-    tmp_if_expr$5 = (double)0;
-  geom.lastOctave = (signed long long int)tmp_if_expr$5;
+    tmp_if_expr_5 = (double)0;
+  geom.lastOctave = (signed long long int)tmp_if_expr_5;
   geom.octaveResolution = (unsigned long long int)3;
   geom.octaveFirstSubdivision = (signed long long int)0;
   geom.octaveLastSubdivision = (signed long long int)(geom.octaveResolution - (unsigned long int)1);
-  double return_value_pow$6;
-  return_value_pow$6=pow(2.0, 1.0 / (double)geom.octaveResolution);
-  geom.baseScale = 1.6 * return_value_pow$6;
+  double return_value_pow_6;
+  return_value_pow_6=pow(2.0, 1.0 / (double)geom.octaveResolution);
+  geom.baseScale = 1.6 * return_value_pow_6;
   geom.nominalScale = 0.5;
   return geom;
 }
@@ -21515,18 +21515,18 @@ extern float * vl_scalespace_get_level(struct _VlScaleSpace *self, signed long l
 // file vl/scalespace.c line 415
 extern const float * vl_scalespace_get_level_const(const struct _VlScaleSpace *self, signed long long int o, signed long long int s)
 {
-  float *return_value_vl_scalespace_get_level$1;
-  return_value_vl_scalespace_get_level$1=vl_scalespace_get_level((struct _VlScaleSpace *)self, o, s);
-  return return_value_vl_scalespace_get_level$1;
+  float *return_value_vl_scalespace_get_level_1;
+  return_value_vl_scalespace_get_level_1=vl_scalespace_get_level((struct _VlScaleSpace *)self, o, s);
+  return return_value_vl_scalespace_get_level_1;
 }
 
 // vl_scalespace_get_level_sigma
 // file vl/scalespace.h line 94
 extern double vl_scalespace_get_level_sigma(const struct _VlScaleSpace *self, signed long long int o, signed long long int s)
 {
-  double return_value_pow$1;
-  return_value_pow$1=pow(2.0, (double)o + (double)s / (double)self->geom.octaveResolution);
-  return self->geom.baseScale * return_value_pow$1;
+  double return_value_pow_1;
+  return_value_pow_1=pow(2.0, (double)o + (double)s / (double)self->geom.octaveResolution);
+  return self->geom.baseScale * return_value_pow_1;
 }
 
 // vl_scalespace_get_octave_geometry
@@ -21534,20 +21534,20 @@ extern double vl_scalespace_get_level_sigma(const struct _VlScaleSpace *self, si
 extern struct _VlScaleSpaceOctaveGeometry vl_scalespace_get_octave_geometry(const struct _VlScaleSpace *self, signed long long int o)
 {
   struct _VlScaleSpaceOctaveGeometry ogeom;
-  unsigned long long int tmp_if_expr$1;
+  unsigned long long int tmp_if_expr_1;
   if(-o >= 0l)
-    tmp_if_expr$1 = self->geom.width << -o;
+    tmp_if_expr_1 = self->geom.width << -o;
 
   else
-    tmp_if_expr$1 = self->geom.width >> -(-o);
-  ogeom.width = tmp_if_expr$1;
-  unsigned long long int tmp_if_expr$2;
+    tmp_if_expr_1 = self->geom.width >> -(-o);
+  ogeom.width = tmp_if_expr_1;
+  unsigned long long int tmp_if_expr_2;
   if(-o >= 0l)
-    tmp_if_expr$2 = self->geom.height << -o;
+    tmp_if_expr_2 = self->geom.height << -o;
 
   else
-    tmp_if_expr$2 = self->geom.height >> -(-o);
-  ogeom.height = tmp_if_expr$2;
+    tmp_if_expr_2 = self->geom.height >> -(-o);
+  ogeom.height = tmp_if_expr_2;
   ogeom.step=pow(2.0, (double)o);
   return ogeom;
 }
@@ -21558,9 +21558,9 @@ extern struct _VlScaleSpace * vl_scalespace_new(unsigned long long int width, un
 {
   struct _VlScaleSpaceGeometry geom;
   geom=vl_scalespace_get_default_geometry(width, height);
-  struct _VlScaleSpace *return_value_vl_scalespace_new_with_geometry$1;
-  return_value_vl_scalespace_new_with_geometry$1=vl_scalespace_new_with_geometry(geom);
-  return return_value_vl_scalespace_new_with_geometry$1;
+  struct _VlScaleSpace *return_value_vl_scalespace_new_with_geometry_1;
+  return_value_vl_scalespace_new_with_geometry_1=vl_scalespace_new_with_geometry(geom);
+  return return_value_vl_scalespace_new_with_geometry_1;
 }
 
 // vl_scalespace_new_copy
@@ -21591,9 +21591,9 @@ extern struct _VlScaleSpace * vl_scalespace_new_copy(struct _VlScaleSpace *self)
 // file vl/scalespace.c line 629
 extern struct _VlScaleSpace * vl_scalespace_new_shallow_copy(struct _VlScaleSpace *self)
 {
-  struct _VlScaleSpace *return_value_vl_scalespace_new_with_geometry$1;
-  return_value_vl_scalespace_new_with_geometry$1=vl_scalespace_new_with_geometry(self->geom);
-  return return_value_vl_scalespace_new_with_geometry$1;
+  struct _VlScaleSpace *return_value_vl_scalespace_new_with_geometry_1;
+  return_value_vl_scalespace_new_with_geometry_1=vl_scalespace_new_with_geometry(self->geom);
+  return return_value_vl_scalespace_new_with_geometry_1;
 }
 
 // vl_scalespace_new_with_geometry
@@ -21606,15 +21606,15 @@ extern struct _VlScaleSpace * vl_scalespace_new_with_geometry(struct _VlScaleSpa
   struct _VlScaleSpace *self;
   numOctaves = (unsigned long long int)((geom.lastOctave - geom.firstOctave) + (signed long int)1);
   numSublevels = (unsigned long long int)((geom.octaveLastSubdivision - geom.octaveFirstSubdivision) + (signed long int)1);
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc((unsigned long int)1, sizeof(struct _VlScaleSpace) /*80ul*/ );
-  self = (struct _VlScaleSpace *)return_value_vl_calloc$1;
-  void *return_value_vl_calloc$2;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc((unsigned long int)1, sizeof(struct _VlScaleSpace) /*80ul*/ );
+  self = (struct _VlScaleSpace *)return_value_vl_calloc_1;
+  void *return_value_vl_calloc_2;
   if(!(self == ((struct _VlScaleSpace *)NULL)))
   {
     self->geom = geom;
-    return_value_vl_calloc$2=vl_calloc(numOctaves, sizeof(float *) /*8ul*/ );
-    self->octaves = (float **)return_value_vl_calloc$2;
+    return_value_vl_calloc_2=vl_calloc(numOctaves, sizeof(float *) /*8ul*/ );
+    self->octaves = (float **)return_value_vl_calloc_2;
     if(!(self->octaves == ((float **)NULL)))
     {
       o = self->geom.firstOctave;
@@ -21623,9 +21623,9 @@ extern struct _VlScaleSpace * vl_scalespace_new_with_geometry(struct _VlScaleSpa
         struct _VlScaleSpaceOctaveGeometry ogeom;
         ogeom=vl_scalespace_get_octave_geometry(self, o);
         unsigned long long int octaveSize = ogeom.width * ogeom.height * numSublevels;
-        void *return_value_vl_malloc$3;
-        return_value_vl_malloc$3=vl_malloc(octaveSize * sizeof(float) /*4ul*/ );
-        self->octaves[o - self->geom.firstOctave] = (float *)return_value_vl_malloc$3;
+        void *return_value_vl_malloc_3;
+        return_value_vl_malloc_3=vl_malloc(octaveSize * sizeof(float) /*4ul*/ );
+        self->octaves[o - self->geom.firstOctave] = (float *)return_value_vl_malloc_3;
         if(self->octaves[o + -self->geom.firstOctave] == ((float *)NULL))
           goto err_alloc_octaves;
 
@@ -21712,32 +21712,32 @@ extern void vl_set_num_threads(unsigned long long int numThreads)
 {
   if(numThreads == 0ul)
   {
-    signed int return_value_omp_get_max_threads$1;
-    return_value_omp_get_max_threads$1=omp_get_max_threads();
-    numThreads = (unsigned long long int)return_value_omp_get_max_threads$1;
+    signed int return_value_omp_get_max_threads_1;
+    return_value_omp_get_max_threads_1=omp_get_max_threads();
+    numThreads = (unsigned long long int)return_value_omp_get_max_threads_1;
   }
 
-  struct _VlState *return_value_vl_get_state$2;
-  return_value_vl_get_state$2=vl_get_state();
-  return_value_vl_get_state$2->numThreads = numThreads;
+  struct _VlState *return_value_vl_get_state_2;
+  return_value_vl_get_state_2=vl_get_state();
+  return_value_vl_get_state_2->numThreads = numThreads;
 }
 
 // vl_set_printf_func
 // file vl/generic.c line 1372
 extern void vl_set_printf_func(signed int (*printf_func)(const char *, ...))
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  return_value_vl_get_state$1->printf_func = printf_func != ((signed int (*)(const char *, ...))NULL) ? printf_func : do_nothing_printf;
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  return_value_vl_get_state_1->printf_func = printf_func != ((signed int (*)(const char *, ...))NULL) ? printf_func : do_nothing_printf;
 }
 
 // vl_set_simd_enabled
 // file vl/generic.c line 1072
 extern void vl_set_simd_enabled(signed int x)
 {
-  struct _VlState *return_value_vl_get_state$1;
-  return_value_vl_get_state$1=vl_get_state();
-  return_value_vl_get_state$1->simdEnabled = x;
+  struct _VlState *return_value_vl_get_state_1;
+  return_value_vl_get_state_1=vl_get_state();
+  return_value_vl_get_state_1->simdEnabled = x;
 }
 
 // vl_slic_segment
@@ -21750,33 +21750,33 @@ extern void vl_slic_segment(unsigned int *segmentation, const float *image, unsi
   signed long long int u;
   signed long long int v;
   signed long long int k;
-  signed long long int vl_slic_segment$$1$$region;
+  signed long long int vl_slic_segment__1__region;
   unsigned long long int iter;
   unsigned long long int numRegionsX;
-  double return_value_ceil$1;
-  return_value_ceil$1=ceil((double)width / (double)regionSize);
-  numRegionsX = (unsigned long long int)return_value_ceil$1;
+  double return_value_ceil_1;
+  return_value_ceil_1=ceil((double)width / (double)regionSize);
+  numRegionsX = (unsigned long long int)return_value_ceil_1;
   unsigned long long int numRegionsY;
-  double return_value_ceil$2;
-  return_value_ceil$2=ceil((double)height / (double)regionSize);
-  numRegionsY = (unsigned long long int)return_value_ceil$2;
+  double return_value_ceil_2;
+  return_value_ceil_2=ceil((double)height / (double)regionSize);
+  numRegionsY = (unsigned long long int)return_value_ceil_2;
   const unsigned long long int numRegions = numRegionsX * numRegionsY;
   const unsigned long long int numPixels = width * height;
   float *centers;
   float *edgeMap;
-  float previousEnergy = vl_infinity_f$link3.value;
+  float previousEnergy = vl_infinity_f_link3.value;
   float startingEnergy;
   unsigned int *masses;
   const unsigned long long int maxNumIterations = (const unsigned long long int)100;
-  void *return_value_vl_calloc$3;
-  return_value_vl_calloc$3=vl_calloc(numPixels, sizeof(float) /*4ul*/ );
-  edgeMap = (float *)return_value_vl_calloc$3;
-  void *return_value_vl_malloc$4;
-  return_value_vl_malloc$4=vl_malloc(sizeof(unsigned int) /*4ul*/  * numPixels);
-  masses = (unsigned int *)return_value_vl_malloc$4;
-  void *return_value_vl_malloc$5;
-  return_value_vl_malloc$5=vl_malloc(sizeof(float) /*4ul*/  * ((unsigned long int)2 + numChannels) * numRegions);
-  centers = (float *)return_value_vl_malloc$5;
+  void *return_value_vl_calloc_3;
+  return_value_vl_calloc_3=vl_calloc(numPixels, sizeof(float) /*4ul*/ );
+  edgeMap = (float *)return_value_vl_calloc_3;
+  void *return_value_vl_malloc_4;
+  return_value_vl_malloc_4=vl_malloc(sizeof(unsigned int) /*4ul*/  * numPixels);
+  masses = (unsigned int *)return_value_vl_malloc_4;
+  void *return_value_vl_malloc_5;
+  return_value_vl_malloc_5=vl_malloc(sizeof(float) /*4ul*/  * ((unsigned long int)2 + numChannels) * numRegions);
+  centers = (float *)return_value_vl_malloc_5;
   k = (signed long long int)0;
   for( ; !(k >= (signed long int)(signed int)numChannels); k = k + 1ll)
   {
@@ -21796,60 +21796,60 @@ extern void vl_slic_segment(unsigned int *segmentation, const float *image, unsi
   }
   i = (signed long long int)0;
   v = (signed long long int)0;
-  signed long long int tmp_post$8;
-  signed long long int tmp_post$9;
-  signed long long int tmp_post$10;
+  signed long long int tmp_post_8;
+  signed long long int tmp_post_9;
+  signed long long int tmp_post_10;
   for( ; !(v >= (signed long int)(signed int)numRegionsY); v = v + 1ll)
   {
     u = (signed long long int)0;
     for( ; !(u >= (signed long int)(signed int)numRegionsX); u = u + 1ll)
     {
-      signed long long int vl_slic_segment$$1$$2$$1$$1$$1$$xp;
-      signed long long int vl_slic_segment$$1$$2$$1$$1$$1$$yp;
-      signed long long int vl_slic_segment$$1$$2$$1$$1$$1$$centerx = (signed long long int)0;
-      signed long long int vl_slic_segment$$1$$2$$1$$1$$1$$centery = (signed long long int)0;
-      float minEdgeValue = vl_infinity_f$link3.value;
-      signed long int return_value_vl_round_d$6;
-      return_value_vl_round_d$6=vl_round_d$link1((double)regionSize * ((double)u + 0.5));
-      x = (signed long long int)return_value_vl_round_d$6;
-      signed long int return_value_vl_round_d$7;
-      return_value_vl_round_d$7=vl_round_d$link1((double)regionSize * ((double)v + 0.5));
-      y = (signed long long int)return_value_vl_round_d$7;
+      signed long long int vl_slic_segment__1__2__1__1__1__xp;
+      signed long long int vl_slic_segment__1__2__1__1__1__yp;
+      signed long long int vl_slic_segment__1__2__1__1__1__centerx = (signed long long int)0;
+      signed long long int vl_slic_segment__1__2__1__1__1__centery = (signed long long int)0;
+      float minEdgeValue = vl_infinity_f_link3.value;
+      signed long int return_value_vl_round_d_6;
+      return_value_vl_round_d_6=vl_round_d_link1((double)regionSize * ((double)u + 0.5));
+      x = (signed long long int)return_value_vl_round_d_6;
+      signed long int return_value_vl_round_d_7;
+      return_value_vl_round_d_7=vl_round_d_link1((double)regionSize * ((double)v + 0.5));
+      y = (signed long long int)return_value_vl_round_d_7;
       x = (x < (signed long int)((signed int)width - 1) ? x : (signed long int)((signed int)width - 1)) > (signed long int)0 ? (x < (signed long int)((signed int)width - 1) ? x : (signed long int)((signed int)width - 1)) : (signed long int)0;
       y = (y < (signed long int)((signed int)height - 1) ? y : (signed long int)((signed int)height - 1)) > (signed long int)0 ? (y < (signed long int)((signed int)height - 1) ? y : (signed long int)((signed int)height - 1)) : (signed long int)0;
-      vl_slic_segment$$1$$2$$1$$1$$1$$yp = (signed long int)0 > y - (signed long int)1 ? (signed long int)0 : y - (signed long int)1;
-      for( ; ((signed long int)((signed int)height + -1) >= 1l + y ? 1l + y : (signed long int)((signed int)height + -1)) >= vl_slic_segment$$1$$2$$1$$1$$1$$yp; vl_slic_segment$$1$$2$$1$$1$$1$$yp = vl_slic_segment$$1$$2$$1$$1$$1$$yp + 1ll)
+      vl_slic_segment__1__2__1__1__1__yp = (signed long int)0 > y - (signed long int)1 ? (signed long int)0 : y - (signed long int)1;
+      for( ; ((signed long int)((signed int)height + -1) >= 1l + y ? 1l + y : (signed long int)((signed int)height + -1)) >= vl_slic_segment__1__2__1__1__1__yp; vl_slic_segment__1__2__1__1__1__yp = vl_slic_segment__1__2__1__1__1__yp + 1ll)
       {
-        vl_slic_segment$$1$$2$$1$$1$$1$$xp = (signed long int)0 > x - (signed long int)1 ? (signed long int)0 : x - (signed long int)1;
-        for( ; ((signed long int)((signed int)width + -1) >= 1l + x ? 1l + x : (signed long int)((signed int)width + -1)) >= vl_slic_segment$$1$$2$$1$$1$$1$$xp; vl_slic_segment$$1$$2$$1$$1$$1$$xp = vl_slic_segment$$1$$2$$1$$1$$1$$xp + 1ll)
+        vl_slic_segment__1__2__1__1__1__xp = (signed long int)0 > x - (signed long int)1 ? (signed long int)0 : x - (signed long int)1;
+        for( ; ((signed long int)((signed int)width + -1) >= 1l + x ? 1l + x : (signed long int)((signed int)width + -1)) >= vl_slic_segment__1__2__1__1__1__xp; vl_slic_segment__1__2__1__1__1__xp = vl_slic_segment__1__2__1__1__1__xp + 1ll)
         {
-          float thisEdgeValue = edgeMap[(signed long int)((unsigned long int)vl_slic_segment$$1$$2$$1$$1$$1$$xp + (unsigned long int)vl_slic_segment$$1$$2$$1$$1$$1$$yp * width)];
+          float thisEdgeValue = edgeMap[(signed long int)((unsigned long int)vl_slic_segment__1__2__1__1__1__xp + (unsigned long int)vl_slic_segment__1__2__1__1__1__yp * width)];
           if(thisEdgeValue < minEdgeValue)
           {
             minEdgeValue = thisEdgeValue;
-            vl_slic_segment$$1$$2$$1$$1$$1$$centerx = vl_slic_segment$$1$$2$$1$$1$$1$$xp;
-            vl_slic_segment$$1$$2$$1$$1$$1$$centery = vl_slic_segment$$1$$2$$1$$1$$1$$yp;
+            vl_slic_segment__1__2__1__1__1__centerx = vl_slic_segment__1__2__1__1__1__xp;
+            vl_slic_segment__1__2__1__1__1__centery = vl_slic_segment__1__2__1__1__1__yp;
           }
 
         }
       }
-      tmp_post$8 = i;
+      tmp_post_8 = i;
       i = i + 1ll;
-      centers[tmp_post$8] = (float)vl_slic_segment$$1$$2$$1$$1$$1$$centerx;
-      tmp_post$9 = i;
+      centers[tmp_post_8] = (float)vl_slic_segment__1__2__1__1__1__centerx;
+      tmp_post_9 = i;
       i = i + 1ll;
-      centers[tmp_post$9] = (float)vl_slic_segment$$1$$2$$1$$1$$1$$centery;
+      centers[tmp_post_9] = (float)vl_slic_segment__1__2__1__1__1__centery;
       k = (signed long long int)0;
       for( ; !(k >= (signed long int)(signed int)numChannels); k = k + 1ll)
       {
-        tmp_post$10 = i;
+        tmp_post_10 = i;
         i = i + 1ll;
-        centers[tmp_post$10] = image[(signed long int)((unsigned long int)vl_slic_segment$$1$$2$$1$$1$$1$$centerx + (unsigned long int)vl_slic_segment$$1$$2$$1$$1$$1$$centery * width + (unsigned long int)k * width * height)];
+        centers[tmp_post_10] = image[(signed long int)((unsigned long int)vl_slic_segment__1__2__1__1__1__centerx + (unsigned long int)vl_slic_segment__1__2__1__1__1__centery * width + (unsigned long int)k * width * height)];
       }
     }
   }
   iter = (unsigned long long int)0;
-  double tmp_if_expr$13;
+  double tmp_if_expr_13;
   for( ; !(iter >= maxNumIterations); iter = iter + 1ull)
   {
     float factor = regularization / (float)(regionSize * regionSize);
@@ -21860,22 +21860,22 @@ extern void vl_slic_segment(unsigned int *segmentation, const float *image, unsi
       x = (signed long long int)0;
       for( ; !(x >= (signed long int)(signed int)width); x = x + 1ll)
       {
-        signed long long int vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$u;
-        double return_value_floor$11;
-        return_value_floor$11=floor((double)x / (double)regionSize - 0.5);
-        vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$u = (signed long long int)return_value_floor$11;
-        signed long long int vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$v;
-        double return_value_floor$12;
-        return_value_floor$12=floor((double)y / (double)regionSize - 0.5);
-        vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$v = (signed long long int)return_value_floor$12;
+        signed long long int vl_slic_segment__1__3__1__1__1__1__1__u;
+        double return_value_floor_11;
+        return_value_floor_11=floor((double)x / (double)regionSize - 0.5);
+        vl_slic_segment__1__3__1__1__1__1__1__u = (signed long long int)return_value_floor_11;
+        signed long long int vl_slic_segment__1__3__1__1__1__1__1__v;
+        double return_value_floor_12;
+        return_value_floor_12=floor((double)y / (double)regionSize - 0.5);
+        vl_slic_segment__1__3__1__1__1__1__1__v = (signed long long int)return_value_floor_12;
         signed long long int up;
         signed long long int vp;
-        float minDistance = vl_infinity_f$link3.value;
-        vp = (signed long int)0 > vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$v ? (signed long int)0 : vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$v;
-        for( ; ((signed long int)((signed int)numRegionsY + -1) >= 1l + vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$v ? 1l + vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$v : (signed long int)((signed int)numRegionsY + -1)) >= vp; vp = vp + 1ll)
+        float minDistance = vl_infinity_f_link3.value;
+        vp = (signed long int)0 > vl_slic_segment__1__3__1__1__1__1__1__v ? (signed long int)0 : vl_slic_segment__1__3__1__1__1__1__1__v;
+        for( ; ((signed long int)((signed int)numRegionsY + -1) >= 1l + vl_slic_segment__1__3__1__1__1__1__1__v ? 1l + vl_slic_segment__1__3__1__1__1__1__1__v : (signed long int)((signed int)numRegionsY + -1)) >= vp; vp = vp + 1ll)
         {
-          up = (signed long int)0 > vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$u ? (signed long int)0 : vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$u;
-          for( ; ((signed long int)((signed int)numRegionsX + -1) >= 1l + vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$u ? 1l + vl_slic_segment$$1$$3$$1$$1$$1$$1$$1$$u : (signed long int)((signed int)numRegionsX + -1)) >= up; up = up + 1ll)
+          up = (signed long int)0 > vl_slic_segment__1__3__1__1__1__1__1__u ? (signed long int)0 : vl_slic_segment__1__3__1__1__1__1__1__u;
+          for( ; ((signed long int)((signed int)numRegionsX + -1) >= 1l + vl_slic_segment__1__3__1__1__1__1__1__u ? 1l + vl_slic_segment__1__3__1__1__1__1__1__u : (signed long int)((signed int)numRegionsX + -1)) >= up; up = up + 1ll)
           {
             signed long long int region = (signed long long int)((unsigned long int)up + (unsigned long int)vp * numRegionsX);
             float centerx = centers[(signed long int)(((unsigned long int)2 + numChannels) * (unsigned long int)region + (unsigned long int)0)];
@@ -21919,27 +21919,27 @@ extern void vl_slic_segment(unsigned int *segmentation, const float *image, unsi
       for( ; !(x >= (signed long int)(signed int)width); x = x + 1ll)
       {
         signed long long int pixel = (signed long long int)((unsigned long int)x + (unsigned long int)y * width);
-        signed long long int vl_slic_segment$$1$$3$$1$$4$$1$$1$$1$$region = (signed long long int)segmentation[pixel];
-        masses[vl_slic_segment$$1$$3$$1$$4$$1$$1$$1$$region] = masses[vl_slic_segment$$1$$3$$1$$4$$1$$1$$1$$region] + 1u;
-        centers[(signed long int)((unsigned long int)vl_slic_segment$$1$$3$$1$$4$$1$$1$$1$$region * ((unsigned long int)2 + numChannels) + (unsigned long int)0)] = centers[(signed long int)((unsigned long int)vl_slic_segment$$1$$3$$1$$4$$1$$1$$1$$region * ((unsigned long int)2 + numChannels) + (unsigned long int)0)] + (float)x;
-        centers[(signed long int)((unsigned long int)vl_slic_segment$$1$$3$$1$$4$$1$$1$$1$$region * ((unsigned long int)2 + numChannels) + (unsigned long int)1)] = centers[(signed long int)((unsigned long int)vl_slic_segment$$1$$3$$1$$4$$1$$1$$1$$region * ((unsigned long int)2 + numChannels) + (unsigned long int)1)] + (float)y;
+        signed long long int vl_slic_segment__1__3__1__4__1__1__1__region = (signed long long int)segmentation[pixel];
+        masses[vl_slic_segment__1__3__1__4__1__1__1__region] = masses[vl_slic_segment__1__3__1__4__1__1__1__region] + 1u;
+        centers[(signed long int)((unsigned long int)vl_slic_segment__1__3__1__4__1__1__1__region * ((unsigned long int)2 + numChannels) + (unsigned long int)0)] = centers[(signed long int)((unsigned long int)vl_slic_segment__1__3__1__4__1__1__1__region * ((unsigned long int)2 + numChannels) + (unsigned long int)0)] + (float)x;
+        centers[(signed long int)((unsigned long int)vl_slic_segment__1__3__1__4__1__1__1__region * ((unsigned long int)2 + numChannels) + (unsigned long int)1)] = centers[(signed long int)((unsigned long int)vl_slic_segment__1__3__1__4__1__1__1__region * ((unsigned long int)2 + numChannels) + (unsigned long int)1)] + (float)y;
         k = (signed long long int)0;
         for( ; !(k >= (signed long int)(signed int)numChannels); k = k + 1ll)
-          centers[(signed long int)((unsigned long int)vl_slic_segment$$1$$3$$1$$4$$1$$1$$1$$region * ((unsigned long int)2 + numChannels) + (unsigned long int)k + (unsigned long int)2)] = centers[(signed long int)((unsigned long int)vl_slic_segment$$1$$3$$1$$4$$1$$1$$1$$region * ((unsigned long int)2 + numChannels) + (unsigned long int)k + (unsigned long int)2)] + image[(signed long int)((unsigned long int)x + (unsigned long int)y * width + (unsigned long int)k * width * height)];
+          centers[(signed long int)((unsigned long int)vl_slic_segment__1__3__1__4__1__1__1__region * ((unsigned long int)2 + numChannels) + (unsigned long int)k + (unsigned long int)2)] = centers[(signed long int)((unsigned long int)vl_slic_segment__1__3__1__4__1__1__1__region * ((unsigned long int)2 + numChannels) + (unsigned long int)k + (unsigned long int)2)] + image[(signed long int)((unsigned long int)x + (unsigned long int)y * width + (unsigned long int)k * width * height)];
       }
     }
-    vl_slic_segment$$1$$region = (signed long long int)0;
-    for( ; !(vl_slic_segment$$1$$region >= (signed long int)(signed int)numRegions); vl_slic_segment$$1$$region = vl_slic_segment$$1$$region + 1ll)
+    vl_slic_segment__1__region = (signed long long int)0;
+    for( ; !(vl_slic_segment__1__region >= (signed long int)(signed int)numRegions); vl_slic_segment__1__region = vl_slic_segment__1__region + 1ll)
     {
       float mass;
-      if((double)masses[vl_slic_segment$$1$$region] > 1e-8)
-        tmp_if_expr$13 = (double)masses[vl_slic_segment$$1$$region];
+      if((double)masses[vl_slic_segment__1__region] > 1e-8)
+        tmp_if_expr_13 = (double)masses[vl_slic_segment__1__region];
 
       else
-        tmp_if_expr$13 = 1e-8;
-      mass = (float)tmp_if_expr$13;
-      i = (signed long long int)(((unsigned long int)2 + numChannels) * (unsigned long int)vl_slic_segment$$1$$region);
-      for( ; !(i >= (1l + vl_slic_segment$$1$$region) * (signed long int)(2 + (signed int)numChannels)); i = i + 1ll)
+        tmp_if_expr_13 = 1e-8;
+      mass = (float)tmp_if_expr_13;
+      i = (signed long long int)(((unsigned long int)2 + numChannels) * (unsigned long int)vl_slic_segment__1__region);
+      for( ; !(i >= (1l + vl_slic_segment__1__region) * (signed long int)(2 + (signed int)numChannels)); i = i + 1ll)
         centers[i] = centers[i] / mass;
     }
   }
@@ -21947,13 +21947,13 @@ extern void vl_slic_segment(unsigned int *segmentation, const float *image, unsi
   vl_free((void *)centers);
   vl_free((void *)edgeMap);
   unsigned int *cleaned;
-  void *return_value_vl_calloc$14;
-  return_value_vl_calloc$14=vl_calloc(numPixels, sizeof(unsigned int) /*4ul*/ );
-  cleaned = (unsigned int *)return_value_vl_calloc$14;
+  void *return_value_vl_calloc_14;
+  return_value_vl_calloc_14=vl_calloc(numPixels, sizeof(unsigned int) /*4ul*/ );
+  cleaned = (unsigned int *)return_value_vl_calloc_14;
   unsigned long long int *segment;
-  void *return_value_vl_malloc$15;
-  return_value_vl_malloc$15=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numPixels);
-  segment = (unsigned long long int *)return_value_vl_malloc$15;
+  void *return_value_vl_malloc_15;
+  return_value_vl_malloc_15=vl_malloc(sizeof(unsigned long long int) /*8ul*/  * numPixels);
+  segment = (unsigned long long int *)return_value_vl_malloc_15;
   unsigned long long int segmentSize;
   unsigned int label;
   unsigned int cleanedLabel;
@@ -21961,23 +21961,23 @@ extern void vl_slic_segment(unsigned int *segmentation, const float *image, unsi
   const signed long long int dx[4l] = { (const signed long long int)+1, (const signed long long int)-1, (const signed long long int)0, (const signed long long int)0 };
   const signed long long int dy[4l] = { (const signed long long int)0, (const signed long long int)0, (const signed long long int)+1, (const signed long long int)-1 };
   signed long long int direction;
-  signed long long int vl_slic_segment$$1$$4$$pixel = (signed long long int)0;
-  unsigned long long int tmp_post$16;
-  unsigned long long int tmp_post$17;
-  unsigned long long int tmp_post$18;
-  for( ; !(vl_slic_segment$$1$$4$$pixel >= (signed long int)(signed int)numPixels); vl_slic_segment$$1$$4$$pixel = vl_slic_segment$$1$$4$$pixel + 1ll)
-    if(cleaned[vl_slic_segment$$1$$4$$pixel] == 0u)
+  signed long long int vl_slic_segment__1__4__pixel = (signed long long int)0;
+  unsigned long long int tmp_post_16;
+  unsigned long long int tmp_post_17;
+  unsigned long long int tmp_post_18;
+  for( ; !(vl_slic_segment__1__4__pixel >= (signed long int)(signed int)numPixels); vl_slic_segment__1__4__pixel = vl_slic_segment__1__4__pixel + 1ll)
+    if(cleaned[vl_slic_segment__1__4__pixel] == 0u)
     {
-      label = segmentation[vl_slic_segment$$1$$4$$pixel];
+      label = segmentation[vl_slic_segment__1__4__pixel];
       numExpanded = (unsigned long long int)0;
       segmentSize = (unsigned long long int)0;
-      tmp_post$16 = segmentSize;
+      tmp_post_16 = segmentSize;
       segmentSize = segmentSize + 1ull;
-      segment[(signed long int)tmp_post$16] = (unsigned long long int)vl_slic_segment$$1$$4$$pixel;
+      segment[(signed long int)tmp_post_16] = (unsigned long long int)vl_slic_segment__1__4__pixel;
       cleanedLabel = label + (unsigned int)1;
-      cleaned[vl_slic_segment$$1$$4$$pixel] = label + (unsigned int)1;
-      x = (signed long long int)((unsigned long int)vl_slic_segment$$1$$4$$pixel % width);
-      y = (signed long long int)((unsigned long int)vl_slic_segment$$1$$4$$pixel / width);
+      cleaned[vl_slic_segment__1__4__pixel] = label + (unsigned int)1;
+      x = (signed long long int)((unsigned long int)vl_slic_segment__1__4__pixel % width);
+      y = (signed long long int)((unsigned long int)vl_slic_segment__1__4__pixel / width);
       direction = (signed long long int)0;
       for( ; !(direction >= 4l); direction = direction + 1ll)
       {
@@ -21995,27 +21995,27 @@ extern void vl_slic_segment(unsigned int *segmentation, const float *image, unsi
       while(!(numExpanded >= segmentSize))
       {
         signed long long int open;
-        tmp_post$17 = numExpanded;
+        tmp_post_17 = numExpanded;
         numExpanded = numExpanded + 1ull;
-        open = (signed long long int)segment[(signed long int)tmp_post$17];
+        open = (signed long long int)segment[(signed long int)tmp_post_17];
         x = (signed long long int)((unsigned long int)open % width);
         y = (signed long long int)((unsigned long int)open / width);
         direction = (signed long long int)0;
         for( ; !(direction >= 4l); direction = direction + 1ll)
         {
-          signed long long int vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$xp = x + dx[direction];
-          signed long long int vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$yp = y + dy[direction];
-          signed long long int vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$neighbor = (signed long long int)((unsigned long int)vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$xp + (unsigned long int)vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$yp * width);
-          if(vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$xp >= 0l && vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$yp >= 0l && !(vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$xp >= (signed long int)(signed int)width) && !(vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$yp >= (signed long int)(signed int)height))
+          signed long long int vl_slic_segment__1__4__1__1__2__1__1__xp = x + dx[direction];
+          signed long long int vl_slic_segment__1__4__1__1__2__1__1__yp = y + dy[direction];
+          signed long long int vl_slic_segment__1__4__1__1__2__1__1__neighbor = (signed long long int)((unsigned long int)vl_slic_segment__1__4__1__1__2__1__1__xp + (unsigned long int)vl_slic_segment__1__4__1__1__2__1__1__yp * width);
+          if(vl_slic_segment__1__4__1__1__2__1__1__xp >= 0l && vl_slic_segment__1__4__1__1__2__1__1__yp >= 0l && !(vl_slic_segment__1__4__1__1__2__1__1__xp >= (signed long int)(signed int)width) && !(vl_slic_segment__1__4__1__1__2__1__1__yp >= (signed long int)(signed int)height))
           {
-            if(cleaned[vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$neighbor] == 0u)
+            if(cleaned[vl_slic_segment__1__4__1__1__2__1__1__neighbor] == 0u)
             {
-              if(segmentation[vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$neighbor] == label)
+              if(segmentation[vl_slic_segment__1__4__1__1__2__1__1__neighbor] == label)
               {
-                cleaned[vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$neighbor] = label + (unsigned int)1;
-                tmp_post$18 = segmentSize;
+                cleaned[vl_slic_segment__1__4__1__1__2__1__1__neighbor] = label + (unsigned int)1;
+                tmp_post_18 = segmentSize;
                 segmentSize = segmentSize + 1ull;
-                segment[(signed long int)tmp_post$18] = (unsigned long long int)vl_slic_segment$$1$$4$$1$$1$$2$$1$$1$$neighbor;
+                segment[(signed long int)tmp_post_18] = (unsigned long long int)vl_slic_segment__1__4__1__1__2__1__1__neighbor;
               }
 
             }
@@ -22030,9 +22030,9 @@ extern void vl_slic_segment(unsigned int *segmentation, const float *image, unsi
 
     }
 
-  vl_slic_segment$$1$$4$$pixel = (signed long long int)0;
-  for( ; !(vl_slic_segment$$1$$4$$pixel >= (signed long int)(signed int)numPixels); vl_slic_segment$$1$$4$$pixel = vl_slic_segment$$1$$4$$pixel + 1ll)
-    cleaned[vl_slic_segment$$1$$4$$pixel] = cleaned[vl_slic_segment$$1$$4$$pixel] - 1u;
+  vl_slic_segment__1__4__pixel = (signed long long int)0;
+  for( ; !(vl_slic_segment__1__4__pixel >= (signed long int)(signed int)numPixels); vl_slic_segment__1__4__pixel = vl_slic_segment__1__4__pixel + 1ll)
+    cleaned[vl_slic_segment__1__4__pixel] = cleaned[vl_slic_segment__1__4__pixel] - 1u;
   memcpy((void *)segmentation, (const void *)cleaned, numPixels * sizeof(unsigned int) /*4ul*/ );
   vl_free((void *)cleaned);
   vl_free((void *)segment);
@@ -22085,36 +22085,36 @@ extern signed int vl_solve_linear_system_3(double *x, const double *A, const dou
 // file vl/mathop.h line 292
 static inline double vl_sqrt_d(double x)
 {
-  double return_value___builtin_sqrt$1;
-  return_value___builtin_sqrt$1=__builtin_sqrt(x);
-  return return_value___builtin_sqrt$1;
+  double return_value___builtin_sqrt_1;
+  return_value___builtin_sqrt_1=__builtin_sqrt(x);
+  return return_value___builtin_sqrt_1;
 }
 
-// vl_sqrt_d$link1
+// vl_sqrt_d_link1
 // file vl/mathop.h line 292
-static inline double vl_sqrt_d$link1(double x$link1)
+static inline double vl_sqrt_d_link1(double x_link1)
 {
-  double return_value___builtin_sqrt$1$link1;
-  return_value___builtin_sqrt$1$link1=__builtin_sqrt(x$link1);
-  return return_value___builtin_sqrt$1$link1;
+  double return_value___builtin_sqrt_1_link1;
+  return_value___builtin_sqrt_1_link1=__builtin_sqrt(x_link1);
+  return return_value___builtin_sqrt_1_link1;
 }
 
 // vl_sqrt_f
 // file vl/mathop.h line 303
 static inline float vl_sqrt_f(float x)
 {
-  float return_value___builtin_sqrtf$1;
-  return_value___builtin_sqrtf$1=__builtin_sqrtf(x);
-  return return_value___builtin_sqrtf$1;
+  float return_value___builtin_sqrtf_1;
+  return_value___builtin_sqrtf_1=__builtin_sqrtf(x);
+  return return_value___builtin_sqrtf_1;
 }
 
-// vl_sqrt_f$link1
+// vl_sqrt_f_link1
 // file vl/mathop.h line 303
-static inline float vl_sqrt_f$link1(float x$link1)
+static inline float vl_sqrt_f_link1(float x_link1)
 {
-  float return_value___builtin_sqrtf$1$link1;
-  return_value___builtin_sqrtf$1$link1=__builtin_sqrtf(x$link1);
-  return return_value___builtin_sqrtf$1$link1;
+  float return_value___builtin_sqrtf_1_link1;
+  return_value___builtin_sqrtf_1_link1=__builtin_sqrtf(x_link1);
+  return return_value___builtin_sqrtf_1_link1;
 }
 
 // vl_static_configuration_to_string_copy
@@ -22131,9 +22131,9 @@ extern char * vl_static_configuration_to_string_copy()
   {
     if(length >= 1)
     {
-      void *return_value_vl_malloc$1;
-      return_value_vl_malloc$1=vl_malloc(sizeof(char) /*1ul*/  * (unsigned long int)length);
-      string = (char *)return_value_vl_malloc$1;
+      void *return_value_vl_malloc_1;
+      return_value_vl_malloc_1=vl_malloc(sizeof(char) /*1ul*/  * (unsigned long int)length);
+      string = (char *)return_value_vl_malloc_1;
       if(string == ((char *)NULL))
         break;
 
@@ -22179,34 +22179,34 @@ extern unsigned long long int vl_string_basename(char *destination, unsigned lon
 
     }
 
-  unsigned long long int return_value_vl_string_copy_sub$1;
-  return_value_vl_string_copy_sub$1=vl_string_copy_sub(destination, destinationSize, source + (signed long int)beg, source + (signed long int)end);
-  return return_value_vl_string_copy_sub$1;
+  unsigned long long int return_value_vl_string_copy_sub_1;
+  return_value_vl_string_copy_sub_1=vl_string_copy_sub(destination, destinationSize, source + (signed long int)beg, source + (signed long int)end);
+  return return_value_vl_string_copy_sub_1;
 }
 
 // vl_string_casei_cmp
 // file vl/stringop.c line 377
 extern signed int vl_string_casei_cmp(const char *string1, const char *string2)
 {
-  signed int tmp_statement_expression$1;
-  signed int tmp_if_expr$3;
-  const signed int **return_value___ctype_tolower_loc$2;
-  const signed int **return_value___ctype_tolower_loc$4;
-  signed int tmp_statement_expression$5;
-  signed int tmp_if_expr$7;
-  const signed int **return_value___ctype_tolower_loc$6;
-  const signed int **return_value___ctype_tolower_loc$8;
+  signed int tmp_statement_expression_1;
+  signed int tmp_if_expr_3;
+  const signed int **return_value___ctype_tolower_loc_2;
+  const signed int **return_value___ctype_tolower_loc_4;
+  signed int tmp_statement_expression_5;
+  signed int tmp_if_expr_7;
+  const signed int **return_value___ctype_tolower_loc_6;
+  const signed int **return_value___ctype_tolower_loc_8;
   do
   {
-    signed int vl_string_casei_cmp$$1$$1$$__res;
-    return_value___ctype_tolower_loc$4=__ctype_tolower_loc();
-    vl_string_casei_cmp$$1$$1$$__res = (*return_value___ctype_tolower_loc$4)[(signed long int)(signed int)(unsigned char)*string1];
-    tmp_statement_expression$1 = vl_string_casei_cmp$$1$$1$$__res;
-    signed int vl_string_casei_cmp$$1$$2$$__res;
-    return_value___ctype_tolower_loc$8=__ctype_tolower_loc();
-    vl_string_casei_cmp$$1$$2$$__res = (*return_value___ctype_tolower_loc$8)[(signed long int)(signed int)(unsigned char)*string2];
-    tmp_statement_expression$5 = vl_string_casei_cmp$$1$$2$$__res;
-    if(!(tmp_statement_expression$1 == tmp_statement_expression$5))
+    signed int vl_string_casei_cmp__1__1____res;
+    return_value___ctype_tolower_loc_4=__ctype_tolower_loc();
+    vl_string_casei_cmp__1__1____res = (*return_value___ctype_tolower_loc_4)[(signed long int)(signed int)(unsigned char)*string1];
+    tmp_statement_expression_1 = vl_string_casei_cmp__1__1____res;
+    signed int vl_string_casei_cmp__1__2____res;
+    return_value___ctype_tolower_loc_8=__ctype_tolower_loc();
+    vl_string_casei_cmp__1__2____res = (*return_value___ctype_tolower_loc_8)[(signed long int)(signed int)(unsigned char)*string2];
+    tmp_statement_expression_5 = vl_string_casei_cmp__1__2____res;
+    if(!(tmp_statement_expression_1 == tmp_statement_expression_5))
       break;
 
     if((signed int)*string1 == 0)
@@ -22216,23 +22216,23 @@ extern signed int vl_string_casei_cmp(const char *string1, const char *string2)
     string2 = string2 + 1l;
   }
   while((_Bool)1);
-  signed int tmp_statement_expression$9;
+  signed int tmp_statement_expression_9;
   signed int __res;
-  signed int tmp_if_expr$11;
-  const signed int **return_value___ctype_tolower_loc$10;
-  const signed int **return_value___ctype_tolower_loc$12;
-  return_value___ctype_tolower_loc$12=__ctype_tolower_loc();
-  __res = (*return_value___ctype_tolower_loc$12)[(signed long int)(signed int)(unsigned char)*string1];
-  tmp_statement_expression$9 = __res;
-  signed int tmp_statement_expression$13;
-  signed int vl_string_casei_cmp$$1$$5$$__res;
-  signed int tmp_if_expr$15;
-  const signed int **return_value___ctype_tolower_loc$14;
-  const signed int **return_value___ctype_tolower_loc$16;
-  return_value___ctype_tolower_loc$16=__ctype_tolower_loc();
-  vl_string_casei_cmp$$1$$5$$__res = (*return_value___ctype_tolower_loc$16)[(signed long int)(signed int)(unsigned char)*string2];
-  tmp_statement_expression$13 = vl_string_casei_cmp$$1$$5$$__res;
-  return (signed int)tmp_statement_expression$9 - (signed int)tmp_statement_expression$13;
+  signed int tmp_if_expr_11;
+  const signed int **return_value___ctype_tolower_loc_10;
+  const signed int **return_value___ctype_tolower_loc_12;
+  return_value___ctype_tolower_loc_12=__ctype_tolower_loc();
+  __res = (*return_value___ctype_tolower_loc_12)[(signed long int)(signed int)(unsigned char)*string1];
+  tmp_statement_expression_9 = __res;
+  signed int tmp_statement_expression_13;
+  signed int vl_string_casei_cmp__1__5____res;
+  signed int tmp_if_expr_15;
+  const signed int **return_value___ctype_tolower_loc_14;
+  const signed int **return_value___ctype_tolower_loc_16;
+  return_value___ctype_tolower_loc_16=__ctype_tolower_loc();
+  vl_string_casei_cmp__1__5____res = (*return_value___ctype_tolower_loc_16)[(signed long int)(signed int)(unsigned char)*string2];
+  tmp_statement_expression_13 = vl_string_casei_cmp__1__5____res;
+  return (signed int)tmp_statement_expression_9 - (signed int)tmp_statement_expression_13;
 }
 
 // vl_string_copy
@@ -22241,12 +22241,12 @@ extern unsigned long long int vl_string_copy(char *destination, unsigned long lo
 {
   char c;
   unsigned long long int k = (unsigned long long int)0;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   do
   {
-    tmp_post$1 = source;
+    tmp_post_1 = source;
     source = source + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if(c == 0)
       break;
 
@@ -22268,12 +22268,12 @@ extern unsigned long long int vl_string_copy_sub(char *destination, unsigned lon
 {
   char c;
   unsigned long long int k = (unsigned long long int)0;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   for( ; !(beginning >= end); k = k + 1ull)
   {
-    tmp_post$1 = beginning;
+    tmp_post_1 = beginning;
     beginning = beginning + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if(c == 0)
       break;
 
@@ -22291,12 +22291,12 @@ extern unsigned long long int vl_string_copy_sub(char *destination, unsigned lon
 // file vl/stringop.c line 345
 extern char * vl_string_find_char_rev(const char *beginning, const char *end, char c)
 {
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   do
   {
-    tmp_post$1 = end;
+    tmp_post_1 = end;
     end = end - 1l;
-    if(tmp_post$1 == beginning)
+    if(tmp_post_1 == beginning)
       break;
 
     if(*end == c)
@@ -22327,7 +22327,7 @@ extern char * vl_string_parse_protocol(const char *string, signed int *protocol)
     protocol = &dummy;
 
   cpt=strstr(string, "://");
-  signed int return_value_strncmp$1;
+  signed int return_value_strncmp_1;
   if(cpt == ((const char *)NULL))
   {
     *protocol = 0;
@@ -22336,15 +22336,15 @@ extern char * vl_string_parse_protocol(const char *string, signed int *protocol)
 
   else
   {
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(string, "ascii", (unsigned long int)(cpt - string));
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(string, "ascii", (unsigned long int)(cpt - string));
+    if(return_value_strncmp_2 == 0)
       *protocol = 1;
 
     else
     {
-      return_value_strncmp$1=strncmp(string, "bin", (unsigned long int)(cpt - string));
-      if(return_value_strncmp$1 == 0)
+      return_value_strncmp_1=strncmp(string, "bin", (unsigned long int)(cpt - string));
+      if(return_value_strncmp_1 == 0)
         *protocol = 2;
 
       else
@@ -22379,13 +22379,13 @@ extern unsigned long long int vl_string_replace_wildcard(char *destination, unsi
   char c;
   unsigned long long int k = (unsigned long long int)0;
   signed int escape = 0;
-  const char *tmp_post$1;
-  const char *tmp_post$2;
+  const char *tmp_post_1;
+  const char *tmp_post_2;
   do
   {
-    tmp_post$1 = source;
+    tmp_post_1 = source;
     source = source + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if(c == 0)
       break;
 
@@ -22399,9 +22399,9 @@ extern unsigned long long int vl_string_replace_wildcard(char *destination, unsi
         const char *repl = replacement;
         do
         {
-          tmp_post$2 = repl;
+          tmp_post_2 = repl;
           repl = repl + 1l;
-          c = *tmp_post$2;
+          c = *tmp_post_2;
           if(c == 0)
             break;
 
@@ -22590,7 +22590,7 @@ extern const double * vl_svm_get_scores(const struct VlSvm_ *self)
 
 // vl_svm_get_solver
 // file vl/svm.c line 1271
-extern enum anonymous$6 vl_svm_get_solver(const struct VlSvm_ *self)
+extern enum anonymous_6 vl_svm_get_solver(const struct VlSvm_ *self)
 {
   return self->solver;
 }
@@ -22617,7 +22617,7 @@ extern double vl_svm_hinge2_conjugate_loss(double u, double label)
     return (label + u / (double)4) * u;
 
   else
-    return vl_infinity_d$link4.value;
+    return vl_infinity_d_link4.value;
 }
 
 // vl_svm_hinge2_dca_update
@@ -22656,7 +22656,7 @@ extern double vl_svm_hinge_conjugate_loss(double u, double label)
     return label * u;
 
   else
-    return vl_infinity_d$link4.value;
+    return vl_infinity_d_link4.value;
 }
 
 // vl_svm_hinge_dca_update
@@ -22689,38 +22689,38 @@ extern double vl_svm_hinge_loss_derivative(double inner, double label)
 // file vl/svm.c line 1706
 extern double vl_svm_l1_conjugate_loss(double u, double label)
 {
-  double return_value_vl_abs_d$1;
-  return_value_vl_abs_d$1=vl_abs_d$link3(u);
-  if(return_value_vl_abs_d$1 <= 1.000000)
+  double return_value_vl_abs_d_1;
+  return_value_vl_abs_d_1=vl_abs_d_link3(u);
+  if(return_value_vl_abs_d_1 <= 1.000000)
     return label * u;
 
   else
-    return vl_infinity_d$link4.value;
+    return vl_infinity_d_link4.value;
 }
 
 // vl_svm_l1_dca_update
 // file vl/svm.c line 1717
 extern double vl_svm_l1_dca_update(double alpha, double inner, double norm2, double label)
 {
-  double return_value_vl_abs_d$1;
-  return_value_vl_abs_d$1=vl_abs_d$link3(alpha);
-  if(return_value_vl_abs_d$1 <= 1.000000)
+  double return_value_vl_abs_d_1;
+  return_value_vl_abs_d_1=vl_abs_d_link3(alpha);
+  if(return_value_vl_abs_d_1 <= 1.000000)
   {
     double palpha = (label - inner) / norm2 + alpha;
     return (-1.0 > (1.0 < palpha ? 1.0 : palpha) ? -1.0 : (1.0 < palpha ? 1.0 : palpha)) - alpha;
   }
 
   else
-    return vl_infinity_d$link4.value;
+    return vl_infinity_d_link4.value;
 }
 
 // vl_svm_l1_loss
 // file vl/svm.c line 1686
 extern double vl_svm_l1_loss(double inner, double label)
 {
-  double return_value_vl_abs_d$1;
-  return_value_vl_abs_d$1=vl_abs_d$link3(label - inner);
-  return return_value_vl_abs_d$1;
+  double return_value_vl_abs_d_1;
+  return_value_vl_abs_d_1=vl_abs_d_link3(label - inner);
+  return return_value_vl_abs_d_1;
 }
 
 // vl_svm_l1_loss_derivative
@@ -22770,15 +22770,15 @@ extern double vl_svm_logistic_conjugate_loss(double u, double label)
   double z = label * u;
   if(z <= 0.000000 && z >= -1.000000)
   {
-    double return_value_xlogx$1;
-    return_value_xlogx$1=xlogx(-z);
-    double return_value_xlogx$2;
-    return_value_xlogx$2=xlogx((double)1 + z);
-    return return_value_xlogx$1 + return_value_xlogx$2;
+    double return_value_xlogx_1;
+    return_value_xlogx_1=xlogx(-z);
+    double return_value_xlogx_2;
+    return_value_xlogx_2=xlogx((double)1 + z);
+    return return_value_xlogx_1 + return_value_xlogx_2;
   }
 
   else
-    return vl_infinity_d$link4.value;
+    return vl_infinity_d_link4.value;
 }
 
 // vl_svm_logistic_dca_update
@@ -22796,11 +22796,11 @@ extern double vl_svm_logistic_dca_update(double alpha, double inner, double norm
   t = (signed long long int)0;
   for( ; !(t >= 5l); t = t + 1ll)
   {
-    double return_value_log$1;
-    return_value_log$1=log(beta);
-    double return_value_log$2;
-    return_value_log$2=log((double)1 - beta);
-    df = return_value_log$1 - return_value_log$2;
+    double return_value_log_1;
+    return_value_log_1=log(beta);
+    double return_value_log_2;
+    return_value_log_2=log((double)1 - beta);
+    df = return_value_log_1 - return_value_log_2;
     der = norm2 * beta + label * (inner - norm2 * alpha) + df;
     if(der >= 0.000000)
       beta2 = beta;
@@ -22812,11 +22812,11 @@ extern double vl_svm_logistic_dca_update(double alpha, double inner, double norm
   t = (signed long long int)0;
   for( ; beta < 1.000000e+0 && beta > 2.220446049250313e-16 && !(t >= 2l); t = t + 1ll)
   {
-    double return_value_log$3;
-    return_value_log$3=log(beta);
-    double return_value_log$4;
-    return_value_log$4=log((double)1 - beta);
-    df = return_value_log$3 - return_value_log$4;
+    double return_value_log_3;
+    return_value_log_3=log(beta);
+    double return_value_log_4;
+    return_value_log_4=log((double)1 - beta);
+    df = return_value_log_3 - return_value_log_4;
     ddf = (double)1 / (beta * ((double)1 - beta));
     der = norm2 * beta + label * (inner - norm2 * alpha) + df;
     dder = norm2 + ddf;
@@ -22833,20 +22833,20 @@ extern double vl_svm_logistic_loss(double inner, double label)
   double z = label * inner;
   if(z >= 0.000000)
   {
-    double return_value_exp$1;
-    return_value_exp$1=exp(-z);
-    double return_value_log$2;
-    return_value_log$2=log(1.0 + return_value_exp$1);
-    return return_value_log$2;
+    double return_value_exp_1;
+    return_value_exp_1=exp(-z);
+    double return_value_log_2;
+    return_value_log_2=log(1.0 + return_value_exp_1);
+    return return_value_log_2;
   }
 
   else
   {
-    double return_value_exp$3;
-    return_value_exp$3=exp(z);
-    double return_value_log$4;
-    return_value_log$4=log(return_value_exp$3 + 1.0);
-    return -z + return_value_log$4;
+    double return_value_exp_3;
+    return_value_exp_3=exp(z);
+    double return_value_log_4;
+    return_value_log_4=log(return_value_exp_3 + 1.0);
+    return -z + return_value_log_4;
   }
 }
 
@@ -22856,15 +22856,15 @@ extern double vl_svm_logistic_loss_derivative(double inner, double label)
 {
   double z = label * inner;
   double t;
-  double return_value_exp$1;
-  return_value_exp$1=exp(-z);
-  t = (double)1 / ((double)1 + return_value_exp$1);
+  double return_value_exp_1;
+  return_value_exp_1=exp(-z);
+  t = (double)1 / ((double)1 + return_value_exp_1);
   return label * (t - (double)1);
 }
 
 // vl_svm_new
 // file vl/svm.c line 957
-extern struct VlSvm_ * vl_svm_new(enum anonymous$6 type, const double *data, unsigned long long int dimension, unsigned long long int numData, const double *labels, double lambda)
+extern struct VlSvm_ * vl_svm_new(enum anonymous_6 type, const double *data, unsigned long long int dimension, unsigned long long int numData, const double *labels, double lambda)
 {
   struct VlSvmDataset_ *dataset;
   dataset=vl_svmdataset_new((unsigned int)2, (void *)data, dimension, numData);
@@ -22876,12 +22876,12 @@ extern struct VlSvm_ * vl_svm_new(enum anonymous$6 type, const double *data, uns
 
 // vl_svm_new_with_abstract_data
 // file vl/svm.c line 1014
-extern struct VlSvm_ * vl_svm_new_with_abstract_data(enum anonymous$6 solver, void *data, unsigned long long int dimension, unsigned long long int numData, const double *labels, double lambda)
+extern struct VlSvm_ * vl_svm_new_with_abstract_data(enum anonymous_6 solver, void *data, unsigned long long int dimension, unsigned long long int numData, const double *labels, double lambda)
 {
   struct VlSvm_ *self;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc((unsigned long int)1, sizeof(struct VlSvm_) /*296ul*/ );
-  self = (struct VlSvm_ *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc((unsigned long int)1, sizeof(struct VlSvm_) /*296ul*/ );
+  self = (struct VlSvm_ *)return_value_vl_calloc_1;
   self->solver = solver;
   self->dimension = dimension;
   self->model = ((double *)NULL);
@@ -22901,40 +22901,40 @@ extern struct VlSvm_ * vl_svm_new_with_abstract_data(enum anonymous$6 solver, vo
   self->innerProductFn = ((double (*)(const void *, unsigned long long int, double *))NULL);
   self->accumulateFn = ((void (*)(const void *, unsigned long long int, double *, double))NULL);
   self->iteration = (unsigned long long int)0;
-  signed long int return_value_vl_ceil_f$2;
-  return_value_vl_ceil_f$2=vl_ceil_f((float)(10.0 / lambda));
-  double tmp_if_expr$4;
-  signed long int return_value_vl_ceil_f$3;
-  if((double)numData > (double)return_value_vl_ceil_f$2)
-    tmp_if_expr$4 = (double)numData;
+  signed long int return_value_vl_ceil_f_2;
+  return_value_vl_ceil_f_2=vl_ceil_f((float)(10.0 / lambda));
+  double tmp_if_expr_4;
+  signed long int return_value_vl_ceil_f_3;
+  if((double)numData > (double)return_value_vl_ceil_f_2)
+    tmp_if_expr_4 = (double)numData;
 
   else
   {
-    return_value_vl_ceil_f$3=vl_ceil_f((float)(10.0 / lambda));
-    tmp_if_expr$4 = (double)return_value_vl_ceil_f$3;
+    return_value_vl_ceil_f_3=vl_ceil_f((float)(10.0 / lambda));
+    tmp_if_expr_4 = (double)return_value_vl_ceil_f_3;
   }
-  self->maxNumIterations = (unsigned long long int)tmp_if_expr$4;
+  self->maxNumIterations = (unsigned long long int)tmp_if_expr_4;
   self->epsilon = 1e-2;
   self->biasLearningRate = 0.01;
   self->alpha = ((double *)NULL);
-  void *return_value_vl_calloc$5;
-  return_value_vl_calloc$5=vl_calloc(dimension, sizeof(double) /*8ul*/ );
-  self->model = (double *)return_value_vl_calloc$5;
-  void *return_value_vl_calloc$7;
+  void *return_value_vl_calloc_5;
+  return_value_vl_calloc_5=vl_calloc(dimension, sizeof(double) /*8ul*/ );
+  self->model = (double *)return_value_vl_calloc_5;
+  void *return_value_vl_calloc_7;
   if(!(self->model == ((double *)NULL)))
   {
     if((signed int)self->solver == VlSvmSolverSdca)
     {
-      void *return_value_vl_calloc$6;
-      return_value_vl_calloc$6=vl_calloc(self->numData, sizeof(double) /*8ul*/ );
-      self->alpha = (double *)return_value_vl_calloc$6;
+      void *return_value_vl_calloc_6;
+      return_value_vl_calloc_6=vl_calloc(self->numData, sizeof(double) /*8ul*/ );
+      self->alpha = (double *)return_value_vl_calloc_6;
       if(self->alpha == ((double *)NULL))
         goto err_alloc;
 
     }
 
-    return_value_vl_calloc$7=vl_calloc(numData, sizeof(double) /*8ul*/ );
-    self->scores = (double *)return_value_vl_calloc$7;
+    return_value_vl_calloc_7=vl_calloc(numData, sizeof(double) /*8ul*/ );
+    self->scores = (double *)return_value_vl_calloc_7;
     if(self->scores == ((double *)NULL))
       goto err_alloc;
 
@@ -22970,19 +22970,19 @@ extern struct VlSvm_ * vl_svm_new_with_abstract_data(enum anonymous$6 solver, vo
 
 // vl_svm_new_with_dataset
 // file vl/svm.c line 980
-extern struct VlSvm_ * vl_svm_new_with_dataset(enum anonymous$6 solver, struct VlSvmDataset_ *dataset, const double *labels, double lambda)
+extern struct VlSvm_ * vl_svm_new_with_dataset(enum anonymous_6 solver, struct VlSvmDataset_ *dataset, const double *labels, double lambda)
 {
   struct VlSvm_ *self;
-  unsigned long long int return_value_vl_svmdataset_get_dimension$1;
-  return_value_vl_svmdataset_get_dimension$1=vl_svmdataset_get_dimension(dataset);
-  unsigned long long int return_value_vl_svmdataset_get_num_data$2;
-  return_value_vl_svmdataset_get_num_data$2=vl_svmdataset_get_num_data(dataset);
-  self=vl_svm_new_with_abstract_data(solver, (void *)dataset, return_value_vl_svmdataset_get_dimension$1, return_value_vl_svmdataset_get_num_data$2, labels, lambda);
-  double (*return_value_vl_svmdataset_get_inner_product_function$3)(const void *, unsigned long long int, double *);
-  return_value_vl_svmdataset_get_inner_product_function$3=vl_svmdataset_get_inner_product_function(dataset);
-  void (*return_value_vl_svmdataset_get_accumulate_function$4)(const void *, unsigned long long int, double *, double);
-  return_value_vl_svmdataset_get_accumulate_function$4=vl_svmdataset_get_accumulate_function(dataset);
-  vl_svm_set_data_functions(self, return_value_vl_svmdataset_get_inner_product_function$3, return_value_vl_svmdataset_get_accumulate_function$4);
+  unsigned long long int return_value_vl_svmdataset_get_dimension_1;
+  return_value_vl_svmdataset_get_dimension_1=vl_svmdataset_get_dimension(dataset);
+  unsigned long long int return_value_vl_svmdataset_get_num_data_2;
+  return_value_vl_svmdataset_get_num_data_2=vl_svmdataset_get_num_data(dataset);
+  self=vl_svm_new_with_abstract_data(solver, (void *)dataset, return_value_vl_svmdataset_get_dimension_1, return_value_vl_svmdataset_get_num_data_2, labels, lambda);
+  double (*return_value_vl_svmdataset_get_inner_product_function_3)(const void *, unsigned long long int, double *);
+  return_value_vl_svmdataset_get_inner_product_function_3=vl_svmdataset_get_inner_product_function(dataset);
+  void (*return_value_vl_svmdataset_get_accumulate_function_4)(const void *, unsigned long long int, double *, double);
+  return_value_vl_svmdataset_get_accumulate_function_4=vl_svmdataset_get_accumulate_function(dataset);
+  vl_svm_set_data_functions(self, return_value_vl_svmdataset_get_inner_product_function_3, return_value_vl_svmdataset_get_accumulate_function_4);
   return self;
 }
 
@@ -23069,7 +23069,7 @@ void vl_svm_set_lambda(struct VlSvm_ *self, double lambda)
 
 // vl_svm_set_loss
 // file vl/svm.c line 1552
-extern void vl_svm_set_loss(struct VlSvm_ *self, enum anonymous$9 loss)
+extern void vl_svm_set_loss(struct VlSvm_ *self, enum anonymous_9 loss)
 {
   switch((signed int)loss)
   {
@@ -23140,9 +23140,9 @@ extern void vl_svm_set_max_num_iterations(struct VlSvm_ *self, unsigned long lon
 // file vl/svm.c line 1389
 extern void vl_svm_set_model(struct VlSvm_ *self, const double *model)
 {
-  unsigned long long int return_value_vl_svm_get_dimension$1;
-  return_value_vl_svm_get_dimension$1=vl_svm_get_dimension(self);
-  memcpy((void *)self->model, (const void *)model, sizeof(double) /*8ul*/  * return_value_vl_svm_get_dimension$1);
+  unsigned long long int return_value_vl_svm_get_dimension_1;
+  return_value_vl_svm_get_dimension_1=vl_svm_get_dimension(self);
+  memcpy((void *)self->model, (const void *)model, sizeof(double) /*8ul*/  * return_value_vl_svm_get_dimension_1);
 }
 
 // vl_svm_set_weights
@@ -23179,12 +23179,12 @@ void vl_svmdataset_accumulate_d(const struct VlSvmDataset_ *self, unsigned long 
 {
   double *data = (double *)self->data + (signed long int)(self->dimension * element);
   double *end = data + (signed long int)self->dimension;
-  double *tmp_post$1;
+  double *tmp_post_1;
   for( ; !(data == end); model = model + 1l)
   {
-    tmp_post$1 = data;
+    tmp_post_1 = data;
     data = data + 1l;
-    *model = *model + *tmp_post$1 * multiplier;
+    *model = *model + *tmp_post_1 * multiplier;
   }
 }
 
@@ -23194,12 +23194,12 @@ void vl_svmdataset_accumulate_f(const struct VlSvmDataset_ *self, unsigned long 
 {
   float *data = (float *)self->data + (signed long int)(self->dimension * element);
   float *end = data + (signed long int)self->dimension;
-  float *tmp_post$1;
+  float *tmp_post_1;
   for( ; !(data == end); model = model + 1l)
   {
-    tmp_post$1 = data;
+    tmp_post_1 = data;
     data = data + 1l;
-    *model = *model + (double)*tmp_post$1 * multiplier;
+    *model = *model + (double)*tmp_post_1 * multiplier;
   }
 }
 
@@ -23210,19 +23210,19 @@ void vl_svmdataset_accumulate_hom_d(const struct VlSvmDataset_ *self, unsigned l
   double *data = (double *)self->data + (signed long int)(self->dimension * element);
   double *end = data + (signed long int)self->dimension;
   double *bufEnd = (double *)self->homBuffer + (signed long int)self->homDimension;
-  double *tmp_post$1;
-  double *tmp_post$2;
+  double *tmp_post_1;
+  double *tmp_post_2;
   while(!(data == end))
   {
     double *buf = (double *)self->homBuffer;
-    tmp_post$1 = data;
+    tmp_post_1 = data;
     data = data + 1l;
-    vl_homogeneouskernelmap_evaluate_d(self->hom, (double *)self->homBuffer, (unsigned long long int)1, *tmp_post$1);
+    vl_homogeneouskernelmap_evaluate_d(self->hom, (double *)self->homBuffer, (unsigned long long int)1, *tmp_post_1);
     for( ; !(buf == bufEnd); model = model + 1l)
     {
-      tmp_post$2 = buf;
+      tmp_post_2 = buf;
       buf = buf + 1l;
-      *model = *model + *tmp_post$2 * multiplier;
+      *model = *model + *tmp_post_2 * multiplier;
     }
   }
 }
@@ -23234,19 +23234,19 @@ void vl_svmdataset_accumulate_hom_f(const struct VlSvmDataset_ *self, unsigned l
   float *data = (float *)self->data + (signed long int)(self->dimension * element);
   float *end = data + (signed long int)self->dimension;
   float *bufEnd = (float *)self->homBuffer + (signed long int)self->homDimension;
-  float *tmp_post$1;
-  float *tmp_post$2;
+  float *tmp_post_1;
+  float *tmp_post_2;
   while(!(data == end))
   {
     float *buf = (float *)self->homBuffer;
-    tmp_post$1 = data;
+    tmp_post_1 = data;
     data = data + 1l;
-    vl_homogeneouskernelmap_evaluate_f(self->hom, (float *)self->homBuffer, (unsigned long long int)1, (double)*tmp_post$1);
+    vl_homogeneouskernelmap_evaluate_f(self->hom, (float *)self->homBuffer, (unsigned long long int)1, (double)*tmp_post_1);
     for( ; !(buf == bufEnd); model = model + 1l)
     {
-      tmp_post$2 = buf;
+      tmp_post_2 = buf;
       buf = buf + 1l;
-      *model = *model + (double)*tmp_post$2 * multiplier;
+      *model = *model + (double)*tmp_post_2 * multiplier;
     }
   }
 }
@@ -23305,9 +23305,9 @@ extern unsigned long long int vl_svmdataset_get_dimension(const struct VlSvmData
 {
   if(!(self->hom == ((struct _VlHomogeneousKernelMap *)NULL)))
   {
-    unsigned long long int return_value_vl_homogeneouskernelmap_get_dimension$1;
-    return_value_vl_homogeneouskernelmap_get_dimension$1=vl_homogeneouskernelmap_get_dimension(self->hom);
-    return self->dimension * return_value_vl_homogeneouskernelmap_get_dimension$1;
+    unsigned long long int return_value_vl_homogeneouskernelmap_get_dimension_1;
+    return_value_vl_homogeneouskernelmap_get_dimension_1=vl_homogeneouskernelmap_get_dimension(self->hom);
+    return self->dimension * return_value_vl_homogeneouskernelmap_get_dimension_1;
   }
 
   return self->dimension;
@@ -23360,9 +23360,9 @@ extern unsigned long long int vl_svmdataset_get_num_data(const struct VlSvmDatas
 extern struct VlSvmDataset_ * vl_svmdataset_new(unsigned int dataType, void *data, unsigned long long int dimension, unsigned long long int numData)
 {
   struct VlSvmDataset_ *self;
-  void *return_value_vl_calloc$1;
-  return_value_vl_calloc$1=vl_calloc((unsigned long int)1, sizeof(struct VlSvmDataset_) /*56ul*/ );
-  self = (struct VlSvmDataset_ *)return_value_vl_calloc$1;
+  void *return_value_vl_calloc_1;
+  return_value_vl_calloc_1=vl_calloc((unsigned long int)1, sizeof(struct VlSvmDataset_) /*56ul*/ );
+  self = (struct VlSvmDataset_ *)return_value_vl_calloc_1;
   if(self == ((struct VlSvmDataset_ *)NULL))
     return (struct VlSvmDataset_ *)(void *)0;
 
@@ -23393,9 +23393,9 @@ extern void vl_svmdataset_set_homogeneous_kernel_map(struct VlSvmDataset_ *self,
   if(!(self->hom == ((struct _VlHomogeneousKernelMap *)NULL)))
   {
     self->homDimension=vl_homogeneouskernelmap_get_dimension(self->hom);
-    unsigned long long int return_value_vl_get_type_size$1;
-    return_value_vl_get_type_size$1=vl_get_type_size(self->dataType);
-    self->homBuffer=vl_calloc(self->homDimension, return_value_vl_get_type_size$1);
+    unsigned long long int return_value_vl_get_type_size_1;
+    return_value_vl_get_type_size_1=vl_get_type_size(self->dataType);
+    self->homBuffer=vl_calloc(self->homDimension, return_value_vl_get_type_size_1);
   }
 
 }
@@ -23405,9 +23405,9 @@ extern void vl_svmdataset_set_homogeneous_kernel_map(struct VlSvmDataset_ *self,
 static struct _VlThreadState * vl_thread_specific_state_new(void)
 {
   struct _VlThreadState *self;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _VlThreadState) /*3536ul*/ );
-  self = (struct _VlThreadState *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _VlThreadState) /*3536ul*/ );
+  self = (struct _VlThreadState *)return_value_malloc_1;
   self->lastError = 0;
   self->lastErrorMessage[(signed long int)0] = (char)0;
   self->ticMark = (signed long int)0;
@@ -23430,9 +23430,9 @@ extern double vl_toc(void)
 {
   struct _VlThreadState *threadState;
   threadState=vl_get_thread_specific_state();
-  signed long int return_value_clock$1;
-  return_value_clock$1=clock();
-  return (double)(return_value_clock$1 - threadState->ticMark) / (double)(signed long int)1000000;
+  signed long int return_value_clock_1;
+  return_value_clock_1=clock();
+  return (double)(return_value_clock_1 - threadState->ticMark) / (double)(signed long int)1000000;
 }
 
 // vl_unlock_state
@@ -23474,7 +23474,7 @@ extern void vl_vlad_encode(void *enc, unsigned int dataType, const void *means, 
 // file vl/hikmeans.c line 160
 static void xdelete(struct _VlHIKMNode *node)
 {
-  unsigned long long int return_value_vl_ikm_get_K$1;
+  unsigned long long int return_value_vl_ikm_get_K_1;
   if(!(node == ((struct _VlHIKMNode *)NULL)))
   {
     unsigned long long int k;
@@ -23483,8 +23483,8 @@ static void xdelete(struct _VlHIKMNode *node)
       k = (unsigned long long int)0;
       do
       {
-        return_value_vl_ikm_get_K$1=vl_ikm_get_K(node->filter);
-        if(k >= return_value_vl_ikm_get_K$1)
+        return_value_vl_ikm_get_K_1=vl_ikm_get_K(node->filter);
+        if(k >= return_value_vl_ikm_get_K_1)
           break;
 
         xdelete(node->children[(signed long int)k]);
@@ -23511,9 +23511,9 @@ static inline double xlogx(double x)
 
   else
   {
-    double return_value_log$1;
-    return_value_log$1=log(x);
-    return x * return_value_log$1;
+    double return_value_log_1;
+    return_value_log_1=log(x);
+    return x * return_value_log_1;
   }
 }
 
@@ -23522,25 +23522,25 @@ static inline double xlogx(double x)
 static struct _VlHIKMNode * xmeans(struct _VlHIKMTree *tree, const unsigned char *data, unsigned long long int N, unsigned long long int K, unsigned long long int height)
 {
   struct _VlHIKMNode *node;
-  void *return_value_vl_malloc$1;
-  return_value_vl_malloc$1=vl_malloc(sizeof(struct _VlHIKMNode) /*16ul*/ );
-  node = (struct _VlHIKMNode *)return_value_vl_malloc$1;
+  void *return_value_vl_malloc_1;
+  return_value_vl_malloc_1=vl_malloc(sizeof(struct _VlHIKMNode) /*16ul*/ );
+  node = (struct _VlHIKMNode *)return_value_vl_malloc_1;
   unsigned int *ids;
-  void *return_value_vl_malloc$2;
-  return_value_vl_malloc$2=vl_malloc(sizeof(unsigned int) /*4ul*/  * N);
-  ids = (unsigned int *)return_value_vl_malloc$2;
+  void *return_value_vl_malloc_2;
+  return_value_vl_malloc_2=vl_malloc(sizeof(unsigned int) /*4ul*/  * N);
+  ids = (unsigned int *)return_value_vl_malloc_2;
   node->filter=vl_ikm_new(tree->method);
-  void *tmp_if_expr$4;
-  void *return_value_vl_malloc$3;
+  void *tmp_if_expr_4;
+  void *return_value_vl_malloc_3;
   if(height == 1ul)
-    tmp_if_expr$4 = NULL;
+    tmp_if_expr_4 = NULL;
 
   else
   {
-    return_value_vl_malloc$3=vl_malloc(sizeof(struct _VlHIKMNode *) /*8ul*/  * K);
-    tmp_if_expr$4 = return_value_vl_malloc$3;
+    return_value_vl_malloc_3=vl_malloc(sizeof(struct _VlHIKMNode *) /*8ul*/  * K);
+    tmp_if_expr_4 = return_value_vl_malloc_3;
   }
-  node->children = (struct _VlHIKMNode **)tmp_if_expr$4;
+  node->children = (struct _VlHIKMNode **)tmp_if_expr_4;
   vl_ikm_set_max_niters(node->filter, tree->max_niters);
   vl_ikm_set_verbosity(node->filter, tree->verb - 1);
   vl_ikm_init_rand_data(node->filter, data, tree->M, N, K);
@@ -23560,9 +23560,9 @@ static struct _VlHIKMNode * xmeans(struct _VlHIKMTree *tree, const unsigned char
       vl_free((void *)partition);
       if(!((signed int)tree->depth + -((signed int)height) >= tree->verb))
       {
-        signed int (*return_value_vl_get_printf_func$5)(const char *, ...);
-        return_value_vl_get_printf_func$5=vl_get_printf_func();
-        return_value_vl_get_printf_func$5("hikmeans: branch at depth %d: %6.1f %% completed\n", tree->depth - height, ((double)(k + (unsigned long int)1) / (double)K) * (double)100);
+        signed int (*return_value_vl_get_printf_func_5)(const char *, ...);
+        return_value_vl_get_printf_func_5=vl_get_printf_func();
+        return_value_vl_get_printf_func_5("hikmeans: branch at depth %d: %6.1f %% completed\n", tree->depth - height, ((double)(k + (unsigned long int)1) / (double)K) * (double)100);
       }
 
     }

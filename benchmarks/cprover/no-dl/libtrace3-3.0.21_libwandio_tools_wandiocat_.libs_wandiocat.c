@@ -1,58 +1,58 @@
-// #anon_enum$EMPTY=0$FULL=1
+// #anon_enum_EMPTY=0_FULL=1
 // file ior-thread.c line 69
-enum anonymous$8 { EMPTY=0, FULL=1 };
+enum anonymous_8 { EMPTY=0, FULL=1 };
 
-// #anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10
+// #anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10
 // file /usr/include/lzma/check.h line 27
 enum anonymous { LZMA_CHECK_NONE=0, LZMA_CHECK_CRC32=1, LZMA_CHECK_CRC64=4, LZMA_CHECK_SHA256=10 };
 
-// #anon_enum$LZMA_OK=0$LZMA_STREAM_END=1$LZMA_NO_CHECK=2$LZMA_UNSUPPORTED_CHECK=3$LZMA_GET_CHECK=4$LZMA_MEM_ERROR=5$LZMA_MEMLIMIT_ERROR=6$LZMA_FORMAT_ERROR=7$LZMA_OPTIONS_ERROR=8$LZMA_DATA_ERROR=9$LZMA_BUF_ERROR=10$LZMA_PROG_ERROR=11
+// #anon_enum_LZMA_OK=0_LZMA_STREAM_END=1_LZMA_NO_CHECK=2_LZMA_UNSUPPORTED_CHECK=3_LZMA_GET_CHECK=4_LZMA_MEM_ERROR=5_LZMA_MEMLIMIT_ERROR=6_LZMA_FORMAT_ERROR=7_LZMA_OPTIONS_ERROR=8_LZMA_DATA_ERROR=9_LZMA_BUF_ERROR=10_LZMA_PROG_ERROR=11
 // file /usr/include/lzma/base.h line 57
-enum anonymous$11 { LZMA_OK=0, LZMA_STREAM_END=1, LZMA_NO_CHECK=2, LZMA_UNSUPPORTED_CHECK=3, LZMA_GET_CHECK=4, LZMA_MEM_ERROR=5, LZMA_MEMLIMIT_ERROR=6, LZMA_FORMAT_ERROR=7, LZMA_OPTIONS_ERROR=8, LZMA_DATA_ERROR=9, LZMA_BUF_ERROR=10, LZMA_PROG_ERROR=11 };
+enum anonymous_11 { LZMA_OK=0, LZMA_STREAM_END=1, LZMA_NO_CHECK=2, LZMA_UNSUPPORTED_CHECK=3, LZMA_GET_CHECK=4, LZMA_MEM_ERROR=5, LZMA_MEMLIMIT_ERROR=6, LZMA_FORMAT_ERROR=7, LZMA_OPTIONS_ERROR=8, LZMA_DATA_ERROR=9, LZMA_BUF_ERROR=10, LZMA_PROG_ERROR=11 };
 
-// #anon_enum$LZMA_RESERVED_ENUM=0
+// #anon_enum_LZMA_RESERVED_ENUM=0
 // file /usr/include/lzma/base.h line 44
-enum anonymous$3 { LZMA_RESERVED_ENUM=0 };
+enum anonymous_3 { LZMA_RESERVED_ENUM=0 };
 
-// #anon_enum$LZMA_RUN=0$LZMA_SYNC_FLUSH=1$LZMA_FULL_FLUSH=2$LZMA_FINISH=3
+// #anon_enum_LZMA_RUN=0_LZMA_SYNC_FLUSH=1_LZMA_FULL_FLUSH=2_LZMA_FINISH=3
 // file /usr/include/lzma/base.h line 250
-enum anonymous$12 { LZMA_RUN=0, LZMA_SYNC_FLUSH=1, LZMA_FULL_FLUSH=2, LZMA_FINISH=3 };
+enum anonymous_12 { LZMA_RUN=0, LZMA_SYNC_FLUSH=1, LZMA_FULL_FLUSH=2, LZMA_FINISH=3 };
 
-// tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]
+// tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]
 // file /usr/include/lzma/base.h line 349
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[*{S8}$S8$'next_in'||U32'avail_in'||U32'total_in_lo32'||U32'total_in_hi32'||U32'$pad0'||*{S8}$S8$'next_out'||U32'avail_out'||U32'total_out_lo32'||U32'total_out_hi32'||U32'$pad1'||*{V}$V$'state'||*{*{V}$V$(*{V}$V$|S32|S32)->*{V}$V$}$*{V}$V$(*{V}$V$|S32|S32)->*{V}$V$$'bzalloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'bzfree'||*{V}$V$'opaque'|]
+// tag-#anon#ST[*{S8}_S8_'next_in'||U32'avail_in'||U32'total_in_lo32'||U32'total_in_hi32'||U32'_pad0'||*{S8}_S8_'next_out'||U32'avail_out'||U32'total_out_lo32'||U32'total_out_hi32'||U32'_pad1'||*{V}_V_'state'||*{*{V}_V_(*{V}_V_|S32|S32)->*{V}_V_}_*{V}_V_(*{V}_V_|S32|S32)->*{V}_V__'bzalloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'bzfree'||*{V}_V_'opaque'|]
 // file /usr/include/bzlib.h line 49
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{cS8}$cS8$'name'||*{S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|*{V}$V$|S64)->S64}$S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|*{V}$V$|S64)->S64$'read'||*{S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|*{V}$V$|S64)->S64}$S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|*{V}$V$|S64)->S64$'peek'||*{S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$)->S64}$S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$)->S64$'tell'||*{S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|S64|S32)->S64}$S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|S64|S32)->S64$'seek'||*{V(*{SYM#tag-io_t#}$SYM#tag-io_t#$)->V}$V(*{SYM#tag-io_t#}$SYM#tag-io_t#$)->V$'close'|]
+// tag-#anon#ST[*{cS8}_cS8_'name'||*{S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|*{V}_V_|S64)->S64}_S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|*{V}_V_|S64)->S64_'read'||*{S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|*{V}_V_|S64)->S64}_S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|*{V}_V_|S64)->S64_'peek'||*{S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_)->S64}_S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_)->S64_'tell'||*{S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|S64|S32)->S64}_S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|S64|S32)->S64_'seek'||*{V(*{SYM#tag-io_t#}_SYM#tag-io_t#_)->V}_V(*{SYM#tag-io_t#}_SYM#tag-io_t#_)->V_'close'|]
 // file ../../../libwandio/wandio.h line 82
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{cS8}$cS8$'name'||*{S64(*{SYM#tag-iow_t#}$SYM#tag-iow_t#$|*{cS8}$cS8$|S64)->S64}$S64(*{SYM#tag-iow_t#}$SYM#tag-iow_t#$|*{cS8}$cS8$|S64)->S64$'write'||*{V(*{SYM#tag-iow_t#}$SYM#tag-iow_t#$)->V}$V(*{SYM#tag-iow_t#}$SYM#tag-iow_t#$)->V$'close'|]
+// tag-#anon#ST[*{cS8}_cS8_'name'||*{S64(*{SYM#tag-iow_t#}_SYM#tag-iow_t#_|*{cS8}_cS8_|S64)->S64}_S64(*{SYM#tag-iow_t#}_SYM#tag-iow_t#_|*{cS8}_cS8_|S64)->S64_'write'||*{V(*{SYM#tag-iow_t#}_SYM#tag-iow_t#_)->V}_V(*{SYM#tag-iow_t#}_SYM#tag-iow_t#_)->V_'close'|]
 // file ../../../libwandio/wandio.h line 134
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{cU8}$cU8$'next_in'||U64'avail_in'||U64'total_in'||*{U8}$U8$'next_out'||U64'avail_out'||U64'total_out'||*{SYM#tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]#}$SYM#tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]#$'allocator'||*{SYM#tag-lzma_internal_s#}$SYM#tag-lzma_internal_s#$'internal'||*{V}$V$'reserved_ptr1'||*{V}$V$'reserved_ptr2'||*{V}$V$'reserved_ptr3'||*{V}$V$'reserved_ptr4'||U64'reserved_int1'||U64'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'|]
+// tag-#anon#ST[*{cU8}_cU8_'next_in'||U64'avail_in'||U64'total_in'||*{U8}_U8_'next_out'||U64'avail_out'||U64'total_out'||*{SYM#tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]#}_SYM#tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]#_'allocator'||*{SYM#tag-lzma_internal_s#}_SYM#tag-lzma_internal_s#_'internal'||*{V}_V_'reserved_ptr1'||*{V}_V_'reserved_ptr2'||*{V}_V_'reserved_ptr3'||*{V}_V_'reserved_ptr4'||U64'reserved_int1'||U64'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'|]
 // file /usr/include/lzma/base.h line 461
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$5;
+union anonymous_5;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -126,9 +126,9 @@ union pthread_attr_t;
 // file ior-thread.c line 72
 struct state_t;
 
-// tag-state_t$link1
+// tag-state_t_link1
 // file iow-thread.c line 72
-struct state_t$0;
+struct state_t_0;
 
 // tag-stdio_t
 // file ior-stdio.c line 48
@@ -162,22 +162,22 @@ struct zlibw_t;
 
 // BZ2_bzCompress
 // file /usr/include/bzlib.h line 107
-extern signed int BZ2_bzCompress(struct anonymous$1 *, signed int);
+extern signed int BZ2_bzCompress(struct anonymous_1 *, signed int);
 // BZ2_bzCompressEnd
 // file /usr/include/bzlib.h line 112
-extern signed int BZ2_bzCompressEnd(struct anonymous$1 *);
+extern signed int BZ2_bzCompressEnd(struct anonymous_1 *);
 // BZ2_bzCompressInit
 // file /usr/include/bzlib.h line 100
-extern signed int BZ2_bzCompressInit(struct anonymous$1 *, signed int, signed int, signed int);
+extern signed int BZ2_bzCompressInit(struct anonymous_1 *, signed int, signed int, signed int);
 // BZ2_bzDecompress
 // file /usr/include/bzlib.h line 122
-extern signed int BZ2_bzDecompress(struct anonymous$1 *);
+extern signed int BZ2_bzDecompress(struct anonymous_1 *);
 // BZ2_bzDecompressEnd
 // file /usr/include/bzlib.h line 126
-extern signed int BZ2_bzDecompressEnd(struct anonymous$1 *);
+extern signed int BZ2_bzDecompressEnd(struct anonymous_1 *);
 // BZ2_bzDecompressInit
 // file /usr/include/bzlib.h line 116
-extern signed int BZ2_bzDecompressInit(struct anonymous$1 *, signed int, signed int);
+extern signed int BZ2_bzDecompressInit(struct anonymous_1 *, signed int, signed int);
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
@@ -267,19 +267,19 @@ extern signed int inflateInit2_(struct z_stream_s *, signed int, const char *, s
 extern signed long int lseek(signed int, signed long int, signed int);
 // lzma_auto_decoder
 // file /usr/include/lzma/container.h line 361
-extern enum anonymous$11 lzma_auto_decoder(struct anonymous$9 *, unsigned long int, unsigned int);
+extern enum anonymous_11 lzma_auto_decoder(struct anonymous_9 *, unsigned long int, unsigned int);
 // lzma_close
 // file ior-lzma.c line 149
 static void lzma_close(struct io_t *io);
 // lzma_code
 // file /usr/include/lzma/base.h line 537
-extern enum anonymous$11 lzma_code(struct anonymous$9 *, enum anonymous$12);
+extern enum anonymous_11 lzma_code(struct anonymous_9 *, enum anonymous_12);
 // lzma_easy_encoder
 // file /usr/include/lzma/container.h line 133
-extern enum anonymous$11 lzma_easy_encoder(struct anonymous$9 *, unsigned int, enum anonymous);
+extern enum anonymous_11 lzma_easy_encoder(struct anonymous_9 *, unsigned int, enum anonymous);
 // lzma_end
 // file /usr/include/lzma/base.h line 554
-extern void lzma_end(struct anonymous$9 *);
+extern void lzma_end(struct anonymous_9 *);
 // lzma_open
 // file wandio.h line 197
 struct io_t * lzma_open(struct io_t *parent);
@@ -348,16 +348,16 @@ extern signed int printf(const char *, ...);
 static void printhelp();
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$7 *);
+extern signed int pthread_cond_destroy(union anonymous_7 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$7 *, const union anonymous$4 *);
+extern signed int pthread_cond_init(union anonymous_7 *, const union anonymous_4 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$7 *);
+extern signed int pthread_cond_signal(union anonymous_7 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$7 *, union anonymous$5 *);
+extern signed int pthread_cond_wait(union anonymous_7 *, union anonymous_5 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -366,16 +366,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$5 *);
+extern signed int pthread_mutex_destroy(union anonymous_5 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$5 *, const union anonymous$4 *);
+extern signed int pthread_mutex_init(union anonymous_5 *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$5 *);
+extern signed int pthread_mutex_lock(union anonymous_5 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$5 *);
+extern signed int pthread_mutex_unlock(union anonymous_5 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -509,7 +509,7 @@ struct iow_t * zlib_wopen(struct iow_t *child, signed int compress_level);
 // file iow-zlib.c line 98
 static signed long int zlib_wwrite(struct iow_t *iow, const char *buffer, signed long int len);
 
-struct anonymous$2
+struct anonymous_2
 {
   // alloc
   void * (*alloc)(void *, unsigned long int, unsigned long int);
@@ -519,7 +519,7 @@ struct anonymous$2
   void *opaque;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // next_in
   char *next_in;
@@ -547,7 +547,7 @@ struct anonymous$1
   void *opaque;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // name
   const char *name;
@@ -563,7 +563,7 @@ struct anonymous$10
   void (*close)(struct io_t *);
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // name
   const char *name;
@@ -573,7 +573,7 @@ struct anonymous$0
   void (*close)(struct iow_t *);
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // next_in
   const unsigned char *next_in;
@@ -588,7 +588,7 @@ struct anonymous$9
   // total_out
   unsigned long int total_out;
   // allocator
-  struct anonymous$2 *allocator;
+  struct anonymous_2 *allocator;
   // internal
   struct lzma_internal_s *internal;
   // reserved_ptr1
@@ -608,12 +608,12 @@ struct anonymous$9
   // reserved_int4
   unsigned long int reserved_int4;
   // reserved_enum1
-  enum anonymous$3 reserved_enum1;
+  enum anonymous_3 reserved_enum1;
   // reserved_enum2
-  enum anonymous$3 reserved_enum2;
+  enum anonymous_3 reserved_enum2;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // __lock
   signed int __lock;
@@ -633,7 +633,7 @@ struct anonymous$6
   unsigned int __broadcast_seq;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[4l];
@@ -641,10 +641,10 @@ union anonymous$4
   signed int __align;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
-  struct anonymous$6 __data;
+  struct anonymous_6 __data;
   // __size
   char __size[48l];
   // __align
@@ -679,7 +679,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -768,13 +768,13 @@ struct buffer_t
   // len
   signed int len;
   // state
-  enum anonymous$8 state;
+  enum anonymous_8 state;
 };
 
 struct bz_t
 {
   // strm
-  struct anonymous$1 strm;
+  struct anonymous_1 strm;
   // inbuff
   char inbuff[1048576l];
   // outoffset
@@ -788,7 +788,7 @@ struct bz_t
 struct bzw_t
 {
   // strm
-  struct anonymous$1 strm;
+  struct anonymous_1 strm;
   // outbuff
   char outbuff[1048576l];
   // inoffset
@@ -808,7 +808,7 @@ struct internal_state
 struct io_t
 {
   // source
-  struct anonymous$10 *source;
+  struct anonymous_10 *source;
   // data
   void *data;
 };
@@ -824,7 +824,7 @@ struct iovec
 struct iow_t
 {
   // source
-  struct anonymous$0 *source;
+  struct anonymous_0 *source;
   // data
   void *data;
 };
@@ -834,7 +834,7 @@ struct lzma_t
   // inbuff
   unsigned char inbuff[1048576l];
   // strm
-  struct anonymous$9 strm;
+  struct anonymous_9 strm;
   // parent
   struct io_t *parent;
   // outoffset
@@ -846,7 +846,7 @@ struct lzma_t
 struct lzmaw_t
 {
   // strm
-  struct anonymous$9 strm;
+  struct anonymous_9 strm;
   // outbuff
   unsigned char outbuff[1048576l];
   // child
@@ -888,18 +888,18 @@ struct state_t
   // producer
   unsigned long int producer;
   // space_avail
-  union anonymous$7 space_avail;
+  union anonymous_7 space_avail;
   // data_ready
-  union anonymous$7 data_ready;
+  union anonymous_7 data_ready;
   // mutex
-  union anonymous$5 mutex;
+  union anonymous_5 mutex;
   // io
   struct io_t *io;
   // closing
   _Bool closing;
 };
 
-struct state_t$0
+struct state_t_0
 {
   // buffer
   struct buffer_t buffer[5l];
@@ -910,11 +910,11 @@ struct state_t$0
   // iow
   struct iow_t *iow;
   // data_ready
-  union anonymous$7 data_ready;
+  union anonymous_7 data_ready;
   // space_avail
-  union anonymous$7 space_avail;
+  union anonymous_7 space_avail;
   // mutex
-  union anonymous$5 mutex;
+  union anonymous_5 mutex;
   // out_buffer
   signed int out_buffer;
   // closing
@@ -1010,18 +1010,18 @@ struct zlibw_t
 
 // bz_source
 // file ior-bzip.c line 152
-struct anonymous$10 bz_source;
+struct anonymous_10 bz_source;
 // bz_source
 // file ior-bzip.c line 152
-struct anonymous$10 bz_source = { .name="bzip", .read=bz_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
+struct anonymous_10 bz_source = { .name="bzip", .read=bz_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
     .seek=(signed long int (*)(struct io_t *, signed long int, signed int))(void *)0,
     .close=bz_close };
 // bz_wsource
 // file iow-bzip.c line 157
-struct anonymous$0 bz_wsource;
+struct anonymous_0 bz_wsource;
 // bz_wsource
 // file iow-bzip.c line 157
-struct anonymous$0 bz_wsource = { .name="bzw", .write=bz_wwrite, .close=bz_wclose };
+struct anonymous_0 bz_wsource = { .name="bzw", .write=bz_wwrite, .close=bz_wclose };
 // compression_type
 // file wandio.c line 48
 struct wandio_compression_type compression_type[5l] = { { .name="gzip", .ext="gz", .compress_type=1 },
@@ -1040,18 +1040,18 @@ signed int force_directio_write = 0;
 signed int keep_stats = 0;
 // lzma_source
 // file ior-lzma.c line 157
-struct anonymous$10 lzma_source;
+struct anonymous_10 lzma_source;
 // lzma_source
 // file ior-lzma.c line 157
-struct anonymous$10 lzma_source = { .name="lzma", .read=lzma_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
+struct anonymous_10 lzma_source = { .name="lzma", .read=lzma_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
     .seek=(signed long int (*)(struct io_t *, signed long int, signed int))(void *)0,
     .close=lzma_close };
 // lzma_wsource
 // file iow-lzma.c line 166
-struct anonymous$0 lzma_wsource;
+struct anonymous_0 lzma_wsource;
 // lzma_wsource
 // file iow-lzma.c line 166
-struct anonymous$0 lzma_wsource = { .name="xz", .write=lzma_wwrite, .close=lzma_wclose };
+struct anonymous_0 lzma_wsource = { .name="xz", .write=lzma_wwrite, .close=lzma_wclose };
 // max_buffers
 // file wandio.c line 61
 unsigned int max_buffers = (unsigned int)50;
@@ -1066,10 +1066,10 @@ extern signed int optind;
 extern signed int optopt;
 // peek_source
 // file ior-peek.c line 314
-struct anonymous$10 peek_source;
+struct anonymous_10 peek_source;
 // peek_source
 // file ior-peek.c line 314
-struct anonymous$10 peek_source = { .name="peek", .read=peek_read, .peek=peek_peek, .tell=peek_tell,
+struct anonymous_10 peek_source = { .name="peek", .read=peek_read, .peek=peek_peek, .tell=peek_tell,
     .seek=peek_seek, .close=peek_close };
 // read_waits
 // file wandio.c line 63
@@ -1079,31 +1079,31 @@ unsigned long int read_waits = (unsigned long int)0;
 extern struct _IO_FILE *stderr;
 // stdio_source
 // file ior-stdio.c line 102
-struct anonymous$10 stdio_source;
+struct anonymous_10 stdio_source;
 // stdio_source
 // file ior-stdio.c line 102
-struct anonymous$10 stdio_source = { .name="stdio", .read=stdio_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=stdio_tell,
+struct anonymous_10 stdio_source = { .name="stdio", .read=stdio_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=stdio_tell,
     .seek=stdio_seek, .close=stdio_close };
 // stdio_wsource
 // file iow-stdio.c line 233
-struct anonymous$0 stdio_wsource;
+struct anonymous_0 stdio_wsource;
 // stdio_wsource
 // file iow-stdio.c line 233
-struct anonymous$0 stdio_wsource = { .name="stdiow", .write=stdio_wwrite, .close=stdio_wclose };
+struct anonymous_0 stdio_wsource = { .name="stdiow", .write=stdio_wwrite, .close=stdio_wclose };
 // thread_source
 // file ior-thread.c line 279
-struct anonymous$10 thread_source;
+struct anonymous_10 thread_source;
 // thread_source
 // file ior-thread.c line 279
-struct anonymous$10 thread_source = { .name="thread", .read=thread_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
+struct anonymous_10 thread_source = { .name="thread", .read=thread_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
     .seek=(signed long int (*)(struct io_t *, signed long int, signed int))(void *)0,
     .close=thread_close };
 // thread_wsource
 // file iow-thread.c line 258
-struct anonymous$0 thread_wsource;
+struct anonymous_0 thread_wsource;
 // thread_wsource
 // file iow-thread.c line 258
-struct anonymous$0 thread_wsource = { .name="threadw", .write=thread_wwrite, .close=thread_wclose };
+struct anonymous_0 thread_wsource = { .name="threadw", .write=thread_wwrite, .close=thread_wclose };
 // use_autodetect
 // file wandio.c line 59
 signed int use_autodetect = 1;
@@ -1115,18 +1115,18 @@ unsigned int use_threads = (unsigned int)-1;
 unsigned long int write_waits = (unsigned long int)0;
 // zlib_source
 // file ior-zlib.c line 164
-struct anonymous$10 zlib_source;
+struct anonymous_10 zlib_source;
 // zlib_source
 // file ior-zlib.c line 164
-struct anonymous$10 zlib_source = { .name="zlib", .read=zlib_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
+struct anonymous_10 zlib_source = { .name="zlib", .read=zlib_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
     .seek=(signed long int (*)(struct io_t *, signed long int, signed int))(void *)0,
     .close=zlib_close };
 // zlib_wsource
 // file iow-zlib.c line 173
-struct anonymous$0 zlib_wsource;
+struct anonymous_0 zlib_wsource;
 // zlib_wsource
 // file iow-zlib.c line 173
-struct anonymous$0 zlib_wsource = { .name="zlibw", .write=zlib_wwrite, .close=zlib_wclose };
+struct anonymous_0 zlib_wsource = { .name="zlibw", .write=zlib_wwrite, .close=zlib_wclose };
 
 // alignedrealloc
 // file ior-peek.c line 223
@@ -1176,9 +1176,9 @@ struct io_t * bz_open(struct io_t *parent)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-    io = (struct io_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+    io = (struct io_t *)return_value_malloc_1;
     io->source = &bz_source;
     io->data=malloc(sizeof(struct bz_t) /*1048680ul*/ );
     ((struct bz_t *)io->data)->parent = parent;
@@ -1206,9 +1206,9 @@ static signed long int bz_read(struct io_t *io, void *buffer, signed long int le
   {
     if((signed int)((struct bz_t *)io->data)->err == ERR_ERROR)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 5;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 5;
       return (signed long int)-1;
     }
 
@@ -1222,9 +1222,9 @@ static signed long int bz_read(struct io_t *io, void *buffer, signed long int le
       while(!(((struct bz_t *)io->data)->strm.avail_in >= 1u))
       {
         signed int bytes_read;
-        signed long int return_value_wandio_read$2;
-        return_value_wandio_read$2=wandio_read(((struct bz_t *)io->data)->parent, (void *)((struct bz_t *)io->data)->inbuff, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
-        bytes_read = (signed int)return_value_wandio_read$2;
+        signed long int return_value_wandio_read_2;
+        return_value_wandio_read_2=wandio_read(((struct bz_t *)io->data)->parent, (void *)((struct bz_t *)io->data)->inbuff, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
+        bytes_read = (signed int)return_value_wandio_read_2;
         if(bytes_read == 0)
           return len - (signed long int)((struct bz_t *)io->data)->strm.avail_out;
 
@@ -1256,9 +1256,9 @@ static signed long int bz_read(struct io_t *io, void *buffer, signed long int le
         }
         default:
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 5;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 5;
           ((struct bz_t *)io->data)->err = (enum err_t)ERR_ERROR;
         }
       }
@@ -1271,11 +1271,11 @@ static signed long int bz_read(struct io_t *io, void *buffer, signed long int le
 // file iow-bzip.c line 138
 static void bz_wclose(struct iow_t *iow)
 {
-  signed int return_value_BZ2_bzCompress$1;
+  signed int return_value_BZ2_bzCompress_1;
   do
   {
-    return_value_BZ2_bzCompress$1=BZ2_bzCompress(&((struct bzw_t *)iow->data)->strm, 2);
-    if(!(return_value_BZ2_bzCompress$1 == 0))
+    return_value_BZ2_bzCompress_1=BZ2_bzCompress(&((struct bzw_t *)iow->data)->strm, 2);
+    if(!(return_value_BZ2_bzCompress_1 == 0))
       break;
 
     wandio_wwrite(((struct bzw_t *)iow->data)->child, (const void *)((struct bzw_t *)iow->data)->outbuff, (signed long int)(sizeof(char [1048576l]) /*1048576ul*/  - (unsigned long int)((struct bzw_t *)iow->data)->strm.avail_out));
@@ -1300,9 +1300,9 @@ struct iow_t * bz_wopen(struct iow_t *child, signed int compress_level)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct iow_t) /*16ul*/ );
-    iow = (struct iow_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct iow_t) /*16ul*/ );
+    iow = (struct iow_t *)return_value_malloc_1;
     iow->source = &bz_wsource;
     iow->data=malloc(sizeof(struct bzw_t) /*1048680ul*/ );
     ((struct bzw_t *)iow->data)->child = child;
@@ -1342,9 +1342,9 @@ static signed long int bz_wwrite(struct iow_t *iow, const char *buffer, signed l
         while(!(((struct bzw_t *)iow->data)->strm.avail_out >= 1u))
         {
           signed int bytes_written;
-          signed long int return_value_wandio_wwrite$1;
-          return_value_wandio_wwrite$1=wandio_wwrite(((struct bzw_t *)iow->data)->child, (const void *)((struct bzw_t *)iow->data)->outbuff, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
-          bytes_written = (signed int)return_value_wandio_wwrite$1;
+          signed long int return_value_wandio_wwrite_1;
+          return_value_wandio_wwrite_1=wandio_wwrite(((struct bzw_t *)iow->data)->child, (const void *)((struct bzw_t *)iow->data)->outbuff, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
+          bytes_written = (signed int)return_value_wandio_wwrite_1;
           if(!(bytes_written >= 1))
           {
             ((struct bzw_t *)iow->data)->err = (enum err_t)ERR_ERROR;
@@ -1379,9 +1379,9 @@ static signed long int bz_wwrite(struct iow_t *iow, const char *buffer, signed l
 static struct io_t * create_io_reader(const char *filename, signed int autodetect)
 {
   struct io_t *io;
-  struct io_t *return_value_stdio_open$1;
-  return_value_stdio_open$1=stdio_open(filename);
-  io=peek_open(return_value_stdio_open$1);
+  struct io_t *return_value_stdio_open_1;
+  return_value_stdio_open_1=stdio_open(filename);
+  io=peek_open(return_value_stdio_open_1);
   unsigned char buffer[1024l];
   signed int len;
   if(io == ((struct io_t *)NULL))
@@ -1389,9 +1389,9 @@ static struct io_t * create_io_reader(const char *filename, signed int autodetec
 
   else
   {
-    signed long int return_value_wandio_peek$2;
-    return_value_wandio_peek$2=wandio_peek(io, (void *)buffer, (signed long int)sizeof(unsigned char [1024l]) /*1024ul*/ );
-    len = (signed int)return_value_wandio_peek$2;
+    signed long int return_value_wandio_peek_2;
+    return_value_wandio_peek_2=wandio_peek(io, (void *)buffer, (signed long int)sizeof(unsigned char [1024l]) /*1024ul*/ );
+    len = (signed int)return_value_wandio_peek_2;
     if(!(autodetect == 0))
     {
       if(len >= 3)
@@ -1463,9 +1463,9 @@ static struct io_t * create_io_reader(const char *filename, signed int autodetec
     if(!(use_threads == 0u))
       io=thread_open(io);
 
-    struct io_t *return_value_peek_open$3;
-    return_value_peek_open$3=peek_open(io);
-    return return_value_peek_open$3;
+    struct io_t *return_value_peek_open_3;
+    return_value_peek_open_3=peek_open(io);
+    return return_value_peek_open_3;
   }
 }
 
@@ -1473,47 +1473,47 @@ static struct io_t * create_io_reader(const char *filename, signed int autodetec
 // file wandio.c line 75
 static void do_option(const char *option)
 {
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strncmp$4;
-  signed int return_value_atoi$1;
-  signed int return_value_strncmp$3;
-  signed int return_value_atoi$2;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strncmp_4;
+  signed int return_value_atoi_1;
+  signed int return_value_strncmp_3;
+  signed int return_value_atoi_2;
   if(!((signed int)*option == 0))
   {
-    return_value_strcmp$7=strcmp(option, "stats");
-    if(return_value_strcmp$7 == 0)
+    return_value_strcmp_7=strcmp(option, "stats");
+    if(return_value_strcmp_7 == 0)
       keep_stats = 1;
 
     else
     {
-      return_value_strcmp$6=strcmp(option, "nothreads");
-      if(return_value_strcmp$6 == 0)
+      return_value_strcmp_6=strcmp(option, "nothreads");
+      if(return_value_strcmp_6 == 0)
         use_threads = (unsigned int)0;
 
       else
       {
-        return_value_strcmp$5=strcmp(option, "noautodetect");
-        if(return_value_strcmp$5 == 0)
+        return_value_strcmp_5=strcmp(option, "noautodetect");
+        if(return_value_strcmp_5 == 0)
           use_autodetect = 0;
 
         else
         {
-          return_value_strncmp$4=strncmp(option, "threads=", (unsigned long int)8);
-          if(return_value_strncmp$4 == 0)
+          return_value_strncmp_4=strncmp(option, "threads=", (unsigned long int)8);
+          if(return_value_strncmp_4 == 0)
           {
-            return_value_atoi$1=atoi(option + (signed long int)8);
-            use_threads = (unsigned int)return_value_atoi$1;
+            return_value_atoi_1=atoi(option + (signed long int)8);
+            use_threads = (unsigned int)return_value_atoi_1;
           }
 
           else
           {
-            return_value_strncmp$3=strncmp(option, "buffers=", (unsigned long int)8);
-            if(return_value_strncmp$3 == 0)
+            return_value_strncmp_3=strncmp(option, "buffers=", (unsigned long int)8);
+            if(return_value_strncmp_3 == 0)
             {
-              return_value_atoi$2=atoi(option + (signed long int)8);
-              max_buffers = (unsigned int)return_value_atoi$2;
+              return_value_atoi_2=atoi(option + (signed long int)8);
+              max_buffers = (unsigned int)return_value_atoi_2;
             }
 
             else
@@ -1546,17 +1546,17 @@ struct io_t * lzma_open(struct io_t *parent)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-    io = (struct io_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+    io = (struct io_t *)return_value_malloc_1;
     io->source = &lzma_source;
     io->data=malloc(sizeof(struct lzma_t) /*1048728ul*/ );
     ((struct lzma_t *)io->data)->parent = parent;
-    memset((void *)&((struct lzma_t *)io->data)->strm, 0, sizeof(struct anonymous$9) /*136ul*/ );
+    memset((void *)&((struct lzma_t *)io->data)->strm, 0, sizeof(struct anonymous_9) /*136ul*/ );
     ((struct lzma_t *)io->data)->err = (enum err_t)ERR_OK;
-    enum anonymous$11 return_value_lzma_auto_decoder$2;
-    return_value_lzma_auto_decoder$2=lzma_auto_decoder(&((struct lzma_t *)io->data)->strm, 18446744073709551615UL, (unsigned int)0);
-    if(!((signed int)return_value_lzma_auto_decoder$2 == LZMA_OK))
+    enum anonymous_11 return_value_lzma_auto_decoder_2;
+    return_value_lzma_auto_decoder_2=lzma_auto_decoder(&((struct lzma_t *)io->data)->strm, 18446744073709551615UL, (unsigned int)0);
+    if(!((signed int)return_value_lzma_auto_decoder_2 == LZMA_OK))
     {
       free(io->data);
       free((void *)io);
@@ -1580,9 +1580,9 @@ static signed long int lzma_read(struct io_t *io, void *buffer, signed long int 
   {
     if((signed int)((struct lzma_t *)io->data)->err == ERR_ERROR)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 5;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 5;
       return (signed long int)-1;
     }
 
@@ -1596,9 +1596,9 @@ static signed long int lzma_read(struct io_t *io, void *buffer, signed long int 
       while(!(((struct lzma_t *)io->data)->strm.avail_in >= 1ul))
       {
         signed int bytes_read;
-        signed long int return_value_wandio_read$2;
-        return_value_wandio_read$2=wandio_read(((struct lzma_t *)io->data)->parent, (void *)(char *)((struct lzma_t *)io->data)->inbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
-        bytes_read = (signed int)return_value_wandio_read$2;
+        signed long int return_value_wandio_read_2;
+        return_value_wandio_read_2=wandio_read(((struct lzma_t *)io->data)->parent, (void *)(char *)((struct lzma_t *)io->data)->inbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
+        bytes_read = (signed int)return_value_wandio_read_2;
         if(bytes_read == 0)
         {
           if(((struct lzma_t *)io->data)->strm.avail_out == (unsigned long int)(unsigned int)len)
@@ -1622,8 +1622,8 @@ static signed long int lzma_read(struct io_t *io, void *buffer, signed long int 
         ((struct lzma_t *)io->data)->strm.next_in = ((struct lzma_t *)io->data)->inbuff;
         ((struct lzma_t *)io->data)->strm.avail_in = (unsigned long int)bytes_read;
       }
-      enum anonymous$11 err;
-      err=lzma_code(&((struct lzma_t *)io->data)->strm, (enum anonymous$12)LZMA_RUN);
+      enum anonymous_11 err;
+      err=lzma_code(&((struct lzma_t *)io->data)->strm, (enum anonymous_12)LZMA_RUN);
       switch((signed int)err)
       {
         case LZMA_OK:
@@ -1638,9 +1638,9 @@ static signed long int lzma_read(struct io_t *io, void *buffer, signed long int 
         }
         default:
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 5;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 5;
           ((struct lzma_t *)io->data)->err = (enum err_t)ERR_ERROR;
         }
       }
@@ -1653,10 +1653,10 @@ static signed long int lzma_read(struct io_t *io, void *buffer, signed long int 
 // file iow-lzma.c line 137
 static void lzma_wclose(struct iow_t *iow)
 {
-  enum anonymous$11 res;
+  enum anonymous_11 res;
   for( ; (_Bool)1; ((struct lzmaw_t *)iow->data)->strm.avail_out = sizeof(unsigned char [1048576l]) /*1048576ul*/ )
   {
-    res=lzma_code(&((struct lzmaw_t *)iow->data)->strm, (enum anonymous$12)LZMA_FINISH);
+    res=lzma_code(&((struct lzmaw_t *)iow->data)->strm, (enum anonymous_12)LZMA_FINISH);
     if((signed int)res == LZMA_STREAM_END)
       break;
 
@@ -1686,19 +1686,19 @@ struct iow_t * lzma_wopen(struct iow_t *child, signed int compress_level)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct iow_t) /*16ul*/ );
-    iow = (struct iow_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct iow_t) /*16ul*/ );
+    iow = (struct iow_t *)return_value_malloc_1;
     iow->source = &lzma_wsource;
     iow->data=malloc(sizeof(struct lzmaw_t) /*1048728ul*/ );
     ((struct lzmaw_t *)iow->data)->child = child;
-    memset((void *)&((struct lzmaw_t *)iow->data)->strm, 0, sizeof(struct anonymous$9) /*136ul*/ );
+    memset((void *)&((struct lzmaw_t *)iow->data)->strm, 0, sizeof(struct anonymous_9) /*136ul*/ );
     ((struct lzmaw_t *)iow->data)->strm.next_out = ((struct lzmaw_t *)iow->data)->outbuff;
     ((struct lzmaw_t *)iow->data)->strm.avail_out = sizeof(unsigned char [1048576l]) /*1048576ul*/ ;
     ((struct lzmaw_t *)iow->data)->err = (enum err_t)ERR_OK;
-    enum anonymous$11 return_value_lzma_easy_encoder$2;
-    return_value_lzma_easy_encoder$2=lzma_easy_encoder(&((struct lzmaw_t *)iow->data)->strm, (unsigned int)compress_level, (enum anonymous)LZMA_CHECK_CRC64);
-    if(!((signed int)return_value_lzma_easy_encoder$2 == LZMA_OK))
+    enum anonymous_11 return_value_lzma_easy_encoder_2;
+    return_value_lzma_easy_encoder_2=lzma_easy_encoder(&((struct lzmaw_t *)iow->data)->strm, (unsigned int)compress_level, (enum anonymous)LZMA_CHECK_CRC64);
+    if(!((signed int)return_value_lzma_easy_encoder_2 == LZMA_OK))
     {
       free(iow->data);
       free((void *)iow);
@@ -1733,9 +1733,9 @@ static signed long int lzma_wwrite(struct iow_t *iow, const char *buffer, signed
         while(!(((struct lzmaw_t *)iow->data)->strm.avail_out >= 1ul))
         {
           signed int bytes_written;
-          signed long int return_value_wandio_wwrite$1;
-          return_value_wandio_wwrite$1=wandio_wwrite(((struct lzmaw_t *)iow->data)->child, (const void *)((struct lzmaw_t *)iow->data)->outbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
-          bytes_written = (signed int)return_value_wandio_wwrite$1;
+          signed long int return_value_wandio_wwrite_1;
+          return_value_wandio_wwrite_1=wandio_wwrite(((struct lzmaw_t *)iow->data)->child, (const void *)((struct lzmaw_t *)iow->data)->outbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
+          bytes_written = (signed int)return_value_wandio_wwrite_1;
           if(!(bytes_written >= 1))
           {
             ((struct lzmaw_t *)iow->data)->err = (enum err_t)ERR_ERROR;
@@ -1748,8 +1748,8 @@ static signed long int lzma_wwrite(struct iow_t *iow, const char *buffer, signed
           ((struct lzmaw_t *)iow->data)->strm.next_out = ((struct lzmaw_t *)iow->data)->outbuff;
           ((struct lzmaw_t *)iow->data)->strm.avail_out = sizeof(unsigned char [1048576l]) /*1048576ul*/ ;
         }
-        enum anonymous$11 err;
-        err=lzma_code(&((struct lzmaw_t *)iow->data)->strm, (enum anonymous$12)LZMA_RUN);
+        enum anonymous_11 err;
+        err=lzma_code(&((struct lzmaw_t *)iow->data)->strm, (enum anonymous_12)LZMA_RUN);
         if((signed int)err == LZMA_OK)
         {
           ((struct lzmaw_t *)iow->data)->err = (enum err_t)ERR_OK;
@@ -1773,13 +1773,13 @@ signed int main(signed int argc, char **argv)
   signed int compress_type = 0;
   char *output = "-";
   char c;
-  signed int return_value_getopt$1;
-  struct wandio_compression_type *return_value_wandio_lookup_compression_type$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  signed int return_value_getopt_1;
+  struct wandio_compression_type *return_value_wandio_lookup_compression_type_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
   do
   {
-    return_value_getopt$1=getopt(argc, argv, "Z:z:o:h");
-    c = (char)return_value_getopt$1;
+    return_value_getopt_1=getopt(argc, argv, "Z:z:o:h");
+    c = (char)return_value_getopt_1;
     if((signed int)c == -1)
       break;
 
@@ -1787,8 +1787,8 @@ signed int main(signed int argc, char **argv)
     {
       case 90:
       {
-        return_value_wandio_lookup_compression_type$2=wandio_lookup_compression_type(optarg);
-        compress_type = return_value_wandio_lookup_compression_type$2->compress_type;
+        return_value_wandio_lookup_compression_type_2=wandio_lookup_compression_type(optarg);
+        compress_type = return_value_wandio_lookup_compression_type_2->compress_type;
         break;
       }
       case 122:
@@ -1813,8 +1813,8 @@ signed int main(signed int argc, char **argv)
 
         else
         {
-          return_value___ctype_b_loc$3=__ctype_b_loc();
-          if(!((16384 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)optopt]) == 0))
+          return_value___ctype_b_loc_3=__ctype_b_loc();
+          if(!((16384 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)optopt]) == 0))
             fprintf(stderr, "Unknown option `-%c'.\n", optopt);
 
           else
@@ -1865,8 +1865,8 @@ static void parse_env(void)
   char option[1024l];
   const char *ip;
   char *op;
-  _Bool tmp_if_expr$1;
-  char *tmp_post$2;
+  _Bool tmp_if_expr_1;
+  char *tmp_post_2;
   if(!(str == ((const char *)NULL)))
   {
     ip = str;
@@ -1874,11 +1874,11 @@ static void parse_env(void)
     do
     {
       if(!((signed int)*ip == 0))
-        tmp_if_expr$1 = op < option + (signed long int)sizeof(char [1024l]) /*1024ul*/  ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = op < option + (signed long int)sizeof(char [1024l]) /*1024ul*/  ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       if((signed int)*ip == 44)
@@ -1890,9 +1890,9 @@ static void parse_env(void)
 
       else
       {
-        tmp_post$2 = op;
+        tmp_post_2 = op;
         op = op + 1l;
-        *tmp_post$2 = *ip;
+        *tmp_post_2 = *ip;
       }
       ip = ip + 1l;
     }
@@ -1925,9 +1925,9 @@ struct io_t * peek_open(struct io_t *child)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-    io = (struct io_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+    io = (struct io_t *)return_value_malloc_1;
     io->data=malloc(sizeof(struct peek_t) /*32ul*/ );
     io->source = &peek_source;
     ((struct peek_t *)io->data)->child = child;
@@ -1948,9 +1948,9 @@ static signed long int peek_peek(struct io_t *io, void *buffer, signed long int 
   {
     signed long int read_amount = len - (((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset);
     read_amount = read_amount + ((signed long int)(1024 * 1024) - (((struct peek_t *)io->data)->length + read_amount) % (signed long int)(1024 * 1024));
-    void *return_value_alignedrealloc$1;
-    return_value_alignedrealloc$1=alignedrealloc((void *)((struct peek_t *)io->data)->buffer, (unsigned long int)((struct peek_t *)io->data)->length, (unsigned long int)(((struct peek_t *)io->data)->length + read_amount), &res);
-    ((struct peek_t *)io->data)->buffer = (char *)return_value_alignedrealloc$1;
+    void *return_value_alignedrealloc_1;
+    return_value_alignedrealloc_1=alignedrealloc((void *)((struct peek_t *)io->data)->buffer, (unsigned long int)((struct peek_t *)io->data)->length, (unsigned long int)(((struct peek_t *)io->data)->length + read_amount), &res);
+    ((struct peek_t *)io->data)->buffer = (char *)return_value_alignedrealloc_1;
     if(((struct peek_t *)io->data)->buffer == ((char *)NULL))
       return (signed long int)res;
 
@@ -1961,13 +1961,13 @@ static signed long int peek_peek(struct io_t *io, void *buffer, signed long int 
     ((struct peek_t *)io->data)->length = ((struct peek_t *)io->data)->length + read_amount;
   }
 
-  signed long int tmp_if_expr$2;
+  signed long int tmp_if_expr_2;
   if(!(len >= ((struct peek_t *)io->data)->length + -((struct peek_t *)io->data)->offset))
-    tmp_if_expr$2 = len;
+    tmp_if_expr_2 = len;
 
   else
-    tmp_if_expr$2 = ((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset;
-  ret = tmp_if_expr$2;
+    tmp_if_expr_2 = ((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset;
+  ret = tmp_if_expr_2;
   memcpy(buffer, (const void *)(((struct peek_t *)io->data)->buffer + ((struct peek_t *)io->data)->offset), (unsigned long int)ret);
   return ret;
 }
@@ -1977,15 +1977,15 @@ static signed long int peek_peek(struct io_t *io, void *buffer, signed long int 
 static signed long int peek_read(struct io_t *io, void *buffer, signed long int len)
 {
   signed long int ret = (signed long int)0;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(!(((struct peek_t *)io->data)->buffer == ((char *)NULL)))
   {
     if(!(len >= ((struct peek_t *)io->data)->length + -((struct peek_t *)io->data)->offset))
-      tmp_if_expr$1 = len;
+      tmp_if_expr_1 = len;
 
     else
-      tmp_if_expr$1 = ((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset;
-    ret = tmp_if_expr$1;
+      tmp_if_expr_1 = ((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset;
+    ret = tmp_if_expr_1;
     memcpy(buffer, (const void *)(((struct peek_t *)io->data)->buffer + ((struct peek_t *)io->data)->offset), (unsigned long int)ret);
     buffer = buffer + ret;
     ((struct peek_t *)io->data)->offset = ((struct peek_t *)io->data)->offset + ret;
@@ -2050,18 +2050,18 @@ static signed long int peek_read(struct io_t *io, void *buffer, signed long int 
 // file ior-peek.c line 297
 static signed long int peek_seek(struct io_t *io, signed long int offset, signed int whence)
 {
-  signed long int return_value_wandio_seek$1;
-  return_value_wandio_seek$1=wandio_seek(((struct peek_t *)io->data)->child, offset, whence);
-  return return_value_wandio_seek$1;
+  signed long int return_value_wandio_seek_1;
+  return_value_wandio_seek_1=wandio_seek(((struct peek_t *)io->data)->child, offset, whence);
+  return return_value_wandio_seek_1;
 }
 
 // peek_tell
 // file ior-peek.c line 290
 static signed long int peek_tell(struct io_t *io)
 {
-  signed long int return_value_wandio_tell$1;
-  return_value_wandio_tell$1=wandio_tell(((struct peek_t *)io->data)->child);
-  return return_value_wandio_tell$1;
+  signed long int return_value_wandio_tell_1;
+  return_value_wandio_tell_1=wandio_tell(((struct peek_t *)io->data)->child);
+  return return_value_wandio_tell_1;
 }
 
 // printhelp
@@ -2092,13 +2092,13 @@ static signed long int refill_buffer(struct io_t *io, signed long int len)
   /* assertion ((struct peek_t *)((io)->data))->length - ((struct peek_t *)((io)->data))->offset == 0 */
   assert(((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset == (signed long int)0);
   bytes_read = len < (signed long int)(1024 * 1024) ? (signed long int)(1024 * 1024) : len;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(!(bytes_read >= ((struct peek_t *)io->data)->length))
-    tmp_if_expr$1 = ((struct peek_t *)io->data)->length;
+    tmp_if_expr_1 = ((struct peek_t *)io->data)->length;
 
   else
-    tmp_if_expr$1 = bytes_read;
-  bytes_read = tmp_if_expr$1;
+    tmp_if_expr_1 = bytes_read;
+  bytes_read = tmp_if_expr_1;
   bytes_read = bytes_read + ((signed long int)4096 - bytes_read % (signed long int)4096);
   if(!(((struct peek_t *)io->data)->length >= bytes_read))
   {
@@ -2145,7 +2145,7 @@ static signed int safe_open(const char *filename, signed int flags)
   if(fd == -1)
     fd=open(filename, flags | 01 | 0100 | 01000, 0666);
 
-  signed int return_value_fchown$3;
+  signed int return_value_fchown_3;
   if(fd == -1)
     return fd;
 
@@ -2154,23 +2154,23 @@ static signed int safe_open(const char *filename, signed int flags)
     sudoenv=getenv("SUDO_UID");
     if(!(sudoenv == ((char *)NULL)))
     {
-      signed long int return_value_strtol$1;
-      return_value_strtol$1=strtol(sudoenv, (char ** restrict )(void *)0, 10);
-      userid = (unsigned int)return_value_strtol$1;
+      signed long int return_value_strtol_1;
+      return_value_strtol_1=strtol(sudoenv, (char ** restrict )(void *)0, 10);
+      userid = (unsigned int)return_value_strtol_1;
     }
 
     sudoenv=getenv("SUDO_GID");
     if(!(sudoenv == ((char *)NULL)))
     {
-      signed long int return_value_strtol$2;
-      return_value_strtol$2=strtol(sudoenv, (char ** restrict )(void *)0, 10);
-      groupid = (unsigned int)return_value_strtol$2;
+      signed long int return_value_strtol_2;
+      return_value_strtol_2=strtol(sudoenv, (char ** restrict )(void *)0, 10);
+      groupid = (unsigned int)return_value_strtol_2;
     }
 
     if(!(userid == 0u))
     {
-      return_value_fchown$3=fchown(fd, userid, groupid);
-      if(!(return_value_fchown$3 == -1))
+      return_value_fchown_3=fchown(fd, userid, groupid);
+      if(!(return_value_fchown_3 == -1))
         goto __CPROVER_DUMP_L5;
 
       perror("fchown");
@@ -2201,13 +2201,13 @@ static void stdio_close(struct io_t *io)
 struct io_t * stdio_open(const char *filename)
 {
   struct io_t *io;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-  io = (struct io_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+  io = (struct io_t *)return_value_malloc_1;
   io->data=malloc(sizeof(struct stdio_t) /*4ul*/ );
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp(filename, "-");
-  if(return_value_strcmp$2 == 0)
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp(filename, "-");
+  if(return_value_strcmp_2 == 0)
     ((struct stdio_t *)io->data)->fd = 0;
 
   else
@@ -2227,27 +2227,27 @@ struct io_t * stdio_open(const char *filename)
 // file ior-stdio.c line 80
 static signed long int stdio_read(struct io_t *io, void *buffer, signed long int len)
 {
-  signed long int return_value_read$1;
-  return_value_read$1=read(((struct stdio_t *)io->data)->fd, buffer, (unsigned long int)len);
-  return return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(((struct stdio_t *)io->data)->fd, buffer, (unsigned long int)len);
+  return return_value_read_1;
 }
 
 // stdio_seek
 // file ior-stdio.c line 90
 static signed long int stdio_seek(struct io_t *io, signed long int offset, signed int whence)
 {
-  signed long int return_value_lseek$1;
-  return_value_lseek$1=lseek(((struct stdio_t *)io->data)->fd, offset, whence);
-  return return_value_lseek$1;
+  signed long int return_value_lseek_1;
+  return_value_lseek_1=lseek(((struct stdio_t *)io->data)->fd, offset, whence);
+  return return_value_lseek_1;
 }
 
 // stdio_tell
 // file ior-stdio.c line 85
 static signed long int stdio_tell(struct io_t *io)
 {
-  signed long int return_value_lseek$1;
-  return_value_lseek$1=lseek(((struct stdio_t *)io->data)->fd, (signed long int)0, 1);
-  return return_value_lseek$1;
+  signed long int return_value_lseek_1;
+  return_value_lseek_1=lseek(((struct stdio_t *)io->data)->fd, (signed long int)0, 1);
+  return return_value_lseek_1;
 }
 
 // stdio_wclose
@@ -2255,9 +2255,9 @@ static signed long int stdio_tell(struct io_t *io)
 static void stdio_wclose(struct iow_t *iow)
 {
   signed long int err;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(((struct stdiow_t *)iow->data)->fd, 3);
-  err = (signed long int)return_value_fcntl$1;
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(((struct stdiow_t *)iow->data)->fd, 3);
+  err = (signed long int)return_value_fcntl_1;
   if(!((16384l & err) == 0l) && !(err == -1l))
     fcntl(((struct stdiow_t *)iow->data)->fd, 4, err & (signed long int)~040000);
 
@@ -2273,14 +2273,14 @@ static void stdio_wclose(struct iow_t *iow)
 struct iow_t * stdio_wopen(const char *filename, signed int flags)
 {
   struct iow_t *iow;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct iow_t) /*16ul*/ );
-  iow = (struct iow_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct iow_t) /*16ul*/ );
+  iow = (struct iow_t *)return_value_malloc_1;
   iow->source = &stdio_wsource;
   iow->data=malloc(sizeof(struct stdiow_t) /*4104ul*/ );
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp(filename, "-");
-  if(return_value_strcmp$2 == 0)
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp(filename, "-");
+  if(return_value_strcmp_2 == 0)
     ((struct stdiow_t *)iow->data)->fd = 1;
 
   else
@@ -2305,8 +2305,8 @@ static signed long int stdio_wwrite(struct iow_t *iow, const char *buffer, signe
   signed int towrite = (signed int)len;
   /* assertion towrite >= 0 */
   assert(towrite >= 0);
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_3;
   while(((struct stdiow_t *)iow->data)->offset + towrite >= 4096)
   {
     signed int err;
@@ -2320,11 +2320,11 @@ static signed long int stdio_wwrite(struct iow_t *iow, const char *buffer, signe
     {
       iov[(signed long int)count].iov_base = (void *)((struct stdiow_t *)iow->data)->buffer;
       if(!(((struct stdiow_t *)iow->data)->offset >= amount))
-        tmp_if_expr$1 = ((struct stdiow_t *)iow->data)->offset;
+        tmp_if_expr_1 = ((struct stdiow_t *)iow->data)->offset;
 
       else
-        tmp_if_expr$1 = amount;
-      iov[(signed long int)count].iov_len = (unsigned long int)tmp_if_expr$1;
+        tmp_if_expr_1 = amount;
+      iov[(signed long int)count].iov_len = (unsigned long int)tmp_if_expr_1;
       amount = amount - (signed int)iov[(signed long int)count].iov_len;
       count = count + 1;
     }
@@ -2339,18 +2339,18 @@ static signed long int stdio_wwrite(struct iow_t *iow, const char *buffer, signe
 
     /* assertion amount == 0 */
     assert(amount == 0);
-    signed long int return_value_writev$2;
-    return_value_writev$2=writev(((struct stdiow_t *)iow->data)->fd, iov, count);
-    err = (signed int)return_value_writev$2;
+    signed long int return_value_writev_2;
+    return_value_writev_2=writev(((struct stdiow_t *)iow->data)->fd, iov, count);
+    err = (signed int)return_value_writev_2;
     if(err == -1)
       return (signed long int)-1;
 
     if(!(((struct stdiow_t *)iow->data)->offset >= err))
-      tmp_if_expr$3 = ((struct stdiow_t *)iow->data)->offset;
+      tmp_if_expr_3 = ((struct stdiow_t *)iow->data)->offset;
 
     else
-      tmp_if_expr$3 = err;
-    amount = tmp_if_expr$3;
+      tmp_if_expr_3 = err;
+    amount = tmp_if_expr_3;
     memmove((void *)((struct stdiow_t *)iow->data)->buffer, (const void *)(((struct stdiow_t *)iow->data)->buffer + (signed long int)amount), (unsigned long int)(((struct stdiow_t *)iow->data)->offset - amount));
     ((struct stdiow_t *)iow->data)->offset = ((struct stdiow_t *)iow->data)->offset - amount;
     err = err - amount;
@@ -2399,14 +2399,14 @@ static void * thread_consumer(void *userdata)
   _Bool running = (_Bool)1;
   struct iow_t *state = (struct iow_t *)userdata;
   char namebuf[17l];
-  signed int return_value_prctl$2;
-  return_value_prctl$2=prctl(16, (const void *)namebuf, 0, 0, 0);
-  if(return_value_prctl$2 == 0)
+  signed int return_value_prctl_2;
+  return_value_prctl_2=prctl(16, (const void *)namebuf, 0, 0, 0);
+  if(return_value_prctl_2 == 0)
   {
     namebuf[(signed long int)16] = (char)0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(namebuf);
-    if(return_value_strlen$1 >= 10ul)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(namebuf);
+    if(return_value_strlen_1 >= 10ul)
       strcpy(namebuf + (signed long int)10, "[iow]");
 
     else
@@ -2414,36 +2414,36 @@ static void * thread_consumer(void *userdata)
     prctl(15, (const void *)namebuf, 0, 0, 0);
   }
 
-  pthread_mutex_lock(&((struct state_t$0 *)state->data)->mutex);
+  pthread_mutex_lock(&((struct state_t_0 *)state->data)->mutex);
 
 __CPROVER_DUMP_L4:
   ;
   while((_Bool)1)
   {
-    if((signed int)((struct state_t$0 *)state->data)->buffer[(signed long int)buffer].state == EMPTY)
+    if((signed int)((struct state_t_0 *)state->data)->buffer[(signed long int)buffer].state == EMPTY)
     {
-      if(((struct state_t$0 *)state->data)->closing == (_Bool)0)
+      if(((struct state_t_0 *)state->data)->closing == (_Bool)0)
       {
-        pthread_cond_wait(&((struct state_t$0 *)state->data)->data_ready, &((struct state_t$0 *)state->data)->mutex);
+        pthread_cond_wait(&((struct state_t_0 *)state->data)->data_ready, &((struct state_t_0 *)state->data)->mutex);
         goto __CPROVER_DUMP_L4;
       }
 
     }
 
-    pthread_mutex_unlock(&((struct state_t$0 *)state->data)->mutex);
-    wandio_wwrite(((struct state_t$0 *)state->data)->iow, (const void *)((struct state_t$0 *)state->data)->buffer[(signed long int)buffer].buffer, (signed long int)((struct state_t$0 *)state->data)->buffer[(signed long int)buffer].len);
-    pthread_mutex_lock(&((struct state_t$0 *)state->data)->mutex);
-    running = ((struct state_t$0 *)state->data)->buffer[(signed long int)buffer].len > 0;
-    ((struct state_t$0 *)state->data)->buffer[(signed long int)buffer].len = 0;
-    ((struct state_t$0 *)state->data)->buffer[(signed long int)buffer].state = (enum anonymous$8)EMPTY;
-    pthread_cond_signal(&((struct state_t$0 *)state->data)->space_avail);
+    pthread_mutex_unlock(&((struct state_t_0 *)state->data)->mutex);
+    wandio_wwrite(((struct state_t_0 *)state->data)->iow, (const void *)((struct state_t_0 *)state->data)->buffer[(signed long int)buffer].buffer, (signed long int)((struct state_t_0 *)state->data)->buffer[(signed long int)buffer].len);
+    pthread_mutex_lock(&((struct state_t_0 *)state->data)->mutex);
+    running = ((struct state_t_0 *)state->data)->buffer[(signed long int)buffer].len > 0;
+    ((struct state_t_0 *)state->data)->buffer[(signed long int)buffer].len = 0;
+    ((struct state_t_0 *)state->data)->buffer[(signed long int)buffer].state = (enum anonymous_8)EMPTY;
+    pthread_cond_signal(&((struct state_t_0 *)state->data)->space_avail);
     buffer = (buffer + 1) % 5;
     if(running == (_Bool)0)
       break;
 
   }
-  wandio_wdestroy(((struct state_t$0 *)state->data)->iow);
-  pthread_mutex_unlock(&((struct state_t$0 *)state->data)->mutex);
+  wandio_wdestroy(((struct state_t_0 *)state->data)->iow);
+  pthread_mutex_unlock(&((struct state_t_0 *)state->data)->mutex);
   return (void *)0;
 }
 
@@ -2457,20 +2457,20 @@ struct io_t * thread_open(struct io_t *parent)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-    state = (struct io_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+    state = (struct io_t *)return_value_malloc_1;
     state->data=calloc((unsigned long int)1, sizeof(struct state_t) /*184ul*/ );
     state->source = &thread_source;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct buffer_t) /*1048584ul*/  * (unsigned long int)max_buffers);
-    ((struct state_t *)state->data)->buffer = (struct buffer_t *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct buffer_t) /*1048584ul*/  * (unsigned long int)max_buffers);
+    ((struct state_t *)state->data)->buffer = (struct buffer_t *)return_value_malloc_2;
     memset((void *)((struct state_t *)state->data)->buffer, 0, sizeof(struct buffer_t) /*1048584ul*/  * (unsigned long int)max_buffers);
     ((struct state_t *)state->data)->in_buffer = 0;
     ((struct state_t *)state->data)->offset = (signed long int)0;
-    pthread_mutex_init(&((struct state_t *)state->data)->mutex, (const union anonymous$4 *)(void *)0);
-    pthread_cond_init(&((struct state_t *)state->data)->data_ready, (const union anonymous$4 *)(void *)0);
-    pthread_cond_init(&((struct state_t *)state->data)->space_avail, (const union anonymous$4 *)(void *)0);
+    pthread_mutex_init(&((struct state_t *)state->data)->mutex, (const union anonymous_4 *)(void *)0);
+    pthread_cond_init(&((struct state_t *)state->data)->data_ready, (const union anonymous_4 *)(void *)0);
+    pthread_cond_init(&((struct state_t *)state->data)->space_avail, (const union anonymous_4 *)(void *)0);
     ((struct state_t *)state->data)->io = parent;
     ((struct state_t *)state->data)->closing = (_Bool)0;
     pthread_create(&((struct state_t *)state->data)->producer, (const union pthread_attr_t *)(void *)0, thread_producer, (void *)state);
@@ -2486,14 +2486,14 @@ static void * thread_producer(void *userdata)
   signed int buffer = 0;
   _Bool running = (_Bool)1;
   char namebuf[17l];
-  signed int return_value_prctl$2;
-  return_value_prctl$2=prctl(16, (const void *)namebuf, 0, 0, 0);
-  if(return_value_prctl$2 == 0)
+  signed int return_value_prctl_2;
+  return_value_prctl_2=prctl(16, (const void *)namebuf, 0, 0, 0);
+  if(return_value_prctl_2 == 0)
   {
     namebuf[(signed long int)16] = (char)0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(namebuf);
-    if(return_value_strlen$1 >= 10ul)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(namebuf);
+    if(return_value_strlen_1 >= 10ul)
       strcpy(namebuf + (signed long int)10, "[ior]");
 
     else
@@ -2521,11 +2521,11 @@ __CPROVER_DUMP_L4:
       break;
 
     pthread_mutex_unlock(&((struct state_t *)state->data)->mutex);
-    signed long int return_value_wandio_read$3;
-    return_value_wandio_read$3=wandio_read(((struct state_t *)state->data)->io, (void *)(((struct state_t *)state->data)->buffer + (signed long int)buffer)->buffer, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
-    (((struct state_t *)state->data)->buffer + (signed long int)buffer)->len = (signed int)return_value_wandio_read$3;
+    signed long int return_value_wandio_read_3;
+    return_value_wandio_read_3=wandio_read(((struct state_t *)state->data)->io, (void *)(((struct state_t *)state->data)->buffer + (signed long int)buffer)->buffer, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
+    (((struct state_t *)state->data)->buffer + (signed long int)buffer)->len = (signed int)return_value_wandio_read_3;
     pthread_mutex_lock(&((struct state_t *)state->data)->mutex);
-    (((struct state_t *)state->data)->buffer + (signed long int)buffer)->state = (enum anonymous$8)FULL;
+    (((struct state_t *)state->data)->buffer + (signed long int)buffer)->state = (enum anonymous_8)FULL;
     running = (((struct state_t *)state->data)->buffer + (signed long int)buffer)->len > 0;
     pthread_cond_signal(&((struct state_t *)state->data)->data_ready);
     buffer = (signed int)((unsigned int)(buffer + 1) % max_buffers);
@@ -2546,7 +2546,7 @@ static signed long int thread_read(struct io_t *state, void *buffer, signed long
   signed int slice;
   signed int copied = 0;
   signed int newbuffer;
-  signed long int tmp_if_expr$2;
+  signed long int tmp_if_expr_2;
   for( ; len >= 1l; ((struct state_t *)state->data)->in_buffer = newbuffer)
   {
     pthread_mutex_lock(&((struct state_t *)state->data)->mutex);
@@ -2559,9 +2559,9 @@ static signed long int thread_read(struct io_t *state, void *buffer, signed long
     {
       if(!(copied >= 1))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 5;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 5;
         copied = (((struct state_t *)state->data)->buffer + (signed long int)((struct state_t *)state->data)->in_buffer)->len;
       }
 
@@ -2570,11 +2570,11 @@ static signed long int thread_read(struct io_t *state, void *buffer, signed long
     }
 
     if(!((signed long int)(((struct state_t *)state->data)->buffer + (signed long int)((struct state_t *)state->data)->in_buffer)->len + -((struct state_t *)state->data)->offset >= len))
-      tmp_if_expr$2 = (signed long int)(((struct state_t *)state->data)->buffer + (signed long int)((struct state_t *)state->data)->in_buffer)->len - ((struct state_t *)state->data)->offset;
+      tmp_if_expr_2 = (signed long int)(((struct state_t *)state->data)->buffer + (signed long int)((struct state_t *)state->data)->in_buffer)->len - ((struct state_t *)state->data)->offset;
 
     else
-      tmp_if_expr$2 = len;
-    slice = (signed int)tmp_if_expr$2;
+      tmp_if_expr_2 = len;
+    slice = (signed int)tmp_if_expr_2;
     pthread_mutex_unlock(&((struct state_t *)state->data)->mutex);
     memcpy(buffer, (const void *)((((struct state_t *)state->data)->buffer + (signed long int)((struct state_t *)state->data)->in_buffer)->buffer + ((struct state_t *)state->data)->offset), (unsigned long int)slice);
     buffer = buffer + (signed long int)slice;
@@ -2585,7 +2585,7 @@ static signed long int thread_read(struct io_t *state, void *buffer, signed long
     newbuffer = ((struct state_t *)state->data)->in_buffer;
     if(((struct state_t *)state->data)->offset >= (signed long int)(((struct state_t *)state->data)->buffer + (signed long int)((struct state_t *)state->data)->in_buffer)->len)
     {
-      (((struct state_t *)state->data)->buffer + (signed long int)((struct state_t *)state->data)->in_buffer)->state = (enum anonymous$8)EMPTY;
+      (((struct state_t *)state->data)->buffer + (signed long int)((struct state_t *)state->data)->in_buffer)->state = (enum anonymous_8)EMPTY;
       pthread_cond_signal(&((struct state_t *)state->data)->space_avail);
       newbuffer = (signed int)((unsigned int)(newbuffer + 1) % max_buffers);
       ((struct state_t *)state->data)->offset = (signed long int)0;
@@ -2600,14 +2600,14 @@ static signed long int thread_read(struct io_t *state, void *buffer, signed long
 // file iow-thread.c line 242
 static void thread_wclose(struct iow_t *iow)
 {
-  pthread_mutex_lock(&((struct state_t$0 *)iow->data)->mutex);
-  ((struct state_t$0 *)iow->data)->closing = (_Bool)1;
-  pthread_cond_signal(&((struct state_t$0 *)iow->data)->data_ready);
-  pthread_mutex_unlock(&((struct state_t$0 *)iow->data)->mutex);
-  pthread_join(((struct state_t$0 *)iow->data)->consumer, (void **)(void *)0);
-  pthread_mutex_destroy(&((struct state_t$0 *)iow->data)->mutex);
-  pthread_cond_destroy(&((struct state_t$0 *)iow->data)->data_ready);
-  pthread_cond_destroy(&((struct state_t$0 *)iow->data)->space_avail);
+  pthread_mutex_lock(&((struct state_t_0 *)iow->data)->mutex);
+  ((struct state_t_0 *)iow->data)->closing = (_Bool)1;
+  pthread_cond_signal(&((struct state_t_0 *)iow->data)->data_ready);
+  pthread_mutex_unlock(&((struct state_t_0 *)iow->data)->mutex);
+  pthread_join(((struct state_t_0 *)iow->data)->consumer, (void **)(void *)0);
+  pthread_mutex_destroy(&((struct state_t_0 *)iow->data)->mutex);
+  pthread_cond_destroy(&((struct state_t_0 *)iow->data)->data_ready);
+  pthread_cond_destroy(&((struct state_t_0 *)iow->data)->space_avail);
   free(iow->data);
   free((void *)iow);
 }
@@ -2622,19 +2622,19 @@ struct iow_t * thread_wopen(struct iow_t *child)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct iow_t) /*16ul*/ );
-    state = (struct iow_t *)return_value_malloc$1;
-    state->data=calloc((unsigned long int)1, sizeof(struct state_t$0) /*5243088ul*/ );
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct iow_t) /*16ul*/ );
+    state = (struct iow_t *)return_value_malloc_1;
+    state->data=calloc((unsigned long int)1, sizeof(struct state_t_0) /*5243088ul*/ );
     state->source = &thread_wsource;
-    ((struct state_t$0 *)state->data)->out_buffer = 0;
-    ((struct state_t$0 *)state->data)->offset = (signed long int)0;
-    pthread_mutex_init(&((struct state_t$0 *)state->data)->mutex, (const union anonymous$4 *)(void *)0);
-    pthread_cond_init(&((struct state_t$0 *)state->data)->data_ready, (const union anonymous$4 *)(void *)0);
-    pthread_cond_init(&((struct state_t$0 *)state->data)->space_avail, (const union anonymous$4 *)(void *)0);
-    ((struct state_t$0 *)state->data)->iow = child;
-    ((struct state_t$0 *)state->data)->closing = (_Bool)0;
-    pthread_create(&((struct state_t$0 *)state->data)->consumer, (const union pthread_attr_t *)(void *)0, thread_consumer, (void *)state);
+    ((struct state_t_0 *)state->data)->out_buffer = 0;
+    ((struct state_t_0 *)state->data)->offset = (signed long int)0;
+    pthread_mutex_init(&((struct state_t_0 *)state->data)->mutex, (const union anonymous_4 *)(void *)0);
+    pthread_cond_init(&((struct state_t_0 *)state->data)->data_ready, (const union anonymous_4 *)(void *)0);
+    pthread_cond_init(&((struct state_t_0 *)state->data)->space_avail, (const union anonymous_4 *)(void *)0);
+    ((struct state_t_0 *)state->data)->iow = child;
+    ((struct state_t_0 *)state->data)->closing = (_Bool)0;
+    pthread_create(&((struct state_t_0 *)state->data)->consumer, (const union pthread_attr_t *)(void *)0, thread_consumer, (void *)state);
     return state;
   }
 }
@@ -2646,40 +2646,40 @@ static signed long int thread_wwrite(struct iow_t *state, const char *buffer, si
   signed int slice;
   signed int copied = 0;
   signed int newbuffer;
-  pthread_mutex_lock(&((struct state_t$0 *)state->data)->mutex);
-  signed long int tmp_if_expr$1;
-  for( ; len >= 1l; ((struct state_t$0 *)state->data)->out_buffer = newbuffer)
+  pthread_mutex_lock(&((struct state_t_0 *)state->data)->mutex);
+  signed long int tmp_if_expr_1;
+  for( ; len >= 1l; ((struct state_t_0 *)state->data)->out_buffer = newbuffer)
   {
-    while((signed int)((struct state_t$0 *)state->data)->buffer[(signed long int)((struct state_t$0 *)state->data)->out_buffer].state == FULL)
+    while((signed int)((struct state_t_0 *)state->data)->buffer[(signed long int)((struct state_t_0 *)state->data)->out_buffer].state == FULL)
     {
       write_waits = write_waits + 1ul;
-      pthread_cond_wait(&((struct state_t$0 *)state->data)->space_avail, &((struct state_t$0 *)state->data)->mutex);
+      pthread_cond_wait(&((struct state_t_0 *)state->data)->space_avail, &((struct state_t_0 *)state->data)->mutex);
     }
-    if(!((signed long int)sizeof(char [1048576l]) /*1048576l*/  + -((struct state_t$0 *)state->data)->offset >= len))
-      tmp_if_expr$1 = (signed long int)sizeof(char [1048576l]) /*1048576ul*/  - ((struct state_t$0 *)state->data)->offset;
+    if(!((signed long int)sizeof(char [1048576l]) /*1048576l*/  + -((struct state_t_0 *)state->data)->offset >= len))
+      tmp_if_expr_1 = (signed long int)sizeof(char [1048576l]) /*1048576ul*/  - ((struct state_t_0 *)state->data)->offset;
 
     else
-      tmp_if_expr$1 = len;
-    slice = (signed int)tmp_if_expr$1;
-    pthread_mutex_unlock(&((struct state_t$0 *)state->data)->mutex);
-    memcpy((void *)(((struct state_t$0 *)state->data)->buffer[(signed long int)((struct state_t$0 *)state->data)->out_buffer].buffer + ((struct state_t$0 *)state->data)->offset), (const void *)buffer, (unsigned long int)slice);
-    pthread_mutex_lock(&((struct state_t$0 *)state->data)->mutex);
-    ((struct state_t$0 *)state->data)->offset = ((struct state_t$0 *)state->data)->offset + (signed long int)slice;
-    ((struct state_t$0 *)state->data)->buffer[(signed long int)((struct state_t$0 *)state->data)->out_buffer].len = ((struct state_t$0 *)state->data)->buffer[(signed long int)((struct state_t$0 *)state->data)->out_buffer].len + slice;
+      tmp_if_expr_1 = len;
+    slice = (signed int)tmp_if_expr_1;
+    pthread_mutex_unlock(&((struct state_t_0 *)state->data)->mutex);
+    memcpy((void *)(((struct state_t_0 *)state->data)->buffer[(signed long int)((struct state_t_0 *)state->data)->out_buffer].buffer + ((struct state_t_0 *)state->data)->offset), (const void *)buffer, (unsigned long int)slice);
+    pthread_mutex_lock(&((struct state_t_0 *)state->data)->mutex);
+    ((struct state_t_0 *)state->data)->offset = ((struct state_t_0 *)state->data)->offset + (signed long int)slice;
+    ((struct state_t_0 *)state->data)->buffer[(signed long int)((struct state_t_0 *)state->data)->out_buffer].len = ((struct state_t_0 *)state->data)->buffer[(signed long int)((struct state_t_0 *)state->data)->out_buffer].len + slice;
     buffer = buffer + (signed long int)slice;
     len = len - (signed long int)slice;
     copied = copied + slice;
-    newbuffer = ((struct state_t$0 *)state->data)->out_buffer;
-    if(((struct state_t$0 *)state->data)->offset >= (signed long int)sizeof(char [1048576l]) /*1048576l*/ )
+    newbuffer = ((struct state_t_0 *)state->data)->out_buffer;
+    if(((struct state_t_0 *)state->data)->offset >= (signed long int)sizeof(char [1048576l]) /*1048576l*/ )
     {
-      ((struct state_t$0 *)state->data)->buffer[(signed long int)((struct state_t$0 *)state->data)->out_buffer].state = (enum anonymous$8)FULL;
-      pthread_cond_signal(&((struct state_t$0 *)state->data)->data_ready);
-      ((struct state_t$0 *)state->data)->offset = (signed long int)0;
+      ((struct state_t_0 *)state->data)->buffer[(signed long int)((struct state_t_0 *)state->data)->out_buffer].state = (enum anonymous_8)FULL;
+      pthread_cond_signal(&((struct state_t_0 *)state->data)->data_ready);
+      ((struct state_t_0 *)state->data)->offset = (signed long int)0;
       newbuffer = (newbuffer + 1) % 5;
     }
 
   }
-  pthread_mutex_unlock(&((struct state_t$0 *)state->data)->mutex);
+  pthread_mutex_unlock(&((struct state_t_0 *)state->data)->mutex);
   return (signed long int)copied;
 }
 
@@ -2688,9 +2688,9 @@ static signed long int thread_wwrite(struct iow_t *state, const char *buffer, si
 struct io_t * wandio_create(const char *filename)
 {
   parse_env();
-  struct io_t *return_value_create_io_reader$1;
-  return_value_create_io_reader$1=create_io_reader(filename, use_autodetect);
-  return return_value_create_io_reader$1;
+  struct io_t *return_value_create_io_reader_1;
+  return_value_create_io_reader_1=create_io_reader(filename, use_autodetect);
+  return return_value_create_io_reader_1;
 }
 
 // wandio_create_uncompressed
@@ -2698,9 +2698,9 @@ struct io_t * wandio_create(const char *filename)
 struct io_t * wandio_create_uncompressed(const char *filename)
 {
   parse_env();
-  struct io_t *return_value_create_io_reader$1;
-  return_value_create_io_reader$1=create_io_reader(filename, 0);
-  return return_value_create_io_reader$1;
+  struct io_t *return_value_create_io_reader_1;
+  return_value_create_io_reader_1=create_io_reader(filename, 0);
+  return return_value_create_io_reader_1;
 }
 
 // wandio_destroy
@@ -2722,16 +2722,16 @@ void wandio_destroy(struct io_t *io)
 struct wandio_compression_type * wandio_lookup_compression_type(const char *name)
 {
   struct wandio_compression_type *wct = compression_type;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   do
   {
-    return_value_strcmp$1=strcmp(wct->name, "NONE");
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(wct->name, "NONE");
+    if(return_value_strcmp_1 == 0)
       break;
 
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(wct->name, name);
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(wct->name, name);
+    if(return_value_strcmp_2 == 0)
       return wct;
 
     wct = wct + 1l;
@@ -2766,9 +2766,9 @@ signed long int wandio_seek(struct io_t *io, signed long int offset, signed int 
 {
   if(io->source->seek == ((signed long int (*)(struct io_t *, signed long int, signed int))NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = -38;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = -38;
     return (signed long int)-1;
   }
 
@@ -2783,9 +2783,9 @@ signed long int wandio_tell(struct io_t *io)
 {
   if(io->source->tell == ((signed long int (*)(struct io_t *))NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = -38;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = -38;
     return (signed long int)-1;
   }
 
@@ -2805,7 +2805,7 @@ struct iow_t * wandio_wcreate(const char *filename, signed int compress_type, si
   /* assertion compress_type != WANDIO_COMPRESS_MASK */
   assert(compress_type != 7);
   iow=stdio_wopen(filename, flags);
-  struct iow_t *return_value_thread_wopen$1;
+  struct iow_t *return_value_thread_wopen_1;
   if(iow == ((struct iow_t *)NULL))
     return (struct iow_t *)(void *)0;
 
@@ -2824,8 +2824,8 @@ struct iow_t * wandio_wcreate(const char *filename, signed int compress_type, si
 
     if(!(use_threads == 0u))
     {
-      return_value_thread_wopen$1=thread_wopen(iow);
-      return return_value_thread_wopen$1;
+      return_value_thread_wopen_1=thread_wopen(iow);
+      return return_value_thread_wopen_1;
     }
 
     else
@@ -2872,9 +2872,9 @@ struct io_t * zlib_open(struct io_t *parent)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-    io = (struct io_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+    io = (struct io_t *)return_value_malloc_1;
     io->source = &zlib_source;
     io->data=malloc(sizeof(struct zlib_t) /*1048704ul*/ );
     ((struct zlib_t *)io->data)->parent = parent;
@@ -2902,9 +2902,9 @@ static signed long int zlib_read(struct io_t *io, void *buffer, signed long int 
   {
     if((signed int)((struct zlib_t *)io->data)->err == ERR_ERROR)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 5;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 5;
       return (signed long int)-1;
     }
 
@@ -2918,9 +2918,9 @@ static signed long int zlib_read(struct io_t *io, void *buffer, signed long int 
       while(!(((struct zlib_t *)io->data)->strm.avail_in >= 1u))
       {
         signed int bytes_read;
-        signed long int return_value_wandio_read$2;
-        return_value_wandio_read$2=wandio_read(((struct zlib_t *)io->data)->parent, (void *)(char *)((struct zlib_t *)io->data)->inbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
-        bytes_read = (signed int)return_value_wandio_read$2;
+        signed long int return_value_wandio_read_2;
+        return_value_wandio_read_2=wandio_read(((struct zlib_t *)io->data)->parent, (void *)(char *)((struct zlib_t *)io->data)->inbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
+        bytes_read = (signed int)return_value_wandio_read_2;
         if(bytes_read == 0)
         {
           if(((struct zlib_t *)io->data)->strm.avail_out == (unsigned int)len)
@@ -2962,9 +2962,9 @@ static signed long int zlib_read(struct io_t *io, void *buffer, signed long int 
         }
         default:
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 5;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 5;
           ((struct zlib_t *)io->data)->err = (enum err_t)ERR_ERROR;
         }
       }
@@ -3010,9 +3010,9 @@ struct iow_t * zlib_wopen(struct iow_t *child, signed int compress_level)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct iow_t) /*16ul*/ );
-    iow = (struct iow_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct iow_t) /*16ul*/ );
+    iow = (struct iow_t *)return_value_malloc_1;
     iow->source = &zlib_wsource;
     iow->data=malloc(sizeof(struct zlibw_t) /*1048704ul*/ );
     ((struct zlibw_t *)iow->data)->child = child;
@@ -3052,9 +3052,9 @@ static signed long int zlib_wwrite(struct iow_t *iow, const char *buffer, signed
         while(!(((struct zlibw_t *)iow->data)->strm.avail_out >= 1u))
         {
           signed int bytes_written;
-          signed long int return_value_wandio_wwrite$1;
-          return_value_wandio_wwrite$1=wandio_wwrite(((struct zlibw_t *)iow->data)->child, (const void *)(char *)((struct zlibw_t *)iow->data)->outbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
-          bytes_written = (signed int)return_value_wandio_wwrite$1;
+          signed long int return_value_wandio_wwrite_1;
+          return_value_wandio_wwrite_1=wandio_wwrite(((struct zlibw_t *)iow->data)->child, (const void *)(char *)((struct zlibw_t *)iow->data)->outbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
+          bytes_written = (signed int)return_value_wandio_wwrite_1;
           if(!(bytes_written >= 1))
           {
             ((struct zlibw_t *)iow->data)->err = (enum err_t)ERR_ERROR;

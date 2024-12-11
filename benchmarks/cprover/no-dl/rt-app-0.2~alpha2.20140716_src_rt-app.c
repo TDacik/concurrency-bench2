@@ -1,30 +1,30 @@
 // ST[U32'size'|U32'sched_policy'|U64'sched_flags'|S32'sched_nice'|U32'sched_priority'|U64'sched_runtime'|U64'sched_deadline'|U64'sched_period']
 // file dl_syscalls.h line 51
-struct sched_attr$0;
+struct sched_attr_0;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__bits']
+// tag-#anon#ST[ARR16{U64}_U64_'__bits']
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 125
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
 struct anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-#anon#UN[SYM#tag-_rtapp_mutex#'mtx'|SYM#tag-_rtapp_cond#'cond'|SYM#tag-_rtapp_signal#'signal']
 // file rt-app_types.h line 84
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -329,19 +329,19 @@ signed int policy_to_string(enum policy_t policy, char *policy_name);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 981
-extern signed int pthread_cond_broadcast(union anonymous$2 *);
+extern signed int pthread_cond_broadcast(union anonymous_2 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 968
-extern signed int pthread_cond_init(union anonymous$2 *, const union anonymous$4 *);
+extern signed int pthread_cond_init(union anonymous_2 *, const union anonymous_4 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 977
-extern signed int pthread_cond_signal(union anonymous$2 *);
+extern signed int pthread_cond_signal(union anonymous_2 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 989
-extern signed int pthread_cond_wait(union anonymous$2 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_2 *, union anonymous_3 *);
 // pthread_condattr_init
 // file /usr/include/pthread.h line 1008
-extern signed int pthread_condattr_init(union anonymous$4 *);
+extern signed int pthread_condattr_init(union anonymous_4 *);
 // pthread_create
 // file /usr/include/pthread.h line 233
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -353,25 +353,25 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 749
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$4 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 806
-extern signed int pthread_mutexattr_init(union anonymous$4 *);
+extern signed int pthread_mutexattr_init(union anonymous_4 *);
 // pthread_mutexattr_setprotocol
 // file /usr/include/pthread.h line 845
-extern signed int pthread_mutexattr_setprotocol(union anonymous$4 *, signed int);
+extern signed int pthread_mutexattr_setprotocol(union anonymous_4 *, signed int);
 // pthread_self
 // file /usr/include/pthread.h line 275
 extern unsigned long int pthread_self(void);
 // pthread_setaffinity_np
 // file /usr/include/pthread.h line 474
-extern signed int pthread_setaffinity_np(unsigned long int, unsigned long int, const struct anonymous$1 *);
+extern signed int pthread_setaffinity_np(unsigned long int, unsigned long int, const struct anonymous_1 *);
 // pthread_setschedparam
 // file /usr/include/pthread.h line 429
 extern signed int pthread_setschedparam(unsigned long int, signed int, struct sched_param *);
@@ -392,16 +392,16 @@ extern double round(double);
 void run(signed int ind, struct timespec *min, struct timespec *max, struct _rtapp_tasks_resource_list_t *blockages, signed int nblockages, struct timespec *t_start);
 // sched_getaffinity
 // file /usr/include/sched.h line 122
-extern signed int sched_getaffinity(signed int, unsigned long int, struct anonymous$1 *);
+extern signed int sched_getaffinity(signed int, unsigned long int, struct anonymous_1 *);
 // sched_getattr
 // file dl_syscalls.c line 10
-signed int sched_getattr(signed int pid, struct sched_attr$0 *attr, unsigned int size, unsigned int flags);
+signed int sched_getattr(signed int pid, struct sched_attr_0 *attr, unsigned int size, unsigned int flags);
 // sched_setaffinity
 // file /usr/include/sched.h line 118
-extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous$1 *);
+extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous_1 *);
 // sched_setattr
 // file dl_syscalls.c line 3
-signed int sched_setattr(signed int pid, struct sched_attr$0 *attr, unsigned int flags);
+signed int sched_setattr(signed int pid, struct sched_attr_0 *attr, unsigned int flags);
 // serialize_acl
 // file rt-app_parse_config.c line 295
 static void serialize_acl(struct _rtapp_resource_access_list_t **acl, char *name, struct json_object *task_resources, struct _rtapp_resource_t *resources);
@@ -496,7 +496,7 @@ void waste_cpu_cycles(signed int load_loops);
 // file rt-app_utils.c line 292 function ftrace_write
 signed int write(void);
 
-struct sched_attr$0
+struct sched_attr_0
 {
   // size
   unsigned int size;
@@ -516,7 +516,7 @@ struct sched_attr$0
   unsigned long long int sched_period;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __bits
   unsigned long int __bits[16l];
@@ -542,7 +542,7 @@ struct anonymous
   unsigned int __broadcast_seq;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[4l];
@@ -550,7 +550,7 @@ union anonymous$4
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct anonymous __data;
@@ -588,7 +588,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -601,26 +601,26 @@ union anonymous$3
 struct _rtapp_mutex
 {
   // obj
-  union anonymous$3 obj;
+  union anonymous_3 obj;
   // attr
-  union anonymous$4 attr;
+  union anonymous_4 attr;
 };
 
 struct _rtapp_cond
 {
   // obj
-  union anonymous$2 obj;
+  union anonymous_2 obj;
   // attr
-  union anonymous$4 attr;
+  union anonymous_4 attr;
 };
 
 struct _rtapp_signal
 {
   // target
-  union anonymous$2 *target;
+  union anonymous_2 *target;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // mtx
   struct _rtapp_mutex mtx;
@@ -761,7 +761,7 @@ struct _rtapp_resource_access_list_t
 struct _rtapp_resource_t
 {
   // res
-  union anonymous$0 res;
+  union anonymous_0 res;
   // index
   signed int index;
   // type
@@ -817,7 +817,7 @@ struct _thread_data_t
   // duration
   signed int duration;
   // cpuset
-  struct anonymous$1 *cpuset;
+  struct anonymous_1 *cpuset;
   // cpuset_str
   char *cpuset_str;
   // wait_before_start
@@ -1034,9 +1034,9 @@ static unsigned long int *threads;
 // file rt-app_parse_config.c line 78
 static inline void assure_type_is(struct json_object *obj, struct json_object *parent, const char *key, enum json_type type)
 {
-  signed int return_value_json_object_is_type$2;
-  return_value_json_object_is_type$2=json_object_is_type(obj, type);
-  if(return_value_json_object_is_type$2 == 0)
+  signed int return_value_json_object_is_type_2;
+  return_value_json_object_is_type_2=json_object_is_type(obj, type);
+  if(return_value_json_object_is_type_2 == 0)
   {
 
   __CPROVER_DUMP_L1:
@@ -1049,9 +1049,9 @@ static inline void assure_type_is(struct json_object *obj, struct json_object *p
     ;
     do
     {
-      const char *return_value_json_object_to_json_string$1;
-      return_value_json_object_to_json_string$1=json_object_to_json_string(parent);
-      fprintf(stderr, "[rt-app] <crit> %s\n", return_value_json_object_to_json_string$1);
+      const char *return_value_json_object_to_json_string_1;
+      return_value_json_object_to_json_string_1=json_object_to_json_string(parent);
+      fprintf(stderr, "[rt-app] <crit> %s\n", return_value_json_object_to_json_string_1);
     }
     while((_Bool)0);
     exit(2);
@@ -1077,14 +1077,14 @@ signed int calibrate_cpu_cycles(signed int clock)
     clock_gettime(clock, &start);
     waste_cpu_cycles(max_load_loop);
     clock_gettime(clock, &stop);
-    signed long int return_value_timespec_sub_to_ns$1;
-    return_value_timespec_sub_to_ns$1=timespec_sub_to_ns(&stop, &start);
-    diff = (unsigned int)(signed int)return_value_timespec_sub_to_ns$1;
+    signed long int return_value_timespec_sub_to_ns_1;
+    return_value_timespec_sub_to_ns_1=timespec_sub_to_ns(&stop, &start);
+    diff = (unsigned int)(signed int)return_value_timespec_sub_to_ns_1;
     nsec_per_loop = (signed int)(diff / (unsigned int)max_load_loop);
     avg_per_loop = avg_per_loop + nsec_per_loop >> 1;
-    signed int return_value_abs$2;
-    return_value_abs$2=abs(nsec_per_loop - avg_per_loop);
-    if(!(50 * return_value_abs$2 >= avg_per_loop))
+    signed int return_value_abs_2;
+    return_value_abs_2=abs(nsec_per_loop - avg_per_loop);
+    if(!(50 * return_value_abs_2 >= avg_per_loop))
       return avg_per_loop;
 
     max_load_loop = max_load_loop + 33333;
@@ -1113,9 +1113,9 @@ void ftrace_write(signed int mark_fd, const char *fmt, ...)
     exit(1);
   }
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)size);
-  tmp = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)size);
+  tmp = (char *)return_value_malloc_1;
   if(tmp == ((char *)NULL))
   {
 
@@ -1144,9 +1144,9 @@ void ftrace_write(signed int mark_fd, const char *fmt, ...)
 
     else
       size = size * 2;
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)tmp, (unsigned long int)size);
-    ntmp = (char *)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)tmp, (unsigned long int)size);
+    ntmp = (char *)return_value_realloc_2;
     if(ntmp == ((char *)NULL))
     {
       free((void *)tmp);
@@ -1227,13 +1227,13 @@ static inline struct json_object * get_in_object(struct json_object *where, cons
     exit(2);
   }
 
-  const char *return_value_json_object_to_json_string$1;
-  signed int return_value_strcmp$2;
+  const char *return_value_json_object_to_json_string_1;
+  signed int return_value_strcmp_2;
   if(nullable == 0)
   {
-    return_value_json_object_to_json_string$1=json_object_to_json_string(to);
-    return_value_strcmp$2=strcmp(return_value_json_object_to_json_string$1, "null");
-    if(return_value_strcmp$2 == 0)
+    return_value_json_object_to_json_string_1=json_object_to_json_string(to);
+    return_value_strcmp_2=strcmp(return_value_json_object_to_json_string_1, "null");
+    if(return_value_strcmp_2 == 0)
     {
 
     __CPROVER_DUMP_L4:
@@ -1389,11 +1389,11 @@ signed int get_resource(struct _rtapp_resource_access_list_t *lock, struct times
 static signed int get_resource_index(char *name, struct _rtapp_resource_t *resources)
 {
   signed int i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   do
   {
-    return_value_strcmp$1=strcmp((resources + (signed long int)i)->name, name);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp((resources + (signed long int)i)->name, name);
+    if(return_value_strcmp_1 == 0)
       break;
 
     i = i + 1;
@@ -1429,9 +1429,9 @@ static inline char * get_string_value_from(struct json_object *where, const char
         ;
         while((_Bool)0)
           ;
-        char *return_value_strdup$1;
-        return_value_strdup$1=strdup(def_value);
-        return return_value_strdup$1;
+        char *return_value_strdup_1;
+        return_value_strdup_1=strdup(def_value);
+        return return_value_strdup_1;
       }
 
       else
@@ -1447,9 +1447,9 @@ static inline char * get_string_value_from(struct json_object *where, const char
     }
 
   while((_Bool)0);
-  signed int return_value_json_object_is_type$2;
-  return_value_json_object_is_type$2=json_object_is_type(value, (enum json_type)json_type_null);
-  if(!(return_value_json_object_is_type$2 == 0))
+  signed int return_value_json_object_is_type_2;
+  return_value_json_object_is_type_2=json_object_is_type(value, (enum json_type)json_type_null);
+  if(!(return_value_json_object_is_type_2 == 0))
   {
 
   __CPROVER_DUMP_L9:
@@ -1462,9 +1462,9 @@ static inline char * get_string_value_from(struct json_object *where, const char
   else
   {
     assure_type_is(value, where, key, (enum json_type)json_type_string);
-    const char *return_value_json_object_get_string$3;
-    return_value_json_object_get_string$3=json_object_get_string(value);
-    s_value=strdup(return_value_json_object_get_string$3);
+    const char *return_value_json_object_get_string_3;
+    return_value_json_object_get_string_3=json_object_get_string(value);
+    s_value=strdup(return_value_json_object_get_string_3);
 
   __CPROVER_DUMP_L12:
     ;
@@ -1478,9 +1478,9 @@ static inline char * get_string_value_from(struct json_object *where, const char
 // file rt-app_utils.c line 163
 signed int gettid(void)
 {
-  signed int return_value_syscall$1;
-  return_value_syscall$1=syscall(186);
-  return return_value_syscall$1;
+  signed int return_value_syscall_1;
+  return_value_syscall_1=syscall(186);
+  return return_value_syscall_1;
 }
 
 // init_cond_resource
@@ -1522,11 +1522,11 @@ __CPROVER_DUMP_L1:
   while((_Bool)0)
     ;
   signed int i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   do
   {
-    return_value_strcmp$1=strcmp((opts->resources + (signed long int)i)->name, target);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp((opts->resources + (signed long int)i)->name, target);
+    if(return_value_strcmp_1 == 0)
       break;
 
     if(data->index == i)
@@ -1579,9 +1579,9 @@ signed int main(signed int argc, char **argv)
   char tmp[256l];
   parse_command_line(argc, argv, &opts);
   nthreads = opts.nthreads;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)nthreads * sizeof(unsigned long int) /*8ul*/ );
-  threads = (unsigned long int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)nthreads * sizeof(unsigned long int) /*8ul*/ );
+  threads = (unsigned long int *)return_value_malloc_1;
   signal(3, shutdown);
   signal(15, shutdown);
   signal(1, shutdown);
@@ -1633,21 +1633,21 @@ signed int main(signed int argc, char **argv)
   continue_running = 1;
   if(opts.calib_ns_per_loop == 0)
   {
-    struct anonymous$1 calib_set;
+    struct anonymous_1 calib_set;
     do
-      __builtin_memset((void *)&calib_set, 0, sizeof(struct anonymous$1) /*128ul*/ );
+      __builtin_memset((void *)&calib_set, 0, sizeof(struct anonymous_1) /*128ul*/ );
     while((_Bool)0);
     unsigned long int __cpu = (unsigned long int)opts.calib_cpu;
-    if(!(__cpu / 8ul >= sizeof(struct anonymous$1) /*128ul*/ ))
+    if(!(__cpu / 8ul >= sizeof(struct anonymous_1) /*128ul*/ ))
       ((unsigned long int *)(&calib_set)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] = ((unsigned long int *)(&calib_set)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] | (unsigned long int)1 << __cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ );
 
     else
       (unsigned long int)0;
-    static struct anonymous$1 orig_set;
-    sched_getaffinity(0, sizeof(struct anonymous$1) /*128ul*/ , &orig_set);
-    sched_setaffinity(0, sizeof(struct anonymous$1) /*128ul*/ , &calib_set);
+    static struct anonymous_1 orig_set;
+    sched_getaffinity(0, sizeof(struct anonymous_1) /*128ul*/ , &orig_set);
+    sched_setaffinity(0, sizeof(struct anonymous_1) /*128ul*/ , &calib_set);
     p_load=calibrate_cpu_cycles(3);
-    sched_setaffinity(0, sizeof(struct anonymous$1) /*128ul*/ , &orig_set);
+    sched_setaffinity(0, sizeof(struct anonymous_1) /*128ul*/ , &orig_set);
 
   __CPROVER_DUMP_L14:
     ;
@@ -1700,9 +1700,9 @@ signed int main(signed int argc, char **argv)
 
     else
       tdata->log_handler = stdout;
-    signed int return_value_pthread_create$2;
-    return_value_pthread_create$2=pthread_create(&threads[(signed long int)i], (const union pthread_attr_t *)(void *)0, thread_body, (void *)tdata);
-    if(!(return_value_pthread_create$2 == 0))
+    signed int return_value_pthread_create_2;
+    return_value_pthread_create_2=pthread_create(&threads[(signed long int)i], (const union pthread_attr_t *)(void *)0, thread_body, (void *)tdata);
+    if(!(return_value_pthread_create_2 == 0))
       goto exit_err;
 
   }
@@ -1716,7 +1716,7 @@ signed int main(signed int argc, char **argv)
     for( ; !(i >= nthreads); i = i + 1)
     {
       snprintf(tmp, (unsigned long int)256, "%s/%s-duration.plot", opts.logdir, opts.logbasename);
-      fprintf(gnuplot_script, "\"%s-%s.log\" u ($5/1000):9 w l title \"thread [%s] (%s)\"", opts.logbasename, (opts.threads_data + (signed long int)i)->name, (opts.threads_data + (signed long int)i)->name, (const void *)(opts.threads_data + (signed long int)i)->sched_policy_descr);
+      fprintf(gnuplot_script, "\"%s-%s.log\" u (_5/1000):9 w l title \"thread [%s] (%s)\"", opts.logbasename, (opts.threads_data + (signed long int)i)->name, (opts.threads_data + (signed long int)i)->name, (const void *)(opts.threads_data + (signed long int)i)->sched_policy_descr);
       if(i == nthreads + -1)
         fprintf(gnuplot_script, "\n");
 
@@ -1732,7 +1732,7 @@ signed int main(signed int argc, char **argv)
     i = 0;
     for( ; !(i >= nthreads); i = i + 1)
     {
-      fprintf(gnuplot_script, "\"%s-%s.log\" u ($5/1000):10 w l title \"thread [%s] (%s)\"", opts.logbasename, (opts.threads_data + (signed long int)i)->name, (opts.threads_data + (signed long int)i)->name, (const void *)(opts.threads_data + (signed long int)i)->sched_policy_descr);
+      fprintf(gnuplot_script, "\"%s-%s.log\" u (_5/1000):10 w l title \"thread [%s] (%s)\"", opts.logbasename, (opts.threads_data + (signed long int)i)->name, (opts.threads_data + (signed long int)i)->name, (const void *)(opts.threads_data + (signed long int)i)->sched_policy_descr);
       if(i == nthreads + -1)
         fprintf(gnuplot_script, ", 0 notitle\n");
 
@@ -1800,10 +1800,10 @@ void parse_command_line(signed int argc, char **argv, struct _rtapp_options_t *o
   if(!(argc >= 2))
     usage((const char *)(void *)0, 0);
 
-  signed int return_value_stat$2;
-  return_value_stat$2=stat(argv[(signed long int)1], &config_file_stat);
-  signed int return_value_strcmp$1;
-  if(return_value_stat$2 == 0)
+  signed int return_value_stat_2;
+  return_value_stat_2=stat(argv[(signed long int)1], &config_file_stat);
+  signed int return_value_strcmp_1;
+  if(return_value_stat_2 == 0)
   {
     parse_config(argv[(signed long int)1], opts);
     goto __CPROVER_DUMP_L5;
@@ -1811,8 +1811,8 @@ void parse_command_line(signed int argc, char **argv, struct _rtapp_options_t *o
 
   else
   {
-    return_value_strcmp$1=strcmp(argv[(signed long int)1], "-");
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(argv[(signed long int)1], "-");
+    if(return_value_strcmp_1 == 0)
     {
       parse_config_stdin(opts);
       goto __CPROVER_DUMP_L5;
@@ -1847,12 +1847,12 @@ static void parse_command_line_options(signed int argc, char **argv, struct _rta
   opts->die_on_dmiss = 0;
   opts->pi_enabled = 0;
   opts->policy = (enum policy_t)other;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _thread_data_t) /*232ul*/ );
-  opts->threads_data = (struct _thread_data_t *)return_value_malloc$1;
-  signed int return_value_getopt_long$2;
-  signed long int return_value_strtol$3;
-  signed long int return_value_strtol$5;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _thread_data_t) /*232ul*/ );
+  opts->threads_data = (struct _thread_data_t *)return_value_malloc_1;
+  signed int return_value_getopt_long_2;
+  signed long int return_value_strtol_3;
+  signed long int return_value_strtol_5;
   do
   {
     static struct option long_options[13l] = { { .name="help", .has_arg=0, .flag=((signed int *)NULL), .val=104 },
@@ -1869,8 +1869,8 @@ static void parse_command_line_options(signed int argc, char **argv, struct _rta
     { .name="die_on_dmiss", .has_arg=0, .flag=((signed int *)NULL), .val=77 },
     { .name=((const char *)NULL), .has_arg=0, .flag=((signed int *)NULL),
     .val=0 } };
-    return_value_getopt_long$2=getopt_long(argc, argv, "D:GKhfrb:s:l:t:TM", long_options, &longopt_idx);
-    ch = (signed char)return_value_getopt_long$2;
+    return_value_getopt_long_2=getopt_long(argc, argv, "D:GKhfrb:s:l:t:TM", long_options, &longopt_idx);
+    ch = (signed char)return_value_getopt_long_2;
     if((signed int)ch == -1)
       break;
 
@@ -1907,8 +1907,8 @@ static void parse_command_line_options(signed int argc, char **argv, struct _rta
       }
       case 115:
       {
-        return_value_strtol$3=strtol(optarg, (char ** restrict )(void *)0, 0);
-        opts->spacing = (unsigned long int)return_value_strtol$3;
+        return_value_strtol_3=strtol(optarg, (char ** restrict )(void *)0, 0);
+        opts->spacing = (unsigned long int)return_value_strtol_3;
         break;
       }
       case 108:
@@ -1924,9 +1924,9 @@ static void parse_command_line_options(signed int argc, char **argv, struct _rta
       {
         if(opts->nthreads >= 1)
         {
-          void *return_value_realloc$4;
-          return_value_realloc$4=realloc((void *)opts->threads_data, (unsigned long int)(opts->nthreads + 1) * sizeof(struct _thread_data_t) /*232ul*/ );
-          opts->threads_data = (struct _thread_data_t *)return_value_realloc$4;
+          void *return_value_realloc_4;
+          return_value_realloc_4=realloc((void *)opts->threads_data, (unsigned long int)(opts->nthreads + 1) * sizeof(struct _thread_data_t) /*232ul*/ );
+          opts->threads_data = (struct _thread_data_t *)return_value_realloc_4;
         }
 
         parse_thread_args(optarg, opts->nthreads, &opts->threads_data[(signed long int)opts->nthreads], opts->policy);
@@ -1940,8 +1940,8 @@ static void parse_command_line_options(signed int argc, char **argv, struct _rta
       }
       case 68:
       {
-        return_value_strtol$5=strtol(optarg, (char ** restrict )(void *)0, 10);
-        opts->duration = (signed int)return_value_strtol$5;
+        return_value_strtol_5=strtol(optarg, (char ** restrict )(void *)0, 10);
+        opts->duration = (signed int)return_value_strtol_5;
         if(!(opts->duration >= 0))
           usage("Cannot set negative duration", 3);
 
@@ -2041,15 +2041,15 @@ __CPROVER_DUMP_L1:
   ;
   while((_Bool)0)
     ;
-  signed int return_value_get_int_value_from$1;
-  return_value_get_int_value_from$1=get_int_value_from(global, "spacing", (signed int)1, 0);
-  opts->spacing = (unsigned long int)return_value_get_int_value_from$1;
+  signed int return_value_get_int_value_from_1;
+  return_value_get_int_value_from_1=get_int_value_from(global, "spacing", (signed int)1, 0);
+  opts->spacing = (unsigned long int)return_value_get_int_value_from_1;
   opts->duration=get_int_value_from(global, "duration", (signed int)1, -1);
   opts->gnuplot=get_bool_value_from(global, "gnuplot", (signed int)1, 0);
   policy=get_string_value_from(global, "default_policy", (signed int)1, "SCHED_OTHER");
-  signed int return_value_string_to_policy$2;
-  return_value_string_to_policy$2=string_to_policy(policy, &opts->policy);
-  if(!(return_value_string_to_policy$2 == 0))
+  signed int return_value_string_to_policy_2;
+  return_value_string_to_policy_2=string_to_policy(policy, &opts->policy);
+  if(!(return_value_string_to_policy_2 == 0))
   {
 
   __CPROVER_DUMP_L3:
@@ -2075,9 +2075,9 @@ __CPROVER_DUMP_L1:
 
   else
   {
-    signed int return_value_json_object_is_type$3;
-    return_value_json_object_is_type$3=json_object_is_type(cal_obj, (enum json_type)json_type_int);
-    if(!(return_value_json_object_is_type$3 == 0))
+    signed int return_value_json_object_is_type_3;
+    return_value_json_object_is_type_3=json_object_is_type(cal_obj, (enum json_type)json_type_int);
+    if(!(return_value_json_object_is_type_3 == 0))
     {
       opts->calib_ns_per_loop=json_object_get_int(cal_obj);
 
@@ -2127,9 +2127,9 @@ __CPROVER_DUMP_L1:
   ;
   while((_Bool)0)
     ;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _rtapp_resource_t) /*72ul*/  * (unsigned long int)nresources);
-  opts->resources = (struct _rtapp_resource_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _rtapp_resource_t) /*72ul*/  * (unsigned long int)nresources);
+  opts->resources = (struct _rtapp_resource_t *)return_value_malloc_1;
   i = 0;
   for( ; !(i >= nresources); i = i + 1)
   {
@@ -2160,9 +2160,9 @@ __CPROVER_DUMP_L1:
   type=get_string_value_from(obj, "type", (signed int)1, def_type);
   if(!(type == ((char *)NULL)))
   {
-    signed int return_value_string_to_resource$1;
-    return_value_string_to_resource$1=string_to_resource(type, &data->type);
-    if(!(return_value_string_to_resource$1 == 0))
+    signed int return_value_string_to_resource_1;
+    return_value_string_to_resource_1=string_to_resource(type, &data->type);
+    if(!(return_value_string_to_resource_1 == 0))
     {
 
     __CPROVER_DUMP_L3:
@@ -2215,24 +2215,24 @@ __CPROVER_DUMP_L1:
   ;
   while((_Bool)0)
     ;
-  signed int return_value_json_object_is_type$7;
-  return_value_json_object_is_type$7=json_object_is_type(resources, (enum json_type)json_type_int);
-  struct lh_entry *tmp_statement_expression$3;
-  struct lh_entry *tmp_statement_expression$6;
-  if(!(return_value_json_object_is_type$7 == 0))
+  signed int return_value_json_object_is_type_7;
+  return_value_json_object_is_type_7=json_object_is_type(resources, (enum json_type)json_type_int);
+  struct lh_entry *tmp_statement_expression_3;
+  struct lh_entry *tmp_statement_expression_6;
+  if(!(return_value_json_object_is_type_7 == 0))
   {
-    signed int return_value_json_object_get_int$1;
-    return_value_json_object_get_int$1=json_object_get_int(resources);
-    parse_legacy_resources(return_value_json_object_get_int$1, opts);
+    signed int return_value_json_object_get_int_1;
+    return_value_json_object_get_int_1=json_object_get_int(resources);
+    parse_legacy_resources(return_value_json_object_get_int_1, opts);
   }
 
   else
   {
     opts->nresources = 0;
     idx = 0;
-    struct lh_table *return_value_json_object_get_object$2;
-    return_value_json_object_get_object$2=json_object_get_object(resources);
-    entry = return_value_json_object_get_object$2->head;
+    struct lh_table *return_value_json_object_get_object_2;
+    return_value_json_object_get_object_2=json_object_get_object(resources);
+    entry = return_value_json_object_get_object_2->head;
     do
     {
       if(!(entry == ((struct lh_entry *)NULL)))
@@ -2241,8 +2241,8 @@ __CPROVER_DUMP_L1:
         val = (struct json_object *)entry->v;
       }
 
-      tmp_statement_expression$3 = entry;
-      if(tmp_statement_expression$3 == ((struct lh_entry *)NULL))
+      tmp_statement_expression_3 = entry;
+      if(tmp_statement_expression_3 == ((struct lh_entry *)NULL))
         break;
 
       opts->nresources = opts->nresources + 1;
@@ -2255,13 +2255,13 @@ __CPROVER_DUMP_L1:
     ;
     while((_Bool)0)
       ;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(struct _rtapp_resource_t) /*72ul*/  * (unsigned long int)opts->nresources);
-    opts->resources = (struct _rtapp_resource_t *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(struct _rtapp_resource_t) /*72ul*/  * (unsigned long int)opts->nresources);
+    opts->resources = (struct _rtapp_resource_t *)return_value_malloc_4;
     idx = 0;
-    struct lh_table *return_value_json_object_get_object$5;
-    return_value_json_object_get_object$5=json_object_get_object(resources);
-    entry = return_value_json_object_get_object$5->head;
+    struct lh_table *return_value_json_object_get_object_5;
+    return_value_json_object_get_object_5=json_object_get_object(resources);
+    entry = return_value_json_object_get_object_5->head;
     do
     {
       if(!(entry == ((struct lh_entry *)NULL)))
@@ -2270,8 +2270,8 @@ __CPROVER_DUMP_L1:
         val = (struct json_object *)entry->v;
       }
 
-      tmp_statement_expression$6 = entry;
-      if(tmp_statement_expression$6 == ((struct lh_entry *)NULL))
+      tmp_statement_expression_6 = entry;
+      if(tmp_statement_expression_6 == ((struct lh_entry *)NULL))
         break;
 
       parse_resource_data(key, val, idx, &opts->resources[(signed long int)idx], opts);
@@ -2297,10 +2297,10 @@ __CPROVER_DUMP_L1:
     ;
   opts->nthreads = 0;
   idx = 0;
-  struct lh_table *return_value_json_object_get_object$1;
-  return_value_json_object_get_object$1=json_object_get_object(tasks);
-  entry = return_value_json_object_get_object$1->head;
-  struct lh_entry *tmp_statement_expression$2;
+  struct lh_table *return_value_json_object_get_object_1;
+  return_value_json_object_get_object_1=json_object_get_object(tasks);
+  entry = return_value_json_object_get_object_1->head;
+  struct lh_entry *tmp_statement_expression_2;
   do
   {
     if(!(entry == ((struct lh_entry *)NULL)))
@@ -2309,8 +2309,8 @@ __CPROVER_DUMP_L1:
       val = (struct json_object *)entry->v;
     }
 
-    tmp_statement_expression$2 = entry;
-    if(tmp_statement_expression$2 == ((struct lh_entry *)NULL))
+    tmp_statement_expression_2 = entry;
+    if(tmp_statement_expression_2 == ((struct lh_entry *)NULL))
       break;
 
     opts->nthreads = opts->nthreads + 1;
@@ -2323,14 +2323,14 @@ __CPROVER_DUMP_L6:
   ;
   while((_Bool)0)
     ;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct _thread_data_t) /*232ul*/  * (unsigned long int)opts->nthreads);
-  opts->threads_data = (struct _thread_data_t *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct _thread_data_t) /*232ul*/  * (unsigned long int)opts->nthreads);
+  opts->threads_data = (struct _thread_data_t *)return_value_malloc_3;
   idx = 0;
-  struct lh_table *return_value_json_object_get_object$4;
-  return_value_json_object_get_object$4=json_object_get_object(tasks);
-  entry = return_value_json_object_get_object$4->head;
-  struct lh_entry *tmp_statement_expression$5;
+  struct lh_table *return_value_json_object_get_object_4;
+  return_value_json_object_get_object_4=json_object_get_object(tasks);
+  entry = return_value_json_object_get_object_4->head;
+  struct lh_entry *tmp_statement_expression_5;
   do
   {
     if(!(entry == ((struct lh_entry *)NULL)))
@@ -2339,8 +2339,8 @@ __CPROVER_DUMP_L6:
       val = (struct json_object *)entry->v;
     }
 
-    tmp_statement_expression$5 = entry;
-    if(tmp_statement_expression$5 == ((struct lh_entry *)NULL))
+    tmp_statement_expression_5 = entry;
+    if(tmp_statement_expression_5 == ((struct lh_entry *)NULL))
       break;
 
     parse_thread_data(key, val, idx, &opts->threads_data[(signed long int)idx], opts);
@@ -2365,21 +2365,21 @@ void parse_thread_args(char *arg, signed int idx, struct _thread_data_t *tdata, 
   signed int cpu;
   dline = (signed long int)0;
   token=strtok(str, ":");
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)5);
-  tdata->name = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)5);
+  tdata->name = (char *)return_value_malloc_1;
   tdata->ind = idx;
   snprintf(tdata->name, (unsigned long int)1, "t%d", tdata->ind);
   tdata->sched_prio = 10;
   tdata->sched_policy = def_policy;
-  tdata->cpuset = (struct anonymous$1 *)(void *)0;
+  tdata->cpuset = (struct anonymous_1 *)(void *)0;
   tdata->cpuset_str = (char *)(void *)0;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$7;
-  signed long int return_value_strtol$8;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_7;
+  signed long int return_value_strtol_8;
   while(!(token == ((char *)NULL)))
   {
     switch(i)
@@ -2410,26 +2410,26 @@ void parse_thread_args(char *arg, signed int idx, struct _thread_data_t *tdata, 
       }
       case 2:
       {
-        return_value_strcmp$5=strcmp(token, "d");
-        if(return_value_strcmp$5 == 0)
+        return_value_strcmp_5=strcmp(token, "d");
+        if(return_value_strcmp_5 == 0)
           tdata->sched_policy = (enum policy_t)deadline;
 
         else
         {
-          return_value_strcmp$4=strcmp(token, "f");
-          if(return_value_strcmp$4 == 0)
+          return_value_strcmp_4=strcmp(token, "f");
+          if(return_value_strcmp_4 == 0)
             tdata->sched_policy = (enum policy_t)fifo;
 
           else
           {
-            return_value_strcmp$3=strcmp(token, "r");
-            if(return_value_strcmp$3 == 0)
+            return_value_strcmp_3=strcmp(token, "r");
+            if(return_value_strcmp_3 == 0)
               tdata->sched_policy = (enum policy_t)rr;
 
             else
             {
-              return_value_strcmp$2=strcmp(token, "o");
-              if(return_value_strcmp$2 == 0)
+              return_value_strcmp_2=strcmp(token, "o");
+              if(return_value_strcmp_2 == 0)
                 tdata->sched_policy = (enum policy_t)other;
 
               else
@@ -2446,15 +2446,15 @@ void parse_thread_args(char *arg, signed int idx, struct _thread_data_t *tdata, 
       }
       case 3:
       {
-        return_value_strcmp$7=strcmp(token, "-");
-        if(return_value_strcmp$7 == 0)
-          tdata->cpuset = (struct anonymous$1 *)(void *)0;
+        return_value_strcmp_7=strcmp(token, "-");
+        if(return_value_strcmp_7 == 0)
+          tdata->cpuset = (struct anonymous_1 *)(void *)0;
 
         else
         {
-          void *return_value_malloc$6;
-          return_value_malloc$6=malloc(sizeof(struct anonymous$1) /*128ul*/ );
-          tdata->cpuset = (struct anonymous$1 *)return_value_malloc$6;
+          void *return_value_malloc_6;
+          return_value_malloc_6=malloc(sizeof(struct anonymous_1) /*128ul*/ );
+          tdata->cpuset = (struct anonymous_1 *)return_value_malloc_6;
           tdata->cpuset_str=strdup(token);
         }
         i = i + 1;
@@ -2462,8 +2462,8 @@ void parse_thread_args(char *arg, signed int idx, struct _thread_data_t *tdata, 
       }
       case 4:
       {
-        return_value_strtol$8=strtol(token, (char ** restrict )(void *)0, 10);
-        tdata->sched_prio = (signed int)return_value_strtol$8;
+        return_value_strtol_8=strtol(token, (char ** restrict )(void *)0, 10);
+        tdata->sched_prio = (signed int)return_value_strtol_8;
         i = i + 1;
         break;
       }
@@ -2500,11 +2500,11 @@ void parse_thread_args(char *arg, signed int idx, struct _thread_data_t *tdata, 
     token=strtok(tmp, ",");
     while(!(token == ((char *)NULL)) && !(i >= 1000))
     {
-      signed long int return_value_strtol$9;
-      return_value_strtol$9=strtol(token, (char ** restrict )(void *)0, 10);
-      cpu = (signed int)return_value_strtol$9;
+      signed long int return_value_strtol_9;
+      return_value_strtol_9=strtol(token, (char ** restrict )(void *)0, 10);
+      cpu = (signed int)return_value_strtol_9;
       unsigned long int __cpu = (unsigned long int)cpu;
-      if(!(__cpu / 8ul >= sizeof(struct anonymous$1) /*128ul*/ ))
+      if(!(__cpu / 8ul >= sizeof(struct anonymous_1) /*128ul*/ ))
         ((unsigned long int *)tdata->cpuset->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] = ((unsigned long int *)tdata->cpuset->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] | (unsigned long int)1 << __cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ );
 
       else
@@ -2544,12 +2544,12 @@ __CPROVER_DUMP_L1:
   data->ind = idx;
   data->name=strdup(name);
   data->lock_pages = opts->lock_pages;
-  data->cpuset = (struct anonymous$1 *)(void *)0;
+  data->cpuset = (struct anonymous_1 *)(void *)0;
   data->cpuset_str = (char *)(void *)0;
   data->loop=get_int_value_from(obj, "loop", (signed int)1, -1);
-  signed int return_value_get_int_value_from$1;
-  return_value_get_int_value_from$1=get_int_value_from(obj, "period", (signed int)0, 0);
-  period = (signed long int)return_value_get_int_value_from$1;
+  signed int return_value_get_int_value_from_1;
+  return_value_get_int_value_from_1=get_int_value_from(obj, "period", (signed int)0, 0);
+  period = (signed long int)return_value_get_int_value_from_1;
   if(!(period >= 1l))
   {
 
@@ -2562,9 +2562,9 @@ __CPROVER_DUMP_L1:
   }
 
   data->period=usec_to_timespec((unsigned long int)period);
-  signed int return_value_get_int_value_from$2;
-  return_value_get_int_value_from$2=get_int_value_from(obj, "exec", (signed int)0, 0);
-  exec = (signed long int)return_value_get_int_value_from$2;
+  signed int return_value_get_int_value_from_2;
+  return_value_get_int_value_from_2=get_int_value_from(obj, "exec", (signed int)0, 0);
+  exec = (signed long int)return_value_get_int_value_from_2;
   if(!(period >= exec))
   {
 
@@ -2589,9 +2589,9 @@ __CPROVER_DUMP_L1:
 
   data->min_et=usec_to_timespec((unsigned long int)exec);
   data->max_et=usec_to_timespec((unsigned long int)exec);
-  signed int return_value_get_int_value_from$3;
-  return_value_get_int_value_from$3=get_int_value_from(obj, "deadline", (signed int)1, (signed int)period);
-  dline = (signed long int)return_value_get_int_value_from$3;
+  signed int return_value_get_int_value_from_3;
+  return_value_get_int_value_from_3=get_int_value_from(obj, "deadline", (signed int)1, (signed int)period);
+  dline = (signed long int)return_value_get_int_value_from_3;
   if(!(dline >= exec))
   {
 
@@ -2619,9 +2619,9 @@ __CPROVER_DUMP_L1:
   policy=get_string_value_from(obj, "policy", (signed int)1, def_policy);
   if(!(policy == ((char *)NULL)))
   {
-    signed int return_value_string_to_policy$4;
-    return_value_string_to_policy$4=string_to_policy(policy, &data->sched_policy);
-    if(!(return_value_string_to_policy$4 == 0))
+    signed int return_value_string_to_policy_4;
+    return_value_string_to_policy_4=string_to_policy(policy, &data->sched_policy);
+    if(!(return_value_string_to_policy_4 == 0))
     {
 
     __CPROVER_DUMP_L18:
@@ -2641,36 +2641,36 @@ __CPROVER_DUMP_L1:
   else
     prior_def = 10;
   data->sched_prio=get_int_value_from(obj, "priority", (signed int)1, prior_def);
-  signed int return_value_get_int_value_from$5;
-  return_value_get_int_value_from$5=get_int_value_from(obj, "delay", (signed int)1, 0);
-  data->wait_before_start = (unsigned long int)return_value_get_int_value_from$5;
+  signed int return_value_get_int_value_from_5;
+  return_value_get_int_value_from_5=get_int_value_from(obj, "delay", (signed int)1, 0);
+  data->wait_before_start = (unsigned long int)return_value_get_int_value_from_5;
   data->sleep=get_bool_value_from(obj, "sleep", (signed int)1, 1);
   cpuset_obj=get_in_object(obj, "cpus", (signed int)1);
-  signed int return_value_json_object_array_length$8;
+  signed int return_value_json_object_array_length_8;
   if(!(cpuset_obj == ((struct json_object *)NULL)))
   {
     assure_type_is(cpuset_obj, obj, "cpus", (enum json_type)json_type_array);
-    const char *return_value_json_object_to_json_string$6;
-    return_value_json_object_to_json_string$6=json_object_to_json_string(cpuset_obj);
-    data->cpuset_str=strdup(return_value_json_object_to_json_string$6);
-    void *return_value_malloc$7;
-    return_value_malloc$7=malloc(sizeof(struct anonymous$1) /*128ul*/ );
-    data->cpuset = (struct anonymous$1 *)return_value_malloc$7;
+    const char *return_value_json_object_to_json_string_6;
+    return_value_json_object_to_json_string_6=json_object_to_json_string(cpuset_obj);
+    data->cpuset_str=strdup(return_value_json_object_to_json_string_6);
+    void *return_value_malloc_7;
+    return_value_malloc_7=malloc(sizeof(struct anonymous_1) /*128ul*/ );
+    data->cpuset = (struct anonymous_1 *)return_value_malloc_7;
     cpuset=json_object_get_array(cpuset_obj);
     do
-      __builtin_memset((void *)data->cpuset, 0, sizeof(struct anonymous$1) /*128ul*/ );
+      __builtin_memset((void *)data->cpuset, 0, sizeof(struct anonymous_1) /*128ul*/ );
     while((_Bool)0);
     i = 0;
     do
     {
-      return_value_json_object_array_length$8=json_object_array_length(cpuset_obj);
-      if(i >= return_value_json_object_array_length$8)
+      return_value_json_object_array_length_8=json_object_array_length(cpuset_obj);
+      if(i >= return_value_json_object_array_length_8)
         break;
 
       cpu=json_object_array_get_idx(cpuset_obj, i);
       cpu_idx=json_object_get_int(cpu);
       unsigned long int __cpu = (unsigned long int)cpu_idx;
-      if(!(__cpu / 8ul >= sizeof(struct anonymous$1) /*128ul*/ ))
+      if(!(__cpu / 8ul >= sizeof(struct anonymous_1) /*128ul*/ ))
         ((unsigned long int *)data->cpuset->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] = ((unsigned long int *)data->cpuset->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] | (unsigned long int)1 << __cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ );
 
       else
@@ -2683,7 +2683,7 @@ __CPROVER_DUMP_L1:
   else
   {
     data->cpuset_str=strdup("-");
-    data->cpuset = (struct anonymous$1 *)(void *)0;
+    data->cpuset = (struct anonymous_1 *)(void *)0;
   }
 
 __CPROVER_DUMP_L30:
@@ -2732,20 +2732,20 @@ static void parse_thread_resources(const struct _rtapp_options_t *opts, struct j
   char debug_msg[512l];
   char tmpmsg[512l];
   data->nblockages=json_object_array_length(locks);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _rtapp_tasks_resource_list_t) /*24ul*/  * (unsigned long int)data->nblockages);
-  data->blockages = (struct _rtapp_tasks_resource_list_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _rtapp_tasks_resource_list_t) /*24ul*/  * (unsigned long int)data->nblockages);
+  data->blockages = (struct _rtapp_tasks_resource_list_t *)return_value_malloc_1;
   i = 0;
   for( ; !(i >= data->nblockages); i = i + 1)
   {
     res=json_object_array_get_idx(locks, i);
-    signed int return_value_json_object_is_type$4;
-    return_value_json_object_is_type$4=json_object_is_type(res, (enum json_type)json_type_string);
-    if(return_value_json_object_is_type$4 == 0)
+    signed int return_value_json_object_is_type_4;
+    return_value_json_object_is_type_4=json_object_is_type(res, (enum json_type)json_type_string);
+    if(return_value_json_object_is_type_4 == 0)
     {
-      signed int return_value_json_object_is_type$3;
-      return_value_json_object_is_type$3=json_object_is_type(res, (enum json_type)json_type_int);
-      if(return_value_json_object_is_type$3 == 0)
+      signed int return_value_json_object_is_type_3;
+      return_value_json_object_is_type_3=json_object_is_type(res, (enum json_type)json_type_int);
+      if(return_value_json_object_is_type_3 == 0)
       {
 
       __CPROVER_DUMP_L2:
@@ -2758,9 +2758,9 @@ static void parse_thread_resources(const struct _rtapp_options_t *opts, struct j
 
       else
       {
-        signed int return_value_json_object_get_int$2;
-        return_value_json_object_get_int$2=json_object_get_int(res);
-        snprintf(res_name, (unsigned long int)5, "%d", return_value_json_object_get_int$2);
+        signed int return_value_json_object_get_int_2;
+        return_value_json_object_get_int_2=json_object_get_int(res);
+        snprintf(res_name, (unsigned long int)5, "%d", return_value_json_object_get_int_2);
         cur_res_name = res_name;
       }
 
@@ -2954,9 +2954,9 @@ void run(signed int ind, struct timespec *min, struct timespec *max, struct _rta
       if(!(opts.ftrace == 0))
         do
         {
-          unsigned long int return_value_timespec_to_usec$2;
-          return_value_timespec_to_usec$2=timespec_to_usec(&(blockages + (signed long int)i)->usage);
-          ftrace_write(ft_data.marker_fd, "[%d] busywait for %d", ind, return_value_timespec_to_usec$2);
+          unsigned long int return_value_timespec_to_usec_2;
+          return_value_timespec_to_usec_2=timespec_to_usec(&(blockages + (signed long int)i)->usage);
+          ftrace_write(ft_data.marker_fd, "[%d] busywait for %d", ind, return_value_timespec_to_usec_2);
         }
         while((_Bool)0);
 
@@ -2988,9 +2988,9 @@ __CPROVER_DUMP_L20:
   if(!(opts.ftrace == 0))
     do
     {
-      unsigned long int return_value_timespec_to_usec$4;
-      return_value_timespec_to_usec$4=timespec_to_usec(&t_exec);
-      ftrace_write(ft_data.marker_fd, "[%d] busywait for %d", ind, return_value_timespec_to_usec$4);
+      unsigned long int return_value_timespec_to_usec_4;
+      return_value_timespec_to_usec_4=timespec_to_usec(&t_exec);
+      ftrace_write(ft_data.marker_fd, "[%d] busywait for %d", ind, return_value_timespec_to_usec_4);
     }
     while((_Bool)0);
 
@@ -2999,20 +2999,20 @@ __CPROVER_DUMP_L20:
 
 // sched_getattr
 // file dl_syscalls.c line 10
-signed int sched_getattr(signed int pid, struct sched_attr$0 *attr, unsigned int size, unsigned int flags)
+signed int sched_getattr(signed int pid, struct sched_attr_0 *attr, unsigned int size, unsigned int flags)
 {
-  signed int return_value_syscall$1;
-  return_value_syscall$1=syscall(315, pid, attr, size, flags);
-  return return_value_syscall$1;
+  signed int return_value_syscall_1;
+  return_value_syscall_1=syscall(315, pid, attr, size, flags);
+  return return_value_syscall_1;
 }
 
 // sched_setattr
 // file dl_syscalls.c line 3
-signed int sched_setattr(signed int pid, struct sched_attr$0 *attr, unsigned int flags)
+signed int sched_setattr(signed int pid, struct sched_attr_0 *attr, unsigned int flags)
 {
-  signed int return_value_syscall$1;
-  return_value_syscall$1=syscall(314, pid, attr, flags);
-  return return_value_syscall$1;
+  signed int return_value_syscall_1;
+  return_value_syscall_1=syscall(314, pid, attr, flags);
+  return return_value_syscall_1;
 }
 
 // serialize_acl
@@ -3030,9 +3030,9 @@ static void serialize_acl(struct _rtapp_resource_access_list_t **acl, char *name
   idx=get_resource_index(name, resources);
   if(*acl == ((struct _rtapp_resource_access_list_t *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _rtapp_resource_access_list_t) /*24ul*/ );
-    *acl = (struct _rtapp_resource_access_list_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _rtapp_resource_access_list_t) /*24ul*/ );
+    *acl = (struct _rtapp_resource_access_list_t *)return_value_malloc_1;
     (*acl)->res = &resources[(signed long int)idx];
     (*acl)->next = (struct _rtapp_resource_access_list_t *)(void *)0;
     (*acl)->prev = (struct _rtapp_resource_access_list_t *)(void *)0;
@@ -3049,9 +3049,9 @@ static void serialize_acl(struct _rtapp_resource_access_list_t **acl, char *name
 
     if(found == 0)
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct _rtapp_resource_access_list_t) /*24ul*/ );
-      tmp->next = (struct _rtapp_resource_access_list_t *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct _rtapp_resource_access_list_t) /*24ul*/ );
+      tmp->next = (struct _rtapp_resource_access_list_t *)return_value_malloc_2;
       tmp->next->next = (struct _rtapp_resource_access_list_t *)(void *)0;
       tmp->next->prev = tmp;
       tmp->next->res = &resources[(signed long int)idx];
@@ -3059,7 +3059,7 @@ static void serialize_acl(struct _rtapp_resource_access_list_t **acl, char *name
 
   }
   res=get_in_object(task_resources, name, (signed int)1);
-  signed int return_value_json_object_array_length$3;
+  signed int return_value_json_object_array_length_3;
   if(!(res == ((struct json_object *)NULL)))
   {
     assure_type_is(res, task_resources, name, (enum json_type)json_type_object);
@@ -3070,19 +3070,19 @@ static void serialize_acl(struct _rtapp_resource_access_list_t **acl, char *name
       i = 0;
       do
       {
-        return_value_json_object_array_length$3=json_object_array_length(access);
-        if(i >= return_value_json_object_array_length$3)
+        return_value_json_object_array_length_3=json_object_array_length(access);
+        if(i >= return_value_json_object_array_length_3)
           break;
 
         char res_name[5l];
         next_res=json_object_array_get_idx(access, i);
-        signed int return_value_json_object_is_type$6;
-        return_value_json_object_is_type$6=json_object_is_type(next_res, (enum json_type)json_type_string);
-        if(return_value_json_object_is_type$6 == 0)
+        signed int return_value_json_object_is_type_6;
+        return_value_json_object_is_type_6=json_object_is_type(next_res, (enum json_type)json_type_string);
+        if(return_value_json_object_is_type_6 == 0)
         {
-          signed int return_value_json_object_is_type$5;
-          return_value_json_object_is_type$5=json_object_is_type(next_res, (enum json_type)json_type_int);
-          if(return_value_json_object_is_type$5 == 0)
+          signed int return_value_json_object_is_type_5;
+          return_value_json_object_is_type_5=json_object_is_type(next_res, (enum json_type)json_type_int);
+          if(return_value_json_object_is_type_5 == 0)
           {
 
           __CPROVER_DUMP_L9:
@@ -3095,9 +3095,9 @@ static void serialize_acl(struct _rtapp_resource_access_list_t **acl, char *name
 
           else
           {
-            signed int return_value_json_object_get_int$4;
-            return_value_json_object_get_int$4=json_object_get_int(next_res);
-            snprintf(res_name, (unsigned long int)5, "%d", return_value_json_object_get_int$4);
+            signed int return_value_json_object_get_int_4;
+            return_value_json_object_get_int_4=json_object_get_int(next_res);
+            snprintf(res_name, (unsigned long int)5, "%d", return_value_json_object_get_int_4);
             next_name = res_name;
           }
 
@@ -3159,30 +3159,30 @@ static void shutdown(signed int sig)
 // file rt-app_utils.c line 169
 signed int string_to_policy(const char *policy_name, enum policy_t *policy)
 {
-  signed int return_value_strcmp$4;
-  return_value_strcmp$4=strcmp(policy_name, "SCHED_OTHER");
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$4 == 0)
+  signed int return_value_strcmp_4;
+  return_value_strcmp_4=strcmp(policy_name, "SCHED_OTHER");
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_4 == 0)
     *policy = (enum policy_t)other;
 
   else
   {
-    return_value_strcmp$3=strcmp(policy_name, "SCHED_RR");
-    if(return_value_strcmp$3 == 0)
+    return_value_strcmp_3=strcmp(policy_name, "SCHED_RR");
+    if(return_value_strcmp_3 == 0)
       *policy = (enum policy_t)rr;
 
     else
     {
-      return_value_strcmp$2=strcmp(policy_name, "SCHED_FIFO");
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(policy_name, "SCHED_FIFO");
+      if(return_value_strcmp_2 == 0)
         *policy = (enum policy_t)fifo;
 
       else
       {
-        return_value_strcmp$1=strcmp(policy_name, "SCHED_DEADLINE");
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(policy_name, "SCHED_DEADLINE");
+        if(return_value_strcmp_1 == 0)
           *policy = (enum policy_t)deadline;
 
         else
@@ -3197,44 +3197,44 @@ signed int string_to_policy(const char *policy_name, enum policy_t *policy)
 // file rt-app_utils.c line 221
 signed int string_to_resource(const char *name, enum resource_t *resource)
 {
-  signed int return_value_strcmp$6;
-  return_value_strcmp$6=strcmp(name, "mutex");
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$6 == 0)
+  signed int return_value_strcmp_6;
+  return_value_strcmp_6=strcmp(name, "mutex");
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_6 == 0)
     *resource = (enum resource_t)rtapp_mutex;
 
   else
   {
-    return_value_strcmp$5=strcmp(name, "signal");
-    if(return_value_strcmp$5 == 0)
+    return_value_strcmp_5=strcmp(name, "signal");
+    if(return_value_strcmp_5 == 0)
       *resource = (enum resource_t)rtapp_signal;
 
     else
     {
-      return_value_strcmp$4=strcmp(name, "wait");
-      if(return_value_strcmp$4 == 0)
+      return_value_strcmp_4=strcmp(name, "wait");
+      if(return_value_strcmp_4 == 0)
         *resource = (enum resource_t)rtapp_wait;
 
       else
       {
-        return_value_strcmp$3=strcmp(name, "broadcast");
-        if(return_value_strcmp$3 == 0)
+        return_value_strcmp_3=strcmp(name, "broadcast");
+        if(return_value_strcmp_3 == 0)
           *resource = (enum resource_t)rtapp_broadcast;
 
         else
         {
-          return_value_strcmp$2=strcmp(name, "sleep");
-          if(return_value_strcmp$2 == 0)
+          return_value_strcmp_2=strcmp(name, "sleep");
+          if(return_value_strcmp_2 == 0)
             *resource = (enum resource_t)rtapp_sleep;
 
           else
           {
-            return_value_strcmp$1=strcmp(name, "run");
-            if(return_value_strcmp$1 == 0)
+            return_value_strcmp_1=strcmp(name, "run");
+            if(return_value_strcmp_1 == 0)
               *resource = (enum resource_t)rtapp_run;
 
             else
@@ -3267,7 +3267,7 @@ void * thread_body(void *arg)
   signed int ret;
   signed int i = 0;
   signed int j;
-  if(!(data->cpuset == ((struct anonymous$1 *)NULL)))
+  if(!(data->cpuset == ((struct anonymous_1 *)NULL)))
   {
 
   __CPROVER_DUMP_L1:
@@ -3275,9 +3275,9 @@ void * thread_body(void *arg)
     do
       fprintf(stderr, "[rt-app] <notice> [%d] setting cpu affinity to CPU(s) %s\n", data->ind, data->cpuset_str);
     while((_Bool)0);
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    ret=pthread_setaffinity_np(return_value_pthread_self$1, sizeof(struct anonymous$1) /*128ul*/ , data->cpuset);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    ret=pthread_setaffinity_np(return_value_pthread_self_1, sizeof(struct anonymous_1) /*128ul*/ , data->cpuset);
     if(!(ret >= 0))
     {
       errno = ret;
@@ -3293,9 +3293,9 @@ __CPROVER_DUMP_L4:
   do
     fprintf(stderr, "[rt-app] <notice> [%d] Using %s policy:\n", data->ind, (const void *)data->sched_policy_descr);
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$2;
-  unsigned long long int return_value_timespec_to_nsec$10;
-  unsigned long long int return_value_timespec_to_nsec$11;
+  unsigned long int return_value_pthread_self_2;
+  unsigned long long int return_value_timespec_to_nsec_10;
+  unsigned long long int return_value_timespec_to_nsec_11;
   switch((signed int)data->sched_policy)
   {
     case rr:
@@ -3304,8 +3304,8 @@ __CPROVER_DUMP_L4:
     {
       fprintf(data->log_handler, "# Policy : %s\n", (signed int)data->sched_policy == rr ? "SCHED_RR" : "SCHED_FIFO");
       param.__sched_priority = data->sched_prio;
-      return_value_pthread_self$2=pthread_self();
-      ret=pthread_setschedparam(return_value_pthread_self$2, (signed int)data->sched_policy, &param);
+      return_value_pthread_self_2=pthread_self();
+      ret=pthread_setschedparam(return_value_pthread_self_2, (signed int)data->sched_policy, &param);
       if(!(ret == 0))
       {
         errno = ret;
@@ -3318,13 +3318,13 @@ __CPROVER_DUMP_L4:
       ;
       do
       {
-        unsigned long int return_value_timespec_to_usec$3;
-        return_value_timespec_to_usec$3=timespec_to_usec(&data->period);
-        unsigned long int return_value_timespec_to_usec$4;
-        return_value_timespec_to_usec$4=timespec_to_usec(&data->min_et);
-        unsigned long int return_value_timespec_to_usec$5;
-        return_value_timespec_to_usec$5=timespec_to_usec(&data->deadline);
-        fprintf(stderr, "[rt-app] <notice> [%d] starting thread with period: %lu, exec: %lu,deadline: %lu, priority: %d\n", data->ind, return_value_timespec_to_usec$3, return_value_timespec_to_usec$4, return_value_timespec_to_usec$5, data->sched_prio);
+        unsigned long int return_value_timespec_to_usec_3;
+        return_value_timespec_to_usec_3=timespec_to_usec(&data->period);
+        unsigned long int return_value_timespec_to_usec_4;
+        return_value_timespec_to_usec_4=timespec_to_usec(&data->min_et);
+        unsigned long int return_value_timespec_to_usec_5;
+        return_value_timespec_to_usec_5=timespec_to_usec(&data->deadline);
+        fprintf(stderr, "[rt-app] <notice> [%d] starting thread with period: %lu, exec: %lu,deadline: %lu, priority: %d\n", data->ind, return_value_timespec_to_usec_3, return_value_timespec_to_usec_4, return_value_timespec_to_usec_5, data->sched_prio);
       }
       while((_Bool)0);
       break;
@@ -3347,13 +3347,13 @@ __CPROVER_DUMP_L4:
       }
 
       attr.sched_policy = (unsigned int)data->sched_policy;
-      _Bool tmp_if_expr$6;
+      _Bool tmp_if_expr_6;
       if(data->sched_prio >= 20)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = data->sched_prio < -20 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = data->sched_prio < -20 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
 
       __CPROVER_DUMP_L15:
@@ -3385,13 +3385,13 @@ __CPROVER_DUMP_L4:
       ;
       do
       {
-        unsigned long int return_value_timespec_to_usec$7;
-        return_value_timespec_to_usec$7=timespec_to_usec(&data->period);
-        unsigned long int return_value_timespec_to_usec$8;
-        return_value_timespec_to_usec$8=timespec_to_usec(&data->min_et);
-        unsigned long int return_value_timespec_to_usec$9;
-        return_value_timespec_to_usec$9=timespec_to_usec(&data->deadline);
-        fprintf(stderr, "[rt-app] <notice> [%d] starting thread with period: %lu, exec: %lu,deadline: %lu, nice: %d\n", data->ind, return_value_timespec_to_usec$7, return_value_timespec_to_usec$8, return_value_timespec_to_usec$9, data->sched_prio);
+        unsigned long int return_value_timespec_to_usec_7;
+        return_value_timespec_to_usec_7=timespec_to_usec(&data->period);
+        unsigned long int return_value_timespec_to_usec_8;
+        return_value_timespec_to_usec_8=timespec_to_usec(&data->min_et);
+        unsigned long int return_value_timespec_to_usec_9;
+        return_value_timespec_to_usec_9=timespec_to_usec(&data->deadline);
+        fprintf(stderr, "[rt-app] <notice> [%d] starting thread with period: %lu, exec: %lu,deadline: %lu, nice: %d\n", data->ind, return_value_timespec_to_usec_7, return_value_timespec_to_usec_8, return_value_timespec_to_usec_9, data->sched_prio);
       }
       while((_Bool)0);
       data->lock_pages = 0;
@@ -3405,9 +3405,9 @@ __CPROVER_DUMP_L4:
       attr.sched_flags = (unsigned long long int)0;
       attr.sched_policy = (unsigned int)6;
       attr.__sched_priority = (unsigned int)0;
-      return_value_timespec_to_nsec$10=timespec_to_nsec(&data->max_et);
-      return_value_timespec_to_nsec$11=timespec_to_nsec(&data->max_et);
-      attr.sched_runtime = return_value_timespec_to_nsec$10 + (return_value_timespec_to_nsec$11 / (unsigned long int)100) * (unsigned long int)5;
+      return_value_timespec_to_nsec_10=timespec_to_nsec(&data->max_et);
+      return_value_timespec_to_nsec_11=timespec_to_nsec(&data->max_et);
+      attr.sched_runtime = return_value_timespec_to_nsec_10 + (return_value_timespec_to_nsec_11 / (unsigned long int)100) * (unsigned long int)5;
       attr.sched_deadline=timespec_to_nsec(&data->period);
       attr.sched_period=timespec_to_nsec(&data->period);
       break;
@@ -3465,14 +3465,14 @@ __CPROVER_DUMP_L4:
   if(data->duration >= 1)
   {
     my_duration_usec = (unsigned long int)((double)data->duration * 10e6 - (double)(data->wait_before_start * (unsigned long int)1000));
-    unsigned long int return_value_timespec_to_usec$12;
-    return_value_timespec_to_usec$12=timespec_to_usec(&data->period);
-    double return_value_ceil$13;
-    return_value_ceil$13=ceil((double)my_duration_usec / (double)return_value_timespec_to_usec$12);
-    nperiods = (signed int)return_value_ceil$13;
-    void *return_value_malloc$14;
-    return_value_malloc$14=malloc((unsigned long int)nperiods * sizeof(struct _timing_point_t) /*80ul*/ );
-    timings = (struct _timing_point_t *)return_value_malloc$14;
+    unsigned long int return_value_timespec_to_usec_12;
+    return_value_timespec_to_usec_12=timespec_to_usec(&data->period);
+    double return_value_ceil_13;
+    return_value_ceil_13=ceil((double)my_duration_usec / (double)return_value_timespec_to_usec_12);
+    nperiods = (signed int)return_value_ceil_13;
+    void *return_value_malloc_14;
+    return_value_malloc_14=malloc((unsigned long int)nperiods * sizeof(struct _timing_point_t) /*80ul*/ );
+    timings = (struct _timing_point_t *)return_value_malloc_14;
   }
 
   fprintf(data->log_handler, "#idx\tperiod\tmin_et\tmax_et\trel_st\tstart\t\tend\t\tdeadline\tdur.\tslack\tBudget\tUsed Budget\n");
@@ -3508,7 +3508,7 @@ __CPROVER_DUMP_L4:
   clock_gettime(1, &t_now);
   t_next = t_now;
   data->deadline=timespec_add(&t_now, &data->deadline);
-  signed int return_value_timespec_lower$16;
+  signed int return_value_timespec_lower_16;
   while(!(continue_running == 0))
   {
     if(i == data->loop)
@@ -3538,9 +3538,9 @@ __CPROVER_DUMP_L4:
     curr_timing->period=timespec_to_usec(&data->period);
     curr_timing->min_et=timespec_to_usec(&data->min_et);
     curr_timing->max_et=timespec_to_usec(&data->max_et);
-    unsigned long int return_value_timespec_to_usec$15;
-    return_value_timespec_to_usec$15=timespec_to_usec(&data->main_app_start);
-    curr_timing->rel_start_time = t_start_usec - return_value_timespec_to_usec$15;
+    unsigned long int return_value_timespec_to_usec_15;
+    return_value_timespec_to_usec_15=timespec_to_usec(&data->main_app_start);
+    curr_timing->rel_start_time = t_start_usec - return_value_timespec_to_usec_15;
     curr_timing->abs_start_time = t_start_usec;
     curr_timing->end_time=timespec_to_usec(&t_end);
     curr_timing->deadline=timespec_to_usec(&data->deadline);
@@ -3580,8 +3580,8 @@ __CPROVER_DUMP_L4:
     clock_gettime(1, &t_now);
     if(!(data->sleep == 0))
     {
-      return_value_timespec_lower$16=timespec_lower(&t_now, &t_next);
-      if(!(return_value_timespec_lower$16 == 0))
+      return_value_timespec_lower_16=timespec_lower(&t_now, &t_next);
+      if(!(return_value_timespec_lower_16 == 0))
         clock_nanosleep(1, 1, &t_next, (struct timespec *)(void *)0);
 
     }
@@ -3592,9 +3592,9 @@ __CPROVER_DUMP_L4:
 exit_miss:
   ;
   param.__sched_priority = 0;
-  unsigned long int return_value_pthread_self$17;
-  return_value_pthread_self$17=pthread_self();
-  ret=pthread_setschedparam(return_value_pthread_self$17, 0, &param);
+  unsigned long int return_value_pthread_self_17;
+  return_value_pthread_self_17=pthread_self();
+  ret=pthread_setschedparam(return_value_pthread_self_17, 0, &param);
   if(!(ret == 0))
   {
     errno = ret;
@@ -3697,9 +3697,9 @@ signed long int timespec_sub_to_ns(struct timespec *t1, struct timespec *t2)
 // file rt-app_utils.c line 30
 signed long int timespec_to_lusec(struct timespec *ts)
 {
-  double return_value_round$1;
-  return_value_round$1=round(((double)ts->tv_sec * 1E9 + (double)ts->tv_nsec) / 1000.0);
-  return (signed long int)return_value_round$1;
+  double return_value_round_1;
+  return_value_round_1=round(((double)ts->tv_sec * 1E9 + (double)ts->tv_nsec) / 1000.0);
+  return (signed long int)return_value_round_1;
 }
 
 // timespec_to_msec
@@ -3713,18 +3713,18 @@ unsigned int timespec_to_msec(struct timespec *ts)
 // file rt-app_utils.c line 43
 unsigned long long int timespec_to_nsec(struct timespec *ts)
 {
-  double return_value_round$1;
-  return_value_round$1=round((double)ts->tv_sec * 1E9 + (double)ts->tv_nsec);
-  return (unsigned long long int)return_value_round$1;
+  double return_value_round_1;
+  return_value_round_1=round((double)ts->tv_sec * 1E9 + (double)ts->tv_nsec);
+  return (unsigned long long int)return_value_round_1;
 }
 
 // timespec_to_usec
 // file rt-app_utils.c line 36
 unsigned long int timespec_to_usec(struct timespec *ts)
 {
-  double return_value_round$1;
-  return_value_round$1=round(((double)ts->tv_sec * 1E9 + (double)ts->tv_nsec) / 1000.0);
-  return (unsigned long int)return_value_round$1;
+  double return_value_round_1;
+  return_value_round_1=round(((double)ts->tv_sec * 1E9 + (double)ts->tv_nsec) / 1000.0);
+  return (unsigned long int)return_value_round_1;
 }
 
 // usage
@@ -3779,26 +3779,26 @@ void waste_cpu_cycles(signed int load_loops)
   i = (double)0;
   for( ; i < (double)load_loops; i = i + 1.000000)
   {
-    double return_value_ldexp$1;
-    return_value_ldexp$1=ldexp(param, (signed int)n);
-    double return_value_ldexp$2;
-    return_value_ldexp$2=ldexp(param, (signed int)return_value_ldexp$1);
-    result=ldexp(param, (signed int)return_value_ldexp$2);
-    double return_value_ldexp$3;
-    return_value_ldexp$3=ldexp(param, (signed int)n);
-    double return_value_ldexp$4;
-    return_value_ldexp$4=ldexp(param, (signed int)return_value_ldexp$3);
-    result=ldexp(param, (signed int)return_value_ldexp$4);
-    double return_value_ldexp$5;
-    return_value_ldexp$5=ldexp(param, (signed int)n);
-    double return_value_ldexp$6;
-    return_value_ldexp$6=ldexp(param, (signed int)return_value_ldexp$5);
-    result=ldexp(param, (signed int)return_value_ldexp$6);
-    double return_value_ldexp$7;
-    return_value_ldexp$7=ldexp(param, (signed int)n);
-    double return_value_ldexp$8;
-    return_value_ldexp$8=ldexp(param, (signed int)return_value_ldexp$7);
-    result=ldexp(param, (signed int)return_value_ldexp$8);
+    double return_value_ldexp_1;
+    return_value_ldexp_1=ldexp(param, (signed int)n);
+    double return_value_ldexp_2;
+    return_value_ldexp_2=ldexp(param, (signed int)return_value_ldexp_1);
+    result=ldexp(param, (signed int)return_value_ldexp_2);
+    double return_value_ldexp_3;
+    return_value_ldexp_3=ldexp(param, (signed int)n);
+    double return_value_ldexp_4;
+    return_value_ldexp_4=ldexp(param, (signed int)return_value_ldexp_3);
+    result=ldexp(param, (signed int)return_value_ldexp_4);
+    double return_value_ldexp_5;
+    return_value_ldexp_5=ldexp(param, (signed int)n);
+    double return_value_ldexp_6;
+    return_value_ldexp_6=ldexp(param, (signed int)return_value_ldexp_5);
+    result=ldexp(param, (signed int)return_value_ldexp_6);
+    double return_value_ldexp_7;
+    return_value_ldexp_7=ldexp(param, (signed int)n);
+    double return_value_ldexp_8;
+    return_value_ldexp_8=ldexp(param, (signed int)return_value_ldexp_7);
+    result=ldexp(param, (signed int)return_value_ldexp_8);
   }
   goto __CPROVER_DUMP_L3;
 

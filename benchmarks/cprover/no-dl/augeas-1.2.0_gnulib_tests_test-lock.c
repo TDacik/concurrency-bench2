@@ -1,46 +1,46 @@
-// #anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22
+// #anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22
 // file printf-args.h line 49
-enum anonymous$5 { TYPE_NONE=0, TYPE_SCHAR=1, TYPE_UCHAR=2, TYPE_SHORT=3, TYPE_USHORT=4, TYPE_INT=5, TYPE_UINT=6, TYPE_LONGINT=7, TYPE_ULONGINT=8, TYPE_LONGLONGINT=9, TYPE_ULONGLONGINT=10, TYPE_DOUBLE=11, TYPE_LONGDOUBLE=12, TYPE_CHAR=13, TYPE_WIDE_CHAR=14, TYPE_STRING=15, TYPE_WIDE_STRING=16, TYPE_POINTER=17, TYPE_COUNT_SCHAR_POINTER=18, TYPE_COUNT_SHORT_POINTER=19, TYPE_COUNT_INT_POINTER=20, TYPE_COUNT_LONGINT_POINTER=21, TYPE_COUNT_LONGLONGINT_POINTER=22 };
+enum anonymous_5 { TYPE_NONE=0, TYPE_SCHAR=1, TYPE_UCHAR=2, TYPE_SHORT=3, TYPE_USHORT=4, TYPE_INT=5, TYPE_UINT=6, TYPE_LONGINT=7, TYPE_ULONGINT=8, TYPE_LONGLONGINT=9, TYPE_ULONGLONGINT=10, TYPE_DOUBLE=11, TYPE_LONGDOUBLE=12, TYPE_CHAR=13, TYPE_WIDE_CHAR=14, TYPE_STRING=15, TYPE_WIDE_STRING=16, TYPE_POINTER=17, TYPE_COUNT_SCHAR_POINTER=18, TYPE_COUNT_SHORT_POINTER=19, TYPE_COUNT_INT_POINTER=20, TYPE_COUNT_LONGINT_POINTER=21, TYPE_COUNT_LONGLONGINT_POINTER=22 };
 
-// tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]
+// tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]
 // file printf-parse.h line 53
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]
+// tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]
 // file printf-args.h line 91
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
 struct anonymous;
 
-// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#}$SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#$'dir'||U64'max_width_length'||U64'max_precision_length'||ARR7{SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#}$SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#$'direct_alloc_dir'|]
+// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#}_SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#_'dir'||U64'max_width_length'||U64'max_precision_length'||ARR7{SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#}_SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#_'direct_alloc_dir'|]
 // file printf-parse.h line 70
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#}$SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#$'arg'||ARR7{SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#}$SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#$'direct_alloc_arg'|]
+// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#}_SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#_'arg'||ARR7{SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#}_SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#_'direct_alloc_arg'|]
 // file printf-args.h line 141
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR8{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]
+// tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]
 // file printf-args.h line 94
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$7;
+union anonymous_7;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -240,21 +240,21 @@ extern const char * gl_locale_name_thread(signed int category, const char *categ
 // gl_locale_name_thread_unsafe
 // file localename.c line 2601
 static const char * gl_locale_name_thread_unsafe(signed int category, const char *categoryname);
-// gl_locale_name_thread_unsafe$link1
+// gl_locale_name_thread_unsafe_link1
 // file localename.c line 2601
-static const char * gl_locale_name_thread_unsafe$link1(signed int category$link1, const char *categoryname$link1);
+static const char * gl_locale_name_thread_unsafe_link1(signed int category_link1, const char *categoryname_link1);
 // gl_thread_create
 // file glthread/thread.h line 364
 static inline unsigned long int gl_thread_create(void * (*func)(void *), void *arg);
-// gl_thread_create::func$object
+// gl_thread_create::func_object
 //
-void * func$object(void *);
+void * func_object(void *);
 // glthread_once_singlethreaded
 // file glthread/lock.h line 369
 extern signed int glthread_once_singlethreaded(signed int *once_control);
 // glthread_recursive_lock_init_multithreaded
 // file glthread/lock.c line 284
-extern signed int glthread_recursive_lock_init_multithreaded(union anonymous$7 *lock);
+extern signed int glthread_recursive_lock_init_multithreaded(union anonymous_7 *lock);
 // lgetfilecon
 // file getfilecon.c line 37
 signed int lgetfilecon(const char *, char **);
@@ -308,10 +308,10 @@ extern signed int open(const char *, signed int, ...);
 extern signed int printf(const char *, ...);
 // printf_fetchargs
 // file printf-args.c line 36
-extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$4 *a);
+extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous_4 *a);
 // printf_parse
 // file printf-parse.c line 83
-extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct anonymous$4 *a);
+extern signed int printf_parse(const char *format, struct anonymous_3 *d, struct anonymous_4 *a);
 // pthread_cancel
 // file /usr/include/pthread.h line 515
 extern signed int pthread_cancel(unsigned long int);
@@ -323,37 +323,37 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$7 *, const union anonymous$6 *);
+extern signed int pthread_mutex_init(union anonymous_7 *, const union anonymous_6 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$7 *);
+extern signed int pthread_mutex_lock(union anonymous_7 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$7 *);
+extern signed int pthread_mutex_unlock(union anonymous_7 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$6 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_6 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$6 *);
+extern signed int pthread_mutexattr_init(union anonymous_6 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$6 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_6 *, signed int);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 890
-extern signed int pthread_rwlock_init(union anonymous$0 *, const union anonymous$2 *);
+extern signed int pthread_rwlock_init(union anonymous_0 *, const union anonymous_2 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$0 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_0 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$0 *);
+extern signed int pthread_rwlock_unlock(union anonymous_0 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$0 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_0 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -414,9 +414,9 @@ extern char * strcpy(char *, const char *);
 // string_hash
 // file localename.c line 2519
 static unsigned long int string_hash(const void *x);
-// string_hash$link1
+// string_hash_link1
 // file localename.c line 2519
-static unsigned long int string_hash$link1(const void *x$link1);
+static unsigned long int string_hash_link1(const void *x_link1);
 // strlen
 // file /usr/include/string.h line 398
 extern unsigned long int strlen(const char *);
@@ -426,9 +426,9 @@ extern unsigned long int strnlen1(const char *string, unsigned long int maxlen);
 // struniq
 // file localename.c line 2551
 static const char * struniq(const char *string);
-// struniq$link1
+// struniq_link1
 // file localename.c line 2551
-static const char * struniq$link1(const char *string$link1);
+static const char * struniq_link1(const char *string_link1);
 // test_lock
 // file test-lock.c line 194
 static void test_lock(void);
@@ -456,14 +456,14 @@ static inline unsigned long int xmax(unsigned long int size1, unsigned long int 
 // xsum
 // file xsize.h line 55
 static inline unsigned long int xsum(unsigned long int size1, unsigned long int size2);
-// xsum$link1
+// xsum_link1
 // file xsize.h line 55
-static inline unsigned long int xsum$link1(unsigned long int size1$link1, unsigned long int size2$link1);
+static inline unsigned long int xsum_link1(unsigned long int size1_link1, unsigned long int size2_link1);
 // xsum4
 // file xsize.h line 76
 static inline unsigned long int xsum4(unsigned long int size1, unsigned long int size2, unsigned long int size3, unsigned long int size4);
 
-struct anonymous$8
+struct anonymous_8
 {
   // dir_start
   const char *dir_start;
@@ -489,7 +489,7 @@ struct anonymous$8
   unsigned long int arg_index;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // a_schar
   signed char a_schar;
@@ -539,12 +539,12 @@ union anonymous$9
   signed long long int *a_count_longlongint_pointer;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // type
-  enum anonymous$5 type;
+  enum anonymous_5 type;
   // a
-  union anonymous$9 a;
+  union anonymous_9 a;
 };
 
 struct anonymous
@@ -575,31 +575,31 @@ struct anonymous
   unsigned int __flags;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // count
   unsigned long int count;
   // dir
-  struct anonymous$8 *dir;
+  struct anonymous_8 *dir;
   // max_width_length
   unsigned long int max_width_length;
   // max_precision_length
   unsigned long int max_precision_length;
   // direct_alloc_dir
-  struct anonymous$8 direct_alloc_dir[7l];
+  struct anonymous_8 direct_alloc_dir[7l];
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // count
   unsigned long int count;
   // arg
-  struct anonymous$1 *arg;
+  struct anonymous_1 *arg;
   // direct_alloc_arg
-  struct anonymous$1 direct_alloc_arg[7l];
+  struct anonymous_1 direct_alloc_arg[7l];
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[4l];
@@ -607,7 +607,7 @@ union anonymous$6
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __size
   char __size[8l];
@@ -615,7 +615,7 @@ union anonymous$2
   signed long int __align;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct anonymous __data;
@@ -653,7 +653,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -848,16 +848,16 @@ static signed int account[4l];
 static const char * volatile charset_aliases;
 // fire_signal
 // file test-lock.c line 414
-static union anonymous$0 fire_signal[50000l];
+static union anonymous_0 fire_signal[50000l];
 // fresh_once
 // file test-lock.c line 410
 static signed int fresh_once = 0;
-// fresh_once$link1
+// fresh_once_link1
 // file glthread/lock.c line 454
-static const signed int fresh_once$link1 = 0;
-// fresh_once$link2
+static const signed int fresh_once_link1 = 0;
+// fresh_once_link2
 // file glthread/lock.c line 454
-static const signed int fresh_once$link2 = 0;
+static const signed int fresh_once_link2 = 0;
 // letters
 // file tempname.c line 179
 static const char letters[63l] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 0 };
@@ -869,17 +869,17 @@ static volatile signed int lock_checker_done;
 static void *mmalloca_results[257l];
 // my_lock
 // file test-lock.c line 135
-static union anonymous$7 my_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_7 my_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // my_reclock
 // file test-lock.c line 311
-static union anonymous$7 my_reclock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_7 my_reclock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=1, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // my_rwlock
 // file test-lock.c line 225
-static union anonymous$0 my_rwlock = { .__data={ .__lock=0, .__nr_readers=(unsigned int)0, .__readers_wakeup=(unsigned int)0,
+static union anonymous_0 my_rwlock = { .__data={ .__lock=0, .__nr_readers=(unsigned int)0, .__readers_wakeup=(unsigned int)0,
     .__writer_wakeup=(unsigned int)0, .__nr_readers_queued=(unsigned int)0,
     .__nr_writers_queued=(unsigned int)0,
     .__writer=0,
@@ -894,7 +894,7 @@ static signed int once_control;
 static signed int performed;
 // performed_lock
 // file test-lock.c line 420
-static union anonymous$7 performed_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_7 performed_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // ready
@@ -902,7 +902,7 @@ static union anonymous$7 performed_lock = { .__data={ .__lock=0, .__count=(unsig
 static signed int ready[10l];
 // ready_lock
 // file test-lock.c line 412
-static union anonymous$7 ready_lock[10l];
+static union anonymous_7 ready_lock[10l];
 // reclock_checker_done
 // file test-lock.c line 359
 static volatile signed int reclock_checker_done;
@@ -915,17 +915,17 @@ extern struct _IO_FILE *stdout;
 // struniq_hash_table
 // file localename.c line 2541
 static struct hash_node * volatile struniq_hash_table[257l];
-// struniq_hash_table$link1
+// struniq_hash_table_link1
 // file localename.c line 2541
-static struct hash_node * volatile struniq_hash_table$link1[257l];
+static struct hash_node * volatile struniq_hash_table_link1[257l];
 // struniq_lock
 // file localename.c line 2546
-static union anonymous$7 struniq_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_7 struniq_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
-// struniq_lock$link1
+// struniq_lock_link1
 // file localename.c line 2546
-static union anonymous$7 struniq_lock$link1 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_7 struniq_lock_link1 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 
@@ -1047,12 +1047,12 @@ extern signed int c_strcasecmp(const char *s1, const char *s2)
   {
     do
     {
-      signed int return_value_c_tolower$1;
-      return_value_c_tolower$1=c_tolower((signed int)*p1);
-      c1 = (unsigned char)return_value_c_tolower$1;
-      signed int return_value_c_tolower$2;
-      return_value_c_tolower$2=c_tolower((signed int)*p2);
-      c2 = (unsigned char)return_value_c_tolower$2;
+      signed int return_value_c_tolower_1;
+      return_value_c_tolower_1=c_tolower((signed int)*p1);
+      c1 = (unsigned char)return_value_c_tolower_1;
+      signed int return_value_c_tolower_2;
+      return_value_c_tolower_2=c_tolower((signed int)*p2);
+      c2 = (unsigned char)return_value_c_tolower_2;
       if((signed int)c1 == 0)
         break;
 
@@ -1079,12 +1079,12 @@ extern signed int c_strncasecmp(const char *s1, const char *s2, unsigned long in
   {
     do
     {
-      signed int return_value_c_tolower$1;
-      return_value_c_tolower$1=c_tolower((signed int)*p1);
-      c1 = (unsigned char)return_value_c_tolower$1;
-      signed int return_value_c_tolower$2;
-      return_value_c_tolower$2=c_tolower((signed int)*p2);
-      c2 = (unsigned char)return_value_c_tolower$2;
+      signed int return_value_c_tolower_1;
+      return_value_c_tolower_1=c_tolower((signed int)*p1);
+      c1 = (unsigned char)return_value_c_tolower_1;
+      signed int return_value_c_tolower_2;
+      return_value_c_tolower_2=c_tolower((signed int)*p2);
+      c2 = (unsigned char)return_value_c_tolower_2;
       n = n - 1ul;
       if(n == 0ul || (signed int)c1 == 0)
         break;
@@ -1163,29 +1163,29 @@ extern signed int gen_tempname(char *tmpl, signed int suffixlen, signed int flag
   unsigned int count;
   signed int fd = -1;
   signed int save_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  save_errno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  save_errno = *return_value___errno_location_1;
   struct stat st;
   unsigned int attempts = (unsigned int)(62 * 62 * 62);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(tmpl);
-  len = (signed int)return_value_strlen$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_memcmp$4;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(tmpl);
+  len = (signed int)return_value_strlen_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_memcmp_4;
   if(!(len >= 6 + suffixlen))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_memcmp$4=memcmp((const void *)&tmpl[(signed long int)((len - 6) - suffixlen)], (const void *)"XXXXXX", (unsigned long int)6);
-    tmp_if_expr$5 = return_value_memcmp$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_memcmp_4=memcmp((const void *)&tmpl[(signed long int)((len - 6) - suffixlen)], (const void *)"XXXXXX", (unsigned long int)6);
+    tmp_if_expr_5 = return_value_memcmp_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 22;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 22;
     return -1;
   }
 
@@ -1193,13 +1193,13 @@ extern signed int gen_tempname(char *tmpl, signed int suffixlen, signed int flag
   struct timeval tv;
   gettimeofday(&tv, (struct timezone *)(void *)0);
   random_time_bits = (unsigned long int)tv.tv_usec << 16 ^ (unsigned long int)tv.tv_sec;
-  signed int return_value_getpid$6;
-  return_value_getpid$6=getpid();
+  signed int return_value_getpid_6;
+  return_value_getpid_6=getpid();
   static unsigned long int value;
-  value = value + (random_time_bits ^ (unsigned long int)return_value_getpid$6);
+  value = value + (random_time_bits ^ (unsigned long int)return_value_getpid_6);
   count = (unsigned int)0;
-  signed int return_value_lstat$9;
-  signed int *return_value___errno_location$11;
+  signed int return_value_lstat_9;
+  signed int *return_value___errno_location_11;
   for( ; !(count >= attempts); count = count + 1u)
   {
     unsigned long int v = value;
@@ -1228,16 +1228,16 @@ extern signed int gen_tempname(char *tmpl, signed int suffixlen, signed int flag
       }
       case 2:
       {
-        return_value_lstat$9=lstat(tmpl, &st);
-        if(!(return_value_lstat$9 >= 0))
+        return_value_lstat_9=lstat(tmpl, &st);
+        if(!(return_value_lstat_9 >= 0))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          if(*return_value___errno_location$8 == 2)
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          if(*return_value___errno_location_8 == 2)
           {
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            *return_value___errno_location$7 = save_errno;
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            *return_value___errno_location_7 = save_errno;
             return 0;
           }
 
@@ -1256,16 +1256,16 @@ extern signed int gen_tempname(char *tmpl, signed int suffixlen, signed int flag
     }
     if(fd >= 0)
     {
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      *return_value___errno_location$10 = save_errno;
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      *return_value___errno_location_10 = save_errno;
       return fd;
     }
 
     else
     {
-      return_value___errno_location$11=__errno_location();
-      if(!(*return_value___errno_location$11 == 17))
+      return_value___errno_location_11=__errno_location();
+      if(!(*return_value___errno_location_11 == 17))
         return -1;
 
     }
@@ -1274,9 +1274,9 @@ extern signed int gen_tempname(char *tmpl, signed int suffixlen, signed int flag
     ;
     value = value + (unsigned long int)7777;
   }
-  signed int *return_value___errno_location$12;
-  return_value___errno_location$12=__errno_location();
-  *return_value___errno_location$12 = 17;
+  signed int *return_value___errno_location_12;
+  return_value___errno_location_12=__errno_location();
+  *return_value___errno_location_12 = 17;
   return -1;
 }
 
@@ -1285,8 +1285,8 @@ extern signed int gen_tempname(char *tmpl, signed int suffixlen, signed int flag
 static const char * get_charset_aliases(void)
 {
   const char *cp = charset_aliases;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(cp == ((const char *)NULL))
   {
     const char *dir;
@@ -1294,11 +1294,11 @@ static const char * get_charset_aliases(void)
     char *file_name;
     dir=getenv("CHARSETALIASDIR");
     if(dir == ((const char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)dir[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)dir[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       dir = "/usr/lib/x86_64-linux-gnu";
 
     unsigned long int dir_len;
@@ -1307,14 +1307,14 @@ static const char * get_charset_aliases(void)
     base_len=strlen(base);
     signed int add_slash;
     if(dir_len >= 1ul)
-      tmp_if_expr$2 = !((signed int)dir[(signed long int)(dir_len - (unsigned long int)1)] == 47) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = !((signed int)dir[(signed long int)(dir_len - (unsigned long int)1)] == 47) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    add_slash = (signed int)tmp_if_expr$2;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(dir_len + (unsigned long int)add_slash + base_len + (unsigned long int)1);
-    file_name = (char *)return_value_malloc$3;
+      tmp_if_expr_2 = (_Bool)0;
+    add_slash = (signed int)tmp_if_expr_2;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(dir_len + (unsigned long int)add_slash + base_len + (unsigned long int)1);
+    file_name = (char *)return_value_malloc_3;
     if(!(file_name == ((char *)NULL)))
     {
       memcpy((void *)file_name, (const void *)dir, dir_len);
@@ -1375,9 +1375,9 @@ static const char * get_charset_aliases(void)
               else
               {
                 ungetc(c, fp);
-                signed int return_value_fscanf$4;
-                return_value_fscanf$4=fscanf(fp, "%50s %50s", (const void *)buf1, (const void *)buf2);
-                if(!(return_value_fscanf$4 >= 2))
+                signed int return_value_fscanf_4;
+                return_value_fscanf_4=fscanf(fp, "%50s %50s", (const void *)buf1, (const void *)buf2);
+                if(!(return_value_fscanf_4 >= 2))
                   break;
 
                 l1=strlen(buf1);
@@ -1386,17 +1386,17 @@ static const char * get_charset_aliases(void)
                 if(res_size == 0ul)
                 {
                   res_size = l1 + (unsigned long int)1 + l2 + (unsigned long int)1;
-                  void *return_value_malloc$5;
-                  return_value_malloc$5=malloc(res_size + (unsigned long int)1);
-                  res_ptr = (char *)return_value_malloc$5;
+                  void *return_value_malloc_5;
+                  return_value_malloc_5=malloc(res_size + (unsigned long int)1);
+                  res_ptr = (char *)return_value_malloc_5;
                 }
 
                 else
                 {
                   res_size = res_size + l1 + (unsigned long int)1 + l2 + (unsigned long int)1;
-                  void *return_value_realloc$6;
-                  return_value_realloc$6=realloc((void *)res_ptr, res_size + (unsigned long int)1);
-                  res_ptr = (char *)return_value_realloc$6;
+                  void *return_value_realloc_6;
+                  return_value_realloc_6=realloc((void *)res_ptr, res_size + (unsigned long int)1);
+                  res_ptr = (char *)return_value_realloc_6;
                 }
                 if(res_ptr == ((char *)NULL))
                 {
@@ -1448,9 +1448,9 @@ extern const char * gl_locale_name(signed int category, const char *categoryname
 
     else
     {
-      const char *return_value_gl_locale_name_default$1;
-      return_value_gl_locale_name_default$1=gl_locale_name_default();
-      return return_value_gl_locale_name_default$1;
+      const char *return_value_gl_locale_name_default_1;
+      return_value_gl_locale_name_default_1=gl_locale_name_default();
+      return return_value_gl_locale_name_default_1;
     }
   }
 }
@@ -1519,9 +1519,9 @@ extern const char * gl_locale_name_environ(signed int category, const char *cate
 // file localename.c line 2777
 extern const char * gl_locale_name_posix(signed int category, const char *categoryname)
 {
-  char *return_value_setlocale$1;
-  return_value_setlocale$1=setlocale(category, (const char *)(void *)0);
-  return return_value_setlocale$1;
+  char *return_value_setlocale_1;
+  return_value_setlocale_1=setlocale(category, (const char *)(void *)0);
+  return return_value_setlocale_1;
 }
 
 // gl_locale_name_thread
@@ -1530,11 +1530,11 @@ extern const char * gl_locale_name_thread(signed int category, const char *categ
 {
   const char *name;
   name=gl_locale_name_thread_unsafe(category, categoryname);
-  const char *return_value_struniq$1;
+  const char *return_value_struniq_1;
   if(!(name == ((const char *)NULL)))
   {
-    return_value_struniq$1=struniq(name);
-    return return_value_struniq$1;
+    return_value_struniq_1=struniq(name);
+    return return_value_struniq_1;
   }
 
   else
@@ -1560,20 +1560,20 @@ static const char * gl_locale_name_thread_unsafe(signed int category, const char
   return (const char *)(void *)0;
 }
 
-// gl_locale_name_thread_unsafe$link1
+// gl_locale_name_thread_unsafe_link1
 // file localename.c line 2601
-static const char * gl_locale_name_thread_unsafe$link1(signed int category$link1, const char *categoryname$link1)
+static const char * gl_locale_name_thread_unsafe_link1(signed int category_link1, const char *categoryname_link1)
 {
-  struct __locale_struct *thread_locale$link1;
-  thread_locale$link1=uselocale((struct __locale_struct *)(void *)0);
-  if(!(thread_locale$link1 == (struct __locale_struct *)-1l))
+  struct __locale_struct *thread_locale_link1;
+  thread_locale_link1=uselocale((struct __locale_struct *)(void *)0);
+  if(!(thread_locale_link1 == (struct __locale_struct *)-1l))
   {
-    const char *name$link1;
-    name$link1=nl_langinfo(category$link1 << 16 | (signed int)-1 & 0xffff);
-    if((signed int)*name$link1 == 0)
-      name$link1 = thread_locale$link1->__names[(signed long int)category$link1];
+    const char *name_link1;
+    name_link1=nl_langinfo(category_link1 << 16 | (signed int)-1 & 0xffff);
+    if((signed int)*name_link1 == 0)
+      name_link1 = thread_locale_link1->__names[(signed long int)category_link1];
 
-    return name$link1;
+    return name_link1;
   }
 
   return (const char *)(void *)0;
@@ -1585,9 +1585,9 @@ static inline unsigned long int gl_thread_create(void * (*func)(void *), void *a
 {
   unsigned long int thread;
   signed int ret;
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, func, arg);
-  ret = return_value_pthread_create$1;
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, func, arg);
+  ret = return_value_pthread_create_1;
   if(!(ret == 0))
     abort();
 
@@ -1599,9 +1599,9 @@ static inline unsigned long int gl_thread_create(void * (*func)(void *), void *a
 extern signed int glthread_once_singlethreaded(signed int *once_control)
 {
   char *firstbyte = (char *)once_control;
-  if(*firstbyte == *((const char *)&fresh_once$link1))
+  if(*firstbyte == *((const char *)&fresh_once_link1))
   {
-    *firstbyte = (char)~((signed int)*((const char *)&fresh_once$link1));
+    *firstbyte = (char)~((signed int)*((const char *)&fresh_once_link1));
     return 1;
   }
 
@@ -1611,9 +1611,9 @@ extern signed int glthread_once_singlethreaded(signed int *once_control)
 
 // glthread_recursive_lock_init_multithreaded
 // file glthread/lock.c line 284
-extern signed int glthread_recursive_lock_init_multithreaded(union anonymous$7 *lock)
+extern signed int glthread_recursive_lock_init_multithreaded(union anonymous_7 *lock)
 {
-  union anonymous$6 attributes;
+  union anonymous_6 attributes;
   signed int err;
   err=pthread_mutexattr_init(&attributes);
   if(!(err == 0))
@@ -1661,37 +1661,37 @@ extern const char * locale_charset(void)
     codeset = "";
 
   aliases=get_charset_aliases();
-  signed int return_value_strcmp$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  for( ; !((signed int)*aliases == 0); aliases = aliases + (signed long int)(return_value_strlen$2 + (unsigned long int)1))
+  signed int return_value_strcmp_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  for( ; !((signed int)*aliases == 0); aliases = aliases + (signed long int)(return_value_strlen_2 + (unsigned long int)1))
   {
-    return_value_strcmp$4=strcmp(codeset, aliases);
-    if(return_value_strcmp$4 == 0)
-      tmp_if_expr$6 = (_Bool)1;
+    return_value_strcmp_4=strcmp(codeset, aliases);
+    if(return_value_strcmp_4 == 0)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
       if((signed int)*aliases == 42)
-        tmp_if_expr$5 = (signed int)aliases[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (signed int)aliases[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(aliases);
-      codeset = aliases + (signed long int)return_value_strlen$3 + (signed long int)1;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(aliases);
+      codeset = aliases + (signed long int)return_value_strlen_3 + (signed long int)1;
       break;
     }
 
-    return_value_strlen$1=strlen(aliases);
-    aliases = aliases + (signed long int)(return_value_strlen$1 + (unsigned long int)1);
-    return_value_strlen$2=strlen(aliases);
+    return_value_strlen_1=strlen(aliases);
+    aliases = aliases + (signed long int)(return_value_strlen_1 + (unsigned long int)1);
+    return_value_strlen_2=strlen(aliases);
   }
   if((signed int)*codeset == 0)
     codeset = "ASCII";
@@ -1703,15 +1703,15 @@ extern const char * locale_charset(void)
 // file test-lock.c line 176
 static void * lock_checker_thread(void *arg)
 {
-  unsigned long int return_value_pthread_self$1;
-  unsigned long int return_value_pthread_self$4;
+  unsigned long int return_value_pthread_self_1;
+  unsigned long int return_value_pthread_self_4;
   while(lock_checker_done == 0)
   {
     do
     {
-      signed int return_value_pthread_mutex_lock$2;
-      return_value_pthread_mutex_lock$2=pthread_mutex_lock(&my_lock);
-      if(!(return_value_pthread_mutex_lock$2 == 0))
+      signed int return_value_pthread_mutex_lock_2;
+      return_value_pthread_mutex_lock_2=pthread_mutex_lock(&my_lock);
+      if(!(return_value_pthread_mutex_lock_2 == 0))
         abort();
 
     }
@@ -1719,16 +1719,16 @@ static void * lock_checker_thread(void *arg)
     check_accounts();
     do
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&my_lock);
-      if(!(return_value_pthread_mutex_unlock$3 == 0))
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&my_lock);
+      if(!(return_value_pthread_mutex_unlock_3 == 0))
         abort();
 
     }
     while((_Bool)0);
     sched_yield();
   }
-  unsigned long int return_value_pthread_self$5;
+  unsigned long int return_value_pthread_self_5;
   return (void *)0;
 }
 
@@ -1737,12 +1737,12 @@ static void * lock_checker_thread(void *arg)
 static void * lock_mutator_thread(void *arg)
 {
   signed int repeat = 50000;
-  unsigned long int return_value_pthread_self$1;
-  unsigned long int return_value_pthread_self$3;
-  unsigned long int return_value_pthread_self$5;
-  unsigned long int return_value_pthread_self$7;
-  unsigned long int return_value_pthread_self$8;
-  unsigned long int return_value_pthread_self$11;
+  unsigned long int return_value_pthread_self_1;
+  unsigned long int return_value_pthread_self_3;
+  unsigned long int return_value_pthread_self_5;
+  unsigned long int return_value_pthread_self_7;
+  unsigned long int return_value_pthread_self_8;
+  unsigned long int return_value_pthread_self_11;
   for( ; repeat >= 1; repeat = repeat - 1)
   {
     signed int i1;
@@ -1750,34 +1750,34 @@ static void * lock_mutator_thread(void *arg)
     signed int value;
     do
     {
-      signed int return_value_pthread_mutex_lock$2;
-      return_value_pthread_mutex_lock$2=pthread_mutex_lock(&my_lock);
-      if(!(return_value_pthread_mutex_lock$2 == 0))
+      signed int return_value_pthread_mutex_lock_2;
+      return_value_pthread_mutex_lock_2=pthread_mutex_lock(&my_lock);
+      if(!(return_value_pthread_mutex_lock_2 == 0))
         abort();
 
     }
     while((_Bool)0);
     i1=random_account();
     i2=random_account();
-    signed int return_value_rand$4;
-    return_value_rand$4=rand();
-    value = (signed int)(((unsigned int)return_value_rand$4 >> 3) % (unsigned int)10);
+    signed int return_value_rand_4;
+    return_value_rand_4=rand();
+    value = (signed int)(((unsigned int)return_value_rand_4 >> 3) % (unsigned int)10);
     account[(signed long int)i1] = account[(signed long int)i1] + value;
     account[(signed long int)i2] = account[(signed long int)i2] - value;
     do
     {
-      signed int return_value_pthread_mutex_unlock$6;
-      return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&my_lock);
-      if(!(return_value_pthread_mutex_unlock$6 == 0))
+      signed int return_value_pthread_mutex_unlock_6;
+      return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&my_lock);
+      if(!(return_value_pthread_mutex_unlock_6 == 0))
         abort();
 
     }
     while((_Bool)0);
     do
     {
-      signed int return_value_pthread_mutex_lock$9;
-      return_value_pthread_mutex_lock$9=pthread_mutex_lock(&my_lock);
-      if(!(return_value_pthread_mutex_lock$9 == 0))
+      signed int return_value_pthread_mutex_lock_9;
+      return_value_pthread_mutex_lock_9=pthread_mutex_lock(&my_lock);
+      if(!(return_value_pthread_mutex_lock_9 == 0))
         abort();
 
     }
@@ -1785,16 +1785,16 @@ static void * lock_mutator_thread(void *arg)
     check_accounts();
     do
     {
-      signed int return_value_pthread_mutex_unlock$10;
-      return_value_pthread_mutex_unlock$10=pthread_mutex_unlock(&my_lock);
-      if(!(return_value_pthread_mutex_unlock$10 == 0))
+      signed int return_value_pthread_mutex_unlock_10;
+      return_value_pthread_mutex_unlock_10=pthread_mutex_unlock(&my_lock);
+      if(!(return_value_pthread_mutex_unlock_10 == 0))
         abort();
 
     }
     while((_Bool)0);
     sched_yield();
   }
-  unsigned long int return_value_pthread_self$12;
+  unsigned long int return_value_pthread_self_12;
   return (void *)0;
 }
 
@@ -1831,22 +1831,22 @@ static inline signed int map_to_failure(signed int ret, char **con)
 {
   if(ret == 0)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 95;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 95;
     return -1;
   }
 
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_3;
   if(ret == 10)
   {
-    return_value_strcmp$3=strcmp(*con, "unlabeled");
-    if(return_value_strcmp$3 == 0)
+    return_value_strcmp_3=strcmp(*con, "unlabeled");
+    if(return_value_strcmp_3 == 0)
     {
       freecon(*con);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 61;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 61;
       return -1;
     }
 
@@ -1863,9 +1863,9 @@ extern void * mmalloca(unsigned long int n)
   if(nplus >= n)
   {
     char *p;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(nplus);
-    p = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(nplus);
+    p = (char *)return_value_malloc_1;
     if(!(p == ((char *)NULL)))
     {
       unsigned long int slot;
@@ -1888,15 +1888,15 @@ static void * once_contender_thread(void *arg)
 {
   signed int id = (signed int)(signed long int)arg;
   signed int repeat = 0;
-  unsigned long int return_value_pthread_self$3;
-  unsigned long int return_value_pthread_self$6;
+  unsigned long int return_value_pthread_self_3;
+  unsigned long int return_value_pthread_self_6;
   for( ; !(repeat >= 50001); repeat = repeat + 1)
   {
     do
     {
-      signed int return_value_pthread_mutex_lock$1;
-      return_value_pthread_mutex_lock$1=pthread_mutex_lock(&ready_lock[(signed long int)id]);
-      if(!(return_value_pthread_mutex_lock$1 == 0))
+      signed int return_value_pthread_mutex_lock_1;
+      return_value_pthread_mutex_lock_1=pthread_mutex_lock(&ready_lock[(signed long int)id]);
+      if(!(return_value_pthread_mutex_lock_1 == 0))
         abort();
 
     }
@@ -1904,9 +1904,9 @@ static void * once_contender_thread(void *arg)
     ready[(signed long int)id] = 1;
     do
     {
-      signed int return_value_pthread_mutex_unlock$2;
-      return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&ready_lock[(signed long int)id]);
-      if(!(return_value_pthread_mutex_unlock$2 == 0))
+      signed int return_value_pthread_mutex_unlock_2;
+      return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&ready_lock[(signed long int)id]);
+      if(!(return_value_pthread_mutex_unlock_2 == 0))
         abort();
 
     }
@@ -1916,27 +1916,27 @@ static void * once_contender_thread(void *arg)
 
     do
     {
-      signed int return_value_pthread_rwlock_rdlock$4;
-      return_value_pthread_rwlock_rdlock$4=pthread_rwlock_rdlock(&fire_signal[(signed long int)repeat]);
-      if(!(return_value_pthread_rwlock_rdlock$4 == 0))
+      signed int return_value_pthread_rwlock_rdlock_4;
+      return_value_pthread_rwlock_rdlock_4=pthread_rwlock_rdlock(&fire_signal[(signed long int)repeat]);
+      if(!(return_value_pthread_rwlock_rdlock_4 == 0))
         abort();
 
     }
     while((_Bool)0);
     do
     {
-      signed int return_value_pthread_rwlock_unlock$5;
-      return_value_pthread_rwlock_unlock$5=pthread_rwlock_unlock(&fire_signal[(signed long int)repeat]);
-      if(!(return_value_pthread_rwlock_unlock$5 == 0))
+      signed int return_value_pthread_rwlock_unlock_5;
+      return_value_pthread_rwlock_unlock_5=pthread_rwlock_unlock(&fire_signal[(signed long int)repeat]);
+      if(!(return_value_pthread_rwlock_unlock_5 == 0))
         abort();
 
     }
     while((_Bool)0);
     do
     {
-      signed int return_value_pthread_once$7;
-      return_value_pthread_once$7=pthread_once(&once_control, once_execute);
-      if(!(return_value_pthread_once$7 == 0))
+      signed int return_value_pthread_once_7;
+      return_value_pthread_once_7=pthread_once(&once_control, once_execute);
+      if(!(return_value_pthread_once_7 == 0))
         abort();
 
     }
@@ -1951,9 +1951,9 @@ static void once_execute(void)
 {
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&performed_lock);
-    if(!(return_value_pthread_mutex_lock$1 == 0))
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&performed_lock);
+    if(!(return_value_pthread_mutex_lock_1 == 0))
       abort();
 
   }
@@ -1961,9 +1961,9 @@ static void once_execute(void)
   performed = performed + 1;
   do
   {
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&performed_lock);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&performed_lock);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
       abort();
 
   }
@@ -1972,43 +1972,43 @@ static void once_execute(void)
 
 // printf_fetchargs
 // file printf-args.c line 36
-extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$4 *a)
+extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous_4 *a)
 {
   unsigned long int i;
-  struct anonymous$1 *ap;
+  struct anonymous_1 *ap;
   i = (unsigned long int)0;
   ap = &a->arg[(signed long int)0];
-  signed int return_value_gcc_builtin_va_arg$1;
-  signed int return_value_gcc_builtin_va_arg$2;
-  signed int return_value_gcc_builtin_va_arg$3;
-  signed int return_value_gcc_builtin_va_arg$4;
-  unsigned int return_value_gcc_builtin_va_arg$5;
+  signed int return_value_gcc_builtin_va_arg_1;
+  signed int return_value_gcc_builtin_va_arg_2;
+  signed int return_value_gcc_builtin_va_arg_3;
+  signed int return_value_gcc_builtin_va_arg_4;
+  unsigned int return_value_gcc_builtin_va_arg_5;
   for( ; !(i >= a->count); ap = ap + 1l)
   {
     switch((signed int)ap->type)
     {
       case TYPE_SCHAR:
       {
-        return_value_gcc_builtin_va_arg$1=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$1));
-        ap->a.a_schar = (signed char)return_value_gcc_builtin_va_arg$1;
+        return_value_gcc_builtin_va_arg_1=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_1));
+        ap->a.a_schar = (signed char)return_value_gcc_builtin_va_arg_1;
         break;
       }
       case TYPE_UCHAR:
       {
-        return_value_gcc_builtin_va_arg$2=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$2));
-        ap->a.a_uchar = (unsigned char)return_value_gcc_builtin_va_arg$2;
+        return_value_gcc_builtin_va_arg_2=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_2));
+        ap->a.a_uchar = (unsigned char)return_value_gcc_builtin_va_arg_2;
         break;
       }
       case TYPE_SHORT:
       {
-        return_value_gcc_builtin_va_arg$3=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$3));
-        ap->a.a_short = (signed short int)return_value_gcc_builtin_va_arg$3;
+        return_value_gcc_builtin_va_arg_3=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_3));
+        ap->a.a_short = (signed short int)return_value_gcc_builtin_va_arg_3;
         break;
       }
       case TYPE_USHORT:
       {
-        return_value_gcc_builtin_va_arg$4=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$4));
-        ap->a.a_ushort = (unsigned short int)return_value_gcc_builtin_va_arg$4;
+        return_value_gcc_builtin_va_arg_4=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_4));
+        ap->a.a_ushort = (unsigned short int)return_value_gcc_builtin_va_arg_4;
         break;
       }
       case TYPE_INT:
@@ -2058,8 +2058,8 @@ extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$4 *a
       }
       case TYPE_WIDE_CHAR:
       {
-        return_value_gcc_builtin_va_arg$5=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$5));
-        ap->a.a_wide_char = return_value_gcc_builtin_va_arg$5;
+        return_value_gcc_builtin_va_arg_5=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_5));
+        ap->a.a_wide_char = return_value_gcc_builtin_va_arg_5;
         break;
       }
       case TYPE_STRING:
@@ -2119,7 +2119,7 @@ extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$4 *a
 
 // printf_parse
 // file printf-parse.c line 83
-extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct anonymous$4 *a)
+extern signed int printf_parse(const char *format, struct anonymous_3 *d, struct anonymous_4 *a)
 {
   const char *cp = format;
   unsigned long int arg_posn = (unsigned long int)0;
@@ -2133,45 +2133,45 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
   a->count = (unsigned long int)0;
   a_allocated = (unsigned long int)7;
   a->arg = a->direct_alloc_arg;
-  const char *tmp_post$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  unsigned long int tmp_post$6;
-  void *tmp_if_expr$9;
-  void *return_value_realloc$7;
-  void *return_value_malloc$8;
-  unsigned long int tmp_post$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  unsigned long int tmp_post$14;
-  void *tmp_if_expr$17;
-  void *return_value_realloc$15;
-  void *return_value_malloc$16;
-  unsigned long int tmp_post$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
-  const char *tmp_post$21;
-  unsigned long int tmp_post$22;
-  void *tmp_if_expr$25;
-  void *return_value_realloc$23;
-  void *return_value_malloc$24;
-  unsigned long int tmp_post$26;
-  void *tmp_if_expr$29;
-  void *return_value_realloc$27;
-  void *return_value_malloc$28;
+  const char *tmp_post_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  unsigned long int tmp_post_6;
+  void *tmp_if_expr_9;
+  void *return_value_realloc_7;
+  void *return_value_malloc_8;
+  unsigned long int tmp_post_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  unsigned long int tmp_post_14;
+  void *tmp_if_expr_17;
+  void *return_value_realloc_15;
+  void *return_value_malloc_16;
+  unsigned long int tmp_post_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
+  const char *tmp_post_21;
+  unsigned long int tmp_post_22;
+  void *tmp_if_expr_25;
+  void *return_value_realloc_23;
+  void *return_value_malloc_24;
+  unsigned long int tmp_post_26;
+  void *tmp_if_expr_29;
+  void *return_value_realloc_27;
+  void *return_value_malloc_28;
   while(!((signed int)*cp == 0))
   {
     char c;
-    tmp_post$1 = cp;
+    tmp_post_1 = cp;
     cp = cp + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if((signed int)c == 37)
     {
       unsigned long int arg_index = ~((unsigned long int)0);
-      struct anonymous$8 *dp = &d->dir[(signed long int)d->count];
+      struct anonymous_8 *dp = &d->dir[(signed long int)d->count];
       dp->dir_start = cp - (signed long int)1;
       dp->flags = 0;
       dp->width_start = (const char *)(void *)0;
@@ -2185,46 +2185,46 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
       {
         if(!((signed int)*cp >= 58))
         {
-          const char *printf_parse$$1$$1$$1$$1$$np = cp;
+          const char *printf_parse__1__1__1__1__np = cp;
           do
           {
-            if((signed int)*printf_parse$$1$$1$$1$$1$$np >= 48)
-              tmp_if_expr$2 = (signed int)*printf_parse$$1$$1$$1$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+            if((signed int)*printf_parse__1__1__1__1__np >= 48)
+              tmp_if_expr_2 = (signed int)*printf_parse__1__1__1__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(!tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(!tmp_if_expr_2)
               break;
 
-            printf_parse$$1$$1$$1$$1$$np = printf_parse$$1$$1$$1$$1$$np + 1l;
+            printf_parse__1__1__1__1__np = printf_parse__1__1__1__1__np + 1l;
           }
           while((_Bool)1);
-          if((signed int)*printf_parse$$1$$1$$1$$1$$np == 36)
+          if((signed int)*printf_parse__1__1__1__1__np == 36)
           {
-            unsigned long int printf_parse$$1$$1$$1$$1$$2$$n = (unsigned long int)0;
-            printf_parse$$1$$1$$1$$1$$np = cp;
+            unsigned long int printf_parse__1__1__1__1__2__n = (unsigned long int)0;
+            printf_parse__1__1__1__1__np = cp;
             do
             {
-              if((signed int)*printf_parse$$1$$1$$1$$1$$np >= 48)
-                tmp_if_expr$3 = (signed int)*printf_parse$$1$$1$$1$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+              if((signed int)*printf_parse__1__1__1__1__np >= 48)
+                tmp_if_expr_3 = (signed int)*printf_parse__1__1__1__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              if(!tmp_if_expr$3)
+                tmp_if_expr_3 = (_Bool)0;
+              if(!tmp_if_expr_3)
                 break;
 
-              printf_parse$$1$$1$$1$$1$$2$$n=xsum(printf_parse$$1$$1$$1$$1$$2$$n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse$$1$$1$$1$$1$$2$$n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse$$1$$1$$1$$1$$np - 48));
-              printf_parse$$1$$1$$1$$1$$np = printf_parse$$1$$1$$1$$1$$np + 1l;
+              printf_parse__1__1__1__1__2__n=xsum(printf_parse__1__1__1__1__2__n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse__1__1__1__1__2__n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse__1__1__1__1__np - 48));
+              printf_parse__1__1__1__1__np = printf_parse__1__1__1__1__np + 1l;
             }
             while((_Bool)1);
-            if(printf_parse$$1$$1$$1$$1$$2$$n == 0ul)
+            if(printf_parse__1__1__1__1__2__n == 0ul)
               goto error;
 
-            if(printf_parse$$1$$1$$1$$1$$2$$n == 18446744073709551615UL)
+            if(printf_parse__1__1__1__1__2__n == 18446744073709551615UL)
               goto error;
 
-            arg_index = printf_parse$$1$$1$$1$$1$$2$$n - (unsigned long int)1;
-            cp = printf_parse$$1$$1$$1$$1$$np + (signed long int)1;
+            arg_index = printf_parse__1__1__1__1__2__n - (unsigned long int)1;
+            cp = printf_parse__1__1__1__1__np + (signed long int)1;
           }
 
         }
@@ -2297,46 +2297,46 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
         {
           if(!((signed int)*cp >= 58))
           {
-            const char *printf_parse$$1$$1$$1$$3$$1$$np = cp;
+            const char *printf_parse__1__1__1__3__1__np = cp;
             do
             {
-              if((signed int)*printf_parse$$1$$1$$1$$3$$1$$np >= 48)
-                tmp_if_expr$4 = (signed int)*printf_parse$$1$$1$$1$$3$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+              if((signed int)*printf_parse__1__1__1__3__1__np >= 48)
+                tmp_if_expr_4 = (signed int)*printf_parse__1__1__1__3__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$4 = (_Bool)0;
-              if(!tmp_if_expr$4)
+                tmp_if_expr_4 = (_Bool)0;
+              if(!tmp_if_expr_4)
                 break;
 
-              printf_parse$$1$$1$$1$$3$$1$$np = printf_parse$$1$$1$$1$$3$$1$$np + 1l;
+              printf_parse__1__1__1__3__1__np = printf_parse__1__1__1__3__1__np + 1l;
             }
             while((_Bool)1);
-            if((signed int)*printf_parse$$1$$1$$1$$3$$1$$np == 36)
+            if((signed int)*printf_parse__1__1__1__3__1__np == 36)
             {
-              unsigned long int printf_parse$$1$$1$$1$$3$$1$$2$$n = (unsigned long int)0;
-              printf_parse$$1$$1$$1$$3$$1$$np = cp;
+              unsigned long int printf_parse__1__1__1__3__1__2__n = (unsigned long int)0;
+              printf_parse__1__1__1__3__1__np = cp;
               do
               {
-                if((signed int)*printf_parse$$1$$1$$1$$3$$1$$np >= 48)
-                  tmp_if_expr$5 = (signed int)*printf_parse$$1$$1$$1$$3$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+                if((signed int)*printf_parse__1__1__1__3__1__np >= 48)
+                  tmp_if_expr_5 = (signed int)*printf_parse__1__1__1__3__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
-                if(!tmp_if_expr$5)
+                  tmp_if_expr_5 = (_Bool)0;
+                if(!tmp_if_expr_5)
                   break;
 
-                printf_parse$$1$$1$$1$$3$$1$$2$$n=xsum(printf_parse$$1$$1$$1$$3$$1$$2$$n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse$$1$$1$$1$$3$$1$$2$$n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse$$1$$1$$1$$3$$1$$np - 48));
-                printf_parse$$1$$1$$1$$3$$1$$np = printf_parse$$1$$1$$1$$3$$1$$np + 1l;
+                printf_parse__1__1__1__3__1__2__n=xsum(printf_parse__1__1__1__3__1__2__n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse__1__1__1__3__1__2__n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse__1__1__1__3__1__np - 48));
+                printf_parse__1__1__1__3__1__np = printf_parse__1__1__1__3__1__np + 1l;
               }
               while((_Bool)1);
-              if(printf_parse$$1$$1$$1$$3$$1$$2$$n == 0ul)
+              if(printf_parse__1__1__1__3__1__2__n == 0ul)
                 goto error;
 
-              if(printf_parse$$1$$1$$1$$3$$1$$2$$n == 18446744073709551615UL)
+              if(printf_parse__1__1__1__3__1__2__n == 18446744073709551615UL)
                 goto error;
 
-              dp->width_arg_index = printf_parse$$1$$1$$1$$3$$1$$2$$n - (unsigned long int)1;
-              cp = printf_parse$$1$$1$$1$$3$$1$$np + (signed long int)1;
+              dp->width_arg_index = printf_parse__1__1__1__3__1__2__n - (unsigned long int)1;
+              cp = printf_parse__1__1__1__3__1__np + (signed long int)1;
             }
 
           }
@@ -2345,58 +2345,58 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
 
         if(dp->width_arg_index == 18446744073709551615ul)
         {
-          tmp_post$6 = arg_posn;
+          tmp_post_6 = arg_posn;
           arg_posn = arg_posn + 1ul;
-          dp->width_arg_index = tmp_post$6;
+          dp->width_arg_index = tmp_post_6;
           if(dp->width_arg_index == 18446744073709551615ul)
             goto error;
 
         }
 
-        unsigned long int printf_parse$$1$$1$$1$$3$$3$$n = dp->width_arg_index;
-        if(printf_parse$$1$$1$$1$$3$$3$$n >= a_allocated)
+        unsigned long int printf_parse__1__1__1__3__3__n = dp->width_arg_index;
+        if(printf_parse__1__1__1__3__3__n >= a_allocated)
         {
-          unsigned long int printf_parse$$1$$1$$1$$3$$3$$1$$memory_size;
-          struct anonymous$1 *printf_parse$$1$$1$$1$$3$$3$$1$$memory;
+          unsigned long int printf_parse__1__1__1__3__3__1__memory_size;
+          struct anonymous_1 *printf_parse__1__1__1__3__3__1__memory;
           a_allocated = a_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)a_allocated * (unsigned long int)2 : 18446744073709551615UL;
-          if(printf_parse$$1$$1$$1$$3$$3$$n >= a_allocated)
-            a_allocated=xsum(printf_parse$$1$$1$$1$$3$$3$$n, (unsigned long int)1);
+          if(printf_parse__1__1__1__3__3__n >= a_allocated)
+            a_allocated=xsum(printf_parse__1__1__1__3__3__n, (unsigned long int)1);
 
-          printf_parse$$1$$1$$1$$3$$3$$1$$memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous$1) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous$1) /*32ul*/  : 18446744073709551615UL;
-          if(printf_parse$$1$$1$$1$$3$$3$$1$$memory_size == 18446744073709551615UL)
+          printf_parse__1__1__1__3__3__1__memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous_1) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous_1) /*32ul*/  : 18446744073709551615UL;
+          if(printf_parse__1__1__1__3__3__1__memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(!(a->arg == a->direct_alloc_arg))
           {
-            return_value_realloc$7=realloc((void *)a->arg, printf_parse$$1$$1$$1$$3$$3$$1$$memory_size);
-            tmp_if_expr$9 = return_value_realloc$7;
+            return_value_realloc_7=realloc((void *)a->arg, printf_parse__1__1__1__3__3__1__memory_size);
+            tmp_if_expr_9 = return_value_realloc_7;
           }
 
           else
           {
-            return_value_malloc$8=malloc(printf_parse$$1$$1$$1$$3$$3$$1$$memory_size);
-            tmp_if_expr$9 = return_value_malloc$8;
+            return_value_malloc_8=malloc(printf_parse__1__1__1__3__3__1__memory_size);
+            tmp_if_expr_9 = return_value_malloc_8;
           }
-          printf_parse$$1$$1$$1$$3$$3$$1$$memory = (struct anonymous$1 *)tmp_if_expr$9;
-          if(printf_parse$$1$$1$$1$$3$$3$$1$$memory == ((struct anonymous$1 *)NULL))
+          printf_parse__1__1__1__3__3__1__memory = (struct anonymous_1 *)tmp_if_expr_9;
+          if(printf_parse__1__1__1__3__3__1__memory == ((struct anonymous_1 *)NULL))
             goto out_of_memory;
 
           if(a->arg == a->direct_alloc_arg)
-            memcpy((void *)printf_parse$$1$$1$$1$$3$$3$$1$$memory, (const void *)a->arg, a->count * sizeof(struct anonymous$1) /*32ul*/ );
+            memcpy((void *)printf_parse__1__1__1__3__3__1__memory, (const void *)a->arg, a->count * sizeof(struct anonymous_1) /*32ul*/ );
 
-          a->arg = printf_parse$$1$$1$$1$$3$$3$$1$$memory;
+          a->arg = printf_parse__1__1__1__3__3__1__memory;
         }
 
-        for( ; printf_parse$$1$$1$$1$$3$$3$$n >= a->count; (a->arg + (signed long int)tmp_post$10)->type = (enum anonymous$5)TYPE_NONE)
+        for( ; printf_parse__1__1__1__3__3__n >= a->count; (a->arg + (signed long int)tmp_post_10)->type = (enum anonymous_5)TYPE_NONE)
         {
-          tmp_post$10 = a->count;
+          tmp_post_10 = a->count;
           a->count = a->count + 1ul;
         }
-        if((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$3$$3$$n)->type == TYPE_NONE)
-          (a->arg + (signed long int)printf_parse$$1$$1$$1$$3$$3$$n)->type = (enum anonymous$5)TYPE_INT;
+        if((signed int)(a->arg + (signed long int)printf_parse__1__1__1__3__3__n)->type == TYPE_NONE)
+          (a->arg + (signed long int)printf_parse__1__1__1__3__3__n)->type = (enum anonymous_5)TYPE_INT;
 
         else
-          if(!((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$3$$3$$n)->type == TYPE_INT))
+          if(!((signed int)(a->arg + (signed long int)printf_parse__1__1__1__3__3__n)->type == TYPE_INT))
             goto error;
 
       }
@@ -2411,11 +2411,11 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
             do
             {
               if((signed int)*cp >= 48)
-                tmp_if_expr$11 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_11 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$11 = (_Bool)0;
-              if(!tmp_if_expr$11)
+                tmp_if_expr_11 = (_Bool)0;
+              if(!tmp_if_expr_11)
                 break;
 
               cp = cp + 1l;
@@ -2449,11 +2449,11 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
               do
               {
                 if((signed int)*np >= 48)
-                  tmp_if_expr$12 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_12 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$12 = (_Bool)0;
-                if(!tmp_if_expr$12)
+                  tmp_if_expr_12 = (_Bool)0;
+                if(!tmp_if_expr_12)
                   break;
 
                 np = np + 1l;
@@ -2466,11 +2466,11 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
                 do
                 {
                   if((signed int)*np >= 48)
-                    tmp_if_expr$13 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_13 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$13 = (_Bool)0;
-                  if(!tmp_if_expr$13)
+                    tmp_if_expr_13 = (_Bool)0;
+                  if(!tmp_if_expr_13)
                     break;
 
                   n=xsum(n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*np - 48));
@@ -2493,58 +2493,58 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
 
           if(dp->precision_arg_index == 18446744073709551615ul)
           {
-            tmp_post$14 = arg_posn;
+            tmp_post_14 = arg_posn;
             arg_posn = arg_posn + 1ul;
-            dp->precision_arg_index = tmp_post$14;
+            dp->precision_arg_index = tmp_post_14;
             if(dp->precision_arg_index == 18446744073709551615ul)
               goto error;
 
           }
 
-          unsigned long int printf_parse$$1$$1$$1$$5$$1$$3$$n = dp->precision_arg_index;
-          if(printf_parse$$1$$1$$1$$5$$1$$3$$n >= a_allocated)
+          unsigned long int printf_parse__1__1__1__5__1__3__n = dp->precision_arg_index;
+          if(printf_parse__1__1__1__5__1__3__n >= a_allocated)
           {
             unsigned long int memory_size;
-            struct anonymous$1 *memory;
+            struct anonymous_1 *memory;
             a_allocated = a_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)a_allocated * (unsigned long int)2 : 18446744073709551615UL;
-            if(printf_parse$$1$$1$$1$$5$$1$$3$$n >= a_allocated)
-              a_allocated=xsum(printf_parse$$1$$1$$1$$5$$1$$3$$n, (unsigned long int)1);
+            if(printf_parse__1__1__1__5__1__3__n >= a_allocated)
+              a_allocated=xsum(printf_parse__1__1__1__5__1__3__n, (unsigned long int)1);
 
-            memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous$1) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous$1) /*32ul*/  : 18446744073709551615UL;
+            memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous_1) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous_1) /*32ul*/  : 18446744073709551615UL;
             if(memory_size == 18446744073709551615UL)
               goto out_of_memory;
 
             if(!(a->arg == a->direct_alloc_arg))
             {
-              return_value_realloc$15=realloc((void *)a->arg, memory_size);
-              tmp_if_expr$17 = return_value_realloc$15;
+              return_value_realloc_15=realloc((void *)a->arg, memory_size);
+              tmp_if_expr_17 = return_value_realloc_15;
             }
 
             else
             {
-              return_value_malloc$16=malloc(memory_size);
-              tmp_if_expr$17 = return_value_malloc$16;
+              return_value_malloc_16=malloc(memory_size);
+              tmp_if_expr_17 = return_value_malloc_16;
             }
-            memory = (struct anonymous$1 *)tmp_if_expr$17;
-            if(memory == ((struct anonymous$1 *)NULL))
+            memory = (struct anonymous_1 *)tmp_if_expr_17;
+            if(memory == ((struct anonymous_1 *)NULL))
               goto out_of_memory;
 
             if(a->arg == a->direct_alloc_arg)
-              memcpy((void *)memory, (const void *)a->arg, a->count * sizeof(struct anonymous$1) /*32ul*/ );
+              memcpy((void *)memory, (const void *)a->arg, a->count * sizeof(struct anonymous_1) /*32ul*/ );
 
             a->arg = memory;
           }
 
-          for( ; printf_parse$$1$$1$$1$$5$$1$$3$$n >= a->count; (a->arg + (signed long int)tmp_post$18)->type = (enum anonymous$5)TYPE_NONE)
+          for( ; printf_parse__1__1__1__5__1__3__n >= a->count; (a->arg + (signed long int)tmp_post_18)->type = (enum anonymous_5)TYPE_NONE)
           {
-            tmp_post$18 = a->count;
+            tmp_post_18 = a->count;
             a->count = a->count + 1ul;
           }
-          if((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$5$$1$$3$$n)->type == TYPE_NONE)
-            (a->arg + (signed long int)printf_parse$$1$$1$$1$$5$$1$$3$$n)->type = (enum anonymous$5)TYPE_INT;
+          if((signed int)(a->arg + (signed long int)printf_parse__1__1__1__5__1__3__n)->type == TYPE_NONE)
+            (a->arg + (signed long int)printf_parse__1__1__1__5__1__3__n)->type = (enum anonymous_5)TYPE_INT;
 
           else
-            if(!((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$5$$1$$3$$n)->type == TYPE_INT))
+            if(!((signed int)(a->arg + (signed long int)printf_parse__1__1__1__5__1__3__n)->type == TYPE_INT))
               goto error;
 
         }
@@ -2556,11 +2556,11 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
           do
           {
             if((signed int)*cp >= 48)
-              tmp_if_expr$19 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_19 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$19 = (_Bool)0;
-            if(!tmp_if_expr$19)
+              tmp_if_expr_19 = (_Bool)0;
+            if(!tmp_if_expr_19)
               break;
 
             cp = cp + 1l;
@@ -2574,7 +2574,7 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
         }
       }
 
-      enum anonymous$5 type;
+      enum anonymous_5 type;
       signed int flags = 0;
       while((_Bool)1)
         if((signed int)*cp == 104)
@@ -2607,11 +2607,11 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
               else
               {
                 if((signed int)*cp == 122)
-                  tmp_if_expr$20 = (_Bool)1;
+                  tmp_if_expr_20 = (_Bool)1;
 
                 else
-                  tmp_if_expr$20 = (signed int)*cp == 90 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$20)
+                  tmp_if_expr_20 = (signed int)*cp == 90 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_20)
                 {
                   flags = flags + 8;
                   cp = cp + 1l;
@@ -2630,9 +2630,9 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
 
     __CPROVER_DUMP_L91:
       ;
-      tmp_post$21 = cp;
+      tmp_post_21 = cp;
       cp = cp + 1l;
-      c = *tmp_post$21;
+      c = *tmp_post_21;
       switch((signed int)c)
       {
         case 100:
@@ -2640,22 +2640,22 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
         case 105:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$5)TYPE_LONGLONGINT;
+            type = (enum anonymous_5)TYPE_LONGLONGINT;
 
           else
             if(flags >= 8)
-              type = (enum anonymous$5)TYPE_LONGINT;
+              type = (enum anonymous_5)TYPE_LONGINT;
 
             else
               if(!((2 & flags) == 0))
-                type = (enum anonymous$5)TYPE_SCHAR;
+                type = (enum anonymous_5)TYPE_SCHAR;
 
               else
                 if(!((1 & flags) == 0))
-                  type = (enum anonymous$5)TYPE_SHORT;
+                  type = (enum anonymous_5)TYPE_SHORT;
 
                 else
-                  type = (enum anonymous$5)TYPE_INT;
+                  type = (enum anonymous_5)TYPE_INT;
           break;
         }
         case 111:
@@ -2667,22 +2667,22 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
         case 88:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$5)TYPE_ULONGLONGINT;
+            type = (enum anonymous_5)TYPE_ULONGLONGINT;
 
           else
             if(flags >= 8)
-              type = (enum anonymous$5)TYPE_ULONGINT;
+              type = (enum anonymous_5)TYPE_ULONGINT;
 
             else
               if(!((2 & flags) == 0))
-                type = (enum anonymous$5)TYPE_UCHAR;
+                type = (enum anonymous_5)TYPE_UCHAR;
 
               else
                 if(!((1 & flags) == 0))
-                  type = (enum anonymous$5)TYPE_USHORT;
+                  type = (enum anonymous_5)TYPE_USHORT;
 
                 else
-                  type = (enum anonymous$5)TYPE_UINT;
+                  type = (enum anonymous_5)TYPE_UINT;
           break;
         }
         case 102:
@@ -2702,71 +2702,71 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
         case 65:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$5)TYPE_LONGDOUBLE;
+            type = (enum anonymous_5)TYPE_LONGDOUBLE;
 
           else
-            type = (enum anonymous$5)TYPE_DOUBLE;
+            type = (enum anonymous_5)TYPE_DOUBLE;
           break;
         }
         case 99:
         {
           if(flags >= 8)
-            type = (enum anonymous$5)TYPE_WIDE_CHAR;
+            type = (enum anonymous_5)TYPE_WIDE_CHAR;
 
           else
-            type = (enum anonymous$5)TYPE_CHAR;
+            type = (enum anonymous_5)TYPE_CHAR;
           break;
         }
         case 67:
         {
-          type = (enum anonymous$5)TYPE_WIDE_CHAR;
+          type = (enum anonymous_5)TYPE_WIDE_CHAR;
           c = (char)99;
           break;
         }
         case 115:
         {
           if(flags >= 8)
-            type = (enum anonymous$5)TYPE_WIDE_STRING;
+            type = (enum anonymous_5)TYPE_WIDE_STRING;
 
           else
-            type = (enum anonymous$5)TYPE_STRING;
+            type = (enum anonymous_5)TYPE_STRING;
           break;
         }
         case 83:
         {
-          type = (enum anonymous$5)TYPE_WIDE_STRING;
+          type = (enum anonymous_5)TYPE_WIDE_STRING;
           c = (char)115;
           break;
         }
         case 112:
         {
-          type = (enum anonymous$5)TYPE_POINTER;
+          type = (enum anonymous_5)TYPE_POINTER;
           break;
         }
         case 110:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$5)TYPE_COUNT_LONGLONGINT_POINTER;
+            type = (enum anonymous_5)TYPE_COUNT_LONGLONGINT_POINTER;
 
           else
             if(flags >= 8)
-              type = (enum anonymous$5)TYPE_COUNT_LONGINT_POINTER;
+              type = (enum anonymous_5)TYPE_COUNT_LONGINT_POINTER;
 
             else
               if(!((2 & flags) == 0))
-                type = (enum anonymous$5)TYPE_COUNT_SCHAR_POINTER;
+                type = (enum anonymous_5)TYPE_COUNT_SCHAR_POINTER;
 
               else
                 if(!((1 & flags) == 0))
-                  type = (enum anonymous$5)TYPE_COUNT_SHORT_POINTER;
+                  type = (enum anonymous_5)TYPE_COUNT_SHORT_POINTER;
 
                 else
-                  type = (enum anonymous$5)TYPE_COUNT_INT_POINTER;
+                  type = (enum anonymous_5)TYPE_COUNT_INT_POINTER;
           break;
         }
         case 37:
         {
-          type = (enum anonymous$5)TYPE_NONE;
+          type = (enum anonymous_5)TYPE_NONE;
           break;
         }
         default:
@@ -2777,58 +2777,58 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
         dp->arg_index = arg_index;
         if(dp->arg_index == 18446744073709551615ul)
         {
-          tmp_post$22 = arg_posn;
+          tmp_post_22 = arg_posn;
           arg_posn = arg_posn + 1ul;
-          dp->arg_index = tmp_post$22;
+          dp->arg_index = tmp_post_22;
           if(dp->arg_index == 18446744073709551615ul)
             goto error;
 
         }
 
-        unsigned long int printf_parse$$1$$1$$1$$6$$2$$2$$n = dp->arg_index;
-        if(printf_parse$$1$$1$$1$$6$$2$$2$$n >= a_allocated)
+        unsigned long int printf_parse__1__1__1__6__2__2__n = dp->arg_index;
+        if(printf_parse__1__1__1__6__2__2__n >= a_allocated)
         {
-          unsigned long int printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size;
-          struct anonymous$1 *printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory;
+          unsigned long int printf_parse__1__1__1__6__2__2__1__memory_size;
+          struct anonymous_1 *printf_parse__1__1__1__6__2__2__1__memory;
           a_allocated = a_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)a_allocated * (unsigned long int)2 : 18446744073709551615UL;
-          if(printf_parse$$1$$1$$1$$6$$2$$2$$n >= a_allocated)
-            a_allocated=xsum(printf_parse$$1$$1$$1$$6$$2$$2$$n, (unsigned long int)1);
+          if(printf_parse__1__1__1__6__2__2__n >= a_allocated)
+            a_allocated=xsum(printf_parse__1__1__1__6__2__2__n, (unsigned long int)1);
 
-          printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous$1) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous$1) /*32ul*/  : 18446744073709551615UL;
-          if(printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size == 18446744073709551615UL)
+          printf_parse__1__1__1__6__2__2__1__memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous_1) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous_1) /*32ul*/  : 18446744073709551615UL;
+          if(printf_parse__1__1__1__6__2__2__1__memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(!(a->arg == a->direct_alloc_arg))
           {
-            return_value_realloc$23=realloc((void *)a->arg, printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size);
-            tmp_if_expr$25 = return_value_realloc$23;
+            return_value_realloc_23=realloc((void *)a->arg, printf_parse__1__1__1__6__2__2__1__memory_size);
+            tmp_if_expr_25 = return_value_realloc_23;
           }
 
           else
           {
-            return_value_malloc$24=malloc(printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size);
-            tmp_if_expr$25 = return_value_malloc$24;
+            return_value_malloc_24=malloc(printf_parse__1__1__1__6__2__2__1__memory_size);
+            tmp_if_expr_25 = return_value_malloc_24;
           }
-          printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory = (struct anonymous$1 *)tmp_if_expr$25;
-          if(printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory == ((struct anonymous$1 *)NULL))
+          printf_parse__1__1__1__6__2__2__1__memory = (struct anonymous_1 *)tmp_if_expr_25;
+          if(printf_parse__1__1__1__6__2__2__1__memory == ((struct anonymous_1 *)NULL))
             goto out_of_memory;
 
           if(a->arg == a->direct_alloc_arg)
-            memcpy((void *)printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory, (const void *)a->arg, a->count * sizeof(struct anonymous$1) /*32ul*/ );
+            memcpy((void *)printf_parse__1__1__1__6__2__2__1__memory, (const void *)a->arg, a->count * sizeof(struct anonymous_1) /*32ul*/ );
 
-          a->arg = printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory;
+          a->arg = printf_parse__1__1__1__6__2__2__1__memory;
         }
 
-        for( ; printf_parse$$1$$1$$1$$6$$2$$2$$n >= a->count; (a->arg + (signed long int)tmp_post$26)->type = (enum anonymous$5)TYPE_NONE)
+        for( ; printf_parse__1__1__1__6__2__2__n >= a->count; (a->arg + (signed long int)tmp_post_26)->type = (enum anonymous_5)TYPE_NONE)
         {
-          tmp_post$26 = a->count;
+          tmp_post_26 = a->count;
           a->count = a->count + 1ul;
         }
-        if((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$6$$2$$2$$n)->type == TYPE_NONE)
-          (a->arg + (signed long int)printf_parse$$1$$1$$1$$6$$2$$2$$n)->type = type;
+        if((signed int)(a->arg + (signed long int)printf_parse__1__1__1__6__2__2__n)->type == TYPE_NONE)
+          (a->arg + (signed long int)printf_parse__1__1__1__6__2__2__n)->type = type;
 
         else
-          if(!((a->arg + (signed long int)printf_parse$$1$$1$$1$$6$$2$$2$$n)->type == type))
+          if(!((a->arg + (signed long int)printf_parse__1__1__1__6__2__2__n)->type == type))
             goto error;
 
       }
@@ -2838,32 +2838,32 @@ extern signed int printf_parse(const char *format, struct anonymous$3 *d, struct
       d->count = d->count + 1ul;
       if(d->count >= d_allocated)
       {
-        unsigned long int printf_parse$$1$$1$$1$$7$$memory_size;
-        struct anonymous$8 *printf_parse$$1$$1$$1$$7$$memory;
+        unsigned long int printf_parse__1__1__1__7__memory_size;
+        struct anonymous_8 *printf_parse__1__1__1__7__memory;
         d_allocated = d_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)d_allocated * (unsigned long int)2 : 18446744073709551615UL;
-        printf_parse$$1$$1$$1$$7$$memory_size = d_allocated <= 18446744073709551615UL / sizeof(struct anonymous$8) /*88ul*/  ? (unsigned long int)d_allocated * sizeof(struct anonymous$8) /*88ul*/  : 18446744073709551615UL;
-        if(printf_parse$$1$$1$$1$$7$$memory_size == 18446744073709551615UL)
+        printf_parse__1__1__1__7__memory_size = d_allocated <= 18446744073709551615UL / sizeof(struct anonymous_8) /*88ul*/  ? (unsigned long int)d_allocated * sizeof(struct anonymous_8) /*88ul*/  : 18446744073709551615UL;
+        if(printf_parse__1__1__1__7__memory_size == 18446744073709551615UL)
           goto out_of_memory;
 
         if(!(d->dir == d->direct_alloc_dir))
         {
-          return_value_realloc$27=realloc((void *)d->dir, printf_parse$$1$$1$$1$$7$$memory_size);
-          tmp_if_expr$29 = return_value_realloc$27;
+          return_value_realloc_27=realloc((void *)d->dir, printf_parse__1__1__1__7__memory_size);
+          tmp_if_expr_29 = return_value_realloc_27;
         }
 
         else
         {
-          return_value_malloc$28=malloc(printf_parse$$1$$1$$1$$7$$memory_size);
-          tmp_if_expr$29 = return_value_malloc$28;
+          return_value_malloc_28=malloc(printf_parse__1__1__1__7__memory_size);
+          tmp_if_expr_29 = return_value_malloc_28;
         }
-        printf_parse$$1$$1$$1$$7$$memory = (struct anonymous$8 *)tmp_if_expr$29;
-        if(printf_parse$$1$$1$$1$$7$$memory == ((struct anonymous$8 *)NULL))
+        printf_parse__1__1__1__7__memory = (struct anonymous_8 *)tmp_if_expr_29;
+        if(printf_parse__1__1__1__7__memory == ((struct anonymous_8 *)NULL))
           goto out_of_memory;
 
         if(d->dir == d->direct_alloc_dir)
-          memcpy((void *)printf_parse$$1$$1$$1$$7$$memory, (const void *)d->dir, d->count * sizeof(struct anonymous$8) /*88ul*/ );
+          memcpy((void *)printf_parse__1__1__1__7__memory, (const void *)d->dir, d->count * sizeof(struct anonymous_8) /*88ul*/ );
 
-        d->dir = printf_parse$$1$$1$$1$$7$$memory;
+        d->dir = printf_parse__1__1__1__7__memory;
       }
 
     }
@@ -2882,9 +2882,9 @@ error:
   if(!(d->dir == d->direct_alloc_dir))
     free((void *)d->dir);
 
-  signed int *return_value___errno_location$30;
-  return_value___errno_location$30=__errno_location();
-  *return_value___errno_location$30 = 22;
+  signed int *return_value___errno_location_30;
+  return_value___errno_location_30=__errno_location();
+  *return_value___errno_location_30 = 22;
   return -1;
 
 out_of_memory:
@@ -2895,9 +2895,9 @@ out_of_memory:
   if(!(d->dir == d->direct_alloc_dir))
     free((void *)d->dir);
 
-  signed int *return_value___errno_location$31;
-  return_value___errno_location$31=__errno_location();
-  *return_value___errno_location$31 = 12;
+  signed int *return_value___errno_location_31;
+  return_value___errno_location_31=__errno_location();
+  *return_value___errno_location_31 = 12;
   return -1;
 }
 
@@ -2905,24 +2905,24 @@ out_of_memory:
 // file test-lock.c line 111
 static signed int random_account(void)
 {
-  signed int return_value_rand$1;
-  return_value_rand$1=rand();
-  return (signed int)(((unsigned int)return_value_rand$1 >> 3) % (unsigned int)4);
+  signed int return_value_rand_1;
+  return_value_rand_1=rand();
+  return (signed int)(((unsigned int)return_value_rand_1 >> 3) % (unsigned int)4);
 }
 
 // reclock_checker_thread
 // file test-lock.c line 362
 static void * reclock_checker_thread(void *arg)
 {
-  unsigned long int return_value_pthread_self$1;
-  unsigned long int return_value_pthread_self$4;
+  unsigned long int return_value_pthread_self_1;
+  unsigned long int return_value_pthread_self_4;
   while(reclock_checker_done == 0)
   {
     do
     {
-      signed int return_value_pthread_mutex_lock$2;
-      return_value_pthread_mutex_lock$2=pthread_mutex_lock(&my_reclock);
-      if(!(return_value_pthread_mutex_lock$2 == 0))
+      signed int return_value_pthread_mutex_lock_2;
+      return_value_pthread_mutex_lock_2=pthread_mutex_lock(&my_reclock);
+      if(!(return_value_pthread_mutex_lock_2 == 0))
         abort();
 
     }
@@ -2930,16 +2930,16 @@ static void * reclock_checker_thread(void *arg)
     check_accounts();
     do
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&my_reclock);
-      if(!(return_value_pthread_mutex_unlock$3 == 0))
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&my_reclock);
+      if(!(return_value_pthread_mutex_unlock_3 == 0))
         abort();
 
     }
     while((_Bool)0);
     sched_yield();
   }
-  unsigned long int return_value_pthread_self$5;
+  unsigned long int return_value_pthread_self_5;
   return (void *)0;
 }
 
@@ -2948,16 +2948,16 @@ static void * reclock_checker_thread(void *arg)
 static void * reclock_mutator_thread(void *arg)
 {
   signed int repeat = 50000;
-  unsigned long int return_value_pthread_self$1;
-  unsigned long int return_value_pthread_self$4;
+  unsigned long int return_value_pthread_self_1;
+  unsigned long int return_value_pthread_self_4;
   for( ; repeat >= 1; repeat = repeat - 1)
   {
     recshuffle();
     do
     {
-      signed int return_value_pthread_mutex_lock$2;
-      return_value_pthread_mutex_lock$2=pthread_mutex_lock(&my_reclock);
-      if(!(return_value_pthread_mutex_lock$2 == 0))
+      signed int return_value_pthread_mutex_lock_2;
+      return_value_pthread_mutex_lock_2=pthread_mutex_lock(&my_reclock);
+      if(!(return_value_pthread_mutex_lock_2 == 0))
         abort();
 
     }
@@ -2965,16 +2965,16 @@ static void * reclock_mutator_thread(void *arg)
     check_accounts();
     do
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&my_reclock);
-      if(!(return_value_pthread_mutex_unlock$3 == 0))
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&my_reclock);
+      if(!(return_value_pthread_mutex_unlock_3 == 0))
         abort();
 
     }
     while((_Bool)0);
     sched_yield();
   }
-  unsigned long int return_value_pthread_self$5;
+  unsigned long int return_value_pthread_self_5;
   return (void *)0;
 }
 
@@ -2985,40 +2985,40 @@ static void recshuffle(void)
   signed int i1;
   signed int i2;
   signed int value;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&my_reclock);
-    if(!(return_value_pthread_mutex_lock$2 == 0))
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&my_reclock);
+    if(!(return_value_pthread_mutex_lock_2 == 0))
       abort();
 
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   i1=random_account();
   i2=random_account();
-  signed int return_value_rand$4;
-  return_value_rand$4=rand();
-  value = (signed int)(((unsigned int)return_value_rand$4 >> 3) % (unsigned int)10);
+  signed int return_value_rand_4;
+  return_value_rand_4=rand();
+  value = (signed int)(((unsigned int)return_value_rand_4 >> 3) % (unsigned int)10);
   account[(signed long int)i1] = account[(signed long int)i1] + value;
   account[(signed long int)i2] = account[(signed long int)i2] - value;
-  signed int return_value_rand$5;
-  return_value_rand$5=rand();
-  if(!(((unsigned int)return_value_rand$5 >> 3) % 2u == 0u))
+  signed int return_value_rand_5;
+  return_value_rand_5=rand();
+  if(!(((unsigned int)return_value_rand_5 >> 3) % 2u == 0u))
     recshuffle();
 
-  unsigned long int return_value_pthread_self$6;
+  unsigned long int return_value_pthread_self_6;
   do
   {
-    signed int return_value_pthread_mutex_unlock$7;
-    return_value_pthread_mutex_unlock$7=pthread_mutex_unlock(&my_reclock);
-    if(!(return_value_pthread_mutex_unlock$7 == 0))
+    signed int return_value_pthread_mutex_unlock_7;
+    return_value_pthread_mutex_unlock_7=pthread_mutex_unlock(&my_reclock);
+    if(!(return_value_pthread_mutex_unlock_7 == 0))
       abort();
 
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$8;
+  unsigned long int return_value_pthread_self_8;
 }
 
 // rpl_fgetfilecon
@@ -3027,9 +3027,9 @@ extern signed int rpl_fgetfilecon(signed int fd, char **con)
 {
   signed int ret;
   ret=fgetfilecon(fd, con);
-  signed int return_value_map_to_failure$1;
-  return_value_map_to_failure$1=map_to_failure(ret, con);
-  return return_value_map_to_failure$1;
+  signed int return_value_map_to_failure_1;
+  return_value_map_to_failure_1=map_to_failure(ret, con);
+  return return_value_map_to_failure_1;
 }
 
 // rpl_getfilecon
@@ -3038,9 +3038,9 @@ extern signed int rpl_getfilecon(const char *file, char **con)
 {
   signed int ret;
   ret=getfilecon(file, con);
-  signed int return_value_map_to_failure$1;
-  return_value_map_to_failure$1=map_to_failure(ret, con);
-  return return_value_map_to_failure$1;
+  signed int return_value_map_to_failure_1;
+  return_value_map_to_failure_1=map_to_failure(ret, con);
+  return return_value_map_to_failure_1;
 }
 
 // rpl_lgetfilecon
@@ -3049,24 +3049,24 @@ extern signed int rpl_lgetfilecon(const char *file, char **con)
 {
   signed int ret;
   ret=lgetfilecon(file, con);
-  signed int return_value_map_to_failure$1;
-  return_value_map_to_failure$1=map_to_failure(ret, con);
-  return return_value_map_to_failure$1;
+  signed int return_value_map_to_failure_1;
+  return_value_map_to_failure_1=map_to_failure(ret, con);
+  return return_value_map_to_failure_1;
 }
 
 // rwlock_checker_thread
 // file test-lock.c line 260
 static void * rwlock_checker_thread(void *arg)
 {
-  unsigned long int return_value_pthread_self$1;
-  unsigned long int return_value_pthread_self$4;
+  unsigned long int return_value_pthread_self_1;
+  unsigned long int return_value_pthread_self_4;
   while(rwlock_checker_done == 0)
   {
     do
     {
-      signed int return_value_pthread_rwlock_rdlock$2;
-      return_value_pthread_rwlock_rdlock$2=pthread_rwlock_rdlock(&my_rwlock);
-      if(!(return_value_pthread_rwlock_rdlock$2 == 0))
+      signed int return_value_pthread_rwlock_rdlock_2;
+      return_value_pthread_rwlock_rdlock_2=pthread_rwlock_rdlock(&my_rwlock);
+      if(!(return_value_pthread_rwlock_rdlock_2 == 0))
         abort();
 
     }
@@ -3074,16 +3074,16 @@ static void * rwlock_checker_thread(void *arg)
     check_accounts();
     do
     {
-      signed int return_value_pthread_rwlock_unlock$3;
-      return_value_pthread_rwlock_unlock$3=pthread_rwlock_unlock(&my_rwlock);
-      if(!(return_value_pthread_rwlock_unlock$3 == 0))
+      signed int return_value_pthread_rwlock_unlock_3;
+      return_value_pthread_rwlock_unlock_3=pthread_rwlock_unlock(&my_rwlock);
+      if(!(return_value_pthread_rwlock_unlock_3 == 0))
         abort();
 
     }
     while((_Bool)0);
     sched_yield();
   }
-  unsigned long int return_value_pthread_self$5;
+  unsigned long int return_value_pthread_self_5;
   return (void *)0;
 }
 
@@ -3092,10 +3092,10 @@ static void * rwlock_checker_thread(void *arg)
 static void * rwlock_mutator_thread(void *arg)
 {
   signed int repeat = 50000;
-  unsigned long int return_value_pthread_self$1;
-  unsigned long int return_value_pthread_self$3;
-  unsigned long int return_value_pthread_self$5;
-  unsigned long int return_value_pthread_self$7;
+  unsigned long int return_value_pthread_self_1;
+  unsigned long int return_value_pthread_self_3;
+  unsigned long int return_value_pthread_self_5;
+  unsigned long int return_value_pthread_self_7;
   for( ; repeat >= 1; repeat = repeat - 1)
   {
     signed int i1;
@@ -3103,32 +3103,32 @@ static void * rwlock_mutator_thread(void *arg)
     signed int value;
     do
     {
-      signed int return_value_pthread_rwlock_wrlock$2;
-      return_value_pthread_rwlock_wrlock$2=pthread_rwlock_wrlock(&my_rwlock);
-      if(!(return_value_pthread_rwlock_wrlock$2 == 0))
+      signed int return_value_pthread_rwlock_wrlock_2;
+      return_value_pthread_rwlock_wrlock_2=pthread_rwlock_wrlock(&my_rwlock);
+      if(!(return_value_pthread_rwlock_wrlock_2 == 0))
         abort();
 
     }
     while((_Bool)0);
     i1=random_account();
     i2=random_account();
-    signed int return_value_rand$4;
-    return_value_rand$4=rand();
-    value = (signed int)(((unsigned int)return_value_rand$4 >> 3) % (unsigned int)10);
+    signed int return_value_rand_4;
+    return_value_rand_4=rand();
+    value = (signed int)(((unsigned int)return_value_rand_4 >> 3) % (unsigned int)10);
     account[(signed long int)i1] = account[(signed long int)i1] + value;
     account[(signed long int)i2] = account[(signed long int)i2] - value;
     do
     {
-      signed int return_value_pthread_rwlock_unlock$6;
-      return_value_pthread_rwlock_unlock$6=pthread_rwlock_unlock(&my_rwlock);
-      if(!(return_value_pthread_rwlock_unlock$6 == 0))
+      signed int return_value_pthread_rwlock_unlock_6;
+      return_value_pthread_rwlock_unlock_6=pthread_rwlock_unlock(&my_rwlock);
+      if(!(return_value_pthread_rwlock_unlock_6 == 0))
         abort();
 
     }
     while((_Bool)0);
     sched_yield();
   }
-  unsigned long int return_value_pthread_self$8;
+  unsigned long int return_value_pthread_self_8;
   return (void *)0;
 }
 
@@ -3146,9 +3146,9 @@ signed int safe_alloc_alloc_n(void *ptrptr, unsigned long int size, unsigned lon
   {
     if(!(18446744073709551615ul / size >= count))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 12;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 12;
       return -1;
     }
 
@@ -3181,9 +3181,9 @@ signed int safe_alloc_realloc_n(void *ptrptr, unsigned long int size, unsigned l
   {
     if(!(18446744073709551615ul / size >= count))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 12;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 12;
       return -1;
     }
 
@@ -3210,15 +3210,15 @@ static unsigned long int string_hash(const void *x)
   return h;
 }
 
-// string_hash$link1
+// string_hash_link1
 // file localename.c line 2519
-static unsigned long int string_hash$link1(const void *x$link1)
+static unsigned long int string_hash_link1(const void *x_link1)
 {
-  const char *s$link1 = (const char *)x$link1;
-  unsigned long int h$link1 = (unsigned long int)0;
-  for( ; !(*s$link1 == 0); s$link1 = s$link1 + 1l)
-    h$link1 = (unsigned long int)*s$link1 + (h$link1 << 9 | h$link1 >> sizeof(unsigned long int) /*8ul*/  * (unsigned long int)8 - (unsigned long int)9);
-  return h$link1;
+  const char *s_link1 = (const char *)x_link1;
+  unsigned long int h_link1 = (unsigned long int)0;
+  for( ; !(*s_link1 == 0); s_link1 = s_link1 + 1l)
+    h_link1 = (unsigned long int)*s_link1 + (h_link1 << 9 | h_link1 >> sizeof(unsigned long int) /*8ul*/  * (unsigned long int)8 - (unsigned long int)9);
+  return h_link1;
 }
 
 // strnlen1
@@ -3226,9 +3226,9 @@ static unsigned long int string_hash$link1(const void *x$link1)
 extern unsigned long int strnlen1(const char *string, unsigned long int maxlen)
 {
   const char *end;
-  void *return_value_memchr$1;
-  return_value_memchr$1=memchr((const void *)string, 0, maxlen);
-  end = (const char *)return_value_memchr$1;
+  void *return_value_memchr_1;
+  return_value_memchr_1=memchr((const void *)string, 0, maxlen);
+  end = (const char *)return_value_memchr_1;
   if(!(end == ((const char *)NULL)))
     return (unsigned long int)((end - string) + (signed long int)1);
 
@@ -3246,21 +3246,21 @@ static const char * struniq(const char *string)
   unsigned long int size;
   struct hash_node *new_node;
   struct hash_node *p = struniq_hash_table[(signed long int)slot];
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(p == ((struct hash_node *)NULL)); p = p->next)
   {
-    return_value_strcmp$1=strcmp(p->contents, string);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(p->contents, string);
+    if(return_value_strcmp_1 == 0)
       return p->contents;
 
   }
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(string);
-  size = return_value_strlen$2 + (unsigned long int)1;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(8ul + size);
-  new_node = (struct hash_node *)return_value_malloc$3;
-  signed int return_value_strcmp$5;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(string);
+  size = return_value_strlen_2 + (unsigned long int)1;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(8ul + size);
+  new_node = (struct hash_node *)return_value_malloc_3;
+  signed int return_value_strcmp_5;
   if(new_node == ((struct hash_node *)NULL))
     return "C";
 
@@ -3269,9 +3269,9 @@ static const char * struniq(const char *string)
     memcpy((void *)new_node->contents, (const void *)string, size);
     do
     {
-      signed int return_value_pthread_mutex_lock$4;
-      return_value_pthread_mutex_lock$4=pthread_mutex_lock(&struniq_lock);
-      if(!(return_value_pthread_mutex_lock$4 == 0))
+      signed int return_value_pthread_mutex_lock_4;
+      return_value_pthread_mutex_lock_4=pthread_mutex_lock(&struniq_lock);
+      if(!(return_value_pthread_mutex_lock_4 == 0))
         abort();
 
     }
@@ -3279,8 +3279,8 @@ static const char * struniq(const char *string)
     p = struniq_hash_table[(signed long int)slot];
     for( ; !(p == ((struct hash_node *)NULL)); p = p->next)
     {
-      return_value_strcmp$5=strcmp(p->contents, string);
-      if(return_value_strcmp$5 == 0)
+      return_value_strcmp_5=strcmp(p->contents, string);
+      if(return_value_strcmp_5 == 0)
       {
         free((void *)new_node);
         new_node = p;
@@ -3295,9 +3295,9 @@ static const char * struniq(const char *string)
 
     done:
       ;
-      signed int return_value_pthread_mutex_unlock$6;
-      return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&struniq_lock);
-      if(!(return_value_pthread_mutex_unlock$6 == 0))
+      signed int return_value_pthread_mutex_unlock_6;
+      return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&struniq_lock);
+      if(!(return_value_pthread_mutex_unlock_6 == 0))
         abort();
 
     }
@@ -3306,73 +3306,73 @@ static const char * struniq(const char *string)
   }
 }
 
-// struniq$link1
+// struniq_link1
 // file localename.c line 2551
-static const char * struniq$link1(const char *string$link1)
+static const char * struniq_link1(const char *string_link1)
 {
-  unsigned long int hashcode$link1;
-  hashcode$link1=string_hash$link1((const void *)string$link1);
-  unsigned long int slot$link1 = hashcode$link1 % (unsigned long int)257;
-  unsigned long int size$link1;
-  struct hash_node *new_node$link1;
-  struct hash_node *p$link1 = struniq_hash_table$link1[(signed long int)slot$link1];
-  signed int return_value_strcmp$1$link1;
-  for( ; !(p$link1 == ((struct hash_node *)NULL)); p$link1 = p$link1->next)
+  unsigned long int hashcode_link1;
+  hashcode_link1=string_hash_link1((const void *)string_link1);
+  unsigned long int slot_link1 = hashcode_link1 % (unsigned long int)257;
+  unsigned long int size_link1;
+  struct hash_node *new_node_link1;
+  struct hash_node *p_link1 = struniq_hash_table_link1[(signed long int)slot_link1];
+  signed int return_value_strcmp_1_link1;
+  for( ; !(p_link1 == ((struct hash_node *)NULL)); p_link1 = p_link1->next)
   {
-    return_value_strcmp$1$link1=strcmp(p$link1->contents, string$link1);
-    if(return_value_strcmp$1$link1 == 0)
-      return p$link1->contents;
+    return_value_strcmp_1_link1=strcmp(p_link1->contents, string_link1);
+    if(return_value_strcmp_1_link1 == 0)
+      return p_link1->contents;
 
   }
-  unsigned long int return_value_strlen$2$link1;
-  return_value_strlen$2$link1=strlen(string$link1);
-  size$link1 = return_value_strlen$2$link1 + (unsigned long int)1;
-  void *return_value_malloc$3$link1;
-  return_value_malloc$3$link1=malloc(8ul + size$link1);
-  new_node$link1 = (struct hash_node *)return_value_malloc$3$link1;
-  signed int return_value_strcmp$5$link1;
-  if(new_node$link1 == ((struct hash_node *)NULL))
+  unsigned long int return_value_strlen_2_link1;
+  return_value_strlen_2_link1=strlen(string_link1);
+  size_link1 = return_value_strlen_2_link1 + (unsigned long int)1;
+  void *return_value_malloc_3_link1;
+  return_value_malloc_3_link1=malloc(8ul + size_link1);
+  new_node_link1 = (struct hash_node *)return_value_malloc_3_link1;
+  signed int return_value_strcmp_5_link1;
+  if(new_node_link1 == ((struct hash_node *)NULL))
     return "C";
 
   else
   {
-    memcpy((void *)new_node$link1->contents, (const void *)string$link1, size$link1);
+    memcpy((void *)new_node_link1->contents, (const void *)string_link1, size_link1);
     do
     {
-      signed int return_value_pthread_mutex_lock$4$link1;
-      return_value_pthread_mutex_lock$4$link1=pthread_mutex_lock(&struniq_lock$link1);
-      if(!(return_value_pthread_mutex_lock$4$link1 == 0))
+      signed int return_value_pthread_mutex_lock_4_link1;
+      return_value_pthread_mutex_lock_4_link1=pthread_mutex_lock(&struniq_lock_link1);
+      if(!(return_value_pthread_mutex_lock_4_link1 == 0))
         abort();
 
     }
     while((_Bool)0);
-    p$link1 = struniq_hash_table$link1[(signed long int)slot$link1];
-    for( ; !(p$link1 == ((struct hash_node *)NULL)); p$link1 = p$link1->next)
+    p_link1 = struniq_hash_table_link1[(signed long int)slot_link1];
+    for( ; !(p_link1 == ((struct hash_node *)NULL)); p_link1 = p_link1->next)
     {
-      return_value_strcmp$5$link1=strcmp(p$link1->contents, string$link1);
-      if(return_value_strcmp$5$link1 == 0)
+      return_value_strcmp_5_link1=strcmp(p_link1->contents, string_link1);
+      if(return_value_strcmp_5_link1 == 0)
       {
-        free((void *)new_node$link1);
-        new_node$link1 = p$link1;
+        free((void *)new_node_link1);
+        new_node_link1 = p_link1;
         goto done;
       }
 
     }
-    new_node$link1->next = struniq_hash_table$link1[(signed long int)slot$link1];
-    struniq_hash_table$link1[(signed long int)slot$link1] = new_node$link1;
+    new_node_link1->next = struniq_hash_table_link1[(signed long int)slot_link1];
+    struniq_hash_table_link1[(signed long int)slot_link1] = new_node_link1;
     do
     {
 
     done:
       ;
-      signed int return_value_pthread_mutex_unlock$6$link1;
-      return_value_pthread_mutex_unlock$6$link1=pthread_mutex_unlock(&struniq_lock$link1);
-      if(!(return_value_pthread_mutex_unlock$6$link1 == 0))
+      signed int return_value_pthread_mutex_unlock_6_link1;
+      return_value_pthread_mutex_unlock_6_link1=pthread_mutex_unlock(&struniq_lock_link1);
+      if(!(return_value_pthread_mutex_unlock_6_link1 == 0))
         abort();
 
     }
     while((_Bool)0);
-    return new_node$link1->contents;
+    return new_node_link1->contents;
   }
 }
 
@@ -3395,9 +3395,9 @@ static void test_lock(void)
   for( ; !(i >= 10); i = i + 1)
     do
     {
-      signed int return_value_pthread_join$1;
-      return_value_pthread_join$1=pthread_join(threads[(signed long int)i], (void **)(void *)0);
-      if(!(return_value_pthread_join$1 == 0))
+      signed int return_value_pthread_join_1;
+      return_value_pthread_join_1=pthread_join(threads[(signed long int)i], (void **)(void *)0);
+      if(!(return_value_pthread_join_1 == 0))
         abort();
 
     }
@@ -3405,9 +3405,9 @@ static void test_lock(void)
   lock_checker_done = 1;
   do
   {
-    signed int return_value_pthread_join$2;
-    return_value_pthread_join$2=pthread_join(checkerthread, (void **)(void *)0);
-    if(!(return_value_pthread_join$2 == 0))
+    signed int return_value_pthread_join_2;
+    return_value_pthread_join_2=pthread_join(checkerthread, (void **)(void *)0);
+    if(!(return_value_pthread_join_2 == 0))
       abort();
 
   }
@@ -3428,9 +3428,9 @@ static void test_once(void)
     ready[(signed long int)i] = 0;
     do
     {
-      signed int return_value_pthread_mutex_init$1;
-      return_value_pthread_mutex_init$1=pthread_mutex_init(&ready_lock[(signed long int)i], (const union anonymous$6 *)(void *)0);
-      if(!(return_value_pthread_mutex_init$1 == 0))
+      signed int return_value_pthread_mutex_init_1;
+      return_value_pthread_mutex_init_1=pthread_mutex_init(&ready_lock[(signed long int)i], (const union anonymous_6 *)(void *)0);
+      if(!(return_value_pthread_mutex_init_1 == 0))
         abort();
 
     }
@@ -3440,9 +3440,9 @@ static void test_once(void)
   for( ; !(i >= 50000); i = i + 1)
     do
     {
-      signed int return_value_pthread_rwlock_init$2;
-      return_value_pthread_rwlock_init$2=pthread_rwlock_init(&fire_signal[(signed long int)i], (const union anonymous$2 *)(void *)0);
-      if(!(return_value_pthread_rwlock_init$2 == 0))
+      signed int return_value_pthread_rwlock_init_2;
+      return_value_pthread_rwlock_init_2=pthread_rwlock_init(&fire_signal[(signed long int)i], (const union anonymous_2 *)(void *)0);
+      if(!(return_value_pthread_rwlock_init_2 == 0))
         abort();
 
     }
@@ -3451,9 +3451,9 @@ static void test_once(void)
   for( ; i >= 0; i = i - 1)
     do
     {
-      signed int return_value_pthread_rwlock_wrlock$3;
-      return_value_pthread_rwlock_wrlock$3=pthread_rwlock_wrlock(&fire_signal[(signed long int)i]);
-      if(!(return_value_pthread_rwlock_wrlock$3 == 0))
+      signed int return_value_pthread_rwlock_wrlock_3;
+      return_value_pthread_rwlock_wrlock_3=pthread_rwlock_wrlock(&fire_signal[(signed long int)i]);
+      if(!(return_value_pthread_rwlock_wrlock_3 == 0))
         abort();
 
     }
@@ -3472,9 +3472,9 @@ static void test_once(void)
       {
         do
         {
-          signed int return_value_pthread_mutex_lock$4;
-          return_value_pthread_mutex_lock$4=pthread_mutex_lock(&ready_lock[(signed long int)i]);
-          if(!(return_value_pthread_mutex_lock$4 == 0))
+          signed int return_value_pthread_mutex_lock_4;
+          return_value_pthread_mutex_lock_4=pthread_mutex_lock(&ready_lock[(signed long int)i]);
+          if(!(return_value_pthread_mutex_lock_4 == 0))
             abort();
 
         }
@@ -3482,9 +3482,9 @@ static void test_once(void)
         ready_count = ready_count + ready[(signed long int)i];
         do
         {
-          signed int return_value_pthread_mutex_unlock$5;
-          return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&ready_lock[(signed long int)i]);
-          if(!(return_value_pthread_mutex_unlock$5 == 0))
+          signed int return_value_pthread_mutex_unlock_5;
+          return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&ready_lock[(signed long int)i]);
+          if(!(return_value_pthread_mutex_unlock_5 == 0))
             abort();
 
         }
@@ -3513,9 +3513,9 @@ static void test_once(void)
     {
       do
       {
-        signed int return_value_pthread_mutex_lock$6;
-        return_value_pthread_mutex_lock$6=pthread_mutex_lock(&ready_lock[(signed long int)i]);
-        if(!(return_value_pthread_mutex_lock$6 == 0))
+        signed int return_value_pthread_mutex_lock_6;
+        return_value_pthread_mutex_lock_6=pthread_mutex_lock(&ready_lock[(signed long int)i]);
+        if(!(return_value_pthread_mutex_lock_6 == 0))
           abort();
 
       }
@@ -3523,9 +3523,9 @@ static void test_once(void)
       ready[(signed long int)i] = 0;
       do
       {
-        signed int return_value_pthread_mutex_unlock$7;
-        return_value_pthread_mutex_unlock$7=pthread_mutex_unlock(&ready_lock[(signed long int)i]);
-        if(!(return_value_pthread_mutex_unlock$7 == 0))
+        signed int return_value_pthread_mutex_unlock_7;
+        return_value_pthread_mutex_unlock_7=pthread_mutex_unlock(&ready_lock[(signed long int)i]);
+        if(!(return_value_pthread_mutex_unlock_7 == 0))
           abort();
 
       }
@@ -3533,9 +3533,9 @@ static void test_once(void)
     }
     do
     {
-      signed int return_value_pthread_rwlock_unlock$8;
-      return_value_pthread_rwlock_unlock$8=pthread_rwlock_unlock(&fire_signal[(signed long int)repeat]);
-      if(!(return_value_pthread_rwlock_unlock$8 == 0))
+      signed int return_value_pthread_rwlock_unlock_8;
+      return_value_pthread_rwlock_unlock_8=pthread_rwlock_unlock(&fire_signal[(signed long int)repeat]);
+      if(!(return_value_pthread_rwlock_unlock_8 == 0))
         abort();
 
     }
@@ -3545,9 +3545,9 @@ static void test_once(void)
   for( ; !(i >= 10); i = i + 1)
     do
     {
-      signed int return_value_pthread_join$9;
-      return_value_pthread_join$9=pthread_join(threads[(signed long int)i], (void **)(void *)0);
-      if(!(return_value_pthread_join$9 == 0))
+      signed int return_value_pthread_join_9;
+      return_value_pthread_join_9=pthread_join(threads[(signed long int)i], (void **)(void *)0);
+      if(!(return_value_pthread_join_9 == 0))
         abort();
 
     }
@@ -3573,9 +3573,9 @@ static void test_recursive_lock(void)
   for( ; !(i >= 10); i = i + 1)
     do
     {
-      signed int return_value_pthread_join$1;
-      return_value_pthread_join$1=pthread_join(threads[(signed long int)i], (void **)(void *)0);
-      if(!(return_value_pthread_join$1 == 0))
+      signed int return_value_pthread_join_1;
+      return_value_pthread_join_1=pthread_join(threads[(signed long int)i], (void **)(void *)0);
+      if(!(return_value_pthread_join_1 == 0))
         abort();
 
     }
@@ -3583,9 +3583,9 @@ static void test_recursive_lock(void)
   reclock_checker_done = 1;
   do
   {
-    signed int return_value_pthread_join$2;
-    return_value_pthread_join$2=pthread_join(checkerthread, (void **)(void *)0);
-    if(!(return_value_pthread_join$2 == 0))
+    signed int return_value_pthread_join_2;
+    return_value_pthread_join_2=pthread_join(checkerthread, (void **)(void *)0);
+    if(!(return_value_pthread_join_2 == 0))
       abort();
 
   }
@@ -3614,9 +3614,9 @@ static void test_rwlock(void)
   for( ; !(i >= 10); i = i + 1)
     do
     {
-      signed int return_value_pthread_join$1;
-      return_value_pthread_join$1=pthread_join(threads[(signed long int)i], (void **)(void *)0);
-      if(!(return_value_pthread_join$1 == 0))
+      signed int return_value_pthread_join_1;
+      return_value_pthread_join_1=pthread_join(threads[(signed long int)i], (void **)(void *)0);
+      if(!(return_value_pthread_join_1 == 0))
         abort();
 
     }
@@ -3626,9 +3626,9 @@ static void test_rwlock(void)
   for( ; !(i >= 10); i = i + 1)
     do
     {
-      signed int return_value_pthread_join$2;
-      return_value_pthread_join$2=pthread_join(checkerthreads[(signed long int)i], (void **)(void *)0);
-      if(!(return_value_pthread_join$2 == 0))
+      signed int return_value_pthread_join_2;
+      return_value_pthread_join_2=pthread_join(checkerthreads[(signed long int)i], (void **)(void *)0);
+      if(!(return_value_pthread_join_2 == 0))
         abort();
 
     }
@@ -3640,49 +3640,49 @@ static void test_rwlock(void)
 // file vasnprintf.h line 72
 extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char *format, void **args)
 {
-  struct anonymous$3 d;
-  struct anonymous$4 a;
-  signed int return_value_printf_parse$1;
-  return_value_printf_parse$1=printf_parse(format, &d, &a);
-  void *return_value_malloc$6;
-  void *return_value_realloc$7;
-  unsigned long int tmp_post$8;
-  const char *tmp_post$9;
-  void *return_value_malloc$10;
-  void *return_value_realloc$11;
-  char *tmp_post$12;
-  char *tmp_post$13;
-  char *tmp_post$14;
-  char *tmp_post$15;
-  char *tmp_post$16;
-  char *tmp_post$17;
-  char *tmp_post$18;
-  char *tmp_post$19;
-  char *tmp_post$20;
-  const char *tmp_post$21;
-  char *tmp_post$22;
-  const char *tmp_post$23;
-  char *tmp_post$24;
-  char *tmp_post$25;
-  char *tmp_post$26;
-  unsigned int tmp_post$27;
-  unsigned int tmp_post$28;
-  void *return_value_malloc$30;
-  void *return_value_realloc$31;
-  signed int tmp_if_expr$38;
-  _Bool tmp_if_expr$37;
-  void *return_value_malloc$40;
-  void *return_value_realloc$41;
-  void *return_value_malloc$44;
-  void *return_value_realloc$45;
-  if(!(return_value_printf_parse$1 >= 0))
+  struct anonymous_3 d;
+  struct anonymous_4 a;
+  signed int return_value_printf_parse_1;
+  return_value_printf_parse_1=printf_parse(format, &d, &a);
+  void *return_value_malloc_6;
+  void *return_value_realloc_7;
+  unsigned long int tmp_post_8;
+  const char *tmp_post_9;
+  void *return_value_malloc_10;
+  void *return_value_realloc_11;
+  char *tmp_post_12;
+  char *tmp_post_13;
+  char *tmp_post_14;
+  char *tmp_post_15;
+  char *tmp_post_16;
+  char *tmp_post_17;
+  char *tmp_post_18;
+  char *tmp_post_19;
+  char *tmp_post_20;
+  const char *tmp_post_21;
+  char *tmp_post_22;
+  const char *tmp_post_23;
+  char *tmp_post_24;
+  char *tmp_post_25;
+  char *tmp_post_26;
+  unsigned int tmp_post_27;
+  unsigned int tmp_post_28;
+  void *return_value_malloc_30;
+  void *return_value_realloc_31;
+  signed int tmp_if_expr_38;
+  _Bool tmp_if_expr_37;
+  void *return_value_malloc_40;
+  void *return_value_realloc_41;
+  void *return_value_malloc_44;
+  void *return_value_realloc_45;
+  if(!(return_value_printf_parse_1 >= 0))
     return (char *)(void *)0;
 
   else
   {
-    signed int return_value_printf_fetchargs$3;
-    return_value_printf_fetchargs$3=printf_fetchargs(args, &a);
-    if(!(return_value_printf_fetchargs$3 >= 0))
+    signed int return_value_printf_fetchargs_3;
+    return_value_printf_fetchargs_3=printf_fetchargs(args, &a);
+    if(!(return_value_printf_fetchargs_3 >= 0))
     {
       if(!(d.dir == d.direct_alloc_dir))
         free((void *)d.dir);
@@ -3690,9 +3690,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
       if(!(a.arg == a.direct_alloc_arg))
         free((void *)a.arg);
 
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 22;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 22;
       return (char *)(void *)0;
     }
 
@@ -3701,16 +3701,16 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     char *buf_malloced;
     const char *cp;
     unsigned long int i;
-    struct anonymous$8 *dp;
+    struct anonymous_8 *dp;
     char *result;
     unsigned long int allocated;
     unsigned long int length;
     buf_neededlength=xsum4((unsigned long int)7, d.max_width_length, d.max_precision_length, (unsigned long int)6);
     if(!(buf_neededlength >= 4000ul))
     {
-      void *return_value___builtin_alloca$4;
-      return_value___builtin_alloca$4=__builtin_alloca(buf_neededlength * sizeof(char) /*1ul*/ );
-      buf = (char *)return_value___builtin_alloca$4;
+      void *return_value___builtin_alloca_4;
+      return_value___builtin_alloca_4=__builtin_alloca(buf_neededlength * sizeof(char) /*1ul*/ );
+      buf = (char *)return_value___builtin_alloca_4;
       buf_malloced = (char *)(void *)0;
     }
 
@@ -3720,9 +3720,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
       if(buf_memsize == 18446744073709551615UL)
         goto out_of_memory_1;
 
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(buf_memsize);
-      buf = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(buf_memsize);
+      buf = (char *)return_value_malloc_5;
       if(buf == ((char *)NULL))
         goto out_of_memory_1;
 
@@ -3747,42 +3747,42 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     {
       if(!(cp == dp->dir_start))
       {
-        unsigned long int vasnprintf$$1$$2$$5$$1$$1$$n = (unsigned long int)(dp->dir_start - cp);
+        unsigned long int vasnprintf__1__2__5__1__1__n = (unsigned long int)(dp->dir_start - cp);
         unsigned long int augmented_length;
-        augmented_length=xsum$link1(length, vasnprintf$$1$$2$$5$$1$$1$$n);
+        augmented_length=xsum_link1(length, vasnprintf__1__2__5__1__1__n);
         if(!(allocated >= augmented_length))
         {
-          unsigned long int vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size;
-          char *vasnprintf$$1$$2$$5$$1$$1$$1$$memory;
+          unsigned long int vasnprintf__1__2__5__1__1__1__memory_size;
+          char *vasnprintf__1__2__5__1__1__1__memory;
           allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
           if(!(allocated >= augmented_length))
             allocated = augmented_length;
 
-          vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-          if(vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size == 18446744073709551615UL)
+          vasnprintf__1__2__5__1__1__1__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+          if(vasnprintf__1__2__5__1__1__1__memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(result == ((char *)NULL) || result == resultbuf)
           {
-            return_value_malloc$6=malloc(vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size);
-            vasnprintf$$1$$2$$5$$1$$1$$1$$memory = (char *)return_value_malloc$6;
+            return_value_malloc_6=malloc(vasnprintf__1__2__5__1__1__1__memory_size);
+            vasnprintf__1__2__5__1__1__1__memory = (char *)return_value_malloc_6;
           }
 
           else
           {
-            return_value_realloc$7=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size);
-            vasnprintf$$1$$2$$5$$1$$1$$1$$memory = (char *)return_value_realloc$7;
+            return_value_realloc_7=realloc((void *)result, vasnprintf__1__2__5__1__1__1__memory_size);
+            vasnprintf__1__2__5__1__1__1__memory = (char *)return_value_realloc_7;
           }
-          if(vasnprintf$$1$$2$$5$$1$$1$$1$$memory == ((char *)NULL))
+          if(vasnprintf__1__2__5__1__1__1__memory == ((char *)NULL))
             goto out_of_memory;
 
           if(result == resultbuf && length >= 1ul)
-            memcpy((void *)vasnprintf$$1$$2$$5$$1$$1$$1$$memory, (const void *)result, length);
+            memcpy((void *)vasnprintf__1__2__5__1__1__1__memory, (const void *)result, length);
 
-          result = vasnprintf$$1$$2$$5$$1$$1$$1$$memory;
+          result = vasnprintf__1__2__5__1__1__1__memory;
         }
 
-        memcpy((void *)(result + (signed long int)length), (const void *)(const char *)cp, vasnprintf$$1$$2$$5$$1$$1$$n);
+        memcpy((void *)(result + (signed long int)length), (const void *)(const char *)cp, vasnprintf__1__2__5__1__1__n);
         length = augmented_length;
       }
 
@@ -3791,45 +3791,45 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
       if((signed int)dp->conversion == 37)
       {
-        unsigned long int vasnprintf$$1$$2$$5$$1$$2$$augmented_length;
+        unsigned long int vasnprintf__1__2__5__1__2__augmented_length;
         if(!(dp->arg_index == 18446744073709551615ul))
           abort();
 
-        vasnprintf$$1$$2$$5$$1$$2$$augmented_length=xsum$link1(length, (unsigned long int)1);
-        if(!(allocated >= vasnprintf$$1$$2$$5$$1$$2$$augmented_length))
+        vasnprintf__1__2__5__1__2__augmented_length=xsum_link1(length, (unsigned long int)1);
+        if(!(allocated >= vasnprintf__1__2__5__1__2__augmented_length))
         {
-          unsigned long int vasnprintf$$1$$2$$5$$1$$2$$1$$memory_size;
-          char *vasnprintf$$1$$2$$5$$1$$2$$1$$memory;
+          unsigned long int vasnprintf__1__2__5__1__2__1__memory_size;
+          char *vasnprintf__1__2__5__1__2__1__memory;
           allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-          if(!(allocated >= vasnprintf$$1$$2$$5$$1$$2$$augmented_length))
-            allocated = vasnprintf$$1$$2$$5$$1$$2$$augmented_length;
+          if(!(allocated >= vasnprintf__1__2__5__1__2__augmented_length))
+            allocated = vasnprintf__1__2__5__1__2__augmented_length;
 
-          vasnprintf$$1$$2$$5$$1$$2$$1$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-          if(vasnprintf$$1$$2$$5$$1$$2$$1$$memory_size == 18446744073709551615UL)
+          vasnprintf__1__2__5__1__2__1__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+          if(vasnprintf__1__2__5__1__2__1__memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(result == ((char *)NULL) || result == resultbuf)
           {
-            return_value_malloc$10=malloc(vasnprintf$$1$$2$$5$$1$$2$$1$$memory_size);
-            vasnprintf$$1$$2$$5$$1$$2$$1$$memory = (char *)return_value_malloc$10;
+            return_value_malloc_10=malloc(vasnprintf__1__2__5__1__2__1__memory_size);
+            vasnprintf__1__2__5__1__2__1__memory = (char *)return_value_malloc_10;
           }
 
           else
           {
-            return_value_realloc$11=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$2$$1$$memory_size);
-            vasnprintf$$1$$2$$5$$1$$2$$1$$memory = (char *)return_value_realloc$11;
+            return_value_realloc_11=realloc((void *)result, vasnprintf__1__2__5__1__2__1__memory_size);
+            vasnprintf__1__2__5__1__2__1__memory = (char *)return_value_realloc_11;
           }
-          if(vasnprintf$$1$$2$$5$$1$$2$$1$$memory == ((char *)NULL))
+          if(vasnprintf__1__2__5__1__2__1__memory == ((char *)NULL))
             goto out_of_memory;
 
           if(result == resultbuf && length >= 1ul)
-            memcpy((void *)vasnprintf$$1$$2$$5$$1$$2$$1$$memory, (const void *)result, length);
+            memcpy((void *)vasnprintf__1__2__5__1__2__1__memory, (const void *)result, length);
 
-          result = vasnprintf$$1$$2$$5$$1$$2$$1$$memory;
+          result = vasnprintf__1__2__5__1__2__1__memory;
         }
 
         result[(signed long int)length] = (char)37;
-        length = vasnprintf$$1$$2$$5$$1$$2$$augmented_length;
+        length = vasnprintf__1__2__5__1__2__augmented_length;
       }
 
       else
@@ -3871,70 +3871,70 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
         else
         {
-          enum anonymous$5 type = (a.arg + (signed long int)dp->arg_index)->type;
+          enum anonymous_5 type = (a.arg + (signed long int)dp->arg_index)->type;
           signed int flags = dp->flags;
           char *fbp;
           unsigned int prefix_count;
           signed int prefixes[2l];
           signed int orig_errno;
           fbp = buf;
-          tmp_post$12 = fbp;
+          tmp_post_12 = fbp;
           fbp = fbp + 1l;
-          *tmp_post$12 = (char)37;
+          *tmp_post_12 = (char)37;
           if(!((1 & flags) == 0))
           {
-            tmp_post$13 = fbp;
+            tmp_post_13 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$13 = (char)39;
+            *tmp_post_13 = (char)39;
           }
 
           if(!((2 & flags) == 0))
           {
-            tmp_post$14 = fbp;
+            tmp_post_14 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$14 = (char)45;
+            *tmp_post_14 = (char)45;
           }
 
           if(!((4 & flags) == 0))
           {
-            tmp_post$15 = fbp;
+            tmp_post_15 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$15 = (char)43;
+            *tmp_post_15 = (char)43;
           }
 
           if(!((8 & flags) == 0))
           {
-            tmp_post$16 = fbp;
+            tmp_post_16 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$16 = (char)32;
+            *tmp_post_16 = (char)32;
           }
 
           if(!((16 & flags) == 0))
           {
-            tmp_post$17 = fbp;
+            tmp_post_17 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$17 = (char)35;
+            *tmp_post_17 = (char)35;
           }
 
           if(!((64 & flags) == 0))
           {
-            tmp_post$18 = fbp;
+            tmp_post_18 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$18 = (char)73;
+            *tmp_post_18 = (char)73;
           }
 
           if(!((32 & flags) == 0))
           {
-            tmp_post$19 = fbp;
+            tmp_post_19 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$19 = (char)48;
+            *tmp_post_19 = (char)48;
           }
 
           if(!(dp->width_start == dp->width_end))
           {
-            unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$n = (unsigned long int)(dp->width_end - dp->width_start);
-            memcpy((void *)fbp, (const void *)dp->width_start, vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$n * sizeof(char) /*1ul*/ );
-            fbp = fbp + (signed long int)vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$n;
+            unsigned long int vasnprintf__1__2__5__1__3__2__1__1__n = (unsigned long int)(dp->width_end - dp->width_start);
+            memcpy((void *)fbp, (const void *)dp->width_start, vasnprintf__1__2__5__1__3__2__1__1__n * sizeof(char) /*1ul*/ );
+            fbp = fbp + (signed long int)vasnprintf__1__2__5__1__3__2__1__1__n;
           }
 
           if(!(dp->precision_start == dp->precision_end))
@@ -3950,9 +3950,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
             case TYPE_ULONGLONGINT:
             {
-              tmp_post$24 = fbp;
+              tmp_post_24 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$24 = (char)108;
+              *tmp_post_24 = (char)108;
             }
             case TYPE_LONGINT:
 
@@ -3962,16 +3962,16 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
             case TYPE_WIDE_STRING:
             {
-              tmp_post$25 = fbp;
+              tmp_post_25 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$25 = (char)108;
+              *tmp_post_25 = (char)108;
               break;
             }
             case TYPE_LONGDOUBLE:
             {
-              tmp_post$26 = fbp;
+              tmp_post_26 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$26 = (char)76;
+              *tmp_post_26 = (char)76;
             }
           }
           *fbp = dp->conversion;
@@ -3982,9 +3982,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             if(!((signed int)(a.arg + (signed long int)dp->width_arg_index)->type == TYPE_INT))
               abort();
 
-            tmp_post$27 = prefix_count;
+            tmp_post_27 = prefix_count;
             prefix_count = prefix_count + 1u;
-            prefixes[(signed long int)tmp_post$27] = (a.arg + (signed long int)dp->width_arg_index)->a.a_int;
+            prefixes[(signed long int)tmp_post_27] = (a.arg + (signed long int)dp->width_arg_index)->a.a_int;
           }
 
           if(!(dp->precision_arg_index == 18446744073709551615ul))
@@ -3992,51 +3992,51 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             if(!((signed int)(a.arg + (signed long int)dp->precision_arg_index)->type == TYPE_INT))
               abort();
 
-            tmp_post$28 = prefix_count;
+            tmp_post_28 = prefix_count;
             prefix_count = prefix_count + 1u;
-            prefixes[(signed long int)tmp_post$28] = (a.arg + (signed long int)dp->precision_arg_index)->a.a_int;
+            prefixes[(signed long int)tmp_post_28] = (a.arg + (signed long int)dp->precision_arg_index)->a.a_int;
           }
 
-          unsigned long int return_value_xsum$32;
-          return_value_xsum$32=xsum$link1(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
-          if(!(allocated >= return_value_xsum$32))
+          unsigned long int return_value_xsum_32;
+          return_value_xsum_32=xsum_link1(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
+          if(!(allocated >= return_value_xsum_32))
           {
-            unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory_size;
-            char *vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory;
+            unsigned long int vasnprintf__1__2__5__1__3__2__6__memory_size;
+            char *vasnprintf__1__2__5__1__3__2__6__memory;
             allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-            unsigned long int return_value_xsum$29;
-            return_value_xsum$29=xsum$link1(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
-            if(!(allocated >= return_value_xsum$29))
-              allocated=xsum$link1(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
+            unsigned long int return_value_xsum_29;
+            return_value_xsum_29=xsum_link1(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
+            if(!(allocated >= return_value_xsum_29))
+              allocated=xsum_link1(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
 
-            vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-            if(vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory_size == 18446744073709551615UL)
+            vasnprintf__1__2__5__1__3__2__6__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+            if(vasnprintf__1__2__5__1__3__2__6__memory_size == 18446744073709551615UL)
               goto out_of_memory;
 
             if(result == ((char *)NULL) || result == resultbuf)
             {
-              return_value_malloc$30=malloc(vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory_size);
-              vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory = (char *)return_value_malloc$30;
+              return_value_malloc_30=malloc(vasnprintf__1__2__5__1__3__2__6__memory_size);
+              vasnprintf__1__2__5__1__3__2__6__memory = (char *)return_value_malloc_30;
             }
 
             else
             {
-              return_value_realloc$31=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory_size);
-              vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory = (char *)return_value_realloc$31;
+              return_value_realloc_31=realloc((void *)result, vasnprintf__1__2__5__1__3__2__6__memory_size);
+              vasnprintf__1__2__5__1__3__2__6__memory = (char *)return_value_realloc_31;
             }
-            if(vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory == ((char *)NULL))
+            if(vasnprintf__1__2__5__1__3__2__6__memory == ((char *)NULL))
               goto out_of_memory;
 
             if(result == resultbuf && length >= 1ul)
-              memcpy((void *)vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory, (const void *)result, length);
+              memcpy((void *)vasnprintf__1__2__5__1__3__2__6__memory, (const void *)result, length);
 
-            result = vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory;
+            result = vasnprintf__1__2__5__1__3__2__6__memory;
           }
 
           *((char *)(result + (signed long int)length)) = (char)0;
-          signed int *return_value___errno_location$33;
-          return_value___errno_location$33=__errno_location();
-          orig_errno = *return_value___errno_location$33;
+          signed int *return_value___errno_location_33;
+          return_value___errno_location_33=__errno_location();
+          orig_errno = *return_value___errno_location_33;
           do
           {
             signed int count = -1;
@@ -4046,29 +4046,29 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               maxlen = (unsigned long int)0x7fffffff / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ );
 
             maxlen = maxlen * (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ );
-            signed int *return_value___errno_location$34;
-            return_value___errno_location$34=__errno_location();
-            *return_value___errno_location$34 = 0;
+            signed int *return_value___errno_location_34;
+            return_value___errno_location_34=__errno_location();
+            *return_value___errno_location_34 = 0;
             switch((signed int)type)
             {
               case TYPE_SCHAR:
               {
-                signed int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$1$$arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_schar;
+                signed int vasnprintf__1__2__5__1__3__2__7__1__1__1__arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_schar;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$1$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__1__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$1$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__1__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$1$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__1__arg, &count);
                     break;
                   }
                   default:
@@ -4078,22 +4078,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_UCHAR:
               {
-                unsigned int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$2$$arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_uchar;
+                unsigned int vasnprintf__1__2__5__1__3__2__7__1__1__2__arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_uchar;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$2$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__2__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$2$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__2__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$2$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__2__arg, &count);
                     break;
                   }
                   default:
@@ -4103,22 +4103,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_SHORT:
               {
-                signed int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$3$$arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_short;
+                signed int vasnprintf__1__2__5__1__3__2__7__1__1__3__arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_short;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$3$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__3__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$3$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__3__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$3$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__3__arg, &count);
                     break;
                   }
                   default:
@@ -4128,22 +4128,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_USHORT:
               {
-                unsigned int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$4$$arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_ushort;
+                unsigned int vasnprintf__1__2__5__1__3__2__7__1__1__4__arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_ushort;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$4$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__4__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$4$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__4__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$4$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__4__arg, &count);
                     break;
                   }
                   default:
@@ -4153,22 +4153,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_INT:
               {
-                signed int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$5$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_int;
+                signed int vasnprintf__1__2__5__1__3__2__7__1__1__5__arg = (a.arg + (signed long int)dp->arg_index)->a.a_int;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$5$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__5__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$5$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__5__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$5$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__5__arg, &count);
                     break;
                   }
                   default:
@@ -4178,22 +4178,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_UINT:
               {
-                unsigned int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$6$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_uint;
+                unsigned int vasnprintf__1__2__5__1__3__2__7__1__1__6__arg = (a.arg + (signed long int)dp->arg_index)->a.a_uint;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$6$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__6__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$6$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__6__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$6$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__6__arg, &count);
                     break;
                   }
                   default:
@@ -4203,22 +4203,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_LONGINT:
               {
-                signed long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$7$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_longint;
+                signed long int vasnprintf__1__2__5__1__3__2__7__1__1__7__arg = (a.arg + (signed long int)dp->arg_index)->a.a_longint;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$7$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__7__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$7$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__7__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$7$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__7__arg, &count);
                     break;
                   }
                   default:
@@ -4228,22 +4228,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_ULONGINT:
               {
-                unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$8$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulongint;
+                unsigned long int vasnprintf__1__2__5__1__3__2__7__1__1__8__arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulongint;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$8$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__8__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$8$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__8__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$8$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__8__arg, &count);
                     break;
                   }
                   default:
@@ -4253,22 +4253,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_LONGLONGINT:
               {
-                signed long long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$9$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_longlongint;
+                signed long long int vasnprintf__1__2__5__1__3__2__7__1__1__9__arg = (a.arg + (signed long int)dp->arg_index)->a.a_longlongint;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$9$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__9__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$9$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__9__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$9$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__9__arg, &count);
                     break;
                   }
                   default:
@@ -4278,22 +4278,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_ULONGLONGINT:
               {
-                unsigned long long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$10$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulonglongint;
+                unsigned long long int vasnprintf__1__2__5__1__3__2__7__1__1__10__arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulonglongint;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$10$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__10__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$10$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__10__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$10$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__10__arg, &count);
                     break;
                   }
                   default:
@@ -4303,22 +4303,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_DOUBLE:
               {
-                double vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$11$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_double;
+                double vasnprintf__1__2__5__1__3__2__7__1__1__11__arg = (a.arg + (signed long int)dp->arg_index)->a.a_double;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$11$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__11__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$11$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__11__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$11$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__11__arg, &count);
                     break;
                   }
                   default:
@@ -4353,22 +4353,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_CHAR:
               {
-                signed int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$13$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_char;
+                signed int vasnprintf__1__2__5__1__3__2__7__1__1__13__arg = (a.arg + (signed long int)dp->arg_index)->a.a_char;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$13$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__13__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$13$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__13__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$13$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__13__arg, &count);
                     break;
                   }
                   default:
@@ -4378,22 +4378,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_WIDE_CHAR:
               {
-                unsigned int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$14$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_char;
+                unsigned int vasnprintf__1__2__5__1__3__2__7__1__1__14__arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_char;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$14$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__14__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$14$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__14__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$14$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__14__arg, &count);
                     break;
                   }
                   default:
@@ -4403,22 +4403,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_STRING:
               {
-                const char *vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$15$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_string;
+                const char *vasnprintf__1__2__5__1__3__2__7__1__1__15__arg = (a.arg + (signed long int)dp->arg_index)->a.a_string;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$15$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__15__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$15$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__15__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$15$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__15__arg, &count);
                     break;
                   }
                   default:
@@ -4428,22 +4428,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_WIDE_STRING:
               {
-                const signed int *vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$16$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_string;
+                const signed int *vasnprintf__1__2__5__1__3__2__7__1__1__16__arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_string;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$16$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__16__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$16$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__16__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$16$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__16__arg, &count);
                     break;
                   }
                   default:
@@ -4453,22 +4453,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_POINTER:
               {
-                void *vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$17$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_pointer;
+                void *vasnprintf__1__2__5__1__3__2__7__1__1__17__arg = (a.arg + (signed long int)dp->arg_index)->a.a_pointer;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$17$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__17__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$17$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__17__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$17$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__17__arg, &count);
                     break;
                   }
                   default:
@@ -4507,9 +4507,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             if(!(count >= 0))
             {
               signed int saved_errno;
-              signed int *return_value___errno_location$35;
-              return_value___errno_location$35=__errno_location();
-              saved_errno = *return_value___errno_location$35;
+              signed int *return_value___errno_location_35;
+              return_value___errno_location_35=__errno_location();
+              saved_errno = *return_value___errno_location_35;
               if(!(result == ((char *)NULL)) && !(result == resultbuf))
                 free((void *)result);
 
@@ -4522,21 +4522,21 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               if(!(a.arg == a.direct_alloc_arg))
                 free((void *)a.arg);
 
-              signed int *return_value___errno_location$36;
-              return_value___errno_location$36=__errno_location();
+              signed int *return_value___errno_location_36;
+              return_value___errno_location_36=__errno_location();
               if(!(saved_errno == 0))
-                tmp_if_expr$38 = saved_errno;
+                tmp_if_expr_38 = saved_errno;
 
               else
               {
                 if((signed int)dp->conversion == 99)
-                  tmp_if_expr$37 = (_Bool)1;
+                  tmp_if_expr_37 = (_Bool)1;
 
                 else
-                  tmp_if_expr$37 = (signed int)dp->conversion == 115 ? (_Bool)1 : (_Bool)0;
-                tmp_if_expr$38 = tmp_if_expr$37 ? 84 : 22;
+                  tmp_if_expr_37 = (signed int)dp->conversion == 115 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_38 = tmp_if_expr_37 ? 84 : 22;
               }
-              *return_value___errno_location$36 = tmp_if_expr$38;
+              *return_value___errno_location_36 = tmp_if_expr_38;
               return (char *)(void *)0;
             }
 
@@ -4547,40 +4547,40 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
               else
               {
-                unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$n;
-                unsigned long int return_value_xsum$39;
-                return_value_xsum$39=xsum$link1(length, (((unsigned long int)((unsigned int)count + (unsigned int)2) + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
-                vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$n=xmax(return_value_xsum$39, allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL);
-                if(!(allocated >= vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$n))
+                unsigned long int vasnprintf__1__2__5__1__3__2__7__1__5__1__n;
+                unsigned long int return_value_xsum_39;
+                return_value_xsum_39=xsum_link1(length, (((unsigned long int)((unsigned int)count + (unsigned int)2) + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
+                vasnprintf__1__2__5__1__3__2__7__1__5__1__n=xmax(return_value_xsum_39, allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL);
+                if(!(allocated >= vasnprintf__1__2__5__1__3__2__7__1__5__1__n))
                 {
-                  unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory_size;
-                  char *vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory;
+                  unsigned long int vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory_size;
+                  char *vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory;
                   allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-                  if(!(allocated >= vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$n))
-                    allocated = vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$n;
+                  if(!(allocated >= vasnprintf__1__2__5__1__3__2__7__1__5__1__n))
+                    allocated = vasnprintf__1__2__5__1__3__2__7__1__5__1__n;
 
-                  vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-                  if(vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory_size == 18446744073709551615UL)
+                  vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+                  if(vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory_size == 18446744073709551615UL)
                     goto out_of_memory;
 
                   if(result == ((char *)NULL) || result == resultbuf)
                   {
-                    return_value_malloc$40=malloc(vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory_size);
-                    vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory = (char *)return_value_malloc$40;
+                    return_value_malloc_40=malloc(vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory_size);
+                    vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory = (char *)return_value_malloc_40;
                   }
 
                   else
                   {
-                    return_value_realloc$41=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory_size);
-                    vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory = (char *)return_value_realloc$41;
+                    return_value_realloc_41=realloc((void *)result, vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory_size);
+                    vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory = (char *)return_value_realloc_41;
                   }
-                  if(vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory == ((char *)NULL))
+                  if(vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory == ((char *)NULL))
                     goto out_of_memory;
 
                   if(result == resultbuf && length >= 1ul)
-                    memcpy((void *)vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory, (const void *)result, length);
+                    memcpy((void *)vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory, (const void *)result, length);
 
-                  result = vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory;
+                  result = vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory;
                 }
 
                 continue;
@@ -4591,25 +4591,25 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             break;
           }
           while((_Bool)1);
-          signed int *return_value___errno_location$42;
-          return_value___errno_location$42=__errno_location();
-          *return_value___errno_location$42 = orig_errno;
+          signed int *return_value___errno_location_42;
+          return_value___errno_location_42=__errno_location();
+          *return_value___errno_location_42 = orig_errno;
         }
       }
       cp = dp->dir_end;
       i = i + 1ul;
     }
-    unsigned long int return_value_xsum$46;
-    return_value_xsum$46=xsum$link1(length, (unsigned long int)1);
-    if(!(allocated >= return_value_xsum$46))
+    unsigned long int return_value_xsum_46;
+    return_value_xsum_46=xsum_link1(length, (unsigned long int)1);
+    if(!(allocated >= return_value_xsum_46))
     {
       unsigned long int memory_size;
       char *memory;
       allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-      unsigned long int return_value_xsum$43;
-      return_value_xsum$43=xsum$link1(length, (unsigned long int)1);
-      if(!(allocated >= return_value_xsum$43))
-        allocated=xsum$link1(length, (unsigned long int)1);
+      unsigned long int return_value_xsum_43;
+      return_value_xsum_43=xsum_link1(length, (unsigned long int)1);
+      if(!(allocated >= return_value_xsum_43))
+        allocated=xsum_link1(length, (unsigned long int)1);
 
       memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
       if(memory_size == 18446744073709551615UL)
@@ -4617,14 +4617,14 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
       if(result == ((char *)NULL) || result == resultbuf)
       {
-        return_value_malloc$44=malloc(memory_size);
-        memory = (char *)return_value_malloc$44;
+        return_value_malloc_44=malloc(memory_size);
+        memory = (char *)return_value_malloc_44;
       }
 
       else
       {
-        return_value_realloc$45=realloc((void *)result, memory_size);
-        memory = (char *)return_value_realloc$45;
+        return_value_realloc_45=realloc((void *)result, memory_size);
+        memory = (char *)return_value_realloc_45;
       }
       if(memory == ((char *)NULL))
         goto out_of_memory;
@@ -4638,12 +4638,12 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     result[(signed long int)length] = (char)0;
     if(!(result == resultbuf) && !(1ul + length >= allocated))
     {
-      char *vasnprintf$$1$$2$$7$$memory;
-      void *return_value_realloc$47;
-      return_value_realloc$47=realloc((void *)result, (length + (unsigned long int)1) * sizeof(char) /*1ul*/ );
-      vasnprintf$$1$$2$$7$$memory = (char *)return_value_realloc$47;
-      if(!(vasnprintf$$1$$2$$7$$memory == ((char *)NULL)))
-        result = vasnprintf$$1$$2$$7$$memory;
+      char *vasnprintf__1__2__7__memory;
+      void *return_value_realloc_47;
+      return_value_realloc_47=realloc((void *)result, (length + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+      vasnprintf__1__2__7__memory = (char *)return_value_realloc_47;
+      if(!(vasnprintf__1__2__7__memory == ((char *)NULL)))
+        result = vasnprintf__1__2__7__memory;
 
     }
 
@@ -4673,9 +4673,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     if(!(a.arg == a.direct_alloc_arg))
       free((void *)a.arg);
 
-    signed int *return_value___errno_location$48;
-    return_value___errno_location$48=__errno_location();
-    *return_value___errno_location$48 = 75;
+    signed int *return_value___errno_location_48;
+    return_value___errno_location_48=__errno_location();
+    *return_value___errno_location_48 = 75;
     return (char *)(void *)0;
 
   out_of_memory:
@@ -4695,9 +4695,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     if(!(a.arg == a.direct_alloc_arg))
       free((void *)a.arg);
 
-    signed int *return_value___errno_location$49;
-    return_value___errno_location$49=__errno_location();
-    *return_value___errno_location$49 = 12;
+    signed int *return_value___errno_location_49;
+    return_value___errno_location_49=__errno_location();
+    *return_value___errno_location_49 = 12;
     return (char *)(void *)0;
   }
 }
@@ -4717,24 +4717,24 @@ static inline unsigned long int xsum(unsigned long int size1, unsigned long int 
   return sum >= size1 ? sum : 18446744073709551615UL;
 }
 
-// xsum$link1
+// xsum_link1
 // file xsize.h line 55
-static inline unsigned long int xsum$link1(unsigned long int size1$link1, unsigned long int size2$link1)
+static inline unsigned long int xsum_link1(unsigned long int size1_link1, unsigned long int size2_link1)
 {
-  unsigned long int sum$link1 = size1$link1 + size2$link1;
-  return sum$link1 >= size1$link1 ? sum$link1 : 18446744073709551615UL;
+  unsigned long int sum_link1 = size1_link1 + size2_link1;
+  return sum_link1 >= size1_link1 ? sum_link1 : 18446744073709551615UL;
 }
 
 // xsum4
 // file xsize.h line 76
 static inline unsigned long int xsum4(unsigned long int size1, unsigned long int size2, unsigned long int size3, unsigned long int size4)
 {
-  unsigned long int return_value_xsum$1;
-  return_value_xsum$1=xsum$link1(size1, size2);
-  unsigned long int return_value_xsum$2;
-  return_value_xsum$2=xsum$link1(return_value_xsum$1, size3);
-  unsigned long int return_value_xsum$3;
-  return_value_xsum$3=xsum$link1(return_value_xsum$2, size4);
-  return return_value_xsum$3;
+  unsigned long int return_value_xsum_1;
+  return_value_xsum_1=xsum_link1(size1, size2);
+  unsigned long int return_value_xsum_2;
+  return_value_xsum_2=xsum_link1(return_value_xsum_1, size3);
+  unsigned long int return_value_xsum_3;
+  return_value_xsum_3=xsum_link1(return_value_xsum_2, size4);
+  return return_value_xsum_3;
 }
 

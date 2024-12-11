@@ -1,70 +1,70 @@
-// tag-#anon#ST[*{V(SYM#tag-sigval#)->V}$V(SYM#tag-sigval#)->V$'_function'||*{SYM#tag-pthread_attr_t#}$SYM#tag-pthread_attr_t#$'_attribute'|]
+// tag-#anon#ST[*{V(SYM#tag-sigval#)->V}_V(SYM#tag-sigval#)->V_'_function'||*{SYM#tag-pthread_attr_t#}_SYM#tag-pthread_attr_t#_'_attribute'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 327
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
 union anonymous;
 
-// tag-#anon#UN[ARR12{S32}$S32$'_pad'||S32'_tid'||SYM#tag-#anon#ST[*{V(SYM#tag-sigval#)->V}$V(SYM#tag-sigval#)->V$'_function'||*{SYM#tag-pthread_attr_t#}$SYM#tag-pthread_attr_t#$'_attribute'|]#'_sigev_thread'|]
+// tag-#anon#UN[ARR12{S32}_S32_'_pad'||S32'_tid'||SYM#tag-#anon#ST[*{V(SYM#tag-sigval#)->V}_V(SYM#tag-sigval#)->V_'_function'||*{SYM#tag-pthread_attr_t#}_SYM#tag-pthread_attr_t#_'_attribute'|]#'_sigev_thread'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 319
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$11;
+union anonymous_11;
 
 // tag-#anon#UN[SYM#tag-CtxMsg#'ctx_msg'||SYM#tag-FailMsg#'fail_msg'||SYM#tag-LocMsg#'loc_msg'||SYM#tag-DurationMsg#'duration_msg'|]
 // file ../../src/check_pack.h line 55
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$16;
+union anonymous_16;
 
 // tag-CtxMsg
 // file ../../src/check_pack.h line 34
@@ -217,13 +217,13 @@ extern void __assert_fail(const char *, const char *, unsigned int, const char *
 extern signed int * __errno_location(void);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 682
-extern void __pthread_register_cancel(struct anonymous$15 *);
+extern void __pthread_register_cancel(struct anonymous_15 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 694
-extern void __pthread_unregister_cancel(struct anonymous$15 *);
+extern void __pthread_unregister_cancel(struct anonymous_15 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 735
-extern void __pthread_unwind_next(struct anonymous$15 *);
+extern void __pthread_unwind_next(struct anonymous_15 *);
 // __sigsetjmp
 // file /usr/include/pthread.h line 745
 extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
@@ -242,9 +242,9 @@ extern signed int _setjmp(struct __jmp_buf_tag *);
 // _tcase_add_test
 // file ../src/check.h line 274
 void _tcase_add_test(struct TCase *tc, void (*fn)(signed int), const char *name, signed int _signal, signed int allowed_exit_value, signed int start, signed int end);
-// _tcase_add_test::fn$object
+// _tcase_add_test::fn_object
 //
-void fn$object(signed int);
+void fn_object(signed int);
 // abort
 // file /usr/include/stdlib.h line 515
 extern void abort(void);
@@ -266,9 +266,9 @@ void check_list_advance(struct List *lp);
 // check_list_apply
 // file ../../src/check_list.h line 53
 void check_list_apply(struct List *lp, void (*fp)(void *));
-// check_list_apply::fp$object
+// check_list_apply::fp_object
 //
-void fp$object(void *);
+void fp_object(void *);
 // check_list_at_end
 // file ../../src/check_list.h line 30
 signed int check_list_at_end(struct List *lp);
@@ -335,9 +335,9 @@ extern signed int fflush(struct _IO_FILE *);
 // fixture_create
 // file ../../src/check.c line 197
 static struct Fixture * fixture_create(void (*fun)(void), signed int ischecked);
-// fixture_create::fun$object
+// fixture_create::fun_object
 //
-void fun$object(void);
+void fun_object(void);
 // floor
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 184
 extern double floor(double);
@@ -442,7 +442,7 @@ static signed int non_pass(signed int val);
 struct _IO_FILE * open_tmp_file(char **name);
 // pack
 // file ../../src/check_pack.c line 98
-signed int pack(enum ck_msg_type type, char **buf, union anonymous$13 *msg);
+signed int pack(enum ck_msg_type type, char **buf, union anonymous_13 *msg);
 // pack_ctx
 // file ../../src/check_pack.c line 207
 static signed int pack_ctx(char **buf, struct CtxMsg *cmsg);
@@ -472,10 +472,10 @@ static char * pass_msg(void);
 static signed int percent_passed(struct TestStats *t);
 // ppack
 // file ../../src/check_pack.h line 81
-void ppack(struct _IO_FILE *fdes, enum ck_msg_type type, union anonymous$13 *msg);
-// ppack::1::1::__cancel_routine$object
+void ppack(struct _IO_FILE *fdes, enum ck_msg_type type, union anonymous_13 *msg);
+// ppack::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // ppack_cleanup
 // file ../../src/check_pack.c line 293
 static void ppack_cleanup(void *mutex);
@@ -487,10 +487,10 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$16 *);
+extern signed int pthread_mutex_lock(union anonymous_16 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$16 *);
+extern signed int pthread_mutex_unlock(union anonymous_16 *);
 // punpack
 // file ../../src/check_pack.h line 82
 struct RcvMsg * punpack(struct _IO_FILE *fdes);
@@ -656,9 +656,9 @@ void srunner_print(struct SRunner *sr, enum print_output print_mode);
 // srunner_register_lfun
 // file ../../src/check_log.c line 113
 void srunner_register_lfun(struct SRunner *sr, struct _IO_FILE *lfile, signed int close, void (*lfun)(struct SRunner *, struct _IO_FILE *, enum print_output, void *, enum cl_event), enum print_output printmode);
-// srunner_register_lfun::lfun$object
+// srunner_register_lfun::lfun_object
 //
-void lfun$object(struct SRunner *, struct _IO_FILE *, enum print_output, void *, enum cl_event);
+void lfun_object(struct SRunner *, struct _IO_FILE *, enum print_output, void *, enum cl_event);
 // srunner_results
 // file ../../src/check.c line 418
 struct TestResult ** srunner_results(struct SRunner *sr);
@@ -770,30 +770,30 @@ void tap_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output print
 // tcase_add_checked_fixture
 // file ../../src/check.c line 213
 void tcase_add_checked_fixture(struct TCase *tc, void (*setup)(void), void (*teardown)(void));
-// tcase_add_checked_fixture::setup$object
+// tcase_add_checked_fixture::setup_object
 //
-void setup$object(void);
-// tcase_add_checked_fixture::teardown$object
+void setup_object(void);
+// tcase_add_checked_fixture::teardown_object
 //
-void teardown$object(void);
+void teardown_object(void);
 // tcase_add_fixture
 // file ../../src/check.c line 218
 static void tcase_add_fixture(struct TCase *tc, void (*setup)(void), void (*teardown)(void), signed int ischecked);
-// tcase_add_fixture::setup$object
+// tcase_add_fixture::setup_object
 //
-void setup$object(void);
-// tcase_add_fixture::teardown$object
+void setup_object(void);
+// tcase_add_fixture::teardown_object
 //
-void teardown$object(void);
+void teardown_object(void);
 // tcase_add_unchecked_fixture
 // file ../../src/check.c line 208
 void tcase_add_unchecked_fixture(struct TCase *tc, void (*setup)(void), void (*teardown)(void));
-// tcase_add_unchecked_fixture::setup$object
+// tcase_add_unchecked_fixture::setup_object
 //
-void setup$object(void);
-// tcase_add_unchecked_fixture::teardown$object
+void setup_object(void);
+// tcase_add_unchecked_fixture::teardown_object
 //
-void teardown$object(void);
+void teardown_object(void);
 // tcase_create
 // file ../src/check.h line 170
 struct TCase * tcase_create(const char *name);
@@ -889,7 +889,7 @@ void tr_xmlprint(struct _IO_FILE *file, struct TestResult *tr, enum print_output
 extern signed int unlink(const char *);
 // upack
 // file ../../src/check_pack.c line 110
-signed int upack(char *buf, union anonymous$13 *msg, enum ck_msg_type *type);
+signed int upack(char *buf, union anonymous_13 *msg, enum ck_msg_type *type);
 // upack_ctx
 // file ../../src/check_pack.c line 221
 static void upack_ctx(char **buf, struct CtxMsg *cmsg);
@@ -927,7 +927,7 @@ static signed int waserror(signed int status, signed int signal_expected);
 // file ../../src/check_log.c line 266
 void xml_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output printmode, void *obj, enum cl_event evt);
 
-struct anonymous$7
+struct anonymous_7
 {
   // _function
   void (*_function)(union sigval);
@@ -935,7 +935,7 @@ struct anonymous$7
   union pthread_attr_t *_attribute;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // _call_addr
   void *_call_addr;
@@ -945,7 +945,7 @@ struct anonymous$10
   unsigned int _arch;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_addr
   void *si_addr;
@@ -953,13 +953,13 @@ struct anonymous$6
   signed short int si_addr_lsb;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -967,15 +967,15 @@ struct anonymous$14
   signed int __mask_was_saved;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // __cancel_jmp_buf
-  struct anonymous$14 __cancel_jmp_buf[1l];
+  struct anonymous_14 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // si_pid
   signed int si_pid;
@@ -983,7 +983,7 @@ struct anonymous$2
   unsigned int si_uid;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_pid
   signed int si_pid;
@@ -1005,7 +1005,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_pid
   signed int si_pid;
@@ -1015,7 +1015,7 @@ struct anonymous$4
   union sigval si_sigval;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // si_tid
   signed int si_tid;
@@ -1025,7 +1025,7 @@ struct anonymous$3
   union sigval si_sigval;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_band
   signed long int si_band;
@@ -1033,27 +1033,27 @@ struct anonymous$9
   signed int si_fd;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$2 _kill;
+  struct anonymous_2 _kill;
   // _timer
-  struct anonymous$3 _timer;
+  struct anonymous_3 _timer;
   // _rt
-  struct anonymous$4 _rt;
+  struct anonymous_4 _rt;
   // _sigchld
-  struct anonymous$5 _sigchld;
+  struct anonymous_5 _sigchld;
   // _sigfault
-  struct anonymous$6 _sigfault;
+  struct anonymous_6 _sigfault;
   // _sigpoll
-  struct anonymous$9 _sigpoll;
+  struct anonymous_9 _sigpoll;
   // _sigsys
-  struct anonymous$10 _sigsys;
+  struct anonymous_10 _sigsys;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_signo
   signed int si_signo;
@@ -1062,7 +1062,7 @@ struct anonymous$12
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$11 _sifields;
+  union anonymous_11 _sifields;
 };
 
 union anonymous
@@ -1070,17 +1070,17 @@ union anonymous
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$12 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_12 *, void *);
 };
 
-union anonymous$8
+union anonymous_8
 {
   // _pad
   signed int _pad[12l];
   // _tid
   signed int _tid;
   // _sigev_thread
-  struct anonymous$7 _sigev_thread;
+  struct anonymous_7 _sigev_thread;
 };
 
 struct CtxMsg
@@ -1109,7 +1109,7 @@ struct DurationMsg
   signed int duration;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // ctx_msg
   struct CtxMsg ctx_msg;
@@ -1149,7 +1149,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1394,7 +1394,7 @@ struct __jmp_buf_tag
   // __mask_was_saved
   signed int __mask_was_saved;
   // __saved_mask
-  struct anonymous$0 __saved_mask;
+  struct anonymous_0 __saved_mask;
 };
 
 struct itimerspec
@@ -1418,7 +1418,7 @@ struct sigaction
   // __sigaction_handler
   union anonymous __sigaction_handler;
   // sa_mask
-  struct anonymous$0 sa_mask;
+  struct anonymous_0 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1434,7 +1434,7 @@ struct sigevent
   // sigev_notify
   signed int sigev_notify;
   // _sigev_un
-  union anonymous$8 _sigev_un;
+  union anonymous_8 _sigev_un;
 };
 
 struct timeval
@@ -1497,7 +1497,7 @@ signed int check_micro_version = 0;
 signed int check_minor_version = 10;
 // ck_mutex_lock
 // file ../../src/check_pack.c line 292
-static union anonymous$16 ck_mutex_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_16 ck_mutex_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // error_jmp_buffer
@@ -1508,13 +1508,13 @@ struct __jmp_buf_tag error_jmp_buffer[1l];
 static signed int group_pid;
 // pftab
 // file ../../src/check_pack.c line 84
-static signed int (*pftab[4l])(char **, union anonymous$13 *);
+static signed int (*pftab[4l])(char **, union anonymous_13 *);
 // pftab
 // file ../../src/check_pack.c line 84
-static signed int (*pftab[4l])(char **, union anonymous$13 *) = { (signed int (*)(char **, union anonymous$13 *))pack_ctx,
-    (signed int (*)(char **, union anonymous$13 *))pack_fail,
-    (signed int (*)(char **, union anonymous$13 *))pack_loc,
-    (signed int (*)(char **, union anonymous$13 *))pack_duration };
+static signed int (*pftab[4l])(char **, union anonymous_13 *) = { (signed int (*)(char **, union anonymous_13 *))pack_ctx,
+    (signed int (*)(char **, union anonymous_13 *))pack_fail,
+    (signed int (*)(char **, union anonymous_13 *))pack_loc,
+    (signed int (*)(char **, union anonymous_13 *))pack_duration };
 // s
 // file ../../tests/check_thread_stress.c line 7
 struct Suite *s;
@@ -1550,13 +1550,13 @@ extern struct _IO_FILE *stdout;
 struct TCase *tc;
 // upftab
 // file ../../src/check_pack.c line 91
-static void (*upftab[4l])(char **, union anonymous$13 *);
+static void (*upftab[4l])(char **, union anonymous_13 *);
 // upftab
 // file ../../src/check_pack.c line 91
-static void (*upftab[4l])(char **, union anonymous$13 *) = { (void (*)(char **, union anonymous$13 *))upack_ctx,
-    (void (*)(char **, union anonymous$13 *))upack_fail,
-    (void (*)(char **, union anonymous$13 *))upack_loc,
-    (void (*)(char **, union anonymous$13 *))upack_duration };
+static void (*upftab[4l])(char **, union anonymous_13 *) = { (void (*)(char **, union anonymous_13 *))upack_ctx,
+    (void (*)(char **, union anonymous_13 *))upack_fail,
+    (void (*)(char **, union anonymous_13 *))upack_loc,
+    (void (*)(char **, union anonymous_13 *))upack_duration };
 
 // _ck_assert_failed
 // file ../src/check.h line 419
@@ -1568,9 +1568,9 @@ void _ck_assert_failed(const char *file, signed int line, const char *expr, ...)
   const char *to_send;
   send_loc_info(file, line);
   va_start(ap, expr);
-  char *return_value_gcc_builtin_va_arg$1;
-  return_value_gcc_builtin_va_arg$1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$1));
-  msg = (const char *)return_value_gcc_builtin_va_arg$1;
+  char *return_value_gcc_builtin_va_arg_1;
+  return_value_gcc_builtin_va_arg_1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_1));
+  msg = (const char *)return_value_gcc_builtin_va_arg_1;
   if(!(msg == ((const char *)NULL)))
   {
     vsnprintf(buf, (unsigned long int)8192, msg, ap);
@@ -1581,9 +1581,9 @@ void _ck_assert_failed(const char *file, signed int line, const char *expr, ...)
     to_send = expr;
   va_end(ap);
   send_failure_info(to_send);
-  enum fork_status return_value_cur_fork_status$2;
-  return_value_cur_fork_status$2=cur_fork_status();
-  if((signed int)return_value_cur_fork_status$2 == CK_FORK)
+  enum fork_status return_value_cur_fork_status_2;
+  return_value_cur_fork_status_2=cur_fork_status();
+  if((signed int)return_value_cur_fork_status_2 == CK_FORK)
     _exit(1);
 
   else
@@ -1604,9 +1604,9 @@ void _tcase_add_test(struct TCase *tc, void (*fn)(signed int), const char *name,
   struct TF *tf;
   if(!(fn == ((void (*)(signed int))NULL)) && !(name == ((const char *)NULL)) && !(tc == ((struct TCase *)NULL)))
   {
-    void *return_value_emalloc$1;
-    return_value_emalloc$1=emalloc(sizeof(struct TF) /*32ul*/ );
-    tf = (struct TF *)return_value_emalloc$1;
+    void *return_value_emalloc_1;
+    return_value_emalloc_1=emalloc(sizeof(struct TF) /*32ul*/ );
+    tf = (struct TF *)return_value_emalloc_1;
     tf->fn = fn;
     tf->loop_start = start;
     tf->loop_end = end;
@@ -1638,9 +1638,9 @@ signed int check_get_clockid(void)
   if(clockid == -1)
   {
     void *timerid;
-    signed int return_value_timer_create$1;
-    return_value_timer_create$1=timer_create(1, (struct sigevent *)(void *)0, &timerid);
-    if(return_value_timer_create$1 == 0)
+    signed int return_value_timer_create_1;
+    return_value_timer_create_1=timer_create(1, (struct sigevent *)(void *)0, &timerid);
+    if(return_value_timer_create_1 == 0)
     {
       timer_delete(timerid);
       clockid = 1;
@@ -1690,9 +1690,9 @@ void check_list_advance(struct List *lp)
 {
   if(!(lp == ((struct List *)NULL)))
   {
-    signed int return_value_check_list_at_end$1;
-    return_value_check_list_at_end$1=check_list_at_end(lp);
-    if(return_value_check_list_at_end$1 == 0)
+    signed int return_value_check_list_at_end_1;
+    return_value_check_list_at_end_1=check_list_at_end(lp);
+    if(return_value_check_list_at_end_1 == 0)
       lp->current = lp->current + 1;
 
   }
@@ -1703,16 +1703,16 @@ void check_list_advance(struct List *lp)
 // file ../../src/check_list.h line 53
 void check_list_apply(struct List *lp, void (*fp)(void *))
 {
-  void *return_value_check_list_val$2;
+  void *return_value_check_list_val_2;
   if(!(fp == ((void (*)(void *))NULL)) && !(lp == ((struct List *)NULL)))
   {
     check_list_front(lp);
-    signed int return_value_check_list_at_end$1;
-    return_value_check_list_at_end$1=check_list_at_end(lp);
-    if(return_value_check_list_at_end$1 == 0)
+    signed int return_value_check_list_at_end_1;
+    return_value_check_list_at_end_1=check_list_at_end(lp);
+    if(return_value_check_list_at_end_1 == 0)
     {
-      return_value_check_list_val$2=check_list_val(lp);
-      fp(return_value_check_list_val$2);
+      return_value_check_list_val_2=check_list_val(lp);
+      fp(return_value_check_list_val_2);
       check_list_advance(lp);
     }
 
@@ -1736,14 +1736,14 @@ signed int check_list_at_end(struct List *lp)
 struct List * check_list_create(void)
 {
   struct List *lp;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(sizeof(struct List) /*24ul*/ );
-  lp = (struct List *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(sizeof(struct List) /*24ul*/ );
+  lp = (struct List *)return_value_emalloc_1;
   lp->n_elts = (unsigned int)0;
   lp->max_elts = (unsigned int)1;
-  void *return_value_emalloc$2;
-  return_value_emalloc$2=emalloc(sizeof(void *) /*8ul*/  * (unsigned long int)1);
-  lp->data = (void **)return_value_emalloc$2;
+  void *return_value_emalloc_2;
+  return_value_emalloc_2=emalloc(sizeof(void *) /*8ul*/  * (unsigned long int)1);
+  lp->data = (void **)return_value_emalloc_2;
   lp->last = -1;
   lp->current = lp->last;
   return lp;
@@ -1774,18 +1774,18 @@ void check_list_front(struct List *lp)
 // file ../../src/check_list.h line 45
 void * check_list_val(struct List *lp)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(lp == ((struct List *)NULL))
     return (void *)0;
 
   else
   {
     if(lp->current == -1)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = lp->current > lp->last ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = lp->current > lp->last ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return (void *)0;
 
     else
@@ -1813,9 +1813,9 @@ void check_waitpid_and_exit(signed int pid)
     do
       pid_w=waitpid(pid, &status, 0);
     while(pid_w == -1);
-    signed int return_value_waserror$1;
-    return_value_waserror$1=waserror(status, 0);
-    if(!(return_value_waserror$1 == 0))
+    signed int return_value_waserror_1;
+    return_value_waserror_1=waserror(status, 0);
+    if(!(return_value_waserror_1 == 0))
       exit(1);
 
   }
@@ -1840,9 +1840,9 @@ char * ck_strdup_printf(const char *fmt, ...)
   unsigned long int size = (unsigned long int)100;
   char *p;
   void **ap;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(size);
-  p = (char *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(size);
+  p = (char *)return_value_emalloc_1;
   while((_Bool)1)
   {
     ap = (void **)&fmt;
@@ -1856,9 +1856,9 @@ char * ck_strdup_printf(const char *fmt, ...)
 
     else
       size = size * (unsigned long int)2;
-    void *return_value_erealloc$2;
-    return_value_erealloc$2=erealloc((void *)p, size);
-    p = (char *)return_value_erealloc$2;
+    void *return_value_erealloc_2;
+    return_value_erealloc_2=erealloc((void *)p, size);
+    p = (char *)return_value_erealloc_2;
   }
 }
 
@@ -1933,17 +1933,17 @@ void eprintf(const char *fmt, const char *file, signed int line, ...)
   args = (void **)&line;
   vfprintf(stderr, fmt, args);
   args = ((void **)NULL);
-  unsigned long int return_value_strlen$3;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  unsigned long int return_value_strlen_3;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!((signed int)*fmt == 0))
   {
-    return_value_strlen$3=strlen(fmt);
-    if((signed int)fmt[-1l + (signed long int)return_value_strlen$3] == 58)
+    return_value_strlen_3=strlen(fmt);
+    if((signed int)fmt[-1l + (signed long int)return_value_strlen_3] == 58)
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, " %s", return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, " %s", return_value_strerror_2);
     }
 
   }
@@ -1969,9 +1969,9 @@ void * erealloc(void *ptr, unsigned long int n)
 static char * exit_msg(signed int exitval)
 {
   char *msg;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc((unsigned long int)100);
-  msg = (char *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc((unsigned long int)100);
+  msg = (char *)return_value_emalloc_1;
   snprintf(msg, (unsigned long int)100, "Early exit with return value %d", exitval);
   return msg;
 }
@@ -1981,9 +1981,9 @@ static char * exit_msg(signed int exitval)
 static struct Fixture * fixture_create(void (*fun)(void), signed int ischecked)
 {
   struct Fixture *f;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(sizeof(struct Fixture) /*16ul*/ );
-  f = (struct Fixture *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(sizeof(struct Fixture) /*16ul*/ );
+  f = (struct Fixture *)return_value_emalloc_1;
   f->fun = fun;
   f->ischecked = ischecked;
   return f;
@@ -2037,23 +2037,23 @@ enum print_output get_env_printmode(void)
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(env, "silent");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(env, "silent");
+    if(return_value_strcmp_1 == 0)
       return (enum print_output)CK_SILENT;
 
     else
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(env, "minimal");
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(env, "minimal");
+      if(return_value_strcmp_2 == 0)
         return (enum print_output)CK_MINIMAL;
 
       else
       {
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(env, "verbose");
-        if(return_value_strcmp$3 == 0)
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(env, "verbose");
+        if(return_value_strcmp_3 == 0)
           return (enum print_output)CK_VERBOSE;
 
         else
@@ -2086,7 +2086,7 @@ static struct _IO_FILE * get_pipe(void)
 static signed int get_result(char *buf, struct RcvMsg *rmsg)
 {
   enum ck_msg_type type;
-  union anonymous$13 msg;
+  union anonymous_13 msg;
   signed int n;
   n=upack(buf, &msg, &type);
   if(n == -1)
@@ -2124,8 +2124,8 @@ static signed int get_result(char *buf, struct RcvMsg *rmsg)
       else
         if((signed int)type == CK_MSG_DURATION)
         {
-          struct DurationMsg *get_result$$1$$4$$cmsg = (struct DurationMsg *)&msg;
-          rmsg->duration = get_result$$1$$4$$cmsg->duration;
+          struct DurationMsg *get_result__1__4__cmsg = (struct DurationMsg *)&msg;
+          rmsg->duration = get_result__1__4__cmsg->duration;
         }
 
         else
@@ -2138,7 +2138,7 @@ static signed int get_result(char *buf, struct RcvMsg *rmsg)
 void lfile_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output printmode, void *obj, enum cl_event evt)
 {
   struct TestResult *tr;
-  struct Suite *lfile_lfun$$1$$s;
+  struct Suite *lfile_lfun__1__s;
   switch((signed int)evt)
   {
     case CLINITLOG_SR:
@@ -2149,8 +2149,8 @@ void lfile_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output pri
       break;
     case CLSTART_S:
     {
-      lfile_lfun$$1$$s = (struct Suite *)obj;
-      fprintf(file, "Running suite %s\n", lfile_lfun$$1$$s->name);
+      lfile_lfun__1__s = (struct Suite *)obj;
+      fprintf(file, "Running suite %s\n", lfile_lfun__1__s->name);
       break;
     }
     case CLEND_SR:
@@ -2242,9 +2242,9 @@ static void maybe_grow(struct List *lp)
   if(lp->n_elts >= lp->max_elts)
   {
     lp->max_elts = lp->max_elts * (unsigned int)2;
-    void *return_value_erealloc$1;
-    return_value_erealloc$1=erealloc((void *)lp->data, (unsigned long int)lp->max_elts * sizeof(void *) /*8ul*/ );
-    lp->data = (void **)return_value_erealloc$1;
+    void *return_value_erealloc_1;
+    return_value_erealloc_1=erealloc((void *)lp->data, (unsigned long int)lp->max_elts * sizeof(void *) /*8ul*/ );
+    lp->data = (void **)return_value_erealloc_1;
   }
 
 }
@@ -2273,9 +2273,9 @@ struct _IO_FILE * open_tmp_file(char **name)
   if(fd >= 0)
   {
     file=fdopen(fd, "w+b");
-    signed int return_value_unlink$1;
-    return_value_unlink$1=unlink(*name);
-    if(file == ((struct _IO_FILE *)NULL) || return_value_unlink$1 == 0)
+    signed int return_value_unlink_1;
+    return_value_unlink_1=unlink(*name);
+    if(file == ((struct _IO_FILE *)NULL) || return_value_unlink_1 == 0)
     {
       free((void *)*name);
       *name = (char *)(void *)0;
@@ -2288,13 +2288,13 @@ struct _IO_FILE * open_tmp_file(char **name)
 
 // pack
 // file ../../src/check_pack.c line 98
-signed int pack(enum ck_msg_type type, char **buf, union anonymous$13 *msg)
+signed int pack(enum ck_msg_type type, char **buf, union anonymous_13 *msg)
 {
   if(buf == ((char **)NULL))
     return -1;
 
   else
-    if(msg == ((union anonymous$13 *)NULL))
+    if(msg == ((union anonymous_13 *)NULL))
       return 0;
 
     else
@@ -2312,9 +2312,9 @@ static signed int pack_ctx(char **buf, struct CtxMsg *cmsg)
 {
   char *ptr;
   signed int len = 4 + 4;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc((unsigned long int)len);
-  ptr = (char *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc((unsigned long int)len);
+  ptr = (char *)return_value_emalloc_1;
   *buf = ptr;
   pack_type(&ptr, (enum ck_msg_type)CK_MSG_CTX);
   pack_int(&ptr, (signed int)cmsg->ctx);
@@ -2327,9 +2327,9 @@ static signed int pack_duration(char **buf, struct DurationMsg *cmsg)
 {
   char *ptr;
   signed int len = 4 + 4;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc((unsigned long int)len);
-  ptr = (char *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc((unsigned long int)len);
+  ptr = (char *)return_value_emalloc_1;
   *buf = ptr;
   pack_type(&ptr, (enum ck_msg_type)CK_MSG_DURATION);
   pack_int(&ptr, cmsg->duration);
@@ -2342,20 +2342,20 @@ static signed int pack_fail(char **buf, struct FailMsg *fmsg)
 {
   char *ptr;
   signed int len;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(fmsg->msg == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(fmsg->msg);
-    tmp_if_expr$2 = return_value_strlen$1;
+    return_value_strlen_1=strlen(fmsg->msg);
+    tmp_if_expr_2 = return_value_strlen_1;
   }
 
   else
-    tmp_if_expr$2 = (unsigned long int)0;
-  len = (signed int)((unsigned long int)(4 + 4) + tmp_if_expr$2);
-  void *return_value_emalloc$3;
-  return_value_emalloc$3=emalloc((unsigned long int)len);
-  ptr = (char *)return_value_emalloc$3;
+    tmp_if_expr_2 = (unsigned long int)0;
+  len = (signed int)((unsigned long int)(4 + 4) + tmp_if_expr_2);
+  void *return_value_emalloc_3;
+  return_value_emalloc_3=emalloc((unsigned long int)len);
+  ptr = (char *)return_value_emalloc_3;
   *buf = ptr;
   pack_type(&ptr, (enum ck_msg_type)CK_MSG_FAIL);
   pack_str(&ptr, fmsg->msg);
@@ -2381,20 +2381,20 @@ static signed int pack_loc(char **buf, struct LocMsg *lmsg)
 {
   char *ptr;
   signed int len;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(lmsg->file == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(lmsg->file);
-    tmp_if_expr$2 = return_value_strlen$1;
+    return_value_strlen_1=strlen(lmsg->file);
+    tmp_if_expr_2 = return_value_strlen_1;
   }
 
   else
-    tmp_if_expr$2 = (unsigned long int)0;
-  len = (signed int)((unsigned long int)(4 + 4) + tmp_if_expr$2 + (unsigned long int)4);
-  void *return_value_emalloc$3;
-  return_value_emalloc$3=emalloc((unsigned long int)len);
-  ptr = (char *)return_value_emalloc$3;
+    tmp_if_expr_2 = (unsigned long int)0;
+  len = (signed int)((unsigned long int)(4 + 4) + tmp_if_expr_2 + (unsigned long int)4);
+  void *return_value_emalloc_3;
+  return_value_emalloc_3=emalloc((unsigned long int)len);
+  ptr = (char *)return_value_emalloc_3;
   *buf = ptr;
   pack_type(&ptr, (enum ck_msg_type)CK_MSG_LOC);
   pack_str(&ptr, lmsg->file);
@@ -2407,14 +2407,14 @@ static signed int pack_loc(char **buf, struct LocMsg *lmsg)
 static void pack_str(char **buf, const char *val)
 {
   signed int strsz;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(val == ((const char *)NULL))
     strsz = 0;
 
   else
   {
-    return_value_strlen$1=strlen(val);
-    strsz = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(val);
+    strsz = (signed int)return_value_strlen_1;
   }
   pack_int(buf, strsz);
   if(strsz >= 1)
@@ -2436,22 +2436,22 @@ static void pack_type(char **buf, enum ck_msg_type type)
 // file ../../src/check_run.c line 437
 static char * pass_msg(void)
 {
-  char *return_value_strdup$1;
-  return_value_strdup$1=strdup("Passed");
-  return return_value_strdup$1;
+  char *return_value_strdup_1;
+  return_value_strdup_1=strdup("Passed");
+  return return_value_strdup_1;
 }
 
 // percent_passed
 // file ../../src/check_str.c line 126
 static signed int percent_passed(struct TestStats *t)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(t->n_failed == 0)
-    tmp_if_expr$1 = t->n_errors == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = t->n_errors == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     return 100;
 
   else
@@ -2464,7 +2464,7 @@ static signed int percent_passed(struct TestStats *t)
 
 // ppack
 // file ../../src/check_pack.h line 81
-void ppack(struct _IO_FILE *fdes, enum ck_msg_type type, union anonymous$13 *msg)
+void ppack(struct _IO_FILE *fdes, enum ck_msg_type type, union anonymous_13 *msg)
 {
   char *buf = (char *)(void *)0;
   signed int n;
@@ -2475,7 +2475,7 @@ void ppack(struct _IO_FILE *fdes, enum ck_msg_type type, union anonymous$13 *msg
 
   do
   {
-    struct anonymous$15 __cancel_buf;
+    struct anonymous_15 __cancel_buf;
     void (*__cancel_routine)(void *) = ppack_cleanup;
     void *__cancel_arg = (void *)&ck_mutex_lock;
     signed int __not_first_call;
@@ -2490,9 +2490,9 @@ void ppack(struct _IO_FILE *fdes, enum ck_msg_type type, union anonymous$13 *msg
     do
     {
       pthread_mutex_lock(&ck_mutex_lock);
-      unsigned long int return_value_fwrite$1;
-      return_value_fwrite$1=fwrite((const void *)buf, (unsigned long int)1, (unsigned long int)n, fdes);
-      r = (signed long int)return_value_fwrite$1;
+      unsigned long int return_value_fwrite_1;
+      return_value_fwrite_1=fwrite((const void *)buf, (unsigned long int)1, (unsigned long int)n, fdes);
+      r = (signed long int)return_value_fwrite_1;
       fflush(fdes);
       pthread_mutex_unlock(&ck_mutex_lock);
 
@@ -2513,7 +2513,7 @@ void ppack(struct _IO_FILE *fdes, enum ck_msg_type type, union anonymous$13 *msg
 // file ../../src/check_pack.c line 293
 static void ppack_cleanup(void *mutex)
 {
-  pthread_mutex_unlock((union anonymous$16 *)mutex);
+  pthread_mutex_unlock((union anonymous_16 *)mutex);
 }
 
 // punpack
@@ -2526,9 +2526,9 @@ struct RcvMsg * punpack(struct _IO_FILE *fdes)
   char *buf;
   struct RcvMsg *rmsg;
   rmsg=rcvmsg_create();
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc((unsigned long int)8192);
-  buf = (char *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc((unsigned long int)8192);
+  buf = (char *)return_value_emalloc_1;
   nread=read_buf(fdes, 8192, buf);
   nparse = nread;
   while(nparse >= 1)
@@ -2558,9 +2558,9 @@ struct RcvMsg * punpack(struct _IO_FILE *fdes)
 static struct RcvMsg * rcvmsg_create(void)
 {
   struct RcvMsg *rmsg;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(sizeof(struct RcvMsg) /*56ul*/ );
-  rmsg = (struct RcvMsg *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(sizeof(struct RcvMsg) /*56ul*/ );
+  rmsg = (struct RcvMsg *)return_value_emalloc_1;
   rmsg->lastctx = (enum ck_result_ctx)CK_CTX_INVALID;
   rmsg->failctx = (enum ck_result_ctx)CK_CTX_INVALID;
   rmsg->msg = (char *)(void *)0;
@@ -2617,12 +2617,12 @@ static void rcvmsg_update_loc(struct RcvMsg *rmsg, const char *file, signed int 
 static signed int read_buf(struct _IO_FILE *fdes, signed int size, char *buf)
 {
   signed int n;
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)buf, (unsigned long int)1, (unsigned long int)size, fdes);
-  n = (signed int)return_value_fread$1;
-  signed int return_value_ferror$2;
-  return_value_ferror$2=ferror(fdes);
-  if(!(return_value_ferror$2 == 0))
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)buf, (unsigned long int)1, (unsigned long int)size, fdes);
+  n = (signed int)return_value_fread_1;
+  signed int return_value_ferror_2;
+  return_value_ferror_2=ferror(fdes);
+  if(!(return_value_ferror_2 == 0))
     eprintf("Error in call to fread:", "../../src/check_pack.c", 330 - 4);
 
   return n;
@@ -2633,9 +2633,9 @@ static signed int read_buf(struct _IO_FILE *fdes, signed int size, char *buf)
 static struct TestResult * receive_result_info_fork(const char *tcname, const char *tname, signed int iter, signed int status, signed int expected_signal, signed char allowed_exit_value)
 {
   struct TestResult *tr;
-  signed int return_value_waserror$1;
-  return_value_waserror$1=waserror(status, expected_signal);
-  tr=receive_test_result(return_value_waserror$1);
+  signed int return_value_waserror_1;
+  return_value_waserror_1=waserror(status, expected_signal);
+  tr=receive_test_result(return_value_waserror_1);
   if(tr == ((struct TestResult *)NULL))
     eprintf("Failed to receive test result", "../../src/check_run.c", 525);
 
@@ -2714,9 +2714,9 @@ void send_ctx_info(enum ck_result_ctx ctx)
 {
   struct CtxMsg cmsg;
   cmsg.ctx = ctx;
-  struct _IO_FILE *return_value_get_pipe$1;
-  return_value_get_pipe$1=get_pipe();
-  ppack(return_value_get_pipe$1, (enum ck_msg_type)CK_MSG_CTX, (union anonymous$13 *)&cmsg);
+  struct _IO_FILE *return_value_get_pipe_1;
+  return_value_get_pipe_1=get_pipe();
+  ppack(return_value_get_pipe_1, (enum ck_msg_type)CK_MSG_CTX, (union anonymous_13 *)&cmsg);
 }
 
 // send_duration_info
@@ -2725,9 +2725,9 @@ void send_duration_info(signed int duration)
 {
   struct DurationMsg dmsg;
   dmsg.duration = duration;
-  struct _IO_FILE *return_value_get_pipe$1;
-  return_value_get_pipe$1=get_pipe();
-  ppack(return_value_get_pipe$1, (enum ck_msg_type)CK_MSG_DURATION, (union anonymous$13 *)&dmsg);
+  struct _IO_FILE *return_value_get_pipe_1;
+  return_value_get_pipe_1=get_pipe();
+  ppack(return_value_get_pipe_1, (enum ck_msg_type)CK_MSG_DURATION, (union anonymous_13 *)&dmsg);
 }
 
 // send_failure_info
@@ -2736,9 +2736,9 @@ void send_failure_info(const char *msg)
 {
   struct FailMsg fmsg;
   fmsg.msg=strdup(msg);
-  struct _IO_FILE *return_value_get_pipe$1;
-  return_value_get_pipe$1=get_pipe();
-  ppack(return_value_get_pipe$1, (enum ck_msg_type)CK_MSG_FAIL, (union anonymous$13 *)&fmsg);
+  struct _IO_FILE *return_value_get_pipe_1;
+  return_value_get_pipe_1=get_pipe();
+  ppack(return_value_get_pipe_1, (enum ck_msg_type)CK_MSG_FAIL, (union anonymous_13 *)&fmsg);
   free((void *)fmsg.msg);
 }
 
@@ -2749,9 +2749,9 @@ void send_loc_info(const char *file, signed int line)
   struct LocMsg lmsg;
   lmsg.file=strdup(file);
   lmsg.line = line;
-  struct _IO_FILE *return_value_get_pipe$1;
-  return_value_get_pipe$1=get_pipe();
-  ppack(return_value_get_pipe$1, (enum ck_msg_type)CK_MSG_LOC, (union anonymous$13 *)&lmsg);
+  struct _IO_FILE *return_value_get_pipe_1;
+  return_value_get_pipe_1=get_pipe();
+  ppack(return_value_get_pipe_1, (enum ck_msg_type)CK_MSG_LOC, (union anonymous_13 *)&lmsg);
   free((void *)lmsg.file);
 }
 
@@ -2770,7 +2770,7 @@ static void * sendinfo(void *userdata)
 static void set_fork_info(struct TestResult *tr, signed int status, signed int signal_expected, signed char allowed_exit_value)
 {
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$1
+union anonymous_1
 {
   // __in
   signed int __in;
@@ -2780,10 +2780,10 @@ union anonymous$1
 
 /* */
   ;
-  signed int was_sig = (signed int)((signed int)(signed char)((((union anonymous$1){ .__in=status }).__i & 0x7f) + 1) >> 1 > 0);
-  signed int was_exit = (signed int)((((union anonymous$1){ .__in=status }).__i & 0x7f) == 0);
-  signed char exit_status = (signed char)((((union anonymous$1){ .__in=status }).__i & 0xff00) >> 8);
-  signed int signal_received = ((union anonymous$1){ .__in=status }).__i & 0x7f;
+  signed int was_sig = (signed int)((signed int)(signed char)((((union anonymous_1){ .__in=status }).__i & 0x7f) + 1) >> 1 > 0);
+  signed int was_exit = (signed int)((((union anonymous_1){ .__in=status }).__i & 0x7f) == 0);
+  signed char exit_status = (signed char)((((union anonymous_1){ .__in=status }).__i & 0xff00) >> 8);
+  signed int signal_received = ((union anonymous_1){ .__in=status }).__i & 0x7f;
   if(!(was_sig == 0))
   {
     if(signal_expected == signal_received)
@@ -2961,15 +2961,15 @@ static char * signal_error_msg(signed int signal_received, signed int signal_exp
   char *sig_r_str;
   char *sig_e_str;
   char *msg;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc((unsigned long int)100);
-  msg = (char *)return_value_emalloc$1;
-  char *return_value_strsignal$2;
-  return_value_strsignal$2=strsignal(signal_received);
-  sig_r_str=strdup(return_value_strsignal$2);
-  char *return_value_strsignal$3;
-  return_value_strsignal$3=strsignal(signal_expected);
-  sig_e_str=strdup(return_value_strsignal$3);
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc((unsigned long int)100);
+  msg = (char *)return_value_emalloc_1;
+  char *return_value_strsignal_2;
+  return_value_strsignal_2=strsignal(signal_received);
+  sig_r_str=strdup(return_value_strsignal_2);
+  char *return_value_strsignal_3;
+  return_value_strsignal_3=strsignal(signal_expected);
+  sig_e_str=strdup(return_value_strsignal_3);
   if(!(alarm_received == 0))
     snprintf(msg, (unsigned long int)100, "Test timeout expired, expected signal %d (%s)", signal_expected, sig_e_str);
 
@@ -2985,17 +2985,17 @@ static char * signal_error_msg(signed int signal_received, signed int signal_exp
 static char * signal_msg(signed int signal)
 {
   char *msg;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc((unsigned long int)100);
-  msg = (char *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc((unsigned long int)100);
+  msg = (char *)return_value_emalloc_1;
   if(!(alarm_received == 0))
     snprintf(msg, (unsigned long int)100, "Test timeout expired");
 
   else
   {
-    char *return_value_strsignal$2;
-    return_value_strsignal$2=strsignal(signal);
-    snprintf(msg, (unsigned long int)100, "Received signal %d (%s)", signal, return_value_strsignal$2);
+    char *return_value_strsignal_2;
+    return_value_strsignal_2=strsignal(signal);
+    snprintf(msg, (unsigned long int)100, "Received signal %d (%s)", signal, return_value_strsignal_2);
   }
   return msg;
 }
@@ -3006,9 +3006,9 @@ char * sr_stat_str(struct SRunner *sr)
 {
   char *str;
   struct TestStats *ts = sr->stats;
-  signed int return_value_percent_passed$1;
-  return_value_percent_passed$1=percent_passed(ts);
-  str=ck_strdup_printf("%d%%: Checks: %d, Failures: %d, Errors: %d", return_value_percent_passed$1, ts->n_checked, ts->n_failed, ts->n_errors);
+  signed int return_value_percent_passed_1;
+  return_value_percent_passed_1=percent_passed(ts);
+  str=ck_strdup_printf("%d%%: Checks: %d, Failures: %d, Errors: %d", return_value_percent_passed_1, ts->n_checked, ts->n_failed, ts->n_errors);
   return str;
 }
 
@@ -3040,27 +3040,27 @@ void srunner_add_suite(struct SRunner *sr, struct Suite *s)
 // file ../src/check.h line 920
 struct SRunner * srunner_create(struct Suite *s)
 {
-  struct SRunner *srunner_create$$1$$sr;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(sizeof(struct SRunner) /*64ul*/ );
-  srunner_create$$1$$sr = (struct SRunner *)return_value_emalloc$1;
-  srunner_create$$1$$sr->slst=check_list_create();
+  struct SRunner *srunner_create__1__sr;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(sizeof(struct SRunner) /*64ul*/ );
+  srunner_create__1__sr = (struct SRunner *)return_value_emalloc_1;
+  srunner_create__1__sr->slst=check_list_create();
   if(!(s == ((struct Suite *)NULL)))
-    check_list_add_end(srunner_create$$1$$sr->slst, (void *)s);
+    check_list_add_end(srunner_create__1__sr->slst, (void *)s);
 
-  void *return_value_emalloc$2;
-  return_value_emalloc$2=emalloc(sizeof(struct TestStats) /*12ul*/ );
-  srunner_create$$1$$sr->stats = (struct TestStats *)return_value_emalloc$2;
-  srunner_create$$1$$sr->stats->n_errors = 0;
-  srunner_create$$1$$sr->stats->n_failed = srunner_create$$1$$sr->stats->n_errors;
-  srunner_create$$1$$sr->stats->n_checked = srunner_create$$1$$sr->stats->n_failed;
-  srunner_create$$1$$sr->resultlst=check_list_create();
-  srunner_create$$1$$sr->log_fname = (const char *)(void *)0;
-  srunner_create$$1$$sr->xml_fname = (const char *)(void *)0;
-  srunner_create$$1$$sr->tap_fname = (const char *)(void *)0;
-  srunner_create$$1$$sr->loglst = (struct List *)(void *)0;
-  srunner_create$$1$$sr->fstat = (enum fork_status)CK_FORK_GETENV;
-  return srunner_create$$1$$sr;
+  void *return_value_emalloc_2;
+  return_value_emalloc_2=emalloc(sizeof(struct TestStats) /*12ul*/ );
+  srunner_create__1__sr->stats = (struct TestStats *)return_value_emalloc_2;
+  srunner_create__1__sr->stats->n_errors = 0;
+  srunner_create__1__sr->stats->n_failed = srunner_create__1__sr->stats->n_errors;
+  srunner_create__1__sr->stats->n_checked = srunner_create__1__sr->stats->n_failed;
+  srunner_create__1__sr->resultlst=check_list_create();
+  srunner_create__1__sr->log_fname = (const char *)(void *)0;
+  srunner_create__1__sr->xml_fname = (const char *)(void *)0;
+  srunner_create__1__sr->tap_fname = (const char *)(void *)0;
+  srunner_create__1__sr->loglst = (struct List *)(void *)0;
+  srunner_create__1__sr->fstat = (enum fork_status)CK_FORK_GETENV;
+  return srunner_create__1__sr;
 }
 
 // srunner_end_logging
@@ -3072,17 +3072,17 @@ void srunner_end_logging(struct SRunner *sr)
   srunner_send_evt(sr, (void *)0, (enum cl_event)CLENDLOG_SR);
   l = sr->loglst;
   check_list_front(l);
-  signed int return_value_check_list_at_end$1;
+  signed int return_value_check_list_at_end_1;
   do
   {
-    return_value_check_list_at_end$1=check_list_at_end(l);
-    if(!(return_value_check_list_at_end$1 == 0))
+    return_value_check_list_at_end_1=check_list_at_end(l);
+    if(!(return_value_check_list_at_end_1 == 0))
       break;
 
     struct Log *lg;
-    void *return_value_check_list_val$2;
-    return_value_check_list_val$2=check_list_val(l);
-    lg = (struct Log *)return_value_check_list_val$2;
+    void *return_value_check_list_val_2;
+    return_value_check_list_val_2=check_list_val(l);
+    lg = (struct Log *)return_value_check_list_val_2;
     if(!(lg->close == 0))
     {
       rval=fclose(lg->lfile);
@@ -3106,32 +3106,32 @@ struct TestResult ** srunner_failures(struct SRunner *sr)
   signed int i = 0;
   struct TestResult **trarray;
   struct List *rlst;
-  signed int return_value_srunner_ntests_failed$1;
-  return_value_srunner_ntests_failed$1=srunner_ntests_failed(sr);
-  void *return_value_emalloc$2;
-  return_value_emalloc$2=emalloc(sizeof(struct TestResult *) /*8ul*/  * (unsigned long int)return_value_srunner_ntests_failed$1);
-  trarray = (struct TestResult **)return_value_emalloc$2;
+  signed int return_value_srunner_ntests_failed_1;
+  return_value_srunner_ntests_failed_1=srunner_ntests_failed(sr);
+  void *return_value_emalloc_2;
+  return_value_emalloc_2=emalloc(sizeof(struct TestResult *) /*8ul*/  * (unsigned long int)return_value_srunner_ntests_failed_1);
+  trarray = (struct TestResult **)return_value_emalloc_2;
   rlst = sr->resultlst;
   check_list_front(rlst);
-  signed int return_value_check_list_at_end$3;
-  signed int tmp_post$5;
+  signed int return_value_check_list_at_end_3;
+  signed int tmp_post_5;
   do
   {
-    return_value_check_list_at_end$3=check_list_at_end(rlst);
-    if(!(return_value_check_list_at_end$3 == 0))
+    return_value_check_list_at_end_3=check_list_at_end(rlst);
+    if(!(return_value_check_list_at_end_3 == 0))
       break;
 
     struct TestResult *tr;
-    void *return_value_check_list_val$4;
-    return_value_check_list_val$4=check_list_val(rlst);
-    tr = (struct TestResult *)return_value_check_list_val$4;
-    signed int return_value_non_pass$6;
-    return_value_non_pass$6=non_pass((signed int)tr->rtype);
-    if(!(return_value_non_pass$6 == 0))
+    void *return_value_check_list_val_4;
+    return_value_check_list_val_4=check_list_val(rlst);
+    tr = (struct TestResult *)return_value_check_list_val_4;
+    signed int return_value_non_pass_6;
+    return_value_non_pass_6=non_pass((signed int)tr->rtype);
+    if(!(return_value_non_pass_6 == 0))
     {
-      tmp_post$5 = i;
+      tmp_post_5 = i;
       i = i + 1;
-      trarray[(signed long int)tmp_post$5] = tr;
+      trarray[(signed long int)tmp_post_5] = tr;
     }
 
     check_list_advance(rlst);
@@ -3151,9 +3151,9 @@ enum fork_status srunner_fork_status(struct SRunner *sr)
     if(env == ((char *)NULL))
       return (enum fork_status)CK_FORK;
 
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(env, "no");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(env, "no");
+    if(return_value_strcmp_1 == 0)
       return (enum fork_status)CK_NOFORK;
 
     else
@@ -3180,21 +3180,21 @@ void srunner_fprint(struct _IO_FILE *file, struct SRunner *sr, enum print_output
 static void srunner_fprint_results(struct _IO_FILE *file, struct SRunner *sr, enum print_output print_mode)
 {
   struct List *resultlst;
-  signed int return_value_check_list_at_end$1;
+  signed int return_value_check_list_at_end_1;
   if(!((signed int)print_mode == CK_SUBUNIT))
   {
     resultlst = sr->resultlst;
     check_list_front(resultlst);
     do
     {
-      return_value_check_list_at_end$1=check_list_at_end(resultlst);
-      if(!(return_value_check_list_at_end$1 == 0))
+      return_value_check_list_at_end_1=check_list_at_end(resultlst);
+      if(!(return_value_check_list_at_end_1 == 0))
         break;
 
       struct TestResult *tr;
-      void *return_value_check_list_val$2;
-      return_value_check_list_val$2=check_list_val(resultlst);
-      tr = (struct TestResult *)return_value_check_list_val$2;
+      void *return_value_check_list_val_2;
+      return_value_check_list_val_2=check_list_val(resultlst);
+      tr = (struct TestResult *)return_value_check_list_val_2;
       tr_fprint(file, tr, print_mode);
       check_list_advance(resultlst);
     }
@@ -3231,8 +3231,8 @@ void srunner_free(struct SRunner *sr)
 {
   struct List *l;
   struct TestResult *tr;
-  signed int return_value_check_list_at_end$1;
-  signed int return_value_check_list_at_end$3;
+  signed int return_value_check_list_at_end_1;
+  signed int return_value_check_list_at_end_3;
   if(!(sr == ((struct SRunner *)NULL)))
   {
     free((void *)sr->stats);
@@ -3240,13 +3240,13 @@ void srunner_free(struct SRunner *sr)
     check_list_front(l);
     do
     {
-      return_value_check_list_at_end$1=check_list_at_end(l);
-      if(!(return_value_check_list_at_end$1 == 0))
+      return_value_check_list_at_end_1=check_list_at_end(l);
+      if(!(return_value_check_list_at_end_1 == 0))
         break;
 
-      void *return_value_check_list_val$2;
-      return_value_check_list_val$2=check_list_val(l);
-      suite_free((struct Suite *)return_value_check_list_val$2);
+      void *return_value_check_list_val_2;
+      return_value_check_list_val_2=check_list_val(l);
+      suite_free((struct Suite *)return_value_check_list_val_2);
       check_list_advance(l);
     }
     while((_Bool)1);
@@ -3255,13 +3255,13 @@ void srunner_free(struct SRunner *sr)
     check_list_front(l);
     do
     {
-      return_value_check_list_at_end$3=check_list_at_end(l);
-      if(!(return_value_check_list_at_end$3 == 0))
+      return_value_check_list_at_end_3=check_list_at_end(l);
+      if(!(return_value_check_list_at_end_3 == 0))
         break;
 
-      void *return_value_check_list_val$4;
-      return_value_check_list_val$4=check_list_val(l);
-      tr = (struct TestResult *)return_value_check_list_val$4;
+      void *return_value_check_list_val_4;
+      return_value_check_list_val_4=check_list_val(l);
+      tr = (struct TestResult *)return_value_check_list_val_4;
       tr_free(tr);
       check_list_advance(l);
     }
@@ -3276,27 +3276,27 @@ void srunner_free(struct SRunner *sr)
 // file ../../src/check_log.c line 52
 signed int srunner_has_log(struct SRunner *sr)
 {
-  const char *return_value_srunner_log_fname$1;
-  return_value_srunner_log_fname$1=srunner_log_fname(sr);
-  return (signed int)(return_value_srunner_log_fname$1 != (const char *)(void *)0);
+  const char *return_value_srunner_log_fname_1;
+  return_value_srunner_log_fname_1=srunner_log_fname(sr);
+  return (signed int)(return_value_srunner_log_fname_1 != (const char *)(void *)0);
 }
 
 // srunner_has_tap
 // file ../../src/check_log.c line 97
 signed int srunner_has_tap(struct SRunner *sr)
 {
-  const char *return_value_srunner_tap_fname$1;
-  return_value_srunner_tap_fname$1=srunner_tap_fname(sr);
-  return (signed int)(return_value_srunner_tap_fname$1 != (const char *)(void *)0);
+  const char *return_value_srunner_tap_fname_1;
+  return_value_srunner_tap_fname_1=srunner_tap_fname(sr);
+  return (signed int)(return_value_srunner_tap_fname_1 != (const char *)(void *)0);
 }
 
 // srunner_has_xml
 // file ../../src/check_log.c line 74
 signed int srunner_has_xml(struct SRunner *sr)
 {
-  const char *return_value_srunner_xml_fname$1;
-  return_value_srunner_xml_fname$1=srunner_xml_fname(sr);
-  return (signed int)(return_value_srunner_xml_fname$1 != (const char *)(void *)0);
+  const char *return_value_srunner_xml_fname_1;
+  return_value_srunner_xml_fname_1=srunner_xml_fname(sr);
+  return (signed int)(return_value_srunner_xml_fname_1 != (const char *)(void *)0);
 }
 
 // srunner_init_logging
@@ -3331,68 +3331,68 @@ static void srunner_iterate_suites(struct SRunner *sr, const char *sname, const 
 {
   struct List *slst;
   struct List *tcl;
-  struct TCase *srunner_iterate_suites$$1$$tc;
+  struct TCase *srunner_iterate_suites__1__tc;
   slst = sr->slst;
   check_list_front(slst);
-  signed int return_value_check_list_at_end$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  signed int return_value_suite_tcase$5;
-  signed int return_value_check_list_at_end$8;
-  signed int return_value_strcmp$10;
+  signed int return_value_check_list_at_end_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  signed int return_value_suite_tcase_5;
+  signed int return_value_check_list_at_end_8;
+  signed int return_value_strcmp_10;
   do
   {
-    return_value_check_list_at_end$1=check_list_at_end(slst);
-    if(!(return_value_check_list_at_end$1 == 0))
+    return_value_check_list_at_end_1=check_list_at_end(slst);
+    if(!(return_value_check_list_at_end_1 == 0))
       break;
 
-    struct Suite *srunner_iterate_suites$$1$$1$$1$$s;
-    void *return_value_check_list_val$2;
-    return_value_check_list_val$2=check_list_val(slst);
-    srunner_iterate_suites$$1$$1$$1$$s = (struct Suite *)return_value_check_list_val$2;
+    struct Suite *srunner_iterate_suites__1__1__1__s;
+    void *return_value_check_list_val_2;
+    return_value_check_list_val_2=check_list_val(slst);
+    srunner_iterate_suites__1__1__1__s = (struct Suite *)return_value_check_list_val_2;
     if(!(sname == ((const char *)NULL)))
     {
-      return_value_strcmp$3=strcmp(sname, srunner_iterate_suites$$1$$1$$1$$s->name);
-      tmp_if_expr$4 = return_value_strcmp$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_3=strcmp(sname, srunner_iterate_suites__1__1__1__s->name);
+      tmp_if_expr_4 = return_value_strcmp_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
       if(!(tcname == ((const char *)NULL)))
       {
-        return_value_suite_tcase$5=suite_tcase(srunner_iterate_suites$$1$$1$$1$$s, tcname);
-        tmp_if_expr$6 = !(return_value_suite_tcase$5 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_suite_tcase_5=suite_tcase(srunner_iterate_suites__1__1__1__s, tcname);
+        tmp_if_expr_6 = !(return_value_suite_tcase_5 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$7)
+    if(!tmp_if_expr_7)
     {
-      log_suite_start(sr, srunner_iterate_suites$$1$$1$$1$$s);
-      tcl = srunner_iterate_suites$$1$$1$$1$$s->tclst;
+      log_suite_start(sr, srunner_iterate_suites__1__1__1__s);
+      tcl = srunner_iterate_suites__1__1__1__s->tclst;
       check_list_front(tcl);
       do
       {
-        return_value_check_list_at_end$8=check_list_at_end(tcl);
-        if(!(return_value_check_list_at_end$8 == 0))
+        return_value_check_list_at_end_8=check_list_at_end(tcl);
+        if(!(return_value_check_list_at_end_8 == 0))
           break;
 
-        void *return_value_check_list_val$9;
-        return_value_check_list_val$9=check_list_val(tcl);
-        srunner_iterate_suites$$1$$tc = (struct TCase *)return_value_check_list_val$9;
+        void *return_value_check_list_val_9;
+        return_value_check_list_val_9=check_list_val(tcl);
+        srunner_iterate_suites__1__tc = (struct TCase *)return_value_check_list_val_9;
         if(!(tcname == ((const char *)NULL)))
         {
-          return_value_strcmp$10=strcmp(tcname, srunner_iterate_suites$$1$$tc->name);
-          if(return_value_strcmp$10 == 0)
+          return_value_strcmp_10=strcmp(tcname, srunner_iterate_suites__1__tc->name);
+          if(return_value_strcmp_10 == 0)
             goto __CPROVER_DUMP_L10;
 
         }
@@ -3402,12 +3402,12 @@ static void srunner_iterate_suites(struct SRunner *sr, const char *sname, const 
 
         __CPROVER_DUMP_L10:
           ;
-          srunner_run_tcase(sr, srunner_iterate_suites$$1$$tc);
+          srunner_run_tcase(sr, srunner_iterate_suites__1__tc);
         }
         check_list_advance(tcl);
       }
       while((_Bool)1);
-      log_suite_end(sr, srunner_iterate_suites$$1$$1$$1$$s);
+      log_suite_end(sr, srunner_iterate_suites__1__1__1__s);
     }
 
     check_list_advance(slst);
@@ -3424,24 +3424,24 @@ static void srunner_iterate_tcase_tfuns(struct SRunner *sr, struct TCase *tc)
   struct TestResult *tr = (struct TestResult *)(void *)0;
   tfl = tc->tflst;
   check_list_front(tfl);
-  signed int return_value_check_list_at_end$1;
+  signed int return_value_check_list_at_end_1;
   do
   {
-    return_value_check_list_at_end$1=check_list_at_end(tfl);
-    if(!(return_value_check_list_at_end$1 == 0))
+    return_value_check_list_at_end_1=check_list_at_end(tfl);
+    if(!(return_value_check_list_at_end_1 == 0))
       break;
 
     signed int i;
-    void *return_value_check_list_val$2;
-    return_value_check_list_val$2=check_list_val(tfl);
-    tfun = (struct TF *)return_value_check_list_val$2;
+    void *return_value_check_list_val_2;
+    return_value_check_list_val_2=check_list_val(tfl);
+    tfun = (struct TF *)return_value_check_list_val_2;
     i = tfun->loop_start;
     for( ; !(i >= tfun->loop_end); i = i + 1)
     {
       log_test_start(sr, tc, tfun);
-      enum fork_status return_value_srunner_fork_status$3;
-      return_value_srunner_fork_status$3=srunner_fork_status(sr);
-      switch((signed int)return_value_srunner_fork_status$3)
+      enum fork_status return_value_srunner_fork_status_3;
+      return_value_srunner_fork_status_3=srunner_fork_status(sr);
+      switch((signed int)return_value_srunner_fork_status_3)
       {
         case CK_FORK:
         {
@@ -3479,9 +3479,9 @@ const char * srunner_log_fname(struct SRunner *sr)
 
   else
   {
-    char *return_value_getenv$1;
-    return_value_getenv$1=getenv("CK_LOG_FILE_NAME");
-    return return_value_getenv$1;
+    char *return_value_getenv_1;
+    return_value_getenv_1=getenv("CK_LOG_FILE_NAME");
+    return return_value_getenv_1;
   }
 }
 
@@ -3504,9 +3504,9 @@ signed int srunner_ntests_run(struct SRunner *sr)
 static struct _IO_FILE * srunner_open_file(const char *filename)
 {
   struct _IO_FILE *f = (struct _IO_FILE *)(void *)0;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(filename, "-");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(filename, "-");
+  if(return_value_strcmp_1 == 0)
     f = stdout;
 
   else
@@ -3524,13 +3524,13 @@ static struct _IO_FILE * srunner_open_file(const char *filename)
 struct _IO_FILE * srunner_open_lfile(struct SRunner *sr)
 {
   struct _IO_FILE *f = (struct _IO_FILE *)(void *)0;
-  signed int return_value_srunner_has_log$2;
-  return_value_srunner_has_log$2=srunner_has_log(sr);
-  if(!(return_value_srunner_has_log$2 == 0))
+  signed int return_value_srunner_has_log_2;
+  return_value_srunner_has_log_2=srunner_has_log(sr);
+  if(!(return_value_srunner_has_log_2 == 0))
   {
-    const char *return_value_srunner_log_fname$1;
-    return_value_srunner_log_fname$1=srunner_log_fname(sr);
-    f=srunner_open_file(return_value_srunner_log_fname$1);
+    const char *return_value_srunner_log_fname_1;
+    return_value_srunner_log_fname_1=srunner_log_fname(sr);
+    f=srunner_open_file(return_value_srunner_log_fname_1);
   }
 
   return f;
@@ -3541,13 +3541,13 @@ struct _IO_FILE * srunner_open_lfile(struct SRunner *sr)
 struct _IO_FILE * srunner_open_tapfile(struct SRunner *sr)
 {
   struct _IO_FILE *f = (struct _IO_FILE *)(void *)0;
-  signed int return_value_srunner_has_tap$2;
-  return_value_srunner_has_tap$2=srunner_has_tap(sr);
-  if(!(return_value_srunner_has_tap$2 == 0))
+  signed int return_value_srunner_has_tap_2;
+  return_value_srunner_has_tap_2=srunner_has_tap(sr);
+  if(!(return_value_srunner_has_tap_2 == 0))
   {
-    const char *return_value_srunner_tap_fname$1;
-    return_value_srunner_tap_fname$1=srunner_tap_fname(sr);
-    f=srunner_open_file(return_value_srunner_tap_fname$1);
+    const char *return_value_srunner_tap_fname_1;
+    return_value_srunner_tap_fname_1=srunner_tap_fname(sr);
+    f=srunner_open_file(return_value_srunner_tap_fname_1);
   }
 
   return f;
@@ -3558,13 +3558,13 @@ struct _IO_FILE * srunner_open_tapfile(struct SRunner *sr)
 struct _IO_FILE * srunner_open_xmlfile(struct SRunner *sr)
 {
   struct _IO_FILE *f = (struct _IO_FILE *)(void *)0;
-  signed int return_value_srunner_has_xml$2;
-  return_value_srunner_has_xml$2=srunner_has_xml(sr);
-  if(!(return_value_srunner_has_xml$2 == 0))
+  signed int return_value_srunner_has_xml_2;
+  return_value_srunner_has_xml_2=srunner_has_xml(sr);
+  if(!(return_value_srunner_has_xml_2 == 0))
   {
-    const char *return_value_srunner_xml_fname$1;
-    return_value_srunner_xml_fname$1=srunner_xml_fname(sr);
-    f=srunner_open_file(return_value_srunner_xml_fname$1);
+    const char *return_value_srunner_xml_fname_1;
+    return_value_srunner_xml_fname_1=srunner_xml_fname(sr);
+    f=srunner_open_file(return_value_srunner_xml_fname_1);
   }
 
   return f;
@@ -3582,9 +3582,9 @@ void srunner_print(struct SRunner *sr, enum print_output print_mode)
 void srunner_register_lfun(struct SRunner *sr, struct _IO_FILE *lfile, signed int close, void (*lfun)(struct SRunner *, struct _IO_FILE *, enum print_output, void *, enum cl_event), enum print_output printmode)
 {
   struct Log *l;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(sizeof(struct Log) /*24ul*/ );
-  l = (struct Log *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(sizeof(struct Log) /*24ul*/ );
+  l = (struct Log *)return_value_emalloc_1;
   if((signed int)printmode == CK_ENV)
     printmode=get_env_printmode();
 
@@ -3606,26 +3606,26 @@ struct TestResult ** srunner_results(struct SRunner *sr)
   signed int i = 0;
   struct TestResult **trarray;
   struct List *rlst;
-  signed int return_value_srunner_ntests_run$1;
-  return_value_srunner_ntests_run$1=srunner_ntests_run(sr);
-  void *return_value_emalloc$2;
-  return_value_emalloc$2=emalloc(sizeof(struct TestResult *) /*8ul*/  * (unsigned long int)return_value_srunner_ntests_run$1);
-  trarray = (struct TestResult **)return_value_emalloc$2;
+  signed int return_value_srunner_ntests_run_1;
+  return_value_srunner_ntests_run_1=srunner_ntests_run(sr);
+  void *return_value_emalloc_2;
+  return_value_emalloc_2=emalloc(sizeof(struct TestResult *) /*8ul*/  * (unsigned long int)return_value_srunner_ntests_run_1);
+  trarray = (struct TestResult **)return_value_emalloc_2;
   rlst = sr->resultlst;
   check_list_front(rlst);
-  signed int return_value_check_list_at_end$3;
-  signed int tmp_post$4;
+  signed int return_value_check_list_at_end_3;
+  signed int tmp_post_4;
   do
   {
-    return_value_check_list_at_end$3=check_list_at_end(rlst);
-    if(!(return_value_check_list_at_end$3 == 0))
+    return_value_check_list_at_end_3=check_list_at_end(rlst);
+    if(!(return_value_check_list_at_end_3 == 0))
       break;
 
-    tmp_post$4 = i;
+    tmp_post_4 = i;
     i = i + 1;
-    void *return_value_check_list_val$5;
-    return_value_check_list_val$5=check_list_val(rlst);
-    trarray[(signed long int)tmp_post$4] = (struct TestResult *)return_value_check_list_val$5;
+    void *return_value_check_list_val_5;
+    return_value_check_list_val_5=check_list_val(rlst);
+    trarray[(signed long int)tmp_post_4] = (struct TestResult *)return_value_check_list_val_5;
     check_list_advance(rlst);
   }
   while((_Bool)1);
@@ -3691,9 +3691,9 @@ static void srunner_run_end(struct SRunner *sr, enum print_output print_mode)
 // file ../../src/check_run.c line 144
 static void srunner_run_init(struct SRunner *sr, enum print_output print_mode)
 {
-  enum fork_status return_value_srunner_fork_status$1;
-  return_value_srunner_fork_status$1=srunner_fork_status(sr);
-  set_fork_status(return_value_srunner_fork_status$1);
+  enum fork_status return_value_srunner_fork_status_1;
+  return_value_srunner_fork_status_1=srunner_fork_status(sr);
+  set_fork_status(return_value_srunner_fork_status_1);
   setup_messaging();
   srunner_init_logging(sr, print_mode);
   log_srunner_start(sr);
@@ -3709,22 +3709,22 @@ static struct TestResult * srunner_run_setup(struct List *fixture_list, enum for
     send_ctx_info((enum ck_result_ctx)CK_CTX_SETUP);
 
   check_list_front(fixture_list);
-  signed int return_value_check_list_at_end$1;
+  signed int return_value_check_list_at_end_1;
   do
   {
-    return_value_check_list_at_end$1=check_list_at_end(fixture_list);
-    if(!(return_value_check_list_at_end$1 == 0))
+    return_value_check_list_at_end_1=check_list_at_end(fixture_list);
+    if(!(return_value_check_list_at_end_1 == 0))
       break;
 
-    void *return_value_check_list_val$2;
-    return_value_check_list_val$2=check_list_val(fixture_list);
-    setup_fixture = (struct Fixture *)return_value_check_list_val$2;
+    void *return_value_check_list_val_2;
+    return_value_check_list_val_2=check_list_val(fixture_list);
+    setup_fixture = (struct Fixture *)return_value_check_list_val_2;
     if((signed int)fork_usage == CK_NOFORK)
     {
       send_ctx_info((enum ck_result_ctx)CK_CTX_SETUP);
-      signed int return_value__setjmp$3;
-      return_value__setjmp$3=_setjmp(error_jmp_buffer);
-      if(return_value__setjmp$3 == 0)
+      signed int return_value__setjmp_3;
+      return_value__setjmp_3=_setjmp(error_jmp_buffer);
+      if(return_value__setjmp_3 == 0)
         setup_fixture->fun();
 
       tr=receive_result_info_nofork(test_name, setup_name, 0, -1);
@@ -3749,9 +3749,9 @@ static struct TestResult * srunner_run_setup(struct List *fixture_list, enum for
 // file ../../src/check_run.c line 369
 static void srunner_run_tcase(struct SRunner *sr, struct TCase *tc)
 {
-  signed int return_value_srunner_run_unchecked_setup$1;
-  return_value_srunner_run_unchecked_setup$1=srunner_run_unchecked_setup(sr, tc);
-  if(!(return_value_srunner_run_unchecked_setup$1 == 0))
+  signed int return_value_srunner_run_unchecked_setup_1;
+  return_value_srunner_run_unchecked_setup_1=srunner_run_unchecked_setup(sr, tc);
+  if(!(return_value_srunner_run_unchecked_setup_1 == 0))
   {
     srunner_iterate_tcase_tfuns(sr, tc);
     srunner_run_unchecked_teardown(sr, tc);
@@ -3765,19 +3765,19 @@ static void srunner_run_teardown(struct List *fixture_list, enum fork_status for
 {
   struct Fixture *fixture;
   check_list_front(fixture_list);
-  signed int return_value_check_list_at_end$1;
-  return_value_check_list_at_end$1=check_list_at_end(fixture_list);
-  if(return_value_check_list_at_end$1 == 0)
+  signed int return_value_check_list_at_end_1;
+  return_value_check_list_at_end_1=check_list_at_end(fixture_list);
+  if(return_value_check_list_at_end_1 == 0)
   {
-    void *return_value_check_list_val$2;
-    return_value_check_list_val$2=check_list_val(fixture_list);
-    fixture = (struct Fixture *)return_value_check_list_val$2;
+    void *return_value_check_list_val_2;
+    return_value_check_list_val_2=check_list_val(fixture_list);
+    fixture = (struct Fixture *)return_value_check_list_val_2;
     send_ctx_info((enum ck_result_ctx)CK_CTX_TEARDOWN);
     if((signed int)fork_usage == CK_NOFORK)
     {
-      signed int return_value__setjmp$3;
-      return_value__setjmp$3=_setjmp(error_jmp_buffer);
-      if(return_value__setjmp$3 == 0)
+      signed int return_value__setjmp_3;
+      return_value__setjmp_3=_setjmp(error_jmp_buffer);
+      if(return_value__setjmp_3 == 0)
         fixture->fun();
 
       else
@@ -3802,9 +3802,9 @@ static signed int srunner_run_unchecked_setup(struct SRunner *sr, struct TCase *
   signed int rval = 1;
   set_fork_status((enum fork_status)CK_NOFORK);
   tr=srunner_run_setup(tc->unch_sflst, (enum fork_status)CK_NOFORK, tc->name, "unchecked_setup");
-  enum fork_status return_value_srunner_fork_status$1;
-  return_value_srunner_fork_status$1=srunner_fork_status(sr);
-  set_fork_status(return_value_srunner_fork_status$1);
+  enum fork_status return_value_srunner_fork_status_1;
+  return_value_srunner_fork_status_1=srunner_fork_status(sr);
+  set_fork_status(return_value_srunner_fork_status_1);
   if(!(tr == ((struct TestResult *)NULL)))
   {
     if(!((signed int)tr->rtype == CK_PASS))
@@ -3822,9 +3822,9 @@ static signed int srunner_run_unchecked_setup(struct SRunner *sr, struct TCase *
 // file ../../src/check_run.c line 359
 static void srunner_run_unchecked_teardown(struct SRunner *sr, struct TCase *tc)
 {
-  enum fork_status return_value_srunner_fork_status$1;
-  return_value_srunner_fork_status$1=srunner_fork_status(sr);
-  srunner_run_teardown(tc->unch_tflst, return_value_srunner_fork_status$1);
+  enum fork_status return_value_srunner_fork_status_1;
+  return_value_srunner_fork_status_1=srunner_fork_status(sr);
+  srunner_run_teardown(tc->unch_tflst, return_value_srunner_fork_status_1);
 }
 
 // srunner_send_evt
@@ -3835,13 +3835,13 @@ static void srunner_send_evt(struct SRunner *sr, void *obj, enum cl_event evt)
   struct Log *lg;
   l = sr->loglst;
   check_list_front(l);
-  signed int return_value_check_list_at_end$1;
-  return_value_check_list_at_end$1=check_list_at_end(l);
-  if(return_value_check_list_at_end$1 == 0)
+  signed int return_value_check_list_at_end_1;
+  return_value_check_list_at_end_1=check_list_at_end(l);
+  if(return_value_check_list_at_end_1 == 0)
   {
-    void *return_value_check_list_val$2;
-    return_value_check_list_val$2=check_list_val(l);
-    lg = (struct Log *)return_value_check_list_val$2;
+    void *return_value_check_list_val_2;
+    return_value_check_list_val_2=check_list_val(l);
+    lg = (struct Log *)return_value_check_list_val_2;
     fflush(lg->lfile);
     lg->lfun(sr, lg->lfile, lg->mode, obj, evt);
     fflush(lg->lfile);
@@ -3893,9 +3893,9 @@ const char * srunner_tap_fname(struct SRunner *sr)
 
   else
   {
-    char *return_value_getenv$1;
-    return_value_getenv$1=getenv("CK_TAP_LOG_FILE_NAME");
-    return return_value_getenv$1;
+    char *return_value_getenv_1;
+    return_value_getenv_1=getenv("CK_TAP_LOG_FILE_NAME");
+    return return_value_getenv_1;
   }
 }
 
@@ -3908,9 +3908,9 @@ const char * srunner_xml_fname(struct SRunner *sr)
 
   else
   {
-    char *return_value_getenv$1;
-    return_value_getenv$1=getenv("CK_XML_LOG_FILE_NAME");
-    return return_value_getenv$1;
+    char *return_value_getenv_1;
+    return_value_getenv_1=getenv("CK_XML_LOG_FILE_NAME");
+    return return_value_getenv_1;
   }
 }
 
@@ -3918,7 +3918,7 @@ const char * srunner_xml_fname(struct SRunner *sr)
 // file ../../src/check_log.c line 179
 void stdout_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output printmode, void *obj, enum cl_event evt)
 {
-  struct Suite *stdout_lfun$$1$$s;
+  struct Suite *stdout_lfun__1__s;
   switch((signed int)evt)
   {
     case CLINITLOG_SR:
@@ -3934,9 +3934,9 @@ void stdout_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output pr
     }
     case CLSTART_S:
     {
-      stdout_lfun$$1$$s = (struct Suite *)obj;
+      stdout_lfun__1__s = (struct Suite *)obj;
       if((signed int)printmode >= 1)
-        fprintf(file, " %s\n", stdout_lfun$$1$$s->name);
+        fprintf(file, " %s\n", stdout_lfun__1__s->name);
 
       break;
     }
@@ -3995,25 +3995,25 @@ void subunit_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output p
     case CLEND_T:
     {
       tr = (struct TestResult *)obj;
-      char *subunit_lfun$$1$$1$$2$$name;
-      subunit_lfun$$1$$1$$2$$name=ck_strdup_printf("%s:%s", tr->tcname, tr->tname);
+      char *subunit_lfun__1__1__2__name;
+      subunit_lfun__1__1__2__name=ck_strdup_printf("%s:%s", tr->tcname, tr->tname);
       char *msg;
       msg=tr_short_str(tr);
       switch((signed int)tr->rtype)
       {
         case CK_PASS:
         {
-          subunit_test_pass(subunit_lfun$$1$$1$$2$$name);
+          subunit_test_pass(subunit_lfun__1__1__2__name);
           break;
         }
         case CK_FAILURE:
         {
-          subunit_test_fail(subunit_lfun$$1$$1$$2$$name, msg);
+          subunit_test_fail(subunit_lfun__1__1__2__name, msg);
           break;
         }
         case CK_ERROR:
         {
-          subunit_test_error(subunit_lfun$$1$$1$$2$$name, msg);
+          subunit_test_error(subunit_lfun__1__1__2__name, msg);
           break;
         }
         case CK_TEST_RESULT_INVALID:
@@ -4021,7 +4021,7 @@ void subunit_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output p
         default:
         {
           eprintf("Bad result type in subunit_lfun", "../../src/check_log.c", 435);
-          free((void *)subunit_lfun$$1$$1$$2$$name);
+          free((void *)subunit_lfun__1__1__2__name);
           free((void *)msg);
         }
       }
@@ -4045,17 +4045,17 @@ void suite_add_tcase(struct Suite *s, struct TCase *tc)
 // file ../src/check.h line 131
 struct Suite * suite_create(const char *name)
 {
-  struct Suite *suite_create$$1$$s;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(sizeof(struct Suite) /*16ul*/ );
-  suite_create$$1$$s = (struct Suite *)return_value_emalloc$1;
+  struct Suite *suite_create__1__s;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(sizeof(struct Suite) /*16ul*/ );
+  suite_create__1__s = (struct Suite *)return_value_emalloc_1;
   if(name == ((const char *)NULL))
-    suite_create$$1$$s->name = "";
+    suite_create__1__s->name = "";
 
   else
-    suite_create$$1$$s->name = name;
-  suite_create$$1$$s->tclst=check_list_create();
-  return suite_create$$1$$s;
+    suite_create__1__s->name = name;
+  suite_create__1__s->tclst=check_list_create();
+  return suite_create__1__s;
 }
 
 // suite_free
@@ -4063,20 +4063,20 @@ struct Suite * suite_create(const char *name)
 static void suite_free(struct Suite *s)
 {
   struct List *l;
-  signed int return_value_check_list_at_end$1;
+  signed int return_value_check_list_at_end_1;
   if(!(s == ((struct Suite *)NULL)))
   {
     l = s->tclst;
     check_list_front(l);
     do
     {
-      return_value_check_list_at_end$1=check_list_at_end(l);
-      if(!(return_value_check_list_at_end$1 == 0))
+      return_value_check_list_at_end_1=check_list_at_end(l);
+      if(!(return_value_check_list_at_end_1 == 0))
         break;
 
-      void *return_value_check_list_val$2;
-      return_value_check_list_val$2=check_list_val(l);
-      tcase_free((struct TCase *)return_value_check_list_val$2);
+      void *return_value_check_list_val_2;
+      return_value_check_list_val_2=check_list_val(l);
+      tcase_free((struct TCase *)return_value_check_list_val_2);
       check_list_advance(l);
     }
     while((_Bool)1);
@@ -4091,8 +4091,8 @@ static void suite_free(struct Suite *s)
 signed int suite_tcase(struct Suite *s, const char *tcname)
 {
   struct List *l;
-  struct TCase *suite_tcase$$1$$tc;
-  signed int return_value_check_list_at_end$1;
+  struct TCase *suite_tcase__1__tc;
+  signed int return_value_check_list_at_end_1;
   if(s == ((struct Suite *)NULL))
     return 0;
 
@@ -4102,16 +4102,16 @@ signed int suite_tcase(struct Suite *s, const char *tcname)
     check_list_front(l);
     do
     {
-      return_value_check_list_at_end$1=check_list_at_end(l);
-      if(!(return_value_check_list_at_end$1 == 0))
+      return_value_check_list_at_end_1=check_list_at_end(l);
+      if(!(return_value_check_list_at_end_1 == 0))
         break;
 
-      void *return_value_check_list_val$2;
-      return_value_check_list_val$2=check_list_val(l);
-      suite_tcase$$1$$tc = (struct TCase *)return_value_check_list_val$2;
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(tcname, suite_tcase$$1$$tc->name);
-      if(return_value_strcmp$3 == 0)
+      void *return_value_check_list_val_2;
+      return_value_check_list_val_2=check_list_val(l);
+      suite_tcase__1__tc = (struct TCase *)return_value_check_list_val_2;
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(tcname, suite_tcase__1__tc->name);
+      if(return_value_strcmp_3 == 0)
         return 1;
 
       check_list_advance(l);
@@ -4173,37 +4173,37 @@ void tcase_add_checked_fixture(struct TCase *tc, void (*setup)(void), void (*tea
 // file ../../src/check.c line 218
 static void tcase_add_fixture(struct TCase *tc, void (*setup)(void), void (*teardown)(void), signed int ischecked)
 {
-  struct Fixture *return_value_fixture_create$1;
-  struct Fixture *return_value_fixture_create$2;
+  struct Fixture *return_value_fixture_create_1;
+  struct Fixture *return_value_fixture_create_2;
   if(!(setup == ((void (*)(void))NULL)))
   {
     if(!(ischecked == 0))
     {
-      return_value_fixture_create$1=fixture_create(setup, ischecked);
-      check_list_add_end(tc->ch_sflst, (void *)return_value_fixture_create$1);
+      return_value_fixture_create_1=fixture_create(setup, ischecked);
+      check_list_add_end(tc->ch_sflst, (void *)return_value_fixture_create_1);
     }
 
     else
     {
-      return_value_fixture_create$2=fixture_create(setup, ischecked);
-      check_list_add_end(tc->unch_sflst, (void *)return_value_fixture_create$2);
+      return_value_fixture_create_2=fixture_create(setup, ischecked);
+      check_list_add_end(tc->unch_sflst, (void *)return_value_fixture_create_2);
     }
   }
 
-  struct Fixture *return_value_fixture_create$3;
-  struct Fixture *return_value_fixture_create$4;
+  struct Fixture *return_value_fixture_create_3;
+  struct Fixture *return_value_fixture_create_4;
   if(!(teardown == ((void (*)(void))NULL)))
   {
     if(!(ischecked == 0))
     {
-      return_value_fixture_create$3=fixture_create(teardown, ischecked);
-      check_list_add_front(tc->ch_tflst, (void *)return_value_fixture_create$3);
+      return_value_fixture_create_3=fixture_create(teardown, ischecked);
+      check_list_add_front(tc->ch_tflst, (void *)return_value_fixture_create_3);
     }
 
     else
     {
-      return_value_fixture_create$4=fixture_create(teardown, ischecked);
-      check_list_add_front(tc->unch_tflst, (void *)return_value_fixture_create$4);
+      return_value_fixture_create_4=fixture_create(teardown, ischecked);
+      check_list_add_front(tc->unch_tflst, (void *)return_value_fixture_create_4);
     }
   }
 
@@ -4222,24 +4222,24 @@ struct TCase * tcase_create(const char *name)
 {
   char *env;
   double timeout_sec = (double)4;
-  struct TCase *tcase_create$$1$$tc;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(sizeof(struct TCase) /*64ul*/ );
-  tcase_create$$1$$tc = (struct TCase *)return_value_emalloc$1;
+  struct TCase *tcase_create__1__tc;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(sizeof(struct TCase) /*64ul*/ );
+  tcase_create__1__tc = (struct TCase *)return_value_emalloc_1;
   if(name == ((const char *)NULL))
-    tcase_create$$1$$tc->name = "";
+    tcase_create__1__tc->name = "";
 
   else
-    tcase_create$$1$$tc->name = name;
+    tcase_create__1__tc->name = name;
   env=getenv("CK_DEFAULT_TIMEOUT");
   if(!(env == ((char *)NULL)))
   {
-    char *tcase_create$$1$$1$$endptr = (char *)(void *)0;
+    char *tcase_create__1__1__endptr = (char *)(void *)0;
     double tmp;
-    tmp=strtod(env, &tcase_create$$1$$1$$endptr);
-    if(tmp >= 0.000000 && !(tcase_create$$1$$1$$endptr == env))
+    tmp=strtod(env, &tcase_create__1__1__endptr);
+    if(tmp >= 0.000000 && !(tcase_create__1__1__endptr == env))
     {
-      if((signed int)*tcase_create$$1$$1$$endptr == 0)
+      if((signed int)*tcase_create__1__1__endptr == 0)
         timeout_sec = tmp;
 
     }
@@ -4250,29 +4250,29 @@ struct TCase * tcase_create(const char *name)
   if(!(env == ((char *)NULL)))
   {
     char *endptr = (char *)(void *)0;
-    double tcase_create$$1$$2$$tmp;
-    tcase_create$$1$$2$$tmp=strtod(env, &endptr);
-    if(tcase_create$$1$$2$$tmp >= 0.000000 && !(endptr == env))
+    double tcase_create__1__2__tmp;
+    tcase_create__1__2__tmp=strtod(env, &endptr);
+    if(tcase_create__1__2__tmp >= 0.000000 && !(endptr == env))
     {
       if((signed int)*endptr == 0)
-        timeout_sec = timeout_sec * tcase_create$$1$$2$$tmp;
+        timeout_sec = timeout_sec * tcase_create__1__2__tmp;
 
     }
 
   }
 
-  double return_value_floor$2;
-  return_value_floor$2=floor(timeout_sec);
-  tcase_create$$1$$tc->timeout.tv_sec = (signed long int)return_value_floor$2;
-  double return_value_floor$3;
-  return_value_floor$3=floor(timeout_sec);
-  tcase_create$$1$$tc->timeout.tv_nsec = (signed long int)((timeout_sec - return_value_floor$3) * (double)1000000000);
-  tcase_create$$1$$tc->tflst=check_list_create();
-  tcase_create$$1$$tc->unch_sflst=check_list_create();
-  tcase_create$$1$$tc->ch_sflst=check_list_create();
-  tcase_create$$1$$tc->unch_tflst=check_list_create();
-  tcase_create$$1$$tc->ch_tflst=check_list_create();
-  return tcase_create$$1$$tc;
+  double return_value_floor_2;
+  return_value_floor_2=floor(timeout_sec);
+  tcase_create__1__tc->timeout.tv_sec = (signed long int)return_value_floor_2;
+  double return_value_floor_3;
+  return_value_floor_3=floor(timeout_sec);
+  tcase_create__1__tc->timeout.tv_nsec = (signed long int)((timeout_sec - return_value_floor_3) * (double)1000000000);
+  tcase_create__1__tc->tflst=check_list_create();
+  tcase_create__1__tc->unch_sflst=check_list_create();
+  tcase_create__1__tc->ch_sflst=check_list_create();
+  tcase_create__1__tc->unch_tflst=check_list_create();
+  tcase_create__1__tc->ch_tflst=check_list_create();
+  return tcase_create__1__tc;
 }
 
 // tcase_fn_start
@@ -4305,9 +4305,9 @@ static void tcase_free(struct TCase *tc)
 static struct TestResult * tcase_run_checked_setup(struct SRunner *sr, struct TCase *tc)
 {
   struct TestResult *tr;
-  enum fork_status return_value_srunner_fork_status$1;
-  return_value_srunner_fork_status$1=srunner_fork_status(sr);
-  tr=srunner_run_setup(tc->ch_sflst, return_value_srunner_fork_status$1, tc->name, "checked_setup");
+  enum fork_status return_value_srunner_fork_status_1;
+  return_value_srunner_fork_status_1=srunner_fork_status(sr);
+  tr=srunner_run_setup(tc->ch_sflst, return_value_srunner_fork_status_1, tc->name, "checked_setup");
   return tr;
 }
 
@@ -4340,13 +4340,13 @@ static struct TestResult * tcase_run_tfun_fork(struct SRunner *sr, struct TCase 
     group_pid=getpgrp();
     tr=tcase_run_checked_setup(sr, tc);
     free((void *)tr);
-    signed int return_value_check_get_clockid$1;
-    return_value_check_get_clockid$1=check_get_clockid();
-    clock_gettime(return_value_check_get_clockid$1, &ts_start);
+    signed int return_value_check_get_clockid_1;
+    return_value_check_get_clockid_1=check_get_clockid();
+    clock_gettime(return_value_check_get_clockid_1, &ts_start);
     tfun->fn(i);
-    signed int return_value_check_get_clockid$2;
-    return_value_check_get_clockid$2=check_get_clockid();
-    clock_gettime(return_value_check_get_clockid$2, &ts_end);
+    signed int return_value_check_get_clockid_2;
+    return_value_check_get_clockid_2=check_get_clockid();
+    clock_gettime(return_value_check_get_clockid_2, &ts_end);
     tcase_run_checked_teardown(tc);
     send_duration_info((signed int)(((ts_end.tv_sec - ts_start.tv_sec) * (signed long int)1000000 + ts_end.tv_nsec / (signed long int)1000) - ts_start.tv_nsec / (signed long int)1000));
     exit(0);
@@ -4355,18 +4355,18 @@ static struct TestResult * tcase_run_tfun_fork(struct SRunner *sr, struct TCase 
   else
     group_pid = pid;
   alarm_received = 0;
-  signed int return_value_check_get_clockid$4;
-  return_value_check_get_clockid$4=check_get_clockid();
-  signed int return_value_timer_create$5;
-  return_value_timer_create$5=timer_create(return_value_check_get_clockid$4, (struct sigevent *)(void *)0, &timerid);
-  if(return_value_timer_create$5 == 0)
+  signed int return_value_check_get_clockid_4;
+  return_value_check_get_clockid_4=check_get_clockid();
+  signed int return_value_timer_create_5;
+  return_value_timer_create_5=timer_create(return_value_check_get_clockid_4, (struct sigevent *)(void *)0, &timerid);
+  if(return_value_timer_create_5 == 0)
   {
     timer_spec.it_value = tc->timeout;
     timer_spec.it_interval.tv_sec = (signed long int)0;
     timer_spec.it_interval.tv_nsec = (signed long int)0;
-    signed int return_value_timer_settime$3;
-    return_value_timer_settime$3=timer_settime(timerid, 0, &timer_spec, (struct itimerspec *)(void *)0);
-    if(return_value_timer_settime$3 == 0)
+    signed int return_value_timer_settime_3;
+    return_value_timer_settime_3=timer_settime(timerid, 0, &timer_spec, (struct itimerspec *)(void *)0);
+    if(return_value_timer_settime_3 == 0)
       do
         pid_w=waitpid(pid, &status, 0);
       while(pid_w == -1);
@@ -4379,9 +4379,9 @@ static struct TestResult * tcase_run_tfun_fork(struct SRunner *sr, struct TCase 
   else
     eprintf("Error in call to timer_create:", "../../src/check_run.c", 505);
   killpg(pid, 9);
-  struct TestResult *return_value_receive_result_info_fork$6;
-  return_value_receive_result_info_fork$6=receive_result_info_fork(tc->name, tfun->name, i, status, tfun->signal, tfun->allowed_exit_value);
-  return return_value_receive_result_info_fork$6;
+  struct TestResult *return_value_receive_result_info_fork_6;
+  return_value_receive_result_info_fork_6=receive_result_info_fork(tc->name, tfun->name, i, status, tfun->signal, tfun->allowed_exit_value);
+  return return_value_receive_result_info_fork_6;
 }
 
 // tcase_run_tfun_nofork
@@ -4394,21 +4394,21 @@ static struct TestResult * tcase_run_tfun_nofork(struct SRunner *sr, struct TCas
   tr=tcase_run_checked_setup(sr, tc);
   if(tr == ((struct TestResult *)NULL))
   {
-    signed int return_value_check_get_clockid$1;
-    return_value_check_get_clockid$1=check_get_clockid();
-    clock_gettime(return_value_check_get_clockid$1, &ts_start);
-    signed int return_value__setjmp$2;
-    return_value__setjmp$2=_setjmp(error_jmp_buffer);
-    if(return_value__setjmp$2 == 0)
+    signed int return_value_check_get_clockid_1;
+    return_value_check_get_clockid_1=check_get_clockid();
+    clock_gettime(return_value_check_get_clockid_1, &ts_start);
+    signed int return_value__setjmp_2;
+    return_value__setjmp_2=_setjmp(error_jmp_buffer);
+    if(return_value__setjmp_2 == 0)
       tfun->fn(i);
 
-    signed int return_value_check_get_clockid$3;
-    return_value_check_get_clockid$3=check_get_clockid();
-    clock_gettime(return_value_check_get_clockid$3, &ts_end);
+    signed int return_value_check_get_clockid_3;
+    return_value_check_get_clockid_3=check_get_clockid();
+    clock_gettime(return_value_check_get_clockid_3, &ts_end);
     tcase_run_checked_teardown(tc);
-    struct TestResult *return_value_receive_result_info_nofork$4;
-    return_value_receive_result_info_nofork$4=receive_result_info_nofork(tc->name, tfun->name, i, (signed int)(((ts_end.tv_sec - ts_start.tv_sec) * (signed long int)1000000 + ts_end.tv_nsec / (signed long int)1000) - ts_start.tv_nsec / (signed long int)1000));
-    return return_value_receive_result_info_nofork$4;
+    struct TestResult *return_value_receive_result_info_nofork_4;
+    return_value_receive_result_info_nofork_4=receive_result_info_nofork(tc->name, tfun->name, i, (signed int)(((ts_end.tv_sec - ts_start.tv_sec) * (signed long int)1000000 + ts_end.tv_nsec / (signed long int)1000) - ts_start.tv_nsec / (signed long int)1000));
+    return return_value_receive_result_info_nofork_4;
   }
 
   return tr;
@@ -4436,12 +4436,12 @@ void tcase_set_timeout(struct TCase *tc, double timeout)
 
     }
 
-    double return_value_floor$1;
-    return_value_floor$1=floor(timeout);
-    tc->timeout.tv_sec = (signed long int)return_value_floor$1;
-    double return_value_floor$2;
-    return_value_floor$2=floor(timeout);
-    tc->timeout.tv_nsec = (signed long int)((timeout - return_value_floor$2) * (double)1000000000);
+    double return_value_floor_1;
+    return_value_floor_1=floor(timeout);
+    tc->timeout.tv_sec = (signed long int)return_value_floor_1;
+    double return_value_floor_2;
+    return_value_floor_2=floor(timeout);
+    tc->timeout.tv_nsec = (signed long int)((timeout - return_value_floor_2) * (double)1000000000);
   }
 
 }
@@ -4523,9 +4523,9 @@ static void test_stress_threads(signed int _i)
 struct TestResult * tr_create(void)
 {
   struct TestResult *tr;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(sizeof(struct TestResult) /*56ul*/ );
-  tr = (struct TestResult *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(sizeof(struct TestResult) /*56ul*/ );
+  tr = (struct TestResult *)return_value_emalloc_1;
   tr_init(tr);
   return tr;
 }
@@ -4544,19 +4544,19 @@ void tr_fprint(struct _IO_FILE *file, struct TestResult *tr, enum print_output p
   if((signed int)print_mode == CK_ENV)
     print_mode=get_env_printmode();
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)print_mode >= CK_VERBOSE)
-    tmp_if_expr$1 = (signed int)tr->rtype == CK_PASS ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)tr->rtype == CK_PASS ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = ((signed int)tr->rtype != CK_PASS ? ((signed int)print_mode >= CK_NORMAL ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = ((signed int)tr->rtype != CK_PASS ? ((signed int)print_mode >= CK_NORMAL ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     char *trstr;
     trstr=tr_str(tr);
@@ -4656,9 +4656,9 @@ char * tr_str(struct TestResult *tr)
   const char *exact_msg;
   char *rstr;
   exact_msg = (signed int)tr->rtype == CK_ERROR ? "(after this point) " : "";
-  const char *return_value_tr_type_str$1;
-  return_value_tr_type_str$1=tr_type_str(tr);
-  rstr=ck_strdup_printf("%s:%d:%s:%s:%s:%d: %s%s", tr->file, tr->line, return_value_tr_type_str$1, tr->tcname, tr->tname, tr->iter, exact_msg, tr->msg);
+  const char *return_value_tr_type_str_1;
+  return_value_tr_type_str_1=tr_type_str(tr);
+  rstr=ck_strdup_printf("%s:%d:%s:%s:%s:%d: %s%s", tr->file, tr->line, return_value_tr_type_str_1, tr->tcname, tr->tname, tr->iter, exact_msg, tr->msg);
   return rstr;
 }
 
@@ -4749,19 +4749,19 @@ void tr_xmlprint(struct _IO_FILE *file, struct TestResult *tr, enum print_output
   fprintf(file, "      <fn>%s:%d</fn>\n", file_name == (char *)(void *)0 ? "" : file_name, tr->line);
   fprintf(file, "      <id>%s</id>\n", tr->tname);
   fprintf(file, "      <iteration>%d</iteration>\n", tr->iter);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(tr->duration >= 0))
-    tmp_if_expr$1 = -1;
+    tmp_if_expr_1 = -1;
 
   else
-    tmp_if_expr$1 = tr->duration / 1000000;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = tr->duration / 1000000;
+  signed int tmp_if_expr_2;
   if(!(tr->duration >= 0))
-    tmp_if_expr$2 = 0;
+    tmp_if_expr_2 = 0;
 
   else
-    tmp_if_expr$2 = tr->duration % 1000000;
-  fprintf(file, "      <duration>%d.%06d</duration>\n", tmp_if_expr$1, tmp_if_expr$2);
+    tmp_if_expr_2 = tr->duration % 1000000;
+  fprintf(file, "      <duration>%d.%06d</duration>\n", tmp_if_expr_1, tmp_if_expr_2);
   fprintf(file, "      <description>");
   fprint_xml_esc(file, tr->tcname);
   fprintf(file, "</description>\n");
@@ -4774,7 +4774,7 @@ void tr_xmlprint(struct _IO_FILE *file, struct TestResult *tr, enum print_output
 
 // upack
 // file ../../src/check_pack.c line 110
-signed int upack(char *buf, union anonymous$13 *msg, enum ck_msg_type *type)
+signed int upack(char *buf, union anonymous_13 *msg, enum ck_msg_type *type)
 {
   char *obuf;
   if(buf == ((char *)NULL))
@@ -4794,9 +4794,9 @@ signed int upack(char *buf, union anonymous$13 *msg, enum ck_msg_type *type)
 // file ../../src/check_pack.c line 221
 static void upack_ctx(char **buf, struct CtxMsg *cmsg)
 {
-  signed int return_value_upack_int$1;
-  return_value_upack_int$1=upack_int(buf);
-  cmsg->ctx = (enum ck_result_ctx)return_value_upack_int$1;
+  signed int return_value_upack_int_1;
+  return_value_upack_int_1=upack_int(buf);
+  cmsg->ctx = (enum ck_result_ctx)return_value_upack_int_1;
 }
 
 // upack_duration
@@ -4840,9 +4840,9 @@ static char * upack_str(char **buf)
   strsz=upack_int(buf);
   if(strsz >= 1)
   {
-    void *return_value_emalloc$1;
-    return_value_emalloc$1=emalloc((unsigned long int)(strsz + 1));
-    val = (char *)return_value_emalloc$1;
+    void *return_value_emalloc_1;
+    return_value_emalloc_1=emalloc((unsigned long int)(strsz + 1));
+    val = (char *)return_value_emalloc_1;
     memcpy((void *)val, (const void *)*buf, (unsigned long int)strsz);
     val[(signed long int)strsz] = (char)0;
     *buf = *buf + (signed long int)strsz;
@@ -4850,9 +4850,9 @@ static char * upack_str(char **buf)
 
   else
   {
-    void *return_value_emalloc$2;
-    return_value_emalloc$2=emalloc((unsigned long int)1);
-    val = (char *)return_value_emalloc$2;
+    void *return_value_emalloc_2;
+    return_value_emalloc_2=emalloc((unsigned long int)1);
+    val = (char *)return_value_emalloc_2;
     *val = (char)0;
   }
   return val;
@@ -4862,9 +4862,9 @@ static char * upack_str(char **buf)
 // file ../../src/check_pack.c line 201
 static enum ck_msg_type upack_type(char **buf)
 {
-  signed int return_value_upack_int$1;
-  return_value_upack_int$1=upack_int(buf);
-  return (enum ck_msg_type)return_value_upack_int$1;
+  signed int return_value_upack_int_1;
+  return_value_upack_int_1=upack_int(buf);
+  return (enum ck_msg_type)return_value_upack_int_1;
 }
 
 // waserror
@@ -4872,7 +4872,7 @@ static enum ck_msg_type upack_type(char **buf)
 static signed int waserror(signed int status, signed int signal_expected)
 {
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$1
+union anonymous_1
 {
   // __in
   signed int __in;
@@ -4882,10 +4882,10 @@ union anonymous$1
 
 /* */
   ;
-  signed int was_sig = (signed int)((signed int)(signed char)((((union anonymous$1){ .__in=status }).__i & 0x7f) + 1) >> 1 > 0);
-  signed int was_exit = (signed int)((((union anonymous$1){ .__in=status }).__i & 0x7f) == 0);
-  signed int exit_status = (((union anonymous$1){ .__in=status }).__i & 0xff00) >> 8;
-  signed int signal_received = ((union anonymous$1){ .__in=status }).__i & 0x7f;
+  signed int was_sig = (signed int)((signed int)(signed char)((((union anonymous_1){ .__in=status }).__i & 0x7f) + 1) >> 1 > 0);
+  signed int was_exit = (signed int)((((union anonymous_1){ .__in=status }).__i & 0x7f) == 0);
+  signed int exit_status = (((union anonymous_1){ .__in=status }).__i & 0xff00) >> 8;
+  signed int signal_received = ((union anonymous_1){ .__in=status }).__i & 0x7f;
   return (signed int)(was_sig != 0 && signal_received != signal_expected || was_exit != 0 && exit_status != 0);
 }
 
@@ -4894,7 +4894,7 @@ union anonymous$1
 void xml_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output printmode, void *obj, enum cl_event evt)
 {
   struct TestResult *tr;
-  struct Suite *xml_lfun$$1$$s;
+  struct Suite *xml_lfun__1__s;
   static struct timespec ts_start = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)0 };
   static char t[(signed long int)sizeof(char [20l]) /*20l*/ ] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   if((signed int)t[0l] == 0)
@@ -4902,12 +4902,12 @@ void xml_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output print
     struct timeval inittv;
     struct tm now;
     gettimeofday(&inittv, (struct timezone *)(void *)0);
-    signed int return_value_check_get_clockid$1;
-    return_value_check_get_clockid$1=check_get_clockid();
-    clock_gettime(return_value_check_get_clockid$1, &ts_start);
-    struct tm *return_value_localtime_r$2;
-    return_value_localtime_r$2=localtime_r((const signed long int *)&inittv.tv_sec, &now);
-    if(!(return_value_localtime_r$2 == ((struct tm *)NULL)))
+    signed int return_value_check_get_clockid_1;
+    return_value_check_get_clockid_1=check_get_clockid();
+    clock_gettime(return_value_check_get_clockid_1, &ts_start);
+    struct tm *return_value_localtime_r_2;
+    return_value_localtime_r_2=localtime_r((const signed long int *)&inittv.tv_sec, &now);
+    if(!(return_value_localtime_r_2 == ((struct tm *)NULL)))
       strftime(t, sizeof(char [20l]) /*20ul*/ , "%Y-%m-%d %H:%M:%S", &now);
 
   }
@@ -4926,9 +4926,9 @@ void xml_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output print
     {
       struct timespec ts_end = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)0 };
       unsigned long int duration;
-      signed int return_value_check_get_clockid$3;
-      return_value_check_get_clockid$3=check_get_clockid();
-      clock_gettime(return_value_check_get_clockid$3, &ts_end);
+      signed int return_value_check_get_clockid_3;
+      return_value_check_get_clockid_3=check_get_clockid();
+      clock_gettime(return_value_check_get_clockid_3, &ts_end);
       duration = (unsigned long int)(((ts_end.tv_sec - ts_start.tv_sec) * (signed long int)1000000 + ts_end.tv_nsec / (signed long int)1000) - ts_start.tv_nsec / (signed long int)1000);
       fprintf(file, "  <duration>%lu.%06lu</duration>\n", duration / (unsigned long int)1000000, duration % (unsigned long int)1000000);
       fprintf(file, "</testsuites>\n");
@@ -4938,10 +4938,10 @@ void xml_lfun(struct SRunner *sr, struct _IO_FILE *file, enum print_output print
       break;
     case CLSTART_S:
     {
-      xml_lfun$$1$$s = (struct Suite *)obj;
+      xml_lfun__1__s = (struct Suite *)obj;
       fprintf(file, "  <suite>\n");
       fprintf(file, "    <title>");
-      fprint_xml_esc(file, xml_lfun$$1$$s->name);
+      fprint_xml_esc(file, xml_lfun__1__s->name);
       fprintf(file, "</title>\n");
       break;
     }

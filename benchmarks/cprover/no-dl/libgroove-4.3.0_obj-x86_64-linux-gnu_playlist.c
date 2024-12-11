@@ -1,34 +1,34 @@
-// #anon_enum$AVLINK_UNINIT=0$AVLINK_STARTINIT=1$AVLINK_INIT=2
+// #anon_enum_AVLINK_UNINIT=0_AVLINK_STARTINIT=1_AVLINK_INIT=2
 // file /usr/include/x86_64-linux-gnu/libavfilter/avfilter.h line 760
-enum anonymous$6 { AVLINK_UNINIT=0, AVLINK_STARTINIT=1, AVLINK_INIT=2 };
+enum anonymous_6 { AVLINK_UNINIT=0, AVLINK_STARTINIT=1, AVLINK_INIT=2 };
 
-// #anon_enum$AV_CLASS_CATEGORY_NA=0$AV_CLASS_CATEGORY_INPUT=1$AV_CLASS_CATEGORY_OUTPUT=2$AV_CLASS_CATEGORY_MUXER=3$AV_CLASS_CATEGORY_DEMUXER=4$AV_CLASS_CATEGORY_ENCODER=5$AV_CLASS_CATEGORY_DECODER=6$AV_CLASS_CATEGORY_FILTER=7$AV_CLASS_CATEGORY_BITSTREAM_FILTER=8$AV_CLASS_CATEGORY_SWSCALER=9$AV_CLASS_CATEGORY_SWRESAMPLER=10$AV_CLASS_CATEGORY_DEVICE_VIDEO_OUTPUT=40$AV_CLASS_CATEGORY_DEVICE_VIDEO_INPUT=41$AV_CLASS_CATEGORY_DEVICE_AUDIO_OUTPUT=42$AV_CLASS_CATEGORY_DEVICE_AUDIO_INPUT=43$AV_CLASS_CATEGORY_DEVICE_OUTPUT=44$AV_CLASS_CATEGORY_DEVICE_INPUT=45$AV_CLASS_CATEGORY_NB=46
+// #anon_enum_AV_CLASS_CATEGORY_NA=0_AV_CLASS_CATEGORY_INPUT=1_AV_CLASS_CATEGORY_OUTPUT=2_AV_CLASS_CATEGORY_MUXER=3_AV_CLASS_CATEGORY_DEMUXER=4_AV_CLASS_CATEGORY_ENCODER=5_AV_CLASS_CATEGORY_DECODER=6_AV_CLASS_CATEGORY_FILTER=7_AV_CLASS_CATEGORY_BITSTREAM_FILTER=8_AV_CLASS_CATEGORY_SWSCALER=9_AV_CLASS_CATEGORY_SWRESAMPLER=10_AV_CLASS_CATEGORY_DEVICE_VIDEO_OUTPUT=40_AV_CLASS_CATEGORY_DEVICE_VIDEO_INPUT=41_AV_CLASS_CATEGORY_DEVICE_AUDIO_OUTPUT=42_AV_CLASS_CATEGORY_DEVICE_AUDIO_INPUT=43_AV_CLASS_CATEGORY_DEVICE_OUTPUT=44_AV_CLASS_CATEGORY_DEVICE_INPUT=45_AV_CLASS_CATEGORY_NB=46
 // file /usr/include/x86_64-linux-gnu/libavutil/log.h line 29
-enum anonymous$5 { AV_CLASS_CATEGORY_NA=0, AV_CLASS_CATEGORY_INPUT=1, AV_CLASS_CATEGORY_OUTPUT=2, AV_CLASS_CATEGORY_MUXER=3, AV_CLASS_CATEGORY_DEMUXER=4, AV_CLASS_CATEGORY_ENCODER=5, AV_CLASS_CATEGORY_DECODER=6, AV_CLASS_CATEGORY_FILTER=7, AV_CLASS_CATEGORY_BITSTREAM_FILTER=8, AV_CLASS_CATEGORY_SWSCALER=9, AV_CLASS_CATEGORY_SWRESAMPLER=10, AV_CLASS_CATEGORY_DEVICE_VIDEO_OUTPUT=40, AV_CLASS_CATEGORY_DEVICE_VIDEO_INPUT=41, AV_CLASS_CATEGORY_DEVICE_AUDIO_OUTPUT=42, AV_CLASS_CATEGORY_DEVICE_AUDIO_INPUT=43, AV_CLASS_CATEGORY_DEVICE_OUTPUT=44, AV_CLASS_CATEGORY_DEVICE_INPUT=45, AV_CLASS_CATEGORY_NB=46 };
+enum anonymous_5 { AV_CLASS_CATEGORY_NA=0, AV_CLASS_CATEGORY_INPUT=1, AV_CLASS_CATEGORY_OUTPUT=2, AV_CLASS_CATEGORY_MUXER=3, AV_CLASS_CATEGORY_DEMUXER=4, AV_CLASS_CATEGORY_ENCODER=5, AV_CLASS_CATEGORY_DECODER=6, AV_CLASS_CATEGORY_FILTER=7, AV_CLASS_CATEGORY_BITSTREAM_FILTER=8, AV_CLASS_CATEGORY_SWSCALER=9, AV_CLASS_CATEGORY_SWRESAMPLER=10, AV_CLASS_CATEGORY_DEVICE_VIDEO_OUTPUT=40, AV_CLASS_CATEGORY_DEVICE_VIDEO_INPUT=41, AV_CLASS_CATEGORY_DEVICE_AUDIO_OUTPUT=42, AV_CLASS_CATEGORY_DEVICE_AUDIO_INPUT=43, AV_CLASS_CATEGORY_DEVICE_OUTPUT=44, AV_CLASS_CATEGORY_DEVICE_INPUT=45, AV_CLASS_CATEGORY_NB=46 };
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
 struct anonymous;
 
-// tag-#anon#ST[S64'last_dts'||S64'duration_gcd'||S32'duration_count'||U32'$pad0'||S64'rfps_duration_sum'||*{ARR2{ARR399{F64}$F64$}$ARR399{F64}$F64$$}$ARR2{ARR399{F64}$F64$}$ARR399{F64}$F64$$$'duration_error'||S64'codec_info_duration'||S64'codec_info_duration_fields'||S32'found_decoder'||U32'$pad1'||S64'last_duration'||S64'fps_first_dts'||S32'fps_first_dts_idx'||U32'$pad2'||S64'fps_last_dts'||S32'fps_last_dts_idx'||U32'$pad3'|]
+// tag-#anon#ST[S64'last_dts'||S64'duration_gcd'||S32'duration_count'||U32'_pad0'||S64'rfps_duration_sum'||*{ARR2{ARR399{F64}_F64_}_ARR399{F64}_F64__}_ARR2{ARR399{F64}_F64_}_ARR399{F64}_F64___'duration_error'||S64'codec_info_duration'||S64'codec_info_duration_fields'||S32'found_decoder'||U32'_pad1'||S64'last_duration'||S64'fps_first_dts'||S32'fps_first_dts_idx'||U32'_pad2'||S64'fps_last_dts'||S32'fps_last_dts_idx'||U32'_pad3'|]
 // file /usr/include/x86_64-linux-gnu/libavformat/avformat.h line 972
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[S64'i64'||F64'dbl'||*{cS8}$cS8$'str'||SYM#tag-AVRational#'q'|]
+// tag-#anon#UN[S64'i64'||F64'dbl'||*{cS8}_cS8_'str'||SYM#tag-AVRational#'q'|]
 // file /usr/include/x86_64-linux-gnu/libavutil/opt.h line 274
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-AVAudioServiceType
 // file /usr/include/x86_64-linux-gnu/libavcodec/avcodec.h line 692
@@ -512,21 +512,21 @@ extern void SDL_QuitSubSystem(unsigned int);
 // abs_diff
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 443
 static signed int abs_diff(signed int a, signed int b);
-// abs_diff$link1
+// abs_diff_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 443
-static signed int abs_diff$link1(signed int a$link1, signed int b$link1);
+static signed int abs_diff_link1(signed int a_link1, signed int b_link1);
 // add_sink_to_map
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 785
 static signed int add_sink_to_map(struct GroovePlaylist *playlist, struct GrooveSink *sink);
-// add_sink_to_map$link1
+// add_sink_to_map_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 785
-static signed int add_sink_to_map$link1(struct GroovePlaylist *playlist$link1, struct GrooveSink *sink$link1);
+static signed int add_sink_to_map_link1(struct GroovePlaylist *playlist_link1, struct GrooveSink *sink_link1);
 // any_sink_full
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 519
 static signed int any_sink_full(struct GroovePlaylist *playlist);
-// any_sink_full$link1
+// any_sink_full_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 519
-static signed int any_sink_full$link1(struct GroovePlaylist *playlist$link1);
+static signed int any_sink_full_link1(struct GroovePlaylist *playlist_link1);
 // atexit
 // file /usr/include/stdlib.h line 519
 extern signed int atexit(void (*)(void));
@@ -536,57 +536,57 @@ extern double atof(const char *);
 // audio_decode_frame
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 154
 static signed int audio_decode_frame(struct GroovePlaylist *playlist, struct GrooveFile *file);
-// audio_decode_frame$link1
+// audio_decode_frame_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 154
-static signed int audio_decode_frame$link1(struct GroovePlaylist *playlist$link1, struct GrooveFile *file$link1);
+static signed int audio_decode_frame_link1(struct GroovePlaylist *playlist_link1, struct GrooveFile *file_link1);
 // audioq_cleanup
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 269
 static void audioq_cleanup(struct GrooveQueue *queue, void *obj);
-// audioq_cleanup$link1
+// audioq_cleanup_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 631
-static void audioq_cleanup$link1(struct GrooveQueue *queue$link1, void *obj$link1);
-// audioq_cleanup$link1$link1
+static void audioq_cleanup_link1(struct GrooveQueue *queue_link1, void *obj_link1);
+// audioq_cleanup_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 631
-static void audioq_cleanup$link1$link1(struct GrooveQueue *queue$link1$link1, void *obj$link1$link1);
-// audioq_cleanup$link2
+static void audioq_cleanup_link1_link1(struct GrooveQueue *queue_link1_link1, void *obj_link1_link1);
+// audioq_cleanup_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 269
-static void audioq_cleanup$link2(struct GrooveQueue *queue$link2, void *obj$link2);
+static void audioq_cleanup_link2(struct GrooveQueue *queue_link2, void *obj_link2);
 // audioq_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 286
 static void audioq_get(struct GrooveQueue *queue, void *obj);
-// audioq_get$link1
+// audioq_get_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 614
-static void audioq_get$link1(struct GrooveQueue *queue$link1, void *obj$link1);
-// audioq_get$link1$link1
+static void audioq_get_link1(struct GrooveQueue *queue_link1, void *obj_link1);
+// audioq_get_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 614
-static void audioq_get$link1$link1(struct GrooveQueue *queue$link1$link1, void *obj$link1$link1);
-// audioq_get$link2
+static void audioq_get_link1_link1(struct GrooveQueue *queue_link1_link1, void *obj_link1_link1);
+// audioq_get_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 286
-static void audioq_get$link2(struct GrooveQueue *queue$link2, void *obj$link2);
+static void audioq_get_link2(struct GrooveQueue *queue_link2, void *obj_link2);
 // audioq_purge
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 261
 static signed int audioq_purge(struct GrooveQueue *queue, void *obj);
-// audioq_purge$link1
+// audioq_purge_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 641
-static signed int audioq_purge$link1(struct GrooveQueue *queue$link1, void *obj$link1);
-// audioq_purge$link1$link1
+static signed int audioq_purge_link1(struct GrooveQueue *queue_link1, void *obj_link1);
+// audioq_purge_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 641
-static signed int audioq_purge$link1$link1(struct GrooveQueue *queue$link1$link1, void *obj$link1$link1);
-// audioq_purge$link2
+static signed int audioq_purge_link1_link1(struct GrooveQueue *queue_link1_link1, void *obj_link1_link1);
+// audioq_purge_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 261
-static signed int audioq_purge$link2(struct GrooveQueue *queue$link2, void *obj$link2);
+static signed int audioq_purge_link2(struct GrooveQueue *queue_link2, void *obj_link2);
 // audioq_put
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 278
 static void audioq_put(struct GrooveQueue *queue, void *obj);
-// audioq_put$link1
+// audioq_put_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 606
-static void audioq_put$link1(struct GrooveQueue *queue$link1, void *obj$link1);
-// audioq_put$link1$link1
+static void audioq_put_link1(struct GrooveQueue *queue_link1, void *obj_link1);
+// audioq_put_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 606
-static void audioq_put$link1$link1(struct GrooveQueue *queue$link1$link1, void *obj$link1$link1);
-// audioq_put$link2
+static void audioq_put_link1_link1(struct GrooveQueue *queue_link1_link1, void *obj_link1_link1);
+// audioq_put_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 278
-static void audioq_put$link2(struct GrooveQueue *queue$link2, void *obj$link2);
+static void audioq_put_link2(struct GrooveQueue *queue_link2, void *obj_link2);
 // av_buffersink_get_frame
 // file /usr/include/x86_64-linux-gnu/libavfilter/buffersink.h line 179
 signed int av_buffersink_get_frame(struct AVFilterContext *, struct AVFrame *);
@@ -674,15 +674,15 @@ void * av_mallocz(unsigned long int);
 // av_q2d
 // file /usr/include/x86_64-linux-gnu/libavutil/rational.h line 80
 static inline double av_q2d(struct AVRational a);
-// av_q2d$link1
+// av_q2d_link1
 // file /usr/include/x86_64-linux-gnu/libavutil/rational.h line 80
-static inline double av_q2d$link1(struct AVRational a$link1);
-// av_q2d$link1$link1
+static inline double av_q2d_link1(struct AVRational a_link1);
+// av_q2d_link1_link1
 // file /usr/include/x86_64-linux-gnu/libavutil/rational.h line 80
-static inline double av_q2d$link1$link1(struct AVRational a$link1$link1);
-// av_q2d$link2
+static inline double av_q2d_link1_link1(struct AVRational a_link1_link1);
+// av_q2d_link2
 // file /usr/include/x86_64-linux-gnu/libavutil/rational.h line 80
-static inline double av_q2d$link2(struct AVRational a$link2);
+static inline double av_q2d_link2(struct AVRational a_link2);
 // av_read_frame
 // file /usr/include/x86_64-linux-gnu/libavformat/avformat.h line 2180
 signed int av_read_frame(struct AVFormatContext *, struct AVPacket *);
@@ -797,15 +797,15 @@ signed int avio_open(struct AVIOContext **, const char *, signed int);
 // cleanup_avcontext
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 99
 static void cleanup_avcontext(struct GrooveEncoderPrivate *e);
-// cleanup_avcontext$link1
+// cleanup_avcontext_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 99
-static void cleanup_avcontext$link1(struct GrooveEncoderPrivate *e$link1);
+static void cleanup_avcontext_link1(struct GrooveEncoderPrivate *e_link1);
 // cleanup_save
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/file.c line 199
 static void cleanup_save(struct GrooveFile *file);
-// cleanup_save$link1
+// cleanup_save_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/file.c line 199
-static void cleanup_save$link1(struct GrooveFile *file$link1);
+static void cleanup_save_link1(struct GrooveFile *file_link1);
 // clock_gettime
 // file /usr/include/time.h line 342
 extern signed int clock_gettime(signed int, struct timespec *);
@@ -815,51 +815,51 @@ static void close_audio_device(struct GroovePlayerPrivate *p);
 // closest_supported_channel_layout
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 520
 static unsigned long int closest_supported_channel_layout(struct AVCodec *codec, unsigned long int target);
-// closest_supported_channel_layout$link1
+// closest_supported_channel_layout_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 520
-static unsigned long int closest_supported_channel_layout$link1(struct AVCodec *codec$link1, unsigned long int target$link1);
+static unsigned long int closest_supported_channel_layout_link1(struct AVCodec *codec_link1, unsigned long int target_link1);
 // closest_supported_sample_fmt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 460
 static enum GrooveSampleFormat closest_supported_sample_fmt(struct AVCodec *codec, enum GrooveSampleFormat target);
-// closest_supported_sample_fmt$link1
+// closest_supported_sample_fmt_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 460
-static enum GrooveSampleFormat closest_supported_sample_fmt$link1(struct AVCodec *codec$link1, enum GrooveSampleFormat target$link1);
+static enum GrooveSampleFormat closest_supported_sample_fmt_link1(struct AVCodec *codec_link1, enum GrooveSampleFormat target_link1);
 // closest_supported_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 494
 static signed int closest_supported_sample_rate(struct AVCodec *codec, signed int target);
-// closest_supported_sample_rate$link1
+// closest_supported_sample_rate_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 494
-static signed int closest_supported_sample_rate$link1(struct AVCodec *codec$link1, signed int target$link1);
+static signed int closest_supported_sample_rate_link1(struct AVCodec *codec_link1, signed int target_link1);
 // codec_supports_fmt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 448
 static signed int codec_supports_fmt(struct AVCodec *codec, enum GrooveSampleFormat fmt);
-// codec_supports_fmt$link1
+// codec_supports_fmt_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 448
-static signed int codec_supports_fmt$link1(struct AVCodec *codec$link1, enum GrooveSampleFormat fmt$link1);
+static signed int codec_supports_fmt_link1(struct AVCodec *codec_link1, enum GrooveSampleFormat fmt_link1);
 // create_volume_filter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 270
 static signed int create_volume_filter(struct GroovePlaylistPrivate *p, struct AVFilterContext **audio_src_ctx, double vol, double amp_vol);
-// create_volume_filter$link1
+// create_volume_filter_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 270
-static signed int create_volume_filter$link1(struct GroovePlaylistPrivate *p$link1, struct AVFilterContext **audio_src_ctx$link1, double vol$link1, double amp_vol$link1);
+static signed int create_volume_filter_link1(struct GroovePlaylistPrivate *p_link1, struct AVFilterContext **audio_src_ctx_link1, double vol_link1, double amp_vol_link1);
 // decode_interrupt_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/file.c line 13
 static signed int decode_interrupt_cb(void *ctx);
-// decode_interrupt_cb$link1
+// decode_interrupt_cb_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/file.c line 13
-static signed int decode_interrupt_cb$link1(void *ctx$link1);
+static signed int decode_interrupt_cb_link1(void *ctx_link1);
 // decode_one_frame
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 547
 static signed int decode_one_frame(struct GroovePlaylist *playlist, struct GrooveFile *file);
-// decode_one_frame$link1
+// decode_one_frame_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 547
-static signed int decode_one_frame$link1(struct GroovePlaylist *playlist$link1, struct GrooveFile *file$link1);
+static signed int decode_one_frame_link1(struct GroovePlaylist *playlist_link1, struct GrooveFile *file_link1);
 // decode_thread
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 661
 static void * decode_thread(void *arg);
-// decode_thread$link1
+// decode_thread_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 661
-static void * decode_thread$link1(void *arg$link1);
+static void * decode_thread_link1(void *arg_link1);
 // device_thread_run
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/grooveplayer/player.c line 132
 static void * device_thread_run(void *arg);
@@ -872,72 +872,72 @@ static void emit_event(struct GrooveQueue *queue, enum GroovePlayerEventType typ
 // encode_buffer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 65
 static signed int encode_buffer(struct GrooveEncoder *encoder, struct GrooveBuffer *buffer);
-// encode_buffer$link1
+// encode_buffer_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 65
-static signed int encode_buffer$link1(struct GrooveEncoder *encoder$link1, struct GrooveBuffer *buffer$link1);
+static signed int encode_buffer_link1(struct GrooveEncoder *encoder_link1, struct GrooveBuffer *buffer_link1);
 // encode_thread
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 153
 static void * encode_thread(void *arg);
-// encode_thread$link1
+// encode_thread_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 153
-static void * encode_thread$link1(void *arg$link1);
+static void * encode_thread_link1(void *arg_link1);
 // encoder_write_packet
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 298
 static signed int encoder_write_packet(void *opaque, unsigned char *buf, signed int buf_size);
-// encoder_write_packet$link1
+// encoder_write_packet_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 298
-static signed int encoder_write_packet$link1(void *opaque$link1, unsigned char *buf$link1, signed int buf_size$link1);
+static signed int encoder_write_packet_link1(void *opaque_link1, unsigned char *buf_link1, signed int buf_size_link1);
 // every_sink
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 493
 static signed int every_sink(struct GroovePlaylist *playlist, signed int (*func)(struct GrooveSink *), signed int default_value);
-// every_sink$link1
+// every_sink_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 493
-static signed int every_sink$link1(struct GroovePlaylist *playlist$link1, signed int (*func$link1)(struct GrooveSink *), signed int default_value$link1);
-// every_sink::func$link1$object
+static signed int every_sink_link1(struct GroovePlaylist *playlist_link1, signed int (*func_link1)(struct GrooveSink *), signed int default_value_link1);
+// every_sink::func_link1_object
 //
-signed int func$link1$object(struct GrooveSink *);
-// every_sink::func$object
+signed int func_link1_object(struct GrooveSink *);
+// every_sink::func_object
 //
-signed int func$object(struct GrooveSink *);
+signed int func_object(struct GrooveSink *);
 // every_sink_flush
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 543
 static void every_sink_flush(struct GroovePlaylist *playlist);
-// every_sink_flush$link1
+// every_sink_flush_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 543
-static void every_sink_flush$link1(struct GroovePlaylist *playlist$link1);
+static void every_sink_flush_link1(struct GroovePlaylist *playlist_link1);
 // every_sink_full
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 515
 static signed int every_sink_full(struct GroovePlaylist *playlist);
-// every_sink_full$link1
+// every_sink_full_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 515
-static signed int every_sink_full$link1(struct GroovePlaylist *playlist$link1);
+static signed int every_sink_full_link1(struct GroovePlaylist *playlist_link1);
 // every_sink_signal_end
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 529
 static void every_sink_signal_end(struct GroovePlaylist *playlist);
-// every_sink_signal_end$link1
+// every_sink_signal_end_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 529
-static void every_sink_signal_end$link1(struct GroovePlaylist *playlist$link1);
+static void every_sink_signal_end_link1(struct GroovePlaylist *playlist_link1);
 // fprintf
 // file /usr/include/stdio.h line 356
 extern signed int fprintf(struct _IO_FILE *, const char *, ...);
 // frame_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 107
 static signed int frame_size(const struct AVFrame *frame);
-// frame_size$link1
+// frame_size_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 107
-static signed int frame_size$link1(const struct AVFrame *frame$link1);
+static signed int frame_size_link1(const struct AVFrame *frame_link1);
 // frame_to_groove_buffer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 113
 static struct GrooveBuffer * frame_to_groove_buffer(struct GroovePlaylist *playlist, struct GrooveSink *sink, struct AVFrame *frame);
-// frame_to_groove_buffer$link1
+// frame_to_groove_buffer_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 113
-static struct GrooveBuffer * frame_to_groove_buffer$link1(struct GroovePlaylist *playlist$link1, struct GrooveSink *sink$link1, struct AVFrame *frame$link1);
+static struct GrooveBuffer * frame_to_groove_buffer_link1(struct GroovePlaylist *playlist_link1, struct GrooveSink *sink_link1, struct AVFrame *frame_link1);
 // gain_to_dB
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 266
 static double gain_to_dB(double gain);
-// gain_to_dB$link1
+// gain_to_dB_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 266
-static double gain_to_dB$link1(double gain$link1);
+static double gain_to_dB_link1(double gain_link1);
 // groove_audio_formats_equal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/groove.h line 124
 signed int groove_audio_formats_equal(struct GrooveAudioFormat *a, struct GrooveAudioFormat *b);
@@ -1151,15 +1151,15 @@ signed int groove_sink_detach(struct GrooveSink *sink);
 // groove_sink_pause
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 840
 static signed int groove_sink_pause(struct GrooveSink *sink);
-// groove_sink_pause$link1
+// groove_sink_pause_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 840
-static signed int groove_sink_pause$link1(struct GrooveSink *sink$link1);
+static signed int groove_sink_pause_link1(struct GrooveSink *sink_link1);
 // groove_sink_play
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 833
 static signed int groove_sink_play(struct GrooveSink *sink);
-// groove_sink_play$link1
+// groove_sink_play_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 833
-static signed int groove_sink_play$link1(struct GrooveSink *sink$link1);
+static signed int groove_sink_play_link1(struct GrooveSink *sink_link1);
 // groove_sink_set_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/groove.h line 435
 signed int groove_sink_set_gain(struct GrooveSink *sink, double gain);
@@ -1184,15 +1184,15 @@ signed int groove_version_patch(void);
 // init_avcontext
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 118
 static signed int init_avcontext(struct GrooveEncoder *encoder);
-// init_avcontext$link1
+// init_avcontext_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 118
-static signed int init_avcontext$link1(struct GrooveEncoder *encoder$link1);
+static signed int init_avcontext_link1(struct GrooveEncoder *encoder_link1);
 // init_filter_graph
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 326
 static signed int init_filter_graph(struct GroovePlaylist *playlist, struct GrooveFile *file);
-// init_filter_graph$link1
+// init_filter_graph_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 326
-static signed int init_filter_graph$link1(struct GroovePlaylist *playlist$link1, struct GrooveFile *file$link1);
+static signed int init_filter_graph_link1(struct GroovePlaylist *playlist_link1, struct GrooveFile *file_link1);
 // is_planar
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/grooveplayer/player.c line 232
 static _Bool is_planar(enum GrooveSampleFormat fmt);
@@ -1202,15 +1202,15 @@ extern double log(double);
 // log_audio_fmt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 550
 static void log_audio_fmt(struct GrooveAudioFormat *fmt);
-// log_audio_fmt$link1
+// log_audio_fmt_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 550
-static void log_audio_fmt$link1(struct GrooveAudioFormat *fmt$link1);
+static void log_audio_fmt_link1(struct GrooveAudioFormat *fmt_link1);
 // maybe_init_filter_graph
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 471
 static signed int maybe_init_filter_graph(struct GroovePlaylist *playlist, struct GrooveFile *file);
-// maybe_init_filter_graph$link1
+// maybe_init_filter_graph_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 471
-static signed int maybe_init_filter_graph$link1(struct GroovePlaylist *playlist$link1, struct GrooveFile *file$link1);
+static signed int maybe_init_filter_graph_link1(struct GroovePlaylist *playlist_link1, struct GrooveFile *file_link1);
 // memcpy
 // file /usr/include/string.h line 46
 extern void * memcpy(void *, const void *, unsigned long int);
@@ -1223,9 +1223,9 @@ extern void * memset(void *, signed int, unsigned long int);
 // my_lockmgr_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/global.c line 18
 static signed int my_lockmgr_cb(void **mutex, enum AVLockOp op);
-// my_lockmgr_cb$link1
+// my_lockmgr_cb_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/global.c line 18
-static signed int my_lockmgr_cb$link1(void **mutex$link1, enum AVLockOp op$link1);
+static signed int my_lockmgr_cb_link1(void **mutex_link1, enum AVLockOp op_link1);
 // now_nanos
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/grooveplayer/player.c line 116
 static unsigned long int now_nanos(void);
@@ -1237,25 +1237,25 @@ static signed int open_audio_device(struct GroovePlayer *player, struct GrooveAu
 extern signed int printf(const char *, ...);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$0 *);
+extern signed int pthread_cond_destroy(union anonymous_0 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$0 *, const union anonymous$1 *);
+extern signed int pthread_cond_init(union anonymous_0 *, const union anonymous_1 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$0 *);
+extern signed int pthread_cond_signal(union anonymous_0 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$0 *, union anonymous$2 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_0 *, union anonymous_2 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$0 *, union anonymous$2 *);
+extern signed int pthread_cond_wait(union anonymous_0 *, union anonymous_2 *);
 // pthread_condattr_init
 // file /usr/include/pthread.h line 1010
-extern signed int pthread_condattr_init(union anonymous$1 *);
+extern signed int pthread_condattr_init(union anonymous_1 *);
 // pthread_condattr_setclock
 // file /usr/include/pthread.h line 1035
-extern signed int pthread_condattr_setclock(union anonymous$1 *, signed int);
+extern signed int pthread_condattr_setclock(union anonymous_1 *, signed int);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1264,22 +1264,22 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$2 *);
+extern signed int pthread_mutex_destroy(union anonymous_2 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$1 *);
+extern signed int pthread_mutex_init(union anonymous_2 *, const union anonymous_1 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // purge_sink
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 1155
 static signed int purge_sink(struct GrooveSink *sink);
-// purge_sink$link1
+// purge_sink_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 1155
-static signed int purge_sink$link1(struct GrooveSink *sink$link1);
+static signed int purge_sink_link1(struct GrooveSink *sink_link1);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -1289,9 +1289,9 @@ extern signed int remove(const char *);
 // remove_sink_from_map
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 743
 static signed int remove_sink_from_map(struct GrooveSink *sink);
-// remove_sink_from_map$link1
+// remove_sink_from_map_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 743
-static signed int remove_sink_from_map$link1(struct GrooveSink *sink$link1);
+static signed int remove_sink_from_map_link1(struct GrooveSink *sink_link1);
 // rename
 // file /usr/include/stdio.h line 180
 extern signed int rename(const char *, const char *);
@@ -1304,30 +1304,30 @@ static enum GrooveSampleFormat sdl_fmt_to_groove_fmt(unsigned short int sdl_form
 // sink_flush
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/grooveplayer/player.c line 387
 static void sink_flush(struct GrooveSink *sink);
-// sink_flush$link1
+// sink_flush_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 533
-static signed int sink_flush$link1(struct GrooveSink *sink$link1);
-// sink_flush$link1$link1
+static signed int sink_flush_link1(struct GrooveSink *sink_link1);
+// sink_flush_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 533
-static signed int sink_flush$link1$link1(struct GrooveSink *sink$link1$link1);
-// sink_flush$link2
+static signed int sink_flush_link1_link1(struct GrooveSink *sink_link1_link1);
+// sink_flush_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 246
-static void sink_flush$link2(struct GrooveSink *sink$link2);
-// sink_flush$link3
+static void sink_flush_link2(struct GrooveSink *sink_link2);
+// sink_flush_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 246
-static void sink_flush$link3(struct GrooveSink *sink$link3);
+static void sink_flush_link3(struct GrooveSink *sink_link3);
 // sink_formats_compatible
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 722
 static signed int sink_formats_compatible(struct GrooveSink *example_sink, struct GrooveSink *test_sink);
-// sink_formats_compatible$link1
+// sink_formats_compatible_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 722
-static signed int sink_formats_compatible$link1(struct GrooveSink *example_sink$link1, struct GrooveSink *test_sink$link1);
+static signed int sink_formats_compatible_link1(struct GrooveSink *example_sink_link1, struct GrooveSink *test_sink_link1);
 // sink_is_full
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 510
 static signed int sink_is_full(struct GrooveSink *sink);
-// sink_is_full$link1
+// sink_is_full_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 510
-static signed int sink_is_full$link1(struct GrooveSink *sink$link1);
+static signed int sink_is_full_link1(struct GrooveSink *sink_link1);
 // sink_pause
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/grooveplayer/player.c line 355
 static void sink_pause(struct GrooveSink *sink);
@@ -1337,18 +1337,18 @@ static void sink_play(struct GrooveSink *sink);
 // sink_purge
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/grooveplayer/player.c line 335
 static void sink_purge(struct GrooveSink *sink, struct GroovePlaylistItem *item);
-// sink_purge$link1
+// sink_purge_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 229
-static void sink_purge$link1(struct GrooveSink *sink$link1, struct GroovePlaylistItem *item$link1);
-// sink_purge$link2
+static void sink_purge_link1(struct GrooveSink *sink_link1, struct GroovePlaylistItem *item_link1);
+// sink_purge_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 229
-static void sink_purge$link2(struct GrooveSink *sink$link2, struct GroovePlaylistItem *item$link2);
+static void sink_purge_link2(struct GrooveSink *sink_link2, struct GroovePlaylistItem *item_link2);
 // sink_signal_end
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 523
 static signed int sink_signal_end(struct GrooveSink *sink);
-// sink_signal_end$link1
+// sink_signal_end_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 523
-static signed int sink_signal_end$link1(struct GrooveSink *sink$link1);
+static signed int sink_signal_end_link1(struct GrooveSink *sink_link1);
 // snprintf
 // file /usr/include/stdio.h line 386
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
@@ -1370,18 +1370,18 @@ extern char * strrchr(const char *, signed int);
 // tempfileify
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/file.c line 182
 static signed int tempfileify(char *str, unsigned long int max_len);
-// tempfileify$link1
+// tempfileify_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/file.c line 182
-static signed int tempfileify$link1(char *str$link1, unsigned long int max_len$link1);
+static signed int tempfileify_link1(char *str_link1, unsigned long int max_len_link1);
 // time
 // file /usr/include/time.h line 192
 extern signed long int time(signed long int *);
 // update_playlist_volume
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 652
 static void update_playlist_volume(struct GroovePlaylist *playlist);
-// update_playlist_volume$link1
+// update_playlist_volume_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 652
-static void update_playlist_volume$link1(struct GroovePlaylist *playlist$link1);
+static void update_playlist_volume_link1(struct GroovePlaylist *playlist_link1);
 // usage
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/example/playlist.c line 8
 static signed int usage(const char *exe);
@@ -1406,7 +1406,7 @@ struct anonymous
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // last_dts
   signed long int last_dts;
@@ -1436,7 +1436,7 @@ struct anonymous$4
   signed int fps_last_dts_idx;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[4l];
@@ -1452,7 +1452,7 @@ struct AVRational
   signed int den;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // i64
   signed long int i64;
@@ -1464,7 +1464,7 @@ union anonymous$3
   struct AVRational q;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct anonymous __data;
@@ -1502,7 +1502,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1555,9 +1555,9 @@ struct AVClass
   // child_class_next
   struct AVClass * (*child_class_next)(struct AVClass *);
   // category
-  enum anonymous$5 category;
+  enum anonymous_5 category;
   // get_category
-  enum anonymous$5 (*get_category)(void *);
+  enum anonymous_5 (*get_category)(void *);
   // query_ranges
   signed int (*query_ranges)(struct AVOptionRanges **, void *, const char *, signed int);
 };
@@ -2391,7 +2391,7 @@ struct AVFilterLink
   // request_samples
   signed int request_samples;
   // init_state
-  enum anonymous$6 init_state;
+  enum anonymous_6 init_state;
   // pool
   struct AVFilterPool *pool;
   // graph
@@ -2925,7 +2925,7 @@ struct AVOption
   // type
   enum AVOptionType type;
   // default_val
-  union anonymous$3 default_val;
+  union anonymous_3 default_val;
   // min
   double min;
   // max
@@ -3173,7 +3173,7 @@ struct AVStream
   // event_flags
   signed int event_flags;
   // info
-  struct anonymous$4 *info;
+  struct anonymous_4 *info;
   // pts_wrap_bits
   signed int pts_wrap_bits;
   // first_dts
@@ -3333,7 +3333,7 @@ struct GrooveBufferPrivate
   // ref_count
   signed int ref_count;
   // mutex
-  union anonymous$2 mutex;
+  union anonymous_2 mutex;
   // data
   unsigned char *data;
 };
@@ -3389,11 +3389,11 @@ struct GrooveEncoderPrivate
   // purge_item
   struct GroovePlaylistItem *purge_item;
   // encode_head_mutex
-  union anonymous$2 encode_head_mutex;
+  union anonymous_2 encode_head_mutex;
   // encode_head_mutex_inited
   char encode_head_mutex_inited;
   // drain_cond
-  union anonymous$0 drain_cond;
+  union anonymous_0 drain_cond;
   // drain_cond_inited
   char drain_cond_inited;
   // encode_head
@@ -3443,7 +3443,7 @@ struct GrooveFilePrivate
   // audio_st
   struct AVStream *audio_st;
   // seek_mutex
-  union anonymous$2 seek_mutex;
+  union anonymous_2 seek_mutex;
   // seek_pos
   signed long int seek_pos;
   // seek_flush
@@ -3505,7 +3505,7 @@ struct GroovePlayerPrivate
   // bytes_per_frame
   signed int bytes_per_frame;
   // play_head_mutex
-  union anonymous$2 play_head_mutex;
+  union anonymous_2 play_head_mutex;
   // play_head_mutex_inited
   _Bool play_head_mutex_inited;
   // play_head
@@ -3529,9 +3529,9 @@ struct GroovePlayerPrivate
   // frames_consumed
   unsigned long int frames_consumed;
   // pause_cond
-  union anonymous$0 pause_cond;
+  union anonymous_0 pause_cond;
   // cond_attr
-  union anonymous$1 cond_attr;
+  union anonymous_1 cond_attr;
   // pause_cond_inited
   _Bool pause_cond_inited;
   // paused
@@ -3541,7 +3541,7 @@ struct GroovePlayerPrivate
   // device_thread_inited
   signed int device_thread_inited;
   // device_thread_cond
-  union anonymous$0 device_thread_cond;
+  union anonymous_0 device_thread_cond;
   // device_thread_cond_inited
   _Bool device_thread_cond_inited;
   // silence_bytes_left
@@ -3619,19 +3619,19 @@ struct GroovePlaylistPrivate
   // abuffersink_filter
   struct AVFilter *abuffersink_filter;
   // drain_cond_mutex
-  union anonymous$2 drain_cond_mutex;
+  union anonymous_2 drain_cond_mutex;
   // drain_cond_mutex_inited
   signed int drain_cond_mutex_inited;
   // decode_head_mutex
-  union anonymous$2 decode_head_mutex;
+  union anonymous_2 decode_head_mutex;
   // decode_head_mutex_inited
   signed int decode_head_mutex_inited;
   // decode_head_cond
-  union anonymous$0 decode_head_cond;
+  union anonymous_0 decode_head_cond;
   // decode_head_cond_inited
   signed int decode_head_cond_inited;
   // sink_drain_cond
-  union anonymous$0 sink_drain_cond;
+  union anonymous_0 sink_drain_cond;
   // sink_drain_cond_inited
   signed int sink_drain_cond_inited;
   // decode_head
@@ -3681,9 +3681,9 @@ struct GrooveQueuePrivate
   // last
   struct ItemList *last;
   // mutex
-  union anonymous$2 mutex;
+  union anonymous_2 mutex;
   // cond
-  union anonymous$0 cond;
+  union anonymous_0 cond;
   // abort_request
   signed int abort_request;
 };
@@ -3880,27 +3880,27 @@ struct timespec
 // dB_scale
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 264
 static const double dB_scale = 0.1151292546497023;
-// dB_scale$link1
+// dB_scale_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 264
-static const double dB_scale$link1 = 0.1151292546497023;
+static const double dB_scale_link1 = 0.1151292546497023;
 // end_of_q_sentinel
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 63
 static struct GrooveBuffer *end_of_q_sentinel = (struct GrooveBuffer *)(void *)0;
-// end_of_q_sentinel$link1
+// end_of_q_sentinel_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 105
-static struct GrooveBuffer *end_of_q_sentinel$link1 = (struct GrooveBuffer *)(void *)0;
-// end_of_q_sentinel$link1$link1
+static struct GrooveBuffer *end_of_q_sentinel_link1 = (struct GrooveBuffer *)(void *)0;
+// end_of_q_sentinel_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 105
-static struct GrooveBuffer *end_of_q_sentinel$link1$link1 = (struct GrooveBuffer *)(void *)0;
-// end_of_q_sentinel$link2
+static struct GrooveBuffer *end_of_q_sentinel_link1_link1 = (struct GrooveBuffer *)(void *)0;
+// end_of_q_sentinel_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 63
-static struct GrooveBuffer *end_of_q_sentinel$link2 = (struct GrooveBuffer *)(void *)0;
+static struct GrooveBuffer *end_of_q_sentinel_link2 = (struct GrooveBuffer *)(void *)0;
 // should_deinit_network
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/global.c line 16
 static signed int should_deinit_network = 0;
-// should_deinit_network$link1
+// should_deinit_network_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/global.c line 16
-static signed int should_deinit_network$link1 = 0;
+static signed int should_deinit_network_link1 = 0;
 // stderr
 // file /usr/include/stdio.h line 170
 extern struct _IO_FILE *stderr;
@@ -3913,12 +3913,12 @@ static signed int abs_diff(signed int a, signed int b)
   return n >= 0 ? n : -n;
 }
 
-// abs_diff$link1
+// abs_diff_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 443
-static signed int abs_diff$link1(signed int a$link1, signed int b$link1)
+static signed int abs_diff_link1(signed int a_link1, signed int b_link1)
 {
-  signed int n$link1 = a$link1 - b$link1;
-  return n$link1 >= 0 ? n$link1 : -n$link1;
+  signed int n_link1 = a_link1 - b_link1;
+  return n_link1 >= 0 ? n_link1 : -n_link1;
 }
 
 // add_sink_to_map
@@ -3927,9 +3927,9 @@ static signed int add_sink_to_map(struct GroovePlaylist *playlist, struct Groove
 {
   struct GroovePlaylistPrivate *p = (struct GroovePlaylistPrivate *)playlist;
   struct SinkStack *stack_entry;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct SinkStack) /*16ul*/ );
-  stack_entry = (struct SinkStack *)return_value_av_mallocz$1;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct SinkStack) /*16ul*/ );
+  stack_entry = (struct SinkStack *)return_value_av_mallocz_1;
   if(stack_entry == ((struct SinkStack *)NULL))
     return -1;
 
@@ -3940,18 +3940,18 @@ static signed int add_sink_to_map(struct GroovePlaylist *playlist, struct Groove
     while(!(map_item == ((struct SinkMap *)NULL)))
     {
       struct GrooveSink *example_sink = map_item->stack_head->sink;
-      signed int return_value_sink_formats_compatible$2;
-      return_value_sink_formats_compatible$2=sink_formats_compatible(example_sink, sink);
-      if(!(return_value_sink_formats_compatible$2 == 0))
+      signed int return_value_sink_formats_compatible_2;
+      return_value_sink_formats_compatible_2=sink_formats_compatible(example_sink, sink);
+      if(!(return_value_sink_formats_compatible_2 == 0))
       {
         stack_entry->next = map_item->stack_head->next;
         map_item->stack_head->next = stack_entry;
         return 0;
       }
 
-      signed int return_value_sink_formats_compatible$3;
-      return_value_sink_formats_compatible$3=sink_formats_compatible(sink, example_sink);
-      if(!(return_value_sink_formats_compatible$3 == 0))
+      signed int return_value_sink_formats_compatible_3;
+      return_value_sink_formats_compatible_3=sink_formats_compatible(sink, example_sink);
+      if(!(return_value_sink_formats_compatible_3 == 0))
       {
         stack_entry->next = map_item->stack_head;
         map_item->stack_head = stack_entry;
@@ -3962,9 +3962,9 @@ static signed int add_sink_to_map(struct GroovePlaylist *playlist, struct Groove
       map_item = map_item->next;
     }
     struct SinkMap *map_entry;
-    void *return_value_av_mallocz$4;
-    return_value_av_mallocz$4=av_mallocz(sizeof(struct SinkMap) /*24ul*/ );
-    map_entry = (struct SinkMap *)return_value_av_mallocz$4;
+    void *return_value_av_mallocz_4;
+    return_value_av_mallocz_4=av_mallocz(sizeof(struct SinkMap) /*24ul*/ );
+    map_entry = (struct SinkMap *)return_value_av_mallocz_4;
     map_entry->stack_head = stack_entry;
     if(map_entry == ((struct SinkMap *)NULL))
     {
@@ -3989,69 +3989,69 @@ static signed int add_sink_to_map(struct GroovePlaylist *playlist, struct Groove
   }
 }
 
-// add_sink_to_map$link1
+// add_sink_to_map_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 785
-static signed int add_sink_to_map$link1(struct GroovePlaylist *playlist$link1, struct GrooveSink *sink$link1)
+static signed int add_sink_to_map_link1(struct GroovePlaylist *playlist_link1, struct GrooveSink *sink_link1)
 {
-  struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-  struct SinkStack *stack_entry$link1;
-  void *return_value_av_mallocz$1$link1;
-  return_value_av_mallocz$1$link1=av_mallocz(sizeof(struct SinkStack) /*16ul*/ );
-  stack_entry$link1 = (struct SinkStack *)return_value_av_mallocz$1$link1;
-  if(stack_entry$link1 == ((struct SinkStack *)NULL))
+  struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+  struct SinkStack *stack_entry_link1;
+  void *return_value_av_mallocz_1_link1;
+  return_value_av_mallocz_1_link1=av_mallocz(sizeof(struct SinkStack) /*16ul*/ );
+  stack_entry_link1 = (struct SinkStack *)return_value_av_mallocz_1_link1;
+  if(stack_entry_link1 == ((struct SinkStack *)NULL))
     return -1;
 
   else
   {
-    stack_entry$link1->sink = sink$link1;
-    struct SinkMap *map_item$link1 = p$link1->sink_map;
-    while(!(map_item$link1 == ((struct SinkMap *)NULL)))
+    stack_entry_link1->sink = sink_link1;
+    struct SinkMap *map_item_link1 = p_link1->sink_map;
+    while(!(map_item_link1 == ((struct SinkMap *)NULL)))
     {
-      struct GrooveSink *example_sink$link1 = map_item$link1->stack_head->sink;
-      signed int return_value_sink_formats_compatible$2$link1;
-      return_value_sink_formats_compatible$2$link1=sink_formats_compatible$link1(example_sink$link1, sink$link1);
-      if(!(return_value_sink_formats_compatible$2$link1 == 0))
+      struct GrooveSink *example_sink_link1 = map_item_link1->stack_head->sink;
+      signed int return_value_sink_formats_compatible_2_link1;
+      return_value_sink_formats_compatible_2_link1=sink_formats_compatible_link1(example_sink_link1, sink_link1);
+      if(!(return_value_sink_formats_compatible_2_link1 == 0))
       {
-        stack_entry$link1->next = map_item$link1->stack_head->next;
-        map_item$link1->stack_head->next = stack_entry$link1;
+        stack_entry_link1->next = map_item_link1->stack_head->next;
+        map_item_link1->stack_head->next = stack_entry_link1;
         return 0;
       }
 
-      signed int return_value_sink_formats_compatible$3$link1;
-      return_value_sink_formats_compatible$3$link1=sink_formats_compatible$link1(sink$link1, example_sink$link1);
-      if(!(return_value_sink_formats_compatible$3$link1 == 0))
+      signed int return_value_sink_formats_compatible_3_link1;
+      return_value_sink_formats_compatible_3_link1=sink_formats_compatible_link1(sink_link1, example_sink_link1);
+      if(!(return_value_sink_formats_compatible_3_link1 == 0))
       {
-        stack_entry$link1->next = map_item$link1->stack_head;
-        map_item$link1->stack_head = stack_entry$link1;
-        p$link1->rebuild_filter_graph_flag = 1;
+        stack_entry_link1->next = map_item_link1->stack_head;
+        map_item_link1->stack_head = stack_entry_link1;
+        p_link1->rebuild_filter_graph_flag = 1;
         return 0;
       }
 
-      map_item$link1 = map_item$link1->next;
+      map_item_link1 = map_item_link1->next;
     }
-    struct SinkMap *map_entry$link1;
-    void *return_value_av_mallocz$4$link1;
-    return_value_av_mallocz$4$link1=av_mallocz(sizeof(struct SinkMap) /*24ul*/ );
-    map_entry$link1 = (struct SinkMap *)return_value_av_mallocz$4$link1;
-    map_entry$link1->stack_head = stack_entry$link1;
-    if(map_entry$link1 == ((struct SinkMap *)NULL))
+    struct SinkMap *map_entry_link1;
+    void *return_value_av_mallocz_4_link1;
+    return_value_av_mallocz_4_link1=av_mallocz(sizeof(struct SinkMap) /*24ul*/ );
+    map_entry_link1 = (struct SinkMap *)return_value_av_mallocz_4_link1;
+    map_entry_link1->stack_head = stack_entry_link1;
+    if(map_entry_link1 == ((struct SinkMap *)NULL))
     {
-      av_free((void *)stack_entry$link1);
+      av_free((void *)stack_entry_link1);
       return -1;
     }
 
     else
     {
-      if(!(p$link1->sink_map == ((struct SinkMap *)NULL)))
+      if(!(p_link1->sink_map == ((struct SinkMap *)NULL)))
       {
-        map_entry$link1->next = p$link1->sink_map;
-        p$link1->sink_map = map_entry$link1;
+        map_entry_link1->next = p_link1->sink_map;
+        p_link1->sink_map = map_entry_link1;
       }
 
       else
-        p$link1->sink_map = map_entry$link1;
-      p$link1->rebuild_filter_graph_flag = 1;
-      p$link1->sink_map_count = p$link1->sink_map_count + 1;
+        p_link1->sink_map = map_entry_link1;
+      p_link1->rebuild_filter_graph_flag = 1;
+      p_link1->sink_map_count = p_link1->sink_map_count + 1;
       return 0;
     }
   }
@@ -4061,18 +4061,18 @@ static signed int add_sink_to_map$link1(struct GroovePlaylist *playlist$link1, s
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 519
 static signed int any_sink_full(struct GroovePlaylist *playlist)
 {
-  signed int return_value_every_sink$1;
-  return_value_every_sink$1=every_sink(playlist, sink_is_full, 0);
-  return return_value_every_sink$1;
+  signed int return_value_every_sink_1;
+  return_value_every_sink_1=every_sink(playlist, sink_is_full, 0);
+  return return_value_every_sink_1;
 }
 
-// any_sink_full$link1
+// any_sink_full_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 519
-static signed int any_sink_full$link1(struct GroovePlaylist *playlist$link1)
+static signed int any_sink_full_link1(struct GroovePlaylist *playlist_link1)
 {
-  signed int return_value_every_sink$1$link1;
-  return_value_every_sink$1$link1=every_sink$link1(playlist$link1, sink_is_full$link1, 0);
-  return return_value_every_sink$1$link1;
+  signed int return_value_every_sink_1_link1;
+  return_value_every_sink_1_link1=every_sink_link1(playlist_link1, sink_is_full_link1, 0);
+  return return_value_every_sink_1_link1;
 }
 
 // audio_decode_frame
@@ -4085,11 +4085,11 @@ static signed int audio_decode_frame(struct GroovePlaylist *playlist, struct Gro
   struct AVCodecContext *dec = f->audio_st->codec;
   struct AVPacket *pkt_temp = &p->audio_pkt_temp;
   *pkt_temp = *pkt;
-  double return_value_av_q2d$1;
+  double return_value_av_q2d_1;
   if(!(pkt->pts == -9223372036854775808l))
   {
-    return_value_av_q2d$1=av_q2d$link1(f->audio_st->time_base);
-    f->audio_clock = return_value_av_q2d$1 * (double)pkt->pts;
+    return_value_av_q2d_1=av_q2d_link1(f->audio_st->time_base);
+    f->audio_clock = return_value_av_q2d_1 * (double)pkt->pts;
   }
 
   signed int max_data_size = 0;
@@ -4097,9 +4097,9 @@ static signed int audio_decode_frame(struct GroovePlaylist *playlist, struct Gro
   signed int got_frame;
   signed int new_packet = 1;
   struct AVFrame *in_frame = p->in_frame;
-  signed int tmp_if_expr$4;
-  signed int return_value_av_buffersink_get_frame$2;
-  signed int return_value_av_buffersink_get_samples$3;
+  signed int tmp_if_expr_4;
+  signed int return_value_av_buffersink_get_frame_2;
+  signed int return_value_av_buffersink_get_samples_3;
   while((_Bool)1)
   {
     if(!(pkt_temp->size >= 1))
@@ -4162,26 +4162,26 @@ static signed int audio_decode_frame(struct GroovePlaylist *playlist, struct Gro
         {
           struct AVFrame *oframe;
           oframe=av_frame_alloc();
-          signed int audio_decode_frame$$1$$1$$4$$1$$1$$err;
+          signed int audio_decode_frame__1__1__4__1__1__err;
           if(example_sink->buffer_sample_count == 0)
           {
-            return_value_av_buffersink_get_frame$2=av_buffersink_get_frame(map_item->abuffersink_ctx, oframe);
-            tmp_if_expr$4 = return_value_av_buffersink_get_frame$2;
+            return_value_av_buffersink_get_frame_2=av_buffersink_get_frame(map_item->abuffersink_ctx, oframe);
+            tmp_if_expr_4 = return_value_av_buffersink_get_frame_2;
           }
 
           else
           {
-            return_value_av_buffersink_get_samples$3=av_buffersink_get_samples(map_item->abuffersink_ctx, oframe, example_sink->buffer_sample_count);
-            tmp_if_expr$4 = return_value_av_buffersink_get_samples$3;
+            return_value_av_buffersink_get_samples_3=av_buffersink_get_samples(map_item->abuffersink_ctx, oframe, example_sink->buffer_sample_count);
+            tmp_if_expr_4 = return_value_av_buffersink_get_samples_3;
           }
-          audio_decode_frame$$1$$1$$4$$1$$1$$err = tmp_if_expr$4;
-          if(audio_decode_frame$$1$$1$$4$$1$$1$$err == -541478725 || audio_decode_frame$$1$$1$$4$$1$$1$$err == -11)
+          audio_decode_frame__1__1__4__1__1__err = tmp_if_expr_4;
+          if(audio_decode_frame__1__1__4__1__1__err == -541478725 || audio_decode_frame__1__1__4__1__1__err == -11)
           {
             av_frame_free(&oframe);
             break;
           }
 
-          if(!(audio_decode_frame$$1$$1$$4$$1$$1$$err >= 0))
+          if(!(audio_decode_frame__1__1__4__1__1__err >= 0))
           {
             av_frame_free(&oframe);
             av_log((void *)0, 16, "error reading buffer from buffersink\n");
@@ -4204,9 +4204,9 @@ static signed int audio_decode_frame(struct GroovePlaylist *playlist, struct Gro
             struct GrooveSink *sink = stack_item->sink;
             struct GrooveSinkPrivate *s = (struct GrooveSinkPrivate *)sink;
             groove_buffer_ref(buffer);
-            signed int return_value_groove_queue_put$5;
-            return_value_groove_queue_put$5=groove_queue_put(s->audioq, (void *)buffer);
-            if(!(return_value_groove_queue_put$5 >= 0))
+            signed int return_value_groove_queue_put_5;
+            return_value_groove_queue_put_5=groove_queue_put(s->audioq, (void *)buffer);
+            if(!(return_value_groove_queue_put_5 >= 0))
             {
               av_log((void *)0, 16, "unable to put buffer in queue\n");
               groove_buffer_unref(buffer);
@@ -4237,38 +4237,38 @@ __CPROVER_DUMP_L24:
   return max_data_size;
 }
 
-// audio_decode_frame$link1
+// audio_decode_frame_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 154
-static signed int audio_decode_frame$link1(struct GroovePlaylist *playlist$link1, struct GrooveFile *file$link1)
+static signed int audio_decode_frame_link1(struct GroovePlaylist *playlist_link1, struct GrooveFile *file_link1)
 {
-  struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-  struct GrooveFilePrivate *f$link1 = (struct GrooveFilePrivate *)file$link1;
-  struct AVPacket *pkt$link1 = &f$link1->audio_pkt;
-  struct AVCodecContext *dec$link1 = f$link1->audio_st->codec;
-  struct AVPacket *pkt_temp$link1 = &p$link1->audio_pkt_temp;
-  *pkt_temp$link1 = *pkt$link1;
-  double return_value_av_q2d$1$link1;
-  if(!(pkt$link1->pts == -9223372036854775808l))
+  struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+  struct GrooveFilePrivate *f_link1 = (struct GrooveFilePrivate *)file_link1;
+  struct AVPacket *pkt_link1 = &f_link1->audio_pkt;
+  struct AVCodecContext *dec_link1 = f_link1->audio_st->codec;
+  struct AVPacket *pkt_temp_link1 = &p_link1->audio_pkt_temp;
+  *pkt_temp_link1 = *pkt_link1;
+  double return_value_av_q2d_1_link1;
+  if(!(pkt_link1->pts == -9223372036854775808l))
   {
-    return_value_av_q2d$1$link1=av_q2d$link1$link1(f$link1->audio_st->time_base);
-    f$link1->audio_clock = return_value_av_q2d$1$link1 * (double)pkt$link1->pts;
+    return_value_av_q2d_1_link1=av_q2d_link1_link1(f_link1->audio_st->time_base);
+    f_link1->audio_clock = return_value_av_q2d_1_link1 * (double)pkt_link1->pts;
   }
 
-  signed int max_data_size$link1 = 0;
-  signed int len1$link1;
-  signed int got_frame$link1;
-  signed int new_packet$link1 = 1;
-  struct AVFrame *in_frame$link1 = p$link1->in_frame;
-  signed int tmp_if_expr$4$link1;
-  signed int return_value_av_buffersink_get_frame$2$link1;
-  signed int return_value_av_buffersink_get_samples$3$link1;
+  signed int max_data_size_link1 = 0;
+  signed int len1_link1;
+  signed int got_frame_link1;
+  signed int new_packet_link1 = 1;
+  struct AVFrame *in_frame_link1 = p_link1->in_frame;
+  signed int tmp_if_expr_4_link1;
+  signed int return_value_av_buffersink_get_frame_2_link1;
+  signed int return_value_av_buffersink_get_samples_3_link1;
   while((_Bool)1)
   {
-    if(!(pkt_temp$link1->size >= 1))
+    if(!(pkt_temp_link1->size >= 1))
     {
-      if(pkt_temp$link1->data == ((unsigned char *)NULL))
+      if(pkt_temp_link1->data == ((unsigned char *)NULL))
       {
-        if(new_packet$link1 == 0)
+        if(new_packet_link1 == 0)
           goto __CPROVER_DUMP_L3;
 
       }
@@ -4282,21 +4282,21 @@ static signed int audio_decode_frame$link1(struct GroovePlaylist *playlist$link1
       }
     }
 
-    new_packet$link1 = 0;
-    len1$link1=avcodec_decode_audio4(dec$link1, in_frame$link1, &got_frame$link1, pkt_temp$link1);
-    if(!(len1$link1 >= 0))
+    new_packet_link1 = 0;
+    len1_link1=avcodec_decode_audio4(dec_link1, in_frame_link1, &got_frame_link1, pkt_temp_link1);
+    if(!(len1_link1 >= 0))
     {
-      pkt_temp$link1->size = 0;
+      pkt_temp_link1->size = 0;
       return -1;
     }
 
-    pkt_temp$link1->data = pkt_temp$link1->data + (signed long int)len1$link1;
-    pkt_temp$link1->size = pkt_temp$link1->size - len1$link1;
-    if(got_frame$link1 == 0)
+    pkt_temp_link1->data = pkt_temp_link1->data + (signed long int)len1_link1;
+    pkt_temp_link1->size = pkt_temp_link1->size - len1_link1;
+    if(got_frame_link1 == 0)
     {
-      if(pkt_temp$link1->data == ((unsigned char *)NULL))
+      if(pkt_temp_link1->data == ((unsigned char *)NULL))
       {
-        if(!((32 & dec$link1->codec->capabilities) == 0))
+        if(!((32 & dec_link1->codec->capabilities) == 0))
           return 0;
 
       }
@@ -4305,98 +4305,98 @@ static signed int audio_decode_frame$link1(struct GroovePlaylist *playlist$link1
 
     else
     {
-      signed int err$link1;
-      err$link1=av_buffersrc_write_frame(p$link1->abuffer_ctx, in_frame$link1);
-      if(!(err$link1 >= 0))
+      signed int err_link1;
+      err_link1=av_buffersrc_write_frame(p_link1->abuffer_ctx, in_frame_link1);
+      if(!(err_link1 >= 0))
       {
-        av_strerror(err$link1, p$link1->strbuf, sizeof(char [512l]) /*512ul*/ );
-        av_log((void *)0, 16, "error writing frame to buffersrc: %s\n", (const void *)p$link1->strbuf);
+        av_strerror(err_link1, p_link1->strbuf, sizeof(char [512l]) /*512ul*/ );
+        av_log((void *)0, 16, "error writing frame to buffersrc: %s\n", (const void *)p_link1->strbuf);
         return -1;
       }
 
-      struct SinkMap *map_item$link1 = p$link1->sink_map;
-      double clock_adjustment$link1 = (double)0;
-      while(!(map_item$link1 == ((struct SinkMap *)NULL)))
+      struct SinkMap *map_item_link1 = p_link1->sink_map;
+      double clock_adjustment_link1 = (double)0;
+      while(!(map_item_link1 == ((struct SinkMap *)NULL)))
       {
-        struct GrooveSink *example_sink$link1 = map_item$link1->stack_head->sink;
-        signed int data_size$link1 = 0;
+        struct GrooveSink *example_sink_link1 = map_item_link1->stack_head->sink;
+        signed int data_size_link1 = 0;
         do
         {
-          struct AVFrame *oframe$link1;
-          oframe$link1=av_frame_alloc();
-          signed int audio_decode_frame$$1$$1$$4$$1$$1$$err$link1;
-          if(example_sink$link1->buffer_sample_count == 0)
+          struct AVFrame *oframe_link1;
+          oframe_link1=av_frame_alloc();
+          signed int audio_decode_frame__1__1__4__1__1__err_link1;
+          if(example_sink_link1->buffer_sample_count == 0)
           {
-            return_value_av_buffersink_get_frame$2$link1=av_buffersink_get_frame(map_item$link1->abuffersink_ctx, oframe$link1);
-            tmp_if_expr$4$link1 = return_value_av_buffersink_get_frame$2$link1;
+            return_value_av_buffersink_get_frame_2_link1=av_buffersink_get_frame(map_item_link1->abuffersink_ctx, oframe_link1);
+            tmp_if_expr_4_link1 = return_value_av_buffersink_get_frame_2_link1;
           }
 
           else
           {
-            return_value_av_buffersink_get_samples$3$link1=av_buffersink_get_samples(map_item$link1->abuffersink_ctx, oframe$link1, example_sink$link1->buffer_sample_count);
-            tmp_if_expr$4$link1 = return_value_av_buffersink_get_samples$3$link1;
+            return_value_av_buffersink_get_samples_3_link1=av_buffersink_get_samples(map_item_link1->abuffersink_ctx, oframe_link1, example_sink_link1->buffer_sample_count);
+            tmp_if_expr_4_link1 = return_value_av_buffersink_get_samples_3_link1;
           }
-          audio_decode_frame$$1$$1$$4$$1$$1$$err$link1 = tmp_if_expr$4$link1;
-          if(audio_decode_frame$$1$$1$$4$$1$$1$$err$link1 == -541478725 || audio_decode_frame$$1$$1$$4$$1$$1$$err$link1 == -11)
+          audio_decode_frame__1__1__4__1__1__err_link1 = tmp_if_expr_4_link1;
+          if(audio_decode_frame__1__1__4__1__1__err_link1 == -541478725 || audio_decode_frame__1__1__4__1__1__err_link1 == -11)
           {
-            av_frame_free(&oframe$link1);
+            av_frame_free(&oframe_link1);
             break;
           }
 
-          if(!(audio_decode_frame$$1$$1$$4$$1$$1$$err$link1 >= 0))
+          if(!(audio_decode_frame__1__1__4__1__1__err_link1 >= 0))
           {
-            av_frame_free(&oframe$link1);
+            av_frame_free(&oframe_link1);
             av_log((void *)0, 16, "error reading buffer from buffersink\n");
             return -1;
           }
 
-          struct GrooveBuffer *buffer$link1;
-          buffer$link1=frame_to_groove_buffer$link1(playlist$link1, example_sink$link1, oframe$link1);
-          if(buffer$link1 == ((struct GrooveBuffer *)NULL))
+          struct GrooveBuffer *buffer_link1;
+          buffer_link1=frame_to_groove_buffer_link1(playlist_link1, example_sink_link1, oframe_link1);
+          if(buffer_link1 == ((struct GrooveBuffer *)NULL))
           {
-            av_frame_free(&oframe$link1);
+            av_frame_free(&oframe_link1);
             return -1;
           }
 
-          data_size$link1 = data_size$link1 + buffer$link1->size;
-          struct SinkStack *stack_item$link1 = map_item$link1->stack_head;
-          groove_buffer_ref(buffer$link1);
-          while(!(stack_item$link1 == ((struct SinkStack *)NULL)))
+          data_size_link1 = data_size_link1 + buffer_link1->size;
+          struct SinkStack *stack_item_link1 = map_item_link1->stack_head;
+          groove_buffer_ref(buffer_link1);
+          while(!(stack_item_link1 == ((struct SinkStack *)NULL)))
           {
-            struct GrooveSink *sink$link1 = stack_item$link1->sink;
-            struct GrooveSinkPrivate *s$link1 = (struct GrooveSinkPrivate *)sink$link1;
-            groove_buffer_ref(buffer$link1);
-            signed int return_value_groove_queue_put$5$link1;
-            return_value_groove_queue_put$5$link1=groove_queue_put(s$link1->audioq, (void *)buffer$link1);
-            if(!(return_value_groove_queue_put$5$link1 >= 0))
+            struct GrooveSink *sink_link1 = stack_item_link1->sink;
+            struct GrooveSinkPrivate *s_link1 = (struct GrooveSinkPrivate *)sink_link1;
+            groove_buffer_ref(buffer_link1);
+            signed int return_value_groove_queue_put_5_link1;
+            return_value_groove_queue_put_5_link1=groove_queue_put(s_link1->audioq, (void *)buffer_link1);
+            if(!(return_value_groove_queue_put_5_link1 >= 0))
             {
               av_log((void *)0, 16, "unable to put buffer in queue\n");
-              groove_buffer_unref(buffer$link1);
+              groove_buffer_unref(buffer_link1);
             }
 
-            stack_item$link1 = stack_item$link1->next;
+            stack_item_link1 = stack_item_link1->next;
           }
-          groove_buffer_unref(buffer$link1);
+          groove_buffer_unref(buffer_link1);
         }
         while((_Bool)1);
-        if(!(max_data_size$link1 >= data_size$link1))
+        if(!(max_data_size_link1 >= data_size_link1))
         {
-          max_data_size$link1 = data_size$link1;
-          clock_adjustment$link1 = (double)data_size$link1 / (double)example_sink$link1->bytes_per_sec;
+          max_data_size_link1 = data_size_link1;
+          clock_adjustment_link1 = (double)data_size_link1 / (double)example_sink_link1->bytes_per_sec;
         }
 
-        map_item$link1 = map_item$link1->next;
+        map_item_link1 = map_item_link1->next;
       }
-      if(pkt$link1->pts == -9223372036854775808l)
-        f$link1->audio_clock = f$link1->audio_clock + clock_adjustment$link1;
+      if(pkt_link1->pts == -9223372036854775808l)
+        f_link1->audio_clock = f_link1->audio_clock + clock_adjustment_link1;
 
-      return max_data_size$link1;
+      return max_data_size_link1;
     }
   }
 
 __CPROVER_DUMP_L24:
   ;
-  return max_data_size$link1;
+  return max_data_size_link1;
 }
 
 // audioq_cleanup
@@ -4413,46 +4413,46 @@ static void audioq_cleanup(struct GrooveQueue *queue, void *obj)
 
 }
 
-// audioq_cleanup$link1
+// audioq_cleanup_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 631
-static void audioq_cleanup$link1(struct GrooveQueue *queue$link1, void *obj$link1)
+static void audioq_cleanup_link1(struct GrooveQueue *queue_link1, void *obj_link1)
 {
-  struct GrooveBuffer *buffer$link1 = (struct GrooveBuffer *)obj$link1;
-  if(!(buffer$link1 == end_of_q_sentinel$link1))
+  struct GrooveBuffer *buffer_link1 = (struct GrooveBuffer *)obj_link1;
+  if(!(buffer_link1 == end_of_q_sentinel_link1))
   {
-    struct GrooveSink *sink = (struct GrooveSink *)queue$link1->context;
+    struct GrooveSink *sink = (struct GrooveSink *)queue_link1->context;
     struct GrooveSinkPrivate *s = (struct GrooveSinkPrivate *)sink;
-    s->audioq_size = s->audioq_size - buffer$link1->size;
-    groove_buffer_unref(buffer$link1);
+    s->audioq_size = s->audioq_size - buffer_link1->size;
+    groove_buffer_unref(buffer_link1);
   }
 
 }
 
-// audioq_cleanup$link1$link1
+// audioq_cleanup_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 631
-static void audioq_cleanup$link1$link1(struct GrooveQueue *queue$link1$link1, void *obj$link1$link1)
+static void audioq_cleanup_link1_link1(struct GrooveQueue *queue_link1_link1, void *obj_link1_link1)
 {
-  struct GrooveBuffer *buffer$link1$link1 = (struct GrooveBuffer *)obj$link1$link1;
-  if(!(buffer$link1$link1 == end_of_q_sentinel$link1$link1))
+  struct GrooveBuffer *buffer_link1_link1 = (struct GrooveBuffer *)obj_link1_link1;
+  if(!(buffer_link1_link1 == end_of_q_sentinel_link1_link1))
   {
-    struct GrooveSink *sink$link1 = (struct GrooveSink *)queue$link1$link1->context;
-    struct GrooveSinkPrivate *s$link1 = (struct GrooveSinkPrivate *)sink$link1;
-    s$link1->audioq_size = s$link1->audioq_size - buffer$link1$link1->size;
-    groove_buffer_unref(buffer$link1$link1);
+    struct GrooveSink *sink_link1 = (struct GrooveSink *)queue_link1_link1->context;
+    struct GrooveSinkPrivate *s_link1 = (struct GrooveSinkPrivate *)sink_link1;
+    s_link1->audioq_size = s_link1->audioq_size - buffer_link1_link1->size;
+    groove_buffer_unref(buffer_link1_link1);
   }
 
 }
 
-// audioq_cleanup$link2
+// audioq_cleanup_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 269
-static void audioq_cleanup$link2(struct GrooveQueue *queue$link2, void *obj$link2)
+static void audioq_cleanup_link2(struct GrooveQueue *queue_link2, void *obj_link2)
 {
-  struct GrooveBuffer *buffer$link2 = (struct GrooveBuffer *)obj$link2;
-  if(!(buffer$link2 == end_of_q_sentinel$link2))
+  struct GrooveBuffer *buffer_link2 = (struct GrooveBuffer *)obj_link2;
+  if(!(buffer_link2 == end_of_q_sentinel_link2))
   {
-    struct GrooveEncoderPrivate *e$link1 = (struct GrooveEncoderPrivate *)queue$link2->context;
-    e$link1->audioq_size = e$link1->audioq_size - buffer$link2->size;
-    groove_buffer_unref(buffer$link2);
+    struct GrooveEncoderPrivate *e_link1 = (struct GrooveEncoderPrivate *)queue_link2->context;
+    e_link1->audioq_size = e_link1->audioq_size - buffer_link2->size;
+    groove_buffer_unref(buffer_link2);
   }
 
 }
@@ -4474,16 +4474,16 @@ static void audioq_get(struct GrooveQueue *queue, void *obj)
 
 }
 
-// audioq_get$link1
+// audioq_get_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 614
-static void audioq_get$link1(struct GrooveQueue *queue$link1, void *obj$link1)
+static void audioq_get_link1(struct GrooveQueue *queue_link1, void *obj_link1)
 {
-  struct GrooveBuffer *buffer$link1 = (struct GrooveBuffer *)obj$link1;
-  if(!(buffer$link1 == end_of_q_sentinel$link1))
+  struct GrooveBuffer *buffer_link1 = (struct GrooveBuffer *)obj_link1;
+  if(!(buffer_link1 == end_of_q_sentinel_link1))
   {
-    struct GrooveSink *sink = (struct GrooveSink *)queue$link1->context;
+    struct GrooveSink *sink = (struct GrooveSink *)queue_link1->context;
     struct GrooveSinkPrivate *s = (struct GrooveSinkPrivate *)sink;
-    s->audioq_size = s->audioq_size - buffer$link1->size;
+    s->audioq_size = s->audioq_size - buffer_link1->size;
     struct GroovePlaylist *playlist = sink->playlist;
     struct GroovePlaylistPrivate *p = (struct GroovePlaylistPrivate *)playlist;
     if(!(s->audioq_size >= s->min_audioq_size))
@@ -4497,41 +4497,41 @@ static void audioq_get$link1(struct GrooveQueue *queue$link1, void *obj$link1)
 
 }
 
-// audioq_get$link1$link1
+// audioq_get_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 614
-static void audioq_get$link1$link1(struct GrooveQueue *queue$link1$link1, void *obj$link1$link1)
+static void audioq_get_link1_link1(struct GrooveQueue *queue_link1_link1, void *obj_link1_link1)
 {
-  struct GrooveBuffer *buffer$link1$link1 = (struct GrooveBuffer *)obj$link1$link1;
-  if(!(buffer$link1$link1 == end_of_q_sentinel$link1$link1))
+  struct GrooveBuffer *buffer_link1_link1 = (struct GrooveBuffer *)obj_link1_link1;
+  if(!(buffer_link1_link1 == end_of_q_sentinel_link1_link1))
   {
-    struct GrooveSink *sink$link1 = (struct GrooveSink *)queue$link1$link1->context;
-    struct GrooveSinkPrivate *s$link1 = (struct GrooveSinkPrivate *)sink$link1;
-    s$link1->audioq_size = s$link1->audioq_size - buffer$link1$link1->size;
-    struct GroovePlaylist *playlist$link1 = sink$link1->playlist;
-    struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-    if(!(s$link1->audioq_size >= s$link1->min_audioq_size))
+    struct GrooveSink *sink_link1 = (struct GrooveSink *)queue_link1_link1->context;
+    struct GrooveSinkPrivate *s_link1 = (struct GrooveSinkPrivate *)sink_link1;
+    s_link1->audioq_size = s_link1->audioq_size - buffer_link1_link1->size;
+    struct GroovePlaylist *playlist_link1 = sink_link1->playlist;
+    struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+    if(!(s_link1->audioq_size >= s_link1->min_audioq_size))
     {
-      pthread_mutex_lock(&p$link1->drain_cond_mutex);
-      pthread_cond_signal(&p$link1->sink_drain_cond);
-      pthread_mutex_unlock(&p$link1->drain_cond_mutex);
+      pthread_mutex_lock(&p_link1->drain_cond_mutex);
+      pthread_cond_signal(&p_link1->sink_drain_cond);
+      pthread_mutex_unlock(&p_link1->drain_cond_mutex);
     }
 
   }
 
 }
 
-// audioq_get$link2
+// audioq_get_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 286
-static void audioq_get$link2(struct GrooveQueue *queue$link2, void *obj$link2)
+static void audioq_get_link2(struct GrooveQueue *queue_link2, void *obj_link2)
 {
-  struct GrooveBuffer *buffer$link2 = (struct GrooveBuffer *)obj$link2;
-  if(!(buffer$link2 == end_of_q_sentinel$link2))
+  struct GrooveBuffer *buffer_link2 = (struct GrooveBuffer *)obj_link2;
+  if(!(buffer_link2 == end_of_q_sentinel_link2))
   {
-    struct GrooveEncoderPrivate *e$link1 = (struct GrooveEncoderPrivate *)queue$link2->context;
-    struct GrooveEncoder *encoder$link1 = &e$link1->externals;
-    e$link1->audioq_size = e$link1->audioq_size - buffer$link2->size;
-    if(!(e$link1->audioq_size >= encoder$link1->encoded_buffer_size))
-      pthread_cond_signal(&e$link1->drain_cond);
+    struct GrooveEncoderPrivate *e_link1 = (struct GrooveEncoderPrivate *)queue_link2->context;
+    struct GrooveEncoder *encoder_link1 = &e_link1->externals;
+    e_link1->audioq_size = e_link1->audioq_size - buffer_link2->size;
+    if(!(e_link1->audioq_size >= encoder_link1->encoded_buffer_size))
+      pthread_cond_signal(&e_link1->drain_cond);
 
   }
 
@@ -4552,54 +4552,54 @@ static signed int audioq_purge(struct GrooveQueue *queue, void *obj)
   }
 }
 
-// audioq_purge$link1
+// audioq_purge_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 641
-static signed int audioq_purge$link1(struct GrooveQueue *queue$link1, void *obj$link1)
+static signed int audioq_purge_link1(struct GrooveQueue *queue_link1, void *obj_link1)
 {
-  struct GrooveBuffer *buffer$link1 = (struct GrooveBuffer *)obj$link1;
-  if(buffer$link1 == end_of_q_sentinel$link1)
+  struct GrooveBuffer *buffer_link1 = (struct GrooveBuffer *)obj_link1;
+  if(buffer_link1 == end_of_q_sentinel_link1)
     return 0;
 
   else
   {
-    struct GrooveSink *sink = (struct GrooveSink *)queue$link1->context;
+    struct GrooveSink *sink = (struct GrooveSink *)queue_link1->context;
     struct GroovePlaylist *playlist = sink->playlist;
     struct GroovePlaylistPrivate *p = (struct GroovePlaylistPrivate *)playlist;
     struct GroovePlaylistItem *item = p->purge_item;
-    return (signed int)(buffer$link1->item == item);
+    return (signed int)(buffer_link1->item == item);
   }
 }
 
-// audioq_purge$link1$link1
+// audioq_purge_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 641
-static signed int audioq_purge$link1$link1(struct GrooveQueue *queue$link1$link1, void *obj$link1$link1)
+static signed int audioq_purge_link1_link1(struct GrooveQueue *queue_link1_link1, void *obj_link1_link1)
 {
-  struct GrooveBuffer *buffer$link1$link1 = (struct GrooveBuffer *)obj$link1$link1;
-  if(buffer$link1$link1 == end_of_q_sentinel$link1$link1)
+  struct GrooveBuffer *buffer_link1_link1 = (struct GrooveBuffer *)obj_link1_link1;
+  if(buffer_link1_link1 == end_of_q_sentinel_link1_link1)
     return 0;
 
   else
   {
-    struct GrooveSink *sink$link1 = (struct GrooveSink *)queue$link1$link1->context;
-    struct GroovePlaylist *playlist$link1 = sink$link1->playlist;
-    struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-    struct GroovePlaylistItem *item$link1 = p$link1->purge_item;
-    return (signed int)(buffer$link1$link1->item == item$link1);
+    struct GrooveSink *sink_link1 = (struct GrooveSink *)queue_link1_link1->context;
+    struct GroovePlaylist *playlist_link1 = sink_link1->playlist;
+    struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+    struct GroovePlaylistItem *item_link1 = p_link1->purge_item;
+    return (signed int)(buffer_link1_link1->item == item_link1);
   }
 }
 
-// audioq_purge$link2
+// audioq_purge_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 261
-static signed int audioq_purge$link2(struct GrooveQueue *queue$link2, void *obj$link2)
+static signed int audioq_purge_link2(struct GrooveQueue *queue_link2, void *obj_link2)
 {
-  struct GrooveBuffer *buffer$link2 = (struct GrooveBuffer *)obj$link2;
-  if(buffer$link2 == end_of_q_sentinel$link2)
+  struct GrooveBuffer *buffer_link2 = (struct GrooveBuffer *)obj_link2;
+  if(buffer_link2 == end_of_q_sentinel_link2)
     return 0;
 
   else
   {
-    struct GrooveEncoderPrivate *e$link1 = (struct GrooveEncoderPrivate *)queue$link2->context;
-    return (signed int)(buffer$link2->item == e$link1->purge_item);
+    struct GrooveEncoderPrivate *e_link1 = (struct GrooveEncoderPrivate *)queue_link2->context;
+    return (signed int)(buffer_link2->item == e_link1->purge_item);
   }
 }
 
@@ -4616,41 +4616,41 @@ static void audioq_put(struct GrooveQueue *queue, void *obj)
 
 }
 
-// audioq_put$link1
+// audioq_put_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 606
-static void audioq_put$link1(struct GrooveQueue *queue$link1, void *obj$link1)
+static void audioq_put_link1(struct GrooveQueue *queue_link1, void *obj_link1)
 {
-  struct GrooveBuffer *buffer$link1 = (struct GrooveBuffer *)obj$link1;
-  if(!(buffer$link1 == end_of_q_sentinel$link1))
+  struct GrooveBuffer *buffer_link1 = (struct GrooveBuffer *)obj_link1;
+  if(!(buffer_link1 == end_of_q_sentinel_link1))
   {
-    struct GrooveSinkPrivate *s = (struct GrooveSinkPrivate *)queue$link1->context;
-    s->audioq_size = s->audioq_size + buffer$link1->size;
+    struct GrooveSinkPrivate *s = (struct GrooveSinkPrivate *)queue_link1->context;
+    s->audioq_size = s->audioq_size + buffer_link1->size;
   }
 
 }
 
-// audioq_put$link1$link1
+// audioq_put_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 606
-static void audioq_put$link1$link1(struct GrooveQueue *queue$link1$link1, void *obj$link1$link1)
+static void audioq_put_link1_link1(struct GrooveQueue *queue_link1_link1, void *obj_link1_link1)
 {
-  struct GrooveBuffer *buffer$link1$link1 = (struct GrooveBuffer *)obj$link1$link1;
-  if(!(buffer$link1$link1 == end_of_q_sentinel$link1$link1))
+  struct GrooveBuffer *buffer_link1_link1 = (struct GrooveBuffer *)obj_link1_link1;
+  if(!(buffer_link1_link1 == end_of_q_sentinel_link1_link1))
   {
-    struct GrooveSinkPrivate *s$link1 = (struct GrooveSinkPrivate *)queue$link1$link1->context;
-    s$link1->audioq_size = s$link1->audioq_size + buffer$link1$link1->size;
+    struct GrooveSinkPrivate *s_link1 = (struct GrooveSinkPrivate *)queue_link1_link1->context;
+    s_link1->audioq_size = s_link1->audioq_size + buffer_link1_link1->size;
   }
 
 }
 
-// audioq_put$link2
+// audioq_put_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 278
-static void audioq_put$link2(struct GrooveQueue *queue$link2, void *obj$link2)
+static void audioq_put_link2(struct GrooveQueue *queue_link2, void *obj_link2)
 {
-  struct GrooveBuffer *buffer$link2 = (struct GrooveBuffer *)obj$link2;
-  if(!(buffer$link2 == end_of_q_sentinel$link2))
+  struct GrooveBuffer *buffer_link2 = (struct GrooveBuffer *)obj_link2;
+  if(!(buffer_link2 == end_of_q_sentinel_link2))
   {
-    struct GrooveEncoderPrivate *e$link1 = (struct GrooveEncoderPrivate *)queue$link2->context;
-    e$link1->audioq_size = e$link1->audioq_size + buffer$link2->size;
+    struct GrooveEncoderPrivate *e_link1 = (struct GrooveEncoderPrivate *)queue_link2->context;
+    e_link1->audioq_size = e_link1->audioq_size + buffer_link2->size;
   }
 
 }
@@ -4662,25 +4662,25 @@ static inline double av_q2d(struct AVRational a)
   return (double)a.num / (double)a.den;
 }
 
-// av_q2d$link1
+// av_q2d_link1
 // file /usr/include/x86_64-linux-gnu/libavutil/rational.h line 80
-static inline double av_q2d$link1(struct AVRational a$link1)
+static inline double av_q2d_link1(struct AVRational a_link1)
 {
-  return (double)a$link1.num / (double)a$link1.den;
+  return (double)a_link1.num / (double)a_link1.den;
 }
 
-// av_q2d$link1$link1
+// av_q2d_link1_link1
 // file /usr/include/x86_64-linux-gnu/libavutil/rational.h line 80
-static inline double av_q2d$link1$link1(struct AVRational a$link1$link1)
+static inline double av_q2d_link1_link1(struct AVRational a_link1_link1)
 {
-  return (double)a$link1$link1.num / (double)a$link1$link1.den;
+  return (double)a_link1_link1.num / (double)a_link1_link1.den;
 }
 
-// av_q2d$link2
+// av_q2d_link2
 // file /usr/include/x86_64-linux-gnu/libavutil/rational.h line 80
-static inline double av_q2d$link2(struct AVRational a$link2)
+static inline double av_q2d_link2(struct AVRational a_link2)
 {
-  return (double)a$link2.num / (double)a$link2.den;
+  return (double)a_link2.num / (double)a_link2.den;
 }
 
 // cleanup_avcontext
@@ -4706,27 +4706,27 @@ static void cleanup_avcontext(struct GrooveEncoderPrivate *e)
   e->next_pts = (unsigned long int)0;
 }
 
-// cleanup_avcontext$link1
+// cleanup_avcontext_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 99
-static void cleanup_avcontext$link1(struct GrooveEncoderPrivate *e$link1)
+static void cleanup_avcontext_link1(struct GrooveEncoderPrivate *e_link1)
 {
-  if(!(e$link1->stream == ((struct AVStream *)NULL)))
+  if(!(e_link1->stream == ((struct AVStream *)NULL)))
   {
-    avcodec_close(e$link1->stream->codec);
-    e$link1->stream = (struct AVStream *)(void *)0;
+    avcodec_close(e_link1->stream->codec);
+    e_link1->stream = (struct AVStream *)(void *)0;
   }
 
-  if(!(e$link1->fmt_ctx == ((struct AVFormatContext *)NULL)))
+  if(!(e_link1->fmt_ctx == ((struct AVFormatContext *)NULL)))
   {
-    avformat_free_context(e$link1->fmt_ctx);
-    e$link1->fmt_ctx = (struct AVFormatContext *)(void *)0;
+    avformat_free_context(e_link1->fmt_ctx);
+    e_link1->fmt_ctx = (struct AVFormatContext *)(void *)0;
   }
 
-  e$link1->sent_header = 0;
-  e$link1->encode_head = (struct GroovePlaylistItem *)(void *)0;
-  e$link1->encode_pos = -1.0;
-  e$link1->encode_pts = (unsigned long int)0;
-  e$link1->next_pts = (unsigned long int)0;
+  e_link1->sent_header = 0;
+  e_link1->encode_head = (struct GroovePlaylistItem *)(void *)0;
+  e_link1->encode_pos = -1.0;
+  e_link1->encode_pts = (unsigned long int)0;
+  e_link1->next_pts = (unsigned long int)0;
 }
 
 // cleanup_save
@@ -4738,9 +4738,9 @@ static void cleanup_save(struct GrooveFile *file)
   avio_closep(&f->oc->pb);
   if(!(f->tempfile_exists == 0))
   {
-    signed int return_value_remove$1;
-    return_value_remove$1=remove(f->oc->filename);
-    if(!(return_value_remove$1 == 0))
+    signed int return_value_remove_1;
+    return_value_remove_1=remove(f->oc->filename);
+    if(!(return_value_remove_1 == 0))
       av_log((void *)0, 24, "Error deleting temp file during cleanup\n");
 
     f->tempfile_exists = 0;
@@ -4754,27 +4754,27 @@ static void cleanup_save(struct GrooveFile *file)
 
 }
 
-// cleanup_save$link1
+// cleanup_save_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/file.c line 199
-static void cleanup_save$link1(struct GrooveFile *file$link1)
+static void cleanup_save_link1(struct GrooveFile *file_link1)
 {
-  struct GrooveFilePrivate *f$link1 = (struct GrooveFilePrivate *)file$link1;
-  av_free_packet(&f$link1->audio_pkt);
-  avio_closep(&f$link1->oc->pb);
-  if(!(f$link1->tempfile_exists == 0))
+  struct GrooveFilePrivate *f_link1 = (struct GrooveFilePrivate *)file_link1;
+  av_free_packet(&f_link1->audio_pkt);
+  avio_closep(&f_link1->oc->pb);
+  if(!(f_link1->tempfile_exists == 0))
   {
-    signed int return_value_remove$1$link1;
-    return_value_remove$1$link1=remove(f$link1->oc->filename);
-    if(!(return_value_remove$1$link1 == 0))
+    signed int return_value_remove_1_link1;
+    return_value_remove_1_link1=remove(f_link1->oc->filename);
+    if(!(return_value_remove_1_link1 == 0))
       av_log((void *)0, 24, "Error deleting temp file during cleanup\n");
 
-    f$link1->tempfile_exists = 0;
+    f_link1->tempfile_exists = 0;
   }
 
-  if(!(f$link1->oc == ((struct AVFormatContext *)NULL)))
+  if(!(f_link1->oc == ((struct AVFormatContext *)NULL)))
   {
-    avformat_free_context(f$link1->oc);
-    f$link1->oc = (struct AVFormatContext *)(void *)0;
+    avformat_free_context(f_link1->oc);
+    f_link1->oc = (struct AVFormatContext *)(void *)0;
   }
 
 }
@@ -4795,10 +4795,10 @@ static void close_audio_device(struct GroovePlayerPrivate *p)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 520
 static unsigned long int closest_supported_channel_layout(struct AVCodec *codec, unsigned long int target)
 {
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int return_value_abs_diff$1;
-  signed int return_value_abs_diff$2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_abs_diff_1;
+  signed int return_value_abs_diff_2;
   if(codec->channel_layouts == ((const unsigned long int *)NULL))
     return target;
 
@@ -4818,22 +4818,22 @@ static unsigned long int closest_supported_channel_layout(struct AVCodec *codec,
       signed int count;
       count=av_get_channel_layout_nb_channels(*p);
       if(!(best_count >= count) && !(best_count >= target_count))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         if(count >= target_count)
         {
-          return_value_abs_diff$1=abs_diff(target_count, count);
-          return_value_abs_diff$2=abs_diff(target_count, best_count);
-          tmp_if_expr$3 = return_value_abs_diff$1 < return_value_abs_diff$2 ? (_Bool)1 : (_Bool)0;
+          return_value_abs_diff_1=abs_diff(target_count, count);
+          return_value_abs_diff_2=abs_diff(target_count, best_count);
+          tmp_if_expr_3 = return_value_abs_diff_1 < return_value_abs_diff_2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
         best_count = count;
         best = *p;
@@ -4845,57 +4845,57 @@ static unsigned long int closest_supported_channel_layout(struct AVCodec *codec,
   }
 }
 
-// closest_supported_channel_layout$link1
+// closest_supported_channel_layout_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 520
-static unsigned long int closest_supported_channel_layout$link1(struct AVCodec *codec$link1, unsigned long int target$link1)
+static unsigned long int closest_supported_channel_layout_link1(struct AVCodec *codec_link1, unsigned long int target_link1)
 {
-  _Bool tmp_if_expr$4$link1;
-  _Bool tmp_if_expr$3$link1;
-  signed int return_value_abs_diff$1$link1;
-  signed int return_value_abs_diff$2$link1;
-  if(codec$link1->channel_layouts == ((const unsigned long int *)NULL))
-    return target$link1;
+  _Bool tmp_if_expr_4_link1;
+  _Bool tmp_if_expr_3_link1;
+  signed int return_value_abs_diff_1_link1;
+  signed int return_value_abs_diff_2_link1;
+  if(codec_link1->channel_layouts == ((const unsigned long int *)NULL))
+    return target_link1;
 
   else
   {
-    signed int target_count$link1;
-    target_count$link1=av_get_channel_layout_nb_channels(target$link1);
-    const unsigned long int *p$link1 = codec$link1->channel_layouts;
-    unsigned long int best$link1 = *p$link1;
-    signed int best_count$link1;
-    best_count$link1=av_get_channel_layout_nb_channels(best$link1);
-    while(!(*p$link1 == 0ul))
+    signed int target_count_link1;
+    target_count_link1=av_get_channel_layout_nb_channels(target_link1);
+    const unsigned long int *p_link1 = codec_link1->channel_layouts;
+    unsigned long int best_link1 = *p_link1;
+    signed int best_count_link1;
+    best_count_link1=av_get_channel_layout_nb_channels(best_link1);
+    while(!(*p_link1 == 0ul))
     {
-      if(*p$link1 == target$link1)
-        return target$link1;
+      if(*p_link1 == target_link1)
+        return target_link1;
 
-      signed int count$link1;
-      count$link1=av_get_channel_layout_nb_channels(*p$link1);
-      if(!(best_count$link1 >= count$link1) && !(best_count$link1 >= target_count$link1))
-        tmp_if_expr$4$link1 = (_Bool)1;
+      signed int count_link1;
+      count_link1=av_get_channel_layout_nb_channels(*p_link1);
+      if(!(best_count_link1 >= count_link1) && !(best_count_link1 >= target_count_link1))
+        tmp_if_expr_4_link1 = (_Bool)1;
 
       else
       {
-        if(count$link1 >= target_count$link1)
+        if(count_link1 >= target_count_link1)
         {
-          return_value_abs_diff$1$link1=abs_diff$link1(target_count$link1, count$link1);
-          return_value_abs_diff$2$link1=abs_diff$link1(target_count$link1, best_count$link1);
-          tmp_if_expr$3$link1 = return_value_abs_diff$1$link1 < return_value_abs_diff$2$link1 ? (_Bool)1 : (_Bool)0;
+          return_value_abs_diff_1_link1=abs_diff_link1(target_count_link1, count_link1);
+          return_value_abs_diff_2_link1=abs_diff_link1(target_count_link1, best_count_link1);
+          tmp_if_expr_3_link1 = return_value_abs_diff_1_link1 < return_value_abs_diff_2_link1 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3$link1 = (_Bool)0;
-        tmp_if_expr$4$link1 = tmp_if_expr$3$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3_link1 = (_Bool)0;
+        tmp_if_expr_4_link1 = tmp_if_expr_3_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4$link1)
+      if(tmp_if_expr_4_link1)
       {
-        best_count$link1 = count$link1;
-        best$link1 = *p$link1;
+        best_count_link1 = count_link1;
+        best_link1 = *p_link1;
       }
 
-      p$link1 = p$link1 + (signed long int)1;
+      p_link1 = p_link1 + (signed long int)1;
     }
-    return best$link1;
+    return best_link1;
   }
 }
 
@@ -4903,10 +4903,10 @@ static unsigned long int closest_supported_channel_layout$link1(struct AVCodec *
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 460
 static enum GrooveSampleFormat closest_supported_sample_fmt(struct AVCodec *codec, enum GrooveSampleFormat target)
 {
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int return_value_abs_diff$1;
-  signed int return_value_abs_diff$2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_abs_diff_1;
+  signed int return_value_abs_diff_2;
   if(codec->sample_fmts == ((const enum AVSampleFormat *)NULL))
     return target;
 
@@ -4926,22 +4926,22 @@ static enum GrooveSampleFormat closest_supported_sample_fmt(struct AVCodec *code
       signed int size;
       size=av_get_bytes_per_sample((enum AVSampleFormat)*p);
       if(!(best_size >= size) && !(best_size >= target_size))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         if(size >= target_size)
         {
-          return_value_abs_diff$1=abs_diff(target_size, size);
-          return_value_abs_diff$2=abs_diff(target_size, best_size);
-          tmp_if_expr$3 = return_value_abs_diff$1 < return_value_abs_diff$2 ? (_Bool)1 : (_Bool)0;
+          return_value_abs_diff_1=abs_diff(target_size, size);
+          return_value_abs_diff_2=abs_diff(target_size, best_size);
+          tmp_if_expr_3 = return_value_abs_diff_1 < return_value_abs_diff_2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
         best_size = size;
         best = *p;
@@ -4950,72 +4950,72 @@ static enum GrooveSampleFormat closest_supported_sample_fmt(struct AVCodec *code
       p = p + (signed long int)1;
     }
     enum GrooveSampleFormat packed_best;
-    enum AVSampleFormat return_value_av_get_packed_sample_fmt$5;
-    return_value_av_get_packed_sample_fmt$5=av_get_packed_sample_fmt((enum AVSampleFormat)best);
-    packed_best = (enum GrooveSampleFormat)return_value_av_get_packed_sample_fmt$5;
-    signed int return_value_codec_supports_fmt$6;
-    return_value_codec_supports_fmt$6=codec_supports_fmt(codec, packed_best);
-    return (enum GrooveSampleFormat)(return_value_codec_supports_fmt$6 != 0 ? (signed int)packed_best : (signed int)best);
+    enum AVSampleFormat return_value_av_get_packed_sample_fmt_5;
+    return_value_av_get_packed_sample_fmt_5=av_get_packed_sample_fmt((enum AVSampleFormat)best);
+    packed_best = (enum GrooveSampleFormat)return_value_av_get_packed_sample_fmt_5;
+    signed int return_value_codec_supports_fmt_6;
+    return_value_codec_supports_fmt_6=codec_supports_fmt(codec, packed_best);
+    return (enum GrooveSampleFormat)(return_value_codec_supports_fmt_6 != 0 ? (signed int)packed_best : (signed int)best);
   }
 }
 
-// closest_supported_sample_fmt$link1
+// closest_supported_sample_fmt_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 460
-static enum GrooveSampleFormat closest_supported_sample_fmt$link1(struct AVCodec *codec$link1, enum GrooveSampleFormat target$link1)
+static enum GrooveSampleFormat closest_supported_sample_fmt_link1(struct AVCodec *codec_link1, enum GrooveSampleFormat target_link1)
 {
-  _Bool tmp_if_expr$4$link1;
-  _Bool tmp_if_expr$3$link1;
-  signed int return_value_abs_diff$1$link1;
-  signed int return_value_abs_diff$2$link1;
-  if(codec$link1->sample_fmts == ((const enum AVSampleFormat *)NULL))
-    return target$link1;
+  _Bool tmp_if_expr_4_link1;
+  _Bool tmp_if_expr_3_link1;
+  signed int return_value_abs_diff_1_link1;
+  signed int return_value_abs_diff_2_link1;
+  if(codec_link1->sample_fmts == ((const enum AVSampleFormat *)NULL))
+    return target_link1;
 
   else
   {
-    signed int target_size$link1;
-    target_size$link1=av_get_bytes_per_sample((enum AVSampleFormat)target$link1);
-    const enum GrooveSampleFormat *p$link1 = (enum GrooveSampleFormat *)codec$link1->sample_fmts;
-    enum GrooveSampleFormat best$link1 = *p$link1;
-    signed int best_size$link1;
-    best_size$link1=av_get_bytes_per_sample((enum AVSampleFormat)best$link1);
-    while(!((signed int)*p$link1 == GROOVE_SAMPLE_FMT_NONE))
+    signed int target_size_link1;
+    target_size_link1=av_get_bytes_per_sample((enum AVSampleFormat)target_link1);
+    const enum GrooveSampleFormat *p_link1 = (enum GrooveSampleFormat *)codec_link1->sample_fmts;
+    enum GrooveSampleFormat best_link1 = *p_link1;
+    signed int best_size_link1;
+    best_size_link1=av_get_bytes_per_sample((enum AVSampleFormat)best_link1);
+    while(!((signed int)*p_link1 == GROOVE_SAMPLE_FMT_NONE))
     {
-      if(*p$link1 == target$link1)
-        return target$link1;
+      if(*p_link1 == target_link1)
+        return target_link1;
 
-      signed int size$link1;
-      size$link1=av_get_bytes_per_sample((enum AVSampleFormat)*p$link1);
-      if(!(best_size$link1 >= size$link1) && !(best_size$link1 >= target_size$link1))
-        tmp_if_expr$4$link1 = (_Bool)1;
+      signed int size_link1;
+      size_link1=av_get_bytes_per_sample((enum AVSampleFormat)*p_link1);
+      if(!(best_size_link1 >= size_link1) && !(best_size_link1 >= target_size_link1))
+        tmp_if_expr_4_link1 = (_Bool)1;
 
       else
       {
-        if(size$link1 >= target_size$link1)
+        if(size_link1 >= target_size_link1)
         {
-          return_value_abs_diff$1$link1=abs_diff$link1(target_size$link1, size$link1);
-          return_value_abs_diff$2$link1=abs_diff$link1(target_size$link1, best_size$link1);
-          tmp_if_expr$3$link1 = return_value_abs_diff$1$link1 < return_value_abs_diff$2$link1 ? (_Bool)1 : (_Bool)0;
+          return_value_abs_diff_1_link1=abs_diff_link1(target_size_link1, size_link1);
+          return_value_abs_diff_2_link1=abs_diff_link1(target_size_link1, best_size_link1);
+          tmp_if_expr_3_link1 = return_value_abs_diff_1_link1 < return_value_abs_diff_2_link1 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3$link1 = (_Bool)0;
-        tmp_if_expr$4$link1 = tmp_if_expr$3$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3_link1 = (_Bool)0;
+        tmp_if_expr_4_link1 = tmp_if_expr_3_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4$link1)
+      if(tmp_if_expr_4_link1)
       {
-        best_size$link1 = size$link1;
-        best$link1 = *p$link1;
+        best_size_link1 = size_link1;
+        best_link1 = *p_link1;
       }
 
-      p$link1 = p$link1 + (signed long int)1;
+      p_link1 = p_link1 + (signed long int)1;
     }
-    enum GrooveSampleFormat packed_best$link1;
-    enum AVSampleFormat return_value_av_get_packed_sample_fmt$5$link1;
-    return_value_av_get_packed_sample_fmt$5$link1=av_get_packed_sample_fmt((enum AVSampleFormat)best$link1);
-    packed_best$link1 = (enum GrooveSampleFormat)return_value_av_get_packed_sample_fmt$5$link1;
-    signed int return_value_codec_supports_fmt$6$link1;
-    return_value_codec_supports_fmt$6$link1=codec_supports_fmt$link1(codec$link1, packed_best$link1);
-    return (enum GrooveSampleFormat)(return_value_codec_supports_fmt$6$link1 != 0 ? (signed int)packed_best$link1 : (signed int)best$link1);
+    enum GrooveSampleFormat packed_best_link1;
+    enum AVSampleFormat return_value_av_get_packed_sample_fmt_5_link1;
+    return_value_av_get_packed_sample_fmt_5_link1=av_get_packed_sample_fmt((enum AVSampleFormat)best_link1);
+    packed_best_link1 = (enum GrooveSampleFormat)return_value_av_get_packed_sample_fmt_5_link1;
+    signed int return_value_codec_supports_fmt_6_link1;
+    return_value_codec_supports_fmt_6_link1=codec_supports_fmt_link1(codec_link1, packed_best_link1);
+    return (enum GrooveSampleFormat)(return_value_codec_supports_fmt_6_link1 != 0 ? (signed int)packed_best_link1 : (signed int)best_link1);
   }
 }
 
@@ -5023,11 +5023,11 @@ static enum GrooveSampleFormat closest_supported_sample_fmt$link1(struct AVCodec
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 494
 static signed int closest_supported_sample_rate(struct AVCodec *codec, signed int target)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  signed int return_value_abs_diff$2;
-  signed int return_value_abs_diff$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  signed int return_value_abs_diff_2;
+  signed int return_value_abs_diff_3;
   if(codec->supported_samplerates == ((const signed int *)NULL))
     return target;
 
@@ -5041,27 +5041,27 @@ static signed int closest_supported_sample_rate(struct AVCodec *codec, signed in
         return target;
 
       if(!(best >= target))
-        tmp_if_expr$1 = *p > best ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = *p > best ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
         if(*p >= target)
         {
-          return_value_abs_diff$2=abs_diff(target, *p);
-          return_value_abs_diff$3=abs_diff(target, best);
-          tmp_if_expr$4 = return_value_abs_diff$2 < return_value_abs_diff$3 ? (_Bool)1 : (_Bool)0;
+          return_value_abs_diff_2=abs_diff(target, *p);
+          return_value_abs_diff_3=abs_diff(target, best);
+          tmp_if_expr_4 = return_value_abs_diff_2 < return_value_abs_diff_3 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         best = *p;
 
       p = p + (signed long int)1;
@@ -5070,54 +5070,54 @@ static signed int closest_supported_sample_rate(struct AVCodec *codec, signed in
   }
 }
 
-// closest_supported_sample_rate$link1
+// closest_supported_sample_rate_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 494
-static signed int closest_supported_sample_rate$link1(struct AVCodec *codec$link1, signed int target$link1)
+static signed int closest_supported_sample_rate_link1(struct AVCodec *codec_link1, signed int target_link1)
 {
-  _Bool tmp_if_expr$1$link1;
-  _Bool tmp_if_expr$5$link1;
-  _Bool tmp_if_expr$4$link1;
-  signed int return_value_abs_diff$2$link1;
-  signed int return_value_abs_diff$3$link1;
-  if(codec$link1->supported_samplerates == ((const signed int *)NULL))
-    return target$link1;
+  _Bool tmp_if_expr_1_link1;
+  _Bool tmp_if_expr_5_link1;
+  _Bool tmp_if_expr_4_link1;
+  signed int return_value_abs_diff_2_link1;
+  signed int return_value_abs_diff_3_link1;
+  if(codec_link1->supported_samplerates == ((const signed int *)NULL))
+    return target_link1;
 
   else
   {
-    const signed int *p$link1 = codec$link1->supported_samplerates;
-    signed int best$link1 = *p$link1;
-    while(!(*p$link1 == 0))
+    const signed int *p_link1 = codec_link1->supported_samplerates;
+    signed int best_link1 = *p_link1;
+    while(!(*p_link1 == 0))
     {
-      if(*p$link1 == target$link1)
-        return target$link1;
+      if(*p_link1 == target_link1)
+        return target_link1;
 
-      if(!(best$link1 >= target$link1))
-        tmp_if_expr$1$link1 = *p$link1 > best$link1 ? (_Bool)1 : (_Bool)0;
+      if(!(best_link1 >= target_link1))
+        tmp_if_expr_1_link1 = *p_link1 > best_link1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1$link1 = (_Bool)0;
-      if(tmp_if_expr$1$link1)
-        tmp_if_expr$5$link1 = (_Bool)1;
+        tmp_if_expr_1_link1 = (_Bool)0;
+      if(tmp_if_expr_1_link1)
+        tmp_if_expr_5_link1 = (_Bool)1;
 
       else
       {
-        if(*p$link1 >= target$link1)
+        if(*p_link1 >= target_link1)
         {
-          return_value_abs_diff$2$link1=abs_diff$link1(target$link1, *p$link1);
-          return_value_abs_diff$3$link1=abs_diff$link1(target$link1, best$link1);
-          tmp_if_expr$4$link1 = return_value_abs_diff$2$link1 < return_value_abs_diff$3$link1 ? (_Bool)1 : (_Bool)0;
+          return_value_abs_diff_2_link1=abs_diff_link1(target_link1, *p_link1);
+          return_value_abs_diff_3_link1=abs_diff_link1(target_link1, best_link1);
+          tmp_if_expr_4_link1 = return_value_abs_diff_2_link1 < return_value_abs_diff_3_link1 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4$link1 = (_Bool)0;
-        tmp_if_expr$5$link1 = tmp_if_expr$4$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4_link1 = (_Bool)0;
+        tmp_if_expr_5_link1 = tmp_if_expr_4_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5$link1)
-        best$link1 = *p$link1;
+      if(tmp_if_expr_5_link1)
+        best_link1 = *p_link1;
 
-      p$link1 = p$link1 + (signed long int)1;
+      p_link1 = p_link1 + (signed long int)1;
     }
-    return best$link1;
+    return best_link1;
   }
 }
 
@@ -5133,13 +5133,13 @@ static signed int codec_supports_fmt(struct AVCodec *codec, enum GrooveSampleFor
   return 0;
 }
 
-// codec_supports_fmt$link1
+// codec_supports_fmt_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 448
-static signed int codec_supports_fmt$link1(struct AVCodec *codec$link1, enum GrooveSampleFormat fmt$link1)
+static signed int codec_supports_fmt_link1(struct AVCodec *codec_link1, enum GrooveSampleFormat fmt_link1)
 {
-  const enum GrooveSampleFormat *p$link1 = (enum GrooveSampleFormat *)codec$link1->sample_fmts;
-  for( ; !((signed int)*p$link1 == GROOVE_SAMPLE_FMT_NONE); p$link1 = p$link1 + (signed long int)1)
-    if(*p$link1 == fmt$link1)
+  const enum GrooveSampleFormat *p_link1 = (enum GrooveSampleFormat *)codec_link1->sample_fmts;
+  for( ; !((signed int)*p_link1 == GROOVE_SAMPLE_FMT_NONE); p_link1 = p_link1 + (signed long int)1)
+    if(*p_link1 == fmt_link1)
       return 1;
 
   return 0;
@@ -5211,67 +5211,67 @@ static signed int create_volume_filter(struct GroovePlaylistPrivate *p, struct A
   return 0;
 }
 
-// create_volume_filter$link1
+// create_volume_filter_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 270
-static signed int create_volume_filter$link1(struct GroovePlaylistPrivate *p$link1, struct AVFilterContext **audio_src_ctx$link1, double vol$link1, double amp_vol$link1)
+static signed int create_volume_filter_link1(struct GroovePlaylistPrivate *p_link1, struct AVFilterContext **audio_src_ctx_link1, double vol_link1, double amp_vol_link1)
 {
-  signed int err$link1;
-  if(vol$link1 < 0.0)
-    vol$link1 = 0.0;
+  signed int err_link1;
+  if(vol_link1 < 0.0)
+    vol_link1 = 0.0;
 
-  if(amp_vol$link1 < 1.0)
+  if(amp_vol_link1 < 1.0)
   {
-    snprintf(p$link1->strbuf, sizeof(char [512l]) /*512ul*/ , "volume=%f", vol$link1);
-    av_log((void *)0, 32, "volume: %s\n", (const void *)p$link1->strbuf);
-    struct AVFilterContext *volume_ctx$link1;
-    err$link1=avfilter_graph_create_filter(&volume_ctx$link1, p$link1->volume_filter, (const char *)(void *)0, p$link1->strbuf, (void *)0, p$link1->filter_graph);
-    if(!(err$link1 >= 0))
+    snprintf(p_link1->strbuf, sizeof(char [512l]) /*512ul*/ , "volume=%f", vol_link1);
+    av_log((void *)0, 32, "volume: %s\n", (const void *)p_link1->strbuf);
+    struct AVFilterContext *volume_ctx_link1;
+    err_link1=avfilter_graph_create_filter(&volume_ctx_link1, p_link1->volume_filter, (const char *)(void *)0, p_link1->strbuf, (void *)0, p_link1->filter_graph);
+    if(!(err_link1 >= 0))
     {
       av_log((void *)0, 16, "error initializing volume filter\n");
-      return err$link1;
+      return err_link1;
     }
 
-    err$link1=avfilter_link(*audio_src_ctx$link1, (unsigned int)0, volume_ctx$link1, (unsigned int)0);
-    if(!(err$link1 >= 0))
+    err_link1=avfilter_link(*audio_src_ctx_link1, (unsigned int)0, volume_ctx_link1, (unsigned int)0);
+    if(!(err_link1 >= 0))
     {
-      av_strerror(err$link1, p$link1->strbuf, sizeof(char [512l]) /*512ul*/ );
-      av_log((void *)0, 16, "unable to link volume filter: %s\n", (const void *)p$link1->strbuf);
-      return err$link1;
+      av_strerror(err_link1, p_link1->strbuf, sizeof(char [512l]) /*512ul*/ );
+      av_log((void *)0, 16, "unable to link volume filter: %s\n", (const void *)p_link1->strbuf);
+      return err_link1;
     }
 
-    *audio_src_ctx$link1 = volume_ctx$link1;
+    *audio_src_ctx_link1 = volume_ctx_link1;
   }
 
   else
-    if(amp_vol$link1 > 1.0)
+    if(amp_vol_link1 > 1.0)
     {
-      double attack$link1 = 0.1;
-      double decay$link1 = 0.2;
-      const char *points$link1 = "-2/-2";
-      double soft_knee$link1 = 0.02;
-      double gain$link1;
-      gain$link1=gain_to_dB$link1(vol$link1);
-      double volume_param$link1 = 0.0;
-      double delay$link1 = 0.2;
-      snprintf(p$link1->strbuf, sizeof(char [512l]) /*512ul*/ , "%f:%f:%s:%f:%f:%f:%f", attack$link1, decay$link1, points$link1, soft_knee$link1, gain$link1, volume_param$link1, delay$link1);
-      av_log((void *)0, 32, "compand: %s\n", (const void *)p$link1->strbuf);
-      struct AVFilterContext *compand_ctx$link1;
-      err$link1=avfilter_graph_create_filter(&compand_ctx$link1, p$link1->compand_filter, (const char *)(void *)0, p$link1->strbuf, (void *)0, p$link1->filter_graph);
-      if(!(err$link1 >= 0))
+      double attack_link1 = 0.1;
+      double decay_link1 = 0.2;
+      const char *points_link1 = "-2/-2";
+      double soft_knee_link1 = 0.02;
+      double gain_link1;
+      gain_link1=gain_to_dB_link1(vol_link1);
+      double volume_param_link1 = 0.0;
+      double delay_link1 = 0.2;
+      snprintf(p_link1->strbuf, sizeof(char [512l]) /*512ul*/ , "%f:%f:%s:%f:%f:%f:%f", attack_link1, decay_link1, points_link1, soft_knee_link1, gain_link1, volume_param_link1, delay_link1);
+      av_log((void *)0, 32, "compand: %s\n", (const void *)p_link1->strbuf);
+      struct AVFilterContext *compand_ctx_link1;
+      err_link1=avfilter_graph_create_filter(&compand_ctx_link1, p_link1->compand_filter, (const char *)(void *)0, p_link1->strbuf, (void *)0, p_link1->filter_graph);
+      if(!(err_link1 >= 0))
       {
         av_log((void *)0, 16, "error initializing compand filter\n");
-        return err$link1;
+        return err_link1;
       }
 
-      err$link1=avfilter_link(*audio_src_ctx$link1, (unsigned int)0, compand_ctx$link1, (unsigned int)0);
-      if(!(err$link1 >= 0))
+      err_link1=avfilter_link(*audio_src_ctx_link1, (unsigned int)0, compand_ctx_link1, (unsigned int)0);
+      if(!(err_link1 >= 0))
       {
-        av_strerror(err$link1, p$link1->strbuf, sizeof(char [512l]) /*512ul*/ );
-        av_log((void *)0, 16, "unable to link compand filter: %s\n", (const void *)p$link1->strbuf);
-        return err$link1;
+        av_strerror(err_link1, p_link1->strbuf, sizeof(char [512l]) /*512ul*/ );
+        av_log((void *)0, 16, "unable to link compand filter: %s\n", (const void *)p_link1->strbuf);
+        return err_link1;
       }
 
-      *audio_src_ctx$link1 = compand_ctx$link1;
+      *audio_src_ctx_link1 = compand_ctx_link1;
     }
 
   return 0;
@@ -5282,27 +5282,27 @@ static signed int create_volume_filter$link1(struct GroovePlaylistPrivate *p$lin
 static signed int decode_interrupt_cb(void *ctx)
 {
   struct GrooveFilePrivate *f = (struct GrooveFilePrivate *)ctx;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(f == ((struct GrooveFilePrivate *)NULL)))
-    tmp_if_expr$1 = f->abort_request;
+    tmp_if_expr_1 = f->abort_request;
 
   else
-    tmp_if_expr$1 = 0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = 0;
+  return tmp_if_expr_1;
 }
 
-// decode_interrupt_cb$link1
+// decode_interrupt_cb_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/file.c line 13
-static signed int decode_interrupt_cb$link1(void *ctx$link1)
+static signed int decode_interrupt_cb_link1(void *ctx_link1)
 {
-  struct GrooveFilePrivate *f$link1 = (struct GrooveFilePrivate *)ctx$link1;
-  signed int tmp_if_expr$1$link1;
-  if(!(f$link1 == ((struct GrooveFilePrivate *)NULL)))
-    tmp_if_expr$1$link1 = f$link1->abort_request;
+  struct GrooveFilePrivate *f_link1 = (struct GrooveFilePrivate *)ctx_link1;
+  signed int tmp_if_expr_1_link1;
+  if(!(f_link1 == ((struct GrooveFilePrivate *)NULL)))
+    tmp_if_expr_1_link1 = f_link1->abort_request;
 
   else
-    tmp_if_expr$1$link1 = 0;
-  return tmp_if_expr$1$link1;
+    tmp_if_expr_1_link1 = 0;
+  return tmp_if_expr_1_link1;
 }
 
 // decode_one_frame
@@ -5316,9 +5316,9 @@ static signed int decode_one_frame(struct GroovePlaylist *playlist, struct Groov
 
   else
   {
-    signed int return_value_maybe_init_filter_graph$1;
-    return_value_maybe_init_filter_graph$1=maybe_init_filter_graph(playlist, file);
-    if(!(return_value_maybe_init_filter_graph$1 >= 0))
+    signed int return_value_maybe_init_filter_graph_1;
+    return_value_maybe_init_filter_graph_1=maybe_init_filter_graph(playlist, file);
+    if(!(return_value_maybe_init_filter_graph_1 >= 0))
       return -1;
 
     else
@@ -5326,9 +5326,9 @@ static signed int decode_one_frame(struct GroovePlaylist *playlist, struct Groov
       pthread_mutex_lock(&f->seek_mutex);
       if(f->seek_pos >= 0l)
       {
-        signed int return_value_av_seek_frame$2;
-        return_value_av_seek_frame$2=av_seek_frame(f->ic, f->audio_stream_index, f->seek_pos, 0);
-        if(!(return_value_av_seek_frame$2 >= 0))
+        signed int return_value_av_seek_frame_2;
+        return_value_av_seek_frame_2=av_seek_frame(f->ic, f->audio_stream_index, f->seek_pos, 0);
+        if(!(return_value_av_seek_frame_2 >= 0))
           av_log((void *)0, 16, "%s: error while seeking\n", (const void *)f->ic->filename);
 
         else
@@ -5349,9 +5349,9 @@ static signed int decode_one_frame(struct GroovePlaylist *playlist, struct Groov
           pkt->data = (unsigned char *)(void *)0;
           pkt->size = 0;
           pkt->stream_index = f->audio_stream_index;
-          signed int return_value_audio_decode_frame$3;
-          return_value_audio_decode_frame$3=audio_decode_frame(playlist, file);
-          if(return_value_audio_decode_frame$3 >= 1)
+          signed int return_value_audio_decode_frame_3;
+          return_value_audio_decode_frame_3=audio_decode_frame(playlist, file);
+          if(return_value_audio_decode_frame_3 >= 1)
             return 0;
 
         }
@@ -5390,53 +5390,53 @@ static signed int decode_one_frame(struct GroovePlaylist *playlist, struct Groov
   }
 }
 
-// decode_one_frame$link1
+// decode_one_frame_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 547
-static signed int decode_one_frame$link1(struct GroovePlaylist *playlist$link1, struct GrooveFile *file$link1)
+static signed int decode_one_frame_link1(struct GroovePlaylist *playlist_link1, struct GrooveFile *file_link1)
 {
-  struct GrooveFilePrivate *f$link1 = (struct GrooveFilePrivate *)file$link1;
-  struct AVPacket *pkt$link1 = &f$link1->audio_pkt;
-  if(!(f$link1->abort_request == 0))
+  struct GrooveFilePrivate *f_link1 = (struct GrooveFilePrivate *)file_link1;
+  struct AVPacket *pkt_link1 = &f_link1->audio_pkt;
+  if(!(f_link1->abort_request == 0))
     return -1;
 
   else
   {
-    signed int return_value_maybe_init_filter_graph$1$link1;
-    return_value_maybe_init_filter_graph$1$link1=maybe_init_filter_graph$link1(playlist$link1, file$link1);
-    if(!(return_value_maybe_init_filter_graph$1$link1 >= 0))
+    signed int return_value_maybe_init_filter_graph_1_link1;
+    return_value_maybe_init_filter_graph_1_link1=maybe_init_filter_graph_link1(playlist_link1, file_link1);
+    if(!(return_value_maybe_init_filter_graph_1_link1 >= 0))
       return -1;
 
     else
     {
-      pthread_mutex_lock(&f$link1->seek_mutex);
-      if(f$link1->seek_pos >= 0l)
+      pthread_mutex_lock(&f_link1->seek_mutex);
+      if(f_link1->seek_pos >= 0l)
       {
-        signed int return_value_av_seek_frame$2$link1;
-        return_value_av_seek_frame$2$link1=av_seek_frame(f$link1->ic, f$link1->audio_stream_index, f$link1->seek_pos, 0);
-        if(!(return_value_av_seek_frame$2$link1 >= 0))
-          av_log((void *)0, 16, "%s: error while seeking\n", (const void *)f$link1->ic->filename);
+        signed int return_value_av_seek_frame_2_link1;
+        return_value_av_seek_frame_2_link1=av_seek_frame(f_link1->ic, f_link1->audio_stream_index, f_link1->seek_pos, 0);
+        if(!(return_value_av_seek_frame_2_link1 >= 0))
+          av_log((void *)0, 16, "%s: error while seeking\n", (const void *)f_link1->ic->filename);
 
         else
-          if(!(f$link1->seek_flush == 0))
-            every_sink_flush$link1(playlist$link1);
+          if(!(f_link1->seek_flush == 0))
+            every_sink_flush_link1(playlist_link1);
 
-        avcodec_flush_buffers(f$link1->audio_st->codec);
-        f$link1->seek_pos = (signed long int)-1;
-        f$link1->eof = 0;
+        avcodec_flush_buffers(f_link1->audio_st->codec);
+        f_link1->seek_pos = (signed long int)-1;
+        f_link1->eof = 0;
       }
 
-      pthread_mutex_unlock(&f$link1->seek_mutex);
-      if(!(f$link1->eof == 0))
+      pthread_mutex_unlock(&f_link1->seek_mutex);
+      if(!(f_link1->eof == 0))
       {
-        if(!((32 & f$link1->audio_st->codec->codec->capabilities) == 0))
+        if(!((32 & f_link1->audio_st->codec->codec->capabilities) == 0))
         {
-          av_init_packet(pkt$link1);
-          pkt$link1->data = (unsigned char *)(void *)0;
-          pkt$link1->size = 0;
-          pkt$link1->stream_index = f$link1->audio_stream_index;
-          signed int return_value_audio_decode_frame$3$link1;
-          return_value_audio_decode_frame$3$link1=audio_decode_frame$link1(playlist$link1, file$link1);
-          if(return_value_audio_decode_frame$3$link1 >= 1)
+          av_init_packet(pkt_link1);
+          pkt_link1->data = (unsigned char *)(void *)0;
+          pkt_link1->size = 0;
+          pkt_link1->stream_index = f_link1->audio_stream_index;
+          signed int return_value_audio_decode_frame_3_link1;
+          return_value_audio_decode_frame_3_link1=audio_decode_frame_link1(playlist_link1, file_link1);
+          if(return_value_audio_decode_frame_3_link1 >= 1)
             return 0;
 
         }
@@ -5446,28 +5446,28 @@ static signed int decode_one_frame$link1(struct GroovePlaylist *playlist$link1, 
 
       else
       {
-        signed int err$link1;
-        err$link1=av_read_frame(f$link1->ic, pkt$link1);
-        if(!(err$link1 >= 0))
+        signed int err_link1;
+        err_link1=av_read_frame(f_link1->ic, pkt_link1);
+        if(!(err_link1 >= 0))
         {
-          if(!(err$link1 == -541478725))
+          if(!(err_link1 == -541478725))
             av_log((void *)0, 24, "error reading frames\n");
 
-          f$link1->eof = 1;
+          f_link1->eof = 1;
           return 0;
         }
 
         else
-          if(!(pkt$link1->stream_index == f$link1->audio_stream_index))
+          if(!(pkt_link1->stream_index == f_link1->audio_stream_index))
           {
-            av_free_packet(pkt$link1);
+            av_free_packet(pkt_link1);
             return 0;
           }
 
           else
           {
-            audio_decode_frame$link1(playlist$link1, file$link1);
-            av_free_packet(pkt$link1);
+            audio_decode_frame_link1(playlist_link1, file_link1);
+            av_free_packet(pkt_link1);
             return 0;
           }
       }
@@ -5481,7 +5481,7 @@ static void * decode_thread(void *arg)
 {
   struct GroovePlaylistPrivate *p = (struct GroovePlaylistPrivate *)arg;
   struct GroovePlaylist *playlist = &p->externals;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(p->abort_request == 0)
   {
     pthread_mutex_lock(&p->decode_head_mutex);
@@ -5508,10 +5508,10 @@ static void * decode_thread(void *arg)
       if(!(return_value == 0))
       {
         if(!(f->seek_pos >= 0l))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = !(f->seek_flush != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = !(f->seek_flush != 0) ? (_Bool)1 : (_Bool)0;
         if(f->paused == 0)
         {
           av_read_pause(f->ic);
@@ -5533,9 +5533,9 @@ static void * decode_thread(void *arg)
         }
 
         update_playlist_volume(playlist);
-        signed int return_value_decode_one_frame$2;
-        return_value_decode_one_frame$2=decode_one_frame(playlist, file);
-        if(!(return_value_decode_one_frame$2 >= 0))
+        signed int return_value_decode_one_frame_2;
+        return_value_decode_one_frame_2=decode_one_frame(playlist, file);
+        if(!(return_value_decode_one_frame_2 >= 0))
         {
           p->decode_head = p->decode_head->next;
           if(!(p->decode_head == ((struct GroovePlaylistItem *)NULL)))
@@ -5557,82 +5557,82 @@ static void * decode_thread(void *arg)
   return (void *)0;
 }
 
-// decode_thread$link1
+// decode_thread_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 661
-static void * decode_thread$link1(void *arg$link1)
+static void * decode_thread_link1(void *arg_link1)
 {
-  struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)arg$link1;
-  struct GroovePlaylist *playlist$link1 = &p$link1->externals;
-  _Bool tmp_if_expr$1$link1;
-  while(p$link1->abort_request == 0)
+  struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)arg_link1;
+  struct GroovePlaylist *playlist_link1 = &p_link1->externals;
+  _Bool tmp_if_expr_1_link1;
+  while(p_link1->abort_request == 0)
   {
-    pthread_mutex_lock(&p$link1->decode_head_mutex);
-    if(p$link1->decode_head == ((struct GroovePlaylistItem *)NULL))
+    pthread_mutex_lock(&p_link1->decode_head_mutex);
+    if(p_link1->decode_head == ((struct GroovePlaylistItem *)NULL))
     {
-      if(p$link1->sent_end_of_q == 0)
+      if(p_link1->sent_end_of_q == 0)
       {
-        every_sink_signal_end$link1(playlist$link1);
-        p$link1->sent_end_of_q = 1;
+        every_sink_signal_end_link1(playlist_link1);
+        p_link1->sent_end_of_q = 1;
       }
 
-      pthread_cond_wait(&p$link1->decode_head_cond, &p$link1->decode_head_mutex);
-      pthread_mutex_unlock(&p$link1->decode_head_mutex);
+      pthread_cond_wait(&p_link1->decode_head_cond, &p_link1->decode_head_mutex);
+      pthread_mutex_unlock(&p_link1->decode_head_mutex);
     }
 
     else
     {
-      p$link1->sent_end_of_q = 0;
-      struct GrooveFile *file$link1 = p$link1->decode_head->file;
-      struct GrooveFilePrivate *f$link1 = (struct GrooveFilePrivate *)file$link1;
-      pthread_mutex_lock(&p$link1->drain_cond_mutex);
-      signed int return_value$link1;
-      return_value$link1=p$link1->detect_full_sinks(playlist$link1);
-      if(!(return_value$link1 == 0))
+      p_link1->sent_end_of_q = 0;
+      struct GrooveFile *file_link1 = p_link1->decode_head->file;
+      struct GrooveFilePrivate *f_link1 = (struct GrooveFilePrivate *)file_link1;
+      pthread_mutex_lock(&p_link1->drain_cond_mutex);
+      signed int return_value_link1;
+      return_value_link1=p_link1->detect_full_sinks(playlist_link1);
+      if(!(return_value_link1 == 0))
       {
-        if(!(f$link1->seek_pos >= 0l))
-          tmp_if_expr$1$link1 = (_Bool)1;
+        if(!(f_link1->seek_pos >= 0l))
+          tmp_if_expr_1_link1 = (_Bool)1;
 
         else
-          tmp_if_expr$1$link1 = !(f$link1->seek_flush != 0) ? (_Bool)1 : (_Bool)0;
-        if(f$link1->paused == 0)
+          tmp_if_expr_1_link1 = !(f_link1->seek_flush != 0) ? (_Bool)1 : (_Bool)0;
+        if(f_link1->paused == 0)
         {
-          av_read_pause(f$link1->ic);
-          f$link1->paused = 1;
+          av_read_pause(f_link1->ic);
+          f_link1->paused = 1;
         }
 
-        pthread_mutex_unlock(&p$link1->decode_head_mutex);
-        pthread_cond_wait(&p$link1->sink_drain_cond, &p$link1->drain_cond_mutex);
-        pthread_mutex_unlock(&p$link1->drain_cond_mutex);
+        pthread_mutex_unlock(&p_link1->decode_head_mutex);
+        pthread_cond_wait(&p_link1->sink_drain_cond, &p_link1->drain_cond_mutex);
+        pthread_mutex_unlock(&p_link1->drain_cond_mutex);
       }
 
       else
       {
-        pthread_mutex_unlock(&p$link1->drain_cond_mutex);
-        if(!(f$link1->paused == 0))
+        pthread_mutex_unlock(&p_link1->drain_cond_mutex);
+        if(!(f_link1->paused == 0))
         {
-          av_read_play(f$link1->ic);
-          f$link1->paused = 0;
+          av_read_play(f_link1->ic);
+          f_link1->paused = 0;
         }
 
-        update_playlist_volume$link1(playlist$link1);
-        signed int return_value_decode_one_frame$2$link1;
-        return_value_decode_one_frame$2$link1=decode_one_frame$link1(playlist$link1, file$link1);
-        if(!(return_value_decode_one_frame$2$link1 >= 0))
+        update_playlist_volume_link1(playlist_link1);
+        signed int return_value_decode_one_frame_2_link1;
+        return_value_decode_one_frame_2_link1=decode_one_frame_link1(playlist_link1, file_link1);
+        if(!(return_value_decode_one_frame_2_link1 >= 0))
         {
-          p$link1->decode_head = p$link1->decode_head->next;
-          if(!(p$link1->decode_head == ((struct GroovePlaylistItem *)NULL)))
+          p_link1->decode_head = p_link1->decode_head->next;
+          if(!(p_link1->decode_head == ((struct GroovePlaylistItem *)NULL)))
           {
-            struct GrooveFile *next_file$link1 = p$link1->decode_head->file;
-            struct GrooveFilePrivate *next_f$link1 = (struct GrooveFilePrivate *)next_file$link1;
-            pthread_mutex_lock(&next_f$link1->seek_mutex);
-            next_f$link1->seek_pos = (signed long int)0;
-            next_f$link1->seek_flush = 0;
-            pthread_mutex_unlock(&next_f$link1->seek_mutex);
+            struct GrooveFile *next_file_link1 = p_link1->decode_head->file;
+            struct GrooveFilePrivate *next_f_link1 = (struct GrooveFilePrivate *)next_file_link1;
+            pthread_mutex_lock(&next_f_link1->seek_mutex);
+            next_f_link1->seek_pos = (signed long int)0;
+            next_f_link1->seek_flush = 0;
+            pthread_mutex_unlock(&next_f_link1->seek_mutex);
           }
 
         }
 
-        pthread_mutex_unlock(&p$link1->decode_head_mutex);
+        pthread_mutex_unlock(&p_link1->decode_head_mutex);
       }
     }
   }
@@ -5674,7 +5674,7 @@ static void * dummy_thread(void *arg)
 {
   struct GroovePlayer *player = (struct GroovePlayer *)arg;
   struct GroovePlayerPrivate *p = (struct GroovePlayerPrivate *)player;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(p->abort_request == (_Bool)0)
   {
     pthread_mutex_lock(&p->play_head_mutex);
@@ -5693,11 +5693,11 @@ static void * dummy_thread(void *arg)
       {
         more = 0;
         if(p->audio_buf == ((struct GrooveBuffer *)NULL))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = p->audio_buf_index >= (unsigned long int)p->audio_buf->frame_count ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = p->audio_buf_index >= (unsigned long int)p->audio_buf->frame_count ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           groove_buffer_unref(p->audio_buf);
           p->audio_buf_index = (unsigned long int)0;
@@ -5764,18 +5764,18 @@ static void * dummy_thread(void *arg)
 static void emit_event(struct GrooveQueue *queue, enum GroovePlayerEventType type)
 {
   union GroovePlayerEvent *evt;
-  void *return_value_av_malloc$1;
-  return_value_av_malloc$1=av_malloc(sizeof(union GroovePlayerEvent) /*4ul*/ );
-  evt = (union GroovePlayerEvent *)return_value_av_malloc$1;
+  void *return_value_av_malloc_1;
+  return_value_av_malloc_1=av_malloc(sizeof(union GroovePlayerEvent) /*4ul*/ );
+  evt = (union GroovePlayerEvent *)return_value_av_malloc_1;
   if(evt == ((union GroovePlayerEvent *)NULL))
     av_log((void *)0, 16, "unable to create event: out of memory\n");
 
   else
   {
     evt->type = type;
-    signed int return_value_groove_queue_put$2;
-    return_value_groove_queue_put$2=groove_queue_put(queue, (void *)evt);
-    if(!(return_value_groove_queue_put$2 >= 0))
+    signed int return_value_groove_queue_put_2;
+    return_value_groove_queue_put_2=groove_queue_put(queue, (void *)evt);
+    if(!(return_value_groove_queue_put_2 >= 0))
       av_log((void *)0, 16, "unable to put event on queue: out of memory\n");
 
   }
@@ -5822,43 +5822,43 @@ static signed int encode_buffer(struct GrooveEncoder *encoder, struct GrooveBuff
     }
 }
 
-// encode_buffer$link1
+// encode_buffer_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 65
-static signed int encode_buffer$link1(struct GrooveEncoder *encoder$link1, struct GrooveBuffer *buffer$link1)
+static signed int encode_buffer_link1(struct GrooveEncoder *encoder_link1, struct GrooveBuffer *buffer_link1)
 {
-  struct GrooveEncoderPrivate *e$link1 = (struct GrooveEncoderPrivate *)encoder$link1;
-  av_init_packet(&e$link1->pkt);
-  struct AVFrame *frame$link1 = (struct AVFrame *)(void *)0;
-  if(!(buffer$link1 == ((struct GrooveBuffer *)NULL)))
+  struct GrooveEncoderPrivate *e_link1 = (struct GrooveEncoderPrivate *)encoder_link1;
+  av_init_packet(&e_link1->pkt);
+  struct AVFrame *frame_link1 = (struct AVFrame *)(void *)0;
+  if(!(buffer_link1 == ((struct GrooveBuffer *)NULL)))
   {
-    e$link1->encode_head = buffer$link1->item;
-    e$link1->encode_pos = buffer$link1->pos;
-    e$link1->encode_format = buffer$link1->format;
-    struct GrooveBufferPrivate *b$link1 = (struct GrooveBufferPrivate *)buffer$link1;
-    frame$link1 = b$link1->frame;
-    frame$link1->pts = (signed long int)e$link1->next_pts;
-    e$link1->encode_pts = e$link1->next_pts;
-    e$link1->next_pts = e$link1->next_pts + (unsigned long int)(buffer$link1->frame_count + 1);
+    e_link1->encode_head = buffer_link1->item;
+    e_link1->encode_pos = buffer_link1->pos;
+    e_link1->encode_format = buffer_link1->format;
+    struct GrooveBufferPrivate *b_link1 = (struct GrooveBufferPrivate *)buffer_link1;
+    frame_link1 = b_link1->frame;
+    frame_link1->pts = (signed long int)e_link1->next_pts;
+    e_link1->encode_pts = e_link1->next_pts;
+    e_link1->next_pts = e_link1->next_pts + (unsigned long int)(buffer_link1->frame_count + 1);
   }
 
-  signed int got_packet$link1 = 0;
-  signed int errcode$link1;
-  errcode$link1=avcodec_encode_audio2(e$link1->stream->codec, &e$link1->pkt, frame$link1, &got_packet$link1);
-  if(!(errcode$link1 >= 0))
+  signed int got_packet_link1 = 0;
+  signed int errcode_link1;
+  errcode_link1=avcodec_encode_audio2(e_link1->stream->codec, &e_link1->pkt, frame_link1, &got_packet_link1);
+  if(!(errcode_link1 >= 0))
   {
-    av_strerror(errcode$link1, e$link1->strbuf, sizeof(char [512l]) /*512ul*/ );
-    av_log((void *)0, 16, "error encoding audio frame: %s\n", (const void *)e$link1->strbuf);
+    av_strerror(errcode_link1, e_link1->strbuf, sizeof(char [512l]) /*512ul*/ );
+    av_log((void *)0, 16, "error encoding audio frame: %s\n", (const void *)e_link1->strbuf);
     return -1;
   }
 
   else
-    if(got_packet$link1 == 0)
+    if(got_packet_link1 == 0)
       return -1;
 
     else
     {
-      av_write_frame(e$link1->fmt_ctx, &e$link1->pkt);
-      av_free_packet(&e$link1->pkt);
+      av_write_frame(e_link1->fmt_ctx, &e_link1->pkt);
+      av_free_packet(&e_link1->pkt);
       return 0;
     }
 }
@@ -5870,8 +5870,8 @@ static void * encode_thread(void *arg)
   struct GrooveEncoder *encoder = (struct GrooveEncoder *)arg;
   struct GrooveEncoderPrivate *e = (struct GrooveEncoderPrivate *)encoder;
   struct GrooveBuffer *buffer;
-  signed int return_value_encode_buffer$1;
-  signed int return_value_av_write_frame$2;
+  signed int return_value_encode_buffer_1;
+  signed int return_value_av_write_frame_2;
   while(e->abort_request == 0)
   {
     pthread_mutex_lock(&e->encode_head_mutex);
@@ -5891,25 +5891,25 @@ static void * encode_thread(void *arg)
       {
         do
         {
-          return_value_encode_buffer$1=encode_buffer(encoder, (struct GrooveBuffer *)(void *)0);
-          if(!(return_value_encode_buffer$1 >= 0))
+          return_value_encode_buffer_1=encode_buffer(encoder, (struct GrooveBuffer *)(void *)0);
+          if(!(return_value_encode_buffer_1 >= 0))
             break;
 
         }
         while((_Bool)1);
         do
         {
-          return_value_av_write_frame$2=av_write_frame(e->fmt_ctx, (struct AVPacket *)(void *)0);
-          if(!(return_value_av_write_frame$2 == 0))
+          return_value_av_write_frame_2=av_write_frame(e->fmt_ctx, (struct AVPacket *)(void *)0);
+          if(!(return_value_av_write_frame_2 == 0))
             break;
 
         }
         while((_Bool)1);
         avio_flush(e->avio);
         av_log((void *)0, 32, "encoder: writing trailer\n");
-        signed int return_value_av_write_trailer$3;
-        return_value_av_write_trailer$3=av_write_trailer(e->fmt_ctx);
-        if(!(return_value_av_write_trailer$3 >= 0))
+        signed int return_value_av_write_trailer_3;
+        return_value_av_write_trailer_3=av_write_trailer(e->fmt_ctx);
+        if(!(return_value_av_write_trailer_3 >= 0))
           av_log((void *)0, 16, "could not write trailer\n");
 
         avio_flush(e->avio);
@@ -5941,9 +5941,9 @@ static void * encode_thread(void *arg)
         }
         while((_Bool)1);
         av_log((void *)0, 32, "encoder: writing header\n");
-        signed int return_value_avformat_write_header$4;
-        return_value_avformat_write_header$4=avformat_write_header(e->fmt_ctx, (struct AVDictionary **)(void *)0);
-        if(!(return_value_avformat_write_header$4 >= 0))
+        signed int return_value_avformat_write_header_4;
+        return_value_avformat_write_header_4=avformat_write_header(e->fmt_ctx, (struct AVDictionary **)(void *)0);
+        if(!(return_value_avformat_write_header_4 >= 0))
           av_log((void *)0, 16, "could not write header\n");
 
         avio_flush(e->avio);
@@ -5958,96 +5958,96 @@ static void * encode_thread(void *arg)
   return (void *)0;
 }
 
-// encode_thread$link1
+// encode_thread_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 153
-static void * encode_thread$link1(void *arg$link1)
+static void * encode_thread_link1(void *arg_link1)
 {
-  struct GrooveEncoder *encoder$link1 = (struct GrooveEncoder *)arg$link1;
-  struct GrooveEncoderPrivate *e$link1 = (struct GrooveEncoderPrivate *)encoder$link1;
-  struct GrooveBuffer *buffer$link1;
-  signed int return_value_encode_buffer$1$link1;
-  signed int return_value_av_write_frame$2$link1;
-  while(e$link1->abort_request == 0)
+  struct GrooveEncoder *encoder_link1 = (struct GrooveEncoder *)arg_link1;
+  struct GrooveEncoderPrivate *e_link1 = (struct GrooveEncoderPrivate *)encoder_link1;
+  struct GrooveBuffer *buffer_link1;
+  signed int return_value_encode_buffer_1_link1;
+  signed int return_value_av_write_frame_2_link1;
+  while(e_link1->abort_request == 0)
   {
-    pthread_mutex_lock(&e$link1->encode_head_mutex);
-    if(e$link1->audioq_size >= encoder$link1->encoded_buffer_size)
+    pthread_mutex_lock(&e_link1->encode_head_mutex);
+    if(e_link1->audioq_size >= encoder_link1->encoded_buffer_size)
     {
-      pthread_cond_wait(&e$link1->drain_cond, &e$link1->encode_head_mutex);
-      pthread_mutex_unlock(&e$link1->encode_head_mutex);
+      pthread_cond_wait(&e_link1->drain_cond, &e_link1->encode_head_mutex);
+      pthread_mutex_unlock(&e_link1->encode_head_mutex);
     }
 
     else
     {
-      pthread_mutex_unlock(&e$link1->encode_head_mutex);
-      signed int result$link1;
-      result$link1=groove_sink_buffer_get(e$link1->sink, &buffer$link1, 1);
-      pthread_mutex_lock(&e$link1->encode_head_mutex);
-      if(result$link1 == 2)
+      pthread_mutex_unlock(&e_link1->encode_head_mutex);
+      signed int result_link1;
+      result_link1=groove_sink_buffer_get(e_link1->sink, &buffer_link1, 1);
+      pthread_mutex_lock(&e_link1->encode_head_mutex);
+      if(result_link1 == 2)
       {
         do
         {
-          return_value_encode_buffer$1$link1=encode_buffer$link1(encoder$link1, (struct GrooveBuffer *)(void *)0);
-          if(!(return_value_encode_buffer$1$link1 >= 0))
+          return_value_encode_buffer_1_link1=encode_buffer_link1(encoder_link1, (struct GrooveBuffer *)(void *)0);
+          if(!(return_value_encode_buffer_1_link1 >= 0))
             break;
 
         }
         while((_Bool)1);
         do
         {
-          return_value_av_write_frame$2$link1=av_write_frame(e$link1->fmt_ctx, (struct AVPacket *)(void *)0);
-          if(!(return_value_av_write_frame$2$link1 == 0))
+          return_value_av_write_frame_2_link1=av_write_frame(e_link1->fmt_ctx, (struct AVPacket *)(void *)0);
+          if(!(return_value_av_write_frame_2_link1 == 0))
             break;
 
         }
         while((_Bool)1);
-        avio_flush(e$link1->avio);
+        avio_flush(e_link1->avio);
         av_log((void *)0, 32, "encoder: writing trailer\n");
-        signed int return_value_av_write_trailer$3$link1;
-        return_value_av_write_trailer$3$link1=av_write_trailer(e$link1->fmt_ctx);
-        if(!(return_value_av_write_trailer$3$link1 >= 0))
+        signed int return_value_av_write_trailer_3_link1;
+        return_value_av_write_trailer_3_link1=av_write_trailer(e_link1->fmt_ctx);
+        if(!(return_value_av_write_trailer_3_link1 >= 0))
           av_log((void *)0, 16, "could not write trailer\n");
 
-        avio_flush(e$link1->avio);
-        groove_queue_put(e$link1->audioq, (void *)end_of_q_sentinel$link2);
-        cleanup_avcontext$link1(e$link1);
-        init_avcontext$link1(encoder$link1);
-        pthread_mutex_unlock(&e$link1->encode_head_mutex);
+        avio_flush(e_link1->avio);
+        groove_queue_put(e_link1->audioq, (void *)end_of_q_sentinel_link2);
+        cleanup_avcontext_link1(e_link1);
+        init_avcontext_link1(encoder_link1);
+        pthread_mutex_unlock(&e_link1->encode_head_mutex);
         continue;
       }
 
-      if(!(result$link1 == 1))
+      if(!(result_link1 == 1))
       {
-        pthread_mutex_unlock(&e$link1->encode_head_mutex);
+        pthread_mutex_unlock(&e_link1->encode_head_mutex);
         break;
       }
 
-      if(e$link1->sent_header == 0)
+      if(e_link1->sent_header == 0)
       {
-        avio_flush(e$link1->avio);
-        av_dict_free(&e$link1->fmt_ctx->metadata);
-        struct AVDictionaryEntry *tag$link1 = (struct AVDictionaryEntry *)(void *)0;
+        avio_flush(e_link1->avio);
+        av_dict_free(&e_link1->fmt_ctx->metadata);
+        struct AVDictionaryEntry *tag_link1 = (struct AVDictionaryEntry *)(void *)0;
         do
         {
-          tag$link1=av_dict_get(e$link1->metadata, "", tag$link1, 2);
-          if(tag$link1 == ((struct AVDictionaryEntry *)NULL))
+          tag_link1=av_dict_get(e_link1->metadata, "", tag_link1, 2);
+          if(tag_link1 == ((struct AVDictionaryEntry *)NULL))
             break;
 
-          av_dict_set(&e$link1->fmt_ctx->metadata, tag$link1->key, tag$link1->value, 2);
+          av_dict_set(&e_link1->fmt_ctx->metadata, tag_link1->key, tag_link1->value, 2);
         }
         while((_Bool)1);
         av_log((void *)0, 32, "encoder: writing header\n");
-        signed int return_value_avformat_write_header$4$link1;
-        return_value_avformat_write_header$4$link1=avformat_write_header(e$link1->fmt_ctx, (struct AVDictionary **)(void *)0);
-        if(!(return_value_avformat_write_header$4$link1 >= 0))
+        signed int return_value_avformat_write_header_4_link1;
+        return_value_avformat_write_header_4_link1=avformat_write_header(e_link1->fmt_ctx, (struct AVDictionary **)(void *)0);
+        if(!(return_value_avformat_write_header_4_link1 >= 0))
           av_log((void *)0, 16, "could not write header\n");
 
-        avio_flush(e$link1->avio);
-        e$link1->sent_header = 1;
+        avio_flush(e_link1->avio);
+        e_link1->sent_header = 1;
       }
 
-      encode_buffer$link1(encoder$link1, buffer$link1);
-      pthread_mutex_unlock(&e$link1->encode_head_mutex);
-      groove_buffer_unref(buffer$link1);
+      encode_buffer_link1(encoder_link1, buffer_link1);
+      pthread_mutex_unlock(&e_link1->encode_head_mutex);
+      groove_buffer_unref(buffer_link1);
     }
   }
   return (void *)0;
@@ -6059,9 +6059,9 @@ static signed int encoder_write_packet(void *opaque, unsigned char *buf, signed 
 {
   struct GrooveEncoderPrivate *e = (struct GrooveEncoderPrivate *)opaque;
   struct GrooveBufferPrivate *b;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct GrooveBufferPrivate) /*136ul*/ );
-  b = (struct GrooveBufferPrivate *)return_value_av_mallocz$1;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct GrooveBufferPrivate) /*136ul*/ );
+  b = (struct GrooveBufferPrivate *)return_value_av_mallocz_1;
   if(b == ((struct GrooveBufferPrivate *)NULL))
   {
     av_log((void *)0, 16, "unable to allocate buffer\n");
@@ -6071,9 +6071,9 @@ static signed int encoder_write_packet(void *opaque, unsigned char *buf, signed 
   else
   {
     struct GrooveBuffer *buffer = &b->externals;
-    signed int return_value_pthread_mutex_init$2;
-    return_value_pthread_mutex_init$2=pthread_mutex_init(&b->mutex, (const union anonymous$1 *)(void *)0);
-    if(!(return_value_pthread_mutex_init$2 == 0))
+    signed int return_value_pthread_mutex_init_2;
+    return_value_pthread_mutex_init_2=pthread_mutex_init(&b->mutex, (const union anonymous_1 *)(void *)0);
+    if(!(return_value_pthread_mutex_init_2 == 0))
     {
       av_free((void *)b);
       av_log((void *)0, 16, "unable to create mutex\n");
@@ -6087,9 +6087,9 @@ static signed int encoder_write_packet(void *opaque, unsigned char *buf, signed 
       buffer->pts = e->encode_pts;
       buffer->format = e->encode_format;
       b->is_packet = 1;
-      void *return_value_av_malloc$3;
-      return_value_av_malloc$3=av_malloc((unsigned long int)buf_size);
-      b->data = (unsigned char *)return_value_av_malloc$3;
+      void *return_value_av_malloc_3;
+      return_value_av_malloc_3=av_malloc((unsigned long int)buf_size);
+      b->data = (unsigned char *)return_value_av_malloc_3;
       if(b->data == ((unsigned char *)NULL))
       {
         av_free((void *)buffer);
@@ -6112,16 +6112,16 @@ static signed int encoder_write_packet(void *opaque, unsigned char *buf, signed 
   }
 }
 
-// encoder_write_packet$link1
+// encoder_write_packet_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 298
-static signed int encoder_write_packet$link1(void *opaque$link1, unsigned char *buf$link1, signed int buf_size$link1)
+static signed int encoder_write_packet_link1(void *opaque_link1, unsigned char *buf_link1, signed int buf_size_link1)
 {
-  struct GrooveEncoderPrivate *e$link1 = (struct GrooveEncoderPrivate *)opaque$link1;
-  struct GrooveBufferPrivate *b$link1;
-  void *return_value_av_mallocz$1$link1;
-  return_value_av_mallocz$1$link1=av_mallocz(sizeof(struct GrooveBufferPrivate) /*136ul*/ );
-  b$link1 = (struct GrooveBufferPrivate *)return_value_av_mallocz$1$link1;
-  if(b$link1 == ((struct GrooveBufferPrivate *)NULL))
+  struct GrooveEncoderPrivate *e_link1 = (struct GrooveEncoderPrivate *)opaque_link1;
+  struct GrooveBufferPrivate *b_link1;
+  void *return_value_av_mallocz_1_link1;
+  return_value_av_mallocz_1_link1=av_mallocz(sizeof(struct GrooveBufferPrivate) /*136ul*/ );
+  b_link1 = (struct GrooveBufferPrivate *)return_value_av_mallocz_1_link1;
+  if(b_link1 == ((struct GrooveBufferPrivate *)NULL))
   {
     av_log((void *)0, 16, "unable to allocate buffer\n");
     return -1;
@@ -6129,42 +6129,42 @@ static signed int encoder_write_packet$link1(void *opaque$link1, unsigned char *
 
   else
   {
-    struct GrooveBuffer *buffer$link1 = &b$link1->externals;
-    signed int return_value_pthread_mutex_init$2$link1;
-    return_value_pthread_mutex_init$2$link1=pthread_mutex_init(&b$link1->mutex, (const union anonymous$1 *)(void *)0);
-    if(!(return_value_pthread_mutex_init$2$link1 == 0))
+    struct GrooveBuffer *buffer_link1 = &b_link1->externals;
+    signed int return_value_pthread_mutex_init_2_link1;
+    return_value_pthread_mutex_init_2_link1=pthread_mutex_init(&b_link1->mutex, (const union anonymous_1 *)(void *)0);
+    if(!(return_value_pthread_mutex_init_2_link1 == 0))
     {
-      av_free((void *)b$link1);
+      av_free((void *)b_link1);
       av_log((void *)0, 16, "unable to create mutex\n");
       return -1;
     }
 
     else
     {
-      buffer$link1->item = e$link1->encode_head;
-      buffer$link1->pos = e$link1->encode_pos;
-      buffer$link1->pts = e$link1->encode_pts;
-      buffer$link1->format = e$link1->encode_format;
-      b$link1->is_packet = 1;
-      void *return_value_av_malloc$3$link1;
-      return_value_av_malloc$3$link1=av_malloc((unsigned long int)buf_size$link1);
-      b$link1->data = (unsigned char *)return_value_av_malloc$3$link1;
-      if(b$link1->data == ((unsigned char *)NULL))
+      buffer_link1->item = e_link1->encode_head;
+      buffer_link1->pos = e_link1->encode_pos;
+      buffer_link1->pts = e_link1->encode_pts;
+      buffer_link1->format = e_link1->encode_format;
+      b_link1->is_packet = 1;
+      void *return_value_av_malloc_3_link1;
+      return_value_av_malloc_3_link1=av_malloc((unsigned long int)buf_size_link1);
+      b_link1->data = (unsigned char *)return_value_av_malloc_3_link1;
+      if(b_link1->data == ((unsigned char *)NULL))
       {
-        av_free((void *)buffer$link1);
-        av_free((void *)b$link1);
-        pthread_mutex_destroy(&b$link1->mutex);
+        av_free((void *)buffer_link1);
+        av_free((void *)b_link1);
+        pthread_mutex_destroy(&b_link1->mutex);
         av_log((void *)0, 16, "unable to create data buffer\n");
         return -1;
       }
 
       else
       {
-        memcpy((void *)b$link1->data, (const void *)buf$link1, (unsigned long int)buf_size$link1);
-        buffer$link1->data = &b$link1->data;
-        buffer$link1->size = buf_size$link1;
-        b$link1->ref_count = 1;
-        groove_queue_put(e$link1->audioq, (void *)buffer$link1);
+        memcpy((void *)b_link1->data, (const void *)buf_link1, (unsigned long int)buf_size_link1);
+        buffer_link1->data = &b_link1->data;
+        buffer_link1->size = buf_size_link1;
+        b_link1->ref_count = 1;
+        groove_queue_put(e_link1->audioq, (void *)buffer_link1);
         return 0;
       }
     }
@@ -6196,61 +6196,61 @@ static signed int every_sink(struct GroovePlaylist *playlist, signed int (*func)
   return default_value;
 }
 
-// every_sink$link1
+// every_sink_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 493
-static signed int every_sink$link1(struct GroovePlaylist *playlist$link1, signed int (*func$link1)(struct GrooveSink *), signed int default_value$link1)
+static signed int every_sink_link1(struct GroovePlaylist *playlist_link1, signed int (*func_link1)(struct GrooveSink *), signed int default_value_link1)
 {
-  struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-  struct SinkMap *map_item$link1 = p$link1->sink_map;
-  while(!(map_item$link1 == ((struct SinkMap *)NULL)))
+  struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+  struct SinkMap *map_item_link1 = p_link1->sink_map;
+  while(!(map_item_link1 == ((struct SinkMap *)NULL)))
   {
-    struct SinkStack *stack_item$link1 = map_item$link1->stack_head;
-    if(!(stack_item$link1 == ((struct SinkStack *)NULL)))
+    struct SinkStack *stack_item_link1 = map_item_link1->stack_head;
+    if(!(stack_item_link1 == ((struct SinkStack *)NULL)))
     {
-      struct GrooveSink *sink$link1 = stack_item$link1->sink;
-      signed int value$link1;
-      value$link1=func$link1(sink$link1);
-      if(!(value$link1 == default_value$link1))
-        return value$link1;
+      struct GrooveSink *sink_link1 = stack_item_link1->sink;
+      signed int value_link1;
+      value_link1=func_link1(sink_link1);
+      if(!(value_link1 == default_value_link1))
+        return value_link1;
 
-      stack_item$link1 = stack_item$link1->next;
+      stack_item_link1 = stack_item_link1->next;
     }
 
-    map_item$link1 = map_item$link1->next;
+    map_item_link1 = map_item_link1->next;
   }
-  return default_value$link1;
+  return default_value_link1;
 }
 
 // every_sink_flush
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 543
 static void every_sink_flush(struct GroovePlaylist *playlist)
 {
-  every_sink(playlist, sink_flush$link1, 0);
+  every_sink(playlist, sink_flush_link1, 0);
 }
 
-// every_sink_flush$link1
+// every_sink_flush_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 543
-static void every_sink_flush$link1(struct GroovePlaylist *playlist$link1)
+static void every_sink_flush_link1(struct GroovePlaylist *playlist_link1)
 {
-  every_sink$link1(playlist$link1, sink_flush$link1$link1, 0);
+  every_sink_link1(playlist_link1, sink_flush_link1_link1, 0);
 }
 
 // every_sink_full
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 515
 static signed int every_sink_full(struct GroovePlaylist *playlist)
 {
-  signed int return_value_every_sink$1;
-  return_value_every_sink$1=every_sink(playlist, sink_is_full, 1);
-  return return_value_every_sink$1;
+  signed int return_value_every_sink_1;
+  return_value_every_sink_1=every_sink(playlist, sink_is_full, 1);
+  return return_value_every_sink_1;
 }
 
-// every_sink_full$link1
+// every_sink_full_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 515
-static signed int every_sink_full$link1(struct GroovePlaylist *playlist$link1)
+static signed int every_sink_full_link1(struct GroovePlaylist *playlist_link1)
 {
-  signed int return_value_every_sink$1$link1;
-  return_value_every_sink$1$link1=every_sink$link1(playlist$link1, sink_is_full$link1, 1);
-  return return_value_every_sink$1$link1;
+  signed int return_value_every_sink_1_link1;
+  return_value_every_sink_1_link1=every_sink_link1(playlist_link1, sink_is_full_link1, 1);
+  return return_value_every_sink_1_link1;
 }
 
 // every_sink_signal_end
@@ -6260,33 +6260,33 @@ static void every_sink_signal_end(struct GroovePlaylist *playlist)
   every_sink(playlist, sink_signal_end, 0);
 }
 
-// every_sink_signal_end$link1
+// every_sink_signal_end_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 529
-static void every_sink_signal_end$link1(struct GroovePlaylist *playlist$link1)
+static void every_sink_signal_end_link1(struct GroovePlaylist *playlist_link1)
 {
-  every_sink$link1(playlist$link1, sink_signal_end$link1, 0);
+  every_sink_link1(playlist_link1, sink_signal_end_link1, 0);
 }
 
 // frame_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 107
 static signed int frame_size(const struct AVFrame *frame)
 {
-  signed int return_value_av_get_channel_layout_nb_channels$1;
-  return_value_av_get_channel_layout_nb_channels$1=av_get_channel_layout_nb_channels(frame->channel_layout);
-  signed int return_value_av_get_bytes_per_sample$2;
-  return_value_av_get_bytes_per_sample$2=av_get_bytes_per_sample((enum AVSampleFormat)frame->format);
-  return return_value_av_get_channel_layout_nb_channels$1 * return_value_av_get_bytes_per_sample$2 * frame->nb_samples;
+  signed int return_value_av_get_channel_layout_nb_channels_1;
+  return_value_av_get_channel_layout_nb_channels_1=av_get_channel_layout_nb_channels(frame->channel_layout);
+  signed int return_value_av_get_bytes_per_sample_2;
+  return_value_av_get_bytes_per_sample_2=av_get_bytes_per_sample((enum AVSampleFormat)frame->format);
+  return return_value_av_get_channel_layout_nb_channels_1 * return_value_av_get_bytes_per_sample_2 * frame->nb_samples;
 }
 
-// frame_size$link1
+// frame_size_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 107
-static signed int frame_size$link1(const struct AVFrame *frame$link1)
+static signed int frame_size_link1(const struct AVFrame *frame_link1)
 {
-  signed int return_value_av_get_channel_layout_nb_channels$1$link1;
-  return_value_av_get_channel_layout_nb_channels$1$link1=av_get_channel_layout_nb_channels(frame$link1->channel_layout);
-  signed int return_value_av_get_bytes_per_sample$2$link1;
-  return_value_av_get_bytes_per_sample$2$link1=av_get_bytes_per_sample((enum AVSampleFormat)frame$link1->format);
-  return return_value_av_get_channel_layout_nb_channels$1$link1 * return_value_av_get_bytes_per_sample$2$link1 * frame$link1->nb_samples;
+  signed int return_value_av_get_channel_layout_nb_channels_1_link1;
+  return_value_av_get_channel_layout_nb_channels_1_link1=av_get_channel_layout_nb_channels(frame_link1->channel_layout);
+  signed int return_value_av_get_bytes_per_sample_2_link1;
+  return_value_av_get_bytes_per_sample_2_link1=av_get_bytes_per_sample((enum AVSampleFormat)frame_link1->format);
+  return return_value_av_get_channel_layout_nb_channels_1_link1 * return_value_av_get_bytes_per_sample_2_link1 * frame_link1->nb_samples;
 }
 
 // frame_to_groove_buffer
@@ -6294,9 +6294,9 @@ static signed int frame_size$link1(const struct AVFrame *frame$link1)
 static struct GrooveBuffer * frame_to_groove_buffer(struct GroovePlaylist *playlist, struct GrooveSink *sink, struct AVFrame *frame)
 {
   struct GrooveBufferPrivate *b;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct GrooveBufferPrivate) /*136ul*/ );
-  b = (struct GrooveBufferPrivate *)return_value_av_mallocz$1;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct GrooveBufferPrivate) /*136ul*/ );
+  b = (struct GrooveBufferPrivate *)return_value_av_mallocz_1;
   if(b == ((struct GrooveBufferPrivate *)NULL))
   {
     av_log((void *)0, 16, "unable to allocate buffer\n");
@@ -6306,9 +6306,9 @@ static struct GrooveBuffer * frame_to_groove_buffer(struct GroovePlaylist *playl
   else
   {
     struct GrooveBuffer *buffer = &b->externals;
-    signed int return_value_pthread_mutex_init$2;
-    return_value_pthread_mutex_init$2=pthread_mutex_init(&b->mutex, (const union anonymous$1 *)(void *)0);
-    if(!(return_value_pthread_mutex_init$2 == 0))
+    signed int return_value_pthread_mutex_init_2;
+    return_value_pthread_mutex_init_2=pthread_mutex_init(&b->mutex, (const union anonymous_1 *)(void *)0);
+    if(!(return_value_pthread_mutex_init_2 == 0))
     {
       av_free((void *)b);
       av_log((void *)0, 16, "unable to create mutex\n");
@@ -6335,15 +6335,15 @@ static struct GrooveBuffer * frame_to_groove_buffer(struct GroovePlaylist *playl
   }
 }
 
-// frame_to_groove_buffer$link1
+// frame_to_groove_buffer_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 113
-static struct GrooveBuffer * frame_to_groove_buffer$link1(struct GroovePlaylist *playlist$link1, struct GrooveSink *sink$link1, struct AVFrame *frame$link1)
+static struct GrooveBuffer * frame_to_groove_buffer_link1(struct GroovePlaylist *playlist_link1, struct GrooveSink *sink_link1, struct AVFrame *frame_link1)
 {
-  struct GrooveBufferPrivate *b$link1;
-  void *return_value_av_mallocz$1$link1;
-  return_value_av_mallocz$1$link1=av_mallocz(sizeof(struct GrooveBufferPrivate) /*136ul*/ );
-  b$link1 = (struct GrooveBufferPrivate *)return_value_av_mallocz$1$link1;
-  if(b$link1 == ((struct GrooveBufferPrivate *)NULL))
+  struct GrooveBufferPrivate *b_link1;
+  void *return_value_av_mallocz_1_link1;
+  return_value_av_mallocz_1_link1=av_mallocz(sizeof(struct GrooveBufferPrivate) /*136ul*/ );
+  b_link1 = (struct GrooveBufferPrivate *)return_value_av_mallocz_1_link1;
+  if(b_link1 == ((struct GrooveBufferPrivate *)NULL))
   {
     av_log((void *)0, 16, "unable to allocate buffer\n");
     return (struct GrooveBuffer *)(void *)0;
@@ -6351,32 +6351,32 @@ static struct GrooveBuffer * frame_to_groove_buffer$link1(struct GroovePlaylist 
 
   else
   {
-    struct GrooveBuffer *buffer$link1 = &b$link1->externals;
-    signed int return_value_pthread_mutex_init$2$link1;
-    return_value_pthread_mutex_init$2$link1=pthread_mutex_init(&b$link1->mutex, (const union anonymous$1 *)(void *)0);
-    if(!(return_value_pthread_mutex_init$2$link1 == 0))
+    struct GrooveBuffer *buffer_link1 = &b_link1->externals;
+    signed int return_value_pthread_mutex_init_2_link1;
+    return_value_pthread_mutex_init_2_link1=pthread_mutex_init(&b_link1->mutex, (const union anonymous_1 *)(void *)0);
+    if(!(return_value_pthread_mutex_init_2_link1 == 0))
     {
-      av_free((void *)b$link1);
+      av_free((void *)b_link1);
       av_log((void *)0, 16, "unable to create mutex\n");
       return (struct GrooveBuffer *)(void *)0;
     }
 
     else
     {
-      struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-      struct GrooveFile *file$link1 = p$link1->decode_head->file;
-      struct GrooveFilePrivate *f$link1 = (struct GrooveFilePrivate *)file$link1;
-      buffer$link1->item = p$link1->decode_head;
-      buffer$link1->pos = f$link1->audio_clock;
-      buffer$link1->data = frame$link1->extended_data;
-      buffer$link1->frame_count = frame$link1->nb_samples;
-      buffer$link1->format.channel_layout = frame$link1->channel_layout;
-      buffer$link1->format.sample_fmt = (enum GrooveSampleFormat)frame$link1->format;
-      buffer$link1->format.sample_rate = frame$link1->sample_rate;
-      buffer$link1->size=frame_size$link1(frame$link1);
-      buffer$link1->pts = (unsigned long int)frame$link1->pts;
-      b$link1->frame = frame$link1;
-      return buffer$link1;
+      struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+      struct GrooveFile *file_link1 = p_link1->decode_head->file;
+      struct GrooveFilePrivate *f_link1 = (struct GrooveFilePrivate *)file_link1;
+      buffer_link1->item = p_link1->decode_head;
+      buffer_link1->pos = f_link1->audio_clock;
+      buffer_link1->data = frame_link1->extended_data;
+      buffer_link1->frame_count = frame_link1->nb_samples;
+      buffer_link1->format.channel_layout = frame_link1->channel_layout;
+      buffer_link1->format.sample_fmt = (enum GrooveSampleFormat)frame_link1->format;
+      buffer_link1->format.sample_rate = frame_link1->sample_rate;
+      buffer_link1->size=frame_size_link1(frame_link1);
+      buffer_link1->pts = (unsigned long int)frame_link1->pts;
+      b_link1->frame = frame_link1;
+      return buffer_link1;
     }
   }
 }
@@ -6385,37 +6385,37 @@ static struct GrooveBuffer * frame_to_groove_buffer$link1(struct GroovePlaylist 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 266
 static double gain_to_dB(double gain)
 {
-  double return_value_log$1;
-  return_value_log$1=log(gain);
-  return return_value_log$1 / dB_scale;
+  double return_value_log_1;
+  return_value_log_1=log(gain);
+  return return_value_log_1 / dB_scale;
 }
 
-// gain_to_dB$link1
+// gain_to_dB_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 266
-static double gain_to_dB$link1(double gain$link1)
+static double gain_to_dB_link1(double gain_link1)
 {
-  double return_value_log$1$link1;
-  return_value_log$1$link1=log(gain$link1);
-  return return_value_log$1$link1 / dB_scale$link1;
+  double return_value_log_1_link1;
+  return_value_log_1_link1=log(gain_link1);
+  return return_value_log_1_link1 / dB_scale_link1;
 }
 
 // groove_audio_formats_equal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/groove.h line 124
 signed int groove_audio_formats_equal(struct GrooveAudioFormat *a, struct GrooveAudioFormat *b)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(a->sample_rate == b->sample_rate)
-    tmp_if_expr$1 = a->channel_layout == b->channel_layout ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = a->channel_layout == b->channel_layout ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = a->sample_fmt == b->sample_fmt ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = a->sample_fmt == b->sample_fmt ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  return (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  return (signed int)tmp_if_expr_2;
 }
 
 // groove_buffer_ref
@@ -6432,7 +6432,7 @@ void groove_buffer_ref(struct GrooveBuffer *buffer)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/groove.h line 345
 void groove_buffer_unref(struct GrooveBuffer *buffer)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(buffer == ((struct GrooveBuffer *)NULL)))
   {
     struct GrooveBufferPrivate *b = (struct GrooveBufferPrivate *)buffer;
@@ -6444,11 +6444,11 @@ void groove_buffer_unref(struct GrooveBuffer *buffer)
     {
       pthread_mutex_destroy(&b->mutex);
       if(!(b->is_packet == 0))
-        tmp_if_expr$1 = b->data != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = b->data != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         av_free((void *)b->data);
 
       else
@@ -6466,36 +6466,36 @@ void groove_buffer_unref(struct GrooveBuffer *buffer)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/groove.h line 93
 signed int groove_channel_layout_count(unsigned long int channel_layout)
 {
-  signed int return_value_av_get_channel_layout_nb_channels$1;
-  return_value_av_get_channel_layout_nb_channels$1=av_get_channel_layout_nb_channels(channel_layout);
-  return return_value_av_get_channel_layout_nb_channels$1;
+  signed int return_value_av_get_channel_layout_nb_channels_1;
+  return_value_av_get_channel_layout_nb_channels_1=av_get_channel_layout_nb_channels(channel_layout);
+  return return_value_av_get_channel_layout_nb_channels_1;
 }
 
 // groove_channel_layout_default
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/groove.h line 97
 unsigned long int groove_channel_layout_default(signed int count)
 {
-  signed long int return_value_av_get_default_channel_layout$1;
-  return_value_av_get_default_channel_layout$1=av_get_default_channel_layout(count);
-  return (unsigned long int)return_value_av_get_default_channel_layout$1;
+  signed long int return_value_av_get_default_channel_layout_1;
+  return_value_av_get_default_channel_layout_1=av_get_default_channel_layout(count);
+  return (unsigned long int)return_value_av_get_default_channel_layout_1;
 }
 
 // groove_device_count
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/grooveplayer/player.c line 648
 signed int groove_device_count(void)
 {
-  signed int return_value_SDL_GetNumAudioDevices$1;
-  return_value_SDL_GetNumAudioDevices$1=SDL_GetNumAudioDevices(0);
-  return return_value_SDL_GetNumAudioDevices$1;
+  signed int return_value_SDL_GetNumAudioDevices_1;
+  return_value_SDL_GetNumAudioDevices_1=SDL_GetNumAudioDevices(0);
+  return return_value_SDL_GetNumAudioDevices_1;
 }
 
 // groove_device_name
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/grooveplayer/player.c line 652
 const char * groove_device_name(signed int index)
 {
-  const char *return_value_SDL_GetAudioDeviceName$1;
-  return_value_SDL_GetAudioDeviceName$1=SDL_GetAudioDeviceName(index, 0);
-  return return_value_SDL_GetAudioDeviceName$1;
+  const char *return_value_SDL_GetAudioDeviceName_1;
+  return_value_SDL_GetAudioDeviceName_1=SDL_GetAudioDeviceName(index, 0);
+  return return_value_SDL_GetAudioDeviceName_1;
 }
 
 // groove_encoder_attach
@@ -6506,7 +6506,7 @@ signed int groove_encoder_attach(struct GrooveEncoder *encoder, struct GroovePla
   encoder->playlist = playlist;
   groove_queue_reset(e->audioq);
   e->oformat=av_guess_format(encoder->format_short_name, encoder->filename, encoder->mime_type);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(e->oformat == ((struct AVOutputFormat *)NULL))
   {
     groove_encoder_detach(encoder);
@@ -6564,15 +6564,15 @@ signed int groove_encoder_attach(struct GrooveEncoder *encoder, struct GroovePla
       e->sink->audio_format = encoder->actual_audio_format;
       e->sink->buffer_size = encoder->sink_buffer_size;
       if(!((65536 & codec->capabilities) == 0))
-        tmp_if_expr$1 = 0;
+        tmp_if_expr_1 = 0;
 
       else
-        tmp_if_expr$1 = e->stream->codec->frame_size;
-      e->sink->buffer_sample_count = tmp_if_expr$1;
+        tmp_if_expr_1 = e->stream->codec->frame_size;
+      e->sink->buffer_sample_count = tmp_if_expr_1;
       e->sink->gain = encoder->gain;
-      signed int return_value_groove_sink_attach$2;
-      return_value_groove_sink_attach$2=groove_sink_attach(e->sink, playlist);
-      if(!(return_value_groove_sink_attach$2 >= 0))
+      signed int return_value_groove_sink_attach_2;
+      return_value_groove_sink_attach_2=groove_sink_attach(e->sink, playlist);
+      if(!(return_value_groove_sink_attach_2 >= 0))
       {
         groove_encoder_detach(encoder);
         av_log((void *)0, 16, "unable to attach sink\n");
@@ -6581,9 +6581,9 @@ signed int groove_encoder_attach(struct GrooveEncoder *encoder, struct GroovePla
 
       else
       {
-        signed int return_value_pthread_create$3;
-        return_value_pthread_create$3=pthread_create(&e->thread_id, (const union pthread_attr_t *)(void *)0, encode_thread, (void *)encoder);
-        if(!(return_value_pthread_create$3 == 0))
+        signed int return_value_pthread_create_3;
+        return_value_pthread_create_3=pthread_create(&e->thread_id, (const union pthread_attr_t *)(void *)0, encode_thread, (void *)encoder);
+        if(!(return_value_pthread_create_3 == 0))
         {
           groove_encoder_detach(encoder);
           av_log((void *)0, 16, "unable to create encoder thread\n");
@@ -6602,9 +6602,9 @@ signed int groove_encoder_attach(struct GrooveEncoder *encoder, struct GroovePla
 signed int groove_encoder_buffer_get(struct GrooveEncoder *encoder, struct GrooveBuffer **buffer, signed int block)
 {
   struct GrooveEncoderPrivate *e = (struct GrooveEncoderPrivate *)encoder;
-  signed int return_value_groove_queue_get$1;
-  return_value_groove_queue_get$1=groove_queue_get(e->audioq, (void **)buffer, block);
-  if(return_value_groove_queue_get$1 == 1)
+  signed int return_value_groove_queue_get_1;
+  return_value_groove_queue_get_1=groove_queue_get(e->audioq, (void **)buffer, block);
+  if(return_value_groove_queue_get_1 == 1)
   {
     if(*buffer == end_of_q_sentinel)
     {
@@ -6628,9 +6628,9 @@ signed int groove_encoder_buffer_get(struct GrooveEncoder *encoder, struct Groov
 signed int groove_encoder_buffer_peek(struct GrooveEncoder *encoder, signed int block)
 {
   struct GrooveEncoderPrivate *e = (struct GrooveEncoderPrivate *)encoder;
-  signed int return_value_groove_queue_peek$1;
-  return_value_groove_queue_peek$1=groove_queue_peek(e->audioq, block);
-  return return_value_groove_queue_peek$1;
+  signed int return_value_groove_queue_peek_1;
+  return_value_groove_queue_peek_1=groove_queue_peek(e->audioq, block);
+  return return_value_groove_queue_peek_1;
 }
 
 // groove_encoder_create
@@ -6638,9 +6638,9 @@ signed int groove_encoder_buffer_peek(struct GrooveEncoder *encoder, signed int 
 struct GrooveEncoder * groove_encoder_create(void)
 {
   struct GrooveEncoderPrivate *e;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct GrooveEncoderPrivate) /*984ul*/ );
-  e = (struct GrooveEncoderPrivate *)return_value_av_mallocz$1;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct GrooveEncoderPrivate) /*984ul*/ );
+  e = (struct GrooveEncoderPrivate *)return_value_av_mallocz_1;
   if(e == ((struct GrooveEncoderPrivate *)NULL))
   {
     av_log((void *)0, 16, "unable to allocate encoder\n");
@@ -6651,9 +6651,9 @@ struct GrooveEncoder * groove_encoder_create(void)
   {
     struct GrooveEncoder *encoder = &e->externals;
     const signed int buffer_size = 4 * 1024;
-    void *return_value_av_malloc$2;
-    return_value_av_malloc$2=av_malloc((unsigned long int)buffer_size);
-    e->avio_buf = (unsigned char *)return_value_av_malloc$2;
+    void *return_value_av_malloc_2;
+    return_value_av_malloc_2=av_malloc((unsigned long int)buffer_size);
+    e->avio_buf = (unsigned char *)return_value_av_malloc_2;
     if(e->avio_buf == ((unsigned char *)NULL))
     {
       groove_encoder_destroy(encoder);
@@ -6673,9 +6673,9 @@ struct GrooveEncoder * groove_encoder_create(void)
 
       else
       {
-        signed int return_value_pthread_mutex_init$3;
-        return_value_pthread_mutex_init$3=pthread_mutex_init(&e->encode_head_mutex, (const union anonymous$1 *)(void *)0);
-        if(!(return_value_pthread_mutex_init$3 == 0))
+        signed int return_value_pthread_mutex_init_3;
+        return_value_pthread_mutex_init_3=pthread_mutex_init(&e->encode_head_mutex, (const union anonymous_1 *)(void *)0);
+        if(!(return_value_pthread_mutex_init_3 == 0))
         {
           groove_encoder_destroy(encoder);
           av_log((void *)0, 16, "unable to create mutex\n");
@@ -6685,9 +6685,9 @@ struct GrooveEncoder * groove_encoder_create(void)
         else
         {
           e->encode_head_mutex_inited = (char)1;
-          signed int return_value_pthread_cond_init$4;
-          return_value_pthread_cond_init$4=pthread_cond_init(&e->drain_cond, (const union anonymous$1 *)(void *)0);
-          if(!(return_value_pthread_cond_init$4 == 0))
+          signed int return_value_pthread_cond_init_4;
+          return_value_pthread_cond_init_4=pthread_cond_init(&e->drain_cond, (const union anonymous_1 *)(void *)0);
+          if(!(return_value_pthread_cond_init_4 == 0))
           {
             groove_encoder_destroy(encoder);
             av_log((void *)0, 16, "unable to create mutex condition\n");
@@ -6723,8 +6723,8 @@ struct GrooveEncoder * groove_encoder_create(void)
               else
               {
                 e->sink->userdata = (void *)encoder;
-                e->sink->purge = sink_purge$link1;
-                e->sink->flush = sink_flush$link2;
+                e->sink->purge = sink_purge_link1;
+                e->sink->flush = sink_flush_link2;
                 encoder->bit_rate = 256 * 1000;
                 encoder->target_audio_format.sample_rate = 44100;
                 encoder->target_audio_format.sample_fmt = (enum GrooveSampleFormat)GROOVE_SAMPLE_FMT_S16;
@@ -6796,9 +6796,9 @@ struct GrooveTag * groove_encoder_metadata_get(struct GrooveEncoder *encoder, co
 {
   struct GrooveEncoderPrivate *e = (struct GrooveEncoderPrivate *)encoder;
   const struct AVDictionaryEntry *entry = (const struct AVDictionaryEntry *)prev;
-  struct AVDictionaryEntry *return_value_av_dict_get$1;
-  return_value_av_dict_get$1=av_dict_get(e->metadata, key, entry, flags | 2);
-  return (struct GrooveTag *)return_value_av_dict_get$1;
+  struct AVDictionaryEntry *return_value_av_dict_get_1;
+  return_value_av_dict_get_1=av_dict_get(e->metadata, key, entry, flags | 2);
+  return (struct GrooveTag *)return_value_av_dict_get_1;
 }
 
 // groove_encoder_metadata_set
@@ -6806,9 +6806,9 @@ struct GrooveTag * groove_encoder_metadata_get(struct GrooveEncoder *encoder, co
 signed int groove_encoder_metadata_set(struct GrooveEncoder *encoder, const char *key, const char *value, signed int flags)
 {
   struct GrooveEncoderPrivate *e = (struct GrooveEncoderPrivate *)encoder;
-  signed int return_value_av_dict_set$1;
-  return_value_av_dict_set$1=av_dict_set(&e->metadata, key, value, flags | 2);
-  return return_value_av_dict_set$1;
+  signed int return_value_av_dict_set_1;
+  return_value_av_dict_set_1=av_dict_set(&e->metadata, key, value, flags | 2);
+  return return_value_av_dict_set_1;
 }
 
 // groove_encoder_position
@@ -6832,9 +6832,9 @@ signed int groove_encoder_set_gain(struct GrooveEncoder *encoder, double gain)
 {
   struct GrooveEncoderPrivate *e = (struct GrooveEncoderPrivate *)encoder;
   encoder->gain = gain;
-  signed int return_value_groove_sink_set_gain$1;
-  return_value_groove_sink_set_gain$1=groove_sink_set_gain(e->sink, gain);
-  return return_value_groove_sink_set_gain$1;
+  signed int return_value_groove_sink_set_gain_1;
+  return_value_groove_sink_set_gain_1=groove_sink_set_gain(e->sink, gain);
+  return return_value_groove_sink_set_gain_1;
 }
 
 // groove_file_audio_format
@@ -6899,9 +6899,9 @@ struct GrooveTag * groove_file_metadata_get(struct GrooveFile *file, const char 
 
   }
 
-  struct AVDictionaryEntry *return_value_av_dict_get$1;
-  return_value_av_dict_get$1=av_dict_get(f->ic->metadata, key, e, flags);
-  return (struct GrooveTag *)return_value_av_dict_get$1;
+  struct AVDictionaryEntry *return_value_av_dict_get_1;
+  return_value_av_dict_get_1=av_dict_get(f->ic->metadata, key, e, flags);
+  return (struct GrooveTag *)return_value_av_dict_get_1;
 }
 
 // groove_file_metadata_set
@@ -6910,9 +6910,9 @@ signed int groove_file_metadata_set(struct GrooveFile *file, const char *key, co
 {
   file->dirty = 1;
   struct GrooveFilePrivate *f = (struct GrooveFilePrivate *)file;
-  signed int return_value_av_dict_set$1;
-  return_value_av_dict_set$1=av_dict_set(&f->ic->metadata, key, value, flags);
-  return return_value_av_dict_set$1;
+  signed int return_value_av_dict_set_1;
+  return_value_av_dict_set_1=av_dict_set(&f->ic->metadata, key, value, flags);
+  return return_value_av_dict_set_1;
 }
 
 // groove_file_open
@@ -6920,10 +6920,10 @@ signed int groove_file_metadata_set(struct GrooveFile *file, const char *key, co
 struct GrooveFile * groove_file_open(const char *filename)
 {
   struct GrooveFilePrivate *f;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct GrooveFilePrivate) /*224ul*/ );
-  f = (struct GrooveFilePrivate *)return_value_av_mallocz$1;
-  signed long int return_value_av_get_default_channel_layout$4;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct GrooveFilePrivate) /*224ul*/ );
+  f = (struct GrooveFilePrivate *)return_value_av_mallocz_1;
+  signed long int return_value_av_get_default_channel_layout_4;
   if(f == ((struct GrooveFilePrivate *)NULL))
   {
     av_log((void *)0, 16, "unable to allocate file context\n");
@@ -6935,9 +6935,9 @@ struct GrooveFile * groove_file_open(const char *filename)
     struct GrooveFile *file = &f->externals;
     f->audio_stream_index = -1;
     f->seek_pos = (signed long int)-1;
-    signed int return_value_pthread_mutex_init$2;
-    return_value_pthread_mutex_init$2=pthread_mutex_init(&f->seek_mutex, (const union anonymous$1 *)(void *)0);
-    if(!(return_value_pthread_mutex_init$2 == 0))
+    signed int return_value_pthread_mutex_init_2;
+    return_value_pthread_mutex_init_2=pthread_mutex_init(&f->seek_mutex, (const union anonymous_1 *)(void *)0);
+    if(!(return_value_pthread_mutex_init_2 == 0))
     {
       av_free((void *)f);
       av_log((void *)0, 16, "unable to create seek mutex\n");
@@ -7004,9 +7004,9 @@ struct GrooveFile * groove_file_open(const char *filename)
                 f->audio_st = f->ic->streams[(signed long int)f->audio_stream_index];
                 f->audio_st->discard = (enum AVDiscard)AVDISCARD_DEFAULT;
                 struct AVCodecContext *avctx = f->audio_st->codec;
-                signed int return_value_avcodec_open2$3;
-                return_value_avcodec_open2$3=avcodec_open2(avctx, f->decoder, (struct AVDictionary **)(void *)0);
-                if(!(return_value_avcodec_open2$3 >= 0))
+                signed int return_value_avcodec_open2_3;
+                return_value_avcodec_open2_3=avcodec_open2(avctx, f->decoder, (struct AVDictionary **)(void *)0);
+                if(!(return_value_avcodec_open2_3 >= 0))
                 {
                   groove_file_close(file);
                   av_log((void *)0, 16, "unable to open decoder\n");
@@ -7017,8 +7017,8 @@ struct GrooveFile * groove_file_open(const char *filename)
                 {
                   if(avctx->channel_layout == 0ul)
                   {
-                    return_value_av_get_default_channel_layout$4=av_get_default_channel_layout(avctx->channels);
-                    avctx->channel_layout = (unsigned long int)return_value_av_get_default_channel_layout$4;
+                    return_value_av_get_default_channel_layout_4=av_get_default_channel_layout(avctx->channels);
+                    avctx->channel_layout = (unsigned long int)return_value_av_get_default_channel_layout_4;
                   }
 
                   if(avctx->channel_layout == 0ul)
@@ -7046,12 +7046,12 @@ struct GrooveFile * groove_file_open(const char *filename)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/file.c line 215
 signed int groove_file_save(struct GrooveFile *file)
 {
-  _Bool tmp_if_expr$4;
-  enum AVCodecID return_value_av_codec_get_id$3;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_av_codec_get_tag$5;
-  struct AVRational tmp_if_expr$9;
-  struct AVRational tmp_if_expr$8;
+  _Bool tmp_if_expr_4;
+  enum AVCodecID return_value_av_codec_get_id_3;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_av_codec_get_tag_5;
+  struct AVRational tmp_if_expr_9;
+  struct AVRational tmp_if_expr_8;
   if(file->dirty == 0)
     return 0;
 
@@ -7080,9 +7080,9 @@ signed int groove_file_save(struct GrooveFile *file)
       {
         f->oc->oformat = ofmt;
         snprintf(f->oc->filename, sizeof(char [1024l]) /*1024ul*/ , "%s", (const void *)f->ic->filename);
-        signed int return_value_tempfileify$1;
-        return_value_tempfileify$1=tempfileify(f->oc->filename, sizeof(char [1024l]) /*1024ul*/ );
-        if(!(return_value_tempfileify$1 >= 0))
+        signed int return_value_tempfileify_1;
+        return_value_tempfileify_1=tempfileify(f->oc->filename, sizeof(char [1024l]) /*1024ul*/ );
+        if(!(return_value_tempfileify_1 >= 0))
         {
           cleanup_save(file);
           av_log((void *)0, 16, "could not create temp file - filename too long\n");
@@ -7093,9 +7093,9 @@ signed int groove_file_save(struct GrooveFile *file)
         {
           if((0x0001 & ofmt->flags) == 0)
           {
-            signed int return_value_avio_open$2;
-            return_value_avio_open$2=avio_open(&f->oc->pb, f->oc->filename, 2);
-            if(!(return_value_avio_open$2 >= 0))
+            signed int return_value_avio_open_2;
+            return_value_avio_open_2=avio_open(&f->oc->pb, f->oc->filename, 2);
+            if(!(return_value_avio_open_2 >= 0))
             {
               cleanup_save(file);
               av_log((void *)0, 16, "could not open '%s'\n", (const void *)f->oc->filename);
@@ -7130,22 +7130,22 @@ signed int groove_file_save(struct GrooveFile *file)
             if(ocodec->codec_tag == 0u)
             {
               if(f->oc->oformat->codec_tag == ((struct AVCodecTag * const *)NULL))
-                tmp_if_expr$4 = (_Bool)1;
+                tmp_if_expr_4 = (_Bool)1;
 
               else
               {
-                return_value_av_codec_get_id$3=av_codec_get_id(f->oc->oformat->codec_tag, icodec->codec_tag);
-                tmp_if_expr$4 = return_value_av_codec_get_id$3 == ocodec->codec_id ? (_Bool)1 : (_Bool)0;
+                return_value_av_codec_get_id_3=av_codec_get_id(f->oc->oformat->codec_tag, icodec->codec_tag);
+                tmp_if_expr_4 = return_value_av_codec_get_id_3 == ocodec->codec_id ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$4)
-                tmp_if_expr$6 = (_Bool)1;
+              if(tmp_if_expr_4)
+                tmp_if_expr_6 = (_Bool)1;
 
               else
               {
-                return_value_av_codec_get_tag$5=av_codec_get_tag(f->oc->oformat->codec_tag, icodec->codec_id);
-                tmp_if_expr$6 = return_value_av_codec_get_tag$5 <= (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                return_value_av_codec_get_tag_5=av_codec_get_tag(f->oc->oformat->codec_tag, icodec->codec_id);
+                tmp_if_expr_6 = return_value_av_codec_get_tag_5 <= (unsigned int)0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$6)
+              if(tmp_if_expr_6)
                 ocodec->codec_tag = icodec->codec_tag;
 
             }
@@ -7162,9 +7162,9 @@ signed int groove_file_save(struct GrooveFile *file)
               return -22;
             }
 
-            void *return_value_av_mallocz$7;
-            return_value_av_mallocz$7=av_mallocz(extra_size);
-            ocodec->extradata = (unsigned char *)return_value_av_mallocz$7;
+            void *return_value_av_mallocz_7;
+            return_value_av_mallocz_7=av_mallocz(extra_size);
+            ocodec->extradata = (unsigned char *)return_value_av_mallocz_7;
             if(ocodec->extradata == ((unsigned char *)NULL))
             {
               cleanup_save(file);
@@ -7195,18 +7195,18 @@ signed int groove_file_save(struct GrooveFile *file)
                 if(ocodec->sample_aspect_ratio.num == 0)
                 {
                   if(!(in_stream->sample_aspect_ratio.num == 0))
-                    tmp_if_expr$9 = in_stream->sample_aspect_ratio;
+                    tmp_if_expr_9 = in_stream->sample_aspect_ratio;
 
                   else
                   {
                     if(!(icodec->sample_aspect_ratio.num == 0))
-                      tmp_if_expr$8 = icodec->sample_aspect_ratio;
+                      tmp_if_expr_8 = icodec->sample_aspect_ratio;
 
                     else
-                      tmp_if_expr$8 = (struct AVRational){ .num=0, .den=1 };
-                    tmp_if_expr$9 = tmp_if_expr$8;
+                      tmp_if_expr_8 = (struct AVRational){ .num=0, .den=1 };
+                    tmp_if_expr_9 = tmp_if_expr_8;
                   }
-                  out_stream->sample_aspect_ratio = tmp_if_expr$9;
+                  out_stream->sample_aspect_ratio = tmp_if_expr_9;
                   ocodec->sample_aspect_ratio = out_stream->sample_aspect_ratio;
                 }
 
@@ -7231,9 +7231,9 @@ signed int groove_file_save(struct GrooveFile *file)
             }
           }
           av_dict_copy(&f->oc->metadata, f->ic->metadata, 0);
-          signed int return_value_avformat_write_header$10;
-          return_value_avformat_write_header$10=avformat_write_header(f->oc, (struct AVDictionary **)(void *)0);
-          if(!(return_value_avformat_write_header$10 >= 0))
+          signed int return_value_avformat_write_header_10;
+          return_value_avformat_write_header_10=avformat_write_header(f->oc, (struct AVDictionary **)(void *)0);
+          if(!(return_value_avformat_write_header_10 >= 0))
           {
             cleanup_save(file);
             av_log((void *)0, 16, "could not write header\n");
@@ -7258,9 +7258,9 @@ signed int groove_file_save(struct GrooveFile *file)
                   return -1;
                 }
 
-              signed int return_value_av_write_frame$11;
-              return_value_av_write_frame$11=av_write_frame(f->oc, pkt);
-              if(!(return_value_av_write_frame$11 >= 0))
+              signed int return_value_av_write_frame_11;
+              return_value_av_write_frame_11=av_write_frame(f->oc, pkt);
+              if(!(return_value_av_write_frame_11 >= 0))
               {
                 cleanup_save(file);
                 av_log((void *)0, 16, "error writing frame\n");
@@ -7270,9 +7270,9 @@ signed int groove_file_save(struct GrooveFile *file)
               av_free_packet(pkt);
             }
             while((_Bool)1);
-            signed int return_value_av_write_trailer$12;
-            return_value_av_write_trailer$12=av_write_trailer(f->oc);
-            if(!(return_value_av_write_trailer$12 >= 0))
+            signed int return_value_av_write_trailer_12;
+            return_value_av_write_trailer_12=av_write_trailer(f->oc);
+            if(!(return_value_av_write_trailer_12 >= 0))
             {
               cleanup_save(file);
               av_log((void *)0, 16, "could not write trailer\n");
@@ -7281,9 +7281,9 @@ signed int groove_file_save(struct GrooveFile *file)
 
             else
             {
-              signed int return_value_rename$13;
-              return_value_rename$13=rename(f->oc->filename, f->ic->filename);
-              if(!(return_value_rename$13 == 0))
+              signed int return_value_rename_13;
+              return_value_rename_13=rename(f->oc->filename, f->ic->filename);
+              if(!(return_value_rename_13 == 0))
               {
                 cleanup_save(file);
                 av_log((void *)0, 16, "error renaming tmp file to original file\n");
@@ -7360,9 +7360,9 @@ static unsigned short int groove_fmt_to_sdl_fmt(enum GrooveSampleFormat fmt)
 signed int groove_init(void)
 {
   av_lockmgr_register(my_lockmgr_cb);
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  srand((unsigned int)return_value_time$1);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  srand((unsigned int)return_value_time_1);
   avcodec_register_all();
   av_register_all();
   avformat_network_init();
@@ -7389,9 +7389,9 @@ signed int groove_player_attach(struct GroovePlayer *player, struct GroovePlayli
 
   else
   {
-    signed int return_value_open_audio_device$1;
-    return_value_open_audio_device$1=open_audio_device(player, &player->target_audio_format, &player->actual_audio_format, player->use_exact_audio_format);
-    if(!(return_value_open_audio_device$1 == 0))
+    signed int return_value_open_audio_device_1;
+    return_value_open_audio_device_1=open_audio_device(player, &player->target_audio_format, &player->actual_audio_format, player->use_exact_audio_format);
+    if(!(return_value_open_audio_device_1 == 0))
       return -1;
 
     p->sink->audio_format = player->actual_audio_format;
@@ -7405,9 +7405,9 @@ signed int groove_player_attach(struct GroovePlayer *player, struct GroovePlayli
     if(!(player->use_exact_audio_format == 0))
     {
       p->sink->disable_resample = 1;
-      signed int return_value_pthread_create$2;
-      return_value_pthread_create$2=pthread_create(&p->device_thread_id, (const union pthread_attr_t *)(void *)0, device_thread_run, (void *)player);
-      if(!(return_value_pthread_create$2 == 0))
+      signed int return_value_pthread_create_2;
+      return_value_pthread_create_2=pthread_create(&p->device_thread_id, (const union pthread_attr_t *)(void *)0, device_thread_run, (void *)player);
+      if(!(return_value_pthread_create_2 == 0))
       {
         groove_player_detach(player);
         av_log((void *)0, 16, "unable to create device thread\n");
@@ -7433,16 +7433,16 @@ signed int groove_player_attach(struct GroovePlayer *player, struct GroovePlayli
     groove_queue_reset(p->eventq);
     if(player->device_index == -2)
     {
-      signed int return_value_groove_playlist_playing$3;
-      return_value_groove_playlist_playing$3=groove_playlist_playing(playlist);
-      if(!(return_value_groove_playlist_playing$3 == 0))
+      signed int return_value_groove_playlist_playing_3;
+      return_value_groove_playlist_playing_3=groove_playlist_playing(playlist);
+      if(!(return_value_groove_playlist_playing_3 == 0))
         sink_play(p->sink);
 
       else
         sink_pause(p->sink);
-      signed int return_value_pthread_create$4;
-      return_value_pthread_create$4=pthread_create(&p->dummy_thread_id, (const union pthread_attr_t *)(void *)0, dummy_thread, (void *)player);
-      if(!(return_value_pthread_create$4 == 0))
+      signed int return_value_pthread_create_4;
+      return_value_pthread_create_4=pthread_create(&p->dummy_thread_id, (const union pthread_attr_t *)(void *)0, dummy_thread, (void *)player);
+      if(!(return_value_pthread_create_4 == 0))
       {
         groove_player_detach(player);
         av_log((void *)0, 16, "unable to create dummy player thread\n");
@@ -7463,9 +7463,9 @@ signed int groove_player_attach(struct GroovePlayer *player, struct GroovePlayli
 struct GroovePlayer * groove_player_create(void)
 {
   struct GroovePlayerPrivate *p;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct GroovePlayerPrivate) /*424ul*/ );
-  p = (struct GroovePlayerPrivate *)return_value_av_mallocz$1;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct GroovePlayerPrivate) /*424ul*/ );
+  p = (struct GroovePlayerPrivate *)return_value_av_mallocz_1;
   if(p == ((struct GroovePlayerPrivate *)NULL))
   {
     av_log((void *)0, 16, "unable to create player: out of memory\n");
@@ -7474,14 +7474,14 @@ struct GroovePlayer * groove_player_create(void)
 
   else
   {
-    signed int return_value_SDL_InitSubSystem$3;
-    return_value_SDL_InitSubSystem$3=SDL_InitSubSystem((unsigned int)0x00000010);
-    if(!(return_value_SDL_InitSubSystem$3 == 0))
+    signed int return_value_SDL_InitSubSystem_3;
+    return_value_SDL_InitSubSystem_3=SDL_InitSubSystem((unsigned int)0x00000010);
+    if(!(return_value_SDL_InitSubSystem_3 == 0))
     {
       av_free((void *)p);
-      const char *return_value_SDL_GetError$2;
-      return_value_SDL_GetError$2=SDL_GetError();
-      av_log((void *)0, 16, "unable to init SDL audio subsystem: %s\n", return_value_SDL_GetError$2);
+      const char *return_value_SDL_GetError_2;
+      return_value_SDL_GetError_2=SDL_GetError();
+      av_log((void *)0, 16, "unable to init SDL audio subsystem: %s\n", return_value_SDL_GetError_2);
       return (struct GroovePlayer *)(void *)0;
     }
 
@@ -7501,9 +7501,9 @@ struct GroovePlayer * groove_player_create(void)
       p->sink->flush = sink_flush;
       p->sink->pause = sink_pause;
       p->sink->play = sink_play;
-      signed int return_value_pthread_mutex_init$4;
-      return_value_pthread_mutex_init$4=pthread_mutex_init(&p->play_head_mutex, (const union anonymous$1 *)(void *)0);
-      if(!(return_value_pthread_mutex_init$4 == 0))
+      signed int return_value_pthread_mutex_init_4;
+      return_value_pthread_mutex_init_4=pthread_mutex_init(&p->play_head_mutex, (const union anonymous_1 *)(void *)0);
+      if(!(return_value_pthread_mutex_init_4 == 0))
       {
         groove_player_destroy(player);
         av_log((void *)0, 16, "unable to create play head mutex: out of memory\n");
@@ -7515,9 +7515,9 @@ struct GroovePlayer * groove_player_create(void)
         p->play_head_mutex_inited = (_Bool)1;
         pthread_condattr_init(&p->cond_attr);
         pthread_condattr_setclock(&p->cond_attr, 1);
-        signed int return_value_pthread_cond_init$5;
-        return_value_pthread_cond_init$5=pthread_cond_init(&p->pause_cond, &p->cond_attr);
-        if(!(return_value_pthread_cond_init$5 == 0))
+        signed int return_value_pthread_cond_init_5;
+        return_value_pthread_cond_init_5=pthread_cond_init(&p->pause_cond, &p->cond_attr);
+        if(!(return_value_pthread_cond_init_5 == 0))
         {
           groove_player_destroy(player);
           av_log((void *)0, 16, "unable to create mutex condition\n");
@@ -7537,9 +7537,9 @@ struct GroovePlayer * groove_player_create(void)
 
           else
           {
-            signed int return_value_pthread_cond_init$6;
-            return_value_pthread_cond_init$6=pthread_cond_init(&p->device_thread_cond, (const union anonymous$1 *)(void *)0);
-            if(!(return_value_pthread_cond_init$6 == 0))
+            signed int return_value_pthread_cond_init_6;
+            return_value_pthread_cond_init_6=pthread_cond_init(&p->device_thread_cond, (const union anonymous_1 *)(void *)0);
+            if(!(return_value_pthread_cond_init_6 == 0))
             {
               groove_player_destroy(player);
               av_log((void *)0, 16, "unable to create mutex condition\n");
@@ -7656,9 +7656,9 @@ signed int groove_player_event_get(struct GroovePlayer *player, union GroovePlay
 signed int groove_player_event_peek(struct GroovePlayer *player, signed int block)
 {
   struct GroovePlayerPrivate *p = (struct GroovePlayerPrivate *)player;
-  signed int return_value_groove_queue_peek$1;
-  return_value_groove_queue_peek$1=groove_queue_peek(p->eventq, block);
-  return return_value_groove_queue_peek$1;
+  signed int return_value_groove_queue_peek_1;
+  return_value_groove_queue_peek_1=groove_queue_peek(p->eventq, block);
+  return return_value_groove_queue_peek_1;
 }
 
 // groove_player_get_device_audio_format
@@ -7694,9 +7694,9 @@ signed int groove_player_set_gain(struct GroovePlayer *player, double gain)
 {
   struct GroovePlayerPrivate *p = (struct GroovePlayerPrivate *)player;
   player->gain = gain;
-  signed int return_value_groove_sink_set_gain$1;
-  return_value_groove_sink_set_gain$1=groove_sink_set_gain(p->sink, gain);
-  return return_value_groove_sink_set_gain$1;
+  signed int return_value_groove_sink_set_gain_1;
+  return_value_groove_sink_set_gain_1=groove_sink_set_gain(p->sink, gain);
+  return return_value_groove_sink_set_gain_1;
 }
 
 // groove_playlist_clear
@@ -7730,9 +7730,9 @@ signed int groove_playlist_count(struct GroovePlaylist *playlist)
 struct GroovePlaylist * groove_playlist_create(void)
 {
   struct GroovePlaylistPrivate *p;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct GroovePlaylistPrivate) /*1048ul*/ );
-  p = (struct GroovePlaylistPrivate *)return_value_av_mallocz$1;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct GroovePlaylistPrivate) /*1048ul*/ );
+  p = (struct GroovePlaylistPrivate *)return_value_av_mallocz_1;
   if(p == ((struct GroovePlaylistPrivate *)NULL))
   {
     av_log((void *)0, 16, "unable to allocate playlist\n");
@@ -7746,9 +7746,9 @@ struct GroovePlaylist * groove_playlist_create(void)
     p->volume = 1.0;
     p->sent_end_of_q = 1;
     p->detect_full_sinks = every_sink_full;
-    signed int return_value_pthread_mutex_init$2;
-    return_value_pthread_mutex_init$2=pthread_mutex_init(&p->decode_head_mutex, (const union anonymous$1 *)(void *)0);
-    if(!(return_value_pthread_mutex_init$2 == 0))
+    signed int return_value_pthread_mutex_init_2;
+    return_value_pthread_mutex_init_2=pthread_mutex_init(&p->decode_head_mutex, (const union anonymous_1 *)(void *)0);
+    if(!(return_value_pthread_mutex_init_2 == 0))
     {
       groove_playlist_destroy(playlist);
       av_log((void *)0, 16, "unable to allocate decode head mutex\n");
@@ -7758,9 +7758,9 @@ struct GroovePlaylist * groove_playlist_create(void)
     else
     {
       p->decode_head_mutex_inited = 1;
-      signed int return_value_pthread_mutex_init$3;
-      return_value_pthread_mutex_init$3=pthread_mutex_init(&p->drain_cond_mutex, (const union anonymous$1 *)(void *)0);
-      if(!(return_value_pthread_mutex_init$3 == 0))
+      signed int return_value_pthread_mutex_init_3;
+      return_value_pthread_mutex_init_3=pthread_mutex_init(&p->drain_cond_mutex, (const union anonymous_1 *)(void *)0);
+      if(!(return_value_pthread_mutex_init_3 == 0))
       {
         groove_playlist_destroy(playlist);
         av_log((void *)0, 16, "unable to allocate drain cond mutex\n");
@@ -7770,9 +7770,9 @@ struct GroovePlaylist * groove_playlist_create(void)
       else
       {
         p->drain_cond_mutex_inited = 1;
-        signed int return_value_pthread_cond_init$4;
-        return_value_pthread_cond_init$4=pthread_cond_init(&p->decode_head_cond, (const union anonymous$1 *)(void *)0);
-        if(!(return_value_pthread_cond_init$4 == 0))
+        signed int return_value_pthread_cond_init_4;
+        return_value_pthread_cond_init_4=pthread_cond_init(&p->decode_head_cond, (const union anonymous_1 *)(void *)0);
+        if(!(return_value_pthread_cond_init_4 == 0))
         {
           groove_playlist_destroy(playlist);
           av_log((void *)0, 16, "unable to allocate decode head mutex condition\n");
@@ -7782,9 +7782,9 @@ struct GroovePlaylist * groove_playlist_create(void)
         else
         {
           p->decode_head_cond_inited = 1;
-          signed int return_value_pthread_cond_init$5;
-          return_value_pthread_cond_init$5=pthread_cond_init(&p->sink_drain_cond, (const union anonymous$1 *)(void *)0);
-          if(!(return_value_pthread_cond_init$5 == 0))
+          signed int return_value_pthread_cond_init_5;
+          return_value_pthread_cond_init_5=pthread_cond_init(&p->sink_drain_cond, (const union anonymous_1 *)(void *)0);
+          if(!(return_value_pthread_cond_init_5 == 0))
           {
             groove_playlist_destroy(playlist);
             av_log((void *)0, 16, "unable to allocate sink drain mutex condition\n");
@@ -7804,9 +7804,9 @@ struct GroovePlaylist * groove_playlist_create(void)
 
             else
             {
-              signed int return_value_pthread_create$6;
-              return_value_pthread_create$6=pthread_create(&p->thread_id, (const union pthread_attr_t *)(void *)0, decode_thread, (void *)playlist);
-              if(!(return_value_pthread_create$6 == 0))
+              signed int return_value_pthread_create_6;
+              return_value_pthread_create_6=pthread_create(&p->thread_id, (const union pthread_attr_t *)(void *)0, decode_thread, (void *)playlist);
+              if(!(return_value_pthread_create_6 == 0))
               {
                 groove_playlist_destroy(playlist);
                 av_log((void *)0, 16, "unable to create playlist thread\n");
@@ -7922,9 +7922,9 @@ void groove_playlist_destroy(struct GroovePlaylist *playlist)
 struct GroovePlaylistItem * groove_playlist_insert(struct GroovePlaylist *playlist, struct GrooveFile *file, double gain, double peak, struct GroovePlaylistItem *next)
 {
   struct GroovePlaylistItem *item;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct GroovePlaylistItem) /*40ul*/ );
-  item = (struct GroovePlaylistItem *)return_value_av_mallocz$1;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct GroovePlaylistItem) /*40ul*/ );
+  item = (struct GroovePlaylistItem *)return_value_av_mallocz_1;
   if(item == ((struct GroovePlaylistItem *)NULL))
     return (struct GroovePlaylistItem *)(void *)0;
 
@@ -8159,17 +8159,17 @@ void groove_queue_cleanup_default(struct GrooveQueue *queue, void *obj)
 struct GrooveQueue * groove_queue_create(void)
 {
   struct GrooveQueuePrivate *q;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct GrooveQueuePrivate) /*152ul*/ );
-  q = (struct GrooveQueuePrivate *)return_value_av_mallocz$1;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct GrooveQueuePrivate) /*152ul*/ );
+  q = (struct GrooveQueuePrivate *)return_value_av_mallocz_1;
   if(q == ((struct GrooveQueuePrivate *)NULL))
     return (struct GrooveQueue *)(void *)0;
 
   else
   {
-    signed int return_value_pthread_mutex_init$2;
-    return_value_pthread_mutex_init$2=pthread_mutex_init(&q->mutex, (const union anonymous$1 *)(void *)0);
-    if(!(return_value_pthread_mutex_init$2 == 0))
+    signed int return_value_pthread_mutex_init_2;
+    return_value_pthread_mutex_init_2=pthread_mutex_init(&q->mutex, (const union anonymous_1 *)(void *)0);
+    if(!(return_value_pthread_mutex_init_2 == 0))
     {
       av_free((void *)q);
       return (struct GrooveQueue *)(void *)0;
@@ -8177,9 +8177,9 @@ struct GrooveQueue * groove_queue_create(void)
 
     else
     {
-      signed int return_value_pthread_cond_init$3;
-      return_value_pthread_cond_init$3=pthread_cond_init(&q->cond, (const union anonymous$1 *)(void *)0);
-      if(!(return_value_pthread_cond_init$3 == 0))
+      signed int return_value_pthread_cond_init_3;
+      return_value_pthread_cond_init_3=pthread_cond_init(&q->cond, (const union anonymous_1 *)(void *)0);
+      if(!(return_value_pthread_cond_init_3 == 0))
       {
         av_free((void *)q);
         pthread_mutex_destroy(&q->mutex);
@@ -8373,9 +8373,9 @@ void groove_queue_purge(struct GrooveQueue *queue)
 signed int groove_queue_put(struct GrooveQueue *queue, void *obj)
 {
   struct ItemList *el1;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct ItemList) /*16ul*/ );
-  el1 = (struct ItemList *)return_value_av_mallocz$1;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct ItemList) /*16ul*/ );
+  el1 = (struct ItemList *)return_value_av_mallocz_1;
   if(el1 == ((struct ItemList *)NULL))
     return -1;
 
@@ -8413,9 +8413,9 @@ void groove_queue_reset(struct GrooveQueue *queue)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/groove.h line 120
 signed int groove_sample_format_bytes_per_sample(enum GrooveSampleFormat format)
 {
-  signed int return_value_av_get_bytes_per_sample$1;
-  return_value_av_get_bytes_per_sample$1=av_get_bytes_per_sample((enum AVSampleFormat)format);
-  return return_value_av_get_bytes_per_sample$1;
+  signed int return_value_av_get_bytes_per_sample_1;
+  return_value_av_get_bytes_per_sample_1=av_get_bytes_per_sample((enum AVSampleFormat)format);
+  return return_value_av_get_bytes_per_sample_1;
 }
 
 // groove_set_logging
@@ -8433,9 +8433,9 @@ signed int groove_sink_attach(struct GrooveSink *sink, struct GroovePlaylist *pl
   signed int channel_count;
   channel_count=av_get_channel_layout_nb_channels(sink->audio_format.channel_layout);
   signed int bytes_per_frame;
-  signed int return_value_av_get_bytes_per_sample$1;
-  return_value_av_get_bytes_per_sample$1=av_get_bytes_per_sample((enum AVSampleFormat)sink->audio_format.sample_fmt);
-  bytes_per_frame = channel_count * return_value_av_get_bytes_per_sample$1;
+  signed int return_value_av_get_bytes_per_sample_1;
+  return_value_av_get_bytes_per_sample_1=av_get_bytes_per_sample((enum AVSampleFormat)sink->audio_format.sample_fmt);
+  bytes_per_frame = channel_count * return_value_av_get_bytes_per_sample_1;
   sink->bytes_per_sec = bytes_per_frame * sink->audio_format.sample_rate;
   s->min_audioq_size = sink->buffer_size * bytes_per_frame;
   av_log((void *)0, 32, "audio queue size: %d\n", s->min_audioq_size);
@@ -8467,11 +8467,11 @@ signed int groove_sink_attach(struct GrooveSink *sink, struct GroovePlaylist *pl
 signed int groove_sink_buffer_get(struct GrooveSink *sink, struct GrooveBuffer **buffer, signed int block)
 {
   struct GrooveSinkPrivate *s = (struct GrooveSinkPrivate *)sink;
-  signed int return_value_groove_queue_get$1;
-  return_value_groove_queue_get$1=groove_queue_get(s->audioq, (void **)buffer, block);
-  if(return_value_groove_queue_get$1 == 1)
+  signed int return_value_groove_queue_get_1;
+  return_value_groove_queue_get_1=groove_queue_get(s->audioq, (void **)buffer, block);
+  if(return_value_groove_queue_get_1 == 1)
   {
-    if(*buffer == end_of_q_sentinel$link1)
+    if(*buffer == end_of_q_sentinel_link1)
     {
       *buffer = (struct GrooveBuffer *)(void *)0;
       return 2;
@@ -8493,9 +8493,9 @@ signed int groove_sink_buffer_get(struct GrooveSink *sink, struct GrooveBuffer *
 signed int groove_sink_buffer_peek(struct GrooveSink *sink, signed int block)
 {
   struct GrooveSinkPrivate *s = (struct GrooveSinkPrivate *)sink;
-  signed int return_value_groove_queue_peek$1;
-  return_value_groove_queue_peek$1=groove_queue_peek(s->audioq, block);
-  return return_value_groove_queue_peek$1;
+  signed int return_value_groove_queue_peek_1;
+  return_value_groove_queue_peek_1=groove_queue_peek(s->audioq, block);
+  return return_value_groove_queue_peek_1;
 }
 
 // groove_sink_create
@@ -8503,9 +8503,9 @@ signed int groove_sink_buffer_peek(struct GrooveSink *sink, signed int block)
 struct GrooveSink * groove_sink_create(void)
 {
   struct GrooveSinkPrivate *s;
-  void *return_value_av_mallocz$1;
-  return_value_av_mallocz$1=av_mallocz(sizeof(struct GrooveSinkPrivate) /*120ul*/ );
-  s = (struct GrooveSinkPrivate *)return_value_av_mallocz$1;
+  void *return_value_av_mallocz_1;
+  return_value_av_mallocz_1=av_mallocz(sizeof(struct GrooveSinkPrivate) /*120ul*/ );
+  s = (struct GrooveSinkPrivate *)return_value_av_mallocz_1;
   if(s == ((struct GrooveSinkPrivate *)NULL))
   {
     av_log((void *)0, 16, "could not create sink: out of memory\n");
@@ -8528,10 +8528,10 @@ struct GrooveSink * groove_sink_create(void)
     else
     {
       s->audioq->context = (void *)sink;
-      s->audioq->cleanup = audioq_cleanup$link1;
-      s->audioq->put = audioq_put$link1;
-      s->audioq->get = audioq_get$link1;
-      s->audioq->purge = audioq_purge$link1;
+      s->audioq->cleanup = audioq_cleanup_link1;
+      s->audioq->put = audioq_put_link1;
+      s->audioq->get = audioq_get_link1;
+      s->audioq->purge = audioq_purge_link1;
       return sink;
     }
   }
@@ -8589,12 +8589,12 @@ static signed int groove_sink_pause(struct GrooveSink *sink)
   return 0;
 }
 
-// groove_sink_pause$link1
+// groove_sink_pause_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 840
-static signed int groove_sink_pause$link1(struct GrooveSink *sink$link1)
+static signed int groove_sink_pause_link1(struct GrooveSink *sink_link1)
 {
-  if(!(sink$link1->pause == ((void (*)(struct GrooveSink *))NULL)))
-    sink$link1->pause(sink$link1);
+  if(!(sink_link1->pause == ((void (*)(struct GrooveSink *))NULL)))
+    sink_link1->pause(sink_link1);
 
   return 0;
 }
@@ -8609,12 +8609,12 @@ static signed int groove_sink_play(struct GrooveSink *sink)
   return 0;
 }
 
-// groove_sink_play$link1
+// groove_sink_play_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 833
-static signed int groove_sink_play$link1(struct GrooveSink *sink$link1)
+static signed int groove_sink_play_link1(struct GrooveSink *sink_link1)
 {
-  if(!(sink$link1->play == ((void (*)(struct GrooveSink *))NULL)))
-    sink$link1->play(sink$link1);
+  if(!(sink_link1->play == ((void (*)(struct GrooveSink *))NULL)))
+    sink_link1->play(sink_link1);
 
   return 0;
 }
@@ -8747,13 +8747,13 @@ static signed int init_avcontext(struct GrooveEncoder *encoder)
   }
 }
 
-// init_avcontext$link1
+// init_avcontext_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 118
-static signed int init_avcontext$link1(struct GrooveEncoder *encoder$link1)
+static signed int init_avcontext_link1(struct GrooveEncoder *encoder_link1)
 {
-  struct GrooveEncoderPrivate *e$link1 = (struct GrooveEncoderPrivate *)encoder$link1;
-  e$link1->fmt_ctx=avformat_alloc_context();
-  if(e$link1->fmt_ctx == ((struct AVFormatContext *)NULL))
+  struct GrooveEncoderPrivate *e_link1 = (struct GrooveEncoderPrivate *)encoder_link1;
+  e_link1->fmt_ctx=avformat_alloc_context();
+  if(e_link1->fmt_ctx == ((struct AVFormatContext *)NULL))
   {
     av_log((void *)0, 16, "unable to allocate format context\n");
     return -1;
@@ -8761,10 +8761,10 @@ static signed int init_avcontext$link1(struct GrooveEncoder *encoder$link1)
 
   else
   {
-    e$link1->fmt_ctx->pb = e$link1->avio;
-    e$link1->fmt_ctx->oformat = e$link1->oformat;
-    e$link1->stream=avformat_new_stream(e$link1->fmt_ctx, e$link1->codec);
-    if(e$link1->stream == ((struct AVStream *)NULL))
+    e_link1->fmt_ctx->pb = e_link1->avio;
+    e_link1->fmt_ctx->oformat = e_link1->oformat;
+    e_link1->stream=avformat_new_stream(e_link1->fmt_ctx, e_link1->codec);
+    if(e_link1->stream == ((struct AVStream *)NULL))
     {
       av_log((void *)0, 16, "unable to create output stream\n");
       return -1;
@@ -8772,25 +8772,25 @@ static signed int init_avcontext$link1(struct GrooveEncoder *encoder$link1)
 
     else
     {
-      struct AVCodecContext *codec_ctx$link1 = e$link1->stream->codec;
-      codec_ctx$link1->bit_rate = encoder$link1->bit_rate;
-      codec_ctx$link1->sample_fmt = (enum AVSampleFormat)encoder$link1->actual_audio_format.sample_fmt;
-      codec_ctx$link1->sample_rate = encoder$link1->actual_audio_format.sample_rate;
-      codec_ctx$link1->channel_layout = encoder$link1->actual_audio_format.channel_layout;
-      codec_ctx$link1->channels=av_get_channel_layout_nb_channels(encoder$link1->actual_audio_format.channel_layout);
-      codec_ctx$link1->strict_std_compliance = -2;
-      signed int err$link1;
-      err$link1=avcodec_open2(codec_ctx$link1, e$link1->codec, (struct AVDictionary **)(void *)0);
-      if(!(err$link1 >= 0))
+      struct AVCodecContext *codec_ctx_link1 = e_link1->stream->codec;
+      codec_ctx_link1->bit_rate = encoder_link1->bit_rate;
+      codec_ctx_link1->sample_fmt = (enum AVSampleFormat)encoder_link1->actual_audio_format.sample_fmt;
+      codec_ctx_link1->sample_rate = encoder_link1->actual_audio_format.sample_rate;
+      codec_ctx_link1->channel_layout = encoder_link1->actual_audio_format.channel_layout;
+      codec_ctx_link1->channels=av_get_channel_layout_nb_channels(encoder_link1->actual_audio_format.channel_layout);
+      codec_ctx_link1->strict_std_compliance = -2;
+      signed int err_link1;
+      err_link1=avcodec_open2(codec_ctx_link1, e_link1->codec, (struct AVDictionary **)(void *)0);
+      if(!(err_link1 >= 0))
       {
-        av_strerror(err$link1, e$link1->strbuf, sizeof(char [512l]) /*512ul*/ );
-        av_log((void *)0, 16, "unable to open codec: %s\n", (const void *)e$link1->strbuf);
+        av_strerror(err_link1, e_link1->strbuf, sizeof(char [512l]) /*512ul*/ );
+        av_log((void *)0, 16, "unable to open codec: %s\n", (const void *)e_link1->strbuf);
         return -1;
       }
 
       else
       {
-        e$link1->stream->codec = codec_ctx$link1;
+        e_link1->stream->codec = codec_ctx_link1;
         return 0;
       }
     }
@@ -8805,7 +8805,7 @@ static signed int init_filter_graph(struct GroovePlaylist *playlist, struct Groo
   struct GrooveFilePrivate *f = (struct GrooveFilePrivate *)file;
   avfilter_graph_free(&p->filter_graph);
   p->filter_graph=avfilter_graph_alloc();
-  double tmp_if_expr$2;
+  double tmp_if_expr_2;
   if(p->filter_graph == ((struct AVFilterGraph *)NULL))
   {
     av_log((void *)0, 16, "unable to create filter graph: out of memory\n");
@@ -8817,9 +8817,9 @@ static signed int init_filter_graph(struct GroovePlaylist *playlist, struct Groo
     signed int err;
     struct AVCodecContext *avctx = f->audio_st->codec;
     struct AVRational time_base = f->audio_st->time_base;
-    const char *return_value_av_get_sample_fmt_name$1;
-    return_value_av_get_sample_fmt_name$1=av_get_sample_fmt_name(avctx->sample_fmt);
-    snprintf(p->strbuf, sizeof(char [512l]) /*512ul*/ , "time_base=%d/%d:sample_rate=%d:sample_fmt=%s:channel_layout=0x%lx", time_base.num, time_base.den, avctx->sample_rate, return_value_av_get_sample_fmt_name$1, avctx->channel_layout);
+    const char *return_value_av_get_sample_fmt_name_1;
+    return_value_av_get_sample_fmt_name_1=av_get_sample_fmt_name(avctx->sample_fmt);
+    snprintf(p->strbuf, sizeof(char [512l]) /*512ul*/ , "time_base=%d/%d:sample_rate=%d:sample_fmt=%s:channel_layout=0x%lx", time_base.num, time_base.den, avctx->sample_rate, return_value_av_get_sample_fmt_name_1, avctx->channel_layout);
     av_log((void *)0, 32, "abuffer: %s\n", (const void *)p->strbuf);
     p->in_sample_rate = avctx->sample_rate;
     p->in_channel_layout = avctx->channel_layout;
@@ -8840,11 +8840,11 @@ static signed int init_filter_graph(struct GroovePlaylist *playlist, struct Groo
       double vol = p->volume;
       double amp_vol;
       if(p->peak > 1.0)
-        tmp_if_expr$2 = 1.0;
+        tmp_if_expr_2 = 1.0;
 
       else
-        tmp_if_expr$2 = p->peak;
-      amp_vol = vol * tmp_if_expr$2;
+        tmp_if_expr_2 = p->peak;
+      amp_vol = vol * tmp_if_expr_2;
       err=create_volume_filter(p, &audio_src_ctx, vol, amp_vol);
       if(!(err >= 0))
         return err;
@@ -8887,9 +8887,9 @@ static signed int init_filter_graph(struct GroovePlaylist *playlist, struct Groo
           if(example_sink->disable_resample == 0)
           {
             struct AVFilterContext *aformat_ctx;
-            const char *return_value_av_get_sample_fmt_name$3;
-            return_value_av_get_sample_fmt_name$3=av_get_sample_fmt_name((enum AVSampleFormat)audio_format->sample_fmt);
-            snprintf(p->strbuf, sizeof(char [512l]) /*512ul*/ , "sample_fmts=%s:sample_rates=%d:channel_layouts=0x%lx", return_value_av_get_sample_fmt_name$3, audio_format->sample_rate, audio_format->channel_layout);
+            const char *return_value_av_get_sample_fmt_name_3;
+            return_value_av_get_sample_fmt_name_3=av_get_sample_fmt_name((enum AVSampleFormat)audio_format->sample_fmt);
+            snprintf(p->strbuf, sizeof(char [512l]) /*512ul*/ , "sample_fmts=%s:sample_rates=%d:channel_layouts=0x%lx", return_value_av_get_sample_fmt_name_3, audio_format->sample_rate, audio_format->channel_layout);
             av_log((void *)0, 32, "aformat: %s\n", (const void *)p->strbuf);
             err=avfilter_graph_create_filter(&aformat_ctx, p->aformat_filter, (const char *)(void *)0, p->strbuf, (void *)0, p->filter_graph);
             if(!(err >= 0))
@@ -8946,16 +8946,16 @@ static signed int init_filter_graph(struct GroovePlaylist *playlist, struct Groo
   }
 }
 
-// init_filter_graph$link1
+// init_filter_graph_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 326
-static signed int init_filter_graph$link1(struct GroovePlaylist *playlist$link1, struct GrooveFile *file$link1)
+static signed int init_filter_graph_link1(struct GroovePlaylist *playlist_link1, struct GrooveFile *file_link1)
 {
-  struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-  struct GrooveFilePrivate *f$link1 = (struct GrooveFilePrivate *)file$link1;
-  avfilter_graph_free(&p$link1->filter_graph);
-  p$link1->filter_graph=avfilter_graph_alloc();
-  double tmp_if_expr$2$link1;
-  if(p$link1->filter_graph == ((struct AVFilterGraph *)NULL))
+  struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+  struct GrooveFilePrivate *f_link1 = (struct GrooveFilePrivate *)file_link1;
+  avfilter_graph_free(&p_link1->filter_graph);
+  p_link1->filter_graph=avfilter_graph_alloc();
+  double tmp_if_expr_2_link1;
+  if(p_link1->filter_graph == ((struct AVFilterGraph *)NULL))
   {
     av_log((void *)0, 16, "unable to create filter graph: out of memory\n");
     return -1;
@@ -8963,131 +8963,131 @@ static signed int init_filter_graph$link1(struct GroovePlaylist *playlist$link1,
 
   else
   {
-    signed int err$link1;
-    struct AVCodecContext *avctx$link1 = f$link1->audio_st->codec;
-    struct AVRational time_base$link1 = f$link1->audio_st->time_base;
-    const char *return_value_av_get_sample_fmt_name$1$link1;
-    return_value_av_get_sample_fmt_name$1$link1=av_get_sample_fmt_name(avctx$link1->sample_fmt);
-    snprintf(p$link1->strbuf, sizeof(char [512l]) /*512ul*/ , "time_base=%d/%d:sample_rate=%d:sample_fmt=%s:channel_layout=0x%lx", time_base$link1.num, time_base$link1.den, avctx$link1->sample_rate, return_value_av_get_sample_fmt_name$1$link1, avctx$link1->channel_layout);
-    av_log((void *)0, 32, "abuffer: %s\n", (const void *)p$link1->strbuf);
-    p$link1->in_sample_rate = avctx$link1->sample_rate;
-    p$link1->in_channel_layout = avctx$link1->channel_layout;
-    p$link1->in_sample_fmt = avctx$link1->sample_fmt;
-    p$link1->in_time_base = time_base$link1;
-    err$link1=avfilter_graph_create_filter(&p$link1->abuffer_ctx, p$link1->abuffer_filter, (const char *)(void *)0, p$link1->strbuf, (void *)0, p$link1->filter_graph);
-    if(!(err$link1 >= 0))
+    signed int err_link1;
+    struct AVCodecContext *avctx_link1 = f_link1->audio_st->codec;
+    struct AVRational time_base_link1 = f_link1->audio_st->time_base;
+    const char *return_value_av_get_sample_fmt_name_1_link1;
+    return_value_av_get_sample_fmt_name_1_link1=av_get_sample_fmt_name(avctx_link1->sample_fmt);
+    snprintf(p_link1->strbuf, sizeof(char [512l]) /*512ul*/ , "time_base=%d/%d:sample_rate=%d:sample_fmt=%s:channel_layout=0x%lx", time_base_link1.num, time_base_link1.den, avctx_link1->sample_rate, return_value_av_get_sample_fmt_name_1_link1, avctx_link1->channel_layout);
+    av_log((void *)0, 32, "abuffer: %s\n", (const void *)p_link1->strbuf);
+    p_link1->in_sample_rate = avctx_link1->sample_rate;
+    p_link1->in_channel_layout = avctx_link1->channel_layout;
+    p_link1->in_sample_fmt = avctx_link1->sample_fmt;
+    p_link1->in_time_base = time_base_link1;
+    err_link1=avfilter_graph_create_filter(&p_link1->abuffer_ctx, p_link1->abuffer_filter, (const char *)(void *)0, p_link1->strbuf, (void *)0, p_link1->filter_graph);
+    if(!(err_link1 >= 0))
     {
       av_log((void *)0, 16, "error initializing abuffer filter\n");
-      return err$link1;
+      return err_link1;
     }
 
     else
     {
-      struct AVFilterContext *audio_src_ctx$link1 = p$link1->abuffer_ctx;
-      p$link1->filter_volume = p$link1->volume;
-      p$link1->filter_peak = p$link1->peak;
-      double vol$link1 = p$link1->volume;
-      double amp_vol$link1;
-      if(p$link1->peak > 1.0)
-        tmp_if_expr$2$link1 = 1.0;
+      struct AVFilterContext *audio_src_ctx_link1 = p_link1->abuffer_ctx;
+      p_link1->filter_volume = p_link1->volume;
+      p_link1->filter_peak = p_link1->peak;
+      double vol_link1 = p_link1->volume;
+      double amp_vol_link1;
+      if(p_link1->peak > 1.0)
+        tmp_if_expr_2_link1 = 1.0;
 
       else
-        tmp_if_expr$2$link1 = p$link1->peak;
-      amp_vol$link1 = vol$link1 * tmp_if_expr$2$link1;
-      err$link1=create_volume_filter$link1(p$link1, &audio_src_ctx$link1, vol$link1, amp_vol$link1);
-      if(!(err$link1 >= 0))
-        return err$link1;
+        tmp_if_expr_2_link1 = p_link1->peak;
+      amp_vol_link1 = vol_link1 * tmp_if_expr_2_link1;
+      err_link1=create_volume_filter_link1(p_link1, &audio_src_ctx_link1, vol_link1, amp_vol_link1);
+      if(!(err_link1 >= 0))
+        return err_link1;
 
       else
       {
-        if(p$link1->sink_map_count >= 2)
+        if(p_link1->sink_map_count >= 2)
         {
-          struct AVFilterContext *asplit_ctx$link1;
-          snprintf(p$link1->strbuf, sizeof(char [512l]) /*512ul*/ , "%d", p$link1->sink_map_count);
-          av_log((void *)0, 32, "asplit: %s\n", (const void *)p$link1->strbuf);
-          err$link1=avfilter_graph_create_filter(&asplit_ctx$link1, p$link1->asplit_filter, (const char *)(void *)0, p$link1->strbuf, (void *)0, p$link1->filter_graph);
-          if(!(err$link1 >= 0))
+          struct AVFilterContext *asplit_ctx_link1;
+          snprintf(p_link1->strbuf, sizeof(char [512l]) /*512ul*/ , "%d", p_link1->sink_map_count);
+          av_log((void *)0, 32, "asplit: %s\n", (const void *)p_link1->strbuf);
+          err_link1=avfilter_graph_create_filter(&asplit_ctx_link1, p_link1->asplit_filter, (const char *)(void *)0, p_link1->strbuf, (void *)0, p_link1->filter_graph);
+          if(!(err_link1 >= 0))
           {
             av_log((void *)0, 16, "unable to create asplit filter\n");
-            return err$link1;
+            return err_link1;
           }
 
-          err$link1=avfilter_link(audio_src_ctx$link1, (unsigned int)0, asplit_ctx$link1, (unsigned int)0);
-          if(!(err$link1 >= 0))
+          err_link1=avfilter_link(audio_src_ctx_link1, (unsigned int)0, asplit_ctx_link1, (unsigned int)0);
+          if(!(err_link1 >= 0))
           {
             av_log((void *)0, 16, "unable to link to asplit\n");
-            return err$link1;
+            return err_link1;
           }
 
-          audio_src_ctx$link1 = asplit_ctx$link1;
+          audio_src_ctx_link1 = asplit_ctx_link1;
         }
 
-        struct SinkMap *map_item$link1 = p$link1->sink_map;
-        signed int pad_index$link1 = 0;
-        while(!(map_item$link1 == ((struct SinkMap *)NULL)))
+        struct SinkMap *map_item_link1 = p_link1->sink_map;
+        signed int pad_index_link1 = 0;
+        while(!(map_item_link1 == ((struct SinkMap *)NULL)))
         {
-          struct GrooveSink *example_sink$link1 = map_item$link1->stack_head->sink;
-          struct GrooveAudioFormat *audio_format$link1 = &example_sink$link1->audio_format;
-          struct AVFilterContext *inner_audio_src_ctx$link1 = audio_src_ctx$link1;
-          err$link1=create_volume_filter$link1(p$link1, &inner_audio_src_ctx$link1, example_sink$link1->gain, example_sink$link1->gain);
-          if(!(err$link1 >= 0))
-            return err$link1;
+          struct GrooveSink *example_sink_link1 = map_item_link1->stack_head->sink;
+          struct GrooveAudioFormat *audio_format_link1 = &example_sink_link1->audio_format;
+          struct AVFilterContext *inner_audio_src_ctx_link1 = audio_src_ctx_link1;
+          err_link1=create_volume_filter_link1(p_link1, &inner_audio_src_ctx_link1, example_sink_link1->gain, example_sink_link1->gain);
+          if(!(err_link1 >= 0))
+            return err_link1;
 
-          if(example_sink$link1->disable_resample == 0)
+          if(example_sink_link1->disable_resample == 0)
           {
-            struct AVFilterContext *aformat_ctx$link1;
-            const char *return_value_av_get_sample_fmt_name$3$link1;
-            return_value_av_get_sample_fmt_name$3$link1=av_get_sample_fmt_name((enum AVSampleFormat)audio_format$link1->sample_fmt);
-            snprintf(p$link1->strbuf, sizeof(char [512l]) /*512ul*/ , "sample_fmts=%s:sample_rates=%d:channel_layouts=0x%lx", return_value_av_get_sample_fmt_name$3$link1, audio_format$link1->sample_rate, audio_format$link1->channel_layout);
-            av_log((void *)0, 32, "aformat: %s\n", (const void *)p$link1->strbuf);
-            err$link1=avfilter_graph_create_filter(&aformat_ctx$link1, p$link1->aformat_filter, (const char *)(void *)0, p$link1->strbuf, (void *)0, p$link1->filter_graph);
-            if(!(err$link1 >= 0))
+            struct AVFilterContext *aformat_ctx_link1;
+            const char *return_value_av_get_sample_fmt_name_3_link1;
+            return_value_av_get_sample_fmt_name_3_link1=av_get_sample_fmt_name((enum AVSampleFormat)audio_format_link1->sample_fmt);
+            snprintf(p_link1->strbuf, sizeof(char [512l]) /*512ul*/ , "sample_fmts=%s:sample_rates=%d:channel_layouts=0x%lx", return_value_av_get_sample_fmt_name_3_link1, audio_format_link1->sample_rate, audio_format_link1->channel_layout);
+            av_log((void *)0, 32, "aformat: %s\n", (const void *)p_link1->strbuf);
+            err_link1=avfilter_graph_create_filter(&aformat_ctx_link1, p_link1->aformat_filter, (const char *)(void *)0, p_link1->strbuf, (void *)0, p_link1->filter_graph);
+            if(!(err_link1 >= 0))
             {
-              av_strerror(err$link1, p$link1->strbuf, sizeof(char [512l]) /*512ul*/ );
-              av_log((void *)0, 16, "unable to create aformat filter: %s\n", (const void *)p$link1->strbuf);
-              return err$link1;
+              av_strerror(err_link1, p_link1->strbuf, sizeof(char [512l]) /*512ul*/ );
+              av_log((void *)0, 16, "unable to create aformat filter: %s\n", (const void *)p_link1->strbuf);
+              return err_link1;
             }
 
-            err$link1=avfilter_link(inner_audio_src_ctx$link1, (unsigned int)pad_index$link1, aformat_ctx$link1, (unsigned int)0);
-            if(!(err$link1 >= 0))
+            err_link1=avfilter_link(inner_audio_src_ctx_link1, (unsigned int)pad_index_link1, aformat_ctx_link1, (unsigned int)0);
+            if(!(err_link1 >= 0))
             {
-              av_strerror(err$link1, p$link1->strbuf, sizeof(char [512l]) /*512ul*/ );
-              av_log((void *)0, 16, "unable to link aformat filter: %s\n", (const void *)p$link1->strbuf);
-              return err$link1;
+              av_strerror(err_link1, p_link1->strbuf, sizeof(char [512l]) /*512ul*/ );
+              av_log((void *)0, 16, "unable to link aformat filter: %s\n", (const void *)p_link1->strbuf);
+              return err_link1;
             }
 
-            inner_audio_src_ctx$link1 = aformat_ctx$link1;
+            inner_audio_src_ctx_link1 = aformat_ctx_link1;
           }
 
-          err$link1=avfilter_graph_create_filter(&map_item$link1->abuffersink_ctx, p$link1->abuffersink_filter, (const char *)(void *)0, (const char *)(void *)0, (void *)0, p$link1->filter_graph);
-          if(!(err$link1 >= 0))
+          err_link1=avfilter_graph_create_filter(&map_item_link1->abuffersink_ctx, p_link1->abuffersink_filter, (const char *)(void *)0, (const char *)(void *)0, (void *)0, p_link1->filter_graph);
+          if(!(err_link1 >= 0))
           {
             av_log((void *)0, 16, "unable to create abuffersink filter\n");
-            return err$link1;
+            return err_link1;
           }
 
-          err$link1=avfilter_link(inner_audio_src_ctx$link1, (unsigned int)0, map_item$link1->abuffersink_ctx, (unsigned int)0);
-          if(!(err$link1 >= 0))
+          err_link1=avfilter_link(inner_audio_src_ctx_link1, (unsigned int)0, map_item_link1->abuffersink_ctx, (unsigned int)0);
+          if(!(err_link1 >= 0))
           {
-            av_strerror(err$link1, p$link1->strbuf, sizeof(char [512l]) /*512ul*/ );
-            av_log((void *)0, 16, "unable to link abuffersink filter: %s\n", (const void *)p$link1->strbuf);
-            return err$link1;
+            av_strerror(err_link1, p_link1->strbuf, sizeof(char [512l]) /*512ul*/ );
+            av_log((void *)0, 16, "unable to link abuffersink filter: %s\n", (const void *)p_link1->strbuf);
+            return err_link1;
           }
 
-          pad_index$link1 = pad_index$link1 + 1;
-          map_item$link1 = map_item$link1->next;
+          pad_index_link1 = pad_index_link1 + 1;
+          map_item_link1 = map_item_link1->next;
         }
-        err$link1=avfilter_graph_config(p$link1->filter_graph, (void *)0);
-        if(!(err$link1 >= 0))
+        err_link1=avfilter_graph_config(p_link1->filter_graph, (void *)0);
+        if(!(err_link1 >= 0))
         {
-          av_strerror(err$link1, p$link1->strbuf, sizeof(char [512l]) /*512ul*/ );
-          av_log((void *)0, 16, "error configuring the filter graph: %s\n", (const void *)p$link1->strbuf);
-          return err$link1;
+          av_strerror(err_link1, p_link1->strbuf, sizeof(char [512l]) /*512ul*/ );
+          av_log((void *)0, 16, "error configuring the filter graph: %s\n", (const void *)p_link1->strbuf);
+          return err_link1;
         }
 
         else
         {
-          p$link1->rebuild_filter_graph_flag = 0;
+          p_link1->rebuild_filter_graph_flag = 0;
           return 0;
         }
       }
@@ -9112,20 +9112,20 @@ static void log_audio_fmt(struct GrooveAudioFormat *fmt)
 {
   char buf[128l];
   av_get_channel_layout_string(buf, (signed int)sizeof(char [128l]) /*128ul*/ , 0, fmt->channel_layout);
-  const char *return_value_av_get_sample_fmt_name$1;
-  return_value_av_get_sample_fmt_name$1=av_get_sample_fmt_name((enum AVSampleFormat)fmt->sample_fmt);
-  av_log((void *)0, 32, "encoder: using audio format: %s, %d Hz, %s\n", return_value_av_get_sample_fmt_name$1, fmt->sample_rate, (const void *)buf);
+  const char *return_value_av_get_sample_fmt_name_1;
+  return_value_av_get_sample_fmt_name_1=av_get_sample_fmt_name((enum AVSampleFormat)fmt->sample_fmt);
+  av_log((void *)0, 32, "encoder: using audio format: %s, %d Hz, %s\n", return_value_av_get_sample_fmt_name_1, fmt->sample_rate, (const void *)buf);
 }
 
-// log_audio_fmt$link1
+// log_audio_fmt_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 550
-static void log_audio_fmt$link1(struct GrooveAudioFormat *fmt$link1)
+static void log_audio_fmt_link1(struct GrooveAudioFormat *fmt_link1)
 {
-  char buf$link1[128l];
-  av_get_channel_layout_string(buf$link1, (signed int)sizeof(char [128l]) /*128ul*/ , 0, fmt$link1->channel_layout);
-  const char *return_value_av_get_sample_fmt_name$1$link1;
-  return_value_av_get_sample_fmt_name$1$link1=av_get_sample_fmt_name((enum AVSampleFormat)fmt$link1->sample_fmt);
-  av_log((void *)0, 32, "encoder: using audio format: %s, %d Hz, %s\n", return_value_av_get_sample_fmt_name$1$link1, fmt$link1->sample_rate, (const void *)buf$link1);
+  char buf_link1[128l];
+  av_get_channel_layout_string(buf_link1, (signed int)sizeof(char [128l]) /*128ul*/ , 0, fmt_link1->channel_layout);
+  const char *return_value_av_get_sample_fmt_name_1_link1;
+  return_value_av_get_sample_fmt_name_1_link1=av_get_sample_fmt_name((enum AVSampleFormat)fmt_link1->sample_fmt);
+  av_log((void *)0, 32, "encoder: using audio format: %s, %d Hz, %s\n", return_value_av_get_sample_fmt_name_1_link1, fmt_link1->sample_rate, (const void *)buf_link1);
 }
 
 // main
@@ -9133,17 +9133,17 @@ static void log_audio_fmt$link1(struct GrooveAudioFormat *fmt$link1)
 signed int main(signed int argc, char **argv)
 {
   const char *exe = argv[(signed long int)0];
-  signed int return_value_usage$1;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_groove_player_event_get$8;
+  signed int return_value_usage_1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_groove_player_event_get_8;
   struct GrooveTag *artist_tag;
   struct GrooveTag *title_tag;
   if(!(argc >= 2))
   {
-    return_value_usage$1=usage(exe);
-    return return_value_usage$1;
+    return_value_usage_1=usage(exe);
+    return return_value_usage_1;
   }
 
   else
@@ -9168,36 +9168,36 @@ signed int main(signed int argc, char **argv)
       {
         char *arg = argv[(signed long int)i];
         if((signed int)*arg == 45)
-          tmp_if_expr$7 = (signed int)arg[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (signed int)arg[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
         {
           arg = arg + (signed long int)2;
-          signed int return_value_strcmp$6;
-          return_value_strcmp$6=strcmp(arg, "dummy");
-          if(return_value_strcmp$6 == 0)
+          signed int return_value_strcmp_6;
+          return_value_strcmp_6=strcmp(arg, "dummy");
+          if(return_value_strcmp_6 == 0)
             player->device_index = -2;
 
           else
           {
-            return_value_strcmp$5=strcmp(arg, "exact");
-            if(return_value_strcmp$5 == 0)
+            return_value_strcmp_5=strcmp(arg, "exact");
+            if(return_value_strcmp_5 == 0)
               player->use_exact_audio_format = 1;
 
             else
               if(1 + i >= argc)
               {
-                signed int return_value_usage$2;
-                return_value_usage$2=usage(exe);
-                return return_value_usage$2;
+                signed int return_value_usage_2;
+                return_value_usage_2=usage(exe);
+                return return_value_usage_2;
               }
 
               else
               {
-                return_value_strcmp$4=strcmp(arg, "volume");
-                if(return_value_strcmp$4 == 0)
+                return_value_strcmp_4=strcmp(arg, "volume");
+                if(return_value_strcmp_4 == 0)
                 {
                   double volume;
                   i = i + 1;
@@ -9207,9 +9207,9 @@ signed int main(signed int argc, char **argv)
 
                 else
                 {
-                  signed int return_value_usage$3;
-                  return_value_usage$3=usage(exe);
-                  return return_value_usage$3;
+                  signed int return_value_usage_3;
+                  return_value_usage_3=usage(exe);
+                  return return_value_usage_3;
                 }
               }
           }
@@ -9217,15 +9217,15 @@ signed int main(signed int argc, char **argv)
 
         else
         {
-          struct GrooveFile *main$$1$$2$$1$$2$$file;
-          main$$1$$2$$1$$2$$file=groove_file_open(arg);
-          if(main$$1$$2$$1$$2$$file == ((struct GrooveFile *)NULL))
+          struct GrooveFile *main__1__2__1__2__file;
+          main__1__2__1__2__file=groove_file_open(arg);
+          if(main__1__2__1__2__file == ((struct GrooveFile *)NULL))
           {
             fprintf(stderr, "Not queuing %s\n", arg);
             goto __CPROVER_DUMP_L14;
           }
 
-          groove_playlist_insert(playlist, main$$1$$2$$1$$2$$file, 1.0, 1.0, (struct GroovePlaylistItem *)(void *)0);
+          groove_playlist_insert(playlist, main__1__2__1__2__file, 1.0, 1.0, (struct GroovePlaylistItem *)(void *)0);
         }
 
       __CPROVER_DUMP_L14:
@@ -9236,8 +9236,8 @@ signed int main(signed int argc, char **argv)
       struct GroovePlaylistItem *item;
       do
       {
-        return_value_groove_player_event_get$8=groove_player_event_get(player, &event, 1);
-        if(!(return_value_groove_player_event_get$8 >= 0))
+        return_value_groove_player_event_get_8=groove_player_event_get(player, &event, 1);
+        if(!(return_value_groove_player_event_get_8 >= 0))
           break;
 
         switch((signed int)event.type)
@@ -9277,11 +9277,11 @@ signed int main(signed int argc, char **argv)
             title_tag=groove_file_metadata_get(item->file, "title", (struct GrooveTag *)(void *)0, 0);
             if(!(artist_tag == ((struct GrooveTag *)NULL)) && !(title_tag == ((struct GrooveTag *)NULL)))
             {
-              const char *return_value_groove_tag_value$9;
-              return_value_groove_tag_value$9=groove_tag_value(artist_tag);
-              const char *return_value_groove_tag_value$10;
-              return_value_groove_tag_value$10=groove_tag_value(title_tag);
-              printf("Now playing: %s - %s\n", return_value_groove_tag_value$9, return_value_groove_tag_value$10);
+              const char *return_value_groove_tag_value_9;
+              return_value_groove_tag_value_9=groove_tag_value(artist_tag);
+              const char *return_value_groove_tag_value_10;
+              return_value_groove_tag_value_10=groove_tag_value(title_tag);
+              printf("Now playing: %s - %s\n", return_value_groove_tag_value_9, return_value_groove_tag_value_10);
             }
 
             else
@@ -9303,125 +9303,125 @@ static signed int maybe_init_filter_graph(struct GroovePlaylist *playlist, struc
   struct GrooveFilePrivate *f = (struct GrooveFilePrivate *)file;
   struct AVCodecContext *avctx = f->audio_st->codec;
   struct AVRational time_base = f->audio_st->time_base;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(p->filter_graph == ((struct AVFilterGraph *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = p->rebuild_filter_graph_flag != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = p->rebuild_filter_graph_flag != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = p->in_sample_rate != avctx->sample_rate ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = p->in_sample_rate != avctx->sample_rate ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = p->in_channel_layout != avctx->channel_layout ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = p->in_channel_layout != avctx->channel_layout ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = p->in_sample_fmt != avctx->sample_fmt ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_5 = p->in_sample_fmt != avctx->sample_fmt ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = p->in_time_base.num != time_base.num ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_6 = p->in_time_base.num != time_base.num ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = p->in_time_base.den != time_base.den ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_7 = p->in_time_base.den != time_base.den ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
-    tmp_if_expr$8 = IEEE_FLOAT_NOTEQUAL(p->volume, p->filter_volume) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_8 = IEEE_FLOAT_NOTEQUAL(p->volume, p->filter_volume) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
-    tmp_if_expr$9 = IEEE_FLOAT_NOTEQUAL(p->peak, p->filter_peak) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = IEEE_FLOAT_NOTEQUAL(p->peak, p->filter_peak) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_9)
   {
-    signed int return_value_init_filter_graph$1;
-    return_value_init_filter_graph$1=init_filter_graph(playlist, file);
-    return return_value_init_filter_graph$1;
+    signed int return_value_init_filter_graph_1;
+    return_value_init_filter_graph_1=init_filter_graph(playlist, file);
+    return return_value_init_filter_graph_1;
   }
 
   return 0;
 }
 
-// maybe_init_filter_graph$link1
+// maybe_init_filter_graph_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 471
-static signed int maybe_init_filter_graph$link1(struct GroovePlaylist *playlist$link1, struct GrooveFile *file$link1)
+static signed int maybe_init_filter_graph_link1(struct GroovePlaylist *playlist_link1, struct GrooveFile *file_link1)
 {
-  struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-  struct GrooveFilePrivate *f$link1 = (struct GrooveFilePrivate *)file$link1;
-  struct AVCodecContext *avctx$link1 = f$link1->audio_st->codec;
-  struct AVRational time_base$link1 = f$link1->audio_st->time_base;
-  _Bool tmp_if_expr$2$link1;
-  if(p$link1->filter_graph == ((struct AVFilterGraph *)NULL))
-    tmp_if_expr$2$link1 = (_Bool)1;
+  struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+  struct GrooveFilePrivate *f_link1 = (struct GrooveFilePrivate *)file_link1;
+  struct AVCodecContext *avctx_link1 = f_link1->audio_st->codec;
+  struct AVRational time_base_link1 = f_link1->audio_st->time_base;
+  _Bool tmp_if_expr_2_link1;
+  if(p_link1->filter_graph == ((struct AVFilterGraph *)NULL))
+    tmp_if_expr_2_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$2$link1 = p$link1->rebuild_filter_graph_flag != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3$link1;
-  if(tmp_if_expr$2$link1)
-    tmp_if_expr$3$link1 = (_Bool)1;
+    tmp_if_expr_2_link1 = p_link1->rebuild_filter_graph_flag != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3_link1;
+  if(tmp_if_expr_2_link1)
+    tmp_if_expr_3_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$3$link1 = p$link1->in_sample_rate != avctx$link1->sample_rate ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4$link1;
-  if(tmp_if_expr$3$link1)
-    tmp_if_expr$4$link1 = (_Bool)1;
+    tmp_if_expr_3_link1 = p_link1->in_sample_rate != avctx_link1->sample_rate ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4_link1;
+  if(tmp_if_expr_3_link1)
+    tmp_if_expr_4_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$4$link1 = p$link1->in_channel_layout != avctx$link1->channel_layout ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5$link1;
-  if(tmp_if_expr$4$link1)
-    tmp_if_expr$5$link1 = (_Bool)1;
+    tmp_if_expr_4_link1 = p_link1->in_channel_layout != avctx_link1->channel_layout ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5_link1;
+  if(tmp_if_expr_4_link1)
+    tmp_if_expr_5_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$5$link1 = p$link1->in_sample_fmt != avctx$link1->sample_fmt ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6$link1;
-  if(tmp_if_expr$5$link1)
-    tmp_if_expr$6$link1 = (_Bool)1;
+    tmp_if_expr_5_link1 = p_link1->in_sample_fmt != avctx_link1->sample_fmt ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6_link1;
+  if(tmp_if_expr_5_link1)
+    tmp_if_expr_6_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$6$link1 = p$link1->in_time_base.num != time_base$link1.num ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7$link1;
-  if(tmp_if_expr$6$link1)
-    tmp_if_expr$7$link1 = (_Bool)1;
+    tmp_if_expr_6_link1 = p_link1->in_time_base.num != time_base_link1.num ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7_link1;
+  if(tmp_if_expr_6_link1)
+    tmp_if_expr_7_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$7$link1 = p$link1->in_time_base.den != time_base$link1.den ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$8$link1;
-  if(tmp_if_expr$7$link1)
-    tmp_if_expr$8$link1 = (_Bool)1;
+    tmp_if_expr_7_link1 = p_link1->in_time_base.den != time_base_link1.den ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_8_link1;
+  if(tmp_if_expr_7_link1)
+    tmp_if_expr_8_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$8$link1 = IEEE_FLOAT_NOTEQUAL(p$link1->volume, p$link1->filter_volume) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$9$link1;
-  if(tmp_if_expr$8$link1)
-    tmp_if_expr$9$link1 = (_Bool)1;
+    tmp_if_expr_8_link1 = IEEE_FLOAT_NOTEQUAL(p_link1->volume, p_link1->filter_volume) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_9_link1;
+  if(tmp_if_expr_8_link1)
+    tmp_if_expr_9_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$9$link1 = IEEE_FLOAT_NOTEQUAL(p$link1->peak, p$link1->filter_peak) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$9$link1)
+    tmp_if_expr_9_link1 = IEEE_FLOAT_NOTEQUAL(p_link1->peak, p_link1->filter_peak) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_9_link1)
   {
-    signed int return_value_init_filter_graph$1$link1;
-    return_value_init_filter_graph$1$link1=init_filter_graph$link1(playlist$link1, file$link1);
-    return return_value_init_filter_graph$1$link1;
+    signed int return_value_init_filter_graph_1_link1;
+    return_value_init_filter_graph_1_link1=init_filter_graph_link1(playlist_link1, file_link1);
+    return return_value_init_filter_graph_1_link1;
   }
 
   return 0;
@@ -9431,42 +9431,42 @@ static signed int maybe_init_filter_graph$link1(struct GroovePlaylist *playlist$
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/global.c line 18
 static signed int my_lockmgr_cb(void **mutex, enum AVLockOp op)
 {
-  void *return_value_av_mallocz$1;
-  signed int return_value_pthread_mutex_init$2;
-  signed int return_value_pthread_mutex_lock$3;
-  signed int return_value_pthread_mutex_unlock$4;
+  void *return_value_av_mallocz_1;
+  signed int return_value_pthread_mutex_init_2;
+  signed int return_value_pthread_mutex_lock_3;
+  signed int return_value_pthread_mutex_unlock_4;
   signed int err;
   if(mutex == ((void **)NULL))
     return -1;
 
   else
   {
-    union anonymous$2 *pmutex;
+    union anonymous_2 *pmutex;
     switch((signed int)op)
     {
       case AV_LOCK_CREATE:
       {
-        return_value_av_mallocz$1=av_mallocz(sizeof(union anonymous$2) /*40ul*/ );
-        pmutex = (union anonymous$2 *)return_value_av_mallocz$1;
+        return_value_av_mallocz_1=av_mallocz(sizeof(union anonymous_2) /*40ul*/ );
+        pmutex = (union anonymous_2 *)return_value_av_mallocz_1;
         *mutex = (void *)pmutex;
-        return_value_pthread_mutex_init$2=pthread_mutex_init(pmutex, (const union anonymous$1 *)(void *)0);
-        return return_value_pthread_mutex_init$2;
+        return_value_pthread_mutex_init_2=pthread_mutex_init(pmutex, (const union anonymous_1 *)(void *)0);
+        return return_value_pthread_mutex_init_2;
       }
       case AV_LOCK_OBTAIN:
       {
-        pmutex = (union anonymous$2 *)*mutex;
-        return_value_pthread_mutex_lock$3=pthread_mutex_lock(pmutex);
-        return return_value_pthread_mutex_lock$3;
+        pmutex = (union anonymous_2 *)*mutex;
+        return_value_pthread_mutex_lock_3=pthread_mutex_lock(pmutex);
+        return return_value_pthread_mutex_lock_3;
       }
       case AV_LOCK_RELEASE:
       {
-        pmutex = (union anonymous$2 *)*mutex;
-        return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(pmutex);
-        return return_value_pthread_mutex_unlock$4;
+        pmutex = (union anonymous_2 *)*mutex;
+        return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(pmutex);
+        return return_value_pthread_mutex_unlock_4;
       }
       case AV_LOCK_DESTROY:
       {
-        pmutex = (union anonymous$2 *)*mutex;
+        pmutex = (union anonymous_2 *)*mutex;
         err=pthread_mutex_destroy(pmutex);
         av_free((void *)pmutex);
         *mutex = (void *)0;
@@ -9478,50 +9478,50 @@ static signed int my_lockmgr_cb(void **mutex, enum AVLockOp op)
   }
 }
 
-// my_lockmgr_cb$link1
+// my_lockmgr_cb_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/global.c line 18
-static signed int my_lockmgr_cb$link1(void **mutex$link1, enum AVLockOp op$link1)
+static signed int my_lockmgr_cb_link1(void **mutex_link1, enum AVLockOp op_link1)
 {
-  void *return_value_av_mallocz$1$link1;
-  signed int return_value_pthread_mutex_init$2$link1;
-  signed int return_value_pthread_mutex_lock$3$link1;
-  signed int return_value_pthread_mutex_unlock$4$link1;
-  signed int err$link1;
-  if(mutex$link1 == ((void **)NULL))
+  void *return_value_av_mallocz_1_link1;
+  signed int return_value_pthread_mutex_init_2_link1;
+  signed int return_value_pthread_mutex_lock_3_link1;
+  signed int return_value_pthread_mutex_unlock_4_link1;
+  signed int err_link1;
+  if(mutex_link1 == ((void **)NULL))
     return -1;
 
   else
   {
-    union anonymous$2 *pmutex$link1;
-    switch((signed int)op$link1)
+    union anonymous_2 *pmutex_link1;
+    switch((signed int)op_link1)
     {
       case AV_LOCK_CREATE:
       {
-        return_value_av_mallocz$1$link1=av_mallocz(sizeof(union anonymous$2) /*40ul*/ );
-        pmutex$link1 = (union anonymous$2 *)return_value_av_mallocz$1$link1;
-        *mutex$link1 = (void *)pmutex$link1;
-        return_value_pthread_mutex_init$2$link1=pthread_mutex_init(pmutex$link1, (const union anonymous$1 *)(void *)0);
-        return return_value_pthread_mutex_init$2$link1;
+        return_value_av_mallocz_1_link1=av_mallocz(sizeof(union anonymous_2) /*40ul*/ );
+        pmutex_link1 = (union anonymous_2 *)return_value_av_mallocz_1_link1;
+        *mutex_link1 = (void *)pmutex_link1;
+        return_value_pthread_mutex_init_2_link1=pthread_mutex_init(pmutex_link1, (const union anonymous_1 *)(void *)0);
+        return return_value_pthread_mutex_init_2_link1;
       }
       case AV_LOCK_OBTAIN:
       {
-        pmutex$link1 = (union anonymous$2 *)*mutex$link1;
-        return_value_pthread_mutex_lock$3$link1=pthread_mutex_lock(pmutex$link1);
-        return return_value_pthread_mutex_lock$3$link1;
+        pmutex_link1 = (union anonymous_2 *)*mutex_link1;
+        return_value_pthread_mutex_lock_3_link1=pthread_mutex_lock(pmutex_link1);
+        return return_value_pthread_mutex_lock_3_link1;
       }
       case AV_LOCK_RELEASE:
       {
-        pmutex$link1 = (union anonymous$2 *)*mutex$link1;
-        return_value_pthread_mutex_unlock$4$link1=pthread_mutex_unlock(pmutex$link1);
-        return return_value_pthread_mutex_unlock$4$link1;
+        pmutex_link1 = (union anonymous_2 *)*mutex_link1;
+        return_value_pthread_mutex_unlock_4_link1=pthread_mutex_unlock(pmutex_link1);
+        return return_value_pthread_mutex_unlock_4_link1;
       }
       case AV_LOCK_DESTROY:
       {
-        pmutex$link1 = (union anonymous$2 *)*mutex$link1;
-        err$link1=pthread_mutex_destroy(pmutex$link1);
-        av_free((void *)pmutex$link1);
-        *mutex$link1 = (void *)0;
-        return err$link1;
+        pmutex_link1 = (union anonymous_2 *)*mutex_link1;
+        err_link1=pthread_mutex_destroy(pmutex_link1);
+        av_free((void *)pmutex_link1);
+        *mutex_link1 = (void *)0;
+        return err_link1;
       }
       default:
         return 0;
@@ -9550,9 +9550,9 @@ static signed int open_audio_device(struct GroovePlayer *player, struct GrooveAu
   struct SDL_AudioSpec spec;
   wanted_spec.format=groove_fmt_to_sdl_fmt(target_format->sample_fmt);
   wanted_spec.freq = target_format->sample_rate;
-  signed int return_value_groove_channel_layout_count$1;
-  return_value_groove_channel_layout_count$1=groove_channel_layout_count(target_format->channel_layout);
-  wanted_spec.channels = (unsigned char)return_value_groove_channel_layout_count$1;
+  signed int return_value_groove_channel_layout_count_1;
+  return_value_groove_channel_layout_count_1=groove_channel_layout_count(target_format->channel_layout);
+  wanted_spec.channels = (unsigned char)return_value_groove_channel_layout_count_1;
   wanted_spec.samples = (unsigned short int)p->device_buffer_size;
   wanted_spec.callback = sdl_audio_callback;
   wanted_spec.userdata = (void *)player;
@@ -9564,9 +9564,9 @@ static signed int open_audio_device(struct GroovePlayer *player, struct GrooveAu
   p->device_id=SDL_OpenAudioDevice(device_name, 0, &wanted_spec, &spec, allowed_changes);
   if(p->device_id == 0u)
   {
-    const char *return_value_SDL_GetError$2;
-    return_value_SDL_GetError$2=SDL_GetError();
-    av_log((void *)0, 16, "unable to open audio device: %s\n", return_value_SDL_GetError$2);
+    const char *return_value_SDL_GetError_2;
+    return_value_SDL_GetError_2=SDL_GetError();
+    av_log((void *)0, 16, "unable to open audio device: %s\n", return_value_SDL_GetError_2);
     return -1;
   }
 
@@ -9595,17 +9595,17 @@ static signed int purge_sink(struct GrooveSink *sink)
   return 0;
 }
 
-// purge_sink$link1
+// purge_sink_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 1155
-static signed int purge_sink$link1(struct GrooveSink *sink$link1)
+static signed int purge_sink_link1(struct GrooveSink *sink_link1)
 {
-  struct GrooveSinkPrivate *s$link1 = (struct GrooveSinkPrivate *)sink$link1;
-  groove_queue_purge(s$link1->audioq);
-  struct GroovePlaylist *playlist$link1 = sink$link1->playlist;
-  struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-  struct GroovePlaylistItem *item$link1 = p$link1->purge_item;
-  if(!(sink$link1->purge == ((void (*)(struct GrooveSink *, struct GroovePlaylistItem *))NULL)))
-    sink$link1->purge(sink$link1, item$link1);
+  struct GrooveSinkPrivate *s_link1 = (struct GrooveSinkPrivate *)sink_link1;
+  groove_queue_purge(s_link1->audioq);
+  struct GroovePlaylist *playlist_link1 = sink_link1->playlist;
+  struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+  struct GroovePlaylistItem *item_link1 = p_link1->purge_item;
+  if(!(sink_link1->purge == ((void (*)(struct GrooveSink *, struct GroovePlaylistItem *))NULL)))
+    sink_link1->purge(sink_link1, item_link1);
 
   return 0;
 }
@@ -9659,51 +9659,51 @@ static signed int remove_sink_from_map(struct GrooveSink *sink)
   return -1;
 }
 
-// remove_sink_from_map$link1
+// remove_sink_from_map_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 743
-static signed int remove_sink_from_map$link1(struct GrooveSink *sink$link1)
+static signed int remove_sink_from_map_link1(struct GrooveSink *sink_link1)
 {
-  struct GroovePlaylist *playlist$link1 = sink$link1->playlist;
-  struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-  struct SinkMap *map_item$link1 = p$link1->sink_map;
-  struct SinkMap *prev_map_item$link1 = (struct SinkMap *)(void *)0;
-  while(!(map_item$link1 == ((struct SinkMap *)NULL)))
+  struct GroovePlaylist *playlist_link1 = sink_link1->playlist;
+  struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+  struct SinkMap *map_item_link1 = p_link1->sink_map;
+  struct SinkMap *prev_map_item_link1 = (struct SinkMap *)(void *)0;
+  while(!(map_item_link1 == ((struct SinkMap *)NULL)))
   {
-    struct SinkMap *next_map_item$link1 = map_item$link1->next;
-    struct SinkStack *stack_item$link1 = map_item$link1->stack_head;
-    struct SinkStack *prev_stack_item$link1 = (struct SinkStack *)(void *)0;
-    while(!(stack_item$link1 == ((struct SinkStack *)NULL)))
+    struct SinkMap *next_map_item_link1 = map_item_link1->next;
+    struct SinkStack *stack_item_link1 = map_item_link1->stack_head;
+    struct SinkStack *prev_stack_item_link1 = (struct SinkStack *)(void *)0;
+    while(!(stack_item_link1 == ((struct SinkStack *)NULL)))
     {
-      struct SinkStack *next_stack_item$link1 = stack_item$link1->next;
-      struct GrooveSink *item_sink$link1 = stack_item$link1->sink;
-      if(item_sink$link1 == sink$link1)
+      struct SinkStack *next_stack_item_link1 = stack_item_link1->next;
+      struct GrooveSink *item_sink_link1 = stack_item_link1->sink;
+      if(item_sink_link1 == sink_link1)
       {
-        av_free((void *)stack_item$link1);
-        if(!(prev_stack_item$link1 == ((struct SinkStack *)NULL)))
-          prev_stack_item$link1->next = next_stack_item$link1;
+        av_free((void *)stack_item_link1);
+        if(!(prev_stack_item_link1 == ((struct SinkStack *)NULL)))
+          prev_stack_item_link1->next = next_stack_item_link1;
 
         else
-          if(!(next_stack_item$link1 == ((struct SinkStack *)NULL)))
-            map_item$link1->stack_head = next_stack_item$link1;
+          if(!(next_stack_item_link1 == ((struct SinkStack *)NULL)))
+            map_item_link1->stack_head = next_stack_item_link1;
 
           else
           {
-            av_free((void *)map_item$link1);
-            p$link1->sink_map_count = p$link1->sink_map_count - 1;
-            if(!(prev_map_item$link1 == ((struct SinkMap *)NULL)))
-              prev_map_item$link1->next = next_map_item$link1;
+            av_free((void *)map_item_link1);
+            p_link1->sink_map_count = p_link1->sink_map_count - 1;
+            if(!(prev_map_item_link1 == ((struct SinkMap *)NULL)))
+              prev_map_item_link1->next = next_map_item_link1;
 
             else
-              p$link1->sink_map = next_map_item$link1;
+              p_link1->sink_map = next_map_item_link1;
           }
         return 0;
       }
 
-      prev_stack_item$link1 = stack_item$link1;
-      stack_item$link1 = next_stack_item$link1;
+      prev_stack_item_link1 = stack_item_link1;
+      stack_item_link1 = next_stack_item_link1;
     }
-    prev_map_item$link1 = map_item$link1;
-    map_item$link1 = next_map_item$link1;
+    prev_map_item_link1 = map_item_link1;
+    map_item_link1 = next_map_item_link1;
   }
   return -1;
 }
@@ -9717,12 +9717,12 @@ static void sdl_audio_callback(void *opaque, unsigned char *stream, signed int l
   struct GroovePlaylist *playlist = sink->playlist;
   double bytes_per_sec = (double)sink->bytes_per_sec;
   signed int paused;
-  signed int return_value_groove_playlist_playing$1;
-  return_value_groove_playlist_playing$1=groove_playlist_playing(playlist);
-  paused = (signed int)!(return_value_groove_playlist_playing$1 != 0);
+  signed int return_value_groove_playlist_playing_1;
+  return_value_groove_playlist_playing_1=groove_playlist_playing(playlist);
+  paused = (signed int)!(return_value_groove_playlist_playing_1 != 0);
   pthread_mutex_lock(&p->play_head_mutex);
-  signed int return_value_groove_audio_formats_equal$2;
-  _Bool tmp_if_expr$3;
+  signed int return_value_groove_audio_formats_equal_2;
+  _Bool tmp_if_expr_3;
   while(len >= 1)
   {
     _Bool waiting_for_silence = p->silence_bytes_left > 0;
@@ -9760,8 +9760,8 @@ static void sdl_audio_callback(void *opaque, unsigned char *stream, signed int l
                 p->bytes_per_frame = p->bytes_per_sample * p->channel_count;
                 if(!(p->device_thread_inited == 0))
                 {
-                  return_value_groove_audio_formats_equal$2=groove_audio_formats_equal(&p->audio_buf->format, &p->device_format);
-                  if(return_value_groove_audio_formats_equal$2 == 0)
+                  return_value_groove_audio_formats_equal_2=groove_audio_formats_equal(&p->audio_buf->format, &p->device_format);
+                  if(return_value_groove_audio_formats_equal_2 == 0)
                   {
                     p->silence_bytes_left = p->device_buffer_size;
                     waiting_for_silence = (_Bool)1;
@@ -9782,11 +9782,11 @@ static void sdl_audio_callback(void *opaque, unsigned char *stream, signed int l
     }
 
     if(!(paused == 0) || !(p->request_device_reopen == (_Bool)0) || !(waiting_for_silence == (_Bool)0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = !(p->audio_buf != ((struct GrooveBuffer *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = !(p->audio_buf != ((struct GrooveBuffer *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       memset((void *)stream, 0, (unsigned long int)len);
       if(!(waiting_for_silence == (_Bool)0))
@@ -9807,9 +9807,9 @@ static void sdl_audio_callback(void *opaque, unsigned char *stream, signed int l
     signed int write_frame_count = len / p->bytes_per_frame;
     signed int frame_count = (signed int)(read_frame_count < (unsigned long int)write_frame_count ? read_frame_count : (unsigned long int)write_frame_count);
     signed int bytes_consumed = frame_count * p->bytes_per_frame;
-    _Bool return_value_is_planar$4;
-    return_value_is_planar$4=is_planar(p->audio_buf->format.sample_fmt);
-    if(!(return_value_is_planar$4 == (_Bool)0))
+    _Bool return_value_is_planar_4;
+    return_value_is_planar_4=is_planar(p->audio_buf->format.sample_fmt);
+    if(!(return_value_is_planar_4 == (_Bool)0))
     {
       signed int end_frame = (signed int)(p->audio_buf_index + (unsigned long int)frame_count);
       for( ; !(p->audio_buf_index >= (unsigned long int)end_frame); p->audio_buf_index = p->audio_buf_index + (unsigned long int)1)
@@ -9871,35 +9871,35 @@ static void sink_flush(struct GrooveSink *sink)
   pthread_mutex_unlock(&p->play_head_mutex);
 }
 
-// sink_flush$link1
+// sink_flush_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 533
-static signed int sink_flush$link1(struct GrooveSink *sink$link1)
+static signed int sink_flush_link1(struct GrooveSink *sink_link1)
 {
-  struct GrooveSinkPrivate *s = (struct GrooveSinkPrivate *)sink$link1;
+  struct GrooveSinkPrivate *s = (struct GrooveSinkPrivate *)sink_link1;
   groove_queue_flush(s->audioq);
-  if(!(sink$link1->flush == ((void (*)(struct GrooveSink *))NULL)))
-    sink$link1->flush(sink$link1);
+  if(!(sink_link1->flush == ((void (*)(struct GrooveSink *))NULL)))
+    sink_link1->flush(sink_link1);
 
   return 0;
 }
 
-// sink_flush$link1$link1
+// sink_flush_link1_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 533
-static signed int sink_flush$link1$link1(struct GrooveSink *sink$link1$link1)
+static signed int sink_flush_link1_link1(struct GrooveSink *sink_link1_link1)
 {
-  struct GrooveSinkPrivate *s$link1 = (struct GrooveSinkPrivate *)sink$link1$link1;
-  groove_queue_flush(s$link1->audioq);
-  if(!(sink$link1$link1->flush == ((void (*)(struct GrooveSink *))NULL)))
-    sink$link1$link1->flush(sink$link1$link1);
+  struct GrooveSinkPrivate *s_link1 = (struct GrooveSinkPrivate *)sink_link1_link1;
+  groove_queue_flush(s_link1->audioq);
+  if(!(sink_link1_link1->flush == ((void (*)(struct GrooveSink *))NULL)))
+    sink_link1_link1->flush(sink_link1_link1);
 
   return 0;
 }
 
-// sink_flush$link2
+// sink_flush_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 246
-static void sink_flush$link2(struct GrooveSink *sink$link2)
+static void sink_flush_link2(struct GrooveSink *sink_link2)
 {
-  struct GrooveEncoder *encoder = (struct GrooveEncoder *)sink$link2->userdata;
+  struct GrooveEncoder *encoder = (struct GrooveEncoder *)sink_link2->userdata;
   struct GrooveEncoderPrivate *e = (struct GrooveEncoderPrivate *)encoder;
   pthread_mutex_lock(&e->encode_head_mutex);
   groove_queue_flush(e->audioq);
@@ -9910,27 +9910,27 @@ static void sink_flush$link2(struct GrooveSink *sink$link2)
   pthread_mutex_unlock(&e->encode_head_mutex);
 }
 
-// sink_flush$link3
+// sink_flush_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 246
-static void sink_flush$link3(struct GrooveSink *sink$link3)
+static void sink_flush_link3(struct GrooveSink *sink_link3)
 {
-  struct GrooveEncoder *encoder$link1 = (struct GrooveEncoder *)sink$link3->userdata;
-  struct GrooveEncoderPrivate *e$link1 = (struct GrooveEncoderPrivate *)encoder$link1;
-  pthread_mutex_lock(&e$link1->encode_head_mutex);
-  groove_queue_flush(e$link1->audioq);
-  cleanup_avcontext$link1(e$link1);
-  init_avcontext$link1(encoder$link1);
-  groove_queue_put(e$link1->audioq, (void *)end_of_q_sentinel$link2);
-  pthread_cond_signal(&e$link1->drain_cond);
-  pthread_mutex_unlock(&e$link1->encode_head_mutex);
+  struct GrooveEncoder *encoder_link1 = (struct GrooveEncoder *)sink_link3->userdata;
+  struct GrooveEncoderPrivate *e_link1 = (struct GrooveEncoderPrivate *)encoder_link1;
+  pthread_mutex_lock(&e_link1->encode_head_mutex);
+  groove_queue_flush(e_link1->audioq);
+  cleanup_avcontext_link1(e_link1);
+  init_avcontext_link1(encoder_link1);
+  groove_queue_put(e_link1->audioq, (void *)end_of_q_sentinel_link2);
+  pthread_cond_signal(&e_link1->drain_cond);
+  pthread_mutex_unlock(&e_link1->encode_head_mutex);
 }
 
 // sink_formats_compatible
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 722
 static signed int sink_formats_compatible(struct GrooveSink *example_sink, struct GrooveSink *test_sink)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(test_sink->buffer_sample_count == 0))
   {
     if(example_sink->buffer_sample_count == test_sink->buffer_sample_count)
@@ -9951,16 +9951,16 @@ static signed int sink_formats_compatible(struct GrooveSink *example_sink, struc
       if(test_sink->disable_resample == 0)
       {
         if(!(example_sink->audio_format.sample_rate == test_sink->audio_format.sample_rate))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = example_sink->audio_format.channel_layout != test_sink->audio_format.channel_layout ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_1 = example_sink->audio_format.channel_layout != test_sink->audio_format.channel_layout ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = example_sink->audio_format.sample_fmt != test_sink->audio_format.sample_fmt ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = example_sink->audio_format.sample_fmt != test_sink->audio_format.sample_fmt ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_2)
           goto __CPROVER_DUMP_L7;
 
         return 0;
@@ -9976,15 +9976,15 @@ static signed int sink_formats_compatible(struct GrooveSink *example_sink, struc
   }
 }
 
-// sink_formats_compatible$link1
+// sink_formats_compatible_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 722
-static signed int sink_formats_compatible$link1(struct GrooveSink *example_sink$link1, struct GrooveSink *test_sink$link1)
+static signed int sink_formats_compatible_link1(struct GrooveSink *example_sink_link1, struct GrooveSink *test_sink_link1)
 {
-  _Bool tmp_if_expr$1$link1;
-  _Bool tmp_if_expr$2$link1;
-  if(!(test_sink$link1->buffer_sample_count == 0))
+  _Bool tmp_if_expr_1_link1;
+  _Bool tmp_if_expr_2_link1;
+  if(!(test_sink_link1->buffer_sample_count == 0))
   {
-    if(example_sink$link1->buffer_sample_count == test_sink$link1->buffer_sample_count)
+    if(example_sink_link1->buffer_sample_count == test_sink_link1->buffer_sample_count)
       goto __CPROVER_DUMP_L1;
 
     return 0;
@@ -9995,23 +9995,23 @@ static signed int sink_formats_compatible$link1(struct GrooveSink *example_sink$
 
   __CPROVER_DUMP_L1:
     ;
-    if(IEEE_FLOAT_NOTEQUAL(example_sink$link1->gain, test_sink$link1->gain))
+    if(IEEE_FLOAT_NOTEQUAL(example_sink_link1->gain, test_sink_link1->gain))
       return 0;
 
     else
-      if(test_sink$link1->disable_resample == 0)
+      if(test_sink_link1->disable_resample == 0)
       {
-        if(!(example_sink$link1->audio_format.sample_rate == test_sink$link1->audio_format.sample_rate))
-          tmp_if_expr$1$link1 = (_Bool)1;
+        if(!(example_sink_link1->audio_format.sample_rate == test_sink_link1->audio_format.sample_rate))
+          tmp_if_expr_1_link1 = (_Bool)1;
 
         else
-          tmp_if_expr$1$link1 = example_sink$link1->audio_format.channel_layout != test_sink$link1->audio_format.channel_layout ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1$link1)
-          tmp_if_expr$2$link1 = (_Bool)1;
+          tmp_if_expr_1_link1 = example_sink_link1->audio_format.channel_layout != test_sink_link1->audio_format.channel_layout ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1_link1)
+          tmp_if_expr_2_link1 = (_Bool)1;
 
         else
-          tmp_if_expr$2$link1 = example_sink$link1->audio_format.sample_fmt != test_sink$link1->audio_format.sample_fmt ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$2$link1)
+          tmp_if_expr_2_link1 = example_sink_link1->audio_format.sample_fmt != test_sink_link1->audio_format.sample_fmt ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_2_link1)
           goto __CPROVER_DUMP_L7;
 
         return 0;
@@ -10035,12 +10035,12 @@ static signed int sink_is_full(struct GrooveSink *sink)
   return (signed int)(s->audioq_size >= s->min_audioq_size);
 }
 
-// sink_is_full$link1
+// sink_is_full_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 510
-static signed int sink_is_full$link1(struct GrooveSink *sink$link1)
+static signed int sink_is_full_link1(struct GrooveSink *sink_link1)
 {
-  struct GrooveSinkPrivate *s$link1 = (struct GrooveSinkPrivate *)sink$link1;
-  return (signed int)(s$link1->audioq_size >= s$link1->min_audioq_size);
+  struct GrooveSinkPrivate *s_link1 = (struct GrooveSinkPrivate *)sink_link1;
+  return (signed int)(s_link1->audioq_size >= s_link1->min_audioq_size);
 }
 
 // sink_pause
@@ -10096,17 +10096,17 @@ static void sink_purge(struct GrooveSink *sink, struct GroovePlaylistItem *item)
   pthread_mutex_unlock(&p->play_head_mutex);
 }
 
-// sink_purge$link1
+// sink_purge_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 229
-static void sink_purge$link1(struct GrooveSink *sink$link1, struct GroovePlaylistItem *item$link1)
+static void sink_purge_link1(struct GrooveSink *sink_link1, struct GroovePlaylistItem *item_link1)
 {
-  struct GrooveEncoder *encoder = (struct GrooveEncoder *)sink$link1->userdata;
+  struct GrooveEncoder *encoder = (struct GrooveEncoder *)sink_link1->userdata;
   struct GrooveEncoderPrivate *e = (struct GrooveEncoderPrivate *)encoder;
   pthread_mutex_lock(&e->encode_head_mutex);
-  e->purge_item = item$link1;
+  e->purge_item = item_link1;
   groove_queue_purge(e->audioq);
   e->purge_item = (struct GroovePlaylistItem *)(void *)0;
-  if(e->encode_head == item$link1)
+  if(e->encode_head == item_link1)
   {
     e->encode_head = (struct GroovePlaylistItem *)(void *)0;
     e->encode_pos = -1.0;
@@ -10116,24 +10116,24 @@ static void sink_purge$link1(struct GrooveSink *sink$link1, struct GroovePlaylis
   pthread_mutex_unlock(&e->encode_head_mutex);
 }
 
-// sink_purge$link2
+// sink_purge_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/encoder.c line 229
-static void sink_purge$link2(struct GrooveSink *sink$link2, struct GroovePlaylistItem *item$link2)
+static void sink_purge_link2(struct GrooveSink *sink_link2, struct GroovePlaylistItem *item_link2)
 {
-  struct GrooveEncoder *encoder$link1 = (struct GrooveEncoder *)sink$link2->userdata;
-  struct GrooveEncoderPrivate *e$link1 = (struct GrooveEncoderPrivate *)encoder$link1;
-  pthread_mutex_lock(&e$link1->encode_head_mutex);
-  e$link1->purge_item = item$link2;
-  groove_queue_purge(e$link1->audioq);
-  e$link1->purge_item = (struct GroovePlaylistItem *)(void *)0;
-  if(e$link1->encode_head == item$link2)
+  struct GrooveEncoder *encoder_link1 = (struct GrooveEncoder *)sink_link2->userdata;
+  struct GrooveEncoderPrivate *e_link1 = (struct GrooveEncoderPrivate *)encoder_link1;
+  pthread_mutex_lock(&e_link1->encode_head_mutex);
+  e_link1->purge_item = item_link2;
+  groove_queue_purge(e_link1->audioq);
+  e_link1->purge_item = (struct GroovePlaylistItem *)(void *)0;
+  if(e_link1->encode_head == item_link2)
   {
-    e$link1->encode_head = (struct GroovePlaylistItem *)(void *)0;
-    e$link1->encode_pos = -1.0;
+    e_link1->encode_head = (struct GroovePlaylistItem *)(void *)0;
+    e_link1->encode_pos = -1.0;
   }
 
-  pthread_cond_signal(&e$link1->drain_cond);
-  pthread_mutex_unlock(&e$link1->encode_head_mutex);
+  pthread_cond_signal(&e_link1->drain_cond);
+  pthread_mutex_unlock(&e_link1->encode_head_mutex);
 }
 
 // sink_signal_end
@@ -10141,16 +10141,16 @@ static void sink_purge$link2(struct GrooveSink *sink$link2, struct GroovePlaylis
 static signed int sink_signal_end(struct GrooveSink *sink)
 {
   struct GrooveSinkPrivate *s = (struct GrooveSinkPrivate *)sink;
-  groove_queue_put(s->audioq, (void *)end_of_q_sentinel$link1);
+  groove_queue_put(s->audioq, (void *)end_of_q_sentinel_link1);
   return 0;
 }
 
-// sink_signal_end$link1
+// sink_signal_end_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 523
-static signed int sink_signal_end$link1(struct GrooveSink *sink$link1)
+static signed int sink_signal_end_link1(struct GrooveSink *sink_link1)
 {
-  struct GrooveSinkPrivate *s$link1 = (struct GrooveSinkPrivate *)sink$link1;
-  groove_queue_put(s$link1->audioq, (void *)end_of_q_sentinel$link1$link1);
+  struct GrooveSinkPrivate *s_link1 = (struct GrooveSinkPrivate *)sink_link1;
+  groove_queue_put(s_link1->audioq, (void *)end_of_q_sentinel_link1_link1);
   return 0;
 }
 
@@ -10167,9 +10167,9 @@ static signed int tempfileify(char *str, unsigned long int max_len)
   {
     char prepend[11l];
     signed int n;
-    signed int return_value_rand$1;
-    return_value_rand$1=rand();
-    n = return_value_rand$1 % 99999;
+    signed int return_value_rand_1;
+    return_value_rand_1=rand();
+    n = return_value_rand_1 % 99999;
     snprintf(prepend, (unsigned long int)11, ".tmp%05d-", n);
     char *slash;
     slash=strrchr(str, 47);
@@ -10181,29 +10181,29 @@ static signed int tempfileify(char *str, unsigned long int max_len)
   }
 }
 
-// tempfileify$link1
+// tempfileify_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/file.c line 182
-static signed int tempfileify$link1(char *str$link1, unsigned long int max_len$link1)
+static signed int tempfileify_link1(char *str_link1, unsigned long int max_len_link1)
 {
-  unsigned long int len$link1;
-  len$link1=strlen(str$link1);
-  if(!(max_len$link1 >= 10ul + len$link1))
+  unsigned long int len_link1;
+  len_link1=strlen(str_link1);
+  if(!(max_len_link1 >= 10ul + len_link1))
     return -1;
 
   else
   {
-    char prepend$link1[11l];
-    signed int n$link1;
-    signed int return_value_rand$1$link1;
-    return_value_rand$1$link1=rand();
-    n$link1 = return_value_rand$1$link1 % 99999;
-    snprintf(prepend$link1, (unsigned long int)11, ".tmp%05d-", n$link1);
-    char *slash$link1;
-    slash$link1=strrchr(str$link1, 47);
-    char *pos$link1 = slash$link1 != ((char *)NULL) ? slash$link1 + (signed long int)1 : str$link1;
-    unsigned long int orig_len$link1 = len$link1 - (unsigned long int)(pos$link1 - str$link1);
-    memmove((void *)(pos$link1 + (signed long int)10), (const void *)pos$link1, orig_len$link1);
-    strncpy(pos$link1, prepend$link1, (unsigned long int)10);
+    char prepend_link1[11l];
+    signed int n_link1;
+    signed int return_value_rand_1_link1;
+    return_value_rand_1_link1=rand();
+    n_link1 = return_value_rand_1_link1 % 99999;
+    snprintf(prepend_link1, (unsigned long int)11, ".tmp%05d-", n_link1);
+    char *slash_link1;
+    slash_link1=strrchr(str_link1, 47);
+    char *pos_link1 = slash_link1 != ((char *)NULL) ? slash_link1 + (signed long int)1 : str_link1;
+    unsigned long int orig_len_link1 = len_link1 - (unsigned long int)(pos_link1 - str_link1);
+    memmove((void *)(pos_link1 + (signed long int)10), (const void *)pos_link1, orig_len_link1);
+    strncpy(pos_link1, prepend_link1, (unsigned long int)10);
     return 0;
   }
 }
@@ -10218,14 +10218,14 @@ static void update_playlist_volume(struct GroovePlaylist *playlist)
   p->peak = item->peak;
 }
 
-// update_playlist_volume$link1
+// update_playlist_volume_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 652
-static void update_playlist_volume$link1(struct GroovePlaylist *playlist$link1)
+static void update_playlist_volume_link1(struct GroovePlaylist *playlist_link1)
 {
-  struct GroovePlaylistPrivate *p$link1 = (struct GroovePlaylistPrivate *)playlist$link1;
-  struct GroovePlaylistItem *item$link1 = p$link1->decode_head;
-  p$link1->volume = playlist$link1->gain * item$link1->gain;
-  p$link1->peak = item$link1->peak;
+  struct GroovePlaylistPrivate *p_link1 = (struct GroovePlaylistPrivate *)playlist_link1;
+  struct GroovePlaylistItem *item_link1 = p_link1->decode_head;
+  p_link1->volume = playlist_link1->gain * item_link1->gain;
+  p_link1->peak = item_link1->peak;
 }
 
 // usage

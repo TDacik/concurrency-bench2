@@ -1,150 +1,150 @@
-// #anon_enum$SDP_ATTR_REQ_INDIVIDUAL=1$SDP_ATTR_REQ_RANGE=2
+// #anon_enum_SDP_ATTR_REQ_INDIVIDUAL=1_SDP_ATTR_REQ_RANGE=2
 // file /usr/include/bluetooth/sdp_lib.h line 98
-enum anonymous$22 { SDP_ATTR_REQ_INDIVIDUAL=1, SDP_ATTR_REQ_RANGE=2 };
+enum anonymous_22 { SDP_ATTR_REQ_INDIVIDUAL=1, SDP_ATTR_REQ_RANGE=2 };
 
-// #anon_enum$address_v1=0
+// #anon_enum_address_v1=0
 // file ../include/pi-address.h line 32
-enum anonymous$6 { address_v1=0 };
+enum anonymous_6 { address_v1=0 };
 
-// #anon_enum$calendar_v1=0
+// #anon_enum_calendar_v1=0
 // file ../include/pi-calendar.h line 39
-enum anonymous$29 { calendar_v1=0 };
+enum anonymous_29 { calendar_v1=0 };
 
-// #anon_enum$contacts_v10=0$contacts_v11=1
+// #anon_enum_contacts_v10=0_contacts_v11=1
 // file ../include/pi-contact.h line 66
-enum anonymous$7 { contacts_v10=0, contacts_v11=1 };
+enum anonymous_7 { contacts_v10=0, contacts_v11=1 };
 
-// #anon_enum$datebook_v1=0
+// #anon_enum_datebook_v1=0
 // file ../include/pi-datebook.h line 32
-enum anonymous$8 { datebook_v1=0 };
+enum anonymous_8 { datebook_v1=0 };
 
-// #anon_enum$memo_v1=0
+// #anon_enum_memo_v1=0
 // file ../include/pi-memo.h line 31
-enum anonymous$30 { memo_v1=0 };
+enum anonymous_30 { memo_v1=0 };
 
-// #anon_enum$todo_v1=0
+// #anon_enum_todo_v1=0
 // file ../include/pi-todo.h line 33
-enum anonymous$13 { todo_v1=0 };
+enum anonymous_13 { todo_v1=0 };
 
-// tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'provider'||*{S8}$S8$'desc'||U32'class'||U32'profile'||U32'channel'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'provider'||*{S8}_S8_'desc'||U32'class'||U32'profile'||U32'channel'||U32'_pad0'|]
 // file bluetooth.c line 106
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[*{S8}$S8$'path'||S64'total_bytes'|]
+// tag-#anon#ST[*{S8}_S8_'path'||S64'total_bytes'|]
 // file ../include/pi-file.h line 105
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{SYM#tag-pi_file#}$SYM#tag-pi_file#$'pf'||SYM#tag-DBSizeInfo#'size'||S32'transferred_records'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-pi_file#}_SYM#tag-pi_file#_'pf'||SYM#tag-DBSizeInfo#'size'||S32'transferred_records'||U32'_pad0'|]
 // file ../include/pi-file.h line 99
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[ARR16{U8}$U8$'data'|]
+// tag-#anon#ST[ARR16{U8}_U8_'data'|]
 // file /usr/include/bluetooth/bluetooth.h line 342
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[ARR4{S8}$S8$'port_function_id'||U8'port'||U8'endpoint_info'||U16'reserved'|]
+// tag-#anon#ST[ARR4{S8}_S8_'port_function_id'||U8'port'||U8'endpoint_info'||U16'reserved'|]
 // file ../include/pi-usb.h line 138
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[ARR4{S8}$S8$'type'||S16'length'||U16'$pad0'||*{U8}$U8$'data'|]
+// tag-#anon#ST[ARR4{S8}_S8_'type'||S16'length'||U16'_pad0'||*{U8}_U8_'data'|]
 // file ../include/pi-blob.h line 42
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[ARR6{U8}$U8$'b'|]
+// tag-#anon#ST[ARR6{U8}_U8_'b'|]
 // file /usr/include/bluetooth/bluetooth.h line 300
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[ENtag-DayOfWeek#{U32}$U32$'dayOfWeek'||ENtag-WeekOfMonth#{U32}$U32$'weekOfMonth'||ENtag-Month#{U32}$U32$'month'||U8'unknown'||U24'$pad0'|]
+// tag-#anon#ST[ENtag-DayOfWeek#{U32}_U32_'dayOfWeek'||ENtag-WeekOfMonth#{U32}_U32_'weekOfMonth'||ENtag-Month#{U32}_U32_'month'||U8'unknown'||U24'_pad0'|]
 // file ../include/pi-location.h line 46
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S16'degrees'||S16'minutes'||ENtag-CompassDirection#{U32}$U32$'direction'|]
+// tag-#anon#ST[S16'degrees'||S16'minutes'||ENtag-CompassDirection#{U32}_U32_'direction'|]
 // file ../include/pi-location.h line 54
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S16'offset'||U8't2'||U8'$pad0'||SYM#tag-#anon#ST[ENtag-DayOfWeek#{U32}$U32$'dayOfWeek'||ENtag-WeekOfMonth#{U32}$U32$'weekOfMonth'||ENtag-Month#{U32}$U32$'month'||U8'unknown'||U24'$pad0'|]#'dstStart'||SYM#tag-#anon#ST[ENtag-DayOfWeek#{U32}$U32$'dayOfWeek'||ENtag-WeekOfMonth#{U32}$U32$'weekOfMonth'||ENtag-Month#{U32}$U32$'month'||U8'unknown'||U24'$pad0'|]#'dstEnd'||U8'dstObserved'||U8't4'||U8'unknown'||U8'$pad1'||*{S8}$S8$'name'|]
+// tag-#anon#ST[S16'offset'||U8't2'||U8'_pad0'||SYM#tag-#anon#ST[ENtag-DayOfWeek#{U32}_U32_'dayOfWeek'||ENtag-WeekOfMonth#{U32}_U32_'weekOfMonth'||ENtag-Month#{U32}_U32_'month'||U8'unknown'||U24'_pad0'|]#'dstStart'||SYM#tag-#anon#ST[ENtag-DayOfWeek#{U32}_U32_'dayOfWeek'||ENtag-WeekOfMonth#{U32}_U32_'weekOfMonth'||ENtag-Month#{U32}_U32_'month'||U8'unknown'||U24'_pad0'|]#'dstEnd'||U8'dstObserved'||U8't4'||U8'unknown'||U8'_pad1'||*{S8}_S8_'name'|]
 // file ../include/pi-location.h line 60
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'major'||S32'minor'||S32'bugfix'||S32'build'||S32'state'||ARR16{S8}$S8$'name'|]
+// tag-#anon#ST[S32'major'||S32'minor'||S32'bugfix'||S32'build'||S32'state'||ARR16{S8}_S8_'name'|]
 // file ../include/pi-userland.h line 129
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'sock'||S32'state'||S32'local'||S32'flags'||U16'tid'||U48'$pad0'||*{V}$V$'priv'|]
+// tag-#anon#ST[S32'sock'||S32'state'||S32'local'||S32'flags'||U16'tid'||U48'_pad0'||*{V}_V_'priv'|]
 // file /usr/include/bluetooth/sdp_lib.h line 89
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'type'||S32'transferred_bytes'||*{V}$V$'userinfo'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[*{SYM#tag-pi_file#}$SYM#tag-pi_file#$'pf'||SYM#tag-DBSizeInfo#'size'||S32'transferred_records'||U32'$pad0'|]#'db'||SYM#tag-#anon#ST[*{S8}$S8$'path'||S64'total_bytes'|]#'vfs'|]#'data'|]
+// tag-#anon#ST[S32'type'||S32'transferred_bytes'||*{V}_V_'userinfo'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[*{SYM#tag-pi_file#}_SYM#tag-pi_file#_'pf'||SYM#tag-DBSizeInfo#'size'||S32'transferred_records'||U32'_pad0'|]#'db'||SYM#tag-#anon#ST[*{S8}_S8_'path'||S64'total_bytes'|]#'vfs'|]#'data'|]
 // file ../include/pi-file.h line 94
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S16'offset'||U8't2'||U8'$pad0'||SYM#tag-#anon#ST[ENtag-DayOfWeek#{U32}$U32$'dayOfWeek'||ENtag-WeekOfMonth#{U32}$U32$'weekOfMonth'||ENtag-Month#{U32}$U32$'month'||U8'unknown'||U24'$pad0'|]#'dstStart'||SYM#tag-#anon#ST[ENtag-DayOfWeek#{U32}$U32$'dayOfWeek'||ENtag-WeekOfMonth#{U32}$U32$'weekOfMonth'||ENtag-Month#{U32}$U32$'month'||U8'unknown'||U24'$pad0'|]#'dstEnd'||U8'dstObserved'||U8't4'||U8'unknown'||U8'$pad1'||*{S8}$S8$'name'|]#'tz'||U8'unknownExists'||U8'unknown'||U16'$pad0'||SYM#tag-#anon#ST[S16'degrees'||S16'minutes'||ENtag-CompassDirection#{U32}$U32$'direction'|]#'latitude'||SYM#tag-#anon#ST[S16'degrees'||S16'minutes'||ENtag-CompassDirection#{U32}$U32$'direction'|]#'longitude'||U32'$pad1'||*{S8}$S8$'note'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S16'offset'||U8't2'||U8'_pad0'||SYM#tag-#anon#ST[ENtag-DayOfWeek#{U32}_U32_'dayOfWeek'||ENtag-WeekOfMonth#{U32}_U32_'weekOfMonth'||ENtag-Month#{U32}_U32_'month'||U8'unknown'||U24'_pad0'|]#'dstStart'||SYM#tag-#anon#ST[ENtag-DayOfWeek#{U32}_U32_'dayOfWeek'||ENtag-WeekOfMonth#{U32}_U32_'weekOfMonth'||ENtag-Month#{U32}_U32_'month'||U8'unknown'||U24'_pad0'|]#'dstEnd'||U8'dstObserved'||U8't4'||U8'unknown'||U8'_pad1'||*{S8}_S8_'name'|]#'tz'||U8'unknownExists'||U8'unknown'||U16'_pad0'||SYM#tag-#anon#ST[S16'degrees'||S16'minutes'||ENtag-CompassDirection#{U32}_U32_'direction'|]#'latitude'||SYM#tag-#anon#ST[S16'degrees'||S16'minutes'||ENtag-CompassDirection#{U32}_U32_'direction'|]#'longitude'||U32'_pad1'||*{S8}_S8_'note'|]
 // file ../include/pi-location.h line 71
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[U16'num_ports'||ARR2{SYM#tag-#anon#ST[U8'port_function_id'||U8'port'|]#}$SYM#tag-#anon#ST[U8'port_function_id'||U8'port'|]#$'connections'|]
+// tag-#anon#ST[U16'num_ports'||ARR2{SYM#tag-#anon#ST[U8'port_function_id'||U8'port'|]#}_SYM#tag-#anon#ST[U8'port_function_id'||U8'port'|]#_'connections'|]
 // file ../include/pi-usb.h line 109
-struct anonymous$32;
+struct anonymous_32;
 
 // tag-#anon#ST[U16'sec'||U16'min'||U16'hour'||U16'day'||U16'month'||U16'year'||U16's'|]
 // file ../include/pi-notepad.h line 36
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[U32'handle'||U32'$pad0'||*{SYM#tag-_sdp_list#}$SYM#tag-_sdp_list#$'pattern'||*{SYM#tag-_sdp_list#}$SYM#tag-_sdp_list#$'attrlist'||SYM#tag-#anon#ST[U8'type'||U24'$pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uuid128'|]#'value'|]#'svclass'||U32'$pad1'|]
+// tag-#anon#ST[U32'handle'||U32'_pad0'||*{SYM#tag-_sdp_list#}_SYM#tag-_sdp_list#_'pattern'||*{SYM#tag-_sdp_list#}_SYM#tag-_sdp_list#_'attrlist'||SYM#tag-#anon#ST[U8'type'||U24'_pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uuid128'|]#'value'|]#'svclass'||U32'_pad1'|]
 // file /usr/include/bluetooth/sdp.h line 505
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[U8'num_ports'||U8'endpoint_numbers_different'||U16'reserved1'||ARR2{SYM#tag-#anon#ST[ARR4{S8}$S8$'port_function_id'||U8'port'||U8'endpoint_info'||U16'reserved'|]#}$SYM#tag-#anon#ST[ARR4{S8}$S8$'port_function_id'||U8'port'||U8'endpoint_info'||U16'reserved'|]#$'connections'|]
+// tag-#anon#ST[U8'num_ports'||U8'endpoint_numbers_different'||U16'reserved1'||ARR2{SYM#tag-#anon#ST[ARR4{S8}_S8_'port_function_id'||U8'port'||U8'endpoint_info'||U16'reserved'|]#}_SYM#tag-#anon#ST[ARR4{S8}_S8_'port_function_id'||U8'port'||U8'endpoint_info'||U16'reserved'|]#_'connections'|]
 // file ../include/pi-usb.h line 133
-struct anonymous$35;
+struct anonymous_35;
 
 // tag-#anon#ST[U8'port_function_id'||U8'port'|]
 // file ../include/pi-usb.h line 112
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[U8'type'||U24'$pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uuid128'|]#'value'|]
+// tag-#anon#ST[U8'type'||U24'_pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uuid128'|]#'value'|]
 // file /usr/include/bluetooth/sdp.h line 445
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#UN[*{S8}$S8$'ifcu_buf'||*{SYM#tag-ifreq#}$SYM#tag-ifreq#$'ifcu_req'|]
+// tag-#anon#UN[*{S8}_S8_'ifcu_buf'||*{SYM#tag-ifreq#}_SYM#tag-ifreq#_'ifcu_req'|]
 // file /usr/include/net/if.h line 179
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/net/if.h line 130
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[S8'int8'||S16'int16'||S32'int32'||S64'int64'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'int128'||U8'uint8'||U16'uint16'||U32'uint32'||U64'uint64'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uint128'||SYM#tag-#anon#ST[U8'type'||U24'$pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uuid128'|]#'value'|]#'uuid'||*{S8}$S8$'str'||*{SYM#tag-sdp_data_struct#}$SYM#tag-sdp_data_struct#$'dataseq'||U192'$pad'|]
+// tag-#anon#UN[S8'int8'||S16'int16'||S32'int32'||S64'int64'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'int128'||U8'uint8'||U16'uint16'||U32'uint32'||U64'uint64'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uint128'||SYM#tag-#anon#ST[U8'type'||U24'_pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uuid128'|]#'value'|]#'uuid'||*{S8}_S8_'str'||*{SYM#tag-sdp_data_struct#}_SYM#tag-sdp_data_struct#_'dataseq'||U192'_pad'|]
 // file /usr/include/bluetooth/sdp.h line 520
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[*{SYM#tag-pi_file#}$SYM#tag-pi_file#$'pf'||SYM#tag-DBSizeInfo#'size'||S32'transferred_records'||U32'$pad0'|]#'db'||SYM#tag-#anon#ST[*{S8}$S8$'path'||S64'total_bytes'|]#'vfs'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[*{SYM#tag-pi_file#}_SYM#tag-pi_file#_'pf'||SYM#tag-DBSizeInfo#'size'||S32'transferred_records'||U32'_pad0'|]#'db'||SYM#tag-#anon#ST[*{S8}_S8_'path'||S64'total_bytes'|]#'vfs'|]
 // file ../include/pi-file.h line 98
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{S8}$S8$'ifru_data'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{S8}_S8_'ifru_data'|]
 // file /usr/include/net/if.h line 135
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uuid128'|]
+// tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uuid128'|]
 // file /usr/include/bluetooth/sdp.h line 447
-union anonymous$19;
+union anonymous_19;
 
 // tag-Address
 // file ../include/pi-address.h line 59
@@ -760,7 +760,7 @@ extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 extern signed int access(const char *, signed int);
 // add_hotsync
 // file bluetooth.c line 124
-static signed int add_hotsync(struct anonymous$21 *session, struct anonymous$20 *rec, struct anonymous$18 *interface, struct anonymous$23 *si, unsigned int *handle, signed int *channel_ret);
+static signed int add_hotsync(struct anonymous_21 *session, struct anonymous_20 *rec, struct anonymous_18 *interface, struct anonymous_23 *si, unsigned int *handle, signed int *channel_ret);
 // alarm
 // file /usr/include/unistd.h line 432
 extern unsigned int alarm(unsigned int);
@@ -772,10 +772,10 @@ extern signed int atexit(void (*)(void));
 extern signed int atoi(const char *);
 // bacmp
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp(const struct anonymous$18 *ba1, const struct anonymous$18 *ba2);
+static inline signed int bacmp(const struct anonymous_18 *ba1, const struct anonymous_18 *ba2);
 // bacpy
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy(struct anonymous$18 *dst, const struct anonymous$18 *src);
+static inline void bacpy(struct anonymous_18 *dst, const struct anonymous_18 *src);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
 extern signed int bind(signed int, struct sockaddr *, unsigned int);
@@ -853,10 +853,10 @@ extern signed int connect(signed int, struct sockaddr *, unsigned int);
 extern signed int copy_CalendarEvent(const struct CalendarEvent *source, struct CalendarEvent *dest);
 // copy_Location
 // file location.c line 141
-extern signed int copy_Location(const struct anonymous$27 *source, struct anonymous$27 *dest);
+extern signed int copy_Location(const struct anonymous_27 *source, struct anonymous_27 *dest);
 // copy_Timezone
 // file location.c line 102
-extern signed int copy_Timezone(const struct anonymous$25 *source, struct anonymous$25 *dest);
+extern signed int copy_Timezone(const struct anonymous_25 *source, struct anonymous_25 *dest);
 // crc16
 // file ../include/pi-source.h line 140
 extern signed int crc16(unsigned char *ptr, signed int count);
@@ -865,7 +865,7 @@ extern signed int crc16(unsigned char *ptr, signed int count);
 extern char * ctime(const signed long int *);
 // deregister_sdp
 // file bluetooth.c line 186
-static signed int deregister_sdp(unsigned int handle, struct anonymous$21 *sess);
+static signed int deregister_sdp(unsigned int handle, struct anonymous_21 *sess);
 // dlp_AbortSync
 // file dlp.c line 1944
 extern signed int dlp_AbortSync(signed int sd);
@@ -1177,10 +1177,10 @@ void dumpline(const char *buf, unsigned long int len, unsigned int addr);
 extern signed int dup2(signed int, signed int);
 // dup_Blob
 // file blob.c line 74
-extern struct anonymous$28 * dup_Blob(const struct anonymous$28 *blob);
+extern struct anonymous_28 * dup_Blob(const struct anonymous_28 *blob);
 // dup_Timezone
 // file location.c line 200
-extern struct anonymous$25 * dup_Timezone(const struct anonymous$25 *tz);
+extern struct anonymous_25 * dup_Timezone(const struct anonymous_25 *tz);
 // env_dbgcheck
 // file socket.c line 698
 static void env_dbgcheck(void);
@@ -1231,7 +1231,7 @@ extern void free_Address(struct Address *addr);
 extern void free_Appointment(struct Appointment *a);
 // free_Blob
 // file blob.c line 54
-extern void free_Blob(struct anonymous$28 *blob);
+extern void free_Blob(struct anonymous_28 *blob);
 // free_CalendarEvent
 // file calendar.c line 210
 extern void free_CalendarEvent(struct CalendarEvent *a);
@@ -1249,7 +1249,7 @@ extern void free_Expense(struct Expense *expense);
 extern void free_HiNoteNote(struct HiNoteNote *hinote);
 // free_Location
 // file location.c line 177
-extern void free_Location(struct anonymous$27 *loc);
+extern void free_Location(struct anonymous_27 *loc);
 // free_Mail
 // file mail.c line 56
 extern void free_Mail(struct Mail *mail);
@@ -1273,7 +1273,7 @@ void free_NotePad(struct NotePad *a);
 extern signed int free_PalmPix_data(struct PalmPixState *s);
 // free_Timezone
 // file location.c line 235
-extern void free_Timezone(struct anonymous$25 *tz);
+extern void free_Timezone(struct anonymous_25 *tz);
 // free_ToDo
 // file todo.c line 58
 extern void free_ToDo(struct ToDo *todo);
@@ -1423,10 +1423,10 @@ extern signed int net_tx_handshake(struct pi_socket *ps);
 extern void new_CalendarEvent(struct CalendarEvent *a);
 // new_Location
 // file location.c line 74
-extern void new_Location(struct anonymous$27 *a);
+extern void new_Location(struct anonymous_27 *a);
 // new_Timezone
 // file location.c line 44
-extern void new_Timezone(struct anonymous$25 *a);
+extern void new_Timezone(struct anonymous_25 *a);
 // ntohl
 // file /usr/include/netinet/in.h line 374
 extern unsigned int ntohl(unsigned int);
@@ -1444,37 +1444,37 @@ static void onexit(void);
 extern signed int open(const char *, signed int, ...);
 // pack_Address
 // file address.c line 134
-extern signed int pack_Address(const struct Address *addr, struct pi_buffer_t *buf, enum anonymous$6 type);
+extern signed int pack_Address(const struct Address *addr, struct pi_buffer_t *buf, enum anonymous_6 type);
 // pack_AddressAppInfo
 // file address.c line 263
 extern signed int pack_AddressAppInfo(const struct AddressAppInfo *ai, unsigned char *record, unsigned long int len);
 // pack_Appointment
 // file datebook.c line 281
-extern signed int pack_Appointment(const struct Appointment *a, struct pi_buffer_t *buf, enum anonymous$8 type);
+extern signed int pack_Appointment(const struct Appointment *a, struct pi_buffer_t *buf, enum anonymous_8 type);
 // pack_AppointmentAppInfo
 // file datebook.c line 458
 extern signed int pack_AppointmentAppInfo(const struct AppointmentAppInfo *ai, unsigned char *record, unsigned long int len);
 // pack_Blob
 // file blob.c line 149
-extern signed int pack_Blob(const struct anonymous$28 *blob, struct pi_buffer_t *buf);
+extern signed int pack_Blob(const struct anonymous_28 *blob, struct pi_buffer_t *buf);
 // pack_CalendarAppInfo
 // file calendar.c line 698
 extern signed int pack_CalendarAppInfo(const struct CalendarAppInfo *ai, struct pi_buffer_t *buf);
 // pack_CalendarEvent
 // file calendar.c line 488
-extern signed int pack_CalendarEvent(const struct CalendarEvent *a, struct pi_buffer_t *buf, enum anonymous$29 type);
+extern signed int pack_CalendarEvent(const struct CalendarEvent *a, struct pi_buffer_t *buf, enum anonymous_29 type);
 // pack_CategoryAppInfo
 // file ../include/pi-appinfo.h line 44
 extern signed int pack_CategoryAppInfo(const struct CategoryAppInfo *ai, unsigned char *record, unsigned long int len);
 // pack_Contact
 // file contact.c line 239
-extern signed int pack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum anonymous$7 type);
+extern signed int pack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum anonymous_7 type);
 // pack_ContactAppInfo
 // file contact.c line 556
 extern signed int pack_ContactAppInfo(struct ContactAppInfo *ai, struct pi_buffer_t *buf);
 // pack_DST
 // file location.c line 573
-extern signed int pack_DST(const struct anonymous$24 *dst, struct pi_buffer_t *buf);
+extern signed int pack_DST(const struct anonymous_24 *dst, struct pi_buffer_t *buf);
 // pack_Expense
 // file expense.c line 217
 extern signed int pack_Expense(struct Expense *expense, unsigned char *record, signed int len);
@@ -1492,7 +1492,7 @@ extern signed int pack_HiNoteAppInfo(struct HiNoteAppInfo *appinfo, unsigned cha
 extern signed int pack_HiNoteNote(struct HiNoteNote *hinote, unsigned char *buffer, signed int len);
 // pack_Location
 // file location.c line 748
-extern signed int pack_Location(const struct anonymous$27 *loc, struct pi_buffer_t *buf);
+extern signed int pack_Location(const struct anonymous_27 *loc, struct pi_buffer_t *buf);
 // pack_Mail
 // file mail.c line 316
 extern signed int pack_Mail(struct Mail *mail, unsigned char *buffer, unsigned long int len);
@@ -1507,7 +1507,7 @@ extern signed int pack_MailSignaturePref(struct MailSignaturePref *pref, unsigne
 extern signed int pack_MailSyncPref(struct MailSyncPref *pref, unsigned char *record, unsigned long int len);
 // pack_Memo
 // file memo.c line 87
-extern signed int pack_Memo(const struct Memo *memo, struct pi_buffer_t *record, enum anonymous$30 type);
+extern signed int pack_Memo(const struct Memo *memo, struct pi_buffer_t *record, enum anonymous_30 type);
 // pack_MemoAppInfo
 // file memo.c line 156
 extern signed int pack_MemoAppInfo(const struct MemoAppInfo *appinfo, unsigned char *record, unsigned long int len);
@@ -1522,10 +1522,10 @@ signed int pack_NotePad(struct NotePad *notepad, unsigned char *buf, unsigned lo
 signed int pack_NotePadAppInfo(struct NotePadAppInfo *appinfo, unsigned char *record, unsigned long int len);
 // pack_Timezone
 // file location.c line 695
-extern signed int pack_Timezone(const struct anonymous$25 *tz, struct pi_buffer_t *buf);
+extern signed int pack_Timezone(const struct anonymous_25 *tz, struct pi_buffer_t *buf);
 // pack_ToDo
 // file todo.c line 166
-extern signed int pack_ToDo(const struct ToDo *todo, struct pi_buffer_t *buf, enum anonymous$13 type);
+extern signed int pack_ToDo(const struct ToDo *todo, struct pi_buffer_t *buf, enum anonymous_13 type);
 // pack_ToDoAppInfo
 // file todo.c line 266
 extern signed int pack_ToDoAppInfo(const struct ToDoAppInfo *appinfo, unsigned char *record, unsigned long int len);
@@ -1735,16 +1735,16 @@ extern void pi_file_get_sort_info(struct pi_file *pf, void **datap, unsigned lon
 extern signed int pi_file_id_used(const struct pi_file *pf, unsigned long int uid);
 // pi_file_install
 // file pi-file.c line 853
-extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous$5 *));
-// pi_file_install::report_progress$object
+extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous_5 *));
+// pi_file_install::report_progress_object
 //
-signed int report_progress$object(signed int, struct anonymous$5 *);
+signed int report_progress_object(signed int, struct anonymous_5 *);
 // pi_file_merge
 // file pi-file.c line 1109
-extern signed int pi_file_merge(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous$5 *));
-// pi_file_merge::report_progress$object
+extern signed int pi_file_merge(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous_5 *));
+// pi_file_merge::report_progress_object
 //
-signed int report_progress$object(signed int, struct anonymous$5 *);
+signed int report_progress_object(signed int, struct anonymous_5 *);
 // pi_file_open
 // file pi-file.c line 143
 extern struct pi_file * pi_file_open(const char *name);
@@ -1762,10 +1762,10 @@ extern signed int pi_file_read_resource(struct pi_file *pf, signed int i, void *
 extern signed int pi_file_read_resource_by_type_id(struct pi_file *pf, unsigned long int restype, signed int resid, void **bufp, unsigned long int *sizep, signed int *resindex);
 // pi_file_retrieve
 // file pi-file.c line 683
-extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous$5 *));
-// pi_file_retrieve::report_progress$object
+extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous_5 *));
+// pi_file_retrieve::report_progress_object
 //
-signed int report_progress$object(signed int, struct anonymous$5 *);
+signed int report_progress_object(signed int, struct anonymous_5 *);
 // pi_file_set_app_info
 // file pi-file.c line 571
 extern signed int pi_file_set_app_info(struct pi_file *pf, void *data, unsigned long int size);
@@ -2020,7 +2020,7 @@ extern signed int plu_connect(void);
 extern signed int plu_findcategory(struct CategoryAppInfo *info, const char *name, signed int flags);
 // plu_getromversion
 // file userland.c line 190
-extern signed int plu_getromversion(signed int sd, struct anonymous$14 *d);
+extern signed int plu_getromversion(signed int sd, struct anonymous_14 *d);
 // plu_popt_alias
 // file plu_args.c line 83
 void plu_popt_alias(struct poptContext_s *pc, const char *alias_long, char alias_short, const char *expansion);
@@ -2104,13 +2104,13 @@ static struct pi_socket_list * ps_list_remove(struct pi_socket_list *list, signe
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$1 *);
+extern signed int pthread_cond_broadcast(union anonymous_1 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$1 *, union anonymous *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_1 *, union anonymous *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$1 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_1 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -2143,7 +2143,7 @@ extern signed long int recv(signed int, void *, unsigned long int, signed int);
 extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
 // register_sdp
 // file bluetooth.c line 170
-static signed int register_sdp(unsigned int *handle, signed int *channel, struct anonymous$21 **sess);
+static signed int register_sdp(unsigned int *handle, signed int *channel, struct anonymous_21 **sess);
 // rename
 // file /usr/include/stdio.h line 180
 extern signed int rename(const char *, const char *);
@@ -2173,16 +2173,16 @@ static unsigned long int s_read_buf(struct pi_socket *ps, struct pi_buffer_t *bu
 static signed long int s_write(struct pi_socket *ps, const unsigned char *buf, unsigned long int len, signed int flags);
 // sdp_close
 // file /usr/include/bluetooth/sdp_lib.h line 133
-signed int sdp_close(struct anonymous$21 *);
+signed int sdp_close(struct anonymous_21 *);
 // sdp_connect
 // file /usr/include/bluetooth/sdp_lib.h line 132
-struct anonymous$21 * sdp_connect(const struct anonymous$18 *, const struct anonymous$18 *, unsigned int);
+struct anonymous_21 * sdp_connect(const struct anonymous_18 *, const struct anonymous_18 *, unsigned int);
 // sdp_data_alloc
 // file /usr/include/bluetooth/sdp_lib.h line 162
 struct sdp_data_struct * sdp_data_alloc(unsigned char, const void *);
 // sdp_device_record_register
 // file /usr/include/bluetooth/sdp_lib.h line 448
-signed int sdp_device_record_register(struct anonymous$21 *, struct anonymous$18 *, struct anonymous$20 *, unsigned char);
+signed int sdp_device_record_register(struct anonymous_21 *, struct anonymous_18 *, struct anonymous_20 *, unsigned char);
 // sdp_list_append
 // file /usr/include/bluetooth/sdp_lib.h line 45
 struct _sdp_list * sdp_list_append(struct _sdp_list *, void *);
@@ -2191,34 +2191,34 @@ struct _sdp_list * sdp_list_append(struct _sdp_list *, void *);
 void sdp_list_free(struct _sdp_list *, void (*)(void *));
 // sdp_record_unregister
 // file /usr/include/bluetooth/sdp_lib.h line 456
-signed int sdp_record_unregister(struct anonymous$21 *, struct anonymous$20 *);
+signed int sdp_record_unregister(struct anonymous_21 *, struct anonymous_20 *);
 // sdp_service_attr_req
 // file /usr/include/bluetooth/sdp_lib.h line 386
-struct anonymous$20 * sdp_service_attr_req(struct anonymous$21 *, unsigned int, enum anonymous$22, const struct _sdp_list *);
+struct anonymous_20 * sdp_service_attr_req(struct anonymous_21 *, unsigned int, enum anonymous_22, const struct _sdp_list *);
 // sdp_set_access_protos
 // file /usr/include/bluetooth/sdp_lib.h line 234
-signed int sdp_set_access_protos(struct anonymous$20 *, const struct _sdp_list *);
+signed int sdp_set_access_protos(struct anonymous_20 *, const struct _sdp_list *);
 // sdp_set_browse_groups
 // file /usr/include/bluetooth/sdp_lib.h line 226
-static inline signed int sdp_set_browse_groups(struct anonymous$20 *rec, struct _sdp_list *seq);
+static inline signed int sdp_set_browse_groups(struct anonymous_20 *rec, struct _sdp_list *seq);
 // sdp_set_info_attr
 // file /usr/include/bluetooth/sdp_lib.h line 196
-void sdp_set_info_attr(struct anonymous$20 *, const char *, const char *, const char *);
+void sdp_set_info_attr(struct anonymous_20 *, const char *, const char *, const char *);
 // sdp_set_service_classes
 // file /usr/include/bluetooth/sdp_lib.h line 204
-static inline signed int sdp_set_service_classes(struct anonymous$20 *rec, struct _sdp_list *seq);
+static inline signed int sdp_set_service_classes(struct anonymous_20 *rec, struct _sdp_list *seq);
 // sdp_set_uuidseq_attr
 // file /usr/include/bluetooth/sdp_lib.h line 174
-signed int sdp_set_uuidseq_attr(struct anonymous$20 *, unsigned short int, struct _sdp_list *);
+signed int sdp_set_uuidseq_attr(struct anonymous_20 *, unsigned short int, struct _sdp_list *);
 // sdp_uuid128_create
 // file /usr/include/bluetooth/sdp_lib.h line 474
-struct anonymous$16 * sdp_uuid128_create(struct anonymous$16 *, const void *);
+struct anonymous_16 * sdp_uuid128_create(struct anonymous_16 *, const void *);
 // sdp_uuid16_create
 // file /usr/include/bluetooth/sdp_lib.h line 472
-struct anonymous$16 * sdp_uuid16_create(struct anonymous$16 *, unsigned short int);
+struct anonymous_16 * sdp_uuid16_create(struct anonymous_16 *, unsigned short int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$9 *, struct anonymous$9 *, struct anonymous$9 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_9 *, struct anonymous_9 *, struct anonymous_9 *, struct timeval *);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
 extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
@@ -2278,7 +2278,7 @@ extern signed int sprintf(char *, const char *, ...);
 extern signed int stat(const char *, struct stat *);
 // str2ba
 // file /usr/include/bluetooth/bluetooth.h line 327
-signed int str2ba(const char *, struct anonymous$18 *);
+signed int str2ba(const char *, struct anonymous_18 *);
 // strchr
 // file /usr/include/string.h line 235
 extern char * strchr(const char *, signed int);
@@ -2428,40 +2428,40 @@ extern unsigned long int unix_time_to_pilot_time(signed long int t);
 extern signed int unlink(const char *);
 // unpack_Address
 // file address.c line 72
-extern signed int unpack_Address(struct Address *addr, const struct pi_buffer_t *buf, enum anonymous$6 type);
+extern signed int unpack_Address(struct Address *addr, const struct pi_buffer_t *buf, enum anonymous_6 type);
 // unpack_AddressAppInfo
 // file address.c line 207
 extern signed int unpack_AddressAppInfo(struct AddressAppInfo *ai, const unsigned char *record, unsigned long int len);
 // unpack_Appointment
 // file datebook.c line 102
-extern signed int unpack_Appointment(struct Appointment *a, const struct pi_buffer_t *buf, enum anonymous$8 type);
+extern signed int unpack_Appointment(struct Appointment *a, const struct pi_buffer_t *buf, enum anonymous_8 type);
 // unpack_AppointmentAppInfo
 // file datebook.c line 427
 extern signed int unpack_AppointmentAppInfo(struct AppointmentAppInfo *ai, const unsigned char *record, unsigned long int len);
 // unpack_Blob_p
 // file blob.c line 114
-extern signed int unpack_Blob_p(struct anonymous$28 *blob, const unsigned char *data, const unsigned long int position);
+extern signed int unpack_Blob_p(struct anonymous_28 *blob, const unsigned char *data, const unsigned long int position);
 // unpack_CalendarAppInfo
 // file calendar.c line 652
 extern signed int unpack_CalendarAppInfo(struct CalendarAppInfo *ai, struct pi_buffer_t *buf);
 // unpack_CalendarEvent
 // file calendar.c line 262
-extern signed int unpack_CalendarEvent(struct CalendarEvent *a, const struct pi_buffer_t *buf, enum anonymous$29 type);
+extern signed int unpack_CalendarEvent(struct CalendarEvent *a, const struct pi_buffer_t *buf, enum anonymous_29 type);
 // unpack_CategoryAppInfo
 // file ../include/pi-appinfo.h line 42
 extern signed int unpack_CategoryAppInfo(struct CategoryAppInfo *ai, const unsigned char *record, unsigned long int len);
 // unpack_Contact
 // file contact.c line 80
-extern signed int unpack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum anonymous$7 type);
+extern signed int unpack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum anonymous_7 type);
 // unpack_ContactAppInfo
 // file contact.c line 463
 extern signed int unpack_ContactAppInfo(struct ContactAppInfo *ai, struct pi_buffer_t *buf);
 // unpack_DST
 // file location.c line 255
-extern signed int unpack_DST(struct anonymous$24 *dst, const struct pi_buffer_t *buf);
+extern signed int unpack_DST(struct anonymous_24 *dst, const struct pi_buffer_t *buf);
 // unpack_DST_p
 // file location.c line 262
-extern signed int unpack_DST_p(struct anonymous$24 *dst, const unsigned char *data, const unsigned long int position);
+extern signed int unpack_DST_p(struct anonymous_24 *dst, const unsigned char *data, const unsigned long int position);
 // unpack_Expense
 // file expense.c line 110
 extern signed int unpack_Expense(struct Expense *expense, unsigned char *buffer, signed int len);
@@ -2479,7 +2479,7 @@ extern signed int unpack_HiNoteAppInfo(struct HiNoteAppInfo *appinfo, unsigned c
 extern signed int unpack_HiNoteNote(struct HiNoteNote *hinote, unsigned char *buffer, signed int len);
 // unpack_Location
 // file location.c line 487
-extern signed int unpack_Location(struct anonymous$27 *loc, const struct pi_buffer_t *buf);
+extern signed int unpack_Location(struct anonymous_27 *loc, const struct pi_buffer_t *buf);
 // unpack_Mail
 // file mail.c line 183
 extern signed int unpack_Mail(struct Mail *mail, unsigned char *buffer, unsigned long int len);
@@ -2494,7 +2494,7 @@ extern signed int unpack_MailSignaturePref(struct MailSignaturePref *pref, unsig
 extern signed int unpack_MailSyncPref(struct MailSyncPref *pref, unsigned char *record, unsigned long int len);
 // unpack_Memo
 // file memo.c line 63
-extern signed int unpack_Memo(struct Memo *memo, const struct pi_buffer_t *record, enum anonymous$30 type);
+extern signed int unpack_Memo(struct Memo *memo, const struct pi_buffer_t *record, enum anonymous_30 type);
 // unpack_MemoAppInfo
 // file memo.c line 121
 extern signed int unpack_MemoAppInfo(struct MemoAppInfo *appinfo, const unsigned char *record, unsigned long int len);
@@ -2515,13 +2515,13 @@ extern signed int unpack_PalmPix(struct PalmPixState *s, struct PalmPixHeader *h
 extern signed int unpack_PalmPixHeader(struct PalmPixHeader *h, const unsigned char *p, signed int len);
 // unpack_Timezone
 // file location.c line 390
-extern signed int unpack_Timezone(struct anonymous$25 *tz, const struct pi_buffer_t *buf);
+extern signed int unpack_Timezone(struct anonymous_25 *tz, const struct pi_buffer_t *buf);
 // unpack_Timezone_p
 // file location.c line 399
-extern signed int unpack_Timezone_p(struct anonymous$25 *tz, const unsigned char *data, const unsigned long int position);
+extern signed int unpack_Timezone_p(struct anonymous_25 *tz, const unsigned char *data, const unsigned long int position);
 // unpack_ToDo
 // file todo.c line 86
-extern signed int unpack_ToDo(struct ToDo *todo, const struct pi_buffer_t *buf, enum anonymous$13 type);
+extern signed int unpack_ToDo(struct ToDo *todo, const struct pi_buffer_t *buf, enum anonymous_13 type);
 // unpack_ToDoAppInfo
 // file todo.c line 232
 extern signed int unpack_ToDoAppInfo(struct ToDoAppInfo *appinfo, const unsigned char *record, unsigned long int len);
@@ -2586,7 +2586,7 @@ extern signed int vfprintf(struct _IO_FILE *, const char *, void **);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$23
+struct anonymous_23
 {
   // name
   char *name;
@@ -2602,7 +2602,7 @@ struct anonymous$23
   unsigned int channel;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // path
   char *path;
@@ -2626,7 +2626,7 @@ struct DBSizeInfo
   unsigned long int maxRecSize;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // pf
   struct pi_file *pf;
@@ -2636,19 +2636,19 @@ struct anonymous$2
   signed int transferred_records;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // data
   unsigned char data[16l];
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // port_function_id
   char port_function_id[4l];
@@ -2660,7 +2660,7 @@ struct anonymous$34
   unsigned short int reserved;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // type
   char type[4l];
@@ -2670,13 +2670,13 @@ struct anonymous$28
   unsigned char *data;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // b
   unsigned char b[6l];
 } __attribute__ ((__packed__));
 
-struct anonymous$24
+struct anonymous_24
 {
   // dayOfWeek
   enum DayOfWeek dayOfWeek;
@@ -2688,7 +2688,7 @@ struct anonymous$24
   unsigned char unknown;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // degrees
   signed short int degrees;
@@ -2698,16 +2698,16 @@ struct anonymous$26
   enum CompassDirection direction;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // offset
   signed short int offset;
   // t2
   unsigned char t2;
   // dstStart
-  struct anonymous$24 dstStart;
+  struct anonymous_24 dstStart;
   // dstEnd
-  struct anonymous$24 dstEnd;
+  struct anonymous_24 dstEnd;
   // dstObserved
   unsigned char dstObserved;
   // t4
@@ -2718,7 +2718,7 @@ struct anonymous$25
   char *name;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __lock
   signed int __lock;
@@ -2738,7 +2738,7 @@ struct anonymous$0
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // major
   signed int major;
@@ -2754,7 +2754,7 @@ struct anonymous$14
   char name[16l];
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // sock
   signed int sock;
@@ -2770,15 +2770,15 @@ struct anonymous$21
   void *priv;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // db
-  struct anonymous$2 db;
+  struct anonymous_2 db;
   // vfs
-  struct anonymous$3 vfs;
+  struct anonymous_3 vfs;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // type
   signed int type;
@@ -2787,26 +2787,26 @@ struct anonymous$5
   // userinfo
   void *userinfo;
   // data
-  union anonymous$4 data;
+  union anonymous_4 data;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // tz
-  struct anonymous$25 tz;
+  struct anonymous_25 tz;
   // unknownExists
   unsigned char unknownExists;
   // unknown
   unsigned char unknown;
   // latitude
-  struct anonymous$26 latitude;
+  struct anonymous_26 latitude;
   // longitude
-  struct anonymous$26 longitude;
+  struct anonymous_26 longitude;
   // note
   char *note;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // port_function_id
   unsigned char port_function_id;
@@ -2814,15 +2814,15 @@ struct anonymous$31
   unsigned char port;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // num_ports
   unsigned short int num_ports;
   // connections
-  struct anonymous$31 connections[2l];
+  struct anonymous_31 connections[2l];
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // sec
   unsigned short int sec;
@@ -2840,25 +2840,25 @@ struct anonymous$33
   unsigned short int s;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // uuid16
   unsigned short int uuid16;
   // uuid32
   unsigned int uuid32;
   // uuid128
-  struct anonymous$15 uuid128;
+  struct anonymous_15 uuid128;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // type
   unsigned char type;
   // value
-  union anonymous$19 value;
+  union anonymous_19 value;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // handle
   unsigned int handle;
@@ -2867,10 +2867,10 @@ struct anonymous$20
   // attrlist
   struct _sdp_list *attrlist;
   // svclass
-  struct anonymous$16 svclass;
+  struct anonymous_16 svclass;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // num_ports
   unsigned char num_ports;
@@ -2879,10 +2879,10 @@ struct anonymous$35
   // reserved1
   unsigned short int reserved1;
   // connections
-  struct anonymous$34 connections[2l];
+  struct anonymous_34 connections[2l];
 };
 
-union anonymous$12
+union anonymous_12
 {
   // ifcu_buf
   char *ifcu_buf;
@@ -2890,13 +2890,13 @@ union anonymous$12
   struct ifreq *ifcu_req;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // ifrn_name
   char ifrn_name[16l];
 };
 
-union anonymous$17
+union anonymous_17
 {
   // int8
   signed char int8;
@@ -2907,7 +2907,7 @@ union anonymous$17
   // int64
   signed long int int64;
   // int128
-  struct anonymous$15 int128;
+  struct anonymous_15 int128;
   // uint8
   unsigned char uint8;
   // uint16
@@ -2917,19 +2917,19 @@ union anonymous$17
   // uint64
   unsigned long int uint64;
   // uint128
-  struct anonymous$15 uint128;
+  struct anonymous_15 uint128;
   // uuid
-  struct anonymous$16 uuid;
+  struct anonymous_16 uuid;
   // str
   char *str;
   // dataseq
   struct sdp_data_struct *dataseq;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$0 __data;
+  struct anonymous_0 __data;
   // __size
   char __size[48l];
   // __align
@@ -2998,7 +2998,7 @@ struct ifmap
   unsigned char port;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -3051,7 +3051,7 @@ struct CategoryAppInfo
 struct AddressAppInfo
 {
   // type
-  enum anonymous$6 type;
+  enum anonymous_6 type;
   // category
   struct CategoryAppInfo category;
   // labels
@@ -3141,7 +3141,7 @@ struct AppointmentAppInfo
 struct CalendarAppInfo
 {
   // type
-  enum anonymous$29 type;
+  enum anonymous_29 type;
   // category
   struct CategoryAppInfo category;
   // startOfWeek
@@ -3189,9 +3189,9 @@ struct CalendarEvent
   // location
   char *location;
   // blob
-  struct anonymous$28 *blob[10l];
+  struct anonymous_28 *blob[10l];
   // tz
-  struct anonymous$25 *tz;
+  struct anonymous_25 *tz;
 };
 
 struct CardInfo
@@ -3257,7 +3257,7 @@ struct Contact
 struct ContactAppInfo
 {
   // type
-  enum anonymous$7 type;
+  enum anonymous_7 type;
   // num_labels
   signed int num_labels;
   // category
@@ -3497,7 +3497,7 @@ struct Memo
 struct MemoAppInfo
 {
   // type
-  enum anonymous$30 type;
+  enum anonymous_30 type;
   // category
   struct CategoryAppInfo category;
   // sortByAlpha
@@ -3545,15 +3545,15 @@ struct body
 struct NotePad
 {
   // createDate
-  struct anonymous$33 createDate;
+  struct anonymous_33 createDate;
   // changeDate
-  struct anonymous$33 changeDate;
+  struct anonymous_33 changeDate;
   // flags
   unsigned short int flags;
   // name
   char *name;
   // alarmDate
-  struct anonymous$33 alarmDate;
+  struct anonymous_33 alarmDate;
   // body
   struct body body;
   // data
@@ -3769,7 +3769,7 @@ struct ToDo
 struct ToDoAppInfo
 {
   // type
-  enum anonymous$13 type;
+  enum anonymous_13 type;
   // category
   struct CategoryAppInfo category;
   // dirty
@@ -4107,15 +4107,15 @@ struct ifconf
   // ifc_len
   signed int ifc_len;
   // ifc_ifcu
-  union anonymous$12 ifc_ifcu;
+  union anonymous_12 ifc_ifcu;
 };
 
 struct ifreq
 {
   // ifr_ifrn
-  union anonymous$10 ifr_ifrn;
+  union anonymous_10 ifr_ifrn;
   // ifr_ifru
-  union anonymous$11 ifr_ifru;
+  union anonymous_11 ifr_ifru;
 };
 
 struct in_addr
@@ -4163,7 +4163,7 @@ struct pi_bluetooth_data
   // handle
   unsigned int handle;
   // sess
-  struct anonymous$21 *sess;
+  struct anonymous_21 *sess;
   // timeout
   signed int timeout;
 };
@@ -4593,7 +4593,7 @@ struct sdp_data_struct
   // attrId
   unsigned short int attrId;
   // val
-  union anonymous$17 val;
+  union anonymous_17 val;
   // next
   struct sdp_data_struct *next;
   // unitSize
@@ -4639,7 +4639,7 @@ struct sockaddr_rc
   // rc_family
   unsigned short int rc_family;
   // rc_bdaddr
-  struct anonymous$18 rc_bdaddr;
+  struct anonymous_18 rc_bdaddr;
   // rc_channel
   unsigned char rc_channel;
 };
@@ -4890,7 +4890,7 @@ char *MailSyncTypeNames[4l] = { "All", "Send", "Filter", (char *)(void *)0 };
 static char *RD_buffer = (char *)(void *)0;
 // RD_buffer_available_cond
 // file libusb.c line 261
-static union anonymous$1 RD_buffer_available_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_1 RD_buffer_available_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -5200,64 +5200,64 @@ signed int ColourCorrect(struct PalmPixHeader *picHdr, unsigned char *r, unsigne
   grMax = rMax;
   gbMax = grMax;
   i = 0;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
   for( ; !(i >= (signed int)height * (signed int)width); i = i + 1)
   {
     if(!((signed int)gbMin >= (signed int)gb[(signed long int)i]))
-      tmp_if_expr$1 = (signed int)gbMin;
+      tmp_if_expr_1 = (signed int)gbMin;
 
     else
-      tmp_if_expr$1 = (signed int)gb[(signed long int)i];
-    gbMin = (unsigned char)tmp_if_expr$1;
+      tmp_if_expr_1 = (signed int)gb[(signed long int)i];
+    gbMin = (unsigned char)tmp_if_expr_1;
     if(!((signed int)grMin >= (signed int)gr[(signed long int)i]))
-      tmp_if_expr$2 = (signed int)grMin;
+      tmp_if_expr_2 = (signed int)grMin;
 
     else
-      tmp_if_expr$2 = (signed int)gr[(signed long int)i];
-    grMin = (unsigned char)tmp_if_expr$2;
+      tmp_if_expr_2 = (signed int)gr[(signed long int)i];
+    grMin = (unsigned char)tmp_if_expr_2;
     if(!((signed int)rMin >= (signed int)r[(signed long int)i]))
-      tmp_if_expr$3 = (signed int)rMin;
+      tmp_if_expr_3 = (signed int)rMin;
 
     else
-      tmp_if_expr$3 = (signed int)r[(signed long int)i];
-    rMin = (unsigned char)tmp_if_expr$3;
+      tmp_if_expr_3 = (signed int)r[(signed long int)i];
+    rMin = (unsigned char)tmp_if_expr_3;
     if(!((signed int)bMin >= (signed int)b[(signed long int)i]))
-      tmp_if_expr$4 = (signed int)bMin;
+      tmp_if_expr_4 = (signed int)bMin;
 
     else
-      tmp_if_expr$4 = (signed int)b[(signed long int)i];
-    bMin = (unsigned char)tmp_if_expr$4;
+      tmp_if_expr_4 = (signed int)b[(signed long int)i];
+    bMin = (unsigned char)tmp_if_expr_4;
     if(!((signed int)gb[(signed long int)i] >= (signed int)gbMax))
-      tmp_if_expr$5 = (signed int)gbMax;
+      tmp_if_expr_5 = (signed int)gbMax;
 
     else
-      tmp_if_expr$5 = (signed int)gb[(signed long int)i];
-    gbMax = (unsigned char)tmp_if_expr$5;
+      tmp_if_expr_5 = (signed int)gb[(signed long int)i];
+    gbMax = (unsigned char)tmp_if_expr_5;
     if(!((signed int)gr[(signed long int)i] >= (signed int)grMax))
-      tmp_if_expr$6 = (signed int)grMax;
+      tmp_if_expr_6 = (signed int)grMax;
 
     else
-      tmp_if_expr$6 = (signed int)gr[(signed long int)i];
-    grMax = (unsigned char)tmp_if_expr$6;
+      tmp_if_expr_6 = (signed int)gr[(signed long int)i];
+    grMax = (unsigned char)tmp_if_expr_6;
     if(!((signed int)r[(signed long int)i] >= (signed int)rMax))
-      tmp_if_expr$7 = (signed int)rMax;
+      tmp_if_expr_7 = (signed int)rMax;
 
     else
-      tmp_if_expr$7 = (signed int)r[(signed long int)i];
-    rMax = (unsigned char)tmp_if_expr$7;
+      tmp_if_expr_7 = (signed int)r[(signed long int)i];
+    rMax = (unsigned char)tmp_if_expr_7;
     if(!((signed int)b[(signed long int)i] >= (signed int)bMax))
-      tmp_if_expr$8 = (signed int)bMax;
+      tmp_if_expr_8 = (signed int)bMax;
 
     else
-      tmp_if_expr$8 = (signed int)b[(signed long int)i];
-    bMax = (unsigned char)tmp_if_expr$8;
+      tmp_if_expr_8 = (signed int)b[(signed long int)i];
+    bMax = (unsigned char)tmp_if_expr_8;
     rMean = rMean + (float)r[(signed long int)i];
     gbMean = gbMean + (float)gb[(signed long int)i];
     grMean = grMean + (float)gr[(signed long int)i];
@@ -5347,15 +5347,15 @@ extern signed int Contact_add_blob(struct Contact *c, struct ContactBlob *blob)
   for( ; !(i >= 10); i = i + 1)
     if(c->blob[(signed long int)i] == ((struct ContactBlob *)NULL))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct ContactBlob) /*16ul*/ );
-      c->blob[(signed long int)i] = (struct ContactBlob *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct ContactBlob) /*16ul*/ );
+      c->blob[(signed long int)i] = (struct ContactBlob *)return_value_malloc_1;
       if(c->blob[(signed long int)i] == ((struct ContactBlob *)NULL))
         return 1;
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)blob->length);
-      c->blob[(signed long int)i]->data = (unsigned char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)blob->length);
+      c->blob[(signed long int)i]->data = (unsigned char *)return_value_malloc_2;
       strncpy(c->blob[(signed long int)i]->type, blob->type, (unsigned long int)4);
       c->blob[(signed long int)i]->length = blob->length;
       strncpy((char *)c->blob[(signed long int)i]->data, (char *)blob->data, (unsigned long int)blob->length);
@@ -5370,19 +5370,19 @@ extern signed int Contact_add_blob(struct Contact *c, struct ContactBlob *blob)
 extern signed int Contact_add_picture(struct Contact *c, struct ContactPicture *p)
 {
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(p == ((struct ContactPicture *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = p->length < (unsigned int)1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = p->length < (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(p->data != ((unsigned char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(p->data != ((unsigned char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 1;
 
   else
@@ -5391,15 +5391,15 @@ extern signed int Contact_add_picture(struct Contact *c, struct ContactPicture *
     for( ; !(i >= 10); i = i + 1)
       if(c->blob[(signed long int)i] == ((struct ContactBlob *)NULL))
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct ContactBlob) /*16ul*/ );
-        c->blob[(signed long int)i] = (struct ContactBlob *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct ContactBlob) /*16ul*/ );
+        c->blob[(signed long int)i] = (struct ContactBlob *)return_value_malloc_3;
         if(c->blob[(signed long int)i] == ((struct ContactBlob *)NULL))
           return 1;
 
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc((unsigned long int)(p->length + (unsigned int)2));
-        c->blob[(signed long int)i]->data = (unsigned char *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc((unsigned long int)(p->length + (unsigned int)2));
+        c->blob[(signed long int)i]->data = (unsigned char *)return_value_malloc_4;
         strncpy(c->blob[(signed long int)i]->type, "Bd00", (unsigned long int)4);
         c->blob[(signed long int)i]->length = (signed int)(p->length + (unsigned int)2);
         ((unsigned char *)c->blob[(signed long int)i]->data)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)p->dirty >> 8 & 0xff);
@@ -5439,8 +5439,8 @@ void DecodeRow(unsigned char *compData, unsigned char *lastRow, unsigned char *u
   tmpL5 = tmpL5 << 8;
   tmpW3 = (signed short int)((signed int)tmpW3 - 8);
   idx = (signed short int)1;
-  signed short int tmp_post$1;
-  for( ; !((signed int)idx >= (signed int)halfWidth); unCompData[(signed long int)tmp_post$1] = (unsigned char)resultW)
+  signed short int tmp_post_1;
+  for( ; !((signed int)idx >= (signed int)halfWidth); unCompData[(signed long int)tmp_post_1] = (unsigned char)resultW)
   {
     if(!((signed int)tmpW3 >= 12))
     {
@@ -5463,7 +5463,7 @@ void DecodeRow(unsigned char *compData, unsigned char *lastRow, unsigned char *u
     if(!((signed int)resultW >= 0))
       resultW = (signed short int)0;
 
-    tmp_post$1 = idx;
+    tmp_post_1 = idx;
     idx = idx + 1;
   }
   for( ; (signed int)tmpW3 >= 1; tmpW3 = tmpW3 - (signed short int)8)
@@ -5754,39 +5754,39 @@ static void Interpolate(struct PalmPixHeader *pixHdr, unsigned char *red, unsign
 extern void InvertRPC(struct RPC_params *p)
 {
   signed int j = 0;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   for( ; !(j >= p->args); j = j + 1)
     if(!(p->param[(signed long int)j].invert == 0))
     {
       void *c = p->param[(signed long int)j].data;
       if(p->param[(signed long int)j].invert == 2)
-        tmp_if_expr$4 = p->param[(signed long int)j].size == (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = p->param[(signed long int)j].size == (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
         signed int *s = (signed int *)c;
-        unsigned short int return_value_ntohs$1;
-        return_value_ntohs$1=ntohs((unsigned short int)*s);
-        *s = (signed int)return_value_ntohs$1 >> 8;
+        unsigned short int return_value_ntohs_1;
+        return_value_ntohs_1=ntohs((unsigned short int)*s);
+        *s = (signed int)return_value_ntohs_1 >> 8;
       }
 
       else
         if(p->param[(signed long int)j].size == 2ul)
         {
-          signed int *InvertRPC$$1$$1$$1$$1$$2$$s = (signed int *)c;
-          unsigned short int return_value_ntohs$2;
-          return_value_ntohs$2=ntohs((unsigned short int)*InvertRPC$$1$$1$$1$$1$$2$$s);
-          *InvertRPC$$1$$1$$1$$1$$2$$s = (signed int)return_value_ntohs$2;
+          signed int *InvertRPC__1__1__1__1__2__s = (signed int *)c;
+          unsigned short int return_value_ntohs_2;
+          return_value_ntohs_2=ntohs((unsigned short int)*InvertRPC__1__1__1__1__2__s);
+          *InvertRPC__1__1__1__1__2__s = (signed int)return_value_ntohs_2;
         }
 
         else
         {
           signed long int *l = (signed long int *)c;
-          unsigned int return_value_ntohl$3;
-          return_value_ntohl$3=ntohl((unsigned int)*l);
-          *l = (signed long int)return_value_ntohl$3;
+          unsigned int return_value_ntohl_3;
+          return_value_ntohl_3=ntohl((unsigned int)*l);
+          *l = (signed long int)return_value_ntohl_3;
         }
     }
 
@@ -5798,9 +5798,9 @@ void MD5Final(unsigned char *digest, struct MD5Context *ctx)
 {
   signed int count = (signed int)(ctx->bytes[(signed long int)0] & (unsigned int)0x3f);
   unsigned char *p = (unsigned char *)ctx->in + (signed long int)count;
-  unsigned char *tmp_post$1 = p;
+  unsigned char *tmp_post_1 = p;
   p = p + 1l;
-  *tmp_post$1 = (unsigned char)0x80;
+  *tmp_post_1 = (unsigned char)0x80;
   count = (56 - 1) - count;
   if(!(count >= 0))
   {
@@ -6022,9 +6022,9 @@ extern signed int PackRPC(struct RPC_params *p, signed int trap, signed int repl
   do
   {
     signed int type;
-    signed int return_value_gcc_builtin_va_arg$1;
-    return_value_gcc_builtin_va_arg$1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$1));
-    type = (signed int)return_value_gcc_builtin_va_arg$1;
+    signed int return_value_gcc_builtin_va_arg_1;
+    return_value_gcc_builtin_va_arg_1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_1));
+    type = (signed int)return_value_gcc_builtin_va_arg_1;
     if(type == 0)
       break;
 
@@ -6032,9 +6032,9 @@ extern signed int PackRPC(struct RPC_params *p, signed int trap, signed int repl
     {
       p->param[(signed long int)idx].byRef = 0;
       p->param[(signed long int)idx].size = (unsigned long int)-type;
-      signed int return_value_gcc_builtin_va_arg$2;
-      return_value_gcc_builtin_va_arg$2=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$2));
-      p->param[(signed long int)idx].arg = (signed int)return_value_gcc_builtin_va_arg$2;
+      signed int return_value_gcc_builtin_va_arg_2;
+      return_value_gcc_builtin_va_arg_2=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_2));
+      p->param[(signed long int)idx].arg = (signed int)return_value_gcc_builtin_va_arg_2;
       p->param[(signed long int)idx].data = (void *)&p->param[(signed long int)idx].arg;
       p->param[(signed long int)idx].invert = 0;
     }
@@ -6042,15 +6042,15 @@ extern signed int PackRPC(struct RPC_params *p, signed int trap, signed int repl
     else
     {
       void *c;
-      void *return_value_gcc_builtin_va_arg$3;
-      return_value_gcc_builtin_va_arg$3=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$3));
-      c = (void *)return_value_gcc_builtin_va_arg$3;
+      void *return_value_gcc_builtin_va_arg_3;
+      return_value_gcc_builtin_va_arg_3=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_3));
+      c = (void *)return_value_gcc_builtin_va_arg_3;
       p->param[(signed long int)idx].byRef = 1;
       p->param[(signed long int)idx].size = (unsigned long int)type;
       p->param[(signed long int)idx].data = c;
-      signed int return_value_gcc_builtin_va_arg$4;
-      return_value_gcc_builtin_va_arg$4=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$4));
-      p->param[(signed long int)idx].invert = (signed int)return_value_gcc_builtin_va_arg$4;
+      signed int return_value_gcc_builtin_va_arg_4;
+      return_value_gcc_builtin_va_arg_4=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_4));
+      p->param[(signed long int)idx].invert = (signed int)return_value_gcc_builtin_va_arg_4;
     }
     idx = idx + 1;
   }
@@ -6099,9 +6099,9 @@ static void RD_do_read(signed int timeout)
       if(!(RD_buffer_size >= RD_buffer_used + (unsigned long int)bytes_read))
       {
         RD_buffer_size = (RD_buffer_used + (unsigned long int)bytes_read + (unsigned long int)0xfffe & (unsigned long int)~0xffff) - (unsigned long int)1;
-        void *return_value_realloc$1;
-        return_value_realloc$1=realloc((void *)RD_buffer, RD_buffer_size);
-        RD_buffer = (char *)return_value_realloc$1;
+        void *return_value_realloc_1;
+        return_value_realloc_1=realloc((void *)RD_buffer, RD_buffer_size);
+        RD_buffer = (char *)return_value_realloc_1;
       }
 
       memcpy((void *)(RD_buffer + (signed long int)RD_buffer_used), (const void *)RD_usb_buffer, (unsigned long int)bytes_read);
@@ -6200,28 +6200,28 @@ extern signed int RPC(signed int sd, signed int sockaddr, signed int trap, signe
 
     else
     {
-      void *RPC$$1$$1$$1$$2$$c;
-      RPC$$1$$1$$1$$2$$c=va_arg(ap, __typeof__(RPC$$1$$1$$1$$2$$c));
+      void *RPC__1__1__1__2__c;
+      RPC__1__1__1__2__c=va_arg(ap, __typeof__(RPC__1__1__1__2__c));
       p[(signed long int)idx].byRef = 1;
       p[(signed long int)idx].size = (unsigned long int)type;
-      p[(signed long int)idx].data = RPC$$1$$1$$1$$2$$c;
+      p[(signed long int)idx].data = RPC__1__1__1__2__c;
       p[(signed long int)idx].invert=va_arg(ap, __typeof__(p[(signed long int)idx].invert));
       if(!(p[(signed long int)idx].invert == 0))
       {
         if(p[(signed long int)idx].size == 2ul)
         {
-          signed int *RPC$$1$$1$$1$$2$$1$$1$$s = (signed int *)RPC$$1$$1$$1$$2$$c;
-          unsigned short int return_value_htons$1;
-          return_value_htons$1=htons((unsigned short int)*RPC$$1$$1$$1$$2$$1$$1$$s);
-          *RPC$$1$$1$$1$$2$$1$$1$$s = (signed int)return_value_htons$1;
+          signed int *RPC__1__1__1__2__1__1__s = (signed int *)RPC__1__1__1__2__c;
+          unsigned short int return_value_htons_1;
+          return_value_htons_1=htons((unsigned short int)*RPC__1__1__1__2__1__1__s);
+          *RPC__1__1__1__2__1__1__s = (signed int)return_value_htons_1;
         }
 
         else
         {
-          signed int *RPC$$1$$1$$1$$2$$1$$2$$l = (signed int *)RPC$$1$$1$$1$$2$$c;
-          unsigned int return_value_htonl$2;
-          return_value_htonl$2=htonl((unsigned int)*RPC$$1$$1$$1$$2$$1$$2$$l);
-          *RPC$$1$$1$$1$$2$$1$$2$$l = (signed int)return_value_htonl$2;
+          signed int *RPC__1__1__1__2__1__2__l = (signed int *)RPC__1__1__1__2__c;
+          unsigned int return_value_htonl_2;
+          return_value_htonl_2=htonl((unsigned int)*RPC__1__1__1__2__1__2__l);
+          *RPC__1__1__1__2__1__2__l = (signed int)return_value_htonl_2;
         }
       }
 
@@ -6230,13 +6230,13 @@ extern signed int RPC(signed int sd, signed int sockaddr, signed int trap, signe
   }
   while((_Bool)1);
   va_end(ap);
-  signed int return_value_sys_RPC$4;
-  return_value_sys_RPC$4=sys_RPC(sd, sockaddr, trap, &D0, &A0, idx, p, (signed int)(reply != 2));
-  signed int return_value_pi_error$3;
-  if(!(return_value_sys_RPC$4 >= 0))
+  signed int return_value_sys_RPC_4;
+  return_value_sys_RPC_4=sys_RPC(sd, sockaddr, trap, &D0, &A0, idx, p, (signed int)(reply != 2));
+  signed int return_value_pi_error_3;
+  if(!(return_value_sys_RPC_4 >= 0))
   {
-    return_value_pi_error$3=pi_error(sd);
-    return return_value_pi_error$3;
+    return_value_pi_error_3=pi_error(sd);
+    return return_value_pi_error_3;
   }
 
   else
@@ -6249,17 +6249,17 @@ extern signed int RPC(signed int sd, signed int sockaddr, signed int trap, signe
         if(p[(signed long int)j].size == 2ul)
         {
           signed int *s = (signed int *)c;
-          unsigned short int return_value_htons$5;
-          return_value_htons$5=htons((unsigned short int)*s);
-          *s = (signed int)return_value_htons$5;
+          unsigned short int return_value_htons_5;
+          return_value_htons_5=htons((unsigned short int)*s);
+          *s = (signed int)return_value_htons_5;
         }
 
         else
         {
           signed int *l = (signed int *)c;
-          unsigned int return_value_htonl$6;
-          return_value_htonl$6=htonl((unsigned int)*l);
-          *l = (signed int)return_value_htonl$6;
+          unsigned int return_value_htonl_6;
+          return_value_htonl_6=htonl((unsigned int)*l);
+          *l = (signed int)return_value_htonl_6;
         }
       }
 
@@ -6275,18 +6275,18 @@ extern signed int RPC(signed int sd, signed int sockaddr, signed int trap, signe
 // file syspkt.c line 1001
 extern signed int RPC_Int_Void(signed int sd, signed int trap)
 {
-  signed int return_value_RPC$1;
-  return_value_RPC$1=RPC(sd, 1, trap, 0, 0);
-  return return_value_RPC$1;
+  signed int return_value_RPC_1;
+  return_value_RPC_1=RPC(sd, 1, trap, 0, 0);
+  return return_value_RPC_1;
 }
 
 // RPC_Ptr_Void
 // file syspkt.c line 1019
 extern signed int RPC_Ptr_Void(signed int sd, signed int trap)
 {
-  signed int return_value_RPC$1;
-  return_value_RPC$1=RPC(sd, 1, trap, 1, 0);
-  return return_value_RPC$1;
+  signed int return_value_RPC_1;
+  return_value_RPC_1=RPC(sd, 1, trap, 1, 0);
+  return return_value_RPC_1;
 }
 
 // USB_check_device
@@ -6294,16 +6294,16 @@ extern signed int RPC_Ptr_Void(signed int sd, signed int trap)
 extern signed int USB_check_device(struct pi_usb_data *dev, unsigned short int vendor, unsigned short int product)
 {
   unsigned int i = (unsigned int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !((unsigned long int)i >= 41ul); i = i + 1u)
     if(known_devices[(signed long int)i].vendor == vendor)
     {
       if(known_devices[(signed long int)i].product == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = known_devices[(signed long int)i].product == product ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = known_devices[(signed long int)i].product == product ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         dev->dev.flags = dev->dev.flags | known_devices[(signed long int)i].flags;
         return 0;
@@ -6390,9 +6390,9 @@ static signed int USB_configure_generic(struct pi_usb_data *dev, unsigned char *
   signed int i;
   signed int ret;
   signed int hotsync = 0;
-  struct anonymous$35 ci;
+  struct anonymous_35 ci;
   unsigned int flags = dev->dev.flags;
-  ret=dev->impl.control_request(dev, 0xc2, 0x04, 0, 0, (void *)&ci, (signed int)sizeof(struct anonymous$35) /*20ul*/ , 0);
+  ret=dev->impl.control_request(dev, 0xc2, 0x04, 0, 0, (void *)&ci, (signed int)sizeof(struct anonymous_35) /*20ul*/ , 0);
   if(!(ret >= 0))
     pi_log(0x002, 0x01, "usb: PALM_GET_EXT_CONNECTION_INFORMATION failed (err=%08x)\n", ret);
 
@@ -6405,9 +6405,9 @@ static signed int USB_configure_generic(struct pi_usb_data *dev, unsigned char *
       pi_log(0x002, 0x08, "\t[%d] port_function_id='%c%c%c%c'\n", i, ci.connections[(signed long int)i].port_function_id[(signed long int)0], ci.connections[(signed long int)i].port_function_id[(signed long int)1], ci.connections[(signed long int)i].port_function_id[(signed long int)2], ci.connections[(signed long int)i].port_function_id[(signed long int)3]);
       pi_log(0x002, 0x08, "\t[%d] port=%d\n", i, ci.connections[(signed long int)i].port);
       pi_log(0x002, 0x08, "\t[%d] endpoint_info=%d\n", i, ci.connections[(signed long int)i].endpoint_info);
-      signed int return_value_memcmp$1;
-      return_value_memcmp$1=memcmp((const void *)ci.connections[(signed long int)i].port_function_id, (const void *)"cnys", (unsigned long int)4);
-      if(return_value_memcmp$1 == 0)
+      signed int return_value_memcmp_1;
+      return_value_memcmp_1=memcmp((const void *)ci.connections[(signed long int)i].port_function_id, (const void *)"cnys", (unsigned long int)4);
+      if(return_value_memcmp_1 == 0)
       {
         hotsync = 1;
         if(!(ci.endpoint_numbers_different == 0))
@@ -6443,8 +6443,8 @@ static signed int USB_configure_generic(struct pi_usb_data *dev, unsigned char *
   }
   if(!((2u & flags) == 0u))
   {
-    ret=dev->impl.control_request(dev, 0xc2, 0x04, 0, 0, (void *)&ci, (signed int)sizeof(struct anonymous$35) /*20ul*/ , 0);
-    ret=dev->impl.control_request(dev, 0xc2, 0x04, 0, 0, (void *)&ci, (signed int)sizeof(struct anonymous$35) /*20ul*/ , 0);
+    ret=dev->impl.control_request(dev, 0xc2, 0x04, 0, 0, (void *)&ci, (signed int)sizeof(struct anonymous_35) /*20ul*/ , 0);
+    ret=dev->impl.control_request(dev, 0xc2, 0x04, 0, 0, (void *)&ci, (signed int)sizeof(struct anonymous_35) /*20ul*/ , 0);
   }
 
   return ret;
@@ -6456,8 +6456,8 @@ static signed int USB_configure_visor(struct pi_usb_data *dev, unsigned char *in
 {
   signed int i;
   signed int ret;
-  struct anonymous$32 ci;
-  ret=dev->impl.control_request(dev, 0xc2, 0x03, 0, 0, (void *)&ci, (signed int)sizeof(struct anonymous$32) /*6ul*/ , 0);
+  struct anonymous_32 ci;
+  ret=dev->impl.control_request(dev, 0xc2, 0x03, 0, 0, (void *)&ci, (signed int)sizeof(struct anonymous_32) /*6ul*/ , 0);
   if(!(ret >= 0))
     pi_log(0x002, 0x01, "usb: VISOR_GET_CONNECTION_INFORMATION failed (err=%08x)\n", ret);
 
@@ -6510,15 +6510,15 @@ static signed int USB_poll(struct pi_usb_data *data)
   signed int first;
   usb_find_busses();
   usb_find_devices();
-  signed int return_value_pi_debug_get_level$1;
+  signed int return_value_pi_debug_get_level_1;
   do
   {
-    signed int return_value_pi_debug_get_types$2;
-    return_value_pi_debug_get_types$2=pi_debug_get_types();
-    if(!((0x002 & return_value_pi_debug_get_types$2) == 0))
+    signed int return_value_pi_debug_get_types_2;
+    return_value_pi_debug_get_types_2=pi_debug_get_types();
+    if(!((0x002 & return_value_pi_debug_get_types_2) == 0))
     {
-      return_value_pi_debug_get_level$1=pi_debug_get_level();
-      if(return_value_pi_debug_get_level$1 >= 0x08)
+      return_value_pi_debug_get_level_1=pi_debug_get_level();
+      if(return_value_pi_debug_get_level_1 >= 0x08)
         usb_set_debug(2);
 
     }
@@ -6544,9 +6544,9 @@ static signed int USB_poll(struct pi_usb_data *data)
               if((signed int)dev->config->interface->altsetting->bNumEndpoints >= 2)
               {
                 pi_log(0x002, 0x08, "%s: %d, 0x%04x 0x%04x.\n", (const void *)"libusb.c", 132, dev->descriptor.idVendor, dev->descriptor.idProduct);
-                signed int return_value_USB_check_device$3;
-                return_value_USB_check_device$3=USB_check_device(data, dev->descriptor.idVendor, dev->descriptor.idProduct);
-                if(return_value_USB_check_device$3 == 0)
+                signed int return_value_USB_check_device_3;
+                return_value_USB_check_device_3=USB_check_device(data, dev->descriptor.idVendor, dev->descriptor.idProduct);
+                if(return_value_USB_check_device_3 == 0)
                 {
                   pi_log(0x002, 0x08, "%s: trying to open device %p\n", (const void *)"libusb.c", dev);
                   USB_handle=usb_open(dev);
@@ -6569,34 +6569,34 @@ static signed int USB_poll(struct pi_usb_data *data)
                     for( ; !(i >= (signed int)dev->config->interface->altsetting->bNumEndpoints); i = i + 1)
                     {
                       struct usb_endpoint_descriptor *endpoint;
-                      unsigned char USB_poll$$1$$2$$1$$1$$1$$2$$1$$address;
+                      unsigned char USB_poll__1__2__1__1__1__2__1__address;
                       endpoint = &(((dev->config + (signed long int)0)->interface + (signed long int)0)->altsetting + (signed long int)0)->endpoint[(signed long int)i];
                       if((signed int)endpoint->wMaxPacketSize == 0x40)
                       {
                         if((0x03 & (signed int)endpoint->bmAttributes) == 2)
                         {
-                          USB_poll$$1$$2$$1$$1$$1$$2$$1$$address = endpoint->bEndpointAddress;
-                          if(!((0x80 & (signed int)USB_poll$$1$$2$$1$$1$$1$$2$$1$$address) == 0))
+                          USB_poll__1__2__1__1__1__2__1__address = endpoint->bEndpointAddress;
+                          if(!((0x80 & (signed int)USB_poll__1__2__1__1__1__2__1__address) == 0))
                           {
-                            pi_log(0x002, 0x08, "In: 0x%x 0x%x.\n", USB_poll$$1$$2$$1$$1$$1$$2$$1$$address, input_endpoint);
+                            pi_log(0x002, 0x08, "In: 0x%x 0x%x.\n", USB_poll__1__2__1__1__1__2__1__address, input_endpoint);
                             if((signed int)input_endpoint == 0xFF)
-                              USB_in_endpoint = (signed int)USB_poll$$1$$2$$1$$1$$1$$2$$1$$address;
+                              USB_in_endpoint = (signed int)USB_poll__1__2__1__1__1__2__1__address;
 
                             else
-                              if((0x0f & (signed int)USB_poll$$1$$2$$1$$1$$1$$2$$1$$address) == (signed int)input_endpoint)
-                                USB_in_endpoint = (signed int)USB_poll$$1$$2$$1$$1$$1$$2$$1$$address;
+                              if((0x0f & (signed int)USB_poll__1__2__1__1__1__2__1__address) == (signed int)input_endpoint)
+                                USB_in_endpoint = (signed int)USB_poll__1__2__1__1__1__2__1__address;
 
                           }
 
                           else
                           {
-                            pi_log(0x002, 0x08, "Out: 0x%x 0x%x.\n", USB_poll$$1$$2$$1$$1$$1$$2$$1$$address, output_endpoint);
+                            pi_log(0x002, 0x08, "Out: 0x%x 0x%x.\n", USB_poll__1__2__1__1__1__2__1__address, output_endpoint);
                             if((signed int)output_endpoint == 0xFF)
-                              USB_out_endpoint = (signed int)USB_poll$$1$$2$$1$$1$$1$$2$$1$$address;
+                              USB_out_endpoint = (signed int)USB_poll__1__2__1__1__1__2__1__address;
 
                             else
-                              if((0x0f & (signed int)USB_poll$$1$$2$$1$$1$$1$$2$$1$$address) == (signed int)output_endpoint)
-                                USB_out_endpoint = (signed int)USB_poll$$1$$2$$1$$1$$1$$2$$1$$address;
+                              if((0x0f & (signed int)USB_poll__1__2__1__1__1__2__1__address) == (signed int)output_endpoint)
+                                USB_out_endpoint = (signed int)USB_poll__1__2__1__1__1__2__1__address;
 
                           }
                         }
@@ -6645,9 +6645,9 @@ static signed int USB_poll(struct pi_usb_data *data)
                     __CPROVER_DUMP_L27:
                       ;
                       usb_close(USB_handle);
-                      signed int *return_value___errno_location$4;
-                      return_value___errno_location$4=__errno_location();
-                      *return_value___errno_location$4 = -i;
+                      signed int *return_value___errno_location_4;
+                      return_value___errno_location_4=__errno_location();
+                      *return_value___errno_location_4 = -i;
                       pi_log(0x002, 0x08, "%s: %d.\n", (const void *)"libusb.c", 219);
                       return 0;
 
@@ -6671,18 +6671,18 @@ static signed int USB_poll(struct pi_usb_data *data)
 
     }
   }
-  signed int *return_value___errno_location$5;
-  return_value___errno_location$5=__errno_location();
-  *return_value___errno_location$5 = 19;
-  signed int return_value_pi_debug_get_level$6;
+  signed int *return_value___errno_location_5;
+  return_value___errno_location_5=__errno_location();
+  *return_value___errno_location_5 = 19;
+  signed int return_value_pi_debug_get_level_6;
   do
   {
-    signed int return_value_pi_debug_get_types$7;
-    return_value_pi_debug_get_types$7=pi_debug_get_types();
-    if(!((0x002 & return_value_pi_debug_get_types$7) == 0))
+    signed int return_value_pi_debug_get_types_7;
+    return_value_pi_debug_get_types_7=pi_debug_get_types();
+    if(!((0x002 & return_value_pi_debug_get_types_7) == 0))
     {
-      return_value_pi_debug_get_level$6=pi_debug_get_level();
-      if(return_value_pi_debug_get_level$6 >= 0x08)
+      return_value_pi_debug_get_level_6=pi_debug_get_level();
+      if(return_value_pi_debug_get_level_6 >= 0x08)
         usb_set_debug(0);
 
     }
@@ -6697,39 +6697,39 @@ static signed int USB_poll(struct pi_usb_data *data)
 extern void UninvertRPC(struct RPC_params *p)
 {
   signed int j = 0;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   for( ; !(j >= p->args); j = j + 1)
     if(!(p->param[(signed long int)j].invert == 0))
     {
       void *c = p->param[(signed long int)j].data;
       if(p->param[(signed long int)j].invert == 2)
-        tmp_if_expr$4 = p->param[(signed long int)j].size == (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = p->param[(signed long int)j].size == (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
         signed int *s = (signed int *)c;
-        unsigned short int return_value_htons$1;
-        return_value_htons$1=htons((unsigned short int)*s);
-        *s = (signed int)return_value_htons$1 >> 8;
+        unsigned short int return_value_htons_1;
+        return_value_htons_1=htons((unsigned short int)*s);
+        *s = (signed int)return_value_htons_1 >> 8;
       }
 
       else
         if(p->param[(signed long int)j].size == 2ul)
         {
-          signed int *UninvertRPC$$1$$1$$1$$1$$2$$s = (signed int *)c;
-          unsigned short int return_value_htons$2;
-          return_value_htons$2=htons((unsigned short int)*UninvertRPC$$1$$1$$1$$1$$2$$s);
-          *UninvertRPC$$1$$1$$1$$1$$2$$s = (signed int)return_value_htons$2;
+          signed int *UninvertRPC__1__1__1__1__2__s = (signed int *)c;
+          unsigned short int return_value_htons_2;
+          return_value_htons_2=htons((unsigned short int)*UninvertRPC__1__1__1__1__2__s);
+          *UninvertRPC__1__1__1__1__2__s = (signed int)return_value_htons_2;
         }
 
         else
         {
           signed long int *l = (signed long int *)c;
-          unsigned int return_value_htonl$3;
-          return_value_htonl$3=htonl((unsigned int)*l);
-          *l = (signed long int)return_value_htonl$3;
+          unsigned int return_value_htonl_3;
+          return_value_htonl_3=htonl((unsigned int)*l);
+          *l = (signed long int)return_value_htonl_3;
         }
     }
 
@@ -6737,44 +6737,44 @@ extern void UninvertRPC(struct RPC_params *p)
 
 // add_hotsync
 // file bluetooth.c line 124
-static signed int add_hotsync(struct anonymous$21 *session, struct anonymous$20 *rec, struct anonymous$18 *interface, struct anonymous$23 *si, unsigned int *handle, signed int *channel_ret)
+static signed int add_hotsync(struct anonymous_21 *session, struct anonymous_20 *rec, struct anonymous_18 *interface, struct anonymous_23 *si, unsigned int *handle, signed int *channel_ret)
 {
-  struct anonymous$20 record;
+  struct anonymous_20 record;
   struct _sdp_list *root;
   struct _sdp_list *svclass;
   struct _sdp_list *proto;
-  struct anonymous$16 root_uuid;
-  struct anonymous$16 svclass_uuid;
-  struct anonymous$16 l2cap_uuid;
-  struct anonymous$16 rfcomm_uuid;
+  struct anonymous_16 root_uuid;
+  struct anonymous_16 svclass_uuid;
+  struct anonymous_16 l2cap_uuid;
+  struct anonymous_16 rfcomm_uuid;
   unsigned char channel = (unsigned char)22;
-  memset((void *)&record, 0, sizeof(struct anonymous$20) /*48ul*/ );
+  memset((void *)&record, 0, sizeof(struct anonymous_20) /*48ul*/ );
   record.handle = 0xffffffff;
   sdp_uuid16_create(&root_uuid, (unsigned short int)0x1002);
   root=sdp_list_append((struct _sdp_list *)(void *)0, (void *)&root_uuid);
   sdp_set_browse_groups(&record, root);
   sdp_uuid16_create(&l2cap_uuid, (unsigned short int)0x0100);
-  struct _sdp_list *return_value_sdp_list_append$1;
-  return_value_sdp_list_append$1=sdp_list_append((struct _sdp_list *)(void *)0, (void *)&l2cap_uuid);
-  proto=sdp_list_append((struct _sdp_list *)(void *)0, (void *)return_value_sdp_list_append$1);
+  struct _sdp_list *return_value_sdp_list_append_1;
+  return_value_sdp_list_append_1=sdp_list_append((struct _sdp_list *)(void *)0, (void *)&l2cap_uuid);
+  proto=sdp_list_append((struct _sdp_list *)(void *)0, (void *)return_value_sdp_list_append_1);
   sdp_uuid16_create(&rfcomm_uuid, (unsigned short int)0x0003);
-  struct _sdp_list *return_value_sdp_list_append$2;
-  return_value_sdp_list_append$2=sdp_list_append((struct _sdp_list *)(void *)0, (void *)&rfcomm_uuid);
-  struct sdp_data_struct *return_value_sdp_data_alloc$3;
-  return_value_sdp_data_alloc$3=sdp_data_alloc((unsigned char)0x08, (const void *)&channel);
-  struct _sdp_list *return_value_sdp_list_append$4;
-  return_value_sdp_list_append$4=sdp_list_append(return_value_sdp_list_append$2, (void *)return_value_sdp_data_alloc$3);
-  proto=sdp_list_append(proto, (void *)return_value_sdp_list_append$4);
-  struct _sdp_list *return_value_sdp_list_append$5;
-  return_value_sdp_list_append$5=sdp_list_append((struct _sdp_list *)(void *)0, (void *)proto);
-  sdp_set_access_protos(&record, return_value_sdp_list_append$5);
+  struct _sdp_list *return_value_sdp_list_append_2;
+  return_value_sdp_list_append_2=sdp_list_append((struct _sdp_list *)(void *)0, (void *)&rfcomm_uuid);
+  struct sdp_data_struct *return_value_sdp_data_alloc_3;
+  return_value_sdp_data_alloc_3=sdp_data_alloc((unsigned char)0x08, (const void *)&channel);
+  struct _sdp_list *return_value_sdp_list_append_4;
+  return_value_sdp_list_append_4=sdp_list_append(return_value_sdp_list_append_2, (void *)return_value_sdp_data_alloc_3);
+  proto=sdp_list_append(proto, (void *)return_value_sdp_list_append_4);
+  struct _sdp_list *return_value_sdp_list_append_5;
+  return_value_sdp_list_append_5=sdp_list_append((struct _sdp_list *)(void *)0, (void *)proto);
+  sdp_set_access_protos(&record, return_value_sdp_list_append_5);
   sdp_uuid128_create(&svclass_uuid, (void *)hotsync_uuid);
   svclass=sdp_list_append((struct _sdp_list *)(void *)0, (void *)&svclass_uuid);
   sdp_set_service_classes(&record, svclass);
   sdp_set_info_attr(&record, "PalmOS HotSync", (const char *)(void *)0, (const char *)(void *)0);
-  signed int return_value_sdp_device_record_register$6;
-  return_value_sdp_device_record_register$6=sdp_device_record_register(session, interface, &record, (unsigned char)0);
-  if(!(return_value_sdp_device_record_register$6 >= 0))
+  signed int return_value_sdp_device_record_register_6;
+  return_value_sdp_device_record_register_6=sdp_device_record_register(session, interface, &record, (unsigned char)0);
+  if(!(return_value_sdp_device_record_register_6 >= 0))
   {
     pi_log(0x002, 0x01, "bluetooth: service record registration failed\n");
     return -1;
@@ -6790,18 +6790,18 @@ static signed int add_hotsync(struct anonymous$21 *session, struct anonymous$20 
 
 // bacmp
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp(const struct anonymous$18 *ba1, const struct anonymous$18 *ba2)
+static inline signed int bacmp(const struct anonymous_18 *ba1, const struct anonymous_18 *ba2)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)ba1, (const void *)ba2, sizeof(struct anonymous$18) /*6ul*/ );
-  return return_value_memcmp$1;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)ba1, (const void *)ba2, sizeof(struct anonymous_18) /*6ul*/ );
+  return return_value_memcmp_1;
 }
 
 // bacpy
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy(struct anonymous$18 *dst, const struct anonymous$18 *src)
+static inline void bacpy(struct anonymous_18 *dst, const struct anonymous_18 *src)
 {
-  memcpy((void *)dst, (const void *)src, sizeof(struct anonymous$18) /*6ul*/ );
+  memcpy((void *)dst, (const void *)src, sizeof(struct anonymous_18) /*6ul*/ );
 }
 
 // byteSwap
@@ -6809,12 +6809,12 @@ static inline void bacpy(struct anonymous$18 *dst, const struct anonymous$18 *sr
 void byteSwap(unsigned int *buf, unsigned int words)
 {
   unsigned char *p = (unsigned char *)buf;
-  unsigned int *tmp_post$1;
+  unsigned int *tmp_post_1;
   do
   {
-    tmp_post$1 = buf;
+    tmp_post_1 = buf;
     buf = buf + 1l;
-    *tmp_post$1 = (unsigned int)((unsigned int)p[(signed long int)3] << 8 | (unsigned int)p[(signed long int)2]) << 16 | (unsigned int)p[(signed long int)1] << 8 | (unsigned int)p[(signed long int)0];
+    *tmp_post_1 = (unsigned int)((unsigned int)p[(signed long int)3] << 8 | (unsigned int)p[(signed long int)2]) << 16 | (unsigned int)p[(signed long int)1] << 8 | (unsigned int)p[(signed long int)0];
     p = p + (signed long int)4;
     words = words - 1u;
   }
@@ -6911,13 +6911,13 @@ static unsigned int calcrate(signed int baudrate)
 // file plu_args.c line 39
 static void callback(struct poptContext_s *pc, signed int reason, struct poptOption *opt, const char *arg, void *data)
 {
-  const char *return_value_poptGetInvocationName$1;
+  const char *return_value_poptGetInvocationName_1;
   switch(opt->val)
   {
     case 118:
     {
-      return_value_poptGetInvocationName$1=poptGetInvocationName(pc);
-      print_splash(return_value_poptGetInvocationName$1);
+      return_value_poptGetInvocationName_1=poptGetInvocationName(pc);
+      print_splash(return_value_poptGetInvocationName_1);
       exit(0);
       break;
     }    static signed int have_complained_already = 0;
@@ -6941,11 +6941,11 @@ extern signed int cmp_abort(struct pi_socket *ps, signed int reason)
   struct pi_protocol *prot;
   struct pi_cmp_data *data;
   prot=pi_protocol(ps->sd, 5);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -6954,9 +6954,9 @@ extern signed int cmp_abort(struct pi_socket *ps, signed int reason)
     data->type = (unsigned char)0x03;
     data->flags = (unsigned char)reason;
     pi_log(0x040, 0x00, "CMP ABORT\n");
-    signed long int return_value_cmp_tx$2;
-    return_value_cmp_tx$2=cmp_tx(ps, (const unsigned char *)(void *)0, (unsigned long int)0, 0);
-    return (signed int)return_value_cmp_tx$2;
+    signed long int return_value_cmp_tx_2;
+    return_value_cmp_tx_2=cmp_tx(ps, (const unsigned char *)(void *)0, (unsigned long int)0, 0);
+    return (signed int)return_value_cmp_tx_2;
   }
 }
 
@@ -6996,12 +6996,12 @@ static signed int cmp_flush(struct pi_socket *ps, signed int flags)
   struct pi_protocol *prot;
   struct pi_protocol *next;
   prot=pi_protocol(ps->sd, 5);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -7009,8 +7009,8 @@ static signed int cmp_flush(struct pi_socket *ps, signed int flags)
     next=pi_protocol_next(ps->sd, 5);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -7030,11 +7030,11 @@ static signed int cmp_getsockopt(struct pi_socket *ps, signed int level, signed 
   struct pi_cmp_data *data;
   (void)level;
   prot=pi_protocol(ps->sd, 5);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -7082,12 +7082,12 @@ static signed int cmp_getsockopt(struct pi_socket *ps, signed int level, signed 
 
   error:
     ;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
-    signed int return_value_pi_set_error$3;
-    return_value_pi_set_error$3=pi_set_error(ps->sd, -501);
-    return return_value_pi_set_error$3;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
+    signed int return_value_pi_set_error_3;
+    return_value_pi_set_error_3=pi_set_error(ps->sd, -501);
+    return return_value_pi_set_error_3;
   }
 }
 
@@ -7098,11 +7098,11 @@ extern signed int cmp_init(struct pi_socket *ps, signed int baudrate)
   struct pi_protocol *prot;
   struct pi_cmp_data *data;
   prot=pi_protocol(ps->sd, 5);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -7114,9 +7114,9 @@ extern signed int cmp_init(struct pi_socket *ps, signed int baudrate)
       data->flags = (unsigned char)0x80;
 
     data->baudrate = baudrate;
-    signed long int return_value_cmp_tx$2;
-    return_value_cmp_tx$2=cmp_tx(ps, (const unsigned char *)(void *)0, (unsigned long int)0, 0);
-    return (signed int)return_value_cmp_tx$2;
+    signed long int return_value_cmp_tx_2;
+    return_value_cmp_tx_2=cmp_tx(ps, (const unsigned char *)(void *)0, (unsigned long int)0, 0);
+    return (signed int)return_value_cmp_tx_2;
   }
 }
 
@@ -7126,12 +7126,12 @@ extern struct pi_protocol * cmp_protocol(void)
 {
   struct pi_protocol *prot;
   struct pi_cmp_data *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  prot = (struct pi_protocol *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct pi_cmp_data) /*12ul*/ );
-  data = (struct pi_cmp_data *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  prot = (struct pi_protocol *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct pi_cmp_data) /*12ul*/ );
+  data = (struct pi_cmp_data *)return_value_malloc_2;
   if(!(data == ((struct pi_cmp_data *)NULL)) && !(prot == ((struct pi_protocol *)NULL)))
   {
     prot->level = 5;
@@ -7173,12 +7173,12 @@ static struct pi_protocol * cmp_protocol_dup(struct pi_protocol *prot)
   struct pi_protocol *new_prot;
   struct pi_cmp_data *data;
   struct pi_cmp_data *new_data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  new_prot = (struct pi_protocol *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct pi_cmp_data) /*12ul*/ );
-  new_data = (struct pi_cmp_data *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  new_prot = (struct pi_protocol *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct pi_cmp_data) /*12ul*/ );
+  new_data = (struct pi_cmp_data *)return_value_malloc_2;
   if(!(new_data == ((struct pi_cmp_data *)NULL)) && !(new_prot == ((struct pi_protocol *)NULL)))
   {
     new_prot->level = prot->level;
@@ -7238,14 +7238,14 @@ extern signed long int cmp_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
   struct pi_cmp_data *data;
   pi_log(0x040, 0x08, "CMP RX len=%d flags=0x%02x\n", len, flags);
   prot=pi_protocol(ps->sd, 5);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_set_error$3;
-  signed int return_value_pi_debug_get_level$4;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_set_error_3;
+  signed int return_value_pi_debug_get_level_4;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -7254,8 +7254,8 @@ extern signed long int cmp_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
     next=pi_protocol_next(ps->sd, 5);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
     else
@@ -7265,18 +7265,18 @@ extern signed long int cmp_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
       bytes = (signed int)return_value;
       if(!(bytes >= 10))
       {
-        return_value_pi_set_error$3=pi_set_error(ps->sd, bytes < 0 ? bytes : -100);
-        return (signed long int)return_value_pi_set_error$3;
+        return_value_pi_set_error_3=pi_set_error(ps->sd, bytes < 0 ? bytes : -100);
+        return (signed long int)return_value_pi_set_error_3;
       }
 
       else
       {
-        signed int return_value_pi_debug_get_types$5;
-        return_value_pi_debug_get_types$5=pi_debug_get_types();
-        if(!((0x040 & return_value_pi_debug_get_types$5) == 0))
+        signed int return_value_pi_debug_get_types_5;
+        return_value_pi_debug_get_types_5=pi_debug_get_types();
+        if(!((0x040 & return_value_pi_debug_get_types_5) == 0))
         {
-          return_value_pi_debug_get_level$4=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$4 >= 0x04)
+          return_value_pi_debug_get_level_4=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_4 >= 0x04)
             cmp_dump(msg->data, 0);
 
         }
@@ -7300,11 +7300,11 @@ extern signed int cmp_rx_handshake(struct pi_socket *ps, signed int establishrat
   struct pi_buffer_t *buf;
   signed int bytes;
   prot=pi_protocol(ps->sd, 5);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -7313,17 +7313,17 @@ extern signed int cmp_rx_handshake(struct pi_socket *ps, signed int establishrat
     buf=pi_buffer_new((unsigned long int)10);
     if(buf == ((struct pi_buffer_t *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 12;
-      signed int return_value_pi_set_error$3;
-      return_value_pi_set_error$3=pi_set_error(ps->sd, -500);
-      return return_value_pi_set_error$3;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 12;
+      signed int return_value_pi_set_error_3;
+      return_value_pi_set_error_3=pi_set_error(ps->sd, -500);
+      return return_value_pi_set_error_3;
     }
 
-    signed long int return_value_cmp_rx$4;
-    return_value_cmp_rx$4=cmp_rx(ps, buf, (unsigned long int)10, 0);
-    bytes = (signed int)return_value_cmp_rx$4;
+    signed long int return_value_cmp_rx_4;
+    return_value_cmp_rx_4=cmp_rx(ps, buf, (unsigned long int)10, 0);
+    bytes = (signed int)return_value_cmp_rx_4;
     pi_buffer_free(buf);
     if(!(bytes >= 0))
       return bytes;
@@ -7358,12 +7358,12 @@ extern signed int cmp_rx_handshake(struct pi_socket *ps, signed int establishrat
       {
         pi_log(0x040, 0x01, "CMP Incompatible Version\n");
         cmp_abort(ps, 0x80);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        *return_value___errno_location$5 = 111;
-        signed int return_value_pi_set_error$6;
-        return_value_pi_set_error$6=pi_set_error(ps->sd, -101);
-        return return_value_pi_set_error$6;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        *return_value___errno_location_5 = 111;
+        signed int return_value_pi_set_error_6;
+        return_value_pi_set_error_6=pi_set_error(ps->sd, -101);
+        return return_value_pi_set_error_6;
       }
       return 0;
     }
@@ -7378,11 +7378,11 @@ static signed int cmp_setsockopt(struct pi_socket *ps, signed int level, signed 
   struct pi_padp_data *data;
   (void)level;
   prot=pi_protocol(ps->sd, 2);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -7401,12 +7401,12 @@ static signed int cmp_setsockopt(struct pi_socket *ps, signed int level, signed 
 
   error:
     ;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
-    signed int return_value_pi_set_error$3;
-    return_value_pi_set_error$3=pi_set_error(ps->sd, -501);
-    return return_value_pi_set_error$3;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
+    signed int return_value_pi_set_error_3;
+    return_value_pi_set_error_3=pi_set_error(ps->sd, -501);
+    return return_value_pi_set_error_3;
   }
 }
 
@@ -7422,17 +7422,17 @@ extern signed long int cmp_tx(struct pi_socket *ps, const unsigned char *buf, un
   struct pi_cmp_data *data;
   unsigned char cmp_buf[10l];
   prot=pi_protocol(ps->sd, 5);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
-  signed long int tmp_if_expr$3;
-  signed long int tmp_if_expr$4;
-  signed int return_value_pi_debug_get_level$5;
-  signed int tmp_if_expr$8;
-  signed int return_value_pi_set_error$7;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
+  signed long int tmp_if_expr_3;
+  signed long int tmp_if_expr_4;
+  signed int return_value_pi_debug_get_level_5;
+  signed int tmp_if_expr_8;
+  signed int return_value_pi_set_error_7;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -7441,8 +7441,8 @@ extern signed long int cmp_tx(struct pi_socket *ps, const unsigned char *buf, un
     next=pi_protocol_next(ps->sd, 5);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
     else
@@ -7453,17 +7453,17 @@ extern signed long int cmp_tx(struct pi_socket *ps, const unsigned char *buf, un
       ((unsigned char *)&cmp_buf[(signed long int)0])[(signed long int)0] = data->type;
       ((unsigned char *)&cmp_buf[(signed long int)1])[(signed long int)0] = data->flags;
       if((signed long int)data->version >= 259l)
-        tmp_if_expr$3 = 0x0102L;
+        tmp_if_expr_3 = 0x0102L;
 
       else
-        tmp_if_expr$3 = (signed long int)data->version;
-      ((unsigned char *)&cmp_buf[(signed long int)2])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$3 >> 8 & 0xff);
+        tmp_if_expr_3 = (signed long int)data->version;
+      ((unsigned char *)&cmp_buf[(signed long int)2])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_3 >> 8 & 0xff);
       if((signed long int)data->version >= 259l)
-        tmp_if_expr$4 = 0x0102L;
+        tmp_if_expr_4 = 0x0102L;
 
       else
-        tmp_if_expr$4 = (signed long int)data->version;
-      ((unsigned char *)&cmp_buf[(signed long int)2])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$4 >> 0 & 0xff);
+        tmp_if_expr_4 = (signed long int)data->version;
+      ((unsigned char *)&cmp_buf[(signed long int)2])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_4 >> 0 & 0xff);
       ((unsigned char *)&cmp_buf[(signed long int)4])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)0 >> 8 & 0xff);
       ((unsigned char *)&cmp_buf[(signed long int)4])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)0 >> 0 & 0xff);
       ((unsigned char *)&cmp_buf[(signed long int)6])[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)data->baudrate >> 24) & 0xff);
@@ -7472,12 +7472,12 @@ extern signed long int cmp_tx(struct pi_socket *ps, const unsigned char *buf, un
       ((unsigned char *)&cmp_buf[(signed long int)6])[(signed long int)3] = (unsigned char)((unsigned long int)data->baudrate >> 0 & (unsigned long int)0xff);
       do
       {
-        signed int return_value_pi_debug_get_types$6;
-        return_value_pi_debug_get_types$6=pi_debug_get_types();
-        if(!((0x040 & return_value_pi_debug_get_types$6) == 0))
+        signed int return_value_pi_debug_get_types_6;
+        return_value_pi_debug_get_types_6=pi_debug_get_types();
+        if(!((0x040 & return_value_pi_debug_get_types_6) == 0))
         {
-          return_value_pi_debug_get_level$5=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$5 >= 0x04)
+          return_value_pi_debug_get_level_5=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_5 >= 0x04)
             cmp_dump(cmp_buf, 1);
 
         }
@@ -7490,14 +7490,14 @@ extern signed long int cmp_tx(struct pi_socket *ps, const unsigned char *buf, un
       if(!(bytes >= 10))
       {
         if(!(bytes >= 0))
-          tmp_if_expr$8 = bytes;
+          tmp_if_expr_8 = bytes;
 
         else
         {
-          return_value_pi_set_error$7=pi_set_error(ps->sd, -100);
-          tmp_if_expr$8 = return_value_pi_set_error$7;
+          return_value_pi_set_error_7=pi_set_error(ps->sd, -100);
+          tmp_if_expr_8 = return_value_pi_set_error_7;
         }
-        return (signed long int)tmp_if_expr$8;
+        return (signed long int)tmp_if_expr_8;
       }
 
       else
@@ -7514,13 +7514,13 @@ extern signed int cmp_tx_handshake(struct pi_socket *ps)
   struct pi_cmp_data *data;
   signed int result;
   prot=pi_protocol(ps->sd, 5);
-  signed int return_value_pi_set_error$1;
-  signed int *return_value___errno_location$3;
-  signed int return_value_pi_set_error$4;
+  signed int return_value_pi_set_error_1;
+  signed int *return_value___errno_location_3;
+  signed int return_value_pi_set_error_4;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -7532,9 +7532,9 @@ extern signed int cmp_tx_handshake(struct pi_socket *ps)
 
     else
     {
-      signed long int return_value_cmp_rx$2;
-      return_value_cmp_rx$2=cmp_rx(ps, (struct pi_buffer_t *)(void *)0, (unsigned long int)0, 0);
-      result = (signed int)return_value_cmp_rx$2;
+      signed long int return_value_cmp_rx_2;
+      return_value_cmp_rx_2=cmp_rx(ps, (struct pi_buffer_t *)(void *)0, (unsigned long int)0, 0);
+      result = (signed int)return_value_cmp_rx_2;
       if(!(result >= 0))
         return result;
 
@@ -7546,10 +7546,10 @@ extern signed int cmp_tx_handshake(struct pi_socket *ps)
           case 0x03:
           {
             pi_log(0x040, 0x00, "CMP Aborted by other end\n");
-            return_value___errno_location$3=__errno_location();
-            *return_value___errno_location$3 = -5;
-            return_value_pi_set_error$4=pi_set_error(ps->sd, -100);
-            return return_value_pi_set_error$4;
+            return_value___errno_location_3=__errno_location();
+            *return_value___errno_location_3 = -5;
+            return_value_pi_set_error_4=pi_set_error(ps->sd, -100);
+            return return_value_pi_set_error_4;
           }
           default:
             return -101;
@@ -7565,11 +7565,11 @@ extern signed int cmp_wakeup(struct pi_socket *ps, signed int maxbaud)
   struct pi_protocol *prot;
   struct pi_cmp_data *data;
   prot=pi_protocol(ps->sd, 5);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -7579,9 +7579,9 @@ extern signed int cmp_wakeup(struct pi_socket *ps, signed int maxbaud)
     data->flags = (unsigned char)0;
     data->version = (unsigned int)0x0102L;
     data->baudrate = maxbaud;
-    signed long int return_value_cmp_tx$2;
-    return_value_cmp_tx$2=cmp_tx(ps, (const unsigned char *)(void *)0, (unsigned long int)0, 0);
-    return (signed int)return_value_cmp_tx$2;
+    signed long int return_value_cmp_tx_2;
+    return_value_cmp_tx_2=cmp_tx(ps, (const unsigned char *)(void *)0, (unsigned long int)0, 0);
+    return (signed int)return_value_cmp_tx_2;
   }
 }
 
@@ -7651,14 +7651,14 @@ extern signed int copy_CalendarEvent(const struct CalendarEvent *source, struct 
   dest->exceptions = source->exceptions;
   if(source->exceptions >= 1)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)source->exceptions * sizeof(struct tm) /*56ul*/ );
-    dest->exception = (struct tm *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)source->exceptions * sizeof(struct tm) /*56ul*/ );
+    dest->exception = (struct tm *)return_value_malloc_1;
     if(dest->exception == ((struct tm *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 12;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 12;
       return -1;
     }
 
@@ -7684,32 +7684,32 @@ extern signed int copy_CalendarEvent(const struct CalendarEvent *source, struct 
     dest->location = (char *)(void *)0;
   i = 0;
   for( ; !(i >= 10); i = i + 1)
-    if(!(source->blob[(signed long int)i] == ((struct anonymous$28 *)NULL)))
+    if(!(source->blob[(signed long int)i] == ((struct anonymous_28 *)NULL)))
     {
       dest->blob[(signed long int)i]=dup_Blob(source->blob[(signed long int)i]);
-      if(dest->blob[(signed long int)i] == ((struct anonymous$28 *)NULL))
+      if(dest->blob[(signed long int)i] == ((struct anonymous_28 *)NULL))
         return -1;
 
     }
 
     else
-      dest->blob[(signed long int)i] = (struct anonymous$28 *)(void *)0;
-  if(!(source->tz == ((struct anonymous$25 *)NULL)))
+      dest->blob[(signed long int)i] = (struct anonymous_28 *)(void *)0;
+  if(!(source->tz == ((struct anonymous_25 *)NULL)))
   {
     dest->tz=dup_Timezone(source->tz);
-    if(dest->tz == ((struct anonymous$25 *)NULL))
+    if(dest->tz == ((struct anonymous_25 *)NULL))
       return -1;
 
   }
 
   else
-    dest->tz = (struct anonymous$25 *)(void *)0;
+    dest->tz = (struct anonymous_25 *)(void *)0;
   return 0;
 }
 
 // copy_Location
 // file location.c line 141
-extern signed int copy_Location(const struct anonymous$27 *source, struct anonymous$27 *dest)
+extern signed int copy_Location(const struct anonymous_27 *source, struct anonymous_27 *dest)
 {
   signed int retval;
   retval=copy_Timezone(&source->tz, &dest->tz);
@@ -7737,7 +7737,7 @@ extern signed int copy_Location(const struct anonymous$27 *source, struct anonym
 
 // copy_Timezone
 // file location.c line 102
-extern signed int copy_Timezone(const struct anonymous$25 *source, struct anonymous$25 *dest)
+extern signed int copy_Timezone(const struct anonymous_25 *source, struct anonymous_25 *dest)
 {
   dest->offset = source->offset;
   dest->t2 = source->t2;
@@ -7767,16 +7767,16 @@ extern signed int crc16(unsigned char *ptr, signed int count)
   signed int crc;
   signed int i;
   crc = 0;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
     count = count - 1;
     if(!(count >= 0))
       break;
 
-    tmp_post$1 = ptr;
+    tmp_post_1 = ptr;
     ptr = ptr + 1l;
-    crc = crc ^ (signed int)*tmp_post$1 << 8;
+    crc = crc ^ (signed int)*tmp_post_1 << 8;
     i = 0;
     for( ; !(i >= 8); i = i + 1)
       if(!((0x8000 & crc) == 0))
@@ -7791,23 +7791,23 @@ extern signed int crc16(unsigned char *ptr, signed int count)
 
 // deregister_sdp
 // file bluetooth.c line 186
-static signed int deregister_sdp(unsigned int handle, struct anonymous$21 *sess)
+static signed int deregister_sdp(unsigned int handle, struct anonymous_21 *sess)
 {
   unsigned int range = (unsigned int)0x0000ffff;
   struct _sdp_list *attr;
-  struct anonymous$20 *rec;
-  struct anonymous$18 interface;
-  if(sess == ((struct anonymous$21 *)NULL))
+  struct anonymous_20 *rec;
+  struct anonymous_18 interface;
+  if(sess == ((struct anonymous_21 *)NULL))
     return 0;
 
   else
   {
-    struct anonymous$18 literal$1 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-    bacpy(&interface, &literal$1);
+    struct anonymous_18 literal_1 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+    bacpy(&interface, &literal_1);
     attr=sdp_list_append(((struct _sdp_list *)NULL), (void *)&range);
-    rec=sdp_service_attr_req(sess, handle, (enum anonymous$22)SDP_ATTR_REQ_RANGE, attr);
+    rec=sdp_service_attr_req(sess, handle, (enum anonymous_22)SDP_ATTR_REQ_RANGE, attr);
     sdp_list_free(attr, ((void (*)(void *))NULL));
-    if(rec == ((struct anonymous$20 *)NULL))
+    if(rec == ((struct anonymous_20 *)NULL))
     {
       pi_log(0x002, 0x01, "bluetooth: service record not found\n");
       sdp_close(sess);
@@ -7816,15 +7816,15 @@ static signed int deregister_sdp(unsigned int handle, struct anonymous$21 *sess)
 
     else
     {
-      signed int return_value_sdp_record_unregister$4;
-      return_value_sdp_record_unregister$4=sdp_record_unregister(sess, rec);
-      if(!(return_value_sdp_record_unregister$4 == 0))
+      signed int return_value_sdp_record_unregister_4;
+      return_value_sdp_record_unregister_4=sdp_record_unregister(sess, rec);
+      if(!(return_value_sdp_record_unregister_4 == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        pi_log(0x002, 0x01, "bluetooth: failed to unregister service record: %s\n", return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        pi_log(0x002, 0x01, "bluetooth: failed to unregister service record: %s\n", return_value_strerror_3);
         sdp_close(sess);
         return -1;
       }
@@ -7846,9 +7846,9 @@ extern signed int dlp_AbortSync(signed int sd)
   ps=find_pi_socket(sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
@@ -7865,14 +7865,14 @@ extern signed int dlp_AddSyncLogEntry(signed int sd, char *entry)
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"%s\"\n", sd, (const void *)"dlp_AddSyncLogEntry", entry);
   pi_reset_errors(sd);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(entry);
-  req=dlp_request_new((enum dlpFunctions)dlpFuncAddSyncLogEntry, 1, return_value_strlen$1 + (unsigned long int)1);
-  signed int return_value_pi_set_error$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(entry);
+  req=dlp_request_new((enum dlpFunctions)dlpFuncAddSyncLogEntry, 1, return_value_strlen_1 + (unsigned long int)1);
+  signed int return_value_pi_set_error_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -7907,10 +7907,10 @@ extern signed int dlp_CallApplication(signed int sd, unsigned long int creator, 
 
   data_len = sizeof(signed int) /*4ul*/ ;
   pi_getsockopt(sd, 7, 1, (void *)&previous_honor_rx_timeout, &data_len);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_debug_get_level$2;
-  signed int return_value_pi_set_error$4;
-  signed int return_value_pi_debug_get_level$5;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_debug_get_level_2;
+  signed int return_value_pi_set_error_4;
+  signed int return_value_pi_debug_get_level_5;
   if(version >= 0x0101)
   {
     if(22ul + length >= 65536ul)
@@ -7923,8 +7923,8 @@ extern signed int dlp_CallApplication(signed int sd, unsigned long int creator, 
     req=dlp_request_new_with_argid((enum dlpFunctions)dlpFuncCallApplication, 0x21, 1, (unsigned long int)22 + length);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$1=pi_set_error(sd, -500);
-      return return_value_pi_set_error$1;
+      return_value_pi_set_error_1=pi_set_error(sd, -500);
+      return return_value_pi_set_error_1;
     }
 
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)creator >> 24) & 0xff);
@@ -7969,12 +7969,12 @@ extern signed int dlp_CallApplication(signed int sd, unsigned long int creator, 
       pi_log(0x010, 0x04, "DLP CallApplication Result: %lu (0x%08lx), and %d bytes:\n", (unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]), (unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]), data_len);
       do
       {
-        signed int return_value_pi_debug_get_types$3;
-        return_value_pi_debug_get_types$3=pi_debug_get_types();
-        if(!((0x010 & return_value_pi_debug_get_types$3) == 0))
+        signed int return_value_pi_debug_get_types_3;
+        return_value_pi_debug_get_types_3=pi_debug_get_types();
+        if(!((0x010 & return_value_pi_debug_get_types_3) == 0))
         {
-          return_value_pi_debug_get_level$2=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$2 >= 0x08)
+          return_value_pi_debug_get_level_2=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_2 >= 0x08)
             pi_dumpdata(&res->argv[(signed long int)0]->data[(signed long int)16], (unsigned long int)data_len);
 
         }
@@ -7997,8 +7997,8 @@ extern signed int dlp_CallApplication(signed int sd, unsigned long int creator, 
     req=dlp_request_new((enum dlpFunctions)dlpFuncCallApplication, 1, (unsigned long int)8 + length);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$4=pi_set_error(sd, -500);
-      return return_value_pi_set_error$4;
+      return_value_pi_set_error_4=pi_set_error(sd, -500);
+      return return_value_pi_set_error_4;
     }
 
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)creator >> 24) & 0xff);
@@ -8027,12 +8027,12 @@ extern signed int dlp_CallApplication(signed int sd, unsigned long int creator, 
       pi_log(0x010, 0x04, "DLP CallApplication Action: %d Result: %u (0x%04x), and %d bytes:\n", (signed int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1]), (unsigned int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)2])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)2])[(signed long int)1]), (unsigned int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)2])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)2])[(signed long int)1]), data_len);
       do
       {
-        signed int return_value_pi_debug_get_types$6;
-        return_value_pi_debug_get_types$6=pi_debug_get_types();
-        if(!((0x010 & return_value_pi_debug_get_types$6) == 0))
+        signed int return_value_pi_debug_get_types_6;
+        return_value_pi_debug_get_types_6=pi_debug_get_types();
+        if(!((0x010 & return_value_pi_debug_get_types_6) == 0))
         {
-          return_value_pi_debug_get_level$5=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$5 >= 0x08)
+          return_value_pi_debug_get_level_5=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_5 >= 0x08)
             pi_dumpdata(&res->argv[(signed long int)0]->data[(signed long int)6], (unsigned long int)data_len);
 
         }
@@ -8056,11 +8056,11 @@ extern signed int dlp_CleanUpDatabase(signed int sd, signed int dbhandle)
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_CleanUpDatabase");
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncCleanUpDatabase, 1, 1);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -8083,11 +8083,11 @@ extern signed int dlp_CloseDB(signed int sd, signed int dbhandle)
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_CloseDB");
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncCloseDB, 1, 1);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -8110,11 +8110,11 @@ extern signed int dlp_CloseDB_All(signed int sd)
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_CloseDB_All");
   pi_reset_errors(sd);
   req=dlp_request_new_with_argid((enum dlpFunctions)dlpFuncCloseDB, 0x21, 0);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -8135,14 +8135,14 @@ extern signed int dlp_CreateDB(signed int sd, unsigned long int creator, unsigne
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"'%s' type='%4.4s' creator='%4.4s' flags=0x%04x version=%d\"\n", sd, (const void *)"dlp_CreateDB", name, (const char *)&type, (const char *)&creator, flags, version);
   pi_reset_errors(sd);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  req=dlp_request_new((enum dlpFunctions)dlpFuncCreateDB, 1, (unsigned long int)14 + return_value_strlen$1 + (unsigned long int)1);
-  signed int return_value_pi_set_error$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  req=dlp_request_new((enum dlpFunctions)dlpFuncCreateDB, 1, (unsigned long int)14 + return_value_strlen_1 + (unsigned long int)1);
+  signed int return_value_pi_set_error_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -8184,10 +8184,10 @@ extern signed int dlp_DeleteCategory(signed int sd, signed int dbhandle, signed 
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"category=%d\"\n", sd, (const void *)"dlp_DeleteCategory", category);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$2;
-  return_value_pi_version$2=pi_version(sd);
-  signed int return_value_pi_set_error$1;
-  if(!(return_value_pi_version$2 >= 0x0101))
+  signed int return_value_pi_version_2;
+  return_value_pi_version_2=pi_version(sd);
+  signed int return_value_pi_set_error_1;
+  if(!(return_value_pi_version_2 >= 0x0101))
   {
     signed int i;
     signed int cat;
@@ -8222,8 +8222,8 @@ extern signed int dlp_DeleteCategory(signed int sd, signed int dbhandle, signed 
     req=dlp_request_new((enum dlpFunctions)dlpFuncDeleteRecord, 1, 6);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$1=pi_set_error(sd, -500);
-      return return_value_pi_set_error$1;
+      return_value_pi_set_error_1=pi_set_error(sd, -500);
+      return return_value_pi_set_error_1;
     }
 
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)dbhandle;
@@ -8248,14 +8248,14 @@ extern signed int dlp_DeleteDB(signed int sd, signed int card, const char *name)
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"%s\"\n", sd, (const void *)"dlp_DeleteDB", name);
   pi_reset_errors(sd);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  req=dlp_request_new((enum dlpFunctions)dlpFuncDeleteDB, 1, (unsigned long int)2 + return_value_strlen$1 + (unsigned long int)1);
-  signed int return_value_pi_set_error$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  req=dlp_request_new((enum dlpFunctions)dlpFuncDeleteDB, 1, (unsigned long int)2 + return_value_strlen_1 + (unsigned long int)1);
+  signed int return_value_pi_set_error_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -8281,11 +8281,11 @@ extern signed int dlp_DeleteRecord(signed int sd, signed int dbhandle, signed in
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_DeleteRecord");
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncDeleteRecord, 1, 6);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -8314,11 +8314,11 @@ extern signed int dlp_DeleteResource(signed int sd, signed int dbhandle, signed 
   pi_log(0x010, 0x04, "DLP sd=%d %s \"restype='%4.4s' resID=%d all=%d\"\n", sd, (const void *)"dlp_DeleteResource", (const char *)&restype, resID, all);
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncDeleteResource, 1, 8);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -8351,18 +8351,18 @@ extern signed int dlp_EndOfSync(signed int sd, signed int status)
   ps=find_pi_socket(sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
   req=dlp_request_new((enum dlpFunctions)dlpFuncEndOfSync, 1, 2);
-  signed int return_value_pi_set_error$2;
+  signed int return_value_pi_set_error_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -8386,11 +8386,11 @@ extern signed int dlp_ExpCardInfo(signed int sd, signed int slotRef, unsigned lo
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  unsigned long int return_value_strlen$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  unsigned long int return_value_strlen_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -8400,8 +8400,8 @@ extern signed int dlp_ExpCardInfo(signed int sd, signed int slotRef, unsigned lo
     req=dlp_request_new((enum dlpFunctions)dlpFuncExpCardInfo, 1, 2);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -8425,14 +8425,14 @@ extern signed int dlp_ExpCardInfo(signed int sd, signed int slotRef, unsigned lo
             i = 0;
             for( ; !(i >= *numStrings); p = p + (signed long int)len)
             {
-              return_value_strlen$3=strlen(p);
-              len = (signed int)(return_value_strlen$3 + (unsigned long int)1);
+              return_value_strlen_3=strlen(p);
+              len = (signed int)(return_value_strlen_3 + (unsigned long int)1);
               i = i + 1;
               sz = sz + len;
             }
-            void *return_value_malloc$4;
-            return_value_malloc$4=malloc((unsigned long int)sz);
-            *strings = (char *)return_value_malloc$4;
+            void *return_value_malloc_4;
+            return_value_malloc_4=malloc((unsigned long int)sz);
+            *strings = (char *)return_value_malloc_4;
             if(!(*strings == ((char *)NULL)))
               memcpy((void *)*strings, (const void *)&res->argv[(signed long int)0]->data[(signed long int)8], (unsigned long int)sz);
 
@@ -8458,10 +8458,10 @@ extern signed int dlp_ExpCardPresent(signed int sd, signed int slotRef)
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -8471,8 +8471,8 @@ extern signed int dlp_ExpCardPresent(signed int sd, signed int slotRef)
     req=dlp_request_new((enum dlpFunctions)dlpFuncExpCardPresent, 1, 2);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -8494,11 +8494,11 @@ extern signed int dlp_ExpSlotEnumerate(signed int sd, signed int *numSlots, sign
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  _Bool tmp_if_expr$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  _Bool tmp_if_expr_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -8508,8 +8508,8 @@ extern signed int dlp_ExpSlotEnumerate(signed int sd, signed int *numSlots, sign
     req=dlp_request_new((enum dlpFunctions)dlpFuncExpSlotEnumerate, 0);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -8528,11 +8528,11 @@ extern signed int dlp_ExpSlotEnumerate(signed int sd, signed int *numSlots, sign
           do
           {
             if(!(i >= slots))
-              tmp_if_expr$3 = i < *numSlots ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = i < *numSlots ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(!tmp_if_expr$3)
+              tmp_if_expr_3 = (_Bool)0;
+            if(!tmp_if_expr_3)
               break;
 
             slotRefs[(signed long int)i] = (signed int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)(2 + 2 * i)])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)(2 + 2 * i)])[(signed long int)1]);
@@ -8558,10 +8558,10 @@ extern signed int dlp_ExpSlotMediaType(signed int sd, signed int slotNum, unsign
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 260))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 260))
     return dlpErrNotSupp;
 
   else
@@ -8571,8 +8571,8 @@ extern signed int dlp_ExpSlotMediaType(signed int sd, signed int slotNum, unsign
     req=dlp_request_new((enum dlpFunctions)dlpFuncExpSlotMediaType, 1, 2);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -8603,25 +8603,25 @@ extern signed int dlp_FindDBByName(signed int sd, signed int cardno, const char 
   signed int flags = 0;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"cardno=%d name='%s'\"\n", sd, (const void *)"dlp_FindDBByName", cardno, name);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$2;
-  return_value_pi_version$2=pi_version(sd);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$4;
-  if(!(return_value_pi_version$2 >= 0x0102))
+  signed int return_value_pi_version_2;
+  return_value_pi_version_2=pi_version(sd);
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_4;
+  if(!(return_value_pi_version_2 >= 0x0102))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -302);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -302);
+    return return_value_pi_set_error_1;
   }
 
   else
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(name);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncFindDB, 1, (unsigned long int)2 + return_value_strlen$3 + (unsigned long int)1);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(name);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncFindDB, 1, (unsigned long int)2 + return_value_strlen_3 + (unsigned long int)1);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$4=pi_set_error(sd, -500);
-      return return_value_pi_set_error$4;
+      return_value_pi_set_error_4=pi_set_error(sd, -500);
+      return return_value_pi_set_error_4;
     }
 
     else
@@ -8656,14 +8656,14 @@ extern signed int dlp_FindDBByOpenHandle(signed int sd, signed int dbhandle, sig
   signed int flags = 0;
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_FindDBByOpenHandle");
   pi_reset_errors(sd);
-  signed int return_value_pi_version$2;
-  return_value_pi_version$2=pi_version(sd);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$2 >= 0x0102))
+  signed int return_value_pi_version_2;
+  return_value_pi_version_2=pi_version(sd);
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_2 >= 0x0102))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -302);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -302);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -8671,8 +8671,8 @@ extern signed int dlp_FindDBByOpenHandle(signed int sd, signed int dbhandle, sig
     req=dlp_request_new_with_argid((enum dlpFunctions)dlpFuncFindDB, 0x21, 1, 2);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -8707,14 +8707,14 @@ extern signed int dlp_FindDBByTypeCreator(signed int sd, unsigned long int type,
   signed int search_flags = 0;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"type='%4.4s' creator='%4.4s' start=%d latest=%d\"\n", sd, (const void *)"dlp_FindDBByTypeCreator", (const char *)&type, (const char *)&creator, start, latest);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$2;
-  return_value_pi_version$2=pi_version(sd);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$2 >= 0x0102))
+  signed int return_value_pi_version_2;
+  return_value_pi_version_2=pi_version(sd);
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_2 >= 0x0102))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -302);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -302);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -8722,8 +8722,8 @@ extern signed int dlp_FindDBByTypeCreator(signed int sd, unsigned long int type,
     req=dlp_request_new_with_argid((enum dlpFunctions)dlpFuncFindDB, 0x22, 1, 10);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -8771,21 +8771,21 @@ extern signed int dlp_FindDBInfo(signed int sd, signed int cardno, signed int st
   pi_log(0x010, 0x04, "DLP sd=%d %s \"cardno=%d start=%d\"\n", sd, (const void *)"dlp_FindDBInfo", cardno, start);
   pi_reset_errors(sd);
   buf=pi_buffer_new(sizeof(struct DBInfo) /*112ul*/ );
-  signed int return_value_pi_set_error$1;
-  signed int return_value_dlp_ReadDBList$2;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcmp$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int return_value_dlp_ReadDBList$7;
-  _Bool tmp_if_expr$11;
-  signed int return_value_strcmp$10;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_dlp_ReadDBList_2;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcmp_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_dlp_ReadDBList_7;
+  _Bool tmp_if_expr_11;
+  signed int return_value_strcmp_10;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
   if(buf == ((struct pi_buffer_t *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -8795,8 +8795,8 @@ extern signed int dlp_FindDBInfo(signed int sd, signed int cardno, signed int st
       i = start;
       do
       {
-        return_value_dlp_ReadDBList$2=dlp_ReadDBList(sd, cardno, 0x80 | 32, i, buf);
-        if(!(return_value_dlp_ReadDBList$2 >= 0))
+        return_value_dlp_ReadDBList_2=dlp_ReadDBList(sd, cardno, 0x80 | 32, i, buf);
+        if(!(return_value_dlp_ReadDBList_2 >= 0))
           break;
 
         j = 0;
@@ -8804,28 +8804,28 @@ extern signed int dlp_FindDBInfo(signed int sd, signed int cardno, signed int st
         {
           memcpy((void *)info, (const void *)(buf->data + (signed long int)((unsigned long int)j * sizeof(struct DBInfo) /*112ul*/ )), sizeof(struct DBInfo) /*112ul*/ );
           if(dbname == ((const char *)NULL))
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$5=strcmp(info->name, dbname);
-            tmp_if_expr$6 = return_value_strcmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_5=strcmp(info->name, dbname);
+            tmp_if_expr_6 = return_value_strcmp_5 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$6)
+          if(tmp_if_expr_6)
           {
             if(type == 0ul)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = info->type == type ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = info->type == type ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
             {
               if(creator == 0ul)
-                tmp_if_expr$3 = (_Bool)1;
+                tmp_if_expr_3 = (_Bool)1;
 
               else
-                tmp_if_expr$3 = info->creator == creator ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = info->creator == creator ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_3)
                 goto found;
 
             }
@@ -8842,8 +8842,8 @@ extern signed int dlp_FindDBInfo(signed int sd, signed int cardno, signed int st
     i = start & 0xFFF;
     do
     {
-      return_value_dlp_ReadDBList$7=dlp_ReadDBList(sd, cardno, 0x40 | 32, i, buf);
-      if(!(return_value_dlp_ReadDBList$7 >= 0))
+      return_value_dlp_ReadDBList_7=dlp_ReadDBList(sd, cardno, 0x40 | 32, i, buf);
+      if(!(return_value_dlp_ReadDBList_7 >= 0))
         break;
 
       j = 0;
@@ -8851,28 +8851,28 @@ extern signed int dlp_FindDBInfo(signed int sd, signed int cardno, signed int st
       {
         memcpy((void *)info, (const void *)(buf->data + (signed long int)((unsigned long int)j * sizeof(struct DBInfo) /*112ul*/ )), sizeof(struct DBInfo) /*112ul*/ );
         if(dbname == ((const char *)NULL))
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$10=strcmp(info->name, dbname);
-          tmp_if_expr$11 = return_value_strcmp$10 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_10=strcmp(info->name, dbname);
+          tmp_if_expr_11 = return_value_strcmp_10 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$11)
+        if(tmp_if_expr_11)
         {
           if(type == 0ul)
-            tmp_if_expr$9 = (_Bool)1;
+            tmp_if_expr_9 = (_Bool)1;
 
           else
-            tmp_if_expr$9 = info->type == type ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = info->type == type ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_9)
           {
             if(creator == 0ul)
-              tmp_if_expr$8 = (_Bool)1;
+              tmp_if_expr_8 = (_Bool)1;
 
             else
-              tmp_if_expr$8 = info->creator == creator ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$8)
+              tmp_if_expr_8 = info->creator == creator ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_8)
             {
               info->index = info->index | (unsigned int)0x1000;
               goto found;
@@ -8906,20 +8906,20 @@ extern signed int dlp_GetROMToken(signed int sd, unsigned long int token, void *
   unsigned long int buffer_ptr;
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_GetROMToken");
   pi_reset_errors(sd);
-  unsigned short int return_value_htons$1;
-  return_value_htons$1=htons((unsigned short int)0);
-  unsigned int return_value_htonl$2;
-  return_value_htonl$2=htonl((unsigned int)token);
-  PackRPC(&p, 0xa340, 2, -2, (unsigned int)return_value_htons$1, -4, (unsigned int)return_value_htonl$2, 4, (void *)&buffer_ptr, 1, 2, (void *)size, 1, 0);
+  unsigned short int return_value_htons_1;
+  return_value_htons_1=htons((unsigned short int)0);
+  unsigned int return_value_htonl_2;
+  return_value_htonl_2=htonl((unsigned int)token);
+  PackRPC(&p, 0xa340, 2, -2, (unsigned int)return_value_htons_1, -4, (unsigned int)return_value_htonl_2, 4, (void *)&buffer_ptr, 1, 2, (void *)size, 1, 0);
   val=dlp_RPC(sd, &p, &result);
   if(!(buffer == NULL))
   {
     ((unsigned char *)buffer)[(signed long int)*size] = (unsigned char)0;
-    unsigned int return_value_htonl$3;
-    return_value_htonl$3=htonl((unsigned int)buffer_ptr);
-    unsigned int return_value_htonl$4;
-    return_value_htonl$4=htonl((unsigned int)(unsigned long int)*size);
-    PackRPC(&p, 0xa026, 2, *size, (void *)buffer, 0, -4, (unsigned int)return_value_htonl$3, -4, (unsigned int)return_value_htonl$4, 0);
+    unsigned int return_value_htonl_3;
+    return_value_htonl_3=htonl((unsigned int)buffer_ptr);
+    unsigned int return_value_htonl_4;
+    return_value_htonl_4=htonl((unsigned int)(unsigned long int)*size);
+    PackRPC(&p, 0xa026, 2, *size, (void *)buffer, 0, -4, (unsigned int)return_value_htonl_3, -4, (unsigned int)return_value_htonl_4, 0);
     val=dlp_RPC(sd, &p, &result);
   }
 
@@ -8944,11 +8944,11 @@ extern signed int dlp_GetSysDateTime(signed int sd, signed long int *t)
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_GetSysDateTime");
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncGetSysDateTime, 0);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -8958,9 +8958,9 @@ extern signed int dlp_GetSysDateTime(signed int sd, signed long int *t)
     if(result >= 1)
     {
       *t=dlp_ptohdate((const unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0]);
-      char *return_value_ctime$2;
-      return_value_ctime$2=ctime(t);
-      pi_log(0x010, 0x04, "DLP GetSysDateTime %s", return_value_ctime$2);
+      char *return_value_ctime_2;
+      return_value_ctime_2=ctime(t);
+      pi_log(0x010, 0x04, "DLP GetSysDateTime %s", return_value_ctime_2);
     }
 
     dlp_response_free(res);
@@ -8978,11 +8978,11 @@ extern signed int dlp_MoveCategory(signed int sd, signed int handle, signed int 
   pi_log(0x010, 0x04, "DLP sd=%d %s \"from %d to %d\"\n", sd, (const void *)"dlp_MoveCategory", fromcat, tocat);
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncMoveCategory, 1, 4);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -9011,11 +9011,11 @@ extern signed int dlp_OpenConduit(signed int sd)
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_OpenConduit");
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncOpenConduit, 0);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -9039,14 +9039,14 @@ extern signed int dlp_OpenDB(signed int sd, signed int cardno, signed int mode, 
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"'%s'\"\n", sd, (const void *)"dlp_OpenDB", name);
   pi_reset_errors(sd);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  req=dlp_request_new((enum dlpFunctions)dlpFuncOpenDB, 1, (unsigned long int)2 + return_value_strlen$1 + (unsigned long int)1);
-  signed int return_value_pi_set_error$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  req=dlp_request_new((enum dlpFunctions)dlpFuncOpenDB, 1, (unsigned long int)2 + return_value_strlen_1 + (unsigned long int)1);
+  signed int return_value_pi_set_error_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -9080,12 +9080,12 @@ extern signed int dlp_RPC(signed int sd, struct RPC_params *p, unsigned long int
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_RPC");
   pi_reset_errors(sd);
   dlp_buf=pi_buffer_new((unsigned long int)0xffff);
-  signed int return_value_pi_set_error$1;
-  unsigned char *tmp_post$2;
+  signed int return_value_pi_set_error_1;
+  unsigned char *tmp_post_2;
   if(dlp_buf == ((struct pi_buffer_t *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -9121,23 +9121,23 @@ extern signed int dlp_RPC(signed int sd, struct RPC_params *p, unsigned long int
       c = c + (signed long int)p->param[(signed long int)i].size;
       if(!((1ul & p->param[(signed long int)i].size) == 0ul))
       {
-        tmp_post$2 = c;
+        tmp_post_2 = c;
         c = c + 1l;
-        *tmp_post$2 = (unsigned char)0;
+        *tmp_post_2 = (unsigned char)0;
       }
 
     }
-    signed long int return_value_pi_write$4;
-    return_value_pi_write$4=pi_write(sd, (const void *)dlp_buf->data, (unsigned long int)(c - dlp_buf->data));
-    if(return_value_pi_write$4 >= 1l)
+    signed long int return_value_pi_write_4;
+    return_value_pi_write_4=pi_write(sd, (const void *)dlp_buf->data, (unsigned long int)(c - dlp_buf->data));
+    if(return_value_pi_write_4 >= 1l)
     {
       err = 0;
       if(!(p->reply == 0))
       {
         signed int l;
-        signed long int return_value_pi_read$3;
-        return_value_pi_read$3=pi_read(sd, dlp_buf, (unsigned long int)((c - dlp_buf->data) + (signed long int)2));
-        l = (signed int)return_value_pi_read$3;
+        signed long int return_value_pi_read_3;
+        return_value_pi_read_3=pi_read(sd, dlp_buf, (unsigned long int)((c - dlp_buf->data) + (signed long int)2));
+        l = (signed int)return_value_pi_read_3;
         if(!(l >= 0))
           err = l;
 
@@ -9209,12 +9209,12 @@ extern signed int dlp_ReadAppBlock(signed int sd, signed int dbhandle, signed in
     pi_buffer_clear(retbuf);
 
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadAppBlock, 1, 6);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_debug_get_level$2;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_debug_get_level_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -9241,12 +9241,12 @@ extern signed int dlp_ReadAppBlock(signed int sd, signed int dbhandle, signed in
         pi_log(0x010, 0x04, "DLP ReadAppBlock %d bytes\n", data_len);
         do
         {
-          signed int return_value_pi_debug_get_types$3;
-          return_value_pi_debug_get_types$3=pi_debug_get_types();
-          if(!((0x010 & return_value_pi_debug_get_types$3) == 0))
+          signed int return_value_pi_debug_get_types_3;
+          return_value_pi_debug_get_types_3=pi_debug_get_types();
+          if(!((0x010 & return_value_pi_debug_get_types_3) == 0))
           {
-            return_value_pi_debug_get_level$2=pi_debug_get_level();
-            if(return_value_pi_debug_get_level$2 >= 0x08)
+            return_value_pi_debug_get_level_2=pi_debug_get_level();
+            if(return_value_pi_debug_get_level_2 >= 0x08)
               pi_dumpdata(&res->argv[(signed long int)0]->data[(signed long int)2], (unsigned long int)data_len);
 
           }
@@ -9273,15 +9273,15 @@ extern signed int dlp_ReadAppPreference(signed int sd, unsigned long int creator
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"creator='%4.4s' prefID=%d backup=%d maxsize=%d\"\n", sd, (const void *)"dlp_ReadAppPreference", (const char *)creator, prefID, backup, maxsize);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$2;
-  return_value_pi_version$2=pi_version(sd);
-  if(!(return_value_pi_version$2 >= 0x0101))
+  signed int return_value_pi_version_2;
+  return_value_pi_version_2=pi_version(sd);
+  if(!(return_value_pi_version_2 >= 0x0101))
   {
     signed int db;
     struct pi_buffer_t *buf;
-    char *return_value_printlong$1;
-    return_value_printlong$1=printlong(creator);
-    pi_log(0x010, 0x04, "DLP ReadAppPreference Emulating with: Creator: '%s', Id: %d, Size: %d, Backup: %d\n", return_value_printlong$1, prefID, buffer != NULL ? maxsize : 0, backup != 0 ? 0x80 : 0);
+    char *return_value_printlong_1;
+    return_value_printlong_1=printlong(creator);
+    pi_log(0x010, 0x04, "DLP ReadAppPreference Emulating with: Creator: '%s', Id: %d, Size: %d, Backup: %d\n", return_value_printlong_1, prefID, buffer != NULL ? maxsize : 0, backup != 0 ? 0x80 : 0);
     result=dlp_OpenDB(sd, 0, 128, "System Preferences", &db);
     if(!(result >= 0))
       return result;
@@ -9323,12 +9323,12 @@ extern signed int dlp_ReadAppPreference(signed int sd, unsigned long int creator
   }
 
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadAppPreference, 1, 10);
-  signed int return_value_pi_set_error$3;
-  signed int return_value_pi_debug_get_level$4;
+  signed int return_value_pi_set_error_3;
+  signed int return_value_pi_debug_get_level_4;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$3=pi_set_error(sd, -500);
-    return return_value_pi_set_error$3;
+    return_value_pi_set_error_3=pi_set_error(sd, -500);
+    return return_value_pi_set_error_3;
   }
 
   else
@@ -9363,12 +9363,12 @@ extern signed int dlp_ReadAppPreference(signed int sd, unsigned long int creator
       pi_log(0x010, 0x04, "DLP ReadAppPref Version: %d, Total size: %d, Read %d bytes:\n", (unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1]), (unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)2])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)2])[(signed long int)1]), (unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)1]));
       do
       {
-        signed int return_value_pi_debug_get_types$5;
-        return_value_pi_debug_get_types$5=pi_debug_get_types();
-        if(!((0x010 & return_value_pi_debug_get_types$5) == 0))
+        signed int return_value_pi_debug_get_types_5;
+        return_value_pi_debug_get_types_5=pi_debug_get_types();
+        if(!((0x010 & return_value_pi_debug_get_types_5) == 0))
         {
-          return_value_pi_debug_get_level$4=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$4 >= 0x08)
+          return_value_pi_debug_get_level_4=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_4 >= 0x08)
             pi_dumpdata(&res->argv[(signed long int)0]->data[(signed long int)6], (unsigned long int)data_len);
 
         }
@@ -9398,19 +9398,19 @@ extern signed int dlp_ReadDBList(signed int sd, signed int cardno, signed int fl
   pi_log(0x010, 0x04, "DLP sd=%d %s \"cardno=%d flags=0x%04x start=%d\"\n", sd, (const void *)"dlp_ReadDBList", cardno, flags, start);
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadDBList, 1, 4);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
   {
     pi_buffer_clear(info);
-    signed int return_value_pi_version$2;
-    return_value_pi_version$2=pi_version(sd);
-    if(!(return_value_pi_version$2 >= 0x0102))
+    signed int return_value_pi_version_2;
+    return_value_pi_version_2=pi_version(sd);
+    if(!(return_value_pi_version_2 >= 0x0102))
       flags = flags & ~32;
 
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)flags;
@@ -9427,9 +9427,9 @@ extern signed int dlp_ReadDBList(signed int sd, signed int cardno, signed int fl
       i = 0;
       for( ; !(i >= count); i = i + 1)
       {
-        signed int return_value_pi_version$3;
-        return_value_pi_version$3=pi_version(sd);
-        if(return_value_pi_version$3 >= 257)
+        signed int return_value_pi_version_3;
+        return_value_pi_version_3=pi_version(sd);
+        if(return_value_pi_version_3 >= 257)
           db.miscFlags = (unsigned int)((unsigned char *)(p + (signed long int)5))[(signed long int)0];
 
         else
@@ -9446,25 +9446,25 @@ extern signed int dlp_ReadDBList(signed int sd, signed int cardno, signed int fl
         memset((void *)db.name, 0, sizeof(char [34l]) /*34ul*/ );
         strncpy(db.name, (char *)(p + (signed long int)48), (unsigned long int)32);
         pi_log(0x010, 0x04, "DLP ReadDBList Name: '%s', Version: %d, More: %s\n", (const void *)db.name, db.version, db.more != 0 ? "Yes" : "No");
-        char *return_value_printlong$4;
-        return_value_printlong$4=printlong(db.creator);
-        pi_log(0x010, 0x04, "  Creator: '%s'", return_value_printlong$4);
-        char *return_value_printlong$5;
-        return_value_printlong$5=printlong(db.type);
-        pi_log(0x010, 0x04, " Type: '%s' Flags: %s%s%s%s%s%s%s%s%s%s", return_value_printlong$5, (db.flags & (unsigned int)1) != 0u ? "Resource " : "", (db.flags & (unsigned int)2) != 0u ? "ReadOnly " : "", (db.flags & (unsigned int)4) != 0u ? "AppInfoDirty " : "", (db.flags & (unsigned int)8) != 0u ? "Backup " : "", (db.flags & (unsigned int)32) != 0u ? "Reset " : "", (db.flags & (unsigned int)16) != 0u ? "Newer " : "", (db.flags & (unsigned int)64) != 0u ? "CopyPrevention " : "", (db.flags & (unsigned int)128) != 0u ? "Stream " : "", (db.flags & (unsigned int)32768) != 0u ? "Open " : "", !(db.flags != 0u) ? "None" : "");
+        char *return_value_printlong_4;
+        return_value_printlong_4=printlong(db.creator);
+        pi_log(0x010, 0x04, "  Creator: '%s'", return_value_printlong_4);
+        char *return_value_printlong_5;
+        return_value_printlong_5=printlong(db.type);
+        pi_log(0x010, 0x04, " Type: '%s' Flags: %s%s%s%s%s%s%s%s%s%s", return_value_printlong_5, (db.flags & (unsigned int)1) != 0u ? "Resource " : "", (db.flags & (unsigned int)2) != 0u ? "ReadOnly " : "", (db.flags & (unsigned int)4) != 0u ? "AppInfoDirty " : "", (db.flags & (unsigned int)8) != 0u ? "Backup " : "", (db.flags & (unsigned int)32) != 0u ? "Reset " : "", (db.flags & (unsigned int)16) != 0u ? "Newer " : "", (db.flags & (unsigned int)64) != 0u ? "CopyPrevention " : "", (db.flags & (unsigned int)128) != 0u ? "Stream " : "", (db.flags & (unsigned int)32768) != 0u ? "Open " : "", !(db.flags != 0u) ? "None" : "");
         pi_log(0x010, 0x04, " (0x%2.2X)\n", db.flags);
-        char *return_value_ctime$6;
-        return_value_ctime$6=ctime(&db.createDate);
-        pi_log(0x010, 0x04, "  Modnum: %ld, Index: %d, Creation date: 0x%08lx, %s", db.modnum, db.index, db.createDate, return_value_ctime$6);
-        char *return_value_ctime$7;
-        return_value_ctime$7=ctime(&db.modifyDate);
-        pi_log(0x010, 0x04, " Modification date: 0x%08lx, %s", db.modifyDate, return_value_ctime$7);
-        char *return_value_ctime$8;
-        return_value_ctime$8=ctime(&db.backupDate);
-        pi_log(0x010, 0x04, " Backup date: 0x%08lx, %s", db.backupDate, return_value_ctime$8);
-        struct pi_buffer_t *return_value_pi_buffer_append$9;
-        return_value_pi_buffer_append$9=pi_buffer_append(info, (const void *)&db, sizeof(struct DBInfo) /*112ul*/ );
-        if(return_value_pi_buffer_append$9 == ((struct pi_buffer_t *)NULL))
+        char *return_value_ctime_6;
+        return_value_ctime_6=ctime(&db.createDate);
+        pi_log(0x010, 0x04, "  Modnum: %ld, Index: %d, Creation date: 0x%08lx, %s", db.modnum, db.index, db.createDate, return_value_ctime_6);
+        char *return_value_ctime_7;
+        return_value_ctime_7=ctime(&db.modifyDate);
+        pi_log(0x010, 0x04, " Modification date: 0x%08lx, %s", db.modifyDate, return_value_ctime_7);
+        char *return_value_ctime_8;
+        return_value_ctime_8=ctime(&db.backupDate);
+        pi_log(0x010, 0x04, " Backup date: 0x%08lx, %s", db.backupDate, return_value_ctime_8);
+        struct pi_buffer_t *return_value_pi_buffer_append_9;
+        return_value_pi_buffer_append_9=pi_buffer_append(info, (const void *)&db, sizeof(struct DBInfo) /*112ul*/ );
+        if(return_value_pi_buffer_append_9 == ((struct pi_buffer_t *)NULL))
         {
           result=pi_set_error(sd, -500);
           break;
@@ -9490,9 +9490,9 @@ extern signed int dlp_ReadFeature(signed int sd, unsigned long int creator, sign
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"creator='%4.4s' num=%d\"\n", sd, (const void *)"dlp_ReadFeature", (const char *)&creator, num);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$4;
-  return_value_pi_version$4=pi_version(sd);
-  if(!(return_value_pi_version$4 >= 0x0101))
+  signed int return_value_pi_version_4;
+  return_value_pi_version_4=pi_version(sd);
+  if(!(return_value_pi_version_4 >= 0x0101))
   {
     struct RPC_params p;
     signed int val;
@@ -9501,11 +9501,11 @@ extern signed int dlp_ReadFeature(signed int sd, unsigned long int creator, sign
       return 0;
 
     *feature = (unsigned long int)0x12345678;
-    unsigned int return_value_htonl$1;
-    return_value_htonl$1=htonl((unsigned int)creator);
-    unsigned short int return_value_htons$2;
-    return_value_htons$2=htons((unsigned short int)num);
-    PackRPC(&p, 0xA27B, 2, -4, (unsigned int)return_value_htonl$1, -2, (unsigned int)return_value_htons$2, 4, (void *)feature, 1, 0);
+    unsigned int return_value_htonl_1;
+    return_value_htonl_1=htonl((unsigned int)creator);
+    unsigned short int return_value_htons_2;
+    return_value_htons_2=htons((unsigned short int)num);
+    PackRPC(&p, 0xA27B, 2, -4, (unsigned int)return_value_htonl_1, -2, (unsigned int)return_value_htons_2, 4, (void *)feature, 1, 0);
     val=dlp_RPC(sd, &p, &errCode);
     if(!(val >= 0))
     {
@@ -9517,9 +9517,9 @@ extern signed int dlp_ReadFeature(signed int sd, unsigned long int creator, sign
     {
       pi_log(0x010, 0x04, "DLP ReadFeature FtrGet error 0x%8.8lX\n", res);
       pi_set_palmos_error(sd, (signed int)errCode);
-      signed int return_value_pi_set_error$3;
-      return_value_pi_set_error$3=pi_set_error(sd, -301);
-      return return_value_pi_set_error$3;
+      signed int return_value_pi_set_error_3;
+      return_value_pi_set_error_3=pi_set_error(sd, -301);
+      return return_value_pi_set_error_3;
     }
 
     pi_log(0x010, 0x04, " DLP ReadFeature Feature: 0x%8.8lX\n", (unsigned long int)*feature);
@@ -9528,11 +9528,11 @@ extern signed int dlp_ReadFeature(signed int sd, unsigned long int creator, sign
 
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_ReadFeatureV2");
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadFeature, 1, 6);
-  signed int return_value_pi_set_error$5;
+  signed int return_value_pi_set_error_5;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$5=pi_set_error(sd, -500);
-    return return_value_pi_set_error$5;
+    return_value_pi_set_error_5=pi_set_error(sd, -500);
+    return return_value_pi_set_error_5;
   }
 
   else
@@ -9567,14 +9567,14 @@ extern signed int dlp_ReadNetSyncInfo(signed int sd, struct NetSyncInfo *i)
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_ReadNetSyncInfo");
   pi_reset_errors(sd);
-  signed int return_value_pi_version$2;
-  return_value_pi_version$2=pi_version(sd);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$2 >= 0x0101))
+  signed int return_value_pi_version_2;
+  return_value_pi_version_2=pi_version(sd);
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_2 >= 0x0101))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -302);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -302);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -9582,8 +9582,8 @@ extern signed int dlp_ReadNetSyncInfo(signed int sd, struct NetSyncInfo *i)
     req=dlp_request_new((enum dlpFunctions)dlpFuncReadNetSyncInfo, 0);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -9623,12 +9623,12 @@ extern signed int dlp_ReadNextModifiedRec(signed int sd, signed int dbhandle, st
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_ReadNextModifiedRec");
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadNextModifiedRec, 1, 1);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_debug_get_level$2;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_debug_get_level_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -9659,12 +9659,12 @@ extern signed int dlp_ReadNextModifiedRec(signed int sd, signed int dbhandle, st
 
       do
       {
-        signed int return_value_pi_debug_get_types$3;
-        return_value_pi_debug_get_types$3=pi_debug_get_types();
-        if(!((0x010 & return_value_pi_debug_get_types$3) == 0))
+        signed int return_value_pi_debug_get_types_3;
+        return_value_pi_debug_get_types_3=pi_debug_get_types();
+        if(!((0x010 & return_value_pi_debug_get_types_3) == 0))
         {
-          return_value_pi_debug_get_level$2=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$2 >= 0x08)
+          return_value_pi_debug_get_level_2=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_2 >= 0x08)
             record_dump((unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]), (unsigned int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)1]), (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)0], (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)9])[(signed long int)0], &res->argv[(signed long int)0]->data[(signed long int)10], data_len);
 
         }
@@ -9690,9 +9690,9 @@ extern signed int dlp_ReadNextModifiedRecInCategory(signed int sd, signed int db
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"category=%d\"\n", sd, (const void *)"dlp_ReadNextModifiedRecInCategory", category);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  if(!(return_value_pi_version$1 >= 0x0101))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  if(!(return_value_pi_version_1 >= 0x0101))
   {
     signed int cat;
     pi_log(0x010, 0x04, "DLP ReadNextModifiedRecInCategory Emulating with: Handle: %d, Category: %d\n", dbhandle, category);
@@ -9703,12 +9703,12 @@ extern signed int dlp_ReadNextModifiedRecInCategory(signed int sd, signed int db
   }
 
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadNextModifiedRecInCategory, 1, 2);
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_debug_get_level$3;
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_debug_get_level_3;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -9737,12 +9737,12 @@ extern signed int dlp_ReadNextModifiedRecInCategory(signed int sd, signed int db
 
       do
       {
-        signed int return_value_pi_debug_get_types$4;
-        return_value_pi_debug_get_types$4=pi_debug_get_types();
-        if(!((0x010 & return_value_pi_debug_get_types$4) == 0))
+        signed int return_value_pi_debug_get_types_4;
+        return_value_pi_debug_get_types_4=pi_debug_get_types();
+        if(!((0x010 & return_value_pi_debug_get_types_4) == 0))
         {
-          return_value_pi_debug_get_level$3=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$3 >= 0x08)
+          return_value_pi_debug_get_level_3=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_3 >= 0x08)
             record_dump((unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]), (unsigned int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)1]), (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)0], (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)9])[(signed long int)0], &res->argv[(signed long int)0]->data[(signed long int)10], data_len);
 
         }
@@ -9769,9 +9769,9 @@ extern signed int dlp_ReadNextRecInCategory(signed int sd, signed int dbhandle, 
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"category=%d\"\n", sd, (const void *)"dlp_ReadNextRecInCategory", category);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$2;
-  return_value_pi_version$2=pi_version(sd);
-  if(!(return_value_pi_version$2 >= 0x0101))
+  signed int return_value_pi_version_2;
+  return_value_pi_version_2=pi_version(sd);
+  if(!(return_value_pi_version_2 >= 0x0101))
   {
     signed int cat;
     signed int rec;
@@ -9780,9 +9780,9 @@ extern signed int dlp_ReadNextRecInCategory(signed int sd, signed int dbhandle, 
     ps=find_pi_socket(sd);
     if(ps == ((struct pi_socket *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 3;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 3;
       return -130;
     }
 
@@ -9814,12 +9814,12 @@ extern signed int dlp_ReadNextRecInCategory(signed int sd, signed int dbhandle, 
   }
 
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadNextRecInCategory, 1, 2);
-  signed int return_value_pi_set_error$3;
-  signed int return_value_pi_debug_get_level$4;
+  signed int return_value_pi_set_error_3;
+  signed int return_value_pi_debug_get_level_4;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$3=pi_set_error(sd, -500);
-    return return_value_pi_set_error$3;
+    return_value_pi_set_error_3=pi_set_error(sd, -500);
+    return return_value_pi_set_error_3;
   }
 
   else
@@ -9850,12 +9850,12 @@ extern signed int dlp_ReadNextRecInCategory(signed int sd, signed int dbhandle, 
       pi_log(0x010, 0x04, "DLP ReadNextRecInCategory ID: 0x%8.8lX, Index: %d, Category: %d\n  Flags: %s%s%s%s%s%s (0x%2.2X) and %d bytes:\n", (unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]), (unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)1]), (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)9])[(signed long int)0], (flags & 128) != 0 ? " Deleted" : "", (flags & 64) != 0 ? " Dirty" : "", (flags & 32) != 0 ? " Busy" : "", (flags & 16) != 0 ? " Secret" : "", (flags & 8) != 0 ? " Archive" : "", !(flags != 0) ? " None" : "", flags, data_len);
       do
       {
-        signed int return_value_pi_debug_get_types$5;
-        return_value_pi_debug_get_types$5=pi_debug_get_types();
-        if(!((0x010 & return_value_pi_debug_get_types$5) == 0))
+        signed int return_value_pi_debug_get_types_5;
+        return_value_pi_debug_get_types_5=pi_debug_get_types();
+        if(!((0x010 & return_value_pi_debug_get_types_5) == 0))
         {
-          return_value_pi_debug_get_level$4=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$4 >= 0x08)
+          return_value_pi_debug_get_level_4=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_4 >= 0x08)
             pi_dumpdata(&res->argv[(signed long int)0]->data[(signed long int)10], (unsigned long int)data_len);
 
         }
@@ -9881,11 +9881,11 @@ extern signed int dlp_ReadOpenDBInfo(signed int sd, signed int dbhandle, signed 
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_ReadOpenDBInfo");
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadOpenDBInfo, 1, 1);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -9914,18 +9914,18 @@ extern signed int dlp_ReadRecordById(signed int sd, signed int dbhandle, unsigne
   struct dlpRequest *req;
   struct dlpResponse *res;
   signed int maxBufferSize;
-  unsigned long int return_value_pi_maxrecsize$1;
-  return_value_pi_maxrecsize$1=pi_maxrecsize(sd);
-  maxBufferSize = (signed int)(return_value_pi_maxrecsize$1 - (unsigned long int)100);
+  unsigned long int return_value_pi_maxrecsize_1;
+  return_value_pi_maxrecsize_1=pi_maxrecsize(sd);
+  maxBufferSize = (signed int)(return_value_pi_maxrecsize_1 - (unsigned long int)100);
   pi_log(0x010, 0x04, "DLP sd=%d %s \"recuid=0x%08lx\"\n", sd, (const void *)"dlp_ReadRecordById", recuid);
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadRecord, 1, 10);
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_debug_get_level$3;
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_debug_get_level_3;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -9991,12 +9991,12 @@ extern signed int dlp_ReadRecordById(signed int sd, signed int dbhandle, unsigne
 
       do
       {
-        signed int return_value_pi_debug_get_types$4;
-        return_value_pi_debug_get_types$4=pi_debug_get_types();
-        if(!((0x010 & return_value_pi_debug_get_types$4) == 0))
+        signed int return_value_pi_debug_get_types_4;
+        return_value_pi_debug_get_types_4=pi_debug_get_types();
+        if(!((0x010 & return_value_pi_debug_get_types_4) == 0))
         {
-          return_value_pi_debug_get_level$3=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$3 >= 0x08)
+          return_value_pi_debug_get_level_3=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_3 >= 0x08)
             record_dump((unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]), (unsigned int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)1]), (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)0], (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)9])[(signed long int)0], &res->argv[(signed long int)0]->data[(signed long int)10], result);
 
         }
@@ -10019,22 +10019,22 @@ extern signed int dlp_ReadRecordByIndex(signed int sd, signed int dbhandle, sign
   struct dlpRequest *req;
   struct dlpResponse *res;
   signed int maxBufferSize;
-  unsigned long int return_value_pi_maxrecsize$1;
-  return_value_pi_maxrecsize$1=pi_maxrecsize(sd);
-  maxBufferSize = (signed int)(return_value_pi_maxrecsize$1 - (unsigned long int)100);
+  unsigned long int return_value_pi_maxrecsize_1;
+  return_value_pi_maxrecsize_1=pi_maxrecsize(sd);
+  maxBufferSize = (signed int)(return_value_pi_maxrecsize_1 - (unsigned long int)100);
   pi_log(0x010, 0x04, "DLP sd=%d %s \"recindex=%d\"\n", sd, (const void *)"dlp_ReadRecordByIndex", recindex);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$8;
-  return_value_pi_version$8=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_set_error$7;
-  if(return_value_pi_version$8 >= 0x0104)
+  signed int return_value_pi_version_8;
+  return_value_pi_version_8=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_set_error_7;
+  if(return_value_pi_version_8 >= 0x0104)
   {
     req=dlp_request_new_with_argid((enum dlpFunctions)dlpFuncReadRecordEx, 0x21, 1, 12);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)dbhandle;
@@ -10045,18 +10045,18 @@ extern signed int dlp_ReadRecordByIndex(signed int sd, signed int dbhandle, sign
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)1] = (unsigned char)((unsigned long int)0 >> 16 & (unsigned long int)0xff);
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)2] = (unsigned char)((unsigned long int)0 >> 8 & (unsigned long int)0xff);
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)3] = (unsigned char)((unsigned long int)0 >> 0 & (unsigned long int)0xff);
-    unsigned long int return_value_pi_maxrecsize$3;
-    return_value_pi_maxrecsize$3=pi_maxrecsize(sd);
-    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)return_value_pi_maxrecsize$3 >> 24) & 0xff);
-    unsigned long int return_value_pi_maxrecsize$4;
-    return_value_pi_maxrecsize$4=pi_maxrecsize(sd);
-    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)1] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize$4 >> 16 & (unsigned long int)0xff);
-    unsigned long int return_value_pi_maxrecsize$5;
-    return_value_pi_maxrecsize$5=pi_maxrecsize(sd);
-    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)2] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize$5 >> 8 & (unsigned long int)0xff);
-    unsigned long int return_value_pi_maxrecsize$6;
-    return_value_pi_maxrecsize$6=pi_maxrecsize(sd);
-    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)3] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize$6 >> 0 & (unsigned long int)0xff);
+    unsigned long int return_value_pi_maxrecsize_3;
+    return_value_pi_maxrecsize_3=pi_maxrecsize(sd);
+    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)return_value_pi_maxrecsize_3 >> 24) & 0xff);
+    unsigned long int return_value_pi_maxrecsize_4;
+    return_value_pi_maxrecsize_4=pi_maxrecsize(sd);
+    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)1] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize_4 >> 16 & (unsigned long int)0xff);
+    unsigned long int return_value_pi_maxrecsize_5;
+    return_value_pi_maxrecsize_5=pi_maxrecsize(sd);
+    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)2] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize_5 >> 8 & (unsigned long int)0xff);
+    unsigned long int return_value_pi_maxrecsize_6;
+    return_value_pi_maxrecsize_6=pi_maxrecsize(sd);
+    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)3] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize_6 >> 0 & (unsigned long int)0xff);
     large = 1;
   }
 
@@ -10065,8 +10065,8 @@ extern signed int dlp_ReadRecordByIndex(signed int sd, signed int dbhandle, sign
     req=dlp_request_new_with_argid((enum dlpFunctions)dlpFuncReadRecord, 0x21, 1, 8);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$7=pi_set_error(sd, -500);
-      return return_value_pi_set_error$7;
+      return_value_pi_set_error_7=pi_set_error(sd, -500);
+      return return_value_pi_set_error_7;
     }
 
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)dbhandle;
@@ -10080,7 +10080,7 @@ extern signed int dlp_ReadRecordByIndex(signed int sd, signed int dbhandle, sign
   }
   result=dlp_exec(sd, req, &res);
   dlp_request_free(req);
-  signed int return_value_pi_debug_get_level$9;
+  signed int return_value_pi_debug_get_level_9;
   if(result >= 1)
   {
     result = (signed int)(res->argv[(signed long int)0]->len - (unsigned long int)(large != 0 ? 14 : 10));
@@ -10128,12 +10128,12 @@ extern signed int dlp_ReadRecordByIndex(signed int sd, signed int dbhandle, sign
 
     do
     {
-      signed int return_value_pi_debug_get_types$10;
-      return_value_pi_debug_get_types$10=pi_debug_get_types();
-      if(!((0x010 & return_value_pi_debug_get_types$10) == 0))
+      signed int return_value_pi_debug_get_types_10;
+      return_value_pi_debug_get_types_10=pi_debug_get_types();
+      if(!((0x010 & return_value_pi_debug_get_types_10) == 0))
       {
-        return_value_pi_debug_get_level$9=pi_debug_get_level();
-        if(return_value_pi_debug_get_level$9 >= 0x08)
+        return_value_pi_debug_get_level_9=pi_debug_get_level();
+        if(return_value_pi_debug_get_level_9 >= 0x08)
           record_dump((unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]), (unsigned int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)1]), (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)(large != 0 ? 12 : 8)])[(signed long int)0], (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)(large != 0 ? 13 : 9)])[(signed long int)0], &res->argv[(signed long int)0]->data[(signed long int)(large != 0 ? 14 : 10)], result);
 
       }
@@ -10156,12 +10156,12 @@ extern signed int dlp_ReadRecordIDList(signed int sd, signed int dbhandle, signe
   pi_log(0x010, 0x04, "DLP sd=%d %s \"sort=%d start=%d max=%d\"\n", sd, (const void *)"dlp_ReadRecordIDList", sort, start, max);
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadRecordIDList, 1, 6);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_debug_get_level$2;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_debug_get_level_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -10188,12 +10188,12 @@ extern signed int dlp_ReadRecordIDList(signed int sd, signed int dbhandle, signe
       pi_log(0x010, 0x04, "DLP ReadRecordIDList %d IDs:\n", ret);
       do
       {
-        signed int return_value_pi_debug_get_types$3;
-        return_value_pi_debug_get_types$3=pi_debug_get_types();
-        if(!((0x010 & return_value_pi_debug_get_types$3) == 0))
+        signed int return_value_pi_debug_get_types_3;
+        return_value_pi_debug_get_types_3=pi_debug_get_types();
+        if(!((0x010 & return_value_pi_debug_get_types_3) == 0))
         {
-          return_value_pi_debug_get_level$2=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$2 >= 0x08)
+          return_value_pi_debug_get_level_2=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_2 >= 0x08)
             pi_dumpdata(&res->argv[(signed long int)0]->data[(signed long int)2], (unsigned long int)(ret * 4));
 
         }
@@ -10217,22 +10217,22 @@ extern signed int dlp_ReadResourceByIndex(signed int sd, signed int dbhandle, un
   struct dlpRequest *req;
   struct dlpResponse *res;
   signed int maxBufferSize;
-  unsigned long int return_value_pi_maxrecsize$1;
-  return_value_pi_maxrecsize$1=pi_maxrecsize(sd);
-  maxBufferSize = (signed int)(return_value_pi_maxrecsize$1 - (unsigned long int)100);
+  unsigned long int return_value_pi_maxrecsize_1;
+  return_value_pi_maxrecsize_1=pi_maxrecsize(sd);
+  maxBufferSize = (signed int)(return_value_pi_maxrecsize_1 - (unsigned long int)100);
   pi_log(0x010, 0x04, "DLP sd=%d %s \"resindex=%d\"\n", sd, (const void *)"dlp_ReadResourceByIndex", resindex);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$8;
-  return_value_pi_version$8=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_set_error$7;
-  if(return_value_pi_version$8 >= 0x0104)
+  signed int return_value_pi_version_8;
+  return_value_pi_version_8=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_set_error_7;
+  if(return_value_pi_version_8 >= 0x0104)
   {
     req=dlp_request_new((enum dlpFunctions)dlpFuncReadResourceEx, 1, 12);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)dbhandle;
@@ -10243,18 +10243,18 @@ extern signed int dlp_ReadResourceByIndex(signed int sd, signed int dbhandle, un
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)1] = (unsigned char)((unsigned long int)0 >> 16 & (unsigned long int)0xff);
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)2] = (unsigned char)((unsigned long int)0 >> 8 & (unsigned long int)0xff);
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)3] = (unsigned char)((unsigned long int)0 >> 0 & (unsigned long int)0xff);
-    unsigned long int return_value_pi_maxrecsize$3;
-    return_value_pi_maxrecsize$3=pi_maxrecsize(sd);
-    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)return_value_pi_maxrecsize$3 >> 24) & 0xff);
-    unsigned long int return_value_pi_maxrecsize$4;
-    return_value_pi_maxrecsize$4=pi_maxrecsize(sd);
-    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)1] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize$4 >> 16 & (unsigned long int)0xff);
-    unsigned long int return_value_pi_maxrecsize$5;
-    return_value_pi_maxrecsize$5=pi_maxrecsize(sd);
-    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)2] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize$5 >> 8 & (unsigned long int)0xff);
-    unsigned long int return_value_pi_maxrecsize$6;
-    return_value_pi_maxrecsize$6=pi_maxrecsize(sd);
-    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)3] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize$6 >> 0 & (unsigned long int)0xff);
+    unsigned long int return_value_pi_maxrecsize_3;
+    return_value_pi_maxrecsize_3=pi_maxrecsize(sd);
+    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)return_value_pi_maxrecsize_3 >> 24) & 0xff);
+    unsigned long int return_value_pi_maxrecsize_4;
+    return_value_pi_maxrecsize_4=pi_maxrecsize(sd);
+    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)1] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize_4 >> 16 & (unsigned long int)0xff);
+    unsigned long int return_value_pi_maxrecsize_5;
+    return_value_pi_maxrecsize_5=pi_maxrecsize(sd);
+    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)2] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize_5 >> 8 & (unsigned long int)0xff);
+    unsigned long int return_value_pi_maxrecsize_6;
+    return_value_pi_maxrecsize_6=pi_maxrecsize(sd);
+    ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)3] = (unsigned char)((unsigned long int)return_value_pi_maxrecsize_6 >> 0 & (unsigned long int)0xff);
     large = 1;
   }
 
@@ -10263,8 +10263,8 @@ extern signed int dlp_ReadResourceByIndex(signed int sd, signed int dbhandle, un
     req=dlp_request_new((enum dlpFunctions)dlpFuncReadResource, 1, 8);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$7=pi_set_error(sd, -500);
-      return return_value_pi_set_error$7;
+      return_value_pi_set_error_7=pi_set_error(sd, -500);
+      return return_value_pi_set_error_7;
     }
 
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)dbhandle;
@@ -10278,7 +10278,7 @@ extern signed int dlp_ReadResourceByIndex(signed int sd, signed int dbhandle, un
   }
   result=dlp_exec(sd, req, &res);
   dlp_request_free(req);
-  signed int return_value_pi_debug_get_level$10;
+  signed int return_value_pi_debug_get_level_10;
   if(result >= 1)
   {
     data_len = (signed int)(res->argv[(signed long int)0]->len - (unsigned long int)(large != 0 ? 12 : 10));
@@ -10321,17 +10321,17 @@ extern signed int dlp_ReadResourceByIndex(signed int sd, signed int dbhandle, un
 
     }
 
-    char *return_value_printlong$9;
-    return_value_printlong$9=printlong((unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]));
-    pi_log(0x010, 0x04, "DLP ReadResourceByIndex Type: '%s', ID: %d, Index: %d, and %d bytes:\n", return_value_printlong$9, (unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)1]), resindex, data_len);
+    char *return_value_printlong_9;
+    return_value_printlong_9=printlong((unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]));
+    pi_log(0x010, 0x04, "DLP ReadResourceByIndex Type: '%s', ID: %d, Index: %d, and %d bytes:\n", return_value_printlong_9, (unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)4])[(signed long int)1]), resindex, data_len);
     do
     {
-      signed int return_value_pi_debug_get_types$11;
-      return_value_pi_debug_get_types$11=pi_debug_get_types();
-      if(!((0x010 & return_value_pi_debug_get_types$11) == 0))
+      signed int return_value_pi_debug_get_types_11;
+      return_value_pi_debug_get_types_11=pi_debug_get_types();
+      if(!((0x010 & return_value_pi_debug_get_types_11) == 0))
       {
-        return_value_pi_debug_get_level$10=pi_debug_get_level();
-        if(return_value_pi_debug_get_level$10 >= 0x08)
+        return_value_pi_debug_get_level_10=pi_debug_get_level();
+        if(return_value_pi_debug_get_level_10 >= 0x08)
           pi_dumpdata(&res->argv[(signed long int)0]->data[(signed long int)(large != 0 ? 12 : 10)], (unsigned long int)data_len);
 
       }
@@ -10355,18 +10355,18 @@ extern signed int dlp_ReadResourceByType(signed int sd, signed int dbhandle, uns
   struct dlpRequest *req;
   struct dlpResponse *res;
   signed int maxBufferSize;
-  unsigned long int return_value_pi_maxrecsize$1;
-  return_value_pi_maxrecsize$1=pi_maxrecsize(sd);
-  maxBufferSize = (signed int)(return_value_pi_maxrecsize$1 - (unsigned long int)100);
+  unsigned long int return_value_pi_maxrecsize_1;
+  return_value_pi_maxrecsize_1=pi_maxrecsize(sd);
+  maxBufferSize = (signed int)(return_value_pi_maxrecsize_1 - (unsigned long int)100);
   pi_log(0x010, 0x04, "DLP sd=%d %s \"type='%4.4s' resID=%d\"\n", sd, (const void *)"dlp_ReadResourceByType", (const char *)&type, resID);
   pi_reset_errors(sd);
   req=dlp_request_new_with_argid((enum dlpFunctions)dlpFuncReadResource, 0x21, 1, 12);
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_debug_get_level$4;
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_debug_get_level_4;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -10428,17 +10428,17 @@ extern signed int dlp_ReadResourceByType(signed int sd, signed int dbhandle, uns
 
       }
 
-      char *return_value_printlong$3;
-      return_value_printlong$3=printlong(type);
-      pi_log(0x010, 0x04, "DLP ReadResourceByType  Type: '%s', ID: %d, Index: %d, and %d bytes:\n", return_value_printlong$3, resID, (unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)6])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)6])[(signed long int)1]), (unsigned long int)data_len);
+      char *return_value_printlong_3;
+      return_value_printlong_3=printlong(type);
+      pi_log(0x010, 0x04, "DLP ReadResourceByType  Type: '%s', ID: %d, Index: %d, and %d bytes:\n", return_value_printlong_3, resID, (unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)6])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)6])[(signed long int)1]), (unsigned long int)data_len);
       do
       {
-        signed int return_value_pi_debug_get_types$5;
-        return_value_pi_debug_get_types$5=pi_debug_get_types();
-        if(!((0x010 & return_value_pi_debug_get_types$5) == 0))
+        signed int return_value_pi_debug_get_types_5;
+        return_value_pi_debug_get_types_5=pi_debug_get_types();
+        if(!((0x010 & return_value_pi_debug_get_types_5) == 0))
         {
-          return_value_pi_debug_get_level$4=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$4 >= 0x08)
+          return_value_pi_debug_get_level_4=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_4 >= 0x08)
             pi_dumpdata(&res->argv[(signed long int)0]->data[(signed long int)10], (unsigned long int)data_len);
 
         }
@@ -10468,12 +10468,12 @@ extern signed int dlp_ReadSortBlock(signed int sd, signed int dbhandle, signed i
     pi_buffer_clear(retbuf);
 
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadSortBlock, 1, 6);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_debug_get_level$2;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_debug_get_level_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -10500,12 +10500,12 @@ extern signed int dlp_ReadSortBlock(signed int sd, signed int dbhandle, signed i
         pi_log(0x010, 0x04, "DLP ReadSortBlock %d bytes\n", data_len);
         do
         {
-          signed int return_value_pi_debug_get_types$3;
-          return_value_pi_debug_get_types$3=pi_debug_get_types();
-          if(!((0x010 & return_value_pi_debug_get_types$3) == 0))
+          signed int return_value_pi_debug_get_types_3;
+          return_value_pi_debug_get_types_3=pi_debug_get_types();
+          if(!((0x010 & return_value_pi_debug_get_types_3) == 0))
           {
-            return_value_pi_debug_get_level$2=pi_debug_get_level();
-            if(return_value_pi_debug_get_level$2 >= 0x08)
+            return_value_pi_debug_get_level_2=pi_debug_get_level();
+            if(return_value_pi_debug_get_level_2 >= 0x08)
               pi_dumpdata(&res->argv[(signed long int)0]->data[(signed long int)2], (unsigned long int)data_len);
 
           }
@@ -10534,12 +10534,12 @@ extern signed int dlp_ReadStorageInfo(signed int sd, signed int cardno, struct C
   pi_log(0x010, 0x04, "DLP sd=%d %s \"cardno=%d\"\n", sd, (const void *)"dlp_ReadStorageInfo", cardno);
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadStorageInfo, 1, 2);
-  signed int return_value_pi_set_error$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_pi_set_error_1;
+  _Bool tmp_if_expr_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -10551,11 +10551,11 @@ extern signed int dlp_ReadStorageInfo(signed int sd, signed int cardno, struct C
     if(result >= 1)
     {
       if(!(*((unsigned char *)(*res->argv)->data) == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)3])[(signed long int)0] > 1 ? (_Bool)1 : (_Bool)0;
-      c->more = (signed int)tmp_if_expr$2;
+        tmp_if_expr_2 = (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)3])[(signed long int)0] > 1 ? (_Bool)1 : (_Bool)0;
+      c->more = (signed int)tmp_if_expr_2;
       c->card = (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)5])[(signed long int)0];
       c->version = (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)6])[(signed long int)0];
       c->creation=dlp_ptohdate((const unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)8]);
@@ -10568,9 +10568,9 @@ extern signed int dlp_ReadStorageInfo(signed int sd, signed int cardno, struct C
       len2 = (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)29])[(signed long int)0];
       memcpy((void *)c->manufacturer, (const void *)&res->argv[(signed long int)0]->data[(signed long int)((unsigned long int)30 + len1)], len2);
       c->manufacturer[(signed long int)len2] = (char)0;
-      char *return_value_ctime$3;
-      return_value_ctime$3=ctime(&c->creation);
-      pi_log(0x010, 0x04, "DLP Read Cardno: %d, Card Version: %d, Creation time: %s", c->card, c->version, return_value_ctime$3);
+      char *return_value_ctime_3;
+      return_value_ctime_3=ctime(&c->creation);
+      pi_log(0x010, 0x04, "DLP Read Cardno: %d, Card Version: %d, Creation time: %s", c->card, c->version, return_value_ctime_3);
       pi_log(0x010, 0x04, "  Total ROM: %lu, Total RAM: %lu, Free RAM: %lu\n", c->romSize, c->ramSize, c->ramFree);
       pi_log(0x010, 0x04, "  Card name: '%s'\n", (const void *)c->name);
       pi_log(0x010, 0x04, "  Manufacturer name: '%s'\n", (const void *)c->manufacturer);
@@ -10592,11 +10592,11 @@ extern signed int dlp_ReadSysInfo(signed int sd, struct SysInfo *s)
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_ReadSysInfo");
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadSysInfo, 1, 4);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -10657,11 +10657,11 @@ extern signed int dlp_ReadUserInfo(signed int sd, struct PilotUser *User)
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_ReadUserInfo");
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncReadUserInfo, 0);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -10686,11 +10686,11 @@ extern signed int dlp_ReadUserInfo(signed int sd, struct PilotUser *User)
         User->password[(signed long int)User->passwordLength] = (char)0;
 
       pi_log(0x010, 0x04, "DLP ReadUserInfo UID=0x%8.8lX VID=0x%8.8lX PCID=0x%8.8lX\n", User->userID, User->viewerID, User->lastSyncPC);
-      char *return_value_ctime$2;
-      return_value_ctime$2=ctime(&User->lastSyncDate);
-      char *return_value_ctime$3;
-      return_value_ctime$3=ctime(&User->successfulSyncDate);
-      pi_log(0x010, 0x04, "  Last Sync=%s  Last Successful Sync=%s", return_value_ctime$2, return_value_ctime$3);
+      char *return_value_ctime_2;
+      return_value_ctime_2=ctime(&User->lastSyncDate);
+      char *return_value_ctime_3;
+      return_value_ctime_3=ctime(&User->successfulSyncDate);
+      pi_log(0x010, 0x04, "  Last Sync=%s  Last Successful Sync=%s", return_value_ctime_2, return_value_ctime_3);
       pi_log(0x010, 0x04, "  Username=%s\n", (const void *)User->username);
     }
 
@@ -10712,19 +10712,19 @@ extern signed int dlp_ResetDBIndex(signed int sd, signed int dbhandle)
   ps=find_pi_socket(sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
   ps->dlprecord = 0;
   req=dlp_request_new((enum dlpFunctions)dlpFuncResetRecordIndex, 1, 1);
-  signed int return_value_pi_set_error$2;
+  signed int return_value_pi_set_error_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -10751,9 +10751,9 @@ extern signed int dlp_ResetLastSyncPC(signed int sd)
   else
   {
     User.lastSyncPC = (unsigned long int)0;
-    signed int return_value_dlp_WriteUserInfo$1;
-    return_value_dlp_WriteUserInfo$1=dlp_WriteUserInfo(sd, &User);
-    return return_value_dlp_WriteUserInfo$1;
+    signed int return_value_dlp_WriteUserInfo_1;
+    return_value_dlp_WriteUserInfo_1=dlp_WriteUserInfo(sd, &User);
+    return return_value_dlp_WriteUserInfo_1;
   }
 }
 
@@ -10767,11 +10767,11 @@ extern signed int dlp_ResetSyncFlags(signed int sd, signed int dbhandle)
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dpl_ResetSyncFlags");
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncResetSyncFlags, 1, 1);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -10795,11 +10795,11 @@ extern signed int dlp_ResetSystem(signed int sd)
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncResetSystem, 0);
   result=dlp_exec(sd, req, &res);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -10819,14 +10819,14 @@ extern signed int dlp_SetDBInfo(signed int sd, signed int dbhandle, signed int f
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_SetDBInfo");
   pi_reset_errors(sd);
-  signed int return_value_pi_version$2;
-  return_value_pi_version$2=pi_version(sd);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$2 >= 0x0102))
+  signed int return_value_pi_version_2;
+  return_value_pi_version_2=pi_version(sd);
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_2 >= 0x0102))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -302);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -302);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -10834,8 +10834,8 @@ extern signed int dlp_SetDBInfo(signed int sd, signed int dbhandle, signed int f
     req=dlp_request_new((enum dlpFunctions)dlpFuncSetDBInfo, 1, 40);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -10877,11 +10877,11 @@ extern signed int dlp_SetSysDateTime(signed int sd, signed long int t)
   pi_log(0x010, 0x04, "DLP sd=%d %s \"time=0x%08lx\"\n", sd, (const void *)"dlp_SetSysDateTime", t);
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncSetSysDateTime, 1, 8);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -10901,23 +10901,23 @@ extern signed int dlp_VFSDirCreate(signed int sd, signed int volRefNum, const ch
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
   {
     pi_log(0x010, 0x04, "DLP sd=%d %s \"volRefNum=%d path='%s'\"\n", sd, (const void *)"dlp_VFSDirCreate", volRefNum, path);
     pi_reset_errors(sd);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(path);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSDirCreate, 1, (unsigned long int)2 + return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(path);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSDirCreate, 1, (unsigned long int)2 + return_value_strlen_2 + (unsigned long int)1);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -10945,10 +10945,10 @@ extern signed int dlp_VFSDirEntryEnumerate(signed int sd, unsigned long int dirR
   unsigned int count;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -10958,8 +10958,8 @@ extern signed int dlp_VFSDirEntryEnumerate(signed int sd, unsigned long int dirR
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSDirEntryEnumerate, 1, 12);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -10976,9 +10976,9 @@ extern signed int dlp_VFSDirEntryEnumerate(signed int sd, unsigned long int dirR
       ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)1] = (unsigned char)((unsigned long int)(8 + *maxDirItems * (4 + 256)) >> 16 & (unsigned long int)0xff);
       ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)2] = (unsigned char)((unsigned long int)(8 + *maxDirItems * (4 + 256)) >> 8 & (unsigned long int)0xff);
       ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)8])[(signed long int)3] = (unsigned char)((unsigned long int)(8 + *maxDirItems * (4 + 256)) >> 0 & (unsigned long int)0xff);
-      signed int return_value_dlp_exec$3;
-      return_value_dlp_exec$3=dlp_exec(sd, req, &res);
-      result = (unsigned int)return_value_dlp_exec$3;
+      signed int return_value_dlp_exec_3;
+      return_value_dlp_exec_3=dlp_exec(sd, req, &res);
+      result = (unsigned int)return_value_dlp_exec_3;
       dlp_request_free(req);
       if(result >= 1u)
       {
@@ -11014,9 +11014,9 @@ extern signed int dlp_VFSDirEntryEnumerate(signed int sd, unsigned long int dirR
             count = count + 1u;
           }
 
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(&res->argv[(signed long int)0]->data[(signed long int)(from + (unsigned int)4)]);
-          slen = (unsigned int)(return_value_strlen$4 + (unsigned long int)1);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(&res->argv[(signed long int)0]->data[(signed long int)(from + (unsigned int)4)]);
+          slen = (unsigned int)(return_value_strlen_4 + (unsigned long int)1);
           if(!((1u & slen) == 0u))
             slen = slen + 1u;
 
@@ -11038,23 +11038,23 @@ extern signed int dlp_VFSExportDatabaseToFile(signed int sd, signed int volRefNu
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
   {
     pi_log(0x010, 0x04, "DLP sd=%d %s \"cardno=%d localid=0x%08lx volRefNum=%d path='%s'\"\n", sd, (const void *)"dlp_VFSExportDatabaseToFile", cardno, (signed long int)localid, volRefNum, path);
     pi_reset_errors(sd);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(path);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSExportDatabaseToFile, 1, (unsigned long int)8 + return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(path);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSExportDatabaseToFile, 1, (unsigned long int)8 + return_value_strlen_2 + (unsigned long int)1);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -11083,10 +11083,10 @@ extern signed int dlp_VFSFileClose(signed int sd, unsigned long int fileRef)
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11096,8 +11096,8 @@ extern signed int dlp_VFSFileClose(signed int sd, unsigned long int fileRef)
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileClose, 1, 4);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11122,23 +11122,23 @@ extern signed int dlp_VFSFileCreate(signed int sd, signed int volRefNum, const c
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
   {
     pi_log(0x010, 0x04, "DLP sd=%d %s \"volRefNum=%d name='%s'\"\n", sd, (const void *)"dlp_VFSFileCreate", volRefNum, name);
     pi_reset_errors(sd);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(name);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileCreate, 1, (unsigned long int)2 + return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(name);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileCreate, 1, (unsigned long int)2 + return_value_strlen_2 + (unsigned long int)1);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -11161,23 +11161,23 @@ extern signed int dlp_VFSFileDelete(signed int sd, signed int volRefNum, const c
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
   {
     pi_log(0x010, 0x04, "DLP sd=%d %s \"volRefNum=%d path='%s'\"\n", sd, (const void *)"dlp_VFSFileDelete", volRefNum, path);
     pi_reset_errors(sd);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(path);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileDelete, 1, (unsigned long int)2 + return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(path);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileDelete, 1, (unsigned long int)2 + return_value_strlen_2 + (unsigned long int)1);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -11200,10 +11200,10 @@ extern signed int dlp_VFSFileEOF(signed int sd, unsigned long int fileRef)
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11213,8 +11213,8 @@ extern signed int dlp_VFSFileEOF(signed int sd, unsigned long int fileRef)
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileEOF, 1, 4);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11238,10 +11238,10 @@ extern signed int dlp_VFSFileGetAttributes(signed int sd, unsigned long int file
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11251,8 +11251,8 @@ extern signed int dlp_VFSFileGetAttributes(signed int sd, unsigned long int file
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileGetAttributes, 1, 4);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11279,10 +11279,10 @@ extern signed int dlp_VFSFileGetDate(signed int sd, unsigned long int fileRef, s
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11292,8 +11292,8 @@ extern signed int dlp_VFSFileGetDate(signed int sd, unsigned long int fileRef, s
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileGetDate, 1, 6);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11325,23 +11325,23 @@ extern signed int dlp_VFSFileOpen(signed int sd, signed int volRefNum, const cha
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
   {
     pi_log(0x010, 0x04, "DLP sd=%d %s \"volRefNum=%d mode=0x%04x path='%s'\"\n", sd, (const void *)"dlp_VFSFileOpen", volRefNum, openMode, path);
     pi_reset_errors(sd);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(path);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileOpen, 1, (unsigned long int)4 + return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(path);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileOpen, 1, (unsigned long int)4 + return_value_strlen_2 + (unsigned long int)1);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -11375,10 +11375,10 @@ extern signed int dlp_VFSFileRead(signed int sd, unsigned long int fileRef, stru
   unsigned long int bytes = (unsigned long int)0;
   signed int freeze_txid = 1;
   unsigned long int opt_size = sizeof(signed int) /*4ul*/ ;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11388,8 +11388,8 @@ extern signed int dlp_VFSFileRead(signed int sd, unsigned long int fileRef, stru
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileRead, 1, 8);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11410,9 +11410,9 @@ extern signed int dlp_VFSFileRead(signed int sd, unsigned long int fileRef, stru
       {
         do
         {
-          signed long int return_value_pi_read$3;
-          return_value_pi_read$3=pi_read(sd, data, len);
-          result = (signed int)return_value_pi_read$3;
+          signed long int return_value_pi_read_3;
+          return_value_pi_read_3=pi_read(sd, data, len);
+          result = (signed int)return_value_pi_read_3;
           if(result >= 1)
           {
             len = len - (unsigned long int)result;
@@ -11442,25 +11442,25 @@ extern signed int dlp_VFSFileRename(signed int sd, signed int volRefNum, const c
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$4;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_4;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
   {
     pi_log(0x010, 0x04, "DLP sd=%d %s \"volRefNum=%d file '%s' renamed '%s'\"\n", sd, (const void *)"dlp_VFSFileRename", volRefNum, path, rename);
     pi_reset_errors(sd);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(path);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(newname);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileRename, 1, (unsigned long int)4 + return_value_strlen$2 + (unsigned long int)1 + return_value_strlen$3 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(path);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(newname);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileRename, 1, (unsigned long int)4 + return_value_strlen_2 + (unsigned long int)1 + return_value_strlen_3 + (unsigned long int)1);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$4=pi_set_error(sd, -500);
-      return return_value_pi_set_error$4;
+      return_value_pi_set_error_4=pi_set_error(sd, -500);
+      return return_value_pi_set_error_4;
     }
 
     else
@@ -11470,9 +11470,9 @@ extern signed int dlp_VFSFileRename(signed int sd, signed int volRefNum, const c
       ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)2])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)2 >> 8 & 0xff);
       ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)2])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)2 >> 0 & 0xff);
       strcpy(&req->argv[(signed long int)0]->data[(signed long int)4], path);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(path);
-      strcpy(&req->argv[(signed long int)0]->data[(signed long int)((unsigned long int)4 + return_value_strlen$5 + (unsigned long int)1)], newname);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(path);
+      strcpy(&req->argv[(signed long int)0]->data[(signed long int)((unsigned long int)4 + return_value_strlen_5 + (unsigned long int)1)], newname);
       result=dlp_exec(sd, req, &res);
       dlp_request_free(req);
       dlp_response_free(res);
@@ -11488,10 +11488,10 @@ extern signed int dlp_VFSFileResize(signed int sd, unsigned long int fileRef, si
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11501,8 +11501,8 @@ extern signed int dlp_VFSFileResize(signed int sd, unsigned long int fileRef, si
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileResize, 1, 8);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11530,10 +11530,10 @@ extern signed int dlp_VFSFileSeek(signed int sd, unsigned long int fileRef, sign
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11543,8 +11543,8 @@ extern signed int dlp_VFSFileSeek(signed int sd, unsigned long int fileRef, sign
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileSeek, 1, 10);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11574,10 +11574,10 @@ extern signed int dlp_VFSFileSetAttributes(signed int sd, unsigned long int file
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11587,8 +11587,8 @@ extern signed int dlp_VFSFileSetAttributes(signed int sd, unsigned long int file
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileSetAttributes, 1, 8);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11616,10 +11616,10 @@ extern signed int dlp_VFSFileSetDate(signed int sd, unsigned long int fileRef, s
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11629,8 +11629,8 @@ extern signed int dlp_VFSFileSetDate(signed int sd, unsigned long int fileRef, s
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileSetDate, 1, 10);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11660,10 +11660,10 @@ extern signed int dlp_VFSFileSize(signed int sd, unsigned long int fileRef, sign
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11673,8 +11673,8 @@ extern signed int dlp_VFSFileSize(signed int sd, unsigned long int fileRef, sign
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileSize, 1, 4);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11704,10 +11704,10 @@ extern signed int dlp_VFSFileTell(signed int sd, unsigned long int fileRef, sign
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11717,8 +11717,8 @@ extern signed int dlp_VFSFileTell(signed int sd, unsigned long int fileRef, sign
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileTell, 1, 4);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11745,10 +11745,10 @@ extern signed int dlp_VFSFileWrite(signed int sd, unsigned long int fileRef, con
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res = (struct dlpResponse *)(void *)0;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11759,8 +11759,8 @@ extern signed int dlp_VFSFileWrite(signed int sd, unsigned long int fileRef, con
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSFileWrite, 1, 8);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11778,9 +11778,9 @@ extern signed int dlp_VFSFileWrite(signed int sd, unsigned long int fileRef, con
       if(result >= 0)
       {
         signed int bytes;
-        signed long int return_value_pi_write$3;
-        return_value_pi_write$3=pi_write(sd, data, len);
-        bytes = (signed int)return_value_pi_write$3;
+        signed long int return_value_pi_write_3;
+        return_value_pi_write_3=pi_write(sd, data, len);
+        bytes = (signed int)return_value_pi_write_3;
         result = bytes;
         if(!(result >= (signed int)len))
           pi_log(0x010, 0x04, "send failed %d\n", result);
@@ -11789,15 +11789,15 @@ extern signed int dlp_VFSFileWrite(signed int sd, unsigned long int fileRef, con
         {
           dlp_response_free(res);
           res = (struct dlpResponse *)(void *)0;
-          signed long int return_value_dlp_response_read$4;
-          return_value_dlp_response_read$4=dlp_response_read(&res, sd);
-          result = (signed int)return_value_dlp_response_read$4;
+          signed long int return_value_dlp_response_read_4;
+          return_value_dlp_response_read_4=dlp_response_read(&res, sd);
+          result = (signed int)return_value_dlp_response_read_4;
           if(result >= 1)
           {
             pi_set_palmos_error(sd, (signed int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)2])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)2])[(signed long int)1]));
-            signed int return_value_pi_palmos_error$5;
-            return_value_pi_palmos_error$5=pi_palmos_error(sd);
-            pi_log(0x010, 0x04, "send success (%d) res 0x%04x!\n", len, return_value_pi_palmos_error$5);
+            signed int return_value_pi_palmos_error_5;
+            return_value_pi_palmos_error_5=pi_palmos_error(sd);
+            pi_log(0x010, 0x04, "send success (%d) res 0x%04x!\n", len, return_value_pi_palmos_error_5);
             result = bytes;
           }
 
@@ -11818,23 +11818,23 @@ extern signed int dlp_VFSGetDefaultDir(signed int sd, signed int volRefNum, cons
   signed int buflen;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
   {
     pi_log(0x010, 0x04, "DLP sd=%d %s \"volRefNum=%d\"\n", sd, (const void *)"dlp_VFSGetDefaultDir", volRefNum);
     pi_reset_errors(sd);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(type);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSGetDefaultDir, 1, (unsigned long int)2 + return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(type);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSGetDefaultDir, 1, (unsigned long int)2 + return_value_strlen_2 + (unsigned long int)1);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -11875,10 +11875,10 @@ extern signed int dlp_VFSImportDatabaseFromFile(signed int sd, signed int volRef
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11886,13 +11886,13 @@ extern signed int dlp_VFSImportDatabaseFromFile(signed int sd, signed int volRef
     pi_log(0x010, 0x04, "DLP sd=%d %s \"volRefNum=%d path='%s'\"\n", sd, (const void *)"dlp_VFSImportDatabaseFromFile", volRefNum, path);
     pi_reset_errors(sd);
     pi_log(0x010, 0x04, "Import file <%s>%d\n", path);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(path);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSImportDatabaseFromFile, 1, (unsigned long int)2 + return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(path);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSImportDatabaseFromFile, 1, (unsigned long int)2 + return_value_strlen_2 + (unsigned long int)1);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -11926,11 +11926,11 @@ extern signed int dlp_VFSVolumeEnumerate(signed int sd, signed int *numVols, sig
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  _Bool tmp_if_expr$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  _Bool tmp_if_expr_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -11940,8 +11940,8 @@ extern signed int dlp_VFSVolumeEnumerate(signed int sd, signed int *numVols, sig
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSVolumeEnumerate, 0);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -11960,11 +11960,11 @@ extern signed int dlp_VFSVolumeEnumerate(signed int sd, signed int *numVols, sig
           do
           {
             if(!(i >= vols))
-              tmp_if_expr$3 = i < *numVols ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = i < *numVols ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(!tmp_if_expr$3)
+              tmp_if_expr_3 = (_Bool)0;
+            if(!tmp_if_expr_3)
               break;
 
             volRefs[(signed long int)i] = (signed int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)(2 + 2 * i)])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)(2 + 2 * i)])[(signed long int)1]);
@@ -11992,10 +11992,10 @@ extern signed int dlp_VFSVolumeFormat(signed int sd, unsigned char flags, signed
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -12005,8 +12005,8 @@ extern signed int dlp_VFSVolumeFormat(signed int sd, unsigned char flags, signed
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSVolumeFormat, 1, 4);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -12044,10 +12044,10 @@ extern signed int dlp_VFSVolumeGetLabel(signed int sd, signed int volRefNum, sig
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -12057,8 +12057,8 @@ extern signed int dlp_VFSVolumeGetLabel(signed int sd, signed int volRefNum, sig
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSVolumeGetLabel, 1, 2);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -12070,9 +12070,9 @@ extern signed int dlp_VFSVolumeGetLabel(signed int sd, signed int volRefNum, sig
       if(result >= 1)
       {
         strncpy(name, &res->argv[(signed long int)0]->data[(signed long int)0], (unsigned long int)(*len - 1));
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(name);
-        *len = (signed int)return_value_strlen$3;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(name);
+        *len = (signed int)return_value_strlen_3;
         pi_log(0x010, 0x04, "DLP VFSVolumeGetLabel %s\n", name);
       }
 
@@ -12089,10 +12089,10 @@ extern signed int dlp_VFSVolumeInfo(signed int sd, signed int volRefNum, struct 
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -12102,8 +12102,8 @@ extern signed int dlp_VFSVolumeInfo(signed int sd, signed int volRefNum, struct 
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSVolumeInfo, 1, 2);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -12122,15 +12122,15 @@ extern signed int dlp_VFSVolumeInfo(signed int sd, signed int volRefNum, struct 
         volInfo->slotRefNum = (signed int)(unsigned short int)((signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)18])[(signed long int)0] << 8 | (signed int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)18])[(signed long int)1]);
         volInfo->mediaType = (unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)20])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)20])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)20])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)20])[(signed long int)3]);
         volInfo->reserved = (unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)24])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)24])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)24])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)24])[(signed long int)3]);
-        char *return_value_printlong$3;
-        return_value_printlong$3=printlong(volInfo->fsType);
-        pi_log(0x010, 0x04, "VFSVolumeInfo: fstype '%s' ", return_value_printlong$3);
-        char *return_value_printlong$4;
-        return_value_printlong$4=printlong(volInfo->fsCreator);
-        pi_log(0x010, 0x04, "fscreator: '%s'\nSlotlibref %d Slotref %d\n", return_value_printlong$4, volInfo->slotLibRefNum, volInfo->slotRefNum);
-        char *return_value_printlong$5;
-        return_value_printlong$5=printlong(volInfo->mediaType);
-        pi_log(0x010, 0x04, "Media: '%s'\n", return_value_printlong$5);
+        char *return_value_printlong_3;
+        return_value_printlong_3=printlong(volInfo->fsType);
+        pi_log(0x010, 0x04, "VFSVolumeInfo: fstype '%s' ", return_value_printlong_3);
+        char *return_value_printlong_4;
+        return_value_printlong_4=printlong(volInfo->fsCreator);
+        pi_log(0x010, 0x04, "fscreator: '%s'\nSlotlibref %d Slotref %d\n", return_value_printlong_4, volInfo->slotLibRefNum, volInfo->slotRefNum);
+        char *return_value_printlong_5;
+        return_value_printlong_5=printlong(volInfo->mediaType);
+        pi_log(0x010, 0x04, "Media: '%s'\n", return_value_printlong_5);
       }
 
       dlp_response_free(res);
@@ -12146,23 +12146,23 @@ extern signed int dlp_VFSVolumeSetLabel(signed int sd, signed int volRefNum, con
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$3;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_3;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
   {
     pi_log(0x010, 0x04, "DLP sd=%d %s \"volRefNum=%d name='%s'\"\n", sd, (const void *)"dlp_VFSVolumeSetLabel", volRefNum, name);
     pi_reset_errors(sd);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(name);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSVolumeSetLabel, 1, (unsigned long int)2 + return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(name);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncVFSVolumeSetLabel, 1, (unsigned long int)2 + return_value_strlen_2 + (unsigned long int)1);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     else
@@ -12185,10 +12185,10 @@ extern signed int dlp_VFSVolumeSize(signed int sd, signed int volRefNum, signed 
   signed int result;
   struct dlpRequest *req;
   struct dlpResponse *res;
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  if(!(return_value_pi_version$1 >= 258))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  if(!(return_value_pi_version_1 >= 258))
     return dlpErrNotSupp;
 
   else
@@ -12198,8 +12198,8 @@ extern signed int dlp_VFSVolumeSize(signed int sd, signed int volRefNum, signed 
     req=dlp_request_new((enum dlpFunctions)dlpFuncVFSVolumeSize, 1, 2);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -12231,11 +12231,11 @@ extern signed int dlp_WriteAppBlock(signed int sd, signed int dbhandle, const vo
   pi_log(0x010, 0x04, "DLP sd=%d %s \"length=%ld\"\n", sd, (const void *)"dlp_WriteAppBlock", length);
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncWriteAppBlock, 1, (unsigned long int)4 + length);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -12273,9 +12273,9 @@ extern signed int dlp_WriteAppPreference(signed int sd, unsigned long int creato
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"creator='%4.4s' prefID=%d backup=%d version=%d size=%ld\"\n", sd, (const void *)"dlp_WriteAppPreference", (const char *)&creator, prefID, backup, version, size);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  if(!(return_value_pi_version$1 >= 0x0101))
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  if(!(return_value_pi_version_1 >= 0x0101))
   {
     signed int db;
     signed int err1;
@@ -12310,11 +12310,11 @@ extern signed int dlp_WriteAppPreference(signed int sd, unsigned long int creato
   }
 
   req=dlp_request_new((enum dlpFunctions)dlpFuncWriteAppPreference, 1, (unsigned long int)12 + size);
-  signed int return_value_pi_set_error$2;
+  signed int return_value_pi_set_error_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -12358,31 +12358,31 @@ extern signed int dlp_WriteNetSyncInfo(signed int sd, struct NetSyncInfo *i)
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_WriteNetSyncInfo");
   pi_reset_errors(sd);
-  signed int return_value_pi_version$2;
-  return_value_pi_version$2=pi_version(sd);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$6;
-  if(!(return_value_pi_version$2 >= 0x0101))
+  signed int return_value_pi_version_2;
+  return_value_pi_version_2=pi_version(sd);
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_6;
+  if(!(return_value_pi_version_2 >= 0x0101))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -302);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -302);
+    return return_value_pi_set_error_1;
   }
 
   else
   {
     pi_log(0x010, 0x04, "DLP ReadNetSyncInfo Active: %d\n", i->lanSync != 0 ? 1 : 0);
     pi_log(0x010, 0x04, "  PC hostname: '%s', address '%s', mask '%s'\n", (const void *)i->hostName, (const void *)i->hostAddress, (const void *)i->hostSubnetMask);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(i->hostName);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(i->hostAddress);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(i->hostSubnetMask);
-    req=dlp_request_new((enum dlpFunctions)dlpFuncWriteNetSyncInfo, 1, (unsigned long int)24 + return_value_strlen$3 + return_value_strlen$4 + return_value_strlen$5 + (unsigned long int)3);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(i->hostName);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(i->hostAddress);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(i->hostSubnetMask);
+    req=dlp_request_new((enum dlpFunctions)dlpFuncWriteNetSyncInfo, 1, (unsigned long int)24 + return_value_strlen_3 + return_value_strlen_4 + return_value_strlen_5 + (unsigned long int)3);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$6=pi_set_error(sd, -500);
-      return return_value_pi_set_error$6;
+      return_value_pi_set_error_6=pi_set_error(sd, -500);
+      return return_value_pi_set_error_6;
     }
 
     else
@@ -12405,32 +12405,32 @@ extern signed int dlp_WriteNetSyncInfo(signed int sd, struct NetSyncInfo *i)
       ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)14])[(signed long int)1] = (unsigned char)((unsigned long int)0 >> 16 & (unsigned long int)0xff);
       ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)14])[(signed long int)2] = (unsigned char)((unsigned long int)0 >> 8 & (unsigned long int)0xff);
       ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)14])[(signed long int)3] = (unsigned char)((unsigned long int)0 >> 0 & (unsigned long int)0xff);
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(i->hostName);
-      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)18])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen$7 + (unsigned long int)1) >> 8 & 0xff);
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(i->hostName);
-      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)18])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen$8 + (unsigned long int)1) >> 0 & 0xff);
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(i->hostAddress);
-      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)20])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen$9 + (unsigned long int)1) >> 8 & 0xff);
-      unsigned long int return_value_strlen$10;
-      return_value_strlen$10=strlen(i->hostAddress);
-      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)20])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen$10 + (unsigned long int)1) >> 0 & 0xff);
-      unsigned long int return_value_strlen$11;
-      return_value_strlen$11=strlen(i->hostSubnetMask);
-      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)22])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen$11 + (unsigned long int)1) >> 8 & 0xff);
-      unsigned long int return_value_strlen$12;
-      return_value_strlen$12=strlen(i->hostSubnetMask);
-      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)22])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen$12 + (unsigned long int)1) >> 0 & 0xff);
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(i->hostName);
+      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)18])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen_7 + (unsigned long int)1) >> 8 & 0xff);
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(i->hostName);
+      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)18])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen_8 + (unsigned long int)1) >> 0 & 0xff);
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(i->hostAddress);
+      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)20])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen_9 + (unsigned long int)1) >> 8 & 0xff);
+      unsigned long int return_value_strlen_10;
+      return_value_strlen_10=strlen(i->hostAddress);
+      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)20])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen_10 + (unsigned long int)1) >> 0 & 0xff);
+      unsigned long int return_value_strlen_11;
+      return_value_strlen_11=strlen(i->hostSubnetMask);
+      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)22])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen_11 + (unsigned long int)1) >> 8 & 0xff);
+      unsigned long int return_value_strlen_12;
+      return_value_strlen_12=strlen(i->hostSubnetMask);
+      ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)22])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)(return_value_strlen_12 + (unsigned long int)1) >> 0 & 0xff);
       strcpy(&req->argv[(signed long int)0]->data[(signed long int)str_offset], i->hostName);
-      unsigned long int return_value_strlen$13;
-      return_value_strlen$13=strlen(i->hostName);
-      str_offset = str_offset + (signed int)(return_value_strlen$13 + (unsigned long int)1);
+      unsigned long int return_value_strlen_13;
+      return_value_strlen_13=strlen(i->hostName);
+      str_offset = str_offset + (signed int)(return_value_strlen_13 + (unsigned long int)1);
       strcpy(&req->argv[(signed long int)0]->data[(signed long int)str_offset], i->hostAddress);
-      unsigned long int return_value_strlen$14;
-      return_value_strlen$14=strlen(i->hostAddress);
-      str_offset = str_offset + (signed int)(return_value_strlen$14 + (unsigned long int)1);
+      unsigned long int return_value_strlen_14;
+      return_value_strlen_14=strlen(i->hostAddress);
+      str_offset = str_offset + (signed int)(return_value_strlen_14 + (unsigned long int)1);
       strcpy(&req->argv[(signed long int)0]->data[(signed long int)str_offset], i->hostSubnetMask);
       result=dlp_exec(sd, req, &res);
       dlp_request_free(req);
@@ -12449,24 +12449,24 @@ extern signed int dlp_WriteRecord(signed int sd, signed int dbhandle, signed int
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_WriteRecord");
   pi_reset_errors(sd);
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(length == 18446744073709551615ul)
   {
-    return_value_strlen$1=strlen((char *)data);
-    length = return_value_strlen$1 + (unsigned long int)1;
+    return_value_strlen_1=strlen((char *)data);
+    length = return_value_strlen_1 + (unsigned long int)1;
   }
 
-  signed int return_value_pi_version$4;
-  return_value_pi_version$4=pi_version(sd);
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_set_error$3;
-  if(return_value_pi_version$4 >= 0x0104)
+  signed int return_value_pi_version_4;
+  return_value_pi_version_4=pi_version(sd);
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_set_error_3;
+  if(return_value_pi_version_4 >= 0x0104)
   {
     req=dlp_request_new((enum dlpFunctions)dlpFuncWriteRecordEx, 1, (unsigned long int)12 + length);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(sd, -500);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(sd, -500);
+      return return_value_pi_set_error_2;
     }
 
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)dbhandle;
@@ -12495,8 +12495,8 @@ extern signed int dlp_WriteRecord(signed int sd, signed int dbhandle, signed int
     req=dlp_request_new((enum dlpFunctions)dlpFuncWriteRecord, 1, (unsigned long int)8 + length);
     if(req == ((struct dlpRequest *)NULL))
     {
-      return_value_pi_set_error$3=pi_set_error(sd, -500);
-      return return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(sd, -500);
+      return return_value_pi_set_error_3;
     }
 
     ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)dbhandle;
@@ -12511,7 +12511,7 @@ extern signed int dlp_WriteRecord(signed int sd, signed int dbhandle, signed int
   }
   result=dlp_exec(sd, req, &res);
   dlp_request_free(req);
-  signed int return_value_pi_debug_get_level$5;
+  signed int return_value_pi_debug_get_level_5;
   if(result >= 1)
   {
     if(!(pNewRecID == ((unsigned long int *)NULL)))
@@ -12520,12 +12520,12 @@ extern signed int dlp_WriteRecord(signed int sd, signed int dbhandle, signed int
     pi_log(0x010, 0x04, "DLP WriteRecord Record ID: 0x%8.8lX\n", (unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]));
     do
     {
-      signed int return_value_pi_debug_get_types$6;
-      return_value_pi_debug_get_types$6=pi_debug_get_types();
-      if(!((0x010 & return_value_pi_debug_get_types$6) == 0))
+      signed int return_value_pi_debug_get_types_6;
+      return_value_pi_debug_get_types_6=pi_debug_get_types();
+      if(!((0x010 & return_value_pi_debug_get_types_6) == 0))
       {
-        return_value_pi_debug_get_level$5=pi_debug_get_level();
-        if(return_value_pi_debug_get_level$5 >= 0x08)
+        return_value_pi_debug_get_level_5=pi_debug_get_level();
+        if(return_value_pi_debug_get_level_5 >= 0x08)
           record_dump((unsigned long int)((unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&res->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)3]), (unsigned int)0xffff, flags, catID, (const char *)data, (signed int)length);
 
       }
@@ -12548,9 +12548,9 @@ extern signed int dlp_WriteResource(signed int sd, signed int dbhandle, unsigned
   struct dlpResponse *res;
   pi_log(0x010, 0x04, "DLP sd=%d %s \"'%4.4s' #%d\"\n", sd, (const void *)"dlp_WriteResource", (const char *)&type, resID);
   pi_reset_errors(sd);
-  signed int return_value_pi_version$1;
-  return_value_pi_version$1=pi_version(sd);
-  if(return_value_pi_version$1 >= 0x0104)
+  signed int return_value_pi_version_1;
+  return_value_pi_version_1=pi_version(sd);
+  if(return_value_pi_version_1 >= 0x0104)
   {
     req=dlp_request_new_with_argid((enum dlpFunctions)dlpFuncWriteResourceEx, 0x20 | 0x40, 1, (unsigned long int)12 + length);
     large = 1;
@@ -12566,9 +12566,9 @@ extern signed int dlp_WriteResource(signed int sd, signed int dbhandle, unsigned
   if(req == ((struct dlpRequest *)NULL))
   {
     pi_log(0x010, 0x01, "DLP sd:%i large:%i dlp_request_new failed\n", sd, large);
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   ((unsigned char *)&req->argv[(signed long int)0]->data[(signed long int)0])[(signed long int)0] = (unsigned char)dbhandle;
@@ -12609,11 +12609,11 @@ extern signed int dlp_WriteSortBlock(signed int sd, signed int dbhandle, const v
   pi_log(0x010, 0x04, "DLP sd=%d %s \"length=%ld\"\n", sd, (const void *)"dlp_WriteSortBlock", length);
   pi_reset_errors(sd);
   req=dlp_request_new((enum dlpFunctions)dlpFuncWriteSortBlock, 1, (unsigned long int)4 + length);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -12650,15 +12650,15 @@ extern signed int dlp_WriteUserInfo(signed int sd, struct PilotUser *User)
   signed int len;
   pi_log(0x010, 0x04, "DLP sd=%d %s\n", sd, (const void *)"dlp_WriteUserInfo");
   pi_reset_errors(sd);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(User->username);
-  len = (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(User->username);
+  len = (signed int)(return_value_strlen_1 + (unsigned long int)1);
   req=dlp_request_new((enum dlpFunctions)dlpFuncWriteUserInfo, 1, 22 + len);
-  signed int return_value_pi_set_error$2;
+  signed int return_value_pi_set_error_2;
   if(req == ((struct dlpRequest *)NULL))
   {
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   else
@@ -12707,27 +12707,27 @@ extern signed int dlp_arg_len(signed int argc, struct dlpArg **argv)
   signed int i;
   signed int len = 0;
   i = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= argc); i = i + 1)
   {
     struct dlpArg *arg = argv[(signed long int)i];
     if(!(arg->len >= 255ul))
-      tmp_if_expr$2 = (arg->id_ & (0x80 | 0x40)) == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (arg->id_ & (0x80 | 0x40)) == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       len = len + 2;
 
     else
     {
       if(!(arg->len >= 65535ul))
-        tmp_if_expr$1 = (arg->id_ & 0x40) == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (arg->id_ & 0x40) == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         len = len + 4;
 
       else
@@ -12743,9 +12743,9 @@ extern signed int dlp_arg_len(signed int argc, struct dlpArg **argv)
 extern struct dlpArg * dlp_arg_new(signed int argID, unsigned long int len)
 {
   struct dlpArg *arg;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dlpArg) /*24ul*/ );
-  arg = (struct dlpArg *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dlpArg) /*24ul*/ );
+  arg = (struct dlpArg *)return_value_malloc_1;
   if(!(arg == ((struct dlpArg *)NULL)))
   {
     arg->id_ = argID;
@@ -12753,9 +12753,9 @@ extern struct dlpArg * dlp_arg_new(signed int argID, unsigned long int len)
     arg->data = (char *)(void *)0;
     if(len >= 1ul)
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(len);
-      arg->data = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(len);
+      arg->data = (char *)return_value_malloc_2;
       if(arg->data == ((char *)NULL))
       {
         free((void *)arg);
@@ -12806,22 +12806,22 @@ static void dlp_decode_finddb_response(struct dlpResponse *res, signed int *card
         strncpy(info->name, &res->argv[(signed long int)arg]->data[(signed long int)54], (unsigned long int)32);
         info->name[(signed long int)32] = (char)0;
         pi_log(0x010, 0x04, "DLP FindDB Name: '%s', Version: %d, More: %s\n", (const void *)info->name, info->version, info->more != 0 ? "Yes" : "No");
-        char *return_value_printlong$1;
-        return_value_printlong$1=printlong(info->creator);
-        pi_log(0x010, 0x04, "  Creator: '%s'", return_value_printlong$1);
-        char *return_value_printlong$2;
-        return_value_printlong$2=printlong(info->type);
-        pi_log(0x010, 0x04, " Type: '%s' Flags: %s%s%s%s%s%s%s%s%s%s", return_value_printlong$2, (info->flags & (unsigned int)1) != 0u ? "Resource " : "", (info->flags & (unsigned int)2) != 0u ? "ReadOnly " : "", (info->flags & (unsigned int)4) != 0u ? "AppInfoDirty " : "", (info->flags & (unsigned int)8) != 0u ? "Backup " : "", (info->flags & (unsigned int)32) != 0u ? "Reset " : "", (info->flags & (unsigned int)16) != 0u ? "Newer " : "", (info->flags & (unsigned int)64) != 0u ? "CopyPrevention " : "", (info->flags & (unsigned int)128) != 0u ? "Stream " : "", (info->flags & (unsigned int)32768) != 0u ? "Open " : "", !(info->flags != 0u) ? "None" : "");
+        char *return_value_printlong_1;
+        return_value_printlong_1=printlong(info->creator);
+        pi_log(0x010, 0x04, "  Creator: '%s'", return_value_printlong_1);
+        char *return_value_printlong_2;
+        return_value_printlong_2=printlong(info->type);
+        pi_log(0x010, 0x04, " Type: '%s' Flags: %s%s%s%s%s%s%s%s%s%s", return_value_printlong_2, (info->flags & (unsigned int)1) != 0u ? "Resource " : "", (info->flags & (unsigned int)2) != 0u ? "ReadOnly " : "", (info->flags & (unsigned int)4) != 0u ? "AppInfoDirty " : "", (info->flags & (unsigned int)8) != 0u ? "Backup " : "", (info->flags & (unsigned int)32) != 0u ? "Reset " : "", (info->flags & (unsigned int)16) != 0u ? "Newer " : "", (info->flags & (unsigned int)64) != 0u ? "CopyPrevention " : "", (info->flags & (unsigned int)128) != 0u ? "Stream " : "", (info->flags & (unsigned int)32768) != 0u ? "Open " : "", !(info->flags != 0u) ? "None" : "");
         pi_log(0x010, 0x04, " (0x%2.2X)\n", info->flags);
-        char *return_value_ctime$3;
-        return_value_ctime$3=ctime(&info->createDate);
-        pi_log(0x010, 0x04, "  Modnum: %ld, Index: %d, Creation date: %s", info->modnum, info->index, return_value_ctime$3);
-        char *return_value_ctime$4;
-        return_value_ctime$4=ctime(&info->modifyDate);
-        pi_log(0x010, 0x04, " Modification date: %s", return_value_ctime$4);
-        char *return_value_ctime$5;
-        return_value_ctime$5=ctime(&info->backupDate);
-        pi_log(0x010, 0x04, " Backup date: %s", return_value_ctime$5);
+        char *return_value_ctime_3;
+        return_value_ctime_3=ctime(&info->createDate);
+        pi_log(0x010, 0x04, "  Modnum: %ld, Index: %d, Creation date: %s", info->modnum, info->index, return_value_ctime_3);
+        char *return_value_ctime_4;
+        return_value_ctime_4=ctime(&info->modifyDate);
+        pi_log(0x010, 0x04, " Modification date: %s", return_value_ctime_4);
+        char *return_value_ctime_5;
+        return_value_ctime_5=ctime(&info->backupDate);
+        pi_log(0x010, 0x04, " Backup date: %s", return_value_ctime_5);
       }
 
     }
@@ -12851,39 +12851,39 @@ extern signed int dlp_exec(signed int sd, struct dlpRequest *req, struct dlpResp
   signed int bytes;
   signed int result;
   *res = (struct dlpResponse *)(void *)0;
-  signed long int return_value_dlp_request_write$2;
-  return_value_dlp_request_write$2=dlp_request_write(req, sd);
-  result = (signed int)return_value_dlp_request_write$2;
+  signed long int return_value_dlp_request_write_2;
+  return_value_dlp_request_write_2=dlp_request_write(req, sd);
+  result = (signed int)return_value_dlp_request_write_2;
   if(!(result >= req->argc))
   {
     pi_log(0x010, 0x01, "DLP sd:%i dlp_request_write returned %i\n", sd, result);
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = -5;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = -5;
     return result;
   }
 
-  signed long int return_value_dlp_response_read$4;
-  return_value_dlp_response_read$4=dlp_response_read(res, sd);
-  bytes = (signed int)return_value_dlp_response_read$4;
+  signed long int return_value_dlp_response_read_4;
+  return_value_dlp_response_read_4=dlp_response_read(res, sd);
+  bytes = (signed int)return_value_dlp_response_read_4;
   if(!(bytes >= 0))
   {
     pi_log(0x010, 0x01, "DLP sd:%i dlp_response_read returned %i\n", sd, bytes);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = -5;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = -5;
     return bytes;
   }
 
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if(!((*res)->cmd == req->cmd))
   {
     if(!((signed int)req->cmd == dlpFuncVFSVolumeInfo))
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = (signed int)(*res)->cmd != dlpFuncVFSVolumeSize ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (signed int)(*res)->cmd != dlpFuncVFSVolumeSize ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
     {
       if(!((signed int)req->cmd == dlpFuncWriteResource))
       {
@@ -12891,13 +12891,13 @@ extern signed int dlp_exec(signed int sd, struct dlpRequest *req, struct dlpResp
         {
           if(!((signed int)req->cmd == dlpFuncReadRecordEx))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            *return_value___errno_location$5 = -42;
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            *return_value___errno_location_5 = -42;
             pi_log(0x010, 0x08, "dlp_exec: result CMD 0x%02x doesn't match requested cmd 0x%02x\n", (unsigned int)(*res)->cmd, (unsigned int)req->cmd);
-            signed int return_value_pi_set_error$6;
-            return_value_pi_set_error$6=pi_set_error(sd, -305);
-            return return_value_pi_set_error$6;
+            signed int return_value_pi_set_error_6;
+            return_value_pi_set_error_6=pi_set_error(sd, -305);
+            return return_value_pi_set_error_6;
           }
 
         }
@@ -12910,13 +12910,13 @@ extern signed int dlp_exec(signed int sd, struct dlpRequest *req, struct dlpResp
 
   if(!((signed int)(*res)->err == dlpErrNoError))
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    *return_value___errno_location$8 = -42;
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    *return_value___errno_location_8 = -42;
     pi_set_palmos_error(sd, (signed int)(*res)->err);
-    signed int return_value_pi_set_error$9;
-    return_value_pi_set_error$9=pi_set_error(sd, -301);
-    return return_value_pi_set_error$9;
+    signed int return_value_pi_set_error_9;
+    return_value_pi_set_error_9=pi_set_error(sd, -301);
+    return return_value_pi_set_error_9;
   }
 
   return bytes;
@@ -12978,9 +12978,9 @@ extern signed long int dlp_ptohdate(const unsigned char *data)
     t.tm_mon = (signed int)data[(signed long int)2] - 1;
     t.tm_year = ((signed int)data[(signed long int)0] << 8 | (signed int)data[(signed long int)1]) - 1900;
     t.tm_isdst = -1;
-    signed long int return_value_mktime$1;
-    return_value_mktime$1=mktime(&t);
-    return return_value_mktime$1;
+    signed long int return_value_mktime_1;
+    return_value_mktime_1=mktime(&t);
+    return return_value_mktime_1;
   }
 }
 
@@ -13014,9 +13014,9 @@ extern struct dlpRequest * dlp_request_new(enum dlpFunctions cmd, signed int arg
   __builtin_va_list ap;
   signed int i;
   signed int j;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dlpRequest) /*16ul*/ );
-  req = (struct dlpRequest *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dlpRequest) /*16ul*/ );
+  req = (struct dlpRequest *)return_value_malloc_1;
   if(!(req == ((struct dlpRequest *)NULL)))
   {
     req->cmd = cmd;
@@ -13024,9 +13024,9 @@ extern struct dlpRequest * dlp_request_new(enum dlpFunctions cmd, signed int arg
     req->argv = (struct dlpArg **)(void *)0;
     if(!(argc == 0))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct dlpArg *) /*8ul*/  * (unsigned long int)argc);
-      req->argv = (struct dlpArg **)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct dlpArg *) /*8ul*/  * (unsigned long int)argc);
+      req->argv = (struct dlpArg **)return_value_malloc_2;
       if(req->argv == ((struct dlpArg **)NULL))
       {
         free((void *)req);
@@ -13068,9 +13068,9 @@ extern struct dlpRequest * dlp_request_new_with_argid(enum dlpFunctions cmd, sig
   __builtin_va_list ap;
   signed int i;
   signed int j;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dlpRequest) /*16ul*/ );
-  req = (struct dlpRequest *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dlpRequest) /*16ul*/ );
+  req = (struct dlpRequest *)return_value_malloc_1;
   if(!(req == ((struct dlpRequest *)NULL)))
   {
     req->cmd = cmd;
@@ -13078,9 +13078,9 @@ extern struct dlpRequest * dlp_request_new_with_argid(enum dlpFunctions cmd, sig
     req->argv = (struct dlpArg **)(void *)0;
     if(!(argc == 0))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct dlpArg *) /*8ul*/  * (unsigned long int)argc);
-      req->argv = (struct dlpArg **)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct dlpArg *) /*8ul*/  * (unsigned long int)argc);
+      req->argv = (struct dlpArg **)return_value_malloc_2;
       if(req->argv == ((struct dlpArg **)NULL))
       {
         free((void *)req);
@@ -13122,17 +13122,17 @@ extern signed long int dlp_request_write(struct dlpRequest *req, signed int sd)
   unsigned char *buf;
   signed int i;
   unsigned long int len;
-  signed int return_value_dlp_arg_len$1;
-  return_value_dlp_arg_len$1=dlp_arg_len(req->argc, req->argv);
-  len = (unsigned long int)(return_value_dlp_arg_len$1 + 2);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(unsigned char) /*1ul*/  * len);
-  exec_buf = (unsigned char *)return_value_malloc$2;
-  signed int return_value_pi_set_error$3;
+  signed int return_value_dlp_arg_len_1;
+  return_value_dlp_arg_len_1=dlp_arg_len(req->argc, req->argv);
+  len = (unsigned long int)(return_value_dlp_arg_len_1 + 2);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(unsigned char) /*1ul*/  * len);
+  exec_buf = (unsigned char *)return_value_malloc_2;
+  signed int return_value_pi_set_error_3;
   if(exec_buf == ((unsigned char *)NULL))
   {
-    return_value_pi_set_error$3=pi_set_error(sd, -500);
-    return (signed long int)return_value_pi_set_error$3;
+    return_value_pi_set_error_3=pi_set_error(sd, -500);
+    return (signed long int)return_value_pi_set_error_3;
   }
 
   else
@@ -13177,14 +13177,14 @@ extern signed long int dlp_request_write(struct dlpRequest *req, signed int sd)
         }
     }
     pi_flush(sd, 0x01);
-    signed long int return_value_pi_write$5;
-    return_value_pi_write$5=pi_write(sd, (const void *)exec_buf, len);
-    i = (signed int)return_value_pi_write$5;
+    signed long int return_value_pi_write_5;
+    return_value_pi_write_5=pi_write(sd, (const void *)exec_buf, len);
+    i = (signed int)return_value_pi_write_5;
     if(!((signed long int)i >= (signed long int)len))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = -5;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = -5;
       if(i >= 0 && !((signed long int)i >= (signed long int)len))
         i = -1;
 
@@ -13222,9 +13222,9 @@ extern void dlp_response_free(struct dlpResponse *res)
 extern struct dlpResponse * dlp_response_new(enum dlpFunctions cmd, signed int argc)
 {
   struct dlpResponse *res;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dlpResponse) /*24ul*/ );
-  res = (struct dlpResponse *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dlpResponse) /*24ul*/ );
+  res = (struct dlpResponse *)return_value_malloc_1;
   if(!(res == ((struct dlpResponse *)NULL)))
   {
     res->cmd = cmd;
@@ -13233,9 +13233,9 @@ extern struct dlpResponse * dlp_response_new(enum dlpFunctions cmd, signed int a
     res->argv = (struct dlpArg **)(void *)0;
     if(!(argc == 0))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct dlpArg *) /*8ul*/  * (unsigned long int)argc);
-      res->argv = (struct dlpArg **)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct dlpArg *) /*8ul*/  * (unsigned long int)argc);
+      res->argv = (struct dlpArg **)return_value_malloc_2;
       if(res->argv == ((struct dlpArg **)NULL))
       {
         free((void *)res);
@@ -13262,12 +13262,12 @@ extern signed long int dlp_response_read(struct dlpResponse **res, signed int sd
   unsigned long int len;
   struct pi_buffer_t *dlp_buf;
   dlp_buf=pi_buffer_new((unsigned long int)0xffff);
-  signed int return_value_pi_set_error$1;
-  unsigned long int tmp_if_expr$7;
+  signed int return_value_pi_set_error_1;
+  unsigned long int tmp_if_expr_7;
   if(dlp_buf == ((struct pi_buffer_t *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(sd, -500);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(sd, -500);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -13283,9 +13283,9 @@ extern signed long int dlp_response_read(struct dlpResponse **res, signed int sd
     {
       if(!(bytes >= 4l))
       {
-        signed int return_value_pi_set_error$2;
-        return_value_pi_set_error$2=pi_set_error(sd, -305);
-        return (signed long int)return_value_pi_set_error$2;
+        signed int return_value_pi_set_error_2;
+        return_value_pi_set_error_2=pi_set_error(sd, -305);
+        return (signed long int)return_value_pi_set_error_2;
       }
 
       response=dlp_response_new((enum dlpFunctions)((signed int)dlp_buf->data[(signed long int)0] & 0x7f), (signed int)dlp_buf->data[(signed long int)1]);
@@ -13293,9 +13293,9 @@ extern signed long int dlp_response_read(struct dlpResponse **res, signed int sd
       if(response == ((struct dlpResponse *)NULL))
       {
         pi_buffer_free(dlp_buf);
-        signed int return_value_pi_set_error$3;
-        return_value_pi_set_error$3=pi_set_error(sd, -500);
-        return (signed long int)return_value_pi_set_error$3;
+        signed int return_value_pi_set_error_3;
+        return_value_pi_set_error_3=pi_set_error(sd, -500);
+        return (signed long int)return_value_pi_set_error_3;
       }
 
       response->err = (enum dlpErrors)(unsigned short int)((signed int)((unsigned char *)&dlp_buf->data[(signed long int)2])[(signed long int)0] << 8 | (signed int)((unsigned char *)&dlp_buf->data[(signed long int)2])[(signed long int)1]);
@@ -13307,14 +13307,14 @@ extern signed long int dlp_response_read(struct dlpResponse **res, signed int sd
         argid = (signed short int)((signed int)((unsigned char *)buf)[(signed long int)0] & 0x3f);
         if(!((0x40 & (signed int)*buf) == 0))
         {
-          signed int return_value_pi_version$5;
-          return_value_pi_version$5=pi_version(sd);
-          if(!(return_value_pi_version$5 >= 0x0104))
+          signed int return_value_pi_version_5;
+          return_value_pi_version_5=pi_version(sd);
+          if(!(return_value_pi_version_5 >= 0x0104))
           {
             pi_buffer_free(dlp_buf);
-            signed int return_value_pi_set_error$4;
-            return_value_pi_set_error$4=pi_set_error(sd, -304);
-            return (signed long int)return_value_pi_set_error$4;
+            signed int return_value_pi_set_error_4;
+            return_value_pi_set_error_4=pi_set_error(sd, -304);
+            return (signed long int)return_value_pi_set_error_4;
           }
 
           len = (unsigned long int)((unsigned long int)((unsigned char *)&buf[(signed long int)2])[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)&buf[(signed long int)2])[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)&buf[(signed long int)2])[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)&buf[(signed long int)2])[(signed long int)3]);
@@ -13338,9 +13338,9 @@ extern signed long int dlp_response_read(struct dlpResponse **res, signed int sd
         if(response->argv[(signed long int)i] == ((struct dlpArg *)NULL))
         {
           pi_buffer_free(dlp_buf);
-          signed int return_value_pi_set_error$6;
-          return_value_pi_set_error$6=pi_set_error(sd, -500);
-          return (signed long int)return_value_pi_set_error$6;
+          signed int return_value_pi_set_error_6;
+          return_value_pi_set_error_6=pi_set_error(sd, -500);
+          return (signed long int)return_value_pi_set_error_6;
         }
 
         memcpy((void *)response->argv[(signed long int)i]->data, (const void *)buf, len);
@@ -13348,11 +13348,11 @@ extern signed long int dlp_response_read(struct dlpResponse **res, signed int sd
       }
       pi_buffer_free(dlp_buf);
       if(!(response->argc == 0))
-        tmp_if_expr$7 = response->argv[(signed long int)0]->len;
+        tmp_if_expr_7 = response->argv[(signed long int)0]->len;
 
       else
-        tmp_if_expr$7 = (unsigned long int)0;
-      return (signed long int)tmp_if_expr$7;
+        tmp_if_expr_7 = (unsigned long int)0;
+      return (signed long int)tmp_if_expr_7;
     }
   }
 }
@@ -13395,38 +13395,38 @@ void dumpline(const char *buf, unsigned long int len, unsigned int addr)
 
 // dup_Blob
 // file blob.c line 74
-extern struct anonymous$28 * dup_Blob(const struct anonymous$28 *blob)
+extern struct anonymous_28 * dup_Blob(const struct anonymous_28 *blob)
 {
-  if(blob == ((const struct anonymous$28 *)NULL))
-    return (struct anonymous$28 *)(void *)0;
+  if(blob == ((const struct anonymous_28 *)NULL))
+    return (struct anonymous_28 *)(void *)0;
 
   else
   {
-    struct anonymous$28 *retval;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct anonymous$28) /*16ul*/ );
-    retval = (struct anonymous$28 *)return_value_malloc$1;
-    if(retval == ((struct anonymous$28 *)NULL))
+    struct anonymous_28 *retval;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct anonymous_28) /*16ul*/ );
+    retval = (struct anonymous_28 *)return_value_malloc_1;
+    if(retval == ((struct anonymous_28 *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 12;
-      return (struct anonymous$28 *)(void *)0;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 12;
+      return (struct anonymous_28 *)(void *)0;
     }
 
     memcpy((void *)retval->type, (const void *)blob->type, (unsigned long int)4);
     retval->length = blob->length;
     if((signed int)blob->length >= 1)
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)blob->length);
-      retval->data = (unsigned char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)blob->length);
+      retval->data = (unsigned char *)return_value_malloc_3;
       if(retval->data == ((unsigned char *)NULL))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = 12;
-        return (struct anonymous$28 *)(void *)0;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = 12;
+        return (struct anonymous_28 *)(void *)0;
       }
 
       else
@@ -13441,24 +13441,24 @@ extern struct anonymous$28 * dup_Blob(const struct anonymous$28 *blob)
 
 // dup_Timezone
 // file location.c line 200
-extern struct anonymous$25 * dup_Timezone(const struct anonymous$25 *tz)
+extern struct anonymous_25 * dup_Timezone(const struct anonymous_25 *tz)
 {
-  struct anonymous$25 *retval;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$25) /*48ul*/ );
-  retval = (struct anonymous$25 *)return_value_malloc$1;
-  if(retval == ((struct anonymous$25 *)NULL))
+  struct anonymous_25 *retval;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_25) /*48ul*/ );
+  retval = (struct anonymous_25 *)return_value_malloc_1;
+  if(retval == ((struct anonymous_25 *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
-    return (struct anonymous$25 *)(void *)0;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
+    return (struct anonymous_25 *)(void *)0;
   }
 
   retval->offset = tz->offset;
   retval->t2 = tz->t2;
-  memcpy((void *)&retval->dstStart, (const void *)&tz->dstStart, sizeof(struct anonymous$24) /*16ul*/ );
-  memcpy((void *)&retval->dstEnd, (const void *)&tz->dstEnd, sizeof(struct anonymous$24) /*16ul*/ );
+  memcpy((void *)&retval->dstStart, (const void *)&tz->dstStart, sizeof(struct anonymous_24) /*16ul*/ );
+  memcpy((void *)&retval->dstEnd, (const void *)&tz->dstEnd, sizeof(struct anonymous_24) /*16ul*/ );
   retval->dstObserved = tz->dstObserved;
   retval->t4 = tz->t4;
   retval->unknown = tz->unknown;
@@ -13474,29 +13474,29 @@ extern struct anonymous$25 * dup_Timezone(const struct anonymous$25 *tz)
 // file socket.c line 698
 static void env_dbgcheck(void)
 {
-  char *return_value_getenv$13;
-  return_value_getenv$13=getenv("PILOT_DEBUG");
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  if(!(return_value_getenv$13 == ((char *)NULL)))
+  char *return_value_getenv_13;
+  return_value_getenv_13=getenv("PILOT_DEBUG");
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  if(!(return_value_getenv_13 == ((char *)NULL)))
   {
     signed int types = 0;
     signed int done;
-    char *env_dbgcheck$$1$$1$$debug;
+    char *env_dbgcheck__1__1__debug;
     char *b;
     char *e;
-    char *return_value_getenv$1;
-    return_value_getenv$1=getenv("PILOT_DEBUG");
-    env_dbgcheck$$1$$1$$debug=strdup(return_value_getenv$1);
-    b = env_dbgcheck$$1$$1$$debug;
+    char *return_value_getenv_1;
+    return_value_getenv_1=getenv("PILOT_DEBUG");
+    env_dbgcheck__1__1__debug=strdup(return_value_getenv_1);
+    b = env_dbgcheck__1__1__debug;
     done = 0;
     while(done == 0)
     {
@@ -13506,69 +13506,69 @@ static void env_dbgcheck(void)
 
       else
         done = 1;
-      signed int return_value_strcmp$12;
-      return_value_strcmp$12=strcmp(b, "SYS");
-      if(return_value_strcmp$12 == 0)
+      signed int return_value_strcmp_12;
+      return_value_strcmp_12=strcmp(b, "SYS");
+      if(return_value_strcmp_12 == 0)
         types = types | 0x001;
 
       else
       {
-        return_value_strcmp$11=strcmp(b, "DEV");
-        if(return_value_strcmp$11 == 0)
+        return_value_strcmp_11=strcmp(b, "DEV");
+        if(return_value_strcmp_11 == 0)
           types = types | 0x002;
 
         else
         {
-          return_value_strcmp$10=strcmp(b, "SLP");
-          if(return_value_strcmp$10 == 0)
+          return_value_strcmp_10=strcmp(b, "SLP");
+          if(return_value_strcmp_10 == 0)
             types = types | 0x004;
 
           else
           {
-            return_value_strcmp$9=strcmp(b, "PADP");
-            if(return_value_strcmp$9 == 0)
+            return_value_strcmp_9=strcmp(b, "PADP");
+            if(return_value_strcmp_9 == 0)
               types = types | 0x008;
 
             else
             {
-              return_value_strcmp$8=strcmp(b, "DLP");
-              if(return_value_strcmp$8 == 0)
+              return_value_strcmp_8=strcmp(b, "DLP");
+              if(return_value_strcmp_8 == 0)
                 types = types | 0x010;
 
               else
               {
-                return_value_strcmp$7=strcmp(b, "NET");
-                if(return_value_strcmp$7 == 0)
+                return_value_strcmp_7=strcmp(b, "NET");
+                if(return_value_strcmp_7 == 0)
                   types = types | 0x020;
 
                 else
                 {
-                  return_value_strcmp$6=strcmp(b, "CMP");
-                  if(return_value_strcmp$6 == 0)
+                  return_value_strcmp_6=strcmp(b, "CMP");
+                  if(return_value_strcmp_6 == 0)
                     types = types | 0x040;
 
                   else
                   {
-                    return_value_strcmp$5=strcmp(b, "SOCK");
-                    if(return_value_strcmp$5 == 0)
+                    return_value_strcmp_5=strcmp(b, "SOCK");
+                    if(return_value_strcmp_5 == 0)
                       types = types | 0x080;
 
                     else
                     {
-                      return_value_strcmp$4=strcmp(b, "API");
-                      if(return_value_strcmp$4 == 0)
+                      return_value_strcmp_4=strcmp(b, "API");
+                      if(return_value_strcmp_4 == 0)
                         types = types | 0x100;
 
                       else
                       {
-                        return_value_strcmp$3=strcmp(b, "USER");
-                        if(return_value_strcmp$3 == 0)
+                        return_value_strcmp_3=strcmp(b, "USER");
+                        if(return_value_strcmp_3 == 0)
                           types = types | 0x200;
 
                         else
                         {
-                          return_value_strcmp$2=strcmp(b, "ALL");
-                          if(return_value_strcmp$2 == 0)
+                          return_value_strcmp_2=strcmp(b, "ALL");
+                          if(return_value_strcmp_2 == 0)
                             types = types | 0x400;
 
                         }
@@ -13585,47 +13585,47 @@ static void env_dbgcheck(void)
       b = e;
     }
     pi_debug_set_types(types);
-    free((void *)env_dbgcheck$$1$$1$$debug);
+    free((void *)env_dbgcheck__1__1__debug);
   }
 
-  char *return_value_getenv$19;
-  return_value_getenv$19=getenv("PILOT_DEBUG_LEVEL");
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  if(!(return_value_getenv$19 == ((char *)NULL)))
+  char *return_value_getenv_19;
+  return_value_getenv_19=getenv("PILOT_DEBUG_LEVEL");
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  if(!(return_value_getenv_19 == ((char *)NULL)))
   {
     signed int level = 0;
     const char *debug;
     debug=getenv("PILOT_DEBUG_LEVEL");
-    signed int return_value_strcmp$18;
-    return_value_strcmp$18=strcmp(debug, "NONE");
-    if(return_value_strcmp$18 == 0)
+    signed int return_value_strcmp_18;
+    return_value_strcmp_18=strcmp(debug, "NONE");
+    if(return_value_strcmp_18 == 0)
       level = level | 0x00;
 
     else
     {
-      return_value_strcmp$17=strcmp(debug, "ERR");
-      if(return_value_strcmp$17 == 0)
+      return_value_strcmp_17=strcmp(debug, "ERR");
+      if(return_value_strcmp_17 == 0)
         level = level | 0x01;
 
       else
       {
-        return_value_strcmp$16=strcmp(debug, "WARN");
-        if(return_value_strcmp$16 == 0)
+        return_value_strcmp_16=strcmp(debug, "WARN");
+        if(return_value_strcmp_16 == 0)
           level = level | 0x02;
 
         else
         {
-          return_value_strcmp$15=strcmp(debug, "INFO");
-          if(return_value_strcmp$15 == 0)
+          return_value_strcmp_15=strcmp(debug, "INFO");
+          if(return_value_strcmp_15 == 0)
             level = level | 0x04;
 
           else
           {
-            return_value_strcmp$14=strcmp(debug, "DEBUG");
-            if(return_value_strcmp$14 == 0)
+            return_value_strcmp_14=strcmp(debug, "DEBUG");
+            if(return_value_strcmp_14 == 0)
               level = level | 0x08;
 
           }
@@ -13635,15 +13635,15 @@ static void env_dbgcheck(void)
     pi_debug_set_level(level);
   }
 
-  char *return_value_getenv$22;
-  return_value_getenv$22=getenv("PILOT_LOG");
-  char *return_value_getenv$20;
-  signed int return_value_atoi$21;
-  if(!(return_value_getenv$22 == ((char *)NULL)))
+  char *return_value_getenv_22;
+  return_value_getenv_22=getenv("PILOT_LOG");
+  char *return_value_getenv_20;
+  signed int return_value_atoi_21;
+  if(!(return_value_getenv_22 == ((char *)NULL)))
   {
-    return_value_getenv$20=getenv("PILOT_LOG");
-    return_value_atoi$21=atoi(return_value_getenv$20);
-    if(!(return_value_atoi$21 == 0))
+    return_value_getenv_20=getenv("PILOT_LOG");
+    return_value_atoi_21=atoi(return_value_getenv_20);
+    if(!(return_value_atoi_21 == 0))
     {
       const char *logfile;
       logfile=getenv("PILOT_LOGFILE");
@@ -13672,17 +13672,17 @@ static void fetch_host(char *hostname, unsigned long int hostlen, struct in_addr
   struct hostent *hent;
   gethostname(hostname, hostlen);
   hent=gethostbyname(hostname);
-  char **tmp_post$1;
+  char **tmp_post_1;
   if(!(hent == ((struct hostent *)NULL)))
     while(!(*hent->h_addr_list == ((char *)NULL)))
     {
       struct in_addr haddr;
-      tmp_post$1 = hent->h_addr_list;
+      tmp_post_1 = hent->h_addr_list;
       hent->h_addr_list = hent->h_addr_list + 1l;
-      memcpy((void *)&haddr, (const void *)*tmp_post$1, sizeof(struct in_addr) /*4ul*/ );
-      unsigned int return_value_inet_addr$2;
-      return_value_inet_addr$2=inet_addr("127.0.0.1");
-      if(!(haddr.s_addr == return_value_inet_addr$2))
+      memcpy((void *)&haddr, (const void *)*tmp_post_1, sizeof(struct in_addr) /*4ul*/ );
+      unsigned int return_value_inet_addr_2;
+      return_value_inet_addr_2=inet_addr("127.0.0.1");
+      if(!(haddr.s_addr == return_value_inet_addr_2))
         memcpy((void *)address, (const void *)&haddr, sizeof(struct in_addr) /*4ul*/ );
 
     }
@@ -13690,13 +13690,13 @@ static void fetch_host(char *hostname, unsigned long int hostlen, struct in_addr
   s=socket(2, 2, 0);
   if(s >= 0)
   {
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1024, (unsigned long int)1);
-    ifc.ifc_ifcu.ifcu_buf = (char *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1024, (unsigned long int)1);
+    ifc.ifc_ifcu.ifcu_buf = (char *)return_value_calloc_3;
     ifc.ifc_len = 1024;
-    signed int return_value_ioctl$4;
-    return_value_ioctl$4=ioctl(s, (unsigned long int)0x8912, (char *)&ifc);
-    if(return_value_ioctl$4 >= 0)
+    signed int return_value_ioctl_4;
+    return_value_ioctl_4=ioctl(s, (unsigned long int)0x8912, (char *)&ifc);
+    if(return_value_ioctl_4 >= 0)
     {
       n = ifc.ifc_len;
       i = 0;
@@ -13708,9 +13708,9 @@ static void fetch_host(char *hostname, unsigned long int hostlen, struct in_addr
         a = (struct sockaddr_in *)&ifr->ifr_ifru.ifru_addr;
         strncpy(ifreqaddr.ifr_ifrn.ifrn_name, ifr->ifr_ifrn.ifrn_name, sizeof(char [16l]) /*16ul*/ );
         strncpy(ifreqmask.ifr_ifrn.ifrn_name, ifr->ifr_ifrn.ifrn_name, sizeof(char [16l]) /*16ul*/ );
-        signed int return_value_ioctl$5;
-        return_value_ioctl$5=ioctl(s, (unsigned long int)0x8913, (char *)&ifreqaddr);
-        if(return_value_ioctl$5 >= 0)
+        signed int return_value_ioctl_5;
+        return_value_ioctl_5=ioctl(s, (unsigned long int)0x8913, (char *)&ifreqaddr);
+        if(return_value_ioctl_5 >= 0)
         {
           if((8 & (signed int)ifreqaddr.ifr_ifru.ifru_flags) == 0)
           {
@@ -13720,9 +13720,9 @@ static void fetch_host(char *hostname, unsigned long int hostlen, struct in_addr
               {
                 if(!((16 & (signed int)ifreqaddr.ifr_ifru.ifru_flags) == 0))
                 {
-                  signed int return_value_ioctl$6;
-                  return_value_ioctl$6=ioctl(s, (unsigned long int)0x8917, (char *)&ifreqaddr);
-                  if(!(return_value_ioctl$6 >= 0))
+                  signed int return_value_ioctl_6;
+                  return_value_ioctl_6=ioctl(s, (unsigned long int)0x8917, (char *)&ifreqaddr);
+                  if(!(return_value_ioctl_6 >= 0))
                     break;
 
                   a = (struct sockaddr_in *)&ifreqaddr.ifr_ifru.ifru_dstaddr;
@@ -13733,9 +13733,9 @@ static void fetch_host(char *hostname, unsigned long int hostlen, struct in_addr
 
                 else
                 {
-                  signed int return_value_ioctl$7;
-                  return_value_ioctl$7=ioctl(s, (unsigned long int)0x8915, (char *)&ifreqaddr);
-                  if(!(return_value_ioctl$7 >= 0))
+                  signed int return_value_ioctl_7;
+                  return_value_ioctl_7=ioctl(s, (unsigned long int)0x8915, (char *)&ifreqaddr);
+                  if(!(return_value_ioctl_7 >= 0))
                     break;
 
                   a = (struct sockaddr_in *)&ifreqaddr.ifr_ifru.ifru_addr;
@@ -13743,9 +13743,9 @@ static void fetch_host(char *hostname, unsigned long int hostlen, struct in_addr
                     memcpy((void *)address, (const void *)&a->sin_addr, sizeof(struct in_addr) /*4ul*/ );
 
                 }
-                signed int return_value_ioctl$8;
-                return_value_ioctl$8=ioctl(s, (unsigned long int)0x891b, (char *)&ifreqmask);
-                if(!(return_value_ioctl$8 >= 0))
+                signed int return_value_ioctl_8;
+                return_value_ioctl_8=ioctl(s, (unsigned long int)0x891b, (char *)&ifreqmask);
+                if(!(return_value_ioctl_8 >= 0))
                   break;
 
                 b = (struct sockaddr_in *)&ifreqmask.ifr_ifru.ifru_addr;
@@ -13834,7 +13834,7 @@ extern void free_Appointment(struct Appointment *a)
 
 // free_Blob
 // file blob.c line 54
-extern void free_Blob(struct anonymous$28 *blob)
+extern void free_Blob(struct anonymous_28 *blob)
 {
   if(!(blob->data == ((unsigned char *)NULL)))
   {
@@ -13873,7 +13873,7 @@ extern void free_CalendarEvent(struct CalendarEvent *a)
     a->location = (char *)(void *)0;
   }
 
-  if(!(a->tz == ((struct anonymous$25 *)NULL)))
+  if(!(a->tz == ((struct anonymous_25 *)NULL)))
   {
     free_Timezone(a->tz);
     free((void *)a->tz);
@@ -13881,11 +13881,11 @@ extern void free_CalendarEvent(struct CalendarEvent *a)
 
   i = 0;
   for( ; !(i >= 10); i = i + 1)
-    if(!(a->blob[(signed long int)i] == ((struct anonymous$28 *)NULL)))
+    if(!(a->blob[(signed long int)i] == ((struct anonymous_28 *)NULL)))
     {
       free_Blob(a->blob[(signed long int)i]);
       free((void *)a->blob[(signed long int)i]);
-      a->blob[(signed long int)i] = (struct anonymous$28 *)(void *)0;
+      a->blob[(signed long int)i] = (struct anonymous_28 *)(void *)0;
     }
 
 }
@@ -13971,7 +13971,7 @@ extern void free_HiNoteNote(struct HiNoteNote *hinote)
 
 // free_Location
 // file location.c line 177
-extern void free_Location(struct anonymous$27 *loc)
+extern void free_Location(struct anonymous_27 *loc)
 {
   free_Timezone(&loc->tz);
   if(!(loc->note == ((char *)NULL)))
@@ -14113,7 +14113,7 @@ extern signed int free_PalmPix_data(struct PalmPixState *s)
 
 // free_Timezone
 // file location.c line 235
-extern void free_Timezone(struct anonymous$25 *tz)
+extern void free_Timezone(struct anonymous_25 *tz)
 {
   if(!(tz->name == ((char *)NULL)))
   {
@@ -14191,17 +14191,17 @@ extern double get_float(void *buffer)
   unsigned char *buf = (unsigned char *)buffer;
   unsigned long int frac = (unsigned long int)((unsigned long int)((unsigned char *)buf)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)buf)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)buf)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)buf)[(signed long int)3]);
   signed int expr;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if((signed int)((unsigned short int)((signed int)buf[4l] << 8) | (unsigned short int)(signed int)buf[5l]) >= 32768)
-    tmp_if_expr$1 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)(buf + (signed long int)4))[(signed long int)0] << 8 | (signed int)((unsigned char *)(buf + (signed long int)4))[(signed long int)1]) & 0x7FFF) - 0x8000;
+    tmp_if_expr_1 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)(buf + (signed long int)4))[(signed long int)0] << 8 | (signed int)((unsigned char *)(buf + (signed long int)4))[(signed long int)1]) & 0x7FFF) - 0x8000;
 
   else
-    tmp_if_expr$1 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)(buf + (signed long int)4))[(signed long int)0] << 8 | (signed int)((unsigned char *)(buf + (signed long int)4))[(signed long int)1]);
-  expr = (signed int)(signed short int)tmp_if_expr$1;
+    tmp_if_expr_1 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)(buf + (signed long int)4))[(signed long int)0] << 8 | (signed int)((unsigned char *)(buf + (signed long int)4))[(signed long int)1]);
+  expr = (signed int)(signed short int)tmp_if_expr_1;
   signed int sign = (signed int)((unsigned char *)(buf + (signed long int)6))[(signed long int)0];
-  double return_value_ldexp$2;
-  return_value_ldexp$2=ldexp(sign != 0 ? (double)frac : -((double)frac), expr);
-  return return_value_ldexp$2;
+  double return_value_ldexp_2;
+  return_value_ldexp_2=ldexp(sign != 0 ? (double)frac : -((double)frac), expr);
+  return return_value_ldexp_2;
 }
 
 // get_le_short
@@ -14252,13 +14252,13 @@ static void installexit(void)
 // file socket.c line 794
 static signed int is_connected(struct pi_socket *ps)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ps->state == 0x04)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ps->state == 0x02 ? (_Bool)1 : (_Bool)0;
-  return tmp_if_expr$1 ? 1 : 0;
+    tmp_if_expr_1 = ps->state == 0x02 ? (_Bool)1 : (_Bool)0;
+  return tmp_if_expr_1 ? 1 : 0;
 }
 
 // is_listener
@@ -14283,7 +14283,7 @@ signed int main(signed int argc, const char **argv)
   struct sockaddr_in cli_addr;
   char *addrarg = (char *)(void *)0;
   char *nmarg = (char *)(void *)0;
-  struct anonymous$9 rset;
+  struct anonymous_9 rset;
   unsigned char mesg[1026l];
   unsigned int clilen;
   struct poptContext_s *po;
@@ -14314,9 +14314,9 @@ signed int main(signed int argc, const char **argv)
   fetch_host(hostname, (unsigned long int)128, &address, &netmask);
   po=poptGetContext(progname, argc, argv, options, (unsigned int)0);
   poptSetOtherOptionHelp(po, "\n\n   Connection Service Daemon for Palm Devices\n\n   Example arguments:\n      -H \"localhost\" -a 127.0.0.1 -n 255.255.255.0\n\n");
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$3;
-  char *tmp_if_expr$19;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_3;
+  char *tmp_if_expr_19;
   if(!(argc >= 2))
   {
     poptPrintUsage(po, stderr, 0);
@@ -14346,9 +14346,9 @@ signed int main(signed int argc, const char **argv)
 
     else
     {
-      signed int return_value_inet_pton$1;
-      return_value_inet_pton$1=inet_pton(2, addrarg, (void *)&address);
-      if(return_value_inet_pton$1 == 0)
+      signed int return_value_inet_pton_1;
+      return_value_inet_pton_1=inet_pton(2, addrarg, (void *)&address);
+      if(return_value_inet_pton_1 == 0)
       {
         hent=gethostbyname(addrarg);
         if(!(hent == ((struct hostent *)NULL)))
@@ -14368,9 +14368,9 @@ signed int main(signed int argc, const char **argv)
         ;
         if(!(nmarg == ((char *)NULL)))
         {
-          signed int return_value_inet_pton$2;
-          return_value_inet_pton$2=inet_pton(2, nmarg, (void *)&netmask);
-          if(return_value_inet_pton$2 == 0)
+          signed int return_value_inet_pton_2;
+          return_value_inet_pton_2=inet_pton(2, nmarg, (void *)&netmask);
+          if(return_value_inet_pton_2 == 0)
           {
             fprintf(stderr, "   ERROR: Invalid netmask '%s'\n\n", nmarg);
             return 1;
@@ -14379,14 +14379,14 @@ signed int main(signed int argc, const char **argv)
         }
 
         if(address.s_addr == 0u)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_strlen$3=strlen(hostname);
-          tmp_if_expr$4 = return_value_strlen$3 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_3=strlen(hostname);
+          tmp_if_expr_4 = return_value_strlen_3 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           fprintf(stderr, "   ERROR: Must give an address and a hostname.\n");
           return -1;
@@ -14397,11 +14397,11 @@ signed int main(signed int argc, const char **argv)
           sockfd=socket(2, 2, 0);
           if(!(sockfd >= 0))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            char *return_value_strerror$6;
-            return_value_strerror$6=strerror(*return_value___errno_location$5);
-            fprintf(stderr, "   ERROR: Unable to get socket: %s\n", return_value_strerror$6);
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            char *return_value_strerror_6;
+            return_value_strerror_6=strerror(*return_value___errno_location_5);
+            fprintf(stderr, "   ERROR: Unable to get socket: %s\n", return_value_strerror_6);
             return 1;
           }
 
@@ -14409,31 +14409,31 @@ signed int main(signed int argc, const char **argv)
           serv_addr.sin_family = (unsigned short int)2;
           serv_addr.sin_addr.s_addr=htonl((unsigned int)0x00000000);
           serv_addr.sin_port=htons((unsigned short int)14237);
-          signed int return_value_bind$9;
-          return_value_bind$9=bind(sockfd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-          if(!(return_value_bind$9 >= 0))
+          signed int return_value_bind_9;
+          return_value_bind_9=bind(sockfd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+          if(!(return_value_bind_9 >= 0))
           {
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            char *return_value_strerror$8;
-            return_value_strerror$8=strerror(*return_value___errno_location$7);
-            fprintf(stderr, "   ERROR: Unable to bind socket: %s\n", return_value_strerror$8);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            char *return_value_strerror_8;
+            return_value_strerror_8=strerror(*return_value___errno_location_7);
+            fprintf(stderr, "   ERROR: Unable to bind socket: %s\n", return_value_strerror_8);
             return 1;
           }
 
           if(quiet == 0)
           {
-            signed int return_value_getpid$10;
-            return_value_getpid$10=getpid();
-            fprintf(stdout, "%s(%d): Connection Service Daemon for Palm Computing(tm) device active.\n", progname, return_value_getpid$10);
-            signed int return_value_getpid$11;
-            return_value_getpid$11=getpid();
-            char *return_value_inet_ntoa$12;
-            return_value_inet_ntoa$12=inet_ntoa(address);
-            fprintf(stdout, "%s(%d): Accepting connection requests for '%s' at %s", progname, return_value_getpid$11, hostname, return_value_inet_ntoa$12);
-            char *return_value_inet_ntoa$13;
-            return_value_inet_ntoa$13=inet_ntoa(netmask);
-            fprintf(stdout, " with mask %s.\n", return_value_inet_ntoa$13);
+            signed int return_value_getpid_10;
+            return_value_getpid_10=getpid();
+            fprintf(stdout, "%s(%d): Connection Service Daemon for Palm Computing(tm) device active.\n", progname, return_value_getpid_10);
+            signed int return_value_getpid_11;
+            return_value_getpid_11=getpid();
+            char *return_value_inet_ntoa_12;
+            return_value_inet_ntoa_12=inet_ntoa(address);
+            fprintf(stdout, "%s(%d): Accepting connection requests for '%s' at %s", progname, return_value_getpid_11, hostname, return_value_inet_ntoa_12);
+            char *return_value_inet_ntoa_13;
+            return_value_inet_ntoa_13=inet_ntoa(netmask);
+            fprintf(stdout, " with mask %s.\n", return_value_inet_ntoa_13);
           }
 
           do
@@ -14444,26 +14444,26 @@ signed int main(signed int argc, const char **argv)
             {
               signed int __d0;
               signed int __d1;
-              asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rset)->__fds_bits[(signed long int)0]) : "memory");
+              asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rset)->__fds_bits[(signed long int)0]) : "memory");
             }
             while((_Bool)0);
             (&rset)->__fds_bits[(signed long int)(sockfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rset)->__fds_bits[(signed long int)(sockfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sockfd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-            signed int return_value_select$16;
-            return_value_select$16=select(sockfd + 1, &rset, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), ((struct timeval *)NULL));
-            if(!(return_value_select$16 >= 0))
+            signed int return_value_select_16;
+            return_value_select_16=select(sockfd + 1, &rset, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), ((struct timeval *)NULL));
+            if(!(return_value_select_16 >= 0))
             {
-              signed int *return_value___errno_location$14;
-              return_value___errno_location$14=__errno_location();
-              char *return_value_strerror$15;
-              return_value_strerror$15=strerror(*return_value___errno_location$14);
-              fprintf(stderr, "   ERROR: Select failure: %s\n", return_value_strerror$15);
+              signed int *return_value___errno_location_14;
+              return_value___errno_location_14=__errno_location();
+              char *return_value_strerror_15;
+              return_value_strerror_15=strerror(*return_value___errno_location_14);
+              fprintf(stderr, "   ERROR: Select failure: %s\n", return_value_strerror_15);
               close(sockfd);
               return 1;
             }
 
-            signed long int return_value_recvfrom$17;
-            return_value_recvfrom$17=recvfrom(sockfd, (void *)mesg, (unsigned long int)1024, 0, (struct sockaddr *)&cli_addr, &clilen);
-            n = (signed int)return_value_recvfrom$17;
+            signed long int return_value_recvfrom_17;
+            return_value_recvfrom_17=recvfrom(sockfd, (void *)mesg, (unsigned long int)1024, 0, (struct sockaddr *)&cli_addr, &clilen);
+            n = (signed int)return_value_recvfrom_17;
             if(n >= 0)
             {
               mesg[(signed long int)n] = (unsigned char)0;
@@ -14471,16 +14471,16 @@ signed int main(signed int argc, const char **argv)
               {
                 hent=gethostbyaddr((const void *)(char *)&cli_addr.sin_addr.s_addr, (unsigned int)4, 2);
                 memcpy((void *)&raddress, (const void *)&cli_addr.sin_addr.s_addr, (unsigned long int)4);
-                signed int return_value_getpid$18;
-                return_value_getpid$18=getpid();
+                signed int return_value_getpid_18;
+                return_value_getpid_18=getpid();
                 if(!(hent == ((struct hostent *)NULL)))
-                  tmp_if_expr$19 = hent->h_name;
+                  tmp_if_expr_19 = hent->h_name;
 
                 else
-                  tmp_if_expr$19 = "";
-                char *return_value_inet_ntoa$20;
-                return_value_inet_ntoa$20=inet_ntoa(raddress);
-                fprintf(stdout, "%s(%d): Connection from %s[%s], ", progname, return_value_getpid$18, tmp_if_expr$19, return_value_inet_ntoa$20);
+                  tmp_if_expr_19 = "";
+                char *return_value_inet_ntoa_20;
+                return_value_inet_ntoa_20=inet_ntoa(raddress);
+                fprintf(stdout, "%s(%d): Connection from %s[%s], ", progname, return_value_getpid_18, tmp_if_expr_19, return_value_inet_ntoa_20);
               }
 
               if((signed int)((unsigned short int)((signed int)mesg[0l] << 8) | (unsigned short int)(signed int)mesg[1l]) == 0xFADE)
@@ -14496,33 +14496,33 @@ signed int main(signed int argc, const char **argv)
                     memcpy((void *)&mask, (const void *)(mesg + (signed long int)8), (unsigned long int)4);
                     if(quiet == 0)
                     {
-                      char *return_value_inet_ntoa$21;
-                      return_value_inet_ntoa$21=inet_ntoa(ip);
-                      fprintf(stdout, "req '%s', %s", name, return_value_inet_ntoa$21);
-                      char *return_value_inet_ntoa$22;
-                      return_value_inet_ntoa$22=inet_ntoa(mask);
-                      fprintf(stdout, ", %s", return_value_inet_ntoa$22);
+                      char *return_value_inet_ntoa_21;
+                      return_value_inet_ntoa_21=inet_ntoa(ip);
+                      fprintf(stdout, "req '%s', %s", name, return_value_inet_ntoa_21);
+                      char *return_value_inet_ntoa_22;
+                      return_value_inet_ntoa_22=inet_ntoa(mask);
+                      fprintf(stdout, ", %s", return_value_inet_ntoa_22);
                     }
 
-                    signed int return_value_strcmp$26;
-                    return_value_strcmp$26=strcmp(hostname, name);
-                    if(return_value_strcmp$26 == 0)
+                    signed int return_value_strcmp_26;
+                    return_value_strcmp_26=strcmp(hostname, name);
+                    if(return_value_strcmp_26 == 0)
                     {
                       if(quiet == 0)
                         fprintf(stdout, " = accept.\n");
 
                       ((unsigned char *)(mesg + (signed long int)2))[(signed long int)0] = (unsigned char)0x02;
                       memcpy((void *)(mesg + (signed long int)4), (const void *)&address, (unsigned long int)4);
-                      signed long int return_value_sendto$23;
-                      return_value_sendto$23=sendto(sockfd, (const void *)mesg, (unsigned long int)n, 0, (struct sockaddr *)&cli_addr, clilen);
-                      n = (signed int)return_value_sendto$23;
+                      signed long int return_value_sendto_23;
+                      return_value_sendto_23=sendto(sockfd, (const void *)mesg, (unsigned long int)n, 0, (struct sockaddr *)&cli_addr, clilen);
+                      n = (signed int)return_value_sendto_23;
                       if(!(n >= 0))
                       {
-                        signed int *return_value___errno_location$24;
-                        return_value___errno_location$24=__errno_location();
-                        char *return_value_strerror$25;
-                        return_value_strerror$25=strerror(*return_value___errno_location$24);
-                        fprintf(stderr, "   ERROR: sendto() error: %s\n", return_value_strerror$25);
+                        signed int *return_value___errno_location_24;
+                        return_value___errno_location_24=__errno_location();
+                        char *return_value_strerror_25;
+                        return_value_strerror_25=strerror(*return_value___errno_location_24);
+                        fprintf(stderr, "   ERROR: sendto() error: %s\n", return_value_strerror_25);
                       }
 
                       continue;
@@ -14561,9 +14561,9 @@ signed int main(signed int argc, const char **argv)
 extern unsigned long int makelong(char *c)
 {
   signed int l;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(c);
-  l = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(c);
+  l = (signed int)return_value_strlen_1;
   char c2[4l];
   if(l >= 4)
     return (unsigned long int)((unsigned long int)((unsigned char *)c)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)c)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)c)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)c)[(signed long int)3]);
@@ -14598,12 +14598,12 @@ static signed int net_flush(struct pi_socket *ps, signed int flags)
   struct pi_protocol *prot;
   struct pi_protocol *next;
   prot=pi_protocol(ps->sd, 3);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -14611,8 +14611,8 @@ static signed int net_flush(struct pi_socket *ps, signed int flags)
     next=pi_protocol_next(ps->sd, 3);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -14631,11 +14631,11 @@ static signed int net_getsockopt(struct pi_socket *ps, signed int level, signed 
   struct pi_protocol *prot;
   struct pi_net_data *data;
   prot=pi_protocol(ps->sd, 3);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -14645,12 +14645,12 @@ static signed int net_getsockopt(struct pi_socket *ps, signed int level, signed 
     {
       if(!(*option_len == sizeof(signed int) /*4ul*/ ))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 22;
-        signed int return_value_pi_set_error$3;
-        return_value_pi_set_error$3=pi_set_error(ps->sd, -501);
-        return return_value_pi_set_error$3;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 22;
+        signed int return_value_pi_set_error_3;
+        return_value_pi_set_error_3=pi_set_error(ps->sd, -501);
+        return return_value_pi_set_error_3;
       }
 
       memcpy(option_value, (const void *)&data->type, sizeof(signed int) /*4ul*/ );
@@ -14667,14 +14667,14 @@ extern struct pi_protocol * net_protocol(void)
 {
   struct pi_protocol *prot = (struct pi_protocol *)(void *)0;
   struct pi_net_data *data = (struct pi_net_data *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(prot == ((struct pi_protocol *)NULL)))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pi_net_data) /*24ul*/ );
-    data = (struct pi_net_data *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pi_net_data) /*24ul*/ );
+    data = (struct pi_net_data *)return_value_malloc_2;
     if(data == ((struct pi_net_data *)NULL))
     {
       free((void *)prot);
@@ -14715,14 +14715,14 @@ static struct pi_protocol * net_protocol_dup(struct pi_protocol *prot)
       pi_log(0x400, 0x00, "file %s: line %d: assertion failed: (%s)", (const void *)"net.c", 66, (const void *)"prot != NULL");
 
   while((_Bool)0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  new_prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  new_prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(new_prot == ((struct pi_protocol *)NULL)))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pi_net_data) /*24ul*/ );
-    new_data = (struct pi_net_data *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pi_net_data) /*24ul*/ );
+    new_data = (struct pi_net_data *)return_value_malloc_2;
     if(new_data == ((struct pi_net_data *)NULL))
     {
       free((void *)new_prot);
@@ -14786,17 +14786,17 @@ extern signed long int net_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
   struct pi_buffer_t *header;
   struct pi_net_data *data;
   prot=pi_protocol(ps->sd, 3);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_debug_get_level$6;
-  signed int return_value_pi_set_error$8;
-  signed int return_value_pi_debug_get_level$10;
-  signed int return_value_pi_debug_get_level$12;
-  _Bool tmp_if_expr$14;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_debug_get_level_6;
+  signed int return_value_pi_set_error_8;
+  signed int return_value_pi_debug_get_level_10;
+  signed int return_value_pi_debug_get_level_12;
+  _Bool tmp_if_expr_14;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -14805,8 +14805,8 @@ extern signed long int net_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
     next=pi_protocol_next(ps->sd, 3);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
     else
@@ -14819,12 +14819,12 @@ extern signed long int net_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
       header=pi_buffer_new((unsigned long int)6);
       if(header == ((struct pi_buffer_t *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 12;
-        signed int return_value_pi_set_error$4;
-        return_value_pi_set_error$4=pi_set_error(ps->sd, -500);
-        return (signed long int)return_value_pi_set_error$4;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 12;
+        signed int return_value_pi_set_error_4;
+        return_value_pi_set_error_4=pi_set_error(ps->sd, -500);
+        return (signed long int)return_value_pi_set_error_4;
       }
 
       total_bytes = 0;
@@ -14883,9 +14883,9 @@ extern signed long int net_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
             {
               pi_log(0x020, 0x01, "NET RX (%i): tickle packet with non-zero length\n", ps->sd);
               pi_buffer_free(header);
-              signed int return_value_pi_set_error$5;
-              return_value_pi_set_error$5=pi_set_error(ps->sd, -102);
-              return (signed long int)return_value_pi_set_error$5;
+              signed int return_value_pi_set_error_5;
+              return_value_pi_set_error_5=pi_set_error(ps->sd, -102);
+              return (signed long int)return_value_pi_set_error_5;
             }
 
             pi_log(0x020, 0x08, "NET RX (%i): received tickle packet\n", ps->sd);
@@ -14900,12 +14900,12 @@ extern signed long int net_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
             pi_log(0x020, 0x01, "NET RX (%i): Unknown packet type\n", ps->sd);
             do
             {
-              signed int return_value_pi_debug_get_types$7;
-              return_value_pi_debug_get_types$7=pi_debug_get_types();
-              if(!((0x020 & return_value_pi_debug_get_types$7) == 0))
+              signed int return_value_pi_debug_get_types_7;
+              return_value_pi_debug_get_types_7=pi_debug_get_types();
+              if(!((0x020 & return_value_pi_debug_get_types_7) == 0))
               {
-                return_value_pi_debug_get_level$6=pi_debug_get_level();
-                if(return_value_pi_debug_get_level$6 >= 0x04)
+                return_value_pi_debug_get_level_6=pi_debug_get_level();
+                if(return_value_pi_debug_get_level_6 >= 0x04)
                   pi_dumpdata((char *)header->data, (unsigned long int)6);
 
               }
@@ -14913,8 +14913,8 @@ extern signed long int net_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
             }
             while((_Bool)0);
             pi_buffer_free(header);
-            return_value_pi_set_error$8=pi_set_error(ps->sd, -102);
-            return (signed long int)return_value_pi_set_error$8;
+            return_value_pi_set_error_8=pi_set_error(ps->sd, -102);
+            return (signed long int)return_value_pi_set_error_8;
           }
         }
       }
@@ -14925,9 +14925,9 @@ extern signed long int net_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
         next->flush(ps, 0x01);
         pi_log(0x020, 0x01, "NET RX (%i): Invalid packet length (%ld)\n", ps->sd, packet_len);
         pi_buffer_free(header);
-        signed int return_value_pi_set_error$9;
-        return_value_pi_set_error$9=pi_set_error(ps->sd, -102);
-        return (signed long int)return_value_pi_set_error$9;
+        signed int return_value_pi_set_error_9;
+        return_value_pi_set_error_9=pi_set_error(ps->sd, -102);
+        return (signed long int)return_value_pi_set_error_9;
       }
 
       if(!(total_bytes >= packet_len))
@@ -14946,12 +14946,12 @@ extern signed long int net_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
 
       do
       {
-        signed int return_value_pi_debug_get_types$11;
-        return_value_pi_debug_get_types$11=pi_debug_get_types();
-        if(!((0x020 & return_value_pi_debug_get_types$11) == 0))
+        signed int return_value_pi_debug_get_types_11;
+        return_value_pi_debug_get_types_11=pi_debug_get_types();
+        if(!((0x020 & return_value_pi_debug_get_types_11) == 0))
         {
-          return_value_pi_debug_get_level$10=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$10 >= 0x04)
+          return_value_pi_debug_get_level_10=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_10 >= 0x04)
             net_dump_header(header->data, 0, ps->sd);
 
         }
@@ -14960,12 +14960,12 @@ extern signed long int net_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
       while((_Bool)0);
       do
       {
-        signed int return_value_pi_debug_get_types$13;
-        return_value_pi_debug_get_types$13=pi_debug_get_types();
-        if(!((0x020 & return_value_pi_debug_get_types$13) == 0))
+        signed int return_value_pi_debug_get_types_13;
+        return_value_pi_debug_get_types_13=pi_debug_get_types();
+        if(!((0x020 & return_value_pi_debug_get_types_13) == 0))
         {
-          return_value_pi_debug_get_level$12=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$12 >= 0x08)
+          return_value_pi_debug_get_level_12=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_12 >= 0x08)
             net_dump(header->data, msg->data);
 
         }
@@ -14973,11 +14973,11 @@ extern signed long int net_rx(struct pi_socket *ps, struct pi_buffer_t *msg, uns
       }
       while((_Bool)0);
       if(ps->state == 0x04)
-        tmp_if_expr$14 = (_Bool)1;
+        tmp_if_expr_14 = (_Bool)1;
 
       else
-        tmp_if_expr$14 = ps->command == 1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$14)
+        tmp_if_expr_14 = ps->command == 1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_14)
         data->txid = header->data[(signed long int)1];
 
       else
@@ -15002,42 +15002,42 @@ extern signed int net_rx_handshake(struct pi_socket *ps)
   buffer=pi_buffer_new((unsigned long int)256);
   if(buffer == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(ps->sd, -500);
-    return return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(ps->sd, -500);
+    return return_value_pi_set_error_2;
   }
 
-  signed long int return_value_net_rx$7;
-  return_value_net_rx$7=net_rx(ps, buffer, (unsigned long int)256, 0);
-  err = (signed int)return_value_net_rx$7;
-  signed long int return_value_net_tx$6;
-  signed long int return_value_net_rx$5;
-  signed long int return_value_net_tx$4;
-  signed long int return_value_net_rx$3;
+  signed long int return_value_net_rx_7;
+  return_value_net_rx_7=net_rx(ps, buffer, (unsigned long int)256, 0);
+  err = (signed int)return_value_net_rx_7;
+  signed long int return_value_net_tx_6;
+  signed long int return_value_net_rx_5;
+  signed long int return_value_net_tx_4;
+  signed long int return_value_net_rx_3;
   if(err >= 0)
   {
-    static const unsigned char msg1[51l] = { 18, 1, 0, 0, 0, 0, 0, 0, 0, ' ', 0, 0, 0, '$', 255, 255, 255, 255, '<', 0, '<', 0, 0, 0, 0, 0, 0, 0, 0, 0, 192, 168, 165, 31, 4, '\'', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-    return_value_net_tx$6=net_tx(ps, msg1, (unsigned long int)50, 0);
-    err = (signed int)return_value_net_tx$6;
+    static const unsigned char msg1[51l] = { 18, 1, 0, 0, 0, 0, 0, 0, 0, ' ', 0, 0, 0, '_', 255, 255, 255, 255, '<', 0, '<', 0, 0, 0, 0, 0, 0, 0, 0, 0, 192, 168, 165, 31, 4, '\'', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+    return_value_net_tx_6=net_tx(ps, msg1, (unsigned long int)50, 0);
+    err = (signed int)return_value_net_tx_6;
     if(!(err >= 0))
       goto __CPROVER_DUMP_L2;
 
-    return_value_net_rx$5=net_rx(ps, buffer, (unsigned long int)50, 0);
-    err = (signed int)return_value_net_rx$5;
+    return_value_net_rx_5=net_rx(ps, buffer, (unsigned long int)50, 0);
+    err = (signed int)return_value_net_rx_5;
     if(!(err >= 0))
       goto __CPROVER_DUMP_L2;
 
     static const unsigned char msg2[47l] = { 19, 1, 0, 0, 0, 0, 0, 0, 0, ' ', 0, 0, 0, ' ', 255, 255, 255, 255, 0, '<', 0, '<', 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-    return_value_net_tx$4=net_tx(ps, msg2, (unsigned long int)46, 0);
-    err = (signed int)return_value_net_tx$4;
+    return_value_net_tx_4=net_tx(ps, msg2, (unsigned long int)46, 0);
+    err = (signed int)return_value_net_tx_4;
     if(!(err >= 0))
       goto __CPROVER_DUMP_L2;
 
-    return_value_net_rx$3=net_rx(ps, buffer, (unsigned long int)8, 0);
-    err = (signed int)return_value_net_rx$3;
+    return_value_net_rx_3=net_rx(ps, buffer, (unsigned long int)8, 0);
+    err = (signed int)return_value_net_rx_3;
     if(!(err >= 0))
       goto __CPROVER_DUMP_L2;
 
@@ -15062,11 +15062,11 @@ static signed int net_setsockopt(struct pi_socket *ps, signed int level, signed 
   struct pi_protocol *prot;
   struct pi_net_data *data;
   prot=pi_protocol(ps->sd, 3);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -15078,12 +15078,12 @@ static signed int net_setsockopt(struct pi_socket *ps, signed int level, signed 
       {
         if(!(*option_len == sizeof(signed int) /*4ul*/ ))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          *return_value___errno_location$2 = 22;
-          signed int return_value_pi_set_error$3;
-          return_value_pi_set_error$3=pi_set_error(ps->sd, -501);
-          return return_value_pi_set_error$3;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          *return_value___errno_location_2 = 22;
+          signed int return_value_pi_set_error_3;
+          return_value_pi_set_error_3=pi_set_error(ps->sd, -501);
+          return return_value_pi_set_error_3;
         }
 
         memcpy((void *)&data->type, option_value, sizeof(signed int) /*4ul*/ );
@@ -15093,12 +15093,12 @@ static signed int net_setsockopt(struct pi_socket *ps, signed int level, signed 
       {
         if(!(*option_len == sizeof(signed int) /*4ul*/ ))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = 22;
-          signed int return_value_pi_set_error$5;
-          return_value_pi_set_error$5=pi_set_error(ps->sd, -501);
-          return return_value_pi_set_error$5;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = 22;
+          signed int return_value_pi_set_error_5;
+          return_value_pi_set_error_5=pi_set_error(ps->sd, -501);
+          return return_value_pi_set_error_5;
         }
 
         memcpy((void *)&data->split_writes, option_value, sizeof(signed int) /*4ul*/ );
@@ -15108,12 +15108,12 @@ static signed int net_setsockopt(struct pi_socket *ps, signed int level, signed 
       {
         if(!(*option_len == sizeof(unsigned long int) /*8ul*/ ))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          *return_value___errno_location$6 = 22;
-          signed int return_value_pi_set_error$7;
-          return_value_pi_set_error$7=pi_set_error(ps->sd, -501);
-          return return_value_pi_set_error$7;
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          *return_value___errno_location_6 = 22;
+          signed int return_value_pi_set_error_7;
+          return_value_pi_set_error_7=pi_set_error(ps->sd, -501);
+          return return_value_pi_set_error_7;
         }
 
         memcpy((void *)&data->write_chunksize, option_value, sizeof(unsigned long int) /*8ul*/ );
@@ -15136,16 +15136,16 @@ extern signed long int net_tx(struct pi_socket *ps, const unsigned char *msg, un
   struct pi_net_data *data;
   unsigned char *buf;
   prot=pi_protocol(ps->sd, 3);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_set_error$4;
-  unsigned long int tmp_if_expr$5;
-  signed int return_value_pi_debug_get_level$6;
-  signed int return_value_pi_debug_get_level$8;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_set_error_4;
+  unsigned long int tmp_if_expr_5;
+  signed int return_value_pi_debug_get_level_6;
+  signed int return_value_pi_debug_get_level_8;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -15154,19 +15154,19 @@ extern signed long int net_tx(struct pi_socket *ps, const unsigned char *msg, un
     next=pi_protocol_next(ps->sd, 3);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)6 + len);
-      buf = (unsigned char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)6 + len);
+      buf = (unsigned char *)return_value_malloc_3;
       if(buf == ((unsigned char *)NULL))
       {
-        return_value_pi_set_error$4=pi_set_error(ps->sd, -500);
-        return (signed long int)return_value_pi_set_error$4;
+        return_value_pi_set_error_4=pi_set_error(ps->sd, -500);
+        return (signed long int)return_value_pi_set_error_4;
       }
 
       else
@@ -15207,11 +15207,11 @@ extern signed long int net_tx(struct pi_socket *ps, const unsigned char *msg, un
           if(!(data->write_chunksize == 0ul))
           {
             if(!(data->write_chunksize >= (unsigned long int)remain))
-              tmp_if_expr$5 = data->write_chunksize;
+              tmp_if_expr_5 = data->write_chunksize;
 
             else
-              tmp_if_expr$5 = (unsigned long int)remain;
-            tosend = (signed int)tmp_if_expr$5;
+              tmp_if_expr_5 = (unsigned long int)remain;
+            tosend = (signed int)tmp_if_expr_5;
           }
 
           else
@@ -15231,12 +15231,12 @@ extern signed long int net_tx(struct pi_socket *ps, const unsigned char *msg, un
 
         do
         {
-          signed int return_value_pi_debug_get_types$7;
-          return_value_pi_debug_get_types$7=pi_debug_get_types();
-          if(!((0x020 & return_value_pi_debug_get_types$7) == 0))
+          signed int return_value_pi_debug_get_types_7;
+          return_value_pi_debug_get_types_7=pi_debug_get_types();
+          if(!((0x020 & return_value_pi_debug_get_types_7) == 0))
           {
-            return_value_pi_debug_get_level$6=pi_debug_get_level();
-            if(return_value_pi_debug_get_level$6 >= 0x04)
+            return_value_pi_debug_get_level_6=pi_debug_get_level();
+            if(return_value_pi_debug_get_level_6 >= 0x04)
               net_dump_header(buf, 1, ps->sd);
 
           }
@@ -15245,12 +15245,12 @@ extern signed long int net_tx(struct pi_socket *ps, const unsigned char *msg, un
         while((_Bool)0);
         do
         {
-          signed int return_value_pi_debug_get_types$9;
-          return_value_pi_debug_get_types$9=pi_debug_get_types();
-          if(!((0x020 & return_value_pi_debug_get_types$9) == 0))
+          signed int return_value_pi_debug_get_types_9;
+          return_value_pi_debug_get_types_9=pi_debug_get_types();
+          if(!((0x020 & return_value_pi_debug_get_types_9) == 0))
           {
-            return_value_pi_debug_get_level$8=pi_debug_get_level();
-            if(return_value_pi_debug_get_level$8 >= 0x08)
+            return_value_pi_debug_get_level_8=pi_debug_get_level();
+            if(return_value_pi_debug_get_level_8 >= 0x08)
               pi_dumpdata((char *)msg, len);
 
           }
@@ -15273,43 +15273,43 @@ extern signed int net_tx_handshake(struct pi_socket *ps)
   buffer=pi_buffer_new((unsigned long int)256);
   if(buffer == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(ps->sd, -500);
-    return return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(ps->sd, -500);
+    return return_value_pi_set_error_2;
   }
 
-  signed long int return_value_net_tx$7;
+  signed long int return_value_net_tx_7;
   static const unsigned char msg1[23l] = { 144, 1, 0, 0, 0, 0, 0, 0, 0, ' ', 0, 0, 0, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0 };
-  return_value_net_tx$7=net_tx(ps, msg1, (unsigned long int)22, 0);
-  err = (signed int)return_value_net_tx$7;
-  signed long int return_value_net_rx$6;
-  signed long int return_value_net_tx$5;
-  signed long int return_value_net_rx$4;
-  signed long int return_value_net_tx$3;
+  return_value_net_tx_7=net_tx(ps, msg1, (unsigned long int)22, 0);
+  err = (signed int)return_value_net_tx_7;
+  signed long int return_value_net_rx_6;
+  signed long int return_value_net_tx_5;
+  signed long int return_value_net_rx_4;
+  signed long int return_value_net_tx_3;
   if(err >= 0)
   {
-    return_value_net_rx$6=net_rx(ps, buffer, (unsigned long int)256, 0);
-    err = (signed int)return_value_net_rx$6;
+    return_value_net_rx_6=net_rx(ps, buffer, (unsigned long int)256, 0);
+    err = (signed int)return_value_net_rx_6;
     if(!(err >= 0))
       goto __CPROVER_DUMP_L2;
 
-    static const unsigned char msg2[51l] = { 146, 1, 0, 0, 0, 0, 0, 0, 0, ' ', 0, 0, 0, '$', 255, 255, 255, 255, 0, '<', 0, '<', '@', 0, 0, 0, 1, 0, 0, 0, 192, 168, 165, 30, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-    return_value_net_tx$5=net_tx(ps, msg2, (unsigned long int)50, 0);
-    err = (signed int)return_value_net_tx$5;
+    static const unsigned char msg2[51l] = { 146, 1, 0, 0, 0, 0, 0, 0, 0, ' ', 0, 0, 0, '_', 255, 255, 255, 255, 0, '<', 0, '<', '@', 0, 0, 0, 1, 0, 0, 0, 192, 168, 165, 30, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+    return_value_net_tx_5=net_tx(ps, msg2, (unsigned long int)50, 0);
+    err = (signed int)return_value_net_tx_5;
     if(!(err >= 0))
       goto __CPROVER_DUMP_L2;
 
-    return_value_net_rx$4=net_rx(ps, buffer, (unsigned long int)256, 0);
-    err = (signed int)return_value_net_rx$4;
+    return_value_net_rx_4=net_rx(ps, buffer, (unsigned long int)256, 0);
+    err = (signed int)return_value_net_rx_4;
     if(!(err >= 0))
       goto __CPROVER_DUMP_L2;
 
     static const unsigned char msg3[9l] = { 147, 0, 0, 0, 0, 0, 0, 0, 0 };
-    return_value_net_tx$3=net_tx(ps, msg3, (unsigned long int)8, 0);
-    err = (signed int)return_value_net_tx$3;
+    return_value_net_tx_3=net_tx(ps, msg3, (unsigned long int)8, 0);
+    err = (signed int)return_value_net_tx_3;
     if(!(err >= 0))
       goto __CPROVER_DUMP_L2;
 
@@ -15370,15 +15370,15 @@ extern void new_CalendarEvent(struct CalendarEvent *a)
   a->description = (char *)(void *)0;
   a->note = (char *)(void *)0;
   a->location = (char *)(void *)0;
-  a->tz = (struct anonymous$25 *)(void *)0;
+  a->tz = (struct anonymous_25 *)(void *)0;
   i = 0;
   for( ; !(i >= 10); i = i + 1)
-    a->blob[(signed long int)i] = (struct anonymous$28 *)(void *)0;
+    a->blob[(signed long int)i] = (struct anonymous_28 *)(void *)0;
 }
 
 // new_Location
 // file location.c line 74
-extern void new_Location(struct anonymous$27 *a)
+extern void new_Location(struct anonymous_27 *a)
 {
   new_Timezone(&a->tz);
   a->unknownExists = (unsigned char)0;
@@ -15394,7 +15394,7 @@ extern void new_Location(struct anonymous$27 *a)
 
 // new_Timezone
 // file location.c line 44
-extern void new_Timezone(struct anonymous$25 *a)
+extern void new_Timezone(struct anonymous_25 *a)
 {
   a->offset = (signed short int)0;
   a->t2 = (unsigned char)0;
@@ -15423,13 +15423,13 @@ static void onalarm(signed int signo)
   for( ; !(l == ((struct pi_socket_list *)NULL)); l = l->next)
   {
     struct pi_socket *ps = l->ps;
-    signed int return_value_is_connected$1;
-    return_value_is_connected$1=is_connected(ps);
-    if(!(return_value_is_connected$1 == 0))
+    signed int return_value_is_connected_1;
+    return_value_is_connected_1=is_connected(ps);
+    if(!(return_value_is_connected_1 == 0))
     {
-      signed int return_value_pi_tickle$2;
-      return_value_pi_tickle$2=pi_tickle(ps->sd);
-      if(!(return_value_pi_tickle$2 >= 0))
+      signed int return_value_pi_tickle_2;
+      return_value_pi_tickle_2=pi_tickle(ps->sd);
+      if(!(return_value_pi_tickle_2 >= 0))
       {
         pi_log(0x080, 0x04, "SOCKET Socket %d is busy during tickle\n", ps->sd);
         alarm((unsigned int)1);
@@ -15463,7 +15463,7 @@ static void onexit(void)
 
 // pack_Address
 // file address.c line 134
-extern signed int pack_Address(const struct Address *addr, struct pi_buffer_t *buf, enum anonymous$6 type)
+extern signed int pack_Address(const struct Address *addr, struct pi_buffer_t *buf, enum anonymous_6 type)
 {
   unsigned int l;
   unsigned int destlen = (unsigned int)9;
@@ -15472,9 +15472,9 @@ extern signed int pack_Address(const struct Address *addr, struct pi_buffer_t *b
   unsigned long int v;
   unsigned long int phoneflag;
   unsigned char offset;
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_4;
   if(addr == ((const struct Address *)NULL) || buf == ((struct pi_buffer_t *)NULL))
     return -1;
 
@@ -15488,11 +15488,11 @@ extern signed int pack_Address(const struct Address *addr, struct pi_buffer_t *b
       for( ; !(v >= 19ul); v = v + 1ul)
         if(!(addr->entry[(signed long int)v] == ((char *)NULL)))
         {
-          return_value_strlen$2=strlen(addr->entry[(signed long int)v]);
-          if(!(return_value_strlen$2 == 0ul))
+          return_value_strlen_2=strlen(addr->entry[(signed long int)v]);
+          if(!(return_value_strlen_2 == 0ul))
           {
-            return_value_strlen$1=strlen(addr->entry[(signed long int)v]);
-            destlen = destlen + (unsigned int)(return_value_strlen$1 + (unsigned long int)1);
+            return_value_strlen_1=strlen(addr->entry[(signed long int)v]);
+            destlen = destlen + (unsigned int)(return_value_strlen_1 + (unsigned long int)1);
           }
 
         }
@@ -15507,16 +15507,16 @@ extern signed int pack_Address(const struct Address *addr, struct pi_buffer_t *b
       for( ; !(v >= 19ul); v = v + 1ul)
         if(!(addr->entry[(signed long int)v] == ((char *)NULL)))
         {
-          return_value_strlen$4=strlen(addr->entry[(signed long int)v]);
-          if(!(return_value_strlen$4 == 0ul))
+          return_value_strlen_4=strlen(addr->entry[(signed long int)v]);
+          if(!(return_value_strlen_4 == 0ul))
           {
             if(v == 2ul)
               offset = (unsigned char)((signed int)(unsigned char)(buffer - buf->data) - 8);
 
             contents = contents | (unsigned long int)(1 << v);
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(addr->entry[(signed long int)v]);
-            l = (unsigned int)(return_value_strlen$3 + (unsigned long int)1);
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(addr->entry[(signed long int)v]);
+            l = (unsigned int)(return_value_strlen_3 + (unsigned long int)1);
             memcpy((void *)buffer, (const void *)addr->entry[(signed long int)v], (unsigned long int)l);
             buffer = buffer + (signed long int)l;
           }
@@ -15599,13 +15599,13 @@ extern signed int pack_AddressAppInfo(const struct AddressAppInfo *ai, unsigned 
 
 // pack_Appointment
 // file datebook.c line 281
-extern signed int pack_Appointment(const struct Appointment *a, struct pi_buffer_t *buf, enum anonymous$8 type)
+extern signed int pack_Appointment(const struct Appointment *a, struct pi_buffer_t *buf, enum anonymous_8 type)
 {
   signed int iflags;
   signed int destlen = 8;
   char *pos;
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
   if(a == ((const struct Appointment *)NULL) || buf == ((struct pi_buffer_t *)NULL))
     return -1;
 
@@ -15626,14 +15626,14 @@ extern signed int pack_Appointment(const struct Appointment *a, struct pi_buffer
 
       if(!(a->note == ((char *)NULL)))
       {
-        return_value_strlen$1=strlen(a->note);
-        destlen = destlen + (signed int)(return_value_strlen$1 + (unsigned long int)1);
+        return_value_strlen_1=strlen(a->note);
+        destlen = destlen + (signed int)(return_value_strlen_1 + (unsigned long int)1);
       }
 
       if(!(a->description == ((char *)NULL)))
       {
-        return_value_strlen$2=strlen(a->description);
-        destlen = destlen + (signed int)(return_value_strlen$2 + (unsigned long int)1);
+        return_value_strlen_2=strlen(a->description);
+        destlen = destlen + (signed int)(return_value_strlen_2 + (unsigned long int)1);
       }
 
       pi_buffer_expect(buf, (unsigned long int)destlen);
@@ -15710,17 +15710,17 @@ extern signed int pack_Appointment(const struct Appointment *a, struct pi_buffer
 
       if(!(a->exceptions == 0))
       {
-        signed int pack_Appointment$$1$$4$$i;
+        signed int pack_Appointment__1__4__i;
         iflags = iflags | 8;
         ((unsigned char *)pos)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)a->exceptions >> 8 & 0xff);
         ((unsigned char *)pos)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)a->exceptions >> 0 & 0xff);
         pos = pos + (signed long int)2;
-        pack_Appointment$$1$$4$$i = 0;
-        for( ; !(pack_Appointment$$1$$4$$i >= a->exceptions); pos = pos + (signed long int)2)
+        pack_Appointment__1__4__i = 0;
+        for( ; !(pack_Appointment__1__4__i >= a->exceptions); pos = pos + (signed long int)2)
         {
-          ((unsigned char *)pos)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)((a->exception + (signed long int)pack_Appointment$$1$$4$$i)->tm_year - 4 << 9 | (a->exception + (signed long int)pack_Appointment$$1$$4$$i)->tm_mon + 1 << 5 | (a->exception + (signed long int)pack_Appointment$$1$$4$$i)->tm_mday) >> 8 & 0xff);
-          ((unsigned char *)pos)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)((a->exception + (signed long int)pack_Appointment$$1$$4$$i)->tm_year - 4 << 9 | (a->exception + (signed long int)pack_Appointment$$1$$4$$i)->tm_mon + 1 << 5 | (a->exception + (signed long int)pack_Appointment$$1$$4$$i)->tm_mday) >> 0 & 0xff);
-          pack_Appointment$$1$$4$$i = pack_Appointment$$1$$4$$i + 1;
+          ((unsigned char *)pos)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)((a->exception + (signed long int)pack_Appointment__1__4__i)->tm_year - 4 << 9 | (a->exception + (signed long int)pack_Appointment__1__4__i)->tm_mon + 1 << 5 | (a->exception + (signed long int)pack_Appointment__1__4__i)->tm_mday) >> 8 & 0xff);
+          ((unsigned char *)pos)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)((a->exception + (signed long int)pack_Appointment__1__4__i)->tm_year - 4 << 9 | (a->exception + (signed long int)pack_Appointment__1__4__i)->tm_mon + 1 << 5 | (a->exception + (signed long int)pack_Appointment__1__4__i)->tm_mday) >> 0 & 0xff);
+          pack_Appointment__1__4__i = pack_Appointment__1__4__i + 1;
         }
       }
 
@@ -15728,18 +15728,18 @@ extern signed int pack_Appointment(const struct Appointment *a, struct pi_buffer
       {
         iflags = iflags | 4;
         strcpy(pos, a->description);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(pos);
-        pos = pos + (signed long int)(return_value_strlen$3 + (unsigned long int)1);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(pos);
+        pos = pos + (signed long int)(return_value_strlen_3 + (unsigned long int)1);
       }
 
       if(!(a->note == ((char *)NULL)))
       {
         iflags = iflags | 16;
         strcpy(pos, a->note);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(pos);
-        pos = pos + (signed long int)(return_value_strlen$4 + (unsigned long int)1);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(pos);
+        pos = pos + (signed long int)(return_value_strlen_4 + (unsigned long int)1);
       }
 
       ((unsigned char *)(buf->data + (signed long int)6))[(signed long int)0] = (unsigned char)iflags;
@@ -15782,7 +15782,7 @@ extern signed int pack_AppointmentAppInfo(const struct AppointmentAppInfo *ai, u
 
 // pack_Blob
 // file blob.c line 149
-extern signed int pack_Blob(const struct anonymous$28 *blob, struct pi_buffer_t *buf)
+extern signed int pack_Blob(const struct anonymous_28 *blob, struct pi_buffer_t *buf)
 {
   unsigned long int offset = buf->used;
   pi_buffer_expect(buf, buf->used + (unsigned long int)6 + (unsigned long int)blob->length);
@@ -15811,9 +15811,9 @@ extern signed int pack_CalendarAppInfo(const struct CalendarAppInfo *ai, struct 
   {
     len = 300;
     pi_buffer_expect(buf, (unsigned long int)300);
-    signed int return_value_pack_CategoryAppInfo$1;
-    return_value_pack_CategoryAppInfo$1=pack_CategoryAppInfo(&ai->category, buf->data, buf->allocated);
-    buf->used = (unsigned long int)return_value_pack_CategoryAppInfo$1;
+    signed int return_value_pack_CategoryAppInfo_1;
+    return_value_pack_CategoryAppInfo_1=pack_CategoryAppInfo(&ai->category, buf->data, buf->allocated);
+    buf->used = (unsigned long int)return_value_pack_CategoryAppInfo_1;
     if(buf->used == 0ul)
       return 0;
 
@@ -15846,14 +15846,14 @@ extern signed int pack_CalendarAppInfo(const struct CalendarAppInfo *ai, struct 
 
 // pack_CalendarEvent
 // file calendar.c line 488
-extern signed int pack_CalendarEvent(const struct CalendarEvent *a, struct pi_buffer_t *buf, enum anonymous$29 type)
+extern signed int pack_CalendarEvent(const struct CalendarEvent *a, struct pi_buffer_t *buf, enum anonymous_29 type)
 {
   signed int iflags;
   signed int destlen = 8;
   char *pos;
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_3;
   if(!((signed int)type == calendar_v1))
     return -1;
 
@@ -15874,20 +15874,20 @@ extern signed int pack_CalendarEvent(const struct CalendarEvent *a, struct pi_bu
 
       if(!(a->note == ((char *)NULL)))
       {
-        return_value_strlen$1=strlen(a->note);
-        destlen = destlen + (signed int)(return_value_strlen$1 + (unsigned long int)1);
+        return_value_strlen_1=strlen(a->note);
+        destlen = destlen + (signed int)(return_value_strlen_1 + (unsigned long int)1);
       }
 
       if(!(a->description == ((char *)NULL)))
       {
-        return_value_strlen$2=strlen(a->description);
-        destlen = destlen + (signed int)(return_value_strlen$2 + (unsigned long int)1);
+        return_value_strlen_2=strlen(a->description);
+        destlen = destlen + (signed int)(return_value_strlen_2 + (unsigned long int)1);
       }
 
       if(!(a->location == ((char *)NULL)))
       {
-        return_value_strlen$3=strlen(a->location);
-        destlen = destlen + (signed int)(return_value_strlen$3 + (unsigned long int)1);
+        return_value_strlen_3=strlen(a->location);
+        destlen = destlen + (signed int)(return_value_strlen_3 + (unsigned long int)1);
       }
 
       pi_buffer_expect(buf, (unsigned long int)destlen);
@@ -15964,17 +15964,17 @@ extern signed int pack_CalendarEvent(const struct CalendarEvent *a, struct pi_bu
 
       if(!(a->exceptions == 0))
       {
-        signed int pack_CalendarEvent$$1$$4$$i;
+        signed int pack_CalendarEvent__1__4__i;
         iflags = iflags | 8;
         ((unsigned char *)pos)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)a->exceptions >> 8 & 0xff);
         ((unsigned char *)pos)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)a->exceptions >> 0 & 0xff);
         pos = pos + (signed long int)2;
-        pack_CalendarEvent$$1$$4$$i = 0;
-        for( ; !(pack_CalendarEvent$$1$$4$$i >= a->exceptions); pos = pos + (signed long int)2)
+        pack_CalendarEvent__1__4__i = 0;
+        for( ; !(pack_CalendarEvent__1__4__i >= a->exceptions); pos = pos + (signed long int)2)
         {
-          ((unsigned char *)pos)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)((a->exception + (signed long int)pack_CalendarEvent$$1$$4$$i)->tm_year - 4 << 9 | (a->exception + (signed long int)pack_CalendarEvent$$1$$4$$i)->tm_mon + 1 << 5 | (a->exception + (signed long int)pack_CalendarEvent$$1$$4$$i)->tm_mday) >> 8 & 0xff);
-          ((unsigned char *)pos)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)((a->exception + (signed long int)pack_CalendarEvent$$1$$4$$i)->tm_year - 4 << 9 | (a->exception + (signed long int)pack_CalendarEvent$$1$$4$$i)->tm_mon + 1 << 5 | (a->exception + (signed long int)pack_CalendarEvent$$1$$4$$i)->tm_mday) >> 0 & 0xff);
-          pack_CalendarEvent$$1$$4$$i = pack_CalendarEvent$$1$$4$$i + 1;
+          ((unsigned char *)pos)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)((a->exception + (signed long int)pack_CalendarEvent__1__4__i)->tm_year - 4 << 9 | (a->exception + (signed long int)pack_CalendarEvent__1__4__i)->tm_mon + 1 << 5 | (a->exception + (signed long int)pack_CalendarEvent__1__4__i)->tm_mday) >> 8 & 0xff);
+          ((unsigned char *)pos)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)((a->exception + (signed long int)pack_CalendarEvent__1__4__i)->tm_year - 4 << 9 | (a->exception + (signed long int)pack_CalendarEvent__1__4__i)->tm_mon + 1 << 5 | (a->exception + (signed long int)pack_CalendarEvent__1__4__i)->tm_mday) >> 0 & 0xff);
+          pack_CalendarEvent__1__4__i = pack_CalendarEvent__1__4__i + 1;
         }
       }
 
@@ -15982,34 +15982,34 @@ extern signed int pack_CalendarEvent(const struct CalendarEvent *a, struct pi_bu
       {
         iflags = iflags | 4;
         strcpy(pos, a->description);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(pos);
-        pos = pos + (signed long int)(return_value_strlen$4 + (unsigned long int)1);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(pos);
+        pos = pos + (signed long int)(return_value_strlen_4 + (unsigned long int)1);
       }
 
       if(!(a->note == ((char *)NULL)))
       {
         iflags = iflags | 16;
         strcpy(pos, a->note);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(pos);
-        pos = pos + (signed long int)(return_value_strlen$5 + (unsigned long int)1);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(pos);
+        pos = pos + (signed long int)(return_value_strlen_5 + (unsigned long int)1);
       }
 
       if(!(a->location == ((char *)NULL)))
       {
         iflags = iflags | 2;
         strcpy(pos, a->location);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(pos);
-        pos = pos + (signed long int)(return_value_strlen$6 + (unsigned long int)1);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(pos);
+        pos = pos + (signed long int)(return_value_strlen_6 + (unsigned long int)1);
       }
 
       ((unsigned char *)(buf->data + (signed long int)6))[(signed long int)0] = (unsigned char)iflags;
       ((unsigned char *)(buf->data + (signed long int)7))[(signed long int)0] = (unsigned char)0;
       unsigned char blob_index = (unsigned char)0;
       for( ; !((signed int)blob_index >= 10); blob_index = blob_index + 1)
-        if(!(a->blob[(signed long int)blob_index] == ((struct anonymous$28 *)NULL)))
+        if(!(a->blob[(signed long int)blob_index] == ((struct anonymous_28 *)NULL)))
           pack_Blob(a->blob[(signed long int)blob_index], buf);
 
       return 0;
@@ -16061,7 +16061,7 @@ extern signed int pack_CategoryAppInfo(const struct CategoryAppInfo *ai, unsigne
 
 // pack_Contact
 // file contact.c line 239
-extern signed int pack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum anonymous$7 type)
+extern signed int pack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum anonymous_7 type)
 {
   signed int l;
   signed int destlen = 17;
@@ -16075,10 +16075,10 @@ extern signed int pack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum 
   unsigned long int typesflag;
   unsigned short int packed_date;
   signed int companyOffset = 0;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$5;
-  unsigned long int return_value_strlen$6;
-  unsigned long int return_value_strlen$7;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_5;
+  unsigned long int return_value_strlen_6;
+  unsigned long int return_value_strlen_7;
   if(c == ((struct Contact *)NULL) || buf == ((struct pi_buffer_t *)NULL))
     return -1;
 
@@ -16092,9 +16092,9 @@ extern signed int pack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum 
       for( ; !(i >= 39); i = i + 1)
         if(!(c->entry[(signed long int)i] == ((char *)NULL)))
         {
-          unsigned long int return_value_strlen$1;
-          return_value_strlen$1=strlen(c->entry[(signed long int)i]);
-          destlen = destlen + (signed int)(return_value_strlen$1 + (unsigned long int)1);
+          unsigned long int return_value_strlen_1;
+          return_value_strlen_1=strlen(c->entry[(signed long int)i]);
+          destlen = destlen + (signed int)(return_value_strlen_1 + (unsigned long int)1);
         }
 
       if(!(c->birthdayFlag == 0))
@@ -16125,13 +16125,13 @@ extern signed int pack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum 
       {
         if(!(c->entry[(signed long int)field_i] == ((char *)NULL)))
         {
-          return_value_strlen$3=strlen(c->entry[(signed long int)field_i]);
-          if(!(return_value_strlen$3 == 0ul))
+          return_value_strlen_3=strlen(c->entry[(signed long int)field_i]);
+          if(!(return_value_strlen_3 == 0ul))
           {
             contents1 = contents1 | (unsigned long int)(1 << i);
-            unsigned long int return_value_strlen$2;
-            return_value_strlen$2=strlen(c->entry[(signed long int)field_i]);
-            l = (signed int)(return_value_strlen$2 + (unsigned long int)1);
+            unsigned long int return_value_strlen_2;
+            return_value_strlen_2=strlen(c->entry[(signed long int)field_i]);
+            l = (signed int)(return_value_strlen_2 + (unsigned long int)1);
             memcpy((void *)Pbuf, (const void *)c->entry[(signed long int)field_i], (unsigned long int)l);
             Pbuf = Pbuf + (signed long int)l;
           }
@@ -16145,13 +16145,13 @@ extern signed int pack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum 
       {
         if(!(c->entry[(signed long int)field_i] == ((char *)NULL)))
         {
-          return_value_strlen$5=strlen(c->entry[(signed long int)field_i]);
-          if(!(return_value_strlen$5 == 0ul))
+          return_value_strlen_5=strlen(c->entry[(signed long int)field_i]);
+          if(!(return_value_strlen_5 == 0ul))
           {
             contents2 = contents2 | (unsigned long int)(1 << i);
-            unsigned long int return_value_strlen$4;
-            return_value_strlen$4=strlen(c->entry[(signed long int)field_i]);
-            l = (signed int)(return_value_strlen$4 + (unsigned long int)1);
+            unsigned long int return_value_strlen_4;
+            return_value_strlen_4=strlen(c->entry[(signed long int)field_i]);
+            l = (signed int)(return_value_strlen_4 + (unsigned long int)1);
             memcpy((void *)Pbuf, (const void *)c->entry[(signed long int)field_i], (unsigned long int)l);
             Pbuf = Pbuf + (signed long int)l;
           }
@@ -16219,14 +16219,14 @@ extern signed int pack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum 
         companyOffset = companyOffset + 1;
         if(!(c->entry[0l] == ((char *)NULL)))
         {
-          return_value_strlen$6=strlen(c->entry[(signed long int)0]);
-          companyOffset = companyOffset + (signed int)(return_value_strlen$6 + (unsigned long int)1);
+          return_value_strlen_6=strlen(c->entry[(signed long int)0]);
+          companyOffset = companyOffset + (signed int)(return_value_strlen_6 + (unsigned long int)1);
         }
 
         if(!(c->entry[1l] == ((char *)NULL)))
         {
-          return_value_strlen$7=strlen(c->entry[(signed long int)1]);
-          companyOffset = companyOffset + (signed int)(return_value_strlen$7 + (unsigned long int)1);
+          return_value_strlen_7=strlen(c->entry[(signed long int)1]);
+          companyOffset = companyOffset + (signed int)(return_value_strlen_7 + (unsigned long int)1);
         }
 
       }
@@ -16255,26 +16255,26 @@ extern signed int pack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum 
 extern signed int pack_ContactAppInfo(struct ContactAppInfo *ai, struct pi_buffer_t *buf)
 {
   signed int destlen;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(buf == ((struct pi_buffer_t *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$4;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$6;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_4;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_6;
+  if(tmp_if_expr_1)
     return -1;
 
   else
   {
     destlen = 278 + 26 + 16 * ai->num_labels + 2 + 2;
     pi_buffer_expect(buf, (unsigned long int)destlen);
-    signed int return_value_pack_CategoryAppInfo$2;
-    return_value_pack_CategoryAppInfo$2=pack_CategoryAppInfo(&ai->category, buf->data, buf->allocated);
-    buf->used = (unsigned long int)return_value_pack_CategoryAppInfo$2;
+    signed int return_value_pack_CategoryAppInfo_2;
+    return_value_pack_CategoryAppInfo_2=pack_CategoryAppInfo(&ai->category, buf->data, buf->allocated);
+    buf->used = (unsigned long int)return_value_pack_CategoryAppInfo_2;
     if(!(buf->used == 278ul))
       return -1;
 
@@ -16282,18 +16282,18 @@ extern signed int pack_ContactAppInfo(struct ContactAppInfo *ai, struct pi_buffe
     {
       pi_buffer_append(buf, (const void *)ai->internal, (unsigned long int)26);
       pi_buffer_append(buf, (const void *)ai->labels, (unsigned long int)(16 * ai->num_labels));
-      tmp_post$3 = buf->used;
+      tmp_post_3 = buf->used;
       buf->used = buf->used + 1ul;
-      ((unsigned char *)(buf->data + (signed long int)tmp_post$3))[(signed long int)0] = (unsigned char)ai->country;
-      tmp_post$4 = buf->used;
+      ((unsigned char *)(buf->data + (signed long int)tmp_post_3))[(signed long int)0] = (unsigned char)ai->country;
+      tmp_post_4 = buf->used;
       buf->used = buf->used + 1ul;
-      ((unsigned char *)(buf->data + (signed long int)tmp_post$4))[(signed long int)0] = (unsigned char)0x00;
-      tmp_post$5 = buf->used;
+      ((unsigned char *)(buf->data + (signed long int)tmp_post_4))[(signed long int)0] = (unsigned char)0x00;
+      tmp_post_5 = buf->used;
       buf->used = buf->used + 1ul;
-      ((unsigned char *)(buf->data + (signed long int)tmp_post$5))[(signed long int)0] = (unsigned char)ai->sortByCompany;
-      tmp_post$6 = buf->used;
+      ((unsigned char *)(buf->data + (signed long int)tmp_post_5))[(signed long int)0] = (unsigned char)ai->sortByCompany;
+      tmp_post_6 = buf->used;
       buf->used = buf->used + 1ul;
-      ((unsigned char *)(buf->data + (signed long int)tmp_post$6))[(signed long int)0] = (unsigned char)0x00;
+      ((unsigned char *)(buf->data + (signed long int)tmp_post_6))[(signed long int)0] = (unsigned char)0x00;
       return (signed int)buf->used;
     }
   }
@@ -16301,10 +16301,10 @@ extern signed int pack_ContactAppInfo(struct ContactAppInfo *ai, struct pi_buffe
 
 // pack_DST
 // file location.c line 573
-extern signed int pack_DST(const struct anonymous$24 *dst, struct pi_buffer_t *buf)
+extern signed int pack_DST(const struct anonymous_24 *dst, struct pi_buffer_t *buf)
 {
   unsigned long int offset;
-  if(dst == ((const struct anonymous$24 *)NULL) || buf == ((struct pi_buffer_t *)NULL))
+  if(dst == ((const struct anonymous_24 *)NULL) || buf == ((struct pi_buffer_t *)NULL))
     return -1;
 
   else
@@ -16463,39 +16463,39 @@ extern signed int pack_Expense(struct Expense *expense, unsigned char *record, s
 {
   signed int destlen = 6 + 1 + 1 + 1 + 1 + 1;
   unsigned char *buf = record;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(expense->amount == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(expense->amount);
-    destlen = destlen + (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(expense->amount);
+    destlen = destlen + (signed int)return_value_strlen_1;
   }
 
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(!(expense->vendor == ((char *)NULL)))
   {
-    return_value_strlen$2=strlen(expense->vendor);
-    destlen = destlen + (signed int)return_value_strlen$2;
+    return_value_strlen_2=strlen(expense->vendor);
+    destlen = destlen + (signed int)return_value_strlen_2;
   }
 
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!(expense->city == ((char *)NULL)))
   {
-    return_value_strlen$3=strlen(expense->city);
-    destlen = destlen + (signed int)return_value_strlen$3;
+    return_value_strlen_3=strlen(expense->city);
+    destlen = destlen + (signed int)return_value_strlen_3;
   }
 
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_4;
   if(!(expense->attendees == ((char *)NULL)))
   {
-    return_value_strlen$4=strlen(expense->attendees);
-    destlen = destlen + (signed int)return_value_strlen$4;
+    return_value_strlen_4=strlen(expense->attendees);
+    destlen = destlen + (signed int)return_value_strlen_4;
   }
 
-  unsigned long int return_value_strlen$5;
+  unsigned long int return_value_strlen_5;
   if(!(expense->note == ((char *)NULL)))
   {
-    return_value_strlen$5=strlen(expense->note);
-    destlen = destlen + (signed int)return_value_strlen$5;
+    return_value_strlen_5=strlen(expense->note);
+    destlen = destlen + (signed int)return_value_strlen_5;
   }
 
   if(record == ((unsigned char *)NULL))
@@ -16518,9 +16518,9 @@ extern signed int pack_Expense(struct Expense *expense, unsigned char *record, s
       if(!(expense->amount == ((char *)NULL)))
       {
         strcpy((char *)buf, expense->amount);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen((char *)buf);
-        buf = buf + (signed long int)return_value_strlen$6;
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen((char *)buf);
+        buf = buf + (signed long int)return_value_strlen_6;
       }
 
       else
@@ -16529,9 +16529,9 @@ extern signed int pack_Expense(struct Expense *expense, unsigned char *record, s
       if(!(expense->vendor == ((char *)NULL)))
       {
         strcpy((char *)buf, expense->vendor);
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen((char *)buf);
-        buf = buf + (signed long int)return_value_strlen$7;
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen((char *)buf);
+        buf = buf + (signed long int)return_value_strlen_7;
       }
 
       else
@@ -16540,9 +16540,9 @@ extern signed int pack_Expense(struct Expense *expense, unsigned char *record, s
       if(!(expense->city == ((char *)NULL)))
       {
         strcpy((char *)buf, expense->city);
-        unsigned long int return_value_strlen$8;
-        return_value_strlen$8=strlen((char *)buf);
-        buf = buf + (signed long int)return_value_strlen$8;
+        unsigned long int return_value_strlen_8;
+        return_value_strlen_8=strlen((char *)buf);
+        buf = buf + (signed long int)return_value_strlen_8;
       }
 
       else
@@ -16551,9 +16551,9 @@ extern signed int pack_Expense(struct Expense *expense, unsigned char *record, s
       if(!(expense->attendees == ((char *)NULL)))
       {
         strcpy((char *)buf, expense->attendees);
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen((char *)buf);
-        buf = buf + (signed long int)return_value_strlen$9;
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen((char *)buf);
+        buf = buf + (signed long int)return_value_strlen_9;
       }
 
       else
@@ -16562,9 +16562,9 @@ extern signed int pack_Expense(struct Expense *expense, unsigned char *record, s
       if(!(expense->note == ((char *)NULL)))
       {
         strcpy((char *)buf, expense->note);
-        unsigned long int return_value_strlen$10;
-        return_value_strlen$10=strlen((char *)buf);
-        buf = buf + (signed long int)return_value_strlen$10;
+        unsigned long int return_value_strlen_10;
+        return_value_strlen_10=strlen((char *)buf);
+        buf = buf + (signed long int)return_value_strlen_10;
       }
 
       else
@@ -16664,7 +16664,7 @@ extern signed int pack_HiNoteAppInfo(struct HiNoteAppInfo *appinfo, unsigned cha
   signed int idx;
   unsigned char *start = record;
   i=pack_CategoryAppInfo(&appinfo->category, record, len);
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   if(i == 0)
     return 0;
 
@@ -16684,9 +16684,9 @@ extern signed int pack_HiNoteAppInfo(struct HiNoteAppInfo *appinfo, unsigned cha
         idx = 0;
         for( ; !(i >= 48); i = i + 1)
         {
-          tmp_post$1 = record;
+          tmp_post_1 = record;
           record = record + 1l;
-          *tmp_post$1 = appinfo->reserved[(signed long int)i];
+          *tmp_post_1 = appinfo->reserved[(signed long int)i];
         }
         return (signed int)(record - start);
       }
@@ -16698,11 +16698,11 @@ extern signed int pack_HiNoteAppInfo(struct HiNoteAppInfo *appinfo, unsigned cha
 extern signed int pack_HiNoteNote(struct HiNoteNote *hinote, unsigned char *buffer, signed int len)
 {
   signed int destlen = 3;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(hinote->text == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(hinote->text);
-    destlen = destlen + (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(hinote->text);
+    destlen = destlen + (signed int)return_value_strlen_1;
   }
 
   if(buffer == ((unsigned char *)NULL))
@@ -16727,10 +16727,10 @@ extern signed int pack_HiNoteNote(struct HiNoteNote *hinote, unsigned char *buff
 
 // pack_Location
 // file location.c line 748
-extern signed int pack_Location(const struct anonymous$27 *loc, struct pi_buffer_t *buf)
+extern signed int pack_Location(const struct anonymous_27 *loc, struct pi_buffer_t *buf)
 {
   unsigned long int offset;
-  if(loc == ((const struct anonymous$27 *)NULL) || buf == ((struct pi_buffer_t *)NULL))
+  if(loc == ((const struct anonymous_27 *)NULL) || buf == ((struct pi_buffer_t *)NULL))
     return -1;
 
   else
@@ -16780,12 +16780,12 @@ extern signed int pack_Location(const struct anonymous$27 *loc, struct pi_buffer
     if(!(loc->note == ((char *)NULL)))
     {
       offset = buf->used;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(loc->note);
-      pi_buffer_expect(buf, buf->used + return_value_strlen$1 + (unsigned long int)1);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(loc->note);
-      buf->used = buf->used + return_value_strlen$2 + (unsigned long int)1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(loc->note);
+      pi_buffer_expect(buf, buf->used + return_value_strlen_1 + (unsigned long int)1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(loc->note);
+      buf->used = buf->used + return_value_strlen_2 + (unsigned long int)1;
       strcpy((char *)(buf->data + (signed long int)offset), loc->note);
     }
 
@@ -16806,60 +16806,60 @@ extern signed int pack_Mail(struct Mail *mail, unsigned char *buffer, unsigned l
 {
   unsigned long int destlen = (unsigned long int)(6 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1);
   unsigned char *start = buffer;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(mail->subject == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(mail->subject);
-    destlen = destlen + return_value_strlen$1;
+    return_value_strlen_1=strlen(mail->subject);
+    destlen = destlen + return_value_strlen_1;
   }
 
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(!(mail->from == ((char *)NULL)))
   {
-    return_value_strlen$2=strlen(mail->from);
-    destlen = destlen + return_value_strlen$2;
+    return_value_strlen_2=strlen(mail->from);
+    destlen = destlen + return_value_strlen_2;
   }
 
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!(mail->to == ((char *)NULL)))
   {
-    return_value_strlen$3=strlen(mail->to);
-    destlen = destlen + return_value_strlen$3;
+    return_value_strlen_3=strlen(mail->to);
+    destlen = destlen + return_value_strlen_3;
   }
 
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_4;
   if(!(mail->cc == ((char *)NULL)))
   {
-    return_value_strlen$4=strlen(mail->cc);
-    destlen = destlen + return_value_strlen$4;
+    return_value_strlen_4=strlen(mail->cc);
+    destlen = destlen + return_value_strlen_4;
   }
 
-  unsigned long int return_value_strlen$5;
+  unsigned long int return_value_strlen_5;
   if(!(mail->bcc == ((char *)NULL)))
   {
-    return_value_strlen$5=strlen(mail->bcc);
-    destlen = destlen + return_value_strlen$5;
+    return_value_strlen_5=strlen(mail->bcc);
+    destlen = destlen + return_value_strlen_5;
   }
 
-  unsigned long int return_value_strlen$6;
+  unsigned long int return_value_strlen_6;
   if(!(mail->replyTo == ((char *)NULL)))
   {
-    return_value_strlen$6=strlen(mail->replyTo);
-    destlen = destlen + return_value_strlen$6;
+    return_value_strlen_6=strlen(mail->replyTo);
+    destlen = destlen + return_value_strlen_6;
   }
 
-  unsigned long int return_value_strlen$7;
+  unsigned long int return_value_strlen_7;
   if(!(mail->sentTo == ((char *)NULL)))
   {
-    return_value_strlen$7=strlen(mail->sentTo);
-    destlen = destlen + return_value_strlen$7;
+    return_value_strlen_7=strlen(mail->sentTo);
+    destlen = destlen + return_value_strlen_7;
   }
 
-  unsigned long int return_value_strlen$8;
+  unsigned long int return_value_strlen_8;
   if(!(mail->body == ((char *)NULL)))
   {
-    return_value_strlen$8=strlen(mail->body);
-    destlen = destlen + return_value_strlen$8;
+    return_value_strlen_8=strlen(mail->body);
+    destlen = destlen + return_value_strlen_8;
   }
 
   if(buffer == ((unsigned char *)NULL))
@@ -16889,9 +16889,9 @@ extern signed int pack_Mail(struct Mail *mail, unsigned char *buffer, unsigned l
       if(!(mail->subject == ((char *)NULL)))
       {
         strcpy((char *)buffer, mail->subject);
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen((char *)buffer);
-        buffer = buffer + (signed long int)return_value_strlen$9;
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen((char *)buffer);
+        buffer = buffer + (signed long int)return_value_strlen_9;
       }
 
       else
@@ -16900,9 +16900,9 @@ extern signed int pack_Mail(struct Mail *mail, unsigned char *buffer, unsigned l
       if(!(mail->from == ((char *)NULL)))
       {
         strcpy((char *)buffer, mail->from);
-        unsigned long int return_value_strlen$10;
-        return_value_strlen$10=strlen((char *)buffer);
-        buffer = buffer + (signed long int)return_value_strlen$10;
+        unsigned long int return_value_strlen_10;
+        return_value_strlen_10=strlen((char *)buffer);
+        buffer = buffer + (signed long int)return_value_strlen_10;
       }
 
       else
@@ -16911,9 +16911,9 @@ extern signed int pack_Mail(struct Mail *mail, unsigned char *buffer, unsigned l
       if(!(mail->to == ((char *)NULL)))
       {
         strcpy((char *)buffer, mail->to);
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen((char *)buffer);
-        buffer = buffer + (signed long int)return_value_strlen$11;
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen((char *)buffer);
+        buffer = buffer + (signed long int)return_value_strlen_11;
       }
 
       else
@@ -16922,9 +16922,9 @@ extern signed int pack_Mail(struct Mail *mail, unsigned char *buffer, unsigned l
       if(!(mail->cc == ((char *)NULL)))
       {
         strcpy((char *)buffer, mail->cc);
-        unsigned long int return_value_strlen$12;
-        return_value_strlen$12=strlen((char *)buffer);
-        buffer = buffer + (signed long int)return_value_strlen$12;
+        unsigned long int return_value_strlen_12;
+        return_value_strlen_12=strlen((char *)buffer);
+        buffer = buffer + (signed long int)return_value_strlen_12;
       }
 
       else
@@ -16933,9 +16933,9 @@ extern signed int pack_Mail(struct Mail *mail, unsigned char *buffer, unsigned l
       if(!(mail->bcc == ((char *)NULL)))
       {
         strcpy((char *)buffer, mail->bcc);
-        unsigned long int return_value_strlen$13;
-        return_value_strlen$13=strlen((char *)buffer);
-        buffer = buffer + (signed long int)return_value_strlen$13;
+        unsigned long int return_value_strlen_13;
+        return_value_strlen_13=strlen((char *)buffer);
+        buffer = buffer + (signed long int)return_value_strlen_13;
       }
 
       else
@@ -16944,9 +16944,9 @@ extern signed int pack_Mail(struct Mail *mail, unsigned char *buffer, unsigned l
       if(!(mail->replyTo == ((char *)NULL)))
       {
         strcpy((char *)buffer, mail->replyTo);
-        unsigned long int return_value_strlen$14;
-        return_value_strlen$14=strlen((char *)buffer);
-        buffer = buffer + (signed long int)return_value_strlen$14;
+        unsigned long int return_value_strlen_14;
+        return_value_strlen_14=strlen((char *)buffer);
+        buffer = buffer + (signed long int)return_value_strlen_14;
       }
 
       else
@@ -16955,9 +16955,9 @@ extern signed int pack_Mail(struct Mail *mail, unsigned char *buffer, unsigned l
       if(!(mail->sentTo == ((char *)NULL)))
       {
         strcpy((char *)buffer, mail->sentTo);
-        unsigned long int return_value_strlen$15;
-        return_value_strlen$15=strlen((char *)buffer);
-        buffer = buffer + (signed long int)return_value_strlen$15;
+        unsigned long int return_value_strlen_15;
+        return_value_strlen_15=strlen((char *)buffer);
+        buffer = buffer + (signed long int)return_value_strlen_15;
       }
 
       else
@@ -16966,9 +16966,9 @@ extern signed int pack_Mail(struct Mail *mail, unsigned char *buffer, unsigned l
       if(!(mail->body == ((char *)NULL)))
       {
         strcpy((char *)buffer, mail->body);
-        unsigned long int return_value_strlen$16;
-        return_value_strlen$16=strlen((char *)buffer);
-        buffer = buffer + (signed long int)return_value_strlen$16;
+        unsigned long int return_value_strlen_16;
+        return_value_strlen_16=strlen((char *)buffer);
+        buffer = buffer + (signed long int)return_value_strlen_16;
       }
 
       else
@@ -17029,11 +17029,11 @@ extern signed int pack_MailSignaturePref(struct MailSignaturePref *pref, unsigne
 {
   unsigned long int destlen = (unsigned long int)1;
   unsigned char *start = record;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(pref->signature == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(pref->signature);
-    destlen = destlen + return_value_strlen$1;
+    return_value_strlen_1=strlen(pref->signature);
+    destlen = destlen + return_value_strlen_1;
   }
 
   if(record == ((unsigned char *)NULL))
@@ -17048,9 +17048,9 @@ extern signed int pack_MailSignaturePref(struct MailSignaturePref *pref, unsigne
       if(!(pref->signature == ((char *)NULL)))
       {
         strcpy((char *)record, pref->signature);
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(pref->signature);
-        record = record + (signed long int)return_value_strlen$2;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(pref->signature);
+        record = record + (signed long int)return_value_strlen_2;
       }
 
       *record = (unsigned char)0;
@@ -17065,30 +17065,30 @@ extern signed int pack_MailSyncPref(struct MailSyncPref *pref, unsigned char *re
 {
   unsigned long int destlen = (unsigned long int)(6 + 1 + 1 + 1);
   unsigned char *start = record;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(pref->filterTo == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(pref->filterTo);
-    destlen = destlen + return_value_strlen$1;
+    return_value_strlen_1=strlen(pref->filterTo);
+    destlen = destlen + return_value_strlen_1;
   }
 
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(!(pref->filterSubject == ((char *)NULL)))
   {
-    return_value_strlen$2=strlen(pref->filterSubject);
-    destlen = destlen + return_value_strlen$2;
+    return_value_strlen_2=strlen(pref->filterSubject);
+    destlen = destlen + return_value_strlen_2;
   }
 
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!(pref->filterFrom == ((char *)NULL)))
   {
-    return_value_strlen$3=strlen(pref->filterFrom);
-    destlen = destlen + return_value_strlen$3;
+    return_value_strlen_3=strlen(pref->filterFrom);
+    destlen = destlen + return_value_strlen_3;
   }
 
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$9;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_9;
   if(record == ((unsigned char *)NULL))
     return (signed int)destlen;
 
@@ -17112,56 +17112,56 @@ extern signed int pack_MailSyncPref(struct MailSyncPref *pref, unsigned char *re
       if(!(pref->filterTo == ((char *)NULL)))
       {
         strcpy((char *)record, pref->filterTo);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(pref->filterTo);
-        record = record + (signed long int)return_value_strlen$4;
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(pref->filterTo);
+        record = record + (signed long int)return_value_strlen_4;
       }
 
-      tmp_post$5 = record;
+      tmp_post_5 = record;
       record = record + 1l;
-      *tmp_post$5 = (unsigned char)0;
+      *tmp_post_5 = (unsigned char)0;
       if(!(pref->filterFrom == ((char *)NULL)))
       {
         strcpy((char *)record, pref->filterFrom);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(pref->filterFrom);
-        record = record + (signed long int)return_value_strlen$6;
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(pref->filterFrom);
+        record = record + (signed long int)return_value_strlen_6;
       }
 
-      tmp_post$7 = record;
+      tmp_post_7 = record;
       record = record + 1l;
-      *tmp_post$7 = (unsigned char)0;
+      *tmp_post_7 = (unsigned char)0;
       if(!(pref->filterSubject == ((char *)NULL)))
       {
         strcpy((char *)record, pref->filterSubject);
-        unsigned long int return_value_strlen$8;
-        return_value_strlen$8=strlen(pref->filterSubject);
-        record = record + (signed long int)return_value_strlen$8;
+        unsigned long int return_value_strlen_8;
+        return_value_strlen_8=strlen(pref->filterSubject);
+        record = record + (signed long int)return_value_strlen_8;
       }
 
-      tmp_post$9 = record;
+      tmp_post_9 = record;
       record = record + 1l;
-      *tmp_post$9 = (unsigned char)0;
+      *tmp_post_9 = (unsigned char)0;
       return (signed int)(record - start);
     }
 }
 
 // pack_Memo
 // file memo.c line 87
-extern signed int pack_Memo(const struct Memo *memo, struct pi_buffer_t *record, enum anonymous$30 type)
+extern signed int pack_Memo(const struct Memo *memo, struct pi_buffer_t *record, enum anonymous_30 type)
 {
   unsigned long int destlen;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(memo->text == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(memo->text);
-    tmp_if_expr$2 = return_value_strlen$1;
+    return_value_strlen_1=strlen(memo->text);
+    tmp_if_expr_2 = return_value_strlen_1;
   }
 
   else
-    tmp_if_expr$2 = (unsigned long int)0;
-  destlen = tmp_if_expr$2 + (unsigned long int)1;
+    tmp_if_expr_2 = (unsigned long int)0;
+  destlen = tmp_if_expr_2 + (unsigned long int)1;
   if(!((signed int)type == memo_v1))
     return -1;
 
@@ -17300,10 +17300,10 @@ signed int pack_NotePadAppInfo(struct NotePadAppInfo *appinfo, unsigned char *re
 
 // pack_Timezone
 // file location.c line 695
-extern signed int pack_Timezone(const struct anonymous$25 *tz, struct pi_buffer_t *buf)
+extern signed int pack_Timezone(const struct anonymous_25 *tz, struct pi_buffer_t *buf)
 {
   unsigned long int offset;
-  if(tz == ((const struct anonymous$25 *)NULL) || buf == ((struct pi_buffer_t *)NULL))
+  if(tz == ((const struct anonymous_25 *)NULL) || buf == ((struct pi_buffer_t *)NULL))
     return -1;
 
   else
@@ -17328,12 +17328,12 @@ extern signed int pack_Timezone(const struct anonymous$25 *tz, struct pi_buffer_
     if(!(tz->name == ((char *)NULL)))
     {
       offset = buf->used;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(tz->name);
-      pi_buffer_expect(buf, buf->used + return_value_strlen$1 + (unsigned long int)1);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(tz->name);
-      buf->used = buf->used + return_value_strlen$2 + (unsigned long int)1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(tz->name);
+      pi_buffer_expect(buf, buf->used + return_value_strlen_1 + (unsigned long int)1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(tz->name);
+      buf->used = buf->used + return_value_strlen_2 + (unsigned long int)1;
       strcpy((char *)(buf->data + (signed long int)offset), tz->name);
     }
 
@@ -17343,14 +17343,14 @@ extern signed int pack_Timezone(const struct anonymous$25 *tz, struct pi_buffer_
 
 // pack_ToDo
 // file todo.c line 166
-extern signed int pack_ToDo(const struct ToDo *todo, struct pi_buffer_t *buf, enum anonymous$13 type)
+extern signed int pack_ToDo(const struct ToDo *todo, struct pi_buffer_t *buf, enum anonymous_13 type)
 {
   signed int pos;
   unsigned long int destlen = (unsigned long int)3;
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  signed int tmp_post$4;
-  signed int tmp_post$6;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  signed int tmp_post_4;
+  signed int tmp_post_6;
   if(todo == ((const struct ToDo *)NULL) || buf == ((struct pi_buffer_t *)NULL))
     return -1;
 
@@ -17362,15 +17362,15 @@ extern signed int pack_ToDo(const struct ToDo *todo, struct pi_buffer_t *buf, en
     {
       if(!(todo->description == ((char *)NULL)))
       {
-        return_value_strlen$1=strlen(todo->description);
-        destlen = destlen + return_value_strlen$1;
+        return_value_strlen_1=strlen(todo->description);
+        destlen = destlen + return_value_strlen_1;
       }
 
       destlen = destlen + 1ul;
       if(!(todo->note == ((char *)NULL)))
       {
-        return_value_strlen$2=strlen(todo->note);
-        destlen = destlen + return_value_strlen$2;
+        return_value_strlen_2=strlen(todo->note);
+        destlen = destlen + return_value_strlen_2;
       }
 
       destlen = destlen + 1ul;
@@ -17395,30 +17395,30 @@ extern signed int pack_ToDo(const struct ToDo *todo, struct pi_buffer_t *buf, en
       if(!(todo->description == ((char *)NULL)))
       {
         strcpy((char *)buf->data + (signed long int)pos, todo->description);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(todo->description);
-        pos = pos + (signed int)(return_value_strlen$3 + (unsigned long int)1);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(todo->description);
+        pos = pos + (signed int)(return_value_strlen_3 + (unsigned long int)1);
       }
 
       else
       {
-        tmp_post$4 = pos;
+        tmp_post_4 = pos;
         pos = pos + 1;
-        buf->data[(signed long int)tmp_post$4] = (unsigned char)0;
+        buf->data[(signed long int)tmp_post_4] = (unsigned char)0;
       }
       if(!(todo->note == ((char *)NULL)))
       {
         strcpy((char *)buf->data + (signed long int)pos, todo->note);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(todo->note);
-        pos = pos + (signed int)(return_value_strlen$5 + (unsigned long int)1);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(todo->note);
+        pos = pos + (signed int)(return_value_strlen_5 + (unsigned long int)1);
       }
 
       else
       {
-        tmp_post$6 = pos;
+        tmp_post_6 = pos;
         pos = pos + 1;
-        buf->data[(signed long int)tmp_post$6] = (unsigned char)0;
+        buf->data[(signed long int)tmp_post_6] = (unsigned char)0;
       }
       return 0;
     }
@@ -17462,36 +17462,36 @@ extern signed int pack_ToDoAppInfo(const struct ToDoAppInfo *appinfo, unsigned c
 extern signed int pack_Transaction(struct Transaction *trans, unsigned char *buffer, unsigned long int len)
 {
   unsigned long int destlen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(trans->note);
-  destlen = (unsigned long int)46 + return_value_strlen$1 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(trans->note);
+  destlen = (unsigned long int)46 + return_value_strlen_1 + (unsigned long int)1;
   unsigned char *p;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int tmp_if_expr$3;
-  unsigned long int tmp_if_expr$4;
-  unsigned long int tmp_if_expr$5;
-  unsigned long int tmp_if_expr$6;
-  unsigned long int tmp_if_expr$7;
-  unsigned long int tmp_if_expr$8;
-  unsigned long int tmp_if_expr$9;
-  signed int tmp_if_expr$10;
-  signed int tmp_if_expr$11;
-  signed int tmp_if_expr$12;
-  signed int tmp_if_expr$13;
-  signed int tmp_if_expr$14;
-  signed int tmp_if_expr$15;
-  signed int tmp_if_expr$16;
-  signed int tmp_if_expr$17;
-  signed int tmp_if_expr$18;
-  signed int tmp_if_expr$19;
-  signed int tmp_if_expr$20;
-  signed int tmp_if_expr$21;
-  signed int tmp_if_expr$22;
-  signed int tmp_if_expr$23;
-  signed int tmp_if_expr$24;
-  signed int tmp_if_expr$25;
-  signed int tmp_if_expr$26;
-  signed int tmp_if_expr$27;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int tmp_if_expr_3;
+  unsigned long int tmp_if_expr_4;
+  unsigned long int tmp_if_expr_5;
+  unsigned long int tmp_if_expr_6;
+  unsigned long int tmp_if_expr_7;
+  unsigned long int tmp_if_expr_8;
+  unsigned long int tmp_if_expr_9;
+  signed int tmp_if_expr_10;
+  signed int tmp_if_expr_11;
+  signed int tmp_if_expr_12;
+  signed int tmp_if_expr_13;
+  signed int tmp_if_expr_14;
+  signed int tmp_if_expr_15;
+  signed int tmp_if_expr_16;
+  signed int tmp_if_expr_17;
+  signed int tmp_if_expr_18;
+  signed int tmp_if_expr_19;
+  signed int tmp_if_expr_20;
+  signed int tmp_if_expr_21;
+  signed int tmp_if_expr_22;
+  signed int tmp_if_expr_23;
+  signed int tmp_if_expr_24;
+  signed int tmp_if_expr_25;
+  signed int tmp_if_expr_26;
+  signed int tmp_if_expr_27;
   if(buffer == ((unsigned char *)NULL))
     return (signed int)destlen;
 
@@ -17510,171 +17510,171 @@ extern signed int pack_Transaction(struct Transaction *trans, unsigned char *buf
       ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)trans->checknum >> 0 & 0xff);
       p = p + (signed long int)2;
       if(!(trans->amount >= 0l))
-        tmp_if_expr$2 = (unsigned long int)((signed long int)trans->amount + (signed long int)0x80000000) | (unsigned long int)0x80000000;
+        tmp_if_expr_2 = (unsigned long int)((signed long int)trans->amount + (signed long int)0x80000000) | (unsigned long int)0x80000000;
 
       else
-        tmp_if_expr$2 = (unsigned long int)trans->amount;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)tmp_if_expr$2 >> 24) & 0xff);
+        tmp_if_expr_2 = (unsigned long int)trans->amount;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)tmp_if_expr_2 >> 24) & 0xff);
       if(!(trans->amount >= 0l))
-        tmp_if_expr$3 = (unsigned long int)((signed long int)trans->amount + (signed long int)0x80000000) | (unsigned long int)0x80000000;
+        tmp_if_expr_3 = (unsigned long int)((signed long int)trans->amount + (signed long int)0x80000000) | (unsigned long int)0x80000000;
 
       else
-        tmp_if_expr$3 = (unsigned long int)trans->amount;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((unsigned long int)tmp_if_expr$3 >> 16 & (unsigned long int)0xff);
+        tmp_if_expr_3 = (unsigned long int)trans->amount;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((unsigned long int)tmp_if_expr_3 >> 16 & (unsigned long int)0xff);
       if(!(trans->amount >= 0l))
-        tmp_if_expr$4 = (unsigned long int)((signed long int)trans->amount + (signed long int)0x80000000) | (unsigned long int)0x80000000;
+        tmp_if_expr_4 = (unsigned long int)((signed long int)trans->amount + (signed long int)0x80000000) | (unsigned long int)0x80000000;
 
       else
-        tmp_if_expr$4 = (unsigned long int)trans->amount;
-      ((unsigned char *)p)[(signed long int)2] = (unsigned char)((unsigned long int)tmp_if_expr$4 >> 8 & (unsigned long int)0xff);
+        tmp_if_expr_4 = (unsigned long int)trans->amount;
+      ((unsigned char *)p)[(signed long int)2] = (unsigned char)((unsigned long int)tmp_if_expr_4 >> 8 & (unsigned long int)0xff);
       if(!(trans->amount >= 0l))
-        tmp_if_expr$5 = (unsigned long int)((signed long int)trans->amount + (signed long int)0x80000000) | (unsigned long int)0x80000000;
+        tmp_if_expr_5 = (unsigned long int)((signed long int)trans->amount + (signed long int)0x80000000) | (unsigned long int)0x80000000;
 
       else
-        tmp_if_expr$5 = (unsigned long int)trans->amount;
-      ((unsigned char *)p)[(signed long int)3] = (unsigned char)((unsigned long int)tmp_if_expr$5 >> 0 & (unsigned long int)0xff);
+        tmp_if_expr_5 = (unsigned long int)trans->amount;
+      ((unsigned char *)p)[(signed long int)3] = (unsigned char)((unsigned long int)tmp_if_expr_5 >> 0 & (unsigned long int)0xff);
       p = p + (signed long int)4;
       if(!(trans->total >= 0l))
-        tmp_if_expr$6 = (unsigned long int)((signed long int)trans->total + (signed long int)0x80000000) | (unsigned long int)0x80000000;
+        tmp_if_expr_6 = (unsigned long int)((signed long int)trans->total + (signed long int)0x80000000) | (unsigned long int)0x80000000;
 
       else
-        tmp_if_expr$6 = (unsigned long int)trans->total;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)tmp_if_expr$6 >> 24) & 0xff);
+        tmp_if_expr_6 = (unsigned long int)trans->total;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)tmp_if_expr_6 >> 24) & 0xff);
       if(!(trans->total >= 0l))
-        tmp_if_expr$7 = (unsigned long int)((signed long int)trans->total + (signed long int)0x80000000) | (unsigned long int)0x80000000;
+        tmp_if_expr_7 = (unsigned long int)((signed long int)trans->total + (signed long int)0x80000000) | (unsigned long int)0x80000000;
 
       else
-        tmp_if_expr$7 = (unsigned long int)trans->total;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((unsigned long int)tmp_if_expr$7 >> 16 & (unsigned long int)0xff);
+        tmp_if_expr_7 = (unsigned long int)trans->total;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((unsigned long int)tmp_if_expr_7 >> 16 & (unsigned long int)0xff);
       if(!(trans->total >= 0l))
-        tmp_if_expr$8 = (unsigned long int)((signed long int)trans->total + (signed long int)0x80000000) | (unsigned long int)0x80000000;
+        tmp_if_expr_8 = (unsigned long int)((signed long int)trans->total + (signed long int)0x80000000) | (unsigned long int)0x80000000;
 
       else
-        tmp_if_expr$8 = (unsigned long int)trans->total;
-      ((unsigned char *)p)[(signed long int)2] = (unsigned char)((unsigned long int)tmp_if_expr$8 >> 8 & (unsigned long int)0xff);
+        tmp_if_expr_8 = (unsigned long int)trans->total;
+      ((unsigned char *)p)[(signed long int)2] = (unsigned char)((unsigned long int)tmp_if_expr_8 >> 8 & (unsigned long int)0xff);
       if(!(trans->total >= 0l))
-        tmp_if_expr$9 = (unsigned long int)((signed long int)trans->total + (signed long int)0x80000000) | (unsigned long int)0x80000000;
+        tmp_if_expr_9 = (unsigned long int)((signed long int)trans->total + (signed long int)0x80000000) | (unsigned long int)0x80000000;
 
       else
-        tmp_if_expr$9 = (unsigned long int)trans->total;
-      ((unsigned char *)p)[(signed long int)3] = (unsigned char)((unsigned long int)tmp_if_expr$9 >> 0 & (unsigned long int)0xff);
+        tmp_if_expr_9 = (unsigned long int)trans->total;
+      ((unsigned char *)p)[(signed long int)3] = (unsigned char)((unsigned long int)tmp_if_expr_9 >> 0 & (unsigned long int)0xff);
       p = p + (signed long int)4;
       if(!((signed int)(signed short int)trans->amountc >= 0))
-        tmp_if_expr$10 = (signed int)(unsigned short int)((signed int)(signed short int)trans->amountc + 0x8000) | 0x8000;
+        tmp_if_expr_10 = (signed int)(unsigned short int)((signed int)(signed short int)trans->amountc + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$10 = trans->amountc;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$10 >> 8 & 0xff);
+        tmp_if_expr_10 = trans->amountc;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_10 >> 8 & 0xff);
       if(!((signed int)(signed short int)trans->amountc >= 0))
-        tmp_if_expr$11 = (signed int)(unsigned short int)((signed int)(signed short int)trans->amountc + 0x8000) | 0x8000;
+        tmp_if_expr_11 = (signed int)(unsigned short int)((signed int)(signed short int)trans->amountc + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$11 = trans->amountc;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$11 >> 0 & 0xff);
+        tmp_if_expr_11 = trans->amountc;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_11 >> 0 & 0xff);
       p = p + (signed long int)2;
       if(!((signed int)(signed short int)trans->totalc >= 0))
-        tmp_if_expr$12 = (signed int)(unsigned short int)((signed int)(signed short int)trans->totalc + 0x8000) | 0x8000;
+        tmp_if_expr_12 = (signed int)(unsigned short int)((signed int)(signed short int)trans->totalc + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$12 = trans->totalc;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$12 >> 8 & 0xff);
+        tmp_if_expr_12 = trans->totalc;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_12 >> 8 & 0xff);
       if(!((signed int)(signed short int)trans->totalc >= 0))
-        tmp_if_expr$13 = (signed int)(unsigned short int)((signed int)(signed short int)trans->totalc + 0x8000) | 0x8000;
+        tmp_if_expr_13 = (signed int)(unsigned short int)((signed int)(signed short int)trans->totalc + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$13 = trans->totalc;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$13 >> 0 & 0xff);
+        tmp_if_expr_13 = trans->totalc;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_13 >> 0 & 0xff);
       p = p + (signed long int)2;
       if(!((signed int)(signed short int)trans->second >= 0))
-        tmp_if_expr$14 = (signed int)(unsigned short int)((signed int)(signed short int)trans->second + 0x8000) | 0x8000;
+        tmp_if_expr_14 = (signed int)(unsigned short int)((signed int)(signed short int)trans->second + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$14 = trans->second;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$14 >> 8 & 0xff);
+        tmp_if_expr_14 = trans->second;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_14 >> 8 & 0xff);
       if(!((signed int)(signed short int)trans->second >= 0))
-        tmp_if_expr$15 = (signed int)(unsigned short int)((signed int)(signed short int)trans->second + 0x8000) | 0x8000;
+        tmp_if_expr_15 = (signed int)(unsigned short int)((signed int)(signed short int)trans->second + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$15 = trans->second;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$15 >> 0 & 0xff);
+        tmp_if_expr_15 = trans->second;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_15 >> 0 & 0xff);
       p = p + (signed long int)2;
       if(!((signed int)(signed short int)trans->minute >= 0))
-        tmp_if_expr$16 = (signed int)(unsigned short int)((signed int)(signed short int)trans->minute + 0x8000) | 0x8000;
+        tmp_if_expr_16 = (signed int)(unsigned short int)((signed int)(signed short int)trans->minute + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$16 = trans->minute;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$16 >> 8 & 0xff);
+        tmp_if_expr_16 = trans->minute;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_16 >> 8 & 0xff);
       if(!((signed int)(signed short int)trans->minute >= 0))
-        tmp_if_expr$17 = (signed int)(unsigned short int)((signed int)(signed short int)trans->minute + 0x8000) | 0x8000;
+        tmp_if_expr_17 = (signed int)(unsigned short int)((signed int)(signed short int)trans->minute + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$17 = trans->minute;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$17 >> 0 & 0xff);
+        tmp_if_expr_17 = trans->minute;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_17 >> 0 & 0xff);
       p = p + (signed long int)2;
       if(!((signed int)(signed short int)trans->hour >= 0))
-        tmp_if_expr$18 = (signed int)(unsigned short int)((signed int)(signed short int)trans->hour + 0x8000) | 0x8000;
+        tmp_if_expr_18 = (signed int)(unsigned short int)((signed int)(signed short int)trans->hour + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$18 = trans->hour;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$18 >> 8 & 0xff);
+        tmp_if_expr_18 = trans->hour;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_18 >> 8 & 0xff);
       if(!((signed int)(signed short int)trans->hour >= 0))
-        tmp_if_expr$19 = (signed int)(unsigned short int)((signed int)(signed short int)trans->hour + 0x8000) | 0x8000;
+        tmp_if_expr_19 = (signed int)(unsigned short int)((signed int)(signed short int)trans->hour + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$19 = trans->hour;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$19 >> 0 & 0xff);
+        tmp_if_expr_19 = trans->hour;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_19 >> 0 & 0xff);
       p = p + (signed long int)2;
       if(!((signed int)(signed short int)trans->day >= 0))
-        tmp_if_expr$20 = (signed int)(unsigned short int)((signed int)(signed short int)trans->day + 0x8000) | 0x8000;
+        tmp_if_expr_20 = (signed int)(unsigned short int)((signed int)(signed short int)trans->day + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$20 = trans->day;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$20 >> 8 & 0xff);
+        tmp_if_expr_20 = trans->day;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_20 >> 8 & 0xff);
       if(!((signed int)(signed short int)trans->day >= 0))
-        tmp_if_expr$21 = (signed int)(unsigned short int)((signed int)(signed short int)trans->day + 0x8000) | 0x8000;
+        tmp_if_expr_21 = (signed int)(unsigned short int)((signed int)(signed short int)trans->day + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$21 = trans->day;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$21 >> 0 & 0xff);
+        tmp_if_expr_21 = trans->day;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_21 >> 0 & 0xff);
       p = p + (signed long int)2;
       if(!((signed int)(signed short int)trans->month >= 0))
-        tmp_if_expr$22 = (signed int)(unsigned short int)((signed int)(signed short int)trans->month + 0x8000) | 0x8000;
+        tmp_if_expr_22 = (signed int)(unsigned short int)((signed int)(signed short int)trans->month + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$22 = trans->month;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$22 >> 8 & 0xff);
+        tmp_if_expr_22 = trans->month;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_22 >> 8 & 0xff);
       if(!((signed int)(signed short int)trans->month >= 0))
-        tmp_if_expr$23 = (signed int)(unsigned short int)((signed int)(signed short int)trans->month + 0x8000) | 0x8000;
+        tmp_if_expr_23 = (signed int)(unsigned short int)((signed int)(signed short int)trans->month + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$23 = trans->month;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$23 >> 0 & 0xff);
+        tmp_if_expr_23 = trans->month;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_23 >> 0 & 0xff);
       p = p + (signed long int)2;
       if(!((signed int)(signed short int)trans->year >= 0))
-        tmp_if_expr$24 = (signed int)(unsigned short int)((signed int)(signed short int)trans->year + 0x8000) | 0x8000;
+        tmp_if_expr_24 = (signed int)(unsigned short int)((signed int)(signed short int)trans->year + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$24 = trans->year;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$24 >> 8 & 0xff);
+        tmp_if_expr_24 = trans->year;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_24 >> 8 & 0xff);
       if(!((signed int)(signed short int)trans->year >= 0))
-        tmp_if_expr$25 = (signed int)(unsigned short int)((signed int)(signed short int)trans->year + 0x8000) | 0x8000;
+        tmp_if_expr_25 = (signed int)(unsigned short int)((signed int)(signed short int)trans->year + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$25 = trans->year;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$25 >> 0 & 0xff);
+        tmp_if_expr_25 = trans->year;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_25 >> 0 & 0xff);
       p = p + (signed long int)2;
       if(!((signed int)(signed short int)trans->wday >= 0))
-        tmp_if_expr$26 = (signed int)(unsigned short int)((signed int)(signed short int)trans->wday + 0x8000) | 0x8000;
+        tmp_if_expr_26 = (signed int)(unsigned short int)((signed int)(signed short int)trans->wday + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$26 = trans->wday;
-      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$26 >> 8 & 0xff);
+        tmp_if_expr_26 = trans->wday;
+      ((unsigned char *)p)[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_26 >> 8 & 0xff);
       if(!((signed int)(signed short int)trans->wday >= 0))
-        tmp_if_expr$27 = (signed int)(unsigned short int)((signed int)(signed short int)trans->wday + 0x8000) | 0x8000;
+        tmp_if_expr_27 = (signed int)(unsigned short int)((signed int)(signed short int)trans->wday + 0x8000) | 0x8000;
 
       else
-        tmp_if_expr$27 = trans->wday;
-      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr$27 >> 0 & 0xff);
+        tmp_if_expr_27 = trans->wday;
+      ((unsigned char *)p)[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)tmp_if_expr_27 >> 0 & 0xff);
       p = p + (signed long int)2;
       ((unsigned char *)p)[(signed long int)0] = (unsigned char)trans->repeat;
       p = p + (signed long int)1;
@@ -17690,9 +17690,9 @@ extern signed int pack_Transaction(struct Transaction *trans, unsigned char *buf
       strcpy((char *)p, trans->description);
       p = p + (signed long int)19;
       strcpy((char *)p, trans->note);
-      unsigned long int return_value_strlen$28;
-      return_value_strlen$28=strlen((char *)p);
-      p = p + (signed long int)(return_value_strlen$28 + (unsigned long int)1);
+      unsigned long int return_value_strlen_28;
+      return_value_strlen_28=strlen((char *)p);
+      p = p + (signed long int)(return_value_strlen_28 + (unsigned long int)1);
       return (signed int)(p - buffer);
     }
 }
@@ -17747,86 +17747,86 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
   destlen = (unsigned int)(4 + 4 + 2 + 2 + 2 + 2 + 2 + 2 + 4) + a->unknown3length;
   if(!(a->messageUID == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(a->messageUID);
-    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(a->messageUID);
+    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen_1);
   }
 
   else
     destlen = destlen + 1u;
   if(!(a->to == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(a->to);
-    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(a->to);
+    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen_2);
   }
 
   else
     destlen = destlen + 1u;
   if(!(a->from == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(a->from);
-    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen$3);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(a->from);
+    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen_3);
   }
 
   else
     destlen = destlen + 1u;
   if(!(a->cc == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(a->cc);
-    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen$4);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(a->cc);
+    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen_4);
   }
 
   else
     destlen = destlen + 1u;
   if(!(a->bcc == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(a->bcc);
-    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen$5);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(a->bcc);
+    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen_5);
   }
 
   else
     destlen = destlen + 1u;
   if(!(a->subject == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(a->subject);
-    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen$6);
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(a->subject);
+    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen_6);
   }
 
   else
     destlen = destlen + 1u;
   if(!(a->dateString == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(a->dateString);
-    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen$7);
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(a->dateString);
+    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen_7);
   }
 
   else
     destlen = destlen + 1u;
   if(!(a->body == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(a->body);
-    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen$8);
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(a->body);
+    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen_8);
   }
 
   else
     destlen = destlen + 1u;
   if(!(a->replyTo == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen(a->replyTo);
-    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen$9);
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen(a->replyTo);
+    destlen = destlen + (unsigned int)((unsigned long int)1 + return_value_strlen_9);
   }
 
   else
     destlen = destlen + 1u;
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_10;
   if(buffer == ((char *)NULL))
     return (signed int)destlen;
 
@@ -17874,11 +17874,11 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
       buffer = buffer + (signed long int)2;
       ((unsigned char *)buffer)[(signed long int)0] = (unsigned char)a->reserved1;
       if(!(a->reserved2 << 1 == 0u))
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = a->read != 0u ? (_Bool)1 : (_Bool)0;
-      ((unsigned char *)(buffer + (signed long int)1))[(signed long int)0] = (unsigned char)tmp_if_expr$10;
+        tmp_if_expr_10 = a->read != 0u ? (_Bool)1 : (_Bool)0;
+      ((unsigned char *)(buffer + (signed long int)1))[(signed long int)0] = (unsigned char)tmp_if_expr_10;
       len = len - (unsigned long int)2;
       buffer = buffer + (signed long int)2;
       ((unsigned char *)buffer)[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)a->msgSize >> 24) & 0xff);
@@ -17890,12 +17890,12 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
       if(!(a->messageUID == ((char *)NULL)))
       {
         strcpy(buffer, a->messageUID);
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen(buffer);
-        len = len - return_value_strlen$11;
-        unsigned long int return_value_strlen$12;
-        return_value_strlen$12=strlen(buffer);
-        buffer = buffer + (signed long int)return_value_strlen$12;
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen(buffer);
+        len = len - return_value_strlen_11;
+        unsigned long int return_value_strlen_12;
+        return_value_strlen_12=strlen(buffer);
+        buffer = buffer + (signed long int)return_value_strlen_12;
       }
 
       else
@@ -17905,12 +17905,12 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
       if(!(a->to == ((char *)NULL)))
       {
         strcpy(buffer, a->to);
-        unsigned long int return_value_strlen$13;
-        return_value_strlen$13=strlen(buffer);
-        len = len - return_value_strlen$13;
-        unsigned long int return_value_strlen$14;
-        return_value_strlen$14=strlen(buffer);
-        buffer = buffer + (signed long int)return_value_strlen$14;
+        unsigned long int return_value_strlen_13;
+        return_value_strlen_13=strlen(buffer);
+        len = len - return_value_strlen_13;
+        unsigned long int return_value_strlen_14;
+        return_value_strlen_14=strlen(buffer);
+        buffer = buffer + (signed long int)return_value_strlen_14;
       }
 
       else
@@ -17920,12 +17920,12 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
       if(!(a->from == ((char *)NULL)))
       {
         strcpy(buffer, a->from);
-        unsigned long int return_value_strlen$15;
-        return_value_strlen$15=strlen(buffer);
-        len = len - return_value_strlen$15;
-        unsigned long int return_value_strlen$16;
-        return_value_strlen$16=strlen(buffer);
-        buffer = buffer + (signed long int)return_value_strlen$16;
+        unsigned long int return_value_strlen_15;
+        return_value_strlen_15=strlen(buffer);
+        len = len - return_value_strlen_15;
+        unsigned long int return_value_strlen_16;
+        return_value_strlen_16=strlen(buffer);
+        buffer = buffer + (signed long int)return_value_strlen_16;
       }
 
       else
@@ -17935,12 +17935,12 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
       if(!(a->cc == ((char *)NULL)))
       {
         strcpy(buffer, a->cc);
-        unsigned long int return_value_strlen$17;
-        return_value_strlen$17=strlen(buffer);
-        len = len - return_value_strlen$17;
-        unsigned long int return_value_strlen$18;
-        return_value_strlen$18=strlen(buffer);
-        buffer = buffer + (signed long int)return_value_strlen$18;
+        unsigned long int return_value_strlen_17;
+        return_value_strlen_17=strlen(buffer);
+        len = len - return_value_strlen_17;
+        unsigned long int return_value_strlen_18;
+        return_value_strlen_18=strlen(buffer);
+        buffer = buffer + (signed long int)return_value_strlen_18;
       }
 
       else
@@ -17950,12 +17950,12 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
       if(!(a->bcc == ((char *)NULL)))
       {
         strcpy(buffer, a->bcc);
-        unsigned long int return_value_strlen$19;
-        return_value_strlen$19=strlen(buffer);
-        len = len - return_value_strlen$19;
-        unsigned long int return_value_strlen$20;
-        return_value_strlen$20=strlen(buffer);
-        buffer = buffer + (signed long int)return_value_strlen$20;
+        unsigned long int return_value_strlen_19;
+        return_value_strlen_19=strlen(buffer);
+        len = len - return_value_strlen_19;
+        unsigned long int return_value_strlen_20;
+        return_value_strlen_20=strlen(buffer);
+        buffer = buffer + (signed long int)return_value_strlen_20;
       }
 
       else
@@ -17965,12 +17965,12 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
       if(!(a->subject == ((char *)NULL)))
       {
         strcpy(buffer, a->subject);
-        unsigned long int return_value_strlen$21;
-        return_value_strlen$21=strlen(buffer);
-        len = len - return_value_strlen$21;
-        unsigned long int return_value_strlen$22;
-        return_value_strlen$22=strlen(buffer);
-        buffer = buffer + (signed long int)return_value_strlen$22;
+        unsigned long int return_value_strlen_21;
+        return_value_strlen_21=strlen(buffer);
+        len = len - return_value_strlen_21;
+        unsigned long int return_value_strlen_22;
+        return_value_strlen_22=strlen(buffer);
+        buffer = buffer + (signed long int)return_value_strlen_22;
       }
 
       else
@@ -17980,12 +17980,12 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
       if(!(a->dateString == ((char *)NULL)))
       {
         strcpy(buffer, a->dateString);
-        unsigned long int return_value_strlen$23;
-        return_value_strlen$23=strlen(buffer);
-        len = len - return_value_strlen$23;
-        unsigned long int return_value_strlen$24;
-        return_value_strlen$24=strlen(buffer);
-        buffer = buffer + (signed long int)return_value_strlen$24;
+        unsigned long int return_value_strlen_23;
+        return_value_strlen_23=strlen(buffer);
+        len = len - return_value_strlen_23;
+        unsigned long int return_value_strlen_24;
+        return_value_strlen_24=strlen(buffer);
+        buffer = buffer + (signed long int)return_value_strlen_24;
       }
 
       else
@@ -17995,12 +17995,12 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
       if(!(a->body == ((char *)NULL)))
       {
         strcpy(buffer, a->body);
-        unsigned long int return_value_strlen$25;
-        return_value_strlen$25=strlen(buffer);
-        len = len - return_value_strlen$25;
-        unsigned long int return_value_strlen$26;
-        return_value_strlen$26=strlen(buffer);
-        buffer = buffer + (signed long int)return_value_strlen$26;
+        unsigned long int return_value_strlen_25;
+        return_value_strlen_25=strlen(buffer);
+        len = len - return_value_strlen_25;
+        unsigned long int return_value_strlen_26;
+        return_value_strlen_26=strlen(buffer);
+        buffer = buffer + (signed long int)return_value_strlen_26;
       }
 
       else
@@ -18010,12 +18010,12 @@ extern signed int pack_VersaMail(struct VersaMail *a, char *buffer, unsigned lon
       if(!(a->replyTo == ((char *)NULL)))
       {
         strcpy(buffer, a->replyTo);
-        unsigned long int return_value_strlen$27;
-        return_value_strlen$27=strlen(buffer);
-        len = len - return_value_strlen$27;
-        unsigned long int return_value_strlen$28;
-        return_value_strlen$28=strlen(buffer);
-        buffer = buffer + (signed long int)return_value_strlen$28;
+        unsigned long int return_value_strlen_27;
+        return_value_strlen_27=strlen(buffer);
+        len = len - return_value_strlen_27;
+        unsigned long int return_value_strlen_28;
+        return_value_strlen_28=strlen(buffer);
+        buffer = buffer + (signed long int)return_value_strlen_28;
       }
 
       else
@@ -18105,12 +18105,12 @@ static signed int padp_flush(struct pi_socket *ps, signed int flags)
   struct pi_protocol *prot;
   struct pi_protocol *next;
   prot=pi_protocol(ps->sd, 2);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -18118,8 +18118,8 @@ static signed int padp_flush(struct pi_socket *ps, signed int flags)
     next=pi_protocol_next(ps->sd, 2);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -18138,11 +18138,11 @@ static signed int padp_getsockopt(struct pi_socket *ps, signed int level, signed
   struct pi_protocol *prot;
   struct pi_padp_data *data;
   prot=pi_protocol(ps->sd, 2);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -18186,12 +18186,12 @@ static signed int padp_getsockopt(struct pi_socket *ps, signed int level, signed
 
   error:
     ;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
-    signed int return_value_pi_set_error$3;
-    return_value_pi_set_error$3=pi_set_error(ps->sd, -501);
-    return return_value_pi_set_error$3;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
+    signed int return_value_pi_set_error_3;
+    return_value_pi_set_error_3=pi_set_error(ps->sd, -501);
+    return return_value_pi_set_error_3;
   }
 }
 
@@ -18201,14 +18201,14 @@ extern struct pi_protocol * padp_protocol(void)
 {
   struct pi_protocol *prot = (struct pi_protocol *)(void *)0;
   struct pi_padp_data *data = (struct pi_padp_data *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(prot == ((struct pi_protocol *)NULL)))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pi_padp_data) /*36ul*/ );
-    data = (struct pi_padp_data *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pi_padp_data) /*36ul*/ );
+    data = (struct pi_padp_data *)return_value_malloc_2;
     if(data == ((struct pi_padp_data *)NULL))
     {
       free((void *)prot);
@@ -18245,14 +18245,14 @@ static struct pi_protocol * padp_protocol_dup(struct pi_protocol *prot)
   struct pi_protocol *new_prot = (struct pi_protocol *)(void *)0;
   struct pi_padp_data *data = (struct pi_padp_data *)(void *)0;
   struct pi_padp_data *new_data = (struct pi_padp_data *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  new_prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  new_prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(new_prot == ((struct pi_protocol *)NULL)))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pi_padp_data) /*36ul*/ );
-    new_data = (struct pi_padp_data *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pi_padp_data) /*36ul*/ );
+    new_data = (struct pi_padp_data *)return_value_malloc_2;
     if(new_data == ((struct pi_padp_data *)NULL))
     {
       free((void *)new_prot);
@@ -18319,20 +18319,20 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
   signed long int endtime;
   pi_log(0x008, 0x08, "PADP RX expect=%d flags=0x%04x\n", expect, flags);
   prot=pi_protocol(ps->sd, 2);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
-  signed long int return_value_time$8;
-  _Bool tmp_if_expr$11;
-  signed int return_value_pi_debug_get_level$13;
-  signed int return_value_pi_debug_get_level$15;
-  signed long int return_value_time$23;
-  signed int return_value_pi_debug_get_level$25;
-  signed int return_value_pi_debug_get_level$27;
-  _Bool tmp_if_expr$31;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
+  signed long int return_value_time_8;
+  _Bool tmp_if_expr_11;
+  signed int return_value_pi_debug_get_level_13;
+  signed int return_value_pi_debug_get_level_15;
+  signed long int return_value_time_23;
+  signed int return_value_pi_debug_get_level_25;
+  signed int return_value_pi_debug_get_level_27;
+  _Bool tmp_if_expr_31;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -18341,8 +18341,8 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
     next=pi_protocol_next(ps->sd, 2);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
     else
@@ -18352,12 +18352,12 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
       padp_buf=pi_buffer_new((unsigned long int)(4 + 1024));
       if(padp_buf == ((struct pi_buffer_t *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 12;
-        signed int return_value_pi_set_error$4;
-        return_value_pi_set_error$4=pi_set_error(ps->sd, -500);
-        return (signed long int)return_value_pi_set_error$4;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 12;
+        signed int return_value_pi_set_error_4;
+        return_value_pi_set_error_4=pi_set_error(ps->sd, -500);
+        return (signed long int)return_value_pi_set_error_4;
       }
 
       if(data->freeze_txid == 0)
@@ -18375,25 +18375,25 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
           data->next_txid = (unsigned int)data->txid;
       }
 
-      signed long int return_value_time$5;
-      return_value_time$5=time((signed long int *)(void *)0);
-      endtime = return_value_time$5 + (signed long int)((30 * 1000) / 1000);
+      signed long int return_value_time_5;
+      return_value_time_5=time((signed long int *)(void *)0);
+      endtime = return_value_time_5 + (signed long int)((30 * 1000) / 1000);
       while((_Bool)1)
       {
         if(!(honor_rx_timeout == 0))
         {
-          return_value_time$8=time((signed long int *)(void *)0);
-          if(!(endtime >= return_value_time$8))
+          return_value_time_8=time((signed long int *)(void *)0);
+          if(!(endtime >= return_value_time_8))
           {
             pi_log(0x008, 0x01, "PADP RX Timed out");
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            *return_value___errno_location$6 = 110;
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            *return_value___errno_location_6 = 110;
             ps->state = 0x08;
             pi_buffer_free(padp_buf);
-            signed int return_value_pi_set_error$7;
-            return_value_pi_set_error$7=pi_set_error(ps->sd, -200);
-            return (signed long int)return_value_pi_set_error$7;
+            signed int return_value_pi_set_error_7;
+            return_value_pi_set_error_7=pi_set_error(ps->sd, -200);
+            return (signed long int)return_value_pi_set_error_7;
           }
 
         }
@@ -18442,9 +18442,9 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
           if(txid == data->txid)
           {
             pi_log(0x008, 0x02, "PADP RX Memory Error\n");
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            *return_value___errno_location$9 = 90;
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            *return_value___errno_location_9 = 90;
             ouroffset = -1;
             goto done;
           }
@@ -18456,20 +18456,20 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
           if((signed int)padp.type == 0x04)
           {
             pi_log(0x008, 0x02, "PADP RX Got Tickled\n");
-            signed long int return_value_time$10;
-            return_value_time$10=time((signed long int *)(void *)0);
-            endtime = return_value_time$10 + (signed long int)((30 * 1000) / 1000);
+            signed long int return_value_time_10;
+            return_value_time_10=time((signed long int *)(void *)0);
+            endtime = return_value_time_10 + (signed long int)((30 * 1000) / 1000);
             continue;
           }
 
           else
           {
             if(!(type == 0x02) || !((signed int)padp.type == 0x01))
-              tmp_if_expr$11 = (_Bool)1;
+              tmp_if_expr_11 = (_Bool)1;
 
             else
-              tmp_if_expr$11 = txid != data->txid ? (_Bool)1 : (_Bool)0;
-            if((0x80 & (signed int)padp.flags) == 0 || tmp_if_expr$11)
+              tmp_if_expr_11 = txid != data->txid ? (_Bool)1 : (_Bool)0;
+            if((0x80 & (signed int)padp.flags) == 0 || tmp_if_expr_11)
             {
               pi_log(0x008, 0x01, "PADP RX Wrong packet type on queue(possible port speed problem? (loc1))\n");
               continue;
@@ -18478,32 +18478,32 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
           }
         break;
       }
-      signed long int return_value_time$12;
-      return_value_time$12=time((signed long int *)(void *)0);
-      endtime = return_value_time$12 + (signed long int)((30 * 1000) / 1000);
+      signed long int return_value_time_12;
+      return_value_time_12=time((signed long int *)(void *)0);
+      endtime = return_value_time_12 + (signed long int)((30 * 1000) / 1000);
       do
       {
 
       __CPROVER_DUMP_L24:
         ;
-        signed int return_value_pi_debug_get_types$14;
-        return_value_pi_debug_get_types$14=pi_debug_get_types();
-        if(!((0x008 & return_value_pi_debug_get_types$14) == 0))
+        signed int return_value_pi_debug_get_types_14;
+        return_value_pi_debug_get_types_14=pi_debug_get_types();
+        if(!((0x008 & return_value_pi_debug_get_types_14) == 0))
         {
-          return_value_pi_debug_get_level$13=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$13 >= 0x04)
+          return_value_pi_debug_get_level_13=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_13 >= 0x04)
             padp_dump_header(padp_buf->data, 0);
 
         }
 
         do
         {
-          signed int return_value_pi_debug_get_types$16;
-          return_value_pi_debug_get_types$16=pi_debug_get_types();
-          if(!((0x008 & return_value_pi_debug_get_types$16) == 0))
+          signed int return_value_pi_debug_get_types_16;
+          return_value_pi_debug_get_types_16=pi_debug_get_types();
+          if(!((0x008 & return_value_pi_debug_get_types_16) == 0))
           {
-            return_value_pi_debug_get_level$15=pi_debug_get_level();
-            if(return_value_pi_debug_get_level$15 >= 0x08)
+            return_value_pi_debug_get_level_15=pi_debug_get_level();
+            if(return_value_pi_debug_get_level_15 >= 0x08)
               padp_dump(padp_buf->data);
 
           }
@@ -18515,16 +18515,16 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
         total_bytes = total_bytes - (unsigned long int)4;
         if(offset == ouroffset)
         {
-          struct pi_buffer_t *return_value_pi_buffer_append$19;
-          return_value_pi_buffer_append$19=pi_buffer_append(buf, (const void *)&padp_buf->data[(signed long int)header_size], total_bytes);
-          if(return_value_pi_buffer_append$19 == ((struct pi_buffer_t *)NULL))
+          struct pi_buffer_t *return_value_pi_buffer_append_19;
+          return_value_pi_buffer_append_19=pi_buffer_append(buf, (const void *)&padp_buf->data[(signed long int)header_size], total_bytes);
+          if(return_value_pi_buffer_append_19 == ((struct pi_buffer_t *)NULL))
           {
-            signed int *return_value___errno_location$17;
-            return_value___errno_location$17=__errno_location();
-            *return_value___errno_location$17 = 12;
-            signed int return_value_pi_set_error$18;
-            return_value_pi_set_error$18=pi_set_error(ps->sd, -500);
-            return (signed long int)return_value_pi_set_error$18;
+            signed int *return_value___errno_location_17;
+            return_value___errno_location_17=__errno_location();
+            *return_value___errno_location_17 = 12;
+            signed int return_value_pi_set_error_18;
+            return_value_pi_set_error_18=pi_set_error(ps->sd, -500);
+            return (signed long int)return_value_pi_set_error_18;
           }
 
           ouroffset = ouroffset + (signed int)total_bytes;
@@ -18533,26 +18533,26 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
         if(!((0x40 & (signed int)padp.flags) == 0))
           break;
 
-        signed long int return_value_time$20;
-        return_value_time$20=time((signed long int *)(void *)0);
-        endtime = return_value_time$20 + (signed long int)((30 * 1000) / 1000);
+        signed long int return_value_time_20;
+        return_value_time_20=time((signed long int *)(void *)0);
+        endtime = return_value_time_20 + (signed long int)((30 * 1000) / 1000);
         while((_Bool)1)
         {
           if(!(honor_rx_timeout == 0))
           {
-            return_value_time$23=time((signed long int *)(void *)0);
-            if(!(endtime >= return_value_time$23))
+            return_value_time_23=time((signed long int *)(void *)0);
+            if(!(endtime >= return_value_time_23))
             {
               pi_log(0x008, 0x01, "PADP RX Segment Timeout");
-              signed int *return_value___errno_location$21;
-              return_value___errno_location$21=__errno_location();
-              *return_value___errno_location$21 = 110;
+              signed int *return_value___errno_location_21;
+              return_value___errno_location_21=__errno_location();
+              *return_value___errno_location_21 = 110;
               ouroffset = -1;
               ps->state = 0x08;
               pi_buffer_free(padp_buf);
-              signed int return_value_pi_set_error$22;
-              return_value_pi_set_error$22=pi_set_error(ps->sd, -200);
-              return (signed long int)return_value_pi_set_error$22;
+              signed int return_value_pi_set_error_22;
+              return_value_pi_set_error_22=pi_set_error(ps->sd, -200);
+              return (signed long int)return_value_pi_set_error_22;
             }
 
           }
@@ -18572,9 +18572,9 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
             {
               pi_log(0x008, 0x01, "PADP RX Read Error");
               pi_buffer_free(padp_buf);
-              signed int return_value_pi_set_error$24;
-              return_value_pi_set_error$24=pi_set_error(ps->sd, bytes);
-              return (signed long int)return_value_pi_set_error$24;
+              signed int return_value_pi_set_error_24;
+              return_value_pi_set_error_24=pi_set_error(ps->sd, bytes);
+              return (signed long int)return_value_pi_set_error_24;
             }
 
             total_bytes = total_bytes + (unsigned long int)bytes;
@@ -18596,12 +18596,12 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
             padp.size = (signed int)(unsigned short int)((signed int)((unsigned char *)&padp_buf->data[(signed long int)2])[(signed long int)0] << 8 | (signed int)((unsigned char *)&padp_buf->data[(signed long int)2])[(signed long int)1]);
           do
           {
-            signed int return_value_pi_debug_get_types$26;
-            return_value_pi_debug_get_types$26=pi_debug_get_types();
-            if(!((0x008 & return_value_pi_debug_get_types$26) == 0))
+            signed int return_value_pi_debug_get_types_26;
+            return_value_pi_debug_get_types_26=pi_debug_get_types();
+            if(!((0x008 & return_value_pi_debug_get_types_26) == 0))
             {
-              return_value_pi_debug_get_level$25=pi_debug_get_level();
-              if(return_value_pi_debug_get_level$25 >= 0x04)
+              return_value_pi_debug_get_level_25=pi_debug_get_level();
+              if(return_value_pi_debug_get_level_25 >= 0x04)
                 padp_dump_header(padp_buf->data, 0);
 
             }
@@ -18610,12 +18610,12 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
           while((_Bool)0);
           do
           {
-            signed int return_value_pi_debug_get_types$28;
-            return_value_pi_debug_get_types$28=pi_debug_get_types();
-            if(!((0x008 & return_value_pi_debug_get_types$28) == 0))
+            signed int return_value_pi_debug_get_types_28;
+            return_value_pi_debug_get_types_28=pi_debug_get_types();
+            if(!((0x008 & return_value_pi_debug_get_types_28) == 0))
             {
-              return_value_pi_debug_get_level$27=pi_debug_get_level();
-              if(return_value_pi_debug_get_level$27 >= 0x08)
+              return_value_pi_debug_get_level_27=pi_debug_get_level();
+              if(return_value_pi_debug_get_level_27 >= 0x08)
                 padp_dump(padp_buf->data);
 
             }
@@ -18631,9 +18631,9 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
             if(txid == data->txid)
             {
               pi_log(0x008, 0x02, "PADP RX Memory Error");
-              signed int *return_value___errno_location$29;
-              return_value___errno_location$29=__errno_location();
-              *return_value___errno_location$29 = 90;
+              signed int *return_value___errno_location_29;
+              return_value___errno_location_29=__errno_location();
+              *return_value___errno_location_29 = 90;
               ouroffset = -1;
               goto done;
             }
@@ -18644,19 +18644,19 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
           {
             if(padp.type == 4)
             {
-              signed long int return_value_time$30;
-              return_value_time$30=time((signed long int *)(void *)0);
-              endtime = return_value_time$30 + (signed long int)((30 * 1000) / 1000);
+              signed long int return_value_time_30;
+              return_value_time_30=time((signed long int *)(void *)0);
+              endtime = return_value_time_30 + (signed long int)((30 * 1000) / 1000);
               pi_log(0x008, 0x02, "PADP RX Got Tickled");
               continue;
             }
 
             if(!(type == 0x02) || !((signed int)padp.type == 0x01))
-              tmp_if_expr$31 = (_Bool)1;
+              tmp_if_expr_31 = (_Bool)1;
 
             else
-              tmp_if_expr$31 = txid != data->txid ? (_Bool)1 : (_Bool)0;
-            if(!((0x80 & (signed int)padp.flags) == 0) || tmp_if_expr$31)
+              tmp_if_expr_31 = txid != data->txid ? (_Bool)1 : (_Bool)0;
+            if(!((0x80 & (signed int)padp.flags) == 0) || tmp_if_expr_31)
               pi_log(0x008, 0x01, "PADP RX Wrong packet type on queue(possible port speed problem? (loc2))\n");
 
             else
@@ -18680,30 +18680,30 @@ extern signed long int padp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, un
 static signed int padp_sendack(struct pi_socket *ps, struct pi_padp_data *data, unsigned char txid, struct padp *padp, signed int flags)
 {
   signed int type;
-  signed int padp_sendack$$1$$socket;
+  signed int padp_sendack__1__socket;
   signed int result;
   signed int header_size;
   unsigned long int size;
   unsigned char npadp_buf[6l];
   struct pi_protocol *next;
   next=pi_protocol_next(ps->sd, 2);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_debug_get_level$2;
-  signed int return_value_pi_debug_get_level$4;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_debug_get_level_2;
+  signed int return_value_pi_debug_get_level_4;
   if(next == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
   {
     type = 2;
-    padp_sendack$$1$$socket = 0x03;
+    padp_sendack__1__socket = 0x03;
     size = sizeof(signed int) /*4ul*/ ;
     pi_setsockopt(ps->sd, 1, 4, (const void *)&type, &size);
-    pi_setsockopt(ps->sd, 1, 0, (const void *)&padp_sendack$$1$$socket, &size);
-    pi_setsockopt(ps->sd, 1, 2, (const void *)&padp_sendack$$1$$socket, &size);
+    pi_setsockopt(ps->sd, 1, 0, (const void *)&padp_sendack__1__socket, &size);
+    pi_setsockopt(ps->sd, 1, 2, (const void *)&padp_sendack__1__socket, &size);
     size = sizeof(unsigned char) /*1ul*/ ;
     pi_setsockopt(ps->sd, 1, 6, (const void *)&txid, &size);
     header_size = 4;
@@ -18725,12 +18725,12 @@ static signed int padp_sendack(struct pi_socket *ps, struct pi_padp_data *data, 
     }
     do
     {
-      signed int return_value_pi_debug_get_types$3;
-      return_value_pi_debug_get_types$3=pi_debug_get_types();
-      if(!((0x008 & return_value_pi_debug_get_types$3) == 0))
+      signed int return_value_pi_debug_get_types_3;
+      return_value_pi_debug_get_types_3=pi_debug_get_types();
+      if(!((0x008 & return_value_pi_debug_get_types_3) == 0))
       {
-        return_value_pi_debug_get_level$2=pi_debug_get_level();
-        if(return_value_pi_debug_get_level$2 >= 0x04)
+        return_value_pi_debug_get_level_2=pi_debug_get_level();
+        if(return_value_pi_debug_get_level_2 >= 0x04)
           padp_dump_header(npadp_buf, 1);
 
       }
@@ -18739,12 +18739,12 @@ static signed int padp_sendack(struct pi_socket *ps, struct pi_padp_data *data, 
     while((_Bool)0);
     do
     {
-      signed int return_value_pi_debug_get_types$5;
-      return_value_pi_debug_get_types$5=pi_debug_get_types();
-      if(!((0x008 & return_value_pi_debug_get_types$5) == 0))
+      signed int return_value_pi_debug_get_types_5;
+      return_value_pi_debug_get_types_5=pi_debug_get_types();
+      if(!((0x008 & return_value_pi_debug_get_types_5) == 0))
       {
-        return_value_pi_debug_get_level$4=pi_debug_get_level();
-        if(return_value_pi_debug_get_level$4 >= 0x08)
+        return_value_pi_debug_get_level_4=pi_debug_get_level();
+        if(return_value_pi_debug_get_level_4 >= 0x08)
           padp_dump(npadp_buf);
 
       }
@@ -18774,11 +18774,11 @@ static signed int padp_setsockopt(struct pi_socket *ps, signed int level, signed
   struct pi_padp_data *data;
   signed int was_frozen;
   prot=pi_protocol(ps->sd, 2);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -18827,12 +18827,12 @@ static signed int padp_setsockopt(struct pi_socket *ps, signed int level, signed
 
   error:
     ;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
-    signed int return_value_pi_set_error$3;
-    return_value_pi_set_error$3=pi_set_error(ps->sd, -501);
-    return return_value_pi_set_error$3;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
+    signed int return_value_pi_set_error_3;
+    return_value_pi_set_error_3=pi_set_error(ps->sd, -501);
+    return return_value_pi_set_error_3;
   }
 }
 
@@ -18845,7 +18845,7 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
   signed int retries;
   signed int result;
   signed int type;
-  signed int padp_tx$$1$$socket;
+  signed int padp_tx__1__socket;
   signed int timeout;
   signed int header_size;
   unsigned long int size;
@@ -18857,23 +18857,23 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
   struct pi_buffer_t *padp_buf;
   struct padp padp;
   prot=pi_protocol(ps->sd, 2);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_set_error$3;
-  signed int return_value_pi_debug_get_level$4;
-  signed int return_value_pi_debug_get_level$6;
-  signed int return_value_pi_debug_get_level$8;
-  signed int return_value_pi_debug_get_level$10;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_set_error_3;
+  signed int return_value_pi_debug_get_level_4;
+  signed int return_value_pi_debug_get_level_6;
+  signed int return_value_pi_debug_get_level_8;
+  signed int return_value_pi_debug_get_level_10;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -18882,8 +18882,8 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
     next=pi_protocol_next(ps->sd, 2);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
     else
@@ -18914,8 +18914,8 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
       padp_buf=pi_buffer_new((unsigned long int)(4 + 2 + 1024));
       if(padp_buf == ((struct pi_buffer_t *)NULL))
       {
-        return_value_pi_set_error$3=pi_set_error(ps->sd, -500);
-        return (signed long int)return_value_pi_set_error$3;
+        return_value_pi_set_error_3=pi_set_error(ps->sd, -500);
+        return (signed long int)return_value_pi_set_error_3;
       }
 
       else
@@ -18924,12 +18924,12 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
         retries = 10;
         padp_buf->used = (unsigned long int)0;
         type = 0x02;
-        padp_tx$$1$$socket = 0x03;
+        padp_tx__1__socket = 0x03;
         timeout = 2 * 1000;
         size = sizeof(signed int) /*4ul*/ ;
         pi_setsockopt(ps->sd, 1, 4, (const void *)&type, &size);
-        pi_setsockopt(ps->sd, 1, 0, (const void *)&padp_tx$$1$$socket, &size);
-        pi_setsockopt(ps->sd, 1, 2, (const void *)&padp_tx$$1$$socket, &size);
+        pi_setsockopt(ps->sd, 1, 0, (const void *)&padp_tx__1__socket, &size);
+        pi_setsockopt(ps->sd, 1, 2, (const void *)&padp_tx__1__socket, &size);
         size = sizeof(signed int) /*4ul*/ ;
         pi_setsockopt(ps->sd, 0, 3, (const void *)&timeout, &size);
         size = sizeof(unsigned char) /*1ul*/ ;
@@ -18954,12 +18954,12 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
         memcpy((void *)(padp_buf->data + (signed long int)header_size), (const void *)buf, tlen);
         do
         {
-          signed int return_value_pi_debug_get_types$5;
-          return_value_pi_debug_get_types$5=pi_debug_get_types();
-          if(!((0x008 & return_value_pi_debug_get_types$5) == 0))
+          signed int return_value_pi_debug_get_types_5;
+          return_value_pi_debug_get_types_5=pi_debug_get_types();
+          if(!((0x008 & return_value_pi_debug_get_types_5) == 0))
           {
-            return_value_pi_debug_get_level$4=pi_debug_get_level();
-            if(return_value_pi_debug_get_level$4 >= 0x04)
+            return_value_pi_debug_get_level_4=pi_debug_get_level();
+            if(return_value_pi_debug_get_level_4 >= 0x04)
               padp_dump_header(padp_buf->data, 1);
 
           }
@@ -18968,12 +18968,12 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
         while((_Bool)0);
         do
         {
-          signed int return_value_pi_debug_get_types$7;
-          return_value_pi_debug_get_types$7=pi_debug_get_types();
-          if(!((0x008 & return_value_pi_debug_get_types$7) == 0))
+          signed int return_value_pi_debug_get_types_7;
+          return_value_pi_debug_get_types_7=pi_debug_get_types();
+          if(!((0x008 & return_value_pi_debug_get_types_7) == 0))
           {
-            return_value_pi_debug_get_level$6=pi_debug_get_level();
-            if(return_value_pi_debug_get_level$6 >= 0x08)
+            return_value_pi_debug_get_level_6=pi_debug_get_level();
+            if(return_value_pi_debug_get_level_6 >= 0x08)
               padp_dump(padp_buf->data);
 
           }
@@ -19007,22 +19007,22 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
               header_size = 4;
               padp.size = (signed int)(unsigned short int)((signed int)((unsigned char *)&padp_buf->data[(signed long int)2])[(signed long int)0] << 8 | (signed int)((unsigned char *)&padp_buf->data[(signed long int)2])[(signed long int)1]);
             }
-            signed int return_value_pi_debug_get_types$9;
-            return_value_pi_debug_get_types$9=pi_debug_get_types();
-            if(!((0x008 & return_value_pi_debug_get_types$9) == 0))
+            signed int return_value_pi_debug_get_types_9;
+            return_value_pi_debug_get_types_9=pi_debug_get_types();
+            if(!((0x008 & return_value_pi_debug_get_types_9) == 0))
             {
-              return_value_pi_debug_get_level$8=pi_debug_get_level();
-              if(return_value_pi_debug_get_level$8 >= 0x04)
+              return_value_pi_debug_get_level_8=pi_debug_get_level();
+              if(return_value_pi_debug_get_level_8 >= 0x04)
                 padp_dump_header(padp_buf->data, 0);
 
             }
 
-            signed int return_value_pi_debug_get_types$11;
-            return_value_pi_debug_get_types$11=pi_debug_get_types();
-            if(!((0x008 & return_value_pi_debug_get_types$11) == 0))
+            signed int return_value_pi_debug_get_types_11;
+            return_value_pi_debug_get_types_11=pi_debug_get_types();
+            if(!((0x008 & return_value_pi_debug_get_types_11) == 0))
             {
-              return_value_pi_debug_get_level$10=pi_debug_get_level();
-              if(return_value_pi_debug_get_level$10 >= 0x08)
+              return_value_pi_debug_get_level_10=pi_debug_get_level();
+              if(return_value_pi_debug_get_level_10 >= 0x08)
                 padp_dump(padp_buf->data);
 
             }
@@ -19032,11 +19032,11 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
             size = sizeof(unsigned char) /*1ul*/ ;
             pi_getsockopt(ps->sd, 1, 7, (void *)&txid, &size);
             if(padp.type == 1 && type == 0x02)
-              tmp_if_expr$19 = txid == data->txid ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_19 = txid == data->txid ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$19 = (_Bool)0;
-            if(len == tlen && tmp_if_expr$19)
+              tmp_if_expr_19 = (_Bool)0;
+            if(len == tlen && tmp_if_expr_19)
             {
               pi_log(0x008, 0x02, "PADP TX Missing Ack\n");
               count = count + (signed int)tlen;
@@ -19046,18 +19046,18 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
               if(!(padp.type == 4))
               {
                 if(padp.type == 2 && type == 0x02)
-                  tmp_if_expr$18 = txid == data->txid ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_18 = txid == data->txid ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$18 = (_Bool)0;
-                if(tmp_if_expr$18)
+                  tmp_if_expr_18 = (_Bool)0;
+                if(tmp_if_expr_18)
                 {
                   if(!((0x20 & (signed int)padp.flags) == 0))
                   {
                     pi_log(0x008, 0x02, "PADP TX Memory Error\n");
-                    signed int *return_value___errno_location$12;
-                    return_value___errno_location$12=__errno_location();
-                    *return_value___errno_location$12 = 90;
+                    signed int *return_value___errno_location_12;
+                    return_value___errno_location_12=__errno_location();
+                    *return_value___errno_location_12 = 90;
                     count = -1;
                   }
 
@@ -19071,26 +19071,26 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
                 else
                 {
                   if(type == 0x02)
-                    tmp_if_expr$14 = padp.type == data->last_ack_padp.type ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_14 = padp.type == data->last_ack_padp.type ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$14 = (_Bool)0;
-                  if(tmp_if_expr$14)
-                    tmp_if_expr$15 = padp.flags == data->last_ack_padp.flags ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_14 = (_Bool)0;
+                  if(tmp_if_expr_14)
+                    tmp_if_expr_15 = padp.flags == data->last_ack_padp.flags ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$15 = (_Bool)0;
-                  if(tmp_if_expr$15)
-                    tmp_if_expr$16 = padp.size == data->last_ack_padp.size ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_15 = (_Bool)0;
+                  if(tmp_if_expr_15)
+                    tmp_if_expr_16 = padp.size == data->last_ack_padp.size ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$16 = (_Bool)0;
-                  if(tmp_if_expr$16)
-                    tmp_if_expr$17 = txid == data->last_ack_txid ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_16 = (_Bool)0;
+                  if(tmp_if_expr_16)
+                    tmp_if_expr_17 = txid == data->last_ack_txid ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$17 = (_Bool)0;
-                  if(tmp_if_expr$17)
+                    tmp_if_expr_17 = (_Bool)0;
+                  if(tmp_if_expr_17)
                   {
                     pi_log(0x008, 0x02, "PADP TX resending lost ACK\n");
                     padp_sendack(ps, data, txid, &padp, flags);
@@ -19100,9 +19100,9 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
                   {
                     pi_log(0x008, 0x01, "PADP TX Unexpected packet (possible port speed problem? out of sync packet?)\n");
                     padp_dump_header(buf, 1);
-                    signed int *return_value___errno_location$13;
-                    return_value___errno_location$13=__errno_location();
-                    *return_value___errno_location$13 = 5;
+                    signed int *return_value___errno_location_13;
+                    return_value___errno_location_13=__errno_location();
+                    *return_value___errno_location_13 = 5;
                     count = -1;
                   }
                 }
@@ -19116,14 +19116,14 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
         if(retries == 0)
         {
           pi_log(0x008, 0x01, "PADP TX too many retries");
-          signed int *return_value___errno_location$20;
-          return_value___errno_location$20=__errno_location();
-          *return_value___errno_location$20 = 110;
+          signed int *return_value___errno_location_20;
+          return_value___errno_location_20=__errno_location();
+          *return_value___errno_location_20 = 110;
           pi_buffer_free(padp_buf);
           ps->state = 0x08;
-          signed int return_value_pi_set_error$21;
-          return_value_pi_set_error$21=pi_set_error(ps->sd, -200);
-          return (signed long int)return_value_pi_set_error$21;
+          signed int return_value_pi_set_error_21;
+          return_value_pi_set_error_21=pi_set_error(ps->sd, -200);
+          return (signed long int)return_value_pi_set_error_21;
         }
 
 
@@ -19144,9 +19144,9 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
         pi_log(0x008, 0x01, "PADP TX disconnected");
         pi_buffer_free(padp_buf);
         ps->state = 0x08;
-        signed int return_value_pi_set_error$22;
-        return_value_pi_set_error$22=pi_set_error(ps->sd, -200);
-        return (signed long int)return_value_pi_set_error$22;
+        signed int return_value_pi_set_error_22;
+        return_value_pi_set_error_22=pi_set_error(ps->sd, -200);
+        return (signed long int)return_value_pi_set_error_22;
       }
     }
   }
@@ -19156,18 +19156,18 @@ extern signed long int padp_tx(struct pi_socket *ps, const unsigned char *buf, u
 // file utils.c line 402
 unsigned long int palm_strftime(char *s, unsigned long int max, const char *fmt, struct tm *tm)
 {
-  unsigned long int return_value_strftime$1;
-  return_value_strftime$1=strftime(s, max, fmt, tm);
-  return return_value_strftime$1;
+  unsigned long int return_value_strftime_1;
+  return_value_strftime_1=strftime(s, max, fmt, tm);
+  return return_value_strftime_1;
 }
 
 // pi_accept
 // file ../include/pi-socket.h line 353
 extern signed int pi_accept(signed int pi_sd, struct sockaddr *addr, unsigned long int *addrlen)
 {
-  signed int return_value_pi_accept_to$1;
-  return_value_pi_accept_to$1=pi_accept_to(pi_sd, addr, addrlen, 0);
-  return return_value_pi_accept_to$1;
+  signed int return_value_pi_accept_to_1;
+  return_value_pi_accept_to_1=pi_accept_to(pi_sd, addr, addrlen, 0);
+  return return_value_pi_accept_to_1;
 }
 
 // pi_accept_to
@@ -19179,15 +19179,15 @@ extern signed int pi_accept_to(signed int pi_sd, struct sockaddr *addr, unsigned
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
-  signed int return_value_is_listener$2;
-  return_value_is_listener$2=is_listener(ps);
-  if(return_value_is_listener$2 == 0)
+  signed int return_value_is_listener_2;
+  return_value_is_listener_2=is_listener(ps);
+  if(return_value_is_listener_2 == 0)
     return -205;
 
   else
@@ -19237,8 +19237,8 @@ static signed int pi_bluetooth_accept(struct pi_socket *ps, struct sockaddr *add
   unsigned int peeraddrlen = (unsigned int)sizeof(struct sockaddr_rc) /*10ul*/ ;
   signed int sd;
   sd=pi_bluetooth_accept_rfcomm(ps, data->device, &peeraddr, &peeraddrlen);
-  signed int return_value_cmp_rx_handshake$2;
-  signed int return_value_net_rx_handshake$3;
+  signed int return_value_cmp_rx_handshake_2;
+  signed int return_value_net_rx_handshake_3;
   if(!(sd >= 0))
   {
     pi_set_error(ps->sd, -502);
@@ -19247,9 +19247,9 @@ static signed int pi_bluetooth_accept(struct pi_socket *ps, struct sockaddr *add
 
   else
   {
-    signed int return_value_pi_socket_setsd$1;
-    return_value_pi_socket_setsd$1=pi_socket_setsd(ps, sd);
-    if(!(return_value_pi_socket_setsd$1 >= 0))
+    signed int return_value_pi_socket_setsd_1;
+    return_value_pi_socket_setsd_1=pi_socket_setsd(ps, sd);
+    if(!(return_value_pi_socket_setsd_1 >= 0))
       return -1;
 
     else
@@ -19261,16 +19261,16 @@ static signed int pi_bluetooth_accept(struct pi_socket *ps, struct sockaddr *add
         {
           case 0x01:
           {
-            return_value_cmp_rx_handshake$2=cmp_rx_handshake(ps, 0, 0);
-            if(!(return_value_cmp_rx_handshake$2 >= 0))
+            return_value_cmp_rx_handshake_2=cmp_rx_handshake(ps, 0, 0);
+            if(!(return_value_cmp_rx_handshake_2 >= 0))
               return -1;
 
             break;
           }
           case 0x02:
           {
-            return_value_net_rx_handshake$3=net_rx_handshake(ps);
-            if(!(return_value_net_rx_handshake$3 >= 0))
+            return_value_net_rx_handshake_3=net_rx_handshake(ps);
+            if(!(return_value_net_rx_handshake_3 >= 0))
               return -1;
 
           }
@@ -19292,7 +19292,7 @@ static signed int pi_bluetooth_accept_rfcomm(struct pi_socket *ps, const char *d
 {
   signed int rfcommfd;
   rfcommfd=accept(ps->sd, (struct sockaddr *)peeraddr, peeraddrlen);
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_3;
   if(!(rfcommfd >= 0))
   {
     pi_set_error(ps->sd, -502);
@@ -19303,21 +19303,21 @@ static signed int pi_bluetooth_accept_rfcomm(struct pi_socket *ps, const char *d
   {
     if(!((signed int)*device == 0))
     {
-      return_value_strcmp$3=strcmp(device, "any");
-      if(!(return_value_strcmp$3 == 0))
+      return_value_strcmp_3=strcmp(device, "any");
+      if(!(return_value_strcmp_3 == 0))
       {
-        struct anonymous$18 tmp;
-        signed int return_value_str2ba$1;
-        return_value_str2ba$1=str2ba(device, &tmp);
-        if(!(return_value_str2ba$1 >= 0))
+        struct anonymous_18 tmp;
+        signed int return_value_str2ba_1;
+        return_value_str2ba_1=str2ba(device, &tmp);
+        if(!(return_value_str2ba_1 >= 0))
         {
           close(rfcommfd);
           return -1;
         }
 
-        signed int return_value_bacmp$2;
-        return_value_bacmp$2=bacmp(&tmp, &peeraddr->rc_bdaddr);
-        if(!(return_value_bacmp$2 == 0))
+        signed int return_value_bacmp_2;
+        return_value_bacmp_2=bacmp(&tmp, &peeraddr->rc_bdaddr);
+        if(!(return_value_bacmp_2 == 0))
         {
           close(rfcommfd);
           return -1;
@@ -19339,21 +19339,21 @@ static signed int pi_bluetooth_bind(struct pi_socket *ps, struct sockaddr *addr,
   struct pi_bluetooth_data *data = (struct pi_bluetooth_data *)ps->device->data;
   char *device = pa->pi_device;
   struct sockaddr_rc bindaddr;
-  signed int return_value_pi_bluetooth_open$1;
-  return_value_pi_bluetooth_open$1=pi_bluetooth_open(ps, pa, (signed int)addrlen);
-  if(return_value_pi_bluetooth_open$1 == -1)
+  signed int return_value_pi_bluetooth_open_1;
+  return_value_pi_bluetooth_open_1=pi_bluetooth_open(ps, pa, (signed int)addrlen);
+  if(return_value_pi_bluetooth_open_1 == -1)
     return -1;
 
   else
   {
     data->device=strdup(device);
     bindaddr.rc_family = (unsigned short int)31;
-    struct anonymous$18 literal$2 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-    bacpy(&bindaddr.rc_bdaddr, &literal$2);
+    struct anonymous_18 literal_2 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+    bacpy(&bindaddr.rc_bdaddr, &literal_2);
     bindaddr.rc_channel = (unsigned char)data->channel;
-    signed int return_value_bind$3;
-    return_value_bind$3=bind(ps->sd, (struct sockaddr *)&bindaddr, (unsigned int)sizeof(struct sockaddr_rc) /*10ul*/ );
-    if(!(return_value_bind$3 >= 0))
+    signed int return_value_bind_3;
+    return_value_bind_3=bind(ps->sd, (struct sockaddr *)&bindaddr, (unsigned int)sizeof(struct sockaddr_rc) /*10ul*/ );
+    if(!(return_value_bind_3 >= 0))
     {
       pi_set_error(ps->sd, -502);
       return -1;
@@ -19361,9 +19361,9 @@ static signed int pi_bluetooth_bind(struct pi_socket *ps, struct sockaddr *addr,
 
     else
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(addrlen);
-      ps->laddr = (struct sockaddr *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(addrlen);
+      ps->laddr = (struct sockaddr *)return_value_malloc_4;
       memcpy((void *)ps->laddr, (const void *)addr, addrlen);
       ps->laddrlen = addrlen;
       return 0;
@@ -19394,24 +19394,24 @@ static signed int pi_bluetooth_close(struct pi_socket *ps)
 // file bluetooth.c line 472
 static signed int pi_bluetooth_connect(struct pi_socket *ps, struct sockaddr *addr, unsigned long int addrlen)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(addrlen);
-  ps->raddr = (struct sockaddr *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(addrlen);
+  ps->raddr = (struct sockaddr *)return_value_malloc_1;
   memcpy((void *)ps->raddr, (const void *)addr, addrlen);
   ps->raddrlen = addrlen;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(addrlen);
-  ps->laddr = (struct sockaddr *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(addrlen);
+  ps->laddr = (struct sockaddr *)return_value_malloc_2;
   memcpy((void *)ps->laddr, (const void *)addr, addrlen);
   ps->laddrlen = addrlen;
-  signed int return_value_cmp_tx_handshake$3;
+  signed int return_value_cmp_tx_handshake_3;
   if(ps->type == 0x0010)
   {
     if(!(ps->cmd == 0x01))
       goto __CPROVER_DUMP_L1;
 
-    return_value_cmp_tx_handshake$3=cmp_tx_handshake(ps);
-    if(return_value_cmp_tx_handshake$3 >= 0)
+    return_value_cmp_tx_handshake_3=cmp_tx_handshake(ps);
+    if(return_value_cmp_tx_handshake_3 >= 0)
       goto __CPROVER_DUMP_L1;
 
     pi_close(ps->sd);
@@ -19435,17 +19435,17 @@ extern struct pi_device * pi_bluetooth_device(signed int type)
 {
   struct pi_device *dev;
   struct pi_bluetooth_data *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_device) /*64ul*/ );
-  dev = (struct pi_device *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_device) /*64ul*/ );
+  dev = (struct pi_device *)return_value_malloc_1;
   if(dev == ((struct pi_device *)NULL))
     return (struct pi_device *)(void *)0;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pi_bluetooth_data) /*88ul*/ );
-    data = (struct pi_bluetooth_data *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pi_bluetooth_data) /*88ul*/ );
+    data = (struct pi_bluetooth_data *)return_value_malloc_2;
     if(data == ((struct pi_bluetooth_data *)NULL))
     {
       free((void *)dev);
@@ -19497,7 +19497,7 @@ static signed int pi_bluetooth_flush(struct pi_socket *ps, signed int flags)
 {
   char buf[256l];
   signed int fl;
-  signed long int return_value_read$1;
+  signed long int return_value_read_1;
   if(!((0x01 & flags) == 0))
   {
     fl=fcntl(ps->sd, 3, 0);
@@ -19506,8 +19506,8 @@ static signed int pi_bluetooth_flush(struct pi_socket *ps, signed int flags)
       fcntl(ps->sd, 4, fl | 04000);
       do
       {
-        return_value_read$1=read(ps->sd, (void *)buf, sizeof(char [256l]) /*256ul*/ );
-        if(!(return_value_read$1 >= 1l))
+        return_value_read_1=read(ps->sd, (void *)buf, sizeof(char [256l]) /*256ul*/ );
+        if(!(return_value_read_1 >= 1l))
           break;
 
       }
@@ -19576,9 +19576,9 @@ static signed int pi_bluetooth_open(struct pi_socket *ps, struct pi_sockaddr *ad
       fcntl(fd, 4, flags);
     }
 
-    signed int return_value_pi_socket_setsd$1;
-    return_value_pi_socket_setsd$1=pi_socket_setsd(ps, fd);
-    if(!(return_value_pi_socket_setsd$1 >= 0))
+    signed int return_value_pi_socket_setsd_1;
+    return_value_pi_socket_setsd_1=pi_socket_setsd(ps, fd);
+    if(!(return_value_pi_socket_setsd_1 >= 0))
       return -1;
 
     else
@@ -19597,9 +19597,9 @@ static struct pi_protocol * pi_bluetooth_protocol(struct pi_device *dev)
       pi_log(0x400, 0x00, "file %s: line %d: assertion failed: (%s)", (const void *)"bluetooth.c", 291, (const void *)"dev != NULL");
 
   while((_Bool)0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  prot = (struct pi_protocol *)return_value_malloc_1;
   data = (struct pi_bluetooth_data *)dev->data;
   if(!(prot == ((struct pi_protocol *)NULL)))
   {
@@ -19627,9 +19627,9 @@ static struct pi_protocol * pi_bluetooth_protocol_dup(struct pi_protocol *prot)
       pi_log(0x400, 0x00, "file %s: line %d: assertion failed: (%s)", (const void *)"bluetooth.c", 236, (const void *)"prot != NULL");
 
   while((_Bool)0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  new_prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  new_prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(new_prot == ((struct pi_protocol *)NULL)))
   {
     new_prot->level = prot->level;
@@ -19667,14 +19667,14 @@ static signed long int pi_bluetooth_read(struct pi_socket *ps, struct pi_buffer_
   signed int rbuf;
   struct pi_bluetooth_data *data = (struct pi_bluetooth_data *)ps->device->data;
   struct timeval t;
-  struct anonymous$9 ready;
-  struct pi_buffer_t *return_value_pi_buffer_expect$2;
-  return_value_pi_buffer_expect$2=pi_buffer_expect(buf, len);
-  signed int return_value_pi_set_error$1;
-  if(return_value_pi_buffer_expect$2 == ((struct pi_buffer_t *)NULL))
+  struct anonymous_9 ready;
+  struct pi_buffer_t *return_value_pi_buffer_expect_2;
+  return_value_pi_buffer_expect_2=pi_buffer_expect(buf, len);
+  signed int return_value_pi_set_error_1;
+  if(return_value_pi_buffer_expect_2 == ((struct pi_buffer_t *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -500);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -500);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -19683,27 +19683,27 @@ static signed long int pi_bluetooth_read(struct pi_socket *ps, struct pi_buffer_
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << ps->sd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
     if(data->timeout == 0)
-      select(ps->sd + 1, &ready, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), ((struct timeval *)NULL));
+      select(ps->sd + 1, &ready, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), ((struct timeval *)NULL));
 
     else
     {
       t.tv_sec = (signed long int)(data->timeout / 1000);
       t.tv_usec = (signed long int)((data->timeout % 1000) * 1000);
-      select(ps->sd + 1, &ready, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), &t);
+      select(ps->sd + 1, &ready, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), &t);
     }
     if(!((ready.__fds_bits[(signed long int)(ps->sd / 8)] & (signed long int)(1UL << ps->sd % 8)) == 0l))
     {
       if(flags == 0x01 && len >= 257ul)
         len = (unsigned long int)256;
 
-      signed long int return_value_read$3;
-      return_value_read$3=read(ps->sd, (void *)(buf->data + (signed long int)buf->used), len);
-      rbuf = (signed int)return_value_read$3;
+      signed long int return_value_read_3;
+      return_value_read_3=read(ps->sd, (void *)(buf->data + (signed long int)buf->used), len);
+      rbuf = (signed int)return_value_read_3;
     }
 
     else
@@ -19722,13 +19722,13 @@ static signed long int pi_bluetooth_read(struct pi_socket *ps, struct pi_buffer_
 // file bluetooth.c line 326
 static void pi_bluetooth_register_hotsync_sdp(struct pi_bluetooth_data *data)
 {
-  signed int return_value_register_sdp$1;
-  return_value_register_sdp$1=register_sdp(&data->handle, &data->channel, &data->sess);
-  if(!(return_value_register_sdp$1 >= 0))
+  signed int return_value_register_sdp_1;
+  return_value_register_sdp_1=register_sdp(&data->handle, &data->channel, &data->sess);
+  if(!(return_value_register_sdp_1 >= 0))
   {
     data->channel = -1;
     data->handle = (unsigned int)0;
-    data->sess = (struct anonymous$21 *)(void *)0;
+    data->sess = (struct anonymous_21 *)(void *)0;
   }
 
 }
@@ -19769,12 +19769,12 @@ static signed long int pi_bluetooth_write(struct pi_socket *ps, const unsigned c
   signed int nwrote;
   struct pi_bluetooth_data *data = (struct pi_bluetooth_data *)ps->device->data;
   struct timeval t;
-  struct anonymous$9 ready;
+  struct anonymous_9 ready;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << ps->sd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -19782,13 +19782,13 @@ static signed long int pi_bluetooth_write(struct pi_socket *ps, const unsigned c
   while(total >= 1)
   {
     if(data->timeout == 0)
-      select(ps->sd + 1, ((struct anonymous$9 *)NULL), &ready, ((struct anonymous$9 *)NULL), ((struct timeval *)NULL));
+      select(ps->sd + 1, ((struct anonymous_9 *)NULL), &ready, ((struct anonymous_9 *)NULL), ((struct timeval *)NULL));
 
     else
     {
       t.tv_sec = (signed long int)(data->timeout / 1000);
       t.tv_usec = (signed long int)((data->timeout % 1000) * 1000);
-      select(ps->sd + 1, ((struct anonymous$9 *)NULL), &ready, ((struct anonymous$9 *)NULL), &t);
+      select(ps->sd + 1, ((struct anonymous_9 *)NULL), &ready, ((struct anonymous_9 *)NULL), &t);
     }
     if((ready.__fds_bits[(signed long int)(ps->sd / 8)] & (signed long int)(1UL << ps->sd % 8)) == 0l)
     {
@@ -19796,9 +19796,9 @@ static signed long int pi_bluetooth_write(struct pi_socket *ps, const unsigned c
       return (signed long int)-1;
     }
 
-    signed long int return_value_write$1;
-    return_value_write$1=write(ps->sd, (const void *)buf, len);
-    nwrote = (signed int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(ps->sd, (const void *)buf, len);
+    nwrote = (signed int)return_value_write_1;
     if(!(nwrote >= 0))
     {
       pi_set_error(ps->sd, -204);
@@ -19815,9 +19815,9 @@ static signed long int pi_bluetooth_write(struct pi_socket *ps, const unsigned c
 // file ../include/pi-buffer.h line 105
 extern struct pi_buffer_t * pi_buffer_append(struct pi_buffer_t *buf, const void *data, unsigned long int len)
 {
-  struct pi_buffer_t *return_value_pi_buffer_expect$1;
-  return_value_pi_buffer_expect$1=pi_buffer_expect(buf, len);
-  if(return_value_pi_buffer_expect$1 == ((struct pi_buffer_t *)NULL))
+  struct pi_buffer_t *return_value_pi_buffer_expect_1;
+  return_value_pi_buffer_expect_1=pi_buffer_expect(buf, len);
+  if(return_value_pi_buffer_expect_1 == ((struct pi_buffer_t *)NULL))
     return (struct pi_buffer_t *)(void *)0;
 
   else
@@ -19832,9 +19832,9 @@ extern struct pi_buffer_t * pi_buffer_append(struct pi_buffer_t *buf, const void
 // file pi-buffer.c line 86
 extern struct pi_buffer_t * pi_buffer_append_buffer(struct pi_buffer_t *dest, const struct pi_buffer_t *src)
 {
-  struct pi_buffer_t *return_value_pi_buffer_append$1;
-  return_value_pi_buffer_append$1=pi_buffer_append(dest, (const void *)src->data, src->used);
-  return return_value_pi_buffer_append$1;
+  struct pi_buffer_t *return_value_pi_buffer_append_1;
+  return_value_pi_buffer_append_1=pi_buffer_append(dest, (const void *)src->data, src->used);
+  return return_value_pi_buffer_append_1;
 }
 
 // pi_buffer_clear
@@ -19844,9 +19844,9 @@ extern void pi_buffer_clear(struct pi_buffer_t *buf)
   buf->used = (unsigned long int)0;
   if(buf->allocated >= 65536ul)
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)buf->data, (unsigned long int)65535);
-    buf->data = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)buf->data, (unsigned long int)65535);
+    buf->data = (unsigned char *)return_value_realloc_1;
     buf->allocated = (unsigned long int)(buf->data == (unsigned char *)(void *)0 ? 0 : 65535);
   }
 
@@ -19856,8 +19856,8 @@ extern void pi_buffer_clear(struct pi_buffer_t *buf)
 // file ../include/pi-buffer.h line 93
 extern struct pi_buffer_t * pi_buffer_expect(struct pi_buffer_t *buf, unsigned long int expect)
 {
-  void *return_value_realloc$1;
-  void *return_value_malloc$2;
+  void *return_value_realloc_1;
+  void *return_value_malloc_2;
   if(buf->allocated + -buf->used >= expect)
     return buf;
 
@@ -19865,14 +19865,14 @@ extern struct pi_buffer_t * pi_buffer_expect(struct pi_buffer_t *buf, unsigned l
   {
     if(!(buf->data == ((unsigned char *)NULL)))
     {
-      return_value_realloc$1=realloc((void *)buf->data, buf->used + expect);
-      buf->data = (unsigned char *)return_value_realloc$1;
+      return_value_realloc_1=realloc((void *)buf->data, buf->used + expect);
+      buf->data = (unsigned char *)return_value_realloc_1;
     }
 
     else
     {
-      return_value_malloc$2=malloc(expect);
-      buf->data = (unsigned char *)return_value_malloc$2;
+      return_value_malloc_2=malloc(expect);
+      buf->data = (unsigned char *)return_value_malloc_2;
     }
     if(buf->data == ((unsigned char *)NULL))
     {
@@ -19908,9 +19908,9 @@ extern void pi_buffer_free(struct pi_buffer_t *buf)
 extern struct pi_buffer_t * pi_buffer_new(unsigned long int capacity)
 {
   struct pi_buffer_t *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_buffer_t) /*24ul*/ );
-  buf = (struct pi_buffer_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_buffer_t) /*24ul*/ );
+  buf = (struct pi_buffer_t *)return_value_malloc_1;
   if(buf == ((struct pi_buffer_t *)NULL))
     return (struct pi_buffer_t *)(void *)0;
 
@@ -19919,9 +19919,9 @@ extern struct pi_buffer_t * pi_buffer_new(unsigned long int capacity)
     if(!(capacity >= 1ul))
       capacity = (unsigned long int)16;
 
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(capacity);
-    buf->data = (unsigned char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(capacity);
+    buf->data = (unsigned char *)return_value_malloc_2;
     if(buf->data == ((unsigned char *)NULL))
     {
       free((void *)buf);
@@ -19946,9 +19946,9 @@ extern signed int pi_close(signed int pi_sd)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
@@ -19956,9 +19956,9 @@ extern signed int pi_close(signed int pi_sd)
   {
     if(!(ps->cmd == 0x03))
     {
-      signed int return_value_is_connected$2;
-      return_value_is_connected$2=is_connected(ps);
-      if(!(return_value_is_connected$2 == 0))
+      signed int return_value_is_connected_2;
+      return_value_is_connected_2=is_connected(ps);
+      if(!(return_value_is_connected_2 == 0))
       {
         ps->command = 1;
         result=dlp_EndOfSync(ps->sd, 0);
@@ -20068,9 +20068,9 @@ static struct pi_socket * pi_devsocket(signed int pi_sd, const char *port, struc
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return (struct pi_socket *)(void *)0;
   }
 
@@ -20079,23 +20079,23 @@ static struct pi_socket * pi_devsocket(signed int pi_sd, const char *port, struc
     port=getenv("PILOTPORT");
     if(port == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 6;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 6;
       return (struct pi_socket *)(void *)0;
     }
 
   }
 
   addr->pi_family = (unsigned short int)0x00;
-  signed int return_value_strncmp$9;
-  return_value_strncmp$9=strncmp(port, "serial:", (unsigned long int)7);
-  signed int return_value_strncmp$8;
-  signed int return_value_strncmp$7;
-  signed int return_value_strncmp$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strncmp$5;
-  if(return_value_strncmp$9 == 0)
+  signed int return_value_strncmp_9;
+  return_value_strncmp_9=strncmp(port, "serial:", (unsigned long int)7);
+  signed int return_value_strncmp_8;
+  signed int return_value_strncmp_7;
+  signed int return_value_strncmp_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strncmp_5;
+  if(return_value_strncmp_9 == 0)
   {
     strncpy(addr->pi_device, port + (signed long int)7, sizeof(char [255l]) /*255ul*/ );
     ps->device=pi_serial_device(1);
@@ -20103,8 +20103,8 @@ static struct pi_socket * pi_devsocket(signed int pi_sd, const char *port, struc
 
   else
   {
-    return_value_strncmp$8=strncmp(port, "usb:", (unsigned long int)4);
-    if(return_value_strncmp$8 == 0)
+    return_value_strncmp_8=strncmp(port, "usb:", (unsigned long int)4);
+    if(return_value_strncmp_8 == 0)
     {
       strncpy(addr->pi_device, port + (signed long int)4, sizeof(char [255l]) /*255ul*/ );
       ps->device=pi_usb_device(1);
@@ -20112,8 +20112,8 @@ static struct pi_socket * pi_devsocket(signed int pi_sd, const char *port, struc
 
     else
     {
-      return_value_strncmp$7=strncmp(port, "net:", (unsigned long int)4);
-      if(return_value_strncmp$7 == 0)
+      return_value_strncmp_7=strncmp(port, "net:", (unsigned long int)4);
+      if(return_value_strncmp_7 == 0)
       {
         strncpy(addr->pi_device, port + (signed long int)4, sizeof(char [255l]) /*255ul*/ );
         ps->device=pi_inet_device(1);
@@ -20121,20 +20121,20 @@ static struct pi_socket * pi_devsocket(signed int pi_sd, const char *port, struc
 
       else
       {
-        return_value_strncmp$4=strncmp(port, "bluetooth:", (unsigned long int)10);
-        if(return_value_strncmp$4 == 0)
-          tmp_if_expr$6 = (_Bool)1;
+        return_value_strncmp_4=strncmp(port, "bluetooth:", (unsigned long int)10);
+        if(return_value_strncmp_4 == 0)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value_strncmp$5=strncmp(port, "bt:", (unsigned long int)3);
-          tmp_if_expr$6 = !(return_value_strncmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_5=strncmp(port, "bt:", (unsigned long int)3);
+          tmp_if_expr_6 = !(return_value_strncmp_5 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
         {
-          char *return_value_strchr$3;
-          return_value_strchr$3=strchr(port, 58);
-          strncpy(addr->pi_device, return_value_strchr$3 + (signed long int)1, sizeof(char [255l]) /*255ul*/ );
+          char *return_value_strchr_3;
+          return_value_strchr_3=strchr(port, 58);
+          strncpy(addr->pi_device, return_value_strchr_3 + (signed long int)1, sizeof(char [255l]) /*255ul*/ );
           ps->device=pi_bluetooth_device(1);
         }
 
@@ -20167,12 +20167,12 @@ extern void pi_dumpline(const char *buf, unsigned long int len, unsigned int add
   char line[256l];
   offset=sprintf(line, "  %.4x  ", addr);
   i = (unsigned int)0;
-  signed int return_value_sprintf$1;
+  signed int return_value_sprintf_1;
   for( ; !(i >= 16u); i = i + 1u)
     if(!((unsigned long int)i >= len))
     {
-      return_value_sprintf$1=sprintf(line + (signed long int)offset, "%.2x ", (unsigned int)0xff & (unsigned int)buf[(signed long int)i]);
-      offset = offset + return_value_sprintf$1;
+      return_value_sprintf_1=sprintf(line + (signed long int)offset, "%.2x ", (unsigned int)0xff & (unsigned int)buf[(signed long int)i]);
+      offset = offset + return_value_sprintf_1;
     }
 
     else
@@ -20183,49 +20183,49 @@ extern void pi_dumpline(const char *buf, unsigned long int len, unsigned int add
   strcpy(line + (signed long int)offset, "  ");
   offset = offset + 2;
   i = (unsigned int)0;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  const unsigned short int **return_value___ctype_b_loc$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
   for( ; !((unsigned long int)i >= len); i = i + 1u)
     if((signed int)buf[(signed long int)i] == 37)
     {
-      tmp_post$2 = offset;
+      tmp_post_2 = offset;
       offset = offset + 1;
-      line[(signed long int)tmp_post$2] = (char)37;
-      tmp_post$3 = offset;
+      line[(signed long int)tmp_post_2] = (char)37;
+      tmp_post_3 = offset;
       offset = offset + 1;
-      line[(signed long int)tmp_post$3] = (char)37;
+      line[(signed long int)tmp_post_3] = (char)37;
     }
 
     else
     {
-      return_value___ctype_b_loc$6=__ctype_b_loc();
-      if(!((16384 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)buf[(signed long int)i]]) == 0))
-        tmp_if_expr$7 = (signed int)buf[(signed long int)i] >= 32 ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_6=__ctype_b_loc();
+      if(!((16384 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)buf[(signed long int)i]]) == 0))
+        tmp_if_expr_7 = (signed int)buf[(signed long int)i] >= 32 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (signed int)buf[(signed long int)i] <= 126 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (signed int)buf[(signed long int)i] <= 126 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
       {
-        tmp_post$4 = offset;
+        tmp_post_4 = offset;
         offset = offset + 1;
-        line[(signed long int)tmp_post$4] = buf[(signed long int)i];
+        line[(signed long int)tmp_post_4] = buf[(signed long int)i];
       }
 
       else
       {
-        tmp_post$5 = offset;
+        tmp_post_5 = offset;
         offset = offset + 1;
-        line[(signed long int)tmp_post$5] = (char)46;
+        line[(signed long int)tmp_post_5] = (char)46;
       }
     }
   strcpy(line + (signed long int)offset, "\n");
@@ -20239,9 +20239,9 @@ extern signed int pi_error(signed int pi_sd)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
@@ -20256,8 +20256,8 @@ static struct pi_file_entry * pi_file_append_entry(struct pi_file *pf)
   unsigned long int new_size;
   struct pi_file_entry *new_entries;
   struct pi_file_entry *entp;
-  void *return_value_malloc$1;
-  void *return_value_realloc$2;
+  void *return_value_malloc_1;
+  void *return_value_realloc_2;
   if(pf->num_entries >= pf->num_entries_allocated)
   {
     if(pf->num_entries_allocated == 0)
@@ -20268,14 +20268,14 @@ static struct pi_file_entry * pi_file_append_entry(struct pi_file *pf)
     new_size = (unsigned long int)new_count * sizeof(struct pi_file_entry) /*32ul*/ ;
     if(pf->entries == ((struct pi_file_entry *)NULL))
     {
-      return_value_malloc$1=malloc(new_size);
-      new_entries = (struct pi_file_entry *)return_value_malloc$1;
+      return_value_malloc_1=malloc(new_size);
+      new_entries = (struct pi_file_entry *)return_value_malloc_1;
     }
 
     else
     {
-      return_value_realloc$2=realloc((void *)pf->entries, new_size);
-      new_entries = (struct pi_file_entry *)return_value_realloc$2;
+      return_value_realloc_2=realloc((void *)pf->entries, new_size);
+      new_entries = (struct pi_file_entry *)return_value_realloc_2;
     }
     if(new_entries == ((struct pi_file_entry *)NULL))
       return (struct pi_file_entry *)(void *)0;
@@ -20284,9 +20284,9 @@ static struct pi_file_entry * pi_file_append_entry(struct pi_file *pf)
     pf->entries = new_entries;
   }
 
-  signed int tmp_post$3 = pf->num_entries;
+  signed int tmp_post_3 = pf->num_entries;
   pf->num_entries = pf->num_entries + 1;
-  entp = &pf->entries[(signed long int)tmp_post$3];
+  entp = &pf->entries[(signed long int)tmp_post_3];
   memset((void *)entp, 0, sizeof(struct pi_file_entry) /*32ul*/ );
   return entp;
 }
@@ -20296,22 +20296,22 @@ static struct pi_file_entry * pi_file_append_entry(struct pi_file *pf)
 extern signed int pi_file_append_record(struct pi_file *pf, void *data, unsigned long int size, signed int recattrs, signed int category, unsigned long int recuid)
 {
   struct pi_file_entry *entp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pf->for_writing == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = pf->resource_flag != 0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_pi_file_id_used$2;
-  struct pi_buffer_t *return_value_pi_buffer_append$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = pf->resource_flag != 0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_pi_file_id_used_2;
+  struct pi_buffer_t *return_value_pi_buffer_append_3;
+  if(tmp_if_expr_1)
     return -400;
 
   else
     if(!(recuid == 0ul))
     {
-      return_value_pi_file_id_used$2=pi_file_id_used(pf, recuid);
-      if(return_value_pi_file_id_used$2 == 0)
+      return_value_pi_file_id_used_2=pi_file_id_used(pf, recuid);
+      if(return_value_pi_file_id_used_2 == 0)
         goto __CPROVER_DUMP_L4;
 
       return -404;
@@ -20329,8 +20329,8 @@ extern signed int pi_file_append_record(struct pi_file *pf, void *data, unsigned
       else
         if(!(size == 0ul))
         {
-          return_value_pi_buffer_append$3=pi_buffer_append(pf->tmpbuf, data, size);
-          if(!(return_value_pi_buffer_append$3 == ((struct pi_buffer_t *)NULL)))
+          return_value_pi_buffer_append_3=pi_buffer_append(pf->tmpbuf, data, size);
+          if(!(return_value_pi_buffer_append_3 == ((struct pi_buffer_t *)NULL)))
             goto __CPROVER_DUMP_L6;
 
           pf->err = 1;
@@ -20355,21 +20355,21 @@ extern signed int pi_file_append_record(struct pi_file *pf, void *data, unsigned
 extern signed int pi_file_append_resource(struct pi_file *pf, void *data, unsigned long int size, unsigned long int restype, signed int resid)
 {
   struct pi_file_entry *entp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pf->for_writing == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(pf->resource_flag != 0) ? (_Bool)1 : (_Bool)0;
-  struct pi_buffer_t *return_value_pi_buffer_append$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(pf->resource_flag != 0) ? (_Bool)1 : (_Bool)0;
+  struct pi_buffer_t *return_value_pi_buffer_append_3;
+  if(tmp_if_expr_1)
     return -400;
 
   else
   {
-    signed int return_value_pi_file_type_id_used$2;
-    return_value_pi_file_type_id_used$2=pi_file_type_id_used(pf, restype, resid);
-    if(!(return_value_pi_file_type_id_used$2 == 0))
+    signed int return_value_pi_file_type_id_used_2;
+    return_value_pi_file_type_id_used_2=pi_file_type_id_used(pf, restype, resid);
+    if(!(return_value_pi_file_type_id_used_2 == 0))
       return -404;
 
     else
@@ -20381,8 +20381,8 @@ extern signed int pi_file_append_resource(struct pi_file *pf, void *data, unsign
       else
         if(!(size == 0ul))
         {
-          return_value_pi_buffer_append$3=pi_buffer_append(pf->tmpbuf, data, size);
-          if(!(return_value_pi_buffer_append$3 == ((struct pi_buffer_t *)NULL)))
+          return_value_pi_buffer_append_3=pi_buffer_append(pf->tmpbuf, data, size);
+          if(!(return_value_pi_buffer_append_3 == ((struct pi_buffer_t *)NULL)))
             goto __CPROVER_DUMP_L6;
 
           pf->err = 1;
@@ -20435,19 +20435,19 @@ static signed int pi_file_close_for_write(struct pi_file *pf)
   unsigned char buf[512l];
   unsigned char *p;
   ip = &pf->info;
-  unsigned long int return_value_fwrite$16;
-  unsigned long int return_value_fwrite$17;
-  signed int return_value_ferror$18;
-  _Bool tmp_if_expr$20;
-  signed int return_value_feof$19;
+  unsigned long int return_value_fwrite_16;
+  unsigned long int return_value_fwrite_17;
+  signed int return_value_ferror_18;
+  _Bool tmp_if_expr_20;
+  signed int return_value_feof_19;
   if(pf->num_entries >= 64)
     return -400;
 
   else
   {
-    signed int return_value_stat$1;
-    return_value_stat$1=stat(pf->file_name, &sbuf);
-    if(return_value_stat$1 == 0)
+    signed int return_value_stat_1;
+    return_value_stat_1=stat(pf->file_name, &sbuf);
+    if(return_value_stat_1 == 0)
     {
       if((61440u & sbuf.st_mode) == 32768u)
         unlink(pf->file_name);
@@ -20468,42 +20468,42 @@ static signed int pi_file_close_for_write(struct pi_file *pf)
       ((unsigned char *)(p + (signed long int)32))[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)ip->flags >> 0 & 0xff);
       ((unsigned char *)(p + (signed long int)34))[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)ip->version >> 8 & 0xff);
       ((unsigned char *)(p + (signed long int)34))[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)ip->version >> 0 & 0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$2;
-      return_value_unix_time_to_pilot_time$2=unix_time_to_pilot_time(ip->createDate);
-      ((unsigned char *)(p + (signed long int)36))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$2 >> 24) & 0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$3;
-      return_value_unix_time_to_pilot_time$3=unix_time_to_pilot_time(ip->createDate);
-      ((unsigned char *)(p + (signed long int)36))[(signed long int)1] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$3 >> 16 & (unsigned long int)0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$4;
-      return_value_unix_time_to_pilot_time$4=unix_time_to_pilot_time(ip->createDate);
-      ((unsigned char *)(p + (signed long int)36))[(signed long int)2] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$4 >> 8 & (unsigned long int)0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$5;
-      return_value_unix_time_to_pilot_time$5=unix_time_to_pilot_time(ip->createDate);
-      ((unsigned char *)(p + (signed long int)36))[(signed long int)3] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$5 >> 0 & (unsigned long int)0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$6;
-      return_value_unix_time_to_pilot_time$6=unix_time_to_pilot_time(ip->modifyDate);
-      ((unsigned char *)(p + (signed long int)40))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$6 >> 24) & 0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$7;
-      return_value_unix_time_to_pilot_time$7=unix_time_to_pilot_time(ip->modifyDate);
-      ((unsigned char *)(p + (signed long int)40))[(signed long int)1] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$7 >> 16 & (unsigned long int)0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$8;
-      return_value_unix_time_to_pilot_time$8=unix_time_to_pilot_time(ip->modifyDate);
-      ((unsigned char *)(p + (signed long int)40))[(signed long int)2] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$8 >> 8 & (unsigned long int)0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$9;
-      return_value_unix_time_to_pilot_time$9=unix_time_to_pilot_time(ip->modifyDate);
-      ((unsigned char *)(p + (signed long int)40))[(signed long int)3] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$9 >> 0 & (unsigned long int)0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$10;
-      return_value_unix_time_to_pilot_time$10=unix_time_to_pilot_time(ip->backupDate);
-      ((unsigned char *)(p + (signed long int)44))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$10 >> 24) & 0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$11;
-      return_value_unix_time_to_pilot_time$11=unix_time_to_pilot_time(ip->backupDate);
-      ((unsigned char *)(p + (signed long int)44))[(signed long int)1] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$11 >> 16 & (unsigned long int)0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$12;
-      return_value_unix_time_to_pilot_time$12=unix_time_to_pilot_time(ip->backupDate);
-      ((unsigned char *)(p + (signed long int)44))[(signed long int)2] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$12 >> 8 & (unsigned long int)0xff);
-      unsigned long int return_value_unix_time_to_pilot_time$13;
-      return_value_unix_time_to_pilot_time$13=unix_time_to_pilot_time(ip->backupDate);
-      ((unsigned char *)(p + (signed long int)44))[(signed long int)3] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time$13 >> 0 & (unsigned long int)0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_2;
+      return_value_unix_time_to_pilot_time_2=unix_time_to_pilot_time(ip->createDate);
+      ((unsigned char *)(p + (signed long int)36))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_2 >> 24) & 0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_3;
+      return_value_unix_time_to_pilot_time_3=unix_time_to_pilot_time(ip->createDate);
+      ((unsigned char *)(p + (signed long int)36))[(signed long int)1] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_3 >> 16 & (unsigned long int)0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_4;
+      return_value_unix_time_to_pilot_time_4=unix_time_to_pilot_time(ip->createDate);
+      ((unsigned char *)(p + (signed long int)36))[(signed long int)2] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_4 >> 8 & (unsigned long int)0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_5;
+      return_value_unix_time_to_pilot_time_5=unix_time_to_pilot_time(ip->createDate);
+      ((unsigned char *)(p + (signed long int)36))[(signed long int)3] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_5 >> 0 & (unsigned long int)0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_6;
+      return_value_unix_time_to_pilot_time_6=unix_time_to_pilot_time(ip->modifyDate);
+      ((unsigned char *)(p + (signed long int)40))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_6 >> 24) & 0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_7;
+      return_value_unix_time_to_pilot_time_7=unix_time_to_pilot_time(ip->modifyDate);
+      ((unsigned char *)(p + (signed long int)40))[(signed long int)1] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_7 >> 16 & (unsigned long int)0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_8;
+      return_value_unix_time_to_pilot_time_8=unix_time_to_pilot_time(ip->modifyDate);
+      ((unsigned char *)(p + (signed long int)40))[(signed long int)2] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_8 >> 8 & (unsigned long int)0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_9;
+      return_value_unix_time_to_pilot_time_9=unix_time_to_pilot_time(ip->modifyDate);
+      ((unsigned char *)(p + (signed long int)40))[(signed long int)3] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_9 >> 0 & (unsigned long int)0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_10;
+      return_value_unix_time_to_pilot_time_10=unix_time_to_pilot_time(ip->backupDate);
+      ((unsigned char *)(p + (signed long int)44))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_10 >> 24) & 0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_11;
+      return_value_unix_time_to_pilot_time_11=unix_time_to_pilot_time(ip->backupDate);
+      ((unsigned char *)(p + (signed long int)44))[(signed long int)1] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_11 >> 16 & (unsigned long int)0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_12;
+      return_value_unix_time_to_pilot_time_12=unix_time_to_pilot_time(ip->backupDate);
+      ((unsigned char *)(p + (signed long int)44))[(signed long int)2] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_12 >> 8 & (unsigned long int)0xff);
+      unsigned long int return_value_unix_time_to_pilot_time_13;
+      return_value_unix_time_to_pilot_time_13=unix_time_to_pilot_time(ip->backupDate);
+      ((unsigned char *)(p + (signed long int)44))[(signed long int)3] = (unsigned char)((unsigned long int)return_value_unix_time_to_pilot_time_13 >> 0 & (unsigned long int)0xff);
       ((unsigned char *)(p + (signed long int)48))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)ip->modnum >> 24) & 0xff);
       ((unsigned char *)(p + (signed long int)48))[(signed long int)1] = (unsigned char)((unsigned long int)ip->modnum >> 16 & (unsigned long int)0xff);
       ((unsigned char *)(p + (signed long int)48))[(signed long int)2] = (unsigned char)((unsigned long int)ip->modnum >> 8 & (unsigned long int)0xff);
@@ -20536,9 +20536,9 @@ static signed int pi_file_close_for_write(struct pi_file *pf)
       ((unsigned char *)(p + (signed long int)72))[(signed long int)3] = (unsigned char)((unsigned long int)pf->next_record_list_id >> 0 & (unsigned long int)0xff);
       ((unsigned char *)(p + (signed long int)76))[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)pf->num_entries >> 8 & 0xff);
       ((unsigned char *)(p + (signed long int)76))[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)pf->num_entries >> 0 & 0xff);
-      unsigned long int return_value_fwrite$14;
-      return_value_fwrite$14=fwrite((const void *)buf, (unsigned long int)78, (unsigned long int)1, f);
-      if(return_value_fwrite$14 == 1ul)
+      unsigned long int return_value_fwrite_14;
+      return_value_fwrite_14=fwrite((const void *)buf, (unsigned long int)78, (unsigned long int)1, f);
+      if(return_value_fwrite_14 == 1ul)
       {
         i = 0;
         entp = pf->entries;
@@ -20571,9 +20571,9 @@ static signed int pi_file_close_for_write(struct pi_file *pf)
             ((unsigned char *)(p + (signed long int)5))[(signed long int)1] = (unsigned char)((unsigned long int)entp->uid >> 8 & (unsigned long int)0xff);
             ((unsigned char *)(p + (signed long int)5))[(signed long int)2] = (unsigned char)((unsigned long int)entp->uid >> 0 & (unsigned long int)0xff);
           }
-          unsigned long int return_value_fwrite$15;
-          return_value_fwrite$15=fwrite((const void *)buf, (unsigned long int)pf->ent_hdr_size, (unsigned long int)1, f);
-          if(!(return_value_fwrite$15 == 1ul))
+          unsigned long int return_value_fwrite_15;
+          return_value_fwrite_15=fwrite((const void *)buf, (unsigned long int)pf->ent_hdr_size, (unsigned long int)1, f);
+          if(!(return_value_fwrite_15 == 1ul))
             goto bad;
 
           offset = offset + entp->size;
@@ -20582,32 +20582,32 @@ static signed int pi_file_close_for_write(struct pi_file *pf)
         fwrite((const void *)"\0\0", (unsigned long int)1, (unsigned long int)2, f);
         if(!(pf->app_info == NULL))
         {
-          return_value_fwrite$16=fwrite(pf->app_info, (unsigned long int)1, (unsigned long int)pf->app_info_size, f);
-          if(!(return_value_fwrite$16 == (unsigned long int)pf->app_info_size))
+          return_value_fwrite_16=fwrite(pf->app_info, (unsigned long int)1, (unsigned long int)pf->app_info_size, f);
+          if(!(return_value_fwrite_16 == (unsigned long int)pf->app_info_size))
             goto bad;
 
         }
 
         if(!(pf->sort_info == NULL))
         {
-          return_value_fwrite$17=fwrite(pf->sort_info, (unsigned long int)1, (unsigned long int)pf->sort_info_size, f);
-          if(!(return_value_fwrite$17 == (unsigned long int)pf->sort_info_size))
+          return_value_fwrite_17=fwrite(pf->sort_info, (unsigned long int)1, (unsigned long int)pf->sort_info_size, f);
+          if(!(return_value_fwrite_17 == (unsigned long int)pf->sort_info_size))
             goto bad;
 
         }
 
         fwrite((const void *)pf->tmpbuf->data, pf->tmpbuf->used, (unsigned long int)1, f);
         fflush(f);
-        return_value_ferror$18=ferror(f);
-        if(!(return_value_ferror$18 == 0))
-          tmp_if_expr$20 = (_Bool)1;
+        return_value_ferror_18=ferror(f);
+        if(!(return_value_ferror_18 == 0))
+          tmp_if_expr_20 = (_Bool)1;
 
         else
         {
-          return_value_feof$19=feof(f);
-          tmp_if_expr$20 = return_value_feof$19 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_feof_19=feof(f);
+          tmp_if_expr_20 = return_value_feof_19 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$20)
+        if(tmp_if_expr_20)
           goto bad;
 
         fclose(f);
@@ -20631,9 +20631,9 @@ static signed int pi_file_close_for_write(struct pi_file *pf)
 extern struct pi_file * pi_file_create(const char *name, struct DBInfo *info)
 {
   struct pi_file *pf;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct pi_file) /*216ul*/ );
-  pf = (struct pi_file *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct pi_file) /*216ul*/ );
+  pf = (struct pi_file *)return_value_calloc_1;
   if(pf == ((struct pi_file *)NULL))
     return (struct pi_file *)(void *)0;
 
@@ -20785,7 +20785,7 @@ extern signed int pi_file_id_used(const struct pi_file *pf, unsigned long int ui
 
 // pi_file_install
 // file pi-file.c line 853
-extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous$5 *))
+extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous_5 *))
 {
   signed int db = -1;
   signed int j;
@@ -20799,9 +20799,9 @@ extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed 
   unsigned long int l;
   unsigned long int size = (unsigned long int)0;
   void *buffer;
-  struct anonymous$5 progress;
+  struct anonymous_5 progress;
   version=pi_version(socket);
-  memset((void *)&progress, 0, sizeof(struct anonymous$5) /*80ul*/ );
+  memset((void *)&progress, 0, sizeof(struct anonymous_5) /*80ul*/ );
   progress.type = 1;
   progress.data.db.pf = pf;
   progress.data.db.size.numRecords = (unsigned long int)pf->num_entries;
@@ -20809,23 +20809,23 @@ extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed 
   progress.data.db.size.appBlockSize = (unsigned long int)pf->app_info_size;
   progress.data.db.size.maxRecSize=pi_maxrecsize(socket);
   j = 0;
-  signed int tmp_if_expr$3;
-  signed int return_value_pi_file_read_resource$1;
-  signed int return_value_pi_file_read_record$2;
+  signed int tmp_if_expr_3;
+  signed int return_value_pi_file_read_resource_1;
+  signed int return_value_pi_file_read_record_2;
   for( ; !(j >= pf->num_entries); j = j + 1)
   {
     if(!((1u & pf->info.flags) == 0u))
     {
-      return_value_pi_file_read_resource$1=pi_file_read_resource(pf, j, ((void **)NULL), &size, ((unsigned long int *)NULL), ((signed int *)NULL));
-      tmp_if_expr$3 = return_value_pi_file_read_resource$1;
+      return_value_pi_file_read_resource_1=pi_file_read_resource(pf, j, ((void **)NULL), &size, ((unsigned long int *)NULL), ((signed int *)NULL));
+      tmp_if_expr_3 = return_value_pi_file_read_resource_1;
     }
 
     else
     {
-      return_value_pi_file_read_record$2=pi_file_read_record(pf, j, ((void **)NULL), &size, ((signed int *)NULL), ((signed int *)NULL), ((unsigned long int *)NULL));
-      tmp_if_expr$3 = return_value_pi_file_read_record$2;
+      return_value_pi_file_read_record_2=pi_file_read_record(pf, j, ((void **)NULL), &size, ((signed int *)NULL), ((signed int *)NULL), ((unsigned long int *)NULL));
+      tmp_if_expr_3 = return_value_pi_file_read_record_2;
     }
-    result = tmp_if_expr$3;
+    result = tmp_if_expr_3;
     if(!(result >= 0))
       goto fail;
 
@@ -20843,22 +20843,22 @@ extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed 
     flags = flags | 32;
   }
 
-  signed int return_value_strcmp$4;
-  return_value_strcmp$4=strcmp(pf->info.name, "Graffiti ShortCuts ");
-  if(return_value_strcmp$4 == 0)
+  signed int return_value_strcmp_4;
+  return_value_strcmp_4=strcmp(pf->info.name, "Graffiti ShortCuts ");
+  if(return_value_strcmp_4 == 0)
   {
     flags = flags | 0x8000;
     reset = 1;
   }
 
   result=dlp_CreateDB(socket, pf->info.creator, pf->info.type, cardno, flags, pf->info.version, pf->info.name, &db);
-  signed int return_value_strcmp$5;
+  signed int return_value_strcmp_5;
   if(!(result >= 0))
   {
     signed int retry = 0;
-    signed int return_value_strcmp$6;
-    return_value_strcmp$6=strcmp(pf->info.name, "Graffiti ShortCuts ");
-    if(return_value_strcmp$6 == 0)
+    signed int return_value_strcmp_6;
+    return_value_strcmp_6=strcmp(pf->info.name, "Graffiti ShortCuts ");
+    if(return_value_strcmp_6 == 0)
     {
       strcpy(pf->info.name, "Graffiti ShortCuts");
       retry = 1;
@@ -20866,8 +20866,8 @@ extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed 
 
     else
     {
-      return_value_strcmp$5=strcmp(pf->info.name, "Graffiti ShortCuts");
-      if(return_value_strcmp$5 == 0)
+      return_value_strcmp_5=strcmp(pf->info.name, "Graffiti ShortCuts");
+      if(return_value_strcmp_5 == 0)
       {
         strcpy(pf->info.name, "Graffiti ShortCuts ");
         retry = 1;
@@ -20894,11 +20894,11 @@ extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed 
   }
 
   pi_file_get_app_info(pf, &buffer, &l);
-  signed int return_value_strcmp$7;
+  signed int return_value_strcmp_7;
   if(version >= 257)
   {
-    return_value_strcmp$7=strcmp(pf->info.name, "MemoDB");
-    if(return_value_strcmp$7 == 0)
+    return_value_strcmp_7=strcmp(pf->info.name, "MemoDB");
+    if(return_value_strcmp_7 == 0)
     {
       if(l >= 1ul)
       {
@@ -20941,7 +20941,7 @@ extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed 
       free(buffer);
 
     progress.transferred_bytes = (signed int)l;
-    if(!(report_progress == ((signed int (*)(signed int, struct anonymous$5 *))NULL)))
+    if(!(report_progress == ((signed int (*)(signed int, struct anonymous_5 *))NULL)))
     {
       return_value=report_progress(socket, &progress);
       if(return_value == 0)
@@ -20972,7 +20972,7 @@ extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed 
 
         progress.transferred_bytes = progress.transferred_bytes + (signed int)size;
         progress.data.db.transferred_records = progress.data.db.transferred_records + 1;
-        if(!(report_progress == ((signed int (*)(signed int, struct anonymous$5 *))NULL)))
+        if(!(report_progress == ((signed int (*)(signed int, struct anonymous_5 *))NULL)))
         {
           return_value_1=report_progress(socket, &progress);
           if(return_value_1 == 0)
@@ -20995,20 +20995,20 @@ extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed 
     {
       signed int attr;
       signed int category;
-      unsigned long int pi_file_install$$1$$8$$1$$1$$resource_id;
-      result=pi_file_read_record(pf, j, &buffer, &size, &attr, &category, &pi_file_install$$1$$8$$1$$1$$resource_id);
+      unsigned long int pi_file_install__1__8__1__1__resource_id;
+      result=pi_file_read_record(pf, j, &buffer, &size, &attr, &category, &pi_file_install__1__8__1__1__resource_id);
       if(!(result >= 0))
         goto fail;
 
       if((136 & attr) == 0 || version >= 0x0101)
       {
-        result=dlp_WriteRecord(socket, db, attr, pi_file_install$$1$$8$$1$$1$$resource_id, category, buffer, size, ((unsigned long int *)NULL));
+        result=dlp_WriteRecord(socket, db, attr, pi_file_install__1__8__1__1__resource_id, category, buffer, size, ((unsigned long int *)NULL));
         if(!(result >= 0))
           goto fail;
 
         progress.transferred_bytes = progress.transferred_bytes + (signed int)size;
         progress.data.db.transferred_records = progress.data.db.transferred_records + 1;
-        if(!(report_progress == ((signed int (*)(signed int, struct anonymous$5 *))NULL)))
+        if(!(report_progress == ((signed int (*)(signed int, struct anonymous_5 *))NULL)))
         {
           return_value_2=report_progress(socket, &progress);
           if(return_value_2 == 0)
@@ -21023,26 +21023,26 @@ extern signed int pi_file_install(struct pi_file *pf, signed int socket, signed 
   if(!(reset == 0))
     dlp_ResetSystem(socket);
 
-  signed int return_value_dlp_CloseDB$8;
-  return_value_dlp_CloseDB$8=dlp_CloseDB(socket, db);
-  return return_value_dlp_CloseDB$8;
+  signed int return_value_dlp_CloseDB_8;
+  return_value_dlp_CloseDB_8=dlp_CloseDB(socket, db);
+  return return_value_dlp_CloseDB_8;
 
 fail:
   ;
   err1=pi_error(socket);
   err2=pi_palmos_error(socket);
-  signed int return_value_pi_socket_connected$9;
+  signed int return_value_pi_socket_connected_9;
   if(!(db == -1))
   {
-    return_value_pi_socket_connected$9=pi_socket_connected(socket);
-    if(!(return_value_pi_socket_connected$9 == 0))
+    return_value_pi_socket_connected_9=pi_socket_connected(socket);
+    if(!(return_value_pi_socket_connected_9 == 0))
       dlp_CloseDB(socket, db);
 
   }
 
-  signed int return_value_pi_socket_connected$10;
-  return_value_pi_socket_connected$10=pi_socket_connected(socket);
-  if(!(return_value_pi_socket_connected$10 == 0))
+  signed int return_value_pi_socket_connected_10;
+  return_value_pi_socket_connected_10=pi_socket_connected(socket);
+  if(!(return_value_pi_socket_connected_10 == 0))
     dlp_DeleteDB(socket, cardno, pf->info.name);
 
   pi_set_error(socket, err1);
@@ -21055,7 +21055,7 @@ fail:
 
 // pi_file_merge
 // file pi-file.c line 1109
-extern signed int pi_file_merge(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous$5 *))
+extern signed int pi_file_merge(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous_5 *))
 {
   signed int db = -1;
   signed int j;
@@ -21064,28 +21064,28 @@ extern signed int pi_file_merge(struct pi_file *pf, signed int socket, signed in
   signed int result;
   void *buffer;
   unsigned long int size;
-  struct anonymous$5 progress;
+  struct anonymous_5 progress;
   version=pi_version(socket);
-  memset((void *)&progress, 0, sizeof(struct anonymous$5) /*80ul*/ );
+  memset((void *)&progress, 0, sizeof(struct anonymous_5) /*80ul*/ );
   progress.type = 1;
   progress.data.db.pf = pf;
   progress.data.db.size.numRecords = (unsigned long int)pf->num_entries;
   progress.data.db.size.dataBytes = (unsigned long int)pf->app_info_size;
   progress.data.db.size.appBlockSize = (unsigned long int)pf->app_info_size;
   progress.data.db.size.maxRecSize=pi_maxrecsize(socket);
-  signed int return_value_dlp_OpenDB$2;
-  return_value_dlp_OpenDB$2=dlp_OpenDB(socket, cardno, 192 | 16, pf->info.name, &db);
-  signed int return_value_pi_file_install$1;
-  signed int tmp_if_expr$5;
-  signed int return_value_pi_file_read_resource$3;
-  signed int return_value_pi_file_read_record$4;
+  signed int return_value_dlp_OpenDB_2;
+  return_value_dlp_OpenDB_2=dlp_OpenDB(socket, cardno, 192 | 16, pf->info.name, &db);
+  signed int return_value_pi_file_install_1;
+  signed int tmp_if_expr_5;
+  signed int return_value_pi_file_read_resource_3;
+  signed int return_value_pi_file_read_record_4;
   signed int return_value;
   signed int return_value_1;
-  signed int return_value_pi_socket_connected$7;
-  if(!(return_value_dlp_OpenDB$2 >= 0))
+  signed int return_value_pi_socket_connected_7;
+  if(!(return_value_dlp_OpenDB_2 >= 0))
   {
-    return_value_pi_file_install$1=pi_file_install(pf, socket, cardno, report_progress);
-    return return_value_pi_file_install$1;
+    return_value_pi_file_install_1=pi_file_install(pf, socket, cardno, report_progress);
+    return return_value_pi_file_install_1;
   }
 
   else
@@ -21095,16 +21095,16 @@ extern signed int pi_file_merge(struct pi_file *pf, signed int socket, signed in
     {
       if(!((1u & pf->info.flags) == 0u))
       {
-        return_value_pi_file_read_resource$3=pi_file_read_resource(pf, j, ((void **)NULL), &size, ((unsigned long int *)NULL), ((signed int *)NULL));
-        tmp_if_expr$5 = return_value_pi_file_read_resource$3;
+        return_value_pi_file_read_resource_3=pi_file_read_resource(pf, j, ((void **)NULL), &size, ((unsigned long int *)NULL), ((signed int *)NULL));
+        tmp_if_expr_5 = return_value_pi_file_read_resource_3;
       }
 
       else
       {
-        return_value_pi_file_read_record$4=pi_file_read_record(pf, j, ((void **)NULL), &size, ((signed int *)NULL), ((signed int *)NULL), ((unsigned long int *)NULL));
-        tmp_if_expr$5 = return_value_pi_file_read_record$4;
+        return_value_pi_file_read_record_4=pi_file_read_record(pf, j, ((void **)NULL), &size, ((signed int *)NULL), ((signed int *)NULL), ((unsigned long int *)NULL));
+        tmp_if_expr_5 = return_value_pi_file_read_record_4;
       }
-      result = tmp_if_expr$5;
+      result = tmp_if_expr_5;
       if(!(result >= 0))
         goto fail;
 
@@ -21142,7 +21142,7 @@ extern signed int pi_file_merge(struct pi_file *pf, signed int socket, signed in
 
           progress.transferred_bytes = progress.transferred_bytes + (signed int)size;
           progress.data.db.transferred_records = progress.data.db.transferred_records + 1;
-          if(!(report_progress == ((signed int (*)(signed int, struct anonymous$5 *))NULL)))
+          if(!(report_progress == ((signed int (*)(signed int, struct anonymous_5 *))NULL)))
           {
             return_value=report_progress(socket, &progress);
             if(return_value == 0)
@@ -21165,8 +21165,8 @@ extern signed int pi_file_merge(struct pi_file *pf, signed int socket, signed in
       {
         signed int attr;
         signed int category;
-        unsigned long int pi_file_merge$$1$$3$$1$$1$$resource_id;
-        result=pi_file_read_record(pf, j, &buffer, &size, &attr, &category, &pi_file_merge$$1$$3$$1$$1$$resource_id);
+        unsigned long int pi_file_merge__1__3__1__1__resource_id;
+        result=pi_file_read_record(pf, j, &buffer, &size, &attr, &category, &pi_file_merge__1__3__1__1__resource_id);
         if(!(result >= 0))
           goto fail;
 
@@ -21178,7 +21178,7 @@ extern signed int pi_file_merge(struct pi_file *pf, signed int socket, signed in
 
           progress.transferred_bytes = progress.transferred_bytes + (signed int)size;
           progress.data.db.transferred_records = progress.data.db.transferred_records + 1;
-          if(!(report_progress == ((signed int (*)(signed int, struct anonymous$5 *))NULL)))
+          if(!(report_progress == ((signed int (*)(signed int, struct anonymous_5 *))NULL)))
           {
             return_value_1=report_progress(socket, &progress);
             if(return_value_1 == 0)
@@ -21193,16 +21193,16 @@ extern signed int pi_file_merge(struct pi_file *pf, signed int socket, signed in
     if(!(reset == 0))
       dlp_ResetSystem(socket);
 
-    signed int return_value_dlp_CloseDB$6;
-    return_value_dlp_CloseDB$6=dlp_CloseDB(socket, db);
-    return return_value_dlp_CloseDB$6;
+    signed int return_value_dlp_CloseDB_6;
+    return_value_dlp_CloseDB_6=dlp_CloseDB(socket, db);
+    return return_value_dlp_CloseDB_6;
 
   fail:
     ;
     if(!(db == -1))
     {
-      return_value_pi_socket_connected$7=pi_socket_connected(socket);
-      if(!(return_value_pi_socket_connected$7 == 0))
+      return_value_pi_socket_connected_7=pi_socket_connected(socket);
+      if(!(return_value_pi_socket_connected_7 == 0))
       {
         signed int err1;
         err1=pi_error(socket);
@@ -21236,15 +21236,15 @@ extern struct pi_file * pi_file_open(const char *name)
   signed long int offset;
   signed long int app_info_offset = (signed long int)0;
   signed long int sort_info_offset = (signed long int)0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct pi_file) /*216ul*/ );
-  pf = (struct pi_file *)return_value_calloc$1;
-  signed long int return_value_ftell$2;
-  unsigned long int return_value_fread$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct pi_file) /*216ul*/ );
+  pf = (struct pi_file *)return_value_calloc_1;
+  signed long int return_value_ftell_2;
+  unsigned long int return_value_fread_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
   if(pf == ((struct pi_file *)NULL))
     return (struct pi_file *)(void *)0;
 
@@ -21254,11 +21254,11 @@ extern struct pi_file * pi_file_open(const char *name)
     if(!(pf->f == ((struct _IO_FILE *)NULL)))
     {
       fseek(pf->f, (signed long int)0, 2);
-      return_value_ftell$2=ftell(pf->f);
-      file_size = (signed int)return_value_ftell$2;
+      return_value_ftell_2=ftell(pf->f);
+      file_size = (signed int)return_value_ftell_2;
       fseek(pf->f, (signed long int)0, 0);
-      return_value_fread$3=fread((void *)buf, (unsigned long int)78, (unsigned long int)1, pf->f);
-      if(!(return_value_fread$3 == 1ul))
+      return_value_fread_3=fread((void *)buf, (unsigned long int)78, (unsigned long int)1, pf->f);
+      if(!(return_value_fread_3 == 1ul))
         goto bad;
 
       p = buf;
@@ -21298,9 +21298,9 @@ extern struct pi_file * pi_file_open(const char *name)
       offset = (signed long int)file_size;
       if(!(pf->num_entries == 0))
       {
-        void *return_value_calloc$4;
-        return_value_calloc$4=calloc((unsigned long int)pf->num_entries, sizeof(struct pi_file_entry) /*32ul*/ );
-        pf->entries = (struct pi_file_entry *)return_value_calloc$4;
+        void *return_value_calloc_4;
+        return_value_calloc_4=calloc((unsigned long int)pf->num_entries, sizeof(struct pi_file_entry) /*32ul*/ );
+        pf->entries = (struct pi_file_entry *)return_value_calloc_4;
         if(pf->entries == ((struct pi_file_entry *)NULL))
           goto bad;
 
@@ -21308,9 +21308,9 @@ extern struct pi_file * pi_file_open(const char *name)
         entp = pf->entries;
         for( ; !(i >= pf->num_entries); entp = entp + 1l)
         {
-          unsigned long int return_value_fread$5;
-          return_value_fread$5=fread((void *)buf, (unsigned long int)pf->ent_hdr_size, (unsigned long int)1, pf->f);
-          if(!(return_value_fread$5 == 1ul))
+          unsigned long int return_value_fread_5;
+          return_value_fread_5=fread((void *)buf, (unsigned long int)pf->ent_hdr_size, (unsigned long int)1, pf->f);
+          if(!(return_value_fread_5 == 1ul))
             goto bad;
 
           p = buf;
@@ -21336,11 +21336,11 @@ extern struct pi_file * pi_file_open(const char *name)
           entp->size = (signed int)(offset - (signed long int)entp->offset);
           offset = (signed long int)entp->offset;
           if(!(entp->size >= 0))
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = entp->offset + entp->size > file_size ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = entp->offset + entp->size > file_size ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
             goto bad;
 
           i = i + 1;
@@ -21360,21 +21360,21 @@ extern struct pi_file * pi_file_open(const char *name)
       }
 
       if(!(pf->app_info_size >= 0))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = sort_info_offset + (signed long int)pf->sort_info_size > (signed long int)file_size ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = sort_info_offset + (signed long int)pf->sort_info_size > (signed long int)file_size ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = pf->sort_info_size < 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = pf->sort_info_size < 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = app_info_offset + (signed long int)pf->app_info_size > (signed long int)file_size ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = app_info_offset + (signed long int)pf->app_info_size > (signed long int)file_size ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
         goto bad;
 
       if(pf->app_info_size == 0)
@@ -21387,9 +21387,9 @@ extern struct pi_file * pi_file_open(const char *name)
           goto bad;
 
         fseek(pf->f, (signed long int)app_info_offset, 0);
-        unsigned long int return_value_fread$10;
-        return_value_fread$10=fread(pf->app_info, (unsigned long int)1, (unsigned long int)pf->app_info_size, pf->f);
-        if(!(return_value_fread$10 == (unsigned long int)pf->app_info_size))
+        unsigned long int return_value_fread_10;
+        return_value_fread_10=fread(pf->app_info, (unsigned long int)1, (unsigned long int)pf->app_info_size, pf->f);
+        if(!(return_value_fread_10 == (unsigned long int)pf->app_info_size))
           goto bad;
 
       }
@@ -21403,9 +21403,9 @@ extern struct pi_file * pi_file_open(const char *name)
           goto bad;
 
         fseek(pf->f, (signed long int)sort_info_offset, 0);
-        unsigned long int return_value_fread$11;
-        return_value_fread$11=fread(pf->sort_info, (unsigned long int)1, (unsigned long int)pf->sort_info_size, pf->f);
-        if(!(return_value_fread$11 == (unsigned long int)pf->sort_info_size))
+        unsigned long int return_value_fread_11;
+        return_value_fread_11=fread(pf->sort_info, (unsigned long int)1, (unsigned long int)pf->sort_info_size, pf->f);
+        if(!(return_value_fread_11 == (unsigned long int)pf->sort_info_size))
           goto bad;
 
       }
@@ -21429,24 +21429,24 @@ extern signed int pi_file_read_record(struct pi_file *pf, signed int recindex, v
 {
   signed int result;
   struct pi_file_entry *entp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(pf->for_writing == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = pf->resource_flag != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = pf->resource_flag != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
     return -400;
 
   else
   {
     if(!(recindex >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = recindex >= pf->num_entries ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = recindex >= pf->num_entries ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -501;
 
     else
@@ -21459,9 +21459,9 @@ extern signed int pi_file_read_record(struct pi_file *pf, signed int recindex, v
           return result;
 
         fseek(pf->f, (signed long int)(pf->entries + (signed long int)recindex)->offset, 0);
-        unsigned long int return_value_fread$3;
-        return_value_fread$3=fread(pf->rbuf, (unsigned long int)1, (unsigned long int)entp->size, pf->f);
-        if(!(return_value_fread$3 == (unsigned long int)entp->size))
+        unsigned long int return_value_fread_3;
+        return_value_fread_3=fread(pf->rbuf, (unsigned long int)1, (unsigned long int)entp->size, pf->f);
+        if(!(return_value_fread_3 == (unsigned long int)entp->size))
           return -401;
 
         *bufp = pf->rbuf;
@@ -21499,9 +21499,9 @@ extern signed int pi_file_read_record_by_id(struct pi_file *pf, unsigned long in
       if(!(idxp == ((signed int *)NULL)))
         *idxp = i;
 
-      signed int return_value_pi_file_read_record$1;
-      return_value_pi_file_read_record$1=pi_file_read_record(pf, i, bufp, sizep, attrp, catp, &uid);
-      return return_value_pi_file_read_record$1;
+      signed int return_value_pi_file_read_record_1;
+      return_value_pi_file_read_record_1=pi_file_read_record(pf, i, bufp, sizep, attrp, catp, &uid);
+      return return_value_pi_file_read_record_1;
     }
 
     i = i + 1;
@@ -21515,24 +21515,24 @@ extern signed int pi_file_read_resource(struct pi_file *pf, signed int i, void *
 {
   struct pi_file_entry *entp;
   signed int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(pf->for_writing == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(pf->resource_flag != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(pf->resource_flag != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
     return -400;
 
   else
   {
     if(!(i >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = i >= pf->num_entries ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = i >= pf->num_entries ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -501;
 
     else
@@ -21545,9 +21545,9 @@ extern signed int pi_file_read_resource(struct pi_file *pf, signed int i, void *
           return result;
 
         fseek(pf->f, (signed long int)(pf->entries + (signed long int)i)->offset, 0);
-        unsigned long int return_value_fread$3;
-        return_value_fread$3=fread(pf->rbuf, (unsigned long int)1, (unsigned long int)entp->size, pf->f);
-        if(!(return_value_fread$3 == (unsigned long int)entp->size))
+        unsigned long int return_value_fread_3;
+        return_value_fread_3=fread(pf->rbuf, (unsigned long int)1, (unsigned long int)entp->size, pf->f);
+        if(!(return_value_fread_3 == (unsigned long int)entp->size))
           return -401;
 
         *bufp = pf->rbuf;
@@ -21582,15 +21582,15 @@ extern signed int pi_file_read_resource_by_type_id(struct pi_file *pf, unsigned 
     if(!(resindex == ((signed int *)NULL)))
       *resindex = i;
 
-    signed int return_value_pi_file_read_resource$1;
-    return_value_pi_file_read_resource$1=pi_file_read_resource(pf, i, bufp, sizep, (unsigned long int *)(void *)0, (signed int *)(void *)0);
-    return return_value_pi_file_read_resource$1;
+    signed int return_value_pi_file_read_resource_1;
+    return_value_pi_file_read_resource_1=pi_file_read_resource(pf, i, bufp, sizep, (unsigned long int *)(void *)0, (signed int *)(void *)0);
+    return return_value_pi_file_read_resource_1;
   }
 }
 
 // pi_file_retrieve
 // file pi-file.c line 683
-extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous$5 *))
+extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed int cardno, signed int (*report_progress)(signed int, struct anonymous_5 *))
 {
   signed int db = -1;
   signed int result;
@@ -21599,7 +21599,7 @@ extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed
   struct DBInfo dbi;
   struct DBSizeInfo size_info;
   struct pi_buffer_t *buffer = (struct pi_buffer_t *)(void *)0;
-  struct anonymous$5 progress;
+  struct anonymous_5 progress;
   pi_reset_errors(socket);
   memset((void *)&size_info, 0, sizeof(struct DBSizeInfo) /*48ul*/ );
   memset((void *)&dbi, 0, sizeof(struct DBInfo) /*112ul*/ );
@@ -21616,8 +21616,8 @@ extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed
   signed int return_value;
   signed int return_value_1;
   signed int return_value_2;
-  signed int return_value_dlp_CloseDB$1;
-  signed int return_value_pi_socket_connected$2;
+  signed int return_value_dlp_CloseDB_1;
+  signed int return_value_pi_socket_connected_2;
   if(result >= 0)
   {
     buffer=pi_buffer_new((unsigned long int)0xffff);
@@ -21637,7 +21637,7 @@ extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed
       size_info.numRecords = (unsigned long int)num_records;
     }
 
-    memset((void *)&progress, 0, sizeof(struct anonymous$5) /*80ul*/ );
+    memset((void *)&progress, 0, sizeof(struct anonymous_5) /*80ul*/ );
     progress.type = 2;
     progress.data.db.pf = pf;
     progress.data.db.size = size_info;
@@ -21648,7 +21648,7 @@ extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed
       {
         pi_file_set_app_info(pf, (void *)buffer->data, (unsigned long int)result);
         progress.transferred_bytes = progress.transferred_bytes + result;
-        if(!(report_progress == ((signed int (*)(signed int, struct anonymous$5 *))NULL)))
+        if(!(report_progress == ((signed int (*)(signed int, struct anonymous_5 *))NULL)))
         {
           return_value=report_progress(socket, &progress);
           if(return_value == 0)
@@ -21680,7 +21680,7 @@ extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed
 
         progress.transferred_bytes = progress.transferred_bytes + (signed int)buffer->used;
         progress.data.db.transferred_records = progress.data.db.transferred_records + 1;
-        if(!(report_progress == ((signed int (*)(signed int, struct anonymous$5 *))NULL)))
+        if(!(report_progress == ((signed int (*)(signed int, struct anonymous_5 *))NULL)))
         {
           return_value_1=report_progress(socket, &progress);
           if(return_value_1 == 0)
@@ -21698,14 +21698,14 @@ extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed
       {
         signed int attr;
         signed int category;
-        unsigned long int pi_file_retrieve$$1$$6$$1$$resource_id;
-        result=dlp_ReadRecordByIndex(socket, db, (signed int)j, buffer, &pi_file_retrieve$$1$$6$$1$$resource_id, &attr, &category);
+        unsigned long int pi_file_retrieve__1__6__1__resource_id;
+        result=dlp_ReadRecordByIndex(socket, db, (signed int)j, buffer, &pi_file_retrieve__1__6__1__resource_id, &attr, &category);
         if(!(result >= 0))
           goto fail;
 
         progress.transferred_bytes = progress.transferred_bytes + (signed int)buffer->used;
         progress.data.db.transferred_records = progress.data.db.transferred_records + 1;
-        if(!(report_progress == ((signed int (*)(signed int, struct anonymous$5 *))NULL)))
+        if(!(report_progress == ((signed int (*)(signed int, struct anonymous_5 *))NULL)))
         {
           return_value_2=report_progress(socket, &progress);
           if(return_value_2 == 0)
@@ -21715,7 +21715,7 @@ extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed
 
         if((136 & attr) == 0)
         {
-          result=pi_file_append_record(pf, (void *)buffer->data, buffer->used, attr, category, pi_file_retrieve$$1$$6$$1$$resource_id);
+          result=pi_file_append_record(pf, (void *)buffer->data, buffer->used, attr, category, pi_file_retrieve__1__6__1__resource_id);
           if(!(result >= 0))
           {
             pi_set_error(socket, result);
@@ -21727,8 +21727,8 @@ extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed
       }
     }
     pi_buffer_free(buffer);
-    return_value_dlp_CloseDB$1=dlp_CloseDB(socket, db);
-    return return_value_dlp_CloseDB$1;
+    return_value_dlp_CloseDB_1=dlp_CloseDB(socket, db);
+    return return_value_dlp_CloseDB_1;
   }
 
   else
@@ -21738,8 +21738,8 @@ extern signed int pi_file_retrieve(struct pi_file *pf, signed int socket, signed
     ;
     if(!(db == -1))
     {
-      return_value_pi_socket_connected$2=pi_socket_connected(socket);
-      if(!(return_value_pi_socket_connected$2 == 0))
+      return_value_pi_socket_connected_2=pi_socket_connected(socket);
+      if(!(return_value_pi_socket_connected_2 == 0))
       {
         signed int err;
         err=pi_error(socket);
@@ -21879,9 +21879,9 @@ extern signed int pi_file_set_sort_info(struct pi_file *pf, void *data, unsigned
 // file pi-file.c line 397
 extern signed int pi_file_type_id_used(const struct pi_file *pf, unsigned long int restype, signed int resid)
 {
-  signed int return_value_pi_file_find_resource_by_type_id$1;
-  return_value_pi_file_find_resource_by_type_id$1=pi_file_find_resource_by_type_id(pf, restype, resid, (signed int *)(void *)0);
-  return return_value_pi_file_find_resource_by_type_id$1;
+  signed int return_value_pi_file_find_resource_by_type_id_1;
+  return_value_pi_file_find_resource_by_type_id_1=pi_file_find_resource_by_type_id(pf, restype, resid, (signed int *)(void *)0);
+  return return_value_pi_file_find_resource_by_type_id_1;
 }
 
 // pi_flush
@@ -21892,15 +21892,15 @@ extern void pi_flush(signed int pi_sd, signed int flags)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     goto __CPROVER_DUMP_L3;
   }
 
-  signed int return_value_is_connected$2;
-  return_value_is_connected$2=is_connected(ps);
-  if(!(return_value_is_connected$2 == 0))
+  signed int return_value_is_connected_2;
+  return_value_is_connected_2=is_connected(ps);
+  if(!(return_value_is_connected_2 == 0))
     ps->protocol_queue[(signed long int)0]->flush(ps, flags);
 
 
@@ -21916,9 +21916,9 @@ extern signed int pi_getsockname(signed int pi_sd, struct sockaddr *addr, unsign
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
@@ -21938,13 +21938,13 @@ extern signed int pi_getsockopt(signed int pi_sd, signed int level, signed int o
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(level == 7)
   {
     switch(option_name)
@@ -21975,18 +21975,18 @@ extern signed int pi_getsockopt(signed int pi_sd, signed int level, signed int o
   {
     prot=protocol_queue_find(ps, level);
     if(prot == ((struct pi_protocol *)NULL))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = prot->level != level ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = prot->level != level ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 22;
-      signed int return_value_pi_set_error$3;
-      return_value_pi_set_error$3=pi_set_error(pi_sd, -201);
-      return return_value_pi_set_error$3;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 22;
+      signed int return_value_pi_set_error_3;
+      return_value_pi_set_error_3=pi_set_error(pi_sd, -201);
+      return return_value_pi_set_error_3;
     }
 
     signed int return_value;
@@ -21995,12 +21995,12 @@ extern signed int pi_getsockopt(signed int pi_sd, signed int level, signed int o
 
   argerr:
     ;
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5 = 22;
-    signed int return_value_pi_set_error$6;
-    return_value_pi_set_error$6=pi_set_error(pi_sd, -501);
-    return return_value_pi_set_error$6;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5 = 22;
+    signed int return_value_pi_set_error_6;
+    return_value_pi_set_error_6=pi_set_error(pi_sd, -501);
+    return return_value_pi_set_error_6;
   }
 }
 
@@ -22012,9 +22012,9 @@ extern signed int pi_getsockpeer(signed int pi_sd, struct sockaddr *addr, unsign
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
@@ -22126,20 +22126,20 @@ static signed int pi_inet_bind(struct pi_socket *ps, struct sockaddr *addr, unsi
   char *port = (char *)(void *)0;
   memset((void *)&serv_addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   serv_addr.sin_family = (unsigned short int)2;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(device);
-  _Bool tmp_if_expr$4;
-  signed int return_value_strncmp$3;
-  if(return_value_strlen$2 >= 2ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(device);
+  _Bool tmp_if_expr_4;
+  signed int return_value_strncmp_3;
+  if(return_value_strlen_2 >= 2ul)
   {
-    return_value_strncmp$3=strncmp(device, "any", (unsigned long int)3);
-    tmp_if_expr$4 = return_value_strncmp$3 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strncmp_3=strncmp(device, "any", (unsigned long int)3);
+    tmp_if_expr_4 = return_value_strncmp_3 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  signed int return_value_pi_set_error$1;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  signed int return_value_pi_set_error_1;
+  if(tmp_if_expr_4)
   {
     serv_addr.sin_addr.s_addr=inet_addr(device);
     if(serv_addr.sin_addr.s_addr == 4294967295u)
@@ -22148,8 +22148,8 @@ static signed int pi_inet_bind(struct pi_socket *ps, struct sockaddr *addr, unsi
       hostent=gethostbyname(device);
       if(hostent == ((struct hostent *)NULL))
       {
-        return_value_pi_set_error$1=pi_set_error(ps->sd, -502);
-        return return_value_pi_set_error$1;
+        return_value_pi_set_error_1=pi_set_error(ps->sd, -502);
+        return return_value_pi_set_error_1;
       }
 
       memcpy((void *)(char *)&serv_addr.sin_addr.s_addr, (const void *)hostent->h_addr_list[(signed long int)0], (unsigned long int)hostent->h_length);
@@ -22163,9 +22163,9 @@ static signed int pi_inet_bind(struct pi_socket *ps, struct sockaddr *addr, unsi
   if(!(port == ((char *)NULL)))
   {
     port = port + 1l;
-    signed int return_value_atoi$5;
-    return_value_atoi$5=atoi(port);
-    serv_addr.sin_port=htons((unsigned short int)return_value_atoi$5);
+    signed int return_value_atoi_5;
+    return_value_atoi_5=atoi(port);
+    serv_addr.sin_port=htons((unsigned short int)return_value_atoi_5);
   }
 
   else
@@ -22174,13 +22174,13 @@ static signed int pi_inet_bind(struct pi_socket *ps, struct sockaddr *addr, unsi
   if(!(sd >= 0))
   {
     pi_log(0x002, 0x01, "DEV BIND Inet: Unable to create socket\n");
-    signed int return_value_pi_set_error$6;
-    return_value_pi_set_error$6=pi_set_error(ps->sd, -502);
-    return return_value_pi_set_error$6;
+    signed int return_value_pi_set_error_6;
+    return_value_pi_set_error_6=pi_set_error(ps->sd, -502);
+    return return_value_pi_set_error_6;
   }
 
   err=pi_socket_setsd(ps, sd);
-  signed int return_value_pi_set_error$9;
+  signed int return_value_pi_set_error_9;
   if(!(err >= 0))
     return err;
 
@@ -22188,34 +22188,34 @@ static signed int pi_inet_bind(struct pi_socket *ps, struct sockaddr *addr, unsi
   {
     opt = 1;
     optlen = sizeof(signed int) /*4ul*/ ;
-    signed int return_value_setsockopt$8;
-    return_value_setsockopt$8=setsockopt(ps->sd, 1, 2, (void *)&opt, (unsigned int)(signed int)optlen);
-    if(!(return_value_setsockopt$8 >= 0))
+    signed int return_value_setsockopt_8;
+    return_value_setsockopt_8=setsockopt(ps->sd, 1, 2, (void *)&opt, (unsigned int)(signed int)optlen);
+    if(!(return_value_setsockopt_8 >= 0))
     {
-      signed int return_value_pi_set_error$7;
-      return_value_pi_set_error$7=pi_set_error(ps->sd, -502);
-      return return_value_pi_set_error$7;
+      signed int return_value_pi_set_error_7;
+      return_value_pi_set_error_7=pi_set_error(ps->sd, -502);
+      return return_value_pi_set_error_7;
     }
 
-    signed int return_value_bind$10;
-    return_value_bind$10=bind(ps->sd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_bind$10 >= 0))
+    signed int return_value_bind_10;
+    return_value_bind_10=bind(ps->sd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_bind_10 >= 0))
     {
-      return_value_pi_set_error$9=pi_set_error(ps->sd, -502);
-      return return_value_pi_set_error$9;
+      return_value_pi_set_error_9=pi_set_error(ps->sd, -502);
+      return return_value_pi_set_error_9;
     }
 
     else
     {
       pi_log(0x002, 0x04, "DEV BIND Inet Bound to %s\n", device);
-      void *return_value_malloc$11;
-      return_value_malloc$11=malloc(addrlen);
-      ps->raddr = (struct sockaddr *)return_value_malloc$11;
+      void *return_value_malloc_11;
+      return_value_malloc_11=malloc(addrlen);
+      ps->raddr = (struct sockaddr *)return_value_malloc_11;
       memcpy((void *)ps->raddr, (const void *)addr, addrlen);
       ps->raddrlen = addrlen;
-      void *return_value_malloc$12;
-      return_value_malloc$12=malloc(addrlen);
-      ps->laddr = (struct sockaddr *)return_value_malloc$12;
+      void *return_value_malloc_12;
+      return_value_malloc_12=malloc(addrlen);
+      ps->laddr = (struct sockaddr *)return_value_malloc_12;
       memcpy((void *)ps->laddr, (const void *)addr, addrlen);
       ps->laddrlen = addrlen;
       return 0;
@@ -22259,9 +22259,9 @@ static signed int pi_inet_connect(struct pi_socket *ps, struct sockaddr *addr, u
   char *device = paddr->pi_device;
   memset((void *)&serv_addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   serv_addr.sin_family = (unsigned short int)2;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(device);
-  if(return_value_strlen$2 >= 2ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(device);
+  if(return_value_strlen_2 >= 2ul)
   {
     serv_addr.sin_addr.s_addr=inet_addr(device);
     if(serv_addr.sin_addr.s_addr == 4294967295u)
@@ -22271,9 +22271,9 @@ static signed int pi_inet_connect(struct pi_socket *ps, struct sockaddr *addr, u
       if(hostent == ((struct hostent *)NULL))
       {
         pi_log(0x002, 0x01, "DEV CONNECT Inet: Unable to determine host\n");
-        signed int return_value_pi_set_error$1;
-        return_value_pi_set_error$1=pi_set_error(ps->sd, -502);
-        return return_value_pi_set_error$1;
+        signed int return_value_pi_set_error_1;
+        return_value_pi_set_error_1=pi_set_error(ps->sd, -502);
+        return return_value_pi_set_error_1;
       }
 
       memcpy((void *)(char *)&serv_addr.sin_addr.s_addr, (const void *)hostent->h_addr_list[(signed long int)0], (unsigned long int)hostent->h_length);
@@ -22288,9 +22288,9 @@ static signed int pi_inet_connect(struct pi_socket *ps, struct sockaddr *addr, u
   if(!(sd >= 0))
   {
     pi_log(0x002, 0x01, "DEV CONNECT Inet: Unable to create socket\n");
-    signed int return_value_pi_set_error$3;
-    return_value_pi_set_error$3=pi_set_error(ps->sd, -502);
-    return return_value_pi_set_error$3;
+    signed int return_value_pi_set_error_3;
+    return_value_pi_set_error_3=pi_set_error(ps->sd, -502);
+    return return_value_pi_set_error_3;
   }
 
   err=pi_socket_setsd(ps, sd);
@@ -22299,24 +22299,24 @@ static signed int pi_inet_connect(struct pi_socket *ps, struct sockaddr *addr, u
 
   else
   {
-    signed int return_value_connect$5;
-    return_value_connect$5=connect(ps->sd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_connect$5 >= 0))
+    signed int return_value_connect_5;
+    return_value_connect_5=connect(ps->sd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_connect_5 >= 0))
     {
       pi_log(0x002, 0x01, "DEV CONNECT Inet: Unable to connect\n");
-      signed int return_value_pi_set_error$4;
-      return_value_pi_set_error$4=pi_set_error(ps->sd, -502);
-      return return_value_pi_set_error$4;
+      signed int return_value_pi_set_error_4;
+      return_value_pi_set_error_4=pi_set_error(ps->sd, -502);
+      return return_value_pi_set_error_4;
     }
 
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc(addrlen);
-    ps->raddr = (struct sockaddr *)return_value_malloc$6;
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc(addrlen);
+    ps->raddr = (struct sockaddr *)return_value_malloc_6;
     memcpy((void *)ps->raddr, (const void *)addr, addrlen);
     ps->raddrlen = addrlen;
-    void *return_value_malloc$7;
-    return_value_malloc$7=malloc(addrlen);
-    ps->laddr = (struct sockaddr *)return_value_malloc$7;
+    void *return_value_malloc_7;
+    return_value_malloc_7=malloc(addrlen);
+    ps->laddr = (struct sockaddr *)return_value_malloc_7;
     memcpy((void *)ps->laddr, (const void *)addr, addrlen);
     ps->laddrlen = addrlen;
     switch(ps->cmd)
@@ -22360,14 +22360,14 @@ extern struct pi_device * pi_inet_device(signed int type)
 {
   struct pi_device *dev = (struct pi_device *)(void *)0;
   struct pi_inet_data *data = (struct pi_inet_data *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_device) /*64ul*/ );
-  dev = (struct pi_device *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_device) /*64ul*/ );
+  dev = (struct pi_device *)return_value_malloc_1;
   if(!(dev == ((struct pi_device *)NULL)))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pi_inet_data) /*20ul*/ );
-    data = (struct pi_inet_data *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pi_inet_data) /*20ul*/ );
+    data = (struct pi_inet_data *)return_value_malloc_2;
     if(data == ((struct pi_inet_data *)NULL))
     {
       free((void *)dev);
@@ -22421,7 +22421,7 @@ static signed int pi_inet_flush(struct pi_socket *ps, signed int flags)
 {
   char buf[256l];
   signed int fl;
-  signed long int return_value_recv$1;
+  signed long int return_value_recv_1;
   if(!((0x01 & flags) == 0))
   {
     fl=fcntl(ps->sd, 3, 0);
@@ -22430,8 +22430,8 @@ static signed int pi_inet_flush(struct pi_socket *ps, signed int flags)
       fcntl(ps->sd, 4, fl | 04000);
       do
       {
-        return_value_recv$1=recv(ps->sd, (void *)buf, sizeof(char [256l]) /*256ul*/ , 0);
-        if(!(return_value_recv$1 >= 1l))
+        return_value_recv_1=recv(ps->sd, (void *)buf, sizeof(char [256l]) /*256ul*/ , 0);
+        if(!(return_value_recv_1 >= 1l))
           break;
 
       }
@@ -22453,12 +22453,12 @@ static signed int pi_inet_getsockopt(struct pi_socket *ps, signed int level, sig
   {
     if(!(*option_len == sizeof(signed int) /*4ul*/ ))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 22;
-      signed int return_value_pi_set_error$2;
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -501);
-      return return_value_pi_set_error$2;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 22;
+      signed int return_value_pi_set_error_2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -501);
+      return return_value_pi_set_error_2;
     }
 
     memcpy(option_value, (const void *)&data->timeout, sizeof(signed int) /*4ul*/ );
@@ -22492,9 +22492,9 @@ static struct pi_protocol * pi_inet_protocol(struct pi_device *dev)
 
   while((_Bool)0);
   data = (struct pi_inet_data *)dev->data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(prot == ((struct pi_protocol *)NULL)))
   {
     prot->level = 0;
@@ -22521,9 +22521,9 @@ static struct pi_protocol * pi_inet_protocol_dup(struct pi_protocol *prot)
       pi_log(0x400, 0x00, "file %s: line %d: assertion failed: (%s)", (const void *)"inet.c", 143, (const void *)"prot != NULL");
 
   while((_Bool)0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  new_prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  new_prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(new_prot == ((struct pi_protocol *)NULL)))
   {
     new_prot->level = prot->level;
@@ -22561,18 +22561,18 @@ static signed long int pi_inet_read(struct pi_socket *ps, struct pi_buffer_t *ms
   signed int r;
   signed int fl = 0;
   struct pi_inet_data *data = (struct pi_inet_data *)ps->device->data;
-  struct anonymous$9 ready;
+  struct anonymous_9 ready;
   struct timeval t;
-  struct pi_buffer_t *return_value_pi_buffer_expect$3;
-  return_value_pi_buffer_expect$3=pi_buffer_expect(msg, len);
-  if(return_value_pi_buffer_expect$3 == ((struct pi_buffer_t *)NULL))
+  struct pi_buffer_t *return_value_pi_buffer_expect_3;
+  return_value_pi_buffer_expect_3=pi_buffer_expect(msg, len);
+  if(return_value_pi_buffer_expect_3 == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(ps->sd, -500);
-    return (signed long int)return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(ps->sd, -500);
+    return (signed long int)return_value_pi_set_error_2;
   }
 
   if(flags == 0x01)
@@ -22582,57 +22582,57 @@ static signed long int pi_inet_read(struct pi_socket *ps, struct pi_buffer_t *ms
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << ps->sd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-  signed int return_value_pi_set_error$4;
+  signed int return_value_pi_set_error_4;
   if(data->timeout == 0)
-    select(ps->sd + 1, &ready, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), ((struct timeval *)NULL));
+    select(ps->sd + 1, &ready, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), ((struct timeval *)NULL));
 
   else
   {
     t.tv_sec = (signed long int)(data->timeout / 1000);
     t.tv_usec = (signed long int)((data->timeout % 1000) * 1000);
-    signed int return_value_select$5;
-    return_value_select$5=select(ps->sd + 1, &ready, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), &t);
-    if(return_value_select$5 == 0)
+    signed int return_value_select_5;
+    return_value_select_5=select(ps->sd + 1, &ready, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), &t);
+    if(return_value_select_5 == 0)
     {
-      return_value_pi_set_error$4=pi_set_error(ps->sd, -202);
-      return (signed long int)return_value_pi_set_error$4;
+      return_value_pi_set_error_4=pi_set_error(ps->sd, -202);
+      return (signed long int)return_value_pi_set_error_4;
     }
 
   }
-  _Bool tmp_if_expr$10;
-  signed int *return_value___errno_location$9;
+  _Bool tmp_if_expr_10;
+  signed int *return_value___errno_location_9;
   if(!((ready.__fds_bits[(signed long int)(ps->sd / 8)] & (signed long int)(1UL << ps->sd % 8)) == 0l))
   {
-    signed long int return_value_recv$6;
-    return_value_recv$6=recv(ps->sd, (void *)(msg->data + (signed long int)msg->used), len, fl);
-    r = (signed int)return_value_recv$6;
+    signed long int return_value_recv_6;
+    return_value_recv_6=recv(ps->sd, (void *)(msg->data + (signed long int)msg->used), len, fl);
+    r = (signed int)return_value_recv_6;
     if(!(r >= 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      if(*return_value___errno_location$8 == 32)
-        tmp_if_expr$10 = (_Bool)1;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      if(*return_value___errno_location_8 == 32)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$9=__errno_location();
-        tmp_if_expr$10 = *return_value___errno_location$9 == 9 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_9=__errno_location();
+        tmp_if_expr_10 = *return_value___errno_location_9 == 9 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
+      if(tmp_if_expr_10)
       {
         ps->state = 0x08;
-        signed int return_value_pi_set_error$7;
-        return_value_pi_set_error$7=pi_set_error(ps->sd, -200);
-        return (signed long int)return_value_pi_set_error$7;
+        signed int return_value_pi_set_error_7;
+        return_value_pi_set_error_7=pi_set_error(ps->sd, -200);
+        return (signed long int)return_value_pi_set_error_7;
       }
 
-      signed int return_value_pi_set_error$11;
-      return_value_pi_set_error$11=pi_set_error(ps->sd, -204);
-      return (signed long int)return_value_pi_set_error$11;
+      signed int return_value_pi_set_error_11;
+      return_value_pi_set_error_11=pi_set_error(ps->sd, -204);
+      return (signed long int)return_value_pi_set_error_11;
     }
 
     data->rx_bytes = data->rx_bytes + r;
@@ -22655,12 +22655,12 @@ static signed int pi_inet_setsockopt(struct pi_socket *ps, signed int level, sig
   {
     if(!(*option_len == sizeof(signed int) /*4ul*/ ))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 22;
-      signed int return_value_pi_set_error$2;
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -501);
-      return return_value_pi_set_error$2;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 22;
+      signed int return_value_pi_set_error_2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -501);
+      return return_value_pi_set_error_2;
     }
 
     memcpy((void *)&data->timeout, option_value, sizeof(signed int) /*4ul*/ );
@@ -22677,30 +22677,30 @@ static signed long int pi_inet_write(struct pi_socket *ps, const unsigned char *
   signed int nwrote;
   struct pi_inet_data *data = (struct pi_inet_data *)ps->device->data;
   struct timeval t;
-  struct anonymous$9 ready;
+  struct anonymous_9 ready;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << ps->sd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
   total = (signed int)len;
-  signed int *return_value___errno_location$1;
-  signed int return_value_pi_set_error$3;
-  _Bool tmp_if_expr$10;
-  signed int *return_value___errno_location$9;
+  signed int *return_value___errno_location_1;
+  signed int return_value_pi_set_error_3;
+  _Bool tmp_if_expr_10;
+  signed int *return_value___errno_location_9;
   while(total >= 1)
   {
     if(data->timeout == 0)
     {
-      signed int return_value_select$2;
-      return_value_select$2=select(ps->sd + 1, ((struct anonymous$9 *)NULL), &ready, ((struct anonymous$9 *)NULL), ((struct timeval *)NULL));
-      if(!(return_value_select$2 >= 0))
+      signed int return_value_select_2;
+      return_value_select_2=select(ps->sd + 1, ((struct anonymous_9 *)NULL), &ready, ((struct anonymous_9 *)NULL), ((struct timeval *)NULL));
+      if(!(return_value_select_2 >= 0))
       {
-        return_value___errno_location$1=__errno_location();
-        if(*return_value___errno_location$1 == 4)
+        return_value___errno_location_1=__errno_location();
+        if(*return_value___errno_location_1 == 4)
           continue;
 
       }
@@ -22711,49 +22711,49 @@ static signed long int pi_inet_write(struct pi_socket *ps, const unsigned char *
     {
       t.tv_sec = (signed long int)(data->timeout / 1000);
       t.tv_usec = (signed long int)((data->timeout % 1000) * 1000);
-      signed int return_value_select$4;
-      return_value_select$4=select(ps->sd + 1, ((struct anonymous$9 *)NULL), &ready, ((struct anonymous$9 *)NULL), &t);
-      if(return_value_select$4 == 0)
+      signed int return_value_select_4;
+      return_value_select_4=select(ps->sd + 1, ((struct anonymous_9 *)NULL), &ready, ((struct anonymous_9 *)NULL), &t);
+      if(return_value_select_4 == 0)
       {
-        return_value_pi_set_error$3=pi_set_error(ps->sd, -202);
-        return (signed long int)return_value_pi_set_error$3;
+        return_value_pi_set_error_3=pi_set_error(ps->sd, -202);
+        return (signed long int)return_value_pi_set_error_3;
       }
 
     }
     if((ready.__fds_bits[(signed long int)(ps->sd / 8)] & (signed long int)(1UL << ps->sd % 8)) == 0l)
     {
       ps->state = 0x08;
-      signed int return_value_pi_set_error$5;
-      return_value_pi_set_error$5=pi_set_error(ps->sd, -200);
-      return (signed long int)return_value_pi_set_error$5;
+      signed int return_value_pi_set_error_5;
+      return_value_pi_set_error_5=pi_set_error(ps->sd, -200);
+      return (signed long int)return_value_pi_set_error_5;
     }
 
-    signed long int return_value_write$6;
-    return_value_write$6=write(ps->sd, (const void *)msg, len);
-    nwrote = (signed int)return_value_write$6;
+    signed long int return_value_write_6;
+    return_value_write_6=write(ps->sd, (const void *)msg, len);
+    nwrote = (signed int)return_value_write_6;
     if(!(nwrote >= 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      if(*return_value___errno_location$8 == 32)
-        tmp_if_expr$10 = (_Bool)1;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      if(*return_value___errno_location_8 == 32)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$9=__errno_location();
-        tmp_if_expr$10 = *return_value___errno_location$9 == 9 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_9=__errno_location();
+        tmp_if_expr_10 = *return_value___errno_location_9 == 9 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
+      if(tmp_if_expr_10)
       {
         ps->state = 0x08;
-        signed int return_value_pi_set_error$7;
-        return_value_pi_set_error$7=pi_set_error(ps->sd, -200);
-        return (signed long int)return_value_pi_set_error$7;
+        signed int return_value_pi_set_error_7;
+        return_value_pi_set_error_7=pi_set_error(ps->sd, -200);
+        return (signed long int)return_value_pi_set_error_7;
       }
 
-      signed int return_value_pi_set_error$11;
-      return_value_pi_set_error$11=pi_set_error(ps->sd, -204);
-      return (signed long int)return_value_pi_set_error$11;
+      signed int return_value_pi_set_error_11;
+      return_value_pi_set_error_11=pi_set_error(ps->sd, -204);
+      return (signed long int)return_value_pi_set_error_11;
     }
 
     total = total - nwrote;
@@ -22771,9 +22771,9 @@ extern signed int pi_listen(signed int pi_sd, signed int backlog)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
@@ -22814,15 +22814,15 @@ extern unsigned long int pi_maxrecsize(signed int pi_sd)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return (unsigned long int)0;
   }
 
-  signed int return_value_pi_version$2;
-  return_value_pi_version$2=pi_version(pi_sd);
-  if(return_value_pi_version$2 == 0)
+  signed int return_value_pi_version_2;
+  return_value_pi_version_2=pi_version(pi_sd);
+  if(return_value_pi_version_2 == 0)
     return (unsigned long int)0xffff;
 
   else
@@ -22858,9 +22858,9 @@ extern signed int pi_palmos_error(signed int pi_sd)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
@@ -22875,15 +22875,15 @@ extern struct pi_protocol * pi_protocol(signed int pi_sd, signed int level)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return (struct pi_protocol *)(void *)0;
   }
 
-  struct pi_protocol *return_value_protocol_queue_find$2;
-  return_value_protocol_queue_find$2=protocol_queue_find(ps, level);
-  return return_value_protocol_queue_find$2;
+  struct pi_protocol *return_value_protocol_queue_find_2;
+  return_value_protocol_queue_find_2=protocol_queue_find(ps, level);
+  return return_value_protocol_queue_find_2;
 }
 
 // pi_protocol_next
@@ -22894,24 +22894,24 @@ extern struct pi_protocol * pi_protocol_next(signed int pi_sd, signed int level)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return (struct pi_protocol *)(void *)0;
   }
 
-  struct pi_protocol *return_value_protocol_queue_find_next$2;
-  return_value_protocol_queue_find_next$2=protocol_queue_find_next(ps, level);
-  return return_value_protocol_queue_find_next$2;
+  struct pi_protocol *return_value_protocol_queue_find_next_2;
+  return_value_protocol_queue_find_next_2=protocol_queue_find_next(ps, level);
+  return return_value_protocol_queue_find_next_2;
 }
 
 // pi_read
 // file ../include/pi-socket.h line 433
 extern signed long int pi_read(signed int pi_sd, struct pi_buffer_t *msg, unsigned long int len)
 {
-  signed long int return_value_pi_recv$1;
-  return_value_pi_recv$1=pi_recv(pi_sd, msg, len, 0);
-  return return_value_pi_recv$1;
+  signed long int return_value_pi_recv_1;
+  return_value_pi_recv_1=pi_recv(pi_sd, msg, len, 0);
+  return return_value_pi_recv_1;
 }
 
 // pi_recv
@@ -22922,15 +22922,15 @@ extern signed long int pi_recv(signed int pi_sd, struct pi_buffer_t *msg, unsign
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return (signed long int)-201;
   }
 
-  signed int return_value_is_connected$2;
-  return_value_is_connected$2=is_connected(ps);
-  if(return_value_is_connected$2 == 0)
+  signed int return_value_is_connected_2;
+  return_value_is_connected_2=is_connected(ps);
+  if(return_value_is_connected_2 == 0)
     return (signed long int)-200;
 
   else
@@ -22947,7 +22947,7 @@ extern void pi_reset_errors(signed int pi_sd)
 {
   struct pi_socket *ps;
   ps=find_pi_socket(pi_sd);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(ps == ((struct pi_socket *)NULL)))
   {
     ps->last_error = 0;
@@ -22956,8 +22956,8 @@ extern void pi_reset_errors(signed int pi_sd)
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
   }
 }
 
@@ -22969,15 +22969,15 @@ extern signed int pi_send(signed int pi_sd, const void *msg, unsigned long int l
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
-  signed int return_value_is_connected$2;
-  return_value_is_connected$2=is_connected(ps);
-  if(return_value_is_connected$2 == 0)
+  signed int return_value_is_connected_2;
+  return_value_is_connected_2=is_connected(ps);
+  if(return_value_is_connected_2 == 0)
     return -200;
 
   else
@@ -23040,7 +23040,7 @@ static signed int pi_serial_accept(struct pi_socket *ps, struct sockaddr *addr, 
         err=data->impl.changebaud(ps);
         tv.tv_sec = (signed long int)0;
         tv.tv_usec = (signed long int)50000;
-        select(0, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), &tv);
+        select(0, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), &tv);
         err=net_rx_handshake(ps);
       }
 
@@ -23089,23 +23089,23 @@ static signed int pi_serial_bind(struct pi_socket *ps, struct sockaddr *addr, un
 begin:
   ;
   err=data->impl.open(ps, pa, addrlen);
-  signed int *return_value___errno_location$7;
-  signed int *return_value___errno_location$6;
-  signed int *return_value___errno_location$5;
+  signed int *return_value___errno_location_7;
+  signed int *return_value___errno_location_6;
+  signed int *return_value___errno_location_5;
   if(!(err >= 0))
   {
     signed int save_errno;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    save_errno = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    save_errno = *return_value___errno_location_1;
     char realport[4096l];
     realpath(pa->pi_device, realport);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = save_errno;
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    if(*return_value___errno_location$8 == 2)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = save_errno;
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    if(*return_value___errno_location_8 == 2)
     {
       pi_log(0x002, 0x01, " The device %s does not exist..\n", (const void *)pa->pi_device);
       pi_log(0x002, 0x01, " Possible solution:\n\n\tmknod %s c <major> <minor>\n\n", (const void *)pa->pi_device);
@@ -23113,8 +23113,8 @@ begin:
 
     else
     {
-      return_value___errno_location$7=__errno_location();
-      if(*return_value___errno_location$7 == 13)
+      return_value___errno_location_7=__errno_location();
+      if(*return_value___errno_location_7 == 13)
       {
         pi_log(0x002, 0x01, "   Please check the permissions on %s..\n", (const void *)realport);
         pi_log(0x002, 0x01, " Possible solution:\n\n\tchmod 0666 %s\n\n", (const void *)realport);
@@ -23122,16 +23122,16 @@ begin:
 
       else
       {
-        return_value___errno_location$6=__errno_location();
-        if(*return_value___errno_location$6 == 19)
+        return_value___errno_location_6=__errno_location();
+        if(*return_value___errno_location_6 == 19)
         {
           if(!(count >= 6))
           {
-            signed int return_value_fileno$3;
-            return_value_fileno$3=fileno(stdout);
-            signed int return_value_isatty$4;
-            return_value_isatty$4=isatty(return_value_fileno$3);
-            if(!(return_value_isatty$4 == 0))
+            signed int return_value_fileno_3;
+            return_value_fileno_3=fileno(stdout);
+            signed int return_value_isatty_4;
+            return_value_isatty_4=isatty(return_value_fileno_3);
+            if(!(return_value_isatty_4 == 0))
             {
               pi_log(0x002, 0x01, "\r   Port not connected, sleeping for 2 seconds, ");
               pi_log(0x002, 0x01, "%d retries..", 5 - count);
@@ -23146,8 +23146,8 @@ begin:
 
         else
         {
-          return_value___errno_location$5=__errno_location();
-          if(*return_value___errno_location$5 == 21)
+          return_value___errno_location_5=__errno_location();
+          if(*return_value___errno_location_5 == 21)
             pi_log(0x002, 0x01, " The port specified must contain a device name, and %s was a directory.\n   Please change that to reference a real device, and try again\n\n", (const void *)pa->pi_device);
 
         }
@@ -23156,14 +23156,14 @@ begin:
     return err;
   }
 
-  void *return_value_malloc$9;
-  return_value_malloc$9=malloc(addrlen);
-  ps->raddr = (struct sockaddr *)return_value_malloc$9;
+  void *return_value_malloc_9;
+  return_value_malloc_9=malloc(addrlen);
+  ps->raddr = (struct sockaddr *)return_value_malloc_9;
   memcpy((void *)ps->raddr, (const void *)addr, addrlen);
   ps->raddrlen = addrlen;
-  void *return_value_malloc$10;
-  return_value_malloc$10=malloc(addrlen);
-  ps->laddr = (struct sockaddr *)return_value_malloc$10;
+  void *return_value_malloc_10;
+  return_value_malloc_10=malloc(addrlen);
+  ps->laddr = (struct sockaddr *)return_value_malloc_10;
   memcpy((void *)ps->laddr, (const void *)addr, addrlen);
   ps->laddrlen = addrlen;
   return 0;
@@ -23232,14 +23232,14 @@ static signed int pi_serial_connect(struct pi_socket *ps, struct sockaddr *addr,
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(addrlen);
-    ps->raddr = (struct sockaddr *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(addrlen);
+    ps->raddr = (struct sockaddr *)return_value_malloc_1;
     memcpy((void *)ps->raddr, (const void *)addr, addrlen);
     ps->raddrlen = addrlen;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(addrlen);
-    ps->laddr = (struct sockaddr *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(addrlen);
+    ps->laddr = (struct sockaddr *)return_value_malloc_2;
     memcpy((void *)ps->laddr, (const void *)addr, addrlen);
     ps->laddrlen = addrlen;
     if(ps->type == 0x0010)
@@ -23247,8 +23247,8 @@ static signed int pi_serial_connect(struct pi_socket *ps, struct sockaddr *addr,
       unsigned long int size;
       if(ps->cmd == 0x01)
       {
-        signed int return_value_cmp_tx_handshake$3;
-        return_value_cmp_tx_handshake$3=cmp_tx_handshake(ps);
+        signed int return_value_cmp_tx_handshake_3;
+        return_value_cmp_tx_handshake_3=cmp_tx_handshake(ps);
         size = sizeof(signed int) /*4ul*/ ;
         pi_getsockopt(ps->sd, 5, 3, (void *)&data->rate, &size);
         err=data->impl.changebaud(ps);
@@ -23274,17 +23274,17 @@ extern struct pi_device * pi_serial_device(signed int type)
 {
   struct pi_device *dev;
   struct pi_serial_data *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_device) /*64ul*/ );
-  dev = (struct pi_device *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_device) /*64ul*/ );
+  dev = (struct pi_device *)return_value_malloc_1;
   if(dev == ((struct pi_device *)NULL))
     return (struct pi_device *)(void *)0;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pi_serial_data) /*416ul*/ );
-    data = (struct pi_serial_data *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pi_serial_data) /*416ul*/ );
+    data = (struct pi_serial_data *)return_value_malloc_2;
     if(data == ((struct pi_serial_data *)NULL))
     {
       free((void *)dev);
@@ -23381,12 +23381,12 @@ static signed int pi_serial_getsockopt(struct pi_socket *ps, signed int level, s
 
 error:
   ;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 22;
-  signed int return_value_pi_set_error$2;
-  return_value_pi_set_error$2=pi_set_error(ps->sd, -501);
-  return return_value_pi_set_error$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 22;
+  signed int return_value_pi_set_error_2;
+  return_value_pi_set_error_2=pi_set_error(ps->sd, -501);
+  return return_value_pi_set_error_2;
 }
 
 // pi_serial_impl_init
@@ -23426,9 +23426,9 @@ static struct pi_protocol * pi_serial_protocol(struct pi_device *dev)
       pi_log(0x400, 0x00, "file %s: line %d: assertion failed: (%s)", (const void *)"serial.c", 150, (const void *)"dev != NULL");
 
   while((_Bool)0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  prot = (struct pi_protocol *)return_value_malloc_1;
   data = (struct pi_serial_data *)dev->data;
   if(!(prot == ((struct pi_protocol *)NULL)))
   {
@@ -23456,9 +23456,9 @@ static struct pi_protocol * pi_serial_protocol_dup(struct pi_protocol *prot)
       pi_log(0x400, 0x00, "file %s: line %d: assertion failed: (%s)", (const void *)"serial.c", 92, (const void *)"prot != NULL");
 
   while((_Bool)0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  new_prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  new_prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(new_prot == ((struct pi_protocol *)NULL)))
   {
     new_prot->level = prot->level;
@@ -23524,12 +23524,12 @@ static signed int pi_serial_setsockopt(struct pi_socket *ps, signed int level, s
 
 error:
   ;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 22;
-  signed int return_value_pi_set_error$2;
-  return_value_pi_set_error$2=pi_set_error(ps->sd, -501);
-  return return_value_pi_set_error$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 22;
+  signed int return_value_pi_set_error_2;
+  return_value_pi_set_error_2=pi_set_error(ps->sd, -501);
+  return return_value_pi_set_error_2;
 }
 
 // pi_set_error
@@ -23538,20 +23538,20 @@ extern signed int pi_set_error(signed int pi_sd, signed int error_code)
 {
   struct pi_socket *ps;
   ps=find_pi_socket(pi_sd);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(ps == ((struct pi_socket *)NULL)))
     ps->last_error = error_code;
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
   }
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(error_code == -500)
   {
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
   }
 
   return error_code;
@@ -23563,14 +23563,14 @@ extern signed int pi_set_palmos_error(signed int pi_sd, signed int error_code)
 {
   struct pi_socket *ps;
   ps=find_pi_socket(pi_sd);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(ps == ((struct pi_socket *)NULL)))
     ps->palmos_error = error_code;
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
   }
   return error_code;
 }
@@ -23584,13 +23584,13 @@ extern signed int pi_setsockopt(signed int pi_sd, signed int level, signed int o
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(level == 7)
   {
     switch(option_name)
@@ -23621,15 +23621,15 @@ extern signed int pi_setsockopt(signed int pi_sd, signed int level, signed int o
   {
     prot=protocol_queue_find(ps, level);
     if(prot == ((struct pi_protocol *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = prot->level != level ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = prot->level != level ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 22;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 22;
       return -201;
     }
 
@@ -23639,12 +23639,12 @@ extern signed int pi_setsockopt(signed int pi_sd, signed int level, signed int o
 
   argerr:
     ;
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = 22;
-    signed int return_value_pi_set_error$5;
-    return_value_pi_set_error$5=pi_set_error(pi_sd, -501);
-    return return_value_pi_set_error$5;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = 22;
+    signed int return_value_pi_set_error_5;
+    return_value_pi_set_error_5=pi_set_error(pi_sd, -501);
+    return return_value_pi_set_error_5;
   }
 }
 
@@ -23666,14 +23666,14 @@ extern signed int pi_socket(signed int domain, signed int type, signed int proto
 
   }
 
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct pi_socket) /*128ul*/ );
-  ps = (struct pi_socket *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct pi_socket) /*128ul*/ );
+  ps = (struct pi_socket *)return_value_calloc_1;
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
     return -1;
   }
 
@@ -23681,13 +23681,13 @@ extern signed int pi_socket(signed int domain, signed int type, signed int proto
   if(ps->sd == -1)
   {
     signed int err;
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    err = *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    err = *return_value___errno_location_3;
     free((void *)ps);
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = err;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = err;
     return -1;
   }
 
@@ -23701,9 +23701,9 @@ extern signed int pi_socket(signed int domain, signed int type, signed int proto
   {
     close(ps->sd);
     free((void *)ps);
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5 = 12;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5 = 12;
     return -1;
   }
 
@@ -23717,18 +23717,18 @@ extern signed int pi_socket_connected(signed int pi_sd)
 {
   struct pi_socket *ps;
   ps=find_pi_socket(pi_sd);
-  signed int return_value_is_connected$1;
+  signed int return_value_is_connected_1;
   if(!(ps == ((struct pi_socket *)NULL)))
   {
-    return_value_is_connected$1=is_connected(ps);
-    return return_value_is_connected$1;
+    return_value_is_connected_1=is_connected(ps);
+    return return_value_is_connected_1;
   }
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 3;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 3;
     return 0;
   }
 }
@@ -23756,11 +23756,11 @@ extern struct pi_socket_list * pi_socket_recognize(struct pi_socket *ps)
 extern signed int pi_socket_setsd(struct pi_socket *ps, signed int pi_sd)
 {
   ps->sd=dup2(pi_sd, ps->sd);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(ps->sd == -1)
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -502);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -502);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -23793,17 +23793,17 @@ extern signed int pi_tickle(signed int pi_sd)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
-  signed int return_value_is_connected$2;
-  return_value_is_connected$2=is_connected(ps);
+  signed int return_value_is_connected_2;
+  return_value_is_connected_2=is_connected(ps);
   signed long int return_value;
   signed long int return_value_1;
-  if(return_value_is_connected$2 == 0)
+  if(return_value_is_connected_2 == 0)
     return -200;
 
   else
@@ -23839,9 +23839,9 @@ extern signed int pi_tickle(signed int pi_sd)
 // file utils.c line 396
 signed int pi_timeout_expired(struct timespec *ts)
 {
-  signed int return_value_pi_timespec_to_timeout$1;
-  return_value_pi_timespec_to_timeout$1=pi_timespec_to_timeout(ts);
-  return (signed int)(return_value_pi_timespec_to_timeout$1 <= 0);
+  signed int return_value_pi_timespec_to_timeout_1;
+  return_value_pi_timespec_to_timeout_1=pi_timespec_to_timeout(ts);
+  return (signed int)(return_value_pi_timespec_to_timeout_1 <= 0);
 }
 
 // pi_timeout_to_timespec
@@ -23936,7 +23936,7 @@ static signed int pi_usb_accept(struct pi_socket *ps, struct sockaddr *addr, uns
 
             tv.tv_sec = (signed long int)0;
             tv.tv_usec = (signed long int)50000;
-            select(0, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), &tv);
+            select(0, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), &tv);
           }
 
           pi_log(0x002, 0x08, "%s: %d, net rx.\n", (const void *)"usb.c", 477);
@@ -23989,14 +23989,14 @@ static signed int pi_usb_bind(struct pi_socket *ps, struct sockaddr *addr, unsig
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(addrlen);
-    ps->raddr = (struct sockaddr *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(addrlen);
+    ps->raddr = (struct sockaddr *)return_value_malloc_1;
     memcpy((void *)ps->raddr, (const void *)addr, addrlen);
     ps->raddrlen = addrlen;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(addrlen);
-    ps->laddr = (struct sockaddr *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(addrlen);
+    ps->laddr = (struct sockaddr *)return_value_malloc_2;
     memcpy((void *)ps->laddr, (const void *)addr, addrlen);
     ps->laddrlen = addrlen;
     return 0;
@@ -24063,8 +24063,8 @@ static signed int pi_usb_connect(struct pi_socket *ps, struct sockaddr *addr, un
     }
 
   result=data->impl.open(ps, pa, addrlen);
-  void *return_value_malloc$1;
-  void *return_value_malloc$2;
+  void *return_value_malloc_1;
+  void *return_value_malloc_2;
   if(result >= 0)
   {
     timeout = ps->accept_to * 1000;
@@ -24072,12 +24072,12 @@ static signed int pi_usb_connect(struct pi_socket *ps, struct sockaddr *addr, un
     if(!(data->impl.wait_for_device == ((signed int (*)(struct pi_socket *, signed int *))NULL)))
       result=data->impl.wait_for_device(ps, &timeout);
 
-    return_value_malloc$1=malloc(addrlen);
-    ps->raddr = (struct sockaddr *)return_value_malloc$1;
+    return_value_malloc_1=malloc(addrlen);
+    ps->raddr = (struct sockaddr *)return_value_malloc_1;
     memcpy((void *)ps->raddr, (const void *)addr, addrlen);
     ps->raddrlen = addrlen;
-    return_value_malloc$2=malloc(addrlen);
-    ps->laddr = (struct sockaddr *)return_value_malloc$2;
+    return_value_malloc_2=malloc(addrlen);
+    ps->laddr = (struct sockaddr *)return_value_malloc_2;
     memcpy((void *)ps->laddr, (const void *)addr, addrlen);
     ps->laddrlen = addrlen;
     if(ps->type == 0x0010)
@@ -24109,14 +24109,14 @@ extern struct pi_device * pi_usb_device(signed int type)
 {
   struct pi_device *dev;
   struct pi_usb_data *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_device) /*64ul*/ );
-  dev = (struct pi_device *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_device) /*64ul*/ );
+  dev = (struct pi_device *)return_value_malloc_1;
   if(!(dev == ((struct pi_device *)NULL)))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pi_usb_data) /*376ul*/ );
-    data = (struct pi_usb_data *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pi_usb_data) /*376ul*/ );
+    data = (struct pi_usb_data *)return_value_malloc_2;
     if(data == ((struct pi_usb_data *)NULL))
     {
       free((void *)dev);
@@ -24205,12 +24205,12 @@ static signed int pi_usb_getsockopt(struct pi_socket *ps, signed int level, sign
 
 fail:
   ;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 22;
-  signed int return_value_pi_set_error$2;
-  return_value_pi_set_error$2=pi_set_error(ps->sd, -501);
-  return return_value_pi_set_error$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 22;
+  signed int return_value_pi_set_error_2;
+  return_value_pi_set_error_2=pi_set_error(ps->sd, -501);
+  return return_value_pi_set_error_2;
 }
 
 // pi_usb_impl_init
@@ -24248,9 +24248,9 @@ static struct pi_protocol * pi_usb_protocol(struct pi_device *dev)
 
   while((_Bool)0);
   data = (struct pi_usb_data *)dev->data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(prot == ((struct pi_protocol *)NULL)))
   {
     prot->level = 0;
@@ -24277,9 +24277,9 @@ struct pi_protocol * pi_usb_protocol_dup(struct pi_protocol *prot)
       pi_log(0x400, 0x00, "file %s: line %d: assertion failed: (%s)", (const void *)"usb.c", 87, (const void *)"prot != NULL");
 
   while((_Bool)0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  new_prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  new_prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(new_prot == ((struct pi_protocol *)NULL)))
   {
     new_prot->level = prot->level;
@@ -24345,12 +24345,12 @@ static signed int pi_usb_setsockopt(struct pi_socket *ps, signed int level, sign
 
 fail:
   ;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 22;
-  signed int return_value_pi_set_error$2;
-  return_value_pi_set_error$2=pi_set_error(ps->sd, -501);
-  return return_value_pi_set_error$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 22;
+  signed int return_value_pi_set_error_2;
+  return_value_pi_set_error_2=pi_set_error(ps->sd, -501);
+  return return_value_pi_set_error_2;
 }
 
 // pi_version
@@ -24362,9 +24362,9 @@ extern signed int pi_version(signed int pi_sd)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
@@ -24394,9 +24394,9 @@ extern signed int pi_watchdog(signed int pi_sd, signed int newinterval)
   ps=find_pi_socket(pi_sd);
   if(ps == ((struct pi_socket *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -201;
   }
 
@@ -24413,9 +24413,9 @@ extern signed int pi_watchdog(signed int pi_sd, signed int newinterval)
 // file ../include/pi-socket.h line 444
 extern signed long int pi_write(signed int pi_sd, const void *msg, unsigned long int len)
 {
-  signed int return_value_pi_send$1;
-  return_value_pi_send$1=pi_send(pi_sd, msg, len, 0);
-  return (signed long int)return_value_pi_send$1;
+  signed int return_value_pi_send_1;
+  return_value_pi_send_1=pi_send(pi_sd, msg, len, 0);
+  return (signed long int)return_value_pi_send_1;
 }
 
 // pilot_connect
@@ -24450,19 +24450,19 @@ signed int pilot_connect(const char *port)
 
     else
     {
-      signed int return_value_fileno$1;
-      return_value_fileno$1=fileno(stdout);
-      signed int return_value_isatty$2;
-      return_value_isatty$2=isatty(return_value_fileno$1);
-      if(!(return_value_isatty$2 == 0))
+      signed int return_value_fileno_1;
+      return_value_fileno_1=fileno(stdout);
+      signed int return_value_isatty_2;
+      return_value_isatty_2=isatty(return_value_fileno_1);
+      if(!(return_value_isatty_2 == 0))
       {
         printf("\n   Listening for incoming connection on %s... ", port);
         fflush(stdout);
       }
 
-      signed int return_value_pi_listen$3;
-      return_value_pi_listen$3=pi_listen(sd, 1);
-      if(!(return_value_pi_listen$3 >= 0))
+      signed int return_value_pi_listen_3;
+      return_value_pi_listen_3=pi_listen(sd, 1);
+      if(!(return_value_pi_listen_3 >= 0))
       {
         fprintf(stderr, "\n   Error listening on %s\n", port);
         pi_close(sd);
@@ -24481,16 +24481,16 @@ signed int pilot_connect(const char *port)
 
         else
         {
-          signed int return_value_fileno$4;
-          return_value_fileno$4=fileno(stdout);
-          signed int return_value_isatty$5;
-          return_value_isatty$5=isatty(return_value_fileno$4);
-          if(!(return_value_isatty$5 == 0))
+          signed int return_value_fileno_4;
+          return_value_fileno_4=fileno(stdout);
+          signed int return_value_isatty_5;
+          return_value_isatty_5=isatty(return_value_fileno_4);
+          if(!(return_value_isatty_5 == 0))
             printf("connected!\n\n");
 
-          signed int return_value_dlp_ReadSysInfo$6;
-          return_value_dlp_ReadSysInfo$6=dlp_ReadSysInfo(sd, &sys_info);
-          if(!(return_value_dlp_ReadSysInfo$6 >= 0))
+          signed int return_value_dlp_ReadSysInfo_6;
+          return_value_dlp_ReadSysInfo_6=dlp_ReadSysInfo(sd, &sys_info);
+          if(!(return_value_dlp_ReadSysInfo_6 >= 0))
           {
             fprintf(stderr, "\n   Error read system info on %s\n", port);
             pi_close(sd);
@@ -24519,11 +24519,11 @@ extern signed long int pilot_time_to_unix_time(unsigned long int raw_time)
 // file plu_args.c line 72
 extern void plu_badoption(struct poptContext_s *pc, signed int optc)
 {
-  const char *return_value_poptBadOption$1;
-  return_value_poptBadOption$1=poptBadOption(pc, 1U << 0);
-  const char *return_value_poptStrerror$2;
-  return_value_poptStrerror$2=poptStrerror(optc);
-  fprintf(stderr, "%s: %s\n", return_value_poptBadOption$1, return_value_poptStrerror$2);
+  const char *return_value_poptBadOption_1;
+  return_value_poptBadOption_1=poptBadOption(pc, 1U << 0);
+  const char *return_value_poptStrerror_2;
+  return_value_poptStrerror_2=poptStrerror(optc);
+  fprintf(stderr, "%s: %s\n", return_value_poptBadOption_1, return_value_poptStrerror_2);
   poptPrintUsage(pc, stderr, 0);
   exit(1);
 }
@@ -24538,10 +24538,10 @@ extern signed int plu_connect(void)
   if(plu_port == ((char *)NULL))
     plu_port=getenv(env_pilotport);
 
-  signed int return_value_fileno$1;
-  signed int return_value_isatty$2;
-  signed int return_value_fileno$4;
-  signed int return_value_isatty$5;
+  signed int return_value_fileno_1;
+  signed int return_value_isatty_2;
+  signed int return_value_fileno_4;
+  signed int return_value_isatty_5;
   if(plu_port == ((char *)NULL))
   {
     fprintf(stderr, "\n   Unable to determine port to bind\n   Please use --help for more information\n\n");
@@ -24570,9 +24570,9 @@ extern signed int plu_connect(void)
       {
         if(plu_quiet == 0)
         {
-          return_value_fileno$1=fileno(stdout);
-          return_value_isatty$2=isatty(return_value_fileno$1);
-          if(!(return_value_isatty$2 == 0))
+          return_value_fileno_1=fileno(stdout);
+          return_value_isatty_2=isatty(return_value_fileno_1);
+          if(!(return_value_isatty_2 == 0))
           {
             printf("\n   Listening for incoming connection on %s... ", plu_port);
             fflush(stdout);
@@ -24580,9 +24580,9 @@ extern signed int plu_connect(void)
 
         }
 
-        signed int return_value_pi_listen$3;
-        return_value_pi_listen$3=pi_listen(sd, 1);
-        if(!(return_value_pi_listen$3 >= 0))
+        signed int return_value_pi_listen_3;
+        return_value_pi_listen_3=pi_listen(sd, 1);
+        if(!(return_value_pi_listen_3 >= 0))
         {
           fprintf(stderr, "\n   Error listening on %s\n", plu_port);
           pi_close(sd);
@@ -24603,16 +24603,16 @@ extern signed int plu_connect(void)
           {
             if(plu_quiet == 0)
             {
-              return_value_fileno$4=fileno(stdout);
-              return_value_isatty$5=isatty(return_value_fileno$4);
-              if(!(return_value_isatty$5 == 0))
+              return_value_fileno_4=fileno(stdout);
+              return_value_isatty_5=isatty(return_value_fileno_4);
+              if(!(return_value_isatty_5 == 0))
                 printf("connected!\n\n");
 
             }
 
-            signed int return_value_dlp_ReadSysInfo$6;
-            return_value_dlp_ReadSysInfo$6=dlp_ReadSysInfo(sd, &sys_info);
-            if(!(return_value_dlp_ReadSysInfo$6 >= 0))
+            signed int return_value_dlp_ReadSysInfo_6;
+            return_value_dlp_ReadSysInfo_6=dlp_ReadSysInfo(sd, &sys_info);
+            if(!(return_value_dlp_ReadSysInfo_6 >= 0))
             {
               fprintf(stderr, "\n   Error read system info on %s\n", plu_port);
               pi_close(sd);
@@ -24643,9 +24643,9 @@ extern signed int plu_findcategory(struct CategoryAppInfo *info, const char *nam
     {
       if(!((1 & flags) == 0))
       {
-        signed int return_value_strncasecmp$1;
-        return_value_strncasecmp$1=strncasecmp(info->name[(signed long int)cat_index], name, (unsigned long int)15);
-        if(return_value_strncasecmp$1 == 0)
+        signed int return_value_strncasecmp_1;
+        return_value_strncasecmp_1=strncasecmp(info->name[(signed long int)cat_index], name, (unsigned long int)15);
+        if(return_value_strncasecmp_1 == 0)
         {
           match_category = cat_index;
           break;
@@ -24655,9 +24655,9 @@ extern signed int plu_findcategory(struct CategoryAppInfo *info, const char *nam
 
       else
       {
-        signed int return_value_strncmp$2;
-        return_value_strncmp$2=strncmp(info->name[(signed long int)cat_index], name, (unsigned long int)15);
-        if(return_value_strncmp$2 == 0)
+        signed int return_value_strncmp_2;
+        return_value_strncmp_2=strncmp(info->name[(signed long int)cat_index], name, (unsigned long int)15);
+        if(return_value_strncmp_2 == 0)
         {
           match_category = cat_index;
           break;
@@ -24666,21 +24666,21 @@ extern signed int plu_findcategory(struct CategoryAppInfo *info, const char *nam
       }
     }
 
-  const unsigned short int **return_value___ctype_b_loc$3;
+  const unsigned short int **return_value___ctype_b_loc_3;
   if(match_category == -1 && !((4 & flags) == 0))
   {
     do
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*name]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*name]) == 0)
         break;
 
       name = name + 1l;
     }
     while((_Bool)1);
-    const unsigned short int **return_value___ctype_b_loc$4;
-    return_value___ctype_b_loc$4=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*name]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_4;
+    return_value___ctype_b_loc_4=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*name]) == 0))
       match_category=atoi(name);
 
     if(match_category >= 16 || !(match_category >= 0))
@@ -24707,21 +24707,21 @@ extern signed int plu_findcategory(struct CategoryAppInfo *info, const char *nam
 
 // plu_getromversion
 // file userland.c line 190
-extern signed int plu_getromversion(signed int sd, struct anonymous$14 *d)
+extern signed int plu_getromversion(signed int sd, struct anonymous_14 *d)
 {
   unsigned long int ROMversion;
-  char *tmp_if_expr$5;
-  char *tmp_if_expr$4;
-  if(d == ((struct anonymous$14 *)NULL) || !(sd >= 0))
+  char *tmp_if_expr_5;
+  char *tmp_if_expr_4;
+  if(d == ((struct anonymous_14 *)NULL) || !(sd >= 0))
     return -1;
 
   else
   {
-    unsigned long int return_value_makelong$1;
-    return_value_makelong$1=makelong("psys");
-    signed int return_value_dlp_ReadFeature$2;
-    return_value_dlp_ReadFeature$2=dlp_ReadFeature(sd, return_value_makelong$1, 1, &ROMversion);
-    if(!(return_value_dlp_ReadFeature$2 >= 0))
+    unsigned long int return_value_makelong_1;
+    return_value_makelong_1=makelong("psys");
+    signed int return_value_dlp_ReadFeature_2;
+    return_value_dlp_ReadFeature_2=dlp_ReadFeature(sd, return_value_makelong_1, 1, &ROMversion);
+    if(!(return_value_dlp_ReadFeature_2 >= 0))
       return -1;
 
     else
@@ -24736,22 +24736,22 @@ extern signed int plu_getromversion(signed int sd, struct anonymous$14 *d)
       if(!(d->state == 3))
       {
         signed int len;
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(d->name);
-        len = (signed int)return_value_strlen$3;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(d->name);
+        len = (signed int)return_value_strlen_3;
         if(d->state == 0)
-          tmp_if_expr$5 = "d";
+          tmp_if_expr_5 = "d";
 
         else
         {
           if(d->state == 1)
-            tmp_if_expr$4 = "a";
+            tmp_if_expr_4 = "a";
 
           else
-            tmp_if_expr$4 = d->state == 2 ? "b" : "u";
-          tmp_if_expr$5 = tmp_if_expr$4;
+            tmp_if_expr_4 = d->state == 2 ? "b" : "u";
+          tmp_if_expr_5 = tmp_if_expr_4;
         }
-        snprintf(d->name + (signed long int)len, sizeof(char [16l]) /*16ul*/  - (unsigned long int)len, "-%s%d", tmp_if_expr$5, d->build);
+        snprintf(d->name + (signed long int)len, sizeof(char [16l]) /*16ul*/  - (unsigned long int)len, "-%s%d", tmp_if_expr_5, d->build);
       }
 
       return 0;
@@ -24776,7 +24776,7 @@ signed int plu_protect_files(char *name, const char *extension, const unsigned l
   char *save_name;
   char c = (char)1;
   save_name=strdup(name);
-  signed int return_value_access$3;
+  signed int return_value_access_3;
   if(save_name == ((char *)NULL))
   {
     fprintf(stderr, "   ERROR: No memory for filename %s%s\n", name, extension);
@@ -24785,11 +24785,11 @@ signed int plu_protect_files(char *name, const char *extension, const unsigned l
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(save_name);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(extension);
-    if(!(namelength >= 4ul + return_value_strlen$1 + return_value_strlen$2))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(save_name);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(extension);
+    if(!(namelength >= 4ul + return_value_strlen_1 + return_value_strlen_2))
     {
       fprintf(stderr, "   ERROR: Buffer for filename too small.\n");
       free((void *)save_name);
@@ -24801,8 +24801,8 @@ signed int plu_protect_files(char *name, const char *extension, const unsigned l
       snprintf(name, namelength, "%s%s", save_name, extension);
       do
       {
-        return_value_access$3=access(name, 0);
-        if(!(return_value_access$3 == 0))
+        return_value_access_3=access(name, 0);
+        if(!(return_value_access_3 == 0))
           break;
 
         snprintf(name, namelength, "%s_%02d%s", save_name, c, extension);
@@ -24864,9 +24864,9 @@ extern char * printlong(unsigned long int val)
 // file socket.c line 329
 static void protocol_cmd_queue_add(struct pi_socket *ps, struct pi_protocol *prot)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)ps->cmd_queue, sizeof(struct pi_protocol *) /*8ul*/  * (unsigned long int)(ps->cmd_len + 1));
-  ps->cmd_queue = (struct pi_protocol **)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)ps->cmd_queue, sizeof(struct pi_protocol *) /*8ul*/  * (unsigned long int)(ps->cmd_len + 1));
+  ps->cmd_queue = (struct pi_protocol **)return_value_realloc_1;
   if(!(ps->cmd_queue == ((struct pi_protocol **)NULL)))
   {
     ps->cmd_queue[(signed long int)ps->cmd_len] = prot;
@@ -24875,9 +24875,9 @@ static void protocol_cmd_queue_add(struct pi_socket *ps, struct pi_protocol *pro
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
     ps->cmd_len = 0;
   }
 }
@@ -24886,9 +24886,9 @@ static void protocol_cmd_queue_add(struct pi_socket *ps, struct pi_protocol *pro
 // file socket.c line 303
 static void protocol_queue_add(struct pi_socket *ps, struct pi_protocol *prot)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)ps->protocol_queue, sizeof(struct pi_protocol *) /*8ul*/  * (unsigned long int)(ps->queue_len + 1));
-  ps->protocol_queue = (struct pi_protocol **)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)ps->protocol_queue, sizeof(struct pi_protocol *) /*8ul*/  * (unsigned long int)(ps->queue_len + 1));
+  ps->protocol_queue = (struct pi_protocol **)return_value_realloc_1;
   if(!(ps->protocol_queue == ((struct pi_protocol **)NULL)))
   {
     ps->protocol_queue[(signed long int)ps->queue_len] = prot;
@@ -24897,9 +24897,9 @@ static void protocol_queue_add(struct pi_socket *ps, struct pi_protocol *prot)
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
     ps->queue_len = 0;
   }
 }
@@ -24915,20 +24915,20 @@ static void protocol_queue_build(struct pi_socket *ps, signed int autodetect)
   pi_log(0x080, 0x08, "SOCK fd=%d auto=%d\n", ps->sd, autodetect);
   dev_prot=ps->device->protocol(ps->device);
   dev_cmd_prot=ps->device->protocol(ps->device);
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  struct pi_protocol *return_value_cmp_protocol$16;
-  struct pi_protocol *return_value_padp_protocol$17;
-  struct pi_protocol *return_value_slp_protocol$18;
-  struct pi_protocol *return_value_net_protocol$19;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  struct pi_protocol *return_value_cmp_protocol_16;
+  struct pi_protocol *return_value_padp_protocol_17;
+  struct pi_protocol *return_value_slp_protocol_18;
+  struct pi_protocol *return_value_net_protocol_19;
   if(ps->type == 0x0030)
   {
     pi_log(0x080, 0x08, "RAW mode, no protocol\n", ps->sd, autodetect);
@@ -24958,16 +24958,16 @@ static void protocol_queue_build(struct pi_socket *ps, signed int autodetect)
         {
           bytes_to_skip = 1;
           if((signed int)*detect_buf->data == 0xbe)
-            tmp_if_expr$9 = (signed int)detect_buf->data[(signed long int)1] == 0xef ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (signed int)detect_buf->data[(signed long int)1] == 0xef ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(tmp_if_expr$9)
-            tmp_if_expr$10 = (signed int)detect_buf->data[(signed long int)2] == 0xed ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (_Bool)0;
+          if(tmp_if_expr_9)
+            tmp_if_expr_10 = (signed int)detect_buf->data[(signed long int)2] == 0xed ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
           {
             signed int i;
             unsigned char header_checksum;
@@ -24982,21 +24982,21 @@ static void protocol_queue_build(struct pi_socket *ps, signed int autodetect)
             if(header_checksum == detect_buf->data[9l])
             {
               if((signed int)detect_buf->data[3l] == 0x03)
-                tmp_if_expr$1 = (signed int)detect_buf->data[(signed long int)4] == 0x03 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_1 = (signed int)detect_buf->data[(signed long int)4] == 0x03 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$1 = (_Bool)0;
-              if(tmp_if_expr$1)
-                tmp_if_expr$2 = (signed int)detect_buf->data[(signed long int)5] == 0x02 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_1 = (_Bool)0;
+              if(tmp_if_expr_1)
+                tmp_if_expr_2 = (signed int)detect_buf->data[(signed long int)5] == 0x02 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$2 = (_Bool)0;
-              if(tmp_if_expr$2)
-                tmp_if_expr$3 = (signed int)detect_buf->data[(signed long int)8] == 0xff ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_2 = (_Bool)0;
+              if(tmp_if_expr_2)
+                tmp_if_expr_3 = (signed int)detect_buf->data[(signed long int)8] == 0xff ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = (_Bool)0;
+              if(tmp_if_expr_3)
               {
                 protocol = 4;
                 pi_log(0x080, 0x04, "\nusing PADP/SLP protocol (skipped %d bytes)\n", skipped_bytes);
@@ -25013,31 +25013,31 @@ static void protocol_queue_build(struct pi_socket *ps, signed int autodetect)
           else
           {
             if((signed int)*detect_buf->data == 0x01)
-              tmp_if_expr$4 = (signed int)detect_buf->data[(signed long int)2] == 0x00 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (signed int)detect_buf->data[(signed long int)2] == 0x00 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(tmp_if_expr$4)
-              tmp_if_expr$5 = (signed int)detect_buf->data[(signed long int)3] == 0x00 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (_Bool)0;
+            if(tmp_if_expr_4)
+              tmp_if_expr_5 = (signed int)detect_buf->data[(signed long int)3] == 0x00 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$5 = (_Bool)0;
-            if(tmp_if_expr$5)
-              tmp_if_expr$6 = (signed int)detect_buf->data[(signed long int)4] == 0x00 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_5 = (_Bool)0;
+            if(tmp_if_expr_5)
+              tmp_if_expr_6 = (signed int)detect_buf->data[(signed long int)4] == 0x00 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            if(tmp_if_expr$6)
-              tmp_if_expr$7 = (signed int)detect_buf->data[(signed long int)5] > 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = (_Bool)0;
+            if(tmp_if_expr_6)
+              tmp_if_expr_7 = (signed int)detect_buf->data[(signed long int)5] > 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            if(tmp_if_expr$7)
-              tmp_if_expr$8 = (signed int)detect_buf->data[(signed long int)6] == 0x90 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = (_Bool)0;
+            if(tmp_if_expr_7)
+              tmp_if_expr_8 = (signed int)detect_buf->data[(signed long int)6] == 0x90 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$8 = (_Bool)0;
-            if(tmp_if_expr$8)
+              tmp_if_expr_8 = (_Bool)0;
+            if(tmp_if_expr_8)
             {
               protocol = 5;
               pi_log(0x080, 0x04, "\nusing NET protocol (skipped %d bytes)\n", skipped_bytes);
@@ -25110,34 +25110,34 @@ static void protocol_queue_build(struct pi_socket *ps, signed int autodetect)
 
     if(protocol == 4)
     {
-      struct pi_protocol *return_value_padp_protocol$11;
-      return_value_padp_protocol$11=padp_protocol();
-      protocol_queue_add(ps, return_value_padp_protocol$11);
-      struct pi_protocol *return_value_slp_protocol$12;
-      return_value_slp_protocol$12=slp_protocol();
-      protocol_queue_add(ps, return_value_slp_protocol$12);
-      struct pi_protocol *return_value_net_protocol$13;
-      return_value_net_protocol$13=net_protocol();
-      protocol_queue_add(ps, return_value_net_protocol$13);
-      struct pi_protocol *return_value_sys_protocol$14;
-      return_value_sys_protocol$14=sys_protocol();
-      protocol_queue_add(ps, return_value_sys_protocol$14);
-      struct pi_protocol *return_value_slp_protocol$15;
-      return_value_slp_protocol$15=slp_protocol();
-      protocol_queue_add(ps, return_value_slp_protocol$15);
+      struct pi_protocol *return_value_padp_protocol_11;
+      return_value_padp_protocol_11=padp_protocol();
+      protocol_queue_add(ps, return_value_padp_protocol_11);
+      struct pi_protocol *return_value_slp_protocol_12;
+      return_value_slp_protocol_12=slp_protocol();
+      protocol_queue_add(ps, return_value_slp_protocol_12);
+      struct pi_protocol *return_value_net_protocol_13;
+      return_value_net_protocol_13=net_protocol();
+      protocol_queue_add(ps, return_value_net_protocol_13);
+      struct pi_protocol *return_value_sys_protocol_14;
+      return_value_sys_protocol_14=sys_protocol();
+      protocol_queue_add(ps, return_value_sys_protocol_14);
+      struct pi_protocol *return_value_slp_protocol_15;
+      return_value_slp_protocol_15=slp_protocol();
+      protocol_queue_add(ps, return_value_slp_protocol_15);
     }
 
     if(protocol == 2 || protocol == 4)
     {
-      return_value_cmp_protocol$16=cmp_protocol();
-      protocol_cmd_queue_add(ps, return_value_cmp_protocol$16);
-      return_value_padp_protocol$17=padp_protocol();
-      protocol_cmd_queue_add(ps, return_value_padp_protocol$17);
-      return_value_slp_protocol$18=slp_protocol();
-      protocol_cmd_queue_add(ps, return_value_slp_protocol$18);
+      return_value_cmp_protocol_16=cmp_protocol();
+      protocol_cmd_queue_add(ps, return_value_cmp_protocol_16);
+      return_value_padp_protocol_17=padp_protocol();
+      protocol_cmd_queue_add(ps, return_value_padp_protocol_17);
+      return_value_slp_protocol_18=slp_protocol();
+      protocol_cmd_queue_add(ps, return_value_slp_protocol_18);
       ps->cmd = 0x01;
-      return_value_net_protocol$19=net_protocol();
-      protocol_cmd_queue_add(ps, return_value_net_protocol$19);
+      return_value_net_protocol_19=net_protocol();
+      protocol_cmd_queue_add(ps, return_value_net_protocol_19);
       ps->cmd = 0x02;
       ps->cmd = 0x03;
     }
@@ -25291,9 +25291,9 @@ static struct pi_socket_list * ps_list_append(struct pi_socket_list *list, struc
       pi_log(0x400, 0x00, "file %s: line %d: assertion failed: (%s)", (const void *)"socket.c", 138, (const void *)"ps != NULL");
 
   while((_Bool)0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_socket_list) /*16ul*/ );
-  new_elem = (struct pi_socket_list *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_socket_list) /*16ul*/ );
+  new_elem = (struct pi_socket_list *)return_value_malloc_1;
   if(new_elem == ((struct pi_socket_list *)NULL))
     return list;
 
@@ -25406,24 +25406,24 @@ static void record_dump(unsigned long int recID, unsigned int recIndex, signed i
 
 // register_sdp
 // file bluetooth.c line 170
-static signed int register_sdp(unsigned int *handle, signed int *channel, struct anonymous$21 **sess)
+static signed int register_sdp(unsigned int *handle, signed int *channel, struct anonymous_21 **sess)
 {
-  struct anonymous$23 si;
-  struct anonymous$18 interface;
-  struct anonymous$18 literal$1 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-  bacpy(&interface, &literal$1);
-  struct anonymous$18 literal$2 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff } };
-  *sess=sdp_connect(&interface, &literal$2, (unsigned int)0);
-  if(*sess == ((struct anonymous$21 *)NULL))
+  struct anonymous_23 si;
+  struct anonymous_18 interface;
+  struct anonymous_18 literal_1 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+  bacpy(&interface, &literal_1);
+  struct anonymous_18 literal_2 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff } };
+  *sess=sdp_connect(&interface, &literal_2, (unsigned int)0);
+  if(*sess == ((struct anonymous_21 *)NULL))
     return -1;
 
   else
   {
-    memset((void *)&si, 0, sizeof(struct anonymous$23) /*40ul*/ );
+    memset((void *)&si, 0, sizeof(struct anonymous_23) /*40ul*/ );
     si.name = "HOTSYNC";
-    signed int return_value_add_hotsync$3;
-    return_value_add_hotsync$3=add_hotsync(*sess, ((struct anonymous$20 *)NULL), &interface, &si, handle, channel);
-    return return_value_add_hotsync$3;
+    signed int return_value_add_hotsync_3;
+    return_value_add_hotsync_3=add_hotsync(*sess, ((struct anonymous_20 *)NULL), &interface, &si, handle, channel);
+    return return_value_add_hotsync_3;
   }
 }
 
@@ -25434,28 +25434,28 @@ static signed int s_changebaud(struct pi_socket *ps)
   struct pi_serial_data *data = (struct pi_serial_data *)ps->device->data;
   struct termios tcn;
   pi_log(0x002, 0x08, "DEV SPEED unixserial switch to %d bps\n", (signed int)data->rate);
-  signed int return_value_tcgetattr$2;
-  return_value_tcgetattr$2=tcgetattr(ps->sd, &tcn);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$4;
-  if(!(return_value_tcgetattr$2 == 0))
+  signed int return_value_tcgetattr_2;
+  return_value_tcgetattr_2=tcgetattr(ps->sd, &tcn);
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_4;
+  if(!(return_value_tcgetattr_2 == 0))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -502);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -502);
+    return return_value_pi_set_error_1;
   }
 
   else
   {
     tcn.c_cflag = (unsigned int)(0000200 | 0004000 | 0000060);
-    unsigned int return_value_calcrate$3;
-    return_value_calcrate$3=calcrate(data->rate);
-    cfsetspeed(&tcn, return_value_calcrate$3);
-    signed int return_value_tcsetattr$5;
-    return_value_tcsetattr$5=tcsetattr(ps->sd, 1, &tcn);
-    if(!(return_value_tcsetattr$5 == 0))
+    unsigned int return_value_calcrate_3;
+    return_value_calcrate_3=calcrate(data->rate);
+    cfsetspeed(&tcn, return_value_calcrate_3);
+    signed int return_value_tcsetattr_5;
+    return_value_tcsetattr_5=tcsetattr(ps->sd, 1, &tcn);
+    if(!(return_value_tcsetattr_5 == 0))
     {
-      return_value_pi_set_error$4=pi_set_error(ps->sd, -502);
-      return return_value_pi_set_error$4;
+      return_value_pi_set_error_4=pi_set_error(ps->sd, -502);
+      return return_value_pi_set_error_4;
     }
 
     else
@@ -25468,9 +25468,9 @@ static signed int s_changebaud(struct pi_socket *ps)
 static signed int s_close(struct pi_socket *ps)
 {
   pi_log(0x002, 0x04, "DEV CLOSE unixserial fd: %d\n", ps->sd);
-  signed int return_value_close$1;
-  return_value_close$1=close(ps->sd);
-  return return_value_close$1;
+  signed int return_value_close_1;
+  return_value_close_1=close(ps->sd);
+  return return_value_close_1;
 }
 
 // s_flush
@@ -25480,7 +25480,7 @@ static signed int s_flush(struct pi_socket *ps, signed int flags)
   signed int fl;
   char buf[256l];
   struct pi_serial_data *data = (struct pi_serial_data *)ps->device->data;
-  signed long int return_value_recv$1;
+  signed long int return_value_recv_1;
   if(!((0x01 & flags) == 0))
   {
     data->buf_size = (unsigned long int)0;
@@ -25490,8 +25490,8 @@ static signed int s_flush(struct pi_socket *ps, signed int flags)
       fcntl(ps->sd, 4, fl | 04000);
       do
       {
-        return_value_recv$1=recv(ps->sd, (void *)buf, sizeof(char [256l]) /*256ul*/ , 0);
-        if(!(return_value_recv$1 >= 1l))
+        return_value_recv_1=recv(ps->sd, (void *)buf, sizeof(char [256l]) /*256ul*/ , 0);
+        if(!(return_value_recv_1 >= 1l))
           break;
 
       }
@@ -25523,14 +25523,14 @@ static signed int s_open(struct pi_socket *ps, struct pi_sockaddr *addr, unsigne
 
   else
   {
-    signed int return_value_isatty$2;
-    return_value_isatty$2=isatty(fd);
-    if(return_value_isatty$2 == 0)
+    signed int return_value_isatty_2;
+    return_value_isatty_2=isatty(fd);
+    if(return_value_isatty_2 == 0)
     {
       close(fd);
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 22;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 22;
       ps->last_error = -502;
       return -502;
     }
@@ -25540,9 +25540,9 @@ static signed int s_open(struct pi_socket *ps, struct pi_sockaddr *addr, unsigne
     tcn.c_oflag = (unsigned int)0;
     tcn.c_iflag = (unsigned int)(0000001 | 0000004);
     tcn.c_cflag = (unsigned int)(0000200 | 0004000 | 0000060);
-    unsigned int return_value_calcrate$3;
-    return_value_calcrate$3=calcrate(data->rate);
-    cfsetspeed(&tcn, return_value_calcrate$3);
+    unsigned int return_value_calcrate_3;
+    return_value_calcrate_3=calcrate(data->rate);
+    cfsetspeed(&tcn, return_value_calcrate_3);
     tcn.c_lflag = (unsigned int)0000200;
     cfmakeraw(&tcn);
     i = 0;
@@ -25573,29 +25573,29 @@ static signed int s_poll(struct pi_socket *ps, signed int timeout)
 {
   struct pi_serial_data *data = (struct pi_serial_data *)ps->device->data;
   struct timeval t;
-  struct anonymous$9 ready;
+  struct anonymous_9 ready;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << ps->sd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(timeout == 0)
-    select(ps->sd + 1, &ready, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), ((struct timeval *)NULL));
+    select(ps->sd + 1, &ready, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), ((struct timeval *)NULL));
 
   else
   {
     t.tv_sec = (signed long int)(timeout / 1000);
     t.tv_usec = (signed long int)((timeout % 1000) * 1000);
-    signed int return_value_select$2;
-    return_value_select$2=select(ps->sd + 1, &ready, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), &t);
-    if(return_value_select$2 == 0)
+    signed int return_value_select_2;
+    return_value_select_2=select(ps->sd + 1, &ready, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), &t);
+    if(return_value_select_2 == 0)
     {
-      return_value_pi_set_error$1=pi_set_error(ps->sd, -202);
-      return return_value_pi_set_error$1;
+      return_value_pi_set_error_1=pi_set_error(ps->sd, -202);
+      return return_value_pi_set_error_1;
     }
 
   }
@@ -25603,12 +25603,12 @@ static signed int s_poll(struct pi_socket *ps, signed int timeout)
   {
     pi_log(0x002, 0x02, "DEV POLL unixserial timeout\n");
     data->rx_errors = data->rx_errors + 1;
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 110;
-    signed int return_value_pi_set_error$4;
-    return_value_pi_set_error$4=pi_set_error(ps->sd, -202);
-    return return_value_pi_set_error$4;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 110;
+    signed int return_value_pi_set_error_4;
+    return_value_pi_set_error_4=pi_set_error(ps->sd, -202);
+    return return_value_pi_set_error_4;
   }
 
   pi_log(0x002, 0x08, "DEV POLL unixserial found data on fd: %d\n", ps->sd);
@@ -25623,12 +25623,12 @@ static signed long int s_read(struct pi_socket *ps, struct pi_buffer_t *buf, uns
   signed long int bytes;
   struct pi_serial_data *data = (struct pi_serial_data *)ps->device->data;
   struct timeval t;
-  struct anonymous$9 ready;
+  struct anonymous_9 ready;
   if(!(data->buf_size == 0ul))
   {
-    unsigned long int return_value_s_read_buf$1;
-    return_value_s_read_buf$1=s_read_buf(ps, buf, len, flags);
-    rbuf = (signed long int)return_value_s_read_buf$1;
+    unsigned long int return_value_s_read_buf_1;
+    return_value_s_read_buf_1=s_read_buf(ps, buf, len, flags);
+    rbuf = (signed long int)return_value_s_read_buf_1;
     if(!(rbuf >= 0l))
       return rbuf;
 
@@ -25642,24 +25642,24 @@ static signed long int s_read(struct pi_socket *ps, struct pi_buffer_t *buf, uns
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << ps->sd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-  signed int return_value_pi_set_error$2;
+  signed int return_value_pi_set_error_2;
   if(data->timeout == 0)
-    select(ps->sd + 1, &ready, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), ((struct timeval *)NULL));
+    select(ps->sd + 1, &ready, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), ((struct timeval *)NULL));
 
   else
   {
     t.tv_sec = (signed long int)(data->timeout / 1000);
     t.tv_usec = (signed long int)((data->timeout % 1000) * 1000);
-    signed int return_value_select$3;
-    return_value_select$3=select(ps->sd + 1, &ready, ((struct anonymous$9 *)NULL), ((struct anonymous$9 *)NULL), &t);
-    if(return_value_select$3 == 0)
+    signed int return_value_select_3;
+    return_value_select_3=select(ps->sd + 1, &ready, ((struct anonymous_9 *)NULL), ((struct anonymous_9 *)NULL), &t);
+    if(return_value_select_3 == 0)
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -202);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -202);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
   }
@@ -25668,16 +25668,16 @@ static signed long int s_read(struct pi_socket *ps, struct pi_buffer_t *buf, uns
     if(flags == 0x01 && len >= 257ul)
       len = (unsigned long int)256;
 
-    struct pi_buffer_t *return_value_pi_buffer_expect$6;
-    return_value_pi_buffer_expect$6=pi_buffer_expect(buf, len);
-    if(return_value_pi_buffer_expect$6 == ((struct pi_buffer_t *)NULL))
+    struct pi_buffer_t *return_value_pi_buffer_expect_6;
+    return_value_pi_buffer_expect_6=pi_buffer_expect(buf, len);
+    if(return_value_pi_buffer_expect_6 == ((struct pi_buffer_t *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = 12;
-      signed int return_value_pi_set_error$5;
-      return_value_pi_set_error$5=pi_set_error(ps->sd, -500);
-      return (signed long int)return_value_pi_set_error$5;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = 12;
+      signed int return_value_pi_set_error_5;
+      return_value_pi_set_error_5=pi_set_error(ps->sd, -500);
+      return (signed long int)return_value_pi_set_error_5;
     }
 
     bytes=read(ps->sd, (void *)&buf->data[(signed long int)buf->used], len);
@@ -25705,12 +25705,12 @@ static signed long int s_read(struct pi_socket *ps, struct pi_buffer_t *buf, uns
   {
     pi_log(0x002, 0x02, "DEV RX unixserial timeout\n");
     data->rx_errors = data->rx_errors + 1;
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    *return_value___errno_location$7 = 110;
-    signed int return_value_pi_set_error$8;
-    return_value_pi_set_error$8=pi_set_error(ps->sd, -202);
-    return (signed long int)return_value_pi_set_error$8;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    *return_value___errno_location_7 = 110;
+    signed int return_value_pi_set_error_8;
+    return_value_pi_set_error_8=pi_set_error(ps->sd, -202);
+    return (signed long int)return_value_pi_set_error_8;
   }
   return rbuf;
 }
@@ -25724,16 +25724,16 @@ static unsigned long int s_read_buf(struct pi_socket *ps, struct pi_buffer_t *bu
   if(!(len >= rbuf))
     rbuf = len;
 
-  struct pi_buffer_t *return_value_pi_buffer_append$3;
-  return_value_pi_buffer_append$3=pi_buffer_append(buf, (const void *)data->buf, rbuf);
-  if(return_value_pi_buffer_append$3 == ((struct pi_buffer_t *)NULL))
+  struct pi_buffer_t *return_value_pi_buffer_append_3;
+  return_value_pi_buffer_append_3=pi_buffer_append(buf, (const void *)data->buf, rbuf);
+  if(return_value_pi_buffer_append_3 == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(ps->sd, -500);
-    return (unsigned long int)return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(ps->sd, -500);
+    return (unsigned long int)return_value_pi_set_error_2;
   }
 
   if(!(flags == 0x01))
@@ -25756,68 +25756,68 @@ static signed long int s_write(struct pi_socket *ps, const unsigned char *buf, u
   signed long int nwrote;
   struct pi_serial_data *data = (struct pi_serial_data *)ps->device->data;
   struct timeval t;
-  struct anonymous$9 ready;
+  struct anonymous_9 ready;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ready)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&ready)->__fds_bits[(signed long int)(ps->sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << ps->sd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
   total = (signed long int)len;
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$3;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_3;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
   while(total >= 1l)
   {
     if(data->timeout == 0)
-      select(ps->sd + 1, ((struct anonymous$9 *)NULL), &ready, ((struct anonymous$9 *)NULL), ((struct timeval *)NULL));
+      select(ps->sd + 1, ((struct anonymous_9 *)NULL), &ready, ((struct anonymous_9 *)NULL), ((struct timeval *)NULL));
 
     else
     {
       t.tv_sec = (signed long int)(data->timeout / 1000);
       t.tv_usec = (signed long int)((data->timeout % 1000) * 1000);
-      signed int return_value_select$2;
-      return_value_select$2=select(ps->sd + 1, ((struct anonymous$9 *)NULL), &ready, ((struct anonymous$9 *)NULL), &t);
-      if(return_value_select$2 == 0)
+      signed int return_value_select_2;
+      return_value_select_2=select(ps->sd + 1, ((struct anonymous_9 *)NULL), &ready, ((struct anonymous_9 *)NULL), &t);
+      if(return_value_select_2 == 0)
       {
-        return_value_pi_set_error$1=pi_set_error(ps->sd, -202);
-        return (signed long int)return_value_pi_set_error$1;
+        return_value_pi_set_error_1=pi_set_error(ps->sd, -202);
+        return (signed long int)return_value_pi_set_error_1;
       }
 
     }
     if((ready.__fds_bits[(signed long int)(ps->sd / 8)] & (signed long int)(1UL << ps->sd % 8)) == 0l)
     {
-      return_value_pi_set_error$3=pi_set_error(ps->sd, -202);
-      return (signed long int)return_value_pi_set_error$3;
+      return_value_pi_set_error_3=pi_set_error(ps->sd, -202);
+      return (signed long int)return_value_pi_set_error_3;
     }
 
     nwrote=write(ps->sd, (const void *)buf, len);
     if(!(nwrote >= 0l))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 32)
-        tmp_if_expr$7 = (_Bool)1;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 32)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$6=__errno_location();
-        tmp_if_expr$7 = *return_value___errno_location$6 == 9 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_6=__errno_location();
+        tmp_if_expr_7 = *return_value___errno_location_6 == 9 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
       {
         ps->state = 0x08;
-        signed int return_value_pi_set_error$4;
-        return_value_pi_set_error$4=pi_set_error(ps->sd, -200);
-        return (signed long int)return_value_pi_set_error$4;
+        signed int return_value_pi_set_error_4;
+        return_value_pi_set_error_4=pi_set_error(ps->sd, -200);
+        return (signed long int)return_value_pi_set_error_4;
       }
 
-      signed int return_value_pi_set_error$8;
-      return_value_pi_set_error$8=pi_set_error(ps->sd, -204);
-      return (signed long int)return_value_pi_set_error$8;
+      signed int return_value_pi_set_error_8;
+      return_value_pi_set_error_8=pi_set_error(ps->sd, -204);
+      return (signed long int)return_value_pi_set_error_8;
     }
 
     total = total - nwrote;
@@ -25830,20 +25830,20 @@ static signed long int s_write(struct pi_socket *ps, const unsigned char *buf, u
 
 // sdp_set_browse_groups
 // file /usr/include/bluetooth/sdp_lib.h line 226
-static inline signed int sdp_set_browse_groups(struct anonymous$20 *rec, struct _sdp_list *seq)
+static inline signed int sdp_set_browse_groups(struct anonymous_20 *rec, struct _sdp_list *seq)
 {
-  signed int return_value_sdp_set_uuidseq_attr$1;
-  return_value_sdp_set_uuidseq_attr$1=sdp_set_uuidseq_attr(rec, (unsigned short int)0x0005, seq);
-  return return_value_sdp_set_uuidseq_attr$1;
+  signed int return_value_sdp_set_uuidseq_attr_1;
+  return_value_sdp_set_uuidseq_attr_1=sdp_set_uuidseq_attr(rec, (unsigned short int)0x0005, seq);
+  return return_value_sdp_set_uuidseq_attr_1;
 }
 
 // sdp_set_service_classes
 // file /usr/include/bluetooth/sdp_lib.h line 204
-static inline signed int sdp_set_service_classes(struct anonymous$20 *rec, struct _sdp_list *seq)
+static inline signed int sdp_set_service_classes(struct anonymous_20 *rec, struct _sdp_list *seq)
 {
-  signed int return_value_sdp_set_uuidseq_attr$1;
-  return_value_sdp_set_uuidseq_attr$1=sdp_set_uuidseq_attr(rec, (unsigned short int)0x0001, seq);
-  return return_value_sdp_set_uuidseq_attr$1;
+  signed int return_value_sdp_set_uuidseq_attr_1;
+  return_value_sdp_set_uuidseq_attr_1=sdp_set_uuidseq_attr(rec, (unsigned short int)0x0001, seq);
+  return return_value_sdp_set_uuidseq_attr_1;
 }
 
 // set_float
@@ -25863,9 +25863,9 @@ extern void set_float(void *buffer, double value)
 
   else
     sign = 0xFF;
-  double return_value_frexp$1;
-  return_value_frexp$1=frexp(value, &expr);
-  r=ldexp(return_value_frexp$1, 32);
+  double return_value_frexp_1;
+  return_value_frexp_1=frexp(value, &expr);
+  r=ldexp(return_value_frexp_1, 32);
   frac = (unsigned long int)r;
   expr = expr - 32;
   ((unsigned char *)buf)[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)frac >> 24) & 0xff);
@@ -25899,12 +25899,12 @@ static signed int slp_flush(struct pi_socket *ps, signed int flags)
   struct pi_protocol *prot;
   struct pi_protocol *next;
   prot=pi_protocol(ps->sd, 1);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -25912,8 +25912,8 @@ static signed int slp_flush(struct pi_socket *ps, signed int flags)
     next=pi_protocol_next(ps->sd, 1);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -25932,11 +25932,11 @@ static signed int slp_getsockopt(struct pi_socket *ps, signed int level, signed 
   struct pi_protocol *prot;
   struct pi_slp_data *data;
   prot=pi_protocol(ps->sd, 1);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -26020,12 +26020,12 @@ static signed int slp_getsockopt(struct pi_socket *ps, signed int level, signed 
 
   error:
     ;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
-    signed int return_value_pi_set_error$3;
-    return_value_pi_set_error$3=pi_set_error(ps->sd, -501);
-    return return_value_pi_set_error$3;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
+    signed int return_value_pi_set_error_3;
+    return_value_pi_set_error_3=pi_set_error(ps->sd, -501);
+    return return_value_pi_set_error_3;
   }
 }
 
@@ -26035,12 +26035,12 @@ extern struct pi_protocol * slp_protocol(void)
 {
   struct pi_protocol *prot;
   struct pi_slp_data *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  prot = (struct pi_protocol *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct pi_slp_data) /*28ul*/ );
-  data = (struct pi_slp_data *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  prot = (struct pi_protocol *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct pi_slp_data) /*28ul*/ );
+  data = (struct pi_slp_data *)return_value_malloc_2;
   if(!(prot == ((struct pi_protocol *)NULL)) && !(data == ((struct pi_slp_data *)NULL)))
   {
     prot->level = 1;
@@ -26086,12 +26086,12 @@ static struct pi_protocol * slp_protocol_dup(struct pi_protocol *prot)
   struct pi_protocol *new_prot;
   struct pi_slp_data *data;
   struct pi_slp_data *new_data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  new_prot = (struct pi_protocol *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct pi_slp_data) /*28ul*/ );
-  new_data = (struct pi_slp_data *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  new_prot = (struct pi_protocol *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct pi_slp_data) /*28ul*/ );
+  new_data = (struct pi_slp_data *)return_value_malloc_2;
   if(!(new_prot == ((struct pi_protocol *)NULL)) && !(new_data == ((struct pi_slp_data *)NULL)))
   {
     new_prot->level = prot->level;
@@ -26166,15 +26166,15 @@ extern signed long int slp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, uns
   struct pi_slp_data *data;
   pi_log(0x004, 0x08, "SLP RX len=%d flags=0x%04x\n", len, flags);
   prot=pi_protocol(ps->sd, 1);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_debug_get_level$6;
-  signed int return_value_pi_debug_get_level$8;
-  struct pi_buffer_t *return_value_pi_buffer_append$12;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_debug_get_level_6;
+  signed int return_value_pi_debug_get_level_8;
+  struct pi_buffer_t *return_value_pi_buffer_append_12;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -26183,8 +26183,8 @@ extern signed long int slp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, uns
     next=pi_protocol_next(ps->sd, 1);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
     else
@@ -26192,12 +26192,12 @@ extern signed long int slp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, uns
       slp_buf=pi_buffer_new((unsigned long int)(10 + 0xffff + 2));
       if(slp_buf == ((struct pi_buffer_t *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 12;
-        signed int return_value_pi_set_error$4;
-        return_value_pi_set_error$4=pi_set_error(ps->sd, -500);
-        return (signed long int)return_value_pi_set_error$4;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 12;
+        signed int return_value_pi_set_error_4;
+        return_value_pi_set_error_4=pi_set_error(ps->sd, -500);
+        return (signed long int)return_value_pi_set_error_4;
       }
 
       state = 0;
@@ -26245,9 +26245,9 @@ extern signed long int slp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, uns
             {
               pi_log(0x004, 0x01, "SLP RX Packet size exceed buffer\n");
               pi_buffer_free(slp_buf);
-              signed int return_value_pi_set_error$5;
-              return_value_pi_set_error$5=pi_set_error(ps->sd, -102);
-              return (signed long int)return_value_pi_set_error$5;
+              signed int return_value_pi_set_error_5;
+              return_value_pi_set_error_5=pi_set_error(ps->sd, -102);
+              return (signed long int)return_value_pi_set_error_5;
             }
 
             expect = packet_len;
@@ -26292,12 +26292,12 @@ extern signed long int slp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, uns
           data->last_txid = ((unsigned char *)&slp_buf->data[(signed long int)8])[(signed long int)0];
           do
           {
-            signed int return_value_pi_debug_get_types$7;
-            return_value_pi_debug_get_types$7=pi_debug_get_types();
-            if(!((0x004 & return_value_pi_debug_get_types$7) == 0))
+            signed int return_value_pi_debug_get_types_7;
+            return_value_pi_debug_get_types_7=pi_debug_get_types();
+            if(!((0x004 & return_value_pi_debug_get_types_7) == 0))
             {
-              return_value_pi_debug_get_level$6=pi_debug_get_level();
-              if(return_value_pi_debug_get_level$6 >= 0x04)
+              return_value_pi_debug_get_level_6=pi_debug_get_level();
+              if(return_value_pi_debug_get_level_6 >= 0x04)
                 slp_dump_header(slp_buf->data, 0);
 
             }
@@ -26306,27 +26306,27 @@ extern signed long int slp_rx(struct pi_socket *ps, struct pi_buffer_t *buf, uns
           while((_Bool)0);
           do
           {
-            signed int return_value_pi_debug_get_types$9;
-            return_value_pi_debug_get_types$9=pi_debug_get_types();
-            if(!((0x004 & return_value_pi_debug_get_types$9) == 0))
+            signed int return_value_pi_debug_get_types_9;
+            return_value_pi_debug_get_types_9=pi_debug_get_types();
+            if(!((0x004 & return_value_pi_debug_get_types_9) == 0))
             {
-              return_value_pi_debug_get_level$8=pi_debug_get_level();
-              if(return_value_pi_debug_get_level$8 >= 0x08)
+              return_value_pi_debug_get_level_8=pi_debug_get_level();
+              if(return_value_pi_debug_get_level_8 >= 0x08)
                 slp_dump(slp_buf->data);
 
             }
 
           }
           while((_Bool)0);
-          return_value_pi_buffer_append$12=pi_buffer_append(buf, (const void *)&slp_buf->data[(signed long int)10], (unsigned long int)packet_len);
-          if(return_value_pi_buffer_append$12 == ((struct pi_buffer_t *)NULL))
+          return_value_pi_buffer_append_12=pi_buffer_append(buf, (const void *)&slp_buf->data[(signed long int)10], (unsigned long int)packet_len);
+          if(return_value_pi_buffer_append_12 == ((struct pi_buffer_t *)NULL))
           {
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            *return_value___errno_location$10 = 12;
-            signed int return_value_pi_set_error$11;
-            return_value_pi_set_error$11=pi_set_error(ps->sd, -500);
-            return (signed long int)return_value_pi_set_error$11;
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            *return_value___errno_location_10 = 12;
+            signed int return_value_pi_set_error_11;
+            return_value_pi_set_error_11=pi_set_error(ps->sd, -500);
+            return (signed long int)return_value_pi_set_error_11;
           }
 
           pi_buffer_free(slp_buf);
@@ -26358,11 +26358,11 @@ static signed int slp_setsockopt(struct pi_socket *ps, signed int level, signed 
   struct pi_protocol *prot;
   struct pi_slp_data *data;
   prot=pi_protocol(ps->sd, 1);
-  signed int return_value_pi_set_error$1;
+  signed int return_value_pi_set_error_1;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -26410,12 +26410,12 @@ static signed int slp_setsockopt(struct pi_socket *ps, signed int level, signed 
 
   error:
     ;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
-    signed int return_value_pi_set_error$3;
-    return_value_pi_set_error$3=pi_set_error(ps->sd, -501);
-    return return_value_pi_set_error$3;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
+    signed int return_value_pi_set_error_3;
+    return_value_pi_set_error_3=pi_set_error(ps->sd, -501);
+    return return_value_pi_set_error_3;
   }
 }
 
@@ -26432,15 +26432,15 @@ extern signed long int slp_tx(struct pi_socket *ps, const unsigned char *buf, un
   unsigned int i;
   unsigned int n;
   prot=pi_protocol(ps->sd, 1);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_set_error$4;
-  signed int return_value_pi_debug_get_level$7;
-  signed int return_value_pi_debug_get_level$9;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_set_error_4;
+  signed int return_value_pi_debug_get_level_7;
+  signed int return_value_pi_debug_get_level_9;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -26449,19 +26449,19 @@ extern signed long int slp_tx(struct pi_socket *ps, const unsigned char *buf, un
     next=pi_protocol_next(ps->sd, 1);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)(10 + 0xffff + 2));
-      slp_buf = (unsigned char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)(10 + 0xffff + 2));
+      slp_buf = (unsigned char *)return_value_malloc_3;
       if(slp_buf == ((unsigned char *)NULL))
       {
-        return_value_pi_set_error$4=pi_set_error(ps->sd, -500);
-        return (signed long int)return_value_pi_set_error$4;
+        return_value_pi_set_error_4=pi_set_error(ps->sd, -500);
+        return (signed long int)return_value_pi_set_error_4;
       }
 
       else
@@ -26482,33 +26482,33 @@ extern signed long int slp_tx(struct pi_socket *ps, const unsigned char *buf, un
           n = n + (unsigned int)slp_buf[(signed long int)i];
         slp->csum = (unsigned char)((unsigned int)0xff & n);
         memcpy((void *)(slp_buf + (signed long int)10), (const void *)buf, len);
-        signed int return_value_crc16$5;
-        return_value_crc16$5=crc16(slp_buf, (signed int)((unsigned long int)10 + len));
-        ((unsigned char *)&slp_buf[(signed long int)((unsigned long int)10 + len)])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)return_value_crc16$5 >> 8 & 0xff);
-        signed int return_value_crc16$6;
-        return_value_crc16$6=crc16(slp_buf, (signed int)((unsigned long int)10 + len));
-        ((unsigned char *)&slp_buf[(signed long int)((unsigned long int)10 + len)])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)return_value_crc16$6 >> 0 & 0xff);
+        signed int return_value_crc16_5;
+        return_value_crc16_5=crc16(slp_buf, (signed int)((unsigned long int)10 + len));
+        ((unsigned char *)&slp_buf[(signed long int)((unsigned long int)10 + len)])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)return_value_crc16_5 >> 8 & 0xff);
+        signed int return_value_crc16_6;
+        return_value_crc16_6=crc16(slp_buf, (signed int)((unsigned long int)10 + len));
+        ((unsigned char *)&slp_buf[(signed long int)((unsigned long int)10 + len)])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)return_value_crc16_6 >> 0 & 0xff);
         signed long int return_value;
         return_value=next->write(ps, slp_buf, (unsigned long int)10 + len + (unsigned long int)2, flags);
         bytes = (signed int)return_value;
         if(bytes >= 0)
         {
-          signed int return_value_pi_debug_get_types$8;
-          return_value_pi_debug_get_types$8=pi_debug_get_types();
-          if(!((0x004 & return_value_pi_debug_get_types$8) == 0))
+          signed int return_value_pi_debug_get_types_8;
+          return_value_pi_debug_get_types_8=pi_debug_get_types();
+          if(!((0x004 & return_value_pi_debug_get_types_8) == 0))
           {
-            return_value_pi_debug_get_level$7=pi_debug_get_level();
-            if(return_value_pi_debug_get_level$7 >= 0x04)
+            return_value_pi_debug_get_level_7=pi_debug_get_level();
+            if(return_value_pi_debug_get_level_7 >= 0x04)
               slp_dump_header(slp_buf, 1);
 
           }
 
-          signed int return_value_pi_debug_get_types$10;
-          return_value_pi_debug_get_types$10=pi_debug_get_types();
-          if(!((0x004 & return_value_pi_debug_get_types$10) == 0))
+          signed int return_value_pi_debug_get_types_10;
+          return_value_pi_debug_get_types_10=pi_debug_get_types();
+          if(!((0x004 & return_value_pi_debug_get_types_10) == 0))
           {
-            return_value_pi_debug_get_level$9=pi_debug_get_level();
-            if(return_value_pi_debug_get_level$9 >= 0x08)
+            return_value_pi_debug_get_level_9=pi_debug_get_level();
+            if(return_value_pi_debug_get_level_9 >= 0x08)
               slp_dump(slp_buf);
 
           }
@@ -26533,23 +26533,23 @@ extern signed int sys_Continue(signed int sd, struct Pilot_registers *r, struct 
   buf[(signed long int)3] = (char)0;
   buf[(signed long int)4] = (char)0x07;
   buf[(signed long int)5] = (char)0;
-  signed long int return_value_pi_write$1;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int tmp_if_expr$3;
-  unsigned long int tmp_if_expr$4;
-  unsigned long int tmp_if_expr$5;
-  unsigned long int tmp_if_expr$6;
-  unsigned long int tmp_if_expr$7;
-  unsigned long int tmp_if_expr$8;
-  unsigned long int tmp_if_expr$9;
-  unsigned long int tmp_if_expr$10;
-  unsigned long int tmp_if_expr$11;
-  unsigned long int tmp_if_expr$12;
-  unsigned long int tmp_if_expr$13;
+  signed long int return_value_pi_write_1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int tmp_if_expr_3;
+  unsigned long int tmp_if_expr_4;
+  unsigned long int tmp_if_expr_5;
+  unsigned long int tmp_if_expr_6;
+  unsigned long int tmp_if_expr_7;
+  unsigned long int tmp_if_expr_8;
+  unsigned long int tmp_if_expr_9;
+  unsigned long int tmp_if_expr_10;
+  unsigned long int tmp_if_expr_11;
+  unsigned long int tmp_if_expr_12;
+  unsigned long int tmp_if_expr_13;
   if(r == ((struct Pilot_registers *)NULL))
   {
-    return_value_pi_write$1=pi_write(sd, (const void *)buf, (unsigned long int)6);
-    return (signed int)return_value_pi_write$1;
+    return_value_pi_write_1=pi_write(sd, (const void *)buf, (unsigned long int)6);
+    return (signed int)return_value_pi_write_1;
   }
 
   else
@@ -26558,80 +26558,80 @@ extern signed int sys_Continue(signed int sd, struct Pilot_registers *r, struct 
     ((unsigned char *)(buf + (signed long int)80))[(signed long int)0] = (unsigned char)(w != ((struct Pilot_watch *)NULL) ? 1 : 0);
     ((unsigned char *)(buf + (signed long int)81))[(signed long int)0] = (unsigned char)0;
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$2 = w->address;
+      tmp_if_expr_2 = w->address;
 
     else
-      tmp_if_expr$2 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)82))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)tmp_if_expr$2 >> 24) & 0xff);
+      tmp_if_expr_2 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)82))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)tmp_if_expr_2 >> 24) & 0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$3 = w->address;
+      tmp_if_expr_3 = w->address;
 
     else
-      tmp_if_expr$3 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)82))[(signed long int)1] = (unsigned char)((unsigned long int)tmp_if_expr$3 >> 16 & (unsigned long int)0xff);
+      tmp_if_expr_3 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)82))[(signed long int)1] = (unsigned char)((unsigned long int)tmp_if_expr_3 >> 16 & (unsigned long int)0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$4 = w->address;
+      tmp_if_expr_4 = w->address;
 
     else
-      tmp_if_expr$4 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)82))[(signed long int)2] = (unsigned char)((unsigned long int)tmp_if_expr$4 >> 8 & (unsigned long int)0xff);
+      tmp_if_expr_4 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)82))[(signed long int)2] = (unsigned char)((unsigned long int)tmp_if_expr_4 >> 8 & (unsigned long int)0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$5 = w->address;
+      tmp_if_expr_5 = w->address;
 
     else
-      tmp_if_expr$5 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)82))[(signed long int)3] = (unsigned char)((unsigned long int)tmp_if_expr$5 >> 0 & (unsigned long int)0xff);
+      tmp_if_expr_5 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)82))[(signed long int)3] = (unsigned char)((unsigned long int)tmp_if_expr_5 >> 0 & (unsigned long int)0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$6 = w->length;
+      tmp_if_expr_6 = w->length;
 
     else
-      tmp_if_expr$6 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)86))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)tmp_if_expr$6 >> 24) & 0xff);
+      tmp_if_expr_6 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)86))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)tmp_if_expr_6 >> 24) & 0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$7 = w->length;
+      tmp_if_expr_7 = w->length;
 
     else
-      tmp_if_expr$7 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)86))[(signed long int)1] = (unsigned char)((unsigned long int)tmp_if_expr$7 >> 16 & (unsigned long int)0xff);
+      tmp_if_expr_7 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)86))[(signed long int)1] = (unsigned char)((unsigned long int)tmp_if_expr_7 >> 16 & (unsigned long int)0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$8 = w->length;
+      tmp_if_expr_8 = w->length;
 
     else
-      tmp_if_expr$8 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)86))[(signed long int)2] = (unsigned char)((unsigned long int)tmp_if_expr$8 >> 8 & (unsigned long int)0xff);
+      tmp_if_expr_8 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)86))[(signed long int)2] = (unsigned char)((unsigned long int)tmp_if_expr_8 >> 8 & (unsigned long int)0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$9 = w->length;
+      tmp_if_expr_9 = w->length;
 
     else
-      tmp_if_expr$9 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)86))[(signed long int)3] = (unsigned char)((unsigned long int)tmp_if_expr$9 >> 0 & (unsigned long int)0xff);
+      tmp_if_expr_9 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)86))[(signed long int)3] = (unsigned char)((unsigned long int)tmp_if_expr_9 >> 0 & (unsigned long int)0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$10 = w->checksum;
+      tmp_if_expr_10 = w->checksum;
 
     else
-      tmp_if_expr$10 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)90))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)tmp_if_expr$10 >> 24) & 0xff);
+      tmp_if_expr_10 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)90))[(signed long int)0] = (unsigned char)((signed int)(unsigned char)((unsigned long int)tmp_if_expr_10 >> 24) & 0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$11 = w->checksum;
+      tmp_if_expr_11 = w->checksum;
 
     else
-      tmp_if_expr$11 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)90))[(signed long int)1] = (unsigned char)((unsigned long int)tmp_if_expr$11 >> 16 & (unsigned long int)0xff);
+      tmp_if_expr_11 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)90))[(signed long int)1] = (unsigned char)((unsigned long int)tmp_if_expr_11 >> 16 & (unsigned long int)0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$12 = w->checksum;
+      tmp_if_expr_12 = w->checksum;
 
     else
-      tmp_if_expr$12 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)90))[(signed long int)2] = (unsigned char)((unsigned long int)tmp_if_expr$12 >> 8 & (unsigned long int)0xff);
+      tmp_if_expr_12 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)90))[(signed long int)2] = (unsigned char)((unsigned long int)tmp_if_expr_12 >> 8 & (unsigned long int)0xff);
     if(!(w == ((struct Pilot_watch *)NULL)))
-      tmp_if_expr$13 = w->checksum;
+      tmp_if_expr_13 = w->checksum;
 
     else
-      tmp_if_expr$13 = (unsigned long int)0;
-    ((unsigned char *)(buf + (signed long int)90))[(signed long int)3] = (unsigned char)((unsigned long int)tmp_if_expr$13 >> 0 & (unsigned long int)0xff);
-    signed long int return_value_pi_write$14;
-    return_value_pi_write$14=pi_write(sd, (const void *)buf, (unsigned long int)94);
-    return (signed int)return_value_pi_write$14;
+      tmp_if_expr_13 = (unsigned long int)0;
+    ((unsigned char *)(buf + (signed long int)90))[(signed long int)3] = (unsigned char)((unsigned long int)tmp_if_expr_13 >> 0 & (unsigned long int)0xff);
+    signed long int return_value_pi_write_14;
+    return_value_pi_write_14=pi_write(sd, (const void *)buf, (unsigned long int)94);
+    return (signed int)return_value_pi_write_14;
   }
 }
 
@@ -26645,12 +26645,12 @@ extern signed int sys_Find(signed int sd, unsigned long int startaddr, unsigned 
   buf=pi_buffer_new(len + (unsigned long int)17);
   if(buf == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   buf->data[(signed long int)0] = (unsigned char)0;
@@ -26672,9 +26672,9 @@ extern signed int sys_Find(signed int sd, unsigned long int startaddr, unsigned 
   ((unsigned char *)(buf->data + (signed long int)16))[(signed long int)0] = (unsigned char)caseinsensitive;
   memcpy((void *)(buf->data + (signed long int)17), data, len);
   pi_write(sd, (const void *)buf->data, len + (unsigned long int)17);
-  signed long int return_value_pi_read$3;
-  return_value_pi_read$3=pi_read(sd, buf, (unsigned long int)12);
-  result = (signed int)return_value_pi_read$3;
+  signed long int return_value_pi_read_3;
+  return_value_pi_read_3=pi_read(sd, buf, (unsigned long int)12);
+  result = (signed int)return_value_pi_read_3;
   if(!(result >= 0))
   {
     pi_buffer_free(buf);
@@ -26701,12 +26701,12 @@ extern signed int sys_GetTrapBreaks(signed int sd, signed int *traps)
   buf=pi_buffer_new((unsigned long int)32);
   if(buf == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   buf->data[(signed long int)0] = (unsigned char)0;
@@ -26716,16 +26716,16 @@ extern signed int sys_GetTrapBreaks(signed int sd, signed int *traps)
   buf->data[(signed long int)4] = (unsigned char)0x10;
   buf->data[(signed long int)5] = (unsigned char)0;
   pi_write(sd, (const void *)buf->data, (unsigned long int)6);
-  signed long int return_value_pi_read$3;
-  return_value_pi_read$3=pi_read(sd, buf, (unsigned long int)16);
-  idx = (signed int)return_value_pi_read$3;
-  _Bool tmp_if_expr$4;
+  signed long int return_value_pi_read_3;
+  return_value_pi_read_3=pi_read(sd, buf, (unsigned long int)16);
+  idx = (signed int)return_value_pi_read_3;
+  _Bool tmp_if_expr_4;
   if(!(idx >= 16))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = buf->data[(signed long int)4] != (unsigned char)0x90 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = buf->data[(signed long int)4] != (unsigned char)0x90 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
     pi_buffer_free(buf);
     return 0;
@@ -26791,9 +26791,9 @@ extern signed int sys_QueryState(signed int sd)
   buf[(signed long int)3] = (char)0;
   buf[(signed long int)4] = (char)0;
   buf[(signed long int)5] = (char)0;
-  signed long int return_value_pi_write$1;
-  return_value_pi_write$1=pi_write(sd, (const void *)buf, (unsigned long int)2);
-  return (signed int)return_value_pi_write$1;
+  signed long int return_value_pi_write_1;
+  return_value_pi_write_1=pi_write(sd, (const void *)buf, (unsigned long int)2);
+  return (signed int)return_value_pi_write_1;
 }
 
 // sys_RPC
@@ -26806,12 +26806,12 @@ extern signed int sys_RPC(signed int sd, signed int sockaddr, signed int trap, s
   buf=pi_buffer_new((unsigned long int)4096);
   if(buf == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   buf->data[(signed long int)0] = (unsigned char)sockaddr;
@@ -26833,7 +26833,7 @@ extern signed int sys_RPC(signed int sd, signed int sockaddr, signed int trap, s
   ((unsigned char *)(buf->data + (signed long int)16))[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)params >> 0 & 0xff);
   c = buf->data + (signed long int)18;
   idx = params - 1;
-  unsigned char *tmp_post$3;
+  unsigned char *tmp_post_3;
   for( ; idx >= 0; idx = idx - 1)
   {
     ((unsigned char *)c)[(signed long int)0] = (unsigned char)(param + (signed long int)idx)->byRef;
@@ -26846,9 +26846,9 @@ extern signed int sys_RPC(signed int sd, signed int sockaddr, signed int trap, s
     c = c + (signed long int)(param + (signed long int)idx)->size;
     if(!((1ul & (param + (signed long int)idx)->size) == 0ul))
     {
-      tmp_post$3 = c;
+      tmp_post_3 = c;
       c = c + 1l;
-      *tmp_post$3 = (unsigned char)0;
+      *tmp_post_3 = (unsigned char)0;
     }
 
   }
@@ -26862,9 +26862,9 @@ extern signed int sys_RPC(signed int sd, signed int sockaddr, signed int trap, s
   if(!(reply == 0))
   {
     signed int l;
-    signed long int return_value_pi_read$4;
-    return_value_pi_read$4=pi_read(sd, buf, (unsigned long int)4096);
-    l = (signed int)return_value_pi_read$4;
+    signed long int return_value_pi_read_4;
+    return_value_pi_read_4=pi_read(sd, buf, (unsigned long int)4096);
+    l = (signed int)return_value_pi_read_4;
     if(!(l >= 0))
     {
       pi_buffer_free(buf);
@@ -26874,9 +26874,9 @@ extern signed int sys_RPC(signed int sd, signed int sockaddr, signed int trap, s
     if(!(*buf->data == 138))
     {
       pi_buffer_free(buf);
-      signed int return_value_pi_set_error$5;
-      return_value_pi_set_error$5=pi_set_error(sd, -2);
-      return return_value_pi_set_error$5;
+      signed int return_value_pi_set_error_5;
+      return_value_pi_set_error_5=pi_set_error(sd, -2);
+      return return_value_pi_set_error_5;
     }
 
     *D0 = (signed long int)(unsigned long int)((unsigned long int)((unsigned char *)(buf->data + (signed long int)4))[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)(buf->data + (signed long int)4))[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)(buf->data + (signed long int)4))[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)(buf->data + (signed long int)4))[(signed long int)3]);
@@ -26911,12 +26911,12 @@ extern signed int sys_ReadMemory(signed int sd, unsigned long int addr, unsigned
   buf=pi_buffer_new((unsigned long int)0xFFFF);
   if(buf == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   done = (unsigned long int)0;
@@ -26939,9 +26939,9 @@ extern signed int sys_ReadMemory(signed int sd, unsigned long int addr, unsigned
     ((unsigned char *)(buf->data + (signed long int)10))[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)todo >> 8 & 0xff);
     ((unsigned char *)(buf->data + (signed long int)10))[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)todo >> 0 & 0xff);
     pi_write(sd, (const void *)buf->data, (unsigned long int)12);
-    signed long int return_value_pi_read$3;
-    return_value_pi_read$3=pi_read(sd, buf, todo + (unsigned long int)6);
-    result = (signed int)return_value_pi_read$3;
+    signed long int return_value_pi_read_3;
+    return_value_pi_read_3=pi_read(sd, buf, todo + (unsigned long int)6);
+    result = (signed int)return_value_pi_read_3;
     if(!(result >= 0))
     {
       pi_buffer_free(buf);
@@ -26986,9 +26986,9 @@ extern signed int sys_RemoteEvent(signed int sd, signed int penDown, signed int 
   ((unsigned char *)&buf[(signed long int)12])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)keyasc >> 0 & 0xff);
   ((unsigned char *)&buf[(signed long int)14])[(signed long int)0] = (unsigned char)((signed int)(unsigned short int)keycode >> 8 & 0xff);
   ((unsigned char *)&buf[(signed long int)14])[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)keycode >> 0 & 0xff);
-  signed long int return_value_pi_write$1;
-  return_value_pi_write$1=pi_write(sd, (const void *)buf, (unsigned long int)16);
-  return (signed int)return_value_pi_write$1;
+  signed long int return_value_pi_write_1;
+  return_value_pi_write_1=pi_write(sd, (const void *)buf, (unsigned long int)16);
+  return (signed int)return_value_pi_write_1;
 }
 
 // sys_SetBreakpoints
@@ -27000,12 +27000,12 @@ extern signed int sys_SetBreakpoints(signed int sd, struct Pilot_breakpoint *b)
   buf=pi_buffer_new((unsigned long int)94);
   if(buf == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   buf->data[(signed long int)0] = (unsigned char)0;
@@ -27025,16 +27025,16 @@ extern signed int sys_SetBreakpoints(signed int sd, struct Pilot_breakpoint *b)
     ((unsigned char *)(buf->data + (signed long int)11 + (signed long int)(idx * 6)))[(signed long int)0] = (unsigned char)0;
   }
   pi_write(sd, (const void *)buf->data, (unsigned long int)42);
-  signed long int return_value_pi_read$3;
-  return_value_pi_read$3=pi_read(sd, buf, (unsigned long int)6);
-  idx = (signed int)return_value_pi_read$3;
-  _Bool tmp_if_expr$4;
+  signed long int return_value_pi_read_3;
+  return_value_pi_read_3=pi_read(sd, buf, (unsigned long int)6);
+  idx = (signed int)return_value_pi_read_3;
+  _Bool tmp_if_expr_4;
   if(!(idx >= 1))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = buf->data[(signed long int)4] != (unsigned char)0x8c ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = buf->data[(signed long int)4] != (unsigned char)0x8c ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
     pi_buffer_free(buf);
     return 0;
@@ -27056,12 +27056,12 @@ extern signed int sys_SetTrapBreaks(signed int sd, signed int *traps)
   buf=pi_buffer_new((unsigned long int)32);
   if(buf == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   buf->data[(signed long int)0] = (unsigned char)0;
@@ -27077,16 +27077,16 @@ extern signed int sys_SetTrapBreaks(signed int sd, signed int *traps)
     ((unsigned char *)(buf->data + (signed long int)6 + (signed long int)(idx * 2)))[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)traps[(signed long int)idx] >> 0 & 0xff);
   }
   pi_write(sd, (const void *)buf->data, (unsigned long int)16);
-  signed long int return_value_pi_read$3;
-  return_value_pi_read$3=pi_read(sd, buf, (unsigned long int)6);
-  idx = (signed int)return_value_pi_read$3;
-  _Bool tmp_if_expr$4;
+  signed long int return_value_pi_read_3;
+  return_value_pi_read_3=pi_read(sd, buf, (unsigned long int)6);
+  idx = (signed int)return_value_pi_read_3;
+  _Bool tmp_if_expr_4;
   if(!(idx >= 1))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = buf->data[(signed long int)4] != (unsigned char)0x91 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = buf->data[(signed long int)4] != (unsigned char)0x91 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
     pi_buffer_free(buf);
     return 0;
@@ -27110,9 +27110,9 @@ extern signed int sys_Step(signed int sd)
   buf[(signed long int)3] = (char)0;
   buf[(signed long int)4] = (char)0x03;
   buf[(signed long int)5] = (char)0;
-  signed long int return_value_pi_write$1;
-  return_value_pi_write$1=pi_write(sd, (const void *)buf, (unsigned long int)6);
-  return (signed int)return_value_pi_write$1;
+  signed long int return_value_pi_write_1;
+  return_value_pi_write_1=pi_write(sd, (const void *)buf, (unsigned long int)6);
+  return (signed int)return_value_pi_write_1;
 }
 
 // sys_ToggleDbgBreaks
@@ -27125,12 +27125,12 @@ extern signed int sys_ToggleDbgBreaks(signed int sd)
   buf=pi_buffer_new((unsigned long int)32);
   if(buf == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   buf->data[(signed long int)0] = (unsigned char)0;
@@ -27140,16 +27140,16 @@ extern signed int sys_ToggleDbgBreaks(signed int sd)
   buf->data[(signed long int)4] = (unsigned char)0x0d;
   buf->data[(signed long int)5] = (unsigned char)0;
   pi_write(sd, (const void *)buf->data, (unsigned long int)6);
-  signed long int return_value_pi_read$3;
-  return_value_pi_read$3=pi_read(sd, buf, (unsigned long int)7);
-  idx = (signed int)return_value_pi_read$3;
-  _Bool tmp_if_expr$4;
+  signed long int return_value_pi_read_3;
+  return_value_pi_read_3=pi_read(sd, buf, (unsigned long int)7);
+  idx = (signed int)return_value_pi_read_3;
+  _Bool tmp_if_expr_4;
   if(!(idx >= 7))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = buf->data[(signed long int)4] != (unsigned char)0x8d ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = buf->data[(signed long int)4] != (unsigned char)0x8d ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
     pi_buffer_free(buf);
     return 0;
@@ -27225,12 +27225,12 @@ extern signed int sys_WriteMemory(signed int sd, unsigned long int addr, unsigne
   buf=pi_buffer_new((unsigned long int)0xFFFF);
   if(buf == ((struct pi_buffer_t *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
-    signed int return_value_pi_set_error$2;
-    return_value_pi_set_error$2=pi_set_error(sd, -500);
-    return return_value_pi_set_error$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
+    signed int return_value_pi_set_error_2;
+    return_value_pi_set_error_2=pi_set_error(sd, -500);
+    return return_value_pi_set_error_2;
   }
 
   done = (unsigned long int)0;
@@ -27254,9 +27254,9 @@ extern signed int sys_WriteMemory(signed int sd, unsigned long int addr, unsigne
     ((unsigned char *)(buf->data + (signed long int)10))[(signed long int)1] = (unsigned char)((signed int)(unsigned short int)len >> 0 & 0xff);
     memcpy((void *)(buf->data + (signed long int)12), (const void *)((char *)src + (signed long int)done), todo);
     pi_write(sd, (const void *)buf->data, len + (unsigned long int)12);
-    signed long int return_value_pi_read$3;
-    return_value_pi_read$3=pi_read(sd, buf, (unsigned long int)6);
-    result = (signed int)return_value_pi_read$3;
+    signed long int return_value_pi_read_3;
+    return_value_pi_read_3=pi_read(sd, buf, (unsigned long int)6);
+    result = (signed int)return_value_pi_read_3;
     if(!(result >= 0))
     {
       pi_buffer_free(buf);
@@ -27296,12 +27296,12 @@ static signed int sys_flush(struct pi_socket *ps, signed int flags)
   struct pi_protocol *prot;
   struct pi_protocol *next;
   prot=pi_protocol(ps->sd, 4);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return return_value_pi_set_error_1;
   }
 
   else
@@ -27309,8 +27309,8 @@ static signed int sys_flush(struct pi_socket *ps, signed int flags)
     next=pi_protocol_next(ps->sd, 4);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return return_value_pi_set_error_2;
     }
 
     else
@@ -27335,14 +27335,14 @@ extern struct pi_protocol * sys_protocol(void)
 {
   struct pi_protocol *prot = (struct pi_protocol *)(void *)0;
   struct pi_sys_data *data = (struct pi_sys_data *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(prot == ((struct pi_protocol *)NULL)))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pi_sys_data) /*1ul*/ );
-    data = (struct pi_sys_data *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pi_sys_data) /*1ul*/ );
+    data = (struct pi_sys_data *)return_value_malloc_2;
     if(data == ((struct pi_sys_data *)NULL))
     {
       free((void *)prot);
@@ -27375,14 +27375,14 @@ static struct pi_protocol * sys_protocol_dup(struct pi_protocol *prot)
   struct pi_protocol *new_prot = (struct pi_protocol *)(void *)0;
   struct pi_sys_data *data = (struct pi_sys_data *)(void *)0;
   struct pi_sys_data *new_data = (struct pi_sys_data *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
-  new_prot = (struct pi_protocol *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pi_protocol) /*72ul*/ );
+  new_prot = (struct pi_protocol *)return_value_malloc_1;
   if(!(new_prot == ((struct pi_protocol *)NULL)))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct pi_sys_data) /*1ul*/ );
-    new_data = (struct pi_sys_data *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct pi_sys_data) /*1ul*/ );
+    new_data = (struct pi_sys_data *)return_value_malloc_2;
     if(new_data == ((struct pi_sys_data *)NULL))
     {
       free((void *)new_prot);
@@ -27437,14 +27437,14 @@ extern signed long int sys_rx(struct pi_socket *ps, struct pi_buffer_t *buf, uns
   struct pi_sys_data *data;
   unsigned long int data_len;
   prot=pi_protocol(ps->sd, 4);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
-  signed int return_value_pi_debug_get_level$3;
-  signed int return_value_pi_debug_get_level$5;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
+  signed int return_value_pi_debug_get_level_3;
+  signed int return_value_pi_debug_get_level_5;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -27453,8 +27453,8 @@ extern signed long int sys_rx(struct pi_socket *ps, struct pi_buffer_t *buf, uns
     next=pi_protocol_next(ps->sd, 4);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
     else
@@ -27462,22 +27462,22 @@ extern signed long int sys_rx(struct pi_socket *ps, struct pi_buffer_t *buf, uns
       signed long int return_value;
       return_value=next->read(ps, buf, len, flags);
       data_len = (unsigned long int)return_value;
-      signed int return_value_pi_debug_get_types$4;
-      return_value_pi_debug_get_types$4=pi_debug_get_types();
-      if(!((0x001 & return_value_pi_debug_get_types$4) == 0))
+      signed int return_value_pi_debug_get_types_4;
+      return_value_pi_debug_get_types_4=pi_debug_get_types();
+      if(!((0x001 & return_value_pi_debug_get_types_4) == 0))
       {
-        return_value_pi_debug_get_level$3=pi_debug_get_level();
-        if(return_value_pi_debug_get_level$3 >= 0x04)
+        return_value_pi_debug_get_level_3=pi_debug_get_level();
+        if(return_value_pi_debug_get_level_3 >= 0x04)
           sys_dump_header(buf->data, 0);
 
       }
 
-      signed int return_value_pi_debug_get_types$6;
-      return_value_pi_debug_get_types$6=pi_debug_get_types();
-      if(!((0x001 & return_value_pi_debug_get_types$6) == 0))
+      signed int return_value_pi_debug_get_types_6;
+      return_value_pi_debug_get_types_6=pi_debug_get_types();
+      if(!((0x001 & return_value_pi_debug_get_types_6) == 0))
       {
-        return_value_pi_debug_get_level$5=pi_debug_get_level();
-        if(return_value_pi_debug_get_level$5 >= 0x08)
+        return_value_pi_debug_get_level_5=pi_debug_get_level();
+        if(return_value_pi_debug_get_level_5 >= 0x08)
           sys_dump(buf->data, data_len);
 
       }
@@ -27502,19 +27502,19 @@ extern signed long int sys_tx(struct pi_socket *ps, const unsigned char *buf, un
   struct pi_protocol *next;
   struct pi_sys_data *data;
   signed int type;
-  signed int sys_tx$$1$$socket;
+  signed int sys_tx__1__socket;
   unsigned long int size;
   prot=pi_protocol(ps->sd, 4);
-  signed int return_value_pi_set_error$1;
-  signed int return_value_pi_set_error$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed int return_value_pi_debug_get_level$5;
-  signed int return_value_pi_debug_get_level$7;
+  signed int return_value_pi_set_error_1;
+  signed int return_value_pi_set_error_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_pi_debug_get_level_5;
+  signed int return_value_pi_debug_get_level_7;
   if(prot == ((struct pi_protocol *)NULL))
   {
-    return_value_pi_set_error$1=pi_set_error(ps->sd, -201);
-    return (signed long int)return_value_pi_set_error$1;
+    return_value_pi_set_error_1=pi_set_error(ps->sd, -201);
+    return (signed long int)return_value_pi_set_error_1;
   }
 
   else
@@ -27523,57 +27523,57 @@ extern signed long int sys_tx(struct pi_socket *ps, const unsigned char *buf, un
     next=pi_protocol_next(ps->sd, 4);
     if(next == ((struct pi_protocol *)NULL))
     {
-      return_value_pi_set_error$2=pi_set_error(ps->sd, -201);
-      return (signed long int)return_value_pi_set_error$2;
+      return_value_pi_set_error_2=pi_set_error(ps->sd, -201);
+      return (signed long int)return_value_pi_set_error_2;
     }
 
     else
     {
       if(data->txid == 0)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)data->txid == 0xff ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)data->txid == 0xff ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         data->txid = (unsigned char)0x11;
 
       data->txid = data->txid + 1;
       if(data->txid == 0)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)data->txid == 0xff ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)data->txid == 0xff ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         data->txid = (unsigned char)0x11;
 
       type = 0x00;
-      sys_tx$$1$$socket = 0x01;
+      sys_tx__1__socket = 0x01;
       size = sizeof(signed int) /*4ul*/ ;
       pi_setsockopt(ps->sd, 1, 4, (const void *)&type, &size);
-      pi_setsockopt(ps->sd, 1, 0, (const void *)&sys_tx$$1$$socket, &size);
-      pi_setsockopt(ps->sd, 1, 2, (const void *)&sys_tx$$1$$socket, &size);
+      pi_setsockopt(ps->sd, 1, 0, (const void *)&sys_tx__1__socket, &size);
+      pi_setsockopt(ps->sd, 1, 2, (const void *)&sys_tx__1__socket, &size);
       size = sizeof(unsigned char) /*1ul*/ ;
       pi_setsockopt(ps->sd, 1, 6, (const void *)&data->txid, &size);
       signed long int return_value;
       return_value=next->write(ps, buf, len, flags);
       len = (unsigned long int)return_value;
       {
-        signed int return_value_pi_debug_get_types$6;
-        return_value_pi_debug_get_types$6=pi_debug_get_types();
-        if(!((0x001 & return_value_pi_debug_get_types$6) == 0))
+        signed int return_value_pi_debug_get_types_6;
+        return_value_pi_debug_get_types_6=pi_debug_get_types();
+        if(!((0x001 & return_value_pi_debug_get_types_6) == 0))
         {
-          return_value_pi_debug_get_level$5=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$5 >= 0x04)
+          return_value_pi_debug_get_level_5=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_5 >= 0x04)
             sys_dump_header(buf, 1);
 
         }
 
-        signed int return_value_pi_debug_get_types$8;
-        return_value_pi_debug_get_types$8=pi_debug_get_types();
-        if(!((0x001 & return_value_pi_debug_get_types$8) == 0))
+        signed int return_value_pi_debug_get_types_8;
+        return_value_pi_debug_get_types_8=pi_debug_get_types();
+        if(!((0x001 & return_value_pi_debug_get_types_8) == 0))
         {
-          return_value_pi_debug_get_level$7=pi_debug_get_level();
-          if(return_value_pi_debug_get_level$7 >= 0x08)
+          return_value_pi_debug_get_level_7=pi_debug_get_level();
+          if(return_value_pi_debug_get_level_7 >= 0x08)
             sys_dump(buf, len);
 
         }
@@ -27592,18 +27592,18 @@ static signed int u_close(struct pi_socket *ps)
   RD_stop();
   USB_close();
   pi_log(0x002, 0x08, "%s %d (%s).\n", (const void *)"libusb.c", 402, (const void *)"u_close");
-  signed int return_value_close$1;
-  return_value_close$1=close(ps->sd);
-  return return_value_close$1;
+  signed int return_value_close_1;
+  return_value_close_1=close(ps->sd);
+  return return_value_close_1;
 }
 
 // u_control_request
 // file libusb.c line 594
 static signed int u_control_request(struct pi_usb_data *usb_data, signed int request_type, signed int request, signed int value, signed int control_index, void *data, signed int size, signed int timeout)
 {
-  signed int return_value_usb_control_msg$1;
-  return_value_usb_control_msg$1=usb_control_msg((struct usb_dev_handle *)usb_data->ref, request_type, request, value, control_index, (char *)data, size, timeout);
-  return return_value_usb_control_msg$1;
+  signed int return_value_usb_control_msg_1;
+  return_value_usb_control_msg_1=usb_control_msg((struct usb_dev_handle *)usb_data->ref, request_type, request, value, control_index, (char *)data, size, timeout);
+  return return_value_usb_control_msg_1;
 }
 
 // u_flush
@@ -27631,9 +27631,9 @@ static signed int u_open(struct pi_socket *ps, struct pi_sockaddr *addr, unsigne
 
   else
   {
-    signed int return_value_USB_open$1;
-    return_value_USB_open$1=USB_open(data);
-    if(return_value_USB_open$1 == 0)
+    signed int return_value_USB_open_1;
+    return_value_USB_open_1=USB_open(data);
+    if(return_value_USB_open_1 == 0)
       return -1;
 
     else
@@ -27649,9 +27649,9 @@ static signed int u_open(struct pi_socket *ps, struct pi_sockaddr *addr, unsigne
 static signed int u_poll(struct pi_socket *ps, signed int timeout)
 {
   pi_log(0x002, 0x08, "%s %d (%s).\n", (const void *)"libusb.c", 453, (const void *)"u_poll");
-  signed int return_value_u_read_i$1;
-  return_value_u_read_i$1=u_read_i(ps, (struct pi_buffer_t *)(void *)0, (unsigned long int)1, 0x01, timeout);
-  return return_value_u_read_i$1;
+  signed int return_value_u_read_i_1;
+  return_value_u_read_i_1=u_read_i(ps, (struct pi_buffer_t *)(void *)0, (unsigned long int)1, 0x01, timeout);
+  return return_value_u_read_i_1;
 }
 
 // u_read
@@ -27661,16 +27661,16 @@ static signed long int u_read(struct pi_socket *ps, struct pi_buffer_t *buf, uns
   signed int ret;
   ret=u_read_i(ps, buf, len, flags, ((struct pi_usb_data *)ps->device->data)->timeout);
   pi_log(0x002, 0x08, "Read: %d (%d).\n", ret, len);
-  signed int return_value_pi_debug_get_level$1;
+  signed int return_value_pi_debug_get_level_1;
   if(ret >= 1)
     do
     {
-      signed int return_value_pi_debug_get_types$2;
-      return_value_pi_debug_get_types$2=pi_debug_get_types();
-      if(!((0x002 & return_value_pi_debug_get_types$2) == 0))
+      signed int return_value_pi_debug_get_types_2;
+      return_value_pi_debug_get_types_2=pi_debug_get_types();
+      if(!((0x002 & return_value_pi_debug_get_types_2) == 0))
       {
-        return_value_pi_debug_get_level$1=pi_debug_get_level();
-        if(return_value_pi_debug_get_level$1 >= 0x08)
+        return_value_pi_debug_get_level_1=pi_debug_get_level();
+        if(return_value_pi_debug_get_level_1 >= 0x08)
           pi_dumpdata((const char *)buf->data, (unsigned long int)ret);
 
       }
@@ -27727,9 +27727,9 @@ static signed int u_read_i(struct pi_socket *ps, struct pi_buffer_t *buf, unsign
           }
 
           pi_log(0x002, 0x08, "%s %d (%s): %d %d.\n", (const void *)"libusb.c", 534, (const void *)"u_read_i", len, RD_buffer_used);
-          signed int return_value_pthread_cond_timedwait$1;
-          return_value_pthread_cond_timedwait$1=pthread_cond_timedwait(&RD_buffer_available_cond, &RD_buffer_mutex, &when);
-          if(return_value_pthread_cond_timedwait$1 == 110)
+          signed int return_value_pthread_cond_timedwait_1;
+          return_value_pthread_cond_timedwait_1=pthread_cond_timedwait(&RD_buffer_available_cond, &RD_buffer_mutex, &when);
+          if(return_value_pthread_cond_timedwait_1 == 110)
           {
             pi_log(0x002, 0x08, "%s %d (%s): %d %d.\n", (const void *)"libusb.c", 537, (const void *)"u_read_i", len, RD_buffer_used);
             break;
@@ -27769,9 +27769,9 @@ static signed int u_read_i(struct pi_socket *ps, struct pi_buffer_t *buf, unsign
           if(RD_buffer_size + -RD_buffer_used >= 1048577ul)
           {
             RD_buffer_size = (RD_buffer_used + (unsigned long int)0xfffe & (unsigned long int)~0xffff) - (unsigned long int)1;
-            void *return_value_realloc$2;
-            return_value_realloc$2=realloc((void *)RD_buffer, RD_buffer_size);
-            RD_buffer = (char *)return_value_realloc$2;
+            void *return_value_realloc_2;
+            return_value_realloc_2=realloc((void *)RD_buffer, RD_buffer_size);
+            RD_buffer = (char *)return_value_realloc_2;
           }
 
         }
@@ -27809,9 +27809,9 @@ static signed int u_wait_for_device(struct pi_socket *ps, signed int *timeout)
 
       }
 
-      signed int return_value_RD_start$1;
-      return_value_RD_start$1=RD_start();
-      if(return_value_RD_start$1 == 0)
+      signed int return_value_RD_start_1;
+      return_value_RD_start_1=RD_start();
+      if(return_value_RD_start_1 == 0)
       {
         USB_close();
         return -1;
@@ -27822,9 +27822,9 @@ static signed int u_wait_for_device(struct pi_socket *ps, signed int *timeout)
 
     if(!(*timeout == 0))
     {
-      signed int return_value_pi_timeout_expired$2;
-      return_value_pi_timeout_expired$2=pi_timeout_expired(&when);
-      if(!(return_value_pi_timeout_expired$2 == 0))
+      signed int return_value_pi_timeout_expired_2;
+      return_value_pi_timeout_expired_2=pi_timeout_expired(&when);
+      if(!(return_value_pi_timeout_expired_2 == 0))
       {
         *timeout = 1;
         return 0;
@@ -27843,7 +27843,7 @@ static signed long int u_write(struct pi_socket *ps, const unsigned char *buf, u
 {
   signed int timeout = ((struct pi_usb_data *)ps->device->data)->timeout;
   signed int ret;
-  signed int return_value_pi_debug_get_level$1;
+  signed int return_value_pi_debug_get_level_1;
   if(RD_running == 0)
     return (signed long int)-1;
 
@@ -27860,12 +27860,12 @@ static signed long int u_write(struct pi_socket *ps, const unsigned char *buf, u
       if(ret >= 1)
         do
         {
-          signed int return_value_pi_debug_get_types$2;
-          return_value_pi_debug_get_types$2=pi_debug_get_types();
-          if(!((0x002 & return_value_pi_debug_get_types$2) == 0))
+          signed int return_value_pi_debug_get_types_2;
+          return_value_pi_debug_get_types_2=pi_debug_get_types();
+          if(!((0x002 & return_value_pi_debug_get_types_2) == 0))
           {
-            return_value_pi_debug_get_level$1=pi_debug_get_level();
-            if(return_value_pi_debug_get_level$1 >= 0x08)
+            return_value_pi_debug_get_level_1=pi_debug_get_level();
+            if(return_value_pi_debug_get_level_1 >= 0x08)
               pi_dumpdata((const char *)buf, (unsigned long int)ret);
 
           }
@@ -27887,29 +27887,29 @@ extern unsigned long int unix_time_to_pilot_time(signed long int t)
 
 // unpack_Address
 // file address.c line 72
-extern signed int unpack_Address(struct Address *addr, const struct pi_buffer_t *buf, enum anonymous$6 type)
+extern signed int unpack_Address(struct Address *addr, const struct pi_buffer_t *buf, enum anonymous_6 type)
 {
   unsigned long int contents;
   unsigned long int v;
   unsigned long int ofs;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!((signed int)type == address_v1))
     return -1;
 
   else
   {
     if(buf == ((const struct pi_buffer_t *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = buf->used < (unsigned long int)9 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = buf->used < (unsigned long int)9 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -1;
 
     else
@@ -27930,9 +27930,9 @@ extern signed int unpack_Address(struct Address *addr, const struct pi_buffer_t 
             return 0;
 
           addr->entry[(signed long int)v]=strdup((char *)(buf->data + (signed long int)ofs));
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(addr->entry[(signed long int)v]);
-          ofs = ofs + return_value_strlen$3 + (unsigned long int)1;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(addr->entry[(signed long int)v]);
+          ofs = ofs + return_value_strlen_3 + (unsigned long int)1;
         }
 
         else
@@ -27950,10 +27950,10 @@ extern signed int unpack_AddressAppInfo(struct AddressAppInfo *ai, const unsigne
   unsigned long int destlen = (unsigned long int)(4 + 16 * 22 + 2 + 2);
   unsigned char *start = record;
   unsigned long int r;
-  ai->type = (enum anonymous$6)address_v1;
-  signed int return_value_unpack_CategoryAppInfo$1;
-  return_value_unpack_CategoryAppInfo$1=unpack_CategoryAppInfo(&ai->category, record, len);
-  i = (unsigned long int)return_value_unpack_CategoryAppInfo$1;
+  ai->type = (enum anonymous_6)address_v1;
+  signed int return_value_unpack_CategoryAppInfo_1;
+  return_value_unpack_CategoryAppInfo_1=unpack_CategoryAppInfo(&ai->category, record, len);
+  i = (unsigned long int)return_value_unpack_CategoryAppInfo_1;
   if(record == ((const unsigned char *)NULL))
     return (signed int)(i + destlen);
 
@@ -27994,7 +27994,7 @@ extern signed int unpack_AddressAppInfo(struct AddressAppInfo *ai, const unsigne
 
 // unpack_Appointment
 // file datebook.c line 102
-extern signed int unpack_Appointment(struct Appointment *a, const struct pi_buffer_t *buf, enum anonymous$8 type)
+extern signed int unpack_Appointment(struct Appointment *a, const struct pi_buffer_t *buf, enum anonymous_8 type)
 {
   signed int iflags;
   signed int j;
@@ -28002,24 +28002,24 @@ extern signed int unpack_Appointment(struct Appointment *a, const struct pi_buff
   unsigned char *p2;
   unsigned long int d;
   destlen = 8;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!((signed int)type == datebook_v1))
     return -1;
 
   else
   {
     if(buf == ((const struct pi_buffer_t *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = buf->used < (unsigned long int)destlen ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = buf->used < (unsigned long int)destlen ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -1;
 
     else
@@ -28067,7 +28067,7 @@ extern signed int unpack_Appointment(struct Appointment *a, const struct pi_buff
       }
       if(!((32 & iflags) == 0))
       {
-        signed int unpack_Appointment$$1$$5$$i;
+        signed int unpack_Appointment__1__5__i;
         signed int on;
         a->repeatType = (enum repeatTypes)((unsigned char *)p2)[(signed long int)0];
         p2 = p2 + (signed long int)2;
@@ -28093,18 +28093,18 @@ extern signed int unpack_Appointment(struct Appointment *a, const struct pi_buff
         on = (signed int)((unsigned char *)p2)[(signed long int)0];
         p2 = p2 + 1l;
         a->repeatDay = (enum DayOfMonthType)0;
-        unpack_Appointment$$1$$5$$i = 0;
-        for( ; !(unpack_Appointment$$1$$5$$i >= 7); unpack_Appointment$$1$$5$$i = unpack_Appointment$$1$$5$$i + 1)
-          a->repeatDays[(signed long int)unpack_Appointment$$1$$5$$i] = 0;
+        unpack_Appointment__1__5__i = 0;
+        for( ; !(unpack_Appointment__1__5__i >= 7); unpack_Appointment__1__5__i = unpack_Appointment__1__5__i + 1)
+          a->repeatDays[(signed long int)unpack_Appointment__1__5__i] = 0;
         if((signed int)a->repeatType == repeatMonthlyByDay)
           a->repeatDay = (enum DayOfMonthType)on;
 
         else
           if((signed int)a->repeatType == repeatWeekly)
           {
-            unpack_Appointment$$1$$5$$i = 0;
-            for( ; !(unpack_Appointment$$1$$5$$i >= 7); unpack_Appointment$$1$$5$$i = unpack_Appointment$$1$$5$$i + 1)
-              a->repeatDays[(signed long int)unpack_Appointment$$1$$5$$i] = (signed int)!(!((on & 1 << unpack_Appointment$$1$$5$$i) != 0));
+            unpack_Appointment__1__5__i = 0;
+            for( ; !(unpack_Appointment__1__5__i >= 7); unpack_Appointment__1__5__i = unpack_Appointment__1__5__i + 1)
+              a->repeatDays[(signed long int)unpack_Appointment__1__5__i] = (signed int)!(!((on & 1 << unpack_Appointment__1__5__i) != 0));
           }
 
         a->repeatWeekstart = (signed int)((unsigned char *)p2)[(signed long int)0];
@@ -28128,9 +28128,9 @@ extern signed int unpack_Appointment(struct Appointment *a, const struct pi_buff
       {
         a->exceptions = (signed int)(unsigned short int)((signed int)((unsigned char *)p2)[(signed long int)0] << 8 | (signed int)((unsigned char *)p2)[(signed long int)1]);
         p2 = p2 + (signed long int)2;
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct tm) /*56ul*/  * (unsigned long int)a->exceptions);
-        a->exception = (struct tm *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct tm) /*56ul*/  * (unsigned long int)a->exceptions);
+        a->exception = (struct tm *)return_value_malloc_3;
         j = 0;
         for( ; !(j >= a->exceptions); p2 = p2 + (signed long int)2)
         {
@@ -28155,9 +28155,9 @@ extern signed int unpack_Appointment(struct Appointment *a, const struct pi_buff
       if(!((4 & iflags) == 0))
       {
         a->description=strdup((char *)p2);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen((char *)p2);
-        p2 = p2 + (signed long int)(return_value_strlen$4 + (unsigned long int)1);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen((char *)p2);
+        p2 = p2 + (signed long int)(return_value_strlen_4 + (unsigned long int)1);
       }
 
       else
@@ -28165,9 +28165,9 @@ extern signed int unpack_Appointment(struct Appointment *a, const struct pi_buff
       if(!((16 & iflags) == 0))
       {
         a->note=strdup((char *)p2);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen((char *)p2);
-        p2 = p2 + (signed long int)(return_value_strlen$5 + (unsigned long int)1);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen((char *)p2);
+        p2 = p2 + (signed long int)(return_value_strlen_5 + (unsigned long int)1);
       }
 
       else
@@ -28203,7 +28203,7 @@ extern signed int unpack_AppointmentAppInfo(struct AppointmentAppInfo *ai, const
 
 // unpack_Blob_p
 // file blob.c line 114
-extern signed int unpack_Blob_p(struct anonymous$28 *blob, const unsigned char *data, const unsigned long int position)
+extern signed int unpack_Blob_p(struct anonymous_28 *blob, const unsigned char *data, const unsigned long int position)
 {
   unsigned long int localPosition = position;
   memcpy((void *)blob->type, (const void *)((char *)data + (signed long int)localPosition), (unsigned long int)4);
@@ -28212,9 +28212,9 @@ extern signed int unpack_Blob_p(struct anonymous$28 *blob, const unsigned char *
   localPosition = localPosition + (unsigned long int)2;
   if((signed int)blob->length >= 1)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)blob->length);
-    blob->data = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)blob->length);
+    blob->data = (unsigned char *)return_value_malloc_1;
     if(blob->data == ((unsigned char *)NULL))
     {
       printf("Malloc failed!\n");
@@ -28262,7 +28262,7 @@ extern signed int unpack_CalendarAppInfo(struct CalendarAppInfo *ai, struct pi_b
         record = record + 1l;
         used = used + 1;
       }
-      ai->type = (enum anonymous$29)calendar_v1;
+      ai->type = (enum anonymous_29)calendar_v1;
       return used;
     }
   }
@@ -28270,34 +28270,34 @@ extern signed int unpack_CalendarAppInfo(struct CalendarAppInfo *ai, struct pi_b
 
 // unpack_CalendarEvent
 // file calendar.c line 262
-extern signed int unpack_CalendarEvent(struct CalendarEvent *a, const struct pi_buffer_t *buf, enum anonymous$29 type)
+extern signed int unpack_CalendarEvent(struct CalendarEvent *a, const struct pi_buffer_t *buf, enum anonymous_29 type)
 {
   signed int iflags;
   signed int j;
   signed int destlen;
-  signed int unpack_CalendarEvent$$1$$i;
-  signed int unpack_CalendarEvent$$1$$result;
+  signed int unpack_CalendarEvent__1__i;
+  signed int unpack_CalendarEvent__1__result;
   unsigned char *p2;
   unsigned long int d;
   destlen = 8;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!((signed int)type == calendar_v1))
     return -1;
 
   else
   {
     if(buf == ((const struct pi_buffer_t *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = buf->used < (unsigned long int)destlen ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = buf->used < (unsigned long int)destlen ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -1;
 
     else
@@ -28392,23 +28392,23 @@ extern signed int unpack_CalendarEvent(struct CalendarEvent *a, const struct pi_
 
       else
       {
-        signed int unpack_CalendarEvent$$1$$7$$i;
+        signed int unpack_CalendarEvent__1__7__i;
         a->repeatType = (enum calendarRepeatType)0;
         a->repeatForever = 1;
         a->repeatFrequency = 0;
         a->repeatDay = (enum calendarDayOfMonthType)0;
-        unpack_CalendarEvent$$1$$7$$i = 0;
-        for( ; !(unpack_CalendarEvent$$1$$7$$i >= 7); unpack_CalendarEvent$$1$$7$$i = unpack_CalendarEvent$$1$$7$$i + 1)
-          a->repeatDays[(signed long int)unpack_CalendarEvent$$1$$7$$i] = 0;
+        unpack_CalendarEvent__1__7__i = 0;
+        for( ; !(unpack_CalendarEvent__1__7__i >= 7); unpack_CalendarEvent__1__7__i = unpack_CalendarEvent__1__7__i + 1)
+          a->repeatDays[(signed long int)unpack_CalendarEvent__1__7__i] = 0;
         a->repeatWeekstart = 0;
       }
       if(!((8 & iflags) == 0))
       {
         a->exceptions = (signed int)(unsigned short int)((signed int)((unsigned char *)p2)[(signed long int)0] << 8 | (signed int)((unsigned char *)p2)[(signed long int)1]);
         p2 = p2 + (signed long int)2;
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct tm) /*56ul*/  * (unsigned long int)a->exceptions);
-        a->exception = (struct tm *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct tm) /*56ul*/  * (unsigned long int)a->exceptions);
+        a->exception = (struct tm *)return_value_malloc_3;
         j = 0;
         for( ; !(j >= a->exceptions); p2 = p2 + (signed long int)2)
         {
@@ -28433,9 +28433,9 @@ extern signed int unpack_CalendarEvent(struct CalendarEvent *a, const struct pi_
       if(!((4 & iflags) == 0))
       {
         a->description=strdup((char *)p2);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen((char *)p2);
-        p2 = p2 + (signed long int)(return_value_strlen$4 + (unsigned long int)1);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen((char *)p2);
+        p2 = p2 + (signed long int)(return_value_strlen_4 + (unsigned long int)1);
       }
 
       else
@@ -28443,9 +28443,9 @@ extern signed int unpack_CalendarEvent(struct CalendarEvent *a, const struct pi_
       if(!((16 & iflags) == 0))
       {
         a->note=strdup((char *)p2);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen((char *)p2);
-        p2 = p2 + (signed long int)(return_value_strlen$5 + (unsigned long int)1);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen((char *)p2);
+        p2 = p2 + (signed long int)(return_value_strlen_5 + (unsigned long int)1);
       }
 
       else
@@ -28453,20 +28453,20 @@ extern signed int unpack_CalendarEvent(struct CalendarEvent *a, const struct pi_
       if(!((2 & iflags) == 0))
       {
         a->location=strdup((char *)p2);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen((char *)p2);
-        p2 = p2 + (signed long int)(return_value_strlen$6 + (unsigned long int)1);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen((char *)p2);
+        p2 = p2 + (signed long int)(return_value_strlen_6 + (unsigned long int)1);
       }
 
       else
         a->location = ((char *)NULL);
-      unpack_CalendarEvent$$1$$i = 0;
-      for( ; !(unpack_CalendarEvent$$1$$i >= 10); unpack_CalendarEvent$$1$$i = unpack_CalendarEvent$$1$$i + 1)
-        a->blob[(signed long int)unpack_CalendarEvent$$1$$i] = (struct anonymous$28 *)(void *)0;
+      unpack_CalendarEvent__1__i = 0;
+      for( ; !(unpack_CalendarEvent__1__i >= 10); unpack_CalendarEvent__1__i = unpack_CalendarEvent__1__i + 1)
+        a->blob[(signed long int)unpack_CalendarEvent__1__i] = (struct anonymous_28 *)(void *)0;
       if(!((unsigned long int)(p2 - buf->data) >= buf->used))
       {
         unsigned char blob_count;
-        a->tz = (struct anonymous$25 *)(void *)0;
+        a->tz = (struct anonymous_25 *)(void *)0;
         blob_count = (unsigned char)0;
         for( ; buf->used + -((unsigned long int)(p2 - buf->data)) >= 7ul; blob_count = blob_count + 1)
         {
@@ -28476,30 +28476,30 @@ extern signed int unpack_CalendarEvent(struct CalendarEvent *a, const struct pi_
             return -1;
           }
 
-          void *return_value_malloc$7;
-          return_value_malloc$7=malloc(sizeof(struct anonymous$28) /*16ul*/ );
-          a->blob[(signed long int)blob_count] = (struct anonymous$28 *)return_value_malloc$7;
-          unpack_CalendarEvent$$1$$result=unpack_Blob_p(a->blob[(signed long int)blob_count], p2, (const unsigned long int)0);
-          if(unpack_CalendarEvent$$1$$result == -1)
+          void *return_value_malloc_7;
+          return_value_malloc_7=malloc(sizeof(struct anonymous_28) /*16ul*/ );
+          a->blob[(signed long int)blob_count] = (struct anonymous_28 *)return_value_malloc_7;
+          unpack_CalendarEvent__1__result=unpack_Blob_p(a->blob[(signed long int)blob_count], p2, (const unsigned long int)0);
+          if(unpack_CalendarEvent__1__result == -1)
             return -1;
 
           else
-            p2 = p2 + (signed long int)unpack_CalendarEvent$$1$$result;
-          signed int return_value_memcmp$9;
-          return_value_memcmp$9=memcmp((const void *)a->blob[(signed long int)blob_count]->type, (const void *)"Bd00", (unsigned long int)4);
-          if(return_value_memcmp$9 == 0)
+            p2 = p2 + (signed long int)unpack_CalendarEvent__1__result;
+          signed int return_value_memcmp_9;
+          return_value_memcmp_9=memcmp((const void *)a->blob[(signed long int)blob_count]->type, (const void *)"Bd00", (unsigned long int)4);
+          if(return_value_memcmp_9 == 0)
           {
             signed int result;
-            if(!(a->tz == ((struct anonymous$25 *)NULL)))
+            if(!(a->tz == ((struct anonymous_25 *)NULL)))
             {
               printf("Warning: Found more than one timezone blob! Freeing the previous one and starting again\n");
               free_Timezone(a->tz);
               free((void *)a->tz);
             }
 
-            void *return_value_malloc$8;
-            return_value_malloc$8=malloc(sizeof(struct anonymous$25) /*48ul*/ );
-            a->tz = (struct anonymous$25 *)return_value_malloc$8;
+            void *return_value_malloc_8;
+            return_value_malloc_8=malloc(sizeof(struct anonymous_25) /*48ul*/ );
+            a->tz = (struct anonymous_25 *)return_value_malloc_8;
             result=unpack_Timezone_p(a->tz, a->blob[(signed long int)blob_count]->data, (const unsigned long int)0);
             if(result == -1)
             {
@@ -28526,7 +28526,7 @@ extern signed int unpack_CalendarEvent(struct CalendarEvent *a, const struct pi_
       }
 
       else
-        a->tz = (struct anonymous$25 *)(void *)0;
+        a->tz = (struct anonymous_25 *)(void *)0;
       return 0;
     }
   }
@@ -28568,7 +28568,7 @@ extern signed int unpack_CategoryAppInfo(struct CategoryAppInfo *ai, const unsig
 
 // unpack_Contact
 // file contact.c line 80
-extern signed int unpack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum anonymous$7 type)
+extern signed int unpack_Contact(struct Contact *c, struct pi_buffer_t *buf, enum anonymous_7 type)
 {
   unsigned long int contents1;
   unsigned long int contents2;
@@ -28579,19 +28579,19 @@ extern signed int unpack_Contact(struct Contact *c, struct pi_buffer_t *buf, enu
   signed int len;
   unsigned int packed_date;
   unsigned int blob_count;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(buf == ((struct pi_buffer_t *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = buf->used < (unsigned long int)17 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = buf->used < (unsigned long int)17 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return -1;
 
   else
@@ -28634,12 +28634,12 @@ extern signed int unpack_Contact(struct Contact *c, struct pi_buffer_t *buf, enu
             return 0;
 
           c->entry[(signed long int)field_num]=strdup((char *)Pbuf);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen((char *)Pbuf);
-          Pbuf = Pbuf + (signed long int)(return_value_strlen$3 + (unsigned long int)1);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(c->entry[(signed long int)field_num]);
-          len = len - (signed int)(return_value_strlen$4 + (unsigned long int)1);
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen((char *)Pbuf);
+          Pbuf = Pbuf + (signed long int)(return_value_strlen_3 + (unsigned long int)1);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(c->entry[(signed long int)field_num]);
+          len = len - (signed int)(return_value_strlen_4 + (unsigned long int)1);
         }
 
         else
@@ -28655,12 +28655,12 @@ extern signed int unpack_Contact(struct Contact *c, struct pi_buffer_t *buf, enu
             return 0;
 
           c->entry[(signed long int)field_num]=strdup((char *)Pbuf);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen((char *)Pbuf);
-          Pbuf = Pbuf + (signed long int)(return_value_strlen$5 + (unsigned long int)1);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(c->entry[(signed long int)field_num]);
-          len = len - (signed int)(return_value_strlen$6 + (unsigned long int)1);
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen((char *)Pbuf);
+          Pbuf = Pbuf + (signed long int)(return_value_strlen_5 + (unsigned long int)1);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(c->entry[(signed long int)field_num]);
+          len = len - (signed int)(return_value_strlen_6 + (unsigned long int)1);
         }
 
         else
@@ -28713,26 +28713,26 @@ extern signed int unpack_Contact(struct Contact *c, struct pi_buffer_t *buf, enu
         if(blob_count >= 10u)
           return (signed int)(Pbuf - record);
 
-        void *return_value_malloc$7;
-        return_value_malloc$7=malloc(sizeof(struct ContactBlob) /*16ul*/ );
-        c->blob[(signed long int)blob_count] = (struct ContactBlob *)return_value_malloc$7;
+        void *return_value_malloc_7;
+        return_value_malloc_7=malloc(sizeof(struct ContactBlob) /*16ul*/ );
+        c->blob[(signed long int)blob_count] = (struct ContactBlob *)return_value_malloc_7;
         strncpy(c->blob[(signed long int)blob_count]->type, (char *)Pbuf, (unsigned long int)4);
         c->blob[(signed long int)blob_count]->length = (signed int)(unsigned short int)((signed int)((unsigned char *)(Pbuf + (signed long int)4))[(signed long int)0] << 8 | (signed int)((unsigned char *)(Pbuf + (signed long int)4))[(signed long int)1]);
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc((unsigned long int)c->blob[(signed long int)blob_count]->length);
-        c->blob[(signed long int)blob_count]->data = (unsigned char *)return_value_malloc$8;
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc((unsigned long int)c->blob[(signed long int)blob_count]->length);
+        c->blob[(signed long int)blob_count]->data = (unsigned char *)return_value_malloc_8;
         if(!(c->blob[(signed long int)blob_count]->data == ((unsigned char *)NULL)))
           memcpy((void *)c->blob[(signed long int)blob_count]->data, (const void *)(Pbuf + (signed long int)6), (unsigned long int)c->blob[(signed long int)blob_count]->length);
 
-        signed int return_value_strncmp$10;
-        return_value_strncmp$10=strncmp(c->blob[(signed long int)blob_count]->type, "Bd00", (unsigned long int)4);
-        if(return_value_strncmp$10 == 0)
+        signed int return_value_strncmp_10;
+        return_value_strncmp_10=strncmp(c->blob[(signed long int)blob_count]->type, "Bd00", (unsigned long int)4);
+        if(return_value_strncmp_10 == 0)
         {
           if(c->picture == ((struct ContactPicture *)NULL))
           {
-            void *return_value_malloc$9;
-            return_value_malloc$9=malloc(sizeof(struct ContactPicture) /*16ul*/ );
-            c->picture = (struct ContactPicture *)return_value_malloc$9;
+            void *return_value_malloc_9;
+            return_value_malloc_9=malloc(sizeof(struct ContactPicture) /*16ul*/ );
+            c->picture = (struct ContactPicture *)return_value_malloc_9;
           }
 
           c->picture->dirty = (unsigned int)(unsigned short int)((signed int)((unsigned char *)c->blob[(signed long int)blob_count]->data)[(signed long int)0] << 8 | (signed int)((unsigned char *)c->blob[(signed long int)blob_count]->data)[(signed long int)1]);
@@ -28765,7 +28765,7 @@ extern signed int unpack_ContactAppInfo(struct ContactAppInfo *ai, struct pi_buf
   len = (signed int)buf->used;
   if(len == 1092)
   {
-    ai->type = (enum anonymous$7)contacts_v10;
+    ai->type = (enum anonymous_7)contacts_v10;
     ai->num_labels = 49;
     ai->numCustoms = 9;
   }
@@ -28773,7 +28773,7 @@ extern signed int unpack_ContactAppInfo(struct ContactAppInfo *ai, struct pi_buf
   else
     if(len == 1156)
     {
-      ai->type = (enum anonymous$7)contacts_v11;
+      ai->type = (enum anonymous_7)contacts_v11;
       ai->num_labels = 53;
       ai->numCustoms = 9;
     }
@@ -28830,16 +28830,16 @@ extern signed int unpack_ContactAppInfo(struct ContactAppInfo *ai, struct pi_buf
 
 // unpack_DST
 // file location.c line 255
-extern signed int unpack_DST(struct anonymous$24 *dst, const struct pi_buffer_t *buf)
+extern signed int unpack_DST(struct anonymous_24 *dst, const struct pi_buffer_t *buf)
 {
-  signed int return_value_unpack_DST_p$1;
-  return_value_unpack_DST_p$1=unpack_DST_p(dst, buf->data, (const unsigned long int)0);
-  return return_value_unpack_DST_p$1;
+  signed int return_value_unpack_DST_p_1;
+  return_value_unpack_DST_p_1=unpack_DST_p(dst, buf->data, (const unsigned long int)0);
+  return return_value_unpack_DST_p_1;
 }
 
 // unpack_DST_p
 // file location.c line 262
-extern signed int unpack_DST_p(struct anonymous$24 *dst, const unsigned char *data, const unsigned long int position)
+extern signed int unpack_DST_p(struct anonymous_24 *dst, const unsigned char *data, const unsigned long int position)
 {
   unsigned char byte = ((unsigned char *)(data + (signed long int)position))[(signed long int)0];
   switch((signed int)byte)
@@ -29038,12 +29038,12 @@ extern signed int unpack_Expense(struct Expense *expense, unsigned char *buffer,
       if(!(*buffer == 0))
       {
         expense->amount=strdup((char *)buffer);
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(expense->amount);
-        buffer = buffer + (signed long int)return_value_strlen$1;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(expense->amount);
-        len = len - (signed int)return_value_strlen$2;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(expense->amount);
+        buffer = buffer + (signed long int)return_value_strlen_1;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(expense->amount);
+        len = len - (signed int)return_value_strlen_2;
       }
 
       else
@@ -29058,12 +29058,12 @@ extern signed int unpack_Expense(struct Expense *expense, unsigned char *buffer,
         if(!(*buffer == 0))
         {
           expense->vendor=strdup((char *)buffer);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(expense->vendor);
-          buffer = buffer + (signed long int)return_value_strlen$3;
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(expense->vendor);
-          len = len - (signed int)return_value_strlen$4;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(expense->vendor);
+          buffer = buffer + (signed long int)return_value_strlen_3;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(expense->vendor);
+          len = len - (signed int)return_value_strlen_4;
         }
 
         else
@@ -29078,12 +29078,12 @@ extern signed int unpack_Expense(struct Expense *expense, unsigned char *buffer,
           if(!(*buffer == 0))
           {
             expense->city=strdup((char *)buffer);
-            unsigned long int return_value_strlen$5;
-            return_value_strlen$5=strlen(expense->city);
-            buffer = buffer + (signed long int)return_value_strlen$5;
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen(expense->city);
-            len = len - (signed int)return_value_strlen$6;
+            unsigned long int return_value_strlen_5;
+            return_value_strlen_5=strlen(expense->city);
+            buffer = buffer + (signed long int)return_value_strlen_5;
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen(expense->city);
+            len = len - (signed int)return_value_strlen_6;
           }
 
           else
@@ -29098,12 +29098,12 @@ extern signed int unpack_Expense(struct Expense *expense, unsigned char *buffer,
             if(!(*buffer == 0))
             {
               expense->attendees=strdup((char *)buffer);
-              unsigned long int return_value_strlen$7;
-              return_value_strlen$7=strlen(expense->attendees);
-              buffer = buffer + (signed long int)return_value_strlen$7;
-              unsigned long int return_value_strlen$8;
-              return_value_strlen$8=strlen(expense->attendees);
-              len = len - (signed int)return_value_strlen$8;
+              unsigned long int return_value_strlen_7;
+              return_value_strlen_7=strlen(expense->attendees);
+              buffer = buffer + (signed long int)return_value_strlen_7;
+              unsigned long int return_value_strlen_8;
+              return_value_strlen_8=strlen(expense->attendees);
+              len = len - (signed int)return_value_strlen_8;
             }
 
             else
@@ -29118,12 +29118,12 @@ extern signed int unpack_Expense(struct Expense *expense, unsigned char *buffer,
               if(!(*buffer == 0))
               {
                 expense->note=strdup((char *)buffer);
-                unsigned long int return_value_strlen$9;
-                return_value_strlen$9=strlen(expense->note);
-                buffer = buffer + (signed long int)return_value_strlen$9;
-                unsigned long int return_value_strlen$10;
-                return_value_strlen$10=strlen(expense->note);
-                len = len - (signed int)return_value_strlen$10;
+                unsigned long int return_value_strlen_9;
+                return_value_strlen_9=strlen(expense->note);
+                buffer = buffer + (signed long int)return_value_strlen_9;
+                unsigned long int return_value_strlen_10;
+                return_value_strlen_10=strlen(expense->note);
+                len = len - (signed int)return_value_strlen_10;
               }
 
               else
@@ -29217,7 +29217,7 @@ extern signed int unpack_HiNoteAppInfo(struct HiNoteAppInfo *appinfo, unsigned c
   signed int idx;
   unsigned char *start = record;
   i=unpack_CategoryAppInfo(&appinfo->category, record, len);
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   if(i == 0)
     return i;
 
@@ -29233,9 +29233,9 @@ extern signed int unpack_HiNoteAppInfo(struct HiNoteAppInfo *appinfo, unsigned c
       idx = 0;
       for( ; !(i >= 48); i = i + 1)
       {
-        tmp_post$1 = record;
+        tmp_post_1 = record;
         record = record + 1l;
-        appinfo->reserved[(signed long int)i] = *tmp_post$1;
+        appinfo->reserved[(signed long int)i] = *tmp_post_1;
       }
       return (signed int)(record - start);
     }
@@ -29254,42 +29254,42 @@ extern signed int unpack_HiNoteNote(struct HiNoteNote *hinote, unsigned char *bu
     hinote->flags = (signed int)buffer[(signed long int)0];
     hinote->level = (signed int)buffer[(signed long int)1];
     hinote->text=strdup((char *)&buffer[(signed long int)2]);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((char *)&buffer[(signed long int)2]);
-    return (signed int)(return_value_strlen$1 + (unsigned long int)3);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((char *)&buffer[(signed long int)2]);
+    return (signed int)(return_value_strlen_1 + (unsigned long int)3);
   }
 }
 
 // unpack_Location
 // file location.c line 487
-extern signed int unpack_Location(struct anonymous$27 *loc, const struct pi_buffer_t *buf)
+extern signed int unpack_Location(struct anonymous_27 *loc, const struct pi_buffer_t *buf)
 {
   unsigned long int localPosition = (unsigned long int)0;
-  signed int return_value_unpack_Timezone_p$1;
-  return_value_unpack_Timezone_p$1=unpack_Timezone_p(&loc->tz, buf->data, localPosition);
-  localPosition = (unsigned long int)return_value_unpack_Timezone_p$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  signed int return_value_unpack_Timezone_p_1;
+  return_value_unpack_Timezone_p_1=unpack_Timezone_p(&loc->tz, buf->data, localPosition);
+  localPosition = (unsigned long int)return_value_unpack_Timezone_p_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   loc->unknownExists = (unsigned char)0;
   loc->latitude.degrees = (signed short int)(unsigned short int)((signed int)((unsigned char *)(buf->data + (signed long int)localPosition))[(signed long int)0] << 8 | (signed int)((unsigned char *)(buf->data + (signed long int)localPosition))[(signed long int)1]);
   loc->latitude.minutes = (signed short int)(unsigned short int)((signed int)((unsigned char *)(buf->data + (signed long int)localPosition + (signed long int)2))[(signed long int)0] << 8 | (signed int)((unsigned char *)(buf->data + (signed long int)localPosition + (signed long int)2))[(signed long int)1]);
   if((signed int)loc->latitude.degrees >= 91)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)loc->latitude.degrees < -90 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = (signed int)loc->latitude.degrees < -90 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)loc->latitude.minutes > 60 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = (signed int)loc->latitude.minutes > 60 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (signed int)loc->latitude.minutes < -60 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (signed int)loc->latitude.minutes < -60 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
     loc->unknownExists = (unsigned char)1;
     loc->unknown = ((unsigned char *)(buf->data + (signed long int)localPosition))[(signed long int)0];
@@ -29341,9 +29341,9 @@ extern signed int unpack_Location(struct anonymous$27 *loc, const struct pi_buff
   else
   {
     loc->note=strdup((char *)(buf->data + (signed long int)localPosition));
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(loc->note);
-    localPosition = localPosition + return_value_strlen$5 + (unsigned long int)1;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(loc->note);
+    localPosition = localPosition + return_value_strlen_5 + (unsigned long int)1;
   }
   return 0;
 }
@@ -29391,12 +29391,12 @@ extern signed int unpack_Mail(struct Mail *mail, unsigned char *buffer, unsigned
       if(!(*buffer == 0))
       {
         mail->subject=strdup((char *)buffer);
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen((char *)buffer);
-        buffer = buffer + (signed long int)return_value_strlen$1;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen((char *)buffer);
-        len = len - return_value_strlen$2;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen((char *)buffer);
+        buffer = buffer + (signed long int)return_value_strlen_1;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen((char *)buffer);
+        len = len - return_value_strlen_2;
       }
 
       else
@@ -29411,12 +29411,12 @@ extern signed int unpack_Mail(struct Mail *mail, unsigned char *buffer, unsigned
         if(!(*buffer == 0))
         {
           mail->from=strdup((char *)buffer);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen((char *)buffer);
-          buffer = buffer + (signed long int)return_value_strlen$3;
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen((char *)buffer);
-          len = len - return_value_strlen$4;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen((char *)buffer);
+          buffer = buffer + (signed long int)return_value_strlen_3;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen((char *)buffer);
+          len = len - return_value_strlen_4;
         }
 
         else
@@ -29431,12 +29431,12 @@ extern signed int unpack_Mail(struct Mail *mail, unsigned char *buffer, unsigned
           if(!(*buffer == 0))
           {
             mail->to=strdup((char *)buffer);
-            unsigned long int return_value_strlen$5;
-            return_value_strlen$5=strlen((char *)buffer);
-            buffer = buffer + (signed long int)return_value_strlen$5;
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen((char *)buffer);
-            len = len - return_value_strlen$6;
+            unsigned long int return_value_strlen_5;
+            return_value_strlen_5=strlen((char *)buffer);
+            buffer = buffer + (signed long int)return_value_strlen_5;
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen((char *)buffer);
+            len = len - return_value_strlen_6;
           }
 
           else
@@ -29451,12 +29451,12 @@ extern signed int unpack_Mail(struct Mail *mail, unsigned char *buffer, unsigned
             if(!(*buffer == 0))
             {
               mail->cc=strdup((char *)buffer);
-              unsigned long int return_value_strlen$7;
-              return_value_strlen$7=strlen((char *)buffer);
-              buffer = buffer + (signed long int)return_value_strlen$7;
-              unsigned long int return_value_strlen$8;
-              return_value_strlen$8=strlen((char *)buffer);
-              len = len - return_value_strlen$8;
+              unsigned long int return_value_strlen_7;
+              return_value_strlen_7=strlen((char *)buffer);
+              buffer = buffer + (signed long int)return_value_strlen_7;
+              unsigned long int return_value_strlen_8;
+              return_value_strlen_8=strlen((char *)buffer);
+              len = len - return_value_strlen_8;
             }
 
             else
@@ -29471,12 +29471,12 @@ extern signed int unpack_Mail(struct Mail *mail, unsigned char *buffer, unsigned
               if(!(*buffer == 0))
               {
                 mail->bcc=strdup((char *)buffer);
-                unsigned long int return_value_strlen$9;
-                return_value_strlen$9=strlen((char *)buffer);
-                buffer = buffer + (signed long int)return_value_strlen$9;
-                unsigned long int return_value_strlen$10;
-                return_value_strlen$10=strlen((char *)buffer);
-                len = len - return_value_strlen$10;
+                unsigned long int return_value_strlen_9;
+                return_value_strlen_9=strlen((char *)buffer);
+                buffer = buffer + (signed long int)return_value_strlen_9;
+                unsigned long int return_value_strlen_10;
+                return_value_strlen_10=strlen((char *)buffer);
+                len = len - return_value_strlen_10;
               }
 
               else
@@ -29491,12 +29491,12 @@ extern signed int unpack_Mail(struct Mail *mail, unsigned char *buffer, unsigned
                 if(!(*buffer == 0))
                 {
                   mail->replyTo=strdup((char *)buffer);
-                  unsigned long int return_value_strlen$11;
-                  return_value_strlen$11=strlen((char *)buffer);
-                  buffer = buffer + (signed long int)return_value_strlen$11;
-                  unsigned long int return_value_strlen$12;
-                  return_value_strlen$12=strlen((char *)buffer);
-                  len = len - return_value_strlen$12;
+                  unsigned long int return_value_strlen_11;
+                  return_value_strlen_11=strlen((char *)buffer);
+                  buffer = buffer + (signed long int)return_value_strlen_11;
+                  unsigned long int return_value_strlen_12;
+                  return_value_strlen_12=strlen((char *)buffer);
+                  len = len - return_value_strlen_12;
                 }
 
                 else
@@ -29511,12 +29511,12 @@ extern signed int unpack_Mail(struct Mail *mail, unsigned char *buffer, unsigned
                   if(!(*buffer == 0))
                   {
                     mail->sentTo=strdup((char *)buffer);
-                    unsigned long int return_value_strlen$13;
-                    return_value_strlen$13=strlen((char *)buffer);
-                    buffer = buffer + (signed long int)return_value_strlen$13;
-                    unsigned long int return_value_strlen$14;
-                    return_value_strlen$14=strlen((char *)buffer);
-                    len = len - return_value_strlen$14;
+                    unsigned long int return_value_strlen_13;
+                    return_value_strlen_13=strlen((char *)buffer);
+                    buffer = buffer + (signed long int)return_value_strlen_13;
+                    unsigned long int return_value_strlen_14;
+                    return_value_strlen_14=strlen((char *)buffer);
+                    len = len - return_value_strlen_14;
                   }
 
                   else
@@ -29531,12 +29531,12 @@ extern signed int unpack_Mail(struct Mail *mail, unsigned char *buffer, unsigned
                     if(!(*buffer == 0))
                     {
                       mail->body=strdup((char *)buffer);
-                      unsigned long int return_value_strlen$15;
-                      return_value_strlen$15=strlen((char *)buffer);
-                      buffer = buffer + (signed long int)return_value_strlen$15;
-                      unsigned long int return_value_strlen$16;
-                      return_value_strlen$16=strlen((char *)buffer);
-                      len = len - return_value_strlen$16;
+                      unsigned long int return_value_strlen_15;
+                      return_value_strlen_15=strlen((char *)buffer);
+                      buffer = buffer + (signed long int)return_value_strlen_15;
+                      unsigned long int return_value_strlen_16;
+                      return_value_strlen_16=strlen((char *)buffer);
+                      len = len - return_value_strlen_16;
                     }
 
                     else
@@ -29597,9 +29597,9 @@ extern signed int unpack_MailSignaturePref(struct MailSignaturePref *pref, unsig
   else
   {
     pref->signature=strdup((char *)record);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(pref->signature);
-    record = record + (signed long int)(return_value_strlen$1 + (unsigned long int)1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(pref->signature);
+    record = record + (signed long int)(return_value_strlen_1 + (unsigned long int)1);
     return (signed int)(record - start);
   }
 }
@@ -29620,9 +29620,9 @@ extern signed int unpack_MailSyncPref(struct MailSyncPref *pref, unsigned char *
   if(!(*record == 0))
   {
     pref->filterTo=strdup((char *)record);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((char *)record);
-    record = record + (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((char *)record);
+    record = record + (signed long int)return_value_strlen_1;
   }
 
   else
@@ -29631,9 +29631,9 @@ extern signed int unpack_MailSyncPref(struct MailSyncPref *pref, unsigned char *
   if(!(*record == 0))
   {
     pref->filterFrom=strdup((char *)record);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen((char *)record);
-    record = record + (signed long int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen((char *)record);
+    record = record + (signed long int)return_value_strlen_2;
   }
 
   else
@@ -29642,9 +29642,9 @@ extern signed int unpack_MailSyncPref(struct MailSyncPref *pref, unsigned char *
   if(!(*record == 0))
   {
     pref->filterSubject=strdup((char *)record);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen((char *)record);
-    record = record + (signed long int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen((char *)record);
+    record = record + (signed long int)return_value_strlen_3;
   }
 
   else
@@ -29655,26 +29655,26 @@ extern signed int unpack_MailSyncPref(struct MailSyncPref *pref, unsigned char *
 
 // unpack_Memo
 // file memo.c line 63
-extern signed int unpack_Memo(struct Memo *memo, const struct pi_buffer_t *record, enum anonymous$30 type)
+extern signed int unpack_Memo(struct Memo *memo, const struct pi_buffer_t *record, enum anonymous_30 type)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!((signed int)type == memo_v1))
     return -1;
 
   else
   {
     if(record == ((const struct pi_buffer_t *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = record->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = record->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = record->used < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = record->used < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -1;
 
     else
@@ -29692,7 +29692,7 @@ extern signed int unpack_MemoAppInfo(struct MemoAppInfo *appinfo, const unsigned
   signed int i;
   i=unpack_CategoryAppInfo(&appinfo->category, record, len);
   unsigned char *start = record;
-  appinfo->type = (enum anonymous$30)memo_v1;
+  appinfo->type = (enum anonymous_30)memo_v1;
   if(i == 0)
     return i;
 
@@ -29806,12 +29806,12 @@ signed int unpack_NotePad(struct NotePad *notepad, unsigned char *buffer, unsign
   if(!((0x02 & (signed int)notepad->flags) == 0))
   {
     notepad->name=strdup((char *)buffer);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(notepad->name);
-    buffer = buffer + (signed long int)(return_value_strlen$1 + (unsigned long int)1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(notepad->name);
-    if((1ul + return_value_strlen$2) % 2ul == 1ul)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(notepad->name);
+    buffer = buffer + (signed long int)(return_value_strlen_1 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(notepad->name);
+    if((1ul + return_value_strlen_2) % 2ul == 1ul)
       buffer = buffer + 1l;
 
   }
@@ -29832,9 +29832,9 @@ signed int unpack_NotePad(struct NotePad *notepad, unsigned char *buffer, unsign
     buffer = buffer + (signed long int)4;
     notepad->body.dataLen = (unsigned int)(unsigned long int)((unsigned long int)((unsigned char *)buffer)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)buffer)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)buffer)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)buffer)[(signed long int)3]);
     buffer = buffer + (signed long int)4;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)notepad->body.dataLen);
-    notepad->data = (struct dataRec *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)notepad->body.dataLen);
+    notepad->data = (struct dataRec *)return_value_malloc_3;
     if(notepad->data == ((struct dataRec *)NULL))
     {
       fprintf(stderr, "Body data alloc failed\n");
@@ -29882,13 +29882,13 @@ extern signed int unpack_PalmPix(struct PalmPixState *s, struct PalmPixHeader *h
   signed int retcode = 1;
   if(!((1 & wanted) == 0))
   {
-    void *unpack_PalmPix$$1$$1$$buffer;
+    void *unpack_PalmPix__1__1__buffer;
     unsigned long int bufsize;
     signed int return_value;
-    return_value=s->getrecord(s, header_recno + 1, &unpack_PalmPix$$1$$1$$buffer, &bufsize);
+    return_value=s->getrecord(s, header_recno + 1, &unpack_PalmPix__1__1__buffer, &bufsize);
     if(return_value == 0 && bufsize == 32ul)
     {
-      memcpy((void *)s->pixname, unpack_PalmPix$$1$$1$$buffer, (unsigned long int)32);
+      memcpy((void *)s->pixname, unpack_PalmPix__1__1__buffer, (unsigned long int)32);
       s->pixname[(signed long int)32] = (char)0;
     }
 
@@ -29902,7 +29902,7 @@ extern signed int unpack_PalmPix(struct PalmPixState *s, struct PalmPixHeader *h
     fprintf(stderr, "palmpix.c: thumbnail reader not implemented\n");
   }
 
-  void *return_value_malloc$3;
+  void *return_value_malloc_3;
   if(!((4 & wanted) == 0))
   {
     signed int rawWidth = h->w / 2;
@@ -29920,9 +29920,9 @@ extern signed int unpack_PalmPix(struct PalmPixState *s, struct PalmPixHeader *h
     k = 0;
     for( ; !(k >= 4); k = k + 1)
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)(rawWidth * rawHeight));
-      chan[(signed long int)k] = (unsigned char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)(rawWidth * rawHeight));
+      chan[(signed long int)k] = (unsigned char *)return_value_malloc_1;
       if(chan[(signed long int)k] == ((unsigned char *)NULL))
         goto failed;
 
@@ -29931,13 +29931,13 @@ extern signed int unpack_PalmPix(struct PalmPixState *s, struct PalmPixHeader *h
         chansize_max = h->chansize[(signed long int)k];
 
     }
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)chansize_max);
-    raw = (unsigned char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)chansize_max);
+    raw = (unsigned char *)return_value_malloc_2;
     if(!(raw == ((unsigned char *)NULL)))
     {
-      return_value_malloc$3=malloc((unsigned long int)(h->w * h->h * 3));
-      s->pixmap = (unsigned char *)return_value_malloc$3;
+      return_value_malloc_3=malloc((unsigned long int)(h->w * h->h * 3));
+      s->pixmap = (unsigned char *)return_value_malloc_3;
       if(!(s->pixmap == ((unsigned char *)NULL)))
       {
         recno = recno + 4;
@@ -29952,16 +29952,16 @@ extern signed int unpack_PalmPix(struct PalmPixState *s, struct PalmPixHeader *h
           if(!(num_bytes >= (signed long int)h->chansize[(signed long int)k]))
           {
             void *buffer;
-            unsigned long int unpack_PalmPix$$1$$3$$3$$1$$1$$1$$bufsize;
+            unsigned long int unpack_PalmPix__1__3__3__1__1__1__bufsize;
             signed int return_value_1;
-            return_value_1=s->getrecord(s, recno, &buffer, &unpack_PalmPix$$1$$3$$3$$1$$1$$1$$bufsize);
+            return_value_1=s->getrecord(s, recno, &buffer, &unpack_PalmPix__1__3__3__1__1__1__bufsize);
             if(return_value_1 == 0)
             {
-              if(!((unsigned long int)(signed long int)h->chansize[(signed long int)k] + -((unsigned long int)num_bytes) >= unpack_PalmPix$$1$$3$$3$$1$$1$$1$$bufsize))
-                unpack_PalmPix$$1$$3$$3$$1$$1$$1$$bufsize = (unsigned long int)((signed long int)h->chansize[(signed long int)k] - num_bytes);
+              if(!((unsigned long int)(signed long int)h->chansize[(signed long int)k] + -((unsigned long int)num_bytes) >= unpack_PalmPix__1__3__3__1__1__1__bufsize))
+                unpack_PalmPix__1__3__3__1__1__1__bufsize = (unsigned long int)((signed long int)h->chansize[(signed long int)k] - num_bytes);
 
-              memcpy((void *)&raw[num_bytes], buffer, (unsigned long int)unpack_PalmPix$$1$$3$$3$$1$$1$$1$$bufsize);
-              num_bytes = num_bytes + (signed long int)unpack_PalmPix$$1$$3$$3$$1$$1$$1$$bufsize;
+              memcpy((void *)&raw[num_bytes], buffer, (unsigned long int)unpack_PalmPix__1__3__3__1__1__1__bufsize);
+              num_bytes = num_bytes + (signed long int)unpack_PalmPix__1__3__3__1__1__1__bufsize;
             }
 
             recno = recno + 1;
@@ -30053,16 +30053,16 @@ extern signed int unpack_PalmPixHeader(struct PalmPixHeader *h, const unsigned c
 
 // unpack_Timezone
 // file location.c line 390
-extern signed int unpack_Timezone(struct anonymous$25 *tz, const struct pi_buffer_t *buf)
+extern signed int unpack_Timezone(struct anonymous_25 *tz, const struct pi_buffer_t *buf)
 {
-  signed int return_value_unpack_Timezone_p$1;
-  return_value_unpack_Timezone_p$1=unpack_Timezone_p(tz, buf->data, (const unsigned long int)0);
-  return return_value_unpack_Timezone_p$1;
+  signed int return_value_unpack_Timezone_p_1;
+  return_value_unpack_Timezone_p_1=unpack_Timezone_p(tz, buf->data, (const unsigned long int)0);
+  return return_value_unpack_Timezone_p_1;
 }
 
 // unpack_Timezone_p
 // file location.c line 399
-extern signed int unpack_Timezone_p(struct anonymous$25 *tz, const unsigned char *data, const unsigned long int position)
+extern signed int unpack_Timezone_p(struct anonymous_25 *tz, const unsigned char *data, const unsigned long int position)
 {
   unsigned char byte;
   unsigned long int localPosition = position;
@@ -30083,17 +30083,17 @@ extern signed int unpack_Timezone_p(struct anonymous$25 *tz, const unsigned char
     default:
       return -1;
   }
-  signed int return_value_unpack_DST_p$1;
-  return_value_unpack_DST_p$1=unpack_DST_p(&tz->dstStart, data, localPosition);
-  if(!(return_value_unpack_DST_p$1 == 0))
+  signed int return_value_unpack_DST_p_1;
+  return_value_unpack_DST_p_1=unpack_DST_p(&tz->dstStart, data, localPosition);
+  if(!(return_value_unpack_DST_p_1 == 0))
     return -1;
 
   else
   {
     localPosition = localPosition + (unsigned long int)4;
-    signed int return_value_unpack_DST_p$2;
-    return_value_unpack_DST_p$2=unpack_DST_p(&tz->dstEnd, data, localPosition);
-    if(!(return_value_unpack_DST_p$2 == 0))
+    signed int return_value_unpack_DST_p_2;
+    return_value_unpack_DST_p_2=unpack_DST_p(&tz->dstEnd, data, localPosition);
+    if(!(return_value_unpack_DST_p_2 == 0))
       return -1;
 
     else
@@ -30140,9 +30140,9 @@ extern signed int unpack_Timezone_p(struct anonymous$25 *tz, const unsigned char
       else
       {
         tz->name=strdup((char *)(data + (signed long int)localPosition));
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(tz->name);
-        localPosition = localPosition + return_value_strlen$3 + (unsigned long int)1;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(tz->name);
+        localPosition = localPosition + return_value_strlen_3 + (unsigned long int)1;
       }
       return (signed int)localPosition;
     }
@@ -30151,28 +30151,28 @@ extern signed int unpack_Timezone_p(struct anonymous$25 *tz, const unsigned char
 
 // unpack_ToDo
 // file todo.c line 86
-extern signed int unpack_ToDo(struct ToDo *todo, const struct pi_buffer_t *buf, enum anonymous$13 type)
+extern signed int unpack_ToDo(struct ToDo *todo, const struct pi_buffer_t *buf, enum anonymous_13 type)
 {
   unsigned long int d;
   signed int ofs;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!((signed int)type == todo_v1))
     return -1;
 
   else
   {
     if(buf == ((const struct pi_buffer_t *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = buf->data == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = buf->used < (unsigned long int)3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = buf->used < (unsigned long int)3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -1;
 
     else
@@ -30209,9 +30209,9 @@ extern signed int unpack_ToDo(struct ToDo *todo, const struct pi_buffer_t *buf, 
       else
       {
         todo->description=strdup((char *)buf->data + (signed long int)ofs);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(todo->description);
-        ofs = ofs + (signed int)(return_value_strlen$3 + (unsigned long int)1);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(todo->description);
+        ofs = ofs + (signed int)(return_value_strlen_3 + (unsigned long int)1);
         if(!(buf->used + -((unsigned long int)ofs) >= 1ul))
         {
           free((void *)todo->description);
@@ -30235,7 +30235,7 @@ extern signed int unpack_ToDoAppInfo(struct ToDoAppInfo *appinfo, const unsigned
 {
   signed int i;
   unsigned char *start = record;
-  appinfo->type = (enum anonymous$13)todo_v1;
+  appinfo->type = (enum anonymous_13)todo_v1;
   i=unpack_CategoryAppInfo(&appinfo->category, record, len);
   if(i == 0)
     return 0;
@@ -30263,17 +30263,17 @@ extern signed int unpack_ToDoAppInfo(struct ToDoAppInfo *appinfo, const unsigned
 extern signed int unpack_Transaction(struct Transaction *trans, unsigned char *buffer, unsigned long int len)
 {
   unsigned char *p;
-  signed long int tmp_if_expr$1;
-  signed long int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
-  signed int tmp_if_expr$9;
-  signed int tmp_if_expr$10;
-  signed int tmp_if_expr$11;
+  signed long int tmp_if_expr_1;
+  signed long int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
+  signed int tmp_if_expr_9;
+  signed int tmp_if_expr_10;
+  signed int tmp_if_expr_11;
   if(!(len >= 46ul))
     return 0;
 
@@ -30285,81 +30285,81 @@ extern signed int unpack_Transaction(struct Transaction *trans, unsigned char *b
     trans->checknum = (unsigned int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
     p = p + (signed long int)2;
     if(((unsigned long int)p[1l] << 16 | (unsigned long int)p[2l] << 8 | (unsigned long int)*p << 24 | (unsigned long int)p[3l]) >= 2147483648ul)
-      tmp_if_expr$1 = (signed long int)((unsigned long int)((unsigned long int)((unsigned char *)p)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)p)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)p)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)p)[(signed long int)3]) & (unsigned long int)0x7FFFFFFF) - (signed long int)0x80000000;
+      tmp_if_expr_1 = (signed long int)((unsigned long int)((unsigned long int)((unsigned char *)p)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)p)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)p)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)p)[(signed long int)3]) & (unsigned long int)0x7FFFFFFF) - (signed long int)0x80000000;
 
     else
-      tmp_if_expr$1 = (signed long int)(unsigned long int)((unsigned long int)((unsigned char *)p)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)p)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)p)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)p)[(signed long int)3]);
-    trans->amount = (signed long int)tmp_if_expr$1;
+      tmp_if_expr_1 = (signed long int)(unsigned long int)((unsigned long int)((unsigned char *)p)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)p)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)p)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)p)[(signed long int)3]);
+    trans->amount = (signed long int)tmp_if_expr_1;
     p = p + (signed long int)4;
     if(((unsigned long int)p[1l] << 16 | (unsigned long int)p[2l] << 8 | (unsigned long int)*p << 24 | (unsigned long int)p[3l]) >= 2147483648ul)
-      tmp_if_expr$2 = (signed long int)((unsigned long int)((unsigned long int)((unsigned char *)p)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)p)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)p)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)p)[(signed long int)3]) & (unsigned long int)0x7FFFFFFF) - (signed long int)0x80000000;
+      tmp_if_expr_2 = (signed long int)((unsigned long int)((unsigned long int)((unsigned char *)p)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)p)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)p)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)p)[(signed long int)3]) & (unsigned long int)0x7FFFFFFF) - (signed long int)0x80000000;
 
     else
-      tmp_if_expr$2 = (signed long int)(unsigned long int)((unsigned long int)((unsigned char *)p)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)p)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)p)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)p)[(signed long int)3]);
-    trans->total = (signed long int)tmp_if_expr$2;
+      tmp_if_expr_2 = (signed long int)(unsigned long int)((unsigned long int)((unsigned char *)p)[(signed long int)0] << 24 | (unsigned long int)((unsigned char *)p)[(signed long int)1] << 16 | (unsigned long int)((unsigned char *)p)[(signed long int)2] << 8 | (unsigned long int)((unsigned char *)p)[(signed long int)3]);
+    trans->total = (signed long int)tmp_if_expr_2;
     p = p + (signed long int)4;
     if((signed int)((unsigned short int)((signed int)*p << 8) | (unsigned short int)(signed int)p[1l]) >= 32768)
-      tmp_if_expr$3 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
+      tmp_if_expr_3 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
 
     else
-      tmp_if_expr$3 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
-    trans->amountc = (signed int)(signed short int)tmp_if_expr$3;
+      tmp_if_expr_3 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
+    trans->amountc = (signed int)(signed short int)tmp_if_expr_3;
     p = p + (signed long int)2;
     if((signed int)((unsigned short int)((signed int)*p << 8) | (unsigned short int)(signed int)p[1l]) >= 32768)
-      tmp_if_expr$4 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
+      tmp_if_expr_4 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
 
     else
-      tmp_if_expr$4 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
-    trans->totalc = (signed int)(signed short int)tmp_if_expr$4;
+      tmp_if_expr_4 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
+    trans->totalc = (signed int)(signed short int)tmp_if_expr_4;
     p = p + (signed long int)2;
     if((signed int)((unsigned short int)((signed int)*p << 8) | (unsigned short int)(signed int)p[1l]) >= 32768)
-      tmp_if_expr$5 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
+      tmp_if_expr_5 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
 
     else
-      tmp_if_expr$5 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
-    trans->second = (signed int)(signed short int)tmp_if_expr$5;
+      tmp_if_expr_5 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
+    trans->second = (signed int)(signed short int)tmp_if_expr_5;
     p = p + (signed long int)2;
     if((signed int)((unsigned short int)((signed int)*p << 8) | (unsigned short int)(signed int)p[1l]) >= 32768)
-      tmp_if_expr$6 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
+      tmp_if_expr_6 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
 
     else
-      tmp_if_expr$6 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
-    trans->minute = (signed int)(signed short int)tmp_if_expr$6;
+      tmp_if_expr_6 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
+    trans->minute = (signed int)(signed short int)tmp_if_expr_6;
     p = p + (signed long int)2;
     if((signed int)((unsigned short int)((signed int)*p << 8) | (unsigned short int)(signed int)p[1l]) >= 32768)
-      tmp_if_expr$7 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
+      tmp_if_expr_7 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
 
     else
-      tmp_if_expr$7 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
-    trans->hour = (signed int)(signed short int)tmp_if_expr$7;
+      tmp_if_expr_7 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
+    trans->hour = (signed int)(signed short int)tmp_if_expr_7;
     p = p + (signed long int)2;
     if((signed int)((unsigned short int)((signed int)*p << 8) | (unsigned short int)(signed int)p[1l]) >= 32768)
-      tmp_if_expr$8 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
+      tmp_if_expr_8 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
 
     else
-      tmp_if_expr$8 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
-    trans->day = (signed int)(signed short int)tmp_if_expr$8;
+      tmp_if_expr_8 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
+    trans->day = (signed int)(signed short int)tmp_if_expr_8;
     p = p + (signed long int)2;
     if((signed int)((unsigned short int)((signed int)*p << 8) | (unsigned short int)(signed int)p[1l]) >= 32768)
-      tmp_if_expr$9 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
+      tmp_if_expr_9 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
 
     else
-      tmp_if_expr$9 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
-    trans->month = (signed int)(signed short int)tmp_if_expr$9;
+      tmp_if_expr_9 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
+    trans->month = (signed int)(signed short int)tmp_if_expr_9;
     p = p + (signed long int)2;
     if((signed int)((unsigned short int)((signed int)*p << 8) | (unsigned short int)(signed int)p[1l]) >= 32768)
-      tmp_if_expr$10 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
+      tmp_if_expr_10 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
 
     else
-      tmp_if_expr$10 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
-    trans->year = (signed int)(signed short int)tmp_if_expr$10;
+      tmp_if_expr_10 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
+    trans->year = (signed int)(signed short int)tmp_if_expr_10;
     p = p + (signed long int)2;
     if((signed int)((unsigned short int)((signed int)*p << 8) | (unsigned short int)(signed int)p[1l]) >= 32768)
-      tmp_if_expr$11 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
+      tmp_if_expr_11 = (signed int)(signed short int)((signed int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]) & 0x7FFF) - 0x8000;
 
     else
-      tmp_if_expr$11 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
-    trans->wday = (signed int)(signed short int)tmp_if_expr$11;
+      tmp_if_expr_11 = (signed int)(signed short int)(unsigned short int)((signed int)((unsigned char *)p)[(signed long int)0] << 8 | (signed int)((unsigned char *)p)[(signed long int)1]);
+    trans->wday = (signed int)(signed short int)tmp_if_expr_11;
     p = p + (signed long int)2;
     trans->repeat = (char)((unsigned char *)p)[(signed long int)0];
     p = p + (signed long int)1;
@@ -30374,9 +30374,9 @@ extern signed int unpack_Transaction(struct Transaction *trans, unsigned char *b
     strcpy(trans->description, (char *)p);
     p = p + (signed long int)19;
     strcpy(trans->note, (char *)p);
-    unsigned long int return_value_strlen$12;
-    return_value_strlen$12=strlen((char *)p);
-    p = p + (signed long int)(return_value_strlen$12 + (unsigned long int)1);
+    unsigned long int return_value_strlen_12;
+    return_value_strlen_12=strlen((char *)p);
+    p = p + (signed long int)(return_value_strlen_12 + (unsigned long int)1);
     return (signed int)(p - buffer);
   }
 }
@@ -30491,12 +30491,12 @@ extern signed int unpack_VersaMail(struct VersaMail *a, char *buffer, unsigned l
   if(!(*((unsigned char *)buffer) == 0))
   {
     a->messageUID=strdup(buffer);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(buffer);
-    len = len - return_value_strlen$1;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(buffer);
-    buffer = buffer + (signed long int)return_value_strlen$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(buffer);
+    len = len - return_value_strlen_1;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(buffer);
+    buffer = buffer + (signed long int)return_value_strlen_2;
   }
 
   else
@@ -30506,12 +30506,12 @@ extern signed int unpack_VersaMail(struct VersaMail *a, char *buffer, unsigned l
   if(!(*((unsigned char *)buffer) == 0))
   {
     a->to=strdup(buffer);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(buffer);
-    len = len - return_value_strlen$3;
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(buffer);
-    buffer = buffer + (signed long int)return_value_strlen$4;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(buffer);
+    len = len - return_value_strlen_3;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(buffer);
+    buffer = buffer + (signed long int)return_value_strlen_4;
   }
 
   else
@@ -30521,12 +30521,12 @@ extern signed int unpack_VersaMail(struct VersaMail *a, char *buffer, unsigned l
   if(!(*((unsigned char *)buffer) == 0))
   {
     a->from=strdup(buffer);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(buffer);
-    len = len - return_value_strlen$5;
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(buffer);
-    buffer = buffer + (signed long int)return_value_strlen$6;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(buffer);
+    len = len - return_value_strlen_5;
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(buffer);
+    buffer = buffer + (signed long int)return_value_strlen_6;
   }
 
   else
@@ -30536,12 +30536,12 @@ extern signed int unpack_VersaMail(struct VersaMail *a, char *buffer, unsigned l
   if(!(*((unsigned char *)buffer) == 0))
   {
     a->cc=strdup(buffer);
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(buffer);
-    len = len - return_value_strlen$7;
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(buffer);
-    buffer = buffer + (signed long int)return_value_strlen$8;
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(buffer);
+    len = len - return_value_strlen_7;
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(buffer);
+    buffer = buffer + (signed long int)return_value_strlen_8;
   }
 
   else
@@ -30551,12 +30551,12 @@ extern signed int unpack_VersaMail(struct VersaMail *a, char *buffer, unsigned l
   if(!(*((unsigned char *)buffer) == 0))
   {
     a->bcc=strdup(buffer);
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen(buffer);
-    len = len - return_value_strlen$9;
-    unsigned long int return_value_strlen$10;
-    return_value_strlen$10=strlen(buffer);
-    buffer = buffer + (signed long int)return_value_strlen$10;
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen(buffer);
+    len = len - return_value_strlen_9;
+    unsigned long int return_value_strlen_10;
+    return_value_strlen_10=strlen(buffer);
+    buffer = buffer + (signed long int)return_value_strlen_10;
   }
 
   else
@@ -30566,12 +30566,12 @@ extern signed int unpack_VersaMail(struct VersaMail *a, char *buffer, unsigned l
   if(!(*((unsigned char *)buffer) == 0))
   {
     a->subject=strdup(buffer);
-    unsigned long int return_value_strlen$11;
-    return_value_strlen$11=strlen(buffer);
-    len = len - return_value_strlen$11;
-    unsigned long int return_value_strlen$12;
-    return_value_strlen$12=strlen(buffer);
-    buffer = buffer + (signed long int)return_value_strlen$12;
+    unsigned long int return_value_strlen_11;
+    return_value_strlen_11=strlen(buffer);
+    len = len - return_value_strlen_11;
+    unsigned long int return_value_strlen_12;
+    return_value_strlen_12=strlen(buffer);
+    buffer = buffer + (signed long int)return_value_strlen_12;
   }
 
   else
@@ -30581,12 +30581,12 @@ extern signed int unpack_VersaMail(struct VersaMail *a, char *buffer, unsigned l
   if(!(*((unsigned char *)buffer) == 0))
   {
     a->dateString=strdup(buffer);
-    unsigned long int return_value_strlen$13;
-    return_value_strlen$13=strlen(buffer);
-    len = len - return_value_strlen$13;
-    unsigned long int return_value_strlen$14;
-    return_value_strlen$14=strlen(buffer);
-    buffer = buffer + (signed long int)return_value_strlen$14;
+    unsigned long int return_value_strlen_13;
+    return_value_strlen_13=strlen(buffer);
+    len = len - return_value_strlen_13;
+    unsigned long int return_value_strlen_14;
+    return_value_strlen_14=strlen(buffer);
+    buffer = buffer + (signed long int)return_value_strlen_14;
   }
 
   else
@@ -30596,12 +30596,12 @@ extern signed int unpack_VersaMail(struct VersaMail *a, char *buffer, unsigned l
   if(!(*((unsigned char *)buffer) == 0))
   {
     a->body=strdup(buffer);
-    unsigned long int return_value_strlen$15;
-    return_value_strlen$15=strlen(buffer);
-    len = len - return_value_strlen$15;
-    unsigned long int return_value_strlen$16;
-    return_value_strlen$16=strlen(buffer);
-    buffer = buffer + (signed long int)return_value_strlen$16;
+    unsigned long int return_value_strlen_15;
+    return_value_strlen_15=strlen(buffer);
+    len = len - return_value_strlen_15;
+    unsigned long int return_value_strlen_16;
+    return_value_strlen_16=strlen(buffer);
+    buffer = buffer + (signed long int)return_value_strlen_16;
   }
 
   else
@@ -30611,12 +30611,12 @@ extern signed int unpack_VersaMail(struct VersaMail *a, char *buffer, unsigned l
   if(!(*((unsigned char *)buffer) == 0))
   {
     a->replyTo=strdup(buffer);
-    unsigned long int return_value_strlen$17;
-    return_value_strlen$17=strlen(buffer);
-    len = len - return_value_strlen$17;
-    unsigned long int return_value_strlen$18;
-    return_value_strlen$18=strlen(buffer);
-    buffer = buffer + (signed long int)return_value_strlen$18;
+    unsigned long int return_value_strlen_17;
+    return_value_strlen_17=strlen(buffer);
+    len = len - return_value_strlen_17;
+    unsigned long int return_value_strlen_18;
+    return_value_strlen_18=strlen(buffer);
+    buffer = buffer + (signed long int)return_value_strlen_18;
   }
 
   else
@@ -30628,9 +30628,9 @@ extern signed int unpack_VersaMail(struct VersaMail *a, char *buffer, unsigned l
   a->attachmentCount = (unsigned int)0;
   if(len >= 1ul)
   {
-    void *return_value_malloc$19;
-    return_value_malloc$19=malloc(len);
-    a->unknown3 = (void *)return_value_malloc$19;
+    void *return_value_malloc_19;
+    return_value_malloc_19=malloc(len);
+    a->unknown3 = (void *)return_value_malloc_19;
     a->attachmentCount = (unsigned int)(len / (unsigned long int)4 - (unsigned long int)1);
     if(!(a->unknown3 == NULL))
     {

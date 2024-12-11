@@ -1,106 +1,106 @@
-// #anon_enum$FCT_SOCKET=0$FCT_LOCAL=1
+// #anon_enum_FCT_SOCKET=0_FCT_LOCAL=1
 // file festival.c line 61
-enum anonymous$23 { FCT_SOCKET=0, FCT_LOCAL=1 };
+enum anonymous_23 { FCT_SOCKET=0, FCT_LOCAL=1 };
 
-// #anon_enum$SPD_AUDIO_LE=0$SPD_AUDIO_BE=1
+// #anon_enum_SPD_AUDIO_LE=0_SPD_AUDIO_BE=1
 // file ../../include/spd_audio_plugin.h line 34
-enum anonymous$4 { SPD_AUDIO_LE=0, SPD_AUDIO_BE=1 };
+enum anonymous_4 { SPD_AUDIO_LE=0, SPD_AUDIO_BE=1 };
 
-// #anon_enum$SPD_CAP_NONE=0$SPD_CAP_SPELL=1$SPD_CAP_ICON=2
+// #anon_enum_SPD_CAP_NONE=0_SPD_CAP_SPELL=1_SPD_CAP_ICON=2
 // file ../../include/speechd_types.h line 32
-enum anonymous$10 { SPD_CAP_NONE=0, SPD_CAP_SPELL=1, SPD_CAP_ICON=2 };
+enum anonymous_10 { SPD_CAP_NONE=0, SPD_CAP_SPELL=1, SPD_CAP_ICON=2 };
 
-// #anon_enum$SPD_IMPORTANT=1$SPD_MESSAGE=2$SPD_TEXT=3$SPD_NOTIFICATION=4$SPD_PROGRESS=5
+// #anon_enum_SPD_IMPORTANT=1_SPD_MESSAGE=2_SPD_TEXT=3_SPD_NOTIFICATION=4_SPD_PROGRESS=5
 // file ../../include/speechd_types.h line 65
-enum anonymous$20 { SPD_IMPORTANT=1, SPD_MESSAGE=2, SPD_TEXT=3, SPD_NOTIFICATION=4, SPD_PROGRESS=5 };
+enum anonymous_20 { SPD_IMPORTANT=1, SPD_MESSAGE=2, SPD_TEXT=3, SPD_NOTIFICATION=4, SPD_PROGRESS=5 };
 
-// #anon_enum$SPD_MALE1=1$SPD_MALE2=2$SPD_MALE3=3$SPD_FEMALE1=4$SPD_FEMALE2=5$SPD_FEMALE3=6$SPD_CHILD_MALE=7$SPD_CHILD_FEMALE=8
+// #anon_enum_SPD_MALE1=1_SPD_MALE2=2_SPD_MALE3=3_SPD_FEMALE1=4_SPD_FEMALE2=5_SPD_FEMALE3=6_SPD_CHILD_MALE=7_SPD_CHILD_FEMALE=8
 // file ../../include/speechd_types.h line 43
-enum anonymous$11 { SPD_MALE1=1, SPD_MALE2=2, SPD_MALE3=3, SPD_FEMALE1=4, SPD_FEMALE2=5, SPD_FEMALE3=6, SPD_CHILD_MALE=7, SPD_CHILD_FEMALE=8 };
+enum anonymous_11 { SPD_MALE1=1, SPD_MALE2=2, SPD_MALE3=3, SPD_FEMALE1=4, SPD_FEMALE2=5, SPD_FEMALE3=6, SPD_CHILD_MALE=7, SPD_CHILD_FEMALE=8 };
 
-// #anon_enum$SPD_MSGTYPE_TEXT=0$SPD_MSGTYPE_SOUND_ICON=1$SPD_MSGTYPE_CHAR=2$SPD_MSGTYPE_KEY=3$SPD_MSGTYPE_SPELL=99
+// #anon_enum_SPD_MSGTYPE_TEXT=0_SPD_MSGTYPE_SOUND_ICON=1_SPD_MSGTYPE_CHAR=2_SPD_MSGTYPE_KEY=3_SPD_MSGTYPE_SPELL=99
 // file ../../include/speechd_types.h line 98
-enum anonymous$7 { SPD_MSGTYPE_TEXT=0, SPD_MSGTYPE_SOUND_ICON=1, SPD_MSGTYPE_CHAR=2, SPD_MSGTYPE_KEY=3, SPD_MSGTYPE_SPELL=99 };
+enum anonymous_7 { SPD_MSGTYPE_TEXT=0, SPD_MSGTYPE_SOUND_ICON=1, SPD_MSGTYPE_CHAR=2, SPD_MSGTYPE_KEY=3, SPD_MSGTYPE_SPELL=99 };
 
-// #anon_enum$SPD_PUNCT_ALL=0$SPD_PUNCT_NONE=1$SPD_PUNCT_SOME=2
+// #anon_enum_SPD_PUNCT_ALL=0_SPD_PUNCT_NONE=1_SPD_PUNCT_SOME=2
 // file ../../include/speechd_types.h line 26
-enum anonymous$8 { SPD_PUNCT_ALL=0, SPD_PUNCT_NONE=1, SPD_PUNCT_SOME=2 };
+enum anonymous_8 { SPD_PUNCT_ALL=0, SPD_PUNCT_NONE=1, SPD_PUNCT_SOME=2 };
 
-// #anon_enum$SPD_SPELL_OFF=0$SPD_SPELL_ON=1
+// #anon_enum_SPD_SPELL_OFF=0_SPD_SPELL_ON=1
 // file ../../include/speechd_types.h line 38
-enum anonymous$9 { SPD_SPELL_OFF=0, SPD_SPELL_ON=1 };
+enum anonymous_9 { SPD_SPELL_OFF=0, SPD_SPELL_ON=1 };
 
-// tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'language'||*{S8}$S8$'variant'|]
+// tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'language'||*{S8}_S8_'variant'|]
 // file ../../include/speechd_types.h line 54
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[S64'start'||S32'count'||U32'$pad0'||U64'size'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'p_caches'||*{S8}$S8$'key'|]#}$SYM#tag-#anon#ST[S64'start'||S32'count'||U32'$pad0'||U64'size'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'p_caches'||*{S8}$S8$'key'|]#$'p_counter_entry'||*{SYM#tag-FT_Wave#}$SYM#tag-FT_Wave#$'fwave'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[S64'start'||S32'count'||U32'_pad0'||U64'size'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'p_caches'||*{S8}_S8_'key'|]#}_SYM#tag-#anon#ST[S64'start'||S32'count'||U32'_pad0'||U64'size'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'p_caches'||*{S8}_S8_'key'|]#_'p_counter_entry'||*{SYM#tag-FT_Wave#}_SYM#tag-FT_Wave#_'fwave'|]
 // file festival.c line 188
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{cS8}$cS8$'name'||*{V}$V$'address'|]
+// tag-#anon#ST[*{cS8}_cS8_'name'||*{V}_V_'address'|]
 // file /usr/include/ltdl.h line 92
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[ARR2{S32}$S32$'pc'||ARR2{S32}$S32$'cp'|]
+// tag-#anon#ST[ARR2{S32}_S32_'pc'||ARR2{S32}_S32_'cp'|]
 // file module_utils.h line 156
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[ARR2{S32}$S32$'pipe_in'||ARR2{S32}$S32$'pipe_out'||S32'pid'|]
+// tag-#anon#ST[ARR2{S32}_S32_'pipe_in'||ARR2{S32}_S32_'pipe_out'||S32'pid'|]
 // file festival.c line 66
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'bits'||S32'num_channels'||S32'sample_rate'||S32'num_samples'||*{S16}$S16$'samples'|]
+// tag-#anon#ST[S32'bits'||S32'num_channels'||S32'sample_rate'||S32'num_samples'||*{S16}_S16_'samples'|]
 // file ../../include/spd_audio_plugin.h line 37
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'rate'||S32'pitch'||S32'volume'||EN#anon_enum$SPD_PUNCT_ALL=0$SPD_PUNCT_NONE=1$SPD_PUNCT_SOME=2#{U32}$U32$'punctuation_mode'||EN#anon_enum$SPD_SPELL_OFF=0$SPD_SPELL_ON=1#{U32}$U32$'spelling_mode'||EN#anon_enum$SPD_CAP_NONE=0$SPD_CAP_SPELL=1$SPD_CAP_ICON=2#{U32}$U32$'cap_let_recogn'||EN#anon_enum$SPD_MALE1=1$SPD_MALE2=2$SPD_MALE3=3$SPD_FEMALE1=4$SPD_FEMALE2=5$SPD_FEMALE3=6$SPD_CHILD_MALE=7$SPD_CHILD_FEMALE=8#{U32}$U32$'voice_type'||U32'$pad0'||SYM#tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'language'||*{S8}$S8$'variant'|]#'voice'|]
+// tag-#anon#ST[S32'rate'||S32'pitch'||S32'volume'||EN#anon_enum_SPD_PUNCT_ALL=0_SPD_PUNCT_NONE=1_SPD_PUNCT_SOME=2#{U32}_U32_'punctuation_mode'||EN#anon_enum_SPD_SPELL_OFF=0_SPD_SPELL_ON=1#{U32}_U32_'spelling_mode'||EN#anon_enum_SPD_CAP_NONE=0_SPD_CAP_SPELL=1_SPD_CAP_ICON=2#{U32}_U32_'cap_let_recogn'||EN#anon_enum_SPD_MALE1=1_SPD_MALE2=2_SPD_MALE3=3_SPD_FEMALE1=4_SPD_FEMALE2=5_SPD_FEMALE3=6_SPD_CHILD_MALE=7_SPD_CHILD_FEMALE=8#{U32}_U32_'voice_type'||U32'_pad0'||SYM#tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'language'||*{S8}_S8_'variant'|]#'voice'|]
 // file ../../include/speechd_types.h line 106
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'volume'||EN#anon_enum$SPD_AUDIO_LE=0$SPD_AUDIO_BE=1#{U32}$U32$'format'||*{SYM#tag-spd_audio_plugin#}$SYM#tag-spd_audio_plugin#$'function'||*{V}$V$'private_data'||S32'working'||U32'$pad0'|]
+// tag-#anon#ST[S32'volume'||EN#anon_enum_SPD_AUDIO_LE=0_SPD_AUDIO_BE=1#{U32}_U32_'format'||*{SYM#tag-spd_audio_plugin#}_SYM#tag-spd_audio_plugin#_'function'||*{V}_V_'private_data'||S32'working'||U32'_pad0'|]
 // file ../../include/spd_audio_plugin.h line 49
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S64'start'||S32'count'||U32'$pad0'||U64'size'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'p_caches'||*{S8}$S8$'key'|]
+// tag-#anon#ST[S64'start'||S32'count'||U32'_pad0'||U64'size'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'p_caches'||*{S8}_S8_'key'|]
 // file festival.c line 180
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S64'value'||*{S8}$S8$'str'||*{*{S8}$S8$}$*{S8}$S8$$'list'||F64'dvalue'|]
+// tag-#anon#ST[S64'value'||*{S8}_S8_'str'||*{*{S8}_S8_}_*{S8}_S8__'list'||F64'dvalue'|]
 // file /usr/include/dotconf.h line 170
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[U64'size'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'caches'||*{SYM#tag-_GList#}$SYM#tag-_GList#$'cache_counter'|]
+// tag-#anon#ST[U64'size'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'caches'||*{SYM#tag-_GList#}_SYM#tag-_GList#_'cache_counter'|]
 // file festival.c line 174
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$18;
+union anonymous_18;
 
 // tag-FT_Info
 // file festival_client.h line 50
@@ -260,16 +260,16 @@ struct timezone;
 const char * Debug_cb(struct command_t *cmd, void *ctx);
 // ECapLetRecogn2str
 // file ../../include/fdsetconv.h line 20
-char * ECapLetRecogn2str(enum anonymous$10 recogn);
+char * ECapLetRecogn2str(enum anonymous_10 recogn);
 // EPunctMode2str
 // file ../../include/fdsetconv.h line 12
-char * EPunctMode2str(enum anonymous$8 punct);
+char * EPunctMode2str(enum anonymous_8 punct);
 // ESpellMode2str
 // file fdsetconv.c line 131
-char * ESpellMode2str(enum anonymous$9 spell);
+char * ESpellMode2str(enum anonymous_9 spell);
 // EVoice2str
 // file ../../include/fdsetconv.h line 8
-char * EVoice2str(enum anonymous$11 voice);
+char * EVoice2str(enum anonymous_11 voice);
 // FestivalCacheDistinguishPitch_cb
 // file festival.c line 170
 const char * FestivalCacheDistinguishPitch_cb(struct command_t *cmd, void *ctx);
@@ -380,16 +380,16 @@ void cache_destroy_table_entry(void *data);
 void cache_free_counter_entry(void *data, void *user_data);
 // cache_gen_key
 // file festival.c line 1019
-char * cache_gen_key(enum anonymous$7 type);
+char * cache_gen_key(enum anonymous_7 type);
 // cache_init
 // file festival.c line 907
 signed int cache_init();
 // cache_insert
 // file festival.c line 1057
-signed int cache_insert(char *key, enum anonymous$7 msgtype, struct FT_Wave *fwave);
+signed int cache_insert(char *key, enum anonymous_7 msgtype, struct FT_Wave *fwave);
 // cache_lookup
 // file festival.c line 1118
-struct FT_Wave * cache_lookup(const char *key, enum anonymous$7 msgtype, signed int add_counter);
+struct FT_Wave * cache_lookup(const char *key, enum anonymous_7 msgtype, signed int add_counter);
 // cache_reset
 // file festival.c line 931
 signed int cache_reset();
@@ -404,7 +404,7 @@ static struct FT_Wave * client_accept_waveform(signed int fd, signed int *stop_f
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$18, unsigned int);
+extern signed int connect(signed int, union anonymous_18, unsigned int);
 // ctime
 // file /usr/include/time.h line 264
 extern char * ctime(const signed long int *);
@@ -434,7 +434,7 @@ char * do_list_voices(void);
 char * do_loglevel(void);
 // do_message
 // file module_utils.c line 43
-char * do_message(enum anonymous$7 msgtype);
+char * do_message(enum anonymous_7 msgtype);
 // do_pause
 // file module_utils.h line 195
 void do_pause(void);
@@ -494,7 +494,7 @@ struct FT_Info * festivalDefaultInfo();
 struct FT_Wave * festivalGetDataMulti(struct FT_Info *info, char **callback, signed int *stop_flag, signed int stop_by_close);
 // festivalGetVoices
 // file festival.c line 508
-static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info);
+static struct anonymous_14 ** festivalGetVoices(struct FT_Info *info);
 // festivalKey
 // file festival_client.h line 123
 signed int festivalKey(struct FT_Info *info, const char *text);
@@ -530,7 +530,7 @@ signed int festival_read_response(struct FT_Info *info, char **expr);
 signed int festival_send_to_audio(struct FT_Wave *fwave);
 // festival_set_cap_let_recogn
 // file festival.c line 875
-void festival_set_cap_let_recogn(enum anonymous$10 recogn);
+void festival_set_cap_let_recogn(enum anonymous_10 recogn);
 // festival_set_language
 // file festival.c line 830
 void festival_set_language(char *language);
@@ -539,7 +539,7 @@ void festival_set_language(char *language);
 void festival_set_pitch(signed int pitch);
 // festival_set_punctuation_mode
 // file festival.c line 867
-void festival_set_punctuation_mode(enum anonymous$8 punct);
+void festival_set_punctuation_mode(enum anonymous_8 punct);
 // festival_set_rate
 // file festival.c line 852
 void festival_set_rate(signed int rate);
@@ -548,7 +548,7 @@ void festival_set_rate(signed int rate);
 void festival_set_synthesis_voice(char *voice_name);
 // festival_set_voice
 // file festival.c line 837
-void festival_set_voice(enum anonymous$11 voice);
+void festival_set_voice(enum anonymous_11 voice);
 // festival_set_volume
 // file festival.c line 862
 void festival_set_volume(signed int volume);
@@ -683,7 +683,7 @@ signed int init_festival_socket();
 signed int init_festival_standalone();
 // is_text
 // file festival.c line 822
-signed int is_text(enum anonymous$7 msg_type);
+signed int is_text(enum anonymous_7 msg_type);
 // kill
 // file /usr/include/signal.h line 127
 extern signed int kill(signed int, signed int);
@@ -719,7 +719,7 @@ extern signed int lt_dlinit(void);
 extern struct lt__handle * lt_dlopenadvise(const char *, struct lt__advise *);
 // lt_dlpreload_default
 // file /usr/include/ltdl.h line 100
-extern signed int lt_dlpreload_default(const struct anonymous$5 *);
+extern signed int lt_dlpreload_default(const struct anonymous_5 *);
 // lt_dlsetsearchpath
 // file /usr/include/ltdl.h line 60
 extern signed int lt_dlsetsearchpath(const char *);
@@ -735,24 +735,24 @@ extern void * memset(void *, signed int, unsigned long int);
 // module_add_config_option
 // file module_utils.h line 214
 struct configoption_t * module_add_config_option(struct configoption_t *options, signed int *num_options, char *name, signed int type, const char * (*callback)(struct command_t *, void *), void *info, unsigned long int context);
-// module_add_config_option::callback$object
+// module_add_config_option::callback_object
 //
-const char * callback$object(struct command_t *, void *);
+const char * callback_object(struct command_t *, void *);
 // module_audio_init
 // file module_utils.c line 947
 signed int module_audio_init(char **status_info);
 // module_child_dp_close
 // file module_utils.c line 709
-void module_child_dp_close(struct anonymous$13 dpipe);
+void module_child_dp_close(struct anonymous_13 dpipe);
 // module_child_dp_init
 // file module_utils.c line 702
-void module_child_dp_init(struct anonymous$13 dpipe);
+void module_child_dp_init(struct anonymous_13 dpipe);
 // module_child_dp_read
 // file module_utils.c line 736
-signed int module_child_dp_read(struct anonymous$13 dpipe, char *msg, unsigned long int maxlen);
+signed int module_child_dp_read(struct anonymous_13 dpipe, char *msg, unsigned long int maxlen);
 // module_child_dp_write
 // file module_utils.c line 716
-void module_child_dp_write(struct anonymous$13 dpipe, const char *msg, unsigned long int bytes);
+void module_child_dp_write(struct anonymous_13 dpipe, const char *msg, unsigned long int bytes);
 // module_close
 // file festival.c line 457
 signed int module_close(void);
@@ -767,28 +767,28 @@ signed int module_get_message_part(const char *message, char *part, unsigned int
 signed int module_init(char **status_info);
 // module_list_voices
 // file festival.c line 317
-struct anonymous$14 ** module_list_voices(void);
+struct anonymous_14 ** module_list_voices(void);
 // module_load
 // file festival.c line 204
 signed int module_load(void);
 // module_parent_dp_close
 // file module_utils.c line 695
-void module_parent_dp_close(struct anonymous$13 dpipe);
+void module_parent_dp_close(struct anonymous_13 dpipe);
 // module_parent_dp_init
 // file module_utils.c line 688
-void module_parent_dp_init(struct anonymous$13 dpipe);
+void module_parent_dp_init(struct anonymous_13 dpipe);
 // module_parent_dp_read
 // file module_utils.c line 748
-signed int module_parent_dp_read(struct anonymous$13 dpipe, char *msg, unsigned long int maxlen);
+signed int module_parent_dp_read(struct anonymous_13 dpipe, char *msg, unsigned long int maxlen);
 // module_parent_dp_write
 // file module_utils.c line 725
-signed int module_parent_dp_write(struct anonymous$13 dpipe, const char *msg, unsigned long int bytes);
+signed int module_parent_dp_write(struct anonymous_13 dpipe, const char *msg, unsigned long int bytes);
 // module_parent_wait_continue
 // file module_utils.c line 668
-signed int module_parent_wait_continue(struct anonymous$13 dpipe);
+signed int module_parent_wait_continue(struct anonymous_13 dpipe);
 // module_parent_wfork
 // file module_utils.c line 608
-unsigned long int module_parent_wfork(struct anonymous$13 dpipe, const char *message, enum anonymous$7 msgtype, const unsigned long int maxlen, const char *dividers, signed int *pause_requested);
+unsigned long int module_parent_wfork(struct anonymous_13 dpipe, const char *message, enum anonymous_7 msgtype, const unsigned long int maxlen, const char *dividers, signed int *pause_requested);
 // module_pause
 // file festival.c line 444
 unsigned long int module_pause(void);
@@ -821,13 +821,13 @@ void module_send_asynchronous(char *text);
 void module_sigblockall(void);
 // module_sigblockusr
 // file module_utils.c line 789
-void module_sigblockusr(struct anonymous$12 *some_signals);
+void module_sigblockusr(struct anonymous_12 *some_signals);
 // module_sigunblockusr
 // file module_utils.c line 776
-void module_sigunblockusr(struct anonymous$12 *some_signals);
+void module_sigunblockusr(struct anonymous_12 *some_signals);
 // module_speak
 // file festival.c line 322
-signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 msgtype);
+signed int module_speak(char *data, unsigned long int bytes, enum anonymous_7 msgtype);
 // module_stop
 // file festival.c line 408
 signed int module_stop(void);
@@ -845,7 +845,7 @@ char * module_strip_ssml(char *message);
 signed int module_terminate_thread(unsigned long int thread);
 // module_tts_output
 // file module_utils.h line 125
-signed int module_tts_output(struct anonymous$3 track, enum anonymous$4 format);
+signed int module_tts_output(struct anonymous_3 track, enum anonymous_4 format);
 // my_dlopenextglobal
 // file spd_audio.c line 62
 static struct lt__handle * my_dlopenextglobal(const char *filename);
@@ -878,13 +878,13 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$6 *, const union anonymous$19 *);
+extern signed int pthread_mutex_init(union anonymous_6 *, const union anonymous_19 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$6 *);
+extern signed int pthread_mutex_lock(union anonymous_6 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$6 *);
+extern signed int pthread_mutex_unlock(union anonymous_6 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -893,7 +893,7 @@ extern signed int pthread_setcancelstate(signed int, signed int *);
 extern signed int pthread_setcanceltype(signed int, signed int *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$12 *, struct anonymous$12 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_12 *, struct anonymous_12 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -902,16 +902,16 @@ extern signed long int read(signed int, void *, unsigned long int);
 signed int save_FT_Wave_snd(struct FT_Wave *wave, const char *filename);
 // sem_destroy
 // file /usr/include/semaphore.h line 39
-extern signed int sem_destroy(union anonymous$15 *);
+extern signed int sem_destroy(union anonymous_15 *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$15 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_15 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$15 *);
+extern signed int sem_post(union anonymous_15 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$15 *);
+extern signed int sem_wait(union anonymous_15 *);
 // set_speaking_thread_parameters
 // file module_utils.h line 165
 void set_speaking_thread_parameters();
@@ -920,16 +920,16 @@ void set_speaking_thread_parameters();
 extern char * setlocale(signed int, const char *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$12 *, signed int);
+extern signed int sigaddset(struct anonymous_12 *, signed int);
 // sigdelset
 // file /usr/include/signal.h line 224
-extern signed int sigdelset(struct anonymous$12 *, signed int);
+extern signed int sigdelset(struct anonymous_12 *, signed int);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$12 *);
+extern signed int sigfillset(struct anonymous_12 *);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$12 *, struct anonymous$12 *);
+extern signed int sigprocmask(signed int, const struct anonymous_12 *, struct anonymous_12 *);
 // socket
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 113
 extern signed int socket(signed int, signed int, signed int);
@@ -938,28 +938,28 @@ extern signed int socket(signed int, signed int, signed int);
 static char * socket_receive_file_to_buff(signed int fd, signed int *size);
 // spd_audio_close
 // file spd_audio.c line 254
-signed int spd_audio_close(struct anonymous$2 *id);
+signed int spd_audio_close(struct anonymous_2 *id);
 // spd_audio_get_playcmd
 // file spd_audio.c line 315
-const char * spd_audio_get_playcmd(struct anonymous$2 *id);
+const char * spd_audio_get_playcmd(struct anonymous_2 *id);
 // spd_audio_open
 // file spd_audio.c line 93
-struct anonymous$2 * spd_audio_open(char *name, void **pars, char **error);
-// spd_audio_open::1::fn$object
+struct anonymous_2 * spd_audio_open(char *name, void **pars, char **error);
+// spd_audio_open::1::fn_object
 //
-struct spd_audio_plugin * fn$object(void);
+struct spd_audio_plugin * fn_object(void);
 // spd_audio_play
 // file spd_audio.c line 174
-signed int spd_audio_play(struct anonymous$2 *id, struct anonymous$3 track, enum anonymous$4 format);
+signed int spd_audio_play(struct anonymous_2 *id, struct anonymous_3 track, enum anonymous_4 format);
 // spd_audio_set_loglevel
 // file spd_audio.c line 306
-void spd_audio_set_loglevel(struct anonymous$2 *id, signed int level);
+void spd_audio_set_loglevel(struct anonymous_2 *id, signed int level);
 // spd_audio_set_volume
 // file spd_audio.c line 292
-signed int spd_audio_set_volume(struct anonymous$2 *id, signed int volume);
+signed int spd_audio_set_volume(struct anonymous_2 *id, signed int volume);
 // spd_audio_stop
 // file spd_audio.h line 36
-signed int spd_audio_stop(struct anonymous$2 *id);
+signed int spd_audio_stop(struct anonymous_2 *id);
 // spd_getline
 // file ../../include/spd_utils.h line 29
 signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FILE *f);
@@ -974,19 +974,19 @@ extern signed int sscanf(const char *, const char *, ...);
 signed int stop_festival_local();
 // str2ECapLetRecogn
 // file ../../include/fdsetconv.h line 22
-enum anonymous$10 str2ECapLetRecogn(char *str);
+enum anonymous_10 str2ECapLetRecogn(char *str);
 // str2EPunctMode
 // file ../../include/fdsetconv.h line 14
-enum anonymous$8 str2EPunctMode(char *str);
+enum anonymous_8 str2EPunctMode(char *str);
 // str2ESpellMode
 // file ../../include/fdsetconv.h line 18
-enum anonymous$9 str2ESpellMode(char *str);
+enum anonymous_9 str2ESpellMode(char *str);
 // str2EVoice
 // file ../../include/fdsetconv.h line 10
-enum anonymous$11 str2EVoice(char *str);
+enum anonymous_11 str2EVoice(char *str);
 // str2intpriority
 // file fdsetconv.c line 200
-enum anonymous$20 str2intpriority(char *str);
+enum anonymous_20 str2intpriority(char *str);
 // strchr
 // file /usr/include/string.h line 235
 extern char * strchr(const char *, signed int);
@@ -1033,7 +1033,7 @@ extern signed int waitpid(signed int, signed int *, signed int);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$14
+struct anonymous_14
 {
   // name
   char *name;
@@ -1043,15 +1043,15 @@ struct anonymous$14
   char *variant;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // p_counter_entry
-  struct anonymous$16 *p_counter_entry;
+  struct anonymous_16 *p_counter_entry;
   // fwave
   struct FT_Wave *fwave;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // name
   const char *name;
@@ -1059,13 +1059,13 @@ struct anonymous$5
   void *address;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // pc
   signed int pc[2l];
@@ -1073,7 +1073,7 @@ struct anonymous$13
   signed int cp[2l];
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // pipe_in
   signed int pipe_in[2l];
@@ -1083,7 +1083,7 @@ struct anonymous$24
   signed int pid;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // bits
   signed int bits;
@@ -1097,7 +1097,7 @@ struct anonymous$3
   signed short int *samples;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // rate
   signed int rate;
@@ -1106,23 +1106,23 @@ struct anonymous$21
   // volume
   signed int volume;
   // punctuation_mode
-  enum anonymous$8 punctuation_mode;
+  enum anonymous_8 punctuation_mode;
   // spelling_mode
-  enum anonymous$9 spelling_mode;
+  enum anonymous_9 spelling_mode;
   // cap_let_recogn
-  enum anonymous$10 cap_let_recogn;
+  enum anonymous_10 cap_let_recogn;
   // voice_type
-  enum anonymous$11 voice_type;
+  enum anonymous_11 voice_type;
   // voice
-  struct anonymous$14 voice;
+  struct anonymous_14 voice;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // volume
   signed int volume;
   // format
-  enum anonymous$4 format;
+  enum anonymous_4 format;
   // function
   struct spd_audio_plugin *function;
   // private_data
@@ -1131,7 +1131,7 @@ struct anonymous$2
   signed int working;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // start
   signed long int start;
@@ -1145,7 +1145,7 @@ struct anonymous$16
   char *key;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // value
   signed long int value;
@@ -1157,7 +1157,7 @@ struct anonymous$22
   double dvalue;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // size
   unsigned long int size;
@@ -1167,7 +1167,7 @@ struct anonymous$25
   struct _GList *cache_counter;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1177,7 +1177,7 @@ union anonymous$0
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __size
   char __size[32l];
@@ -1185,7 +1185,7 @@ union anonymous$15
   signed long int __align;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // __size
   char __size[4l];
@@ -1221,7 +1221,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1231,7 +1231,7 @@ union anonymous$6
   signed long int __align;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1261,7 +1261,7 @@ union anonymous$1
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1430,7 +1430,7 @@ struct command_t
   // arg_count
   signed int arg_count;
   // data
-  struct anonymous$22 data;
+  struct anonymous_22 data;
 };
 
 struct configfile_t
@@ -1494,7 +1494,7 @@ struct hostent
 struct in6_addr
 {
   // __in6_u
-  union anonymous$0 __in6_u;
+  union anonymous_0 __in6_u;
 };
 
 struct in_addr
@@ -1550,15 +1550,15 @@ struct spd_audio_plugin
   // name
   const char *name;
   // open
-  struct anonymous$2 * (*open)(void **);
+  struct anonymous_2 * (*open)(void **);
   // play
-  signed int (*play)(struct anonymous$2 *, struct anonymous$3);
+  signed int (*play)(struct anonymous_2 *, struct anonymous_3);
   // stop
-  signed int (*stop)(struct anonymous$2 *);
+  signed int (*stop)(struct anonymous_2 *);
   // close
-  signed int (*close)(struct anonymous$2 *);
+  signed int (*close)(struct anonymous_2 *);
   // set_volume
-  signed int (*set_volume)(struct anonymous$2 *, signed int);
+  signed int (*set_volume)(struct anonymous_2 *, signed int);
   // set_loglevel
   void (*set_loglevel)(signed int);
   // get_playcmd
@@ -1590,7 +1590,7 @@ struct _IO_FILE *CustomDebugFile;
 signed int Debug;
 // FestivalCache
 // file festival.c line 193
-struct anonymous$25 FestivalCache;
+struct anonymous_25 FestivalCache;
 // FestivalCacheDistinguishPitch
 // file festival.c line 170
 static signed int FestivalCacheDistinguishPitch;
@@ -1608,7 +1608,7 @@ static signed int FestivalCacheMaxKBytes;
 static signed int FestivalCacheOn;
 // FestivalComType
 // file festival.c line 64
-enum anonymous$23 FestivalComType;
+enum anonymous_23 FestivalComType;
 // FestivalComunicationType
 // file festival.c line 155
 static signed int FestivalComunicationType;
@@ -1659,7 +1659,7 @@ struct FT_Info *festival_info = (struct FT_Info *)(void *)0;
 static char **festival_message;
 // festival_message_type
 // file festival.c line 49
-static enum anonymous$7 festival_message_type;
+static enum anonymous_7 festival_message_type;
 // festival_pause_requested
 // file festival.c line 46
 static signed int festival_pause_requested = 0;
@@ -1668,7 +1668,7 @@ static signed int festival_pause_requested = 0;
 signed int festival_process_pid = 0;
 // festival_semaphore
 // file festival.c line 44
-static union anonymous$15 festival_semaphore;
+static union anonymous_15 festival_semaphore;
 // festival_speak_thread
 // file festival.c line 43
 static unsigned long int festival_speak_thread;
@@ -1683,7 +1683,7 @@ signed int festival_stop = 0;
 signed int festival_stop_request = 0;
 // festival_voice_list
 // file festival.c line 59
-struct anonymous$14 **festival_voice_list = (struct anonymous$14 **)(void *)0;
+struct anonymous_14 **festival_voice_list = (struct anonymous_14 **)(void *)0;
 // festival_volume
 // file festival.c line 50
 signed int festival_volume = 0;
@@ -1692,14 +1692,14 @@ signed int festival_volume = 0;
 signed int log_level;
 // lt__PROGRAM__LTX_preloaded_symbols
 // file sd_festivalS.c line 34
-const struct anonymous$5 lt__PROGRAM__LTX_preloaded_symbols[2l] = { { .name="@PROGRAM@", .address=(void *)0 },
+const struct anonymous_5 lt__PROGRAM__LTX_preloaded_symbols[2l] = { { .name="@PROGRAM@", .address=(void *)0 },
     { .name=((const char *)NULL), .address=(void *)0 } };
 // lt_h
 // file spd_audio.c line 54
 static struct lt__handle *lt_h;
 // module_audio_id
 // file module_utils.h line 48
-struct anonymous$2 *module_audio_id;
+struct anonymous_2 *module_audio_id;
 // module_audio_pars
 // file module_utils.c line 36
 static char *module_audio_pars[10l];
@@ -1714,21 +1714,21 @@ char *module_index_mark;
 signed int module_num_dc_options;
 // module_p
 // file festival.c line 70
-struct anonymous$24 module_p;
+struct anonymous_24 module_p;
 // module_stdout_mutex
 // file module_utils.c line 40
-union anonymous$6 module_stdout_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_6 module_stdout_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // msg_settings
 // file module_utils.h line 50
-struct anonymous$21 msg_settings;
+struct anonymous_21 msg_settings;
 // msg_settings_old
 // file module_utils.h line 51
-struct anonymous$21 msg_settings_old;
+struct anonymous_21 msg_settings_old;
 // sound_output_mutex
 // file festival.c line 200
-union anonymous$6 sound_output_mutex;
+union anonymous_6 sound_output_mutex;
 // spd_audio_log_level
 // file spd_audio.c line 53
 static signed int spd_audio_log_level;
@@ -1752,7 +1752,7 @@ const char * Debug_cb(struct command_t *cmd, void *ctx)
 
 // ECapLetRecogn2str
 // file ../../include/fdsetconv.h line 20
-char * ECapLetRecogn2str(enum anonymous$10 recogn)
+char * ECapLetRecogn2str(enum anonymous_10 recogn)
 {
   char *str;
   switch((signed int)recogn)
@@ -1780,7 +1780,7 @@ char * ECapLetRecogn2str(enum anonymous$10 recogn)
 
 // EPunctMode2str
 // file ../../include/fdsetconv.h line 12
-char * EPunctMode2str(enum anonymous$8 punct)
+char * EPunctMode2str(enum anonymous_8 punct)
 {
   char *str;
   switch((signed int)punct)
@@ -1808,7 +1808,7 @@ char * EPunctMode2str(enum anonymous$8 punct)
 
 // ESpellMode2str
 // file fdsetconv.c line 131
-char * ESpellMode2str(enum anonymous$9 spell)
+char * ESpellMode2str(enum anonymous_9 spell)
 {
   char *str;
   switch((signed int)spell)
@@ -1831,7 +1831,7 @@ char * ESpellMode2str(enum anonymous$9 spell)
 
 // EVoice2str
 // file ../../include/fdsetconv.h line 8
-char * EVoice2str(enum anonymous$11 voice)
+char * EVoice2str(enum anonymous_11 voice)
 {
   char *str;
   switch((signed int)voice)
@@ -2010,9 +2010,9 @@ signed int FestivalSetCapLetRecogn(struct FT_Info *info, char *param, char **res
   char *r;
   signed int ret;
   char *f;
-  signed int return_value_festival_check_info$1;
-  return_value_festival_check_info$1=festival_check_info(info, "FestivalSetCapLetRecogn");
-  if(!(return_value_festival_check_info$1 == 0))
+  signed int return_value_festival_check_info_1;
+  return_value_festival_check_info_1=festival_check_info(info, "FestivalSetCapLetRecogn");
+  if(!(return_value_festival_check_info_1 == 0))
     return -1;
 
   else
@@ -2021,9 +2021,9 @@ signed int FestivalSetCapLetRecogn(struct FT_Info *info, char *param, char **res
     {
       struct _IO_FILE *fd;
       char *str;
-      signed int return_value_dup$2;
-      return_value_dup$2=dup(info->server_fd);
-      fd=fdopen(return_value_dup$2, "wb");
+      signed int return_value_dup_2;
+      return_value_dup_2=dup(info->server_fd);
+      fd=fdopen(return_value_dup_2, "wb");
       if(!(fd == ((struct _IO_FILE *)NULL)))
       {
         str=g_strdup("(speechd-set-capital-character-recognition-mode nil)\n");
@@ -2034,12 +2034,12 @@ signed int FestivalSetCapLetRecogn(struct FT_Info *info, char *param, char **res
           struct timeval tv;
           char *tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$3;
-          return_value_ctime$3=ctime(&t);
-          tstr=g_strdup(return_value_ctime$3);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+          char *return_value_ctime_3;
+          return_value_ctime_3=ctime(&t);
+          tstr=g_strdup(return_value_ctime_3);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -2065,32 +2065,32 @@ signed int FestivalSetCapLetRecogn(struct FT_Info *info, char *param, char **res
       else
         if(!(Debug == 0))
         {
-          signed long int FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$t;
-          struct timeval FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tv;
-          char *FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tstr;
-          FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$5;
-          return_value_ctime$5=ctime(&FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$t);
-          FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tstr=g_strdup(return_value_ctime$5);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tstr);
-          FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tstr, (signed int)FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tv.tv_usec);
+          signed long int FestivalSetCapLetRecogn__1__1__1__2__1__t;
+          struct timeval FestivalSetCapLetRecogn__1__1__1__2__1__tv;
+          char *FestivalSetCapLetRecogn__1__1__1__2__1__tstr;
+          FestivalSetCapLetRecogn__1__1__1__2__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_5;
+          return_value_ctime_5=ctime(&FestivalSetCapLetRecogn__1__1__1__2__1__t);
+          FestivalSetCapLetRecogn__1__1__1__2__1__tstr=g_strdup(return_value_ctime_5);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(FestivalSetCapLetRecogn__1__1__1__2__1__tstr);
+          FestivalSetCapLetRecogn__1__1__1__2__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetCapLetRecogn__1__1__1__2__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetCapLetRecogn__1__1__1__2__1__tstr, (signed int)FestivalSetCapLetRecogn__1__1__1__2__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Can't open connection");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tstr, (signed int)FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetCapLetRecogn__1__1__1__2__1__tstr, (signed int)FestivalSetCapLetRecogn__1__1__1__2__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Can't open connection");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetCapLetRecogn$$1$$1$$1$$2$$1$$tstr);
+          g_free((void *)FestivalSetCapLetRecogn__1__1__1__2__1__tstr);
         }
 
     }
@@ -2098,78 +2098,78 @@ signed int FestivalSetCapLetRecogn(struct FT_Info *info, char *param, char **res
     else
     {
       f=g_ascii_strdown(param, (signed long int)-1);
-      struct _IO_FILE *FestivalSetCapLetRecogn$$1$$2$$1$$fd;
-      char *FestivalSetCapLetRecogn$$1$$2$$1$$str;
-      signed int return_value_dup$7;
-      return_value_dup$7=dup(info->server_fd);
-      FestivalSetCapLetRecogn$$1$$2$$1$$fd=fdopen(return_value_dup$7, "wb");
-      if(!(FestivalSetCapLetRecogn$$1$$2$$1$$fd == ((struct _IO_FILE *)NULL)))
+      struct _IO_FILE *FestivalSetCapLetRecogn__1__2__1__fd;
+      char *FestivalSetCapLetRecogn__1__2__1__str;
+      signed int return_value_dup_7;
+      return_value_dup_7=dup(info->server_fd);
+      FestivalSetCapLetRecogn__1__2__1__fd=fdopen(return_value_dup_7, "wb");
+      if(!(FestivalSetCapLetRecogn__1__2__1__fd == ((struct _IO_FILE *)NULL)))
       {
-        FestivalSetCapLetRecogn$$1$$2$$1$$str=g_strdup_printf("(speechd-set-capital-character-recognition-mode \"%s\")\n", f);
-        fputs(FestivalSetCapLetRecogn$$1$$2$$1$$str, FestivalSetCapLetRecogn$$1$$2$$1$$fd);
+        FestivalSetCapLetRecogn__1__2__1__str=g_strdup_printf("(speechd-set-capital-character-recognition-mode \"%s\")\n", f);
+        fputs(FestivalSetCapLetRecogn__1__2__1__str, FestivalSetCapLetRecogn__1__2__1__fd);
         if(!(Debug == 0))
         {
-          signed long int FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$t;
-          struct timeval FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tv;
-          char *FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tstr;
-          FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$8;
-          return_value_ctime$8=ctime(&FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$t);
-          FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tstr=g_strdup(return_value_ctime$8);
-          unsigned long int return_value_strlen$9;
-          return_value_strlen$9=strlen(FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tstr);
-          FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tstr, (signed int)FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tv.tv_usec);
+          signed long int FestivalSetCapLetRecogn__1__2__1__1__1__t;
+          struct timeval FestivalSetCapLetRecogn__1__2__1__1__1__tv;
+          char *FestivalSetCapLetRecogn__1__2__1__1__1__tstr;
+          FestivalSetCapLetRecogn__1__2__1__1__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_8;
+          return_value_ctime_8=ctime(&FestivalSetCapLetRecogn__1__2__1__1__1__t);
+          FestivalSetCapLetRecogn__1__2__1__1__1__tstr=g_strdup(return_value_ctime_8);
+          unsigned long int return_value_strlen_9;
+          return_value_strlen_9=strlen(FestivalSetCapLetRecogn__1__2__1__1__1__tstr);
+          FestivalSetCapLetRecogn__1__2__1__1__1__tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetCapLetRecogn__1__2__1__1__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetCapLetRecogn__1__2__1__1__1__tstr, (signed int)FestivalSetCapLetRecogn__1__2__1__1__1__tv.tv_usec);
           fprintf(stderr, ": ");
-          fprintf(stderr, "-> Festival: |%s|", FestivalSetCapLetRecogn$$1$$2$$1$$str);
+          fprintf(stderr, "-> Festival: |%s|", FestivalSetCapLetRecogn__1__2__1__str);
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tstr, (signed int)FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetCapLetRecogn__1__2__1__1__1__tstr, (signed int)FestivalSetCapLetRecogn__1__2__1__1__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
-            fprintf(CustomDebugFile, "-> Festival: |%s|", FestivalSetCapLetRecogn$$1$$2$$1$$str);
+            fprintf(CustomDebugFile, "-> Festival: |%s|", FestivalSetCapLetRecogn__1__2__1__str);
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetCapLetRecogn$$1$$2$$1$$1$$1$$tstr);
+          g_free((void *)FestivalSetCapLetRecogn__1__2__1__1__1__tstr);
         }
 
-        g_free((void *)FestivalSetCapLetRecogn$$1$$2$$1$$str);
-        fclose(FestivalSetCapLetRecogn$$1$$2$$1$$fd);
+        g_free((void *)FestivalSetCapLetRecogn__1__2__1__str);
+        fclose(FestivalSetCapLetRecogn__1__2__1__fd);
       }
 
       else
         if(!(Debug == 0))
         {
-          signed long int FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$t;
-          struct timeval FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tv;
-          char *FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tstr;
-          FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$10;
-          return_value_ctime$10=ctime(&FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$t);
-          FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tstr=g_strdup(return_value_ctime$10);
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tstr);
-          FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$11 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tstr, (signed int)FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tv.tv_usec);
+          signed long int FestivalSetCapLetRecogn__1__2__1__2__1__t;
+          struct timeval FestivalSetCapLetRecogn__1__2__1__2__1__tv;
+          char *FestivalSetCapLetRecogn__1__2__1__2__1__tstr;
+          FestivalSetCapLetRecogn__1__2__1__2__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_10;
+          return_value_ctime_10=ctime(&FestivalSetCapLetRecogn__1__2__1__2__1__t);
+          FestivalSetCapLetRecogn__1__2__1__2__1__tstr=g_strdup(return_value_ctime_10);
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(FestivalSetCapLetRecogn__1__2__1__2__1__tstr);
+          FestivalSetCapLetRecogn__1__2__1__2__1__tstr[(signed long int)(return_value_strlen_11 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetCapLetRecogn__1__2__1__2__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetCapLetRecogn__1__2__1__2__1__tstr, (signed int)FestivalSetCapLetRecogn__1__2__1__2__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Can't open connection");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tstr, (signed int)FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetCapLetRecogn__1__2__1__2__1__tstr, (signed int)FestivalSetCapLetRecogn__1__2__1__2__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Can't open connection");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetCapLetRecogn$$1$$2$$1$$2$$1$$tstr);
+          g_free((void *)FestivalSetCapLetRecogn__1__2__1__2__1__tstr);
         }
 
       g_free((void *)f);
@@ -2201,9 +2201,9 @@ signed int FestivalSetLanguage(struct FT_Info *info, char *param, char **resp)
   char *r;
   signed int ret;
   char *f;
-  signed int return_value_festival_check_info$1;
-  return_value_festival_check_info$1=festival_check_info(info, "FestivalSetLanguage");
-  if(!(return_value_festival_check_info$1 == 0))
+  signed int return_value_festival_check_info_1;
+  return_value_festival_check_info_1=festival_check_info(info, "FestivalSetLanguage");
+  if(!(return_value_festival_check_info_1 == 0))
     return -1;
 
   else
@@ -2212,9 +2212,9 @@ signed int FestivalSetLanguage(struct FT_Info *info, char *param, char **resp)
     {
       struct _IO_FILE *fd;
       char *str;
-      signed int return_value_dup$2;
-      return_value_dup$2=dup(info->server_fd);
-      fd=fdopen(return_value_dup$2, "wb");
+      signed int return_value_dup_2;
+      return_value_dup_2=dup(info->server_fd);
+      fd=fdopen(return_value_dup_2, "wb");
       if(!(fd == ((struct _IO_FILE *)NULL)))
       {
         str=g_strdup("(speechd-set-language nil)\n");
@@ -2225,12 +2225,12 @@ signed int FestivalSetLanguage(struct FT_Info *info, char *param, char **resp)
           struct timeval tv;
           char *tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$3;
-          return_value_ctime$3=ctime(&t);
-          tstr=g_strdup(return_value_ctime$3);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+          char *return_value_ctime_3;
+          return_value_ctime_3=ctime(&t);
+          tstr=g_strdup(return_value_ctime_3);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -2256,32 +2256,32 @@ signed int FestivalSetLanguage(struct FT_Info *info, char *param, char **resp)
       else
         if(!(Debug == 0))
         {
-          signed long int FestivalSetLanguage$$1$$1$$1$$2$$1$$t;
-          struct timeval FestivalSetLanguage$$1$$1$$1$$2$$1$$tv;
-          char *FestivalSetLanguage$$1$$1$$1$$2$$1$$tstr;
-          FestivalSetLanguage$$1$$1$$1$$2$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$5;
-          return_value_ctime$5=ctime(&FestivalSetLanguage$$1$$1$$1$$2$$1$$t);
-          FestivalSetLanguage$$1$$1$$1$$2$$1$$tstr=g_strdup(return_value_ctime$5);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(FestivalSetLanguage$$1$$1$$1$$2$$1$$tstr);
-          FestivalSetLanguage$$1$$1$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetLanguage$$1$$1$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetLanguage$$1$$1$$1$$2$$1$$tstr, (signed int)FestivalSetLanguage$$1$$1$$1$$2$$1$$tv.tv_usec);
+          signed long int FestivalSetLanguage__1__1__1__2__1__t;
+          struct timeval FestivalSetLanguage__1__1__1__2__1__tv;
+          char *FestivalSetLanguage__1__1__1__2__1__tstr;
+          FestivalSetLanguage__1__1__1__2__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_5;
+          return_value_ctime_5=ctime(&FestivalSetLanguage__1__1__1__2__1__t);
+          FestivalSetLanguage__1__1__1__2__1__tstr=g_strdup(return_value_ctime_5);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(FestivalSetLanguage__1__1__1__2__1__tstr);
+          FestivalSetLanguage__1__1__1__2__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetLanguage__1__1__1__2__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetLanguage__1__1__1__2__1__tstr, (signed int)FestivalSetLanguage__1__1__1__2__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Can't open connection");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetLanguage$$1$$1$$1$$2$$1$$tstr, (signed int)FestivalSetLanguage$$1$$1$$1$$2$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetLanguage__1__1__1__2__1__tstr, (signed int)FestivalSetLanguage__1__1__1__2__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Can't open connection");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetLanguage$$1$$1$$1$$2$$1$$tstr);
+          g_free((void *)FestivalSetLanguage__1__1__1__2__1__tstr);
         }
 
     }
@@ -2289,78 +2289,78 @@ signed int FestivalSetLanguage(struct FT_Info *info, char *param, char **resp)
     else
     {
       f=g_ascii_strdown(param, (signed long int)-1);
-      struct _IO_FILE *FestivalSetLanguage$$1$$2$$1$$fd;
-      char *FestivalSetLanguage$$1$$2$$1$$str;
-      signed int return_value_dup$7;
-      return_value_dup$7=dup(info->server_fd);
-      FestivalSetLanguage$$1$$2$$1$$fd=fdopen(return_value_dup$7, "wb");
-      if(!(FestivalSetLanguage$$1$$2$$1$$fd == ((struct _IO_FILE *)NULL)))
+      struct _IO_FILE *FestivalSetLanguage__1__2__1__fd;
+      char *FestivalSetLanguage__1__2__1__str;
+      signed int return_value_dup_7;
+      return_value_dup_7=dup(info->server_fd);
+      FestivalSetLanguage__1__2__1__fd=fdopen(return_value_dup_7, "wb");
+      if(!(FestivalSetLanguage__1__2__1__fd == ((struct _IO_FILE *)NULL)))
       {
-        FestivalSetLanguage$$1$$2$$1$$str=g_strdup_printf("(speechd-set-language \"%s\")\n", f);
-        fputs(FestivalSetLanguage$$1$$2$$1$$str, FestivalSetLanguage$$1$$2$$1$$fd);
+        FestivalSetLanguage__1__2__1__str=g_strdup_printf("(speechd-set-language \"%s\")\n", f);
+        fputs(FestivalSetLanguage__1__2__1__str, FestivalSetLanguage__1__2__1__fd);
         if(!(Debug == 0))
         {
-          signed long int FestivalSetLanguage$$1$$2$$1$$1$$1$$t;
-          struct timeval FestivalSetLanguage$$1$$2$$1$$1$$1$$tv;
-          char *FestivalSetLanguage$$1$$2$$1$$1$$1$$tstr;
-          FestivalSetLanguage$$1$$2$$1$$1$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$8;
-          return_value_ctime$8=ctime(&FestivalSetLanguage$$1$$2$$1$$1$$1$$t);
-          FestivalSetLanguage$$1$$2$$1$$1$$1$$tstr=g_strdup(return_value_ctime$8);
-          unsigned long int return_value_strlen$9;
-          return_value_strlen$9=strlen(FestivalSetLanguage$$1$$2$$1$$1$$1$$tstr);
-          FestivalSetLanguage$$1$$2$$1$$1$$1$$tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetLanguage$$1$$2$$1$$1$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetLanguage$$1$$2$$1$$1$$1$$tstr, (signed int)FestivalSetLanguage$$1$$2$$1$$1$$1$$tv.tv_usec);
+          signed long int FestivalSetLanguage__1__2__1__1__1__t;
+          struct timeval FestivalSetLanguage__1__2__1__1__1__tv;
+          char *FestivalSetLanguage__1__2__1__1__1__tstr;
+          FestivalSetLanguage__1__2__1__1__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_8;
+          return_value_ctime_8=ctime(&FestivalSetLanguage__1__2__1__1__1__t);
+          FestivalSetLanguage__1__2__1__1__1__tstr=g_strdup(return_value_ctime_8);
+          unsigned long int return_value_strlen_9;
+          return_value_strlen_9=strlen(FestivalSetLanguage__1__2__1__1__1__tstr);
+          FestivalSetLanguage__1__2__1__1__1__tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetLanguage__1__2__1__1__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetLanguage__1__2__1__1__1__tstr, (signed int)FestivalSetLanguage__1__2__1__1__1__tv.tv_usec);
           fprintf(stderr, ": ");
-          fprintf(stderr, "-> Festival: |%s|", FestivalSetLanguage$$1$$2$$1$$str);
+          fprintf(stderr, "-> Festival: |%s|", FestivalSetLanguage__1__2__1__str);
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetLanguage$$1$$2$$1$$1$$1$$tstr, (signed int)FestivalSetLanguage$$1$$2$$1$$1$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetLanguage__1__2__1__1__1__tstr, (signed int)FestivalSetLanguage__1__2__1__1__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
-            fprintf(CustomDebugFile, "-> Festival: |%s|", FestivalSetLanguage$$1$$2$$1$$str);
+            fprintf(CustomDebugFile, "-> Festival: |%s|", FestivalSetLanguage__1__2__1__str);
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetLanguage$$1$$2$$1$$1$$1$$tstr);
+          g_free((void *)FestivalSetLanguage__1__2__1__1__1__tstr);
         }
 
-        g_free((void *)FestivalSetLanguage$$1$$2$$1$$str);
-        fclose(FestivalSetLanguage$$1$$2$$1$$fd);
+        g_free((void *)FestivalSetLanguage__1__2__1__str);
+        fclose(FestivalSetLanguage__1__2__1__fd);
       }
 
       else
         if(!(Debug == 0))
         {
-          signed long int FestivalSetLanguage$$1$$2$$1$$2$$1$$t;
-          struct timeval FestivalSetLanguage$$1$$2$$1$$2$$1$$tv;
-          char *FestivalSetLanguage$$1$$2$$1$$2$$1$$tstr;
-          FestivalSetLanguage$$1$$2$$1$$2$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$10;
-          return_value_ctime$10=ctime(&FestivalSetLanguage$$1$$2$$1$$2$$1$$t);
-          FestivalSetLanguage$$1$$2$$1$$2$$1$$tstr=g_strdup(return_value_ctime$10);
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(FestivalSetLanguage$$1$$2$$1$$2$$1$$tstr);
-          FestivalSetLanguage$$1$$2$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$11 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetLanguage$$1$$2$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetLanguage$$1$$2$$1$$2$$1$$tstr, (signed int)FestivalSetLanguage$$1$$2$$1$$2$$1$$tv.tv_usec);
+          signed long int FestivalSetLanguage__1__2__1__2__1__t;
+          struct timeval FestivalSetLanguage__1__2__1__2__1__tv;
+          char *FestivalSetLanguage__1__2__1__2__1__tstr;
+          FestivalSetLanguage__1__2__1__2__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_10;
+          return_value_ctime_10=ctime(&FestivalSetLanguage__1__2__1__2__1__t);
+          FestivalSetLanguage__1__2__1__2__1__tstr=g_strdup(return_value_ctime_10);
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(FestivalSetLanguage__1__2__1__2__1__tstr);
+          FestivalSetLanguage__1__2__1__2__1__tstr[(signed long int)(return_value_strlen_11 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetLanguage__1__2__1__2__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetLanguage__1__2__1__2__1__tstr, (signed int)FestivalSetLanguage__1__2__1__2__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Can't open connection");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetLanguage$$1$$2$$1$$2$$1$$tstr, (signed int)FestivalSetLanguage$$1$$2$$1$$2$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetLanguage__1__2__1__2__1__tstr, (signed int)FestivalSetLanguage__1__2__1__2__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Can't open connection");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetLanguage$$1$$2$$1$$2$$1$$tstr);
+          g_free((void *)FestivalSetLanguage__1__2__1__2__1__tstr);
         }
 
       g_free((void *)f);
@@ -2390,9 +2390,9 @@ signed int FestivalSetLanguage(struct FT_Info *info, char *param, char **resp)
 signed int FestivalSetMultiMode(struct FT_Info *info, char *param)
 {
   char *f = (char *)(void *)0;
-  signed int return_value_festival_check_info$1;
-  return_value_festival_check_info$1=festival_check_info(info, "FestivalSetMultiMode");
-  if(!(return_value_festival_check_info$1 == 0))
+  signed int return_value_festival_check_info_1;
+  return_value_festival_check_info_1=festival_check_info(info, "FestivalSetMultiMode");
+  if(!(return_value_festival_check_info_1 == 0))
     return -1;
 
   else
@@ -2403,9 +2403,9 @@ signed int FestivalSetMultiMode(struct FT_Info *info, char *param)
     {
       struct _IO_FILE *fd;
       char *str;
-      signed int return_value_dup$2;
-      return_value_dup$2=dup(info->server_fd);
-      fd=fdopen(return_value_dup$2, "wb");
+      signed int return_value_dup_2;
+      return_value_dup_2=dup(info->server_fd);
+      fd=fdopen(return_value_dup_2, "wb");
       if(!(fd == ((struct _IO_FILE *)NULL)))
       {
         f=g_ascii_strdown(param, (signed long int)-1);
@@ -2417,12 +2417,12 @@ signed int FestivalSetMultiMode(struct FT_Info *info, char *param)
           struct timeval tv;
           char *tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$3;
-          return_value_ctime$3=ctime(&t);
-          tstr=g_strdup(return_value_ctime$3);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+          char *return_value_ctime_3;
+          return_value_ctime_3=ctime(&t);
+          tstr=g_strdup(return_value_ctime_3);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -2448,38 +2448,38 @@ signed int FestivalSetMultiMode(struct FT_Info *info, char *param)
       else
         if(!(Debug == 0))
         {
-          signed long int FestivalSetMultiMode$$1$$1$$2$$1$$t;
-          struct timeval FestivalSetMultiMode$$1$$1$$2$$1$$tv;
-          char *FestivalSetMultiMode$$1$$1$$2$$1$$tstr;
-          FestivalSetMultiMode$$1$$1$$2$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$5;
-          return_value_ctime$5=ctime(&FestivalSetMultiMode$$1$$1$$2$$1$$t);
-          FestivalSetMultiMode$$1$$1$$2$$1$$tstr=g_strdup(return_value_ctime$5);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(FestivalSetMultiMode$$1$$1$$2$$1$$tstr);
-          FestivalSetMultiMode$$1$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetMultiMode$$1$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetMultiMode$$1$$1$$2$$1$$tstr, (signed int)FestivalSetMultiMode$$1$$1$$2$$1$$tv.tv_usec);
+          signed long int FestivalSetMultiMode__1__1__2__1__t;
+          struct timeval FestivalSetMultiMode__1__1__2__1__tv;
+          char *FestivalSetMultiMode__1__1__2__1__tstr;
+          FestivalSetMultiMode__1__1__2__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_5;
+          return_value_ctime_5=ctime(&FestivalSetMultiMode__1__1__2__1__t);
+          FestivalSetMultiMode__1__1__2__1__tstr=g_strdup(return_value_ctime_5);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(FestivalSetMultiMode__1__1__2__1__tstr);
+          FestivalSetMultiMode__1__1__2__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetMultiMode__1__1__2__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetMultiMode__1__1__2__1__tstr, (signed int)FestivalSetMultiMode__1__1__2__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Can't open connection");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetMultiMode$$1$$1$$2$$1$$tstr, (signed int)FestivalSetMultiMode$$1$$1$$2$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetMultiMode__1__1__2__1__tstr, (signed int)FestivalSetMultiMode__1__1__2__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Can't open connection");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetMultiMode$$1$$1$$2$$1$$tstr);
+          g_free((void *)FestivalSetMultiMode__1__1__2__1__tstr);
         }
 
       g_free((void *)f);
-      signed int return_value_festival_read_response$7;
-      return_value_festival_read_response$7=festival_read_response(info, (char **)(void *)0);
-      return return_value_festival_read_response$7;
+      signed int return_value_festival_read_response_7;
+      return_value_festival_read_response_7=festival_read_response(info, (char **)(void *)0);
+      return return_value_festival_read_response_7;
     }
 }
 
@@ -2487,18 +2487,18 @@ signed int FestivalSetMultiMode(struct FT_Info *info, char *param)
 // file festival.c line 127
 signed int FestivalSetPitch(struct FT_Info *info, signed int param)
 {
-  signed int return_value_festival_check_info$1;
-  return_value_festival_check_info$1=festival_check_info(info, "FestivalSetPitch");
-  if(!(return_value_festival_check_info$1 == 0))
+  signed int return_value_festival_check_info_1;
+  return_value_festival_check_info_1=festival_check_info(info, "FestivalSetPitch");
+  if(!(return_value_festival_check_info_1 == 0))
     return -1;
 
   else
   {
     struct _IO_FILE *fd;
     char *str;
-    signed int return_value_dup$2;
-    return_value_dup$2=dup(info->server_fd);
-    fd=fdopen(return_value_dup$2, "wb");
+    signed int return_value_dup_2;
+    return_value_dup_2=dup(info->server_fd);
+    fd=fdopen(return_value_dup_2, "wb");
     if(!(fd == ((struct _IO_FILE *)NULL)))
     {
       str=g_strdup_printf("(speechd-set-pitch %d)\n", param);
@@ -2509,12 +2509,12 @@ signed int FestivalSetPitch(struct FT_Info *info, signed int param)
         struct timeval tv;
         char *tstr;
         t=time((signed long int *)(void *)0);
-        char *return_value_ctime$3;
-        return_value_ctime$3=ctime(&t);
-        tstr=g_strdup(return_value_ctime$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(tstr);
-        tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+        char *return_value_ctime_3;
+        return_value_ctime_3=ctime(&t);
+        tstr=g_strdup(return_value_ctime_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(tstr);
+        tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
         gettimeofday(&tv, (struct timezone *)(void *)0);
         fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
         fprintf(stderr, ": ");
@@ -2540,37 +2540,37 @@ signed int FestivalSetPitch(struct FT_Info *info, signed int param)
     else
       if(!(Debug == 0))
       {
-        signed long int FestivalSetPitch$$1$$1$$2$$1$$t;
-        struct timeval FestivalSetPitch$$1$$1$$2$$1$$tv;
-        char *FestivalSetPitch$$1$$1$$2$$1$$tstr;
-        FestivalSetPitch$$1$$1$$2$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$5;
-        return_value_ctime$5=ctime(&FestivalSetPitch$$1$$1$$2$$1$$t);
-        FestivalSetPitch$$1$$1$$2$$1$$tstr=g_strdup(return_value_ctime$5);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(FestivalSetPitch$$1$$1$$2$$1$$tstr);
-        FestivalSetPitch$$1$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&FestivalSetPitch$$1$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", FestivalSetPitch$$1$$1$$2$$1$$tstr, (signed int)FestivalSetPitch$$1$$1$$2$$1$$tv.tv_usec);
+        signed long int FestivalSetPitch__1__1__2__1__t;
+        struct timeval FestivalSetPitch__1__1__2__1__tv;
+        char *FestivalSetPitch__1__1__2__1__tstr;
+        FestivalSetPitch__1__1__2__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_5;
+        return_value_ctime_5=ctime(&FestivalSetPitch__1__1__2__1__t);
+        FestivalSetPitch__1__1__2__1__tstr=g_strdup(return_value_ctime_5);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(FestivalSetPitch__1__1__2__1__tstr);
+        FestivalSetPitch__1__1__2__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&FestivalSetPitch__1__1__2__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", FestivalSetPitch__1__1__2__1__tstr, (signed int)FestivalSetPitch__1__1__2__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Can't open connection");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", FestivalSetPitch$$1$$1$$2$$1$$tstr, (signed int)FestivalSetPitch$$1$$1$$2$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", FestivalSetPitch__1__1__2__1__tstr, (signed int)FestivalSetPitch__1__1__2__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Can't open connection");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)FestivalSetPitch$$1$$1$$2$$1$$tstr);
+        g_free((void *)FestivalSetPitch__1__1__2__1__tstr);
       }
 
-    signed int return_value_festival_read_response$7;
-    return_value_festival_read_response$7=festival_read_response(info, (char **)(void *)0);
-    return return_value_festival_read_response$7;
+    signed int return_value_festival_read_response_7;
+    return_value_festival_read_response_7=festival_read_response(info, (char **)(void *)0);
+    return return_value_festival_read_response_7;
   }
 }
 
@@ -2579,9 +2579,9 @@ signed int FestivalSetPitch(struct FT_Info *info, signed int param)
 signed int FestivalSetPunctuationMode(struct FT_Info *info, char *param)
 {
   char *f = (char *)(void *)0;
-  signed int return_value_festival_check_info$1;
-  return_value_festival_check_info$1=festival_check_info(info, "FestivalSetPunctuationMode");
-  if(!(return_value_festival_check_info$1 == 0))
+  signed int return_value_festival_check_info_1;
+  return_value_festival_check_info_1=festival_check_info(info, "FestivalSetPunctuationMode");
+  if(!(return_value_festival_check_info_1 == 0))
     return -1;
 
   else
@@ -2592,9 +2592,9 @@ signed int FestivalSetPunctuationMode(struct FT_Info *info, char *param)
     {
       struct _IO_FILE *fd;
       char *str;
-      signed int return_value_dup$2;
-      return_value_dup$2=dup(info->server_fd);
-      fd=fdopen(return_value_dup$2, "wb");
+      signed int return_value_dup_2;
+      return_value_dup_2=dup(info->server_fd);
+      fd=fdopen(return_value_dup_2, "wb");
       if(!(fd == ((struct _IO_FILE *)NULL)))
       {
         f=g_ascii_strdown(param, (signed long int)-1);
@@ -2606,12 +2606,12 @@ signed int FestivalSetPunctuationMode(struct FT_Info *info, char *param)
           struct timeval tv;
           char *tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$3;
-          return_value_ctime$3=ctime(&t);
-          tstr=g_strdup(return_value_ctime$3);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+          char *return_value_ctime_3;
+          return_value_ctime_3=ctime(&t);
+          tstr=g_strdup(return_value_ctime_3);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -2637,38 +2637,38 @@ signed int FestivalSetPunctuationMode(struct FT_Info *info, char *param)
       else
         if(!(Debug == 0))
         {
-          signed long int FestivalSetPunctuationMode$$1$$1$$2$$1$$t;
-          struct timeval FestivalSetPunctuationMode$$1$$1$$2$$1$$tv;
-          char *FestivalSetPunctuationMode$$1$$1$$2$$1$$tstr;
-          FestivalSetPunctuationMode$$1$$1$$2$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$5;
-          return_value_ctime$5=ctime(&FestivalSetPunctuationMode$$1$$1$$2$$1$$t);
-          FestivalSetPunctuationMode$$1$$1$$2$$1$$tstr=g_strdup(return_value_ctime$5);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(FestivalSetPunctuationMode$$1$$1$$2$$1$$tstr);
-          FestivalSetPunctuationMode$$1$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetPunctuationMode$$1$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetPunctuationMode$$1$$1$$2$$1$$tstr, (signed int)FestivalSetPunctuationMode$$1$$1$$2$$1$$tv.tv_usec);
+          signed long int FestivalSetPunctuationMode__1__1__2__1__t;
+          struct timeval FestivalSetPunctuationMode__1__1__2__1__tv;
+          char *FestivalSetPunctuationMode__1__1__2__1__tstr;
+          FestivalSetPunctuationMode__1__1__2__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_5;
+          return_value_ctime_5=ctime(&FestivalSetPunctuationMode__1__1__2__1__t);
+          FestivalSetPunctuationMode__1__1__2__1__tstr=g_strdup(return_value_ctime_5);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(FestivalSetPunctuationMode__1__1__2__1__tstr);
+          FestivalSetPunctuationMode__1__1__2__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetPunctuationMode__1__1__2__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetPunctuationMode__1__1__2__1__tstr, (signed int)FestivalSetPunctuationMode__1__1__2__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Can't open connection");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetPunctuationMode$$1$$1$$2$$1$$tstr, (signed int)FestivalSetPunctuationMode$$1$$1$$2$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetPunctuationMode__1__1__2__1__tstr, (signed int)FestivalSetPunctuationMode__1__1__2__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Can't open connection");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetPunctuationMode$$1$$1$$2$$1$$tstr);
+          g_free((void *)FestivalSetPunctuationMode__1__1__2__1__tstr);
         }
 
       g_free((void *)f);
-      signed int return_value_festival_read_response$7;
-      return_value_festival_read_response$7=festival_read_response(info, (char **)(void *)0);
-      return return_value_festival_read_response$7;
+      signed int return_value_festival_read_response_7;
+      return_value_festival_read_response_7=festival_read_response(info, (char **)(void *)0);
+      return return_value_festival_read_response_7;
     }
 }
 
@@ -2676,18 +2676,18 @@ signed int FestivalSetPunctuationMode(struct FT_Info *info, char *param)
 // file festival.c line 126
 signed int FestivalSetRate(struct FT_Info *info, signed int param)
 {
-  signed int return_value_festival_check_info$1;
-  return_value_festival_check_info$1=festival_check_info(info, "FestivalSetRate");
-  if(!(return_value_festival_check_info$1 == 0))
+  signed int return_value_festival_check_info_1;
+  return_value_festival_check_info_1=festival_check_info(info, "FestivalSetRate");
+  if(!(return_value_festival_check_info_1 == 0))
     return -1;
 
   else
   {
     struct _IO_FILE *fd;
     char *str;
-    signed int return_value_dup$2;
-    return_value_dup$2=dup(info->server_fd);
-    fd=fdopen(return_value_dup$2, "wb");
+    signed int return_value_dup_2;
+    return_value_dup_2=dup(info->server_fd);
+    fd=fdopen(return_value_dup_2, "wb");
     if(!(fd == ((struct _IO_FILE *)NULL)))
     {
       str=g_strdup_printf("(speechd-set-rate %d)\n", param);
@@ -2698,12 +2698,12 @@ signed int FestivalSetRate(struct FT_Info *info, signed int param)
         struct timeval tv;
         char *tstr;
         t=time((signed long int *)(void *)0);
-        char *return_value_ctime$3;
-        return_value_ctime$3=ctime(&t);
-        tstr=g_strdup(return_value_ctime$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(tstr);
-        tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+        char *return_value_ctime_3;
+        return_value_ctime_3=ctime(&t);
+        tstr=g_strdup(return_value_ctime_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(tstr);
+        tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
         gettimeofday(&tv, (struct timezone *)(void *)0);
         fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
         fprintf(stderr, ": ");
@@ -2729,37 +2729,37 @@ signed int FestivalSetRate(struct FT_Info *info, signed int param)
     else
       if(!(Debug == 0))
       {
-        signed long int FestivalSetRate$$1$$1$$2$$1$$t;
-        struct timeval FestivalSetRate$$1$$1$$2$$1$$tv;
-        char *FestivalSetRate$$1$$1$$2$$1$$tstr;
-        FestivalSetRate$$1$$1$$2$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$5;
-        return_value_ctime$5=ctime(&FestivalSetRate$$1$$1$$2$$1$$t);
-        FestivalSetRate$$1$$1$$2$$1$$tstr=g_strdup(return_value_ctime$5);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(FestivalSetRate$$1$$1$$2$$1$$tstr);
-        FestivalSetRate$$1$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&FestivalSetRate$$1$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", FestivalSetRate$$1$$1$$2$$1$$tstr, (signed int)FestivalSetRate$$1$$1$$2$$1$$tv.tv_usec);
+        signed long int FestivalSetRate__1__1__2__1__t;
+        struct timeval FestivalSetRate__1__1__2__1__tv;
+        char *FestivalSetRate__1__1__2__1__tstr;
+        FestivalSetRate__1__1__2__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_5;
+        return_value_ctime_5=ctime(&FestivalSetRate__1__1__2__1__t);
+        FestivalSetRate__1__1__2__1__tstr=g_strdup(return_value_ctime_5);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(FestivalSetRate__1__1__2__1__tstr);
+        FestivalSetRate__1__1__2__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&FestivalSetRate__1__1__2__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", FestivalSetRate__1__1__2__1__tstr, (signed int)FestivalSetRate__1__1__2__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Can't open connection");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", FestivalSetRate$$1$$1$$2$$1$$tstr, (signed int)FestivalSetRate$$1$$1$$2$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", FestivalSetRate__1__1__2__1__tstr, (signed int)FestivalSetRate__1__1__2__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Can't open connection");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)FestivalSetRate$$1$$1$$2$$1$$tstr);
+        g_free((void *)FestivalSetRate__1__1__2__1__tstr);
       }
 
-    signed int return_value_festival_read_response$7;
-    return_value_festival_read_response$7=festival_read_response(info, (char **)(void *)0);
-    return return_value_festival_read_response$7;
+    signed int return_value_festival_read_response_7;
+    return_value_festival_read_response_7=festival_read_response(info, (char **)(void *)0);
+    return return_value_festival_read_response_7;
   }
 }
 
@@ -2768,9 +2768,9 @@ signed int FestivalSetRate(struct FT_Info *info, signed int param)
 signed int FestivalSetSynthesisVoice(struct FT_Info *info, char *param)
 {
   char *f = (char *)(void *)0;
-  signed int return_value_festival_check_info$1;
-  return_value_festival_check_info$1=festival_check_info(info, "FestivalSetSynthesisVoice");
-  if(!(return_value_festival_check_info$1 == 0))
+  signed int return_value_festival_check_info_1;
+  return_value_festival_check_info_1=festival_check_info(info, "FestivalSetSynthesisVoice");
+  if(!(return_value_festival_check_info_1 == 0))
     return -1;
 
   else
@@ -2781,9 +2781,9 @@ signed int FestivalSetSynthesisVoice(struct FT_Info *info, char *param)
     {
       struct _IO_FILE *fd;
       char *str;
-      signed int return_value_dup$2;
-      return_value_dup$2=dup(info->server_fd);
-      fd=fdopen(return_value_dup$2, "wb");
+      signed int return_value_dup_2;
+      return_value_dup_2=dup(info->server_fd);
+      fd=fdopen(return_value_dup_2, "wb");
       if(!(fd == ((struct _IO_FILE *)NULL)))
       {
         f=g_ascii_strdown(param, (signed long int)-1);
@@ -2792,31 +2792,31 @@ signed int FestivalSetSynthesisVoice(struct FT_Info *info, char *param)
         if(!(Debug == 0))
         {
           signed long int t;
-          struct timeval FestivalSetSynthesisVoice$$1$$1$$1$$1$$tv;
-          char *FestivalSetSynthesisVoice$$1$$1$$1$$1$$tstr;
+          struct timeval FestivalSetSynthesisVoice__1__1__1__1__tv;
+          char *FestivalSetSynthesisVoice__1__1__1__1__tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$3;
-          return_value_ctime$3=ctime(&t);
-          FestivalSetSynthesisVoice$$1$$1$$1$$1$$tstr=g_strdup(return_value_ctime$3);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(FestivalSetSynthesisVoice$$1$$1$$1$$1$$tstr);
-          FestivalSetSynthesisVoice$$1$$1$$1$$1$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetSynthesisVoice$$1$$1$$1$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetSynthesisVoice$$1$$1$$1$$1$$tstr, (signed int)FestivalSetSynthesisVoice$$1$$1$$1$$1$$tv.tv_usec);
+          char *return_value_ctime_3;
+          return_value_ctime_3=ctime(&t);
+          FestivalSetSynthesisVoice__1__1__1__1__tstr=g_strdup(return_value_ctime_3);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(FestivalSetSynthesisVoice__1__1__1__1__tstr);
+          FestivalSetSynthesisVoice__1__1__1__1__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetSynthesisVoice__1__1__1__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetSynthesisVoice__1__1__1__1__tstr, (signed int)FestivalSetSynthesisVoice__1__1__1__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "-> Festival: |%s|", str);
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetSynthesisVoice$$1$$1$$1$$1$$tstr, (signed int)FestivalSetSynthesisVoice$$1$$1$$1$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetSynthesisVoice__1__1__1__1__tstr, (signed int)FestivalSetSynthesisVoice__1__1__1__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "-> Festival: |%s|", str);
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetSynthesisVoice$$1$$1$$1$$1$$tstr);
+          g_free((void *)FestivalSetSynthesisVoice__1__1__1__1__tstr);
         }
 
         g_free((void *)str);
@@ -2826,16 +2826,16 @@ signed int FestivalSetSynthesisVoice(struct FT_Info *info, char *param)
       else
         if(!(Debug == 0))
         {
-          signed long int FestivalSetSynthesisVoice$$1$$1$$2$$1$$t;
+          signed long int FestivalSetSynthesisVoice__1__1__2__1__t;
           struct timeval tv;
           char *tstr;
-          FestivalSetSynthesisVoice$$1$$1$$2$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$5;
-          return_value_ctime$5=ctime(&FestivalSetSynthesisVoice$$1$$1$$2$$1$$t);
-          tstr=g_strdup(return_value_ctime$5);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
+          FestivalSetSynthesisVoice__1__1__2__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_5;
+          return_value_ctime_5=ctime(&FestivalSetSynthesisVoice__1__1__2__1__t);
+          tstr=g_strdup(return_value_ctime_5);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -2855,9 +2855,9 @@ signed int FestivalSetSynthesisVoice(struct FT_Info *info, char *param)
         }
 
       g_free((void *)f);
-      signed int return_value_festival_read_response$7;
-      return_value_festival_read_response$7=festival_read_response(info, (char **)(void *)0);
-      return return_value_festival_read_response$7;
+      signed int return_value_festival_read_response_7;
+      return_value_festival_read_response_7=festival_read_response(info, (char **)(void *)0);
+      return return_value_festival_read_response_7;
     }
 }
 
@@ -2868,36 +2868,36 @@ signed int FestivalSetVoice(struct FT_Info *info, char *param, char **resp)
   char *r;
   signed int ret;
   char *f;
-  signed int return_value_festival_check_info$1;
-  return_value_festival_check_info$1=festival_check_info(info, "FestivalSetVoice");
-  if(!(return_value_festival_check_info$1 == 0))
+  signed int return_value_festival_check_info_1;
+  return_value_festival_check_info_1=festival_check_info(info, "FestivalSetVoice");
+  if(!(return_value_festival_check_info_1 == 0))
     return -1;
 
   else
   {
     if(param == ((char *)NULL))
     {
-      struct _IO_FILE *FestivalSetVoice$$1$$1$$1$$fd;
+      struct _IO_FILE *FestivalSetVoice__1__1__1__fd;
       char *str;
-      signed int return_value_dup$2;
-      return_value_dup$2=dup(info->server_fd);
-      FestivalSetVoice$$1$$1$$1$$fd=fdopen(return_value_dup$2, "wb");
-      if(!(FestivalSetVoice$$1$$1$$1$$fd == ((struct _IO_FILE *)NULL)))
+      signed int return_value_dup_2;
+      return_value_dup_2=dup(info->server_fd);
+      FestivalSetVoice__1__1__1__fd=fdopen(return_value_dup_2, "wb");
+      if(!(FestivalSetVoice__1__1__1__fd == ((struct _IO_FILE *)NULL)))
       {
         str=g_strdup("(speechd-set-voice nil)\n");
-        fputs(str, FestivalSetVoice$$1$$1$$1$$fd);
+        fputs(str, FestivalSetVoice__1__1__1__fd);
         if(!(Debug == 0))
         {
           signed long int t;
           struct timeval tv;
           char *tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$3;
-          return_value_ctime$3=ctime(&t);
-          tstr=g_strdup(return_value_ctime$3);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+          char *return_value_ctime_3;
+          return_value_ctime_3=ctime(&t);
+          tstr=g_strdup(return_value_ctime_3);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -2917,38 +2917,38 @@ signed int FestivalSetVoice(struct FT_Info *info, char *param, char **resp)
         }
 
         g_free((void *)str);
-        fclose(FestivalSetVoice$$1$$1$$1$$fd);
+        fclose(FestivalSetVoice__1__1__1__fd);
       }
 
       else
         if(!(Debug == 0))
         {
-          signed long int FestivalSetVoice$$1$$1$$1$$2$$1$$t;
-          struct timeval FestivalSetVoice$$1$$1$$1$$2$$1$$tv;
-          char *FestivalSetVoice$$1$$1$$1$$2$$1$$tstr;
-          FestivalSetVoice$$1$$1$$1$$2$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$5;
-          return_value_ctime$5=ctime(&FestivalSetVoice$$1$$1$$1$$2$$1$$t);
-          FestivalSetVoice$$1$$1$$1$$2$$1$$tstr=g_strdup(return_value_ctime$5);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(FestivalSetVoice$$1$$1$$1$$2$$1$$tstr);
-          FestivalSetVoice$$1$$1$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetVoice$$1$$1$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetVoice$$1$$1$$1$$2$$1$$tstr, (signed int)FestivalSetVoice$$1$$1$$1$$2$$1$$tv.tv_usec);
+          signed long int FestivalSetVoice__1__1__1__2__1__t;
+          struct timeval FestivalSetVoice__1__1__1__2__1__tv;
+          char *FestivalSetVoice__1__1__1__2__1__tstr;
+          FestivalSetVoice__1__1__1__2__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_5;
+          return_value_ctime_5=ctime(&FestivalSetVoice__1__1__1__2__1__t);
+          FestivalSetVoice__1__1__1__2__1__tstr=g_strdup(return_value_ctime_5);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(FestivalSetVoice__1__1__1__2__1__tstr);
+          FestivalSetVoice__1__1__1__2__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetVoice__1__1__1__2__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetVoice__1__1__1__2__1__tstr, (signed int)FestivalSetVoice__1__1__1__2__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Can't open connection");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetVoice$$1$$1$$1$$2$$1$$tstr, (signed int)FestivalSetVoice$$1$$1$$1$$2$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetVoice__1__1__1__2__1__tstr, (signed int)FestivalSetVoice__1__1__1__2__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Can't open connection");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetVoice$$1$$1$$1$$2$$1$$tstr);
+          g_free((void *)FestivalSetVoice__1__1__1__2__1__tstr);
         }
 
     }
@@ -2957,77 +2957,77 @@ signed int FestivalSetVoice(struct FT_Info *info, char *param, char **resp)
     {
       f=g_ascii_strdown(param, (signed long int)-1);
       struct _IO_FILE *fd;
-      char *FestivalSetVoice$$1$$2$$1$$str;
-      signed int return_value_dup$7;
-      return_value_dup$7=dup(info->server_fd);
-      fd=fdopen(return_value_dup$7, "wb");
+      char *FestivalSetVoice__1__2__1__str;
+      signed int return_value_dup_7;
+      return_value_dup_7=dup(info->server_fd);
+      fd=fdopen(return_value_dup_7, "wb");
       if(!(fd == ((struct _IO_FILE *)NULL)))
       {
-        FestivalSetVoice$$1$$2$$1$$str=g_strdup_printf("(speechd-set-voice \"%s\")\n", f);
-        fputs(FestivalSetVoice$$1$$2$$1$$str, fd);
+        FestivalSetVoice__1__2__1__str=g_strdup_printf("(speechd-set-voice \"%s\")\n", f);
+        fputs(FestivalSetVoice__1__2__1__str, fd);
         if(!(Debug == 0))
         {
-          signed long int FestivalSetVoice$$1$$2$$1$$1$$1$$t;
-          struct timeval FestivalSetVoice$$1$$2$$1$$1$$1$$tv;
-          char *FestivalSetVoice$$1$$2$$1$$1$$1$$tstr;
-          FestivalSetVoice$$1$$2$$1$$1$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$8;
-          return_value_ctime$8=ctime(&FestivalSetVoice$$1$$2$$1$$1$$1$$t);
-          FestivalSetVoice$$1$$2$$1$$1$$1$$tstr=g_strdup(return_value_ctime$8);
-          unsigned long int return_value_strlen$9;
-          return_value_strlen$9=strlen(FestivalSetVoice$$1$$2$$1$$1$$1$$tstr);
-          FestivalSetVoice$$1$$2$$1$$1$$1$$tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetVoice$$1$$2$$1$$1$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetVoice$$1$$2$$1$$1$$1$$tstr, (signed int)FestivalSetVoice$$1$$2$$1$$1$$1$$tv.tv_usec);
+          signed long int FestivalSetVoice__1__2__1__1__1__t;
+          struct timeval FestivalSetVoice__1__2__1__1__1__tv;
+          char *FestivalSetVoice__1__2__1__1__1__tstr;
+          FestivalSetVoice__1__2__1__1__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_8;
+          return_value_ctime_8=ctime(&FestivalSetVoice__1__2__1__1__1__t);
+          FestivalSetVoice__1__2__1__1__1__tstr=g_strdup(return_value_ctime_8);
+          unsigned long int return_value_strlen_9;
+          return_value_strlen_9=strlen(FestivalSetVoice__1__2__1__1__1__tstr);
+          FestivalSetVoice__1__2__1__1__1__tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetVoice__1__2__1__1__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetVoice__1__2__1__1__1__tstr, (signed int)FestivalSetVoice__1__2__1__1__1__tv.tv_usec);
           fprintf(stderr, ": ");
-          fprintf(stderr, "-> Festival: |%s|", FestivalSetVoice$$1$$2$$1$$str);
+          fprintf(stderr, "-> Festival: |%s|", FestivalSetVoice__1__2__1__str);
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetVoice$$1$$2$$1$$1$$1$$tstr, (signed int)FestivalSetVoice$$1$$2$$1$$1$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetVoice__1__2__1__1__1__tstr, (signed int)FestivalSetVoice__1__2__1__1__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
-            fprintf(CustomDebugFile, "-> Festival: |%s|", FestivalSetVoice$$1$$2$$1$$str);
+            fprintf(CustomDebugFile, "-> Festival: |%s|", FestivalSetVoice__1__2__1__str);
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetVoice$$1$$2$$1$$1$$1$$tstr);
+          g_free((void *)FestivalSetVoice__1__2__1__1__1__tstr);
         }
 
-        g_free((void *)FestivalSetVoice$$1$$2$$1$$str);
+        g_free((void *)FestivalSetVoice__1__2__1__str);
         fclose(fd);
       }
 
       else
         if(!(Debug == 0))
         {
-          signed long int FestivalSetVoice$$1$$2$$1$$2$$1$$t;
-          struct timeval FestivalSetVoice$$1$$2$$1$$2$$1$$tv;
-          char *FestivalSetVoice$$1$$2$$1$$2$$1$$tstr;
-          FestivalSetVoice$$1$$2$$1$$2$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$10;
-          return_value_ctime$10=ctime(&FestivalSetVoice$$1$$2$$1$$2$$1$$t);
-          FestivalSetVoice$$1$$2$$1$$2$$1$$tstr=g_strdup(return_value_ctime$10);
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(FestivalSetVoice$$1$$2$$1$$2$$1$$tstr);
-          FestivalSetVoice$$1$$2$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$11 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&FestivalSetVoice$$1$$2$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", FestivalSetVoice$$1$$2$$1$$2$$1$$tstr, (signed int)FestivalSetVoice$$1$$2$$1$$2$$1$$tv.tv_usec);
+          signed long int FestivalSetVoice__1__2__1__2__1__t;
+          struct timeval FestivalSetVoice__1__2__1__2__1__tv;
+          char *FestivalSetVoice__1__2__1__2__1__tstr;
+          FestivalSetVoice__1__2__1__2__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_10;
+          return_value_ctime_10=ctime(&FestivalSetVoice__1__2__1__2__1__t);
+          FestivalSetVoice__1__2__1__2__1__tstr=g_strdup(return_value_ctime_10);
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(FestivalSetVoice__1__2__1__2__1__tstr);
+          FestivalSetVoice__1__2__1__2__1__tstr[(signed long int)(return_value_strlen_11 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&FestivalSetVoice__1__2__1__2__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", FestivalSetVoice__1__2__1__2__1__tstr, (signed int)FestivalSetVoice__1__2__1__2__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Can't open connection");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", FestivalSetVoice$$1$$2$$1$$2$$1$$tstr, (signed int)FestivalSetVoice$$1$$2$$1$$2$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", FestivalSetVoice__1__2__1__2__1__tstr, (signed int)FestivalSetVoice__1__2__1__2__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Can't open connection");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)FestivalSetVoice$$1$$2$$1$$2$$1$$tstr);
+          g_free((void *)FestivalSetVoice__1__2__1__2__1__tstr);
         }
 
       g_free((void *)f);
@@ -3077,42 +3077,42 @@ void * _festival_speak(void *nothing)
   char *callback;
   if(!(Debug == 0))
   {
-    signed long int _festival_speak$$1$$1$$t;
-    struct timeval _festival_speak$$1$$1$$tv;
-    char *_festival_speak$$1$$1$$tstr;
-    _festival_speak$$1$$1$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&_festival_speak$$1$$1$$t);
-    _festival_speak$$1$$1$$tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(_festival_speak$$1$$1$$tstr);
-    _festival_speak$$1$$1$$tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&_festival_speak$$1$$1$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", _festival_speak$$1$$1$$tstr, (signed int)_festival_speak$$1$$1$$tv.tv_usec);
+    signed long int _festival_speak__1__1__t;
+    struct timeval _festival_speak__1__1__tv;
+    char *_festival_speak__1__1__tstr;
+    _festival_speak__1__1__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&_festival_speak__1__1__t);
+    _festival_speak__1__1__tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(_festival_speak__1__1__tstr);
+    _festival_speak__1__1__tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&_festival_speak__1__1__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", _festival_speak__1__1__tstr, (signed int)_festival_speak__1__1__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "festival: speaking thread starting.......\n");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$1$$tstr, (signed int)_festival_speak$$1$$1$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__1__tstr, (signed int)_festival_speak__1__1__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "festival: speaking thread starting.......\n");
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)_festival_speak$$1$$1$$tstr);
+    g_free((void *)_festival_speak__1__1__tstr);
   }
 
   cache_init();
   set_speaking_thread_parameters();
-  unsigned long int return_value_strlen$5;
-  signed int tmp_post$10;
-  signed int return_value_is_text$27;
-  _Bool tmp_if_expr$24;
-  signed int return_value_strncmp$23;
-  signed int tmp_post$37;
+  unsigned long int return_value_strlen_5;
+  signed int tmp_post_10;
+  signed int return_value_is_text_27;
+  _Bool tmp_if_expr_24;
+  signed int return_value_strncmp_23;
+  signed int tmp_post_37;
   while((_Bool)1)
   {
     do
@@ -3123,32 +3123,32 @@ void * _festival_speak(void *nothing)
       sem_wait(&festival_semaphore);
       if(!(Debug == 0))
       {
-        signed long int _festival_speak$$1$$2$$1$$t;
-        struct timeval _festival_speak$$1$$2$$1$$tv;
-        char *_festival_speak$$1$$2$$1$$tstr;
-        _festival_speak$$1$$2$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$3;
-        return_value_ctime$3=ctime(&_festival_speak$$1$$2$$1$$t);
-        _festival_speak$$1$$2$$1$$tstr=g_strdup(return_value_ctime$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(_festival_speak$$1$$2$$1$$tstr);
-        _festival_speak$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&_festival_speak$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$1$$tstr, (signed int)_festival_speak$$1$$2$$1$$tv.tv_usec);
+        signed long int _festival_speak__1__2__1__t;
+        struct timeval _festival_speak__1__2__1__tv;
+        char *_festival_speak__1__2__1__tstr;
+        _festival_speak__1__2__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_3;
+        return_value_ctime_3=ctime(&_festival_speak__1__2__1__t);
+        _festival_speak__1__2__1__tstr=g_strdup(return_value_ctime_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(_festival_speak__1__2__1__tstr);
+        _festival_speak__1__2__1__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&_festival_speak__1__2__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", _festival_speak__1__2__1__tstr, (signed int)_festival_speak__1__2__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Semaphore on, speaking\n");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$1$$tstr, (signed int)_festival_speak$$1$$2$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__1__tstr, (signed int)_festival_speak__1__2__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Semaphore on, speaking\n");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)_festival_speak$$1$$2$$1$$tstr);
+        g_free((void *)_festival_speak__1__2__1__tstr);
       }
 
       festival_stop = 0;
@@ -3156,73 +3156,73 @@ void * _festival_speak(void *nothing)
       wave_cached = 0;
       fwave = (struct FT_Wave *)(void *)0;
       terminate = 0;
-      return_value_strlen$5=strlen(*festival_message);
-      bytes = (signed int)return_value_strlen$5;
+      return_value_strlen_5=strlen(*festival_message);
+      bytes = (signed int)return_value_strlen_5;
       module_report_event_begin();
       if(!(Debug == 0))
       {
-        signed long int _festival_speak$$1$$2$$2$$t;
-        struct timeval _festival_speak$$1$$2$$2$$tv;
-        char *_festival_speak$$1$$2$$2$$tstr;
-        _festival_speak$$1$$2$$2$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$6;
-        return_value_ctime$6=ctime(&_festival_speak$$1$$2$$2$$t);
-        _festival_speak$$1$$2$$2$$tstr=g_strdup(return_value_ctime$6);
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(_festival_speak$$1$$2$$2$$tstr);
-        _festival_speak$$1$$2$$2$$tstr[(signed long int)(return_value_strlen$7 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&_festival_speak$$1$$2$$2$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$2$$tstr, (signed int)_festival_speak$$1$$2$$2$$tv.tv_usec);
+        signed long int _festival_speak__1__2__2__t;
+        struct timeval _festival_speak__1__2__2__tv;
+        char *_festival_speak__1__2__2__tstr;
+        _festival_speak__1__2__2__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_6;
+        return_value_ctime_6=ctime(&_festival_speak__1__2__2__t);
+        _festival_speak__1__2__2__tstr=g_strdup(return_value_ctime_6);
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(_festival_speak__1__2__2__tstr);
+        _festival_speak__1__2__2__tstr[(signed long int)(return_value_strlen_7 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&_festival_speak__1__2__2__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", _festival_speak__1__2__2__tstr, (signed int)_festival_speak__1__2__2__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Going to synthesize: |%s|", *festival_message);
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$2$$tstr, (signed int)_festival_speak$$1$$2$$2$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__2__tstr, (signed int)_festival_speak__1__2__2__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Going to synthesize: |%s|", *festival_message);
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)_festival_speak$$1$$2$$2$$tstr);
+        g_free((void *)_festival_speak__1__2__2__tstr);
       }
 
       if(bytes >= 1)
       {
-        signed int return_value_is_text$11;
-        return_value_is_text$11=is_text(festival_message_type);
-        if(return_value_is_text$11 == 0)
+        signed int return_value_is_text_11;
+        return_value_is_text_11=is_text(festival_message_type);
+        if(return_value_is_text_11 == 0)
         {
           if(!(Debug == 0))
           {
-            signed long int _festival_speak$$1$$2$$3$$1$$1$$t;
-            struct timeval _festival_speak$$1$$2$$3$$1$$1$$tv;
-            char *_festival_speak$$1$$2$$3$$1$$1$$tstr;
-            _festival_speak$$1$$2$$3$$1$$1$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$8;
-            return_value_ctime$8=ctime(&_festival_speak$$1$$2$$3$$1$$1$$t);
-            _festival_speak$$1$$2$$3$$1$$1$$tstr=g_strdup(return_value_ctime$8);
-            unsigned long int return_value_strlen$9;
-            return_value_strlen$9=strlen(_festival_speak$$1$$2$$3$$1$$1$$tstr);
-            _festival_speak$$1$$2$$3$$1$$1$$tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&_festival_speak$$1$$2$$3$$1$$1$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$3$$1$$1$$tstr, (signed int)_festival_speak$$1$$2$$3$$1$$1$$tv.tv_usec);
+            signed long int _festival_speak__1__2__3__1__1__t;
+            struct timeval _festival_speak__1__2__3__1__1__tv;
+            char *_festival_speak__1__2__3__1__1__tstr;
+            _festival_speak__1__2__3__1__1__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_8;
+            return_value_ctime_8=ctime(&_festival_speak__1__2__3__1__1__t);
+            _festival_speak__1__2__3__1__1__tstr=g_strdup(return_value_ctime_8);
+            unsigned long int return_value_strlen_9;
+            return_value_strlen_9=strlen(_festival_speak__1__2__3__1__1__tstr);
+            _festival_speak__1__2__3__1__1__tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&_festival_speak__1__2__3__1__1__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", _festival_speak__1__2__3__1__1__tstr, (signed int)_festival_speak__1__2__3__1__1__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "Cache mechanisms...");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$3$$1$$1$$tstr, (signed int)_festival_speak$$1$$2$$3$$1$$1$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__3__1__1__tstr, (signed int)_festival_speak__1__2__3__1__1__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "Cache mechanisms...");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)_festival_speak$$1$$2$$3$$1$$1$$tstr);
+            g_free((void *)_festival_speak__1__2__3__1__1__tstr);
           }
 
           fwave=cache_lookup(*festival_message, festival_message_type, 1);
@@ -3233,11 +3233,11 @@ void * _festival_speak(void *nothing)
             {
               if(!(FestivalDebugSaveOutput == 0))
               {
-                char _festival_speak$$1$$2$$3$$1$$2$$1$$1$$filename_debug[256l];
-                tmp_post$10 = debug_count;
+                char _festival_speak__1__2__3__1__2__1__1__filename_debug[256l];
+                tmp_post_10 = debug_count;
                 debug_count = debug_count + 1;
-                sprintf(_festival_speak$$1$$2$$3$$1$$2$$1$$1$$filename_debug, "/tmp/debug-festival-%d.snd", tmp_post$10);
-                save_FT_Wave_snd(fwave, _festival_speak$$1$$2$$3$$1$$2$$1$$1$$filename_debug);
+                sprintf(_festival_speak__1__2__3__1__2__1__1__filename_debug, "/tmp/debug-festival-%d.snd", tmp_post_10);
+                save_FT_Wave_snd(fwave, _festival_speak__1__2__3__1__2__1__1__filename_debug);
               }
 
               festival_send_to_audio(fwave);
@@ -3296,9 +3296,9 @@ void * _festival_speak(void *nothing)
 
         }
 
-        signed int return_value_is_text$12;
-        return_value_is_text$12=is_text(festival_message_type);
-        if(!(return_value_is_text$12 == 0))
+        signed int return_value_is_text_12;
+        return_value_is_text_12=is_text(festival_message_type);
+        if(!(return_value_is_text_12 == 0))
         {
           ret=FestivalSetMultiMode(festival_info, "t");
           if(!(ret == 0))
@@ -3361,32 +3361,32 @@ void * _festival_speak(void *nothing)
         {
           if(!(Debug == 0))
           {
-            signed long int _festival_speak$$1$$2$$3$$5$$1$$t;
-            struct timeval _festival_speak$$1$$2$$3$$5$$1$$tv;
-            char *_festival_speak$$1$$2$$3$$5$$1$$tstr;
-            _festival_speak$$1$$2$$3$$5$$1$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$13;
-            return_value_ctime$13=ctime(&_festival_speak$$1$$2$$3$$5$$1$$t);
-            _festival_speak$$1$$2$$3$$5$$1$$tstr=g_strdup(return_value_ctime$13);
-            unsigned long int return_value_strlen$14;
-            return_value_strlen$14=strlen(_festival_speak$$1$$2$$3$$5$$1$$tstr);
-            _festival_speak$$1$$2$$3$$5$$1$$tstr[(signed long int)(return_value_strlen$14 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&_festival_speak$$1$$2$$3$$5$$1$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$3$$5$$1$$tstr, (signed int)_festival_speak$$1$$2$$3$$5$$1$$tv.tv_usec);
+            signed long int _festival_speak__1__2__3__5__1__t;
+            struct timeval _festival_speak__1__2__3__5__1__tv;
+            char *_festival_speak__1__2__3__5__1__tstr;
+            _festival_speak__1__2__3__5__1__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_13;
+            return_value_ctime_13=ctime(&_festival_speak__1__2__3__5__1__t);
+            _festival_speak__1__2__3__5__1__tstr=g_strdup(return_value_ctime_13);
+            unsigned long int return_value_strlen_14;
+            return_value_strlen_14=strlen(_festival_speak__1__2__3__5__1__tstr);
+            _festival_speak__1__2__3__5__1__tstr[(signed long int)(return_value_strlen_14 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&_festival_speak__1__2__3__5__1__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", _festival_speak__1__2__3__5__1__tstr, (signed int)_festival_speak__1__2__3__5__1__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "Couldn't process the request to say the object.");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$3$$5$$1$$tstr, (signed int)_festival_speak$$1$$2$$3$$5$$1$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__3__5__1__tstr, (signed int)_festival_speak__1__2__3__5__1__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "Couldn't process the request to say the object.");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)_festival_speak$$1$$2$$3$$5$$1$$tstr);
+            g_free((void *)_festival_speak__1__2__3__5__1__tstr);
           }
 
           pthread_mutex_lock(&sound_output_mutex);
@@ -3405,67 +3405,67 @@ void * _festival_speak(void *nothing)
       wave_cached = 0;
       if(!(Debug == 0))
       {
-        signed long int _festival_speak$$1$$2$$4$$1$$t;
-        struct timeval _festival_speak$$1$$2$$4$$1$$tv;
-        char *_festival_speak$$1$$2$$4$$1$$tstr;
-        _festival_speak$$1$$2$$4$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$15;
-        return_value_ctime$15=ctime(&_festival_speak$$1$$2$$4$$1$$t);
-        _festival_speak$$1$$2$$4$$1$$tstr=g_strdup(return_value_ctime$15);
-        unsigned long int return_value_strlen$16;
-        return_value_strlen$16=strlen(_festival_speak$$1$$2$$4$$1$$tstr);
-        _festival_speak$$1$$2$$4$$1$$tstr[(signed long int)(return_value_strlen$16 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&_festival_speak$$1$$2$$4$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$1$$tv.tv_usec);
+        signed long int _festival_speak__1__2__4__1__t;
+        struct timeval _festival_speak__1__2__4__1__tv;
+        char *_festival_speak__1__2__4__1__tstr;
+        _festival_speak__1__2__4__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_15;
+        return_value_ctime_15=ctime(&_festival_speak__1__2__4__1__t);
+        _festival_speak__1__2__4__1__tstr=g_strdup(return_value_ctime_15);
+        unsigned long int return_value_strlen_16;
+        return_value_strlen_16=strlen(_festival_speak__1__2__4__1__tstr);
+        _festival_speak__1__2__4__1__tstr[(signed long int)(return_value_strlen_16 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&_festival_speak__1__2__4__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__1__tstr, (signed int)_festival_speak__1__2__4__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Retrieving data\n");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__1__tstr, (signed int)_festival_speak__1__2__4__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Retrieving data\n");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)_festival_speak$$1$$2$$4$$1$$tstr);
+        g_free((void *)_festival_speak__1__2__4__1__tstr);
       }
 
-      return_value_is_text$27=is_text(festival_message_type);
-      if(!(return_value_is_text$27 == 0))
+      return_value_is_text_27=is_text(festival_message_type);
+      if(!(return_value_is_text_27 == 0))
       {
         if(!(festival_stop == 0))
         {
           if(!(Debug == 0))
           {
-            signed long int _festival_speak$$1$$2$$4$$2$$1$$1$$t;
-            struct timeval _festival_speak$$1$$2$$4$$2$$1$$1$$tv;
-            char *_festival_speak$$1$$2$$4$$2$$1$$1$$tstr;
-            _festival_speak$$1$$2$$4$$2$$1$$1$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$17;
-            return_value_ctime$17=ctime(&_festival_speak$$1$$2$$4$$2$$1$$1$$t);
-            _festival_speak$$1$$2$$4$$2$$1$$1$$tstr=g_strdup(return_value_ctime$17);
-            unsigned long int return_value_strlen$18;
-            return_value_strlen$18=strlen(_festival_speak$$1$$2$$4$$2$$1$$1$$tstr);
-            _festival_speak$$1$$2$$4$$2$$1$$1$$tstr[(signed long int)(return_value_strlen$18 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&_festival_speak$$1$$2$$4$$2$$1$$1$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$2$$1$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$2$$1$$1$$tv.tv_usec);
+            signed long int _festival_speak__1__2__4__2__1__1__t;
+            struct timeval _festival_speak__1__2__4__2__1__1__tv;
+            char *_festival_speak__1__2__4__2__1__1__tstr;
+            _festival_speak__1__2__4__2__1__1__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_17;
+            return_value_ctime_17=ctime(&_festival_speak__1__2__4__2__1__1__t);
+            _festival_speak__1__2__4__2__1__1__tstr=g_strdup(return_value_ctime_17);
+            unsigned long int return_value_strlen_18;
+            return_value_strlen_18=strlen(_festival_speak__1__2__4__2__1__1__tstr);
+            _festival_speak__1__2__4__2__1__1__tstr[(signed long int)(return_value_strlen_18 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&_festival_speak__1__2__4__2__1__1__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__2__1__1__tstr, (signed int)_festival_speak__1__2__4__2__1__1__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "Module stopped 1");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$2$$1$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$2$$1$$1$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__2__1__1__tstr, (signed int)_festival_speak__1__2__4__2__1__1__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "Module stopped 1");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)_festival_speak$$1$$2$$4$$2$$1$$1$$tstr);
+            g_free((void *)_festival_speak__1__2__4__2__1__1__tstr);
           }
 
           if(wave_cached == 0)
@@ -3485,32 +3485,32 @@ void * _festival_speak(void *nothing)
 
         if(!(Debug == 0))
         {
-          signed long int _festival_speak$$1$$2$$4$$2$$2$$t;
-          struct timeval _festival_speak$$1$$2$$4$$2$$2$$tv;
-          char *_festival_speak$$1$$2$$4$$2$$2$$tstr;
-          _festival_speak$$1$$2$$4$$2$$2$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$19;
-          return_value_ctime$19=ctime(&_festival_speak$$1$$2$$4$$2$$2$$t);
-          _festival_speak$$1$$2$$4$$2$$2$$tstr=g_strdup(return_value_ctime$19);
-          unsigned long int return_value_strlen$20;
-          return_value_strlen$20=strlen(_festival_speak$$1$$2$$4$$2$$2$$tstr);
-          _festival_speak$$1$$2$$4$$2$$2$$tstr[(signed long int)(return_value_strlen$20 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&_festival_speak$$1$$2$$4$$2$$2$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$2$$2$$tstr, (signed int)_festival_speak$$1$$2$$4$$2$$2$$tv.tv_usec);
+          signed long int _festival_speak__1__2__4__2__2__t;
+          struct timeval _festival_speak__1__2__4__2__2__tv;
+          char *_festival_speak__1__2__4__2__2__tstr;
+          _festival_speak__1__2__4__2__2__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_19;
+          return_value_ctime_19=ctime(&_festival_speak__1__2__4__2__2__t);
+          _festival_speak__1__2__4__2__2__tstr=g_strdup(return_value_ctime_19);
+          unsigned long int return_value_strlen_20;
+          return_value_strlen_20=strlen(_festival_speak__1__2__4__2__2__tstr);
+          _festival_speak__1__2__4__2__2__tstr[(signed long int)(return_value_strlen_20 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&_festival_speak__1__2__4__2__2__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__2__2__tstr, (signed int)_festival_speak__1__2__4__2__2__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Getting data in multi mode");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$2$$2$$tstr, (signed int)_festival_speak$$1$$2$$4$$2$$2$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__2__2__tstr, (signed int)_festival_speak__1__2__4__2__2__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Getting data in multi mode");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)_festival_speak$$1$$2$$4$$2$$2$$tstr);
+          g_free((void *)_festival_speak__1__2__4__2__2__tstr);
         }
 
         fwave=festivalGetDataMulti(festival_info, &callback, &festival_stop_request, FestivalReopenSocket);
@@ -3518,42 +3518,42 @@ void * _festival_speak(void *nothing)
         {
           if(!(festival_pause_requested == 0))
           {
-            return_value_strncmp$23=strncmp(callback, "__spd_", (unsigned long int)6);
-            tmp_if_expr$24 = !(return_value_strncmp$23 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strncmp_23=strncmp(callback, "__spd_", (unsigned long int)6);
+            tmp_if_expr_24 = !(return_value_strncmp_23 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$24 = (_Bool)0;
-          if(tmp_if_expr$24)
+            tmp_if_expr_24 = (_Bool)0;
+          if(tmp_if_expr_24)
           {
             if(!(Debug == 0))
             {
-              signed long int _festival_speak$$1$$2$$4$$2$$3$$1$$1$$t;
-              struct timeval _festival_speak$$1$$2$$4$$2$$3$$1$$1$$tv;
-              char *_festival_speak$$1$$2$$4$$2$$3$$1$$1$$tstr;
-              _festival_speak$$1$$2$$4$$2$$3$$1$$1$$t=time((signed long int *)(void *)0);
-              char *return_value_ctime$21;
-              return_value_ctime$21=ctime(&_festival_speak$$1$$2$$4$$2$$3$$1$$1$$t);
-              _festival_speak$$1$$2$$4$$2$$3$$1$$1$$tstr=g_strdup(return_value_ctime$21);
-              unsigned long int return_value_strlen$22;
-              return_value_strlen$22=strlen(_festival_speak$$1$$2$$4$$2$$3$$1$$1$$tstr);
-              _festival_speak$$1$$2$$4$$2$$3$$1$$1$$tstr[(signed long int)(return_value_strlen$22 - (unsigned long int)1)] = (char)0;
-              gettimeofday(&_festival_speak$$1$$2$$4$$2$$3$$1$$1$$tv, (struct timezone *)(void *)0);
-              fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$2$$3$$1$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$2$$3$$1$$1$$tv.tv_usec);
+              signed long int _festival_speak__1__2__4__2__3__1__1__t;
+              struct timeval _festival_speak__1__2__4__2__3__1__1__tv;
+              char *_festival_speak__1__2__4__2__3__1__1__tstr;
+              _festival_speak__1__2__4__2__3__1__1__t=time((signed long int *)(void *)0);
+              char *return_value_ctime_21;
+              return_value_ctime_21=ctime(&_festival_speak__1__2__4__2__3__1__1__t);
+              _festival_speak__1__2__4__2__3__1__1__tstr=g_strdup(return_value_ctime_21);
+              unsigned long int return_value_strlen_22;
+              return_value_strlen_22=strlen(_festival_speak__1__2__4__2__3__1__1__tstr);
+              _festival_speak__1__2__4__2__3__1__1__tstr[(signed long int)(return_value_strlen_22 - (unsigned long int)1)] = (char)0;
+              gettimeofday(&_festival_speak__1__2__4__2__3__1__1__tv, (struct timezone *)(void *)0);
+              fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__2__3__1__1__tstr, (signed int)_festival_speak__1__2__4__2__3__1__1__tv.tv_usec);
               fprintf(stderr, ": ");
               fprintf(stderr, "Pause requested, pausing.");
               fprintf(stderr, "\n");
               fflush(stderr);
               if(Debug == 2 || Debug == 3)
               {
-                fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$2$$3$$1$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$2$$3$$1$$1$$tv.tv_usec);
+                fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__2__3__1__1__tstr, (signed int)_festival_speak__1__2__4__2__3__1__1__tv.tv_usec);
                 fprintf(CustomDebugFile, ": ");
                 fprintf(CustomDebugFile, "Pause requested, pausing.");
                 fprintf(CustomDebugFile, "\n");
                 fflush(CustomDebugFile);
               }
 
-              g_free((void *)_festival_speak$$1$$2$$4$$2$$3$$1$$1$$tstr);
+              g_free((void *)_festival_speak__1__2__4__2__3__1__1__tstr);
             }
 
             module_report_index_mark(callback);
@@ -3588,32 +3588,32 @@ void * _festival_speak(void *nothing)
       {
         if(!(Debug == 0))
         {
-          signed long int _festival_speak$$1$$2$$4$$3$$1$$t;
-          struct timeval _festival_speak$$1$$2$$4$$3$$1$$tv;
-          char *_festival_speak$$1$$2$$4$$3$$1$$tstr;
-          _festival_speak$$1$$2$$4$$3$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$25;
-          return_value_ctime$25=ctime(&_festival_speak$$1$$2$$4$$3$$1$$t);
-          _festival_speak$$1$$2$$4$$3$$1$$tstr=g_strdup(return_value_ctime$25);
-          unsigned long int return_value_strlen$26;
-          return_value_strlen$26=strlen(_festival_speak$$1$$2$$4$$3$$1$$tstr);
-          _festival_speak$$1$$2$$4$$3$$1$$tstr[(signed long int)(return_value_strlen$26 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&_festival_speak$$1$$2$$4$$3$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$3$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$3$$1$$tv.tv_usec);
+          signed long int _festival_speak__1__2__4__3__1__t;
+          struct timeval _festival_speak__1__2__4__3__1__tv;
+          char *_festival_speak__1__2__4__3__1__tstr;
+          _festival_speak__1__2__4__3__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_25;
+          return_value_ctime_25=ctime(&_festival_speak__1__2__4__3__1__t);
+          _festival_speak__1__2__4__3__1__tstr=g_strdup(return_value_ctime_25);
+          unsigned long int return_value_strlen_26;
+          return_value_strlen_26=strlen(_festival_speak__1__2__4__3__1__tstr);
+          _festival_speak__1__2__4__3__1__tstr[(signed long int)(return_value_strlen_26 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&_festival_speak__1__2__4__3__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__3__1__tstr, (signed int)_festival_speak__1__2__4__3__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Getting data in single mode");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$3$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$3$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__3__1__tstr, (signed int)_festival_speak__1__2__4__3__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Getting data in single mode");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)_festival_speak$$1$$2$$4$$3$$1$$tstr);
+          g_free((void *)_festival_speak__1__2__4__3__1__tstr);
         }
 
         fwave=festivalStringToWaveGetData(festival_info);
@@ -3624,32 +3624,32 @@ void * _festival_speak(void *nothing)
       {
         if(!(Debug == 0))
         {
-          signed long int _festival_speak$$1$$2$$4$$4$$1$$t;
-          struct timeval _festival_speak$$1$$2$$4$$4$$1$$tv;
-          char *_festival_speak$$1$$2$$4$$4$$1$$tstr;
-          _festival_speak$$1$$2$$4$$4$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$28;
-          return_value_ctime$28=ctime(&_festival_speak$$1$$2$$4$$4$$1$$t);
-          _festival_speak$$1$$2$$4$$4$$1$$tstr=g_strdup(return_value_ctime$28);
-          unsigned long int return_value_strlen$29;
-          return_value_strlen$29=strlen(_festival_speak$$1$$2$$4$$4$$1$$tstr);
-          _festival_speak$$1$$2$$4$$4$$1$$tstr[(signed long int)(return_value_strlen$29 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&_festival_speak$$1$$2$$4$$4$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$4$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$4$$1$$tv.tv_usec);
+          signed long int _festival_speak__1__2__4__4__1__t;
+          struct timeval _festival_speak__1__2__4__4__1__tv;
+          char *_festival_speak__1__2__4__4__1__tstr;
+          _festival_speak__1__2__4__4__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_28;
+          return_value_ctime_28=ctime(&_festival_speak__1__2__4__4__1__t);
+          _festival_speak__1__2__4__4__1__tstr=g_strdup(return_value_ctime_28);
+          unsigned long int return_value_strlen_29;
+          return_value_strlen_29=strlen(_festival_speak__1__2__4__4__1__tstr);
+          _festival_speak__1__2__4__4__1__tstr[(signed long int)(return_value_strlen_29 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&_festival_speak__1__2__4__4__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__4__1__tstr, (signed int)_festival_speak__1__2__4__4__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "End of sound samples, terminating this message...");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$4$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$4$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__4__1__tstr, (signed int)_festival_speak__1__2__4__4__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "End of sound samples, terminating this message...");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)_festival_speak$$1$$2$$4$$4$$1$$tstr);
+          g_free((void *)_festival_speak__1__2__4__4__1__tstr);
         }
 
         if(wave_cached == 0)
@@ -3671,16 +3671,16 @@ void * _festival_speak(void *nothing)
       {
         if(!(Debug == 0))
         {
-          signed long int _festival_speak$$1$$2$$4$$5$$1$$t;
+          signed long int _festival_speak__1__2__4__5__1__t;
           struct timeval tv;
           char *tstr;
-          _festival_speak$$1$$2$$4$$5$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$30;
-          return_value_ctime$30=ctime(&_festival_speak$$1$$2$$4$$5$$1$$t);
-          tstr=g_strdup(return_value_ctime$30);
-          unsigned long int return_value_strlen$31;
-          return_value_strlen$31=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$31 - (unsigned long int)1)] = (char)0;
+          _festival_speak__1__2__4__5__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_30;
+          return_value_ctime_30=ctime(&_festival_speak__1__2__4__5__1__t);
+          tstr=g_strdup(return_value_ctime_30);
+          unsigned long int return_value_strlen_31;
+          return_value_strlen_31=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_31 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -3699,9 +3699,9 @@ void * _festival_speak(void *nothing)
           g_free((void *)tstr);
         }
 
-        char *return_value_g_strdup$32;
-        return_value_g_strdup$32=g_strdup(*festival_message);
-        cache_insert(return_value_g_strdup$32, festival_message_type, fwave);
+        char *return_value_g_strdup_32;
+        return_value_g_strdup_32=g_strdup(*festival_message);
+        cache_insert(return_value_g_strdup_32, festival_message_type, fwave);
         wave_cached = 1;
       }
 
@@ -3710,31 +3710,31 @@ void * _festival_speak(void *nothing)
         if(!(Debug == 0))
         {
           signed long int t;
-          struct timeval _festival_speak$$1$$2$$4$$6$$1$$tv;
-          char *_festival_speak$$1$$2$$4$$6$$1$$tstr;
+          struct timeval _festival_speak__1__2__4__6__1__tv;
+          char *_festival_speak__1__2__4__6__1__tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$33;
-          return_value_ctime$33=ctime(&t);
-          _festival_speak$$1$$2$$4$$6$$1$$tstr=g_strdup(return_value_ctime$33);
-          unsigned long int return_value_strlen$34;
-          return_value_strlen$34=strlen(_festival_speak$$1$$2$$4$$6$$1$$tstr);
-          _festival_speak$$1$$2$$4$$6$$1$$tstr[(signed long int)(return_value_strlen$34 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&_festival_speak$$1$$2$$4$$6$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$6$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$6$$1$$tv.tv_usec);
+          char *return_value_ctime_33;
+          return_value_ctime_33=ctime(&t);
+          _festival_speak__1__2__4__6__1__tstr=g_strdup(return_value_ctime_33);
+          unsigned long int return_value_strlen_34;
+          return_value_strlen_34=strlen(_festival_speak__1__2__4__6__1__tstr);
+          _festival_speak__1__2__4__6__1__tstr[(signed long int)(return_value_strlen_34 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&_festival_speak__1__2__4__6__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__6__1__tstr, (signed int)_festival_speak__1__2__4__6__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Module stopped 2");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$6$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$6$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__6__1__tstr, (signed int)_festival_speak__1__2__4__6__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Module stopped 2");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)_festival_speak$$1$$2$$4$$6$$1$$tstr);
+          g_free((void *)_festival_speak__1__2__4__6__1__tstr);
         }
 
         if(wave_cached == 0)
@@ -3756,71 +3756,71 @@ void * _festival_speak(void *nothing)
       {
         if(!(Debug == 0))
         {
-          signed long int _festival_speak$$1$$2$$4$$7$$1$$t;
-          struct timeval _festival_speak$$1$$2$$4$$7$$1$$tv;
-          char *_festival_speak$$1$$2$$4$$7$$1$$tstr;
-          _festival_speak$$1$$2$$4$$7$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$35;
-          return_value_ctime$35=ctime(&_festival_speak$$1$$2$$4$$7$$1$$t);
-          _festival_speak$$1$$2$$4$$7$$1$$tstr=g_strdup(return_value_ctime$35);
-          unsigned long int return_value_strlen$36;
-          return_value_strlen$36=strlen(_festival_speak$$1$$2$$4$$7$$1$$tstr);
-          _festival_speak$$1$$2$$4$$7$$1$$tstr[(signed long int)(return_value_strlen$36 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&_festival_speak$$1$$2$$4$$7$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$7$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$7$$1$$tv.tv_usec);
+          signed long int _festival_speak__1__2__4__7__1__t;
+          struct timeval _festival_speak__1__2__4__7__1__tv;
+          char *_festival_speak__1__2__4__7__1__tstr;
+          _festival_speak__1__2__4__7__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_35;
+          return_value_ctime_35=ctime(&_festival_speak__1__2__4__7__1__t);
+          _festival_speak__1__2__4__7__1__tstr=g_strdup(return_value_ctime_35);
+          unsigned long int return_value_strlen_36;
+          return_value_strlen_36=strlen(_festival_speak__1__2__4__7__1__tstr);
+          _festival_speak__1__2__4__7__1__tstr[(signed long int)(return_value_strlen_36 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&_festival_speak__1__2__4__7__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__7__1__tstr, (signed int)_festival_speak__1__2__4__7__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Sending message to audio: %lu bytes\n", (unsigned long int)((unsigned long int)fwave->num_samples * sizeof(signed short int) /*2ul*/ ));
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$7$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$7$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__7__1__tstr, (signed int)_festival_speak__1__2__4__7__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Sending message to audio: %lu bytes\n", (unsigned long int)((unsigned long int)fwave->num_samples * sizeof(signed short int) /*2ul*/ ));
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)_festival_speak$$1$$2$$4$$7$$1$$tstr);
+          g_free((void *)_festival_speak__1__2__4__7__1__tstr);
         }
 
         if(!(FestivalDebugSaveOutput == 0))
         {
           char filename_debug[256l];
-          tmp_post$37 = debug_count;
+          tmp_post_37 = debug_count;
           debug_count = debug_count + 1;
-          sprintf(filename_debug, "/tmp/debug-festival-%d.snd", tmp_post$37);
+          sprintf(filename_debug, "/tmp/debug-festival-%d.snd", tmp_post_37);
           save_FT_Wave_snd(fwave, filename_debug);
         }
 
         if(!(Debug == 0))
         {
-          signed long int _festival_speak$$1$$2$$4$$7$$3$$t;
-          struct timeval _festival_speak$$1$$2$$4$$7$$3$$tv;
-          char *_festival_speak$$1$$2$$4$$7$$3$$tstr;
-          _festival_speak$$1$$2$$4$$7$$3$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$38;
-          return_value_ctime$38=ctime(&_festival_speak$$1$$2$$4$$7$$3$$t);
-          _festival_speak$$1$$2$$4$$7$$3$$tstr=g_strdup(return_value_ctime$38);
-          unsigned long int return_value_strlen$39;
-          return_value_strlen$39=strlen(_festival_speak$$1$$2$$4$$7$$3$$tstr);
-          _festival_speak$$1$$2$$4$$7$$3$$tstr[(signed long int)(return_value_strlen$39 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&_festival_speak$$1$$2$$4$$7$$3$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$7$$3$$tstr, (signed int)_festival_speak$$1$$2$$4$$7$$3$$tv.tv_usec);
+          signed long int _festival_speak__1__2__4__7__3__t;
+          struct timeval _festival_speak__1__2__4__7__3__tv;
+          char *_festival_speak__1__2__4__7__3__tstr;
+          _festival_speak__1__2__4__7__3__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_38;
+          return_value_ctime_38=ctime(&_festival_speak__1__2__4__7__3__t);
+          _festival_speak__1__2__4__7__3__tstr=g_strdup(return_value_ctime_38);
+          unsigned long int return_value_strlen_39;
+          return_value_strlen_39=strlen(_festival_speak__1__2__4__7__3__tstr);
+          _festival_speak__1__2__4__7__3__tstr[(signed long int)(return_value_strlen_39 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&_festival_speak__1__2__4__7__3__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__7__3__tstr, (signed int)_festival_speak__1__2__4__7__3__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Playing sound samples");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$7$$3$$tstr, (signed int)_festival_speak$$1$$2$$4$$7$$3$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__7__3__tstr, (signed int)_festival_speak__1__2__4__7__3__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Playing sound samples");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)_festival_speak$$1$$2$$4$$7$$3$$tstr);
+          g_free((void *)_festival_speak__1__2__4__7__3__tstr);
         }
 
         festival_send_to_audio(fwave);
@@ -3829,32 +3829,32 @@ void * _festival_speak(void *nothing)
 
         if(!(Debug == 0))
         {
-          signed long int _festival_speak$$1$$2$$4$$7$$4$$t;
-          struct timeval _festival_speak$$1$$2$$4$$7$$4$$tv;
-          char *_festival_speak$$1$$2$$4$$7$$4$$tstr;
-          _festival_speak$$1$$2$$4$$7$$4$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$40;
-          return_value_ctime$40=ctime(&_festival_speak$$1$$2$$4$$7$$4$$t);
-          _festival_speak$$1$$2$$4$$7$$4$$tstr=g_strdup(return_value_ctime$40);
-          unsigned long int return_value_strlen$41;
-          return_value_strlen$41=strlen(_festival_speak$$1$$2$$4$$7$$4$$tstr);
-          _festival_speak$$1$$2$$4$$7$$4$$tstr[(signed long int)(return_value_strlen$41 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&_festival_speak$$1$$2$$4$$7$$4$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$7$$4$$tstr, (signed int)_festival_speak$$1$$2$$4$$7$$4$$tv.tv_usec);
+          signed long int _festival_speak__1__2__4__7__4__t;
+          struct timeval _festival_speak__1__2__4__7__4__tv;
+          char *_festival_speak__1__2__4__7__4__tstr;
+          _festival_speak__1__2__4__7__4__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_40;
+          return_value_ctime_40=ctime(&_festival_speak__1__2__4__7__4__t);
+          _festival_speak__1__2__4__7__4__tstr=g_strdup(return_value_ctime_40);
+          unsigned long int return_value_strlen_41;
+          return_value_strlen_41=strlen(_festival_speak__1__2__4__7__4__tstr);
+          _festival_speak__1__2__4__7__4__tstr[(signed long int)(return_value_strlen_41 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&_festival_speak__1__2__4__7__4__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__7__4__tstr, (signed int)_festival_speak__1__2__4__7__4__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "End of playing sound samples");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$7$$4$$tstr, (signed int)_festival_speak$$1$$2$$4$$7$$4$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__7__4__tstr, (signed int)_festival_speak__1__2__4__7__4__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "End of playing sound samples");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)_festival_speak$$1$$2$$4$$7$$4$$tstr);
+          g_free((void *)_festival_speak__1__2__4__7__4__tstr);
         }
 
       }
@@ -3863,32 +3863,32 @@ void * _festival_speak(void *nothing)
       {
         if(!(Debug == 0))
         {
-          signed long int _festival_speak$$1$$2$$4$$8$$1$$t;
-          struct timeval _festival_speak$$1$$2$$4$$8$$1$$tv;
-          char *_festival_speak$$1$$2$$4$$8$$1$$tstr;
-          _festival_speak$$1$$2$$4$$8$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$42;
-          return_value_ctime$42=ctime(&_festival_speak$$1$$2$$4$$8$$1$$t);
-          _festival_speak$$1$$2$$4$$8$$1$$tstr=g_strdup(return_value_ctime$42);
-          unsigned long int return_value_strlen$43;
-          return_value_strlen$43=strlen(_festival_speak$$1$$2$$4$$8$$1$$tstr);
-          _festival_speak$$1$$2$$4$$8$$1$$tstr[(signed long int)(return_value_strlen$43 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&_festival_speak$$1$$2$$4$$8$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$8$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$8$$1$$tv.tv_usec);
+          signed long int _festival_speak__1__2__4__8__1__t;
+          struct timeval _festival_speak__1__2__4__8__1__tv;
+          char *_festival_speak__1__2__4__8__1__tstr;
+          _festival_speak__1__2__4__8__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_42;
+          return_value_ctime_42=ctime(&_festival_speak__1__2__4__8__1__t);
+          _festival_speak__1__2__4__8__1__tstr=g_strdup(return_value_ctime_42);
+          unsigned long int return_value_strlen_43;
+          return_value_strlen_43=strlen(_festival_speak__1__2__4__8__1__tstr);
+          _festival_speak__1__2__4__8__1__tstr[(signed long int)(return_value_strlen_43 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&_festival_speak__1__2__4__8__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__8__1__tstr, (signed int)_festival_speak__1__2__4__8__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Ok, end of samples, returning");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$8$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$8$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__8__1__tstr, (signed int)_festival_speak__1__2__4__8__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Ok, end of samples, returning");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)_festival_speak$$1$$2$$4$$8$$1$$tstr);
+          g_free((void *)_festival_speak__1__2__4__8__1__tstr);
         }
 
         pthread_mutex_lock(&sound_output_mutex);
@@ -3904,32 +3904,32 @@ void * _festival_speak(void *nothing)
 
       if(!(Debug == 0))
       {
-        signed long int _festival_speak$$1$$2$$4$$9$$1$$t;
-        struct timeval _festival_speak$$1$$2$$4$$9$$1$$tv;
-        char *_festival_speak$$1$$2$$4$$9$$1$$tstr;
-        _festival_speak$$1$$2$$4$$9$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$44;
-        return_value_ctime$44=ctime(&_festival_speak$$1$$2$$4$$9$$1$$t);
-        _festival_speak$$1$$2$$4$$9$$1$$tstr=g_strdup(return_value_ctime$44);
-        unsigned long int return_value_strlen$45;
-        return_value_strlen$45=strlen(_festival_speak$$1$$2$$4$$9$$1$$tstr);
-        _festival_speak$$1$$2$$4$$9$$1$$tstr[(signed long int)(return_value_strlen$45 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&_festival_speak$$1$$2$$4$$9$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", _festival_speak$$1$$2$$4$$9$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$9$$1$$tv.tv_usec);
+        signed long int _festival_speak__1__2__4__9__1__t;
+        struct timeval _festival_speak__1__2__4__9__1__tv;
+        char *_festival_speak__1__2__4__9__1__tstr;
+        _festival_speak__1__2__4__9__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_44;
+        return_value_ctime_44=ctime(&_festival_speak__1__2__4__9__1__t);
+        _festival_speak__1__2__4__9__1__tstr=g_strdup(return_value_ctime_44);
+        unsigned long int return_value_strlen_45;
+        return_value_strlen_45=strlen(_festival_speak__1__2__4__9__1__tstr);
+        _festival_speak__1__2__4__9__1__tstr[(signed long int)(return_value_strlen_45 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&_festival_speak__1__2__4__9__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", _festival_speak__1__2__4__9__1__tstr, (signed int)_festival_speak__1__2__4__9__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Module stopped 3");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$2$$4$$9$$1$$tstr, (signed int)_festival_speak$$1$$2$$4$$9$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__2__4__9__1__tstr, (signed int)_festival_speak__1__2__4__9__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Module stopped 3");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)_festival_speak$$1$$2$$4$$9$$1$$tstr);
+        g_free((void *)_festival_speak__1__2__4__9__1__tstr);
       }
 
       pthread_mutex_lock(&sound_output_mutex);
@@ -3951,32 +3951,32 @@ void * _festival_speak(void *nothing)
   festival_speaking = 0;
   if(!(Debug == 0))
   {
-    signed long int _festival_speak$$1$$3$$t;
-    struct timeval _festival_speak$$1$$3$$tv;
-    char *_festival_speak$$1$$3$$tstr;
-    _festival_speak$$1$$3$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$46;
-    return_value_ctime$46=ctime(&_festival_speak$$1$$3$$t);
-    _festival_speak$$1$$3$$tstr=g_strdup(return_value_ctime$46);
-    unsigned long int return_value_strlen$47;
-    return_value_strlen$47=strlen(_festival_speak$$1$$3$$tstr);
-    _festival_speak$$1$$3$$tstr[(signed long int)(return_value_strlen$47 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&_festival_speak$$1$$3$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", _festival_speak$$1$$3$$tstr, (signed int)_festival_speak$$1$$3$$tv.tv_usec);
+    signed long int _festival_speak__1__3__t;
+    struct timeval _festival_speak__1__3__tv;
+    char *_festival_speak__1__3__tstr;
+    _festival_speak__1__3__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_46;
+    return_value_ctime_46=ctime(&_festival_speak__1__3__t);
+    _festival_speak__1__3__tstr=g_strdup(return_value_ctime_46);
+    unsigned long int return_value_strlen_47;
+    return_value_strlen_47=strlen(_festival_speak__1__3__tstr);
+    _festival_speak__1__3__tstr[(signed long int)(return_value_strlen_47 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&_festival_speak__1__3__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", _festival_speak__1__3__tstr, (signed int)_festival_speak__1__3__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "festival: speaking thread ended.......\n");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", _festival_speak$$1$$3$$tstr, (signed int)_festival_speak$$1$$3$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", _festival_speak__1__3__tstr, (signed int)_festival_speak__1__3__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "festival: speaking thread ended.......\n");
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)_festival_speak$$1$$3$$tstr);
+    g_free((void *)_festival_speak__1__3__tstr);
   }
 
   pthread_exit((void *)0);
@@ -3988,19 +3988,19 @@ signed int cache_clean(unsigned long int new_element_size)
 {
   unsigned long int req_size;
   struct _GList *gl;
-  struct anonymous$16 *centry;
+  struct anonymous_16 *centry;
   if(!(Debug == 0))
   {
     signed long int t;
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -4032,67 +4032,67 @@ signed int cache_clean(unsigned long int new_element_size)
     {
       if(!(Debug == 0))
       {
-        signed long int cache_clean$$1$$2$$1$$1$$t;
-        struct timeval cache_clean$$1$$2$$1$$1$$tv;
-        char *cache_clean$$1$$2$$1$$1$$tstr;
-        cache_clean$$1$$2$$1$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$3;
-        return_value_ctime$3=ctime(&cache_clean$$1$$2$$1$$1$$t);
-        cache_clean$$1$$2$$1$$1$$tstr=g_strdup(return_value_ctime$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(cache_clean$$1$$2$$1$$1$$tstr);
-        cache_clean$$1$$2$$1$$1$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&cache_clean$$1$$2$$1$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", cache_clean$$1$$2$$1$$1$$tstr, (signed int)cache_clean$$1$$2$$1$$1$$tv.tv_usec);
+        signed long int cache_clean__1__2__1__1__t;
+        struct timeval cache_clean__1__2__1__1__tv;
+        char *cache_clean__1__2__1__1__tstr;
+        cache_clean__1__2__1__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_3;
+        return_value_ctime_3=ctime(&cache_clean__1__2__1__1__t);
+        cache_clean__1__2__1__1__tstr=g_strdup(return_value_ctime_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(cache_clean__1__2__1__1__tstr);
+        cache_clean__1__2__1__1__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&cache_clean__1__2__1__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", cache_clean__1__2__1__1__tstr, (signed int)cache_clean__1__2__1__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Error: Cache: gl->data in cache_clean is NULL, but shouldn't be.");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", cache_clean$$1$$2$$1$$1$$tstr, (signed int)cache_clean$$1$$2$$1$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", cache_clean__1__2__1__1__tstr, (signed int)cache_clean__1__2__1__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Error: Cache: gl->data in cache_clean is NULL, but shouldn't be.");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)cache_clean$$1$$2$$1$$1$$tstr);
+        g_free((void *)cache_clean__1__2__1__1__tstr);
       }
 
       return -1;
     }
 
-    centry = (struct anonymous$16 *)gl->data;
+    centry = (struct anonymous_16 *)gl->data;
     FestivalCache.size = FestivalCache.size - centry->size;
     if(!(Debug == 0))
     {
-      signed long int cache_clean$$1$$2$$2$$t;
-      struct timeval cache_clean$$1$$2$$2$$tv;
-      char *cache_clean$$1$$2$$2$$tstr;
-      cache_clean$$1$$2$$2$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$5;
-      return_value_ctime$5=ctime(&cache_clean$$1$$2$$2$$t);
-      cache_clean$$1$$2$$2$$tstr=g_strdup(return_value_ctime$5);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(cache_clean$$1$$2$$2$$tstr);
-      cache_clean$$1$$2$$2$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&cache_clean$$1$$2$$2$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", cache_clean$$1$$2$$2$$tstr, (signed int)cache_clean$$1$$2$$2$$tv.tv_usec);
+      signed long int cache_clean__1__2__2__t;
+      struct timeval cache_clean__1__2__2__tv;
+      char *cache_clean__1__2__2__tstr;
+      cache_clean__1__2__2__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_5;
+      return_value_ctime_5=ctime(&cache_clean__1__2__2__t);
+      cache_clean__1__2__2__tstr=g_strdup(return_value_ctime_5);
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(cache_clean__1__2__2__tstr);
+      cache_clean__1__2__2__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&cache_clean__1__2__2__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", cache_clean__1__2__2__tstr, (signed int)cache_clean__1__2__2__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Cache: Removing element with key '%s'", centry->key);
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", cache_clean$$1$$2$$2$$tstr, (signed int)cache_clean$$1$$2$$2$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", cache_clean__1__2__2__tstr, (signed int)cache_clean__1__2__2__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Cache: Removing element with key '%s'", centry->key);
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)cache_clean$$1$$2$$2$$tstr);
+      g_free((void *)cache_clean__1__2__2__tstr);
     }
 
     g_hash_table_remove(centry->p_caches, (const void *)centry->key);
@@ -4106,8 +4106,8 @@ signed int cache_clean(unsigned long int new_element_size)
 // file festival.c line 941
 signed int cache_counter_comp(const void *a, const void *b)
 {
-  const struct anonymous$16 *A = (const struct anonymous$16 *)a;
-  const struct anonymous$16 *B = (const struct anonymous$16 *)b;
+  const struct anonymous_16 *A = (const struct anonymous_16 *)a;
+  const struct anonymous_16 *B = (const struct anonymous_16 *)b;
   signed long int t;
   float ret;
   t=time((signed long int *)(void *)0);
@@ -4131,32 +4131,32 @@ signed int cache_counter_comp(const void *a, const void *b)
 // file festival.c line 963
 void cache_debug_foreach_list_score(void *a, void *user)
 {
-  const struct anonymous$16 *A = (const struct anonymous$16 *)a;
+  const struct anonymous_16 *A = (const struct anonymous_16 *)a;
   signed long int t;
   t=time((signed long int *)(void *)0);
   if(!(Debug == 0))
   {
-    signed long int cache_debug_foreach_list_score$$1$$1$$t;
+    signed long int cache_debug_foreach_list_score__1__1__t;
     struct timeval tv;
     char *tstr;
-    cache_debug_foreach_list_score$$1$$1$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&cache_debug_foreach_list_score$$1$$1$$t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    cache_debug_foreach_list_score__1__1__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&cache_debug_foreach_list_score__1__1__t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
-    fprintf(stderr, "key: %s      -> score %f (count: %d, dtime: %d)", A->key, (float)A->count / (float)(cache_debug_foreach_list_score$$1$$1$$t - A->start), (signed int)A->count, (signed int)(cache_debug_foreach_list_score$$1$$1$$t - A->start));
+    fprintf(stderr, "key: %s      -> score %f (count: %d, dtime: %d)", A->key, (float)A->count / (float)(cache_debug_foreach_list_score__1__1__t - A->start), (signed int)A->count, (signed int)(cache_debug_foreach_list_score__1__1__t - A->start));
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
       fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
-      fprintf(CustomDebugFile, "key: %s      -> score %f (count: %d, dtime: %d)", A->key, (float)A->count / (float)(cache_debug_foreach_list_score$$1$$1$$t - A->start), (signed int)A->count, (signed int)(cache_debug_foreach_list_score$$1$$1$$t - A->start));
+      fprintf(CustomDebugFile, "key: %s      -> score %f (count: %d, dtime: %d)", A->key, (float)A->count / (float)(cache_debug_foreach_list_score__1__1__t - A->start), (signed int)A->count, (signed int)(cache_debug_foreach_list_score__1__1__t - A->start));
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
@@ -4180,7 +4180,7 @@ signed int cache_destroy()
 // file festival.c line 889
 void cache_destroy_entry(void *data)
 {
-  struct anonymous$17 *entry = (struct anonymous$17 *)data;
+  struct anonymous_17 *entry = (struct anonymous_17 *)data;
   g_free((void *)entry->fwave);
   g_free((void *)entry);
 }
@@ -4196,13 +4196,13 @@ void cache_destroy_table_entry(void *data)
 // file festival.c line 901
 void cache_free_counter_entry(void *data, void *user_data)
 {
-  g_free((void *)((struct anonymous$16 *)data)->key);
+  g_free((void *)((struct anonymous_16 *)data)->key);
   g_free(data);
 }
 
 // cache_gen_key
 // file festival.c line 1019
-char * cache_gen_key(enum anonymous$7 type)
+char * cache_gen_key(enum anonymous_7 type)
 {
   char *key;
   char ktype;
@@ -4220,12 +4220,12 @@ char * cache_gen_key(enum anonymous$7 type)
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$1;
-      return_value_ctime$1=ctime(&t);
-      tstr=g_strdup(return_value_ctime$1);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_1;
+      return_value_ctime_1=ctime(&t);
+      tstr=g_strdup(return_value_ctime_1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -4268,32 +4268,32 @@ char * cache_gen_key(enum anonymous$7 type)
         {
           if(!(Debug == 0))
           {
-            signed long int cache_gen_key$$1$$2$$1$$t;
-            struct timeval cache_gen_key$$1$$2$$1$$tv;
-            char *cache_gen_key$$1$$2$$1$$tstr;
-            cache_gen_key$$1$$2$$1$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$3;
-            return_value_ctime$3=ctime(&cache_gen_key$$1$$2$$1$$t);
-            cache_gen_key$$1$$2$$1$$tstr=g_strdup(return_value_ctime$3);
-            unsigned long int return_value_strlen$4;
-            return_value_strlen$4=strlen(cache_gen_key$$1$$2$$1$$tstr);
-            cache_gen_key$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&cache_gen_key$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", cache_gen_key$$1$$2$$1$$tstr, (signed int)cache_gen_key$$1$$2$$1$$tv.tv_usec);
+            signed long int cache_gen_key__1__2__1__t;
+            struct timeval cache_gen_key__1__2__1__tv;
+            char *cache_gen_key__1__2__1__tstr;
+            cache_gen_key__1__2__1__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_3;
+            return_value_ctime_3=ctime(&cache_gen_key__1__2__1__t);
+            cache_gen_key__1__2__1__tstr=g_strdup(return_value_ctime_3);
+            unsigned long int return_value_strlen_4;
+            return_value_strlen_4=strlen(cache_gen_key__1__2__1__tstr);
+            cache_gen_key__1__2__1__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&cache_gen_key__1__2__1__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", cache_gen_key__1__2__1__tstr, (signed int)cache_gen_key__1__2__1__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "Invalid message type for cache_gen_key()");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", cache_gen_key$$1$$2$$1$$tstr, (signed int)cache_gen_key$$1$$2$$1$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", cache_gen_key__1__2__1__tstr, (signed int)cache_gen_key__1__2__1__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "Invalid message type for cache_gen_key()");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)cache_gen_key$$1$$2$$1$$tstr);
+            g_free((void *)cache_gen_key__1__2__1__tstr);
           }
 
           return (char *)(void *)0;
@@ -4321,12 +4321,12 @@ signed int cache_init()
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$1;
-      return_value_ctime$1=ctime(&t);
-      tstr=g_strdup(return_value_ctime$1);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_1;
+      return_value_ctime_1=ctime(&t);
+      tstr=g_strdup(return_value_ctime_1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -4351,13 +4351,13 @@ signed int cache_init()
 
 // cache_insert
 // file festival.c line 1057
-signed int cache_insert(char *key, enum anonymous$7 msgtype, struct FT_Wave *fwave)
+signed int cache_insert(char *key, enum anonymous_7 msgtype, struct FT_Wave *fwave)
 {
   struct _GHashTable *cache;
-  struct anonymous$17 *entry;
-  struct anonymous$16 *centry;
+  struct anonymous_17 *entry;
+  struct anonymous_16 *centry;
   char *key_table;
-  signed int return_value_cache_clean$4;
+  signed int return_value_cache_clean_4;
   if(FestivalCacheOn == 0)
     return 0;
 
@@ -4371,9 +4371,9 @@ signed int cache_insert(char *key, enum anonymous$7 msgtype, struct FT_Wave *fwa
 
       else
       {
-        struct FT_Wave *return_value_cache_lookup$1;
-        return_value_cache_lookup$1=cache_lookup(key, msgtype, 0);
-        if(!(return_value_cache_lookup$1 == ((struct FT_Wave *)NULL)))
+        struct FT_Wave *return_value_cache_lookup_1;
+        return_value_cache_lookup_1=cache_lookup(key, msgtype, 0);
+        if(!(return_value_cache_lookup_1 == ((struct FT_Wave *)NULL)))
           return 0;
 
         else
@@ -4385,12 +4385,12 @@ signed int cache_insert(char *key, enum anonymous$7 msgtype, struct FT_Wave *fwa
             struct timeval tv;
             char *tstr;
             t=time((signed long int *)(void *)0);
-            char *return_value_ctime$2;
-            return_value_ctime$2=ctime(&t);
-            tstr=g_strdup(return_value_ctime$2);
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(tstr);
-            tstr[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+            char *return_value_ctime_2;
+            return_value_ctime_2=ctime(&t);
+            tstr=g_strdup(return_value_ctime_2);
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(tstr);
+            tstr[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
             gettimeofday(&tv, (struct timezone *)(void *)0);
             fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
             fprintf(stderr, ": ");
@@ -4411,8 +4411,8 @@ signed int cache_insert(char *key, enum anonymous$7 msgtype, struct FT_Wave *fwa
 
           if(!((unsigned long int)(1024 * FestivalCacheMaxKBytes) >= sizeof(signed short int) /*2ul*/  * (unsigned long int)fwave->num_samples + FestivalCache.size))
           {
-            return_value_cache_clean$4=cache_clean((unsigned long int)fwave->num_samples * sizeof(signed short int) /*2ul*/ );
-            if(return_value_cache_clean$4 == 0)
+            return_value_cache_clean_4=cache_clean((unsigned long int)fwave->num_samples * sizeof(signed short int) /*2ul*/ );
+            if(return_value_cache_clean_4 == 0)
               goto __CPROVER_DUMP_L7;
 
             return -1;
@@ -4423,9 +4423,9 @@ signed int cache_insert(char *key, enum anonymous$7 msgtype, struct FT_Wave *fwa
 
           __CPROVER_DUMP_L7:
             ;
-            void *return_value_g_hash_table_lookup$5;
-            return_value_g_hash_table_lookup$5=g_hash_table_lookup(FestivalCache.caches, (const void *)key_table);
-            cache = (struct _GHashTable *)return_value_g_hash_table_lookup$5;
+            void *return_value_g_hash_table_lookup_5;
+            return_value_g_hash_table_lookup_5=g_hash_table_lookup(FestivalCache.caches, (const void *)key_table);
+            cache = (struct _GHashTable *)return_value_g_hash_table_lookup_5;
             if(cache == ((struct _GHashTable *)NULL))
             {
               cache=g_hash_table_new(g_str_hash, g_str_equal);
@@ -4434,24 +4434,24 @@ signed int cache_insert(char *key, enum anonymous$7 msgtype, struct FT_Wave *fwa
 
             else
               g_free((void *)key_table);
-            void *return_value_g_malloc$6;
-            return_value_g_malloc$6=g_malloc(sizeof(struct anonymous$16) /*40ul*/ );
-            centry = (struct anonymous$16 *)return_value_g_malloc$6;
+            void *return_value_g_malloc_6;
+            return_value_g_malloc_6=g_malloc(sizeof(struct anonymous_16) /*40ul*/ );
+            centry = (struct anonymous_16 *)return_value_g_malloc_6;
             centry->start=time((signed long int *)(void *)0);
             centry->count = 1;
             centry->size = (unsigned long int)fwave->num_samples * sizeof(signed short int) /*2ul*/ ;
             centry->p_caches = cache;
             centry->key=g_strdup(key);
             FestivalCache.cache_counter=g_list_append(FestivalCache.cache_counter, (void *)centry);
-            void *return_value_g_malloc$7;
-            return_value_g_malloc$7=g_malloc(sizeof(struct anonymous$17) /*16ul*/ );
-            entry = (struct anonymous$17 *)return_value_g_malloc$7;
+            void *return_value_g_malloc_7;
+            return_value_g_malloc_7=g_malloc(sizeof(struct anonymous_17) /*16ul*/ );
+            entry = (struct anonymous_17 *)return_value_g_malloc_7;
             entry->p_counter_entry = centry;
             entry->fwave = fwave;
             FestivalCache.size = FestivalCache.size + centry->size;
-            char *return_value_g_strdup$8;
-            return_value_g_strdup$8=g_strdup(key);
-            g_hash_table_insert(cache, (void *)return_value_g_strdup$8, (void *)entry);
+            char *return_value_g_strdup_8;
+            return_value_g_strdup_8=g_strdup(key);
+            g_hash_table_insert(cache, (void *)return_value_g_strdup_8, (void *)entry);
             return 0;
           }
         }
@@ -4460,10 +4460,10 @@ signed int cache_insert(char *key, enum anonymous$7 msgtype, struct FT_Wave *fwa
 
 // cache_lookup
 // file festival.c line 1118
-struct FT_Wave * cache_lookup(const char *key, enum anonymous$7 msgtype, signed int add_counter)
+struct FT_Wave * cache_lookup(const char *key, enum anonymous_7 msgtype, signed int add_counter)
 {
   struct _GHashTable *cache;
-  struct anonymous$17 *entry;
+  struct anonymous_17 *entry;
   char *key_table;
   if(FestivalCacheOn == 0)
     return (struct FT_Wave *)(void *)0;
@@ -4483,12 +4483,12 @@ struct FT_Wave * cache_lookup(const char *key, enum anonymous$7 msgtype, signed 
           struct timeval tv;
           char *tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$1;
-          return_value_ctime$1=ctime(&t);
-          tstr=g_strdup(return_value_ctime$1);
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+          char *return_value_ctime_1;
+          return_value_ctime_1=ctime(&t);
+          tstr=g_strdup(return_value_ctime_1);
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -4514,19 +4514,19 @@ struct FT_Wave * cache_lookup(const char *key, enum anonymous$7 msgtype, signed 
 
       else
       {
-        void *return_value_g_hash_table_lookup$3;
-        return_value_g_hash_table_lookup$3=g_hash_table_lookup(FestivalCache.caches, (const void *)key_table);
-        cache = (struct _GHashTable *)return_value_g_hash_table_lookup$3;
+        void *return_value_g_hash_table_lookup_3;
+        return_value_g_hash_table_lookup_3=g_hash_table_lookup(FestivalCache.caches, (const void *)key_table);
+        cache = (struct _GHashTable *)return_value_g_hash_table_lookup_3;
         g_free((void *)key_table);
         if(cache == ((struct _GHashTable *)NULL))
           return (struct FT_Wave *)(void *)0;
 
         else
         {
-          void *return_value_g_hash_table_lookup$4;
-          return_value_g_hash_table_lookup$4=g_hash_table_lookup(cache, (const void *)key);
-          entry = (struct anonymous$17 *)return_value_g_hash_table_lookup$4;
-          if(entry == ((struct anonymous$17 *)NULL))
+          void *return_value_g_hash_table_lookup_4;
+          return_value_g_hash_table_lookup_4=g_hash_table_lookup(cache, (const void *)key);
+          entry = (struct anonymous_17 *)return_value_g_hash_table_lookup_4;
+          if(entry == ((struct anonymous_17 *)NULL))
             return (struct FT_Wave *)(void *)0;
 
           else
@@ -4534,32 +4534,32 @@ struct FT_Wave * cache_lookup(const char *key, enum anonymous$7 msgtype, signed 
             entry->p_counter_entry->count = entry->p_counter_entry->count + 1;
             if(!(Debug == 0))
             {
-              signed long int cache_lookup$$1$$2$$t;
-              struct timeval cache_lookup$$1$$2$$tv;
-              char *cache_lookup$$1$$2$$tstr;
-              cache_lookup$$1$$2$$t=time((signed long int *)(void *)0);
-              char *return_value_ctime$5;
-              return_value_ctime$5=ctime(&cache_lookup$$1$$2$$t);
-              cache_lookup$$1$$2$$tstr=g_strdup(return_value_ctime$5);
-              unsigned long int return_value_strlen$6;
-              return_value_strlen$6=strlen(cache_lookup$$1$$2$$tstr);
-              cache_lookup$$1$$2$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-              gettimeofday(&cache_lookup$$1$$2$$tv, (struct timezone *)(void *)0);
-              fprintf(stderr, " %s [%d]", cache_lookup$$1$$2$$tstr, (signed int)cache_lookup$$1$$2$$tv.tv_usec);
+              signed long int cache_lookup__1__2__t;
+              struct timeval cache_lookup__1__2__tv;
+              char *cache_lookup__1__2__tstr;
+              cache_lookup__1__2__t=time((signed long int *)(void *)0);
+              char *return_value_ctime_5;
+              return_value_ctime_5=ctime(&cache_lookup__1__2__t);
+              cache_lookup__1__2__tstr=g_strdup(return_value_ctime_5);
+              unsigned long int return_value_strlen_6;
+              return_value_strlen_6=strlen(cache_lookup__1__2__tstr);
+              cache_lookup__1__2__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+              gettimeofday(&cache_lookup__1__2__tv, (struct timezone *)(void *)0);
+              fprintf(stderr, " %s [%d]", cache_lookup__1__2__tstr, (signed int)cache_lookup__1__2__tv.tv_usec);
               fprintf(stderr, ": ");
               fprintf(stderr, "Cache: corresponding wave found: %s", key);
               fprintf(stderr, "\n");
               fflush(stderr);
               if(Debug == 2 || Debug == 3)
               {
-                fprintf(CustomDebugFile, " %s [%d]", cache_lookup$$1$$2$$tstr, (signed int)cache_lookup$$1$$2$$tv.tv_usec);
+                fprintf(CustomDebugFile, " %s [%d]", cache_lookup__1__2__tstr, (signed int)cache_lookup__1__2__tv.tv_usec);
                 fprintf(CustomDebugFile, ": ");
                 fprintf(CustomDebugFile, "Cache: corresponding wave found: %s", key);
                 fprintf(CustomDebugFile, "\n");
                 fflush(CustomDebugFile);
               }
 
-              g_free((void *)cache_lookup$$1$$2$$tstr);
+              g_free((void *)cache_lookup__1__2__tstr);
             }
 
             return entry->fwave;
@@ -4621,21 +4621,21 @@ static struct FT_Wave * client_accept_waveform(signed int fd, signed int *stop_f
         sample_rate=nist_get_param_int(wavefile, "sample_rate", 16000);
         if(sizeof(signed short int) /*2ul*/  * (unsigned long int)num_samples + 1024ul == (unsigned long int)filesize)
         {
-          void *return_value_g_malloc$1;
-          return_value_g_malloc$1=g_malloc(sizeof(struct FT_Wave) /*16ul*/ );
-          wave = (struct FT_Wave *)return_value_g_malloc$1;
+          void *return_value_g_malloc_1;
+          return_value_g_malloc_1=g_malloc(sizeof(struct FT_Wave) /*16ul*/ );
+          wave = (struct FT_Wave *)return_value_g_malloc_1;
           if(!(Debug == 0))
           {
             signed long int t;
             struct timeval tv;
             char *tstr;
             t=time((signed long int *)(void *)0);
-            char *return_value_ctime$2;
-            return_value_ctime$2=ctime(&t);
-            tstr=g_strdup(return_value_ctime$2);
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(tstr);
-            tstr[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+            char *return_value_ctime_2;
+            return_value_ctime_2=ctime(&t);
+            tstr=g_strdup(return_value_ctime_2);
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(tstr);
+            tstr[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
             gettimeofday(&tv, (struct timezone *)(void *)0);
             fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
             fprintf(stderr, ": ");
@@ -4658,13 +4658,13 @@ static struct FT_Wave * client_accept_waveform(signed int fd, signed int *stop_f
           wave->sample_rate = sample_rate;
           if(!(num_samples == 0))
           {
-            void *return_value_g_malloc$4;
-            return_value_g_malloc$4=g_malloc((unsigned long int)num_samples * sizeof(signed short int) /*2ul*/ );
-            wave->samples = (signed short int *)return_value_g_malloc$4;
+            void *return_value_g_malloc_4;
+            return_value_g_malloc_4=g_malloc((unsigned long int)num_samples * sizeof(signed short int) /*2ul*/ );
+            wave->samples = (signed short int *)return_value_g_malloc_4;
             memmove((void *)wave->samples, (const void *)(wavefile + (signed long int)1024), (unsigned long int)num_samples * sizeof(signed short int) /*2ul*/ );
-            signed int return_value_nist_require_swap$5;
-            return_value_nist_require_swap$5=nist_require_swap(wavefile);
-            if(!(return_value_nist_require_swap$5 == 0))
+            signed int return_value_nist_require_swap_5;
+            return_value_nist_require_swap_5=nist_require_swap(wavefile);
+            if(!(return_value_nist_require_swap_5 == 0))
             {
               i = 0;
               for( ; !(i >= num_samples); i = i + 1)
@@ -4722,27 +4722,27 @@ char * do_audio(void)
   char *msg;
   printf("207 OK RECEIVING AUDIO SETTINGS\n");
   fflush(stdout);
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
   while((_Bool)1)
   {
     line = (char *)(void *)0;
     n = (unsigned long int)0;
-    signed long int return_value_spd_getline$1;
-    return_value_spd_getline$1=spd_getline(&line, &n, stdin);
-    ret = (signed int)return_value_spd_getline$1;
+    signed long int return_value_spd_getline_1;
+    return_value_spd_getline_1=spd_getline(&line, &n, stdin);
+    ret = (signed int)return_value_spd_getline_1;
     if(ret == -1)
     {
       err = 1;
       break;
     }
 
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(line, ".\n");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(line, ".\n");
+    if(return_value_strcmp_2 == 0)
     {
       g_free((void *)line);
       break;
@@ -4764,14 +4764,14 @@ char * do_audio(void)
         continue;
       }
 
-      signed int return_value_strcmp$14;
-      return_value_strcmp$14=strcmp(cur_item, "audio_output_method");
-      if(return_value_strcmp$14 == 0)
+      signed int return_value_strcmp_14;
+      return_value_strcmp_14=strcmp(cur_item, "audio_output_method");
+      if(return_value_strcmp_14 == 0)
       {
         g_free((void *)module_audio_pars[(signed long int)0]);
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(cur_value, "NULL");
-        if(return_value_strcmp$3 == 0)
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(cur_value, "NULL");
+        if(return_value_strcmp_3 == 0)
           module_audio_pars[(signed long int)0] = (char *)(void *)0;
 
         else
@@ -4780,13 +4780,13 @@ char * do_audio(void)
 
       else
       {
-        return_value_strcmp$13=strcmp(cur_item, "audio_oss_device");
-        if(return_value_strcmp$13 == 0)
+        return_value_strcmp_13=strcmp(cur_item, "audio_oss_device");
+        if(return_value_strcmp_13 == 0)
         {
           g_free((void *)module_audio_pars[(signed long int)1]);
-          signed int return_value_strcmp$4;
-          return_value_strcmp$4=strcmp(cur_value, "NULL");
-          if(return_value_strcmp$4 == 0)
+          signed int return_value_strcmp_4;
+          return_value_strcmp_4=strcmp(cur_value, "NULL");
+          if(return_value_strcmp_4 == 0)
             module_audio_pars[(signed long int)1] = (char *)(void *)0;
 
           else
@@ -4795,13 +4795,13 @@ char * do_audio(void)
 
         else
         {
-          return_value_strcmp$12=strcmp(cur_item, "audio_alsa_device");
-          if(return_value_strcmp$12 == 0)
+          return_value_strcmp_12=strcmp(cur_item, "audio_alsa_device");
+          if(return_value_strcmp_12 == 0)
           {
             g_free((void *)module_audio_pars[(signed long int)2]);
-            signed int return_value_strcmp$5;
-            return_value_strcmp$5=strcmp(cur_value, "NULL");
-            if(return_value_strcmp$5 == 0)
+            signed int return_value_strcmp_5;
+            return_value_strcmp_5=strcmp(cur_value, "NULL");
+            if(return_value_strcmp_5 == 0)
               module_audio_pars[(signed long int)2] = (char *)(void *)0;
 
             else
@@ -4810,13 +4810,13 @@ char * do_audio(void)
 
           else
           {
-            return_value_strcmp$11=strcmp(cur_item, "audio_nas_server");
-            if(return_value_strcmp$11 == 0)
+            return_value_strcmp_11=strcmp(cur_item, "audio_nas_server");
+            if(return_value_strcmp_11 == 0)
             {
               g_free((void *)module_audio_pars[(signed long int)3]);
-              signed int return_value_strcmp$6;
-              return_value_strcmp$6=strcmp(cur_value, "NULL");
-              if(return_value_strcmp$6 == 0)
+              signed int return_value_strcmp_6;
+              return_value_strcmp_6=strcmp(cur_value, "NULL");
+              if(return_value_strcmp_6 == 0)
                 module_audio_pars[(signed long int)3] = (char *)(void *)0;
 
               else
@@ -4825,13 +4825,13 @@ char * do_audio(void)
 
             else
             {
-              return_value_strcmp$10=strcmp(cur_item, "audio_pulse_server");
-              if(return_value_strcmp$10 == 0)
+              return_value_strcmp_10=strcmp(cur_item, "audio_pulse_server");
+              if(return_value_strcmp_10 == 0)
               {
                 g_free((void *)module_audio_pars[(signed long int)4]);
-                signed int return_value_strcmp$7;
-                return_value_strcmp$7=strcmp(cur_value, "NULL");
-                if(return_value_strcmp$7 == 0)
+                signed int return_value_strcmp_7;
+                return_value_strcmp_7=strcmp(cur_value, "NULL");
+                if(return_value_strcmp_7 == 0)
                   module_audio_pars[(signed long int)4] = (char *)(void *)0;
 
                 else
@@ -4840,13 +4840,13 @@ char * do_audio(void)
 
               else
               {
-                return_value_strcmp$9=strcmp(cur_item, "audio_pulse_min_length");
-                if(return_value_strcmp$9 == 0)
+                return_value_strcmp_9=strcmp(cur_item, "audio_pulse_min_length");
+                if(return_value_strcmp_9 == 0)
                 {
                   g_free((void *)module_audio_pars[(signed long int)5]);
-                  signed int return_value_strcmp$8;
-                  return_value_strcmp$8=strcmp(cur_value, "NULL");
-                  if(return_value_strcmp$8 == 0)
+                  signed int return_value_strcmp_8;
+                  return_value_strcmp_8=strcmp(cur_value, "NULL");
+                  if(return_value_strcmp_8 == 0)
                     module_audio_pars[(signed long int)5] = (char *)(void *)0;
 
                   else
@@ -4864,19 +4864,19 @@ char * do_audio(void)
 
     g_free((void *)line);
   }
-  char *return_value_g_strdup$15;
-  char *return_value_g_strdup$16;
+  char *return_value_g_strdup_15;
+  char *return_value_g_strdup_16;
   if(err == 1)
   {
-    return_value_g_strdup$15=g_strdup("302 ERROR BAD SYNTAX");
-    return return_value_g_strdup$15;
+    return_value_g_strdup_15=g_strdup("302 ERROR BAD SYNTAX");
+    return return_value_g_strdup_15;
   }
 
   else
     if(err == 2)
     {
-      return_value_g_strdup$16=g_strdup("303 ERROR INVALID PARAMETER OR VALUE");
-      return return_value_g_strdup$16;
+      return_value_g_strdup_16=g_strdup("303 ERROR INVALID PARAMETER OR VALUE");
+      return return_value_g_strdup_16;
     }
 
     else
@@ -4896,9 +4896,9 @@ char * do_audio(void)
 // file module_utils.h line 192
 char * do_char(void)
 {
-  char *return_value_do_message$1;
-  return_value_do_message$1=do_message((enum anonymous$7)SPD_MSGTYPE_CHAR);
-  return return_value_do_message$1;
+  char *return_value_do_message_1;
+  return_value_do_message_1=do_message((enum anonymous_7)SPD_MSGTYPE_CHAR);
+  return return_value_do_message_1;
 }
 
 // do_debug
@@ -4911,53 +4911,53 @@ char * do_debug(char *cmd_buf)
   if(cmd[1l] == ((char *)NULL))
   {
     g_strfreev(cmd);
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("302 ERROR BAD SYNTAX");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("302 ERROR BAD SYNTAX");
+    return return_value_g_strdup_1;
   }
 
-  signed int return_value_strcmp$20;
-  return_value_strcmp$20=strcmp(cmd[(signed long int)1], "ON");
-  signed int return_value_strcmp$19;
-  if(return_value_strcmp$20 == 0)
+  signed int return_value_strcmp_20;
+  return_value_strcmp_20=strcmp(cmd[(signed long int)1], "ON");
+  signed int return_value_strcmp_19;
+  if(return_value_strcmp_20 == 0)
   {
     if(cmd[2l] == ((char *)NULL))
     {
       g_strfreev(cmd);
-      char *return_value_g_strdup$2;
-      return_value_g_strdup$2=g_strdup("302 ERROR BAD SYNTAX");
-      return return_value_g_strdup$2;
+      char *return_value_g_strdup_2;
+      return_value_g_strdup_2=g_strdup("302 ERROR BAD SYNTAX");
+      return return_value_g_strdup_2;
     }
 
     filename = cmd[(signed long int)2];
     if(!(Debug == 0))
     {
-      signed long int do_debug$$1$$2$$2$$t;
-      struct timeval do_debug$$1$$2$$2$$tv;
-      char *do_debug$$1$$2$$2$$tstr;
-      do_debug$$1$$2$$2$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$3;
-      return_value_ctime$3=ctime(&do_debug$$1$$2$$2$$t);
-      do_debug$$1$$2$$2$$tstr=g_strdup(return_value_ctime$3);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(do_debug$$1$$2$$2$$tstr);
-      do_debug$$1$$2$$2$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&do_debug$$1$$2$$2$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", do_debug$$1$$2$$2$$tstr, (signed int)do_debug$$1$$2$$2$$tv.tv_usec);
+      signed long int do_debug__1__2__2__t;
+      struct timeval do_debug__1__2__2__tv;
+      char *do_debug__1__2__2__tstr;
+      do_debug__1__2__2__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_3;
+      return_value_ctime_3=ctime(&do_debug__1__2__2__t);
+      do_debug__1__2__2__tstr=g_strdup(return_value_ctime_3);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(do_debug__1__2__2__tstr);
+      do_debug__1__2__2__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&do_debug__1__2__2__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", do_debug__1__2__2__tstr, (signed int)do_debug__1__2__2__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Additional logging into specific path %s requested", filename);
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", do_debug$$1$$2$$2$$tstr, (signed int)do_debug$$1$$2$$2$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", do_debug__1__2__2__tstr, (signed int)do_debug__1__2__2__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Additional logging into specific path %s requested", filename);
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)do_debug$$1$$2$$2$$tstr);
+      g_free((void *)do_debug__1__2__2__tstr);
     }
 
     CustomDebugFile=fopen(filename, "w+");
@@ -4965,49 +4965,49 @@ char * do_debug(char *cmd_buf)
     {
       if(!(Debug == 0))
       {
-        signed long int do_debug$$1$$2$$3$$1$$t;
-        struct timeval do_debug$$1$$2$$3$$1$$tv;
-        char *do_debug$$1$$2$$3$$1$$tstr;
-        do_debug$$1$$2$$3$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$5;
-        return_value_ctime$5=ctime(&do_debug$$1$$2$$3$$1$$t);
-        do_debug$$1$$2$$3$$1$$tstr=g_strdup(return_value_ctime$5);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(do_debug$$1$$2$$3$$1$$tstr);
-        do_debug$$1$$2$$3$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&do_debug$$1$$2$$3$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", do_debug$$1$$2$$3$$1$$tstr, (signed int)do_debug$$1$$2$$3$$1$$tv.tv_usec);
+        signed long int do_debug__1__2__3__1__t;
+        struct timeval do_debug__1__2__3__1__tv;
+        char *do_debug__1__2__3__1__tstr;
+        do_debug__1__2__3__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_5;
+        return_value_ctime_5=ctime(&do_debug__1__2__3__1__t);
+        do_debug__1__2__3__1__tstr=g_strdup(return_value_ctime_5);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(do_debug__1__2__3__1__tstr);
+        do_debug__1__2__3__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&do_debug__1__2__3__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", do_debug__1__2__3__1__tstr, (signed int)do_debug__1__2__3__1__tv.tv_usec);
         fprintf(stderr, ": ");
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        char *return_value_strerror$9;
-        return_value_strerror$9=strerror(*return_value___errno_location$8);
-        fprintf(stderr, "ERROR: Can't open custom debug file for logging: %d (%s)", *return_value___errno_location$7, return_value_strerror$9);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        char *return_value_strerror_9;
+        return_value_strerror_9=strerror(*return_value___errno_location_8);
+        fprintf(stderr, "ERROR: Can't open custom debug file for logging: %d (%s)", *return_value___errno_location_7, return_value_strerror_9);
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", do_debug$$1$$2$$3$$1$$tstr, (signed int)do_debug$$1$$2$$3$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", do_debug__1__2__3__1__tstr, (signed int)do_debug__1__2__3__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          signed int *return_value___errno_location$11;
-          return_value___errno_location$11=__errno_location();
-          char *return_value_strerror$12;
-          return_value_strerror$12=strerror(*return_value___errno_location$11);
-          fprintf(CustomDebugFile, "ERROR: Can't open custom debug file for logging: %d (%s)", *return_value___errno_location$10, return_value_strerror$12);
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          signed int *return_value___errno_location_11;
+          return_value___errno_location_11=__errno_location();
+          char *return_value_strerror_12;
+          return_value_strerror_12=strerror(*return_value___errno_location_11);
+          fprintf(CustomDebugFile, "ERROR: Can't open custom debug file for logging: %d (%s)", *return_value___errno_location_10, return_value_strerror_12);
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)do_debug$$1$$2$$3$$1$$tstr);
+        g_free((void *)do_debug__1__2__3__1__tstr);
       }
 
-      char *return_value_g_strdup$13;
-      return_value_g_strdup$13=g_strdup("303 CANT OPEN CUSTOM DEBUG FILE");
-      return return_value_g_strdup$13;
+      char *return_value_g_strdup_13;
+      return_value_g_strdup_13=g_strdup("303 CANT OPEN CUSTOM DEBUG FILE");
+      return return_value_g_strdup_13;
     }
 
     if(Debug == 1)
@@ -5021,12 +5021,12 @@ char * do_debug(char *cmd_buf)
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$14;
-      return_value_ctime$14=ctime(&t);
-      tstr=g_strdup(return_value_ctime$14);
-      unsigned long int return_value_strlen$15;
-      return_value_strlen$15=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$15 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_14;
+      return_value_ctime_14=ctime(&t);
+      tstr=g_strdup(return_value_ctime_14);
+      unsigned long int return_value_strlen_15;
+      return_value_strlen_15=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_15 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -5049,8 +5049,8 @@ char * do_debug(char *cmd_buf)
 
   else
   {
-    return_value_strcmp$19=strcmp(cmd[(signed long int)1], "OFF");
-    if(return_value_strcmp$19 == 0)
+    return_value_strcmp_19=strcmp(cmd[(signed long int)1], "OFF");
+    if(return_value_strcmp_19 == 0)
     {
       if(Debug == 3)
         Debug = 1;
@@ -5063,108 +5063,108 @@ char * do_debug(char *cmd_buf)
       CustomDebugFile = (struct _IO_FILE *)(void *)0;
       if(!(Debug == 0))
       {
-        signed long int do_debug$$1$$3$$1$$t;
-        struct timeval do_debug$$1$$3$$1$$tv;
-        char *do_debug$$1$$3$$1$$tstr;
-        do_debug$$1$$3$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$16;
-        return_value_ctime$16=ctime(&do_debug$$1$$3$$1$$t);
-        do_debug$$1$$3$$1$$tstr=g_strdup(return_value_ctime$16);
-        unsigned long int return_value_strlen$17;
-        return_value_strlen$17=strlen(do_debug$$1$$3$$1$$tstr);
-        do_debug$$1$$3$$1$$tstr[(signed long int)(return_value_strlen$17 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&do_debug$$1$$3$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", do_debug$$1$$3$$1$$tstr, (signed int)do_debug$$1$$3$$1$$tv.tv_usec);
+        signed long int do_debug__1__3__1__t;
+        struct timeval do_debug__1__3__1__tv;
+        char *do_debug__1__3__1__tstr;
+        do_debug__1__3__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_16;
+        return_value_ctime_16=ctime(&do_debug__1__3__1__t);
+        do_debug__1__3__1__tstr=g_strdup(return_value_ctime_16);
+        unsigned long int return_value_strlen_17;
+        return_value_strlen_17=strlen(do_debug__1__3__1__tstr);
+        do_debug__1__3__1__tstr[(signed long int)(return_value_strlen_17 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&do_debug__1__3__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", do_debug__1__3__1__tstr, (signed int)do_debug__1__3__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Additional logging into specific path terminated");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", do_debug$$1$$3$$1$$tstr, (signed int)do_debug$$1$$3$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", do_debug__1__3__1__tstr, (signed int)do_debug__1__3__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Additional logging into specific path terminated");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)do_debug$$1$$3$$1$$tstr);
+        g_free((void *)do_debug__1__3__1__tstr);
       }
 
     }
 
     else
     {
-      char *return_value_g_strdup$18;
-      return_value_g_strdup$18=g_strdup("302 ERROR BAD SYNTAX");
-      return return_value_g_strdup$18;
+      char *return_value_g_strdup_18;
+      return_value_g_strdup_18=g_strdup("302 ERROR BAD SYNTAX");
+      return return_value_g_strdup_18;
     }
   }
   g_strfreev(cmd);
-  char *return_value_g_strdup$21;
-  return_value_g_strdup$21=g_strdup("200 OK DEBUGGING ON");
-  return return_value_g_strdup$21;
+  char *return_value_g_strdup_21;
+  return_value_g_strdup_21=g_strdup("200 OK DEBUGGING ON");
+  return return_value_g_strdup_21;
 }
 
 // do_key
 // file module_utils.h line 193
 char * do_key(void)
 {
-  char *return_value_do_message$1;
-  return_value_do_message$1=do_message((enum anonymous$7)SPD_MSGTYPE_KEY);
-  return return_value_do_message$1;
+  char *return_value_do_message_1;
+  return_value_do_message_1=do_message((enum anonymous_7)SPD_MSGTYPE_KEY);
+  return return_value_do_message_1;
 }
 
 // do_list_voices
 // file module_utils.h line 196
 char * do_list_voices(void)
 {
-  struct anonymous$14 **voices;
+  struct anonymous_14 **voices;
   signed int i;
   char *lang;
   char *variant;
   struct _GString *voice_list;
   voices=module_list_voices();
-  if(voices == ((struct anonymous$14 **)NULL))
+  if(voices == ((struct anonymous_14 **)NULL))
   {
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("304 CANT LIST VOICES");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("304 CANT LIST VOICES");
+    return return_value_g_strdup_1;
   }
 
   voice_list=g_string_new("");
   i = 0;
-  for( ; !(voices[(signed long int)i] == ((struct anonymous$14 *)NULL)); i = i + 1)
+  for( ; !(voices[(signed long int)i] == ((struct anonymous_14 *)NULL)); i = i + 1)
     if(voices[(signed long int)i]->name == ((char *)NULL))
     {
       if(!(Debug == 0))
       {
         signed long int t;
         struct timeval tv;
-        char *do_list_voices$$1$$2$$1$$1$$1$$tstr;
+        char *do_list_voices__1__2__1__1__1__tstr;
         t=time((signed long int *)(void *)0);
-        char *return_value_ctime$2;
-        return_value_ctime$2=ctime(&t);
-        do_list_voices$$1$$2$$1$$1$$1$$tstr=g_strdup(return_value_ctime$2);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(do_list_voices$$1$$2$$1$$1$$1$$tstr);
-        do_list_voices$$1$$2$$1$$1$$1$$tstr[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+        char *return_value_ctime_2;
+        return_value_ctime_2=ctime(&t);
+        do_list_voices__1__2__1__1__1__tstr=g_strdup(return_value_ctime_2);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(do_list_voices__1__2__1__1__1__tstr);
+        do_list_voices__1__2__1__1__1__tstr[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
         gettimeofday(&tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", do_list_voices$$1$$2$$1$$1$$1$$tstr, (signed int)tv.tv_usec);
+        fprintf(stderr, " %s [%d]", do_list_voices__1__2__1__1__1__tstr, (signed int)tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Unnamed voice found; ignoring it.");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", do_list_voices$$1$$2$$1$$1$$1$$tstr, (signed int)tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", do_list_voices__1__2__1__1__1__tstr, (signed int)tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Unnamed voice found; ignoring it.");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)do_list_voices$$1$$2$$1$$1$$1$$tstr);
+        g_free((void *)do_list_voices__1__2__1__1__1__tstr);
       }
 
     }
@@ -5186,33 +5186,33 @@ char * do_list_voices(void)
   if(voice_list->len == 0ul)
   {
     g_string_free(voice_list, (signed int)!(0 != 0));
-    char *return_value_g_strdup$4;
-    return_value_g_strdup$4=g_strdup("304 CANT LIST VOICES");
-    return return_value_g_strdup$4;
+    char *return_value_g_strdup_4;
+    return_value_g_strdup_4=g_strdup("304 CANT LIST VOICES");
+    return return_value_g_strdup_4;
   }
 
   g_string_append(voice_list, "200 OK VOICE LIST SENT");
   if(!(Debug == 0))
   {
-    signed long int do_list_voices$$1$$4$$t;
-    struct timeval do_list_voices$$1$$4$$tv;
+    signed long int do_list_voices__1__4__t;
+    struct timeval do_list_voices__1__4__tv;
     char *tstr;
-    do_list_voices$$1$$4$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$5;
-    return_value_ctime$5=ctime(&do_list_voices$$1$$4$$t);
-    tstr=g_strdup(return_value_ctime$5);
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&do_list_voices$$1$$4$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", tstr, (signed int)do_list_voices$$1$$4$$tv.tv_usec);
+    do_list_voices__1__4__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_5;
+    return_value_ctime_5=ctime(&do_list_voices__1__4__t);
+    tstr=g_strdup(return_value_ctime_5);
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&do_list_voices__1__4__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", tstr, (signed int)do_list_voices__1__4__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "Voice prepared to  send to speechd");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)do_list_voices$$1$$4$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)do_list_voices__1__4__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "Voice prepared to  send to speechd");
       fprintf(CustomDebugFile, "\n");
@@ -5222,9 +5222,9 @@ char * do_list_voices(void)
     g_free((void *)tstr);
   }
 
-  char *return_value_g_string_free$7;
-  return_value_g_string_free$7=g_string_free(voice_list, 0);
-  return return_value_g_string_free$7;
+  char *return_value_g_string_free_7;
+  return_value_g_string_free_7=g_string_free(voice_list, 0);
+  return return_value_g_string_free_7;
 }
 
 // do_loglevel
@@ -5246,18 +5246,18 @@ char * do_loglevel(void)
   {
     line = (char *)(void *)0;
     n = (unsigned long int)0;
-    signed long int return_value_spd_getline$1;
-    return_value_spd_getline$1=spd_getline(&line, &n, stdin);
-    ret = (signed int)return_value_spd_getline$1;
+    signed long int return_value_spd_getline_1;
+    return_value_spd_getline_1=spd_getline(&line, &n, stdin);
+    ret = (signed int)return_value_spd_getline_1;
     if(ret == -1)
     {
       err = 1;
       break;
     }
 
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(line, ".\n");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(line, ".\n");
+    if(return_value_strcmp_2 == 0)
     {
       g_free((void *)line);
       break;
@@ -5279,13 +5279,13 @@ char * do_loglevel(void)
         continue;
       }
 
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp(cur_item, "log_level");
-      if(return_value_strcmp$4 == 0)
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp(cur_item, "log_level");
+      if(return_value_strcmp_4 == 0)
       {
-        signed long int return_value_strtol$3;
-        return_value_strtol$3=strtol(cur_value, &tptr, 10);
-        number = (signed int)return_value_strtol$3;
+        signed long int return_value_strtol_3;
+        return_value_strtol_3=strtol(cur_value, &tptr, 10);
+        number = (signed int)return_value_strtol_3;
         if(tptr == cur_value)
         {
           err = 2;
@@ -5302,19 +5302,19 @@ char * do_loglevel(void)
 
     g_free((void *)line);
   }
-  char *return_value_g_strdup$5;
-  char *return_value_g_strdup$6;
+  char *return_value_g_strdup_5;
+  char *return_value_g_strdup_6;
   if(err == 1)
   {
-    return_value_g_strdup$5=g_strdup("302 ERROR BAD SYNTAX");
-    return return_value_g_strdup$5;
+    return_value_g_strdup_5=g_strdup("302 ERROR BAD SYNTAX");
+    return return_value_g_strdup_5;
   }
 
   else
     if(err == 2)
     {
-      return_value_g_strdup$6=g_strdup("303 ERROR INVALID PARAMETER OR VALUE");
-      return return_value_g_strdup$6;
+      return_value_g_strdup_6=g_strdup("303 ERROR INVALID PARAMETER OR VALUE");
+      return return_value_g_strdup_6;
     }
 
     else
@@ -5326,7 +5326,7 @@ char * do_loglevel(void)
 
 // do_message
 // file module_utils.c line 43
-char * do_message(enum anonymous$7 msgtype)
+char * do_message(enum anonymous_7 msgtype)
 {
   signed int ret;
   char *cur_line;
@@ -5336,25 +5336,25 @@ char * do_message(enum anonymous$7 msgtype)
   msg=g_string_new("");
   printf("202 OK RECEIVING MESSAGE\n");
   fflush(stdout);
-  char *return_value_g_strdup$2;
-  signed int return_value_strcmp$4;
+  char *return_value_g_strdup_2;
+  signed int return_value_strcmp_4;
   while((_Bool)1)
   {
     cur_line = (char *)(void *)0;
     n = (unsigned long int)0;
-    signed long int return_value_spd_getline$1;
-    return_value_spd_getline$1=spd_getline(&cur_line, &n, stdin);
-    ret = (signed int)return_value_spd_getline$1;
+    signed long int return_value_spd_getline_1;
+    return_value_spd_getline_1=spd_getline(&cur_line, &n, stdin);
+    ret = (signed int)return_value_spd_getline_1;
     nlines = nlines + 1;
     if(ret == -1)
     {
-      return_value_g_strdup$2=g_strdup("401 ERROR INTERNAL");
-      return return_value_g_strdup$2;
+      return_value_g_strdup_2=g_strdup("401 ERROR INTERNAL");
+      return return_value_g_strdup_2;
     }
 
-    signed int return_value_strcmp$5;
-    return_value_strcmp$5=strcmp(cur_line, "..\n");
-    if(return_value_strcmp$5 == 0)
+    signed int return_value_strcmp_5;
+    return_value_strcmp_5=strcmp(cur_line, "..\n");
+    if(return_value_strcmp_5 == 0)
     {
       g_free((void *)cur_line);
       cur_line=g_strdup(".\n");
@@ -5362,12 +5362,12 @@ char * do_message(enum anonymous$7 msgtype)
 
     else
     {
-      return_value_strcmp$4=strcmp(cur_line, ".\n");
-      if(return_value_strcmp$4 == 0)
+      return_value_strcmp_4=strcmp(cur_line, ".\n");
+      if(return_value_strcmp_4 == 0)
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(msg->str);
-        msg->str[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(msg->str);
+        msg->str[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
         g_free((void *)cur_line);
         break;
       }
@@ -5378,16 +5378,16 @@ char * do_message(enum anonymous$7 msgtype)
   }
   if(nlines >= 3 && !((signed int)msgtype == SPD_MSGTYPE_TEXT))
   {
-    char *return_value_g_strdup$6;
-    return_value_g_strdup$6=g_strdup("305 DATA MORE THAN ONE LINE");
-    return return_value_g_strdup$6;
+    char *return_value_g_strdup_6;
+    return_value_g_strdup_6=g_strdup("305 DATA MORE THAN ONE LINE");
+    return return_value_g_strdup_6;
   }
 
-  signed int return_value_strcmp$7;
+  signed int return_value_strcmp_7;
   if((signed int)msgtype == SPD_MSGTYPE_CHAR)
   {
-    return_value_strcmp$7=strcmp(msg->str, "space");
-    if(return_value_strcmp$7 == 0)
+    return_value_strcmp_7=strcmp(msg->str, "space");
+    if(return_value_strcmp_7 == 0)
     {
       g_string_free(msg, 1);
       msg=g_string_new(" ");
@@ -5395,13 +5395,13 @@ char * do_message(enum anonymous$7 msgtype)
 
   }
 
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_11;
   if(msg->str == ((char *)NULL))
-    tmp_if_expr$11 = (_Bool)1;
+    tmp_if_expr_11 = (_Bool)1;
 
   else
-    tmp_if_expr$11 = (signed int)msg->str[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (signed int)msg->str[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_11)
   {
     if(!(Debug == 0))
     {
@@ -5409,12 +5409,12 @@ char * do_message(enum anonymous$7 msgtype)
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$8;
-      return_value_ctime$8=ctime(&t);
-      tstr=g_strdup(return_value_ctime$8);
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_8;
+      return_value_ctime_8=ctime(&t);
+      tstr=g_strdup(return_value_ctime_8);
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -5434,66 +5434,66 @@ char * do_message(enum anonymous$7 msgtype)
     }
 
     g_string_free(msg, (signed int)!(0 != 0));
-    char *return_value_g_strdup$10;
-    return_value_g_strdup$10=g_strdup("301 ERROR CANT SPEAK");
-    return return_value_g_strdup$10;
+    char *return_value_g_strdup_10;
+    return_value_g_strdup_10=g_strdup("301 ERROR CANT SPEAK");
+    return return_value_g_strdup_10;
   }
 
   if(msg_settings.voice.name == ((char *)NULL) && msg_settings.voice_type == msg_settings_old.voice_type && !(msg_settings_old.voice.name == ((char *)NULL)))
-    msg_settings_old.voice_type = (enum anonymous$11)-1;
+    msg_settings_old.voice_type = (enum anonymous_11)-1;
 
-  signed int return_value_spd_audio_set_volume$14;
-  return_value_spd_audio_set_volume$14=spd_audio_set_volume(module_audio_id, 85);
-  if(!(return_value_spd_audio_set_volume$14 >= 0))
+  signed int return_value_spd_audio_set_volume_14;
+  return_value_spd_audio_set_volume_14=spd_audio_set_volume(module_audio_id, 85);
+  if(!(return_value_spd_audio_set_volume_14 >= 0))
   {
     if(!(Debug == 0))
     {
-      signed long int do_message$$1$$6$$1$$t;
-      struct timeval do_message$$1$$6$$1$$tv;
-      char *do_message$$1$$6$$1$$tstr;
-      do_message$$1$$6$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$12;
-      return_value_ctime$12=ctime(&do_message$$1$$6$$1$$t);
-      do_message$$1$$6$$1$$tstr=g_strdup(return_value_ctime$12);
-      unsigned long int return_value_strlen$13;
-      return_value_strlen$13=strlen(do_message$$1$$6$$1$$tstr);
-      do_message$$1$$6$$1$$tstr[(signed long int)(return_value_strlen$13 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&do_message$$1$$6$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", do_message$$1$$6$$1$$tstr, (signed int)do_message$$1$$6$$1$$tv.tv_usec);
+      signed long int do_message__1__6__1__t;
+      struct timeval do_message__1__6__1__tv;
+      char *do_message__1__6__1__tstr;
+      do_message__1__6__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_12;
+      return_value_ctime_12=ctime(&do_message__1__6__1__t);
+      do_message__1__6__1__tstr=g_strdup(return_value_ctime_12);
+      unsigned long int return_value_strlen_13;
+      return_value_strlen_13=strlen(do_message__1__6__1__tstr);
+      do_message__1__6__1__tstr[(signed long int)(return_value_strlen_13 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&do_message__1__6__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", do_message__1__6__1__tstr, (signed int)do_message__1__6__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Can't set volume. audio not initialized?");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", do_message$$1$$6$$1$$tstr, (signed int)do_message$$1$$6$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", do_message__1__6__1__tstr, (signed int)do_message__1__6__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Can't set volume. audio not initialized?");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)do_message$$1$$6$$1$$tstr);
+      g_free((void *)do_message__1__6__1__tstr);
     }
 
   }
 
-  unsigned long int return_value_strlen$15;
-  return_value_strlen$15=strlen(msg->str);
-  ret=module_speak(msg->str, return_value_strlen$15, msgtype);
+  unsigned long int return_value_strlen_15;
+  return_value_strlen_15=strlen(msg->str);
+  ret=module_speak(msg->str, return_value_strlen_15, msgtype);
   g_string_free(msg, 1);
-  char *return_value_g_strdup$16;
+  char *return_value_g_strdup_16;
   if(!(ret >= 1))
   {
-    return_value_g_strdup$16=g_strdup("301 ERROR CANT SPEAK");
-    return return_value_g_strdup$16;
+    return_value_g_strdup_16=g_strdup("301 ERROR CANT SPEAK");
+    return return_value_g_strdup_16;
   }
 
   else
   {
-    char *return_value_g_strdup$17;
-    return_value_g_strdup$17=g_strdup("200 OK SPEAKING");
-    return return_value_g_strdup$17;
+    char *return_value_g_strdup_17;
+    return_value_g_strdup_17=g_strdup("200 OK SPEAKING");
+    return return_value_g_strdup_17;
   }
 }
 
@@ -5502,9 +5502,9 @@ char * do_message(enum anonymous$7 msgtype)
 void do_pause(void)
 {
   signed int ret;
-  unsigned long int return_value_module_pause$1;
-  return_value_module_pause$1=module_pause();
-  ret = (signed int)return_value_module_pause$1;
+  unsigned long int return_value_module_pause_1;
+  return_value_module_pause_1=module_pause();
+  ret = (signed int)return_value_module_pause_1;
   if(!(ret == 0))
   {
     if(!(Debug == 0))
@@ -5513,12 +5513,12 @@ void do_pause(void)
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$2;
-      return_value_ctime$2=ctime(&t);
-      tstr=g_strdup(return_value_ctime$2);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_2;
+      return_value_ctime_2=ctime(&t);
+      tstr=g_strdup(return_value_ctime_2);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -5553,7 +5553,7 @@ void do_quit(void)
   printf("210 OK QUIT\n");
   fflush(stdout);
   spd_audio_close(module_audio_id);
-  module_audio_id = (struct anonymous$2 *)(void *)0;
+  module_audio_id = (struct anonymous_2 *)(void *)0;
   module_close();
 }
 
@@ -5571,30 +5571,30 @@ char * do_set(void)
   signed int err = 0;
   printf("203 OK RECEIVING SETTINGS\n");
   fflush(stdout);
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
   while((_Bool)1)
   {
     line = (char *)(void *)0;
     n = (unsigned long int)0;
-    signed long int return_value_spd_getline$1;
-    return_value_spd_getline$1=spd_getline(&line, &n, stdin);
-    ret = (signed int)return_value_spd_getline$1;
+    signed long int return_value_spd_getline_1;
+    return_value_spd_getline_1=spd_getline(&line, &n, stdin);
+    ret = (signed int)return_value_spd_getline_1;
     if(ret == -1)
     {
       err = 1;
       break;
     }
 
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(line, ".\n");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(line, ".\n");
+    if(return_value_strcmp_2 == 0)
     {
       g_free((void *)line);
       break;
@@ -5616,13 +5616,13 @@ char * do_set(void)
         continue;
       }
 
-      signed int return_value_strcmp$20;
-      return_value_strcmp$20=strcmp(cur_item, "rate");
-      if(return_value_strcmp$20 == 0)
+      signed int return_value_strcmp_20;
+      return_value_strcmp_20=strcmp(cur_item, "rate");
+      if(return_value_strcmp_20 == 0)
       {
-        signed long int return_value_strtol$3;
-        return_value_strtol$3=strtol(cur_value, &tptr, 10);
-        number = (signed int)return_value_strtol$3;
+        signed long int return_value_strtol_3;
+        return_value_strtol_3=strtol(cur_value, &tptr, 10);
+        number = (signed int)return_value_strtol_3;
         if(!(number >= -100) || number >= 101)
         {
           err = 2;
@@ -5640,12 +5640,12 @@ char * do_set(void)
 
       else
       {
-        return_value_strcmp$19=strcmp(cur_item, "pitch");
-        if(return_value_strcmp$19 == 0)
+        return_value_strcmp_19=strcmp(cur_item, "pitch");
+        if(return_value_strcmp_19 == 0)
         {
-          signed long int return_value_strtol$4;
-          return_value_strtol$4=strtol(cur_value, &tptr, 10);
-          number = (signed int)return_value_strtol$4;
+          signed long int return_value_strtol_4;
+          return_value_strtol_4=strtol(cur_value, &tptr, 10);
+          number = (signed int)return_value_strtol_4;
           if(!(number >= -100) || number >= 101)
           {
             err = 2;
@@ -5663,12 +5663,12 @@ char * do_set(void)
 
         else
         {
-          return_value_strcmp$18=strcmp(cur_item, "volume");
-          if(return_value_strcmp$18 == 0)
+          return_value_strcmp_18=strcmp(cur_item, "volume");
+          if(return_value_strcmp_18 == 0)
           {
-            signed long int return_value_strtol$5;
-            return_value_strtol$5=strtol(cur_value, &tptr, 10);
-            number = (signed int)return_value_strtol$5;
+            signed long int return_value_strtol_5;
+            return_value_strtol_5=strtol(cur_value, &tptr, 10);
+            number = (signed int)return_value_strtol_5;
             if(!(number >= -100) || number >= 101)
             {
               err = 2;
@@ -5686,14 +5686,14 @@ char * do_set(void)
 
           else
           {
-            return_value_strcmp$17=strcmp(cur_item, "punctuation_mode");
-            if(return_value_strcmp$17 == 0)
+            return_value_strcmp_17=strcmp(cur_item, "punctuation_mode");
+            if(return_value_strcmp_17 == 0)
             {
-              enum anonymous$8 return_value_str2EPunctMode$6;
-              return_value_str2EPunctMode$6=str2EPunctMode(cur_value);
-              ret = (signed int)return_value_str2EPunctMode$6;
+              enum anonymous_8 return_value_str2EPunctMode_6;
+              return_value_str2EPunctMode_6=str2EPunctMode(cur_value);
+              ret = (signed int)return_value_str2EPunctMode_6;
               if(!(ret == -1))
-                msg_settings.punctuation_mode = (enum anonymous$8)ret;
+                msg_settings.punctuation_mode = (enum anonymous_8)ret;
 
               else
                 err = 2;
@@ -5701,14 +5701,14 @@ char * do_set(void)
 
             else
             {
-              return_value_strcmp$16=strcmp(cur_item, "spelling_mode");
-              if(return_value_strcmp$16 == 0)
+              return_value_strcmp_16=strcmp(cur_item, "spelling_mode");
+              if(return_value_strcmp_16 == 0)
               {
-                enum anonymous$9 return_value_str2ESpellMode$7;
-                return_value_str2ESpellMode$7=str2ESpellMode(cur_value);
-                ret = (signed int)return_value_str2ESpellMode$7;
+                enum anonymous_9 return_value_str2ESpellMode_7;
+                return_value_str2ESpellMode_7=str2ESpellMode(cur_value);
+                ret = (signed int)return_value_str2ESpellMode_7;
                 if(!(ret == -1))
-                  msg_settings.spelling_mode = (enum anonymous$9)ret;
+                  msg_settings.spelling_mode = (enum anonymous_9)ret;
 
                 else
                   err = 2;
@@ -5716,14 +5716,14 @@ char * do_set(void)
 
               else
               {
-                return_value_strcmp$15=strcmp(cur_item, "cap_let_recogn");
-                if(return_value_strcmp$15 == 0)
+                return_value_strcmp_15=strcmp(cur_item, "cap_let_recogn");
+                if(return_value_strcmp_15 == 0)
                 {
-                  enum anonymous$10 return_value_str2ECapLetRecogn$8;
-                  return_value_str2ECapLetRecogn$8=str2ECapLetRecogn(cur_value);
-                  ret = (signed int)return_value_str2ECapLetRecogn$8;
+                  enum anonymous_10 return_value_str2ECapLetRecogn_8;
+                  return_value_str2ECapLetRecogn_8=str2ECapLetRecogn(cur_value);
+                  ret = (signed int)return_value_str2ECapLetRecogn_8;
                   if(!(ret == -1))
-                    msg_settings.cap_let_recogn = (enum anonymous$10)ret;
+                    msg_settings.cap_let_recogn = (enum anonymous_10)ret;
 
                   else
                     err = 2;
@@ -5731,14 +5731,14 @@ char * do_set(void)
 
                 else
                 {
-                  return_value_strcmp$14=strcmp(cur_item, "voice");
-                  if(return_value_strcmp$14 == 0)
+                  return_value_strcmp_14=strcmp(cur_item, "voice");
+                  if(return_value_strcmp_14 == 0)
                   {
-                    enum anonymous$11 return_value_str2EVoice$9;
-                    return_value_str2EVoice$9=str2EVoice(cur_value);
-                    ret = (signed int)return_value_str2EVoice$9;
+                    enum anonymous_11 return_value_str2EVoice_9;
+                    return_value_str2EVoice_9=str2EVoice(cur_value);
+                    ret = (signed int)return_value_str2EVoice_9;
                     if(!(ret == -1))
-                      msg_settings.voice_type = (enum anonymous$11)ret;
+                      msg_settings.voice_type = (enum anonymous_11)ret;
 
                     else
                       err = 2;
@@ -5746,13 +5746,13 @@ char * do_set(void)
 
                   else
                   {
-                    return_value_strcmp$13=strcmp(cur_item, "synthesis_voice");
-                    if(return_value_strcmp$13 == 0)
+                    return_value_strcmp_13=strcmp(cur_item, "synthesis_voice");
+                    if(return_value_strcmp_13 == 0)
                     {
                       g_free((void *)msg_settings.voice.name);
-                      signed int return_value_strcmp$10;
-                      return_value_strcmp$10=strcmp(cur_value, "NULL");
-                      if(return_value_strcmp$10 == 0)
+                      signed int return_value_strcmp_10;
+                      return_value_strcmp_10=strcmp(cur_value, "NULL");
+                      if(return_value_strcmp_10 == 0)
                         msg_settings.voice.name = (char *)(void *)0;
 
                       else
@@ -5761,13 +5761,13 @@ char * do_set(void)
 
                     else
                     {
-                      return_value_strcmp$12=strcmp(cur_item, "language");
-                      if(return_value_strcmp$12 == 0)
+                      return_value_strcmp_12=strcmp(cur_item, "language");
+                      if(return_value_strcmp_12 == 0)
                       {
                         g_free((void *)msg_settings.voice.language);
-                        signed int return_value_strcmp$11;
-                        return_value_strcmp$11=strcmp(cur_value, "NULL");
-                        if(return_value_strcmp$11 == 0)
+                        signed int return_value_strcmp_11;
+                        return_value_strcmp_11=strcmp(cur_value, "NULL");
+                        if(return_value_strcmp_11 == 0)
                           msg_settings.voice.language = (char *)(void *)0;
 
                         else
@@ -5788,34 +5788,34 @@ char * do_set(void)
 
     g_free((void *)line);
   }
-  char *return_value_g_strdup$21;
-  char *return_value_g_strdup$22;
-  char *return_value_g_strdup$23;
+  char *return_value_g_strdup_21;
+  char *return_value_g_strdup_22;
+  char *return_value_g_strdup_23;
   if(err == 0)
   {
-    return_value_g_strdup$21=g_strdup("203 OK SETTINGS RECEIVED");
-    return return_value_g_strdup$21;
+    return_value_g_strdup_21=g_strdup("203 OK SETTINGS RECEIVED");
+    return return_value_g_strdup_21;
   }
 
   else
     if(err == 1)
     {
-      return_value_g_strdup$22=g_strdup("302 ERROR BAD SYNTAX");
-      return return_value_g_strdup$22;
+      return_value_g_strdup_22=g_strdup("302 ERROR BAD SYNTAX");
+      return return_value_g_strdup_22;
     }
 
     else
       if(err == 2)
       {
-        return_value_g_strdup$23=g_strdup("303 ERROR INVALID PARAMETER OR VALUE");
-        return return_value_g_strdup$23;
+        return_value_g_strdup_23=g_strdup("303 ERROR INVALID PARAMETER OR VALUE");
+        return return_value_g_strdup_23;
       }
 
       else
       {
-        char *return_value_g_strdup$24;
-        return_value_g_strdup$24=g_strdup("401 ERROR INTERNAL");
-        return return_value_g_strdup$24;
+        char *return_value_g_strdup_24;
+        return_value_g_strdup_24=g_strdup("401 ERROR INTERNAL");
+        return return_value_g_strdup_24;
       }
 }
 
@@ -5823,18 +5823,18 @@ char * do_set(void)
 // file module_utils.h line 191
 char * do_sound_icon(void)
 {
-  char *return_value_do_message$1;
-  return_value_do_message$1=do_message((enum anonymous$7)SPD_MSGTYPE_SOUND_ICON);
-  return return_value_do_message$1;
+  char *return_value_do_message_1;
+  return_value_do_message_1=do_message((enum anonymous_7)SPD_MSGTYPE_SOUND_ICON);
+  return return_value_do_message_1;
 }
 
 // do_speak
 // file module_utils.h line 190
 char * do_speak(void)
 {
-  char *return_value_do_message$1;
-  return_value_do_message$1=do_message((enum anonymous$7)SPD_MSGTYPE_TEXT);
-  return return_value_do_message$1;
+  char *return_value_do_message_1;
+  return_value_do_message_1=do_message((enum anonymous_7)SPD_MSGTYPE_TEXT);
+  return return_value_do_message_1;
 }
 
 // do_stop
@@ -5848,9 +5848,9 @@ void do_stop(void)
 // file festival_client.h line 122
 signed int festivalCharacter(struct FT_Info *info, const char *text)
 {
-  signed int return_value_festival_speak_command$1;
-  return_value_festival_speak_command$1=festival_speak_command(info, "speechd-character", text, 0, 0);
-  return return_value_festival_speak_command$1;
+  signed int return_value_festival_speak_command_1;
+  return_value_festival_speak_command_1=festival_speak_command(info, "speechd-character", text, 0, 0);
+  return return_value_festival_speak_command_1;
 }
 
 // festivalClose
@@ -5865,9 +5865,9 @@ signed int festivalClose(struct FT_Info *info)
     if(!(info->server_fd == -1))
     {
       struct _IO_FILE *fd;
-      signed int return_value_dup$1;
-      return_value_dup$1=dup(info->server_fd);
-      fd=fdopen(return_value_dup$1, "wb");
+      signed int return_value_dup_1;
+      return_value_dup_1=dup(info->server_fd);
+      fd=fdopen(return_value_dup_1, "wb");
       if(!(fd == ((struct _IO_FILE *)NULL)))
       {
         fprintf(fd, "(quit)\n");
@@ -5886,9 +5886,9 @@ signed int festivalClose(struct FT_Info *info)
 struct FT_Info * festivalDefaultInfo()
 {
   struct FT_Info *info;
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc(sizeof(struct FT_Info) /*40ul*/ );
-  info = (struct FT_Info *)return_value_g_malloc$1;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc(sizeof(struct FT_Info) /*40ul*/ );
+  info = (struct FT_Info *)return_value_g_malloc_1;
   info->server_host = "localhost";
   info->server_port = 1314;
   info->text_mode = "fundamental";
@@ -5904,14 +5904,14 @@ struct FT_Wave * festivalGetDataMulti(struct FT_Info *info, char **callback, sig
   char ack[5l];
   char *resp = (char *)(void *)0;
   struct _IO_FILE *fd;
-  signed int return_value_festival_check_info$1;
-  return_value_festival_check_info$1=festival_check_info(info, "festival_speak_command");
-  signed int return_value_strcmp$25;
-  unsigned long int return_value_strlen$15;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$7;
-  _Bool tmp_if_expr$28;
-  if(return_value_festival_check_info$1 == -1)
+  signed int return_value_festival_check_info_1;
+  return_value_festival_check_info_1=festival_check_info(info, "festival_speak_command");
+  signed int return_value_strcmp_25;
+  unsigned long int return_value_strlen_15;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_7;
+  _Bool tmp_if_expr_28;
+  if(return_value_festival_check_info_1 == -1)
     return (struct FT_Wave *)(void *)0;
 
   else
@@ -5920,104 +5920,104 @@ struct FT_Wave * festivalGetDataMulti(struct FT_Info *info, char **callback, sig
     *callback = (char *)(void *)0;
     if(!(Debug == 0))
     {
-      signed long int festivalGetDataMulti$$1$$2$$t;
-      struct timeval festivalGetDataMulti$$1$$2$$tv;
-      char *festivalGetDataMulti$$1$$2$$tstr;
-      festivalGetDataMulti$$1$$2$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$2;
-      return_value_ctime$2=ctime(&festivalGetDataMulti$$1$$2$$t);
-      festivalGetDataMulti$$1$$2$$tstr=g_strdup(return_value_ctime$2);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(festivalGetDataMulti$$1$$2$$tstr);
-      festivalGetDataMulti$$1$$2$$tstr[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&festivalGetDataMulti$$1$$2$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", festivalGetDataMulti$$1$$2$$tstr, (signed int)festivalGetDataMulti$$1$$2$$tv.tv_usec);
+      signed long int festivalGetDataMulti__1__2__t;
+      struct timeval festivalGetDataMulti__1__2__tv;
+      char *festivalGetDataMulti__1__2__tstr;
+      festivalGetDataMulti__1__2__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_2;
+      return_value_ctime_2=ctime(&festivalGetDataMulti__1__2__t);
+      festivalGetDataMulti__1__2__tstr=g_strdup(return_value_ctime_2);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(festivalGetDataMulti__1__2__tstr);
+      festivalGetDataMulti__1__2__tstr[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&festivalGetDataMulti__1__2__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", festivalGetDataMulti__1__2__tstr, (signed int)festivalGetDataMulti__1__2__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Stop by close mode : %d", stop_by_close);
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti$$1$$2$$tstr, (signed int)festivalGetDataMulti$$1$$2$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti__1__2__tstr, (signed int)festivalGetDataMulti__1__2__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Stop by close mode : %d", stop_by_close);
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)festivalGetDataMulti$$1$$2$$tstr);
+      g_free((void *)festivalGetDataMulti__1__2__tstr);
     }
 
     if(!(Debug == 0))
     {
-      signed long int festivalGetDataMulti$$1$$3$$t;
-      struct timeval festivalGetDataMulti$$1$$3$$tv;
-      char *festivalGetDataMulti$$1$$3$$tstr;
-      festivalGetDataMulti$$1$$3$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$4;
-      return_value_ctime$4=ctime(&festivalGetDataMulti$$1$$3$$t);
-      festivalGetDataMulti$$1$$3$$tstr=g_strdup(return_value_ctime$4);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(festivalGetDataMulti$$1$$3$$tstr);
-      festivalGetDataMulti$$1$$3$$tstr[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&festivalGetDataMulti$$1$$3$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", festivalGetDataMulti$$1$$3$$tstr, (signed int)festivalGetDataMulti$$1$$3$$tv.tv_usec);
+      signed long int festivalGetDataMulti__1__3__t;
+      struct timeval festivalGetDataMulti__1__3__tv;
+      char *festivalGetDataMulti__1__3__tstr;
+      festivalGetDataMulti__1__3__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_4;
+      return_value_ctime_4=ctime(&festivalGetDataMulti__1__3__t);
+      festivalGetDataMulti__1__3__tstr=g_strdup(return_value_ctime_4);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(festivalGetDataMulti__1__3__tstr);
+      festivalGetDataMulti__1__3__tstr[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&festivalGetDataMulti__1__3__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", festivalGetDataMulti__1__3__tstr, (signed int)festivalGetDataMulti__1__3__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "-> Festival: (speechd-next)");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti$$1$$3$$tstr, (signed int)festivalGetDataMulti$$1$$3$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti__1__3__tstr, (signed int)festivalGetDataMulti__1__3__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "-> Festival: (speechd-next)");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)festivalGetDataMulti$$1$$3$$tstr);
+      g_free((void *)festivalGetDataMulti__1__3__tstr);
     }
 
-    signed int return_value_dup$6;
-    return_value_dup$6=dup(info->server_fd);
-    fd=fdopen(return_value_dup$6, "wb");
+    signed int return_value_dup_6;
+    return_value_dup_6=dup(info->server_fd);
+    fd=fdopen(return_value_dup_6, "wb");
     fprintf(fd, "(speechd-next)\n");
     fflush(fd);
     fclose(fd);
     do
     {
-      signed int return_value_festival_get_ack$10;
-      return_value_festival_get_ack$10=festival_get_ack(&info, ack);
-      if(!(return_value_festival_get_ack$10 == 0))
+      signed int return_value_festival_get_ack_10;
+      return_value_festival_get_ack_10=festival_get_ack(&info, ack);
+      if(!(return_value_festival_get_ack_10 == 0))
       {
         if(!(Debug == 0))
         {
-          signed long int festivalGetDataMulti$$1$$4$$1$$1$$t;
-          struct timeval festivalGetDataMulti$$1$$4$$1$$1$$tv;
-          char *festivalGetDataMulti$$1$$4$$1$$1$$tstr;
-          festivalGetDataMulti$$1$$4$$1$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$8;
-          return_value_ctime$8=ctime(&festivalGetDataMulti$$1$$4$$1$$1$$t);
-          festivalGetDataMulti$$1$$4$$1$$1$$tstr=g_strdup(return_value_ctime$8);
-          unsigned long int return_value_strlen$9;
-          return_value_strlen$9=strlen(festivalGetDataMulti$$1$$4$$1$$1$$tstr);
-          festivalGetDataMulti$$1$$4$$1$$1$$tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&festivalGetDataMulti$$1$$4$$1$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", festivalGetDataMulti$$1$$4$$1$$1$$tstr, (signed int)festivalGetDataMulti$$1$$4$$1$$1$$tv.tv_usec);
+          signed long int festivalGetDataMulti__1__4__1__1__t;
+          struct timeval festivalGetDataMulti__1__4__1__1__tv;
+          char *festivalGetDataMulti__1__4__1__1__tstr;
+          festivalGetDataMulti__1__4__1__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_8;
+          return_value_ctime_8=ctime(&festivalGetDataMulti__1__4__1__1__t);
+          festivalGetDataMulti__1__4__1__1__tstr=g_strdup(return_value_ctime_8);
+          unsigned long int return_value_strlen_9;
+          return_value_strlen_9=strlen(festivalGetDataMulti__1__4__1__1__tstr);
+          festivalGetDataMulti__1__4__1__1__tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&festivalGetDataMulti__1__4__1__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", festivalGetDataMulti__1__4__1__1__tstr, (signed int)festivalGetDataMulti__1__4__1__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Get ack failed");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti$$1$$4$$1$$1$$tstr, (signed int)festivalGetDataMulti$$1$$4$$1$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti__1__4__1__1__tstr, (signed int)festivalGetDataMulti__1__4__1__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Get ack failed");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)festivalGetDataMulti$$1$$4$$1$$1$$tstr);
+          g_free((void *)festivalGetDataMulti__1__4__1__1__tstr);
         }
 
         return (struct FT_Wave *)(void *)0;
@@ -6025,43 +6025,43 @@ struct FT_Wave * festivalGetDataMulti(struct FT_Info *info, char **callback, sig
 
       if(!(Debug == 0))
       {
-        signed long int festivalGetDataMulti$$1$$4$$2$$t;
-        struct timeval festivalGetDataMulti$$1$$4$$2$$tv;
-        char *festivalGetDataMulti$$1$$4$$2$$tstr;
-        festivalGetDataMulti$$1$$4$$2$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$11;
-        return_value_ctime$11=ctime(&festivalGetDataMulti$$1$$4$$2$$t);
-        festivalGetDataMulti$$1$$4$$2$$tstr=g_strdup(return_value_ctime$11);
-        unsigned long int return_value_strlen$12;
-        return_value_strlen$12=strlen(festivalGetDataMulti$$1$$4$$2$$tstr);
-        festivalGetDataMulti$$1$$4$$2$$tstr[(signed long int)(return_value_strlen$12 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&festivalGetDataMulti$$1$$4$$2$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", festivalGetDataMulti$$1$$4$$2$$tstr, (signed int)festivalGetDataMulti$$1$$4$$2$$tv.tv_usec);
+        signed long int festivalGetDataMulti__1__4__2__t;
+        struct timeval festivalGetDataMulti__1__4__2__tv;
+        char *festivalGetDataMulti__1__4__2__tstr;
+        festivalGetDataMulti__1__4__2__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_11;
+        return_value_ctime_11=ctime(&festivalGetDataMulti__1__4__2__t);
+        festivalGetDataMulti__1__4__2__tstr=g_strdup(return_value_ctime_11);
+        unsigned long int return_value_strlen_12;
+        return_value_strlen_12=strlen(festivalGetDataMulti__1__4__2__tstr);
+        festivalGetDataMulti__1__4__2__tstr[(signed long int)(return_value_strlen_12 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&festivalGetDataMulti__1__4__2__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", festivalGetDataMulti__1__4__2__tstr, (signed int)festivalGetDataMulti__1__4__2__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "<- Festival: %s", (const void *)ack);
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti$$1$$4$$2$$tstr, (signed int)festivalGetDataMulti$$1$$4$$2$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti__1__4__2__tstr, (signed int)festivalGetDataMulti__1__4__2__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "<- Festival: %s", (const void *)ack);
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)festivalGetDataMulti$$1$$4$$2$$tstr);
+        g_free((void *)festivalGetDataMulti__1__4__2__tstr);
       }
 
-      signed int return_value_strcmp$26;
-      return_value_strcmp$26=strcmp(ack, "WV\n");
-      if(return_value_strcmp$26 == 0)
+      signed int return_value_strcmp_26;
+      return_value_strcmp_26=strcmp(ack, "WV\n");
+      if(return_value_strcmp_26 == 0)
         wave=client_accept_waveform(info->server_fd, stop_flag, stop_by_close);
 
       else
       {
-        return_value_strcmp$25=strcmp(ack, "LP\n");
-        if(return_value_strcmp$25 == 0)
+        return_value_strcmp_25=strcmp(ack, "LP\n");
+        if(return_value_strcmp_25 == 0)
         {
           if(!(resp == ((char *)NULL)))
             g_free((void *)resp);
@@ -6071,43 +6071,43 @@ struct FT_Wave * festivalGetDataMulti(struct FT_Info *info, char **callback, sig
           {
             if(!(Debug == 0))
             {
-              signed long int festivalGetDataMulti$$1$$4$$4$$1$$1$$t;
-              struct timeval festivalGetDataMulti$$1$$4$$4$$1$$1$$tv;
-              char *festivalGetDataMulti$$1$$4$$4$$1$$1$$tstr;
-              festivalGetDataMulti$$1$$4$$4$$1$$1$$t=time((signed long int *)(void *)0);
-              char *return_value_ctime$13;
-              return_value_ctime$13=ctime(&festivalGetDataMulti$$1$$4$$4$$1$$1$$t);
-              festivalGetDataMulti$$1$$4$$4$$1$$1$$tstr=g_strdup(return_value_ctime$13);
-              unsigned long int return_value_strlen$14;
-              return_value_strlen$14=strlen(festivalGetDataMulti$$1$$4$$4$$1$$1$$tstr);
-              festivalGetDataMulti$$1$$4$$4$$1$$1$$tstr[(signed long int)(return_value_strlen$14 - (unsigned long int)1)] = (char)0;
-              gettimeofday(&festivalGetDataMulti$$1$$4$$4$$1$$1$$tv, (struct timezone *)(void *)0);
-              fprintf(stderr, " %s [%d]", festivalGetDataMulti$$1$$4$$4$$1$$1$$tstr, (signed int)festivalGetDataMulti$$1$$4$$4$$1$$1$$tv.tv_usec);
+              signed long int festivalGetDataMulti__1__4__4__1__1__t;
+              struct timeval festivalGetDataMulti__1__4__4__1__1__tv;
+              char *festivalGetDataMulti__1__4__4__1__1__tstr;
+              festivalGetDataMulti__1__4__4__1__1__t=time((signed long int *)(void *)0);
+              char *return_value_ctime_13;
+              return_value_ctime_13=ctime(&festivalGetDataMulti__1__4__4__1__1__t);
+              festivalGetDataMulti__1__4__4__1__1__tstr=g_strdup(return_value_ctime_13);
+              unsigned long int return_value_strlen_14;
+              return_value_strlen_14=strlen(festivalGetDataMulti__1__4__4__1__1__tstr);
+              festivalGetDataMulti__1__4__4__1__1__tstr[(signed long int)(return_value_strlen_14 - (unsigned long int)1)] = (char)0;
+              gettimeofday(&festivalGetDataMulti__1__4__4__1__1__tv, (struct timezone *)(void *)0);
+              fprintf(stderr, " %s [%d]", festivalGetDataMulti__1__4__4__1__1__tstr, (signed int)festivalGetDataMulti__1__4__4__1__1__tv.tv_usec);
               fprintf(stderr, ": ");
               fprintf(stderr, "ERROR: Something wrong in communication with Festival, s_expr = NULL");
               fprintf(stderr, "\n");
               fflush(stderr);
               if(Debug == 2 || Debug == 3)
               {
-                fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti$$1$$4$$4$$1$$1$$tstr, (signed int)festivalGetDataMulti$$1$$4$$4$$1$$1$$tv.tv_usec);
+                fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti__1__4__4__1__1__tstr, (signed int)festivalGetDataMulti__1__4__4__1__1__tv.tv_usec);
                 fprintf(CustomDebugFile, ": ");
                 fprintf(CustomDebugFile, "ERROR: Something wrong in communication with Festival, s_expr = NULL");
                 fprintf(CustomDebugFile, "\n");
                 fflush(CustomDebugFile);
               }
 
-              g_free((void *)festivalGetDataMulti$$1$$4$$4$$1$$1$$tstr);
+              g_free((void *)festivalGetDataMulti__1__4__4__1__1__tstr);
             }
 
             return (struct FT_Wave *)(void *)0;
           }
 
-          unsigned long int return_value_strlen$16;
-          return_value_strlen$16=strlen(resp);
-          if(!(return_value_strlen$16 == 0ul))
+          unsigned long int return_value_strlen_16;
+          return_value_strlen_16=strlen(resp);
+          if(!(return_value_strlen_16 == 0ul))
           {
-            return_value_strlen$15=strlen(resp);
-            resp[(signed long int)(return_value_strlen$15 - (unsigned long int)1)] = (char)0;
+            return_value_strlen_15=strlen(resp);
+            resp[(signed long int)(return_value_strlen_15 - (unsigned long int)1)] = (char)0;
           }
 
           if(!(Debug == 0))
@@ -6116,12 +6116,12 @@ struct FT_Wave * festivalGetDataMulti(struct FT_Info *info, char **callback, sig
             struct timeval tv;
             char *tstr;
             t=time((signed long int *)(void *)0);
-            char *return_value_ctime$17;
-            return_value_ctime$17=ctime(&t);
-            tstr=g_strdup(return_value_ctime$17);
-            unsigned long int return_value_strlen$18;
-            return_value_strlen$18=strlen(tstr);
-            tstr[(signed long int)(return_value_strlen$18 - (unsigned long int)1)] = (char)0;
+            char *return_value_ctime_17;
+            return_value_ctime_17=ctime(&t);
+            tstr=g_strdup(return_value_ctime_17);
+            unsigned long int return_value_strlen_18;
+            return_value_strlen_18=strlen(tstr);
+            tstr[(signed long int)(return_value_strlen_18 - (unsigned long int)1)] = (char)0;
             gettimeofday(&tv, (struct timezone *)(void *)0);
             fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
             fprintf(stderr, ": ");
@@ -6140,38 +6140,38 @@ struct FT_Wave * festivalGetDataMulti(struct FT_Info *info, char **callback, sig
             g_free((void *)tstr);
           }
 
-          signed int return_value_strcmp$21;
-          return_value_strcmp$21=strcmp(resp, "nil");
-          if(return_value_strcmp$21 == 0)
+          signed int return_value_strcmp_21;
+          return_value_strcmp_21=strcmp(resp, "nil");
+          if(return_value_strcmp_21 == 0)
           {
             if(!(Debug == 0))
             {
-              signed long int festivalGetDataMulti$$1$$4$$4$$3$$1$$t;
-              struct timeval festivalGetDataMulti$$1$$4$$4$$3$$1$$tv;
-              char *festivalGetDataMulti$$1$$4$$4$$3$$1$$tstr;
-              festivalGetDataMulti$$1$$4$$4$$3$$1$$t=time((signed long int *)(void *)0);
-              char *return_value_ctime$19;
-              return_value_ctime$19=ctime(&festivalGetDataMulti$$1$$4$$4$$3$$1$$t);
-              festivalGetDataMulti$$1$$4$$4$$3$$1$$tstr=g_strdup(return_value_ctime$19);
-              unsigned long int return_value_strlen$20;
-              return_value_strlen$20=strlen(festivalGetDataMulti$$1$$4$$4$$3$$1$$tstr);
-              festivalGetDataMulti$$1$$4$$4$$3$$1$$tstr[(signed long int)(return_value_strlen$20 - (unsigned long int)1)] = (char)0;
-              gettimeofday(&festivalGetDataMulti$$1$$4$$4$$3$$1$$tv, (struct timezone *)(void *)0);
-              fprintf(stderr, " %s [%d]", festivalGetDataMulti$$1$$4$$4$$3$$1$$tstr, (signed int)festivalGetDataMulti$$1$$4$$4$$3$$1$$tv.tv_usec);
+              signed long int festivalGetDataMulti__1__4__4__3__1__t;
+              struct timeval festivalGetDataMulti__1__4__4__3__1__tv;
+              char *festivalGetDataMulti__1__4__4__3__1__tstr;
+              festivalGetDataMulti__1__4__4__3__1__t=time((signed long int *)(void *)0);
+              char *return_value_ctime_19;
+              return_value_ctime_19=ctime(&festivalGetDataMulti__1__4__4__3__1__t);
+              festivalGetDataMulti__1__4__4__3__1__tstr=g_strdup(return_value_ctime_19);
+              unsigned long int return_value_strlen_20;
+              return_value_strlen_20=strlen(festivalGetDataMulti__1__4__4__3__1__tstr);
+              festivalGetDataMulti__1__4__4__3__1__tstr[(signed long int)(return_value_strlen_20 - (unsigned long int)1)] = (char)0;
+              gettimeofday(&festivalGetDataMulti__1__4__4__3__1__tv, (struct timezone *)(void *)0);
+              fprintf(stderr, " %s [%d]", festivalGetDataMulti__1__4__4__3__1__tstr, (signed int)festivalGetDataMulti__1__4__4__3__1__tv.tv_usec);
               fprintf(stderr, ": ");
               fprintf(stderr, "festival_client: end of samples\n");
               fprintf(stderr, "\n");
               fflush(stderr);
               if(Debug == 2 || Debug == 3)
               {
-                fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti$$1$$4$$4$$3$$1$$tstr, (signed int)festivalGetDataMulti$$1$$4$$4$$3$$1$$tv.tv_usec);
+                fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti__1__4__4__3__1__tstr, (signed int)festivalGetDataMulti__1__4__4__3__1__tv.tv_usec);
                 fprintf(CustomDebugFile, ": ");
                 fprintf(CustomDebugFile, "festival_client: end of samples\n");
                 fprintf(CustomDebugFile, "\n");
                 fflush(CustomDebugFile);
               }
 
-              g_free((void *)festivalGetDataMulti$$1$$4$$4$$3$$1$$tstr);
+              g_free((void *)festivalGetDataMulti__1__4__4__3__1__tstr);
             }
 
             g_free((void *)resp);
@@ -6183,37 +6183,37 @@ struct FT_Wave * festivalGetDataMulti(struct FT_Info *info, char **callback, sig
 
         else
         {
-          return_value_strcmp$24=strcmp(ack, "ER\n");
-          if(return_value_strcmp$24 == 0)
+          return_value_strcmp_24=strcmp(ack, "ER\n");
+          if(return_value_strcmp_24 == 0)
           {
             if(!(Debug == 0))
             {
-              signed long int festivalGetDataMulti$$1$$4$$5$$1$$t;
-              struct timeval festivalGetDataMulti$$1$$4$$5$$1$$tv;
-              char *festivalGetDataMulti$$1$$4$$5$$1$$tstr;
-              festivalGetDataMulti$$1$$4$$5$$1$$t=time((signed long int *)(void *)0);
-              char *return_value_ctime$22;
-              return_value_ctime$22=ctime(&festivalGetDataMulti$$1$$4$$5$$1$$t);
-              festivalGetDataMulti$$1$$4$$5$$1$$tstr=g_strdup(return_value_ctime$22);
-              unsigned long int return_value_strlen$23;
-              return_value_strlen$23=strlen(festivalGetDataMulti$$1$$4$$5$$1$$tstr);
-              festivalGetDataMulti$$1$$4$$5$$1$$tstr[(signed long int)(return_value_strlen$23 - (unsigned long int)1)] = (char)0;
-              gettimeofday(&festivalGetDataMulti$$1$$4$$5$$1$$tv, (struct timezone *)(void *)0);
-              fprintf(stderr, " %s [%d]", festivalGetDataMulti$$1$$4$$5$$1$$tstr, (signed int)festivalGetDataMulti$$1$$4$$5$$1$$tv.tv_usec);
+              signed long int festivalGetDataMulti__1__4__5__1__t;
+              struct timeval festivalGetDataMulti__1__4__5__1__tv;
+              char *festivalGetDataMulti__1__4__5__1__tstr;
+              festivalGetDataMulti__1__4__5__1__t=time((signed long int *)(void *)0);
+              char *return_value_ctime_22;
+              return_value_ctime_22=ctime(&festivalGetDataMulti__1__4__5__1__t);
+              festivalGetDataMulti__1__4__5__1__tstr=g_strdup(return_value_ctime_22);
+              unsigned long int return_value_strlen_23;
+              return_value_strlen_23=strlen(festivalGetDataMulti__1__4__5__1__tstr);
+              festivalGetDataMulti__1__4__5__1__tstr[(signed long int)(return_value_strlen_23 - (unsigned long int)1)] = (char)0;
+              gettimeofday(&festivalGetDataMulti__1__4__5__1__tv, (struct timezone *)(void *)0);
+              fprintf(stderr, " %s [%d]", festivalGetDataMulti__1__4__5__1__tstr, (signed int)festivalGetDataMulti__1__4__5__1__tv.tv_usec);
               fprintf(stderr, ": ");
               fprintf(stderr, "festival_client: server returned error\n");
               fprintf(stderr, "\n");
               fflush(stderr);
               if(Debug == 2 || Debug == 3)
               {
-                fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti$$1$$4$$5$$1$$tstr, (signed int)festivalGetDataMulti$$1$$4$$5$$1$$tv.tv_usec);
+                fprintf(CustomDebugFile, " %s [%d]", festivalGetDataMulti__1__4__5__1__tstr, (signed int)festivalGetDataMulti__1__4__5__1__tv.tv_usec);
                 fprintf(CustomDebugFile, ": ");
                 fprintf(CustomDebugFile, "festival_client: server returned error\n");
                 fprintf(CustomDebugFile, "\n");
                 fflush(CustomDebugFile);
               }
 
-              g_free((void *)festivalGetDataMulti$$1$$4$$5$$1$$tstr);
+              g_free((void *)festivalGetDataMulti__1__4__5__1__tstr);
             }
 
             return (struct FT_Wave *)(void *)0;
@@ -6221,19 +6221,19 @@ struct FT_Wave * festivalGetDataMulti(struct FT_Info *info, char **callback, sig
 
         }
       }
-      return_value_strcmp$7=strcmp(ack, "OK\n");
+      return_value_strcmp_7=strcmp(ack, "OK\n");
     }
-    while(!(return_value_strcmp$7 == 0));
+    while(!(return_value_strcmp_7 == 0));
     if(!(resp == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$27;
-      return_value_strlen$27=strlen(resp);
-      if(return_value_strlen$27 >= 1ul)
-        tmp_if_expr$28 = (signed int)resp[(signed long int)0] != 35 ? (_Bool)1 : (_Bool)0;
+      unsigned long int return_value_strlen_27;
+      return_value_strlen_27=strlen(resp);
+      if(return_value_strlen_27 >= 1ul)
+        tmp_if_expr_28 = (signed int)resp[(signed long int)0] != 35 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$28 = (_Bool)0;
-      if(tmp_if_expr$28)
+        tmp_if_expr_28 = (_Bool)0;
+      if(tmp_if_expr_28)
         *callback = resp;
 
       else
@@ -6246,7 +6246,7 @@ struct FT_Wave * festivalGetDataMulti(struct FT_Info *info, char **callback, sig
 
 // festivalGetVoices
 // file festival.c line 508
-static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info)
+static struct anonymous_14 ** festivalGetVoices(struct FT_Info *info)
 {
   char *reply;
   char **voices;
@@ -6255,12 +6255,12 @@ static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info)
   signed int i;
   signed int j;
   signed int num_voices = 0;
-  struct anonymous$14 **result;
+  struct anonymous_14 **result;
   struct _IO_FILE *fd;
   char *str;
-  signed int return_value_dup$1;
-  return_value_dup$1=dup(info->server_fd);
-  fd=fdopen(return_value_dup$1, "wb");
+  signed int return_value_dup_1;
+  return_value_dup_1=dup(info->server_fd);
+  fd=fdopen(return_value_dup_1, "wb");
   if(!(fd == ((struct _IO_FILE *)NULL)))
   {
     str=g_strdup("(apply append (voice-list-language-codes))\n");
@@ -6271,12 +6271,12 @@ static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info)
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$2;
-      return_value_ctime$2=ctime(&t);
-      tstr=g_strdup(return_value_ctime$2);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_2;
+      return_value_ctime_2=ctime(&t);
+      tstr=g_strdup(return_value_ctime_2);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -6302,108 +6302,108 @@ static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info)
   else
     if(!(Debug == 0))
     {
-      signed long int festivalGetVoices$$1$$1$$2$$1$$t;
-      struct timeval festivalGetVoices$$1$$1$$2$$1$$tv;
-      char *festivalGetVoices$$1$$1$$2$$1$$tstr;
-      festivalGetVoices$$1$$1$$2$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$4;
-      return_value_ctime$4=ctime(&festivalGetVoices$$1$$1$$2$$1$$t);
-      festivalGetVoices$$1$$1$$2$$1$$tstr=g_strdup(return_value_ctime$4);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(festivalGetVoices$$1$$1$$2$$1$$tstr);
-      festivalGetVoices$$1$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&festivalGetVoices$$1$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", festivalGetVoices$$1$$1$$2$$1$$tstr, (signed int)festivalGetVoices$$1$$1$$2$$1$$tv.tv_usec);
+      signed long int festivalGetVoices__1__1__2__1__t;
+      struct timeval festivalGetVoices__1__1__2__1__tv;
+      char *festivalGetVoices__1__1__2__1__tstr;
+      festivalGetVoices__1__1__2__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_4;
+      return_value_ctime_4=ctime(&festivalGetVoices__1__1__2__1__t);
+      festivalGetVoices__1__1__2__1__tstr=g_strdup(return_value_ctime_4);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(festivalGetVoices__1__1__2__1__tstr);
+      festivalGetVoices__1__1__2__1__tstr[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&festivalGetVoices__1__1__2__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", festivalGetVoices__1__1__2__1__tstr, (signed int)festivalGetVoices__1__1__2__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Can't open connection");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", festivalGetVoices$$1$$1$$2$$1$$tstr, (signed int)festivalGetVoices$$1$$1$$2$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", festivalGetVoices__1__1__2__1__tstr, (signed int)festivalGetVoices__1__1__2__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Can't open connection");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)festivalGetVoices$$1$$1$$2$$1$$tstr);
+      g_free((void *)festivalGetVoices__1__1__2__1__tstr);
     }
 
   festival_read_response(info, &reply);
-  unsigned long int return_value_strlen$19;
-  _Bool tmp_if_expr$16;
-  signed int return_value_strcmp$15;
-  _Bool tmp_if_expr$18;
-  signed int return_value_strcmp$17;
+  unsigned long int return_value_strlen_19;
+  _Bool tmp_if_expr_16;
+  signed int return_value_strcmp_15;
+  _Bool tmp_if_expr_18;
+  signed int return_value_strcmp_17;
   if(reply == ((char *)NULL))
   {
     if(!(Debug == 0))
     {
-      signed long int festivalGetVoices$$1$$2$$1$$t;
-      struct timeval festivalGetVoices$$1$$2$$1$$tv;
-      char *festivalGetVoices$$1$$2$$1$$tstr;
-      festivalGetVoices$$1$$2$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$6;
-      return_value_ctime$6=ctime(&festivalGetVoices$$1$$2$$1$$t);
-      festivalGetVoices$$1$$2$$1$$tstr=g_strdup(return_value_ctime$6);
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(festivalGetVoices$$1$$2$$1$$tstr);
-      festivalGetVoices$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$7 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&festivalGetVoices$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", festivalGetVoices$$1$$2$$1$$tstr, (signed int)festivalGetVoices$$1$$2$$1$$tv.tv_usec);
+      signed long int festivalGetVoices__1__2__1__t;
+      struct timeval festivalGetVoices__1__2__1__tv;
+      char *festivalGetVoices__1__2__1__tstr;
+      festivalGetVoices__1__2__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_6;
+      return_value_ctime_6=ctime(&festivalGetVoices__1__2__1__t);
+      festivalGetVoices__1__2__1__tstr=g_strdup(return_value_ctime_6);
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(festivalGetVoices__1__2__1__tstr);
+      festivalGetVoices__1__2__1__tstr[(signed long int)(return_value_strlen_7 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&festivalGetVoices__1__2__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", festivalGetVoices__1__2__1__tstr, (signed int)festivalGetVoices__1__2__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "ERROR: Invalid reply for voice-list");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", festivalGetVoices$$1$$2$$1$$tstr, (signed int)festivalGetVoices$$1$$2$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", festivalGetVoices__1__2__1__tstr, (signed int)festivalGetVoices__1__2__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "ERROR: Invalid reply for voice-list");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)festivalGetVoices$$1$$2$$1$$tstr);
+      g_free((void *)festivalGetVoices__1__2__1__tstr);
     }
 
-    return (struct anonymous$14 **)(void *)0;
+    return (struct anonymous_14 **)(void *)0;
   }
 
   else
   {
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(reply);
-    reply[(signed long int)(return_value_strlen$8 - (unsigned long int)1)] = (char)0;
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(reply);
+    reply[(signed long int)(return_value_strlen_8 - (unsigned long int)1)] = (char)0;
     if(!(Debug == 0))
     {
-      signed long int festivalGetVoices$$1$$3$$t;
-      struct timeval festivalGetVoices$$1$$3$$tv;
-      char *festivalGetVoices$$1$$3$$tstr;
-      festivalGetVoices$$1$$3$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$9;
-      return_value_ctime$9=ctime(&festivalGetVoices$$1$$3$$t);
-      festivalGetVoices$$1$$3$$tstr=g_strdup(return_value_ctime$9);
-      unsigned long int return_value_strlen$10;
-      return_value_strlen$10=strlen(festivalGetVoices$$1$$3$$tstr);
-      festivalGetVoices$$1$$3$$tstr[(signed long int)(return_value_strlen$10 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&festivalGetVoices$$1$$3$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", festivalGetVoices$$1$$3$$tstr, (signed int)festivalGetVoices$$1$$3$$tv.tv_usec);
+      signed long int festivalGetVoices__1__3__t;
+      struct timeval festivalGetVoices__1__3__tv;
+      char *festivalGetVoices__1__3__tstr;
+      festivalGetVoices__1__3__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_9;
+      return_value_ctime_9=ctime(&festivalGetVoices__1__3__t);
+      festivalGetVoices__1__3__tstr=g_strdup(return_value_ctime_9);
+      unsigned long int return_value_strlen_10;
+      return_value_strlen_10=strlen(festivalGetVoices__1__3__tstr);
+      festivalGetVoices__1__3__tstr[(signed long int)(return_value_strlen_10 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&festivalGetVoices__1__3__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", festivalGetVoices__1__3__tstr, (signed int)festivalGetVoices__1__3__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Voice list reply: |%s|", reply);
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", festivalGetVoices$$1$$3$$tstr, (signed int)festivalGetVoices$$1$$3$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", festivalGetVoices__1__3__tstr, (signed int)festivalGetVoices__1__3__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Voice list reply: |%s|", reply);
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)festivalGetVoices$$1$$3$$tstr);
+      g_free((void *)festivalGetVoices__1__3__tstr);
     }
 
     voices=lisp_list_get_vect(reply);
@@ -6411,35 +6411,35 @@ static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info)
     {
       if(!(Debug == 0))
       {
-        signed long int festivalGetVoices$$1$$4$$1$$t;
-        struct timeval festivalGetVoices$$1$$4$$1$$tv;
-        char *festivalGetVoices$$1$$4$$1$$tstr;
-        festivalGetVoices$$1$$4$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$11;
-        return_value_ctime$11=ctime(&festivalGetVoices$$1$$4$$1$$t);
-        festivalGetVoices$$1$$4$$1$$tstr=g_strdup(return_value_ctime$11);
-        unsigned long int return_value_strlen$12;
-        return_value_strlen$12=strlen(festivalGetVoices$$1$$4$$1$$tstr);
-        festivalGetVoices$$1$$4$$1$$tstr[(signed long int)(return_value_strlen$12 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&festivalGetVoices$$1$$4$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", festivalGetVoices$$1$$4$$1$$tstr, (signed int)festivalGetVoices$$1$$4$$1$$tv.tv_usec);
+        signed long int festivalGetVoices__1__4__1__t;
+        struct timeval festivalGetVoices__1__4__1__tv;
+        char *festivalGetVoices__1__4__1__tstr;
+        festivalGetVoices__1__4__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_11;
+        return_value_ctime_11=ctime(&festivalGetVoices__1__4__1__t);
+        festivalGetVoices__1__4__1__tstr=g_strdup(return_value_ctime_11);
+        unsigned long int return_value_strlen_12;
+        return_value_strlen_12=strlen(festivalGetVoices__1__4__1__tstr);
+        festivalGetVoices__1__4__1__tstr[(signed long int)(return_value_strlen_12 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&festivalGetVoices__1__4__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", festivalGetVoices__1__4__1__tstr, (signed int)festivalGetVoices__1__4__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "ERROR: Can't parse voice listing reply into vector");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", festivalGetVoices$$1$$4$$1$$tstr, (signed int)festivalGetVoices$$1$$4$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", festivalGetVoices__1__4__1__tstr, (signed int)festivalGetVoices__1__4__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "ERROR: Can't parse voice listing reply into vector");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)festivalGetVoices$$1$$4$$1$$tstr);
+        g_free((void *)festivalGetVoices__1__4__1__tstr);
       }
 
-      return (struct anonymous$14 **)(void *)0;
+      return (struct anonymous_14 **)(void *)0;
     }
 
     else
@@ -6448,9 +6448,9 @@ static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info)
       for( ; !(voices[(signed long int)i] == ((char *)NULL)); num_voices = num_voices + 1)
         i = i + 1;
       num_voices = num_voices / 3;
-      void *return_value_g_malloc$13;
-      return_value_g_malloc$13=g_malloc((unsigned long int)(num_voices + 1) * sizeof(struct anonymous$14 *) /*8ul*/ );
-      result = (struct anonymous$14 **)return_value_g_malloc$13;
+      void *return_value_g_malloc_13;
+      return_value_g_malloc_13=g_malloc((unsigned long int)(num_voices + 1) * sizeof(struct anonymous_14 *) /*8ul*/ );
+      result = (struct anonymous_14 **)return_value_g_malloc_13;
       i = 0;
       j = 0;
       for( ; (_Bool)1; j = j + 1)
@@ -6460,26 +6460,26 @@ static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info)
 
         else
         {
-          return_value_strlen$19=strlen(voices[(signed long int)i]);
-          if(return_value_strlen$19 == 0ul)
+          return_value_strlen_19=strlen(voices[(signed long int)i]);
+          if(return_value_strlen_19 == 0ul)
             goto __CPROVER_DUMP_L28;
 
           else
           {
-            void *return_value_g_malloc$14;
-            return_value_g_malloc$14=g_malloc(sizeof(struct anonymous$14) /*24ul*/ );
-            result[(signed long int)j] = (struct anonymous$14 *)return_value_g_malloc$14;
+            void *return_value_g_malloc_14;
+            return_value_g_malloc_14=g_malloc(sizeof(struct anonymous_14) /*24ul*/ );
+            result[(signed long int)j] = (struct anonymous_14 *)return_value_g_malloc_14;
             result[(signed long int)j]->name = voices[(signed long int)i];
             lang = voices[(signed long int)(i + 1)];
             if(!(lang == ((char *)NULL)))
             {
-              return_value_strcmp$15=strcmp(lang, "nil");
-              tmp_if_expr$16 = return_value_strcmp$15 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_15=strcmp(lang, "nil");
+              tmp_if_expr_16 = return_value_strcmp_15 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$16 = (_Bool)0;
-            if(tmp_if_expr$16)
+              tmp_if_expr_16 = (_Bool)0;
+            if(tmp_if_expr_16)
               result[(signed long int)j]->language=g_strdup(lang);
 
             else
@@ -6487,13 +6487,13 @@ static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info)
             variant = voices[(signed long int)(i + 2)];
             if(!(variant == ((char *)NULL)))
             {
-              return_value_strcmp$17=strcmp(variant, "nil");
-              tmp_if_expr$18 = return_value_strcmp$17 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_17=strcmp(variant, "nil");
+              tmp_if_expr_18 = return_value_strcmp_17 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$18 = (_Bool)0;
-            if(tmp_if_expr$18)
+              tmp_if_expr_18 = (_Bool)0;
+            if(tmp_if_expr_18)
               result[(signed long int)j]->variant=g_strdup(variant);
 
             else
@@ -6508,7 +6508,7 @@ static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info)
 
     __CPROVER_DUMP_L29:
       ;
-      result[(signed long int)j] = (struct anonymous$14 *)(void *)0;
+      result[(signed long int)j] = (struct anonymous_14 *)(void *)0;
       return result;
     }
   }
@@ -6518,9 +6518,9 @@ static struct anonymous$14 ** festivalGetVoices(struct FT_Info *info)
 // file festival_client.h line 123
 signed int festivalKey(struct FT_Info *info, const char *text)
 {
-  signed int return_value_festival_speak_command$1;
-  return_value_festival_speak_command$1=festival_speak_command(info, "speechd-key", text, 0, 0);
-  return return_value_festival_speak_command$1;
+  signed int return_value_festival_speak_command_1;
+  return_value_festival_speak_command_1=festival_speak_command(info, "speechd-key", text, 0, 0);
+  return return_value_festival_speak_command_1;
 }
 
 // festivalOpen
@@ -6531,32 +6531,32 @@ struct FT_Info * festivalOpen(struct FT_Info *info)
   signed int ret;
   if(!(Debug == 0))
   {
-    signed long int festivalOpen$$1$$1$$t;
-    struct timeval festivalOpen$$1$$1$$tv;
-    char *festivalOpen$$1$$1$$tstr;
-    festivalOpen$$1$$1$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&festivalOpen$$1$$1$$t);
-    festivalOpen$$1$$1$$tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(festivalOpen$$1$$1$$tstr);
-    festivalOpen$$1$$1$$tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&festivalOpen$$1$$1$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", festivalOpen$$1$$1$$tstr, (signed int)festivalOpen$$1$$1$$tv.tv_usec);
+    signed long int festivalOpen__1__1__t;
+    struct timeval festivalOpen__1__1__tv;
+    char *festivalOpen__1__1__tstr;
+    festivalOpen__1__1__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&festivalOpen__1__1__t);
+    festivalOpen__1__1__tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(festivalOpen__1__1__tstr);
+    festivalOpen__1__1__tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&festivalOpen__1__1__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", festivalOpen__1__1__tstr, (signed int)festivalOpen__1__1__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "Openning socket fo Festival server");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", festivalOpen$$1$$1$$tstr, (signed int)festivalOpen$$1$$1$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", festivalOpen__1__1__tstr, (signed int)festivalOpen__1__1__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "Openning socket fo Festival server");
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)festivalOpen$$1$$1$$tstr);
+    g_free((void *)festivalOpen__1__1__tstr);
   }
 
   festival_connection_crashed = 0;
@@ -6564,10 +6564,10 @@ struct FT_Info * festivalOpen(struct FT_Info *info)
     info=festivalDefaultInfo();
 
   info->server_fd=festival_socket_open(info->server_host, info->server_port);
-  _Bool tmp_if_expr$11;
-  signed int return_value_strcmp$10;
-  _Bool tmp_if_expr$20;
-  signed int return_value_strcmp$19;
+  _Bool tmp_if_expr_11;
+  signed int return_value_strcmp_10;
+  _Bool tmp_if_expr_20;
+  signed int return_value_strcmp_19;
   if(info->server_fd == -1)
   {
     delete_FT_Info(info);
@@ -6577,103 +6577,103 @@ struct FT_Info * festivalOpen(struct FT_Info *info)
 
   else
   {
-    struct _IO_FILE *festivalOpen$$1$$3$$fd;
-    char *festivalOpen$$1$$3$$str;
-    signed int return_value_dup$3;
-    return_value_dup$3=dup(info->server_fd);
-    festivalOpen$$1$$3$$fd=fdopen(return_value_dup$3, "wb");
-    if(!(festivalOpen$$1$$3$$fd == ((struct _IO_FILE *)NULL)))
+    struct _IO_FILE *festivalOpen__1__3__fd;
+    char *festivalOpen__1__3__str;
+    signed int return_value_dup_3;
+    return_value_dup_3=dup(info->server_fd);
+    festivalOpen__1__3__fd=fdopen(return_value_dup_3, "wb");
+    if(!(festivalOpen__1__3__fd == ((struct _IO_FILE *)NULL)))
     {
-      festivalOpen$$1$$3$$str=g_strdup("(require 'speech-dispatcher)\n");
-      fputs(festivalOpen$$1$$3$$str, festivalOpen$$1$$3$$fd);
+      festivalOpen__1__3__str=g_strdup("(require 'speech-dispatcher)\n");
+      fputs(festivalOpen__1__3__str, festivalOpen__1__3__fd);
       if(!(Debug == 0))
       {
-        signed long int festivalOpen$$1$$3$$1$$1$$t;
-        struct timeval festivalOpen$$1$$3$$1$$1$$tv;
-        char *festivalOpen$$1$$3$$1$$1$$tstr;
-        festivalOpen$$1$$3$$1$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$4;
-        return_value_ctime$4=ctime(&festivalOpen$$1$$3$$1$$1$$t);
-        festivalOpen$$1$$3$$1$$1$$tstr=g_strdup(return_value_ctime$4);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(festivalOpen$$1$$3$$1$$1$$tstr);
-        festivalOpen$$1$$3$$1$$1$$tstr[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&festivalOpen$$1$$3$$1$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", festivalOpen$$1$$3$$1$$1$$tstr, (signed int)festivalOpen$$1$$3$$1$$1$$tv.tv_usec);
+        signed long int festivalOpen__1__3__1__1__t;
+        struct timeval festivalOpen__1__3__1__1__tv;
+        char *festivalOpen__1__3__1__1__tstr;
+        festivalOpen__1__3__1__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_4;
+        return_value_ctime_4=ctime(&festivalOpen__1__3__1__1__t);
+        festivalOpen__1__3__1__1__tstr=g_strdup(return_value_ctime_4);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(festivalOpen__1__3__1__1__tstr);
+        festivalOpen__1__3__1__1__tstr[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&festivalOpen__1__3__1__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", festivalOpen__1__3__1__1__tstr, (signed int)festivalOpen__1__3__1__1__tv.tv_usec);
         fprintf(stderr, ": ");
-        fprintf(stderr, "-> Festival: |%s|", festivalOpen$$1$$3$$str);
+        fprintf(stderr, "-> Festival: |%s|", festivalOpen__1__3__str);
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", festivalOpen$$1$$3$$1$$1$$tstr, (signed int)festivalOpen$$1$$3$$1$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", festivalOpen__1__3__1__1__tstr, (signed int)festivalOpen__1__3__1__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
-          fprintf(CustomDebugFile, "-> Festival: |%s|", festivalOpen$$1$$3$$str);
+          fprintf(CustomDebugFile, "-> Festival: |%s|", festivalOpen__1__3__str);
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)festivalOpen$$1$$3$$1$$1$$tstr);
+        g_free((void *)festivalOpen__1__3__1__1__tstr);
       }
 
-      g_free((void *)festivalOpen$$1$$3$$str);
-      fclose(festivalOpen$$1$$3$$fd);
+      g_free((void *)festivalOpen__1__3__str);
+      fclose(festivalOpen__1__3__fd);
     }
 
     else
       if(!(Debug == 0))
       {
-        signed long int festivalOpen$$1$$3$$2$$1$$t;
-        struct timeval festivalOpen$$1$$3$$2$$1$$tv;
-        char *festivalOpen$$1$$3$$2$$1$$tstr;
-        festivalOpen$$1$$3$$2$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$6;
-        return_value_ctime$6=ctime(&festivalOpen$$1$$3$$2$$1$$t);
-        festivalOpen$$1$$3$$2$$1$$tstr=g_strdup(return_value_ctime$6);
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(festivalOpen$$1$$3$$2$$1$$tstr);
-        festivalOpen$$1$$3$$2$$1$$tstr[(signed long int)(return_value_strlen$7 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&festivalOpen$$1$$3$$2$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", festivalOpen$$1$$3$$2$$1$$tstr, (signed int)festivalOpen$$1$$3$$2$$1$$tv.tv_usec);
+        signed long int festivalOpen__1__3__2__1__t;
+        struct timeval festivalOpen__1__3__2__1__tv;
+        char *festivalOpen__1__3__2__1__tstr;
+        festivalOpen__1__3__2__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_6;
+        return_value_ctime_6=ctime(&festivalOpen__1__3__2__1__t);
+        festivalOpen__1__3__2__1__tstr=g_strdup(return_value_ctime_6);
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(festivalOpen__1__3__2__1__tstr);
+        festivalOpen__1__3__2__1__tstr[(signed long int)(return_value_strlen_7 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&festivalOpen__1__3__2__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", festivalOpen__1__3__2__1__tstr, (signed int)festivalOpen__1__3__2__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Can't open connection");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", festivalOpen$$1$$3$$2$$1$$tstr, (signed int)festivalOpen$$1$$3$$2$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", festivalOpen__1__3__2__1__tstr, (signed int)festivalOpen__1__3__2__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Can't open connection");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)festivalOpen$$1$$3$$2$$1$$tstr);
+        g_free((void *)festivalOpen__1__3__2__1__tstr);
       }
 
     ret=festival_read_response(info, &resp);
     if(resp == ((char *)NULL) || !(ret == 0))
-      tmp_if_expr$11 = (_Bool)1;
+      tmp_if_expr_11 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$10=strcmp(resp, "t\n");
-      tmp_if_expr$11 = return_value_strcmp$10 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_10=strcmp(resp, "t\n");
+      tmp_if_expr_11 = return_value_strcmp_10 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$11)
+    if(tmp_if_expr_11)
     {
       if(!(Debug == 0))
       {
-        signed long int festivalOpen$$1$$4$$1$$t;
+        signed long int festivalOpen__1__4__1__t;
         struct timeval tv;
         char *tstr;
-        festivalOpen$$1$$4$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$8;
-        return_value_ctime$8=ctime(&festivalOpen$$1$$4$$1$$t);
-        tstr=g_strdup(return_value_ctime$8);
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen(tstr);
-        tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
+        festivalOpen__1__4__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_8;
+        return_value_ctime_8=ctime(&festivalOpen__1__4__1__t);
+        tstr=g_strdup(return_value_ctime_8);
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen(tstr);
+        tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
         gettimeofday(&tv, (struct timezone *)(void *)0);
         fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
         fprintf(stderr, ": ");
@@ -6700,9 +6700,9 @@ struct FT_Info * festivalOpen(struct FT_Info *info)
       g_free((void *)resp);
       struct _IO_FILE *fd;
       char *str;
-      signed int return_value_dup$12;
-      return_value_dup$12=dup(info->server_fd);
-      fd=fdopen(return_value_dup$12, "wb");
+      signed int return_value_dup_12;
+      return_value_dup_12=dup(info->server_fd);
+      fd=fdopen(return_value_dup_12, "wb");
       if(!(fd == ((struct _IO_FILE *)NULL)))
       {
         str=g_strdup("(Parameter.set 'Wavefiletype 'nist)\n\n");
@@ -6710,31 +6710,31 @@ struct FT_Info * festivalOpen(struct FT_Info *info)
         if(!(Debug == 0))
         {
           signed long int t;
-          struct timeval festivalOpen$$1$$5$$1$$1$$tv;
-          char *festivalOpen$$1$$5$$1$$1$$tstr;
+          struct timeval festivalOpen__1__5__1__1__tv;
+          char *festivalOpen__1__5__1__1__tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$13;
-          return_value_ctime$13=ctime(&t);
-          festivalOpen$$1$$5$$1$$1$$tstr=g_strdup(return_value_ctime$13);
-          unsigned long int return_value_strlen$14;
-          return_value_strlen$14=strlen(festivalOpen$$1$$5$$1$$1$$tstr);
-          festivalOpen$$1$$5$$1$$1$$tstr[(signed long int)(return_value_strlen$14 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&festivalOpen$$1$$5$$1$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", festivalOpen$$1$$5$$1$$1$$tstr, (signed int)festivalOpen$$1$$5$$1$$1$$tv.tv_usec);
+          char *return_value_ctime_13;
+          return_value_ctime_13=ctime(&t);
+          festivalOpen__1__5__1__1__tstr=g_strdup(return_value_ctime_13);
+          unsigned long int return_value_strlen_14;
+          return_value_strlen_14=strlen(festivalOpen__1__5__1__1__tstr);
+          festivalOpen__1__5__1__1__tstr[(signed long int)(return_value_strlen_14 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&festivalOpen__1__5__1__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", festivalOpen__1__5__1__1__tstr, (signed int)festivalOpen__1__5__1__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "-> Festival: |%s|", str);
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", festivalOpen$$1$$5$$1$$1$$tstr, (signed int)festivalOpen$$1$$5$$1$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", festivalOpen__1__5__1__1__tstr, (signed int)festivalOpen__1__5__1__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "-> Festival: |%s|", str);
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)festivalOpen$$1$$5$$1$$1$$tstr);
+          g_free((void *)festivalOpen__1__5__1__1__tstr);
         }
 
         g_free((void *)str);
@@ -6744,73 +6744,73 @@ struct FT_Info * festivalOpen(struct FT_Info *info)
       else
         if(!(Debug == 0))
         {
-          signed long int festivalOpen$$1$$5$$2$$1$$t;
-          struct timeval festivalOpen$$1$$5$$2$$1$$tv;
-          char *festivalOpen$$1$$5$$2$$1$$tstr;
-          festivalOpen$$1$$5$$2$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$15;
-          return_value_ctime$15=ctime(&festivalOpen$$1$$5$$2$$1$$t);
-          festivalOpen$$1$$5$$2$$1$$tstr=g_strdup(return_value_ctime$15);
-          unsigned long int return_value_strlen$16;
-          return_value_strlen$16=strlen(festivalOpen$$1$$5$$2$$1$$tstr);
-          festivalOpen$$1$$5$$2$$1$$tstr[(signed long int)(return_value_strlen$16 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&festivalOpen$$1$$5$$2$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", festivalOpen$$1$$5$$2$$1$$tstr, (signed int)festivalOpen$$1$$5$$2$$1$$tv.tv_usec);
+          signed long int festivalOpen__1__5__2__1__t;
+          struct timeval festivalOpen__1__5__2__1__tv;
+          char *festivalOpen__1__5__2__1__tstr;
+          festivalOpen__1__5__2__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_15;
+          return_value_ctime_15=ctime(&festivalOpen__1__5__2__1__t);
+          festivalOpen__1__5__2__1__tstr=g_strdup(return_value_ctime_15);
+          unsigned long int return_value_strlen_16;
+          return_value_strlen_16=strlen(festivalOpen__1__5__2__1__tstr);
+          festivalOpen__1__5__2__1__tstr[(signed long int)(return_value_strlen_16 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&festivalOpen__1__5__2__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", festivalOpen__1__5__2__1__tstr, (signed int)festivalOpen__1__5__2__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Can't open connection");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", festivalOpen$$1$$5$$2$$1$$tstr, (signed int)festivalOpen$$1$$5$$2$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", festivalOpen__1__5__2__1__tstr, (signed int)festivalOpen__1__5__2__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Can't open connection");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)festivalOpen$$1$$5$$2$$1$$tstr);
+          g_free((void *)festivalOpen__1__5__2__1__tstr);
         }
 
       ret=festival_read_response(info, &resp);
       if(resp == ((char *)NULL) || !(ret == 0))
-        tmp_if_expr$20 = (_Bool)1;
+        tmp_if_expr_20 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$19=strcmp(resp, "nist\n");
-        tmp_if_expr$20 = return_value_strcmp$19 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_19=strcmp(resp, "nist\n");
+        tmp_if_expr_20 = return_value_strcmp_19 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$20)
+      if(tmp_if_expr_20)
       {
         if(!(Debug == 0))
         {
-          signed long int festivalOpen$$1$$6$$1$$t;
-          struct timeval festivalOpen$$1$$6$$1$$tv;
-          char *festivalOpen$$1$$6$$1$$tstr;
-          festivalOpen$$1$$6$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$17;
-          return_value_ctime$17=ctime(&festivalOpen$$1$$6$$1$$t);
-          festivalOpen$$1$$6$$1$$tstr=g_strdup(return_value_ctime$17);
-          unsigned long int return_value_strlen$18;
-          return_value_strlen$18=strlen(festivalOpen$$1$$6$$1$$tstr);
-          festivalOpen$$1$$6$$1$$tstr[(signed long int)(return_value_strlen$18 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&festivalOpen$$1$$6$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", festivalOpen$$1$$6$$1$$tstr, (signed int)festivalOpen$$1$$6$$1$$tv.tv_usec);
+          signed long int festivalOpen__1__6__1__t;
+          struct timeval festivalOpen__1__6__1__tv;
+          char *festivalOpen__1__6__1__tstr;
+          festivalOpen__1__6__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_17;
+          return_value_ctime_17=ctime(&festivalOpen__1__6__1__t);
+          festivalOpen__1__6__1__tstr=g_strdup(return_value_ctime_17);
+          unsigned long int return_value_strlen_18;
+          return_value_strlen_18=strlen(festivalOpen__1__6__1__tstr);
+          festivalOpen__1__6__1__tstr[(signed long int)(return_value_strlen_18 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&festivalOpen__1__6__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", festivalOpen__1__6__1__tstr, (signed int)festivalOpen__1__6__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "ERROR: Can't set Wavefiletype to nist in Festival. Reason: %s", resp);
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", festivalOpen$$1$$6$$1$$tstr, (signed int)festivalOpen$$1$$6$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", festivalOpen__1__6__1__tstr, (signed int)festivalOpen__1__6__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "ERROR: Can't set Wavefiletype to nist in Festival. Reason: %s", resp);
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)festivalOpen$$1$$6$$1$$tstr);
+          g_free((void *)festivalOpen__1__6__1__tstr);
         }
 
         return (struct FT_Info *)(void *)0;
@@ -6829,18 +6829,18 @@ struct FT_Info * festivalOpen(struct FT_Info *info)
 // file festival_client.h line 121
 signed int festivalSoundIcon(struct FT_Info *info, const char *text)
 {
-  signed int return_value_festival_speak_command$1;
-  return_value_festival_speak_command$1=festival_speak_command(info, "speechd-sound-icon", text, 1, 0);
-  return return_value_festival_speak_command$1;
+  signed int return_value_festival_speak_command_1;
+  return_value_festival_speak_command_1=festival_speak_command(info, "speechd-sound-icon", text, 1, 0);
+  return return_value_festival_speak_command_1;
 }
 
 // festivalSpell
 // file festival_client.h line 124
 signed int festivalSpell(struct FT_Info *info, const char *text)
 {
-  signed int return_value_festival_speak_command$1;
-  return_value_festival_speak_command$1=festival_speak_command(info, "speechd-spell", text, 0, 1);
-  return return_value_festival_speak_command$1;
+  signed int return_value_festival_speak_command_1;
+  return_value_festival_speak_command_1=festival_speak_command(info, "speechd-spell", text, 0, 1);
+  return return_value_festival_speak_command_1;
 }
 
 // festivalStringToWaveGetData
@@ -6849,14 +6849,14 @@ struct FT_Wave * festivalStringToWaveGetData(struct FT_Info *info)
 {
   struct FT_Wave *wave = (struct FT_Wave *)(void *)0;
   char ack[5l];
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_1;
   do
   {
-    signed int return_value_festival_get_ack$2;
-    return_value_festival_get_ack$2=festival_get_ack(&info, ack);
-    if(!(return_value_festival_get_ack$2 == 0))
+    signed int return_value_festival_get_ack_2;
+    return_value_festival_get_ack_2=festival_get_ack(&info, ack);
+    if(!(return_value_festival_get_ack_2 == 0))
       return (struct FT_Wave *)(void *)0;
 
     if(!(Debug == 0))
@@ -6865,12 +6865,12 @@ struct FT_Wave * festivalStringToWaveGetData(struct FT_Info *info)
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$3;
-      return_value_ctime$3=ctime(&t);
-      tstr=g_strdup(return_value_ctime$3);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_3;
+      return_value_ctime_3=ctime(&t);
+      tstr=g_strdup(return_value_ctime_3);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -6889,28 +6889,28 @@ struct FT_Wave * festivalStringToWaveGetData(struct FT_Info *info)
       g_free((void *)tstr);
     }
 
-    signed int return_value_strcmp$7;
-    return_value_strcmp$7=strcmp(ack, "WV\n");
-    if(return_value_strcmp$7 == 0)
+    signed int return_value_strcmp_7;
+    return_value_strcmp_7=strcmp(ack, "WV\n");
+    if(return_value_strcmp_7 == 0)
       wave=client_accept_waveform(info->server_fd, (signed int *)(void *)0, 0);
 
     else
     {
-      return_value_strcmp$6=strcmp(ack, "LP\n");
-      if(return_value_strcmp$6 == 0)
+      return_value_strcmp_6=strcmp(ack, "LP\n");
+      if(return_value_strcmp_6 == 0)
         client_accept_s_expr(info->server_fd);
 
       else
       {
-        return_value_strcmp$5=strcmp(ack, "ER\n");
-        if(return_value_strcmp$5 == 0)
+        return_value_strcmp_5=strcmp(ack, "ER\n");
+        if(return_value_strcmp_5 == 0)
           break;
 
       }
     }
-    return_value_strcmp$1=strcmp(ack, "OK\n");
+    return_value_strcmp_1=strcmp(ack, "OK\n");
   }
-  while(!(return_value_strcmp$1 == 0));
+  while(!(return_value_strcmp_1 == 0));
   return wave;
 }
 
@@ -6918,9 +6918,9 @@ struct FT_Wave * festivalStringToWaveGetData(struct FT_Info *info)
 // file festival_client.h line 120
 signed int festivalStringToWaveRequest(struct FT_Info *info, const char *text)
 {
-  signed int return_value_festival_speak_command$1;
-  return_value_festival_speak_command$1=festival_speak_command(info, "speechd-speak-ssml", text, 0, 1);
-  return return_value_festival_speak_command$1;
+  signed int return_value_festival_speak_command_1;
+  return_value_festival_speak_command_1=festival_speak_command(info, "speechd-speak-ssml", text, 0, 1);
+  return return_value_festival_speak_command_1;
 }
 
 // festival_accept_any_response
@@ -6936,12 +6936,12 @@ signed int festival_accept_any_response(struct FT_Info *info)
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -6960,9 +6960,9 @@ signed int festival_accept_any_response(struct FT_Info *info)
     g_free((void *)tstr);
   }
 
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_3;
   do
   {
     r=festival_get_ack(&info, ack);
@@ -6971,43 +6971,43 @@ signed int festival_accept_any_response(struct FT_Info *info)
 
     if(!(Debug == 0))
     {
-      signed long int festival_accept_any_response$$1$$2$$1$$t;
-      struct timeval festival_accept_any_response$$1$$2$$1$$tv;
-      char *festival_accept_any_response$$1$$2$$1$$tstr;
-      festival_accept_any_response$$1$$2$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$4;
-      return_value_ctime$4=ctime(&festival_accept_any_response$$1$$2$$1$$t);
-      festival_accept_any_response$$1$$2$$1$$tstr=g_strdup(return_value_ctime$4);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(festival_accept_any_response$$1$$2$$1$$tstr);
-      festival_accept_any_response$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&festival_accept_any_response$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", festival_accept_any_response$$1$$2$$1$$tstr, (signed int)festival_accept_any_response$$1$$2$$1$$tv.tv_usec);
+      signed long int festival_accept_any_response__1__2__1__t;
+      struct timeval festival_accept_any_response__1__2__1__tv;
+      char *festival_accept_any_response__1__2__1__tstr;
+      festival_accept_any_response__1__2__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_4;
+      return_value_ctime_4=ctime(&festival_accept_any_response__1__2__1__t);
+      festival_accept_any_response__1__2__1__tstr=g_strdup(return_value_ctime_4);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(festival_accept_any_response__1__2__1__tstr);
+      festival_accept_any_response__1__2__1__tstr[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&festival_accept_any_response__1__2__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", festival_accept_any_response__1__2__1__tstr, (signed int)festival_accept_any_response__1__2__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "<- Festival: |%s|", (const void *)ack);
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", festival_accept_any_response$$1$$2$$1$$tstr, (signed int)festival_accept_any_response$$1$$2$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", festival_accept_any_response__1__2__1__tstr, (signed int)festival_accept_any_response__1__2__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "<- Festival: |%s|", (const void *)ack);
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)festival_accept_any_response$$1$$2$$1$$tstr);
+      g_free((void *)festival_accept_any_response__1__2__1__tstr);
     }
 
-    signed int return_value_strcmp$8;
-    return_value_strcmp$8=strcmp(ack, "WV\n");
-    if(return_value_strcmp$8 == 0)
+    signed int return_value_strcmp_8;
+    return_value_strcmp_8=strcmp(ack, "WV\n");
+    if(return_value_strcmp_8 == 0)
       client_accept_waveform(info->server_fd, (signed int *)(void *)0, 0);
 
     else
     {
-      return_value_strcmp$7=strcmp(ack, "LP\n");
-      if(return_value_strcmp$7 == 0)
+      return_value_strcmp_7=strcmp(ack, "LP\n");
+      if(return_value_strcmp_7 == 0)
       {
         expr=client_accept_s_expr(info->server_fd);
         if(!(expr == ((char *)NULL)))
@@ -7017,15 +7017,15 @@ signed int festival_accept_any_response(struct FT_Info *info)
 
       else
       {
-        return_value_strcmp$6=strcmp(ack, "ER\n");
-        if(return_value_strcmp$6 == 0)
+        return_value_strcmp_6=strcmp(ack, "ER\n");
+        if(return_value_strcmp_6 == 0)
           break;
 
       }
     }
-    return_value_strcmp$3=strcmp(ack, "OK\n");
+    return_value_strcmp_3=strcmp(ack, "OK\n");
   }
-  while(!(return_value_strcmp$3 == 0));
+  while(!(return_value_strcmp_3 == 0));
   return 0;
 }
 
@@ -7035,13 +7035,13 @@ signed int festival_check_info(struct FT_Info *info, char *fnname)
 {
   /* assertion fnname != ((void *)0) */
   assert(fnname != (char *)(void *)0);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(info == ((struct FT_Info *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = info->server_fd == -1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = info->server_fd == -1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     if(!(Debug == 0))
     {
@@ -7049,12 +7049,12 @@ signed int festival_check_info(struct FT_Info *info, char *fnname)
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$1;
-      return_value_ctime$1=ctime(&t);
-      tstr=g_strdup(return_value_ctime$1);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_1;
+      return_value_ctime_1=ctime(&t);
+      tstr=g_strdup(return_value_ctime_1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -7098,9 +7098,9 @@ signed int festival_get_ack(struct FT_Info **info, char *ack)
       n = 0;
       while(!(n >= 3))
       {
-        signed long int return_value_read$1;
-        return_value_read$1=read((*info)->server_fd, (void *)(ack + (signed long int)n), (unsigned long int)(3 - n));
-        read_bytes = (signed int)return_value_read$1;
+        signed long int return_value_read_1;
+        return_value_read_1=read((*info)->server_fd, (void *)(ack + (signed long int)n), (unsigned long int)(3 - n));
+        read_bytes = (signed int)return_value_read_1;
         if(!(read_bytes >= 1))
         {
           if(!(Debug == 0))
@@ -7109,12 +7109,12 @@ signed int festival_get_ack(struct FT_Info **info, char *ack)
             struct timeval tv;
             char *tstr;
             t=time((signed long int *)(void *)0);
-            char *return_value_ctime$2;
-            return_value_ctime$2=ctime(&t);
-            tstr=g_strdup(return_value_ctime$2);
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(tstr);
-            tstr[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+            char *return_value_ctime_2;
+            return_value_ctime_2=ctime(&t);
+            tstr=g_strdup(return_value_ctime_2);
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(tstr);
+            tstr[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
             gettimeofday(&tv, (struct timezone *)(void *)0);
             fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
             fprintf(stderr, ": ");
@@ -7157,12 +7157,12 @@ signed int festival_read_response(struct FT_Info *info, char **expr)
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -7190,9 +7190,9 @@ signed int festival_read_response(struct FT_Info *info, char **expr)
 
     else
     {
-      signed int return_value_festival_get_ack$3;
-      return_value_festival_get_ack$3=festival_get_ack(&info, buf);
-      if(!(return_value_festival_get_ack$3 == 0))
+      signed int return_value_festival_get_ack_3;
+      return_value_festival_get_ack_3=festival_get_ack(&info, buf);
+      if(!(return_value_festival_get_ack_3 == 0))
         return 1;
 
       else
@@ -7200,37 +7200,37 @@ signed int festival_read_response(struct FT_Info *info, char **expr)
         buf[(signed long int)3] = (char)0;
         if(!(Debug == 0))
         {
-          signed long int festival_read_response$$1$$2$$t;
-          struct timeval festival_read_response$$1$$2$$tv;
-          char *festival_read_response$$1$$2$$tstr;
-          festival_read_response$$1$$2$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$4;
-          return_value_ctime$4=ctime(&festival_read_response$$1$$2$$t);
-          festival_read_response$$1$$2$$tstr=g_strdup(return_value_ctime$4);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(festival_read_response$$1$$2$$tstr);
-          festival_read_response$$1$$2$$tstr[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&festival_read_response$$1$$2$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", festival_read_response$$1$$2$$tstr, (signed int)festival_read_response$$1$$2$$tv.tv_usec);
+          signed long int festival_read_response__1__2__t;
+          struct timeval festival_read_response__1__2__tv;
+          char *festival_read_response__1__2__tstr;
+          festival_read_response__1__2__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_4;
+          return_value_ctime_4=ctime(&festival_read_response__1__2__t);
+          festival_read_response__1__2__tstr=g_strdup(return_value_ctime_4);
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(festival_read_response__1__2__tstr);
+          festival_read_response__1__2__tstr[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&festival_read_response__1__2__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", festival_read_response__1__2__tstr, (signed int)festival_read_response__1__2__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "<- Festival: |%s|", (const void *)buf);
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", festival_read_response$$1$$2$$tstr, (signed int)festival_read_response$$1$$2$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", festival_read_response__1__2__tstr, (signed int)festival_read_response__1__2__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "<- Festival: |%s|", (const void *)buf);
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)festival_read_response$$1$$2$$tstr);
+          g_free((void *)festival_read_response__1__2__tstr);
         }
 
-        signed int return_value_strcmp$6;
-        return_value_strcmp$6=strcmp(buf, "ER\n");
-        if(return_value_strcmp$6 == 0)
+        signed int return_value_strcmp_6;
+        return_value_strcmp_6=strcmp(buf, "ER\n");
+        if(return_value_strcmp_6 == 0)
         {
           if(!(expr == ((char **)NULL)))
             *expr = (char *)(void *)0;
@@ -7249,41 +7249,41 @@ signed int festival_read_response(struct FT_Info *info, char **expr)
               g_free((void *)r);
 
           }
-        signed int return_value_festival_get_ack$7;
-        return_value_festival_get_ack$7=festival_get_ack(&info, buf);
-        if(!(return_value_festival_get_ack$7 == 0))
+        signed int return_value_festival_get_ack_7;
+        return_value_festival_get_ack_7=festival_get_ack(&info, buf);
+        if(!(return_value_festival_get_ack_7 == 0))
           return 1;
 
         else
         {
           if(!(Debug == 0))
           {
-            signed long int festival_read_response$$1$$5$$t;
-            struct timeval festival_read_response$$1$$5$$tv;
-            char *festival_read_response$$1$$5$$tstr;
-            festival_read_response$$1$$5$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$8;
-            return_value_ctime$8=ctime(&festival_read_response$$1$$5$$t);
-            festival_read_response$$1$$5$$tstr=g_strdup(return_value_ctime$8);
-            unsigned long int return_value_strlen$9;
-            return_value_strlen$9=strlen(festival_read_response$$1$$5$$tstr);
-            festival_read_response$$1$$5$$tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&festival_read_response$$1$$5$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", festival_read_response$$1$$5$$tstr, (signed int)festival_read_response$$1$$5$$tv.tv_usec);
+            signed long int festival_read_response__1__5__t;
+            struct timeval festival_read_response__1__5__tv;
+            char *festival_read_response__1__5__tstr;
+            festival_read_response__1__5__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_8;
+            return_value_ctime_8=ctime(&festival_read_response__1__5__t);
+            festival_read_response__1__5__tstr=g_strdup(return_value_ctime_8);
+            unsigned long int return_value_strlen_9;
+            return_value_strlen_9=strlen(festival_read_response__1__5__tstr);
+            festival_read_response__1__5__tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&festival_read_response__1__5__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", festival_read_response__1__5__tstr, (signed int)festival_read_response__1__5__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "<- Festival: |%s|", (const void *)buf);
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", festival_read_response$$1$$5$$tstr, (signed int)festival_read_response$$1$$5$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", festival_read_response__1__5__tstr, (signed int)festival_read_response__1__5__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "<- Festival: |%s|", (const void *)buf);
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)festival_read_response$$1$$5$$tstr);
+            g_free((void *)festival_read_response__1__5__tstr);
           }
 
           return 0;
@@ -7296,8 +7296,8 @@ signed int festival_read_response(struct FT_Info *info, char **expr)
 // file festival.c line 566
 signed int festival_send_to_audio(struct FT_Wave *fwave)
 {
-  struct anonymous$3 track;
-  enum anonymous$4 format = (enum anonymous$4)SPD_AUDIO_LE;
+  struct anonymous_3 track;
+  enum anonymous_4 format = (enum anonymous_4)SPD_AUDIO_LE;
   signed int ret = 0;
   if(fwave->samples == ((signed short int *)NULL))
     return 0;
@@ -7311,32 +7311,32 @@ signed int festival_send_to_audio(struct FT_Wave *fwave)
     track.samples = fwave->samples;
     if(!(Debug == 0))
     {
-      signed long int festival_send_to_audio$$1$$1$$t;
-      struct timeval festival_send_to_audio$$1$$1$$tv;
-      char *festival_send_to_audio$$1$$1$$tstr;
-      festival_send_to_audio$$1$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$1;
-      return_value_ctime$1=ctime(&festival_send_to_audio$$1$$1$$t);
-      festival_send_to_audio$$1$$1$$tstr=g_strdup(return_value_ctime$1);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(festival_send_to_audio$$1$$1$$tstr);
-      festival_send_to_audio$$1$$1$$tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&festival_send_to_audio$$1$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", festival_send_to_audio$$1$$1$$tstr, (signed int)festival_send_to_audio$$1$$1$$tv.tv_usec);
+      signed long int festival_send_to_audio__1__1__t;
+      struct timeval festival_send_to_audio__1__1__tv;
+      char *festival_send_to_audio__1__1__tstr;
+      festival_send_to_audio__1__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_1;
+      return_value_ctime_1=ctime(&festival_send_to_audio__1__1__t);
+      festival_send_to_audio__1__1__tstr=g_strdup(return_value_ctime_1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(festival_send_to_audio__1__1__tstr);
+      festival_send_to_audio__1__1__tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&festival_send_to_audio__1__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", festival_send_to_audio__1__1__tstr, (signed int)festival_send_to_audio__1__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Sending to audio");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", festival_send_to_audio$$1$$1$$tstr, (signed int)festival_send_to_audio$$1$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", festival_send_to_audio__1__1__tstr, (signed int)festival_send_to_audio__1__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Sending to audio");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)festival_send_to_audio$$1$$1$$tstr);
+      g_free((void *)festival_send_to_audio__1__1__tstr);
     }
 
     ret=module_tts_output(track, format);
@@ -7344,16 +7344,16 @@ signed int festival_send_to_audio(struct FT_Wave *fwave)
     {
       if(!(Debug == 0))
       {
-        signed long int festival_send_to_audio$$1$$2$$t;
+        signed long int festival_send_to_audio__1__2__t;
         struct timeval tv;
         char *tstr;
-        festival_send_to_audio$$1$$2$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$3;
-        return_value_ctime$3=ctime(&festival_send_to_audio$$1$$2$$t);
-        tstr=g_strdup(return_value_ctime$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(tstr);
-        tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+        festival_send_to_audio__1__2__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_3;
+        return_value_ctime_3=ctime(&festival_send_to_audio__1__2__t);
+        tstr=g_strdup(return_value_ctime_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(tstr);
+        tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
         gettimeofday(&tv, (struct timezone *)(void *)0);
         fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
         fprintf(stderr, ": ");
@@ -7377,31 +7377,31 @@ signed int festival_send_to_audio(struct FT_Wave *fwave)
     if(!(Debug == 0))
     {
       signed long int t;
-      struct timeval festival_send_to_audio$$1$$3$$tv;
-      char *festival_send_to_audio$$1$$3$$tstr;
+      struct timeval festival_send_to_audio__1__3__tv;
+      char *festival_send_to_audio__1__3__tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$5;
-      return_value_ctime$5=ctime(&t);
-      festival_send_to_audio$$1$$3$$tstr=g_strdup(return_value_ctime$5);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(festival_send_to_audio$$1$$3$$tstr);
-      festival_send_to_audio$$1$$3$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&festival_send_to_audio$$1$$3$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", festival_send_to_audio$$1$$3$$tstr, (signed int)festival_send_to_audio$$1$$3$$tv.tv_usec);
+      char *return_value_ctime_5;
+      return_value_ctime_5=ctime(&t);
+      festival_send_to_audio__1__3__tstr=g_strdup(return_value_ctime_5);
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(festival_send_to_audio__1__3__tstr);
+      festival_send_to_audio__1__3__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&festival_send_to_audio__1__3__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", festival_send_to_audio__1__3__tstr, (signed int)festival_send_to_audio__1__3__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Sent to audio.");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", festival_send_to_audio$$1$$3$$tstr, (signed int)festival_send_to_audio$$1$$3$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", festival_send_to_audio__1__3__tstr, (signed int)festival_send_to_audio__1__3__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Sent to audio.");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)festival_send_to_audio$$1$$3$$tstr);
+      g_free((void *)festival_send_to_audio__1__3__tstr);
     }
 
     return 0;
@@ -7410,7 +7410,7 @@ signed int festival_send_to_audio(struct FT_Wave *fwave)
 
 // festival_set_cap_let_recogn
 // file festival.c line 875
-void festival_set_cap_let_recogn(enum anonymous$10 recogn)
+void festival_set_cap_let_recogn(enum anonymous_10 recogn)
 {
   char *recogn_mode;
   if((signed int)recogn == SPD_CAP_NONE)
@@ -7440,7 +7440,7 @@ void festival_set_pitch(signed int pitch)
 
 // festival_set_punctuation_mode
 // file festival.c line 867
-void festival_set_punctuation_mode(enum anonymous$8 punct)
+void festival_set_punctuation_mode(enum anonymous_8 punct)
 {
   char *punct_mode;
   punct_mode=EPunctMode2str(punct);
@@ -7464,7 +7464,7 @@ void festival_set_synthesis_voice(char *voice_name)
 
 // festival_set_voice
 // file festival.c line 837
-void festival_set_voice(enum anonymous$11 voice)
+void festival_set_voice(enum anonymous_11 voice)
 {
   char *voice_name;
   voice_name=EVoice2str(voice);
@@ -7511,9 +7511,9 @@ static signed int festival_socket_open(const char *host, signed int port)
 
     serv_addr.sin_family = (unsigned short int)2;
     serv_addr.sin_port=htons((unsigned short int)port);
-    signed int return_value_connect$1;
-    return_value_connect$1=connect(fd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_connect$1 == 0))
+    signed int return_value_connect_1;
+    return_value_connect_1=connect(fd, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_connect_1 == 0))
     {
       fprintf(stderr, "festival_client: connect to server failed\n");
       return -1;
@@ -7532,11 +7532,11 @@ signed int festival_speak_command(struct FT_Info *info, char *command, const cha
   const char *p;
   char *str;
   signed int ret;
-  signed int return_value_festival_check_info$1;
-  return_value_festival_check_info$1=festival_check_info(info, "festival_speak_command");
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  if(return_value_festival_check_info$1 == -1)
+  signed int return_value_festival_check_info_1;
+  return_value_festival_check_info_1=festival_check_info(info, "festival_speak_command");
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  if(return_value_festival_check_info_1 == -1)
     return -1;
 
   else
@@ -7555,12 +7555,12 @@ signed int festival_speak_command(struct FT_Info *info, char *command, const cha
           struct timeval tv;
           char *tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$2;
-          return_value_ctime$2=ctime(&t);
-          tstr=g_strdup(return_value_ctime$2);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+          char *return_value_ctime_2;
+          return_value_ctime_2=ctime(&t);
+          tstr=g_strdup(return_value_ctime_2);
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -7579,9 +7579,9 @@ signed int festival_speak_command(struct FT_Info *info, char *command, const cha
           g_free((void *)tstr);
         }
 
-        signed int return_value_dup$4;
-        return_value_dup$4=dup(info->server_fd);
-        fd=fdopen(return_value_dup$4, "wb");
+        signed int return_value_dup_4;
+        return_value_dup_4=dup(info->server_fd);
+        fd=fdopen(return_value_dup_4, "wb");
         if(symbol == 0)
           str=g_strdup_printf("(%s \"", command);
 
@@ -7592,19 +7592,19 @@ signed int festival_speak_command(struct FT_Info *info, char *command, const cha
         do
         {
           if(!(p == ((const char *)NULL)))
-            tmp_if_expr$5 = (signed int)*p != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (signed int)*p != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(!tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(!tmp_if_expr_5)
             break;
 
           if((signed int)*p == 34)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (signed int)*p == 92 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (signed int)*p == 92 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
             _IO_putc(92, fd);
 
           _IO_putc((signed int)*p, fd);
@@ -7618,94 +7618,94 @@ signed int festival_speak_command(struct FT_Info *info, char *command, const cha
           fprintf(fd, ")\n");
         if(!(Debug == 0))
         {
-          signed long int festival_speak_command$$1$$3$$t;
-          struct timeval festival_speak_command$$1$$3$$tv;
-          char *festival_speak_command$$1$$3$$tstr;
-          festival_speak_command$$1$$3$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$7;
-          return_value_ctime$7=ctime(&festival_speak_command$$1$$3$$t);
-          festival_speak_command$$1$$3$$tstr=g_strdup(return_value_ctime$7);
-          unsigned long int return_value_strlen$8;
-          return_value_strlen$8=strlen(festival_speak_command$$1$$3$$tstr);
-          festival_speak_command$$1$$3$$tstr[(signed long int)(return_value_strlen$8 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&festival_speak_command$$1$$3$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", festival_speak_command$$1$$3$$tstr, (signed int)festival_speak_command$$1$$3$$tv.tv_usec);
+          signed long int festival_speak_command__1__3__t;
+          struct timeval festival_speak_command__1__3__tv;
+          char *festival_speak_command__1__3__tstr;
+          festival_speak_command__1__3__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_7;
+          return_value_ctime_7=ctime(&festival_speak_command__1__3__t);
+          festival_speak_command__1__3__tstr=g_strdup(return_value_ctime_7);
+          unsigned long int return_value_strlen_8;
+          return_value_strlen_8=strlen(festival_speak_command__1__3__tstr);
+          festival_speak_command__1__3__tstr[(signed long int)(return_value_strlen_8 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&festival_speak_command__1__3__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", festival_speak_command__1__3__tstr, (signed int)festival_speak_command__1__3__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "-> Festival: escaped text is %s", text);
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", festival_speak_command$$1$$3$$tstr, (signed int)festival_speak_command$$1$$3$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", festival_speak_command__1__3__tstr, (signed int)festival_speak_command__1__3__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "-> Festival: escaped text is %s", text);
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)festival_speak_command$$1$$3$$tstr);
+          g_free((void *)festival_speak_command__1__3__tstr);
         }
 
         if(!(Debug == 0))
         {
-          signed long int festival_speak_command$$1$$4$$t;
-          struct timeval festival_speak_command$$1$$4$$tv;
-          char *festival_speak_command$$1$$4$$tstr;
-          festival_speak_command$$1$$4$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$9;
-          return_value_ctime$9=ctime(&festival_speak_command$$1$$4$$t);
-          festival_speak_command$$1$$4$$tstr=g_strdup(return_value_ctime$9);
-          unsigned long int return_value_strlen$10;
-          return_value_strlen$10=strlen(festival_speak_command$$1$$4$$tstr);
-          festival_speak_command$$1$$4$$tstr[(signed long int)(return_value_strlen$10 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&festival_speak_command$$1$$4$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", festival_speak_command$$1$$4$$tstr, (signed int)festival_speak_command$$1$$4$$tv.tv_usec);
+          signed long int festival_speak_command__1__4__t;
+          struct timeval festival_speak_command__1__4__tv;
+          char *festival_speak_command__1__4__tstr;
+          festival_speak_command__1__4__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_9;
+          return_value_ctime_9=ctime(&festival_speak_command__1__4__t);
+          festival_speak_command__1__4__tstr=g_strdup(return_value_ctime_9);
+          unsigned long int return_value_strlen_10;
+          return_value_strlen_10=strlen(festival_speak_command__1__4__tstr);
+          festival_speak_command__1__4__tstr[(signed long int)(return_value_strlen_10 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&festival_speak_command__1__4__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", festival_speak_command__1__4__tstr, (signed int)festival_speak_command__1__4__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "-> Festival: |%sthe text is displayed above\")|", str);
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", festival_speak_command$$1$$4$$tstr, (signed int)festival_speak_command$$1$$4$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", festival_speak_command__1__4__tstr, (signed int)festival_speak_command__1__4__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "-> Festival: |%sthe text is displayed above\")|", str);
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)festival_speak_command$$1$$4$$tstr);
+          g_free((void *)festival_speak_command__1__4__tstr);
         }
 
         g_free((void *)str);
         fclose(fd);
         if(!(Debug == 0))
         {
-          signed long int festival_speak_command$$1$$5$$t;
-          struct timeval festival_speak_command$$1$$5$$tv;
-          char *festival_speak_command$$1$$5$$tstr;
-          festival_speak_command$$1$$5$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$11;
-          return_value_ctime$11=ctime(&festival_speak_command$$1$$5$$t);
-          festival_speak_command$$1$$5$$tstr=g_strdup(return_value_ctime$11);
-          unsigned long int return_value_strlen$12;
-          return_value_strlen$12=strlen(festival_speak_command$$1$$5$$tstr);
-          festival_speak_command$$1$$5$$tstr[(signed long int)(return_value_strlen$12 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&festival_speak_command$$1$$5$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", festival_speak_command$$1$$5$$tstr, (signed int)festival_speak_command$$1$$5$$tv.tv_usec);
+          signed long int festival_speak_command__1__5__t;
+          struct timeval festival_speak_command__1__5__tv;
+          char *festival_speak_command__1__5__tstr;
+          festival_speak_command__1__5__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_11;
+          return_value_ctime_11=ctime(&festival_speak_command__1__5__t);
+          festival_speak_command__1__5__tstr=g_strdup(return_value_ctime_11);
+          unsigned long int return_value_strlen_12;
+          return_value_strlen_12=strlen(festival_speak_command__1__5__tstr);
+          festival_speak_command__1__5__tstr[(signed long int)(return_value_strlen_12 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&festival_speak_command__1__5__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", festival_speak_command__1__5__tstr, (signed int)festival_speak_command__1__5__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Resources freed");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", festival_speak_command$$1$$5$$tstr, (signed int)festival_speak_command$$1$$5$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", festival_speak_command__1__5__tstr, (signed int)festival_speak_command__1__5__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Resources freed");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)festival_speak_command$$1$$5$$tstr);
+          g_free((void *)festival_speak_command__1__5__tstr);
         }
 
         if(!(resp == 0))
@@ -7716,32 +7716,32 @@ signed int festival_speak_command(struct FT_Info *info, char *command, const cha
 
           if(!(Debug == 0))
           {
-            signed long int festival_speak_command$$1$$6$$1$$1$$t;
-            struct timeval festival_speak_command$$1$$6$$1$$1$$tv;
-            char *festival_speak_command$$1$$6$$1$$1$$tstr;
-            festival_speak_command$$1$$6$$1$$1$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$13;
-            return_value_ctime$13=ctime(&festival_speak_command$$1$$6$$1$$1$$t);
-            festival_speak_command$$1$$6$$1$$1$$tstr=g_strdup(return_value_ctime$13);
-            unsigned long int return_value_strlen$14;
-            return_value_strlen$14=strlen(festival_speak_command$$1$$6$$1$$1$$tstr);
-            festival_speak_command$$1$$6$$1$$1$$tstr[(signed long int)(return_value_strlen$14 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&festival_speak_command$$1$$6$$1$$1$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", festival_speak_command$$1$$6$$1$$1$$tstr, (signed int)festival_speak_command$$1$$6$$1$$1$$tv.tv_usec);
+            signed long int festival_speak_command__1__6__1__1__t;
+            struct timeval festival_speak_command__1__6__1__1__tv;
+            char *festival_speak_command__1__6__1__1__tstr;
+            festival_speak_command__1__6__1__1__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_13;
+            return_value_ctime_13=ctime(&festival_speak_command__1__6__1__1__t);
+            festival_speak_command__1__6__1__1__tstr=g_strdup(return_value_ctime_13);
+            unsigned long int return_value_strlen_14;
+            return_value_strlen_14=strlen(festival_speak_command__1__6__1__1__tstr);
+            festival_speak_command__1__6__1__1__tstr[(signed long int)(return_value_strlen_14 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&festival_speak_command__1__6__1__1__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", festival_speak_command__1__6__1__1__tstr, (signed int)festival_speak_command__1__6__1__1__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "ERROR: Festival reported error in speak command);");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", festival_speak_command$$1$$6$$1$$1$$tstr, (signed int)festival_speak_command$$1$$6$$1$$1$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", festival_speak_command__1__6__1__1__tstr, (signed int)festival_speak_command__1__6__1__1__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "ERROR: Festival reported error in speak command);");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)festival_speak_command$$1$$6$$1$$1$$tstr);
+            g_free((void *)festival_speak_command__1__6__1__1__tstr);
           }
 
           return -1;
@@ -7761,25 +7761,25 @@ signed int festival_speak_command(struct FT_Info *info, char *command, const cha
 // file i18n.c line 32
 void i18n_init(void)
 {
-  char *return_value_setlocale$1;
-  return_value_setlocale$1=setlocale(6, "");
-  if(return_value_setlocale$1 == ((char *)NULL))
+  char *return_value_setlocale_1;
+  return_value_setlocale_1=setlocale(6, "");
+  if(return_value_setlocale_1 == ((char *)NULL))
   {
     perror("setlocale");
     exit(1);
   }
 
-  char *return_value_bindtextdomain$2;
-  return_value_bindtextdomain$2=bindtextdomain("speech-dispatcher", "/usr/share/locale");
-  if(return_value_bindtextdomain$2 == ((char *)NULL))
+  char *return_value_bindtextdomain_2;
+  return_value_bindtextdomain_2=bindtextdomain("speech-dispatcher", "/usr/share/locale");
+  if(return_value_bindtextdomain_2 == ((char *)NULL))
   {
     perror("bindtextdomain");
     exit(1);
   }
 
-  char *return_value_textdomain$3;
-  return_value_textdomain$3=textdomain("speech-dispatcher");
-  if(return_value_textdomain$3 == ((char *)NULL))
+  char *return_value_textdomain_3;
+  return_value_textdomain_3=textdomain("speech-dispatcher");
+  if(return_value_textdomain_3 == ((char *)NULL))
   {
     perror("textdomain");
     exit(1);
@@ -7813,12 +7813,12 @@ signed int init_festival_socket()
         struct timeval tv;
         char *tstr;
         t=time((signed long int *)(void *)0);
-        char *return_value_ctime$1;
-        return_value_ctime$1=ctime(&t);
-        tstr=g_strdup(return_value_ctime$1);
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(tstr);
-        tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+        char *return_value_ctime_1;
+        return_value_ctime_1=ctime(&t);
+        tstr=g_strdup(return_value_ctime_1);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(tstr);
+        tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
         gettimeofday(&tv, (struct timezone *)(void *)0);
         fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
         fprintf(stderr, ": ");
@@ -7839,32 +7839,32 @@ signed int init_festival_socket()
 
       if(!(Debug == 0))
       {
-        signed long int init_festival_socket$$1$$2$$t;
-        struct timeval init_festival_socket$$1$$2$$tv;
-        char *init_festival_socket$$1$$2$$tstr;
-        init_festival_socket$$1$$2$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$3;
-        return_value_ctime$3=ctime(&init_festival_socket$$1$$2$$t);
-        init_festival_socket$$1$$2$$tstr=g_strdup(return_value_ctime$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(init_festival_socket$$1$$2$$tstr);
-        init_festival_socket$$1$$2$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&init_festival_socket$$1$$2$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", init_festival_socket$$1$$2$$tstr, (signed int)init_festival_socket$$1$$2$$tv.tv_usec);
+        signed long int init_festival_socket__1__2__t;
+        struct timeval init_festival_socket__1__2__tv;
+        char *init_festival_socket__1__2__tstr;
+        init_festival_socket__1__2__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_3;
+        return_value_ctime_3=ctime(&init_festival_socket__1__2__t);
+        init_festival_socket__1__2__tstr=g_strdup(return_value_ctime_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(init_festival_socket__1__2__tstr);
+        init_festival_socket__1__2__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&init_festival_socket__1__2__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", init_festival_socket__1__2__tstr, (signed int)init_festival_socket__1__2__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "FestivalServerPort = %d\n", FestivalServerPort);
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", init_festival_socket$$1$$2$$tstr, (signed int)init_festival_socket$$1$$2$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", init_festival_socket__1__2__tstr, (signed int)init_festival_socket__1__2__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "FestivalServerPort = %d\n", FestivalServerPort);
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)init_festival_socket$$1$$2$$tstr);
+        g_free((void *)init_festival_socket__1__2__tstr);
       }
 
       return 0;
@@ -7878,20 +7878,20 @@ signed int init_festival_standalone()
 {
   signed int ret;
   signed int fr;
-  signed int return_value_pipe$3;
-  return_value_pipe$3=pipe(module_p.pipe_in);
-  _Bool tmp_if_expr$5;
-  signed int return_value_pipe$4;
-  if(!(return_value_pipe$3 == 0))
-    tmp_if_expr$5 = (_Bool)1;
+  signed int return_value_pipe_3;
+  return_value_pipe_3=pipe(module_p.pipe_in);
+  _Bool tmp_if_expr_5;
+  signed int return_value_pipe_4;
+  if(!(return_value_pipe_3 == 0))
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_pipe$4=pipe(module_p.pipe_out);
-    tmp_if_expr$5 = return_value_pipe$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pipe_4=pipe(module_p.pipe_out);
+    tmp_if_expr_5 = return_value_pipe_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_execlp$10;
-  if(tmp_if_expr$5)
+  signed int return_value_execlp_10;
+  if(tmp_if_expr_5)
   {
     if(!(Debug == 0))
     {
@@ -7899,12 +7899,12 @@ signed int init_festival_standalone()
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$1;
-      return_value_ctime$1=ctime(&t);
-      tstr=g_strdup(return_value_ctime$1);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_1;
+      return_value_ctime_1=ctime(&t);
+      tstr=g_strdup(return_value_ctime_1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -7930,32 +7930,32 @@ signed int init_festival_standalone()
   {
     if(!(Debug == 0))
     {
-      signed long int init_festival_standalone$$1$$2$$t;
-      struct timeval init_festival_standalone$$1$$2$$tv;
-      char *init_festival_standalone$$1$$2$$tstr;
-      init_festival_standalone$$1$$2$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$6;
-      return_value_ctime$6=ctime(&init_festival_standalone$$1$$2$$t);
-      init_festival_standalone$$1$$2$$tstr=g_strdup(return_value_ctime$6);
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(init_festival_standalone$$1$$2$$tstr);
-      init_festival_standalone$$1$$2$$tstr[(signed long int)(return_value_strlen$7 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&init_festival_standalone$$1$$2$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", init_festival_standalone$$1$$2$$tstr, (signed int)init_festival_standalone$$1$$2$$tv.tv_usec);
+      signed long int init_festival_standalone__1__2__t;
+      struct timeval init_festival_standalone__1__2__tv;
+      char *init_festival_standalone__1__2__tstr;
+      init_festival_standalone__1__2__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_6;
+      return_value_ctime_6=ctime(&init_festival_standalone__1__2__t);
+      init_festival_standalone__1__2__tstr=g_strdup(return_value_ctime_6);
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(init_festival_standalone__1__2__tstr);
+      init_festival_standalone__1__2__tstr[(signed long int)(return_value_strlen_7 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&init_festival_standalone__1__2__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", init_festival_standalone__1__2__tstr, (signed int)init_festival_standalone__1__2__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Starting Festival as a child process");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", init_festival_standalone$$1$$2$$tstr, (signed int)init_festival_standalone$$1$$2$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", init_festival_standalone__1__2__tstr, (signed int)init_festival_standalone__1__2__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Starting Festival as a child process");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)init_festival_standalone$$1$$2$$tstr);
+      g_free((void *)init_festival_standalone__1__2__tstr);
     }
 
     fr=fork();
@@ -7970,32 +7970,32 @@ signed int init_festival_standalone()
     {
       if(!(Debug == 0))
       {
-        signed long int init_festival_standalone$$1$$3$$1$$t;
-        struct timeval init_festival_standalone$$1$$3$$1$$tv;
-        char *init_festival_standalone$$1$$3$$1$$tstr;
-        init_festival_standalone$$1$$3$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$8;
-        return_value_ctime$8=ctime(&init_festival_standalone$$1$$3$$1$$t);
-        init_festival_standalone$$1$$3$$1$$tstr=g_strdup(return_value_ctime$8);
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen(init_festival_standalone$$1$$3$$1$$tstr);
-        init_festival_standalone$$1$$3$$1$$tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&init_festival_standalone$$1$$3$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", init_festival_standalone$$1$$3$$1$$tstr, (signed int)init_festival_standalone$$1$$3$$1$$tv.tv_usec);
+        signed long int init_festival_standalone__1__3__1__t;
+        struct timeval init_festival_standalone__1__3__1__tv;
+        char *init_festival_standalone__1__3__1__tstr;
+        init_festival_standalone__1__3__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_8;
+        return_value_ctime_8=ctime(&init_festival_standalone__1__3__1__t);
+        init_festival_standalone__1__3__1__tstr=g_strdup(return_value_ctime_8);
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen(init_festival_standalone__1__3__1__tstr);
+        init_festival_standalone__1__3__1__tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&init_festival_standalone__1__3__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", init_festival_standalone__1__3__1__tstr, (signed int)init_festival_standalone__1__3__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "ERROR: Can't fork! Module not loaded.");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", init_festival_standalone$$1$$3$$1$$tstr, (signed int)init_festival_standalone$$1$$3$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", init_festival_standalone__1__3__1__tstr, (signed int)init_festival_standalone__1__3__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "ERROR: Can't fork! Module not loaded.");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)init_festival_standalone$$1$$3$$1$$tstr);
+        g_free((void *)init_festival_standalone__1__3__1__tstr);
       }
 
       return -1;
@@ -8008,8 +8008,8 @@ signed int init_festival_standalone()
       ret=dup2(module_p.pipe_out[(signed long int)1], 1);
       close(module_p.pipe_out[(signed long int)1]);
       close(module_p.pipe_out[(signed long int)0]);
-      return_value_execlp$10=execlp("festival", "", (char *)0);
-      if(return_value_execlp$10 == -1)
+      return_value_execlp_10=execlp("festival", "", (char *)0);
+      if(return_value_execlp_10 == -1)
         exit(1);
 
     }
@@ -8022,32 +8022,32 @@ signed int init_festival_standalone()
     {
       if(!(Debug == 0))
       {
-        signed long int init_festival_standalone$$1$$3$$2$$1$$t;
-        struct timeval init_festival_standalone$$1$$3$$2$$1$$tv;
-        char *init_festival_standalone$$1$$3$$2$$1$$tstr;
-        init_festival_standalone$$1$$3$$2$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$11;
-        return_value_ctime$11=ctime(&init_festival_standalone$$1$$3$$2$$1$$t);
-        init_festival_standalone$$1$$3$$2$$1$$tstr=g_strdup(return_value_ctime$11);
-        unsigned long int return_value_strlen$12;
-        return_value_strlen$12=strlen(init_festival_standalone$$1$$3$$2$$1$$tstr);
-        init_festival_standalone$$1$$3$$2$$1$$tstr[(signed long int)(return_value_strlen$12 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&init_festival_standalone$$1$$3$$2$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", init_festival_standalone$$1$$3$$2$$1$$tstr, (signed int)init_festival_standalone$$1$$3$$2$$1$$tv.tv_usec);
+        signed long int init_festival_standalone__1__3__2__1__t;
+        struct timeval init_festival_standalone__1__3__2__1__tv;
+        char *init_festival_standalone__1__3__2__1__tstr;
+        init_festival_standalone__1__3__2__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_11;
+        return_value_ctime_11=ctime(&init_festival_standalone__1__3__2__1__t);
+        init_festival_standalone__1__3__2__1__tstr=g_strdup(return_value_ctime_11);
+        unsigned long int return_value_strlen_12;
+        return_value_strlen_12=strlen(init_festival_standalone__1__3__2__1__tstr);
+        init_festival_standalone__1__3__2__1__tstr[(signed long int)(return_value_strlen_12 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&init_festival_standalone__1__3__2__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", init_festival_standalone__1__3__2__1__tstr, (signed int)init_festival_standalone__1__3__2__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Can't execute festival. Bad filename in configuration?");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", init_festival_standalone$$1$$3$$2$$1$$tstr, (signed int)init_festival_standalone$$1$$3$$2$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", init_festival_standalone__1__3__2__1__tstr, (signed int)init_festival_standalone__1__3__2__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Can't execute festival. Bad filename in configuration?");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)init_festival_standalone$$1$$3$$2$$1$$tstr);
+        g_free((void *)init_festival_standalone__1__3__2__1__tstr);
       }
 
       return -1;
@@ -8064,7 +8064,7 @@ signed int init_festival_standalone()
 
 // is_text
 // file festival.c line 822
-signed int is_text(enum anonymous$7 msg_type)
+signed int is_text(enum anonymous_7 msg_type)
 {
   if((signed int)msg_type == SPD_MSGTYPE_TEXT || (signed int)msg_type == SPD_MSGTYPE_SPELL)
     return 1;
@@ -8083,9 +8083,9 @@ char ** lisp_list_get_vect(char *expr)
   unsigned long int i;
   unsigned long int j;
   len=strlen(expr);
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc(sizeof(char) /*1ul*/  * (len + (unsigned long int)1));
-  helper = (char *)return_value_g_malloc$1;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc(sizeof(char) /*1ul*/  * (len + (unsigned long int)1));
+  helper = (char *)return_value_g_malloc_1;
   j = (unsigned long int)0;
   i = (unsigned long int)0;
   for( ; !(i >= len); i = i + 1ul)
@@ -8116,7 +8116,7 @@ signed int main(signed int argc, char **argv)
   g_thread_init((void *)0);
   lt_dlpreload_default(lt__PROGRAM__LTX_preloaded_symbols);
   module_num_dc_options = 0;
-  module_audio_id = ((struct anonymous$2 *)NULL);
+  module_audio_id = ((struct anonymous_2 *)NULL);
   if(argc >= 2)
     configfilename=g_strdup(argv[(signed long int)1]);
 
@@ -8133,38 +8133,38 @@ signed int main(signed int argc, char **argv)
     configfile=dotconf_create(configfilename, module_dc_options, NULL, (unsigned long int)(1 << 0));
     if(!(configfile == ((struct configfile_t *)NULL)))
     {
-      signed int return_value_dotconf_command_loop$3;
-      return_value_dotconf_command_loop$3=dotconf_command_loop(configfile);
-      if(return_value_dotconf_command_loop$3 == 0)
+      signed int return_value_dotconf_command_loop_3;
+      return_value_dotconf_command_loop_3=dotconf_command_loop(configfile);
+      if(return_value_dotconf_command_loop_3 == 0)
       {
         if(!(Debug == 0))
         {
-          signed long int main$$1$$3$$1$$1$$1$$t;
-          struct timeval main$$1$$3$$1$$1$$1$$tv;
-          char *main$$1$$3$$1$$1$$1$$tstr;
-          main$$1$$3$$1$$1$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$1;
-          return_value_ctime$1=ctime(&main$$1$$3$$1$$1$$1$$t);
-          main$$1$$3$$1$$1$$1$$tstr=g_strdup(return_value_ctime$1);
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(main$$1$$3$$1$$1$$1$$tstr);
-          main$$1$$3$$1$$1$$1$$tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&main$$1$$3$$1$$1$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", main$$1$$3$$1$$1$$1$$tstr, (signed int)main$$1$$3$$1$$1$$1$$tv.tv_usec);
+          signed long int main__1__3__1__1__1__t;
+          struct timeval main__1__3__1__1__1__tv;
+          char *main__1__3__1__1__1__tstr;
+          main__1__3__1__1__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_1;
+          return_value_ctime_1=ctime(&main__1__3__1__1__1__t);
+          main__1__3__1__1__1__tstr=g_strdup(return_value_ctime_1);
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(main__1__3__1__1__1__tstr);
+          main__1__3__1__1__1__tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&main__1__3__1__1__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", main__1__3__1__1__1__tstr, (signed int)main__1__3__1__1__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Error reading config file\n");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", main$$1$$3$$1$$1$$1$$tstr, (signed int)main$$1$$3$$1$$1$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", main__1__3__1__1__1__tstr, (signed int)main__1__3__1__1__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Error reading config file\n");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)main$$1$$3$$1$$1$$1$$tstr);
+          g_free((void *)main__1__3__1__1__1__tstr);
         }
 
         module_close();
@@ -8174,32 +8174,32 @@ signed int main(signed int argc, char **argv)
       dotconf_cleanup(configfile);
       if(!(Debug == 0))
       {
-        signed long int main$$1$$3$$1$$2$$t;
-        struct timeval main$$1$$3$$1$$2$$tv;
-        char *main$$1$$3$$1$$2$$tstr;
-        main$$1$$3$$1$$2$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$4;
-        return_value_ctime$4=ctime(&main$$1$$3$$1$$2$$t);
-        main$$1$$3$$1$$2$$tstr=g_strdup(return_value_ctime$4);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(main$$1$$3$$1$$2$$tstr);
-        main$$1$$3$$1$$2$$tstr[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&main$$1$$3$$1$$2$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", main$$1$$3$$1$$2$$tstr, (signed int)main$$1$$3$$1$$2$$tv.tv_usec);
+        signed long int main__1__3__1__2__t;
+        struct timeval main__1__3__1__2__tv;
+        char *main__1__3__1__2__tstr;
+        main__1__3__1__2__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_4;
+        return_value_ctime_4=ctime(&main__1__3__1__2__t);
+        main__1__3__1__2__tstr=g_strdup(return_value_ctime_4);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(main__1__3__1__2__tstr);
+        main__1__3__1__2__tstr[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&main__1__3__1__2__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", main__1__3__1__2__tstr, (signed int)main__1__3__1__2__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Configuration (pre) has been read from \"%s\"\n", configfilename);
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", main$$1$$3$$1$$2$$tstr, (signed int)main$$1$$3$$1$$2$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", main__1__3__1__2__tstr, (signed int)main__1__3__1__2__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Configuration (pre) has been read from \"%s\"\n", configfilename);
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)main$$1$$3$$1$$2$$tstr);
+        g_free((void *)main__1__3__1__2__tstr);
       }
 
       g_free((void *)configfilename);
@@ -8208,32 +8208,32 @@ signed int main(signed int argc, char **argv)
     else
       if(!(Debug == 0))
       {
-        signed long int main$$1$$3$$2$$1$$t;
-        struct timeval main$$1$$3$$2$$1$$tv;
-        char *main$$1$$3$$2$$1$$tstr;
-        main$$1$$3$$2$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$6;
-        return_value_ctime$6=ctime(&main$$1$$3$$2$$1$$t);
-        main$$1$$3$$2$$1$$tstr=g_strdup(return_value_ctime$6);
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(main$$1$$3$$2$$1$$tstr);
-        main$$1$$3$$2$$1$$tstr[(signed long int)(return_value_strlen$7 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&main$$1$$3$$2$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", main$$1$$3$$2$$1$$tstr, (signed int)main$$1$$3$$2$$1$$tv.tv_usec);
+        signed long int main__1__3__2__1__t;
+        struct timeval main__1__3__2__1__tv;
+        char *main__1__3__2__1__tstr;
+        main__1__3__2__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_6;
+        return_value_ctime_6=ctime(&main__1__3__2__1__t);
+        main__1__3__2__1__tstr=g_strdup(return_value_ctime_6);
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(main__1__3__2__1__tstr);
+        main__1__3__2__1__tstr[(signed long int)(return_value_strlen_7 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&main__1__3__2__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", main__1__3__2__1__tstr, (signed int)main__1__3__2__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Can't read specified config file!\n");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", main$$1$$3$$2$$1$$tstr, (signed int)main$$1$$3$$2$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", main__1__3__2__1__tstr, (signed int)main__1__3__2__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Can't read specified config file!\n");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)main$$1$$3$$2$$1$$tstr);
+        g_free((void *)main__1__3__2__1__tstr);
       }
 
   }
@@ -8241,107 +8241,107 @@ signed int main(signed int argc, char **argv)
   else
     if(!(Debug == 0))
     {
-      signed long int main$$1$$4$$1$$t;
-      struct timeval main$$1$$4$$1$$tv;
-      char *main$$1$$4$$1$$tstr;
-      main$$1$$4$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$8;
-      return_value_ctime$8=ctime(&main$$1$$4$$1$$t);
-      main$$1$$4$$1$$tstr=g_strdup(return_value_ctime$8);
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(main$$1$$4$$1$$tstr);
-      main$$1$$4$$1$$tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&main$$1$$4$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", main$$1$$4$$1$$tstr, (signed int)main$$1$$4$$1$$tv.tv_usec);
+      signed long int main__1__4__1__t;
+      struct timeval main__1__4__1__tv;
+      char *main__1__4__1__tstr;
+      main__1__4__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_8;
+      return_value_ctime_8=ctime(&main__1__4__1__t);
+      main__1__4__1__tstr=g_strdup(return_value_ctime_8);
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(main__1__4__1__tstr);
+      main__1__4__1__tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&main__1__4__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", main__1__4__1__tstr, (signed int)main__1__4__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "No config file specified, using defaults...\n");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", main$$1$$4$$1$$tstr, (signed int)main$$1$$4$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", main__1__4__1__tstr, (signed int)main__1__4__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "No config file specified, using defaults...\n");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)main$$1$$4$$1$$tstr);
+      g_free((void *)main__1__4__1__tstr);
     }
 
   cmd_buf = (char *)(void *)0;
   n = (unsigned long int)0;
-  signed long int return_value_spd_getline$10;
-  return_value_spd_getline$10=spd_getline(&cmd_buf, &n, stdin);
-  ret = (signed int)return_value_spd_getline$10;
+  signed long int return_value_spd_getline_10;
+  return_value_spd_getline_10=spd_getline(&cmd_buf, &n, stdin);
+  ret = (signed int)return_value_spd_getline_10;
   if(ret == -1)
   {
     if(!(Debug == 0))
     {
-      signed long int main$$1$$5$$1$$t;
-      struct timeval main$$1$$5$$1$$tv;
-      char *main$$1$$5$$1$$tstr;
-      main$$1$$5$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$11;
-      return_value_ctime$11=ctime(&main$$1$$5$$1$$t);
-      main$$1$$5$$1$$tstr=g_strdup(return_value_ctime$11);
-      unsigned long int return_value_strlen$12;
-      return_value_strlen$12=strlen(main$$1$$5$$1$$tstr);
-      main$$1$$5$$1$$tstr[(signed long int)(return_value_strlen$12 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&main$$1$$5$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", main$$1$$5$$1$$tstr, (signed int)main$$1$$5$$1$$tv.tv_usec);
+      signed long int main__1__5__1__t;
+      struct timeval main__1__5__1__tv;
+      char *main__1__5__1__tstr;
+      main__1__5__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_11;
+      return_value_ctime_11=ctime(&main__1__5__1__t);
+      main__1__5__1__tstr=g_strdup(return_value_ctime_11);
+      unsigned long int return_value_strlen_12;
+      return_value_strlen_12=strlen(main__1__5__1__tstr);
+      main__1__5__1__tstr[(signed long int)(return_value_strlen_12 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&main__1__5__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", main__1__5__1__tstr, (signed int)main__1__5__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Broken pipe when reading INIT, exiting... \n");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", main$$1$$5$$1$$tstr, (signed int)main$$1$$5$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", main__1__5__1__tstr, (signed int)main__1__5__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Broken pipe when reading INIT, exiting... \n");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)main$$1$$5$$1$$tstr);
+      g_free((void *)main__1__5__1__tstr);
     }
 
     module_close();
     exit(2);
   }
 
-  signed int return_value_strcmp$15;
-  return_value_strcmp$15=strcmp(cmd_buf, "INIT\n");
-  if(!(return_value_strcmp$15 == 0))
+  signed int return_value_strcmp_15;
+  return_value_strcmp_15=strcmp(cmd_buf, "INIT\n");
+  if(!(return_value_strcmp_15 == 0))
   {
     if(!(Debug == 0))
     {
-      signed long int main$$1$$6$$1$$t;
-      struct timeval main$$1$$6$$1$$tv;
-      char *main$$1$$6$$1$$tstr;
-      main$$1$$6$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$13;
-      return_value_ctime$13=ctime(&main$$1$$6$$1$$t);
-      main$$1$$6$$1$$tstr=g_strdup(return_value_ctime$13);
-      unsigned long int return_value_strlen$14;
-      return_value_strlen$14=strlen(main$$1$$6$$1$$tstr);
-      main$$1$$6$$1$$tstr[(signed long int)(return_value_strlen$14 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&main$$1$$6$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", main$$1$$6$$1$$tstr, (signed int)main$$1$$6$$1$$tv.tv_usec);
+      signed long int main__1__6__1__t;
+      struct timeval main__1__6__1__tv;
+      char *main__1__6__1__tstr;
+      main__1__6__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_13;
+      return_value_ctime_13=ctime(&main__1__6__1__t);
+      main__1__6__1__tstr=g_strdup(return_value_ctime_13);
+      unsigned long int return_value_strlen_14;
+      return_value_strlen_14=strlen(main__1__6__1__tstr);
+      main__1__6__1__tstr[(signed long int)(return_value_strlen_14 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&main__1__6__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", main__1__6__1__tstr, (signed int)main__1__6__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "ERROR: Wrong communication from module client: didn't call INIT\n");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", main$$1$$6$$1$$tstr, (signed int)main$$1$$6$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", main__1__6__1__tstr, (signed int)main__1__6__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "ERROR: Wrong communication from module client: didn't call INIT\n");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)main$$1$$6$$1$$tstr);
+      g_free((void *)main__1__6__1__tstr);
     }
 
     module_close();
@@ -8367,32 +8367,32 @@ signed int main(signed int argc, char **argv)
   {
     if(!(Debug == 0))
     {
-      signed long int main$$1$$9$$1$$t;
-      struct timeval main$$1$$9$$1$$tv;
-      char *main$$1$$9$$1$$tstr;
-      main$$1$$9$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$16;
-      return_value_ctime$16=ctime(&main$$1$$9$$1$$t);
-      main$$1$$9$$1$$tstr=g_strdup(return_value_ctime$16);
-      unsigned long int return_value_strlen$17;
-      return_value_strlen$17=strlen(main$$1$$9$$1$$tstr);
-      main$$1$$9$$1$$tstr[(signed long int)(return_value_strlen$17 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&main$$1$$9$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", main$$1$$9$$1$$tstr, (signed int)main$$1$$9$$1$$tv.tv_usec);
+      signed long int main__1__9__1__t;
+      struct timeval main__1__9__1__tv;
+      char *main__1__9__1__tstr;
+      main__1__9__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_16;
+      return_value_ctime_16=ctime(&main__1__9__1__t);
+      main__1__9__1__tstr=g_strdup(return_value_ctime_16);
+      unsigned long int return_value_strlen_17;
+      return_value_strlen_17=strlen(main__1__9__1__tstr);
+      main__1__9__1__tstr[(signed long int)(return_value_strlen_17 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&main__1__9__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", main__1__9__1__tstr, (signed int)main__1__9__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Broken pipe, exiting...\n");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", main$$1$$9$$1$$tstr, (signed int)main$$1$$9$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", main__1__9__1__tstr, (signed int)main__1__9__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Broken pipe, exiting...\n");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)main$$1$$9$$1$$tstr);
+      g_free((void *)main__1__9__1__tstr);
     }
 
     module_close();
@@ -8402,55 +8402,55 @@ signed int main(signed int argc, char **argv)
   fflush(stdout);
   g_free((void *)status_info);
   g_free((void *)cmd_buf);
-  signed int return_value_strcmp$70;
-  signed int return_value_strcmp$69;
-  signed int return_value_strcmp$68;
-  signed int return_value_strcmp$67;
-  signed int return_value_strcmp$66;
-  signed int return_value_strcmp$65;
-  signed int return_value_strcmp$64;
-  signed int return_value_strcmp$63;
-  signed int return_value_strcmp$62;
-  unsigned long int return_value_strlen$60;
-  signed int return_value_strncmp$61;
-  signed int return_value_strcmp$59;
+  signed int return_value_strcmp_70;
+  signed int return_value_strcmp_69;
+  signed int return_value_strcmp_68;
+  signed int return_value_strcmp_67;
+  signed int return_value_strcmp_66;
+  signed int return_value_strcmp_65;
+  signed int return_value_strcmp_64;
+  signed int return_value_strcmp_63;
+  signed int return_value_strcmp_62;
+  unsigned long int return_value_strlen_60;
+  signed int return_value_strncmp_61;
+  signed int return_value_strcmp_59;
   while((_Bool)1)
   {
     cmd_buf = (char *)(void *)0;
     n = (unsigned long int)0;
-    signed long int return_value_spd_getline$18;
-    return_value_spd_getline$18=spd_getline(&cmd_buf, &n, stdin);
-    ret = (signed int)return_value_spd_getline$18;
+    signed long int return_value_spd_getline_18;
+    return_value_spd_getline_18=spd_getline(&cmd_buf, &n, stdin);
+    ret = (signed int)return_value_spd_getline_18;
     if(ret == -1)
     {
       if(!(Debug == 0))
       {
-        signed long int main$$1$$10$$1$$1$$t;
-        struct timeval main$$1$$10$$1$$1$$tv;
-        char *main$$1$$10$$1$$1$$tstr;
-        main$$1$$10$$1$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$19;
-        return_value_ctime$19=ctime(&main$$1$$10$$1$$1$$t);
-        main$$1$$10$$1$$1$$tstr=g_strdup(return_value_ctime$19);
-        unsigned long int return_value_strlen$20;
-        return_value_strlen$20=strlen(main$$1$$10$$1$$1$$tstr);
-        main$$1$$10$$1$$1$$tstr[(signed long int)(return_value_strlen$20 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&main$$1$$10$$1$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", main$$1$$10$$1$$1$$tstr, (signed int)main$$1$$10$$1$$1$$tv.tv_usec);
+        signed long int main__1__10__1__1__t;
+        struct timeval main__1__10__1__1__tv;
+        char *main__1__10__1__1__tstr;
+        main__1__10__1__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_19;
+        return_value_ctime_19=ctime(&main__1__10__1__1__t);
+        main__1__10__1__1__tstr=g_strdup(return_value_ctime_19);
+        unsigned long int return_value_strlen_20;
+        return_value_strlen_20=strlen(main__1__10__1__1__tstr);
+        main__1__10__1__1__tstr[(signed long int)(return_value_strlen_20 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&main__1__10__1__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", main__1__10__1__1__tstr, (signed int)main__1__10__1__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Broken pipe, exiting... \n");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", main$$1$$10$$1$$1$$tstr, (signed int)main$$1$$10$$1$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", main__1__10__1__1__tstr, (signed int)main__1__10__1__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Broken pipe, exiting... \n");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)main$$1$$10$$1$$1$$tstr);
+        g_free((void *)main__1__10__1__1__tstr);
       }
 
       ret = 2;
@@ -8459,74 +8459,74 @@ signed int main(signed int argc, char **argv)
 
     if(!(Debug == 0))
     {
-      signed long int main$$1$$10$$2$$t;
-      struct timeval main$$1$$10$$2$$tv;
-      char *main$$1$$10$$2$$tstr;
-      main$$1$$10$$2$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$21;
-      return_value_ctime$21=ctime(&main$$1$$10$$2$$t);
-      main$$1$$10$$2$$tstr=g_strdup(return_value_ctime$21);
-      unsigned long int return_value_strlen$22;
-      return_value_strlen$22=strlen(main$$1$$10$$2$$tstr);
-      main$$1$$10$$2$$tstr[(signed long int)(return_value_strlen$22 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&main$$1$$10$$2$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", main$$1$$10$$2$$tstr, (signed int)main$$1$$10$$2$$tv.tv_usec);
+      signed long int main__1__10__2__t;
+      struct timeval main__1__10__2__tv;
+      char *main__1__10__2__tstr;
+      main__1__10__2__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_21;
+      return_value_ctime_21=ctime(&main__1__10__2__t);
+      main__1__10__2__tstr=g_strdup(return_value_ctime_21);
+      unsigned long int return_value_strlen_22;
+      return_value_strlen_22=strlen(main__1__10__2__tstr);
+      main__1__10__2__tstr[(signed long int)(return_value_strlen_22 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&main__1__10__2__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", main__1__10__2__tstr, (signed int)main__1__10__2__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "CMD: <%s>", cmd_buf);
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", main$$1$$10$$2$$tstr, (signed int)main$$1$$10$$2$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", main__1__10__2__tstr, (signed int)main__1__10__2__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "CMD: <%s>", cmd_buf);
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)main$$1$$10$$2$$tstr);
+      g_free((void *)main__1__10__2__tstr);
     }
 
-    signed int return_value_strcmp$71;
-    return_value_strcmp$71=strcmp(cmd_buf, "SPEAK\n");
-    if(return_value_strcmp$71 == 0)
+    signed int return_value_strcmp_71;
+    return_value_strcmp_71=strcmp(cmd_buf, "SPEAK\n");
+    if(return_value_strcmp_71 == 0)
     {
-      char *main$$1$$10$$3$$msg;
+      char *main__1__10__3__msg;
       pthread_mutex_lock(&module_stdout_mutex);
-      char *return_value_do_speak$25;
-      return_value_do_speak$25=do_speak();
-      main$$1$$10$$3$$msg = (char *)return_value_do_speak$25;
-      signed int return_value_printf$26 = printf("%s\n", main$$1$$10$$3$$msg);
-      if(!(return_value_printf$26 >= 0))
+      char *return_value_do_speak_25;
+      return_value_do_speak_25=do_speak();
+      main__1__10__3__msg = (char *)return_value_do_speak_25;
+      signed int return_value_printf_26 = printf("%s\n", main__1__10__3__msg);
+      if(!(return_value_printf_26 >= 0))
       {
         if(!(Debug == 0))
         {
-          signed long int main$$1$$10$$3$$1$$1$$t;
-          struct timeval main$$1$$10$$3$$1$$1$$tv;
-          char *main$$1$$10$$3$$1$$1$$tstr;
-          main$$1$$10$$3$$1$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$23;
-          return_value_ctime$23=ctime(&main$$1$$10$$3$$1$$1$$t);
-          main$$1$$10$$3$$1$$1$$tstr=g_strdup(return_value_ctime$23);
-          unsigned long int return_value_strlen$24;
-          return_value_strlen$24=strlen(main$$1$$10$$3$$1$$1$$tstr);
-          main$$1$$10$$3$$1$$1$$tstr[(signed long int)(return_value_strlen$24 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&main$$1$$10$$3$$1$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", main$$1$$10$$3$$1$$1$$tstr, (signed int)main$$1$$10$$3$$1$$1$$tv.tv_usec);
+          signed long int main__1__10__3__1__1__t;
+          struct timeval main__1__10__3__1__1__tv;
+          char *main__1__10__3__1__1__tstr;
+          main__1__10__3__1__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_23;
+          return_value_ctime_23=ctime(&main__1__10__3__1__1__t);
+          main__1__10__3__1__1__tstr=g_strdup(return_value_ctime_23);
+          unsigned long int return_value_strlen_24;
+          return_value_strlen_24=strlen(main__1__10__3__1__1__tstr);
+          main__1__10__3__1__1__tstr[(signed long int)(return_value_strlen_24 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&main__1__10__3__1__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", main__1__10__3__1__1__tstr, (signed int)main__1__10__3__1__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Broken pipe, exiting...\n");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", main$$1$$10$$3$$1$$1$$tstr, (signed int)main$$1$$10$$3$$1$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", main__1__10__3__1__1__tstr, (signed int)main__1__10__3__1__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Broken pipe, exiting...\n");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)main$$1$$10$$3$$1$$1$$tstr);
+          g_free((void *)main__1__10__3__1__1__tstr);
         }
 
         ret = 2;
@@ -8535,50 +8535,50 @@ signed int main(signed int argc, char **argv)
 
       fflush(stdout);
       pthread_mutex_unlock(&module_stdout_mutex);
-      g_free((void *)main$$1$$10$$3$$msg);
+      g_free((void *)main__1__10__3__msg);
     }
 
     else
     {
-      return_value_strcmp$70=strcmp(cmd_buf, "SOUND_ICON\n");
-      if(return_value_strcmp$70 == 0)
+      return_value_strcmp_70=strcmp(cmd_buf, "SOUND_ICON\n");
+      if(return_value_strcmp_70 == 0)
       {
-        char *main$$1$$10$$4$$msg;
+        char *main__1__10__4__msg;
         pthread_mutex_lock(&module_stdout_mutex);
-        char *return_value_do_sound_icon$29;
-        return_value_do_sound_icon$29=do_sound_icon();
-        main$$1$$10$$4$$msg = (char *)return_value_do_sound_icon$29;
-        signed int return_value_printf$30 = printf("%s\n", main$$1$$10$$4$$msg);
-        if(!(return_value_printf$30 >= 0))
+        char *return_value_do_sound_icon_29;
+        return_value_do_sound_icon_29=do_sound_icon();
+        main__1__10__4__msg = (char *)return_value_do_sound_icon_29;
+        signed int return_value_printf_30 = printf("%s\n", main__1__10__4__msg);
+        if(!(return_value_printf_30 >= 0))
         {
           if(!(Debug == 0))
           {
-            signed long int main$$1$$10$$4$$1$$1$$t;
-            struct timeval main$$1$$10$$4$$1$$1$$tv;
-            char *main$$1$$10$$4$$1$$1$$tstr;
-            main$$1$$10$$4$$1$$1$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$27;
-            return_value_ctime$27=ctime(&main$$1$$10$$4$$1$$1$$t);
-            main$$1$$10$$4$$1$$1$$tstr=g_strdup(return_value_ctime$27);
-            unsigned long int return_value_strlen$28;
-            return_value_strlen$28=strlen(main$$1$$10$$4$$1$$1$$tstr);
-            main$$1$$10$$4$$1$$1$$tstr[(signed long int)(return_value_strlen$28 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&main$$1$$10$$4$$1$$1$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", main$$1$$10$$4$$1$$1$$tstr, (signed int)main$$1$$10$$4$$1$$1$$tv.tv_usec);
+            signed long int main__1__10__4__1__1__t;
+            struct timeval main__1__10__4__1__1__tv;
+            char *main__1__10__4__1__1__tstr;
+            main__1__10__4__1__1__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_27;
+            return_value_ctime_27=ctime(&main__1__10__4__1__1__t);
+            main__1__10__4__1__1__tstr=g_strdup(return_value_ctime_27);
+            unsigned long int return_value_strlen_28;
+            return_value_strlen_28=strlen(main__1__10__4__1__1__tstr);
+            main__1__10__4__1__1__tstr[(signed long int)(return_value_strlen_28 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&main__1__10__4__1__1__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", main__1__10__4__1__1__tstr, (signed int)main__1__10__4__1__1__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "Broken pipe, exiting...\n");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", main$$1$$10$$4$$1$$1$$tstr, (signed int)main$$1$$10$$4$$1$$1$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", main__1__10__4__1__1__tstr, (signed int)main__1__10__4__1__1__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "Broken pipe, exiting...\n");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)main$$1$$10$$4$$1$$1$$tstr);
+            g_free((void *)main__1__10__4__1__1__tstr);
           }
 
           ret = 2;
@@ -8587,50 +8587,50 @@ signed int main(signed int argc, char **argv)
 
         fflush(stdout);
         pthread_mutex_unlock(&module_stdout_mutex);
-        g_free((void *)main$$1$$10$$4$$msg);
+        g_free((void *)main__1__10__4__msg);
       }
 
       else
       {
-        return_value_strcmp$69=strcmp(cmd_buf, "CHAR\n");
-        if(return_value_strcmp$69 == 0)
+        return_value_strcmp_69=strcmp(cmd_buf, "CHAR\n");
+        if(return_value_strcmp_69 == 0)
         {
-          char *main$$1$$10$$5$$msg;
+          char *main__1__10__5__msg;
           pthread_mutex_lock(&module_stdout_mutex);
-          char *return_value_do_char$33;
-          return_value_do_char$33=do_char();
-          main$$1$$10$$5$$msg = (char *)return_value_do_char$33;
-          signed int return_value_printf$34 = printf("%s\n", main$$1$$10$$5$$msg);
-          if(!(return_value_printf$34 >= 0))
+          char *return_value_do_char_33;
+          return_value_do_char_33=do_char();
+          main__1__10__5__msg = (char *)return_value_do_char_33;
+          signed int return_value_printf_34 = printf("%s\n", main__1__10__5__msg);
+          if(!(return_value_printf_34 >= 0))
           {
             if(!(Debug == 0))
             {
-              signed long int main$$1$$10$$5$$1$$1$$t;
-              struct timeval main$$1$$10$$5$$1$$1$$tv;
-              char *main$$1$$10$$5$$1$$1$$tstr;
-              main$$1$$10$$5$$1$$1$$t=time((signed long int *)(void *)0);
-              char *return_value_ctime$31;
-              return_value_ctime$31=ctime(&main$$1$$10$$5$$1$$1$$t);
-              main$$1$$10$$5$$1$$1$$tstr=g_strdup(return_value_ctime$31);
-              unsigned long int return_value_strlen$32;
-              return_value_strlen$32=strlen(main$$1$$10$$5$$1$$1$$tstr);
-              main$$1$$10$$5$$1$$1$$tstr[(signed long int)(return_value_strlen$32 - (unsigned long int)1)] = (char)0;
-              gettimeofday(&main$$1$$10$$5$$1$$1$$tv, (struct timezone *)(void *)0);
-              fprintf(stderr, " %s [%d]", main$$1$$10$$5$$1$$1$$tstr, (signed int)main$$1$$10$$5$$1$$1$$tv.tv_usec);
+              signed long int main__1__10__5__1__1__t;
+              struct timeval main__1__10__5__1__1__tv;
+              char *main__1__10__5__1__1__tstr;
+              main__1__10__5__1__1__t=time((signed long int *)(void *)0);
+              char *return_value_ctime_31;
+              return_value_ctime_31=ctime(&main__1__10__5__1__1__t);
+              main__1__10__5__1__1__tstr=g_strdup(return_value_ctime_31);
+              unsigned long int return_value_strlen_32;
+              return_value_strlen_32=strlen(main__1__10__5__1__1__tstr);
+              main__1__10__5__1__1__tstr[(signed long int)(return_value_strlen_32 - (unsigned long int)1)] = (char)0;
+              gettimeofday(&main__1__10__5__1__1__tv, (struct timezone *)(void *)0);
+              fprintf(stderr, " %s [%d]", main__1__10__5__1__1__tstr, (signed int)main__1__10__5__1__1__tv.tv_usec);
               fprintf(stderr, ": ");
               fprintf(stderr, "Broken pipe, exiting...\n");
               fprintf(stderr, "\n");
               fflush(stderr);
               if(Debug == 2 || Debug == 3)
               {
-                fprintf(CustomDebugFile, " %s [%d]", main$$1$$10$$5$$1$$1$$tstr, (signed int)main$$1$$10$$5$$1$$1$$tv.tv_usec);
+                fprintf(CustomDebugFile, " %s [%d]", main__1__10__5__1__1__tstr, (signed int)main__1__10__5__1__1__tv.tv_usec);
                 fprintf(CustomDebugFile, ": ");
                 fprintf(CustomDebugFile, "Broken pipe, exiting...\n");
                 fprintf(CustomDebugFile, "\n");
                 fflush(CustomDebugFile);
               }
 
-              g_free((void *)main$$1$$10$$5$$1$$1$$tstr);
+              g_free((void *)main__1__10__5__1__1__tstr);
             }
 
             ret = 2;
@@ -8639,50 +8639,50 @@ signed int main(signed int argc, char **argv)
 
           fflush(stdout);
           pthread_mutex_unlock(&module_stdout_mutex);
-          g_free((void *)main$$1$$10$$5$$msg);
+          g_free((void *)main__1__10__5__msg);
         }
 
         else
         {
-          return_value_strcmp$68=strcmp(cmd_buf, "KEY\n");
-          if(return_value_strcmp$68 == 0)
+          return_value_strcmp_68=strcmp(cmd_buf, "KEY\n");
+          if(return_value_strcmp_68 == 0)
           {
-            char *main$$1$$10$$6$$msg;
+            char *main__1__10__6__msg;
             pthread_mutex_lock(&module_stdout_mutex);
-            char *return_value_do_key$37;
-            return_value_do_key$37=do_key();
-            main$$1$$10$$6$$msg = (char *)return_value_do_key$37;
-            signed int return_value_printf$38 = printf("%s\n", main$$1$$10$$6$$msg);
-            if(!(return_value_printf$38 >= 0))
+            char *return_value_do_key_37;
+            return_value_do_key_37=do_key();
+            main__1__10__6__msg = (char *)return_value_do_key_37;
+            signed int return_value_printf_38 = printf("%s\n", main__1__10__6__msg);
+            if(!(return_value_printf_38 >= 0))
             {
               if(!(Debug == 0))
               {
-                signed long int main$$1$$10$$6$$1$$1$$t;
-                struct timeval main$$1$$10$$6$$1$$1$$tv;
-                char *main$$1$$10$$6$$1$$1$$tstr;
-                main$$1$$10$$6$$1$$1$$t=time((signed long int *)(void *)0);
-                char *return_value_ctime$35;
-                return_value_ctime$35=ctime(&main$$1$$10$$6$$1$$1$$t);
-                main$$1$$10$$6$$1$$1$$tstr=g_strdup(return_value_ctime$35);
-                unsigned long int return_value_strlen$36;
-                return_value_strlen$36=strlen(main$$1$$10$$6$$1$$1$$tstr);
-                main$$1$$10$$6$$1$$1$$tstr[(signed long int)(return_value_strlen$36 - (unsigned long int)1)] = (char)0;
-                gettimeofday(&main$$1$$10$$6$$1$$1$$tv, (struct timezone *)(void *)0);
-                fprintf(stderr, " %s [%d]", main$$1$$10$$6$$1$$1$$tstr, (signed int)main$$1$$10$$6$$1$$1$$tv.tv_usec);
+                signed long int main__1__10__6__1__1__t;
+                struct timeval main__1__10__6__1__1__tv;
+                char *main__1__10__6__1__1__tstr;
+                main__1__10__6__1__1__t=time((signed long int *)(void *)0);
+                char *return_value_ctime_35;
+                return_value_ctime_35=ctime(&main__1__10__6__1__1__t);
+                main__1__10__6__1__1__tstr=g_strdup(return_value_ctime_35);
+                unsigned long int return_value_strlen_36;
+                return_value_strlen_36=strlen(main__1__10__6__1__1__tstr);
+                main__1__10__6__1__1__tstr[(signed long int)(return_value_strlen_36 - (unsigned long int)1)] = (char)0;
+                gettimeofday(&main__1__10__6__1__1__tv, (struct timezone *)(void *)0);
+                fprintf(stderr, " %s [%d]", main__1__10__6__1__1__tstr, (signed int)main__1__10__6__1__1__tv.tv_usec);
                 fprintf(stderr, ": ");
                 fprintf(stderr, "Broken pipe, exiting...\n");
                 fprintf(stderr, "\n");
                 fflush(stderr);
                 if(Debug == 2 || Debug == 3)
                 {
-                  fprintf(CustomDebugFile, " %s [%d]", main$$1$$10$$6$$1$$1$$tstr, (signed int)main$$1$$10$$6$$1$$1$$tv.tv_usec);
+                  fprintf(CustomDebugFile, " %s [%d]", main__1__10__6__1__1__tstr, (signed int)main__1__10__6__1__1__tv.tv_usec);
                   fprintf(CustomDebugFile, ": ");
                   fprintf(CustomDebugFile, "Broken pipe, exiting...\n");
                   fprintf(CustomDebugFile, "\n");
                   fflush(CustomDebugFile);
                 }
 
-                g_free((void *)main$$1$$10$$6$$1$$1$$tstr);
+                g_free((void *)main__1__10__6__1__1__tstr);
               }
 
               ret = 2;
@@ -8691,62 +8691,62 @@ signed int main(signed int argc, char **argv)
 
             fflush(stdout);
             pthread_mutex_unlock(&module_stdout_mutex);
-            g_free((void *)main$$1$$10$$6$$msg);
+            g_free((void *)main__1__10__6__msg);
           }
 
           else
           {
-            return_value_strcmp$67=strcmp(cmd_buf, "STOP\n");
-            if(return_value_strcmp$67 == 0)
+            return_value_strcmp_67=strcmp(cmd_buf, "STOP\n");
+            if(return_value_strcmp_67 == 0)
               do_stop();
 
             else
             {
-              return_value_strcmp$66=strcmp(cmd_buf, "PAUSE\n");
-              if(return_value_strcmp$66 == 0)
+              return_value_strcmp_66=strcmp(cmd_buf, "PAUSE\n");
+              if(return_value_strcmp_66 == 0)
                 do_pause();
 
               else
               {
-                return_value_strcmp$65=strcmp(cmd_buf, "LIST VOICES\n");
-                if(return_value_strcmp$65 == 0)
+                return_value_strcmp_65=strcmp(cmd_buf, "LIST VOICES\n");
+                if(return_value_strcmp_65 == 0)
                 {
-                  char *main$$1$$10$$9$$msg;
+                  char *main__1__10__9__msg;
                   pthread_mutex_lock(&module_stdout_mutex);
-                  char *return_value_do_list_voices$41;
-                  return_value_do_list_voices$41=do_list_voices();
-                  main$$1$$10$$9$$msg = (char *)return_value_do_list_voices$41;
-                  signed int return_value_printf$42 = printf("%s\n", main$$1$$10$$9$$msg);
-                  if(!(return_value_printf$42 >= 0))
+                  char *return_value_do_list_voices_41;
+                  return_value_do_list_voices_41=do_list_voices();
+                  main__1__10__9__msg = (char *)return_value_do_list_voices_41;
+                  signed int return_value_printf_42 = printf("%s\n", main__1__10__9__msg);
+                  if(!(return_value_printf_42 >= 0))
                   {
                     if(!(Debug == 0))
                     {
-                      signed long int main$$1$$10$$9$$1$$1$$t;
-                      struct timeval main$$1$$10$$9$$1$$1$$tv;
-                      char *main$$1$$10$$9$$1$$1$$tstr;
-                      main$$1$$10$$9$$1$$1$$t=time((signed long int *)(void *)0);
-                      char *return_value_ctime$39;
-                      return_value_ctime$39=ctime(&main$$1$$10$$9$$1$$1$$t);
-                      main$$1$$10$$9$$1$$1$$tstr=g_strdup(return_value_ctime$39);
-                      unsigned long int return_value_strlen$40;
-                      return_value_strlen$40=strlen(main$$1$$10$$9$$1$$1$$tstr);
-                      main$$1$$10$$9$$1$$1$$tstr[(signed long int)(return_value_strlen$40 - (unsigned long int)1)] = (char)0;
-                      gettimeofday(&main$$1$$10$$9$$1$$1$$tv, (struct timezone *)(void *)0);
-                      fprintf(stderr, " %s [%d]", main$$1$$10$$9$$1$$1$$tstr, (signed int)main$$1$$10$$9$$1$$1$$tv.tv_usec);
+                      signed long int main__1__10__9__1__1__t;
+                      struct timeval main__1__10__9__1__1__tv;
+                      char *main__1__10__9__1__1__tstr;
+                      main__1__10__9__1__1__t=time((signed long int *)(void *)0);
+                      char *return_value_ctime_39;
+                      return_value_ctime_39=ctime(&main__1__10__9__1__1__t);
+                      main__1__10__9__1__1__tstr=g_strdup(return_value_ctime_39);
+                      unsigned long int return_value_strlen_40;
+                      return_value_strlen_40=strlen(main__1__10__9__1__1__tstr);
+                      main__1__10__9__1__1__tstr[(signed long int)(return_value_strlen_40 - (unsigned long int)1)] = (char)0;
+                      gettimeofday(&main__1__10__9__1__1__tv, (struct timezone *)(void *)0);
+                      fprintf(stderr, " %s [%d]", main__1__10__9__1__1__tstr, (signed int)main__1__10__9__1__1__tv.tv_usec);
                       fprintf(stderr, ": ");
                       fprintf(stderr, "Broken pipe, exiting...\n");
                       fprintf(stderr, "\n");
                       fflush(stderr);
                       if(Debug == 2 || Debug == 3)
                       {
-                        fprintf(CustomDebugFile, " %s [%d]", main$$1$$10$$9$$1$$1$$tstr, (signed int)main$$1$$10$$9$$1$$1$$tv.tv_usec);
+                        fprintf(CustomDebugFile, " %s [%d]", main__1__10__9__1__1__tstr, (signed int)main__1__10__9__1__1__tv.tv_usec);
                         fprintf(CustomDebugFile, ": ");
                         fprintf(CustomDebugFile, "Broken pipe, exiting...\n");
                         fprintf(CustomDebugFile, "\n");
                         fflush(CustomDebugFile);
                       }
 
-                      g_free((void *)main$$1$$10$$9$$1$$1$$tstr);
+                      g_free((void *)main__1__10__9__1__1__tstr);
                     }
 
                     ret = 2;
@@ -8755,50 +8755,50 @@ signed int main(signed int argc, char **argv)
 
                   fflush(stdout);
                   pthread_mutex_unlock(&module_stdout_mutex);
-                  g_free((void *)main$$1$$10$$9$$msg);
+                  g_free((void *)main__1__10__9__msg);
                 }
 
                 else
                 {
-                  return_value_strcmp$64=strcmp(cmd_buf, "SET\n");
-                  if(return_value_strcmp$64 == 0)
+                  return_value_strcmp_64=strcmp(cmd_buf, "SET\n");
+                  if(return_value_strcmp_64 == 0)
                   {
-                    char *main$$1$$10$$10$$msg;
+                    char *main__1__10__10__msg;
                     pthread_mutex_lock(&module_stdout_mutex);
-                    char *return_value_do_set$45;
-                    return_value_do_set$45=do_set();
-                    main$$1$$10$$10$$msg = (char *)return_value_do_set$45;
-                    signed int return_value_printf$46 = printf("%s\n", main$$1$$10$$10$$msg);
-                    if(!(return_value_printf$46 >= 0))
+                    char *return_value_do_set_45;
+                    return_value_do_set_45=do_set();
+                    main__1__10__10__msg = (char *)return_value_do_set_45;
+                    signed int return_value_printf_46 = printf("%s\n", main__1__10__10__msg);
+                    if(!(return_value_printf_46 >= 0))
                     {
                       if(!(Debug == 0))
                       {
-                        signed long int main$$1$$10$$10$$1$$1$$t;
-                        struct timeval main$$1$$10$$10$$1$$1$$tv;
-                        char *main$$1$$10$$10$$1$$1$$tstr;
-                        main$$1$$10$$10$$1$$1$$t=time((signed long int *)(void *)0);
-                        char *return_value_ctime$43;
-                        return_value_ctime$43=ctime(&main$$1$$10$$10$$1$$1$$t);
-                        main$$1$$10$$10$$1$$1$$tstr=g_strdup(return_value_ctime$43);
-                        unsigned long int return_value_strlen$44;
-                        return_value_strlen$44=strlen(main$$1$$10$$10$$1$$1$$tstr);
-                        main$$1$$10$$10$$1$$1$$tstr[(signed long int)(return_value_strlen$44 - (unsigned long int)1)] = (char)0;
-                        gettimeofday(&main$$1$$10$$10$$1$$1$$tv, (struct timezone *)(void *)0);
-                        fprintf(stderr, " %s [%d]", main$$1$$10$$10$$1$$1$$tstr, (signed int)main$$1$$10$$10$$1$$1$$tv.tv_usec);
+                        signed long int main__1__10__10__1__1__t;
+                        struct timeval main__1__10__10__1__1__tv;
+                        char *main__1__10__10__1__1__tstr;
+                        main__1__10__10__1__1__t=time((signed long int *)(void *)0);
+                        char *return_value_ctime_43;
+                        return_value_ctime_43=ctime(&main__1__10__10__1__1__t);
+                        main__1__10__10__1__1__tstr=g_strdup(return_value_ctime_43);
+                        unsigned long int return_value_strlen_44;
+                        return_value_strlen_44=strlen(main__1__10__10__1__1__tstr);
+                        main__1__10__10__1__1__tstr[(signed long int)(return_value_strlen_44 - (unsigned long int)1)] = (char)0;
+                        gettimeofday(&main__1__10__10__1__1__tv, (struct timezone *)(void *)0);
+                        fprintf(stderr, " %s [%d]", main__1__10__10__1__1__tstr, (signed int)main__1__10__10__1__1__tv.tv_usec);
                         fprintf(stderr, ": ");
                         fprintf(stderr, "Broken pipe, exiting...\n");
                         fprintf(stderr, "\n");
                         fflush(stderr);
                         if(Debug == 2 || Debug == 3)
                         {
-                          fprintf(CustomDebugFile, " %s [%d]", main$$1$$10$$10$$1$$1$$tstr, (signed int)main$$1$$10$$10$$1$$1$$tv.tv_usec);
+                          fprintf(CustomDebugFile, " %s [%d]", main__1__10__10__1__1__tstr, (signed int)main__1__10__10__1__1__tv.tv_usec);
                           fprintf(CustomDebugFile, ": ");
                           fprintf(CustomDebugFile, "Broken pipe, exiting...\n");
                           fprintf(CustomDebugFile, "\n");
                           fflush(CustomDebugFile);
                         }
 
-                        g_free((void *)main$$1$$10$$10$$1$$1$$tstr);
+                        g_free((void *)main__1__10__10__1__1__tstr);
                       }
 
                       ret = 2;
@@ -8807,43 +8807,43 @@ signed int main(signed int argc, char **argv)
 
                     fflush(stdout);
                     pthread_mutex_unlock(&module_stdout_mutex);
-                    g_free((void *)main$$1$$10$$10$$msg);
+                    g_free((void *)main__1__10__10__msg);
                   }
 
                   else
                   {
-                    return_value_strcmp$63=strcmp(cmd_buf, "AUDIO\n");
-                    if(return_value_strcmp$63 == 0)
+                    return_value_strcmp_63=strcmp(cmd_buf, "AUDIO\n");
+                    if(return_value_strcmp_63 == 0)
                     {
-                      char *main$$1$$10$$11$$msg;
+                      char *main__1__10__11__msg;
                       pthread_mutex_lock(&module_stdout_mutex);
-                      char *return_value_do_audio$49;
-                      return_value_do_audio$49=do_audio();
-                      main$$1$$10$$11$$msg = (char *)return_value_do_audio$49;
-                      signed int return_value_printf$50 = printf("%s\n", main$$1$$10$$11$$msg);
-                      if(!(return_value_printf$50 >= 0))
+                      char *return_value_do_audio_49;
+                      return_value_do_audio_49=do_audio();
+                      main__1__10__11__msg = (char *)return_value_do_audio_49;
+                      signed int return_value_printf_50 = printf("%s\n", main__1__10__11__msg);
+                      if(!(return_value_printf_50 >= 0))
                       {
                         if(!(Debug == 0))
                         {
-                          signed long int main$$1$$10$$11$$1$$1$$t;
-                          struct timeval main$$1$$10$$11$$1$$1$$tv;
+                          signed long int main__1__10__11__1__1__t;
+                          struct timeval main__1__10__11__1__1__tv;
                           char *tstr;
-                          main$$1$$10$$11$$1$$1$$t=time((signed long int *)(void *)0);
-                          char *return_value_ctime$47;
-                          return_value_ctime$47=ctime(&main$$1$$10$$11$$1$$1$$t);
-                          tstr=g_strdup(return_value_ctime$47);
-                          unsigned long int return_value_strlen$48;
-                          return_value_strlen$48=strlen(tstr);
-                          tstr[(signed long int)(return_value_strlen$48 - (unsigned long int)1)] = (char)0;
-                          gettimeofday(&main$$1$$10$$11$$1$$1$$tv, (struct timezone *)(void *)0);
-                          fprintf(stderr, " %s [%d]", tstr, (signed int)main$$1$$10$$11$$1$$1$$tv.tv_usec);
+                          main__1__10__11__1__1__t=time((signed long int *)(void *)0);
+                          char *return_value_ctime_47;
+                          return_value_ctime_47=ctime(&main__1__10__11__1__1__t);
+                          tstr=g_strdup(return_value_ctime_47);
+                          unsigned long int return_value_strlen_48;
+                          return_value_strlen_48=strlen(tstr);
+                          tstr[(signed long int)(return_value_strlen_48 - (unsigned long int)1)] = (char)0;
+                          gettimeofday(&main__1__10__11__1__1__tv, (struct timezone *)(void *)0);
+                          fprintf(stderr, " %s [%d]", tstr, (signed int)main__1__10__11__1__1__tv.tv_usec);
                           fprintf(stderr, ": ");
                           fprintf(stderr, "Broken pipe, exiting...\n");
                           fprintf(stderr, "\n");
                           fflush(stderr);
                           if(Debug == 2 || Debug == 3)
                           {
-                            fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)main$$1$$10$$11$$1$$1$$tv.tv_usec);
+                            fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)main__1__10__11__1__1__tv.tv_usec);
                             fprintf(CustomDebugFile, ": ");
                             fprintf(CustomDebugFile, "Broken pipe, exiting...\n");
                             fprintf(CustomDebugFile, "\n");
@@ -8859,50 +8859,50 @@ signed int main(signed int argc, char **argv)
 
                       fflush(stdout);
                       pthread_mutex_unlock(&module_stdout_mutex);
-                      g_free((void *)main$$1$$10$$11$$msg);
+                      g_free((void *)main__1__10__11__msg);
                     }
 
                     else
                     {
-                      return_value_strcmp$62=strcmp(cmd_buf, "LOGLEVEL\n");
-                      if(return_value_strcmp$62 == 0)
+                      return_value_strcmp_62=strcmp(cmd_buf, "LOGLEVEL\n");
+                      if(return_value_strcmp_62 == 0)
                       {
                         char *msg;
                         pthread_mutex_lock(&module_stdout_mutex);
-                        char *return_value_do_loglevel$53;
-                        return_value_do_loglevel$53=do_loglevel();
-                        msg = (char *)return_value_do_loglevel$53;
-                        signed int return_value_printf$54 = printf("%s\n", msg);
-                        if(!(return_value_printf$54 >= 0))
+                        char *return_value_do_loglevel_53;
+                        return_value_do_loglevel_53=do_loglevel();
+                        msg = (char *)return_value_do_loglevel_53;
+                        signed int return_value_printf_54 = printf("%s\n", msg);
+                        if(!(return_value_printf_54 >= 0))
                         {
                           if(!(Debug == 0))
                           {
                             signed long int t;
                             struct timeval tv;
-                            char *main$$1$$10$$12$$1$$1$$tstr;
+                            char *main__1__10__12__1__1__tstr;
                             t=time((signed long int *)(void *)0);
-                            char *return_value_ctime$51;
-                            return_value_ctime$51=ctime(&t);
-                            main$$1$$10$$12$$1$$1$$tstr=g_strdup(return_value_ctime$51);
-                            unsigned long int return_value_strlen$52;
-                            return_value_strlen$52=strlen(main$$1$$10$$12$$1$$1$$tstr);
-                            main$$1$$10$$12$$1$$1$$tstr[(signed long int)(return_value_strlen$52 - (unsigned long int)1)] = (char)0;
+                            char *return_value_ctime_51;
+                            return_value_ctime_51=ctime(&t);
+                            main__1__10__12__1__1__tstr=g_strdup(return_value_ctime_51);
+                            unsigned long int return_value_strlen_52;
+                            return_value_strlen_52=strlen(main__1__10__12__1__1__tstr);
+                            main__1__10__12__1__1__tstr[(signed long int)(return_value_strlen_52 - (unsigned long int)1)] = (char)0;
                             gettimeofday(&tv, (struct timezone *)(void *)0);
-                            fprintf(stderr, " %s [%d]", main$$1$$10$$12$$1$$1$$tstr, (signed int)tv.tv_usec);
+                            fprintf(stderr, " %s [%d]", main__1__10__12__1__1__tstr, (signed int)tv.tv_usec);
                             fprintf(stderr, ": ");
                             fprintf(stderr, "Broken pipe, exiting...\n");
                             fprintf(stderr, "\n");
                             fflush(stderr);
                             if(Debug == 2 || Debug == 3)
                             {
-                              fprintf(CustomDebugFile, " %s [%d]", main$$1$$10$$12$$1$$1$$tstr, (signed int)tv.tv_usec);
+                              fprintf(CustomDebugFile, " %s [%d]", main__1__10__12__1__1__tstr, (signed int)tv.tv_usec);
                               fprintf(CustomDebugFile, ": ");
                               fprintf(CustomDebugFile, "Broken pipe, exiting...\n");
                               fprintf(CustomDebugFile, "\n");
                               fflush(CustomDebugFile);
                             }
 
-                            g_free((void *)main$$1$$10$$12$$1$$1$$tstr);
+                            g_free((void *)main__1__10__12__1__1__tstr);
                           }
 
                           ret = 2;
@@ -8916,46 +8916,46 @@ signed int main(signed int argc, char **argv)
 
                       else
                       {
-                        return_value_strlen$60=strlen("DEBUG");
-                        return_value_strncmp$61=strncmp(cmd_buf, "DEBUG", return_value_strlen$60);
-                        if(return_value_strncmp$61 == 0)
+                        return_value_strlen_60=strlen("DEBUG");
+                        return_value_strncmp_61=strncmp(cmd_buf, "DEBUG", return_value_strlen_60);
+                        if(return_value_strncmp_61 == 0)
                         {
-                          char *main$$1$$10$$13$$msg;
+                          char *main__1__10__13__msg;
                           pthread_mutex_lock(&module_stdout_mutex);
-                          char *return_value_do_debug$57;
-                          return_value_do_debug$57=do_debug(cmd_buf);
-                          main$$1$$10$$13$$msg = (char *)return_value_do_debug$57;
-                          signed int return_value_printf$58 = printf("%s\n", main$$1$$10$$13$$msg);
-                          if(!(return_value_printf$58 >= 0))
+                          char *return_value_do_debug_57;
+                          return_value_do_debug_57=do_debug(cmd_buf);
+                          main__1__10__13__msg = (char *)return_value_do_debug_57;
+                          signed int return_value_printf_58 = printf("%s\n", main__1__10__13__msg);
+                          if(!(return_value_printf_58 >= 0))
                           {
                             if(!(Debug == 0))
                             {
-                              signed long int main$$1$$10$$13$$1$$1$$t;
-                              struct timeval main$$1$$10$$13$$1$$1$$tv;
-                              char *main$$1$$10$$13$$1$$1$$tstr;
-                              main$$1$$10$$13$$1$$1$$t=time((signed long int *)(void *)0);
-                              char *return_value_ctime$55;
-                              return_value_ctime$55=ctime(&main$$1$$10$$13$$1$$1$$t);
-                              main$$1$$10$$13$$1$$1$$tstr=g_strdup(return_value_ctime$55);
-                              unsigned long int return_value_strlen$56;
-                              return_value_strlen$56=strlen(main$$1$$10$$13$$1$$1$$tstr);
-                              main$$1$$10$$13$$1$$1$$tstr[(signed long int)(return_value_strlen$56 - (unsigned long int)1)] = (char)0;
-                              gettimeofday(&main$$1$$10$$13$$1$$1$$tv, (struct timezone *)(void *)0);
-                              fprintf(stderr, " %s [%d]", main$$1$$10$$13$$1$$1$$tstr, (signed int)main$$1$$10$$13$$1$$1$$tv.tv_usec);
+                              signed long int main__1__10__13__1__1__t;
+                              struct timeval main__1__10__13__1__1__tv;
+                              char *main__1__10__13__1__1__tstr;
+                              main__1__10__13__1__1__t=time((signed long int *)(void *)0);
+                              char *return_value_ctime_55;
+                              return_value_ctime_55=ctime(&main__1__10__13__1__1__t);
+                              main__1__10__13__1__1__tstr=g_strdup(return_value_ctime_55);
+                              unsigned long int return_value_strlen_56;
+                              return_value_strlen_56=strlen(main__1__10__13__1__1__tstr);
+                              main__1__10__13__1__1__tstr[(signed long int)(return_value_strlen_56 - (unsigned long int)1)] = (char)0;
+                              gettimeofday(&main__1__10__13__1__1__tv, (struct timezone *)(void *)0);
+                              fprintf(stderr, " %s [%d]", main__1__10__13__1__1__tstr, (signed int)main__1__10__13__1__1__tv.tv_usec);
                               fprintf(stderr, ": ");
                               fprintf(stderr, "Broken pipe, exiting...\n");
                               fprintf(stderr, "\n");
                               fflush(stderr);
                               if(Debug == 2 || Debug == 3)
                               {
-                                fprintf(CustomDebugFile, " %s [%d]", main$$1$$10$$13$$1$$1$$tstr, (signed int)main$$1$$10$$13$$1$$1$$tv.tv_usec);
+                                fprintf(CustomDebugFile, " %s [%d]", main__1__10__13__1__1__tstr, (signed int)main__1__10__13__1__1__tv.tv_usec);
                                 fprintf(CustomDebugFile, ": ");
                                 fprintf(CustomDebugFile, "Broken pipe, exiting...\n");
                                 fprintf(CustomDebugFile, "\n");
                                 fflush(CustomDebugFile);
                               }
 
-                              g_free((void *)main$$1$$10$$13$$1$$1$$tstr);
+                              g_free((void *)main__1__10__13__1__1__tstr);
                             }
 
                             ret = 2;
@@ -8964,13 +8964,13 @@ signed int main(signed int argc, char **argv)
 
                           fflush(stdout);
                           pthread_mutex_unlock(&module_stdout_mutex);
-                          g_free((void *)main$$1$$10$$13$$msg);
+                          g_free((void *)main__1__10__13__msg);
                         }
 
                         else
                         {
-                          return_value_strcmp$59=strcmp(cmd_buf, "QUIT\n");
-                          if(return_value_strcmp$59 == 0)
+                          return_value_strcmp_59=strcmp(cmd_buf, "QUIT\n");
+                          if(return_value_strcmp_59 == 0)
                           {
                             do_quit();
                             exit(0);
@@ -9007,12 +9007,12 @@ struct configoption_t * module_add_config_option(struct configoption_t *options,
   /* assertion name != ((void *)0) */
   assert(name != (char *)(void *)0);
   num_config_options = num_config_options + 1;
-  void *return_value_g_realloc$1;
-  return_value_g_realloc$1=g_realloc((void *)options, (unsigned long int)(num_config_options + 1) * sizeof(struct configoption_t) /*40ul*/ );
-  opts = (struct configoption_t *)return_value_g_realloc$1;
-  char *return_value_g_strdup$2;
-  return_value_g_strdup$2=g_strdup(name);
-  (opts + (signed long int)(num_config_options - 1))->name = (char *)return_value_g_strdup$2;
+  void *return_value_g_realloc_1;
+  return_value_g_realloc_1=g_realloc((void *)options, (unsigned long int)(num_config_options + 1) * sizeof(struct configoption_t) /*40ul*/ );
+  opts = (struct configoption_t *)return_value_g_realloc_1;
+  char *return_value_g_strdup_2;
+  return_value_g_strdup_2=g_strdup(name);
+  (opts + (signed long int)(num_config_options - 1))->name = (char *)return_value_g_strdup_2;
   (opts + (signed long int)(num_config_options - 1))->type = type;
   (opts + (signed long int)(num_config_options - 1))->callback = callback;
   (opts + (signed long int)(num_config_options - 1))->info = info;
@@ -9030,32 +9030,32 @@ signed int module_audio_init(char **status_info)
   signed int i = 0;
   if(!(Debug == 0))
   {
-    signed long int module_audio_init$$1$$1$$t;
-    struct timeval module_audio_init$$1$$1$$tv;
-    char *module_audio_init$$1$$1$$tstr;
-    module_audio_init$$1$$1$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&module_audio_init$$1$$1$$t);
-    module_audio_init$$1$$1$$tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(module_audio_init$$1$$1$$tstr);
-    module_audio_init$$1$$1$$tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&module_audio_init$$1$$1$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", module_audio_init$$1$$1$$tstr, (signed int)module_audio_init$$1$$1$$tv.tv_usec);
+    signed long int module_audio_init__1__1__t;
+    struct timeval module_audio_init__1__1__tv;
+    char *module_audio_init__1__1__tstr;
+    module_audio_init__1__1__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&module_audio_init__1__1__t);
+    module_audio_init__1__1__tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(module_audio_init__1__1__tstr);
+    module_audio_init__1__1__tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&module_audio_init__1__1__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", module_audio_init__1__1__tstr, (signed int)module_audio_init__1__1__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "Openning audio output system");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", module_audio_init$$1$$1$$tstr, (signed int)module_audio_init$$1$$1$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", module_audio_init__1__1__tstr, (signed int)module_audio_init__1__1__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "Openning audio output system");
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)module_audio_init$$1$$1$$tstr);
+    g_free((void *)module_audio_init__1__1__tstr);
   }
 
   if(module_audio_pars[0l] == ((char *)NULL))
@@ -9070,7 +9070,7 @@ signed int module_audio_init(char **status_info)
     for( ; !(outputs[(signed long int)i] == ((char *)NULL)); i = i + 1)
     {
       module_audio_id=spd_audio_open(outputs[(signed long int)i], (void **)&module_audio_pars[(signed long int)1], &error);
-      if(!(module_audio_id == ((struct anonymous$2 *)NULL)))
+      if(!(module_audio_id == ((struct anonymous_2 *)NULL)))
       {
         if(!(Debug == 0))
         {
@@ -9078,12 +9078,12 @@ signed int module_audio_init(char **status_info)
           struct timeval tv;
           char *tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$3;
-          return_value_ctime$3=ctime(&t);
-          tstr=g_strdup(return_value_ctime$3);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+          char *return_value_ctime_3;
+          return_value_ctime_3=ctime(&t);
+          tstr=g_strdup(return_value_ctime_3);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -9117,7 +9117,7 @@ signed int module_audio_init(char **status_info)
 
 // module_child_dp_close
 // file module_utils.c line 709
-void module_child_dp_close(struct anonymous$13 dpipe)
+void module_child_dp_close(struct anonymous_13 dpipe)
 {
   close(dpipe.pc[(signed long int)0]);
   close(dpipe.cp[(signed long int)1]);
@@ -9125,7 +9125,7 @@ void module_child_dp_close(struct anonymous$13 dpipe)
 
 // module_child_dp_init
 // file module_utils.c line 702
-void module_child_dp_init(struct anonymous$13 dpipe)
+void module_child_dp_init(struct anonymous_13 dpipe)
 {
   close(dpipe.pc[(signed long int)1]);
   close(dpipe.cp[(signed long int)0]);
@@ -9133,20 +9133,20 @@ void module_child_dp_init(struct anonymous$13 dpipe)
 
 // module_child_dp_read
 // file module_utils.c line 736
-signed int module_child_dp_read(struct anonymous$13 dpipe, char *msg, unsigned long int maxlen)
+signed int module_child_dp_read(struct anonymous_13 dpipe, char *msg, unsigned long int maxlen)
 {
   signed int bytes;
-  signed long int return_value_read$1;
+  signed long int return_value_read_1;
   do
   {
-    return_value_read$1=read(dpipe.pc[(signed long int)0], (void *)msg, maxlen);
-    bytes = (signed int)return_value_read$1;
+    return_value_read_1=read(dpipe.pc[(signed long int)0], (void *)msg, maxlen);
+    bytes = (signed int)return_value_read_1;
     if(bytes >= 0)
       break;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 4))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 4))
     {
       fprintf(stderr, "FATAL ERROR in output module [%s:%d]:\n   Unable to read data", (const void *)"module_utils.c", 741);
       if(Debug >= 2)
@@ -9162,14 +9162,14 @@ signed int module_child_dp_read(struct anonymous$13 dpipe, char *msg, unsigned l
 
 // module_child_dp_write
 // file module_utils.c line 716
-void module_child_dp_write(struct anonymous$13 dpipe, const char *msg, unsigned long int bytes)
+void module_child_dp_write(struct anonymous_13 dpipe, const char *msg, unsigned long int bytes)
 {
   signed int ret;
   /* assertion msg != ((void *)0) */
   assert(msg != (const char *)(void *)0);
-  signed long int return_value_write$1;
-  return_value_write$1=write(dpipe.cp[(signed long int)1], (const void *)msg, bytes);
-  ret = (signed int)return_value_write$1;
+  signed long int return_value_write_1;
+  return_value_write_1=write(dpipe.cp[(signed long int)1], (const void *)msg, bytes);
+  ret = (signed int)return_value_write_1;
   /* assertion ret */
   assert(ret != 0);
 }
@@ -9181,45 +9181,45 @@ signed int module_close(void)
   if(!(Debug == 0))
   {
     signed long int t;
-    struct timeval module_close$$1$$1$$tv;
-    char *module_close$$1$$1$$tstr;
+    struct timeval module_close__1__1__tv;
+    char *module_close__1__1__tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    module_close$$1$$1$$tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(module_close$$1$$1$$tstr);
-    module_close$$1$$1$$tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&module_close$$1$$1$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", module_close$$1$$1$$tstr, (signed int)module_close$$1$$1$$tv.tv_usec);
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    module_close__1__1__tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(module_close__1__1__tstr);
+    module_close__1__1__tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&module_close__1__1__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", module_close__1__1__tstr, (signed int)module_close__1__1__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "festival: close()\n");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", module_close$$1$$1$$tstr, (signed int)module_close$$1$$1$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", module_close__1__1__tstr, (signed int)module_close__1__1__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "festival: close()\n");
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)module_close$$1$$1$$tstr);
+    g_free((void *)module_close__1__1__tstr);
   }
 
   if(!(Debug == 0))
   {
-    signed long int module_close$$1$$2$$t;
+    signed long int module_close__1__2__t;
     struct timeval tv;
     char *tstr;
-    module_close$$1$$2$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$3;
-    return_value_ctime$3=ctime(&module_close$$1$$2$$t);
-    tstr=g_strdup(return_value_ctime$3);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+    module_close__1__2__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_3;
+    return_value_ctime_3=ctime(&module_close__1__2__t);
+    tstr=g_strdup(return_value_ctime_3);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -9245,32 +9245,32 @@ signed int module_close(void)
   }
   if(!(Debug == 0))
   {
-    signed long int module_close$$1$$4$$t;
-    struct timeval module_close$$1$$4$$tv;
-    char *module_close$$1$$4$$tstr;
-    module_close$$1$$4$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$5;
-    return_value_ctime$5=ctime(&module_close$$1$$4$$t);
-    module_close$$1$$4$$tstr=g_strdup(return_value_ctime$5);
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(module_close$$1$$4$$tstr);
-    module_close$$1$$4$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&module_close$$1$$4$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", module_close$$1$$4$$tstr, (signed int)module_close$$1$$4$$tv.tv_usec);
+    signed long int module_close__1__4__t;
+    struct timeval module_close__1__4__tv;
+    char *module_close__1__4__tstr;
+    module_close__1__4__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_5;
+    return_value_ctime_5=ctime(&module_close__1__4__t);
+    module_close__1__4__tstr=g_strdup(return_value_ctime_5);
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(module_close__1__4__tstr);
+    module_close__1__4__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&module_close__1__4__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", module_close__1__4__tstr, (signed int)module_close__1__4__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "Terminating threads");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", module_close$$1$$4$$tstr, (signed int)module_close$$1$$4$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", module_close__1__4__tstr, (signed int)module_close__1__4__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "Terminating threads");
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)module_close$$1$$4$$tstr);
+    g_free((void *)module_close__1__4__tstr);
   }
 
   module_terminate_thread(festival_speak_thread);
@@ -9297,12 +9297,12 @@ void * module_get_ht_option(struct _GHashTable *hash_table, const char *key)
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$1;
-      return_value_ctime$1=ctime(&t);
-      tstr=g_strdup(return_value_ctime$1);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_1;
+      return_value_ctime_1=ctime(&t);
+      tstr=g_strdup(return_value_ctime_1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -9338,11 +9338,11 @@ signed int module_get_message_part(const char *message, char *part, unsigned int
   assert(part != (char *)(void *)0);
   /* assertion message != ((void *)0) */
   assert(message != (const char *)(void *)0);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(message);
-  len = (signed int)return_value_strlen$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(message);
+  len = (signed int)return_value_strlen_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if((signed int)message[(signed long int)*pos] == 0)
     return -1;
 
@@ -9350,9 +9350,9 @@ signed int module_get_message_part(const char *message, char *part, unsigned int
   {
     if(!(dividers == ((const char *)NULL)))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(dividers);
-      num_dividers = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(dividers);
+      num_dividers = (signed int)return_value_strlen_2;
     }
 
     else
@@ -9367,16 +9367,16 @@ signed int module_get_message_part(const char *message, char *part, unsigned int
       if(len + -1 + -i >= 3)
       {
         if((signed int)message[(signed long int)(1u + *pos)] == 32)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)message[(signed long int)(*pos + (unsigned int)1)] == 10 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = (signed int)message[(signed long int)(*pos + (unsigned int)1)] == 10 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)message[(signed long int)(*pos + (unsigned int)1)] == 13 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (signed int)message[(signed long int)(*pos + (unsigned int)1)] == 13 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
         {
           n = 0;
           for( ; num_dividers + -1 >= n; n = n + 1)
@@ -9445,12 +9445,12 @@ signed int module_init(char **status_info)
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -9470,7 +9470,7 @@ signed int module_init(char **status_info)
   }
 
   module_index_mark = (char *)(void *)0;
-  FestivalComType = (enum anonymous$23)FestivalComunicationType;
+  FestivalComType = (enum anonymous_23)FestivalComunicationType;
   if((signed int)FestivalComType == FCT_SOCKET)
   {
     g_string_append(info, "Communicating with Festival through a socket. ");
@@ -9500,9 +9500,9 @@ signed int module_init(char **status_info)
     if((signed int)FestivalComType == FCT_LOCAL)
     {
       g_string_append(info, "Communicating with Festival through a local child process.");
-      signed int return_value_init_festival_standalone$3;
-      return_value_init_festival_standalone$3=init_festival_standalone();
-      if(!(return_value_init_festival_standalone$3 == 0))
+      signed int return_value_init_festival_standalone_3;
+      return_value_init_festival_standalone_3=init_festival_standalone();
+      if(!(return_value_init_festival_standalone_3 == 0))
       {
         g_string_append(info, "Local connect to Festival failed for unknown reasons.");
         *status_info = info->str;
@@ -9513,39 +9513,39 @@ signed int module_init(char **status_info)
     }
 
     festival_voice_list=festivalGetVoices(festival_info);
-    void *return_value_g_malloc$4;
-    return_value_g_malloc$4=g_malloc(sizeof(char *) /*8ul*/ );
-    festival_message = (char **)return_value_g_malloc$4;
+    void *return_value_g_malloc_4;
+    return_value_g_malloc_4=g_malloc(sizeof(char *) /*8ul*/ );
+    festival_message = (char **)return_value_g_malloc_4;
     *festival_message = (char *)(void *)0;
     sem_init(&festival_semaphore, 0, (unsigned int)0);
     if(!(Debug == 0))
     {
-      signed long int module_init$$1$$4$$t;
-      struct timeval module_init$$1$$4$$tv;
-      char *module_init$$1$$4$$tstr;
-      module_init$$1$$4$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$5;
-      return_value_ctime$5=ctime(&module_init$$1$$4$$t);
-      module_init$$1$$4$$tstr=g_strdup(return_value_ctime$5);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(module_init$$1$$4$$tstr);
-      module_init$$1$$4$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&module_init$$1$$4$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", module_init$$1$$4$$tstr, (signed int)module_init$$1$$4$$tv.tv_usec);
+      signed long int module_init__1__4__t;
+      struct timeval module_init__1__4__tv;
+      char *module_init__1__4__tstr;
+      module_init__1__4__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_5;
+      return_value_ctime_5=ctime(&module_init__1__4__t);
+      module_init__1__4__tstr=g_strdup(return_value_ctime_5);
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(module_init__1__4__tstr);
+      module_init__1__4__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&module_init__1__4__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", module_init__1__4__tstr, (signed int)module_init__1__4__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Festival: creating new thread for festival_speak\n");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", module_init$$1$$4$$tstr, (signed int)module_init$$1$$4$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", module_init__1__4__tstr, (signed int)module_init__1__4__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Festival: creating new thread for festival_speak\n");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)module_init$$1$$4$$tstr);
+      g_free((void *)module_init__1__4__tstr);
     }
 
     festival_speaking = 0;
@@ -9554,32 +9554,32 @@ signed int module_init(char **status_info)
     {
       if(!(Debug == 0))
       {
-        signed long int module_init$$1$$5$$1$$t;
-        struct timeval module_init$$1$$5$$1$$tv;
-        char *module_init$$1$$5$$1$$tstr;
-        module_init$$1$$5$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$7;
-        return_value_ctime$7=ctime(&module_init$$1$$5$$1$$t);
-        module_init$$1$$5$$1$$tstr=g_strdup(return_value_ctime$7);
-        unsigned long int return_value_strlen$8;
-        return_value_strlen$8=strlen(module_init$$1$$5$$1$$tstr);
-        module_init$$1$$5$$1$$tstr[(signed long int)(return_value_strlen$8 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&module_init$$1$$5$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", module_init$$1$$5$$1$$tstr, (signed int)module_init$$1$$5$$1$$tv.tv_usec);
+        signed long int module_init__1__5__1__t;
+        struct timeval module_init__1__5__1__tv;
+        char *module_init__1__5__1__tstr;
+        module_init__1__5__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_7;
+        return_value_ctime_7=ctime(&module_init__1__5__1__t);
+        module_init__1__5__1__tstr=g_strdup(return_value_ctime_7);
+        unsigned long int return_value_strlen_8;
+        return_value_strlen_8=strlen(module_init__1__5__1__tstr);
+        module_init__1__5__1__tstr[(signed long int)(return_value_strlen_8 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&module_init__1__5__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", module_init__1__5__1__tstr, (signed int)module_init__1__5__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Festival: thread failed\n");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", module_init$$1$$5$$1$$tstr, (signed int)module_init$$1$$5$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", module_init__1__5__1__tstr, (signed int)module_init__1__5__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Festival: thread failed\n");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)module_init$$1$$5$$1$$tstr);
+        g_free((void *)module_init__1__5__1__tstr);
       }
 
       g_string_append(info, "The module couldn't initialize threadsThis can be either an internal problem or anarchitecture problem. If you are sure your architecturesupports threads, please report a bug.");
@@ -9590,7 +9590,7 @@ signed int module_init(char **status_info)
 
     else
     {
-      pthread_mutex_init(&sound_output_mutex, (const union anonymous$19 *)(void *)0);
+      pthread_mutex_init(&sound_output_mutex, (const union anonymous_19 *)(void *)0);
       *status_info = info->str;
       g_string_free(info, 0);
       return 0;
@@ -9600,7 +9600,7 @@ signed int module_init(char **status_info)
 
 // module_list_voices
 // file festival.c line 317
-struct anonymous$14 ** module_list_voices(void)
+struct anonymous_14 ** module_list_voices(void)
 {
   return festival_voice_list;
 }
@@ -9613,19 +9613,19 @@ signed int module_load(void)
   msg_settings.rate = 0;
   msg_settings.pitch = 0;
   msg_settings.volume = 0;
-  msg_settings.punctuation_mode = (enum anonymous$8)SPD_PUNCT_NONE;
-  msg_settings.spelling_mode = (enum anonymous$9)SPD_SPELL_OFF;
-  msg_settings.cap_let_recogn = (enum anonymous$10)SPD_CAP_NONE;
-  msg_settings.voice_type = (enum anonymous$11)SPD_MALE1;
+  msg_settings.punctuation_mode = (enum anonymous_8)SPD_PUNCT_NONE;
+  msg_settings.spelling_mode = (enum anonymous_9)SPD_SPELL_OFF;
+  msg_settings.cap_let_recogn = (enum anonymous_10)SPD_CAP_NONE;
+  msg_settings.voice_type = (enum anonymous_11)SPD_MALE1;
   msg_settings.voice.name = (char *)(void *)0;
   msg_settings.voice.language = (char *)(void *)0;
   msg_settings_old.rate = -101;
   msg_settings_old.pitch = -101;
   msg_settings_old.volume = -101;
-  msg_settings_old.punctuation_mode = (enum anonymous$8)-1;
-  msg_settings_old.spelling_mode = (enum anonymous$9)-1;
-  msg_settings_old.cap_let_recogn = (enum anonymous$10)-1;
-  msg_settings_old.voice_type = (enum anonymous$11)-1;
+  msg_settings_old.punctuation_mode = (enum anonymous_8)-1;
+  msg_settings_old.spelling_mode = (enum anonymous_9)-1;
+  msg_settings_old.cap_let_recogn = (enum anonymous_10)-1;
+  msg_settings_old.voice_type = (enum anonymous_11)-1;
   msg_settings_old.voice.name = (char *)(void *)0;
   msg_settings_old.voice.language = (char *)(void *)0;
   Debug = 0;
@@ -9657,7 +9657,7 @@ signed int module_load(void)
 
 // module_parent_dp_close
 // file module_utils.c line 695
-void module_parent_dp_close(struct anonymous$13 dpipe)
+void module_parent_dp_close(struct anonymous_13 dpipe)
 {
   close(dpipe.pc[(signed long int)1]);
   close(dpipe.cp[(signed long int)0]);
@@ -9665,7 +9665,7 @@ void module_parent_dp_close(struct anonymous$13 dpipe)
 
 // module_parent_dp_init
 // file module_utils.c line 688
-void module_parent_dp_init(struct anonymous$13 dpipe)
+void module_parent_dp_init(struct anonymous_13 dpipe)
 {
   close(dpipe.pc[(signed long int)0]);
   close(dpipe.cp[(signed long int)1]);
@@ -9673,20 +9673,20 @@ void module_parent_dp_init(struct anonymous$13 dpipe)
 
 // module_parent_dp_read
 // file module_utils.c line 748
-signed int module_parent_dp_read(struct anonymous$13 dpipe, char *msg, unsigned long int maxlen)
+signed int module_parent_dp_read(struct anonymous_13 dpipe, char *msg, unsigned long int maxlen)
 {
   signed int bytes;
-  signed long int return_value_read$1;
+  signed long int return_value_read_1;
   do
   {
-    return_value_read$1=read(dpipe.cp[(signed long int)0], (void *)msg, maxlen);
-    bytes = (signed int)return_value_read$1;
+    return_value_read_1=read(dpipe.cp[(signed long int)0], (void *)msg, maxlen);
+    bytes = (signed int)return_value_read_1;
     if(bytes >= 0)
       break;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 4))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 4))
     {
       fprintf(stderr, "FATAL ERROR in output module [%s:%d]:\n   Unable to read data", (const void *)"module_utils.c", 753);
       if(Debug >= 2)
@@ -9702,7 +9702,7 @@ signed int module_parent_dp_read(struct anonymous$13 dpipe, char *msg, unsigned 
 
 // module_parent_dp_write
 // file module_utils.c line 725
-signed int module_parent_dp_write(struct anonymous$13 dpipe, const char *msg, unsigned long int bytes)
+signed int module_parent_dp_write(struct anonymous_13 dpipe, const char *msg, unsigned long int bytes)
 {
   signed long int ret;
   /* assertion msg != ((void *)0) */
@@ -9713,12 +9713,12 @@ signed int module_parent_dp_write(struct anonymous$13 dpipe, const char *msg, un
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -9740,32 +9740,32 @@ signed int module_parent_dp_write(struct anonymous$13 dpipe, const char *msg, un
   ret=write(dpipe.pc[(signed long int)1], (const void *)msg, bytes);
   if(!(Debug == 0))
   {
-    signed long int module_parent_dp_write$$1$$2$$t;
-    struct timeval module_parent_dp_write$$1$$2$$tv;
-    char *module_parent_dp_write$$1$$2$$tstr;
-    module_parent_dp_write$$1$$2$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$3;
-    return_value_ctime$3=ctime(&module_parent_dp_write$$1$$2$$t);
-    module_parent_dp_write$$1$$2$$tstr=g_strdup(return_value_ctime$3);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(module_parent_dp_write$$1$$2$$tstr);
-    module_parent_dp_write$$1$$2$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&module_parent_dp_write$$1$$2$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", module_parent_dp_write$$1$$2$$tstr, (signed int)module_parent_dp_write$$1$$2$$tv.tv_usec);
+    signed long int module_parent_dp_write__1__2__t;
+    struct timeval module_parent_dp_write__1__2__tv;
+    char *module_parent_dp_write__1__2__tstr;
+    module_parent_dp_write__1__2__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_3;
+    return_value_ctime_3=ctime(&module_parent_dp_write__1__2__t);
+    module_parent_dp_write__1__2__tstr=g_strdup(return_value_ctime_3);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(module_parent_dp_write__1__2__tstr);
+    module_parent_dp_write__1__2__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&module_parent_dp_write__1__2__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", module_parent_dp_write__1__2__tstr, (signed int)module_parent_dp_write__1__2__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "written %ld bytes", (signed long int)ret);
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", module_parent_dp_write$$1$$2$$tstr, (signed int)module_parent_dp_write$$1$$2$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", module_parent_dp_write__1__2__tstr, (signed int)module_parent_dp_write__1__2__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "written %ld bytes", (signed long int)ret);
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)module_parent_dp_write$$1$$2$$tstr);
+    g_free((void *)module_parent_dp_write__1__2__tstr);
   }
 
   return (signed int)ret;
@@ -9773,7 +9773,7 @@ signed int module_parent_dp_write(struct anonymous$13 dpipe, const char *msg, un
 
 // module_parent_wait_continue
 // file module_utils.c line 668
-signed int module_parent_wait_continue(struct anonymous$13 dpipe)
+signed int module_parent_wait_continue(struct anonymous_13 dpipe)
 {
   char msg[16l];
   signed int bytes;
@@ -9783,12 +9783,12 @@ signed int module_parent_wait_continue(struct anonymous$13 dpipe)
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -9814,32 +9814,32 @@ signed int module_parent_wait_continue(struct anonymous$13 dpipe)
     {
       if(!(Debug == 0))
       {
-        signed long int module_parent_wait_continue$$1$$2$$1$$1$$t;
-        struct timeval module_parent_wait_continue$$1$$2$$1$$1$$tv;
-        char *module_parent_wait_continue$$1$$2$$1$$1$$tstr;
-        module_parent_wait_continue$$1$$2$$1$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$3;
-        return_value_ctime$3=ctime(&module_parent_wait_continue$$1$$2$$1$$1$$t);
-        module_parent_wait_continue$$1$$2$$1$$1$$tstr=g_strdup(return_value_ctime$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(module_parent_wait_continue$$1$$2$$1$$1$$tstr);
-        module_parent_wait_continue$$1$$2$$1$$1$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&module_parent_wait_continue$$1$$2$$1$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", module_parent_wait_continue$$1$$2$$1$$1$$tstr, (signed int)module_parent_wait_continue$$1$$2$$1$$1$$tv.tv_usec);
+        signed long int module_parent_wait_continue__1__2__1__1__t;
+        struct timeval module_parent_wait_continue__1__2__1__1__tv;
+        char *module_parent_wait_continue__1__2__1__1__tstr;
+        module_parent_wait_continue__1__2__1__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_3;
+        return_value_ctime_3=ctime(&module_parent_wait_continue__1__2__1__1__t);
+        module_parent_wait_continue__1__2__1__1__tstr=g_strdup(return_value_ctime_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(module_parent_wait_continue__1__2__1__1__tstr);
+        module_parent_wait_continue__1__2__1__1__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&module_parent_wait_continue__1__2__1__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", module_parent_wait_continue__1__2__1__1__tstr, (signed int)module_parent_wait_continue__1__2__1__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "parent: Read bytes 0, child stopped\n");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", module_parent_wait_continue$$1$$2$$1$$1$$tstr, (signed int)module_parent_wait_continue$$1$$2$$1$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", module_parent_wait_continue__1__2__1__1__tstr, (signed int)module_parent_wait_continue__1__2__1__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "parent: Read bytes 0, child stopped\n");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)module_parent_wait_continue$$1$$2$$1$$1$$tstr);
+        g_free((void *)module_parent_wait_continue__1__2__1__1__tstr);
       }
 
       return 1;
@@ -9849,32 +9849,32 @@ signed int module_parent_wait_continue(struct anonymous$13 dpipe)
     {
       if(!(Debug == 0))
       {
-        signed long int module_parent_wait_continue$$1$$2$$2$$1$$t;
-        struct timeval module_parent_wait_continue$$1$$2$$2$$1$$tv;
-        char *module_parent_wait_continue$$1$$2$$2$$1$$tstr;
-        module_parent_wait_continue$$1$$2$$2$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$5;
-        return_value_ctime$5=ctime(&module_parent_wait_continue$$1$$2$$2$$1$$t);
-        module_parent_wait_continue$$1$$2$$2$$1$$tstr=g_strdup(return_value_ctime$5);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(module_parent_wait_continue$$1$$2$$2$$1$$tstr);
-        module_parent_wait_continue$$1$$2$$2$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&module_parent_wait_continue$$1$$2$$2$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", module_parent_wait_continue$$1$$2$$2$$1$$tstr, (signed int)module_parent_wait_continue$$1$$2$$2$$1$$tv.tv_usec);
+        signed long int module_parent_wait_continue__1__2__2__1__t;
+        struct timeval module_parent_wait_continue__1__2__2__1__tv;
+        char *module_parent_wait_continue__1__2__2__1__tstr;
+        module_parent_wait_continue__1__2__2__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_5;
+        return_value_ctime_5=ctime(&module_parent_wait_continue__1__2__2__1__t);
+        module_parent_wait_continue__1__2__2__1__tstr=g_strdup(return_value_ctime_5);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(module_parent_wait_continue__1__2__2__1__tstr);
+        module_parent_wait_continue__1__2__2__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&module_parent_wait_continue__1__2__2__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", module_parent_wait_continue__1__2__2__1__tstr, (signed int)module_parent_wait_continue__1__2__2__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "parent: Ok, received report to continue...\n");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", module_parent_wait_continue$$1$$2$$2$$1$$tstr, (signed int)module_parent_wait_continue$$1$$2$$2$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", module_parent_wait_continue__1__2__2__1__tstr, (signed int)module_parent_wait_continue__1__2__2__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "parent: Ok, received report to continue...\n");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)module_parent_wait_continue$$1$$2$$2$$1$$tstr);
+        g_free((void *)module_parent_wait_continue__1__2__2__1__tstr);
       }
 
       return 0;
@@ -9885,7 +9885,7 @@ signed int module_parent_wait_continue(struct anonymous$13 dpipe)
 
 // module_parent_wfork
 // file module_utils.c line 608
-unsigned long int module_parent_wfork(struct anonymous$13 dpipe, const char *message, enum anonymous$7 msgtype, const unsigned long int maxlen, const char *dividers, signed int *pause_requested)
+unsigned long int module_parent_wfork(struct anonymous_13 dpipe, const char *message, enum anonymous_7 msgtype, const unsigned long int maxlen, const char *dividers, signed int *pause_requested)
 {
   unsigned int pos = (unsigned int)0;
   char msg[16l];
@@ -9894,132 +9894,132 @@ unsigned long int module_parent_wfork(struct anonymous$13 dpipe, const char *mes
   unsigned long int read_bytes = (unsigned long int)0;
   if(!(Debug == 0))
   {
-    signed long int module_parent_wfork$$1$$1$$t;
-    struct timeval module_parent_wfork$$1$$1$$tv;
-    char *module_parent_wfork$$1$$1$$tstr;
-    module_parent_wfork$$1$$1$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&module_parent_wfork$$1$$1$$t);
-    module_parent_wfork$$1$$1$$tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(module_parent_wfork$$1$$1$$tstr);
-    module_parent_wfork$$1$$1$$tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&module_parent_wfork$$1$$1$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", module_parent_wfork$$1$$1$$tstr, (signed int)module_parent_wfork$$1$$1$$tv.tv_usec);
+    signed long int module_parent_wfork__1__1__t;
+    struct timeval module_parent_wfork__1__1__tv;
+    char *module_parent_wfork__1__1__tstr;
+    module_parent_wfork__1__1__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&module_parent_wfork__1__1__t);
+    module_parent_wfork__1__1__tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(module_parent_wfork__1__1__tstr);
+    module_parent_wfork__1__1__tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&module_parent_wfork__1__1__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", module_parent_wfork__1__1__tstr, (signed int)module_parent_wfork__1__1__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "Entering parent process, closing pipes");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork$$1$$1$$tstr, (signed int)module_parent_wfork$$1$$1$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork__1__1__tstr, (signed int)module_parent_wfork__1__1__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "Entering parent process, closing pipes");
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)module_parent_wfork$$1$$1$$tstr);
+    g_free((void *)module_parent_wfork__1__1__tstr);
   }
 
-  void *return_value_g_malloc$3;
-  return_value_g_malloc$3=g_malloc((maxlen + (unsigned long int)1) * sizeof(char) /*1ul*/ );
-  buf = (char *)return_value_g_malloc$3;
+  void *return_value_g_malloc_3;
+  return_value_g_malloc_3=g_malloc((maxlen + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+  buf = (char *)return_value_g_malloc_3;
   module_parent_dp_init(dpipe);
   pos = (unsigned int)0;
   while((_Bool)1)
   {
     if(!(Debug == 0))
     {
-      signed long int module_parent_wfork$$1$$2$$1$$t;
-      struct timeval module_parent_wfork$$1$$2$$1$$tv;
-      char *module_parent_wfork$$1$$2$$1$$tstr;
-      module_parent_wfork$$1$$2$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$4;
-      return_value_ctime$4=ctime(&module_parent_wfork$$1$$2$$1$$t);
-      module_parent_wfork$$1$$2$$1$$tstr=g_strdup(return_value_ctime$4);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(module_parent_wfork$$1$$2$$1$$tstr);
-      module_parent_wfork$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&module_parent_wfork$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", module_parent_wfork$$1$$2$$1$$tstr, (signed int)module_parent_wfork$$1$$2$$1$$tv.tv_usec);
+      signed long int module_parent_wfork__1__2__1__t;
+      struct timeval module_parent_wfork__1__2__1__tv;
+      char *module_parent_wfork__1__2__1__tstr;
+      module_parent_wfork__1__2__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_4;
+      return_value_ctime_4=ctime(&module_parent_wfork__1__2__1__t);
+      module_parent_wfork__1__2__1__tstr=g_strdup(return_value_ctime_4);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(module_parent_wfork__1__2__1__tstr);
+      module_parent_wfork__1__2__1__tstr[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&module_parent_wfork__1__2__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", module_parent_wfork__1__2__1__tstr, (signed int)module_parent_wfork__1__2__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "  Looping...\n");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork$$1$$2$$1$$tstr, (signed int)module_parent_wfork$$1$$2$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork__1__2__1__tstr, (signed int)module_parent_wfork__1__2__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "  Looping...\n");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)module_parent_wfork$$1$$2$$1$$tstr);
+      g_free((void *)module_parent_wfork__1__2__1__tstr);
     }
 
     bytes=module_get_message_part(message, buf, &pos, maxlen, dividers);
     if(!(Debug == 0))
     {
-      signed long int module_parent_wfork$$1$$2$$2$$t;
-      struct timeval module_parent_wfork$$1$$2$$2$$tv;
-      char *module_parent_wfork$$1$$2$$2$$tstr;
-      module_parent_wfork$$1$$2$$2$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$6;
-      return_value_ctime$6=ctime(&module_parent_wfork$$1$$2$$2$$t);
-      module_parent_wfork$$1$$2$$2$$tstr=g_strdup(return_value_ctime$6);
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(module_parent_wfork$$1$$2$$2$$tstr);
-      module_parent_wfork$$1$$2$$2$$tstr[(signed long int)(return_value_strlen$7 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&module_parent_wfork$$1$$2$$2$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", module_parent_wfork$$1$$2$$2$$tstr, (signed int)module_parent_wfork$$1$$2$$2$$tv.tv_usec);
+      signed long int module_parent_wfork__1__2__2__t;
+      struct timeval module_parent_wfork__1__2__2__tv;
+      char *module_parent_wfork__1__2__2__tstr;
+      module_parent_wfork__1__2__2__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_6;
+      return_value_ctime_6=ctime(&module_parent_wfork__1__2__2__t);
+      module_parent_wfork__1__2__2__tstr=g_strdup(return_value_ctime_6);
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(module_parent_wfork__1__2__2__tstr);
+      module_parent_wfork__1__2__2__tstr[(signed long int)(return_value_strlen_7 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&module_parent_wfork__1__2__2__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", module_parent_wfork__1__2__2__tstr, (signed int)module_parent_wfork__1__2__2__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Returned %d bytes from get_part\n", bytes);
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork$$1$$2$$2$$tstr, (signed int)module_parent_wfork$$1$$2$$2$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork__1__2__2__tstr, (signed int)module_parent_wfork__1__2__2__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Returned %d bytes from get_part\n", bytes);
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)module_parent_wfork$$1$$2$$2$$tstr);
+      g_free((void *)module_parent_wfork__1__2__2__tstr);
     }
 
     if(!(*pause_requested == 0))
     {
       if(!(Debug == 0))
       {
-        signed long int module_parent_wfork$$1$$2$$3$$1$$t;
-        struct timeval module_parent_wfork$$1$$2$$3$$1$$tv;
-        char *module_parent_wfork$$1$$2$$3$$1$$tstr;
-        module_parent_wfork$$1$$2$$3$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$8;
-        return_value_ctime$8=ctime(&module_parent_wfork$$1$$2$$3$$1$$t);
-        module_parent_wfork$$1$$2$$3$$1$$tstr=g_strdup(return_value_ctime$8);
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen(module_parent_wfork$$1$$2$$3$$1$$tstr);
-        module_parent_wfork$$1$$2$$3$$1$$tstr[(signed long int)(return_value_strlen$9 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&module_parent_wfork$$1$$2$$3$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", module_parent_wfork$$1$$2$$3$$1$$tstr, (signed int)module_parent_wfork$$1$$2$$3$$1$$tv.tv_usec);
+        signed long int module_parent_wfork__1__2__3__1__t;
+        struct timeval module_parent_wfork__1__2__3__1__tv;
+        char *module_parent_wfork__1__2__3__1__tstr;
+        module_parent_wfork__1__2__3__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_8;
+        return_value_ctime_8=ctime(&module_parent_wfork__1__2__3__1__t);
+        module_parent_wfork__1__2__3__1__tstr=g_strdup(return_value_ctime_8);
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen(module_parent_wfork__1__2__3__1__tstr);
+        module_parent_wfork__1__2__3__1__tstr[(signed long int)(return_value_strlen_9 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&module_parent_wfork__1__2__3__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", module_parent_wfork__1__2__3__1__tstr, (signed int)module_parent_wfork__1__2__3__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Pause requested in parent");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork$$1$$2$$3$$1$$tstr, (signed int)module_parent_wfork$$1$$2$$3$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork__1__2__3__1__tstr, (signed int)module_parent_wfork__1__2__3__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Pause requested in parent");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)module_parent_wfork$$1$$2$$3$$1$$tstr);
+        g_free((void *)module_parent_wfork__1__2__3__1__tstr);
       }
 
       module_parent_dp_close(dpipe);
@@ -10031,56 +10031,56 @@ unsigned long int module_parent_wfork(struct anonymous$13 dpipe, const char *mes
     {
       if(!(Debug == 0))
       {
-        signed long int module_parent_wfork$$1$$2$$4$$1$$t;
-        struct timeval module_parent_wfork$$1$$2$$4$$1$$tv;
-        char *module_parent_wfork$$1$$2$$4$$1$$tstr;
-        module_parent_wfork$$1$$2$$4$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$10;
-        return_value_ctime$10=ctime(&module_parent_wfork$$1$$2$$4$$1$$t);
-        module_parent_wfork$$1$$2$$4$$1$$tstr=g_strdup(return_value_ctime$10);
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen(module_parent_wfork$$1$$2$$4$$1$$tstr);
-        module_parent_wfork$$1$$2$$4$$1$$tstr[(signed long int)(return_value_strlen$11 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&module_parent_wfork$$1$$2$$4$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", module_parent_wfork$$1$$2$$4$$1$$tstr, (signed int)module_parent_wfork$$1$$2$$4$$1$$tv.tv_usec);
+        signed long int module_parent_wfork__1__2__4__1__t;
+        struct timeval module_parent_wfork__1__2__4__1__tv;
+        char *module_parent_wfork__1__2__4__1__tstr;
+        module_parent_wfork__1__2__4__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_10;
+        return_value_ctime_10=ctime(&module_parent_wfork__1__2__4__1__t);
+        module_parent_wfork__1__2__4__1__tstr=g_strdup(return_value_ctime_10);
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen(module_parent_wfork__1__2__4__1__tstr);
+        module_parent_wfork__1__2__4__1__tstr[(signed long int)(return_value_strlen_11 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&module_parent_wfork__1__2__4__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", module_parent_wfork__1__2__4__1__tstr, (signed int)module_parent_wfork__1__2__4__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Sending buf to child:|%s| %d\n", buf, bytes);
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork$$1$$2$$4$$1$$tstr, (signed int)module_parent_wfork$$1$$2$$4$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork__1__2__4__1__tstr, (signed int)module_parent_wfork__1__2__4__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Sending buf to child:|%s| %d\n", buf, bytes);
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)module_parent_wfork$$1$$2$$4$$1$$tstr);
+        g_free((void *)module_parent_wfork__1__2__4__1__tstr);
       }
 
       module_parent_dp_write(dpipe, buf, (unsigned long int)bytes);
       if(!(Debug == 0))
       {
-        signed long int module_parent_wfork$$1$$2$$4$$2$$t;
-        struct timeval module_parent_wfork$$1$$2$$4$$2$$tv;
+        signed long int module_parent_wfork__1__2__4__2__t;
+        struct timeval module_parent_wfork__1__2__4__2__tv;
         char *tstr;
-        module_parent_wfork$$1$$2$$4$$2$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$12;
-        return_value_ctime$12=ctime(&module_parent_wfork$$1$$2$$4$$2$$t);
-        tstr=g_strdup(return_value_ctime$12);
-        unsigned long int return_value_strlen$13;
-        return_value_strlen$13=strlen(tstr);
-        tstr[(signed long int)(return_value_strlen$13 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&module_parent_wfork$$1$$2$$4$$2$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", tstr, (signed int)module_parent_wfork$$1$$2$$4$$2$$tv.tv_usec);
+        module_parent_wfork__1__2__4__2__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_12;
+        return_value_ctime_12=ctime(&module_parent_wfork__1__2__4__2__t);
+        tstr=g_strdup(return_value_ctime_12);
+        unsigned long int return_value_strlen_13;
+        return_value_strlen_13=strlen(tstr);
+        tstr[(signed long int)(return_value_strlen_13 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&module_parent_wfork__1__2__4__2__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", tstr, (signed int)module_parent_wfork__1__2__4__2__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Waiting for response from child...\n");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)module_parent_wfork$$1$$2$$4$$2$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)module_parent_wfork__1__2__4__2__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Waiting for response from child...\n");
           fprintf(CustomDebugFile, "\n");
@@ -10092,39 +10092,39 @@ unsigned long int module_parent_wfork(struct anonymous$13 dpipe, const char *mes
 
       while((_Bool)1)
       {
-        signed int return_value_module_parent_dp_read$14;
-        return_value_module_parent_dp_read$14=module_parent_dp_read(dpipe, msg, (unsigned long int)8);
-        read_bytes = (unsigned long int)return_value_module_parent_dp_read$14;
+        signed int return_value_module_parent_dp_read_14;
+        return_value_module_parent_dp_read_14=module_parent_dp_read(dpipe, msg, (unsigned long int)8);
+        read_bytes = (unsigned long int)return_value_module_parent_dp_read_14;
         if(read_bytes == 0ul)
         {
           if(!(Debug == 0))
           {
             signed long int t;
             struct timeval tv;
-            char *module_parent_wfork$$1$$2$$4$$3$$1$$1$$tstr;
+            char *module_parent_wfork__1__2__4__3__1__1__tstr;
             t=time((signed long int *)(void *)0);
-            char *return_value_ctime$15;
-            return_value_ctime$15=ctime(&t);
-            module_parent_wfork$$1$$2$$4$$3$$1$$1$$tstr=g_strdup(return_value_ctime$15);
-            unsigned long int return_value_strlen$16;
-            return_value_strlen$16=strlen(module_parent_wfork$$1$$2$$4$$3$$1$$1$$tstr);
-            module_parent_wfork$$1$$2$$4$$3$$1$$1$$tstr[(signed long int)(return_value_strlen$16 - (unsigned long int)1)] = (char)0;
+            char *return_value_ctime_15;
+            return_value_ctime_15=ctime(&t);
+            module_parent_wfork__1__2__4__3__1__1__tstr=g_strdup(return_value_ctime_15);
+            unsigned long int return_value_strlen_16;
+            return_value_strlen_16=strlen(module_parent_wfork__1__2__4__3__1__1__tstr);
+            module_parent_wfork__1__2__4__3__1__1__tstr[(signed long int)(return_value_strlen_16 - (unsigned long int)1)] = (char)0;
             gettimeofday(&tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", module_parent_wfork$$1$$2$$4$$3$$1$$1$$tstr, (signed int)tv.tv_usec);
+            fprintf(stderr, " %s [%d]", module_parent_wfork__1__2__4__3__1__1__tstr, (signed int)tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "parent: Read bytes 0, child stopped\n");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork$$1$$2$$4$$3$$1$$1$$tstr, (signed int)tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork__1__2__4__3__1__1__tstr, (signed int)tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "parent: Read bytes 0, child stopped\n");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)module_parent_wfork$$1$$2$$4$$3$$1$$1$$tstr);
+            g_free((void *)module_parent_wfork__1__2__4__3__1__1__tstr);
           }
 
           break;
@@ -10134,32 +10134,32 @@ unsigned long int module_parent_wfork(struct anonymous$13 dpipe, const char *mes
         {
           if(!(Debug == 0))
           {
-            signed long int module_parent_wfork$$1$$2$$4$$3$$2$$1$$t;
-            struct timeval module_parent_wfork$$1$$2$$4$$3$$2$$1$$tv;
-            char *module_parent_wfork$$1$$2$$4$$3$$2$$1$$tstr;
-            module_parent_wfork$$1$$2$$4$$3$$2$$1$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$17;
-            return_value_ctime$17=ctime(&module_parent_wfork$$1$$2$$4$$3$$2$$1$$t);
-            module_parent_wfork$$1$$2$$4$$3$$2$$1$$tstr=g_strdup(return_value_ctime$17);
-            unsigned long int return_value_strlen$18;
-            return_value_strlen$18=strlen(module_parent_wfork$$1$$2$$4$$3$$2$$1$$tstr);
-            module_parent_wfork$$1$$2$$4$$3$$2$$1$$tstr[(signed long int)(return_value_strlen$18 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&module_parent_wfork$$1$$2$$4$$3$$2$$1$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", module_parent_wfork$$1$$2$$4$$3$$2$$1$$tstr, (signed int)module_parent_wfork$$1$$2$$4$$3$$2$$1$$tv.tv_usec);
+            signed long int module_parent_wfork__1__2__4__3__2__1__t;
+            struct timeval module_parent_wfork__1__2__4__3__2__1__tv;
+            char *module_parent_wfork__1__2__4__3__2__1__tstr;
+            module_parent_wfork__1__2__4__3__2__1__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_17;
+            return_value_ctime_17=ctime(&module_parent_wfork__1__2__4__3__2__1__t);
+            module_parent_wfork__1__2__4__3__2__1__tstr=g_strdup(return_value_ctime_17);
+            unsigned long int return_value_strlen_18;
+            return_value_strlen_18=strlen(module_parent_wfork__1__2__4__3__2__1__tstr);
+            module_parent_wfork__1__2__4__3__2__1__tstr[(signed long int)(return_value_strlen_18 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&module_parent_wfork__1__2__4__3__2__1__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", module_parent_wfork__1__2__4__3__2__1__tstr, (signed int)module_parent_wfork__1__2__4__3__2__1__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "Ok, received report to continue...\n");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork$$1$$2$$4$$3$$2$$1$$tstr, (signed int)module_parent_wfork$$1$$2$$4$$3$$2$$1$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork__1__2__4__3__2__1__tstr, (signed int)module_parent_wfork__1__2__4__3__2__1__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "Ok, received report to continue...\n");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)module_parent_wfork$$1$$2$$4$$3$$2$$1$$tstr);
+            g_free((void *)module_parent_wfork__1__2__4__3__2__1__tstr);
           }
 
           break;
@@ -10172,32 +10172,32 @@ unsigned long int module_parent_wfork(struct anonymous$13 dpipe, const char *mes
     {
       if(!(Debug == 0))
       {
-        signed long int module_parent_wfork$$1$$2$$5$$1$$t;
-        struct timeval module_parent_wfork$$1$$2$$5$$1$$tv;
-        char *module_parent_wfork$$1$$2$$5$$1$$tstr;
-        module_parent_wfork$$1$$2$$5$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$19;
-        return_value_ctime$19=ctime(&module_parent_wfork$$1$$2$$5$$1$$t);
-        module_parent_wfork$$1$$2$$5$$1$$tstr=g_strdup(return_value_ctime$19);
-        unsigned long int return_value_strlen$20;
-        return_value_strlen$20=strlen(module_parent_wfork$$1$$2$$5$$1$$tstr);
-        module_parent_wfork$$1$$2$$5$$1$$tstr[(signed long int)(return_value_strlen$20 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&module_parent_wfork$$1$$2$$5$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", module_parent_wfork$$1$$2$$5$$1$$tstr, (signed int)module_parent_wfork$$1$$2$$5$$1$$tv.tv_usec);
+        signed long int module_parent_wfork__1__2__5__1__t;
+        struct timeval module_parent_wfork__1__2__5__1__tv;
+        char *module_parent_wfork__1__2__5__1__tstr;
+        module_parent_wfork__1__2__5__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_19;
+        return_value_ctime_19=ctime(&module_parent_wfork__1__2__5__1__t);
+        module_parent_wfork__1__2__5__1__tstr=g_strdup(return_value_ctime_19);
+        unsigned long int return_value_strlen_20;
+        return_value_strlen_20=strlen(module_parent_wfork__1__2__5__1__tstr);
+        module_parent_wfork__1__2__5__1__tstr[(signed long int)(return_value_strlen_20 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&module_parent_wfork__1__2__5__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", module_parent_wfork__1__2__5__1__tstr, (signed int)module_parent_wfork__1__2__5__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "End of data in parent, closing pipes");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork$$1$$2$$5$$1$$tstr, (signed int)module_parent_wfork$$1$$2$$5$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", module_parent_wfork__1__2__5__1__tstr, (signed int)module_parent_wfork__1__2__5__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "End of data in parent, closing pipes");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)module_parent_wfork$$1$$2$$5$$1$$tstr);
+        g_free((void *)module_parent_wfork__1__2__5__1__tstr);
       }
 
       module_parent_dp_close(dpipe);
@@ -10216,86 +10216,86 @@ unsigned long int module_pause(void)
   {
     signed long int t;
     struct timeval tv;
-    char *module_pause$$1$$1$$tstr;
+    char *module_pause__1__1__tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    module_pause$$1$$1$$tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(module_pause$$1$$1$$tstr);
-    module_pause$$1$$1$$tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    module_pause__1__1__tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(module_pause__1__1__tstr);
+    module_pause__1__1__tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", module_pause$$1$$1$$tstr, (signed int)tv.tv_usec);
+    fprintf(stderr, " %s [%d]", module_pause__1__1__tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "pause requested\n");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", module_pause$$1$$1$$tstr, (signed int)tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", module_pause__1__1__tstr, (signed int)tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "pause requested\n");
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)module_pause$$1$$1$$tstr);
+    g_free((void *)module_pause__1__1__tstr);
   }
 
   if(!(festival_speaking == 0))
   {
     if(!(Debug == 0))
     {
-      signed long int module_pause$$1$$2$$1$$t;
-      struct timeval module_pause$$1$$2$$1$$tv;
-      char *module_pause$$1$$2$$1$$tstr;
-      module_pause$$1$$2$$1$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$3;
-      return_value_ctime$3=ctime(&module_pause$$1$$2$$1$$t);
-      module_pause$$1$$2$$1$$tstr=g_strdup(return_value_ctime$3);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(module_pause$$1$$2$$1$$tstr);
-      module_pause$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&module_pause$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", module_pause$$1$$2$$1$$tstr, (signed int)module_pause$$1$$2$$1$$tv.tv_usec);
+      signed long int module_pause__1__2__1__t;
+      struct timeval module_pause__1__2__1__tv;
+      char *module_pause__1__2__1__tstr;
+      module_pause__1__2__1__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_3;
+      return_value_ctime_3=ctime(&module_pause__1__2__1__t);
+      module_pause__1__2__1__tstr=g_strdup(return_value_ctime_3);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(module_pause__1__2__1__tstr);
+      module_pause__1__2__1__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&module_pause__1__2__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", module_pause__1__2__1__tstr, (signed int)module_pause__1__2__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Sending request for pause to child\n");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", module_pause$$1$$2$$1$$tstr, (signed int)module_pause$$1$$2$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", module_pause__1__2__1__tstr, (signed int)module_pause__1__2__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Sending request for pause to child\n");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)module_pause$$1$$2$$1$$tstr);
+      g_free((void *)module_pause__1__2__1__tstr);
     }
 
     festival_pause_requested = 1;
     if(!(Debug == 0))
     {
-      signed long int module_pause$$1$$2$$2$$t;
-      struct timeval module_pause$$1$$2$$2$$tv;
+      signed long int module_pause__1__2__2__t;
+      struct timeval module_pause__1__2__2__tv;
       char *tstr;
-      module_pause$$1$$2$$2$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$5;
-      return_value_ctime$5=ctime(&module_pause$$1$$2$$2$$t);
-      tstr=g_strdup(return_value_ctime$5);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&module_pause$$1$$2$$2$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", tstr, (signed int)module_pause$$1$$2$$2$$tv.tv_usec);
+      module_pause__1__2__2__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_5;
+      return_value_ctime_5=ctime(&module_pause__1__2__2__t);
+      tstr=g_strdup(return_value_ctime_5);
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&module_pause__1__2__2__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", tstr, (signed int)module_pause__1__2__2__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Signalled to pause");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)module_pause$$1$$2$$2$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)module_pause__1__2__2__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Signalled to pause");
         fprintf(CustomDebugFile, "\n");
@@ -10328,20 +10328,20 @@ char * module_recode_to_iso(char *data, signed int bytes, char *language, char *
   if(language == ((char *)NULL))
     recoded=g_strdup(data);
 
-  signed int return_value_strcmp$3;
-  return_value_strcmp$3=strcmp(language, "cs");
-  char *return_value_g_convert_with_fallback$1;
-  char *return_value_g_convert_with_fallback$2;
-  if(return_value_strcmp$3 == 0)
+  signed int return_value_strcmp_3;
+  return_value_strcmp_3=strcmp(language, "cs");
+  char *return_value_g_convert_with_fallback_1;
+  char *return_value_g_convert_with_fallback_2;
+  if(return_value_strcmp_3 == 0)
   {
-    return_value_g_convert_with_fallback$1=g_convert_with_fallback(data, (signed long int)bytes, "ISO8859-2", "UTF-8", fallback, (unsigned long int *)(void *)0, (unsigned long int *)(void *)0, (struct _GError **)(void *)0);
-    recoded = (char *)return_value_g_convert_with_fallback$1;
+    return_value_g_convert_with_fallback_1=g_convert_with_fallback(data, (signed long int)bytes, "ISO8859-2", "UTF-8", fallback, (unsigned long int *)(void *)0, (unsigned long int *)(void *)0, (struct _GError **)(void *)0);
+    recoded = (char *)return_value_g_convert_with_fallback_1;
   }
 
   else
   {
-    return_value_g_convert_with_fallback$2=g_convert_with_fallback(data, (signed long int)bytes, "ISO8859-1", "UTF-8", fallback, (unsigned long int *)(void *)0, (unsigned long int *)(void *)0, (struct _GError **)(void *)0);
-    recoded = (char *)return_value_g_convert_with_fallback$2;
+    return_value_g_convert_with_fallback_2=g_convert_with_fallback(data, (signed long int)bytes, "ISO8859-1", "UTF-8", fallback, (unsigned long int *)(void *)0, (unsigned long int *)(void *)0, (struct _GError **)(void *)0);
+    recoded = (char *)return_value_g_convert_with_fallback_2;
   }
   if(recoded == ((char *)NULL))
   {
@@ -10351,12 +10351,12 @@ char * module_recode_to_iso(char *data, signed int bytes, char *language, char *
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$4;
-      return_value_ctime$4=ctime(&t);
-      tstr=g_strdup(return_value_ctime$4);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_4;
+      return_value_ctime_4=ctime(&t);
+      tstr=g_strdup(return_value_ctime_4);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -10419,12 +10419,12 @@ void module_report_index_mark(char *mark)
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -10462,16 +10462,16 @@ void module_send_asynchronous(char *text)
   pthread_mutex_lock(&module_stdout_mutex);
   if(!(Debug == 0))
   {
-    signed long int module_send_asynchronous$$1$$1$$t;
+    signed long int module_send_asynchronous__1__1__t;
     struct timeval tv;
     char *tstr;
-    module_send_asynchronous$$1$$1$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&module_send_asynchronous$$1$$1$$t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    module_send_asynchronous__1__1__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&module_send_asynchronous__1__1__t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -10495,31 +10495,31 @@ void module_send_asynchronous(char *text)
   if(!(Debug == 0))
   {
     signed long int t;
-    struct timeval module_send_asynchronous$$1$$2$$tv;
-    char *module_send_asynchronous$$1$$2$$tstr;
+    struct timeval module_send_asynchronous__1__2__tv;
+    char *module_send_asynchronous__1__2__tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$3;
-    return_value_ctime$3=ctime(&t);
-    module_send_asynchronous$$1$$2$$tstr=g_strdup(return_value_ctime$3);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(module_send_asynchronous$$1$$2$$tstr);
-    module_send_asynchronous$$1$$2$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&module_send_asynchronous$$1$$2$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", module_send_asynchronous$$1$$2$$tstr, (signed int)module_send_asynchronous$$1$$2$$tv.tv_usec);
+    char *return_value_ctime_3;
+    return_value_ctime_3=ctime(&t);
+    module_send_asynchronous__1__2__tstr=g_strdup(return_value_ctime_3);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(module_send_asynchronous__1__2__tstr);
+    module_send_asynchronous__1__2__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&module_send_asynchronous__1__2__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", module_send_asynchronous__1__2__tstr, (signed int)module_send_asynchronous__1__2__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "Printed");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", module_send_asynchronous$$1$$2$$tstr, (signed int)module_send_asynchronous$$1$$2$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", module_send_asynchronous__1__2__tstr, (signed int)module_send_asynchronous__1__2__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "Printed");
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)module_send_asynchronous$$1$$2$$tstr);
+    g_free((void *)module_send_asynchronous__1__2__tstr);
   }
 
   pthread_mutex_unlock(&module_stdout_mutex);
@@ -10530,19 +10530,19 @@ void module_send_asynchronous(char *text)
 void module_sigblockall(void)
 {
   signed int ret;
-  struct anonymous$12 all_signals;
+  struct anonymous_12 all_signals;
   if(!(Debug == 0))
   {
     signed long int t;
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -10562,37 +10562,37 @@ void module_sigblockall(void)
   }
 
   sigfillset(&all_signals);
-  ret=sigprocmask(0, &all_signals, (struct anonymous$12 *)(void *)0);
+  ret=sigprocmask(0, &all_signals, (struct anonymous_12 *)(void *)0);
   if(!(ret == 0))
   {
     if(!(Debug == 0))
     {
-      signed long int module_sigblockall$$1$$2$$t;
-      struct timeval module_sigblockall$$1$$2$$tv;
-      char *module_sigblockall$$1$$2$$tstr;
-      module_sigblockall$$1$$2$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$3;
-      return_value_ctime$3=ctime(&module_sigblockall$$1$$2$$t);
-      module_sigblockall$$1$$2$$tstr=g_strdup(return_value_ctime$3);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(module_sigblockall$$1$$2$$tstr);
-      module_sigblockall$$1$$2$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&module_sigblockall$$1$$2$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", module_sigblockall$$1$$2$$tstr, (signed int)module_sigblockall$$1$$2$$tv.tv_usec);
+      signed long int module_sigblockall__1__2__t;
+      struct timeval module_sigblockall__1__2__tv;
+      char *module_sigblockall__1__2__tstr;
+      module_sigblockall__1__2__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_3;
+      return_value_ctime_3=ctime(&module_sigblockall__1__2__t);
+      module_sigblockall__1__2__tstr=g_strdup(return_value_ctime_3);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(module_sigblockall__1__2__tstr);
+      module_sigblockall__1__2__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&module_sigblockall__1__2__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", module_sigblockall__1__2__tstr, (signed int)module_sigblockall__1__2__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Can't block signals, expect problems with terminating!\n");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", module_sigblockall$$1$$2$$tstr, (signed int)module_sigblockall$$1$$2$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", module_sigblockall__1__2__tstr, (signed int)module_sigblockall__1__2__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Can't block signals, expect problems with terminating!\n");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)module_sigblockall$$1$$2$$tstr);
+      g_free((void *)module_sigblockall__1__2__tstr);
     }
 
   }
@@ -10601,41 +10601,41 @@ void module_sigblockall(void)
 
 // module_sigblockusr
 // file module_utils.c line 789
-void module_sigblockusr(struct anonymous$12 *some_signals)
+void module_sigblockusr(struct anonymous_12 *some_signals)
 {
   signed int ret;
   if(!(Debug == 0))
   {
-    signed long int module_sigblockusr$$1$$1$$t;
-    struct timeval module_sigblockusr$$1$$1$$tv;
-    char *module_sigblockusr$$1$$1$$tstr;
-    module_sigblockusr$$1$$1$$t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&module_sigblockusr$$1$$1$$t);
-    module_sigblockusr$$1$$1$$tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(module_sigblockusr$$1$$1$$tstr);
-    module_sigblockusr$$1$$1$$tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
-    gettimeofday(&module_sigblockusr$$1$$1$$tv, (struct timezone *)(void *)0);
-    fprintf(stderr, " %s [%d]", module_sigblockusr$$1$$1$$tstr, (signed int)module_sigblockusr$$1$$1$$tv.tv_usec);
+    signed long int module_sigblockusr__1__1__t;
+    struct timeval module_sigblockusr__1__1__tv;
+    char *module_sigblockusr__1__1__tstr;
+    module_sigblockusr__1__1__t=time((signed long int *)(void *)0);
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&module_sigblockusr__1__1__t);
+    module_sigblockusr__1__1__tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(module_sigblockusr__1__1__tstr);
+    module_sigblockusr__1__1__tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
+    gettimeofday(&module_sigblockusr__1__1__tv, (struct timezone *)(void *)0);
+    fprintf(stderr, " %s [%d]", module_sigblockusr__1__1__tstr, (signed int)module_sigblockusr__1__1__tv.tv_usec);
     fprintf(stderr, ": ");
     fprintf(stderr, "Blocking user signal");
     fprintf(stderr, "\n");
     fflush(stderr);
     if(Debug == 2 || Debug == 3)
     {
-      fprintf(CustomDebugFile, " %s [%d]", module_sigblockusr$$1$$1$$tstr, (signed int)module_sigblockusr$$1$$1$$tv.tv_usec);
+      fprintf(CustomDebugFile, " %s [%d]", module_sigblockusr__1__1__tstr, (signed int)module_sigblockusr__1__1__tv.tv_usec);
       fprintf(CustomDebugFile, ": ");
       fprintf(CustomDebugFile, "Blocking user signal");
       fprintf(CustomDebugFile, "\n");
       fflush(CustomDebugFile);
     }
 
-    g_free((void *)module_sigblockusr$$1$$1$$tstr);
+    g_free((void *)module_sigblockusr__1__1__tstr);
   }
 
   sigaddset(some_signals, 10);
-  ret=sigprocmask(2, some_signals, (struct anonymous$12 *)(void *)0);
+  ret=sigprocmask(2, some_signals, (struct anonymous_12 *)(void *)0);
   if(!(ret == 0))
   {
     if(!(Debug == 0))
@@ -10644,12 +10644,12 @@ void module_sigblockusr(struct anonymous$12 *some_signals)
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$3;
-      return_value_ctime$3=ctime(&t);
-      tstr=g_strdup(return_value_ctime$3);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_3;
+      return_value_ctime_3=ctime(&t);
+      tstr=g_strdup(return_value_ctime_3);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -10674,7 +10674,7 @@ void module_sigblockusr(struct anonymous$12 *some_signals)
 
 // module_sigunblockusr
 // file module_utils.c line 776
-void module_sigunblockusr(struct anonymous$12 *some_signals)
+void module_sigunblockusr(struct anonymous_12 *some_signals)
 {
   signed int ret;
   if(!(Debug == 0))
@@ -10683,12 +10683,12 @@ void module_sigunblockusr(struct anonymous$12 *some_signals)
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -10708,37 +10708,37 @@ void module_sigunblockusr(struct anonymous$12 *some_signals)
   }
 
   sigdelset(some_signals, 10);
-  ret=sigprocmask(2, some_signals, (struct anonymous$12 *)(void *)0);
+  ret=sigprocmask(2, some_signals, (struct anonymous_12 *)(void *)0);
   if(!(ret == 0))
   {
     if(!(Debug == 0))
     {
-      signed long int module_sigunblockusr$$1$$2$$t;
-      struct timeval module_sigunblockusr$$1$$2$$tv;
-      char *module_sigunblockusr$$1$$2$$tstr;
-      module_sigunblockusr$$1$$2$$t=time((signed long int *)(void *)0);
-      char *return_value_ctime$3;
-      return_value_ctime$3=ctime(&module_sigunblockusr$$1$$2$$t);
-      module_sigunblockusr$$1$$2$$tstr=g_strdup(return_value_ctime$3);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(module_sigunblockusr$$1$$2$$tstr);
-      module_sigunblockusr$$1$$2$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&module_sigunblockusr$$1$$2$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", module_sigunblockusr$$1$$2$$tstr, (signed int)module_sigunblockusr$$1$$2$$tv.tv_usec);
+      signed long int module_sigunblockusr__1__2__t;
+      struct timeval module_sigunblockusr__1__2__tv;
+      char *module_sigunblockusr__1__2__tstr;
+      module_sigunblockusr__1__2__t=time((signed long int *)(void *)0);
+      char *return_value_ctime_3;
+      return_value_ctime_3=ctime(&module_sigunblockusr__1__2__t);
+      module_sigunblockusr__1__2__tstr=g_strdup(return_value_ctime_3);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(module_sigunblockusr__1__2__tstr);
+      module_sigunblockusr__1__2__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&module_sigunblockusr__1__2__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", module_sigunblockusr__1__2__tstr, (signed int)module_sigunblockusr__1__2__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Can't block signal set, expect problems with terminating!\n");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", module_sigunblockusr$$1$$2$$tstr, (signed int)module_sigunblockusr$$1$$2$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", module_sigunblockusr__1__2__tstr, (signed int)module_sigunblockusr__1__2__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Can't block signal set, expect problems with terminating!\n");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)module_sigunblockusr$$1$$2$$tstr);
+      g_free((void *)module_sigunblockusr__1__2__tstr);
     }
 
   }
@@ -10747,7 +10747,7 @@ void module_sigunblockusr(struct anonymous$12 *some_signals)
 
 // module_speak
 // file festival.c line 322
-signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 msgtype)
+signed int module_speak(char *data, unsigned long int bytes, enum anonymous_7 msgtype)
 {
   signed int ret;
   if(!(Debug == 0))
@@ -10756,12 +10756,12 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -10780,13 +10780,13 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
     g_free((void *)tstr);
   }
 
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcmp$11;
-  _Bool tmp_if_expr$17;
-  signed int return_value_strcmp$16;
-  _Bool tmp_if_expr$19;
-  signed int return_value_strcmp$18;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcmp_11;
+  _Bool tmp_if_expr_17;
+  signed int return_value_strcmp_16;
+  _Bool tmp_if_expr_19;
+  signed int return_value_strcmp_18;
   if(data == ((char *)NULL))
     return -1;
 
@@ -10795,32 +10795,32 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
     {
       if(!(Debug == 0))
       {
-        signed long int module_speak$$1$$2$$1$$t;
-        struct timeval module_speak$$1$$2$$1$$tv;
-        char *module_speak$$1$$2$$1$$tstr;
-        module_speak$$1$$2$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$3;
-        return_value_ctime$3=ctime(&module_speak$$1$$2$$1$$t);
-        module_speak$$1$$2$$1$$tstr=g_strdup(return_value_ctime$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(module_speak$$1$$2$$1$$tstr);
-        module_speak$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&module_speak$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", module_speak$$1$$2$$1$$tstr, (signed int)module_speak$$1$$2$$1$$tv.tv_usec);
+        signed long int module_speak__1__2__1__t;
+        struct timeval module_speak__1__2__1__tv;
+        char *module_speak__1__2__1__tstr;
+        module_speak__1__2__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_3;
+        return_value_ctime_3=ctime(&module_speak__1__2__1__t);
+        module_speak__1__2__1__tstr=g_strdup(return_value_ctime_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(module_speak__1__2__1__tstr);
+        module_speak__1__2__1__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&module_speak__1__2__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", module_speak__1__2__1__tstr, (signed int)module_speak__1__2__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "Speaking when requested to write\n");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", module_speak$$1$$2$$1$$tstr, (signed int)module_speak$$1$$2$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", module_speak__1__2__1__tstr, (signed int)module_speak__1__2__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "Speaking when requested to write\n");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)module_speak$$1$$2$$1$$tstr);
+        g_free((void *)module_speak__1__2__1__tstr);
       }
 
       return -1;
@@ -10831,7 +10831,7 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
       festival_stop_request = 0;
       festival_message_type = msgtype;
       if((signed int)msg_settings.spelling_mode == SPD_SPELL_ON && (signed int)msgtype == SPD_MSGTYPE_TEXT)
-        festival_message_type = (enum anonymous$7)SPD_MSGTYPE_SPELL;
+        festival_message_type = (enum anonymous_7)SPD_MSGTYPE_SPELL;
 
       if((signed int)FestivalComType == FCT_SOCKET)
       {
@@ -10840,41 +10840,41 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
 
         if(!(Debug == 0))
         {
-          signed long int module_speak$$1$$3$$1$$1$$t;
-          struct timeval module_speak$$1$$3$$1$$1$$tv;
-          char *module_speak$$1$$3$$1$$1$$tstr;
-          module_speak$$1$$3$$1$$1$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$5;
-          return_value_ctime$5=ctime(&module_speak$$1$$3$$1$$1$$t);
-          module_speak$$1$$3$$1$$1$$tstr=g_strdup(return_value_ctime$5);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(module_speak$$1$$3$$1$$1$$tstr);
-          module_speak$$1$$3$$1$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&module_speak$$1$$3$$1$$1$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", module_speak$$1$$3$$1$$1$$tstr, (signed int)module_speak$$1$$3$$1$$1$$tv.tv_usec);
+          signed long int module_speak__1__3__1__1__t;
+          struct timeval module_speak__1__3__1__1__tv;
+          char *module_speak__1__3__1__1__tstr;
+          module_speak__1__3__1__1__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_5;
+          return_value_ctime_5=ctime(&module_speak__1__3__1__1__t);
+          module_speak__1__3__1__1__tstr=g_strdup(return_value_ctime_5);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(module_speak__1__3__1__1__tstr);
+          module_speak__1__3__1__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&module_speak__1__3__1__1__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", module_speak__1__3__1__1__tstr, (signed int)module_speak__1__3__1__1__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Recovering after a connection loss");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", module_speak$$1$$3$$1$$1$$tstr, (signed int)module_speak$$1$$3$$1$$1$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", module_speak__1__3__1__1__tstr, (signed int)module_speak__1__3__1__1__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Recovering after a connection loss");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)module_speak$$1$$3$$1$$1$$tstr);
+          g_free((void *)module_speak__1__3__1__1__tstr);
         }
 
         msg_settings_old.rate = -101;
         msg_settings_old.pitch = -101;
         msg_settings_old.volume = -101;
-        msg_settings_old.punctuation_mode = (enum anonymous$8)-1;
-        msg_settings_old.spelling_mode = (enum anonymous$9)-1;
-        msg_settings_old.cap_let_recogn = (enum anonymous$10)-1;
-        msg_settings_old.voice_type = (enum anonymous$11)-1;
+        msg_settings_old.punctuation_mode = (enum anonymous_8)-1;
+        msg_settings_old.spelling_mode = (enum anonymous_9)-1;
+        msg_settings_old.cap_let_recogn = (enum anonymous_10)-1;
+        msg_settings_old.voice_type = (enum anonymous_11)-1;
         msg_settings_old.voice.name = (char *)(void *)0;
         msg_settings_old.voice.language = (char *)(void *)0;
         festival_info=festivalOpen(festival_info);
@@ -10885,32 +10885,32 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
         {
           if(!(Debug == 0))
           {
-            signed long int module_speak$$1$$3$$1$$2$$1$$t;
-            struct timeval module_speak$$1$$3$$1$$2$$1$$tv;
-            char *module_speak$$1$$3$$1$$2$$1$$tstr;
-            module_speak$$1$$3$$1$$2$$1$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$7;
-            return_value_ctime$7=ctime(&module_speak$$1$$3$$1$$2$$1$$t);
-            module_speak$$1$$3$$1$$2$$1$$tstr=g_strdup(return_value_ctime$7);
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen(module_speak$$1$$3$$1$$2$$1$$tstr);
-            module_speak$$1$$3$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$8 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&module_speak$$1$$3$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", module_speak$$1$$3$$1$$2$$1$$tstr, (signed int)module_speak$$1$$3$$1$$2$$1$$tv.tv_usec);
+            signed long int module_speak__1__3__1__2__1__t;
+            struct timeval module_speak__1__3__1__2__1__tv;
+            char *module_speak__1__3__1__2__1__tstr;
+            module_speak__1__3__1__2__1__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_7;
+            return_value_ctime_7=ctime(&module_speak__1__3__1__2__1__t);
+            module_speak__1__3__1__2__1__tstr=g_strdup(return_value_ctime_7);
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen(module_speak__1__3__1__2__1__tstr);
+            module_speak__1__3__1__2__1__tstr[(signed long int)(return_value_strlen_8 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&module_speak__1__3__1__2__1__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", module_speak__1__3__1__2__1__tstr, (signed int)module_speak__1__3__1__2__1__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "Can't recover. Not possible to open connection to Festival.");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", module_speak$$1$$3$$1$$2$$1$$tstr, (signed int)module_speak$$1$$3$$1$$2$$1$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", module_speak__1__3__1__2__1__tstr, (signed int)module_speak__1__3__1__2__1__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "Can't recover. Not possible to open connection to Festival.");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)module_speak$$1$$3$$1$$2$$1$$tstr);
+            g_free((void *)module_speak__1__3__1__2__1__tstr);
           }
 
           return -1;
@@ -10928,102 +10928,102 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
       __CPROVER_DUMP_L14:
         ;
         if(!(msg_settings.voice_type == msg_settings_old.voice_type))
-          tmp_if_expr$13 = (_Bool)1;
+          tmp_if_expr_13 = (_Bool)1;
 
         else
         {
           if(!(msg_settings.voice.language == ((char *)NULL)) && !(msg_settings_old.voice.language == ((char *)NULL)))
           {
-            return_value_strcmp$11=strcmp(msg_settings.voice.language, msg_settings_old.voice.language);
-            tmp_if_expr$12 = return_value_strcmp$11 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_11=strcmp(msg_settings.voice.language, msg_settings_old.voice.language);
+            tmp_if_expr_12 = return_value_strcmp_11 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$12 = (_Bool)0;
-          tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_12 = (_Bool)0;
+          tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$13)
+        if(tmp_if_expr_13)
         {
           if(!(Debug == 0))
           {
-            signed long int module_speak$$1$$4$$1$$t;
-            struct timeval module_speak$$1$$4$$1$$tv;
-            char *module_speak$$1$$4$$1$$tstr;
-            module_speak$$1$$4$$1$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$9;
-            return_value_ctime$9=ctime(&module_speak$$1$$4$$1$$t);
-            module_speak$$1$$4$$1$$tstr=g_strdup(return_value_ctime$9);
-            unsigned long int return_value_strlen$10;
-            return_value_strlen$10=strlen(module_speak$$1$$4$$1$$tstr);
-            module_speak$$1$$4$$1$$tstr[(signed long int)(return_value_strlen$10 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&module_speak$$1$$4$$1$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", module_speak$$1$$4$$1$$tstr, (signed int)module_speak$$1$$4$$1$$tv.tv_usec);
+            signed long int module_speak__1__4__1__t;
+            struct timeval module_speak__1__4__1__tv;
+            char *module_speak__1__4__1__tstr;
+            module_speak__1__4__1__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_9;
+            return_value_ctime_9=ctime(&module_speak__1__4__1__t);
+            module_speak__1__4__1__tstr=g_strdup(return_value_ctime_9);
+            unsigned long int return_value_strlen_10;
+            return_value_strlen_10=strlen(module_speak__1__4__1__tstr);
+            module_speak__1__4__1__tstr[(signed long int)(return_value_strlen_10 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&module_speak__1__4__1__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", module_speak__1__4__1__tstr, (signed int)module_speak__1__4__1__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "Cleaning old settings table");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", module_speak$$1$$4$$1$$tstr, (signed int)module_speak$$1$$4$$1$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", module_speak__1__4__1__tstr, (signed int)module_speak__1__4__1__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "Cleaning old settings table");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)module_speak$$1$$4$$1$$tstr);
+            g_free((void *)module_speak__1__4__1__tstr);
           }
 
           msg_settings_old.rate = -101;
           msg_settings_old.pitch = -101;
           msg_settings_old.volume = -101;
-          msg_settings_old.punctuation_mode = (enum anonymous$8)-1;
-          msg_settings_old.spelling_mode = (enum anonymous$9)-1;
-          msg_settings_old.cap_let_recogn = (enum anonymous$10)-1;
-          msg_settings_old.voice_type = (enum anonymous$11)-1;
+          msg_settings_old.punctuation_mode = (enum anonymous_8)-1;
+          msg_settings_old.spelling_mode = (enum anonymous_9)-1;
+          msg_settings_old.cap_let_recogn = (enum anonymous_10)-1;
+          msg_settings_old.voice_type = (enum anonymous_11)-1;
           msg_settings_old.voice.name = (char *)(void *)0;
           msg_settings_old.voice.language = (char *)(void *)0;
         }
 
         if(!(Debug == 0))
         {
-          signed long int module_speak$$1$$5$$t;
-          struct timeval module_speak$$1$$5$$tv;
-          char *module_speak$$1$$5$$tstr;
-          module_speak$$1$$5$$t=time((signed long int *)(void *)0);
-          char *return_value_ctime$14;
-          return_value_ctime$14=ctime(&module_speak$$1$$5$$t);
-          module_speak$$1$$5$$tstr=g_strdup(return_value_ctime$14);
-          unsigned long int return_value_strlen$15;
-          return_value_strlen$15=strlen(module_speak$$1$$5$$tstr);
-          module_speak$$1$$5$$tstr[(signed long int)(return_value_strlen$15 - (unsigned long int)1)] = (char)0;
-          gettimeofday(&module_speak$$1$$5$$tv, (struct timezone *)(void *)0);
-          fprintf(stderr, " %s [%d]", module_speak$$1$$5$$tstr, (signed int)module_speak$$1$$5$$tv.tv_usec);
+          signed long int module_speak__1__5__t;
+          struct timeval module_speak__1__5__tv;
+          char *module_speak__1__5__tstr;
+          module_speak__1__5__t=time((signed long int *)(void *)0);
+          char *return_value_ctime_14;
+          return_value_ctime_14=ctime(&module_speak__1__5__t);
+          module_speak__1__5__tstr=g_strdup(return_value_ctime_14);
+          unsigned long int return_value_strlen_15;
+          return_value_strlen_15=strlen(module_speak__1__5__tstr);
+          module_speak__1__5__tstr[(signed long int)(return_value_strlen_15 - (unsigned long int)1)] = (char)0;
+          gettimeofday(&module_speak__1__5__tv, (struct timezone *)(void *)0);
+          fprintf(stderr, " %s [%d]", module_speak__1__5__tstr, (signed int)module_speak__1__5__tv.tv_usec);
           fprintf(stderr, ": ");
           fprintf(stderr, "Updating parameters");
           fprintf(stderr, "\n");
           fflush(stderr);
           if(Debug == 2 || Debug == 3)
           {
-            fprintf(CustomDebugFile, " %s [%d]", module_speak$$1$$5$$tstr, (signed int)module_speak$$1$$5$$tv.tv_usec);
+            fprintf(CustomDebugFile, " %s [%d]", module_speak__1__5__tstr, (signed int)module_speak__1__5__tv.tv_usec);
             fprintf(CustomDebugFile, ": ");
             fprintf(CustomDebugFile, "Updating parameters");
             fprintf(CustomDebugFile, "\n");
             fflush(CustomDebugFile);
           }
 
-          g_free((void *)module_speak$$1$$5$$tstr);
+          g_free((void *)module_speak__1__5__tstr);
         }
 
         if(msg_settings.voice.language == ((char *)NULL) || msg_settings_old.voice.language == ((char *)NULL))
-          tmp_if_expr$17 = (_Bool)1;
+          tmp_if_expr_17 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$16=strcmp(msg_settings_old.voice.language, msg_settings.voice.language);
-          tmp_if_expr$17 = return_value_strcmp$16 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_16=strcmp(msg_settings_old.voice.language, msg_settings.voice.language);
+          tmp_if_expr_17 = return_value_strcmp_16 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$17)
+        if(tmp_if_expr_17)
         {
           if(!(msg_settings_old.voice.language == ((char *)NULL)))
           {
@@ -11046,14 +11046,14 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
         }
 
         if(msg_settings.voice.name == ((char *)NULL) || msg_settings_old.voice.name == ((char *)NULL))
-          tmp_if_expr$19 = (_Bool)1;
+          tmp_if_expr_19 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$18=strcmp(msg_settings_old.voice.name, msg_settings.voice.name);
-          tmp_if_expr$19 = return_value_strcmp$18 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_18=strcmp(msg_settings_old.voice.name, msg_settings.voice.name);
+          tmp_if_expr_19 = return_value_strcmp_18 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$19)
+        if(tmp_if_expr_19)
         {
           if(!(msg_settings_old.voice.name == ((char *)NULL)))
           {
@@ -11103,32 +11103,32 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
         {
           if(!(Debug == 0))
           {
-            signed long int module_speak$$1$$14$$1$$t;
-            struct timeval module_speak$$1$$14$$1$$tv;
-            char *module_speak$$1$$14$$1$$tstr;
-            module_speak$$1$$14$$1$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$20;
-            return_value_ctime$20=ctime(&module_speak$$1$$14$$1$$t);
-            module_speak$$1$$14$$1$$tstr=g_strdup(return_value_ctime$20);
-            unsigned long int return_value_strlen$21;
-            return_value_strlen$21=strlen(module_speak$$1$$14$$1$$tstr);
-            module_speak$$1$$14$$1$$tstr[(signed long int)(return_value_strlen$21 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&module_speak$$1$$14$$1$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", module_speak$$1$$14$$1$$tstr, (signed int)module_speak$$1$$14$$1$$tv.tv_usec);
+            signed long int module_speak__1__14__1__t;
+            struct timeval module_speak__1__14__1__tv;
+            char *module_speak__1__14__1__tstr;
+            module_speak__1__14__1__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_20;
+            return_value_ctime_20=ctime(&module_speak__1__14__1__t);
+            module_speak__1__14__1__tstr=g_strdup(return_value_ctime_20);
+            unsigned long int return_value_strlen_21;
+            return_value_strlen_21=strlen(module_speak__1__14__1__tstr);
+            module_speak__1__14__1__tstr[(signed long int)(return_value_strlen_21 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&module_speak__1__14__1__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", module_speak__1__14__1__tstr, (signed int)module_speak__1__14__1__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "ERROR: Festival connection not working!");
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", module_speak$$1$$14$$1$$tstr, (signed int)module_speak$$1$$14$$1$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", module_speak__1__14__1__tstr, (signed int)module_speak__1__14__1__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "ERROR: Festival connection not working!");
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)module_speak$$1$$14$$1$$tstr);
+            g_free((void *)module_speak__1__14__1__tstr);
           }
 
           return -1;
@@ -11138,32 +11138,32 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
         {
           if(!(Debug == 0))
           {
-            signed long int module_speak$$1$$15$$t;
-            struct timeval module_speak$$1$$15$$tv;
-            char *module_speak$$1$$15$$tstr;
-            module_speak$$1$$15$$t=time((signed long int *)(void *)0);
-            char *return_value_ctime$22;
-            return_value_ctime$22=ctime(&module_speak$$1$$15$$t);
-            module_speak$$1$$15$$tstr=g_strdup(return_value_ctime$22);
-            unsigned long int return_value_strlen$23;
-            return_value_strlen$23=strlen(module_speak$$1$$15$$tstr);
-            module_speak$$1$$15$$tstr[(signed long int)(return_value_strlen$23 - (unsigned long int)1)] = (char)0;
-            gettimeofday(&module_speak$$1$$15$$tv, (struct timezone *)(void *)0);
-            fprintf(stderr, " %s [%d]", module_speak$$1$$15$$tstr, (signed int)module_speak$$1$$15$$tv.tv_usec);
+            signed long int module_speak__1__15__t;
+            struct timeval module_speak__1__15__tv;
+            char *module_speak__1__15__tstr;
+            module_speak__1__15__t=time((signed long int *)(void *)0);
+            char *return_value_ctime_22;
+            return_value_ctime_22=ctime(&module_speak__1__15__t);
+            module_speak__1__15__tstr=g_strdup(return_value_ctime_22);
+            unsigned long int return_value_strlen_23;
+            return_value_strlen_23=strlen(module_speak__1__15__tstr);
+            module_speak__1__15__tstr[(signed long int)(return_value_strlen_23 - (unsigned long int)1)] = (char)0;
+            gettimeofday(&module_speak__1__15__tv, (struct timezone *)(void *)0);
+            fprintf(stderr, " %s [%d]", module_speak__1__15__tstr, (signed int)module_speak__1__15__tv.tv_usec);
             fprintf(stderr, ": ");
             fprintf(stderr, "Requested data: |%s| \n", data);
             fprintf(stderr, "\n");
             fflush(stderr);
             if(Debug == 2 || Debug == 3)
             {
-              fprintf(CustomDebugFile, " %s [%d]", module_speak$$1$$15$$tstr, (signed int)module_speak$$1$$15$$tv.tv_usec);
+              fprintf(CustomDebugFile, " %s [%d]", module_speak__1__15__tstr, (signed int)module_speak__1__15__tv.tv_usec);
               fprintf(CustomDebugFile, ": ");
               fprintf(CustomDebugFile, "Requested data: |%s| \n", data);
               fprintf(CustomDebugFile, "\n");
               fflush(CustomDebugFile);
             }
 
-            g_free((void *)module_speak$$1$$15$$tstr);
+            g_free((void *)module_speak__1__15__tstr);
           }
 
           g_free((void *)*festival_message);
@@ -11172,32 +11172,32 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
           {
             if(!(Debug == 0))
             {
-              signed long int module_speak$$1$$16$$1$$t;
-              struct timeval module_speak$$1$$16$$1$$tv;
-              char *module_speak$$1$$16$$1$$tstr;
-              module_speak$$1$$16$$1$$t=time((signed long int *)(void *)0);
-              char *return_value_ctime$24;
-              return_value_ctime$24=ctime(&module_speak$$1$$16$$1$$t);
-              module_speak$$1$$16$$1$$tstr=g_strdup(return_value_ctime$24);
-              unsigned long int return_value_strlen$25;
-              return_value_strlen$25=strlen(module_speak$$1$$16$$1$$tstr);
-              module_speak$$1$$16$$1$$tstr[(signed long int)(return_value_strlen$25 - (unsigned long int)1)] = (char)0;
-              gettimeofday(&module_speak$$1$$16$$1$$tv, (struct timezone *)(void *)0);
-              fprintf(stderr, " %s [%d]", module_speak$$1$$16$$1$$tstr, (signed int)module_speak$$1$$16$$1$$tv.tv_usec);
+              signed long int module_speak__1__16__1__t;
+              struct timeval module_speak__1__16__1__tv;
+              char *module_speak__1__16__1__tstr;
+              module_speak__1__16__1__t=time((signed long int *)(void *)0);
+              char *return_value_ctime_24;
+              return_value_ctime_24=ctime(&module_speak__1__16__1__t);
+              module_speak__1__16__1__tstr=g_strdup(return_value_ctime_24);
+              unsigned long int return_value_strlen_25;
+              return_value_strlen_25=strlen(module_speak__1__16__1__tstr);
+              module_speak__1__16__1__tstr[(signed long int)(return_value_strlen_25 - (unsigned long int)1)] = (char)0;
+              gettimeofday(&module_speak__1__16__1__tv, (struct timezone *)(void *)0);
+              fprintf(stderr, " %s [%d]", module_speak__1__16__1__tstr, (signed int)module_speak__1__16__1__tv.tv_usec);
               fprintf(stderr, ": ");
               fprintf(stderr, "Error: Copying data unsuccesful.");
               fprintf(stderr, "\n");
               fflush(stderr);
               if(Debug == 2 || Debug == 3)
               {
-                fprintf(CustomDebugFile, " %s [%d]", module_speak$$1$$16$$1$$tstr, (signed int)module_speak$$1$$16$$1$$tv.tv_usec);
+                fprintf(CustomDebugFile, " %s [%d]", module_speak__1__16__1__tstr, (signed int)module_speak__1__16__1__tv.tv_usec);
                 fprintf(CustomDebugFile, ": ");
                 fprintf(CustomDebugFile, "Error: Copying data unsuccesful.");
                 fprintf(CustomDebugFile, "\n");
                 fflush(CustomDebugFile);
               }
 
-              g_free((void *)module_speak$$1$$16$$1$$tstr);
+              g_free((void *)module_speak__1__16__1__tstr);
             }
 
             return -1;
@@ -11209,32 +11209,32 @@ signed int module_speak(char *data, unsigned long int bytes, enum anonymous$7 ms
             sem_post(&festival_semaphore);
             if(!(Debug == 0))
             {
-              signed long int module_speak$$1$$17$$t;
-              struct timeval module_speak$$1$$17$$tv;
-              char *module_speak$$1$$17$$tstr;
-              module_speak$$1$$17$$t=time((signed long int *)(void *)0);
-              char *return_value_ctime$26;
-              return_value_ctime$26=ctime(&module_speak$$1$$17$$t);
-              module_speak$$1$$17$$tstr=g_strdup(return_value_ctime$26);
-              unsigned long int return_value_strlen$27;
-              return_value_strlen$27=strlen(module_speak$$1$$17$$tstr);
-              module_speak$$1$$17$$tstr[(signed long int)(return_value_strlen$27 - (unsigned long int)1)] = (char)0;
-              gettimeofday(&module_speak$$1$$17$$tv, (struct timezone *)(void *)0);
-              fprintf(stderr, " %s [%d]", module_speak$$1$$17$$tstr, (signed int)module_speak$$1$$17$$tv.tv_usec);
+              signed long int module_speak__1__17__t;
+              struct timeval module_speak__1__17__tv;
+              char *module_speak__1__17__tstr;
+              module_speak__1__17__t=time((signed long int *)(void *)0);
+              char *return_value_ctime_26;
+              return_value_ctime_26=ctime(&module_speak__1__17__t);
+              module_speak__1__17__tstr=g_strdup(return_value_ctime_26);
+              unsigned long int return_value_strlen_27;
+              return_value_strlen_27=strlen(module_speak__1__17__tstr);
+              module_speak__1__17__tstr[(signed long int)(return_value_strlen_27 - (unsigned long int)1)] = (char)0;
+              gettimeofday(&module_speak__1__17__tv, (struct timezone *)(void *)0);
+              fprintf(stderr, " %s [%d]", module_speak__1__17__tstr, (signed int)module_speak__1__17__tv.tv_usec);
               fprintf(stderr, ": ");
               fprintf(stderr, "Festival: leaving write() normaly\n\r");
               fprintf(stderr, "\n");
               fflush(stderr);
               if(Debug == 2 || Debug == 3)
               {
-                fprintf(CustomDebugFile, " %s [%d]", module_speak$$1$$17$$tstr, (signed int)module_speak$$1$$17$$tv.tv_usec);
+                fprintf(CustomDebugFile, " %s [%d]", module_speak__1__17__tstr, (signed int)module_speak__1__17__tv.tv_usec);
                 fprintf(CustomDebugFile, ": ");
                 fprintf(CustomDebugFile, "Festival: leaving write() normaly\n\r");
                 fprintf(CustomDebugFile, "\n");
                 fflush(CustomDebugFile);
               }
 
-              g_free((void *)module_speak$$1$$17$$tstr);
+              g_free((void *)module_speak__1__17__tstr);
             }
 
             return (signed int)bytes;
@@ -11254,12 +11254,12 @@ signed int module_stop(void)
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -11284,32 +11284,32 @@ signed int module_stop(void)
     {
       if(!(Debug == 0))
       {
-        signed long int module_stop$$1$$2$$2$$1$$t;
-        struct timeval module_stop$$1$$2$$2$$1$$tv;
-        char *module_stop$$1$$2$$2$$1$$tstr;
-        module_stop$$1$$2$$2$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$5;
-        return_value_ctime$5=ctime(&module_stop$$1$$2$$2$$1$$t);
-        module_stop$$1$$2$$2$$1$$tstr=g_strdup(return_value_ctime$5);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(module_stop$$1$$2$$2$$1$$tstr);
-        module_stop$$1$$2$$2$$1$$tstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&module_stop$$1$$2$$2$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", module_stop$$1$$2$$2$$1$$tstr, (signed int)module_stop$$1$$2$$2$$1$$tv.tv_usec);
+        signed long int module_stop__1__2__2__1__t;
+        struct timeval module_stop__1__2__2__1__tv;
+        char *module_stop__1__2__2__1__tstr;
+        module_stop__1__2__2__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_5;
+        return_value_ctime_5=ctime(&module_stop__1__2__2__1__t);
+        module_stop__1__2__2__1__tstr=g_strdup(return_value_ctime_5);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(module_stop__1__2__2__1__tstr);
+        module_stop__1__2__2__1__tstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&module_stop__1__2__2__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", module_stop__1__2__2__1__tstr, (signed int)module_stop__1__2__2__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "festival local stopped by sending SIGINT");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", module_stop$$1$$2$$2$$1$$tstr, (signed int)module_stop$$1$$2$$2$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", module_stop__1__2__2__1__tstr, (signed int)module_stop__1__2__2__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "festival local stopped by sending SIGINT");
           fprintf(CustomDebugFile, "\n");
           fflush(CustomDebugFile);
         }
 
-        g_free((void *)module_stop$$1$$2$$2$$1$$tstr);
+        g_free((void *)module_stop__1__2__2__1__tstr);
       }
 
     }
@@ -11318,7 +11318,7 @@ signed int module_stop(void)
     {
       pthread_mutex_lock(&sound_output_mutex);
       festival_stop = 1;
-      if(!(module_audio_id == ((struct anonymous$2 *)NULL)) && !(festival_speaking == 0))
+      if(!(module_audio_id == ((struct anonymous_2 *)NULL)) && !(festival_speaking == 0))
         spd_audio_stop(module_audio_id);
 
       pthread_mutex_unlock(&sound_output_mutex);
@@ -11335,7 +11335,7 @@ void module_strip_punctuation_default(char *buf)
 {
   /* assertion buf != ((void *)0) */
   assert(buf != (char *)(void *)0);
-  module_strip_punctuation_some(buf, "~#$%^&*+=|<>[]_");
+  module_strip_punctuation_some(buf, "~#_%^&*+=|<>[]_");
 }
 
 // module_strip_punctuation_some
@@ -11349,15 +11349,15 @@ void module_strip_punctuation_some(char *message, char *punct_chars)
   assert(message != (char *)(void *)0);
   if(!(punct_chars == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(message);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(message);
+    len = (signed int)return_value_strlen_1;
     i = 0;
     for( ; len + -1 >= i; i = i + 1)
     {
-      char *return_value_strchr$4;
-      return_value_strchr$4=strchr(punct_chars, (signed int)*p);
-      if(!(return_value_strchr$4 == ((char *)NULL)))
+      char *return_value_strchr_4;
+      return_value_strchr_4=strchr(punct_chars, (signed int)*p);
+      if(!(return_value_strchr_4 == ((char *)NULL)))
       {
         if(!(Debug == 0))
         {
@@ -11365,12 +11365,12 @@ void module_strip_punctuation_some(char *message, char *punct_chars)
           struct timeval tv;
           char *tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$2;
-          return_value_ctime$2=ctime(&t);
-          tstr=g_strdup(return_value_ctime$2);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+          char *return_value_ctime_2;
+          return_value_ctime_2=ctime(&t);
+          tstr=g_strdup(return_value_ctime_2);
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -11409,20 +11409,20 @@ char * module_strip_ssml(char *message)
   signed int omit = 0;
   /* assertion message != ((void *)0) */
   assert(message != (char *)(void *)0);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(message);
-  len = (signed int)return_value_strlen$1;
-  void *return_value_g_malloc$2;
-  return_value_g_malloc$2=g_malloc(sizeof(char) /*1ul*/  * (unsigned long int)(len + 1));
-  out = (char *)return_value_g_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(message);
+  len = (signed int)return_value_strlen_1;
+  void *return_value_g_malloc_2;
+  return_value_g_malloc_2=g_malloc(sizeof(char) /*1ul*/  * (unsigned long int)(len + 1));
+  out = (char *)return_value_g_malloc_2;
   i = 0;
   n = 0;
-  signed int tmp_post$3;
-  signed int return_value_strncmp$8;
-  signed int tmp_post$4;
-  signed int return_value_strncmp$7;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
+  signed int tmp_post_3;
+  signed int return_value_strncmp_8;
+  signed int tmp_post_4;
+  signed int return_value_strncmp_7;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
   for( ; len >= i; i = i + 1)
     if((signed int)message[(signed long int)i] == 60)
       omit = 1;
@@ -11433,44 +11433,44 @@ char * module_strip_ssml(char *message)
 
       else
       {
-        signed int return_value_strncmp$9;
-        return_value_strncmp$9=strncmp(&message[(signed long int)i], "&lt;", (unsigned long int)4);
-        if(return_value_strncmp$9 == 0)
+        signed int return_value_strncmp_9;
+        return_value_strncmp_9=strncmp(&message[(signed long int)i], "&lt;", (unsigned long int)4);
+        if(return_value_strncmp_9 == 0)
         {
           i = i + 3;
-          tmp_post$3 = n;
+          tmp_post_3 = n;
           n = n + 1;
-          out[(signed long int)tmp_post$3] = (char)60;
+          out[(signed long int)tmp_post_3] = (char)60;
         }
 
         else
         {
-          return_value_strncmp$8=strncmp(&message[(signed long int)i], "&gt;", (unsigned long int)4);
-          if(return_value_strncmp$8 == 0)
+          return_value_strncmp_8=strncmp(&message[(signed long int)i], "&gt;", (unsigned long int)4);
+          if(return_value_strncmp_8 == 0)
           {
             i = i + 3;
-            tmp_post$4 = n;
+            tmp_post_4 = n;
             n = n + 1;
-            out[(signed long int)tmp_post$4] = (char)62;
+            out[(signed long int)tmp_post_4] = (char)62;
           }
 
           else
           {
-            return_value_strncmp$7=strncmp(&message[(signed long int)i], "&amp;", (unsigned long int)5);
-            if(return_value_strncmp$7 == 0)
+            return_value_strncmp_7=strncmp(&message[(signed long int)i], "&amp;", (unsigned long int)5);
+            if(return_value_strncmp_7 == 0)
             {
               i = i + 4;
-              tmp_post$5 = n;
+              tmp_post_5 = n;
               n = n + 1;
-              out[(signed long int)tmp_post$5] = (char)38;
+              out[(signed long int)tmp_post_5] = (char)38;
             }
 
             else
               if(i == len || omit == 0)
               {
-                tmp_post$6 = n;
+                tmp_post_6 = n;
                 n = n + 1;
-                out[(signed long int)tmp_post$6] = message[(signed long int)i];
+                out[(signed long int)tmp_post_6] = message[(signed long int)i];
               }
 
           }
@@ -11482,12 +11482,12 @@ char * module_strip_ssml(char *message)
     struct timeval tv;
     char *tstr;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$10;
-    return_value_ctime$10=ctime(&t);
-    tstr=g_strdup(return_value_ctime$10);
-    unsigned long int return_value_strlen$11;
-    return_value_strlen$11=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$11 - (unsigned long int)1)] = (char)0;
+    char *return_value_ctime_10;
+    return_value_ctime_10=ctime(&t);
+    tstr=g_strdup(return_value_ctime_10);
+    unsigned long int return_value_strlen_11;
+    return_value_strlen_11=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_11 - (unsigned long int)1)] = (char)0;
     gettimeofday(&tv, (struct timezone *)(void *)0);
     fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
     fprintf(stderr, ": ");
@@ -11521,30 +11521,30 @@ signed int module_terminate_thread(unsigned long int thread)
     {
       signed long int t;
       struct timeval tv;
-      char *module_terminate_thread$$1$$1$$1$$tstr;
+      char *module_terminate_thread__1__1__1__tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$1;
-      return_value_ctime$1=ctime(&t);
-      module_terminate_thread$$1$$1$$1$$tstr=g_strdup(return_value_ctime$1);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(module_terminate_thread$$1$$1$$1$$tstr);
-      module_terminate_thread$$1$$1$$1$$tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_1;
+      return_value_ctime_1=ctime(&t);
+      module_terminate_thread__1__1__1__tstr=g_strdup(return_value_ctime_1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(module_terminate_thread__1__1__1__tstr);
+      module_terminate_thread__1__1__1__tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", module_terminate_thread$$1$$1$$1$$tstr, (signed int)tv.tv_usec);
+      fprintf(stderr, " %s [%d]", module_terminate_thread__1__1__1__tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Cancellation of speak thread failed");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", module_terminate_thread$$1$$1$$1$$tstr, (signed int)tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", module_terminate_thread__1__1__1__tstr, (signed int)tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Cancellation of speak thread failed");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)module_terminate_thread$$1$$1$$1$$tstr);
+      g_free((void *)module_terminate_thread__1__1__1__tstr);
     }
 
     return 1;
@@ -11557,25 +11557,25 @@ signed int module_terminate_thread(unsigned long int thread)
     {
       if(!(Debug == 0))
       {
-        signed long int module_terminate_thread$$1$$2$$1$$t;
-        struct timeval module_terminate_thread$$1$$2$$1$$tv;
+        signed long int module_terminate_thread__1__2__1__t;
+        struct timeval module_terminate_thread__1__2__1__tv;
         char *tstr;
-        module_terminate_thread$$1$$2$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$3;
-        return_value_ctime$3=ctime(&module_terminate_thread$$1$$2$$1$$t);
-        tstr=g_strdup(return_value_ctime$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(tstr);
-        tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-        gettimeofday(&module_terminate_thread$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-        fprintf(stderr, " %s [%d]", tstr, (signed int)module_terminate_thread$$1$$2$$1$$tv.tv_usec);
+        module_terminate_thread__1__2__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_3;
+        return_value_ctime_3=ctime(&module_terminate_thread__1__2__1__t);
+        tstr=g_strdup(return_value_ctime_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(tstr);
+        tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+        gettimeofday(&module_terminate_thread__1__2__1__tv, (struct timezone *)(void *)0);
+        fprintf(stderr, " %s [%d]", tstr, (signed int)module_terminate_thread__1__2__1__tv.tv_usec);
         fprintf(stderr, ": ");
         fprintf(stderr, "join failed!\n");
         fprintf(stderr, "\n");
         fflush(stderr);
         if(Debug == 2 || Debug == 3)
         {
-          fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)module_terminate_thread$$1$$2$$1$$tv.tv_usec);
+          fprintf(CustomDebugFile, " %s [%d]", tstr, (signed int)module_terminate_thread__1__2__1__tv.tv_usec);
           fprintf(CustomDebugFile, ": ");
           fprintf(CustomDebugFile, "join failed!\n");
           fprintf(CustomDebugFile, "\n");
@@ -11595,11 +11595,11 @@ signed int module_terminate_thread(unsigned long int thread)
 
 // module_tts_output
 // file module_utils.h line 125
-signed int module_tts_output(struct anonymous$3 track, enum anonymous$4 format)
+signed int module_tts_output(struct anonymous_3 track, enum anonymous_4 format)
 {
-  signed int return_value_spd_audio_play$3;
-  return_value_spd_audio_play$3=spd_audio_play(module_audio_id, track, format);
-  if(!(return_value_spd_audio_play$3 >= 0))
+  signed int return_value_spd_audio_play_3;
+  return_value_spd_audio_play_3=spd_audio_play(module_audio_id, track, format);
+  if(!(return_value_spd_audio_play_3 >= 0))
   {
     if(!(Debug == 0))
     {
@@ -11607,12 +11607,12 @@ signed int module_tts_output(struct anonymous$3 track, enum anonymous$4 format)
       struct timeval tv;
       char *tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$1;
-      return_value_ctime$1=ctime(&t);
-      tstr=g_strdup(return_value_ctime$1);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(tstr);
-      tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+      char *return_value_ctime_1;
+      return_value_ctime_1=ctime(&t);
+      tstr=g_strdup(return_value_ctime_1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(tstr);
+      tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
       gettimeofday(&tv, (struct timezone *)(void *)0);
       fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
       fprintf(stderr, ": ");
@@ -11644,20 +11644,20 @@ static struct lt__handle * my_dlopenextglobal(const char *filename)
 {
   struct lt__handle *handle = (struct lt__handle *)(void *)0;
   struct lt__advise *advise;
-  signed int return_value_lt_dladvise_init$1;
-  return_value_lt_dladvise_init$1=lt_dladvise_init(&advise);
-  signed int return_value_lt_dladvise_global$2;
-  if(!(return_value_lt_dladvise_init$1 == 0))
+  signed int return_value_lt_dladvise_init_1;
+  return_value_lt_dladvise_init_1=lt_dladvise_init(&advise);
+  signed int return_value_lt_dladvise_global_2;
+  if(!(return_value_lt_dladvise_init_1 == 0))
     return handle;
 
   else
   {
-    signed int return_value_lt_dladvise_ext$3;
-    return_value_lt_dladvise_ext$3=lt_dladvise_ext(&advise);
-    if(return_value_lt_dladvise_ext$3 == 0)
+    signed int return_value_lt_dladvise_ext_3;
+    return_value_lt_dladvise_ext_3=lt_dladvise_ext(&advise);
+    if(return_value_lt_dladvise_ext_3 == 0)
     {
-      return_value_lt_dladvise_global$2=lt_dladvise_global(&advise);
-      if(return_value_lt_dladvise_global$2 == 0)
+      return_value_lt_dladvise_global_2=lt_dladvise_global(&advise);
+      if(return_value_lt_dladvise_global_2 == 0)
         handle=lt_dlopenadvise(filename, advise);
 
     }
@@ -11674,23 +11674,23 @@ static signed int nist_get_param_int(char *hdr, char *field, signed int def_val)
   char *p;
   signed int val;
   p=strstr(hdr, field);
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$2;
-  signed int return_value_strncmp$3;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_2;
+  signed int return_value_strncmp_3;
   if(!(p == ((char *)NULL)))
   {
-    return_value_strlen$2=strlen(field);
-    return_value_strncmp$3=strncmp(" -i ", p + (signed long int)return_value_strlen$2, (unsigned long int)4);
-    tmp_if_expr$4 = return_value_strncmp$3 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_2=strlen(field);
+    return_value_strncmp_3=strncmp(" -i ", p + (signed long int)return_value_strlen_2, (unsigned long int)4);
+    tmp_if_expr_4 = return_value_strncmp_3 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  if(tmp_if_expr_4)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(field);
-    sscanf(p + (signed long int)return_value_strlen$1 + (signed long int)4, "%d", &val);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(field);
+    sscanf(p + (signed long int)return_value_strlen_1 + (signed long int)4, "%d", &val);
     return val;
   }
 
@@ -11705,37 +11705,37 @@ static signed int nist_require_swap(char *hdr)
   char *p;
   char *field = "sample_byte_format";
   p=strstr(hdr, field);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_strlen$4;
-  signed int return_value_strncmp$5;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_strlen_4;
+  signed int return_value_strncmp_5;
+  _Bool tmp_if_expr_6;
   if(!(p == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(field);
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(" -s2 01", p + (signed long int)return_value_strlen$1, (unsigned long int)7);
-    if(return_value_strncmp$2 == 0)
-      tmp_if_expr$3 = (signed int)((char *)&fapi_endian_loc)[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(field);
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(" -s2 01", p + (signed long int)return_value_strlen_1, (unsigned long int)7);
+    if(return_value_strncmp_2 == 0)
+      tmp_if_expr_3 = (signed int)((char *)&fapi_endian_loc)[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_strlen$4=strlen(field);
-      return_value_strncmp$5=strncmp(" -s2 10", p + (signed long int)return_value_strlen$4, (unsigned long int)7);
-      if(return_value_strncmp$5 == 0)
-        tmp_if_expr$6 = (signed int)((char *)&fapi_endian_loc)[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_4=strlen(field);
+      return_value_strncmp_5=strncmp(" -s2 10", p + (signed long int)return_value_strlen_4, (unsigned long int)7);
+      if(return_value_strncmp_5 == 0)
+        tmp_if_expr_6 = (signed int)((char *)&fapi_endian_loc)[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       return 1;
 
   }
@@ -11770,27 +11770,27 @@ struct anonymous
   struct anonymous header;
   signed short int sw_short;
   signed int i;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(filename == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$1=strcmp(filename, "stdout");
-    tmp_if_expr$2 = return_value_strcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_1=strcmp(filename, "stdout");
+    tmp_if_expr_2 = return_value_strcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$3=strcmp(filename, "-");
-    tmp_if_expr$4 = return_value_strcmp$3 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_3=strcmp(filename, "-");
+    tmp_if_expr_4 = return_value_strcmp_3 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
     fd = stdout;
 
   else
@@ -11819,9 +11819,9 @@ struct anonymous
     header.channels = ((unsigned int)header.channels & (unsigned int)0xff) << 24 | ((unsigned int)header.channels & (unsigned int)0xff00) << 8 | ((unsigned int)header.channels & (unsigned int)0xff0000) >> 8 | ((unsigned int)header.channels & 0xff000000) >> 24;
   }
 
-  unsigned long int return_value_fwrite$5;
-  return_value_fwrite$5=fwrite((const void *)&header, sizeof(struct anonymous) /*24ul*/ , (unsigned long int)1, fd);
-  if(!(return_value_fwrite$5 == 1ul))
+  unsigned long int return_value_fwrite_5;
+  return_value_fwrite_5=fwrite((const void *)&header, sizeof(struct anonymous) /*24ul*/ , (unsigned long int)1, fd);
+  if(!(return_value_fwrite_5 == 1ul))
     return -1;
 
   else
@@ -11850,25 +11850,25 @@ struct anonymous
 void set_speaking_thread_parameters()
 {
   signed int ret;
-  struct anonymous$12 all_signals;
+  struct anonymous_12 all_signals;
   ret=sigfillset(&all_signals);
   if(ret == 0)
   {
-    ret=pthread_sigmask(0, &all_signals, (struct anonymous$12 *)(void *)0);
+    ret=pthread_sigmask(0, &all_signals, (struct anonymous_12 *)(void *)0);
     if(!(ret == 0))
     {
       if(!(Debug == 0))
       {
-        signed long int set_speaking_thread_parameters$$1$$1$$1$$t;
+        signed long int set_speaking_thread_parameters__1__1__1__t;
         struct timeval tv;
         char *tstr;
-        set_speaking_thread_parameters$$1$$1$$1$$t=time((signed long int *)(void *)0);
-        char *return_value_ctime$1;
-        return_value_ctime$1=ctime(&set_speaking_thread_parameters$$1$$1$$1$$t);
-        tstr=g_strdup(return_value_ctime$1);
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(tstr);
-        tstr[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+        set_speaking_thread_parameters__1__1__1__t=time((signed long int *)(void *)0);
+        char *return_value_ctime_1;
+        return_value_ctime_1=ctime(&set_speaking_thread_parameters__1__1__1__t);
+        tstr=g_strdup(return_value_ctime_1);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(tstr);
+        tstr[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
         gettimeofday(&tv, (struct timezone *)(void *)0);
         fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
         fprintf(stderr, ": ");
@@ -11895,31 +11895,31 @@ void set_speaking_thread_parameters()
     if(!(Debug == 0))
     {
       signed long int t;
-      struct timeval set_speaking_thread_parameters$$1$$2$$1$$tv;
-      char *set_speaking_thread_parameters$$1$$2$$1$$tstr;
+      struct timeval set_speaking_thread_parameters__1__2__1__tv;
+      char *set_speaking_thread_parameters__1__2__1__tstr;
       t=time((signed long int *)(void *)0);
-      char *return_value_ctime$3;
-      return_value_ctime$3=ctime(&t);
-      set_speaking_thread_parameters$$1$$2$$1$$tstr=g_strdup(return_value_ctime$3);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(set_speaking_thread_parameters$$1$$2$$1$$tstr);
-      set_speaking_thread_parameters$$1$$2$$1$$tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
-      gettimeofday(&set_speaking_thread_parameters$$1$$2$$1$$tv, (struct timezone *)(void *)0);
-      fprintf(stderr, " %s [%d]", set_speaking_thread_parameters$$1$$2$$1$$tstr, (signed int)set_speaking_thread_parameters$$1$$2$$1$$tv.tv_usec);
+      char *return_value_ctime_3;
+      return_value_ctime_3=ctime(&t);
+      set_speaking_thread_parameters__1__2__1__tstr=g_strdup(return_value_ctime_3);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(set_speaking_thread_parameters__1__2__1__tstr);
+      set_speaking_thread_parameters__1__2__1__tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
+      gettimeofday(&set_speaking_thread_parameters__1__2__1__tv, (struct timezone *)(void *)0);
+      fprintf(stderr, " %s [%d]", set_speaking_thread_parameters__1__2__1__tstr, (signed int)set_speaking_thread_parameters__1__2__1__tv.tv_usec);
       fprintf(stderr, ": ");
       fprintf(stderr, "Can't fill signal set, expect problems when terminating!\n");
       fprintf(stderr, "\n");
       fflush(stderr);
       if(Debug == 2 || Debug == 3)
       {
-        fprintf(CustomDebugFile, " %s [%d]", set_speaking_thread_parameters$$1$$2$$1$$tstr, (signed int)set_speaking_thread_parameters$$1$$2$$1$$tv.tv_usec);
+        fprintf(CustomDebugFile, " %s [%d]", set_speaking_thread_parameters__1__2__1__tstr, (signed int)set_speaking_thread_parameters__1__2__1__tv.tv_usec);
         fprintf(CustomDebugFile, ": ");
         fprintf(CustomDebugFile, "Can't fill signal set, expect problems when terminating!\n");
         fprintf(CustomDebugFile, "\n");
         fflush(CustomDebugFile);
       }
 
-      g_free((void *)set_speaking_thread_parameters$$1$$2$$1$$tstr);
+      g_free((void *)set_speaking_thread_parameters__1__2__1__tstr);
     }
 
   pthread_setcancelstate(0, (signed int *)(void *)0);
@@ -11936,24 +11936,24 @@ static char * socket_receive_file_to_buff(signed int fd, signed int *size)
   signed int k;
   signed int i;
   char c;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(!(fd >= 0))
     return (char *)(void *)0;
 
   else
   {
     bufflen = 1024;
-    void *return_value_g_malloc$1;
-    return_value_g_malloc$1=g_malloc((unsigned long int)bufflen);
-    buff = (char *)return_value_g_malloc$1;
+    void *return_value_g_malloc_1;
+    return_value_g_malloc_1=g_malloc((unsigned long int)bufflen);
+    buff = (char *)return_value_g_malloc_1;
     *size = 0;
     k = 0;
     static char *file_stuff_key = "ft_StUfF_key";
     while(!((signed int)file_stuff_key[(signed long int)k] == 0))
     {
-      signed long int return_value_read$2;
-      return_value_read$2=read(fd, (void *)&c, (unsigned long int)1);
-      n = (signed int)return_value_read$2;
+      signed long int return_value_read_2;
+      return_value_read_2=read(fd, (void *)&c, (unsigned long int)1);
+      n = (signed int)return_value_read_2;
       if(!(n >= 1))
       {
         if(!(Debug == 0))
@@ -11962,12 +11962,12 @@ static char * socket_receive_file_to_buff(signed int fd, signed int *size)
           struct timeval tv;
           char *tstr;
           t=time((signed long int *)(void *)0);
-          char *return_value_ctime$3;
-          return_value_ctime$3=ctime(&t);
-          tstr=g_strdup(return_value_ctime$3);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(tstr);
-          tstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+          char *return_value_ctime_3;
+          return_value_ctime_3=ctime(&t);
+          tstr=g_strdup(return_value_ctime_3);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(tstr);
+          tstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
           gettimeofday(&tv, (struct timezone *)(void *)0);
           fprintf(stderr, " %s [%d]", tstr, (signed int)tv.tv_usec);
           fprintf(stderr, ": ");
@@ -11995,9 +11995,9 @@ static char * socket_receive_file_to_buff(signed int fd, signed int *size)
       if(1 + *size + k >= bufflen)
       {
         bufflen = bufflen + bufflen / 4;
-        void *return_value_g_realloc$5;
-        return_value_g_realloc$5=g_realloc((void *)buff, (unsigned long int)bufflen);
-        buff = (char *)return_value_g_realloc$5;
+        void *return_value_g_realloc_5;
+        return_value_g_realloc_5=g_realloc((void *)buff, (unsigned long int)bufflen);
+        buff = (char *)return_value_g_realloc_5;
       }
 
       if(file_stuff_key[(signed long int)k] == c)
@@ -12006,11 +12006,11 @@ static char * socket_receive_file_to_buff(signed int fd, signed int *size)
       else
       {
         if((signed int)c == 88)
-          tmp_if_expr$6 = (signed int)file_stuff_key[(signed long int)(k + 1)] == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (signed int)file_stuff_key[(signed long int)(k + 1)] == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
           i = 0;
           for( ; !(i >= k); *size = *size + 1)
@@ -12041,12 +12041,12 @@ static char * socket_receive_file_to_buff(signed int fd, signed int *size)
 
 // spd_audio_close
 // file spd_audio.c line 254
-signed int spd_audio_close(struct anonymous$2 *id)
+signed int spd_audio_close(struct anonymous_2 *id)
 {
   signed int ret = 0;
-  if(!(id == ((struct anonymous$2 *)NULL)))
+  if(!(id == ((struct anonymous_2 *)NULL)))
   {
-    if(!(id->function->close == ((signed int (*)(struct anonymous$2 *))NULL)))
+    if(!(id->function->close == ((signed int (*)(struct anonymous_2 *))NULL)))
       ret=id->function->close(id);
 
   }
@@ -12063,9 +12063,9 @@ signed int spd_audio_close(struct anonymous$2 *id)
 
 // spd_audio_get_playcmd
 // file spd_audio.c line 315
-const char * spd_audio_get_playcmd(struct anonymous$2 *id)
+const char * spd_audio_get_playcmd(struct anonymous_2 *id)
 {
-  if(!(id == ((struct anonymous$2 *)NULL)))
+  if(!(id == ((struct anonymous_2 *)NULL)))
   {
     if(!(id->function == ((struct spd_audio_plugin *)NULL)))
     {
@@ -12081,9 +12081,9 @@ const char * spd_audio_get_playcmd(struct anonymous$2 *id)
 
 // spd_audio_open
 // file spd_audio.c line 93
-struct anonymous$2 * spd_audio_open(char *name, void **pars, char **error)
+struct anonymous_2 * spd_audio_open(char *name, void **pars, char **error)
 {
-  struct anonymous$2 *id;
+  struct anonymous_2 *id;
   const struct spd_audio_plugin *p;
   struct spd_audio_plugin * (*fn)(void);
   char *libname;
@@ -12091,19 +12091,19 @@ struct anonymous$2 * spd_audio_open(char *name, void **pars, char **error)
   ret=lt_dlinit();
   if(!(ret == 0))
   {
-    char *return_value_g_strdup_printf$1;
-    return_value_g_strdup_printf$1=g_strdup_printf("lt_dlinit() failed");
-    *error = (char *)return_value_g_strdup_printf$1;
-    return (struct anonymous$2 *)(void *)0;
+    char *return_value_g_strdup_printf_1;
+    return_value_g_strdup_printf_1=g_strdup_printf("lt_dlinit() failed");
+    *error = (char *)return_value_g_strdup_printf_1;
+    return (struct anonymous_2 *)(void *)0;
   }
 
   ret=lt_dlsetsearchpath("/usr/lib/x86_64-linux-gnu/speech-dispatcher");
   if(!(ret == 0))
   {
-    char *return_value_g_strdup_printf$2;
-    return_value_g_strdup_printf$2=g_strdup_printf("lt_dlsetsearchpath() failed");
-    *error = (char *)return_value_g_strdup_printf$2;
-    return (struct anonymous$2 *)(void *)0;
+    char *return_value_g_strdup_printf_2;
+    return_value_g_strdup_printf_2=g_strdup_printf("lt_dlsetsearchpath() failed");
+    *error = (char *)return_value_g_strdup_printf_2;
+    return (struct anonymous_2 *)(void *)0;
   }
 
   libname=g_strdup_printf("spd_%s", name);
@@ -12111,67 +12111,67 @@ struct anonymous$2 * spd_audio_open(char *name, void **pars, char **error)
   g_free((void *)libname);
   if(lt_h == ((struct lt__handle *)NULL))
   {
-    const char *return_value_lt_dlerror$3;
-    return_value_lt_dlerror$3=lt_dlerror();
-    char *return_value_g_strdup_printf$4;
-    return_value_g_strdup_printf$4=g_strdup_printf("Cannot open plugin %s. error: %s", name, return_value_lt_dlerror$3);
-    *error = (char *)return_value_g_strdup_printf$4;
-    return (struct anonymous$2 *)(void *)0;
+    const char *return_value_lt_dlerror_3;
+    return_value_lt_dlerror_3=lt_dlerror();
+    char *return_value_g_strdup_printf_4;
+    return_value_g_strdup_printf_4=g_strdup_printf("Cannot open plugin %s. error: %s", name, return_value_lt_dlerror_3);
+    *error = (char *)return_value_g_strdup_printf_4;
+    return (struct anonymous_2 *)(void *)0;
   }
 
-  void *return_value_lt_dlsym$5;
-  return_value_lt_dlsym$5=lt_dlsym(lt_h, "spd_audio_plugin_get");
-  fn = (struct spd_audio_plugin * (*)(void))return_value_lt_dlsym$5;
+  void *return_value_lt_dlsym_5;
+  return_value_lt_dlsym_5=lt_dlsym(lt_h, "spd_audio_plugin_get");
+  fn = (struct spd_audio_plugin * (*)(void))return_value_lt_dlsym_5;
   if(fn == ((struct spd_audio_plugin * (*)(void))NULL))
   {
-    char *return_value_g_strdup_printf$6;
-    return_value_g_strdup_printf$6=g_strdup_printf("Cannot find symbol %s", (const void *)"spd_audio_plugin_get");
-    *error = (char *)return_value_g_strdup_printf$6;
-    return (struct anonymous$2 *)(void *)0;
+    char *return_value_g_strdup_printf_6;
+    return_value_g_strdup_printf_6=g_strdup_printf("Cannot find symbol %s", (const void *)"spd_audio_plugin_get");
+    *error = (char *)return_value_g_strdup_printf_6;
+    return (struct anonymous_2 *)(void *)0;
   }
 
   p=fn();
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   if(p == ((const struct spd_audio_plugin *)NULL))
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_8 = (_Bool)1;
 
   else
-    tmp_if_expr$8 = p->name == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = p->name == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_8)
   {
-    char *return_value_g_strdup_printf$7;
-    return_value_g_strdup_printf$7=g_strdup_printf("plugin %s not found", name);
-    *error = (char *)return_value_g_strdup_printf$7;
-    return (struct anonymous$2 *)(void *)0;
+    char *return_value_g_strdup_printf_7;
+    return_value_g_strdup_printf_7=g_strdup_printf("plugin %s not found", name);
+    *error = (char *)return_value_g_strdup_printf_7;
+    return (struct anonymous_2 *)(void *)0;
   }
 
   id=p->open(pars);
-  if(id == ((struct anonymous$2 *)NULL))
+  if(id == ((struct anonymous_2 *)NULL))
   {
-    char *return_value_g_strdup_printf$9;
-    return_value_g_strdup_printf$9=g_strdup_printf("Couldn't open %s plugin", name);
-    *error = (char *)return_value_g_strdup_printf$9;
-    return (struct anonymous$2 *)(void *)0;
+    char *return_value_g_strdup_printf_9;
+    return_value_g_strdup_printf_9=g_strdup_printf("Couldn't open %s plugin", name);
+    *error = (char *)return_value_g_strdup_printf_9;
+    return (struct anonymous_2 *)(void *)0;
   }
 
   id->function = p;
-  id->format = (enum anonymous$4)SPD_AUDIO_LE;
+  id->format = (enum anonymous_4)SPD_AUDIO_LE;
   *error = (char *)(void *)0;
   return id;
 }
 
 // spd_audio_play
 // file spd_audio.c line 174
-signed int spd_audio_play(struct anonymous$2 *id, struct anonymous$3 track, enum anonymous$4 format)
+signed int spd_audio_play(struct anonymous_2 *id, struct anonymous_3 track, enum anonymous_4 format)
 {
   signed int ret;
-  _Bool tmp_if_expr$1;
-  if(!(id == ((struct anonymous$2 *)NULL)))
-    tmp_if_expr$1 = id->function->play != ((signed int (*)(struct anonymous$2 *, struct anonymous$3))NULL) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(id == ((struct anonymous_2 *)NULL)))
+    tmp_if_expr_1 = id->function->play != ((signed int (*)(struct anonymous_2 *, struct anonymous_3))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(!(format == id->format))
     {
@@ -12201,12 +12201,12 @@ signed int spd_audio_play(struct anonymous$2 *id, struct anonymous$3 track, enum
 
 // spd_audio_set_loglevel
 // file spd_audio.c line 306
-void spd_audio_set_loglevel(struct anonymous$2 *id, signed int level)
+void spd_audio_set_loglevel(struct anonymous_2 *id, signed int level)
 {
   if(!(level == 0))
   {
     spd_audio_log_level = level;
-    if(!(id == ((struct anonymous$2 *)NULL)))
+    if(!(id == ((struct anonymous_2 *)NULL)))
     {
       if(!(id->function == ((struct spd_audio_plugin *)NULL)))
         id->function->set_loglevel(level);
@@ -12219,7 +12219,7 @@ void spd_audio_set_loglevel(struct anonymous$2 *id, signed int level)
 
 // spd_audio_set_volume
 // file spd_audio.c line 292
-signed int spd_audio_set_volume(struct anonymous$2 *id, signed int volume)
+signed int spd_audio_set_volume(struct anonymous_2 *id, signed int volume)
 {
   if(volume >= 101 || !(volume >= -100))
   {
@@ -12228,7 +12228,7 @@ signed int spd_audio_set_volume(struct anonymous$2 *id, signed int volume)
   }
 
   else
-    if(id == ((struct anonymous$2 *)NULL))
+    if(id == ((struct anonymous_2 *)NULL))
     {
       fprintf(stderr, "audio id is NULL in spd_audio_set_volume\n");
       return -1;
@@ -12243,16 +12243,16 @@ signed int spd_audio_set_volume(struct anonymous$2 *id, signed int volume)
 
 // spd_audio_stop
 // file spd_audio.h line 36
-signed int spd_audio_stop(struct anonymous$2 *id)
+signed int spd_audio_stop(struct anonymous_2 *id)
 {
   signed int ret;
-  _Bool tmp_if_expr$1;
-  if(!(id == ((struct anonymous$2 *)NULL)))
-    tmp_if_expr$1 = id->function->stop != ((signed int (*)(struct anonymous$2 *))NULL) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(id == ((struct anonymous_2 *)NULL)))
+    tmp_if_expr_1 = id->function->stop != ((signed int (*)(struct anonymous_2 *))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     ret=id->function->stop(id);
 
   else
@@ -12274,33 +12274,33 @@ signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FIL
   char *temp;
   if(lineptr == ((char **)NULL) || f == ((struct _IO_FILE *)NULL) || n == ((unsigned long int *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (signed long int)-1;
   }
 
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  signed int *return_value___errno_location$2;
-  if(!(*return_value___errno_location$3 == 0))
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  signed int *return_value___errno_location_2;
+  if(!(*return_value___errno_location_3 == 0))
   {
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 0;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 0;
   }
 
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(*lineptr == ((char *)NULL))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = *n == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = *n == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
     *n = (unsigned long int)120;
-    void *return_value_g_malloc$4;
-    return_value_g_malloc$4=g_malloc(*n * sizeof(char) /*1ul*/ );
-    *lineptr = (char *)return_value_g_malloc$4;
+    void *return_value_g_malloc_4;
+    return_value_g_malloc_4=g_malloc(*n * sizeof(char) /*1ul*/ );
+    *lineptr = (char *)return_value_g_malloc_4;
     if(*lineptr == ((char *)NULL))
     {
       *n = (unsigned long int)0;
@@ -12309,18 +12309,18 @@ signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FIL
 
   }
 
-  signed int return_value__IO_getc$6;
-  signed long int tmp_post$10;
+  signed int return_value__IO_getc_6;
+  signed long int tmp_post_10;
   do
   {
-    return_value__IO_getc$6=_IO_getc(f);
-    ch = (char)return_value__IO_getc$6;
+    return_value__IO_getc_6=_IO_getc(f);
+    ch = (char)return_value__IO_getc_6;
     if((signed int)ch == -1)
       break;
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    if(!(*return_value___errno_location$7 == 0))
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    if(!(*return_value___errno_location_7 == 0))
       return (signed long int)-1;
 
     if(!(*n >= (unsigned long int)needed))
@@ -12328,16 +12328,16 @@ signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FIL
       new_length = *n * (unsigned long int)2;
       if(*n >= new_length)
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        *return_value___errno_location$8 = 12;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        *return_value___errno_location_8 = 12;
         ungetc((signed int)ch, f);
         return (signed long int)-1;
       }
 
-      void *return_value_g_realloc$9;
-      return_value_g_realloc$9=g_realloc((void *)*lineptr, new_length * sizeof(char) /*1ul*/ );
-      temp = (char *)return_value_g_realloc$9;
+      void *return_value_g_realloc_9;
+      return_value_g_realloc_9=g_realloc((void *)*lineptr, new_length * sizeof(char) /*1ul*/ );
+      temp = (char *)return_value_g_realloc_9;
       if(temp == ((char *)NULL))
       {
         ungetc((signed int)ch, f);
@@ -12348,17 +12348,17 @@ signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FIL
       *lineptr = temp;
     }
 
-    tmp_post$10 = buf_pos;
+    tmp_post_10 = buf_pos;
     buf_pos = buf_pos + 1l;
-    (*lineptr)[tmp_post$10] = ch;
+    (*lineptr)[tmp_post_10] = ch;
     if((signed int)ch == 10)
       break;
 
     if(needed == 0x7fffffffffffffffL)
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      *return_value___errno_location$11 = 12;
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      *return_value___errno_location_11 = 12;
       return (signed long int)-1;
     }
 
@@ -12384,30 +12384,30 @@ signed int stop_festival_local()
 
 // str2ECapLetRecogn
 // file ../../include/fdsetconv.h line 22
-enum anonymous$10 str2ECapLetRecogn(char *str)
+enum anonymous_10 str2ECapLetRecogn(char *str)
 {
-  enum anonymous$10 recogn;
-  signed int return_value_strcmp$3;
-  return_value_strcmp$3=strcmp(str, "none");
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$3 == 0)
-    recogn = (enum anonymous$10)SPD_CAP_NONE;
+  enum anonymous_10 recogn;
+  signed int return_value_strcmp_3;
+  return_value_strcmp_3=strcmp(str, "none");
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_3 == 0)
+    recogn = (enum anonymous_10)SPD_CAP_NONE;
 
   else
   {
-    return_value_strcmp$2=strcmp(str, "spell");
-    if(return_value_strcmp$2 == 0)
-      recogn = (enum anonymous$10)SPD_CAP_SPELL;
+    return_value_strcmp_2=strcmp(str, "spell");
+    if(return_value_strcmp_2 == 0)
+      recogn = (enum anonymous_10)SPD_CAP_SPELL;
 
     else
     {
-      return_value_strcmp$1=strcmp(str, "icon");
-      if(return_value_strcmp$1 == 0)
-        recogn = (enum anonymous$10)SPD_CAP_ICON;
+      return_value_strcmp_1=strcmp(str, "icon");
+      if(return_value_strcmp_1 == 0)
+        recogn = (enum anonymous_10)SPD_CAP_ICON;
 
       else
-        recogn = (enum anonymous$10)-1;
+        recogn = (enum anonymous_10)-1;
     }
   }
   return recogn;
@@ -12415,30 +12415,30 @@ enum anonymous$10 str2ECapLetRecogn(char *str)
 
 // str2EPunctMode
 // file ../../include/fdsetconv.h line 14
-enum anonymous$8 str2EPunctMode(char *str)
+enum anonymous_8 str2EPunctMode(char *str)
 {
-  enum anonymous$8 punct;
-  signed int return_value_strcmp$3;
-  return_value_strcmp$3=strcmp(str, "none");
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$3 == 0)
-    punct = (enum anonymous$8)SPD_PUNCT_NONE;
+  enum anonymous_8 punct;
+  signed int return_value_strcmp_3;
+  return_value_strcmp_3=strcmp(str, "none");
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_3 == 0)
+    punct = (enum anonymous_8)SPD_PUNCT_NONE;
 
   else
   {
-    return_value_strcmp$2=strcmp(str, "all");
-    if(return_value_strcmp$2 == 0)
-      punct = (enum anonymous$8)SPD_PUNCT_ALL;
+    return_value_strcmp_2=strcmp(str, "all");
+    if(return_value_strcmp_2 == 0)
+      punct = (enum anonymous_8)SPD_PUNCT_ALL;
 
     else
     {
-      return_value_strcmp$1=strcmp(str, "some");
-      if(return_value_strcmp$1 == 0)
-        punct = (enum anonymous$8)SPD_PUNCT_SOME;
+      return_value_strcmp_1=strcmp(str, "some");
+      if(return_value_strcmp_1 == 0)
+        punct = (enum anonymous_8)SPD_PUNCT_SOME;
 
       else
-        punct = (enum anonymous$8)-1;
+        punct = (enum anonymous_8)-1;
     }
   }
   return punct;
@@ -12446,88 +12446,88 @@ enum anonymous$8 str2EPunctMode(char *str)
 
 // str2ESpellMode
 // file ../../include/fdsetconv.h line 18
-enum anonymous$9 str2ESpellMode(char *str)
+enum anonymous_9 str2ESpellMode(char *str)
 {
-  enum anonymous$9 spell;
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp(str, "on");
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$2 == 0)
-    spell = (enum anonymous$9)SPD_SPELL_ON;
+  enum anonymous_9 spell;
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp(str, "on");
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_2 == 0)
+    spell = (enum anonymous_9)SPD_SPELL_ON;
 
   else
   {
-    return_value_strcmp$1=strcmp(str, "off");
-    if(return_value_strcmp$1 == 0)
-      spell = (enum anonymous$9)SPD_SPELL_OFF;
+    return_value_strcmp_1=strcmp(str, "off");
+    if(return_value_strcmp_1 == 0)
+      spell = (enum anonymous_9)SPD_SPELL_OFF;
 
     else
-      spell = (enum anonymous$9)-1;
+      spell = (enum anonymous_9)-1;
   }
   return spell;
 }
 
 // str2EVoice
 // file ../../include/fdsetconv.h line 10
-enum anonymous$11 str2EVoice(char *str)
+enum anonymous_11 str2EVoice(char *str)
 {
-  enum anonymous$11 voice;
-  signed int return_value_strcmp$8;
-  return_value_strcmp$8=strcmp(str, "male1");
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$8 == 0)
-    voice = (enum anonymous$11)SPD_MALE1;
+  enum anonymous_11 voice;
+  signed int return_value_strcmp_8;
+  return_value_strcmp_8=strcmp(str, "male1");
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_8 == 0)
+    voice = (enum anonymous_11)SPD_MALE1;
 
   else
   {
-    return_value_strcmp$7=strcmp(str, "male2");
-    if(return_value_strcmp$7 == 0)
-      voice = (enum anonymous$11)SPD_MALE2;
+    return_value_strcmp_7=strcmp(str, "male2");
+    if(return_value_strcmp_7 == 0)
+      voice = (enum anonymous_11)SPD_MALE2;
 
     else
     {
-      return_value_strcmp$6=strcmp(str, "male3");
-      if(return_value_strcmp$6 == 0)
-        voice = (enum anonymous$11)SPD_MALE3;
+      return_value_strcmp_6=strcmp(str, "male3");
+      if(return_value_strcmp_6 == 0)
+        voice = (enum anonymous_11)SPD_MALE3;
 
       else
       {
-        return_value_strcmp$5=strcmp(str, "female1");
-        if(return_value_strcmp$5 == 0)
-          voice = (enum anonymous$11)SPD_FEMALE1;
+        return_value_strcmp_5=strcmp(str, "female1");
+        if(return_value_strcmp_5 == 0)
+          voice = (enum anonymous_11)SPD_FEMALE1;
 
         else
         {
-          return_value_strcmp$4=strcmp(str, "female2");
-          if(return_value_strcmp$4 == 0)
-            voice = (enum anonymous$11)SPD_FEMALE2;
+          return_value_strcmp_4=strcmp(str, "female2");
+          if(return_value_strcmp_4 == 0)
+            voice = (enum anonymous_11)SPD_FEMALE2;
 
           else
           {
-            return_value_strcmp$3=strcmp(str, "female3");
-            if(return_value_strcmp$3 == 0)
-              voice = (enum anonymous$11)SPD_FEMALE3;
+            return_value_strcmp_3=strcmp(str, "female3");
+            if(return_value_strcmp_3 == 0)
+              voice = (enum anonymous_11)SPD_FEMALE3;
 
             else
             {
-              return_value_strcmp$2=strcmp(str, "child_male");
-              if(return_value_strcmp$2 == 0)
-                voice = (enum anonymous$11)SPD_CHILD_MALE;
+              return_value_strcmp_2=strcmp(str, "child_male");
+              if(return_value_strcmp_2 == 0)
+                voice = (enum anonymous_11)SPD_CHILD_MALE;
 
               else
               {
-                return_value_strcmp$1=strcmp(str, "child_female");
-                if(return_value_strcmp$1 == 0)
-                  voice = (enum anonymous$11)SPD_CHILD_FEMALE;
+                return_value_strcmp_1=strcmp(str, "child_female");
+                if(return_value_strcmp_1 == 0)
+                  voice = (enum anonymous_11)SPD_CHILD_FEMALE;
 
                 else
-                  voice = (enum anonymous$11)-1;
+                  voice = (enum anonymous_11)-1;
               }
             }
           }
@@ -12540,44 +12540,44 @@ enum anonymous$11 str2EVoice(char *str)
 
 // str2intpriority
 // file fdsetconv.c line 200
-enum anonymous$20 str2intpriority(char *str)
+enum anonymous_20 str2intpriority(char *str)
 {
-  enum anonymous$20 priority;
-  signed int return_value_strcmp$5;
-  return_value_strcmp$5=strcmp(str, "important");
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$5 == 0)
-    priority = (enum anonymous$20)SPD_IMPORTANT;
+  enum anonymous_20 priority;
+  signed int return_value_strcmp_5;
+  return_value_strcmp_5=strcmp(str, "important");
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_5 == 0)
+    priority = (enum anonymous_20)SPD_IMPORTANT;
 
   else
   {
-    return_value_strcmp$4=strcmp(str, "message");
-    if(return_value_strcmp$4 == 0)
-      priority = (enum anonymous$20)SPD_MESSAGE;
+    return_value_strcmp_4=strcmp(str, "message");
+    if(return_value_strcmp_4 == 0)
+      priority = (enum anonymous_20)SPD_MESSAGE;
 
     else
     {
-      return_value_strcmp$3=strcmp(str, "text");
-      if(return_value_strcmp$3 == 0)
-        priority = (enum anonymous$20)SPD_TEXT;
+      return_value_strcmp_3=strcmp(str, "text");
+      if(return_value_strcmp_3 == 0)
+        priority = (enum anonymous_20)SPD_TEXT;
 
       else
       {
-        return_value_strcmp$2=strcmp(str, "notification");
-        if(return_value_strcmp$2 == 0)
-          priority = (enum anonymous$20)SPD_NOTIFICATION;
+        return_value_strcmp_2=strcmp(str, "notification");
+        if(return_value_strcmp_2 == 0)
+          priority = (enum anonymous_20)SPD_NOTIFICATION;
 
         else
         {
-          return_value_strcmp$1=strcmp(str, "progress");
-          if(return_value_strcmp$1 == 0)
-            priority = (enum anonymous$20)SPD_PROGRESS;
+          return_value_strcmp_1=strcmp(str, "progress");
+          if(return_value_strcmp_1 == 0)
+            priority = (enum anonymous_20)SPD_PROGRESS;
 
           else
-            priority = (enum anonymous$20)-1;
+            priority = (enum anonymous_20)-1;
         }
       }
     }
@@ -12596,9 +12596,9 @@ char * vect_read_item(char **vect, char *field)
 
     else
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(vect[(signed long int)i], field);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(vect[(signed long int)i], field);
+      if(return_value_strcmp_1 == 0)
       {
         if(!(vect[(signed long int)(1 + i)] == ((char *)NULL)))
           return vect[(signed long int)(i + 1)];

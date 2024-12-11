@@ -1,4 +1,4 @@
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -729,18 +729,18 @@ static struct trace *vacant_traces_list = (struct trace *)(void *)0;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // __bswap_64
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 109
 static inline unsigned long int __bswap_64(unsigned long int __bsx)
 {
-  signed long long int return_value___builtin_bswap64$1;
-  return_value___builtin_bswap64$1=__builtin_bswap64((signed long long int)__bsx);
-  return (unsigned long int)return_value___builtin_bswap64$1;
+  signed long long int return_value___builtin_bswap64_1;
+  return_value___builtin_bswap64_1=__builtin_bswap64((signed long long int)__bsx);
+  return (unsigned long int)return_value___builtin_bswap64_1;
 }
 
 // __rb_erase_color
@@ -748,14 +748,14 @@ static inline unsigned long int __bswap_64(unsigned long int __bsx)
 static void __rb_erase_color(struct rb_node *node, struct rb_node *parent, struct rb_root *root)
 {
   struct rb_node *other;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_5;
   while((_Bool)1)
   {
     if(!(node == ((struct rb_node *)NULL)))
@@ -784,23 +784,23 @@ static void __rb_erase_color(struct rb_node *node, struct rb_node *parent, struc
       }
 
       if(other->rb_left == ((struct rb_node *)NULL))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (other->rb_left->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (other->rb_left->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if(other->rb_right == ((struct rb_node *)NULL))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (other->rb_right->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (other->rb_right->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
         do
           other->rb_parent_color = other->rb_parent_color & (unsigned long int)~1;
@@ -812,11 +812,11 @@ static void __rb_erase_color(struct rb_node *node, struct rb_node *parent, struc
       else
       {
         if(other->rb_right == ((struct rb_node *)NULL))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (other->rb_right->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (other->rb_right->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           struct rb_node *o_left = other->rb_left;
           if(!(o_left == ((struct rb_node *)NULL)))
@@ -862,23 +862,23 @@ static void __rb_erase_color(struct rb_node *node, struct rb_node *parent, struc
       }
 
       if(other->rb_left == ((struct rb_node *)NULL))
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (other->rb_left->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (other->rb_left->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
         if(other->rb_right == ((struct rb_node *)NULL))
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = (other->rb_right->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (other->rb_right->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
       {
         do
           other->rb_parent_color = other->rb_parent_color & (unsigned long int)~1;
@@ -890,11 +890,11 @@ static void __rb_erase_color(struct rb_node *node, struct rb_node *parent, struc
       else
       {
         if(other->rb_left == ((struct rb_node *)NULL))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = (other->rb_left->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (other->rb_left->rb_parent_color & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
         {
           struct rb_node *o_right = other->rb_right;
           if(!(o_right == ((struct rb_node *)NULL)))
@@ -1038,7 +1038,7 @@ static signed int blkiomon_account(struct blk_io_trace *bit_d, struct blk_io_tra
 static struct dstat * blkiomon_alloc_dstat(void)
 {
   struct dstat *dstat;
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(!(vacant_dstats_list == ((struct dstat *)NULL)))
   {
     dstat = vacant_dstats_list;
@@ -1047,8 +1047,8 @@ static struct dstat * blkiomon_alloc_dstat(void)
 
   else
   {
-    return_value_malloc$1=malloc(sizeof(struct dstat) /*464ul*/ );
-    dstat = (struct dstat *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct dstat) /*464ul*/ );
+    dstat = (struct dstat *)return_value_malloc_1;
   }
   if(dstat == ((struct dstat *)NULL))
   {
@@ -1068,7 +1068,7 @@ static struct dstat * blkiomon_alloc_dstat(void)
 static struct trace * blkiomon_alloc_trace(void)
 {
   struct trace *t = vacant_traces_list;
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(!(t == ((struct trace *)NULL)))
   {
     vacant_traces_list = t->next;
@@ -1077,8 +1077,8 @@ static struct trace * blkiomon_alloc_trace(void)
 
   else
   {
-    return_value_malloc$1=malloc(sizeof(struct trace) /*88ul*/ );
-    t = (struct trace *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct trace) /*88ul*/ );
+    t = (struct trace *)return_value_malloc_1;
   }
   memset((void *)t, 0, sizeof(struct trace) /*88ul*/ );
   return t;
@@ -1115,8 +1115,8 @@ static signed int blkiomon_do_fifo(void)
   struct blk_io_trace *bit;
   void *pdu_buf = (void *)0;
   t=blkiomon_alloc_trace();
-  signed int return_value_check_data_endianness$4;
-  signed long int tmp_post$7;
+  signed int return_value_check_data_endianness_4;
+  signed long int tmp_post_7;
   if(t == ((struct trace *)NULL))
     return 1;
 
@@ -1125,21 +1125,21 @@ static signed int blkiomon_do_fifo(void)
     bit = &t->bit;
     while(!(up == 0))
     {
-      unsigned long int return_value_fread$2;
-      return_value_fread$2=fread((void *)bit, sizeof(struct blk_io_trace) /*48ul*/ , (unsigned long int)1, ifp);
-      if(!(return_value_fread$2 == 1ul))
+      unsigned long int return_value_fread_2;
+      return_value_fread_2=fread((void *)bit, sizeof(struct blk_io_trace) /*48ul*/ , (unsigned long int)1, ifp);
+      if(!(return_value_fread_2 == 1ul))
       {
-        signed int return_value_feof$1;
-        return_value_feof$1=feof(ifp);
-        if(return_value_feof$1 == 0)
+        signed int return_value_feof_1;
+        return_value_feof_1=feof(ifp);
+        if(return_value_feof_1 == 0)
           fprintf(stderr, "blkiomon: could not read trace");
 
         break;
       }
 
-      signed int return_value_ferror$3;
-      return_value_ferror$3=ferror(ifp);
-      if(!(return_value_ferror$3 == 0))
+      signed int return_value_ferror_3;
+      return_value_ferror_3=ferror(ifp);
+      if(!(return_value_ferror_3 == 0))
       {
         clearerr(ifp);
         fprintf(stderr, "blkiomon: error while reading trace");
@@ -1148,8 +1148,8 @@ static signed int blkiomon_do_fifo(void)
 
       if(data_is_native == -1)
       {
-        return_value_check_data_endianness$4=check_data_endianness(bit->magic);
-        if(!(return_value_check_data_endianness$4 == 0))
+        return_value_check_data_endianness_4=check_data_endianness(bit->magic);
+        if(!(return_value_check_data_endianness_4 == 0))
         {
           fprintf(stderr, "blkiomon: endianness problem\n");
           break;
@@ -1158,9 +1158,9 @@ static signed int blkiomon_do_fifo(void)
       }
 
       trace_to_cpu(bit);
-      signed int return_value_verify_trace$5;
-      return_value_verify_trace$5=verify_trace(bit);
-      if(!(return_value_verify_trace$5 == 0))
+      signed int return_value_verify_trace_5;
+      return_value_verify_trace_5=verify_trace(bit);
+      if(!(return_value_verify_trace_5 == 0))
       {
         fprintf(stderr, "blkiomon: bad trace\n");
         break;
@@ -1169,9 +1169,9 @@ static signed int blkiomon_do_fifo(void)
       if(!(bit->pdu_len == 0))
       {
         pdu_buf=realloc(pdu_buf, (unsigned long int)bit->pdu_len);
-        unsigned long int return_value_fread$6;
-        return_value_fread$6=fread(pdu_buf, (unsigned long int)bit->pdu_len, (unsigned long int)1, ifp);
-        if(!(return_value_fread$6 == 1ul))
+        unsigned long int return_value_fread_6;
+        return_value_fread_6=fread(pdu_buf, (unsigned long int)bit->pdu_len, (unsigned long int)1, ifp);
+        if(!(return_value_fread_6 == 1ul))
         {
           clearerr(ifp);
           fprintf(stderr, "blkiomon: could not read payload\n");
@@ -1180,15 +1180,15 @@ static signed int blkiomon_do_fifo(void)
 
       }
 
-      tmp_post$7 = sequence;
+      tmp_post_7 = sequence;
       sequence = sequence + 1l;
-      t->sequence = tmp_post$7;
+      t->sequence = tmp_post_7;
       if(!((1073741824u & bit->action) == 0u))
       {
         driverdata = driverdata + 1l;
-        signed int return_value_blkiomon_dump_drvdata$8;
-        return_value_blkiomon_dump_drvdata$8=blkiomon_dump_drvdata(bit, pdu_buf);
-        if(!(return_value_blkiomon_dump_drvdata$8 == 0))
+        signed int return_value_blkiomon_dump_drvdata_8;
+        return_value_blkiomon_dump_drvdata_8=blkiomon_dump_drvdata(bit, pdu_buf);
+        if(!(return_value_blkiomon_dump_drvdata_8 == 0))
         {
           fprintf(stderr, "blkiomon: could not send trace\n");
           break;
@@ -1227,9 +1227,9 @@ static struct trace * blkiomon_do_trace(struct trace *t)
   if(t_stored == ((struct trace *)NULL))
   {
     blkiomon_store_trace(t);
-    struct trace *return_value_blkiomon_alloc_trace$1;
-    return_value_blkiomon_alloc_trace$1=blkiomon_alloc_trace();
-    return return_value_blkiomon_alloc_trace$1;
+    struct trace *return_value_blkiomon_alloc_trace_1;
+    return_value_blkiomon_alloc_trace_1=blkiomon_alloc_trace();
+    return return_value_blkiomon_alloc_trace_1;
   }
 
   if(!(t_stored->bit.time >= t->bit.time))
@@ -1270,25 +1270,25 @@ static struct trace * blkiomon_do_trace(struct trace *t)
 // file blkiomon.c line 431
 static signed int blkiomon_dump_drvdata(struct blk_io_trace *bit, void *pdu_buf)
 {
-  unsigned long int return_value_fwrite$2;
-  signed int return_value_fflush$3;
+  unsigned long int return_value_fwrite_2;
+  signed int return_value_fflush_3;
   if(drvdata.fn == ((char *)NULL))
     return 0;
 
   else
   {
-    unsigned long int return_value_fwrite$1;
-    return_value_fwrite$1=fwrite((const void *)bit, sizeof(struct blk_io_trace) /*48ul*/ , (unsigned long int)1, drvdata.fp);
-    if(return_value_fwrite$1 == 1ul)
+    unsigned long int return_value_fwrite_1;
+    return_value_fwrite_1=fwrite((const void *)bit, sizeof(struct blk_io_trace) /*48ul*/ , (unsigned long int)1, drvdata.fp);
+    if(return_value_fwrite_1 == 1ul)
     {
-      return_value_fwrite$2=fwrite(pdu_buf, (unsigned long int)bit->pdu_len, (unsigned long int)1, drvdata.fp);
-      if(!(return_value_fwrite$2 == 1ul))
+      return_value_fwrite_2=fwrite(pdu_buf, (unsigned long int)bit->pdu_len, (unsigned long int)1, drvdata.fp);
+      if(!(return_value_fwrite_2 == 1ul))
         goto failed;
 
       if(!(drvdata.pipe == 0))
       {
-        return_value_fflush$3=fflush(drvdata.fp);
-        if(!(return_value_fflush$3 == 0))
+        return_value_fflush_3=fflush(drvdata.fp);
+        if(!(return_value_fflush_3 == 0))
           goto failed;
 
       }
@@ -1317,17 +1317,17 @@ static struct trace * blkiomon_fetch_trace(struct blk_io_trace *bit)
   struct trace *t;
   struct trace *prev = (struct trace *)(void *)0;
   t = thash[(signed long int)i];
-  signed int return_value_action$1;
-  signed int return_value_action$2;
+  signed int return_value_action_1;
+  signed int return_value_action_2;
   for( ; !(t == ((struct trace *)NULL)); t = t->next)
   {
     if(t->bit.device == bit->device)
     {
       if(t->bit.sector == bit->sector)
       {
-        return_value_action$1=action((signed int)t->bit.action);
-        return_value_action$2=action((signed int)bit->action);
-        if(return_value_action$1 == return_value_action$2)
+        return_value_action_1=action((signed int)t->bit.action);
+        return_value_action_2=action((signed int)bit->action);
+        if(return_value_action_1 == return_value_action_2)
         {
           if(!(prev == ((struct trace *)NULL)))
             prev->next = t->next;
@@ -1353,13 +1353,13 @@ static struct dstat * blkiomon_find_dstat(struct rb_search *search, unsigned int
   struct rb_node **p = &dstat_tree[(signed long int)dstat_curr].rb_node;
   struct rb_node *parent = (struct rb_node *)(void *)0;
   struct dstat *dstat;
-  struct dstat *tmp_statement_expression$1;
+  struct dstat *tmp_statement_expression_1;
   while(!(*p == ((struct rb_node *)NULL)))
   {
     parent = *p;
     const struct rb_node *__mptr = parent;
-    tmp_statement_expression$1 = (struct dstat *)((char *)__mptr - (signed long int)(unsigned long int)&((struct dstat *)0)->node);
-    dstat = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct dstat *)((char *)__mptr - (signed long int)(unsigned long int)&((struct dstat *)0)->node);
+    dstat = tmp_statement_expression_1;
     if(!(dstat->msg.stat.device >= device))
       p = &(*p)->rb_left;
 
@@ -1432,9 +1432,9 @@ static void * blkiomon_interval(void *data)
   while((_Bool)1)
   {
     wake.tv_sec = wake.tv_sec + (signed long int)interval;
-    signed int return_value_clock_nanosleep$1;
-    return_value_clock_nanosleep$1=clock_nanosleep(0, 1, &wake, &r);
-    if(!(return_value_clock_nanosleep$1 == 0))
+    signed int return_value_clock_nanosleep_1;
+    return_value_clock_nanosleep_1=clock_nanosleep(0, 1, &wake, &r);
+    if(!(return_value_clock_nanosleep_1 == 0))
       fprintf(stderr, "blkiomon: interrupted sleep");
 
     else
@@ -1498,16 +1498,16 @@ static signed int blkiomon_open_output(struct output *out)
 {
   signed int mode;
   signed int vbuf_size;
-  void *return_value_malloc$2;
-  signed int return_value_setvbuf$3;
+  void *return_value_malloc_2;
+  signed int return_value_setvbuf_3;
   if(out->fn == ((char *)NULL))
     return 0;
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(out->fn, "-");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(out->fn, "-");
+    if(return_value_strcmp_1 == 0)
     {
       out->fp=fdopen(1, "w");
       mode = 1;
@@ -1524,10 +1524,10 @@ static signed int blkiomon_open_output(struct output *out)
     }
     if(!(out->fp == ((struct _IO_FILE *)NULL)))
     {
-      return_value_malloc$2=malloc((unsigned long int)(128 * 1024));
-      out->buf = (char *)return_value_malloc$2;
-      return_value_setvbuf$3=setvbuf(out->fp, out->buf, mode, (unsigned long int)vbuf_size);
-      if(!(return_value_setvbuf$3 == 0))
+      return_value_malloc_2=malloc((unsigned long int)(128 * 1024));
+      out->buf = (char *)return_value_malloc_2;
+      return_value_setvbuf_3=setvbuf(out->fp, out->buf, mode, (unsigned long int)vbuf_size);
+      if(!(return_value_setvbuf_3 == 0))
         goto failed;
 
       return 0;
@@ -1570,20 +1570,20 @@ static struct dstat * blkiomon_output(struct dstat *head, struct timespec *ts)
 static signed int blkiomon_output_binary(struct dstat *dstat)
 {
   struct blkiomon_stat *p = &dstat->msg.stat;
-  signed int return_value_fflush$2;
+  signed int return_value_fflush_2;
   if(binary.fn == ((char *)NULL))
     return 0;
 
   else
   {
-    unsigned long int return_value_fwrite$1;
-    return_value_fwrite$1=fwrite((const void *)p, sizeof(struct blkiomon_stat) /*424ul*/ , (unsigned long int)1, binary.fp);
-    if(return_value_fwrite$1 == 1ul)
+    unsigned long int return_value_fwrite_1;
+    return_value_fwrite_1=fwrite((const void *)p, sizeof(struct blkiomon_stat) /*424ul*/ , (unsigned long int)1, binary.fp);
+    if(return_value_fwrite_1 == 1ul)
     {
       if(!(binary.pipe == 0))
       {
-        return_value_fflush$2=fflush(binary.fp);
-        if(!(return_value_fflush$2 == 0))
+        return_value_fflush_2=fflush(binary.fp);
+        if(!(return_value_fflush_2 == 0))
           goto failed;
 
       }
@@ -1614,9 +1614,9 @@ static signed int blkiomon_output_msg_q(struct dstat *dstat)
   else
   {
     dstat->msg.mtype = msg_id;
-    signed int return_value_msgsnd$1;
-    return_value_msgsnd$1=msgsnd(msg_q, (const void *)&dstat->msg, sizeof(struct blkiomon_stat) /*424ul*/ , 0);
-    return return_value_msgsnd$1;
+    signed int return_value_msgsnd_1;
+    return_value_msgsnd_1=msgsnd(msg_q, (const void *)&dstat->msg, sizeof(struct blkiomon_stat) /*424ul*/ , 0);
+    return return_value_msgsnd_1;
   }
 }
 
@@ -1647,9 +1647,9 @@ static inline void blkiomon_stat_print(struct _IO_FILE *fp, struct blkiomon_stat
 {
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime((const signed long int *)(void *)&p->time);
-    fprintf(fp, "\ntime: %s", return_value_ctime$1);
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime((const signed long int *)(void *)&p->time);
+    fprintf(fp, "\ntime: %s", return_value_ctime_1);
     fprintf(fp, "device: %d,%d\n", (unsigned int)(p->device >> 20), (unsigned int)(p->device & (1U << 20) - (unsigned int)1));
     minmax_print(fp, "sizes read (bytes)", &p->size_r);
     minmax_print(fp, "sizes write (bytes)", &p->size_w);
@@ -1777,19 +1777,19 @@ static inline void histlog2_account(unsigned int *bucket, unsigned int val, stru
 static inline signed int histlog2_index(unsigned long long int val, struct histlog2 *h)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$2;
-  unsigned long long int return_value_histlog2_upper_limit$1;
+  _Bool tmp_if_expr_2;
+  unsigned long long int return_value_histlog2_upper_limit_1;
   do
   {
     if(!(i >= h->num + -1))
     {
-      return_value_histlog2_upper_limit$1=histlog2_upper_limit(i, h);
-      tmp_if_expr$2 = val > return_value_histlog2_upper_limit$1 ? (_Bool)1 : (_Bool)0;
+      return_value_histlog2_upper_limit_1=histlog2_upper_limit(i, h);
+      tmp_if_expr_2 = val > return_value_histlog2_upper_limit_1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     i = i + 1;
@@ -1807,16 +1807,16 @@ static inline void histlog2_print(struct _IO_FILE *fp, const char *s, unsigned i
   i = 0;
   for( ; !(i >= h->num + -1); i = i + 1)
   {
-    unsigned long long int return_value_histlog2_upper_limit$1;
-    return_value_histlog2_upper_limit$1=histlog2_upper_limit(i, h);
-    fprintf(fp, "   %10ld:%6d", (unsigned long int)return_value_histlog2_upper_limit$1, a[(signed long int)i]);
+    unsigned long long int return_value_histlog2_upper_limit_1;
+    return_value_histlog2_upper_limit_1=histlog2_upper_limit(i, h);
+    fprintf(fp, "   %10ld:%6d", (unsigned long int)return_value_histlog2_upper_limit_1, a[(signed long int)i]);
     if((1 + i) % 4 == 0)
       fprintf(fp, "\n");
 
   }
-  unsigned long long int return_value_histlog2_upper_limit$2;
-  return_value_histlog2_upper_limit$2=histlog2_upper_limit(i - 1, h);
-  fprintf(fp, "    >%8ld:%6d\n", (unsigned long int)return_value_histlog2_upper_limit$2, a[(signed long int)i]);
+  unsigned long long int return_value_histlog2_upper_limit_2;
+  return_value_histlog2_upper_limit_2=histlog2_upper_limit(i - 1, h);
+  fprintf(fp, "    >%8ld:%6d\n", (unsigned long int)return_value_histlog2_upper_limit_2, a[(signed long int)i]);
 }
 
 // histlog2_to_be
@@ -1832,13 +1832,13 @@ static inline void histlog2_to_be(unsigned int *a, struct histlog2 *h)
 // file stats.h line 109
 static inline unsigned long long int histlog2_upper_limit(signed int index, struct histlog2 *h)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(index == 0))
-    tmp_if_expr$1 = h->delta << index - 1;
+    tmp_if_expr_1 = h->delta << index - 1;
 
   else
-    tmp_if_expr$1 = 0;
-  return (unsigned long long int)(h->first + tmp_if_expr$1);
+    tmp_if_expr_1 = 0;
+  return (unsigned long long int)(h->first + tmp_if_expr_1);
 }
 
 // main
@@ -1850,7 +1850,7 @@ signed int main(signed int argc, char **argv)
   signal(2, blkiomon_signal);
   signal(15, blkiomon_signal);
   signal(3, blkiomon_signal);
-  signed int return_value_atoi$1;
+  signed int return_value_atoi_1;
   do
   {
     c=getopt_long(argc, argv, "b:d:D:h:I:Q:q:m:V", l_opts, (signed int *)(void *)0);
@@ -1896,8 +1896,8 @@ signed int main(signed int argc, char **argv)
       }
       case 109:
       {
-        return_value_atoi$1=atoi(optarg);
-        msg_id = (signed long int)return_value_atoi$1;
+        return_value_atoi_1=atoi(optarg);
+        msg_id = (signed long int)return_value_atoi_1;
         break;
       }
       case 86:
@@ -1930,44 +1930,44 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      signed int return_value_blkiomon_open_output$2;
-      return_value_blkiomon_open_output$2=blkiomon_open_output(&human);
-      if(!(return_value_blkiomon_open_output$2 == 0))
+      signed int return_value_blkiomon_open_output_2;
+      return_value_blkiomon_open_output_2=blkiomon_open_output(&human);
+      if(!(return_value_blkiomon_open_output_2 == 0))
         return 1;
 
       else
       {
-        signed int return_value_blkiomon_open_output$3;
-        return_value_blkiomon_open_output$3=blkiomon_open_output(&binary);
-        if(!(return_value_blkiomon_open_output$3 == 0))
+        signed int return_value_blkiomon_open_output_3;
+        return_value_blkiomon_open_output_3=blkiomon_open_output(&binary);
+        if(!(return_value_blkiomon_open_output_3 == 0))
           return 1;
 
         else
         {
-          signed int return_value_blkiomon_open_output$4;
-          return_value_blkiomon_open_output$4=blkiomon_open_output(&drvdata);
-          if(!(return_value_blkiomon_open_output$4 == 0))
+          signed int return_value_blkiomon_open_output_4;
+          return_value_blkiomon_open_output_4=blkiomon_open_output(&drvdata);
+          if(!(return_value_blkiomon_open_output_4 == 0))
             return 1;
 
           else
           {
-            signed int return_value_blkiomon_open_output$5;
-            return_value_blkiomon_open_output$5=blkiomon_open_output(&debug);
-            if(!(return_value_blkiomon_open_output$5 == 0))
+            signed int return_value_blkiomon_open_output_5;
+            return_value_blkiomon_open_output_5=blkiomon_open_output(&debug);
+            if(!(return_value_blkiomon_open_output_5 == 0))
               return 1;
 
             else
             {
-              signed int return_value_blkiomon_open_msg_q$6;
-              return_value_blkiomon_open_msg_q$6=blkiomon_open_msg_q();
-              if(!(return_value_blkiomon_open_msg_q$6 == 0))
+              signed int return_value_blkiomon_open_msg_q_6;
+              return_value_blkiomon_open_msg_q_6=blkiomon_open_msg_q();
+              if(!(return_value_blkiomon_open_msg_q_6 == 0))
                 return 1;
 
               else
               {
-                signed int return_value_pthread_create$7;
-                return_value_pthread_create$7=pthread_create(&interval_thread, (const union pthread_attr_t *)(void *)0, blkiomon_interval, (void *)0);
-                if(!(return_value_pthread_create$7 == 0))
+                signed int return_value_pthread_create_7;
+                return_value_pthread_create_7=pthread_create(&interval_thread, (const union pthread_attr_t *)(void *)0, blkiomon_interval, (void *)0);
+                if(!(return_value_pthread_create_7 == 0))
                 {
                   fprintf(stderr, "blkiomon: could not create thread");
                   return 1;
@@ -2029,13 +2029,13 @@ static inline void minmax_init(struct minmax *mm)
 // file stats.h line 94
 static inline signed int minmax_print(struct _IO_FILE *fp, const char *s, struct minmax *mm)
 {
-  double return_value_minmax_avg$1;
-  return_value_minmax_avg$1=minmax_avg(mm);
-  double return_value_minmax_var$2;
-  return_value_minmax_var$2=minmax_var(mm);
-  signed int return_value_fprintf$3;
-  return_value_fprintf$3=fprintf(fp, "%s: num %Ld, min %Ld, max %Ld, sum %Ld, squ %Ld, avg %.1f, var %.1f\n", s, (unsigned long long int)mm->num, (unsigned long long int)mm->min, (unsigned long long int)mm->max, (unsigned long long int)mm->sum, (unsigned long long int)mm->sos, return_value_minmax_avg$1, return_value_minmax_var$2);
-  return return_value_fprintf$3;
+  double return_value_minmax_avg_1;
+  return_value_minmax_avg_1=minmax_avg(mm);
+  double return_value_minmax_var_2;
+  return_value_minmax_var_2=minmax_var(mm);
+  signed int return_value_fprintf_3;
+  return_value_fprintf_3=fprintf(fp, "%s: num %Ld, min %Ld, max %Ld, sum %Ld, squ %Ld, avg %.1f, var %.1f\n", s, (unsigned long long int)mm->num, (unsigned long long int)mm->min, (unsigned long long int)mm->max, (unsigned long long int)mm->sum, (unsigned long long int)mm->sos, return_value_minmax_avg_1, return_value_minmax_var_2);
+  return return_value_fprintf_3;
 }
 
 // minmax_to_be
@@ -2181,13 +2181,13 @@ extern void rb_insert_color(struct rb_node *node, struct rb_root *root)
     gparent = (struct rb_node *)(parent->rb_parent_color & (unsigned long int)~3);
     if(parent == gparent->rb_left)
     {
-      struct rb_node *rb_insert_color$$1$$1$$1$$1$$uncle = gparent->rb_right;
-      if(!(rb_insert_color$$1$$1$$1$$1$$uncle == ((struct rb_node *)NULL)))
+      struct rb_node *rb_insert_color__1__1__1__1__uncle = gparent->rb_right;
+      if(!(rb_insert_color__1__1__1__1__uncle == ((struct rb_node *)NULL)))
       {
-        if((1ul & rb_insert_color$$1$$1$$1$$1$$uncle->rb_parent_color) == 0ul)
+        if((1ul & rb_insert_color__1__1__1__1__uncle->rb_parent_color) == 0ul)
         {
           do
-            rb_insert_color$$1$$1$$1$$1$$uncle->rb_parent_color = rb_insert_color$$1$$1$$1$$1$$uncle->rb_parent_color | (unsigned long int)1;
+            rb_insert_color__1__1__1__1__uncle->rb_parent_color = rb_insert_color__1__1__1__1__uncle->rb_parent_color | (unsigned long int)1;
           while((_Bool)0);
           do
             parent->rb_parent_color = parent->rb_parent_color | (unsigned long int)1;
@@ -2203,11 +2203,11 @@ extern void rb_insert_color(struct rb_node *node, struct rb_root *root)
 
       if(parent->rb_right == node)
       {
-        struct rb_node *rb_insert_color$$1$$1$$1$$2$$tmp;
+        struct rb_node *rb_insert_color__1__1__1__2__tmp;
         __rb_rotate_left(parent, root);
-        rb_insert_color$$1$$1$$1$$2$$tmp = parent;
+        rb_insert_color__1__1__1__2__tmp = parent;
         parent = node;
-        node = rb_insert_color$$1$$1$$1$$2$$tmp;
+        node = rb_insert_color__1__1__1__2__tmp;
       }
 
       do
@@ -2408,8 +2408,8 @@ static inline void rb_set_parent(struct rb_node *rb, struct rb_node *p)
 // file blktrace.h line 105
 static inline void trace_to_cpu(struct blk_io_trace *t)
 {
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_2;
   if(data_is_native == 0)
   {
     t->magic=__bswap_32(t->magic);
@@ -2422,15 +2422,15 @@ static inline void trace_to_cpu(struct blk_io_trace *t)
     t->device=__bswap_32(t->device);
     t->cpu=__bswap_32(t->cpu);
     unsigned short int __v;
-    unsigned short int trace_to_cpu$$1$$1$$__x = (unsigned short int)t->error;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(trace_to_cpu$$1$$1$$__x) : "cc");
-    tmp_statement_expression$1 = __v;
-    t->error = tmp_statement_expression$1;
-    unsigned short int trace_to_cpu$$1$$2$$__v;
+    unsigned short int trace_to_cpu__1__1____x = (unsigned short int)t->error;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(trace_to_cpu__1__1____x) : "cc");
+    tmp_statement_expression_1 = __v;
+    t->error = tmp_statement_expression_1;
+    unsigned short int trace_to_cpu__1__2____v;
     unsigned short int __x = (unsigned short int)t->pdu_len;
-    asm("rorw $8, %w0" : "=r"(trace_to_cpu$$1$$2$$__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = trace_to_cpu$$1$$2$$__v;
-    t->pdu_len = tmp_statement_expression$2;
+    asm("rorw _8, %w0" : "=r"(trace_to_cpu__1__2____v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = trace_to_cpu__1__2____v;
+    t->pdu_len = tmp_statement_expression_2;
   }
 
 }

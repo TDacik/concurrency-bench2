@@ -1,210 +1,210 @@
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}$S8$'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'$pad0'||*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#$'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'||S32'qlen'||U32'$pad2'||U64'last_request_read'||U64'request'||*{S8}$S8$'private11'||*{S8}$S8$'private12'||*{S8}$S8$'private13'||*{S8}$S8$'private14'||U32'max_request_size'||U32'$pad3'||*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'||*{S8}$S8$'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}$S8$'private17'||*{S8}$S8$'private18'||S32'private19'||U32'$pad4'||*{S8}$S8$'xdefaults'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}_S8_'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'_pad0'||*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#_'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'||S32'qlen'||U32'_pad2'||U64'last_request_read'||U64'request'||*{S8}_S8_'private11'||*{S8}_S8_'private12'||*{S8}_S8_'private13'||*{S8}_S8_'private14'||U32'max_request_size'||U32'_pad3'||*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'||*{S8}_S8_'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}_S8_'private17'||*{S8}_S8_'private18'||S32'private19'||U32'_pad4'||*{S8}_S8_'xdefaults'|]
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]
+// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'$pad1'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'_pad1'|]
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'|]
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'$pad2'||*{V}$V$'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'_pad2'||*{V}_V_'data'|]
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'from_configure'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'from_configure'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$40;
+struct anonymous_40;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'override_redirect'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'override_redirect'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$48;
+struct anonymous_48;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'detail'||U32'$pad3'||U64'value_mask'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'detail'||U32'_pad3'||U64'value_mask'|]
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 870
 struct anonymous;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||ARR32{S8}$S8$'key_vector'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||ARR32{S8}_S8_'key_vector'|]
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'mode'||S32'detail'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'mode'||S32'detail'|]
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'width'||S32'height'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'width'||S32'height'|]
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$47;
+struct anonymous_47;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'message_type'||S32'format'||U32'$pad2'||SYM#tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]#'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'message_type'||S32'format'||U32'_pad2'||SYM#tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]#'data'|]
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'$pad2'||S32'same_screen'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'_pad2'||S32'same_screen'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'selection'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'selection'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]
+// tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$26;
+union anonymous_26;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$25;
+union anonymous_25;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -340,7 +340,7 @@ extern signed int XSelectInput(struct _XDisplay *, unsigned long int, signed lon
 extern signed int XSendEvent(struct _XDisplay *, unsigned long int, signed int, signed long int, union _XEvent *);
 // XSetErrorHandler
 // file /usr/include/X11/Xlib.h line 1848
-extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous$31 *)))(struct _XDisplay *, struct anonymous$31 *);
+extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous_31 *)))(struct _XDisplay *, struct anonymous_31 *);
 // XStringToKeysym
 // file /usr/include/X11/Xlib.h line 1710
 extern unsigned long int XStringToKeysym(const char *);
@@ -457,7 +457,7 @@ extern void * memset(void *, signed int, unsigned long int);
 extern signed int mkdir(const char *, unsigned int);
 // myx_error_handler
 // file g15macro.c line 750
-signed int myx_error_handler(struct _XDisplay *dpy, struct anonymous$31 *err);
+signed int myx_error_handler(struct _XDisplay *dpy, struct anonymous_31 *err);
 // new_g15_screen
 // file /usr/include/g15daemon_client.h line 60
 signed int new_g15_screen(signed int);
@@ -487,16 +487,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$25 *);
+extern signed int pthread_mutex_destroy(union anonymous_25 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$25 *, const union anonymous$26 *);
+extern signed int pthread_mutex_init(union anonymous_25 *, const union anonymous_26 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$25 *);
+extern signed int pthread_mutex_lock(union anonymous_25 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$25 *);
+extern signed int pthread_mutex_unlock(union anonymous_25 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -570,7 +570,7 @@ static void * xevent_thread();
 // file g15macro.c line 624
 void xkey_handler(union _XEvent *event);
 
-struct anonymous$22
+struct anonymous_22
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -589,11 +589,11 @@ struct anonymous$22
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$17 *depths;
+  struct anonymous_17 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$15 *root_visual;
+  struct anonymous_15 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -614,7 +614,7 @@ struct anonymous$22
   signed long int root_input_mask;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -651,7 +651,7 @@ struct anonymous$9
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$27 *pixmap_format;
+  struct anonymous_27 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -687,7 +687,7 @@ struct anonymous$9
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$22 *screens;
+  struct anonymous_22 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -706,7 +706,7 @@ struct anonymous$9
   char *xdefaults;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -718,7 +718,7 @@ struct anonymous$27
   signed int scanline_pad;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -738,7 +738,7 @@ struct anonymous$15
   signed int map_entries;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // _call_addr
   void *_call_addr;
@@ -748,7 +748,7 @@ struct anonymous$18
   unsigned int _arch;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_addr
   void *si_addr;
@@ -756,23 +756,23 @@ struct anonymous$11
   signed short int si_addr_lsb;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$15 *visuals;
+  struct anonymous_15 *visuals;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // si_pid
   signed int si_pid;
@@ -780,7 +780,7 @@ struct anonymous$1
   unsigned int si_uid;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_pid
   signed int si_pid;
@@ -802,7 +802,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_pid
   signed int si_pid;
@@ -812,7 +812,7 @@ struct anonymous$5
   union sigval si_sigval;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // si_tid
   signed int si_tid;
@@ -822,7 +822,7 @@ struct anonymous$2
   union sigval si_sigval;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_band
   signed long int si_band;
@@ -830,27 +830,27 @@ struct anonymous$16
   signed int si_fd;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$1 _kill;
+  struct anonymous_1 _kill;
   // _timer
-  struct anonymous$2 _timer;
+  struct anonymous_2 _timer;
   // _rt
-  struct anonymous$5 _rt;
+  struct anonymous_5 _rt;
   // _sigchld
-  struct anonymous$6 _sigchld;
+  struct anonymous_6 _sigchld;
   // _sigfault
-  struct anonymous$11 _sigfault;
+  struct anonymous_11 _sigfault;
   // _sigpoll
-  struct anonymous$16 _sigpoll;
+  struct anonymous_16 _sigpoll;
   // _sigsys
-  struct anonymous$18 _sigsys;
+  struct anonymous_18 _sigsys;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_signo
   signed int si_signo;
@@ -859,10 +859,10 @@ struct anonymous$10
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$19 _sifields;
+  union anonymous_19 _sifields;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // type
   signed int type;
@@ -880,7 +880,7 @@ struct anonymous$31
   unsigned char minor_code;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // type
   signed int type;
@@ -896,7 +896,7 @@ struct anonymous$13
   signed int evtype;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // type
   signed int type;
@@ -916,7 +916,7 @@ struct anonymous$14
   void *data;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // type
   signed int type;
@@ -934,7 +934,7 @@ struct anonymous$33
   signed int minor_code;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // type
   signed int type;
@@ -962,7 +962,7 @@ struct anonymous$32
   signed int minor_code;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // type
   signed int type;
@@ -978,7 +978,7 @@ struct anonymous$39
   unsigned long int window;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // type
   signed int type;
@@ -996,7 +996,7 @@ struct anonymous$40
   signed int from_configure;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // type
   signed int type;
@@ -1014,7 +1014,7 @@ struct anonymous$41
   signed int override_redirect;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // type
   signed int type;
@@ -1032,7 +1032,7 @@ struct anonymous$50
   signed int place;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // type
   signed int type;
@@ -1052,7 +1052,7 @@ struct anonymous$46
   signed int y;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // type
   signed int type;
@@ -1082,7 +1082,7 @@ struct anonymous$45
   signed int override_redirect;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // type
   signed int type;
@@ -1106,7 +1106,7 @@ struct anonymous$44
   signed int override_redirect;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // type
   signed int type;
@@ -1130,7 +1130,7 @@ struct anonymous$48
   unsigned long int time;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // type
   signed int type;
@@ -1146,7 +1146,7 @@ struct anonymous$43
   unsigned long int window;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
   signed int type;
@@ -1164,7 +1164,7 @@ struct anonymous$35
   signed int place;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // type
   signed int type;
@@ -1192,7 +1192,7 @@ struct anonymous$36
   signed int override_redirect;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // type
   signed int type;
@@ -1246,7 +1246,7 @@ struct anonymous
   unsigned long int time;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // type
   signed int type;
@@ -1260,7 +1260,7 @@ struct anonymous$20
   unsigned long int window;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // type
   signed int type;
@@ -1276,7 +1276,7 @@ struct anonymous$8
   char key_vector[32l];
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // type
   signed int type;
@@ -1294,7 +1294,7 @@ struct anonymous$29
   signed int detail;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // type
   signed int type;
@@ -1314,7 +1314,7 @@ struct anonymous$7
   signed int count;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // type
   signed int type;
@@ -1330,7 +1330,7 @@ struct anonymous$34
   signed int state;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // type
   signed int type;
@@ -1348,7 +1348,7 @@ struct anonymous$47
   signed int height;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // type
   signed int type;
@@ -1372,7 +1372,7 @@ struct anonymous$30
   signed int count;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
   signed int type;
@@ -1392,7 +1392,7 @@ struct anonymous$38
   signed int state;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // type
   signed int type;
@@ -1412,7 +1412,7 @@ struct anonymous$0
   signed int state;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // b
   char b[20l];
@@ -1422,7 +1422,7 @@ union anonymous$3
   signed long int l[5l];
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // type
   signed int type;
@@ -1439,10 +1439,10 @@ struct anonymous$4
   // format
   signed int format;
   // data
-  union anonymous$3 data;
+  union anonymous_3 data;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // type
   signed int type;
@@ -1480,7 +1480,7 @@ struct anonymous$28
   unsigned int state;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // type
   signed int type;
@@ -1514,7 +1514,7 @@ struct anonymous$24
   signed int same_screen;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // type
   signed int type;
@@ -1548,7 +1548,7 @@ struct anonymous$21
   signed int same_screen;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // type
   signed int type;
@@ -1582,7 +1582,7 @@ struct anonymous$37
   signed int same_screen;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // type
   signed int type;
@@ -1600,15 +1600,15 @@ struct anonymous$42
   unsigned long int time;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$10 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_10 *, void *);
 };
 
-union anonymous$26
+union anonymous_26
 {
   // __size
   char __size[4l];
@@ -1644,7 +1644,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1731,71 +1731,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$20 xany;
+  struct anonymous_20 xany;
   // xkey
-  struct anonymous$37 xkey;
+  struct anonymous_37 xkey;
   // xbutton
-  struct anonymous$21 xbutton;
+  struct anonymous_21 xbutton;
   // xmotion
-  struct anonymous$24 xmotion;
+  struct anonymous_24 xmotion;
   // xcrossing
-  struct anonymous$28 xcrossing;
+  struct anonymous_28 xcrossing;
   // xfocus
-  struct anonymous$29 xfocus;
+  struct anonymous_29 xfocus;
   // xexpose
-  struct anonymous$30 xexpose;
+  struct anonymous_30 xexpose;
   // xgraphicsexpose
-  struct anonymous$32 xgraphicsexpose;
+  struct anonymous_32 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$33 xnoexpose;
+  struct anonymous_33 xnoexpose;
   // xvisibility
-  struct anonymous$34 xvisibility;
+  struct anonymous_34 xvisibility;
   // xcreatewindow
-  struct anonymous$36 xcreatewindow;
+  struct anonymous_36 xcreatewindow;
   // xdestroywindow
-  struct anonymous$39 xdestroywindow;
+  struct anonymous_39 xdestroywindow;
   // xunmap
-  struct anonymous$40 xunmap;
+  struct anonymous_40 xunmap;
   // xmap
-  struct anonymous$41 xmap;
+  struct anonymous_41 xmap;
   // xmaprequest
-  struct anonymous$43 xmaprequest;
+  struct anonymous_43 xmaprequest;
   // xreparent
-  struct anonymous$44 xreparent;
+  struct anonymous_44 xreparent;
   // xconfigure
-  struct anonymous$45 xconfigure;
+  struct anonymous_45 xconfigure;
   // xgravity
-  struct anonymous$46 xgravity;
+  struct anonymous_46 xgravity;
   // xresizerequest
-  struct anonymous$47 xresizerequest;
+  struct anonymous_47 xresizerequest;
   // xconfigurerequest
-  struct anonymous$49 xconfigurerequest;
+  struct anonymous_49 xconfigurerequest;
   // xcirculate
-  struct anonymous$50 xcirculate;
+  struct anonymous_50 xcirculate;
   // xcirculaterequest
-  struct anonymous$35 xcirculaterequest;
+  struct anonymous_35 xcirculaterequest;
   // xproperty
-  struct anonymous$38 xproperty;
+  struct anonymous_38 xproperty;
   // xselectionclear
-  struct anonymous$42 xselectionclear;
+  struct anonymous_42 xselectionclear;
   // xselectionrequest
-  struct anonymous$48 xselectionrequest;
+  struct anonymous_48 xselectionrequest;
   // xselection
   struct anonymous xselection;
   // xcolormap
-  struct anonymous$0 xcolormap;
+  struct anonymous_0 xcolormap;
   // xclient
-  struct anonymous$4 xclient;
+  struct anonymous_4 xclient;
   // xmapping
-  struct anonymous$7 xmapping;
+  struct anonymous_7 xmapping;
   // xerror
-  struct anonymous$31 xerror;
+  struct anonymous_31 xerror;
   // xkeymap
-  struct anonymous$8 xkeymap;
+  struct anonymous_8 xkeymap;
   // xgeneric
-  struct anonymous$13 xgeneric;
+  struct anonymous_13 xgeneric;
   // xcookie
-  struct anonymous$14 xcookie;
+  struct anonymous_14 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -1909,9 +1909,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$12 __sigaction_handler;
+  union anonymous_12 __sigaction_handler;
   // sa_mask
-  struct anonymous$23 sa_mask;
+  struct anonymous_23 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1943,7 +1943,7 @@ struct g15canvas *canvas;
 signed int config_fd = 0;
 // config_mutex
 // file g15macro.c line 68
-union anonymous$25 config_mutex;
+union anonymous_25 config_mutex;
 // current_recording
 // file g15macro.c line 112
 struct current_recording current_recording;
@@ -2006,7 +2006,7 @@ static unsigned long int root_win;
 extern struct _IO_FILE *stderr;
 // x11mutex
 // file g15macro.c line 67
-union anonymous$25 x11mutex;
+union anonymous_25 x11mutex;
 
 // Lkeys_thread
 // file g15macro.c line 532
@@ -2016,14 +2016,14 @@ void * Lkeys_thread()
   struct pollfd fds;
   char ver[5l];
   signed int foo = 0;
-  const char *return_value_g15daemon_version$1;
-  return_value_g15daemon_version$1=g15daemon_version();
-  strncpy(ver, return_value_g15daemon_version$1, (unsigned long int)3);
+  const char *return_value_g15daemon_version_1;
+  return_value_g15daemon_version_1=g15daemon_version();
+  strncpy(ver, return_value_g15daemon_version_1, (unsigned long int)3);
   float g15v;
   sscanf(ver, "%f", &g15v);
   g15macro_log("Using version %.2f as keypress protocol\n", g15v);
   signed int fg_check;
-  unsigned long int return_value_g15_send_cmd$3;
+  unsigned long int return_value_g15_send_cmd_3;
   while(leaving == 0)
   {
     if(g15v * 10.000000f <= 18.000000f)
@@ -2035,9 +2035,9 @@ void * Lkeys_thread()
       fds.events = (signed short int)0x001;
       fds.revents = (signed short int)0;
       keystate = (unsigned long int)0;
-      signed int return_value_poll$2;
-      return_value_poll$2=poll(&fds, (unsigned long int)1, 1000);
-      if(return_value_poll$2 >= 1)
+      signed int return_value_poll_2;
+      return_value_poll_2=poll(&fds, (unsigned long int)1, 1000);
+      if(return_value_poll_2 >= 1)
         read(g15screen_fd, (void *)&keystate, sizeof(unsigned long int) /*8ul*/ );
 
     }
@@ -2048,8 +2048,8 @@ void * Lkeys_thread()
       {
         case (unsigned long int)67108864:
         {
-          return_value_g15_send_cmd$3=g15_send_cmd(g15screen_fd, (unsigned char)118, (unsigned char)foo);
-          fg_check = (signed int)return_value_g15_send_cmd$3;
+          return_value_g15_send_cmd_3=g15_send_cmd(g15screen_fd, (unsigned char)118, (unsigned char)foo);
+          fg_check = (signed int)return_value_g15_send_cmd_3;
           if(!(fg_check == 0))
             leaving = 1;
 
@@ -2059,9 +2059,9 @@ void * Lkeys_thread()
         {
           if(recording == 0)
           {
-            unsigned long int return_value_g15_send_cmd$4;
-            return_value_g15_send_cmd$4=g15_send_cmd(g15screen_fd, (unsigned char)118, (unsigned char)foo);
-            if(return_value_g15_send_cmd$4 == 0ul)
+            unsigned long int return_value_g15_send_cmd_4;
+            return_value_g15_send_cmd_4=g15_send_cmd(g15screen_fd, (unsigned char)118, (unsigned char)foo);
+            if(return_value_g15_send_cmd_4 == 0ul)
             {
               usleep((unsigned int)1000);
               g15_send_cmd(g15screen_fd, (unsigned char)112, (unsigned char)foo);
@@ -2071,9 +2071,9 @@ void * Lkeys_thread()
             usleep((unsigned int)1000);
             g15_send_cmd(g15screen_fd, (unsigned char)0x20, (unsigned char)((unsigned int)8 | mled_state));
             g15r_initCanvas(canvas);
-            unsigned long int return_value_strlen$5;
-            return_value_strlen$5=strlen("Recording");
-            g15r_renderString(canvas, (unsigned char *)"Recording", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen$5 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)1);
+            unsigned long int return_value_strlen_5;
+            return_value_strlen_5=strlen("Recording");
+            g15r_renderString(canvas, (unsigned char *)"Recording", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen_5 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)1);
             g15_send(g15screen_fd, (char *)canvas->buffer, (unsigned int)1048);
             g15macro_log("Recording Enabled\n");
             recording = 1;
@@ -2205,9 +2205,9 @@ void dump_config(struct _IO_FILE *configfile)
       {
         signed int mkey_offset = 0;
         mkey_offset=calc_mkey_offset();
-        char *return_value_XKeysymToString$1;
-        return_value_XKeysymToString$1=XKeysymToString((unsigned long int)gkeydefaults[(signed long int)(gkey + mkey_offset)]);
-        fprintf(configfile, "\t%s\n", return_value_XKeysymToString$1);
+        char *return_value_XKeysymToString_1;
+        return_value_XKeysymToString_1=XKeysymToString((unsigned long int)gkeydefaults[(signed long int)(gkey + mkey_offset)]);
+        fprintf(configfile, "\t%s\n", return_value_XKeysymToString_1);
       }
 
       else
@@ -2217,9 +2217,9 @@ void dump_config(struct _IO_FILE *configfile)
         for( ; !((unsigned int)i >= mstates[(signed long int)mkey_state]->gkeys[(signed long int)gkey].keysequence.record_steps); i = i + 1)
         {
           key=XKeycodeToKeysym(dpy, (unsigned char)mstates[(signed long int)mkey_state]->gkeys[(signed long int)gkey].keysequence.recorded_keypress[(signed long int)i].keycode, 0);
-          char *return_value_XKeysymToString$2;
-          return_value_XKeysymToString$2=XKeysymToString(key);
-          fprintf(configfile, "\t%s %s %u\n", return_value_XKeysymToString$2, mstates[(signed long int)mkey_state]->gkeys[(signed long int)gkey].keysequence.recorded_keypress[(signed long int)i].pressed != 0 ? "Down" : "Up", (unsigned int)mstates[(signed long int)mkey_state]->gkeys[(signed long int)gkey].keysequence.recorded_keypress[(signed long int)i].modifiers);
+          char *return_value_XKeysymToString_2;
+          return_value_XKeysymToString_2=XKeysymToString(key);
+          fprintf(configfile, "\t%s %s %u\n", return_value_XKeysymToString_2, mstates[(signed long int)mkey_state]->gkeys[(signed long int)gkey].keysequence.recorded_keypress[(signed long int)i].pressed != 0 ? "Down" : "Up", (unsigned int)mstates[(signed long int)mkey_state]->gkeys[(signed long int)gkey].keysequence.recorded_keypress[(signed long int)i].modifiers);
         }
       }
     }
@@ -2243,15 +2243,15 @@ void fake_keyevent(signed int keycode, signed int keydown, unsigned long int mod
 
   else
   {
-    struct anonymous$37 event;
+    struct anonymous_37 event;
     unsigned long int current_focus;
     signed int dummy = 0;
     signed int key = 0;
     pthread_mutex_lock(&x11mutex);
     XGetInputFocus(dpy, &current_focus, &dummy);
-    unsigned long int return_value_XKeycodeToKeysym$1;
-    return_value_XKeycodeToKeysym$1=XKeycodeToKeysym(dpy, (unsigned char)keycode, 0);
-    key = (signed int)return_value_XKeycodeToKeysym$1;
+    unsigned long int return_value_XKeycodeToKeysym_1;
+    return_value_XKeycodeToKeysym_1=XKeycodeToKeysym(dpy, (unsigned char)keycode, 0);
+    key = (signed int)return_value_XKeycodeToKeysym_1;
     if(!(keydown == 0))
       event.type = 2;
 
@@ -2372,15 +2372,15 @@ void macro_playback(unsigned long int keystate)
       signed int mkey_offset = 0;
       mkey_offset=calc_mkey_offset();
       pthread_mutex_lock(&x11mutex);
-      unsigned char return_value_XKeysymToKeycode$1;
-      return_value_XKeysymToKeycode$1=XKeysymToKeycode(dpy, (unsigned long int)gkeydefaults[(signed long int)(gkey + mkey_offset)]);
-      keyevent = (signed int)return_value_XKeysymToKeycode$1;
+      unsigned char return_value_XKeysymToKeycode_1;
+      return_value_XKeysymToKeycode_1=XKeysymToKeycode(dpy, (unsigned long int)gkeydefaults[(signed long int)(gkey + mkey_offset)]);
+      keyevent = (signed int)return_value_XKeysymToKeycode_1;
       pthread_mutex_unlock(&x11mutex);
       fake_keyevent(keyevent, 1, (unsigned long int)0L);
       fake_keyevent(keyevent, 0, (unsigned long int)0L);
-      char *return_value_XKeysymToString$2;
-      return_value_XKeysymToString$2=XKeysymToString((unsigned long int)gkeydefaults[(signed long int)(gkey + mkey_offset)]);
-      g15macro_log("Key: \t%s\n", return_value_XKeysymToString$2);
+      char *return_value_XKeysymToString_2;
+      return_value_XKeysymToString_2=XKeysymToString((unsigned long int)gkeydefaults[(signed long int)(gkey + mkey_offset)]);
+      g15macro_log("Key: \t%s\n", return_value_XKeysymToString_2);
       goto __CPROVER_DUMP_L8;
     }
 
@@ -2393,9 +2393,9 @@ void macro_playback(unsigned long int keystate)
       pthread_mutex_lock(&x11mutex);
       key=XKeycodeToKeysym(dpy, (unsigned char)mstates[(signed long int)mkey_state]->gkeys[(signed long int)gkey].keysequence.recorded_keypress[(signed long int)i].keycode, 0);
       pthread_mutex_unlock(&x11mutex);
-      char *return_value_XKeysymToString$3;
-      return_value_XKeysymToString$3=XKeysymToString(key);
-      g15macro_log("\t%s %s\n", return_value_XKeysymToString$3, mstates[(signed long int)mkey_state]->gkeys[(signed long int)gkey].keysequence.recorded_keypress[(signed long int)i].pressed != 0 ? "Down" : "Up");
+      char *return_value_XKeysymToString_3;
+      return_value_XKeysymToString_3=XKeysymToString(key);
+      g15macro_log("\t%s %s\n", return_value_XKeysymToString_3, mstates[(signed long int)mkey_state]->gkeys[(signed long int)gkey].keysequence.recorded_keypress[(signed long int)i].pressed != 0 ? "Down" : "Up");
       if(key == 65507ul || key == 65508ul || key == 65511ul || key == 65512ul || key == 65513ul || key == 65514ul || key == 65515ul || key == 65516ul || key == 65517ul || key == 65518ul)
       {
         usleep((unsigned int)(mstates[(signed long int)mkey_state]->gkeys[(signed long int)gkey].keysequence.recorded_keypress[(signed long int)i].time_ms * (unsigned long int)1000));
@@ -2433,36 +2433,36 @@ signed int main(signed int argc, char **argv)
   unsigned int keysonly = (unsigned int)0;
   struct _IO_FILE *config;
   unsigned int convert = (unsigned int)0;
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("HOME");
-  strncpy(configpath, return_value_getenv$1, (unsigned long int)1024);
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("HOME");
+  strncpy(configpath, return_value_getenv_1, (unsigned long int)1024);
   memset((void *)user, 0, (unsigned long int)256);
   i = 0;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strncmp$3;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strncmp$6;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strncmp$9;
-  _Bool tmp_if_expr$13;
-  signed int return_value_strncmp$12;
-  _Bool tmp_if_expr$16;
-  signed int return_value_strncmp$15;
-  _Bool tmp_if_expr$19;
-  signed int return_value_strncmp$18;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strncmp_3;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strncmp_6;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strncmp_9;
+  _Bool tmp_if_expr_13;
+  signed int return_value_strncmp_12;
+  _Bool tmp_if_expr_16;
+  signed int return_value_strncmp_15;
+  _Bool tmp_if_expr_19;
+  signed int return_value_strncmp_18;
   for( ; !(i >= argc); i = i + 1)
   {
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(argv[(signed long int)i], "-u", (unsigned long int)2);
-    if(return_value_strncmp$2 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(argv[(signed long int)i], "-u", (unsigned long int)2);
+    if(return_value_strncmp_2 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$3=strncmp(argv[(signed long int)i], "--user", (unsigned long int)6);
-      tmp_if_expr$4 = !(return_value_strncmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_3=strncmp(argv[(signed long int)i], "--user", (unsigned long int)6);
+      tmp_if_expr_4 = !(return_value_strncmp_3 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       if(!(argv[(signed long int)(1 + i)] == ((char *)NULL)))
       {
@@ -2472,100 +2472,100 @@ signed int main(signed int argc, char **argv)
 
     }
 
-    signed int return_value_strncmp$5;
-    return_value_strncmp$5=strncmp(argv[(signed long int)i], "-d", (unsigned long int)2);
-    if(return_value_strncmp$5 == 0)
-      tmp_if_expr$7 = (_Bool)1;
+    signed int return_value_strncmp_5;
+    return_value_strncmp_5=strncmp(argv[(signed long int)i], "-d", (unsigned long int)2);
+    if(return_value_strncmp_5 == 0)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$6=strncmp(argv[(signed long int)i], "--dump", (unsigned long int)6);
-      tmp_if_expr$7 = !(return_value_strncmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_6=strncmp(argv[(signed long int)i], "--dump", (unsigned long int)6);
+      tmp_if_expr_7 = !(return_value_strncmp_6 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       dump = (unsigned int)1;
 
-    signed int return_value_strncmp$8;
-    return_value_strncmp$8=strncmp(argv[(signed long int)i], "-h", (unsigned long int)2);
-    if(return_value_strncmp$8 == 0)
-      tmp_if_expr$10 = (_Bool)1;
+    signed int return_value_strncmp_8;
+    return_value_strncmp_8=strncmp(argv[(signed long int)i], "-h", (unsigned long int)2);
+    if(return_value_strncmp_8 == 0)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$9=strncmp(argv[(signed long int)i], "--help", (unsigned long int)6);
-      tmp_if_expr$10 = !(return_value_strncmp$9 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_9=strncmp(argv[(signed long int)i], "--help", (unsigned long int)6);
+      tmp_if_expr_10 = !(return_value_strncmp_9 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$10)
+    if(tmp_if_expr_10)
     {
       helptext();
       exit(0);
     }
 
-    signed int return_value_strncmp$11;
-    return_value_strncmp$11=strncmp(argv[(signed long int)i], "-k", (unsigned long int)2);
-    if(return_value_strncmp$11 == 0)
-      tmp_if_expr$13 = (_Bool)1;
+    signed int return_value_strncmp_11;
+    return_value_strncmp_11=strncmp(argv[(signed long int)i], "-k", (unsigned long int)2);
+    if(return_value_strncmp_11 == 0)
+      tmp_if_expr_13 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$12=strncmp(argv[(signed long int)i], "--keysonly", (unsigned long int)10);
-      tmp_if_expr$13 = !(return_value_strncmp$12 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_12=strncmp(argv[(signed long int)i], "--keysonly", (unsigned long int)10);
+      tmp_if_expr_13 = !(return_value_strncmp_12 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$13)
+    if(tmp_if_expr_13)
       keysonly = (unsigned int)1;
 
-    signed int return_value_strncmp$14;
-    return_value_strncmp$14=strncmp(argv[(signed long int)i], "-g", (unsigned long int)2);
-    if(return_value_strncmp$14 == 0)
-      tmp_if_expr$16 = (_Bool)1;
+    signed int return_value_strncmp_14;
+    return_value_strncmp_14=strncmp(argv[(signed long int)i], "-g", (unsigned long int)2);
+    if(return_value_strncmp_14 == 0)
+      tmp_if_expr_16 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$15=strncmp(argv[(signed long int)i], "--debug", (unsigned long int)7);
-      tmp_if_expr$16 = !(return_value_strncmp$15 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_15=strncmp(argv[(signed long int)i], "--debug", (unsigned long int)7);
+      tmp_if_expr_16 = !(return_value_strncmp_15 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$16)
+    if(tmp_if_expr_16)
     {
       printf("Debugging Enabled\n");
       debug = 1;
     }
 
-    signed int return_value_strncmp$17;
-    return_value_strncmp$17=strncmp(argv[(signed long int)i], "-v", (unsigned long int)2);
-    if(return_value_strncmp$17 == 0)
-      tmp_if_expr$19 = (_Bool)1;
+    signed int return_value_strncmp_17;
+    return_value_strncmp_17=strncmp(argv[(signed long int)i], "-v", (unsigned long int)2);
+    if(return_value_strncmp_17 == 0)
+      tmp_if_expr_19 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$18=strncmp(argv[(signed long int)i], "--version", (unsigned long int)9);
-      tmp_if_expr$19 = !(return_value_strncmp$18 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_18=strncmp(argv[(signed long int)i], "--version", (unsigned long int)9);
+      tmp_if_expr_19 = !(return_value_strncmp_18 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$19)
+    if(tmp_if_expr_19)
     {
       printf("G15Macro version %s\n\n", (const void *)"1.0.3");
       exit(0);
     }
 
   }
-  unsigned long int return_value_strlen$23;
-  return_value_strlen$23=strlen((char *)user);
-  char *return_value_getenv$21;
-  if(!(return_value_strlen$23 == 0ul))
+  unsigned long int return_value_strlen_23;
+  return_value_strlen_23=strlen((char *)user);
+  char *return_value_getenv_21;
+  if(!(return_value_strlen_23 == 0ul))
   {
     username=getpwnam((char *)user);
     if(username == ((struct passwd *)NULL))
     {
-      unsigned int return_value_geteuid$20;
-      return_value_geteuid$20=geteuid();
-      username=getpwuid(return_value_geteuid$20);
+      unsigned int return_value_geteuid_20;
+      return_value_geteuid_20=geteuid();
+      username=getpwuid(return_value_geteuid_20);
       printf("BEWARE: running as effective uid %i\n", username->pw_uid);
     }
 
     else
     {
-      signed int return_value_setuid$22;
-      return_value_setuid$22=setuid(username->pw_uid);
-      if(return_value_setuid$22 == 0)
+      signed int return_value_setuid_22;
+      return_value_setuid_22=setuid(username->pw_uid);
+      if(return_value_setuid_22 == 0)
       {
         setgid(username->pw_gid);
         strncpy(configpath, username->pw_dir, (unsigned long int)1024);
@@ -2574,22 +2574,22 @@ signed int main(signed int argc, char **argv)
 
       else
       {
-        return_value_getenv$21=getenv("USER");
-        printf("Unable to run as user \"%s\" - you dont have permissions for that.\nRunning as \"%s\"\n", username->pw_name, return_value_getenv$21);
+        return_value_getenv_21=getenv("USER");
+        printf("Unable to run as user \"%s\" - you dont have permissions for that.\nRunning as \"%s\"\n", username->pw_name, return_value_getenv_21);
       }
     }
   }
 
   do
   {
-    char *return_value_getenv$24;
-    return_value_getenv$24=getenv("DISPLAY");
-    dpy=XOpenDisplay(return_value_getenv$24);
+    char *return_value_getenv_24;
+    return_value_getenv_24=getenv("DISPLAY");
+    dpy=XOpenDisplay(return_value_getenv_24);
     if(dpy == ((struct _XDisplay *)NULL))
     {
-      char *return_value_getenv$25;
-      return_value_getenv$25=getenv("DISPLAY");
-      printf("Unable to open display %s - retrying\n", return_value_getenv$25);
+      char *return_value_getenv_25;
+      return_value_getenv_25=getenv("DISPLAY");
+      printf("Unable to open display %s - retrying\n", return_value_getenv_25);
       sleep((unsigned int)2);
     }
 
@@ -2599,32 +2599,32 @@ signed int main(signed int argc, char **argv)
   configure_mmediakeys();
   change_keymap(0);
   XFlush(dpy);
-  unsigned long int return_value_strlen$26;
-  unsigned long int return_value_strlen$27;
-  void *return_value_malloc$28;
-  void *return_value_malloc$29;
-  void *return_value_malloc$30;
-  char *return_value_getenv$35;
-  unsigned long int return_value_strlen$36;
-  unsigned long int return_value_strlen$37;
-  void *return_value_malloc$38;
+  unsigned long int return_value_strlen_26;
+  unsigned long int return_value_strlen_27;
+  void *return_value_malloc_28;
+  void *return_value_malloc_29;
+  void *return_value_malloc_30;
+  char *return_value_getenv_35;
+  unsigned long int return_value_strlen_36;
+  unsigned long int return_value_strlen_37;
+  void *return_value_malloc_38;
   union pthread_attr_t attr;
   signed int thread_policy;
-  unsigned long int return_value_g15_send_cmd$41;
-  signed int return_value_usleep$39;
+  unsigned long int return_value_g15_send_cmd_41;
+  signed int return_value_usleep_39;
   if(!(keysonly >= 1u))
   {
-    return_value_strlen$26=strlen(configpath);
-    strncat(configpath, "/.g15macro", (unsigned long int)1024 - return_value_strlen$26);
-    return_value_strlen$27=strlen(configpath);
-    strncat(configpath, "/g15macro-data", (unsigned long int)1024 - return_value_strlen$27);
+    return_value_strlen_26=strlen(configpath);
+    strncat(configpath, "/.g15macro", (unsigned long int)1024 - return_value_strlen_26);
+    return_value_strlen_27=strlen(configpath);
+    strncat(configpath, "/g15macro-data", (unsigned long int)1024 - return_value_strlen_27);
     config_fd=open(configpath, 00 | 04010000);
-    return_value_malloc$28=malloc(sizeof(struct mstates_s) /*885024ul*/ );
-    mstates[(signed long int)0] = (struct mstates_s *)return_value_malloc$28;
-    return_value_malloc$29=malloc(sizeof(struct mstates_s) /*885024ul*/ );
-    mstates[(signed long int)1] = (struct mstates_s *)return_value_malloc$29;
-    return_value_malloc$30=malloc(sizeof(struct mstates_s) /*885024ul*/ );
-    mstates[(signed long int)2] = (struct mstates_s *)return_value_malloc$30;
+    return_value_malloc_28=malloc(sizeof(struct mstates_s) /*885024ul*/ );
+    mstates[(signed long int)0] = (struct mstates_s *)return_value_malloc_28;
+    return_value_malloc_29=malloc(sizeof(struct mstates_s) /*885024ul*/ );
+    mstates[(signed long int)1] = (struct mstates_s *)return_value_malloc_29;
+    return_value_malloc_30=malloc(sizeof(struct mstates_s) /*885024ul*/ );
+    mstates[(signed long int)2] = (struct mstates_s *)return_value_malloc_30;
     if(config_fd >= 1)
     {
       printf("Converting old data\n");
@@ -2632,20 +2632,20 @@ signed int main(signed int argc, char **argv)
       read(config_fd, (void *)mstates[(signed long int)1], sizeof(struct mstates_s) /*885024ul*/ );
       read(config_fd, (void *)mstates[(signed long int)2], sizeof(struct mstates_s) /*885024ul*/ );
       close(config_fd);
-      char *return_value_getenv$31;
-      return_value_getenv$31=getenv("HOME");
-      strncpy(configpath, return_value_getenv$31, (unsigned long int)1024);
-      unsigned long int return_value_strlen$32;
-      return_value_strlen$32=strlen(configpath);
-      strncat(configpath, "/.g15macro", (unsigned long int)1024 - return_value_strlen$32);
+      char *return_value_getenv_31;
+      return_value_getenv_31=getenv("HOME");
+      strncpy(configpath, return_value_getenv_31, (unsigned long int)1024);
+      unsigned long int return_value_strlen_32;
+      return_value_strlen_32=strlen(configpath);
+      strncat(configpath, "/.g15macro", (unsigned long int)1024 - return_value_strlen_32);
       char configbak[1024l];
       strcpy(configbak, configpath);
-      unsigned long int return_value_strlen$33;
-      return_value_strlen$33=strlen(configpath);
-      strncat(configpath, "/g15macro-data", (unsigned long int)1024 - return_value_strlen$33);
-      unsigned long int return_value_strlen$34;
-      return_value_strlen$34=strlen(configpath);
-      strncat(configbak, "/g15macro-data.old", (unsigned long int)1024 - return_value_strlen$34);
+      unsigned long int return_value_strlen_33;
+      return_value_strlen_33=strlen(configpath);
+      strncat(configpath, "/g15macro-data", (unsigned long int)1024 - return_value_strlen_33);
+      unsigned long int return_value_strlen_34;
+      return_value_strlen_34=strlen(configpath);
+      strncat(configbak, "/g15macro-data.old", (unsigned long int)1024 - return_value_strlen_34);
       rename(configpath, configbak);
       convert = (unsigned int)1;
     }
@@ -2656,13 +2656,13 @@ signed int main(signed int argc, char **argv)
       memset((void *)mstates[(signed long int)1], 0, sizeof(struct mstates_s *[3l]) /*24ul*/ );
       memset((void *)mstates[(signed long int)2], 0, sizeof(struct mstates_s *[3l]) /*24ul*/ );
     }
-    return_value_getenv$35=getenv("HOME");
-    strncpy(configpath, return_value_getenv$35, (unsigned long int)1024);
-    return_value_strlen$36=strlen(configpath);
-    strncat(configpath, "/.g15macro", (unsigned long int)1024 - return_value_strlen$36);
+    return_value_getenv_35=getenv("HOME");
+    strncpy(configpath, return_value_getenv_35, (unsigned long int)1024);
+    return_value_strlen_36=strlen(configpath);
+    strncat(configpath, "/.g15macro", (unsigned long int)1024 - return_value_strlen_36);
     mkdir(configpath, (unsigned int)0777);
-    return_value_strlen$37=strlen(configpath);
-    strncat(configpath, "/g15macro.conf", (unsigned long int)1024 - return_value_strlen$37);
+    return_value_strlen_37=strlen(configpath);
+    strncat(configpath, "/g15macro.conf", (unsigned long int)1024 - return_value_strlen_37);
     config=fopen(configpath, "a");
     fclose(config);
     do
@@ -2690,8 +2690,8 @@ signed int main(signed int argc, char **argv)
     usleep((unsigned int)1000);
     g15_send_cmd(g15screen_fd, (unsigned char)0x20, (unsigned char)mled_state);
     usleep((unsigned int)1000);
-    return_value_malloc$38=malloc(sizeof(struct g15canvas) /*1060ul*/ );
-    canvas = (struct g15canvas *)return_value_malloc$38;
+    return_value_malloc_38=malloc(sizeof(struct g15canvas) /*1060ul*/ );
+    canvas = (struct g15canvas *)return_value_malloc_38;
     if(!(canvas == ((struct g15canvas *)NULL)))
       g15r_initCanvas(canvas);
 
@@ -2700,7 +2700,7 @@ signed int main(signed int argc, char **argv)
       printf("Unable to initialise the libg15render canvas\nExiting\n");
       return 1;
     }
-    root_win = (&((struct anonymous$9 *)dpy)->screens[(signed long int)((struct anonymous$9 *)dpy)->default_screen])->root;
+    root_win = (&((struct anonymous_9 *)dpy)->screens[(signed long int)((struct anonymous_9 *)dpy)->default_screen])->root;
     if(root_win == 0ul)
     {
       printf("Cant find root window\n");
@@ -2720,8 +2720,8 @@ signed int main(signed int argc, char **argv)
     g15_send(g15screen_fd, (char *)canvas->buffer, (unsigned int)1048);
     g15_send_cmd(g15screen_fd, (unsigned char)110, (unsigned char)dummy);
     usleep((unsigned int)1000);
-    pthread_mutex_init(&x11mutex, (const union anonymous$26 *)(void *)0);
-    pthread_mutex_init(&config_mutex, (const union anonymous$26 *)(void *)0);
+    pthread_mutex_init(&x11mutex, (const union anonymous_26 *)(void *)0);
+    pthread_mutex_init(&config_mutex, (const union anonymous_26 *)(void *)0);
     pthread_attr_init(&attr);
     thread_policy = 1;
     pthread_attr_setschedpolicy(&attr, thread_policy);
@@ -2741,22 +2741,22 @@ signed int main(signed int argc, char **argv)
       if(!(display_timeout >= 1))
       {
         signed int fg_check;
-        unsigned long int return_value_g15_send_cmd$40;
-        return_value_g15_send_cmd$40=g15_send_cmd(g15screen_fd, (unsigned char)118, (unsigned char)dummy);
-        fg_check = (signed int)return_value_g15_send_cmd$40;
+        unsigned long int return_value_g15_send_cmd_40;
+        return_value_g15_send_cmd_40=g15_send_cmd(g15screen_fd, (unsigned char)118, (unsigned char)dummy);
+        fg_check = (signed int)return_value_g15_send_cmd_40;
         if(fg_check == 1)
           do
           {
             g15_send_cmd(g15screen_fd, (unsigned char)112, (unsigned char)dummy);
-            return_value_g15_send_cmd$41=g15_send_cmd(g15screen_fd, (unsigned char)118, (unsigned char)dummy);
+            return_value_g15_send_cmd_41=g15_send_cmd(g15screen_fd, (unsigned char)118, (unsigned char)dummy);
           }
-          while(return_value_g15_send_cmd$41 == 1ul);
+          while(return_value_g15_send_cmd_41 == 1ul);
 
         usleep((unsigned int)(500 * 1000));
       }
 
-      return_value_usleep$39=usleep((unsigned int)1000);
-      if(!(leaving == 0) || !(return_value_usleep$39 == 0))
+      return_value_usleep_39=usleep((unsigned int)1000);
+      if(!(leaving == 0) || !(return_value_usleep_39 == 0))
         break;
 
     }
@@ -2882,7 +2882,7 @@ signed int map_gkey(signed int keystate)
 
 // myx_error_handler
 // file g15macro.c line 750
-signed int myx_error_handler(struct _XDisplay *dpy, struct anonymous$31 *err)
+signed int myx_error_handler(struct _XDisplay *dpy, struct anonymous_31 *err)
 {
   return 0;
 }
@@ -2892,12 +2892,12 @@ signed int myx_error_handler(struct _XDisplay *dpy, struct anonymous$31 *err)
 void record_cancel()
 {
   memset((void *)canvas->buffer, 0, (unsigned long int)1048);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen("Recording");
-  g15r_renderString(canvas, (unsigned char *)"Recording", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen$1 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)4);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen("Canceled");
-  g15r_renderString(canvas, (unsigned char *)"Canceled", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen$2 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)18);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen("Recording");
+  g15r_renderString(canvas, (unsigned char *)"Recording", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen_1 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)4);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen("Canceled");
+  g15r_renderString(canvas, (unsigned char *)"Canceled", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen_2 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)18);
   g15_send(g15screen_fd, (char *)canvas->buffer, (unsigned int)1048);
   record_cleanup();
 }
@@ -2907,9 +2907,9 @@ void record_cancel()
 void record_cleanup()
 {
   g15_send_cmd(g15screen_fd, (unsigned char)0x20, (unsigned char)mled_state);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((char *)recstring);
-  memset((void *)recstring, 0, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((char *)recstring);
+  memset((void *)recstring, 0, return_value_strlen_1);
   rec_index = (unsigned int)0;
   recording = 0;
   pthread_mutex_lock(&x11mutex);
@@ -2937,35 +2937,35 @@ void record_complete(unsigned long int keystate)
   if(!(rec_index == 0u))
   {
     strcpy(tmpstr, "For key ");
-    signed int return_value_map_gkey$1;
-    return_value_map_gkey$1=map_gkey((signed int)keystate);
-    strcat(tmpstr, gkeystring[(signed long int)return_value_map_gkey$1]);
+    signed int return_value_map_gkey_1;
+    return_value_map_gkey_1=map_gkey((signed int)keystate);
+    strcat(tmpstr, gkeystring[(signed long int)return_value_map_gkey_1]);
     g15macro_log("Recording Complete %s\n", (const void *)tmpstr);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen("Recording");
-    g15r_renderString(canvas, (unsigned char *)"Recording", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen$2 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)4);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen("Complete");
-    g15r_renderString(canvas, (unsigned char *)"Complete", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen$3 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)18);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen("Recording");
+    g15r_renderString(canvas, (unsigned char *)"Recording", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen_2 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)4);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen("Complete");
+    g15r_renderString(canvas, (unsigned char *)"Complete", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen_3 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)18);
   }
 
   else
   {
     strcpy(tmpstr, "From Key ");
-    signed int return_value_map_gkey$4;
-    return_value_map_gkey$4=map_gkey((signed int)keystate);
-    strcat(tmpstr, gkeystring[(signed long int)return_value_map_gkey$4]);
+    signed int return_value_map_gkey_4;
+    return_value_map_gkey_4=map_gkey((signed int)keystate);
+    strcat(tmpstr, gkeystring[(signed long int)return_value_map_gkey_4]);
     g15macro_log("Macro deleted %s\n", (const void *)tmpstr);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen("Macro");
-    g15r_renderString(canvas, (unsigned char *)"Macro", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen$5 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)4);
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen("Deleted");
-    g15r_renderString(canvas, (unsigned char *)"Deleted", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen$6 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)18);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen("Macro");
+    g15r_renderString(canvas, (unsigned char *)"Macro", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen_5 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)4);
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen("Deleted");
+    g15r_renderString(canvas, (unsigned char *)"Deleted", 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen_6 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)18);
   }
-  unsigned long int return_value_strlen$7;
-  return_value_strlen$7=strlen(tmpstr);
-  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen$7 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)32);
+  unsigned long int return_value_strlen_7;
+  return_value_strlen_7=strlen(tmpstr);
+  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen_7 / (unsigned long int)2) * (unsigned long int)8), (unsigned int)32);
   g15_send(g15screen_fd, (char *)canvas->buffer, (unsigned int)1048);
   record_cleanup();
 }
@@ -2983,7 +2983,7 @@ void restore_config(char *filename)
   f=fopen(filename, "r");
   printf("restoring codes\n");
   pthread_mutex_lock(&config_mutex);
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   do
   {
     memset((void *)tmpstring, 0, (unsigned long int)1024);
@@ -3008,23 +3008,23 @@ void restore_config(char *filename)
       char pressed[20l];
       unsigned int modifiers = (unsigned int)0;
       sscanf(tmpstring, "\t%s %s %i\n", (char *)&codestr, (char *)&pressed, &modifiers);
-      unsigned long int return_value_XStringToKeysym$2;
-      return_value_XStringToKeysym$2=XStringToKeysym(codestr);
-      unsigned char return_value_XKeysymToKeycode$3;
-      return_value_XKeysymToKeycode$3=XKeysymToKeycode(dpy, return_value_XStringToKeysym$2);
-      keycode = (unsigned int)return_value_XKeysymToKeycode$3;
+      unsigned long int return_value_XStringToKeysym_2;
+      return_value_XStringToKeysym_2=XStringToKeysym(codestr);
+      unsigned char return_value_XKeysymToKeycode_3;
+      return_value_XKeysymToKeycode_3=XKeysymToKeycode(dpy, return_value_XStringToKeysym_2);
+      keycode = (unsigned int)return_value_XKeysymToKeycode_3;
       mstates[(signed long int)mkey]->gkeys[(signed long int)key].keysequence.recorded_keypress[(signed long int)i].keycode = (unsigned long int)keycode;
-      signed int return_value_strncmp$4;
-      return_value_strncmp$4=strncmp(pressed, "Up", (unsigned long int)2);
-      mstates[(signed long int)mkey]->gkeys[(signed long int)key].keysequence.recorded_keypress[(signed long int)i].pressed = (unsigned char)(return_value_strncmp$4 != 0 ? 1 : 0);
+      signed int return_value_strncmp_4;
+      return_value_strncmp_4=strncmp(pressed, "Up", (unsigned long int)2);
+      mstates[(signed long int)mkey]->gkeys[(signed long int)key].keysequence.recorded_keypress[(signed long int)i].pressed = (unsigned char)(return_value_strncmp_4 != 0 ? 1 : 0);
       mstates[(signed long int)mkey]->gkeys[(signed long int)key].keysequence.recorded_keypress[(signed long int)i].modifiers = (unsigned long int)modifiers;
       i = i + 1u;
       mstates[(signed long int)mkey]->gkeys[(signed long int)key].keysequence.record_steps = i;
     }
 
-    return_value_feof$1=feof(f);
+    return_value_feof_1=feof(f);
   }
-  while(return_value_feof$1 == 0);
+  while(return_value_feof_1 == 0);
   pthread_mutex_unlock(&config_mutex);
   fclose(f);
 }
@@ -3126,7 +3126,7 @@ void xkey_handler(union _XEvent *event)
     press = 0;
   }
 
-  unsigned int return_value_g15daemon_gettime_ms$1;
+  unsigned int return_value_g15daemon_gettime_ms_1;
   static unsigned long int lasttime;
   if(!(recording == 0))
   {
@@ -3138,8 +3138,8 @@ void xkey_handler(union _XEvent *event)
 
     else
     {
-      return_value_g15daemon_gettime_ms$1=g15daemon_gettime_ms();
-      current_recording.recorded_keypress[(signed long int)rec_index].time_ms = (unsigned long int)return_value_g15daemon_gettime_ms$1 - lasttime;
+      return_value_g15daemon_gettime_ms_1=g15daemon_gettime_ms();
+      current_recording.recorded_keypress[(signed long int)rec_index].time_ms = (unsigned long int)return_value_g15daemon_gettime_ms_1 - lasttime;
     }
     if(!(rec_index >= 1024u))
     {
@@ -3151,29 +3151,29 @@ void xkey_handler(union _XEvent *event)
       pthread_mutex_lock(&x11mutex);
       XGrabKeyboard(dpy, root_win, 1, 1, 1, (unsigned long int)0L);
       XFlush(dpy);
-      unsigned long int return_value_XKeycodeToKeysym$2;
-      return_value_XKeycodeToKeysym$2=XKeycodeToKeysym(dpy, (unsigned char)keycode, 0);
-      char *return_value_XKeysymToString$3;
-      return_value_XKeysymToString$3=XKeysymToString(return_value_XKeycodeToKeysym$2);
-      strcpy((char *)keytext, return_value_XKeysymToString$3);
+      unsigned long int return_value_XKeycodeToKeysym_2;
+      return_value_XKeycodeToKeysym_2=XKeycodeToKeysym(dpy, (unsigned char)keycode, 0);
+      char *return_value_XKeysymToString_3;
+      return_value_XKeysymToString_3=XKeysymToString(return_value_XKeycodeToKeysym_2);
+      strcpy((char *)keytext, return_value_XKeysymToString_3);
       pthread_mutex_unlock(&x11mutex);
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp((char *)keytext, "space");
-      if(return_value_strcmp$4 == 0)
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp((char *)keytext, "space");
+      if(return_value_strcmp_4 == 0)
         strcpy((char *)keytext, " ");
 
-      signed int return_value_strcmp$5;
-      return_value_strcmp$5=strcmp((char *)keytext, "period");
-      if(return_value_strcmp$5 == 0)
+      signed int return_value_strcmp_5;
+      return_value_strcmp_5=strcmp((char *)keytext, "period");
+      if(return_value_strcmp_5 == 0)
         strcpy((char *)keytext, ".");
 
       if(press == 1)
       {
         strcat((char *)recstring, (char *)keytext);
         g15macro_log("Adding %s to Macro\n", (const void *)keytext);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen((char *)recstring);
-        g15r_renderString(canvas, (unsigned char *)recstring, 0, 1, (unsigned int)((unsigned long int)80 - (return_value_strlen$6 / (unsigned long int)2) * (unsigned long int)5), (unsigned int)22);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen((char *)recstring);
+        g15r_renderString(canvas, (unsigned char *)recstring, 0, 1, (unsigned int)((unsigned long int)80 - (return_value_strlen_6 / (unsigned long int)2) * (unsigned long int)5), (unsigned int)22);
         g15_send(g15screen_fd, (char *)canvas->buffer, (unsigned int)1048);
       }
 
@@ -3191,8 +3191,8 @@ void xkey_handler(union _XEvent *event)
 
   else
     rec_index = (unsigned int)0;
-  unsigned int return_value_g15daemon_gettime_ms$7;
-  return_value_g15daemon_gettime_ms$7=g15daemon_gettime_ms();
-  lasttime = (unsigned long int)return_value_g15daemon_gettime_ms$7;
+  unsigned int return_value_g15daemon_gettime_ms_7;
+  return_value_g15daemon_gettime_ms_7=g15daemon_gettime_ms();
+  lasttime = (unsigned long int)return_value_g15daemon_gettime_ms_7;
 }
 

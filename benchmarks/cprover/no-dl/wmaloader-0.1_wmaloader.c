@@ -1,26 +1,26 @@
-// #anon_enum$eINVALID_NODE=0$eELEMENT_NODE=1$eATTRIBUTE_NODE=2$eTEXT_NODE=3$eCDATA_SECTION_NODE=4$eENTITY_REFERENCE_NODE=5$eENTITY_NODE=6$ePROCESSING_INSTRUCTION_NODE=7$eCOMMENT_NODE=8$eDOCUMENT_NODE=9$eDOCUMENT_TYPE_NODE=10$eDOCUMENT_FRAGMENT_NODE=11$eNOTATION_NODE=12
+// #anon_enum_eINVALID_NODE=0_eELEMENT_NODE=1_eATTRIBUTE_NODE=2_eTEXT_NODE=3_eCDATA_SECTION_NODE=4_eENTITY_REFERENCE_NODE=5_eENTITY_NODE=6_ePROCESSING_INSTRUCTION_NODE=7_eCOMMENT_NODE=8_eDOCUMENT_NODE=9_eDOCUMENT_TYPE_NODE=10_eDOCUMENT_FRAGMENT_NODE=11_eNOTATION_NODE=12
 // file /usr/include/upnp/ixml.h line 103
 enum anonymous { eINVALID_NODE=0, eELEMENT_NODE=1, eATTRIBUTE_NODE=2, eTEXT_NODE=3, eCDATA_SECTION_NODE=4, eENTITY_REFERENCE_NODE=5, eENTITY_NODE=6, ePROCESSING_INSTRUCTION_NODE=7, eCOMMENT_NODE=8, eDOCUMENT_NODE=9, eDOCUMENT_TYPE_NODE=10, eDOCUMENT_FRAGMENT_NODE=11, eNOTATION_NODE=12 };
 
-// tag-#anon#ST[*{S8}$S8$'interface'||*{S8}$S8$'image'||S32'daemon'||S32'help'|]
+// tag-#anon#ST[*{S8}_S8_'interface'||*{S8}_S8_'image'||S32'daemon'||S32'help'|]
 // file wmaloader.c line 70
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
 // tag-FREELIST
 // file /usr/include/upnp/FreeList.h line 61
@@ -295,28 +295,28 @@ extern signed int printf(const char *, ...);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous$2 *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous_2 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$0 *, struct anonymous$0 *, struct anonymous$0 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_0 *, struct anonymous_0 *, struct anonymous_0 *, struct timeval *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$4 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_4 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$4 *);
+extern signed int sem_post(union anonymous_4 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$4 *);
+extern signed int sem_wait(union anonymous_4 *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -351,7 +351,7 @@ char * urlcat(char *a, char *b);
 // file /usr/include/stdio.h line 390
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 
-struct anonymous$3
+struct anonymous_3
 {
   // interface
   char *interface;
@@ -363,13 +363,13 @@ struct anonymous$3
   signed int help;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[32l];
@@ -377,7 +377,7 @@ union anonymous$4
   signed long int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __size
   char __size[4l];
@@ -413,7 +413,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -669,13 +669,13 @@ signed int ctrlhandle;
 struct LINKEDLIST discoveries;
 // global_options
 // file wmaloader.c line 75
-struct anonymous$3 global_options;
+struct anonymous_3 global_options;
 // is_work_to_do
 // file wmaloader.c line 67
-union anonymous$4 is_work_to_do;
+union anonymous_4 is_work_to_do;
 // list_mutex
 // file wmaloader.c line 66
-union anonymous$1 list_mutex;
+union anonymous_1 list_mutex;
 // optarg
 // file /usr/include/getopt.h line 57
 extern char *optarg;
@@ -698,14 +698,14 @@ void BootDevice(struct Upnp_Discovery *device)
   signed int ret = 0;
   struct _IXML_Document *action = (struct _IXML_Document *)(void *)0;
   struct _IXML_Document *response = (struct _IXML_Document *)(void *)0;
-  signed int return_value_it_get_image_size$1;
-  return_value_it_get_image_size$1=it_get_image_size();
-  snprintf(image_size, (unsigned long int)10, "%d", return_value_it_get_image_size$1);
-  char *return_value_UpnpGetServerIpAddress$2;
-  return_value_UpnpGetServerIpAddress$2=UpnpGetServerIpAddress();
-  signed int return_value_it_get_port$3;
-  return_value_it_get_port$3=it_get_port();
-  snprintf(image_uri, (unsigned long int)128, "uri://%s:%d", return_value_UpnpGetServerIpAddress$2, return_value_it_get_port$3);
+  signed int return_value_it_get_image_size_1;
+  return_value_it_get_image_size_1=it_get_image_size();
+  snprintf(image_size, (unsigned long int)10, "%d", return_value_it_get_image_size_1);
+  char *return_value_UpnpGetServerIpAddress_2;
+  return_value_UpnpGetServerIpAddress_2=UpnpGetServerIpAddress();
+  signed int return_value_it_get_port_3;
+  return_value_it_get_port_3=it_get_port();
+  snprintf(image_uri, (unsigned long int)128, "uri://%s:%d", return_value_UpnpGetServerIpAddress_2, return_value_it_get_port_3);
   action=UpnpMakeAction("SetApplicationPackageURI", "urn:schemas-upnp-org:service:ApplicationTransferService:1", 2, "ApplicationURI", (const void *)image_uri, (const void *)"ImageLength", (const void *)image_size);
   if(action == ((struct _IXML_Document *)NULL))
     message("Unable to create action IXML document\n");
@@ -713,9 +713,9 @@ void BootDevice(struct Upnp_Discovery *device)
   else
   {
     message("Booting %s\n", (const void *)device->DeviceId);
-    char *return_value_urlcat$4;
-    return_value_urlcat$4=urlcat(device->Location, "/ApplicationTransferService/control");
-    ret=UpnpSendAction(ctrlhandle, return_value_urlcat$4, "urn:schemas-upnp-org:service:ApplicationTransferService:1", (const char *)(void *)0, action, &response);
+    char *return_value_urlcat_4;
+    return_value_urlcat_4=urlcat(device->Location, "/ApplicationTransferService/control");
+    ret=UpnpSendAction(ctrlhandle, return_value_urlcat_4, "urn:schemas-upnp-org:service:ApplicationTransferService:1", (const char *)(void *)0, action, &response);
     if(!(action == ((struct _IXML_Document *)NULL)))
       ixmlDocument_free(action);
 
@@ -731,27 +731,27 @@ void DoWork()
 {
   struct Upnp_Discovery *device = (struct Upnp_Discovery *)(void *)0;
   pthread_mutex_lock(&list_mutex);
-  struct LISTNODE *return_value_ListHead$2;
-  return_value_ListHead$2=ListHead(&discoveries);
-  struct LISTNODE *return_value_ListHead$1;
-  if(!(return_value_ListHead$2 == ((struct LISTNODE *)NULL)))
+  struct LISTNODE *return_value_ListHead_2;
+  return_value_ListHead_2=ListHead(&discoveries);
+  struct LISTNODE *return_value_ListHead_1;
+  if(!(return_value_ListHead_2 == ((struct LISTNODE *)NULL)))
   {
-    return_value_ListHead$1=ListHead(&discoveries);
-    device = (struct Upnp_Discovery *)return_value_ListHead$1->item;
+    return_value_ListHead_1=ListHead(&discoveries);
+    device = (struct Upnp_Discovery *)return_value_ListHead_1->item;
   }
 
   pthread_mutex_unlock(&list_mutex);
   if(!(device == ((struct Upnp_Discovery *)NULL)))
   {
-    signed int return_value_QueryDevice$3;
-    return_value_QueryDevice$3=QueryDevice(device);
-    if(!(return_value_QueryDevice$3 == 0))
+    signed int return_value_QueryDevice_3;
+    return_value_QueryDevice_3=QueryDevice(device);
+    if(!(return_value_QueryDevice_3 == 0))
       BootDevice(device);
 
     pthread_mutex_lock(&list_mutex);
-    struct LISTNODE *return_value_ListHead$4;
-    return_value_ListHead$4=ListHead(&discoveries);
-    ListDelNode(&discoveries, return_value_ListHead$4, 1);
+    struct LISTNODE *return_value_ListHead_4;
+    return_value_ListHead_4=ListHead(&discoveries);
+    ListDelNode(&discoveries, return_value_ListHead_4, 1);
     pthread_mutex_unlock(&list_mutex);
   }
 
@@ -762,7 +762,7 @@ void DoWork()
 signed int LoaderCallbackFunc(enum Upnp_EventType_e EventType, void *Event, void *Cookie)
 {
   struct Upnp_Discovery *device;
-  signed int return_value_strncmp$3;
+  signed int return_value_strncmp_3;
   switch((signed int)EventType)
   {
     case UPNP_DISCOVERY_ADVERTISEMENT_ALIVE:
@@ -770,20 +770,20 @@ signed int LoaderCallbackFunc(enum Upnp_EventType_e EventType, void *Event, void
     case UPNP_DISCOVERY_SEARCH_RESULT:
     {
       device = (struct Upnp_Discovery *)Event;
-      return_value_strncmp$3=strncmp((const void *)device->DeviceType, (const void *)"urn:schemas-upnp-org:device:AppLoaderClient:1", sizeof(char [46l]) /*46ul*/ );
-      if(return_value_strncmp$3 == 0)
+      return_value_strncmp_3=strncmp((const void *)device->DeviceType, (const void *)"urn:schemas-upnp-org:device:AppLoaderClient:1", sizeof(char [46l]) /*46ul*/ );
+      if(return_value_strncmp_3 == 0)
       {
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc(sizeof(struct Upnp_Discovery) /*1576ul*/ );
-        device = (struct Upnp_Discovery *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc(sizeof(struct Upnp_Discovery) /*1576ul*/ );
+        device = (struct Upnp_Discovery *)return_value_malloc_1;
         if(device == ((struct Upnp_Discovery *)NULL))
           goto __CPROVER_DUMP_L6;
 
         memcpy(device, Event, sizeof(struct Upnp_Discovery) /*1576ul*/ );
         pthread_mutex_lock(&list_mutex);
-        struct LISTNODE *return_value_ListFind$2;
-        return_value_ListFind$2=ListFind(&discoveries, (struct LISTNODE *)(void *)0, (void *)&device);
-        if(return_value_ListFind$2 == ((struct LISTNODE *)NULL))
+        struct LISTNODE *return_value_ListFind_2;
+        return_value_ListFind_2=ListFind(&discoveries, (struct LISTNODE *)(void *)0, (void *)&device);
+        if(return_value_ListFind_2 == ((struct LISTNODE *)NULL))
         {
           ListAddTail(&discoveries, (void *)device);
           sem_post(&is_work_to_do);
@@ -836,9 +836,9 @@ signed int QueryDevice(struct Upnp_Discovery *device)
 {
   struct _IXML_Document *response = (struct _IXML_Document *)(void *)0;
   message("Querying %s\n", (const void *)device->DeviceId);
-  char *return_value_urlcat$1;
-  return_value_urlcat$1=urlcat(device->Location, "/ApplicationTransferService/control");
-  response=SendAction("GetTransferState", "urn:schemas-upnp-org:service:ApplicationTransferService:1", return_value_urlcat$1, 0);
+  char *return_value_urlcat_1;
+  return_value_urlcat_1=urlcat(device->Location, "/ApplicationTransferService/control");
+  response=SendAction("GetTransferState", "urn:schemas-upnp-org:service:ApplicationTransferService:1", return_value_urlcat_1, 0);
   if(response == ((struct _IXML_Document *)NULL))
     message("Failed response to GetTransferState()");
 
@@ -846,19 +846,19 @@ signed int QueryDevice(struct Upnp_Discovery *device)
   {
     signed int do_boot = 1;
     char *state;
-    struct _IXML_Element *return_value_ixmlDocument_getElementById$2;
-    return_value_ixmlDocument_getElementById$2=ixmlDocument_getElementById(response, "TransferState");
-    struct _IXML_NodeList *return_value_ixmlElement_getElementsByTagName$3;
-    return_value_ixmlElement_getElementsByTagName$3=ixmlElement_getElementsByTagName(return_value_ixmlDocument_getElementById$2, "*");
-    struct _IXML_Node *return_value_ixmlNodeList_item$4;
-    return_value_ixmlNodeList_item$4=ixmlNodeList_item(return_value_ixmlElement_getElementsByTagName$3, (unsigned long int)0);
-    struct _IXML_Node *return_value_ixmlNode_getFirstChild$5;
-    return_value_ixmlNode_getFirstChild$5=ixmlNode_getFirstChild(return_value_ixmlNodeList_item$4);
-    state=ixmlNode_getNodeValue(return_value_ixmlNode_getFirstChild$5);
+    struct _IXML_Element *return_value_ixmlDocument_getElementById_2;
+    return_value_ixmlDocument_getElementById_2=ixmlDocument_getElementById(response, "TransferState");
+    struct _IXML_NodeList *return_value_ixmlElement_getElementsByTagName_3;
+    return_value_ixmlElement_getElementsByTagName_3=ixmlElement_getElementsByTagName(return_value_ixmlDocument_getElementById_2, "*");
+    struct _IXML_Node *return_value_ixmlNodeList_item_4;
+    return_value_ixmlNodeList_item_4=ixmlNodeList_item(return_value_ixmlElement_getElementsByTagName_3, (unsigned long int)0);
+    struct _IXML_Node *return_value_ixmlNode_getFirstChild_5;
+    return_value_ixmlNode_getFirstChild_5=ixmlNode_getFirstChild(return_value_ixmlNodeList_item_4);
+    state=ixmlNode_getNodeValue(return_value_ixmlNode_getFirstChild_5);
     message("Device reports state: %s\n", state);
-    signed int return_value_strcmp$6;
-    return_value_strcmp$6=strcmp(state, (const void *)"NOT_STARTED");
-    if(!(return_value_strcmp$6 == 0))
+    signed int return_value_strcmp_6;
+    return_value_strcmp_6=strcmp(state, (const void *)"NOT_STARTED");
+    if(!(return_value_strcmp_6 == 0))
       do_boot = 0;
 
     ixmlDocument_free(response);
@@ -866,25 +866,25 @@ signed int QueryDevice(struct Upnp_Discovery *device)
       return 0;
 
   }
-  char *return_value_urlcat$7;
-  return_value_urlcat$7=urlcat(device->Location, "/AdapterInfoService/control");
-  response=SendAction("GetExtDeviceDescription", "urn:schemas-upnp-org:service:AdapterInfoService:1", return_value_urlcat$7, 0);
+  char *return_value_urlcat_7;
+  return_value_urlcat_7=urlcat(device->Location, "/AdapterInfoService/control");
+  response=SendAction("GetExtDeviceDescription", "urn:schemas-upnp-org:service:AdapterInfoService:1", return_value_urlcat_7, 0);
   if(response == ((struct _IXML_Document *)NULL))
     message("Failed response to GetExtDeviceDescription()");
 
   else
   {
-    struct _IXML_Element *return_value_ixmlDocument_getElementById$8;
-    return_value_ixmlDocument_getElementById$8=ixmlDocument_getElementById(response, "version");
-    struct _IXML_NodeList *return_value_ixmlElement_getElementsByTagName$9;
-    return_value_ixmlElement_getElementsByTagName$9=ixmlElement_getElementsByTagName(return_value_ixmlDocument_getElementById$8, "*");
-    struct _IXML_Node *return_value_ixmlNodeList_item$10;
-    return_value_ixmlNodeList_item$10=ixmlNodeList_item(return_value_ixmlElement_getElementsByTagName$9, (unsigned long int)0);
-    struct _IXML_Node *return_value_ixmlNode_getFirstChild$11;
-    return_value_ixmlNode_getFirstChild$11=ixmlNode_getFirstChild(return_value_ixmlNodeList_item$10);
-    const char *return_value_ixmlNode_getNodeValue$12;
-    return_value_ixmlNode_getNodeValue$12=ixmlNode_getNodeValue(return_value_ixmlNode_getFirstChild$11);
-    message("Device reports firmware version: %s\n", return_value_ixmlNode_getNodeValue$12);
+    struct _IXML_Element *return_value_ixmlDocument_getElementById_8;
+    return_value_ixmlDocument_getElementById_8=ixmlDocument_getElementById(response, "version");
+    struct _IXML_NodeList *return_value_ixmlElement_getElementsByTagName_9;
+    return_value_ixmlElement_getElementsByTagName_9=ixmlElement_getElementsByTagName(return_value_ixmlDocument_getElementById_8, "*");
+    struct _IXML_Node *return_value_ixmlNodeList_item_10;
+    return_value_ixmlNodeList_item_10=ixmlNodeList_item(return_value_ixmlElement_getElementsByTagName_9, (unsigned long int)0);
+    struct _IXML_Node *return_value_ixmlNode_getFirstChild_11;
+    return_value_ixmlNode_getFirstChild_11=ixmlNode_getFirstChild(return_value_ixmlNodeList_item_10);
+    const char *return_value_ixmlNode_getNodeValue_12;
+    return_value_ixmlNode_getNodeValue_12=ixmlNode_getNodeValue(return_value_ixmlNode_getFirstChild_11);
+    message("Device reports firmware version: %s\n", return_value_ixmlNode_getNodeValue_12);
     ixmlDocument_free(response);
   }
   return 1;
@@ -917,9 +917,9 @@ struct _IXML_Document * SendAction(char *action_name, char *service_type, char *
 
   if(!(ret == 0))
   {
-    const char *return_value_UpnpGetErrorMessage$1;
-    return_value_UpnpGetErrorMessage$1=UpnpGetErrorMessage(ret);
-    message("Unable to send action: %d (%s)\n", ret, return_value_UpnpGetErrorMessage$1);
+    const char *return_value_UpnpGetErrorMessage_1;
+    return_value_UpnpGetErrorMessage_1=UpnpGetErrorMessage(ret);
+    message("Unable to send action: %d (%s)\n", ret, return_value_UpnpGetErrorMessage_1);
     if(!(response == ((struct _IXML_Document *)NULL)))
       ixmlDocument_free(response);
 
@@ -947,9 +947,9 @@ void accept_new_connection()
 
   else
   {
-    char *return_value_inet_ntoa$1;
-    return_value_inet_ntoa$1=inet_ntoa(addr.sin_addr);
-    message("Accepted image request from %s:%d\n", return_value_inet_ntoa$1, addr.sin_port);
+    char *return_value_inet_ntoa_1;
+    return_value_inet_ntoa_1=inet_ntoa(addr.sin_addr);
+    message("Accepted image request from %s:%d\n", return_value_inet_ntoa_1, addr.sin_port);
     temp_fd=open(source, 00);
     if(temp_fd == -1)
     {
@@ -975,9 +975,9 @@ signed int daemonise()
 {
   openlog("wmaloader", 0, 3 << 3);
   syslog(6, "Boot Daemon for Linksys WMA11b. Andrew Wild <acw43@cam.ac.uk>\n");
-  signed int return_value_daemon$1;
-  return_value_daemon$1=daemon(1, 0);
-  if(return_value_daemon$1 == -1)
+  signed int return_value_daemon_1;
+  return_value_daemon_1=daemon(1, 0);
+  if(return_value_daemon_1 == -1)
   {
     perror("daemonise() daemon");
     return 0;
@@ -996,16 +996,16 @@ signed int initialise_image_transfer()
 {
   unsigned long int th_transfer;
   signed int ret;
-  signed int return_value_it_init$1;
-  return_value_it_init$1=it_init(global_options.interface, global_options.image);
-  if(return_value_it_init$1 == 0)
+  signed int return_value_it_init_1;
+  return_value_it_init_1=it_init(global_options.interface, global_options.image);
+  if(return_value_it_init_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_it_get_image_size$2;
-    return_value_it_get_image_size$2=it_get_image_size();
-    if(return_value_it_get_image_size$2 == 0)
+    signed int return_value_it_get_image_size_2;
+    return_value_it_get_image_size_2=it_get_image_size();
+    if(return_value_it_get_image_size_2 == 0)
     {
       message("Unable to read image %s\n", global_options.image);
       return 0;
@@ -1022,9 +1022,9 @@ signed int initialise_image_transfer()
 
       else
       {
-        signed int return_value_it_get_port$3;
-        return_value_it_get_port$3=it_get_port();
-        message("Listening for image transfer on port %d\n", return_value_it_get_port$3);
+        signed int return_value_it_get_port_3;
+        return_value_it_get_port_3=it_get_port();
+        message("Listening for image transfer on port %d\n", return_value_it_get_port_3);
         return 1;
       }
     }
@@ -1035,16 +1035,16 @@ signed int initialise_image_transfer()
 // file wmaloader.c line 342
 signed int initialise_sync_variables()
 {
-  signed int return_value_pthread_mutex_init$1;
-  return_value_pthread_mutex_init$1=pthread_mutex_init(&list_mutex, (const union anonymous$2 *)(void *)0);
-  if(!(return_value_pthread_mutex_init$1 == 0))
+  signed int return_value_pthread_mutex_init_1;
+  return_value_pthread_mutex_init_1=pthread_mutex_init(&list_mutex, (const union anonymous_2 *)(void *)0);
+  if(!(return_value_pthread_mutex_init_1 == 0))
     return 0;
 
   else
   {
-    signed int return_value_sem_init$2;
-    return_value_sem_init$2=sem_init(&is_work_to_do, 0, (unsigned int)0);
-    if(!(return_value_sem_init$2 == 0))
+    signed int return_value_sem_init_2;
+    return_value_sem_init_2=sem_init(&is_work_to_do, 0, (unsigned int)0);
+    if(!(return_value_sem_init_2 == 0))
       return 0;
 
     else
@@ -1060,24 +1060,24 @@ signed int initialise_upnp_library()
   ret=UpnpInit(global_options.interface, (unsigned short int)0);
   if(!(ret == 0))
   {
-    const char *return_value_UpnpGetErrorMessage$1;
-    return_value_UpnpGetErrorMessage$1=UpnpGetErrorMessage(ret);
-    message("upnp library initialisation failed: %d (%s)\n", ret, return_value_UpnpGetErrorMessage$1);
+    const char *return_value_UpnpGetErrorMessage_1;
+    return_value_UpnpGetErrorMessage_1=UpnpGetErrorMessage(ret);
+    message("upnp library initialisation failed: %d (%s)\n", ret, return_value_UpnpGetErrorMessage_1);
     UpnpFinish();
     return 0;
   }
 
-  char *return_value_UpnpGetServerIpAddress$2;
-  return_value_UpnpGetServerIpAddress$2=UpnpGetServerIpAddress();
-  unsigned short int return_value_UpnpGetServerPort$3;
-  return_value_UpnpGetServerPort$3=UpnpGetServerPort();
-  message("UPnP Library initialised. Using %s:%d\n", return_value_UpnpGetServerIpAddress$2, return_value_UpnpGetServerPort$3);
+  char *return_value_UpnpGetServerIpAddress_2;
+  return_value_UpnpGetServerIpAddress_2=UpnpGetServerIpAddress();
+  unsigned short int return_value_UpnpGetServerPort_3;
+  return_value_UpnpGetServerPort_3=UpnpGetServerPort();
+  message("UPnP Library initialised. Using %s:%d\n", return_value_UpnpGetServerIpAddress_2, return_value_UpnpGetServerPort_3);
   ret=UpnpRegisterClient(LoaderCallbackFunc, (void *)0, &ctrlhandle);
   if(!(ret == 0))
   {
-    const char *return_value_UpnpGetErrorMessage$4;
-    return_value_UpnpGetErrorMessage$4=UpnpGetErrorMessage(ret);
-    message("callback function failed to register: %d (%s)\n", ret, return_value_UpnpGetErrorMessage$4);
+    const char *return_value_UpnpGetErrorMessage_4;
+    return_value_UpnpGetErrorMessage_4=UpnpGetErrorMessage(ret);
+    message("callback function failed to register: %d (%s)\n", ret, return_value_UpnpGetErrorMessage_4);
     UpnpFinish();
     return 0;
   }
@@ -1090,9 +1090,9 @@ signed int initialise_upnp_library()
 signed int it_get_image_size()
 {
   struct stat st;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(source, &st);
-  if(return_value_stat$1 == -1)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(source, &st);
+  if(return_value_stat_1 == -1)
   {
     perror("it_get_image_size() stat");
     return 0;
@@ -1106,12 +1106,12 @@ signed int it_get_image_size()
 // file image_transfer.h line 25
 signed int it_get_port()
 {
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)address.sin_port;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  return (signed int)tmp_statement_expression$1;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  return (signed int)tmp_statement_expression_1;
 }
 
 // it_init
@@ -1121,7 +1121,7 @@ signed int it_init(const char *interface, const char *source_file)
   signed int len;
   source = source_file;
   sock=socket(2, 1, 0);
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   if(sock == -1)
   {
     perror("it_init() socket");
@@ -1133,15 +1133,15 @@ signed int it_init(const char *interface, const char *source_file)
     address.sin_family = (unsigned short int)2;
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)0;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$1 = __v;
-    address.sin_port = tmp_statement_expression$1;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_1 = __v;
+    address.sin_port = tmp_statement_expression_1;
     address.sin_addr.s_addr = (unsigned int)0x00000000;
     if(!(interface == ((const char *)NULL)))
     {
-      signed int return_value_inet_aton$2;
-      return_value_inet_aton$2=inet_aton(interface, &address.sin_addr);
-      if(return_value_inet_aton$2 == 0)
+      signed int return_value_inet_aton_2;
+      return_value_inet_aton_2=inet_aton(interface, &address.sin_addr);
+      if(return_value_inet_aton_2 == 0)
       {
         message("%s is not a valid IP address\n", interface);
         return 0;
@@ -1149,9 +1149,9 @@ signed int it_init(const char *interface, const char *source_file)
 
     }
 
-    signed int return_value_bind$3;
-    return_value_bind$3=bind(sock, (struct sockaddr *)&address, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(return_value_bind$3 == -1)
+    signed int return_value_bind_3;
+    return_value_bind_3=bind(sock, (struct sockaddr *)&address, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(return_value_bind_3 == -1)
     {
       perror("it_init() bind");
       return 0;
@@ -1160,9 +1160,9 @@ signed int it_init(const char *interface, const char *source_file)
     else
     {
       len = (signed int)sizeof(struct sockaddr_in) /*16ul*/ ;
-      signed int return_value_getsockname$4;
-      return_value_getsockname$4=getsockname(sock, (struct sockaddr *)&address, (unsigned int *)&len);
-      if(return_value_getsockname$4 == -1)
+      signed int return_value_getsockname_4;
+      return_value_getsockname_4=getsockname(sock, (struct sockaddr *)&address, (unsigned int *)&len);
+      if(return_value_getsockname_4 == -1)
       {
         perror("it_init() getsockname");
         return 0;
@@ -1170,9 +1170,9 @@ signed int it_init(const char *interface, const char *source_file)
 
       else
       {
-        signed int return_value_listen$5;
-        return_value_listen$5=listen(sock, 5);
-        if(return_value_listen$5 == -1)
+        signed int return_value_listen_5;
+        return_value_listen_5=listen(sock, 5);
+        if(return_value_listen_5 == -1)
         {
           perror("it_init() listen");
           return 0;
@@ -1191,22 +1191,22 @@ void * it_thread_entry(void *cookie)
 {
   signed int ret;
   signed int max_fd;
-  struct anonymous$0 temp_read;
-  struct anonymous$0 temp_write;
+  struct anonymous_0 temp_read;
+  struct anonymous_0 temp_write;
   while((_Bool)1)
   {
     do
     {
-      signed int it_thread_entry$$1$$1$$1$$__d0;
-      signed int it_thread_entry$$1$$1$$1$$__d1;
-      asm("cld; rep; stosq" : "=c"(it_thread_entry$$1$$1$$1$$__d0), "=D"(it_thread_entry$$1$$1$$1$$__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&temp_read)->__fds_bits[(signed long int)0]) : "memory");
+      signed int it_thread_entry__1__1__1____d0;
+      signed int it_thread_entry__1__1__1____d1;
+      asm("cld; rep; stosq" : "=c"(it_thread_entry__1__1__1____d0), "=D"(it_thread_entry__1__1__1____d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&temp_read)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&temp_write)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&temp_write)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     if(!(sock == 0))
@@ -1216,7 +1216,7 @@ void * it_thread_entry(void *cookie)
       (&temp_write)->__fds_bits[(signed long int)(client_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&temp_write)->__fds_bits[(signed long int)(client_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << client_sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
     max_fd = sock > client_sock ? sock : client_sock;
-    ret=select(max_fd + 1, &temp_read, &temp_write, (struct anonymous$0 *)(void *)0, (struct timeval *)(void *)0);
+    ret=select(max_fd + 1, &temp_read, &temp_write, (struct anonymous_0 *)(void *)0, (struct timeval *)(void *)0);
     if(ret == -1)
     {
       perror("it_thread_entry() select");
@@ -1258,10 +1258,10 @@ void list_free_func(void *item)
 // file wmaloader.c line 461
 signed int main(signed int argc, char **argv)
 {
-  signed int return_value_parse_command_line$1;
-  return_value_parse_command_line$1=parse_command_line(argc, argv);
-  signed int return_value_daemonise$2;
-  if(return_value_parse_command_line$1 == 0)
+  signed int return_value_parse_command_line_1;
+  return_value_parse_command_line_1=parse_command_line(argc, argv);
+  signed int return_value_daemonise_2;
+  if(return_value_parse_command_line_1 == 0)
   {
     print_usage();
     return 1;
@@ -1270,8 +1270,8 @@ signed int main(signed int argc, char **argv)
   else
     if(!(global_options.daemon == 0))
     {
-      return_value_daemonise$2=daemonise();
-      if(!(return_value_daemonise$2 == 0))
+      return_value_daemonise_2=daemonise();
+      if(!(return_value_daemonise_2 == 0))
         goto __CPROVER_DUMP_L2;
 
       return 1;
@@ -1282,37 +1282,37 @@ signed int main(signed int argc, char **argv)
 
     __CPROVER_DUMP_L2:
       ;
-      signed int return_value_initialise_image_transfer$3;
-      return_value_initialise_image_transfer$3=initialise_image_transfer();
-      if(return_value_initialise_image_transfer$3 == 0)
+      signed int return_value_initialise_image_transfer_3;
+      return_value_initialise_image_transfer_3=initialise_image_transfer();
+      if(return_value_initialise_image_transfer_3 == 0)
         return 1;
 
       else
       {
-        signed int return_value_initialise_upnp_library$4;
-        return_value_initialise_upnp_library$4=initialise_upnp_library();
-        if(return_value_initialise_upnp_library$4 == 0)
+        signed int return_value_initialise_upnp_library_4;
+        return_value_initialise_upnp_library_4=initialise_upnp_library();
+        if(return_value_initialise_upnp_library_4 == 0)
           return 1;
 
         else
         {
-          signed int return_value_initialise_sync_variables$5;
-          return_value_initialise_sync_variables$5=initialise_sync_variables();
-          if(return_value_initialise_sync_variables$5 == 0)
+          signed int return_value_initialise_sync_variables_5;
+          return_value_initialise_sync_variables_5=initialise_sync_variables();
+          if(return_value_initialise_sync_variables_5 == 0)
             return 1;
 
           else
           {
-            signed int return_value_ListInit$6;
-            return_value_ListInit$6=ListInit(&discoveries, list_compare_func, list_free_func);
-            if(!(return_value_ListInit$6 == 0))
+            signed int return_value_ListInit_6;
+            return_value_ListInit_6=ListInit(&discoveries, list_compare_func, list_free_func);
+            if(!(return_value_ListInit_6 == 0))
               return 1;
 
             else
             {
-              signed int return_value_UpnpSearchAsync$7;
-              return_value_UpnpSearchAsync$7=UpnpSearchAsync(ctrlhandle, 5, "urn:schemas-upnp-org:device:AppLoaderClient:1", NULL);
-              if(!(return_value_UpnpSearchAsync$7 == 0))
+              signed int return_value_UpnpSearchAsync_7;
+              return_value_UpnpSearchAsync_7=UpnpSearchAsync(ctrlhandle, 5, "urn:schemas-upnp-org:device:AppLoaderClient:1", NULL);
+              if(!(return_value_UpnpSearchAsync_7 == 0))
               {
                 message("Failed to start search");
                 UpnpFinish();
@@ -1368,15 +1368,15 @@ signed int parse_command_line(signed int argc, char **argv)
   global_options.help = 0;
   while(!((signed int)x == -1))
   {
-    signed int return_value_getopt_long$1;
+    signed int return_value_getopt_long_1;
     static struct option opts[5l] = { { .name="interface", .has_arg=1, .flag=((signed int *)NULL), .val=0 },
     { .name="image", .has_arg=1, .flag=((signed int *)NULL), .val=0 },
     { .name="daemon", .has_arg=0, .flag=&global_options.daemon, .val=1 },
     { .name="help", .has_arg=0, .flag=&global_options.help, .val=1 },
     { .name=((const char *)NULL), .has_arg=0, .flag=((signed int *)NULL),
     .val=0 } };
-    return_value_getopt_long$1=getopt_long(argc, argv, "dhv", opts, &idx);
-    x = (signed char)return_value_getopt_long$1;
+    return_value_getopt_long_1=getopt_long(argc, argv, "dhv", opts, &idx);
+    x = (signed char)return_value_getopt_long_1;
     if((signed int)x == 63)
       return 0;
 
@@ -1433,9 +1433,9 @@ void print_usage()
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // transfer_data
@@ -1443,8 +1443,8 @@ static inline signed int stat(const char *__path, struct stat *__statbuf)
 void transfer_data()
 {
   const signed int block_size = 2048;
-  const signed long int block_size$array_size0 = (signed long int)block_size;
-  unsigned char data[block_size$array_size0];
+  const signed long int block_size_array_size0 = (signed long int)block_size;
+  unsigned char data[block_size_array_size0];
   signed int ret;
   /* assertion block_size <= 0x7fffffffffffffffL */
   assert((signed long int)block_size <= 0x7fffffffffffffffL);
@@ -1452,9 +1452,9 @@ void transfer_data()
   assert(source_fd != 0 && source_fd != -1);
   /* assertion client_sock != 0 && client_sock != -1 */
   assert(client_sock != 0 && client_sock != -1);
-  signed long int return_value_read$1;
-  return_value_read$1=read(source_fd, (void *)data, (unsigned long int)block_size$array_size0);
-  ret = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(source_fd, (void *)data, (unsigned long int)block_size_array_size0);
+  ret = (signed int)return_value_read_1;
   if(!(ret == -1))
   {
     if(ret == 0)
@@ -1471,9 +1471,9 @@ void transfer_data()
     ;
     goto write_data_done;
   }
-  signed long int return_value_send$2;
-  return_value_send$2=send(client_sock, (const void *)data, (unsigned long int)ret, 0);
-  if(return_value_send$2 == -1l)
+  signed long int return_value_send_2;
+  return_value_send_2=send(client_sock, (const void *)data, (unsigned long int)ret, 0);
+  if(return_value_send_2 == -1l)
     perror("transfer_data() send");
 
   else
@@ -1495,11 +1495,11 @@ __CPROVER_DUMP_L6:
 // file wmaloader.c line 81
 char * urlcat(char *a, char *b)
 {
-  signed int return_value_strlen$1;
-  return_value_strlen$1=strlen(a);
-  signed int return_value_strlen$2;
-  return_value_strlen$2=strlen(b);
-  if(return_value_strlen$1 + return_value_strlen$2 >= 512)
+  signed int return_value_strlen_1;
+  return_value_strlen_1=strlen(a);
+  signed int return_value_strlen_2;
+  return_value_strlen_2=strlen(b);
+  if(return_value_strlen_1 + return_value_strlen_2 >= 512)
     return "";
 
   else

@@ -1,130 +1,130 @@
-// #anon_enum$FREENECT_AUTO_EXPOSURE=16384$FREENECT_AUTO_WHITE_BALANCE=2$FREENECT_RAW_COLOR=16$FREENECT_MIRROR_DEPTH=65536$FREENECT_MIRROR_VIDEO=131072$FREENECT_NEAR_MODE=262144
+// #anon_enum_FREENECT_AUTO_EXPOSURE=16384_FREENECT_AUTO_WHITE_BALANCE=2_FREENECT_RAW_COLOR=16_FREENECT_MIRROR_DEPTH=65536_FREENECT_MIRROR_VIDEO=131072_FREENECT_NEAR_MODE=262144
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 110
-enum anonymous$0 { FREENECT_AUTO_EXPOSURE=16384, FREENECT_AUTO_WHITE_BALANCE=2, FREENECT_RAW_COLOR=16, FREENECT_MIRROR_DEPTH=65536, FREENECT_MIRROR_VIDEO=131072, FREENECT_NEAR_MODE=262144 };
+enum anonymous_0 { FREENECT_AUTO_EXPOSURE=16384, FREENECT_AUTO_WHITE_BALANCE=2, FREENECT_RAW_COLOR=16, FREENECT_MIRROR_DEPTH=65536, FREENECT_MIRROR_VIDEO=131072, FREENECT_NEAR_MODE=262144 };
 
-// #anon_enum$FREENECT_DEPTH_11BIT=0$FREENECT_DEPTH_10BIT=1$FREENECT_DEPTH_11BIT_PACKED=2$FREENECT_DEPTH_10BIT_PACKED=3$FREENECT_DEPTH_REGISTERED=4$FREENECT_DEPTH_MM=5$FREENECT_DEPTH_DUMMY=2147483647
+// #anon_enum_FREENECT_DEPTH_11BIT=0_FREENECT_DEPTH_10BIT=1_FREENECT_DEPTH_11BIT_PACKED=2_FREENECT_DEPTH_10BIT_PACKED=3_FREENECT_DEPTH_REGISTERED=4_FREENECT_DEPTH_MM=5_FREENECT_DEPTH_DUMMY=2147483647
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 99
-enum anonymous$8 { FREENECT_DEPTH_11BIT=0, FREENECT_DEPTH_10BIT=1, FREENECT_DEPTH_11BIT_PACKED=2, FREENECT_DEPTH_10BIT_PACKED=3, FREENECT_DEPTH_REGISTERED=4, FREENECT_DEPTH_MM=5, FREENECT_DEPTH_DUMMY=2147483647 };
+enum anonymous_8 { FREENECT_DEPTH_11BIT=0, FREENECT_DEPTH_10BIT=1, FREENECT_DEPTH_11BIT_PACKED=2, FREENECT_DEPTH_10BIT_PACKED=3, FREENECT_DEPTH_REGISTERED=4, FREENECT_DEPTH_MM=5, FREENECT_DEPTH_DUMMY=2147483647 };
 
-// #anon_enum$FREENECT_DEVICE_MOTOR=1$FREENECT_DEVICE_CAMERA=2$FREENECT_DEVICE_AUDIO=4
+// #anon_enum_FREENECT_DEVICE_MOTOR=1_FREENECT_DEVICE_CAMERA=2_FREENECT_DEVICE_AUDIO=4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 58
-enum anonymous$29 { FREENECT_DEVICE_MOTOR=1, FREENECT_DEVICE_CAMERA=2, FREENECT_DEVICE_AUDIO=4 };
+enum anonymous_29 { FREENECT_DEVICE_MOTOR=1, FREENECT_DEVICE_CAMERA=2, FREENECT_DEVICE_AUDIO=4 };
 
-// #anon_enum$FREENECT_LOG_FATAL=0$FREENECT_LOG_ERROR=1$FREENECT_LOG_WARNING=2$FREENECT_LOG_NOTICE=3$FREENECT_LOG_INFO=4$FREENECT_LOG_DEBUG=5$FREENECT_LOG_SPEW=6$FREENECT_LOG_FLOOD=7
+// #anon_enum_FREENECT_LOG_FATAL=0_FREENECT_LOG_ERROR=1_FREENECT_LOG_WARNING=2_FREENECT_LOG_NOTICE=3_FREENECT_LOG_INFO=4_FREENECT_LOG_DEBUG=5_FREENECT_LOG_SPEW=6_FREENECT_LOG_FLOOD=7
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 201
-enum anonymous$9 { FREENECT_LOG_FATAL=0, FREENECT_LOG_ERROR=1, FREENECT_LOG_WARNING=2, FREENECT_LOG_NOTICE=3, FREENECT_LOG_INFO=4, FREENECT_LOG_DEBUG=5, FREENECT_LOG_SPEW=6, FREENECT_LOG_FLOOD=7 };
+enum anonymous_9 { FREENECT_LOG_FATAL=0, FREENECT_LOG_ERROR=1, FREENECT_LOG_WARNING=2, FREENECT_LOG_NOTICE=3, FREENECT_LOG_INFO=4, FREENECT_LOG_DEBUG=5, FREENECT_LOG_SPEW=6, FREENECT_LOG_FLOOD=7 };
 
-// #anon_enum$FREENECT_OFF=0$FREENECT_ON=1
+// #anon_enum_FREENECT_OFF=0_FREENECT_ON=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 122
-enum anonymous$1 { FREENECT_OFF=0, FREENECT_ON=1 };
+enum anonymous_1 { FREENECT_OFF=0, FREENECT_ON=1 };
 
-// #anon_enum$FREENECT_RESOLUTION_LOW=0$FREENECT_RESOLUTION_MEDIUM=1$FREENECT_RESOLUTION_HIGH=2$FREENECT_RESOLUTION_DUMMY=2147483647
+// #anon_enum_FREENECT_RESOLUTION_LOW=0_FREENECT_RESOLUTION_MEDIUM=1_FREENECT_RESOLUTION_HIGH=2_FREENECT_RESOLUTION_DUMMY=2147483647
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 77
-enum anonymous$3 { FREENECT_RESOLUTION_LOW=0, FREENECT_RESOLUTION_MEDIUM=1, FREENECT_RESOLUTION_HIGH=2, FREENECT_RESOLUTION_DUMMY=2147483647 };
+enum anonymous_3 { FREENECT_RESOLUTION_LOW=0, FREENECT_RESOLUTION_MEDIUM=1, FREENECT_RESOLUTION_HIGH=2, FREENECT_RESOLUTION_DUMMY=2147483647 };
 
-// #anon_enum$FREENECT_VIDEO_RGB=0$FREENECT_VIDEO_BAYER=1$FREENECT_VIDEO_IR_8BIT=2$FREENECT_VIDEO_IR_10BIT=3$FREENECT_VIDEO_IR_10BIT_PACKED=4$FREENECT_VIDEO_YUV_RGB=5$FREENECT_VIDEO_YUV_RAW=6$FREENECT_VIDEO_DUMMY=2147483647
+// #anon_enum_FREENECT_VIDEO_RGB=0_FREENECT_VIDEO_BAYER=1_FREENECT_VIDEO_IR_8BIT=2_FREENECT_VIDEO_IR_10BIT=3_FREENECT_VIDEO_IR_10BIT_PACKED=4_FREENECT_VIDEO_YUV_RGB=5_FREENECT_VIDEO_YUV_RAW=6_FREENECT_VIDEO_DUMMY=2147483647
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 86
-enum anonymous$4 { FREENECT_VIDEO_RGB=0, FREENECT_VIDEO_BAYER=1, FREENECT_VIDEO_IR_8BIT=2, FREENECT_VIDEO_IR_10BIT=3, FREENECT_VIDEO_IR_10BIT_PACKED=4, FREENECT_VIDEO_YUV_RGB=5, FREENECT_VIDEO_YUV_RAW=6, FREENECT_VIDEO_DUMMY=2147483647 };
+enum anonymous_4 { FREENECT_VIDEO_RGB=0, FREENECT_VIDEO_BAYER=1, FREENECT_VIDEO_IR_8BIT=2, FREENECT_VIDEO_IR_10BIT=3, FREENECT_VIDEO_IR_10BIT_PACKED=4, FREENECT_VIDEO_YUV_RGB=5, FREENECT_VIDEO_YUV_RAW=6, FREENECT_VIDEO_DUMMY=2147483647 };
 
-// #anon_enum$LED_OFF=0$LED_GREEN=1$LED_RED=2$LED_YELLOW=3$LED_BLINK_GREEN=4$LED_BLINK_RED_YELLOW=6
+// #anon_enum_LED_OFF=0_LED_GREEN=1_LED_RED=2_LED_YELLOW=3_LED_BLINK_GREEN=4_LED_BLINK_RED_YELLOW=6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 149
-enum anonymous$20 { LED_OFF=0, LED_GREEN=1, LED_RED=2, LED_YELLOW=3, LED_BLINK_GREEN=4, LED_BLINK_RED_YELLOW=6 };
+enum anonymous_20 { LED_OFF=0, LED_GREEN=1, LED_RED=2, LED_YELLOW=3, LED_BLINK_GREEN=4, LED_BLINK_RED_YELLOW=6 };
 
-// #anon_enum$TILT_STATUS_STOPPED=0$TILT_STATUS_LIMIT=1$TILT_STATUS_MOVING=4
+// #anon_enum_TILT_STATUS_STOPPED=0_TILT_STATUS_LIMIT=1_TILT_STATUS_MOVING=4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 161
-enum anonymous$31 { TILT_STATUS_STOPPED=0, TILT_STATUS_LIMIT=1, TILT_STATUS_MOVING=4 };
+enum anonymous_31 { TILT_STATUS_STOPPED=0, TILT_STATUS_LIMIT=1, TILT_STATUS_MOVING=4 };
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_freenect_device#}$SYM#tag-_freenect_device#$'parent'||*{SYM#tag-libusb_device_handle#}$SYM#tag-libusb_device_handle#$'dev'||S32'device_dead'||S32'VID'||S32'PID'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_freenect_device#}$SYM#tag-_freenect_device#$'parent'||*{SYM#tag-libusb_device_handle#}$SYM#tag-libusb_device_handle#$'dev'||S32'device_dead'||S32'VID'||S32'PID'||U32'$pad0'|]#$'parent'||*{*{SYM#tag-libusb_transfer#}$SYM#tag-libusb_transfer#$}$*{SYM#tag-libusb_transfer#}$SYM#tag-libusb_transfer#$$'xfers'||*{U8}$U8$'buffer'||*{V(*{SYM#tag-_freenect_device#}$SYM#tag-_freenect_device#$|*{U8}$U8$|S32)->V}$V(*{SYM#tag-_freenect_device#}$SYM#tag-_freenect_device#$|*{U8}$U8$|S32)->V$'cb'||S32'num_xfers'||S32'pkts'||S32'len'||S32'dead'||S32'dead_xfers'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_freenect_device#}_SYM#tag-_freenect_device#_'parent'||*{SYM#tag-libusb_device_handle#}_SYM#tag-libusb_device_handle#_'dev'||S32'device_dead'||S32'VID'||S32'PID'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_freenect_device#}_SYM#tag-_freenect_device#_'parent'||*{SYM#tag-libusb_device_handle#}_SYM#tag-libusb_device_handle#_'dev'||S32'device_dead'||S32'VID'||S32'PID'||U32'_pad0'|]#_'parent'||*{*{SYM#tag-libusb_transfer#}_SYM#tag-libusb_transfer#_}_*{SYM#tag-libusb_transfer#}_SYM#tag-libusb_transfer#__'xfers'||*{U8}_U8_'buffer'||*{V(*{SYM#tag-_freenect_device#}_SYM#tag-_freenect_device#_|*{U8}_U8_|S32)->V}_V(*{SYM#tag-_freenect_device#}_SYM#tag-_freenect_device#_|*{U8}_U8_|S32)->V_'cb'||S32'num_xfers'||S32'pkts'||S32'len'||S32'dead'||S32'dead_xfers'||U32'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 65
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[*{SYM#tag-_freenect_device#}$SYM#tag-_freenect_device#$'parent'||*{SYM#tag-libusb_device_handle#}$SYM#tag-libusb_device_handle#$'dev'||S32'device_dead'||S32'VID'||S32'PID'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-_freenect_device#}_SYM#tag-_freenect_device#_'parent'||*{SYM#tag-libusb_device_handle#}_SYM#tag-libusb_device_handle#_'dev'||S32'device_dead'||S32'VID'||S32'PID'||U32'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 57
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{SYM#tag-libusb_context#}$SYM#tag-libusb_context#$'ctx'||S32'should_free_ctx'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-libusb_context#}_SYM#tag-libusb_context#_'ctx'||S32'should_free_ctx'||U32'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 52
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[ARR2{U8}$U8$'magic'||U16'len'||U16'cmd'||U16'tag'|]
+// tag-#anon#ST[ARR2{U8}_U8_'magic'||U16'len'||U16'cmd'||U16'tag'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/flags.c line 132
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[F32'dcmos_emitter_dist'||F32'dcmos_rcmos_dist'||F32'reference_distance'||F32'reference_pixel_size'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect_registration.h line 91
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S16'accelerometer_x'||S16'accelerometer_y'||S16'accelerometer_z'||S8'tilt_angle'||U8'$pad0'||EN#anon_enum$TILT_STATUS_STOPPED=0$TILT_STATUS_LIMIT=1$TILT_STATUS_MOVING=4#{U32}$U32$'tilt_status'|]
+// tag-#anon#ST[S16'accelerometer_x'||S16'accelerometer_y'||S16'accelerometer_z'||S8'tilt_angle'||U8'_pad0'||EN#anon_enum_TILT_STATUS_STOPPED=0_TILT_STATUS_LIMIT=1_TILT_STATUS_MOVING=4#{U32}_U32_'tilt_status'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 168
-struct anonymous$30;
+struct anonymous_30;
 
 // tag-#anon#ST[S16'left'||S16'right'||S16'center'||S16'lfe'||S16'surround_left'||S16'surround_right'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect_audio.h line 36
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[S32'dx_center'||S32'ax'||S32'bx'||S32'cx'||S32'dx'||S32'dx_start'||S32'ay'||S32'by'||S32'cy'||S32'dy'||S32'dy_start'||S32'dx_beta_start'||S32'dy_beta_start'||S32'rollout_blank'||S32'rollout_size'||S32'dx_beta_inc'||S32'dy_beta_inc'||S32'dxdx_start'||S32'dxdy_start'||S32'dydx_start'||S32'dydy_start'||S32'dxdxdx_start'||S32'dydxdx_start'||S32'dxdxdy_start'||S32'dydxdy_start'||S32'back_comp1'||S32'dydydx_start'||S32'back_comp2'||S32'dydydy_start'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect_registration.h line 38
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'running'||U32'$pad0'||*{SYM#tag-#anon#ST[S16'left'||S16'right'||S16'center'||S16'lfe'||S16'surround_left'||S16'surround_right'|]#}$SYM#tag-#anon#ST[S16'left'||S16'right'||S16'center'||S16'lfe'||S16'surround_left'||S16'surround_right'|]#$'audio_out_ring'||S32'ring_reader_idx'||S32'ring_writer_idx'||U16'out_window'||U8'out_seq'||U8'out_counter_within_window'||U16'out_weird_timestamp'||U8'out_window_parity'||U8'$pad1'||U16'in_window'||ARR10{U16}$U16$'last_seen_window'||U8'in_counter'||U8'$pad2'||ARR4{*{S32}$S32$}$*{S32}$S32$$'mic_buffer'||*{S16}$S16$'cancelled_buffer'||*{V}$V$'in_unknown'|]
+// tag-#anon#ST[S32'running'||U32'_pad0'||*{SYM#tag-#anon#ST[S16'left'||S16'right'||S16'center'||S16'lfe'||S16'surround_left'||S16'surround_right'|]#}_SYM#tag-#anon#ST[S16'left'||S16'right'||S16'center'||S16'lfe'||S16'surround_left'||S16'surround_right'|]#_'audio_out_ring'||S32'ring_reader_idx'||S32'ring_writer_idx'||U16'out_window'||U8'out_seq'||U8'out_counter_within_window'||U16'out_weird_timestamp'||U8'out_window_parity'||U8'_pad1'||U16'in_window'||ARR10{U16}_U16_'last_seen_window'||U8'in_counter'||U8'_pad2'||ARR4{*{S32}_S32_}_*{S32}_S32__'mic_buffer'||*{S16}_S16_'cancelled_buffer'||*{V}_V_'in_unknown'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/freenect_internal.h line 174
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'running'||U8'flag'||U24'$pad0'||S32'synced'||U8'seq'||U24'$pad1'||S32'got_pkts'||S32'pkt_num'||S32'pkts_per_frame'||S32'pkt_size'||S32'frame_size'||S32'last_pkt_size'||S32'valid_pkts'||U32'lost_pkts'||S32'valid_frames'||S32'variable_length'||U32'last_timestamp'||U32'timestamp'||S32'split_bufs'||U32'$pad2'||*{V}$V$'lib_buf'||*{V}$V$'usr_buf'||*{U8}$U8$'raw_buf'||*{V}$V$'proc_buf'|]
+// tag-#anon#ST[S32'running'||U8'flag'||U24'_pad0'||S32'synced'||U8'seq'||U24'_pad1'||S32'got_pkts'||S32'pkt_num'||S32'pkts_per_frame'||S32'pkt_size'||S32'frame_size'||S32'last_pkt_size'||S32'valid_pkts'||U32'lost_pkts'||S32'valid_frames'||S32'variable_length'||U32'last_timestamp'||U32'timestamp'||S32'split_bufs'||U32'_pad2'||*{V}_V_'lib_buf'||*{V}_V_'usr_buf'||*{U8}_U8_'raw_buf'||*{V}_V_'proc_buf'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/freenect_internal.h line 150
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'dx_center'||S32'ax'||S32'bx'||S32'cx'||S32'dx'||S32'dx_start'||S32'ay'||S32'by'||S32'cy'||S32'dy'||S32'dy_start'||S32'dx_beta_start'||S32'dy_beta_start'||S32'rollout_blank'||S32'rollout_size'||S32'dx_beta_inc'||S32'dy_beta_inc'||S32'dxdx_start'||S32'dxdy_start'||S32'dydx_start'||S32'dydy_start'||S32'dxdxdx_start'||S32'dydxdx_start'||S32'dxdxdy_start'||S32'dydxdy_start'||S32'back_comp1'||S32'dydydx_start'||S32'back_comp2'||S32'dydydy_start'|]#'reg_info'||SYM#tag-#anon#ST[U16'start_lines'||U16'end_lines'||U16'cropping_lines'|]#'reg_pad_info'||U16'$pad0'||SYM#tag-#anon#ST[F32'dcmos_emitter_dist'||F32'dcmos_rcmos_dist'||F32'reference_distance'||F32'reference_pixel_size'|]#'zero_plane_info'||U32'$pad1'||F64'const_shift'||*{U16}$U16$'raw_to_mm_shift'||*{S32}$S32$'depth_to_rgb_shift'||*{ARR2{S32}$S32$}$ARR2{S32}$S32$$'registration_table'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'dx_center'||S32'ax'||S32'bx'||S32'cx'||S32'dx'||S32'dx_start'||S32'ay'||S32'by'||S32'cy'||S32'dy'||S32'dy_start'||S32'dx_beta_start'||S32'dy_beta_start'||S32'rollout_blank'||S32'rollout_size'||S32'dx_beta_inc'||S32'dy_beta_inc'||S32'dxdx_start'||S32'dxdy_start'||S32'dydx_start'||S32'dydy_start'||S32'dxdxdx_start'||S32'dydxdx_start'||S32'dxdxdy_start'||S32'dydxdy_start'||S32'back_comp1'||S32'dydydx_start'||S32'back_comp2'||S32'dydydy_start'|]#'reg_info'||SYM#tag-#anon#ST[U16'start_lines'||U16'end_lines'||U16'cropping_lines'|]#'reg_pad_info'||U16'_pad0'||SYM#tag-#anon#ST[F32'dcmos_emitter_dist'||F32'dcmos_rcmos_dist'||F32'reference_distance'||F32'reference_pixel_size'|]#'zero_plane_info'||U32'_pad1'||F64'const_shift'||*{U16}_U16_'raw_to_mm_shift'||*{S32}_S32_'depth_to_rgb_shift'||*{ARR2{S32}_S32_}_ARR2{S32}_S32__'registration_table'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect_registration.h line 99
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[U16'start_lines'||U16'end_lines'||U16'cropping_lines'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect_registration.h line 84
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[U32'magic'||U16'channel'||U16'len'||U16'window'||U16'unknown'||ARR0{S32}$S32$'samples'|]
+// tag-#anon#ST[U32'magic'||U16'channel'||U16'len'||U16'window'||U16'unknown'||ARR0{S32}_S32_'samples'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/freenect_internal.h line 197
-struct anonymous$25;
+struct anonymous_25;
 
 // tag-#anon#ST[U32'magic'||U16'ver_minor'||U16'ver_major'||U16'ver_release'||U16'ver_patch'||U32'base_addr'||U32'size'||U32'entry_addr'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.h line 42
-struct anonymous$28;
+struct anonymous_28;
 
 // tag-#anon#ST[U32'magic'||U32'tag'||U32'arg1'||U32'cmd'||U32'arg2'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 43
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[U32'magic'||U32'tag'||U32'arg1'||U32'cmd'||U32'arg2'||ARR8{U32}$U32$'zeros'|]
+// tag-#anon#ST[U32'magic'||U32'tag'||U32'arg1'||U32'cmd'||U32'arg2'||ARR8{U32}_U32_'zeros'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.h line 53
-struct anonymous$26;
+struct anonymous_26;
 
 // tag-#anon#ST[U32'magic'||U32'tag'||U32'bytes'||U32'cmd'||U32'addr'||U32'unk'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.h line 33
-struct anonymous$27;
+struct anonymous_27;
 
 // tag-#anon#ST[U32'magic'||U32'tag'||U32'status'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 51
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[U32'reserved'||EN#anon_enum$FREENECT_RESOLUTION_LOW=0$FREENECT_RESOLUTION_MEDIUM=1$FREENECT_RESOLUTION_HIGH=2$FREENECT_RESOLUTION_DUMMY=2147483647#{U32}$U32$'resolution'||SYM#tag-#anon#UN[S32'dummy'||EN#anon_enum$FREENECT_VIDEO_RGB=0$FREENECT_VIDEO_BAYER=1$FREENECT_VIDEO_IR_8BIT=2$FREENECT_VIDEO_IR_10BIT=3$FREENECT_VIDEO_IR_10BIT_PACKED=4$FREENECT_VIDEO_YUV_RGB=5$FREENECT_VIDEO_YUV_RAW=6$FREENECT_VIDEO_DUMMY=2147483647#{U32}$U32$'video_format'||EN#anon_enum$FREENECT_DEPTH_11BIT=0$FREENECT_DEPTH_10BIT=1$FREENECT_DEPTH_11BIT_PACKED=2$FREENECT_DEPTH_10BIT_PACKED=3$FREENECT_DEPTH_REGISTERED=4$FREENECT_DEPTH_MM=5$FREENECT_DEPTH_DUMMY=2147483647#{U32}$U32$'depth_format'|]#'$anon0'||S32'bytes'||S16'width'||S16'height'||S8'data_bits_per_pixel'||S8'padding_bits_per_pixel'||S8'framerate'||S8'is_valid'|]
+// tag-#anon#ST[U32'reserved'||EN#anon_enum_FREENECT_RESOLUTION_LOW=0_FREENECT_RESOLUTION_MEDIUM=1_FREENECT_RESOLUTION_HIGH=2_FREENECT_RESOLUTION_DUMMY=2147483647#{U32}_U32_'resolution'||SYM#tag-#anon#UN[S32'dummy'||EN#anon_enum_FREENECT_VIDEO_RGB=0_FREENECT_VIDEO_BAYER=1_FREENECT_VIDEO_IR_8BIT=2_FREENECT_VIDEO_IR_10BIT=3_FREENECT_VIDEO_IR_10BIT_PACKED=4_FREENECT_VIDEO_YUV_RGB=5_FREENECT_VIDEO_YUV_RAW=6_FREENECT_VIDEO_DUMMY=2147483647#{U32}_U32_'video_format'||EN#anon_enum_FREENECT_DEPTH_11BIT=0_FREENECT_DEPTH_10BIT=1_FREENECT_DEPTH_11BIT_PACKED=2_FREENECT_DEPTH_10BIT_PACKED=3_FREENECT_DEPTH_REGISTERED=4_FREENECT_DEPTH_MM=5_FREENECT_DEPTH_DUMMY=2147483647#{U32}_U32_'depth_format'|]#'_anon0'||S32'bytes'||S16'width'||S16'height'||S8'data_bits_per_pixel'||S8'padding_bits_per_pixel'||S8'framerate'||S8'is_valid'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 130
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#UN[S32'dummy'||EN#anon_enum$FREENECT_VIDEO_RGB=0$FREENECT_VIDEO_BAYER=1$FREENECT_VIDEO_IR_8BIT=2$FREENECT_VIDEO_IR_10BIT=3$FREENECT_VIDEO_IR_10BIT_PACKED=4$FREENECT_VIDEO_YUV_RGB=5$FREENECT_VIDEO_YUV_RAW=6$FREENECT_VIDEO_DUMMY=2147483647#{U32}$U32$'video_format'||EN#anon_enum$FREENECT_DEPTH_11BIT=0$FREENECT_DEPTH_10BIT=1$FREENECT_DEPTH_11BIT_PACKED=2$FREENECT_DEPTH_10BIT_PACKED=3$FREENECT_DEPTH_REGISTERED=4$FREENECT_DEPTH_MM=5$FREENECT_DEPTH_DUMMY=2147483647#{U32}$U32$'depth_format'|]
+// tag-#anon#UN[S32'dummy'||EN#anon_enum_FREENECT_VIDEO_RGB=0_FREENECT_VIDEO_BAYER=1_FREENECT_VIDEO_IR_8BIT=2_FREENECT_VIDEO_IR_10BIT=3_FREENECT_VIDEO_IR_10BIT_PACKED=4_FREENECT_VIDEO_YUV_RGB=5_FREENECT_VIDEO_YUV_RAW=6_FREENECT_VIDEO_DUMMY=2147483647#{U32}_U32_'video_format'||EN#anon_enum_FREENECT_DEPTH_11BIT=0_FREENECT_DEPTH_10BIT=1_FREENECT_DEPTH_11BIT_PACKED=2_FREENECT_DEPTH_10BIT_PACKED=3_FREENECT_DEPTH_REGISTERED=4_FREENECT_DEPTH_MM=5_FREENECT_DEPTH_DUMMY=2147483647#{U32}_U32_'depth_format'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 133
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$13;
+union anonymous_13;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -234,10 +234,10 @@ extern signed int atoi(const char *);
 void chunk_cb(void *buffer, void *pkt_data, signed int pkt_num, signed int pkt_size, void *ud);
 // complete_tables
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 306
-static void complete_tables(struct anonymous$7 *reg);
+static void complete_tables(struct anonymous_7 *reg);
 // convert_bayer_to_rgb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 453
-static void convert_bayer_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf, struct anonymous$17 frame_mode);
+static void convert_bayer_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf, struct anonymous_17 frame_mode);
 // convert_packed11_to_16bit
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 345
 static void convert_packed11_to_16bit(unsigned char *raw, unsigned short int *frame, signed int n);
@@ -249,7 +249,7 @@ static inline void convert_packed_to_16bit(unsigned char *src, unsigned short in
 static inline void convert_packed_to_8bit(unsigned char *src, unsigned char *dest, signed int vw, signed int n);
 // convert_uyvy_to_rgb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 420
-static void convert_uyvy_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf, struct anonymous$17 frame_mode);
+static void convert_uyvy_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf, struct anonymous_17 frame_mode);
 // depth_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/examples/chunkview.c line 257
 void depth_cb(struct _freenect_device *dev, void *v_depth, unsigned int timestamp);
@@ -258,10 +258,10 @@ void depth_cb(struct _freenect_device *dev, void *v_depth, unsigned int timestam
 static void depth_process(struct _freenect_device *dev, unsigned char *pkt, signed int len);
 // dump_bl_cmd
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.c line 36
-static void dump_bl_cmd(struct _freenect_context *ctx, struct anonymous$27 cmd);
+static void dump_bl_cmd(struct _freenect_context *ctx, struct anonymous_27 cmd);
 // dump_cemd_cmd
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.c line 43
-static void dump_cemd_cmd(struct _freenect_context *ctx, struct anonymous$26 cmd);
+static void dump_cemd_cmd(struct _freenect_context *ctx, struct anonymous_26 cmd);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -273,10 +273,10 @@ extern signed int fclose(struct _IO_FILE *);
 extern signed int fflush(struct _IO_FILE *);
 // fn_log
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 262
-void fn_log(struct _freenect_context *ctx, enum anonymous$9 level, const char *fmt, ...);
+void fn_log(struct _freenect_context *ctx, enum anonymous_9 level, const char *fmt, ...);
 // fnusb_bulk
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.c line 879
-signed int fnusb_bulk(struct anonymous$19 *dev, unsigned char endpoint, unsigned char *data, signed int len, signed int *transferred);
+signed int fnusb_bulk(struct anonymous_19 *dev, unsigned char endpoint, unsigned char *data, signed int len, signed int *transferred);
 // fnusb_claim_camera
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.c line 255
 signed int fnusb_claim_camera(struct _freenect_device *dev);
@@ -285,52 +285,52 @@ signed int fnusb_claim_camera(struct _freenect_device *dev);
 signed int fnusb_close_subdevices(struct _freenect_device *dev);
 // fnusb_control
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 92
-signed int fnusb_control(struct anonymous$19 *dev, unsigned char bmRequestType, unsigned char bRequest, unsigned short int wValue, unsigned short int wIndex, unsigned char *data, unsigned short int wLength);
+signed int fnusb_control(struct anonymous_19 *dev, unsigned char bmRequestType, unsigned char bRequest, unsigned short int wValue, unsigned short int wIndex, unsigned char *data, unsigned short int wLength);
 // fnusb_find_connected_audio_device
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.c line 69
 struct libusb_device * fnusb_find_connected_audio_device(struct libusb_device *camera, struct libusb_device **deviceList, signed int cnt);
 // fnusb_get_max_iso_packet_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 90
-signed int fnusb_get_max_iso_packet_size(struct anonymous$19 *dev, unsigned char endpoint, signed int default_size);
+signed int fnusb_get_max_iso_packet_size(struct anonymous_19 *dev, unsigned char endpoint, signed int default_size);
 // fnusb_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 80
-signed int fnusb_init(struct anonymous$22 *ctx, void *usb_ctx);
+signed int fnusb_init(struct anonymous_22 *ctx, void *usb_ctx);
 // fnusb_is_pid_k4w_audio
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.c line 64
 signed int fnusb_is_pid_k4w_audio(signed int pid);
 // fnusb_list_device_attributes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 78
-signed int fnusb_list_device_attributes(struct anonymous$22 *ctx, struct freenect_device_attributes **attribute_list);
+signed int fnusb_list_device_attributes(struct anonymous_22 *ctx, struct freenect_device_attributes **attribute_list);
 // fnusb_num_devices
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 77
-signed int fnusb_num_devices(struct anonymous$22 *ctx);
+signed int fnusb_num_devices(struct anonymous_22 *ctx);
 // fnusb_num_interfaces
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.c line 884
-signed int fnusb_num_interfaces(struct anonymous$19 *dev);
+signed int fnusb_num_interfaces(struct anonymous_19 *dev);
 // fnusb_open_subdevices
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 85
 signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index);
 // fnusb_process_events
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.c line 245
-signed int fnusb_process_events(struct anonymous$22 *ctx);
+signed int fnusb_process_events(struct anonymous_22 *ctx);
 // fnusb_process_events_timeout
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 83
-signed int fnusb_process_events_timeout(struct anonymous$22 *ctx, struct timeval *timeout);
+signed int fnusb_process_events_timeout(struct anonymous_22 *ctx, struct timeval *timeout);
 // fnusb_set_led_alt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 246
-signed int fnusb_set_led_alt(struct libusb_device_handle *dev, struct _freenect_context *ctx, enum anonymous$20 state);
+signed int fnusb_set_led_alt(struct libusb_device_handle *dev, struct _freenect_context *ctx, enum anonymous_20 state);
 // fnusb_shutdown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 81
-signed int fnusb_shutdown(struct anonymous$22 *ctx);
+signed int fnusb_shutdown(struct anonymous_22 *ctx);
 // fnusb_start_iso
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 88
-signed int fnusb_start_iso(struct anonymous$19 *dev, struct anonymous$18 *strm, void (*cb)(struct _freenect_device *, unsigned char *, signed int), unsigned char endpoint, signed int xfers, signed int pkts, signed int len);
-// fnusb_start_iso::cb$object
+signed int fnusb_start_iso(struct anonymous_19 *dev, struct anonymous_18 *strm, void (*cb)(struct _freenect_device *, unsigned char *, signed int), unsigned char endpoint, signed int xfers, signed int pkts, signed int len);
+// fnusb_start_iso::cb_object
 //
-void cb$object(struct _freenect_device *, unsigned char *, signed int);
+void cb_object(struct _freenect_device *, unsigned char *, signed int);
 // fnusb_stop_iso
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 89
-signed int fnusb_stop_iso(struct anonymous$19 *dev, struct anonymous$18 *strm);
+signed int fnusb_stop_iso(struct anonymous_19 *dev, struct anonymous_18 *strm);
 // fopen
 // file /usr/include/stdio.h line 272
 extern struct _IO_FILE * fopen(const char *, const char *);
@@ -360,16 +360,16 @@ void freenect_camera_to_world(struct _freenect_device *dev, signed int cx, signe
 signed int freenect_close_device(struct _freenect_device *dev);
 // freenect_copy_registration
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 420
-struct anonymous$7 freenect_copy_registration(struct _freenect_device *dev);
+struct anonymous_7 freenect_copy_registration(struct _freenect_device *dev);
 // freenect_create_dxdy_tables
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 194
-static void freenect_create_dxdy_tables(double *reg_x_table, double *reg_y_table, signed int resolution_x, signed int resolution_y, struct anonymous$5 *regdata);
+static void freenect_create_dxdy_tables(double *reg_x_table, double *reg_y_table, signed int resolution_x, signed int resolution_y, struct anonymous_5 *regdata);
 // freenect_destroy_registration
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect_registration.h line 116
-signed int freenect_destroy_registration(struct anonymous$7 *reg);
+signed int freenect_destroy_registration(struct anonymous_7 *reg);
 // freenect_enabled_subdevices
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 138
-enum anonymous$29 freenect_enabled_subdevices(struct _freenect_context *ctx);
+enum anonymous_29 freenect_enabled_subdevices(struct _freenect_context *ctx);
 // freenect_fetch_reg_const_shift
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 769
 static signed int freenect_fetch_reg_const_shift(struct _freenect_device *dev);
@@ -384,22 +384,22 @@ static signed int freenect_fetch_reg_pad_info(struct _freenect_device *dev);
 static signed int freenect_fetch_zero_plane_info(struct _freenect_device *dev);
 // freenect_find_depth_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 650
-struct anonymous$17 freenect_find_depth_mode(enum anonymous$3 res, enum anonymous$8 fmt);
+struct anonymous_17 freenect_find_depth_mode(enum anonymous_3 res, enum anonymous_8 fmt);
 // freenect_find_video_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1139
-struct anonymous$17 freenect_find_video_mode(enum anonymous$3 res, enum anonymous$4 fmt);
+struct anonymous_17 freenect_find_video_mode(enum anonymous_3 res, enum anonymous_4 fmt);
 // freenect_free_device_attributes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 112
 void freenect_free_device_attributes(struct freenect_device_attributes *attribute_list);
 // freenect_get_current_depth_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1197
-struct anonymous$17 freenect_get_current_depth_mode(struct _freenect_device *dev);
+struct anonymous_17 freenect_get_current_depth_mode(struct _freenect_device *dev);
 // freenect_get_current_video_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1134
-struct anonymous$17 freenect_get_current_video_mode(struct _freenect_device *dev);
+struct anonymous_17 freenect_get_current_video_mode(struct _freenect_device *dev);
 // freenect_get_depth_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1188
-struct anonymous$17 freenect_get_depth_mode(signed int mode_num);
+struct anonymous_17 freenect_get_depth_mode(signed int mode_num);
 // freenect_get_depth_mode_count
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1183
 signed int freenect_get_depth_mode_count();
@@ -408,22 +408,22 @@ signed int freenect_get_depth_mode_count();
 signed int freenect_get_ir_brightness(struct _freenect_device *dev);
 // freenect_get_mks_accel
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 560
-void freenect_get_mks_accel(struct anonymous$30 *state, double *x, double *y, double *z);
+void freenect_get_mks_accel(struct anonymous_30 *state, double *x, double *y, double *z);
 // freenect_get_tilt_degs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 321
-double freenect_get_tilt_degs(struct anonymous$30 *state);
+double freenect_get_tilt_degs(struct anonymous_30 *state);
 // freenect_get_tilt_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 503
-struct anonymous$30 * freenect_get_tilt_state(struct _freenect_device *dev);
+struct anonymous_30 * freenect_get_tilt_state(struct _freenect_device *dev);
 // freenect_get_tilt_status
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 326
-enum anonymous$31 freenect_get_tilt_status(struct anonymous$30 *state);
+enum anonymous_31 freenect_get_tilt_status(struct anonymous_30 *state);
 // freenect_get_user
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 247
 void * freenect_get_user(struct _freenect_device *dev);
 // freenect_get_video_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1125
-struct anonymous$17 freenect_get_video_mode(signed int mode_num);
+struct anonymous_17 freenect_get_video_mode(signed int mode_num);
 // freenect_get_video_mode_count
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1120
 signed int freenect_get_video_mode_count();
@@ -432,13 +432,13 @@ signed int freenect_get_video_mode_count();
 signed int freenect_init(struct _freenect_context **ctx, void *usb_ctx);
 // freenect_init_depth_to_rgb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 60
-static void freenect_init_depth_to_rgb(signed int *depth_to_rgb, struct anonymous$2 *zpi);
+static void freenect_init_depth_to_rgb(signed int *depth_to_rgb, struct anonymous_2 *zpi);
 // freenect_init_registration
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.h line 32
 signed int freenect_init_registration(struct _freenect_device *dev);
 // freenect_init_registration_table
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 264
-static void freenect_init_registration_table(signed int (*registration_table)[2l], struct anonymous$5 *reg_info);
+static void freenect_init_registration_table(signed int (*registration_table)[2l], struct anonymous_5 *reg_info);
 // freenect_list_device_attributes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 107
 signed int freenect_list_device_attributes(struct _freenect_context *ctx, struct freenect_device_attributes **attribute_list);
@@ -462,43 +462,43 @@ signed int freenect_process_events(struct _freenect_context *ctx);
 signed int freenect_process_events_timeout(struct _freenect_context *ctx, struct timeval *timeout);
 // freenect_raw_to_mm
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 297
-static unsigned short int freenect_raw_to_mm(unsigned short int raw, struct anonymous$7 *reg);
+static unsigned short int freenect_raw_to_mm(unsigned short int raw, struct anonymous_7 *reg);
 // freenect_select_subdevices
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 321
-void freenect_select_subdevices(struct _freenect_context *ctx, enum anonymous$29 subdevs);
+void freenect_select_subdevices(struct _freenect_context *ctx, enum anonymous_29 subdevs);
 // freenect_set_audio_in_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/audio.c line 142
 void freenect_set_audio_in_callback(struct _freenect_device *dev, void (*callback)(struct _freenect_device *, signed int, signed int *, signed int *, signed int *, signed int *, signed short int *, void *));
-// freenect_set_audio_in_callback::callback$object
+// freenect_set_audio_in_callback::callback_object
 //
-void callback$object(struct _freenect_device *, signed int, signed int *, signed int *, signed int *, signed int *, signed short int *, void *);
+void callback_object(struct _freenect_device *, signed int, signed int *, signed int *, signed int *, signed int *, signed short int *, void *);
 // freenect_set_audio_out_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/audio.c line 145
-void freenect_set_audio_out_callback(struct _freenect_device *dev, void (*callback)(struct _freenect_device *, struct anonymous$10 *, signed int *));
-// freenect_set_audio_out_callback::callback$object
+void freenect_set_audio_out_callback(struct _freenect_device *dev, void (*callback)(struct _freenect_device *, struct anonymous_10 *, signed int *));
+// freenect_set_audio_out_callback::callback_object
 //
-void callback$object(struct _freenect_device *, struct anonymous$10 *, signed int *);
+void callback_object(struct _freenect_device *, struct anonymous_10 *, signed int *);
 // freenect_set_depth_buffer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1241
 signed int freenect_set_depth_buffer(struct _freenect_device *dev, void *buf);
 // freenect_set_depth_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 399
 void freenect_set_depth_callback(struct _freenect_device *dev, void (*cb)(struct _freenect_device *, void *, unsigned int));
-// freenect_set_depth_callback::cb$object
+// freenect_set_depth_callback::cb_object
 //
-void cb$object(struct _freenect_device *, void *, unsigned int);
+void cb_object(struct _freenect_device *, void *, unsigned int);
 // freenect_set_depth_chunk_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 415
 void freenect_set_depth_chunk_callback(struct _freenect_device *dev, void (*cb)(void *, void *, signed int, signed int, void *));
-// freenect_set_depth_chunk_callback::cb$object
+// freenect_set_depth_chunk_callback::cb_object
 //
-void cb$object(void *, void *, signed int, signed int, void *);
+void cb_object(void *, void *, signed int, signed int, void *);
 // freenect_set_depth_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 661
-signed int freenect_set_depth_mode(struct _freenect_device *dev, const struct anonymous$17 mode);
+signed int freenect_set_depth_mode(struct _freenect_device *dev, const struct anonymous_17 mode);
 // freenect_set_flag
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/flags.c line 46
-signed int freenect_set_flag(struct _freenect_device *dev, enum anonymous$0 flag, enum anonymous$1 value);
+signed int freenect_set_flag(struct _freenect_device *dev, enum anonymous_0 flag, enum anonymous_1 value);
 // freenect_set_fw_address_k4w
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 292
 void freenect_set_fw_address_k4w(struct _freenect_context *ctx, unsigned char *fw_ptr, unsigned int num_bytes);
@@ -510,19 +510,19 @@ void freenect_set_fw_address_nui(struct _freenect_context *ctx, unsigned char *f
 signed int freenect_set_ir_brightness(struct _freenect_device *dev, unsigned short int brightness);
 // freenect_set_led
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 547
-signed int freenect_set_led(struct _freenect_device *dev, enum anonymous$20 option);
+signed int freenect_set_led(struct _freenect_device *dev, enum anonymous_20 option);
 // freenect_set_led_alt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 290
-signed int freenect_set_led_alt(struct _freenect_device *dev, enum anonymous$20 state);
+signed int freenect_set_led_alt(struct _freenect_device *dev, enum anonymous_20 state);
 // freenect_set_log_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 257
-void freenect_set_log_callback(struct _freenect_context *ctx, void (*cb)(struct _freenect_context *, enum anonymous$9, const char *));
-// freenect_set_log_callback::cb$object
+void freenect_set_log_callback(struct _freenect_context *ctx, void (*cb)(struct _freenect_context *, enum anonymous_9, const char *));
+// freenect_set_log_callback::cb_object
 //
-void cb$object(struct _freenect_context *, enum anonymous$9, const char *);
+void cb_object(struct _freenect_context *, enum anonymous_9, const char *);
 // freenect_set_log_level
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 241
-void freenect_set_log_level(struct _freenect_context *ctx, enum anonymous$9 level);
+void freenect_set_log_level(struct _freenect_context *ctx, enum anonymous_9 level);
 // freenect_set_tilt_degs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 526
 signed int freenect_set_tilt_degs(struct _freenect_device *dev, double angle);
@@ -538,18 +538,18 @@ signed int freenect_set_video_buffer(struct _freenect_device *dev, void *buf);
 // freenect_set_video_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1104
 void freenect_set_video_callback(struct _freenect_device *dev, void (*cb)(struct _freenect_device *, void *, unsigned int));
-// freenect_set_video_callback::cb$object
+// freenect_set_video_callback::cb_object
 //
-void cb$object(struct _freenect_device *, void *, unsigned int);
+void cb_object(struct _freenect_device *, void *, unsigned int);
 // freenect_set_video_chunk_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1115
 void freenect_set_video_chunk_callback(struct _freenect_device *dev, void (*cb)(void *, void *, signed int, signed int, void *));
-// freenect_set_video_chunk_callback::cb$object
+// freenect_set_video_chunk_callback::cb_object
 //
-void cb$object(void *, void *, signed int, signed int, void *);
+void cb_object(void *, void *, signed int, signed int, void *);
 // freenect_set_video_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1152
-signed int freenect_set_video_mode(struct _freenect_device *dev, const struct anonymous$17 mode);
+signed int freenect_set_video_mode(struct _freenect_device *dev, const struct anonymous_17 mode);
 // freenect_shutdown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 230
 signed int freenect_shutdown(struct _freenect_context *ctx);
@@ -589,9 +589,9 @@ extern signed long int ftell(struct _IO_FILE *);
 // get_reply
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 60
 signed int get_reply(struct libusb_device_handle *dev, struct _freenect_context *ctx);
-// get_reply$link1
+// get_reply_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.c line 50
-static signed int get_reply$link1(struct anonymous$19 *dev$link1);
+static signed int get_reply_link1(struct anonymous_19 *dev_link1);
 // getenv
 // file /usr/include/stdlib.h line 564
 extern char * getenv(const char *);
@@ -742,9 +742,9 @@ void libusb_exit(struct libusb_context *);
 // libusb_fill_iso_transfer
 // file /usr/include/libusb-1.0/libusb.h line 1630
 static inline void libusb_fill_iso_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *buffer, signed int length, signed int num_iso_packets, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_iso_transfer::callback$object
+// libusb_fill_iso_transfer::callback_object
 //
-void callback$object(struct libusb_transfer *);
+void callback_object(struct libusb_transfer *);
 // libusb_free_config_descriptor
 // file /usr/include/libusb-1.0/libusb.h line 1329
 void libusb_free_config_descriptor(struct libusb_config_descriptor *);
@@ -828,10 +828,10 @@ static void prepare_iso_out_data(struct _freenect_device *dev, unsigned char *bu
 extern signed int printf(const char *, ...);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$16 *);
+extern signed int pthread_cond_signal(union anonymous_16 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$16 *, union anonymous$13 *);
+extern signed int pthread_cond_wait(union anonymous_16 *, union anonymous_13 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -840,10 +840,10 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$13 *);
+extern signed int pthread_mutex_lock(union anonymous_13 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$13 *);
+extern signed int pthread_mutex_unlock(union anonymous_13 *);
 // read_cmos_register
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/flags.c line 252
 unsigned short int read_cmos_register(struct _freenect_device *dev, unsigned short int reg);
@@ -879,19 +879,19 @@ extern char * strcpy(char *, const char *);
 extern char * strdup(const char *);
 // stream_freebufs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 260
-static void stream_freebufs(struct _freenect_context *ctx, struct anonymous$32 *strm);
+static void stream_freebufs(struct _freenect_context *ctx, struct anonymous_32 *strm);
 // stream_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 231
-static void stream_init(struct _freenect_context *ctx, struct anonymous$32 *strm, signed int rlen, signed int plen);
+static void stream_init(struct _freenect_context *ctx, struct anonymous_32 *strm, signed int rlen, signed int plen);
 // stream_process
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 87
-static signed int stream_process(struct _freenect_context *ctx, struct anonymous$32 *strm, unsigned char *pkt, signed int len, void (*cb)(void *, void *, signed int, signed int, void *), void *user_data);
-// stream_process::cb$object
+static signed int stream_process(struct _freenect_context *ctx, struct anonymous_32 *strm, unsigned char *pkt, signed int len, void (*cb)(void *, void *, signed int, signed int, void *), void *user_data);
+// stream_process::cb_object
 //
-void cb$object(void *, void *, signed int, signed int, void *);
+void cb_object(void *, void *, signed int, signed int, void *);
 // stream_setbuf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 272
-static signed int stream_setbuf(struct _freenect_context *ctx, struct anonymous$32 *strm, void *pbuf);
+static signed int stream_setbuf(struct _freenect_context *ctx, struct anonymous_32 *strm, void *pbuf);
 // strlen
 // file /usr/include/string.h line 398
 extern unsigned long int strlen(const char *);
@@ -906,13 +906,13 @@ static inline void unpack_8_pixels(unsigned char *raw, unsigned short int *frame
 signed int update_tilt_state_alt(struct _freenect_device *dev);
 // upload_cemd_data
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.c line 341
-signed int upload_cemd_data(struct anonymous$19 *dev);
+signed int upload_cemd_data(struct anonymous_19 *dev);
 // upload_firmware
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.h line 68
-signed int upload_firmware(struct anonymous$19 *dev, char *filename);
+signed int upload_firmware(struct anonymous_19 *dev, char *filename);
 // upload_firmware_from_memory
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.h line 69
-signed int upload_firmware_from_memory(struct anonymous$19 *dev, unsigned char *fw_from_mem, unsigned int fw_size_in_btyes);
+signed int upload_firmware_from_memory(struct anonymous_19 *dev, unsigned char *fw_from_mem, unsigned int fw_size_in_btyes);
 // usleep
 // file /usr/include/unistd.h line 460
 extern signed int usleep(unsigned int);
@@ -932,10 +932,10 @@ signed int write_cmos_register(struct _freenect_device *dev, unsigned short int 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/flags.h line 36
 signed int write_register(struct _freenect_device *dev, unsigned short int reg, unsigned short int data);
 
-struct anonymous$18
+struct anonymous_18
 {
   // parent
-  struct anonymous$19 *parent;
+  struct anonymous_19 *parent;
   // xfers
   struct libusb_transfer **xfers;
   // buffer
@@ -954,7 +954,7 @@ struct anonymous$18
   signed int dead_xfers;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // parent
   struct _freenect_device *parent;
@@ -968,7 +968,7 @@ struct anonymous$19
   signed int PID;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // ctx
   struct libusb_context *ctx;
@@ -976,7 +976,7 @@ struct anonymous$22
   signed int should_free_ctx;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // magic
   unsigned char magic[2l];
@@ -988,7 +988,7 @@ struct anonymous$14
   unsigned short int tag;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // dcmos_emitter_dist
   float dcmos_emitter_dist;
@@ -1000,7 +1000,7 @@ struct anonymous$2
   float reference_pixel_size;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // accelerometer_x
   signed short int accelerometer_x;
@@ -1011,10 +1011,10 @@ struct anonymous$30
   // tilt_angle
   signed char tilt_angle;
   // tilt_status
-  enum anonymous$31 tilt_status;
+  enum anonymous_31 tilt_status;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // left
   signed short int left;
@@ -1030,7 +1030,7 @@ struct anonymous$10
   signed short int surround_right;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // __lock
   signed int __lock;
@@ -1050,7 +1050,7 @@ struct anonymous$15
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // dx_center
   signed int dx_center;
@@ -1112,12 +1112,12 @@ struct anonymous$5
   signed int dydydy_start;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // running
   signed int running;
   // audio_out_ring
-  struct anonymous$10 *audio_out_ring;
+  struct anonymous_10 *audio_out_ring;
   // ring_reader_idx
   signed int ring_reader_idx;
   // ring_writer_idx
@@ -1146,7 +1146,7 @@ struct anonymous$11
   void *in_unknown;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // running
   signed int running;
@@ -1192,7 +1192,7 @@ struct anonymous$32
   void *proc_buf;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // start_lines
   unsigned short int start_lines;
@@ -1202,14 +1202,14 @@ struct anonymous$6
   unsigned short int cropping_lines;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // reg_info
-  struct anonymous$5 reg_info;
+  struct anonymous_5 reg_info;
   // reg_pad_info
-  struct anonymous$6 reg_pad_info;
+  struct anonymous_6 reg_pad_info;
   // zero_plane_info
-  struct anonymous$2 zero_plane_info;
+  struct anonymous_2 zero_plane_info;
   // const_shift
   double const_shift;
   // raw_to_mm_shift
@@ -1220,7 +1220,7 @@ struct anonymous$7
   signed int (*registration_table)[2l];
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // magic
   unsigned int magic;
@@ -1236,7 +1236,7 @@ struct anonymous$25
   signed int samples[0l];
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // magic
   unsigned int magic;
@@ -1256,7 +1256,7 @@ struct anonymous$28
   unsigned int entry_addr;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // magic
   unsigned int magic;
@@ -1270,7 +1270,7 @@ struct anonymous$23
   unsigned int arg2;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // magic
   unsigned int magic;
@@ -1286,7 +1286,7 @@ struct anonymous$26
   unsigned int zeros[8l];
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // magic
   unsigned int magic;
@@ -1302,7 +1302,7 @@ struct anonymous$27
   unsigned int unk;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // magic
   unsigned int magic;
@@ -1312,24 +1312,24 @@ struct anonymous$21
   unsigned int status;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // dummy
   signed int dummy;
   // video_format
-  enum anonymous$4 video_format;
+  enum anonymous_4 video_format;
   // depth_format
-  enum anonymous$8 depth_format;
+  enum anonymous_8 depth_format;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // reserved
   unsigned int reserved;
   // resolution
-  enum anonymous$3 resolution;
-  // $anon0
-  union anonymous$12 $anon0;
+  enum anonymous_3 resolution;
+  // _anon0
+  union anonymous_12 _anon0;
   // bytes
   signed int bytes;
   // width
@@ -1346,10 +1346,10 @@ struct anonymous$17
   signed char is_valid;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __data
-  struct anonymous$15 __data;
+  struct anonymous_15 __data;
   // __size
   char __size[48l];
   // __align
@@ -1384,7 +1384,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1469,13 +1469,13 @@ struct _IO_marker
 struct _freenect_context
 {
   // log_level
-  enum anonymous$9 log_level;
+  enum anonymous_9 log_level;
   // log_cb
-  void (*log_cb)(struct _freenect_context *, enum anonymous$9, const char *);
+  void (*log_cb)(struct _freenect_context *, enum anonymous_9, const char *);
   // usb
-  struct anonymous$22 usb;
+  struct anonymous_22 usb;
   // enabled_subdevices
-  enum anonymous$29 enabled_subdevices;
+  enum anonymous_29 enabled_subdevices;
   // first
   struct _freenect_device *first;
   // zero_plane_res
@@ -1499,11 +1499,11 @@ struct _freenect_device
   // user_data
   void *user_data;
   // usb_cam
-  struct anonymous$19 usb_cam;
+  struct anonymous_19 usb_cam;
   // depth_isoc
-  struct anonymous$18 depth_isoc;
+  struct anonymous_18 depth_isoc;
   // video_isoc
-  struct anonymous$18 video_isoc;
+  struct anonymous_18 video_isoc;
   // depth_cb
   void (*depth_cb)(struct _freenect_device *, void *, unsigned int);
   // video_cb
@@ -1513,41 +1513,41 @@ struct _freenect_device
   // video_chunk_cb
   void (*video_chunk_cb)(void *, void *, signed int, signed int, void *);
   // video_format
-  enum anonymous$4 video_format;
+  enum anonymous_4 video_format;
   // depth_format
-  enum anonymous$8 depth_format;
+  enum anonymous_8 depth_format;
   // video_resolution
-  enum anonymous$3 video_resolution;
+  enum anonymous_3 video_resolution;
   // depth_resolution
-  enum anonymous$3 depth_resolution;
+  enum anonymous_3 depth_resolution;
   // cam_inited
   signed int cam_inited;
   // cam_tag
   unsigned short int cam_tag;
   // depth
-  struct anonymous$32 depth;
+  struct anonymous_32 depth;
   // video
-  struct anonymous$32 video;
+  struct anonymous_32 video;
   // registration
-  struct anonymous$7 registration;
+  struct anonymous_7 registration;
   // usb_audio
-  struct anonymous$19 usb_audio;
+  struct anonymous_19 usb_audio;
   // audio_out_isoc
-  struct anonymous$18 audio_out_isoc;
+  struct anonymous_18 audio_out_isoc;
   // audio_in_isoc
-  struct anonymous$18 audio_in_isoc;
+  struct anonymous_18 audio_in_isoc;
   // audio_in_cb
   void (*audio_in_cb)(struct _freenect_device *, signed int, signed int *, signed int *, signed int *, signed int *, signed short int *, void *);
   // audio_out_cb
-  void (*audio_out_cb)(struct _freenect_device *, struct anonymous$10 *, signed int *);
+  void (*audio_out_cb)(struct _freenect_device *, struct anonymous_10 *, signed int *);
   // audio
-  struct anonymous$11 audio;
+  struct anonymous_11 audio;
   // audio_tag
   unsigned int audio_tag;
   // usb_motor
-  struct anonymous$19 usb_motor;
+  struct anonymous_19 usb_motor;
   // raw_state
-  struct anonymous$30 raw_state;
+  struct anonymous_30 raw_state;
   // device_does_motor_control_with_audio
   signed int device_does_motor_control_with_audio;
   // motor_control_with_audio_enabled
@@ -1789,7 +1789,7 @@ signed int g_argc;
 char **g_argv;
 // gl_backbuf_mutex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/examples/chunkview.c line 52
-union anonymous$13 gl_backbuf_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_13 gl_backbuf_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // gl_depth_tex
@@ -1797,7 +1797,7 @@ union anonymous$13 gl_backbuf_mutex = { .__data={ .__lock=0, .__count=(unsigned 
 unsigned int gl_depth_tex;
 // gl_frame_cond
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/examples/chunkview.c line 67
-union anonymous$16 gl_frame_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_16 gl_frame_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1821,43 +1821,43 @@ extern struct _IO_FILE *stderr;
 extern struct _IO_FILE *stdout;
 // supported_depth_modes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 65
-static struct anonymous$17 supported_depth_modes[6l] = { { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_11BIT & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_DEPTH_11BIT },
+static struct anonymous_17 supported_depth_modes[6l] = { { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_11BIT & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_DEPTH_11BIT },
     .bytes=640 * 480 * 2,
     .width=(signed short int)640, .height=(signed short int)480,
     .data_bits_per_pixel=(signed char)11, .padding_bits_per_pixel=(signed char)5,
     .framerate=(signed char)30,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_10BIT & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_DEPTH_10BIT },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_10BIT & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_DEPTH_10BIT },
     .bytes=640 * 480 * 2,
     .width=(signed short int)640, .height=(signed short int)480,
     .data_bits_per_pixel=(signed char)10, .padding_bits_per_pixel=(signed char)6,
     .framerate=(signed char)30,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_11BIT_PACKED & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_DEPTH_11BIT_PACKED },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_11BIT_PACKED & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_DEPTH_11BIT_PACKED },
     .bytes=(640 * 480 * 11) / 8,
     .width=(signed short int)640, .height=(signed short int)480,
     .data_bits_per_pixel=(signed char)11, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)30,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_10BIT_PACKED & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_DEPTH_10BIT_PACKED },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_10BIT_PACKED & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_DEPTH_10BIT_PACKED },
     .bytes=(640 * 480 * 10) / 8,
     .width=(signed short int)640, .height=(signed short int)480,
     .data_bits_per_pixel=(signed char)10, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)30,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_REGISTERED & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_DEPTH_REGISTERED },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_REGISTERED & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_DEPTH_REGISTERED },
     .bytes=640 * 480 * 2,
     .width=(signed short int)640, .height=(signed short int)480,
     .data_bits_per_pixel=(signed char)16, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)30,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_MM & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_DEPTH_MM },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_DEPTH_MM & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_DEPTH_MM },
     .bytes=640 * 480 * 2,
     .width=(signed short int)640, .height=(signed short int)480,
     .data_bits_per_pixel=(signed char)16, .padding_bits_per_pixel=(signed char)0,
@@ -1865,85 +1865,85 @@ static struct anonymous$17 supported_depth_modes[6l] = { { .reserved=(unsigned i
     .is_valid=(signed char)1 } };
 // supported_video_modes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 42
-static struct anonymous$17 supported_video_modes[12l] = { { .reserved=(unsigned int)((FREENECT_RESOLUTION_HIGH & 0xff) << 8 | FREENECT_VIDEO_RGB & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_HIGH,
-    .$anon0={ .dummy=FREENECT_VIDEO_RGB },
+static struct anonymous_17 supported_video_modes[12l] = { { .reserved=(unsigned int)((FREENECT_RESOLUTION_HIGH & 0xff) << 8 | FREENECT_VIDEO_RGB & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_HIGH,
+    ._anon0={ .dummy=FREENECT_VIDEO_RGB },
     .bytes=1280 * 1024 * 3,
     .width=(signed short int)1280, .height=(signed short int)1024,
     .data_bits_per_pixel=(signed char)24, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)10,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_RGB & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_VIDEO_RGB },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_RGB & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_VIDEO_RGB },
     .bytes=640 * 480 * 3,
     .width=(signed short int)640, .height=(signed short int)480,
     .data_bits_per_pixel=(signed char)24, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)30,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_HIGH & 0xff) << 8 | FREENECT_VIDEO_BAYER & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_HIGH,
-    .$anon0={ .dummy=FREENECT_VIDEO_BAYER },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_HIGH & 0xff) << 8 | FREENECT_VIDEO_BAYER & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_HIGH,
+    ._anon0={ .dummy=FREENECT_VIDEO_BAYER },
     .bytes=1280 * 1024,
     .width=(signed short int)1280, .height=(signed short int)1024,
     .data_bits_per_pixel=(signed char)8, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)10,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_BAYER & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_VIDEO_BAYER },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_BAYER & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_VIDEO_BAYER },
     .bytes=640 * 480,
     .width=(signed short int)640, .height=(signed short int)480,
     .data_bits_per_pixel=(signed char)8, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)30,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_HIGH & 0xff) << 8 | FREENECT_VIDEO_IR_8BIT & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_HIGH,
-    .$anon0={ .dummy=FREENECT_VIDEO_IR_8BIT },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_HIGH & 0xff) << 8 | FREENECT_VIDEO_IR_8BIT & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_HIGH,
+    ._anon0={ .dummy=FREENECT_VIDEO_IR_8BIT },
     .bytes=1280 * 1024,
     .width=(signed short int)1280, .height=(signed short int)1024,
     .data_bits_per_pixel=(signed char)8, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)10,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_IR_8BIT & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_VIDEO_IR_8BIT },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_IR_8BIT & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_VIDEO_IR_8BIT },
     .bytes=640 * 488,
     .width=(signed short int)640, .height=(signed short int)488,
     .data_bits_per_pixel=(signed char)8, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)30,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_HIGH & 0xff) << 8 | FREENECT_VIDEO_IR_10BIT & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_HIGH,
-    .$anon0={ .dummy=FREENECT_VIDEO_IR_10BIT },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_HIGH & 0xff) << 8 | FREENECT_VIDEO_IR_10BIT & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_HIGH,
+    ._anon0={ .dummy=FREENECT_VIDEO_IR_10BIT },
     .bytes=1280 * 1024 * 2,
     .width=(signed short int)1280, .height=(signed short int)1024,
     .data_bits_per_pixel=(signed char)10, .padding_bits_per_pixel=(signed char)6,
     .framerate=(signed char)10,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_IR_10BIT & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_VIDEO_IR_10BIT },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_IR_10BIT & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_VIDEO_IR_10BIT },
     .bytes=640 * 488 * 2,
     .width=(signed short int)640, .height=(signed short int)488,
     .data_bits_per_pixel=(signed char)10, .padding_bits_per_pixel=(signed char)6,
     .framerate=(signed char)30,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_HIGH & 0xff) << 8 | FREENECT_VIDEO_IR_10BIT_PACKED & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_HIGH,
-    .$anon0={ .dummy=FREENECT_VIDEO_IR_10BIT_PACKED },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_HIGH & 0xff) << 8 | FREENECT_VIDEO_IR_10BIT_PACKED & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_HIGH,
+    ._anon0={ .dummy=FREENECT_VIDEO_IR_10BIT_PACKED },
     .bytes=(1280 * 1024 * 10) / 8,
     .width=(signed short int)1280, .height=(signed short int)1024,
     .data_bits_per_pixel=(signed char)10, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)10,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_IR_10BIT_PACKED & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_VIDEO_IR_10BIT_PACKED },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_IR_10BIT_PACKED & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_VIDEO_IR_10BIT_PACKED },
     .bytes=(640 * 488 * 10) / 8,
     .width=(signed short int)640, .height=(signed short int)488,
     .data_bits_per_pixel=(signed char)10, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)30,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_YUV_RGB & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_VIDEO_YUV_RGB },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_YUV_RGB & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_VIDEO_YUV_RGB },
     .bytes=640 * 480 * 3,
     .width=(signed short int)640, .height=(signed short int)480,
     .data_bits_per_pixel=(signed char)24, .padding_bits_per_pixel=(signed char)0,
     .framerate=(signed char)15,
     .is_valid=(signed char)1 },
-    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_YUV_RAW & 0xff), .resolution=(enum anonymous$3)FREENECT_RESOLUTION_MEDIUM,
-    .$anon0={ .dummy=FREENECT_VIDEO_YUV_RAW },
+    { .reserved=(unsigned int)((FREENECT_RESOLUTION_MEDIUM & 0xff) << 8 | FREENECT_VIDEO_YUV_RAW & 0xff), .resolution=(enum anonymous_3)FREENECT_RESOLUTION_MEDIUM,
+    ._anon0={ .dummy=FREENECT_VIDEO_YUV_RAW },
     .bytes=640 * 480 * 2,
     .width=(signed short int)640, .height=(signed short int)480,
     .data_bits_per_pixel=(signed char)16, .padding_bits_per_pixel=(signed char)0,
@@ -2081,7 +2081,7 @@ void chunk_cb(void *buffer, void *pkt_data, signed int pkt_num, signed int pkt_s
 
 // complete_tables
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 306
-static void complete_tables(struct anonymous$7 *reg)
+static void complete_tables(struct anonymous_7 *reg)
 {
   unsigned short int i = (unsigned short int)0;
   for( ; !((signed int)i >= 2048); i = i + 1)
@@ -2093,7 +2093,7 @@ static void complete_tables(struct anonymous$7 *reg)
 
 // convert_bayer_to_rgb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 453
-static void convert_bayer_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf, struct anonymous$17 frame_mode)
+static void convert_bayer_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf, struct anonymous_17 frame_mode)
 {
   signed int x;
   signed int y;
@@ -2106,36 +2106,36 @@ static void convert_bayer_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf
   curLine = raw_buf;
   nextLine = curLine + (signed long int)frame_mode.width;
   y = 0;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
-  unsigned char *tmp_post$12;
-  unsigned char *tmp_post$13;
-  unsigned char *tmp_post$14;
-  unsigned char *tmp_post$15;
-  unsigned char *tmp_post$16;
-  unsigned char *tmp_post$17;
-  unsigned char *tmp_post$18;
-  unsigned char *tmp_post$19;
-  unsigned char *tmp_post$20;
-  unsigned char *tmp_post$21;
-  unsigned char *tmp_post$22;
-  unsigned char *tmp_post$23;
-  unsigned char *tmp_post$24;
-  unsigned char *tmp_post$25;
-  unsigned char *tmp_post$26;
-  unsigned char *tmp_post$27;
-  unsigned char *tmp_post$28;
-  unsigned char *tmp_post$29;
-  unsigned char *tmp_post$30;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
+  unsigned char *tmp_post_12;
+  unsigned char *tmp_post_13;
+  unsigned char *tmp_post_14;
+  unsigned char *tmp_post_15;
+  unsigned char *tmp_post_16;
+  unsigned char *tmp_post_17;
+  unsigned char *tmp_post_18;
+  unsigned char *tmp_post_19;
+  unsigned char *tmp_post_20;
+  unsigned char *tmp_post_21;
+  unsigned char *tmp_post_22;
+  unsigned char *tmp_post_23;
+  unsigned char *tmp_post_24;
+  unsigned char *tmp_post_25;
+  unsigned char *tmp_post_26;
+  unsigned char *tmp_post_27;
+  unsigned char *tmp_post_28;
+  unsigned char *tmp_post_29;
+  unsigned char *tmp_post_30;
   for( ; !(y >= (signed int)frame_mode.height); y = y + 1)
   {
     if(y >= 1 && !(y >= (signed int)frame_mode.height + -1))
@@ -2147,83 +2147,83 @@ static void convert_bayer_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf
 
       else
         nextLine = prevLine;
-    tmp_post$1 = curLine;
+    tmp_post_1 = curLine;
     curLine = curLine + 1l;
-    hVals = (unsigned int)((signed int)*tmp_post$1 << 8);
+    hVals = (unsigned int)((signed int)*tmp_post_1 << 8);
     hVals = hVals | (unsigned int)((signed int)*curLine << 16);
-    tmp_post$2 = prevLine;
+    tmp_post_2 = prevLine;
     prevLine = prevLine + 1l;
-    tmp_post$3 = nextLine;
+    tmp_post_3 = nextLine;
     nextLine = nextLine + 1l;
-    vSums = (unsigned int)((signed int)*tmp_post$2 + (signed int)*tmp_post$3 << 7 & 0xFF00);
+    vSums = (unsigned int)((signed int)*tmp_post_2 + (signed int)*tmp_post_3 << 7 & 0xFF00);
     vSums = vSums | (unsigned int)((signed int)*prevLine + (signed int)*nextLine << 15 & 0xFF0000);
     unsigned char yOdd = (unsigned char)(y & 1);
     x = 0;
     for( ; !(x >= (signed int)frame_mode.width + -1); x = x + 1)
     {
-      tmp_post$4 = curLine;
+      tmp_post_4 = curLine;
       curLine = curLine + 1l;
-      hVals = hVals | (unsigned int)*tmp_post$4;
-      tmp_post$5 = prevLine;
+      hVals = hVals | (unsigned int)*tmp_post_4;
+      tmp_post_5 = prevLine;
       prevLine = prevLine + 1l;
-      tmp_post$6 = nextLine;
+      tmp_post_6 = nextLine;
       nextLine = nextLine + 1l;
-      vSums = vSums | (unsigned int)((signed int)*tmp_post$5 + (signed int)*tmp_post$6 >> 1);
-      unsigned char convert_bayer_to_rgb$$1$$1$$1$$1$$1$$hSum = (unsigned char)((signed int)(unsigned char)(hVals >> 16) + (signed int)(unsigned char)hVals >> 1);
+      vSums = vSums | (unsigned int)((signed int)*tmp_post_5 + (signed int)*tmp_post_6 >> 1);
+      unsigned char convert_bayer_to_rgb__1__1__1__1__1__hSum = (unsigned char)((signed int)(unsigned char)(hVals >> 16) + (signed int)(unsigned char)hVals >> 1);
       if((signed int)yOdd == 0)
       {
         if((1 & x) == 0)
         {
-          tmp_post$7 = dst;
+          tmp_post_7 = dst;
           dst = dst + 1l;
-          *tmp_post$7 = convert_bayer_to_rgb$$1$$1$$1$$1$$1$$hSum;
-          tmp_post$8 = dst;
+          *tmp_post_7 = convert_bayer_to_rgb__1__1__1__1__1__hSum;
+          tmp_post_8 = dst;
           dst = dst + 1l;
-          *tmp_post$8 = (unsigned char)(hVals >> 8);
-          tmp_post$9 = dst;
+          *tmp_post_8 = (unsigned char)(hVals >> 8);
+          tmp_post_9 = dst;
           dst = dst + 1l;
-          *tmp_post$9 = (unsigned char)(vSums >> 8);
+          *tmp_post_9 = (unsigned char)(vSums >> 8);
         }
 
         else
         {
-          tmp_post$10 = dst;
+          tmp_post_10 = dst;
           dst = dst + 1l;
-          *tmp_post$10 = (unsigned char)(hVals >> 8);
-          tmp_post$11 = dst;
+          *tmp_post_10 = (unsigned char)(hVals >> 8);
+          tmp_post_11 = dst;
           dst = dst + 1l;
-          *tmp_post$11 = (unsigned char)((signed int)convert_bayer_to_rgb$$1$$1$$1$$1$$1$$hSum + (signed int)(unsigned char)(vSums >> 8) >> 1);
-          tmp_post$12 = dst;
+          *tmp_post_11 = (unsigned char)((signed int)convert_bayer_to_rgb__1__1__1__1__1__hSum + (signed int)(unsigned char)(vSums >> 8) >> 1);
+          tmp_post_12 = dst;
           dst = dst + 1l;
-          *tmp_post$12 = (unsigned char)((signed int)(unsigned char)(vSums >> 16) + (signed int)(unsigned char)vSums >> 1);
+          *tmp_post_12 = (unsigned char)((signed int)(unsigned char)(vSums >> 16) + (signed int)(unsigned char)vSums >> 1);
         }
       }
 
       else
         if((1 & x) == 0)
         {
-          tmp_post$13 = dst;
+          tmp_post_13 = dst;
           dst = dst + 1l;
-          *tmp_post$13 = (unsigned char)((signed int)(unsigned char)(vSums >> 16) + (signed int)(unsigned char)vSums >> 1);
-          tmp_post$14 = dst;
+          *tmp_post_13 = (unsigned char)((signed int)(unsigned char)(vSums >> 16) + (signed int)(unsigned char)vSums >> 1);
+          tmp_post_14 = dst;
           dst = dst + 1l;
-          *tmp_post$14 = (unsigned char)((signed int)convert_bayer_to_rgb$$1$$1$$1$$1$$1$$hSum + (signed int)(unsigned char)(vSums >> 8) >> 1);
-          tmp_post$15 = dst;
+          *tmp_post_14 = (unsigned char)((signed int)convert_bayer_to_rgb__1__1__1__1__1__hSum + (signed int)(unsigned char)(vSums >> 8) >> 1);
+          tmp_post_15 = dst;
           dst = dst + 1l;
-          *tmp_post$15 = (unsigned char)(hVals >> 8);
+          *tmp_post_15 = (unsigned char)(hVals >> 8);
         }
 
         else
         {
-          tmp_post$16 = dst;
+          tmp_post_16 = dst;
           dst = dst + 1l;
-          *tmp_post$16 = (unsigned char)(vSums >> 8);
-          tmp_post$17 = dst;
+          *tmp_post_16 = (unsigned char)(vSums >> 8);
+          tmp_post_17 = dst;
           dst = dst + 1l;
-          *tmp_post$17 = (unsigned char)(hVals >> 8);
-          tmp_post$18 = dst;
+          *tmp_post_17 = (unsigned char)(hVals >> 8);
+          tmp_post_18 = dst;
           dst = dst + 1l;
-          *tmp_post$18 = convert_bayer_to_rgb$$1$$1$$1$$1$$1$$hSum;
+          *tmp_post_18 = convert_bayer_to_rgb__1__1__1__1__1__hSum;
         }
       hVals = hVals << 8;
       vSums = vSums << 8;
@@ -2235,56 +2235,56 @@ static void convert_bayer_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf
     {
       if((1 & x) == 0)
       {
-        tmp_post$19 = dst;
+        tmp_post_19 = dst;
         dst = dst + 1l;
-        *tmp_post$19 = hSum;
-        tmp_post$20 = dst;
+        *tmp_post_19 = hSum;
+        tmp_post_20 = dst;
         dst = dst + 1l;
-        *tmp_post$20 = (unsigned char)(hVals >> 8);
-        tmp_post$21 = dst;
+        *tmp_post_20 = (unsigned char)(hVals >> 8);
+        tmp_post_21 = dst;
         dst = dst + 1l;
-        *tmp_post$21 = (unsigned char)(vSums >> 8);
+        *tmp_post_21 = (unsigned char)(vSums >> 8);
       }
 
       else
       {
-        tmp_post$22 = dst;
+        tmp_post_22 = dst;
         dst = dst + 1l;
-        *tmp_post$22 = (unsigned char)(hVals >> 8);
-        tmp_post$23 = dst;
+        *tmp_post_22 = (unsigned char)(hVals >> 8);
+        tmp_post_23 = dst;
         dst = dst + 1l;
-        *tmp_post$23 = (unsigned char)((signed int)hSum + (signed int)(unsigned char)(vSums >> 8) >> 1);
-        tmp_post$24 = dst;
+        *tmp_post_23 = (unsigned char)((signed int)hSum + (signed int)(unsigned char)(vSums >> 8) >> 1);
+        tmp_post_24 = dst;
         dst = dst + 1l;
-        *tmp_post$24 = (unsigned char)vSums;
+        *tmp_post_24 = (unsigned char)vSums;
       }
     }
 
     else
       if((1 & x) == 0)
       {
-        tmp_post$25 = dst;
+        tmp_post_25 = dst;
         dst = dst + 1l;
-        *tmp_post$25 = (unsigned char)vSums;
-        tmp_post$26 = dst;
+        *tmp_post_25 = (unsigned char)vSums;
+        tmp_post_26 = dst;
         dst = dst + 1l;
-        *tmp_post$26 = (unsigned char)((signed int)hSum + (signed int)(unsigned char)(vSums >> 8) >> 1);
-        tmp_post$27 = dst;
+        *tmp_post_26 = (unsigned char)((signed int)hSum + (signed int)(unsigned char)(vSums >> 8) >> 1);
+        tmp_post_27 = dst;
         dst = dst + 1l;
-        *tmp_post$27 = (unsigned char)(hVals >> 8);
+        *tmp_post_27 = (unsigned char)(hVals >> 8);
       }
 
       else
       {
-        tmp_post$28 = dst;
+        tmp_post_28 = dst;
         dst = dst + 1l;
-        *tmp_post$28 = (unsigned char)(vSums >> 8);
-        tmp_post$29 = dst;
+        *tmp_post_28 = (unsigned char)(vSums >> 8);
+        tmp_post_29 = dst;
         dst = dst + 1l;
-        *tmp_post$29 = (unsigned char)(hVals >> 8);
-        tmp_post$30 = dst;
+        *tmp_post_29 = (unsigned char)(hVals >> 8);
+        tmp_post_30 = dst;
         dst = dst + 1l;
-        *tmp_post$30 = hSum;
+        *tmp_post_30 = hSum;
       }
   }
 }
@@ -2328,26 +2328,26 @@ static inline void convert_packed_to_16bit(unsigned char *src, unsigned short in
   unsigned int mask = (unsigned int)((1 << vw) - 1);
   unsigned int buffer = (unsigned int)0;
   signed int bitsIn = 0;
-  signed int tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned short int *tmp_post$3;
+  signed int tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned short int *tmp_post_3;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     for( ; !(bitsIn >= vw); bitsIn = bitsIn + 8)
     {
-      tmp_post$2 = src;
+      tmp_post_2 = src;
       src = src + 1l;
-      buffer = buffer << 8 | (unsigned int)*tmp_post$2;
+      buffer = buffer << 8 | (unsigned int)*tmp_post_2;
     }
     bitsIn = bitsIn - vw;
-    tmp_post$3 = dest;
+    tmp_post_3 = dest;
     dest = dest + 1l;
-    *tmp_post$3 = (unsigned short int)(buffer >> bitsIn & mask);
+    *tmp_post_3 = (unsigned short int)(buffer >> bitsIn & mask);
   }
   while((_Bool)1);
 }
@@ -2358,33 +2358,33 @@ static inline void convert_packed_to_8bit(unsigned char *src, unsigned char *des
 {
   unsigned int buffer = (unsigned int)0;
   signed int bitsIn = 0;
-  signed int tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
+  signed int tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     for( ; !(bitsIn >= vw); bitsIn = bitsIn + 8)
     {
-      tmp_post$2 = src;
+      tmp_post_2 = src;
       src = src + 1l;
-      buffer = buffer << 8 | (unsigned int)*tmp_post$2;
+      buffer = buffer << 8 | (unsigned int)*tmp_post_2;
     }
     bitsIn = bitsIn - vw;
-    tmp_post$3 = dest;
+    tmp_post_3 = dest;
     dest = dest + 1l;
-    *tmp_post$3 = (unsigned char)(buffer >> (bitsIn + vw) - 8);
+    *tmp_post_3 = (unsigned char)(buffer >> (bitsIn + vw) - 8);
   }
   while((_Bool)1);
 }
 
 // convert_uyvy_to_rgb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 420
-static void convert_uyvy_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf, struct anonymous$17 frame_mode)
+static void convert_uyvy_to_rgb(unsigned char *raw_buf, unsigned char *proc_buf, struct anonymous_17 frame_mode)
 {
   signed int x;
   signed int y = 0;
@@ -2532,7 +2532,7 @@ static void depth_process(struct _freenect_device *dev, unsigned char *pkt, sign
       got_frame_size=stream_process(ctx, &dev->depth, pkt, len, dev->depth_chunk_cb, dev->user_data);
       if(!(got_frame_size == 0))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Got depth frame of size %d/%d, %d/%d packets arrived, TS %08x\n", got_frame_size, dev->depth.frame_size, dev->depth.valid_pkts, dev->depth.pkts_per_frame, dev->depth.timestamp);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Got depth frame of size %d/%d, %d/%d packets arrived, TS %08x\n", got_frame_size, dev->depth.frame_size, dev->depth.valid_pkts, dev->depth.pkts_per_frame, dev->depth.timestamp);
         switch((signed int)dev->depth_format)
         {
           case FREENECT_DEPTH_11BIT:
@@ -2560,7 +2560,7 @@ static void depth_process(struct _freenect_device *dev, unsigned char *pkt, sign
           case FREENECT_DEPTH_11BIT_PACKED:
             break;
           default:
-            fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "depth_process() was called, but an invalid depth_format is set\n");
+            fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "depth_process() was called, but an invalid depth_format is set\n");
         }
         if(!(dev->depth_cb == ((void (*)(struct _freenect_device *, void *, unsigned int))NULL)))
           dev->depth_cb(dev, dev->depth.proc_buf, dev->depth.timestamp);
@@ -2575,32 +2575,32 @@ static void depth_process(struct _freenect_device *dev, unsigned char *pkt, sign
 
 // dump_bl_cmd
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.c line 36
-static void dump_bl_cmd(struct _freenect_context *ctx, struct anonymous$27 cmd)
+static void dump_bl_cmd(struct _freenect_context *ctx, struct anonymous_27 cmd)
 {
   signed int i = 0;
   for( ; !(i >= 24); i = i + 1)
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "%02X ", ((unsigned char *)&cmd)[(signed long int)i]);
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "\n");
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "%02X ", ((unsigned char *)&cmd)[(signed long int)i]);
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "\n");
 }
 
 // dump_cemd_cmd
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.c line 43
-static void dump_cemd_cmd(struct _freenect_context *ctx, struct anonymous$26 cmd)
+static void dump_cemd_cmd(struct _freenect_context *ctx, struct anonymous_26 cmd)
 {
   signed int i = 0;
   for( ; !(i >= 24); i = i + 1)
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "%02X ", ((unsigned char *)&cmd)[(signed long int)i]);
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "(%d more zeros)\n", (signed int)(sizeof(struct anonymous$26) /*52ul*/  - (unsigned long int)24));
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "%02X ", ((unsigned char *)&cmd)[(signed long int)i]);
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "(%d more zeros)\n", (signed int)(sizeof(struct anonymous_26) /*52ul*/  - (unsigned long int)24));
 }
 
 // fn_log
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 262
-void fn_log(struct _freenect_context *ctx, enum anonymous$9 level, const char *fmt, ...)
+void fn_log(struct _freenect_context *ctx, enum anonymous_9 level, const char *fmt, ...)
 {
   void **ap;
   if((signed int)ctx->log_level >= (signed int)level)
   {
-    if(!(ctx->log_cb == ((void (*)(struct _freenect_context *, enum anonymous$9, const char *))NULL)))
+    if(!(ctx->log_cb == ((void (*)(struct _freenect_context *, enum anonymous_9, const char *))NULL)))
     {
       char msgbuf[1024l];
       ap = (void **)&fmt;
@@ -2622,12 +2622,12 @@ void fn_log(struct _freenect_context *ctx, enum anonymous$9 level, const char *f
 
 // fnusb_bulk
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.c line 879
-signed int fnusb_bulk(struct anonymous$19 *dev, unsigned char endpoint, unsigned char *data, signed int len, signed int *transferred)
+signed int fnusb_bulk(struct anonymous_19 *dev, unsigned char endpoint, unsigned char *data, signed int len, signed int *transferred)
 {
   *transferred = 0;
-  signed int return_value_libusb_bulk_transfer$1;
-  return_value_libusb_bulk_transfer$1=libusb_bulk_transfer(dev->dev, endpoint, data, len, transferred, (unsigned int)0);
-  return return_value_libusb_bulk_transfer$1;
+  signed int return_value_libusb_bulk_transfer_1;
+  return_value_libusb_bulk_transfer_1=libusb_bulk_transfer(dev->dev, endpoint, data, len, transferred, (unsigned int)0);
+  return return_value_libusb_bulk_transfer_1;
 }
 
 // fnusb_claim_camera
@@ -2642,9 +2642,9 @@ signed int fnusb_claim_camera(struct _freenect_device *dev)
     ret=libusb_detach_kernel_driver(dev->usb_cam.dev, 0);
     if(!(ret >= 0))
     {
-      const char *return_value_libusb_error_name$1;
-      return_value_libusb_error_name$1=libusb_error_name(ret);
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Failed to detach camera kernel driver: %s\n", return_value_libusb_error_name$1);
+      const char *return_value_libusb_error_name_1;
+      return_value_libusb_error_name_1=libusb_error_name(ret);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Failed to detach camera kernel driver: %s\n", return_value_libusb_error_name_1);
       libusb_close(dev->usb_cam.dev);
       dev->usb_cam.dev = (struct libusb_device_handle *)(void *)0;
       return ret;
@@ -2655,9 +2655,9 @@ signed int fnusb_claim_camera(struct _freenect_device *dev)
   ret=libusb_claim_interface(dev->usb_cam.dev, 0);
   if(!(ret >= 0))
   {
-    const char *return_value_libusb_error_name$2;
-    return_value_libusb_error_name$2=libusb_error_name(ret);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Failed to claim camera interface: %s\n", return_value_libusb_error_name$2);
+    const char *return_value_libusb_error_name_2;
+    return_value_libusb_error_name_2=libusb_error_name(ret);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Failed to claim camera interface: %s\n", return_value_libusb_error_name_2);
     libusb_close(dev->usb_cam.dev);
     dev->usb_cam.dev = (struct libusb_device_handle *)(void *)0;
     return ret;
@@ -2668,9 +2668,9 @@ signed int fnusb_claim_camera(struct _freenect_device *dev)
     ret=libusb_set_interface_alt_setting(dev->usb_cam.dev, 0, 1);
     if(!(ret == 0))
     {
-      const char *return_value_libusb_error_name$3;
-      return_value_libusb_error_name$3=libusb_error_name(ret);
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Failed to set alternate interface #1 for K4W: %s\n", return_value_libusb_error_name$3);
+      const char *return_value_libusb_error_name_3;
+      return_value_libusb_error_name_3=libusb_error_name(ret);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Failed to set alternate interface #1 for K4W: %s\n", return_value_libusb_error_name_3);
       libusb_close(dev->usb_cam.dev);
       dev->usb_cam.dev = (struct libusb_device_handle *)(void *)0;
       return ret;
@@ -2712,28 +2712,28 @@ signed int fnusb_close_subdevices(struct _freenect_device *dev)
 
 // fnusb_control
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 92
-signed int fnusb_control(struct anonymous$19 *dev, unsigned char bmRequestType, unsigned char bRequest, unsigned short int wValue, unsigned short int wIndex, unsigned char *data, unsigned short int wLength)
+signed int fnusb_control(struct anonymous_19 *dev, unsigned char bmRequestType, unsigned char bRequest, unsigned short int wValue, unsigned short int wIndex, unsigned char *data, unsigned short int wLength)
 {
-  signed int return_value_libusb_control_transfer$1;
-  return_value_libusb_control_transfer$1=libusb_control_transfer(dev->dev, bmRequestType, bRequest, wValue, wIndex, data, wLength, (unsigned int)0);
-  return return_value_libusb_control_transfer$1;
+  signed int return_value_libusb_control_transfer_1;
+  return_value_libusb_control_transfer_1=libusb_control_transfer(dev->dev, bmRequestType, bRequest, wValue, wIndex, data, wLength, (unsigned int)0);
+  return return_value_libusb_control_transfer_1;
 }
 
 // fnusb_find_connected_audio_device
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.c line 69
 struct libusb_device * fnusb_find_connected_audio_device(struct libusb_device *camera, struct libusb_device **deviceList, signed int cnt)
 {
-  _Bool tmp_if_expr$4;
-  signed int return_value_fnusb_is_pid_k4w_audio$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_fnusb_is_pid_k4w_audio_3;
   if(!(cnt >= 1))
     return (struct libusb_device *)(void *)0;
 
   else
   {
     signed int cameraBusNo;
-    unsigned char return_value_libusb_get_bus_number$1;
-    return_value_libusb_get_bus_number$1=libusb_get_bus_number(camera);
-    cameraBusNo = (signed int)return_value_libusb_get_bus_number$1;
+    unsigned char return_value_libusb_get_bus_number_1;
+    return_value_libusb_get_bus_number_1=libusb_get_bus_number(camera);
+    cameraBusNo = (signed int)return_value_libusb_get_bus_number_1;
     if(!(cameraBusNo >= 0))
       return (struct libusb_device *)(void *)0;
 
@@ -2753,19 +2753,19 @@ struct libusb_device * fnusb_find_connected_audio_device(struct libusb_device *c
           if((signed int)desc.idVendor == 0x45e)
           {
             if((signed int)desc.idProduct == 0x02ad)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
             {
-              return_value_fnusb_is_pid_k4w_audio$3=fnusb_is_pid_k4w_audio((signed int)desc.idProduct);
-              tmp_if_expr$4 = return_value_fnusb_is_pid_k4w_audio$3 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_fnusb_is_pid_k4w_audio_3=fnusb_is_pid_k4w_audio((signed int)desc.idProduct);
+              tmp_if_expr_4 = return_value_fnusb_is_pid_k4w_audio_3 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$4)
+            if(tmp_if_expr_4)
             {
               signed int audioBusNo;
-              unsigned char return_value_libusb_get_bus_number$2;
-              return_value_libusb_get_bus_number$2=libusb_get_bus_number(deviceList[(signed long int)i]);
-              audioBusNo = (signed int)return_value_libusb_get_bus_number$2;
+              unsigned char return_value_libusb_get_bus_number_2;
+              return_value_libusb_get_bus_number_2=libusb_get_bus_number(deviceList[(signed long int)i]);
+              audioBusNo = (signed int)return_value_libusb_get_bus_number_2;
               if(audioBusNo == cameraBusNo)
               {
                 struct libusb_device *audioParent;
@@ -2789,16 +2789,16 @@ struct libusb_device * fnusb_find_connected_audio_device(struct libusb_device *c
 
 // fnusb_get_max_iso_packet_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 90
-signed int fnusb_get_max_iso_packet_size(struct anonymous$19 *dev, unsigned char endpoint, signed int default_size)
+signed int fnusb_get_max_iso_packet_size(struct anonymous_19 *dev, unsigned char endpoint, signed int default_size)
 {
   struct _freenect_context *ctx = dev->parent->parent;
   signed int size;
-  struct libusb_device *return_value_libusb_get_device$1;
-  return_value_libusb_get_device$1=libusb_get_device(dev->dev);
-  size=libusb_get_max_iso_packet_size(return_value_libusb_get_device$1, endpoint);
+  struct libusb_device *return_value_libusb_get_device_1;
+  return_value_libusb_get_device_1=libusb_get_device(dev->dev);
+  size=libusb_get_max_iso_packet_size(return_value_libusb_get_device_1, endpoint);
   if(!(size >= 1))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "libusb_get_max_iso_packet_size() returned %d; using default %d\n", size, default_size);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "libusb_get_max_iso_packet_size() returned %d; using default %d\n", size, default_size);
     size = default_size;
   }
 
@@ -2807,7 +2807,7 @@ signed int fnusb_get_max_iso_packet_size(struct anonymous$19 *dev, unsigned char
 
 // fnusb_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 80
-signed int fnusb_init(struct anonymous$22 *ctx, void *usb_ctx)
+signed int fnusb_init(struct anonymous_22 *ctx, void *usb_ctx)
 {
   signed int res;
   if(usb_ctx == NULL)
@@ -2844,7 +2844,7 @@ signed int fnusb_is_pid_k4w_audio(signed int pid)
 
 // fnusb_list_device_attributes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 78
-signed int fnusb_list_device_attributes(struct anonymous$22 *ctx, struct freenect_device_attributes **attribute_list)
+signed int fnusb_list_device_attributes(struct anonymous_22 *ctx, struct freenect_device_attributes **attribute_list)
 {
   *attribute_list = (struct freenect_device_attributes *)(void *)0;
   struct libusb_device **devs;
@@ -2883,9 +2883,9 @@ signed int fnusb_list_device_attributes(struct anonymous$22 *ctx, struct freenec
             goto __CPROVER_DUMP_L12;
 
           const char * const K4W_1473_SERIAL = "0000000000000000";
-          signed int return_value_strncmp$1;
-          return_value_strncmp$1=strncmp((const char *)serial, K4W_1473_SERIAL, (unsigned long int)16);
-          if(return_value_strncmp$1 == 0)
+          signed int return_value_strncmp_1;
+          return_value_strncmp_1=strncmp((const char *)serial, K4W_1473_SERIAL, (unsigned long int)16);
+          if(return_value_strncmp_1 == 0)
           {
             struct libusb_device *audio_device;
             audio_device=fnusb_find_connected_audio_device(camera_device, devs, (signed int)count);
@@ -2910,9 +2910,9 @@ signed int fnusb_list_device_attributes(struct anonymous$22 *ctx, struct freenec
           }
 
           struct freenect_device_attributes *current_attr;
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc(sizeof(struct freenect_device_attributes) /*16ul*/ );
-          current_attr = (struct freenect_device_attributes *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc(sizeof(struct freenect_device_attributes) /*16ul*/ );
+          current_attr = (struct freenect_device_attributes *)return_value_malloc_2;
           memset((void *)current_attr, 0, sizeof(struct freenect_device_attributes) /*16ul*/ );
           current_attr->camera_serial=strdup((char *)serial);
           *next_attr = current_attr;
@@ -2933,7 +2933,7 @@ signed int fnusb_list_device_attributes(struct anonymous$22 *ctx, struct freenec
 
 // fnusb_num_devices
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 77
-signed int fnusb_num_devices(struct anonymous$22 *ctx)
+signed int fnusb_num_devices(struct anonymous_22 *ctx)
 {
   struct libusb_device **devs;
   signed long int cnt;
@@ -2966,7 +2966,7 @@ signed int fnusb_num_devices(struct anonymous$22 *ctx)
 
 // fnusb_num_interfaces
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.c line 884
-signed int fnusb_num_interfaces(struct anonymous$19 *dev)
+signed int fnusb_num_interfaces(struct anonymous_19 *dev)
 {
   signed int retval = 0;
   signed int res;
@@ -3001,21 +3001,21 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
   struct libusb_device **devs;
   signed long int cnt;
   cnt=libusb_get_device_list(dev->parent->usb.ctx, &devs);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$14;
-  signed int return_value_fnusb_is_pid_k4w_audio$13;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$12;
-  signed int return_value_fnusb_is_pid_k4w_audio$11;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcmp$9;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_14;
+  signed int return_value_fnusb_is_pid_k4w_audio_13;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_12;
+  signed int return_value_fnusb_is_pid_k4w_audio_11;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcmp_9;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
   if(!(cnt >= 0l))
     return -1;
 
@@ -3049,21 +3049,21 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                   dev->usb_cam.PID = (signed int)desc.idProduct;
                   res=libusb_open(devs[(signed long int)i], &dev->usb_cam.dev);
                   if(!(res >= 0))
-                    tmp_if_expr$1 = (_Bool)1;
+                    tmp_if_expr_1 = (_Bool)1;
 
                   else
-                    tmp_if_expr$1 = !(dev->usb_cam.dev != ((struct libusb_device_handle *)NULL)) ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$1)
+                    tmp_if_expr_1 = !(dev->usb_cam.dev != ((struct libusb_device_handle *)NULL)) ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_1)
                   {
-                    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Could not open camera: %d\n", res);
+                    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Could not open camera: %d\n", res);
                     dev->usb_cam.dev = (struct libusb_device_handle *)(void *)0;
                     break;
                   }
 
                   if((signed int)desc.idProduct == 0x02bf || !((signed int)desc.bcdDevice == 267))
                   {
-                    enum anonymous$29 requested_devices = ctx->enabled_subdevices;
-                    ctx->enabled_subdevices = (enum anonymous$29)((signed int)ctx->enabled_subdevices & ~FREENECT_DEVICE_MOTOR);
+                    enum anonymous_29 requested_devices = ctx->enabled_subdevices;
+                    ctx->enabled_subdevices = (enum anonymous_29)((signed int)ctx->enabled_subdevices & ~FREENECT_DEVICE_MOTOR);
                     ctx->zero_plane_res = 334;
                     dev->device_does_motor_control_with_audio = 1;
                     struct libusb_device *audioDevice;
@@ -3073,7 +3073,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                       struct libusb_device_handle *audioHandle = (struct libusb_device_handle *)(void *)0;
                       res=libusb_open(audioDevice, &audioHandle);
                       if(!(res == 0))
-                        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Failed to set the LED of K4W or 1473 device: %d\n", res);
+                        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Failed to set the LED of K4W or 1473 device: %d\n", res);
 
                       else
                       {
@@ -3084,11 +3084,11 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                         {
                           res=libusb_claim_interface(audioHandle, 0);
                           if(!(res == 0))
-                            fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Unable to claim interface %d\n", res);
+                            fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Unable to claim interface %d\n", res);
 
                           else
                           {
-                            fnusb_set_led_alt(audioHandle, ctx, (enum anonymous$20)LED_GREEN);
+                            fnusb_set_led_alt(audioHandle, ctx, (enum anonymous_20)LED_GREEN);
                             libusb_release_interface(audioHandle, 0);
                           }
                           libusb_close(audioHandle);
@@ -3098,7 +3098,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                     }
 
                     if((FREENECT_DEVICE_AUDIO & (signed int)requested_devices) == 0 && !((FREENECT_DEVICE_MOTOR & (signed int)requested_devices) == 0))
-                      ctx->enabled_subdevices = (enum anonymous$29)((signed int)ctx->enabled_subdevices | FREENECT_DEVICE_AUDIO);
+                      ctx->enabled_subdevices = (enum anonymous_29)((signed int)ctx->enabled_subdevices | FREENECT_DEVICE_AUDIO);
 
                   }
 
@@ -3129,9 +3129,9 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
     i = 0;
     for( ; !((signed long int)i >= cnt); i = i + 1)
     {
-      signed int fnusb_open_subdevices$$1$$2$$1$$r;
-      fnusb_open_subdevices$$1$$2$$1$$r=libusb_get_device_descriptor(devs[(signed long int)i], &desc);
-      if(fnusb_open_subdevices$$1$$2$$1$$r >= 0)
+      signed int fnusb_open_subdevices__1__2__1__r;
+      fnusb_open_subdevices__1__2__1__r=libusb_get_device_descriptor(devs[(signed long int)i], &desc);
+      if(fnusb_open_subdevices__1__2__1__r >= 0)
       {
         if((signed int)desc.idVendor == 0x45e)
         {
@@ -3147,13 +3147,13 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                   dev->usb_motor.PID = (signed int)desc.idProduct;
                   res=libusb_open(devs[(signed long int)i], &dev->usb_motor.dev);
                   if(!(res >= 0))
-                    tmp_if_expr$2 = (_Bool)1;
+                    tmp_if_expr_2 = (_Bool)1;
 
                   else
-                    tmp_if_expr$2 = !(dev->usb_motor.dev != ((struct libusb_device_handle *)NULL)) ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$2)
+                    tmp_if_expr_2 = !(dev->usb_motor.dev != ((struct libusb_device_handle *)NULL)) ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_2)
                   {
-                    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Could not open motor: %d\n", res);
+                    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Could not open motor: %d\n", res);
                     dev->usb_motor.dev = (struct libusb_device_handle *)(void *)0;
                     break;
                   }
@@ -3161,7 +3161,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                   res=libusb_claim_interface(dev->usb_motor.dev, 0);
                   if(!(res >= 0))
                   {
-                    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Could not claim interface on motor: %d\n", res);
+                    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Could not claim interface on motor: %d\n", res);
                     libusb_close(dev->usb_motor.dev);
                     dev->usb_motor.dev = (struct libusb_device_handle *)(void *)0;
                     break;
@@ -3182,14 +3182,14 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
             if(dev->usb_audio.dev == ((struct libusb_device_handle *)NULL))
             {
               if((signed int)desc.idProduct == 0x02ad)
-                tmp_if_expr$14 = (_Bool)1;
+                tmp_if_expr_14 = (_Bool)1;
 
               else
               {
-                return_value_fnusb_is_pid_k4w_audio$13=fnusb_is_pid_k4w_audio((signed int)desc.idProduct);
-                tmp_if_expr$14 = return_value_fnusb_is_pid_k4w_audio$13 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_fnusb_is_pid_k4w_audio_13=fnusb_is_pid_k4w_audio((signed int)desc.idProduct);
+                tmp_if_expr_14 = return_value_fnusb_is_pid_k4w_audio_13 != 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$14)
+              if(tmp_if_expr_14)
               {
                 if(nr_audio == index)
                 {
@@ -3197,13 +3197,13 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                   dev->usb_audio.PID = (signed int)desc.idProduct;
                   res=libusb_open(devs[(signed long int)i], &dev->usb_audio.dev);
                   if(!(res >= 0))
-                    tmp_if_expr$3 = (_Bool)1;
+                    tmp_if_expr_3 = (_Bool)1;
 
                   else
-                    tmp_if_expr$3 = !(dev->usb_audio.dev != ((struct libusb_device_handle *)NULL)) ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$3)
+                    tmp_if_expr_3 = !(dev->usb_audio.dev != ((struct libusb_device_handle *)NULL)) ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_3)
                   {
-                    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Could not open audio: %d\n", res);
+                    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Could not open audio: %d\n", res);
                     dev->usb_audio.dev = (struct libusb_device_handle *)(void *)0;
                     break;
                   }
@@ -3211,7 +3211,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                   res=libusb_claim_interface(dev->usb_audio.dev, 0);
                   if(!(res >= 0))
                   {
-                    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Could not claim interface on audio: %d\n", res);
+                    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Could not claim interface on audio: %d\n", res);
                     libusb_close(dev->usb_audio.dev);
                     dev->usb_audio.dev = (struct libusb_device_handle *)(void *)0;
                     break;
@@ -3232,44 +3232,44 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                     res=libusb_get_string_descriptor_ascii(dev->usb_audio.dev, desc.iSerialNumber, string_desc, 256);
                     if(!(res >= 0))
                     {
-                      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Failed to retrieve serial number for audio device in bootloader state\n");
+                      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Failed to retrieve serial number for audio device in bootloader state\n");
                       break;
                     }
 
                     char *audio_serial;
                     audio_serial=strdup((char *)string_desc);
-                    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Uploading firmware to audio device in bootloader state.\n");
+                    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Uploading firmware to audio device in bootloader state.\n");
                     if((signed int)desc.idProduct == 0x02ad)
-                      tmp_if_expr$6 = ctx->fn_fw_nui_ptr != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_6 = ctx->fn_fw_nui_ptr != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$6 = (_Bool)0;
-                    if(tmp_if_expr$6)
-                      tmp_if_expr$7 = ctx->fn_fw_nui_size > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_6 = (_Bool)0;
+                    if(tmp_if_expr_6)
+                      tmp_if_expr_7 = ctx->fn_fw_nui_size > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$7 = (_Bool)0;
-                    if(tmp_if_expr$7)
+                      tmp_if_expr_7 = (_Bool)0;
+                    if(tmp_if_expr_7)
                     {
-                      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "loading firmware from memory\n");
+                      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "loading firmware from memory\n");
                       res=upload_firmware_from_memory(&dev->usb_audio, ctx->fn_fw_nui_ptr, ctx->fn_fw_nui_size);
                     }
 
                     else
                     {
                       if((signed int)desc.idProduct == 0x02be)
-                        tmp_if_expr$4 = ctx->fn_fw_k4w_ptr != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_4 = ctx->fn_fw_k4w_ptr != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
 
                       else
-                        tmp_if_expr$4 = (_Bool)0;
-                      if(tmp_if_expr$4)
-                        tmp_if_expr$5 = ctx->fn_fw_k4w_size > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_4 = (_Bool)0;
+                      if(tmp_if_expr_4)
+                        tmp_if_expr_5 = ctx->fn_fw_k4w_size > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                       else
-                        tmp_if_expr$5 = (_Bool)0;
-                      if(tmp_if_expr$5)
+                        tmp_if_expr_5 = (_Bool)0;
+                      if(tmp_if_expr_5)
                       {
-                        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "loading firmware from memory\n");
+                        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "loading firmware from memory\n");
                         res=upload_firmware_from_memory(&dev->usb_audio, ctx->fn_fw_k4w_ptr, ctx->fn_fw_k4w_size);
                       }
 
@@ -3278,7 +3278,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                     }
                     if(!(res >= 0))
                     {
-                      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "upload_firmware failed: %d\n", res);
+                      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "upload_firmware failed: %d\n", res);
                       break;
                     }
 
@@ -3288,7 +3288,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                     loops = 0;
                     for( ; !(loops >= 10); loops = loops + 1)
                     {
-                      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Try %d: Looking for new audio device matching serial %s\n", loops, audio_serial);
+                      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Try %d: Looking for new audio device matching serial %s\n", loops, audio_serial);
                       struct libusb_device **new_dev_list;
                       signed int dev_index;
                       signed long int num_new_devs;
@@ -3297,52 +3297,52 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                       for( ; !((signed long int)dev_index >= num_new_devs); dev_index = dev_index + 1)
                       {
                         struct libusb_device_descriptor new_dev_desc;
-                        signed int fnusb_open_subdevices$$1$$2$$1$$2$$1$$4$$6$$1$$1$$1$$r;
-                        fnusb_open_subdevices$$1$$2$$1$$2$$1$$4$$6$$1$$1$$1$$r=libusb_get_device_descriptor(new_dev_list[(signed long int)dev_index], &new_dev_desc);
-                        if(fnusb_open_subdevices$$1$$2$$1$$2$$1$$4$$6$$1$$1$$1$$r >= 0)
+                        signed int fnusb_open_subdevices__1__2__1__2__1__4__6__1__1__1__r;
+                        fnusb_open_subdevices__1__2__1__2__1__4__6__1__1__1__r=libusb_get_device_descriptor(new_dev_list[(signed long int)dev_index], &new_dev_desc);
+                        if(fnusb_open_subdevices__1__2__1__2__1__4__6__1__1__1__r >= 0)
                         {
                           if((signed int)new_dev_desc.idVendor == 0x45e)
                           {
                             if((signed int)new_dev_desc.idProduct == 0x02ad)
-                              tmp_if_expr$12 = (_Bool)1;
+                              tmp_if_expr_12 = (_Bool)1;
 
                             else
                             {
-                              return_value_fnusb_is_pid_k4w_audio$11=fnusb_is_pid_k4w_audio((signed int)desc.idProduct);
-                              tmp_if_expr$12 = return_value_fnusb_is_pid_k4w_audio$11 != 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_fnusb_is_pid_k4w_audio_11=fnusb_is_pid_k4w_audio((signed int)desc.idProduct);
+                              tmp_if_expr_12 = return_value_fnusb_is_pid_k4w_audio_11 != 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$12)
+                            if(tmp_if_expr_12)
                             {
-                              fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Matched VID/PID!\n");
+                              fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Matched VID/PID!\n");
                               struct libusb_device_handle *new_dev_handle;
-                              fnusb_open_subdevices$$1$$2$$1$$2$$1$$4$$6$$1$$1$$1$$r=libusb_open(new_dev_list[(signed long int)dev_index], &new_dev_handle);
-                              if(!(fnusb_open_subdevices$$1$$2$$1$$2$$1$$4$$6$$1$$1$$1$$r >= 0))
+                              fnusb_open_subdevices__1__2__1__2__1__4__6__1__1__1__r=libusb_open(new_dev_list[(signed long int)dev_index], &new_dev_handle);
+                              if(!(fnusb_open_subdevices__1__2__1__2__1__4__6__1__1__1__r >= 0))
                                 goto __CPROVER_DUMP_L68;
 
-                              fnusb_open_subdevices$$1$$2$$1$$2$$1$$4$$6$$1$$1$$1$$r=libusb_get_string_descriptor_ascii(new_dev_handle, new_dev_desc.iSerialNumber, string_desc, 256);
-                              if(!(fnusb_open_subdevices$$1$$2$$1$$2$$1$$4$$6$$1$$1$$1$$r >= 0))
+                              fnusb_open_subdevices__1__2__1__2__1__4__6__1__1__1__r=libusb_get_string_descriptor_ascii(new_dev_handle, new_dev_desc.iSerialNumber, string_desc, 256);
+                              if(!(fnusb_open_subdevices__1__2__1__2__1__4__6__1__1__1__r >= 0))
                               {
-                                fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Lost new audio device while fetching serial number.\n");
+                                fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Lost new audio device while fetching serial number.\n");
                                 libusb_close(new_dev_handle);
                                 goto __CPROVER_DUMP_L68;
                               }
 
-                              unsigned long int return_value_strlen$8;
-                              return_value_strlen$8=strlen(audio_serial);
-                              if((unsigned long int)fnusb_open_subdevices$$1$$2$$1$$2$$1$$4$$6$$1$$1$$1$$r == return_value_strlen$8)
+                              unsigned long int return_value_strlen_8;
+                              return_value_strlen_8=strlen(audio_serial);
+                              if((unsigned long int)fnusb_open_subdevices__1__2__1__2__1__4__6__1__1__1__r == return_value_strlen_8)
                               {
-                                return_value_strcmp$9=strcmp((char *)string_desc, audio_serial);
-                                tmp_if_expr$10 = return_value_strcmp$9 == 0 ? (_Bool)1 : (_Bool)0;
+                                return_value_strcmp_9=strcmp((char *)string_desc, audio_serial);
+                                tmp_if_expr_10 = return_value_strcmp_9 == 0 ? (_Bool)1 : (_Bool)0;
                               }
 
                               else
-                                tmp_if_expr$10 = (_Bool)0;
-                              if(tmp_if_expr$10)
+                                tmp_if_expr_10 = (_Bool)0;
+                              if(tmp_if_expr_10)
                               {
-                                fnusb_open_subdevices$$1$$2$$1$$2$$1$$4$$6$$1$$1$$1$$r=libusb_claim_interface(new_dev_handle, 0);
-                                if(!(fnusb_open_subdevices$$1$$2$$1$$2$$1$$4$$6$$1$$1$$1$$r == 0))
+                                fnusb_open_subdevices__1__2__1__2__1__4__6__1__1__1__r=libusb_claim_interface(new_dev_handle, 0);
+                                if(!(fnusb_open_subdevices__1__2__1__2__1__4__6__1__1__1__r == 0))
                                 {
-                                  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Device with serial %s reappeared but couldn't claim interface 0\n", audio_serial);
+                                  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Device with serial %s reappeared but couldn't claim interface 0\n", audio_serial);
                                   libusb_close(new_dev_handle);
                                   goto __CPROVER_DUMP_L68;
                                 }
@@ -3358,7 +3358,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
 
                                 else
                                 {
-                                  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Opened audio with matching serial but too few interfaces.\n");
+                                  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Opened audio with matching serial but too few interfaces.\n");
                                   dev->usb_audio.dev = (struct libusb_device_handle *)(void *)0;
                                   libusb_close(new_dev_handle);
                                   goto __CPROVER_DUMP_L68;
@@ -3367,7 +3367,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
                               }
 
                               else
-                                fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Got serial %s, expected serial %s\n", (char *)string_desc, audio_serial);
+                                fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Got serial %s, expected serial %s\n", (char *)string_desc, audio_serial);
                             }
 
                           }
@@ -3403,18 +3403,18 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
     }
     libusb_free_device_list(devs, 1);
     if(!(dev->usb_cam.dev == ((struct libusb_device_handle *)NULL)))
-      tmp_if_expr$16 = (_Bool)1;
+      tmp_if_expr_16 = (_Bool)1;
 
     else
-      tmp_if_expr$16 = !(((signed int)ctx->enabled_subdevices & FREENECT_DEVICE_CAMERA) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$16)
+      tmp_if_expr_16 = !(((signed int)ctx->enabled_subdevices & FREENECT_DEVICE_CAMERA) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_16)
     {
       if(!(dev->usb_motor.dev == ((struct libusb_device_handle *)NULL)))
-        tmp_if_expr$15 = (_Bool)1;
+        tmp_if_expr_15 = (_Bool)1;
 
       else
-        tmp_if_expr$15 = !(((signed int)ctx->enabled_subdevices & FREENECT_DEVICE_MOTOR) != 0) ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$15)
+        tmp_if_expr_15 = !(((signed int)ctx->enabled_subdevices & FREENECT_DEVICE_MOTOR) != 0) ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_15)
         goto __CPROVER_DUMP_L80;
 
       return 0;
@@ -3432,7 +3432,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
       }
 
       else
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Failed to open camera subdevice or it is not disabled.");
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Failed to open camera subdevice or it is not disabled.");
       if(!(dev->usb_motor.dev == ((struct libusb_device_handle *)NULL)))
       {
         libusb_release_interface(dev->usb_motor.dev, 0);
@@ -3440,7 +3440,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
       }
 
       else
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Failed to open motor subddevice or it is not disabled.");
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Failed to open motor subddevice or it is not disabled.");
       if(!(dev->usb_audio.dev == ((struct libusb_device_handle *)NULL)))
       {
         libusb_release_interface(dev->usb_audio.dev, 0);
@@ -3448,7 +3448,7 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
       }
 
       else
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Failed to open audio subdevice or it is not disabled.");
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Failed to open audio subdevice or it is not disabled.");
       return -1;
     }
   }
@@ -3456,52 +3456,52 @@ signed int fnusb_open_subdevices(struct _freenect_device *dev, signed int index)
 
 // fnusb_process_events
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.c line 245
-signed int fnusb_process_events(struct anonymous$22 *ctx)
+signed int fnusb_process_events(struct anonymous_22 *ctx)
 {
-  signed int return_value_libusb_handle_events$1;
-  return_value_libusb_handle_events$1=libusb_handle_events(ctx->ctx);
-  return return_value_libusb_handle_events$1;
+  signed int return_value_libusb_handle_events_1;
+  return_value_libusb_handle_events_1=libusb_handle_events(ctx->ctx);
+  return return_value_libusb_handle_events_1;
 }
 
 // fnusb_process_events_timeout
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 83
-signed int fnusb_process_events_timeout(struct anonymous$22 *ctx, struct timeval *timeout)
+signed int fnusb_process_events_timeout(struct anonymous_22 *ctx, struct timeval *timeout)
 {
-  signed int return_value_libusb_handle_events_timeout$1;
-  return_value_libusb_handle_events_timeout$1=libusb_handle_events_timeout(ctx->ctx, timeout);
-  return return_value_libusb_handle_events_timeout$1;
+  signed int return_value_libusb_handle_events_timeout_1;
+  return_value_libusb_handle_events_timeout_1=libusb_handle_events_timeout(ctx->ctx, timeout);
+  return return_value_libusb_handle_events_timeout_1;
 }
 
 // fnusb_set_led_alt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 246
-signed int fnusb_set_led_alt(struct libusb_device_handle *dev, struct _freenect_context *ctx, enum anonymous$20 state)
+signed int fnusb_set_led_alt(struct libusb_device_handle *dev, struct _freenect_context *ctx, enum anonymous_20 state)
 {
   if((signed int)state == LED_GREEN)
-    state = (enum anonymous$20)3;
+    state = (enum anonymous_20)3;
 
   else
     if((signed int)state == LED_RED)
-      state = (enum anonymous$20)4;
+      state = (enum anonymous_20)4;
 
     else
       if((signed int)state == LED_YELLOW)
-        state = (enum anonymous$20)3;
+        state = (enum anonymous_20)3;
 
       else
         if((signed int)state == LED_OFF)
-          state = (enum anonymous$20)1;
+          state = (enum anonymous_20)1;
 
         else
           if((signed int)state == LED_BLINK_GREEN)
-            state = (enum anonymous$20)2;
+            state = (enum anonymous_20)2;
 
           else
-            state = (enum anonymous$20)LED_GREEN;
-  struct anonymous$23 cmd;
+            state = (enum anonymous_20)LED_GREEN;
+  struct anonymous_23 cmd;
   cmd.magic = (unsigned int)0x06022009;
-  signed int tmp_post$1 = tag_seq;
+  signed int tmp_post_1 = tag_seq;
   tag_seq = tag_seq + 1;
-  cmd.tag = (unsigned int)tmp_post$1;
+  cmd.tag = (unsigned int)tmp_post_1;
   cmd.arg1 = (unsigned int)0;
   cmd.cmd = (unsigned int)0x10;
   cmd.arg2 = (unsigned int)(signed int)state;
@@ -3512,21 +3512,21 @@ signed int fnusb_set_led_alt(struct libusb_device_handle *dev, struct _freenect_
   res=libusb_bulk_transfer(dev, (unsigned char)0x01, buffer, 20, &transferred, (unsigned int)100);
   if(!(res == 0))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "fnusb_set_led_alt(): libusb_bulk_transfer failed: %d (transferred = %d)\n", res, transferred);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "fnusb_set_led_alt(): libusb_bulk_transfer failed: %d (transferred = %d)\n", res, transferred);
     return res;
   }
 
   else
   {
-    signed int return_value_get_reply$2;
-    return_value_get_reply$2=get_reply(dev, ctx);
-    return return_value_get_reply$2;
+    signed int return_value_get_reply_2;
+    return_value_get_reply_2=get_reply(dev, ctx);
+    return return_value_get_reply_2;
   }
 }
 
 // fnusb_shutdown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 81
-signed int fnusb_shutdown(struct anonymous$22 *ctx)
+signed int fnusb_shutdown(struct anonymous_22 *ctx)
 {
   if(!(ctx->should_free_ctx == 0))
   {
@@ -3539,7 +3539,7 @@ signed int fnusb_shutdown(struct anonymous$22 *ctx)
 
 // fnusb_start_iso
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 88
-signed int fnusb_start_iso(struct anonymous$19 *dev, struct anonymous$18 *strm, void (*cb)(struct _freenect_device *, unsigned char *, signed int), unsigned char endpoint, signed int xfers, signed int pkts, signed int len)
+signed int fnusb_start_iso(struct anonymous_19 *dev, struct anonymous_18 *strm, void (*cb)(struct _freenect_device *, unsigned char *, signed int), unsigned char endpoint, signed int xfers, signed int pkts, signed int len)
 {
   struct _freenect_context *ctx = dev->parent->parent;
   strm->parent = dev;
@@ -3547,12 +3547,12 @@ signed int fnusb_start_iso(struct anonymous$19 *dev, struct anonymous$18 *strm, 
   strm->num_xfers = xfers;
   strm->pkts = pkts;
   strm->len = len;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(xfers * pkts * len));
-  strm->buffer = (unsigned char *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct libusb_transfer *) /*8ul*/  * (unsigned long int)xfers);
-  strm->xfers = (struct libusb_transfer **)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(xfers * pkts * len));
+  strm->buffer = (unsigned char *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct libusb_transfer *) /*8ul*/  * (unsigned long int)xfers);
+  strm->xfers = (struct libusb_transfer **)return_value_malloc_2;
   strm->dead = 0;
   strm->dead_xfers = 0;
   signed int i;
@@ -3560,11 +3560,11 @@ signed int fnusb_start_iso(struct anonymous$19 *dev, struct anonymous$18 *strm, 
   i = 0;
   for( ; !(i >= xfers); i = i + 1)
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Creating endpoint %02x transfer #%d\n", endpoint, i);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Creating endpoint %02x transfer #%d\n", endpoint, i);
     strm->xfers[(signed long int)i]=libusb_alloc_transfer(pkts);
     if(strm->xfers[(signed long int)i] == ((struct libusb_transfer *)NULL))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "Failed to allocate transfer\n");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "Failed to allocate transfer\n");
       strm->dead_xfers = strm->dead_xfers + 1;
     }
 
@@ -3576,7 +3576,7 @@ signed int fnusb_start_iso(struct anonymous$19 *dev, struct anonymous$18 *strm, 
       ret=libusb_submit_transfer(strm->xfers[(signed long int)i]);
       if(!(ret >= 0))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "Failed to submit isochronous transfer %d: %d\n", i, ret);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "Failed to submit isochronous transfer %d: %d\n", i, ret);
         strm->dead_xfers = strm->dead_xfers + 1;
       }
 
@@ -3588,29 +3588,29 @@ signed int fnusb_start_iso(struct anonymous$19 *dev, struct anonymous$18 *strm, 
 
 // fnusb_stop_iso
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 89
-signed int fnusb_stop_iso(struct anonymous$19 *dev, struct anonymous$18 *strm)
+signed int fnusb_stop_iso(struct anonymous_19 *dev, struct anonymous_18 *strm)
 {
   struct _freenect_context *ctx = dev->parent->parent;
   signed int i;
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() called\n");
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() called\n");
   strm->dead = 1;
   i = 0;
   for( ; !(i >= strm->num_xfers); i = i + 1)
     libusb_cancel_transfer(strm->xfers[(signed long int)i]);
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() cancelled all transfers\n");
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() cancelled all transfers\n");
   while(!(strm->dead_xfers >= strm->num_xfers))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() dead = %d\tnum = %d\n", strm->dead_xfers, strm->num_xfers);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() dead = %d\tnum = %d\n", strm->dead_xfers, strm->num_xfers);
     libusb_handle_events(ctx->usb.ctx);
   }
   i = 0;
   for( ; !(i >= strm->num_xfers); i = i + 1)
     libusb_free_transfer(strm->xfers[(signed long int)i]);
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() freed all transfers\n");
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() freed all transfers\n");
   free((void *)strm->buffer);
   free((void *)strm->xfers);
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() freed buffers and stream\n");
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() done\n");
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() freed buffers and stream\n");
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_FLOOD, "fnusb_stop_iso() done\n");
   return 0;
 }
 
@@ -3618,13 +3618,13 @@ signed int fnusb_stop_iso(struct anonymous$19 *dev, struct anonymous$18 *strm)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.h line 34
 signed int freenect_apply_depth_to_mm(struct _freenect_device *dev, unsigned char *input_packed, unsigned short int *output_mm)
 {
-  struct anonymous$7 *reg = &dev->registration;
+  struct anonymous_7 *reg = &dev->registration;
   unsigned short int unpack[8l];
   unsigned int x;
   unsigned int y;
   unsigned int source_index = (unsigned int)8;
   y = (unsigned int)0;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   for( ; !(y >= 480u); y = y + 1u)
   {
     x = (unsigned int)0;
@@ -3638,9 +3638,9 @@ signed int freenect_apply_depth_to_mm(struct _freenect_device *dev, unsigned cha
       }
 
       unsigned short int metric_depth;
-      tmp_post$1 = source_index;
+      tmp_post_1 = source_index;
       source_index = source_index + 1u;
-      metric_depth = reg->raw_to_mm_shift[(signed long int)unpack[(signed long int)tmp_post$1]];
+      metric_depth = reg->raw_to_mm_shift[(signed long int)unpack[(signed long int)tmp_post_1]];
       output_mm[(signed long int)(y * (unsigned int)640 + x)] = (unsigned short int)((signed int)metric_depth < 10000 ? (signed int)metric_depth : 10000);
     }
   }
@@ -3651,7 +3651,7 @@ signed int freenect_apply_depth_to_mm(struct _freenect_device *dev, unsigned cha
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.h line 33
 signed int freenect_apply_registration(struct _freenect_device *dev, unsigned char *input_packed, unsigned short int *output_mm)
 {
-  struct anonymous$7 *reg = &dev->registration;
+  struct anonymous_7 *reg = &dev->registration;
   unsigned long int i;
   unsigned long int *wipe = (unsigned long int *)output_mm;
   i = (unsigned long int)0;
@@ -3663,7 +3663,7 @@ signed int freenect_apply_registration(struct _freenect_device *dev, unsigned ch
   unsigned int y;
   unsigned int source_index = (unsigned int)8;
   y = (unsigned int)0;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   for( ; !(y >= 480u); y = y + 1u)
   {
     x = (unsigned int)0;
@@ -3677,9 +3677,9 @@ signed int freenect_apply_registration(struct _freenect_device *dev, unsigned ch
       }
 
       unsigned short int metric_depth;
-      tmp_post$1 = source_index;
+      tmp_post_1 = source_index;
       source_index = source_index + 1u;
-      metric_depth = reg->raw_to_mm_shift[(signed long int)unpack[(signed long int)tmp_post$1]];
+      metric_depth = reg->raw_to_mm_shift[(signed long int)unpack[(signed long int)tmp_post_1]];
       if(!((signed int)metric_depth == 0))
       {
         if(!((signed int)metric_depth >= 10000))
@@ -3714,7 +3714,7 @@ signed int freenect_camera_init(struct _freenect_device *dev)
   res=freenect_fetch_reg_pad_info(dev);
   if(!(res >= 0))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_camera_init(): Failed to fetch registration pad info for device\n");
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_camera_init(): Failed to fetch registration pad info for device\n");
     return res;
   }
 
@@ -3723,22 +3723,22 @@ signed int freenect_camera_init(struct _freenect_device *dev)
     res=freenect_fetch_zero_plane_info(dev);
     if(!(res >= 0))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_camera_init(): Failed to fetch zero plane info for device\n");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_camera_init(): Failed to fetch zero plane info for device\n");
       return res;
     }
 
     else
     {
-      struct anonymous$17 return_value_freenect_find_video_mode$1;
-      return_value_freenect_find_video_mode$1=freenect_find_video_mode((enum anonymous$3)FREENECT_RESOLUTION_MEDIUM, (enum anonymous$4)FREENECT_VIDEO_RGB);
-      res=freenect_set_video_mode(dev, return_value_freenect_find_video_mode$1);
-      struct anonymous$17 return_value_freenect_find_depth_mode$2;
-      return_value_freenect_find_depth_mode$2=freenect_find_depth_mode((enum anonymous$3)FREENECT_RESOLUTION_MEDIUM, (enum anonymous$8)FREENECT_DEPTH_11BIT);
-      res=freenect_set_depth_mode(dev, return_value_freenect_find_depth_mode$2);
+      struct anonymous_17 return_value_freenect_find_video_mode_1;
+      return_value_freenect_find_video_mode_1=freenect_find_video_mode((enum anonymous_3)FREENECT_RESOLUTION_MEDIUM, (enum anonymous_4)FREENECT_VIDEO_RGB);
+      res=freenect_set_video_mode(dev, return_value_freenect_find_video_mode_1);
+      struct anonymous_17 return_value_freenect_find_depth_mode_2;
+      return_value_freenect_find_depth_mode_2=freenect_find_depth_mode((enum anonymous_3)FREENECT_RESOLUTION_MEDIUM, (enum anonymous_8)FREENECT_DEPTH_11BIT);
+      res=freenect_set_depth_mode(dev, return_value_freenect_find_depth_mode_2);
       res=freenect_fetch_reg_const_shift(dev);
       if(!(res >= 0))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_camera_init(): Failed to fetch const shift for device\n");
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_camera_init(): Failed to fetch const shift for device\n");
         return res;
       }
 
@@ -3758,7 +3758,7 @@ signed int freenect_camera_teardown(struct _freenect_device *dev)
   {
     res=freenect_stop_depth(dev);
     if(!(res >= 0))
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_camera_teardown(): Failed to stop depth camera\n");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_camera_teardown(): Failed to stop depth camera\n");
 
     return res;
   }
@@ -3768,7 +3768,7 @@ signed int freenect_camera_teardown(struct _freenect_device *dev)
     {
       res=freenect_stop_video(dev);
       if(!(res >= 0))
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_camera_teardown(): Failed to stop video camera\n");
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_camera_teardown(): Failed to stop video camera\n");
 
       return res;
     }
@@ -3803,7 +3803,7 @@ signed int freenect_close_device(struct _freenect_device *dev)
   res=fnusb_close_subdevices(dev);
   if(!(res >= 0))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "fnusb_close_subdevices failed: %d\n", res);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "fnusb_close_subdevices failed: %d\n", res);
     return res;
   }
 
@@ -3815,7 +3815,7 @@ signed int freenect_close_device(struct _freenect_device *dev)
       last = cur;
     if(cur == ((struct _freenect_device *)NULL))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "device %p not found in linked list for this context!\n", dev);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "device %p not found in linked list for this context!\n", dev);
       return -1;
     }
 
@@ -3834,29 +3834,29 @@ signed int freenect_close_device(struct _freenect_device *dev)
 
 // freenect_copy_registration
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 420
-struct anonymous$7 freenect_copy_registration(struct _freenect_device *dev)
+struct anonymous_7 freenect_copy_registration(struct _freenect_device *dev)
 {
-  struct anonymous$7 retval;
+  struct anonymous_7 retval;
   retval.reg_info = dev->registration.reg_info;
   retval.reg_pad_info = dev->registration.reg_pad_info;
   retval.zero_plane_info = dev->registration.zero_plane_info;
   retval.const_shift = dev->registration.const_shift;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(unsigned short int) /*2ul*/  * (unsigned long int)2048);
-  retval.raw_to_mm_shift = (unsigned short int *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)10000);
-  retval.depth_to_rgb_shift = (signed int *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)640 * (unsigned long int)480 * (unsigned long int)2);
-  retval.registration_table = (signed int (*)[2l])return_value_malloc$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(unsigned short int) /*2ul*/  * (unsigned long int)2048);
+  retval.raw_to_mm_shift = (unsigned short int *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)10000);
+  retval.depth_to_rgb_shift = (signed int *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)640 * (unsigned long int)480 * (unsigned long int)2);
+  retval.registration_table = (signed int (*)[2l])return_value_malloc_3;
   complete_tables(&retval);
   return retval;
 }
 
 // freenect_create_dxdy_tables
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 194
-static void freenect_create_dxdy_tables(double *reg_x_table, double *reg_y_table, signed int resolution_x, signed int resolution_y, struct anonymous$5 *regdata)
+static void freenect_create_dxdy_tables(double *reg_x_table, double *reg_y_table, signed int resolution_x, signed int resolution_y, struct anonymous_5 *regdata)
 {
   signed long int AX6 = (signed long int)regdata->ax;
   signed long int BX6 = (signed long int)regdata->bx;
@@ -3920,7 +3920,7 @@ static void freenect_create_dxdy_tables(double *reg_x_table, double *reg_y_table
 
 // freenect_destroy_registration
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect_registration.h line 116
-signed int freenect_destroy_registration(struct anonymous$7 *reg)
+signed int freenect_destroy_registration(struct anonymous_7 *reg)
 {
   if(!(reg->raw_to_mm_shift == ((unsigned short int *)NULL)))
   {
@@ -3945,7 +3945,7 @@ signed int freenect_destroy_registration(struct anonymous$7 *reg)
 
 // freenect_enabled_subdevices
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 138
-enum anonymous$29 freenect_enabled_subdevices(struct _freenect_context *ctx)
+enum anonymous_29 freenect_enabled_subdevices(struct _freenect_context *ctx)
 {
   return ctx->enabled_subdevices;
 }
@@ -3957,7 +3957,7 @@ static signed int freenect_fetch_reg_const_shift(struct _freenect_device *dev)
   struct _freenect_context *ctx = dev->parent;
   char reply[512l];
   unsigned short int cmd[5l];
-  struct anonymous$17 mode;
+  struct anonymous_17 mode;
   mode=freenect_get_current_video_mode(dev);
   cmd[(signed long int)0] = (unsigned short int)0x00;
   cmd[(signed long int)1] = (unsigned short int)0;
@@ -3968,7 +3968,7 @@ static signed int freenect_fetch_reg_const_shift(struct _freenect_device *dev)
   res=send_cmd(dev, (unsigned short int)0x16, (void *)cmd, (unsigned int)10, (void *)reply, 4);
   if(!(res == 4))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_fetch_reg_const_shift: send_cmd read %d bytes (expected 8)\n", res);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_fetch_reg_const_shift: send_cmd read %d bytes (expected 8)\n", res);
     return -1;
   }
 
@@ -3978,7 +3978,7 @@ static signed int freenect_fetch_reg_const_shift(struct _freenect_device *dev)
     memcpy((void *)&shift, (const void *)(reply + (signed long int)2), sizeof(unsigned short int) /*2ul*/ );
     shift = shift;
     dev->registration.const_shift = (double)shift;
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "const_shift: %f\n", dev->registration.const_shift);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "const_shift: %f\n", dev->registration.const_shift);
     return 0;
   }
 }
@@ -3990,7 +3990,7 @@ static signed int freenect_fetch_reg_info(struct _freenect_device *dev)
   struct _freenect_context *ctx = dev->parent;
   char reply[512l];
   unsigned short int cmd[5l];
-  struct anonymous$17 mode;
+  struct anonymous_17 mode;
   mode=freenect_get_current_video_mode(dev);
   cmd[(signed long int)0] = (unsigned short int)0x40;
   cmd[(signed long int)1] = (unsigned short int)0;
@@ -4001,13 +4001,13 @@ static signed int freenect_fetch_reg_info(struct _freenect_device *dev)
   res=send_cmd(dev, (unsigned short int)0x16, (void *)cmd, (unsigned int)10, (void *)reply, 118);
   if(!(res == 118))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_fetch_reg_info: send_cmd read %d bytes (expected 118)\n", res);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_fetch_reg_info: send_cmd read %d bytes (expected 118)\n", res);
     return -1;
   }
 
   else
   {
-    memcpy((void *)&dev->registration.reg_info, (const void *)(reply + (signed long int)2), sizeof(struct anonymous$5) /*116ul*/ );
+    memcpy((void *)&dev->registration.reg_info, (const void *)(reply + (signed long int)2), sizeof(struct anonymous_5) /*116ul*/ );
     dev->registration.reg_info.ax = dev->registration.reg_info.ax;
     dev->registration.reg_info.bx = dev->registration.reg_info.bx;
     dev->registration.reg_info.cx = dev->registration.reg_info.cx;
@@ -4032,30 +4032,30 @@ static signed int freenect_fetch_reg_info(struct _freenect_device *dev)
     dev->registration.reg_info.dydxdy_start = dev->registration.reg_info.dydxdy_start;
     dev->registration.reg_info.dydydx_start = dev->registration.reg_info.dydydx_start;
     dev->registration.reg_info.dydydy_start = dev->registration.reg_info.dydydy_start;
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "ax:                %d\n", dev->registration.reg_info.ax);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "bx:                %d\n", dev->registration.reg_info.bx);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "cx:                %d\n", dev->registration.reg_info.cx);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dx:                %d\n", dev->registration.reg_info.dx);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "ay:                %d\n", dev->registration.reg_info.ay);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "by:                %d\n", dev->registration.reg_info.by);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "cy:                %d\n", dev->registration.reg_info.cy);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dy:                %d\n", dev->registration.reg_info.dy);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dx_start:          %d\n", dev->registration.reg_info.dx_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dy_start:          %d\n", dev->registration.reg_info.dy_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dx_beta_start:     %d\n", dev->registration.reg_info.dx_beta_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dy_beta_start:     %d\n", dev->registration.reg_info.dy_beta_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dx_beta_inc:       %d\n", dev->registration.reg_info.dx_beta_inc);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dy_beta_inc:       %d\n", dev->registration.reg_info.dy_beta_inc);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dxdx_start:        %d\n", dev->registration.reg_info.dxdx_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dxdy_start:        %d\n", dev->registration.reg_info.dxdy_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dydx_start:        %d\n", dev->registration.reg_info.dydx_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dydy_start:        %d\n", dev->registration.reg_info.dydy_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dxdxdx_start:      %d\n", dev->registration.reg_info.dxdxdx_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dydxdx_start:      %d\n", dev->registration.reg_info.dydxdx_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dxdxdy_start:      %d\n", dev->registration.reg_info.dxdxdy_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dydxdy_start:      %d\n", dev->registration.reg_info.dydxdy_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dydydx_start:      %d\n", dev->registration.reg_info.dydydx_start);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dydydy_start:      %d\n", dev->registration.reg_info.dydydy_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "ax:                %d\n", dev->registration.reg_info.ax);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "bx:                %d\n", dev->registration.reg_info.bx);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "cx:                %d\n", dev->registration.reg_info.cx);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dx:                %d\n", dev->registration.reg_info.dx);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "ay:                %d\n", dev->registration.reg_info.ay);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "by:                %d\n", dev->registration.reg_info.by);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "cy:                %d\n", dev->registration.reg_info.cy);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dy:                %d\n", dev->registration.reg_info.dy);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dx_start:          %d\n", dev->registration.reg_info.dx_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dy_start:          %d\n", dev->registration.reg_info.dy_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dx_beta_start:     %d\n", dev->registration.reg_info.dx_beta_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dy_beta_start:     %d\n", dev->registration.reg_info.dy_beta_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dx_beta_inc:       %d\n", dev->registration.reg_info.dx_beta_inc);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dy_beta_inc:       %d\n", dev->registration.reg_info.dy_beta_inc);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dxdx_start:        %d\n", dev->registration.reg_info.dxdx_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dxdy_start:        %d\n", dev->registration.reg_info.dxdy_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dydx_start:        %d\n", dev->registration.reg_info.dydx_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dydy_start:        %d\n", dev->registration.reg_info.dydy_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dxdxdx_start:      %d\n", dev->registration.reg_info.dxdxdx_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dydxdx_start:      %d\n", dev->registration.reg_info.dydxdx_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dxdxdy_start:      %d\n", dev->registration.reg_info.dxdxdy_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dydxdy_start:      %d\n", dev->registration.reg_info.dydxdy_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dydydx_start:      %d\n", dev->registration.reg_info.dydydx_start);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dydydy_start:      %d\n", dev->registration.reg_info.dydydy_start);
     return 0;
   }
 }
@@ -4067,7 +4067,7 @@ static signed int freenect_fetch_reg_pad_info(struct _freenect_device *dev)
   struct _freenect_context *ctx = dev->parent;
   char reply[512l];
   unsigned short int cmd[5l];
-  struct anonymous$17 mode;
+  struct anonymous_17 mode;
   mode=freenect_get_current_video_mode(dev);
   cmd[(signed long int)0] = (unsigned short int)0x41;
   cmd[(signed long int)1] = (unsigned short int)0;
@@ -4078,19 +4078,19 @@ static signed int freenect_fetch_reg_pad_info(struct _freenect_device *dev)
   res=send_cmd(dev, (unsigned short int)0x16, (void *)cmd, (unsigned int)10, (void *)reply, 8);
   if(!(res == 8))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_fetch_reg_pad_info: send_cmd read %d bytes (expected 8)\n", res);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_fetch_reg_pad_info: send_cmd read %d bytes (expected 8)\n", res);
     return -1;
   }
 
   else
   {
-    memcpy((void *)&dev->registration.reg_pad_info, (const void *)(reply + (signed long int)2), sizeof(struct anonymous$6) /*6ul*/ );
+    memcpy((void *)&dev->registration.reg_pad_info, (const void *)(reply + (signed long int)2), sizeof(struct anonymous_6) /*6ul*/ );
     dev->registration.reg_pad_info.start_lines = dev->registration.reg_pad_info.start_lines;
     dev->registration.reg_pad_info.end_lines = dev->registration.reg_pad_info.end_lines;
     dev->registration.reg_pad_info.cropping_lines = dev->registration.reg_pad_info.cropping_lines;
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "start_lines:    %u\n", dev->registration.reg_pad_info.start_lines);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "end_lines:      %u\n", dev->registration.reg_pad_info.end_lines);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "cropping_lines: %u\n", dev->registration.reg_pad_info.cropping_lines);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "start_lines:    %u\n", dev->registration.reg_pad_info.start_lines);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "end_lines:      %u\n", dev->registration.reg_pad_info.end_lines);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "cropping_lines: %u\n", dev->registration.reg_pad_info.cropping_lines);
     return 0;
   }
 }
@@ -4106,13 +4106,13 @@ static signed int freenect_fetch_zero_plane_info(struct _freenect_device *dev)
   res=send_cmd(dev, (unsigned short int)0x04, (void *)cmd, (unsigned int)10, (void *)reply, ctx->zero_plane_res);
   if(!(res == ctx->zero_plane_res))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_fetch_zero_plane_info: send_cmd read %d bytes (expected %d)\n", res, ctx->zero_plane_res);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_fetch_zero_plane_info: send_cmd read %d bytes (expected %d)\n", res, ctx->zero_plane_res);
     return -1;
   }
 
   else
   {
-    memcpy((void *)&dev->registration.zero_plane_info, (const void *)(reply + (signed long int)94), sizeof(struct anonymous$2) /*16ul*/ );
+    memcpy((void *)&dev->registration.zero_plane_info, (const void *)(reply + (signed long int)94), sizeof(struct anonymous_2) /*16ul*/ );
     /* tag-#anon#lUN[U32'ui'||F32'f'|] */
 union anonymous
 {
@@ -4137,10 +4137,10 @@ union anonymous
     conversion_union.f = dev->registration.zero_plane_info.reference_pixel_size;
     conversion_union.ui = conversion_union.ui;
     dev->registration.zero_plane_info.reference_pixel_size = conversion_union.f;
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dcmos_emitter_distance: %f\n", dev->registration.zero_plane_info.dcmos_emitter_dist);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "dcmos_rcmos_distance:   %f\n", dev->registration.zero_plane_info.dcmos_rcmos_dist);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "reference_distance:     %f\n", dev->registration.zero_plane_info.reference_distance);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "reference_pixel_size:   %f\n", dev->registration.zero_plane_info.reference_pixel_size);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dcmos_emitter_distance: %f\n", dev->registration.zero_plane_info.dcmos_emitter_dist);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "dcmos_rcmos_distance:   %f\n", dev->registration.zero_plane_info.dcmos_rcmos_dist);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "reference_distance:     %f\n", dev->registration.zero_plane_info.reference_distance);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "reference_pixel_size:   %f\n", dev->registration.zero_plane_info.reference_pixel_size);
     dev->registration.zero_plane_info.dcmos_rcmos_dist = 2.4f;
     return 0;
   }
@@ -4148,7 +4148,7 @@ union anonymous
 
 // freenect_find_depth_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 650
-struct anonymous$17 freenect_find_depth_mode(enum anonymous$3 res, enum anonymous$8 fmt)
+struct anonymous_17 freenect_find_depth_mode(enum anonymous_3 res, enum anonymous_8 fmt)
 {
   unsigned int unique_id = (unsigned int)(((signed int)res & 0xff) << 8 | (signed int)fmt & 0xff);
   signed int i = 0;
@@ -4156,14 +4156,14 @@ struct anonymous$17 freenect_find_depth_mode(enum anonymous$3 res, enum anonymou
     if(supported_depth_modes[(signed long int)i].reserved == unique_id)
       return supported_depth_modes[(signed long int)i];
 
-  struct anonymous$17 retval;
+  struct anonymous_17 retval;
   retval.is_valid = (signed char)0;
   return retval;
 }
 
 // freenect_find_video_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1139
-struct anonymous$17 freenect_find_video_mode(enum anonymous$3 res, enum anonymous$4 fmt)
+struct anonymous_17 freenect_find_video_mode(enum anonymous_3 res, enum anonymous_4 fmt)
 {
   unsigned int unique_id = (unsigned int)(((signed int)res & 0xff) << 8 | (signed int)fmt & 0xff);
   signed int i = 0;
@@ -4171,7 +4171,7 @@ struct anonymous$17 freenect_find_video_mode(enum anonymous$3 res, enum anonymou
     if(supported_video_modes[(signed long int)i].reserved == unique_id)
       return supported_video_modes[(signed long int)i];
 
-  struct anonymous$17 retval;
+  struct anonymous_17 retval;
   retval.is_valid = (signed char)0;
   return retval;
 }
@@ -4201,32 +4201,32 @@ __CPROVER_DUMP_L4:
 
 // freenect_get_current_depth_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1197
-struct anonymous$17 freenect_get_current_depth_mode(struct _freenect_device *dev)
+struct anonymous_17 freenect_get_current_depth_mode(struct _freenect_device *dev)
 {
-  struct anonymous$17 return_value_freenect_find_depth_mode$1;
-  return_value_freenect_find_depth_mode$1=freenect_find_depth_mode(dev->depth_resolution, dev->depth_format);
-  return return_value_freenect_find_depth_mode$1;
+  struct anonymous_17 return_value_freenect_find_depth_mode_1;
+  return_value_freenect_find_depth_mode_1=freenect_find_depth_mode(dev->depth_resolution, dev->depth_format);
+  return return_value_freenect_find_depth_mode_1;
 }
 
 // freenect_get_current_video_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1134
-struct anonymous$17 freenect_get_current_video_mode(struct _freenect_device *dev)
+struct anonymous_17 freenect_get_current_video_mode(struct _freenect_device *dev)
 {
-  struct anonymous$17 return_value_freenect_find_video_mode$1;
-  return_value_freenect_find_video_mode$1=freenect_find_video_mode(dev->video_resolution, dev->video_format);
-  return return_value_freenect_find_video_mode$1;
+  struct anonymous_17 return_value_freenect_find_video_mode_1;
+  return_value_freenect_find_video_mode_1=freenect_find_video_mode(dev->video_resolution, dev->video_format);
+  return return_value_freenect_find_video_mode_1;
 }
 
 // freenect_get_depth_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1188
-struct anonymous$17 freenect_get_depth_mode(signed int mode_num)
+struct anonymous_17 freenect_get_depth_mode(signed int mode_num)
 {
   if(mode_num >= 0 && !(mode_num >= 6))
     return supported_depth_modes[(signed long int)mode_num];
 
   else
   {
-    struct anonymous$17 retval;
+    struct anonymous_17 retval;
     retval.is_valid = (signed char)0;
     return retval;
   }
@@ -4248,7 +4248,7 @@ signed int freenect_get_ir_brightness(struct _freenect_device *dev)
   brightness=read_register(dev, (unsigned short int)0x15);
   if((signed int)brightness == 65535)
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "Failed to get IR brightness!");
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "Failed to get IR brightness!");
     return -1;
   }
 
@@ -4258,7 +4258,7 @@ signed int freenect_get_ir_brightness(struct _freenect_device *dev)
 
 // freenect_get_mks_accel
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 560
-void freenect_get_mks_accel(struct anonymous$30 *state, double *x, double *y, double *z)
+void freenect_get_mks_accel(struct anonymous_30 *state, double *x, double *y, double *z)
 {
   *x = ((double)state->accelerometer_x / (double)819) * 9.80665;
   *y = ((double)state->accelerometer_y / (double)819) * 9.80665;
@@ -4267,21 +4267,21 @@ void freenect_get_mks_accel(struct anonymous$30 *state, double *x, double *y, do
 
 // freenect_get_tilt_degs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 321
-double freenect_get_tilt_degs(struct anonymous$30 *state)
+double freenect_get_tilt_degs(struct anonymous_30 *state)
 {
   return (double)state->tilt_angle / 2.;
 }
 
 // freenect_get_tilt_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 503
-struct anonymous$30 * freenect_get_tilt_state(struct _freenect_device *dev)
+struct anonymous_30 * freenect_get_tilt_state(struct _freenect_device *dev)
 {
   return &dev->raw_state;
 }
 
 // freenect_get_tilt_status
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 326
-enum anonymous$31 freenect_get_tilt_status(struct anonymous$30 *state)
+enum anonymous_31 freenect_get_tilt_status(struct anonymous_30 *state)
 {
   return state->tilt_status;
 }
@@ -4295,14 +4295,14 @@ void * freenect_get_user(struct _freenect_device *dev)
 
 // freenect_get_video_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1125
-struct anonymous$17 freenect_get_video_mode(signed int mode_num)
+struct anonymous_17 freenect_get_video_mode(signed int mode_num)
 {
   if(mode_num >= 0 && !(mode_num >= 12))
     return supported_video_modes[(signed long int)mode_num];
 
   else
   {
-    struct anonymous$17 retval;
+    struct anonymous_17 retval;
     retval.is_valid = (signed char)0;
     return retval;
   }
@@ -4320,17 +4320,17 @@ signed int freenect_get_video_mode_count()
 signed int freenect_init(struct _freenect_context **ctx, void *usb_ctx)
 {
   signed int res;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _freenect_context) /*88ul*/ );
-  *ctx = (struct _freenect_context *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _freenect_context) /*88ul*/ );
+  *ctx = (struct _freenect_context *)return_value_malloc_1;
   if(*ctx == ((struct _freenect_context *)NULL))
     return -1;
 
   else
   {
     memset((void *)*ctx, 0, sizeof(struct _freenect_context) /*88ul*/ );
-    (*ctx)->log_level = (enum anonymous$9)FREENECT_LOG_WARNING;
-    (*ctx)->enabled_subdevices = (enum anonymous$29)(FREENECT_DEVICE_MOTOR | FREENECT_DEVICE_CAMERA);
+    (*ctx)->log_level = (enum anonymous_9)FREENECT_LOG_WARNING;
+    (*ctx)->enabled_subdevices = (enum anonymous_29)(FREENECT_DEVICE_MOTOR | FREENECT_DEVICE_CAMERA);
     res=fnusb_init(&(*ctx)->usb, usb_ctx);
     if(!(res >= 0))
     {
@@ -4344,7 +4344,7 @@ signed int freenect_init(struct _freenect_context **ctx, void *usb_ctx)
 
 // freenect_init_depth_to_rgb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 60
-static void freenect_init_depth_to_rgb(signed int *depth_to_rgb, struct anonymous$2 *zpi)
+static void freenect_init_depth_to_rgb(signed int *depth_to_rgb, struct anonymous_2 *zpi)
 {
   unsigned int i;
   unsigned int x_scale = (unsigned int)(1280 / 640);
@@ -4364,33 +4364,33 @@ static void freenect_init_depth_to_rgb(signed int *depth_to_rgb, struct anonymou
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.h line 32
 signed int freenect_init_registration(struct _freenect_device *dev)
 {
-  struct anonymous$7 *reg = &dev->registration;
+  struct anonymous_7 *reg = &dev->registration;
   freenect_destroy_registration(&dev->registration);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(unsigned short int) /*2ul*/  * (unsigned long int)2048);
-  reg->raw_to_mm_shift = (unsigned short int *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)10000);
-  reg->depth_to_rgb_shift = (signed int *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)640 * (unsigned long int)480 * (unsigned long int)2);
-  reg->registration_table = (signed int (*)[2l])return_value_malloc$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(unsigned short int) /*2ul*/  * (unsigned long int)2048);
+  reg->raw_to_mm_shift = (unsigned short int *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)10000);
+  reg->depth_to_rgb_shift = (signed int *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)640 * (unsigned long int)480 * (unsigned long int)2);
+  reg->registration_table = (signed int (*)[2l])return_value_malloc_3;
   complete_tables(reg);
   return 0;
 }
 
 // freenect_init_registration_table
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 264
-static void freenect_init_registration_table(signed int (*registration_table)[2l], struct anonymous$5 *reg_info)
+static void freenect_init_registration_table(signed int (*registration_table)[2l], struct anonymous_5 *reg_info)
 {
   double *regtable_dx;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(640 * 480) * sizeof(double) /*8ul*/ );
-  regtable_dx = (double *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(640 * 480) * sizeof(double) /*8ul*/ );
+  regtable_dx = (double *)return_value_malloc_1;
   double *regtable_dy;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(640 * 480) * sizeof(double) /*8ul*/ );
-  regtable_dy = (double *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(640 * 480) * sizeof(double) /*8ul*/ );
+  regtable_dy = (double *)return_value_malloc_2;
   memset((void *)regtable_dx, 0, (unsigned long int)(640 * 480) * sizeof(double) /*8ul*/ );
   memset((void *)regtable_dy, 0, (unsigned long int)(640 * 480) * sizeof(double) /*8ul*/ );
   signed int x;
@@ -4421,9 +4421,9 @@ static void freenect_init_registration_table(signed int (*registration_table)[2l
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 107
 signed int freenect_list_device_attributes(struct _freenect_context *ctx, struct freenect_device_attributes **attribute_list)
 {
-  signed int return_value_fnusb_list_device_attributes$1;
-  return_value_fnusb_list_device_attributes$1=fnusb_list_device_attributes(&ctx->usb, attribute_list);
-  return return_value_fnusb_list_device_attributes$1;
+  signed int return_value_fnusb_list_device_attributes_1;
+  return_value_fnusb_list_device_attributes_1=fnusb_list_device_attributes(&ctx->usb, attribute_list);
+  return return_value_fnusb_list_device_attributes_1;
 }
 
 // freenect_map_rgb_to_depth
@@ -4434,41 +4434,41 @@ void freenect_map_rgb_to_depth(struct _freenect_device *dev, unsigned short int 
   signed int x;
   signed int y;
   signed int *map;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(480 * 640) * sizeof(signed int) /*4ul*/ );
-  map = (signed int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(480 * 640) * sizeof(signed int) /*4ul*/ );
+  map = (signed int *)return_value_malloc_1;
   unsigned short int *zBuffer;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(480 * 640) * sizeof(unsigned short int) /*2ul*/ );
-  zBuffer = (unsigned short int *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(480 * 640) * sizeof(unsigned short int) /*2ul*/ );
+  zBuffer = (unsigned short int *)return_value_malloc_2;
   memset((void *)zBuffer, 0, (unsigned long int)(640 * 480) * sizeof(unsigned short int) /*2ul*/ );
   y = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   for( ; !(y >= 480); y = y + 1)
   {
     x = 0;
     for( ; !(x >= 640); x = x + 1)
     {
-      unsigned int freenect_map_rgb_to_depth$$1$$1$$1$$1$$index = (unsigned int)(y * 640 + x);
+      unsigned int freenect_map_rgb_to_depth__1__1__1__1__index = (unsigned int)(y * 640 + x);
       unsigned int cx;
       unsigned int cy;
       unsigned int cindex;
-      map[(signed long int)freenect_map_rgb_to_depth$$1$$1$$1$$1$$index] = -1;
-      signed int wz = (signed int)depth_mm[(signed long int)freenect_map_rgb_to_depth$$1$$1$$1$$1$$index];
+      map[(signed long int)freenect_map_rgb_to_depth__1__1__1__1__index] = -1;
+      signed int wz = (signed int)depth_mm[(signed long int)freenect_map_rgb_to_depth__1__1__1__1__index];
       if(!(wz == 0))
       {
-        cx = (unsigned int)((dev->registration.registration_table[(signed long int)freenect_map_rgb_to_depth$$1$$1$$1$$1$$index][(signed long int)0] + dev->registration.depth_to_rgb_shift[(signed long int)wz]) / 256);
-        cy = (unsigned int)dev->registration.registration_table[(signed long int)freenect_map_rgb_to_depth$$1$$1$$1$$1$$index][(signed long int)1] - target_offset;
+        cx = (unsigned int)((dev->registration.registration_table[(signed long int)freenect_map_rgb_to_depth__1__1__1__1__index][(signed long int)0] + dev->registration.depth_to_rgb_shift[(signed long int)wz]) / 256);
+        cy = (unsigned int)dev->registration.registration_table[(signed long int)freenect_map_rgb_to_depth__1__1__1__1__index][(signed long int)1] - target_offset;
         if(!(cx >= 640u))
         {
           cindex = cy * (unsigned int)640 + cx;
-          map[(signed long int)freenect_map_rgb_to_depth$$1$$1$$1$$1$$index] = (signed int)cindex;
+          map[(signed long int)freenect_map_rgb_to_depth__1__1__1__1__index] = (signed int)cindex;
           if((signed int)zBuffer[(signed long int)cindex] == 0)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = (signed int)zBuffer[(signed long int)cindex] > wz ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (signed int)zBuffer[(signed long int)cindex] > wz ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
             zBuffer[(signed long int)cindex] = (unsigned short int)wz;
 
         }
@@ -4484,8 +4484,8 @@ void freenect_map_rgb_to_depth(struct _freenect_device *dev, unsigned short int 
     for( ; !(x >= 640); x = x + 1)
     {
       unsigned int index = (unsigned int)(y * 640 + x);
-      unsigned int freenect_map_rgb_to_depth$$1$$2$$1$$1$$cindex = (unsigned int)map[(signed long int)index];
-      if(freenect_map_rgb_to_depth$$1$$2$$1$$1$$cindex == 4294967295u)
+      unsigned int freenect_map_rgb_to_depth__1__2__1__1__cindex = (unsigned int)map[(signed long int)index];
+      if(freenect_map_rgb_to_depth__1__2__1__1__cindex == 4294967295u)
       {
         index = index * (unsigned int)3;
         rgb_registered[(signed long int)(index + (unsigned int)0)] = (unsigned char)0;
@@ -4496,14 +4496,14 @@ void freenect_map_rgb_to_depth(struct _freenect_device *dev, unsigned short int 
       else
       {
         unsigned short int currentDepth = depth_mm[(signed long int)index];
-        unsigned short int minDepth = zBuffer[(signed long int)freenect_map_rgb_to_depth$$1$$2$$1$$1$$cindex];
+        unsigned short int minDepth = zBuffer[(signed long int)freenect_map_rgb_to_depth__1__2__1__1__cindex];
         if((signed int)minDepth >= (signed int)currentDepth)
         {
           index = index * (unsigned int)3;
-          freenect_map_rgb_to_depth$$1$$2$$1$$1$$cindex = freenect_map_rgb_to_depth$$1$$2$$1$$1$$cindex * (unsigned int)3;
-          rgb_registered[(signed long int)(index + (unsigned int)0)] = rgb_raw[(signed long int)(freenect_map_rgb_to_depth$$1$$2$$1$$1$$cindex + (unsigned int)0)];
-          rgb_registered[(signed long int)(index + (unsigned int)1)] = rgb_raw[(signed long int)(freenect_map_rgb_to_depth$$1$$2$$1$$1$$cindex + (unsigned int)1)];
-          rgb_registered[(signed long int)(index + (unsigned int)2)] = rgb_raw[(signed long int)(freenect_map_rgb_to_depth$$1$$2$$1$$1$$cindex + (unsigned int)2)];
+          freenect_map_rgb_to_depth__1__2__1__1__cindex = freenect_map_rgb_to_depth__1__2__1__1__cindex * (unsigned int)3;
+          rgb_registered[(signed long int)(index + (unsigned int)0)] = rgb_raw[(signed long int)(freenect_map_rgb_to_depth__1__2__1__1__cindex + (unsigned int)0)];
+          rgb_registered[(signed long int)(index + (unsigned int)1)] = rgb_raw[(signed long int)(freenect_map_rgb_to_depth__1__2__1__1__cindex + (unsigned int)1)];
+          rgb_registered[(signed long int)(index + (unsigned int)2)] = rgb_raw[(signed long int)(freenect_map_rgb_to_depth__1__2__1__1__cindex + (unsigned int)2)];
         }
 
       }
@@ -4517,9 +4517,9 @@ void freenect_map_rgb_to_depth(struct _freenect_device *dev, unsigned short int 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 281
 signed int freenect_num_devices(struct _freenect_context *ctx)
 {
-  signed int return_value_fnusb_num_devices$1;
-  return_value_fnusb_num_devices$1=fnusb_num_devices(&ctx->usb);
-  return return_value_fnusb_num_devices$1;
+  signed int return_value_fnusb_num_devices_1;
+  return_value_fnusb_num_devices_1=fnusb_num_devices(&ctx->usb);
+  return return_value_fnusb_num_devices_1;
 }
 
 // freenect_open_device
@@ -4528,9 +4528,9 @@ signed int freenect_open_device(struct _freenect_context *ctx, struct _freenect_
 {
   signed int res;
   struct _freenect_device *pdev;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _freenect_device) /*936ul*/ );
-  pdev = (struct _freenect_device *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _freenect_device) /*936ul*/ );
+  pdev = (struct _freenect_device *)return_value_malloc_1;
   if(pdev == ((struct _freenect_device *)NULL))
     return -1;
 
@@ -4560,9 +4560,9 @@ signed int freenect_open_device(struct _freenect_context *ctx, struct _freenect_
       *dev = pdev;
       if(!(pdev->usb_cam.dev == ((struct libusb_device_handle *)NULL)))
       {
-        signed int return_value_freenect_camera_init$2;
-        return_value_freenect_camera_init$2=freenect_camera_init(pdev);
-        if(!(return_value_freenect_camera_init$2 >= 0))
+        signed int return_value_freenect_camera_init_2;
+        return_value_freenect_camera_init_2=freenect_camera_init(pdev);
+        if(!(return_value_freenect_camera_init_2 >= 0))
           return -1;
 
       }
@@ -4580,10 +4580,10 @@ signed int freenect_open_device_by_camera_serial(struct _freenect_context *ctx, 
   struct freenect_device_attributes *item;
   signed int count;
   count=fnusb_list_device_attributes(&ctx->usb, &attrlist);
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   if(!(count >= 0))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_open_device_by_camera_serial: Couldn't enumerate serial numbers\n");
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_open_device_by_camera_serial: Couldn't enumerate serial numbers\n");
     return count;
   }
 
@@ -4593,19 +4593,19 @@ signed int freenect_open_device_by_camera_serial(struct _freenect_context *ctx, 
     item = attrlist;
     for( ; !(item == ((struct freenect_device_attributes *)NULL)); index = index + 1)
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(item->camera_serial);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(camera_serial);
-      if(return_value_strlen$3 == return_value_strlen$4)
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(item->camera_serial);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(camera_serial);
+      if(return_value_strlen_3 == return_value_strlen_4)
       {
-        return_value_strcmp$2=strcmp(item->camera_serial, camera_serial);
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(item->camera_serial, camera_serial);
+        if(return_value_strcmp_2 == 0)
         {
           freenect_free_device_attributes(attrlist);
-          signed int return_value_freenect_open_device$1;
-          return_value_freenect_open_device$1=freenect_open_device(ctx, dev, index);
-          return return_value_freenect_open_device$1;
+          signed int return_value_freenect_open_device_1;
+          return_value_freenect_open_device_1=freenect_open_device(ctx, dev, index);
+          return return_value_freenect_open_device_1;
         }
 
       }
@@ -4613,7 +4613,7 @@ signed int freenect_open_device_by_camera_serial(struct _freenect_context *ctx, 
       item = item->next;
     }
     freenect_free_device_attributes(attrlist);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_open_device_by_camera_serial: Couldn't find a device with serial %s\n", camera_serial);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_open_device_by_camera_serial: Couldn't find a device with serial %s\n", camera_serial);
     return -1;
   }
 }
@@ -4625,9 +4625,9 @@ signed int freenect_process_events(struct _freenect_context *ctx)
   struct timeval timeout;
   timeout.tv_sec = (signed long int)60;
   timeout.tv_usec = (signed long int)0;
-  signed int return_value_freenect_process_events_timeout$1;
-  return_value_freenect_process_events_timeout$1=freenect_process_events_timeout(ctx, &timeout);
-  return return_value_freenect_process_events_timeout$1;
+  signed int return_value_freenect_process_events_timeout_1;
+  return_value_freenect_process_events_timeout_1=freenect_process_events_timeout(ctx, &timeout);
+  return return_value_freenect_process_events_timeout_1;
 }
 
 // freenect_process_events_timeout
@@ -4641,7 +4641,7 @@ signed int freenect_process_events_timeout(struct _freenect_context *ctx, struct
   {
     if(!(dev->usb_cam.device_dead == 0))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "USB camera marked dead, stopping streams\n");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "USB camera marked dead, stopping streams\n");
       res = -1;
       freenect_stop_video(dev);
       freenect_stop_depth(dev);
@@ -4649,7 +4649,7 @@ signed int freenect_process_events_timeout(struct _freenect_context *ctx, struct
 
     if(!(dev->usb_audio.device_dead == 0))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "USB audio marked dead, stopping streams\n");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "USB audio marked dead, stopping streams\n");
       res = -1;
       freenect_stop_audio(dev);
     }
@@ -4660,9 +4660,9 @@ signed int freenect_process_events_timeout(struct _freenect_context *ctx, struct
 
 // freenect_raw_to_mm
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/registration.c line 297
-static unsigned short int freenect_raw_to_mm(unsigned short int raw, struct anonymous$7 *reg)
+static unsigned short int freenect_raw_to_mm(unsigned short int raw, struct anonymous_7 *reg)
 {
-  struct anonymous$2 *zpi = &reg->zero_plane_info;
+  struct anonymous_2 *zpi = &reg->zero_plane_info;
   double fixed_ref_x = ((double)raw - (parameter_coefficient * reg->const_shift) / pixel_size_factor) / parameter_coefficient - 0.375;
   double metric = fixed_ref_x * (double)zpi->reference_pixel_size * pixel_size_factor;
   return (unsigned short int)(shift_scale * ((metric * (double)zpi->reference_distance) / ((double)zpi->dcmos_emitter_dist - metric) + (double)zpi->reference_distance));
@@ -4670,9 +4670,9 @@ static unsigned short int freenect_raw_to_mm(unsigned short int raw, struct anon
 
 // freenect_select_subdevices
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 321
-void freenect_select_subdevices(struct _freenect_context *ctx, enum anonymous$29 subdevs)
+void freenect_select_subdevices(struct _freenect_context *ctx, enum anonymous_29 subdevs)
 {
-  ctx->enabled_subdevices = (enum anonymous$29)((signed int)subdevs & (FREENECT_DEVICE_MOTOR | FREENECT_DEVICE_CAMERA | FREENECT_DEVICE_AUDIO));
+  ctx->enabled_subdevices = (enum anonymous_29)((signed int)subdevs & (FREENECT_DEVICE_MOTOR | FREENECT_DEVICE_CAMERA | FREENECT_DEVICE_AUDIO));
 }
 
 // freenect_set_audio_in_callback
@@ -4684,7 +4684,7 @@ void freenect_set_audio_in_callback(struct _freenect_device *dev, void (*callbac
 
 // freenect_set_audio_out_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/audio.c line 145
-void freenect_set_audio_out_callback(struct _freenect_device *dev, void (*callback)(struct _freenect_device *, struct anonymous$10 *, signed int *))
+void freenect_set_audio_out_callback(struct _freenect_device *dev, void (*callback)(struct _freenect_device *, struct anonymous_10 *, signed int *))
 {
   dev->audio_out_cb = callback;
 }
@@ -4693,9 +4693,9 @@ void freenect_set_audio_out_callback(struct _freenect_device *dev, void (*callba
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1241
 signed int freenect_set_depth_buffer(struct _freenect_device *dev, void *buf)
 {
-  signed int return_value_stream_setbuf$1;
-  return_value_stream_setbuf$1=stream_setbuf(dev->parent, &dev->depth, buf);
-  return return_value_stream_setbuf$1;
+  signed int return_value_stream_setbuf_1;
+  return_value_stream_setbuf_1=stream_setbuf(dev->parent, &dev->depth, buf);
+  return return_value_stream_setbuf_1;
 }
 
 // freenect_set_depth_callback
@@ -4714,12 +4714,12 @@ void freenect_set_depth_chunk_callback(struct _freenect_device *dev, void (*cb)(
 
 // freenect_set_depth_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 661
-signed int freenect_set_depth_mode(struct _freenect_device *dev, const struct anonymous$17 mode)
+signed int freenect_set_depth_mode(struct _freenect_device *dev, const struct anonymous_17 mode)
 {
   struct _freenect_context *ctx = dev->parent;
   if(!(dev->depth.running == 0))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Tried to set depth mode while stream is active\n");
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Tried to set depth mode while stream is active\n");
     return -1;
   }
 
@@ -4736,14 +4736,14 @@ signed int freenect_set_depth_mode(struct _freenect_device *dev, const struct an
 
     if(found == 0)
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_set_depth_mode: freenect_frame_mode provided is invalid\n");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_set_depth_mode: freenect_frame_mode provided is invalid\n");
       return -1;
     }
 
     else
     {
-      enum anonymous$3 res = (enum anonymous$3)(mode.reserved >> 8 & (unsigned int)0xff);
-      enum anonymous$8 fmt = (enum anonymous$8)(mode.reserved & (unsigned int)0xff);
+      enum anonymous_3 res = (enum anonymous_3)(mode.reserved >> 8 & (unsigned int)0xff);
+      enum anonymous_8 fmt = (enum anonymous_8)(mode.reserved & (unsigned int)0xff);
       dev->depth_format = fmt;
       dev->depth_resolution = res;
       return 0;
@@ -4753,14 +4753,14 @@ signed int freenect_set_depth_mode(struct _freenect_device *dev, const struct an
 
 // freenect_set_flag
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/flags.c line 46
-signed int freenect_set_flag(struct _freenect_device *dev, enum anonymous$0 flag, enum anonymous$1 value)
+signed int freenect_set_flag(struct _freenect_device *dev, enum anonymous_0 flag, enum anonymous_1 value)
 {
   struct _freenect_context *ctx = dev->parent;
   if((signed int)flag == FREENECT_NEAR_MODE)
   {
     if(!(dev->usb_cam.PID == 0x02bf))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "Near mode is only supported by K4W");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "Near mode is only supported by K4W");
       return -1;
     }
 
@@ -4772,22 +4772,22 @@ signed int freenect_set_flag(struct _freenect_device *dev, enum anonymous$0 flag
         return ret;
 
       usleep((unsigned int)100000);
-      signed int return_value_write_register$1;
-      return_value_write_register$1=write_register(dev, (unsigned short int)0x02EF, (unsigned short int)0x0000);
-      return return_value_write_register$1;
+      signed int return_value_write_register_1;
+      return_value_write_register_1=write_register(dev, (unsigned short int)0x02EF, (unsigned short int)0x0000);
+      return return_value_write_register_1;
     }
 
     else
     {
-      signed int freenect_set_flag$$1$$1$$3$$ret;
-      freenect_set_flag$$1$$1$$3$$ret=write_register(dev, (unsigned short int)0x0015, (unsigned short int)0x001E);
-      if(!(freenect_set_flag$$1$$1$$3$$ret >= 0))
-        return freenect_set_flag$$1$$1$$3$$ret;
+      signed int freenect_set_flag__1__1__3__ret;
+      freenect_set_flag__1__1__3__ret=write_register(dev, (unsigned short int)0x0015, (unsigned short int)0x001E);
+      if(!(freenect_set_flag__1__1__3__ret >= 0))
+        return freenect_set_flag__1__1__3__ret;
 
       usleep((unsigned int)100000);
-      signed int return_value_write_register$2;
-      return_value_write_register$2=write_register(dev, (unsigned short int)0x02EF, (unsigned short int)0x0190);
-      return return_value_write_register$2;
+      signed int return_value_write_register_2;
+      return_value_write_register_2=write_register(dev, (unsigned short int)0x02EF, (unsigned short int)0x0190);
+      return return_value_write_register_2;
     }
   }
 
@@ -4798,9 +4798,9 @@ signed int freenect_set_flag(struct _freenect_device *dev, enum anonymous$0 flag
     if(!(reg >= 0))
       return reg;
 
-    signed int return_value_write_register$3;
-    return_value_write_register$3=write_register(dev, (unsigned short int)reg, (unsigned short int)value);
-    return return_value_write_register$3;
+    signed int return_value_write_register_3;
+    return_value_write_register_3=write_register(dev, (unsigned short int)reg, (unsigned short int)value);
+    return return_value_write_register_3;
   }
 
   unsigned short int cmos_value;
@@ -4815,9 +4815,9 @@ signed int freenect_set_flag(struct _freenect_device *dev, enum anonymous$0 flag
 
     else
       cmos_value = cmos_value & (unsigned short int)~((signed int)flag);
-    signed int return_value_write_cmos_register$4;
-    return_value_write_cmos_register$4=write_cmos_register(dev, (unsigned short int)0x0106, cmos_value);
-    return return_value_write_cmos_register$4;
+    signed int return_value_write_cmos_register_4;
+    return_value_write_cmos_register_4=write_cmos_register(dev, (unsigned short int)0x0106, cmos_value);
+    return return_value_write_cmos_register_4;
   }
 }
 
@@ -4851,21 +4851,21 @@ signed int freenect_set_ir_brightness(struct _freenect_device *dev, unsigned sho
   signed int ret;
   ret=write_register(dev, (unsigned short int)0x15, brightness);
   if(!(ret >= 0))
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "Failed to set IR brightness");
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "Failed to set IR brightness");
 
   return ret;
 }
 
 // freenect_set_led
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 547
-signed int freenect_set_led(struct _freenect_device *dev, enum anonymous$20 option)
+signed int freenect_set_led(struct _freenect_device *dev, enum anonymous_20 option)
 {
   struct _freenect_context *ctx = dev->parent;
   if(!(dev->motor_control_with_audio_enabled == 0))
   {
-    signed int return_value_freenect_set_led_alt$1;
-    return_value_freenect_set_led_alt$1=freenect_set_led_alt(dev, option);
-    return return_value_freenect_set_led_alt$1;
+    signed int return_value_freenect_set_led_alt_1;
+    return_value_freenect_set_led_alt_1=freenect_set_led_alt(dev, option);
+    return return_value_freenect_set_led_alt_1;
   }
 
   if((FREENECT_DEVICE_MOTOR & (signed int)ctx->enabled_subdevices) == 0)
@@ -4882,33 +4882,33 @@ signed int freenect_set_led(struct _freenect_device *dev, enum anonymous$20 opti
 
 // freenect_set_led_alt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/tilt.c line 290
-signed int freenect_set_led_alt(struct _freenect_device *dev, enum anonymous$20 state)
+signed int freenect_set_led_alt(struct _freenect_device *dev, enum anonymous_20 state)
 {
   struct _freenect_context *ctx = dev->parent;
   if(dev->usb_audio.dev == ((struct libusb_device_handle *)NULL))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "Motor control failed: audio device missing");
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "Motor control failed: audio device missing");
     return -1;
   }
 
   else
   {
-    signed int return_value_fnusb_set_led_alt$1;
-    return_value_fnusb_set_led_alt$1=fnusb_set_led_alt(dev->usb_audio.dev, ctx, state);
-    return return_value_fnusb_set_led_alt$1;
+    signed int return_value_fnusb_set_led_alt_1;
+    return_value_fnusb_set_led_alt_1=fnusb_set_led_alt(dev->usb_audio.dev, ctx, state);
+    return return_value_fnusb_set_led_alt_1;
   }
 }
 
 // freenect_set_log_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 257
-void freenect_set_log_callback(struct _freenect_context *ctx, void (*cb)(struct _freenect_context *, enum anonymous$9, const char *))
+void freenect_set_log_callback(struct _freenect_context *ctx, void (*cb)(struct _freenect_context *, enum anonymous_9, const char *))
 {
   ctx->log_cb = cb;
 }
 
 // freenect_set_log_level
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 241
-void freenect_set_log_level(struct _freenect_context *ctx, enum anonymous$9 level)
+void freenect_set_log_level(struct _freenect_context *ctx, enum anonymous_9 level)
 {
   ctx->log_level = level;
 }
@@ -4920,9 +4920,9 @@ signed int freenect_set_tilt_degs(struct _freenect_device *dev, double angle)
   struct _freenect_context *ctx = dev->parent;
   if(!(dev->motor_control_with_audio_enabled == 0))
   {
-    signed int return_value_freenect_set_tilt_degs_alt$1;
-    return_value_freenect_set_tilt_degs_alt$1=freenect_set_tilt_degs_alt(dev, (signed int)angle);
-    return return_value_freenect_set_tilt_degs_alt$1;
+    signed int return_value_freenect_set_tilt_degs_alt_1;
+    return_value_freenect_set_tilt_degs_alt_1=freenect_set_tilt_degs_alt(dev, (signed int)angle);
+    return return_value_freenect_set_tilt_degs_alt_1;
   }
 
   if((FREENECT_DEVICE_MOTOR & (signed int)ctx->enabled_subdevices) == 0)
@@ -4944,27 +4944,27 @@ signed int freenect_set_tilt_degs(struct _freenect_device *dev, double angle)
 signed int freenect_set_tilt_degs_alt(struct _freenect_device *dev, signed int tilt_degrees)
 {
   struct _freenect_context *ctx = dev->parent;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(tilt_degrees >= 32 || !(tilt_degrees >= -31))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "set_tilt(): degrees %d out of safe range [-31, 31]\n", tilt_degrees);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "set_tilt(): degrees %d out of safe range [-31, 31]\n", tilt_degrees);
     return -1;
   }
 
   else
     if(dev->usb_audio.dev == ((struct libusb_device_handle *)NULL))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "Motor control failed: audio device missing");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "Motor control failed: audio device missing");
       return -1;
     }
 
     else
     {
-      struct anonymous$23 cmd;
+      struct anonymous_23 cmd;
       cmd.magic = (unsigned int)0x06022009;
-      tmp_post$1 = tag_seq;
+      tmp_post_1 = tag_seq;
       tag_seq = tag_seq + 1;
-      cmd.tag = (unsigned int)tmp_post$1;
+      cmd.tag = (unsigned int)tmp_post_1;
       cmd.arg1 = (unsigned int)0;
       cmd.cmd = (unsigned int)0x803b;
       cmd.arg2 = (unsigned int)(signed int)tilt_degrees;
@@ -4975,15 +4975,15 @@ signed int freenect_set_tilt_degs_alt(struct _freenect_device *dev, signed int t
       res=libusb_bulk_transfer(dev->usb_audio.dev, (unsigned char)0x01, buffer, 20, &transferred, (unsigned int)250);
       if(!(res == 0))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_set_tilt_alt(): libusb_bulk_transfer failed: %d (transferred = %d)\n", res, transferred);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_set_tilt_alt(): libusb_bulk_transfer failed: %d (transferred = %d)\n", res, transferred);
         return res;
       }
 
       else
       {
-        signed int return_value_get_reply$2;
-        return_value_get_reply$2=get_reply(dev->usb_audio.dev, ctx);
-        return return_value_get_reply$2;
+        signed int return_value_get_reply_2;
+        return_value_get_reply_2=get_reply(dev->usb_audio.dev, ctx);
+        return return_value_get_reply_2;
       }
     }
 }
@@ -4999,9 +4999,9 @@ void freenect_set_user(struct _freenect_device *dev, void *user)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1246
 signed int freenect_set_video_buffer(struct _freenect_device *dev, void *buf)
 {
-  signed int return_value_stream_setbuf$1;
-  return_value_stream_setbuf$1=stream_setbuf(dev->parent, &dev->video, buf);
-  return return_value_stream_setbuf$1;
+  signed int return_value_stream_setbuf_1;
+  return_value_stream_setbuf_1=stream_setbuf(dev->parent, &dev->video, buf);
+  return return_value_stream_setbuf_1;
 }
 
 // freenect_set_video_callback
@@ -5020,12 +5020,12 @@ void freenect_set_video_chunk_callback(struct _freenect_device *dev, void (*cb)(
 
 // freenect_set_video_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1152
-signed int freenect_set_video_mode(struct _freenect_device *dev, const struct anonymous$17 mode)
+signed int freenect_set_video_mode(struct _freenect_device *dev, const struct anonymous_17 mode)
 {
   struct _freenect_context *ctx = dev->parent;
   if(!(dev->video.running == 0))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Tried to set video mode while stream is active\n");
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Tried to set video mode while stream is active\n");
     return -1;
   }
 
@@ -5042,14 +5042,14 @@ signed int freenect_set_video_mode(struct _freenect_device *dev, const struct an
 
     if(found == 0)
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_set_video_mode: freenect_frame_mode provided is invalid\n");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_set_video_mode: freenect_frame_mode provided is invalid\n");
       return -1;
     }
 
     else
     {
-      enum anonymous$3 res = (enum anonymous$3)(mode.reserved >> 8 & (unsigned int)0xff);
-      enum anonymous$4 fmt = (enum anonymous$4)(mode.reserved & (unsigned int)0xff);
+      enum anonymous_3 res = (enum anonymous_3)(mode.reserved >> 8 & (unsigned int)0xff);
+      enum anonymous_4 fmt = (enum anonymous_4)(mode.reserved & (unsigned int)0xff);
       dev->video_format = fmt;
       dev->video_resolution = res;
       freenect_fetch_reg_info(dev);
@@ -5064,7 +5064,7 @@ signed int freenect_shutdown(struct _freenect_context *ctx)
 {
   while(!(ctx->first == ((struct _freenect_device *)NULL)))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_NOTICE, "Device %p open during shutdown, closing...\n", ctx->first);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_NOTICE, "Device %p open during shutdown, closing...\n", ctx->first);
     freenect_close_device(ctx->first);
   }
   fnusb_shutdown(&ctx->usb);
@@ -5083,20 +5083,20 @@ signed int freenect_start_audio(struct _freenect_device *dev)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)256 * sizeof(struct anonymous$10) /*12ul*/ );
-    dev->audio.audio_out_ring = (struct anonymous$10 *)return_value_malloc$1;
-    memset((void *)dev->audio.audio_out_ring, 0, (unsigned long int)256 * sizeof(struct anonymous$10) /*12ul*/ );
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)256 * sizeof(signed short int) /*2ul*/ );
-    dev->audio.cancelled_buffer = (signed short int *)return_value_malloc$2;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)256 * sizeof(struct anonymous_10) /*12ul*/ );
+    dev->audio.audio_out_ring = (struct anonymous_10 *)return_value_malloc_1;
+    memset((void *)dev->audio.audio_out_ring, 0, (unsigned long int)256 * sizeof(struct anonymous_10) /*12ul*/ );
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)256 * sizeof(signed short int) /*2ul*/ );
+    dev->audio.cancelled_buffer = (signed short int *)return_value_malloc_2;
     memset((void *)dev->audio.cancelled_buffer, 0, (unsigned long int)256 * sizeof(signed short int) /*2ul*/ );
     signed int i = 0;
     for( ; !(i >= 4); i = i + 1)
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)256 * sizeof(signed int) /*4ul*/ );
-      dev->audio.mic_buffer[(signed long int)i] = (signed int *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)256 * sizeof(signed int) /*4ul*/ );
+      dev->audio.mic_buffer[(signed long int)i] = (signed int *)return_value_malloc_3;
       memset((void *)dev->audio.mic_buffer[(signed long int)i], 0, (unsigned long int)256 * sizeof(signed int) /*4ul*/ );
     }
     dev->audio.in_unknown=malloc((unsigned long int)48);
@@ -5115,7 +5115,7 @@ signed int freenect_start_audio(struct _freenect_device *dev)
     res=fnusb_start_iso(&dev->usb_audio, &dev->audio_in_isoc, iso_in_callback, (unsigned char)0x82, 16, 16, 524);
     if(!(res >= 0))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "audio: failed to start isochronous IN stream: %d\n", res);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "audio: failed to start isochronous IN stream: %d\n", res);
       return res;
     }
 
@@ -5124,7 +5124,7 @@ signed int freenect_start_audio(struct _freenect_device *dev)
       res=fnusb_start_iso(&dev->usb_audio, &dev->audio_out_isoc, iso_out_callback, (unsigned char)0x02, 16, 16, 76);
       if(!(res >= 0))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "audio: failed to start isochronous OUT stream: %d\n", res);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "audio: failed to start isochronous OUT stream: %d\n", res);
         return res;
       }
 
@@ -5142,11 +5142,11 @@ signed int freenect_start_audio(struct _freenect_device *dev)
 signed int freenect_start_depth(struct _freenect_device *dev)
 {
   struct _freenect_context *ctx = dev->parent;
-  struct anonymous$17 return_value_freenect_find_depth_mode$1;
-  struct anonymous$17 return_value_freenect_find_depth_mode$2;
-  struct anonymous$17 return_value_freenect_find_depth_mode$3;
-  struct anonymous$17 return_value_freenect_find_depth_mode$4;
-  struct anonymous$17 return_value_freenect_find_depth_mode$5;
+  struct anonymous_17 return_value_freenect_find_depth_mode_1;
+  struct anonymous_17 return_value_freenect_find_depth_mode_2;
+  struct anonymous_17 return_value_freenect_find_depth_mode_3;
+  struct anonymous_17 return_value_freenect_find_depth_mode_4;
+  struct anonymous_17 return_value_freenect_find_depth_mode_5;
   if(!(dev->depth.running == 0))
     return -1;
 
@@ -5163,36 +5163,36 @@ signed int freenect_start_depth(struct _freenect_device *dev)
         freenect_init_registration(dev);
       case FREENECT_DEPTH_11BIT:
       {
-        return_value_freenect_find_depth_mode$1=freenect_find_depth_mode(dev->depth_resolution, (enum anonymous$8)FREENECT_DEPTH_11BIT_PACKED);
-        return_value_freenect_find_depth_mode$2=freenect_find_depth_mode(dev->depth_resolution, (enum anonymous$8)FREENECT_DEPTH_11BIT);
-        stream_init(ctx, &dev->depth, return_value_freenect_find_depth_mode$1.bytes, return_value_freenect_find_depth_mode$2.bytes);
+        return_value_freenect_find_depth_mode_1=freenect_find_depth_mode(dev->depth_resolution, (enum anonymous_8)FREENECT_DEPTH_11BIT_PACKED);
+        return_value_freenect_find_depth_mode_2=freenect_find_depth_mode(dev->depth_resolution, (enum anonymous_8)FREENECT_DEPTH_11BIT);
+        stream_init(ctx, &dev->depth, return_value_freenect_find_depth_mode_1.bytes, return_value_freenect_find_depth_mode_2.bytes);
         break;
       }
       case FREENECT_DEPTH_10BIT:
       {
-        return_value_freenect_find_depth_mode$3=freenect_find_depth_mode(dev->depth_resolution, (enum anonymous$8)FREENECT_DEPTH_10BIT_PACKED);
-        return_value_freenect_find_depth_mode$4=freenect_find_depth_mode(dev->depth_resolution, (enum anonymous$8)FREENECT_DEPTH_10BIT);
-        stream_init(ctx, &dev->depth, return_value_freenect_find_depth_mode$3.bytes, return_value_freenect_find_depth_mode$4.bytes);
+        return_value_freenect_find_depth_mode_3=freenect_find_depth_mode(dev->depth_resolution, (enum anonymous_8)FREENECT_DEPTH_10BIT_PACKED);
+        return_value_freenect_find_depth_mode_4=freenect_find_depth_mode(dev->depth_resolution, (enum anonymous_8)FREENECT_DEPTH_10BIT);
+        stream_init(ctx, &dev->depth, return_value_freenect_find_depth_mode_3.bytes, return_value_freenect_find_depth_mode_4.bytes);
         break;
       }
       case FREENECT_DEPTH_11BIT_PACKED:
 
       case FREENECT_DEPTH_10BIT_PACKED:
       {
-        return_value_freenect_find_depth_mode$5=freenect_find_depth_mode(dev->depth_resolution, dev->depth_format);
-        stream_init(ctx, &dev->depth, 0, return_value_freenect_find_depth_mode$5.bytes);
+        return_value_freenect_find_depth_mode_5=freenect_find_depth_mode(dev->depth_resolution, dev->depth_format);
+        stream_init(ctx, &dev->depth, 0, return_value_freenect_find_depth_mode_5.bytes);
         break;
       }
       default:
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_start_depth() called with invalid depth format %d\n", dev->depth_format);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_start_depth() called with invalid depth format %d\n", dev->depth_format);
         return -1;
       }
     }
     const unsigned char depth_endpoint = (const unsigned char)0x82;
     signed int packet_size;
     packet_size=fnusb_get_max_iso_packet_size(&dev->usb_cam, depth_endpoint, 1920);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "[Stream 70] Negotiated packet size %d\n", packet_size);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "[Stream 70] Negotiated packet size %d\n", packet_size);
     signed int res;
     res=fnusb_start_iso(&dev->usb_cam, &dev->depth_isoc, depth_process, depth_endpoint, 16, 16, packet_size);
     if(!(res >= 0))
@@ -5243,10 +5243,10 @@ signed int freenect_start_depth(struct _freenect_device *dev)
 signed int freenect_start_video(struct _freenect_device *dev)
 {
   struct _freenect_context *ctx = dev->parent;
-  struct anonymous$17 return_value_freenect_find_video_mode$1;
-  struct anonymous$17 return_value_freenect_find_video_mode$2;
-  struct anonymous$17 return_value_freenect_find_video_mode$3;
-  struct anonymous$17 return_value_freenect_find_video_mode$4;
+  struct anonymous_17 return_value_freenect_find_video_mode_1;
+  struct anonymous_17 return_value_freenect_find_video_mode_2;
+  struct anonymous_17 return_value_freenect_find_video_mode_3;
+  struct anonymous_17 return_value_freenect_find_video_mode_4;
   if(!(dev->video.running == 0))
     return -1;
 
@@ -5285,7 +5285,7 @@ signed int freenect_start_video(struct _freenect_device *dev)
 
           else
           {
-            fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_start_video(): called with invalid format/resolution combination\n");
+            fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_start_video(): called with invalid format/resolution combination\n");
             return -1;
           }
         mode_reg = (unsigned short int)0x0c;
@@ -5304,7 +5304,7 @@ signed int freenect_start_video(struct _freenect_device *dev)
         {
           if(!(dev->depth.running == 0))
           {
-            fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_start_video(): cannot stream high-resolution IR at same time as depth stream\n");
+            fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_start_video(): cannot stream high-resolution IR at same time as depth stream\n");
             return -1;
           }
 
@@ -5327,7 +5327,7 @@ signed int freenect_start_video(struct _freenect_device *dev)
 
           else
           {
-            fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_start_video(): called with invalid format/resolution combination\n");
+            fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_start_video(): called with invalid format/resolution combination\n");
             return -1;
           }
         mode_reg = (unsigned short int)0x19;
@@ -5349,7 +5349,7 @@ signed int freenect_start_video(struct _freenect_device *dev)
 
         else
         {
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_start_video(): called with invalid format/resolution combination\n");
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_start_video(): called with invalid format/resolution combination\n");
           return -1;
         }
         mode_reg = (unsigned short int)0x0c;
@@ -5360,18 +5360,18 @@ signed int freenect_start_video(struct _freenect_device *dev)
       }
       default:
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "freenect_start_video(): called with invalid video format %d\n", dev->video_format);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "freenect_start_video(): called with invalid video format %d\n", dev->video_format);
         return -1;
       }
     }
-    struct anonymous$17 frame_mode;
+    struct anonymous_17 frame_mode;
     frame_mode=freenect_get_current_video_mode(dev);
     switch((signed int)dev->video_format)
     {
       case FREENECT_VIDEO_RGB:
       {
-        return_value_freenect_find_video_mode$1=freenect_find_video_mode(dev->video_resolution, (enum anonymous$4)FREENECT_VIDEO_BAYER);
-        stream_init(ctx, &dev->video, return_value_freenect_find_video_mode$1.bytes, frame_mode.bytes);
+        return_value_freenect_find_video_mode_1=freenect_find_video_mode(dev->video_resolution, (enum anonymous_4)FREENECT_VIDEO_BAYER);
+        stream_init(ctx, &dev->video, return_value_freenect_find_video_mode_1.bytes, frame_mode.bytes);
         break;
       }
       case FREENECT_VIDEO_BAYER:
@@ -5381,14 +5381,14 @@ signed int freenect_start_video(struct _freenect_device *dev)
       }
       case FREENECT_VIDEO_IR_8BIT:
       {
-        return_value_freenect_find_video_mode$2=freenect_find_video_mode(dev->video_resolution, (enum anonymous$4)FREENECT_VIDEO_IR_10BIT_PACKED);
-        stream_init(ctx, &dev->video, return_value_freenect_find_video_mode$2.bytes, frame_mode.bytes);
+        return_value_freenect_find_video_mode_2=freenect_find_video_mode(dev->video_resolution, (enum anonymous_4)FREENECT_VIDEO_IR_10BIT_PACKED);
+        stream_init(ctx, &dev->video, return_value_freenect_find_video_mode_2.bytes, frame_mode.bytes);
         break;
       }
       case FREENECT_VIDEO_IR_10BIT:
       {
-        return_value_freenect_find_video_mode$3=freenect_find_video_mode(dev->video_resolution, (enum anonymous$4)FREENECT_VIDEO_IR_10BIT_PACKED);
-        stream_init(ctx, &dev->video, return_value_freenect_find_video_mode$3.bytes, frame_mode.bytes);
+        return_value_freenect_find_video_mode_3=freenect_find_video_mode(dev->video_resolution, (enum anonymous_4)FREENECT_VIDEO_IR_10BIT_PACKED);
+        stream_init(ctx, &dev->video, return_value_freenect_find_video_mode_3.bytes, frame_mode.bytes);
         break;
       }
       case FREENECT_VIDEO_IR_10BIT_PACKED:
@@ -5398,8 +5398,8 @@ signed int freenect_start_video(struct _freenect_device *dev)
       }
       case FREENECT_VIDEO_YUV_RGB:
       {
-        return_value_freenect_find_video_mode$4=freenect_find_video_mode(dev->video_resolution, (enum anonymous$4)FREENECT_VIDEO_YUV_RAW);
-        stream_init(ctx, &dev->video, return_value_freenect_find_video_mode$4.bytes, frame_mode.bytes);
+        return_value_freenect_find_video_mode_4=freenect_find_video_mode(dev->video_resolution, (enum anonymous_4)FREENECT_VIDEO_YUV_RAW);
+        stream_init(ctx, &dev->video, return_value_freenect_find_video_mode_4.bytes, frame_mode.bytes);
         break;
       }
       case FREENECT_VIDEO_YUV_RAW:
@@ -5413,7 +5413,7 @@ signed int freenect_start_video(struct _freenect_device *dev)
     const unsigned char video_endpoint = (const unsigned char)0x81;
     signed int packet_size;
     packet_size=fnusb_get_max_iso_packet_size(&dev->usb_cam, video_endpoint, 1920);
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "[Stream 80] Negotiated packet size %d\n", packet_size);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "[Stream 80] Negotiated packet size %d\n", packet_size);
     signed int res;
     res=fnusb_start_iso(&dev->usb_cam, &dev->video_isoc, video_process, video_endpoint, 16, 16, packet_size);
     if(!(res >= 0))
@@ -5478,7 +5478,7 @@ signed int freenect_stop_audio(struct _freenect_device *dev)
     res=fnusb_stop_iso(&dev->usb_audio, &dev->audio_in_isoc);
     if(!(res >= 0))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "audio: failed to stop isochronous IN stream: %d\n", res);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "audio: failed to stop isochronous IN stream: %d\n", res);
       return res;
     }
 
@@ -5487,13 +5487,13 @@ signed int freenect_stop_audio(struct _freenect_device *dev)
       res=fnusb_stop_iso(&dev->usb_audio, &dev->audio_out_isoc);
       if(!(res >= 0))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "audio: failed to stop isochronous OUT stream: %d\n", res);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "audio: failed to stop isochronous OUT stream: %d\n", res);
         return res;
       }
 
       else
       {
-        if(!(dev->audio.audio_out_ring == ((struct anonymous$10 *)NULL)))
+        if(!(dev->audio.audio_out_ring == ((struct anonymous_10 *)NULL)))
           free((void *)dev->audio.audio_out_ring);
 
         if(!(dev->audio.cancelled_buffer == ((signed short int *)NULL)))
@@ -5510,7 +5510,7 @@ signed int freenect_stop_audio(struct _freenect_device *dev)
 
           dev->audio.mic_buffer[(signed long int)i] = (signed int *)(void *)0;
         }
-        dev->audio.audio_out_ring = (struct anonymous$10 *)(void *)0;
+        dev->audio.audio_out_ring = (struct anonymous_10 *)(void *)0;
         dev->audio.cancelled_buffer = (signed short int *)(void *)0;
         dev->audio.in_unknown = (void *)0;
         return ret;
@@ -5535,7 +5535,7 @@ signed int freenect_stop_depth(struct _freenect_device *dev)
     res=fnusb_stop_iso(&dev->usb_cam, &dev->depth_isoc);
     if(!(res >= 0))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Failed to stop depth isochronous stream: %d\n", res);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Failed to stop depth isochronous stream: %d\n", res);
       return res;
     }
 
@@ -5564,7 +5564,7 @@ signed int freenect_stop_video(struct _freenect_device *dev)
     res=fnusb_stop_iso(&dev->usb_cam, &dev->video_isoc);
     if(!(res >= 0))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Failed to stop RGB isochronous stream: %d\n", res);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Failed to stop RGB isochronous stream: %d\n", res);
       return res;
     }
 
@@ -5589,28 +5589,28 @@ void * freenect_threadfunc(void *arg)
 {
   signed int accelCount = 0;
   freenect_set_tilt_degs(f_dev, (double)freenect_angle);
-  freenect_set_led(f_dev, (enum anonymous$20)LED_RED);
+  freenect_set_led(f_dev, (enum anonymous_20)LED_RED);
   freenect_set_depth_callback(f_dev, depth_cb);
-  struct anonymous$17 return_value_freenect_find_depth_mode$1;
-  return_value_freenect_find_depth_mode$1=freenect_find_depth_mode((enum anonymous$3)FREENECT_RESOLUTION_MEDIUM, (enum anonymous$8)FREENECT_DEPTH_11BIT_PACKED);
-  freenect_set_depth_mode(f_dev, return_value_freenect_find_depth_mode$1);
+  struct anonymous_17 return_value_freenect_find_depth_mode_1;
+  return_value_freenect_find_depth_mode_1=freenect_find_depth_mode((enum anonymous_3)FREENECT_RESOLUTION_MEDIUM, (enum anonymous_8)FREENECT_DEPTH_11BIT_PACKED);
+  freenect_set_depth_mode(f_dev, return_value_freenect_find_depth_mode_1);
   freenect_set_depth_chunk_callback(f_dev, chunk_cb);
   freenect_start_depth(f_dev);
   printf("'w'-tilt up, 's'-level, 'x'-tilt down, '0'-'6'-select LED mode\n");
-  signed int return_value_freenect_process_events$2;
-  signed int tmp_post$3;
+  signed int return_value_freenect_process_events_2;
+  signed int tmp_post_3;
   while(die == 0)
   {
-    return_value_freenect_process_events$2=freenect_process_events(f_ctx);
-    if(!(return_value_freenect_process_events$2 >= 0))
+    return_value_freenect_process_events_2=freenect_process_events(f_ctx);
+    if(!(return_value_freenect_process_events_2 >= 0))
       break;
 
-    tmp_post$3 = accelCount;
+    tmp_post_3 = accelCount;
     accelCount = accelCount + 1;
-    if(tmp_post$3 >= 2000)
+    if(tmp_post_3 >= 2000)
     {
       accelCount = 0;
-      struct anonymous$30 *state;
+      struct anonymous_30 *state;
       freenect_update_tilt_state(f_dev);
       state=freenect_get_tilt_state(f_dev);
       double dx;
@@ -5637,9 +5637,9 @@ signed int freenect_update_tilt_state(struct _freenect_device *dev)
   struct _freenect_context *ctx = dev->parent;
   if(!(dev->motor_control_with_audio_enabled == 0))
   {
-    signed int return_value_update_tilt_state_alt$1;
-    return_value_update_tilt_state_alt$1=update_tilt_state_alt(dev);
-    return return_value_update_tilt_state_alt$1;
+    signed int return_value_update_tilt_state_alt_1;
+    return_value_update_tilt_state_alt_1=update_tilt_state_alt(dev);
+    return return_value_update_tilt_state_alt_1;
   }
 
   if((FREENECT_DEVICE_MOTOR & (signed int)ctx->enabled_subdevices) == 0)
@@ -5655,7 +5655,7 @@ signed int freenect_update_tilt_state(struct _freenect_device *dev)
     ret=fnusb_control(&dev->usb_motor, (unsigned char)0xC0, (unsigned char)0x32, (unsigned short int)0x0, (unsigned short int)0x0, buf, (unsigned short int)10);
     if(!(ret == 10))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Error in accelerometer reading, libusb_control_transfer returned %d\n", ret);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Error in accelerometer reading, libusb_control_transfer returned %d\n", ret);
       return ret < 0 ? ret : -1;
     }
 
@@ -5668,7 +5668,7 @@ signed int freenect_update_tilt_state(struct _freenect_device *dev)
       dev->raw_state.accelerometer_y = (signed short int)uy;
       dev->raw_state.accelerometer_z = (signed short int)uz;
       dev->raw_state.tilt_angle = (signed char)buf[(signed long int)8];
-      dev->raw_state.tilt_status = (enum anonymous$31)buf[(signed long int)9];
+      dev->raw_state.tilt_status = (enum anonymous_31)buf[(signed long int)9];
       return ret;
     }
   }
@@ -5684,25 +5684,25 @@ signed int get_reply(struct libusb_device_handle *dev, struct _freenect_context 
   signed int res = 0;
   res=libusb_bulk_transfer(dev, (unsigned char)0x81, buffer, 512, &transferred, (unsigned int)100);
   if(!(res == 0))
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "get_reply(): libusb_bulk_transfer failed: %d (transferred = %d)\n", res, transferred);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "get_reply(): libusb_bulk_transfer failed: %d (transferred = %d)\n", res, transferred);
 
   else
     if(!(transferred == 12))
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "get_reply(): weird - got %d bytes (expected 12)\n", transferred);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "get_reply(): weird - got %d bytes (expected 12)\n", transferred);
 
     else
     {
-      struct anonymous$21 reply;
-      memcpy((void *)&reply, (const void *)buffer, sizeof(struct anonymous$21) /*12ul*/ );
+      struct anonymous_21 reply;
+      memcpy((void *)&reply, (const void *)buffer, sizeof(struct anonymous_21) /*12ul*/ );
       if(!(reply.magic == 175104000u))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Bad magic: %08X (expected 0A6FE000\n", reply.magic);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Bad magic: %08X (expected 0A6FE000\n", reply.magic);
         res = -1;
       }
 
       if(!(reply.status == 0u))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "reply status != 0: failure?\n");
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "reply status != 0: failure?\n");
         res = -1;
       }
 
@@ -5711,49 +5711,49 @@ signed int get_reply(struct libusb_device_handle *dev, struct _freenect_context 
   return res;
 }
 
-// get_reply$link1
+// get_reply_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.c line 50
-static signed int get_reply$link1(struct anonymous$19 *dev$link1)
+static signed int get_reply_link1(struct anonymous_19 *dev_link1)
 {
-  struct _freenect_context *ctx = dev$link1->parent->parent;
+  struct _freenect_context *ctx = dev_link1->parent->parent;
   unsigned char dump[512l];
-  struct anonymous$21 buffer$link1;
-  signed int res$link1;
-  signed int transferred$link1;
-  res$link1=fnusb_bulk(dev$link1, (unsigned char)0x81, dump, 512, &transferred$link1);
-  if(!(res$link1 == 0) || !((unsigned long int)transferred$link1 == sizeof(struct anonymous$21) /*12ul*/ ))
+  struct anonymous_21 buffer_link1;
+  signed int res_link1;
+  signed int transferred_link1;
+  res_link1=fnusb_bulk(dev_link1, (unsigned char)0x81, dump, 512, &transferred_link1);
+  if(!(res_link1 == 0) || !((unsigned long int)transferred_link1 == sizeof(struct anonymous_21) /*12ul*/ ))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Error reading reply: %d\ttransferred: %d (expected %d)\n", res$link1, transferred$link1, (signed int)sizeof(struct anonymous$21) /*12ul*/ );
-    return res$link1;
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Error reading reply: %d\ttransferred: %d (expected %d)\n", res_link1, transferred_link1, (signed int)sizeof(struct anonymous_21) /*12ul*/ );
+    return res_link1;
   }
 
   else
   {
-    memcpy((void *)&buffer$link1, (const void *)dump, sizeof(struct anonymous$21) /*12ul*/ );
-    if(!(buffer$link1.magic == 175104000u))
+    memcpy((void *)&buffer_link1, (const void *)dump, sizeof(struct anonymous_21) /*12ul*/ );
+    if(!(buffer_link1.magic == 175104000u))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Error reading reply: invalid magic %08X\n", buffer$link1.magic);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Error reading reply: invalid magic %08X\n", buffer_link1.magic);
       return -1;
     }
 
     else
-      if(!(buffer$link1.tag == dev$link1->parent->audio_tag))
+      if(!(buffer_link1.tag == dev_link1->parent->audio_tag))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Error reading reply: non-matching tag number %08X (expected %08X)\n", buffer$link1.tag, dev$link1->parent->audio_tag);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Error reading reply: non-matching tag number %08X (expected %08X)\n", buffer_link1.tag, dev_link1->parent->audio_tag);
         return -1;
       }
 
       else
       {
-        if(!(buffer$link1.status == 0u))
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Notice reading reply: last uint32_t was nonzero: %d\n", buffer$link1.status);
+        if(!(buffer_link1.status == 0u))
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Notice reading reply: last uint32_t was nonzero: %d\n", buffer_link1.status);
 
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "Reading reply: ");
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "Reading reply: ");
         signed int i = 0;
-        for( ; !(i >= transferred$link1); i = i + 1)
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "%02X ", ((unsigned char *)&buffer$link1)[(signed long int)i]);
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "\n");
-        return res$link1;
+        for( ; !(i >= transferred_link1); i = i + 1)
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "%02X ", ((unsigned char *)&buffer_link1)[(signed long int)i]);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "\n");
+        return res_link1;
       }
   }
 }
@@ -5782,15 +5782,15 @@ void * gl_threadfunc(void *arg)
 static void iso_callback(struct libusb_transfer *xfer)
 {
   signed int i;
-  struct anonymous$18 *strm = (struct anonymous$18 *)xfer->user_data;
+  struct anonymous_18 *strm = (struct anonymous_18 *)xfer->user_data;
   struct _freenect_context *ctx = strm->parent->parent->parent;
   unsigned char *buf;
   signed int res;
-  signed int iso_callback$$1$$2$$4$$res;
+  signed int iso_callback__1__2__4__res;
   if(!(strm->dead == 0))
   {
     strm->dead_xfers = strm->dead_xfers + 1;
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "EP %02x transfer complete, %d left\n", xfer->endpoint, strm->num_xfers - strm->dead_xfers);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "EP %02x transfer complete, %d left\n", xfer->endpoint, strm->num_xfers - strm->dead_xfers);
   }
 
   else
@@ -5810,7 +5810,7 @@ static void iso_callback(struct libusb_transfer *xfer)
         res=libusb_submit_transfer(xfer);
         if(!(res == 0))
         {
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "iso_callback(): failed to resubmit transfer after successful completion: %d\n", res);
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "iso_callback(): failed to resubmit transfer after successful completion: %d\n", res);
           strm->dead_xfers = strm->dead_xfers + 1;
           if(res == -4)
             strm->parent->device_dead = 1;
@@ -5822,7 +5822,7 @@ static void iso_callback(struct libusb_transfer *xfer)
       case LIBUSB_TRANSFER_NO_DEVICE:
       {
         if(strm->parent->device_dead == 0)
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "USB device disappeared, cancelling stream %02x :(\n", xfer->endpoint);
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "USB device disappeared, cancelling stream %02x :(\n", xfer->endpoint);
 
         strm->dead_xfers = strm->dead_xfers + 1;
         strm->parent->device_dead = 1;
@@ -5831,12 +5831,12 @@ static void iso_callback(struct libusb_transfer *xfer)
       case LIBUSB_TRANSFER_CANCELLED:
       {
         if(!(strm->dead == 0))
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "EP %02x transfer cancelled\n", xfer->endpoint);
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "EP %02x transfer cancelled\n", xfer->endpoint);
 
         else
         {
           if(strm->parent->device_dead == 0)
-            fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Got cancelled transfer, but we didn't request it - device disconnected?\n");
+            fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Got cancelled transfer, but we didn't request it - device disconnected?\n");
 
           strm->parent->device_dead = 1;
         }
@@ -5845,13 +5845,13 @@ static void iso_callback(struct libusb_transfer *xfer)
       }
       default:
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "Isochronous transfer error: %d\n", xfer->status);
-        iso_callback$$1$$2$$4$$res=libusb_submit_transfer(xfer);
-        if(!(iso_callback$$1$$2$$4$$res == 0))
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "Isochronous transfer error: %d\n", xfer->status);
+        iso_callback__1__2__4__res=libusb_submit_transfer(xfer);
+        if(!(iso_callback__1__2__4__res == 0))
         {
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Isochronous transfer resubmission failed after unknown error: %d\n", iso_callback$$1$$2$$4$$res);
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Isochronous transfer resubmission failed after unknown error: %d\n", iso_callback__1__2__4__res);
           strm->dead_xfers = strm->dead_xfers + 1;
-          if(iso_callback$$1$$2$$4$$res == -4)
+          if(iso_callback__1__2__4__res == -4)
             strm->parent->device_dead = 1;
 
         }
@@ -5867,26 +5867,26 @@ static void iso_in_callback(struct _freenect_device *dev, unsigned char *pkt, si
   struct _freenect_context *ctx = dev->parent;
   if(len == 524)
   {
-    struct anonymous$25 *block = (struct anonymous$25 *)pkt;
+    struct anonymous_25 *block = (struct anonymous_25 *)pkt;
     if(!(block->magic == 0x80000080))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "audio: invalid magic in iso IN packet: %08X\n", block->magic);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "audio: invalid magic in iso IN packet: %08X\n", block->magic);
       goto __CPROVER_DUMP_L16;
     }
 
     if(!(block->window == dev->audio.in_window))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "audio: IN window changed: was %04X now %04X\n", dev->audio.in_window, block->window);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "audio: IN window changed: was %04X now %04X\n", dev->audio.in_window, block->window);
       if(!(dev->audio_in_cb == ((void (*)(struct _freenect_device *, signed int, signed int *, signed int *, signed int *, signed int *, signed short int *, void *))NULL)))
         dev->audio_in_cb(dev, 256, dev->audio.mic_buffer[(signed long int)0], dev->audio.mic_buffer[(signed long int)1], dev->audio.mic_buffer[(signed long int)2], dev->audio.mic_buffer[(signed long int)3], dev->audio.cancelled_buffer, dev->audio.in_unknown);
 
       signed int t = 0;
       for( ; !(t >= 10); t = t + 1)
         if(!(dev->audio.last_seen_window[(signed long int)t] == dev->audio.in_window))
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "audio: did not receive data for channel 0x%02x\n", t + 1);
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "audio: did not receive data for channel 0x%02x\n", t + 1);
 
       if((signed int)block->window + -((signed int)dev->audio.in_window) >= 4)
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "audio: packet loss, dropped %d windows\n", (((signed int)block->window - (signed int)dev->audio.in_window) - 3) / 3);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "audio: packet loss, dropped %d windows\n", (((signed int)block->window - (signed int)dev->audio.in_window) - 3) / 3);
 
       dev->audio.in_window = block->window;
     }
@@ -5922,7 +5922,7 @@ static void iso_in_callback(struct _freenect_device *dev, unsigned char *pkt, si
         break;
       }
       default:
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "audio: invalid channel in iso IN packet: %d\n", block->channel);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "audio: invalid channel in iso IN packet: %d\n", block->channel);
     }
     dev->audio.last_seen_window[(signed long int)((signed int)block->channel - 1)] = block->window;
   }
@@ -5931,7 +5931,7 @@ static void iso_in_callback(struct _freenect_device *dev, unsigned char *pkt, si
     if(!(len == 60))
     {
       if(!(len == 0))
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "audio: received an iso IN packet of strange length: %d\n", len);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "audio: received an iso IN packet of strange length: %d\n", len);
 
     }
 
@@ -5981,25 +5981,25 @@ void keyPressed(unsigned char key, signed int x, signed int y)
   }
 
   if((signed int)key == 49)
-    freenect_set_led(f_dev, (enum anonymous$20)LED_GREEN);
+    freenect_set_led(f_dev, (enum anonymous_20)LED_GREEN);
 
   if((signed int)key == 50)
-    freenect_set_led(f_dev, (enum anonymous$20)LED_RED);
+    freenect_set_led(f_dev, (enum anonymous_20)LED_RED);
 
   if((signed int)key == 51)
-    freenect_set_led(f_dev, (enum anonymous$20)LED_YELLOW);
+    freenect_set_led(f_dev, (enum anonymous_20)LED_YELLOW);
 
   if((signed int)key == 52)
-    freenect_set_led(f_dev, (enum anonymous$20)LED_BLINK_GREEN);
+    freenect_set_led(f_dev, (enum anonymous_20)LED_BLINK_GREEN);
 
   if((signed int)key == 53)
-    freenect_set_led(f_dev, (enum anonymous$20)LED_BLINK_GREEN);
+    freenect_set_led(f_dev, (enum anonymous_20)LED_BLINK_GREEN);
 
   if((signed int)key == 54)
-    freenect_set_led(f_dev, (enum anonymous$20)LED_BLINK_RED_YELLOW);
+    freenect_set_led(f_dev, (enum anonymous_20)LED_BLINK_RED_YELLOW);
 
   if((signed int)key == 48)
-    freenect_set_led(f_dev, (enum anonymous$20)LED_OFF);
+    freenect_set_led(f_dev, (enum anonymous_20)LED_OFF);
 
   freenect_set_tilt_degs(f_dev, (double)freenect_angle);
 }
@@ -6033,27 +6033,27 @@ static inline void libusb_set_iso_packet_lengths(struct libusb_transfer *transfe
 signed int main(signed int argc, char **argv)
 {
   signed int res;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(320 * 240 * 3));
-  depth_mid = (unsigned char *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(320 * 240 * 3));
-  depth_front = (unsigned char *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(320 * 240 * 3));
+  depth_mid = (unsigned char *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(320 * 240 * 3));
+  depth_front = (unsigned char *)return_value_malloc_2;
   printf("Kinect camera test\n");
   signed int i = 0;
   for( ; !(i >= 2048); i = i + 1)
   {
     float v = (float)((double)i / 2048.0);
-    float return_value_powf$3;
-    return_value_powf$3=powf(v, (float)3);
-    v = return_value_powf$3 * (float)6;
+    float return_value_powf_3;
+    return_value_powf_3=powf(v, (float)3);
+    v = return_value_powf_3 * (float)6;
     t_gamma[(signed long int)i] = (unsigned short int)(v * (float)6 * (float)256);
   }
   g_argc = argc;
   g_argv = argv;
-  signed int return_value_freenect_init$4;
-  return_value_freenect_init$4=freenect_init(&f_ctx, (void *)0);
-  if(!(return_value_freenect_init$4 >= 0))
+  signed int return_value_freenect_init_4;
+  return_value_freenect_init_4=freenect_init(&f_ctx, (void *)0);
+  if(!(return_value_freenect_init_4 >= 0))
   {
     printf("freenect_init() failed\n");
     return 1;
@@ -6061,8 +6061,8 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    freenect_set_log_level(f_ctx, (enum anonymous$9)FREENECT_LOG_DEBUG);
-    freenect_select_subdevices(f_ctx, (enum anonymous$29)(FREENECT_DEVICE_MOTOR | FREENECT_DEVICE_CAMERA));
+    freenect_set_log_level(f_ctx, (enum anonymous_9)FREENECT_LOG_DEBUG);
+    freenect_select_subdevices(f_ctx, (enum anonymous_29)(FREENECT_DEVICE_MOTOR | FREENECT_DEVICE_CAMERA));
     signed int nr_devices;
     nr_devices=freenect_num_devices(f_ctx);
     printf("Number of devices found: %d\n", nr_devices);
@@ -6078,9 +6078,9 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      signed int return_value_freenect_open_device$5;
-      return_value_freenect_open_device$5=freenect_open_device(f_ctx, &f_dev, user_device_number);
-      if(!(return_value_freenect_open_device$5 >= 0))
+      signed int return_value_freenect_open_device_5;
+      return_value_freenect_open_device_5=freenect_open_device(f_ctx, &f_dev, user_device_number);
+      if(!(return_value_freenect_open_device_5 >= 0))
       {
         printf("Could not open device\n");
         freenect_shutdown(f_ctx);
@@ -6111,8 +6111,8 @@ signed int main(signed int argc, char **argv)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/audio.c line 34
 static void prepare_iso_out_data(struct _freenect_device *dev, unsigned char *buffer)
 {
-  struct anonymous$11 *stream = &dev->audio;
-  if(dev->audio_out_cb == ((void (*)(struct _freenect_device *, struct anonymous$10 *, signed int *))NULL))
+  struct anonymous_11 *stream = &dev->audio;
+  if(dev->audio_out_cb == ((void (*)(struct _freenect_device *, struct anonymous_10 *, signed int *))NULL))
     memset((void *)buffer, 0, (unsigned long int)76);
 
   ((unsigned short int *)buffer)[(signed long int)0] = stream->out_window;
@@ -6172,13 +6172,13 @@ unsigned short int read_cmos_register(struct _freenect_device *dev, unsigned sho
   res=send_cmd(dev, (unsigned short int)0x95, (void *)cmdbuf, (unsigned int)6, (void *)replybuf, 6);
   if(!(res >= 0))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "read_cmos_register: send_cmd() returned %d\n", res);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "read_cmos_register: send_cmd() returned %d\n", res);
     return (unsigned short int)65535;
   }
 
   else
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_DEBUG, "read_cmos_register: 0x%04x => 0x%04x\n", reg, replybuf[(signed long int)2]);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_DEBUG, "read_cmos_register: 0x%04x => 0x%04x\n", reg, replybuf[(signed long int)2]);
     return replybuf[(signed long int)2];
   }
 }
@@ -6194,16 +6194,16 @@ unsigned short int read_register(struct _freenect_device *dev, unsigned short in
   res=send_cmd(dev, (unsigned short int)0x02, (void *)&cmd, (unsigned int)2, (void *)reply, 4);
   if(!(res >= 0))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "read_register: send_cmd() failed: %d\n", res);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "read_register: send_cmd() failed: %d\n", res);
     return (unsigned short int)65535;
   }
 
   else
   {
     if(!(res == 4))
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "read_register: send_cmd() returned %d [%04x %04x], 0000 expected\n", res, reply[(signed long int)0], reply[(signed long int)1]);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "read_register: send_cmd() returned %d [%04x %04x], 0000 expected\n", res, reply[(signed long int)0], reply[(signed long int)1]);
 
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_DEBUG, "read_register: 0x%04x => 0x%04x\n", reg, reply[(signed long int)1]);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_DEBUG, "read_register: 0x%04x => 0x%04x\n", reg, reply[(signed long int)1]);
     return reply[(signed long int)1];
   }
 }
@@ -6232,12 +6232,12 @@ signed int send_cmd(struct _freenect_device *dev, unsigned short int cmd, void *
   signed int actual_len;
   unsigned char obuf[1024l];
   unsigned char ibuf[512l];
-  struct anonymous$14 *chdr = (struct anonymous$14 *)obuf;
-  struct anonymous$14 *rhdr = (struct anonymous$14 *)ibuf;
-  _Bool tmp_if_expr$1;
+  struct anonymous_14 *chdr = (struct anonymous_14 *)obuf;
+  struct anonymous_14 *rhdr = (struct anonymous_14 *)ibuf;
+  _Bool tmp_if_expr_1;
   if((unsigned long int)cmd_len >= 1017ul || !((1u & cmd_len) == 0u))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "send_cmd: Invalid command length (0x%x)\n", cmd_len);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "send_cmd: Invalid command length (0x%x)\n", cmd_len);
     return -1;
   }
 
@@ -6248,12 +6248,12 @@ signed int send_cmd(struct _freenect_device *dev, unsigned short int cmd, void *
     chdr->cmd = cmd;
     chdr->tag = dev->cam_tag;
     chdr->len = (unsigned short int)(cmd_len / (unsigned int)2);
-    memcpy((void *)(obuf + (signed long int)sizeof(struct anonymous$14) /*8ul*/ ), cmdbuf, (unsigned long int)cmd_len);
-    res=fnusb_control(&dev->usb_cam, (unsigned char)0x40, (unsigned char)0, (unsigned short int)0, (unsigned short int)0, obuf, (unsigned short int)((unsigned long int)cmd_len + sizeof(struct anonymous$14) /*8ul*/ ));
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "send_cmd: cmd=%04x tag=%04x len=%04x: %d\n", cmd, dev->cam_tag, cmd_len, res);
+    memcpy((void *)(obuf + (signed long int)sizeof(struct anonymous_14) /*8ul*/ ), cmdbuf, (unsigned long int)cmd_len);
+    res=fnusb_control(&dev->usb_cam, (unsigned char)0x40, (unsigned char)0, (unsigned short int)0, (unsigned short int)0, obuf, (unsigned short int)((unsigned long int)cmd_len + sizeof(struct anonymous_14) /*8ul*/ ));
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "send_cmd: cmd=%04x tag=%04x len=%04x: %d\n", cmd, dev->cam_tag, cmd_len, res);
     if(!(res >= 0))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "send_cmd: Output control transfer failed (%d)\n", res);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "send_cmd: Output control transfer failed (%d)\n", res);
       return res;
     }
 
@@ -6262,48 +6262,48 @@ signed int send_cmd(struct _freenect_device *dev, unsigned short int cmd, void *
       do
       {
         actual_len=fnusb_control(&dev->usb_cam, (unsigned char)0xc0, (unsigned char)0, (unsigned short int)0, (unsigned short int)0, ibuf, (unsigned short int)0x200);
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_FLOOD, "send_cmd: actual length = %d\n", actual_len);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_FLOOD, "send_cmd: actual length = %d\n", actual_len);
       }
       while(actual_len == 0 || actual_len == 0x200);
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Control reply: %d\n", res);
-      if(!(actual_len >= (signed int)sizeof(struct anonymous$14) /*8*/ ))
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Control reply: %d\n", res);
+      if(!(actual_len >= (signed int)sizeof(struct anonymous_14) /*8*/ ))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "send_cmd: Input control transfer failed (%d)\n", res);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "send_cmd: Input control transfer failed (%d)\n", res);
         return res;
       }
 
       else
       {
-        actual_len = actual_len - (signed int)sizeof(struct anonymous$14) /*8ul*/ ;
+        actual_len = actual_len - (signed int)sizeof(struct anonymous_14) /*8ul*/ ;
         if(!((signed int)rhdr->magic[0l] == 0x52))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)rhdr->magic[(signed long int)1] != 0x42 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)rhdr->magic[(signed long int)1] != 0x42 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "send_cmd: Bad magic %02x %02x\n", rhdr->magic[(signed long int)0], rhdr->magic[(signed long int)1]);
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "send_cmd: Bad magic %02x %02x\n", rhdr->magic[(signed long int)0], rhdr->magic[(signed long int)1]);
           return -1;
         }
 
         else
           if(!(rhdr->cmd == chdr->cmd))
           {
-            fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "send_cmd: Bad cmd %02x != %02x\n", rhdr->cmd, chdr->cmd);
+            fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "send_cmd: Bad cmd %02x != %02x\n", rhdr->cmd, chdr->cmd);
             return -1;
           }
 
           else
             if(!(rhdr->tag == chdr->tag))
             {
-              fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "send_cmd: Bad tag %04x != %04x\n", rhdr->tag, chdr->tag);
+              fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "send_cmd: Bad tag %04x != %04x\n", rhdr->tag, chdr->tag);
               return -1;
             }
 
             else
               if(!((signed int)rhdr->len == actual_len / 2))
               {
-                fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "send_cmd: Bad len %04x != %04x\n", rhdr->len, (signed int)(actual_len / 2));
+                fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "send_cmd: Bad len %04x != %04x\n", rhdr->len, (signed int)(actual_len / 2));
                 return -1;
               }
 
@@ -6311,12 +6311,12 @@ signed int send_cmd(struct _freenect_device *dev, unsigned short int cmd, void *
               {
                 if(!(reply_len >= actual_len))
                 {
-                  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "send_cmd: Data buffer is %d bytes long, but got %d bytes\n", reply_len, actual_len);
-                  memcpy(replybuf, (const void *)(ibuf + (signed long int)sizeof(struct anonymous$14) /*8ul*/ ), (unsigned long int)reply_len);
+                  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "send_cmd: Data buffer is %d bytes long, but got %d bytes\n", reply_len, actual_len);
+                  memcpy(replybuf, (const void *)(ibuf + (signed long int)sizeof(struct anonymous_14) /*8ul*/ ), (unsigned long int)reply_len);
                 }
 
                 else
-                  memcpy(replybuf, (const void *)(ibuf + (signed long int)sizeof(struct anonymous$14) /*8ul*/ ), (unsigned long int)actual_len);
+                  memcpy(replybuf, (const void *)(ibuf + (signed long int)sizeof(struct anonymous_14) /*8ul*/ ), (unsigned long int)actual_len);
                 dev->cam_tag = dev->cam_tag + 1;
                 return actual_len;
               }
@@ -6327,7 +6327,7 @@ signed int send_cmd(struct _freenect_device *dev, unsigned short int cmd, void *
 
 // stream_freebufs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 260
-static void stream_freebufs(struct _freenect_context *ctx, struct anonymous$32 *strm)
+static void stream_freebufs(struct _freenect_context *ctx, struct anonymous_32 *strm)
 {
   if(!(strm->split_bufs == 0))
     free((void *)strm->raw_buf);
@@ -6342,7 +6342,7 @@ static void stream_freebufs(struct _freenect_context *ctx, struct anonymous$32 *
 
 // stream_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 231
-static void stream_init(struct _freenect_context *ctx, struct anonymous$32 *strm, signed int rlen, signed int plen)
+static void stream_init(struct _freenect_context *ctx, struct anonymous_32 *strm, signed int rlen, signed int plen)
 {
   strm->valid_frames = 0;
   strm->synced = 0;
@@ -6367,9 +6367,9 @@ static void stream_init(struct _freenect_context *ctx, struct anonymous$32 *strm
   else
   {
     strm->split_bufs = 1;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)rlen);
-    strm->raw_buf = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)rlen);
+    strm->raw_buf = (unsigned char *)return_value_malloc_1;
     strm->frame_size = rlen;
   }
   strm->last_pkt_size = strm->frame_size % strm->pkt_size;
@@ -6381,18 +6381,18 @@ static void stream_init(struct _freenect_context *ctx, struct anonymous$32 *strm
 
 // stream_process
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 87
-static signed int stream_process(struct _freenect_context *ctx, struct anonymous$32 *strm, unsigned char *pkt, signed int len, void (*cb)(void *, void *, signed int, signed int, void *), void *user_data)
+static signed int stream_process(struct _freenect_context *ctx, struct anonymous_32 *strm, unsigned char *pkt, signed int len, void (*cb)(void *, void *, signed int, signed int, void *), void *user_data)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
   if(!(len >= 12))
     return 0;
 
@@ -6401,22 +6401,22 @@ static signed int stream_process(struct _freenect_context *ctx, struct anonymous
     struct pkt_hdr *hdr = (struct pkt_hdr *)pkt;
     unsigned char *data = pkt + (signed long int)sizeof(struct pkt_hdr) /*12ul*/ ;
     signed int datalen = (signed int)((unsigned long int)len - sizeof(struct pkt_hdr) /*12ul*/ );
-    enum anonymous$9 l_info = (enum anonymous$9)FREENECT_LOG_INFO;
-    enum anonymous$9 l_notice = (enum anonymous$9)FREENECT_LOG_NOTICE;
-    enum anonymous$9 l_warning = (enum anonymous$9)FREENECT_LOG_WARNING;
+    enum anonymous_9 l_info = (enum anonymous_9)FREENECT_LOG_INFO;
+    enum anonymous_9 l_notice = (enum anonymous_9)FREENECT_LOG_NOTICE;
+    enum anonymous_9 l_warning = (enum anonymous_9)FREENECT_LOG_WARNING;
     if(!(strm->valid_frames >= 2))
     {
-      l_warning = (enum anonymous$9)FREENECT_LOG_SPEW;
+      l_warning = (enum anonymous_9)FREENECT_LOG_SPEW;
       l_notice = l_warning;
       l_info = l_notice;
     }
 
     if(!((signed int)hdr->magic[0l] == 82))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)hdr->magic[(signed long int)1] != 66 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)hdr->magic[(signed long int)1] != 66 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       fn_log(ctx, l_notice, "[Stream %02x] Invalid magic %02x%02x\n", strm->flag, hdr->magic[(signed long int)0], hdr->magic[(signed long int)1]);
       return 0;
@@ -6424,7 +6424,7 @@ static signed int stream_process(struct _freenect_context *ctx, struct anonymous
 
     else
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_FLOOD, "[Stream %02x] Packet with flag: %02x\n", strm->flag, hdr->flag);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_FLOOD, "[Stream %02x] Packet with flag: %02x\n", strm->flag, hdr->flag);
       unsigned char sof = (unsigned char)((signed int)strm->flag | 1);
       unsigned char mof = (unsigned char)((signed int)strm->flag | 2);
       unsigned char eof = (unsigned char)((signed int)strm->flag | 5);
@@ -6432,7 +6432,7 @@ static signed int stream_process(struct _freenect_context *ctx, struct anonymous
       {
         if(!(hdr->flag == sof))
         {
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "[Stream %02x] Not synced yet...\n", strm->flag);
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "[Stream %02x] Not synced yet...\n", strm->flag);
           return 0;
         }
 
@@ -6449,13 +6449,13 @@ static signed int stream_process(struct _freenect_context *ctx, struct anonymous
         unsigned char lost = (unsigned char)((signed int)hdr->seq - (signed int)strm->seq);
         strm->lost_pkts = strm->lost_pkts + (unsigned int)lost;
         fn_log(ctx, l_info, "[Stream %02x] Lost %d packets\n", strm->flag, lost);
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_DEBUG, "[Stream %02x] Lost %d total packets in %d frames (%f lppf)\n", strm->flag, strm->lost_pkts, strm->valid_frames, (float)strm->lost_pkts / (float)strm->valid_frames);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_DEBUG, "[Stream %02x] Lost %d total packets in %d frames (%f lppf)\n", strm->flag, strm->lost_pkts, strm->valid_frames, (float)strm->lost_pkts / (float)strm->valid_frames);
         if((signed int)lost >= 6)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = strm->variable_length != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = strm->variable_length != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           fn_log(ctx, l_notice, "[Stream %02x] Lost too many packets, resyncing...\n", strm->flag);
           strm->synced = 0;
@@ -6480,38 +6480,38 @@ static signed int stream_process(struct _freenect_context *ctx, struct anonymous
 
       signed int expected_pkt_size;
       if(strm->pkt_num == strm->pkts_per_frame + -1)
-        tmp_if_expr$3 = strm->last_pkt_size;
+        tmp_if_expr_3 = strm->last_pkt_size;
 
       else
-        tmp_if_expr$3 = strm->pkt_size;
-      expected_pkt_size = tmp_if_expr$3;
+        tmp_if_expr_3 = strm->pkt_size;
+      expected_pkt_size = tmp_if_expr_3;
       if(strm->variable_length == 0)
       {
         if(strm->pkt_num == 0)
-          tmp_if_expr$7 = hdr->flag == sof ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = hdr->flag == sof ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(!tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(!tmp_if_expr_7)
         {
           if(strm->pkt_num == strm->pkts_per_frame + -1)
-            tmp_if_expr$6 = hdr->flag == eof ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = hdr->flag == eof ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(!tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(!tmp_if_expr_6)
           {
             if(strm->pkt_num >= 1)
-              tmp_if_expr$4 = strm->pkt_num < strm->pkts_per_frame - 1 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = strm->pkt_num < strm->pkts_per_frame - 1 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(tmp_if_expr$4)
-              tmp_if_expr$5 = hdr->flag == mof ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (_Bool)0;
+            if(tmp_if_expr_4)
+              tmp_if_expr_5 = hdr->flag == mof ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$5 = (_Bool)0;
-            if(!tmp_if_expr$5)
+              tmp_if_expr_5 = (_Bool)0;
+            if(!tmp_if_expr_5)
             {
               fn_log(ctx, l_notice, "[Stream %02x] Inconsistent flag %02x with %d packets in buf (%d total), resyncing...\n", strm->flag, hdr->flag, strm->pkt_num, strm->pkts_per_frame);
               strm->synced = 0;
@@ -6536,25 +6536,25 @@ static signed int stream_process(struct _freenect_context *ctx, struct anonymous
       else
       {
         if(strm->pkt_num == 0)
-          tmp_if_expr$10 = hdr->flag == sof ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = hdr->flag == sof ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(!tmp_if_expr$10)
+          tmp_if_expr_10 = (_Bool)0;
+        if(!tmp_if_expr_10)
         {
           if(!(strm->pkt_num >= strm->pkts_per_frame))
           {
             if(hdr->flag == eof)
-              tmp_if_expr$8 = (_Bool)1;
+              tmp_if_expr_8 = (_Bool)1;
 
             else
-              tmp_if_expr$8 = hdr->flag == mof ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_8 = hdr->flag == mof ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(!tmp_if_expr$9)
+            tmp_if_expr_9 = (_Bool)0;
+          if(!tmp_if_expr_9)
           {
             fn_log(ctx, l_notice, "[Stream %02x] Inconsistent flag %02x with %d packets in buf (%d total), resyncing...\n", strm->flag, hdr->flag, strm->pkt_num, strm->pkts_per_frame);
             strm->synced = 0;
@@ -6613,7 +6613,7 @@ static signed int stream_process(struct _freenect_context *ctx, struct anonymous
 
 // stream_setbuf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 272
-static signed int stream_setbuf(struct _freenect_context *ctx, struct anonymous$32 *strm, void *pbuf)
+static signed int stream_setbuf(struct _freenect_context *ctx, struct anonymous_32 *strm, void *pbuf)
 {
   if(strm->running == 0)
   {
@@ -6627,7 +6627,7 @@ static signed int stream_setbuf(struct _freenect_context *ctx, struct anonymous$
     {
       if(strm->lib_buf == NULL)
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Attempted to set buffer to NULL but stream was started with no internal buffer\n");
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Attempted to set buffer to NULL but stream was started with no internal buffer\n");
         return -1;
       }
 
@@ -6677,10 +6677,10 @@ static inline void unpack_8_pixels(unsigned char *raw, unsigned short int *frame
 signed int update_tilt_state_alt(struct _freenect_device *dev)
 {
   struct _freenect_context *ctx = dev->parent;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(dev->usb_audio.dev == ((struct libusb_device_handle *)NULL))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "Motor control failed: audio device missing");
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "Motor control failed: audio device missing");
     return -1;
   }
 
@@ -6688,11 +6688,11 @@ signed int update_tilt_state_alt(struct _freenect_device *dev)
   {
     signed int transferred = 0;
     signed int res = 0;
-    struct anonymous$23 cmd;
+    struct anonymous_23 cmd;
     cmd.magic = (unsigned int)0x06022009;
-    tmp_post$1 = tag_seq;
+    tmp_post_1 = tag_seq;
     tag_seq = tag_seq + 1;
-    cmd.tag = (unsigned int)tmp_post$1;
+    cmd.tag = (unsigned int)tmp_post_1;
     cmd.arg1 = (unsigned int)0x68;
     cmd.cmd = (unsigned int)0x8032;
     unsigned char buffer[256l];
@@ -6710,7 +6710,7 @@ signed int update_tilt_state_alt(struct _freenect_device *dev)
       else
       {
         /* tag-#anon#lST[S32'x'||S32'y'||S32'z'||S32'tilt'|] */
-struct anonymous$24
+struct anonymous_24
 {
   // x
   signed int x;
@@ -6724,16 +6724,16 @@ struct anonymous$24
 
 /* */
         ;
-        struct anonymous$24 accel_and_tilt;
-        memcpy((void *)&accel_and_tilt, (const void *)(buffer + (signed long int)16), sizeof(struct anonymous$24) /*16ul*/ );
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Accelerometer state: X == %d \t Y == %d \t Z == %d \t Tilt == %d\n", accel_and_tilt.x, accel_and_tilt.y, accel_and_tilt.z, accel_and_tilt.tilt);
+        struct anonymous_24 accel_and_tilt;
+        memcpy((void *)&accel_and_tilt, (const void *)(buffer + (signed long int)16), sizeof(struct anonymous_24) /*16ul*/ );
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Accelerometer state: X == %d \t Y == %d \t Z == %d \t Tilt == %d\n", accel_and_tilt.x, accel_and_tilt.y, accel_and_tilt.z, accel_and_tilt.tilt);
         dev->raw_state.accelerometer_x = (signed short int)accel_and_tilt.x;
         dev->raw_state.accelerometer_y = (signed short int)accel_and_tilt.y;
         dev->raw_state.accelerometer_z = (signed short int)accel_and_tilt.z;
         dev->raw_state.tilt_angle = (signed char)((signed int)(signed char)accel_and_tilt.tilt * 2);
-        signed int return_value_get_reply$2;
-        return_value_get_reply$2=get_reply(dev->usb_audio.dev, ctx);
-        return return_value_get_reply$2;
+        signed int return_value_get_reply_2;
+        return_value_get_reply_2=get_reply(dev->usb_audio.dev, ctx);
+        return return_value_get_reply_2;
       }
     }
   }
@@ -6741,41 +6741,41 @@ struct anonymous$24
 
 // upload_cemd_data
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.c line 341
-signed int upload_cemd_data(struct anonymous$19 *dev)
+signed int upload_cemd_data(struct anonymous_19 *dev)
 {
   struct _freenect_context *ctx = dev->parent->parent;
-  struct anonymous$26 cemdcmd;
-  memset((void *)&cemdcmd, 0, sizeof(struct anonymous$26) /*52ul*/ );
+  struct anonymous_26 cemdcmd;
+  memset((void *)&cemdcmd, 0, sizeof(struct anonymous_26) /*52ul*/ );
   cemdcmd.magic = (unsigned int)0x06022009;
   cemdcmd.tag = dev->parent->audio_tag;
   cemdcmd.arg1 = (unsigned int)0;
   cemdcmd.cmd = (unsigned int)0x00000133;
   cemdcmd.arg2 = (unsigned int)0x00064014;
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "Starting CEMD data upload:\n");
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "Starting CEMD data upload:\n");
   signed int res;
   signed int transferred;
-  res=fnusb_bulk(dev, (unsigned char)1, (unsigned char *)&cemdcmd, (signed int)sizeof(struct anonymous$26) /*52ul*/ , &transferred);
-  if(!(res == 0) || !((unsigned long int)transferred == sizeof(struct anonymous$26) /*52ul*/ ))
+  res=fnusb_bulk(dev, (unsigned char)1, (unsigned char *)&cemdcmd, (signed int)sizeof(struct anonymous_26) /*52ul*/ , &transferred);
+  if(!(res == 0) || !((unsigned long int)transferred == sizeof(struct anonymous_26) /*52ul*/ ))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, (signed int)sizeof(struct anonymous$26) /*52ul*/ );
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, (signed int)sizeof(struct anonymous_26) /*52ul*/ );
     return -1;
   }
 
   else
   {
-    res=get_reply$link1(dev);
+    res=get_reply_link1(dev);
     dev->parent->audio_tag = dev->parent->audio_tag + 1u;
     const char *cemd_filename = "cemd_data.bin";
     struct _IO_FILE *cf;
     cf=fopen(cemd_filename, "r");
     if(cf == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "upload_cemd_data: Failed to open %s: error %d", cemd_filename, *return_value___errno_location$1);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      return *return_value___errno_location$2;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "upload_cemd_data: Failed to open %s: error %d", cemd_filename, *return_value___errno_location_1);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      return *return_value___errno_location_2;
     }
 
     unsigned int addr = (unsigned int)0x00000000;
@@ -6783,9 +6783,9 @@ signed int upload_cemd_data(struct anonymous$19 *dev)
     unsigned char page[16384l];
     do
     {
-      unsigned long int return_value_fread$3;
-      return_value_fread$3=fread((void *)page, (unsigned long int)1, (unsigned long int)0x4000, cf);
-      read = (signed int)return_value_fread$3;
+      unsigned long int return_value_fread_3;
+      return_value_fread_3=fread((void *)page, (unsigned long int)1, (unsigned long int)0x4000, cf);
+      read = (signed int)return_value_fread_3;
       if(!(read >= 1))
         break;
 
@@ -6793,12 +6793,12 @@ signed int upload_cemd_data(struct anonymous$19 *dev)
       cemdcmd.arg1 = (unsigned int)read;
       cemdcmd.cmd = (unsigned int)0x134;
       cemdcmd.arg2 = addr;
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "About to send: ");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "About to send: ");
       dump_cemd_cmd(ctx, cemdcmd);
-      res=fnusb_bulk(dev, (unsigned char)1, (unsigned char *)&cemdcmd, (signed int)sizeof(struct anonymous$26) /*52ul*/ , &transferred);
-      if(!(res == 0) || !((unsigned long int)transferred == sizeof(struct anonymous$26) /*52ul*/ ))
+      res=fnusb_bulk(dev, (unsigned char)1, (unsigned char *)&cemdcmd, (signed int)sizeof(struct anonymous_26) /*52ul*/ , &transferred);
+      if(!(res == 0) || !((unsigned long int)transferred == sizeof(struct anonymous_26) /*52ul*/ ))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, (signed int)sizeof(struct anonymous$26) /*52ul*/ );
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, (signed int)sizeof(struct anonymous_26) /*52ul*/ );
         return -1;
       }
 
@@ -6809,13 +6809,13 @@ signed int upload_cemd_data(struct anonymous$19 *dev)
         res=fnusb_bulk(dev, (unsigned char)1, &page[(signed long int)bytes_sent], to_send, &transferred);
         if(!(res == 0) || !(transferred == to_send))
         {
-          fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, to_send);
+          fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, to_send);
           return -1;
         }
 
         bytes_sent = bytes_sent + to_send;
       }
-      res=get_reply$link1(dev);
+      res=get_reply_link1(dev);
       addr = addr + (unsigned int)read;
       dev->parent->audio_tag = dev->parent->audio_tag + 1u;
     }
@@ -6826,19 +6826,19 @@ signed int upload_cemd_data(struct anonymous$19 *dev)
     cemdcmd.arg1 = (unsigned int)0;
     cemdcmd.cmd = (unsigned int)0x135;
     cemdcmd.arg2 = (unsigned int)0x00064000;
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "Finishing CEMD data upload...\n");
-    res=fnusb_bulk(dev, (unsigned char)1, (unsigned char *)&cemdcmd, (signed int)sizeof(struct anonymous$26) /*52ul*/ , &transferred);
-    if(!(res == 0) || !((unsigned long int)transferred == sizeof(struct anonymous$26) /*52ul*/ ))
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "Finishing CEMD data upload...\n");
+    res=fnusb_bulk(dev, (unsigned char)1, (unsigned char *)&cemdcmd, (signed int)sizeof(struct anonymous_26) /*52ul*/ , &transferred);
+    if(!(res == 0) || !((unsigned long int)transferred == sizeof(struct anonymous_26) /*52ul*/ ))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "upload_cemd_data(): Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, (signed int)sizeof(struct anonymous$26) /*52ul*/ );
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "upload_cemd_data(): Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, (signed int)sizeof(struct anonymous_26) /*52ul*/ );
       return -1;
     }
 
     else
     {
-      res=get_reply$link1(dev);
+      res=get_reply_link1(dev);
       dev->parent->audio_tag = dev->parent->audio_tag + 1u;
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "CEMD data uploaded successfully.\n");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "CEMD data uploaded successfully.\n");
       return 0;
     }
   }
@@ -6846,24 +6846,24 @@ signed int upload_cemd_data(struct anonymous$19 *dev)
 
 // upload_firmware
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.h line 68
-signed int upload_firmware(struct anonymous$19 *dev, char *filename)
+signed int upload_firmware(struct anonymous_19 *dev, char *filename)
 {
   struct _freenect_context *ctx = dev->parent->parent;
   char fw_filename[1024l];
   sprintf(fw_filename, "/%s", filename);
   signed int filenamelen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(fw_filename);
-  filenamelen = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(fw_filename);
+  filenamelen = (signed int)return_value_strlen_1;
   signed int i;
   signed int searchpathcount;
   struct _IO_FILE *fw = (struct _IO_FILE *)(void *)0;
   i = 0;
   searchpathcount = 6;
-  void *return_value_malloc$4;
-  void *return_value_malloc$8;
-  void *return_value_malloc$9;
-  void *return_value_malloc$10;
+  void *return_value_malloc_4;
+  void *return_value_malloc_8;
+  void *return_value_malloc_9;
+  void *return_value_malloc_10;
   for( ; fw == ((struct _IO_FILE *)NULL) && !(i >= searchpathcount); i = i + 1)
   {
     char *fwfile;
@@ -6878,12 +6878,12 @@ signed int upload_firmware(struct anonymous$19 *dev, char *filename)
           goto __CPROVER_DUMP_L13;
 
         signed int pathlen;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(envpath);
-        pathlen = (signed int)return_value_strlen$2;
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc((unsigned long int)(pathlen + filenamelen + 1));
-        fwfile = (char *)return_value_malloc$3;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(envpath);
+        pathlen = (signed int)return_value_strlen_2;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc((unsigned long int)(pathlen + filenamelen + 1));
+        fwfile = (char *)return_value_malloc_3;
         strcpy(fwfile, envpath);
         strcat(fwfile, fw_filename);
         needs_free = 1;
@@ -6891,8 +6891,8 @@ signed int upload_firmware(struct anonymous$19 *dev, char *filename)
       }
       case 1:
       {
-        return_value_malloc$4=malloc((unsigned long int)2048);
-        fwfile = (char *)return_value_malloc$4;
+        return_value_malloc_4=malloc((unsigned long int)2048);
+        fwfile = (char *)return_value_malloc_4;
         needs_free = 1;
         sprintf(fwfile, ".%s", (const void *)fw_filename);
         break;
@@ -6905,17 +6905,17 @@ signed int upload_firmware(struct anonymous$19 *dev, char *filename)
           goto __CPROVER_DUMP_L13;
 
         signed int homelen;
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(home);
-        homelen = (signed int)return_value_strlen$5;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(home);
+        homelen = (signed int)return_value_strlen_5;
         char *dotfolder = "/.libfreenect";
         signed int locallen;
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(dotfolder);
-        locallen = (signed int)return_value_strlen$6;
-        void *return_value_malloc$7;
-        return_value_malloc$7=malloc((unsigned long int)(homelen + locallen + filenamelen + 1));
-        fwfile = (char *)return_value_malloc$7;
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(dotfolder);
+        locallen = (signed int)return_value_strlen_6;
+        void *return_value_malloc_7;
+        return_value_malloc_7=malloc((unsigned long int)(homelen + locallen + filenamelen + 1));
+        fwfile = (char *)return_value_malloc_7;
         strcpy(fwfile, home);
         strcat(fwfile, dotfolder);
         strcat(fwfile, fw_filename);
@@ -6924,24 +6924,24 @@ signed int upload_firmware(struct anonymous$19 *dev, char *filename)
       }
       case 3:
       {
-        return_value_malloc$8=malloc((unsigned long int)2048);
-        fwfile = (char *)return_value_malloc$8;
+        return_value_malloc_8=malloc((unsigned long int)2048);
+        fwfile = (char *)return_value_malloc_8;
         needs_free = 1;
         sprintf(fwfile, "/usr/local/share/libfreenect%s", (const void *)fw_filename);
         break;
       }
       case 4:
       {
-        return_value_malloc$9=malloc((unsigned long int)2048);
-        fwfile = (char *)return_value_malloc$9;
+        return_value_malloc_9=malloc((unsigned long int)2048);
+        fwfile = (char *)return_value_malloc_9;
         needs_free = 1;
         sprintf(fwfile, "/usr/share/libfreenect%s", (const void *)fw_filename);
         break;
       }
       case 5:
       {
-        return_value_malloc$10=malloc((unsigned long int)2048);
-        fwfile = (char *)return_value_malloc$10;
+        return_value_malloc_10=malloc((unsigned long int)2048);
+        fwfile = (char *)return_value_malloc_10;
         needs_free = 1;
         sprintf(fwfile, "./../Resources%s", (const void *)fw_filename);
         break;
@@ -6949,7 +6949,7 @@ signed int upload_firmware(struct anonymous$19 *dev, char *filename)
       default:
         ;
     }
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "Trying to open %s as firmware...\n", fwfile);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "Trying to open %s as firmware...\n", fwfile);
     fw=fopen(fwfile, "rb");
     if(!(needs_free == 0))
       free((void *)fwfile);
@@ -6960,34 +6960,34 @@ signed int upload_firmware(struct anonymous$19 *dev, char *filename)
   }
   if(fw == ((struct _IO_FILE *)NULL))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "upload_firmware: failed to find firmware file.\n");
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    return -(*return_value___errno_location$11);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "upload_firmware: failed to find firmware file.\n");
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    return -(*return_value___errno_location_11);
   }
 
   fseek(fw, (signed long int)0, 2);
   signed int fw_num_bytes;
-  signed long int return_value_ftell$12;
-  return_value_ftell$12=ftell(fw);
-  fw_num_bytes = (signed int)return_value_ftell$12;
+  signed long int return_value_ftell_12;
+  return_value_ftell_12=ftell(fw);
+  fw_num_bytes = (signed int)return_value_ftell_12;
   rewind(fw);
   if(!(fw_num_bytes >= 1))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "upload_firmware: failed to find file with any data.\n");
-    signed int *return_value___errno_location$13;
-    return_value___errno_location$13=__errno_location();
-    return -(*return_value___errno_location$13);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "upload_firmware: failed to find file with any data.\n");
+    signed int *return_value___errno_location_13;
+    return_value___errno_location_13=__errno_location();
+    return -(*return_value___errno_location_13);
   }
 
   unsigned char *fw_bytes;
-  void *return_value_malloc$14;
-  return_value_malloc$14=malloc((unsigned long int)fw_num_bytes);
-  fw_bytes = (unsigned char *)return_value_malloc$14;
+  void *return_value_malloc_14;
+  return_value_malloc_14=malloc((unsigned long int)fw_num_bytes);
+  fw_bytes = (unsigned char *)return_value_malloc_14;
   signed int numRead;
-  unsigned long int return_value_fread$15;
-  return_value_fread$15=fread((void *)fw_bytes, (unsigned long int)1, (unsigned long int)fw_num_bytes, fw);
-  numRead = (signed int)return_value_fread$15;
+  unsigned long int return_value_fread_15;
+  return_value_fread_15=fread((void *)fw_bytes, (unsigned long int)1, (unsigned long int)fw_num_bytes, fw);
+  numRead = (signed int)return_value_fread_15;
   fw_num_bytes = numRead;
   signed int retVal;
   retVal=upload_firmware_from_memory(dev, fw_bytes, (unsigned int)fw_num_bytes);
@@ -6998,27 +6998,27 @@ signed int upload_firmware(struct anonymous$19 *dev, char *filename)
 
 // upload_firmware_from_memory
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/loader.h line 69
-signed int upload_firmware_from_memory(struct anonymous$19 *dev, unsigned char *fw_from_mem, unsigned int fw_size_in_btyes)
+signed int upload_firmware_from_memory(struct anonymous_19 *dev, unsigned char *fw_from_mem, unsigned int fw_size_in_btyes)
 {
   struct _freenect_context *ctx = dev->parent->parent;
-  struct anonymous$27 bootcmd;
-  memset((void *)&bootcmd, 0, sizeof(struct anonymous$27) /*24ul*/ );
+  struct anonymous_27 bootcmd;
+  memset((void *)&bootcmd, 0, sizeof(struct anonymous_27) /*24ul*/ );
   bootcmd.magic = (unsigned int)0x06022009;
   signed int res;
   signed int transferred;
-  struct anonymous$28 fwheader;
+  struct anonymous_28 fwheader;
   signed int read = 0;
   signed int bytesLeft = (signed int)fw_size_in_btyes;
   unsigned char *readPtr = &fw_from_mem[(signed long int)0];
-  if(!((unsigned long int)fw_size_in_btyes >= sizeof(struct anonymous$28) /*24ul*/ ))
+  if(!((unsigned long int)fw_size_in_btyes >= sizeof(struct anonymous_28) /*24ul*/ ))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "upload_firmware: firmware image too small, has no header?\n");
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "upload_firmware: firmware image too small, has no header?\n");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
-  memcpy((void *)&fwheader, (const void *)readPtr, sizeof(struct anonymous$28) /*24ul*/ );
+  memcpy((void *)&fwheader, (const void *)readPtr, sizeof(struct anonymous_28) /*24ul*/ );
   fwheader.magic = fwheader.magic;
   fwheader.ver_major = fwheader.ver_major;
   fwheader.ver_minor = fwheader.ver_minor;
@@ -7027,12 +7027,12 @@ signed int upload_firmware_from_memory(struct anonymous$19 *dev, unsigned char *
   fwheader.base_addr = fwheader.base_addr;
   fwheader.size = fwheader.size;
   fwheader.entry_addr = fwheader.entry_addr;
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "Found firmware image:\n");
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "\tmagic        %08X\n", fwheader.magic);
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "\tversion      %02d.%02d.%02d.%02d\n", fwheader.ver_major, fwheader.ver_minor, fwheader.ver_release, fwheader.ver_patch);
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "\tbase address 0x%08x\n", fwheader.base_addr);
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "\tsize         0x%08x\n", fwheader.size);
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "\tentry point  0x%08x\n", fwheader.entry_addr);
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "Found firmware image:\n");
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "\tmagic        %08X\n", fwheader.magic);
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "\tversion      %02d.%02d.%02d.%02d\n", fwheader.ver_major, fwheader.ver_minor, fwheader.ver_release, fwheader.ver_patch);
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "\tbase address 0x%08x\n", fwheader.base_addr);
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "\tsize         0x%08x\n", fwheader.size);
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "\tentry point  0x%08x\n", fwheader.entry_addr);
   unsigned int addr = fwheader.base_addr;
   unsigned char page[16384l];
   signed int readIndex = 0;
@@ -7053,12 +7053,12 @@ signed int upload_firmware_from_memory(struct anonymous$19 *dev, unsigned char *
     bootcmd.bytes = (unsigned int)read;
     bootcmd.cmd = (unsigned int)0x03;
     bootcmd.addr = addr;
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "About to send: ");
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "About to send: ");
     dump_bl_cmd(ctx, bootcmd);
-    res=fnusb_bulk(dev, (unsigned char)1, (unsigned char *)&bootcmd, (signed int)sizeof(struct anonymous$27) /*24ul*/ , &transferred);
-    if(!(res == 0) || !((unsigned long int)transferred == sizeof(struct anonymous$27) /*24ul*/ ))
+    res=fnusb_bulk(dev, (unsigned char)1, (unsigned char *)&bootcmd, (signed int)sizeof(struct anonymous_27) /*24ul*/ , &transferred);
+    if(!(res == 0) || !((unsigned long int)transferred == sizeof(struct anonymous_27) /*24ul*/ ))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "upload_firmware(): Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, (signed int)sizeof(struct anonymous$27) /*24ul*/ );
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "upload_firmware(): Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, (signed int)sizeof(struct anonymous_27) /*24ul*/ );
       return -1;
     }
 
@@ -7069,21 +7069,21 @@ signed int upload_firmware_from_memory(struct anonymous$19 *dev, unsigned char *
       res=fnusb_bulk(dev, (unsigned char)1, &page[(signed long int)bytes_sent], to_send, &transferred);
       if(!(res == 0) || !(transferred == to_send))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "upload_firmware(): Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, to_send);
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "upload_firmware(): Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, to_send);
         return -1;
       }
 
       bytes_sent = bytes_sent + to_send;
       total_bytes_sent = total_bytes_sent + to_send;
     }
-    res=get_reply$link1(dev);
+    res=get_reply_link1(dev);
     addr = addr + (unsigned int)read;
     dev->parent->audio_tag = dev->parent->audio_tag + 1u;
   }
   while(read >= 1);
   if(!((unsigned int)total_bytes_sent == fwheader.size))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "upload_firmware: firmware image declared %d bytes, but file only contained %d bytes\n", fwheader.size, total_bytes_sent);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "upload_firmware: firmware image declared %d bytes, but file only contained %d bytes\n", fwheader.size, total_bytes_sent);
     return -1;
   }
 
@@ -7094,18 +7094,18 @@ signed int upload_firmware_from_memory(struct anonymous$19 *dev, unsigned char *
     bootcmd.cmd = (unsigned int)0x04;
     bootcmd.addr = fwheader.entry_addr;
     dump_bl_cmd(ctx, bootcmd);
-    res=fnusb_bulk(dev, (unsigned char)1, (unsigned char *)&bootcmd, (signed int)sizeof(struct anonymous$27) /*24ul*/ , &transferred);
-    if(!(res == 0) || !((unsigned long int)transferred == sizeof(struct anonymous$27) /*24ul*/ ))
+    res=fnusb_bulk(dev, (unsigned char)1, (unsigned char *)&bootcmd, (signed int)sizeof(struct anonymous_27) /*24ul*/ , &transferred);
+    if(!(res == 0) || !((unsigned long int)transferred == sizeof(struct anonymous_27) /*24ul*/ ))
     {
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "upload_firmware(): Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, (signed int)sizeof(struct anonymous$27) /*24ul*/ );
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "upload_firmware(): Error: res: %d\ttransferred: %d (expected %d)\n", res, transferred, (signed int)sizeof(struct anonymous_27) /*24ul*/ );
       return -1;
     }
 
     else
     {
-      res=get_reply$link1(dev);
+      res=get_reply_link1(dev);
       dev->parent->audio_tag = dev->parent->audio_tag + 1u;
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_INFO, "Firmware successfully uploaded and launched.  Device will disconnect and reenumerate.\n");
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_INFO, "Firmware successfully uploaded and launched.  Device will disconnect and reenumerate.\n");
       return 0;
     }
   }
@@ -7124,8 +7124,8 @@ static void video_process(struct _freenect_device *dev, unsigned char *pkt, sign
       got_frame_size=stream_process(ctx, &dev->video, pkt, len, dev->video_chunk_cb, dev->user_data);
       if(!(got_frame_size == 0))
       {
-        fn_log(ctx, (enum anonymous$9)FREENECT_LOG_SPEW, "Got video frame of size %d/%d, %d/%d packets arrived, TS %08x\n", got_frame_size, dev->video.frame_size, dev->video.valid_pkts, dev->video.pkts_per_frame, dev->video.timestamp);
-        struct anonymous$17 frame_mode;
+        fn_log(ctx, (enum anonymous_9)FREENECT_LOG_SPEW, "Got video frame of size %d/%d, %d/%d packets arrived, TS %08x\n", got_frame_size, dev->video.frame_size, dev->video.valid_pkts, dev->video.pkts_per_frame, dev->video.timestamp);
+        struct anonymous_17 frame_mode;
         frame_mode=freenect_get_current_video_mode(dev);
         switch((signed int)dev->video_format)
         {
@@ -7156,7 +7156,7 @@ static void video_process(struct _freenect_device *dev, unsigned char *pkt, sign
           case FREENECT_VIDEO_YUV_RAW:
             break;
           default:
-            fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "video_process() was called, but an invalid video_format is set\n");
+            fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "video_process() was called, but an invalid video_format is set\n");
         }
         if(!(dev->video_cb == ((void (*)(struct _freenect_device *, void *, unsigned int))NULL)))
           dev->video_cb(dev, dev->video.proc_buf, dev->video.timestamp);
@@ -7179,11 +7179,11 @@ signed int write_cmos_register(struct _freenect_device *dev, unsigned short int 
   cmdbuf[(signed long int)0] = (unsigned short int)1;
   cmdbuf[(signed long int)1] = (unsigned short int)((signed int)reg | 0x8000);
   cmdbuf[(signed long int)2] = value;
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_DEBUG, "write_cmos_register: 0x%04x <= 0x%04x\n", reg, value);
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_DEBUG, "write_cmos_register: 0x%04x <= 0x%04x\n", reg, value);
   signed int res;
   res=send_cmd(dev, (unsigned short int)0x95, (void *)cmdbuf, (unsigned int)6, (void *)replybuf, 6);
   if(!(res >= 0))
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "write_cmos_register: send_cmd() returned %d\n", res);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "write_cmos_register: send_cmd() returned %d\n", res);
 
   return res;
 }
@@ -7197,19 +7197,19 @@ signed int write_register(struct _freenect_device *dev, unsigned short int reg, 
   unsigned short int cmd[2l];
   cmd[(signed long int)0] = reg;
   cmd[(signed long int)1] = data;
-  fn_log(ctx, (enum anonymous$9)FREENECT_LOG_DEBUG, "write_register: 0x%04x <= 0x%02x\n", reg, data);
+  fn_log(ctx, (enum anonymous_9)FREENECT_LOG_DEBUG, "write_register: 0x%04x <= 0x%02x\n", reg, data);
   signed int res;
   res=send_cmd(dev, (unsigned short int)0x03, (void *)cmd, (unsigned int)4, (void *)reply, 4);
   if(!(res >= 0))
   {
-    fn_log(ctx, (enum anonymous$9)FREENECT_LOG_ERROR, "write_register: send_cmd() returned %d\n", res);
+    fn_log(ctx, (enum anonymous_9)FREENECT_LOG_ERROR, "write_register: send_cmd() returned %d\n", res);
     return res;
   }
 
   else
   {
     if(!(res == 2))
-      fn_log(ctx, (enum anonymous$9)FREENECT_LOG_WARNING, "write_register: send_cmd() returned %d [%04x %04x], 0000 expected\n", res, reply[(signed long int)0], reply[(signed long int)1]);
+      fn_log(ctx, (enum anonymous_9)FREENECT_LOG_WARNING, "write_register: send_cmd() returned %d [%04x %04x], 0000 expected\n", res, reply[(signed long int)0], reply[(signed long int)1]);
 
     return 0;
   }

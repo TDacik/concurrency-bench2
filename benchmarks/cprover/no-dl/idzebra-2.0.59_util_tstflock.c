@@ -1,414 +1,414 @@
-// #anon_enum$XML_ATTRIBUTE_CDATA=1$XML_ATTRIBUTE_ID=2$XML_ATTRIBUTE_IDREF=3$XML_ATTRIBUTE_IDREFS=4$XML_ATTRIBUTE_ENTITY=5$XML_ATTRIBUTE_ENTITIES=6$XML_ATTRIBUTE_NMTOKEN=7$XML_ATTRIBUTE_NMTOKENS=8$XML_ATTRIBUTE_ENUMERATION=9$XML_ATTRIBUTE_NOTATION=10
+// #anon_enum_XML_ATTRIBUTE_CDATA=1_XML_ATTRIBUTE_ID=2_XML_ATTRIBUTE_IDREF=3_XML_ATTRIBUTE_IDREFS=4_XML_ATTRIBUTE_ENTITY=5_XML_ATTRIBUTE_ENTITIES=6_XML_ATTRIBUTE_NMTOKEN=7_XML_ATTRIBUTE_NMTOKENS=8_XML_ATTRIBUTE_ENUMERATION=9_XML_ATTRIBUTE_NOTATION=10
 // file /usr/include/libxml2/libxml/tree.h line 206
-enum anonymous$13 { XML_ATTRIBUTE_CDATA=1, XML_ATTRIBUTE_ID=2, XML_ATTRIBUTE_IDREF=3, XML_ATTRIBUTE_IDREFS=4, XML_ATTRIBUTE_ENTITY=5, XML_ATTRIBUTE_ENTITIES=6, XML_ATTRIBUTE_NMTOKEN=7, XML_ATTRIBUTE_NMTOKENS=8, XML_ATTRIBUTE_ENUMERATION=9, XML_ATTRIBUTE_NOTATION=10 };
+enum anonymous_13 { XML_ATTRIBUTE_CDATA=1, XML_ATTRIBUTE_ID=2, XML_ATTRIBUTE_IDREF=3, XML_ATTRIBUTE_IDREFS=4, XML_ATTRIBUTE_ENTITY=5, XML_ATTRIBUTE_ENTITIES=6, XML_ATTRIBUTE_NMTOKEN=7, XML_ATTRIBUTE_NMTOKENS=8, XML_ATTRIBUTE_ENUMERATION=9, XML_ATTRIBUTE_NOTATION=10 };
 
-// #anon_enum$XML_ELEMENT_NODE=1$XML_ATTRIBUTE_NODE=2$XML_TEXT_NODE=3$XML_CDATA_SECTION_NODE=4$XML_ENTITY_REF_NODE=5$XML_ENTITY_NODE=6$XML_PI_NODE=7$XML_COMMENT_NODE=8$XML_DOCUMENT_NODE=9$XML_DOCUMENT_TYPE_NODE=10$XML_DOCUMENT_FRAG_NODE=11$XML_NOTATION_NODE=12$XML_HTML_DOCUMENT_NODE=13$XML_DTD_NODE=14$XML_ELEMENT_DECL=15$XML_ATTRIBUTE_DECL=16$XML_ENTITY_DECL=17$XML_NAMESPACE_DECL=18$XML_XINCLUDE_START=19$XML_XINCLUDE_END=20$XML_DOCB_DOCUMENT_NODE=21
+// #anon_enum_XML_ELEMENT_NODE=1_XML_ATTRIBUTE_NODE=2_XML_TEXT_NODE=3_XML_CDATA_SECTION_NODE=4_XML_ENTITY_REF_NODE=5_XML_ENTITY_NODE=6_XML_PI_NODE=7_XML_COMMENT_NODE=8_XML_DOCUMENT_NODE=9_XML_DOCUMENT_TYPE_NODE=10_XML_DOCUMENT_FRAG_NODE=11_XML_NOTATION_NODE=12_XML_HTML_DOCUMENT_NODE=13_XML_DTD_NODE=14_XML_ELEMENT_DECL=15_XML_ATTRIBUTE_DECL=16_XML_ENTITY_DECL=17_XML_NAMESPACE_DECL=18_XML_XINCLUDE_START=19_XML_XINCLUDE_END=20_XML_DOCB_DOCUMENT_NODE=21
 // file /usr/include/libxml2/libxml/tree.h line 159
-enum anonymous$10 { XML_ELEMENT_NODE=1, XML_ATTRIBUTE_NODE=2, XML_TEXT_NODE=3, XML_CDATA_SECTION_NODE=4, XML_ENTITY_REF_NODE=5, XML_ENTITY_NODE=6, XML_PI_NODE=7, XML_COMMENT_NODE=8, XML_DOCUMENT_NODE=9, XML_DOCUMENT_TYPE_NODE=10, XML_DOCUMENT_FRAG_NODE=11, XML_NOTATION_NODE=12, XML_HTML_DOCUMENT_NODE=13, XML_DTD_NODE=14, XML_ELEMENT_DECL=15, XML_ATTRIBUTE_DECL=16, XML_ENTITY_DECL=17, XML_NAMESPACE_DECL=18, XML_XINCLUDE_START=19, XML_XINCLUDE_END=20, XML_DOCB_DOCUMENT_NODE=21 };
+enum anonymous_10 { XML_ELEMENT_NODE=1, XML_ATTRIBUTE_NODE=2, XML_TEXT_NODE=3, XML_CDATA_SECTION_NODE=4, XML_ENTITY_REF_NODE=5, XML_ENTITY_NODE=6, XML_PI_NODE=7, XML_COMMENT_NODE=8, XML_DOCUMENT_NODE=9, XML_DOCUMENT_TYPE_NODE=10, XML_DOCUMENT_FRAG_NODE=11, XML_NOTATION_NODE=12, XML_HTML_DOCUMENT_NODE=13, XML_DTD_NODE=14, XML_ELEMENT_DECL=15, XML_ATTRIBUTE_DECL=16, XML_ENTITY_DECL=17, XML_NAMESPACE_DECL=18, XML_XINCLUDE_START=19, XML_XINCLUDE_END=20, XML_DOCB_DOCUMENT_NODE=21 };
 
-// tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'op'||*{S8}$S8$'value'|]
+// tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'op'||*{S8}_S8_'value'|]
 // file ../include/zebra_xpath.h line 30
-struct anonymous$65;
+struct anonymous_65;
 
-// tag-#anon#ST[*{SYM#tag-nmem_control#}$SYM#tag-nmem_control#$'nmem'||S32'no_eq'||U32'$pad0'||ARR32{*{S8}$S8$}$*{S8}$S8$$'eq'|]
+// tag-#anon#ST[*{SYM#tag-nmem_control#}_SYM#tag-nmem_control#_'nmem'||S32'no_eq'||U32'_pad0'||ARR32{*{S8}_S8_}_*{S8}_S8__'eq'|]
 // file charmap.c line 83
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[*{cS8}$cS8$'op'||*{SYM#tag-xpath_predicate#}$SYM#tag-xpath_predicate#$'left'||*{SYM#tag-xpath_predicate#}$SYM#tag-xpath_predicate#$'right'|]
+// tag-#anon#ST[*{cS8}_cS8_'op'||*{SYM#tag-xpath_predicate#}_SYM#tag-xpath_predicate#_'left'||*{SYM#tag-xpath_predicate#}_SYM#tag-xpath_predicate#_'right'|]
 // file ../include/zebra_xpath.h line 36
-struct anonymous$68;
+struct anonymous_68;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$92;
+struct anonymous_92;
 
 // tag-#anon#ST[S32'entry_size'|]
 // file zebramap.c line 52
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[S32'readers_reading'||S32'writers_writing'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'lock_free'|]
+// tag-#anon#ST[S32'readers_reading'||S32'writers_writing'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'lock_free'|]
 // file ../include/zebra-lock.h line 54
-struct anonymous$56;
+struct anonymous_56;
 
-// tag-#anon#ST[S32'type'||S32'major'||S32'minor'||U32'$pad0'||*{*{SYM#tag-Z_AttributeElement#}$SYM#tag-Z_AttributeElement#$}$*{SYM#tag-Z_AttributeElement#}$SYM#tag-Z_AttributeElement#$$'attributeList'||S32'num_attributes'||U32'$pad1'|]
+// tag-#anon#ST[S32'type'||S32'major'||S32'minor'||U32'_pad0'||*{*{SYM#tag-Z_AttributeElement#}_SYM#tag-Z_AttributeElement#_}_*{SYM#tag-Z_AttributeElement#}_SYM#tag-Z_AttributeElement#__'attributeList'||S32'num_attributes'||U32'_pad1'|]
 // file ../include/attrfind.h line 28
-struct anonymous$89;
+struct anonymous_89;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mutex'||S32'state'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mutex'||S32'state'||U32'_pad0'|]
 // file ../include/zebra-lock.h line 36
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cond'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cond'|]
 // file ../include/zebra-lock.h line 70
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#UN[*{S16}$S16$'oid'||*{S8}$S8$'uri'|]
+// tag-#anon#UN[*{S16}_S16_'oid'||*{S8}_S8_'uri'|]
 // file /usr/include/yaz/z-core.h line 811
-union anonymous$62;
+union anonymous_62;
 
-// tag-#anon#UN[*{S64}$S64$'actualNumber'||*{S64}$S64$'approxNumber'|]
+// tag-#anon#UN[*{S64}_S64_'actualNumber'||*{S64}_S64_'approxNumber'|]
 // file /usr/include/yaz/z-exp.h line 341
-union anonymous$64;
+union anonymous_64;
 
-// tag-#anon#UN[*{S64}$S64$'integer'||*{S8}$S8$'internationalString'||*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'octetString'||*{S16}$S16$'objectIdentifier'||*{S32}$S32$'boolean'||*{V}$V$'null'||*{SYM#tag-Z_Unit#}$SYM#tag-Z_Unit#$'unit'||*{SYM#tag-Z_IntUnit#}$SYM#tag-Z_IntUnit#$'valueAndUnit'|]
+// tag-#anon#UN[*{S64}_S64_'integer'||*{S8}_S8_'internationalString'||*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'octetString'||*{S16}_S16_'objectIdentifier'||*{S32}_S32_'boolean'||*{V}_V_'null'||*{SYM#tag-Z_Unit#}_SYM#tag-Z_Unit#_'unit'||*{SYM#tag-Z_IntUnit#}_SYM#tag-Z_IntUnit#_'valueAndUnit'|]
 // file /usr/include/yaz/z-grs.h line 152
-union anonymous$59;
+union anonymous_59;
 
-// tag-#anon#UN[*{S64}$S64$'integer'||*{S8}$S8$'string'||*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'octets'||*{S16}$S16$'oid'||*{SYM#tag-Z_Unit#}$SYM#tag-Z_Unit#$'unit'||*{SYM#tag-Z_IntUnit#}$SYM#tag-Z_IntUnit#$'valueAndUnit'|]
+// tag-#anon#UN[*{S64}_S64_'integer'||*{S8}_S8_'string'||*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'octets'||*{S16}_S16_'oid'||*{SYM#tag-Z_Unit#}_SYM#tag-Z_Unit#_'unit'||*{SYM#tag-Z_IntUnit#}_SYM#tag-Z_IntUnit#_'valueAndUnit'|]
 // file /usr/include/yaz/z-exp.h line 718
-union anonymous$74;
+union anonymous_74;
 
-// tag-#anon#UN[*{S64}$S64$'known'||*{S64}$S64$'zprivate'|]
+// tag-#anon#UN[*{S64}_S64_'known'||*{S64}_S64_'zprivate'|]
 // file /usr/include/yaz/z-core.h line 603
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[*{S64}$S64$'known'||*{SYM#tag-Z_ProxSupportPrivate#}$SYM#tag-Z_ProxSupportPrivate#$'zprivate'|]
+// tag-#anon#UN[*{S64}_S64_'known'||*{SYM#tag-Z_ProxSupportPrivate#}_SYM#tag-Z_ProxSupportPrivate#_'zprivate'|]
 // file /usr/include/yaz/z-exp.h line 920
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[*{S64}$S64$'number'||*{S8}$S8$'string'||*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'opaque'|]
+// tag-#anon#UN[*{S64}_S64_'number'||*{S8}_S8_'string'||*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'opaque'|]
 // file /usr/include/yaz/zes-update.h line 117
-union anonymous$45;
+union anonymous_45;
 
-// tag-#anon#UN[*{S64}$S64$'numeric'||*{SYM#tag-Z_ComplexAttribute#}$SYM#tag-Z_ComplexAttribute#$'complex'|]
+// tag-#anon#UN[*{S64}_S64_'numeric'||*{SYM#tag-Z_ComplexAttribute#}_SYM#tag-Z_ComplexAttribute#_'complex'|]
 // file /usr/include/yaz/z-core.h line 583
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[*{S64}$S64$'primitive'||*{SYM#tag-Z_ElementInfoList#}$SYM#tag-Z_ElementInfoList#$'structured'|]
+// tag-#anon#UN[*{S64}_S64_'primitive'||*{SYM#tag-Z_ElementInfoList#}_SYM#tag-Z_ElementInfoList#_'structured'|]
 // file /usr/include/yaz/z-exp.h line 407
-union anonymous$70;
+union anonymous_70;
 
-// tag-#anon#UN[*{S64}$S64$'req'||*{S64}$S64$'permission'||*{S64}$S64$'immediate'|]
+// tag-#anon#UN[*{S64}_S64_'req'||*{S64}_S64_'permission'||*{S64}_S64_'immediate'|]
 // file /usr/include/yaz/z-diag1.h line 261
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[*{S8}$S8$'character'||*{SYM#tag-Z_Encryption#}$SYM#tag-Z_Encryption#$'encrypted'|]
+// tag-#anon#UN[*{S8}_S8_'character'||*{SYM#tag-Z_Encryption#}_SYM#tag-Z_Encryption#_'encrypted'|]
 // file /usr/include/yaz/z-accform1.h line 59
-union anonymous$52;
+union anonymous_52;
 
-// tag-#anon#UN[*{S8}$S8$'characterInfo'||*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'binaryInfo'||*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'externallyDefinedInfo'||*{S16}$S16$'oid'|]
+// tag-#anon#UN[*{S8}_S8_'characterInfo'||*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'binaryInfo'||*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'externallyDefinedInfo'||*{S16}_S16_'oid'|]
 // file /usr/include/yaz/z-core.h line 1282
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[*{S8}$S8$'elementSetName'||*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'externalSpec'|]
+// tag-#anon#UN[*{S8}_S8_'elementSetName'||*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'externalSpec'|]
 // file /usr/include/yaz/z-core.h line 801
-union anonymous$67;
+union anonymous_67;
 
-// tag-#anon#UN[*{S8}$S8$'ianaType'||*{S8}$S8$'z3950type'||*{S8}$S8$'otherType'|]
+// tag-#anon#UN[*{S8}_S8_'ianaType'||*{S8}_S8_'z3950type'||*{S8}_S8_'otherType'|]
 // file /usr/include/yaz/z-exp.h line 789
-union anonymous$75;
+union anonymous_75;
 
-// tag-#anon#UN[*{S8}$S8$'package'||*{SYM#tag-Z_Query#}$SYM#tag-Z_Query#$'query'|]
+// tag-#anon#UN[*{S8}_S8_'package'||*{SYM#tag-Z_Query#}_SYM#tag-Z_Query#_'query'|]
 // file /usr/include/yaz/zes-pquery.h line 67
-union anonymous$94;
+union anonymous_94;
 
-// tag-#anon#UN[*{S8}$S8$'packageName'||*{SYM#tag-Z_ESExportSpecification#}$SYM#tag-Z_ESExportSpecification#$'exportPackage'|]
+// tag-#anon#UN[*{S8}_S8_'packageName'||*{SYM#tag-Z_ESExportSpecification#}_SYM#tag-Z_ESExportSpecification#_'exportPackage'|]
 // file /usr/include/yaz/zes-psched.h line 73
-union anonymous$96;
+union anonymous_96;
 
-// tag-#anon#UN[*{S8}$S8$'packageName'||*{SYM#tag-Z_ESExportSpecification#}$SYM#tag-Z_ESExportSpecification#$'packageSpec'|]
+// tag-#anon#UN[*{S8}_S8_'packageName'||*{SYM#tag-Z_ESExportSpecification#}_SYM#tag-Z_ESExportSpecification#_'packageSpec'|]
 // file /usr/include/yaz/zes-expi.h line 68
-union anonymous$87;
+union anonymous_87;
 
-// tag-#anon#UN[*{S8}$S8$'phoneNumber'||*{S8}$S8$'faxNumber'||*{S8}$S8$'x400address'||*{S8}$S8$'emailAddress'||*{S8}$S8$'pagerNumber'||*{S8}$S8$'ftpAddress'||*{S8}$S8$'ftamAddress'||*{S8}$S8$'printerAddress'||*{SYM#tag-Z_ESDestinationOther#}$SYM#tag-Z_ESDestinationOther#$'other'|]
+// tag-#anon#UN[*{S8}_S8_'phoneNumber'||*{S8}_S8_'faxNumber'||*{S8}_S8_'x400address'||*{S8}_S8_'emailAddress'||*{S8}_S8_'pagerNumber'||*{S8}_S8_'ftpAddress'||*{S8}_S8_'ftamAddress'||*{S8}_S8_'printerAddress'||*{SYM#tag-Z_ESDestinationOther#}_SYM#tag-Z_ESDestinationOther#_'other'|]
 // file /usr/include/yaz/zes-exps.h line 71
-union anonymous$85;
+union anonymous_85;
 
-// tag-#anon#UN[*{S8}$S8$'sortField'||*{SYM#tag-Z_Specification#}$SYM#tag-Z_Specification#$'elementSpec'||*{SYM#tag-Z_SortAttributes#}$SYM#tag-Z_SortAttributes#$'sortAttributes'|]
+// tag-#anon#UN[*{S8}_S8_'sortField'||*{SYM#tag-Z_Specification#}_SYM#tag-Z_Specification#_'elementSpec'||*{SYM#tag-Z_SortAttributes#}_SYM#tag-Z_SortAttributes#_'sortAttributes'|]
 // file /usr/include/yaz/z-core.h line 1109
-union anonymous$83;
+union anonymous_83;
 
-// tag-#anon#UN[*{S8}$S8$'string'||*{S32}$S32$'accept'||*{V}$V$'acknowledge'||*{SYM#tag-Z_DiagRec#}$SYM#tag-Z_DiagRec#$'diagnostic'||*{SYM#tag-Z_Encryption#}$SYM#tag-Z_Encryption#$'encrypted'|]
+// tag-#anon#UN[*{S8}_S8_'string'||*{S32}_S32_'accept'||*{V}_V_'acknowledge'||*{SYM#tag-Z_DiagRec#}_SYM#tag-Z_DiagRec#_'diagnostic'||*{SYM#tag-Z_Encryption#}_SYM#tag-Z_Encryption#_'encrypted'|]
 // file /usr/include/yaz/z-accform1.h line 88
-union anonymous$55;
+union anonymous_55;
 
-// tag-#anon#UN[*{S8}$S8$'string'||*{S64}$S64$'numeric'|]
+// tag-#anon#UN[*{S8}_S8_'string'||*{S64}_S64_'numeric'|]
 // file /usr/include/yaz/z-core.h line 1320
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[*{S8}$S8$'timeStamp'||*{S8}$S8$'versionNumber'||*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'previousVersion'|]
+// tag-#anon#UN[*{S8}_S8_'timeStamp'||*{S8}_S8_'versionNumber'||*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'previousVersion'|]
 // file /usr/include/yaz/zes-update.h line 105
-union anonymous$38;
+union anonymous_38;
 
-// tag-#anon#UN[*{S8}$S8$'v2Addinfo'||*{S8}$S8$'v3Addinfo'|]
+// tag-#anon#UN[*{S8}_S8_'v2Addinfo'||*{S8}_S8_'v3Addinfo'|]
 // file /usr/include/yaz/z-core.h line 745
-union anonymous$40;
+union anonymous_40;
 
-// tag-#anon#UN[*{SYM#tag-Z_AdminEsRequest#}$SYM#tag-Z_AdminEsRequest#$'esRequest'||*{SYM#tag-Z_AdminTaskPackage#}$SYM#tag-Z_AdminTaskPackage#$'taskPackage'|]
+// tag-#anon#UN[*{SYM#tag-Z_AdminEsRequest#}_SYM#tag-Z_AdminEsRequest#_'esRequest'||*{SYM#tag-Z_AdminTaskPackage#}_SYM#tag-Z_AdminTaskPackage#_'taskPackage'|]
 // file /usr/include/yaz/zes-admin.h line 54
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[*{SYM#tag-Z_AttributesPlusTerm#}$SYM#tag-Z_AttributesPlusTerm#$'attributesPlusTerm'||*{S8}$S8$'resultSetId'||*{SYM#tag-Z_ResultSetPlusAttributes#}$SYM#tag-Z_ResultSetPlusAttributes#$'resultAttr'|]
+// tag-#anon#UN[*{SYM#tag-Z_AttributesPlusTerm#}_SYM#tag-Z_AttributesPlusTerm#_'attributesPlusTerm'||*{S8}_S8_'resultSetId'||*{SYM#tag-Z_ResultSetPlusAttributes#}_SYM#tag-Z_ResultSetPlusAttributes#_'resultAttr'|]
 // file /usr/include/yaz/z-core.h line 511
-union anonymous$100;
+union anonymous_100;
 
-// tag-#anon#UN[*{SYM#tag-Z_Challenge1#}$SYM#tag-Z_Challenge1#$'challenge'||*{SYM#tag-Z_Response1#}$SYM#tag-Z_Response1#$'response'|]
+// tag-#anon#UN[*{SYM#tag-Z_Challenge1#}_SYM#tag-Z_Challenge1#_'challenge'||*{SYM#tag-Z_Response1#}_SYM#tag-Z_Response1#_'response'|]
 // file /usr/include/yaz/z-accform1.h line 47
-union anonymous$39;
+union anonymous_39;
 
-// tag-#anon#UN[*{SYM#tag-Z_DRNType#}$SYM#tag-Z_DRNType#$'challenge'||*{SYM#tag-Z_DRNType#}$SYM#tag-Z_DRNType#$'response'|]
+// tag-#anon#UN[*{SYM#tag-Z_DRNType#}_SYM#tag-Z_DRNType#_'challenge'||*{SYM#tag-Z_DRNType#}_SYM#tag-Z_DRNType#_'response'|]
 // file /usr/include/yaz/z-accdes1.h line 28
-union anonymous$43;
+union anonymous_43;
 
-// tag-#anon#UN[*{SYM#tag-Z_DateMonthAndDay#}$SYM#tag-Z_DateMonthAndDay#$'monthAndDay'||*{S64}$S64$'julianDay'||*{S64}$S64$'weekNumber'||*{SYM#tag-Z_DateQuarter#}$SYM#tag-Z_DateQuarter#$'quarter'||*{SYM#tag-Z_DateSeason#}$SYM#tag-Z_DateSeason#$'season'|]
+// tag-#anon#UN[*{SYM#tag-Z_DateMonthAndDay#}_SYM#tag-Z_DateMonthAndDay#_'monthAndDay'||*{S64}_S64_'julianDay'||*{S64}_S64_'weekNumber'||*{SYM#tag-Z_DateQuarter#}_SYM#tag-Z_DateQuarter#_'quarter'||*{SYM#tag-Z_DateSeason#}_SYM#tag-Z_DateSeason#_'season'|]
 // file /usr/include/yaz/z-date.h line 103
-union anonymous$41;
+union anonymous_41;
 
-// tag-#anon#UN[*{SYM#tag-Z_DefaultDiagFormat#}$SYM#tag-Z_DefaultDiagFormat#$'defaultDiagRec'||*{SYM#tag-Z_DiagFormat#}$SYM#tag-Z_DiagFormat#$'explicitDiagnostic'|]
+// tag-#anon#UN[*{SYM#tag-Z_DefaultDiagFormat#}_SYM#tag-Z_DefaultDiagFormat#_'defaultDiagRec'||*{SYM#tag-Z_DiagFormat#}_SYM#tag-Z_DiagFormat#_'explicitDiagnostic'|]
 // file /usr/include/yaz/z-diag1.h line 86
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[*{SYM#tag-Z_DefaultDiagFormat#}$SYM#tag-Z_DefaultDiagFormat#$'defaultFormat'||*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'externallyDefined'|]
+// tag-#anon#UN[*{SYM#tag-Z_DefaultDiagFormat#}_SYM#tag-Z_DefaultDiagFormat#_'defaultFormat'||*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'externallyDefined'|]
 // file /usr/include/yaz/z-core.h line 733
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[*{SYM#tag-Z_EIExportInvocationEsRequest#}$SYM#tag-Z_EIExportInvocationEsRequest#$'esRequest'||*{SYM#tag-Z_EIExportInvocationTaskPackage#}$SYM#tag-Z_EIExportInvocationTaskPackage#$'taskPackage'|]
+// tag-#anon#UN[*{SYM#tag-Z_EIExportInvocationEsRequest#}_SYM#tag-Z_EIExportInvocationEsRequest#_'esRequest'||*{SYM#tag-Z_EIExportInvocationTaskPackage#}_SYM#tag-Z_EIExportInvocationTaskPackage#_'taskPackage'|]
 // file /usr/include/yaz/zes-expi.h line 58
-union anonymous$86;
+union anonymous_86;
 
-// tag-#anon#UN[*{SYM#tag-Z_ESExportSpecificationEsRequest#}$SYM#tag-Z_ESExportSpecificationEsRequest#$'esRequest'||*{SYM#tag-Z_ESExportSpecificationTaskPackage#}$SYM#tag-Z_ESExportSpecificationTaskPackage#$'taskPackage'|]
+// tag-#anon#UN[*{SYM#tag-Z_ESExportSpecificationEsRequest#}_SYM#tag-Z_ESExportSpecificationEsRequest#_'esRequest'||*{SYM#tag-Z_ESExportSpecificationTaskPackage#}_SYM#tag-Z_ESExportSpecificationTaskPackage#_'taskPackage'|]
 // file /usr/include/yaz/zes-exps.h line 51
-union anonymous$84;
+union anonymous_84;
 
-// tag-#anon#UN[*{SYM#tag-Z_ElementRequestCompositeElementPrimitives#}$SYM#tag-Z_ElementRequestCompositeElementPrimitives#$'primitives'||*{SYM#tag-Z_ElementRequestCompositeElementSpecs#}$SYM#tag-Z_ElementRequestCompositeElementSpecs#$'specs'|]
+// tag-#anon#UN[*{SYM#tag-Z_ElementRequestCompositeElementPrimitives#}_SYM#tag-Z_ElementRequestCompositeElementPrimitives#_'primitives'||*{SYM#tag-Z_ElementRequestCompositeElementSpecs#}_SYM#tag-Z_ElementRequestCompositeElementSpecs#_'specs'|]
 // file /usr/include/yaz/z-espec1.h line 77
-union anonymous$26;
+union anonymous_26;
 
-// tag-#anon#UN[*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'databaseRecord'||*{SYM#tag-Z_DiagRec#}$SYM#tag-Z_DiagRec#$'surrogateDiagnostic'||*{SYM#tag-Z_FragmentSyntax#}$SYM#tag-Z_FragmentSyntax#$'startingFragment'||*{SYM#tag-Z_FragmentSyntax#}$SYM#tag-Z_FragmentSyntax#$'intermediateFragment'||*{SYM#tag-Z_FragmentSyntax#}$SYM#tag-Z_FragmentSyntax#$'finalFragment'|]
+// tag-#anon#UN[*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'databaseRecord'||*{SYM#tag-Z_DiagRec#}_SYM#tag-Z_DiagRec#_'surrogateDiagnostic'||*{SYM#tag-Z_FragmentSyntax#}_SYM#tag-Z_FragmentSyntax#_'startingFragment'||*{SYM#tag-Z_FragmentSyntax#}_SYM#tag-Z_FragmentSyntax#_'intermediateFragment'||*{SYM#tag-Z_FragmentSyntax#}_SYM#tag-Z_FragmentSyntax#_'finalFragment'|]
 // file /usr/include/yaz/z-core.h line 707
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'externallyTagged'||*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'notExternallyTagged'|]
+// tag-#anon#UN[*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'externallyTagged'||*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'notExternallyTagged'|]
 // file /usr/include/yaz/z-core.h line 723
-union anonymous$36;
+union anonymous_36;
 
-// tag-#anon#UN[*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'marcHoldingsRecord'||*{SYM#tag-Z_HoldingsAndCircData#}$SYM#tag-Z_HoldingsAndCircData#$'holdingsAndCirc'|]
+// tag-#anon#UN[*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'marcHoldingsRecord'||*{SYM#tag-Z_HoldingsAndCircData#}_SYM#tag-Z_HoldingsAndCircData#_'holdingsAndCirc'|]
 // file /usr/include/yaz/z-opac.h line 44
-union anonymous$34;
+union anonymous_34;
 
-// tag-#anon#UN[*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'record'||*{SYM#tag-Z_DiagRec#}$SYM#tag-Z_DiagRec#$'diagnostic'|]
+// tag-#anon#UN[*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'record'||*{SYM#tag-Z_DiagRec#}_SYM#tag-Z_DiagRec#_'diagnostic'|]
 // file /usr/include/yaz/zes-update0.h line 137
-union anonymous$37;
+union anonymous_37;
 
-// tag-#anon#UN[*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'record'||*{SYM#tag-Z_IUTaskPackageRecordStructureSurrogateDiagnostics#}$SYM#tag-Z_IUTaskPackageRecordStructureSurrogateDiagnostics#$'surrogateDiagnostics'|]
+// tag-#anon#UN[*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'record'||*{SYM#tag-Z_IUTaskPackageRecordStructureSurrogateDiagnostics#}_SYM#tag-Z_IUTaskPackageRecordStructureSurrogateDiagnostics#_'surrogateDiagnostics'|]
 // file /usr/include/yaz/zes-update.h line 147
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[*{SYM#tag-Z_IORequest#}$SYM#tag-Z_IORequest#$'esRequest'||*{SYM#tag-Z_IOTaskPackage#}$SYM#tag-Z_IOTaskPackage#$'taskPackage'|]
+// tag-#anon#UN[*{SYM#tag-Z_IORequest#}_SYM#tag-Z_IORequest#_'esRequest'||*{SYM#tag-Z_IOTaskPackage#}_SYM#tag-Z_IOTaskPackage#_'taskPackage'|]
 // file /usr/include/yaz/zes-order.h line 63
-union anonymous$90;
+union anonymous_90;
 
-// tag-#anon#UN[*{SYM#tag-Z_IU0UpdateEsRequest#}$SYM#tag-Z_IU0UpdateEsRequest#$'esRequest'||*{SYM#tag-Z_IU0UpdateTaskPackage#}$SYM#tag-Z_IU0UpdateTaskPackage#$'taskPackage'|]
+// tag-#anon#UN[*{SYM#tag-Z_IU0UpdateEsRequest#}_SYM#tag-Z_IU0UpdateEsRequest#_'esRequest'||*{SYM#tag-Z_IU0UpdateTaskPackage#}_SYM#tag-Z_IU0UpdateTaskPackage#_'taskPackage'|]
 // file /usr/include/yaz/zes-update0.h line 66
-union anonymous$33;
+union anonymous_33;
 
-// tag-#anon#UN[*{SYM#tag-Z_IUUpdateEsRequest#}$SYM#tag-Z_IUUpdateEsRequest#$'esRequest'||*{SYM#tag-Z_IUUpdateTaskPackage#}$SYM#tag-Z_IUUpdateTaskPackage#$'taskPackage'|]
+// tag-#anon#UN[*{SYM#tag-Z_IUUpdateEsRequest#}_SYM#tag-Z_IUUpdateEsRequest#_'esRequest'||*{SYM#tag-Z_IUUpdateTaskPackage#}_SYM#tag-Z_IUUpdateTaskPackage#_'taskPackage'|]
 // file /usr/include/yaz/zes-update.h line 69
 union anonymous;
 
-// tag-#anon#UN[*{SYM#tag-Z_IntUnit#}$SYM#tag-Z_IntUnit#$'unit'||*{V}$V$'businessDaily'||*{V}$V$'continuous'||*{S8}$S8$'other'|]
+// tag-#anon#UN[*{SYM#tag-Z_IntUnit#}_SYM#tag-Z_IntUnit#_'unit'||*{V}_V_'businessDaily'||*{V}_V_'continuous'||*{S8}_S8_'other'|]
 // file /usr/include/yaz/zes-psched.h line 106
-union anonymous$99;
+union anonymous_99;
 
-// tag-#anon#UN[*{SYM#tag-Z_Iso2022#}$SYM#tag-Z_Iso2022#$'iso2022'||*{SYM#tag-Z_Iso10646#}$SYM#tag-Z_Iso10646#$'iso10646'||*{SYM#tag-Z_PrivateCharacterSet#}$SYM#tag-Z_PrivateCharacterSet#$'zprivate'|]
+// tag-#anon#UN[*{SYM#tag-Z_Iso2022#}_SYM#tag-Z_Iso2022#_'iso2022'||*{SYM#tag-Z_Iso10646#}_SYM#tag-Z_Iso10646#_'iso10646'||*{SYM#tag-Z_PrivateCharacterSet#}_SYM#tag-Z_PrivateCharacterSet#_'zprivate'|]
 // file /usr/include/yaz/z-charneg.h line 72
-union anonymous$69;
+union anonymous_69;
 
-// tag-#anon#UN[*{SYM#tag-Z_Iso2022#}$SYM#tag-Z_Iso2022#$'iso2022'||*{SYM#tag-Z_Iso10646#}$SYM#tag-Z_Iso10646#$'iso10646'||*{SYM#tag-Z_PrivateCharacterSet#}$SYM#tag-Z_PrivateCharacterSet#$'zprivate'||*{V}$V$'none'|]
+// tag-#anon#UN[*{SYM#tag-Z_Iso2022#}_SYM#tag-Z_Iso2022#_'iso2022'||*{SYM#tag-Z_Iso10646#}_SYM#tag-Z_Iso10646#_'iso10646'||*{SYM#tag-Z_PrivateCharacterSet#}_SYM#tag-Z_PrivateCharacterSet#_'zprivate'||*{V}_V_'none'|]
 // file /usr/include/yaz/z-charneg.h line 92
-union anonymous$72;
+union anonymous_72;
 
-// tag-#anon#UN[*{SYM#tag-Z_Iso2022OriginProposal#}$SYM#tag-Z_Iso2022OriginProposal#$'originProposal'||*{SYM#tag-Z_Iso2022TargetResponse#}$SYM#tag-Z_Iso2022TargetResponse#$'targetResponse'|]
+// tag-#anon#UN[*{SYM#tag-Z_Iso2022OriginProposal#}_SYM#tag-Z_Iso2022OriginProposal#_'originProposal'||*{SYM#tag-Z_Iso2022TargetResponse#}_SYM#tag-Z_Iso2022TargetResponse#_'targetResponse'|]
 // file /usr/include/yaz/z-charneg.h line 142
-union anonymous$81;
+union anonymous_81;
 
-// tag-#anon#UN[*{SYM#tag-Z_KRBRequest#}$SYM#tag-Z_KRBRequest#$'challenge'||*{SYM#tag-Z_KRBResponse#}$SYM#tag-Z_KRBResponse#$'response'|]
+// tag-#anon#UN[*{SYM#tag-Z_KRBRequest#}_SYM#tag-Z_KRBRequest#_'challenge'||*{SYM#tag-Z_KRBResponse#}_SYM#tag-Z_KRBResponse#_'response'|]
 // file /usr/include/yaz/z-acckrb1.h line 32
-union anonymous$44;
+union anonymous_44;
 
-// tag-#anon#UN[*{SYM#tag-Z_NetworkAddressIA#}$SYM#tag-Z_NetworkAddressIA#$'internetAddress'||*{SYM#tag-Z_NetworkAddressOPA#}$SYM#tag-Z_NetworkAddressOPA#$'osiPresentationAddress'||*{SYM#tag-Z_NetworkAddressOther#}$SYM#tag-Z_NetworkAddressOther#$'other'|]
+// tag-#anon#UN[*{SYM#tag-Z_NetworkAddressIA#}_SYM#tag-Z_NetworkAddressIA#_'internetAddress'||*{SYM#tag-Z_NetworkAddressOPA#}_SYM#tag-Z_NetworkAddressOPA#_'osiPresentationAddress'||*{SYM#tag-Z_NetworkAddressOther#}_SYM#tag-Z_NetworkAddressOther#_'other'|]
 // file /usr/include/yaz/z-exp.h line 834
-union anonymous$57;
+union anonymous_57;
 
-// tag-#anon#UN[*{SYM#tag-Z_Operand#}$SYM#tag-Z_Operand#$'simple'||*{SYM#tag-Z_Complex#}$SYM#tag-Z_Complex#$'complex'|]
+// tag-#anon#UN[*{SYM#tag-Z_Operand#}_SYM#tag-Z_Operand#_'simple'||*{SYM#tag-Z_Complex#}_SYM#tag-Z_Complex#_'complex'|]
 // file /usr/include/yaz/z-core.h line 501
-union anonymous$27;
+union anonymous_27;
 
-// tag-#anon#UN[*{SYM#tag-Z_OriginProposal#}$SYM#tag-Z_OriginProposal#$'proposal'||*{SYM#tag-Z_TargetResponse#}$SYM#tag-Z_TargetResponse#$'response'|]
+// tag-#anon#UN[*{SYM#tag-Z_OriginProposal#}_SYM#tag-Z_OriginProposal#_'proposal'||*{SYM#tag-Z_TargetResponse#}_SYM#tag-Z_TargetResponse#_'response'|]
 // file /usr/include/yaz/z-charneg.h line 62
-union anonymous$63;
+union anonymous_63;
 
-// tag-#anon#UN[*{SYM#tag-Z_PQSPeriodicQueryScheduleEsRequest#}$SYM#tag-Z_PQSPeriodicQueryScheduleEsRequest#$'esRequest'||*{SYM#tag-Z_PQSPeriodicQueryScheduleTaskPackage#}$SYM#tag-Z_PQSPeriodicQueryScheduleTaskPackage#$'taskPackage'|]
+// tag-#anon#UN[*{SYM#tag-Z_PQSPeriodicQueryScheduleEsRequest#}_SYM#tag-Z_PQSPeriodicQueryScheduleEsRequest#_'esRequest'||*{SYM#tag-Z_PQSPeriodicQueryScheduleTaskPackage#}_SYM#tag-Z_PQSPeriodicQueryScheduleTaskPackage#_'taskPackage'|]
 // file /usr/include/yaz/zes-psched.h line 55
-union anonymous$95;
+union anonymous_95;
 
-// tag-#anon#UN[*{SYM#tag-Z_PQueryPersistentQueryEsRequest#}$SYM#tag-Z_PQueryPersistentQueryEsRequest#$'esRequest'||*{SYM#tag-Z_PQueryPersistentQueryTaskPackage#}$SYM#tag-Z_PQueryPersistentQueryTaskPackage#$'taskPackage'|]
+// tag-#anon#UN[*{SYM#tag-Z_PQueryPersistentQueryEsRequest#}_SYM#tag-Z_PQueryPersistentQueryEsRequest#_'esRequest'||*{SYM#tag-Z_PQueryPersistentQueryTaskPackage#}_SYM#tag-Z_PQueryPersistentQueryTaskPackage#_'taskPackage'|]
 // file /usr/include/yaz/zes-pquery.h line 51
-union anonymous$93;
+union anonymous_93;
 
-// tag-#anon#UN[*{SYM#tag-Z_PRPersistentResultSetEsRequest#}$SYM#tag-Z_PRPersistentResultSetEsRequest#$'esRequest'||*{SYM#tag-Z_PRPersistentResultSetTaskPackage#}$SYM#tag-Z_PRPersistentResultSetTaskPackage#$'taskPackage'|]
+// tag-#anon#UN[*{SYM#tag-Z_PRPersistentResultSetEsRequest#}_SYM#tag-Z_PRPersistentResultSetEsRequest#_'esRequest'||*{SYM#tag-Z_PRPersistentResultSetTaskPackage#}_SYM#tag-Z_PRPersistentResultSetTaskPackage#_'taskPackage'|]
 // file /usr/include/yaz/zes-pset.h line 48
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[*{SYM#tag-Z_PrivateCapabilities#}$SYM#tag-Z_PrivateCapabilities#$'zprivate'||*{SYM#tag-Z_RpnCapabilities#}$SYM#tag-Z_RpnCapabilities#$'rpn'||*{SYM#tag-Z_Iso8777Capabilities#}$SYM#tag-Z_Iso8777Capabilities#$'iso8777'||*{SYM#tag-Z_HumanString#}$SYM#tag-Z_HumanString#$'z39_58'||*{SYM#tag-Z_RpnCapabilities#}$SYM#tag-Z_RpnCapabilities#$'erpn'||*{SYM#tag-Z_HumanString#}$SYM#tag-Z_HumanString#$'rankedList'|]
+// tag-#anon#UN[*{SYM#tag-Z_PrivateCapabilities#}_SYM#tag-Z_PrivateCapabilities#_'zprivate'||*{SYM#tag-Z_RpnCapabilities#}_SYM#tag-Z_RpnCapabilities#_'rpn'||*{SYM#tag-Z_Iso8777Capabilities#}_SYM#tag-Z_Iso8777Capabilities#_'iso8777'||*{SYM#tag-Z_HumanString#}_SYM#tag-Z_HumanString#_'z39_58'||*{SYM#tag-Z_RpnCapabilities#}_SYM#tag-Z_RpnCapabilities#_'erpn'||*{SYM#tag-Z_HumanString#}_SYM#tag-Z_HumanString#_'rankedList'|]
 // file /usr/include/yaz/z-exp.h line 869
-union anonymous$76;
+union anonymous_76;
 
-// tag-#anon#UN[*{SYM#tag-Z_PrivateCharacterSetViaOid#}$SYM#tag-Z_PrivateCharacterSetViaOid#$'viaOid'||*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'externallySpecified'||*{V}$V$'previouslyAgreedUpon'|]
+// tag-#anon#UN[*{SYM#tag-Z_PrivateCharacterSetViaOid#}_SYM#tag-Z_PrivateCharacterSetViaOid#_'viaOid'||*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'externallySpecified'||*{V}_V_'previouslyAgreedUpon'|]
 // file /usr/include/yaz/z-charneg.h line 113
-union anonymous$77;
+union anonymous_77;
 
-// tag-#anon#UN[*{SYM#tag-Z_PromptIdEnumeratedPrompt#}$SYM#tag-Z_PromptIdEnumeratedPrompt#$'enumeratedPrompt'||*{S8}$S8$'nonEnumeratedPrompt'|]
+// tag-#anon#UN[*{SYM#tag-Z_PromptIdEnumeratedPrompt#}_SYM#tag-Z_PromptIdEnumeratedPrompt#_'enumeratedPrompt'||*{S8}_S8_'nonEnumeratedPrompt'|]
 // file /usr/include/yaz/z-accform1.h line 120
-union anonymous$50;
+union anonymous_50;
 
-// tag-#anon#UN[*{SYM#tag-Z_Query#}$SYM#tag-Z_Query#$'actualQuery'||*{S8}$S8$'packageName'|]
+// tag-#anon#UN[*{SYM#tag-Z_Query#}_SYM#tag-Z_Query#_'actualQuery'||*{S8}_S8_'packageName'|]
 // file /usr/include/yaz/zes-psched.h line 83
-union anonymous$98;
+union anonymous_98;
 
-// tag-#anon#UN[*{SYM#tag-Z_QueryExpressionTerm#}$SYM#tag-Z_QueryExpressionTerm#$'term'||*{SYM#tag-Z_Query#}$SYM#tag-Z_Query#$'query'|]
+// tag-#anon#UN[*{SYM#tag-Z_QueryExpressionTerm#}_SYM#tag-Z_QueryExpressionTerm#_'term'||*{SYM#tag-Z_Query#}_SYM#tag-Z_Query#_'query'|]
 // file /usr/include/yaz/z-uifr1.h line 87
-union anonymous$79;
+union anonymous_79;
 
-// tag-#anon#UN[*{SYM#tag-Z_Segment#}$SYM#tag-Z_Segment#$'records'||*{V}$V$'recordsWillFollow'|]
+// tag-#anon#UN[*{SYM#tag-Z_Segment#}_SYM#tag-Z_Segment#_'records'||*{V}_V_'recordsWillFollow'|]
 // file /usr/include/yaz/zes-admin.h line 89
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[*{SYM#tag-Z_SimpleElement#}$SYM#tag-Z_SimpleElement#$'simpleElement'||*{SYM#tag-Z_ElementRequestCompositeElement#}$SYM#tag-Z_ElementRequestCompositeElement#$'compositeElement'|]
+// tag-#anon#UN[*{SYM#tag-Z_SimpleElement#}_SYM#tag-Z_SimpleElement#_'simpleElement'||*{SYM#tag-Z_ElementRequestCompositeElement#}_SYM#tag-Z_ElementRequestCompositeElement#_'compositeElement'|]
 // file /usr/include/yaz/z-espec1.h line 89
-union anonymous$29;
+union anonymous_29;
 
-// tag-#anon#UN[*{SYM#tag-Z_SortKey#}$SYM#tag-Z_SortKey#$'generic'||*{SYM#tag-Z_SortDbSpecificList#}$SYM#tag-Z_SortDbSpecificList#$'databaseSpecific'|]
+// tag-#anon#UN[*{SYM#tag-Z_SortKey#}_SYM#tag-Z_SortKey#_'generic'||*{SYM#tag-Z_SortDbSpecificList#}_SYM#tag-Z_SortDbSpecificList#_'databaseSpecific'|]
 // file /usr/include/yaz/z-core.h line 1094
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[*{SYM#tag-Z_SpecificTag#}$SYM#tag-Z_SpecificTag#$'specificTag'||*{SYM#tag-Z_Occurrences#}$SYM#tag-Z_Occurrences#$'wildThing'||*{V}$V$'wildPath'|]
+// tag-#anon#UN[*{SYM#tag-Z_SpecificTag#}_SYM#tag-Z_SpecificTag#_'specificTag'||*{SYM#tag-Z_Occurrences#}_SYM#tag-Z_Occurrences#_'wildThing'||*{V}_V_'wildPath'|]
 // file /usr/include/yaz/z-espec1.h line 110
-union anonymous$32;
+union anonymous_32;
 
-// tag-#anon#UN[*{SYM#tag-Z_TargetInfo#}$SYM#tag-Z_TargetInfo#$'targetInfo'||*{SYM#tag-Z_DatabaseInfo#}$SYM#tag-Z_DatabaseInfo#$'databaseInfo'||*{SYM#tag-Z_SchemaInfo#}$SYM#tag-Z_SchemaInfo#$'schemaInfo'||*{SYM#tag-Z_TagSetInfo#}$SYM#tag-Z_TagSetInfo#$'tagSetInfo'||*{SYM#tag-Z_RecordSyntaxInfo#}$SYM#tag-Z_RecordSyntaxInfo#$'recordSyntaxInfo'||*{SYM#tag-Z_AttributeSetInfo#}$SYM#tag-Z_AttributeSetInfo#$'attributeSetInfo'||*{SYM#tag-Z_TermListInfo#}$SYM#tag-Z_TermListInfo#$'termListInfo'||*{SYM#tag-Z_ExtendedServicesInfo#}$SYM#tag-Z_ExtendedServicesInfo#$'extendedServicesInfo'||*{SYM#tag-Z_AttributeDetails#}$SYM#tag-Z_AttributeDetails#$'attributeDetails'||*{SYM#tag-Z_TermListDetails#}$SYM#tag-Z_TermListDetails#$'termListDetails'||*{SYM#tag-Z_ElementSetDetails#}$SYM#tag-Z_ElementSetDetails#$'elementSetDetails'||*{SYM#tag-Z_RetrievalRecordDetails#}$SYM#tag-Z_RetrievalRecordDetails#$'retrievalRecordDetails'||*{SYM#tag-Z_SortDetails#}$SYM#tag-Z_SortDetails#$'sortDetails'||*{SYM#tag-Z_ProcessingInformation#}$SYM#tag-Z_ProcessingInformation#$'processing'||*{SYM#tag-Z_VariantSetInfo#}$SYM#tag-Z_VariantSetInfo#$'variants'||*{SYM#tag-Z_UnitInfo#}$SYM#tag-Z_UnitInfo#$'units'||*{SYM#tag-Z_CategoryList#}$SYM#tag-Z_CategoryList#$'categoryList'|]
+// tag-#anon#UN[*{SYM#tag-Z_TargetInfo#}_SYM#tag-Z_TargetInfo#_'targetInfo'||*{SYM#tag-Z_DatabaseInfo#}_SYM#tag-Z_DatabaseInfo#_'databaseInfo'||*{SYM#tag-Z_SchemaInfo#}_SYM#tag-Z_SchemaInfo#_'schemaInfo'||*{SYM#tag-Z_TagSetInfo#}_SYM#tag-Z_TagSetInfo#_'tagSetInfo'||*{SYM#tag-Z_RecordSyntaxInfo#}_SYM#tag-Z_RecordSyntaxInfo#_'recordSyntaxInfo'||*{SYM#tag-Z_AttributeSetInfo#}_SYM#tag-Z_AttributeSetInfo#_'attributeSetInfo'||*{SYM#tag-Z_TermListInfo#}_SYM#tag-Z_TermListInfo#_'termListInfo'||*{SYM#tag-Z_ExtendedServicesInfo#}_SYM#tag-Z_ExtendedServicesInfo#_'extendedServicesInfo'||*{SYM#tag-Z_AttributeDetails#}_SYM#tag-Z_AttributeDetails#_'attributeDetails'||*{SYM#tag-Z_TermListDetails#}_SYM#tag-Z_TermListDetails#_'termListDetails'||*{SYM#tag-Z_ElementSetDetails#}_SYM#tag-Z_ElementSetDetails#_'elementSetDetails'||*{SYM#tag-Z_RetrievalRecordDetails#}_SYM#tag-Z_RetrievalRecordDetails#_'retrievalRecordDetails'||*{SYM#tag-Z_SortDetails#}_SYM#tag-Z_SortDetails#_'sortDetails'||*{SYM#tag-Z_ProcessingInformation#}_SYM#tag-Z_ProcessingInformation#_'processing'||*{SYM#tag-Z_VariantSetInfo#}_SYM#tag-Z_VariantSetInfo#_'variants'||*{SYM#tag-Z_UnitInfo#}_SYM#tag-Z_UnitInfo#_'units'||*{SYM#tag-Z_CategoryList#}_SYM#tag-Z_CategoryList#_'categoryList'|]
 // file /usr/include/yaz/z-exp.h line 257
-union anonymous$51;
+union anonymous_51;
 
-// tag-#anon#UN[*{SYM#tag-Z_TooMany#}$SYM#tag-Z_TooMany#$'tooMany'||*{SYM#tag-Z_BadSpec#}$SYM#tag-Z_BadSpec#$'badSpec'||*{SYM#tag-Z_DbUnavail#}$SYM#tag-Z_DbUnavail#$'dbUnavail'||*{S64}$S64$'unSupOp'||*{SYM#tag-Z_Attribute#}$SYM#tag-Z_Attribute#$'attribute'||*{SYM#tag-Z_AttCombo#}$SYM#tag-Z_AttCombo#$'attCombo'||*{SYM#tag-Z_DiagTerm#}$SYM#tag-Z_DiagTerm#$'term'||*{SYM#tag-Z_Proximity#}$SYM#tag-Z_Proximity#$'proximity'||*{SYM#tag-Z_Scan#}$SYM#tag-Z_Scan#$'scan'||*{SYM#tag-Z_Sort#}$SYM#tag-Z_Sort#$'sort'||*{SYM#tag-Z_Segmentation#}$SYM#tag-Z_Segmentation#$'segmentation'||*{SYM#tag-Z_ExtServices#}$SYM#tag-Z_ExtServices#$'extServices'||*{SYM#tag-Z_AccessCtrl#}$SYM#tag-Z_AccessCtrl#$'accessCtrl'||*{SYM#tag-Z_RecordSyntax#}$SYM#tag-Z_RecordSyntax#$'recordSyntax'|]
+// tag-#anon#UN[*{SYM#tag-Z_TooMany#}_SYM#tag-Z_TooMany#_'tooMany'||*{SYM#tag-Z_BadSpec#}_SYM#tag-Z_BadSpec#_'badSpec'||*{SYM#tag-Z_DbUnavail#}_SYM#tag-Z_DbUnavail#_'dbUnavail'||*{S64}_S64_'unSupOp'||*{SYM#tag-Z_Attribute#}_SYM#tag-Z_Attribute#_'attribute'||*{SYM#tag-Z_AttCombo#}_SYM#tag-Z_AttCombo#_'attCombo'||*{SYM#tag-Z_DiagTerm#}_SYM#tag-Z_DiagTerm#_'term'||*{SYM#tag-Z_Proximity#}_SYM#tag-Z_Proximity#_'proximity'||*{SYM#tag-Z_Scan#}_SYM#tag-Z_Scan#_'scan'||*{SYM#tag-Z_Sort#}_SYM#tag-Z_Sort#_'sort'||*{SYM#tag-Z_Segmentation#}_SYM#tag-Z_Segmentation#_'segmentation'||*{SYM#tag-Z_ExtServices#}_SYM#tag-Z_ExtServices#_'extServices'||*{SYM#tag-Z_AccessCtrl#}_SYM#tag-Z_AccessCtrl#_'accessCtrl'||*{SYM#tag-Z_RecordSyntax#}_SYM#tag-Z_RecordSyntax#_'recordSyntax'|]
 // file /usr/include/yaz/z-diag1.h line 318
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[*{SYM#tag-Z_UniverseReportHits#}$SYM#tag-Z_UniverseReportHits#$'databaseHits'||*{SYM#tag-Z_UniverseReportDuplicate#}$SYM#tag-Z_UniverseReportDuplicate#$'duplicate'|]
+// tag-#anon#UN[*{SYM#tag-Z_UniverseReportHits#}_SYM#tag-Z_UniverseReportHits#_'databaseHits'||*{SYM#tag-Z_UniverseReportDuplicate#}_SYM#tag-Z_UniverseReportDuplicate#_'duplicate'|]
 // file /usr/include/yaz/z-univ.h line 42
-union anonymous$30;
+union anonymous_30;
 
-// tag-#anon#UN[*{SYM#tag-Z_ValueRange#}$SYM#tag-Z_ValueRange#$'range'||*{SYM#tag-Z_ValueSetEnumerated#}$SYM#tag-Z_ValueSetEnumerated#$'enumerated'|]
+// tag-#anon#UN[*{SYM#tag-Z_ValueRange#}_SYM#tag-Z_ValueRange#_'range'||*{SYM#tag-Z_ValueSetEnumerated#}_SYM#tag-Z_ValueSetEnumerated#_'enumerated'|]
 // file /usr/include/yaz/z-exp.h line 703
-union anonymous$73;
+union anonymous_73;
 
-// tag-#anon#UN[*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'general'||*{S64}$S64$'numeric'||*{S8}$S8$'characterString'||*{S16}$S16$'oid'||*{S8}$S8$'dateTime'||*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'external'||*{SYM#tag-Z_IntUnit#}$SYM#tag-Z_IntUnit#$'integerAndUnit'||*{V}$V$'null'|]
+// tag-#anon#UN[*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'general'||*{S64}_S64_'numeric'||*{S8}_S8_'characterString'||*{S16}_S16_'oid'||*{S8}_S8_'dateTime'||*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'external'||*{SYM#tag-Z_IntUnit#}_SYM#tag-Z_IntUnit#_'integerAndUnit'||*{V}_V_'null'|]
 // file /usr/include/yaz/z-core.h line 538
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'octets'||*{S64}$S64$'numeric'||*{S8}$S8$'date'||*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'ext'||*{S8}$S8$'string'||*{S32}$S32$'trueOrFalse'||*{S16}$S16$'oid'||*{SYM#tag-Z_IntUnit#}$SYM#tag-Z_IntUnit#$'intUnit'||*{V}$V$'elementNotThere'||*{V}$V$'elementEmpty'||*{V}$V$'noDataRequested'||*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'diagnostic'||*{SYM#tag-Z_GenericRecord#}$SYM#tag-Z_GenericRecord#$'subtree'|]
+// tag-#anon#UN[*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'octets'||*{S64}_S64_'numeric'||*{S8}_S8_'date'||*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'ext'||*{S8}_S8_'string'||*{S32}_S32_'trueOrFalse'||*{S16}_S16_'oid'||*{SYM#tag-Z_IntUnit#}_SYM#tag-Z_IntUnit#_'intUnit'||*{V}_V_'elementNotThere'||*{V}_V_'elementEmpty'||*{V}_V_'noDataRequested'||*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'diagnostic'||*{SYM#tag-Z_GenericRecord#}_SYM#tag-Z_GenericRecord#_'subtree'|]
 // file /usr/include/yaz/z-grs.h line 70
-union anonymous$28;
+union anonymous_28;
 
-// tag-#anon#UN[*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'single_ASN1_type'||*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'octet_aligned'||*{SYM#tag-odr_bitmask#}$SYM#tag-odr_bitmask#$'arbitrary'||*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'sutrs'||*{SYM#tag-Z_ExplainRecord#}$SYM#tag-Z_ExplainRecord#$'explainRecord'||*{SYM#tag-Z_ResourceReport1#}$SYM#tag-Z_ResourceReport1#$'resourceReport1'||*{SYM#tag-Z_ResourceReport2#}$SYM#tag-Z_ResourceReport2#$'resourceReport2'||*{SYM#tag-Z_PromptObject1#}$SYM#tag-Z_PromptObject1#$'promptObject1'||*{SYM#tag-Z_GenericRecord#}$SYM#tag-Z_GenericRecord#$'grs1'||*{SYM#tag-Z_TaskPackage#}$SYM#tag-Z_TaskPackage#$'extendedService'||*{SYM#tag-Z_IOItemOrder#}$SYM#tag-Z_IOItemOrder#$'itemOrder'||*{SYM#tag-Z_DiagnosticFormat#}$SYM#tag-Z_DiagnosticFormat#$'diag1'||*{SYM#tag-Z_Espec1#}$SYM#tag-Z_Espec1#$'espec1'||*{SYM#tag-Z_BriefBib#}$SYM#tag-Z_BriefBib#$'summary'||*{SYM#tag-Z_OPACRecord#}$SYM#tag-Z_OPACRecord#$'opac'||*{SYM#tag-Z_SearchInfoReport#}$SYM#tag-Z_SearchInfoReport#$'searchResult1'||*{SYM#tag-Z_IUUpdate#}$SYM#tag-Z_IUUpdate#$'update'||*{SYM#tag-Z_DateTime#}$SYM#tag-Z_DateTime#$'dateTime'||*{SYM#tag-Z_UniverseReport#}$SYM#tag-Z_UniverseReport#$'universeReport'||*{SYM#tag-Z_Admin#}$SYM#tag-Z_Admin#$'adminService'||*{SYM#tag-Z_IU0Update#}$SYM#tag-Z_IU0Update#$'update0'||*{SYM#tag-Z_OtherInformation#}$SYM#tag-Z_OtherInformation#$'userInfo1'||*{SYM#tag-Z_CharSetandLanguageNegotiation#}$SYM#tag-Z_CharSetandLanguageNegotiation#$'charNeg3'||*{SYM#tag-Z_PromptObject1#}$SYM#tag-Z_PromptObject1#$'acfPrompt1'||*{SYM#tag-Z_DES_RN_Object#}$SYM#tag-Z_DES_RN_Object#$'acfDes1'||*{SYM#tag-Z_KRBObject#}$SYM#tag-Z_KRBObject#$'acfKrb1'||*{SYM#tag-Z_MultipleSearchTerms_2#}$SYM#tag-Z_MultipleSearchTerms_2#$'multipleSearchTerms_2'||*{S8}$S8$'cql'||*{SYM#tag-Z_OCLC_UserInformation#}$SYM#tag-Z_OCLC_UserInformation#$'oclc'||*{SYM#tag-Z_PRPersistentResultSet#}$SYM#tag-Z_PRPersistentResultSet#$'persistentResultSet'||*{SYM#tag-Z_PQueryPersistentQuery#}$SYM#tag-Z_PQueryPersistentQuery#$'persistentQuery'||*{SYM#tag-Z_PQSPeriodicQuerySchedule#}$SYM#tag-Z_PQSPeriodicQuerySchedule#$'periodicQuerySchedule'||*{SYM#tag-Z_ESExportSpecification#}$SYM#tag-Z_ESExportSpecification#$'exportSpecification'||*{SYM#tag-Z_EIExportInvocation#}$SYM#tag-Z_EIExportInvocation#$'exportInvocation'||*{SYM#tag-Z_FacetList#}$SYM#tag-Z_FacetList#$'facetList'|]
+// tag-#anon#UN[*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'single_ASN1_type'||*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'octet_aligned'||*{SYM#tag-odr_bitmask#}_SYM#tag-odr_bitmask#_'arbitrary'||*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'sutrs'||*{SYM#tag-Z_ExplainRecord#}_SYM#tag-Z_ExplainRecord#_'explainRecord'||*{SYM#tag-Z_ResourceReport1#}_SYM#tag-Z_ResourceReport1#_'resourceReport1'||*{SYM#tag-Z_ResourceReport2#}_SYM#tag-Z_ResourceReport2#_'resourceReport2'||*{SYM#tag-Z_PromptObject1#}_SYM#tag-Z_PromptObject1#_'promptObject1'||*{SYM#tag-Z_GenericRecord#}_SYM#tag-Z_GenericRecord#_'grs1'||*{SYM#tag-Z_TaskPackage#}_SYM#tag-Z_TaskPackage#_'extendedService'||*{SYM#tag-Z_IOItemOrder#}_SYM#tag-Z_IOItemOrder#_'itemOrder'||*{SYM#tag-Z_DiagnosticFormat#}_SYM#tag-Z_DiagnosticFormat#_'diag1'||*{SYM#tag-Z_Espec1#}_SYM#tag-Z_Espec1#_'espec1'||*{SYM#tag-Z_BriefBib#}_SYM#tag-Z_BriefBib#_'summary'||*{SYM#tag-Z_OPACRecord#}_SYM#tag-Z_OPACRecord#_'opac'||*{SYM#tag-Z_SearchInfoReport#}_SYM#tag-Z_SearchInfoReport#_'searchResult1'||*{SYM#tag-Z_IUUpdate#}_SYM#tag-Z_IUUpdate#_'update'||*{SYM#tag-Z_DateTime#}_SYM#tag-Z_DateTime#_'dateTime'||*{SYM#tag-Z_UniverseReport#}_SYM#tag-Z_UniverseReport#_'universeReport'||*{SYM#tag-Z_Admin#}_SYM#tag-Z_Admin#_'adminService'||*{SYM#tag-Z_IU0Update#}_SYM#tag-Z_IU0Update#_'update0'||*{SYM#tag-Z_OtherInformation#}_SYM#tag-Z_OtherInformation#_'userInfo1'||*{SYM#tag-Z_CharSetandLanguageNegotiation#}_SYM#tag-Z_CharSetandLanguageNegotiation#_'charNeg3'||*{SYM#tag-Z_PromptObject1#}_SYM#tag-Z_PromptObject1#_'acfPrompt1'||*{SYM#tag-Z_DES_RN_Object#}_SYM#tag-Z_DES_RN_Object#_'acfDes1'||*{SYM#tag-Z_KRBObject#}_SYM#tag-Z_KRBObject#_'acfKrb1'||*{SYM#tag-Z_MultipleSearchTerms_2#}_SYM#tag-Z_MultipleSearchTerms_2#_'multipleSearchTerms_2'||*{S8}_S8_'cql'||*{SYM#tag-Z_OCLC_UserInformation#}_SYM#tag-Z_OCLC_UserInformation#_'oclc'||*{SYM#tag-Z_PRPersistentResultSet#}_SYM#tag-Z_PRPersistentResultSet#_'persistentResultSet'||*{SYM#tag-Z_PQueryPersistentQuery#}_SYM#tag-Z_PQueryPersistentQuery#_'persistentQuery'||*{SYM#tag-Z_PQSPeriodicQuerySchedule#}_SYM#tag-Z_PQSPeriodicQuerySchedule#_'periodicQuerySchedule'||*{SYM#tag-Z_ESExportSpecification#}_SYM#tag-Z_ESExportSpecification#_'exportSpecification'||*{SYM#tag-Z_EIExportInvocation#}_SYM#tag-Z_EIExportInvocation#_'exportInvocation'||*{SYM#tag-Z_FacetList#}_SYM#tag-Z_FacetList#_'facetList'|]
 // file /usr/include/yaz/prt-ext.h line 101
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[*{V}$V$'all'||*{SYM#tag-Z_EIOriginPartNotToKeepRanges#}$SYM#tag-Z_EIOriginPartNotToKeepRanges#$'ranges'|]
+// tag-#anon#UN[*{V}_V_'all'||*{SYM#tag-Z_EIOriginPartNotToKeepRanges#}_SYM#tag-Z_EIOriginPartNotToKeepRanges#_'ranges'|]
 // file /usr/include/yaz/zes-expi.h line 90
-union anonymous$88;
+union anonymous_88;
 
-// tag-#anon#UN[*{V}$V$'all'||*{SYM#tag-Z_ResultsByDB_sList#}$SYM#tag-Z_ResultsByDB_sList#$'list'|]
+// tag-#anon#UN[*{V}_V_'all'||*{SYM#tag-Z_ResultsByDB_sList#}_SYM#tag-Z_ResultsByDB_sList#_'list'|]
 // file /usr/include/yaz/z-uifr1.h line 65
-union anonymous$80;
+union anonymous_80;
 
-// tag-#anon#UN[*{V}$V$'all'||*{V}$V$'last'||*{SYM#tag-Z_OccurValues#}$SYM#tag-Z_OccurValues#$'values'|]
+// tag-#anon#UN[*{V}_V_'all'||*{V}_V_'last'||*{SYM#tag-Z_OccurValues#}_SYM#tag-Z_OccurValues#_'values'|]
 // file /usr/include/yaz/z-espec1.h line 132
-union anonymous$31;
+union anonymous_31;
 
-// tag-#anon#UN[*{V}$V$'any_or_none'||*{SYM#tag-Z_AttributeValueList#}$SYM#tag-Z_AttributeValueList#$'specific'|]
+// tag-#anon#UN[*{V}_V_'any_or_none'||*{SYM#tag-Z_AttributeValueList#}_SYM#tag-Z_AttributeValueList#_'specific'|]
 // file /usr/include/yaz/z-exp.h line 1004
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[*{V}$V$'billInvoice'||*{V}$V$'prepay'||*{V}$V$'depositAccount'||*{SYM#tag-Z_IOCreditCardInfo#}$SYM#tag-Z_IOCreditCardInfo#$'creditCard'||*{V}$V$'cardInfoPreviouslySupplied'||*{V}$V$'privateKnown'||*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'privateNotKnown'|]
+// tag-#anon#UN[*{V}_V_'billInvoice'||*{V}_V_'prepay'||*{V}_V_'depositAccount'||*{SYM#tag-Z_IOCreditCardInfo#}_SYM#tag-Z_IOCreditCardInfo#_'creditCard'||*{V}_V_'cardInfoPreviouslySupplied'||*{V}_V_'privateKnown'||*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'privateNotKnown'|]
 // file /usr/include/yaz/zes-order.h line 79
-union anonymous$91;
+union anonymous_91;
 
-// tag-#anon#UN[*{V}$V$'character'||*{V}$V$'numeric'||*{SYM#tag-Z_HumanString#}$SYM#tag-Z_HumanString#$'structured'|]
+// tag-#anon#UN[*{V}_V_'character'||*{V}_V_'numeric'||*{SYM#tag-Z_HumanString#}_SYM#tag-Z_HumanString#_'structured'|]
 // file /usr/include/yaz/z-exp.h line 638
-union anonymous$71;
+union anonymous_71;
 
-// tag-#anon#UN[*{V}$V$'decade'||*{V}$V$'century'||*{V}$V$'millennium'|]
+// tag-#anon#UN[*{V}_V_'decade'||*{V}_V_'century'||*{V}_V_'millennium'|]
 // file /usr/include/yaz/z-date.h line 85
-union anonymous$61;
+union anonymous_61;
 
-// tag-#anon#UN[*{V}$V$'first'||*{V}$V$'second'||*{V}$V$'third'||*{V}$V$'fourth'|]
+// tag-#anon#UN[*{V}_V_'first'||*{V}_V_'second'||*{V}_V_'third'||*{V}_V_'fourth'|]
 // file /usr/include/yaz/z-date.h line 57
-union anonymous$58;
+union anonymous_58;
 
-// tag-#anon#UN[*{V}$V$'local'||*{V}$V$'utc'||*{S64}$S64$'utcOffset'|]
+// tag-#anon#UN[*{V}_V_'local'||*{V}_V_'utc'||*{S64}_S64_'utcOffset'|]
 // file /usr/include/yaz/z-date.h line 124
-union anonymous$42;
+union anonymous_42;
 
-// tag-#anon#UN[*{V}$V$'noUser'||*{V}$V$'refused'||*{V}$V$'simple'||*{SYM#tag-Z_OidList#}$SYM#tag-Z_OidList#$'oid'||*{SYM#tag-Z_AltOidList#}$SYM#tag-Z_AltOidList#$'alternative'||*{V}$V$'pwdInv'||*{V}$V$'pwdExp'|]
+// tag-#anon#UN[*{V}_V_'noUser'||*{V}_V_'refused'||*{V}_V_'simple'||*{SYM#tag-Z_OidList#}_SYM#tag-Z_OidList#_'oid'||*{SYM#tag-Z_AltOidList#}_SYM#tag-Z_AltOidList#_'alternative'||*{V}_V_'pwdInv'||*{V}_V_'pwdExp'|]
 // file /usr/include/yaz/z-diag1.h line 292
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[*{V}$V$'nonZeroStepSize'||*{V}$V$'specifiedStepSize'||*{V}$V$'termList1'||*{SYM#tag-Z_AttrListList#}$SYM#tag-Z_AttrListList#$'termList2'||*{S64}$S64$'posInResponse'||*{V}$V$'resources'||*{V}$V$'endOfList'|]
+// tag-#anon#UN[*{V}_V_'nonZeroStepSize'||*{V}_V_'specifiedStepSize'||*{V}_V_'termList1'||*{SYM#tag-Z_AttrListList#}_SYM#tag-Z_AttrListList#_'termList2'||*{S64}_S64_'posInResponse'||*{V}_V_'resources'||*{V}_V_'endOfList'|]
 // file /usr/include/yaz/z-diag1.h line 186
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[*{V}$V$'op_and'||*{V}$V$'op_or'||*{V}$V$'and_not'||*{SYM#tag-Z_ProximityOperator#}$SYM#tag-Z_ProximityOperator#$'prox'|]
+// tag-#anon#UN[*{V}_V_'op_and'||*{V}_V_'op_or'||*{V}_V_'and_not'||*{SYM#tag-Z_ProximityOperator#}_SYM#tag-Z_ProximityOperator#_'prox'|]
 // file /usr/include/yaz/z-core.h line 560
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[*{V}$V$'reIndex'||*{V}$V$'truncate'||*{V}$V$'drop'||*{V}$V$'create'||*{SYM#tag-Z_ImportParameters#}$SYM#tag-Z_ImportParameters#$'import'||*{V}$V$'refresh'||*{V}$V$'commit'||*{V}$V$'shutdown'||*{V}$V$'start'|]
+// tag-#anon#UN[*{V}_V_'reIndex'||*{V}_V_'truncate'||*{V}_V_'drop'||*{V}_V_'create'||*{SYM#tag-Z_ImportParameters#}_SYM#tag-Z_ImportParameters#_'import'||*{V}_V_'refresh'||*{V}_V_'commit'||*{V}_V_'shutdown'||*{V}_V_'start'|]
 // file /usr/include/yaz/zes-admin.h line 64
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[*{V}$V$'resultSets'||*{S8}$S8$'badSet'||*{S64}$S64$'relation'||*{S64}$S64$'unit'||*{S64}$S64$'distance'||*{SYM#tag-Z_AttributeList#}$SYM#tag-Z_AttributeList#$'attributes'||*{V}$V$'ordered'||*{V}$V$'exclusion'|]
+// tag-#anon#UN[*{V}_V_'resultSets'||*{S8}_S8_'badSet'||*{S64}_S64_'relation'||*{S64}_S64_'unit'||*{S64}_S64_'distance'||*{SYM#tag-Z_AttributeList#}_SYM#tag-Z_AttributeList#_'attributes'||*{V}_V_'ordered'||*{V}_V_'exclusion'|]
 // file /usr/include/yaz/z-diag1.h line 159
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[*{V}$V$'segmentCount'||*{S64}$S64$'segmentSize'|]
+// tag-#anon#UN[*{V}_V_'segmentCount'||*{S64}_S64_'segmentSize'|]
 // file /usr/include/yaz/z-diag1.h line 251
-union anonymous$101;
+union anonymous_101;
 
-// tag-#anon#UN[*{V}$V$'sequence'||*{V}$V$'noRsName'||*{S64}$S64$'tooMany'||*{V}$V$'incompatible'||*{V}$V$'generic'||*{V}$V$'dbSpecific'||*{SYM#tag-Z_SortElement#}$SYM#tag-Z_SortElement#$'sortElement'||*{S64}$S64$'key'||*{V}$V$'action'||*{S64}$S64$'illegal'||*{SYM#tag-Z_StringList#}$SYM#tag-Z_StringList#$'inputTooLarge'||*{V}$V$'aggregateTooLarge'|]
+// tag-#anon#UN[*{V}_V_'sequence'||*{V}_V_'noRsName'||*{S64}_S64_'tooMany'||*{V}_V_'incompatible'||*{V}_V_'generic'||*{V}_V_'dbSpecific'||*{SYM#tag-Z_SortElement#}_SYM#tag-Z_SortElement#_'sortElement'||*{S64}_S64_'key'||*{V}_V_'action'||*{S64}_S64_'illegal'||*{SYM#tag-Z_StringList#}_SYM#tag-Z_StringList#_'inputTooLarge'||*{V}_V_'aggregateTooLarge'|]
 // file /usr/include/yaz/z-diag1.h line 215
-union anonymous$25;
+union anonymous_25;
 
-// tag-#anon#UN[*{V}$V$'sevenBit'||*{V}$V$'eightBit'|]
+// tag-#anon#UN[*{V}_V_'sevenBit'||*{V}_V_'eightBit'|]
 // file /usr/include/yaz/z-charneg.h line 152
-union anonymous$78;
+union anonymous_78;
 
-// tag-#anon#UN[*{V}$V$'type_0'||*{SYM#tag-Z_RPNQuery#}$SYM#tag-Z_RPNQuery#$'type_1'||*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'type_2'||*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'type_100'||*{SYM#tag-Z_RPNQuery#}$SYM#tag-Z_RPNQuery#$'type_101'||*{SYM#tag-odr_oct#}$SYM#tag-odr_oct#$'type_102'||*{SYM#tag-Z_External#}$SYM#tag-Z_External#$'type_104'|]
+// tag-#anon#UN[*{V}_V_'type_0'||*{SYM#tag-Z_RPNQuery#}_SYM#tag-Z_RPNQuery#_'type_1'||*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'type_2'||*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'type_100'||*{SYM#tag-Z_RPNQuery#}_SYM#tag-Z_RPNQuery#_'type_101'||*{SYM#tag-odr_oct#}_SYM#tag-odr_oct#_'type_102'||*{SYM#tag-Z_External#}_SYM#tag-Z_External#_'type_104'|]
 // file /usr/include/yaz/z-core.h line 470
-union anonymous$82;
+union anonymous_82;
 
-// tag-#anon#UN[*{V}$V$'winter'||*{V}$V$'spring'||*{V}$V$'summer'||*{V}$V$'autumn'|]
+// tag-#anon#UN[*{V}_V_'winter'||*{V}_V_'spring'||*{V}_V_'summer'||*{V}_V_'autumn'|]
 // file /usr/include/yaz/z-date.h line 71
-union anonymous$60;
+union anonymous_60;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$53;
+union anonymous_53;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'op'||*{S8}$S8$'value'|]#'relation'||SYM#tag-#anon#ST[*{cS8}$cS8$'op'||*{SYM#tag-xpath_predicate#}$SYM#tag-xpath_predicate#$'left'||*{SYM#tag-xpath_predicate#}$SYM#tag-xpath_predicate#$'right'|]#'boolean'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'op'||*{S8}_S8_'value'|]#'relation'||SYM#tag-#anon#ST[*{cS8}_cS8_'op'||*{SYM#tag-xpath_predicate#}_SYM#tag-xpath_predicate#_'left'||*{SYM#tag-xpath_predicate#}_SYM#tag-xpath_predicate#_'right'|]#'boolean'|]
 // file ../include/zebra_xpath.h line 28
-union anonymous$66;
+union anonymous_66;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$48;
+union anonymous_48;
 
 // tag-#anon#UN[SYM#tag-#anon#ST[S32'entry_size'|]#'sort'|]
 // file zebramap.c line 51
-union anonymous$97;
+union anonymous_97;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$47;
+union anonymous_47;
 
 // tag-UErrorCode
 // file /usr/include/x86_64-linux-gnu/unicode/utypes.h line 476
@@ -1765,16 +1765,16 @@ extern signed long long int atoll(const char *);
 signed long long int atozint(const char *src);
 // attr_find
 // file ../include/attrfind.h line 42
-signed int attr_find(struct anonymous$89 *src, const signed short int **attribute_set_id);
+signed int attr_find(struct anonymous_89 *src, const signed short int **attribute_set_id);
 // attr_find_ex
 // file ../include/attrfind.h line 40
-signed int attr_find_ex(struct anonymous$89 *src, const signed short int **attribute_set_oid, const char **string_value);
+signed int attr_find_ex(struct anonymous_89 *src, const signed short int **attribute_set_oid, const char **string_value);
 // attr_init_APT
 // file ../include/attrfind.h line 36
-void attr_init_APT(struct anonymous$89 *src, struct Z_AttributesPlusTerm *zapt, signed int type);
+void attr_init_APT(struct anonymous_89 *src, struct Z_AttributesPlusTerm *zapt, signed int type);
 // attr_init_AttrList
 // file ../include/attrfind.h line 38
-void attr_init_AttrList(struct anonymous$89 *src, struct Z_AttributeList *list, signed int type);
+void attr_init_AttrList(struct anonymous_89 *src, struct Z_AttributeList *list, signed int type);
 // check_for_linuxthreads
 // file flock.c line 371
 static signed int check_for_linuxthreads(void);
@@ -1999,22 +1999,22 @@ void passwd_db_show(struct passwd_db *db);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$48 *);
+extern signed int pthread_cond_broadcast(union anonymous_48 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$48 *);
+extern signed int pthread_cond_destroy(union anonymous_48 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$48 *, const union anonymous$53 *);
+extern signed int pthread_cond_init(union anonymous_48 *, const union anonymous_53 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$48 *);
+extern signed int pthread_cond_signal(union anonymous_48 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$48 *, union anonymous$47 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_48 *, union anonymous_47 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$48 *, union anonymous$47 *);
+extern signed int pthread_cond_wait(union anonymous_48 *, union anonymous_47 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -2023,16 +2023,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$47 *);
+extern signed int pthread_mutex_destroy(union anonymous_47 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$47 *, const union anonymous$53 *);
+extern signed int pthread_mutex_init(union anonymous_47 *, const union anonymous_53 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$47 *);
+extern signed int pthread_mutex_lock(union anonymous_47 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$47 *);
+extern signed int pthread_mutex_unlock(union anonymous_47 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -2084,9 +2084,9 @@ void res_set(struct res_struct *r, const char *name, const char *value);
 // res_trav
 // file res.c line 357
 signed int res_trav(struct res_struct *r, const char *prefix, void *p, void (*f)(void *, const char *, const char *));
-// res_trav::f$object
+// res_trav::f_object
 //
-void f$object(void *, const char *, const char *);
+void f_object(void *, const char *, const char *);
 // res_write_file
 // file res.c line 384
 signed short int res_write_file(struct res_struct *r, const char *fname);
@@ -2096,9 +2096,9 @@ void * run_func(void *arg);
 // scan_string
 // file charmap.c line 421
 static signed int scan_string(char *s_native, struct yaz_iconv_struct *t_unicode, struct yaz_iconv_struct *t_utf8, void (*fun)(const char *, void *, signed int), void *data, signed int *num);
-// scan_string::fun$object
+// scan_string::fun_object
 //
-void fun$object(const char *, void *, signed int);
+void fun_object(const char *, void *, signed int);
 // scan_to_utf8
 // file charmap.c line 393
 static signed int scan_to_utf8(struct yaz_iconv_struct *t, unsigned int *from, unsigned long int inlen, char *outbuf, unsigned long int outbytesleft);
@@ -2296,22 +2296,22 @@ void zebra_lock_destroy(struct zebra_lock_handle *h);
 signed int zebra_lock_r(struct zebra_lock_handle *h);
 // zebra_lock_rdwr_destroy
 // file zebra-lock.c line 100
-signed int zebra_lock_rdwr_destroy(struct anonymous$56 *p);
+signed int zebra_lock_rdwr_destroy(struct anonymous_56 *p);
 // zebra_lock_rdwr_init
 // file zebra-lock.c line 89
-signed int zebra_lock_rdwr_init(struct anonymous$56 *p);
+signed int zebra_lock_rdwr_init(struct anonymous_56 *p);
 // zebra_lock_rdwr_rlock
 // file zebra-lock.c line 111
-signed int zebra_lock_rdwr_rlock(struct anonymous$56 *p);
+signed int zebra_lock_rdwr_rlock(struct anonymous_56 *p);
 // zebra_lock_rdwr_runlock
 // file zebra-lock.c line 135
-signed int zebra_lock_rdwr_runlock(struct anonymous$56 *p);
+signed int zebra_lock_rdwr_runlock(struct anonymous_56 *p);
 // zebra_lock_rdwr_wlock
 // file zebra-lock.c line 123
-signed int zebra_lock_rdwr_wlock(struct anonymous$56 *p);
+signed int zebra_lock_rdwr_wlock(struct anonymous_56 *p);
 // zebra_lock_rdwr_wunlock
 // file zebra-lock.c line 155
-signed int zebra_lock_rdwr_wunlock(struct anonymous$56 *p);
+signed int zebra_lock_rdwr_wunlock(struct anonymous_56 *p);
 // zebra_lock_w
 // file ../include/idzebra/flock.h line 41
 signed int zebra_lock_w(struct zebra_lock_handle *h);
@@ -2383,34 +2383,34 @@ signed int zebra_maps_sort(struct zebra_maps_s *zms, struct Z_SortAttributes *so
 char * zebra_mk_fname(const char *dir, const char *name);
 // zebra_mutex_cond_destroy
 // file zebra-lock.c line 183
-signed int zebra_mutex_cond_destroy(struct anonymous$49 *p);
+signed int zebra_mutex_cond_destroy(struct anonymous_49 *p);
 // zebra_mutex_cond_init
 // file zebra-lock.c line 174
-signed int zebra_mutex_cond_init(struct anonymous$49 *p);
+signed int zebra_mutex_cond_init(struct anonymous_49 *p);
 // zebra_mutex_cond_lock
 // file zebra-lock.c line 192
-signed int zebra_mutex_cond_lock(struct anonymous$49 *p);
+signed int zebra_mutex_cond_lock(struct anonymous_49 *p);
 // zebra_mutex_cond_signal
 // file zebra-lock.c line 219
-signed int zebra_mutex_cond_signal(struct anonymous$49 *p);
+signed int zebra_mutex_cond_signal(struct anonymous_49 *p);
 // zebra_mutex_cond_unlock
 // file zebra-lock.c line 201
-signed int zebra_mutex_cond_unlock(struct anonymous$49 *p);
+signed int zebra_mutex_cond_unlock(struct anonymous_49 *p);
 // zebra_mutex_cond_wait
 // file zebra-lock.c line 210
-signed int zebra_mutex_cond_wait(struct anonymous$49 *p);
+signed int zebra_mutex_cond_wait(struct anonymous_49 *p);
 // zebra_mutex_destroy
 // file zebra-lock.c line 43
-signed int zebra_mutex_destroy(struct anonymous$54 *p);
+signed int zebra_mutex_destroy(struct anonymous_54 *p);
 // zebra_mutex_init
 // file zebra-lock.c line 31
-signed int zebra_mutex_init(struct anonymous$54 *p);
+signed int zebra_mutex_init(struct anonymous_54 *p);
 // zebra_mutex_lock
 // file zebra-lock.c line 59
-signed int zebra_mutex_lock(struct anonymous$54 *p);
+signed int zebra_mutex_lock(struct anonymous_54 *p);
 // zebra_mutex_unlock
 // file zebra-lock.c line 74
-signed int zebra_mutex_unlock(struct anonymous$54 *p);
+signed int zebra_mutex_unlock(struct anonymous_54 *p);
 // zebra_parse_xpath_str
 // file xpath.c line 162
 signed int zebra_parse_xpath_str(const char *xpath_string, struct xpath_location_step *xpath, signed int max, struct nmem_control *mem);
@@ -2496,7 +2496,7 @@ void zebra_zint_decode(const char **src, signed long long int *pos);
 // file zint.c line 26
 void zebra_zint_encode(char **dst, signed long long int pos);
 
-struct anonymous$65
+struct anonymous_65
 {
   // name
   char *name;
@@ -2506,7 +2506,7 @@ struct anonymous$65
   char *value;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // nmem
   struct nmem_control *nmem;
@@ -2516,7 +2516,7 @@ struct anonymous$35
   char *eq[32l];
 };
 
-struct anonymous$68
+struct anonymous_68
 {
   // op
   const char *op;
@@ -2526,7 +2526,7 @@ struct anonymous$68
   struct xpath_predicate *right;
 };
 
-struct anonymous$92
+struct anonymous_92
 {
   // __lock
   signed int __lock;
@@ -2546,7 +2546,7 @@ struct anonymous$92
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // entry_size
   signed int entry_size;
@@ -2580,7 +2580,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$47
+union anonymous_47
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2590,29 +2590,29 @@ union anonymous$47
   signed long int __align;
 };
 
-union anonymous$48
+union anonymous_48
 {
   // __data
-  struct anonymous$92 __data;
+  struct anonymous_92 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$56
+struct anonymous_56
 {
   // readers_reading
   signed int readers_reading;
   // writers_writing
   signed int writers_writing;
   // mutex
-  union anonymous$47 mutex;
+  union anonymous_47 mutex;
   // lock_free
-  union anonymous$48 lock_free;
+  union anonymous_48 lock_free;
 };
 
-struct anonymous$89
+struct anonymous_89
 {
   // type
   signed int type;
@@ -2626,23 +2626,23 @@ struct anonymous$89
   signed int num_attributes;
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // mutex
-  union anonymous$47 mutex;
+  union anonymous_47 mutex;
   // state
   signed int state;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // mutex
-  union anonymous$47 mutex;
+  union anonymous_47 mutex;
   // cond
-  union anonymous$48 cond;
+  union anonymous_48 cond;
 };
 
-union anonymous$62
+union anonymous_62
 {
   // oid
   signed short int *oid;
@@ -2650,7 +2650,7 @@ union anonymous$62
   char *uri;
 };
 
-union anonymous$64
+union anonymous_64
 {
   // actualNumber
   signed long long int *actualNumber;
@@ -2658,7 +2658,7 @@ union anonymous$64
   signed long long int *approxNumber;
 };
 
-union anonymous$59
+union anonymous_59
 {
   // integer
   signed long long int *integer;
@@ -2678,7 +2678,7 @@ union anonymous$59
   struct Z_IntUnit *valueAndUnit;
 };
 
-union anonymous$74
+union anonymous_74
 {
   // integer
   signed long long int *integer;
@@ -2694,7 +2694,7 @@ union anonymous$74
   struct Z_IntUnit *valueAndUnit;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // known
   signed long long int *known;
@@ -2702,7 +2702,7 @@ union anonymous$15
   signed long long int *zprivate;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // known
   signed long long int *known;
@@ -2710,7 +2710,7 @@ union anonymous$22
   struct Z_ProxSupportPrivate *zprivate;
 };
 
-union anonymous$45
+union anonymous_45
 {
   // number
   signed long long int *number;
@@ -2720,7 +2720,7 @@ union anonymous$45
   struct odr_oct *opaque;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // numeric
   signed long long int *numeric;
@@ -2728,7 +2728,7 @@ union anonymous$8
   struct Z_ComplexAttribute *complex;
 };
 
-union anonymous$70
+union anonymous_70
 {
   // primitive
   signed long long int *primitive;
@@ -2736,7 +2736,7 @@ union anonymous$70
   struct Z_ElementInfoList *structured;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // req
   signed long long int *req;
@@ -2746,7 +2746,7 @@ union anonymous$2
   signed long long int *immediate;
 };
 
-union anonymous$52
+union anonymous_52
 {
   // character
   char *character;
@@ -2754,7 +2754,7 @@ union anonymous$52
   struct Z_Encryption *encrypted;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // characterInfo
   char *characterInfo;
@@ -2766,7 +2766,7 @@ union anonymous$4
   signed short int *oid;
 };
 
-union anonymous$67
+union anonymous_67
 {
   // elementSetName
   char *elementSetName;
@@ -2774,7 +2774,7 @@ union anonymous$67
   struct Z_External *externalSpec;
 };
 
-union anonymous$75
+union anonymous_75
 {
   // ianaType
   char *ianaType;
@@ -2784,7 +2784,7 @@ union anonymous$75
   char *otherType;
 };
 
-union anonymous$94
+union anonymous_94
 {
   // package
   char *package;
@@ -2792,7 +2792,7 @@ union anonymous$94
   struct Z_Query *query;
 };
 
-union anonymous$96
+union anonymous_96
 {
   // packageName
   char *packageName;
@@ -2800,7 +2800,7 @@ union anonymous$96
   struct Z_ESExportSpecification *exportPackage;
 };
 
-union anonymous$87
+union anonymous_87
 {
   // packageName
   char *packageName;
@@ -2808,7 +2808,7 @@ union anonymous$87
   struct Z_ESExportSpecification *packageSpec;
 };
 
-union anonymous$85
+union anonymous_85
 {
   // phoneNumber
   char *phoneNumber;
@@ -2830,7 +2830,7 @@ union anonymous$85
   struct Z_ESDestinationOther *other;
 };
 
-union anonymous$83
+union anonymous_83
 {
   // sortField
   char *sortField;
@@ -2840,7 +2840,7 @@ union anonymous$83
   struct Z_SortAttributes *sortAttributes;
 };
 
-union anonymous$55
+union anonymous_55
 {
   // string
   char *string;
@@ -2854,7 +2854,7 @@ union anonymous$55
   struct Z_Encryption *encrypted;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // string
   char *string;
@@ -2862,7 +2862,7 @@ union anonymous$7
   signed long long int *numeric;
 };
 
-union anonymous$38
+union anonymous_38
 {
   // timeStamp
   char *timeStamp;
@@ -2872,7 +2872,7 @@ union anonymous$38
   struct Z_External *previousVersion;
 };
 
-union anonymous$40
+union anonymous_40
 {
   // v2Addinfo
   char *v2Addinfo;
@@ -2880,7 +2880,7 @@ union anonymous$40
   char *v3Addinfo;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // esRequest
   struct Z_AdminEsRequest *esRequest;
@@ -2888,7 +2888,7 @@ union anonymous$19
   struct Z_AdminTaskPackage *taskPackage;
 };
 
-union anonymous$100
+union anonymous_100
 {
   // attributesPlusTerm
   struct Z_AttributesPlusTerm *attributesPlusTerm;
@@ -2898,7 +2898,7 @@ union anonymous$100
   struct Z_ResultSetPlusAttributes *resultAttr;
 };
 
-union anonymous$39
+union anonymous_39
 {
   // challenge
   struct Z_Challenge1 *challenge;
@@ -2906,7 +2906,7 @@ union anonymous$39
   struct Z_Response1 *response;
 };
 
-union anonymous$43
+union anonymous_43
 {
   // challenge
   struct Z_DRNType *challenge;
@@ -2914,7 +2914,7 @@ union anonymous$43
   struct Z_DRNType *response;
 };
 
-union anonymous$41
+union anonymous_41
 {
   // monthAndDay
   struct Z_DateMonthAndDay *monthAndDay;
@@ -2928,7 +2928,7 @@ union anonymous$41
   struct Z_DateSeason *season;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // defaultDiagRec
   struct Z_DefaultDiagFormat *defaultDiagRec;
@@ -2936,7 +2936,7 @@ union anonymous$20
   struct Z_DiagFormat *explicitDiagnostic;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // defaultFormat
   struct Z_DefaultDiagFormat *defaultFormat;
@@ -2944,7 +2944,7 @@ union anonymous$5
   struct Z_External *externallyDefined;
 };
 
-union anonymous$86
+union anonymous_86
 {
   // esRequest
   struct Z_EIExportInvocationEsRequest *esRequest;
@@ -2952,7 +2952,7 @@ union anonymous$86
   struct Z_EIExportInvocationTaskPackage *taskPackage;
 };
 
-union anonymous$84
+union anonymous_84
 {
   // esRequest
   struct Z_ESExportSpecificationEsRequest *esRequest;
@@ -2960,7 +2960,7 @@ union anonymous$84
   struct Z_ESExportSpecificationTaskPackage *taskPackage;
 };
 
-union anonymous$26
+union anonymous_26
 {
   // primitives
   struct Z_ElementRequestCompositeElementPrimitives *primitives;
@@ -2968,7 +2968,7 @@ union anonymous$26
   struct Z_ElementRequestCompositeElementSpecs *specs;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // databaseRecord
   struct Z_External *databaseRecord;
@@ -2982,7 +2982,7 @@ union anonymous$18
   struct Z_FragmentSyntax *finalFragment;
 };
 
-union anonymous$36
+union anonymous_36
 {
   // externallyTagged
   struct Z_External *externallyTagged;
@@ -2990,7 +2990,7 @@ union anonymous$36
   struct odr_oct *notExternallyTagged;
 };
 
-union anonymous$34
+union anonymous_34
 {
   // marcHoldingsRecord
   struct Z_External *marcHoldingsRecord;
@@ -2998,7 +2998,7 @@ union anonymous$34
   struct Z_HoldingsAndCircData *holdingsAndCirc;
 };
 
-union anonymous$37
+union anonymous_37
 {
   // record
   struct Z_External *record;
@@ -3006,7 +3006,7 @@ union anonymous$37
   struct Z_DiagRec *diagnostic;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // record
   struct Z_External *record;
@@ -3014,7 +3014,7 @@ union anonymous$6
   struct Z_IUTaskPackageRecordStructureSurrogateDiagnostics *surrogateDiagnostics;
 };
 
-union anonymous$90
+union anonymous_90
 {
   // esRequest
   struct Z_IORequest *esRequest;
@@ -3022,7 +3022,7 @@ union anonymous$90
   struct Z_IOTaskPackage *taskPackage;
 };
 
-union anonymous$33
+union anonymous_33
 {
   // esRequest
   struct Z_IU0UpdateEsRequest *esRequest;
@@ -3038,7 +3038,7 @@ union anonymous
   struct Z_IUUpdateTaskPackage *taskPackage;
 };
 
-union anonymous$99
+union anonymous_99
 {
   // unit
   struct Z_IntUnit *unit;
@@ -3050,7 +3050,7 @@ union anonymous$99
   char *other;
 };
 
-union anonymous$69
+union anonymous_69
 {
   // iso2022
   struct Z_Iso2022 *iso2022;
@@ -3060,7 +3060,7 @@ union anonymous$69
   struct Z_PrivateCharacterSet *zprivate;
 };
 
-union anonymous$72
+union anonymous_72
 {
   // iso2022
   struct Z_Iso2022 *iso2022;
@@ -3072,7 +3072,7 @@ union anonymous$72
   void *none;
 };
 
-union anonymous$81
+union anonymous_81
 {
   // originProposal
   struct Z_Iso2022OriginProposal *originProposal;
@@ -3080,7 +3080,7 @@ union anonymous$81
   struct Z_Iso2022TargetResponse *targetResponse;
 };
 
-union anonymous$44
+union anonymous_44
 {
   // challenge
   struct Z_KRBRequest *challenge;
@@ -3088,7 +3088,7 @@ union anonymous$44
   struct Z_KRBResponse *response;
 };
 
-union anonymous$57
+union anonymous_57
 {
   // internetAddress
   struct Z_NetworkAddressIA *internetAddress;
@@ -3098,7 +3098,7 @@ union anonymous$57
   struct Z_NetworkAddressOther *other;
 };
 
-union anonymous$27
+union anonymous_27
 {
   // simple
   struct Z_Operand *simple;
@@ -3106,7 +3106,7 @@ union anonymous$27
   struct Z_Complex *complex;
 };
 
-union anonymous$63
+union anonymous_63
 {
   // proposal
   struct Z_OriginProposal *proposal;
@@ -3114,7 +3114,7 @@ union anonymous$63
   struct Z_TargetResponse *response;
 };
 
-union anonymous$95
+union anonymous_95
 {
   // esRequest
   struct Z_PQSPeriodicQueryScheduleEsRequest *esRequest;
@@ -3122,7 +3122,7 @@ union anonymous$95
   struct Z_PQSPeriodicQueryScheduleTaskPackage *taskPackage;
 };
 
-union anonymous$93
+union anonymous_93
 {
   // esRequest
   struct Z_PQueryPersistentQueryEsRequest *esRequest;
@@ -3130,7 +3130,7 @@ union anonymous$93
   struct Z_PQueryPersistentQueryTaskPackage *taskPackage;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // esRequest
   struct Z_PRPersistentResultSetEsRequest *esRequest;
@@ -3138,7 +3138,7 @@ union anonymous$0
   struct Z_PRPersistentResultSetTaskPackage *taskPackage;
 };
 
-union anonymous$76
+union anonymous_76
 {
   // zprivate
   struct Z_PrivateCapabilities *zprivate;
@@ -3154,7 +3154,7 @@ union anonymous$76
   struct Z_HumanString *rankedList;
 };
 
-union anonymous$77
+union anonymous_77
 {
   // viaOid
   struct Z_PrivateCharacterSetViaOid *viaOid;
@@ -3164,7 +3164,7 @@ union anonymous$77
   void *previouslyAgreedUpon;
 };
 
-union anonymous$50
+union anonymous_50
 {
   // enumeratedPrompt
   struct Z_PromptIdEnumeratedPrompt *enumeratedPrompt;
@@ -3172,7 +3172,7 @@ union anonymous$50
   char *nonEnumeratedPrompt;
 };
 
-union anonymous$98
+union anonymous_98
 {
   // actualQuery
   struct Z_Query *actualQuery;
@@ -3180,7 +3180,7 @@ union anonymous$98
   char *packageName;
 };
 
-union anonymous$79
+union anonymous_79
 {
   // term
   struct Z_QueryExpressionTerm *term;
@@ -3188,7 +3188,7 @@ union anonymous$79
   struct Z_Query *query;
 };
 
-union anonymous$17
+union anonymous_17
 {
   // records
   struct Z_Segment *records;
@@ -3196,7 +3196,7 @@ union anonymous$17
   void *recordsWillFollow;
 };
 
-union anonymous$29
+union anonymous_29
 {
   // simpleElement
   struct Z_SimpleElement *simpleElement;
@@ -3204,7 +3204,7 @@ union anonymous$29
   struct Z_ElementRequestCompositeElement *compositeElement;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // generic
   struct Z_SortKey *generic;
@@ -3212,7 +3212,7 @@ union anonymous$24
   struct Z_SortDbSpecificList *databaseSpecific;
 };
 
-union anonymous$32
+union anonymous_32
 {
   // specificTag
   struct Z_SpecificTag *specificTag;
@@ -3222,7 +3222,7 @@ union anonymous$32
   void *wildPath;
 };
 
-union anonymous$51
+union anonymous_51
 {
   // targetInfo
   struct Z_TargetInfo *targetInfo;
@@ -3260,7 +3260,7 @@ union anonymous$51
   struct Z_CategoryList *categoryList;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // tooMany
   struct Z_TooMany *tooMany;
@@ -3292,7 +3292,7 @@ union anonymous$14
   struct Z_RecordSyntax *recordSyntax;
 };
 
-union anonymous$30
+union anonymous_30
 {
   // databaseHits
   struct Z_UniverseReportHits *databaseHits;
@@ -3300,7 +3300,7 @@ union anonymous$30
   struct Z_UniverseReportDuplicate *duplicate;
 };
 
-union anonymous$73
+union anonymous_73
 {
   // range
   struct Z_ValueRange *range;
@@ -3308,7 +3308,7 @@ union anonymous$73
   struct Z_ValueSetEnumerated *enumerated;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // general
   struct odr_oct *general;
@@ -3328,7 +3328,7 @@ union anonymous$1
   void *null;
 };
 
-union anonymous$28
+union anonymous_28
 {
   // octets
   struct odr_oct *octets;
@@ -3358,7 +3358,7 @@ union anonymous$28
   struct Z_GenericRecord *subtree;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // single_ASN1_type
   struct odr_oct *single_ASN1_type;
@@ -3432,7 +3432,7 @@ union anonymous$3
   struct Z_FacetList *facetList;
 };
 
-union anonymous$88
+union anonymous_88
 {
   // all
   void *all;
@@ -3440,7 +3440,7 @@ union anonymous$88
   struct Z_EIOriginPartNotToKeepRanges *ranges;
 };
 
-union anonymous$80
+union anonymous_80
 {
   // all
   void *all;
@@ -3448,7 +3448,7 @@ union anonymous$80
   struct Z_ResultsByDB_sList *list;
 };
 
-union anonymous$31
+union anonymous_31
 {
   // all
   void *all;
@@ -3458,7 +3458,7 @@ union anonymous$31
   struct Z_OccurValues *values;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // any_or_none
   void *any_or_none;
@@ -3466,7 +3466,7 @@ union anonymous$9
   struct Z_AttributeValueList *specific;
 };
 
-union anonymous$91
+union anonymous_91
 {
   // billInvoice
   void *billInvoice;
@@ -3484,7 +3484,7 @@ union anonymous$91
   struct Z_External *privateNotKnown;
 };
 
-union anonymous$71
+union anonymous_71
 {
   // character
   void *character;
@@ -3494,7 +3494,7 @@ union anonymous$71
   struct Z_HumanString *structured;
 };
 
-union anonymous$61
+union anonymous_61
 {
   // decade
   void *decade;
@@ -3504,7 +3504,7 @@ union anonymous$61
   void *millennium;
 };
 
-union anonymous$58
+union anonymous_58
 {
   // first
   void *first;
@@ -3516,7 +3516,7 @@ union anonymous$58
   void *fourth;
 };
 
-union anonymous$42
+union anonymous_42
 {
   // local
   void *local;
@@ -3526,7 +3526,7 @@ union anonymous$42
   signed long long int *utcOffset;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // noUser
   void *noUser;
@@ -3544,7 +3544,7 @@ union anonymous$11
   void *pwdExp;
 };
 
-union anonymous$23
+union anonymous_23
 {
   // nonZeroStepSize
   void *nonZeroStepSize;
@@ -3562,7 +3562,7 @@ union anonymous$23
   void *endOfList;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // op_and
   void *op_and;
@@ -3574,7 +3574,7 @@ union anonymous$12
   struct Z_ProximityOperator *prox;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // reIndex
   void *reIndex;
@@ -3596,7 +3596,7 @@ union anonymous$16
   void *start;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // resultSets
   void *resultSets;
@@ -3616,7 +3616,7 @@ union anonymous$21
   void *exclusion;
 };
 
-union anonymous$101
+union anonymous_101
 {
   // segmentCount
   void *segmentCount;
@@ -3624,7 +3624,7 @@ union anonymous$101
   signed long long int *segmentSize;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // sequence
   void *sequence;
@@ -3652,7 +3652,7 @@ union anonymous$25
   void *aggregateTooLarge;
 };
 
-union anonymous$78
+union anonymous_78
 {
   // sevenBit
   void *sevenBit;
@@ -3660,7 +3660,7 @@ union anonymous$78
   void *eightBit;
 };
 
-union anonymous$82
+union anonymous_82
 {
   // type_0
   void *type_0;
@@ -3678,7 +3678,7 @@ union anonymous$82
   struct Z_External *type_104;
 };
 
-union anonymous$60
+union anonymous_60
 {
   // winter
   void *winter;
@@ -3690,7 +3690,7 @@ union anonymous$60
   void *autumn;
 };
 
-union anonymous$53
+union anonymous_53
 {
   // __size
   char __size[4l];
@@ -3698,18 +3698,18 @@ union anonymous$53
   signed int __align;
 };
 
-union anonymous$66
+union anonymous_66
 {
   // relation
-  struct anonymous$65 relation;
+  struct anonymous_65 relation;
   // boolean
-  struct anonymous$68 boolean;
+  struct anonymous_68 boolean;
 };
 
-union anonymous$97
+union anonymous_97
 {
   // sort
-  struct anonymous$46 sort;
+  struct anonymous_46 sort;
 };
 
 struct Z_AccessCtrl
@@ -3717,7 +3717,7 @@ struct Z_AccessCtrl
   // which
   signed int which;
   // u
-  union anonymous$11 u;
+  union anonymous_11 u;
 };
 
 struct Z_AccessInfo
@@ -3789,7 +3789,7 @@ struct Z_Admin
   // which
   signed int which;
   // u
-  union anonymous$19 u;
+  union anonymous_19 u;
 };
 
 struct Z_AdminEsRequest
@@ -3901,7 +3901,7 @@ struct Z_AttributeElement
   // which
   signed int which;
   // value
-  union anonymous$8 value;
+  union anonymous_8 value;
 };
 
 struct Z_AttributeList
@@ -3923,7 +3923,7 @@ struct Z_AttributeOccurrence
   // which
   signed int which;
   // attributeValues
-  union anonymous$9 attributeValues;
+  union anonymous_9 attributeValues;
 };
 
 struct Z_AttributeSetDetails
@@ -4097,7 +4097,7 @@ struct Z_ChallengeUnit1
   // which
   signed int which;
   // u
-  union anonymous$52 u;
+  union anonymous_52 u;
   // regExpr
   char *regExpr;
   // responseRequired
@@ -4119,7 +4119,7 @@ struct Z_CharSetandLanguageNegotiation
   // which
   signed int which;
   // u
-  union anonymous$63 u;
+  union anonymous_63 u;
 };
 
 struct Z_Charge
@@ -4253,7 +4253,7 @@ struct Z_DES_RN_Object
   // which
   signed int which;
   // u
-  union anonymous$43 u;
+  union anonymous_43 u;
 };
 
 struct Z_DRNType
@@ -4303,7 +4303,7 @@ struct Z_DatabaseInfo
   // which
   signed int which;
   // u
-  union anonymous$64 u;
+  union anonymous_64 u;
   // defaultOrder
   struct Z_HumanString *defaultOrder;
   // avRecordSize
@@ -4351,7 +4351,7 @@ struct Z_Date
   // which
   signed int which;
   // u
-  union anonymous$41 u;
+  union anonymous_41 u;
   // flags
   struct Z_DateFlags *flags;
 };
@@ -4377,7 +4377,7 @@ struct Z_DateQuarter
   // which
   signed int which;
   // u
-  union anonymous$58 u;
+  union anonymous_58 u;
 };
 
 struct Z_DateSeason
@@ -4385,7 +4385,7 @@ struct Z_DateSeason
   // which
   signed int which;
   // u
-  union anonymous$60 u;
+  union anonymous_60 u;
 };
 
 struct Z_DateTime
@@ -4429,7 +4429,7 @@ struct Z_DefaultDiagFormat
   // which
   signed int which;
   // u
-  union anonymous$40 u;
+  union anonymous_40 u;
 };
 
 struct Z_DiagFormat
@@ -4437,7 +4437,7 @@ struct Z_DiagFormat
   // which
   signed int which;
   // u
-  union anonymous$14 u;
+  union anonymous_14 u;
 };
 
 struct Z_DiagRec
@@ -4445,7 +4445,7 @@ struct Z_DiagRec
   // which
   signed int which;
   // u
-  union anonymous$5 u;
+  union anonymous_5 u;
 };
 
 struct Z_DiagTerm
@@ -4469,7 +4469,7 @@ struct Z_DiagnosticFormat_s
   // which
   signed int which;
   // u
-  union anonymous$20 u;
+  union anonymous_20 u;
   // message
   char *message;
 };
@@ -4479,7 +4479,7 @@ struct Z_EIExportInvocation
   // which
   signed int which;
   // u
-  union anonymous$86 u;
+  union anonymous_86 u;
 };
 
 struct Z_EIExportInvocationEsRequest
@@ -4505,7 +4505,7 @@ struct Z_EIOriginPartNotToKeep
   // which
   signed int which;
   // u
-  union anonymous$88 u;
+  union anonymous_88 u;
 };
 
 struct Z_EIOriginPartNotToKeepRanges
@@ -4529,7 +4529,7 @@ struct Z_EIOriginPartToKeep
   // which
   signed int which;
   // u
-  union anonymous$87 u;
+  union anonymous_87 u;
   // numberOfCopies
   signed long long int *numberOfCopies;
 };
@@ -4551,7 +4551,7 @@ struct Z_ESAdminOriginPartNotToKeep
   // which
   signed int which;
   // u
-  union anonymous$17 u;
+  union anonymous_17 u;
 };
 
 struct Z_ESAdminOriginPartToKeep
@@ -4559,7 +4559,7 @@ struct Z_ESAdminOriginPartToKeep
   // which
   signed int which;
   // u
-  union anonymous$16 u;
+  union anonymous_16 u;
   // databaseName
   char *databaseName;
 };
@@ -4579,7 +4579,7 @@ struct Z_ESDestination
   // which
   signed int which;
   // u
-  union anonymous$85 u;
+  union anonymous_85 u;
 };
 
 struct Z_ESDestinationOther
@@ -4595,7 +4595,7 @@ struct Z_ESExportSpecification
   // which
   signed int which;
   // u
-  union anonymous$84 u;
+  union anonymous_84 u;
 };
 
 struct Z_ESExportSpecificationEsRequest
@@ -4645,7 +4645,7 @@ struct Z_ETagUnit
   // which
   signed int which;
   // u
-  union anonymous$32 u;
+  union anonymous_32 u;
 };
 
 struct Z_ElementData
@@ -4653,7 +4653,7 @@ struct Z_ElementData
   // which
   signed int which;
   // u
-  union anonymous$28 u;
+  union anonymous_28 u;
 };
 
 struct Z_ElementDataType
@@ -4661,7 +4661,7 @@ struct Z_ElementDataType
   // which
   signed int which;
   // u
-  union anonymous$70 u;
+  union anonymous_70 u;
 };
 
 struct Z_ElementInfo
@@ -4721,7 +4721,7 @@ struct Z_ElementRequest
   // which
   signed int which;
   // u
-  union anonymous$29 u;
+  union anonymous_29 u;
 };
 
 struct Z_ElementRequestCompositeElement
@@ -4729,7 +4729,7 @@ struct Z_ElementRequestCompositeElement
   // which
   signed int which;
   // u
-  union anonymous$26 u;
+  union anonymous_26 u;
   // deliveryTag
   struct Z_ETagPath *deliveryTag;
   // variantRequest
@@ -4777,7 +4777,7 @@ struct Z_ElementSpec
   // which
   signed int which;
   // u
-  union anonymous$67 u;
+  union anonymous_67 u;
 };
 
 struct Z_Encryption
@@ -4795,7 +4795,7 @@ struct Z_Environment
   // which
   signed int which;
   // u
-  union anonymous$78 u;
+  union anonymous_78 u;
 };
 
 struct Z_Era
@@ -4803,7 +4803,7 @@ struct Z_Era
   // which
   signed int which;
   // u
-  union anonymous$61 u;
+  union anonymous_61 u;
 };
 
 struct Z_Espec1
@@ -4847,7 +4847,7 @@ struct Z_ExplainRecord
   // which
   signed int which;
   // u
-  union anonymous$51 u;
+  union anonymous_51 u;
 };
 
 struct Z_ExtServices
@@ -4855,7 +4855,7 @@ struct Z_ExtServices
   // which
   signed int which;
   // u
-  union anonymous$2 u;
+  union anonymous_2 u;
 };
 
 struct Z_ExtendedServicesInfo
@@ -4897,7 +4897,7 @@ struct Z_External
   // which
   signed int which;
   // u
-  union anonymous$3 u;
+  union anonymous_3 u;
 };
 
 struct Z_FacetField
@@ -4941,7 +4941,7 @@ struct Z_FragmentSyntax
   // which
   signed int which;
   // u
-  union anonymous$36 u;
+  union anonymous_36 u;
 };
 
 struct Z_GenericRecord
@@ -5017,7 +5017,7 @@ struct Z_HoldingsRecord
   // which
   signed int which;
   // u
-  union anonymous$34 u;
+  union anonymous_34 u;
 };
 
 struct Z_HumanString
@@ -5041,7 +5041,7 @@ struct Z_IOBilling
   // which
   signed int which;
   // u
-  union anonymous$91 u;
+  union anonymous_91 u;
   // customerReference
   char *customerReference;
   // customerPONumber
@@ -5073,7 +5073,7 @@ struct Z_IOItemOrder
   // which
   signed int which;
   // u
-  union anonymous$90 u;
+  union anonymous_90 u;
 };
 
 struct Z_IOOriginPartNotToKeep
@@ -5161,7 +5161,7 @@ struct Z_IU0SuppliedRecordsId
   // which
   signed int which;
   // u
-  union anonymous$38 u;
+  union anonymous_38 u;
 };
 
 struct Z_IU0SuppliedRecords_elem
@@ -5169,7 +5169,7 @@ struct Z_IU0SuppliedRecords_elem
   // which
   signed int which;
   // u
-  union anonymous$45 u;
+  union anonymous_45 u;
   // supplementalId
   struct Z_IU0SuppliedRecordsId *supplementalId;
   // correlationInfo
@@ -5197,7 +5197,7 @@ struct Z_IU0TaskPackageRecordStructure
   // which
   signed int which;
   // u
-  union anonymous$37 u;
+  union anonymous_37 u;
   // correlationInfo
   struct Z_IU0CorrelationInfo *correlationInfo;
   // recordStatus
@@ -5209,7 +5209,7 @@ struct Z_IU0Update
   // which
   signed int which;
   // u
-  union anonymous$33 u;
+  union anonymous_33 u;
 };
 
 struct Z_IU0UpdateEsRequest
@@ -5263,7 +5263,7 @@ struct Z_IUSuppliedRecordsId
   // which
   signed int which;
   // u
-  union anonymous$38 u;
+  union anonymous_38 u;
 };
 
 struct Z_IUSuppliedRecords_elem
@@ -5271,7 +5271,7 @@ struct Z_IUSuppliedRecords_elem
   // which
   signed int which;
   // u
-  union anonymous$45 u;
+  union anonymous_45 u;
   // supplementalId
   struct Z_IUSuppliedRecordsId *supplementalId;
   // correlationInfo
@@ -5299,7 +5299,7 @@ struct Z_IUTaskPackageRecordStructure
   // which
   signed int which;
   // u
-  union anonymous$6 u;
+  union anonymous_6 u;
   // correlationInfo
   struct Z_IUCorrelationInfo *correlationInfo;
   // recordStatus
@@ -5355,7 +5355,7 @@ struct Z_IconObjectUnit
   // which
   signed int which;
   // u
-  union anonymous$75 u;
+  union anonymous_75 u;
   // content
   struct odr_oct *content;
 };
@@ -5411,7 +5411,7 @@ struct Z_Iso2022
   // which
   signed int which;
   // u
-  union anonymous$81 u;
+  union anonymous_81 u;
 };
 
 struct Z_Iso2022OriginProposal
@@ -5459,7 +5459,7 @@ struct Z_KRBObject
   // which
   signed int which;
   // u
-  union anonymous$44 u;
+  union anonymous_44 u;
 };
 
 struct Z_KRBRequest
@@ -5511,7 +5511,7 @@ struct Z_NamePlusRecord
   // which
   signed int which;
   // u
-  union anonymous$18 u;
+  union anonymous_18 u;
 };
 
 struct Z_NetworkAddress
@@ -5519,7 +5519,7 @@ struct Z_NetworkAddress
   // which
   signed int which;
   // u
-  union anonymous$57 u;
+  union anonymous_57 u;
 };
 
 struct Z_NetworkAddressIA
@@ -5589,7 +5589,7 @@ struct Z_Occurrences
   // which
   signed int which;
   // u
-  union anonymous$31 u;
+  union anonymous_31 u;
 };
 
 struct Z_OidList
@@ -5613,7 +5613,7 @@ struct Z_Operand
   // which
   signed int which;
   // u
-  union anonymous$100 u;
+  union anonymous_100 u;
 };
 
 struct Z_Operator
@@ -5621,7 +5621,7 @@ struct Z_Operator
   // which
   signed int which;
   // u
-  union anonymous$12 u;
+  union anonymous_12 u;
 };
 
 struct Z_Order
@@ -5651,7 +5651,7 @@ struct Z_OriginProposal_0
   // which
   signed int which;
   // u
-  union anonymous$69 u;
+  union anonymous_69 u;
 };
 
 struct Z_OtherInformation
@@ -5669,7 +5669,7 @@ struct Z_OtherInformationUnit
   // which
   signed int which;
   // information
-  union anonymous$4 information;
+  union anonymous_4 information;
 };
 
 struct Z_PQSOriginPartNotToKeep
@@ -5677,7 +5677,7 @@ struct Z_PQSOriginPartNotToKeep
   // which
   signed int which;
   // u
-  union anonymous$98 u;
+  union anonymous_98 u;
   // originSuggestedPeriod
   struct Z_PQSPeriod *originSuggestedPeriod;
   // expiration
@@ -5701,7 +5701,7 @@ struct Z_PQSOriginPartToKeep
   // which
   signed int which;
   // u
-  union anonymous$96 u;
+  union anonymous_96 u;
 };
 
 struct Z_PQSPeriod
@@ -5709,7 +5709,7 @@ struct Z_PQSPeriod
   // which
   signed int which;
   // u
-  union anonymous$99 u;
+  union anonymous_99 u;
 };
 
 struct Z_PQSPeriodicQuerySchedule
@@ -5717,7 +5717,7 @@ struct Z_PQSPeriodicQuerySchedule
   // which
   signed int which;
   // u
-  union anonymous$95 u;
+  union anonymous_95 u;
 };
 
 struct Z_PQSPeriodicQueryScheduleEsRequest
@@ -5759,7 +5759,7 @@ struct Z_PQueryOriginPartNotToKeep
   // which
   signed int which;
   // u
-  union anonymous$94 u;
+  union anonymous_94 u;
 };
 
 struct Z_PQueryOriginPartToKeep
@@ -5777,7 +5777,7 @@ struct Z_PQueryPersistentQuery
   // which
   signed int which;
   // u
-  union anonymous$93 u;
+  union anonymous_93 u;
 };
 
 struct Z_PQueryPersistentQueryEsRequest
@@ -5809,7 +5809,7 @@ struct Z_PRPersistentResultSet
   // which
   signed int which;
   // u
-  union anonymous$0 u;
+  union anonymous_0 u;
 };
 
 struct Z_PRPersistentResultSetEsRequest
@@ -5941,7 +5941,7 @@ struct Z_PrivateCharacterSet
   // which
   signed int which;
   // u
-  union anonymous$77 u;
+  union anonymous_77 u;
 };
 
 struct Z_PrivateCharacterSetViaOid
@@ -5975,7 +5975,7 @@ struct Z_PromptId
   // which
   signed int which;
   // u
-  union anonymous$50 u;
+  union anonymous_50 u;
 };
 
 struct Z_PromptIdEnumeratedPrompt
@@ -5991,7 +5991,7 @@ struct Z_PromptObject1
   // which
   signed int which;
   // u
-  union anonymous$39 u;
+  union anonymous_39 u;
 };
 
 struct Z_ProxSupportPrivate
@@ -6007,7 +6007,7 @@ struct Z_ProxSupportUnit
   // which
   signed int which;
   // u
-  union anonymous$22 u;
+  union anonymous_22 u;
 };
 
 struct Z_Proximity
@@ -6015,7 +6015,7 @@ struct Z_Proximity
   // which
   signed int which;
   // u
-  union anonymous$21 u;
+  union anonymous_21 u;
 };
 
 struct Z_ProximityOperator
@@ -6031,7 +6031,7 @@ struct Z_ProximityOperator
   // which
   signed int which;
   // u
-  union anonymous$15 u;
+  union anonymous_15 u;
 };
 
 struct Z_ProximitySupport
@@ -6049,7 +6049,7 @@ struct Z_Query
   // which
   signed int which;
   // u
-  union anonymous$82 u;
+  union anonymous_82 u;
 };
 
 struct Z_QueryExpression
@@ -6057,7 +6057,7 @@ struct Z_QueryExpression
   // which
   signed int which;
   // u
-  union anonymous$79 u;
+  union anonymous_79 u;
 };
 
 struct Z_QueryExpressionTerm
@@ -6073,7 +6073,7 @@ struct Z_QueryTypeDetails
   // which
   signed int which;
   // u
-  union anonymous$76 u;
+  union anonymous_76 u;
 };
 
 struct Z_RPNQuery
@@ -6089,7 +6089,7 @@ struct Z_RPNStructure
   // which
   signed int which;
   // u
-  union anonymous$27 u;
+  union anonymous_27 u;
 };
 
 struct Z_RecordSyntax
@@ -6167,7 +6167,7 @@ struct Z_ResponseUnit1
   // which
   signed int which;
   // u
-  union anonymous$55 u;
+  union anonymous_55 u;
 };
 
 struct Z_ResultSetPlusAttributes
@@ -6191,7 +6191,7 @@ struct Z_ResultsByDB_s
   // which
   signed int which;
   // u
-  union anonymous$80 u;
+  union anonymous_80 u;
   // count
   signed long long int *count;
   // resultSetName
@@ -6243,7 +6243,7 @@ struct Z_Scan
   // which
   signed int which;
   // u
-  union anonymous$23 u;
+  union anonymous_23 u;
 };
 
 struct Z_SchemaInfo
@@ -6321,7 +6321,7 @@ struct Z_Segmentation
   // which
   signed int which;
   // u
-  union anonymous$101 u;
+  union anonymous_101 u;
 };
 
 struct Z_SimpleElement
@@ -6337,7 +6337,7 @@ struct Z_Sort
   // which
   signed int which;
   // u
-  union anonymous$25 u;
+  union anonymous_25 u;
 };
 
 struct Z_SortAttributes
@@ -6381,7 +6381,7 @@ struct Z_SortElement
   // which
   signed int which;
   // u
-  union anonymous$24 u;
+  union anonymous_24 u;
 };
 
 struct Z_SortKey
@@ -6389,7 +6389,7 @@ struct Z_SortKey
   // which
   signed int which;
   // u
-  union anonymous$83 u;
+  union anonymous_83 u;
 };
 
 struct Z_SortKeyDetails
@@ -6405,7 +6405,7 @@ struct Z_SortKeyDetails
   // which
   signed int which;
   // u
-  union anonymous$71 u;
+  union anonymous_71 u;
   // caseSensitivity
   signed long long int *caseSensitivity;
 };
@@ -6425,7 +6425,7 @@ struct Z_Specification
   // which
   signed int which;
   // schema
-  union anonymous$62 schema;
+  union anonymous_62 schema;
   // elementSpec
   struct Z_ElementSpec *elementSpec;
 };
@@ -6443,7 +6443,7 @@ struct Z_StringOrNumeric
   // which
   signed int which;
   // u
-  union anonymous$7 u;
+  union anonymous_7 u;
 };
 
 struct Z_TagPath
@@ -6583,7 +6583,7 @@ struct Z_TargetResponse
   // which
   signed int which;
   // u
-  union anonymous$72 u;
+  union anonymous_72 u;
   // selectedLanguage
   char *selectedLanguage;
   // recordsInSelectedCharSets
@@ -6623,7 +6623,7 @@ struct Z_Term
   // which
   signed int which;
   // u
-  union anonymous$1 u;
+  union anonymous_1 u;
 };
 
 struct Z_TermListDetails
@@ -6691,7 +6691,7 @@ struct Z_Time
   // which
   signed int which;
   // u
-  union anonymous$42 u;
+  union anonymous_42 u;
 };
 
 struct Z_TooMany
@@ -6713,7 +6713,7 @@ struct Z_Triple
   // which
   signed int which;
   // value
-  union anonymous$59 value;
+  union anonymous_59 value;
 };
 
 struct Z_Unit
@@ -6773,7 +6773,7 @@ struct Z_UniverseReport
   // which
   signed int which;
   // u
-  union anonymous$30 u;
+  union anonymous_30 u;
 };
 
 struct Z_UniverseReportDuplicate
@@ -6803,7 +6803,7 @@ struct Z_ValueDescription
   // which
   signed int which;
   // u
-  union anonymous$74 u;
+  union anonymous_74 u;
 };
 
 struct Z_ValueRange
@@ -6819,7 +6819,7 @@ struct Z_ValueSet
   // which
   signed int which;
   // u
-  union anonymous$73 u;
+  union anonymous_73 u;
 };
 
 struct Z_ValueSetEnumerated
@@ -6975,7 +6975,7 @@ struct _xmlAttr
   // _private
   void *_private;
   // type
-  enum anonymous$10 type;
+  enum anonymous_10 type;
   // name
   const unsigned char *name;
   // children
@@ -6993,7 +6993,7 @@ struct _xmlAttr
   // ns
   struct _xmlNs *ns;
   // atype
-  enum anonymous$13 atype;
+  enum anonymous_13 atype;
   // psvi
   void *psvi;
 };
@@ -7003,7 +7003,7 @@ struct _xmlDoc
   // _private
   void *_private;
   // type
-  enum anonymous$10 type;
+  enum anonymous_10 type;
   // name
   char *name;
   // children
@@ -7055,7 +7055,7 @@ struct _xmlDtd
   // _private
   void *_private;
   // type
-  enum anonymous$10 type;
+  enum anonymous_10 type;
   // name
   const unsigned char *name;
   // children
@@ -7091,7 +7091,7 @@ struct _xmlNode
   // _private
   void *_private;
   // type
-  enum anonymous$10 type;
+  enum anonymous_10 type;
   // name
   const unsigned char *name;
   // children
@@ -7127,7 +7127,7 @@ struct _xmlNs
   // next
   struct _xmlNs *next;
   // type
-  enum anonymous$10 type;
+  enum anonymous_10 type;
   // href
   const unsigned char *href;
   // prefix
@@ -7323,7 +7323,7 @@ struct xpath_predicate
   // which
   signed int which;
   // u
-  union anonymous$66 u;
+  union anonymous_66 u;
 };
 
 struct zebra_lock_handle
@@ -7347,9 +7347,9 @@ struct zebra_lock_info
   // no_file_read_lock
   signed int no_file_read_lock;
   // rdwr_lock
-  struct anonymous$56 rdwr_lock;
+  struct anonymous_56 rdwr_lock;
   // file_mutex
-  struct anonymous$54 file_mutex;
+  struct anonymous_54 file_mutex;
   // next
   struct zebra_lock_info *next;
 };
@@ -7373,7 +7373,7 @@ struct zebra_map
   // debug
   signed int debug;
   // u
-  union anonymous$97 u;
+  union anonymous_97 u;
   // maptab
   struct chrmaptab_info *maptab;
   // maptab_name
@@ -7496,7 +7496,7 @@ static signed int initialized = 0;
 static struct zebra_lock_info *lock_list = ((struct zebra_lock_info *)NULL);
 // lock_list_mutex
 // file flock.c line 50
-struct anonymous$54 lock_list_mutex;
+struct anonymous_54 lock_list_mutex;
 // log_level
 // file flock.c line 82
 static signed int log_level = 0;
@@ -7511,13 +7511,13 @@ static char seq[1000l];
 static char *seqp = ((char *)NULL);
 // sleep_cond
 // file tstflock.c line 68
-union anonymous$48 sleep_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_48 sleep_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // sleep_mutex
 // file tstflock.c line 69
-union anonymous$47 sleep_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_47 sleep_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // stderr
@@ -7532,20 +7532,20 @@ signed int test_fd = 0;
 static struct res_entry * add_entry(struct res_struct *r)
 {
   struct res_entry *resp;
-  void *return_value_xmalloc_f$1;
+  void *return_value_xmalloc_f_1;
   if(r->first == ((struct res_entry *)NULL))
   {
-    return_value_xmalloc_f$1=xmalloc_f(sizeof(struct res_entry) /*24ul*/ , "res.c", 66);
-    r->first = (struct res_entry *)return_value_xmalloc_f$1;
+    return_value_xmalloc_f_1=xmalloc_f(sizeof(struct res_entry) /*24ul*/ , "res.c", 66);
+    r->first = (struct res_entry *)return_value_xmalloc_f_1;
     r->last = r->first;
     resp = r->last;
   }
 
   else
   {
-    void *return_value_xmalloc_f$2;
-    return_value_xmalloc_f$2=xmalloc_f(sizeof(struct res_entry) /*24ul*/ , "res.c", 69);
-    resp = (struct res_entry *)return_value_xmalloc_f$2;
+    void *return_value_xmalloc_f_2;
+    return_value_xmalloc_f_2=xmalloc_f(sizeof(struct res_entry) /*24ul*/ , "res.c", 69);
+    resp = (struct res_entry *)return_value_xmalloc_f_2;
     r->last->next = resp;
     r->last = resp;
   }
@@ -7564,9 +7564,9 @@ signed long long int atoi_zn(const char *buf, signed long long int len)
     if(!(len >= 0l))
       break;
 
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*buf]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*buf]) == 0))
       val = val * (signed long int)10 + (signed long int)((signed int)*buf - 48);
 
     buf = buf + 1l;
@@ -7579,23 +7579,23 @@ signed long long int atoi_zn(const char *buf, signed long long int len)
 // file zint.c line 55
 signed long long int atozint(const char *src)
 {
-  signed long long int return_value_atoll$1;
-  return_value_atoll$1=atoll(src);
-  return return_value_atoll$1;
+  signed long long int return_value_atoll_1;
+  return_value_atoll_1=atoll(src);
+  return return_value_atoll_1;
 }
 
 // attr_find
 // file ../include/attrfind.h line 42
-signed int attr_find(struct anonymous$89 *src, const signed short int **attribute_set_id)
+signed int attr_find(struct anonymous_89 *src, const signed short int **attribute_set_id)
 {
-  signed int return_value_attr_find_ex$1;
-  return_value_attr_find_ex$1=attr_find_ex(src, attribute_set_id, ((const char **)NULL));
-  return return_value_attr_find_ex$1;
+  signed int return_value_attr_find_ex_1;
+  return_value_attr_find_ex_1=attr_find_ex(src, attribute_set_id, ((const char **)NULL));
+  return return_value_attr_find_ex_1;
 }
 
 // attr_find_ex
 // file ../include/attrfind.h line 40
-signed int attr_find_ex(struct anonymous$89 *src, const signed short int **attribute_set_oid, const char **string_value)
+signed int attr_find_ex(struct anonymous_89 *src, const signed short int **attribute_set_oid, const char **string_value)
 {
   signed int num_attributes = src->num_attributes;
   while(!(src->major >= num_attributes))
@@ -7660,7 +7660,7 @@ signed int attr_find_ex(struct anonymous$89 *src, const signed short int **attri
 
 // attr_init_APT
 // file ../include/attrfind.h line 36
-void attr_init_APT(struct anonymous$89 *src, struct Z_AttributesPlusTerm *zapt, signed int type)
+void attr_init_APT(struct anonymous_89 *src, struct Z_AttributesPlusTerm *zapt, signed int type)
 {
   src->attributeList = zapt->attributes->attributes;
   src->num_attributes = zapt->attributes->num_attributes;
@@ -7671,7 +7671,7 @@ void attr_init_APT(struct anonymous$89 *src, struct Z_AttributesPlusTerm *zapt, 
 
 // attr_init_AttrList
 // file ../include/attrfind.h line 38
-void attr_init_AttrList(struct anonymous$89 *src, struct Z_AttributeList *list, signed int type)
+void attr_init_AttrList(struct anonymous_89 *src, struct Z_AttributeList *list, signed int type)
 {
   src->attributeList = list->attributes;
   src->num_attributes = list->num_attributes;
@@ -7695,9 +7695,9 @@ static signed int check_for_linuxthreads(void)
 
   else
   {
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(conf_buf, "linuxthreads", (unsigned long int)12);
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(conf_buf, "linuxthreads", (unsigned long int)12);
+    if(return_value_strncmp_1 == 0)
       posix_locks = 0;
 
     return 0;
@@ -7775,7 +7775,7 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
   signed int errors = 0;
   signed int argc;
   signed int num = (signed int)*CHR_BASE;
-  signed int chrmaptab_create$$1$$i;
+  signed int chrmaptab_create__1__i;
   struct nmem_control *nmem;
   struct yaz_iconv_struct *t_unicode = ((struct yaz_iconv_struct *)NULL);
   struct yaz_iconv_struct *t_utf8 = ((struct yaz_iconv_struct *)NULL);
@@ -7783,15 +7783,15 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
   const char *ucs4_native = "UCS-4";
   yaz_log(0x00000002, "maptab %s open", name);
   f=yaz_fopen(tabpath, name, "r", tabroot);
-  signed int return_value_yaz_matchstr$26;
-  signed int return_value_yaz_matchstr$25;
-  signed int return_value_yaz_matchstr$24;
-  signed int return_value_yaz_matchstr$23;
-  signed int return_value_yaz_matchstr$22;
-  unsigned long int return_value_strlen$14;
-  signed int tmp_post$16;
-  signed int tmp_post$18;
-  signed int return_value_yaz_matchstr$21;
+  signed int return_value_yaz_matchstr_26;
+  signed int return_value_yaz_matchstr_25;
+  signed int return_value_yaz_matchstr_24;
+  signed int return_value_yaz_matchstr_23;
+  signed int return_value_yaz_matchstr_22;
+  unsigned long int return_value_strlen_14;
+  signed int tmp_post_16;
+  signed int tmp_post_18;
+  signed int return_value_yaz_matchstr_21;
   if(f == ((struct _IO_FILE *)NULL))
   {
     yaz_log(0x00000004 | 0x00000010, "%s", name);
@@ -7805,42 +7805,42 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
 
     t_utf8=yaz_iconv_open("UTF-8", ucs4_native);
     nmem=nmem_create();
-    void *return_value_nmem_malloc$1;
-    return_value_nmem_malloc$1=nmem_malloc(nmem, sizeof(struct chrmaptab_info) /*2080ul*/ );
-    res = (struct chrmaptab_info *)return_value_nmem_malloc$1;
+    void *return_value_nmem_malloc_1;
+    return_value_nmem_malloc_1=nmem_malloc(nmem, sizeof(struct chrmaptab_info) /*2080ul*/ );
+    res = (struct chrmaptab_info *)return_value_nmem_malloc_1;
     res->nmem = nmem;
-    void *return_value_nmem_malloc$2;
-    return_value_nmem_malloc$2=nmem_malloc(res->nmem, sizeof(struct chr_t_entry) /*16ul*/ );
-    res->input = (struct chr_t_entry *)return_value_nmem_malloc$2;
-    void *return_value_nmem_malloc$3;
-    return_value_nmem_malloc$3=nmem_malloc(res->nmem, sizeof(unsigned char *) /*8ul*/  * (unsigned long int)2);
-    res->input->target = (unsigned char **)return_value_nmem_malloc$3;
+    void *return_value_nmem_malloc_2;
+    return_value_nmem_malloc_2=nmem_malloc(res->nmem, sizeof(struct chr_t_entry) /*16ul*/ );
+    res->input = (struct chr_t_entry *)return_value_nmem_malloc_2;
+    void *return_value_nmem_malloc_3;
+    return_value_nmem_malloc_3=nmem_malloc(res->nmem, sizeof(unsigned char *) /*8ul*/  * (unsigned long int)2);
+    res->input->target = (unsigned char **)return_value_nmem_malloc_3;
     res->input->target[(signed long int)0] = (unsigned char *)CHR_UNKNOWN;
     res->input->target[(signed long int)1] = ((unsigned char *)NULL);
-    void *return_value_nmem_malloc$4;
-    return_value_nmem_malloc$4=nmem_malloc(res->nmem, sizeof(struct chr_t_entry *) /*8ul*/  * (unsigned long int)256);
-    res->input->children = (struct chr_t_entry **)return_value_nmem_malloc$4;
-    chrmaptab_create$$1$$i = 0;
-    for( ; !(chrmaptab_create$$1$$i >= 256); chrmaptab_create$$1$$i = chrmaptab_create$$1$$i + 1)
+    void *return_value_nmem_malloc_4;
+    return_value_nmem_malloc_4=nmem_malloc(res->nmem, sizeof(struct chr_t_entry *) /*8ul*/  * (unsigned long int)256);
+    res->input->children = (struct chr_t_entry **)return_value_nmem_malloc_4;
+    chrmaptab_create__1__i = 0;
+    for( ; !(chrmaptab_create__1__i >= 256); chrmaptab_create__1__i = chrmaptab_create__1__i + 1)
     {
-      void *return_value_nmem_malloc$5;
-      return_value_nmem_malloc$5=nmem_malloc(res->nmem, sizeof(struct chr_t_entry) /*16ul*/ );
-      res->input->children[(signed long int)chrmaptab_create$$1$$i] = (struct chr_t_entry *)return_value_nmem_malloc$5;
-      res->input->children[(signed long int)chrmaptab_create$$1$$i]->children = ((struct chr_t_entry **)NULL);
-      void *return_value_nmem_malloc$6;
-      return_value_nmem_malloc$6=nmem_malloc(res->nmem, (unsigned long int)2 * sizeof(unsigned char *) /*8ul*/ );
-      res->input->children[(signed long int)chrmaptab_create$$1$$i]->target = (unsigned char **)return_value_nmem_malloc$6;
-      res->input->children[(signed long int)chrmaptab_create$$1$$i]->target[(signed long int)1] = ((unsigned char *)NULL);
-      res->input->children[(signed long int)chrmaptab_create$$1$$i]->target[(signed long int)0] = (unsigned char *)CHR_UNKNOWN;
+      void *return_value_nmem_malloc_5;
+      return_value_nmem_malloc_5=nmem_malloc(res->nmem, sizeof(struct chr_t_entry) /*16ul*/ );
+      res->input->children[(signed long int)chrmaptab_create__1__i] = (struct chr_t_entry *)return_value_nmem_malloc_5;
+      res->input->children[(signed long int)chrmaptab_create__1__i]->children = ((struct chr_t_entry **)NULL);
+      void *return_value_nmem_malloc_6;
+      return_value_nmem_malloc_6=nmem_malloc(res->nmem, (unsigned long int)2 * sizeof(unsigned char *) /*8ul*/ );
+      res->input->children[(signed long int)chrmaptab_create__1__i]->target = (unsigned char **)return_value_nmem_malloc_6;
+      res->input->children[(signed long int)chrmaptab_create__1__i]->target[(signed long int)1] = ((unsigned char *)NULL);
+      res->input->children[(signed long int)chrmaptab_create__1__i]->target[(signed long int)0] = (unsigned char *)CHR_UNKNOWN;
     }
-    void *return_value_nmem_malloc$7;
-    return_value_nmem_malloc$7=nmem_malloc(res->nmem, sizeof(struct chr_t_entry) /*16ul*/ );
-    res->q_input = (struct chr_t_entry *)return_value_nmem_malloc$7;
+    void *return_value_nmem_malloc_7;
+    return_value_nmem_malloc_7=nmem_malloc(res->nmem, sizeof(struct chr_t_entry) /*16ul*/ );
+    res->q_input = (struct chr_t_entry *)return_value_nmem_malloc_7;
     res->q_input->target = ((unsigned char **)NULL);
     res->q_input->children = ((struct chr_t_entry **)NULL);
-    chrmaptab_create$$1$$i = (signed int)*CHR_BASE;
-    for( ; !(chrmaptab_create$$1$$i >= 256); chrmaptab_create$$1$$i = chrmaptab_create$$1$$i + 1)
-      res->output[(signed long int)chrmaptab_create$$1$$i] = ((unsigned char *)NULL);
+    chrmaptab_create__1__i = (signed int)*CHR_BASE;
+    for( ; !(chrmaptab_create__1__i >= 256); chrmaptab_create__1__i = chrmaptab_create__1__i + 1)
+      res->output[(signed long int)chrmaptab_create__1__i] = ((unsigned char *)NULL);
     res->output[(signed long int)(signed int)*CHR_SPACE] = (unsigned char *)" ";
     res->output[(signed long int)(signed int)*CHR_UNKNOWN] = (unsigned char *)"@";
     res->base_uppercase = 0;
@@ -7851,9 +7851,9 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
         break;
 
       no_directives = no_directives + 1;
-      signed int return_value_yaz_matchstr$27;
-      return_value_yaz_matchstr$27=yaz_matchstr(argv[(signed long int)0], "lowercase");
-      if(return_value_yaz_matchstr$27 == 0)
+      signed int return_value_yaz_matchstr_27;
+      return_value_yaz_matchstr_27=yaz_matchstr(argv[(signed long int)0], "lowercase");
+      if(return_value_yaz_matchstr_27 == 0)
       {
         if(!(argc == 2))
         {
@@ -7861,9 +7861,9 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
           errors = errors + 1;
         }
 
-        signed int return_value_scan_string$8;
-        return_value_scan_string$8=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_addentry, (void *)res, &num);
-        if(!(return_value_scan_string$8 >= 0))
+        signed int return_value_scan_string_8;
+        return_value_scan_string_8=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_addentry, (void *)res, &num);
+        if(!(return_value_scan_string_8 >= 0))
         {
           yaz_log(0x00000001, "Bad value-set specification");
           errors = errors + 1;
@@ -7877,8 +7877,8 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
 
       else
       {
-        return_value_yaz_matchstr$26=yaz_matchstr(argv[(signed long int)0], "uppercase");
-        if(return_value_yaz_matchstr$26 == 0)
+        return_value_yaz_matchstr_26=yaz_matchstr(argv[(signed long int)0], "uppercase");
+        if(return_value_yaz_matchstr_26 == 0)
         {
           if(res->base_uppercase == 0)
           {
@@ -7892,9 +7892,9 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
             errors = errors + 1;
           }
 
-          signed int return_value_scan_string$9;
-          return_value_scan_string$9=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_addentry, (void *)res, &num);
-          if(!(return_value_scan_string$9 >= 0))
+          signed int return_value_scan_string_9;
+          return_value_scan_string_9=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_addentry, (void *)res, &num);
+          if(!(return_value_scan_string_9 >= 0))
           {
             yaz_log(0x00000001, "Bad value-set specification");
             errors = errors + 1;
@@ -7904,8 +7904,8 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
 
         else
         {
-          return_value_yaz_matchstr$25=yaz_matchstr(argv[(signed long int)0], "space");
-          if(return_value_yaz_matchstr$25 == 0)
+          return_value_yaz_matchstr_25=yaz_matchstr(argv[(signed long int)0], "space");
+          if(return_value_yaz_matchstr_25 == 0)
           {
             if(!(argc == 2))
             {
@@ -7913,9 +7913,9 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
               errors = errors + 1;
             }
 
-            signed int return_value_scan_string$10;
-            return_value_scan_string$10=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_addspace, (void *)res, ((signed int *)NULL));
-            if(!(return_value_scan_string$10 >= 0))
+            signed int return_value_scan_string_10;
+            return_value_scan_string_10=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_addspace, (void *)res, ((signed int *)NULL));
+            if(!(return_value_scan_string_10 >= 0))
             {
               yaz_log(0x00000001, "Bad space specification");
               errors = errors + 1;
@@ -7925,8 +7925,8 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
 
           else
           {
-            return_value_yaz_matchstr$24=yaz_matchstr(argv[(signed long int)0], "cut");
-            if(return_value_yaz_matchstr$24 == 0)
+            return_value_yaz_matchstr_24=yaz_matchstr(argv[(signed long int)0], "cut");
+            if(return_value_yaz_matchstr_24 == 0)
             {
               if(!(argc == 2))
               {
@@ -7934,9 +7934,9 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
                 errors = errors + 1;
               }
 
-              signed int return_value_scan_string$11;
-              return_value_scan_string$11=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_addcut, (void *)res, ((signed int *)NULL));
-              if(!(return_value_scan_string$11 >= 0))
+              signed int return_value_scan_string_11;
+              return_value_scan_string_11=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_addcut, (void *)res, ((signed int *)NULL));
+              if(!(return_value_scan_string_11 >= 0))
               {
                 yaz_log(0x00000001, "Bad cut specification");
                 errors = errors + 1;
@@ -7946,8 +7946,8 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
 
             else
             {
-              return_value_yaz_matchstr$23=yaz_matchstr(argv[(signed long int)0], "map");
-              if(return_value_yaz_matchstr$23 == 0)
+              return_value_yaz_matchstr_23=yaz_matchstr(argv[(signed long int)0], "map");
+              if(return_value_yaz_matchstr_23 == 0)
               {
                 struct chrwork buf;
                 if(!(argc == 3))
@@ -7958,17 +7958,17 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
 
                 buf.map = res;
                 buf.string[(signed long int)0] = (char)0;
-                signed int return_value_scan_string$12;
-                return_value_scan_string$12=scan_string(argv[(signed long int)2], t_unicode, t_utf8, fun_mkstring, (void *)&buf, ((signed int *)NULL));
-                if(!(return_value_scan_string$12 >= 0))
+                signed int return_value_scan_string_12;
+                return_value_scan_string_12=scan_string(argv[(signed long int)2], t_unicode, t_utf8, fun_mkstring, (void *)&buf, ((signed int *)NULL));
+                if(!(return_value_scan_string_12 >= 0))
                 {
                   yaz_log(0x00000001, "Bad map target");
                   errors = errors + 1;
                 }
 
-                signed int return_value_scan_string$13;
-                return_value_scan_string$13=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_add_map, (void *)&buf, ((signed int *)NULL));
-                if(!(return_value_scan_string$13 >= 0))
+                signed int return_value_scan_string_13;
+                return_value_scan_string_13=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_add_map, (void *)&buf, ((signed int *)NULL));
+                if(!(return_value_scan_string_13 >= 0))
                 {
                   yaz_log(0x00000001, "Bad map source");
                   errors = errors + 1;
@@ -7978,10 +7978,10 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
 
               else
               {
-                return_value_yaz_matchstr$22=yaz_matchstr(argv[(signed long int)0], "equivalent");
-                if(return_value_yaz_matchstr$22 == 0)
+                return_value_yaz_matchstr_22=yaz_matchstr(argv[(signed long int)0], "equivalent");
+                if(return_value_yaz_matchstr_22 == 0)
                 {
-                  struct anonymous$35 w;
+                  struct anonymous_35 w;
                   if(!(argc == 2))
                   {
                     yaz_log(0x00000001, "equivalent requires 1 argument");
@@ -7990,9 +7990,9 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
 
                   w.nmem = res->nmem;
                   w.no_eq = 0;
-                  signed int return_value_scan_string$20;
-                  return_value_scan_string$20=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_add_equivalent_string, (void *)&w, ((signed int *)NULL));
-                  if(!(return_value_scan_string$20 >= 0))
+                  signed int return_value_scan_string_20;
+                  return_value_scan_string_20=scan_string(argv[(signed long int)1], t_unicode, t_utf8, fun_add_equivalent_string, (void *)&w, ((signed int *)NULL));
+                  if(!(return_value_scan_string_20 >= 0))
                   {
                     yaz_log(0x00000001, "equivalent: invalid string");
                     errors = errors + 1;
@@ -8013,43 +8013,43 @@ struct chrmaptab_info * chrmaptab_create(const char *tabpath, const char *name, 
                       i = 0;
                       for( ; !(i >= w.no_eq); i = i + 1)
                       {
-                        return_value_strlen$14=strlen(w.eq[(signed long int)i]);
-                        slen = slen + (signed int)(return_value_strlen$14 + (unsigned long int)1);
+                        return_value_strlen_14=strlen(w.eq[(signed long int)i]);
+                        slen = slen + (signed int)(return_value_strlen_14 + (unsigned long int)1);
                       }
-                      void *return_value_nmem_malloc$15;
-                      return_value_nmem_malloc$15=nmem_malloc(res->nmem, (unsigned long int)(slen + 5));
-                      result_str = (char *)return_value_nmem_malloc$15;
+                      void *return_value_nmem_malloc_15;
+                      return_value_nmem_malloc_15=nmem_malloc(res->nmem, (unsigned long int)(slen + 5));
+                      result_str = (char *)return_value_nmem_malloc_15;
                       *result_str = (char)0;
                       slen = 0;
                       i = 0;
                       for( ; !(i >= w.no_eq); i = i + 1)
                       {
-                        tmp_post$16 = slen;
+                        tmp_post_16 = slen;
                         slen = slen + 1;
-                        result_str[(signed long int)tmp_post$16] = (char)(i != 0 ? 124 : 40);
+                        result_str[(signed long int)tmp_post_16] = (char)(i != 0 ? 124 : 40);
                         strcpy(result_str + (signed long int)slen, w.eq[(signed long int)i]);
-                        unsigned long int return_value_strlen$17;
-                        return_value_strlen$17=strlen(w.eq[(signed long int)i]);
-                        slen = slen + (signed int)return_value_strlen$17;
+                        unsigned long int return_value_strlen_17;
+                        return_value_strlen_17=strlen(w.eq[(signed long int)i]);
+                        slen = slen + (signed int)return_value_strlen_17;
                       }
-                      tmp_post$18 = slen;
+                      tmp_post_18 = slen;
                       slen = slen + 1;
-                      result_str[(signed long int)tmp_post$18] = (char)41;
+                      result_str[(signed long int)tmp_post_18] = (char)41;
                       result_str[(signed long int)slen] = (char)0;
                       i = 0;
                       for( ; !(i >= w.no_eq); i = i + 1)
                       {
-                        unsigned long int return_value_strlen$19;
-                        return_value_strlen$19=strlen(w.eq[(signed long int)i]);
-                        set_map_string(res->q_input, res->nmem, w.eq[(signed long int)i], (signed int)return_value_strlen$19, result_str, ((const char *)NULL));
+                        unsigned long int return_value_strlen_19;
+                        return_value_strlen_19=strlen(w.eq[(signed long int)i]);
+                        set_map_string(res->q_input, res->nmem, w.eq[(signed long int)i], (signed int)return_value_strlen_19, result_str, ((const char *)NULL));
                       }
                     }
                 }
 
                 else
                 {
-                  return_value_yaz_matchstr$21=yaz_matchstr(argv[(signed long int)0], "encoding");
-                  if(return_value_yaz_matchstr$21 == 0)
+                  return_value_yaz_matchstr_21=yaz_matchstr(argv[(signed long int)0], "encoding");
+                  if(return_value_yaz_matchstr_21 == 0)
                   {
                     if(!(t_unicode == ((struct yaz_iconv_struct *)NULL)))
                       yaz_iconv_close(t_unicode);
@@ -8106,15 +8106,15 @@ void chrmaptab_destroy(struct chrmaptab_info *tab)
 // file xpath.c line 216
 void dump_xp_predicate(struct xpath_predicate *p)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(p == ((struct xpath_predicate *)NULL)))
   {
     if(p->which == 1)
-      tmp_if_expr$1 = p->u.relation.name[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = p->u.relation.name[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       fprintf(stderr, "%s,%s,%s", p->u.relation.name, p->u.relation.op, p->u.relation.value);
 
     else
@@ -8154,7 +8154,7 @@ static struct chr_t_entry * find_entry_x(struct chr_t_entry *t, const char **fro
 
     from = from + 1l;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(*len >= 1)
   {
     if(!(t->children == ((struct chr_t_entry **)NULL)))
@@ -8168,11 +8168,11 @@ static struct chr_t_entry * find_entry_x(struct chr_t_entry *t, const char **fro
         {
           res=find_entry_x(t->children[(signed long int)CHR_FIELD_BEGIN], from, len, 0);
           if(!(res == ((struct chr_t_entry *)NULL)))
-            tmp_if_expr$1 = res != t->children[(signed long int)CHR_FIELD_BEGIN] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = res != t->children[(signed long int)CHR_FIELD_BEGIN] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
             return res;
 
           else
@@ -8237,13 +8237,13 @@ void fork_tst(void)
 // file charmap.c line 369
 static void fun_add_equivalent_string(const char *s, void *data, signed int num)
 {
-  struct anonymous$35 *arg = (struct anonymous$35 *)data;
-  signed int tmp_post$1;
+  struct anonymous_35 *arg = (struct anonymous_35 *)data;
+  signed int tmp_post_1;
   if(!(arg->no_eq == 32))
   {
-    tmp_post$1 = arg->no_eq;
+    tmp_post_1 = arg->no_eq;
     arg->no_eq = arg->no_eq + 1;
-    arg->eq[(signed long int)tmp_post$1]=nmem_strdup(arg->nmem, s);
+    arg->eq[(signed long int)tmp_post_1]=nmem_strdup(arg->nmem, s);
   }
 
 }
@@ -8255,12 +8255,12 @@ static void fun_add_map(const char *s, void *data, signed int num)
   struct chrwork *arg = (struct chrwork *)data;
   /* assertion arg->map->input */
   assert(arg->map->input != ((struct chr_t_entry *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  yaz_log(0x00000002, "set map %.*s", (signed int)return_value_strlen$1, s);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(s);
-  set_map_string(arg->map->input, arg->map->nmem, s, (signed int)return_value_strlen$2, arg->string, ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  yaz_log(0x00000002, "set map %.*s", (signed int)return_value_strlen_1, s);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(s);
+  set_map_string(arg->map->input, arg->map->nmem, s, (signed int)return_value_strlen_2, arg->string, ((const char *)NULL));
   s = arg->string;
   for( ; !(*s == 0); s = s + 1l)
     yaz_log(0x00000002, " %3d", (unsigned char)*s);
@@ -8271,9 +8271,9 @@ static void fun_add_map(const char *s, void *data, signed int num)
 static void fun_addcut(const char *s, void *data, signed int num)
 {
   struct chrmaptab_info *tab = (struct chrmaptab_info *)data;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  tab->input=set_map_string(tab->input, tab->nmem, s, (signed int)return_value_strlen$1, (char *)CHR_CUT, ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  tab->input=set_map_string(tab->input, tab->nmem, s, (signed int)return_value_strlen_1, (char *)CHR_CUT, ((const char *)NULL));
 }
 
 // fun_addentry
@@ -8284,12 +8284,12 @@ static void fun_addentry(const char *s, void *data, signed int num)
   char tmp[2l];
   tmp[(signed long int)0] = (char)num;
   tmp[(signed long int)1] = (char)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  tab->input=set_map_string(tab->input, tab->nmem, s, (signed int)return_value_strlen$1, tmp, ((const char *)NULL));
-  char *return_value_nmem_strdup$2;
-  return_value_nmem_strdup$2=nmem_strdup(tab->nmem, s);
-  tab->output[(signed long int)(num + tab->base_uppercase)] = (unsigned char *)return_value_nmem_strdup$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  tab->input=set_map_string(tab->input, tab->nmem, s, (signed int)return_value_strlen_1, tmp, ((const char *)NULL));
+  char *return_value_nmem_strdup_2;
+  return_value_nmem_strdup_2=nmem_strdup(tab->nmem, s);
+  tab->output[(signed long int)(num + tab->base_uppercase)] = (unsigned char *)return_value_nmem_strdup_2;
 }
 
 // fun_addspace
@@ -8297,9 +8297,9 @@ static void fun_addentry(const char *s, void *data, signed int num)
 static void fun_addspace(const char *s, void *data, signed int num)
 {
   struct chrmaptab_info *tab = (struct chrmaptab_info *)data;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  tab->input=set_map_string(tab->input, tab->nmem, s, (signed int)return_value_strlen$1, (char *)CHR_SPACE, ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  tab->input=set_map_string(tab->input, tab->nmem, s, (signed int)return_value_strlen_1, (char *)CHR_SPACE, ((const char *)NULL));
 }
 
 // fun_mkstring
@@ -8309,15 +8309,15 @@ static void fun_mkstring(const char *s, void *data, signed int num)
   struct chrwork *arg = (struct chrwork *)data;
   const char **res;
   const char *p = s;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  res=chr_map_input(arg->map, &s, (signed int)return_value_strlen$1, 0);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  res=chr_map_input(arg->map, &s, (signed int)return_value_strlen_1, 0);
   if(*res == CHR_UNKNOWN)
     yaz_log(0x00000004, "Map: '%s' has no mapping", p);
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(arg->string);
-  strncat(arg->string, *res, (unsigned long int)1024 - return_value_strlen$2);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(arg->string);
+  strncat(arg->string, *res, (unsigned long int)1024 - return_value_strlen_2);
   arg->string[(signed long int)1024] = (char)0;
 }
 
@@ -8355,23 +8355,23 @@ static char * get_xp_part(char **strs, struct nmem_control *mem, signed int *lit
   for( ; (signed int)*cp == 32; cp = cp + 1l)
     ;
   str = cp;
-  char *return_value_strchr$6;
-  return_value_strchr$6=strchr("()", (signed int)*cp);
-  char *return_value_strchr$5;
-  char *return_value_strchr$1;
-  _Bool tmp_if_expr$4;
-  char *return_value_strchr$3;
-  if(!(return_value_strchr$6 == ((char *)NULL)))
+  char *return_value_strchr_6;
+  return_value_strchr_6=strchr("()", (signed int)*cp);
+  char *return_value_strchr_5;
+  char *return_value_strchr_1;
+  _Bool tmp_if_expr_4;
+  char *return_value_strchr_3;
+  if(!(return_value_strchr_6 == ((char *)NULL)))
     cp = cp + 1l;
 
   else
   {
-    return_value_strchr$5=strchr("><=", (signed int)*cp);
-    if(!(return_value_strchr$5 == ((char *)NULL)))
+    return_value_strchr_5=strchr("><=", (signed int)*cp);
+    if(!(return_value_strchr_5 == ((char *)NULL)))
       do
       {
-        return_value_strchr$1=strchr("><=", (signed int)*cp);
-        if(return_value_strchr$1 == ((char *)NULL))
+        return_value_strchr_1=strchr("><=", (signed int)*cp);
+        if(return_value_strchr_1 == ((char *)NULL))
           break;
 
         cp = cp + 1l;
@@ -8381,11 +8381,11 @@ static char * get_xp_part(char **strs, struct nmem_control *mem, signed int *lit
     else
     {
       if((signed int)*cp == 34)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)*cp == 39 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)*cp == 39 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
         signed int sep = (signed int)*cp;
         str = str + 1l;
@@ -8394,9 +8394,9 @@ static char * get_xp_part(char **strs, struct nmem_control *mem, signed int *lit
           if((signed int)*cp == sep)
             break;
 
-        void *return_value_nmem_malloc$2;
-        return_value_nmem_malloc$2=nmem_malloc(mem, (unsigned long int)((cp - str) + (signed long int)1));
-        res = (char *)return_value_nmem_malloc$2;
+        void *return_value_nmem_malloc_2;
+        return_value_nmem_malloc_2=nmem_malloc(mem, (unsigned long int)((cp - str) + (signed long int)1));
+        res = (char *)return_value_nmem_malloc_2;
         if(!(cp - str == 0l))
           memcpy((void *)res, (const void *)str, (unsigned long int)(cp - str));
 
@@ -8410,8 +8410,8 @@ static char * get_xp_part(char **strs, struct nmem_control *mem, signed int *lit
       else
         for( ; !(*cp == 0); cp = cp + 1l)
         {
-          return_value_strchr$3=strchr("><=()]\" ", (signed int)*cp);
-          if(!(return_value_strchr$3 == ((char *)NULL)))
+          return_value_strchr_3=strchr("><=()]\" ", (signed int)*cp);
+          if(!(return_value_strchr_3 == ((char *)NULL)))
             break;
 
         }
@@ -8419,9 +8419,9 @@ static char * get_xp_part(char **strs, struct nmem_control *mem, signed int *lit
   }
   if(res == ((char *)NULL))
   {
-    void *return_value_nmem_malloc$7;
-    return_value_nmem_malloc$7=nmem_malloc(mem, (unsigned long int)((cp - str) + (signed long int)1));
-    res = (char *)return_value_nmem_malloc$7;
+    void *return_value_nmem_malloc_7;
+    return_value_nmem_malloc_7=nmem_malloc(mem, (unsigned long int)((cp - str) + (signed long int)1));
+    res = (char *)return_value_nmem_malloc_7;
     if(!(cp - str == 0l))
       memcpy((void *)res, (const void *)str, (unsigned long int)(cp - str));
 
@@ -8438,9 +8438,9 @@ static struct xpath_predicate * get_xpath_boolean(char **pr, struct nmem_control
 {
   struct xpath_predicate *left = ((struct xpath_predicate *)NULL);
   left=get_xpath_relation(pr, mem, look, literal);
-  signed int return_value_strcmp$1;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_1;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_3;
   if(left == ((struct xpath_predicate *)NULL))
     return ((struct xpath_predicate *)NULL);
 
@@ -8451,14 +8451,14 @@ static struct xpath_predicate * get_xpath_boolean(char **pr, struct nmem_control
       if(!(*literal == 0))
         break;
 
-      return_value_strcmp$1=strcmp(*look, "and");
-      if(!(return_value_strcmp$1 == 0))
+      return_value_strcmp_1=strcmp(*look, "and");
+      if(!(return_value_strcmp_1 == 0))
       {
-        return_value_strcmp$2=strcmp(*look, "or");
-        if(!(return_value_strcmp$2 == 0))
+        return_value_strcmp_2=strcmp(*look, "or");
+        if(!(return_value_strcmp_2 == 0))
         {
-          return_value_strcmp$3=strcmp(*look, "not");
-          if(!(return_value_strcmp$3 == 0))
+          return_value_strcmp_3=strcmp(*look, "not");
+          if(!(return_value_strcmp_3 == 0))
             break;
 
         }
@@ -8467,9 +8467,9 @@ static struct xpath_predicate * get_xpath_boolean(char **pr, struct nmem_control
 
       struct xpath_predicate *res;
       struct xpath_predicate *right;
-      void *return_value_nmem_malloc$4;
-      return_value_nmem_malloc$4=nmem_malloc(mem, sizeof(struct xpath_predicate) /*32ul*/ );
-      res = (struct xpath_predicate *)return_value_nmem_malloc$4;
+      void *return_value_nmem_malloc_4;
+      return_value_nmem_malloc_4=nmem_malloc(mem, sizeof(struct xpath_predicate) /*32ul*/ );
+      res = (struct xpath_predicate *)return_value_nmem_malloc_4;
       res->which = 2;
       res->u.boolean.op = *look;
       res->u.boolean.left = left;
@@ -8495,9 +8495,9 @@ static struct xpath_predicate * get_xpath_predicate(char *predicate, struct nmem
 
   else
   {
-    struct xpath_predicate *return_value_get_xpath_boolean$1;
-    return_value_get_xpath_boolean$1=get_xpath_boolean(pr, mem, &look, &literal);
-    return return_value_get_xpath_boolean$1;
+    struct xpath_predicate *return_value_get_xpath_boolean_1;
+    return_value_get_xpath_boolean_1=get_xpath_boolean(pr, mem, &look, &literal);
+    return return_value_get_xpath_boolean_1;
   }
 }
 
@@ -8506,26 +8506,26 @@ static struct xpath_predicate * get_xpath_predicate(char *predicate, struct nmem
 static struct xpath_predicate * get_xpath_relation(char **pr, struct nmem_control *mem, char **look, signed int *literal)
 {
   struct xpath_predicate *res = ((struct xpath_predicate *)NULL);
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$6;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_6;
   if(*literal == 0)
   {
-    return_value_strcmp$6=strcmp(*look, "(");
-    tmp_if_expr$7 = !(return_value_strcmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_6=strcmp(*look, "(");
+    tmp_if_expr_7 = !(return_value_strcmp_6 != 0) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  char *return_value_strchr$4;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  char *return_value_strchr_4;
+  if(tmp_if_expr_7)
   {
     *look=get_xp_part(pr, mem, literal);
     res=get_xpath_boolean(pr, mem, look, literal);
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(*look, ")");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(*look, ")");
+    if(return_value_strcmp_1 == 0)
       *look=get_xp_part(pr, mem, literal);
 
     else
@@ -8534,26 +8534,26 @@ static struct xpath_predicate * get_xpath_relation(char **pr, struct nmem_contro
 
   else
   {
-    void *return_value_nmem_malloc$2;
-    return_value_nmem_malloc$2=nmem_malloc(mem, sizeof(struct xpath_predicate) /*32ul*/ );
-    res = (struct xpath_predicate *)return_value_nmem_malloc$2;
+    void *return_value_nmem_malloc_2;
+    return_value_nmem_malloc_2=nmem_malloc(mem, sizeof(struct xpath_predicate) /*32ul*/ );
+    res = (struct xpath_predicate *)return_value_nmem_malloc_2;
     res->which = 1;
     res->u.relation.name = *look;
     *look=get_xp_part(pr, mem, literal);
     if(!(*look == ((char *)NULL)))
-      tmp_if_expr$3 = !(*literal != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = !(*literal != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_strchr$4=strchr("><=", (signed int)*(*look));
-      tmp_if_expr$5 = return_value_strchr$4 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strchr_4=strchr("><=", (signed int)*(*look));
+      tmp_if_expr_5 = return_value_strchr_4 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       res->u.relation.op = *look;
       *look=get_xp_part(pr, mem, literal);
@@ -8577,12 +8577,12 @@ static struct xpath_predicate * get_xpath_relation(char **pr, struct nmem_contro
 // file strmap.c line 70
 static struct strmap_entry ** hash(struct zebra_strmap *st, const char *name)
 {
-  unsigned int hash$$1$$hash = (unsigned int)0;
+  unsigned int hash__1__hash = (unsigned int)0;
   signed int i = 0;
   for( ; !(name[(signed long int)i] == 0); i = i + 1)
-    hash$$1$$hash = hash$$1$$hash + hash$$1$$hash * (unsigned int)65519 + (unsigned int)name[(signed long int)i];
-  hash$$1$$hash = hash$$1$$hash % (unsigned int)st->hsize;
-  return st->entries + (signed long int)hash$$1$$hash;
+    hash__1__hash = hash__1__hash + hash__1__hash * (unsigned int)65519 + (unsigned int)name[(signed long int)i];
+  hash__1__hash = hash__1__hash % (unsigned int)st->hsize;
+  return st->entries + (signed long int)hash__1__hash;
 }
 
 // iscz1_decode
@@ -8592,15 +8592,15 @@ void iscz1_decode(void *vp, char **dst, const char **src)
   struct iscz1_code_info *p = (struct iscz1_code_info *)vp;
   signed int i;
   signed int leader;
-  signed long long int return_value_iscz1_decode_int$1;
-  return_value_iscz1_decode_int$1=iscz1_decode_int((unsigned char **)src);
-  leader = (signed int)return_value_iscz1_decode_int$1;
+  signed long long int return_value_iscz1_decode_int_1;
+  return_value_iscz1_decode_int_1=iscz1_decode_int((unsigned char **)src);
+  leader = (signed int)return_value_iscz1_decode_int_1;
   i = leader & 7;
-  signed long long int return_value_iscz1_decode_int$2;
+  signed long long int return_value_iscz1_decode_int_2;
   if(!((64 & leader) == 0))
   {
-    return_value_iscz1_decode_int$2=iscz1_decode_int((unsigned char **)src);
-    p->key.mem[(signed long int)i] = p->key.mem[(signed long int)i] + return_value_iscz1_decode_int$2;
+    return_value_iscz1_decode_int_2=iscz1_decode_int((unsigned char **)src);
+    p->key.mem[(signed long int)i] = p->key.mem[(signed long int)i] + return_value_iscz1_decode_int_2;
   }
 
   else
@@ -8626,12 +8626,12 @@ static inline signed long long int iscz1_decode_int(unsigned char **src)
   signed long long int d = (signed long long int)0;
   unsigned char c;
   unsigned int r = (unsigned int)0;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
-    tmp_post$1 = *src;
+    tmp_post_1 = *src;
     *src = *src + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if((128 & (signed int)c) == 0)
       break;
 
@@ -8688,16 +8688,16 @@ void iscz1_encode(void *vp, char **dst, const char **src)
 static inline void iscz1_encode_int(signed long long int d, char **dst)
 {
   unsigned char *bp = (unsigned char *)*dst;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   for( ; d >= 128l; d = d >> 7)
   {
-    tmp_post$1 = bp;
+    tmp_post_1 = bp;
     bp = bp + 1l;
-    *tmp_post$1 = (unsigned char)(unsigned int)((signed long int)128 | d & (signed long int)127);
+    *tmp_post_1 = (unsigned char)(unsigned int)((signed long int)128 | d & (signed long int)127);
   }
-  unsigned char *tmp_post$2 = bp;
+  unsigned char *tmp_post_2 = bp;
   bp = bp + 1l;
-  *tmp_post$2 = (unsigned char)(unsigned int)d;
+  *tmp_post_2 = (unsigned char)(unsigned int)d;
   *dst = (char *)bp;
 }
 
@@ -8718,9 +8718,9 @@ void iscz1_reset(void *vp)
 void * iscz1_start(void)
 {
   struct iscz1_code_info *p;
-  void *return_value_xmalloc_f$1;
-  return_value_xmalloc_f$1=xmalloc_f(sizeof(struct iscz1_code_info) /*48ul*/ , "it_key.c", 132);
-  p = (struct iscz1_code_info *)return_value_xmalloc_f$1;
+  void *return_value_xmalloc_f_1;
+  return_value_xmalloc_f_1=xmalloc_f(sizeof(struct iscz1_code_info) /*48ul*/ , "it_key.c", 132);
+  p = (struct iscz1_code_info *)return_value_xmalloc_f_1;
   iscz1_reset((void *)p);
   return (void *)p;
 }
@@ -8865,9 +8865,9 @@ void key_logdump_txt(signed int logmask, const void *p, const char *txt)
       if(!(i == 0))
         strcat(formstr, ".");
 
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(formstr);
-      sprintf(formstr + (signed long int)return_value_strlen$1, "%lld", key.mem[(signed long int)i]);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(formstr);
+      sprintf(formstr + (signed long int)return_value_strlen_1, "%lld", key.mem[(signed long int)i]);
     }
     yaz_log(logmask, "%s %s", (const void *)formstr, txt);
   }
@@ -8898,9 +8898,9 @@ signed int key_qsort_compare(const void *p1, const void *p2)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(cp1);
-    l = return_value_strlen$1 + (unsigned long int)1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(cp1);
+    l = return_value_strlen_1 + (unsigned long int)1;
     r=key_compare((const void *)(cp1 + (signed long int)l + (signed long int)1), (const void *)(cp2 + (signed long int)l + (signed long int)1));
     if(!(r == 0))
       return r;
@@ -8916,9 +8916,9 @@ signed int main(signed int argc, char **argv)
 {
   yaz_check_init1(&argc, &argv);
   yaz_check_init_log(argv[(signed long int)0]);
-  signed int return_value_yaz_log_mask_str$1;
-  return_value_yaz_log_mask_str$1=yaz_log_mask_str("flock");
-  yaz_log_init_level(return_value_yaz_log_mask_str$1);
+  signed int return_value_yaz_log_mask_str_1;
+  return_value_yaz_log_mask_str_1=yaz_log_mask_str("flock");
+  yaz_log_init_level(return_value_yaz_log_mask_str_1);
   zebra_flock_init();
   test_fd=open("tstflock.out", 0 | 0100 | 02, 0666);
   if(!(test_fd == -1))
@@ -8938,17 +8938,17 @@ signed int main(signed int argc, char **argv)
 static signed int parse_command(struct zebra_maps_s *zms, signed int argc, char **argv, const char *fname, signed int lineno)
 {
   struct zebra_map *zm = zms->last_map;
-  signed int return_value_yaz_matchstr$12;
-  signed int return_value_yaz_matchstr$11;
-  signed int return_value_yaz_matchstr$10;
-  signed int return_value_yaz_matchstr$9;
-  signed int return_value_yaz_matchstr$8;
-  signed int return_value_yaz_matchstr$7;
-  signed int return_value_yaz_matchstr$6;
-  signed int return_value_yaz_matchstr$5;
-  signed int return_value_yaz_matchstr$4;
-  signed int return_value_yaz_matchstr$3;
-  signed int return_value_yaz_matchstr$2;
+  signed int return_value_yaz_matchstr_12;
+  signed int return_value_yaz_matchstr_11;
+  signed int return_value_yaz_matchstr_10;
+  signed int return_value_yaz_matchstr_9;
+  signed int return_value_yaz_matchstr_8;
+  signed int return_value_yaz_matchstr_7;
+  signed int return_value_yaz_matchstr_6;
+  signed int return_value_yaz_matchstr_5;
+  signed int return_value_yaz_matchstr_4;
+  signed int return_value_yaz_matchstr_3;
+  signed int return_value_yaz_matchstr_2;
   if(argc == 1)
   {
     yaz_log(0x00000004, "%s:%d: Missing arguments for '%s'", fname, lineno, argv[(signed long int)0]);
@@ -8964,9 +8964,9 @@ static signed int parse_command(struct zebra_maps_s *zms, signed int argc, char 
 
     else
     {
-      signed int return_value_yaz_matchstr$13;
-      return_value_yaz_matchstr$13=yaz_matchstr(argv[(signed long int)0], "index");
-      if(return_value_yaz_matchstr$13 == 0)
+      signed int return_value_yaz_matchstr_13;
+      return_value_yaz_matchstr_13=yaz_matchstr(argv[(signed long int)0], "index");
+      if(return_value_yaz_matchstr_13 == 0)
       {
         zm=zebra_add_map(zms, argv[(signed long int)1], 2);
         zm->positioned = 1;
@@ -8974,8 +8974,8 @@ static signed int parse_command(struct zebra_maps_s *zms, signed int argc, char 
 
       else
       {
-        return_value_yaz_matchstr$12=yaz_matchstr(argv[(signed long int)0], "sort");
-        if(return_value_yaz_matchstr$12 == 0)
+        return_value_yaz_matchstr_12=yaz_matchstr(argv[(signed long int)0], "sort");
+        if(return_value_yaz_matchstr_12 == 0)
         {
           zm=zebra_add_map(zms, argv[(signed long int)1], 1);
           zm->u.sort.entry_size = 80;
@@ -8983,8 +8983,8 @@ static signed int parse_command(struct zebra_maps_s *zms, signed int argc, char 
 
         else
         {
-          return_value_yaz_matchstr$11=yaz_matchstr(argv[(signed long int)0], "staticrank");
-          if(return_value_yaz_matchstr$11 == 0)
+          return_value_yaz_matchstr_11=yaz_matchstr(argv[(signed long int)0], "staticrank");
+          if(return_value_yaz_matchstr_11 == 0)
           {
             zm=zebra_add_map(zms, argv[(signed long int)1], 3);
             zm->completeness = 1;
@@ -8999,8 +8999,8 @@ static signed int parse_command(struct zebra_maps_s *zms, signed int argc, char 
 
             else
             {
-              return_value_yaz_matchstr$10=yaz_matchstr(argv[(signed long int)0], "charmap");
-              if(return_value_yaz_matchstr$10 == 0 && argc == 2)
+              return_value_yaz_matchstr_10=yaz_matchstr(argv[(signed long int)0], "charmap");
+              if(return_value_yaz_matchstr_10 == 0 && argc == 2)
               {
                 if(!(zm->type == 3))
                   zm->maptab_name=nmem_strdup(zms->nmem, argv[(signed long int)1]);
@@ -9015,20 +9015,20 @@ static signed int parse_command(struct zebra_maps_s *zms, signed int argc, char 
 
               else
               {
-                return_value_yaz_matchstr$9=yaz_matchstr(argv[(signed long int)0], "completeness");
-                if(return_value_yaz_matchstr$9 == 0 && argc == 2)
+                return_value_yaz_matchstr_9=yaz_matchstr(argv[(signed long int)0], "completeness");
+                if(return_value_yaz_matchstr_9 == 0 && argc == 2)
                   zm->completeness=atoi(argv[(signed long int)1]);
 
                 else
                 {
-                  return_value_yaz_matchstr$8=yaz_matchstr(argv[(signed long int)0], "position");
-                  if(return_value_yaz_matchstr$8 == 0 && argc == 2)
+                  return_value_yaz_matchstr_8=yaz_matchstr(argv[(signed long int)0], "position");
+                  if(return_value_yaz_matchstr_8 == 0 && argc == 2)
                     zm->positioned=atoi(argv[(signed long int)1]);
 
                   else
                   {
-                    return_value_yaz_matchstr$7=yaz_matchstr(argv[(signed long int)0], "alwaysmatches");
-                    if(return_value_yaz_matchstr$7 == 0 && argc == 2)
+                    return_value_yaz_matchstr_7=yaz_matchstr(argv[(signed long int)0], "alwaysmatches");
+                    if(return_value_yaz_matchstr_7 == 0 && argc == 2)
                     {
                       if(!(zm->type == 3))
                         zm->alwaysmatches=atoi(argv[(signed long int)1]);
@@ -9042,14 +9042,14 @@ static signed int parse_command(struct zebra_maps_s *zms, signed int argc, char 
 
                     else
                     {
-                      return_value_yaz_matchstr$6=yaz_matchstr(argv[(signed long int)0], "firstinfield");
-                      if(return_value_yaz_matchstr$6 == 0 && argc == 2)
+                      return_value_yaz_matchstr_6=yaz_matchstr(argv[(signed long int)0], "firstinfield");
+                      if(return_value_yaz_matchstr_6 == 0 && argc == 2)
                         zm->first_in_field=atoi(argv[(signed long int)1]);
 
                       else
                       {
-                        return_value_yaz_matchstr$5=yaz_matchstr(argv[(signed long int)0], "entrysize");
-                        if(return_value_yaz_matchstr$5 == 0 && argc == 2)
+                        return_value_yaz_matchstr_5=yaz_matchstr(argv[(signed long int)0], "entrysize");
+                        if(return_value_yaz_matchstr_5 == 0 && argc == 2)
                         {
                           if(zm->type == 1)
                             zm->u.sort.entry_size=atoi(argv[(signed long int)1]);
@@ -9063,8 +9063,8 @@ static signed int parse_command(struct zebra_maps_s *zms, signed int argc, char 
 
                         else
                         {
-                          return_value_yaz_matchstr$4=yaz_matchstr(argv[(signed long int)0], "simplechain");
-                          if(return_value_yaz_matchstr$4 == 0)
+                          return_value_yaz_matchstr_4=yaz_matchstr(argv[(signed long int)0], "simplechain");
+                          if(return_value_yaz_matchstr_4 == 0)
                           {
                             zm->use_chain = 1;
                             zm->icu_chain = ((struct icu_chain *)NULL);
@@ -9072,13 +9072,13 @@ static signed int parse_command(struct zebra_maps_s *zms, signed int argc, char 
 
                           else
                           {
-                            return_value_yaz_matchstr$3=yaz_matchstr(argv[(signed long int)0], "icuchain");
-                            if(return_value_yaz_matchstr$3 == 0)
+                            return_value_yaz_matchstr_3=yaz_matchstr(argv[(signed long int)0], "icuchain");
+                            if(return_value_yaz_matchstr_3 == 0)
                             {
                               char full_path[1024l];
-                              char *return_value_yaz_filepath_resolve$1;
-                              return_value_yaz_filepath_resolve$1=yaz_filepath_resolve(argv[(signed long int)1], zms->tabpath, zms->tabroot, full_path);
-                              if(return_value_yaz_filepath_resolve$1 == ((char *)NULL))
+                              char *return_value_yaz_filepath_resolve_1;
+                              return_value_yaz_filepath_resolve_1=yaz_filepath_resolve(argv[(signed long int)1], zms->tabpath, zms->tabroot, full_path);
+                              if(return_value_yaz_filepath_resolve_1 == ((char *)NULL))
                               {
                                 yaz_log(0x00000004, "%s:%d: Could not locate icuchain config '%s'", fname, lineno, argv[(signed long int)1]);
                                 return -1;
@@ -9106,8 +9106,8 @@ static signed int parse_command(struct zebra_maps_s *zms, signed int argc, char 
 
                             else
                             {
-                              return_value_yaz_matchstr$2=yaz_matchstr(argv[(signed long int)0], "debug");
-                              if(return_value_yaz_matchstr$2 == 0 && argc == 2)
+                              return_value_yaz_matchstr_2=yaz_matchstr(argv[(signed long int)0], "debug");
+                              if(return_value_yaz_matchstr_2 == 0 && argc == 2)
                                 zm->debug=atoi(argv[(signed long int)1]);
 
                               else
@@ -9138,12 +9138,12 @@ signed int passwd_db_auth(struct passwd_db *db, const char *user, const char *pa
   /* assertion db */
   assert(db != ((struct passwd_db *)NULL));
   pe = db->entries;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(pe == ((struct passwd_entry *)NULL)); pe = pe->next)
     if(!(user == ((const char *)NULL)))
     {
-      return_value_strcmp$1=strcmp(user, pe->name);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(user, pe->name);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -9162,16 +9162,16 @@ signed int passwd_db_auth(struct passwd_db *db, const char *user, const char *pa
         const char *des_try;
         /* assertion pe->des */
         assert(pe->des != ((char *)NULL));
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(pe->des);
-        if(!(return_value_strlen$2 >= 3ul))
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(pe->des);
+        if(!(return_value_strlen_2 >= 3ul))
           return -3;
 
         if(!((signed int)*pe->des == 36))
         {
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(pass);
-          if(return_value_strlen$3 >= 9ul)
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(pass);
+          if(return_value_strlen_3 >= 9ul)
             return -2;
 
         }
@@ -9179,9 +9179,9 @@ signed int passwd_db_auth(struct passwd_db *db, const char *user, const char *pa
         des_try=crypt(pass, pe->des);
         /* assertion des_try */
         assert(des_try != ((const char *)NULL));
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(des_try, pe->des);
-        if(!(return_value_strcmp$4 == 0))
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(des_try, pe->des);
+        if(!(return_value_strcmp_4 == 0))
           return -2;
 
       }
@@ -9192,9 +9192,9 @@ signed int passwd_db_auth(struct passwd_db *db, const char *user, const char *pa
         assert(pass != ((const char *)NULL));
         /* assertion pe->des */
         assert(pe->des != ((char *)NULL));
-        signed int return_value_strcmp$5;
-        return_value_strcmp$5=strcmp(pe->des, pass);
-        if(!(return_value_strcmp$5 == 0))
+        signed int return_value_strcmp_5;
+        return_value_strcmp_5=strcmp(pe->des, pass);
+        if(!(return_value_strcmp_5 == 0))
           return -2;
 
       }
@@ -9222,9 +9222,9 @@ void passwd_db_close(struct passwd_db *db)
 // file passwddb.c line 172
 signed int passwd_db_file_crypt(struct passwd_db *db, const char *fname)
 {
-  signed int return_value_passwd_db_file_int$1;
-  return_value_passwd_db_file_int$1=passwd_db_file_int(db, fname, 1);
-  return return_value_passwd_db_file_int$1;
+  signed int return_value_passwd_db_file_int_1;
+  return_value_passwd_db_file_int_1=passwd_db_file_int(db, fname, 1);
+  return return_value_passwd_db_file_int_1;
 }
 
 // passwd_db_file_int
@@ -9234,7 +9234,7 @@ static signed int passwd_db_file_int(struct passwd_db *db, const char *fname, si
   struct _IO_FILE *f;
   char buf[1024l];
   f=fopen(fname, "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(f == ((struct _IO_FILE *)NULL))
     return -1;
 
@@ -9242,8 +9242,8 @@ static signed int passwd_db_file_int(struct passwd_db *db, const char *fname, si
   {
     do
     {
-      return_value_fgets$1=fgets(buf, (signed int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1), f);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(buf, (signed int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1), f);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       struct passwd_entry *pe;
@@ -9257,9 +9257,9 @@ static signed int passwd_db_file_int(struct passwd_db *db, const char *fname, si
 
       get_entry(&cp, name, 128);
       get_entry(&cp, des, 128);
-      void *return_value_xmalloc_f$2;
-      return_value_xmalloc_f$2=xmalloc_f(sizeof(struct passwd_entry) /*32ul*/ , "passwddb.c", 95);
-      pe = (struct passwd_entry *)return_value_xmalloc_f$2;
+      void *return_value_xmalloc_f_2;
+      return_value_xmalloc_f_2=xmalloc_f(sizeof(struct passwd_entry) /*32ul*/ , "passwddb.c", 95);
+      pe = (struct passwd_entry *)return_value_xmalloc_f_2;
       pe->name=xstrdup_f(name, "passwddb.c", 96);
       pe->des=xstrdup_f(des, "passwddb.c", 97);
       pe->encrypt_flag = encrypt_flag;
@@ -9276,9 +9276,9 @@ static signed int passwd_db_file_int(struct passwd_db *db, const char *fname, si
 // file passwddb.c line 181
 signed int passwd_db_file_plain(struct passwd_db *db, const char *fname)
 {
-  signed int return_value_passwd_db_file_int$1;
-  return_value_passwd_db_file_int$1=passwd_db_file_int(db, fname, 0);
-  return return_value_passwd_db_file_int$1;
+  signed int return_value_passwd_db_file_int_1;
+  return_value_passwd_db_file_int_1=passwd_db_file_int(db, fname, 0);
+  return return_value_passwd_db_file_int_1;
 }
 
 // passwd_db_open
@@ -9286,9 +9286,9 @@ signed int passwd_db_file_plain(struct passwd_db *db, const char *fname)
 struct passwd_db * passwd_db_open(void)
 {
   struct passwd_db *p;
-  void *return_value_xmalloc_f$1;
-  return_value_xmalloc_f$1=xmalloc_f(sizeof(struct passwd_db) /*8ul*/ , "passwddb.c", 54);
-  p = (struct passwd_db *)return_value_xmalloc_f$1;
+  void *return_value_xmalloc_f_1;
+  return_value_xmalloc_f_1=xmalloc_f(sizeof(struct passwd_db) /*8ul*/ , "passwddb.c", 54);
+  p = (struct passwd_db *)return_value_xmalloc_f_1;
   p->entries = ((struct passwd_entry *)NULL);
   return p;
 }
@@ -9339,14 +9339,14 @@ signed int res_check(struct res_struct *r_i, struct res_struct *r_v)
       char namez[32l];
       const char *first_dot = ((const char *)NULL);
       const char *second_dot = ((const char *)NULL);
-      char *return_value_strchr$1;
-      return_value_strchr$1=strchr(e_v->value, 112);
-      if(!(return_value_strchr$1 == ((char *)NULL)))
+      char *return_value_strchr_1;
+      return_value_strchr_1=strchr(e_v->value, 112);
+      if(!(return_value_strchr_1 == ((char *)NULL)))
         prefix_allowed = 1;
 
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr(e_v->value, 115);
-      if(!(return_value_strchr$2 == ((char *)NULL)))
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr(e_v->value, 115);
+      if(!(return_value_strchr_2 == ((char *)NULL)))
         suffix_allowed = 1;
 
       first_dot=strchr(name, 46);
@@ -9364,9 +9364,9 @@ signed int res_check(struct res_struct *r_i, struct res_struct *r_v)
       {
         memcpy((void *)namez, (const void *)name, name_len);
         namez[(signed long int)name_len] = (char)0;
-        signed int return_value_yaz_matchstr$3;
-        return_value_yaz_matchstr$3=yaz_matchstr(namez, e_v->name);
-        if(return_value_yaz_matchstr$3 == 0)
+        signed int return_value_yaz_matchstr_3;
+        return_value_yaz_matchstr_3=yaz_matchstr(namez, e_v->name);
+        if(return_value_yaz_matchstr_3 == 0)
           break;
 
       }
@@ -9379,9 +9379,9 @@ signed int res_check(struct res_struct *r_i, struct res_struct *r_v)
         {
           memcpy((void *)namez, (const void *)name, name_len);
           namez[(signed long int)name_len] = (char)0;
-          signed int return_value_yaz_matchstr$4;
-          return_value_yaz_matchstr$4=yaz_matchstr(namez, e_v->name);
-          if(return_value_yaz_matchstr$4 == 0)
+          signed int return_value_yaz_matchstr_4;
+          return_value_yaz_matchstr_4=yaz_matchstr(namez, e_v->name);
+          if(return_value_yaz_matchstr_4 == 0)
             break;
 
         }
@@ -9472,7 +9472,7 @@ const char * res_get(struct res_struct *r, const char *name)
 {
   struct res_entry *re;
   const char *v;
-  signed int return_value_yaz_matchstr$1;
+  signed int return_value_yaz_matchstr_1;
   if(r == ((struct res_struct *)NULL))
     return ((const char *)NULL);
 
@@ -9488,15 +9488,15 @@ const char * res_get(struct res_struct *r, const char *name)
       for( ; !(re == ((struct res_entry *)NULL)); re = re->next)
         if(!(re->value == ((char *)NULL)))
         {
-          return_value_yaz_matchstr$1=yaz_matchstr(re->name, name);
-          if(return_value_yaz_matchstr$1 == 0)
+          return_value_yaz_matchstr_1=yaz_matchstr(re->name, name);
+          if(return_value_yaz_matchstr_1 == 0)
             return re->value;
 
         }
 
-      const char *return_value_res_get$2;
-      return_value_res_get$2=res_get(r->def_res, name);
-      return return_value_res_get$2;
+      const char *return_value_res_get_2;
+      return_value_res_get_2=res_get(r->def_res, name);
+      return return_value_res_get_2;
     }
   }
 }
@@ -9527,9 +9527,9 @@ signed short int res_get_int(struct res_struct *r, const char *name, signed int 
   cp=res_get(r, name);
   if(!(cp == ((const char *)NULL)))
   {
-    signed int return_value_sscanf$1;
-    return_value_sscanf$1=sscanf(cp, "%d", val);
-    if(return_value_sscanf$1 == 1)
+    signed int return_value_sscanf_1;
+    return_value_sscanf_1=sscanf(cp, "%d", val);
+    if(return_value_sscanf_1 == 1)
       return (signed short int)0;
 
     yaz_log(0x00000004, "Expected integer for resource %s", name);
@@ -9547,11 +9547,11 @@ signed int res_get_match(struct res_struct *r, const char *name, const char *val
   if(cn == ((const char *)NULL))
     cn = s;
 
-  signed int return_value_yaz_matchstr$1;
+  signed int return_value_yaz_matchstr_1;
   if(!(cn == ((const char *)NULL)))
   {
-    return_value_yaz_matchstr$1=yaz_matchstr(cn, value);
-    if(!(return_value_yaz_matchstr$1 == 0))
+    return_value_yaz_matchstr_1=yaz_matchstr(cn, value);
+    if(!(return_value_yaz_matchstr_1 == 0))
       goto __CPROVER_DUMP_L2;
 
     return 1;
@@ -9574,11 +9574,11 @@ const char * res_get_prefix(struct res_struct *r, const char *name, const char *
   if(!(prefix == ((const char *)NULL)))
   {
     char rname[128l];
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(name);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(prefix);
-    if(return_value_strlen$1 + return_value_strlen$2 >= 126ul)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(name);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(prefix);
+    if(return_value_strlen_1 + return_value_strlen_2 >= 126ul)
       return ((const char *)NULL);
 
     strcpy(rname, prefix);
@@ -9611,9 +9611,9 @@ static struct res_struct * res_incref(struct res_struct *r)
 struct res_struct * res_open(struct res_struct *def_res, struct res_struct *over_res)
 {
   struct res_struct *r;
-  void *return_value_xmalloc_f$1;
-  return_value_xmalloc_f$1=xmalloc_f(sizeof(struct res_struct) /*40ul*/ , "res.c", 237);
-  r = (struct res_struct *)return_value_xmalloc_f$1;
+  void *return_value_xmalloc_f_1;
+  return_value_xmalloc_f_1=xmalloc_f(sizeof(struct res_struct) /*40ul*/ , "res.c", 237);
+  r = (struct res_struct *)return_value_xmalloc_f_1;
   r->ref_count = 1;
   r->last = (struct res_entry *)(void *)0;
   r->first = r->last;
@@ -9631,7 +9631,7 @@ signed short int res_read_file(struct res_struct *r, const char *fname)
   /* assertion r */
   assert(r != ((struct res_struct *)NULL));
   fr=fopen(fname, "r");
-  unsigned long int tmp_post$3;
+  unsigned long int tmp_post_3;
   if(fr == ((struct _IO_FILE *)NULL))
   {
     yaz_log(0x00000004 | 0x00000010, "Cannot open `%s'", fname);
@@ -9674,9 +9674,9 @@ signed short int res_read_file(struct res_struct *r, const char *fname)
 
         resp=add_entry(r);
         sz = (unsigned long int)(cp1 - cp);
-        void *return_value_xmalloc_f$1;
-        return_value_xmalloc_f$1=xmalloc_f(sz + (unsigned long int)1, "res.c", 188);
-        resp->name = (char *)return_value_xmalloc_f$1;
+        void *return_value_xmalloc_f_1;
+        return_value_xmalloc_f_1=xmalloc_f(sz + (unsigned long int)1, "res.c", 188);
+        resp->name = (char *)return_value_xmalloc_f_1;
         memcpy((void *)resp->name, (const void *)cp, sz);
         resp->name[(signed long int)sz] = (char)0;
         wrbuf_rewind(wrbuf_val);
@@ -9694,9 +9694,9 @@ signed short int res_read_file(struct res_struct *r, const char *fname)
             break;
           }
 
-          const char *return_value_yaz_tok_parse_string$2;
-          return_value_yaz_tok_parse_string$2=yaz_tok_parse_string(tp);
-          wrbuf_puts(wrbuf_val, return_value_yaz_tok_parse_string$2);
+          const char *return_value_yaz_tok_parse_string_2;
+          return_value_yaz_tok_parse_string_2=yaz_tok_parse_string(tp);
+          wrbuf_puts(wrbuf_val, return_value_yaz_tok_parse_string_2);
         }
         do
         {
@@ -9709,18 +9709,18 @@ signed short int res_read_file(struct res_struct *r, const char *fname)
 
           else
             0;
-          tmp_post$3 = wrbuf_val->pos;
+          tmp_post_3 = wrbuf_val->pos;
           wrbuf_val->pos = wrbuf_val->pos + 1ul;
-          wrbuf_val->buf[(signed long int)tmp_post$3] = (char)32;
+          wrbuf_val->buf[(signed long int)tmp_post_3] = (char)32;
           0;
-          const char *return_value_yaz_tok_parse_string$4;
-          return_value_yaz_tok_parse_string$4=yaz_tok_parse_string(tp);
-          wrbuf_puts(wrbuf_val, return_value_yaz_tok_parse_string$4);
+          const char *return_value_yaz_tok_parse_string_4;
+          return_value_yaz_tok_parse_string_4=yaz_tok_parse_string(tp);
+          wrbuf_puts(wrbuf_val, return_value_yaz_tok_parse_string_4);
         }
         while((_Bool)1);
-        const char *return_value_wrbuf_cstr$5;
-        return_value_wrbuf_cstr$5=wrbuf_cstr(wrbuf_val);
-        resp->value=xstrdup_env(return_value_wrbuf_cstr$5);
+        const char *return_value_wrbuf_cstr_5;
+        return_value_wrbuf_cstr_5=wrbuf_cstr(wrbuf_val);
+        resp->value=xstrdup_env(return_value_wrbuf_cstr_5);
       }
 
       lineno = lineno + 1;
@@ -9745,15 +9745,15 @@ void res_set(struct res_struct *r, const char *name, const char *value)
   struct res_entry *re;
   /* assertion r */
   assert(r != ((struct res_struct *)NULL));
-  signed int return_value_yaz_matchstr$1;
+  signed int return_value_yaz_matchstr_1;
   if(!(value == ((const char *)NULL)))
   {
     re = r->first;
     for( ; !(re == ((struct res_entry *)NULL)); re = re->next)
       if(!(re->value == ((char *)NULL)))
       {
-        return_value_yaz_matchstr$1=yaz_matchstr(re->name, name);
-        if(return_value_yaz_matchstr$1 == 0)
+        return_value_yaz_matchstr_1=yaz_matchstr(re->name, name);
+        if(return_value_yaz_matchstr_1 == 0)
         {
           xfree_f((void *)re->value, "res.c", 348);
           re->value=xstrdup_env(value);
@@ -9779,10 +9779,10 @@ signed int res_trav(struct res_struct *r, const char *prefix, void *p, void (*f)
   struct res_entry *re;
   signed int l = 0;
   signed int no = 0;
-  unsigned long int return_value_strlen$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_memcmp$2;
-  signed int return_value_res_trav$4;
+  unsigned long int return_value_strlen_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_memcmp_2;
+  signed int return_value_res_trav_4;
   if(r == ((struct res_struct *)NULL))
     return 0;
 
@@ -9796,8 +9796,8 @@ signed int res_trav(struct res_struct *r, const char *prefix, void *p, void (*f)
     {
       if(!(prefix == ((const char *)NULL)))
       {
-        return_value_strlen$1=strlen(prefix);
-        l = (signed int)return_value_strlen$1;
+        return_value_strlen_1=strlen(prefix);
+        l = (signed int)return_value_strlen_1;
       }
 
       re = r->first;
@@ -9805,14 +9805,14 @@ signed int res_trav(struct res_struct *r, const char *prefix, void *p, void (*f)
         if(!(re->value == ((char *)NULL)))
         {
           if(l == 0)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
-            return_value_memcmp$2=memcmp((const void *)re->name, (const void *)prefix, (unsigned long int)l);
-            tmp_if_expr$3 = !(return_value_memcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_memcmp_2=memcmp((const void *)re->name, (const void *)prefix, (unsigned long int)l);
+            tmp_if_expr_3 = !(return_value_memcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$3)
+          if(tmp_if_expr_3)
           {
             f(p, re->name, re->value);
             no = no + 1;
@@ -9822,8 +9822,8 @@ signed int res_trav(struct res_struct *r, const char *prefix, void *p, void (*f)
 
       if(no == 0)
       {
-        return_value_res_trav$4=res_trav(r->def_res, prefix, p, f);
-        return return_value_res_trav$4;
+        return_value_res_trav_4=res_trav(r->def_res, prefix, p, f);
+        return return_value_res_trav_4;
       }
 
       else
@@ -9841,7 +9841,7 @@ signed short int res_write_file(struct res_struct *r, const char *fname)
   /* assertion r */
   assert(r != ((struct res_struct *)NULL));
   fr=fopen(fname, "w");
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(fr == ((struct _IO_FILE *)NULL))
   {
     yaz_log(0x00000001 | 0x00000010, "Cannot create `%s'", fname);
@@ -9855,9 +9855,9 @@ signed short int res_write_file(struct res_struct *r, const char *fname)
     {
       signed int no = 0;
       signed int lefts;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(re->name);
-      lefts = (signed int)(return_value_strlen$1 + (unsigned long int)2);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(re->name);
+      lefts = (signed int)(return_value_strlen_1 + (unsigned long int)2);
       if(re->value == ((char *)NULL))
         fprintf(fr, "%s\n", re->name);
 
@@ -9866,8 +9866,8 @@ signed short int res_write_file(struct res_struct *r, const char *fname)
         fprintf(fr, "%s: ", re->name);
         do
         {
-          return_value_strlen$2=strlen(re->value + (signed long int)no);
-          if(!(return_value_strlen$2 + (unsigned long int)lefts >= 79ul))
+          return_value_strlen_2=strlen(re->value + (signed long int)no);
+          if(!(return_value_strlen_2 + (unsigned long int)lefts >= 79ul))
             break;
 
           signed int i = 20;
@@ -9913,31 +9913,31 @@ void * run_func(void *arg)
   struct zebra_lock_handle *lh;
   lh=zebra_lock_create(((const char *)NULL), "my.LCK");
   i = 0;
-  signed int return_value_rand$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
+  signed int return_value_rand_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
   for( ; !(i >= 2); i = i + 1)
   {
     signed int write_lock = use_write_lock;
     if(use_write_lock == 2)
     {
-      return_value_rand$1=rand();
-      write_lock = (return_value_rand$1 & 3) == 3 ? 1 : 0;
+      return_value_rand_1=rand();
+      write_lock = (return_value_rand_1 & 3) == 3 ? 1 : 0;
     }
 
     if(!(write_lock == 0))
     {
       zebra_lock_w(lh);
       write(test_fd, (const void *)"L", (unsigned long int)1);
-      tmp_post$2 = seqp;
+      tmp_post_2 = seqp;
       seqp = seqp + 1l;
-      *tmp_post$2 = (char)76;
+      *tmp_post_2 = (char)76;
       small_sleep();
-      tmp_post$3 = seqp;
+      tmp_post_3 = seqp;
       seqp = seqp + 1l;
-      *tmp_post$3 = (char)85;
+      *tmp_post_3 = (char)85;
       write(test_fd, (const void *)"U", (unsigned long int)1);
       zebra_unlock(lh);
     }
@@ -9946,13 +9946,13 @@ void * run_func(void *arg)
     {
       zebra_lock_r(lh);
       write(test_fd, (const void *)"l", (unsigned long int)1);
-      tmp_post$4 = seqp;
+      tmp_post_4 = seqp;
       seqp = seqp + 1l;
-      *tmp_post$4 = (char)108;
+      *tmp_post_4 = (char)108;
       small_sleep();
-      tmp_post$5 = seqp;
+      tmp_post_5 = seqp;
       seqp = seqp + 1l;
-      *tmp_post$5 = (char)117;
+      *tmp_post_5 = (char)117;
       write(test_fd, (const void *)"u", (unsigned long int)1);
       zebra_unlock(lh);
     }
@@ -9999,25 +9999,25 @@ static signed int scan_string(char *s_native, struct yaz_iconv_struct *t_unicode
       arg[(signed long int)i] = (unsigned int)((signed int)s_native[(signed long int)i] & 255);
   }
   arg[(signed long int)i] = (unsigned int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(*s == 65279u)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = s[(signed long int)0] == (unsigned int)0xfeff ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = s[(signed long int)0] == (unsigned int)0xfeff ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     s = s + 1l;
 
-  signed int tmp_if_expr$4;
-  signed int tmp_post$3;
-  unsigned long int tmp_post$5;
-  signed int return_value_zebra_ucs4_strlen$6;
-  signed int return_value_scan_to_utf8$7;
-  signed int tmp_if_expr$9;
-  signed int tmp_post$8;
-  signed int return_value_scan_to_utf8$10;
-  signed int tmp_if_expr$12;
-  signed int tmp_post$11;
+  signed int tmp_if_expr_4;
+  signed int tmp_post_3;
+  unsigned long int tmp_post_5;
+  signed int return_value_zebra_ucs4_strlen_6;
+  signed int return_value_scan_to_utf8_7;
+  signed int tmp_if_expr_9;
+  signed int tmp_post_8;
+  signed int return_value_scan_to_utf8_10;
+  signed int tmp_if_expr_12;
+  signed int tmp_post_11;
   while(!(*s == 0u))
     switch(*s)
     {
@@ -10043,21 +10043,21 @@ static signed int scan_string(char *s_native, struct yaz_iconv_struct *t_unicode
         c = begin;
         if(end >= c)
         {
-          signed int return_value_scan_to_utf8$2;
-          return_value_scan_to_utf8$2=scan_to_utf8(t_utf8, &c, (unsigned long int)1, str, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
-          if(!(return_value_scan_to_utf8$2 == 0))
+          signed int return_value_scan_to_utf8_2;
+          return_value_scan_to_utf8_2=scan_to_utf8(t_utf8, &c, (unsigned long int)1, str, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
+          if(!(return_value_scan_to_utf8_2 == 0))
             return -1;
 
           if(!(num == ((signed int *)NULL)))
           {
-            tmp_post$3 = *num;
+            tmp_post_3 = *num;
             *num = *num + 1;
-            tmp_if_expr$4 = tmp_post$3;
+            tmp_if_expr_4 = tmp_post_3;
           }
 
           else
-            tmp_if_expr$4 = 0;
-          fun(str, data, tmp_if_expr$4);
+            tmp_if_expr_4 = 0;
+          fun(str, data, tmp_if_expr_4);
           c = c + 1u;
         }
 
@@ -10082,47 +10082,47 @@ static signed int scan_string(char *s_native, struct yaz_iconv_struct *t_unicode
             return -1;
           }
 
-          tmp_post$5 = i;
+          tmp_post_5 = i;
           i = i + 1ul;
-          arg_prim[(signed long int)tmp_post$5]=zebra_prim_w(&s);
+          arg_prim[(signed long int)tmp_post_5]=zebra_prim_w(&s);
         }
 
       __CPROVER_DUMP_L21:
         ;
         arg_prim[(signed long int)i] = (unsigned int)0;
-        return_value_zebra_ucs4_strlen$6=zebra_ucs4_strlen(arg_prim);
-        return_value_scan_to_utf8$7=scan_to_utf8(t_utf8, arg_prim, (unsigned long int)return_value_zebra_ucs4_strlen$6, str, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
-        if(!(return_value_scan_to_utf8$7 == 0))
+        return_value_zebra_ucs4_strlen_6=zebra_ucs4_strlen(arg_prim);
+        return_value_scan_to_utf8_7=scan_to_utf8(t_utf8, arg_prim, (unsigned long int)return_value_zebra_ucs4_strlen_6, str, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
+        if(!(return_value_scan_to_utf8_7 == 0))
           return -1;
 
         if(!(num == ((signed int *)NULL)))
         {
-          tmp_post$8 = *num;
+          tmp_post_8 = *num;
           *num = *num + 1;
-          tmp_if_expr$9 = tmp_post$8;
+          tmp_if_expr_9 = tmp_post_8;
         }
 
         else
-          tmp_if_expr$9 = 0;
-        fun(str, data, tmp_if_expr$9);
+          tmp_if_expr_9 = 0;
+        fun(str, data, tmp_if_expr_9);
       }
       default:
       {
         c=zebra_prim_w(&s);
-        return_value_scan_to_utf8$10=scan_to_utf8(t_utf8, &c, (unsigned long int)1, str, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
-        if(!(return_value_scan_to_utf8$10 == 0))
+        return_value_scan_to_utf8_10=scan_to_utf8(t_utf8, &c, (unsigned long int)1, str, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
+        if(!(return_value_scan_to_utf8_10 == 0))
           return -1;
 
         if(!(num == ((signed int *)NULL)))
         {
-          tmp_post$11 = *num;
+          tmp_post_11 = *num;
           *num = *num + 1;
-          tmp_if_expr$12 = tmp_post$11;
+          tmp_if_expr_12 = tmp_post_11;
         }
 
         else
-          tmp_if_expr$12 = 0;
-        fun(str, data, tmp_if_expr$12);
+          tmp_if_expr_12 = 0;
+        fun(str, data, tmp_if_expr_12);
       }
     }
   return 0;
@@ -10135,12 +10135,12 @@ static signed int scan_to_utf8(struct yaz_iconv_struct *t, unsigned int *from, u
   unsigned long int inbytesleft = inlen * sizeof(unsigned int) /*4ul*/ ;
   char *inbuf = (char *)from;
   unsigned long int ret;
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(t == ((struct yaz_iconv_struct *)NULL))
   {
-    tmp_post$1 = outbuf;
+    tmp_post_1 = outbuf;
     outbuf = outbuf + 1l;
-    *tmp_post$1 = (char)*from;
+    *tmp_post_1 = (char)*from;
   }
 
   else
@@ -10170,33 +10170,33 @@ static struct chr_t_entry * set_map_string(struct chr_t_entry *root, struct nmem
 
   if(root == ((struct chr_t_entry *)NULL))
   {
-    void *return_value_nmem_malloc$1;
-    return_value_nmem_malloc$1=nmem_malloc(nmem, sizeof(struct chr_t_entry) /*16ul*/ );
-    root = (struct chr_t_entry *)return_value_nmem_malloc$1;
+    void *return_value_nmem_malloc_1;
+    return_value_nmem_malloc_1=nmem_malloc(nmem, sizeof(struct chr_t_entry) /*16ul*/ );
+    root = (struct chr_t_entry *)return_value_nmem_malloc_1;
     root->children = ((struct chr_t_entry **)NULL);
     root->target = ((unsigned char **)NULL);
   }
 
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_2;
   if(len == 0)
   {
     if(root->target == ((unsigned char **)NULL))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = !(root->target[(signed long int)0] != ((unsigned char *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_5 = !(root->target[(signed long int)0] != ((unsigned char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$6=strcmp((const char *)root->target[(signed long int)0], to);
-      tmp_if_expr$7 = return_value_strcmp$6 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_6=strcmp((const char *)root->target[(signed long int)0], to);
+      tmp_if_expr_7 = return_value_strcmp_6 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
     {
       if(!(from_0 == ((const char *)NULL)))
       {
@@ -10206,8 +10206,8 @@ static struct chr_t_entry * set_map_string(struct chr_t_entry *root, struct nmem
           {
             if(!(*(*root->target) == 0))
             {
-              return_value_strcmp$2=strcmp((const char *)root->target[(signed long int)0], CHR_UNKNOWN);
-              if(!(return_value_strcmp$2 == 0))
+              return_value_strcmp_2=strcmp((const char *)root->target[(signed long int)0], CHR_UNKNOWN);
+              if(!(return_value_strcmp_2 == 0))
                 yaz_log(0x00000004, "duplicate entry for charmap from '%s'", from_0);
 
             }
@@ -10218,12 +10218,12 @@ static struct chr_t_entry * set_map_string(struct chr_t_entry *root, struct nmem
 
       }
 
-      void *return_value_nmem_malloc$3;
-      return_value_nmem_malloc$3=nmem_malloc(nmem, sizeof(unsigned char *) /*8ul*/  * (unsigned long int)2);
-      root->target = (unsigned char **)return_value_nmem_malloc$3;
-      char *return_value_nmem_strdup$4;
-      return_value_nmem_strdup$4=nmem_strdup(nmem, to);
-      root->target[(signed long int)0] = (unsigned char *)return_value_nmem_strdup$4;
+      void *return_value_nmem_malloc_3;
+      return_value_nmem_malloc_3=nmem_malloc(nmem, sizeof(unsigned char *) /*8ul*/  * (unsigned long int)2);
+      root->target = (unsigned char **)return_value_nmem_malloc_3;
+      char *return_value_nmem_strdup_4;
+      return_value_nmem_strdup_4=nmem_strdup(nmem, to);
+      root->target[(signed long int)0] = (unsigned char *)return_value_nmem_strdup_4;
       root->target[(signed long int)1] = ((unsigned char *)NULL);
     }
 
@@ -10234,9 +10234,9 @@ static struct chr_t_entry * set_map_string(struct chr_t_entry *root, struct nmem
     if(root->children == ((struct chr_t_entry **)NULL))
     {
       signed int i;
-      void *return_value_nmem_malloc$8;
-      return_value_nmem_malloc$8=nmem_malloc(nmem, sizeof(struct chr_t_entry *) /*8ul*/  * (unsigned long int)256);
-      root->children = (struct chr_t_entry **)return_value_nmem_malloc$8;
+      void *return_value_nmem_malloc_8;
+      return_value_nmem_malloc_8=nmem_malloc(nmem, sizeof(struct chr_t_entry *) /*8ul*/  * (unsigned long int)256);
+      root->children = (struct chr_t_entry **)return_value_nmem_malloc_8;
       i = 0;
       for( ; !(i >= 256); i = i + 1)
         root->children[(signed long int)i] = ((struct chr_t_entry *)NULL);
@@ -10278,29 +10278,29 @@ static signed int tokenize_simple(struct zebra_map *zm, const char **result_buf,
   unsigned long int len = zm->input_str->pos;
   unsigned long int i = zm->simple_off;
   unsigned long int start;
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   for( ; !(i >= len); i = i + 1ul)
   {
-    return_value_strchr$1=strchr(";,.()-/?<> \r\n\t", (signed int)buf[(signed long int)i]);
-    if(return_value_strchr$1 == ((char *)NULL))
+    return_value_strchr_1=strchr(";,.()-/?<> \r\n\t", (signed int)buf[(signed long int)i]);
+    if(return_value_strchr_1 == ((char *)NULL))
       break;
 
   }
   start = i;
-  char *return_value_strchr$2;
-  signed int return_value_tolower$3;
+  char *return_value_strchr_2;
+  signed int return_value_tolower_3;
   while(!(i >= len))
   {
-    return_value_strchr$2=strchr(";,.()-/?<> \r\n\t", (signed int)buf[(signed long int)i]);
-    if(!(return_value_strchr$2 == ((char *)NULL)))
+    return_value_strchr_2=strchr(";,.()-/?<> \r\n\t", (signed int)buf[(signed long int)i]);
+    if(!(return_value_strchr_2 == ((char *)NULL)))
       break;
 
     if((signed int)buf[(signed long int)i] >= 33)
     {
       if(!((signed int)buf[(signed long int)i] >= 127))
       {
-        return_value_tolower$3=tolower((signed int)buf[(signed long int)i]);
-        buf[(signed long int)i] = (char)return_value_tolower$3;
+        return_value_tolower_3=tolower((signed int)buf[(signed long int)i]);
+        buf[(signed long int)i] = (char)return_value_tolower_3;
       }
 
     }
@@ -10328,20 +10328,20 @@ static void tst(void)
     signed int i = 0;
     for( ; !(seq[(signed long int)i] == 0); i = i + 2)
     {
-      signed int tst$$1$$1$$1$$1$$lval = (signed int)seq[(signed long int)i];
+      signed int tst__1__1__1__1__lval = (signed int)seq[(signed long int)i];
       signed int rval = 76;
-      if(tst$$1$$1$$1$$1$$lval == rval)
-        yaz_check_eq1(1, "tstflock.c", 205, "seq[i]", "'L'", tst$$1$$1$$1$$1$$lval, rval);
+      if(tst__1__1__1__1__lval == rval)
+        yaz_check_eq1(1, "tstflock.c", 205, "seq[i]", "'L'", tst__1__1__1__1__lval, rval);
 
       else
-        yaz_check_eq1(2, "tstflock.c", 205, "seq[i]", "'L'", tst$$1$$1$$1$$1$$lval, rval);
+        yaz_check_eq1(2, "tstflock.c", 205, "seq[i]", "'L'", tst__1__1__1__1__lval, rval);
       signed int lval = (signed int)seq[(signed long int)(i + 1)];
-      signed int tst$$1$$1$$1$$2$$rval = 85;
-      if(lval == tst$$1$$1$$1$$2$$rval)
-        yaz_check_eq1(1, "tstflock.c", 206, "seq[i+1]", "'U'", lval, tst$$1$$1$$1$$2$$rval);
+      signed int tst__1__1__1__2__rval = 85;
+      if(lval == tst__1__1__1__2__rval)
+        yaz_check_eq1(1, "tstflock.c", 206, "seq[i+1]", "'U'", lval, tst__1__1__1__2__rval);
 
       else
-        yaz_check_eq1(2, "tstflock.c", 206, "seq[i+1]", "'U'", lval, tst$$1$$1$$1$$2$$rval);
+        yaz_check_eq1(2, "tstflock.c", 206, "seq[i+1]", "'U'", lval, tst__1__1__1__2__rval);
     }
   }
   tst_thread(6, 0);
@@ -10374,9 +10374,9 @@ static void tst_thread(signed int num, signed int write_flag)
 
     else
       yaz_check_print1(2, "tstflock.c", 191, "id[i] == 123");
-  char *tmp_post$1 = seqp;
+  char *tmp_post_1 = seqp;
   seqp = seqp + 1l;
-  *tmp_post$1 = (char)0;
+  *tmp_post_1 = (char)0;
   yaz_log(0x00000008, "tst_thread(%d,%d) returns seq=%s", num, write_flag, (const void *)seq);
 }
 
@@ -10408,53 +10408,53 @@ static char * xstrdup_env(const char *src)
   signed int j = 0;
   char *dst;
   signed int env_strlen = 0;
-  _Bool tmp_if_expr$6;
-  char *return_value_strchr$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  unsigned long int return_value_strlen$4;
-  char *return_value_strchr$5;
+  _Bool tmp_if_expr_6;
+  char *return_value_strchr_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  unsigned long int return_value_strlen_4;
+  char *return_value_strchr_5;
   while(!(src[(signed long int)i] == 0))
   {
     if((signed int)src[(signed long int)i] == 36)
-      tmp_if_expr$6 = (signed int)src[(signed long int)(i + 1)] == 123 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (signed int)src[(signed long int)(i + 1)] == 123 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
     {
       char envname[128l];
       char *env_val;
       signed int k = 0;
       i = i + 2;
-      for( ; !(k >= 127); envname[(signed long int)tmp_post$2] = src[(signed long int)tmp_post$3])
+      for( ; !(k >= 127); envname[(signed long int)tmp_post_2] = src[(signed long int)tmp_post_3])
       {
         if(src[(signed long int)i] == 0)
           break;
 
-        return_value_strchr$1=strchr(":}\n\r\f", (signed int)src[(signed long int)i]);
-        if(!(return_value_strchr$1 == ((char *)NULL)))
+        return_value_strchr_1=strchr(":}\n\r\f", (signed int)src[(signed long int)i]);
+        if(!(return_value_strchr_1 == ((char *)NULL)))
           break;
 
-        tmp_post$2 = k;
+        tmp_post_2 = k;
         k = k + 1;
-        tmp_post$3 = i;
+        tmp_post_3 = i;
         i = i + 1;
       }
       envname[(signed long int)k] = (char)0;
       env_val=getenv(envname);
       if(!(env_val == ((char *)NULL)))
       {
-        return_value_strlen$4=strlen(env_val);
-        env_strlen = env_strlen + (signed int)((unsigned long int)1 + return_value_strlen$4);
+        return_value_strlen_4=strlen(env_val);
+        env_strlen = env_strlen + (signed int)((unsigned long int)1 + return_value_strlen_4);
       }
 
       else
         env_strlen = env_strlen + 1;
       for( ; !(src[(signed long int)i] == 0); i = i + 1)
       {
-        return_value_strchr$5=strchr("}\n\r\f", (signed int)src[(signed long int)i]);
-        if(!(return_value_strchr$5 == ((char *)NULL)))
+        return_value_strchr_5=strchr("}\n\r\f", (signed int)src[(signed long int)i]);
+        if(!(return_value_strchr_5 == ((char *)NULL)))
           break;
 
       }
@@ -10466,55 +10466,55 @@ static char * xstrdup_env(const char *src)
     else
       i = i + 1;
   }
-  void *return_value_xmalloc_f$7;
-  return_value_xmalloc_f$7=xmalloc_f((unsigned long int)(1 + env_strlen + i), "res.c", 109);
-  dst = (char *)return_value_xmalloc_f$7;
+  void *return_value_xmalloc_f_7;
+  return_value_xmalloc_f_7=xmalloc_f((unsigned long int)(1 + env_strlen + i), "res.c", 109);
+  dst = (char *)return_value_xmalloc_f_7;
   i = 0;
-  _Bool tmp_if_expr$18;
-  char *return_value_strchr$8;
-  signed int tmp_post$9;
-  signed int tmp_post$10;
-  char *return_value_strchr$12;
-  signed int tmp_post$13;
-  signed int tmp_post$14;
-  char *return_value_strchr$15;
-  signed int tmp_post$16;
-  signed int tmp_post$17;
+  _Bool tmp_if_expr_18;
+  char *return_value_strchr_8;
+  signed int tmp_post_9;
+  signed int tmp_post_10;
+  char *return_value_strchr_12;
+  signed int tmp_post_13;
+  signed int tmp_post_14;
+  char *return_value_strchr_15;
+  signed int tmp_post_16;
+  signed int tmp_post_17;
   while(!(src[(signed long int)i] == 0))
   {
     if((signed int)src[(signed long int)i] == 36)
-      tmp_if_expr$18 = (signed int)src[(signed long int)(i + 1)] == 123 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_18 = (signed int)src[(signed long int)(i + 1)] == 123 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$18 = (_Bool)0;
-    if(tmp_if_expr$18)
+      tmp_if_expr_18 = (_Bool)0;
+    if(tmp_if_expr_18)
     {
-      char xstrdup_env$$1$$2$$1$$envname[128l];
-      char *xstrdup_env$$1$$2$$1$$env_val;
-      signed int xstrdup_env$$1$$2$$1$$k = 0;
+      char xstrdup_env__1__2__1__envname[128l];
+      char *xstrdup_env__1__2__1__env_val;
+      signed int xstrdup_env__1__2__1__k = 0;
       i = i + 2;
-      for( ; !(xstrdup_env$$1$$2$$1$$k >= 127); xstrdup_env$$1$$2$$1$$envname[(signed long int)tmp_post$9] = src[(signed long int)tmp_post$10])
+      for( ; !(xstrdup_env__1__2__1__k >= 127); xstrdup_env__1__2__1__envname[(signed long int)tmp_post_9] = src[(signed long int)tmp_post_10])
       {
         if(src[(signed long int)i] == 0)
           break;
 
-        return_value_strchr$8=strchr(":}\n\r\f", (signed int)src[(signed long int)i]);
-        if(!(return_value_strchr$8 == ((char *)NULL)))
+        return_value_strchr_8=strchr(":}\n\r\f", (signed int)src[(signed long int)i]);
+        if(!(return_value_strchr_8 == ((char *)NULL)))
           break;
 
-        tmp_post$9 = xstrdup_env$$1$$2$$1$$k;
-        xstrdup_env$$1$$2$$1$$k = xstrdup_env$$1$$2$$1$$k + 1;
-        tmp_post$10 = i;
+        tmp_post_9 = xstrdup_env__1__2__1__k;
+        xstrdup_env__1__2__1__k = xstrdup_env__1__2__1__k + 1;
+        tmp_post_10 = i;
         i = i + 1;
       }
-      xstrdup_env$$1$$2$$1$$envname[(signed long int)xstrdup_env$$1$$2$$1$$k] = (char)0;
-      xstrdup_env$$1$$2$$1$$env_val=getenv(xstrdup_env$$1$$2$$1$$envname);
-      if(!(xstrdup_env$$1$$2$$1$$env_val == ((char *)NULL)))
+      xstrdup_env__1__2__1__envname[(signed long int)xstrdup_env__1__2__1__k] = (char)0;
+      xstrdup_env__1__2__1__env_val=getenv(xstrdup_env__1__2__1__envname);
+      if(!(xstrdup_env__1__2__1__env_val == ((char *)NULL)))
       {
-        strcpy(dst + (signed long int)j, xstrdup_env$$1$$2$$1$$env_val);
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen(xstrdup_env$$1$$2$$1$$env_val);
-        j = j + (signed int)return_value_strlen$11;
+        strcpy(dst + (signed long int)j, xstrdup_env__1__2__1__env_val);
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen(xstrdup_env__1__2__1__env_val);
+        j = j + (signed int)return_value_strlen_11;
       }
 
       else
@@ -10523,15 +10523,15 @@ static char * xstrdup_env(const char *src)
           if((signed int)src[(signed long int)(1 + i)] == 45)
           {
             i = i + 2;
-            for( ; !(src[(signed long int)i] == 0); dst[(signed long int)tmp_post$13] = src[(signed long int)tmp_post$14])
+            for( ; !(src[(signed long int)i] == 0); dst[(signed long int)tmp_post_13] = src[(signed long int)tmp_post_14])
             {
-              return_value_strchr$12=strchr("}\n\r\f", (signed int)src[(signed long int)i]);
-              if(!(return_value_strchr$12 == ((char *)NULL)))
+              return_value_strchr_12=strchr("}\n\r\f", (signed int)src[(signed long int)i]);
+              if(!(return_value_strchr_12 == ((char *)NULL)))
                 break;
 
-              tmp_post$13 = j;
+              tmp_post_13 = j;
               j = j + 1;
-              tmp_post$14 = i;
+              tmp_post_14 = i;
               i = i + 1;
             }
           }
@@ -10540,8 +10540,8 @@ static char * xstrdup_env(const char *src)
 
       for( ; !(src[(signed long int)i] == 0); i = i + 1)
       {
-        return_value_strchr$15=strchr("}\n\r\f", (signed int)src[(signed long int)i]);
-        if(!(return_value_strchr$15 == ((char *)NULL)))
+        return_value_strchr_15=strchr("}\n\r\f", (signed int)src[(signed long int)i]);
+        if(!(return_value_strchr_15 == ((char *)NULL)))
           break;
 
       }
@@ -10552,11 +10552,11 @@ static char * xstrdup_env(const char *src)
 
     else
     {
-      tmp_post$16 = j;
+      tmp_post_16 = j;
       j = j + 1;
-      tmp_post$17 = i;
+      tmp_post_17 = i;
       i = i + 1;
-      dst[(signed long int)tmp_post$16] = src[(signed long int)tmp_post$17];
+      dst[(signed long int)tmp_post_16] = src[(signed long int)tmp_post_17];
     }
   }
   dst[(signed long int)j] = (char)0;
@@ -10568,9 +10568,9 @@ static char * xstrdup_env(const char *src)
 struct zebra_map * zebra_add_map(struct zebra_maps_s *zms, const char *index_type, signed int map_type)
 {
   struct zebra_map *zm;
-  void *return_value_nmem_malloc$1;
-  return_value_nmem_malloc$1=nmem_malloc(zms->nmem, sizeof(struct zebra_map) /*112ul*/ );
-  zm = (struct zebra_map *)return_value_nmem_malloc$1;
+  void *return_value_nmem_malloc_1;
+  return_value_nmem_malloc_1=nmem_malloc(zms->nmem, sizeof(struct zebra_map) /*112ul*/ );
+  zm = (struct zebra_map *)return_value_nmem_malloc_1;
   zm->zebra_maps = zms;
   zm->id=nmem_strdup(zms->nmem, index_type);
   zm->maptab_name = ((const char *)NULL);
@@ -10600,19 +10600,19 @@ struct zebra_map * zebra_add_map(struct zebra_maps_s *zms, const char *index_typ
 // file zebramap.c line 381
 struct chrmaptab_info * zebra_charmap_get(struct zebra_map *zm)
 {
-  _Bool tmp_if_expr$2;
-  signed int return_value_yaz_matchstr$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_yaz_matchstr_1;
   if(zm->maptab == ((struct chrmaptab_info *)NULL))
   {
     if(zm->maptab_name == ((const char *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_yaz_matchstr$1=yaz_matchstr(zm->maptab_name, "@");
-      tmp_if_expr$2 = !(return_value_yaz_matchstr$1 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_yaz_matchstr_1=yaz_matchstr(zm->maptab_name, "@");
+      tmp_if_expr_2 = !(return_value_yaz_matchstr_1 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       return (struct chrmaptab_info *)(void *)0;
 
     zm->maptab=chrmaptab_create(zm->zebra_maps->tabpath, zm->maptab_name, zm->zebra_maps->tabroot);
@@ -10673,14 +10673,14 @@ struct zebra_lock_handle * zebra_lock_create(const char *dir, const char *name)
   /* assertion initialized */
   assert(initialized != 0);
   zebra_mutex_lock(&lock_list_mutex);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(posix_locks == 0))
   {
     p = lock_list;
     for( ; !(p == ((struct zebra_lock_info *)NULL)); p = p->next)
     {
-      return_value_strcmp$1=strcmp(p->fname, fname);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(p->fname, fname);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -10688,9 +10688,9 @@ struct zebra_lock_handle * zebra_lock_create(const char *dir, const char *name)
 
   if(p == ((struct zebra_lock_info *)NULL))
   {
-    void *return_value_xmalloc_f$2;
-    return_value_xmalloc_f$2=xmalloc_f(sizeof(struct zebra_lock_info) /*184ul*/ , "flock.c", 137);
-    p = (struct zebra_lock_info *)return_value_xmalloc_f$2;
+    void *return_value_xmalloc_f_2;
+    return_value_xmalloc_f_2=xmalloc_f(sizeof(struct zebra_lock_info) /*184ul*/ , "flock.c", 137);
+    p = (struct zebra_lock_info *)return_value_xmalloc_f_2;
     p->ref_count = 0;
     p->fd=open(fname, 0 | 0100 | 02, 0666);
     if(p->fd == -1)
@@ -10718,9 +10718,9 @@ struct zebra_lock_handle * zebra_lock_create(const char *dir, const char *name)
   if(!(p == ((struct zebra_lock_info *)NULL)))
   {
     p->ref_count = p->ref_count + 1;
-    void *return_value_xmalloc_f$3;
-    return_value_xmalloc_f$3=xmalloc_f(sizeof(struct zebra_lock_handle) /*16ul*/ , "flock.c", 174);
-    h = (struct zebra_lock_handle *)return_value_xmalloc_f$3;
+    void *return_value_xmalloc_f_3;
+    return_value_xmalloc_f_3=xmalloc_f(sizeof(struct zebra_lock_handle) /*16ul*/ , "flock.c", 174);
+    h = (struct zebra_lock_handle *)return_value_xmalloc_f_3;
     h->p = p;
     h->write_flag = 0;
     yaz_log(log_level, "zebra_lock_create fd=%d p=%p fname=%s", h->p->fd, h, p->fname);
@@ -10806,7 +10806,7 @@ signed int zebra_lock_r(struct zebra_lock_handle *h)
 
 // zebra_lock_rdwr_destroy
 // file zebra-lock.c line 100
-signed int zebra_lock_rdwr_destroy(struct anonymous$56 *p)
+signed int zebra_lock_rdwr_destroy(struct anonymous_56 *p)
 {
   /* assertion p->readers_reading == 0 */
   assert(p->readers_reading == 0);
@@ -10819,18 +10819,18 @@ signed int zebra_lock_rdwr_destroy(struct anonymous$56 *p)
 
 // zebra_lock_rdwr_init
 // file zebra-lock.c line 89
-signed int zebra_lock_rdwr_init(struct anonymous$56 *p)
+signed int zebra_lock_rdwr_init(struct anonymous_56 *p)
 {
   p->readers_reading = 0;
   p->writers_writing = 0;
-  pthread_mutex_init(&p->mutex, ((const union anonymous$53 *)NULL));
-  pthread_cond_init(&p->lock_free, ((const union anonymous$53 *)NULL));
+  pthread_mutex_init(&p->mutex, ((const union anonymous_53 *)NULL));
+  pthread_cond_init(&p->lock_free, ((const union anonymous_53 *)NULL));
   return 0;
 }
 
 // zebra_lock_rdwr_rlock
 // file zebra-lock.c line 111
-signed int zebra_lock_rdwr_rlock(struct anonymous$56 *p)
+signed int zebra_lock_rdwr_rlock(struct anonymous_56 *p)
 {
   pthread_mutex_lock(&p->mutex);
   while(!(p->writers_writing == 0))
@@ -10842,7 +10842,7 @@ signed int zebra_lock_rdwr_rlock(struct anonymous$56 *p)
 
 // zebra_lock_rdwr_runlock
 // file zebra-lock.c line 135
-signed int zebra_lock_rdwr_runlock(struct anonymous$56 *p)
+signed int zebra_lock_rdwr_runlock(struct anonymous_56 *p)
 {
   pthread_mutex_lock(&p->mutex);
   if(p->readers_reading == 0)
@@ -10864,7 +10864,7 @@ signed int zebra_lock_rdwr_runlock(struct anonymous$56 *p)
 
 // zebra_lock_rdwr_wlock
 // file zebra-lock.c line 123
-signed int zebra_lock_rdwr_wlock(struct anonymous$56 *p)
+signed int zebra_lock_rdwr_wlock(struct anonymous_56 *p)
 {
   pthread_mutex_lock(&p->mutex);
   while((_Bool)1)
@@ -10888,7 +10888,7 @@ __CPROVER_DUMP_L3:
 
 // zebra_lock_rdwr_wunlock
 // file zebra-lock.c line 155
-signed int zebra_lock_rdwr_wunlock(struct anonymous$56 *p)
+signed int zebra_lock_rdwr_wunlock(struct anonymous_56 *p)
 {
   pthread_mutex_lock(&p->mutex);
   if(p->writers_writing == 0)
@@ -10938,11 +10938,11 @@ signed int zebra_lock_w(struct zebra_lock_handle *h)
 struct zebra_map * zebra_map_get(struct zebra_maps_s *zms, const char *id)
 {
   struct zebra_map *zm = zms->map_list;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(zm == ((struct zebra_map *)NULL)); zm = zm->next)
   {
-    return_value_strcmp$1=strcmp(zm->id, id);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(zm->id, id);
+    if(return_value_strcmp_1 == 0)
       break;
 
   }
@@ -10975,12 +10975,12 @@ signed int zebra_map_tokenize_next(struct zebra_map *zm, const char **result_buf
 {
   /* assertion zm->use_chain */
   assert(zm->use_chain != 0);
-  signed int return_value_tokenize_simple$1;
-  signed int return_value_icu_chain_next_token$2;
+  signed int return_value_tokenize_simple_1;
+  signed int return_value_icu_chain_next_token_2;
   if(zm->icu_chain == ((struct icu_chain *)NULL))
   {
-    return_value_tokenize_simple$1=tokenize_simple(zm, result_buf, result_len);
-    return return_value_tokenize_simple$1;
+    return_value_tokenize_simple_1=tokenize_simple(zm, result_buf, result_len);
+    return return_value_tokenize_simple_1;
   }
 
   else
@@ -10988,8 +10988,8 @@ signed int zebra_map_tokenize_next(struct zebra_map *zm, const char **result_buf
     enum UErrorCode status;
     do
     {
-      return_value_icu_chain_next_token$2=icu_chain_next_token(zm->icu_chain, &status);
-      if(return_value_icu_chain_next_token$2 == 0)
+      return_value_icu_chain_next_token_2=icu_chain_next_token(zm->icu_chain, &status);
+      if(return_value_icu_chain_next_token_2 == 0)
         break;
 
       if((signed int)status >= 1)
@@ -11011,9 +11011,9 @@ signed int zebra_map_tokenize_next(struct zebra_map *zm, const char **result_buf
       {
         wrbuf_rewind(zm->print_str);
         wrbuf_write_escaped(zm->print_str, *result_buf, *result_len);
-        const char *return_value_wrbuf_cstr$3;
-        return_value_wrbuf_cstr$3=wrbuf_cstr(zm->print_str);
-        yaz_log(0x00000008, "output %s", return_value_wrbuf_cstr$3);
+        const char *return_value_wrbuf_cstr_3;
+        return_value_wrbuf_cstr_3=wrbuf_cstr(zm->print_str);
+        yaz_log(0x00000008, "output %s", return_value_wrbuf_cstr_3);
       }
 
       if(!((signed int)*(*result_buf) == 0))
@@ -11042,14 +11042,14 @@ signed int zebra_map_tokenize_start(struct zebra_map *zm, const char *buf, unsig
     {
       wrbuf_rewind(zm->print_str);
       wrbuf_write_escaped(zm->print_str, zm->input_str->buf, zm->input_str->pos);
-      const char *return_value_wrbuf_cstr$1;
-      return_value_wrbuf_cstr$1=wrbuf_cstr(zm->print_str);
-      yaz_log(0x00000008, "input %s", return_value_wrbuf_cstr$1);
+      const char *return_value_wrbuf_cstr_1;
+      return_value_wrbuf_cstr_1=wrbuf_cstr(zm->print_str);
+      yaz_log(0x00000008, "input %s", return_value_wrbuf_cstr_1);
     }
 
-    const char *return_value_wrbuf_cstr$2;
-    return_value_wrbuf_cstr$2=wrbuf_cstr(zm->input_str);
-    ret=icu_chain_assign_cstr(zm->icu_chain, return_value_wrbuf_cstr$2, &status);
+    const char *return_value_wrbuf_cstr_2;
+    return_value_wrbuf_cstr_2=wrbuf_cstr(zm->input_str);
+    ret=icu_chain_assign_cstr(zm->icu_chain, return_value_wrbuf_cstr_2, &status);
     if(ret == 0 && (signed int)status >= 1)
     {
       if(!(zm->debug == 0))
@@ -11067,12 +11067,12 @@ signed int zebra_map_tokenize_start(struct zebra_map *zm, const char *buf, unsig
 // file zebramap.c line 514
 signed int zebra_maps_attr(struct zebra_maps_s *zms, struct Z_AttributesPlusTerm *zapt, const char **index_type, char **search_type, char *rank_type, signed int *complete_flag, signed int *sort_flag)
 {
-  struct anonymous$89 completeness;
-  struct anonymous$89 structure;
-  struct anonymous$89 relation;
-  struct anonymous$89 sort_relation;
-  struct anonymous$89 weight;
-  struct anonymous$89 use;
+  struct anonymous_89 completeness;
+  struct anonymous_89 structure;
+  struct anonymous_89 relation;
+  struct anonymous_89 sort_relation;
+  struct anonymous_89 weight;
+  struct anonymous_89 use;
   signed int completeness_value;
   signed int structure_value;
   const char *structure_str = ((const char *)NULL);
@@ -11114,7 +11114,7 @@ signed int zebra_maps_attr(struct zebra_maps_s *zms, struct Z_AttributesPlusTerm
 
   else
     *index_type = "w";
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(structure_value == 6))
   {
     if(structure_value == 105)
@@ -11208,11 +11208,11 @@ signed int zebra_maps_attr(struct zebra_maps_s *zms, struct Z_AttributesPlusTerm
   __CPROVER_DUMP_L17:
     ;
     if(!(structure_str == ((const char *)NULL)))
-      tmp_if_expr$1 = *structure_str != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *structure_str != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       *index_type = structure_str;
 
     else
@@ -11263,11 +11263,11 @@ const char ** zebra_maps_input(struct zebra_map *zm, const char **from, signed i
 {
   struct chrmaptab_info *maptab;
   maptab=zebra_charmap_get(zm);
-  const char **return_value_chr_map_input$1;
+  const char **return_value_chr_map_input_1;
   if(!(maptab == ((struct chrmaptab_info *)NULL)))
   {
-    return_value_chr_map_input$1=chr_map_input(maptab, from, len, first);
-    return return_value_chr_map_input$1;
+    return_value_chr_map_input_1=chr_map_input(maptab, from, len, first);
+    return return_value_chr_map_input_1;
   }
 
   else
@@ -11369,21 +11369,21 @@ signed int zebra_maps_is_staticrank(struct zebra_map *zm)
 struct zebra_maps_s * zebra_maps_open(struct res_struct *res, const char *base_path, const char *profile_path)
 {
   struct zebra_maps_s *zms;
-  void *return_value_xmalloc_f$1;
-  return_value_xmalloc_f$1=xmalloc_f(sizeof(struct zebra_maps_s) /*80ul*/ , "zebramap.c", 326);
-  zms = (struct zebra_maps_s *)return_value_xmalloc_f$1;
+  void *return_value_xmalloc_f_1;
+  return_value_xmalloc_f_1=xmalloc_f(sizeof(struct zebra_maps_s) /*80ul*/ , "zebramap.c", 326);
+  zms = (struct zebra_maps_s *)return_value_xmalloc_f_1;
   zms->nmem=nmem_create();
-  char *tmp_if_expr$3;
-  char *return_value_nmem_strdup$2;
+  char *tmp_if_expr_3;
+  char *return_value_nmem_strdup_2;
   if(!(profile_path == ((const char *)NULL)))
   {
-    return_value_nmem_strdup$2=nmem_strdup(zms->nmem, profile_path);
-    tmp_if_expr$3 = return_value_nmem_strdup$2;
+    return_value_nmem_strdup_2=nmem_strdup(zms->nmem, profile_path);
+    tmp_if_expr_3 = return_value_nmem_strdup_2;
   }
 
   else
-    tmp_if_expr$3 = ((char *)NULL);
-  zms->tabpath = tmp_if_expr$3;
+    tmp_if_expr_3 = ((char *)NULL);
+  zms->tabpath = tmp_if_expr_3;
   zms->tabroot = ((char *)NULL);
   if(!(base_path == ((const char *)NULL)))
     zms->tabroot=nmem_strdup(zms->nmem, base_path);
@@ -11410,9 +11410,9 @@ const char * zebra_maps_output(struct zebra_map *zm, const char **from)
 
   else
   {
-    const char *return_value_chr_map_output$1;
-    return_value_chr_map_output$1=chr_map_output(maptab, from, 1);
-    return return_value_chr_map_output$1;
+    const char *return_value_chr_map_output_1;
+    return_value_chr_map_output_1=chr_map_output(maptab, from, 1);
+    return return_value_chr_map_output_1;
   }
 }
 
@@ -11496,8 +11496,8 @@ const char ** zebra_maps_search(struct zebra_map *zm, const char **from, signed 
 // file zebramap.c line 498
 signed int zebra_maps_sort(struct zebra_maps_s *zms, struct Z_SortAttributes *sortAttributes, signed int *numerical)
 {
-  struct anonymous$89 use;
-  struct anonymous$89 structure;
+  struct anonymous_89 use;
+  struct anonymous_89 structure;
   signed int structure_value;
   attr_init_AttrList(&use, sortAttributes->list, 1);
   attr_init_AttrList(&structure, sortAttributes->list, 4);
@@ -11506,9 +11506,9 @@ signed int zebra_maps_sort(struct zebra_maps_s *zms, struct Z_SortAttributes *so
   if(structure_value == 109)
     *numerical = 1;
 
-  signed int return_value_attr_find$1;
-  return_value_attr_find$1=attr_find(&use, (const signed short int **)(void *)0);
-  return return_value_attr_find$1;
+  signed int return_value_attr_find_1;
+  return_value_attr_find_1=attr_find(&use, (const signed short int **)(void *)0);
+  return return_value_attr_find_1;
 }
 
 // zebra_mk_fname
@@ -11516,29 +11516,29 @@ signed int zebra_maps_sort(struct zebra_maps_s *zms, struct Z_SortAttributes *so
 char * zebra_mk_fname(const char *dir, const char *name)
 {
   signed int dlen;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(dir == ((const char *)NULL)))
   {
-    return_value_strlen$1=strlen(dir);
-    tmp_if_expr$2 = return_value_strlen$1;
+    return_value_strlen_1=strlen(dir);
+    tmp_if_expr_2 = return_value_strlen_1;
   }
 
   else
-    tmp_if_expr$2 = (unsigned long int)0;
-  dlen = (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (unsigned long int)0;
+  dlen = (signed int)tmp_if_expr_2;
   char *fname;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(name);
-  void *return_value_xmalloc_f$4;
-  return_value_xmalloc_f$4=xmalloc_f((unsigned long int)dlen + return_value_strlen$3 + (unsigned long int)3, "flock.c", 87);
-  fname = (char *)return_value_xmalloc_f$4;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(name);
+  void *return_value_xmalloc_f_4;
+  return_value_xmalloc_f_4=xmalloc_f((unsigned long int)dlen + return_value_strlen_3 + (unsigned long int)3, "flock.c", 87);
+  fname = (char *)return_value_xmalloc_f_4;
   if(!(dlen == 0))
   {
     signed int last_one = (signed int)dir[(signed long int)(dlen - 1)];
-    char *return_value_strchr$5;
-    return_value_strchr$5=strchr("/", last_one);
-    if(return_value_strchr$5 == ((char *)NULL))
+    char *return_value_strchr_5;
+    return_value_strchr_5=strchr("/", last_one);
+    if(return_value_strchr_5 == ((char *)NULL))
       sprintf(fname, "%s/%s", dir, name);
 
     else
@@ -11552,7 +11552,7 @@ char * zebra_mk_fname(const char *dir, const char *name)
 
 // zebra_mutex_cond_destroy
 // file zebra-lock.c line 183
-signed int zebra_mutex_cond_destroy(struct anonymous$49 *p)
+signed int zebra_mutex_cond_destroy(struct anonymous_49 *p)
 {
   pthread_cond_destroy(&p->cond);
   pthread_mutex_destroy(&p->mutex);
@@ -11561,52 +11561,52 @@ signed int zebra_mutex_cond_destroy(struct anonymous$49 *p)
 
 // zebra_mutex_cond_init
 // file zebra-lock.c line 174
-signed int zebra_mutex_cond_init(struct anonymous$49 *p)
+signed int zebra_mutex_cond_init(struct anonymous_49 *p)
 {
-  pthread_cond_init(&p->cond, ((const union anonymous$53 *)NULL));
-  pthread_mutex_init(&p->mutex, ((const union anonymous$53 *)NULL));
+  pthread_cond_init(&p->cond, ((const union anonymous_53 *)NULL));
+  pthread_mutex_init(&p->mutex, ((const union anonymous_53 *)NULL));
   return 0;
 }
 
 // zebra_mutex_cond_lock
 // file zebra-lock.c line 192
-signed int zebra_mutex_cond_lock(struct anonymous$49 *p)
+signed int zebra_mutex_cond_lock(struct anonymous_49 *p)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&p->mutex);
-  return return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&p->mutex);
+  return return_value_pthread_mutex_lock_1;
 }
 
 // zebra_mutex_cond_signal
 // file zebra-lock.c line 219
-signed int zebra_mutex_cond_signal(struct anonymous$49 *p)
+signed int zebra_mutex_cond_signal(struct anonymous_49 *p)
 {
-  signed int return_value_pthread_cond_signal$1;
-  return_value_pthread_cond_signal$1=pthread_cond_signal(&p->cond);
-  return return_value_pthread_cond_signal$1;
+  signed int return_value_pthread_cond_signal_1;
+  return_value_pthread_cond_signal_1=pthread_cond_signal(&p->cond);
+  return return_value_pthread_cond_signal_1;
 }
 
 // zebra_mutex_cond_unlock
 // file zebra-lock.c line 201
-signed int zebra_mutex_cond_unlock(struct anonymous$49 *p)
+signed int zebra_mutex_cond_unlock(struct anonymous_49 *p)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&p->mutex);
-  return return_value_pthread_mutex_unlock$1;
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&p->mutex);
+  return return_value_pthread_mutex_unlock_1;
 }
 
 // zebra_mutex_cond_wait
 // file zebra-lock.c line 210
-signed int zebra_mutex_cond_wait(struct anonymous$49 *p)
+signed int zebra_mutex_cond_wait(struct anonymous_49 *p)
 {
-  signed int return_value_pthread_cond_wait$1;
-  return_value_pthread_cond_wait$1=pthread_cond_wait(&p->cond, &p->mutex);
-  return return_value_pthread_cond_wait$1;
+  signed int return_value_pthread_cond_wait_1;
+  return_value_pthread_cond_wait_1=pthread_cond_wait(&p->cond, &p->mutex);
+  return return_value_pthread_cond_wait_1;
 }
 
 // zebra_mutex_destroy
 // file zebra-lock.c line 43
-signed int zebra_mutex_destroy(struct anonymous$54 *p)
+signed int zebra_mutex_destroy(struct anonymous_54 *p)
 {
   p->state = p->state - 1;
   if(!(p->state == 0))
@@ -11618,16 +11618,16 @@ signed int zebra_mutex_destroy(struct anonymous$54 *p)
 
 // zebra_mutex_init
 // file zebra-lock.c line 31
-signed int zebra_mutex_init(struct anonymous$54 *p)
+signed int zebra_mutex_init(struct anonymous_54 *p)
 {
   p->state = 1;
-  pthread_mutex_init(&p->mutex, ((const union anonymous$53 *)NULL));
+  pthread_mutex_init(&p->mutex, ((const union anonymous_53 *)NULL));
   return 0;
 }
 
 // zebra_mutex_lock
 // file zebra-lock.c line 59
-signed int zebra_mutex_lock(struct anonymous$54 *p)
+signed int zebra_mutex_lock(struct anonymous_54 *p)
 {
   if(!(p->state == 1))
     fprintf(stderr, "zebra_mutex_lock. state = %d\n", p->state);
@@ -11638,7 +11638,7 @@ signed int zebra_mutex_lock(struct anonymous$54 *p)
 
 // zebra_mutex_unlock
 // file zebra-lock.c line 74
-signed int zebra_mutex_unlock(struct anonymous$54 *p)
+signed int zebra_mutex_unlock(struct anonymous_54 *p)
 {
   if(!(p->state == 1))
     fprintf(stderr, "zebra_mutex_unlock. state = %d\n", p->state);
@@ -11654,14 +11654,14 @@ signed int zebra_parse_xpath_str(const char *xpath_string, struct xpath_location
   const char *cp;
   char *a;
   signed int no = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(xpath_string == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)*xpath_string != 47 ? (_Bool)1 : (_Bool)0;
-  char *return_value_strchr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)*xpath_string != 47 ? (_Bool)1 : (_Bool)0;
+  char *return_value_strchr_2;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -11675,16 +11675,16 @@ signed int zebra_parse_xpath_str(const char *xpath_string, struct xpath_location
       signed int i = 0;
       for( ; !(*cp == 0); cp = cp + 1l)
       {
-        return_value_strchr$2=strchr("/[", (signed int)*cp);
-        if(!(return_value_strchr$2 == ((char *)NULL)))
+        return_value_strchr_2=strchr("/[", (signed int)*cp);
+        if(!(return_value_strchr_2 == ((char *)NULL)))
           break;
 
         i = i + 1;
       }
       (xpath + (signed long int)no)->predicate = ((struct xpath_predicate *)NULL);
-      void *return_value_nmem_malloc$3;
-      return_value_nmem_malloc$3=nmem_malloc(mem, (unsigned long int)(i + 1));
-      (xpath + (signed long int)no)->part = (char *)return_value_nmem_malloc$3;
+      void *return_value_nmem_malloc_3;
+      return_value_nmem_malloc_3=nmem_malloc(mem, (unsigned long int)(i + 1));
+      (xpath + (signed long int)no)->part = (char *)return_value_nmem_malloc_3;
       if(!(i == 0))
         memcpy((void *)(xpath + (signed long int)no)->part, (const void *)(cp - (signed long int)i), (unsigned long int)i);
 
@@ -11722,16 +11722,16 @@ unsigned int zebra_prim_w(unsigned int **s)
   unsigned int c;
   unsigned int i = (unsigned int)0;
   char fmtstr[8l];
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(*(*s) == 92u)
-    tmp_if_expr$4 = (*s)[(signed long int)1] != 0u ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = (*s)[(signed long int)1] != 0u ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  signed int return_value_zebra_ucs4_strlen$1;
-  signed int return_value_zebra_ucs4_strlen$2;
-  signed int return_value_zebra_ucs4_strlen$3;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  signed int return_value_zebra_ucs4_strlen_1;
+  signed int return_value_zebra_ucs4_strlen_2;
+  signed int return_value_zebra_ucs4_strlen_3;
+  if(tmp_if_expr_4)
   {
     *s = *s + 1l;
     c = *(*s);
@@ -11769,8 +11769,8 @@ unsigned int zebra_prim_w(unsigned int **s)
       }
       case (unsigned int)120:
       {
-        return_value_zebra_ucs4_strlen$1=zebra_ucs4_strlen(*s);
-        if(return_value_zebra_ucs4_strlen$1 >= 3)
+        return_value_zebra_ucs4_strlen_1=zebra_ucs4_strlen(*s);
+        if(return_value_zebra_ucs4_strlen_1 >= 3)
         {
           fmtstr[(signed long int)0] = (char)(*s)[(signed long int)1];
           fmtstr[(signed long int)1] = (char)(*s)[(signed long int)2];
@@ -11802,8 +11802,8 @@ unsigned int zebra_prim_w(unsigned int **s)
 
       case (unsigned int)57:
       {
-        return_value_zebra_ucs4_strlen$2=zebra_ucs4_strlen(*s);
-        if(return_value_zebra_ucs4_strlen$2 >= 3)
+        return_value_zebra_ucs4_strlen_2=zebra_ucs4_strlen(*s);
+        if(return_value_zebra_ucs4_strlen_2 >= 3)
         {
           fmtstr[(signed long int)0] = (char)(*s)[(signed long int)0];
           fmtstr[(signed long int)1] = (char)(*s)[(signed long int)1];
@@ -11818,8 +11818,8 @@ unsigned int zebra_prim_w(unsigned int **s)
       }
       case (unsigned int)76:
       {
-        return_value_zebra_ucs4_strlen$3=zebra_ucs4_strlen(*s);
-        if(return_value_zebra_ucs4_strlen$3 >= 5)
+        return_value_zebra_ucs4_strlen_3=zebra_ucs4_strlen(*s);
+        if(return_value_zebra_ucs4_strlen_3 >= 5)
         {
           fmtstr[(signed long int)0] = (char)(*s)[(signed long int)1];
           fmtstr[(signed long int)1] = (char)(*s)[(signed long int)2];
@@ -11860,9 +11860,9 @@ struct wrbuf * zebra_replace(struct zebra_map *zm, const char *ex_list, const ch
 // file snippet.c line 51
 void zebra_snippets_append(struct zebra_snippets *l, signed long long int seqno, signed int ws, signed int ord, const char *term)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(term);
-  zebra_snippets_append_match(l, seqno, ws, ord, term, return_value_strlen$1, 0);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(term);
+  zebra_snippets_append_match(l, seqno, ws, ord, term, return_value_strlen_1, 0);
 }
 
 // zebra_snippets_append_match
@@ -11870,9 +11870,9 @@ void zebra_snippets_append(struct zebra_snippets *l, signed long long int seqno,
 void zebra_snippets_append_match(struct zebra_snippets *l, signed long long int seqno, signed int ws, signed int ord, const char *term, unsigned long int term_len, signed int match)
 {
   struct zebra_snippet_word *w;
-  void *return_value_nmem_malloc$1;
-  return_value_nmem_malloc$1=nmem_malloc(l->nmem, sizeof(struct zebra_snippet_word) /*56ul*/ );
-  w = (struct zebra_snippet_word *)return_value_nmem_malloc$1;
+  void *return_value_nmem_malloc_1;
+  return_value_nmem_malloc_1=nmem_malloc(l->nmem, sizeof(struct zebra_snippet_word) /*56ul*/ );
+  w = (struct zebra_snippet_word *)return_value_nmem_malloc_1;
   w->next = ((struct zebra_snippet_word *)NULL);
   w->prev = l->tail;
   if(!(l->tail == ((struct zebra_snippet_word *)NULL)))
@@ -11884,9 +11884,9 @@ void zebra_snippets_append_match(struct zebra_snippets *l, signed long long int 
   w->seqno = seqno;
   w->ws = ws;
   w->ord = ord;
-  void *return_value_nmem_malloc$2;
-  return_value_nmem_malloc$2=nmem_malloc(l->nmem, term_len + (unsigned long int)1);
-  w->term = (char *)return_value_nmem_malloc$2;
+  void *return_value_nmem_malloc_2;
+  return_value_nmem_malloc_2=nmem_malloc(l->nmem, term_len + (unsigned long int)1);
+  w->term = (char *)return_value_nmem_malloc_2;
   memcpy((void *)w->term, (const void *)term, term_len);
   w->term[(signed long int)term_len] = (char)0;
   w->match = match;
@@ -11927,9 +11927,9 @@ struct zebra_snippets * zebra_snippets_create(void)
   struct nmem_control *nmem;
   nmem=nmem_create();
   struct zebra_snippets *l;
-  void *return_value_nmem_malloc$1;
-  return_value_nmem_malloc$1=nmem_malloc(nmem, sizeof(struct zebra_snippets) /*24ul*/ );
-  l = (struct zebra_snippets *)return_value_nmem_malloc$1;
+  void *return_value_nmem_malloc_1;
+  return_value_nmem_malloc_1=nmem_malloc(nmem, sizeof(struct zebra_snippets) /*24ul*/ );
+  l = (struct zebra_snippets *)return_value_nmem_malloc_1;
   l->nmem = nmem;
   l->tail = ((struct zebra_snippet_word *)NULL);
   l->front = l->tail;
@@ -11957,28 +11957,28 @@ struct zebra_snippet_word * zebra_snippets_list(struct zebra_snippets *l)
 void zebra_snippets_log(const struct zebra_snippets *l, signed int log_level, signed int all)
 {
   struct zebra_snippet_word *w = l->front;
-  _Bool tmp_if_expr$3;
-  const char *return_value_wrbuf_cstr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  const char *return_value_wrbuf_cstr_1;
+  _Bool tmp_if_expr_2;
   for( ; !(w == ((struct zebra_snippet_word *)NULL)); w = w->next)
   {
     struct wrbuf *wr_term;
     wr_term=wrbuf_alloc();
     wrbuf_puts_escaped(wr_term, w->term);
     if(!(all == 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = w->mark != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = w->mark != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_wrbuf_cstr$1=wrbuf_cstr(wr_term);
+      return_value_wrbuf_cstr_1=wrbuf_cstr(wr_term);
       if(!(w->match == 0))
-        tmp_if_expr$2 = !(w->ws != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = !(w->ws != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      yaz_log(log_level, "term='%s'%s mark=%d seqno=%lld ord=%d", return_value_wrbuf_cstr$1, tmp_if_expr$2 ? "*" : "", w->mark, w->seqno, w->ord);
+        tmp_if_expr_2 = (_Bool)0;
+      yaz_log(log_level, "term='%s'%s mark=%d seqno=%lld ord=%d", return_value_wrbuf_cstr_1, tmp_if_expr_2 ? "*" : "", w->mark, w->seqno, w->ord);
     }
 
     wrbuf_destroy(wr_term);
@@ -12017,11 +12017,11 @@ void zebra_snippets_ring(struct zebra_snippets *doc, const struct zebra_snippets
 {
   signed int ord = -1;
   zebra_snippets_clear(doc);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   while((_Bool)1)
   {
     const struct zebra_snippet_word *hit_w;
@@ -12032,11 +12032,11 @@ void zebra_snippets_ring(struct zebra_snippets *doc, const struct zebra_snippets
       if(!(ord >= hit_w->ord))
       {
         if(min_ord == 0)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = hit_w->ord < min_ord ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = hit_w->ord < min_ord ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           min_ord = hit_w->ord;
 
       }
@@ -12072,16 +12072,16 @@ void zebra_snippets_ring(struct zebra_snippets *doc, const struct zebra_snippets
           while(!(w == ((struct zebra_snippet_word *)NULL)))
           {
             if(w->ord == ord)
-              tmp_if_expr$2 = hit_w->seqno - (signed long int)before < w->seqno ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = hit_w->seqno - (signed long int)before < w->seqno ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(tmp_if_expr$2)
-              tmp_if_expr$3 = hit_w->seqno + (signed long int)after > w->seqno ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = (_Bool)0;
+            if(tmp_if_expr_2)
+              tmp_if_expr_3 = hit_w->seqno + (signed long int)after > w->seqno ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (_Bool)0;
+            if(tmp_if_expr_3)
             {
               w->mark = 1;
               w = w->next;
@@ -12094,23 +12094,23 @@ void zebra_snippets_ring(struct zebra_snippets *doc, const struct zebra_snippets
 
         if(!(doc_w == ((struct zebra_snippet_word *)NULL)))
         {
-          struct zebra_snippet_word *zebra_snippets_ring$$1$$1$$2$$1$$1$$3$$w = doc_w->prev;
-          while(!(zebra_snippets_ring$$1$$1$$2$$1$$1$$3$$w == ((struct zebra_snippet_word *)NULL)))
+          struct zebra_snippet_word *zebra_snippets_ring__1__1__2__1__1__3__w = doc_w->prev;
+          while(!(zebra_snippets_ring__1__1__2__1__1__3__w == ((struct zebra_snippet_word *)NULL)))
           {
-            if(zebra_snippets_ring$$1$$1$$2$$1$$1$$3$$w->ord == ord)
-              tmp_if_expr$4 = hit_w->seqno - (signed long int)before < zebra_snippets_ring$$1$$1$$2$$1$$1$$3$$w->seqno ? (_Bool)1 : (_Bool)0;
+            if(zebra_snippets_ring__1__1__2__1__1__3__w->ord == ord)
+              tmp_if_expr_4 = hit_w->seqno - (signed long int)before < zebra_snippets_ring__1__1__2__1__1__3__w->seqno ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(tmp_if_expr$4)
-              tmp_if_expr$5 = hit_w->seqno + (signed long int)after > zebra_snippets_ring$$1$$1$$2$$1$$1$$3$$w->seqno ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (_Bool)0;
+            if(tmp_if_expr_4)
+              tmp_if_expr_5 = hit_w->seqno + (signed long int)after > zebra_snippets_ring__1__1__2__1__1__3__w->seqno ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$5 = (_Bool)0;
-            if(tmp_if_expr$5)
+              tmp_if_expr_5 = (_Bool)0;
+            if(tmp_if_expr_5)
             {
-              zebra_snippets_ring$$1$$1$$2$$1$$1$$3$$w->mark = 1;
-              zebra_snippets_ring$$1$$1$$2$$1$$1$$3$$w = zebra_snippets_ring$$1$$1$$2$$1$$1$$3$$w->prev;
+              zebra_snippets_ring__1__1__2__1__1__3__w->mark = 1;
+              zebra_snippets_ring__1__1__2__1__1__3__w = zebra_snippets_ring__1__1__2__1__1__3__w->prev;
             }
 
             else
@@ -12133,7 +12133,7 @@ struct zebra_snippets * zebra_snippets_window(const struct zebra_snippets *doc, 
   if(window_size == 0)
     window_size = 1000000;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while((_Bool)1)
   {
     signed long long int window_start;
@@ -12148,11 +12148,11 @@ struct zebra_snippets * zebra_snippets_window(const struct zebra_snippets *doc, 
       if(!(ord >= hit_w->ord))
       {
         if(min_ord == 0)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = hit_w->ord < min_ord ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = hit_w->ord < min_ord ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           min_ord = hit_w->ord;
 
       }
@@ -12215,9 +12215,9 @@ struct zebra_snippets * zebra_snippets_window(const struct zebra_snippets *doc, 
 
               }
 
-            unsigned long int return_value_strlen$2;
-            return_value_strlen$2=strlen(doc_w->term);
-            zebra_snippets_append_match(result, doc_w->seqno, doc_w->ws, ord, doc_w->term, return_value_strlen$2, match);
+            unsigned long int return_value_strlen_2;
+            return_value_strlen_2=strlen(doc_w->term);
+            zebra_snippets_append_match(result, doc_w->seqno, doc_w->ws, ord, doc_w->term, return_value_strlen_2, match);
           }
 
         }
@@ -12235,14 +12235,14 @@ void zebra_strmap_add(struct zebra_strmap *st, const char *name, void *data_buf,
   struct strmap_entry **e;
   e=hash(st, name);
   struct strmap_entry *ne = st->free_entries;
-  void *return_value_nmem_malloc$1;
+  void *return_value_nmem_malloc_1;
   if(!(ne == ((struct strmap_entry *)NULL)))
     st->free_entries = ne->next;
 
   else
   {
-    return_value_nmem_malloc$1=nmem_malloc(st->nmem_ent, sizeof(struct strmap_entry) /*32ul*/ );
-    ne = (struct strmap_entry *)return_value_nmem_malloc$1;
+    return_value_nmem_malloc_1=nmem_malloc(st->nmem_ent, sizeof(struct strmap_entry) /*32ul*/ );
+    ne = (struct strmap_entry *)return_value_nmem_malloc_1;
   }
   ne->next = *e;
   *e = ne;
@@ -12261,17 +12261,17 @@ struct zebra_strmap * zebra_strmap_create(void)
   struct nmem_control *nmem_ent;
   nmem_ent=nmem_create();
   struct zebra_strmap *st;
-  void *return_value_nmem_malloc$1;
-  return_value_nmem_malloc$1=nmem_malloc(nmem_ent, sizeof(struct zebra_strmap) /*40ul*/ );
-  st = (struct zebra_strmap *)return_value_nmem_malloc$1;
+  void *return_value_nmem_malloc_1;
+  return_value_nmem_malloc_1=nmem_malloc(nmem_ent, sizeof(struct zebra_strmap) /*40ul*/ );
+  st = (struct zebra_strmap *)return_value_nmem_malloc_1;
   st->nmem_ent = nmem_ent;
   st->nmem_str=nmem_create();
   st->hsize = 1001;
   st->size = 0;
   st->free_entries = ((struct strmap_entry *)NULL);
-  void *return_value_nmem_malloc$2;
-  return_value_nmem_malloc$2=nmem_malloc(nmem_ent, (unsigned long int)st->hsize * sizeof(struct strmap_entry *) /*8ul*/ );
-  st->entries = (struct strmap_entry **)return_value_nmem_malloc$2;
+  void *return_value_nmem_malloc_2;
+  return_value_nmem_malloc_2=nmem_malloc(nmem_ent, (unsigned long int)st->hsize * sizeof(struct strmap_entry *) /*8ul*/ );
+  st->entries = (struct strmap_entry **)return_value_nmem_malloc_2;
   i = 0;
   for( ; !(i >= st->hsize); i = i + 1)
     st->entries[(signed long int)i] = ((struct strmap_entry *)NULL);
@@ -12302,9 +12302,9 @@ signed int zebra_strmap_get_size(struct zebra_strmap *st)
 struct zebra_strmap_it_s * zebra_strmap_it_create(struct zebra_strmap *st)
 {
   struct zebra_strmap_it_s *it;
-  void *return_value_xmalloc_f$1;
-  return_value_xmalloc_f$1=xmalloc_f(sizeof(struct zebra_strmap_it_s) /*24ul*/ , "strmap.c", 150);
-  it = (struct zebra_strmap_it_s *)return_value_xmalloc_f$1;
+  void *return_value_xmalloc_f_1;
+  return_value_xmalloc_f_1=xmalloc_f(sizeof(struct zebra_strmap_it_s) /*24ul*/ , "strmap.c", 150);
+  it = (struct zebra_strmap_it_s *)return_value_xmalloc_f_1;
   it->hno = 0;
   it->ent = ((struct strmap_entry *)NULL);
   it->st = st;
@@ -12356,15 +12356,15 @@ const char * zebra_strmap_it_next(struct zebra_strmap_it_s *it, void **data_buf,
 void * zebra_strmap_lookup(struct zebra_strmap *st, const char *name, signed int no, unsigned long int *data_len)
 {
   struct strmap_entry *e;
-  struct strmap_entry **return_value_hash$1;
-  return_value_hash$1=hash(st, name);
-  e = *return_value_hash$1;
+  struct strmap_entry **return_value_hash_1;
+  return_value_hash_1=hash(st, name);
+  e = *return_value_hash_1;
   signed int i = 0;
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   for( ; !(e == ((struct strmap_entry *)NULL)); e = e->next)
   {
-    return_value_strcmp$2=strcmp(name, e->name);
-    if(return_value_strcmp$2 == 0)
+    return_value_strcmp_2=strcmp(name, e->name);
+    if(return_value_strcmp_2 == 0)
     {
       if(i == no)
       {
@@ -12387,11 +12387,11 @@ signed int zebra_strmap_remove(struct zebra_strmap *st, const char *name)
 {
   struct strmap_entry **e;
   e=hash(st, name);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(*e == ((struct strmap_entry *)NULL)); e = &(*e)->next)
   {
-    return_value_strcmp$1=strcmp(name, (*e)->name);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(name, (*e)->name);
+    if(return_value_strcmp_1 == 0)
     {
       struct strmap_entry *tmp = *e;
       *e = (*e)->next;
@@ -12410,12 +12410,12 @@ signed int zebra_strmap_remove(struct zebra_strmap *st, const char *name)
 static signed int zebra_ucs4_strlen(unsigned int *s)
 {
   signed int i = 0;
-  unsigned int *tmp_post$1;
+  unsigned int *tmp_post_1;
   do
   {
-    tmp_post$1 = s;
+    tmp_post_1 = s;
     s = s + 1l;
-    if(*tmp_post$1 == 0u)
+    if(*tmp_post_1 == 0u)
       break;
 
     i = i + 1;
@@ -12442,13 +12442,13 @@ signed int zebra_unlock(struct zebra_lock_handle *h)
     if(h->p->no_file_read_lock >= 1)
       h->p->no_file_read_lock = h->p->no_file_read_lock - 1;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(h->p->no_file_read_lock == 0)
-    tmp_if_expr$1 = h->p->no_file_write_lock == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = h->p->no_file_write_lock == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     r=unixLock(h->p->fd, 2, 7);
 
   else
@@ -12479,12 +12479,12 @@ void zebra_zint_decode(const char **src, signed long long int *pos)
   signed long long int d = (signed long long int)0;
   unsigned char c;
   unsigned int r = (unsigned int)0;
-  const unsigned char *tmp_post$1;
+  const unsigned char *tmp_post_1;
   do
   {
-    tmp_post$1 = *bp;
+    tmp_post_1 = *bp;
     *bp = *bp + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if((128 & (signed int)c) == 0)
       break;
 
@@ -12501,16 +12501,16 @@ void zebra_zint_decode(const char **src, signed long long int *pos)
 void zebra_zint_encode(char **dst, signed long long int pos)
 {
   unsigned char *bp = (unsigned char *)*dst;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   for( ; pos >= 128l; pos = pos >> 7)
   {
-    tmp_post$1 = bp;
+    tmp_post_1 = bp;
     bp = bp + 1l;
-    *tmp_post$1 = (unsigned char)((signed long int)128 | pos & (signed long int)127);
+    *tmp_post_1 = (unsigned char)((signed long int)128 | pos & (signed long int)127);
   }
-  unsigned char *tmp_post$2 = bp;
+  unsigned char *tmp_post_2 = bp;
   bp = bp + 1l;
-  *tmp_post$2 = (unsigned char)pos;
+  *tmp_post_2 = (unsigned char)pos;
   *dst = (char *)bp;
 }
 

@@ -1,10 +1,10 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__bits'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__bits'|]
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 125
 struct anonymous;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -101,10 +101,10 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // rand_r
 // file /usr/include/stdlib.h line 381
 extern signed int rand_r(unsigned int *);
@@ -167,7 +167,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -307,7 +307,7 @@ static unsigned long long int nthr;
 static struct entry *stack;
 // stack_spinlock
 // file pair.c line 71
-union anonymous$0 stack_spinlock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_0 stack_spinlock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // stderr
@@ -330,11 +330,11 @@ static signed int aff_iterate(struct affinity *acb)
 
   else
     (unsigned long int)0;
-  signed int return_value_gettid$1;
-  return_value_gettid$1=gettid();
-  signed int return_value_sched_setaffinity$2;
-  return_value_sched_setaffinity$2=sched_setaffinity(return_value_gettid$1, sizeof(struct anonymous) /*128ul*/ , &s);
-  return return_value_sched_setaffinity$2;
+  signed int return_value_gettid_1;
+  return_value_gettid_1=gettid();
+  signed int return_value_sched_setaffinity_2;
+  return_value_sched_setaffinity_2=sched_setaffinity(return_value_gettid_1, sizeof(struct anonymous) /*128ul*/ , &s);
+  return return_value_sched_setaffinity_2;
 }
 
 // ck_error
@@ -366,27 +366,27 @@ static void ck_pr_store_ptr(void *target, const void *v)
 // file ../../common.h line 137
 static signed int common_gettimeofday(struct timeval *tv, void *tz)
 {
-  signed int return_value_gettimeofday$1;
-  return_value_gettimeofday$1=gettimeofday(tv, (struct timezone *)tz);
-  return return_value_gettimeofday$1;
+  signed int return_value_gettimeofday_1;
+  return_value_gettimeofday_1=gettimeofday(tv, (struct timezone *)tz);
+  return return_value_gettimeofday_1;
 }
 
 // common_rand_r
 // file ../../common.h line 81
 static signed int common_rand_r(unsigned int *i)
 {
-  signed int return_value_rand_r$1;
-  return_value_rand_r$1=rand_r(i);
-  return return_value_rand_r$1;
+  signed int return_value_rand_r_1;
+  return_value_rand_r_1=rand_r(i);
+  return return_value_rand_r_1;
 }
 
 // gettid
 // file ../../common.h line 269
 static signed int gettid(void)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)186);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)186);
+  return (signed int)return_value_syscall_1;
 }
 
 // main
@@ -403,12 +403,12 @@ signed int main(signed int argc, char **argv)
     ck_error("Usage: stack <threads> <delta> <critical>\n");
 
   char *e;
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(argv[(signed long int)1], &e, 10);
-  nthr = (unsigned long long int)return_value_strtol$1;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  if(*return_value___errno_location$2 == 34)
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(argv[(signed long int)1], &e, 10);
+  nthr = (unsigned long long int)return_value_strtol_1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  if(*return_value___errno_location_2 == 34)
   {
     perror("ERROR: too many threads");
     exit(1);
@@ -418,12 +418,12 @@ signed int main(signed int argc, char **argv)
     if(!((signed int)*e == 0))
       ck_error("ERROR: input format is incorrect\n");
 
-  signed long int return_value_strtol$3;
-  return_value_strtol$3=strtol(argv[(signed long int)2], &e, 10);
-  d = (unsigned long long int)return_value_strtol$3;
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  if(*return_value___errno_location$4 == 34)
+  signed long int return_value_strtol_3;
+  return_value_strtol_3=strtol(argv[(signed long int)2], &e, 10);
+  d = (unsigned long long int)return_value_strtol_3;
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  if(*return_value___errno_location_4 == 34)
   {
     perror("ERROR: delta is too large");
     exit(1);
@@ -433,12 +433,12 @@ signed int main(signed int argc, char **argv)
     if(!((signed int)*e == 0))
       ck_error("ERROR: input format is incorrect\n");
 
-  unsigned long int return_value_strtoul$5;
-  return_value_strtoul$5=strtoul(argv[(signed long int)3], &e, 10);
-  critical = (unsigned int)return_value_strtoul$5;
-  signed int *return_value___errno_location$6;
-  return_value___errno_location$6=__errno_location();
-  if(*return_value___errno_location$6 == 34)
+  unsigned long int return_value_strtoul_5;
+  return_value_strtoul_5=strtoul(argv[(signed long int)3], &e, 10);
+  critical = (unsigned int)return_value_strtoul_5;
+  signed int *return_value___errno_location_6;
+  return_value___errno_location_6=__errno_location();
+  if(*return_value___errno_location_6 == 34)
   {
     perror("ERROR: critical section is too large");
     exit(1);
@@ -448,19 +448,19 @@ signed int main(signed int argc, char **argv)
     if(!((signed int)*e == 0))
       ck_error("ERROR: input format is incorrect\n");
 
-  signed int return_value_getpid$7;
-  return_value_getpid$7=getpid();
-  srand((unsigned int)return_value_getpid$7);
+  signed int return_value_getpid_7;
+  return_value_getpid_7=getpid();
+  srand((unsigned int)return_value_getpid_7);
   affinerator.request = (unsigned int)0;
   affinerator.delta = (unsigned int)d;
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(sizeof(struct entry) /*64ul*/  * nthr);
-  bucket = (struct entry *)return_value_malloc$8;
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(sizeof(struct entry) /*64ul*/  * nthr);
+  bucket = (struct entry *)return_value_malloc_8;
   /* assertion bucket != ((void *)0) */
   assert(bucket != (struct entry *)(void *)0);
-  void *return_value_malloc$9;
-  return_value_malloc$9=malloc(sizeof(unsigned long int) /*8ul*/  * nthr);
-  thread = (unsigned long int *)return_value_malloc$9;
+  void *return_value_malloc_9;
+  return_value_malloc_9=malloc(sizeof(unsigned long int) /*8ul*/  * nthr);
+  thread = (unsigned long int *)return_value_malloc_9;
   /* assertion thread != ((void *)0) */
   assert(thread != (unsigned long int *)(void *)0);
   i = (unsigned long long int)0;
@@ -502,9 +502,9 @@ static void * stack_thread(void *buffer)
   unsigned long long int n = (unsigned long long int)5765760;
   unsigned int seed;
   signed int j;
-  signed int return_value_aff_iterate$1;
-  return_value_aff_iterate$1=aff_iterate(&affinerator);
-  if(!(return_value_aff_iterate$1 == 0))
+  signed int return_value_aff_iterate_1;
+  return_value_aff_iterate_1=aff_iterate(&affinerator);
+  if(!(return_value_aff_iterate_1 == 0))
   {
     perror("ERROR: failed to affine thread");
     exit(1);
@@ -513,7 +513,7 @@ static void * stack_thread(void *buffer)
   while(barrier == 0u)
     ;
   i = (unsigned long long int)0;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; !(i >= n); i = i + 1ull)
   {
     pthread_mutex_lock(&stack_spinlock);
@@ -522,14 +522,14 @@ static void * stack_thread(void *buffer)
     pthread_mutex_unlock(&stack_spinlock);
     if(!(critical == 0u))
     {
-      signed int return_value_common_rand_r$2;
-      return_value_common_rand_r$2=common_rand_r(&seed);
-      j = (signed int)((unsigned int)return_value_common_rand_r$2 % critical);
+      signed int return_value_common_rand_r_2;
+      return_value_common_rand_r_2=common_rand_r(&seed);
+      j = (signed int)((unsigned int)return_value_common_rand_r_2 % critical);
       do
       {
-        tmp_post$3 = j;
+        tmp_post_3 = j;
         j = j - 1;
-        if(tmp_post$3 == 0)
+        if(tmp_post_3 == 0)
           break;
 
         asm("" :  :  : "memory");

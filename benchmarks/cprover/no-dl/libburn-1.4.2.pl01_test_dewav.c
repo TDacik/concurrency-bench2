@@ -1,12 +1,12 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__val']
+// tag-#anon#ST[ARR16{U64}_U64_'__val']
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -279,12 +279,12 @@ static void Cleanup_handler_generic(signed int signum);
 // Cleanup_set_handlers
 // file libburn/cleanup.c line 146
 signed int Cleanup_set_handlers(void *handle, signed int (*handler)(void *, signed int, signed int), signed int flag);
-// Cleanup_set_handlers::1::sig_handler$object
+// Cleanup_set_handlers::1::sig_handler_object
 //
-void sig_handler$object(signed int);
-// Cleanup_set_handlers::handler$object
+void sig_handler_object(signed int);
+// Cleanup_set_handlers::handler_object
 //
-signed int handler$object(void *, signed int, signed int);
+signed int handler_object(void *, signed int, signed int);
 // Cleanup_signo_to_name
 // file libburn/cleanup.c line 136
 static char * Cleanup_signo_to_name(signed int signo);
@@ -315,9 +315,9 @@ static signed int add_proc_info_drives(signed int flag);
 // add_worker
 // file libburn/async.c line 136
 static void add_worker(signed int w_type, struct burn_drive *d, void * (*f)(void *), union w_list_data *data);
-// add_worker::f$object
+// add_worker::f_object
 //
-void * f$object(void *);
+void * f_object(void *);
 // alarm
 // file /usr/include/unistd.h line 435
 extern unsigned int alarm(unsigned int);
@@ -336,15 +336,15 @@ static signed int burn__split_path(char *adr, char **dpt, char **npt);
 // burn_abort
 // file libburn/drive.c line 2459
 signed int burn_abort(signed int patience, signed int (*pacifier_func)(void *, signed int, signed int), void *handle);
-// burn_abort::pacifier_func$object
+// burn_abort::pacifier_func_object
 //
-signed int pacifier_func$object(void *, signed int, signed int);
+signed int pacifier_func_object(void *, signed int, signed int);
 // burn_abort_5
 // file libburn/drive.c line 2350
 signed int burn_abort_5(signed int patience, signed int (*pacifier_func)(void *, signed int, signed int), void *handle, signed int elapsed, signed int flag);
-// burn_abort_5::pacifier_func$object
+// burn_abort_5::pacifier_func_object
 //
-signed int pacifier_func$object(void *, signed int, signed int);
+signed int pacifier_func_object(void *, signed int, signed int);
 // burn_abort_exit
 // file libburn/init.c line 386
 signed int burn_abort_exit(signed int value);
@@ -861,9 +861,9 @@ signed int burn_get_read_capacity(struct burn_drive *d, signed int *capacity, si
 // burn_get_time
 // file libburn/util.h line 20
 double burn_get_time(signed int flag);
-// burn_global_signal_handler$object
+// burn_global_signal_handler_object
 //
-signed int burn_global_signal_handler$object(void *, signed int, signed int);
+signed int burn_global_signal_handler_object(void *, signed int, signed int);
 // burn_grab_prepare_sig_action
 // file libburn/init.h line 59
 signed int burn_grab_prepare_sig_action(signed int *signal_action_mem, signed int flag);
@@ -1098,9 +1098,9 @@ void burn_set_scsi_logging(signed int flag);
 // burn_set_signal_handling
 // file libburn/init.c line 520
 void burn_set_signal_handling(void *handle, signed int (*handler)(void *, signed int, signed int), signed int mode);
-// burn_set_signal_handling::handler$object
+// burn_set_signal_handling::handler_object
 //
-signed int handler$object(void *, signed int, signed int);
+signed int handler_object(void *, signed int, signed int);
 // burn_set_verbosity
 // file libburn/debug.c line 23
 void burn_set_verbosity(signed int v);
@@ -1392,9 +1392,9 @@ extern void * calloc(unsigned long int, unsigned long int);
 // char_to_isrc
 // file libburn/sector.c line 577
 static char char_to_isrc(char c);
-// cleanup_app_handler$object
+// cleanup_app_handler_object
 //
-signed int cleanup_app_handler$object(void *, signed int, signed int);
+signed int cleanup_app_handler_object(void *, signed int, signed int);
 // close
 // file /usr/include/unistd.h line 356
 extern signed int close(signed int);
@@ -1413,9 +1413,9 @@ static void convert_subs(struct burn_write_opts *o, signed int inmode, unsigned 
 // crc_11021
 // file libburn/cdtext.c line 83
 static signed int crc_11021(unsigned char *data, signed int count, signed int flag);
-// crc_11021$link1
+// crc_11021_link1
 // file libburn/crc.c line 152
-static signed int crc_11021$link1(unsigned char *data$link1, signed int count$link1, signed int flag$link1);
+static signed int crc_11021_link1(unsigned char *data_link1, signed int count_link1, signed int flag_link1);
 // crc_18001801b
 // file libburn/crc.c line 323
 static unsigned int crc_18001801b(unsigned char *data, signed int count, signed int flag);
@@ -1943,7 +1943,7 @@ extern signed int pthread_equal(unsigned long int, unsigned long int);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 749
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$1 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_1 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -1961,7 +1961,7 @@ extern signed int pthread_setcancelstate(signed int, signed int *);
 extern signed int pthread_setcanceltype(signed int, signed int *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$0 *, struct anonymous$0 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_0 *, struct anonymous_0 *);
 // react_on_drive_loss
 // file libburn/sg-linux.c line 2033
 static void react_on_drive_loss(struct burn_drive *d, struct command *c, struct _IO_FILE *fp);
@@ -2192,10 +2192,10 @@ static signed int sgio_log_reply(unsigned char *opcode, signed int data_dir, uns
 static signed int sgio_test(signed int fd);
 // sigdelset
 // file /usr/include/signal.h line 222
-extern signed int sigdelset(struct anonymous$0 *, signed int);
+extern signed int sigdelset(struct anonymous_0 *, signed int);
 // sigfillset
 // file /usr/include/signal.h line 216
-extern signed int sigfillset(struct anonymous$0 *);
+extern signed int sigfillset(struct anonymous_0 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -2392,13 +2392,13 @@ static void write_v07t_line(char **respt, char *spec, char *value, signed int vl
 // file libburn/cdtext.c line 1359
 static signed int write_v07t_textline(unsigned char *text_packs, signed int num_packs, signed int pack_type, signed int block, signed int tno, signed int first_tno, char *spec, char **respt, signed int *result_len, signed int flag);
 
-struct anonymous$0
+struct anonymous_0
 {
   // __val
   unsigned long int __val[16l];
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[4l];
@@ -4402,9 +4402,9 @@ static signed int Cleanup_handler_exit(signed int exit_value, signed int signum,
     ;
     if(!(cleanup_exiting == 0))
     {
-      signed int return_value_getpid$1;
-      return_value_getpid$1=getpid();
-      fprintf(stderr, "cleanup: ABORT : repeat by pid=%.f, signum=%d\n", (double)return_value_getpid$1, signum);
+      signed int return_value_getpid_1;
+      return_value_getpid_1=getpid();
+      fprintf(stderr, "cleanup: ABORT : repeat by pid=%.f, signum=%d\n", (double)return_value_getpid_1, signum);
       return 0;
     }
 
@@ -4434,16 +4434,16 @@ static signed int Cleanup_handler_exit(signed int exit_value, signed int signum,
 static void Cleanup_handler_generic(signed int signum)
 {
   signed int i;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  sprintf(cleanup_msg, "UNIX-SIGNAL caught:  %d  errno= %d", signum, *return_value___errno_location$1);
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  sprintf(cleanup_msg, "UNIX-SIGNAL caught:  %d  errno= %d", signum, *return_value___errno_location_1);
   i = 0;
   for( ; !(i >= signal_list_count); i = i + 1)
     if(signum == signal_list[(signed long int)i])
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      sprintf(cleanup_msg, "UNIX-SIGNAL:  %s  errno= %d", signal_name_list[(signed long int)i], *return_value___errno_location$2);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      sprintf(cleanup_msg, "UNIX-SIGNAL:  %s  errno= %d", signal_name_list[(signed long int)i], *return_value___errno_location_2);
       break;
     }
 
@@ -4486,8 +4486,8 @@ signed int Cleanup_set_handlers(void *handle, signed int (*handler)(void *, sign
 
   }
   i = min_sig;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_1;
   for( ; max_sig >= i; i = i + 1)
   {
     j = 0;
@@ -4502,30 +4502,30 @@ signed int Cleanup_set_handlers(void *handle, signed int (*handler)(void *, sign
 
       else
         sig_name = "";
-      _Bool tmp_if_expr$4;
+      _Bool tmp_if_expr_4;
       if(!((8 & flag) == 0))
       {
-        return_value_strcmp$3=strcmp(sig_name, "SIGABRT");
-        tmp_if_expr$4 = return_value_strcmp$3 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_3=strcmp(sig_name, "SIGABRT");
+        tmp_if_expr_4 = return_value_strcmp_3 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
         signal(i, Cleanup_handler_generic);
 
       else
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(!((256 & flag) == 0))
         {
-          return_value_strcmp$1=strcmp(sig_name, "SIGPIPE");
-          tmp_if_expr$2 = return_value_strcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_1=strcmp(sig_name, "SIGPIPE");
+          tmp_if_expr_2 = return_value_strcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
           signal(i, (void (*)(signed int))1);
 
         else
@@ -4658,9 +4658,9 @@ static signed int add_proc_info_drives(signed int flag)
       i = 0;
       for( ; !(i >= list_count); i = i + 1)
       {
-        signed int return_value_burn_drive_is_banned$1;
-        return_value_burn_drive_is_banned$1=burn_drive_is_banned(list[(signed long int)i]);
-        if(return_value_burn_drive_is_banned$1 == 0)
+        signed int return_value_burn_drive_is_banned_1;
+        return_value_burn_drive_is_banned_1=burn_drive_is_banned(list[(signed long int)i]);
+        if(return_value_burn_drive_is_banned_1 == 0)
         {
           ret=fname_enumerate(list[(signed long int)i], 1 | 4);
           if(ret == 1)
@@ -4683,9 +4683,9 @@ static void add_worker(signed int w_type, struct burn_drive *d, void * (*f)(void
   struct w_list *tmp;
   union pthread_attr_t *attr_pt = (union pthread_attr_t *)(void *)0;
   union pthread_attr_t attr;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct w_list) /*56ul*/ );
-  a = (struct w_list *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct w_list) /*56ul*/ );
+  a = (struct w_list *)return_value_calloc_1;
   a->w_type = w_type;
   a->drive = d;
   a->u = *data;
@@ -4698,9 +4698,9 @@ static void add_worker(signed int w_type, struct burn_drive *d, void * (*f)(void
   pthread_attr_init(&attr);
   pthread_attr_setdetachstate(&attr, 1);
   attr_pt = &attr;
-  signed int return_value_pthread_create$2;
-  return_value_pthread_create$2=pthread_create(&a->thread, attr_pt, f, (void *)a);
-  if(!(return_value_pthread_create$2 == 0))
+  signed int return_value_pthread_create_2;
+  return_value_pthread_create_2=pthread_create(&a->thread, attr_pt, f, (void *)a);
+  if(!(return_value_pthread_create_2 == 0))
   {
     free((void *)a);
     workers = tmp;
@@ -4728,9 +4728,9 @@ static void ata_enumerate(void)
       if(!(linux_ata_enumerate_verbous == 0))
         fprintf(stderr, "libburn_debug: %s : ", (const void *)fname);
 
-      signed int return_value_burn_drive_is_banned$1;
-      return_value_burn_drive_is_banned$1=burn_drive_is_banned(fname);
-      if(!(return_value_burn_drive_is_banned$1 == 0))
+      signed int return_value_burn_drive_is_banned_1;
+      return_value_burn_drive_is_banned_1=burn_drive_is_banned(fname);
+      if(!(return_value_burn_drive_is_banned_1 == 0))
       {
         if(!(linux_ata_enumerate_verbous == 0))
           fprintf(stderr, "not in whitelist\n");
@@ -4995,22 +4995,22 @@ signed int burn_builtin_abort_handler(void *handle, signed int signum, signed in
   {
     burn_global_abort_level = burn_global_abort_level + 1;
     burn_global_abort_signum = signum;
-    signed int return_value_getpid$4;
-    return_value_getpid$4=getpid();
-    if(!(return_value_getpid$4 == abort_control_pid))
+    signed int return_value_getpid_4;
+    return_value_getpid_4=getpid();
+    if(!(return_value_getpid_4 == abort_control_pid))
     {
-      signed int return_value_getpid$1;
-      return_value_getpid$1=getpid();
-      unsigned long int return_value_pthread_self$2;
-      return_value_pthread_self$2=pthread_self();
-      ret=burn_drive_find_by_thread_pid(&d, return_value_getpid$1, return_value_pthread_self$2);
-      _Bool tmp_if_expr$3;
+      signed int return_value_getpid_1;
+      return_value_getpid_1=getpid();
+      unsigned long int return_value_pthread_self_2;
+      return_value_pthread_self_2=pthread_self();
+      ret=burn_drive_find_by_thread_pid(&d, return_value_getpid_1, return_value_pthread_self_2);
+      _Bool tmp_if_expr_3;
       if(ret >= 1)
-        tmp_if_expr$3 = (signed int)d->busy == BURN_DRIVE_WRITING ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)d->busy == BURN_DRIVE_WRITING ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
         d->sync_cache(d);
         d->busy = (volatile enum burn_drive_status)BURN_DRIVE_IDLE;
@@ -5066,13 +5066,13 @@ signed int burn_cdtext_crc_mismatches(unsigned char *packs, signed int num_packs
     i = 0;
     for( ; !(i >= 18 * num_packs); i = i + 18)
     {
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(!(packs[(signed long int)(16 + i)] == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = packs[(signed long int)(i + 17)] != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = packs[(signed long int)(i + 17)] != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         break;
 
     }
@@ -5087,23 +5087,23 @@ signed int burn_cdtext_crc_mismatches(unsigned char *packs, signed int num_packs
     residue=crc_11021(packs + (signed long int)i, 16, 0);
     crc[(signed long int)0] = (unsigned char)(residue >> 8 & 0xff ^ 0xff);
     crc[(signed long int)1] = (unsigned char)(residue & 0xff ^ 0xff);
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(!(crc[0l] == packs[(signed long int)(16 + i)]))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = crc[(signed long int)1] != packs[(signed long int)(i + 17)] ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = crc[(signed long int)1] != packs[(signed long int)(i + 17)] ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       if(!(repair == 0))
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(!(packs[(signed long int)(16 + i)] == 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = packs[(signed long int)(i + 17)] != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = packs[(signed long int)(i + 17)] != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           count = count - 1;
 
         packs[(signed long int)(i + 16)] = crc[(signed long int)0];
@@ -5124,9 +5124,9 @@ struct burn_cdtext * burn_cdtext_create(void)
 {
   struct burn_cdtext *t;
   signed int i;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct burn_cdtext) /*200ul*/ , (unsigned long int)1, 0);
-  t = (struct burn_cdtext *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct burn_cdtext) /*200ul*/ , (unsigned long int)1, 0);
+  t = (struct burn_cdtext *)return_value_burn_alloc_mem_1;
   if(t == ((struct burn_cdtext *)NULL))
     return (struct burn_cdtext *)(void *)0;
 
@@ -5172,29 +5172,29 @@ signed int burn_cdtext_from_packfile(char *path, unsigned char **text_packs, sig
   unsigned char head[4l];
   unsigned char tail[1l];
   char *msg = (char *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
-  signed int return_value_stat$4;
-  unsigned long int return_value_fread$12;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
+  signed int return_value_stat_4;
+  unsigned long int return_value_fread_12;
   if(msg == ((char *)NULL))
     ret = -1;
 
   else
   {
     *text_packs = (unsigned char *)(void *)0;
-    return_value_stat$4=stat(path, &stbuf);
-    if(return_value_stat$4 == -1)
+    return_value_stat_4=stat(path, &stbuf);
+    if(return_value_stat_4 == -1)
     {
 
     cannot_open:
       ;
       sprintf(msg, "Cannot open CD-TEXT pack file '%.4000s'", path);
-      char *return_value_burn_printify$2;
-      return_value_burn_printify$2=burn_printify(msg);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      libdax_msgs_submit(libdax_messenger, -1, 0x00020198, 0x68000000, 0x30000000, return_value_burn_printify$2, *return_value___errno_location$3, 0);
+      char *return_value_burn_printify_2;
+      return_value_burn_printify_2=burn_printify(msg);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      libdax_msgs_submit(libdax_messenger, -1, 0x00020198, 0x68000000, 0x30000000, return_value_burn_printify_2, *return_value___errno_location_3, 0);
       ret = 0;
       goto ex;
     }
@@ -5211,9 +5211,9 @@ signed int burn_cdtext_from_packfile(char *path, unsigned char **text_packs, sig
   not_a_textfile:
     ;
     sprintf(msg, "File is not of usable type or content for CD-TEXT packs: '%.4000s'", path);
-    char *return_value_burn_printify$5;
-    return_value_burn_printify$5=burn_printify(msg);
-    libdax_msgs_submit(libdax_messenger, -1, 0x00020198, 0x68000000, 0x30000000, return_value_burn_printify$5, 0, 0);
+    char *return_value_burn_printify_5;
+    return_value_burn_printify_5=burn_printify(msg);
+    libdax_msgs_submit(libdax_messenger, -1, 0x00020198, 0x68000000, 0x30000000, return_value_burn_printify_5, 0, 0);
     ret = 0;
     goto ex;
 
@@ -5228,20 +5228,20 @@ signed int burn_cdtext_from_packfile(char *path, unsigned char **text_packs, sig
 
     if(residue == 4)
     {
-      unsigned long int return_value_fread$6;
-      return_value_fread$6=fread((void *)head, (unsigned long int)4, (unsigned long int)1, fp);
-      ret = (signed int)return_value_fread$6;
+      unsigned long int return_value_fread_6;
+      return_value_fread_6=fread((void *)head, (unsigned long int)4, (unsigned long int)1, fp);
+      ret = (signed int)return_value_fread_6;
       if(!(ret == 1))
       {
 
       cannot_read:
         ;
         sprintf(msg, "Cannot read all bytes from CD-TEXT pack file '%.4000s'", path);
-        char *return_value_burn_printify$7;
-        return_value_burn_printify$7=burn_printify(msg);
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        libdax_msgs_submit(libdax_messenger, -1, 0x00020198, 0x68000000, 0x30000000, return_value_burn_printify$7, *return_value___errno_location$8, 0);
+        char *return_value_burn_printify_7;
+        return_value_burn_printify_7=burn_printify(msg);
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        libdax_msgs_submit(libdax_messenger, -1, 0x00020198, 0x68000000, 0x30000000, return_value_burn_printify_7, *return_value___errno_location_8, 0);
         ret = 0;
         goto ex;
       }
@@ -5255,9 +5255,9 @@ signed int burn_cdtext_from_packfile(char *path, unsigned char **text_packs, sig
     if(*num_packs >= 2049)
     {
       sprintf(msg, "CD-Text pack file too large (max. 36864 bytes): '%.4000s'", path);
-      char *return_value_burn_printify$9;
-      return_value_burn_printify$9=burn_printify(msg);
-      libdax_msgs_submit(libdax_messenger, -1, 0x0002018b, 0x68000000, 0x30000000, return_value_burn_printify$9, 0, 0);
+      char *return_value_burn_printify_9;
+      return_value_burn_printify_9=burn_printify(msg);
+      libdax_msgs_submit(libdax_messenger, -1, 0x0002018b, 0x68000000, 0x30000000, return_value_burn_printify_9, 0, 0);
       ret = 0;
       goto ex;
     }
@@ -5265,31 +5265,31 @@ signed int burn_cdtext_from_packfile(char *path, unsigned char **text_packs, sig
     if(!(*num_packs >= 1))
     {
       strcpy(msg, "CD-Text pack file contains no complete text pack");
-      char *return_value_burn_printify$10;
-      return_value_burn_printify$10=burn_printify(msg);
-      libdax_msgs_submit(libdax_messenger, -1, 0x000201aa, 0x68000000, 0x30000000, return_value_burn_printify$10, 0, 0);
+      char *return_value_burn_printify_10;
+      return_value_burn_printify_10=burn_printify(msg);
+      libdax_msgs_submit(libdax_messenger, -1, 0x000201aa, 0x68000000, 0x30000000, return_value_burn_printify_10, 0, 0);
       ret = 0;
       goto ex;
     }
 
-    void *return_value_burn_alloc_mem$11;
-    return_value_burn_alloc_mem$11=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)(*num_packs * 18), 0);
-    *text_packs = (unsigned char *)return_value_burn_alloc_mem$11;
+    void *return_value_burn_alloc_mem_11;
+    return_value_burn_alloc_mem_11=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)(*num_packs * 18), 0);
+    *text_packs = (unsigned char *)return_value_burn_alloc_mem_11;
     if(*text_packs == ((unsigned char *)NULL))
       ret = -1;
 
     else
     {
-      return_value_fread$12=fread((void *)*text_packs, (unsigned long int)(*num_packs * 18), (unsigned long int)1, fp);
-      ret = (signed int)return_value_fread$12;
+      return_value_fread_12=fread((void *)*text_packs, (unsigned long int)(*num_packs * 18), (unsigned long int)1, fp);
+      ret = (signed int)return_value_fread_12;
       if(!(ret == 1))
         goto cannot_read;
 
       if(residue == 1)
       {
-        unsigned long int return_value_fread$13;
-        return_value_fread$13=fread((void *)tail, (unsigned long int)1, (unsigned long int)1, fp);
-        ret = (signed int)return_value_fread$13;
+        unsigned long int return_value_fread_13;
+        return_value_fread_13=fread((void *)tail, (unsigned long int)1, (unsigned long int)1, fp);
+        ret = (signed int)return_value_fread_13;
         if(!(ret == 1))
           goto cannot_read;
 
@@ -5346,9 +5346,9 @@ signed int burn_cdtext_from_session(struct burn_session *s, unsigned char **text
 
   memset((void *)&crs, 0, sizeof(struct burn_pack_cursor) /*120ul*/ );
   crs.track_offset = (signed int)s->firsttrack;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)(2048 * 18), 0);
-  crs.packs = (unsigned char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)(2048 * 18), 0);
+  crs.packs = (unsigned char *)return_value_burn_alloc_mem_1;
   if(crs.packs == ((unsigned char *)NULL))
     ret = -1;
 
@@ -5388,13 +5388,13 @@ signed int burn_cdtext_from_session(struct burn_session *s, unsigned char **text
       for( ; !(i >= crs.num_packs); i = i + 1)
       {
         idx = i * 18;
-        _Bool tmp_if_expr$3;
+        _Bool tmp_if_expr_3;
         if((signed int)crs.packs[(signed long int)idx] == 0x8f)
-          tmp_if_expr$3 = (signed int)crs.packs[(signed long int)(idx + 1)] == 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)crs.packs[(signed long int)(idx + 1)] == 1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
           j = 0;
           for( ; !(j >= 4); j = j + 1)
@@ -5407,13 +5407,13 @@ signed int burn_cdtext_from_session(struct burn_session *s, unsigned char **text
 
         else
         {
-          _Bool tmp_if_expr$2;
+          _Bool tmp_if_expr_2;
           if((signed int)crs.packs[(signed long int)idx] == 0x8f)
-            tmp_if_expr$2 = (signed int)crs.packs[(signed long int)(idx + 1)] == 2 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (signed int)crs.packs[(signed long int)(idx + 1)] == 2 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(tmp_if_expr_2)
           {
             j = 0;
             for( ; !(j >= 4); j = j + 1)
@@ -5427,9 +5427,9 @@ signed int burn_cdtext_from_session(struct burn_session *s, unsigned char **text
           else
             goto __CPROVER_DUMP_L30;
         }
-        signed int return_value_crc_11021$4;
-        return_value_crc_11021$4=crc_11021(crs.packs + (signed long int)idx, 16, 0);
-        residue = return_value_crc_11021$4 ^ 0xffff;
+        signed int return_value_crc_11021_4;
+        return_value_crc_11021_4=crc_11021(crs.packs + (signed long int)idx, 16, 0);
+        residue = return_value_crc_11021_4 ^ 0xffff;
         crs.packs[(signed long int)(idx + 16)] = (unsigned char)(residue >> 8 & 0xff);
         crs.packs[(signed long int)(idx + 17)] = (unsigned char)(residue & 0xff);
 
@@ -5502,7 +5502,7 @@ static signed int burn_cdtext_name_to_type(char *pack_type_name)
   signed int i;
   signed int j;
   i = 0;
-  signed int return_value_tolower$1;
+  signed int return_value_tolower_1;
   static char *pack_type_names[16l] = { "TITLE", "PERFORMER", "SONGWRITER", "COMPOSER", "ARRANGER", "MESSAGE", "DISCID", "GENRE", "TOC", "TOC2", "", "", "", "CLOSED", "UPC_ISRC", "BLOCKSIZE" };
   for( ; !(i >= 0x10); i = i + 1)
     if(!((signed int)*pack_type_names[(signed long int)i] == 0))
@@ -5511,8 +5511,8 @@ static signed int burn_cdtext_name_to_type(char *pack_type_name)
       for( ; !(pack_type_names[(signed long int)i][(signed long int)j] == 0); j = j + 1)
         if(!(pack_type_names[(signed long int)i][(signed long int)j] == pack_type_name[(signed long int)j]))
         {
-          return_value_tolower$1=tolower((signed int)pack_type_names[(signed long int)i][(signed long int)j]);
-          if(!(return_value_tolower$1 == (signed int)pack_type_name[(signed long int)j]))
+          return_value_tolower_1=tolower((signed int)pack_type_names[(signed long int)i][(signed long int)j]);
+          if(!(return_value_tolower_1 == (signed int)pack_type_name[(signed long int)j]))
             break;
 
         }
@@ -5566,9 +5566,9 @@ static signed int burn_cdtext_set(struct burn_cdtext **cdtext, signed int pack_t
       if(!(t->payload[(signed long int)i] == ((unsigned char *)NULL)))
         free((void *)t->payload[(signed long int)i]);
 
-      void *return_value_burn_alloc_mem$1;
-      return_value_burn_alloc_mem$1=burn_alloc_mem((unsigned long int)length, (unsigned long int)1, 0);
-      t->payload[(signed long int)i] = (unsigned char *)return_value_burn_alloc_mem$1;
+      void *return_value_burn_alloc_mem_1;
+      return_value_burn_alloc_mem_1=burn_alloc_mem((unsigned long int)length, (unsigned long int)1, 0);
+      t->payload[(signed long int)i] = (unsigned char *)return_value_burn_alloc_mem_1;
       if(t->payload[(signed long int)i] == ((unsigned char *)NULL))
         return -1;
 
@@ -5672,18 +5672,18 @@ signed int burn_create_new_pack(signed int pack_type, signed int track_no, signe
           char_pos = 0;
 
       idx = crs->num_packs * 18;
-      signed int tmp_post$1 = idx;
+      signed int tmp_post_1 = idx;
       idx = idx + 1;
-      crs->packs[(signed long int)tmp_post$1] = (unsigned char)pack_type;
-      signed int tmp_post$2 = idx;
+      crs->packs[(signed long int)tmp_post_1] = (unsigned char)pack_type;
+      signed int tmp_post_2 = idx;
       idx = idx + 1;
-      crs->packs[(signed long int)tmp_post$2] = (unsigned char)track_no;
-      signed int tmp_post$3 = idx;
+      crs->packs[(signed long int)tmp_post_2] = (unsigned char)track_no;
+      signed int tmp_post_3 = idx;
       idx = idx + 1;
-      crs->packs[(signed long int)tmp_post$3] = (unsigned char)crs->hiseq[(signed long int)block];
-      signed int tmp_post$4 = idx;
+      crs->packs[(signed long int)tmp_post_3] = (unsigned char)crs->hiseq[(signed long int)block];
+      signed int tmp_post_4 = idx;
       idx = idx + 1;
-      crs->packs[(signed long int)tmp_post$4] = (unsigned char)((flag & 1) << 7 | block << 4 | char_pos);
+      crs->packs[(signed long int)tmp_post_4] = (unsigned char)((flag & 1) << 7 | block << 4 | char_pos);
       crs->hiseq[(signed long int)block] = crs->hiseq[(signed long int)block] + 1;
       crs->td_used = 0;
       crs->pack_count[(signed long int)(pack_type - 0x80)] = crs->pack_count[(signed long int)(pack_type - 0x80)] + 1;
@@ -5736,8 +5736,8 @@ struct cue_sheet * burn_create_toc_entries(struct burn_write_opts *o, struct bur
   signed int ntr = session->tracks;
   signed int rem = 0;
   signed int j;
-  void *return_value_calloc$2;
-  signed int return_value_burn_track_is_open_ended$3;
+  void *return_value_calloc_2;
+  signed int return_value_burn_track_is_open_ended_3;
   if(!(ntr >= 1))
   {
     libdax_msgs_submit(libdax_messenger, -1, 0x0002019c, 0x60000000, 0x30000000, "Session has no defined tracks", 0, 0);
@@ -5747,9 +5747,9 @@ struct cue_sheet * burn_create_toc_entries(struct burn_write_opts *o, struct bur
   else
   {
     d = o->drive;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct cue_sheet) /*16ul*/ );
-    sheet = (struct cue_sheet *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct cue_sheet) /*16ul*/ );
+    sheet = (struct cue_sheet *)return_value_calloc_1;
     if(sheet == ((struct cue_sheet *)NULL))
     {
       libdax_msgs_submit(libdax_messenger, -1, 0x00020111, 0x70000000, 0x30000000, "Could not allocate new auxiliary object (cue_sheet)", 0, 0);
@@ -5812,8 +5812,8 @@ struct cue_sheet * burn_create_toc_entries(struct burn_write_opts *o, struct bur
             else
             {
               session->lasttrack = (unsigned char)(((signed int)session->firsttrack + ntr) - 1);
-              return_value_calloc$2=calloc((unsigned long int)d->toc_entries, sizeof(struct burn_toc_entry) /*32ul*/ );
-              d->toc_entry = (struct burn_toc_entry *)return_value_calloc$2;
+              return_value_calloc_2=calloc((unsigned long int)d->toc_entries, sizeof(struct burn_toc_entry) /*32ul*/ );
+              d->toc_entry = (struct burn_toc_entry *)return_value_calloc_2;
               e = d->toc_entry;
               (e + (signed long int)0)->point = (unsigned char)0xA0;
               if(!((64 & (*tar)->mode) == 0))
@@ -5845,8 +5845,8 @@ struct cue_sheet * burn_create_toc_entries(struct burn_write_opts *o, struct bur
                 track_length=burn_track_get_sectors_2(tar[(signed long int)i], 1);
                 if(!(track_length >= 300))
                 {
-                  return_value_burn_track_is_open_ended$3=burn_track_is_open_ended(tar[(signed long int)i]);
-                  if(return_value_burn_track_is_open_ended$3 == 0)
+                  return_value_burn_track_is_open_ended_3=burn_track_is_open_ended(tar[(signed long int)i]);
+                  if(return_value_burn_track_is_open_ended_3 == 0)
                   {
                     track_length = 300;
                     if(tar[(signed long int)i]->pad == 0)
@@ -5926,9 +5926,9 @@ struct cue_sheet * burn_create_toc_entries(struct burn_write_opts *o, struct bur
                     (e + (signed long int)(3 + i))->psec = (unsigned char)s;
                     (e + (signed long int)(3 + i))->pframe = (unsigned char)f;
                     (e + (signed long int)(3 + i))->adr = (unsigned char)1;
-                    signed int return_value_type_to_ctrl$4;
-                    return_value_type_to_ctrl$4=type_to_ctrl(tar[(signed long int)i]->mode);
-                    (e + (signed long int)(3 + i))->control = (unsigned char)return_value_type_to_ctrl$4;
+                    signed int return_value_type_to_ctrl_4;
+                    return_value_type_to_ctrl_4=type_to_ctrl(tar[(signed long int)i]->mode);
+                    (e + (signed long int)(3 + i))->control = (unsigned char)return_value_type_to_ctrl_4;
                   }
 
                   tar[(signed long int)i]->index[(signed long int)j] = tar[(signed long int)i]->index[(signed long int)j] + runtime;
@@ -5945,9 +5945,9 @@ struct cue_sheet * burn_create_toc_entries(struct burn_write_opts *o, struct bur
                 runtime = runtime + track_length + postgap;
                 if(tar[(signed long int)i]->pad == 0)
                 {
-                  signed int return_value_burn_track_get_shortage$5;
-                  return_value_burn_track_get_shortage$5=burn_track_get_shortage(tar[(signed long int)i]);
-                  rem = rem + return_value_burn_track_get_shortage$5;
+                  signed int return_value_burn_track_get_shortage_5;
+                  return_value_burn_track_get_shortage_5=burn_track_get_shortage(tar[(signed long int)i]);
+                  rem = rem + return_value_burn_track_get_shortage_5;
                   if((signed int)o->write_type == BURN_WRITE_TAO)
                     tar[(signed long int)i]->source->next = (struct burn_source *)(void *)0;
 
@@ -5964,13 +5964,13 @@ struct cue_sheet * burn_create_toc_entries(struct burn_write_opts *o, struct bur
                     runtime = runtime + 1;
                   }
 
-                signed int return_value_burn_sector_length$7;
-                return_value_burn_sector_length$7=burn_sector_length(tar[(signed long int)i]->mode);
-                if(!(return_value_burn_sector_length$7 >= rem))
+                signed int return_value_burn_sector_length_7;
+                return_value_burn_sector_length_7=burn_sector_length(tar[(signed long int)i]->mode);
+                if(!(return_value_burn_sector_length_7 >= rem))
                 {
-                  signed int return_value_burn_sector_length$6;
-                  return_value_burn_sector_length$6=burn_sector_length(tar[(signed long int)i]->mode);
-                  rem = rem - return_value_burn_sector_length$6;
+                  signed int return_value_burn_sector_length_6;
+                  return_value_burn_sector_length_6=burn_sector_length(tar[(signed long int)i]->mode);
+                  rem = rem - return_value_burn_sector_length_6;
                   runtime = runtime - 1;
                 }
 
@@ -6018,13 +6018,13 @@ static signed int burn_create_tybl_packs(unsigned char *payload, signed int leng
   i = 0;
   for( ; !(i >= length); i = i + 1)
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(crs->td_used == 0)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = crs->td_used >= 12 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = crs->td_used >= 12 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(crs->td_used >= 1)
       {
@@ -6058,13 +6058,13 @@ static signed int burn_create_tybl_s_packs(struct burn_session *s, signed int pa
   signed int use_tab;
   struct burn_cdtext *cdt = s->cdtext[(signed long int)block];
   idx = pack_type - 0x80;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(cdt->length[(signed long int)idx] == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = cdt->payload[(signed long int)idx] == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = cdt->payload[(signed long int)idx] == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 1;
 
   else
@@ -6130,33 +6130,33 @@ static signed int burn_create_tybl_t_packs(struct burn_track *t, signed int trac
   {
     dummy[(signed long int)0] = (unsigned char)0;
     payload = dummy;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((char *)dummy);
-    length = (signed int)(return_value_strlen$1 + (unsigned long int)1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((char *)dummy);
+    length = (signed int)(return_value_strlen_1 + (unsigned long int)1);
   }
 
   double_byte = (signed int)!(!((flags & 1 << pack_type - 0x80) != 0));
   if(!((1 & flag) == 0))
   {
     length = 0;
-    signed int tmp_post$2 = length;
+    signed int tmp_post_2 = length;
     length = length + 1;
-    dummy[(signed long int)tmp_post$2] = (unsigned char)9;
+    dummy[(signed long int)tmp_post_2] = (unsigned char)9;
     if(!(double_byte == 0))
     {
-      signed int tmp_post$3 = length;
+      signed int tmp_post_3 = length;
       length = length + 1;
-      dummy[(signed long int)tmp_post$3] = (unsigned char)9;
+      dummy[(signed long int)tmp_post_3] = (unsigned char)9;
     }
 
-    signed int tmp_post$4 = length;
+    signed int tmp_post_4 = length;
     length = length + 1;
-    dummy[(signed long int)tmp_post$4] = (unsigned char)0;
+    dummy[(signed long int)tmp_post_4] = (unsigned char)0;
     if(!(double_byte == 0))
     {
-      signed int tmp_post$5 = length;
+      signed int tmp_post_5 = length;
       length = length + 1;
-      dummy[(signed long int)tmp_post$5] = (unsigned char)0;
+      dummy[(signed long int)tmp_post_5] = (unsigned char)0;
     }
 
     payload = dummy;
@@ -6183,13 +6183,13 @@ static signed int burn_decide_cdtext_tab(signed int block, signed int pack_type,
     else
     {
       length = cdt_curr->length[(signed long int)idx];
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(!(length == cdt_prev->length[(signed long int)idx]))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = length <= 1 + (cdt_curr->flags >> idx & 1) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = length <= 1 + (cdt_curr->flags >> idx & 1) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         return 0;
 
       else
@@ -6252,9 +6252,9 @@ signed long int burn_disc_available_space(struct burn_drive *d, struct burn_writ
   signed int ret;
   signed long int bytes;
   signed long int start_byte = (signed long int)0;
-  signed int return_value_burn_drive_is_released$1;
-  return_value_burn_drive_is_released$1=burn_drive_is_released(d);
-  if(!(return_value_burn_drive_is_released$1 == 0))
+  signed int return_value_burn_drive_is_released_1;
+  return_value_burn_drive_is_released_1=burn_drive_is_released(d);
+  if(!(return_value_burn_drive_is_released_1 == 0))
     return (signed long int)0;
 
   else
@@ -6328,18 +6328,18 @@ signed int burn_disc_cd_toc_extensions(struct burn_drive *drive, signed int flag
   char *msg;
   struct buffer *buf = (struct buffer *)(void *)0;
   d = drive->disc;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)321, 0);
-  msg_data = (char *)return_value_burn_alloc_mem$1;
-  unsigned long int return_value_strlen$3;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)321, 0);
+  msg_data = (char *)return_value_burn_alloc_mem_1;
+  unsigned long int return_value_strlen_3;
   if(msg_data == ((char *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_2;
     if(buf == ((struct buffer *)NULL))
       ret = -1;
 
@@ -6347,8 +6347,8 @@ signed int burn_disc_cd_toc_extensions(struct burn_drive *drive, signed int flag
     {
       strcpy(msg_data, "Damaged CD table-of-content detected and truncated.");
       strcat(msg_data, " In burn_disc_cd_toc_extensions: ");
-      return_value_strlen$3=strlen(msg_data);
-      msg = msg_data + (signed long int)return_value_strlen$3;
+      return_value_strlen_3=strlen(msg_data);
+      msg = msg_data + (signed long int)return_value_strlen_3;
       if(d->session == ((struct burn_session **)NULL))
         strcpy(msg, "d->session == NULL");
 
@@ -6419,13 +6419,13 @@ signed int burn_disc_cd_toc_extensions(struct burn_drive *drive, signed int flag
                 ret=mmc_four_char_to_int(buf->data + (signed long int)24);
                 if(!(ret >= prev_entry->track_blocks))
                 {
-                  _Bool tmp_if_expr$4;
+                  _Bool tmp_if_expr_4;
                   if(drive->current_is_cd_profile == 0)
-                    tmp_if_expr$4 = (_Bool)1;
+                    tmp_if_expr_4 = (_Bool)1;
 
                   else
-                    tmp_if_expr$4 = ret < prev_entry->track_blocks - 2 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$4)
+                    tmp_if_expr_4 = ret < prev_entry->track_blocks - 2 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_4)
                     prev_entry->track_blocks = ret;
 
                 }
@@ -6494,13 +6494,13 @@ signed int burn_disc_close_damaged(struct burn_write_opts *o, signed int flag)
     else
     {
       d->busy = (volatile enum burn_drive_status)BURN_DRIVE_WRITING;
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(d->current_profile == 0x09)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = d->current_profile == 0x0a ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = d->current_profile == 0x0a ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         o->write_type = (enum burn_write_types)BURN_WRITE_TAO;
         d->send_write_parameters(d, (struct burn_session *)(void *)0, -1, o);
@@ -6509,13 +6509,13 @@ signed int burn_disc_close_damaged(struct burn_write_opts *o, signed int flag)
 
       else
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(d->current_profile == 0x11)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           o->write_type = (enum burn_write_types)BURN_WRITE_TAO;
           d->send_write_parameters(d, (struct burn_session *)(void *)0, -1, o);
@@ -6525,13 +6525,13 @@ signed int burn_disc_close_damaged(struct burn_write_opts *o, signed int flag)
 
         else
         {
-          _Bool tmp_if_expr$1;
+          _Bool tmp_if_expr_1;
           if(d->current_profile == 0x1b)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
           {
             ret=burn_disc_close_track_dvd_plus_r(o, d->last_track_no, 1);
             if(!(ret >= 1))
@@ -6639,13 +6639,13 @@ signed int burn_disc_close_track_dvd_plus_r(struct burn_write_opts *o, signed in
   libdax_msgs_submit(libdax_messenger, o->drive->global_index, 0x00020119, 0x10000000, 0x30000000, msg, 0, 0);
   d->busy = (volatile enum burn_drive_status)BURN_DRIVE_CLOSING_SESSION;
   d->close_track_session(d, 0, d->last_track_no);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(is_last_track == 0))
-    tmp_if_expr$1 = !(o->multi != 0) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = !(o->multi != 0) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     burn_disc_finalize_dvd_plus_r(o);
 
   else
@@ -6660,9 +6660,9 @@ signed int burn_disc_close_track_dvd_plus_r(struct burn_write_opts *o, signed in
 struct burn_disc * burn_disc_create(void)
 {
   struct burn_disc *d;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_disc) /*24ul*/ );
-  d = (struct burn_disc *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_disc) /*24ul*/ );
+  d = (struct burn_disc *)return_value_calloc_1;
   if(d == ((struct burn_disc *)NULL))
     return (struct burn_disc *)(void *)0;
 
@@ -6688,93 +6688,93 @@ signed int burn_disc_erasable(struct burn_drive *d)
 void burn_disc_erase(struct burn_drive *drive, signed int fast)
 {
   union w_list_data o;
-  struct w_list *return_value_find_worker$2;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$11;
+  struct w_list *return_value_find_worker_2;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_11;
   if(drive == ((struct burn_drive *)NULL))
     libdax_msgs_submit(libdax_messenger, -1, 0x00020104, 0x60000000, 0x30000000, "NULL pointer caught in burn_disc_erase", 0, 0);
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(workers == ((struct w_list *)NULL)))
-      tmp_if_expr$1 = workers->w_type == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = workers->w_type == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_find_worker$2=find_worker(drive);
-      tmp_if_expr$3 = return_value_find_worker$2 != (struct w_list *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      return_value_find_worker_2=find_worker(drive);
+      tmp_if_expr_3 = return_value_find_worker_2 != (struct w_list *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       libdax_msgs_submit(libdax_messenger, drive->global_index, 0x00020102, 0x60000000, 0x30000000, "A drive operation is still going on (want to erase)", 0, 0);
 
     else
     {
       reset_progress(drive, 1, 1, 1, 0x10000, 0);
       drive->cancel = 1;
-      _Bool tmp_if_expr$4;
+      _Bool tmp_if_expr_4;
       if(drive->drive_role == 1)
-        tmp_if_expr$4 = drive->current_profile != 0x0a ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = drive->current_profile != 0x0a ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      _Bool tmp_if_expr$5;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = drive->current_profile != 0x13 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      _Bool tmp_if_expr_5;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = drive->current_profile != 0x13 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      _Bool tmp_if_expr$6;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = drive->current_profile != 0x14 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      _Bool tmp_if_expr_6;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = drive->current_profile != 0x14 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      _Bool tmp_if_expr$7;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (signed int)drive->status != BURN_DISC_FULL ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      _Bool tmp_if_expr_7;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (signed int)drive->status != BURN_DISC_FULL ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      _Bool tmp_if_expr$10;
-      if(tmp_if_expr$7)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)0;
+      _Bool tmp_if_expr_10;
+      if(tmp_if_expr_7)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
         if(!((signed int)drive->status == BURN_DISC_FULL))
-          tmp_if_expr$8 = (signed int)drive->status != BURN_DISC_APPENDABLE ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (signed int)drive->status != BURN_DISC_APPENDABLE ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = (signed int)drive->status != BURN_DISC_BLANK ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (_Bool)0;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = (signed int)drive->status != BURN_DISC_BLANK ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (_Bool)0;
+        tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
       }
-      _Bool tmp_if_expr$12;
-      if(tmp_if_expr$10)
-        tmp_if_expr$12 = (_Bool)1;
+      _Bool tmp_if_expr_12;
+      if(tmp_if_expr_10)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
         if(!(drive->drive_role == 1))
-          tmp_if_expr$11 = drive->drive_role != 5 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = drive->drive_role != 5 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (_Bool)0;
+        tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
+      if(tmp_if_expr_12)
       {
         char msg[160l];
         sprintf(msg, "Drive and media state unsuitable for blanking. (role= %d , profile= 0x%x , status= %d)", drive->drive_role, (unsigned int)drive->current_profile, drive->status);
@@ -6882,23 +6882,23 @@ void burn_disc_format(struct burn_drive *drive, signed long int size, signed int
   signed int ret;
   char msg[40l];
   reset_progress(drive, 1, 1, 1, 0x10000, 0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(workers == ((struct w_list *)NULL)))
-    tmp_if_expr$1 = workers->w_type == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = workers->w_type == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  struct w_list *return_value_find_worker$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  struct w_list *return_value_find_worker_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_find_worker$2=find_worker(drive);
-    tmp_if_expr$3 = return_value_find_worker$2 != (struct w_list *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    return_value_find_worker_2=find_worker(drive);
+    tmp_if_expr_3 = return_value_find_worker_2 != (struct w_list *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     libdax_msgs_submit(libdax_messenger, drive->global_index, 0x00020102, 0x60000000, 0x30000000, "A drive operation is still going on (want to format)", 0, 0);
 
   else
@@ -7013,9 +7013,9 @@ void burn_disc_format_sync(struct burn_drive *d, signed long int size, signed in
   char msg[80l];
   struct buffer *buf = (struct buffer *)(void *)0;
   struct buffer *buf_mem = d->buffer;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
@@ -7077,13 +7077,13 @@ void burn_disc_format_sync(struct burn_drive *d, signed long int size, signed in
           {
             d->nwa = i * buf_secs;
             err=d->write(d, d->nwa, d->buffer);
-            _Bool tmp_if_expr$2;
+            _Bool tmp_if_expr_2;
             if(err == 1)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = d->cancel != 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = d->cancel != 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
               d->cancel = 1;
 
             else
@@ -7094,13 +7094,13 @@ void burn_disc_format_sync(struct burn_drive *d, signed long int size, signed in
           }
 
           d->sync_cache(d);
-          _Bool tmp_if_expr$3;
+          _Bool tmp_if_expr_3;
           if(d->current_profile == 0x13)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = d->current_profile == 0x1a ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = d->current_profile == 0x1a ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
           {
             d->busy = (volatile enum burn_drive_status)BURN_DRIVE_CLOSING_SESSION;
             d->close_track_session(d, 1, 0);
@@ -7163,9 +7163,9 @@ signed int burn_disc_free_multi_caps(struct burn_multi_caps **caps)
 signed int burn_disc_get_bd_spare_info(struct burn_drive *d, signed int *alloc_blocks, signed int *free_blocks, signed int flag)
 {
   signed int ret;
-  signed int return_value_burn_drive_get_drive_role$1;
-  return_value_burn_drive_get_drive_role$1=burn_drive_get_drive_role(d);
-  if(!(return_value_burn_drive_get_drive_role$1 == 1))
+  signed int return_value_burn_drive_get_drive_role_1;
+  return_value_burn_drive_get_drive_role_1=burn_drive_get_drive_role(d);
+  if(!(return_value_burn_drive_get_drive_role_1 == 1))
     return 0;
 
   else
@@ -7209,13 +7209,13 @@ signed int burn_disc_get_format_descr(struct burn_drive *d, signed int index, si
   *type = 0;
   *size = (signed long int)0;
   *tdp = (unsigned int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(index >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = index >= d->num_format_descr ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = index >= d->num_format_descr ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -7281,9 +7281,9 @@ signed int burn_disc_get_media_id(struct burn_drive *d, char **product_id, char 
   *media_code2 = *book_type;
   *media_code1 = *media_code2;
   *product_id = *media_code1;
-  signed int return_value_burn_drive_get_drive_role$1;
-  return_value_burn_drive_get_drive_role$1=burn_drive_get_drive_role(d);
-  if(!(return_value_burn_drive_get_drive_role$1 == 1))
+  signed int return_value_burn_drive_get_drive_role_1;
+  return_value_burn_drive_get_drive_role_1=burn_drive_get_drive_role(d);
+  if(!(return_value_burn_drive_get_drive_role_1 == 1))
     return 0;
 
   else
@@ -7299,9 +7299,9 @@ signed int burn_disc_get_msc1(struct burn_drive *d, signed int *start)
 {
   signed int ret;
   signed int trackno;
-  signed int return_value_burn_drive_is_released$1;
-  return_value_burn_drive_is_released$1=burn_drive_is_released(d);
-  if(!(return_value_burn_drive_is_released$1 == 0))
+  signed int return_value_burn_drive_is_released_1;
+  return_value_burn_drive_is_released_1=burn_drive_is_released(d);
+  if(!(return_value_burn_drive_is_released_1 == 0))
   {
     libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002011b, 0x70000000, 0x30000000, "Attempt to read track info from ungrabbed drive", 0, 0);
     return -1;
@@ -7348,9 +7348,9 @@ signed int burn_disc_get_multi_caps(struct burn_drive *d, enum burn_write_types 
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_multi_caps) /*72ul*/ );
-    o = (struct burn_multi_caps *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_multi_caps) /*72ul*/ );
+    o = (struct burn_multi_caps *)return_value_calloc_1;
     *caps = o;
     if(*caps == ((struct burn_multi_caps *)NULL))
       return -1;
@@ -7371,13 +7371,13 @@ signed int burn_disc_get_multi_caps(struct burn_drive *d, enum burn_write_types 
       o->current_profile = d->current_profile;
       o->current_is_cd_profile = d->current_is_cd_profile;
       o->might_simulate = 0;
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(d->drive_role == 0)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = d->drive_role == 4 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = d->drive_role == 4 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         return 0;
 
       else
@@ -7439,24 +7439,24 @@ signed int burn_disc_get_multi_caps(struct burn_drive *d, enum burn_write_types 
 
                 else
                 {
-                  _Bool tmp_if_expr$12;
+                  _Bool tmp_if_expr_12;
                   if((signed int)wt == BURN_WRITE_RAW)
-                    tmp_if_expr$12 = !(d->current_is_cd_profile != 0) ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_12 = !(d->current_is_cd_profile != 0) ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$12 = (_Bool)0;
-                  if(tmp_if_expr$12)
+                    tmp_if_expr_12 = (_Bool)0;
+                  if(tmp_if_expr_12)
                     return 0;
 
                   else
                   {
-                    _Bool tmp_if_expr$11;
+                    _Bool tmp_if_expr_11;
                     if(d->current_profile == 0x09)
-                      tmp_if_expr$11 = (_Bool)1;
+                      tmp_if_expr_11 = (_Bool)1;
 
                     else
-                      tmp_if_expr$11 = d->current_profile == 0x0a ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$11)
+                      tmp_if_expr_11 = d->current_profile == 0x0a ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_11)
                     {
                       if(!(d->block_types[1l] == 0))
                       {
@@ -7495,32 +7495,32 @@ signed int burn_disc_get_multi_caps(struct burn_drive *d, enum burn_write_types 
                       else
                         if((signed int)wt == BURN_WRITE_TAO || (signed int)wt == BURN_WRITE_SAO || (signed int)wt == BURN_WRITE_NONE)
                         {
-                          _Bool tmp_if_expr$3;
+                          _Bool tmp_if_expr_3;
                           if(d->mdata->p2a_valid >= 1)
-                            tmp_if_expr$3 = d->mdata->simulate != 0 ? (_Bool)1 : (_Bool)0;
+                            tmp_if_expr_3 = d->mdata->simulate != 0 ? (_Bool)1 : (_Bool)0;
 
                           else
-                            tmp_if_expr$3 = (_Bool)0;
-                          o->might_simulate = (signed int)!(!tmp_if_expr$3);
+                            tmp_if_expr_3 = (_Bool)0;
+                          o->might_simulate = (signed int)!(!tmp_if_expr_3);
                         }
 
                     }
 
                     else
                     {
-                      _Bool tmp_if_expr$9;
+                      _Bool tmp_if_expr_9;
                       if(d->current_profile == 0x11)
-                        tmp_if_expr$9 = (_Bool)1;
+                        tmp_if_expr_9 = (_Bool)1;
 
                       else
-                        tmp_if_expr$9 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
-                      _Bool tmp_if_expr$10;
-                      if(tmp_if_expr$9)
-                        tmp_if_expr$10 = (_Bool)1;
+                        tmp_if_expr_9 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
+                      _Bool tmp_if_expr_10;
+                      if(tmp_if_expr_9)
+                        tmp_if_expr_10 = (_Bool)1;
 
                       else
-                        tmp_if_expr$10 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
-                      if(tmp_if_expr$10)
+                        tmp_if_expr_10 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
+                      if(tmp_if_expr_10)
                       {
                         if((signed int)s == BURN_DISC_BLANK)
                         {
@@ -7551,25 +7551,25 @@ signed int burn_disc_get_multi_caps(struct burn_drive *d, enum burn_write_types 
 
                       else
                       {
-                        _Bool tmp_if_expr$6;
+                        _Bool tmp_if_expr_6;
                         if(d->current_profile == 0x12)
-                          tmp_if_expr$6 = (_Bool)1;
+                          tmp_if_expr_6 = (_Bool)1;
 
                         else
-                          tmp_if_expr$6 = d->current_profile == 0x13 ? (_Bool)1 : (_Bool)0;
-                        _Bool tmp_if_expr$7;
-                        if(tmp_if_expr$6)
-                          tmp_if_expr$7 = (_Bool)1;
+                          tmp_if_expr_6 = d->current_profile == 0x13 ? (_Bool)1 : (_Bool)0;
+                        _Bool tmp_if_expr_7;
+                        if(tmp_if_expr_6)
+                          tmp_if_expr_7 = (_Bool)1;
 
                         else
-                          tmp_if_expr$7 = d->current_profile == 0x1a ? (_Bool)1 : (_Bool)0;
-                        _Bool tmp_if_expr$8;
-                        if(tmp_if_expr$7)
-                          tmp_if_expr$8 = (_Bool)1;
+                          tmp_if_expr_7 = d->current_profile == 0x1a ? (_Bool)1 : (_Bool)0;
+                        _Bool tmp_if_expr_8;
+                        if(tmp_if_expr_7)
+                          tmp_if_expr_8 = (_Bool)1;
 
                         else
-                          tmp_if_expr$8 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-                        if(tmp_if_expr$8)
+                          tmp_if_expr_8 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+                        if(tmp_if_expr_8)
                         {
                           o->start_adr = 1;
                           ret=burn_disc_get_formats(d, &status, &size, &dummy, &num_formats);
@@ -7617,19 +7617,19 @@ signed int burn_disc_get_multi_caps(struct burn_drive *d, enum burn_write_types 
 
                         else
                         {
-                          _Bool tmp_if_expr$4;
+                          _Bool tmp_if_expr_4;
                           if(d->current_profile == 0x1b)
-                            tmp_if_expr$4 = (_Bool)1;
+                            tmp_if_expr_4 = (_Bool)1;
 
                           else
-                            tmp_if_expr$4 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
-                          _Bool tmp_if_expr$5;
-                          if(tmp_if_expr$4)
-                            tmp_if_expr$5 = (_Bool)1;
+                            tmp_if_expr_4 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
+                          _Bool tmp_if_expr_5;
+                          if(tmp_if_expr_4)
+                            tmp_if_expr_5 = (_Bool)1;
 
                           else
-                            tmp_if_expr$5 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
-                          if(tmp_if_expr$5)
+                            tmp_if_expr_5 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
+                          if(tmp_if_expr_5)
                           {
                             o->multi_track = 1;
                             o->multi_session = o->multi_track;
@@ -7651,24 +7651,24 @@ signed int burn_disc_get_multi_caps(struct burn_drive *d, enum burn_write_types 
           o->might_do_sao = o->might_do_raw;
         }
 
-        _Bool tmp_if_expr$14;
+        _Bool tmp_if_expr_14;
         if((signed int)wt == BURN_WRITE_TAO)
-          tmp_if_expr$14 = !(o->might_do_tao != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_14 = !(o->might_do_tao != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        if(tmp_if_expr$14)
+          tmp_if_expr_14 = (_Bool)0;
+        if(tmp_if_expr_14)
           return 0;
 
         else
         {
-          _Bool tmp_if_expr$13;
+          _Bool tmp_if_expr_13;
           if((signed int)wt == BURN_WRITE_SAO)
-            tmp_if_expr$13 = !(o->might_do_sao != 0) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_13 = !(o->might_do_sao != 0) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$13 = (_Bool)0;
-          if(tmp_if_expr$13)
+            tmp_if_expr_13 = (_Bool)0;
+          if(tmp_if_expr_13)
             return 0;
 
           else
@@ -7691,9 +7691,9 @@ signed int burn_disc_get_multi_caps(struct burn_drive *d, enum burn_write_types 
 signed int burn_disc_get_phys_format_info(struct burn_drive *d, signed int *disk_category, char **book_name, signed int *part_version, signed int *num_layers, signed int *num_blocks, signed int flag)
 {
   signed int ret;
-  signed int return_value_burn_drive_get_drive_role$1;
-  return_value_burn_drive_get_drive_role$1=burn_drive_get_drive_role(d);
-  if(!(return_value_burn_drive_get_drive_role$1 == 1))
+  signed int return_value_burn_drive_get_drive_role_1;
+  return_value_burn_drive_get_drive_role_1=burn_drive_get_drive_role(d);
+  if(!(return_value_burn_drive_get_drive_role_1 == 1))
     return 0;
 
   else
@@ -7722,11 +7722,11 @@ signed int burn_disc_get_sectors(struct burn_disc *d)
 {
   signed int sectors = 0;
   signed int i = 0;
-  signed int return_value_burn_session_get_sectors$1;
+  signed int return_value_burn_session_get_sectors_1;
   for( ; !(i >= d->sessions); i = i + 1)
   {
-    return_value_burn_session_get_sectors$1=burn_session_get_sectors(d->session[(signed long int)i]);
-    sectors = sectors + return_value_burn_session_get_sectors$1;
+    return_value_burn_session_get_sectors_1=burn_session_get_sectors(d->session[(signed long int)i]);
+    sectors = sectors + return_value_burn_session_get_sectors_1;
   }
   return sectors;
 }
@@ -7772,13 +7772,13 @@ signed int burn_disc_get_write_mode_demands(struct burn_disc *disc, struct burn_
   else
   {
     s=burn_disc_get_status(opts->drive);
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if((signed int)s == BURN_DISC_APPENDABLE)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = disc->sessions > 1 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = disc->sessions > 1 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       result->will_append = 1;
 
     if(disc->sessions >= 2)
@@ -7798,13 +7798,13 @@ signed int burn_disc_get_write_mode_demands(struct burn_disc *disc, struct burn_
         for( ; !(j >= session->tracks); j = j + 1)
         {
           track = session->track[(signed long int)j];
-          signed int return_value_burn_track_is_open_ended$3;
-          return_value_burn_track_is_open_ended$3=burn_track_is_open_ended(track);
-          if(!(return_value_burn_track_is_open_ended$3 == 0))
+          signed int return_value_burn_track_is_open_ended_3;
+          return_value_burn_track_is_open_ended_3=burn_track_is_open_ended(track);
+          if(!(return_value_burn_track_is_open_ended_3 == 0))
           {
-            signed long int return_value_burn_track_get_default_size$2;
-            return_value_burn_track_get_default_size$2=burn_track_get_default_size(track);
-            if(return_value_burn_track_get_default_size$2 >= 1l)
+            signed long int return_value_burn_track_get_default_size_2;
+            return_value_burn_track_get_default_size_2=burn_track_get_default_size(track);
+            if(return_value_burn_track_get_default_size_2 >= 1l)
             {
               if(result->unknown_track_size == 0)
                 result->unknown_track_size = 2;
@@ -7944,9 +7944,9 @@ signed int burn_disc_open_track_dvd_minus_r(struct burn_write_opts *o, struct bu
   signed int lba;
   signed int nwa;
   signed long int size;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -7962,9 +7962,9 @@ signed int burn_disc_open_track_dvd_minus_r(struct burn_write_opts *o, struct bu
     burn_track_apply_fillup(s->track[(signed long int)tnum], d->media_capacity_remaining, 1);
     if((signed int)o->write_type == BURN_WRITE_SAO)
     {
-      signed int return_value_burn_track_get_sectors_2$2;
-      return_value_burn_track_get_sectors_2$2=burn_track_get_sectors_2(s->track[(signed long int)tnum], 1);
-      size = (signed long int)return_value_burn_track_get_sectors_2$2 * (signed long int)2048;
+      signed int return_value_burn_track_get_sectors_2_2;
+      return_value_burn_track_get_sectors_2_2=burn_track_get_sectors_2(s->track[(signed long int)tnum], 1);
+      size = (signed long int)return_value_burn_track_get_sectors_2_2 * (signed long int)2048;
       if(!(o->obs_pad == 0))
       {
         if(!(size % (signed long int)o->obs == 0l))
@@ -8003,10 +8003,10 @@ signed int burn_disc_open_track_dvd_plus_r(struct burn_write_opts *o, struct bur
   signed int lba;
   signed int nwa;
   signed long int size;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
-  signed int return_value_burn_track_is_open_ended$3;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
+  signed int return_value_burn_track_is_open_ended_3;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -8021,12 +8021,12 @@ signed int burn_disc_open_track_dvd_plus_r(struct burn_write_opts *o, struct bur
     burn_track_apply_fillup(s->track[(signed long int)tnum], d->media_capacity_remaining, 1);
     if((signed int)o->write_type == BURN_WRITE_SAO)
     {
-      return_value_burn_track_is_open_ended$3=burn_track_is_open_ended(s->track[(signed long int)tnum]);
-      if(return_value_burn_track_is_open_ended$3 == 0)
+      return_value_burn_track_is_open_ended_3=burn_track_is_open_ended(s->track[(signed long int)tnum]);
+      if(return_value_burn_track_is_open_ended_3 == 0)
       {
-        signed int return_value_burn_track_get_sectors_2$2;
-        return_value_burn_track_get_sectors_2$2=burn_track_get_sectors_2(s->track[(signed long int)tnum], 1);
-        size = (signed long int)return_value_burn_track_get_sectors_2$2 * (signed long int)2048;
+        signed int return_value_burn_track_get_sectors_2_2;
+        return_value_burn_track_get_sectors_2_2=burn_track_get_sectors_2(s->track[(signed long int)tnum], 1);
+        size = (signed long int)return_value_burn_track_get_sectors_2_2 * (signed long int)2048;
         if(!(o->obs_pad == 0))
         {
           if(!(o->obs % 32768 == 0))
@@ -8138,11 +8138,11 @@ void burn_disc_read(struct burn_drive *d, struct burn_read_opts *o)
 // file libburn/drive.c line 2518
 signed int burn_disc_read_atip(struct burn_drive *d)
 {
-  signed int return_value_burn_drive_is_released$1;
-  return_value_burn_drive_is_released$1=burn_drive_is_released(d);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(!(return_value_burn_drive_is_released$1 == 0))
+  signed int return_value_burn_drive_is_released_1;
+  return_value_burn_drive_is_released_1=burn_drive_is_released(d);
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(!(return_value_burn_drive_is_released_1 == 0))
   {
     libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002010e, 0x70000000, 0x30000000, "Attempt to read ATIP from ungrabbed drive", 0, 0);
     return -1;
@@ -8154,31 +8154,31 @@ signed int burn_disc_read_atip(struct burn_drive *d)
 
     else
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(d->current_profile == -1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = d->current_is_cd_profile != 0 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$5;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = d->current_is_cd_profile != 0 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_5;
+      if(tmp_if_expr_2)
       {
         if(d->mdata->p2a_valid >= 1)
-          tmp_if_expr$3 = d->mdata->cdrw_write != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = d->mdata->cdrw_write != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = d->current_profile != 0x08 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = d->current_profile != 0x08 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
         d->read_atip(d);
 
       else
@@ -8269,13 +8269,13 @@ signed int burn_disc_setup_dvd_plus_rw(struct burn_write_opts *o, struct burn_di
 {
   struct burn_drive *d = o->drive;
   signed int ret;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(d->bg_format_status == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = d->bg_format_status == 1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = d->bg_format_status == 1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     d->busy = (volatile enum burn_drive_status)BURN_DRIVE_FORMATTING;
     ret=d->format_unit(d, (signed long int)0, 0);
@@ -8294,9 +8294,9 @@ signed int burn_disc_setup_dvd_plus_rw(struct burn_write_opts *o, struct burn_di
 signed int burn_disc_track_lba_nwa(struct burn_drive *d, struct burn_write_opts *o, signed int trackno, signed int *lba, signed int *nwa)
 {
   signed int ret;
-  signed int return_value_burn_drive_is_released$1;
-  return_value_burn_drive_is_released$1=burn_drive_is_released(d);
-  if(!(return_value_burn_drive_is_released$1 == 0))
+  signed int return_value_burn_drive_is_released_1;
+  return_value_burn_drive_is_released_1=burn_drive_is_released(d);
+  if(!(return_value_burn_drive_is_released_1 == 0))
   {
     libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002011b, 0x70000000, 0x30000000, "Attempt to read track info from ungrabbed drive", 0, 0);
     return -1;
@@ -8355,26 +8355,26 @@ void burn_disc_write(struct burn_write_opts *opts, struct burn_disc *disc)
   struct burn_drive *d;
   signed int mvalid;
   d = opts->drive;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(workers == ((struct w_list *)NULL)))
-    tmp_if_expr$1 = workers->w_type == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = workers->w_type == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  struct w_list *return_value_find_worker$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  struct w_list *return_value_find_worker_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_find_worker$2=find_worker(opts->drive);
-    tmp_if_expr$3 = return_value_find_worker$2 != (struct w_list *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    return_value_find_worker_2=find_worker(opts->drive);
+    tmp_if_expr_3 = return_value_find_worker_2 != (struct w_list *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int return_value_strlen$5;
-  signed int return_value_burn_precheck_write$6;
+  unsigned long int return_value_strlen_5;
+  signed int return_value_burn_precheck_write_6;
   signed int return_value;
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020102, 0x60000000, 0x30000000, "A drive operation is still going on (want to write)", 0, 0);
 
   else
@@ -8410,15 +8410,15 @@ void burn_disc_write(struct burn_write_opts *opts, struct burn_disc *disc)
 
           __CPROVER_DUMP_L10:
             ;
-            void *return_value_burn_alloc_mem$4;
-            return_value_burn_alloc_mem$4=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(4096 + 80), 0);
-            reasons = (char *)return_value_burn_alloc_mem$4;
+            void *return_value_burn_alloc_mem_4;
+            return_value_burn_alloc_mem_4=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(4096 + 80), 0);
+            reasons = (char *)return_value_burn_alloc_mem_4;
             if(!(reasons == ((char *)NULL)))
             {
               strcpy(reasons, "Write job parameters are unsuitable:\n");
-              return_value_strlen$5=strlen(reasons);
-              return_value_burn_precheck_write$6=burn_precheck_write(opts, disc, reasons + (signed long int)return_value_strlen$5, 1);
-              if(!(return_value_burn_precheck_write$6 >= 1))
+              return_value_strlen_5=strlen(reasons);
+              return_value_burn_precheck_write_6=burn_precheck_write(opts, disc, reasons + (signed long int)return_value_strlen_5, 1);
+              if(!(return_value_burn_precheck_write_6 >= 1))
                 libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020139, 0x60000000, 0x30000000, reasons, 0, 0);
 
               else
@@ -8466,14 +8466,14 @@ signed int burn_disc_write_is_ok(struct burn_write_opts *o, struct burn_disc *di
   signed int t;
   char msg[80l];
   i = 0;
-  signed int return_value_sector_headers_is_ok$1;
+  signed int return_value_sector_headers_is_ok_1;
   for( ; !(i >= disc->sessions); i = i + 1)
   {
     t = 0;
     for( ; !(t >= disc->session[(signed long int)i]->tracks); t = t + 1)
     {
-      return_value_sector_headers_is_ok$1=sector_headers_is_ok(o, disc->session[(signed long int)i]->track[(signed long int)t]->mode);
-      if(!(return_value_sector_headers_is_ok$1 == 1))
+      return_value_sector_headers_is_ok_1=sector_headers_is_ok(o, disc->session[(signed long int)i]->track[(signed long int)t]->mode);
+      if(!(return_value_sector_headers_is_ok_1 == 1))
         goto bad_track_mode_found;
 
     }
@@ -8514,11 +8514,11 @@ void burn_disc_write_sync(struct burn_write_opts *o, struct burn_disc *disc)
 
   else
     d->stream_recording_start = 0;
-  void *return_value_burn_os_alloc_buffer$1;
-  return_value_burn_os_alloc_buffer$1=burn_os_alloc_buffer(sizeof(struct buffer) /*69640ul*/ , 0);
-  d->buffer = (struct buffer *)return_value_burn_os_alloc_buffer$1;
-  signed int return_value_burn_write_flush$5;
-  signed int return_value_burn_write_flush$6;
+  void *return_value_burn_os_alloc_buffer_1;
+  return_value_burn_os_alloc_buffer_1=burn_os_alloc_buffer(sizeof(struct buffer) /*69640ul*/ , 0);
+  d->buffer = (struct buffer *)return_value_burn_os_alloc_buffer_1;
+  signed int return_value_burn_write_flush_5;
+  signed int return_value_burn_write_flush_6;
   if(!(d->buffer == ((struct buffer *)NULL)))
   {
     d->rlba = -150;
@@ -8555,9 +8555,9 @@ void burn_disc_write_sync(struct burn_write_opts *o, struct burn_disc *disc)
         for( ; !(i >= (*disc->session)->tracks); i = i + 1)
         {
           t = disc->session[(signed long int)0]->track[(signed long int)i];
-          signed int return_value_burn_track_is_open_ended$2;
-          return_value_burn_track_is_open_ended$2=burn_track_is_open_ended(t);
-          if(!(return_value_burn_track_is_open_ended$2 == 0))
+          signed int return_value_burn_track_is_open_ended_2;
+          return_value_burn_track_is_open_ended_2=burn_track_is_open_ended(t);
+          if(!(return_value_burn_track_is_open_ended_2 == 0))
           {
             default_size=burn_track_get_default_size(t);
             sprintf(msg, "Activated track default size %.f", (double)default_size);
@@ -8607,9 +8607,9 @@ void burn_disc_write_sync(struct burn_write_opts *o, struct burn_disc *disc)
 
         if((signed int)o->write_type == BURN_WRITE_RAW)
         {
-          signed int return_value_burn_write_leadin$3;
-          return_value_burn_write_leadin$3=burn_write_leadin(o, disc->session[(signed long int)i], first);
-          if(return_value_burn_write_leadin$3 == 0)
+          signed int return_value_burn_write_leadin_3;
+          return_value_burn_write_leadin_3=burn_write_leadin(o, disc->session[(signed long int)i], first);
+          if(return_value_burn_write_leadin_3 == 0)
             goto fail;
 
         }
@@ -8647,9 +8647,9 @@ void burn_disc_write_sync(struct burn_write_opts *o, struct burn_disc *disc)
         lt = disc->session[(signed long int)i]->track[(signed long int)(disc->session[(signed long int)i]->tracks - 1)];
         if((signed int)o->write_type == BURN_WRITE_RAW)
         {
-          signed int return_value_burn_write_leadout$4;
-          return_value_burn_write_leadout$4=burn_write_leadout(o, first, lt->entry->control, lt->mode);
-          if(return_value_burn_write_leadout$4 == 0)
+          signed int return_value_burn_write_leadout_4;
+          return_value_burn_write_leadout_4=burn_write_leadout(o, first, lt->entry->control, lt->mode);
+          if(return_value_burn_write_leadout_4 == 0)
             goto fail;
 
         }
@@ -8658,8 +8658,8 @@ void burn_disc_write_sync(struct burn_write_opts *o, struct burn_disc *disc)
         {
           if(!((signed int)o->write_type == BURN_WRITE_TAO))
           {
-            return_value_burn_write_flush$5=burn_write_flush(o, (struct burn_track *)(void *)0);
-            if(return_value_burn_write_flush$5 == 0)
+            return_value_burn_write_flush_5=burn_write_flush(o, (struct burn_track *)(void *)0);
+            if(return_value_burn_write_flush_5 == 0)
               goto fail;
 
           }
@@ -8678,8 +8678,8 @@ void burn_disc_write_sync(struct burn_write_opts *o, struct burn_disc *disc)
       {
         if(!((signed int)o->write_type == BURN_WRITE_TAO))
         {
-          return_value_burn_write_flush$6=burn_write_flush(o, (struct burn_track *)(void *)0);
-          if(return_value_burn_write_flush$6 == 0)
+          return_value_burn_write_flush_6=burn_write_flush(o, (struct burn_track *)(void *)0);
+          if(return_value_burn_write_flush_6 == 0)
             goto fail;
 
         }
@@ -8729,21 +8729,21 @@ signed int burn_drive__fd_from_special_adr(char *adr)
 {
   signed int fd = -1;
   signed int i;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(adr, "-");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(adr, "-");
+  if(return_value_strcmp_1 == 0)
     fd = 1;
 
-  signed int return_value_strncmp$3;
-  return_value_strncmp$3=strncmp(adr, "/dev/fd/", (unsigned long int)8);
-  const unsigned short int **return_value___ctype_b_loc$2;
-  if(return_value_strncmp$3 == 0)
+  signed int return_value_strncmp_3;
+  return_value_strncmp_3=strncmp(adr, "/dev/fd/", (unsigned long int)8);
+  const unsigned short int **return_value___ctype_b_loc_2;
+  if(return_value_strncmp_3 == 0)
   {
     i = 8;
     for( ; !(adr[(signed long int)i] == 0); i = i + 1)
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)adr[(signed long int)i]]) == 0)
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)adr[(signed long int)i]]) == 0)
         break;
 
     }
@@ -8832,11 +8832,11 @@ signed int burn_drive_add_whitelist(char *device_address)
   else
   {
     enumeration_whitelist_top = enumeration_whitelist_top + 1;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(device_address);
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, return_value_strlen$1 + (unsigned long int)1);
-    new_item = (char *)return_value_calloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(device_address);
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, return_value_strlen_1 + (unsigned long int)1);
+    new_item = (char *)return_value_calloc_2;
     if(new_item == ((char *)NULL))
       return -1;
 
@@ -8863,9 +8863,9 @@ signed int burn_drive_adr_debug_msg(char *fmt, char *arg)
   {
     if(!(arg == ((char *)NULL)))
     {
-      void *return_value_burn_alloc_mem$1;
-      return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-      msg = (char *)return_value_burn_alloc_mem$1;
+      void *return_value_burn_alloc_mem_1;
+      return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+      msg = (char *)return_value_burn_alloc_mem_1;
       if(msg == ((char *)NULL))
       {
         ret = -1;
@@ -8926,37 +8926,37 @@ signed int burn_drive_convert_fs_adr_sub(char *path, char *adr, signed int *rec_
   signed int ret;
   struct stat stbuf;
   burn_drive_adr_debug_msg("burn_drive_convert_fs_adr( %s )", path);
-  signed int return_value_strncmp$3;
-  return_value_strncmp$3=strncmp(path, "stdio:", (unsigned long int)6);
-  _Bool tmp_if_expr$5;
-  signed int return_value_burn_drive_is_enumerable_adr$4;
-  if(return_value_strncmp$3 == 0)
-    tmp_if_expr$5 = (_Bool)1;
+  signed int return_value_strncmp_3;
+  return_value_strncmp_3=strncmp(path, "stdio:", (unsigned long int)6);
+  _Bool tmp_if_expr_5;
+  signed int return_value_burn_drive_is_enumerable_adr_4;
+  if(return_value_strncmp_3 == 0)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_burn_drive_is_enumerable_adr$4=burn_drive_is_enumerable_adr(path);
-    tmp_if_expr$5 = return_value_burn_drive_is_enumerable_adr$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_burn_drive_is_enumerable_adr_4=burn_drive_is_enumerable_adr(path);
+    tmp_if_expr_5 = return_value_burn_drive_is_enumerable_adr_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(path);
-    if(return_value_strlen$1 >= 1024ul)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(path);
+    if(return_value_strlen_1 >= 1024ul)
       return -1;
 
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(path, "stdio:", (unsigned long int)6);
-    if(!(return_value_strncmp$2 == 0))
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(path, "stdio:", (unsigned long int)6);
+    if(!(return_value_strncmp_2 == 0))
       burn_drive_adr_debug_msg("burn_drive_is_enumerable_adr( %s ) is true", path);
 
     strcpy(adr, path);
     return 1;
   }
 
-  signed int return_value_lstat$6;
-  return_value_lstat$6=lstat(path, &stbuf);
-  if(return_value_lstat$6 == -1)
+  signed int return_value_lstat_6;
+  return_value_lstat_6=lstat(path, &stbuf);
+  if(return_value_lstat_6 == -1)
   {
     burn_drive_adr_debug_msg("lstat( %s ) returns -1", path);
     return 0;
@@ -8971,9 +8971,9 @@ signed int burn_drive_convert_fs_adr_sub(char *path, char *adr, signed int *rec_
         return 1;
 
       burn_drive_adr_debug_msg("link fallback via stat( %s )", path);
-      signed int return_value_stat$7;
-      return_value_stat$7=stat(path, &stbuf);
-      if(return_value_stat$7 == -1)
+      signed int return_value_stat_7;
+      return_value_stat_7=stat(path, &stbuf);
+      if(return_value_stat_7 == -1)
       {
         burn_drive_adr_debug_msg("stat( %s ) returns -1", path);
         return 0;
@@ -9020,17 +9020,17 @@ signed int burn_drive_convert_scsi_adr(signed int bus_no, signed int host_no, si
   signed int i_target_no = -1;
   signed int i_lun_no = -1;
   struct burn_drive_enumerator_struct enm;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)fname_size, 0);
-  fname = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)fname_size, 0);
+  fname = (char *)return_value_burn_alloc_mem_1;
   if(fname == ((char *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(fname_size + 100), 0);
-    msg = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(fname_size + 100), 0);
+    msg = (char *)return_value_burn_alloc_mem_2;
     if(msg == ((char *)NULL))
       ret = -1;
 
@@ -9058,9 +9058,9 @@ signed int burn_drive_convert_scsi_adr(signed int bus_no, signed int host_no, si
                 {
                   if(!(lun_no >= 0) || i_lun_no == lun_no)
                   {
-                    unsigned long int return_value_strlen$3;
-                    return_value_strlen$3=strlen(fname);
-                    if(return_value_strlen$3 >= 1024ul)
+                    unsigned long int return_value_strlen_3;
+                    return_value_strlen_3=strlen(fname);
+                    if(return_value_strlen_3 >= 1024ul)
                     {
                       ret = -1;
                       goto ex;
@@ -9112,9 +9112,9 @@ unsigned int burn_drive_count(void)
 // file libburn/drive.c line 1919
 signed int burn_drive_d_get_adr(struct burn_drive *d, char *adr)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(d->devname);
-  if(return_value_strlen$1 >= 1024ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(d->devname);
+  if(return_value_strlen_1 >= 1024ul)
   {
     libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020110, 0x70000000, 0x30000000, "Persistent drive address too long", 0, 0);
     return -1;
@@ -9148,28 +9148,28 @@ signed int burn_drive_equals_adr(struct burn_drive *d1, char *adr2_in, signed in
   signed int exact_role_matters = 0;
   signed int fd;
   signed int ret;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
-  adr1 = (char *)return_value_burn_alloc_mem$1;
-  signed int return_value_strncmp$4;
-  unsigned long int return_value_strlen$5;
-  signed int return_value_strcmp$6;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
+  adr1 = (char *)return_value_burn_alloc_mem_1;
+  signed int return_value_strncmp_4;
+  unsigned long int return_value_strlen_5;
+  signed int return_value_strcmp_6;
   if(adr1 == ((char *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
-    conv_adr1 = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
+    conv_adr1 = (char *)return_value_burn_alloc_mem_2;
     if(conv_adr1 == ((char *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
-      conv_adr2 = (char *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
+      conv_adr2 = (char *)return_value_burn_alloc_mem_3;
       if(conv_adr2 == ((char *)NULL))
         ret = -1;
 
@@ -9182,8 +9182,8 @@ signed int burn_drive_equals_adr(struct burn_drive *d1, char *adr2_in, signed in
         if(!(fd == -1))
           exact_role_matters = 1;
 
-        return_value_strncmp$4=strncmp(adr2, "stdio:", (unsigned long int)6);
-        if(return_value_strncmp$4 == 0)
+        return_value_strncmp_4=strncmp(adr2, "stdio:", (unsigned long int)6);
+        if(return_value_strncmp_4 == 0)
         {
           adr2 = adr2 + (signed long int)6;
           if((signed int)*adr2 == 0)
@@ -9215,8 +9215,8 @@ signed int burn_drive_equals_adr(struct burn_drive *d1, char *adr2_in, signed in
           }
         }
 
-        return_value_strlen$5=strlen(adr2);
-        if(return_value_strlen$5 >= 1024ul)
+        return_value_strlen_5=strlen(adr2);
+        if(return_value_strlen_5 >= 1024ul)
           ret = -1;
 
         else
@@ -9233,8 +9233,8 @@ signed int burn_drive_equals_adr(struct burn_drive *d1, char *adr2_in, signed in
 
           }
 
-          return_value_strcmp$6=strcmp(adr1, adr2);
-          if(return_value_strcmp$6 == 0)
+          return_value_strcmp_6=strcmp(adr1, adr2);
+          if(return_value_strcmp_6 == 0)
           {
             if(!(role1 == role2))
               goto __CPROVER_DUMP_L15;
@@ -9255,9 +9255,9 @@ signed int burn_drive_equals_adr(struct burn_drive *d1, char *adr2_in, signed in
                 goto ex;
               }
 
-              signed int return_value_strcmp$7;
-              return_value_strcmp$7=strcmp(adr1, conv_adr2);
-              if(return_value_strcmp$7 == 0)
+              signed int return_value_strcmp_7;
+              return_value_strcmp_7=strcmp(adr1, conv_adr2);
+              if(return_value_strcmp_7 == 0)
               {
                 ret = 1;
                 goto ex;
@@ -9295,9 +9295,9 @@ signed int burn_drive_equals_adr(struct burn_drive *d1, char *adr2_in, signed in
                     burn__split_path(conv_adr1, &dpt1, &npt1);
                     strcpy(conv_adr2, adr2);
                     burn__split_path(conv_adr2, &dpt2, &npt2);
-                    signed int return_value_strcmp$8;
-                    return_value_strcmp$8=strcmp(npt1, npt2);
-                    if(!(return_value_strcmp$8 == 0))
+                    signed int return_value_strcmp_8;
+                    return_value_strcmp_8=strcmp(npt1, npt2);
+                    if(!(return_value_strcmp_8 == 0))
                     {
                       ret = 0;
                       goto ex;
@@ -9337,17 +9337,17 @@ signed int burn_drive_equals_adr(struct burn_drive *d1, char *adr2_in, signed in
                     goto ex;
                   }
 
-                  signed int return_value_burn_drive_convert_fs_adr$9;
-                  return_value_burn_drive_convert_fs_adr$9=burn_drive_convert_fs_adr(adr1, conv_adr1);
-                  if(!(return_value_burn_drive_convert_fs_adr$9 >= 1))
+                  signed int return_value_burn_drive_convert_fs_adr_9;
+                  return_value_burn_drive_convert_fs_adr_9=burn_drive_convert_fs_adr(adr1, conv_adr1);
+                  if(!(return_value_burn_drive_convert_fs_adr_9 >= 1))
                   {
                     ret = 0;
                     goto ex;
                   }
 
-                  signed int return_value_strcmp$10;
-                  return_value_strcmp$10=strcmp(conv_adr1, conv_adr2);
-                  if(return_value_strcmp$10 == 0)
+                  signed int return_value_strcmp_10;
+                  return_value_strcmp_10=strcmp(conv_adr1, conv_adr2);
+                  if(return_value_strcmp_10 == 0)
                   {
                     ret = 1;
                     goto ex;
@@ -9366,9 +9366,9 @@ signed int burn_drive_equals_adr(struct burn_drive *d1, char *adr2_in, signed in
                       goto ex;
                     }
 
-                    signed int return_value_strcmp$11;
-                    return_value_strcmp$11=strcmp(adr1, conv_adr2);
-                    if(return_value_strcmp$11 == 0)
+                    signed int return_value_strcmp_11;
+                    return_value_strcmp_11=strcmp(adr1, conv_adr2);
+                    if(return_value_strcmp_11 == 0)
                     {
                       ret = 1;
                       goto ex;
@@ -9387,17 +9387,17 @@ signed int burn_drive_equals_adr(struct burn_drive *d1, char *adr2_in, signed in
                         goto ex;
                       }
 
-                      signed int return_value_burn_drive_convert_fs_adr$12;
-                      return_value_burn_drive_convert_fs_adr$12=burn_drive_convert_fs_adr(adr1, conv_adr1);
-                      if(!(return_value_burn_drive_convert_fs_adr$12 >= 1))
+                      signed int return_value_burn_drive_convert_fs_adr_12;
+                      return_value_burn_drive_convert_fs_adr_12=burn_drive_convert_fs_adr(adr1, conv_adr1);
+                      if(!(return_value_burn_drive_convert_fs_adr_12 >= 1))
                       {
                         ret = 0;
                         goto ex;
                       }
 
-                      signed int return_value_strcmp$13;
-                      return_value_strcmp$13=strcmp(conv_adr1, conv_adr2);
-                      if(return_value_strcmp$13 == 0)
+                      signed int return_value_strcmp_13;
+                      return_value_strcmp_13=strcmp(conv_adr1, conv_adr2);
+                      if(return_value_strcmp_13 == 0)
                       {
                         ret = 1;
                         goto ex;
@@ -9447,19 +9447,19 @@ signed int burn_drive_extract_audio(struct burn_drive *drive, signed int start_s
   signed long int now;
   char *msg = (char *)(void *)0;
   char *buf = (char *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
-  signed long int return_value_write$4;
-  signed long int return_value_write$5;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
+  signed long int return_value_write_4;
+  signed long int return_value_write_5;
   if(msg == ((char *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(24 * 2352), 0);
-    buf = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(24 * 2352), 0);
+    buf = (char *)return_value_burn_alloc_mem_2;
     if(buf == ((char *)NULL))
       ret = -1;
 
@@ -9469,9 +9469,9 @@ signed int burn_drive_extract_audio(struct burn_drive *drive, signed int start_s
       if(fd == -1)
       {
         sprintf(msg, "Cannot open disk file for writing: %.4000s", target_path);
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        libdax_msgs_submit(libdax_messenger, -1, 0x000201a1, 0x68000000, 0x30000000, msg, *return_value___errno_location$3, 0);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        libdax_msgs_submit(libdax_messenger, -1, 0x000201a1, 0x68000000, 0x30000000, msg, *return_value___errno_location_3, 0);
         ret = 0;
         goto ex;
       }
@@ -9494,8 +9494,8 @@ signed int burn_drive_extract_audio(struct burn_drive *drive, signed int start_s
       buf[(signed long int)35] = (char)0;
       strcpy(buf + (signed long int)36, "data");
       burn_int_to_lsb(sector_count * 2352, buf + (signed long int)40);
-      return_value_write$4=write(fd, (const void *)buf, (unsigned long int)44);
-      ret = (signed int)return_value_write$4;
+      return_value_write_4=write(fd, (const void *)buf, (unsigned long int)44);
+      ret = (signed int)return_value_write_4;
       if(!(ret == -1))
       {
         todo = sector_count;
@@ -9519,8 +9519,8 @@ signed int burn_drive_extract_audio(struct burn_drive *drive, signed int start_s
           goto ex;
         }
 
-        return_value_write$5=write(fd, (const void *)buf, (unsigned long int)data_count);
-        ret = (signed int)return_value_write$5;
+        return_value_write_5=write(fd, (const void *)buf, (unsigned long int)data_count);
+        ret = (signed int)return_value_write_5;
         if(!(ret == -1))
           goto __CPROVER_DUMP_L9;
 
@@ -9530,9 +9530,9 @@ signed int burn_drive_extract_audio(struct burn_drive *drive, signed int start_s
     write_error:
       ;
       sprintf(msg, "Error while writing to disk file: %.4000s", target_path);
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      libdax_msgs_submit(libdax_messenger, -1, 0x000201a2, 0x68000000, 0x30000000, msg, *return_value___errno_location$6, 0);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      libdax_msgs_submit(libdax_messenger, -1, 0x000201a2, 0x68000000, 0x30000000, msg, *return_value___errno_location_6, 0);
       ret = 0;
       goto ex;
 
@@ -9592,9 +9592,9 @@ signed int burn_drive_extract_audio_track(struct burn_drive *drive, struct burn_
   burn_track_get_entry(track, &toc_entry);
   if((1 & (signed int)toc_entry.extensions_valid) == 0)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    libdax_msgs_submit(libdax_messenger, -1, 0x00000004, 0x70000000, 0x30000000, "Internal libburn error: Outdated burn_toc_entry format encountered", *return_value___errno_location$1, 0);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    libdax_msgs_submit(libdax_messenger, -1, 0x00000004, 0x70000000, 0x30000000, "Internal libburn error: Outdated burn_toc_entry format encountered", *return_value___errno_location_1, 0);
     return -1;
   }
 
@@ -9607,14 +9607,14 @@ signed int burn_drive_extract_audio_track(struct burn_drive *drive, struct burn_
 signed int burn_drive_find_by_thread_pid(struct burn_drive **d, signed int pid, unsigned long int tid)
 {
   signed int i = 0;
-  signed int return_value_pthread_equal$1;
+  signed int return_value_pthread_equal_1;
   for( ; !(i >= 1 + drivetop); i = i + 1)
     if(!(drive_array[(signed long int)i].thread_pid_valid == 0))
     {
       if(drive_array[(signed long int)i].thread_pid == pid)
       {
-        return_value_pthread_equal$1=pthread_equal(drive_array[(signed long int)i].thread_tid, tid);
-        if(!(return_value_pthread_equal$1 == 0))
+        return_value_pthread_equal_1=pthread_equal(drive_array[(signed long int)i].thread_tid, tid);
+        if(!(return_value_pthread_equal_1 == 0))
         {
           *d = &drive_array[(signed long int)i];
           return 1;
@@ -9638,17 +9638,17 @@ signed int burn_drive_find_devno(unsigned long int devno, char *adr)
   signed int fname_size = 4096;
   struct stat stbuf;
   struct burn_drive_enumerator_struct enm;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)fname_size, 0);
-  fname = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)fname_size, 0);
+  fname = (char *)return_value_burn_alloc_mem_1;
   if(fname == ((char *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(fname_size + 100), 0);
-    msg = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(fname_size + 100), 0);
+    msg = (char *)return_value_burn_alloc_mem_2;
     if(msg == ((char *)NULL))
       ret = -1;
 
@@ -9666,9 +9666,9 @@ signed int burn_drive_find_devno(unsigned long int devno, char *adr)
         {
           if(devno == stbuf.st_rdev)
           {
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(fname);
-            if(return_value_strlen$3 >= 1024ul)
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(fname);
+            if(return_value_strlen_3 >= 1024ul)
             {
               ret = -1;
               goto ex;
@@ -9737,9 +9737,9 @@ struct burn_drive * burn_drive_finish_enum(struct burn_drive *d)
   struct burn_drive *t = (struct burn_drive *)(void *)0;
   char *msg = (char *)(void *)0;
   signed int ret;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(1024 + 160), 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(1024 + 160), 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -9789,7 +9789,7 @@ signed int burn_drive_forget(struct burn_drive *d, signed int force)
 {
   signed int occup;
   occup=burn_drive_is_occupied(d);
-  signed int return_value_burn_drive_is_released$1;
+  signed int return_value_burn_drive_is_released_1;
   if(!(occup >= -1))
     return 2;
 
@@ -9815,8 +9815,8 @@ signed int burn_drive_forget(struct burn_drive *d, signed int force)
         burn_drive_force_idle(d);
         if(occup >= 1)
         {
-          return_value_burn_drive_is_released$1=burn_drive_is_released(d);
-          if(return_value_burn_drive_is_released$1 == 0)
+          return_value_burn_drive_is_released_1=burn_drive_is_released(d);
+          if(return_value_burn_drive_is_released_1 == 0)
             burn_drive_release(d, 0);
 
         }
@@ -9831,13 +9831,13 @@ signed int burn_drive_forget(struct burn_drive *d, signed int force)
 // file libburn/drive.c line 131
 void burn_drive_free(struct burn_drive *d)
 {
-  signed int return_value_burn_drive_is_open$1;
+  signed int return_value_burn_drive_is_open_1;
   if(!(d->global_index == -1))
   {
     if(d->drive_role == 1)
     {
-      return_value_burn_drive_is_open$1=burn_drive_is_open(d);
-      if(!(return_value_burn_drive_is_open$1 == 0))
+      return_value_burn_drive_is_open_1=burn_drive_is_open(d);
+      if(!(return_value_burn_drive_is_open_1 == 0))
       {
         d->unlock(d);
         d->release(d);
@@ -9866,9 +9866,9 @@ void burn_drive_free_all(void)
 // file libburn/drive.c line 2842
 signed int burn_drive_free_speedlist(struct burn_speed_descriptor **speed_list)
 {
-  signed int return_value_burn_speed_descriptor_destroy$1;
-  return_value_burn_speed_descriptor_destroy$1=burn_speed_descriptor_destroy(speed_list, 1);
-  return return_value_burn_speed_descriptor_destroy$1;
+  signed int return_value_burn_speed_descriptor_destroy_1;
+  return_value_burn_speed_descriptor_destroy_1=burn_speed_descriptor_destroy(speed_list, 1);
+  return return_value_burn_speed_descriptor_destroy_1;
 }
 
 // burn_drive_free_subs
@@ -9953,7 +9953,7 @@ signed int burn_drive_get_best_speed(struct burn_drive *d, signed int speed_goal
 
   *best_descr = (struct burn_speed_descriptor *)(void *)0;
   sd = d->mdata->speed_descriptors;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   for( ; !(sd == ((struct burn_speed_descriptor *)NULL)); sd = sd->next)
   {
     if(!((1 & flag) == 0))
@@ -9961,13 +9961,13 @@ signed int burn_drive_get_best_speed(struct burn_drive *d, signed int speed_goal
 
     else
       speed = sd->write_speed;
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(source >= 0)
-      tmp_if_expr$1 = sd->source != source ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = sd->source != source ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(speed >= 1 && !tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(speed >= 1 && !tmp_if_expr_1)
     {
       if(!(speed_goal >= 0))
       {
@@ -9982,26 +9982,26 @@ signed int burn_drive_get_best_speed(struct burn_drive *d, signed int speed_goal
       else
         if(speed_goal == 0)
         {
-          _Bool tmp_if_expr$2;
+          _Bool tmp_if_expr_2;
           if(source == 2)
-            tmp_if_expr$2 = sd->end_lba > best_lba ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = sd->end_lba > best_lba ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          _Bool tmp_if_expr$4;
-          if(tmp_if_expr$2)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)0;
+          _Bool tmp_if_expr_4;
+          if(tmp_if_expr_2)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
             if(!(source == 2))
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = sd->end_lba == best_lba ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$4 = (tmp_if_expr$3 ? (speed > best_speed ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = sd->end_lba == best_lba ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (tmp_if_expr_3 ? (speed > best_speed ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
           {
             best_lba = sd->end_lba;
             best_speed = speed;
@@ -10024,15 +10024,15 @@ signed int burn_drive_get_best_speed(struct burn_drive *d, signed int speed_goal
     }
 
   }
-  signed int return_value_burn_drive_get_best_speed$5;
+  signed int return_value_burn_drive_get_best_speed_5;
   if(!(d->current_is_cd_profile == 0))
   {
     if(*best_descr == ((struct burn_speed_descriptor *)NULL))
     {
       if((2 & flag) == 0)
       {
-        return_value_burn_drive_get_best_speed$5=burn_drive_get_best_speed(d, speed_goal, best_descr, flag | 2);
-        return return_value_burn_drive_get_best_speed$5;
+        return_value_burn_drive_get_best_speed_5=burn_drive_get_best_speed(d, speed_goal, best_descr, flag | 2);
+        return return_value_burn_drive_get_best_speed_5;
       }
 
     }
@@ -10081,9 +10081,9 @@ signed int burn_drive_get_media_sno(struct burn_drive *d, char **sno, signed int
 
   else
     *sno_len = 0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(*sno_len + 1), 0);
-  *sno = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(*sno_len + 1), 0);
+  *sno = (char *)return_value_burn_alloc_mem_1;
   if(*sno == ((char *)NULL))
     ret = -1;
 
@@ -10132,9 +10132,9 @@ signed int burn_drive_get_serial_no(struct burn_drive *d, char **sno, signed int
 
   else
     *sno_len = 0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(*sno_len + 1), 0);
-  *sno = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(*sno_len + 1), 0);
+  *sno = (char *)return_value_burn_alloc_mem_1;
   if(*sno == ((char *)NULL))
     ret = -1;
 
@@ -10177,13 +10177,13 @@ signed int burn_drive_get_speedlist(struct burn_drive *d, struct burn_speed_desc
 // file libburn/drive.c line 2475
 signed int burn_drive_get_start_end_lba(struct burn_drive *d, signed int *start_lba, signed int *end_lba, signed int flag)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(d->start_lba == -2000000000)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = d->end_lba == -2000000000 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = d->end_lba == -2000000000 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -10202,13 +10202,13 @@ enum burn_drive_status burn_drive_get_status(struct burn_drive *d, struct burn_p
   if(burn_global_abort_level >= 1 && !(burn_builtin_triggered_action >= 2))
     burn_global_abort_level = burn_global_abort_level + 1;
 
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(burn_global_abort_level >= 6 && !(burn_builtin_triggered_action >= 2))
   {
     if(burn_global_signal_handler == ((signed int (*)(void *, signed int, signed int))NULL))
     {
-      return_value_getpid$1=getpid();
-      kill(return_value_getpid$1, burn_global_abort_signum);
+      return_value_getpid_1=getpid();
+      kill(return_value_getpid_1, burn_global_abort_signum);
     }
 
     else
@@ -10238,12 +10238,12 @@ signed int burn_drive_grab(struct burn_drive *d, signed int le)
   signed int sose;
   signed int signal_action_mem = -1;
   sose = d->silent_on_scsi_error;
-  signed int return_value_burn_is_aborting$1;
-  signed int return_value_burn_is_aborting$3;
-  signed int return_value_burn_is_aborting$5;
-  signed int return_value_burn_is_aborting$7;
-  signed int return_value_burn_is_aborting$9;
-  signed int return_value_burn_is_aborting$11;
+  signed int return_value_burn_is_aborting_1;
+  signed int return_value_burn_is_aborting_3;
+  signed int return_value_burn_is_aborting_5;
+  signed int return_value_burn_is_aborting_7;
+  signed int return_value_burn_is_aborting_9;
+  signed int return_value_burn_is_aborting_11;
   if(d->released == 0)
   {
     libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020189, 0x70000000, 0x10000000, "Drive is already grabbed by libburn", 0, 0);
@@ -10271,46 +10271,46 @@ signed int burn_drive_grab(struct burn_drive *d, signed int le)
         if(!(le == 0))
           d->load(d);
 
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(!(d->cancel == 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
         {
-          return_value_burn_is_aborting$1=burn_is_aborting(0);
-          tmp_if_expr$2 = return_value_burn_is_aborting$1 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_burn_is_aborting_1=burn_is_aborting(0);
+          tmp_if_expr_2 = return_value_burn_is_aborting_1 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$2)
+        if(tmp_if_expr_2)
           ret = 0;
 
         else
         {
           d->lock(d);
-          _Bool tmp_if_expr$4;
+          _Bool tmp_if_expr_4;
           if(!(d->cancel == 0))
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
-            return_value_burn_is_aborting$3=burn_is_aborting(0);
-            tmp_if_expr$4 = return_value_burn_is_aborting$3 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_burn_is_aborting_3=burn_is_aborting(0);
+            tmp_if_expr_4 = return_value_burn_is_aborting_3 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
             ret = 0;
 
           else
           {
             d->start_unit(d);
-            _Bool tmp_if_expr$6;
+            _Bool tmp_if_expr_6;
             if(!(d->cancel == 0))
-              tmp_if_expr$6 = (_Bool)1;
+              tmp_if_expr_6 = (_Bool)1;
 
             else
             {
-              return_value_burn_is_aborting$5=burn_is_aborting(0);
-              tmp_if_expr$6 = return_value_burn_is_aborting$5 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_burn_is_aborting_5=burn_is_aborting(0);
+              tmp_if_expr_6 = return_value_burn_is_aborting_5 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$6)
+            if(tmp_if_expr_6)
               ret = 0;
 
             else
@@ -10319,31 +10319,31 @@ signed int burn_drive_grab(struct burn_drive *d, signed int le)
                 d->silent_on_scsi_error = 1;
 
               ret=burn_drive_inquire_media(d);
-              _Bool tmp_if_expr$8;
+              _Bool tmp_if_expr_8;
               if(!(d->cancel == 0))
-                tmp_if_expr$8 = (_Bool)1;
+                tmp_if_expr_8 = (_Bool)1;
 
               else
               {
-                return_value_burn_is_aborting$7=burn_is_aborting(0);
-                tmp_if_expr$8 = return_value_burn_is_aborting$7 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_burn_is_aborting_7=burn_is_aborting(0);
+                tmp_if_expr_8 = return_value_burn_is_aborting_7 != 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$8)
+              if(tmp_if_expr_8)
                 ret = 0;
 
               else
               {
                 burn_drive_send_default_page_05(d, 0);
-                _Bool tmp_if_expr$10;
+                _Bool tmp_if_expr_10;
                 if(!(d->cancel == 0))
-                  tmp_if_expr$10 = (_Bool)1;
+                  tmp_if_expr_10 = (_Bool)1;
 
                 else
                 {
-                  return_value_burn_is_aborting$9=burn_is_aborting(0);
-                  tmp_if_expr$10 = return_value_burn_is_aborting$9 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_burn_is_aborting_9=burn_is_aborting(0);
+                  tmp_if_expr_10 = return_value_burn_is_aborting_9 != 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$10)
+                if(tmp_if_expr_10)
                   ret = 0;
 
               }
@@ -10353,16 +10353,16 @@ signed int burn_drive_grab(struct burn_drive *d, signed int le)
 
       ex:
         ;
-        _Bool tmp_if_expr$12;
+        _Bool tmp_if_expr_12;
         if(!(d->cancel == 0))
-          tmp_if_expr$12 = (_Bool)1;
+          tmp_if_expr_12 = (_Bool)1;
 
         else
         {
-          return_value_burn_is_aborting$11=burn_is_aborting(0);
-          tmp_if_expr$12 = return_value_burn_is_aborting$11 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_burn_is_aborting_11=burn_is_aborting(0);
+          tmp_if_expr_12 = return_value_burn_is_aborting_11 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$12)
+        if(tmp_if_expr_12)
         {
           d->unlock(d);
           d->release(d);
@@ -10406,9 +10406,9 @@ signed int burn_drive_grab_dummy(struct burn_drive_info **drive_infos, char *fna
       else
         if(ret == -2)
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          libdax_msgs_submit(libdax_messenger, -1, 0x00020005, 0x60000000, 0x30000000, "Failed to open device (a pseudo-drive)", *return_value___errno_location$1, 0);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          libdax_msgs_submit(libdax_messenger, -1, 0x00020005, 0x60000000, 0x30000000, "Failed to open device (a pseudo-drive)", *return_value___errno_location_1, 0);
           return 0;
         }
 
@@ -10436,10 +10436,10 @@ signed int burn_drive_grab_dummy(struct burn_drive_info **drive_infos, char *fna
       role = 3;
   }
 
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct burn_drive) /*2368ul*/ );
-  d = (struct burn_drive *)return_value_calloc$2;
-  void *return_value_calloc$4;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct burn_drive) /*2368ul*/ );
+  d = (struct burn_drive *)return_value_calloc_2;
+  void *return_value_calloc_4;
   if(d == ((struct burn_drive *)NULL))
     return 0;
 
@@ -10459,13 +10459,13 @@ signed int burn_drive_grab_dummy(struct burn_drive_info **drive_infos, char *fna
       {
         free((void *)(char *)d);
         d = regd_d;
-        _Bool tmp_if_expr$3;
+        _Bool tmp_if_expr_3;
         if(d->drive_role >= 2)
-          tmp_if_expr$3 = d->drive_role <= 5 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = d->drive_role <= 5 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
           if(d->drive_role == 4)
           {
@@ -10514,8 +10514,8 @@ signed int burn_drive_grab_dummy(struct burn_drive_info **drive_infos, char *fna
 
         else
           d->current_profile = 0;
-        return_value_calloc$4=calloc((unsigned long int)2, sizeof(struct burn_drive_info) /*80ul*/ );
-        *drive_infos = (struct burn_drive_info *)return_value_calloc$4;
+        return_value_calloc_4=calloc((unsigned long int)2, sizeof(struct burn_drive_info) /*80ul*/ );
+        *drive_infos = (struct burn_drive_info *)return_value_calloc_4;
         if(!(*drive_infos == ((struct burn_drive_info *)NULL)))
         {
           (*drive_infos + (signed long int)0)->drive = d;
@@ -10621,13 +10621,13 @@ signed int burn_drive_grab_stdio(struct burn_drive *d, signed int flag)
 
   d->released = 0;
   d->current_profile = 0xffff;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(d->drive_role == 2)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = d->drive_role == 3 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = d->drive_role == 3 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     d->status = (enum burn_disc_status)BURN_DISC_BLANK;
 
   else
@@ -10690,9 +10690,9 @@ signed int burn_drive_has_feature(struct burn_drive *d, signed int feature_code,
 // file libburn/drive.c line 1456
 signed int burn_drive_info_forget(struct burn_drive_info *info, signed int force)
 {
-  signed int return_value_burn_drive_forget$1;
-  return_value_burn_drive_forget$1=burn_drive_forget(info->drive, force);
-  return return_value_burn_drive_forget$1;
+  signed int return_value_burn_drive_forget_1;
+  return_value_burn_drive_forget_1=burn_drive_forget(info->drive, force);
+  return return_value_burn_drive_forget_1;
 }
 
 // burn_drive_info_free
@@ -10715,58 +10715,58 @@ void burn_drive_info_free(struct burn_drive_info *drive_infos)
 signed int burn_drive_inquire_media(struct burn_drive *d)
 {
   d->getcaps(d);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(d->current_profile >= 1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = d->current_is_guessed_profile != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$2)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_2 = d->current_is_guessed_profile != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_2)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
     if(d->mdata->p2a_valid >= 1)
     {
       if(!(d->mdata->cdr_write == 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = d->mdata->cdrw_write != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = d->mdata->cdrw_write != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = d->mdata->dvdr_write != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = d->mdata->dvdr_write != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = d->mdata->dvdram_write != 0 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = d->mdata->dvdram_write != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (_Bool)0;
+    tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
     d->read_disc_info(d);
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(d->current_profile == -1)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = d->current_is_cd_profile != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = d->current_is_cd_profile != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       d->read_toc(d);
 
     if(!((signed int)d->status == BURN_DISC_EMPTY))
@@ -10781,7 +10781,7 @@ signed int burn_drive_inquire_media(struct burn_drive *d)
 signed int burn_drive_is_banned(char *device_address)
 {
   signed int i;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(enumeration_whitelist_top >= 0))
     return 0;
 
@@ -10790,8 +10790,8 @@ signed int burn_drive_is_banned(char *device_address)
     i = 0;
     for( ; enumeration_whitelist_top >= i; i = i + 1)
     {
-      return_value_strcmp$1=strcmp(enumeration_whitelist[(signed long int)i], device_address);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(enumeration_whitelist[(signed long int)i], device_address);
+      if(return_value_strcmp_1 == 0)
         return 0;
 
     }
@@ -10803,9 +10803,9 @@ signed int burn_drive_is_banned(char *device_address)
 // file libburn/drive.c line 1947
 signed int burn_drive_is_enumerable_adr(char *adr)
 {
-  signed int return_value_sg_is_enumerable_adr$1;
-  return_value_sg_is_enumerable_adr$1=sg_is_enumerable_adr(adr);
-  return return_value_sg_is_enumerable_adr$1;
+  signed int return_value_sg_is_enumerable_adr_1;
+  return_value_sg_is_enumerable_adr_1=sg_is_enumerable_adr(adr);
+  return return_value_sg_is_enumerable_adr_1;
 }
 
 // burn_drive_is_listed
@@ -10816,17 +10816,17 @@ signed int burn_drive_is_listed(char *path, struct burn_drive **found, signed in
   signed int ret;
   char *drive_adr = (char *)(void *)0;
   char *off_adr = (char *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
-  drive_adr = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
+  drive_adr = (char *)return_value_burn_alloc_mem_1;
   if(drive_adr == ((char *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
-    off_adr = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
+    off_adr = (char *)return_value_burn_alloc_mem_2;
     if(off_adr == ((char *)NULL))
       ret = -1;
 
@@ -10843,9 +10843,9 @@ signed int burn_drive_is_listed(char *path, struct burn_drive **found, signed in
           ret=burn_drive_d_get_adr(&drive_array[(signed long int)i], drive_adr);
           if(ret >= 1)
           {
-            signed int return_value_strcmp$3;
-            return_value_strcmp$3=strcmp(off_adr, drive_adr);
-            if(return_value_strcmp$3 == 0)
+            signed int return_value_strcmp_3;
+            return_value_strcmp_3=strcmp(off_adr, drive_adr);
+            if(return_value_strcmp_3 == 0)
             {
               if(!(found == ((struct burn_drive **)NULL)))
                 *found = &drive_array[(signed long int)i];
@@ -10882,9 +10882,9 @@ signed int burn_drive_is_occupied(struct burn_drive *d)
 
   else
   {
-    signed int return_value_burn_drive_is_open$1;
-    return_value_burn_drive_is_open$1=burn_drive_is_open(d);
-    if(return_value_burn_drive_is_open$1 == 0)
+    signed int return_value_burn_drive_is_open_1;
+    return_value_burn_drive_is_open_1=burn_drive_is_open(d);
+    if(return_value_burn_drive_is_open_1 == 0)
       return -1;
 
     else
@@ -10901,36 +10901,36 @@ signed int burn_drive_is_occupied(struct burn_drive *d)
 
           else
           {
-            _Bool tmp_if_expr$2;
+            _Bool tmp_if_expr_2;
             if((signed int)d->busy == BURN_DRIVE_READING_SYNC)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = (signed int)d->busy == BURN_DRIVE_WRITING_SYNC ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = (signed int)d->busy == BURN_DRIVE_WRITING_SYNC ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
               return 2;
 
             else
             {
-              _Bool tmp_if_expr$3;
+              _Bool tmp_if_expr_3;
               if((signed int)d->busy == BURN_DRIVE_WRITING)
-                tmp_if_expr$3 = (_Bool)1;
+                tmp_if_expr_3 = (_Bool)1;
 
               else
-                tmp_if_expr$3 = (signed int)d->busy == BURN_DRIVE_WRITING_LEADIN ? (_Bool)1 : (_Bool)0;
-              _Bool tmp_if_expr$4;
-              if(tmp_if_expr$3)
-                tmp_if_expr$4 = (_Bool)1;
+                tmp_if_expr_3 = (signed int)d->busy == BURN_DRIVE_WRITING_LEADIN ? (_Bool)1 : (_Bool)0;
+              _Bool tmp_if_expr_4;
+              if(tmp_if_expr_3)
+                tmp_if_expr_4 = (_Bool)1;
 
               else
-                tmp_if_expr$4 = (signed int)d->busy == BURN_DRIVE_WRITING_LEADOUT ? (_Bool)1 : (_Bool)0;
-              _Bool tmp_if_expr$5;
-              if(tmp_if_expr$4)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_4 = (signed int)d->busy == BURN_DRIVE_WRITING_LEADOUT ? (_Bool)1 : (_Bool)0;
+              _Bool tmp_if_expr_5;
+              if(tmp_if_expr_4)
+                tmp_if_expr_5 = (_Bool)1;
 
               else
-                tmp_if_expr$5 = (signed int)d->busy == BURN_DRIVE_WRITING_PREGAP ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$5)
+                tmp_if_expr_5 = (signed int)d->busy == BURN_DRIVE_WRITING_PREGAP ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_5)
                 return 50;
 
               else
@@ -10970,9 +10970,9 @@ signed int burn_drive_is_released(struct burn_drive *d)
 // file libburn/drive.c line 788
 signed int burn_drive_leave_locked(struct burn_drive *d, signed int flag)
 {
-  signed int return_value_burn_drive_release_fl$1;
-  return_value_burn_drive_release_fl$1=burn_drive_release_fl(d, 2);
-  return return_value_burn_drive_release_fl$1;
+  signed int return_value_burn_drive_release_fl_1;
+  return_value_burn_drive_release_fl_1=burn_drive_release_fl(d, 2);
+  return return_value_burn_drive_release_fl_1;
 }
 
 // burn_drive_mark_unready
@@ -11020,9 +11020,9 @@ signed int burn_drive_obtain_scsi_adr(char *path, signed int *bus_no, signed int
   signed int ret;
   signed int i;
   char *adr = (char *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
-  adr = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
+  adr = (char *)return_value_burn_alloc_mem_1;
   if(adr == ((char *)NULL))
     ret = -1;
 
@@ -11041,34 +11041,34 @@ signed int burn_drive_obtain_scsi_adr(char *path, signed int *bus_no, signed int
 
         if(!(ret == 0))
         {
-          signed int return_value_strcmp$5;
-          return_value_strcmp$5=strcmp(adr, path);
-          if(return_value_strcmp$5 == 0)
+          signed int return_value_strcmp_5;
+          return_value_strcmp_5=strcmp(adr, path);
+          if(return_value_strcmp_5 == 0)
           {
             *host_no = drive_array[(signed long int)i].host;
             *channel_no = drive_array[(signed long int)i].channel;
             *target_no = drive_array[(signed long int)i].id;
             *lun_no = drive_array[(signed long int)i].lun;
             *bus_no = drive_array[(signed long int)i].bus_no;
-            _Bool tmp_if_expr$2;
+            _Bool tmp_if_expr_2;
             if(!(*host_no >= 0))
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = *channel_no < 0 ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$3;
-            if(tmp_if_expr$2)
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_2 = *channel_no < 0 ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_3;
+            if(tmp_if_expr_2)
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = *target_no < 0 ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$4;
-            if(tmp_if_expr$3)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_3 = *target_no < 0 ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_4;
+            if(tmp_if_expr_3)
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = *lun_no < 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = *lun_no < 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
             {
               ret = 0;
               goto ex;
@@ -11103,25 +11103,25 @@ signed int burn_drive_probe_cd_write_modes(struct burn_drive_info *dinfo)
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(dinfo->write_dvdram == 0u))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = dinfo->write_dvdr != 0u ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = dinfo->write_dvdr != 0u ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = dinfo->write_cdrw != 0u ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = dinfo->write_cdrw != 0u ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = dinfo->write_cdr != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = dinfo->write_cdr != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       d->probe_write_modes(d);
 
     dinfo->tao_block_types = d->block_types[(signed long int)BURN_WRITE_TAO];
@@ -11197,7 +11197,7 @@ struct burn_drive * burn_drive_register(struct burn_drive *d)
 
   d->global_index = i;
   memcpy((void *)&drive_array[(signed long int)i], (const void *)d, sizeof(struct burn_drive) /*2368ul*/ );
-  pthread_mutex_init(&drive_array[(signed long int)i].access_lock, (const union anonymous$1 *)(void *)0);
+  pthread_mutex_init(&drive_array[(signed long int)i].access_lock, (const union anonymous_1 *)(void *)0);
   if(!(drivetop >= i))
     drivetop = i;
 
@@ -11285,26 +11285,26 @@ signed int burn_drive_resolve_link(char *path, char *adr, signed int *recursion_
   char *link_adr = (char *)(void *)0;
   char *adrpt;
   struct stat stbuf;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)link_target_size, 0);
-  link_target = (char *)return_value_burn_alloc_mem$1;
-  signed long int return_value_readlink$4;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)link_target_size, 0);
+  link_target = (char *)return_value_burn_alloc_mem_1;
+  signed long int return_value_readlink_4;
   if(link_target == ((char *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(link_target_size + 100), 0);
-    msg = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(link_target_size + 100), 0);
+    msg = (char *)return_value_burn_alloc_mem_2;
     if(msg == ((char *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)link_target_size, 0);
-      link_adr = (char *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)link_target_size, 0);
+      link_adr = (char *)return_value_burn_alloc_mem_3;
       if(link_adr == ((char *)NULL))
         ret = -1;
 
@@ -11324,8 +11324,8 @@ signed int burn_drive_resolve_link(char *path, char *adr, signed int *recursion_
         else
         {
           *recursion_count = *recursion_count + 1;
-          return_value_readlink$4=readlink(path, link_target, (unsigned long int)link_target_size);
-          ret = (signed int)return_value_readlink$4;
+          return_value_readlink_4=readlink(path, link_target, (unsigned long int)link_target_size);
+          ret = (signed int)return_value_readlink_4;
           if(ret == -1)
           {
             if(!((1 & flag) == 0))
@@ -11364,9 +11364,9 @@ signed int burn_drive_resolve_link(char *path, char *adr, signed int *recursion_
 
               if(!((2 & flag) == 0))
               {
-                signed int return_value_lstat$5;
-                return_value_lstat$5=lstat(adrpt, &stbuf);
-                if(!(return_value_lstat$5 == -1))
+                signed int return_value_lstat_5;
+                return_value_lstat_5=lstat(adrpt, &stbuf);
+                if(!(return_value_lstat_5 == -1))
                 {
                   if((61440u & stbuf.st_mode) == 40960u)
                     ret=burn_drive_resolve_link(adrpt, adr, recursion_count, flag);
@@ -11441,9 +11441,9 @@ signed int burn_drive_scan(struct burn_drive_info **drives, unsigned int *n_driv
       ;
       if(workers == ((struct w_list *)NULL))
       {
-        signed int return_value_burn_drives_are_clear$1;
-        return_value_burn_drives_are_clear$1=burn_drives_are_clear(1);
-        if(return_value_burn_drives_are_clear$1 == 0)
+        signed int return_value_burn_drives_are_clear_1;
+        return_value_burn_drives_are_clear_1=burn_drives_are_clear(1);
+        if(return_value_burn_drives_are_clear_1 == 0)
           goto drive_is_active;
 
         *drives = (struct burn_drive_info *)(void *)0;
@@ -11478,12 +11478,12 @@ signed int burn_drive_scan_and_grab(struct burn_drive_info **drive_infos, char *
   unsigned int n_drives;
   signed int ret;
   signed int i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; drivetop >= i; i = i + 1)
     if(drive_array[(signed long int)i].global_index >= 0)
     {
-      return_value_strcmp$1=strcmp(drive_array[(signed long int)i].devname, adr);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(drive_array[(signed long int)i].devname, adr);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -11496,9 +11496,9 @@ signed int burn_drive_scan_and_grab(struct burn_drive_info **drive_infos, char *
 
   else
   {
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(adr, "stdio:", (unsigned long int)6);
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(adr, "stdio:", (unsigned long int)6);
+    if(return_value_strncmp_2 == 0)
     {
       ret=burn_drive_grab_dummy(drive_infos, adr + (signed long int)6);
       return ret;
@@ -11559,9 +11559,9 @@ signed int burn_drive_scan_sync(struct burn_drive_info **drives, unsigned int *n
   count=burn_drive_count();
   if(!(count == 0u))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)(count + (unsigned int)1), sizeof(struct burn_drive_info) /*80ul*/ );
-    *drives = (struct burn_drive_info *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)(count + (unsigned int)1), sizeof(struct burn_drive_info) /*80ul*/ );
+    *drives = (struct burn_drive_info *)return_value_calloc_1;
     if(*drives == ((struct burn_drive_info *)NULL))
     {
       libdax_msgs_submit(libdax_messenger, -1, 0x00000003, 0x70000000, 0x30000000, "Out of virtual memory", 0, 0);
@@ -11611,44 +11611,44 @@ signed int burn_drive_scan_sync(struct burn_drive_info **drives, unsigned int *n
 signed int burn_drive_send_default_page_05(struct burn_drive *d, signed int flag)
 {
   struct burn_write_opts *opts;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(!(d->sent_default_page_05 == 0))
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if((signed int)d->status == BURN_DISC_APPENDABLE)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)d->status == BURN_DISC_BLANK ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$5;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)d->status == BURN_DISC_BLANK ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_5;
+    if(tmp_if_expr_1)
     {
       if(!(d->current_is_cd_profile == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = d->current_profile == 0x11 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = d->current_profile == 0x11 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(!tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(!tmp_if_expr_5)
       return 0;
 
     else
@@ -11814,9 +11814,9 @@ signed int burn_drive_wrote_well(struct burn_drive *d)
 signed int burn_drives_are_clear(signed int flag)
 {
   signed int i;
-  unsigned int return_value_burn_drive_count$1;
-  return_value_burn_drive_count$1=burn_drive_count();
-  i = (signed int)(return_value_burn_drive_count$1 - (unsigned int)1);
+  unsigned int return_value_burn_drive_count_1;
+  return_value_burn_drive_count_1=burn_drive_count();
+  i = (signed int)(return_value_burn_drive_count_1 - (unsigned int)1);
   for( ; i >= 0; i = i - 1)
   {
     if(!(drive_array[(signed long int)i].global_index == -1))
@@ -11864,30 +11864,30 @@ signed int burn_dvd_write_session(struct burn_write_opts *o, struct burn_session
   i = 0;
   for( ; !(i >= s->tracks); i = i + 1)
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(is_last_session == 0))
-      tmp_if_expr$1 = i == s->tracks - 1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = i == s->tracks - 1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    ret=burn_dvd_write_track(o, s, i, (signed int)tmp_if_expr$1);
+      tmp_if_expr_1 = (_Bool)0;
+    ret=burn_dvd_write_track(o, s, i, (signed int)tmp_if_expr_1);
     if(!(ret >= 1))
       break;
 
   }
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(d->current_profile == 0x11)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
     if(!(d->was_feat21h_failure == 2))
     {
@@ -11906,13 +11906,13 @@ signed int burn_dvd_write_session(struct burn_write_opts *o, struct burn_session
 
   else
   {
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(d->current_profile == 0x12)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
     {
       if(d->current_profile == 0x13)
       {
@@ -11941,12 +11941,12 @@ signed int burn_dvd_write_session(struct burn_write_opts *o, struct burn_session
 
         else
         {
-          _Bool tmp_if_expr$2;
+          _Bool tmp_if_expr_2;
           if(d->current_profile == 0x1b)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
         }
     }
 
@@ -11965,9 +11965,9 @@ signed int burn_dvd_write_sync(struct burn_write_opts *o, struct burn_disc *disc
   struct burn_drive *d = o->drive;
   struct burn_track *t;
   char *msg = (char *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -11975,19 +11975,19 @@ signed int burn_dvd_write_sync(struct burn_write_opts *o, struct burn_disc *disc
   {
     d->needs_close_session = 0;
     o->obs = 32 * 1024;
-    _Bool tmp_if_expr$10;
+    _Bool tmp_if_expr_10;
     if(d->current_profile == 0x1a)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$11;
-    if(tmp_if_expr$10)
-      tmp_if_expr$11 = (_Bool)1;
+      tmp_if_expr_10 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_11;
+    if(tmp_if_expr_10)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
-      tmp_if_expr$11 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$11)
+      tmp_if_expr_11 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_11)
     {
       ret = 1;
       if(d->current_profile == 0x1a)
@@ -12042,30 +12042,30 @@ signed int burn_dvd_write_sync(struct burn_write_opts *o, struct burn_disc *disc
 
       else
       {
-        _Bool tmp_if_expr$8;
+        _Bool tmp_if_expr_8;
         if(d->current_profile == 0x11)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$9;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_8 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_9;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
         {
           t = disc->session[(signed long int)0]->track[(signed long int)0];
-          signed int return_value_burn_track_is_open_ended$2;
-          return_value_burn_track_is_open_ended$2=burn_track_is_open_ended(t);
-          _Bool tmp_if_expr$3;
-          if(!(return_value_burn_track_is_open_ended$2 == 0))
-            tmp_if_expr$3 = !(o->fill_up_media != 0) ? (_Bool)1 : (_Bool)0;
+          signed int return_value_burn_track_is_open_ended_2;
+          return_value_burn_track_is_open_ended_2=burn_track_is_open_ended(t);
+          _Bool tmp_if_expr_3;
+          if(!(return_value_burn_track_is_open_ended_2 == 0))
+            tmp_if_expr_3 = !(o->fill_up_media != 0) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          o_end = (signed int)tmp_if_expr$3;
+            tmp_if_expr_3 = (_Bool)0;
+          o_end = (signed int)tmp_if_expr_3;
           default_size=burn_track_get_default_size(t);
           if((signed int)o->write_type == BURN_WRITE_SAO)
           {
@@ -12093,30 +12093,30 @@ signed int burn_dvd_write_sync(struct burn_write_opts *o, struct burn_disc *disc
 
         else
         {
-          _Bool tmp_if_expr$6;
+          _Bool tmp_if_expr_6;
           if(d->current_profile == 0x1b)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
-          _Bool tmp_if_expr$7;
-          if(tmp_if_expr$6)
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_6 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
+          _Bool tmp_if_expr_7;
+          if(tmp_if_expr_6)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_7)
           {
             t = disc->session[(signed long int)0]->track[(signed long int)0];
-            signed int return_value_burn_track_is_open_ended$4;
-            return_value_burn_track_is_open_ended$4=burn_track_is_open_ended(t);
-            _Bool tmp_if_expr$5;
-            if(!(return_value_burn_track_is_open_ended$4 == 0))
-              tmp_if_expr$5 = !(o->fill_up_media != 0) ? (_Bool)1 : (_Bool)0;
+            signed int return_value_burn_track_is_open_ended_4;
+            return_value_burn_track_is_open_ended_4=burn_track_is_open_ended(t);
+            _Bool tmp_if_expr_5;
+            if(!(return_value_burn_track_is_open_ended_4 == 0))
+              tmp_if_expr_5 = !(o->fill_up_media != 0) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$5 = (_Bool)0;
-            o_end = (signed int)tmp_if_expr$5;
+              tmp_if_expr_5 = (_Bool)0;
+            o_end = (signed int)tmp_if_expr_5;
             default_size=burn_track_get_default_size(t);
             if((signed int)o->write_type == BURN_WRITE_SAO)
             {
@@ -12166,13 +12166,13 @@ signed int burn_dvd_write_sync(struct burn_write_opts *o, struct burn_disc *disc
 
     if(!(d->do_stream_recording == 0))
     {
-      _Bool tmp_if_expr$12;
+      _Bool tmp_if_expr_12;
       if(d->current_profile == 0x43)
-        tmp_if_expr$12 = (_Bool)1;
+        tmp_if_expr_12 = (_Bool)1;
 
       else
-        tmp_if_expr$12 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$12)
+        tmp_if_expr_12 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_12)
       {
         if(!(o->obs >= 64))
         {
@@ -12247,19 +12247,19 @@ signed int burn_dvd_write_track(struct burn_write_opts *o, struct burn_session *
   signed int further_cap = 0;
   signed int buf_cap_step = 1024;
   burn_track_apply_fillup(t, d->media_capacity_remaining, 0);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(d->current_profile == 0x11)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     ret=burn_disc_open_track_dvd_minus_r(o, s, tnum);
     if(!(ret >= 1))
@@ -12271,13 +12271,13 @@ signed int burn_dvd_write_track(struct burn_write_opts *o, struct burn_session *
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(d->current_profile == 0x1b)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       ret=burn_disc_open_track_dvd_plus_r(o, s, tnum);
       if(!(ret >= 1))
@@ -12310,9 +12310,9 @@ signed int burn_dvd_write_track(struct burn_write_opts *o, struct burn_session *
 
     }
 
-    signed int return_value_sector_data$4;
-    return_value_sector_data$4=sector_data(o, t, 0);
-    if(return_value_sector_data$4 == 0)
+    signed int return_value_sector_data_4;
+    return_value_sector_data_4=sector_data(o, t, 0);
+    if(return_value_sector_data_4 == 0)
     {
       ret = 0;
       goto ex;
@@ -12322,9 +12322,9 @@ signed int burn_dvd_write_track(struct burn_write_opts *o, struct burn_session *
     {
       sectors = i;
       d->progress.sectors = sectors;
-      signed int return_value_burn_track_is_data_done$5;
-      return_value_burn_track_is_data_done$5=burn_track_is_data_done(t);
-      if(!(return_value_burn_track_is_data_done$5 == 0))
+      signed int return_value_burn_track_is_data_done_5;
+      return_value_burn_track_is_data_done_5=burn_track_is_data_done(t);
+      if(!(return_value_burn_track_is_data_done_5 == 0))
         break;
 
     }
@@ -12350,19 +12350,19 @@ signed int burn_dvd_write_track(struct burn_write_opts *o, struct burn_session *
   if(ret >= 1)
   {
     is_flushed = 1;
-    _Bool tmp_if_expr$7;
+    _Bool tmp_if_expr_7;
     if(d->current_profile == 0x11)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$8;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_7 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_8;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
     {
       ret=burn_disc_close_track_dvd_minus_r(o, tnum);
       if(!(ret >= 1))
@@ -12372,13 +12372,13 @@ signed int burn_dvd_write_track(struct burn_write_opts *o, struct burn_session *
 
     else
     {
-      _Bool tmp_if_expr$6;
+      _Bool tmp_if_expr_6;
       if(d->current_profile == 0x1b)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
         ret=burn_disc_close_track_dvd_plus_r(o, tnum, is_last_track);
         if(!(ret >= 1))
@@ -12433,9 +12433,9 @@ struct burn_source * burn_fd_source_new(signed int datafd, signed int subfd, sig
 
   else
   {
-    void *return_value_burn_alloc_mem$1;
-    return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct burn_source_file) /*24ul*/ , (unsigned long int)1, 0);
-    fs = (struct burn_source_file *)return_value_burn_alloc_mem$1;
+    void *return_value_burn_alloc_mem_1;
+    return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct burn_source_file) /*24ul*/ , (unsigned long int)1, 0);
+    fs = (struct burn_source_file *)return_value_burn_alloc_mem_1;
     if(fs == ((struct burn_source_file *)NULL))
       return (struct burn_source *)(void *)0;
 
@@ -12503,9 +12503,9 @@ signed int burn_feature_descr_new(struct burn_feature_descr **new, unsigned char
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_feature_descr) /*24ul*/ );
-    o = (struct burn_feature_descr *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_feature_descr) /*24ul*/ );
+    o = (struct burn_feature_descr *)return_value_calloc_1;
     *new = o;
     if(o == ((struct burn_feature_descr *)NULL))
       return -1;
@@ -12523,9 +12523,9 @@ signed int burn_feature_descr_new(struct burn_feature_descr **new, unsigned char
       o->next = (struct burn_feature_descr *)(void *)0;
       if((signed int)o->data_lenght >= 1)
       {
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, (unsigned long int)o->data_lenght);
-        o->data = (unsigned char *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, (unsigned long int)o->data_lenght);
+        o->data = (unsigned char *)return_value_calloc_2;
         if(o->data == ((unsigned char *)NULL))
         {
           burn_feature_descr_free(new, 0);
@@ -12546,13 +12546,13 @@ signed int burn_fifo_abort(struct burn_source_fifo *fs, signed int flag)
 {
   signed int ret;
   unsigned long int pt;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(fs->thread_is_valid >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = fs->thread_handle == (void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = fs->thread_handle == (void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 2;
 
   else
@@ -12578,9 +12578,9 @@ signed int burn_fifo_cancel(struct burn_source *source)
 // file libburn/file.c line 755
 signed int burn_fifo_fill(struct burn_source *source, signed int bufsize, signed int flag)
 {
-  signed int return_value_burn_fifo_fill_data$1;
-  return_value_burn_fifo_fill_data$1=burn_fifo_fill_data(source, (char *)(void *)0, bufsize, 1 | (flag & 1) << 1);
-  return return_value_burn_fifo_fill_data$1;
+  signed int return_value_burn_fifo_fill_data_1;
+  return_value_burn_fifo_fill_data_1=burn_fifo_fill_data(source, (char *)(void *)0, bufsize, 1 | (flag & 1) << 1);
+  return return_value_burn_fifo_fill_data_1;
 }
 
 // burn_fifo_fill_data
@@ -12637,13 +12637,13 @@ signed int burn_fifo_fill_data(struct burn_source *source, char *buf, signed int
         }
       }
 
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(fs->out_counter >= 1l || !((4 & ret) == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = fs->buf == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = fs->buf == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         libdax_msgs_submit(libdax_messenger, -1, 0x0002015e, 0x70000000, 0x30000000, "Fifo is already under consumption when peeking is desired", 0, 0);
         ret = -1;
@@ -12783,9 +12783,9 @@ void burn_fifo_next_interval(struct burn_source *source, signed int *interval_mi
 // file libburn/file.c line 747
 signed int burn_fifo_peek_data(struct burn_source *source, char *buf, signed int bufsize, signed int flag)
 {
-  signed int return_value_burn_fifo_fill_data$1;
-  return_value_burn_fifo_fill_data$1=burn_fifo_fill_data(source, buf, bufsize, 0);
-  return return_value_burn_fifo_fill_data$1;
+  signed int return_value_burn_fifo_fill_data_1;
+  return_value_burn_fifo_fill_data_1=burn_fifo_fill_data(source, buf, bufsize, 0);
+  return return_value_burn_fifo_fill_data_1;
 }
 
 // burn_fifo_source_new
@@ -12809,9 +12809,9 @@ struct burn_source * burn_fifo_source_new(struct burn_source *inp, signed int ch
 
     else
     {
-      void *return_value_burn_alloc_mem$1;
-      return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct burn_source_fifo) /*128ul*/ , (unsigned long int)1, 0);
-      fs = (struct burn_source_fifo *)return_value_burn_alloc_mem$1;
+      void *return_value_burn_alloc_mem_1;
+      return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct burn_source_fifo) /*128ul*/ , (unsigned long int)1, 0);
+      fs = (struct burn_source_fifo *)return_value_burn_alloc_mem_1;
       if(fs == ((struct burn_source_fifo *)NULL))
         return (struct burn_source *)(void *)0;
 
@@ -12932,9 +12932,9 @@ signed int burn_fifo_source_shoveller(struct burn_source *source, signed int fla
     bufpt = fs->buf + (signed long int)wpos;
     if(!(trans_end == 0))
     {
-      void *return_value_burn_os_alloc_buffer$1;
-      return_value_burn_os_alloc_buffer$1=burn_os_alloc_buffer((unsigned long int)fs->inp_read_size, 0);
-      bufpt = (char *)return_value_burn_os_alloc_buffer$1;
+      void *return_value_burn_os_alloc_buffer_1;
+      return_value_burn_os_alloc_buffer_1=burn_os_alloc_buffer((unsigned long int)fs->inp_read_size, 0);
+      bufpt = (char *)return_value_burn_os_alloc_buffer_1;
       if(bufpt == ((char *)NULL))
       {
         libdax_msgs_submit(libdax_messenger, -1, 0x00000003, 0x70000000, 0x30000000, "Out of virtual memory", 0, 0);
@@ -12953,15 +12953,15 @@ signed int burn_fifo_source_shoveller(struct burn_source *source, signed int fla
     {
       if(!(ret >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        libdax_msgs_submit(libdax_messenger, -1, 0x00020153, 0x60000000, 0x30000000, "Read error on fifo input", *return_value___errno_location$2, 0);
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        fs->input_error = *return_value___errno_location$3;
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(*return_value___errno_location$4 == 0)
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        libdax_msgs_submit(libdax_messenger, -1, 0x00020153, 0x60000000, 0x30000000, "Read error on fifo input", *return_value___errno_location_2, 0);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        fs->input_error = *return_value___errno_location_3;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(*return_value___errno_location_4 == 0)
           fs->input_error = 5;
 
       }
@@ -13025,9 +13025,9 @@ signed int burn_fifo_start(struct burn_source *source, signed int flag)
   union w_list_data o;
   struct burn_source_fifo *fs = (struct burn_source_fifo *)source->data;
   fs->is_started = -1;
-  void *return_value_burn_os_alloc_buffer$1;
-  return_value_burn_os_alloc_buffer$1=burn_os_alloc_buffer((unsigned long int)fs->chunksize * (unsigned long int)fs->chunks, 0);
-  fs->buf = (char *)return_value_burn_os_alloc_buffer$1;
+  void *return_value_burn_os_alloc_buffer_1;
+  return_value_burn_os_alloc_buffer_1=burn_os_alloc_buffer((unsigned long int)fs->chunksize * (unsigned long int)fs->chunks, 0);
+  fs->buf = (char *)return_value_burn_os_alloc_buffer_1;
   if(fs->buf == ((char *)NULL))
     return -1;
 
@@ -13074,9 +13074,9 @@ struct burn_source * burn_file_source_new(const char *path, const char *subpath)
 
       __CPROVER_DUMP_L3:
         ;
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_source_file) /*24ul*/ );
-        fs = (struct burn_source_file *)return_value_calloc$1;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_source_file) /*24ul*/ );
+        fs = (struct burn_source_file *)return_value_calloc_1;
         if(fs == ((struct burn_source_file *)NULL))
         {
 
@@ -13126,9 +13126,9 @@ static signed int burn_finalize_text_pack(struct burn_pack_cursor *crs, signed i
   for( ; !(i >= 16); i = i + 1)
     crs->packs[(signed long int)(idx + i)] = (unsigned char)0;
   crs->td_used = 12;
-  signed int return_value_crc_11021$1;
-  return_value_crc_11021$1=crc_11021(crs->packs + (signed long int)idx, 16, 0);
-  residue = return_value_crc_11021$1 ^ 0xffff;
+  signed int return_value_crc_11021_1;
+  return_value_crc_11021_1=crc_11021(crs->packs + (signed long int)idx, 16, 0);
+  residue = return_value_crc_11021_1 ^ 0xffff;
   crs->packs[(signed long int)(idx + 16)] = (unsigned char)(residue >> 8 & 0xff);
   crs->packs[(signed long int)(idx + 17)] = (unsigned char)(residue & 0xff);
   crs->num_packs = crs->num_packs + 1;
@@ -13142,9 +13142,9 @@ void burn_finish(void)
 {
   if(!(burn_running == 0))
   {
-    signed int return_value_burn_drives_are_clear$1;
-    return_value_burn_drives_are_clear$1=burn_drives_are_clear(0);
-    if(return_value_burn_drives_are_clear$1 == 0)
+    signed int return_value_burn_drives_are_clear_1;
+    return_value_burn_drives_are_clear_1=burn_drives_are_clear(0);
+    if(return_value_burn_drives_are_clear_1 == 0)
     {
       libdax_msgs_submit(libdax_messenger, -1, 0x00020107, 0x50000000, 0x30000000, "A drive is still busy on shutdown of library", 0, 0);
       usleep((unsigned int)1000001);
@@ -13180,9 +13180,9 @@ double burn_get_time(signed int flag)
 
   else
   {
-    signed long int return_value_time$1;
-    return_value_time$1=time((signed long int *)(void *)0);
-    return (double)return_value_time$1;
+    signed long int return_value_time_1;
+    return_value_time_1=time((signed long int *)(void *)0);
+    return (double)return_value_time_1;
   }
 }
 
@@ -13207,9 +13207,9 @@ signed int burn_grab_restore_sig_action(signed int signal_action_mem, signed int
   if(signal_action_mem >= 0)
     burn_builtin_signal_action = signal_action_mem;
 
-  signed int return_value_burn_is_aborting$1;
-  return_value_burn_is_aborting$1=burn_is_aborting(0);
-  if(!(return_value_burn_is_aborting$1 == 0))
+  signed int return_value_burn_is_aborting_1;
+  return_value_burn_is_aborting_1=burn_is_aborting(0);
+  if(!(return_value_burn_is_aborting_1 == 0))
   {
     if(signal_action_mem >= 0)
     {
@@ -13339,13 +13339,13 @@ char * burn_guess_cd_manufacturer(signed int m_li, signed int s_li, signed int f
       {
         if(s_li == mid_list[(signed long int)i].s_li)
         {
-          _Bool tmp_if_expr$1;
+          _Bool tmp_if_expr_1;
           if(f_li_0 == mid_list[(signed long int)i].f_li)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = f_li == mid_list[(signed long int)i].f_li ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = f_li == mid_list[(signed long int)i].f_li ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             break;
 
         }
@@ -13361,13 +13361,13 @@ char * burn_guess_cd_manufacturer(signed int m_li, signed int s_li, signed int f
 
     else
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!((1 & flag) == 0))
-        tmp_if_expr$2 = mid_list[(signed long int)i].other_brands[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = mid_list[(signed long int)i].other_brands[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         sprintf(buf, "%s  (aka %s)", mid_list[(signed long int)i].manufacturer, mid_list[(signed long int)i].other_brands);
         result=strdup(buf);
@@ -13395,12 +13395,12 @@ char * burn_guess_manufacturer(signed int prf, char *media_code1, char *media_co
   char buf[1024l];
   char *result = (char *)(void *)0;
   char *cpt;
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   if(!(media_code2 == ((char *)NULL)) && (prf == 0x09 || prf == 0x0A || prf == -1))
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(media_code2);
-    if(return_value_strlen$2 == 9ul)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(media_code2);
+    if(return_value_strlen_2 == 9ul)
     {
       if((signed int)*media_code1 == 57)
       {
@@ -13410,8 +13410,8 @@ char * burn_guess_manufacturer(signed int prf, char *media_code1, char *media_co
           {
             if((signed int)media_code1[8l] == 102)
             {
-              return_value_strchr$1=strchr(media_code1, 37);
-              if(return_value_strchr$1 == ((char *)NULL))
+              return_value_strchr_1=strchr(media_code1, 37);
+              if(return_value_strchr_1 == ((char *)NULL))
               {
                 __isoc99_sscanf(media_code1, "%dm%ds%df", &m_li, &s_li, &f_li);
                 __isoc99_sscanf(media_code2, "%dm%ds%df", &m_lo, &s_lo, &f_lo);
@@ -13440,7 +13440,7 @@ char * burn_guess_manufacturer(signed int prf, char *media_code1, char *media_co
     l = (signed int)(cpt - media_code1);
 
   i = 0;
-  signed int return_value_strncmp$4;
+  signed int return_value_strncmp_4;
   static struct dvd_mid_record mid_list[45l] = { { .mc1="AML", .mc1_sig_len=8, .manufacturer="UML" },
     { .mc1="BeAll", .mc1_sig_len=5, .manufacturer="BeAll Developers, Inc." },
     { .mc1="CMC", .mc1_sig_len=3, .manufacturer="CMC Magnetics Corporation" },
@@ -13488,15 +13488,15 @@ char * burn_guess_manufacturer(signed int prf, char *media_code1, char *media_co
     { .mc1="", .mc1_sig_len=0, .manufacturer="" } };
   for( ; !(*mid_list[(signed long int)i].mc1 == 0); i = i + 1)
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(mid_list[(signed long int)i].mc1, media_code1, (unsigned long int)mid_list[(signed long int)i].mc1_sig_len);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(mid_list[(signed long int)i].mc1, media_code1, (unsigned long int)mid_list[(signed long int)i].mc1_sig_len);
+    if(return_value_strncmp_3 == 0)
       break;
 
     if(l >= 1)
     {
-      return_value_strncmp$4=strncmp(mid_list[(signed long int)i].mc1, media_code1, (unsigned long int)l);
-      if(return_value_strncmp$4 == 0)
+      return_value_strncmp_4=strncmp(mid_list[(signed long int)i].mc1, media_code1, (unsigned long int)l);
+      if(return_value_strncmp_4 == 0)
         break;
 
     }
@@ -13520,24 +13520,24 @@ char * burn_guess_manufacturer(signed int prf, char *media_code1, char *media_co
 // file libburn/init.h line 35
 signed int burn_init_catch_on_abort(signed int flag)
 {
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   if(!(burn_builtin_triggered_action == 2))
     return 0;
 
   else
   {
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    _Bool tmp_if_expr$3;
-    if(!(abort_control_pid == return_value_getpid$1))
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    _Bool tmp_if_expr_3;
+    if(!(abort_control_pid == return_value_getpid_1))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_pthread_self$2=pthread_self();
-      tmp_if_expr$3 = abort_control_thread != return_value_pthread_self$2 ? (_Bool)1 : (_Bool)0;
+      return_value_pthread_self_2=pthread_self();
+      tmp_if_expr_3 = abort_control_thread != return_value_pthread_self_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return 1;
 
     else
@@ -13657,32 +13657,32 @@ signed int burn_lookup_device_link(char *dev_adr, char *link_adr, char *dir_adr,
     rank_count = 5;
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(dir_adr);
-  dirlen = (signed int)(return_value_strlen$1 + (unsigned long int)1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(dir_adr);
-  unsigned long int return_value_strlen$5;
-  unsigned long int return_value_strlen$8;
-  signed int return_value_strncmp$9;
-  _Bool tmp_if_expr$11;
-  signed int return_value_strcmp$10;
-  if(1ul + return_value_strlen$2 >= 1024ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(dir_adr);
+  dirlen = (signed int)(return_value_strlen_1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(dir_adr);
+  unsigned long int return_value_strlen_5;
+  unsigned long int return_value_strlen_8;
+  signed int return_value_strncmp_9;
+  _Bool tmp_if_expr_11;
+  signed int return_value_strcmp_10;
+  if(1ul + return_value_strlen_2 >= 1024ul)
     ret = 0;
 
   else
   {
-    void *return_value_burn_alloc_mem$3;
-    return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
-    adr = (char *)return_value_burn_alloc_mem$3;
+    void *return_value_burn_alloc_mem_3;
+    return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
+    adr = (char *)return_value_burn_alloc_mem_3;
     if(adr == ((char *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$4;
-      return_value_burn_alloc_mem$4=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
-      sys_adr = (char *)return_value_burn_alloc_mem$4;
+      void *return_value_burn_alloc_mem_4;
+      return_value_burn_alloc_mem_4=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)1024, 0);
+      sys_adr = (char *)return_value_burn_alloc_mem_4;
       if(sys_adr == ((char *)NULL))
         ret = -1;
 
@@ -13696,51 +13696,51 @@ signed int burn_lookup_device_link(char *dev_adr, char *link_adr, char *dir_adr,
         {
           strcpy(adr, dir_adr);
           strcat(adr, "/");
-          return_value_strlen$5=strlen(dir_adr);
-          namept = adr + (signed long int)return_value_strlen$5 + (signed long int)1;
+          return_value_strlen_5=strlen(dir_adr);
+          namept = adr + (signed long int)return_value_strlen_5 + (signed long int)1;
           while((_Bool)1)
           {
             entry=readdir(dirpt);
             if(entry == ((struct dirent *)NULL))
               break;
 
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen(entry->d_name);
-            if(!(return_value_strlen$6 + (unsigned long int)dirlen >= 1024ul))
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen(entry->d_name);
+            if(!(return_value_strlen_6 + (unsigned long int)dirlen >= 1024ul))
             {
               strcpy(namept, entry->d_name);
-              signed int return_value_lstat$7;
-              return_value_lstat$7=lstat(adr, &link_stbuf);
-              if(!(return_value_lstat$7 == -1))
+              signed int return_value_lstat_7;
+              return_value_lstat_7=lstat(adr, &link_stbuf);
+              if(!(return_value_lstat_7 == -1))
               {
                 if((61440u & link_stbuf.st_mode) == 40960u)
                 {
                   name_rank = 0;
                   for( ; !(name_rank >= rank_count); name_rank = name_rank + 1)
                   {
-                    return_value_strlen$8=strlen(ranks[(signed long int)name_rank]);
-                    return_value_strncmp$9=strncmp(namept, ranks[(signed long int)name_rank], return_value_strlen$8);
-                    if(return_value_strncmp$9 == 0)
+                    return_value_strlen_8=strlen(ranks[(signed long int)name_rank]);
+                    return_value_strncmp_9=strncmp(namept, ranks[(signed long int)name_rank], return_value_strlen_8);
+                    if(return_value_strncmp_9 == 0)
                       break;
 
                   }
-                  _Bool tmp_if_expr$12;
+                  _Bool tmp_if_expr_12;
                   if(name_rank >= rank_count || !(found_rank >= name_rank))
-                    tmp_if_expr$12 = (_Bool)1;
+                    tmp_if_expr_12 = (_Bool)1;
 
                   else
                   {
                     if(name_rank == found_rank)
                     {
-                      return_value_strcmp$10=strcmp(namept, link_adr + (signed long int)dirlen);
-                      tmp_if_expr$11 = return_value_strcmp$10 >= 0 ? (_Bool)1 : (_Bool)0;
+                      return_value_strcmp_10=strcmp(namept, link_adr + (signed long int)dirlen);
+                      tmp_if_expr_11 = return_value_strcmp_10 >= 0 ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$11 = (_Bool)0;
-                    tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_11 = (_Bool)0;
+                    tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(!tmp_if_expr$12)
+                  if(!tmp_if_expr_12)
                   {
                     ret=burn_drive_resolve_link(adr, sys_adr, &rec_count, 2);
                     if(!(ret >= 0))
@@ -13748,9 +13748,9 @@ signed int burn_lookup_device_link(char *dev_adr, char *link_adr, char *dir_adr,
 
                     if(!(ret == 0))
                     {
-                      signed int return_value_strcmp$13;
-                      return_value_strcmp$13=strcmp(dev_adr, sys_adr);
-                      if(return_value_strcmp$13 == 0)
+                      signed int return_value_strcmp_13;
+                      return_value_strcmp_13=strcmp(dev_adr, sys_adr);
+                      if(return_value_strcmp_13 == 0)
                       {
                         strcpy(link_adr, adr);
                         found_rank = name_rank;
@@ -13803,9 +13803,9 @@ signed int burn_make_input_sheet_v07t(unsigned char *text_packs, signed int num_
   else
   {
     result_size = ret + 1;
-    void *return_value_burn_alloc_mem$1;
-    return_value_burn_alloc_mem$1=burn_alloc_mem((unsigned long int)result_size, (unsigned long int)1, 0);
-    *result = (char *)return_value_burn_alloc_mem$1;
+    void *return_value_burn_alloc_mem_1;
+    return_value_burn_alloc_mem_1=burn_alloc_mem((unsigned long int)result_size, (unsigned long int)1, 0);
+    *result = (char *)return_value_burn_alloc_mem_1;
     if(*result == ((char *)NULL))
       return -1;
 
@@ -13864,19 +13864,19 @@ static signed int burn_make_v07t(unsigned char *text_packs, signed int num_packs
       ;
       if(!(first_tno >= 1))
       {
-        _Bool tmp_if_expr$1;
+        _Bool tmp_if_expr_1;
         if((signed int)pack[5l] >= 1)
-          tmp_if_expr$1 = (signed int)pack[(signed long int)5] + (signed int)pack[(signed long int)6] < 100 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)pack[(signed long int)5] + (signed int)pack[(signed long int)6] < 100 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        _Bool tmp_if_expr$2;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (signed int)pack[(signed long int)5] <= (signed int)pack[(signed long int)6] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        _Bool tmp_if_expr_2;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (signed int)pack[(signed long int)5] <= (signed int)pack[(signed long int)6] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
         {
           first_tno = (signed int)pack[(signed long int)5];
           last_tno = (signed int)pack[(signed long int)6];
@@ -13978,7 +13978,7 @@ signed int burn_msgs_obtain(char *minimum_severity, signed int *error_code, char
   char *sev_name;
   struct libdax_msgs_item *item = (struct libdax_msgs_item *)(void *)0;
   ret=libdax_msgs__text_to_sev(minimum_severity, &minimum_sevno, 0);
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(ret >= 1))
     return 0;
 
@@ -13995,8 +13995,8 @@ signed int burn_msgs_obtain(char *minimum_severity, signed int *error_code, char
         if(ret >= 1)
         {
           strncpy(msg_text, textpt, (unsigned long int)(4096 - 1));
-          return_value_strlen$1=strlen(textpt);
-          if(return_value_strlen$1 >= 4096ul)
+          return_value_strlen_1=strlen(textpt);
+          if(return_value_strlen_1 >= 4096ul)
             msg_text[(signed long int)(4096 - 1)] = (char)0;
 
           severity[(signed long int)0] = (char)0;
@@ -14123,9 +14123,9 @@ signed int burn_msgs_submit(signed int error_code, char *msg_text, signed int os
 struct burn_source * burn_null_source_new(void)
 {
   struct burn_source *src;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_source) /*88ul*/ );
-  src = (struct burn_source *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_source) /*88ul*/ );
+  src = (struct burn_source *)return_value_calloc_1;
   src->refcount = 1;
   src->read = null_read;
   src->read_sub = (signed int (*)(struct burn_source *, unsigned char *, signed int))(void *)0;
@@ -14140,9 +14140,9 @@ struct burn_source * burn_null_source_new(void)
 // file libburn/drive.c line 2677
 signed int burn_obtain_profile_name(signed int profile_number, char *name)
 {
-  char *return_value_mmc_obtain_profile_name$1;
-  return_value_mmc_obtain_profile_name$1=mmc_obtain_profile_name(profile_number);
-  strcpy(name, return_value_mmc_obtain_profile_name$1);
+  char *return_value_mmc_obtain_profile_name_1;
+  return_value_mmc_obtain_profile_name_1=mmc_obtain_profile_name(profile_number);
+  strcpy(name, return_value_mmc_obtain_profile_name_1);
   return (signed int)((signed int)name[(signed long int)0] != 0);
 }
 
@@ -14167,9 +14167,9 @@ struct burn_source * burn_offst_source_new(struct burn_source *inp, struct burn_
 
   __CPROVER_DUMP_L1:
     ;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_source_offst) /*64ul*/ );
-    fs = (struct burn_source_offst *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_source_offst) /*64ul*/ );
+    fs = (struct burn_source_offst *)return_value_calloc_1;
     if(fs == ((struct burn_source_offst *)NULL))
       return (struct burn_source *)(void *)0;
 
@@ -14200,9 +14200,9 @@ struct burn_source * burn_offst_source_new(struct burn_source *inp, struct burn_
         {
           if(!(prev_fs->next == ((struct burn_source *)NULL)))
           {
-            struct burn_source_offst *return_value_offst_auth$2;
-            return_value_offst_auth$2=offst_auth(prev_fs->next, 1);
-            return_value_offst_auth$2->prev = src;
+            struct burn_source_offst *return_value_offst_auth_2;
+            return_value_offst_auth_2=offst_auth(prev_fs->next, 1);
+            return_value_offst_auth_2->prev = src;
             fs->next = prev_fs->next;
           }
 
@@ -14268,9 +14268,9 @@ signed int burn_os_free_buffer(void *buffer, unsigned long int amount, signed in
 signed int burn_os_is_2k_seekrw(char *path, signed int flag)
 {
   struct stat stbuf;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(path, &stbuf);
-  if(return_value_stat$1 == -1)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(path, &stbuf);
+  if(return_value_stat_1 == -1)
     return 0;
 
   else
@@ -14307,18 +14307,18 @@ signed int burn_os_stdio_capacity(char *path, signed long int write_start, signe
   signed int fd;
   signed int ret;
   signed long int add_size = (signed long int)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  testpath = (char *)return_value_burn_alloc_mem$1;
-  signed int return_value_stat$3;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  testpath = (char *)return_value_burn_alloc_mem_1;
+  signed int return_value_stat_3;
   if(testpath == ((char *)NULL))
     ret = -1;
 
   else
   {
     testpath[(signed long int)0] = (char)0;
-    return_value_stat$3=stat(path, &stbuf);
-    if(return_value_stat$3 == -1)
+    return_value_stat_3=stat(path, &stbuf);
+    if(return_value_stat_3 == -1)
     {
       strcpy(testpath, path);
       cpt=strrchr(testpath, 47);
@@ -14331,9 +14331,9 @@ signed int burn_os_stdio_capacity(char *path, signed long int write_start, signe
 
         else
           *cpt = (char)0;
-      signed int return_value_stat$2;
-      return_value_stat$2=stat(testpath, &stbuf);
-      if(return_value_stat$2 == -1)
+      signed int return_value_stat_2;
+      return_value_stat_2=stat(testpath, &stbuf);
+      if(return_value_stat_2 == -1)
       {
         ret = -1;
         goto ex;
@@ -14376,9 +14376,9 @@ signed int burn_os_stdio_capacity(char *path, signed long int write_start, signe
         }
     if(!(*testpath == 0))
     {
-      signed int return_value_statvfs$4;
-      return_value_statvfs$4=statvfs(testpath, &vfsbuf);
-      if(return_value_statvfs$4 == -1)
+      signed int return_value_statvfs_4;
+      return_value_statvfs_4=statvfs(testpath, &vfsbuf);
+      if(return_value_statvfs_4 == -1)
       {
         ret = -2;
         goto ex;
@@ -14416,27 +14416,27 @@ void burn_packet_process(struct burn_drive *d, unsigned char *data, struct burn_
     ptr = ptr + 294;
   }
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(audio == 0))
-    tmp_if_expr$2 = o->subcodes_audio != 0u ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = o->subcodes_audio != 0u ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
     if(audio == 0)
-      tmp_if_expr$3 = o->subcodes_data != 0u ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = o->subcodes_data != 0u ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
   {
     memset((void *)sub, 0, sizeof(unsigned char [96l]) /*96ul*/ );
     i = 0;
@@ -14456,8 +14456,8 @@ void burn_packet_process(struct burn_drive *d, unsigned char *data, struct burn_
       }
     }
     crc = (unsigned short int)(((signed int)sub[(signed long int)22] << 8) + (signed int)sub[(signed long int)23]);
-    unsigned short int return_value_crc_ccitt$1;
-    return_value_crc_ccitt$1=crc_ccitt(sub + (signed long int)12, 10);
+    unsigned short int return_value_crc_ccitt_1;
+    return_value_crc_ccitt_1=crc_ccitt(sub + (signed long int)12, 10);
   }
 
 }
@@ -14475,25 +14475,25 @@ signed int burn_precheck_write(struct burn_write_opts *o, struct burn_disc *disc
   signed int has_cdtext;
   reason_pt = reasons;
   reasons[(signed long int)0] = (char)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(d->drive_role == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = d->drive_role == 4 ? (_Bool)1 : (_Bool)0;
-  unsigned long int return_value_strlen$3;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = d->drive_role == 4 ? (_Bool)1 : (_Bool)0;
+  unsigned long int return_value_strlen_3;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  if(tmp_if_expr_1)
   {
     if(d->drive_role == 0)
       sprintf(reasons, "DRIVE: is a virtual placeholder (null-drive)");
@@ -14508,17 +14508,17 @@ signed int burn_precheck_write(struct burn_write_opts *o, struct burn_disc *disc
     wt=burn_write_opts_auto_write_type(o, disc, reasons, 1);
     if((signed int)wt == BURN_WRITE_NONE)
     {
-      signed int return_value_strncmp$2;
-      return_value_strncmp$2=strncmp(reasons, "MEDIA: ", (unsigned long int)7);
-      if(return_value_strncmp$2 == 0)
+      signed int return_value_strncmp_2;
+      return_value_strncmp_2=strncmp(reasons, "MEDIA: ", (unsigned long int)7);
+      if(return_value_strncmp_2 == 0)
         no_media = 1;
 
       goto ex;
     }
 
     sprintf(reasons, "%s: ", (const void *)d->current_profile_text);
-    return_value_strlen$3=strlen(reasons);
-    reason_pt = reasons + (signed long int)return_value_strlen$3;
+    return_value_strlen_3=strlen(reasons);
+    reason_pt = reasons + (signed long int)return_value_strlen_3;
     if(!((signed int)d->status == BURN_DISC_UNSUITABLE))
     {
       if(o->num_text_packs >= 1)
@@ -14528,13 +14528,13 @@ signed int burn_precheck_write(struct burn_write_opts *o, struct burn_disc *disc
         has_cdtext=precheck_disc_has_cdtext(disc, 0);
       if(has_cdtext >= 1)
       {
-        _Bool tmp_if_expr$4;
+        _Bool tmp_if_expr_4;
         if(d->current_profile == 0x09)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = d->current_profile == 0x0a ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = d->current_profile == 0x0a ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
         {
           ret=precheck_write_is_audio(disc, 0);
           if(!(ret >= 1))
@@ -14547,26 +14547,26 @@ signed int burn_precheck_write(struct burn_write_opts *o, struct burn_disc *disc
       }
 
       if(d->drive_role == 2)
-        tmp_if_expr$14 = (_Bool)1;
+        tmp_if_expr_14 = (_Bool)1;
 
       else
-        tmp_if_expr$14 = d->drive_role == 5 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$14)
-        tmp_if_expr$15 = (_Bool)1;
+        tmp_if_expr_14 = d->drive_role == 5 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_14)
+        tmp_if_expr_15 = (_Bool)1;
 
       else
-        tmp_if_expr$15 = d->current_profile == 0x1a ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$15)
-        tmp_if_expr$16 = (_Bool)1;
+        tmp_if_expr_15 = d->current_profile == 0x1a ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_15)
+        tmp_if_expr_16 = (_Bool)1;
 
       else
-        tmp_if_expr$16 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$16)
-        tmp_if_expr$17 = (_Bool)1;
+        tmp_if_expr_16 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_16)
+        tmp_if_expr_17 = (_Bool)1;
 
       else
-        tmp_if_expr$17 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$17)
+        tmp_if_expr_17 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_17)
       {
         if(o->start_byte >= 0l)
         {
@@ -14579,15 +14579,15 @@ signed int burn_precheck_write(struct burn_write_opts *o, struct burn_disc *disc
       }
 
       if(d->current_profile == 0x09)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_13 = (_Bool)1;
 
       else
-        tmp_if_expr$13 = d->current_profile == 0x0a ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$13)
+        tmp_if_expr_13 = d->current_profile == 0x0a ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_13)
       {
-        signed int return_value_burn_disc_write_is_ok$5;
-        return_value_burn_disc_write_is_ok$5=burn_disc_write_is_ok(o, disc, (signed int)!(!(silent != 0)) << 1);
-        if(return_value_burn_disc_write_is_ok$5 == 0)
+        signed int return_value_burn_disc_write_is_ok_5;
+        return_value_burn_disc_write_is_ok_5=burn_disc_write_is_ok(o, disc, (signed int)!(!(silent != 0)) << 1);
+        if(return_value_burn_disc_write_is_ok_5 == 0)
           strcat(reasons, "unsuitable track mode found, ");
 
         if(o->start_byte >= 0l)
@@ -14619,36 +14619,36 @@ signed int burn_precheck_write(struct burn_write_opts *o, struct burn_disc *disc
       }
 
       if(d->drive_role == 3)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = d->current_profile == 0x11 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = d->current_profile == 0x11 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_9 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = d->current_profile == 0x1b ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$10)
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_10 = d->current_profile == 0x1b ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_10)
+        tmp_if_expr_11 = (_Bool)1;
 
       else
-        tmp_if_expr$11 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$11)
-        tmp_if_expr$12 = (_Bool)1;
+        tmp_if_expr_11 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_11)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
-        tmp_if_expr$12 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$12)
+        tmp_if_expr_12 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_12)
         goto unsuitable_profile;
 
       if(o->start_byte >= 0l)
@@ -14661,9 +14661,9 @@ signed int burn_precheck_write(struct burn_write_opts *o, struct burn_disc *disc
 
     unsuitable_profile:
       ;
-      void *return_value_calloc$6;
-      return_value_calloc$6=calloc((unsigned long int)1, (unsigned long int)160);
-      msg = (char *)return_value_calloc$6;
+      void *return_value_calloc_6;
+      return_value_calloc_6=calloc((unsigned long int)1, (unsigned long int)160);
+      msg = (char *)return_value_calloc_6;
       if(silent == 0 && !(msg == ((char *)NULL)))
       {
         sprintf(msg, "Unsuitable media detected. Profile %4.4Xh  %s", d->current_profile, (const void *)d->current_profile_text);
@@ -14728,13 +14728,13 @@ char * burn_printify(char *msg)
   char *cpt = msg;
   for( ; !((signed int)*cpt == 0); cpt = cpt + 1l)
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!((signed int)*cpt >= 32))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*cpt > 126 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)*cpt > 126 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       *cpt = (char)35;
 
   }
@@ -14758,9 +14758,9 @@ signed int burn_random_access_write(struct burn_drive *d, signed long int byte_a
   char *rpt;
   struct buffer *buf = (struct buffer *)(void *)0;
   struct buffer *buffer_mem = d->buffer;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
@@ -14787,13 +14787,13 @@ signed int burn_random_access_write(struct burn_drive *d, signed long int byte_a
 
         else
         {
-          _Bool tmp_if_expr$2;
+          _Bool tmp_if_expr_2;
           if(d->drive_role == 2)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = d->drive_role == 5 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = d->drive_role == 5 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
             alignment = 2 * 1024;
 
           if(d->current_profile == 0x12)
@@ -14955,9 +14955,9 @@ signed int burn_read_audio(struct burn_drive *d, signed int sector_no, char *dat
   char *wpt;
   struct buffer *buf = (struct buffer *)(void *)0;
   struct buffer *buffer_mem = d->buffer;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
@@ -15103,13 +15103,13 @@ signed int burn_read_data(struct burn_drive *d, signed long int byte_address, ch
   char *wpt;
   struct buffer *buf = (struct buffer *)(void *)0;
   struct buffer *buffer_mem = d->buffer;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$6;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$5;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_6;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_5;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
@@ -15186,41 +15186,41 @@ signed int burn_read_data(struct burn_drive *d, signed long int byte_address, ch
 
               if(fd == -1)
               {
-                signed int *return_value___errno_location$7;
-                return_value___errno_location$7=__errno_location();
-                if(*return_value___errno_location$7 == 13 && !((2 & flag) == 0))
+                signed int *return_value___errno_location_7;
+                return_value___errno_location_7=__errno_location();
+                if(*return_value___errno_location_7 == 13 && !((2 & flag) == 0))
                 {
                   if((8 & flag) == 0)
                   {
-                    return_value___errno_location$2=__errno_location();
-                    libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020183, 0x50000000, 0x30000000, "Failed to open device (a pseudo-drive) for reading", *return_value___errno_location$2, 0);
+                    return_value___errno_location_2=__errno_location();
+                    libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020183, 0x50000000, 0x30000000, "Failed to open device (a pseudo-drive) for reading", *return_value___errno_location_2, 0);
                   }
 
                 }
 
                 else
                 {
-                  return_value___errno_location$6=__errno_location();
-                  if((2 & flag) == 0 || !(*return_value___errno_location$6 == 2))
+                  return_value___errno_location_6=__errno_location();
+                  if((2 & flag) == 0 || !(*return_value___errno_location_6 == 2))
                   {
-                    _Bool tmp_if_expr$4;
+                    _Bool tmp_if_expr_4;
                     if(!((32 & flag) == 0))
                     {
-                      return_value___errno_location$3=__errno_location();
-                      tmp_if_expr$4 = *return_value___errno_location$3 == 2 ? (_Bool)1 : (_Bool)0;
+                      return_value___errno_location_3=__errno_location();
+                      tmp_if_expr_4 = *return_value___errno_location_3 == 2 ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$4 = (_Bool)0;
-                    return_value___errno_location$5=__errno_location();
-                    libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020005, tmp_if_expr$4 ? 0x10000000 : 0x60000000, 0x30000000, "Failed to open device (a pseudo-drive) for reading", *return_value___errno_location$5, 0);
+                      tmp_if_expr_4 = (_Bool)0;
+                    return_value___errno_location_5=__errno_location();
+                    libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020005, tmp_if_expr_4 ? 0x10000000 : 0x60000000, 0x30000000, "Failed to open device (a pseudo-drive) for reading", *return_value___errno_location_5, 0);
                   }
 
                 }
                 ret = 0;
-                signed int *return_value___errno_location$8;
-                return_value___errno_location$8=__errno_location();
-                if(*return_value___errno_location$8 == 13)
+                signed int *return_value___errno_location_8;
+                return_value___errno_location_8=__errno_location();
+                if(*return_value___errno_location_8 == 13)
                 {
                   if(!((8 & flag) == 0))
                     ret = -2;
@@ -15355,9 +15355,9 @@ void burn_read_opts_free(struct burn_read_opts *opts)
 struct burn_read_opts * burn_read_opts_new(struct burn_drive *drive)
 {
   struct burn_read_opts *opts;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_read_opts) /*24ul*/ );
-  opts = (struct burn_read_opts *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_read_opts) /*24ul*/ );
+  opts = (struct burn_read_opts *)return_value_calloc_1;
   opts->drive = drive;
   opts->refcount = 1;
   opts->raw = (unsigned int)0;
@@ -15507,22 +15507,22 @@ static void burn_rspc_p0p1(unsigned char *sector, signed int col, unsigned char 
   {
     b = *start;
     sum_v_lsb = sum_v_lsb ^ (unsigned int)b;
-    unsigned char return_value_burn_rspc_mult$1;
-    return_value_burn_rspc_mult$1=burn_rspc_mult(b, h26[(signed long int)i]);
-    hxv_lsb = hxv_lsb ^ (unsigned int)return_value_burn_rspc_mult$1;
+    unsigned char return_value_burn_rspc_mult_1;
+    return_value_burn_rspc_mult_1=burn_rspc_mult(b, h26[(signed long int)i]);
+    hxv_lsb = hxv_lsb ^ (unsigned int)return_value_burn_rspc_mult_1;
     b = start[(signed long int)1];
     sum_v_msb = sum_v_msb ^ (unsigned int)b;
-    unsigned char return_value_burn_rspc_mult$2;
-    return_value_burn_rspc_mult$2=burn_rspc_mult(b, h26[(signed long int)i]);
-    hxv_msb = hxv_msb ^ (unsigned int)return_value_burn_rspc_mult$2;
+    unsigned char return_value_burn_rspc_mult_2;
+    return_value_burn_rspc_mult_2=burn_rspc_mult(b, h26[(signed long int)i]);
+    hxv_msb = hxv_msb ^ (unsigned int)return_value_burn_rspc_mult_2;
     start = start + (signed long int)86;
   }
-  unsigned char return_value_burn_rspc_mult$3;
-  return_value_burn_rspc_mult$3=burn_rspc_mult((unsigned char)2, (unsigned char)sum_v_lsb);
-  *p0_lsb=burn_rspc_div_3((unsigned char)((unsigned int)return_value_burn_rspc_mult$3 ^ hxv_lsb));
-  unsigned char return_value_burn_rspc_mult$4;
-  return_value_burn_rspc_mult$4=burn_rspc_mult((unsigned char)2, (unsigned char)sum_v_msb);
-  *p0_msb=burn_rspc_div_3((unsigned char)((unsigned int)return_value_burn_rspc_mult$4 ^ hxv_msb));
+  unsigned char return_value_burn_rspc_mult_3;
+  return_value_burn_rspc_mult_3=burn_rspc_mult((unsigned char)2, (unsigned char)sum_v_lsb);
+  *p0_lsb=burn_rspc_div_3((unsigned char)((unsigned int)return_value_burn_rspc_mult_3 ^ hxv_lsb));
+  unsigned char return_value_burn_rspc_mult_4;
+  return_value_burn_rspc_mult_4=burn_rspc_mult((unsigned char)2, (unsigned char)sum_v_msb);
+  *p0_msb=burn_rspc_div_3((unsigned char)((unsigned int)return_value_burn_rspc_mult_4 ^ hxv_msb));
   *p1_lsb = (unsigned char)(sum_v_lsb ^ (unsigned int)*p0_lsb);
   *p1_msb = (unsigned char)(sum_v_msb ^ (unsigned int)*p0_msb);
 }
@@ -15589,22 +15589,22 @@ static void burn_rspc_q0q1(unsigned char *sector, signed int diag, unsigned char
 
     b = start[(signed long int)idx];
     sum_v_lsb = sum_v_lsb ^ (unsigned int)b;
-    unsigned char return_value_burn_rspc_mult$1;
-    return_value_burn_rspc_mult$1=burn_rspc_mult(b, h45[(signed long int)i]);
-    hxv_lsb = hxv_lsb ^ (unsigned int)return_value_burn_rspc_mult$1;
+    unsigned char return_value_burn_rspc_mult_1;
+    return_value_burn_rspc_mult_1=burn_rspc_mult(b, h45[(signed long int)i]);
+    hxv_lsb = hxv_lsb ^ (unsigned int)return_value_burn_rspc_mult_1;
     b = start[(signed long int)(idx + (unsigned int)1)];
     sum_v_msb = sum_v_msb ^ (unsigned int)b;
-    unsigned char return_value_burn_rspc_mult$2;
-    return_value_burn_rspc_mult$2=burn_rspc_mult(b, h45[(signed long int)i]);
-    hxv_msb = hxv_msb ^ (unsigned int)return_value_burn_rspc_mult$2;
+    unsigned char return_value_burn_rspc_mult_2;
+    return_value_burn_rspc_mult_2=burn_rspc_mult(b, h45[(signed long int)i]);
+    hxv_msb = hxv_msb ^ (unsigned int)return_value_burn_rspc_mult_2;
     idx = idx + (unsigned int)88;
   }
-  unsigned char return_value_burn_rspc_mult$3;
-  return_value_burn_rspc_mult$3=burn_rspc_mult((unsigned char)2, (unsigned char)sum_v_lsb);
-  *q0_lsb=burn_rspc_div_3((unsigned char)((unsigned int)return_value_burn_rspc_mult$3 ^ hxv_lsb));
-  unsigned char return_value_burn_rspc_mult$4;
-  return_value_burn_rspc_mult$4=burn_rspc_mult((unsigned char)2, (unsigned char)sum_v_msb);
-  *q0_msb=burn_rspc_div_3((unsigned char)((unsigned int)return_value_burn_rspc_mult$4 ^ hxv_msb));
+  unsigned char return_value_burn_rspc_mult_3;
+  return_value_burn_rspc_mult_3=burn_rspc_mult((unsigned char)2, (unsigned char)sum_v_lsb);
+  *q0_lsb=burn_rspc_div_3((unsigned char)((unsigned int)return_value_burn_rspc_mult_3 ^ hxv_lsb));
+  unsigned char return_value_burn_rspc_mult_4;
+  return_value_burn_rspc_mult_4=burn_rspc_mult((unsigned char)2, (unsigned char)sum_v_msb);
+  *q0_msb=burn_rspc_div_3((unsigned char)((unsigned int)return_value_burn_rspc_mult_4 ^ hxv_msb));
   *q1_lsb = (unsigned char)(sum_v_lsb ^ (unsigned int)*q0_lsb);
   *q1_msb = (unsigned char)(sum_v_msb ^ (unsigned int)*q0_msb);
 }
@@ -15621,19 +15621,19 @@ signed int burn_scsi_setup_drive(struct burn_drive *d, signed int bus_no, signed
   d->lun = lun_no;
   d->silent_on_scsi_error = 0;
   d->had_particular_error = 0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_scsi_inquiry_data) /*40ul*/ );
-  d->idata = (struct burn_scsi_inquiry_data *)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct scsi_mode_data) /*112ul*/ );
-  d->mdata = (struct scsi_mode_data *)return_value_calloc$2;
-  _Bool tmp_if_expr$3;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_scsi_inquiry_data) /*40ul*/ );
+  d->idata = (struct burn_scsi_inquiry_data *)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct scsi_mode_data) /*112ul*/ );
+  d->mdata = (struct scsi_mode_data *)return_value_calloc_2;
+  _Bool tmp_if_expr_3;
   if(d->idata == ((struct burn_scsi_inquiry_data *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = d->mdata == (struct scsi_mode_data *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = d->mdata == (struct scsi_mode_data *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     libdax_msgs_submit(libdax_messenger, -1, 0x00020108, 0x70000000, 0x30000000, "Could not allocate new drive object", 0, 0);
     return -1;
@@ -15801,18 +15801,18 @@ signed int burn_session_by_cue_file(struct burn_session *session, char *path, si
     *text_packs = (unsigned char *)(void *)0;
 
   *num_packs = 0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
-  signed int return_value_stat$6;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
+  signed int return_value_stat_6;
   if(msg == ((char *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-    line = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+    line = (char *)return_value_burn_alloc_mem_2;
     if(line == ((char *)NULL))
       ret = -1;
 
@@ -15829,25 +15829,25 @@ signed int burn_session_by_cue_file(struct burn_session *session, char *path, si
         if(num_tracks >= 1)
         {
           sprintf(msg, "Cue sheet file reader called while session has already defined tracks");
-          char *return_value_burn_printify$3;
-          return_value_burn_printify$3=burn_printify(msg);
-          libdax_msgs_submit(libdax_messenger, -1, 0x00020196, 0x68000000, 0x30000000, return_value_burn_printify$3, 0, 0);
+          char *return_value_burn_printify_3;
+          return_value_burn_printify_3=burn_printify(msg);
+          libdax_msgs_submit(libdax_messenger, -1, 0x00020196, 0x68000000, 0x30000000, return_value_burn_printify_3, 0, 0);
           ret = 0;
           goto ex;
         }
 
-        return_value_stat$6=stat(path, &stbuf);
-        if(return_value_stat$6 == -1)
+        return_value_stat_6=stat(path, &stbuf);
+        if(return_value_stat_6 == -1)
         {
 
         cannot_open:
           ;
           sprintf(msg, "Cannot open cue sheet file '%.4000s'", path);
-          char *return_value_burn_printify$4;
-          return_value_burn_printify$4=burn_printify(msg);
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify$4, *return_value___errno_location$5, 0);
+          char *return_value_burn_printify_4;
+          return_value_burn_printify_4=burn_printify(msg);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify_4, *return_value___errno_location_5, 0);
           ret = 0;
           goto ex;
         }
@@ -15855,9 +15855,9 @@ signed int burn_session_by_cue_file(struct burn_session *session, char *path, si
         if(!((61440u & stbuf.st_mode) == 32768u))
         {
           sprintf(msg, "File is not of usable type: Cue sheet file '%.4000s'", path);
-          char *return_value_burn_printify$7;
-          return_value_burn_printify$7=burn_printify(msg);
-          libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify$7, 0, 0);
+          char *return_value_burn_printify_7;
+          return_value_burn_printify_7=burn_printify(msg);
+          libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify_7, 0, 0);
           ret = 0;
           goto ex;
         }
@@ -15868,19 +15868,19 @@ signed int burn_session_by_cue_file(struct burn_session *session, char *path, si
 
         while((_Bool)1)
         {
-          char *return_value_burn_sfile_fgets$10;
-          return_value_burn_sfile_fgets$10=burn_sfile_fgets(line, 4095, fp);
-          if(return_value_burn_sfile_fgets$10 == ((char *)NULL))
+          char *return_value_burn_sfile_fgets_10;
+          return_value_burn_sfile_fgets_10=burn_sfile_fgets(line, 4095, fp);
+          if(return_value_burn_sfile_fgets_10 == ((char *)NULL))
           {
-            signed int return_value_ferror$8;
-            return_value_ferror$8=ferror(fp);
-            if(return_value_ferror$8 == 0)
+            signed int return_value_ferror_8;
+            return_value_ferror_8=ferror(fp);
+            if(return_value_ferror_8 == 0)
               break;
 
             sprintf(msg, "Cannot read all bytes from cue sheet file '%.4000s'", path);
-            char *return_value_burn_printify$9;
-            return_value_burn_printify$9=burn_printify(msg);
-            libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify$9, 0, 0);
+            char *return_value_burn_printify_9;
+            return_value_burn_printify_9=burn_printify(msg);
+            libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify_9, 0, 0);
             ret = 0;
             goto ex;
           }
@@ -15890,22 +15890,22 @@ signed int burn_session_by_cue_file(struct burn_session *session, char *path, si
           if(!(ret >= 1))
           {
             sprintf(msg, "Cue sheet file '%.4000s': Reading aborted after line %d", path, line_counter);
-            char *return_value_burn_printify$11;
-            return_value_burn_printify$11=burn_printify(msg);
-            libdax_msgs_submit(libdax_messenger, -1, 0x00020199, 0x60000000, 0x30000000, return_value_burn_printify$11, 0, 0);
+            char *return_value_burn_printify_11;
+            return_value_burn_printify_11=burn_printify(msg);
+            libdax_msgs_submit(libdax_messenger, -1, 0x00020199, 0x60000000, 0x30000000, return_value_burn_printify_11, 0, 0);
             goto ex;
           }
 
         }
         if(!(crs->track == ((struct burn_track *)NULL)))
         {
-          _Bool tmp_if_expr$12;
+          _Bool tmp_if_expr_12;
           if(!(crs->current_file_ba >= 0))
-            tmp_if_expr$12 = (_Bool)1;
+            tmp_if_expr_12 = (_Bool)1;
 
           else
-            tmp_if_expr$12 = crs->track_current_index < 1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$12)
+            tmp_if_expr_12 = crs->track_current_index < 1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_12)
           {
             libdax_msgs_submit(libdax_messenger, -1, 0x00020192, 0x68000000, 0x30000000, "No INDEX 01 defined for last TRACK in cue sheet file", 0, 0);
             ret = 0;
@@ -16028,9 +16028,9 @@ struct burn_session * burn_session_create(void)
 {
   struct burn_session *s;
   signed int i;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_session) /*152ul*/ );
-  s = (struct burn_session *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_session) /*152ul*/ );
+  s = (struct burn_session *)return_value_calloc_1;
   if(s == ((struct burn_session *)NULL))
     return (struct burn_session *)(void *)0;
 
@@ -16076,9 +16076,9 @@ signed int burn_session_dispose_cdtext(struct burn_session *s, signed int block)
 
   else
   {
-    signed int return_value_burn_cdtext_check_blockno$1;
-    return_value_burn_cdtext_check_blockno$1=burn_cdtext_check_blockno(block);
-    if(!(return_value_burn_cdtext_check_blockno$1 >= 1))
+    signed int return_value_burn_cdtext_check_blockno_1;
+    return_value_burn_cdtext_check_blockno_1=burn_cdtext_check_blockno(block);
+    if(!(return_value_burn_cdtext_check_blockno_1 >= 1))
       return 0;
 
     else
@@ -16115,9 +16115,9 @@ void burn_session_free(struct burn_session *s)
 signed int burn_session_get_cdtext(struct burn_session *s, signed int block, signed int pack_type, char *pack_type_name, unsigned char **payload, signed int *length, signed int flag)
 {
   signed int ret;
-  signed int return_value_burn_cdtext_check_blockno$1;
-  return_value_burn_cdtext_check_blockno$1=burn_cdtext_check_blockno(block);
-  if(!(return_value_burn_cdtext_check_blockno$1 >= 1))
+  signed int return_value_burn_cdtext_check_blockno_1;
+  return_value_burn_cdtext_check_blockno_1=burn_cdtext_check_blockno(block);
+  if(!(return_value_burn_cdtext_check_blockno_1 >= 1))
     return 0;
 
   else
@@ -16173,11 +16173,11 @@ signed int burn_session_get_sectors(struct burn_session *s)
 {
   signed int sectors = 0;
   signed int i = 0;
-  signed int return_value_burn_track_get_sectors$1;
+  signed int return_value_burn_track_get_sectors_1;
   for( ; !(i >= s->tracks); i = i + 1)
   {
-    return_value_burn_track_get_sectors$1=burn_track_get_sectors(s->track[(signed long int)i]);
-    sectors = sectors + return_value_burn_track_get_sectors$1;
+    return_value_burn_track_get_sectors_1=burn_track_get_sectors(s->track[(signed long int)i]);
+    sectors = sectors + return_value_burn_track_get_sectors_1;
   }
   return sectors;
 }
@@ -16235,72 +16235,72 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
   char track_txt[3l];
   char *msg = (char *)(void *)0;
   struct burn_track **tracks;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
-  signed int return_value_stat$6;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  signed int return_value_strcmp$83;
-  signed int return_value_strcmp$80;
-  signed int return_value_strcmp$81;
-  signed int return_value_strcmp$77;
-  signed int return_value_strcmp$78;
-  signed int return_value_strcmp$74;
-  signed int return_value_strcmp$75;
-  signed int return_value_strcmp$71;
-  signed int return_value_strcmp$72;
-  signed int return_value_strcmp$68;
-  signed int return_value_strcmp$69;
-  signed int return_value_strcmp$65;
-  signed int return_value_strcmp$66;
-  signed int return_value_strcmp$62;
-  signed int return_value_strcmp$63;
-  signed int return_value_strcmp$61;
-  signed int return_value_strcmp$60;
-  signed int return_value_strcmp$57;
-  signed int return_value_strcmp$58;
-  signed int return_value_strcmp$54;
-  signed int return_value_strcmp$55;
-  signed int return_value_strncmp$53;
-  signed int return_value_strcmp$52;
-  signed int return_value_strcmp$51;
-  signed int return_value_strcmp$50;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$49;
-  signed int return_value_strcmp$48;
-  signed int return_value_strncmp$47;
-  signed int return_value_strcmp$43;
-  signed int return_value_strcmp$39;
-  signed int return_value_strcmp$40;
-  signed int return_value_strcmp$36;
-  signed int return_value_strcmp$37;
-  signed int return_value_strcmp$33;
-  signed int return_value_strcmp$34;
-  signed int return_value_strcmp$30;
-  signed int return_value_strcmp$31;
-  signed int return_value_strcmp$27;
-  signed int return_value_strcmp$28;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$25;
-  signed int return_value_strncmp$46;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
+  signed int return_value_stat_6;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  signed int return_value_strcmp_83;
+  signed int return_value_strcmp_80;
+  signed int return_value_strcmp_81;
+  signed int return_value_strcmp_77;
+  signed int return_value_strcmp_78;
+  signed int return_value_strcmp_74;
+  signed int return_value_strcmp_75;
+  signed int return_value_strcmp_71;
+  signed int return_value_strcmp_72;
+  signed int return_value_strcmp_68;
+  signed int return_value_strcmp_69;
+  signed int return_value_strcmp_65;
+  signed int return_value_strcmp_66;
+  signed int return_value_strcmp_62;
+  signed int return_value_strcmp_63;
+  signed int return_value_strcmp_61;
+  signed int return_value_strcmp_60;
+  signed int return_value_strcmp_57;
+  signed int return_value_strcmp_58;
+  signed int return_value_strcmp_54;
+  signed int return_value_strcmp_55;
+  signed int return_value_strncmp_53;
+  signed int return_value_strcmp_52;
+  signed int return_value_strcmp_51;
+  signed int return_value_strcmp_50;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_49;
+  signed int return_value_strcmp_48;
+  signed int return_value_strncmp_47;
+  signed int return_value_strcmp_43;
+  signed int return_value_strcmp_39;
+  signed int return_value_strcmp_40;
+  signed int return_value_strcmp_36;
+  signed int return_value_strcmp_37;
+  signed int return_value_strcmp_33;
+  signed int return_value_strcmp_34;
+  signed int return_value_strcmp_30;
+  signed int return_value_strcmp_31;
+  signed int return_value_strcmp_27;
+  signed int return_value_strcmp_28;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_25;
+  signed int return_value_strncmp_46;
   if(msg == ((char *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-    line = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+    line = (char *)return_value_burn_alloc_mem_2;
     if(line == ((char *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-      genre_text = (char *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+      genre_text = (char *)return_value_burn_alloc_mem_3;
       if(genre_text == ((char *)NULL))
         ret = -1;
 
@@ -16321,18 +16321,18 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
         }
         genre_text[(signed long int)0] = (char)0;
         tracks=burn_session_get_tracks(session, &num_tracks);
-        return_value_stat$6=stat(path, &stbuf);
-        if(return_value_stat$6 == -1)
+        return_value_stat_6=stat(path, &stbuf);
+        if(return_value_stat_6 == -1)
         {
 
         cannot_open:
           ;
           sprintf(msg, "Cannot open CD-TEXT input sheet v07t '%.4000s'", path);
-          char *return_value_burn_printify$4;
-          return_value_burn_printify$4=burn_printify(msg);
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify$4, *return_value___errno_location$5, 0);
+          char *return_value_burn_printify_4;
+          return_value_burn_printify_4=burn_printify(msg);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify_4, *return_value___errno_location_5, 0);
           ret = 0;
           goto ex;
         }
@@ -16340,9 +16340,9 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
         if(!((61440u & stbuf.st_mode) == 32768u))
         {
           sprintf(msg, "File is not of usable type: CD-TEXT input sheet v07t '%s'", path);
-          char *return_value_burn_printify$7;
-          return_value_burn_printify$7=burn_printify(msg);
-          libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify$7, 0, 0);
+          char *return_value_burn_printify_7;
+          return_value_burn_printify_7=burn_printify(msg);
+          libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify_7, 0, 0);
           ret = 0;
           goto ex;
         }
@@ -16353,35 +16353,35 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
         while((_Bool)1)
         {
-          char *return_value_burn_sfile_fgets$10;
-          return_value_burn_sfile_fgets$10=burn_sfile_fgets(line, 4095, fp);
-          if(return_value_burn_sfile_fgets$10 == ((char *)NULL))
+          char *return_value_burn_sfile_fgets_10;
+          return_value_burn_sfile_fgets_10=burn_sfile_fgets(line, 4095, fp);
+          if(return_value_burn_sfile_fgets_10 == ((char *)NULL))
           {
-            signed int return_value_ferror$8;
-            return_value_ferror$8=ferror(fp);
-            if(return_value_ferror$8 == 0)
+            signed int return_value_ferror_8;
+            return_value_ferror_8=ferror(fp);
+            if(return_value_ferror_8 == 0)
               break;
 
             sprintf(msg, "Cannot read all bytes from  CD-TEXT input sheet v07t '%.4000s'", path);
-            char *return_value_burn_printify$9;
-            return_value_burn_printify$9=burn_printify(msg);
-            libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify$9, 0, 0);
+            char *return_value_burn_printify_9;
+            return_value_burn_printify_9=burn_printify(msg);
+            libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify_9, 0, 0);
             ret = 0;
             goto ex;
           }
 
           line_count = line_count + 1;
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(line);
-          if(!(return_value_strlen$11 == 0ul))
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(line);
+          if(!(return_value_strlen_11 == 0ul))
           {
             eq_pos=strchr(line, 61);
             if(eq_pos == ((char *)NULL))
             {
               sprintf(msg, "CD-TEXT v07t input sheet line without '=' : '%.4000s'", line);
-              char *return_value_burn_printify$12;
-              return_value_burn_printify$12=burn_printify(msg);
-              libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify$12, 0, 0);
+              char *return_value_burn_printify_12;
+              return_value_burn_printify_12=burn_printify(msg);
+              libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify_12, 0, 0);
               ret = 0;
               goto ex;
             }
@@ -16390,11 +16390,11 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
             do
             {
               if((signed int)*payload == 32)
-                tmp_if_expr$13 = (_Bool)1;
+                tmp_if_expr_13 = (_Bool)1;
 
               else
-                tmp_if_expr$13 = (signed int)*payload == 9 ? (_Bool)1 : (_Bool)0;
-              if(!tmp_if_expr$13)
+                tmp_if_expr_13 = (signed int)*payload == 9 ? (_Bool)1 : (_Bool)0;
+              if(!tmp_if_expr_13)
                 break;
 
               payload = payload + 1l;
@@ -16405,11 +16405,11 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
             do
             {
               if((signed int)*eq_pos == 32)
-                tmp_if_expr$14 = (_Bool)1;
+                tmp_if_expr_14 = (_Bool)1;
 
               else
-                tmp_if_expr$14 = (signed int)*eq_pos == 9 ? (_Bool)1 : (_Bool)0;
-              if(line >= eq_pos || !tmp_if_expr$14)
+                tmp_if_expr_14 = (signed int)*eq_pos == 9 ? (_Bool)1 : (_Bool)0;
+              if(line >= eq_pos || !tmp_if_expr_14)
                 break;
 
               *eq_pos = (char)0;
@@ -16418,9 +16418,9 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
             while((_Bool)1);
             if(!((signed int)*payload == 0))
             {
-              signed int return_value_strcmp$84;
-              return_value_strcmp$84=strcmp(line, "Text Code");
-              if(return_value_strcmp$84 == 0)
+              signed int return_value_strcmp_84;
+              return_value_strcmp_84=strcmp(line, "Text Code");
+              if(return_value_strcmp_84 == 0)
               {
                 ret=v07t_cdtext_char_code(payload, 0);
                 if(!(ret >= 0))
@@ -16442,8 +16442,8 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
               else
               {
-                return_value_strcmp$83=strcmp(line, "Language Code");
-                if(return_value_strcmp$83 == 0)
+                return_value_strcmp_83=strcmp(line, "Language Code");
+                if(return_value_strcmp_83 == 0)
                 {
                   ret=v07t_cdtext_lang_code(payload, 0);
                   if(!(ret >= 0))
@@ -16454,17 +16454,17 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                 else
                 {
-                  return_value_strcmp$80=strcmp(line, "0x80");
-                  _Bool tmp_if_expr$82;
-                  if(return_value_strcmp$80 == 0)
-                    tmp_if_expr$82 = (_Bool)1;
+                  return_value_strcmp_80=strcmp(line, "0x80");
+                  _Bool tmp_if_expr_82;
+                  if(return_value_strcmp_80 == 0)
+                    tmp_if_expr_82 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcmp$81=strcmp(line, "Album Title");
-                    tmp_if_expr$82 = return_value_strcmp$81 == 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcmp_81=strcmp(line, "Album Title");
+                    tmp_if_expr_82 = return_value_strcmp_81 == 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$82)
+                  if(tmp_if_expr_82)
                   {
                     ret=v07t_cdtext_to_session(session, block, payload, char_codes + (signed long int)block, 0, "TITLE", 0);
                     if(!(ret >= 1))
@@ -16475,17 +16475,17 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                   else
                   {
-                    return_value_strcmp$77=strcmp(line, "0x81");
-                    _Bool tmp_if_expr$79;
-                    if(return_value_strcmp$77 == 0)
-                      tmp_if_expr$79 = (_Bool)1;
+                    return_value_strcmp_77=strcmp(line, "0x81");
+                    _Bool tmp_if_expr_79;
+                    if(return_value_strcmp_77 == 0)
+                      tmp_if_expr_79 = (_Bool)1;
 
                     else
                     {
-                      return_value_strcmp$78=strcmp(line, "Artist Name");
-                      tmp_if_expr$79 = return_value_strcmp$78 == 0 ? (_Bool)1 : (_Bool)0;
+                      return_value_strcmp_78=strcmp(line, "Artist Name");
+                      tmp_if_expr_79 = return_value_strcmp_78 == 0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$79)
+                    if(tmp_if_expr_79)
                     {
                       ret=v07t_cdtext_to_session(session, block, payload, char_codes + (signed long int)block, 0, "PERFORMER", 0);
                       if(!(ret >= 1))
@@ -16496,17 +16496,17 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                     else
                     {
-                      return_value_strcmp$74=strcmp(line, "0x82");
-                      _Bool tmp_if_expr$76;
-                      if(return_value_strcmp$74 == 0)
-                        tmp_if_expr$76 = (_Bool)1;
+                      return_value_strcmp_74=strcmp(line, "0x82");
+                      _Bool tmp_if_expr_76;
+                      if(return_value_strcmp_74 == 0)
+                        tmp_if_expr_76 = (_Bool)1;
 
                       else
                       {
-                        return_value_strcmp$75=strcmp(line, "Songwriter");
-                        tmp_if_expr$76 = return_value_strcmp$75 == 0 ? (_Bool)1 : (_Bool)0;
+                        return_value_strcmp_75=strcmp(line, "Songwriter");
+                        tmp_if_expr_76 = return_value_strcmp_75 == 0 ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$76)
+                      if(tmp_if_expr_76)
                       {
                         ret=v07t_cdtext_to_session(session, block, payload, char_codes + (signed long int)block, 0, "SONGWRITER", 0);
                         if(!(ret >= 1))
@@ -16517,17 +16517,17 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                       else
                       {
-                        return_value_strcmp$71=strcmp(line, "0x83");
-                        _Bool tmp_if_expr$73;
-                        if(return_value_strcmp$71 == 0)
-                          tmp_if_expr$73 = (_Bool)1;
+                        return_value_strcmp_71=strcmp(line, "0x83");
+                        _Bool tmp_if_expr_73;
+                        if(return_value_strcmp_71 == 0)
+                          tmp_if_expr_73 = (_Bool)1;
 
                         else
                         {
-                          return_value_strcmp$72=strcmp(line, "Composer");
-                          tmp_if_expr$73 = return_value_strcmp$72 == 0 ? (_Bool)1 : (_Bool)0;
+                          return_value_strcmp_72=strcmp(line, "Composer");
+                          tmp_if_expr_73 = return_value_strcmp_72 == 0 ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$73)
+                        if(tmp_if_expr_73)
                         {
                           ret=v07t_cdtext_to_session(session, block, payload, char_codes + (signed long int)block, 0, "COMPOSER", 0);
                           if(!(ret >= 1))
@@ -16538,17 +16538,17 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                         else
                         {
-                          return_value_strcmp$68=strcmp(line, "0x84");
-                          _Bool tmp_if_expr$70;
-                          if(return_value_strcmp$68 == 0)
-                            tmp_if_expr$70 = (_Bool)1;
+                          return_value_strcmp_68=strcmp(line, "0x84");
+                          _Bool tmp_if_expr_70;
+                          if(return_value_strcmp_68 == 0)
+                            tmp_if_expr_70 = (_Bool)1;
 
                           else
                           {
-                            return_value_strcmp$69=strcmp(line, "Arranger");
-                            tmp_if_expr$70 = return_value_strcmp$69 == 0 ? (_Bool)1 : (_Bool)0;
+                            return_value_strcmp_69=strcmp(line, "Arranger");
+                            tmp_if_expr_70 = return_value_strcmp_69 == 0 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$70)
+                          if(tmp_if_expr_70)
                           {
                             ret=v07t_cdtext_to_session(session, block, payload, char_codes + (signed long int)block, 0, "ARRANGER", 0);
                             if(!(ret >= 1))
@@ -16559,17 +16559,17 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                           else
                           {
-                            return_value_strcmp$65=strcmp(line, "0x85");
-                            _Bool tmp_if_expr$67;
-                            if(return_value_strcmp$65 == 0)
-                              tmp_if_expr$67 = (_Bool)1;
+                            return_value_strcmp_65=strcmp(line, "0x85");
+                            _Bool tmp_if_expr_67;
+                            if(return_value_strcmp_65 == 0)
+                              tmp_if_expr_67 = (_Bool)1;
 
                             else
                             {
-                              return_value_strcmp$66=strcmp(line, "Album Message");
-                              tmp_if_expr$67 = return_value_strcmp$66 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_strcmp_66=strcmp(line, "Album Message");
+                              tmp_if_expr_67 = return_value_strcmp_66 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$67)
+                            if(tmp_if_expr_67)
                             {
                               ret=v07t_cdtext_to_session(session, block, payload, char_codes + (signed long int)block, 0, "MESSAGE", 0);
                               if(!(ret >= 1))
@@ -16580,17 +16580,17 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                             else
                             {
-                              return_value_strcmp$62=strcmp(line, "0x86");
-                              _Bool tmp_if_expr$64;
-                              if(return_value_strcmp$62 == 0)
-                                tmp_if_expr$64 = (_Bool)1;
+                              return_value_strcmp_62=strcmp(line, "0x86");
+                              _Bool tmp_if_expr_64;
+                              if(return_value_strcmp_62 == 0)
+                                tmp_if_expr_64 = (_Bool)1;
 
                               else
                               {
-                                return_value_strcmp$63=strcmp(line, "Catalog Number");
-                                tmp_if_expr$64 = return_value_strcmp$63 == 0 ? (_Bool)1 : (_Bool)0;
+                                return_value_strcmp_63=strcmp(line, "Catalog Number");
+                                tmp_if_expr_64 = return_value_strcmp_63 == 0 ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$64)
+                              if(tmp_if_expr_64)
                               {
                                 ret=v07t_cdtext_to_session(session, block, payload, &int0x01, 0, "DISCID", 0);
                                 if(!(ret >= 1))
@@ -16600,8 +16600,8 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                               else
                               {
-                                return_value_strcmp$61=strcmp(line, "Genre Code");
-                                if(return_value_strcmp$61 == 0)
+                                return_value_strcmp_61=strcmp(line, "Genre Code");
+                                if(return_value_strcmp_61 == 0)
                                 {
                                   genre_code=v07t_cdtext_genre_code(payload, 0);
                                   if(!(genre_code >= 0))
@@ -16614,8 +16614,8 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                                 else
                                 {
-                                  return_value_strcmp$60=strcmp(line, "Genre Information");
-                                  if(return_value_strcmp$60 == 0)
+                                  return_value_strcmp_60=strcmp(line, "Genre Information");
+                                  if(return_value_strcmp_60 == 0)
                                   {
                                     strncpy(genre_text, payload, (unsigned long int)159);
                                     genre_text[(signed long int)159] = (char)0;
@@ -16623,17 +16623,17 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                                   else
                                   {
-                                    return_value_strcmp$57=strcmp(line, "0x8d");
-                                    _Bool tmp_if_expr$59;
-                                    if(return_value_strcmp$57 == 0)
-                                      tmp_if_expr$59 = (_Bool)1;
+                                    return_value_strcmp_57=strcmp(line, "0x8d");
+                                    _Bool tmp_if_expr_59;
+                                    if(return_value_strcmp_57 == 0)
+                                      tmp_if_expr_59 = (_Bool)1;
 
                                     else
                                     {
-                                      return_value_strcmp$58=strcmp(line, "Closed Information");
-                                      tmp_if_expr$59 = return_value_strcmp$58 == 0 ? (_Bool)1 : (_Bool)0;
+                                      return_value_strcmp_58=strcmp(line, "Closed Information");
+                                      tmp_if_expr_59 = return_value_strcmp_58 == 0 ? (_Bool)1 : (_Bool)0;
                                     }
-                                    if(tmp_if_expr$59)
+                                    if(tmp_if_expr_59)
                                     {
                                       ret=v07t_cdtext_to_session(session, block, payload, &int0x00, 0, "CLOSED", 0);
                                       if(!(ret >= 1))
@@ -16643,17 +16643,17 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                                     else
                                     {
-                                      return_value_strcmp$54=strcmp(line, "0x8e");
-                                      _Bool tmp_if_expr$56;
-                                      if(return_value_strcmp$54 == 0)
-                                        tmp_if_expr$56 = (_Bool)1;
+                                      return_value_strcmp_54=strcmp(line, "0x8e");
+                                      _Bool tmp_if_expr_56;
+                                      if(return_value_strcmp_54 == 0)
+                                        tmp_if_expr_56 = (_Bool)1;
 
                                       else
                                       {
-                                        return_value_strcmp$55=strcmp(line, "UPC / EAN");
-                                        tmp_if_expr$56 = return_value_strcmp$55 == 0 ? (_Bool)1 : (_Bool)0;
+                                        return_value_strcmp_55=strcmp(line, "UPC / EAN");
+                                        tmp_if_expr_56 = return_value_strcmp_55 == 0 ? (_Bool)1 : (_Bool)0;
                                       }
-                                      if(tmp_if_expr$56)
+                                      if(tmp_if_expr_56)
                                       {
                                         ret=v07t_cdtext_to_session(session, block, payload, &int0x01, 0, "UPC_ISRC", 0);
                                         if(!(ret >= 1))
@@ -16670,20 +16670,20 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                                       else
                                       {
-                                        return_value_strncmp$53=strncmp(line, "Disc Information ", (unsigned long int)17);
-                                        if(!(return_value_strncmp$53 == 0))
+                                        return_value_strncmp_53=strncmp(line, "Disc Information ", (unsigned long int)17);
+                                        if(!(return_value_strncmp_53 == 0))
                                         {
-                                          return_value_strcmp$52=strcmp(line, "Input Sheet Version");
-                                          if(return_value_strcmp$52 == 0)
+                                          return_value_strcmp_52=strcmp(line, "Input Sheet Version");
+                                          if(return_value_strcmp_52 == 0)
                                           {
-                                            signed int return_value_strcmp$16;
-                                            return_value_strcmp$16=strcmp(payload, "0.7T");
-                                            if(!(return_value_strcmp$16 == 0))
+                                            signed int return_value_strcmp_16;
+                                            return_value_strcmp_16=strcmp(payload, "0.7T");
+                                            if(!(return_value_strcmp_16 == 0))
                                             {
                                               sprintf(msg, "Wrong Input Sheet Version '%.4000s'. Expected '0.7T'.", payload);
-                                              char *return_value_burn_printify$15;
-                                              return_value_burn_printify$15=burn_printify(msg);
-                                              libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify$15, 0, 0);
+                                              char *return_value_burn_printify_15;
+                                              return_value_burn_printify_15=burn_printify(msg);
+                                              libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify_15, 0, 0);
                                               ret = 0;
                                               goto ex;
                                             }
@@ -16719,11 +16719,11 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                                           else
                                           {
-                                            return_value_strcmp$51=strcmp(line, "Remarks");
-                                            if(!(return_value_strcmp$51 == 0))
+                                            return_value_strcmp_51=strcmp(line, "Remarks");
+                                            if(!(return_value_strcmp_51 == 0))
                                             {
-                                              return_value_strcmp$50=strcmp(line, "Text Data Copy Protection");
-                                              if(return_value_strcmp$50 == 0)
+                                              return_value_strcmp_50=strcmp(line, "Text Data Copy Protection");
+                                              if(return_value_strcmp_50 == 0)
                                               {
                                                 ret=v07t_hexcode(payload, 0);
                                                 if(ret >= 0)
@@ -16731,22 +16731,22 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                                                 else
                                                 {
-                                                  return_value_strcmp$19=strcmp(payload, "ON");
-                                                  if(return_value_strcmp$19 == 0)
+                                                  return_value_strcmp_19=strcmp(payload, "ON");
+                                                  if(return_value_strcmp_19 == 0)
                                                     copyrights[(signed long int)block] = 0x03;
 
                                                   else
                                                   {
-                                                    return_value_strcmp$18=strcmp(payload, "OFF");
-                                                    if(return_value_strcmp$18 == 0)
+                                                    return_value_strcmp_18=strcmp(payload, "OFF");
+                                                    if(return_value_strcmp_18 == 0)
                                                       copyrights[(signed long int)block] = 0x00;
 
                                                     else
                                                     {
                                                       sprintf(msg, "Unknown v07t Text Data Copy Protection '%.4000s'", payload);
-                                                      char *return_value_burn_printify$17;
-                                                      return_value_burn_printify$17=burn_printify(msg);
-                                                      libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify$17, 0, 0);
+                                                      char *return_value_burn_printify_17;
+                                                      return_value_burn_printify_17=burn_printify(msg);
+                                                      libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify_17, 0, 0);
                                                       ret = 0;
                                                       goto ex;
                                                     }
@@ -16756,8 +16756,8 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                                               else
                                               {
-                                                return_value_strcmp$49=strcmp(line, "First Track Number");
-                                                if(return_value_strcmp$49 == 0)
+                                                return_value_strcmp_49=strcmp(line, "First Track Number");
+                                                if(return_value_strcmp_49 == 0)
                                                 {
                                                   ret = -1;
                                                   __isoc99_sscanf(payload, "%d", &ret);
@@ -16767,9 +16767,9 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
                                                   bad_tno:
                                                     ;
                                                     sprintf(msg, "Inappropriate v07t First Track Number '%.4000s'", payload);
-                                                    char *return_value_burn_printify$20;
-                                                    return_value_burn_printify$20=burn_printify(msg);
-                                                    libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify$20, 0, 0);
+                                                    char *return_value_burn_printify_20;
+                                                    return_value_burn_printify_20=burn_printify(msg);
+                                                    libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify_20, 0, 0);
                                                     ret = 0;
                                                     goto ex;
                                                   }
@@ -16786,8 +16786,8 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                                                 else
                                                 {
-                                                  return_value_strcmp$48=strcmp(line, "Last Track Number");
-                                                  if(return_value_strcmp$48 == 0)
+                                                  return_value_strcmp_48=strcmp(line, "Last Track Number");
+                                                  if(return_value_strcmp_48 == 0)
                                                   {
                                                     ret = -1;
                                                     __isoc99_sscanf(payload, "%d", &ret);
@@ -16798,8 +16798,8 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                                                   else
                                                   {
-                                                    return_value_strncmp$47=strncmp(line, "Track ", (unsigned long int)6);
-                                                    if(return_value_strncmp$47 == 0)
+                                                    return_value_strncmp_47=strncmp(line, "Track ", (unsigned long int)6);
+                                                    if(return_value_strncmp_47 == 0)
                                                     {
                                                       tno = -1;
                                                       __isoc99_sscanf(line + (signed long int)6, "%d", &tno);
@@ -16812,119 +16812,119 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
                                                       bad_track_no:
                                                         ;
                                                         sprintf(msg, "Inappropriate v07t Track number '%.3900s'", (const void *)track_txt);
-                                                        unsigned long int return_value_strlen$21;
-                                                        return_value_strlen$21=strlen(msg);
-                                                        sprintf(msg + (signed long int)return_value_strlen$21, "  (acceptable range: %2.2d to %2.2d)", track_offset, (num_tracks + track_offset) - 1);
-                                                        char *return_value_burn_printify$22;
-                                                        return_value_burn_printify$22=burn_printify(msg);
-                                                        libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify$22, 0, 0);
+                                                        unsigned long int return_value_strlen_21;
+                                                        return_value_strlen_21=strlen(msg);
+                                                        sprintf(msg + (signed long int)return_value_strlen_21, "  (acceptable range: %2.2d to %2.2d)", track_offset, (num_tracks + track_offset) - 1);
+                                                        char *return_value_burn_printify_22;
+                                                        return_value_burn_printify_22=burn_printify(msg);
+                                                        libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify_22, 0, 0);
                                                         ret = 0;
                                                         goto ex;
                                                       }
 
                                                       tnum = tno - track_offset;
-                                                      signed int return_value_strcmp$42;
-                                                      return_value_strcmp$42=strcmp(line, "0x80");
-                                                      _Bool tmp_if_expr$44;
-                                                      if(return_value_strcmp$42 == 0)
-                                                        tmp_if_expr$44 = (_Bool)1;
+                                                      signed int return_value_strcmp_42;
+                                                      return_value_strcmp_42=strcmp(line, "0x80");
+                                                      _Bool tmp_if_expr_44;
+                                                      if(return_value_strcmp_42 == 0)
+                                                        tmp_if_expr_44 = (_Bool)1;
 
                                                       else
                                                       {
-                                                        return_value_strcmp$43=strcmp(line + (signed long int)9, "Title");
-                                                        tmp_if_expr$44 = return_value_strcmp$43 == 0 ? (_Bool)1 : (_Bool)0;
+                                                        return_value_strcmp_43=strcmp(line + (signed long int)9, "Title");
+                                                        tmp_if_expr_44 = return_value_strcmp_43 == 0 ? (_Bool)1 : (_Bool)0;
                                                       }
-                                                      if(tmp_if_expr$44)
+                                                      if(tmp_if_expr_44)
                                                         pack_type = 0x80;
 
                                                       else
                                                       {
-                                                        return_value_strcmp$39=strcmp(line + (signed long int)9, "0x81");
-                                                        _Bool tmp_if_expr$41;
-                                                        if(return_value_strcmp$39 == 0)
-                                                          tmp_if_expr$41 = (_Bool)1;
+                                                        return_value_strcmp_39=strcmp(line + (signed long int)9, "0x81");
+                                                        _Bool tmp_if_expr_41;
+                                                        if(return_value_strcmp_39 == 0)
+                                                          tmp_if_expr_41 = (_Bool)1;
 
                                                         else
                                                         {
-                                                          return_value_strcmp$40=strcmp(line + (signed long int)9, "Artist");
-                                                          tmp_if_expr$41 = return_value_strcmp$40 == 0 ? (_Bool)1 : (_Bool)0;
+                                                          return_value_strcmp_40=strcmp(line + (signed long int)9, "Artist");
+                                                          tmp_if_expr_41 = return_value_strcmp_40 == 0 ? (_Bool)1 : (_Bool)0;
                                                         }
-                                                        if(tmp_if_expr$41)
+                                                        if(tmp_if_expr_41)
                                                           pack_type = 0x81;
 
                                                         else
                                                         {
-                                                          return_value_strcmp$36=strcmp(line + (signed long int)9, "0x82");
-                                                          _Bool tmp_if_expr$38;
-                                                          if(return_value_strcmp$36 == 0)
-                                                            tmp_if_expr$38 = (_Bool)1;
+                                                          return_value_strcmp_36=strcmp(line + (signed long int)9, "0x82");
+                                                          _Bool tmp_if_expr_38;
+                                                          if(return_value_strcmp_36 == 0)
+                                                            tmp_if_expr_38 = (_Bool)1;
 
                                                           else
                                                           {
-                                                            return_value_strcmp$37=strcmp(line + (signed long int)9, "Songwriter");
-                                                            tmp_if_expr$38 = return_value_strcmp$37 == 0 ? (_Bool)1 : (_Bool)0;
+                                                            return_value_strcmp_37=strcmp(line + (signed long int)9, "Songwriter");
+                                                            tmp_if_expr_38 = return_value_strcmp_37 == 0 ? (_Bool)1 : (_Bool)0;
                                                           }
-                                                          if(tmp_if_expr$38)
+                                                          if(tmp_if_expr_38)
                                                             pack_type = 0x82;
 
                                                           else
                                                           {
-                                                            return_value_strcmp$33=strcmp(line + (signed long int)9, "0x83");
-                                                            _Bool tmp_if_expr$35;
-                                                            if(return_value_strcmp$33 == 0)
-                                                              tmp_if_expr$35 = (_Bool)1;
+                                                            return_value_strcmp_33=strcmp(line + (signed long int)9, "0x83");
+                                                            _Bool tmp_if_expr_35;
+                                                            if(return_value_strcmp_33 == 0)
+                                                              tmp_if_expr_35 = (_Bool)1;
 
                                                             else
                                                             {
-                                                              return_value_strcmp$34=strcmp(line + (signed long int)9, "Composer");
-                                                              tmp_if_expr$35 = return_value_strcmp$34 == 0 ? (_Bool)1 : (_Bool)0;
+                                                              return_value_strcmp_34=strcmp(line + (signed long int)9, "Composer");
+                                                              tmp_if_expr_35 = return_value_strcmp_34 == 0 ? (_Bool)1 : (_Bool)0;
                                                             }
-                                                            if(tmp_if_expr$35)
+                                                            if(tmp_if_expr_35)
                                                               pack_type = 0x83;
 
                                                             else
                                                             {
-                                                              return_value_strcmp$30=strcmp(line + (signed long int)9, "0x84");
-                                                              _Bool tmp_if_expr$32;
-                                                              if(return_value_strcmp$30 == 0)
-                                                                tmp_if_expr$32 = (_Bool)1;
+                                                              return_value_strcmp_30=strcmp(line + (signed long int)9, "0x84");
+                                                              _Bool tmp_if_expr_32;
+                                                              if(return_value_strcmp_30 == 0)
+                                                                tmp_if_expr_32 = (_Bool)1;
 
                                                               else
                                                               {
-                                                                return_value_strcmp$31=strcmp(line + (signed long int)9, "Arranger");
-                                                                tmp_if_expr$32 = return_value_strcmp$31 == 0 ? (_Bool)1 : (_Bool)0;
+                                                                return_value_strcmp_31=strcmp(line + (signed long int)9, "Arranger");
+                                                                tmp_if_expr_32 = return_value_strcmp_31 == 0 ? (_Bool)1 : (_Bool)0;
                                                               }
-                                                              if(tmp_if_expr$32)
+                                                              if(tmp_if_expr_32)
                                                                 pack_type = 0x84;
 
                                                               else
                                                               {
-                                                                return_value_strcmp$27=strcmp(line + (signed long int)9, "0x85");
-                                                                _Bool tmp_if_expr$29;
-                                                                if(return_value_strcmp$27 == 0)
-                                                                  tmp_if_expr$29 = (_Bool)1;
+                                                                return_value_strcmp_27=strcmp(line + (signed long int)9, "0x85");
+                                                                _Bool tmp_if_expr_29;
+                                                                if(return_value_strcmp_27 == 0)
+                                                                  tmp_if_expr_29 = (_Bool)1;
 
                                                                 else
                                                                 {
-                                                                  return_value_strcmp$28=strcmp(line + (signed long int)9, "Message");
-                                                                  tmp_if_expr$29 = return_value_strcmp$28 == 0 ? (_Bool)1 : (_Bool)0;
+                                                                  return_value_strcmp_28=strcmp(line + (signed long int)9, "Message");
+                                                                  tmp_if_expr_29 = return_value_strcmp_28 == 0 ? (_Bool)1 : (_Bool)0;
                                                                 }
-                                                                if(tmp_if_expr$29)
+                                                                if(tmp_if_expr_29)
                                                                   pack_type = 0x85;
 
                                                                 else
                                                                 {
-                                                                  return_value_strcmp$24=strcmp(line + (signed long int)9, "0x8e");
-                                                                  _Bool tmp_if_expr$26;
-                                                                  if(return_value_strcmp$24 == 0)
-                                                                    tmp_if_expr$26 = (_Bool)1;
+                                                                  return_value_strcmp_24=strcmp(line + (signed long int)9, "0x8e");
+                                                                  _Bool tmp_if_expr_26;
+                                                                  if(return_value_strcmp_24 == 0)
+                                                                    tmp_if_expr_26 = (_Bool)1;
 
                                                                   else
                                                                   {
-                                                                    return_value_strcmp$25=strcmp(line + (signed long int)9, "ISRC");
-                                                                    tmp_if_expr$26 = return_value_strcmp$25 == 0 ? (_Bool)1 : (_Bool)0;
+                                                                    return_value_strcmp_25=strcmp(line + (signed long int)9, "ISRC");
+                                                                    tmp_if_expr_26 = return_value_strcmp_25 == 0 ? (_Bool)1 : (_Bool)0;
                                                                   }
-                                                                  if(tmp_if_expr$26)
+                                                                  if(tmp_if_expr_26)
                                                                   {
                                                                     pack_type = 0x8e;
                                                                     if((2 & flag) == 0)
@@ -16940,9 +16940,9 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
                                                                   else
                                                                   {
                                                                     sprintf(msg, "Unknown v07t Track purpose specifier '%s'", line + (signed long int)9);
-                                                                    char *return_value_burn_printify$23;
-                                                                    return_value_burn_printify$23=burn_printify(msg);
-                                                                    libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify$23, 0, 0);
+                                                                    char *return_value_burn_printify_23;
+                                                                    return_value_burn_printify_23=burn_printify(msg);
+                                                                    libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify_23, 0, 0);
                                                                     ret = 0;
                                                                     goto ex;
                                                                   }
@@ -16961,8 +16961,8 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
 
                                                     else
                                                     {
-                                                      return_value_strncmp$46=strncmp(line, "ISRC ", (unsigned long int)5);
-                                                      if(return_value_strncmp$46 == 0)
+                                                      return_value_strncmp_46=strncmp(line, "ISRC ", (unsigned long int)5);
+                                                      if(return_value_strncmp_46 == 0)
                                                       {
                                                         tno = -1;
                                                         __isoc99_sscanf(line + (signed long int)5, "%d", &tno);
@@ -16993,9 +16993,9 @@ signed int burn_session_input_sheet_v07t(struct burn_session *session, char *pat
                                                       else
                                                       {
                                                         sprintf(msg, "Unknown v07t purpose specifier '%.4000s'", line);
-                                                        char *return_value_burn_printify$45;
-                                                        return_value_burn_printify$45=burn_printify(msg);
-                                                        libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify$45, 0, 0);
+                                                        char *return_value_burn_printify_45;
+                                                        return_value_burn_printify_45=burn_printify(msg);
+                                                        libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify_45, 0, 0);
                                                         ret = 0;
                                                         goto ex;
                                                       }
@@ -17086,9 +17086,9 @@ signed int burn_session_remove_track(struct burn_session *s, struct burn_track *
         memmove((void *)&s->track[(signed long int)pos], (const void *)&s->track[(signed long int)(pos + 1)], sizeof(struct burn_track *) /*8ul*/  * (unsigned long int)(s->tracks - (pos + 1)));
 
       s->tracks = s->tracks - 1;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)s->track, sizeof(struct burn_track *) /*8ul*/  * (unsigned long int)s->tracks);
-      tmp = (struct burn_track **)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)s->track, sizeof(struct burn_track *) /*8ul*/  * (unsigned long int)s->tracks);
+      tmp = (struct burn_track **)return_value_realloc_1;
       if(!(tmp == ((struct burn_track **)NULL)))
         s->track = tmp;
 
@@ -17102,9 +17102,9 @@ signed int burn_session_remove_track(struct burn_session *s, struct burn_track *
 signed int burn_session_set_cdtext(struct burn_session *s, signed int block, signed int pack_type, char *pack_type_name, unsigned char *payload, signed int length, signed int flag)
 {
   signed int ret;
-  signed int return_value_burn_cdtext_check_blockno$1;
-  return_value_burn_cdtext_check_blockno$1=burn_cdtext_check_blockno(block);
-  if(!(return_value_burn_cdtext_check_blockno$1 >= 1))
+  signed int return_value_burn_cdtext_check_blockno_1;
+  return_value_burn_cdtext_check_blockno_1=burn_cdtext_check_blockno(block);
+  if(!(return_value_burn_cdtext_check_blockno_1 >= 1))
     return 0;
 
   else
@@ -17175,9 +17175,9 @@ signed int burn_session_set_start_tno(struct burn_session *session, signed int t
 signed int burn_set_messenger(void *messenger)
 {
   struct libdax_msgs *pt;
-  signed int return_value_libdax_msgs_refer$1;
-  return_value_libdax_msgs_refer$1=libdax_msgs_refer(&pt, (struct libdax_msgs *)messenger, 0);
-  if(!(return_value_libdax_msgs_refer$1 >= 1))
+  signed int return_value_libdax_msgs_refer_1;
+  return_value_libdax_msgs_refer_1=libdax_msgs_refer(&pt, (struct libdax_msgs *)messenger, 0);
+  if(!(return_value_libdax_msgs_refer_1 >= 1))
     return 0;
 
   else
@@ -17278,9 +17278,9 @@ char * burn_sfile_fgets(char *line, signed int maxl, struct _IO_FILE *fp)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(line);
-    l = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(line);
+    l = (signed int)return_value_strlen_1;
     if(l >= 1)
     {
       if((signed int)line[(signed long int)(l + -1)] == 13)
@@ -17353,9 +17353,9 @@ void burn_source_free(struct burn_source *src)
 struct burn_source * burn_source_new(void)
 {
   struct burn_source *out;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct burn_source) /*88ul*/ , (unsigned long int)1, 0);
-  out = (struct burn_source *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct burn_source) /*88ul*/ , (unsigned long int)1, 0);
+  out = (struct burn_source *)return_value_burn_alloc_mem_1;
   if(out == ((struct burn_source *)NULL))
     return (struct burn_source *)(void *)0;
 
@@ -17422,7 +17422,7 @@ signed int burn_speed_descriptor_destroy(struct burn_speed_descriptor **s, signe
 {
   struct burn_speed_descriptor *next;
   struct burn_speed_descriptor *o;
-  signed int return_value_burn_speed_descriptor_destroy$1;
+  signed int return_value_burn_speed_descriptor_destroy_1;
   if(*s == ((struct burn_speed_descriptor *)NULL))
     return 0;
 
@@ -17448,8 +17448,8 @@ signed int burn_speed_descriptor_destroy(struct burn_speed_descriptor **s, signe
     *s = (struct burn_speed_descriptor *)(void *)0;
     if(!((1 & flag) == 0))
     {
-      return_value_burn_speed_descriptor_destroy$1=burn_speed_descriptor_destroy(&next, flag & 1);
-      return return_value_burn_speed_descriptor_destroy$1;
+      return_value_burn_speed_descriptor_destroy_1=burn_speed_descriptor_destroy(&next, flag & 1);
+      return return_value_burn_speed_descriptor_destroy_1;
     }
 
     return 1;
@@ -17461,9 +17461,9 @@ signed int burn_speed_descriptor_destroy(struct burn_speed_descriptor **s, signe
 signed int burn_speed_descriptor_new(struct burn_speed_descriptor **s, struct burn_speed_descriptor *prev, struct burn_speed_descriptor *next, signed int flag)
 {
   struct burn_speed_descriptor *o;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_speed_descriptor) /*128ul*/ );
-  o = (struct burn_speed_descriptor *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_speed_descriptor) /*128ul*/ );
+  o = (struct burn_speed_descriptor *)return_value_calloc_1;
   *s = o;
   if(o == ((struct burn_speed_descriptor *)NULL))
     return -1;
@@ -17538,14 +17538,14 @@ signed int burn_stdio_mmc_write(struct burn_drive *d, signed int start, struct b
       {
         char msg[80l];
         start_byte = (signed long int)start * (signed long int)(buf->bytes / buf->sectors);
-        signed long int return_value_lseek$2;
-        return_value_lseek$2=lseek(d->stdio_fd, start_byte, 0);
-        if(return_value_lseek$2 == -1l)
+        signed long int return_value_lseek_2;
+        return_value_lseek_2=lseek(d->stdio_fd, start_byte, 0);
+        if(return_value_lseek_2 == -1l)
         {
           sprintf(msg, "Cannot address start byte %.f", (double)start_byte);
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020147, 0x60000000, 0x30000000, msg, *return_value___errno_location$1, 0);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020147, 0x60000000, 0x30000000, msg, *return_value___errno_location_1, 0);
           d->cancel = 1;
           return 1;
         }
@@ -17581,13 +17581,13 @@ signed int burn_stdio_open_write(struct burn_drive *d, signed long int start_byt
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(d->drive_role == 5)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = d->drive_role == 3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = d->drive_role == 3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       mode = 01 | 0100 | 0;
 
     if((signed int)*d->devname == 0)
@@ -17603,9 +17603,9 @@ signed int burn_stdio_open_write(struct burn_drive *d, signed long int start_byt
         fd=open(d->devname, mode | 0, 0400 | 0200 | 0400 >> 3 | 0200 >> 3 | (0400 >> 3) >> 3 | (0200 >> 3) >> 3);
       if(fd == -1)
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020005, 0x60000000, 0x30000000, "Failed to open device (a pseudo-drive)", *return_value___errno_location$2, 0);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020005, 0x60000000, 0x30000000, "Failed to open device (a pseudo-drive)", *return_value___errno_location_2, 0);
         d->cancel = 1;
         return -1;
       }
@@ -17613,21 +17613,21 @@ signed int burn_stdio_open_write(struct burn_drive *d, signed long int start_byt
       if(!(start_byte >= 0l))
         start_byte = (signed long int)0;
 
-      _Bool tmp_if_expr$4;
+      _Bool tmp_if_expr_4;
       if(d->drive_role == 2)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = d->drive_role == 5 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = d->drive_role == 5 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
         lseek_res=lseek(fd, start_byte, 0);
         if(lseek_res == -1l)
         {
           sprintf(msg, "Cannot address start byte %.f", (double)start_byte);
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020147, 0x60000000, 0x30000000, msg, *return_value___errno_location$3, 0);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020147, 0x60000000, 0x30000000, msg, *return_value___errno_location_3, 0);
           close(fd);
           d->cancel = 1;
           fd = -1;
@@ -17650,9 +17650,9 @@ signed int burn_stdio_read(signed int fd, char *buf, signed int bufsize, struct 
   todo = bufsize;
   while(todo >= 1)
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)(buf + (signed long int)(bufsize - todo)), (unsigned long int)todo);
-    count = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)(buf + (signed long int)(bufsize - todo)), (unsigned long int)todo);
+    count = (signed int)return_value_read_1;
     if(!(count >= 1))
       break;
 
@@ -17660,9 +17660,9 @@ signed int burn_stdio_read(signed int fd, char *buf, signed int bufsize, struct 
   }
   if((1 & flag) == 0 && todo >= 1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002014a, (flag & 32) != 0 ? 0x10000000 : 0x60000000, 0x30000000, "Cannot read desired amount of data", *return_value___errno_location$2, 0);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002014a, (flag & 32) != 0 ? 0x10000000 : 0x60000000, 0x30000000, "Cannot read desired amount of data", *return_value___errno_location_2, 0);
   }
 
   if(!(count >= 0))
@@ -17698,9 +17698,9 @@ signed int burn_stdio_read_source(struct burn_source *source, char *buf, signed 
 static signed int burn_stdio_seek(signed int fd, signed long int byte_address, struct burn_drive *d, signed int flag)
 {
   char msg[80l];
-  signed long int return_value_lseek$1;
-  return_value_lseek$1=lseek(fd, byte_address, 0);
-  if(!(return_value_lseek$1 == -1l))
+  signed long int return_value_lseek_1;
+  return_value_lseek_1=lseek(fd, byte_address, 0);
+  if(!(return_value_lseek_1 == -1l))
     return 1;
 
   else
@@ -17708,9 +17708,9 @@ static signed int burn_stdio_seek(signed int fd, signed long int byte_address, s
     if((2 & flag) == 0)
     {
       sprintf(msg, "Cannot address start byte %.f", (double)byte_address);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020147, (flag & 32) != 0 ? 0x10000000 : 0x60000000, 0x30000000, msg, *return_value___errno_location$2, 0);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020147, (flag & 32) != 0 ? 0x10000000 : 0x60000000, 0x30000000, msg, *return_value___errno_location_2, 0);
     }
 
     return 0;
@@ -17753,7 +17753,7 @@ signed int burn_stdio_sync_cache(signed int fd, struct burn_drive *d, signed int
   signed int ret;
   signed int do_fsync;
   char *msg = (char *)(void *)0;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   if(!(fd >= 0))
   {
     libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002017d, 0x70000000, 0x30000000, "Invalid file descriptor with stdio pseudo-drive", 0, 0);
@@ -17784,12 +17784,12 @@ signed int burn_stdio_sync_cache(signed int fd, struct burn_drive *d, signed int
       ret = 0;
     if(!(ret == 0))
     {
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 5)
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 5)
       {
-        void *return_value_burn_alloc_mem$1;
-        return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-        msg = (char *)return_value_burn_alloc_mem$1;
+        void *return_value_burn_alloc_mem_1;
+        return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+        msg = (char *)return_value_burn_alloc_mem_1;
         if(msg == ((char *)NULL))
         {
           ret = -1;
@@ -17797,9 +17797,9 @@ signed int burn_stdio_sync_cache(signed int fd, struct burn_drive *d, signed int
         }
 
         sprintf(msg, "Cannot write desired amount of data. fsync(2) returned %d.", ret);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020148, 0x60000000, 0x30000000, msg, *return_value___errno_location$2, 0);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020148, 0x60000000, 0x30000000, msg, *return_value___errno_location_2, 0);
         d->cancel = 1;
         ret = 0;
         goto ex;
@@ -17827,7 +17827,7 @@ signed int burn_stdio_write(signed int fd, char *buf, signed int count, struct b
   signed int todo;
   signed int done;
   signed int retries;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!(d->cancel == 0) || !(count >= 1))
     return 0;
 
@@ -17838,9 +17838,9 @@ signed int burn_stdio_write(signed int fd, char *buf, signed int count, struct b
     retries = 0;
     for( ; todo >= 1 && !(retries >= 17); retries = retries + 1)
     {
-      signed long int return_value_write$1;
-      return_value_write$1=write(fd, (const void *)(buf + (signed long int)done), (unsigned long int)todo);
-      ret = (signed int)return_value_write$1;
+      signed long int return_value_write_1;
+      return_value_write_1=write(fd, (const void *)(buf + (signed long int)done), (unsigned long int)todo);
+      ret = (signed int)return_value_write_1;
       if(!(ret >= 0))
         break;
 
@@ -17849,9 +17849,9 @@ signed int burn_stdio_write(signed int fd, char *buf, signed int count, struct b
     }
     if(!(done == count))
     {
-      void *return_value_burn_alloc_mem$2;
-      return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-      msg = (char *)return_value_burn_alloc_mem$2;
+      void *return_value_burn_alloc_mem_2;
+      return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+      msg = (char *)return_value_burn_alloc_mem_2;
       if(msg == ((char *)NULL))
         ret = -1;
 
@@ -17860,16 +17860,16 @@ signed int burn_stdio_write(signed int fd, char *buf, signed int count, struct b
         sprintf(msg, "Cannot write desired amount of %d bytes.", count);
         if(retries >= 2)
         {
-          return_value_strlen$3=strlen(msg);
-          sprintf(msg + (signed long int)return_value_strlen$3, " Did %d retries. Last", retries - 1);
+          return_value_strlen_3=strlen(msg);
+          sprintf(msg + (signed long int)return_value_strlen_3, " Did %d retries. Last", retries - 1);
         }
 
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(msg);
-        sprintf(msg + (signed long int)return_value_strlen$4, " write(2) returned %d.", ret);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020148, 0x60000000, 0x30000000, msg, *return_value___errno_location$5, 0);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(msg);
+        sprintf(msg + (signed long int)return_value_strlen_4, " write(2) returned %d.", ret);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020148, 0x60000000, 0x30000000, msg, *return_value___errno_location_5, 0);
         d->cancel = 1;
         ret = 0;
         goto ex;
@@ -17966,9 +17966,9 @@ signed int burn_stdio_write_track(struct burn_write_opts *o, struct burn_session
   signed int prev_sync_sector = 0;
   struct buffer *out = d->buffer;
   struct timeval prev_time;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)bufsize, 0);
-  buf = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)bufsize, 0);
+  buf = (char *)return_value_burn_alloc_mem_1;
   if(buf == ((char *)NULL))
     ret = -1;
 
@@ -17988,9 +17988,9 @@ signed int burn_stdio_write_track(struct burn_write_opts *o, struct burn_session
     i = 0;
     for( ; !(open_ended == 0) || !(i >= sectors); i = i + 1)
     {
-      signed int return_value_sector_data$2;
-      return_value_sector_data$2=sector_data(o, t, 0);
-      if(return_value_sector_data$2 == 0)
+      signed int return_value_sector_data_2;
+      return_value_sector_data_2=sector_data(o, t, 0);
+      if(return_value_sector_data_2 == 0)
       {
         ret = 0;
         goto ex;
@@ -18002,17 +18002,17 @@ signed int burn_stdio_write_track(struct burn_write_opts *o, struct burn_session
         d->progress.sectors = sectors;
       }
 
-      _Bool tmp_if_expr$4;
+      _Bool tmp_if_expr_4;
       if(!(open_ended == 0))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = t->end_on_premature_eoi != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = t->end_on_premature_eoi != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
-        signed int return_value_burn_track_is_data_done$3;
-        return_value_burn_track_is_data_done$3=burn_track_is_data_done(t);
-        if(!(return_value_burn_track_is_data_done$3 == 0))
+        signed int return_value_burn_track_is_data_done_3;
+        return_value_burn_track_is_data_done_3=burn_track_is_data_done(t);
+        if(!(return_value_burn_track_is_data_done_3 == 0))
           break;
 
       }
@@ -18098,9 +18098,9 @@ void burn_structure_print_session(struct burn_session *s)
 void burn_structure_print_track(struct burn_track *t)
 {
   char msg[80l];
-  signed int return_value_burn_track_get_sectors$1;
-  return_value_burn_track_get_sectors$1=burn_track_get_sectors(t);
-  sprintf(msg, "        track size %d sectors", return_value_burn_track_get_sectors$1);
+  signed int return_value_burn_track_get_sectors_1;
+  return_value_burn_track_get_sectors_1=burn_track_get_sectors(t);
+  sprintf(msg, "        track size %d sectors", return_value_burn_track_get_sectors_1);
   libdax_msgs_submit(libdax_messenger, -1, 0x00000002, 0x10000000, 0x30000000, msg, 0, 0);
 }
 
@@ -18141,9 +18141,9 @@ signed int burn_track_apply_fillup(struct burn_track *t, signed long int max_siz
   else
   {
     max_sectors = (signed int)(max_size / (signed long int)2048);
-    signed int return_value_burn_track_get_sectors$1;
-    return_value_burn_track_get_sectors$1=burn_track_get_sectors(t);
-    if(!((1 & flag) == 0) || !(return_value_burn_track_get_sectors$1 >= max_sectors))
+    signed int return_value_burn_track_get_sectors_1;
+    return_value_burn_track_get_sectors_1=burn_track_get_sectors(t);
+    if(!((1 & flag) == 0) || !(return_value_burn_track_get_sectors_1 >= max_sectors))
     {
       signed long int return_value;
       return_value=t->source->get_size(t->source);
@@ -18181,9 +18181,9 @@ struct burn_track * burn_track_create(void)
 {
   struct burn_track *t;
   signed int i;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_track) /*624ul*/ );
-  t = (struct burn_track *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_track) /*624ul*/ );
+  t = (struct burn_track *)return_value_calloc_1;
   if(t == ((struct burn_track *)NULL))
     return (struct burn_track *)(void *)0;
 
@@ -18233,17 +18233,17 @@ void burn_track_define_data(struct burn_track *t, signed int offset, signed int 
   signed int form = -1;
   char msg[80l];
   type_to_form(mode, &ctladr, &form);
-  _Bool tmp_if_expr$2;
-  signed int return_value_burn_sector_length$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_burn_sector_length_1;
   if(form == -1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_burn_sector_length$1=burn_sector_length(mode);
-    tmp_if_expr$2 = return_value_burn_sector_length$1 <= 0 ? (_Bool)1 : (_Bool)0;
+    return_value_burn_sector_length_1=burn_sector_length(mode);
+    tmp_if_expr_2 = return_value_burn_sector_length_1 <= 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
   {
     sprintf(msg, "Attempt to set track mode to unusable value 0x%X", (unsigned int)mode);
     libdax_msgs_submit(libdax_messenger, -1, 0x00020115, 0x60000000, 0x30000000, msg, 0, 0);
@@ -18273,9 +18273,9 @@ signed int burn_track_dispose_cdtext(struct burn_track *t, signed int block)
 
   else
   {
-    signed int return_value_burn_cdtext_check_blockno$1;
-    return_value_burn_cdtext_check_blockno$1=burn_cdtext_check_blockno(block);
-    if(!(return_value_burn_cdtext_check_blockno$1 >= 1))
+    signed int return_value_burn_cdtext_check_blockno_1;
+    return_value_burn_cdtext_check_blockno_1=burn_cdtext_check_blockno(block);
+    if(!(return_value_burn_cdtext_check_blockno_1 >= 1))
       return 0;
 
     else
@@ -18310,9 +18310,9 @@ void burn_track_free(struct burn_track *t)
 signed int burn_track_get_cdtext(struct burn_track *t, signed int block, signed int pack_type, char *pack_type_name, unsigned char **payload, signed int *length, signed int flag)
 {
   signed int ret;
-  signed int return_value_burn_cdtext_check_blockno$1;
-  return_value_burn_cdtext_check_blockno$1=burn_cdtext_check_blockno(block);
-  if(!(return_value_burn_cdtext_check_blockno$1 >= 1))
+  signed int return_value_burn_cdtext_check_blockno_1;
+  return_value_burn_cdtext_check_blockno_1=burn_cdtext_check_blockno(block);
+  if(!(return_value_burn_cdtext_check_blockno_1 >= 1))
     return 0;
 
   else
@@ -18368,9 +18368,9 @@ signed int burn_track_get_mode(struct burn_track *track)
 // file libburn/structure.c line 543
 signed int burn_track_get_sectors(struct burn_track *t)
 {
-  signed int return_value_burn_track_get_sectors_2$1;
-  return_value_burn_track_get_sectors_2$1=burn_track_get_sectors_2(t, 0);
-  return return_value_burn_track_get_sectors_2$1;
+  signed int return_value_burn_track_get_sectors_2_1;
+  return_value_burn_track_get_sectors_2_1=burn_track_get_sectors_2(t, 0);
+  return return_value_burn_track_get_sectors_2_1;
 }
 
 // burn_track_get_sectors_2
@@ -18463,9 +18463,9 @@ signed int burn_track_set_byte_swap(struct burn_track *t, signed int swap_source
 signed int burn_track_set_cdtext(struct burn_track *t, signed int block, signed int pack_type, char *pack_type_name, unsigned char *payload, signed int length, signed int flag)
 {
   signed int ret;
-  signed int return_value_burn_cdtext_check_blockno$1;
-  return_value_burn_cdtext_check_blockno$1=burn_cdtext_check_blockno(block);
-  if(!(return_value_burn_cdtext_check_blockno$1 >= 1))
+  signed int return_value_burn_cdtext_check_blockno_1;
+  return_value_burn_cdtext_check_blockno_1=burn_cdtext_check_blockno(block);
+  if(!(return_value_burn_cdtext_check_blockno_1 >= 1))
     return 0;
 
   else
@@ -18535,85 +18535,85 @@ void burn_track_set_isrc(struct burn_track *t, char *country, char *owner, unsig
   signed int i;
   t->isrc.has_isrc = 0;
   i = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
   for( ; !(i >= 2); i = i + 1)
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if((signed int)country[(signed long int)i] >= 48)
-      tmp_if_expr$1 = (signed int)country[(signed long int)i] <= 57 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)country[(signed long int)i] <= 57 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if((signed int)country[(signed long int)i] >= 97)
-        tmp_if_expr$2 = (signed int)country[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)country[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$5;
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    _Bool tmp_if_expr_5;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
       if((signed int)country[(signed long int)i] >= 65)
-        tmp_if_expr$4 = (signed int)country[(signed long int)i] <= 90 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)country[(signed long int)i] <= 90 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$5)
+    if(!tmp_if_expr_5)
       goto is_not_allowed;
 
     t->isrc.country[(signed long int)i] = country[(signed long int)i];
   }
   i = 0;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
   for( ; !(i >= 3); i = i + 1)
   {
-    _Bool tmp_if_expr$6;
+    _Bool tmp_if_expr_6;
     if((signed int)owner[(signed long int)i] >= 48)
-      tmp_if_expr$6 = (signed int)owner[(signed long int)i] <= 57 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (signed int)owner[(signed long int)i] <= 57 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    _Bool tmp_if_expr$8;
-    if(tmp_if_expr$6)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)0;
+    _Bool tmp_if_expr_8;
+    if(tmp_if_expr_6)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
       if((signed int)owner[(signed long int)i] >= 97)
-        tmp_if_expr$7 = (signed int)owner[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (signed int)owner[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (_Bool)0;
+      tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$10;
-    if(tmp_if_expr$8)
-      tmp_if_expr$10 = (_Bool)1;
+    _Bool tmp_if_expr_10;
+    if(tmp_if_expr_8)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
       if((signed int)owner[(signed long int)i] >= 65)
-        tmp_if_expr$9 = (signed int)owner[(signed long int)i] <= 90 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = (signed int)owner[(signed long int)i] <= 90 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = (_Bool)0;
+      tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$10)
+    if(!tmp_if_expr_10)
       goto is_not_allowed;
 
     t->isrc.owner[(signed long int)i] = owner[(signed long int)i];
@@ -18647,33 +18647,33 @@ signed int burn_track_set_isrc_string(struct burn_track *t, char *isrc, signed i
 {
   unsigned char year;
   unsigned int serial = (unsigned int)2000000000;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(isrc);
-  _Bool tmp_if_expr$2;
-  if(!(return_value_strlen$1 == 12ul))
-    tmp_if_expr$2 = (_Bool)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(isrc);
+  _Bool tmp_if_expr_2;
+  if(!(return_value_strlen_1 == 12ul))
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)isrc[(signed long int)5] < 48 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = (signed int)isrc[(signed long int)5] < 48 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)isrc[(signed long int)5] > 57 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = (signed int)isrc[(signed long int)5] > 57 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (signed int)isrc[(signed long int)6] < 48 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = (signed int)isrc[(signed long int)6] < 48 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = (signed int)isrc[(signed long int)6] > 57 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (signed int)isrc[(signed long int)6] > 57 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
     libdax_msgs_submit(libdax_messenger, -1, 0x00020114, 0x60000000, 0x30000000, "Attempt to set ISRC with bad data", 0, 0);
     return 0;
@@ -18714,9 +18714,9 @@ signed int burn_track_set_sectors(struct burn_track *t, signed int sectors)
   signed long int size;
   signed long int seclen;
   signed int ret;
-  signed int return_value_burn_sector_length$1;
-  return_value_burn_sector_length$1=burn_sector_length(t->mode);
-  seclen = (signed long int)return_value_burn_sector_length$1;
+  signed int return_value_burn_sector_length_1;
+  return_value_burn_sector_length_1=burn_sector_length(t->mode);
+  seclen = (signed long int)return_value_burn_sector_length_1;
   size = (seclen * (signed long int)sectors - (signed long int)t->offset) - (signed long int)t->tail;
   if(!(size >= 0l))
     return 0;
@@ -18777,53 +18777,53 @@ signed int burn_util_make_printable_word(char **text, signed int flag)
     flag = flag & ~1;
 
   i = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   for( ; !((*text)[(signed long int)i] == 0); i = i + 1)
   {
     rpt = *text + (signed long int)i;
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!((signed int)*rpt >= 32))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*rpt > 126 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)*rpt > 126 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)*rpt == 96 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$4;
-    if(tmp_if_expr$2)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)*rpt == 96 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_4;
+    if(tmp_if_expr_2)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if((signed int)*rpt == 95)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*rpt == 37 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$4 = (tmp_if_expr$3 ? (!((flag & 2) != 0) ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)*rpt == 37 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (tmp_if_expr_3 ? (!((flag & 2) != 0) ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$5;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+    _Bool tmp_if_expr_5;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = ((signed int)*rpt == 47 ? ((flag & 1) != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = ((signed int)*rpt == 47 ? ((flag & 1) != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
       esc_add = esc_add + 2;
 
   }
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_11;
   if(!(esc_add == 0))
   {
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(*text);
-    void *return_value_calloc$7;
-    return_value_calloc$7=calloc(return_value_strlen$6 + (unsigned long int)esc_add + (unsigned long int)1, (unsigned long int)1);
-    new_text = (char *)return_value_calloc$7;
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(*text);
+    void *return_value_calloc_7;
+    return_value_calloc_7=calloc(return_value_strlen_6 + (unsigned long int)esc_add + (unsigned long int)1, (unsigned long int)1);
+    new_text = (char *)return_value_calloc_7;
     if(new_text == ((char *)NULL))
     {
       ret = -1;
@@ -18835,38 +18835,38 @@ signed int burn_util_make_printable_word(char **text, signed int flag)
     for( ; !((*text)[(signed long int)i] == 0); i = i + 1)
     {
       rpt = *text + (signed long int)i;
-      _Bool tmp_if_expr$9;
+      _Bool tmp_if_expr_9;
       if(!((signed int)*rpt >= 32))
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = (signed int)*rpt > 126 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$10;
-      if(tmp_if_expr$9)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_9 = (signed int)*rpt > 126 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_10;
+      if(tmp_if_expr_9)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = (signed int)*rpt == 96 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$12;
-      if(tmp_if_expr$10)
-        tmp_if_expr$12 = (_Bool)1;
+        tmp_if_expr_10 = (signed int)*rpt == 96 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_12;
+      if(tmp_if_expr_10)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
         if((signed int)*rpt == 95)
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)1;
 
         else
-          tmp_if_expr$11 = (signed int)*rpt == 37 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$12 = (tmp_if_expr$11 ? (!((flag & 2) != 0) ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (signed int)*rpt == 37 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_12 = (tmp_if_expr_11 ? (!((flag & 2) != 0) ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
       }
-      _Bool tmp_if_expr$13;
-      if(tmp_if_expr$12)
-        tmp_if_expr$13 = (_Bool)1;
+      _Bool tmp_if_expr_13;
+      if(tmp_if_expr_12)
+        tmp_if_expr_13 = (_Bool)1;
 
       else
-        tmp_if_expr$13 = ((signed int)*rpt == 47 ? ((flag & 1) != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$13)
+        tmp_if_expr_13 = ((signed int)*rpt == 47 ? ((flag & 1) != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_13)
       {
         sprintf(wpt, "%%%2.2X", (unsigned int)*((unsigned char *)rpt));
         wpt = wpt + (signed long int)3;
@@ -18874,9 +18874,9 @@ signed int burn_util_make_printable_word(char **text, signed int flag)
 
       else
       {
-        char *tmp_post$8 = wpt;
+        char *tmp_post_8 = wpt;
         wpt = wpt + 1l;
-        *tmp_post$8 = *rpt;
+        *tmp_post_8 = *rpt;
       }
     }
     *wpt = (char)0;
@@ -18906,12 +18906,12 @@ char * burn_util_thread_id(signed int pid, unsigned long int tid, char *text)
 {
   signed int i;
   signed int l;
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  sprintf(text, "[%lu,", (unsigned long int)return_value_getpid$1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(text);
-  l = (signed int)return_value_strlen$2;
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  sprintf(text, "[%lu,", (unsigned long int)return_value_getpid_1);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(text);
+  l = (signed int)return_value_strlen_2;
   i = 0;
   for( ; !(2 * i >= 80 + -l + -3) && !(i >= (signed int)sizeof(unsigned long int) /*8*/ ); i = i + 1)
     sprintf(text + (signed long int)l + (signed long int)(2 * i), "%2.2X", ((unsigned char *)&tid)[(signed long int)i]);
@@ -19018,9 +19018,9 @@ signed int burn_write_leadin(struct burn_write_opts *o, struct burn_session *s, 
   d->progress.sector = 0;
   while(!(count == 0))
   {
-    signed int return_value_sector_toc$1;
-    return_value_sector_toc$1=sector_toc(o, s->track[(signed long int)0]->mode);
-    if(return_value_sector_toc$1 == 0)
+    signed int return_value_sector_toc_1;
+    return_value_sector_toc_1=sector_toc(o, s->track[(signed long int)0]->mode);
+    if(return_value_sector_toc_1 == 0)
       return 0;
 
     count = count - 1;
@@ -19088,9 +19088,9 @@ static signed int burn_write_leadin_cdtext(struct burn_write_opts *o, struct bur
     __CPROVER_DUMP_L3:
       ;
       d->busy = (volatile enum burn_drive_status)BURN_DRIVE_WRITING_LEADIN;
-      void *return_value_burn_alloc_mem$1;
-      return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)(o->num_text_packs * 24), 0);
-      subdata = (unsigned char *)return_value_burn_alloc_mem$1;
+      void *return_value_burn_alloc_mem_1;
+      return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)(o->num_text_packs * 24), 0);
+      subdata = (unsigned char *)return_value_burn_alloc_mem_1;
       if(subdata == ((unsigned char *)NULL))
         ret = -1;
 
@@ -19107,9 +19107,9 @@ static signed int burn_write_leadin_cdtext(struct burn_write_opts *o, struct bur
           subdata[(signed long int)(si + 2)] = subdata[(signed long int)(si + 2)] | (unsigned char)((signed int)o->text_packs[(signed long int)(i + 2)] >> 6 & 0x03);
           subdata[(signed long int)(si + 3)] = (unsigned char)((signed int)o->text_packs[(signed long int)(i + 2)] >> 0 & 0x3f);
         }
-        void *return_value_burn_alloc_mem$2;
-        return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-        buf = (struct buffer *)return_value_burn_alloc_mem$2;
+        void *return_value_burn_alloc_mem_2;
+        return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+        buf = (struct buffer *)return_value_burn_alloc_mem_2;
         if(buf == ((struct buffer *)NULL))
           ret = -1;
 
@@ -19186,9 +19186,9 @@ signed int burn_write_leadout(struct burn_write_opts *o, signed int first, unsig
   d->progress.sector = 0;
   while(!(count == 0))
   {
-    signed int return_value_sector_lout$1;
-    return_value_sector_lout$1=sector_lout(o, control, mode);
-    if(return_value_sector_lout$1 == 0)
+    signed int return_value_sector_lout_1;
+    return_value_sector_lout_1=sector_lout(o, control, mode);
+    if(return_value_sector_lout_1 == 0)
       return 0;
 
     count = count - 1;
@@ -19210,13 +19210,13 @@ enum burn_write_types burn_write_opts_auto_write_type(struct burn_write_opts *op
   signed int would_do_sao = 0;
   char *reason_pt;
   reasons[(signed long int)0] = (char)0;
-  unsigned long int return_value_strlen$1;
-  signed int return_value_strcmp$4;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$7;
-  signed int return_value_strcmp$8;
-  unsigned long int return_value_strlen$9;
-  signed int return_value_strcmp$10;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_strcmp_4;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_7;
+  signed int return_value_strcmp_8;
+  unsigned long int return_value_strlen_9;
+  signed int return_value_strcmp_10;
   if(!((signed int)d->status == BURN_DISC_BLANK))
   {
     if((signed int)d->status == BURN_DISC_APPENDABLE)
@@ -19271,8 +19271,8 @@ enum burn_write_types burn_write_opts_auto_write_type(struct burn_write_opts *op
 
         }
 
-        return_value_strlen$1=strlen(reasons);
-        reason_pt = reasons + (signed long int)return_value_strlen$1;
+        return_value_strlen_1=strlen(reasons);
+        reason_pt = reasons + (signed long int)return_value_strlen_1;
         strcat(reasons, "SAO: ");
         if(!((signed int)d->status == BURN_DISC_BLANK))
           strcat(reasons, "write type SAO works only on blank media, ");
@@ -19317,13 +19317,13 @@ enum burn_write_types burn_write_opts_auto_write_type(struct burn_write_opts *op
 
           if(demands.unknown_track_size == 1)
           {
-            _Bool tmp_if_expr$2;
+            _Bool tmp_if_expr_2;
             if(caps->might_do_sao == 1)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = caps->might_do_sao == 3 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = caps->might_do_sao == 3 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
               strcat(reasons, "track size unpredictable, ");
 
           }
@@ -19331,13 +19331,13 @@ enum burn_write_types burn_write_opts_auto_write_type(struct burn_write_opts *op
           if(!(demands.mixed_mode == 0))
             strcat(reasons, "tracks of different modes mixed, ");
 
-          _Bool tmp_if_expr$3;
+          _Bool tmp_if_expr_3;
           if(!(demands.exotic_track == 0))
-            tmp_if_expr$3 = !(d->current_is_cd_profile != 0) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = !(d->current_is_cd_profile != 0) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
             strcat(reasons, "non-data track on non-cd, ");
 
           else
@@ -19355,24 +19355,24 @@ enum burn_write_types burn_write_opts_auto_write_type(struct burn_write_opts *op
 
           }
 
-          return_value_strcmp$4=strcmp(reason_pt, "SAO: ");
-          if(return_value_strcmp$4 == 0)
+          return_value_strcmp_4=strcmp(reason_pt, "SAO: ");
+          if(return_value_strcmp_4 == 0)
           {
             would_do_sao = 1;
-            _Bool tmp_if_expr$6;
+            _Bool tmp_if_expr_6;
             if((1 & flag) == 0 && demands.unknown_track_size == 2)
             {
               if(caps->might_do_sao == 1)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
-                tmp_if_expr$5 = caps->might_do_sao == 3 ? (_Bool)1 : (_Bool)0;
-              tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = caps->might_do_sao == 3 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            if(tmp_if_expr$6)
+              tmp_if_expr_6 = (_Bool)0;
+            if(tmp_if_expr_6)
             {
               strcat(reasons, "would have to use default track sizes, ");
               goto no_sao;
@@ -19429,8 +19429,8 @@ enum burn_write_types burn_write_opts_auto_write_type(struct burn_write_opts *op
 
           }
 
-          return_value_strlen$7=strlen(reasons);
-          reason_pt = reasons + (signed long int)return_value_strlen$7;
+          return_value_strlen_7=strlen(reasons);
+          reason_pt = reasons + (signed long int)return_value_strlen_7;
           strcat(reasons, "TAO: ");
           burn_disc_free_multi_caps(&caps);
           ret=burn_disc_get_multi_caps(d, (enum burn_write_types)BURN_WRITE_TAO, &caps, 0);
@@ -19474,8 +19474,8 @@ enum burn_write_types burn_write_opts_auto_write_type(struct burn_write_opts *op
 
             }
 
-            return_value_strcmp$8=strcmp(reason_pt, "TAO: ");
-            if(return_value_strcmp$8 == 0)
+            return_value_strcmp_8=strcmp(reason_pt, "TAO: ");
+            if(return_value_strcmp_8 == 0)
             {
               if(caps->might_simulate == 0)
               {
@@ -19517,8 +19517,8 @@ enum burn_write_types burn_write_opts_auto_write_type(struct burn_write_opts *op
             if((1 & flag) == 0)
               goto no_write_mode;
 
-            return_value_strlen$9=strlen(reasons);
-            reason_pt = reasons + (signed long int)return_value_strlen$9;
+            return_value_strlen_9=strlen(reasons);
+            reason_pt = reasons + (signed long int)return_value_strlen_9;
             strcat(reasons, "RAW: ");
             if(d->current_is_cd_profile == 0)
               strcat(reasons, "write type RAW prohibited by non-cd, ");
@@ -19531,8 +19531,8 @@ enum burn_write_types burn_write_opts_auto_write_type(struct burn_write_opts *op
                 if(!((d->block_types[1l] & demands.block_types) == demands.block_types))
                   strcat(reasons, "drive dislikes block type, ");
 
-            return_value_strcmp$10=strcmp(reason_pt, "RAW: ");
-            if(!(return_value_strcmp$10 == 0))
+            return_value_strcmp_10=strcmp(reason_pt, "RAW: ");
+            if(!(return_value_strcmp_10 == 0))
               goto no_write_mode;
 
             if(opts->force_is_set == 0)
@@ -19579,9 +19579,9 @@ signed int burn_write_opts_clone(struct burn_write_opts *from, struct burn_write
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_write_opts) /*128ul*/ );
-    *to = (struct burn_write_opts *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_write_opts) /*128ul*/ );
+    *to = (struct burn_write_opts *)return_value_calloc_1;
     if(*to == ((struct burn_write_opts *)NULL))
     {
       libdax_msgs_submit(libdax_messenger, -1, 0x00000003, 0x70000000, 0x30000000, "Out of virtual memory", 0, 0);
@@ -19624,9 +19624,9 @@ struct burn_drive * burn_write_opts_get_drive(struct burn_write_opts *opts)
 struct burn_write_opts * burn_write_opts_new(struct burn_drive *drive)
 {
   struct burn_write_opts *opts;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct burn_write_opts) /*128ul*/ );
-  opts = (struct burn_write_opts *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct burn_write_opts) /*128ul*/ );
+  opts = (struct burn_write_opts *)return_value_calloc_1;
   if(opts == ((struct burn_write_opts *)NULL))
   {
     libdax_msgs_submit(libdax_messenger, -1, 0x00020111, 0x70000000, 0x30000000, "Could not allocate new auxiliary object", 0, 0);
@@ -19642,13 +19642,13 @@ struct burn_write_opts * burn_write_opts_new(struct burn_drive *drive)
     opts->toc_entry = (struct burn_toc_entry *)(void *)0;
     opts->toc_entries = 0;
     opts->simulate = (unsigned int)0;
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(drive->mdata->p2a_valid >= 1)
-      tmp_if_expr$2 = drive->mdata->underrun_proof != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = drive->mdata->underrun_proof != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    opts->underrun_proof = (unsigned int)tmp_if_expr$2;
+      tmp_if_expr_2 = (_Bool)0;
+    opts->underrun_proof = (unsigned int)tmp_if_expr_2;
     opts->perform_opc = (unsigned int)1;
     opts->obs = -1;
     opts->obs_pad = 0;
@@ -19736,9 +19736,9 @@ signed int burn_write_opts_set_leadin_text(struct burn_write_opts *opts, unsigne
   {
     if(num_packs >= 1)
     {
-      void *return_value_burn_alloc_mem$1;
-      return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)(num_packs * 18), 0);
-      pack_buffer = (unsigned char *)return_value_burn_alloc_mem$1;
+      void *return_value_burn_alloc_mem_1;
+      return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)(num_packs * 18), 0);
+      pack_buffer = (unsigned char *)return_value_burn_alloc_mem_1;
       if(pack_buffer == ((unsigned char *)NULL))
       {
         ret = -1;
@@ -19867,9 +19867,9 @@ void burn_write_opts_set_stream_recording(struct burn_write_opts *opts, signed i
 void burn_write_opts_set_toc_entries(struct burn_write_opts *opts, signed int count, struct burn_toc_entry *toc_entries)
 {
   opts->toc_entries = count;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)count, sizeof(struct burn_toc_entry) /*32ul*/ );
-  opts->toc_entry = (struct burn_toc_entry *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)count, sizeof(struct burn_toc_entry) /*32ul*/ );
+  opts->toc_entry = (struct burn_toc_entry *)return_value_calloc_1;
   memcpy((void *)opts->toc_entry, (const void *)&toc_entries, sizeof(struct burn_toc_entry) /*32ul*/  * (unsigned long int)count);
 }
 
@@ -19877,13 +19877,13 @@ void burn_write_opts_set_toc_entries(struct burn_write_opts *opts, signed int co
 // file libburn/options.c line 180
 signed int burn_write_opts_set_underrun_proof(struct burn_write_opts *opts, signed int underrun_proof)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(opts->drive->mdata->p2a_valid >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = opts->drive->mdata->underrun_proof != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = opts->drive->mdata->underrun_proof != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     opts->underrun_proof = (unsigned int)underrun_proof;
     return 1;
@@ -19897,13 +19897,13 @@ signed int burn_write_opts_set_underrun_proof(struct burn_write_opts *opts, sign
 // file libburn/libburn.h line 3027
 signed int burn_write_opts_set_write_type(struct burn_write_opts *opts, enum burn_write_types write_type, signed int block_type)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(block_type == BURN_BLOCK_SAO && (signed int)write_type == BURN_WRITE_SAO)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (opts->drive->block_types[(signed long int)write_type] & block_type) != 0 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (opts->drive->block_types[(signed long int)write_type] & block_type) != 0 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
 
   bad_combination:
@@ -19914,14 +19914,14 @@ signed int burn_write_opts_set_write_type(struct burn_write_opts *opts, enum bur
 
   else
   {
-    signed int return_value_sector_get_outmode$2;
-    return_value_sector_get_outmode$2=sector_get_outmode(write_type, (enum burn_block_types)block_type);
-    if(return_value_sector_get_outmode$2 == -1)
+    signed int return_value_sector_get_outmode_2;
+    return_value_sector_get_outmode_2=sector_get_outmode(write_type, (enum burn_block_types)block_type);
+    if(return_value_sector_get_outmode_2 == -1)
       goto bad_combination;
 
-    signed int return_value_spc_block_type$3;
-    return_value_spc_block_type$3=spc_block_type((enum burn_block_types)block_type);
-    if(return_value_spc_block_type$3 == -1)
+    signed int return_value_spc_block_type_3;
+    return_value_spc_block_type_3=spc_block_type((enum burn_block_types)block_type);
+    if(return_value_spc_block_type_3 == -1)
       goto bad_combination;
 
     opts->write_type = write_type;
@@ -19949,9 +19949,9 @@ signed int burn_write_session(struct burn_write_opts *o, struct burn_session *s)
   i = 0;
   for( ; !(i >= s->tracks); i = i + 1)
   {
-    signed int return_value_burn_write_track$1;
-    return_value_burn_write_track$1=burn_write_track(o, s, i);
-    if(return_value_burn_write_track$1 == 0)
+    signed int return_value_burn_write_track_1;
+    return_value_burn_write_track_1=burn_write_track(o, s, i);
+    if(return_value_burn_write_track_1 == 0)
     {
       ret = 0;
       goto ex;
@@ -19983,8 +19983,8 @@ signed int burn_write_track(struct burn_write_opts *o, struct burn_session *s, s
   signed int sectors;
   char msg[160l];
   d->rlba = -150;
-  signed int return_value_sector_pregap$1;
-  signed int return_value_sector_pregap$2;
+  signed int return_value_sector_pregap_1;
+  signed int return_value_sector_pregap_2;
   if(!((signed int)o->write_type == BURN_WRITE_TAO))
   {
     d->busy = (volatile enum burn_drive_status)BURN_DRIVE_WRITING_PREGAP;
@@ -20008,8 +20008,8 @@ signed int burn_write_track(struct burn_write_opts *o, struct burn_session *s, s
       i = 0;
       for( ; !(i >= 75); i = i + 1)
       {
-        return_value_sector_pregap$1=sector_pregap(o, t->entry->point, pt->entry->control, pt->mode);
-        if(return_value_sector_pregap$1 == 0)
+        return_value_sector_pregap_1=sector_pregap(o, t->entry->point, pt->entry->control, pt->mode);
+        if(return_value_sector_pregap_1 == 0)
         {
           ret = 0;
           goto ex;
@@ -20023,8 +20023,8 @@ signed int burn_write_track(struct burn_write_opts *o, struct burn_session *s, s
       i = 0;
       for( ; !(i >= t->pregap2_size); i = i + 1)
       {
-        return_value_sector_pregap$2=sector_pregap(o, t->entry->point, t->entry->control, t->mode);
-        if(return_value_sector_pregap$2 == 0)
+        return_value_sector_pregap_2=sector_pregap(o, t->entry->point, t->entry->control, t->mode);
+        if(return_value_sector_pregap_2 == 0)
         {
           ret = 0;
           goto ex;
@@ -20045,9 +20045,9 @@ signed int burn_write_track(struct burn_write_opts *o, struct burn_session *s, s
     d->send_write_parameters(d, s, tnum, o);
     ret=d->get_nwa(d, -1, &lba, &nwa);
     burn_track_apply_fillup(t, d->media_capacity_remaining, 0);
-    signed int return_value_burn_track_get_sectors_2$3;
-    return_value_burn_track_get_sectors_2$3=burn_track_get_sectors_2(t, 1);
-    sprintf(msg, "TAO pre-track %2.2d : get_nwa(%d)=%d, d=%d , demand=%.f , cap=%.f\n", tnum + 1, nwa, ret, d->nwa, (double)return_value_burn_track_get_sectors_2$3 * 2048.0, (double)d->media_capacity_remaining);
+    signed int return_value_burn_track_get_sectors_2_3;
+    return_value_burn_track_get_sectors_2_3=burn_track_get_sectors_2(t, 1);
+    sprintf(msg, "TAO pre-track %2.2d : get_nwa(%d)=%d, d=%d , demand=%.f , cap=%.f\n", tnum + 1, nwa, ret, d->nwa, (double)return_value_burn_track_get_sectors_2_3 * 2048.0, (double)d->media_capacity_remaining);
     libdax_msgs_submit(libdax_messenger, d->global_index, 0x00000002, 0x10000000, 0x00000000, msg, 0, 0);
     if(!(nwa >= d->nwa))
     {
@@ -20070,9 +20070,9 @@ signed int burn_write_track(struct burn_write_opts *o, struct burn_session *s, s
     if(i % 64 == 0)
       d->read_buffer_capacity(d);
 
-    signed int return_value_sector_data$4;
-    return_value_sector_data$4=sector_data(o, t, 0);
-    if(return_value_sector_data$4 == 0)
+    signed int return_value_sector_data_4;
+    return_value_sector_data_4=sector_data(o, t, 0);
+    if(return_value_sector_data_4 == 0)
     {
       ret = 0;
       goto ex;
@@ -20082,9 +20082,9 @@ signed int burn_write_track(struct burn_write_opts *o, struct burn_session *s, s
     {
       sectors = i;
       d->progress.sectors = sectors;
-      signed int return_value_burn_track_is_data_done$5;
-      return_value_burn_track_is_data_done$5=burn_track_is_data_done(t);
-      if(!(return_value_burn_track_is_data_done$5 == 0))
+      signed int return_value_burn_track_is_data_done_5;
+      return_value_burn_track_is_data_done_5=burn_track_is_data_done(t);
+      if(!(return_value_burn_track_is_data_done_5 == 0))
         break;
 
     }
@@ -20097,9 +20097,9 @@ signed int burn_write_track(struct burn_write_opts *o, struct burn_session *s, s
     if(i % 64 == 0)
       d->read_buffer_capacity(d);
 
-    signed int return_value_sector_data$6;
-    return_value_sector_data$6=sector_data(o, t, 1);
-    if(return_value_sector_data$6 == 0)
+    signed int return_value_sector_data_6;
+    return_value_sector_data_6=sector_data(o, t, 1);
+    if(return_value_sector_data_6 == 0)
     {
       ret = 0;
       goto ex;
@@ -20108,7 +20108,7 @@ signed int burn_write_track(struct burn_write_opts *o, struct burn_session *s, s
     d->progress.sector = d->progress.sector + 1;
   }
   ret=sector_write_buffer(d, t, 0);
-  signed int return_value_sector_postgap$7;
+  signed int return_value_sector_postgap_7;
   if(ret >= 1)
   {
     if(!(t->postgap == 0))
@@ -20118,8 +20118,8 @@ signed int burn_write_track(struct burn_write_opts *o, struct burn_session *s, s
         i = 0;
         for( ; !(i >= t->postgap_size); i = i + 1)
         {
-          return_value_sector_postgap$7=sector_postgap(o, t->entry->point, t->entry->control, t->mode);
-          if(return_value_sector_postgap$7 == 0)
+          return_value_sector_postgap_7=sector_postgap(o, t->entry->point, t->entry->control, t->mode);
+          if(return_value_sector_postgap_7 == 0)
           {
             ret = 0;
             goto ex;
@@ -20145,9 +20145,9 @@ ex:
 
   if((signed int)o->write_type == BURN_WRITE_TAO)
   {
-    signed int return_value_burn_write_flush_buffer$8;
-    return_value_burn_write_flush_buffer$8=burn_write_flush_buffer(o, t);
-    if(return_value_burn_write_flush_buffer$8 == 0)
+    signed int return_value_burn_write_flush_buffer_8;
+    return_value_burn_write_flush_buffer_8=burn_write_flush_buffer(o, t);
+    if(return_value_burn_write_flush_buffer_8 == 0)
       ret = 0;
 
     burn_write_track_minsize(o, s, tnum);
@@ -20248,9 +20248,9 @@ static signed int collect_payload(unsigned char *text_packs, signed int num_pack
 
   else
   {
-    void *return_value_burn_alloc_mem$1;
-    return_value_burn_alloc_mem$1=burn_alloc_mem((unsigned long int)(*payload_count + 1), (unsigned long int)1, 0);
-    *payload = (unsigned char *)return_value_burn_alloc_mem$1;
+    void *return_value_burn_alloc_mem_1;
+    return_value_burn_alloc_mem_1=burn_alloc_mem((unsigned long int)(*payload_count + 1), (unsigned long int)1, 0);
+    *payload = (unsigned char *)return_value_burn_alloc_mem_1;
     if(*payload == ((unsigned char *)NULL))
       return -1;
 
@@ -20352,9 +20352,9 @@ static void convert_subs(struct burn_write_opts *o, signed int inmode, unsigned 
   if(outmode == 0)
     outmode = inmode;
 
-  signed int return_value_burn_sector_length$1;
-  return_value_burn_sector_length$1=burn_sector_length(outmode);
-  sector = sector + (signed long int)return_value_burn_sector_length$1;
+  signed int return_value_burn_sector_length_1;
+  return_value_burn_sector_length_1=burn_sector_length(outmode);
+  sector = sector + (signed long int)return_value_burn_sector_length_1;
   switch((signed int)o->block_type)
   {
     case BURN_BLOCK_RAW96R:
@@ -20400,23 +20400,23 @@ static signed int crc_11021(unsigned char *data, signed int count, signed int fl
   return acc;
 }
 
-// crc_11021$link1
+// crc_11021_link1
 // file libburn/crc.c line 152
-static signed int crc_11021$link1(unsigned char *data$link1, signed int count$link1, signed int flag$link1)
+static signed int crc_11021_link1(unsigned char *data_link1, signed int count_link1, signed int flag_link1)
 {
-  signed int acc$link1 = 0;
-  signed int i$link1 = 0;
-  for( ; !(i$link1 >= 8 * count$link1 + 16); i$link1 = i$link1 + 1)
+  signed int acc_link1 = 0;
+  signed int i_link1 = 0;
+  for( ; !(i_link1 >= 8 * count_link1 + 16); i_link1 = i_link1 + 1)
   {
-    acc$link1 = acc$link1 << 1;
-    if(!(i$link1 >= 8 * count$link1))
-      acc$link1 = acc$link1 | (signed int)data$link1[(signed long int)(i$link1 / 8)] >> 7 - i$link1 % 8 & 1;
+    acc_link1 = acc_link1 << 1;
+    if(!(i_link1 >= 8 * count_link1))
+      acc_link1 = acc_link1 | (signed int)data_link1[(signed long int)(i_link1 / 8)] >> 7 - i_link1 % 8 & 1;
 
-    if(!((0x10000 & acc$link1) == 0))
-      acc$link1 = acc$link1 ^ 0x11021;
+    if(!((0x10000 & acc_link1) == 0))
+      acc_link1 = acc_link1 ^ 0x11021;
 
   }
-  return acc$link1;
+  return acc_link1;
 }
 
 // crc_18001801b
@@ -20470,11 +20470,11 @@ unsigned int crc_32(unsigned char *data, signed int count)
     for( ; !(i >= 256); i = i + 1)
     {
       b[(signed long int)0] = (unsigned char)i;
-      unsigned int return_value_rfl8$1;
-      return_value_rfl8$1=rfl8((unsigned int)i);
-      unsigned int return_value_crc_18001801b$2;
-      return_value_crc_18001801b$2=crc_18001801b(b, 1, 1);
-      crc_tab[(signed long int)return_value_rfl8$1]=rfl32(return_value_crc_18001801b$2);
+      unsigned int return_value_rfl8_1;
+      return_value_rfl8_1=rfl8((unsigned int)i);
+      unsigned int return_value_crc_18001801b_2;
+      return_value_crc_18001801b_2=crc_18001801b(b, 1, 1);
+      crc_tab[(signed long int)return_value_rfl8_1]=rfl32(return_value_crc_18001801b_2);
     }
     tab_initialized = (unsigned int)1;
   }
@@ -20500,9 +20500,9 @@ unsigned short int crc_ccitt(unsigned char *data, signed int count)
     for( ; !(i >= 256); i = i + 1)
     {
       b[(signed long int)0] = (unsigned char)i;
-      signed int return_value_crc_11021$1;
-      return_value_crc_11021$1=crc_11021$link1(b, 1, 0);
-      crc_tab[(signed long int)i] = (unsigned short int)return_value_crc_11021$1;
+      signed int return_value_crc_11021_1;
+      return_value_crc_11021_1=crc_11021_link1(b, 1, 0);
+      crc_tab[(signed long int)i] = (unsigned short int)return_value_crc_11021_1;
     }
     tab_initialized = (unsigned short int)1;
   }
@@ -20510,9 +20510,9 @@ unsigned short int crc_ccitt(unsigned char *data, signed int count)
   i = 0;
   for( ; !(i >= count); i = i + 1)
   {
-    unsigned char *tmp_post$2 = data;
+    unsigned char *tmp_post_2 = data;
     data = data + 1l;
-    acc = (unsigned short int)((signed int)crc_tab[(signed long int)((signed int)acc >> 8 ^ (signed int)*tmp_post$2)] ^ (signed int)acc << 8);
+    acc = (unsigned short int)((signed int)crc_tab[(signed long int)((signed int)acc >> 8 ^ (signed int)*tmp_post_2)] ^ (signed int)acc << 8);
   }
   return (unsigned short int)~((signed int)acc);
 }
@@ -20597,9 +20597,9 @@ static signed int cue_check_for_track(struct burn_cue_file_cursor *crs, char *cm
   char *msg = (char *)(void *)0;
   if(crs->track == ((struct burn_track *)NULL))
   {
-    void *return_value_burn_alloc_mem$1;
-    return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-    msg = (char *)return_value_burn_alloc_mem$1;
+    void *return_value_burn_alloc_mem_1;
+    return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+    msg = (char *)return_value_burn_alloc_mem_1;
     if(msg == ((char *)NULL))
     {
       ret = -1;
@@ -20629,9 +20629,9 @@ static signed int cue_create_file_source(char *path, struct burn_cue_file_cursor
   signed int fd;
   signed int ret;
   char *msg = (char *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -20651,11 +20651,11 @@ static signed int cue_create_file_source(char *path, struct burn_cue_file_cursor
       if(fd == -1)
       {
         sprintf(msg, "In cue sheet: Cannot open FILE '%.4000s'", path);
-        char *return_value_burn_printify$2;
-        return_value_burn_printify$2=burn_printify(msg);
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify$2, *return_value___errno_location$3, 0);
+        char *return_value_burn_printify_2;
+        return_value_burn_printify_2=burn_printify(msg);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify_2, *return_value___errno_location_3, 0);
         ret = 0;
         goto ex;
       }
@@ -20723,9 +20723,9 @@ static signed int cue_crs_new(struct burn_cue_file_cursor **reply, signed int fl
 {
   signed int ret;
   struct burn_cue_file_cursor *crs;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct burn_cue_file_cursor) /*136ul*/ , (unsigned long int)1, 0);
-  crs = (struct burn_cue_file_cursor *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct burn_cue_file_cursor) /*136ul*/ , (unsigned long int)1, 0);
+  crs = (struct burn_cue_file_cursor *)return_value_burn_alloc_mem_1;
   if(crs == ((struct burn_cue_file_cursor *)NULL))
     ret = -1;
 
@@ -20786,55 +20786,55 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
   struct burn_source *inp_src;
   enum burn_source_status source_status;
   struct stat stbuf;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcmp$47;
-  signed int return_value_strcmp$46;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$45;
-  signed int return_value_strcmp$44;
-  signed int return_value_strcmp$43;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$42;
-  signed int return_value_strncmp$23;
-  signed int return_value_strncmp$22;
-  signed int return_value_strncmp$21;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$25;
-  signed int return_value_strcmp$41;
-  signed int return_value_strcmp$40;
-  signed int return_value_strcmp$39;
-  signed int return_value_strcmp$38;
-  signed int return_value_strcmp$37;
-  signed int return_value_strcmp$36;
-  signed int return_value_strcmp$35;
-  signed int return_value_strcmp$34;
-  signed int return_value_strcmp$33;
-  signed int return_value_strcmp$32;
-  signed int return_value_strcmp$29;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcmp_47;
+  signed int return_value_strcmp_46;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_45;
+  signed int return_value_strcmp_44;
+  signed int return_value_strcmp_43;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_42;
+  signed int return_value_strncmp_23;
+  signed int return_value_strncmp_22;
+  signed int return_value_strncmp_21;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_25;
+  signed int return_value_strcmp_41;
+  signed int return_value_strcmp_40;
+  signed int return_value_strcmp_39;
+  signed int return_value_strcmp_38;
+  signed int return_value_strcmp_37;
+  signed int return_value_strcmp_36;
+  signed int return_value_strcmp_35;
+  signed int return_value_strcmp_34;
+  signed int return_value_strcmp_33;
+  signed int return_value_strcmp_32;
+  signed int return_value_strcmp_29;
   if(msg == ((char *)NULL))
     ret = -1;
 
   else
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if((signed int)*line == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       ret = 1;
 
     else
@@ -20843,11 +20843,11 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
       do
       {
         if((signed int)*cmd == 32)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)*cmd == 9 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (signed int)*cmd == 9 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_3)
           break;
 
         cmd = cmd + 1l;
@@ -20857,16 +20857,16 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
       do
       {
         if(!((signed int)*apt == 0))
-          tmp_if_expr$4 = (signed int)*apt != 32 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)*apt != 32 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (signed int)*apt != 9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (signed int)*apt != 9 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(!tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(!tmp_if_expr_5)
           break;
 
         apt = apt + 1l;
@@ -20879,11 +20879,11 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
         do
         {
           if((signed int)*apt == 32)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (signed int)*apt == 9 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$6)
+            tmp_if_expr_6 = (signed int)*apt == 9 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_6)
             break;
 
           apt = apt + 1l;
@@ -20891,8 +20891,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
         while((_Bool)1);
       }
 
-      return_value_strcmp$47=strcmp(cmd, "ARRANGER");
-      if(return_value_strcmp$47 == 0)
+      return_value_strcmp_47=strcmp(cmd, "ARRANGER");
+      if(return_value_strcmp_47 == 0)
       {
         ret=cue_set_cdtext(session, crs->track, 0x84, apt, crs, 2);
         if(!(ret >= 1))
@@ -20902,18 +20902,18 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
       else
       {
-        return_value_strcmp$46=strcmp(cmd, "CATALOG");
-        if(return_value_strcmp$46 == 0)
+        return_value_strcmp_46=strcmp(cmd, "CATALOG");
+        if(return_value_strcmp_46 == 0)
         {
           cpt = apt;
           do
           {
             if(!(cpt - apt >= 13l))
-              tmp_if_expr$7 = (signed int)*cpt == ((signed int)*cpt & 0x7f) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = (signed int)*cpt == ((signed int)*cpt & 0x7f) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            if(!tmp_if_expr$7)
+              tmp_if_expr_7 = (_Bool)0;
+            if(!tmp_if_expr_7)
               break;
 
             cpt = cpt + 1l;
@@ -20940,8 +20940,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
         else
         {
-          return_value_strcmp$45=strcmp(cmd, "CDTEXTFILE");
-          if(return_value_strcmp$45 == 0)
+          return_value_strcmp_45=strcmp(cmd, "CDTEXTFILE");
+          if(return_value_strcmp_45 == 0)
           {
             if(!(crs->no_cdtext == 0))
             {
@@ -20968,8 +20968,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
           else
           {
-            return_value_strcmp$44=strcmp(cmd, "COMPOSER");
-            if(return_value_strcmp$44 == 0)
+            return_value_strcmp_44=strcmp(cmd, "COMPOSER");
+            if(return_value_strcmp_44 == 0)
             {
               ret=cue_set_cdtext(session, crs->track, 0x83, apt, crs, 2);
               if(!(ret >= 1))
@@ -20979,8 +20979,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
             else
             {
-              return_value_strcmp$43=strcmp(cmd, "FILE");
-              if(return_value_strcmp$43 == 0)
+              return_value_strcmp_43=strcmp(cmd, "FILE");
+              if(return_value_strcmp_43 == 0)
               {
                 if(!(crs->file_source == ((struct burn_source *)NULL)))
                 {
@@ -20989,24 +20989,24 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
                   goto ex;
                 }
 
-                unsigned long int return_value_strlen$8;
-                return_value_strlen$8=strlen(apt);
-                cpt = apt + (signed long int)(return_value_strlen$8 - (unsigned long int)1);
+                unsigned long int return_value_strlen_8;
+                return_value_strlen_8=strlen(apt);
+                cpt = apt + (signed long int)(return_value_strlen_8 - (unsigned long int)1);
                 do
                 {
                   if(!(apt >= cpt))
                   {
                     if((signed int)*cpt == 32)
-                      tmp_if_expr$9 = (_Bool)1;
+                      tmp_if_expr_9 = (_Bool)1;
 
                     else
-                      tmp_if_expr$9 = (signed int)*cpt == 9 ? (_Bool)1 : (_Bool)0;
-                    tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_9 = (signed int)*cpt == 9 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$10 = (_Bool)0;
-                  if(!tmp_if_expr$10)
+                    tmp_if_expr_10 = (_Bool)0;
+                  if(!tmp_if_expr_10)
                     break;
 
                   cpt = cpt - 1l;
@@ -21016,16 +21016,16 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
                 do
                 {
                   if(!(apt >= cpt))
-                    tmp_if_expr$11 = (signed int)*cpt != 32 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_11 = (signed int)*cpt != 32 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$11 = (_Bool)0;
-                  if(tmp_if_expr$11)
-                    tmp_if_expr$12 = (signed int)*cpt != 9 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_11 = (_Bool)0;
+                  if(tmp_if_expr_11)
+                    tmp_if_expr_12 = (signed int)*cpt != 9 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$12 = (_Bool)0;
-                  if(!tmp_if_expr$12)
+                    tmp_if_expr_12 = (_Bool)0;
+                  if(!tmp_if_expr_12)
                     break;
 
                   cpt = cpt - 1l;
@@ -21040,29 +21040,29 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                 *cpt = (char)0;
                 filetype = cpt + (signed long int)1;
-                signed int return_value_strcmp$16;
-                return_value_strcmp$16=strcmp(filetype, "BINARY");
-                if(return_value_strcmp$16 == 0)
+                signed int return_value_strcmp_16;
+                return_value_strcmp_16=strcmp(filetype, "BINARY");
+                if(return_value_strcmp_16 == 0)
                   crs->swap_audio_bytes = 0;
 
                 else
                 {
-                  return_value_strcmp$15=strcmp(filetype, "MOTOROLA");
-                  if(return_value_strcmp$15 == 0)
+                  return_value_strcmp_15=strcmp(filetype, "MOTOROLA");
+                  if(return_value_strcmp_15 == 0)
                     crs->swap_audio_bytes = 1;
 
                   else
                   {
-                    return_value_strcmp$14=strcmp(filetype, "WAVE");
-                    if(return_value_strcmp$14 == 0)
+                    return_value_strcmp_14=strcmp(filetype, "WAVE");
+                    if(return_value_strcmp_14 == 0)
                       audio_xtr = 0x101;
 
                     else
                     {
                       sprintf(msg, "In cue sheet file: Unsupported FILE type '%.4000s'", filetype);
-                      char *return_value_burn_printify$13;
-                      return_value_burn_printify$13=burn_printify(msg);
-                      libdax_msgs_submit(libdax_messenger, -1, 0x00020197, 0x68000000, 0x30000000, return_value_burn_printify$13, 0, 0);
+                      char *return_value_burn_printify_13;
+                      return_value_burn_printify_13=burn_printify(msg);
+                      libdax_msgs_submit(libdax_messenger, -1, 0x00020197, 0x68000000, 0x30000000, return_value_burn_printify_13, 0, 0);
                       ret = 0;
                       goto ex;
                     }
@@ -21080,9 +21080,9 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
                 not_usable_file:
                   ;
                   sprintf(msg, "In cue sheet file: Unusable FILE '%.4000s'", apt);
-                  char *return_value_burn_printify$17;
-                  return_value_burn_printify$17=burn_printify(msg);
-                  libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify$17, 0, 0);
+                  char *return_value_burn_printify_17;
+                  return_value_burn_printify_17=burn_printify(msg);
+                  libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify_17, 0, 0);
                   ret = 0;
                   goto ex;
                 }
@@ -21106,8 +21106,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
               else
               {
-                return_value_strcmp$42=strcmp(cmd, "FLAGS");
-                if(return_value_strcmp$42 == 0)
+                return_value_strcmp_42=strcmp(cmd, "FLAGS");
+                if(return_value_strcmp_42 == 0)
                 {
                   ret=cue_check_for_track(crs, cmd, 0);
                   if(!(ret >= 1))
@@ -21115,9 +21115,9 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                   while(!(*apt == 0))
                   {
-                    signed int return_value_strncmp$24;
-                    return_value_strncmp$24=strncmp(apt, "DCP", (unsigned long int)3);
-                    if(return_value_strncmp$24 == 0)
+                    signed int return_value_strncmp_24;
+                    return_value_strncmp_24=strncmp(apt, "DCP", (unsigned long int)3);
+                    if(return_value_strncmp_24 == 0)
                     {
                       crs->track_mode = crs->track_mode | 1 << 8;
                       step = 3;
@@ -21125,8 +21125,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                     else
                     {
-                      return_value_strncmp$23=strncmp(apt, "4CH", (unsigned long int)3);
-                      if(return_value_strncmp$23 == 0)
+                      return_value_strncmp_23=strncmp(apt, "4CH", (unsigned long int)3);
+                      if(return_value_strncmp_23 == 0)
                       {
                         crs->track_mode = crs->track_mode | 1 << 7;
                         step = 3;
@@ -21134,8 +21134,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                       else
                       {
-                        return_value_strncmp$22=strncmp(apt, "PRE", (unsigned long int)3);
-                        if(return_value_strncmp$22 == 0)
+                        return_value_strncmp_22=strncmp(apt, "PRE", (unsigned long int)3);
+                        if(return_value_strncmp_22 == 0)
                         {
                           crs->track_mode = crs->track_mode | 1 << 9;
                           step = 3;
@@ -21143,8 +21143,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                         else
                         {
-                          return_value_strncmp$21=strncmp(apt, "SCMS", (unsigned long int)4);
-                          if(return_value_strncmp$21 == 0)
+                          return_value_strncmp_21=strncmp(apt, "SCMS", (unsigned long int)4);
+                          if(return_value_strncmp_21 == 0)
                           {
                             crs->track_mode = crs->track_mode | 1 << 13;
                             step = 4;
@@ -21159,16 +21159,16 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
                             do
                             {
                               if(!((signed int)*cpt == 32))
-                                tmp_if_expr$18 = (signed int)*cpt != 9 ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_18 = (signed int)*cpt != 9 ? (_Bool)1 : (_Bool)0;
 
                               else
-                                tmp_if_expr$18 = (_Bool)0;
-                              if(tmp_if_expr$18)
-                                tmp_if_expr$19 = (signed int)*cpt != 0 ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_18 = (_Bool)0;
+                              if(tmp_if_expr_18)
+                                tmp_if_expr_19 = (signed int)*cpt != 0 ? (_Bool)1 : (_Bool)0;
 
                               else
-                                tmp_if_expr$19 = (_Bool)0;
-                              if(!tmp_if_expr$19)
+                                tmp_if_expr_19 = (_Bool)0;
+                              if(!tmp_if_expr_19)
                                 break;
 
                               cpt = cpt + 1l;
@@ -21176,9 +21176,9 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
                             while((_Bool)1);
                             *cpt = (char)0;
                             sprintf(msg, "In cue sheet file: Unknown FLAGS option '%.4000s'", apt);
-                            char *return_value_burn_printify$20;
-                            return_value_burn_printify$20=burn_printify(msg);
-                            libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify$20, 0, 0);
+                            char *return_value_burn_printify_20;
+                            return_value_burn_printify_20=burn_printify(msg);
+                            libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify_20, 0, 0);
                             ret = 0;
                             goto ex;
                           }
@@ -21200,11 +21200,11 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
                     do
                     {
                       if((signed int)*apt == 32)
-                        tmp_if_expr$25 = (_Bool)1;
+                        tmp_if_expr_25 = (_Bool)1;
 
                       else
-                        tmp_if_expr$25 = (signed int)*apt == 9 ? (_Bool)1 : (_Bool)0;
-                      if(!tmp_if_expr$25)
+                        tmp_if_expr_25 = (signed int)*apt == 9 ? (_Bool)1 : (_Bool)0;
+                      if(!tmp_if_expr_25)
                         break;
 
                       apt = apt + 1l;
@@ -21216,8 +21216,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                 else
                 {
-                  return_value_strcmp$41=strcmp(cmd, "INDEX");
-                  if(return_value_strcmp$41 == 0)
+                  return_value_strcmp_41=strcmp(cmd, "INDEX");
+                  if(return_value_strcmp_41 == 0)
                   {
                     ret=cue_check_for_track(crs, cmd, 0);
                     if(!(ret >= 1))
@@ -21331,8 +21331,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                   else
                   {
-                    return_value_strcmp$40=strcmp(cmd, "ISRC");
-                    if(return_value_strcmp$40 == 0)
+                    return_value_strcmp_40=strcmp(cmd, "ISRC");
+                    if(return_value_strcmp_40 == 0)
                     {
                       ret=cue_check_for_track(crs, cmd, 0);
                       if(!(ret >= 1))
@@ -21354,8 +21354,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                     else
                     {
-                      return_value_strcmp$39=strcmp(cmd, "MESSAGE");
-                      if(return_value_strcmp$39 == 0)
+                      return_value_strcmp_39=strcmp(cmd, "MESSAGE");
+                      if(return_value_strcmp_39 == 0)
                       {
                         ret=cue_set_cdtext(session, crs->track, 0x85, apt, crs, 2);
                         if(!(ret >= 1))
@@ -21365,8 +21365,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                       else
                       {
-                        return_value_strcmp$38=strcmp(cmd, "PERFORMER");
-                        if(return_value_strcmp$38 == 0)
+                        return_value_strcmp_38=strcmp(cmd, "PERFORMER");
+                        if(return_value_strcmp_38 == 0)
                         {
                           ret=cue_set_cdtext(session, crs->track, 0x81, apt, crs, 2);
                           if(!(ret >= 1))
@@ -21376,8 +21376,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                         else
                         {
-                          return_value_strcmp$37=strcmp(cmd, "POSTGAP");
-                          if(return_value_strcmp$37 == 0)
+                          return_value_strcmp_37=strcmp(cmd, "POSTGAP");
+                          if(return_value_strcmp_37 == 0)
                           {
                             ret=cue_check_for_track(crs, cmd, 0);
                             if(!(ret >= 1))
@@ -21395,8 +21395,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                           else
                           {
-                            return_value_strcmp$36=strcmp(cmd, "PREGAP");
-                            if(return_value_strcmp$36 == 0)
+                            return_value_strcmp_36=strcmp(cmd, "PREGAP");
+                            if(return_value_strcmp_36 == 0)
                             {
                               ret=cue_check_for_track(crs, cmd, 0);
                               if(!(ret >= 1))
@@ -21414,11 +21414,11 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                             else
                             {
-                              return_value_strcmp$35=strcmp(cmd, "REM");
-                              if(!(return_value_strcmp$35 == 0))
+                              return_value_strcmp_35=strcmp(cmd, "REM");
+                              if(!(return_value_strcmp_35 == 0))
                               {
-                                return_value_strcmp$34=strcmp(cmd, "SONGWRITER");
-                                if(return_value_strcmp$34 == 0)
+                                return_value_strcmp_34=strcmp(cmd, "SONGWRITER");
+                                if(return_value_strcmp_34 == 0)
                                 {
                                   ret=cue_set_cdtext(session, crs->track, 0x82, apt, crs, 2);
                                   if(!(ret >= 1))
@@ -21428,8 +21428,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                                 else
                                 {
-                                  return_value_strcmp$33=strcmp(cmd, "TITLE");
-                                  if(return_value_strcmp$33 == 0)
+                                  return_value_strcmp_33=strcmp(cmd, "TITLE");
+                                  if(return_value_strcmp_33 == 0)
                                   {
                                     ret=cue_set_cdtext(session, crs->track, 0x80, apt, crs, 2);
                                     if(!(ret >= 1))
@@ -21439,8 +21439,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                                   else
                                   {
-                                    return_value_strcmp$32=strcmp(cmd, "TRACK");
-                                    if(return_value_strcmp$32 == 0)
+                                    return_value_strcmp_32=strcmp(cmd, "TRACK");
+                                    if(return_value_strcmp_32 == 0)
                                     {
                                       if(crs->file_source == ((struct burn_source *)NULL))
                                       {
@@ -21457,25 +21457,25 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
                                       if(!(ret >= 1))
                                         goto ex;
 
-                                      _Bool tmp_if_expr$27;
+                                      _Bool tmp_if_expr_27;
                                       if(!(crs->track_no >= 1))
-                                        tmp_if_expr$27 = (_Bool)1;
+                                        tmp_if_expr_27 = (_Bool)1;
 
                                       else
-                                        tmp_if_expr$27 = crs->track_no > 99 ? (_Bool)1 : (_Bool)0;
-                                      if(tmp_if_expr$27)
+                                        tmp_if_expr_27 = crs->track_no > 99 ? (_Bool)1 : (_Bool)0;
+                                      if(tmp_if_expr_27)
                                       {
                                         sprintf(msg, "Inappropriate cue sheet file track number %d", crs->track_no);
-                                        char *return_value_burn_printify$26;
-                                        return_value_burn_printify$26=burn_printify(msg);
-                                        libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify$26, 0, 0);
+                                        char *return_value_burn_printify_26;
+                                        return_value_burn_printify_26=burn_printify(msg);
+                                        libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify_26, 0, 0);
                                         ret = 0;
                                         goto ex;
                                       }
 
-                                      signed int return_value_strcmp$30;
-                                      return_value_strcmp$30=strcmp(apt, "AUDIO");
-                                      if(return_value_strcmp$30 == 0)
+                                      signed int return_value_strcmp_30;
+                                      return_value_strcmp_30=strcmp(apt, "AUDIO");
+                                      if(return_value_strcmp_30 == 0)
                                       {
                                         mode = 1 << 6;
                                         block_size = 2352;
@@ -21483,8 +21483,8 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
 
                                       else
                                       {
-                                        return_value_strcmp$29=strcmp(apt, "MODE1/2048");
-                                        if(return_value_strcmp$29 == 0)
+                                        return_value_strcmp_29=strcmp(apt, "MODE1/2048");
+                                        if(return_value_strcmp_29 == 0)
                                         {
                                           mode = 1 << 2;
                                           block_size = 2048;
@@ -21493,9 +21493,9 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
                                         else
                                         {
                                           sprintf(msg, "Unsupported cue sheet file track datatype '%.4000s'", apt);
-                                          char *return_value_burn_printify$28;
-                                          return_value_burn_printify$28=burn_printify(msg);
-                                          libdax_msgs_submit(libdax_messenger, -1, 0x00020197, 0x68000000, 0x30000000, return_value_burn_printify$28, 0, 0);
+                                          char *return_value_burn_printify_28;
+                                          return_value_burn_printify_28=burn_printify(msg);
+                                          libdax_msgs_submit(libdax_messenger, -1, 0x00020197, 0x68000000, 0x30000000, return_value_burn_printify_28, 0, 0);
                                           ret = 0;
                                           goto ex;
                                         }
@@ -21531,9 +21531,9 @@ static signed int cue_interpret_line(struct burn_session *session, char *line, s
                                     else
                                     {
                                       sprintf(msg, "Unknown cue sheet file command '%.4000s'", line);
-                                      char *return_value_burn_printify$31;
-                                      return_value_burn_printify$31=burn_printify(msg);
-                                      libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify$31, 0, 0);
+                                      char *return_value_burn_printify_31;
+                                      return_value_burn_printify_31=burn_printify(msg);
+                                      libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify_31, 0, 0);
                                       ret = 0;
                                       goto ex;
                                     }
@@ -21578,9 +21578,9 @@ static signed int cue_open_audioxtr(char *path, struct burn_cue_file_cursor *crs
   signed int bits_per_sample;
   signed int msb_first;
   char *msg = (char *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -21592,14 +21592,14 @@ static signed int cue_open_audioxtr(char *path, struct burn_cue_file_cursor *crs
       libdax_audioxtr_get_id(xtr, &fmt, &fmt_info, &num_channels, &sample_rate, &bits_per_sample, &msb_first, 0);
       if((255 & flag) == 1)
       {
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(fmt, ".wav");
-        if(!(return_value_strcmp$3 == 0))
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(fmt, ".wav");
+        if(!(return_value_strcmp_3 == 0))
         {
           sprintf(msg, "In cue sheet: Not recognized as WAVE : FILE '%.4000s'", path);
-          char *return_value_burn_printify$2;
-          return_value_burn_printify$2=burn_printify(msg);
-          libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify$2, 0, 0);
+          char *return_value_burn_printify_2;
+          return_value_burn_printify_2=burn_printify(msg);
+          libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify_2, 0, 0);
           ret = 0;
           goto ex;
         }
@@ -21610,9 +21610,9 @@ static signed int cue_open_audioxtr(char *path, struct burn_cue_file_cursor *crs
       if(!(ret >= 1))
       {
         sprintf(msg, "In cue sheet: Cannot get payload size of FILE '%.4000s'", path);
-        char *return_value_burn_printify$4;
-        return_value_burn_printify$4=burn_printify(msg);
-        libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify$4, 0, 0);
+        char *return_value_burn_printify_4;
+        return_value_burn_printify_4=burn_printify(msg);
+        libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify_4, 0, 0);
         ret = 0;
         goto ex;
       }
@@ -21621,9 +21621,9 @@ static signed int cue_open_audioxtr(char *path, struct burn_cue_file_cursor *crs
       if(!(ret >= 1))
       {
         sprintf(msg, "In cue sheet: Cannot represent payload as plain fd: FILE '%.4000s'", path);
-        char *return_value_burn_printify$5;
-        return_value_burn_printify$5=burn_printify(msg);
-        libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify$5, 0, 0);
+        char *return_value_burn_printify_5;
+        return_value_burn_printify_5=burn_printify(msg);
+        libdax_msgs_submit(libdax_messenger, -1, 0x00020193, 0x68000000, 0x30000000, return_value_burn_printify_5, 0, 0);
         ret = 0;
         goto ex;
       }
@@ -21654,21 +21654,21 @@ static signed int cue_read_number(char **payload, signed int *number, signed int
   char *apt;
   char *msg = (char *)(void *)0;
   apt = *payload;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   do
   {
     if(!((signed int)*apt == 0))
-      tmp_if_expr$1 = (signed int)*apt != 32 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*apt != 32 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (signed int)*apt != 9 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (signed int)*apt != 9 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     apt = apt + 1l;
@@ -21684,9 +21684,9 @@ static signed int cue_read_number(char **payload, signed int *number, signed int
   ret=__isoc99_sscanf(*payload, "%d", number);
   if(!(ret == 1))
   {
-    void *return_value_burn_alloc_mem$3;
-    return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-    msg = (char *)return_value_burn_alloc_mem$3;
+    void *return_value_burn_alloc_mem_3;
+    return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+    msg = (char *)return_value_burn_alloc_mem_3;
     if(msg == ((char *)NULL))
     {
       ret = -1;
@@ -21694,25 +21694,25 @@ static signed int cue_read_number(char **payload, signed int *number, signed int
     }
 
     sprintf(msg, "Unsuitable number in cue sheet file: '%.4000s'", *payload);
-    char *return_value_burn_printify$4;
-    return_value_burn_printify$4=burn_printify(msg);
-    libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify$4, 0, 0);
+    char *return_value_burn_printify_4;
+    return_value_burn_printify_4=burn_printify(msg);
+    libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify_4, 0, 0);
     ret = 0;
     goto ex;
   }
 
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(at_end == 0)
   {
     apt = apt + 1l;
     do
     {
       if((signed int)*apt == 32)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)*apt == 9 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)*apt == 9 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_5)
         break;
 
       apt = apt + 1l;
@@ -21744,56 +21744,56 @@ static signed int cue_read_timepoint_lba(char *apt, char *purpose, signed int *f
   char *msg = (char *)(void *)0;
   char msf[3l];
   char *msf_pt;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
-  unsigned long int return_value_strlen$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
+  unsigned long int return_value_strlen_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   if(msg == ((char *)NULL))
     ret = -1;
 
   else
   {
-    return_value_strlen$3=strlen(apt);
-    if(!(return_value_strlen$3 >= 8ul))
+    return_value_strlen_3=strlen(apt);
+    if(!(return_value_strlen_3 >= 8ul))
     {
 
     no_time_point:
       ;
       sprintf(msg, "Inappropriate cue sheet file %s '%.4000s'", purpose, apt);
-      char *return_value_burn_printify$2;
-      return_value_burn_printify$2=burn_printify(msg);
-      libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify$2, 0, 0);
+      char *return_value_burn_printify_2;
+      return_value_burn_printify_2=burn_printify(msg);
+      libdax_msgs_submit(libdax_messenger, -1, 0x00020194, 0x68000000, 0x30000000, return_value_burn_printify_2, 0, 0);
       ret = 0;
       goto ex;
     }
 
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if(!((signed int)apt[2l] == 58))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)apt[(signed long int)5] != 58 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$7;
-    if(tmp_if_expr$4)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_4 = (signed int)apt[(signed long int)5] != 58 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_7;
+    if(tmp_if_expr_4)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
       if(!((signed int)apt[8l] == 0))
-        tmp_if_expr$5 = (signed int)apt[(signed long int)8] != 32 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (signed int)apt[(signed long int)8] != 32 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (signed int)apt[(signed long int)8] != 9 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (signed int)apt[(signed long int)8] != 9 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       goto no_time_point;
 
     msf[(signed long int)2] = (char)0;
@@ -21860,16 +21860,16 @@ static signed int cue_set_cdtext(struct burn_session *session, struct burn_track
         payload = text;
       if(!(track == ((struct burn_track *)NULL)))
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(payload);
-        ret=burn_track_set_cdtext(track, 0, pack_type, "", (unsigned char *)payload, (signed int)(return_value_strlen$1 + (unsigned long int)1), 0);
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(payload);
+        ret=burn_track_set_cdtext(track, 0, pack_type, "", (unsigned char *)payload, (signed int)(return_value_strlen_1 + (unsigned long int)1), 0);
       }
 
       else
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(payload);
-        ret=burn_session_set_cdtext(session, 0, pack_type, "", (unsigned char *)payload, (signed int)(return_value_strlen$2 + (unsigned long int)1), 0);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(payload);
+        ret=burn_session_set_cdtext(session, 0, pack_type, "", (unsigned char *)payload, (signed int)(return_value_strlen_2 + (unsigned long int)1), 0);
       }
     }
 
@@ -21885,9 +21885,9 @@ static char * cue_unquote_text(char *text, signed int flag)
 {
   char *ept;
   char *spt = text;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(text);
-  ept = text + (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(text);
+  ept = text + (signed long int)return_value_strlen_1;
   for( ; !(text >= ept); ept = ept - 1l)
     if(!((signed int)ept[-1l] == 32))
     {
@@ -21931,7 +21931,7 @@ static signed int drive_getcaps(struct burn_drive *d, struct burn_drive_info *ou
   signed int i;
   signed int profile;
   struct burn_feature_descr *feat;
-  signed int return_value_burn_drive_has_feature$1;
+  signed int return_value_burn_drive_has_feature_1;
   if(!(d->idata->valid >= 1))
     return 0;
 
@@ -22015,8 +22015,8 @@ static signed int drive_getcaps(struct burn_drive *d, struct burn_drive_info *ou
       i = 0x002D;
       for( ; !(i >= 48); i = i + 1)
       {
-        return_value_burn_drive_has_feature$1=burn_drive_has_feature(d, i, &feat, 0);
-        if(!(return_value_burn_drive_has_feature$1 == 0))
+        return_value_burn_drive_has_feature_1=burn_drive_has_feature(d, i, &feat, 0);
+        if(!(return_value_burn_drive_has_feature_1 == 0))
         {
           if((signed int)feat->data_lenght >= 1)
             out->write_simulate = (unsigned int)out->write_simulate | (unsigned int)!(!(((signed int)feat->data[(signed long int)0] & 4) != 0));
@@ -22026,25 +22026,25 @@ static signed int drive_getcaps(struct burn_drive *d, struct burn_drive_info *ou
       }
     }
     out->drive = d;
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(out->write_dvdram == 0u))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = out->write_dvdr != 0u ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = out->write_dvdr != 0u ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = out->write_cdrw != 0u ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$4;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = out->write_cdrw != 0u ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_4;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = out->write_cdr != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = out->write_cdr != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       d->block_types[(signed long int)BURN_WRITE_TAO] = BURN_BLOCK_MODE1 | BURN_BLOCK_RAW0;
       out->tao_block_types = d->block_types[(signed long int)BURN_WRITE_TAO];
@@ -22098,17 +22098,17 @@ static void enumerate_common(char *fname, signed int fd_in, signed int bus_no, s
 // file libburn/async.c line 326
 static void * erase_worker_func(struct w_list *w)
 {
-  struct anonymous$0 sigset;
-  struct anonymous$0 oldset;
+  struct anonymous_0 sigset;
+  struct anonymous_0 oldset;
   sigfillset(&sigset);
   sigdelset(&sigset, 11);
   sigdelset(&sigset, 4);
   pthread_sigmask(2, &sigset, &oldset);
   burn_disc_erase_sync(w->u.erase.drive, w->u.erase.fast);
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  remove_worker(return_value_pthread_self$1);
-  pthread_sigmask(2, &oldset, (struct anonymous$0 *)(void *)0);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  remove_worker(return_value_pthread_self_1);
+  pthread_sigmask(2, &oldset, (struct anonymous_0 *)(void *)0);
   return (void *)0;
 }
 
@@ -22124,21 +22124,21 @@ static signed int evaluate_transport_success(struct burn_drive *d, struct comman
   char *host_problem;
   char *driver_problem;
   char *driver_sugg;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)161, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)161, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
   if(msg == ((char *)NULL))
     ret = -1;
 
   else
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if((0xf7 & (signed int)driver_status) == 0 && (signed int)host_status == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = c->error != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = c->error != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       ret = 1;
 
     else
@@ -22216,9 +22216,9 @@ static signed int evaluate_transport_success(struct burn_drive *d, struct comman
       if(!((signed int)host_status == 0))
       {
         sprintf(msg, "SCSI command %2.2Xh yielded host problem: ", (unsigned int)c->opcode[(signed long int)0]);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(msg);
-        sprintf(msg + (signed long int)return_value_strlen$3, "0x%x %s", (unsigned int)host_status, host_problem);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(msg);
+        sprintf(msg + (signed long int)return_value_strlen_3, "0x%x %s", (unsigned int)host_status, host_problem);
         sev = 0x68000000;
         if(give_up_drive == 0 && !(do_retry == 0))
           sev = 0x10000000;
@@ -22315,9 +22315,9 @@ static signed int evaluate_transport_success(struct burn_drive *d, struct comman
       if(!((0xf7 & (signed int)driver_status) == 0))
       {
         sprintf(msg, "SCSI command %2.2Xh yielded driver problem: ", (unsigned int)c->opcode[(signed long int)0]);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(msg);
-        sprintf(msg + (signed long int)return_value_strlen$4, "driver_status= 0x%x %s / %s", (unsigned int)driver_status, driver_problem, driver_sugg);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(msg);
+        sprintf(msg + (signed long int)return_value_strlen_4, "driver_status= 0x%x %s / %s", (unsigned int)driver_status, driver_problem, driver_sugg);
         sev = 0x68000000;
         if(give_up_drive == 0 && !(do_retry == 0))
           sev = 0x10000000;
@@ -22478,8 +22478,8 @@ static signed int fifo_sleep(signed int flag)
 static void * fifo_worker_func(struct w_list *w)
 {
   signed int old;
-  struct anonymous$0 sigset;
-  struct anonymous$0 oldset;
+  struct anonymous_0 sigset;
+  struct anonymous_0 oldset;
   sigfillset(&sigset);
   sigdelset(&sigset, 11);
   sigdelset(&sigset, 4);
@@ -22487,10 +22487,10 @@ static void * fifo_worker_func(struct w_list *w)
   pthread_setcancelstate(0, &old);
   pthread_setcanceltype(1, &old);
   burn_fifo_source_shoveller(w->u.fifo.source, w->u.fifo.flag);
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  remove_worker(return_value_pthread_self$1);
-  pthread_sigmask(2, &oldset, (struct anonymous$0 *)(void *)0);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  remove_worker(return_value_pthread_self_1);
+  pthread_sigmask(2, &oldset, (struct anonymous_0 *)(void *)0);
   return (void *)0;
 }
 
@@ -22511,9 +22511,9 @@ static void file_free(struct burn_source *source)
 static signed int file_read(struct burn_source *source, unsigned char *buffer, signed int size)
 {
   struct burn_source_file *fs = (struct burn_source_file *)source->data;
-  signed int return_value_read_full_buffer$1;
-  return_value_read_full_buffer$1=read_full_buffer(fs->datafd, buffer, size);
-  return return_value_read_full_buffer$1;
+  signed int return_value_read_full_buffer_1;
+  return_value_read_full_buffer_1=read_full_buffer(fs->datafd, buffer, size);
+  return return_value_read_full_buffer_1;
 }
 
 // file_read_sub
@@ -22521,9 +22521,9 @@ static signed int file_read(struct burn_source *source, unsigned char *buffer, s
 static signed int file_read_sub(struct burn_source *source, unsigned char *buffer, signed int size)
 {
   struct burn_source_file *fs = (struct burn_source_file *)source->data;
-  signed int return_value_read_full_buffer$1;
-  return_value_read_full_buffer$1=read_full_buffer(fs->subfd, buffer, size);
-  return return_value_read_full_buffer$1;
+  signed int return_value_read_full_buffer_1;
+  return_value_read_full_buffer_1=read_full_buffer(fs->subfd, buffer, size);
+  return return_value_read_full_buffer_1;
 }
 
 // file_set_size
@@ -22546,9 +22546,9 @@ static signed long int file_size(struct burn_source *source)
 
   else
   {
-    signed int return_value_fstat$1;
-    return_value_fstat$1=fstat(fs->datafd, &buf);
-    if(!(return_value_fstat$1 == 0))
+    signed int return_value_fstat_1;
+    return_value_fstat_1=fstat(fs->datafd, &buf);
+    if(!(return_value_fstat_1 == 0))
       return (signed long int)0;
 
     else
@@ -22577,20 +22577,20 @@ static struct w_list * find_worker(struct burn_drive *d)
 static signed int fname_drive_is_listed(char *fname, signed int flag)
 {
   char other_fname[80l];
-  signed int return_value_burn_drive_is_listed$1;
-  return_value_burn_drive_is_listed$1=burn_drive_is_listed(fname, (struct burn_drive **)(void *)0, 0);
-  signed int return_value_burn_drive_is_listed$2;
-  if(!(return_value_burn_drive_is_listed$1 == 0))
+  signed int return_value_burn_drive_is_listed_1;
+  return_value_burn_drive_is_listed_1=burn_drive_is_listed(fname, (struct burn_drive **)(void *)0, 0);
+  signed int return_value_burn_drive_is_listed_2;
+  if(!(return_value_burn_drive_is_listed_1 == 0))
     return 1;
 
   else
   {
-    signed int return_value_fname_other_name$3;
-    return_value_fname_other_name$3=fname_other_name(fname, other_fname, 0);
-    if(return_value_fname_other_name$3 >= 1)
+    signed int return_value_fname_other_name_3;
+    return_value_fname_other_name_3=fname_other_name(fname, other_fname, 0);
+    if(return_value_fname_other_name_3 >= 1)
     {
-      return_value_burn_drive_is_listed$2=burn_drive_is_listed(other_fname, (struct burn_drive **)(void *)0, 0);
-      if(!(return_value_burn_drive_is_listed$2 == 0))
+      return_value_burn_drive_is_listed_2=burn_drive_is_listed(other_fname, (struct burn_drive **)(void *)0, 0);
+      if(!(return_value_burn_drive_is_listed_2 == 0))
         return 2;
 
     }
@@ -22614,11 +22614,11 @@ static signed int fname_enumerate(char *fname, signed int flag)
   signed int lun_no = -1;
   char *msg = (char *)(void *)0;
   struct stat stbuf;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(1024 + 80), 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
-  signed int return_value_fname_drive_is_listed$2;
-  signed int return_value_stat$3;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(1024 + 80), 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
+  signed int return_value_fname_drive_is_listed_2;
+  signed int return_value_stat_3;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -22626,8 +22626,8 @@ static signed int fname_enumerate(char *fname, signed int flag)
   {
     if((2 & flag) == 0)
     {
-      return_value_fname_drive_is_listed$2=fname_drive_is_listed(fname, 0);
-      if(!(return_value_fname_drive_is_listed$2 == 0))
+      return_value_fname_drive_is_listed_2=fname_drive_is_listed(fname, 0);
+      if(!(return_value_fname_drive_is_listed_2 == 0))
       {
         ret = 2;
         goto ex;
@@ -22635,8 +22635,8 @@ static signed int fname_enumerate(char *fname, signed int flag)
 
     }
 
-    return_value_stat$3=stat(fname, &stbuf);
-    if(return_value_stat$3 == -1)
+    return_value_stat_3=stat(fname, &stbuf);
+    if(return_value_stat_3 == -1)
     {
       sprintf(msg, "File object '%s' not found", fname);
       if((1 & flag) == 0)
@@ -22694,35 +22694,35 @@ ex:
 // file libburn/sg-linux.c line 1216
 static signed int fname_other_name(char *fname, char *other_name, signed int flag)
 {
-  signed int return_value_strncmp$4;
-  return_value_strncmp$4=strncmp(fname, "/dev/sr", (unsigned long int)7);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  if(return_value_strncmp$4 == 0)
+  signed int return_value_strncmp_4;
+  return_value_strncmp_4=strncmp(fname, "/dev/sr", (unsigned long int)7);
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  if(return_value_strncmp_4 == 0)
   {
     if((signed int)fname[7l] >= 48)
     {
       if(!((signed int)fname[7l] >= 58))
       {
-        _Bool tmp_if_expr$3;
+        _Bool tmp_if_expr_3;
         if((signed int)fname[8l] == 0)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
           if((signed int)fname[8l] >= 48)
-            tmp_if_expr$1 = (signed int)fname[(signed long int)8] <= 57 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = (signed int)fname[(signed long int)8] <= 57 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
-            tmp_if_expr$2 = (signed int)fname[(signed long int)9] == 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
+            tmp_if_expr_2 = (signed int)fname[(signed long int)9] == 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (_Bool)0;
+          tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           sprintf(other_name, "/dev/scd%s", fname + (signed long int)7);
           return 1;
@@ -22734,35 +22734,35 @@ static signed int fname_other_name(char *fname, char *other_name, signed int fla
 
   }
 
-  signed int return_value_strncmp$8;
-  return_value_strncmp$8=strncmp(fname, "/dev/scd", (unsigned long int)8);
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  if(return_value_strncmp$8 == 0)
+  signed int return_value_strncmp_8;
+  return_value_strncmp_8=strncmp(fname, "/dev/scd", (unsigned long int)8);
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  if(return_value_strncmp_8 == 0)
   {
     if((signed int)fname[8l] >= 48)
     {
       if(!((signed int)fname[8l] >= 58))
       {
-        _Bool tmp_if_expr$7;
+        _Bool tmp_if_expr_7;
         if((signed int)fname[9l] == 0)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
           if((signed int)fname[9l] >= 48)
-            tmp_if_expr$5 = (signed int)fname[(signed long int)9] <= 57 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (signed int)fname[(signed long int)9] <= 57 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
-            tmp_if_expr$6 = (signed int)fname[(signed long int)10] == 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
+            tmp_if_expr_6 = (signed int)fname[(signed long int)10] == 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = (_Bool)0;
+          tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           sprintf(other_name, "/dev/sr%s", fname + (signed long int)8);
           return 1;
@@ -22781,17 +22781,17 @@ static signed int fname_other_name(char *fname, char *other_name, signed int fla
 // file libburn/async.c line 424
 static void * format_worker_func(struct w_list *w)
 {
-  struct anonymous$0 sigset;
-  struct anonymous$0 oldset;
+  struct anonymous_0 sigset;
+  struct anonymous_0 oldset;
   sigfillset(&sigset);
   sigdelset(&sigset, 11);
   sigdelset(&sigset, 4);
   pthread_sigmask(2, &sigset, &oldset);
   burn_disc_format_sync(w->u.format.drive, w->u.format.size, w->u.format.flag);
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  remove_worker(return_value_pthread_self$1);
-  pthread_sigmask(2, &oldset, (struct anonymous$0 *)(void *)0);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  remove_worker(return_value_pthread_self_1);
+  pthread_sigmask(2, &oldset, (struct anonymous_0 *)(void *)0);
   return (void *)0;
 }
 
@@ -22872,12 +22872,12 @@ static void get_bytes(struct burn_track *track, signed int count, unsigned char 
                 signed long int missing;
                 signed long int inp_block_size;
                 signed long int track_blocks;
-                signed int return_value_burn_sector_length$1;
-                return_value_burn_sector_length$1=burn_sector_length(track->mode);
-                inp_block_size = (signed long int)return_value_burn_sector_length$1;
-                signed int return_value_burn_track_get_sectors_2$2;
-                return_value_burn_track_get_sectors_2$2=burn_track_get_sectors_2(track, 1);
-                track_blocks = (signed long int)return_value_burn_track_get_sectors_2$2;
+                signed int return_value_burn_sector_length_1;
+                return_value_burn_sector_length_1=burn_sector_length(track->mode);
+                inp_block_size = (signed long int)return_value_burn_sector_length_1;
+                signed int return_value_burn_track_get_sectors_2_2;
+                return_value_burn_track_get_sectors_2_2=burn_track_get_sectors_2(track, 1);
+                track_blocks = (signed long int)return_value_burn_track_get_sectors_2_2;
                 missing = track_blocks * inp_block_size - track->sourcecount;
                 sprintf(msg, "Premature end of input encountered. Missing: %.f bytes", (double)missing);
                 libdax_msgs_submit(libdax_messenger, -1, 0x00020180, 0x68000000, 0x30000000, msg, 0, 0);
@@ -22888,13 +22888,13 @@ static void get_bytes(struct burn_track *track, signed int count, unsigned char 
 
           }
 
-          _Bool tmp_if_expr$3;
+          _Bool tmp_if_expr_3;
           if(!(track->open_ended == 0))
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = track->end_on_premature_eoi != 0 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = track->end_on_premature_eoi != 0 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_3)
           {
             if(!(track->source->next == ((struct burn_source *)NULL)))
             {
@@ -22942,9 +22942,9 @@ static void get_bytes(struct burn_track *track, signed int count, unsigned char 
 // file libburn/sector.c line 97
 static signed int get_outmode(struct burn_write_opts *o)
 {
-  signed int return_value_sector_get_outmode$1;
-  return_value_sector_get_outmode$1=sector_get_outmode(o->write_type, o->block_type);
-  return return_value_sector_get_outmode$1;
+  signed int return_value_sector_get_outmode_1;
+  return_value_sector_get_outmode_1=sector_get_outmode(o->write_type, o->block_type);
+  return return_value_sector_get_outmode_1;
 }
 
 // get_sector
@@ -22962,29 +22962,29 @@ static unsigned char * get_sector(struct burn_write_opts *opts, struct burn_trac
     outmode = inmode;
 
   seclen=burn_sector_length(outmode);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(seclen >= 1))
     return (unsigned char *)(void *)0;
 
   else
   {
-    signed int return_value_burn_subcode_length$1;
-    return_value_burn_subcode_length$1=burn_subcode_length(outmode);
-    seclen = seclen + return_value_burn_subcode_length$1;
-    _Bool tmp_if_expr$3;
+    signed int return_value_burn_subcode_length_1;
+    return_value_burn_subcode_length_1=burn_subcode_length(outmode);
+    seclen = seclen + return_value_burn_subcode_length_1;
+    _Bool tmp_if_expr_3;
     if(out->bytes + seclen >= 65537)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(opts->obs >= 1)
-        tmp_if_expr$2 = out->bytes + seclen > opts->obs ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = out->bytes + seclen > opts->obs ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       write_ret=sector_write_buffer(d, track, 0);
       if(write_ret >= 1)
@@ -23175,17 +23175,17 @@ static signed int is_ata_drive(char *fname, signed int fd_in)
 
   else
     fd=sg_open_drive_fd(fname, 1);
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(fd == -1)
   {
     if(!(linux_ata_enumerate_verbous == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value___errno_location$2=__errno_location();
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fprintf(stderr, "open failed, errno=%d  '%s'\n", *return_value___errno_location$1, return_value_strerror$3);
+      return_value___errno_location_1=__errno_location();
+      return_value___errno_location_2=__errno_location();
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fprintf(stderr, "open failed, errno=%d  '%s'\n", *return_value___errno_location_1, return_value_strerror_3);
     }
 
     return 0;
@@ -23193,12 +23193,12 @@ static signed int is_ata_drive(char *fname, signed int fd_in)
 
   memset((void *)&tm, 0, sizeof(struct hd_driveid) /*512ul*/ );
   ioctl(fd, (unsigned long int)0x030d, &tm);
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
-  signed int *return_value___errno_location$8;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
+  signed int *return_value___errno_location_8;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
   if((0x8000 & (signed int)tm.config) == 0 || !((0x4000 & (signed int)tm.config) == 0))
   {
     if(!(linux_ata_enumerate_verbous == 0))
@@ -23212,16 +23212,16 @@ static signed int is_ata_drive(char *fname, signed int fd_in)
 
   else
   {
-    signed int return_value_sgio_test$7;
-    return_value_sgio_test$7=sgio_test(fd);
-    if(return_value_sgio_test$7 == -1)
+    signed int return_value_sgio_test_7;
+    return_value_sgio_test_7=sgio_test(fd);
+    if(return_value_sgio_test_7 == -1)
     {
       if(!(linux_ata_enumerate_verbous == 0))
       {
-        return_value___errno_location$4=__errno_location();
-        return_value___errno_location$5=__errno_location();
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        fprintf(stderr, "FATAL: sgio_test() failed: errno=%d  '%s'\n", *return_value___errno_location$4, return_value_strerror$6);
+        return_value___errno_location_4=__errno_location();
+        return_value___errno_location_5=__errno_location();
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        fprintf(stderr, "FATAL: sgio_test() failed: errno=%d  '%s'\n", *return_value___errno_location_4, return_value_strerror_6);
       }
 
       if(!(fd_in >= 0))
@@ -23235,16 +23235,16 @@ static signed int is_ata_drive(char *fname, signed int fd_in)
 
     else
     {
-      signed int return_value_sg_close_drive_fd$11;
-      return_value_sg_close_drive_fd$11=sg_close_drive_fd(fname, -1, &fd, 1);
-      if(!(return_value_sg_close_drive_fd$11 >= 1))
+      signed int return_value_sg_close_drive_fd_11;
+      return_value_sg_close_drive_fd_11=sg_close_drive_fd(fname, -1, &fd, 1);
+      if(!(return_value_sg_close_drive_fd_11 >= 1))
       {
         if(!(linux_ata_enumerate_verbous == 0))
         {
-          return_value___errno_location$8=__errno_location();
-          return_value___errno_location$9=__errno_location();
-          return_value_strerror$10=strerror(*return_value___errno_location$9);
-          fprintf(stderr, "cannot close properly, errno=%d  '%s'\n", *return_value___errno_location$8, return_value_strerror$10);
+          return_value___errno_location_8=__errno_location();
+          return_value___errno_location_9=__errno_location();
+          return_value_strerror_10=strerror(*return_value___errno_location_9);
+          fprintf(stderr, "cannot close properly, errno=%d  '%s'\n", *return_value___errno_location_8, return_value_strerror_10);
         }
 
         return 0;
@@ -23294,27 +23294,27 @@ static signed int is_scsi_drive(char *fname, signed int fd_in, signed int *bus_n
   signed int *sibling_fds = (signed int *)(void *)0;
   signed int sibling_count = 0;
   char (*sibling_fnames)[16l] = (char (*)[16l])(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(signed int) /*4ul*/ , (unsigned long int)5, 0);
-  sibling_fds = (signed int *)return_value_burn_alloc_mem$1;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  signed int *return_value___errno_location$6;
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
-  signed int *return_value___errno_location$9;
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
-  signed int return_value_ioctl$14;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(signed int) /*4ul*/ , (unsigned long int)5, 0);
+  sibling_fds = (signed int *)return_value_burn_alloc_mem_1;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  signed int *return_value___errno_location_6;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
+  signed int *return_value___errno_location_9;
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
+  signed int return_value_ioctl_14;
   if(sibling_fds == ((signed int *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char [16l]) /*16ul*/ , (unsigned long int)5, 0);
-    sibling_fnames = (char (*)[16l])return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char [16l]) /*16ul*/ , (unsigned long int)5, 0);
+    sibling_fnames = (char (*)[16l])return_value_burn_alloc_mem_2;
     if(sibling_fnames == ((char (*)[16l])NULL))
       ret = -1;
 
@@ -23329,10 +23329,10 @@ static signed int is_scsi_drive(char *fname, signed int fd_in, signed int *bus_n
       {
         if(!(linux_sg_enumerate_debug == 0))
         {
-          return_value___errno_location$3=__errno_location();
-          return_value___errno_location$4=__errno_location();
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          fprintf(stderr, "open failed, errno=%d  '%s'\n", *return_value___errno_location$3, return_value_strerror$5);
+          return_value___errno_location_3=__errno_location();
+          return_value___errno_location_4=__errno_location();
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          fprintf(stderr, "open failed, errno=%d  '%s'\n", *return_value___errno_location_3, return_value_strerror_5);
         }
 
         ret = 0;
@@ -23345,22 +23345,22 @@ static signed int is_scsi_drive(char *fname, signed int fd_in, signed int *bus_n
         sid.scsi_id = -1;
         if(!(linux_sg_enumerate_debug == 0))
         {
-          return_value___errno_location$6=__errno_location();
-          return_value___errno_location$7=__errno_location();
-          return_value_strerror$8=strerror(*return_value___errno_location$7);
-          fprintf(stderr, "ioctl(SG_GET_SCSI_ID) failed, errno=%d  '%s' , ", *return_value___errno_location$6, return_value_strerror$8);
+          return_value___errno_location_6=__errno_location();
+          return_value___errno_location_7=__errno_location();
+          return_value_strerror_8=strerror(*return_value___errno_location_7);
+          fprintf(stderr, "ioctl(SG_GET_SCSI_ID) failed, errno=%d  '%s' , ", *return_value___errno_location_6, return_value_strerror_8);
         }
 
-        signed int return_value_sgio_test$12;
-        return_value_sgio_test$12=sgio_test(fd);
-        if(return_value_sgio_test$12 == -1)
+        signed int return_value_sgio_test_12;
+        return_value_sgio_test_12=sgio_test(fd);
+        if(return_value_sgio_test_12 == -1)
         {
           if(!(linux_sg_enumerate_debug == 0))
           {
-            return_value___errno_location$9=__errno_location();
-            return_value___errno_location$10=__errno_location();
-            return_value_strerror$11=strerror(*return_value___errno_location$10);
-            fprintf(stderr, "FATAL: sgio_test() failed: errno=%d  '%s'", *return_value___errno_location$9, return_value_strerror$11);
+            return_value___errno_location_9=__errno_location();
+            return_value___errno_location_10=__errno_location();
+            return_value_strerror_11=strerror(*return_value___errno_location_10);
+            fprintf(stderr, "FATAL: sgio_test() failed: errno=%d  '%s'", *return_value___errno_location_9, return_value_strerror_11);
           }
 
           ret = 0;
@@ -23380,9 +23380,9 @@ static signed int is_scsi_drive(char *fname, signed int fd_in, signed int *bus_n
 
       if(sid_ret == -1)
       {
-        signed int return_value_sgio_inquiry_cd_drive$13;
-        return_value_sgio_inquiry_cd_drive$13=sgio_inquiry_cd_drive(fd, fname);
-        if(return_value_sgio_inquiry_cd_drive$13 == 1)
+        signed int return_value_sgio_inquiry_cd_drive_13;
+        return_value_sgio_inquiry_cd_drive_13=sgio_inquiry_cd_drive(fd, fname);
+        if(return_value_sgio_inquiry_cd_drive_13 == 1)
         {
           sid_ret = 0;
           sid.scsi_type = 0x05;
@@ -23390,8 +23390,8 @@ static signed int is_scsi_drive(char *fname, signed int fd_in, signed int *bus_n
 
       }
 
-      return_value_ioctl$14=ioctl(fd, (unsigned long int)0x5386, bus_no);
-      if(return_value_ioctl$14 == -1)
+      return_value_ioctl_14=ioctl(fd, (unsigned long int)0x5386, bus_no);
+      if(return_value_ioctl_14 == -1)
         *bus_no = -1;
 
       fail_sev_sorry = (signed int)(sid.scsi_type == 0x05);
@@ -23457,21 +23457,21 @@ static signed int is_scsi_drive(char *fname, signed int fd_in, signed int *bus_n
 
 ex:
   ;
-  signed int *return_value___errno_location$15;
-  signed int *return_value___errno_location$16;
-  char *return_value_strerror$17;
+  signed int *return_value___errno_location_15;
+  signed int *return_value___errno_location_16;
+  char *return_value_strerror_17;
   if(fd >= 0 && !(fd_in >= 0))
   {
-    signed int return_value_sg_close_drive_fd$18;
-    return_value_sg_close_drive_fd$18=sg_close_drive_fd(fname, -1, &fd, fail_sev_sorry);
-    if(!(return_value_sg_close_drive_fd$18 >= 1))
+    signed int return_value_sg_close_drive_fd_18;
+    return_value_sg_close_drive_fd_18=sg_close_drive_fd(fname, -1, &fd, fail_sev_sorry);
+    if(!(return_value_sg_close_drive_fd_18 >= 1))
     {
       if(!(linux_sg_enumerate_debug == 0))
       {
-        return_value___errno_location$15=__errno_location();
-        return_value___errno_location$16=__errno_location();
-        return_value_strerror$17=strerror(*return_value___errno_location$16);
-        fprintf(stderr, "cannot close properly, errno=%d  '%s'\n", *return_value___errno_location$15, return_value_strerror$17);
+        return_value___errno_location_15=__errno_location();
+        return_value___errno_location_16=__errno_location();
+        return_value_strerror_17=strerror(*return_value___errno_location_16);
+        fprintf(stderr, "cannot close properly, errno=%d  '%s'\n", *return_value___errno_location_15, return_value_strerror_17);
       }
 
       if(ret >= 1)
@@ -23495,7 +23495,7 @@ ex:
 signed int libdax_audioxtr_destroy(struct libdax_audioxtr **xtr, signed int flag)
 {
   struct libdax_audioxtr *o = *xtr;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(o == ((struct libdax_audioxtr *)NULL))
     return 0;
 
@@ -23503,8 +23503,8 @@ signed int libdax_audioxtr_destroy(struct libdax_audioxtr **xtr, signed int flag
   {
     if(o->fd >= 0)
     {
-      return_value_strcmp$1=strcmp(o->path, "-");
-      if(!(return_value_strcmp$1 == 0))
+      return_value_strcmp_1=strcmp(o->path, "-");
+      if(!(return_value_strcmp_1 == 0))
         close(o->fd);
 
     }
@@ -23519,19 +23519,19 @@ signed int libdax_audioxtr_destroy(struct libdax_audioxtr **xtr, signed int flag
 // file test/../libburn/libburn.h line 4256
 signed int libdax_audioxtr_detach_fd(struct libdax_audioxtr *o, signed int *fd, signed int flag)
 {
-  signed int return_value_strcmp$1;
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_1;
+  signed int return_value_strcmp_3;
   if(!(o->fd >= 0))
     return -1;
 
   else
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(o->fmt, ".wav");
-    if(!(return_value_strcmp$2 == 0))
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(o->fmt, ".wav");
+    if(!(return_value_strcmp_2 == 0))
     {
-      return_value_strcmp$1=strcmp(o->fmt, ".au");
-      if(!(return_value_strcmp$1 == 0))
+      return_value_strcmp_1=strcmp(o->fmt, ".au");
+      if(!(return_value_strcmp_1 == 0))
         return 0;
 
     }
@@ -23544,8 +23544,8 @@ signed int libdax_audioxtr_detach_fd(struct libdax_audioxtr *o, signed int *fd, 
       *fd=dup(o->fd);
       if(*fd >= 0)
       {
-        return_value_strcmp$3=strcmp(o->path, "-");
-        if(!(return_value_strcmp$3 == 0))
+        return_value_strcmp_3=strcmp(o->path, "-");
+        if(!(return_value_strcmp_3 == 0))
           close(o->fd);
 
       }
@@ -23616,25 +23616,25 @@ static signed int libdax_audioxtr_identify_au(struct libdax_audioxtr *o, signed 
   char buf[24l];
   if(!(o->fd == 0))
   {
-    signed long int return_value_lseek$1;
-    return_value_lseek$1=lseek(o->fd, (signed long int)0, 0);
-    ret = (signed int)return_value_lseek$1;
+    signed long int return_value_lseek_1;
+    return_value_lseek_1=lseek(o->fd, (signed long int)0, 0);
+    ret = (signed int)return_value_lseek_1;
     if(ret == -1)
       return 0;
 
   }
 
-  signed long int return_value_read$2;
-  return_value_read$2=read(o->fd, (void *)buf, (unsigned long int)24);
-  ret = (signed int)return_value_read$2;
+  signed long int return_value_read_2;
+  return_value_read_2=read(o->fd, (void *)buf, (unsigned long int)24);
+  ret = (signed int)return_value_read_2;
   if(!(ret >= 24))
     return 0;
 
   else
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(buf, ".snd", (unsigned long int)4);
-    if(!(return_value_strncmp$3 == 0))
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(buf, ".snd", (unsigned long int)4);
+    if(!(return_value_strncmp_3 == 0))
       return 0;
 
     else
@@ -23643,9 +23643,9 @@ static signed int libdax_audioxtr_identify_au(struct libdax_audioxtr *o, signed 
       o->msb_first = 1;
       o->au_data_location=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)4, 4, 1);
       o->au_data_size=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)8, 4, 1);
-      unsigned int return_value_libdax_audioxtr_to_int$4;
-      return_value_libdax_audioxtr_to_int$4=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)12, 4, 1);
-      encoding = (signed int)return_value_libdax_audioxtr_to_int$4;
+      unsigned int return_value_libdax_audioxtr_to_int_4;
+      return_value_libdax_audioxtr_to_int_4=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)12, 4, 1);
+      encoding = (signed int)return_value_libdax_audioxtr_to_int_4;
       if(encoding == 2)
         o->bits_per_sample = 8;
 
@@ -23663,12 +23663,12 @@ static signed int libdax_audioxtr_identify_au(struct libdax_audioxtr *o, signed 
 
             else
               o->bits_per_sample = -encoding;
-      unsigned int return_value_libdax_audioxtr_to_int$5;
-      return_value_libdax_audioxtr_to_int$5=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)16, 4, 1);
-      o->sample_rate = (signed int)return_value_libdax_audioxtr_to_int$5;
-      unsigned int return_value_libdax_audioxtr_to_int$6;
-      return_value_libdax_audioxtr_to_int$6=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)20, 4, 1);
-      o->num_channels = (signed int)return_value_libdax_audioxtr_to_int$6;
+      unsigned int return_value_libdax_audioxtr_to_int_5;
+      return_value_libdax_audioxtr_to_int_5=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)16, 4, 1);
+      o->sample_rate = (signed int)return_value_libdax_audioxtr_to_int_5;
+      unsigned int return_value_libdax_audioxtr_to_int_6;
+      return_value_libdax_audioxtr_to_int_6=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)20, 4, 1);
+      o->num_channels = (signed int)return_value_libdax_audioxtr_to_int_6;
       if(!(o->au_data_size == 0xffffffff))
         o->data_size = (signed long int)o->au_data_size;
 
@@ -23688,89 +23688,89 @@ static signed int libdax_audioxtr_identify_wav(struct libdax_audioxtr *o, signed
   char buf[45l];
   if(!(o->fd == 0))
   {
-    signed long int return_value_lseek$1;
-    return_value_lseek$1=lseek(o->fd, (signed long int)0, 0);
-    ret = (signed int)return_value_lseek$1;
+    signed long int return_value_lseek_1;
+    return_value_lseek_1=lseek(o->fd, (signed long int)0, 0);
+    ret = (signed int)return_value_lseek_1;
     if(ret == -1)
       return 0;
 
   }
 
-  signed long int return_value_read$2;
-  return_value_read$2=read(o->fd, (void *)buf, (unsigned long int)44);
-  ret = (signed int)return_value_read$2;
+  signed long int return_value_read_2;
+  return_value_read_2=read(o->fd, (void *)buf, (unsigned long int)44);
+  ret = (signed int)return_value_read_2;
   if(!(ret >= 44))
     return 0;
 
   else
   {
     buf[(signed long int)44] = (char)0;
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(buf, "RIFF", (unsigned long int)4);
-    if(!(return_value_strncmp$3 == 0))
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(buf, "RIFF", (unsigned long int)4);
+    if(!(return_value_strncmp_3 == 0))
       return 0;
 
     else
     {
-      signed int return_value_strncmp$4;
-      return_value_strncmp$4=strncmp(buf + (signed long int)8, "WAVE", (unsigned long int)4);
-      if(!(return_value_strncmp$4 == 0))
+      signed int return_value_strncmp_4;
+      return_value_strncmp_4=strncmp(buf + (signed long int)8, "WAVE", (unsigned long int)4);
+      if(!(return_value_strncmp_4 == 0))
         return 0;
 
       else
       {
-        signed int return_value_strncmp$5;
-        return_value_strncmp$5=strncmp(buf + (signed long int)12, "fmt ", (unsigned long int)4);
-        if(!(return_value_strncmp$5 == 0))
+        signed int return_value_strncmp_5;
+        return_value_strncmp_5=strncmp(buf + (signed long int)12, "fmt ", (unsigned long int)4);
+        if(!(return_value_strncmp_5 == 0))
           return 0;
 
         else
         {
-          _Bool tmp_if_expr$6;
+          _Bool tmp_if_expr_6;
           if(!((signed int)buf[16l] == 16))
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (signed int)buf[(signed long int)17] != 0 ? (_Bool)1 : (_Bool)0;
-          _Bool tmp_if_expr$7;
-          if(tmp_if_expr$6)
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_6 = (signed int)buf[(signed long int)17] != 0 ? (_Bool)1 : (_Bool)0;
+          _Bool tmp_if_expr_7;
+          if(tmp_if_expr_6)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = (signed int)buf[(signed long int)18] != 0 ? (_Bool)1 : (_Bool)0;
-          _Bool tmp_if_expr$8;
-          if(tmp_if_expr$7)
-            tmp_if_expr$8 = (_Bool)1;
+            tmp_if_expr_7 = (signed int)buf[(signed long int)18] != 0 ? (_Bool)1 : (_Bool)0;
+          _Bool tmp_if_expr_8;
+          if(tmp_if_expr_7)
+            tmp_if_expr_8 = (_Bool)1;
 
           else
-            tmp_if_expr$8 = (signed int)buf[(signed long int)19] != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$8)
+            tmp_if_expr_8 = (signed int)buf[(signed long int)19] != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_8)
             return 0;
 
           else
           {
-            _Bool tmp_if_expr$9;
+            _Bool tmp_if_expr_9;
             if(!((signed int)buf[20l] == 1))
-              tmp_if_expr$9 = (_Bool)1;
+              tmp_if_expr_9 = (_Bool)1;
 
             else
-              tmp_if_expr$9 = (signed int)buf[(signed long int)21] != 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$9)
+              tmp_if_expr_9 = (signed int)buf[(signed long int)21] != 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_9)
               return 0;
 
             else
             {
               strcpy(o->fmt, ".wav");
               o->msb_first = 0;
-              unsigned int return_value_libdax_audioxtr_to_int$10;
-              return_value_libdax_audioxtr_to_int$10=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)22, 2, 0);
-              o->num_channels = (signed int)return_value_libdax_audioxtr_to_int$10;
-              unsigned int return_value_libdax_audioxtr_to_int$11;
-              return_value_libdax_audioxtr_to_int$11=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)24, 4, 0);
-              o->sample_rate = (signed int)return_value_libdax_audioxtr_to_int$11;
-              unsigned int return_value_libdax_audioxtr_to_int$12;
-              return_value_libdax_audioxtr_to_int$12=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)34, 2, 0);
-              o->bits_per_sample = (signed int)return_value_libdax_audioxtr_to_int$12;
+              unsigned int return_value_libdax_audioxtr_to_int_10;
+              return_value_libdax_audioxtr_to_int_10=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)22, 2, 0);
+              o->num_channels = (signed int)return_value_libdax_audioxtr_to_int_10;
+              unsigned int return_value_libdax_audioxtr_to_int_11;
+              return_value_libdax_audioxtr_to_int_11=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)24, 4, 0);
+              o->sample_rate = (signed int)return_value_libdax_audioxtr_to_int_11;
+              unsigned int return_value_libdax_audioxtr_to_int_12;
+              return_value_libdax_audioxtr_to_int_12=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)34, 2, 0);
+              o->bits_per_sample = (signed int)return_value_libdax_audioxtr_to_int_12;
               sprintf(o->fmt_info, ".wav , num_channels=%d , sample_rate=%d , bits_per_sample=%d", o->num_channels, o->sample_rate, o->bits_per_sample);
               o->wav_subchunk2_size=libdax_audioxtr_to_int(o, (unsigned char *)buf + (signed long int)40, 4, 0);
               o->data_size = (signed long int)o->wav_subchunk2_size;
@@ -23788,30 +23788,30 @@ static signed int libdax_audioxtr_identify_wav(struct libdax_audioxtr *o, signed
 static signed int libdax_audioxtr_init_reading(struct libdax_audioxtr *o, signed int flag)
 {
   signed int ret;
-  signed long int return_value_lseek$1;
-  signed int return_value_strcmp$3;
-  signed long int return_value_lseek$2;
+  signed long int return_value_lseek_1;
+  signed int return_value_strcmp_3;
+  signed long int return_value_lseek_2;
   if(o->fd == 0)
     return 1;
 
   else
   {
     o->extract_count = (signed long int)0;
-    signed int return_value_strcmp$4;
-    return_value_strcmp$4=strcmp(o->fmt, ".wav");
-    if(return_value_strcmp$4 == 0)
+    signed int return_value_strcmp_4;
+    return_value_strcmp_4=strcmp(o->fmt, ".wav");
+    if(return_value_strcmp_4 == 0)
     {
-      return_value_lseek$1=lseek(o->fd, (signed long int)44, 0);
-      ret = (signed int)return_value_lseek$1;
+      return_value_lseek_1=lseek(o->fd, (signed long int)44, 0);
+      ret = (signed int)return_value_lseek_1;
     }
 
     else
     {
-      return_value_strcmp$3=strcmp(o->fmt, ".au");
-      if(return_value_strcmp$3 == 0)
+      return_value_strcmp_3=strcmp(o->fmt, ".au");
+      if(return_value_strcmp_3 == 0)
       {
-        return_value_lseek$2=lseek(o->fd, (signed long int)o->au_data_location, 0);
-        ret = (signed int)return_value_lseek$2;
+        return_value_lseek_2=lseek(o->fd, (signed long int)o->au_data_location, 0);
+        ret = (signed int)return_value_lseek_2;
       }
 
       else
@@ -23831,9 +23831,9 @@ signed int libdax_audioxtr_new(struct libdax_audioxtr **xtr, char *path, signed 
 {
   signed int ret = -1;
   struct libdax_audioxtr *o;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct libdax_audioxtr) /*8328ul*/ );
-  *xtr = (struct libdax_audioxtr *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct libdax_audioxtr) /*8328ul*/ );
+  *xtr = (struct libdax_audioxtr *)return_value_calloc_1;
   o = *xtr;
   if(o == ((struct libdax_audioxtr *)NULL))
     return -1;
@@ -23874,9 +23874,9 @@ static signed int libdax_audioxtr_open(struct libdax_audioxtr *o, signed int fla
 {
   signed int ret;
   char msg[4176l];
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(o->path, "-");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(o->path, "-");
+  if(return_value_strcmp_1 == 0)
     o->fd = 0;
 
   else
@@ -23884,9 +23884,9 @@ static signed int libdax_audioxtr_open(struct libdax_audioxtr *o, signed int fla
   if(!(o->fd >= 0))
   {
     sprintf(msg, "Cannot open audio source file : %s", (const void *)o->path);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    libdax_msgs_submit(libdax_messenger, -1, 0x00020200, 0x60000000, 0x30000000, msg, *return_value___errno_location$2, 0);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    libdax_msgs_submit(libdax_messenger, -1, 0x00020200, 0x60000000, 0x30000000, msg, *return_value___errno_location_2, 0);
     return -1;
   }
 
@@ -23918,13 +23918,13 @@ static signed int libdax_audioxtr_open(struct libdax_audioxtr *o, signed int fla
 signed int libdax_audioxtr_read(struct libdax_audioxtr *o, char *buffer, signed int buffer_size, signed int flag)
 {
   signed int ret;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(buffer_size >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = o->fd < 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = o->fd < 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -2;
 
   else
@@ -23945,9 +23945,9 @@ signed int libdax_audioxtr_read(struct libdax_audioxtr *o, char *buffer, signed 
 
     else
     {
-      signed long int return_value_read$2;
-      return_value_read$2=read(o->fd, (void *)buffer, (unsigned long int)buffer_size);
-      ret = (signed int)return_value_read$2;
+      signed long int return_value_read_2;
+      return_value_read_2=read(o->fd, (void *)buffer, (unsigned long int)buffer_size);
+      ret = (signed int)return_value_read_2;
       if(ret >= 1)
         o->extract_count = o->extract_count + (signed long int)ret;
 
@@ -24055,93 +24055,93 @@ signed int libdax_msgs__sev_to_text(signed int severity, char **severity_name, s
 // file libburn/libdax_msgs.h line 332
 signed int libdax_msgs__text_to_sev(char *severity_name, signed int *severity, signed int flag)
 {
-  signed int return_value_strncmp$13;
-  return_value_strncmp$13=strncmp(severity_name, "NEVER", (unsigned long int)5);
-  signed int return_value_strncmp$12;
-  signed int return_value_strncmp$11;
-  signed int return_value_strncmp$10;
-  signed int return_value_strncmp$9;
-  signed int return_value_strncmp$8;
-  signed int return_value_strncmp$7;
-  signed int return_value_strncmp$6;
-  signed int return_value_strncmp$5;
-  signed int return_value_strncmp$4;
-  signed int return_value_strncmp$3;
-  signed int return_value_strncmp$2;
-  signed int return_value_strncmp$1;
-  if(return_value_strncmp$13 == 0)
+  signed int return_value_strncmp_13;
+  return_value_strncmp_13=strncmp(severity_name, "NEVER", (unsigned long int)5);
+  signed int return_value_strncmp_12;
+  signed int return_value_strncmp_11;
+  signed int return_value_strncmp_10;
+  signed int return_value_strncmp_9;
+  signed int return_value_strncmp_8;
+  signed int return_value_strncmp_7;
+  signed int return_value_strncmp_6;
+  signed int return_value_strncmp_5;
+  signed int return_value_strncmp_4;
+  signed int return_value_strncmp_3;
+  signed int return_value_strncmp_2;
+  signed int return_value_strncmp_1;
+  if(return_value_strncmp_13 == 0)
     *severity = 0x7fffffff;
 
   else
   {
-    return_value_strncmp$12=strncmp(severity_name, "ABORT", (unsigned long int)5);
-    if(return_value_strncmp$12 == 0)
+    return_value_strncmp_12=strncmp(severity_name, "ABORT", (unsigned long int)5);
+    if(return_value_strncmp_12 == 0)
       *severity = 0x71000000;
 
     else
     {
-      return_value_strncmp$11=strncmp(severity_name, "FATAL", (unsigned long int)5);
-      if(return_value_strncmp$11 == 0)
+      return_value_strncmp_11=strncmp(severity_name, "FATAL", (unsigned long int)5);
+      if(return_value_strncmp_11 == 0)
         *severity = 0x70000000;
 
       else
       {
-        return_value_strncmp$10=strncmp(severity_name, "FAILURE", (unsigned long int)7);
-        if(return_value_strncmp$10 == 0)
+        return_value_strncmp_10=strncmp(severity_name, "FAILURE", (unsigned long int)7);
+        if(return_value_strncmp_10 == 0)
           *severity = 0x68000000;
 
         else
         {
-          return_value_strncmp$9=strncmp(severity_name, "MISHAP", (unsigned long int)6);
-          if(return_value_strncmp$9 == 0)
+          return_value_strncmp_9=strncmp(severity_name, "MISHAP", (unsigned long int)6);
+          if(return_value_strncmp_9 == 0)
             *severity = 0x64000000;
 
           else
           {
-            return_value_strncmp$8=strncmp(severity_name, "SORRY", (unsigned long int)5);
-            if(return_value_strncmp$8 == 0)
+            return_value_strncmp_8=strncmp(severity_name, "SORRY", (unsigned long int)5);
+            if(return_value_strncmp_8 == 0)
               *severity = 0x60000000;
 
             else
             {
-              return_value_strncmp$7=strncmp(severity_name, "WARNING", (unsigned long int)7);
-              if(return_value_strncmp$7 == 0)
+              return_value_strncmp_7=strncmp(severity_name, "WARNING", (unsigned long int)7);
+              if(return_value_strncmp_7 == 0)
                 *severity = 0x50000000;
 
               else
               {
-                return_value_strncmp$6=strncmp(severity_name, "HINT", (unsigned long int)4);
-                if(return_value_strncmp$6 == 0)
+                return_value_strncmp_6=strncmp(severity_name, "HINT", (unsigned long int)4);
+                if(return_value_strncmp_6 == 0)
                   *severity = 0x40000000;
 
                 else
                 {
-                  return_value_strncmp$5=strncmp(severity_name, "NOTE", (unsigned long int)4);
-                  if(return_value_strncmp$5 == 0)
+                  return_value_strncmp_5=strncmp(severity_name, "NOTE", (unsigned long int)4);
+                  if(return_value_strncmp_5 == 0)
                     *severity = 0x30000000;
 
                   else
                   {
-                    return_value_strncmp$4=strncmp(severity_name, "UPDATE", (unsigned long int)6);
-                    if(return_value_strncmp$4 == 0)
+                    return_value_strncmp_4=strncmp(severity_name, "UPDATE", (unsigned long int)6);
+                    if(return_value_strncmp_4 == 0)
                       *severity = 0x20000000;
 
                     else
                     {
-                      return_value_strncmp$3=strncmp(severity_name, "DEBUG", (unsigned long int)5);
-                      if(return_value_strncmp$3 == 0)
+                      return_value_strncmp_3=strncmp(severity_name, "DEBUG", (unsigned long int)5);
+                      if(return_value_strncmp_3 == 0)
                         *severity = 0x10000000;
 
                       else
                       {
-                        return_value_strncmp$2=strncmp(severity_name, "ERRFILE", (unsigned long int)7);
-                        if(return_value_strncmp$2 == 0)
+                        return_value_strncmp_2=strncmp(severity_name, "ERRFILE", (unsigned long int)7);
+                        if(return_value_strncmp_2 == 0)
                           *severity = 0x08000000;
 
                         else
                         {
-                          return_value_strncmp$1=strncmp(severity_name, "ALL", (unsigned long int)3);
-                          if(return_value_strncmp$1 == 0)
+                          return_value_strncmp_1=strncmp(severity_name, "ALL", (unsigned long int)3);
+                          if(return_value_strncmp_1 == 0)
                             *severity = 0x00000000;
 
                           else
@@ -24179,9 +24179,9 @@ signed int libdax_msgs_destroy(struct libdax_msgs **m, signed int flag)
   {
     if(o->refcount >= 2)
     {
-      signed int return_value_libdax_msgs_lock$1;
-      return_value_libdax_msgs_lock$1=libdax_msgs_lock(*m, 0);
-      if(!(return_value_libdax_msgs_lock$1 >= 1))
+      signed int return_value_libdax_msgs_lock_1;
+      return_value_libdax_msgs_lock_1=libdax_msgs_lock(*m, 0);
+      if(!(return_value_libdax_msgs_lock_1 >= 1))
         return -1;
 
       o->refcount = o->refcount - 1;
@@ -24190,9 +24190,9 @@ signed int libdax_msgs_destroy(struct libdax_msgs **m, signed int flag)
       return 1;
     }
 
-    signed int return_value_pthread_mutex_destroy$2;
-    return_value_pthread_mutex_destroy$2=pthread_mutex_destroy(&o->lock_mutex);
-    if(!(return_value_pthread_mutex_destroy$2 == 0))
+    signed int return_value_pthread_mutex_destroy_2;
+    return_value_pthread_mutex_destroy_2=pthread_mutex_destroy(&o->lock_mutex);
+    if(!(return_value_pthread_mutex_destroy_2 == 0))
     {
       pthread_mutex_unlock(&o->lock_mutex);
       pthread_mutex_destroy(&o->lock_mutex);
@@ -24284,9 +24284,9 @@ static signed int libdax_msgs_item_new(struct libdax_msgs_item **item, struct li
   struct libdax_msgs_item *o;
   struct timeval tv;
   struct timezone tz;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct libdax_msgs_item) /*64ul*/ );
-  o = (struct libdax_msgs_item *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct libdax_msgs_item) /*64ul*/ );
+  o = (struct libdax_msgs_item *)return_value_calloc_1;
   *item = o;
   if(o == ((struct libdax_msgs_item *)NULL))
     return -1;
@@ -24369,9 +24369,9 @@ static signed int libdax_msgs_lock(struct libdax_msgs *m, signed int flag)
 signed int libdax_msgs_new(struct libdax_msgs **m, signed int flag)
 {
   struct libdax_msgs *o;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct libdax_msgs) /*160ul*/ );
-  o = (struct libdax_msgs *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct libdax_msgs) /*160ul*/ );
+  o = (struct libdax_msgs *)return_value_calloc_1;
   *m = o;
   if(o == ((struct libdax_msgs *)NULL))
     return -1;
@@ -24385,7 +24385,7 @@ signed int libdax_msgs_new(struct libdax_msgs **m, signed int flag)
     o->queue_severity = 0x00000000;
     o->print_severity = 0x7fffffff;
     strcpy(o->print_id, "libdax: ");
-    pthread_mutex_init(&o->lock_mutex, (const union anonymous$1 *)(void *)0);
+    pthread_mutex_init(&o->lock_mutex, (const union anonymous_1 *)(void *)0);
     return 1;
   }
 }
@@ -24444,9 +24444,9 @@ signed int libdax_msgs_obtain(struct libdax_msgs *m, struct libdax_msgs_item **i
 // file libburn/libdax_msgs.h line 288
 signed int libdax_msgs_refer(struct libdax_msgs **pt, struct libdax_msgs *m, signed int flag)
 {
-  signed int return_value_libdax_msgs_lock$1;
-  return_value_libdax_msgs_lock$1=libdax_msgs_lock(m, 0);
-  if(!(return_value_libdax_msgs_lock$1 >= 1))
+  signed int return_value_libdax_msgs_lock_1;
+  return_value_libdax_msgs_lock_1=libdax_msgs_lock(m, 0);
+  if(!(return_value_libdax_msgs_lock_1 >= 1))
     return 0;
 
   else
@@ -24462,9 +24462,9 @@ signed int libdax_msgs_refer(struct libdax_msgs **pt, struct libdax_msgs *m, sig
 // file libburn/libdax_msgs.h line 344
 signed int libdax_msgs_set_severities(struct libdax_msgs *m, signed int queue_severity, signed int print_severity, char *print_id, signed int flag)
 {
-  signed int return_value_libdax_msgs_lock$1;
-  return_value_libdax_msgs_lock$1=libdax_msgs_lock(m, 0);
-  if(!(return_value_libdax_msgs_lock$1 >= 1))
+  signed int return_value_libdax_msgs_lock_1;
+  return_value_libdax_msgs_lock_1=libdax_msgs_lock(m, 0);
+  if(!(return_value_libdax_msgs_lock_1 >= 1))
     return 0;
 
   else
@@ -24506,9 +24506,9 @@ signed int libdax_msgs_submit(struct libdax_msgs *m, signed int origin, signed i
       if(!(ret >= 1))
         return -1;
 
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(os_errno);
-      fprintf(stderr, "%s( Most recent system error: %d  '%s' )\n", (const void *)m->print_id, os_errno, return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(os_errno);
+      fprintf(stderr, "%s( Most recent system error: %d  '%s' )\n", (const void *)m->print_id, os_errno, return_value_strerror_1);
       libdax_msgs_unlock(m, 0);
     }
 
@@ -24534,11 +24534,11 @@ signed int libdax_msgs_submit(struct libdax_msgs *m, signed int origin, signed i
         item->priority = priority;
         if(!(msg_text == ((char *)NULL)))
         {
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(msg_text);
-          void *return_value_calloc$3;
-          return_value_calloc$3=calloc((unsigned long int)1, return_value_strlen$2 + (unsigned long int)1);
-          item->msg_text = (char *)return_value_calloc$3;
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(msg_text);
+          void *return_value_calloc_3;
+          return_value_calloc_3=calloc((unsigned long int)1, return_value_strlen_2 + (unsigned long int)1);
+          item->msg_text = (char *)return_value_calloc_3;
           if(item->msg_text == ((char *)NULL))
             goto failed;
 
@@ -24604,12 +24604,12 @@ signed int main(signed int argc, char **argv)
   signed int detach_fd = 0;
   signed int extract_all = 0;
   char buf[2048l];
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
   if(argc >= 2)
   {
     i = 1;
@@ -24619,8 +24619,8 @@ signed int main(signed int argc, char **argv)
     if(i >= argc)
       goto __CPROVER_DUMP_L17;
 
-    return_value_strcmp$6=strcmp(argv[(signed long int)i], "-o");
-    if(return_value_strcmp$6 == 0)
+    return_value_strcmp_6=strcmp(argv[(signed long int)i], "-o");
+    if(return_value_strcmp_6 == 0)
     {
       if(i >= argc + -1)
       {
@@ -24633,36 +24633,36 @@ signed int main(signed int argc, char **argv)
       goto __CPROVER_DUMP_L16;
     }
 
-    return_value_strcmp$5=strcmp(argv[(signed long int)i], "--lax");
-    if(return_value_strcmp$5 == 0)
+    return_value_strcmp_5=strcmp(argv[(signed long int)i], "--lax");
+    if(return_value_strcmp_5 == 0)
     {
       be_strict = 0;
       goto __CPROVER_DUMP_L15;
     }
 
-    return_value_strcmp$4=strcmp(argv[(signed long int)i], "--strict");
-    if(return_value_strcmp$4 == 0)
+    return_value_strcmp_4=strcmp(argv[(signed long int)i], "--strict");
+    if(return_value_strcmp_4 == 0)
     {
       be_strict = 1;
       goto __CPROVER_DUMP_L14;
     }
 
-    return_value_strcmp$3=strcmp(argv[(signed long int)i], "--detach_fd");
-    if(return_value_strcmp$3 == 0)
+    return_value_strcmp_3=strcmp(argv[(signed long int)i], "--detach_fd");
+    if(return_value_strcmp_3 == 0)
     {
       detach_fd = 1;
       goto __CPROVER_DUMP_L13;
     }
 
-    return_value_strcmp$2=strcmp(argv[(signed long int)i], "--extract_all");
-    if(return_value_strcmp$2 == 0)
+    return_value_strcmp_2=strcmp(argv[(signed long int)i], "--extract_all");
+    if(return_value_strcmp_2 == 0)
     {
       extract_all = 1;
       goto __CPROVER_DUMP_L12;
     }
 
-    return_value_strcmp$1=strcmp(argv[(signed long int)i], "--help");
-    if(!(return_value_strcmp$1 == 0))
+    return_value_strcmp_1=strcmp(argv[(signed long int)i], "--help");
+    if(!(return_value_strcmp_1 == 0))
       goto __CPROVER_DUMP_L9;
 
   }
@@ -24709,9 +24709,9 @@ __CPROVER_DUMP_L17:
   if((signed int)*in_path == 0)
     in_path = "-";
 
-  signed int return_value_burn_initialize$7;
-  return_value_burn_initialize$7=burn_initialize();
-  if(return_value_burn_initialize$7 == 0)
+  signed int return_value_burn_initialize_7;
+  return_value_burn_initialize_7=burn_initialize();
+  if(return_value_burn_initialize_7 == 0)
   {
     fprintf(stderr, "Failed to initialize libburn.\n");
     exit(3);
@@ -24723,21 +24723,21 @@ __CPROVER_DUMP_L17:
   if(!(ret >= 1))
     exit(4);
 
-  signed int return_value_strcmp$11;
-  return_value_strcmp$11=strcmp(out_path, "-");
-  if(!(return_value_strcmp$11 == 0))
+  signed int return_value_strcmp_11;
+  return_value_strcmp_11=strcmp(out_path, "-");
+  if(!(return_value_strcmp_11 == 0))
   {
     out_fd=open(out_path, 01 | 0100 | 01000, 0400 | 0200 | 0400 >> 3 | 0200 >> 3 | (0400 >> 3) >> 3 | (0200 >> 3) >> 3);
     if(out_fd == -1)
     {
       fprintf(stderr, "Cannot open file: %s\n", out_path);
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      char *return_value_strerror$9;
-      return_value_strerror$9=strerror(*return_value___errno_location$8);
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      fprintf(stderr, "Error reported: '%s'  (%d)\n", return_value_strerror$9, *return_value___errno_location$10);
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      char *return_value_strerror_9;
+      return_value_strerror_9=strerror(*return_value___errno_location_8);
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      fprintf(stderr, "Error reported: '%s'  (%d)\n", return_value_strerror_9, *return_value___errno_location_10);
       exit(5);
     }
 
@@ -24747,19 +24747,19 @@ __CPROVER_DUMP_L17:
   fprintf(stderr, "Detected format: %s\n", fmt_info);
   libdax_audioxtr_get_size(xtr, &data_size, 0);
   fprintf(stderr, "Data size      : %.f bytes\n", (double)data_size);
-  signed int return_value_strcmp$12;
-  return_value_strcmp$12=strcmp(fmt, ".wav");
-  _Bool tmp_if_expr$14;
-  signed int return_value_strcmp$13;
-  if(!(return_value_strcmp$12 == 0))
+  signed int return_value_strcmp_12;
+  return_value_strcmp_12=strcmp(fmt, ".wav");
+  _Bool tmp_if_expr_14;
+  signed int return_value_strcmp_13;
+  if(!(return_value_strcmp_12 == 0))
   {
-    return_value_strcmp$13=strcmp(fmt, ".au");
-    tmp_if_expr$14 = return_value_strcmp$13 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_13=strcmp(fmt, ".au");
+    tmp_if_expr_14 = return_value_strcmp_13 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$14 = (_Bool)0;
-  if(!(bits_per_sample == 16) || !(num_channels == 2) || !(sample_rate == 44100) || tmp_if_expr$14)
+    tmp_if_expr_14 = (_Bool)0;
+  if(!(bits_per_sample == 16) || !(num_channels == 2) || !(sample_rate == 44100) || tmp_if_expr_14)
   {
     fprintf(stderr, "%sAudio source parameters do not comply to cdrskin/README specs\n", be_strict != 0 ? "" : "WARNING: ");
     if(!(be_strict == 0))
@@ -24783,22 +24783,22 @@ __CPROVER_DUMP_L17:
     fprintf(stderr, "Note: detached fd and freed extractor object.\n");
   }
 
-  signed int *return_value___errno_location$16;
-  signed int *return_value___errno_location$17;
-  char *return_value_strerror$18;
+  signed int *return_value___errno_location_16;
+  signed int *return_value___errno_location_17;
+  char *return_value_strerror_18;
   while((_Bool)1)
   {
     if(!(detach_fd == 0))
     {
-      signed long int return_value_read$15;
-      return_value_read$15=read(xtr_fd, (void *)buf, sizeof(char [2048l]) /*2048ul*/ );
-      buf_count = (signed int)return_value_read$15;
+      signed long int return_value_read_15;
+      return_value_read_15=read(xtr_fd, (void *)buf, sizeof(char [2048l]) /*2048ul*/ );
+      buf_count = (signed int)return_value_read_15;
       if(buf_count == -1)
       {
-        return_value___errno_location$16=__errno_location();
-        return_value___errno_location$17=__errno_location();
-        return_value_strerror$18=strerror(*return_value___errno_location$17);
-        fprintf(stderr, "Error while reading from detached fd\n(%d) '%s'\n", *return_value___errno_location$16, return_value_strerror$18);
+        return_value___errno_location_16=__errno_location();
+        return_value___errno_location_17=__errno_location();
+        return_value_strerror_18=strerror(*return_value___errno_location_17);
+        fprintf(stderr, "Error while reading from detached fd\n(%d) '%s'\n", *return_value___errno_location_16, return_value_strerror_18);
       }
 
     }
@@ -24811,19 +24811,19 @@ __CPROVER_DUMP_L17:
     if(buf_count == 0)
       break;
 
-    signed long int return_value_write$19;
-    return_value_write$19=write(out_fd, (const void *)buf, (unsigned long int)buf_count);
-    ret = (signed int)return_value_write$19;
+    signed long int return_value_write_19;
+    return_value_write_19=write(out_fd, (const void *)buf, (unsigned long int)buf_count);
+    ret = (signed int)return_value_write_19;
     if(ret == -1)
     {
       fprintf(stderr, "Failed to write buffer of %d bytes to: %s\n", buf_count, out_path);
-      signed int *return_value___errno_location$20;
-      return_value___errno_location$20=__errno_location();
-      char *return_value_strerror$21;
-      return_value_strerror$21=strerror(*return_value___errno_location$20);
-      signed int *return_value___errno_location$22;
-      return_value___errno_location$22=__errno_location();
-      fprintf(stderr, "Error reported: '%s'  (%d)\n", return_value_strerror$21, *return_value___errno_location$22);
+      signed int *return_value___errno_location_20;
+      return_value___errno_location_20=__errno_location();
+      char *return_value_strerror_21;
+      return_value_strerror_21=strerror(*return_value___errno_location_20);
+      signed int *return_value___errno_location_22;
+      return_value___errno_location_22=__errno_location();
+      fprintf(stderr, "Error reported: '%s'  (%d)\n", return_value_strerror_21, *return_value___errno_location_22);
       exit(5);
     }
 
@@ -24846,9 +24846,9 @@ void mmc_close(struct burn_drive *d, signed int session, signed int track)
   signed int asc;
   signed int ascq;
   c = &d->casual_command;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_close");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_close");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     scsi_init_command(c, MMC_CLOSE, (signed int)sizeof(unsigned char [10l]) /*10ul*/ );
     c->retry = 1;
@@ -24863,19 +24863,19 @@ void mmc_close(struct burn_drive *d, signed int session, signed int track)
     if(!(c->error == 0))
     {
       sprintf(msg, "Failed to close %s (%d)", session > 1 ? "disc" : (session > 0 ? "session" : "track"), (session & 3) << 1 | (signed int)!(!(track != 0)));
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(msg);
-      sprintf(msg + (signed long int)return_value_strlen$2, ". SCSI error : ");
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(msg);
-      scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen$3, &key, &asc, &ascq);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(msg);
+      sprintf(msg + (signed long int)return_value_strlen_2, ". SCSI error : ");
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(msg);
+      scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen_3, &key, &asc, &ascq);
       libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002017e, 0x68000000, 0x30000000, msg, 0, 0);
       d->cancel = 1;
     }
 
-    signed int return_value_spc_wait_unit_attention$4;
-    return_value_spc_wait_unit_attention$4=spc_wait_unit_attention(d, 3600, "CLOSE TRACK SESSION", 0);
-    if(!(return_value_spc_wait_unit_attention$4 >= 1))
+    signed int return_value_spc_wait_unit_attention_4;
+    return_value_spc_wait_unit_attention_4=spc_wait_unit_attention(d, 3600, "CLOSE TRACK SESSION", 0);
+    if(!(return_value_spc_wait_unit_attention_4 >= 1))
       d->cancel = 1;
 
   }
@@ -24887,9 +24887,9 @@ void mmc_close(struct burn_drive *d, signed int session, signed int track)
 void mmc_close_disc(struct burn_write_opts *o)
 {
   struct burn_drive *d = o->drive;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_close_disc");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_close_disc");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     libdax_msgs_submit(libdax_messenger, -1, 0x00000002, 0x10000000, 0x00000000, "HOW THAT ? mmc_close_disc() was called", 0, 0);
     o->multi = (unsigned char)0;
@@ -24904,9 +24904,9 @@ void mmc_close_disc(struct burn_write_opts *o)
 void mmc_close_session(struct burn_write_opts *o)
 {
   struct burn_drive *d = o->drive;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_close_session");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_close_session");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     libdax_msgs_submit(libdax_messenger, -1, 0x00000002, 0x10000000, 0x00000000, "HOW THAT ? mmc_close_session() was called", 0, 0);
     o->multi = (unsigned char)3;
@@ -24935,25 +24935,25 @@ signed int mmc_compose_mode_page_5(struct burn_drive *d, struct burn_session *s,
 
   else
   {
-    _Bool tmp_if_expr$10;
+    _Bool tmp_if_expr_10;
     if(d->current_profile == 0x14)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = d->current_profile == 0x11 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$11;
-    if(tmp_if_expr$10)
-      tmp_if_expr$11 = (_Bool)1;
+      tmp_if_expr_10 = d->current_profile == 0x11 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_11;
+    if(tmp_if_expr_10)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
-      tmp_if_expr$11 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$12;
-    if(tmp_if_expr$11)
-      tmp_if_expr$12 = (signed int)o->write_type == BURN_WRITE_SAO ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_11 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_12;
+    if(tmp_if_expr_11)
+      tmp_if_expr_12 = (signed int)o->write_type == BURN_WRITE_SAO ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
     {
       pd[(signed long int)2] = (unsigned char)((signed int)!(!(o->underrun_proof != 0u)) << 6 | (signed int)!(!(o->simulate != 0u)) << 4 | 2);
       pd[(signed long int)3] = (unsigned char)5;
@@ -24962,19 +24962,19 @@ signed int mmc_compose_mode_page_5(struct burn_drive *d, struct burn_session *s,
 
     else
     {
-      _Bool tmp_if_expr$8;
+      _Bool tmp_if_expr_8;
       if(d->current_profile == 0x14)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = d->current_profile == 0x11 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$9;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = d->current_profile == 0x11 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_9;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
       {
         pd[(signed long int)2] = (unsigned char)((signed int)!(!(o->underrun_proof != 0u)) << 6 | 1 << 5 | (signed int)!(!(o->simulate != 0u)) << 4);
         pd[(signed long int)3] = (unsigned char)(3 * (signed int)!(!(o->multi != 0)) << 6 | 1 << 5 | 5);
@@ -24996,52 +24996,52 @@ signed int mmc_compose_mode_page_5(struct burn_drive *d, struct burn_session *s,
 
       else
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(d->current_profile == 0x1a)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = d->current_profile == 0x1b ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$3;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = d->current_profile == 0x1b ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_3;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$4;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = d->current_profile == 0x2b ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_4;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$5;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_4 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_5;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$6;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_5 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_6;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = d->current_profile == 0x42 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$7;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_6 = d->current_profile == 0x42 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_7;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
           return 0;
 
         else
         {
           pd[(signed long int)2] = (unsigned char)((signed int)!(!(o->underrun_proof != 0u)) << 6 | (signed int)!(!(o->simulate != 0u)) << 4 | (signed int)o->write_type & 0x0f);
           pd[(signed long int)3] = (unsigned char)(3 * (signed int)!(!(o->multi != 0)) << 6 | (signed int)o->control & 0x0f);
-          signed int return_value_spc_block_type$1;
-          return_value_spc_block_type$1=spc_block_type(o->block_type);
-          pd[(signed long int)4] = (unsigned char)return_value_spc_block_type$1;
+          signed int return_value_spc_block_type_1;
+          return_value_spc_block_type_1=spc_block_type(o->block_type);
+          pd[(signed long int)4] = (unsigned char)return_value_spc_block_type_1;
           if((4 & (signed int)o->control) == 0)
           {
             if((signed int)o->write_type == BURN_WRITE_TAO)
@@ -25130,9 +25130,9 @@ void mmc_erase(struct burn_drive *d, signed int fast)
 {
   struct command *c = &d->casual_command;
   mmc_start_if_needed(d, 0);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_erase");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_erase");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     scsi_init_command(c, MMC_BLANK, (signed int)sizeof(unsigned char [12l]) /*12ul*/ );
     c->opcode[(signed long int)1] = (unsigned char)16;
@@ -25166,9 +25166,9 @@ signed int mmc_eval_read_error(struct burn_drive *d, struct command *c, char *wh
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, (unsigned long int)256);
-    msg = (char *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, (unsigned long int)256);
+    msg = (char *)return_value_calloc_1;
     if(!(msg == ((char *)NULL)))
     {
       if(!(end_f >= 0) || !(end_s >= 0) || !(start_f >= 0) || !(start_s >= 0))
@@ -25176,9 +25176,9 @@ signed int mmc_eval_read_error(struct burn_drive *d, struct command *c, char *wh
 
       else
         sprintf(msg, "SCSI error on %s(%dm%ds%df,%dm%ds%df): ", what, start_m, start_s, start_f, end_m, end_s, end_f);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(msg);
-      scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen$2, &key, &asc, &ascq);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(msg);
+      scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen_2, &key, &asc, &ascq);
       silent = (signed int)(d->silent_on_scsi_error == 1);
       if(asc == 0x64 && ascq == 0x0 && key == 5)
       {
@@ -25217,44 +25217,44 @@ signed int mmc_fake_toc(struct burn_drive *d)
   unsigned char start_data[4l];
   unsigned char end_data[4l];
   char *msg = (char *)(void *)0;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_fake_toc");
-  void *return_value_calloc$6;
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_fake_toc");
+  void *return_value_calloc_6;
+  if(!(return_value_mmc_function_spy_1 >= 1))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_2;
     if(buf == ((struct buffer *)NULL))
       ret = -1;
 
     else
     {
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(!(d->last_track_no >= 1))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = d->complete_sessions + d->incomplete_sessions <= 0 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$4;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = d->complete_sessions + d->incomplete_sessions <= 0 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_4;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)d->status == BURN_DISC_BLANK ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)d->status == BURN_DISC_BLANK ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         ret = 2;
 
       else
       {
         if(d->last_track_no >= 2303)
         {
-          void *return_value_calloc$5;
-          return_value_calloc$5=calloc((unsigned long int)1, (unsigned long int)160);
-          msg = (char *)return_value_calloc$5;
+          void *return_value_calloc_5;
+          return_value_calloc_5=calloc((unsigned long int)1, (unsigned long int)160);
+          msg = (char *)return_value_calloc_5;
           if(!(msg == ((char *)NULL)))
           {
             sprintf(msg, "Too many logical tracks recorded (%d , max. %d)\n", d->last_track_no, 2302);
@@ -25286,8 +25286,8 @@ signed int mmc_fake_toc(struct burn_drive *d)
           else
           {
             d->toc_entries = d->last_track_no + d->complete_sessions + d->incomplete_sessions;
-            return_value_calloc$6=calloc((unsigned long int)d->toc_entries, sizeof(struct burn_toc_entry) /*32ul*/ );
-            d->toc_entry = (struct burn_toc_entry *)return_value_calloc$6;
+            return_value_calloc_6=calloc((unsigned long int)d->toc_entries, sizeof(struct burn_toc_entry) /*32ul*/ );
+            d->toc_entry = (struct burn_toc_entry *)return_value_calloc_6;
             if(d->toc_entry == ((struct burn_toc_entry *)NULL))
               ret = -1;
 
@@ -25324,11 +25324,11 @@ signed int mmc_fake_toc(struct burn_drive *d)
                   if(prev_session >= 1 && !(session_number == prev_session))
                   {
                     entry = &d->toc_entry[(signed long int)((i - 1) + prev_session)];
-                    signed int return_value_mmc_four_char_to_int$7;
-                    return_value_mmc_four_char_to_int$7=mmc_four_char_to_int(start_data);
-                    signed int return_value_mmc_four_char_to_int$8;
-                    return_value_mmc_four_char_to_int$8=mmc_four_char_to_int(size_data);
-                    lba = return_value_mmc_four_char_to_int$7 + return_value_mmc_four_char_to_int$8;
+                    signed int return_value_mmc_four_char_to_int_7;
+                    return_value_mmc_four_char_to_int_7=mmc_four_char_to_int(start_data);
+                    signed int return_value_mmc_four_char_to_int_8;
+                    return_value_mmc_four_char_to_int_8=mmc_four_char_to_int(size_data);
+                    lba = return_value_mmc_four_char_to_int_7 + return_value_mmc_four_char_to_int_8;
                     mmc_int_to_four_char(start_data, lba);
                     mmc_int_to_four_char(size_data, 0);
                     mmc_int_to_four_char(end_data, lba - 1);
@@ -25343,9 +25343,9 @@ signed int mmc_fake_toc(struct burn_drive *d)
                   {
                     if(i == d->last_track_no + -1)
                     {
-                      signed int return_value_mmc_four_char_to_int$9;
-                      return_value_mmc_four_char_to_int$9=mmc_four_char_to_int(tdata + (signed long int)16);
-                      burn_drive_set_media_capacity_remaining(d, (signed long int)return_value_mmc_four_char_to_int$9 * (signed long int)2048);
+                      signed int return_value_mmc_four_char_to_int_9;
+                      return_value_mmc_four_char_to_int_9=mmc_four_char_to_int(tdata + (signed long int)16);
+                      burn_drive_set_media_capacity_remaining(d, (signed long int)return_value_mmc_four_char_to_int_9 * (signed long int)2048);
                       d->media_lba_limit = 0;
                     }
 
@@ -25387,11 +25387,11 @@ signed int mmc_fake_toc(struct burn_drive *d)
                 if(d->disc->sessions >= prev_session)
                 {
                   entry = &d->toc_entry[(signed long int)((d->last_track_no - 1) + prev_session)];
-                  signed int return_value_mmc_four_char_to_int$10;
-                  return_value_mmc_four_char_to_int$10=mmc_four_char_to_int(start_data);
-                  signed int return_value_mmc_four_char_to_int$11;
-                  return_value_mmc_four_char_to_int$11=mmc_four_char_to_int(size_data);
-                  lba = return_value_mmc_four_char_to_int$10 + return_value_mmc_four_char_to_int$11;
+                  signed int return_value_mmc_four_char_to_int_10;
+                  return_value_mmc_four_char_to_int_10=mmc_four_char_to_int(start_data);
+                  signed int return_value_mmc_four_char_to_int_11;
+                  return_value_mmc_four_char_to_int_11=mmc_four_char_to_int(size_data);
+                  lba = return_value_mmc_four_char_to_int_10 + return_value_mmc_four_char_to_int_11;
                   mmc_int_to_four_char(start_data, lba);
                   mmc_int_to_four_char(size_data, 0);
                   mmc_int_to_four_char(end_data, lba - 1);
@@ -25496,38 +25496,38 @@ signed int mmc_format_unit(struct burn_drive *d, signed long int size, signed in
   signed int asc;
   signed int ascq;
   signed int full_format_type = 0x00;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
-  signed int return_value_mmc_function_spy$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$11;
-  unsigned long int return_value_strlen$18;
-  unsigned long int return_value_strlen$19;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
+  signed int return_value_mmc_function_spy_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_11;
+  unsigned long int return_value_strlen_18;
+  unsigned long int return_value_strlen_19;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(c == ((struct command *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)256, 0);
-      msg = (char *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)256, 0);
+      msg = (char *)return_value_burn_alloc_mem_3;
       if(msg == ((char *)NULL))
         ret = -1;
 
       else
       {
         mmc_start_if_needed(d, 0);
-        return_value_mmc_function_spy$4=mmc_function_spy(d, "mmc_format_unit");
-        if(!(return_value_mmc_function_spy$4 >= 1))
+        return_value_mmc_function_spy_4=mmc_function_spy(d, "mmc_format_unit");
+        if(!(return_value_mmc_function_spy_4 >= 1))
           ret = 0;
 
         else
@@ -25553,11 +25553,11 @@ signed int mmc_format_unit(struct burn_drive *d, signed long int size, signed in
             {
               index = flag >> 8 & 0xff;
               if(!(index >= 0))
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
-                tmp_if_expr$5 = index >= d->num_format_descr ? (_Bool)1 : (_Bool)0;
-              if(!tmp_if_expr$5)
+                tmp_if_expr_5 = index >= d->num_format_descr ? (_Bool)1 : (_Bool)0;
+              if(!tmp_if_expr_5)
                 goto __CPROVER_DUMP_L8;
 
             }
@@ -25571,37 +25571,37 @@ signed int mmc_format_unit(struct burn_drive *d, signed long int size, signed in
 
           __CPROVER_DUMP_L8:
             ;
-            _Bool tmp_if_expr$6;
+            _Bool tmp_if_expr_6;
             if(d->current_profile == 0x13)
-              tmp_if_expr$6 = (_Bool)1;
+              tmp_if_expr_6 = (_Bool)1;
 
             else
-              tmp_if_expr$6 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$7;
-            if(tmp_if_expr$6)
-              tmp_if_expr$7 = (_Bool)1;
+              tmp_if_expr_6 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_7;
+            if(tmp_if_expr_6)
+              tmp_if_expr_7 = (_Bool)1;
 
             else
-              tmp_if_expr$7 = d->current_profile == 0x1a ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$8;
-            if(tmp_if_expr$7)
-              tmp_if_expr$8 = (_Bool)1;
+              tmp_if_expr_7 = d->current_profile == 0x1a ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_8;
+            if(tmp_if_expr_7)
+              tmp_if_expr_8 = (_Bool)1;
 
             else
-              tmp_if_expr$8 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$9;
-            if(tmp_if_expr$8)
-              tmp_if_expr$9 = (_Bool)1;
+              tmp_if_expr_8 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_9;
+            if(tmp_if_expr_8)
+              tmp_if_expr_9 = (_Bool)1;
 
             else
-              tmp_if_expr$9 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$10;
-            if(tmp_if_expr$9)
-              tmp_if_expr$10 = (_Bool)1;
+              tmp_if_expr_9 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_10;
+            if(tmp_if_expr_9)
+              tmp_if_expr_10 = (_Bool)1;
 
             else
-              tmp_if_expr$10 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-            if(!tmp_if_expr$10)
+              tmp_if_expr_10 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+            if(!tmp_if_expr_10)
               goto unsuitable_media;
 
             format_type = d->format_descriptors[(signed long int)index].type;
@@ -25639,20 +25639,20 @@ signed int mmc_format_unit(struct burn_drive *d, signed long int size, signed in
 
             else
             {
-              _Bool tmp_if_expr$12;
+              _Bool tmp_if_expr_12;
               if(format_type == 0x32)
-                tmp_if_expr$12 = (_Bool)1;
+                tmp_if_expr_12 = (_Bool)1;
 
               else
               {
                 if(format_type == 0x00)
-                  tmp_if_expr$11 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_11 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$11 = (_Bool)0;
-                tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_11 = (_Bool)0;
+                tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$12)
+              if(tmp_if_expr_12)
               {
                 if(!((65536 & flag) == 0))
                   format_sub_type = 0;
@@ -25691,13 +25691,13 @@ signed int mmc_format_unit(struct burn_drive *d, signed long int size, signed in
                 num_of_blocks = (signed long int)0xffffffff;
               }
 
-              _Bool tmp_if_expr$13;
+              _Bool tmp_if_expr_13;
               if(d->bg_format_status == 2)
-                tmp_if_expr$13 = (_Bool)1;
+                tmp_if_expr_13 = (_Bool)1;
 
               else
-                tmp_if_expr$13 = (d->bg_format_status == 3 ? (!((flag & 16) != 0) ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$13)
+                tmp_if_expr_13 = (d->bg_format_status == 3 ? (!((flag & 16) != 0) ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_13)
               {
                 sprintf(msg, "FORMAT UNIT ignored. Already %s.", d->bg_format_status == 2 ? "in progress" : "completed");
                 libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020120, 0x30000000, 0x30000000, msg, 0, 0);
@@ -25784,30 +25784,30 @@ signed int mmc_format_unit(struct burn_drive *d, signed long int size, signed in
 
               else
               {
-                _Bool tmp_if_expr$17;
+                _Bool tmp_if_expr_17;
                 if(d->current_profile == 0x14)
-                  tmp_if_expr$17 = (_Bool)1;
+                  tmp_if_expr_17 = (_Bool)1;
 
                 else
-                  tmp_if_expr$17 = (d->current_profile == 0x13 ? ((flag & 16) != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$17)
+                  tmp_if_expr_17 = (d->current_profile == 0x13 ? ((flag & 16) != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_17)
                 {
                   mmc_read_format_capacities(d, (flag & 4) != 0 ? full_format_type : 0x15);
-                  _Bool tmp_if_expr$15;
+                  _Bool tmp_if_expr_15;
                   if(d->best_format_type == 0x15)
-                    tmp_if_expr$15 = (_Bool)1;
+                    tmp_if_expr_15 = (_Bool)1;
 
                   else
-                    tmp_if_expr$15 = d->best_format_type == full_format_type ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$15)
+                    tmp_if_expr_15 = d->best_format_type == full_format_type ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_15)
                   {
-                    _Bool tmp_if_expr$14;
+                    _Bool tmp_if_expr_14;
                     if(!((4 & flag) == 0))
-                      tmp_if_expr$14 = (_Bool)1;
+                      tmp_if_expr_14 = (_Bool)1;
 
                     else
-                      tmp_if_expr$14 = d->best_format_type == full_format_type ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$14)
+                      tmp_if_expr_14 = d->best_format_type == full_format_type ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_14)
                     {
                       num_of_blocks = d->best_format_size / (signed long int)2048;
                       mmc_int_to_four_char(c->page->data + (signed long int)4, (signed int)num_of_blocks);
@@ -26135,13 +26135,13 @@ signed int mmc_format_unit(struct burn_drive *d, signed long int size, signed in
                         format_type = d->format_descriptors[(signed long int)index].type;
                         if(format_type == 0x30 || format_type == 0x31)
                         {
-                          _Bool tmp_if_expr$16;
+                          _Bool tmp_if_expr_16;
                           if(!((64 & flag) == 0))
-                            tmp_if_expr$16 = (_Bool)1;
+                            tmp_if_expr_16 = (_Bool)1;
 
                           else
-                            tmp_if_expr$16 = !((d->current_feat23h_byte4 & 3) != 0) ? (_Bool)1 : (_Bool)0;
-                          if(tmp_if_expr$16)
+                            tmp_if_expr_16 = !((d->current_feat23h_byte4 & 3) != 0) ? (_Bool)1 : (_Bool)0;
+                          if(tmp_if_expr_16)
                           {
                             format_sub_type = 0;
                             if((64 & flag) == 0)
@@ -26228,16 +26228,16 @@ signed int mmc_format_unit(struct burn_drive *d, signed long int size, signed in
           i = 0;
           for( ; !(i >= 6); i = i + 1)
           {
-            return_value_strlen$18=strlen(msg);
-            sprintf(msg + (signed long int)return_value_strlen$18, "%2.2X ", c->opcode[(signed long int)i]);
+            return_value_strlen_18=strlen(msg);
+            sprintf(msg + (signed long int)return_value_strlen_18, "%2.2X ", c->opcode[(signed long int)i]);
           }
           libdax_msgs_submit(libdax_messenger, d->global_index, 0x00000002, 0x10000000, 0x00000000, msg, 0, 0);
           sprintf(msg, "Format list: ");
           i = 0;
           for( ; !(i >= 12); i = i + 1)
           {
-            return_value_strlen$19=strlen(msg);
-            sprintf(msg + (signed long int)return_value_strlen$19, "%2.2X ", c->page->data[(signed long int)i]);
+            return_value_strlen_19=strlen(msg);
+            sprintf(msg + (signed long int)return_value_strlen_19, "%2.2X ", c->page->data[(signed long int)i]);
           }
           strcat(msg, "\n");
           libdax_msgs_submit(libdax_messenger, d->global_index, 0x00000002, 0x10000000, 0x00000000, msg, 0, 0);
@@ -26248,9 +26248,9 @@ signed int mmc_format_unit(struct burn_drive *d, signed long int size, signed in
             if(!(key == 0))
             {
               sprintf(msg, "SCSI error on format_unit(%s): ", (const void *)descr);
-              unsigned long int return_value_strlen$20;
-              return_value_strlen$20=strlen(msg);
-              scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen$20, &key, &asc, &ascq);
+              unsigned long int return_value_strlen_20;
+              return_value_strlen_20=strlen(msg);
+              scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen_20, &key, &asc, &ascq);
               libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020122, 0x68000000, 0x30000000, msg, 0, 0);
             }
 
@@ -26391,9 +26391,9 @@ void mmc_get_configuration(struct burn_drive *d)
   __CPROVER_DUMP_L1:
     ;
     mmc_start_if_needed(d, 1);
-    signed int return_value_mmc_function_spy$1;
-    return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_get_configuration");
-    if(return_value_mmc_function_spy$1 >= 1)
+    signed int return_value_mmc_function_spy_1;
+    return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_get_configuration");
+    if(return_value_mmc_function_spy_1 >= 1)
     {
       ret=mmc_get_configuration_al(d, &alloc_len);
       if(alloc_len >= 9 && ret >= 1)
@@ -26431,24 +26431,24 @@ static signed int mmc_get_configuration_al(struct burn_drive *d, signed int *all
   struct burn_feature_descr *recent_feature = (struct burn_feature_descr *)(void *)0;
   struct burn_feature_descr *new_feature;
   char *msg = (char *)(void *)0;
-  signed int return_value_mmc_four_char_to_int$3;
-  char *return_value_mmc_obtain_profile_name$5;
+  signed int return_value_mmc_four_char_to_int_3;
+  char *return_value_mmc_obtain_profile_name_5;
   if(!(*alloc_len >= 8))
     ret = 0;
 
   else
   {
-    void *return_value_burn_alloc_mem$1;
-    return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$1;
+    void *return_value_burn_alloc_mem_1;
+    return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_1;
     if(buf == ((struct buffer *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$2;
-      return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-      c = (struct command *)return_value_burn_alloc_mem$2;
+      void *return_value_burn_alloc_mem_2;
+      return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+      c = (struct command *)return_value_burn_alloc_mem_2;
       if(c == ((struct command *)NULL))
         ret = -1;
 
@@ -26493,8 +26493,8 @@ static signed int mmc_get_configuration_al(struct burn_drive *d, signed int *all
         else
         {
           old_alloc_len = *alloc_len;
-          return_value_mmc_four_char_to_int$3=mmc_four_char_to_int(c->page->data);
-          len = return_value_mmc_four_char_to_int$3 + 4;
+          return_value_mmc_four_char_to_int_3=mmc_four_char_to_int(c->page->data);
+          len = return_value_mmc_four_char_to_int_3 + 4;
           *alloc_len = len;
           if(!(old_alloc_len >= len))
             len = old_alloc_len;
@@ -26505,9 +26505,9 @@ static signed int mmc_get_configuration_al(struct burn_drive *d, signed int *all
           else
             if(len >= 4097)
             {
-              void *return_value_burn_alloc_mem$4;
-              return_value_burn_alloc_mem$4=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)256, 0);
-              msg = (char *)return_value_burn_alloc_mem$4;
+              void *return_value_burn_alloc_mem_4;
+              return_value_burn_alloc_mem_4=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)256, 0);
+              msg = (char *)return_value_burn_alloc_mem_4;
               if(msg == ((char *)NULL))
                 ret = -1;
 
@@ -26520,8 +26520,8 @@ static signed int mmc_get_configuration_al(struct burn_drive *d, signed int *all
             {
               cp = (signed int)c->page->data[(signed long int)6] << 8 | (signed int)c->page->data[(signed long int)7];
               d->current_profile = cp;
-              return_value_mmc_obtain_profile_name$5=mmc_obtain_profile_name(cp);
-              strcpy(d->current_profile_text, return_value_mmc_obtain_profile_name$5);
+              return_value_mmc_obtain_profile_name_5=mmc_obtain_profile_name(cp);
+              strcpy(d->current_profile_text, return_value_mmc_obtain_profile_name_5);
               if(cp == 0x08)
               {
                 d->current_is_cd_profile = 1;
@@ -26607,13 +26607,13 @@ static signed int mmc_get_configuration_al(struct burn_drive *d, signed int *all
                       i = 0;
                       if(!(i >= (signed int)descr[7l]))
                       {
-                        _Bool tmp_if_expr$6;
+                        _Bool tmp_if_expr_6;
                         if(i == 0)
-                          tmp_if_expr$6 = (_Bool)1;
+                          tmp_if_expr_6 = (_Bool)1;
 
                         else
-                          tmp_if_expr$6 = (signed int)descr[(signed long int)(8 + i)] == 16 ? (_Bool)1 : (_Bool)0;
-                        if(tmp_if_expr$6)
+                          tmp_if_expr_6 = (signed int)descr[(signed long int)(8 + i)] == 16 ? (_Bool)1 : (_Bool)0;
+                        if(tmp_if_expr_6)
                           d->current_feat21h_link_size = (signed int)descr[(signed long int)(8 + i)];
 
                         i = i + 1;
@@ -26680,9 +26680,9 @@ static signed int mmc_get_configuration_al(struct burn_drive *d, signed int *all
 
                                 }
 
-                                void *return_value_burn_alloc_mem$7;
-                                return_value_burn_alloc_mem$7=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(c_limit + 1), 0);
-                                d->drive_serial_number = (char *)return_value_burn_alloc_mem$7;
+                                void *return_value_burn_alloc_mem_7;
+                                return_value_burn_alloc_mem_7=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(c_limit + 1), 0);
+                                d->drive_serial_number = (char *)return_value_burn_alloc_mem_7;
                                 if(d->drive_serial_number == ((char *)NULL))
                                   ret = -1;
 
@@ -26731,14 +26731,14 @@ void mmc_get_event(struct burn_drive *d)
   signed int loops = 0;
   unsigned char *evt;
   c = &d->casual_command;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
-  signed int return_value_mmc_function_spy$2;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
+  signed int return_value_mmc_function_spy_2;
   if(!(buf == ((struct buffer *)NULL)))
   {
-    return_value_mmc_function_spy$2=mmc_function_spy(d, "mmc_get_event");
-    if(return_value_mmc_function_spy$2 >= 1)
+    return_value_mmc_function_spy_2=mmc_function_spy(d, "mmc_get_event");
+    if(return_value_mmc_function_spy_2 >= 1)
     {
 
     again:
@@ -26813,9 +26813,9 @@ signed int mmc_get_leadin_text(struct burn_drive *d, unsigned char **text_packs,
   signed int alloc_len = 4;
   signed int ret;
   *num_packs = 0;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_get_leadin_text");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_get_leadin_text");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return -1;
 
   else
@@ -26855,17 +26855,17 @@ static signed int mmc_get_leadin_text_al(struct burn_drive *d, unsigned char **t
   signed int ret;
   signed int data_length;
   *text_packs = (unsigned char *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(c == ((struct command *)NULL))
       ret = -1;
 
@@ -26893,9 +26893,9 @@ static signed int mmc_get_leadin_text_al(struct burn_drive *d, unsigned char **t
         {
           if((1 & flag) == 0)
           {
-            void *return_value_burn_alloc_mem$3;
-            return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)(*alloc_len - 4), 0);
-            *text_packs = (unsigned char *)return_value_burn_alloc_mem$3;
+            void *return_value_burn_alloc_mem_3;
+            return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)(*alloc_len - 4), 0);
+            *text_packs = (unsigned char *)return_value_burn_alloc_mem_3;
             if(*text_packs == ((unsigned char *)NULL))
               ret = -1;
 
@@ -26945,28 +26945,28 @@ signed int mmc_get_media_product_id(struct burn_drive *d, char **product_id, cha
   prf = d->current_profile;
   if(prf == 0x09 || prf == 0x0A)
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)20, (unsigned long int)1);
-    *product_id = (char *)return_value_calloc$1;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)10, (unsigned long int)1);
-    *media_code1 = (char *)return_value_calloc$2;
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)10, (unsigned long int)1);
-    *media_code2 = (char *)return_value_calloc$3;
-    _Bool tmp_if_expr$4;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)20, (unsigned long int)1);
+    *product_id = (char *)return_value_calloc_1;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)10, (unsigned long int)1);
+    *media_code1 = (char *)return_value_calloc_2;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)10, (unsigned long int)1);
+    *media_code2 = (char *)return_value_calloc_3;
+    _Bool tmp_if_expr_4;
     if(*product_id == ((char *)NULL))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = *media_code1 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$5;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = *media_code1 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_5;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = *media_code2 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = *media_code2 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       ret = -1;
       goto ex;
@@ -26996,29 +26996,29 @@ signed int mmc_get_media_product_id(struct burn_drive *d, char **product_id, cha
       if(!(ret >= 1))
         goto ex;
 
-      _Bool tmp_if_expr$6;
+      _Bool tmp_if_expr_6;
       if(!((signed int)reply[16l] == 3))
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)reply[(signed long int)24] != 4 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (signed int)reply[(signed long int)24] != 4 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
         ret = 0;
         goto ex;
       }
 
-      void *return_value_calloc$7;
-      return_value_calloc$7=calloc((unsigned long int)19, (unsigned long int)1);
-      *media_code1 = (char *)return_value_calloc$7;
+      void *return_value_calloc_7;
+      return_value_calloc_7=calloc((unsigned long int)19, (unsigned long int)1);
+      *media_code1 = (char *)return_value_calloc_7;
       *media_code2=strdup("");
-      _Bool tmp_if_expr$8;
+      _Bool tmp_if_expr_8;
       if(*media_code1 == ((char *)NULL))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = *media_code2 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = *media_code2 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
       {
         ret = -1;
         goto ex;
@@ -27031,9 +27031,9 @@ signed int mmc_get_media_product_id(struct burn_drive *d, char **product_id, cha
       for( ; !(i >= 18); i = i + 1)
         if(!((*media_code1)[(signed long int)i] == 0))
         {
-          char *tmp_post$9 = wpt;
+          char *tmp_post_9 = wpt;
           wpt = wpt + 1l;
-          *tmp_post$9 = (*media_code1)[(signed long int)i];
+          *tmp_post_9 = (*media_code1)[(signed long int)i];
         }
 
       *wpt = (char)0;
@@ -27093,13 +27093,13 @@ signed int mmc_get_media_product_id(struct burn_drive *d, char **product_id, cha
           if(!(ret >= 1))
             goto ex;
 
-          _Bool tmp_if_expr$10;
+          _Bool tmp_if_expr_10;
           if(!((signed int)*reply == 68))
-            tmp_if_expr$10 = (_Bool)1;
+            tmp_if_expr_10 = (_Bool)1;
 
           else
-            tmp_if_expr$10 = (signed int)reply[(signed long int)1] != 73 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$10)
+            tmp_if_expr_10 = (signed int)reply[(signed long int)1] != 73 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_10)
           {
             ret = 0;
             goto ex;
@@ -27121,15 +27121,15 @@ signed int mmc_get_media_product_id(struct burn_drive *d, char **product_id, cha
 
   reply = (char *)(void *)0;
   ret=mmc_read_disc_structure(d, media_type, 0, 0x00, 1, &reply, &reply_len, 0);
-  unsigned long int return_value_strlen$11;
-  void *return_value_calloc$12;
+  unsigned long int return_value_strlen_11;
+  void *return_value_calloc_12;
   if(ret >= 1)
   {
     bt = (signed int)reply[(signed long int)0] >> 4 & 0xf;
     static char *books[16l] = { "DVD-ROM", "DVD-RAM", "DVD-R", "DVD-RW", "HD DVD-ROM", "HD DVD-RAM", "HD DVD-R", "unknown", "unknown", "DVD+RW", "DVD+R", "unknown", "unknown", "DVD+RW DLDVD+R DL", "unknown", ((char *)NULL) };
-    return_value_strlen$11=strlen(books[(signed long int)bt]);
-    return_value_calloc$12=calloc((unsigned long int)80 + return_value_strlen$11, (unsigned long int)1);
-    *book_type = (char *)return_value_calloc$12;
+    return_value_strlen_11=strlen(books[(signed long int)bt]);
+    return_value_calloc_12=calloc((unsigned long int)80 + return_value_strlen_11, (unsigned long int)1);
+    *book_type = (char *)return_value_calloc_12;
     if(*book_type == ((char *)NULL))
       ret = -1;
 
@@ -27205,9 +27205,9 @@ signed int mmc_get_nwa(struct burn_drive *d, signed int trackno, signed int *lba
     d->next_track_damaged = 0;
 
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_get_nwa");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_get_nwa");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     ret = -1;
 
   else
@@ -27224,9 +27224,9 @@ signed int mmc_get_nwa(struct burn_drive *d, signed int trackno, signed int *lba
 
     __CPROVER_DUMP_L3:
       ;
-      void *return_value_burn_alloc_mem$2;
-      return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-      buf = (struct buffer *)return_value_burn_alloc_mem$2;
+      void *return_value_burn_alloc_mem_2;
+      return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+      buf = (struct buffer *)return_value_burn_alloc_mem_2;
       if(buf == ((struct buffer *)NULL))
         ret = -1;
 
@@ -27253,9 +27253,9 @@ signed int mmc_get_nwa(struct burn_drive *d, signed int trackno, signed int *lba
           if(!((2 & fake_damage) == 0))
             data[(signed long int)7] = data[(signed long int)7] & (unsigned char)~1;
 
-          void *return_value_burn_alloc_mem$3;
-          return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-          msg = (char *)return_value_burn_alloc_mem$3;
+          void *return_value_burn_alloc_mem_3;
+          return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+          msg = (char *)return_value_burn_alloc_mem_3;
           if(msg == ((char *)NULL))
             ret = -1;
 
@@ -27266,25 +27266,25 @@ signed int mmc_get_nwa(struct burn_drive *d, signed int trackno, signed int *lba
 
             else
               sprintf(msg, "Upcomming track: ");
-            _Bool tmp_if_expr$4;
+            _Bool tmp_if_expr_4;
             if(d->current_profile == 0x1a)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = d->current_profile == 0x13 ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$5;
-            if(tmp_if_expr$4)
-              tmp_if_expr$5 = (_Bool)1;
+              tmp_if_expr_4 = d->current_profile == 0x13 ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_5;
+            if(tmp_if_expr_4)
+              tmp_if_expr_5 = (_Bool)1;
 
             else
-              tmp_if_expr$5 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$6;
-            if(tmp_if_expr$5)
-              tmp_if_expr$6 = (_Bool)1;
+              tmp_if_expr_5 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_6;
+            if(tmp_if_expr_5)
+              tmp_if_expr_6 = (_Bool)1;
 
             else
-              tmp_if_expr$6 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$6)
+              tmp_if_expr_6 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_6)
             {
               num = 0;
               *nwa = num;
@@ -27359,9 +27359,9 @@ signed int mmc_get_performance(struct burn_drive *d, signed int descr_type, sign
   signed int max_descr = 0;
   signed int ret;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_get_write_performance");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_get_write_performance");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
@@ -27388,17 +27388,17 @@ static signed int mmc_get_performance_al(struct burn_drive *d, signed int descr_
   signed int ret;
   struct buffer *buf = (struct buffer *)(void *)0;
   struct command *c = (struct command *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(c == ((struct command *)NULL))
       ret = -1;
 
@@ -27530,13 +27530,13 @@ signed int mmc_get_write_performance(struct burn_drive *d)
 static signed int mmc_guess_profile(struct burn_drive *d, signed int flag)
 {
   signed int cp = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)d->status == BURN_DISC_BLANK)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)d->status == BURN_DISC_APPENDABLE ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)d->status == BURN_DISC_APPENDABLE ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     cp = 0x09;
 
   else
@@ -27558,9 +27558,9 @@ static signed int mmc_guess_profile(struct burn_drive *d, signed int flag)
   {
     d->current_is_cd_profile = 1;
     d->current_is_supported_profile = 1;
-    char *return_value_mmc_obtain_profile_name$2;
-    return_value_mmc_obtain_profile_name$2=mmc_obtain_profile_name(cp);
-    strcpy(d->current_profile_text, return_value_mmc_obtain_profile_name$2);
+    char *return_value_mmc_obtain_profile_name_2;
+    return_value_mmc_obtain_profile_name_2=mmc_obtain_profile_name(cp);
+    strcpy(d->current_profile_text, return_value_mmc_obtain_profile_name_2);
     return 1;
   }
 }
@@ -27629,9 +27629,9 @@ void mmc_perform_opc(struct burn_drive *d)
 {
   struct command *c = &d->casual_command;
   mmc_start_if_needed(d, 0);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_perform_opc");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_perform_opc");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     scsi_init_command(c, MMC_SEND_OPC, (signed int)sizeof(unsigned char [10l]) /*10ul*/ );
     c->retry = 1;
@@ -27656,9 +27656,9 @@ signed int mmc_read_10(struct burn_drive *d, signed int start, signed int amount
   signed int silent;
   c = &d->casual_command;
   mmc_start_if_needed(d, 0);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_read_10");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_read_10");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return -1;
 
   else
@@ -27680,15 +27680,15 @@ signed int mmc_read_10(struct burn_drive *d, signed int start, signed int amount
       d->issue_command(d, c);
       if(!(c->error == 0))
       {
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, (unsigned long int)256);
-        msg = (char *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, (unsigned long int)256);
+        msg = (char *)return_value_calloc_2;
         if(!(msg == ((char *)NULL)))
         {
           sprintf(msg, "SCSI error on read_10(%d,%d): ", start, amount);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(msg);
-          scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen$3, &key, &asc, &ascq);
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(msg);
+          scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen_3, &key, &asc, &ascq);
           silent = (signed int)(d->silent_on_scsi_error == 1);
           if(asc == 0x64 && ascq == 0x0 && key == 5)
           {
@@ -27721,20 +27721,20 @@ void mmc_read_atip(struct burn_drive *d)
   struct command *c = (struct command *)(void *)0;
   signed int alloc_len = 28;
   unsigned char *data;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
-  signed int return_value_mmc_function_spy$3;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
+  signed int return_value_mmc_function_spy_3;
   if(!(buf == ((struct buffer *)NULL)))
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(!(c == ((struct command *)NULL)))
     {
       mmc_start_if_needed(d, 1);
-      return_value_mmc_function_spy$3=mmc_function_spy(d, "mmc_read_atip");
-      if(return_value_mmc_function_spy$3 >= 1)
+      return_value_mmc_function_spy_3=mmc_function_spy(d, "mmc_read_atip");
+      if(return_value_mmc_function_spy_3 >= 1)
       {
         scsi_init_command(c, MMC_GET_ATIP, (signed int)sizeof(unsigned char [10l]) /*10ul*/ );
         c->dxfer_len = alloc_len;
@@ -27813,25 +27813,25 @@ signed int mmc_read_buffer_capacity(struct burn_drive *d)
   unsigned char *data;
   signed int alloc_len = 12;
   signed int ret;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
-  signed int return_value_mmc_function_spy$3;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
+  signed int return_value_mmc_function_spy_3;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(c == ((struct command *)NULL))
       ret = -1;
 
     else
     {
-      return_value_mmc_function_spy$3=mmc_function_spy(d, "mmc_read_buffer_capacity");
-      if(!(return_value_mmc_function_spy$3 >= 1))
+      return_value_mmc_function_spy_3=mmc_function_spy(d, "mmc_read_buffer_capacity");
+      if(!(return_value_mmc_function_spy_3 >= 1))
         ret = 0;
 
       else
@@ -27897,18 +27897,18 @@ signed int mmc_read_capacity(struct burn_drive *d)
   struct command *c = (struct command *)(void *)0;
   signed int alloc_len = 8;
   signed int ret;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
-  signed int return_value_mmc_function_spy$3;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
+  signed int return_value_mmc_function_spy_3;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(c == ((struct command *)NULL))
       ret = -1;
 
@@ -27916,8 +27916,8 @@ signed int mmc_read_capacity(struct burn_drive *d)
     {
       d->media_read_capacity = 0x7fffffff;
       mmc_start_if_needed(d, 1);
-      return_value_mmc_function_spy$3=mmc_function_spy(d, "mmc_read_capacity");
-      if(!(return_value_mmc_function_spy$3 >= 1))
+      return_value_mmc_function_spy_3=mmc_function_spy(d, "mmc_read_capacity");
+      if(!(return_value_mmc_function_spy_3 >= 1))
         ret = 0;
 
       else
@@ -27966,9 +27966,9 @@ signed int mmc_read_cd(struct burn_drive *d, signed int start, signed int len, s
   signed int subcodes_data = 0;
   struct command *c = &d->casual_command;
   mmc_start_if_needed(d, 0);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_read_cd");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_read_cd");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return -1;
 
   else
@@ -28022,9 +28022,9 @@ signed int mmc_read_cd_msf(struct burn_drive *d, signed int start_m, signed int 
   signed int subcodes_data = 0;
   struct command *c = &d->casual_command;
   mmc_start_if_needed(d, 0);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_read_cd_msf");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_read_cd_msf");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return -1;
 
   else
@@ -28067,9 +28067,9 @@ void mmc_read_disc_info(struct burn_drive *d)
   signed int alloc_len = 34;
   signed int ret;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_read_disc_info");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_read_disc_info");
+  if(return_value_mmc_function_spy_1 >= 1)
     ret=mmc_read_disc_info_al(d, &alloc_len);
 
 }
@@ -28091,18 +28091,18 @@ static signed int mmc_read_disc_info_al(struct burn_drive *d, signed int *alloc_
   signed int key;
   signed int asc;
   signed int ascq;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
-  signed int return_value_mmc_four_char_to_int$3;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
+  signed int return_value_mmc_four_char_to_int_3;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(c == ((struct command *)NULL))
       ret = -1;
 
@@ -28172,8 +28172,8 @@ static signed int mmc_read_disc_info_al(struct burn_drive *d, signed int *alloc_
               d->erasable = (signed int)!(!(((signed int)data[(signed long int)2] & 16) != 0));
               d->disc_type = (signed int)data[(signed long int)8];
               d->disc_info_valid = 1;
-              return_value_mmc_four_char_to_int$3=mmc_four_char_to_int(data + (signed long int)12);
-              d->disc_id = (unsigned int)return_value_mmc_four_char_to_int$3;
+              return_value_mmc_four_char_to_int_3=mmc_four_char_to_int(data + (signed long int)12);
+              d->disc_id = (unsigned int)return_value_mmc_four_char_to_int_3;
               d->disc_info_valid = d->disc_info_valid | (signed int)!(!(((signed int)data[(signed long int)7] & 128) != 0)) << 1;
               if(2 + len >= 32)
               {
@@ -28205,13 +28205,13 @@ static signed int mmc_read_disc_info_al(struct burn_drive *d, signed int *alloc_
               disc_status = (signed int)data[(signed long int)2] & 3;
               d->state_of_last_session = (signed int)data[(signed long int)2] >> 2 & 3;
               number_of_sessions = (signed int)data[(signed long int)9] << 8 | (signed int)data[(signed long int)4];
-              _Bool tmp_if_expr$4;
+              _Bool tmp_if_expr_4;
               if(d->current_profile == 0x10)
-                tmp_if_expr$4 = (_Bool)1;
+                tmp_if_expr_4 = (_Bool)1;
 
               else
-                tmp_if_expr$4 = d->current_profile == 0x40 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$4)
+                tmp_if_expr_4 = d->current_profile == 0x40 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_4)
               {
                 disc_status = 2;
                 d->erasable = 0;
@@ -28223,19 +28223,19 @@ static signed int mmc_read_disc_info_al(struct burn_drive *d, signed int *alloc_
                 d->erasable = 0;
               }
 
-              _Bool tmp_if_expr$5;
+              _Bool tmp_if_expr_5;
               if(d->current_profile == 0x08)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
-                tmp_if_expr$5 = d->current_profile == 0x09 ? (_Bool)1 : (_Bool)0;
-              _Bool tmp_if_expr$6;
-              if(tmp_if_expr$5)
-                tmp_if_expr$6 = (_Bool)1;
+                tmp_if_expr_5 = d->current_profile == 0x09 ? (_Bool)1 : (_Bool)0;
+              _Bool tmp_if_expr_6;
+              if(tmp_if_expr_5)
+                tmp_if_expr_6 = (_Bool)1;
 
               else
-                tmp_if_expr$6 = d->current_profile == 0x0a ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$6)
+                tmp_if_expr_6 = d->current_profile == 0x0a ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_6)
               {
                 d->last_lead_in=burn_msf_to_lba((signed int)data[(signed long int)17], (signed int)data[(signed long int)18], (signed int)data[(signed long int)19]);
                 d->last_lead_out=burn_msf_to_lba((signed int)data[(signed long int)21], (signed int)data[(signed long int)22], (signed int)data[(signed long int)23]);
@@ -28282,25 +28282,25 @@ static signed int mmc_read_disc_info_al(struct burn_drive *d, signed int *alloc_
 
               }
 
-              _Bool tmp_if_expr$9;
+              _Bool tmp_if_expr_9;
               if(!(d->current_profile == 0))
-                tmp_if_expr$9 = (_Bool)1;
+                tmp_if_expr_9 = (_Bool)1;
 
               else
-                tmp_if_expr$9 = (signed int)d->status != BURN_DISC_UNREADY ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$9)
+                tmp_if_expr_9 = (signed int)d->status != BURN_DISC_UNREADY ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_9)
               {
-                _Bool tmp_if_expr$8;
+                _Bool tmp_if_expr_8;
                 if(d->silent_on_scsi_error == 1)
-                  tmp_if_expr$8 = (_Bool)1;
+                  tmp_if_expr_8 = (_Bool)1;
 
                 else
-                  tmp_if_expr$8 = d->silent_on_scsi_error == 2 ? (_Bool)1 : (_Bool)0;
-                if(!tmp_if_expr$8)
+                  tmp_if_expr_8 = d->silent_on_scsi_error == 2 ? (_Bool)1 : (_Bool)0;
+                if(!tmp_if_expr_8)
                 {
-                  void *return_value_calloc$7;
-                  return_value_calloc$7=calloc((unsigned long int)1, (unsigned long int)160);
-                  msg = (char *)return_value_calloc$7;
+                  void *return_value_calloc_7;
+                  return_value_calloc_7=calloc((unsigned long int)1, (unsigned long int)160);
+                  msg = (char *)return_value_calloc_7;
                   if(!(msg == ((char *)NULL)))
                   {
                     sprintf(msg, "Unsuitable media detected. Profile %4.4Xh  %s", d->current_profile, (const void *)d->current_profile_text);
@@ -28321,25 +28321,25 @@ static signed int mmc_read_disc_info_al(struct burn_drive *d, signed int *alloc_
                   d->num_opc_tables = (signed int)data[(signed long int)33];
 
                 d->bg_format_status = (signed int)data[(signed long int)7] & 3;
-                _Bool tmp_if_expr$10;
+                _Bool tmp_if_expr_10;
                 if(d->current_profile == 0x1a)
-                  tmp_if_expr$10 = (_Bool)1;
+                  tmp_if_expr_10 = (_Bool)1;
 
                 else
-                  tmp_if_expr$10 = d->current_profile == 0x13 ? (_Bool)1 : (_Bool)0;
-                _Bool tmp_if_expr$11;
-                if(tmp_if_expr$10)
-                  tmp_if_expr$11 = (_Bool)1;
+                  tmp_if_expr_10 = d->current_profile == 0x13 ? (_Bool)1 : (_Bool)0;
+                _Bool tmp_if_expr_11;
+                if(tmp_if_expr_10)
+                  tmp_if_expr_11 = (_Bool)1;
 
                 else
-                  tmp_if_expr$11 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
-                _Bool tmp_if_expr$12;
-                if(tmp_if_expr$11)
-                  tmp_if_expr$12 = (_Bool)1;
+                  tmp_if_expr_11 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
+                _Bool tmp_if_expr_12;
+                if(tmp_if_expr_11)
+                  tmp_if_expr_12 = (_Bool)1;
 
                 else
-                  tmp_if_expr$12 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$12)
+                  tmp_if_expr_12 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_12)
                   d->status = (enum burn_disc_status)BURN_DISC_BLANK;
 
                 d->incomplete_sessions = 0;
@@ -28409,9 +28409,9 @@ signed int mmc_read_disc_structure(struct burn_drive *d, signed int media_type, 
   signed int ret;
   char msg[80l];
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_read_disc_structure");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_read_disc_structure");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
@@ -28446,18 +28446,18 @@ static signed int mmc_read_disc_structure_al(struct burn_drive *d, signed int *a
   signed int ret;
   struct command *c = (struct command *)(void *)0;
   unsigned char *dpt;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
-  void *return_value_calloc$3;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
+  void *return_value_calloc_3;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(c == ((struct command *)NULL))
       ret = -1;
 
@@ -28509,8 +28509,8 @@ static signed int mmc_read_disc_structure_al(struct burn_drive *d, signed int *a
 
               else
               {
-                return_value_calloc$3=calloc((unsigned long int)(len - 2), (unsigned long int)1);
-                *reply = (char *)return_value_calloc$3;
+                return_value_calloc_3=calloc((unsigned long int)(len - 2), (unsigned long int)1);
+                *reply = (char *)return_value_calloc_3;
                 if(*reply == ((char *)NULL))
                   ret = 0;
 
@@ -28546,9 +28546,9 @@ signed int mmc_read_format_capacities(struct burn_drive *d, signed int top_wante
   signed int alloc_len = 4;
   signed int ret;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_read_format_capacities");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_read_format_capacities");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
@@ -28579,17 +28579,17 @@ static signed int mmc_read_format_capacities_al(struct burn_drive *d, signed int
   signed long int num_blocks;
   struct command *c = (struct command *)(void *)0;
   unsigned char *dpt;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(c == ((struct command *)NULL))
       ret = -1;
 
@@ -28643,13 +28643,13 @@ static signed int mmc_read_format_capacities_al(struct burn_drive *d, signed int
 
               d->format_curr_blsas = (unsigned int)(((signed int)dpt[(signed long int)5] << 16) + ((signed int)dpt[(signed long int)6] << 8) + (signed int)dpt[(signed long int)7]);
               d->format_curr_max_size = d->format_curr_max_size * (signed long int)2048;
-              _Bool tmp_if_expr$3;
+              _Bool tmp_if_expr_3;
               if(d->current_profile == 0x12)
-                tmp_if_expr$3 = (_Bool)1;
+                tmp_if_expr_3 = (_Bool)1;
 
               else
-                tmp_if_expr$3 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_3)
               {
                 if(d->media_capacity_remaining == 0l)
                 {
@@ -28667,9 +28667,9 @@ static signed int mmc_read_format_capacities_al(struct burn_drive *d, signed int
               if(!(i >= num_descr))
               {
                 dpt = c->page->data + (signed long int)12 + (signed long int)(8 * i);
-                signed int return_value_mmc_four_char_to_int$4;
-                return_value_mmc_four_char_to_int$4=mmc_four_char_to_int(dpt);
-                num_blocks = (signed long int)return_value_mmc_four_char_to_int$4;
+                signed int return_value_mmc_four_char_to_int_4;
+                return_value_mmc_four_char_to_int_4=mmc_four_char_to_int(dpt);
+                num_blocks = (signed long int)return_value_mmc_four_char_to_int_4;
                 size = num_blocks * (signed long int)2048;
                 type = (signed int)dpt[(signed long int)4] >> 2;
                 if(!(i >= 32))
@@ -28748,9 +28748,9 @@ void mmc_read_lead_in(struct burn_drive *d, struct buffer *buf)
 {
   struct command *c = &d->casual_command;
   mmc_start_if_needed(d, 0);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_read_lead_in");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_read_lead_in");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     scsi_init_command(c, MMC_READ_CD, (signed int)sizeof(unsigned char [12l]) /*12ul*/ );
     c->retry = 1;
@@ -28786,26 +28786,26 @@ signed int mmc_read_multi_session_c1(struct burn_drive *d, signed int *trackno, 
   struct burn_session **sessions;
   struct burn_track **tracks;
   struct burn_toc_entry toc_entry;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
-  signed int return_value_mmc_function_spy$3;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
+  signed int return_value_mmc_function_spy_3;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(c == ((struct command *)NULL))
       ret = -1;
 
     else
     {
       mmc_start_if_needed(d, 1);
-      return_value_mmc_function_spy$3=mmc_function_spy(d, "mmc_read_multi_session_c1");
-      if(!(return_value_mmc_function_spy$3 >= 1))
+      return_value_mmc_function_spy_3=mmc_function_spy(d, "mmc_read_multi_session_c1");
+      if(!(return_value_mmc_function_spy_3 >= 1))
         ret = 0;
 
       else
@@ -28891,9 +28891,9 @@ void mmc_read_toc(struct burn_drive *d)
   signed int alloc_len = 4;
   signed int ret;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_read_toc");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_read_toc");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     ret=mmc_read_toc_al(d, &alloc_len);
     if(alloc_len >= 15)
@@ -28918,43 +28918,43 @@ static signed int mmc_read_toc_al(struct burn_drive *d, signed int *alloc_len)
   signed int ret;
   unsigned char *tdata;
   char *msg = (char *)(void *)0;
-  void *return_value_calloc$8;
+  void *return_value_calloc_8;
   if(!(*alloc_len >= 4))
     ret = 0;
 
   else
   {
-    void *return_value_burn_alloc_mem$1;
-    return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$1;
+    void *return_value_burn_alloc_mem_1;
+    return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_1;
     if(buf == ((struct buffer *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$2;
-      return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-      c = (struct command *)return_value_burn_alloc_mem$2;
+      void *return_value_burn_alloc_mem_2;
+      return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+      c = (struct command *)return_value_burn_alloc_mem_2;
       if(c == ((struct command *)NULL))
         ret = -1;
 
       else
       {
-        void *return_value_burn_alloc_mem$3;
-        return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)321, 0);
-        msg = (char *)return_value_burn_alloc_mem$3;
+        void *return_value_burn_alloc_mem_3;
+        return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)321, 0);
+        msg = (char *)return_value_burn_alloc_mem_3;
         if(msg == ((char *)NULL))
           ret = -1;
 
         else
         {
-          _Bool tmp_if_expr$4;
+          _Bool tmp_if_expr_4;
           if(d->current_profile == -1)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = d->current_is_cd_profile != 0 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = d->current_is_cd_profile != 0 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_4)
           {
             mmc_fake_toc(d);
             if((signed int)d->status == BURN_DISC_UNREADY)
@@ -28965,19 +28965,19 @@ static signed int mmc_read_toc_al(struct burn_drive *d, signed int *alloc_len)
 
           else
           {
-            _Bool tmp_if_expr$5;
+            _Bool tmp_if_expr_5;
             if(d->mdata->p2a_valid >= 1)
-              tmp_if_expr$5 = d->mdata->cdrw_write != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_5 = d->mdata->cdrw_write != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$5 = (_Bool)0;
-            _Bool tmp_if_expr$6;
-            if(tmp_if_expr$5)
-              tmp_if_expr$6 = (_Bool)1;
+              tmp_if_expr_5 = (_Bool)0;
+            _Bool tmp_if_expr_6;
+            if(tmp_if_expr_5)
+              tmp_if_expr_6 = (_Bool)1;
 
             else
-              tmp_if_expr$6 = d->current_profile != 0x08 ? (_Bool)1 : (_Bool)0;
-            if(!tmp_if_expr$6)
+              tmp_if_expr_6 = d->current_profile != 0x08 ? (_Bool)1 : (_Bool)0;
+            if(!tmp_if_expr_6)
               ret=mmc_read_toc_fmt0(d);
 
             else
@@ -28997,9 +28997,9 @@ static signed int mmc_read_toc_al(struct burn_drive *d, signed int *alloc_len)
                 libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002010d, 0x10000000, 0x30000000, "Could not inquire TOC", 0, 0);
                 d->status = (enum burn_disc_status)BURN_DISC_UNSUITABLE;
                 d->toc_entries = 0;
-                void *return_value_calloc$7;
-                return_value_calloc$7=calloc((unsigned long int)1, sizeof(struct burn_toc_entry) /*32ul*/ );
-                d->toc_entry = (struct burn_toc_entry *)return_value_calloc$7;
+                void *return_value_calloc_7;
+                return_value_calloc_7=calloc((unsigned long int)1, sizeof(struct burn_toc_entry) /*32ul*/ );
+                d->toc_entry = (struct burn_toc_entry *)return_value_calloc_7;
                 ret = 0;
               }
 
@@ -29020,8 +29020,8 @@ static signed int mmc_read_toc_al(struct burn_drive *d, signed int *alloc_len)
 
                 else
                 {
-                  return_value_calloc$8=calloc((unsigned long int)(d->toc_entries + (signed int)(unsigned char)c->page->data[(signed long int)3]), sizeof(struct burn_toc_entry) /*32ul*/ );
-                  d->toc_entry = (struct burn_toc_entry *)return_value_calloc$8;
+                  return_value_calloc_8=calloc((unsigned long int)(d->toc_entries + (signed int)(unsigned char)c->page->data[(signed long int)3]), sizeof(struct burn_toc_entry) /*32ul*/ );
+                  d->toc_entry = (struct burn_toc_entry *)return_value_calloc_8;
                   if(d->toc_entry == ((struct burn_toc_entry *)NULL))
                     ret = 0;
 
@@ -29049,13 +29049,13 @@ static signed int mmc_read_toc_al(struct burn_drive *d, signed int *alloc_len)
                       i = 0;
                       if(!(i >= d->toc_entries))
                       {
-                        _Bool tmp_if_expr$9;
+                        _Bool tmp_if_expr_9;
                         if(!((signed int)*tdata >= 1))
-                          tmp_if_expr$9 = (_Bool)1;
+                          tmp_if_expr_9 = (_Bool)1;
 
                         else
-                          tmp_if_expr$9 = (signed int)tdata[(signed long int)0] > d->disc->sessions ? (_Bool)1 : (_Bool)0;
-                        if(tmp_if_expr$9)
+                          tmp_if_expr_9 = (signed int)tdata[(signed long int)0] > d->disc->sessions ? (_Bool)1 : (_Bool)0;
+                        if(tmp_if_expr_9)
                           tdata[(signed long int)0] = (unsigned char)d->disc->sessions;
 
                         if(!((signed int)tdata[3l] >= 100))
@@ -29106,17 +29106,17 @@ static signed int mmc_read_toc_al(struct burn_drive *d, signed int *alloc_len)
                         {
                           sprintf(msg, "Session %d of %d encountered without leadout", i + 1, d->disc->sessions);
                           libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020160, 0x50000000, 0x30000000, msg, 0, 0);
-                          _Bool tmp_if_expr$11;
+                          _Bool tmp_if_expr_11;
                           if(!(d->disc->session[(signed long int)i]->track == ((struct burn_track **)NULL)))
-                            tmp_if_expr$11 = d->disc->session[(signed long int)i]->tracks > 0 ? (_Bool)1 : (_Bool)0;
+                            tmp_if_expr_11 = d->disc->session[(signed long int)i]->tracks > 0 ? (_Bool)1 : (_Bool)0;
 
                           else
-                            tmp_if_expr$11 = (_Bool)0;
-                          if(tmp_if_expr$11)
+                            tmp_if_expr_11 = (_Bool)0;
+                          if(tmp_if_expr_11)
                           {
-                            signed int tmp_post$10 = d->toc_entries;
+                            signed int tmp_post_10 = d->toc_entries;
                             d->toc_entries = d->toc_entries + 1;
-                            t_idx = tmp_post$10;
+                            t_idx = tmp_post_10;
                             memcpy((void *)(d->toc_entry + (signed long int)t_idx), (const void *)d->disc->session[(signed long int)i]->track[(signed long int)(d->disc->session[(signed long int)i]->tracks - 1)]->entry, sizeof(struct burn_toc_entry) /*32ul*/ );
                             (d->toc_entry + (signed long int)t_idx)->point = (unsigned char)0xA2;
                             d->disc->session[(signed long int)i]->leadout_entry = d->toc_entry + (signed long int)t_idx;
@@ -29168,9 +29168,9 @@ static signed int mmc_read_toc_fmt0(struct burn_drive *d)
   signed int alloc_len = 4;
   signed int ret;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_read_toc_fmt0");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_read_toc_fmt0");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return -1;
 
   else
@@ -29204,23 +29204,23 @@ static signed int mmc_read_toc_fmt0_al(struct burn_drive *d, signed int *alloc_l
   unsigned char size_data[4l];
   unsigned char start_data[4l];
   unsigned char end_data[4l];
-  void *return_value_calloc$4;
+  void *return_value_calloc_4;
   if(!(*alloc_len >= 4))
     ret = 0;
 
   else
   {
-    void *return_value_burn_alloc_mem$1;
-    return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$1;
+    void *return_value_burn_alloc_mem_1;
+    return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_1;
     if(buf == ((struct buffer *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$2;
-      return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-      c = (struct command *)return_value_burn_alloc_mem$2;
+      void *return_value_burn_alloc_mem_2;
+      return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+      c = (struct command *)return_value_burn_alloc_mem_2;
       if(c == ((struct command *)NULL))
         ret = -1;
 
@@ -29244,9 +29244,9 @@ static signed int mmc_read_toc_fmt0_al(struct burn_drive *d, signed int *alloc_l
           libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002010d, 0x10000000, 0x30000000, "Could not inquire TOC", 0, 0);
           d->status = (enum burn_disc_status)BURN_DISC_UNSUITABLE;
           d->toc_entries = 0;
-          void *return_value_calloc$3;
-          return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct burn_toc_entry) /*32ul*/ );
-          d->toc_entry = (struct burn_toc_entry *)return_value_calloc$3;
+          void *return_value_calloc_3;
+          return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct burn_toc_entry) /*32ul*/ );
+          d->toc_entry = (struct burn_toc_entry *)return_value_calloc_3;
           ret = 0;
         }
 
@@ -29273,8 +29273,8 @@ static signed int mmc_read_toc_fmt0_al(struct burn_drive *d, signed int *alloc_l
 
           else
           {
-            return_value_calloc$4=calloc((unsigned long int)d->toc_entries, sizeof(struct burn_toc_entry) /*32ul*/ );
-            d->toc_entry = (struct burn_toc_entry *)return_value_calloc$4;
+            return_value_calloc_4=calloc((unsigned long int)d->toc_entries, sizeof(struct burn_toc_entry) /*32ul*/ );
+            d->toc_entry = (struct burn_toc_entry *)return_value_calloc_4;
             if(d->toc_entry == ((struct burn_toc_entry *)NULL))
               ret = 0;
 
@@ -29306,11 +29306,11 @@ static signed int mmc_read_toc_fmt0_al(struct burn_drive *d, signed int *alloc_l
                   if(prev_session >= 1 && !(session_number == prev_session))
                   {
                     entry = &d->toc_entry[(signed long int)((i - 1) + prev_session)];
-                    signed int return_value_mmc_four_char_to_int$5;
-                    return_value_mmc_four_char_to_int$5=mmc_four_char_to_int(start_data);
-                    signed int return_value_mmc_four_char_to_int$6;
-                    return_value_mmc_four_char_to_int$6=mmc_four_char_to_int(size_data);
-                    lba = return_value_mmc_four_char_to_int$5 + return_value_mmc_four_char_to_int$6;
+                    signed int return_value_mmc_four_char_to_int_5;
+                    return_value_mmc_four_char_to_int_5=mmc_four_char_to_int(start_data);
+                    signed int return_value_mmc_four_char_to_int_6;
+                    return_value_mmc_four_char_to_int_6=mmc_four_char_to_int(size_data);
+                    lba = return_value_mmc_four_char_to_int_5 + return_value_mmc_four_char_to_int_6;
                     mmc_int_to_four_char(start_data, lba);
                     mmc_int_to_four_char(size_data, 0);
                     mmc_int_to_four_char(end_data, lba - 1);
@@ -29331,14 +29331,14 @@ static signed int mmc_read_toc_fmt0_al(struct burn_drive *d, signed int *alloc_l
                   burn_track_free(track);
                   memcpy((void *)start_data, (const void *)(tdata + (signed long int)4), (unsigned long int)4);
                   memcpy((void *)size_data, (const void *)(tdata + (signed long int)8 + (signed long int)4), (unsigned long int)4);
-                  signed int return_value_mmc_four_char_to_int$7;
-                  return_value_mmc_four_char_to_int$7=mmc_four_char_to_int(size_data);
-                  mmc_int_to_four_char(end_data, return_value_mmc_four_char_to_int$7 - 1);
-                  signed int return_value_mmc_four_char_to_int$8;
-                  return_value_mmc_four_char_to_int$8=mmc_four_char_to_int(size_data);
-                  signed int return_value_mmc_four_char_to_int$9;
-                  return_value_mmc_four_char_to_int$9=mmc_four_char_to_int(start_data);
-                  size = return_value_mmc_four_char_to_int$8 - return_value_mmc_four_char_to_int$9;
+                  signed int return_value_mmc_four_char_to_int_7;
+                  return_value_mmc_four_char_to_int_7=mmc_four_char_to_int(size_data);
+                  mmc_int_to_four_char(end_data, return_value_mmc_four_char_to_int_7 - 1);
+                  signed int return_value_mmc_four_char_to_int_8;
+                  return_value_mmc_four_char_to_int_8=mmc_four_char_to_int(size_data);
+                  signed int return_value_mmc_four_char_to_int_9;
+                  return_value_mmc_four_char_to_int_9=mmc_four_char_to_int(start_data);
+                  size = return_value_mmc_four_char_to_int_8 - return_value_mmc_four_char_to_int_9;
                   mmc_int_to_four_char(size_data, size);
                   mmc_fake_toc_entry(entry, session_number, i + 1, size_data, start_data, end_data);
                   if(!(prev_session == session_number))
@@ -29357,9 +29357,9 @@ static signed int mmc_read_toc_fmt0_al(struct burn_drive *d, signed int *alloc_l
                     entry = &d->toc_entry[(signed long int)((d->last_track_no - 1) + prev_session)];
                     memcpy((void *)start_data, (const void *)(tdata + (signed long int)4), (unsigned long int)4);
                     mmc_int_to_four_char(size_data, 0);
-                    signed int return_value_mmc_four_char_to_int$10;
-                    return_value_mmc_four_char_to_int$10=mmc_four_char_to_int(start_data);
-                    mmc_int_to_four_char(end_data, return_value_mmc_four_char_to_int$10 - 1);
+                    signed int return_value_mmc_four_char_to_int_10;
+                    return_value_mmc_four_char_to_int_10=mmc_four_char_to_int(start_data);
+                    mmc_int_to_four_char(end_data, return_value_mmc_four_char_to_int_10 - 1);
                     mmc_fake_toc_entry(entry, prev_session, 0xA2, size_data, start_data, end_data);
                     entry->frame = (unsigned char)0;
                     entry->sec = entry->frame;
@@ -29395,9 +29395,9 @@ signed int mmc_read_track_info(struct burn_drive *d, signed int trackno, struct 
 {
   struct command *c = &d->casual_command;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_read_track_info");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_read_track_info");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
@@ -29410,66 +29410,66 @@ signed int mmc_read_track_info(struct burn_drive *d, signed int trackno, struct 
     c->opcode[(signed long int)1] = (unsigned char)1;
     if(!(trackno >= 1))
     {
-      _Bool tmp_if_expr$7;
+      _Bool tmp_if_expr_7;
       if(d->current_profile == 0x1a)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = d->current_profile == 0x13 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$8;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = d->current_profile == 0x13 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_8;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$9;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_9;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = d->current_profile == 0x42 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$10;
-      if(tmp_if_expr$9)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_9 = d->current_profile == 0x42 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_10;
+      if(tmp_if_expr_9)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$10)
+        tmp_if_expr_10 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_10)
         trackno = 1;
 
       else
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(d->current_profile == 0x10)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = d->current_profile == 0x11 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$3;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = d->current_profile == 0x11 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_3;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$4;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = d->current_profile == 0x14 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_4;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$5;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_4 = d->current_profile == 0x15 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_5;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = d->current_profile == 0x40 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$6;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_5 = d->current_profile == 0x40 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_6;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = d->current_profile == 0x41 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
           trackno = d->last_track_no;
 
         else
@@ -29499,9 +29499,9 @@ signed int mmc_reserve_track(struct burn_drive *d, signed long int size)
   char msg[80l];
   c = &d->casual_command;
   mmc_start_if_needed(d, 0);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_reserve_track");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_reserve_track");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
@@ -29536,16 +29536,16 @@ signed int mmc_send_cue_sheet(struct burn_drive *d, struct cue_sheet *s)
   struct buffer *buf = (struct buffer *)(void *)0;
   struct command *c = &d->casual_command;
   mmc_start_if_needed(d, 0);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_send_cue_sheet");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_send_cue_sheet");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_2;
     if(!(buf == ((struct buffer *)NULL)))
     {
       scsi_init_command(c, MMC_SEND_CUE_SHEET, (signed int)sizeof(unsigned char [10l]) /*10ul*/ );
@@ -29582,28 +29582,28 @@ signed int mmc_send_cue_sheet(struct burn_drive *d, struct cue_sheet *s)
 static signed int mmc_set_product_id(char *reply, signed int manuf_idx, signed int type_idx, signed int rev_idx, char **product_id, char **media_code1, char **media_code2, signed int flag)
 {
   signed int ret;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)17, (unsigned long int)1);
-  *product_id = (char *)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)9, (unsigned long int)1);
-  *media_code1 = (char *)return_value_calloc$2;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)8, (unsigned long int)1);
-  *media_code2 = (char *)return_value_calloc$3;
-  _Bool tmp_if_expr$4;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)17, (unsigned long int)1);
+  *product_id = (char *)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)9, (unsigned long int)1);
+  *media_code1 = (char *)return_value_calloc_2;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)8, (unsigned long int)1);
+  *media_code2 = (char *)return_value_calloc_3;
+  _Bool tmp_if_expr_4;
   if(*product_id == ((char *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = *media_code1 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = *media_code1 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = *media_code2 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = *media_code2 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
     return -1;
 
   else
@@ -29628,9 +29628,9 @@ static signed int mmc_set_product_id(char *reply, signed int manuf_idx, signed i
       {
         if((1 & flag) == 0)
         {
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(*media_code2);
-          sprintf((*media_code2 + (signed long int)return_value_strlen$6) - (signed long int)4, "/%d", (signed int)((unsigned char *)reply)[(signed long int)rev_idx]);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(*media_code2);
+          sprintf((*media_code2 + (signed long int)return_value_strlen_6) - (signed long int)4, "/%d", (signed int)((unsigned char *)reply)[(signed long int)rev_idx]);
         }
 
         sprintf(*product_id, "%s/%s", *media_code1, *media_code2);
@@ -29652,10 +29652,10 @@ void mmc_set_speed(struct burn_drive *d, signed int r, signed int w)
   struct burn_speed_descriptor *best_sd = (struct burn_speed_descriptor *)(void *)0;
   c = &d->casual_command;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_set_speed");
-  char *return_value_strstr$5;
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_set_speed");
+  char *return_value_strstr_5;
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     if(!(r >= 1) || !(w >= 1))
     {
@@ -29681,13 +29681,13 @@ void mmc_set_speed(struct burn_drive *d, signed int r, signed int w)
 
           else
           {
-            _Bool tmp_if_expr$2;
+            _Bool tmp_if_expr_2;
             if(d->current_profile >= 0x10)
-              tmp_if_expr$2 = d->current_profile <= 0x2f ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = d->current_profile <= 0x2f ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(tmp_if_expr_2)
             {
               if(!(r >= 24))
                 r = 24 * 1385;
@@ -29721,13 +29721,13 @@ void mmc_set_speed(struct burn_drive *d, signed int r, signed int w)
 
             else
             {
-              _Bool tmp_if_expr$3;
+              _Bool tmp_if_expr_3;
               if(d->current_profile >= 0x10)
-                tmp_if_expr$3 = d->current_profile <= 0x2f ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_3 = d->current_profile <= 0x2f ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = (_Bool)0;
+              if(tmp_if_expr_3)
               {
                 if(r >= 1386)
                   r = 1 * 1385;
@@ -29768,18 +29768,18 @@ void mmc_set_speed(struct burn_drive *d, signed int r, signed int w)
     }
 
     d->nominal_write_speed = w;
-    char *return_value_strstr$4;
-    return_value_strstr$4=strstr(d->current_profile_text, "DVD");
-    _Bool tmp_if_expr$6;
-    if(return_value_strstr$4 == d->current_profile_text)
-      tmp_if_expr$6 = (_Bool)1;
+    char *return_value_strstr_4;
+    return_value_strstr_4=strstr(d->current_profile_text, "DVD");
+    _Bool tmp_if_expr_6;
+    if(return_value_strstr_4 == d->current_profile_text)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strstr$5=strstr(d->current_profile_text, "BD");
-      tmp_if_expr$6 = return_value_strstr$5 == d->current_profile_text ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_5=strstr(d->current_profile_text, "BD");
+      tmp_if_expr_6 = return_value_strstr_5 == d->current_profile_text ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       ret=mmc_set_streaming(d, r, w, end_lba);
       if(ret == 0)
@@ -29834,34 +29834,34 @@ signed int mmc_set_streaming(struct burn_drive *d, signed int r_speed, signed in
   signed int key;
   signed int asc;
   signed int ascq;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
-  signed int return_value_mmc_function_spy$4;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
+  signed int return_value_mmc_function_spy_4;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(c == ((struct command *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)256, 0);
-      msg = (char *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)256, 0);
+      msg = (char *)return_value_burn_alloc_mem_3;
       if(msg == ((char *)NULL))
         ret = -1;
 
       else
       {
         mmc_start_if_needed(d, 1);
-        return_value_mmc_function_spy$4=mmc_function_spy(d, "mmc_set_streaming");
-        if(!(return_value_mmc_function_spy$4 >= 1))
+        return_value_mmc_function_spy_4=mmc_function_spy(d, "mmc_set_streaming");
+        if(!(return_value_mmc_function_spy_4 >= 1))
           ret = 0;
 
         else
@@ -29923,9 +29923,9 @@ signed int mmc_set_streaming(struct burn_drive *d, signed int r_speed, signed in
                 if(!(d->silent_on_scsi_error == 2))
                 {
                   sprintf(msg, "SCSI error on set_streaming(%d): ", w_speed);
-                  unsigned long int return_value_strlen$5;
-                  return_value_strlen$5=strlen(msg);
-                  scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen$5, &key, &asc, &ascq);
+                  unsigned long int return_value_strlen_5;
+                  return_value_strlen_5=strlen(msg);
+                  scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen_5, &key, &asc, &ascq);
                   libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020124, d->silent_on_scsi_error == 3 ? 0x10000000 : 0x60000000, 0x30000000, msg, 0, 0);
                 }
 
@@ -30062,19 +30062,19 @@ void mmc_sync_cache(struct burn_drive *d)
   signed int key;
   signed int asc;
   signed int ascq;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_sync_cache");
-  signed int return_value_spc_wait_unit_attention$6;
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_sync_cache");
+  signed int return_value_spc_wait_unit_attention_6;
+  if(return_value_mmc_function_spy_1 >= 1)
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-    c = (struct command *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+    c = (struct command *)return_value_burn_alloc_mem_2;
     if(!(c == ((struct command *)NULL)))
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)256, 0);
-      msg = (char *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)256, 0);
+      msg = (char *)return_value_burn_alloc_mem_3;
       if(!(msg == ((char *)NULL)))
       {
         scsi_init_command(c, MMC_SYNC_CACHE, (signed int)sizeof(unsigned char [10l]) /*10ul*/ );
@@ -30094,18 +30094,18 @@ void mmc_sync_cache(struct burn_drive *d)
         if(!(c->error == 0))
         {
           sprintf(msg, "Failed to synchronize drive cache");
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(msg);
-          sprintf(msg + (signed long int)return_value_strlen$4, ". SCSI error : ");
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(msg);
-          scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen$5, &key, &asc, &ascq);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(msg);
+          sprintf(msg + (signed long int)return_value_strlen_4, ". SCSI error : ");
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(msg);
+          scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen_5, &key, &asc, &ascq);
           libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002017f, 0x68000000, 0x30000000, msg, 0, 0);
           d->cancel = 1;
         }
 
-        return_value_spc_wait_unit_attention$6=spc_wait_unit_attention(d, 3600, "SYNCHRONIZE CACHE", 0);
-        if(!(return_value_spc_wait_unit_attention$6 >= 1))
+        return_value_spc_wait_unit_attention_6=spc_wait_unit_attention(d, 3600, "SYNCHRONIZE CACHE", 0);
+        if(!(return_value_spc_wait_unit_attention_6 >= 1))
           d->cancel = 1;
 
         else
@@ -30142,19 +30142,19 @@ static signed int mmc_wait_for_buffer_free(struct burn_drive *d, struct buffer *
   double min_fac;
   double waiting;
   max_fac = (double)d->wfb_max_percent / 100.0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(d->progress.buffered_bytes >= 1l))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = d->progress.buffer_capacity <= (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = d->progress.buffer_capacity <= (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (double)(d->progress.buffered_bytes + (signed long int)buf->bytes) <= (double)d->progress.buffer_capacity * max_fac ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (double)(d->progress.buffered_bytes + (signed long int)buf->bytes) <= (double)d->progress.buffer_capacity * max_fac ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 2;
 
   else
@@ -30168,13 +30168,13 @@ static signed int mmc_wait_for_buffer_free(struct burn_drive *d, struct buffer *
       gettimeofday(&t0, &dummy_tz);
       for( ; (_Bool)1; first_wait = 0)
       {
-        _Bool tmp_if_expr$3;
+        _Bool tmp_if_expr_3;
         if(first_wait == 0)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = d->pbf_altered != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = d->pbf_altered != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
         {
           d->pbf_altered = 1;
           mmc_read_buffer_capacity(d);
@@ -30238,14 +30238,14 @@ signed int mmc_write(struct burn_drive *d, signed int start, struct buffer *buf)
   struct command *c;
   signed int len;
   signed int key;
-  signed int mmc_write$$1$$asc;
-  signed int mmc_write$$1$$ascq;
+  signed int mmc_write__1__asc;
+  signed int mmc_write__1__ascq;
   char *msg = (char *)(void *)0;
   c = &d->casual_command;
   mmc_start_if_needed(d, 0);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_write");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_write");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 1;
 
   else
@@ -30260,9 +30260,9 @@ signed int mmc_write(struct burn_drive *d, signed int start, struct buffer *buf)
       {
         if(start >= d->media_lba_limit)
         {
-          void *return_value_calloc$2;
-          return_value_calloc$2=calloc((unsigned long int)1, (unsigned long int)160);
-          msg = (char *)return_value_calloc$2;
+          void *return_value_calloc_2;
+          return_value_calloc_2=calloc((unsigned long int)1, (unsigned long int)160);
+          msg = (char *)return_value_calloc_2;
           if(!(msg == ((char *)NULL)))
           {
             sprintf(msg, "Exceeding range of permissible write addresses (%d >= %d)", start, d->media_lba_limit);
@@ -30280,13 +30280,13 @@ signed int mmc_write(struct burn_drive *d, signed int start, struct buffer *buf)
       if(!(d->wait_for_buffer_free == 0))
         mmc_wait_for_buffer_free(d, buf);
 
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(d->do_stream_recording >= 1)
-        tmp_if_expr$3 = start >= d->stream_recording_start ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = start >= d->stream_recording_start ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
         scsi_init_command(c, MMC_WRITE_12, (signed int)sizeof(unsigned char [12l]) /*12ul*/ );
         mmc_int_to_four_char(c->opcode + (signed long int)2, start);
@@ -30309,39 +30309,39 @@ signed int mmc_write(struct burn_drive *d, signed int start, struct buffer *buf)
       d->issue_command(d, c);
       d->pessimistic_buffer_free = d->pessimistic_buffer_free - (signed long int)buf->bytes;
       d->pbf_altered = 1;
-      spc_decode_sense(c->sense, 0, &key, &mmc_write$$1$$asc, &mmc_write$$1$$ascq);
+      spc_decode_sense(c->sense, 0, &key, &mmc_write__1__asc, &mmc_write__1__ascq);
       if(!(c->error == 0))
       {
         if(!(key == 0))
         {
-          signed int mmc_write$$1$$4$$key;
+          signed int mmc_write__1__4__key;
           signed int asc;
           signed int ascq;
           signed int err_sev = 0x70000000;
-          void *return_value_calloc$4;
-          return_value_calloc$4=calloc((unsigned long int)1, (unsigned long int)256);
-          msg = (char *)return_value_calloc$4;
+          void *return_value_calloc_4;
+          return_value_calloc_4=calloc((unsigned long int)1, (unsigned long int)256);
+          msg = (char *)return_value_calloc_4;
           if(!(msg == ((char *)NULL)))
           {
             sprintf(msg, "SCSI error on write(%d,%d): ", start, len);
-            unsigned long int return_value_strlen$5;
-            return_value_strlen$5=strlen(msg);
-            scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen$5, &mmc_write$$1$$4$$key, &asc, &ascq);
+            unsigned long int return_value_strlen_5;
+            return_value_strlen_5=strlen(msg);
+            scsi_error_msg(d, c->sense, 14, msg + (signed long int)return_value_strlen_5, &mmc_write__1__4__key, &asc, &ascq);
           }
 
           if(d->current_profile == 0x14)
           {
             if(!(d->write_opts == ((struct burn_write_opts *)NULL)))
             {
-              _Bool tmp_if_expr$6;
+              _Bool tmp_if_expr_6;
               if(d->progress.buffer_capacity == 0u)
-                tmp_if_expr$6 = (_Bool)1;
+                tmp_if_expr_6 = (_Bool)1;
 
               else
-                tmp_if_expr$6 = start < (signed int)d->progress.buffer_capacity / 2048 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$6)
+                tmp_if_expr_6 = start < (signed int)d->progress.buffer_capacity / 2048 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_6)
               {
-                if(mmc_write$$1$$4$$key == 5)
+                if(mmc_write__1__4__key == 5)
                 {
                   if(asc == 0x64)
                   {
@@ -30392,9 +30392,9 @@ void mmc_write_12(struct burn_drive *d, signed int start, struct buffer *buf)
   signed int len;
   c = &d->casual_command;
   mmc_start_if_needed(d, 0);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "mmc_write_12");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "mmc_write_12");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     len = buf->sectors;
     scsi_init_command(c, MMC_WRITE_12, (signed int)sizeof(unsigned char [12l]) /*12ul*/ );
@@ -30439,9 +30439,9 @@ static signed int new_burn_speed_descr(struct burn_drive *d, signed int sd_sourc
 static signed int new_cue(struct cue_sheet *sheet, signed int number, signed int flag)
 {
   unsigned char *ptr;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)sheet->data, (unsigned long int)((sheet->count + number) * 8));
-  ptr = (unsigned char *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)sheet->data, (unsigned long int)((sheet->count + number) * 8));
+  ptr = (unsigned char *)return_value_realloc_1;
   if(ptr == ((unsigned char *)NULL))
   {
     libdax_msgs_submit(libdax_messenger, -1, 0x00020111, 0x70000000, 0x30000000, "Could not allocate new auxiliary object (cue_sheet->data)", 0, 0);
@@ -30509,20 +30509,20 @@ static void offst_free(struct burn_source *source)
 {
   struct burn_source_offst *fs;
   fs=offst_auth(source, 0);
-  struct burn_source_offst *return_value_offst_auth$1;
-  struct burn_source_offst *return_value_offst_auth$2;
+  struct burn_source_offst *return_value_offst_auth_1;
+  struct burn_source_offst *return_value_offst_auth_2;
   if(!(fs == ((struct burn_source_offst *)NULL)))
   {
     if(!(fs->prev == ((struct burn_source *)NULL)))
     {
-      return_value_offst_auth$1=offst_auth(fs->prev, 1);
-      return_value_offst_auth$1->next = fs->next;
+      return_value_offst_auth_1=offst_auth(fs->prev, 1);
+      return_value_offst_auth_1->next = fs->next;
     }
 
     if(!(fs->next == ((struct burn_source *)NULL)))
     {
-      return_value_offst_auth$2=offst_auth(fs->next, 1);
-      return_value_offst_auth$2->prev = fs->prev;
+      return_value_offst_auth_2=offst_auth(fs->next, 1);
+      return_value_offst_auth_2->prev = fs->prev;
     }
 
     if(!(fs->inp == ((struct burn_source *)NULL)))
@@ -30555,7 +30555,7 @@ static signed int offst_read(struct burn_source *source, unsigned char *buffer, 
   signed int todo;
   struct burn_source_offst *fs;
   fs=offst_auth(source, 0);
-  struct burn_source_offst *return_value_offst_auth$1;
+  struct burn_source_offst *return_value_offst_auth_1;
   if(fs == ((struct burn_source_offst *)NULL))
     return -1;
 
@@ -30565,8 +30565,8 @@ static signed int offst_read(struct burn_source *source, unsigned char *buffer, 
     {
       if(!(fs->prev == ((struct burn_source *)NULL)))
       {
-        return_value_offst_auth$1=offst_auth(fs->prev, 1);
-        fs->pos = return_value_offst_auth$1->pos;
+        return_value_offst_auth_1=offst_auth(fs->prev, 1);
+        fs->pos = return_value_offst_auth_1->pos;
       }
 
       fs->running = 1;
@@ -30615,13 +30615,13 @@ static signed int offst_set_size(struct burn_source *source, signed long int siz
   else
   {
     fs->nominal_size = (signed int)size;
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(fs->size >= 1l))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = fs->size_adjustable != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = fs->size_adjustable != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       fs->size = size;
 
     return 1;
@@ -30779,22 +30779,22 @@ static signed int proc_sys_dev_cdrom_info(char ***list, signed int *count, signe
   signed int i;
   signed int line_size = 1024;
   signed int ret;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)line_size, 0);
-  line = (char *)return_value_burn_alloc_mem$1;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)line_size, 0);
+  line = (char *)return_value_burn_alloc_mem_1;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
   if(line == ((char *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(line_size + 5), 0);
-    fname = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(line_size + 5), 0);
+    fname = (char *)return_value_burn_alloc_mem_2;
     if(fname == ((char *)NULL))
       ret = -1;
 
@@ -30834,9 +30834,9 @@ static signed int proc_sys_dev_cdrom_info(char ***list, signed int *count, signe
               if(retpt == ((char *)NULL))
                 break;
 
-              signed int return_value_strncmp$3;
-              return_value_strncmp$3=strncmp(line, "drive name:", (unsigned long int)11);
-              if(return_value_strncmp$3 == 0)
+              signed int return_value_strncmp_3;
+              return_value_strncmp_3=strncmp(line, "drive name:", (unsigned long int)11);
+              if(return_value_strncmp_3 == 0)
                 break;
 
             }
@@ -30857,32 +30857,32 @@ static signed int proc_sys_dev_cdrom_info(char ***list, signed int *count, signe
                   do
                   {
                     if((signed int)*cpt == 32)
-                      tmp_if_expr$4 = (_Bool)1;
+                      tmp_if_expr_4 = (_Bool)1;
 
                     else
-                      tmp_if_expr$4 = (signed int)*cpt == 9 ? (_Bool)1 : (_Bool)0;
-                    if(!tmp_if_expr$4)
+                      tmp_if_expr_4 = (signed int)*cpt == 9 ? (_Bool)1 : (_Bool)0;
+                    if(!tmp_if_expr_4)
                       break;
 
                     cpt = cpt + 1l;
                   }
                   while((_Bool)1);
-                  _Bool tmp_if_expr$5;
+                  _Bool tmp_if_expr_5;
                   if((signed int)*cpt == 0)
-                    tmp_if_expr$5 = (_Bool)1;
+                    tmp_if_expr_5 = (_Bool)1;
 
                   else
-                    tmp_if_expr$5 = (signed int)*cpt == 10 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$5)
+                    tmp_if_expr_5 = (signed int)*cpt == 10 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_5)
                     break;
 
                   __isoc99_sscanf(cpt, "%s", fname + (signed long int)5);
-                  unsigned long int return_value_strlen$7;
-                  return_value_strlen$7=strlen(fname);
-                  if(!(maxl >= (signed int)return_value_strlen$7))
+                  unsigned long int return_value_strlen_7;
+                  return_value_strlen_7=strlen(fname);
+                  if(!(maxl >= (signed int)return_value_strlen_7))
                   {
-                    return_value_strlen$6=strlen(fname);
-                    maxl = (signed int)return_value_strlen$6;
+                    return_value_strlen_6=strlen(fname);
+                    maxl = (signed int)return_value_strlen_6;
                   }
 
                   if(pass == 1)
@@ -30893,21 +30893,21 @@ static signed int proc_sys_dev_cdrom_info(char ***list, signed int *count, signe
                   do
                   {
                     if(!((signed int)*cpt == 32))
-                      tmp_if_expr$8 = (signed int)*cpt != 9 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_8 = (signed int)*cpt != 9 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$8 = (_Bool)0;
-                    if(tmp_if_expr$8)
-                      tmp_if_expr$9 = (signed int)*cpt != 0 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_8 = (_Bool)0;
+                    if(tmp_if_expr_8)
+                      tmp_if_expr_9 = (signed int)*cpt != 0 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$9 = (_Bool)0;
-                    if(tmp_if_expr$9)
-                      tmp_if_expr$10 = (signed int)*cpt != 10 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_9 = (_Bool)0;
+                    if(tmp_if_expr_9)
+                      tmp_if_expr_10 = (signed int)*cpt != 10 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$10 = (_Bool)0;
-                    if(!tmp_if_expr$10)
+                      tmp_if_expr_10 = (_Bool)0;
+                    if(!tmp_if_expr_10)
                       break;
 
                     cpt = cpt + 1l;
@@ -30916,19 +30916,19 @@ static signed int proc_sys_dev_cdrom_info(char ***list, signed int *count, signe
                 }
                 if(pass == 0)
                 {
-                  void *return_value_calloc$11;
-                  return_value_calloc$11=calloc((unsigned long int)(*count + 1), (unsigned long int)(maxl + 1));
-                  list_data = (char *)return_value_calloc$11;
-                  void *return_value_calloc$12;
-                  return_value_calloc$12=calloc((unsigned long int)(*count + 1), sizeof(char *) /*8ul*/ );
-                  *list = (char **)return_value_calloc$12;
-                  _Bool tmp_if_expr$13;
+                  void *return_value_calloc_11;
+                  return_value_calloc_11=calloc((unsigned long int)(*count + 1), (unsigned long int)(maxl + 1));
+                  list_data = (char *)return_value_calloc_11;
+                  void *return_value_calloc_12;
+                  return_value_calloc_12=calloc((unsigned long int)(*count + 1), sizeof(char *) /*8ul*/ );
+                  *list = (char **)return_value_calloc_12;
+                  _Bool tmp_if_expr_13;
                   if(list_data == ((char *)NULL))
-                    tmp_if_expr$13 = (_Bool)1;
+                    tmp_if_expr_13 = (_Bool)1;
 
                   else
-                    tmp_if_expr$13 = *list == (char **)(void *)0 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$13)
+                    tmp_if_expr_13 = *list == (char **)(void *)0 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_13)
                   {
                     libdax_msgs_submit(libdax_messenger, -1, 0x00000003, 0x70000000, 0x30000000, "Out of virtual memory", 0, 0);
                     if(!(list_data == ((char *)NULL)))
@@ -30987,9 +30987,9 @@ static signed int read_full_buffer(signed int fd, unsigned char *buffer, signed 
   signed int summed_ret = 0;
   while((_Bool)1)
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)(buffer + (signed long int)summed_ret), (unsigned long int)(size - summed_ret));
-    ret = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)(buffer + (signed long int)summed_ret), (unsigned long int)(size - summed_ret));
+    ret = (signed int)return_value_read_1;
     if(!(ret >= 1))
       break;
 
@@ -31341,9 +31341,9 @@ unsigned int rfl8(unsigned int acc)
 void sbc_eject(struct burn_drive *d)
 {
   struct command *c = &d->casual_command;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "eject");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "eject");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     scsi_init_command(c, SBC_UNLOAD, (signed int)sizeof(unsigned char [6l]) /*6ul*/ );
     c->page = (struct buffer *)(void *)0;
@@ -31358,9 +31358,9 @@ void sbc_eject(struct burn_drive *d)
 void sbc_load(struct burn_drive *d)
 {
   struct command *c = &d->casual_command;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "load");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "load");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     scsi_init_command(c, SBC_LOAD, (signed int)sizeof(unsigned char [6l]) /*6ul*/ );
     c->retry = 1;
@@ -31410,9 +31410,9 @@ signed int sbc_start_unit_flag(struct burn_drive *d, signed int flag)
   struct command *c;
   signed int ret;
   c = &d->casual_command;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "start_unit");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "start_unit");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
@@ -31444,9 +31444,9 @@ signed int sbc_stop_unit(struct burn_drive *d)
   struct command *c;
   signed int ret;
   c = &d->casual_command;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "stop_unit");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "stop_unit");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
@@ -31589,9 +31589,9 @@ enum response scsi_error(struct burn_drive *d, unsigned char *sense, signed int 
   signed int ret = 0;
   char *msg = (char *)(void *)0;
   enum response resp;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -31627,9 +31627,9 @@ enum response scsi_error_msg(struct burn_drive *d, unsigned char *sense, signed 
   }
 
   sprintf(msg, "[%X %2.2X %2.2X] ", *key, *asc, *ascq);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(msg);
-  msg = msg + (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(msg);
+  msg = msg + (signed long int)return_value_strlen_1;
   static char key_def[16l][40l] = { { '(', 'n', 'o', ' ', 's', 'p', 'e', 'c', 'i', 'f', 'i', 'c', ' ', 'e', 'r', 'r', 'o', 'r', ')', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     { 'R', 'e', 'c', 'o', 'v', 'e', 'r', 'e', 'd', ' ', 'e', 'r', 'r', 'o', 'r', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     { 'D', 'r', 'i', 'v', 'e', ' ', 'n', 'o', 't', ' ', 'r', 'e', 'a', 'd', 'y', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -31649,22 +31649,22 @@ enum response scsi_error_msg(struct burn_drive *d, unsigned char *sense, signed 
   if(!((signed int)key_def[(signed long int)(0xf & *key)][0l] == 40))
   {
     sprintf(msg, "%s. ", (const void *)key_def[(signed long int)(*key & 0xf)]);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(msg);
-    msg = msg + (signed long int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(msg);
+    msg = msg + (signed long int)return_value_strlen_2;
   }
 
   switch(*asc)
   {
     case 0x00:
     {
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(*key >= 1)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = *ascq > 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = *ascq > 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         goto __CPROVER_DUMP_L147;
 
       sprintf(msg, "(No error reported by SCSI transaction)");
@@ -32197,21 +32197,21 @@ signed int scsi_eval_cmd_outcome(struct burn_drive *d, struct command *c, void *
   else
   {
     outcome=scsi_error(d, sense, sense_len);
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if((signed int)outcome == RETRY)
-      tmp_if_expr$4 = c->retry != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = c->retry != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if((1 & flag) == 0 && tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if((1 & flag) == 0 && tmp_if_expr_4)
     {
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if((signed int)c->opcode[0l] == 0x2A)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)c->opcode[(signed long int)0] == 0xAA ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)c->opcode[(signed long int)0] == 0xAA ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         usleep_time = 0 + loop_count * 2000;
         if(usleep_time >= 25001)
@@ -32226,14 +32226,14 @@ signed int scsi_eval_cmd_outcome(struct burn_drive *d, struct command *c, void *
           usleep_time = 500000;
 
       }
-      signed long int return_value_time$3;
-      return_value_time$3=time((signed long int *)(void *)0);
-      if(!((signed long int)(timeout_ms / 1000 + 1) >= return_value_time$3 + (signed long int)(usleep_time / 1000000) + -start_time))
+      signed long int return_value_time_3;
+      return_value_time_3=time((signed long int *)(void *)0);
+      if(!((signed long int)(timeout_ms / 1000 + 1) >= return_value_time_3 + (signed long int)(usleep_time / 1000000) + -start_time))
       {
         done = -1;
-        void *return_value_burn_alloc_mem$2;
-        return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)320, 0);
-        msg = (char *)return_value_burn_alloc_mem$2;
+        void *return_value_burn_alloc_mem_2;
+        return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)320, 0);
+        msg = (char *)return_value_burn_alloc_mem_2;
         if(msg == ((char *)NULL))
           goto ex;
 
@@ -32405,19 +32405,19 @@ signed int scsi_log_reply(unsigned char *opcode, signed int data_dir, unsigned c
   signed int ascq;
   signed int i;
   signed int l;
-  double return_value_burn_get_time$2;
+  double return_value_burn_get_time_2;
   if(!(fp == ((struct _IO_FILE *)NULL)) && (fp == stderr || !((1 & burn_sg_log_scsi) == 0)))
   {
     if(!((1 & flag) == 0))
     {
       l = 18;
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if((0x7f & (signed int)*sense) == 0x72)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = ((signed int)sense[(signed long int)0] & 0x7f) == 0x73 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = ((signed int)sense[(signed long int)0] & 0x7f) == 0x73 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         l = (signed int)sense[(signed long int)7] + 7 + 1;
 
       if(!(sense_len >= l))
@@ -32436,8 +32436,8 @@ signed int scsi_log_reply(unsigned char *opcode, signed int data_dir, unsigned c
       scsi_show_command_reply(opcode, data_dir, data, dxfer_len, (void *)fp, 0);
     if((2 & flag) == 0)
     {
-      return_value_burn_get_time$2=burn_get_time(0);
-      fprintf(fp, " %8.f us     [ %.f ]\n", duration * 1.0e6, (return_value_burn_get_time$2 - lib_start_time) * 1.0e6);
+      return_value_burn_get_time_2=burn_get_time(0);
+      fprintf(fp, " %8.f us     [ %.f ]\n", duration * 1.0e6, (return_value_burn_get_time_2 - lib_start_time) * 1.0e6);
     }
 
     if(!((4 & burn_sg_log_scsi) == 0))
@@ -32488,29 +32488,29 @@ signed int scsi_notify_error(struct burn_drive *d, struct command *c, unsigned c
   signed int ret;
   char *msg = (char *)(void *)0;
   char *scsi_msg = (char *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(d->silent_on_scsi_error == 1)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = d->silent_on_scsi_error == 2 ? (_Bool)1 : (_Bool)0;
-  char *return_value_scsi_command_name$4;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = d->silent_on_scsi_error == 2 ? (_Bool)1 : (_Bool)0;
+  char *return_value_scsi_command_name_4;
+  if(tmp_if_expr_1)
     ret = 1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)320, 0);
-    msg = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)320, 0);
+    msg = (char *)return_value_burn_alloc_mem_2;
     if(msg == ((char *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-      scsi_msg = (char *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+      scsi_msg = (char *)return_value_burn_alloc_mem_3;
       if(scsi_msg == ((char *)NULL))
         ret = -1;
 
@@ -32546,16 +32546,16 @@ signed int scsi_notify_error(struct burn_drive *d, struct command *c, unsigned c
 
         __CPROVER_DUMP_L8:
           ;
-          return_value_scsi_command_name$4=scsi_command_name((unsigned int)c->opcode[(signed long int)0], 0);
-          sprintf(msg, "SCSI error condition on command %2.2Xh %s: ", c->opcode[(signed long int)0], return_value_scsi_command_name$4);
+          return_value_scsi_command_name_4=scsi_command_name((unsigned int)c->opcode[(signed long int)0], 0);
+          sprintf(msg, "SCSI error condition on command %2.2Xh %s: ", c->opcode[(signed long int)0], return_value_scsi_command_name_4);
           strcat(msg, scsi_msg);
-          _Bool tmp_if_expr$5;
+          _Bool tmp_if_expr_5;
           if(!((2 & flag) == 0))
-            tmp_if_expr$5 = d->silent_on_scsi_error != 3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = d->silent_on_scsi_error != 3 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          ret=libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002010f, tmp_if_expr$5 ? 0x68000000 : 0x10000000, 0x30000000, msg, 0, 0);
+            tmp_if_expr_5 = (_Bool)0;
+          ret=libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002010f, tmp_if_expr_5 ? 0x68000000 : 0x10000000, 0x30000000, msg, 0, 0);
         }
       }
     }
@@ -32576,9 +32576,9 @@ ex:
 // file libburn/spc.c line 1782
 signed int scsi_show_cmd_text(struct command *c, void *fp_in, signed int flag)
 {
-  signed int return_value_scsi_show_command$1;
-  return_value_scsi_show_command$1=scsi_show_command(c->opcode, c->oplen, c->dir, c->page->data, c->page->bytes, fp_in, flag);
-  return return_value_scsi_show_command$1;
+  signed int return_value_scsi_show_command_1;
+  return_value_scsi_show_command_1=scsi_show_command(c->opcode, c->oplen, c->dir, c->page->data, c->page->bytes, fp_in, flag);
+  return return_value_scsi_show_command_1;
 }
 
 // scsi_show_command
@@ -32587,18 +32587,18 @@ signed int scsi_show_command(unsigned char *opcode, signed int oplen, signed int
 {
   signed int i;
   struct _IO_FILE *fp = (struct _IO_FILE *)fp_in;
-  char *return_value_scsi_command_name$1;
-  return_value_scsi_command_name$1=scsi_command_name((unsigned int)opcode[(signed long int)0], 0);
-  fprintf(fp, "\n%s\n", return_value_scsi_command_name$1);
+  char *return_value_scsi_command_name_1;
+  return_value_scsi_command_name_1=scsi_command_name((unsigned int)opcode[(signed long int)0], 0);
+  fprintf(fp, "\n%s\n", return_value_scsi_command_name_1);
   i = 0;
   for( ; !(i >= 16) && !(i >= oplen); i = i + 1)
     fprintf(fp, "%2.2x ", opcode[(signed long int)i]);
   if(i >= 1)
     fprintf(fp, "\n");
 
-  signed int return_value_mmc_four_char_to_int$2;
-  signed int return_value_mmc_four_char_to_int$3;
-  signed int return_value_mmc_four_char_to_int$4;
+  signed int return_value_mmc_four_char_to_int_2;
+  signed int return_value_mmc_four_char_to_int_3;
+  signed int return_value_mmc_four_char_to_int_4;
   if(!((1 & flag) == 0))
     return 1;
 
@@ -32608,8 +32608,8 @@ signed int scsi_show_command(unsigned char *opcode, signed int oplen, signed int
     {
       if(oplen >= 9 && !((2 & flag) == 0))
       {
-        return_value_mmc_four_char_to_int$2=mmc_four_char_to_int(opcode + (signed long int)2);
-        fprintf(fp, "%d -> %d\n", (signed int)opcode[(signed long int)7] << 8 | (signed int)opcode[(signed long int)8], return_value_mmc_four_char_to_int$2);
+        return_value_mmc_four_char_to_int_2=mmc_four_char_to_int(opcode + (signed long int)2);
+        fprintf(fp, "%d -> %d\n", (signed int)opcode[(signed long int)7] << 8 | (signed int)opcode[(signed long int)8], return_value_mmc_four_char_to_int_2);
       }
 
     }
@@ -32619,9 +32619,9 @@ signed int scsi_show_command(unsigned char *opcode, signed int oplen, signed int
       {
         if(oplen >= 10 && !((2 & flag) == 0))
         {
-          return_value_mmc_four_char_to_int$3=mmc_four_char_to_int(opcode + (signed long int)6);
-          return_value_mmc_four_char_to_int$4=mmc_four_char_to_int(opcode + (signed long int)2);
-          fprintf(fp, "%d -> %d\n", return_value_mmc_four_char_to_int$3, return_value_mmc_four_char_to_int$4);
+          return_value_mmc_four_char_to_int_3=mmc_four_char_to_int(opcode + (signed long int)6);
+          return_value_mmc_four_char_to_int_4=mmc_four_char_to_int(opcode + (signed long int)2);
+          fprintf(fp, "%d -> %d\n", return_value_mmc_four_char_to_int_3, return_value_mmc_four_char_to_int_4);
         }
 
       }
@@ -32653,31 +32653,31 @@ signed int scsi_show_command_reply(unsigned char *opcode, signed int data_dir, u
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if((signed int)*opcode == 0x28)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)opcode[(signed long int)0] == 0x3C ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)opcode[(signed long int)0] == 0x3C ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)opcode[(signed long int)0] == 0xA8 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)opcode[(signed long int)0] == 0xA8 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)opcode[(signed long int)0] == 0xB9 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$4;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)opcode[(signed long int)0] == 0xB9 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_4;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)opcode[(signed long int)0] == 0xBE ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)opcode[(signed long int)0] == 0xBE ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       return 2;
 
     else
@@ -32741,20 +32741,20 @@ signed int sector_data(struct burn_write_opts *o, struct burn_track *t, signed i
 
   else
   {
-    signed int return_value_convert_data$1;
-    return_value_convert_data$1=convert_data(o, t, t->mode, data);
-    if(!(return_value_convert_data$1 >= 1))
+    signed int return_value_convert_data_1;
+    return_value_convert_data_1=convert_data(o, t, t->mode, data);
+    if(!(return_value_convert_data_1 >= 1))
       return 0;
 
     else
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!(t->open_ended == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = t->end_on_premature_eoi != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = t->end_on_premature_eoi != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if(t->track_data_done == 0)
           goto __CPROVER_DUMP_L5;
@@ -32783,9 +32783,9 @@ signed int sector_data(struct burn_write_opts *o, struct burn_track *t, signed i
         }
 
         convert_subs(o, t->mode, subs, data);
-        signed int return_value_sector_headers$3;
-        return_value_sector_headers$3=sector_headers(o, data, t->mode, 0);
-        if(!(return_value_sector_headers$3 >= 1))
+        signed int return_value_sector_headers_3;
+        return_value_sector_headers_3=sector_headers(o, data, t->mode, 0);
+        if(!(return_value_sector_headers_3 >= 1))
           return 0;
 
         else
@@ -32848,30 +32848,30 @@ signed int sector_headers(struct burn_write_opts *o, unsigned char *out, signed 
     if(!(leadin == 0))
     {
       burn_lba_to_msf(d->rlba, &min, &sec, &frame);
-      signed int return_value_dec_to_bcd$1;
-      return_value_dec_to_bcd$1=dec_to_bcd(min);
-      out[(signed long int)12] = (unsigned char)(return_value_dec_to_bcd$1 + 0xA0);
-      signed int return_value_dec_to_bcd$2;
-      return_value_dec_to_bcd$2=dec_to_bcd(sec);
-      out[(signed long int)13] = (unsigned char)return_value_dec_to_bcd$2;
-      signed int return_value_dec_to_bcd$3;
-      return_value_dec_to_bcd$3=dec_to_bcd(frame);
-      out[(signed long int)14] = (unsigned char)return_value_dec_to_bcd$3;
+      signed int return_value_dec_to_bcd_1;
+      return_value_dec_to_bcd_1=dec_to_bcd(min);
+      out[(signed long int)12] = (unsigned char)(return_value_dec_to_bcd_1 + 0xA0);
+      signed int return_value_dec_to_bcd_2;
+      return_value_dec_to_bcd_2=dec_to_bcd(sec);
+      out[(signed long int)13] = (unsigned char)return_value_dec_to_bcd_2;
+      signed int return_value_dec_to_bcd_3;
+      return_value_dec_to_bcd_3=dec_to_bcd(frame);
+      out[(signed long int)14] = (unsigned char)return_value_dec_to_bcd_3;
       out[(signed long int)15] = (unsigned char)modebyte;
     }
 
     else
     {
       burn_lba_to_msf(d->alba, &min, &sec, &frame);
-      signed int return_value_dec_to_bcd$4;
-      return_value_dec_to_bcd$4=dec_to_bcd(min);
-      out[(signed long int)12] = (unsigned char)return_value_dec_to_bcd$4;
-      signed int return_value_dec_to_bcd$5;
-      return_value_dec_to_bcd$5=dec_to_bcd(sec);
-      out[(signed long int)13] = (unsigned char)return_value_dec_to_bcd$5;
-      signed int return_value_dec_to_bcd$6;
-      return_value_dec_to_bcd$6=dec_to_bcd(frame);
-      out[(signed long int)14] = (unsigned char)return_value_dec_to_bcd$6;
+      signed int return_value_dec_to_bcd_4;
+      return_value_dec_to_bcd_4=dec_to_bcd(min);
+      out[(signed long int)12] = (unsigned char)return_value_dec_to_bcd_4;
+      signed int return_value_dec_to_bcd_5;
+      return_value_dec_to_bcd_5=dec_to_bcd(sec);
+      out[(signed long int)13] = (unsigned char)return_value_dec_to_bcd_5;
+      signed int return_value_dec_to_bcd_6;
+      return_value_dec_to_bcd_6=dec_to_bcd(frame);
+      out[(signed long int)14] = (unsigned char)return_value_dec_to_bcd_6;
       out[(signed long int)15] = (unsigned char)modebyte;
     }
     if(!((4 & mode) == 0))
@@ -32941,18 +32941,18 @@ signed int sector_lout(struct burn_write_opts *o, unsigned char control, signed 
 
   else
   {
-    signed int return_value_convert_data$1;
-    return_value_convert_data$1=convert_data(o, (struct burn_track *)(void *)0, mode, data);
-    if(!(return_value_convert_data$1 >= 1))
+    signed int return_value_convert_data_1;
+    return_value_convert_data_1=convert_data(o, (struct burn_track *)(void *)0, mode, data);
+    if(!(return_value_convert_data_1 >= 1))
       return 0;
 
     else
     {
       subcode_lout(o, control, subs);
       convert_subs(o, mode, subs, data);
-      signed int return_value_sector_headers$2;
-      return_value_sector_headers$2=sector_headers(o, data, mode, 0);
-      if(!(return_value_sector_headers$2 >= 1))
+      signed int return_value_sector_headers_2;
+      return_value_sector_headers_2=sector_headers(o, data, mode, 0);
+      if(!(return_value_sector_headers_2 >= 1))
         return 0;
 
       else
@@ -32978,18 +32978,18 @@ signed int sector_postgap(struct burn_write_opts *o, unsigned char tno, unsigned
 
   else
   {
-    signed int return_value_convert_data$1;
-    return_value_convert_data$1=convert_data(o, (struct burn_track *)(void *)0, mode, data);
-    if(!(return_value_convert_data$1 >= 1))
+    signed int return_value_convert_data_1;
+    return_value_convert_data_1=convert_data(o, (struct burn_track *)(void *)0, mode, data);
+    if(!(return_value_convert_data_1 >= 1))
       return 0;
 
     else
     {
       subcode_user(o, subs, tno, control, (unsigned char)1, (struct isrc *)(void *)0, 1);
       convert_subs(o, mode, subs, data);
-      signed int return_value_sector_headers$2;
-      return_value_sector_headers$2=sector_headers(o, data, mode, 0);
-      if(!(return_value_sector_headers$2 >= 1))
+      signed int return_value_sector_headers_2;
+      return_value_sector_headers_2=sector_headers(o, data, mode, 0);
+      if(!(return_value_sector_headers_2 >= 1))
         return 0;
 
       else
@@ -33015,18 +33015,18 @@ signed int sector_pregap(struct burn_write_opts *o, unsigned char tno, unsigned 
 
   else
   {
-    signed int return_value_convert_data$1;
-    return_value_convert_data$1=convert_data(o, (struct burn_track *)(void *)0, mode, data);
-    if(!(return_value_convert_data$1 >= 1))
+    signed int return_value_convert_data_1;
+    return_value_convert_data_1=convert_data(o, (struct burn_track *)(void *)0, mode, data);
+    if(!(return_value_convert_data_1 >= 1))
       return 0;
 
     else
     {
       subcode_user(o, subs, tno, control, (unsigned char)0, (struct isrc *)(void *)0, 1);
       convert_subs(o, mode, subs, data);
-      signed int return_value_sector_headers$2;
-      return_value_sector_headers$2=sector_headers(o, data, mode, 0);
-      if(!(return_value_sector_headers$2 >= 1))
+      signed int return_value_sector_headers_2;
+      return_value_sector_headers_2=sector_headers(o, data, mode, 0);
+      if(!(return_value_sector_headers_2 >= 1))
         return 0;
 
       else
@@ -33052,18 +33052,18 @@ signed int sector_toc(struct burn_write_opts *o, signed int mode)
 
   else
   {
-    signed int return_value_convert_data$1;
-    return_value_convert_data$1=convert_data(o, (struct burn_track *)(void *)0, mode, data);
-    if(!(return_value_convert_data$1 >= 1))
+    signed int return_value_convert_data_1;
+    return_value_convert_data_1=convert_data(o, (struct burn_track *)(void *)0, mode, data);
+    if(!(return_value_convert_data_1 >= 1))
       return 0;
 
     else
     {
       subcode_toc(d, mode, subs);
       convert_subs(o, mode, subs, data);
-      signed int return_value_sector_headers$2;
-      return_value_sector_headers$2=sector_headers(o, data, mode, 1);
-      if(!(return_value_sector_headers$2 >= 1))
+      signed int return_value_sector_headers_2;
+      return_value_sector_headers_2=sector_headers(o, data, mode, 1);
+      if(!(return_value_sector_headers_2 >= 1))
         return 0;
 
       else
@@ -33125,9 +33125,9 @@ signed int sector_write_buffer(struct burn_drive *d, struct burn_track *track, s
 static signed int sg_close_drive(struct burn_drive *d)
 {
   signed int ret;
-  signed int return_value_burn_drive_is_open$1;
-  return_value_burn_drive_is_open$1=burn_drive_is_open(d);
-  if(return_value_burn_drive_is_open$1 == 0)
+  signed int return_value_burn_drive_is_open_1;
+  return_value_burn_drive_is_open_1=burn_drive_is_open(d);
+  if(return_value_burn_drive_is_open_1 == 0)
     return 0;
 
   else
@@ -33146,15 +33146,15 @@ static signed int sg_close_drive_fd(char *fname, signed int driveno, signed int 
   signed int os_errno;
   signed int sevno = 0x10000000;
   char *msg = (char *)(void *)0;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!(*fd >= 0))
     ret = 0;
 
   else
   {
-    void *return_value_burn_alloc_mem$1;
-    return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(4096 + 100), 0);
-    msg = (char *)return_value_burn_alloc_mem$1;
+    void *return_value_burn_alloc_mem_1;
+    return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(4096 + 100), 0);
+    msg = (char *)return_value_burn_alloc_mem_1;
     if(msg == ((char *)NULL))
       ret = -1;
 
@@ -33167,8 +33167,8 @@ static signed int sg_close_drive_fd(char *fname, signed int driveno, signed int 
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        os_errno = *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        os_errno = *return_value___errno_location_2;
         sprintf(msg, "Encountered error when closing drive '%s'", fname);
         if(!(sorry == 0))
           sevno = 0x60000000;
@@ -33236,9 +33236,9 @@ static void sg_enumerate(void)
       if(!(linux_sg_enumerate_debug == 0))
         fprintf(stderr, "libburn_debug: %s : ", (const void *)fname);
 
-      signed int return_value_burn_drive_is_banned$1;
-      return_value_burn_drive_is_banned$1=burn_drive_is_banned(fname);
-      if(!(return_value_burn_drive_is_banned$1 == 0))
+      signed int return_value_burn_drive_is_banned_1;
+      return_value_burn_drive_is_banned_1=burn_drive_is_banned(fname);
+      if(!(return_value_burn_drive_is_banned_1 == 0))
       {
         if(!(linux_sg_enumerate_debug == 0))
           fprintf(stderr, "not in whitelist\n");
@@ -33278,14 +33278,14 @@ static void sg_evaluate_kernel(void)
   if(!(sg_kernel_age >= 0))
   {
     sg_kernel_age = 0;
-    signed int return_value_uname$1;
-    return_value_uname$1=uname(&buf);
-    if(!(return_value_uname$1 == -1))
+    signed int return_value_uname_1;
+    return_value_uname_1=uname(&buf);
+    if(!(return_value_uname_1 == -1))
     {
       sg_kernel_age = 1;
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(buf.release, "2.6");
-      if(return_value_strcmp$2 >= 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(buf.release, "2.6");
+      if(return_value_strcmp_2 >= 0)
         sg_kernel_age = 2;
 
     }
@@ -33301,88 +33301,88 @@ static signed int sg_exchange_scd_for_sr(char *fname, signed int flag)
   struct stat stbuf;
   char scd[17l];
   char *msg = (char *)(void *)0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strncmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strncmp_1;
   if(!(burn_sg_use_family == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strncmp$1=strncmp(fname, "/dev/sr", (unsigned long int)7);
-    tmp_if_expr$2 = return_value_strncmp$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strncmp_1=strncmp(fname, "/dev/sr", (unsigned long int)7);
+    tmp_if_expr_2 = return_value_strncmp_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_strlen$3=strlen(fname);
-    tmp_if_expr$4 = return_value_strlen$3 > (unsigned long int)9 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_3=strlen(fname);
+    tmp_if_expr_4 = return_value_strlen_3 > (unsigned long int)9 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_strlen$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_strlen_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_strlen$5=strlen(fname);
-    tmp_if_expr$6 = return_value_strlen$5 < (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_5=strlen(fname);
+    tmp_if_expr_6 = return_value_strlen_5 < (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$6)
+  if(tmp_if_expr_6)
     return 2;
 
   else
   {
-    _Bool tmp_if_expr$7;
+    _Bool tmp_if_expr_7;
     if(!((signed int)fname[7l] >= 48))
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = (signed int)fname[(signed long int)7] > 57 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (signed int)fname[(signed long int)7] > 57 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
       return 2;
 
     else
     {
       if(!((signed int)fname[8l] == 0))
       {
-        _Bool tmp_if_expr$8;
+        _Bool tmp_if_expr_8;
         if(!((signed int)fname[7l] >= 48))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = (signed int)fname[(signed long int)7] > 57 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (signed int)fname[(signed long int)7] > 57 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
           return 2;
 
       }
 
-      signed int return_value_stat$9;
-      return_value_stat$9=stat(fname, &stbuf);
-      if(!(return_value_stat$9 == -1))
+      signed int return_value_stat_9;
+      return_value_stat_9=stat(fname, &stbuf);
+      if(!(return_value_stat_9 == -1))
         return 2;
 
       else
       {
         strcpy(scd, "/dev/scd");
         strcpy(scd + (signed long int)8, fname + (signed long int)7);
-        signed int return_value_stat$10;
-        return_value_stat$10=stat(scd, &stbuf);
-        if(return_value_stat$10 == -1)
+        signed int return_value_stat_10;
+        return_value_stat_10=stat(scd, &stbuf);
+        if(return_value_stat_10 == -1)
           return 2;
 
         else
         {
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(scd);
-          unsigned long int return_value_strlen$12;
-          return_value_strlen$12=strlen(fname);
-          void *return_value_calloc$13;
-          return_value_calloc$13=calloc(return_value_strlen$11 + return_value_strlen$12 + (unsigned long int)80, (unsigned long int)1);
-          msg = (char *)return_value_calloc$13;
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(scd);
+          unsigned long int return_value_strlen_12;
+          return_value_strlen_12=strlen(fname);
+          void *return_value_calloc_13;
+          return_value_calloc_13=calloc(return_value_strlen_11 + return_value_strlen_12 + (unsigned long int)80, (unsigned long int)1);
+          msg = (char *)return_value_calloc_13;
           if(!(msg == ((char *)NULL)))
           {
             sprintf(msg, "%s substitutes for non-existent %s", (const void *)scd, fname);
@@ -33421,9 +33421,9 @@ static signed int sg_fcntl_lock(signed int *fd, char *fd_name, signed int l_type
       if(!(verbous == 0))
       {
         sprintf(msg, "Device busy. Failed to fcntl-lock '%s'", fd_name);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        libdax_msgs_submit(libdax_messenger, -1, 0x00020008, 0x60000000, 0x30000000, msg, *return_value___errno_location$1, 0);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        libdax_msgs_submit(libdax_messenger, -1, 0x00020008, 0x60000000, 0x30000000, msg, *return_value___errno_location_1, 0);
       }
 
       close(*fd);
@@ -33443,7 +33443,7 @@ signed int sg_give_next_adr(struct burn_drive_enumerator_struct *idx, char *adr,
   signed int baseno = 0;
   signed int i;
   char other_name[80l];
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_3;
   if(initialize == -1)
   {
     proc_sys_dev_cdrom_info(&idx->info_list, &idx->info_count, 1);
@@ -33505,9 +33505,9 @@ signed int sg_give_next_adr(struct burn_drive_enumerator_struct *idx, char *adr,
           {
             if(baseno == idx->pos)
             {
-              unsigned long int return_value_strlen$1;
-              return_value_strlen$1=strlen(idx->info_list[(signed long int)i]);
-              if(!(adr_size >= 1 + (signed int)return_value_strlen$1))
+              unsigned long int return_value_strlen_1;
+              return_value_strlen_1=strlen(idx->info_list[(signed long int)i]);
+              if(!(adr_size >= 1 + (signed int)return_value_strlen_1))
                 return -1;
 
               strcpy(adr, idx->info_list[(signed long int)i]);
@@ -33526,17 +33526,17 @@ signed int sg_give_next_adr(struct burn_drive_enumerator_struct *idx, char *adr,
     i = 0;
     for( ; !(i >= idx->info_count); i = i + 1)
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(idx->info_list[(signed long int)i], adr);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(idx->info_list[(signed long int)i], adr);
+      if(return_value_strcmp_2 == 0)
         idx->info_list[(signed long int)i][(signed long int)0] = (char)0;
 
-      signed int return_value_fname_other_name$4;
-      return_value_fname_other_name$4=fname_other_name(adr, other_name, 0);
-      if(return_value_fname_other_name$4 >= 1)
+      signed int return_value_fname_other_name_4;
+      return_value_fname_other_name_4=fname_other_name(adr, other_name, 0);
+      if(return_value_fname_other_name_4 >= 1)
       {
-        return_value_strcmp$3=strcmp(idx->info_list[(signed long int)i], other_name);
-        if(return_value_strcmp$3 == 0)
+        return_value_strcmp_3=strcmp(idx->info_list[(signed long int)i], other_name);
+        if(return_value_strcmp_3 == 0)
           idx->info_list[(signed long int)i][(signed long int)0] = (char)0;
 
       }
@@ -33556,10 +33556,10 @@ signed int sg_grab(struct burn_drive *d)
   signed int max_tries = 3;
   signed int tries = 0;
   signed int open_mode = 02;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "sg_grab");
-  signed int *return_value___errno_location$5;
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "sg_grab");
+  signed int *return_value___errno_location_5;
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
@@ -33570,9 +33570,9 @@ signed int sg_grab(struct burn_drive *d)
     if(!(burn_sg_open_o_nonblock == 0))
       open_mode = open_mode | 04000;
 
-    signed int return_value_burn_drive_is_open$3;
-    return_value_burn_drive_is_open$3=burn_drive_is_open(d);
-    if(return_value_burn_drive_is_open$3 == 0)
+    signed int return_value_burn_drive_is_open_3;
+    return_value_burn_drive_is_open_3=burn_drive_is_open(d);
+    if(return_value_burn_drive_is_open_3 == 0)
     {
       char msg[120l];
       sprintf(msg, "To avoid collision with udev: Waiting %lu usec before grabbing", (unsigned long int)100000);
@@ -33592,9 +33592,9 @@ signed int sg_grab(struct burn_drive *d)
       }
 
       fd=open(d->devname, open_mode);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      os_errno = *return_value___errno_location$2;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      os_errno = *return_value___errno_location_2;
       if(fd >= 0)
       {
         sg_fcntl_lock(&fd, d->devname, 1, 1);
@@ -33610,17 +33610,17 @@ signed int sg_grab(struct burn_drive *d)
     if(fd >= 0)
     {
       d->fd = fd;
-      signed int return_value_getpid$4;
-      return_value_getpid$4=getpid();
-      fcntl(fd, 8, return_value_getpid$4);
+      signed int return_value_getpid_4;
+      return_value_getpid_4=getpid();
+      fcntl(fd, 8, return_value_getpid_4);
       d->released = 0;
       return 1;
     }
 
     else
     {
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 16)
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 16)
         goto drive_is_in_use;
 
     }
@@ -33653,66 +33653,66 @@ static signed int sg_handle_busy_device(char *fname, signed int os_errno)
   signed int looks_like_hd = 0;
   signed int fd;
   signed int ret;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
-  signed int return_value_strncmp$10;
-  signed int return_value_strcmp$8;
-  signed int return_value_strncmp$4;
-  signed int return_value_strcmp$5;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
+  signed int return_value_strncmp_10;
+  signed int return_value_strcmp_8;
+  signed int return_value_strncmp_4;
+  signed int return_value_strcmp_5;
   if(msg == ((char *)NULL))
     ret = -1;
 
   else
   {
-    return_value_strncmp$10=strncmp(fname, "/dev/hd", (unsigned long int)7);
-    if(return_value_strncmp$10 == 0)
+    return_value_strncmp_10=strncmp(fname, "/dev/hd", (unsigned long int)7);
+    if(return_value_strncmp_10 == 0)
     {
       sprintf(msg, "%s1", fname);
-      signed int return_value_stat$2;
-      return_value_stat$2=stat(msg, &stbuf);
-      if(!(return_value_stat$2 == -1))
+      signed int return_value_stat_2;
+      return_value_stat_2=stat(msg, &stbuf);
+      if(!(return_value_stat_2 == -1))
         looks_like_hd = 1;
 
       sprintf(msg, "/proc/ide/hd%c/media", fname[(signed long int)7]);
       fd=open(msg, 00);
       if(!(fd == -1))
       {
-        signed long int return_value_read$3;
-        return_value_read$3=read(fd, (void *)msg, (unsigned long int)10);
-        ret = (signed int)return_value_read$3;
+        signed long int return_value_read_3;
+        return_value_read_3=read(fd, (void *)msg, (unsigned long int)10);
+        ret = (signed int)return_value_read_3;
         if(!(ret >= 0))
           ret = 0;
 
         msg[(signed long int)ret] = (char)0;
         close(fd);
-        signed int return_value_strncmp$7;
-        return_value_strncmp$7=strncmp(msg, "disk\n", (unsigned long int)5);
-        _Bool tmp_if_expr$9;
-        if(return_value_strncmp$7 == 0)
-          tmp_if_expr$9 = (_Bool)1;
+        signed int return_value_strncmp_7;
+        return_value_strncmp_7=strncmp(msg, "disk\n", (unsigned long int)5);
+        _Bool tmp_if_expr_9;
+        if(return_value_strncmp_7 == 0)
+          tmp_if_expr_9 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$8=strcmp(msg, "disk");
-          tmp_if_expr$9 = return_value_strcmp$8 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_8=strcmp(msg, "disk");
+          tmp_if_expr_9 = return_value_strcmp_8 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$9)
+        if(tmp_if_expr_9)
           looks_like_hd = 2;
 
         else
         {
-          return_value_strncmp$4=strncmp(msg, "cdrom\n", (unsigned long int)6);
-          _Bool tmp_if_expr$6;
-          if(return_value_strncmp$4 == 0)
-            tmp_if_expr$6 = (_Bool)1;
+          return_value_strncmp_4=strncmp(msg, "cdrom\n", (unsigned long int)6);
+          _Bool tmp_if_expr_6;
+          if(return_value_strncmp_4 == 0)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$5=strcmp(msg, "cdrom");
-            tmp_if_expr$6 = return_value_strcmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_5=strcmp(msg, "cdrom");
+            tmp_if_expr_6 = return_value_strcmp_5 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$6)
+          if(tmp_if_expr_6)
             looks_like_hd = 0;
 
         }
@@ -33766,9 +33766,9 @@ signed int sg_id_string(char *msg, signed int flag)
 // file libburn/sg.h line 61
 signed int sg_initialize(char *msg, signed int flag)
 {
-  signed int return_value_sg_id_string$1;
-  return_value_sg_id_string$1=sg_id_string(msg, 0);
-  return return_value_sg_id_string$1;
+  signed int return_value_sg_id_string_1;
+  return_value_sg_id_string_1=sg_id_string(msg, 0);
+  return return_value_sg_id_string_1;
 }
 
 // sg_is_enumerable_adr
@@ -33780,9 +33780,9 @@ signed int sg_is_enumerable_adr(char *adr)
   signed int first = 1;
   signed int fname_size = 4096;
   struct burn_drive_enumerator_struct idx;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)fname_size, 0);
-  fname = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)fname_size, 0);
+  fname = (char *)return_value_burn_alloc_mem_1;
   if(fname == ((char *)NULL))
     ret = -1;
 
@@ -33795,9 +33795,9 @@ signed int sg_is_enumerable_adr(char *adr)
         break;
 
       first = 0;
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(adr, fname);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(adr, fname);
+      if(return_value_strcmp_2 == 0)
       {
         sg_give_next_adr(&idx, fname, fname_size, -1);
         ret = 1;
@@ -33831,9 +33831,9 @@ signed int sg_issue_command(struct burn_drive *d, struct command *c)
   signed long int start_time;
   struct sg_io_hdr s;
   char *msg = (char *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)161, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)161, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -33933,18 +33933,18 @@ signed int sg_issue_command(struct burn_drive *d, struct command *c)
         c->end_time=burn_get_time(0);
         if(err == -1)
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002010c, 0x70000000, 0x30000000, "Failed to transfer command to drive", *return_value___errno_location$2, 0);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002010c, 0x70000000, 0x30000000, "Failed to transfer command to drive", *return_value___errno_location_2, 0);
           sprintf(msg, "--- SG_IO: return= -1 , ");
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(msg);
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          sprintf(msg + (signed long int)return_value_strlen$3, "errno= %d , ", *return_value___errno_location$4);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(msg);
-          sprintf(msg + (signed long int)return_value_strlen$5, "host_status= 0x%x , driver_status= 0x%x", (unsigned int)s.host_status, (unsigned int)s.driver_status);
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(msg);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          sprintf(msg + (signed long int)return_value_strlen_3, "errno= %d , ", *return_value___errno_location_4);
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(msg);
+          sprintf(msg + (signed long int)return_value_strlen_5, "host_status= 0x%x , driver_status= 0x%x", (unsigned int)s.host_status, (unsigned int)s.driver_status);
           scsi_log_message(d, (void *)fp, msg, 0);
           react_on_drive_loss(d, c, fp);
           ret = -1;
@@ -33985,9 +33985,9 @@ ex:
 // file libburn/sg.h line 25
 signed int sg_obtain_scsi_adr(char *path, signed int *bus_no, signed int *host_no, signed int *channel_no, signed int *target_no, signed int *lun_no)
 {
-  signed int return_value_sg_obtain_scsi_adr_fd$1;
-  return_value_sg_obtain_scsi_adr_fd$1=sg_obtain_scsi_adr_fd(path, -1, bus_no, host_no, channel_no, target_no, lun_no);
-  return return_value_sg_obtain_scsi_adr_fd$1;
+  signed int return_value_sg_obtain_scsi_adr_fd_1;
+  return_value_sg_obtain_scsi_adr_fd_1=sg_obtain_scsi_adr_fd(path, -1, bus_no, host_no, channel_no, target_no, lun_no);
+  return return_value_sg_obtain_scsi_adr_fd_1;
 }
 
 // sg_obtain_scsi_adr_fd
@@ -34012,14 +34012,14 @@ struct my_scsi_idlun
   struct my_scsi_idlun idlun;
   idlun.x = 0;
   idlun.host_unique_id = 0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(linux_ata_device_family);
-  l = (signed int)(return_value_strlen$1 - (unsigned long int)2);
-  signed int return_value_strncmp$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(linux_ata_device_family);
+  l = (signed int)(return_value_strlen_1 - (unsigned long int)2);
+  signed int return_value_strncmp_2;
   if(l >= 1)
   {
-    return_value_strncmp$2=strncmp(path, linux_ata_device_family, (unsigned long int)l);
-    if(return_value_strncmp$2 == 0)
+    return_value_strncmp_2=strncmp(path, linux_ata_device_family, (unsigned long int)l);
+    if(return_value_strncmp_2 == 0)
     {
       if((signed int)path[7l] >= 97)
       {
@@ -34055,9 +34055,9 @@ struct my_scsi_idlun
 
     else
     {
-      signed int return_value_ioctl$3;
-      return_value_ioctl$3=ioctl(fd, (unsigned long int)0x5386, bus_no);
-      if(return_value_ioctl$3 == -1)
+      signed int return_value_ioctl_3;
+      return_value_ioctl_3=ioctl(fd, (unsigned long int)0x5386, bus_no);
+      if(return_value_ioctl_3 == -1)
         *bus_no = -1;
 
       ret=ioctl(fd, (unsigned long int)0x5382, &idlun);
@@ -34099,7 +34099,7 @@ static signed int sg_open_drive_fd(char *fname, signed int scan_mode)
   if(!(burn_sg_open_o_nonblock == 0))
     open_mode = open_mode | 04000;
 
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   do
   {
 
@@ -34109,8 +34109,8 @@ static signed int sg_open_drive_fd(char *fname, signed int scan_mode)
     if(!(fd == -1))
       goto __CPROVER_DUMP_L15;
 
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 16))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 16))
       goto __CPROVER_DUMP_L4;
 
     tries = tries + 1;
@@ -34120,66 +34120,66 @@ static signed int sg_open_drive_fd(char *fname, signed int scan_mode)
     usleep((unsigned int)2000000);
   }
   while((_Bool)1);
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  sg_handle_busy_device(fname, *return_value___errno_location$1);
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  sg_handle_busy_device(fname, *return_value___errno_location_1);
   return -1;
 
 __CPROVER_DUMP_L4:
   ;
   sprintf(msg, "Failed to open device '%s'", fname);
-  signed int return_value_strncmp$4;
-  signed int return_value_stat$7;
-  signed int return_value_stat$6;
-  signed int *return_value___errno_location$9;
+  signed int return_value_strncmp_4;
+  signed int return_value_stat_7;
+  signed int return_value_stat_6;
+  signed int *return_value___errno_location_9;
   if(!(scan_mode == 0))
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(fname, "/dev/sr", (unsigned long int)7);
-    _Bool tmp_if_expr$5;
-    if(return_value_strncmp$3 == 0)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(fname, "/dev/sr", (unsigned long int)7);
+    _Bool tmp_if_expr_5;
+    if(return_value_strncmp_3 == 0)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$4=strncmp(fname, "/dev/scd", (unsigned long int)8);
-      tmp_if_expr$5 = return_value_strncmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_4=strncmp(fname, "/dev/scd", (unsigned long int)8);
+      tmp_if_expr_5 = return_value_strncmp_4 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    is_std_adr = (signed int)tmp_if_expr$5;
-    _Bool tmp_if_expr$8;
+    is_std_adr = (signed int)tmp_if_expr_5;
+    _Bool tmp_if_expr_8;
     if(scan_mode == 1 && !(is_std_adr == 0))
     {
-      return_value_stat$7=stat(fname, &stbuf);
-      tmp_if_expr$8 = return_value_stat$7 != -1 ? (_Bool)1 : (_Bool)0;
+      return_value_stat_7=stat(fname, &stbuf);
+      tmp_if_expr_8 = return_value_stat_7 != -1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
       report_as_note = 1;
 
     else
       if(is_std_adr == 0 && scan_mode == 2)
       {
-        return_value_stat$6=stat(fname, &stbuf);
-        if(!(return_value_stat$6 == -1))
+        return_value_stat_6=stat(fname, &stbuf);
+        if(!(return_value_stat_6 == -1))
           report_as_note = 1;
 
       }
 
     if(!(report_as_note == 0))
     {
-      return_value___errno_location$9=__errno_location();
-      libdax_msgs_submit(libdax_messenger, -1, 0x0002000e, 0x30000000, 0x30000000, msg, *return_value___errno_location$9, 0);
+      return_value___errno_location_9=__errno_location();
+      libdax_msgs_submit(libdax_messenger, -1, 0x0002000e, 0x30000000, 0x30000000, msg, *return_value___errno_location_9, 0);
     }
 
   }
 
   else
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    libdax_msgs_submit(libdax_messenger, -1, 0x00020005, 0x60000000, 0x30000000, msg, *return_value___errno_location$10, 0);
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    libdax_msgs_submit(libdax_messenger, -1, 0x00020005, 0x60000000, 0x30000000, msg, *return_value___errno_location_10, 0);
   }
   return -1;
 
@@ -34195,17 +34195,17 @@ static signed int sg_open_for_enumeration(char *fname, signed int flag)
 {
   signed int fd;
   fd=sg_open_drive_fd(fname, 1 + (flag & 1));
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(!(fd >= 0))
   {
     if(!(linux_ata_enumerate_verbous == 0) || !(linux_sg_enumerate_debug == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value___errno_location$2=__errno_location();
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fprintf(stderr, "open failed, errno=%d  '%s'\n", *return_value___errno_location$1, return_value_strerror$3);
+      return_value___errno_location_1=__errno_location();
+      return_value___errno_location_2=__errno_location();
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fprintf(stderr, "open failed, errno=%d  '%s'\n", *return_value___errno_location_1, return_value_strerror_3);
     }
 
     return -1;
@@ -34232,24 +34232,24 @@ static signed int sg_open_scsi_siblings(char *path, signed int driveno, signed i
   struct stat stbuf;
   unsigned long int last_rdev = (unsigned long int)0;
   unsigned long int path_rdev;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  signed int return_value_stat$3;
-  if(return_value_strlen$1 >= 3937ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  signed int return_value_stat_3;
+  if(return_value_strlen_1 >= 3937ul)
     ret = 0;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-    msg = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+    msg = (char *)return_value_burn_alloc_mem_2;
     if(msg == ((char *)NULL))
       ret = -1;
 
     else
     {
-      return_value_stat$3=stat(path, &stbuf);
-      if(return_value_stat$3 == -1)
+      return_value_stat_3=stat(path, &stbuf);
+      if(return_value_stat_3 == -1)
         ret = 0;
 
       else
@@ -34275,17 +34275,17 @@ static signed int sg_open_scsi_siblings(char *path, signed int driveno, signed i
     { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
             for( ; !((signed int)tldev[(signed long int)tld][0l] == 0); tld = tld + 1)
             {
-              signed int return_value_strcmp$4;
-              return_value_strcmp$4=strcmp(tldev[(signed long int)tld], linux_sg_device_family);
-              if(!(return_value_strcmp$4 == 0))
+              signed int return_value_strcmp_4;
+              return_value_strcmp_4=strcmp(tldev[(signed long int)tld], linux_sg_device_family);
+              if(!(return_value_strcmp_4 == 0))
               {
                 i = 0;
                 for( ; !(i >= 32); i = i + 1)
                 {
                   sprintf(fname, tldev[(signed long int)tld], i);
-                  signed int return_value_stat$5;
-                  return_value_stat$5=stat(fname, &stbuf);
-                  if(!(return_value_stat$5 == -1))
+                  signed int return_value_stat_5;
+                  return_value_stat_5=stat(fname, &stbuf);
+                  if(!(return_value_stat_5 == -1))
                   {
                     if(!(path_rdev == stbuf.st_rdev))
                     {
@@ -34364,9 +34364,9 @@ failed:
 // file libburn/sg-linux.c line 1868
 signed int sg_release(struct burn_drive *d)
 {
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "sg_release");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "sg_release");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
@@ -34454,27 +34454,27 @@ static signed int sgio_inquiry_cd_drive(signed int fd, char *fname)
   signed int i;
   double c_start_time;
   double c_end_time;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  buf = (struct buffer *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  buf = (struct buffer *)return_value_burn_alloc_mem_1;
   if(buf == ((struct buffer *)NULL))
     ret = -1;
 
   else
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)128, 0);
-    sense = (unsigned char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(unsigned char) /*1ul*/ , (unsigned long int)128, 0);
+    sense = (unsigned char *)return_value_burn_alloc_mem_2;
     if(sense == ((unsigned char *)NULL))
       ret = -1;
 
     else
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(fname);
-      void *return_value_burn_alloc_mem$4;
-      return_value_burn_alloc_mem$4=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(return_value_strlen$3 + (unsigned long int)1024), 0);
-      msg = (char *)return_value_burn_alloc_mem$4;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(fname);
+      void *return_value_burn_alloc_mem_4;
+      return_value_burn_alloc_mem_4=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(return_value_strlen_3 + (unsigned long int)1024), 0);
+      msg = (char *)return_value_burn_alloc_mem_4;
       if(msg == ((char *)NULL))
         ret = -1;
 
@@ -34497,9 +34497,9 @@ static signed int sgio_inquiry_cd_drive(signed int fd, char *fname)
         c_end_time=burn_get_time(0);
         if(ret == -1)
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          sprintf(msg, "INQUIRY on '%s' : ioctl(SG_IO) failed , errno= %d", fname, *return_value___errno_location$5);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          sprintf(msg, "INQUIRY on '%s' : ioctl(SG_IO) failed , errno= %d", fname, *return_value___errno_location_5);
           libdax_msgs_submit(libdax_messenger, -1, 0x00000002, 0x10000000, 0x30000000, msg, 0, 0);
           goto ex;
         }
@@ -34510,12 +34510,12 @@ static signed int sgio_inquiry_cd_drive(signed int fd, char *fname)
           sprintf(msg, "INQUIRY failed on '%s' : host_status= %hd , driver_status= %hd", fname, s.host_status, s.driver_status);
           if((signed int)s.sb_len_wr >= 1)
           {
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen(msg);
-            sprintf(msg + (signed long int)return_value_strlen$6, " , sense data=");
-            unsigned long int return_value_strlen$7;
-            return_value_strlen$7=strlen(msg);
-            msg_pt = msg + (signed long int)return_value_strlen$7;
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen(msg);
+            sprintf(msg + (signed long int)return_value_strlen_6, " , sense data=");
+            unsigned long int return_value_strlen_7;
+            return_value_strlen_7=strlen(msg);
+            msg_pt = msg + (signed long int)return_value_strlen_7;
             i = 0;
             for( ; !(i >= (signed int)s.sb_len_wr); i = i + 1)
               sprintf(msg_pt + (signed long int)(i * 3), " %2.2X", ((unsigned char *)s.sbp)[(signed long int)i]);
@@ -34633,9 +34633,9 @@ static signed int single_enumerate(signed int flag)
       ret=fname_enumerate(fname, 2);
       if(!(ret >= 1))
       {
-        void *return_value_burn_alloc_mem$1;
-        return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(1024 + 80), 0);
-        msg = (char *)return_value_burn_alloc_mem$1;
+        void *return_value_burn_alloc_mem_1;
+        return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(1024 + 80), 0);
+        msg = (char *)return_value_burn_alloc_mem_1;
         if(msg == ((char *)NULL))
           ret = -1;
 
@@ -34663,9 +34663,9 @@ ex:
 void spc_allow(struct burn_drive *d)
 {
   struct command *c = &d->casual_command;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "allow");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "allow");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     scsi_init_command(c, SPC_ALLOW, (signed int)sizeof(unsigned char [6l]) /*6ul*/ );
     c->retry = 1;
@@ -34714,11 +34714,11 @@ signed int spc_confirm_cd_drive(struct burn_drive *d, signed int flag)
 {
   char *msg = (char *)(void *)0;
   signed int ret;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(d->devname);
-  void *return_value_burn_alloc_mem$2;
-  return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(return_value_strlen$1 + (unsigned long int)1024), 0);
-  msg = (char *)return_value_burn_alloc_mem$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(d->devname);
+  void *return_value_burn_alloc_mem_2;
+  return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(return_value_strlen_1 + (unsigned long int)1024), 0);
+  msg = (char *)return_value_burn_alloc_mem_2;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -34759,13 +34759,13 @@ signed int spc_decode_sense(unsigned char *sense, signed int senselen, signed in
   *ascq = 0;
   *asc = *ascq;
   *key = *asc;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((0x7f & (signed int)*sense) == 0x72)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ((signed int)sense[(signed long int)0] & 0x7f) == 0x73 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = ((signed int)sense[(signed long int)0] & 0x7f) == 0x73 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(senselen >= 2 || !(senselen >= 1))
       *key = (signed int)sense[(signed long int)1] & 0x0f;
@@ -34804,9 +34804,9 @@ signed int spc_get_erase_progress(struct burn_drive *d)
   signed int asc;
   signed int ascq;
   signed int progress;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "get_erase_progress");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "get_erase_progress");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     ret = 0;
 
   else
@@ -34828,9 +34828,9 @@ signed int spc_get_erase_progress(struct burn_drive *d)
 
         else
         {
-          void *return_value_burn_alloc_mem$2;
-          return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-          b = (struct buffer *)return_value_burn_alloc_mem$2;
+          void *return_value_burn_alloc_mem_2;
+          return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+          b = (struct buffer *)return_value_burn_alloc_mem_2;
           if(b == ((struct buffer *)NULL))
             ret = -1;
 
@@ -34840,13 +34840,13 @@ signed int spc_get_erase_progress(struct burn_drive *d)
             ret = -1;
             if((signed int)b->data[0l] == 0x70)
             {
-              _Bool tmp_if_expr$3;
+              _Bool tmp_if_expr_3;
               if((0x0f & (signed int)b->data[2l]) == 0)
-                tmp_if_expr$3 = (_Bool)1;
+                tmp_if_expr_3 = (_Bool)1;
 
               else
-                tmp_if_expr$3 = ((signed int)b->data[(signed long int)2] & 0x0f) == 2 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = ((signed int)b->data[(signed long int)2] & 0x0f) == 2 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_3)
               {
                 if(!((0x80 & (signed int)b->data[15l]) == 0))
                   ret = (signed int)b->data[(signed long int)16] << 8 | (signed int)b->data[(signed long int)17];
@@ -34871,9 +34871,9 @@ ex:
 // file libburn/spc.c line 1001
 void spc_getcaps(struct burn_drive *d)
 {
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "getcaps");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "getcaps");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     burn_speed_descriptor_destroy(&d->mdata->speed_descriptors, 1);
     spc_inquiry(d);
@@ -34890,18 +34890,18 @@ void spc_inquiry(struct burn_drive *d)
   struct buffer *buf = (struct buffer *)(void *)0;
   struct burn_scsi_inquiry_data *id;
   struct command *c = (struct command *)(void *)0;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "inquiry");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "inquiry");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_2;
     if(!(buf == ((struct buffer *)NULL)))
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-      c = (struct command *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+      c = (struct command *)return_value_burn_alloc_mem_3;
       if(!(c == ((struct command *)NULL)))
       {
         scsi_init_command(c, SPC_INQUIRY, (signed int)sizeof(unsigned char [6l]) /*6ul*/ );
@@ -34956,9 +34956,9 @@ __CPROVER_DUMP_L6:
 void spc_prevent(struct burn_drive *d)
 {
   struct command *c = &d->casual_command;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "prevent");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "prevent");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     scsi_init_command(c, SPC_PREVENT, (signed int)sizeof(unsigned char [6l]) /*6ul*/ );
     c->retry = 1;
@@ -34983,18 +34983,18 @@ void spc_probe_write_modes(struct burn_drive *d)
   signed int last_try = 0;
   struct command *c = (struct command *)(void *)0;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "spc_probe_write_modes");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "spc_probe_write_modes");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_2;
     if(!(buf == ((struct buffer *)NULL)))
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-      c = (struct command *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+      c = (struct command *)return_value_burn_alloc_mem_3;
       if(!(c == ((struct command *)NULL)))
       {
         if(!(try_write_type == 5))
@@ -35084,10 +35084,10 @@ static signed int spc_report_async_error(struct burn_drive *d, signed int key, s
   char *msg = (char *)(void *)0;
   unsigned char sense[14l];
   signed int ret;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(1024 + 160), 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
-  unsigned long int return_value_strlen$2;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(1024 + 160), 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
+  unsigned long int return_value_strlen_2;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -35098,8 +35098,8 @@ static signed int spc_report_async_error(struct burn_drive *d, signed int key, s
     sense[(signed long int)2] = (unsigned char)key;
     sense[(signed long int)12] = (unsigned char)asc;
     sense[(signed long int)13] = (unsigned char)ascq;
-    return_value_strlen$2=strlen(msg);
-    scsi_error_msg(d, sense, 14, msg + (signed long int)return_value_strlen$2, &key, &asc, &ascq);
+    return_value_strlen_2=strlen(msg);
+    scsi_error_msg(d, sense, 14, msg + (signed long int)return_value_strlen_2, &key, &asc, &ascq);
     libdax_msgs_submit(libdax_messenger, d->global_index, 0x000201a5, 0x68000000, 0x30000000, msg, 0, 0);
     ret = 1;
   }
@@ -35117,9 +35117,9 @@ ex:
 void spc_request_sense(struct burn_drive *d, struct buffer *buf)
 {
   struct command *c = &d->casual_command;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "request_sense");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "request_sense");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     scsi_init_command(c, SPC_REQUEST_SENSE, (signed int)sizeof(unsigned char [6l]) /*6ul*/ );
     c->retry = 0;
@@ -35141,18 +35141,18 @@ void spc_select_error_params(struct burn_drive *d, struct burn_read_opts *o)
   struct buffer *buf = (struct buffer *)(void *)0;
   struct command *c = (struct command *)(void *)0;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "select_error_params");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "select_error_params");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_2;
     if(!(buf == ((struct buffer *)NULL)))
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-      c = (struct command *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+      c = (struct command *)return_value_burn_alloc_mem_3;
       if(!(c == ((struct command *)NULL)))
       {
         scsi_init_command(c, SPC_MODE_SELECT, (signed int)sizeof(unsigned char [10l]) /*10ul*/ );
@@ -35205,19 +35205,19 @@ void spc_select_write_params(struct burn_drive *d, struct burn_session *s, signe
   struct command *c = (struct command *)(void *)0;
   signed int alloc_len;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "select_write_params");
-  signed int return_value_mmc_compose_mode_page_5$4;
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "select_write_params");
+  signed int return_value_mmc_compose_mode_page_5_4;
+  if(return_value_mmc_function_spy_1 >= 1)
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_2;
     if(!(buf == ((struct buffer *)NULL)))
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-      c = (struct command *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+      c = (struct command *)return_value_burn_alloc_mem_3;
       if(!(c == ((struct command *)NULL)))
       {
         alloc_len = 8 + 2 + d->mdata->write_page_length;
@@ -35230,8 +35230,8 @@ void spc_select_write_params(struct burn_drive *d, struct burn_session *s, signe
         c->page->bytes = 0;
         c->page->sectors = 0;
         c->page->bytes = alloc_len;
-        return_value_mmc_compose_mode_page_5$4=mmc_compose_mode_page_5(d, s, tnum, o, c->page->data + (signed long int)8);
-        if(return_value_mmc_compose_mode_page_5$4 >= 1)
+        return_value_mmc_compose_mode_page_5_4=mmc_compose_mode_page_5(d, s, tnum, o, c->page->data + (signed long int)8);
+        if(return_value_mmc_compose_mode_page_5_4 >= 1)
         {
           c->dir = 0;
           d->issue_command(d, c);
@@ -35263,9 +35263,9 @@ void spc_sense_caps(struct burn_drive *d)
   signed int minimum_len = 28;
   signed int ret;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "sense_caps");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "sense_caps");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
     mmc_get_configuration(d);
     alloc_len = start_len;
@@ -35312,25 +35312,25 @@ static signed int spc_sense_caps_al(struct burn_drive *d, signed int *alloc_len,
 
   else
   {
-    void *return_value_burn_alloc_mem$1;
-    return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(1024 + 160), 0);
-    msg = (char *)return_value_burn_alloc_mem$1;
+    void *return_value_burn_alloc_mem_1;
+    return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)(1024 + 160), 0);
+    msg = (char *)return_value_burn_alloc_mem_1;
     if(msg == ((char *)NULL))
       ret = -1;
 
     else
     {
-      void *return_value_burn_alloc_mem$2;
-      return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-      buf = (struct buffer *)return_value_burn_alloc_mem$2;
+      void *return_value_burn_alloc_mem_2;
+      return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+      buf = (struct buffer *)return_value_burn_alloc_mem_2;
       if(buf == ((struct buffer *)NULL))
         ret = -1;
 
       else
       {
-        void *return_value_burn_alloc_mem$3;
-        return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-        c = (struct command *)return_value_burn_alloc_mem$3;
+        void *return_value_burn_alloc_mem_3;
+        return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+        c = (struct command *)return_value_burn_alloc_mem_3;
         if(c == ((struct command *)NULL))
           ret = -1;
 
@@ -35515,18 +35515,18 @@ void spc_sense_error_params(struct burn_drive *d)
   unsigned char *page;
   struct command *c = (struct command *)(void *)0;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "sense_error_params");
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "sense_error_params");
+  if(return_value_mmc_function_spy_1 >= 1)
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_2;
     if(!(buf == ((struct buffer *)NULL)))
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-      c = (struct command *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+      c = (struct command *)return_value_burn_alloc_mem_3;
       if(!(c == ((struct command *)NULL)))
       {
         scsi_init_command(c, SPC_MODE_SENSE, (signed int)sizeof(unsigned char [10l]) /*10ul*/ );
@@ -35574,19 +35574,19 @@ void spc_sense_write_params(struct burn_drive *d)
   unsigned char *page;
   struct command *c = (struct command *)(void *)0;
   mmc_start_if_needed(d, 1);
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "sense_write_params");
-  _Bool tmp_if_expr$4;
-  if(return_value_mmc_function_spy$1 >= 1)
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "sense_write_params");
+  _Bool tmp_if_expr_4;
+  if(return_value_mmc_function_spy_1 >= 1)
   {
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-    buf = (struct buffer *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+    buf = (struct buffer *)return_value_burn_alloc_mem_2;
     if(!(buf == ((struct buffer *)NULL)))
     {
-      void *return_value_burn_alloc_mem$3;
-      return_value_burn_alloc_mem$3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
-      c = (struct command *)return_value_burn_alloc_mem$3;
+      void *return_value_burn_alloc_mem_3;
+      return_value_burn_alloc_mem_3=burn_alloc_mem(sizeof(struct command) /*200ul*/ , (unsigned long int)1, 0);
+      c = (struct command *)return_value_burn_alloc_mem_3;
       if(!(c == ((struct command *)NULL)))
       {
         scsi_init_command(c, SPC_MODE_SENSE, (signed int)sizeof(unsigned char [10l]) /*10ul*/ );
@@ -35613,43 +35613,43 @@ void spc_sense_write_params(struct burn_drive *d)
         }
 
         mmc_read_disc_info(d);
-        _Bool tmp_if_expr$6;
+        _Bool tmp_if_expr_6;
         if(d->current_profile == 0x1a)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = d->current_profile == 0x13 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$7;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_6 = d->current_profile == 0x13 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_7;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$8;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_7 = d->current_profile == 0x12 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_8;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = d->current_profile == 0x43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
           d->read_format_capacities(d, -1);
 
         else
         {
-          _Bool tmp_if_expr$5;
+          _Bool tmp_if_expr_5;
           if((signed int)d->status == BURN_DISC_BLANK)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
             if(!(d->current_is_cd_profile == 0))
-              tmp_if_expr$4 = (signed int)d->status == BURN_DISC_APPENDABLE ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (signed int)d->status == BURN_DISC_APPENDABLE ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (_Bool)0;
+            tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$5)
+          if(tmp_if_expr_5)
           {
             burn_drive_send_default_page_05(d, 0);
             d->get_nwa(d, -1, &dummy1, &dummy2);
@@ -35697,9 +35697,9 @@ signed int spc_test_unit_ready(struct burn_drive *d)
   signed int asc;
   signed int ascq;
   signed int progress;
-  signed int return_value_spc_test_unit_ready_r$1;
-  return_value_spc_test_unit_ready_r$1=spc_test_unit_ready_r(d, &key, &asc, &ascq, &progress);
-  return return_value_spc_test_unit_ready_r$1;
+  signed int return_value_spc_test_unit_ready_r_1;
+  return_value_spc_test_unit_ready_r_1=spc_test_unit_ready_r(d, &key, &asc, &ascq, &progress);
+  return return_value_spc_test_unit_ready_r_1;
 }
 
 // spc_test_unit_ready_r
@@ -35707,9 +35707,9 @@ signed int spc_test_unit_ready(struct burn_drive *d)
 signed int spc_test_unit_ready_r(struct burn_drive *d, signed int *key, signed int *asc, signed int *ascq, signed int *progress)
 {
   struct command *c = &d->casual_command;
-  signed int return_value_mmc_function_spy$1;
-  return_value_mmc_function_spy$1=mmc_function_spy(d, "test_unit_ready");
-  if(!(return_value_mmc_function_spy$1 >= 1))
+  signed int return_value_mmc_function_spy_1;
+  return_value_mmc_function_spy_1=mmc_function_spy(d, "test_unit_ready");
+  if(!(return_value_mmc_function_spy_1 >= 1))
     return 0;
 
   else
@@ -35727,13 +35727,13 @@ signed int spc_test_unit_ready_r(struct burn_drive *d, signed int *key, signed i
       spc_decode_sense(c->sense, 0, key, asc, ascq);
       if((signed int)c->sense[0l] == 0x70)
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if((0x0f & (signed int)c->sense[2l]) == 0)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = ((signed int)c->sense[(signed long int)2] & 0x0f) == 2 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = ((signed int)c->sense[(signed long int)2] & 0x0f) == 2 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           if(!((0x80 & (signed int)c->sense[15l]) == 0))
             *progress = ((signed int)c->sense[(signed long int)16] << 8) + (signed int)c->sense[(signed long int)17];
@@ -35790,9 +35790,9 @@ signed int spc_wait_unit_attention(struct burn_drive *d, signed int max_sec, cha
   signed int progress;
   char *msg = (char *)(void *)0;
   unsigned char sense[14l];
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)320, 0);
-  msg = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)320, 0);
+  msg = (char *)return_value_burn_alloc_mem_1;
   if(msg == ((char *)NULL))
     ret = -1;
 
@@ -35831,9 +35831,9 @@ signed int spc_wait_unit_attention(struct burn_drive *d, signed int max_sec, cha
         sense[(signed long int)2] = (unsigned char)key;
         sense[(signed long int)12] = (unsigned char)asc;
         sense[(signed long int)13] = (unsigned char)ascq;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(msg);
-        scsi_error_msg(d, sense, 14, msg + (signed long int)return_value_strlen$2, &key, &asc, &ascq);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(msg);
+        scsi_error_msg(d, sense, 14, msg + (signed long int)return_value_strlen_2, &key, &asc, &ascq);
         libdax_msgs_submit(libdax_messenger, d->global_index, 0x0002014d, 0x60000000, 0x30000000, msg, 0, 0);
         d->cancel = 1;
         break;
@@ -35895,25 +35895,25 @@ static void strip_spaces(char *str, unsigned long int len)
   char *tmp;
   char *tmp2;
   tmp = (str + (signed long int)len) - (signed long int)1;
-  _Bool tmp_if_expr$3;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  _Bool tmp_if_expr_2;
   do
   {
     if(tmp >= str)
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*tmp]) == 0))
-        tmp_if_expr$2 = (_Bool)1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*tmp]) == 0))
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = !(*tmp != 0) ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = !(*tmp != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(!tmp_if_expr_3)
       break;
 
     *tmp = (char)0;
@@ -35921,35 +35921,35 @@ static void strip_spaces(char *str, unsigned long int len)
   }
   while((_Bool)1);
   tmp = str;
-  _Bool tmp_if_expr$4;
-  const unsigned short int **return_value___ctype_b_loc$6;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_4;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  _Bool tmp_if_expr_5;
   do
   {
     if(!(tmp >= str + (signed long int)len + -1l))
-      tmp_if_expr$4 = *tmp != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = *tmp != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(!tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(!tmp_if_expr_4)
       break;
 
-    const unsigned short int **return_value___ctype_b_loc$7;
-    return_value___ctype_b_loc$7=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*tmp]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_7;
+    return_value___ctype_b_loc_7=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*tmp]) == 0))
     {
-      return_value___ctype_b_loc$6=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)tmp[1l]]) == 0))
+      return_value___ctype_b_loc_6=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)tmp[1l]]) == 0))
       {
         tmp2 = tmp + (signed long int)1;
         do
         {
           if(!(tmp2 >= str + (signed long int)len))
-            tmp_if_expr$5 = *tmp2 != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = *tmp2 != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(!tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(!tmp_if_expr_5)
             break;
 
           *(tmp2 - (signed long int)1) = *tmp2;
@@ -35990,28 +35990,28 @@ static void subcode_lout(struct burn_write_opts *o, unsigned char control, unsig
   q[(signed long int)0] = (unsigned char)(((signed int)control << 4) + 1);
   q[(signed long int)1] = (unsigned char)0xAA;
   q[(signed long int)2] = (unsigned char)0x01;
-  signed int return_value_dec_to_bcd$1;
-  return_value_dec_to_bcd$1=dec_to_bcd(rmin);
-  q[(signed long int)3] = (unsigned char)return_value_dec_to_bcd$1;
-  signed int return_value_dec_to_bcd$2;
-  return_value_dec_to_bcd$2=dec_to_bcd(rsec);
-  q[(signed long int)4] = (unsigned char)return_value_dec_to_bcd$2;
-  signed int return_value_dec_to_bcd$3;
-  return_value_dec_to_bcd$3=dec_to_bcd(rframe);
-  q[(signed long int)5] = (unsigned char)return_value_dec_to_bcd$3;
+  signed int return_value_dec_to_bcd_1;
+  return_value_dec_to_bcd_1=dec_to_bcd(rmin);
+  q[(signed long int)3] = (unsigned char)return_value_dec_to_bcd_1;
+  signed int return_value_dec_to_bcd_2;
+  return_value_dec_to_bcd_2=dec_to_bcd(rsec);
+  q[(signed long int)4] = (unsigned char)return_value_dec_to_bcd_2;
+  signed int return_value_dec_to_bcd_3;
+  return_value_dec_to_bcd_3=dec_to_bcd(rframe);
+  q[(signed long int)5] = (unsigned char)return_value_dec_to_bcd_3;
   q[(signed long int)6] = (unsigned char)0;
-  signed int return_value_dec_to_bcd$4;
-  return_value_dec_to_bcd$4=dec_to_bcd(min);
-  q[(signed long int)7] = (unsigned char)return_value_dec_to_bcd$4;
-  signed int return_value_dec_to_bcd$5;
-  return_value_dec_to_bcd$5=dec_to_bcd(sec);
-  q[(signed long int)8] = (unsigned char)return_value_dec_to_bcd$5;
-  signed int return_value_dec_to_bcd$6;
-  return_value_dec_to_bcd$6=dec_to_bcd(frame);
-  q[(signed long int)9] = (unsigned char)return_value_dec_to_bcd$6;
-  unsigned short int return_value_crc_ccitt$7;
-  return_value_crc_ccitt$7=crc_ccitt(q, 10);
-  crc = (signed int)return_value_crc_ccitt$7;
+  signed int return_value_dec_to_bcd_4;
+  return_value_dec_to_bcd_4=dec_to_bcd(min);
+  q[(signed long int)7] = (unsigned char)return_value_dec_to_bcd_4;
+  signed int return_value_dec_to_bcd_5;
+  return_value_dec_to_bcd_5=dec_to_bcd(sec);
+  q[(signed long int)8] = (unsigned char)return_value_dec_to_bcd_5;
+  signed int return_value_dec_to_bcd_6;
+  return_value_dec_to_bcd_6=dec_to_bcd(frame);
+  q[(signed long int)9] = (unsigned char)return_value_dec_to_bcd_6;
+  unsigned short int return_value_crc_ccitt_7;
+  return_value_crc_ccitt_7=crc_ccitt(q, 10);
+  crc = (signed int)return_value_crc_ccitt_7;
   q[(signed long int)10] = (unsigned char)(crc >> 8);
   q[(signed long int)11] = (unsigned char)(crc & 0xFF);
 }
@@ -36032,37 +36032,37 @@ static void subcode_toc(struct burn_drive *d, signed int mode, unsigned char *da
   burn_lba_to_msf(d->rlba, &min, &sec, &frame);
   q[(signed long int)0] = (unsigned char)(((signed int)(d->toc_entry + (signed long int)track)->control << 4) + 1);
   q[(signed long int)1] = (unsigned char)0;
-  signed int return_value_dec_to_bcd$1;
+  signed int return_value_dec_to_bcd_1;
   if(!((signed int)(d->toc_entry + (signed long int)track)->point >= 100))
   {
-    return_value_dec_to_bcd$1=dec_to_bcd((signed int)(d->toc_entry + (signed long int)track)->point);
-    q[(signed long int)2] = (unsigned char)return_value_dec_to_bcd$1;
+    return_value_dec_to_bcd_1=dec_to_bcd((signed int)(d->toc_entry + (signed long int)track)->point);
+    q[(signed long int)2] = (unsigned char)return_value_dec_to_bcd_1;
   }
 
   else
     q[(signed long int)2] = (d->toc_entry + (signed long int)track)->point;
-  signed int return_value_dec_to_bcd$2;
-  return_value_dec_to_bcd$2=dec_to_bcd(min);
-  q[(signed long int)3] = (unsigned char)return_value_dec_to_bcd$2;
-  signed int return_value_dec_to_bcd$3;
-  return_value_dec_to_bcd$3=dec_to_bcd(sec);
-  q[(signed long int)4] = (unsigned char)return_value_dec_to_bcd$3;
-  signed int return_value_dec_to_bcd$4;
-  return_value_dec_to_bcd$4=dec_to_bcd(frame);
-  q[(signed long int)5] = (unsigned char)return_value_dec_to_bcd$4;
+  signed int return_value_dec_to_bcd_2;
+  return_value_dec_to_bcd_2=dec_to_bcd(min);
+  q[(signed long int)3] = (unsigned char)return_value_dec_to_bcd_2;
+  signed int return_value_dec_to_bcd_3;
+  return_value_dec_to_bcd_3=dec_to_bcd(sec);
+  q[(signed long int)4] = (unsigned char)return_value_dec_to_bcd_3;
+  signed int return_value_dec_to_bcd_4;
+  return_value_dec_to_bcd_4=dec_to_bcd(frame);
+  q[(signed long int)5] = (unsigned char)return_value_dec_to_bcd_4;
   q[(signed long int)6] = (unsigned char)0;
-  signed int return_value_dec_to_bcd$5;
-  return_value_dec_to_bcd$5=dec_to_bcd((signed int)(d->toc_entry + (signed long int)track)->pmin);
-  q[(signed long int)7] = (unsigned char)return_value_dec_to_bcd$5;
-  signed int return_value_dec_to_bcd$6;
-  return_value_dec_to_bcd$6=dec_to_bcd((signed int)(d->toc_entry + (signed long int)track)->psec);
-  q[(signed long int)8] = (unsigned char)return_value_dec_to_bcd$6;
-  signed int return_value_dec_to_bcd$7;
-  return_value_dec_to_bcd$7=dec_to_bcd((signed int)(d->toc_entry + (signed long int)track)->pframe);
-  q[(signed long int)9] = (unsigned char)return_value_dec_to_bcd$7;
-  unsigned short int return_value_crc_ccitt$8;
-  return_value_crc_ccitt$8=crc_ccitt(q, 10);
-  crc = (signed int)return_value_crc_ccitt$8;
+  signed int return_value_dec_to_bcd_5;
+  return_value_dec_to_bcd_5=dec_to_bcd((signed int)(d->toc_entry + (signed long int)track)->pmin);
+  q[(signed long int)7] = (unsigned char)return_value_dec_to_bcd_5;
+  signed int return_value_dec_to_bcd_6;
+  return_value_dec_to_bcd_6=dec_to_bcd((signed int)(d->toc_entry + (signed long int)track)->psec);
+  q[(signed long int)8] = (unsigned char)return_value_dec_to_bcd_6;
+  signed int return_value_dec_to_bcd_7;
+  return_value_dec_to_bcd_7=dec_to_bcd((signed int)(d->toc_entry + (signed long int)track)->pframe);
+  q[(signed long int)9] = (unsigned char)return_value_dec_to_bcd_7;
+  unsigned short int return_value_crc_ccitt_8;
+  return_value_crc_ccitt_8=crc_ccitt(q, 10);
+  crc = (signed int)return_value_crc_ccitt_8;
   q[(signed long int)10] = (unsigned char)(crc >> 8);
   q[(signed long int)11] = (unsigned char)(crc & 0xFF);
   d->toc_temp = d->toc_temp + 1;
@@ -36119,48 +36119,48 @@ void subcode_user(struct burn_write_opts *o, unsigned char *subcodes, unsigned c
 
   }
 
-  signed int return_value_dec_to_bcd$1;
-  signed int return_value_dec_to_bcd$2;
-  signed int return_value_dec_to_bcd$3;
-  signed int return_value_dec_to_bcd$4;
-  signed int return_value_dec_to_bcd$5;
-  signed int return_value_dec_to_bcd$6;
-  signed int return_value_dec_to_bcd$7;
-  signed int return_value_dec_to_bcd$8;
-  signed int return_value_dec_to_bcd$9;
-  char return_value_char_to_isrc$10;
-  char return_value_char_to_isrc$11;
-  char return_value_char_to_isrc$12;
-  char return_value_char_to_isrc$13;
-  char return_value_char_to_isrc$14;
-  signed int return_value_dec_to_bcd$15;
-  signed int return_value_dec_to_bcd$16;
-  signed int return_value_dec_to_bcd$17;
-  signed int return_value_dec_to_bcd$18;
-  signed int return_value_dec_to_bcd$19;
+  signed int return_value_dec_to_bcd_1;
+  signed int return_value_dec_to_bcd_2;
+  signed int return_value_dec_to_bcd_3;
+  signed int return_value_dec_to_bcd_4;
+  signed int return_value_dec_to_bcd_5;
+  signed int return_value_dec_to_bcd_6;
+  signed int return_value_dec_to_bcd_7;
+  signed int return_value_dec_to_bcd_8;
+  signed int return_value_dec_to_bcd_9;
+  char return_value_char_to_isrc_10;
+  char return_value_char_to_isrc_11;
+  char return_value_char_to_isrc_12;
+  char return_value_char_to_isrc_13;
+  char return_value_char_to_isrc_14;
+  signed int return_value_dec_to_bcd_15;
+  signed int return_value_dec_to_bcd_16;
+  signed int return_value_dec_to_bcd_17;
+  signed int return_value_dec_to_bcd_18;
+  signed int return_value_dec_to_bcd_19;
   switch(qmode)
   {
     case 1:
     {
-      return_value_dec_to_bcd$1=dec_to_bcd((signed int)tno);
-      q[(signed long int)1] = (unsigned char)return_value_dec_to_bcd$1;
-      return_value_dec_to_bcd$2=dec_to_bcd((signed int)indx);
-      q[(signed long int)2] = (unsigned char)return_value_dec_to_bcd$2;
+      return_value_dec_to_bcd_1=dec_to_bcd((signed int)tno);
+      q[(signed long int)1] = (unsigned char)return_value_dec_to_bcd_1;
+      return_value_dec_to_bcd_2=dec_to_bcd((signed int)indx);
+      q[(signed long int)2] = (unsigned char)return_value_dec_to_bcd_2;
       burn_lba_to_msf(d->rlba, &m, &s, &f);
-      return_value_dec_to_bcd$3=dec_to_bcd(m);
-      q[(signed long int)3] = (unsigned char)return_value_dec_to_bcd$3;
-      return_value_dec_to_bcd$4=dec_to_bcd(s);
-      q[(signed long int)4] = (unsigned char)return_value_dec_to_bcd$4;
-      return_value_dec_to_bcd$5=dec_to_bcd(f);
-      q[(signed long int)5] = (unsigned char)return_value_dec_to_bcd$5;
+      return_value_dec_to_bcd_3=dec_to_bcd(m);
+      q[(signed long int)3] = (unsigned char)return_value_dec_to_bcd_3;
+      return_value_dec_to_bcd_4=dec_to_bcd(s);
+      q[(signed long int)4] = (unsigned char)return_value_dec_to_bcd_4;
+      return_value_dec_to_bcd_5=dec_to_bcd(f);
+      q[(signed long int)5] = (unsigned char)return_value_dec_to_bcd_5;
       q[(signed long int)6] = (unsigned char)0;
       burn_lba_to_msf(d->alba, &m, &s, &f);
-      return_value_dec_to_bcd$6=dec_to_bcd(m);
-      q[(signed long int)7] = (unsigned char)return_value_dec_to_bcd$6;
-      return_value_dec_to_bcd$7=dec_to_bcd(s);
-      q[(signed long int)8] = (unsigned char)return_value_dec_to_bcd$7;
-      return_value_dec_to_bcd$8=dec_to_bcd(f);
-      q[(signed long int)9] = (unsigned char)return_value_dec_to_bcd$8;
+      return_value_dec_to_bcd_6=dec_to_bcd(m);
+      q[(signed long int)7] = (unsigned char)return_value_dec_to_bcd_6;
+      return_value_dec_to_bcd_7=dec_to_bcd(s);
+      q[(signed long int)8] = (unsigned char)return_value_dec_to_bcd_7;
+      return_value_dec_to_bcd_8=dec_to_bcd(f);
+      q[(signed long int)9] = (unsigned char)return_value_dec_to_bcd_8;
       break;
     }
     case 2:
@@ -36174,46 +36174,46 @@ void subcode_user(struct burn_write_opts *o, unsigned char *subcodes, unsigned c
       q[(signed long int)7] = (unsigned char)((signed int)o->mediacatalog[(signed long int)12] << 4);
       q[(signed long int)8] = (unsigned char)0;
       burn_lba_to_msf(d->alba, &m, &s, &f);
-      return_value_dec_to_bcd$9=dec_to_bcd(f);
-      q[(signed long int)9] = (unsigned char)return_value_dec_to_bcd$9;
+      return_value_dec_to_bcd_9=dec_to_bcd(f);
+      q[(signed long int)9] = (unsigned char)return_value_dec_to_bcd_9;
       break;
     }
     case 3:
     {
-      return_value_char_to_isrc$10=char_to_isrc(isrc->country[(signed long int)0]);
-      c = (signed int)return_value_char_to_isrc$10;
+      return_value_char_to_isrc_10=char_to_isrc(isrc->country[(signed long int)0]);
+      c = (signed int)return_value_char_to_isrc_10;
       q[(signed long int)1] = (unsigned char)(c << 2);
-      return_value_char_to_isrc$11=char_to_isrc(isrc->country[(signed long int)1]);
-      c = (signed int)return_value_char_to_isrc$11;
+      return_value_char_to_isrc_11=char_to_isrc(isrc->country[(signed long int)1]);
+      c = (signed int)return_value_char_to_isrc_11;
       q[(signed long int)1] = q[(signed long int)1] + (unsigned char)(c >> 4);
       q[(signed long int)2] = (unsigned char)(c << 4);
-      return_value_char_to_isrc$12=char_to_isrc(isrc->owner[(signed long int)0]);
-      c = (signed int)return_value_char_to_isrc$12;
+      return_value_char_to_isrc_12=char_to_isrc(isrc->owner[(signed long int)0]);
+      c = (signed int)return_value_char_to_isrc_12;
       q[(signed long int)2] = q[(signed long int)2] + (unsigned char)(c >> 2);
       q[(signed long int)3] = (unsigned char)(c << 6);
-      return_value_char_to_isrc$13=char_to_isrc(isrc->owner[(signed long int)1]);
-      c = (signed int)return_value_char_to_isrc$13;
+      return_value_char_to_isrc_13=char_to_isrc(isrc->owner[(signed long int)1]);
+      c = (signed int)return_value_char_to_isrc_13;
       q[(signed long int)3] = q[(signed long int)3] + (unsigned char)c;
-      return_value_char_to_isrc$14=char_to_isrc(isrc->owner[(signed long int)2]);
-      c = (signed int)return_value_char_to_isrc$14;
+      return_value_char_to_isrc_14=char_to_isrc(isrc->owner[(signed long int)2]);
+      c = (signed int)return_value_char_to_isrc_14;
       q[(signed long int)4] = (unsigned char)(c << 2);
-      return_value_dec_to_bcd$15=dec_to_bcd((signed int)isrc->year % 100);
-      q[(signed long int)5] = (unsigned char)return_value_dec_to_bcd$15;
-      return_value_dec_to_bcd$16=dec_to_bcd((signed int)(isrc->serial % (unsigned int)100));
-      q[(signed long int)6] = (unsigned char)return_value_dec_to_bcd$16;
-      return_value_dec_to_bcd$17=dec_to_bcd((signed int)((isrc->serial / (unsigned int)100) % (unsigned int)100));
-      q[(signed long int)7] = (unsigned char)return_value_dec_to_bcd$17;
-      return_value_dec_to_bcd$18=dec_to_bcd((signed int)((isrc->serial / (unsigned int)10000) % (unsigned int)10));
-      q[(signed long int)8] = (unsigned char)(return_value_dec_to_bcd$18 << 4);
+      return_value_dec_to_bcd_15=dec_to_bcd((signed int)isrc->year % 100);
+      q[(signed long int)5] = (unsigned char)return_value_dec_to_bcd_15;
+      return_value_dec_to_bcd_16=dec_to_bcd((signed int)(isrc->serial % (unsigned int)100));
+      q[(signed long int)6] = (unsigned char)return_value_dec_to_bcd_16;
+      return_value_dec_to_bcd_17=dec_to_bcd((signed int)((isrc->serial / (unsigned int)100) % (unsigned int)100));
+      q[(signed long int)7] = (unsigned char)return_value_dec_to_bcd_17;
+      return_value_dec_to_bcd_18=dec_to_bcd((signed int)((isrc->serial / (unsigned int)10000) % (unsigned int)10));
+      q[(signed long int)8] = (unsigned char)(return_value_dec_to_bcd_18 << 4);
       burn_lba_to_msf(d->alba, &m, &s, &f);
-      return_value_dec_to_bcd$19=dec_to_bcd(f);
-      q[(signed long int)9] = (unsigned char)return_value_dec_to_bcd$19;
+      return_value_dec_to_bcd_19=dec_to_bcd(f);
+      q[(signed long int)9] = (unsigned char)return_value_dec_to_bcd_19;
     }
   }
   q[(signed long int)0] = (unsigned char)(((signed int)control << 4) + qmode);
-  unsigned short int return_value_crc_ccitt$20;
-  return_value_crc_ccitt$20=crc_ccitt(q, 10);
-  crc = (signed int)return_value_crc_ccitt$20;
+  unsigned short int return_value_crc_ccitt_20;
+  return_value_crc_ccitt_20=crc_ccitt(q, 10);
+  crc = (signed int)return_value_crc_ccitt_20;
   q[(signed long int)10] = (unsigned char)(crc >> 8);
   q[(signed long int)11] = (unsigned char)(crc & 0xff);
 }
@@ -36226,9 +36226,9 @@ void toc_find_modes(struct burn_drive *d)
   signed int j;
   struct buffer *mem = (struct buffer *)(void *)0;
   struct burn_toc_entry *e;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
-  mem = (struct buffer *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(struct buffer) /*69640ul*/ , (unsigned long int)1, 0);
+  mem = (struct buffer *)return_value_burn_alloc_mem_1;
   if(!(mem == ((struct buffer *)NULL)))
   {
     mem->bytes = 0;
@@ -36241,13 +36241,13 @@ void toc_find_modes(struct burn_drive *d)
       {
         struct burn_track *t = d->disc->session[(signed long int)i]->track[(signed long int)j];
         e = t->entry;
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(!(e == ((struct burn_toc_entry *)NULL)))
-          tmp_if_expr$2 = !(((signed int)e->control & 4) != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = !(((signed int)e->control & 4) != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
           t->mode = 1 << 6;
 
         else
@@ -36297,9 +36297,9 @@ static signed int type_to_ctrl(signed int mode)
 void type_to_form(signed int mode, unsigned char *ctladr, signed int *form)
 {
   signed int ret;
-  signed int return_value_type_to_ctrl$1;
-  return_value_type_to_ctrl$1=type_to_ctrl(mode);
-  ret = return_value_type_to_ctrl$1 << 4;
+  signed int return_value_type_to_ctrl_1;
+  return_value_type_to_ctrl_1=type_to_ctrl(mode);
+  ret = return_value_type_to_ctrl_1 << 4;
   if(ret == -1)
   {
     *ctladr = (unsigned char)0xff;
@@ -36383,9 +36383,9 @@ static void unget_sector(struct burn_write_opts *opts, signed int inmode)
   seclen=burn_sector_length(outmode);
   if(seclen >= 1)
   {
-    signed int return_value_burn_subcode_length$1;
-    return_value_burn_subcode_length$1=burn_subcode_length(outmode);
-    seclen = seclen + return_value_burn_subcode_length$1;
+    signed int return_value_burn_subcode_length_1;
+    return_value_burn_subcode_length_1=burn_subcode_length(outmode);
+    seclen = seclen + return_value_burn_subcode_length_1;
     out->bytes = out->bytes - seclen;
     out->sectors = out->sectors - 1;
   }
@@ -36400,9 +36400,9 @@ static signed int v07t_apply_to_session(struct burn_session *session, signed int
   signed int ret;
   signed int length;
   char *line = (char *)(void *)0;
-  void *return_value_burn_alloc_mem$1;
-  return_value_burn_alloc_mem$1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
-  line = (char *)return_value_burn_alloc_mem$1;
+  void *return_value_burn_alloc_mem_1;
+  return_value_burn_alloc_mem_1=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)4096, 0);
+  line = (char *)return_value_burn_alloc_mem_1;
   if(line == ((char *)NULL))
     ret = -1;
 
@@ -36412,13 +36412,13 @@ static signed int v07t_apply_to_session(struct burn_session *session, signed int
     for( ; !(i >= 143); i = i + 1)
       if(!(i >= 134) || i == 0x8e)
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(!(session_attr_seen[(signed long int)(i + -128)] == 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = !(track_attr_seen[(signed long int)(i - 0x80)] != 0) ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = !(track_attr_seen[(signed long int)(i - 0x80)] != 0) ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_2)
         {
           ret=v07t_cdtext_to_session(session, block, "", char_codes + (signed long int)block, i, (char *)(void *)0, 0);
           if(!(ret >= 1))
@@ -36435,9 +36435,9 @@ static signed int v07t_apply_to_session(struct burn_session *session, signed int
         line[(signed long int)0] = (char)(genre_code >> 8 & 0xff);
         line[(signed long int)1] = (char)(genre_code & 0xff);
         strcpy(line + (signed long int)2, genre_text);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(line + (signed long int)2);
-        length = (signed int)((unsigned long int)2 + return_value_strlen$3 + (unsigned long int)1);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(line + (signed long int)2);
+        length = (signed int)((unsigned long int)2 + return_value_strlen_3 + (unsigned long int)1);
         ret=burn_session_set_cdtext(session, block, 0, "GENRE", (unsigned char *)line, length, 0);
         if(!(ret >= 1))
           goto ex;
@@ -36483,44 +36483,44 @@ static signed int v07t_cdtext_char_code(char *payload, signed int flag)
   signed int ret;
   char *msg = (char *)(void *)0;
   ret=v07t_hexcode(payload, 0);
-  char *return_value_strstr$2;
-  char *return_value_strstr$1;
-  char *return_value_burn_printify$5;
+  char *return_value_strstr_2;
+  char *return_value_strstr_1;
+  char *return_value_burn_printify_5;
   if(ret >= 0)
     return ret;
 
   else
   {
-    char *return_value_strstr$3;
-    return_value_strstr$3=strstr(payload, "8859");
-    if(!(return_value_strstr$3 == ((char *)NULL)))
+    char *return_value_strstr_3;
+    return_value_strstr_3=strstr(payload, "8859");
+    if(!(return_value_strstr_3 == ((char *)NULL)))
       return 0x00;
 
     else
     {
-      return_value_strstr$2=strstr(payload, "ASCII");
-      if(!(return_value_strstr$2 == ((char *)NULL)))
+      return_value_strstr_2=strstr(payload, "ASCII");
+      if(!(return_value_strstr_2 == ((char *)NULL)))
         return 0x01;
 
       else
       {
-        return_value_strstr$1=strstr(payload, "JIS");
-        if(!(return_value_strstr$1 == ((char *)NULL)))
+        return_value_strstr_1=strstr(payload, "JIS");
+        if(!(return_value_strstr_1 == ((char *)NULL)))
           return 0x80;
 
       }
     }
-    void *return_value_burn_alloc_mem$4;
-    return_value_burn_alloc_mem$4=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-    msg = (char *)return_value_burn_alloc_mem$4;
+    void *return_value_burn_alloc_mem_4;
+    return_value_burn_alloc_mem_4=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+    msg = (char *)return_value_burn_alloc_mem_4;
     if(msg == ((char *)NULL))
       ret = -1;
 
     else
     {
       sprintf(msg, "Unknown v07t Text Code '%.80s'", payload);
-      return_value_burn_printify$5=burn_printify(msg);
-      libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify$5, 0, 0);
+      return_value_burn_printify_5=burn_printify(msg);
+      libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify_5, 0, 0);
       ret = -1;
     }
 
@@ -36541,8 +36541,8 @@ static signed int v07t_cdtext_genre_code(char *payload, signed int flag)
   signed int ret;
   char *msg = (char *)(void *)0;
   ret=v07t_hexcode(payload, 1);
-  signed int return_value_strcmp$1;
-  char *return_value_burn_printify$3;
+  signed int return_value_strcmp_1;
+  char *return_value_burn_printify_3;
   if(ret >= 0)
     return ret;
 
@@ -36552,22 +36552,22 @@ static signed int v07t_cdtext_genre_code(char *payload, signed int flag)
     for( ; !(i >= 28); i = i + 1)
     {
       static char *genres[28l] = { "Not Used", "Not Defined", "Adult Contemporary", "Alternative Rock", "Childrens Music", "Classical", "Contemporary Christian", "Country", "Dance", "Easy Listening", "Erotic", "Folk", "Gospel", "Hip Hop", "Jazz", "Latin", "Musical", "New Age", "Opera", "Operetta", "Pop Music", "Rap", "Reggae", "Rock Music", "Rhythm & Blues", "Sound Effects", "Spoken Word", "World Music" };
-      return_value_strcmp$1=strcmp(genres[(signed long int)i], payload);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(genres[(signed long int)i], payload);
+      if(return_value_strcmp_1 == 0)
         return i;
 
     }
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-    msg = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+    msg = (char *)return_value_burn_alloc_mem_2;
     if(msg == ((char *)NULL))
       ret = -1;
 
     else
     {
       sprintf(msg, "Unknown v07t Genre Code '%.80s'", payload);
-      return_value_burn_printify$3=burn_printify(msg);
-      libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify$3, 0, 0);
+      return_value_burn_printify_3=burn_printify(msg);
+      libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify_3, 0, 0);
       ret = -1;
     }
 
@@ -36588,8 +36588,8 @@ static signed int v07t_cdtext_lang_code(char *payload, signed int flag)
   signed int ret;
   char *msg = (char *)(void *)0;
   ret=v07t_hexcode(payload, 0);
-  signed int return_value_strcmp$1;
-  char *return_value_burn_printify$3;
+  signed int return_value_strcmp_1;
+  char *return_value_burn_printify_3;
   if(ret >= 0)
     return ret;
 
@@ -36601,24 +36601,24 @@ static signed int v07t_cdtext_lang_code(char *payload, signed int flag)
       for( ; !(i >= 128); i = i + 1)
       {
         static char *languages[128l] = { "Unknown", "Albanian", "Breton", "Catalan", "Croatian", "Welsh", "Czech", "Danish", "German", "English", "Spanish", "Esperanto", "Estonian", "Basque", "Faroese", "French", "Frisian", "Irish", "Gaelic", "Galician", "Icelandic", "Italian", "Lappish", "Latin", "Latvian", "Luxembourgian", "Lithuanian", "Hungarian", "Maltese", "Dutch", "Norwegian", "Occitan", "Polish", "Portuguese", "Romanian", "Romansh", "Serbian", "Slovak", "Slovenian", "Finnish", "Swedish", "Turkish", "Flemish", "Wallon", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Zulu", "Vietnamese", "Uzbek", "Urdu", "Ukrainian", "Thai", "Telugu", "Tatar", "Tamil", "Tadzhik", "Swahili", "Sranan Tongo", "Somali", "Sinhalese", "Shona", "Serbo-croat", "Ruthenian", "Russian", "Quechua", "Pushtu", "Punjabi", "Persian", "Papamiento", "Oriya", "Nepali", "Ndebele", "Marathi", "Moldavian", "Malaysian", "Malagasay", "Macedonian", "Laotian", "Korean", "Khmer", "Kazakh", "Kannada", "Japanese", "Indonesian", "Hindi", "Hebrew", "Hausa", "Gurani", "Gujurati", "Greek", "Georgian", "Fulani", "Dari", "Churash", "Chinese", "Burmese", "Bulgarian", "Bengali", "Bielorussian", "Bambora", "Azerbaijani", "Assamese", "Armenian", "Arabic", "Amharic" };
-        return_value_strcmp$1=strcmp(languages[(signed long int)i], payload);
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(languages[(signed long int)i], payload);
+        if(return_value_strcmp_1 == 0)
           return i;
 
       }
     }
 
-    void *return_value_burn_alloc_mem$2;
-    return_value_burn_alloc_mem$2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
-    msg = (char *)return_value_burn_alloc_mem$2;
+    void *return_value_burn_alloc_mem_2;
+    return_value_burn_alloc_mem_2=burn_alloc_mem(sizeof(char) /*1ul*/ , (unsigned long int)160, 0);
+    msg = (char *)return_value_burn_alloc_mem_2;
     if(msg == ((char *)NULL))
       ret = -1;
 
     else
     {
       sprintf(msg, "Unknown v07t Language Code '%.80s'", payload);
-      return_value_burn_printify$3=burn_printify(msg);
-      libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify$3, 0, 0);
+      return_value_burn_printify_3=burn_printify(msg);
+      libdax_msgs_submit(libdax_messenger, -1, 0x00020191, 0x68000000, 0x30000000, return_value_burn_printify_3, 0, 0);
       ret = -1;
     }
 
@@ -36639,9 +36639,9 @@ static signed int v07t_cdtext_len_db(char *payload, signed int *char_code, signe
     *char_code = 0x00;
 
   *double_byte = (signed int)(*char_code == 0x80);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(payload);
-  *length = (signed int)(return_value_strlen$1 + (unsigned long int)1 + (unsigned long int)*double_byte);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(payload);
+  *length = (signed int)(return_value_strlen_1 + (unsigned long int)1 + (unsigned long int)*double_byte);
   return 1;
 }
 
@@ -36691,35 +36691,35 @@ static signed int v07t_hexcode(char *payload, signed int flag)
   signed int l;
   char buf[10l];
   char *cpt;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(payload);
-  l = (signed int)return_value_strlen$1;
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(payload, "0x", (unsigned long int)2);
-  unsigned long int return_value_strlen$3;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  if(!(return_value_strncmp$2 == 0))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(payload);
+  l = (signed int)return_value_strlen_1;
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(payload, "0x", (unsigned long int)2);
+  unsigned long int return_value_strlen_3;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  if(!(return_value_strncmp_2 == 0))
     return -1;
 
   else
     if((1 & flag) == 0 || !(l == 6) && !(l == 9))
     {
-      return_value_strlen$3=strlen(payload);
-      if(!(return_value_strlen$3 == 4ul))
+      return_value_strlen_3=strlen(payload);
+      if(!(return_value_strlen_3 == 4ul))
         return -1;
 
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      _Bool tmp_if_expr$6;
-      if(!((4096 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)payload[2l]]) == 0))
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      _Bool tmp_if_expr_6;
+      if(!((4096 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)payload[2l]]) == 0))
       {
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        tmp_if_expr$6 = ((signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)payload[(signed long int)3]] & (signed int)(unsigned short int)4096) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        tmp_if_expr_6 = ((signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)payload[(signed long int)3]] & (signed int)(unsigned short int)4096) != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(!tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(!tmp_if_expr_6)
         return -1;
 
       __isoc99_sscanf(payload + (signed long int)2, "%x", &x);
@@ -36734,9 +36734,9 @@ static signed int v07t_hexcode(char *payload, signed int flag)
       strcpy(buf, payload);
       buf[(signed long int)4] = (char)0;
       hi=v07t_hexcode(buf, 0);
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(payload);
-      if(return_value_strlen$7 == 6ul)
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(payload);
+      if(return_value_strlen_7 == 6ul)
       {
         buf[(signed long int)4] = payload[(signed long int)4];
         buf[(signed long int)2] = (char)48;
@@ -36770,8 +36770,8 @@ static void * write_disc_worker_func(struct w_list *w)
 {
   struct burn_drive *d = w->u.write.drive;
   char msg[80l];
-  struct anonymous$0 sigset;
-  struct anonymous$0 oldset;
+  struct anonymous_0 sigset;
+  struct anonymous_0 oldset;
   sigfillset(&sigset);
   sigdelset(&sigset, 11);
   sigdelset(&sigset, 4);
@@ -36785,11 +36785,11 @@ static void * write_disc_worker_func(struct w_list *w)
   burn_write_opts_free(w->u.write.opts);
   sprintf(msg, "Write thread on drive %d ended", d->global_index);
   libdax_msgs_submit(libdax_messenger, d->global_index, 0x00020178, 0x10000000, 0x30000000, msg, 0, 0);
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  remove_worker(return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  remove_worker(return_value_pthread_self_1);
   d->busy = (volatile enum burn_drive_status)BURN_DRIVE_IDLE;
-  pthread_sigmask(2, &oldset, (struct anonymous$0 *)(void *)0);
+  pthread_sigmask(2, &oldset, (struct anonymous_0 *)(void *)0);
   return (void *)0;
 }
 
@@ -36798,21 +36798,21 @@ static void * write_disc_worker_func(struct w_list *w)
 static void write_v07t_line(char **respt, char *spec, char *value, signed int vlen, signed int *result_len, signed int flag)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(vlen == -1)
   {
-    return_value_strlen$1=strlen(value);
-    vlen = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(value);
+    vlen = (signed int)return_value_strlen_1;
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(spec);
-  len = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(spec);
+  len = (signed int)return_value_strlen_2;
   if(!(len >= 19))
     len = 19;
 
   len = len + 3 + vlen + 1;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!((1 & flag) == 0))
     *result_len = *result_len + len;
 
@@ -36821,8 +36821,8 @@ static void write_v07t_line(char **respt, char *spec, char *value, signed int vl
     sprintf(*respt, "%-19s = ", spec);
     if(vlen >= 1)
     {
-      return_value_strlen$3=strlen(*respt);
-      memcpy((void *)(*respt + (signed long int)return_value_strlen$3), (const void *)value, (unsigned long int)vlen);
+      return_value_strlen_3=strlen(*respt);
+      memcpy((void *)(*respt + (signed long int)return_value_strlen_3), (const void *)value, (unsigned long int)vlen);
     }
 
     (*respt)[(signed long int)(len - 1)] = (char)10;
@@ -36846,22 +36846,22 @@ static signed int write_v07t_textline(unsigned char *text_packs, signed int num_
     tab_flag = 2;
 
   ret=collect_payload(text_packs, num_packs, pack_type, block, &payload, &payload_count, 0);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(ret >= 1)
   {
     ret=pick_payload_text(payload, payload_count, tno, &text_start, &text_len, (signed int)(ret == 2) | tab_flag);
     if(ret >= 1)
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(tno >= 1)
       {
-        return_value_strcmp$1=strcmp(spec, "ISRC");
-        tmp_if_expr$2 = return_value_strcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_1=strcmp(spec, "ISRC");
+        tmp_if_expr_2 = return_value_strcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         sprintf(msg, "%s %-2.2d", spec, (tno + first_tno) - 1);
 
       else

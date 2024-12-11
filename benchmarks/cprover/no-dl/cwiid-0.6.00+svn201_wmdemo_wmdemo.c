@@ -1,26 +1,26 @@
-// tag-#anon#ST[ARR6{U8}$U8$'b'|]
+// tag-#anon#ST[ARR6{U8}_U8_'b'|]
 // file /usr/include/bluetooth/bluetooth.h line 300
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[ARR6{U8}$U8$'b'|]#'bdaddr'||U8'pscan_rep_mode'||U8'pscan_period_mode'||U8'pscan_mode'||ARR3{U8}$U8$'dev_class'||U16'clock_offset'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[ARR6{U8}_U8_'b'|]#'bdaddr'||U8'pscan_rep_mode'||U8'pscan_period_mode'||U8'pscan_mode'||ARR3{U8}_U8_'dev_class'||U16'clock_offset'|]
 // file /usr/include/bluetooth/hci.h line 1748
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -183,10 +183,10 @@ enum write_seq_type { WRITE_SEQ_RPT=0, WRITE_SEQ_MEM=1 };
 extern signed int * __errno_location(void);
 // bacmp
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp(const struct anonymous$4 *ba1, const struct anonymous$4 *ba2);
+static inline signed int bacmp(const struct anonymous_4 *ba1, const struct anonymous_4 *ba2);
 // bacpy
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy(struct anonymous$4 *dst, const struct anonymous$4 *src);
+static inline void bacpy(struct anonymous_4 *dst, const struct anonymous_4 *src);
 // cancel_mesg_callback
 // file cwiid_internal.h line 205
 signed int cancel_mesg_callback(struct wiimote *wiimote);
@@ -226,12 +226,12 @@ void cwiid_err(struct wiimote *wiimote, const char *str, ...);
 // cwiid_err_default
 // file util.c line 74
 void cwiid_err_default(struct wiimote *wiimote, const char *str, void **ap);
-// cwiid_err_func$object
+// cwiid_err_func_object
 //
-void cwiid_err_func$object(struct wiimote *, const char *, void **);
+void cwiid_err_func_object(struct wiimote *, const char *, void **);
 // cwiid_find_wiimote
 // file bluetooth.c line 173
-signed int cwiid_find_wiimote(struct anonymous$4 *bdaddr, signed int timeout);
+signed int cwiid_find_wiimote(struct anonymous_4 *bdaddr, signed int timeout);
 // cwiid_get_acc_cal
 // file interface.c line 161
 signed int cwiid_get_acc_cal(struct wiimote *wiimote, enum cwiid_ext_type ext_type, struct acc_cal *acc_cal);
@@ -255,10 +255,10 @@ signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union
 signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state);
 // cwiid_open
 // file ../libcwiid/cwiid.h line 360
-struct wiimote * cwiid_open(struct anonymous$4 *bdaddr, signed int flags);
+struct wiimote * cwiid_open(struct anonymous_4 *bdaddr, signed int flags);
 // cwiid_open_timeout
 // file connect.c line 73
-struct wiimote * cwiid_open_timeout(struct anonymous$4 *bdaddr, signed int flags, signed int timeout);
+struct wiimote * cwiid_open_timeout(struct anonymous_4 *bdaddr, signed int flags, signed int timeout);
 // cwiid_read
 // file command.c line 157
 signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int offset, unsigned short int len, void *data);
@@ -274,18 +274,18 @@ signed int cwiid_set_data(struct wiimote *wiimote, const void *data);
 // cwiid_set_err
 // file ../libcwiid/cwiid.h line 354
 signed int cwiid_set_err(void (*err)(struct wiimote *, const char *, void **));
-// cwiid_set_err::err$object
+// cwiid_set_err::err_object
 //
-void err$object(struct wiimote *, const char *, void **);
+void err_object(struct wiimote *, const char *, void **);
 // cwiid_set_led
 // file ../libcwiid/cwiid.h line 387
 signed int cwiid_set_led(struct wiimote *wiimote, unsigned char led);
 // cwiid_set_mesg_callback
 // file ../libcwiid/cwiid.h line 371
 signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *));
-// cwiid_set_mesg_callback::callback$object
+// cwiid_set_mesg_callback::callback_object
 //
-void callback$object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
 // cwiid_set_rpt_mode
 // file ../libcwiid/cwiid.h line 389
 signed int cwiid_set_rpt_mode(struct wiimote *wiimote, unsigned char rpt_mode);
@@ -324,16 +324,16 @@ extern signed int getchar(void);
 signed int hci_close_dev(signed int);
 // hci_get_route
 // file /usr/include/bluetooth/hci_lib.h line 146
-signed int hci_get_route(struct anonymous$4 *);
+signed int hci_get_route(struct anonymous_4 *);
 // hci_inquiry
 // file /usr/include/bluetooth/hci_lib.h line 59
-signed int hci_inquiry(signed int, signed int, signed int, const unsigned char *, struct anonymous$2 **, signed long int);
+signed int hci_inquiry(signed int, signed int, signed int, const unsigned char *, struct anonymous_2 **, signed long int);
 // hci_open_dev
 // file /usr/include/bluetooth/hci_lib.h line 51
 signed int hci_open_dev(signed int);
 // hci_read_remote_name
 // file /usr/include/bluetooth/hci_lib.h line 66
-signed int hci_read_remote_name(signed int, const struct anonymous$4 *, signed int, char *, signed int);
+signed int hci_read_remote_name(signed int, const struct anonymous_4 *, signed int, char *, signed int);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -349,9 +349,9 @@ extern void * memset(void *, signed int, unsigned long int);
 // mesg_callback_thread
 // file cwiid_internal.h line 194
 void * mesg_callback_thread(struct wiimote *wiimote);
-// mesg_callback_thread::1::callback$object
+// mesg_callback_thread::1::callback_object
 //
-void callback$object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
 // pipe
 // file /usr/include/unistd.h line 417
 extern signed int pipe(signed int *);
@@ -393,7 +393,7 @@ signed int process_write(struct wiimote *wiimote, unsigned char *data);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$1 *, union anonymous$3 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_1 *, union anonymous_3 *, struct timespec *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -405,16 +405,16 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -447,7 +447,7 @@ extern signed int socket(signed int, signed int, signed int);
 void * status_thread(struct wiimote *wiimote);
 // str2ba
 // file /usr/include/bluetooth/bluetooth.h line 327
-signed int str2ba(const char *, struct anonymous$4 *);
+signed int str2ba(const char *, struct anonymous_4 *);
 // strncmp
 // file /usr/include/string.h line 147
 extern signed int strncmp(const char *, const char *, unsigned long int);
@@ -473,13 +473,13 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file cwiid_internal.h line 202
 signed int write_mesg_array(struct wiimote *wiimote, struct mesg_array *ma);
 
-struct anonymous$4
+struct anonymous_4
 {
   // b
   unsigned char b[6l];
 } __attribute__ ((__packed__));
 
-struct anonymous$0
+struct anonymous_0
 {
   // __lock
   signed int __lock;
@@ -499,10 +499,10 @@ struct anonymous$0
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // bdaddr
-  struct anonymous$4 bdaddr;
+  struct anonymous_4 bdaddr;
   // pscan_rep_mode
   unsigned char pscan_rep_mode;
   // pscan_period_mode
@@ -523,10 +523,10 @@ union anonymous
   signed int __align;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$0 __data;
+  struct anonymous_0 __data;
   // __size
   char __size[48l];
   // __align
@@ -561,7 +561,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -714,7 +714,7 @@ struct cwiid_balance_mesg
 struct cwiid_bdinfo
 {
   // bdaddr
-  struct anonymous$4 bdaddr;
+  struct anonymous_4 bdaddr;
   // btclass
   unsigned char btclass[3l];
   // name
@@ -932,7 +932,7 @@ struct sockaddr_l2
   // l2_psm
   unsigned short int l2_psm;
   // l2_bdaddr
-  struct anonymous$4 l2_bdaddr;
+  struct anonymous_4 l2_bdaddr;
   // l2_cid
   unsigned short int l2_cid;
   // l2_bdaddr_type
@@ -966,11 +966,11 @@ struct wiimote
   // mesg_callback
   void (*mesg_callback)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
   // state_mutex
-  union anonymous$3 state_mutex;
+  union anonymous_3 state_mutex;
   // rw_mutex
-  union anonymous$3 rw_mutex;
+  union anonymous_3 rw_mutex;
   // rpt_mutex
-  union anonymous$3 rpt_mutex;
+  union anonymous_3 rpt_mutex;
   // id
   signed int id;
   // data
@@ -1000,7 +1000,7 @@ static void (*cwiid_err_func)(struct wiimote *, const char *, void **);
 static void (*cwiid_err_func)(struct wiimote *, const char *, void **) = cwiid_err_default;
 // global_mutex
 // file connect.c line 64
-union anonymous$3 global_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 global_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // ir_block1
@@ -1081,18 +1081,18 @@ static signed int wiimote_id = 0;
 
 // bacmp
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp(const struct anonymous$4 *ba1, const struct anonymous$4 *ba2)
+static inline signed int bacmp(const struct anonymous_4 *ba1, const struct anonymous_4 *ba2)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)ba1, (const void *)ba2, sizeof(struct anonymous$4) /*6ul*/ );
-  return return_value_memcmp$1;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)ba1, (const void *)ba2, sizeof(struct anonymous_4) /*6ul*/ );
+  return return_value_memcmp_1;
 }
 
 // bacpy
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy(struct anonymous$4 *dst, const struct anonymous$4 *src)
+static inline void bacpy(struct anonymous_4 *dst, const struct anonymous_4 *src)
 {
-  memcpy((void *)dst, (const void *)src, sizeof(struct anonymous$4) /*6ul*/ );
+  memcpy((void *)dst, (const void *)src, sizeof(struct anonymous_4) /*6ul*/ );
 }
 
 // cancel_mesg_callback
@@ -1100,17 +1100,17 @@ static inline void bacpy(struct anonymous$4 *dst, const struct anonymous$4 *src)
 signed int cancel_mesg_callback(struct wiimote *wiimote)
 {
   signed int ret = 0;
-  signed int return_value_pthread_cancel$1;
-  return_value_pthread_cancel$1=pthread_cancel(wiimote->mesg_callback_thread);
-  if(!(return_value_pthread_cancel$1 == 0))
+  signed int return_value_pthread_cancel_1;
+  return_value_pthread_cancel_1=pthread_cancel(wiimote->mesg_callback_thread);
+  if(!(return_value_pthread_cancel_1 == 0))
   {
     cwiid_err(wiimote, "Thread cancel error (callback thread)");
     ret = -1;
   }
 
-  signed int return_value_pthread_detach$2;
-  return_value_pthread_detach$2=pthread_detach(wiimote->mesg_callback_thread);
-  if(!(return_value_pthread_detach$2 == 0))
+  signed int return_value_pthread_detach_2;
+  return_value_pthread_detach_2=pthread_detach(wiimote->mesg_callback_thread);
+  if(!(return_value_pthread_detach_2 == 0))
   {
     cwiid_err(wiimote, "Thread detach error (callback thread)");
     ret = -1;
@@ -1125,9 +1125,9 @@ signed int cancel_rw(struct wiimote *wiimote)
 {
   struct rw_mesg rw_mesg;
   rw_mesg.type = (enum rw_status)RW_CANCEL;
-  signed long int return_value_write$1;
-  return_value_write$1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
-  if(!((unsigned long int)return_value_write$1 == sizeof(struct rw_mesg) /*32ul*/ ))
+  signed long int return_value_write_1;
+  return_value_write_1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
+  if(!((unsigned long int)return_value_write_1 == sizeof(struct rw_mesg) /*32ul*/ ))
   {
     cwiid_err(wiimote, "Pipe write error (rw)");
     return -1;
@@ -1144,17 +1144,17 @@ signed int cwiid_beep(struct wiimote *wiimote)
   unsigned char buf[21l] = { (unsigned char)0xA0, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3 };
   signed int i;
   signed int ret = 0;
-  union anonymous$3 timer_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+  union anonymous_3 timer_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
-  union anonymous$1 timer_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+  union anonymous_1 timer_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
   struct timespec t;
-  signed int return_value_exec_write_seq$1;
-  return_value_exec_write_seq$1=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [7l]) /*168ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_enable_seq);
-  if(!(return_value_exec_write_seq$1 == 0))
+  signed int return_value_exec_write_seq_1;
+  return_value_exec_write_seq_1=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [7l]) /*168ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_enable_seq);
+  if(!(return_value_exec_write_seq_1 == 0))
   {
     cwiid_err(wiimote, "Speaker enable error");
     ret = -1;
@@ -1166,9 +1166,9 @@ signed int cwiid_beep(struct wiimote *wiimote)
   {
     clock_gettime(0, &t);
     t.tv_nsec = t.tv_nsec + (signed long int)10204081;
-    signed int return_value_cwiid_send_rpt$2;
-    return_value_cwiid_send_rpt$2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x18, (unsigned long int)21, (const void *)buf);
-    if(!(return_value_cwiid_send_rpt$2 == 0))
+    signed int return_value_cwiid_send_rpt_2;
+    return_value_cwiid_send_rpt_2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x18, (unsigned long int)21, (const void *)buf);
+    if(!(return_value_cwiid_send_rpt_2 == 0))
     {
       printf("%d\n", i);
       cwiid_err(wiimote, "Report send error (speaker data)");
@@ -1179,9 +1179,9 @@ signed int cwiid_beep(struct wiimote *wiimote)
     pthread_cond_timedwait(&timer_cond, &timer_mutex, &t);
   }
   pthread_mutex_unlock(&timer_mutex);
-  signed int return_value_exec_write_seq$3;
-  return_value_exec_write_seq$3=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_disable_seq);
-  if(!(return_value_exec_write_seq$3 == 0))
+  signed int return_value_exec_write_seq_3;
+  return_value_exec_write_seq_3=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_disable_seq);
+  if(!(return_value_exec_write_seq_3 == 0))
   {
     cwiid_err(wiimote, "Speaker disable error");
     ret = -1;
@@ -1198,7 +1198,7 @@ void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_
   signed int j;
   signed int valid_source;
   i = 0;
-  signed int return_value_cwiid_close$1;
+  signed int return_value_cwiid_close_1;
   for( ; !(i >= mesg_count); i = i + 1)
     switch((signed int)(mesg + (signed long int)i)->type)
     {
@@ -1288,8 +1288,8 @@ void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_
       }
       case CWIID_MESG_ERROR:
       {
-        return_value_cwiid_close$1=cwiid_close(wiimote);
-        if(!(return_value_cwiid_close$1 == 0))
+        return_value_cwiid_close_1=cwiid_close(wiimote);
+        if(!(return_value_cwiid_close_1 == 0))
         {
           fprintf(stderr, "Error on wiimote disconnect\n");
           exit(-1);
@@ -1308,22 +1308,22 @@ void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_
 signed int cwiid_close(struct wiimote *wiimote)
 {
   void *pthread_ret;
-  signed int return_value_pthread_cancel$1;
-  return_value_pthread_cancel$1=pthread_cancel(wiimote->router_thread);
-  signed int return_value_pthread_join$2;
-  return_value_pthread_join$2=pthread_join(wiimote->router_thread, &pthread_ret);
-  if(!(return_value_pthread_join$2 == 0))
+  signed int return_value_pthread_cancel_1;
+  return_value_pthread_cancel_1=pthread_cancel(wiimote->router_thread);
+  signed int return_value_pthread_join_2;
+  return_value_pthread_join_2=pthread_join(wiimote->router_thread, &pthread_ret);
+  if(!(return_value_pthread_join_2 == 0))
     cwiid_err(wiimote, "Thread join error (router thread)");
 
   else
     if(!(pthread_ret == NULL) && !(pthread_ret == (void *)-1))
       cwiid_err(wiimote, "Bad return value from router thread");
 
-  signed int return_value_pthread_cancel$3;
-  return_value_pthread_cancel$3=pthread_cancel(wiimote->status_thread);
-  signed int return_value_pthread_join$4;
-  return_value_pthread_join$4=pthread_join(wiimote->status_thread, &pthread_ret);
-  if(!(return_value_pthread_join$4 == 0))
+  signed int return_value_pthread_cancel_3;
+  return_value_pthread_cancel_3=pthread_cancel(wiimote->status_thread);
+  signed int return_value_pthread_join_4;
+  return_value_pthread_join_4=pthread_join(wiimote->status_thread, &pthread_ret);
+  if(!(return_value_pthread_join_4 == 0))
     cwiid_err(wiimote, "Thread join error (status thread)");
 
   else
@@ -1332,80 +1332,80 @@ signed int cwiid_close(struct wiimote *wiimote)
 
   if(!(wiimote->mesg_callback == ((void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))NULL)))
   {
-    signed int return_value_cancel_mesg_callback$5;
-    return_value_cancel_mesg_callback$5=cancel_mesg_callback(wiimote);
+    signed int return_value_cancel_mesg_callback_5;
+    return_value_cancel_mesg_callback_5=cancel_mesg_callback(wiimote);
   }
 
-  signed int return_value_cancel_rw$6;
-  return_value_cancel_rw$6=cancel_rw(wiimote);
-  signed int return_value_close$7;
-  return_value_close$7=close(wiimote->int_socket);
-  if(!(return_value_close$7 == 0))
+  signed int return_value_cancel_rw_6;
+  return_value_cancel_rw_6=cancel_rw(wiimote);
+  signed int return_value_close_7;
+  return_value_close_7=close(wiimote->int_socket);
+  if(!(return_value_close_7 == 0))
     cwiid_err(wiimote, "Socket close error (interrupt channel)");
 
-  signed int return_value_close$8;
-  return_value_close$8=close(wiimote->ctl_socket);
-  if(!(return_value_close$8 == 0))
+  signed int return_value_close_8;
+  return_value_close_8=close(wiimote->ctl_socket);
+  if(!(return_value_close_8 == 0))
     cwiid_err(wiimote, "Socket close error (control channel)");
 
-  signed int return_value_close$9;
-  return_value_close$9=close(wiimote->mesg_pipe[(signed long int)0]);
-  _Bool tmp_if_expr$11;
-  signed int return_value_close$10;
-  if(!(return_value_close$9 == 0))
-    tmp_if_expr$11 = (_Bool)1;
+  signed int return_value_close_9;
+  return_value_close_9=close(wiimote->mesg_pipe[(signed long int)0]);
+  _Bool tmp_if_expr_11;
+  signed int return_value_close_10;
+  if(!(return_value_close_9 == 0))
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_close$10=close(wiimote->mesg_pipe[(signed long int)1]);
-    tmp_if_expr$11 = return_value_close$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_close_10=close(wiimote->mesg_pipe[(signed long int)1]);
+    tmp_if_expr_11 = return_value_close_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$11)
+  if(tmp_if_expr_11)
     cwiid_err(wiimote, "Pipe close error (mesg pipe)");
 
-  signed int return_value_close$12;
-  return_value_close$12=close(wiimote->status_pipe[(signed long int)0]);
-  _Bool tmp_if_expr$14;
-  signed int return_value_close$13;
-  if(!(return_value_close$12 == 0))
-    tmp_if_expr$14 = (_Bool)1;
+  signed int return_value_close_12;
+  return_value_close_12=close(wiimote->status_pipe[(signed long int)0]);
+  _Bool tmp_if_expr_14;
+  signed int return_value_close_13;
+  if(!(return_value_close_12 == 0))
+    tmp_if_expr_14 = (_Bool)1;
 
   else
   {
-    return_value_close$13=close(wiimote->status_pipe[(signed long int)1]);
-    tmp_if_expr$14 = return_value_close$13 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_close_13=close(wiimote->status_pipe[(signed long int)1]);
+    tmp_if_expr_14 = return_value_close_13 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$14)
+  if(tmp_if_expr_14)
     cwiid_err(wiimote, "Pipe close error (status pipe)");
 
-  signed int return_value_close$15;
-  return_value_close$15=close(wiimote->rw_pipe[(signed long int)0]);
-  _Bool tmp_if_expr$17;
-  signed int return_value_close$16;
-  if(!(return_value_close$15 == 0))
-    tmp_if_expr$17 = (_Bool)1;
+  signed int return_value_close_15;
+  return_value_close_15=close(wiimote->rw_pipe[(signed long int)0]);
+  _Bool tmp_if_expr_17;
+  signed int return_value_close_16;
+  if(!(return_value_close_15 == 0))
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_close$16=close(wiimote->rw_pipe[(signed long int)1]);
-    tmp_if_expr$17 = return_value_close$16 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_close_16=close(wiimote->rw_pipe[(signed long int)1]);
+    tmp_if_expr_17 = return_value_close_16 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$17)
+  if(tmp_if_expr_17)
     cwiid_err(wiimote, "Pipe close error (rw pipe)");
 
-  signed int return_value_pthread_mutex_destroy$18;
-  return_value_pthread_mutex_destroy$18=pthread_mutex_destroy(&wiimote->state_mutex);
-  if(!(return_value_pthread_mutex_destroy$18 == 0))
+  signed int return_value_pthread_mutex_destroy_18;
+  return_value_pthread_mutex_destroy_18=pthread_mutex_destroy(&wiimote->state_mutex);
+  if(!(return_value_pthread_mutex_destroy_18 == 0))
     cwiid_err(wiimote, "Mutex destroy error (state)");
 
-  signed int return_value_pthread_mutex_destroy$19;
-  return_value_pthread_mutex_destroy$19=pthread_mutex_destroy(&wiimote->rw_mutex);
-  if(!(return_value_pthread_mutex_destroy$19 == 0))
+  signed int return_value_pthread_mutex_destroy_19;
+  return_value_pthread_mutex_destroy_19=pthread_mutex_destroy(&wiimote->rw_mutex);
+  if(!(return_value_pthread_mutex_destroy_19 == 0))
     cwiid_err(wiimote, "Mutex destroy error (rw)");
 
-  signed int return_value_pthread_mutex_destroy$20;
-  return_value_pthread_mutex_destroy$20=pthread_mutex_destroy(&wiimote->rpt_mutex);
-  if(!(return_value_pthread_mutex_destroy$20 == 0))
+  signed int return_value_pthread_mutex_destroy_20;
+  return_value_pthread_mutex_destroy_20=pthread_mutex_destroy(&wiimote->rpt_mutex);
+  if(!(return_value_pthread_mutex_destroy_20 == 0))
     cwiid_err(wiimote, "Mutex destroy error (rpt)");
 
   free((void *)wiimote);
@@ -1454,9 +1454,9 @@ signed int cwiid_disable(struct wiimote *wiimote, signed int flags)
   {
     if(!((0x08 & wiimote->flags) == 0))
     {
-      signed int return_value_fcntl$1;
-      return_value_fcntl$1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 0);
-      if(!(return_value_fcntl$1 == 0))
+      signed int return_value_fcntl_1;
+      return_value_fcntl_1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 0);
+      if(!(return_value_fcntl_1 == 0))
       {
         cwiid_err(wiimote, "File control error (mesg pipe)");
         return -1;
@@ -1488,9 +1488,9 @@ signed int cwiid_enable(struct wiimote *wiimote, signed int flags)
   {
     if((0x08 & wiimote->flags) == 0)
     {
-      signed int return_value_fcntl$1;
-      return_value_fcntl$1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 04000);
-      if(!(return_value_fcntl$1 == 0))
+      signed int return_value_fcntl_1;
+      return_value_fcntl_1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 04000);
+      if(!(return_value_fcntl_1 == 0))
       {
         cwiid_err(wiimote, "File control error (mesg pipe)");
         return -1;
@@ -1535,7 +1535,7 @@ void cwiid_err_default(struct wiimote *wiimote, const char *str, void **ap)
 
 // cwiid_find_wiimote
 // file bluetooth.c line 173
-signed int cwiid_find_wiimote(struct anonymous$4 *bdaddr, signed int timeout)
+signed int cwiid_find_wiimote(struct anonymous_4 *bdaddr, signed int timeout)
 {
   struct cwiid_bdinfo *bdinfo;
   signed int bdinfo_count;
@@ -1603,9 +1603,9 @@ signed int cwiid_get_acc_cal(struct wiimote *wiimote, enum cwiid_ext_type ext_ty
       return -1;
     }
   }
-  signed int return_value_cwiid_read$1;
-  return_value_cwiid_read$1=cwiid_read(wiimote, flags, offset, (unsigned short int)7, (void *)buf);
-  if(!(return_value_cwiid_read$1 == 0))
+  signed int return_value_cwiid_read_1;
+  return_value_cwiid_read_1=cwiid_read(wiimote, flags, offset, (unsigned short int)7, (void *)buf);
+  if(!(return_value_cwiid_read_1 == 0))
   {
     cwiid_err(wiimote, "Read error (%scal)", err_str);
     return -1;
@@ -1628,9 +1628,9 @@ signed int cwiid_get_acc_cal(struct wiimote *wiimote, enum cwiid_ext_type ext_ty
 signed int cwiid_get_balance_cal(struct wiimote *wiimote, struct balance_cal *balance_cal)
 {
   unsigned char buf[24l];
-  signed int return_value_cwiid_read$1;
-  return_value_cwiid_read$1=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xa40024, (unsigned short int)24, (void *)buf);
-  if(!(return_value_cwiid_read$1 == 0))
+  signed int return_value_cwiid_read_1;
+  return_value_cwiid_read_1=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xa40024, (unsigned short int)24, (void *)buf);
+  if(!(return_value_cwiid_read_1 == 0))
   {
     cwiid_err(wiimote, "Read error (balancecal)");
     return -1;
@@ -1658,24 +1658,24 @@ signed int cwiid_get_balance_cal(struct wiimote *wiimote, struct balance_cal *ba
 // file bluetooth.c line 54
 signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signed int max_bdinfo, struct cwiid_bdinfo **bdinfo, unsigned char flags)
 {
-  struct anonymous$2 *dev_list = (struct anonymous$2 *)(void *)0;
+  struct anonymous_2 *dev_list = (struct anonymous_2 *)(void *)0;
   signed int max_inquiry;
   signed int dev_count;
   signed int sock = -1;
   signed int bdinfo_count;
   signed int i;
   signed int j;
-  signed int cwiid_get_bdinfo_array$$1$$err = 0;
+  signed int cwiid_get_bdinfo_array__1__err = 0;
   signed int ret;
   *bdinfo = (struct cwiid_bdinfo *)(void *)0;
-  void *return_value_malloc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strncmp$6;
-  signed int return_value_strncmp$5;
+  void *return_value_malloc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strncmp_6;
+  signed int return_value_strncmp_5;
   if(dev_id == -1)
   {
-    dev_id=hci_get_route((struct anonymous$4 *)(void *)0);
+    dev_id=hci_get_route((struct anonymous_4 *)(void *)0);
     if(!(dev_id == -1))
       goto __CPROVER_DUMP_L1;
 
@@ -1697,7 +1697,7 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
     if(dev_count == -1)
     {
       cwiid_err((struct wiimote *)(void *)0, "Bluetooth device inquiry error");
-      cwiid_get_bdinfo_array$$1$$err = 1;
+      cwiid_get_bdinfo_array__1__err = 1;
     }
 
     else
@@ -1710,7 +1710,7 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
         if(sock == -1)
         {
           cwiid_err((struct wiimote *)(void *)0, "Bluetooth interface open error");
-          cwiid_get_bdinfo_array$$1$$err = 1;
+          cwiid_get_bdinfo_array__1__err = 1;
         }
 
         else
@@ -1718,12 +1718,12 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
           if(max_bdinfo == -1)
             max_bdinfo = dev_count;
 
-          return_value_malloc$1=malloc((unsigned long int)max_bdinfo * sizeof(struct cwiid_bdinfo) /*41ul*/ );
-          *bdinfo = (struct cwiid_bdinfo *)return_value_malloc$1;
+          return_value_malloc_1=malloc((unsigned long int)max_bdinfo * sizeof(struct cwiid_bdinfo) /*41ul*/ );
+          *bdinfo = (struct cwiid_bdinfo *)return_value_malloc_1;
           if(*bdinfo == ((struct cwiid_bdinfo *)NULL))
           {
             cwiid_err((struct wiimote *)(void *)0, "Memory allocation error (bdinfo array)");
-            cwiid_get_bdinfo_array$$1$$err = 1;
+            cwiid_get_bdinfo_array__1__err = 1;
           }
 
           else
@@ -1735,37 +1735,37 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
               if((0x01 & (signed int)flags) == 0)
               {
                 if(!((signed int)(dev_list + (signed long int)i)->dev_class[0l] == 0x04))
-                  tmp_if_expr$2 = (_Bool)1;
+                  tmp_if_expr_2 = (_Bool)1;
 
                 else
-                  tmp_if_expr$2 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)1] != 0x25 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$2)
-                  tmp_if_expr$3 = (_Bool)1;
+                  tmp_if_expr_2 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)1] != 0x25 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_2)
+                  tmp_if_expr_3 = (_Bool)1;
 
                 else
-                  tmp_if_expr$3 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)2] != 0x00 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$3)
+                  tmp_if_expr_3 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)2] != 0x00 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_3)
                   goto __CPROVER_DUMP_L19;
 
               }
 
-              signed int return_value_hci_read_remote_name$4;
-              return_value_hci_read_remote_name$4=hci_read_remote_name(sock, &(dev_list + (signed long int)i)->bdaddr, 32, (*bdinfo + (signed long int)bdinfo_count)->name, 10000);
-              if(!(return_value_hci_read_remote_name$4 == 0))
+              signed int return_value_hci_read_remote_name_4;
+              return_value_hci_read_remote_name_4=hci_read_remote_name(sock, &(dev_list + (signed long int)i)->bdaddr, 32, (*bdinfo + (signed long int)bdinfo_count)->name, 10000);
+              if(!(return_value_hci_read_remote_name_4 == 0))
               {
                 cwiid_err((struct wiimote *)(void *)0, "Bluetooth name read error");
-                cwiid_get_bdinfo_array$$1$$err = 1;
+                cwiid_get_bdinfo_array__1__err = 1;
                 goto CODA;
               }
 
               if((0x01 & (signed int)flags) == 0)
               {
-                return_value_strncmp$6=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-CNT-01", (unsigned long int)32);
-                if(return_value_strncmp$6 == 0)
+                return_value_strncmp_6=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-CNT-01", (unsigned long int)32);
+                if(return_value_strncmp_6 == 0)
                   goto __CPROVER_DUMP_L16;
 
-                return_value_strncmp$5=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-WBC-01", (unsigned long int)32);
-                if(return_value_strncmp$5 == 0)
+                return_value_strncmp_5=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-WBC-01", (unsigned long int)32);
+                if(return_value_strncmp_5 == 0)
                   goto __CPROVER_DUMP_L16;
 
               }
@@ -1791,13 +1791,13 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
             else
               if(!(bdinfo_count >= max_bdinfo))
               {
-                void *return_value_realloc$7;
-                return_value_realloc$7=realloc((void *)*bdinfo, (unsigned long int)bdinfo_count * sizeof(struct cwiid_bdinfo) /*41ul*/ );
-                *bdinfo = (struct cwiid_bdinfo *)return_value_realloc$7;
+                void *return_value_realloc_7;
+                return_value_realloc_7=realloc((void *)*bdinfo, (unsigned long int)bdinfo_count * sizeof(struct cwiid_bdinfo) /*41ul*/ );
+                *bdinfo = (struct cwiid_bdinfo *)return_value_realloc_7;
                 if(*bdinfo == ((struct cwiid_bdinfo *)NULL))
                 {
                   cwiid_err((struct wiimote *)(void *)0, "Memory reallocation error (bdinfo array)");
-                  cwiid_get_bdinfo_array$$1$$err = 1;
+                  cwiid_get_bdinfo_array__1__err = 1;
                 }
 
               }
@@ -1808,13 +1808,13 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
 
   CODA:
     ;
-    if(!(dev_list == ((struct anonymous$2 *)NULL)))
+    if(!(dev_list == ((struct anonymous_2 *)NULL)))
       free((void *)dev_list);
 
     if(!(sock == -1))
       hci_close_dev(sock);
 
-    if(!(cwiid_get_bdinfo_array$$1$$err == 0))
+    if(!(cwiid_get_bdinfo_array__1__err == 0))
     {
       if(!(*bdinfo == ((struct cwiid_bdinfo *)NULL)))
         free((void *)*bdinfo);
@@ -1847,13 +1847,13 @@ signed int cwiid_get_id(struct wiimote *wiimote)
 signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union cwiid_mesg **mesg, struct timespec *timestamp)
 {
   struct mesg_array ma;
-  signed int return_value_read_mesg_array$2;
-  return_value_read_mesg_array$2=read_mesg_array(wiimote->mesg_pipe[(signed long int)0], &ma);
-  if(!(return_value_read_mesg_array$2 == 0))
+  signed int return_value_read_mesg_array_2;
+  return_value_read_mesg_array_2=read_mesg_array(wiimote->mesg_pipe[(signed long int)0], &ma);
+  if(!(return_value_read_mesg_array_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 11)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 11)
       return -1;
 
     else
@@ -1865,9 +1865,9 @@ signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union
 
   *mesg_count = (signed int)ma.count;
   *timestamp = ma.timestamp;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)ma.count * sizeof(union cwiid_mesg) /*36ul*/ );
-  *mesg = (union cwiid_mesg *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)ma.count * sizeof(union cwiid_mesg) /*36ul*/ );
+  *mesg = (union cwiid_mesg *)return_value_malloc_3;
   if(*mesg == ((union cwiid_mesg *)NULL))
   {
     cwiid_err(wiimote, "Memory allocation error (mesg array)");
@@ -1885,9 +1885,9 @@ signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union
 // file ../libcwiid/cwiid.h line 375
 signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->state_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->state_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (state mutex)");
     return -1;
@@ -1896,9 +1896,9 @@ signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state)
   else
   {
     memcpy((void *)state, (const void *)&wiimote->state, sizeof(struct cwiid_state) /*60ul*/ );
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&wiimote->state_mutex);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&wiimote->state_mutex);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
     {
       cwiid_err(wiimote, "Mutex unlock error (state mutex) - deadlock warning");
       return -1;
@@ -1911,16 +1911,16 @@ signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state)
 
 // cwiid_open
 // file ../libcwiid/cwiid.h line 360
-struct wiimote * cwiid_open(struct anonymous$4 *bdaddr, signed int flags)
+struct wiimote * cwiid_open(struct anonymous_4 *bdaddr, signed int flags)
 {
-  struct wiimote *return_value_cwiid_open_timeout$1;
-  return_value_cwiid_open_timeout$1=cwiid_open_timeout(bdaddr, flags, 5);
-  return return_value_cwiid_open_timeout$1;
+  struct wiimote *return_value_cwiid_open_timeout_1;
+  return_value_cwiid_open_timeout_1=cwiid_open_timeout(bdaddr, flags, 5);
+  return return_value_cwiid_open_timeout_1;
 }
 
 // cwiid_open_timeout
 // file connect.c line 73
-struct wiimote * cwiid_open_timeout(struct anonymous$4 *bdaddr, signed int flags, signed int timeout)
+struct wiimote * cwiid_open_timeout(struct anonymous_4 *bdaddr, signed int flags, signed int timeout)
 {
   struct wiimote *wiimote = (struct wiimote *)(void *)0;
   struct sockaddr_l2 remote_addr;
@@ -1933,25 +1933,25 @@ struct wiimote * cwiid_open_timeout(struct anonymous$4 *bdaddr, signed int flags
   char router_thread_init = (char)0;
   char status_thread_init = (char)0;
   void *pthread_ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct wiimote) /*272ul*/ );
-  wiimote = (struct wiimote *)return_value_malloc$1;
-  signed int return_value_pthread_mutex_lock$2;
-  signed int tmp_post$3;
-  signed int return_value_pthread_mutex_unlock$4;
-  struct anonymous$4 literal$6;
-  signed int return_value_bacmp$7;
-  signed int return_value_connect$8;
-  signed int return_value_connect$9;
-  signed int return_value_pipe$10;
-  signed int return_value_pipe$11;
-  signed int return_value_pipe$12;
-  signed int return_value_fcntl$13;
-  signed int return_value_pthread_mutex_init$15;
-  signed int return_value_pthread_mutex_init$16;
-  signed int return_value_pthread_mutex_init$17;
-  signed int return_value_pthread_create$18;
-  signed int return_value_pthread_create$19;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct wiimote) /*272ul*/ );
+  wiimote = (struct wiimote *)return_value_malloc_1;
+  signed int return_value_pthread_mutex_lock_2;
+  signed int tmp_post_3;
+  signed int return_value_pthread_mutex_unlock_4;
+  struct anonymous_4 literal_6;
+  signed int return_value_bacmp_7;
+  signed int return_value_connect_8;
+  signed int return_value_connect_9;
+  signed int return_value_pipe_10;
+  signed int return_value_pipe_11;
+  signed int return_value_pipe_12;
+  signed int return_value_fcntl_13;
+  signed int return_value_pthread_mutex_init_15;
+  signed int return_value_pthread_mutex_init_16;
+  signed int return_value_pthread_mutex_init_17;
+  signed int return_value_pthread_create_18;
+  signed int return_value_pthread_create_19;
   if(wiimote == ((struct wiimote *)NULL))
     cwiid_err((struct wiimote *)(void *)0, "Memory allocation error (cwiid_wiimote_t)");
 
@@ -1960,28 +1960,28 @@ struct wiimote * cwiid_open_timeout(struct anonymous$4 *bdaddr, signed int flags
     wiimote->flags = flags;
     wiimote->int_socket = -1;
     wiimote->ctl_socket = wiimote->int_socket;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&global_mutex);
-    if(!(return_value_pthread_mutex_lock$2 == 0))
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&global_mutex);
+    if(!(return_value_pthread_mutex_lock_2 == 0))
       cwiid_err((struct wiimote *)(void *)0, "Mutex lock error (global mutex)");
 
     else
     {
-      tmp_post$3 = wiimote_id;
+      tmp_post_3 = wiimote_id;
       wiimote_id = wiimote_id + 1;
-      wiimote->id = tmp_post$3;
-      return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&global_mutex);
-      if(!(return_value_pthread_mutex_unlock$4 == 0))
+      wiimote->id = tmp_post_3;
+      return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&global_mutex);
+      if(!(return_value_pthread_mutex_unlock_4 == 0))
         cwiid_err(wiimote, "Mutex unlock error (global mutex) - deadlock warning");
 
       else
       {
-        literal$6 = (struct anonymous$4){ .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-        return_value_bacmp$7=bacmp(bdaddr, &literal$6);
-        if(return_value_bacmp$7 == 0)
+        literal_6 = (struct anonymous_4){ .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+        return_value_bacmp_7=bacmp(bdaddr, &literal_6);
+        if(return_value_bacmp_7 == 0)
         {
-          signed int return_value_cwiid_find_wiimote$5;
-          return_value_cwiid_find_wiimote$5=cwiid_find_wiimote(bdaddr, timeout);
-          if(!(return_value_cwiid_find_wiimote$5 == 0))
+          signed int return_value_cwiid_find_wiimote_5;
+          return_value_cwiid_find_wiimote_5=cwiid_find_wiimote(bdaddr, timeout);
+          if(!(return_value_cwiid_find_wiimote_5 == 0))
             goto ERR_HND;
 
           sleep((unsigned int)1);
@@ -1997,8 +1997,8 @@ struct wiimote * cwiid_open_timeout(struct anonymous$4 *bdaddr, signed int flags
 
         else
         {
-          return_value_connect$8=connect(wiimote->ctl_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
-          if(!(return_value_connect$8 == 0))
+          return_value_connect_8=connect(wiimote->ctl_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
+          if(!(return_value_connect_8 == 0))
             cwiid_err(wiimote, "Socket connect error (control channel)");
 
           else
@@ -2010,44 +2010,44 @@ struct wiimote * cwiid_open_timeout(struct anonymous$4 *bdaddr, signed int flags
 
             else
             {
-              return_value_connect$9=connect(wiimote->int_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
-              if(!(return_value_connect$9 == 0))
+              return_value_connect_9=connect(wiimote->int_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
+              if(!(return_value_connect_9 == 0))
                 cwiid_err(wiimote, "Socket connect error (interrupt channel)");
 
               else
               {
-                return_value_pipe$10=pipe(wiimote->mesg_pipe);
-                if(!(return_value_pipe$10 == 0))
+                return_value_pipe_10=pipe(wiimote->mesg_pipe);
+                if(!(return_value_pipe_10 == 0))
                   cwiid_err(wiimote, "Pipe creation error (mesg pipe)");
 
                 else
                 {
                   mesg_pipe_init = (char)1;
-                  return_value_pipe$11=pipe(wiimote->status_pipe);
-                  if(!(return_value_pipe$11 == 0))
+                  return_value_pipe_11=pipe(wiimote->status_pipe);
+                  if(!(return_value_pipe_11 == 0))
                     cwiid_err(wiimote, "Pipe creation error (status pipe)");
 
                   else
                   {
                     status_pipe_init = (char)1;
-                    return_value_pipe$12=pipe(wiimote->rw_pipe);
-                    if(!(return_value_pipe$12 == 0))
+                    return_value_pipe_12=pipe(wiimote->rw_pipe);
+                    if(!(return_value_pipe_12 == 0))
                       cwiid_err(wiimote, "Pipe creation error (rw pipe)");
 
                     else
                     {
                       rw_pipe_init = (char)1;
-                      return_value_fcntl$13=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 04000);
-                      if(!(return_value_fcntl$13 == 0))
+                      return_value_fcntl_13=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 04000);
+                      if(!(return_value_fcntl_13 == 0))
                         cwiid_err(wiimote, "File control error (mesg write pipe)");
 
                       else
                       {
                         if(!((0x08 & wiimote->flags) == 0))
                         {
-                          signed int return_value_fcntl$14;
-                          return_value_fcntl$14=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 04000);
-                          if(!(return_value_fcntl$14 == 0))
+                          signed int return_value_fcntl_14;
+                          return_value_fcntl_14=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 04000);
+                          if(!(return_value_fcntl_14 == 0))
                           {
                             cwiid_err(wiimote, "File control error (mesg read pipe)");
                             goto ERR_HND;
@@ -2055,37 +2055,37 @@ struct wiimote * cwiid_open_timeout(struct anonymous$4 *bdaddr, signed int flags
 
                         }
 
-                        return_value_pthread_mutex_init$15=pthread_mutex_init(&wiimote->state_mutex, (const union anonymous *)(void *)0);
-                        if(!(return_value_pthread_mutex_init$15 == 0))
+                        return_value_pthread_mutex_init_15=pthread_mutex_init(&wiimote->state_mutex, (const union anonymous *)(void *)0);
+                        if(!(return_value_pthread_mutex_init_15 == 0))
                           cwiid_err(wiimote, "Mutex initialization error (state mutex)");
 
                         else
                         {
                           state_mutex_init = (char)1;
-                          return_value_pthread_mutex_init$16=pthread_mutex_init(&wiimote->rw_mutex, (const union anonymous *)(void *)0);
-                          if(!(return_value_pthread_mutex_init$16 == 0))
+                          return_value_pthread_mutex_init_16=pthread_mutex_init(&wiimote->rw_mutex, (const union anonymous *)(void *)0);
+                          if(!(return_value_pthread_mutex_init_16 == 0))
                             cwiid_err(wiimote, "Mutex initialization error (rw mutex)");
 
                           else
                           {
                             rw_mutex_init = (char)1;
-                            return_value_pthread_mutex_init$17=pthread_mutex_init(&wiimote->rpt_mutex, (const union anonymous *)(void *)0);
-                            if(!(return_value_pthread_mutex_init$17 == 0))
+                            return_value_pthread_mutex_init_17=pthread_mutex_init(&wiimote->rpt_mutex, (const union anonymous *)(void *)0);
+                            if(!(return_value_pthread_mutex_init_17 == 0))
                               cwiid_err(wiimote, "Mutex initialization error (rpt mutex)");
 
                             else
                             {
                               rpt_mutex_init = (char)1;
                               wiimote->rw_status = (enum rw_status)RW_IDLE;
-                              return_value_pthread_create$18=pthread_create(&wiimote->router_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))router_thread, (void *)wiimote);
-                              if(!(return_value_pthread_create$18 == 0))
+                              return_value_pthread_create_18=pthread_create(&wiimote->router_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))router_thread, (void *)wiimote);
+                              if(!(return_value_pthread_create_18 == 0))
                                 cwiid_err(wiimote, "Thread creation error (router thread)");
 
                               else
                               {
                                 router_thread_init = (char)1;
-                                return_value_pthread_create$19=pthread_create(&wiimote->status_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))status_thread, (void *)wiimote);
-                                if(!(return_value_pthread_create$19 == 0))
+                                return_value_pthread_create_19=pthread_create(&wiimote->status_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))status_thread, (void *)wiimote);
+                                if(!(return_value_pthread_create_19 == 0))
                                   cwiid_err(wiimote, "Thread creation error (status thread)");
 
                                 else
@@ -2115,20 +2115,20 @@ struct wiimote * cwiid_open_timeout(struct anonymous$4 *bdaddr, signed int flags
 
 ERR_HND:
   ;
-  _Bool tmp_if_expr$26;
-  signed int return_value_close$25;
-  _Bool tmp_if_expr$29;
-  signed int return_value_close$28;
-  _Bool tmp_if_expr$32;
-  signed int return_value_close$31;
+  _Bool tmp_if_expr_26;
+  signed int return_value_close_25;
+  _Bool tmp_if_expr_29;
+  signed int return_value_close_28;
+  _Bool tmp_if_expr_32;
+  signed int return_value_close_31;
   if(!(wiimote == ((struct wiimote *)NULL)))
   {
     if(!(router_thread_init == 0))
     {
       pthread_cancel(wiimote->router_thread);
-      signed int return_value_pthread_join$20;
-      return_value_pthread_join$20=pthread_join(wiimote->router_thread, &pthread_ret);
-      if(!(return_value_pthread_join$20 == 0))
+      signed int return_value_pthread_join_20;
+      return_value_pthread_join_20=pthread_join(wiimote->router_thread, &pthread_ret);
+      if(!(return_value_pthread_join_20 == 0))
         cwiid_err(wiimote, "Thread join error (router thread)");
 
       else
@@ -2140,9 +2140,9 @@ ERR_HND:
     if(!(status_thread_init == 0))
     {
       pthread_cancel(wiimote->status_thread);
-      signed int return_value_pthread_join$21;
-      return_value_pthread_join$21=pthread_join(wiimote->status_thread, &pthread_ret);
-      if(!(return_value_pthread_join$21 == 0))
+      signed int return_value_pthread_join_21;
+      return_value_pthread_join_21=pthread_join(wiimote->status_thread, &pthread_ret);
+      if(!(return_value_pthread_join_21 == 0))
         cwiid_err(wiimote, "Thread join error (status thread)");
 
       else
@@ -2153,96 +2153,96 @@ ERR_HND:
 
     if(!(wiimote->int_socket == -1))
     {
-      signed int return_value_close$22;
-      return_value_close$22=close(wiimote->int_socket);
-      if(!(return_value_close$22 == 0))
+      signed int return_value_close_22;
+      return_value_close_22=close(wiimote->int_socket);
+      if(!(return_value_close_22 == 0))
         cwiid_err(wiimote, "Socket close error (interrupt channel)");
 
     }
 
     if(!(wiimote->ctl_socket == -1))
     {
-      signed int return_value_close$23;
-      return_value_close$23=close(wiimote->ctl_socket);
-      if(!(return_value_close$23 == 0))
+      signed int return_value_close_23;
+      return_value_close_23=close(wiimote->ctl_socket);
+      if(!(return_value_close_23 == 0))
         cwiid_err(wiimote, "Socket close error (control channel)");
 
     }
 
     if(!(mesg_pipe_init == 0))
     {
-      signed int return_value_close$24;
-      return_value_close$24=close(wiimote->mesg_pipe[(signed long int)0]);
-      if(!(return_value_close$24 == 0))
-        tmp_if_expr$26 = (_Bool)1;
+      signed int return_value_close_24;
+      return_value_close_24=close(wiimote->mesg_pipe[(signed long int)0]);
+      if(!(return_value_close_24 == 0))
+        tmp_if_expr_26 = (_Bool)1;
 
       else
       {
-        return_value_close$25=close(wiimote->mesg_pipe[(signed long int)1]);
-        tmp_if_expr$26 = return_value_close$25 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_close_25=close(wiimote->mesg_pipe[(signed long int)1]);
+        tmp_if_expr_26 = return_value_close_25 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$26)
+      if(tmp_if_expr_26)
         cwiid_err(wiimote, "Pipe close error (mesg pipe)");
 
     }
 
     if(!(status_pipe_init == 0))
     {
-      signed int return_value_close$27;
-      return_value_close$27=close(wiimote->status_pipe[(signed long int)0]);
-      if(!(return_value_close$27 == 0))
-        tmp_if_expr$29 = (_Bool)1;
+      signed int return_value_close_27;
+      return_value_close_27=close(wiimote->status_pipe[(signed long int)0]);
+      if(!(return_value_close_27 == 0))
+        tmp_if_expr_29 = (_Bool)1;
 
       else
       {
-        return_value_close$28=close(wiimote->status_pipe[(signed long int)1]);
-        tmp_if_expr$29 = return_value_close$28 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_close_28=close(wiimote->status_pipe[(signed long int)1]);
+        tmp_if_expr_29 = return_value_close_28 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$29)
+      if(tmp_if_expr_29)
         cwiid_err(wiimote, "Pipe close error (status pipe)");
 
     }
 
     if(!(rw_pipe_init == 0))
     {
-      signed int return_value_close$30;
-      return_value_close$30=close(wiimote->rw_pipe[(signed long int)0]);
-      if(!(return_value_close$30 == 0))
-        tmp_if_expr$32 = (_Bool)1;
+      signed int return_value_close_30;
+      return_value_close_30=close(wiimote->rw_pipe[(signed long int)0]);
+      if(!(return_value_close_30 == 0))
+        tmp_if_expr_32 = (_Bool)1;
 
       else
       {
-        return_value_close$31=close(wiimote->rw_pipe[(signed long int)1]);
-        tmp_if_expr$32 = return_value_close$31 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_close_31=close(wiimote->rw_pipe[(signed long int)1]);
+        tmp_if_expr_32 = return_value_close_31 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$32)
+      if(tmp_if_expr_32)
         cwiid_err(wiimote, "Pipe close error (rw pipe)");
 
     }
 
     if(!(state_mutex_init == 0))
     {
-      signed int return_value_pthread_mutex_destroy$33;
-      return_value_pthread_mutex_destroy$33=pthread_mutex_destroy(&wiimote->state_mutex);
-      if(!(return_value_pthread_mutex_destroy$33 == 0))
+      signed int return_value_pthread_mutex_destroy_33;
+      return_value_pthread_mutex_destroy_33=pthread_mutex_destroy(&wiimote->state_mutex);
+      if(!(return_value_pthread_mutex_destroy_33 == 0))
         cwiid_err(wiimote, "Mutex destroy error (state mutex)");
 
     }
 
     if(!(rw_mutex_init == 0))
     {
-      signed int return_value_pthread_mutex_destroy$34;
-      return_value_pthread_mutex_destroy$34=pthread_mutex_destroy(&wiimote->rw_mutex);
-      if(!(return_value_pthread_mutex_destroy$34 == 0))
+      signed int return_value_pthread_mutex_destroy_34;
+      return_value_pthread_mutex_destroy_34=pthread_mutex_destroy(&wiimote->rw_mutex);
+      if(!(return_value_pthread_mutex_destroy_34 == 0))
         cwiid_err(wiimote, "Mutex destroy error (rw mutex)");
 
     }
 
     if(!(rpt_mutex_init == 0))
     {
-      signed int return_value_pthread_mutex_destroy$35;
-      return_value_pthread_mutex_destroy$35=pthread_mutex_destroy(&wiimote->rpt_mutex);
-      if(!(return_value_pthread_mutex_destroy$35 == 0))
+      signed int return_value_pthread_mutex_destroy_35;
+      return_value_pthread_mutex_destroy_35=pthread_mutex_destroy(&wiimote->rpt_mutex);
+      if(!(return_value_pthread_mutex_destroy_35 == 0))
         cwiid_err(wiimote, "Mutex destroy error (rpt mutex)");
 
     }
@@ -2267,9 +2267,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
   buf[(signed long int)3] = (unsigned char)(offset & (unsigned int)0xFF);
   buf[(signed long int)4] = (unsigned char)((signed int)len >> 8 & 0xFF);
   buf[(signed long int)5] = (unsigned char)((signed int)len & 0xFF);
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->rw_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->rw_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (rw_mutex)");
     return -1;
@@ -2278,9 +2278,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
   else
   {
     wiimote->rw_status = (enum rw_status)RW_READ;
-    signed int return_value_cwiid_send_rpt$2;
-    return_value_cwiid_send_rpt$2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x17, (unsigned long int)6, (const void *)buf);
-    if(!(return_value_cwiid_send_rpt$2 == 0))
+    signed int return_value_cwiid_send_rpt_2;
+    return_value_cwiid_send_rpt_2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x17, (unsigned long int)6, (const void *)buf);
+    if(!(return_value_cwiid_send_rpt_2 == 0))
     {
       cwiid_err(wiimote, "Report send error (read)");
       ret = -1;
@@ -2291,9 +2291,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
       cursor = (unsigned char *)data;
       for( ; !(cursor - (unsigned char *)data >= (signed long int)len); cursor = cursor + (signed long int)mesg.len)
       {
-        signed int return_value_full_read$3;
-        return_value_full_read$3=full_read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
-        if(!(return_value_full_read$3 == 0))
+        signed int return_value_full_read_3;
+        return_value_full_read_3=full_read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
+        if(!(return_value_full_read_3 == 0))
         {
           cwiid_err(wiimote, "Pipe read error (rw pipe)");
           ret = -1;
@@ -2328,9 +2328,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
   CODA:
     ;
     wiimote->rw_status = (enum rw_status)RW_IDLE;
-    signed int return_value_pthread_mutex_unlock$4;
-    return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&wiimote->rw_mutex);
-    if(!(return_value_pthread_mutex_unlock$4 == 0))
+    signed int return_value_pthread_mutex_unlock_4;
+    return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&wiimote->rw_mutex);
+    if(!(return_value_pthread_mutex_unlock_4 == 0))
       cwiid_err(wiimote, "Mutex unlock error (rw_mutex) - deadlock warning");
 
     return ret;
@@ -2342,9 +2342,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
 signed int cwiid_request_status(struct wiimote *wiimote)
 {
   unsigned char data = (unsigned char)0;
-  signed int return_value_cwiid_send_rpt$1;
-  return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x15, (unsigned long int)1, (const void *)&data);
-  if(!(return_value_cwiid_send_rpt$1 == 0))
+  signed int return_value_cwiid_send_rpt_1;
+  return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x15, (unsigned long int)1, (const void *)&data);
+  if(!(return_value_cwiid_send_rpt_1 == 0))
   {
     cwiid_err(wiimote, "Status request error");
     return -1;
@@ -2359,10 +2359,10 @@ signed int cwiid_request_status(struct wiimote *wiimote)
 signed int cwiid_send_rpt(struct wiimote *wiimote, unsigned char flags, unsigned char report, unsigned long int len, const void *data)
 {
   unsigned char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(len * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
-  buf = (unsigned char *)return_value_malloc$1;
-  signed int return_value_verify_handshake$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(len * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+  buf = (unsigned char *)return_value_malloc_1;
+  signed int return_value_verify_handshake_2;
   if(buf == ((unsigned char *)NULL))
   {
     cwiid_err(wiimote, "Memory allocation error (mesg array)");
@@ -2377,9 +2377,9 @@ signed int cwiid_send_rpt(struct wiimote *wiimote, unsigned char flags, unsigned
     if((0x01 & (signed int)flags) == 0)
       buf[(signed long int)2] = buf[(signed long int)2] | wiimote->state.rumble;
 
-    signed long int return_value_write$3;
-    return_value_write$3=write(wiimote->ctl_socket, (const void *)buf, len + (unsigned long int)2);
-    if(!(return_value_write$3 == 2l + (signed long int)len))
+    signed long int return_value_write_3;
+    return_value_write_3=write(wiimote->ctl_socket, (const void *)buf, len + (unsigned long int)2);
+    if(!(return_value_write_3 == 2l + (signed long int)len))
     {
       free((void *)buf);
       return -1;
@@ -2387,8 +2387,8 @@ signed int cwiid_send_rpt(struct wiimote *wiimote, unsigned char flags, unsigned
 
     else
     {
-      return_value_verify_handshake$2=verify_handshake(wiimote);
-      if(!(return_value_verify_handshake$2 == 0))
+      return_value_verify_handshake_2=verify_handshake(wiimote);
+      if(!(return_value_verify_handshake_2 == 0))
       {
         free((void *)buf);
         return -1;
@@ -2422,9 +2422,9 @@ signed int cwiid_set_led(struct wiimote *wiimote, unsigned char led)
   unsigned char data;
   wiimote->state.led = (unsigned char)((signed int)led & 0x0F);
   data = (unsigned char)((signed int)wiimote->state.led << 4);
-  signed int return_value_cwiid_send_rpt$1;
-  return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
-  if(!(return_value_cwiid_send_rpt$1 == 0))
+  signed int return_value_cwiid_send_rpt_1;
+  return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
+  if(!(return_value_cwiid_send_rpt_1 == 0))
   {
     cwiid_err(wiimote, "Report send error (led)");
     return -1;
@@ -2440,9 +2440,9 @@ signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(str
 {
   if(!(wiimote->mesg_callback == ((void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))NULL)))
   {
-    signed int return_value_cancel_mesg_callback$1;
-    return_value_cancel_mesg_callback$1=cancel_mesg_callback(wiimote);
-    if(!(return_value_cancel_mesg_callback$1 == 0))
+    signed int return_value_cancel_mesg_callback_1;
+    return_value_cancel_mesg_callback_1=cancel_mesg_callback(wiimote);
+    if(!(return_value_cancel_mesg_callback_1 == 0))
       return -1;
 
   }
@@ -2450,9 +2450,9 @@ signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(str
   wiimote->mesg_callback = callback;
   if(!(wiimote->mesg_callback == ((void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))NULL)))
   {
-    signed int return_value_pthread_create$2;
-    return_value_pthread_create$2=pthread_create(&wiimote->mesg_callback_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))mesg_callback_thread, (void *)wiimote);
-    if(!(return_value_pthread_create$2 == 0))
+    signed int return_value_pthread_create_2;
+    return_value_pthread_create_2=pthread_create(&wiimote->mesg_callback_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))mesg_callback_thread, (void *)wiimote);
+    if(!(return_value_pthread_create_2 == 0))
     {
       cwiid_err(wiimote, "Thread creation error (callback thread)");
       return -1;
@@ -2467,9 +2467,9 @@ signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(str
 // file ../libcwiid/cwiid.h line 389
 signed int cwiid_set_rpt_mode(struct wiimote *wiimote, unsigned char rpt_mode)
 {
-  signed int return_value_update_rpt_mode$1;
-  return_value_update_rpt_mode$1=update_rpt_mode(wiimote, (signed char)rpt_mode);
-  return return_value_update_rpt_mode$1;
+  signed int return_value_update_rpt_mode_1;
+  return_value_update_rpt_mode_1=update_rpt_mode(wiimote, (signed char)rpt_mode);
+  return return_value_update_rpt_mode_1;
 }
 
 // cwiid_set_rumble
@@ -2479,9 +2479,9 @@ signed int cwiid_set_rumble(struct wiimote *wiimote, unsigned char rumble)
   unsigned char data;
   wiimote->state.rumble = (unsigned char)(rumble != 0 ? 1 : 0);
   data = (unsigned char)((signed int)wiimote->state.led << 4);
-  signed int return_value_cwiid_send_rpt$1;
-  return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
-  if(!(return_value_cwiid_send_rpt$1 == 0))
+  signed int return_value_cwiid_send_rpt_1;
+  return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
+  if(!(return_value_cwiid_send_rpt_1 == 0))
   {
     cwiid_err(wiimote, "Report send error (led)");
     return -1;
@@ -2500,9 +2500,9 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
   struct rw_mesg mesg;
   signed int ret = 0;
   buf[(signed long int)0] = flags;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->rw_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->rw_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (rw mutex)");
     return -1;
@@ -2522,18 +2522,18 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
       else
         buf[(signed long int)4] = (unsigned char)((signed int)len - (signed int)sent);
       memcpy((void *)(buf + (signed long int)5), data + (signed long int)sent, (unsigned long int)buf[(signed long int)4]);
-      signed int return_value_cwiid_send_rpt$2;
-      return_value_cwiid_send_rpt$2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x16, (unsigned long int)21, (const void *)buf);
-      if(!(return_value_cwiid_send_rpt$2 == 0))
+      signed int return_value_cwiid_send_rpt_2;
+      return_value_cwiid_send_rpt_2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x16, (unsigned long int)21, (const void *)buf);
+      if(!(return_value_cwiid_send_rpt_2 == 0))
       {
         cwiid_err(wiimote, "Report send error (write)");
         ret = -1;
         break;
       }
 
-      signed long int return_value_read$3;
-      return_value_read$3=read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
-      if(!((unsigned long int)return_value_read$3 == sizeof(struct rw_mesg) /*32ul*/ ))
+      signed long int return_value_read_3;
+      return_value_read_3=read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
+      if(!((unsigned long int)return_value_read_3 == sizeof(struct rw_mesg) /*32ul*/ ))
       {
         cwiid_err(wiimote, "Pipe read error (rw pipe)");
         ret = -1;
@@ -2567,9 +2567,9 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
   CODA:
     ;
     wiimote->rw_status = (enum rw_status)RW_IDLE;
-    signed int return_value_pthread_mutex_unlock$4;
-    return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&wiimote->rw_mutex);
-    if(!(return_value_pthread_mutex_unlock$4 == 0))
+    signed int return_value_pthread_mutex_unlock_4;
+    return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&wiimote->rw_mutex);
+    if(!(return_value_pthread_mutex_unlock_4 == 0))
       cwiid_err(wiimote, "Mutex unlock error (rw_mutex) - deadlock warning");
 
     return ret;
@@ -2580,11 +2580,11 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
 // file wmdemo.c line 47
 void err(struct wiimote *wiimote, const char *s, void **ap)
 {
-  signed int return_value_cwiid_get_id$1;
+  signed int return_value_cwiid_get_id_1;
   if(!(wiimote == ((struct wiimote *)NULL)))
   {
-    return_value_cwiid_get_id$1=cwiid_get_id(wiimote);
-    printf("%d:", return_value_cwiid_get_id$1);
+    return_value_cwiid_get_id_1=cwiid_get_id(wiimote);
+    printf("%d:", return_value_cwiid_get_id_1);
   }
 
   else
@@ -2598,23 +2598,23 @@ void err(struct wiimote *wiimote, const char *s, void **ap)
 signed int exec_write_seq(struct wiimote *wiimote, unsigned int len, struct write_seq *seq)
 {
   unsigned int i = (unsigned int)0;
-  signed int return_value_cwiid_send_rpt$1;
-  signed int return_value_cwiid_write$2;
+  signed int return_value_cwiid_send_rpt_1;
+  signed int return_value_cwiid_write_2;
   for( ; !(i >= len); i = i + 1u)
     switch((signed int)(seq + (signed long int)i)->type)
     {
       case WRITE_SEQ_RPT:
       {
-        return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (seq + (signed long int)i)->flags, (unsigned char)(seq + (signed long int)i)->report_offset, (unsigned long int)(seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
-        if(!(return_value_cwiid_send_rpt$1 == 0))
+        return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (seq + (signed long int)i)->flags, (unsigned char)(seq + (signed long int)i)->report_offset, (unsigned long int)(seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
+        if(!(return_value_cwiid_send_rpt_1 == 0))
           return -1;
 
         break;
       }
       case WRITE_SEQ_MEM:
       {
-        return_value_cwiid_write$2=cwiid_write(wiimote, (seq + (signed long int)i)->flags, (seq + (signed long int)i)->report_offset, (seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
-        if(!(return_value_cwiid_write$2 == 0))
+        return_value_cwiid_write_2=cwiid_write(wiimote, (seq + (signed long int)i)->flags, (seq + (signed long int)i)->report_offset, (seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
+        if(!(return_value_cwiid_write_2 == 0))
           return -1;
 
       }
@@ -2646,26 +2646,26 @@ signed int main(signed int argc, char **argv)
 {
   struct wiimote *wiimote;
   struct cwiid_state state;
-  struct anonymous$4 bdaddr;
+  struct anonymous_4 bdaddr;
   unsigned char mesg = (unsigned char)0;
   unsigned char led_state = (unsigned char)0;
   unsigned char rpt_mode = (unsigned char)0;
   unsigned char rumble = (unsigned char)0;
-  signed int main$$1$$exit = 0;
+  signed int main__1__exit = 0;
   cwiid_set_err(err);
   if(argc >= 2)
     str2ba(argv[(signed long int)1], &bdaddr);
 
   else
   {
-    struct anonymous$4 literal$1 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-    bdaddr = *(&literal$1);
+    struct anonymous_4 literal_1 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+    bdaddr = *(&literal_1);
   }
   printf("Put Wiimote in discoverable mode now (press 1+2)...\n");
   wiimote=cwiid_open(&bdaddr, 0);
-  signed int return_value_cwiid_set_rumble$4;
-  signed int return_value_cwiid_request_status$7;
-  signed int return_value_cwiid_get_state$8;
+  signed int return_value_cwiid_set_rumble_4;
+  signed int return_value_cwiid_request_status_7;
+  signed int return_value_cwiid_get_state_8;
   if(wiimote == ((struct wiimote *)NULL))
   {
     fprintf(stderr, "Unable to connect to wiimote\n");
@@ -2674,18 +2674,18 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    signed int return_value_cwiid_set_mesg_callback$2;
-    return_value_cwiid_set_mesg_callback$2=cwiid_set_mesg_callback(wiimote, cwiid_callback);
-    if(!(return_value_cwiid_set_mesg_callback$2 == 0))
+    signed int return_value_cwiid_set_mesg_callback_2;
+    return_value_cwiid_set_mesg_callback_2=cwiid_set_mesg_callback(wiimote, cwiid_callback);
+    if(!(return_value_cwiid_set_mesg_callback_2 == 0))
       fprintf(stderr, "Unable to set message callback\n");
 
     printf("Note: To demonstrate the new API interfaces, wmdemo no longer enables messages by default.\nOutput can be gathered through the new state-based interface (s), or by enabling the messages interface (m).\n");
     printf("%s", (const void *)"1: toggle LED 1\n2: toggle LED 2\n3: toggle LED 3\n4: toggle LED 4\n5: toggle rumble\na: toggle accelerometer reporting\nb: toggle button reporting\nc: enable motionplus, if connected\ne: toggle extension reporting\ni: toggle ir reporting\nm: toggle messages\np: print this menu\nr: request status message ((t) enables callback output)\ns: print current state\nt: toggle status reporting\nx: exit\n");
-    while(main$$1$$exit == 0)
+    while(main__1__exit == 0)
     {
-      signed int return_value_getchar$3;
-      return_value_getchar$3=getchar();
-      switch(return_value_getchar$3)
+      signed int return_value_getchar_3;
+      return_value_getchar_3=getchar();
+      switch(return_value_getchar_3)
       {
         case 49:
         {
@@ -2714,8 +2714,8 @@ signed int main(signed int argc, char **argv)
         case 53:
         {
           rumble = (unsigned char)(((signed int)rumble & 1) != 0 ? (signed int)rumble & ~1 : (signed int)rumble | 1);
-          return_value_cwiid_set_rumble$4=cwiid_set_rumble(wiimote, rumble);
-          if(!(return_value_cwiid_set_rumble$4 == 0))
+          return_value_cwiid_set_rumble_4=cwiid_set_rumble(wiimote, rumble);
+          if(!(return_value_cwiid_set_rumble_4 == 0))
             fprintf(stderr, "Error setting rumble\n");
 
           break;
@@ -2753,9 +2753,9 @@ signed int main(signed int argc, char **argv)
         {
           if(mesg == 0)
           {
-            signed int return_value_cwiid_enable$5;
-            return_value_cwiid_enable$5=cwiid_enable(wiimote, 0x01);
-            if(!(return_value_cwiid_enable$5 == 0))
+            signed int return_value_cwiid_enable_5;
+            return_value_cwiid_enable_5=cwiid_enable(wiimote, 0x01);
+            if(!(return_value_cwiid_enable_5 == 0))
               fprintf(stderr, "Error enabling messages\n");
 
             else
@@ -2764,9 +2764,9 @@ signed int main(signed int argc, char **argv)
 
           else
           {
-            signed int return_value_cwiid_disable$6;
-            return_value_cwiid_disable$6=cwiid_disable(wiimote, 0x01);
-            if(!(return_value_cwiid_disable$6 == 0))
+            signed int return_value_cwiid_disable_6;
+            return_value_cwiid_disable_6=cwiid_disable(wiimote, 0x01);
+            if(!(return_value_cwiid_disable_6 == 0))
               fprintf(stderr, "Error disabling message\n");
 
             else
@@ -2781,16 +2781,16 @@ signed int main(signed int argc, char **argv)
         }
         case 114:
         {
-          return_value_cwiid_request_status$7=cwiid_request_status(wiimote);
-          if(!(return_value_cwiid_request_status$7 == 0))
+          return_value_cwiid_request_status_7=cwiid_request_status(wiimote);
+          if(!(return_value_cwiid_request_status_7 == 0))
             fprintf(stderr, "Error requesting status message\n");
 
           break;
         }
         case 115:
         {
-          return_value_cwiid_get_state$8=cwiid_get_state(wiimote, &state);
-          if(!(return_value_cwiid_get_state$8 == 0))
+          return_value_cwiid_get_state_8=cwiid_get_state(wiimote, &state);
+          if(!(return_value_cwiid_get_state_8 == 0))
             fprintf(stderr, "Error getting state\n");
 
           print_state(&state);
@@ -2804,7 +2804,7 @@ signed int main(signed int argc, char **argv)
         }
         case 120:
         {
-          main$$1$$exit = -1;
+          main__1__exit = -1;
           break;
         }
         case 10:
@@ -2813,9 +2813,9 @@ signed int main(signed int argc, char **argv)
           fprintf(stderr, "invalid option\n");
       }
     }
-    signed int return_value_cwiid_close$9;
-    return_value_cwiid_close$9=cwiid_close(wiimote);
-    if(!(return_value_cwiid_close$9 == 0))
+    signed int return_value_cwiid_close_9;
+    return_value_cwiid_close_9=cwiid_close(wiimote);
+    if(!(return_value_cwiid_close_9 == 0))
     {
       fprintf(stderr, "Error on wiimote disconnect\n");
       return -1;
@@ -2836,22 +2836,22 @@ void * mesg_callback_thread(struct wiimote *wiimote)
   signed int cancelstate;
   while((_Bool)1)
   {
-    signed int return_value_read_mesg_array$1;
-    return_value_read_mesg_array$1=read_mesg_array(mesg_pipe, &ma);
-    if(!(return_value_read_mesg_array$1 == 0))
+    signed int return_value_read_mesg_array_1;
+    return_value_read_mesg_array_1=read_mesg_array(mesg_pipe, &ma);
+    if(!(return_value_read_mesg_array_1 == 0))
       cwiid_err(wiimote, "Mesg pipe read error");
 
     else
     {
-      signed int return_value_pthread_setcancelstate$2;
-      return_value_pthread_setcancelstate$2=pthread_setcancelstate(1, &cancelstate);
-      if(!(return_value_pthread_setcancelstate$2 == 0))
+      signed int return_value_pthread_setcancelstate_2;
+      return_value_pthread_setcancelstate_2=pthread_setcancelstate(1, &cancelstate);
+      if(!(return_value_pthread_setcancelstate_2 == 0))
         cwiid_err(wiimote, "Cancel state disable error (callback thread)");
 
       callback(wiimote, (signed int)ma.count, ma.array, &ma.timestamp);
-      signed int return_value_pthread_setcancelstate$3;
-      return_value_pthread_setcancelstate$3=pthread_setcancelstate(0, &cancelstate);
-      if(!(return_value_pthread_setcancelstate$3 == 0))
+      signed int return_value_pthread_setcancelstate_3;
+      return_value_pthread_setcancelstate_3=pthread_setcancelstate(0, &cancelstate);
+      if(!(return_value_pthread_setcancelstate_3 == 0))
         cwiid_err(wiimote, "Cancel state restore error (callback thread)");
 
     }
@@ -2959,12 +2959,12 @@ void print_state(struct cwiid_state *state)
 signed int process_acc(struct wiimote *wiimote, const unsigned char *data, struct mesg_array *ma)
 {
   struct cwiid_acc_mesg *acc_mesg;
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if(!((0x04 & (signed int)wiimote->state.rpt_mode) == 0))
   {
-    tmp_post$1 = ma->count;
+    tmp_post_1 = ma->count;
     ma->count = ma->count + 1;
-    acc_mesg = &ma->array[(signed long int)tmp_post$1].acc_mesg;
+    acc_mesg = &ma->array[(signed long int)tmp_post_1].acc_mesg;
     acc_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_ACC;
     acc_mesg->acc[(signed long int)0] = data[(signed long int)0];
     acc_mesg->acc[(signed long int)1] = data[(signed long int)1];
@@ -2980,20 +2980,20 @@ signed int process_btn(struct wiimote *wiimote, const unsigned char *data, struc
 {
   struct cwiid_btn_mesg *btn_mesg;
   unsigned short int buttons = (unsigned short int)(((signed int)data[(signed long int)0] & 0x1F) << 8 | (signed int)data[(signed long int)1] & 0x9F);
-  _Bool tmp_if_expr$2;
-  unsigned char tmp_post$1;
+  _Bool tmp_if_expr_2;
+  unsigned char tmp_post_1;
   if(!((0x02 & (signed int)wiimote->state.rpt_mode) == 0))
   {
     if(!(wiimote->state.buttons == buttons))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (wiimote->flags & 0x04) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (wiimote->flags & 0x04) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      tmp_post$1 = ma->count;
+      tmp_post_1 = ma->count;
       ma->count = ma->count + 1;
-      btn_mesg = &ma->array[(signed long int)tmp_post$1].btn_mesg;
+      btn_mesg = &ma->array[(signed long int)tmp_post_1].btn_mesg;
       btn_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_BTN;
       btn_mesg->buttons = buttons;
     }
@@ -3008,18 +3008,18 @@ signed int process_btn(struct wiimote *wiimote, const unsigned char *data, struc
 signed int process_error(struct wiimote *wiimote, signed long int len, struct mesg_array *ma)
 {
   struct cwiid_error_mesg *error_mesg;
-  unsigned char tmp_post$1 = ma->count;
+  unsigned char tmp_post_1 = ma->count;
   ma->count = ma->count + 1;
-  error_mesg = &ma->array[(signed long int)tmp_post$1].error_mesg;
+  error_mesg = &ma->array[(signed long int)tmp_post_1].error_mesg;
   error_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_ERROR;
   if(len == 0l)
     error_mesg->error = (enum cwiid_error)CWIID_ERROR_DISCONNECT;
 
   else
     error_mesg->error = (enum cwiid_error)CWIID_ERROR_COMM;
-  signed int return_value_cancel_rw$2;
-  return_value_cancel_rw$2=cancel_rw(wiimote);
-  if(!(return_value_cancel_rw$2 == 0))
+  signed int return_value_cancel_rw_2;
+  return_value_cancel_rw_2=cancel_rw(wiimote);
+  if(!(return_value_cancel_rw_2 == 0))
     cwiid_err(wiimote, "RW cancel error");
 
   return 0;
@@ -3034,10 +3034,10 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
   struct cwiid_balance_mesg *balance_mesg;
   struct cwiid_motionplus_mesg *motionplus_mesg;
   signed int i;
-  unsigned char tmp_post$1;
-  unsigned char tmp_post$2;
-  unsigned char tmp_post$3;
-  unsigned char tmp_post$4;
+  unsigned char tmp_post_1;
+  unsigned char tmp_post_2;
+  unsigned char tmp_post_3;
+  unsigned char tmp_post_4;
   switch((signed int)wiimote->state.ext_type)
   {
     case CWIID_EXT_NONE:
@@ -3051,9 +3051,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     {
       if(!((0x10 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$1 = ma->count;
+        tmp_post_1 = ma->count;
         ma->count = ma->count + 1;
-        nunchuk_mesg = &ma->array[(signed long int)tmp_post$1].nunchuk_mesg;
+        nunchuk_mesg = &ma->array[(signed long int)tmp_post_1].nunchuk_mesg;
         nunchuk_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_NUNCHUK;
         nunchuk_mesg->stick[(signed long int)0] = data[(signed long int)0];
         nunchuk_mesg->stick[(signed long int)1] = data[(signed long int)1];
@@ -3069,9 +3069,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     {
       if(!((0x20 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$2 = ma->count;
+        tmp_post_2 = ma->count;
         ma->count = ma->count + 1;
-        classic_mesg = &ma->array[(signed long int)tmp_post$2].classic_mesg;
+        classic_mesg = &ma->array[(signed long int)tmp_post_2].classic_mesg;
         classic_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_CLASSIC;
         i = 0;
         for( ; !(i >= 6); i = i + 1)
@@ -3090,9 +3090,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     case CWIID_EXT_BALANCE:
       if(!((0x40 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$3 = ma->count;
+        tmp_post_3 = ma->count;
         ma->count = ma->count + 1;
-        balance_mesg = &ma->array[(signed long int)tmp_post$3].balance_mesg;
+        balance_mesg = &ma->array[(signed long int)tmp_post_3].balance_mesg;
         balance_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_BALANCE;
         balance_mesg->right_top = (unsigned short int)((signed int)(unsigned short int)data[(signed long int)0] << 8 | (signed int)(unsigned short int)data[(signed long int)1]);
         balance_mesg->right_bottom = (unsigned short int)((signed int)(unsigned short int)data[(signed long int)2] << 8 | (signed int)(unsigned short int)data[(signed long int)3]);
@@ -3103,9 +3103,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     case CWIID_EXT_MOTIONPLUS:
       if(!((0x80 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$4 = ma->count;
+        tmp_post_4 = ma->count;
         ma->count = ma->count + 1;
-        motionplus_mesg = &ma->array[(signed long int)tmp_post$4].motionplus_mesg;
+        motionplus_mesg = &ma->array[(signed long int)tmp_post_4].motionplus_mesg;
         motionplus_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_MOTIONPLUS;
         motionplus_mesg->angle_rate[(signed long int)0] = (unsigned short int)(((signed int)(unsigned short int)data[(signed long int)5] & 0xFC) << 6 | (signed int)(unsigned short int)data[(signed long int)2]);
         motionplus_mesg->angle_rate[(signed long int)1] = (unsigned short int)(((signed int)(unsigned short int)data[(signed long int)4] & 0xFC) << 6 | (signed int)(unsigned short int)data[(signed long int)1]);
@@ -3123,12 +3123,12 @@ signed int process_ir10(struct wiimote *wiimote, const unsigned char *data, stru
   struct cwiid_ir_mesg *ir_mesg;
   signed int i;
   const unsigned char *block;
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if(!((0x08 & (signed int)wiimote->state.rpt_mode) == 0))
   {
-    tmp_post$1 = ma->count;
+    tmp_post_1 = ma->count;
     ma->count = ma->count + 1;
-    ir_mesg = &ma->array[(signed long int)tmp_post$1].ir_mesg;
+    ir_mesg = &ma->array[(signed long int)tmp_post_1].ir_mesg;
     ir_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_IR;
     i = 0;
     block = data;
@@ -3168,12 +3168,12 @@ signed int process_ir12(struct wiimote *wiimote, const unsigned char *data, stru
   struct cwiid_ir_mesg *ir_mesg;
   signed int i;
   const unsigned char *block;
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if(!((0x08 & (signed int)wiimote->state.rpt_mode) == 0))
   {
-    tmp_post$1 = ma->count;
+    tmp_post_1 = ma->count;
     ma->count = ma->count + 1;
-    ir_mesg = &ma->array[(signed long int)tmp_post$1].ir_mesg;
+    ir_mesg = &ma->array[(signed long int)tmp_post_1].ir_mesg;
     ir_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_IR;
     i = 0;
     block = data;
@@ -3213,9 +3213,9 @@ signed int process_read(struct wiimote *wiimote, unsigned char *data)
     rw_mesg.len = (unsigned char)(((signed int)data[(signed long int)0] >> 4) + 1);
     rw_mesg.error = (unsigned char)((signed int)data[(signed long int)0] & 0x0F);
     memcpy((void *)&rw_mesg.data, (const void *)(data + (signed long int)3), (unsigned long int)rw_mesg.len);
-    signed long int return_value_write$1;
-    return_value_write$1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
-    if(!((unsigned long int)return_value_write$1 == sizeof(struct rw_mesg) /*32ul*/ ))
+    signed long int return_value_write_1;
+    return_value_write_1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
+    if(!((unsigned long int)return_value_write_1 == sizeof(struct rw_mesg) /*32ul*/ ))
     {
       cwiid_err(wiimote, "RW pipe write error");
       return -1;
@@ -3238,9 +3238,9 @@ signed int process_status(struct wiimote *wiimote, const unsigned char *data, st
 
   else
     status_mesg.ext_type = (enum cwiid_ext_type)CWIID_EXT_NONE;
-  signed long int return_value_write$1;
-  return_value_write$1=write(wiimote->status_pipe[(signed long int)1], (const void *)&status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
-  if(!((unsigned long int)return_value_write$1 == sizeof(struct cwiid_status_mesg) /*12ul*/ ))
+  signed long int return_value_write_1;
+  return_value_write_1=write(wiimote->status_pipe[(signed long int)1], (const void *)&status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
+  if(!((unsigned long int)return_value_write_1 == sizeof(struct cwiid_status_mesg) /*12ul*/ ))
   {
     cwiid_err(wiimote, "Status pipe write error");
     return -1;
@@ -3265,9 +3265,9 @@ signed int process_write(struct wiimote *wiimote, unsigned char *data)
   {
     rw_mesg.type = (enum rw_status)RW_WRITE;
     rw_mesg.error = data[(signed long int)0];
-    signed long int return_value_write$1;
-    return_value_write$1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
-    if(!((unsigned long int)return_value_write$1 == sizeof(struct rw_mesg) /*32ul*/ ))
+    signed long int return_value_write_1;
+    return_value_write_1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
+    if(!((unsigned long int)return_value_write_1 == sizeof(struct rw_mesg) /*32ul*/ ))
     {
       cwiid_err(wiimote, "RW pipe write error");
       return -1;
@@ -3283,17 +3283,17 @@ signed int process_write(struct wiimote *wiimote, unsigned char *data)
 signed int read_mesg_array(signed int fd, struct mesg_array *ma)
 {
   signed long int len = (void *)&ma->array[(signed long int)0] - (void *)ma;
-  signed int return_value_full_read$1;
-  return_value_full_read$1=full_read(fd, (void *)ma, (unsigned long int)len);
-  if(!(return_value_full_read$1 == 0))
+  signed int return_value_full_read_1;
+  return_value_full_read_1=full_read(fd, (void *)ma, (unsigned long int)len);
+  if(!(return_value_full_read_1 == 0))
     return -1;
 
   else
   {
     len = (signed long int)((unsigned long int)ma->count * sizeof(union cwiid_mesg) /*36ul*/ );
-    signed int return_value_full_read$2;
-    return_value_full_read$2=full_read(fd, (void *)&ma->array[(signed long int)0], (unsigned long int)len);
-    if(!(return_value_full_read$2 == 0))
+    signed int return_value_full_read_2;
+    return_value_full_read_2=full_read(fd, (void *)&ma->array[(signed long int)0], (unsigned long int)len);
+    if(!(return_value_full_read_2 == 0))
       return -1;
 
     else
@@ -3308,53 +3308,53 @@ void * router_thread(struct wiimote *wiimote)
   unsigned char buf[23l];
   signed long int len;
   struct mesg_array ma;
-  char router_thread$$1$$err;
+  char router_thread__1__err;
   char print_clock_err = (char)1;
-  signed int return_value_process_status$2;
-  signed int return_value_process_btn$3;
-  signed int return_value_process_btn$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_process_acc$5;
-  signed int return_value_process_btn$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_process_ext$8;
-  signed int return_value_process_btn$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_process_acc$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_process_ir12$13;
-  signed int return_value_process_btn$15;
-  _Bool tmp_if_expr$17;
-  signed int return_value_process_ext$16;
-  signed int return_value_process_btn$18;
-  _Bool tmp_if_expr$20;
-  signed int return_value_process_acc$19;
-  _Bool tmp_if_expr$22;
-  signed int return_value_process_ext$21;
-  signed int return_value_process_btn$23;
-  _Bool tmp_if_expr$25;
-  signed int return_value_process_ir10$24;
-  _Bool tmp_if_expr$27;
-  signed int return_value_process_ext$26;
-  signed int return_value_process_btn$28;
-  _Bool tmp_if_expr$30;
-  signed int return_value_process_acc$29;
-  _Bool tmp_if_expr$32;
-  signed int return_value_process_ir10$31;
-  _Bool tmp_if_expr$34;
-  signed int return_value_process_ext$33;
-  signed int return_value_process_ext$35;
-  signed int return_value_process_read$36;
-  _Bool tmp_if_expr$38;
-  signed int return_value_process_btn$37;
-  signed int return_value_process_write$39;
+  signed int return_value_process_status_2;
+  signed int return_value_process_btn_3;
+  signed int return_value_process_btn_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_process_acc_5;
+  signed int return_value_process_btn_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_process_ext_8;
+  signed int return_value_process_btn_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_process_acc_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_process_ir12_13;
+  signed int return_value_process_btn_15;
+  _Bool tmp_if_expr_17;
+  signed int return_value_process_ext_16;
+  signed int return_value_process_btn_18;
+  _Bool tmp_if_expr_20;
+  signed int return_value_process_acc_19;
+  _Bool tmp_if_expr_22;
+  signed int return_value_process_ext_21;
+  signed int return_value_process_btn_23;
+  _Bool tmp_if_expr_25;
+  signed int return_value_process_ir10_24;
+  _Bool tmp_if_expr_27;
+  signed int return_value_process_ext_26;
+  signed int return_value_process_btn_28;
+  _Bool tmp_if_expr_30;
+  signed int return_value_process_acc_29;
+  _Bool tmp_if_expr_32;
+  signed int return_value_process_ir10_31;
+  _Bool tmp_if_expr_34;
+  signed int return_value_process_ext_33;
+  signed int return_value_process_ext_35;
+  signed int return_value_process_read_36;
+  _Bool tmp_if_expr_38;
+  signed int return_value_process_btn_37;
+  signed int return_value_process_write_39;
   while((_Bool)1)
   {
     len=read(wiimote->int_socket, (void *)buf, (unsigned long int)23);
     ma.count = (unsigned char)0;
-    signed int return_value_clock_gettime$1;
-    return_value_clock_gettime$1=clock_gettime(0, &ma.timestamp);
-    if(!(return_value_clock_gettime$1 == 0))
+    signed int return_value_clock_gettime_1;
+    return_value_clock_gettime_1=clock_gettime(0, &ma.timestamp);
+    if(!(return_value_clock_gettime_1 == 0))
     {
       if(!(print_clock_err == 0))
       {
@@ -3364,7 +3364,7 @@ void * router_thread(struct wiimote *wiimote)
 
     }
 
-    router_thread$$1$$err = (char)0;
+    router_thread__1__err = (char)0;
     if(len == 0l || len == -1l)
     {
       process_error(wiimote, len, &ma);
@@ -3381,158 +3381,158 @@ void * router_thread(struct wiimote *wiimote)
       {
         case 0x20:
         {
-          return_value_process_status$2=process_status(wiimote, &buf[(signed long int)2], &ma);
-          router_thread$$1$$err = (char)return_value_process_status$2;
+          return_value_process_status_2=process_status(wiimote, &buf[(signed long int)2], &ma);
+          router_thread__1__err = (char)return_value_process_status_2;
           break;
         }
         case 0x30:
         {
-          return_value_process_btn$3=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          router_thread$$1$$err = (char)return_value_process_btn$3;
+          return_value_process_btn_3=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          router_thread__1__err = (char)return_value_process_btn_3;
           break;
         }
         case 0x31:
         {
-          return_value_process_btn$4=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$4 == 0))
-            tmp_if_expr$6 = (_Bool)1;
+          return_value_process_btn_4=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_4 == 0))
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$5=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$6 = return_value_process_acc$5 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_5=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_6 = return_value_process_acc_5 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          router_thread$$1$$err = (char)tmp_if_expr$6;
+          router_thread__1__err = (char)tmp_if_expr_6;
           break;
         }
         case 0x32:
         {
-          return_value_process_btn$7=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$7 == 0))
-            tmp_if_expr$9 = (_Bool)1;
+          return_value_process_btn_7=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_7 == 0))
+            tmp_if_expr_9 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$8=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)8, &ma);
-            tmp_if_expr$9 = return_value_process_ext$8 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_8=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)8, &ma);
+            tmp_if_expr_9 = return_value_process_ext_8 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          router_thread$$1$$err = (char)tmp_if_expr$9;
+          router_thread__1__err = (char)tmp_if_expr_9;
           break;
         }
         case 0x33:
         {
-          return_value_process_btn$10=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$10 == 0))
-            tmp_if_expr$12 = (_Bool)1;
+          return_value_process_btn_10=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_10 == 0))
+            tmp_if_expr_12 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$11=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$12 = return_value_process_acc$11 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_11=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_12 = return_value_process_acc_11 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$12)
-            tmp_if_expr$14 = (_Bool)1;
+          if(tmp_if_expr_12)
+            tmp_if_expr_14 = (_Bool)1;
 
           else
           {
-            return_value_process_ir12$13=process_ir12(wiimote, &buf[(signed long int)7], &ma);
-            tmp_if_expr$14 = return_value_process_ir12$13 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ir12_13=process_ir12(wiimote, &buf[(signed long int)7], &ma);
+            tmp_if_expr_14 = return_value_process_ir12_13 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          router_thread$$1$$err = (char)tmp_if_expr$14;
+          router_thread__1__err = (char)tmp_if_expr_14;
           break;
         }
         case 0x34:
         {
-          return_value_process_btn$15=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$15 == 0))
-            tmp_if_expr$17 = (_Bool)1;
+          return_value_process_btn_15=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_15 == 0))
+            tmp_if_expr_17 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$16=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)19, &ma);
-            tmp_if_expr$17 = return_value_process_ext$16 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_16=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)19, &ma);
+            tmp_if_expr_17 = return_value_process_ext_16 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          router_thread$$1$$err = (char)tmp_if_expr$17;
+          router_thread__1__err = (char)tmp_if_expr_17;
           break;
         }
         case 0x35:
         {
-          return_value_process_btn$18=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$18 == 0))
-            tmp_if_expr$20 = (_Bool)1;
+          return_value_process_btn_18=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_18 == 0))
+            tmp_if_expr_20 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$19=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$20 = return_value_process_acc$19 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_19=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_20 = return_value_process_acc_19 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$20)
-            tmp_if_expr$22 = (_Bool)1;
+          if(tmp_if_expr_20)
+            tmp_if_expr_22 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$21=process_ext(wiimote, &buf[(signed long int)7], (unsigned char)16, &ma);
-            tmp_if_expr$22 = return_value_process_ext$21 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_21=process_ext(wiimote, &buf[(signed long int)7], (unsigned char)16, &ma);
+            tmp_if_expr_22 = return_value_process_ext_21 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          router_thread$$1$$err = (char)tmp_if_expr$22;
+          router_thread__1__err = (char)tmp_if_expr_22;
           break;
         }
         case 0x36:
         {
-          return_value_process_btn$23=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$23 == 0))
-            tmp_if_expr$25 = (_Bool)1;
+          return_value_process_btn_23=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_23 == 0))
+            tmp_if_expr_25 = (_Bool)1;
 
           else
           {
-            return_value_process_ir10$24=process_ir10(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$25 = return_value_process_ir10$24 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ir10_24=process_ir10(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_25 = return_value_process_ir10_24 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$25)
-            tmp_if_expr$27 = (_Bool)1;
+          if(tmp_if_expr_25)
+            tmp_if_expr_27 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$26=process_ext(wiimote, &buf[(signed long int)14], (unsigned char)9, &ma);
-            tmp_if_expr$27 = return_value_process_ext$26 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_26=process_ext(wiimote, &buf[(signed long int)14], (unsigned char)9, &ma);
+            tmp_if_expr_27 = return_value_process_ext_26 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          router_thread$$1$$err = (char)tmp_if_expr$27;
+          router_thread__1__err = (char)tmp_if_expr_27;
           break;
         }
         case 0x37:
         {
-          return_value_process_btn$28=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$28 == 0))
-            tmp_if_expr$30 = (_Bool)1;
+          return_value_process_btn_28=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_28 == 0))
+            tmp_if_expr_30 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$29=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$30 = return_value_process_acc$29 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_29=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_30 = return_value_process_acc_29 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$30)
-            tmp_if_expr$32 = (_Bool)1;
+          if(tmp_if_expr_30)
+            tmp_if_expr_32 = (_Bool)1;
 
           else
           {
-            return_value_process_ir10$31=process_ir10(wiimote, &buf[(signed long int)7], &ma);
-            tmp_if_expr$32 = return_value_process_ir10$31 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ir10_31=process_ir10(wiimote, &buf[(signed long int)7], &ma);
+            tmp_if_expr_32 = return_value_process_ir10_31 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$32)
-            tmp_if_expr$34 = (_Bool)1;
+          if(tmp_if_expr_32)
+            tmp_if_expr_34 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$33=process_ext(wiimote, &buf[(signed long int)17], (unsigned char)6, &ma);
-            tmp_if_expr$34 = return_value_process_ext$33 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_33=process_ext(wiimote, &buf[(signed long int)17], (unsigned char)6, &ma);
+            tmp_if_expr_34 = return_value_process_ext_33 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          router_thread$$1$$err = (char)tmp_if_expr$34;
+          router_thread__1__err = (char)tmp_if_expr_34;
           break;
         }
         case 0x3D:
         {
-          return_value_process_ext$35=process_ext(wiimote, &buf[(signed long int)2], (unsigned char)21, &ma);
-          router_thread$$1$$err = (char)return_value_process_ext$35;
+          return_value_process_ext_35=process_ext(wiimote, &buf[(signed long int)2], (unsigned char)21, &ma);
+          router_thread__1__err = (char)return_value_process_ext_35;
           break;
         }
         case 0x3E:
@@ -3540,40 +3540,40 @@ void * router_thread(struct wiimote *wiimote)
         case 0x3F:
         {
           cwiid_err(wiimote, "Unsupported report type received (interleaved data)");
-          router_thread$$1$$err = (char)1;
+          router_thread__1__err = (char)1;
           break;
         }
         case 0x21:
         {
-          return_value_process_read$36=process_read(wiimote, &buf[(signed long int)4]);
-          if(!(return_value_process_read$36 == 0))
-            tmp_if_expr$38 = (_Bool)1;
+          return_value_process_read_36=process_read(wiimote, &buf[(signed long int)4]);
+          if(!(return_value_process_read_36 == 0))
+            tmp_if_expr_38 = (_Bool)1;
 
           else
           {
-            return_value_process_btn$37=process_btn(wiimote, &buf[(signed long int)2], &ma);
-            tmp_if_expr$38 = return_value_process_btn$37 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_btn_37=process_btn(wiimote, &buf[(signed long int)2], &ma);
+            tmp_if_expr_38 = return_value_process_btn_37 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          router_thread$$1$$err = (char)tmp_if_expr$38;
+          router_thread__1__err = (char)tmp_if_expr_38;
           break;
         }
         case 0x22:
         {
-          return_value_process_write$39=process_write(wiimote, &buf[(signed long int)2]);
-          router_thread$$1$$err = (char)return_value_process_write$39;
+          return_value_process_write_39=process_write(wiimote, &buf[(signed long int)2]);
+          router_thread__1__err = (char)return_value_process_write_39;
           break;
         }
         default:
         {
           cwiid_err(wiimote, "Unknown message type");
-          router_thread$$1$$err = (char)1;
+          router_thread__1__err = (char)1;
         }
       }
-      if(router_thread$$1$$err == 0 && (signed int)ma.count >= 1)
+      if(router_thread__1__err == 0 && (signed int)ma.count >= 1)
       {
-        signed int return_value_update_state$40;
-        return_value_update_state$40=update_state(wiimote, &ma);
-        if(!(return_value_update_state$40 == 0))
+        signed int return_value_update_state_40;
+        return_value_update_state_40=update_state(wiimote, &ma);
+        if(!(return_value_update_state_40 == 0))
           cwiid_err(wiimote, "State update error");
 
         if(!((0x01 & wiimote->flags) == 0))
@@ -3590,9 +3590,9 @@ void * router_thread(struct wiimote *wiimote)
 // file wmdemo.c line 196
 void set_led_state(struct wiimote *wiimote, unsigned char led_state)
 {
-  signed int return_value_cwiid_set_led$1;
-  return_value_cwiid_set_led$1=cwiid_set_led(wiimote, led_state);
-  if(!(return_value_cwiid_set_led$1 == 0))
+  signed int return_value_cwiid_set_led_1;
+  return_value_cwiid_set_led_1=cwiid_set_led(wiimote, led_state);
+  if(!(return_value_cwiid_set_led_1 == 0))
     fprintf(stderr, "Error setting LEDs \n");
 
 }
@@ -3601,9 +3601,9 @@ void set_led_state(struct wiimote *wiimote, unsigned char led_state)
 // file wmdemo.c line 203
 void set_rpt_mode(struct wiimote *wiimote, unsigned char rpt_mode)
 {
-  signed int return_value_cwiid_set_rpt_mode$1;
-  return_value_cwiid_set_rpt_mode$1=cwiid_set_rpt_mode(wiimote, rpt_mode);
-  if(!(return_value_cwiid_set_rpt_mode$1 == 0))
+  signed int return_value_cwiid_set_rpt_mode_1;
+  return_value_cwiid_set_rpt_mode_1=cwiid_set_rpt_mode(wiimote, rpt_mode);
+  if(!(return_value_cwiid_set_rpt_mode_1 == 0))
     fprintf(stderr, "Error setting report mode\n");
 
 }
@@ -3617,14 +3617,14 @@ void * status_thread(struct wiimote *wiimote)
   unsigned char buf[2l];
   ma.count = (unsigned char)1;
   status_mesg = &ma.array[(signed long int)0].status_mesg;
-  signed int return_value_cwiid_write$5;
-  signed int return_value_cwiid_write$4;
-  signed int return_value_cwiid_read$3;
+  signed int return_value_cwiid_write_5;
+  signed int return_value_cwiid_write_4;
+  signed int return_value_cwiid_read_3;
   while((_Bool)1)
   {
-    signed int return_value_full_read$1;
-    return_value_full_read$1=full_read(wiimote->status_pipe[(signed long int)0], (void *)status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
-    if(!(return_value_full_read$1 == 0))
+    signed int return_value_full_read_1;
+    return_value_full_read_1=full_read(wiimote->status_pipe[(signed long int)0], (void *)status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
+    if(!(return_value_full_read_1 == 0))
     {
       cwiid_err(wiimote, "Pipe read error (status)");
       break;
@@ -3637,9 +3637,9 @@ void * status_thread(struct wiimote *wiimote)
     {
       if((signed int)status_mesg->ext_type == CWIID_EXT_UNKNOWN)
       {
-        signed int return_value_cwiid_read$2;
-        return_value_cwiid_read$2=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
-        if(!(return_value_cwiid_read$2 == 0))
+        signed int return_value_cwiid_read_2;
+        return_value_cwiid_read_2=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
+        if(!(return_value_cwiid_read_2 == 0))
         {
           cwiid_err(wiimote, "Read error (extension error)");
           status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -3676,8 +3676,8 @@ void * status_thread(struct wiimote *wiimote)
           {
             buf[(signed long int)0] = (unsigned char)0x55;
             buf[(signed long int)1] = (unsigned char)0x00;
-            return_value_cwiid_write$5=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400F0, (unsigned short int)1, (const void *)&buf[(signed long int)0]);
-            if(!(return_value_cwiid_write$5 == 0))
+            return_value_cwiid_write_5=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400F0, (unsigned short int)1, (const void *)&buf[(signed long int)0]);
+            if(!(return_value_cwiid_write_5 == 0))
             {
               cwiid_err(wiimote, "Extension initialization error");
               status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -3685,8 +3685,8 @@ void * status_thread(struct wiimote *wiimote)
 
             else
             {
-              return_value_cwiid_write$4=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400FB, (unsigned short int)1, (const void *)&buf[(signed long int)1]);
-              if(!(return_value_cwiid_write$4 == 0))
+              return_value_cwiid_write_4=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400FB, (unsigned short int)1, (const void *)&buf[(signed long int)1]);
+              if(!(return_value_cwiid_write_4 == 0))
               {
                 cwiid_err(wiimote, "Extension initialization error");
                 status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -3694,8 +3694,8 @@ void * status_thread(struct wiimote *wiimote)
 
               else
               {
-                return_value_cwiid_read$3=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
-                if(!(return_value_cwiid_read$3 == 0))
+                return_value_cwiid_read_3=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
+                if(!(return_value_cwiid_read_3 == 0))
                 {
                   cwiid_err(wiimote, "Read error (extension error)");
                   status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -3735,22 +3735,22 @@ void * status_thread(struct wiimote *wiimote)
         }
       }
 
-      signed int return_value_update_state$6;
-      return_value_update_state$6=update_state(wiimote, &ma);
-      if(!(return_value_update_state$6 == 0))
+      signed int return_value_update_state_6;
+      return_value_update_state_6=update_state(wiimote, &ma);
+      if(!(return_value_update_state_6 == 0))
         cwiid_err(wiimote, "State update error");
 
-      signed int return_value_update_rpt_mode$7;
-      return_value_update_rpt_mode$7=update_rpt_mode(wiimote, (signed char)-1);
-      if(!(return_value_update_rpt_mode$7 == 0))
+      signed int return_value_update_rpt_mode_7;
+      return_value_update_rpt_mode_7=update_rpt_mode(wiimote, (signed char)-1);
+      if(!(return_value_update_rpt_mode_7 == 0))
         cwiid_err(wiimote, "Error reseting report mode");
 
       if(!((0x01 & (signed int)wiimote->state.rpt_mode) == 0))
       {
         if(!((0x01 & wiimote->flags) == 0))
         {
-          signed int return_value_write_mesg_array$8;
-          return_value_write_mesg_array$8=write_mesg_array(wiimote, &ma);
+          signed int return_value_write_mesg_array_8;
+          return_value_write_mesg_array_8=write_mesg_array(wiimote, &ma);
         }
 
       }
@@ -3768,16 +3768,16 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
   unsigned char rpt_type;
   struct write_seq *ir_enable_seq;
   signed int seq_len;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->rpt_mutex);
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->rpt_mutex);
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (rpt mutex)");
     return -1;
@@ -3791,21 +3791,21 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
     if(!((240 & (signed int)rpt_mode) == 0))
     {
       if((signed int)wiimote->state.ext_type == CWIID_EXT_NUNCHUK)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)wiimote->state.ext_type == CWIID_EXT_CLASSIC ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = (signed int)wiimote->state.ext_type == CWIID_EXT_CLASSIC ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)wiimote->state.ext_type == CWIID_EXT_MOTIONPLUS ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)wiimote->state.ext_type == CWIID_EXT_MOTIONPLUS ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       if(!((0x04 & (signed int)rpt_mode) == 0) && !((0x08 & (signed int)rpt_mode) == 0))
       {
@@ -3837,11 +3837,11 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
     else
     {
       if(!((240 & (signed int)rpt_mode) == 0))
-        tmp_if_expr$2 = (signed int)wiimote->state.ext_type == CWIID_EXT_BALANCE ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)wiimote->state.ext_type == CWIID_EXT_BALANCE ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         rpt_type = (unsigned char)0x32;
 
       else
@@ -3861,9 +3861,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
     }
     if(!((0x08 & (signed int)rpt_mode) == 0))
     {
-      signed int return_value_exec_write_seq$6;
-      return_value_exec_write_seq$6=exec_write_seq(wiimote, (unsigned int)seq_len, ir_enable_seq);
-      if(!(return_value_exec_write_seq$6 == 0))
+      signed int return_value_exec_write_seq_6;
+      return_value_exec_write_seq_6=exec_write_seq(wiimote, (unsigned int)seq_len, ir_enable_seq);
+      if(!(return_value_exec_write_seq_6 == 0))
       {
         cwiid_err(wiimote, "IR enable error");
         return -1;
@@ -3876,9 +3876,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
       {
         if((0x08 & (signed int)rpt_mode) == 0)
         {
-          signed int return_value_exec_write_seq$7;
-          return_value_exec_write_seq$7=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), ir_disable_seq);
-          if(!(return_value_exec_write_seq$7 == 0))
+          signed int return_value_exec_write_seq_7;
+          return_value_exec_write_seq_7=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), ir_disable_seq);
+          if(!(return_value_exec_write_seq_7 == 0))
           {
             cwiid_err(wiimote, "IR disable error");
             return -1;
@@ -3890,9 +3890,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
 
     buf[(signed long int)0] = (unsigned char)((wiimote->flags & 0x02) != 0 ? 0x04 : 0);
     buf[(signed long int)1] = rpt_type;
-    signed int return_value_cwiid_send_rpt$8;
-    return_value_cwiid_send_rpt$8=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x12, (unsigned long int)2, (const void *)buf);
-    if(!(return_value_cwiid_send_rpt$8 == 0))
+    signed int return_value_cwiid_send_rpt_8;
+    return_value_cwiid_send_rpt_8=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x12, (unsigned long int)2, (const void *)buf);
+    if(!(return_value_cwiid_send_rpt_8 == 0))
     {
       cwiid_err(wiimote, "Send report error (report mode)");
       return -1;
@@ -3910,31 +3910,31 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
         memset((void *)wiimote->state.ir_src, 0, sizeof(struct cwiid_ir_src [4l]) /*32ul*/ );
 
       if((signed int)wiimote->state.ext_type == CWIID_EXT_NUNCHUK)
-        tmp_if_expr$11 = (0x10 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = (0x10 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$11 = (_Bool)0;
-      if(tmp_if_expr$11)
+        tmp_if_expr_11 = (_Bool)0;
+      if(tmp_if_expr_11)
         memset((void *)&wiimote->state.ext, 0, sizeof(union ext_state) /*8ul*/ );
 
       else
       {
         if((signed int)wiimote->state.ext_type == CWIID_EXT_CLASSIC)
-          tmp_if_expr$10 = (0x20 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = (0x20 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
           memset((void *)&wiimote->state.ext, 0, sizeof(union ext_state) /*8ul*/ );
 
         else
         {
           if((signed int)wiimote->state.ext_type == CWIID_EXT_BALANCE)
-            tmp_if_expr$9 = (0x40 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (0x40 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = (_Bool)0;
+          if(tmp_if_expr_9)
             memset((void *)&wiimote->state.ext, 0, sizeof(union ext_state) /*8ul*/ );
 
           else
@@ -3948,9 +3948,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
         }
       }
       wiimote->state.rpt_mode = (unsigned char)rpt_mode;
-      signed int return_value_pthread_mutex_unlock$12;
-      return_value_pthread_mutex_unlock$12=pthread_mutex_unlock(&wiimote->rpt_mutex);
-      if(!(return_value_pthread_mutex_unlock$12 == 0))
+      signed int return_value_pthread_mutex_unlock_12;
+      return_value_pthread_mutex_unlock_12=pthread_mutex_unlock(&wiimote->rpt_mutex);
+      if(!(return_value_pthread_mutex_unlock_12 == 0))
       {
         cwiid_err(wiimote, "Mutex unlock error (rpt mutex) - deadlock warning");
         return -1;
@@ -3968,9 +3968,9 @@ signed int update_state(struct wiimote *wiimote, struct mesg_array *ma)
 {
   signed int i;
   union cwiid_mesg *mesg;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->state_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->state_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (state mutex)");
     return -1;
@@ -4052,9 +4052,9 @@ signed int update_state(struct wiimote *wiimote, struct mesg_array *ma)
         }
       }
     }
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&wiimote->state_mutex);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&wiimote->state_mutex);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
     {
       cwiid_err(wiimote, "Mutex unlock error (state mutex) - deadlock warning");
       return -1;
@@ -4070,9 +4070,9 @@ signed int update_state(struct wiimote *wiimote, struct mesg_array *ma)
 signed int verify_handshake(struct wiimote *wiimote)
 {
   unsigned char handshake;
-  signed long int return_value_read$1;
-  return_value_read$1=read(wiimote->ctl_socket, (void *)&handshake, (unsigned long int)1);
-  if(!(return_value_read$1 == 1l))
+  signed long int return_value_read_1;
+  return_value_read_1=read(wiimote->ctl_socket, (void *)&handshake, (unsigned long int)1);
+  if(!(return_value_read_1 == 1l))
   {
     cwiid_err(wiimote, "Socket read error (handshake)");
     return -1;
@@ -4101,18 +4101,18 @@ signed int write_mesg_array(struct wiimote *wiimote, struct mesg_array *ma)
 {
   signed long int len = (void *)&ma->array[(signed long int)ma->count] - (void *)ma;
   signed int ret = 0;
-  signed long int return_value_write$5;
-  return_value_write$5=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
-  if(!(return_value_write$5 == len))
+  signed long int return_value_write_5;
+  return_value_write_5=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
+  if(!(return_value_write_5 == len))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 11)
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 11)
     {
       cwiid_err(wiimote, "Mesg pipe overflow");
-      signed int return_value_fcntl$3;
-      return_value_fcntl$3=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 0);
-      if(!(return_value_fcntl$3 == 0))
+      signed int return_value_fcntl_3;
+      return_value_fcntl_3=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 0);
+      if(!(return_value_fcntl_3 == 0))
       {
         cwiid_err(wiimote, "File control error (mesg pipe)");
         ret = -1;
@@ -4120,17 +4120,17 @@ signed int write_mesg_array(struct wiimote *wiimote, struct mesg_array *ma)
 
       else
       {
-        signed long int return_value_write$1;
-        return_value_write$1=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
-        if(!(return_value_write$1 == len))
+        signed long int return_value_write_1;
+        return_value_write_1=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
+        if(!(return_value_write_1 == len))
         {
           cwiid_err(wiimote, "Pipe write error (mesg pipe)");
           ret = -1;
         }
 
-        signed int return_value_fcntl$2;
-        return_value_fcntl$2=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 04000);
-        if(!(return_value_fcntl$2 == 0))
+        signed int return_value_fcntl_2;
+        return_value_fcntl_2=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 04000);
+        if(!(return_value_fcntl_2 == 0))
           cwiid_err(wiimote, "File control error (mesg pipe");
 
       }

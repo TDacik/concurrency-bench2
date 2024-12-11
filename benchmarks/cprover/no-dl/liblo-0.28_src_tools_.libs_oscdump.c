@@ -1,62 +1,62 @@
-// #anon_enum$LO_ELEMENT_MESSAGE=1$LO_ELEMENT_BUNDLE=2
+// #anon_enum_LO_ELEMENT_MESSAGE=1_LO_ELEMENT_BUNDLE=2
 // file ../lo/lo_osc_types.h line 59
-enum anonymous$13 { LO_ELEMENT_MESSAGE=1, LO_ELEMENT_BUNDLE=2 };
+enum anonymous_13 { LO_ELEMENT_MESSAGE=1, LO_ELEMENT_BUNDLE=2 };
 
-// #anon_enum$LO_INT32=105$LO_FLOAT=102$LO_STRING=115$LO_BLOB=98$LO_INT64=104$LO_TIMETAG=116$LO_DOUBLE=100$LO_SYMBOL=83$LO_CHAR=99$LO_MIDI=109$LO_TRUE=84$LO_FALSE=70$LO_NIL=78$LO_INFINITUM=73
+// #anon_enum_LO_INT32=105_LO_FLOAT=102_LO_STRING=115_LO_BLOB=98_LO_INT64=104_LO_TIMETAG=116_LO_DOUBLE=100_LO_SYMBOL=83_LO_CHAR=99_LO_MIDI=109_LO_TRUE=84_LO_FALSE=70_LO_NIL=78_LO_INFINITUM=73
 // file ../../lo/lo_osc_types.h line 72
-enum anonymous$4 { LO_INT32=105, LO_FLOAT=102, LO_STRING=115, LO_BLOB=98, LO_INT64=104, LO_TIMETAG=116, LO_DOUBLE=100, LO_SYMBOL=83, LO_CHAR=99, LO_MIDI=109, LO_TRUE=84, LO_FALSE=70, LO_NIL=78, LO_INFINITUM=73 };
+enum anonymous_4 { LO_INT32=105, LO_FLOAT=102, LO_STRING=115, LO_BLOB=98, LO_INT64=104, LO_TIMETAG=116, LO_DOUBLE=100, LO_SYMBOL=83, LO_CHAR=99, LO_MIDI=109, LO_TRUE=84, LO_FALSE=70, LO_NIL=78, LO_INFINITUM=73 };
 
-// #anon_enum$LO_SERVER_COERCE=1$LO_SERVER_ENQUEUE=2
+// #anon_enum_LO_SERVER_COERCE=1_LO_SERVER_ENQUEUE=2
 // file lo_types_internal.h line 51
-enum anonymous$1 { LO_SERVER_COERCE=1, LO_SERVER_ENQUEUE=2 };
+enum anonymous_1 { LO_SERVER_COERCE=1, LO_SERVER_ENQUEUE=2 };
 
-// #anon_enum$LO_SLIP=1$LO_NODELAY=2
+// #anon_enum_LO_SLIP=1_LO_NODELAY=2
 // file lo_types_internal.h line 45
-enum anonymous$9 { LO_SLIP=1, LO_NODELAY=2 };
+enum anonymous_9 { LO_SLIP=1, LO_NODELAY=2 };
 
-// tag-#anon#ST[*{SYM#tag-_lo_message#}$SYM#tag-_lo_message#$'msg'||*{cS8}$cS8$'path'|]
+// tag-#anon#ST[*{SYM#tag-_lo_message#}_SYM#tag-_lo_message#_'msg'||*{cS8}_cS8_'path'|]
 // file lo_types_internal.h line 190
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[U32'sec'||U32'frac'|]#'ts'||*{S8}$S8$'path'||*{SYM#tag-_lo_message#}$SYM#tag-_lo_message#$'msg'||S32'sock'||U32'$pad0'||*{V}$V$'next'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[U32'sec'||U32'frac'|]#'ts'||*{S8}_S8_'path'||*{SYM#tag-_lo_message#}_SYM#tag-_lo_message#_'msg'||S32'sock'||U32'_pad0'||*{V}_V_'next'|]
 // file server.c line 72
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[U32'a'||U32'b'|]
 // file ../lo/lo_endian.h line 95
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[U32'sec'||U32'frac'|]
 // file ../../lo/lo_osc_types.h line 46
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[*{SYM#tag-_lo_bundle#}$SYM#tag-_lo_bundle#$'bundle'||SYM#tag-#anon#ST[*{SYM#tag-_lo_message#}$SYM#tag-_lo_message#$'msg'||*{cS8}$cS8$'path'|]#'message'|]
+// tag-#anon#UN[*{SYM#tag-_lo_bundle#}_SYM#tag-_lo_bundle#_'bundle'||SYM#tag-#anon#ST[*{SYM#tag-_lo_message#}_SYM#tag-_lo_message#_'msg'||*{cS8}_cS8_'path'|]#'message'|]
 // file lo_types_internal.h line 188
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'ifu_broadaddr'||*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'ifu_dstaddr'|]
+// tag-#anon#UN[*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'ifu_broadaddr'||*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'ifu_dstaddr'|]
 // file /usr/include/ifaddrs.h line 38
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$11;
+union anonymous_11;
 
 // tag-#anon#UN[S32'i'||F32'f'||S8'c'||U32'nl'|]
 // file lo_types_internal.h line 210
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[S32'i'||S32'i32'||S64'h'||S64'i64'||F32'f'||F32'f32'||F64'd'||F64'f64'||S8's'||S8'S'||U8'c'||ARR4{U8}$U8$'m'||SYM#tag-#anon#ST[U32'sec'||U32'frac'|]#'t'|]
+// tag-#anon#UN[S32'i'||S32'i32'||S64'h'||S64'i64'||F32'f'||F32'f32'||F64'd'||F64'f64'||S8's'||S8'S'||U8'c'||ARR4{U8}_U8_'m'||SYM#tag-#anon#ST[U32'sec'||U32'frac'|]#'t'|]
 // file ../../lo/lo_osc_types.h line 115
-union anonymous$0;
+union anonymous_0;
 
 // tag-#anon#UN[S64'i'||F64'f'||U64'nl'|]
 // file lo_types_internal.h line 217
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$16;
+union anonymous_16;
 
 // tag-#anon#UN[SYM#tag-in_addr#'addr'||SYM#tag-in6_addr#'addr6'|]
 // file lo_types_internal.h line 66
@@ -64,7 +64,7 @@ union anonymous;
 
 // tag-#anon#UN[U64'all'||SYM#tag-#anon#ST[U32'a'||U32'b'|]#'part'|]
 // file ../lo/lo_endian.h line 93
-union anonymous$8;
+union anonymous_8;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -382,19 +382,19 @@ signed int lo_address_set_tcp_nodelay(struct _lo_address *t, signed int enable);
 void lo_address_set_ttl(struct _lo_address *t, signed int ttl);
 // lo_arg_host_endian
 // file message.c line 706
-void lo_arg_host_endian(enum anonymous$4 type, void *data);
+void lo_arg_host_endian(enum anonymous_4 type, void *data);
 // lo_arg_network_endian
 // file message.c line 746
-void lo_arg_network_endian(enum anonymous$4 type, void *data);
+void lo_arg_network_endian(enum anonymous_4 type, void *data);
 // lo_arg_pp
 // file ../../lo/lo_lowlevel.h line 1054
-void lo_arg_pp(enum anonymous$4 type, void *data);
+void lo_arg_pp(enum anonymous_4 type, void *data);
 // lo_arg_pp_internal
 // file message.c line 1009
-void lo_arg_pp_internal(enum anonymous$4 type, void *data, signed int bigendian);
+void lo_arg_pp_internal(enum anonymous_4 type, void *data, signed int bigendian);
 // lo_arg_size
 // file message.c line 530
-unsigned long int lo_arg_size(enum anonymous$4 type, void *data);
+unsigned long int lo_arg_size(enum anonymous_4 type, void *data);
 // lo_blob_dataptr
 // file ../lo/lo.h line 217
 void * lo_blob_dataptr(struct _lo_blob *b);
@@ -445,10 +445,10 @@ struct _lo_bundle * lo_bundle_get_bundle(struct _lo_bundle *b, signed int index)
 struct _lo_message * lo_bundle_get_message(struct _lo_bundle *b, signed int index, const char **path);
 // lo_bundle_get_timestamp
 // file bundle.c line 211
-struct anonymous$2 lo_bundle_get_timestamp(struct _lo_bundle *b);
+struct anonymous_2 lo_bundle_get_timestamp(struct _lo_bundle *b);
 // lo_bundle_get_type
 // file bundle.c line 184
-enum anonymous$13 lo_bundle_get_type(struct _lo_bundle *b, signed int index);
+enum anonymous_13 lo_bundle_get_type(struct _lo_bundle *b, signed int index);
 // lo_bundle_incref
 // file bundle.c line 37
 void lo_bundle_incref(struct _lo_bundle *b);
@@ -457,7 +457,7 @@ void lo_bundle_incref(struct _lo_bundle *b);
 unsigned long int lo_bundle_length(struct _lo_bundle *b);
 // lo_bundle_new
 // file ../lo/lo_lowlevel.h line 492
-struct _lo_bundle * lo_bundle_new(struct anonymous$2 tt);
+struct _lo_bundle * lo_bundle_new(struct anonymous_2 tt);
 // lo_bundle_pp
 // file bundle.c line 410
 void lo_bundle_pp(struct _lo_bundle *b);
@@ -475,7 +475,7 @@ static signed int lo_can_coerce(char a, char b);
 static signed int lo_can_coerce_spec(const char *a, const char *b);
 // lo_coerce
 // file message.c line 1128
-signed int lo_coerce(enum anonymous$4 type_to, union anonymous$0 *to, enum anonymous$4 type_from, union anonymous$0 *from);
+signed int lo_coerce(enum anonymous_4 type_to, union anonymous_0 *to, enum anonymous_4 type_from, union anonymous_0 *from);
 // lo_error_get_context
 // file server.c line 2180
 void * lo_error_get_context();
@@ -484,16 +484,16 @@ void * lo_error_get_context();
 char * lo_get_path(void *data, signed long int size);
 // lo_hires_val
 // file message.c line 1172
-long double lo_hires_val(enum anonymous$4 type, union anonymous$0 *p);
+long double lo_hires_val(enum anonymous_4 type, union anonymous_0 *p);
 // lo_inaddr_find_iface
 // file address.c line 621
 signed int lo_inaddr_find_iface(struct _lo_inaddr *t, signed int fam, const char *iface, const char *ip);
 // lo_is_numerical_type
 // file message.c line 1118
-signed int lo_is_numerical_type(enum anonymous$4 a);
+signed int lo_is_numerical_type(enum anonymous_4 a);
 // lo_is_string_type
 // file message.c line 1123
-signed int lo_is_string_type(enum anonymous$4 a);
+signed int lo_is_string_type(enum anonymous_4 a);
 // lo_message_add_blob
 // file message.c line 353
 signed int lo_message_add_blob(struct _lo_message *m, struct _lo_blob *a);
@@ -538,7 +538,7 @@ signed int lo_message_add_string(struct _lo_message *m, const char *a);
 signed int lo_message_add_symbol(struct _lo_message *m, const char *a);
 // lo_message_add_timetag
 // file message.c line 385
-signed int lo_message_add_timetag(struct _lo_message *m, struct anonymous$2 a);
+signed int lo_message_add_timetag(struct _lo_message *m, struct anonymous_2 a);
 // lo_message_add_true
 // file message.c line 455
 signed int lo_message_add_true(struct _lo_message *m);
@@ -562,13 +562,13 @@ void lo_message_free(struct _lo_message *m);
 signed int lo_message_get_argc(struct _lo_message *m);
 // lo_message_get_argv
 // file message.c line 805
-union anonymous$0 ** lo_message_get_argv(struct _lo_message *m);
+union anonymous_0 ** lo_message_get_argv(struct _lo_message *m);
 // lo_message_get_source
 // file message.c line 785
 struct _lo_address * lo_message_get_source(struct _lo_message *m);
 // lo_message_get_timestamp
 // file message.c line 790
-struct anonymous$2 lo_message_get_timestamp(struct _lo_message *m);
+struct anonymous_2 lo_message_get_timestamp(struct _lo_message *m);
 // lo_message_get_types
 // file message.c line 829
 char * lo_message_get_types(struct _lo_message *m);
@@ -604,10 +604,10 @@ signed int lo_send_bundle(struct _lo_address *a, struct _lo_bundle *b);
 signed int lo_send_bundle_from(struct _lo_address *a, struct _lo_server *from, struct _lo_bundle *b);
 // lo_send_from_internal
 // file send.c line 225
-signed int lo_send_from_internal(struct _lo_address *to, struct _lo_server *from, const char *file, const signed int line, const struct anonymous$2 ts, const char *path, const char *types, ...);
+signed int lo_send_from_internal(struct _lo_address *to, struct _lo_server *from, const char *file, const signed int line, const struct anonymous_2 ts, const char *path, const char *types, ...);
 // lo_send_from_varargs_internal
 // file send.c line 174
-static signed int lo_send_from_varargs_internal(struct _lo_address *to, struct _lo_server *from, const char *file, const signed int line, struct anonymous$2 ts, const char *path, const char *types, void **ap);
+static signed int lo_send_from_varargs_internal(struct _lo_address *to, struct _lo_server *from, const char *file, const signed int line, struct anonymous_2 ts, const char *path, const char *types, void **ap);
 // lo_send_internal
 // file send.c line 113
 signed int lo_send_internal(struct _lo_address *t, const char *file, const signed int line, const char *path, const char *types, ...);
@@ -619,28 +619,28 @@ signed int lo_send_message(struct _lo_address *a, const char *path, struct _lo_m
 signed int lo_send_message_from(struct _lo_address *a, struct _lo_server *from, const char *path, struct _lo_message *msg);
 // lo_send_timestamped_internal
 // file send.c line 163
-signed int lo_send_timestamped_internal(struct _lo_address *t, const char *file, const signed int line, struct anonymous$2 ts, const char *path, const char *types, ...);
+signed int lo_send_timestamped_internal(struct _lo_address *t, const char *file, const signed int line, struct anonymous_2 ts, const char *path, const char *types, ...);
 // lo_send_timestamped_varargs_internal
 // file send.c line 122
-static signed int lo_send_timestamped_varargs_internal(struct _lo_address *t, const char *file, const signed int line, struct anonymous$2 ts, const char *path, const char *types, void **ap);
+static signed int lo_send_timestamped_varargs_internal(struct _lo_address *t, const char *file, const signed int line, struct anonymous_2 ts, const char *path, const char *types, void **ap);
 // lo_send_varargs_internal
 // file send.c line 71
 static signed int lo_send_varargs_internal(struct _lo_address *t, const char *file, const signed int line, const char *path, const char *types, void **ap);
 // lo_server_add_bundle_handlers
 // file server.c line 2038
-signed int lo_server_add_bundle_handlers(struct _lo_server *s, signed int (*sh)(struct anonymous$2, void *), signed int (*eh)(void *), void *user_data);
-// lo_server_add_bundle_handlers::eh$object
+signed int lo_server_add_bundle_handlers(struct _lo_server *s, signed int (*sh)(struct anonymous_2, void *), signed int (*eh)(void *), void *user_data);
+// lo_server_add_bundle_handlers::eh_object
 //
-signed int eh$object(void *);
-// lo_server_add_bundle_handlers::sh$object
+signed int eh_object(void *);
+// lo_server_add_bundle_handlers::sh_object
 //
-signed int sh$object(struct anonymous$2, void *);
+signed int sh_object(struct anonymous_2, void *);
 // lo_server_add_method
 // file server.c line 1951
-struct _lo_method * lo_server_add_method(struct _lo_server *s, const char *path, const char *typespec, signed int (*h)(const char *, const char *, union anonymous$0 **, signed int, struct _lo_message *, void *), void *user_data);
-// lo_server_add_method::h$object
+struct _lo_method * lo_server_add_method(struct _lo_server *s, const char *path, const char *typespec, signed int (*h)(const char *, const char *, union anonymous_0 **, signed int, struct _lo_message *, void *), void *user_data);
+// lo_server_add_method::h_object
 //
-signed int h$object(const char *, const char *, union anonymous$0 **, signed int, struct _lo_message *, void *);
+signed int h_object(const char *, const char *, union anonymous_0 **, signed int, struct _lo_message *, void *);
 // lo_server_add_socket
 // file lo_internal.h line 83
 signed int lo_server_add_socket(struct _lo_server *s, signed int socket, struct _lo_address *a, struct sockaddr_storage *addr, unsigned int addr_len);
@@ -689,39 +689,39 @@ static signed int lo_server_join_multicast_group(struct _lo_server *s, const cha
 // lo_server_new
 // file server.c line 221
 struct _lo_server * lo_server_new(const char *port, void (*err_h)(signed int, const char *, const char *));
-// lo_server_new::err_h$object
+// lo_server_new::err_h_object
 //
-void err_h$object(signed int, const char *, const char *);
+void err_h_object(signed int, const char *, const char *);
 // lo_server_new_from_url
 // file server.c line 247
 struct _lo_server * lo_server_new_from_url(const char *url, void (*err_h)(signed int, const char *, const char *));
-// lo_server_new_from_url::err_h$object
+// lo_server_new_from_url::err_h_object
 //
-void err_h$object(signed int, const char *, const char *);
+void err_h_object(signed int, const char *, const char *);
 // lo_server_new_multicast
 // file server.c line 226
 struct _lo_server * lo_server_new_multicast(const char *group, const char *port, void (*err_h)(signed int, const char *, const char *));
-// lo_server_new_multicast::err_h$object
+// lo_server_new_multicast::err_h_object
 //
-void err_h$object(signed int, const char *, const char *);
+void err_h_object(signed int, const char *, const char *);
 // lo_server_new_multicast_iface
 // file server.c line 233
 struct _lo_server * lo_server_new_multicast_iface(const char *group, const char *port, const char *iface, const char *ip, void (*err_h)(signed int, const char *, const char *));
-// lo_server_new_multicast_iface::err_h$object
+// lo_server_new_multicast_iface::err_h_object
 //
-void err_h$object(signed int, const char *, const char *);
+void err_h_object(signed int, const char *, const char *);
 // lo_server_new_with_proto
 // file server.c line 241
 struct _lo_server * lo_server_new_with_proto(const char *port, signed int proto, void (*err_h)(signed int, const char *, const char *));
-// lo_server_new_with_proto::err_h$object
+// lo_server_new_with_proto::err_h_object
 //
-void err_h$object(signed int, const char *, const char *);
+void err_h_object(signed int, const char *, const char *);
 // lo_server_new_with_proto_internal
 // file server.c line 290
 static struct _lo_server * lo_server_new_with_proto_internal(const char *group, const char *port, const char *iface, const char *ip, signed int proto, void (*err_h)(signed int, const char *, const char *));
-// lo_server_new_with_proto_internal::err_h$object
+// lo_server_new_with_proto_internal::err_h_object
 //
-void err_h$object(signed int, const char *, const char *);
+void err_h_object(signed int, const char *, const char *);
 // lo_server_next_event_delay
 // file server.c line 1690
 double lo_server_next_event_delay(struct _lo_server *s);
@@ -760,10 +760,10 @@ static signed int lo_server_setsock_reuseport(struct _lo_server *s, signed int d
 signed int lo_server_should_coerce_args(struct _lo_server *s);
 // lo_server_thread_add_method
 // file server_thread.c line 116
-struct _lo_method * lo_server_thread_add_method(struct _lo_server_thread *st, const char *path, const char *typespec, signed int (*h)(const char *, const char *, union anonymous$0 **, signed int, struct _lo_message *, void *), void *user_data);
-// lo_server_thread_add_method::h$object
+struct _lo_method * lo_server_thread_add_method(struct _lo_server_thread *st, const char *path, const char *typespec, signed int (*h)(const char *, const char *, union anonymous_0 **, signed int, struct _lo_message *, void *), void *user_data);
+// lo_server_thread_add_method::h_object
 //
-signed int h$object(const char *, const char *, union anonymous$0 **, signed int, struct _lo_message *, void *);
+signed int h_object(const char *, const char *, union anonymous_0 **, signed int, struct _lo_message *, void *);
 // lo_server_thread_del_method
 // file server_thread.c line 124
 void lo_server_thread_del_method(struct _lo_server_thread *st, const char *path, const char *typespec);
@@ -785,27 +785,27 @@ char * lo_server_thread_get_url(struct _lo_server_thread *st);
 // lo_server_thread_new
 // file server_thread.c line 40
 struct _lo_server_thread * lo_server_thread_new(const char *port, void (*err_h)(signed int, const char *, const char *));
-// lo_server_thread_new::err_h$object
+// lo_server_thread_new::err_h_object
 //
-void err_h$object(signed int, const char *, const char *);
+void err_h_object(signed int, const char *, const char *);
 // lo_server_thread_new_from_url
 // file server_thread.c line 82
 struct _lo_server_thread * lo_server_thread_new_from_url(const char *url, void (*err_h)(signed int, const char *, const char *));
-// lo_server_thread_new_from_url::err_h$object
+// lo_server_thread_new_from_url::err_h_object
 //
-void err_h$object(signed int, const char *, const char *);
+void err_h_object(signed int, const char *, const char *);
 // lo_server_thread_new_multicast
 // file server_thread.c line 46
 struct _lo_server_thread * lo_server_thread_new_multicast(const char *group, const char *port, void (*err_h)(signed int, const char *, const char *));
-// lo_server_thread_new_multicast::err_h$object
+// lo_server_thread_new_multicast::err_h_object
 //
-void err_h$object(signed int, const char *, const char *);
+void err_h_object(signed int, const char *, const char *);
 // lo_server_thread_new_with_proto
 // file server_thread.c line 64
 struct _lo_server_thread * lo_server_thread_new_with_proto(const char *port, signed int proto, void (*err_h)(signed int, const char *, const char *));
-// lo_server_thread_new_with_proto::err_h$object
+// lo_server_thread_new_with_proto::err_h_object
 //
-void err_h$object(signed int, const char *, const char *);
+void err_h_object(signed int, const char *, const char *);
 // lo_server_thread_pp
 // file server_thread.c line 205
 void lo_server_thread_pp(struct _lo_server_thread *st);
@@ -832,10 +832,10 @@ static inline unsigned long int lo_swap64(unsigned long int x);
 void lo_throw(struct _lo_server *s, signed int errnum, const char *message, const char *path);
 // lo_timetag_diff
 // file ../lo/lo_lowlevel.h line 988
-double lo_timetag_diff(struct anonymous$2 a, struct anonymous$2 b);
+double lo_timetag_diff(struct anonymous_2 a, struct anonymous_2 b);
 // lo_timetag_now
 // file ../lo/lo_lowlevel.h line 995
-void lo_timetag_now(struct anonymous$2 *t);
+void lo_timetag_now(struct anonymous_2 *t);
 // lo_url_get_hostname
 // file address.c line 390
 char * lo_url_get_hostname(const char *url);
@@ -853,7 +853,7 @@ char * lo_url_get_protocol(const char *url);
 signed int lo_url_get_protocol_id(const char *url);
 // lo_validate_arg
 // file message.c line 669
-signed long int lo_validate_arg(enum anonymous$4 type, void *data, signed long int size);
+signed long int lo_validate_arg(enum anonymous_4 type, void *data, signed long int size);
 // lo_validate_blob
 // file message.c line 602
 signed long int lo_validate_blob(void *data, signed long int size);
@@ -886,7 +886,7 @@ extern void * memmove(void *, const void *, unsigned long int);
 extern void * memset(void *, signed int, unsigned long int);
 // messageHandler
 // file oscdump.c line 52
-signed int messageHandler(const char *path, const char *types, union anonymous$0 **argv, signed int argc, void *msg, void *user_data);
+signed int messageHandler(const char *path, const char *types, union anonymous_0 **argv, signed int argc, void *msg, void *user_data);
 // ntohl
 // file /usr/include/netinet/in.h line 374
 extern unsigned int ntohl(unsigned int);
@@ -913,10 +913,10 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$16 *);
+extern signed int pthread_mutex_lock(union anonymous_16 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$16 *);
+extern signed int pthread_mutex_unlock(union anonymous_16 *);
 // push_to_list
 // file bundle.c line 48
 static struct _lo_bundle ** push_to_list(struct _lo_bundle **list, struct _lo_bundle *ptr, unsigned long int *len, unsigned long int *size);
@@ -925,7 +925,7 @@ static struct _lo_bundle ** push_to_list(struct _lo_bundle **list, struct _lo_bu
 extern signed int putchar(signed int);
 // queue_data
 // file server.c line 1878
-static void queue_data(struct _lo_server *s, struct anonymous$2 ts, const char *path, struct _lo_message *msg, signed int sock);
+static void queue_data(struct _lo_server *s, struct anonymous_2 ts, const char *path, struct _lo_message *msg, signed int sock);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -1014,7 +1014,7 @@ void usage(void);
 // file bundle.c line 78
 static struct _lo_bundle ** walk_tree(struct _lo_bundle **B, struct _lo_bundle *b, unsigned long int *len, unsigned long int *size, signed int *ret);
 
-struct anonymous$14
+struct anonymous_14
 {
   // msg
   struct _lo_message *msg;
@@ -1022,7 +1022,7 @@ struct anonymous$14
   const char *path;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // sec
   unsigned int sec;
@@ -1030,10 +1030,10 @@ struct anonymous$2
   unsigned int frac;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // ts
-  struct anonymous$2 ts;
+  struct anonymous_2 ts;
   // path
   char *path;
   // msg
@@ -1044,7 +1044,7 @@ struct anonymous$3
   void *next;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // a
   unsigned int a;
@@ -1052,15 +1052,15 @@ struct anonymous$7
   unsigned int b;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // bundle
   struct _lo_bundle *bundle;
   // message
-  struct anonymous$14 message;
+  struct anonymous_14 message;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // ifu_broadaddr
   struct sockaddr *ifu_broadaddr;
@@ -1068,7 +1068,7 @@ union anonymous$10
   struct sockaddr *ifu_dstaddr;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1078,7 +1078,7 @@ union anonymous$11
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$5
+union anonymous_5
 {
   // i
   signed int i;
@@ -1090,7 +1090,7 @@ union anonymous$5
   unsigned int nl;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // i
   signed int i;
@@ -1117,10 +1117,10 @@ union anonymous$0
   // m
   unsigned char m[4l];
   // t
-  struct anonymous$2 t;
+  struct anonymous_2 t;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // i
   signed long int i;
@@ -1158,7 +1158,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1177,7 +1177,7 @@ struct in_addr
 struct in6_addr
 {
   // __in6_u
-  union anonymous$11 __in6_u;
+  union anonymous_11 __in6_u;
 };
 
 union anonymous
@@ -1188,12 +1188,12 @@ union anonymous
   struct in6_addr addr6;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // all
   unsigned long int all;
   // part
-  struct anonymous$7 part;
+  struct anonymous_7 part;
 };
 
 struct _IO_FILE
@@ -1291,7 +1291,7 @@ struct _lo_address
   // protocol
   signed int protocol;
   // flags
-  enum anonymous$9 flags;
+  enum anonymous_9 flags;
   // ai
   struct addrinfo *ai;
   // ai_first
@@ -1325,7 +1325,7 @@ struct _lo_bundle
   // len
   unsigned long int len;
   // ts
-  struct anonymous$2 ts;
+  struct anonymous_2 ts;
   // elmnts
   struct _lo_element *elmnts;
   // refcount
@@ -1335,9 +1335,9 @@ struct _lo_bundle
 struct _lo_element
 {
   // type
-  enum anonymous$13 type;
+  enum anonymous_13 type;
   // content
-  union anonymous$15 content;
+  union anonymous_15 content;
 };
 
 struct _lo_message
@@ -1357,9 +1357,9 @@ struct _lo_message
   // source
   struct _lo_address *source;
   // argv
-  union anonymous$0 **argv;
+  union anonymous_0 **argv;
   // ts
-  struct anonymous$2 ts;
+  struct anonymous_2 ts;
   // refcount
   signed int refcount;
 };
@@ -1371,7 +1371,7 @@ struct _lo_method
   // typespec
   const char *typespec;
   // handler
-  signed int (*handler)(const char *, const char *, union anonymous$0 **, signed int, struct _lo_message *, void *);
+  signed int (*handler)(const char *, const char *, union anonymous_0 **, signed int, struct _lo_message *, void *);
   // user_data
   char *user_data;
   // next
@@ -1405,7 +1405,7 @@ struct _lo_server
   // protocol
   signed int protocol;
   // flags
-  enum anonymous$1 flags;
+  enum anonymous_1 flags;
   // queued
   void *queued;
   // addr
@@ -1425,7 +1425,7 @@ struct _lo_server
   // sources_len
   signed int sources_len;
   // bundle_start_handler
-  signed int (*bundle_start_handler)(struct anonymous$2, void *);
+  signed int (*bundle_start_handler)(struct anonymous_2, void *);
   // bundle_end_handler
   signed int (*bundle_end_handler)(void *);
   // bundle_handler_user_data
@@ -1503,7 +1503,7 @@ struct ifaddrs
   // ifa_netmask
   struct sockaddr *ifa_netmask;
   // ifa_ifu
-  union anonymous$10 ifa_ifu;
+  union anonymous_10 ifa_ifu;
   // ifa_data
   void *ifa_data;
 };
@@ -1625,7 +1625,7 @@ struct lo_cs lo_client_sockets = { .udp=-1, .tcp=-1 };
 void *lo_error_context;
 // lo_error_context_mutex
 // file server.c line 2162
-union anonymous$16 lo_error_context_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_16 lo_error_context_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // lo_numerical_types
@@ -1677,33 +1677,33 @@ static void collect_element(struct _lo_element *elmnt)
 // file send.c line 307
 static signed int create_socket(struct _lo_address *a)
 {
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if(a->protocol == 0x1)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = a->protocol == 0x4 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = a->protocol == 0x4 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_7)
   {
     a->socket=socket(a->ai->ai_family, a->ai->ai_socktype, 0);
     if(a->socket == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      a->errnum = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      a->errnum = *return_value___errno_location_1;
       a->errstr = (const char *)(void *)0;
       return -1;
     }
 
     if(a->protocol == 0x4)
     {
-      signed int return_value_connect$3;
-      return_value_connect$3=connect(a->socket, a->ai->ai_addr, a->ai->ai_addrlen);
-      if(!(return_value_connect$3 == 0))
+      signed int return_value_connect_3;
+      return_value_connect_3=connect(a->socket, a->ai->ai_addr, a->ai->ai_addrlen);
+      if(!(return_value_connect_3 == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        a->errnum = *return_value___errno_location$2;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        a->errnum = *return_value___errno_location_2;
         a->errstr = (const char *)(void *)0;
         close(a->socket);
         a->socket = -1;
@@ -1750,22 +1750,22 @@ static signed int create_socket(struct _lo_address *a)
       a->socket=socket(1, 2, 0);
       if(a->socket == -1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        a->errnum = *return_value___errno_location$4;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        a->errnum = *return_value___errno_location_4;
         a->errstr = (const char *)(void *)0;
         return -1;
       }
 
       sa.sun_family = (unsigned short int)1;
       strncpy(sa.sun_path, a->port, sizeof(char [108l]) /*108ul*/  - (unsigned long int)1);
-      signed int return_value_connect$6;
-      return_value_connect$6=connect(a->socket, (struct sockaddr *)&sa, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-      if(!(return_value_connect$6 >= 0))
+      signed int return_value_connect_6;
+      return_value_connect_6=connect(a->socket, (struct sockaddr *)&sa, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+      if(!(return_value_connect_6 >= 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        a->errnum = *return_value___errno_location$5;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        a->errnum = *return_value___errno_location_5;
         a->errstr = (const char *)(void *)0;
         close(a->socket);
         a->socket = -1;
@@ -1789,37 +1789,37 @@ static signed int create_socket(struct _lo_address *a)
 // file server.c line 868
 static signed int detect_slip(unsigned char *bytes)
 {
-  const unsigned short int **return_value___ctype_b_loc$3;
-  _Bool tmp_if_expr$4;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  _Bool tmp_if_expr$2;
-  const unsigned short int **return_value___ctype_b_loc$9;
-  _Bool tmp_if_expr$10;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  _Bool tmp_if_expr$8;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  _Bool tmp_if_expr$6;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  _Bool tmp_if_expr_4;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  _Bool tmp_if_expr_2;
+  const unsigned short int **return_value___ctype_b_loc_9;
+  _Bool tmp_if_expr_10;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  _Bool tmp_if_expr_8;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  _Bool tmp_if_expr_6;
   if((signed int)*bytes == 0300)
   {
     if(!((signed int)bytes[1l] == 47))
       goto __CPROVER_DUMP_L5;
 
-    return_value___ctype_b_loc$3=__ctype_b_loc();
-    if(!((16384 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)bytes[2l]]) == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    return_value___ctype_b_loc_3=__ctype_b_loc();
+    if(!((16384 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)bytes[2l]]) == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)bytes[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)bytes[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_4)
       goto __CPROVER_DUMP_L5;
 
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((16384 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)bytes[3l]]) == 0))
-      tmp_if_expr$2 = (_Bool)1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((16384 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)bytes[3l]]) == 0))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)bytes[(signed long int)3] == 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)bytes[(signed long int)3] == 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
       goto __CPROVER_DUMP_L5;
 
     return 1;
@@ -1832,31 +1832,31 @@ static signed int detect_slip(unsigned char *bytes)
     ;
     if((signed int)*bytes == 47)
     {
-      return_value___ctype_b_loc$9=__ctype_b_loc();
-      if(!((16384 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)bytes[1l]]) == 0))
-        tmp_if_expr$10 = (_Bool)1;
+      return_value___ctype_b_loc_9=__ctype_b_loc();
+      if(!((16384 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)bytes[1l]]) == 0))
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = (signed int)bytes[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$10)
+        tmp_if_expr_10 = (signed int)bytes[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_10)
         goto __CPROVER_DUMP_L12;
 
-      return_value___ctype_b_loc$7=__ctype_b_loc();
-      if(!((16384 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)bytes[2l]]) == 0))
-        tmp_if_expr$8 = (_Bool)1;
+      return_value___ctype_b_loc_7=__ctype_b_loc();
+      if(!((16384 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)bytes[2l]]) == 0))
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = (signed int)bytes[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$8)
+        tmp_if_expr_8 = (signed int)bytes[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_8)
         goto __CPROVER_DUMP_L12;
 
-      return_value___ctype_b_loc$5=__ctype_b_loc();
-      if(!((16384 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)bytes[3l]]) == 0))
-        tmp_if_expr$6 = (_Bool)1;
+      return_value___ctype_b_loc_5=__ctype_b_loc();
+      if(!((16384 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)bytes[3l]]) == 0))
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)bytes[(signed long int)3] == 0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$6)
+        tmp_if_expr_6 = (signed int)bytes[(signed long int)3] == 0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_6)
         goto __CPROVER_DUMP_L12;
 
       return 1;
@@ -1867,9 +1867,9 @@ static signed int detect_slip(unsigned char *bytes)
 
     __CPROVER_DUMP_L12:
       ;
-      signed int return_value_memcmp$11;
-      return_value_memcmp$11=memcmp((const void *)bytes, (const void *)"#bun", (unsigned long int)4);
-      if(return_value_memcmp$11 == 0)
+      signed int return_value_memcmp_11;
+      return_value_memcmp_11=memcmp((const void *)bytes, (const void *)"#bun", (unsigned long int)4);
+      if(return_value_memcmp_11 == 0)
         return 1;
 
       else
@@ -1886,10 +1886,10 @@ static signed int dispatch_data(struct _lo_server *s, void *data, unsigned long 
   char *path = (char *)data;
   signed long int len;
   len=lo_validate_string(data, (signed long int)size);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  double return_value_lo_timetag_diff$2;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  double return_value_lo_timetag_diff_2;
+  _Bool tmp_if_expr_4;
   if(!(len >= 0l))
   {
     lo_throw(s, (signed int)-len, "Invalid message path", (const char *)(void *)0);
@@ -1898,15 +1898,15 @@ static signed int dispatch_data(struct _lo_server *s, void *data, unsigned long 
 
   else
   {
-    signed int return_value_strcmp$6;
-    return_value_strcmp$6=strcmp((const char *)data, "#bundle");
-    if(return_value_strcmp$6 == 0)
+    signed int return_value_strcmp_6;
+    return_value_strcmp_6=strcmp((const char *)data, "#bundle");
+    if(return_value_strcmp_6 == 0)
     {
       char *pos;
       signed int remain;
       unsigned int elem_len;
-      struct anonymous$2 ts;
-      struct anonymous$2 now;
+      struct anonymous_2 ts;
+      struct anonymous_2 now;
       signed long int bundle_result;
       bundle_result=lo_validate_bundle(data, (signed long int)size);
       if(!(bundle_result >= 0l))
@@ -1923,7 +1923,7 @@ static signed int dispatch_data(struct _lo_server *s, void *data, unsigned long 
       ts.frac=htonl(*((unsigned int *)pos));
       pos = pos + (signed long int)4;
       remain = remain - 8;
-      if(!(s->bundle_start_handler == ((signed int (*)(struct anonymous$2, void *))NULL)))
+      if(!(s->bundle_start_handler == ((signed int (*)(struct anonymous_2, void *))NULL)))
         s->bundle_start_handler(ts, s->bundle_handler_user_data);
 
       while(remain >= 4)
@@ -1932,9 +1932,9 @@ static signed int dispatch_data(struct _lo_server *s, void *data, unsigned long 
         elem_len=htonl(*((unsigned int *)pos));
         pos = pos + (signed long int)4;
         remain = remain - 4;
-        signed int return_value_strcmp$5;
-        return_value_strcmp$5=strcmp(pos, "#bundle");
-        if(return_value_strcmp$5 == 0)
+        signed int return_value_strcmp_5;
+        return_value_strcmp_5=strcmp(pos, "#bundle");
+        if(return_value_strcmp_5 == 0)
           dispatch_data(s, (void *)pos, (unsigned long int)elem_len, sock);
 
         else
@@ -1949,24 +1949,24 @@ static signed int dispatch_data(struct _lo_server *s, void *data, unsigned long 
           msg->ts = ts;
           lo_message_incref(msg);
           if(ts.sec == 0U)
-            tmp_if_expr$1 = ts.frac == ((struct anonymous$2){ .sec=0U, .frac=1U }).frac ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = ts.frac == ((struct anonymous_2){ .sec=0U, .frac=1U }).frac ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
-            return_value_lo_timetag_diff$2=lo_timetag_diff(ts, now);
-            tmp_if_expr$3 = return_value_lo_timetag_diff$2 <= 0.0 ? (_Bool)1 : (_Bool)0;
+            return_value_lo_timetag_diff_2=lo_timetag_diff(ts, now);
+            tmp_if_expr_3 = return_value_lo_timetag_diff_2 <= 0.0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$3)
-            tmp_if_expr$4 = (_Bool)1;
+          if(tmp_if_expr_3)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = ((signed int)s->flags & LO_SERVER_ENQUEUE) == 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = ((signed int)s->flags & LO_SERVER_ENQUEUE) == 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
           {
             dispatch_method(s, pos, msg, sock);
             lo_message_free(msg);
@@ -1985,17 +1985,17 @@ static signed int dispatch_data(struct _lo_server *s, void *data, unsigned long 
 
     else
     {
-      struct _lo_message *dispatch_data$$1$$3$$msg;
-      dispatch_data$$1$$3$$msg=lo_message_deserialise(data, size, &result);
-      if(dispatch_data$$1$$3$$msg == ((struct _lo_message *)NULL))
+      struct _lo_message *dispatch_data__1__3__msg;
+      dispatch_data__1__3__msg=lo_message_deserialise(data, size, &result);
+      if(dispatch_data__1__3__msg == ((struct _lo_message *)NULL))
       {
         lo_throw(s, result, "Invalid message received", path);
         return -result;
       }
 
-      lo_message_incref(dispatch_data$$1$$3$$msg);
-      dispatch_method(s, (const char *)data, dispatch_data$$1$$3$$msg, sock);
-      lo_message_free(dispatch_data$$1$$3$$msg);
+      lo_message_incref(dispatch_data__1__3__msg);
+      dispatch_method(s, (const char *)data, dispatch_data__1__3__msg, sock);
+      lo_message_free(dispatch_data__1__3__msg);
     }
     return (signed int)size;
   }
@@ -2007,15 +2007,15 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
 {
   char *types = msg->types + (signed long int)1;
   signed int argc;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(types);
-  argc = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(types);
+  argc = (signed int)return_value_strlen_1;
   struct _lo_method *it;
   signed int ret = 1;
   signed int pattern;
-  char *return_value_strpbrk$2;
-  return_value_strpbrk$2=strpbrk(path, " #*,?[]{}");
-  pattern = (signed int)(return_value_strpbrk$2 != (char *)(void *)0);
+  char *return_value_strpbrk_2;
+  return_value_strpbrk_2=strpbrk(path, " #*,?[]{}");
+  pattern = (signed int)(return_value_strpbrk_2 != (char *)(void *)0);
   struct _lo_address *src = ((struct _lo_address *)NULL);
   const char *pptr;
   if(s->protocol == 0x4 && sock >= 0)
@@ -2042,51 +2042,51 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
     msg->source = src;
   }
   it = s->first;
-  _Bool tmp_if_expr$14;
-  signed int return_value_strcmp$13;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$16;
-  signed int return_value_lo_pattern_match$15;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_lo_server_should_coerce_args$10;
-  signed int return_value_lo_can_coerce_spec$9;
+  _Bool tmp_if_expr_14;
+  signed int return_value_strcmp_13;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_16;
+  signed int return_value_lo_pattern_match_15;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_lo_server_should_coerce_args_10;
+  signed int return_value_lo_can_coerce_spec_9;
   for( ; !(it == ((struct _lo_method *)NULL)); it = it->next)
   {
     if(it->path == ((const char *)NULL))
-      tmp_if_expr$14 = (_Bool)1;
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$13=strcmp(path, it->path);
-      tmp_if_expr$14 = !(return_value_strcmp$13 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_13=strcmp(path, it->path);
+      tmp_if_expr_14 = !(return_value_strcmp_13 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$14)
-      tmp_if_expr$17 = (_Bool)1;
+    if(tmp_if_expr_14)
+      tmp_if_expr_17 = (_Bool)1;
 
     else
     {
       if(!(pattern == 0))
       {
-        return_value_lo_pattern_match$15=lo_pattern_match(it->path, path);
-        tmp_if_expr$16 = return_value_lo_pattern_match$15 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_lo_pattern_match_15=lo_pattern_match(it->path, path);
+        tmp_if_expr_16 = return_value_lo_pattern_match_15 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$16 = (_Bool)0;
-      tmp_if_expr$17 = tmp_if_expr$16 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_16 = (_Bool)0;
+      tmp_if_expr_17 = tmp_if_expr_16 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$17)
+    if(tmp_if_expr_17)
     {
       if(it->typespec == ((const char *)NULL))
-        tmp_if_expr$12 = (_Bool)1;
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$11=strcmp(types, it->typespec);
-        tmp_if_expr$12 = !(return_value_strcmp$11 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_11=strcmp(types, it->typespec);
+        tmp_if_expr_12 = !(return_value_strcmp_11 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
+      if(tmp_if_expr_12)
       {
         pptr = path;
         if(!(it->path == ((const char *)NULL)))
@@ -2097,13 +2097,13 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
 
       else
       {
-        return_value_lo_server_should_coerce_args$10=lo_server_should_coerce_args(s);
-        if(!(return_value_lo_server_should_coerce_args$10 == 0))
+        return_value_lo_server_should_coerce_args_10=lo_server_should_coerce_args(s);
+        if(!(return_value_lo_server_should_coerce_args_10 == 0))
         {
-          return_value_lo_can_coerce_spec$9=lo_can_coerce_spec(types, it->typespec);
-          if(!(return_value_lo_can_coerce_spec$9 == 0))
+          return_value_lo_can_coerce_spec_9=lo_can_coerce_spec(types, it->typespec);
+          if(!(return_value_lo_can_coerce_spec_9 == 0))
           {
-            union anonymous$0 **argv = (union anonymous$0 **)(void *)0;
+            union anonymous_0 **argv = (union anonymous_0 **)(void *)0;
             char *data_co = (char *)(void *)0;
             if(argc >= 1)
             {
@@ -2111,35 +2111,35 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
               signed int opsize = 0;
               char *ptr = (char *)msg->data;
               char *data_co_ptr = (char *)(void *)0;
-              void *return_value_calloc$3;
-              return_value_calloc$3=calloc((unsigned long int)argc, sizeof(union anonymous$0 *) /*8ul*/ );
-              argv = (union anonymous$0 **)return_value_calloc$3;
+              void *return_value_calloc_3;
+              return_value_calloc_3=calloc((unsigned long int)argc, sizeof(union anonymous_0 *) /*8ul*/ );
+              argv = (union anonymous_0 **)return_value_calloc_3;
               i = 0;
               for( ; !(i >= argc); i = i + 1)
               {
-                unsigned long int return_value_lo_arg_size$4;
-                return_value_lo_arg_size$4=lo_arg_size((enum anonymous$4)it->typespec[(signed long int)i], (void *)ptr);
-                opsize = opsize + (signed int)return_value_lo_arg_size$4;
-                unsigned long int return_value_lo_arg_size$5;
-                return_value_lo_arg_size$5=lo_arg_size((enum anonymous$4)types[(signed long int)i], (void *)ptr);
-                ptr = ptr + (signed long int)return_value_lo_arg_size$5;
+                unsigned long int return_value_lo_arg_size_4;
+                return_value_lo_arg_size_4=lo_arg_size((enum anonymous_4)it->typespec[(signed long int)i], (void *)ptr);
+                opsize = opsize + (signed int)return_value_lo_arg_size_4;
+                unsigned long int return_value_lo_arg_size_5;
+                return_value_lo_arg_size_5=lo_arg_size((enum anonymous_4)types[(signed long int)i], (void *)ptr);
+                ptr = ptr + (signed long int)return_value_lo_arg_size_5;
               }
-              void *return_value_malloc$6;
-              return_value_malloc$6=malloc((unsigned long int)opsize);
-              data_co = (char *)return_value_malloc$6;
+              void *return_value_malloc_6;
+              return_value_malloc_6=malloc((unsigned long int)opsize);
+              data_co = (char *)return_value_malloc_6;
               data_co_ptr = data_co;
               ptr = (char *)msg->data;
               i = 0;
               for( ; !(i >= argc); i = i + 1)
               {
-                argv[(signed long int)i] = (union anonymous$0 *)data_co_ptr;
-                lo_coerce((enum anonymous$4)it->typespec[(signed long int)i], (union anonymous$0 *)data_co_ptr, (enum anonymous$4)types[(signed long int)i], (union anonymous$0 *)ptr);
-                unsigned long int return_value_lo_arg_size$7;
-                return_value_lo_arg_size$7=lo_arg_size((enum anonymous$4)it->typespec[(signed long int)i], (void *)data_co_ptr);
-                data_co_ptr = data_co_ptr + (signed long int)return_value_lo_arg_size$7;
-                unsigned long int return_value_lo_arg_size$8;
-                return_value_lo_arg_size$8=lo_arg_size((enum anonymous$4)types[(signed long int)i], (void *)ptr);
-                ptr = ptr + (signed long int)return_value_lo_arg_size$8;
+                argv[(signed long int)i] = (union anonymous_0 *)data_co_ptr;
+                lo_coerce((enum anonymous_4)it->typespec[(signed long int)i], (union anonymous_0 *)data_co_ptr, (enum anonymous_4)types[(signed long int)i], (union anonymous_0 *)ptr);
+                unsigned long int return_value_lo_arg_size_7;
+                return_value_lo_arg_size_7=lo_arg_size((enum anonymous_4)it->typespec[(signed long int)i], (void *)data_co_ptr);
+                data_co_ptr = data_co_ptr + (signed long int)return_value_lo_arg_size_7;
+                unsigned long int return_value_lo_arg_size_8;
+                return_value_lo_arg_size_8=lo_arg_size((enum anonymous_4)types[(signed long int)i], (void *)ptr);
+                ptr = ptr + (signed long int)return_value_lo_arg_size_8;
               }
             }
 
@@ -2150,7 +2150,7 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
             ret=it->handler(pptr, it->typespec, argv, argc, msg, (void *)it->user_data);
             free((void *)argv);
             free((void *)data_co);
-            argv = (union anonymous$0 **)(void *)0;
+            argv = (union anonymous_0 **)(void *)0;
           }
 
         }
@@ -2162,7 +2162,7 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
     }
 
   }
-  signed int return_value_strncmp$24;
+  signed int return_value_strncmp_24;
   if(ret == 1)
   {
     if(s->protocol == 0x1)
@@ -2176,20 +2176,20 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
           struct _lo_message *reply;
           reply=lo_message_new();
           signed int len;
-          unsigned long int return_value_strlen$18;
-          return_value_strlen$18=strlen(path);
-          len = (signed int)return_value_strlen$18;
+          unsigned long int return_value_strlen_18;
+          return_value_strlen_18=strlen(path);
+          len = (signed int)return_value_strlen_18;
           struct _lo_strlist *sl = (struct _lo_strlist *)(void *)0;
           struct _lo_strlist *slit;
           struct _lo_strlist *slnew;
           struct _lo_strlist *slend;
-          union anonymous$0 **dispatch_method$$1$$4$$1$$argv = msg->argv;
-          signed int return_value_strcmp$19;
-          return_value_strcmp$19=strcmp(types, "i");
-          if(return_value_strcmp$19 == 0)
+          union anonymous_0 **dispatch_method__1__4__1__argv = msg->argv;
+          signed int return_value_strcmp_19;
+          return_value_strcmp_19=strcmp(types, "i");
+          if(return_value_strcmp_19 == 0)
           {
-            if(!(dispatch_method$$1$$4$$1$$argv == ((union anonymous$0 **)NULL)))
-              lo_message_add_int32(reply, dispatch_method$$1$$4$$1$$argv[(signed long int)0]->i);
+            if(!(dispatch_method__1__4__1__argv == ((union anonymous_0 **)NULL)))
+              lo_message_add_int32(reply, dispatch_method__1__4__1__argv[(signed long int)0]->i);
 
           }
 
@@ -2198,16 +2198,16 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
           for( ; !(it == ((struct _lo_method *)NULL)); it = it->next)
             if(!(it->path == ((const char *)NULL)))
             {
-              return_value_strncmp$24=strncmp(path, it->path, (unsigned long int)len);
-              if(return_value_strncmp$24 == 0)
+              return_value_strncmp_24=strncmp(path, it->path, (unsigned long int)len);
+              if(return_value_strncmp_24 == 0)
               {
                 char *tmp;
                 char *sec;
-                unsigned long int return_value_strlen$20;
-                return_value_strlen$20=strlen(it->path + (signed long int)len);
-                void *return_value_malloc$21;
-                return_value_malloc$21=malloc(return_value_strlen$20 + (unsigned long int)1);
-                tmp = (char *)return_value_malloc$21;
+                unsigned long int return_value_strlen_20;
+                return_value_strlen_20=strlen(it->path + (signed long int)len);
+                void *return_value_malloc_21;
+                return_value_malloc_21=malloc(return_value_strlen_20 + (unsigned long int)1);
+                tmp = (char *)return_value_malloc_21;
                 strcpy(tmp, it->path + (signed long int)len);
                 sec=index(tmp, 47);
                 if(!(sec == ((char *)NULL)))
@@ -2217,9 +2217,9 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
                 slit = sl;
                 for( ; !(slit == ((struct _lo_strlist *)NULL)); slit = slit->next)
                 {
-                  signed int return_value_strcmp$22;
-                  return_value_strcmp$22=strcmp(slit->str, tmp);
-                  if(return_value_strcmp$22 == 0)
+                  signed int return_value_strcmp_22;
+                  return_value_strcmp_22=strcmp(slit->str, tmp);
+                  if(return_value_strcmp_22 == 0)
                   {
                     free((void *)tmp);
                     tmp = (char *)(void *)0;
@@ -2230,9 +2230,9 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
                 }
                 if(!(tmp == ((char *)NULL)))
                 {
-                  void *return_value_calloc$23;
-                  return_value_calloc$23=calloc((unsigned long int)1, sizeof(struct _lo_strlist) /*16ul*/ );
-                  slnew = (struct _lo_strlist *)return_value_calloc$23;
+                  void *return_value_calloc_23;
+                  return_value_calloc_23=calloc((unsigned long int)1, sizeof(struct _lo_strlist) /*16ul*/ );
+                  slnew = (struct _lo_strlist *)return_value_calloc_23;
                   slnew->str = tmp;
                   slnew->next = (struct _lo_strlist *)(void *)0;
                   if(slend == ((struct _lo_strlist *)NULL))
@@ -2275,12 +2275,12 @@ static void dispatch_method(struct _lo_server *s, const char *path, struct _lo_m
 // file server.c line 1916
 static signed int dispatch_queued(struct _lo_server *s, signed int dispatch_all)
 {
-  struct anonymous$3 *head = (struct anonymous$3 *)s->queued;
-  struct anonymous$3 *tailhead;
-  struct anonymous$2 disp_time;
-  _Bool tmp_if_expr$2;
-  double return_value_lo_timetag_diff$1;
-  if(head == ((struct anonymous$3 *)NULL))
+  struct anonymous_3 *head = (struct anonymous_3 *)s->queued;
+  struct anonymous_3 *tailhead;
+  struct anonymous_2 disp_time;
+  _Bool tmp_if_expr_2;
+  double return_value_lo_timetag_diff_1;
+  if(head == ((struct anonymous_3 *)NULL))
   {
     lo_throw(s, 9906, "attempted to dispatch with empty queue", "timeout");
     return 1;
@@ -2294,26 +2294,26 @@ static signed int dispatch_queued(struct _lo_server *s, signed int dispatch_all)
       char *path;
       struct _lo_message *msg;
       signed int sock;
-      tailhead = (struct anonymous$3 *)head->next;
-      path = ((struct anonymous$3 *)s->queued)->path;
-      msg = ((struct anonymous$3 *)s->queued)->msg;
-      sock = ((struct anonymous$3 *)s->queued)->sock;
+      tailhead = (struct anonymous_3 *)head->next;
+      path = ((struct anonymous_3 *)s->queued)->path;
+      msg = ((struct anonymous_3 *)s->queued)->msg;
+      sock = ((struct anonymous_3 *)s->queued)->sock;
       dispatch_method(s, path, msg, sock);
       free((void *)path);
       lo_message_free(msg);
-      free((void *)(struct anonymous$3 *)s->queued);
+      free((void *)(struct anonymous_3 *)s->queued);
       s->queued = (void *)tailhead;
       head = tailhead;
-      if(!(head == ((struct anonymous$3 *)NULL)))
+      if(!(head == ((struct anonymous_3 *)NULL)))
       {
-        return_value_lo_timetag_diff$1=lo_timetag_diff(head->ts, disp_time);
-        tmp_if_expr$2 = (return_value_lo_timetag_diff$1 < (double)1.19209289550781250000e-7F ? (_Bool)1 : (dispatch_all != 0 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
+        return_value_lo_timetag_diff_1=lo_timetag_diff(head->ts, disp_time);
+        tmp_if_expr_2 = (return_value_lo_timetag_diff_1 < (double)1.19209289550781250000e-7F ? (_Bool)1 : (dispatch_all != 0 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
     return 0;
   }
 }
@@ -2545,26 +2545,26 @@ char * lo_address_get_url(struct _lo_address *a)
 
   else
   {
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(a->host, 58);
-    needquote = return_value_strchr$1 != ((char *)NULL) ? 1 : 0;
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(a->host, 58);
+    needquote = return_value_strchr_1 != ((char *)NULL) ? 1 : 0;
     if(!(needquote == 0))
       fmt = "osc.%s://[%s]:%s/";
 
     else
       fmt = "osc.%s://%s:%s/";
-    const char *return_value_get_protocol_name$2;
-    return_value_get_protocol_name$2=get_protocol_name(a->protocol);
-    ret=snprintf((char *)(void *)0, (unsigned long int)0, fmt, return_value_get_protocol_name$2, a->host, a->port);
+    const char *return_value_get_protocol_name_2;
+    return_value_get_protocol_name_2=get_protocol_name(a->protocol);
+    ret=snprintf((char *)(void *)0, (unsigned long int)0, fmt, return_value_get_protocol_name_2, a->host, a->port);
     if(!(ret >= 1))
       ret = 1023;
 
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)(ret + 2) * sizeof(char) /*1ul*/ );
-    buf = (char *)return_value_malloc$3;
-    const char *return_value_get_protocol_name$4;
-    return_value_get_protocol_name$4=get_protocol_name(a->protocol);
-    snprintf(buf, (unsigned long int)(ret + 1), fmt, return_value_get_protocol_name$4, a->host, a->port);
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)(ret + 2) * sizeof(char) /*1ul*/ );
+    buf = (char *)return_value_malloc_3;
+    const char *return_value_get_protocol_name_4;
+    return_value_get_protocol_name_4=get_protocol_name(a->protocol);
+    snprintf(buf, (unsigned long int)(ret + 1), fmt, return_value_get_protocol_name_4, a->host, a->port);
     if(a->protocol == 0x2)
       buf[(signed long int)(ret - 1)] = (char)0;
 
@@ -2580,12 +2580,12 @@ void lo_address_init_with_sockaddr(struct _lo_address *a, void *sa, unsigned lon
   /* assertion a != ((void *)0) */
   assert(a != (struct _lo_address *)(void *)0);
   lo_address_free_mem(a);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)16);
-  a->host = (char *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)8);
-  a->port = (char *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)16);
+  a->host = (char *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)8);
+  a->port = (char *)return_value_malloc_2;
   err=getnameinfo((struct sockaddr *)sa, (unsigned int)sa_len, a->host, (unsigned int)16, a->port, (unsigned int)8, 1 | 2);
   if(!(err == 0))
   {
@@ -2603,9 +2603,9 @@ void lo_address_init_with_sockaddr(struct _lo_address *a, void *sa, unsigned lon
 // file address.c line 98
 struct _lo_address * lo_address_new(const char *host, const char *port)
 {
-  struct _lo_address *return_value_lo_address_new_with_proto$1;
-  return_value_lo_address_new_with_proto$1=lo_address_new_with_proto(0x1, host, port);
-  return return_value_lo_address_new_with_proto$1;
+  struct _lo_address *return_value_lo_address_new_with_proto_1;
+  return_value_lo_address_new_with_proto_1=lo_address_new_with_proto(0x1, host, port);
+  return return_value_lo_address_new_with_proto_1;
 }
 
 // lo_address_new_from_url
@@ -2617,13 +2617,13 @@ struct _lo_address * lo_address_new_from_url(const char *url)
   char *host;
   char *port;
   char *proto;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(url == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*url != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*url != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (struct _lo_address *)(void *)0;
 
   else
@@ -2675,9 +2675,9 @@ struct _lo_address * lo_address_new_with_proto(signed int proto, const char *hos
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _lo_address) /*120ul*/ );
-    a = (struct _lo_address *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _lo_address) /*120ul*/ );
+    a = (struct _lo_address *)return_value_calloc_1;
     if(a == ((struct _lo_address *)NULL))
       return (struct _lo_address *)(void *)0;
 
@@ -2688,7 +2688,7 @@ struct _lo_address * lo_address_new_with_proto(signed int proto, const char *hos
       a->socket = -1;
       a->ownsocket = 1;
       a->protocol = proto;
-      a->flags = (enum anonymous$9)0;
+      a->flags = (enum anonymous_9)0;
       if(!(proto == 0x1) && !(proto == 0x4))
       {
         if(proto == 0x2)
@@ -2729,13 +2729,13 @@ struct _lo_address * lo_address_new_with_proto(signed int proto, const char *hos
 signed int lo_address_resolve(struct _lo_address *a)
 {
   signed int ret;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(a->protocol == 0x1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = a->protocol == 0x4 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = a->protocol == 0x4 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     struct addrinfo *ai;
     struct addrinfo hints;
@@ -2744,9 +2744,9 @@ signed int lo_address_resolve(struct _lo_address *a)
     memset((void *)&hints, 0, sizeof(struct addrinfo) /*48ul*/ );
     hints.ai_family = 2;
     hints.ai_socktype = a->protocol == 0x1 ? 2 : 1;
-    const char *return_value_lo_address_get_port$1;
-    return_value_lo_address_get_port$1=lo_address_get_port(a);
-    ret=getaddrinfo(host, return_value_lo_address_get_port$1, &hints, &ai);
+    const char *return_value_lo_address_get_port_1;
+    return_value_lo_address_get_port_1=lo_address_get_port(a);
+    ret=getaddrinfo(host, return_value_lo_address_get_port_1, &hints, &ai);
     if(!(ret == 0))
     {
       a->errnum = ret;
@@ -2771,14 +2771,14 @@ static void lo_address_resolve_source(struct _lo_address *a)
   char portname[32l];
   signed int err;
   struct _lo_server *s = a->source_server;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(a->protocol == 0x1 && !(s == ((struct _lo_server *)NULL)))
-    tmp_if_expr$2 = s->addr_len > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = s->addr_len > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  char *return_value_strerror$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  char *return_value_strerror_1;
+  if(tmp_if_expr_2)
   {
     err=getnameinfo((struct sockaddr *)&s->addr, s->addr_len, hostname, (unsigned int)sizeof(char [1024l]) /*1024ul*/ , portname, (unsigned int)sizeof(char [32l]) /*32ul*/ , 1 | 2);
     if(!(err == 0))
@@ -2837,8 +2837,8 @@ static void lo_address_resolve_source(struct _lo_address *a)
 
       __CPROVER_DUMP_L9:
         ;
-        return_value_strerror$1=strerror(err);
-        lo_throw(s, err, return_value_strerror$1, a->source_path);
+        return_value_strerror_1=strerror(err);
+        lo_throw(s, err, return_value_strerror_1, a->source_path);
         goto __CPROVER_DUMP_L11;
       }
       lo_throw(s, err, "Unknown error", a->source_path);
@@ -2877,7 +2877,7 @@ static void lo_address_set_flags(struct _lo_address *t, signed int flags)
 
   }
 
-  t->flags = (enum anonymous$9)flags;
+  t->flags = (enum anonymous_9)flags;
 }
 
 // lo_address_set_iface
@@ -2900,9 +2900,9 @@ signed int lo_address_set_iface(struct _lo_address *t, const char *iface, const 
   __CPROVER_DUMP_L1:
     ;
     fam = t->ai->ai_family;
-    signed int return_value_lo_inaddr_find_iface$1;
-    return_value_lo_inaddr_find_iface$1=lo_inaddr_find_iface(&t->addr, fam, iface, ip);
-    return return_value_lo_inaddr_find_iface$1;
+    signed int return_value_lo_inaddr_find_iface_1;
+    return_value_lo_inaddr_find_iface_1=lo_inaddr_find_iface(&t->addr, fam, iface, ip);
+    return return_value_lo_inaddr_find_iface_1;
   }
 }
 
@@ -2911,13 +2911,13 @@ signed int lo_address_set_iface(struct _lo_address *t, const char *iface, const 
 signed int lo_address_set_stream_slip(struct _lo_address *t, signed int enable)
 {
   signed int r = (signed int)(((signed int)t->flags & LO_SLIP) != 0);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(enable == 0))
-    tmp_if_expr$1 = (signed int)t->flags | LO_SLIP;
+    tmp_if_expr_1 = (signed int)t->flags | LO_SLIP;
 
   else
-    tmp_if_expr$1 = (signed int)t->flags & ~LO_SLIP;
-  lo_address_set_flags(t, tmp_if_expr$1);
+    tmp_if_expr_1 = (signed int)t->flags & ~LO_SLIP;
+  lo_address_set_flags(t, tmp_if_expr_1);
   return r;
 }
 
@@ -2926,13 +2926,13 @@ signed int lo_address_set_stream_slip(struct _lo_address *t, signed int enable)
 signed int lo_address_set_tcp_nodelay(struct _lo_address *t, signed int enable)
 {
   signed int r = (signed int)(((signed int)t->flags & LO_NODELAY) != 0);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(enable == 0))
-    tmp_if_expr$1 = (signed int)t->flags | LO_NODELAY;
+    tmp_if_expr_1 = (signed int)t->flags | LO_NODELAY;
 
   else
-    tmp_if_expr$1 = (signed int)t->flags & ~LO_NODELAY;
-  lo_address_set_flags(t, tmp_if_expr$1);
+    tmp_if_expr_1 = (signed int)t->flags & ~LO_NODELAY;
+  lo_address_set_flags(t, tmp_if_expr_1);
   return r;
 }
 
@@ -2947,12 +2947,12 @@ void lo_address_set_ttl(struct _lo_address *t, signed int ttl)
 
 // lo_arg_host_endian
 // file message.c line 706
-void lo_arg_host_endian(enum anonymous$4 type, void *data)
+void lo_arg_host_endian(enum anonymous_4 type, void *data)
 {
-  unsigned int return_value_htonl$1;
-  unsigned int return_value_htonl$2;
-  unsigned int return_value_htonl$3;
-  unsigned long int return_value_lo_swap64$4;
+  unsigned int return_value_htonl_1;
+  unsigned int return_value_htonl_2;
+  unsigned int return_value_htonl_3;
+  unsigned long int return_value_lo_swap64_4;
   switch((signed int)type)
   {
     case LO_INT32:
@@ -2963,25 +2963,25 @@ void lo_arg_host_endian(enum anonymous$4 type, void *data)
 
     case LO_CHAR:
     {
-      return_value_htonl$1=htonl((unsigned int)*((signed int *)data));
-      *((signed int *)data) = (signed int)return_value_htonl$1;
+      return_value_htonl_1=htonl((unsigned int)*((signed int *)data));
+      *((signed int *)data) = (signed int)return_value_htonl_1;
       break;
     }
     case LO_TIMETAG:
     {
-      return_value_htonl$2=htonl((unsigned int)*((signed int *)data));
-      *((signed int *)data) = (signed int)return_value_htonl$2;
+      return_value_htonl_2=htonl((unsigned int)*((signed int *)data));
+      *((signed int *)data) = (signed int)return_value_htonl_2;
       data = (void *)((signed int *)data + (signed long int)1);
-      return_value_htonl$3=htonl((unsigned int)*((signed int *)data));
-      *((signed int *)data) = (signed int)return_value_htonl$3;
+      return_value_htonl_3=htonl((unsigned int)*((signed int *)data));
+      *((signed int *)data) = (signed int)return_value_htonl_3;
       break;
     }
     case LO_INT64:
 
     case LO_DOUBLE:
     {
-      return_value_lo_swap64$4=lo_swap64((unsigned long int)*((signed long int *)data));
-      *((signed long int *)data) = (signed long int)return_value_lo_swap64$4;
+      return_value_lo_swap64_4=lo_swap64((unsigned long int)*((signed long int *)data));
+      *((signed long int *)data) = (signed long int)return_value_lo_swap64_4;
       break;
     }
     case LO_STRING:
@@ -3005,10 +3005,10 @@ void lo_arg_host_endian(enum anonymous$4 type, void *data)
 
 // lo_arg_network_endian
 // file message.c line 746
-void lo_arg_network_endian(enum anonymous$4 type, void *data)
+void lo_arg_network_endian(enum anonymous_4 type, void *data)
 {
-  unsigned int return_value_htonl$1;
-  unsigned long int return_value_lo_swap64$2;
+  unsigned int return_value_htonl_1;
+  unsigned long int return_value_lo_swap64_2;
   switch((signed int)type)
   {
     case LO_INT32:
@@ -3019,8 +3019,8 @@ void lo_arg_network_endian(enum anonymous$4 type, void *data)
 
     case LO_CHAR:
     {
-      return_value_htonl$1=htonl((unsigned int)*((signed int *)data));
-      *((signed int *)data) = (signed int)return_value_htonl$1;
+      return_value_htonl_1=htonl((unsigned int)*((signed int *)data));
+      *((signed int *)data) = (signed int)return_value_htonl_1;
       break;
     }
     case LO_TIMETAG:
@@ -3034,8 +3034,8 @@ void lo_arg_network_endian(enum anonymous$4 type, void *data)
 
     case LO_DOUBLE:
     {
-      return_value_lo_swap64$2=lo_swap64((unsigned long int)*((signed long int *)data));
-      *((signed long int *)data) = (signed long int)return_value_lo_swap64$2;
+      return_value_lo_swap64_2=lo_swap64((unsigned long int)*((signed long int *)data));
+      *((signed long int *)data) = (signed long int)return_value_lo_swap64_2;
       break;
     }
     case LO_STRING:
@@ -3059,27 +3059,27 @@ void lo_arg_network_endian(enum anonymous$4 type, void *data)
 
 // lo_arg_pp
 // file ../../lo/lo_lowlevel.h line 1054
-void lo_arg_pp(enum anonymous$4 type, void *data)
+void lo_arg_pp(enum anonymous_4 type, void *data)
 {
   lo_arg_pp_internal(type, data, 0);
 }
 
 // lo_arg_pp_internal
 // file message.c line 1009
-void lo_arg_pp_internal(enum anonymous$4 type, void *data, signed int bigendian)
+void lo_arg_pp_internal(enum anonymous_4 type, void *data, signed int bigendian)
 {
-  union anonymous$5 val32;
-  union anonymous$6 val64;
-  struct anonymous$2 valtt = { .sec=(unsigned int)0, .frac=(unsigned int)1 };
+  union anonymous_5 val32;
+  union anonymous_6 val64;
+  struct anonymous_2 valtt = { .sec=(unsigned int)0, .frac=(unsigned int)1 };
   signed int size;
   signed int i;
-  unsigned long int return_value_lo_arg_size$1;
-  return_value_lo_arg_size$1=lo_arg_size(type, data);
-  size = (signed int)return_value_lo_arg_size$1;
-  unsigned int tmp_if_expr$3;
-  unsigned int return_value_htonl$2;
-  unsigned int tmp_if_expr$5;
-  unsigned int return_value_htonl$4;
+  unsigned long int return_value_lo_arg_size_1;
+  return_value_lo_arg_size_1=lo_arg_size(type, data);
+  size = (signed int)return_value_lo_arg_size_1;
+  unsigned int tmp_if_expr_3;
+  unsigned int return_value_htonl_2;
+  unsigned int tmp_if_expr_5;
+  unsigned int return_value_htonl_4;
   if(size == 4 || (signed int)type == LO_BLOB)
   {
     if(!(bigendian == 0))
@@ -3094,23 +3094,23 @@ void lo_arg_pp_internal(enum anonymous$4 type, void *data, signed int bigendian)
     {
       if(!(bigendian == 0))
       {
-        return_value_htonl$2=htonl(*((unsigned int *)data));
-        tmp_if_expr$3 = return_value_htonl$2;
+        return_value_htonl_2=htonl(*((unsigned int *)data));
+        tmp_if_expr_3 = return_value_htonl_2;
       }
 
       else
-        tmp_if_expr$3 = *((unsigned int *)data);
-      valtt.sec = tmp_if_expr$3;
+        tmp_if_expr_3 = *((unsigned int *)data);
+      valtt.sec = tmp_if_expr_3;
       data = (void *)((unsigned int *)data + (signed long int)1);
       if(!(bigendian == 0))
       {
-        return_value_htonl$4=htonl(*((unsigned int *)data));
-        tmp_if_expr$5 = return_value_htonl$4;
+        return_value_htonl_4=htonl(*((unsigned int *)data));
+        tmp_if_expr_5 = return_value_htonl_4;
       }
 
       else
-        tmp_if_expr$5 = *((unsigned int *)data);
-      valtt.frac = tmp_if_expr$5;
+        tmp_if_expr_5 = *((unsigned int *)data);
+      valtt.frac = tmp_if_expr_5;
     }
 
     else
@@ -3227,10 +3227,10 @@ void lo_arg_pp_internal(enum anonymous$4 type, void *data, signed int bigendian)
 
 // lo_arg_size
 // file message.c line 530
-unsigned long int lo_arg_size(enum anonymous$4 type, void *data)
+unsigned long int lo_arg_size(enum anonymous_4 type, void *data)
 {
-  signed int return_value_lo_strsize$1;
-  unsigned int return_value_lo_blobsize$2;
+  signed int return_value_lo_strsize_1;
+  unsigned int return_value_lo_blobsize_2;
   switch((signed int)type)
   {
     case LO_TRUE:
@@ -3259,13 +3259,13 @@ unsigned long int lo_arg_size(enum anonymous$4 type, void *data)
 
     case LO_SYMBOL:
     {
-      return_value_lo_strsize$1=lo_strsize((char *)data);
-      return (unsigned long int)return_value_lo_strsize$1;
+      return_value_lo_strsize_1=lo_strsize((char *)data);
+      return (unsigned long int)return_value_lo_strsize_1;
     }
     case LO_BLOB:
     {
-      return_value_lo_blobsize$2=lo_blobsize((struct _lo_blob *)data);
-      return (unsigned long int)return_value_lo_blobsize$2;
+      return_value_lo_blobsize_2=lo_blobsize((struct _lo_blob *)data);
+      return (unsigned long int)return_value_lo_blobsize_2;
     }
     default:
     {
@@ -3307,9 +3307,9 @@ struct _lo_blob * lo_blob_new(signed int size, const void *data)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  + (unsigned long int)size);
-    b = (struct _lo_blob *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  + (unsigned long int)size);
+    b = (struct _lo_blob *)return_value_malloc_1;
     b->size = (unsigned int)size;
     if(!(data == NULL))
       memcpy((void *)((char *)b + (signed long int)sizeof(unsigned int) /*4ul*/ ), data, (unsigned long int)size);
@@ -3335,9 +3335,9 @@ signed int lo_bundle_add_bundle(struct _lo_bundle *b, struct _lo_bundle *n)
 
   else
   {
-    signed int return_value_lo_bundle_add_element$1;
-    return_value_lo_bundle_add_element$1=lo_bundle_add_element(b, LO_ELEMENT_BUNDLE, (const char *)(void *)0, (void *)n);
-    return return_value_lo_bundle_add_element$1;
+    signed int return_value_lo_bundle_add_element_1;
+    return_value_lo_bundle_add_element_1=lo_bundle_add_element(b, LO_ELEMENT_BUNDLE, (const char *)(void *)0, (void *)n);
+    return return_value_lo_bundle_add_element_1;
   }
 }
 
@@ -3348,18 +3348,18 @@ static signed int lo_bundle_add_element(struct _lo_bundle *b, signed int type, c
   if(b->len >= b->size)
   {
     b->size = b->size * (unsigned long int)2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)b->elmnts, b->size * sizeof(struct _lo_element) /*24ul*/ );
-    b->elmnts = (struct _lo_element *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)b->elmnts, b->size * sizeof(struct _lo_element) /*24ul*/ );
+    b->elmnts = (struct _lo_element *)return_value_realloc_1;
     if(b->elmnts == ((struct _lo_element *)NULL))
       return -1;
 
   }
 
-  (b->elmnts + (signed long int)b->len)->type = (enum anonymous$13)type;
+  (b->elmnts + (signed long int)b->len)->type = (enum anonymous_13)type;
   struct _lo_message *msg;
   struct _lo_bundle *bndl;
-  signed int return_value_lo_bundle_circular$2;
+  signed int return_value_lo_bundle_circular_2;
   switch(type)
   {
     case LO_ELEMENT_MESSAGE:
@@ -3377,8 +3377,8 @@ static signed int lo_bundle_add_element(struct _lo_bundle *b, signed int type, c
       lo_bundle_incref(bndl);
       (b->elmnts + (signed long int)b->len)->content.bundle = bndl;
       b->len = b->len + 1ul;
-      return_value_lo_bundle_circular$2=lo_bundle_circular(b);
-      if(!(return_value_lo_bundle_circular$2 == 0))
+      return_value_lo_bundle_circular_2=lo_bundle_circular(b);
+      if(!(return_value_lo_bundle_circular_2 == 0))
       {
         lo_bundle_decref(bndl);
         b->len = b->len - 1ul;
@@ -3399,9 +3399,9 @@ signed int lo_bundle_add_message(struct _lo_bundle *b, const char *path, struct 
 
   else
   {
-    signed int return_value_lo_bundle_add_element$1;
-    return_value_lo_bundle_add_element$1=lo_bundle_add_element(b, LO_ELEMENT_MESSAGE, path, (void *)m);
-    return return_value_lo_bundle_add_element$1;
+    signed int return_value_lo_bundle_add_element_1;
+    return_value_lo_bundle_add_element_1=lo_bundle_add_element(b, LO_ELEMENT_MESSAGE, path, (void *)m);
+    return return_value_lo_bundle_add_element_1;
   }
 }
 
@@ -3413,9 +3413,9 @@ static signed int lo_bundle_circular(struct _lo_bundle *b)
   unsigned long int size = (unsigned long int)4;
   signed int res;
   struct _lo_bundle **B;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(size, sizeof(struct _lo_bundle *) /*8ul*/ );
-  B = (struct _lo_bundle **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(size, sizeof(struct _lo_bundle *) /*8ul*/ );
+  B = (struct _lo_bundle **)return_value_calloc_1;
   B=walk_tree(B, b, &len, &size, &res);
   if(!(B == ((struct _lo_bundle **)NULL)))
     free((void *)B);
@@ -3529,20 +3529,20 @@ struct _lo_message * lo_bundle_get_message(struct _lo_bundle *b, signed int inde
 
 // lo_bundle_get_timestamp
 // file bundle.c line 211
-struct anonymous$2 lo_bundle_get_timestamp(struct _lo_bundle *b)
+struct anonymous_2 lo_bundle_get_timestamp(struct _lo_bundle *b)
 {
   return b->ts;
 }
 
 // lo_bundle_get_type
 // file bundle.c line 184
-enum anonymous$13 lo_bundle_get_type(struct _lo_bundle *b, signed int index)
+enum anonymous_13 lo_bundle_get_type(struct _lo_bundle *b, signed int index)
 {
   if(!(index >= (signed int)b->len))
     return (b->elmnts + (signed long int)index)->type;
 
   else
-    return (enum anonymous$13)0;
+    return (enum anonymous_13)0;
 }
 
 // lo_bundle_incref
@@ -3558,8 +3558,8 @@ unsigned long int lo_bundle_length(struct _lo_bundle *b)
 {
   unsigned long int size = (unsigned long int)16;
   unsigned long int i;
-  unsigned long int return_value_lo_bundle_length$1;
-  unsigned long int return_value_lo_message_length$2;
+  unsigned long int return_value_lo_bundle_length_1;
+  unsigned long int return_value_lo_message_length_2;
   if(b == ((struct _lo_bundle *)NULL))
     return (unsigned long int)0;
 
@@ -3572,14 +3572,14 @@ unsigned long int lo_bundle_length(struct _lo_bundle *b)
       {
         case LO_ELEMENT_BUNDLE:
         {
-          return_value_lo_bundle_length$1=lo_bundle_length((b->elmnts + (signed long int)i)->content.bundle);
-          size = size + return_value_lo_bundle_length$1;
+          return_value_lo_bundle_length_1=lo_bundle_length((b->elmnts + (signed long int)i)->content.bundle);
+          size = size + return_value_lo_bundle_length_1;
           break;
         }
         case LO_ELEMENT_MESSAGE:
         {
-          return_value_lo_message_length$2=lo_message_length((b->elmnts + (signed long int)i)->content.message.msg, (b->elmnts + (signed long int)i)->content.message.path);
-          size = size + return_value_lo_message_length$2;
+          return_value_lo_message_length_2=lo_message_length((b->elmnts + (signed long int)i)->content.message.msg, (b->elmnts + (signed long int)i)->content.message.path);
+          size = size + return_value_lo_message_length_2;
         }
       }
     return size;
@@ -3588,18 +3588,18 @@ unsigned long int lo_bundle_length(struct _lo_bundle *b)
 
 // lo_bundle_new
 // file ../lo/lo_lowlevel.h line 492
-struct _lo_bundle * lo_bundle_new(struct anonymous$2 tt)
+struct _lo_bundle * lo_bundle_new(struct anonymous_2 tt)
 {
   struct _lo_bundle *b;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _lo_bundle) /*40ul*/ );
-  b = (struct _lo_bundle *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _lo_bundle) /*40ul*/ );
+  b = (struct _lo_bundle *)return_value_calloc_1;
   b->size = (unsigned long int)4;
   b->len = (unsigned long int)0;
   b->ts = tt;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc(b->size, sizeof(struct _lo_element) /*24ul*/ );
-  b->elmnts = (struct _lo_element *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc(b->size, sizeof(struct _lo_element) /*24ul*/ );
+  b->elmnts = (struct _lo_element *)return_value_calloc_2;
   b->refcount = 0;
   return b;
 }
@@ -3613,9 +3613,9 @@ void lo_bundle_pp(struct _lo_bundle *b)
   if(!(b == ((struct _lo_bundle *)NULL)))
   {
     len = (unsigned long int)4;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(len, sizeof(signed int) /*4ul*/ );
-    state = (signed int *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(len, sizeof(signed int) /*4ul*/ );
+    state = (signed int *)return_value_calloc_1;
     state[(signed long int)0] = 1;
     state=lo_bundle_pp_internal(b, 0, state, &len);
     free((void *)state);
@@ -3631,9 +3631,9 @@ static signed int * lo_bundle_pp_internal(struct _lo_bundle *b, signed int offse
   if(!(*len >= (unsigned long int)(2 + offset)))
   {
     *len = *len * (unsigned long int)2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)state, *len * sizeof(signed int) /*4ul*/ );
-    state = (signed int *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)state, *len * sizeof(signed int) /*4ul*/ );
+    state = (signed int *)return_value_realloc_1;
   }
 
   offset_pp(offset, state);
@@ -3667,7 +3667,7 @@ void * lo_bundle_serialise(struct _lo_bundle *b, void *to, unsigned long int *si
   signed int *bes;
   unsigned long int i;
   char *pos;
-  union anonymous$5 be;
+  union anonymous_5 be;
   if(b == ((struct _lo_bundle *)NULL))
   {
     if(!(size == ((unsigned long int *)NULL)))
@@ -3708,9 +3708,9 @@ void * lo_bundle_serialise(struct _lo_bundle *b, void *to, unsigned long int *si
           lo_bundle_serialise((b->elmnts + (signed long int)i)->content.bundle, (void *)(pos + (signed long int)4), &skip);
       }
       bes = (signed int *)(void *)pos;
-      unsigned int return_value_htonl$1;
-      return_value_htonl$1=htonl((unsigned int)skip);
-      *bes = (signed int)return_value_htonl$1;
+      unsigned int return_value_htonl_1;
+      return_value_htonl_1=htonl((unsigned int)skip);
+      *bes = (signed int)return_value_htonl_1;
       pos = pos + (signed long int)(skip + (unsigned long int)4);
       if(!((char *)to + (signed long int)s >= pos))
       {
@@ -3737,47 +3737,47 @@ void * lo_bundle_serialise(struct _lo_bundle *b, void *to, unsigned long int *si
 // file server.c line 2152
 static signed int lo_can_coerce(char a, char b)
 {
-  _Bool tmp_if_expr$4;
-  signed int return_value_lo_is_numerical_type$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_lo_is_numerical_type$2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_lo_is_numerical_type_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_lo_is_numerical_type_2;
   if(a == b)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_lo_is_numerical_type$1=lo_is_numerical_type((enum anonymous$4)a);
-    if(!(return_value_lo_is_numerical_type$1 == 0))
+    return_value_lo_is_numerical_type_1=lo_is_numerical_type((enum anonymous_4)a);
+    if(!(return_value_lo_is_numerical_type_1 == 0))
     {
-      return_value_lo_is_numerical_type$2=lo_is_numerical_type((enum anonymous$4)b);
-      tmp_if_expr$3 = return_value_lo_is_numerical_type$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_lo_is_numerical_type_2=lo_is_numerical_type((enum anonymous_4)b);
+      tmp_if_expr_3 = return_value_lo_is_numerical_type_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$8;
-  signed int return_value_lo_is_string_type$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_lo_is_string_type$6;
-  if(tmp_if_expr$4)
-    tmp_if_expr$8 = (_Bool)1;
+  _Bool tmp_if_expr_8;
+  signed int return_value_lo_is_string_type_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_lo_is_string_type_6;
+  if(tmp_if_expr_4)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_lo_is_string_type$5=lo_is_string_type((enum anonymous$4)a);
-    if(!(return_value_lo_is_string_type$5 == 0))
+    return_value_lo_is_string_type_5=lo_is_string_type((enum anonymous_4)a);
+    if(!(return_value_lo_is_string_type_5 == 0))
     {
-      return_value_lo_is_string_type$6=lo_is_string_type((enum anonymous$4)b);
-      tmp_if_expr$7 = return_value_lo_is_string_type$6 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_lo_is_string_type_6=lo_is_string_type((enum anonymous_4)b);
+      tmp_if_expr_7 = return_value_lo_is_string_type_6 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (_Bool)0;
+    tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
   }
-  return (signed int)tmp_if_expr$8;
+  return (signed int)tmp_if_expr_8;
 }
 
 // lo_can_coerce_spec
@@ -3785,11 +3785,11 @@ static signed int lo_can_coerce(char a, char b)
 static signed int lo_can_coerce_spec(const char *a, const char *b)
 {
   unsigned int i;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(a);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(b);
-  if(!(return_value_strlen$1 == return_value_strlen$2))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(a);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(b);
+  if(!(return_value_strlen_1 == return_value_strlen_2))
     return 0;
 
   else
@@ -3797,9 +3797,9 @@ static signed int lo_can_coerce_spec(const char *a, const char *b)
     i = (unsigned int)0;
     for( ; !(a[(signed long int)i] == 0); i = i + 1u)
     {
-      signed int return_value_lo_can_coerce$3;
-      return_value_lo_can_coerce$3=lo_can_coerce(a[(signed long int)i], b[(signed long int)i]);
-      if(return_value_lo_can_coerce$3 == 0)
+      signed int return_value_lo_can_coerce_3;
+      return_value_lo_can_coerce_3=lo_can_coerce(a[(signed long int)i], b[(signed long int)i]);
+      if(return_value_lo_can_coerce_3 == 0)
         return 0;
 
     }
@@ -3809,28 +3809,28 @@ static signed int lo_can_coerce_spec(const char *a, const char *b)
 
 // lo_coerce
 // file message.c line 1128
-signed int lo_coerce(enum anonymous$4 type_to, union anonymous$0 *to, enum anonymous$4 type_from, union anonymous$0 *from)
+signed int lo_coerce(enum anonymous_4 type_to, union anonymous_0 *to, enum anonymous_4 type_from, union anonymous_0 *from)
 {
   if(type_to == type_from)
   {
-    unsigned long int return_value_lo_arg_size$1;
-    return_value_lo_arg_size$1=lo_arg_size(type_from, (void *)from);
-    memcpy((void *)to, (const void *)from, return_value_lo_arg_size$1);
+    unsigned long int return_value_lo_arg_size_1;
+    return_value_lo_arg_size_1=lo_arg_size(type_from, (void *)from);
+    memcpy((void *)to, (const void *)from, return_value_lo_arg_size_1);
     return 1;
   }
 
-  signed int return_value_lo_is_string_type$3;
-  return_value_lo_is_string_type$3=lo_is_string_type(type_to);
-  signed int return_value_lo_is_string_type$2;
-  signed int return_value_lo_is_numerical_type$8;
-  long double return_value_lo_hires_val$4;
-  long double return_value_lo_hires_val$5;
-  long double return_value_lo_hires_val$6;
-  long double return_value_lo_hires_val$7;
-  if(!(return_value_lo_is_string_type$3 == 0))
+  signed int return_value_lo_is_string_type_3;
+  return_value_lo_is_string_type_3=lo_is_string_type(type_to);
+  signed int return_value_lo_is_string_type_2;
+  signed int return_value_lo_is_numerical_type_8;
+  long double return_value_lo_hires_val_4;
+  long double return_value_lo_hires_val_5;
+  long double return_value_lo_hires_val_6;
+  long double return_value_lo_hires_val_7;
+  if(!(return_value_lo_is_string_type_3 == 0))
   {
-    return_value_lo_is_string_type$2=lo_is_string_type(type_from);
-    if(return_value_lo_is_string_type$2 == 0)
+    return_value_lo_is_string_type_2=lo_is_string_type(type_from);
+    if(return_value_lo_is_string_type_2 == 0)
       goto __CPROVER_DUMP_L2;
 
     strcpy((char *)to, (char *)from);
@@ -3842,38 +3842,38 @@ signed int lo_coerce(enum anonymous$4 type_to, union anonymous$0 *to, enum anony
 
   __CPROVER_DUMP_L2:
     ;
-    signed int return_value_lo_is_numerical_type$9;
-    return_value_lo_is_numerical_type$9=lo_is_numerical_type(type_to);
-    if(!(return_value_lo_is_numerical_type$9 == 0))
+    signed int return_value_lo_is_numerical_type_9;
+    return_value_lo_is_numerical_type_9=lo_is_numerical_type(type_to);
+    if(!(return_value_lo_is_numerical_type_9 == 0))
     {
-      return_value_lo_is_numerical_type$8=lo_is_numerical_type(type_from);
-      if(return_value_lo_is_numerical_type$8 == 0)
+      return_value_lo_is_numerical_type_8=lo_is_numerical_type(type_from);
+      if(return_value_lo_is_numerical_type_8 == 0)
         goto __CPROVER_DUMP_L9;
 
       switch((signed int)type_to)
       {
         case LO_INT32:
         {
-          return_value_lo_hires_val$4=lo_hires_val(type_from, from);
-          to->i = (signed int)(unsigned int)return_value_lo_hires_val$4;
+          return_value_lo_hires_val_4=lo_hires_val(type_from, from);
+          to->i = (signed int)(unsigned int)return_value_lo_hires_val_4;
           break;
         }
         case LO_INT64:
         {
-          return_value_lo_hires_val$5=lo_hires_val(type_from, from);
-          to->i64 = (signed long int)(unsigned long int)return_value_lo_hires_val$5;
+          return_value_lo_hires_val_5=lo_hires_val(type_from, from);
+          to->i64 = (signed long int)(unsigned long int)return_value_lo_hires_val_5;
           break;
         }
         case LO_FLOAT:
         {
-          return_value_lo_hires_val$6=lo_hires_val(type_from, from);
-          to->f = (float)return_value_lo_hires_val$6;
+          return_value_lo_hires_val_6=lo_hires_val(type_from, from);
+          to->f = (float)return_value_lo_hires_val_6;
           break;
         }
         case LO_DOUBLE:
         {
-          return_value_lo_hires_val$7=lo_hires_val(type_from, from);
-          to->d = (double)return_value_lo_hires_val$7;
+          return_value_lo_hires_val_7=lo_hires_val(type_from, from);
+          to->d = (double)return_value_lo_hires_val_7;
           break;
         }
         default:
@@ -3913,7 +3913,7 @@ char * lo_get_path(void *data, signed long int size)
 
 // lo_hires_val
 // file message.c line 1172
-long double lo_hires_val(enum anonymous$4 type, union anonymous$0 *p)
+long double lo_hires_val(enum anonymous_4 type, union anonymous_0 *p)
 {
   switch((signed int)type)
   {
@@ -3938,7 +3938,7 @@ long double lo_hires_val(enum anonymous$4 type, union anonymous$0 *p)
 signed int lo_inaddr_find_iface(struct _lo_inaddr *t, signed int fam, const char *iface, const char *ip)
 {
   /* tag-#anon#lUN[lSYM#tag-in_addr#'addr'|] */
-union anonymous$12
+union anonymous_12
 {
   // addr
   struct in_addr addr;
@@ -3946,7 +3946,7 @@ union anonymous$12
 
 /* */
   ;
-  union anonymous$12 a;
+  union anonymous_12 a;
   if(!(ip == ((const char *)NULL)))
   {
     signed int rc;
@@ -3958,10 +3958,10 @@ union anonymous$12
 
   struct ifaddrs *ifa;
   struct ifaddrs *ifa_list;
-  signed int return_value_getifaddrs$1;
-  return_value_getifaddrs$1=getifaddrs(&ifa_list);
-  signed int return_value_strcmp$3;
-  if(return_value_getifaddrs$1 == -1)
+  signed int return_value_getifaddrs_1;
+  return_value_getifaddrs_1=getifaddrs(&ifa_list);
+  signed int return_value_strcmp_3;
+  if(return_value_getifaddrs_1 == -1)
     return 5;
 
   else
@@ -3980,9 +3980,9 @@ union anonymous$12
           {
             if(fam == 2)
             {
-              signed int return_value_memcmp$2;
-              return_value_memcmp$2=memcmp((const void *)&((struct sockaddr_in *)ifa->ifa_addr)->sin_addr, (const void *)&a.addr, sizeof(struct in_addr) /*4ul*/ );
-              if(return_value_memcmp$2 == 0)
+              signed int return_value_memcmp_2;
+              return_value_memcmp_2=memcmp((const void *)&((struct sockaddr_in *)ifa->ifa_addr)->sin_addr, (const void *)&a.addr, sizeof(struct in_addr) /*4ul*/ );
+              if(return_value_memcmp_2 == 0)
               {
                 found = 1;
                 t->size = sizeof(struct in_addr) /*4ul*/ ;
@@ -4000,8 +4000,8 @@ union anonymous$12
         {
           if((signed int)ifa->ifa_addr->sa_family == fam)
           {
-            return_value_strcmp$3=strcmp(ifa->ifa_name, iface);
-            if(return_value_strcmp$3 == 0)
+            return_value_strcmp_3=strcmp(ifa->ifa_name, iface);
+            if(return_value_strcmp_3 == 0)
             {
               if(fam == 2)
               {
@@ -4038,20 +4038,20 @@ union anonymous$12
 
 // lo_is_numerical_type
 // file message.c line 1118
-signed int lo_is_numerical_type(enum anonymous$4 a)
+signed int lo_is_numerical_type(enum anonymous_4 a)
 {
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr(lo_numerical_types, (signed int)a);
-  return (signed int)(return_value_strchr$1 != ((char *)NULL));
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr(lo_numerical_types, (signed int)a);
+  return (signed int)(return_value_strchr_1 != ((char *)NULL));
 }
 
 // lo_is_string_type
 // file message.c line 1123
-signed int lo_is_string_type(enum anonymous$4 a)
+signed int lo_is_string_type(enum anonymous_4 a)
 {
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr(lo_string_types, (signed int)a);
-  return (signed int)(return_value_strchr$1 != ((char *)NULL));
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr(lo_string_types, (signed int)a);
+  return (signed int)(return_value_strchr_1 != ((char *)NULL));
 }
 
 // lo_message_add_blob
@@ -4063,28 +4063,28 @@ signed int lo_message_add_blob(struct _lo_message *m, struct _lo_blob *a)
   unsigned int dsize;
   dsize=lo_blob_datasize(a);
   char *nptr;
-  void *return_value_lo_message_add_data$1;
-  return_value_lo_message_add_data$1=lo_message_add_data(m, (unsigned long int)size);
-  nptr = (char *)return_value_lo_message_add_data$1;
+  void *return_value_lo_message_add_data_1;
+  return_value_lo_message_add_data_1=lo_message_add_data(m, (unsigned long int)size);
+  nptr = (char *)return_value_lo_message_add_data_1;
   if(nptr == ((char *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_lo_message_add_typechar$2;
-    return_value_lo_message_add_typechar$2=lo_message_add_typechar(m, (char)LO_BLOB);
-    if(!(return_value_lo_message_add_typechar$2 == 0))
+    signed int return_value_lo_message_add_typechar_2;
+    return_value_lo_message_add_typechar_2=lo_message_add_typechar(m, (char)LO_BLOB);
+    if(!(return_value_lo_message_add_typechar_2 == 0))
       return -1;
 
     else
     {
       memset((void *)((nptr + (signed long int)size) - (signed long int)4), 0, (unsigned long int)4);
       memcpy((void *)nptr, (const void *)&dsize, sizeof(const unsigned int) /*4ul*/ );
-      void *return_value_lo_blob_dataptr$3;
-      return_value_lo_blob_dataptr$3=lo_blob_dataptr(a);
-      unsigned int return_value_lo_blob_datasize$4;
-      return_value_lo_blob_datasize$4=lo_blob_datasize(a);
-      memcpy((void *)(nptr + (signed long int)sizeof(signed int) /*4ul*/ ), return_value_lo_blob_dataptr$3, (unsigned long int)return_value_lo_blob_datasize$4);
+      void *return_value_lo_blob_dataptr_3;
+      return_value_lo_blob_dataptr_3=lo_blob_dataptr(a);
+      unsigned int return_value_lo_blob_datasize_4;
+      return_value_lo_blob_datasize_4=lo_blob_datasize(a);
+      memcpy((void *)(nptr + (signed long int)sizeof(signed int) /*4ul*/ ), return_value_lo_blob_dataptr_3, (unsigned long int)return_value_lo_blob_datasize_4);
       return 0;
     }
   }
@@ -4094,11 +4094,11 @@ signed int lo_message_add_blob(struct _lo_message *m, struct _lo_blob *a)
 // file message.c line 426
 signed int lo_message_add_char(struct _lo_message *m, char a)
 {
-  union anonymous$5 b;
+  union anonymous_5 b;
   signed int *nptr;
-  void *return_value_lo_message_add_data$1;
-  return_value_lo_message_add_data$1=lo_message_add_data(m, sizeof(signed int) /*4ul*/ );
-  nptr = (signed int *)return_value_lo_message_add_data$1;
+  void *return_value_lo_message_add_data_1;
+  return_value_lo_message_add_data_1=lo_message_add_data(m, sizeof(signed int) /*4ul*/ );
+  nptr = (signed int *)return_value_lo_message_add_data_1;
   if(nptr == ((signed int *)NULL))
     return -1;
 
@@ -4106,9 +4106,9 @@ signed int lo_message_add_char(struct _lo_message *m, char a)
   {
     b.i = 0;
     b.c = a;
-    signed int return_value_lo_message_add_typechar$2;
-    return_value_lo_message_add_typechar$2=lo_message_add_typechar(m, (char)LO_CHAR);
-    if(!(return_value_lo_message_add_typechar$2 == 0))
+    signed int return_value_lo_message_add_typechar_2;
+    return_value_lo_message_add_typechar_2=lo_message_add_typechar(m, (char)LO_CHAR);
+    if(!(return_value_lo_message_add_typechar_2 == 0))
       return -1;
 
     else
@@ -4130,17 +4130,17 @@ static void * lo_message_add_data(struct _lo_message *m, unsigned long int s)
   if(new_datasize == 0)
     new_datasize = 8;
 
-  signed int tmp_if_expr$2;
-  double return_value_log$1;
+  signed int tmp_if_expr_2;
+  double return_value_log_1;
   if(!(new_datasize >= new_datalen))
   {
-    return_value_log$1=log((double)new_datalen / (double)new_datasize);
-    tmp_if_expr$2 = new_datasize << (signed int)(return_value_log$1 / 0.69315 + (double)1);
+    return_value_log_1=log((double)new_datalen / (double)new_datasize);
+    tmp_if_expr_2 = new_datasize << (signed int)(return_value_log_1 / 0.69315 + (double)1);
   }
 
   else
-    tmp_if_expr$2 = new_datasize;
-  new_datasize = tmp_if_expr$2;
+    tmp_if_expr_2 = new_datasize;
+  new_datasize = tmp_if_expr_2;
   new_data=realloc(m->data, (unsigned long int)new_datasize);
   if(new_data == NULL)
     return NULL;
@@ -4150,10 +4150,10 @@ static void * lo_message_add_data(struct _lo_message *m, unsigned long int s)
     m->datalen = (unsigned long int)new_datalen;
     m->datasize = (unsigned long int)new_datasize;
     m->data = new_data;
-    if(!(m->argv == ((union anonymous$0 **)NULL)))
+    if(!(m->argv == ((union anonymous_0 **)NULL)))
     {
       free((void *)m->argv);
-      m->argv = (union anonymous$0 **)(void *)0;
+      m->argv = (union anonymous_0 **)(void *)0;
     }
 
     return (void *)((char *)m->data + (signed long int)old_dlen);
@@ -4164,20 +4164,20 @@ static void * lo_message_add_data(struct _lo_message *m, unsigned long int s)
 // file message.c line 399
 signed int lo_message_add_double(struct _lo_message *m, double a)
 {
-  union anonymous$6 b;
+  union anonymous_6 b;
   unsigned long int *nptr;
-  void *return_value_lo_message_add_data$1;
-  return_value_lo_message_add_data$1=lo_message_add_data(m, sizeof(double) /*8ul*/ );
-  nptr = (unsigned long int *)return_value_lo_message_add_data$1;
+  void *return_value_lo_message_add_data_1;
+  return_value_lo_message_add_data_1=lo_message_add_data(m, sizeof(double) /*8ul*/ );
+  nptr = (unsigned long int *)return_value_lo_message_add_data_1;
   if(nptr == ((unsigned long int *)NULL))
     return -1;
 
   else
   {
     b.f = a;
-    signed int return_value_lo_message_add_typechar$2;
-    return_value_lo_message_add_typechar$2=lo_message_add_typechar(m, (char)LO_DOUBLE);
-    if(!(return_value_lo_message_add_typechar$2 == 0))
+    signed int return_value_lo_message_add_typechar_2;
+    return_value_lo_message_add_typechar_2=lo_message_add_typechar(m, (char)LO_DOUBLE);
+    if(!(return_value_lo_message_add_typechar_2 == 0))
       return -1;
 
     else
@@ -4192,29 +4192,29 @@ signed int lo_message_add_double(struct _lo_message *m, double a)
 // file message.c line 460
 signed int lo_message_add_false(struct _lo_message *m)
 {
-  signed int return_value_lo_message_add_typechar$1;
-  return_value_lo_message_add_typechar$1=lo_message_add_typechar(m, (char)LO_FALSE);
-  return return_value_lo_message_add_typechar$1;
+  signed int return_value_lo_message_add_typechar_1;
+  return_value_lo_message_add_typechar_1=lo_message_add_typechar(m, (char)LO_FALSE);
+  return return_value_lo_message_add_typechar_1;
 }
 
 // lo_message_add_float
 // file message.c line 326
 signed int lo_message_add_float(struct _lo_message *m, float a)
 {
-  union anonymous$5 b;
+  union anonymous_5 b;
   signed int *nptr;
-  void *return_value_lo_message_add_data$1;
-  return_value_lo_message_add_data$1=lo_message_add_data(m, sizeof(float) /*4ul*/ );
-  nptr = (signed int *)return_value_lo_message_add_data$1;
+  void *return_value_lo_message_add_data_1;
+  return_value_lo_message_add_data_1=lo_message_add_data(m, sizeof(float) /*4ul*/ );
+  nptr = (signed int *)return_value_lo_message_add_data_1;
   if(nptr == ((signed int *)NULL))
     return -1;
 
   else
   {
     b.f = a;
-    signed int return_value_lo_message_add_typechar$2;
-    return_value_lo_message_add_typechar$2=lo_message_add_typechar(m, (char)LO_FLOAT);
-    if(!(return_value_lo_message_add_typechar$2 == 0))
+    signed int return_value_lo_message_add_typechar_2;
+    return_value_lo_message_add_typechar_2=lo_message_add_typechar(m, (char)LO_FLOAT);
+    if(!(return_value_lo_message_add_typechar_2 == 0))
       return -1;
 
     else
@@ -4229,29 +4229,29 @@ signed int lo_message_add_float(struct _lo_message *m, float a)
 // file message.c line 470
 signed int lo_message_add_infinitum(struct _lo_message *m)
 {
-  signed int return_value_lo_message_add_typechar$1;
-  return_value_lo_message_add_typechar$1=lo_message_add_typechar(m, (char)LO_INFINITUM);
-  return return_value_lo_message_add_typechar$1;
+  signed int return_value_lo_message_add_typechar_1;
+  return_value_lo_message_add_typechar_1=lo_message_add_typechar(m, (char)LO_INFINITUM);
+  return return_value_lo_message_add_typechar_1;
 }
 
 // lo_message_add_int32
 // file message.c line 312
 signed int lo_message_add_int32(struct _lo_message *m, signed int a)
 {
-  union anonymous$5 b;
+  union anonymous_5 b;
   signed int *nptr;
-  void *return_value_lo_message_add_data$1;
-  return_value_lo_message_add_data$1=lo_message_add_data(m, sizeof(signed int) /*4ul*/ );
-  nptr = (signed int *)return_value_lo_message_add_data$1;
+  void *return_value_lo_message_add_data_1;
+  return_value_lo_message_add_data_1=lo_message_add_data(m, sizeof(signed int) /*4ul*/ );
+  nptr = (signed int *)return_value_lo_message_add_data_1;
   if(nptr == ((signed int *)NULL))
     return -1;
 
   else
   {
     b.i = a;
-    signed int return_value_lo_message_add_typechar$2;
-    return_value_lo_message_add_typechar$2=lo_message_add_typechar(m, (char)LO_INT32);
-    if(!(return_value_lo_message_add_typechar$2 == 0))
+    signed int return_value_lo_message_add_typechar_2;
+    return_value_lo_message_add_typechar_2=lo_message_add_typechar(m, (char)LO_INT32);
+    if(!(return_value_lo_message_add_typechar_2 == 0))
       return -1;
 
     else
@@ -4266,20 +4266,20 @@ signed int lo_message_add_int32(struct _lo_message *m, signed int a)
 // file message.c line 371
 signed int lo_message_add_int64(struct _lo_message *m, signed long int a)
 {
-  union anonymous$6 b;
+  union anonymous_6 b;
   unsigned long int *nptr;
-  void *return_value_lo_message_add_data$1;
-  return_value_lo_message_add_data$1=lo_message_add_data(m, sizeof(signed long int) /*8ul*/ );
-  nptr = (unsigned long int *)return_value_lo_message_add_data$1;
+  void *return_value_lo_message_add_data_1;
+  return_value_lo_message_add_data_1=lo_message_add_data(m, sizeof(signed long int) /*8ul*/ );
+  nptr = (unsigned long int *)return_value_lo_message_add_data_1;
   if(nptr == ((unsigned long int *)NULL))
     return -1;
 
   else
   {
     b.i = a;
-    signed int return_value_lo_message_add_typechar$2;
-    return_value_lo_message_add_typechar$2=lo_message_add_typechar(m, (char)LO_INT64);
-    if(!(return_value_lo_message_add_typechar$2 == 0))
+    signed int return_value_lo_message_add_typechar_2;
+    return_value_lo_message_add_typechar_2=lo_message_add_typechar(m, (char)LO_INT64);
+    if(!(return_value_lo_message_add_typechar_2 == 0))
       return -1;
 
     else
@@ -4295,9 +4295,9 @@ signed int lo_message_add_int64(struct _lo_message *m, signed long int a)
 signed int lo_message_add_internal(struct _lo_message *msg, const char *file, const signed int line, const char *types, ...)
 {
   void **ap = (void **)&types;
-  signed int return_value_lo_message_add_varargs_internal$1;
-  return_value_lo_message_add_varargs_internal$1=lo_message_add_varargs_internal(msg, types, ap, file, line);
-  return return_value_lo_message_add_varargs_internal$1;
+  signed int return_value_lo_message_add_varargs_internal_1;
+  return_value_lo_message_add_varargs_internal_1=lo_message_add_varargs_internal(msg, types, ap, file, line);
+  return return_value_lo_message_add_varargs_internal_1;
 }
 
 // lo_message_add_midi
@@ -4305,17 +4305,17 @@ signed int lo_message_add_internal(struct _lo_message *msg, const char *file, co
 signed int lo_message_add_midi(struct _lo_message *m, unsigned char *a)
 {
   char *nptr;
-  void *return_value_lo_message_add_data$1;
-  return_value_lo_message_add_data$1=lo_message_add_data(m, (unsigned long int)4);
-  nptr = (char *)return_value_lo_message_add_data$1;
+  void *return_value_lo_message_add_data_1;
+  return_value_lo_message_add_data_1=lo_message_add_data(m, (unsigned long int)4);
+  nptr = (char *)return_value_lo_message_add_data_1;
   if(nptr == ((char *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_lo_message_add_typechar$2;
-    return_value_lo_message_add_typechar$2=lo_message_add_typechar(m, (char)LO_MIDI);
-    if(!(return_value_lo_message_add_typechar$2 == 0))
+    signed int return_value_lo_message_add_typechar_2;
+    return_value_lo_message_add_typechar_2=lo_message_add_typechar(m, (char)LO_MIDI);
+    if(!(return_value_lo_message_add_typechar_2 == 0))
       return -1;
 
     else
@@ -4330,9 +4330,9 @@ signed int lo_message_add_midi(struct _lo_message *m, unsigned char *a)
 // file message.c line 465
 signed int lo_message_add_nil(struct _lo_message *m)
 {
-  signed int return_value_lo_message_add_typechar$1;
-  return_value_lo_message_add_typechar$1=lo_message_add_typechar(m, (char)LO_NIL);
-  return return_value_lo_message_add_typechar$1;
+  signed int return_value_lo_message_add_typechar_1;
+  return_value_lo_message_add_typechar_1=lo_message_add_typechar(m, (char)LO_NIL);
+  return return_value_lo_message_add_typechar_1;
 }
 
 // lo_message_add_string
@@ -4342,17 +4342,17 @@ signed int lo_message_add_string(struct _lo_message *m, const char *a)
   signed int size;
   size=lo_strsize(a);
   char *nptr;
-  void *return_value_lo_message_add_data$1;
-  return_value_lo_message_add_data$1=lo_message_add_data(m, (unsigned long int)size);
-  nptr = (char *)return_value_lo_message_add_data$1;
+  void *return_value_lo_message_add_data_1;
+  return_value_lo_message_add_data_1=lo_message_add_data(m, (unsigned long int)size);
+  nptr = (char *)return_value_lo_message_add_data_1;
   if(nptr == ((char *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_lo_message_add_typechar$2;
-    return_value_lo_message_add_typechar$2=lo_message_add_typechar(m, (char)LO_STRING);
-    if(!(return_value_lo_message_add_typechar$2 == 0))
+    signed int return_value_lo_message_add_typechar_2;
+    return_value_lo_message_add_typechar_2=lo_message_add_typechar(m, (char)LO_STRING);
+    if(!(return_value_lo_message_add_typechar_2 == 0))
       return -1;
 
     else
@@ -4370,17 +4370,17 @@ signed int lo_message_add_symbol(struct _lo_message *m, const char *a)
   signed int size;
   size=lo_strsize(a);
   char *nptr;
-  void *return_value_lo_message_add_data$1;
-  return_value_lo_message_add_data$1=lo_message_add_data(m, (unsigned long int)size);
-  nptr = (char *)return_value_lo_message_add_data$1;
+  void *return_value_lo_message_add_data_1;
+  return_value_lo_message_add_data_1=lo_message_add_data(m, (unsigned long int)size);
+  nptr = (char *)return_value_lo_message_add_data_1;
   if(nptr == ((char *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_lo_message_add_typechar$2;
-    return_value_lo_message_add_typechar$2=lo_message_add_typechar(m, (char)LO_SYMBOL);
-    if(!(return_value_lo_message_add_typechar$2 == 0))
+    signed int return_value_lo_message_add_typechar_2;
+    return_value_lo_message_add_typechar_2=lo_message_add_typechar(m, (char)LO_SYMBOL);
+    if(!(return_value_lo_message_add_typechar_2 == 0))
       return -1;
 
     else
@@ -4393,20 +4393,20 @@ signed int lo_message_add_symbol(struct _lo_message *m, const char *a)
 
 // lo_message_add_timetag
 // file message.c line 385
-signed int lo_message_add_timetag(struct _lo_message *m, struct anonymous$2 a)
+signed int lo_message_add_timetag(struct _lo_message *m, struct anonymous_2 a)
 {
   unsigned int *nptr;
-  void *return_value_lo_message_add_data$1;
-  return_value_lo_message_add_data$1=lo_message_add_data(m, sizeof(struct anonymous$2) /*8ul*/ );
-  nptr = (unsigned int *)return_value_lo_message_add_data$1;
+  void *return_value_lo_message_add_data_1;
+  return_value_lo_message_add_data_1=lo_message_add_data(m, sizeof(struct anonymous_2) /*8ul*/ );
+  nptr = (unsigned int *)return_value_lo_message_add_data_1;
   if(nptr == ((unsigned int *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_lo_message_add_typechar$2;
-    return_value_lo_message_add_typechar$2=lo_message_add_typechar(m, (char)LO_TIMETAG);
-    if(!(return_value_lo_message_add_typechar$2 == 0))
+    signed int return_value_lo_message_add_typechar_2;
+    return_value_lo_message_add_typechar_2=lo_message_add_typechar(m, (char)LO_TIMETAG);
+    if(!(return_value_lo_message_add_typechar_2 == 0))
       return -1;
 
     else
@@ -4423,9 +4423,9 @@ signed int lo_message_add_timetag(struct _lo_message *m, struct anonymous$2 a)
 // file message.c line 455
 signed int lo_message_add_true(struct _lo_message *m)
 {
-  signed int return_value_lo_message_add_typechar$1;
-  return_value_lo_message_add_typechar$1=lo_message_add_typechar(m, (char)LO_TRUE);
-  return return_value_lo_message_add_typechar$1;
+  signed int return_value_lo_message_add_typechar_1;
+  return_value_lo_message_add_typechar_1=lo_message_add_typechar(m, (char)LO_TRUE);
+  return return_value_lo_message_add_typechar_1;
 }
 
 // lo_message_add_typechar
@@ -4439,9 +4439,9 @@ static signed int lo_message_add_typechar(struct _lo_message *m, char t)
     if(new_typesize == 0)
       new_typesize = 8;
 
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)m->types, (unsigned long int)new_typesize);
-    new_types = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)m->types, (unsigned long int)new_typesize);
+    new_types = (char *)return_value_realloc_1;
     if(new_types == ((char *)NULL))
       return -1;
 
@@ -4452,10 +4452,10 @@ static signed int lo_message_add_typechar(struct _lo_message *m, char t)
   m->types[(signed long int)m->typelen] = t;
   m->typelen = m->typelen + 1ul;
   m->types[(signed long int)m->typelen] = (char)0;
-  if(!(m->argv == ((union anonymous$0 **)NULL)))
+  if(!(m->argv == ((union anonymous_0 **)NULL)))
   {
     free((void *)m->argv);
-    m->argv = (union anonymous$0 **)(void *)0;
+    m->argv = (union anonymous_0 **)(void *)0;
   }
 
   return 0;
@@ -4467,18 +4467,18 @@ signed int lo_message_add_varargs_internal(struct _lo_message *msg, const char *
 {
   signed int count = 0;
   signed int ret = 0;
-  const char *tmp_post$1;
-  signed int lo_message_add_varargs_internal$$1$$1$$1$$1$$i;
+  const char *tmp_post_1;
+  signed int lo_message_add_varargs_internal__1__1__1__1__i;
   float f;
-  double return_value_gcc_builtin_va_arg$2;
-  char *lo_message_add_varargs_internal$$1$$1$$1$$3$$s;
+  double return_value_gcc_builtin_va_arg_2;
+  char *lo_message_add_varargs_internal__1__1__1__3__s;
   struct _lo_blob *b;
   signed long int i64;
-  struct anonymous$2 tt;
+  struct anonymous_2 tt;
   double d;
   char *s;
   char c;
-  signed int return_value_gcc_builtin_va_arg$3;
+  signed int return_value_gcc_builtin_va_arg_3;
   unsigned char *m;
   while(!(types == ((const char *)NULL)))
   {
@@ -4486,30 +4486,30 @@ signed int lo_message_add_varargs_internal(struct _lo_message *msg, const char *
       break;
 
     count = count + 1;
-    tmp_post$1 = types;
+    tmp_post_1 = types;
     types = types + 1l;
-    switch((signed int)*tmp_post$1)
+    switch((signed int)*tmp_post_1)
     {
       case LO_INT32:
       {
-        lo_message_add_varargs_internal$$1$$1$$1$$1$$i=va_arg(ap, __typeof__(lo_message_add_varargs_internal$$1$$1$$1$$1$$i));
-        lo_message_add_int32(msg, lo_message_add_varargs_internal$$1$$1$$1$$1$$i);
+        lo_message_add_varargs_internal__1__1__1__1__i=va_arg(ap, __typeof__(lo_message_add_varargs_internal__1__1__1__1__i));
+        lo_message_add_int32(msg, lo_message_add_varargs_internal__1__1__1__1__i);
         break;
       }
       case LO_FLOAT:
       {
-        return_value_gcc_builtin_va_arg$2=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$2));
-        f = (float)return_value_gcc_builtin_va_arg$2;
+        return_value_gcc_builtin_va_arg_2=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_2));
+        f = (float)return_value_gcc_builtin_va_arg_2;
         lo_message_add_float(msg, f);
         break;
       }
       case LO_STRING:
       {
-        lo_message_add_varargs_internal$$1$$1$$1$$3$$s=va_arg(ap, __typeof__(lo_message_add_varargs_internal$$1$$1$$1$$3$$s));
-        if(lo_message_add_varargs_internal$$1$$1$$1$$3$$s == (char *)0xdeadbeefdeadbeefL)
+        lo_message_add_varargs_internal__1__1__1__3__s=va_arg(ap, __typeof__(lo_message_add_varargs_internal__1__1__1__3__s));
+        if(lo_message_add_varargs_internal__1__1__1__3__s == (char *)0xdeadbeefdeadbeefL)
           fprintf(stderr, "liblo error: lo_send or lo_message_add called with invalid string pointer for arg %d, probably arg mismatch\nat %s:%d, exiting.\n", count, file, line);
 
-        lo_message_add_string(msg, lo_message_add_varargs_internal$$1$$1$$1$$3$$s);
+        lo_message_add_string(msg, lo_message_add_varargs_internal__1__1__1__3__s);
         break;
       }
       case LO_BLOB:
@@ -4551,8 +4551,8 @@ signed int lo_message_add_varargs_internal(struct _lo_message *msg, const char *
       }
       case LO_CHAR:
       {
-        return_value_gcc_builtin_va_arg$3=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$3));
-        c = (char)return_value_gcc_builtin_va_arg$3;
+        return_value_gcc_builtin_va_arg_3=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_3));
+        c = (char)return_value_gcc_builtin_va_arg_3;
         lo_message_add_char(msg, c);
         break;
       }
@@ -4630,17 +4630,17 @@ struct _lo_message * lo_message_clone(struct _lo_message *m)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _lo_message) /*80ul*/ );
-    c = (struct _lo_message *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _lo_message) /*80ul*/ );
+    c = (struct _lo_message *)return_value_malloc_1;
     if(c == ((struct _lo_message *)NULL))
       return (struct _lo_message *)(void *)0;
 
     else
     {
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc(m->typesize, sizeof(char) /*1ul*/ );
-      c->types = (char *)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc(m->typesize, sizeof(char) /*1ul*/ );
+      c->types = (char *)return_value_calloc_2;
       strcpy(c->types, m->types);
       c->typelen = m->typelen;
       c->typesize = m->typesize;
@@ -4649,8 +4649,8 @@ struct _lo_message * lo_message_clone(struct _lo_message *m)
       c->datalen = m->datalen;
       c->datasize = m->datasize;
       c->source = (struct _lo_address *)(void *)0;
-      c->argv = (union anonymous$0 **)(void *)0;
-      c->ts = (struct anonymous$2){ .sec=0U, .frac=1U };
+      c->argv = (union anonymous_0 **)(void *)0;
+      c->ts = (struct anonymous_2){ .sec=0U, .frac=1U };
       c->refcount = 0;
       return c;
     }
@@ -4669,17 +4669,17 @@ struct _lo_message * lo_message_deserialise(void *data, unsigned long int size, 
   signed int remain = (signed int)size;
   signed int res = 0;
   signed int len;
-  void *return_value_malloc$1;
-  signed long int return_value_lo_validate_string$2;
-  signed long int return_value_lo_validate_string$3;
-  void *return_value_malloc$4;
+  void *return_value_malloc_1;
+  signed long int return_value_lo_validate_string_2;
+  signed long int return_value_lo_validate_string_3;
+  void *return_value_malloc_4;
   if(!(remain >= 1))
     res = 9911;
 
   else
   {
-    return_value_malloc$1=malloc(sizeof(struct _lo_message) /*80ul*/ );
-    msg = (struct _lo_message *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct _lo_message) /*80ul*/ );
+    msg = (struct _lo_message *)return_value_malloc_1;
     if(msg == ((struct _lo_message *)NULL))
       res = 9907;
 
@@ -4692,11 +4692,11 @@ struct _lo_message * lo_message_deserialise(void *data, unsigned long int size, 
       msg->datalen = (unsigned long int)0;
       msg->datasize = (unsigned long int)0;
       msg->source = (struct _lo_address *)(void *)0;
-      msg->argv = (union anonymous$0 **)(void *)0;
-      msg->ts = (struct anonymous$2){ .sec=0U, .frac=1U };
+      msg->argv = (union anonymous_0 **)(void *)0;
+      msg->ts = (struct anonymous_2){ .sec=0U, .frac=1U };
       msg->refcount = 0;
-      return_value_lo_validate_string$2=lo_validate_string(data, (signed long int)remain);
-      len = (signed int)return_value_lo_validate_string$2;
+      return_value_lo_validate_string_2=lo_validate_string(data, (signed long int)remain);
+      len = (signed int)return_value_lo_validate_string_2;
       if(!(len >= 0))
         res = 9908;
 
@@ -4709,8 +4709,8 @@ struct _lo_message * lo_message_deserialise(void *data, unsigned long int size, 
         else
         {
           types = (char *)data + (signed long int)len;
-          return_value_lo_validate_string$3=lo_validate_string((void *)types, (signed long int)remain);
-          len = (signed int)return_value_lo_validate_string$3;
+          return_value_lo_validate_string_3=lo_validate_string((void *)types, (signed long int)remain);
+          len = (signed int)return_value_lo_validate_string_3;
           if(!(len >= 0))
             res = 9909;
 
@@ -4723,8 +4723,8 @@ struct _lo_message * lo_message_deserialise(void *data, unsigned long int size, 
               remain = remain - len;
               msg->typelen=strlen(types);
               msg->typesize = (unsigned long int)len;
-              return_value_malloc$4=malloc(msg->typesize);
-              msg->types = (char *)return_value_malloc$4;
+              return_value_malloc_4=malloc(msg->typesize);
+              msg->types = (char *)return_value_malloc_4;
               if(msg->types == ((char *)NULL))
                 res = 9907;
 
@@ -4745,10 +4745,10 @@ struct _lo_message * lo_message_deserialise(void *data, unsigned long int size, 
                   argc = (signed int)(msg->typelen - (unsigned long int)1);
                   if(!(argc == 0))
                   {
-                    void *return_value_calloc$5;
-                    return_value_calloc$5=calloc((unsigned long int)argc, sizeof(union anonymous$0 *) /*8ul*/ );
-                    msg->argv = (union anonymous$0 **)return_value_calloc$5;
-                    if(msg->argv == ((union anonymous$0 **)NULL))
+                    void *return_value_calloc_5;
+                    return_value_calloc_5=calloc((unsigned long int)argc, sizeof(union anonymous_0 *) /*8ul*/ );
+                    msg->argv = (union anonymous_0 **)return_value_calloc_5;
+                    if(msg->argv == ((union anonymous_0 **)NULL))
                     {
                       res = 9907;
                       goto fail;
@@ -4759,17 +4759,17 @@ struct _lo_message * lo_message_deserialise(void *data, unsigned long int size, 
                   i = 0;
                   for( ; remain >= 0 && !(i >= argc); i = i + 1)
                   {
-                    signed long int return_value_lo_validate_arg$6;
-                    return_value_lo_validate_arg$6=lo_validate_arg((enum anonymous$4)types[(signed long int)i], (void *)ptr, (signed long int)remain);
-                    len = (signed int)return_value_lo_validate_arg$6;
+                    signed long int return_value_lo_validate_arg_6;
+                    return_value_lo_validate_arg_6=lo_validate_arg((enum anonymous_4)types[(signed long int)i], (void *)ptr, (signed long int)remain);
+                    len = (signed int)return_value_lo_validate_arg_6;
                     if(!(len >= 0))
                     {
                       res = 9912;
                       goto fail;
                     }
 
-                    lo_arg_host_endian((enum anonymous$4)types[(signed long int)i], (void *)ptr);
-                    msg->argv[(signed long int)i] = len != 0 ? (union anonymous$0 *)ptr : (union anonymous$0 *)(void *)0;
+                    lo_arg_host_endian((enum anonymous_4)types[(signed long int)i], (void *)ptr);
+                    msg->argv[(signed long int)i] = len != 0 ? (union anonymous_0 *)ptr : (union anonymous_0 *)(void *)0;
                     remain = remain - len;
                     ptr = ptr + (signed long int)len;
                   }
@@ -4830,14 +4830,14 @@ signed int lo_message_get_argc(struct _lo_message *m)
 
 // lo_message_get_argv
 // file message.c line 805
-union anonymous$0 ** lo_message_get_argv(struct _lo_message *m)
+union anonymous_0 ** lo_message_get_argv(struct _lo_message *m)
 {
   signed int i;
   signed int argc;
   char *types;
   char *ptr;
-  union anonymous$0 **argv;
-  if(!(m->argv == ((union anonymous$0 **)NULL)))
+  union anonymous_0 **argv;
+  if(!(m->argv == ((union anonymous_0 **)NULL)))
     return m->argv;
 
   else
@@ -4845,15 +4845,15 @@ union anonymous$0 ** lo_message_get_argv(struct _lo_message *m)
     argc = (signed int)(m->typelen - (unsigned long int)1);
     types = m->types + (signed long int)1;
     ptr = (char *)m->data;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)argc, sizeof(union anonymous$0 *) /*8ul*/ );
-    argv = (union anonymous$0 **)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)argc, sizeof(union anonymous_0 *) /*8ul*/ );
+    argv = (union anonymous_0 **)return_value_calloc_1;
     i = 0;
     for( ; !(i >= argc); i = i + 1)
     {
       unsigned long int len;
-      len=lo_arg_size((enum anonymous$4)types[(signed long int)i], (void *)ptr);
-      argv[(signed long int)i] = len != 0ul ? (union anonymous$0 *)ptr : (union anonymous$0 *)(void *)0;
+      len=lo_arg_size((enum anonymous_4)types[(signed long int)i], (void *)ptr);
+      argv[(signed long int)i] = len != 0ul ? (union anonymous_0 *)ptr : (union anonymous_0 *)(void *)0;
       ptr = ptr + (signed long int)len;
     }
     m->argv = argv;
@@ -4870,7 +4870,7 @@ struct _lo_address * lo_message_get_source(struct _lo_message *m)
 
 // lo_message_get_timestamp
 // file message.c line 790
-struct anonymous$2 lo_message_get_timestamp(struct _lo_message *m)
+struct anonymous_2 lo_message_get_timestamp(struct _lo_message *m)
 {
   return m->ts;
 }
@@ -4893,11 +4893,11 @@ void lo_message_incref(struct _lo_message *m)
 // file ../lo/lo_lowlevel.h line 334
 unsigned long int lo_message_length(struct _lo_message *m, const char *path)
 {
-  signed int return_value_lo_strsize$1;
-  return_value_lo_strsize$1=lo_strsize(path);
-  signed int return_value_lo_strsize$2;
-  return_value_lo_strsize$2=lo_strsize(m->types);
-  return (unsigned long int)(return_value_lo_strsize$1 + return_value_lo_strsize$2) + m->datalen;
+  signed int return_value_lo_strsize_1;
+  return_value_lo_strsize_1=lo_strsize(path);
+  signed int return_value_lo_strsize_2;
+  return_value_lo_strsize_2=lo_strsize(m->types);
+  return (unsigned long int)(return_value_lo_strsize_1 + return_value_lo_strsize_2) + m->datalen;
 }
 
 // lo_message_new
@@ -4905,17 +4905,17 @@ unsigned long int lo_message_length(struct _lo_message *m, const char *path)
 struct _lo_message * lo_message_new()
 {
   struct _lo_message *m;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _lo_message) /*80ul*/ );
-  m = (struct _lo_message *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _lo_message) /*80ul*/ );
+  m = (struct _lo_message *)return_value_malloc_1;
   if(m == ((struct _lo_message *)NULL))
     return m;
 
   else
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)8, sizeof(char) /*1ul*/ );
-    m->types = (char *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)8, sizeof(char) /*1ul*/ );
+    m->types = (char *)return_value_calloc_2;
     m->types[(signed long int)0] = (char)44;
     m->types[(signed long int)1] = (char)0;
     m->typelen = (unsigned long int)1;
@@ -4924,8 +4924,8 @@ struct _lo_message * lo_message_new()
     m->datalen = (unsigned long int)0;
     m->datasize = (unsigned long int)0;
     m->source = (struct _lo_address *)(void *)0;
-    m->argv = (union anonymous$0 **)(void *)0;
-    m->ts = (struct anonymous$2){ .sec=0U, .frac=1U };
+    m->argv = (union anonymous_0 **)(void *)0;
+    m->ts = (struct anonymous_2){ .sec=0U, .frac=1U };
     m->refcount = 0;
     return m;
   }
@@ -4945,17 +4945,17 @@ void lo_message_pp(struct _lo_message *m)
     if(i >= 2)
       printf(" ");
 
-    lo_arg_pp_internal((enum anonymous$4)m->types[(signed long int)i], d, 0);
-    unsigned long int return_value_lo_arg_size$1;
-    return_value_lo_arg_size$1=lo_arg_size((enum anonymous$4)m->types[(signed long int)i], d);
-    d = (void *)((char *)d + (signed long int)return_value_lo_arg_size$1);
+    lo_arg_pp_internal((enum anonymous_4)m->types[(signed long int)i], d, 0);
+    unsigned long int return_value_lo_arg_size_1;
+    return_value_lo_arg_size_1=lo_arg_size((enum anonymous_4)m->types[(signed long int)i], d);
+    d = (void *)((char *)d + (signed long int)return_value_lo_arg_size_1);
   }
   putchar(10);
   if(!(d == end))
   {
-    signed int return_value_abs$2;
-    return_value_abs$2=abs((signed int)((char *)d - (char *)end));
-    fprintf(stderr, "liblo warning: type and data do not match (off by %d) in message %p\n", return_value_abs$2, m);
+    signed int return_value_abs_2;
+    return_value_abs_2=abs((signed int)((char *)d - (char *)end));
+    fprintf(stderr, "liblo warning: type and data do not match (off by %d) in message %p\n", return_value_abs_2, m);
   }
 
 }
@@ -4976,32 +4976,32 @@ void * lo_message_serialise(struct _lo_message *m, const char *path, void *to, u
   if(to == NULL)
     to=calloc((unsigned long int)1, s);
 
-  signed int return_value_lo_strsize$1;
-  return_value_lo_strsize$1=lo_strsize(path);
-  memset((void *)(((char *)to + (signed long int)return_value_lo_strsize$1) - (signed long int)4), 0, (unsigned long int)4);
+  signed int return_value_lo_strsize_1;
+  return_value_lo_strsize_1=lo_strsize(path);
+  memset((void *)(((char *)to + (signed long int)return_value_lo_strsize_1) - (signed long int)4), 0, (unsigned long int)4);
   strcpy((char *)to, path);
-  signed int return_value_lo_strsize$2;
-  return_value_lo_strsize$2=lo_strsize(path);
-  signed int return_value_lo_strsize$3;
-  return_value_lo_strsize$3=lo_strsize(m->types);
-  memset((void *)(((char *)to + (signed long int)return_value_lo_strsize$2 + (signed long int)return_value_lo_strsize$3) - (signed long int)4), 0, (unsigned long int)4);
-  signed int return_value_lo_strsize$4;
-  return_value_lo_strsize$4=lo_strsize(path);
-  strcpy((char *)to + (signed long int)return_value_lo_strsize$4, m->types);
+  signed int return_value_lo_strsize_2;
+  return_value_lo_strsize_2=lo_strsize(path);
+  signed int return_value_lo_strsize_3;
+  return_value_lo_strsize_3=lo_strsize(m->types);
+  memset((void *)(((char *)to + (signed long int)return_value_lo_strsize_2 + (signed long int)return_value_lo_strsize_3) - (signed long int)4), 0, (unsigned long int)4);
+  signed int return_value_lo_strsize_4;
+  return_value_lo_strsize_4=lo_strsize(path);
+  strcpy((char *)to + (signed long int)return_value_lo_strsize_4, m->types);
   types = m->types + (signed long int)1;
-  signed int return_value_lo_strsize$5;
-  return_value_lo_strsize$5=lo_strsize(path);
-  signed int return_value_lo_strsize$6;
-  return_value_lo_strsize$6=lo_strsize(m->types);
-  ptr = (char *)to + (signed long int)return_value_lo_strsize$5 + (signed long int)return_value_lo_strsize$6;
+  signed int return_value_lo_strsize_5;
+  return_value_lo_strsize_5=lo_strsize(path);
+  signed int return_value_lo_strsize_6;
+  return_value_lo_strsize_6=lo_strsize(m->types);
+  ptr = (char *)to + (signed long int)return_value_lo_strsize_5 + (signed long int)return_value_lo_strsize_6;
   memcpy((void *)ptr, m->data, m->datalen);
   argc = (signed int)(m->typelen - (unsigned long int)1);
   i = 0;
   for( ; !(i >= argc); i = i + 1)
   {
     unsigned long int len;
-    len=lo_arg_size((enum anonymous$4)types[(signed long int)i], (void *)ptr);
-    lo_arg_network_endian((enum anonymous$4)types[(signed long int)i], (void *)ptr);
+    len=lo_arg_size((enum anonymous_4)types[(signed long int)i], (void *)ptr);
+    lo_arg_network_endian((enum anonymous_4)types[(signed long int)i], (void *)ptr);
     ptr = ptr + (signed long int)len;
   }
   return to;
@@ -5031,16 +5031,16 @@ signed int lo_pattern_match(const char *str, const char *p)
   signed int negate;
   signed int match;
   char c;
-  const char *tmp_post$1;
-  const char *tmp_post$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  const char *tmp_post$7;
-  const char *tmp_post$8;
-  const char *tmp_post$9;
-  const char *tmp_post$10;
-  const char *tmp_post$12;
+  const char *tmp_post_1;
+  const char *tmp_post_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  const char *tmp_post_7;
+  const char *tmp_post_8;
+  const char *tmp_post_9;
+  const char *tmp_post_10;
+  const char *tmp_post_12;
   for( ; !(*p == 0); str = str + 1l)
   {
     if(*str == 0)
@@ -5050,9 +5050,9 @@ signed int lo_pattern_match(const char *str, const char *p)
 
     }
 
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     switch((signed int)c)
     {
       case 42:
@@ -5080,9 +5080,9 @@ signed int lo_pattern_match(const char *str, const char *p)
 
         while(!(*str == 0))
         {
-          signed int return_value_lo_pattern_match$2;
-          return_value_lo_pattern_match$2=lo_pattern_match(str, p);
-          if(!(return_value_lo_pattern_match$2 == 0))
+          signed int return_value_lo_pattern_match_2;
+          return_value_lo_pattern_match_2=lo_pattern_match(str, p);
+          if(!(return_value_lo_pattern_match_2 == 0))
             return 1;
 
           str = str + 1l;
@@ -5109,9 +5109,9 @@ signed int lo_pattern_match(const char *str, const char *p)
         match = 0;
         while(match == 0)
         {
-          tmp_post$3 = p;
+          tmp_post_3 = p;
           p = p + 1l;
-          c = *tmp_post$3;
+          c = *tmp_post_3;
           if(c == 0)
             break;
 
@@ -5127,23 +5127,23 @@ signed int lo_pattern_match(const char *str, const char *p)
             if(!((signed int)*p == 93))
             {
               if(*str == c)
-                tmp_if_expr$4 = (_Bool)1;
+                tmp_if_expr_4 = (_Bool)1;
 
               else
-                tmp_if_expr$4 = *str == *p ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$4)
-                tmp_if_expr$6 = (_Bool)1;
+                tmp_if_expr_4 = *str == *p ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_4)
+                tmp_if_expr_6 = (_Bool)1;
 
               else
               {
                 if(!((signed int)c >= (signed int)*str))
-                  tmp_if_expr$5 = (signed int)*str < (signed int)*p ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_5 = (signed int)*str < (signed int)*p ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
-                tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_5 = (_Bool)0;
+                tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$6)
+              if(tmp_if_expr_6)
                 match = 1;
 
             }
@@ -5180,9 +5180,9 @@ signed int lo_pattern_match(const char *str, const char *p)
           if((signed int)*p == 93)
             break;
 
-        tmp_post$7 = p;
+        tmp_post_7 = p;
         p = p + 1l;
-        if(*tmp_post$7 == 0)
+        if(*tmp_post_7 == 0)
           return 0;
 
         break;
@@ -5195,29 +5195,29 @@ signed int lo_pattern_match(const char *str, const char *p)
           if((signed int)*remainder == 125)
             break;
 
-        tmp_post$8 = remainder;
+        tmp_post_8 = remainder;
         remainder = remainder + 1l;
-        if(*tmp_post$8 == 0)
+        if(*tmp_post_8 == 0)
           return 0;
 
-        tmp_post$9 = p;
+        tmp_post_9 = p;
         p = p + 1l;
-        c = *tmp_post$9;
-        for( ; !(c == 0); c = *tmp_post$12)
+        c = *tmp_post_9;
+        for( ; !(c == 0); c = *tmp_post_12)
         {
           if((signed int)c == 44)
           {
-            signed int return_value_lo_pattern_match$11;
-            return_value_lo_pattern_match$11=lo_pattern_match(str, remainder);
-            if(!(return_value_lo_pattern_match$11 == 0))
+            signed int return_value_lo_pattern_match_11;
+            return_value_lo_pattern_match_11=lo_pattern_match(str, remainder);
+            if(!(return_value_lo_pattern_match_11 == 0))
               return 1;
 
             else
             {
               str = place;
-              tmp_post$10 = p;
+              tmp_post_10 = p;
               p = p + 1l;
-              if(*tmp_post$10 == 0)
+              if(*tmp_post_10 == 0)
                 return 0;
 
             }
@@ -5270,7 +5270,7 @@ signed int lo_pattern_match(const char *str, const char *p)
                     return 0;
 
               }
-          tmp_post$12 = p;
+          tmp_post_12 = p;
           p = p + 1l;
         }
         break;
@@ -5288,9 +5288,9 @@ signed int lo_pattern_match(const char *str, const char *p)
 // file send.c line 580
 signed int lo_send_bundle(struct _lo_address *a, struct _lo_bundle *b)
 {
-  signed int return_value_lo_send_bundle_from$1;
-  return_value_lo_send_bundle_from$1=lo_send_bundle_from(a, (struct _lo_server *)(void *)0, b);
-  return return_value_lo_send_bundle_from$1;
+  signed int return_value_lo_send_bundle_from_1;
+  return_value_lo_send_bundle_from_1=lo_send_bundle_from(a, (struct _lo_server *)(void *)0, b);
+  return return_value_lo_send_bundle_from_1;
 }
 
 // lo_send_bundle_from
@@ -5299,9 +5299,9 @@ signed int lo_send_bundle_from(struct _lo_address *a, struct _lo_server *from, s
 {
   unsigned long int data_len;
   char *data;
-  void *return_value_lo_bundle_serialise$1;
-  return_value_lo_bundle_serialise$1=lo_bundle_serialise(b, (void *)0, &data_len);
-  data = (char *)return_value_lo_bundle_serialise$1;
+  void *return_value_lo_bundle_serialise_1;
+  return_value_lo_bundle_serialise_1=lo_bundle_serialise(b, (void *)0, &data_len);
+  data = (char *)return_value_lo_bundle_serialise_1;
   signed int ret;
   ret=send_data(a, from, data, data_len);
   if(!(data == ((char *)NULL)))
@@ -5312,29 +5312,29 @@ signed int lo_send_bundle_from(struct _lo_address *a, struct _lo_server *from, s
 
 // lo_send_from_internal
 // file send.c line 225
-signed int lo_send_from_internal(struct _lo_address *to, struct _lo_server *from, const char *file, const signed int line, const struct anonymous$2 ts, const char *path, const char *types, ...)
+signed int lo_send_from_internal(struct _lo_address *to, struct _lo_server *from, const char *file, const signed int line, const struct anonymous_2 ts, const char *path, const char *types, ...)
 {
   void **ap = (void **)&types;
-  signed int return_value_lo_send_from_varargs_internal$1;
-  return_value_lo_send_from_varargs_internal$1=lo_send_from_varargs_internal(to, from, file, line, ts, path, types, ap);
-  return return_value_lo_send_from_varargs_internal$1;
+  signed int return_value_lo_send_from_varargs_internal_1;
+  return_value_lo_send_from_varargs_internal_1=lo_send_from_varargs_internal(to, from, file, line, ts, path, types, ap);
+  return return_value_lo_send_from_varargs_internal_1;
 }
 
 // lo_send_from_varargs_internal
 // file send.c line 174
-static signed int lo_send_from_varargs_internal(struct _lo_address *to, struct _lo_server *from, const char *file, const signed int line, struct anonymous$2 ts, const char *path, const char *types, void **ap)
+static signed int lo_send_from_varargs_internal(struct _lo_address *to, struct _lo_server *from, const char *file, const signed int line, struct anonymous_2 ts, const char *path, const char *types, void **ap)
 {
   struct _lo_bundle *b = (struct _lo_bundle *)(void *)0;
   signed int ret;
   struct _lo_message *msg;
   msg=lo_message_new();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ts.sec == 0U))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ts.frac != ((struct anonymous$2){ .sec=0U, .frac=1U }).frac ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = ts.frac != ((struct anonymous_2){ .sec=0U, .frac=1U }).frac ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     b=lo_bundle_new(ts);
 
   to->errnum = 0;
@@ -5364,18 +5364,18 @@ static signed int lo_send_from_varargs_internal(struct _lo_address *to, struct _
 signed int lo_send_internal(struct _lo_address *t, const char *file, const signed int line, const char *path, const char *types, ...)
 {
   void **ap = (void **)&types;
-  signed int return_value_lo_send_varargs_internal$1;
-  return_value_lo_send_varargs_internal$1=lo_send_varargs_internal(t, file, line, path, types, ap);
-  return return_value_lo_send_varargs_internal$1;
+  signed int return_value_lo_send_varargs_internal_1;
+  return_value_lo_send_varargs_internal_1=lo_send_varargs_internal(t, file, line, path, types, ap);
+  return return_value_lo_send_varargs_internal_1;
 }
 
 // lo_send_message
 // file send.c line 552
 signed int lo_send_message(struct _lo_address *a, const char *path, struct _lo_message *msg)
 {
-  signed int return_value_lo_send_message_from$1;
-  return_value_lo_send_message_from$1=lo_send_message_from(a, (struct _lo_server *)(void *)0, path, msg);
-  return return_value_lo_send_message_from$1;
+  signed int return_value_lo_send_message_from_1;
+  return_value_lo_send_message_from_1=lo_send_message_from(a, (struct _lo_server *)(void *)0, path, msg);
+  return return_value_lo_send_message_from_1;
 }
 
 // lo_send_message_from
@@ -5385,9 +5385,9 @@ signed int lo_send_message_from(struct _lo_address *a, struct _lo_server *from, 
   unsigned long int data_len;
   data_len=lo_message_length(msg, path);
   char *data;
-  void *return_value_lo_message_serialise$1;
-  return_value_lo_message_serialise$1=lo_message_serialise(msg, path, (void *)0, (unsigned long int *)(void *)0);
-  data = (char *)return_value_lo_message_serialise$1;
+  void *return_value_lo_message_serialise_1;
+  return_value_lo_message_serialise_1=lo_message_serialise(msg, path, (void *)0, (unsigned long int *)(void *)0);
+  data = (char *)return_value_lo_message_serialise_1;
   signed int ret;
   ret=send_data(a, from, data, data_len);
   if(ret == -1)
@@ -5405,17 +5405,17 @@ signed int lo_send_message_from(struct _lo_address *a, struct _lo_server *from, 
 
 // lo_send_timestamped_internal
 // file send.c line 163
-signed int lo_send_timestamped_internal(struct _lo_address *t, const char *file, const signed int line, struct anonymous$2 ts, const char *path, const char *types, ...)
+signed int lo_send_timestamped_internal(struct _lo_address *t, const char *file, const signed int line, struct anonymous_2 ts, const char *path, const char *types, ...)
 {
   void **ap = (void **)&types;
-  signed int return_value_lo_send_timestamped_varargs_internal$1;
-  return_value_lo_send_timestamped_varargs_internal$1=lo_send_timestamped_varargs_internal(t, file, line, ts, path, types, ap);
-  return return_value_lo_send_timestamped_varargs_internal$1;
+  signed int return_value_lo_send_timestamped_varargs_internal_1;
+  return_value_lo_send_timestamped_varargs_internal_1=lo_send_timestamped_varargs_internal(t, file, line, ts, path, types, ap);
+  return return_value_lo_send_timestamped_varargs_internal_1;
 }
 
 // lo_send_timestamped_varargs_internal
 // file send.c line 122
-static signed int lo_send_timestamped_varargs_internal(struct _lo_address *t, const char *file, const signed int line, struct anonymous$2 ts, const char *path, const char *types, void **ap)
+static signed int lo_send_timestamped_varargs_internal(struct _lo_address *t, const char *file, const signed int line, struct anonymous_2 ts, const char *path, const char *types, void **ap)
 {
   signed int ret;
   struct _lo_message *msg;
@@ -5468,7 +5468,7 @@ static signed int lo_send_varargs_internal(struct _lo_address *t, const char *fi
 
 // lo_server_add_bundle_handlers
 // file server.c line 2038
-signed int lo_server_add_bundle_handlers(struct _lo_server *s, signed int (*sh)(struct anonymous$2, void *), signed int (*eh)(void *), void *user_data)
+signed int lo_server_add_bundle_handlers(struct _lo_server *s, signed int (*sh)(struct anonymous_2, void *), signed int (*eh)(void *), void *user_data)
 {
   s->bundle_start_handler = sh;
   s->bundle_end_handler = eh;
@@ -5478,18 +5478,18 @@ signed int lo_server_add_bundle_handlers(struct _lo_server *s, signed int (*sh)(
 
 // lo_server_add_method
 // file server.c line 1951
-struct _lo_method * lo_server_add_method(struct _lo_server *s, const char *path, const char *typespec, signed int (*h)(const char *, const char *, union anonymous$0 **, signed int, struct _lo_message *, void *), void *user_data)
+struct _lo_method * lo_server_add_method(struct _lo_server *s, const char *path, const char *typespec, signed int (*h)(const char *, const char *, union anonymous_0 **, signed int, struct _lo_message *, void *), void *user_data)
 {
   struct _lo_method *m;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _lo_method) /*40ul*/ );
-  m = (struct _lo_method *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _lo_method) /*40ul*/ );
+  m = (struct _lo_method *)return_value_calloc_1;
   struct _lo_method *it;
-  char *return_value_strpbrk$2;
+  char *return_value_strpbrk_2;
   if(!(path == ((const char *)NULL)))
   {
-    return_value_strpbrk$2=strpbrk(path, " #*,?[]{}");
-    if(return_value_strpbrk$2 == ((char *)NULL))
+    return_value_strpbrk_2=strpbrk(path, " #*,?[]{}");
+    if(return_value_strpbrk_2 == ((char *)NULL))
       goto __CPROVER_DUMP_L2;
 
     if(!(m == ((struct _lo_method *)NULL)))
@@ -5559,9 +5559,9 @@ signed int lo_server_add_socket(struct _lo_server *s, signed int socket, struct 
   if(socket >= s->sources_len)
   {
     signed int L = socket * 2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)s->sources, sizeof(struct _lo_address) /*120ul*/  * (unsigned long int)L);
-    s->sources = (struct _lo_address *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)s->sources, sizeof(struct _lo_address) /*120ul*/  * (unsigned long int)L);
+    s->sources = (struct _lo_address *)return_value_realloc_1;
     memset((void *)(s->sources + (signed long int)s->sources_len), 0, sizeof(struct _lo_address) /*120ul*/  * (unsigned long int)(L - s->sources_len));
     s->sources_len = L;
   }
@@ -5622,25 +5622,25 @@ void lo_server_del_method(struct _lo_server *s, const char *path, const char *ty
   struct _lo_method *prev;
   struct _lo_method *next;
   signed int pattern = 0;
-  char *return_value_strpbrk$1;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcmp$7;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_lo_pattern_match$11;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
+  char *return_value_strpbrk_1;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcmp_7;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_lo_pattern_match_11;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
   if(!(s->first == ((struct _lo_method *)NULL)))
   {
     if(!(path == ((const char *)NULL)))
     {
-      return_value_strpbrk$1=strpbrk(path, " #*,?[]{}");
-      pattern = (signed int)(return_value_strpbrk$1 != (char *)(void *)0);
+      return_value_strpbrk_1=strpbrk(path, " #*,?[]{}");
+      pattern = (signed int)(return_value_strpbrk_1 != (char *)(void *)0);
     }
 
     it = s->first;
@@ -5649,68 +5649,68 @@ void lo_server_del_method(struct _lo_server *s, const char *path, const char *ty
     {
       next = it->next;
       if(it->path == path)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
         if(!(path == ((const char *)NULL)))
-          tmp_if_expr$6 = it->path != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = it->path != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
-          return_value_strcmp$7=strcmp(path, it->path);
-          tmp_if_expr$8 = !(return_value_strcmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_7=strcmp(path, it->path);
+          tmp_if_expr_8 = !(return_value_strcmp_7 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (_Bool)0;
+        tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$9)
-        tmp_if_expr$13 = (_Bool)1;
+      if(tmp_if_expr_9)
+        tmp_if_expr_13 = (_Bool)1;
 
       else
       {
         if(!(pattern == 0))
-          tmp_if_expr$10 = it->path != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = it->path != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
         {
-          return_value_lo_pattern_match$11=lo_pattern_match(it->path, path);
-          tmp_if_expr$12 = return_value_lo_pattern_match$11 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_lo_pattern_match_11=lo_pattern_match(it->path, path);
+          tmp_if_expr_12 = return_value_lo_pattern_match_11 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_12 = (_Bool)0;
+        tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13)
+      if(tmp_if_expr_13)
       {
         if(it->typespec == typespec)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
           if(!(typespec == ((const char *)NULL)))
-            tmp_if_expr$2 = it->typespec != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = it->typespec != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(tmp_if_expr_2)
           {
-            return_value_strcmp$3=strcmp(typespec, it->typespec);
-            tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_3=strcmp(typespec, it->typespec);
+            tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (_Bool)0;
+          tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
         {
           if(it == s->first)
             s->first = it->next;
@@ -5749,13 +5749,13 @@ void lo_server_del_socket(struct _lo_server *s, signed int index, signed int soc
 
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(index >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = index >= s->sockets_len ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = index >= s->sockets_len ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     lo_address_free_mem(&s->sources[(signed long int)(s->sockets + (signed long int)index)->fd]);
     cleanup_context(&s->contexts[(signed long int)index]);
@@ -5771,9 +5771,9 @@ void lo_server_del_socket(struct _lo_server *s, signed int index, signed int soc
 // file server.c line 1684
 signed int lo_server_dispatch_data(struct _lo_server *s, void *data, unsigned long int size)
 {
-  signed int return_value_dispatch_data$1;
-  return_value_dispatch_data$1=dispatch_data(s, data, size, -1);
-  return return_value_dispatch_data$1;
+  signed int return_value_dispatch_data_1;
+  return_value_dispatch_data_1=dispatch_data(s, data, size, -1);
+  return return_value_dispatch_data_1;
 }
 
 // lo_server_enable_coercion
@@ -5781,7 +5781,7 @@ signed int lo_server_dispatch_data(struct _lo_server *s, void *data, unsigned lo
 signed int lo_server_enable_coercion(struct _lo_server *s, signed int enable)
 {
   signed int r = (signed int)(((signed int)s->flags & LO_SERVER_COERCE) != 0);
-  s->flags = (enum anonymous$1)((signed int)s->flags & ~LO_SERVER_COERCE | (enable != 0 ? LO_SERVER_COERCE : 0));
+  s->flags = (enum anonymous_1)((signed int)s->flags & ~LO_SERVER_COERCE | (enable != 0 ? LO_SERVER_COERCE : 0));
   return r;
 }
 
@@ -5790,7 +5790,7 @@ signed int lo_server_enable_coercion(struct _lo_server *s, signed int enable)
 signed int lo_server_enable_queue(struct _lo_server *s, signed int enable, signed int dispatch_remaining)
 {
   signed int prev = (signed int)(((signed int)s->flags & LO_SERVER_ENQUEUE) != 0);
-  s->flags = (enum anonymous$1)((signed int)s->flags & ~LO_SERVER_ENQUEUE | (enable != 0 ? LO_SERVER_ENQUEUE : 0));
+  s->flags = (enum anonymous_1)((signed int)s->flags & ~LO_SERVER_ENQUEUE | (enable != 0 ? LO_SERVER_ENQUEUE : 0));
   if(enable == 0 && !(dispatch_remaining == 0))
   {
     if(!(s->queued == NULL))
@@ -5812,7 +5812,7 @@ signed int lo_server_events_pending(struct _lo_server *s)
 // file server.c line 707
 void lo_server_free(struct _lo_server *s)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(s == ((struct _lo_server *)NULL)))
   {
     struct _lo_method *it;
@@ -5822,11 +5822,11 @@ void lo_server_free(struct _lo_server *s)
       if(!((s->sockets + (signed long int)i)->fd == -1))
       {
         if(s->protocol == 0x1)
-          tmp_if_expr$1 = (s->sockets + (signed long int)i)->fd == lo_client_sockets.udp ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (s->sockets + (signed long int)i)->fd == lo_client_sockets.udp ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
           lo_client_sockets.udp = -1;
 
         else
@@ -5864,7 +5864,7 @@ void lo_server_free(struct _lo_server *s)
 
     while(!(s->queued == NULL))
     {
-      struct anonymous$3 *q = (struct anonymous$3 *)s->queued;
+      struct anonymous_3 *q = (struct anonymous_3 *)s->queued;
       free((void *)q->path);
       lo_message_free(q->msg);
       s->queued = q->next;
@@ -5959,27 +5959,27 @@ char * lo_server_get_url(struct _lo_server *s)
 {
   signed int ret = 0;
   char *buf;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(s == ((struct _lo_server *)NULL))
     return (char *)(void *)0;
 
   else
   {
     if(s->protocol == 0x1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = s->protocol == 0x4 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = s->protocol == 0x4 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       const char *proto = s->protocol == 0x1 ? "udp" : "tcp";
       ret=snprintf((char *)(void *)0, (unsigned long int)0, "osc.%s://%s:%d/", proto, s->hostname, s->port);
       if(!(ret >= 1))
         ret = 1023;
 
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)(ret + 2) * sizeof(char) /*1ul*/ );
-      buf = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)(ret + 2) * sizeof(char) /*1ul*/ );
+      buf = (char *)return_value_malloc_1;
       snprintf(buf, (unsigned long int)(ret + 1), "osc.%s://%s:%d/", proto, s->hostname, s->port);
       return buf;
     }
@@ -5991,9 +5991,9 @@ char * lo_server_get_url(struct _lo_server *s)
         if(!(ret >= 1))
           ret = 1023;
 
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((unsigned long int)(ret + 2) * sizeof(char) /*1ul*/ );
-        buf = (char *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((unsigned long int)(ret + 2) * sizeof(char) /*1ul*/ );
+        buf = (char *)return_value_malloc_2;
         snprintf(buf, (unsigned long int)(ret + 1), "osc.unix:///%s", s->path);
         return buf;
       }
@@ -6010,17 +6010,17 @@ static signed int lo_server_join_multicast_group(struct _lo_server *s, const cha
   memset((void *)&mreq, 0, sizeof(struct ip_mreq) /*8ul*/ );
   if(fam == 2)
   {
-    signed int return_value_inet_pton$3;
-    return_value_inet_pton$3=inet_pton(2, group, (void *)&mreq.imr_multiaddr);
-    if(return_value_inet_pton$3 == 0)
+    signed int return_value_inet_pton_3;
+    return_value_inet_pton_3=inet_pton(2, group, (void *)&mreq.imr_multiaddr);
+    if(return_value_inet_pton_3 == 0)
     {
       signed int err;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      err = *return_value___errno_location$1;
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(err);
-      lo_throw(s, err, return_value_strerror$2, "inet_aton()");
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      err = *return_value___errno_location_1;
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(err);
+      lo_throw(s, err, return_value_strerror_2, "inet_aton()");
       lo_server_free(s);
       return err != 0 ? err : 1;
     }
@@ -6029,29 +6029,29 @@ static signed int lo_server_join_multicast_group(struct _lo_server *s, const cha
 
   if(!(iface == ((const char *)NULL)) || !(ip == ((const char *)NULL)))
   {
-    signed int lo_server_join_multicast_group$$1$$2$$err;
-    lo_server_join_multicast_group$$1$$2$$err=lo_server_set_iface(s, fam, iface, ip);
-    if(!(lo_server_join_multicast_group$$1$$2$$err == 0))
-      return lo_server_join_multicast_group$$1$$2$$err;
+    signed int lo_server_join_multicast_group__1__2__err;
+    lo_server_join_multicast_group__1__2__err=lo_server_set_iface(s, fam, iface, ip);
+    if(!(lo_server_join_multicast_group__1__2__err == 0))
+      return lo_server_join_multicast_group__1__2__err;
 
     mreq.imr_interface = s->addr_if.a.addr;
   }
 
   else
     mreq.imr_interface.s_addr=htonl((unsigned int)0x00000000);
-  signed int return_value_setsockopt$6;
-  return_value_setsockopt$6=setsockopt((s->sockets + (signed long int)0)->fd, 0, 35, (const void *)(char *)&mreq, (unsigned int)sizeof(struct ip_mreq) /*8ul*/ );
-  if(!(return_value_setsockopt$6 >= 0))
+  signed int return_value_setsockopt_6;
+  return_value_setsockopt_6=setsockopt((s->sockets + (signed long int)0)->fd, 0, 35, (const void *)(char *)&mreq, (unsigned int)sizeof(struct ip_mreq) /*8ul*/ );
+  if(!(return_value_setsockopt_6 >= 0))
   {
-    signed int lo_server_join_multicast_group$$1$$3$$err;
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    lo_server_join_multicast_group$$1$$3$$err = *return_value___errno_location$4;
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(lo_server_join_multicast_group$$1$$3$$err);
-    lo_throw(s, lo_server_join_multicast_group$$1$$3$$err, return_value_strerror$5, "setsockopt(IP_ADD_MEMBERSHIP)");
+    signed int lo_server_join_multicast_group__1__3__err;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    lo_server_join_multicast_group__1__3__err = *return_value___errno_location_4;
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(lo_server_join_multicast_group__1__3__err);
+    lo_throw(s, lo_server_join_multicast_group__1__3__err, return_value_strerror_5, "setsockopt(IP_ADD_MEMBERSHIP)");
     lo_server_free(s);
-    return lo_server_join_multicast_group$$1$$3$$err != 0 ? lo_server_join_multicast_group$$1$$3$$err : 1;
+    return lo_server_join_multicast_group__1__3__err != 0 ? lo_server_join_multicast_group__1__3__err : 1;
   }
 
   return 0;
@@ -6061,9 +6061,9 @@ static signed int lo_server_join_multicast_group(struct _lo_server *s, const cha
 // file server.c line 221
 struct _lo_server * lo_server_new(const char *port, void (*err_h)(signed int, const char *, const char *))
 {
-  struct _lo_server *return_value_lo_server_new_with_proto$1;
-  return_value_lo_server_new_with_proto$1=lo_server_new_with_proto(port, 0x0, err_h);
-  return return_value_lo_server_new_with_proto$1;
+  struct _lo_server *return_value_lo_server_new_with_proto_1;
+  return_value_lo_server_new_with_proto_1=lo_server_new_with_proto(port, 0x0, err_h);
+  return return_value_lo_server_new_with_proto_1;
 }
 
 // lo_server_new_from_url
@@ -6075,13 +6075,13 @@ struct _lo_server * lo_server_new_from_url(const char *url, void (*err_h)(signed
   char *group;
   char *port;
   char *proto;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(url == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*url != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*url != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (struct _lo_server *)(void *)0;
 
   else
@@ -6127,27 +6127,27 @@ struct _lo_server * lo_server_new_from_url(const char *url, void (*err_h)(signed
 // file server.c line 226
 struct _lo_server * lo_server_new_multicast(const char *group, const char *port, void (*err_h)(signed int, const char *, const char *))
 {
-  struct _lo_server *return_value_lo_server_new_with_proto_internal$1;
-  return_value_lo_server_new_with_proto_internal$1=lo_server_new_with_proto_internal(group, port, ((const char *)NULL), ((const char *)NULL), 0x1, err_h);
-  return return_value_lo_server_new_with_proto_internal$1;
+  struct _lo_server *return_value_lo_server_new_with_proto_internal_1;
+  return_value_lo_server_new_with_proto_internal_1=lo_server_new_with_proto_internal(group, port, ((const char *)NULL), ((const char *)NULL), 0x1, err_h);
+  return return_value_lo_server_new_with_proto_internal_1;
 }
 
 // lo_server_new_multicast_iface
 // file server.c line 233
 struct _lo_server * lo_server_new_multicast_iface(const char *group, const char *port, const char *iface, const char *ip, void (*err_h)(signed int, const char *, const char *))
 {
-  struct _lo_server *return_value_lo_server_new_with_proto_internal$1;
-  return_value_lo_server_new_with_proto_internal$1=lo_server_new_with_proto_internal(group, port, iface, ip, 0x1, err_h);
-  return return_value_lo_server_new_with_proto_internal$1;
+  struct _lo_server *return_value_lo_server_new_with_proto_internal_1;
+  return_value_lo_server_new_with_proto_internal_1=lo_server_new_with_proto_internal(group, port, iface, ip, 0x1, err_h);
+  return return_value_lo_server_new_with_proto_internal_1;
 }
 
 // lo_server_new_with_proto
 // file server.c line 241
 struct _lo_server * lo_server_new_with_proto(const char *port, signed int proto, void (*err_h)(signed int, const char *, const char *))
 {
-  struct _lo_server *return_value_lo_server_new_with_proto_internal$1;
-  return_value_lo_server_new_with_proto_internal$1=lo_server_new_with_proto_internal((const char *)(void *)0, port, ((const char *)NULL), ((const char *)NULL), proto, err_h);
-  return return_value_lo_server_new_with_proto_internal$1;
+  struct _lo_server *return_value_lo_server_new_with_proto_internal_1;
+  return_value_lo_server_new_with_proto_internal_1=lo_server_new_with_proto_internal((const char *)(void *)0, port, ((const char *)NULL), ((const char *)NULL), proto, err_h);
+  return return_value_lo_server_new_with_proto_internal_1;
 }
 
 // lo_server_new_with_proto_internal
@@ -6164,31 +6164,31 @@ static struct _lo_server * lo_server_new_with_proto_internal(const char *group, 
   const char *service;
   char hostname[1024l];
   signed int err = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(proto == 0x0)
   {
     if(!(port == ((const char *)NULL)))
-      tmp_if_expr$1 = (signed int)*port == 47 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*port == 47 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       proto = 0x2;
 
     else
       proto = 0x1;
   }
 
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct _lo_server) /*304ul*/ );
-  s = (struct _lo_server *)return_value_calloc$2;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$18;
-  signed int return_value_lo_server_join_multicast_group$22;
-  signed int return_value_bind$25;
-  _Bool tmp_if_expr$14;
-  signed int tmp_post$13;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct _lo_server) /*304ul*/ );
+  s = (struct _lo_server *)return_value_calloc_2;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_18;
+  signed int return_value_lo_server_join_multicast_group_22;
+  signed int return_value_bind_25;
+  _Bool tmp_if_expr_14;
+  signed int tmp_post_13;
   if(s == ((struct _lo_server *)NULL))
     return ((struct _lo_server *)NULL);
 
@@ -6199,38 +6199,38 @@ static struct _lo_server * lo_server_new_with_proto_internal(const char *group, 
     s->ai = (struct addrinfo *)(void *)0;
     s->hostname = (char *)(void *)0;
     s->protocol = proto;
-    s->flags = (enum anonymous$1)(LO_SERVER_COERCE | LO_SERVER_ENQUEUE);
+    s->flags = (enum anonymous_1)(LO_SERVER_COERCE | LO_SERVER_ENQUEUE);
     s->port = 0;
     s->path = (char *)(void *)0;
     s->queued = (void *)0;
     s->sockets_len = 1;
     s->sockets_alloc = 2;
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)2, sizeof(struct pollfd) /*8ul*/ );
-    s->sockets = (struct pollfd *)return_value_calloc$3;
-    void *return_value_calloc$4;
-    return_value_calloc$4=calloc((unsigned long int)2, sizeof(struct socket_context) /*32ul*/ );
-    s->contexts = (struct socket_context *)return_value_calloc$4;
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc((unsigned long int)2, sizeof(struct _lo_address) /*120ul*/ );
-    s->sources = (struct _lo_address *)return_value_calloc$5;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)2, sizeof(struct pollfd) /*8ul*/ );
+    s->sockets = (struct pollfd *)return_value_calloc_3;
+    void *return_value_calloc_4;
+    return_value_calloc_4=calloc((unsigned long int)2, sizeof(struct socket_context) /*32ul*/ );
+    s->contexts = (struct socket_context *)return_value_calloc_4;
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc((unsigned long int)2, sizeof(struct _lo_address) /*120ul*/ );
+    s->sources = (struct _lo_address *)return_value_calloc_5;
     s->sources_len = 2;
-    s->bundle_start_handler = (signed int (*)(struct anonymous$2, void *))(void *)0;
+    s->bundle_start_handler = (signed int (*)(struct anonymous_2, void *))(void *)0;
     s->bundle_end_handler = (signed int (*)(void *))(void *)0;
     s->bundle_handler_user_data = (void *)0;
     s->addr_if.iface = ((char *)NULL);
     s->addr_if.size = (unsigned long int)0;
     if(!(s->sockets == ((struct pollfd *)NULL)))
-      tmp_if_expr$6 = s->contexts != ((struct socket_context *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = s->contexts != ((struct socket_context *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = s->sources != ((struct _lo_address *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = s->sources != ((struct _lo_address *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(!tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(!tmp_if_expr_7)
     {
       free((void *)s->sockets);
       free((void *)s->contexts);
@@ -6257,29 +6257,29 @@ static struct _lo_server * lo_server_new_with_proto_internal(const char *group, 
             (s->sockets + (signed long int)0)->fd=socket(1, 2, 0);
             if(s->sockets->fd == -1)
             {
-              signed int *return_value___errno_location$8;
-              return_value___errno_location$8=__errno_location();
-              err = *return_value___errno_location$8;
+              signed int *return_value___errno_location_8;
+              return_value___errno_location_8=__errno_location();
+              err = *return_value___errno_location_8;
               used = (struct addrinfo *)(void *)0;
-              char *return_value_strerror$9;
-              return_value_strerror$9=strerror(err);
-              lo_throw(s, err, return_value_strerror$9, "socket()");
+              char *return_value_strerror_9;
+              return_value_strerror_9=strerror(err);
+              lo_throw(s, err, return_value_strerror_9, "socket()");
               lo_server_free(s);
               return (struct _lo_server *)(void *)0;
             }
 
             sa.sun_family = (unsigned short int)1;
             strncpy(sa.sun_path, port, sizeof(char [108l]) /*108ul*/  - (unsigned long int)1);
-            signed int return_value_bind$12;
-            return_value_bind$12=bind((s->sockets + (signed long int)0)->fd, (struct sockaddr *)&sa, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-            if(!(return_value_bind$12 >= 0))
+            signed int return_value_bind_12;
+            return_value_bind_12=bind((s->sockets + (signed long int)0)->fd, (struct sockaddr *)&sa, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+            if(!(return_value_bind_12 >= 0))
             {
-              signed int *return_value___errno_location$10;
-              return_value___errno_location$10=__errno_location();
-              err = *return_value___errno_location$10;
-              char *return_value_strerror$11;
-              return_value_strerror$11=strerror(err);
-              lo_throw(s, err, return_value_strerror$11, "bind()");
+              signed int *return_value___errno_location_10;
+              return_value___errno_location_10=__errno_location();
+              err = *return_value___errno_location_10;
+              char *return_value_strerror_11;
+              return_value_strerror_11=strerror(err);
+              lo_throw(s, err, return_value_strerror_11, "bind()");
               lo_server_free(s);
               return (struct _lo_server *)(void *)0;
             }
@@ -6306,11 +6306,11 @@ static struct _lo_server * lo_server_new_with_proto_internal(const char *group, 
         signed int ret;
         if(port == ((const char *)NULL))
         {
-          signed int return_value_rand$15;
-          return_value_rand$15=rand();
-          signed long int return_value_time$16;
-          return_value_time$16=time((signed long int *)(void *)0);
-          snprintf(pnum, (unsigned long int)15, "%ld", (signed long int)10000 + ((signed long int)(unsigned int)return_value_rand$15 + (signed long int)return_value_time$16) % (signed long int)10000);
+          signed int return_value_rand_15;
+          return_value_rand_15=rand();
+          signed long int return_value_time_16;
+          return_value_time_16=time((signed long int *)(void *)0);
+          snprintf(pnum, (unsigned long int)15, "%ld", (signed long int)10000 + ((signed long int)(unsigned int)return_value_rand_15 + (signed long int)return_value_time_16) % (signed long int)10000);
         }
 
         if(!(ai == ((struct addrinfo *)NULL)))
@@ -6322,9 +6322,9 @@ static struct _lo_server * lo_server_new_with_proto_internal(const char *group, 
         s->port = 0;
         if(!(ret == 0))
         {
-          const char *return_value_gai_strerror$17;
-          return_value_gai_strerror$17=gai_strerror(ret);
-          lo_throw(s, ret, return_value_gai_strerror$17, (const char *)(void *)0);
+          const char *return_value_gai_strerror_17;
+          return_value_gai_strerror_17=gai_strerror(ret);
+          lo_throw(s, ret, return_value_gai_strerror_17, (const char *)(void *)0);
           lo_server_free(s);
           return (struct _lo_server *)(void *)0;
         }
@@ -6334,11 +6334,11 @@ static struct _lo_server * lo_server_new_with_proto_internal(const char *group, 
         do
         {
           if(!(it == ((struct addrinfo *)NULL)))
-            tmp_if_expr$18 = (s->sockets + (signed long int)0)->fd == -1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_18 = (s->sockets + (signed long int)0)->fd == -1 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$18 = (_Bool)0;
-          if(!tmp_if_expr$18)
+            tmp_if_expr_18 = (_Bool)0;
+          if(!tmp_if_expr_18)
             break;
 
           used = it;
@@ -6362,13 +6362,13 @@ static struct _lo_server * lo_server_new_with_proto_internal(const char *group, 
         while((_Bool)1);
         if(s->sockets->fd == -1)
         {
-          signed int *return_value___errno_location$19;
-          return_value___errno_location$19=__errno_location();
-          err = *return_value___errno_location$19;
+          signed int *return_value___errno_location_19;
+          return_value___errno_location_19=__errno_location();
+          err = *return_value___errno_location_19;
           used = (struct addrinfo *)(void *)0;
-          char *return_value_strerror$20;
-          return_value_strerror$20=strerror(err);
-          lo_throw(s, err, return_value_strerror$20, "socket()");
+          char *return_value_strerror_20;
+          return_value_strerror_20=strerror(err);
+          lo_throw(s, err, return_value_strerror_20, "socket()");
           lo_server_free(s);
           return (struct _lo_server *)(void *)0;
         }
@@ -6386,38 +6386,38 @@ static struct _lo_server * lo_server_new_with_proto_internal(const char *group, 
 
         if(!(group == ((const char *)NULL)) && !(reuseport_supported == 0))
         {
-          signed int return_value_lo_server_setsock_reuseport$21;
-          return_value_lo_server_setsock_reuseport$21=lo_server_setsock_reuseport(s, 0);
-          if(!(return_value_lo_server_setsock_reuseport$21 == 0))
+          signed int return_value_lo_server_setsock_reuseport_21;
+          return_value_lo_server_setsock_reuseport_21=lo_server_setsock_reuseport(s, 0);
+          if(!(return_value_lo_server_setsock_reuseport_21 == 0))
             reuseport_supported = 0;
 
         }
 
         if(!(group == ((const char *)NULL)))
         {
-          return_value_lo_server_join_multicast_group$22=lo_server_join_multicast_group(s, group, used->ai_family, iface, ip);
-          if(!(return_value_lo_server_join_multicast_group$22 == 0))
+          return_value_lo_server_join_multicast_group_22=lo_server_join_multicast_group(s, group, used->ai_family, iface, ip);
+          if(!(return_value_lo_server_join_multicast_group_22 == 0))
             return (struct _lo_server *)(void *)0;
 
         }
 
         if(!(used == ((struct addrinfo *)NULL)))
         {
-          return_value_bind$25=bind((s->sockets + (signed long int)0)->fd, used->ai_addr, used->ai_addrlen);
-          if(!(return_value_bind$25 >= 0))
+          return_value_bind_25=bind((s->sockets + (signed long int)0)->fd, used->ai_addr, used->ai_addrlen);
+          if(!(return_value_bind_25 >= 0))
           {
-            signed int *return_value___errno_location$23;
-            return_value___errno_location$23=__errno_location();
-            err = *return_value___errno_location$23;
+            signed int *return_value___errno_location_23;
+            return_value___errno_location_23=__errno_location();
+            err = *return_value___errno_location_23;
             if(err == 22 || err == 98)
             {
               used = (struct addrinfo *)(void *)0;
               goto __CPROVER_DUMP_L34;
             }
 
-            char *return_value_strerror$24;
-            return_value_strerror$24=strerror(err);
-            lo_throw(s, err, return_value_strerror$24, "bind()");
+            char *return_value_strerror_24;
+            return_value_strerror_24=strerror(err);
+            lo_throw(s, err, return_value_strerror_24, "bind()");
             lo_server_free(s);
             return (struct _lo_server *)(void *)0;
           }
@@ -6429,15 +6429,15 @@ static struct _lo_server * lo_server_new_with_proto_internal(const char *group, 
         ;
         if(used == ((struct addrinfo *)NULL))
         {
-          tmp_post$13 = tries;
+          tmp_post_13 = tries;
           tries = tries + 1;
-          tmp_if_expr$14 = tmp_post$13 < 16 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_14 = tmp_post_13 < 16 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$14 = (_Bool)0;
+          tmp_if_expr_14 = (_Bool)0;
       }
-      while(tmp_if_expr$14);
+      while(tmp_if_expr_14);
       if(used == ((struct addrinfo *)NULL))
       {
         lo_throw(s, 9904, "cannot find free port", (const char *)(void *)0);
@@ -6475,18 +6475,18 @@ static struct _lo_server * lo_server_new_with_proto_internal(const char *group, 
         if(used->ai_family == 10)
         {
           struct sockaddr_in6 *addr = (struct sockaddr_in6 *)used->ai_addr;
-          unsigned short int return_value_htons$26;
-          return_value_htons$26=htons(addr->sin6_port);
-          s->port = (signed int)return_value_htons$26;
+          unsigned short int return_value_htons_26;
+          return_value_htons_26=htons(addr->sin6_port);
+          s->port = (signed int)return_value_htons_26;
         }
 
         else
           if(used->ai_family == 2)
           {
-            struct sockaddr_in *lo_server_new_with_proto_internal$$1$$17$$addr = (struct sockaddr_in *)used->ai_addr;
-            unsigned short int return_value_htons$27;
-            return_value_htons$27=htons(lo_server_new_with_proto_internal$$1$$17$$addr->sin_port);
-            s->port = (signed int)return_value_htons$27;
+            struct sockaddr_in *lo_server_new_with_proto_internal__1__17__addr = (struct sockaddr_in *)used->ai_addr;
+            unsigned short int return_value_htons_27;
+            return_value_htons_27=htons(lo_server_new_with_proto_internal__1__17__addr->sin_port);
+            s->port = (signed int)return_value_htons_27;
           }
 
           else
@@ -6506,10 +6506,10 @@ double lo_server_next_event_delay(struct _lo_server *s)
 {
   if(!(s->queued == NULL))
   {
-    struct anonymous$2 now;
+    struct anonymous_2 now;
     double delay;
     lo_timetag_now(&now);
-    delay=lo_timetag_diff(((struct anonymous$3 *)s->queued)->ts, now);
+    delay=lo_timetag_diff(((struct anonymous_3 *)s->queued)->ts, now);
     delay = delay > 100.0 ? 100.0 : delay;
     delay = delay < 0.0 ? 0.0 : delay;
     return delay;
@@ -6546,7 +6546,7 @@ signed int lo_server_recv(struct _lo_server *s)
 
 again:
   ;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while((_Bool)1)
   {
     if(!(sched_time > 0.01))
@@ -6577,11 +6577,11 @@ again:
     for( ; !(i >= s->sockets_len); i = i + 1)
     {
       if((signed int)(s->sockets + (signed long int)i)->revents == 0x008)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)(s->sockets + (signed long int)i)->revents == 0x010 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)(s->sockets + (signed long int)i)->revents == 0x010 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         return 0;
 
       if(!((s->sockets + (signed long int)i)->revents == 0))
@@ -6596,9 +6596,9 @@ again:
       break;
 
   }
-  signed int return_value_dispatch_queued$2;
-  return_value_dispatch_queued$2=dispatch_queued(s, 0);
-  return return_value_dispatch_queued$2;
+  signed int return_value_dispatch_queued_2;
+  return_value_dispatch_queued_2=dispatch_queued(s, 0);
+  return return_value_dispatch_queued_2;
 
 __CPROVER_DUMP_L11:
   ;
@@ -6606,9 +6606,9 @@ __CPROVER_DUMP_L11:
 
 __CPROVER_DUMP_L12:
   ;
-  signed int return_value_dispatch_queued$3;
-  return_value_dispatch_queued$3=dispatch_queued(s, 0);
-  return return_value_dispatch_queued$3;
+  signed int return_value_dispatch_queued_3;
+  return_value_dispatch_queued_3=dispatch_queued(s, 0);
+  return return_value_dispatch_queued_3;
 
 __CPROVER_DUMP_L13:
   ;
@@ -6625,9 +6625,9 @@ __CPROVER_DUMP_L13:
 
   got_data:
     ;
-    signed int return_value_dispatch_data$4;
-    return_value_dispatch_data$4=dispatch_data(s, data, size, sock);
-    if(!(return_value_dispatch_data$4 >= 0))
+    signed int return_value_dispatch_data_4;
+    return_value_dispatch_data_4=dispatch_data(s, data, size, sock);
+    if(!(return_value_dispatch_data_4 >= 0))
     {
       free(data);
       return -1;
@@ -6649,9 +6649,9 @@ signed int lo_server_recv_noblock(struct _lo_server *s, signed int timeout)
   result=lo_server_wait(s, timeout);
   if(result >= 1)
   {
-    signed int return_value_lo_server_recv$1;
-    return_value_lo_server_recv$1=lo_server_recv(s);
-    return return_value_lo_server_recv$1;
+    signed int return_value_lo_server_recv_1;
+    return_value_lo_server_recv_1=lo_server_recv(s);
+    return return_value_lo_server_recv_1;
   }
 
   else
@@ -6666,9 +6666,9 @@ void * lo_server_recv_raw(struct _lo_server *s, unsigned long int *size)
   signed int ret;
   void *data = (void *)0;
   s->addr_len = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
-  signed long int return_value_recvfrom$1;
-  return_value_recvfrom$1=recvfrom((s->sockets + (signed long int)0)->fd, (void *)buffer, (unsigned long int)32768, 0, (struct sockaddr *)&s->addr, &s->addr_len);
-  ret = (signed int)return_value_recvfrom$1;
+  signed long int return_value_recvfrom_1;
+  return_value_recvfrom_1=recvfrom((s->sockets + (signed long int)0)->fd, (void *)buffer, (unsigned long int)32768, 0, (struct sockaddr *)&s->addr, &s->addr_len);
+  ret = (signed int)return_value_recvfrom_1;
   if(!(ret >= 1))
     return (void *)0;
 
@@ -6694,7 +6694,7 @@ static void * lo_server_recv_raw_stream(struct _lo_server *s, unsigned long int 
   signed int sock = -1;
   /* assertion psock != ((void *)0) */
   assert(psock != (signed int *)(void *)0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
 
@@ -6722,11 +6722,11 @@ static void * lo_server_recv_raw_stream(struct _lo_server *s, unsigned long int 
       goto __CPROVER_DUMP_L15;
 
     if((signed int)(s->sockets + (signed long int)i)->revents == 0x008)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)(s->sockets + (signed long int)i)->revents == 0x010 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)(s->sockets + (signed long int)i)->revents == 0x010 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(i >= 1)
       {
@@ -6762,8 +6762,8 @@ static void * lo_server_recv_raw_stream(struct _lo_server *s, unsigned long int 
 
   else
   {
-    signed int return_value_lo_server_recv_raw_stream_socket$2;
-    return_value_lo_server_recv_raw_stream_socket$2=lo_server_recv_raw_stream_socket(s, i, size, &data);
+    signed int return_value_lo_server_recv_raw_stream_socket_2;
+    return_value_lo_server_recv_raw_stream_socket_2=lo_server_recv_raw_stream_socket(s, i, size, &data);
     if(!(data == NULL))
       *psock = (s->sockets + (signed long int)i)->fd;
 
@@ -6791,10 +6791,10 @@ static signed int lo_server_recv_raw_stream_socket(struct _lo_server *s, signed 
   signed int buffer_bytes_left;
   signed int size;
   signed int bytes_recv;
-  unsigned long int lo_server_recv_raw_stream_socket$$1$$bytes_wrote;
+  unsigned long int lo_server_recv_raw_stream_socket__1__bytes_wrote;
   *pdata = NULL;
-  signed long int return_value_recv$3;
-  signed int return_value_slip_decode$6;
+  signed long int return_value_recv_3;
+  signed int return_value_slip_decode_6;
   do
   {
 
@@ -6819,9 +6819,9 @@ static signed int lo_server_recv_raw_stream_socket(struct _lo_server *s, signed 
     if(!(sc->buffer_size >= (unsigned long int)size))
     {
       sc->buffer_size = (unsigned long int)size;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)sc->buffer, sc->buffer_size);
-      sc->buffer = (char *)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)sc->buffer, sc->buffer_size);
+      sc->buffer = (char *)return_value_realloc_1;
       if(sc->buffer == ((char *)NULL))
         return 0;
 
@@ -6831,19 +6831,19 @@ static signed int lo_server_recv_raw_stream_socket(struct _lo_server *s, signed 
     read_into = sc->buffer + (signed long int)sc->buffer_read_offset;
     if(sc->is_slip == 1)
     {
-      void *return_value___builtin_alloca$2;
-      return_value___builtin_alloca$2=__builtin_alloca((unsigned long int)buffer_bytes_left - sizeof(unsigned int) /*4ul*/ );
-      stack_buffer = (char *)return_value___builtin_alloca$2;
+      void *return_value___builtin_alloca_2;
+      return_value___builtin_alloca_2=__builtin_alloca((unsigned long int)buffer_bytes_left - sizeof(unsigned int) /*4ul*/ );
+      stack_buffer = (char *)return_value___builtin_alloca_2;
       read_into = stack_buffer;
     }
 
-    return_value_recv$3=recv((s->sockets + (signed long int)isock)->fd, (void *)read_into, (unsigned long int)buffer_bytes_left, 0);
-    bytes_recv = (signed int)return_value_recv$3;
+    return_value_recv_3=recv((s->sockets + (signed long int)isock)->fd, (void *)read_into, (unsigned long int)buffer_bytes_left, 0);
+    bytes_recv = (signed int)return_value_recv_3;
     if(!(bytes_recv >= 1))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(*return_value___errno_location$4 == 11)
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(*return_value___errno_location_4 == 11)
         return 0;
 
       close((s->sockets + (signed long int)isock)->fd);
@@ -6859,9 +6859,9 @@ static signed int lo_server_recv_raw_stream_socket(struct _lo_server *s, signed 
         sc->slip_state = 0;
         if(!(sc->is_slip == 0))
         {
-          void *return_value___builtin_alloca$5;
-          return_value___builtin_alloca$5=__builtin_alloca((unsigned long int)bytes_recv);
-          stack_buffer = (char *)return_value___builtin_alloca$5;
+          void *return_value___builtin_alloca_5;
+          return_value___builtin_alloca_5=__builtin_alloca((unsigned long int)bytes_recv);
+          stack_buffer = (char *)return_value___builtin_alloca_5;
           memcpy((void *)stack_buffer, (const void *)read_into, (unsigned long int)bytes_recv);
           *((unsigned int *)(sc->buffer + (signed long int)sc->buffer_read_offset)) = (unsigned int)0;
           sc->buffer_read_offset = sc->buffer_read_offset + (unsigned int)sizeof(unsigned int) /*4ul*/ ;
@@ -6877,8 +6877,8 @@ static signed int lo_server_recv_raw_stream_socket(struct _lo_server *s, signed 
       char *buffer_after = sc->buffer + (signed long int)sc->buffer_read_offset;
       do
       {
-        return_value_slip_decode$6=slip_decode((unsigned char **)&buffer_after, (unsigned char *)stack_buffer, (unsigned long int)bytes_recv, &sc->slip_state, &bytes_read);
-        if(!(return_value_slip_decode$6 == 0))
+        return_value_slip_decode_6=slip_decode((unsigned char **)&buffer_after, (unsigned char *)stack_buffer, (unsigned long int)bytes_recv, &sc->slip_state, &bytes_read);
+        if(!(return_value_slip_decode_6 == 0))
           break;
 
         unsigned long int bytes_wrote = (unsigned long int)((buffer_after - sc->buffer) - (signed long int)sc->buffer_read_offset);
@@ -6894,15 +6894,15 @@ static signed int lo_server_recv_raw_stream_socket(struct _lo_server *s, signed 
         if(!(sc->buffer_size + -((unsigned long int)sc->buffer_read_offset) >= sizeof(unsigned int) /*4ul*/  + (unsigned long int)bytes_recv))
         {
           sc->buffer_size = sc->buffer_size * (unsigned long int)2;
-          void *return_value_realloc$7;
-          return_value_realloc$7=realloc((void *)sc->buffer, sc->buffer_size);
-          sc->buffer = (char *)return_value_realloc$7;
+          void *return_value_realloc_7;
+          return_value_realloc_7=realloc((void *)sc->buffer, sc->buffer_size);
+          sc->buffer = (char *)return_value_realloc_7;
         }
 
       }
       while((_Bool)1);
-      lo_server_recv_raw_stream_socket$$1$$bytes_wrote = (unsigned long int)((buffer_after - sc->buffer) - (signed long int)sc->buffer_read_offset);
-      sc->buffer_read_offset = sc->buffer_read_offset + (unsigned int)lo_server_recv_raw_stream_socket$$1$$bytes_wrote;
+      lo_server_recv_raw_stream_socket__1__bytes_wrote = (unsigned long int)((buffer_after - sc->buffer) - (signed long int)sc->buffer_read_offset);
+      sc->buffer_read_offset = sc->buffer_read_offset + (unsigned int)lo_server_recv_raw_stream_socket__1__bytes_wrote;
     }
 
     else
@@ -6936,16 +6936,16 @@ static signed int lo_server_set_iface(struct _lo_server *s, signed int fam, cons
   {
     if(s->addr_if.size == sizeof(struct in_addr) /*4ul*/ )
     {
-      signed int return_value_setsockopt$3;
-      return_value_setsockopt$3=setsockopt((s->sockets + (signed long int)0)->fd, 0, 32, (const void *)(const char *)&s->addr_if.a.addr, (unsigned int)s->addr_if.size);
-      if(!(return_value_setsockopt$3 >= 0))
+      signed int return_value_setsockopt_3;
+      return_value_setsockopt_3=setsockopt((s->sockets + (signed long int)0)->fd, 0, 32, (const void *)(const char *)&s->addr_if.a.addr, (unsigned int)s->addr_if.size);
+      if(!(return_value_setsockopt_3 >= 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        err = *return_value___errno_location$1;
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(err);
-        lo_throw(s, err, return_value_strerror$2, "setsockopt(IP_MULTICAST_IF)");
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        err = *return_value___errno_location_1;
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(err);
+        lo_throw(s, err, return_value_strerror_2, "setsockopt(IP_MULTICAST_IF)");
         lo_server_free(s);
         return err;
       }
@@ -6961,19 +6961,19 @@ static signed int lo_server_set_iface(struct _lo_server *s, signed int fam, cons
 static signed int lo_server_setsock_reuseaddr(struct _lo_server *s, signed int do_throw)
 {
   unsigned int yes = (unsigned int)1;
-  signed int return_value_setsockopt$3;
-  return_value_setsockopt$3=setsockopt((s->sockets + (signed long int)0)->fd, 1, 2, (const void *)(char *)&yes, (unsigned int)sizeof(unsigned int) /*4ul*/ );
-  char *return_value_strerror$2;
-  if(!(return_value_setsockopt$3 >= 0))
+  signed int return_value_setsockopt_3;
+  return_value_setsockopt_3=setsockopt((s->sockets + (signed long int)0)->fd, 1, 2, (const void *)(char *)&yes, (unsigned int)sizeof(unsigned int) /*4ul*/ );
+  char *return_value_strerror_2;
+  if(!(return_value_setsockopt_3 >= 0))
   {
     signed int err;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    err = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    err = *return_value___errno_location_1;
     if(!(do_throw == 0))
     {
-      return_value_strerror$2=strerror(err);
-      lo_throw(s, err, return_value_strerror$2, "setsockopt(SO_REUSEADDR)");
+      return_value_strerror_2=strerror(err);
+      lo_throw(s, err, return_value_strerror_2, "setsockopt(SO_REUSEADDR)");
     }
 
     return err;
@@ -6987,19 +6987,19 @@ static signed int lo_server_setsock_reuseaddr(struct _lo_server *s, signed int d
 static signed int lo_server_setsock_reuseport(struct _lo_server *s, signed int do_throw)
 {
   unsigned int yes = (unsigned int)1;
-  signed int return_value_setsockopt$3;
-  return_value_setsockopt$3=setsockopt((s->sockets + (signed long int)0)->fd, 1, 15, (const void *)&yes, (unsigned int)sizeof(unsigned int) /*4ul*/ );
-  char *return_value_strerror$2;
-  if(!(return_value_setsockopt$3 >= 0))
+  signed int return_value_setsockopt_3;
+  return_value_setsockopt_3=setsockopt((s->sockets + (signed long int)0)->fd, 1, 15, (const void *)&yes, (unsigned int)sizeof(unsigned int) /*4ul*/ );
+  char *return_value_strerror_2;
+  if(!(return_value_setsockopt_3 >= 0))
   {
     signed int err;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    err = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    err = *return_value___errno_location_1;
     if(!(do_throw == 0))
     {
-      return_value_strerror$2=strerror(err);
-      lo_throw(s, err, return_value_strerror$2, "setsockopt(SO_REUSEPORT)");
+      return_value_strerror_2=strerror(err);
+      lo_throw(s, err, return_value_strerror_2, "setsockopt(SO_REUSEPORT)");
     }
 
     return err;
@@ -7017,11 +7017,11 @@ signed int lo_server_should_coerce_args(struct _lo_server *s)
 
 // lo_server_thread_add_method
 // file server_thread.c line 116
-struct _lo_method * lo_server_thread_add_method(struct _lo_server_thread *st, const char *path, const char *typespec, signed int (*h)(const char *, const char *, union anonymous$0 **, signed int, struct _lo_message *, void *), void *user_data)
+struct _lo_method * lo_server_thread_add_method(struct _lo_server_thread *st, const char *path, const char *typespec, signed int (*h)(const char *, const char *, union anonymous_0 **, signed int, struct _lo_message *, void *), void *user_data)
 {
-  struct _lo_method *return_value_lo_server_add_method$1;
-  return_value_lo_server_add_method$1=lo_server_add_method(st->s, path, typespec, h, user_data);
-  return return_value_lo_server_add_method$1;
+  struct _lo_method *return_value_lo_server_add_method_1;
+  return_value_lo_server_add_method_1=lo_server_add_method(st->s, path, typespec, h, user_data);
+  return return_value_lo_server_add_method_1;
 }
 
 // lo_server_thread_del_method
@@ -7035,9 +7035,9 @@ void lo_server_thread_del_method(struct _lo_server_thread *st, const char *path,
 // file server_thread.c line 188
 signed int lo_server_thread_events_pending(struct _lo_server_thread *st)
 {
-  signed int return_value_lo_server_events_pending$1;
-  return_value_lo_server_events_pending$1=lo_server_events_pending(st->s);
-  return return_value_lo_server_events_pending$1;
+  signed int return_value_lo_server_events_pending_1;
+  return_value_lo_server_events_pending_1=lo_server_events_pending(st->s);
+  return return_value_lo_server_events_pending_1;
 }
 
 // lo_server_thread_free
@@ -7059,9 +7059,9 @@ void lo_server_thread_free(struct _lo_server_thread *st)
 // file server_thread.c line 173
 signed int lo_server_thread_get_port(struct _lo_server_thread *st)
 {
-  signed int return_value_lo_server_get_port$1;
-  return_value_lo_server_get_port$1=lo_server_get_port(st->s);
-  return return_value_lo_server_get_port$1;
+  signed int return_value_lo_server_get_port_1;
+  return_value_lo_server_get_port_1=lo_server_get_port(st->s);
+  return return_value_lo_server_get_port_1;
 }
 
 // lo_server_thread_get_server
@@ -7075,18 +7075,18 @@ struct _lo_server * lo_server_thread_get_server(struct _lo_server_thread *st)
 // file server_thread.c line 178
 char * lo_server_thread_get_url(struct _lo_server_thread *st)
 {
-  char *return_value_lo_server_get_url$1;
-  return_value_lo_server_get_url$1=lo_server_get_url(st->s);
-  return return_value_lo_server_get_url$1;
+  char *return_value_lo_server_get_url_1;
+  return_value_lo_server_get_url_1=lo_server_get_url(st->s);
+  return return_value_lo_server_get_url_1;
 }
 
 // lo_server_thread_new
 // file server_thread.c line 40
 struct _lo_server_thread * lo_server_thread_new(const char *port, void (*err_h)(signed int, const char *, const char *))
 {
-  struct _lo_server_thread *return_value_lo_server_thread_new_with_proto$1;
-  return_value_lo_server_thread_new_with_proto$1=lo_server_thread_new_with_proto(port, 0x0, err_h);
-  return return_value_lo_server_thread_new_with_proto$1;
+  struct _lo_server_thread *return_value_lo_server_thread_new_with_proto_1;
+  return_value_lo_server_thread_new_with_proto_1=lo_server_thread_new_with_proto(port, 0x0, err_h);
+  return return_value_lo_server_thread_new_with_proto_1;
 }
 
 // lo_server_thread_new_from_url
@@ -7094,9 +7094,9 @@ struct _lo_server_thread * lo_server_thread_new(const char *port, void (*err_h)(
 struct _lo_server_thread * lo_server_thread_new_from_url(const char *url, void (*err_h)(signed int, const char *, const char *))
 {
   struct _lo_server_thread *st;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _lo_server_thread) /*24ul*/ );
-  st = (struct _lo_server_thread *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _lo_server_thread) /*24ul*/ );
+  st = (struct _lo_server_thread *)return_value_malloc_1;
   st->s=lo_server_new_from_url(url, err_h);
   st->active = 0;
   st->done = 0;
@@ -7115,9 +7115,9 @@ struct _lo_server_thread * lo_server_thread_new_from_url(const char *url, void (
 struct _lo_server_thread * lo_server_thread_new_multicast(const char *group, const char *port, void (*err_h)(signed int, const char *, const char *))
 {
   struct _lo_server_thread *st;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _lo_server_thread) /*24ul*/ );
-  st = (struct _lo_server_thread *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _lo_server_thread) /*24ul*/ );
+  st = (struct _lo_server_thread *)return_value_malloc_1;
   st->s=lo_server_new_multicast(group, port, err_h);
   st->active = 0;
   st->done = 0;
@@ -7136,9 +7136,9 @@ struct _lo_server_thread * lo_server_thread_new_multicast(const char *group, con
 struct _lo_server_thread * lo_server_thread_new_with_proto(const char *port, signed int proto, void (*err_h)(signed int, const char *, const char *))
 {
   struct _lo_server_thread *st;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _lo_server_thread) /*24ul*/ );
-  st = (struct _lo_server_thread *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _lo_server_thread) /*24ul*/ );
+  st = (struct _lo_server_thread *)return_value_malloc_1;
   st->s=lo_server_new_with_proto(port, proto, err_h);
   st->active = 0;
   st->done = 0;
@@ -7178,9 +7178,9 @@ signed int lo_server_thread_start(struct _lo_server_thread *st)
     result=pthread_create(&st->thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))thread_func, (void *)st);
     if(!(result == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(result);
-      fprintf(stderr, "Failed to create thread: pthread_create(), %s", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(result);
+      fprintf(stderr, "Failed to create thread: pthread_create(), %s", return_value_strerror_1);
       return -result;
     }
 
@@ -7200,9 +7200,9 @@ signed int lo_server_thread_stop(struct _lo_server_thread *st)
     result=pthread_join(st->thread, (void **)(void *)0);
     if(!(result == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(result);
-      fprintf(stderr, "Failed to stop thread: pthread_join(), %s", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(result);
+      fprintf(stderr, "Failed to stop thread: pthread_join(), %s", return_value_strerror_1);
       return -result;
     }
 
@@ -7216,18 +7216,18 @@ signed int lo_server_thread_stop(struct _lo_server_thread *st)
 signed int lo_server_wait(struct _lo_server *s, signed int timeout)
 {
   signed int sched_timeout;
-  double return_value_lo_server_next_event_delay$1;
-  return_value_lo_server_next_event_delay$1=lo_server_next_event_delay(s);
-  sched_timeout = (signed int)(return_value_lo_server_next_event_delay$1 * (double)1000);
+  double return_value_lo_server_next_event_delay_1;
+  return_value_lo_server_next_event_delay_1=lo_server_next_event_delay(s);
+  sched_timeout = (signed int)(return_value_lo_server_next_event_delay_1 * (double)1000);
   signed int i;
   struct sockaddr_storage addr;
   unsigned int addr_len = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
-  struct anonymous$2 now;
-  struct anonymous$2 then;
-  _Bool tmp_if_expr$3;
+  struct anonymous_2 now;
+  struct anonymous_2 then;
+  _Bool tmp_if_expr_3;
   signed int sock;
   double diff;
-  double return_value_lo_server_next_event_delay$4;
+  double return_value_lo_server_next_event_delay_4;
   do
   {
 
@@ -7238,20 +7238,20 @@ signed int lo_server_wait(struct _lo_server *s, signed int timeout)
     {
       (s->sockets + (signed long int)i)->events = (signed short int)(0x001 | 0x002 | 0x008 | 0x010);
       (s->sockets + (signed long int)i)->revents = (signed short int)0;
-      unsigned int return_value_lo_server_buffer_contains_msg$2;
-      return_value_lo_server_buffer_contains_msg$2=lo_server_buffer_contains_msg(s, i);
-      if(!(return_value_lo_server_buffer_contains_msg$2 == 0u))
+      unsigned int return_value_lo_server_buffer_contains_msg_2;
+      return_value_lo_server_buffer_contains_msg_2=lo_server_buffer_contains_msg(s, i);
+      if(!(return_value_lo_server_buffer_contains_msg_2 == 0u))
         return 1;
 
     }
     lo_timetag_now(&then);
     poll(s->sockets, (unsigned long int)s->sockets_len, timeout > sched_timeout ? sched_timeout : timeout);
     if((signed int)s->sockets->revents == 0x008)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)(s->sockets + (signed long int)0)->revents == 0x010 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)(s->sockets + (signed long int)0)->revents == 0x010 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       return 0;
 
     if(s->sockets->revents == 0)
@@ -7268,8 +7268,8 @@ signed int lo_server_wait(struct _lo_server *s, signed int timeout)
     init_context(&s->contexts[(signed long int)i]);
     lo_timetag_now(&now);
     diff=lo_timetag_diff(now, then);
-    return_value_lo_server_next_event_delay$4=lo_server_next_event_delay(s);
-    sched_timeout = (signed int)(return_value_lo_server_next_event_delay$4 * (double)1000);
+    return_value_lo_server_next_event_delay_4=lo_server_next_event_delay(s);
+    sched_timeout = (signed int)(return_value_lo_server_next_event_delay_4 * (double)1000);
     timeout = timeout - (signed int)(diff * (double)1000);
     if(!(timeout >= 0))
       timeout = 0;
@@ -7281,24 +7281,24 @@ signed int lo_server_wait(struct _lo_server *s, signed int timeout)
 __CPROVER_DUMP_L11:
   ;
   i = 1;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   for( ; !(i >= s->sockets_len); i = i + 1)
   {
     if((signed int)(s->sockets + (signed long int)i)->revents == 0x008)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)(s->sockets + (signed long int)i)->revents == 0x010 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (signed int)(s->sockets + (signed long int)i)->revents == 0x010 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
       return 0;
 
     if(!((s->sockets + (signed long int)i)->revents == 0))
       return 1;
 
   }
-  double return_value_lo_server_next_event_delay$6;
-  return_value_lo_server_next_event_delay$6=lo_server_next_event_delay(s);
-  if(return_value_lo_server_next_event_delay$6 < 0.01)
+  double return_value_lo_server_next_event_delay_6;
+  return_value_lo_server_next_event_delay_6=lo_server_next_event_delay(s);
+  if(return_value_lo_server_next_event_delay_6 < 0.01)
     return 1;
 
   else
@@ -7309,17 +7309,17 @@ __CPROVER_DUMP_L11:
 // file message.c line 525
 signed int lo_strsize(const char *s)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  return (signed int)((unsigned long int)4 * (return_value_strlen$1 / (unsigned long int)4 + (unsigned long int)1));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  return (signed int)((unsigned long int)4 * (return_value_strlen_1 / (unsigned long int)4 + (unsigned long int)1));
 }
 
 // lo_swap64
 // file ../lo/lo_endian.h line 106
 static inline unsigned long int lo_swap64(unsigned long int x)
 {
-  union anonymous$8 in;
-  union anonymous$8 out;
+  union anonymous_8 in;
+  union anonymous_8 out;
   in.all = x;
   out.part.a=htonl(in.part.b);
   out.part.b=htonl(in.part.a);
@@ -7342,14 +7342,14 @@ void lo_throw(struct _lo_server *s, signed int errnum, const char *message, cons
 
 // lo_timetag_diff
 // file ../lo/lo_lowlevel.h line 988
-double lo_timetag_diff(struct anonymous$2 a, struct anonymous$2 b)
+double lo_timetag_diff(struct anonymous_2 a, struct anonymous_2 b)
 {
   return ((double)a.sec - (double)b.sec) + ((double)a.frac - (double)b.frac) * 0.00000000023283064365;
 }
 
 // lo_timetag_now
 // file ../lo/lo_lowlevel.h line 995
-void lo_timetag_now(struct anonymous$2 *t)
+void lo_timetag_now(struct anonymous_2 *t)
 {
   struct timeval tv;
   gettimeofday(&tv, (struct timezone *)(void *)0);
@@ -7362,28 +7362,28 @@ void lo_timetag_now(struct anonymous$2 *t)
 char * lo_url_get_hostname(const char *url)
 {
   char *hostname;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(url);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1);
-  hostname = (char *)return_value_malloc$2;
-  signed int return_value_sscanf$3;
-  return_value_sscanf$3=sscanf(url, "osc://%[^[:/]", hostname);
-  if(!(return_value_sscanf$3 == 0))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(url);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1);
+  hostname = (char *)return_value_malloc_2;
+  signed int return_value_sscanf_3;
+  return_value_sscanf_3=sscanf(url, "osc://%[^[:/]", hostname);
+  if(!(return_value_sscanf_3 == 0))
     return hostname;
 
   else
   {
-    signed int return_value_sscanf$4;
-    return_value_sscanf$4=sscanf(url, "osc.%*[^:/]://[%[^]/]]", hostname);
-    if(!(return_value_sscanf$4 == 0))
+    signed int return_value_sscanf_4;
+    return_value_sscanf_4=sscanf(url, "osc.%*[^:/]://[%[^]/]]", hostname);
+    if(!(return_value_sscanf_4 == 0))
       return hostname;
 
     else
     {
-      signed int return_value_sscanf$5;
-      return_value_sscanf$5=sscanf(url, "osc.%*[^:/]://%[^[:/]", hostname);
-      if(!(return_value_sscanf$5 == 0))
+      signed int return_value_sscanf_5;
+      return_value_sscanf_5=sscanf(url, "osc.%*[^:/]://%[^[:/]", hostname);
+      if(!(return_value_sscanf_5 == 0))
         return hostname;
 
       else
@@ -7400,47 +7400,47 @@ char * lo_url_get_hostname(const char *url)
 char * lo_url_get_path(const char *url)
 {
   char *path;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(url);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1);
-  path = (char *)return_value_malloc$2;
-  signed int return_value_sscanf$3;
-  return_value_sscanf$3=sscanf(url, "osc://%*[^:]:%*[0-9]%s", path);
-  if(!(return_value_sscanf$3 == 0))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(url);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1);
+  path = (char *)return_value_malloc_2;
+  signed int return_value_sscanf_3;
+  return_value_sscanf_3=sscanf(url, "osc://%*[^:]:%*[0-9]%s", path);
+  if(!(return_value_sscanf_3 == 0))
     return path;
 
   else
   {
-    signed int return_value_sscanf$4;
-    return_value_sscanf$4=sscanf(url, "osc.%*[^:]://%*[^:]:%*[0-9]%s", path);
-    if(return_value_sscanf$4 == 1)
+    signed int return_value_sscanf_4;
+    return_value_sscanf_4=sscanf(url, "osc.%*[^:]://%*[^:]:%*[0-9]%s", path);
+    if(return_value_sscanf_4 == 1)
       return path;
 
     else
     {
-      signed int return_value_sscanf$6;
-      return_value_sscanf$6=sscanf(url, "osc.unix://%*[^/]%s", path);
-      if(!(return_value_sscanf$6 == 0))
+      signed int return_value_sscanf_6;
+      return_value_sscanf_6=sscanf(url, "osc.unix://%*[^/]%s", path);
+      if(!(return_value_sscanf_6 == 0))
       {
-        signed int lo_url_get_path$$1$$3$$i;
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(path);
-        lo_url_get_path$$1$$3$$i = (signed int)(return_value_strlen$5 - (unsigned long int)1);
-        if((signed int)path[(signed long int)lo_url_get_path$$1$$3$$i] == 47)
-          path[(signed long int)lo_url_get_path$$1$$3$$i] = (char)0;
+        signed int lo_url_get_path__1__3__i;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(path);
+        lo_url_get_path__1__3__i = (signed int)(return_value_strlen_5 - (unsigned long int)1);
+        if((signed int)path[(signed long int)lo_url_get_path__1__3__i] == 47)
+          path[(signed long int)lo_url_get_path__1__3__i] = (char)0;
 
         return path;
       }
 
-      signed int return_value_sscanf$8;
-      return_value_sscanf$8=sscanf(url, "osc.%*[^:]://%s", path);
-      if(!(return_value_sscanf$8 == 0))
+      signed int return_value_sscanf_8;
+      return_value_sscanf_8=sscanf(url, "osc.%*[^:]://%s", path);
+      if(!(return_value_sscanf_8 == 0))
       {
         signed int i;
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(path);
-        i = (signed int)(return_value_strlen$7 - (unsigned long int)1);
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(path);
+        i = (signed int)(return_value_strlen_7 - (unsigned long int)1);
         if((signed int)path[(signed long int)i] == 47)
           path[(signed long int)i] = (char)0;
 
@@ -7458,49 +7458,49 @@ char * lo_url_get_path(const char *url)
 char * lo_url_get_port(const char *url)
 {
   char *port;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(url);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1);
-  port = (char *)return_value_malloc$2;
-  signed int return_value_sscanf$3;
-  return_value_sscanf$3=sscanf(url, "osc://%*[^:]:%[0-9]", port);
-  if(!(return_value_sscanf$3 == 0))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(url);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1);
+  port = (char *)return_value_malloc_2;
+  signed int return_value_sscanf_3;
+  return_value_sscanf_3=sscanf(url, "osc://%*[^:]:%[0-9]", port);
+  if(!(return_value_sscanf_3 == 0))
     return port;
 
   else
   {
-    signed int return_value_sscanf$4;
-    return_value_sscanf$4=sscanf(url, "osc.%*[^:]://%*[^:]:%[0-9]", port);
-    if(!(return_value_sscanf$4 == 0))
+    signed int return_value_sscanf_4;
+    return_value_sscanf_4=sscanf(url, "osc.%*[^:]://%*[^:]:%[0-9]", port);
+    if(!(return_value_sscanf_4 == 0))
       return port;
 
     else
     {
-      signed int return_value_sscanf$5;
-      return_value_sscanf$5=sscanf(url, "osc://[%*[^]]]:%[0-9]", port);
-      if(!(return_value_sscanf$5 == 0))
+      signed int return_value_sscanf_5;
+      return_value_sscanf_5=sscanf(url, "osc://[%*[^]]]:%[0-9]", port);
+      if(!(return_value_sscanf_5 == 0))
         return port;
 
       else
       {
-        signed int return_value_sscanf$6;
-        return_value_sscanf$6=sscanf(url, "osc.%*[^:]://[%*[^]]]:%[0-9]", port);
-        if(!(return_value_sscanf$6 == 0))
+        signed int return_value_sscanf_6;
+        return_value_sscanf_6=sscanf(url, "osc.%*[^:]://[%*[^]]]:%[0-9]", port);
+        if(!(return_value_sscanf_6 == 0))
           return port;
 
         else
         {
-          signed int return_value_sscanf$7;
-          return_value_sscanf$7=sscanf(url, "osc://:%[0-9]", port);
-          if(!(return_value_sscanf$7 == 0))
+          signed int return_value_sscanf_7;
+          return_value_sscanf_7=sscanf(url, "osc://:%[0-9]", port);
+          if(!(return_value_sscanf_7 == 0))
             return port;
 
           else
           {
-            signed int return_value_sscanf$8;
-            return_value_sscanf$8=sscanf(url, "osc.%*[^:]://:%[0-9]", port);
-            if(!(return_value_sscanf$8 == 0))
+            signed int return_value_sscanf_8;
+            return_value_sscanf_8=sscanf(url, "osc.%*[^:]://:%[0-9]", port);
+            if(!(return_value_sscanf_8 == 0))
               return port;
 
             else
@@ -7521,20 +7521,20 @@ char * lo_url_get_protocol(const char *url)
 {
   char *protocol;
   char *ret;
-  signed int return_value_sscanf$3;
+  signed int return_value_sscanf_3;
   if(url == ((const char *)NULL))
     return (char *)(void *)0;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(url);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(return_value_strlen$1);
-    protocol = (char *)return_value_malloc$2;
-    signed int return_value_sscanf$4;
-    return_value_sscanf$4=sscanf(url, "osc://%s", protocol);
-    if(!(return_value_sscanf$4 == 0))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(url);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(return_value_strlen_1);
+    protocol = (char *)return_value_malloc_2;
+    signed int return_value_sscanf_4;
+    return_value_sscanf_4=sscanf(url, "osc://%s", protocol);
+    if(!(return_value_sscanf_4 == 0))
     {
       fprintf(stderr, "liblo warning: no protocol specified in URL, assuming UDP.\n");
       ret=strdup("udp");
@@ -7542,8 +7542,8 @@ char * lo_url_get_protocol(const char *url)
 
     else
     {
-      return_value_sscanf$3=sscanf(url, "osc.%[^:/[]", protocol);
-      if(!(return_value_sscanf$3 == 0))
+      return_value_sscanf_3=sscanf(url, "osc.%[^:/[]", protocol);
+      if(!(return_value_sscanf_3 == 0))
         ret=strdup(protocol);
 
       else
@@ -7558,17 +7558,17 @@ char * lo_url_get_protocol(const char *url)
 // file address.c line 369
 signed int lo_url_get_protocol_id(const char *url)
 {
-  signed int return_value_strncmp$3;
-  signed int return_value_strncmp$2;
-  signed int return_value_strncmp$1;
+  signed int return_value_strncmp_3;
+  signed int return_value_strncmp_2;
+  signed int return_value_strncmp_1;
   if(url == ((const char *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(url, "osc:", (unsigned long int)4);
-    if(return_value_strncmp$4 == 0)
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(url, "osc:", (unsigned long int)4);
+    if(return_value_strncmp_4 == 0)
     {
       fprintf(stderr, "liblo warning: no protocol specified in URL, assuming UDP.\n");
       return 0x1;
@@ -7576,20 +7576,20 @@ signed int lo_url_get_protocol_id(const char *url)
 
     else
     {
-      return_value_strncmp$3=strncmp(url, "osc.udp:", (unsigned long int)8);
-      if(return_value_strncmp$3 == 0)
+      return_value_strncmp_3=strncmp(url, "osc.udp:", (unsigned long int)8);
+      if(return_value_strncmp_3 == 0)
         return 0x1;
 
       else
       {
-        return_value_strncmp$2=strncmp(url, "osc.tcp:", (unsigned long int)8);
-        if(return_value_strncmp$2 == 0)
+        return_value_strncmp_2=strncmp(url, "osc.tcp:", (unsigned long int)8);
+        if(return_value_strncmp_2 == 0)
           return 0x4;
 
         else
         {
-          return_value_strncmp$1=strncmp(url, "osc.unix:", (unsigned long int)9);
-          if(return_value_strncmp$1 == 0)
+          return_value_strncmp_1=strncmp(url, "osc.unix:", (unsigned long int)9);
+          if(return_value_strncmp_1 == 0)
             return 0x2;
 
         }
@@ -7601,10 +7601,10 @@ signed int lo_url_get_protocol_id(const char *url)
 
 // lo_validate_arg
 // file message.c line 669
-signed long int lo_validate_arg(enum anonymous$4 type, void *data, signed long int size)
+signed long int lo_validate_arg(enum anonymous_4 type, void *data, signed long int size)
 {
-  signed long int return_value_lo_validate_string$1;
-  signed long int return_value_lo_validate_blob$2;
+  signed long int return_value_lo_validate_string_1;
+  signed long int return_value_lo_validate_blob_2;
   if(!(size >= 0l))
     return (signed long int)-1;
 
@@ -7638,13 +7638,13 @@ signed long int lo_validate_arg(enum anonymous$4 type, void *data, signed long i
 
       case LO_SYMBOL:
       {
-        return_value_lo_validate_string$1=lo_validate_string((void *)(char *)data, size);
-        return return_value_lo_validate_string$1;
+        return_value_lo_validate_string_1=lo_validate_string((void *)(char *)data, size);
+        return return_value_lo_validate_string_1;
       }
       case LO_BLOB:
       {
-        return_value_lo_validate_blob$2=lo_validate_blob((void *)(struct _lo_blob *)data, size);
-        return return_value_lo_validate_blob$2;
+        return_value_lo_validate_blob_2=lo_validate_blob((void *)(struct _lo_blob *)data, size);
+        return return_value_lo_validate_blob_2;
       }
       default:
         return (signed long int)-9909;
@@ -7705,9 +7705,9 @@ signed long int lo_validate_bundle(void *data, signed long int size)
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((const char *)data, "#bundle");
-    if(!(return_value_strcmp$1 == 0))
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((const char *)data, "#bundle");
+    if(!(return_value_strcmp_1 == 0))
       return (signed long int)-9915;
 
     else
@@ -7723,9 +7723,9 @@ signed long int lo_validate_bundle(void *data, signed long int size)
         remain = remain - (signed long int)8;
         while(remain >= 4l)
         {
-          unsigned int return_value_htonl$2;
-          return_value_htonl$2=htonl(*((unsigned int *)pos));
-          elem_len = (signed long int)return_value_htonl$2;
+          unsigned int return_value_htonl_2;
+          return_value_htonl_2=htonl(*((unsigned int *)pos));
+          elem_len = (signed long int)return_value_htonl_2;
           pos = pos + (signed long int)4;
           remain = remain - (signed long int)4;
           if(!(remain >= elem_len))
@@ -7852,14 +7852,14 @@ signed int main(signed int argc, char **argv)
   if(argc >= 3)
     group = argv[(signed long int)2];
 
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(!(group == ((char *)NULL)))
     server=lo_server_new_multicast(group, port, errorHandler);
 
   else
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*port]) == 0))
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*port]) == 0))
       server=lo_server_new(port, errorHandler);
 
     else
@@ -7885,7 +7885,7 @@ signed int main(signed int argc, char **argv)
 
 // messageHandler
 // file oscdump.c line 52
-signed int messageHandler(const char *path, const char *types, union anonymous$0 **argv, signed int argc, void *msg, void *user_data)
+signed int messageHandler(const char *path, const char *types, union anonymous_0 **argv, signed int argc, void *msg, void *user_data)
 {
   signed int i;
   printf("%s %s", path, types);
@@ -7893,7 +7893,7 @@ signed int messageHandler(const char *path, const char *types, union anonymous$0
   for( ; !(i >= argc); i = i + 1)
   {
     printf(" ");
-    lo_arg_pp((enum anonymous$4)types[(signed long int)i], (void *)argv[(signed long int)i]);
+    lo_arg_pp((enum anonymous_4)types[(signed long int)i], (void *)argv[(signed long int)i]);
   }
   printf("\n");
   return 0;
@@ -7932,9 +7932,9 @@ static struct _lo_bundle ** push_to_list(struct _lo_bundle **list, struct _lo_bu
   if(*len >= *size)
   {
     *size = *size * (unsigned long int)2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)list, *size * sizeof(struct _lo_bundle *) /*8ul*/ );
-    list = (struct _lo_bundle **)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)list, *size * sizeof(struct _lo_bundle *) /*8ul*/ );
+    list = (struct _lo_bundle **)return_value_realloc_1;
   }
 
   list[(signed long int)*len] = ptr;
@@ -7944,25 +7944,25 @@ static struct _lo_bundle ** push_to_list(struct _lo_bundle **list, struct _lo_bu
 
 // queue_data
 // file server.c line 1878
-static void queue_data(struct _lo_server *s, struct anonymous$2 ts, const char *path, struct _lo_message *msg, signed int sock)
+static void queue_data(struct _lo_server *s, struct anonymous_2 ts, const char *path, struct _lo_message *msg, signed int sock)
 {
-  struct anonymous$3 *it = (struct anonymous$3 *)s->queued;
-  struct anonymous$3 *prev = (struct anonymous$3 *)(void *)0;
-  struct anonymous$3 *ins;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$3) /*40ul*/ );
-  ins = (struct anonymous$3 *)return_value_calloc$1;
+  struct anonymous_3 *it = (struct anonymous_3 *)s->queued;
+  struct anonymous_3 *prev = (struct anonymous_3 *)(void *)0;
+  struct anonymous_3 *ins;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_3) /*40ul*/ );
+  ins = (struct anonymous_3 *)return_value_calloc_1;
   ins->ts = ts;
   ins->path=strdup(path);
   ins->msg = msg;
   ins->sock = sock;
-  while(!(it == ((struct anonymous$3 *)NULL)))
+  while(!(it == ((struct anonymous_3 *)NULL)))
   {
-    double return_value_lo_timetag_diff$2;
-    return_value_lo_timetag_diff$2=lo_timetag_diff(it->ts, ts);
-    if(return_value_lo_timetag_diff$2 > 0.0)
+    double return_value_lo_timetag_diff_2;
+    return_value_lo_timetag_diff_2=lo_timetag_diff(it->ts, ts);
+    if(return_value_lo_timetag_diff_2 > 0.0)
     {
-      if(!(prev == ((struct anonymous$3 *)NULL)))
+      if(!(prev == ((struct anonymous_3 *)NULL)))
         prev->next = (void *)ins;
 
       else
@@ -7975,9 +7975,9 @@ static void queue_data(struct _lo_server *s, struct anonymous$2 ts, const char *
     }
 
     prev = it;
-    it = (struct anonymous$3 *)it->next;
+    it = (struct anonymous_3 *)it->next;
   }
-  if(!(prev == ((struct anonymous$3 *)NULL)))
+  if(!(prev == ((struct anonymous_3 *)NULL)))
     prev->next = (void *)ins;
 
   else
@@ -7994,9 +7994,9 @@ static signed int send_data(struct _lo_address *a, struct _lo_server *from, char
 {
   signed long int ret = (signed long int)0;
   signed int sock = -1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  unsigned char *return_value_slip_encode$6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  unsigned char *return_value_slip_encode_6;
   if(data_len >= 32769ul)
   {
     a->errnum = 99;
@@ -8008,20 +8008,20 @@ static signed int send_data(struct _lo_address *a, struct _lo_server *from, char
   {
     if(a->ai == ((struct addrinfo *)NULL))
     {
-      signed int return_value_lo_address_resolve$1;
-      return_value_lo_address_resolve$1=lo_address_resolve(a);
-      ret = (signed long int)return_value_lo_address_resolve$1;
+      signed int return_value_lo_address_resolve_1;
+      return_value_lo_address_resolve_1=lo_address_resolve(a);
+      ret = (signed long int)return_value_lo_address_resolve_1;
       if(!(ret == 0l))
         return (signed int)ret;
 
     }
 
     if(!(from == ((struct _lo_server *)NULL)))
-      tmp_if_expr$4 = a->protocol == 0x1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = a->protocol == 0x1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       sock = (from->sockets + (signed long int)0)->fd;
 
     else
@@ -8032,9 +8032,9 @@ static signed int send_data(struct _lo_address *a, struct _lo_server *from, char
       {
         if(a->socket == -1)
         {
-          signed int return_value_create_socket$2;
-          return_value_create_socket$2=create_socket(a);
-          ret = (signed long int)return_value_create_socket$2;
+          signed int return_value_create_socket_2;
+          return_value_create_socket_2=create_socket(a);
+          ret = (signed long int)return_value_create_socket_2;
           if(!(ret == 0l))
             return (signed int)ret;
 
@@ -8043,11 +8043,11 @@ static signed int send_data(struct _lo_address *a, struct _lo_server *from, char
             if(a->protocol == 0x4)
             {
               if(a->socket >= from->sources_len)
-                tmp_if_expr$3 = (_Bool)1;
+                tmp_if_expr_3 = (_Bool)1;
 
               else
-                tmp_if_expr$3 = (from->sources + (signed long int)a->socket)->host == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = (from->sources + (signed long int)a->socket)->host == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_3)
               {
                 lo_server_add_socket(from, a->socket, a, ((struct sockaddr_storage *)NULL), (unsigned int)0);
                 a->ownsocket = 0;
@@ -8066,9 +8066,9 @@ static signed int send_data(struct _lo_address *a, struct _lo_server *from, char
       if((LO_SLIP & (signed int)a->flags) == 0)
       {
         signed int size;
-        unsigned int return_value_htonl$5;
-        return_value_htonl$5=htonl((unsigned int)data_len);
-        size = (signed int)return_value_htonl$5;
+        unsigned int return_value_htonl_5;
+        return_value_htonl_5=htonl((unsigned int)data_len);
+        size = (signed int)return_value_htonl_5;
         ret=send(sock, (const void *)&size, sizeof(signed int) /*4ul*/ , 16384);
       }
 
@@ -8078,7 +8078,7 @@ static signed int send_data(struct _lo_address *a, struct _lo_server *from, char
     {
       if(a->protocol == 0x1)
       {
-        struct addrinfo *send_data$$1$$7$$1$$ai;
+        struct addrinfo *send_data__1__7__1__ai;
         if(a->addr.size == sizeof(struct in_addr) /*4ul*/ )
           setsockopt(sock, 0, 32, (const void *)(const char *)&a->addr.a, (unsigned int)a->addr.size);
 
@@ -8088,17 +8088,17 @@ static signed int send_data(struct _lo_address *a, struct _lo_server *from, char
           setsockopt(sock, 0, 33, (const void *)(const char *)&ttl, (unsigned int)sizeof(unsigned char) /*1ul*/ );
         }
 
-        send_data$$1$$7$$1$$ai = a->ai;
+        send_data__1__7__1__ai = a->ai;
         do
         {
-          ret=sendto(sock, (const void *)data, data_len, 16384, send_data$$1$$7$$1$$ai->ai_addr, send_data$$1$$7$$1$$ai->ai_addrlen);
-          send_data$$1$$7$$1$$ai = send_data$$1$$7$$1$$ai->ai_next;
+          ret=sendto(sock, (const void *)data, data_len, 16384, send_data__1__7__1__ai->ai_addr, send_data__1__7__1__ai->ai_addrlen);
+          send_data__1__7__1__ai = send_data__1__7__1__ai->ai_next;
         }
-        while(ret == -1l && !(send_data$$1$$7$$1$$ai == ((struct addrinfo *)NULL)));
-        if(ret == -1l && !(send_data$$1$$7$$1$$ai == ((struct addrinfo *)NULL)))
+        while(ret == -1l && !(send_data__1__7__1__ai == ((struct addrinfo *)NULL)));
+        if(ret == -1l && !(send_data__1__7__1__ai == ((struct addrinfo *)NULL)))
         {
-          if(!(a->ai == send_data$$1$$7$$1$$ai))
-            a->ai = send_data$$1$$7$$1$$ai;
+          if(!(a->ai == send_data__1__7__1__ai))
+            a->ai = send_data__1__7__1__ai;
 
         }
 
@@ -8110,8 +8110,8 @@ static signed int send_data(struct _lo_address *a, struct _lo_server *from, char
         unsigned long int len = data_len;
         if(!((LO_SLIP & (signed int)a->flags) == 0))
         {
-          return_value_slip_encode$6=slip_encode((unsigned char *)data, &len);
-          data = (char *)return_value_slip_encode$6;
+          return_value_slip_encode_6=slip_encode((unsigned char *)data, &len);
+          data = (char *)return_value_slip_encode_6;
         }
 
         do
@@ -8148,9 +8148,9 @@ static signed int send_data(struct _lo_address *a, struct _lo_server *from, char
         a->socket = -1;
       }
 
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      a->errnum = *return_value___errno_location$7;
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      a->errnum = *return_value___errno_location_7;
       a->errstr = (const char *)(void *)0;
     }
 
@@ -8170,16 +8170,16 @@ static signed int slip_decode(unsigned char **buffer, unsigned char *from, unsig
   /* assertion from != ((void *)0) */
   assert(from != (unsigned char *)(void *)0);
   *bytesread = (unsigned long int)0;
-  unsigned long int tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
+  unsigned long int tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
   do
   {
-    tmp_post$1 = size;
+    tmp_post_1 = size;
     size = size - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
     *bytesread = *bytesread + 1ul;
@@ -8197,11 +8197,11 @@ static signed int slip_decode(unsigned char **buffer, unsigned char *from, unsig
           }
           default:
           {
-            tmp_post$2 = *buffer;
+            tmp_post_2 = *buffer;
             *buffer = *buffer + 1l;
-            tmp_post$3 = from;
+            tmp_post_3 = from;
             from = from + 1l;
-            *tmp_post$2 = *tmp_post$3;
+            *tmp_post_2 = *tmp_post_3;
             goto __CPROVER_DUMP_L10;
           }
         }
@@ -8211,16 +8211,16 @@ static signed int slip_decode(unsigned char **buffer, unsigned char *from, unsig
         {
           case 0334:
           {
-            tmp_post$4 = *buffer;
+            tmp_post_4 = *buffer;
             *buffer = *buffer + 1l;
-            *tmp_post$4 = (unsigned char)0300;
+            *tmp_post_4 = (unsigned char)0300;
             break;
           }
           case 0335:
           {
-            tmp_post$5 = *buffer;
+            tmp_post_5 = *buffer;
             *buffer = *buffer + 1l;
-            *tmp_post$5 = (unsigned char)0333;
+            *tmp_post_5 = (unsigned char)0333;
           }
         }
         *state = 0;
@@ -8242,48 +8242,48 @@ static unsigned char * slip_encode(const unsigned char *data, unsigned long int 
   unsigned long int j = (unsigned long int)0;
   unsigned long int len = *data_len;
   unsigned char *slipdata;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(len * (unsigned long int)2);
-  slipdata = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(len * (unsigned long int)2);
+  slipdata = (unsigned char *)return_value_malloc_1;
   i = (unsigned long int)0;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$4;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$6;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_4;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_6;
   for( ; !(i >= len); i = i + 1ul)
     switch((signed int)data[(signed long int)i])
     {
       case 0333:
       {
-        tmp_post$2 = j;
+        tmp_post_2 = j;
         j = j + 1ul;
-        slipdata[(signed long int)tmp_post$2] = (unsigned char)0333;
-        tmp_post$3 = j;
+        slipdata[(signed long int)tmp_post_2] = (unsigned char)0333;
+        tmp_post_3 = j;
         j = j + 1ul;
-        slipdata[(signed long int)tmp_post$3] = (unsigned char)0335;
+        slipdata[(signed long int)tmp_post_3] = (unsigned char)0335;
         break;
       }
       case 0300:
       {
-        tmp_post$4 = j;
+        tmp_post_4 = j;
         j = j + 1ul;
-        slipdata[(signed long int)tmp_post$4] = (unsigned char)0333;
-        tmp_post$5 = j;
+        slipdata[(signed long int)tmp_post_4] = (unsigned char)0333;
+        tmp_post_5 = j;
         j = j + 1ul;
-        slipdata[(signed long int)tmp_post$5] = (unsigned char)0334;
+        slipdata[(signed long int)tmp_post_5] = (unsigned char)0334;
         break;
       }
       default:
       {
-        tmp_post$6 = j;
+        tmp_post_6 = j;
         j = j + 1ul;
-        slipdata[(signed long int)tmp_post$6] = data[(signed long int)i];
+        slipdata[(signed long int)tmp_post_6] = data[(signed long int)i];
       }
     }
-  unsigned long int tmp_post$7 = j;
+  unsigned long int tmp_post_7 = j;
   j = j + 1ul;
-  slipdata[(signed long int)tmp_post$7] = (unsigned char)0300;
+  slipdata[(signed long int)tmp_post_7] = (unsigned char)0300;
   slipdata[(signed long int)j] = (unsigned char)0;
   *data_len = j;
   return slipdata;
@@ -8313,9 +8313,9 @@ static struct _lo_bundle ** walk_tree(struct _lo_bundle **B, struct _lo_bundle *
 {
   unsigned long int i;
   signed int res;
-  signed int return_value_is_in_list$1;
-  return_value_is_in_list$1=is_in_list(B, b, len);
-  if(!(return_value_is_in_list$1 == 0))
+  signed int return_value_is_in_list_1;
+  return_value_is_in_list_1=is_in_list(B, b, len);
+  if(!(return_value_is_in_list_1 == 0))
   {
     *ret = -1;
     return B;

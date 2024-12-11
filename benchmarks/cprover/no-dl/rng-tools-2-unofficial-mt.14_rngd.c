@@ -1,86 +1,86 @@
-// #anon_enum$KERNEL_UNSUPPORTED=0$KERNEL_LINUX_24=1$KERNEL_LINUX_26=2
+// #anon_enum_KERNEL_UNSUPPORTED=0_KERNEL_LINUX_24=1_KERNEL_LINUX_26=2
 // file util.h line 31
-enum anonymous$0 { KERNEL_UNSUPPORTED=0, KERNEL_LINUX_24=1, KERNEL_LINUX_26=2 };
+enum anonymous_0 { KERNEL_UNSUPPORTED=0, KERNEL_LINUX_24=1, KERNEL_LINUX_26=2 };
 
-// #anon_enum$RNGD_ENTSOURCE_NONE=0$RNGD_ENTSOURCE_UNIXSTREAM=1$RNGD_ENTSOURCE_VIAPADLOCK=2
+// #anon_enum_RNGD_ENTSOURCE_NONE=0_RNGD_ENTSOURCE_UNIXSTREAM=1_RNGD_ENTSOURCE_VIAPADLOCK=2
 // file rngd_entsource.h line 31
-enum anonymous$20 { RNGD_ENTSOURCE_NONE=0, RNGD_ENTSOURCE_UNIXSTREAM=1, RNGD_ENTSOURCE_VIAPADLOCK=2 };
+enum anonymous_20 { RNGD_ENTSOURCE_NONE=0, RNGD_ENTSOURCE_UNIXSTREAM=1, RNGD_ENTSOURCE_VIAPADLOCK=2 };
 
-// #anon_enum$VIAPADLOCK_RNG1_SOURCE_A=0$VIAPADLOCK_RNG1_SOURCE_B=1$VIAPADLOCK_RNG1_SOURCE_AB=2
+// #anon_enum_VIAPADLOCK_RNG1_SOURCE_A=0_VIAPADLOCK_RNG1_SOURCE_B=1_VIAPADLOCK_RNG1_SOURCE_AB=2
 // file viapadlock_engine.h line 33
-enum anonymous$16 { VIAPADLOCK_RNG1_SOURCE_A=0, VIAPADLOCK_RNG1_SOURCE_B=1, VIAPADLOCK_RNG1_SOURCE_AB=2 };
+enum anonymous_16 { VIAPADLOCK_RNG1_SOURCE_A=0, VIAPADLOCK_RNG1_SOURCE_B=1, VIAPADLOCK_RNG1_SOURCE_AB=2 };
 
-// #anon_enum$VIA_RNG_NONE=0$VIA_RNG_TYPE1_ONESRC=1$VIA_RNG_TYPE1_TWOSRC=2
+// #anon_enum_VIA_RNG_NONE=0_VIA_RNG_TYPE1_ONESRC=1_VIA_RNG_TYPE1_TWOSRC=2
 // file viapadlock_engine.c line 53
-enum anonymous$17 { VIA_RNG_NONE=0, VIA_RNG_TYPE1_ONESRC=1, VIA_RNG_TYPE1_TWOSRC=2 };
+enum anonymous_17 { VIA_RNG_NONE=0, VIA_RNG_TYPE1_ONESRC=1, VIA_RNG_TYPE1_TWOSRC=2 };
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
 struct anonymous;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[U32'MSR_LSW'||U32'MSR_LSW_MASK'||EN#anon_enum$VIA_RNG_NONE=0$VIA_RNG_TYPE1_ONESRC=1$VIA_RNG_TYPE1_TWOSRC=2#{U32}$U32$'rng_type'||ARR32{S32}$S32$'msr_fd'||U32'divisor'|]
+// tag-#anon#ST[U32'MSR_LSW'||U32'MSR_LSW_MASK'||EN#anon_enum_VIA_RNG_NONE=0_VIA_RNG_TYPE1_ONESRC=1_VIA_RNG_TYPE1_TWOSRC=2#{U32}_U32_'rng_type'||ARR32{S32}_S32_'msr_fd'||U32'divisor'|]
 // file viapadlock_engine.c line 126
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[U32'dc_bias'||U32'string_filter'||EN#anon_enum$VIAPADLOCK_RNG1_SOURCE_A=0$VIAPADLOCK_RNG1_SOURCE_B=1$VIAPADLOCK_RNG1_SOURCE_AB=2#{U32}$U32$'noise_source'||U32'whitener'||U32'divisor'|]
+// tag-#anon#ST[U32'dc_bias'||U32'string_filter'||EN#anon_enum_VIAPADLOCK_RNG1_SOURCE_A=0_VIAPADLOCK_RNG1_SOURCE_B=1_VIAPADLOCK_RNG1_SOURCE_AB=2#{U32}_U32_'noise_source'||U32'whitener'||U32'divisor'|]
 // file viapadlock_engine.h line 39
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -219,7 +219,7 @@ extern signed int daemon(signed int, signed int);
 static unsigned int decode_cpu_revision(unsigned int tfms);
 // detect_via_padlock_rng
 // file viapadlock_engine.c line 167
-static signed int detect_via_padlock_rng(signed int cpuid_fd, struct anonymous$18 *rng, signed int is_first_rng);
+static signed int detect_via_padlock_rng(signed int cpuid_fd, struct anonymous_18 *rng, signed int is_first_rng);
 // die
 // file rngd.c line 481
 extern void die(signed int status);
@@ -255,7 +255,7 @@ extern unsigned long int elapsed_time(struct timeval *start, struct timeval *sto
 extern signed int enable_sigalrm(unsigned int seconds);
 // entropy_source_driver_name
 // file rngd_entsource.h line 36
-extern const char * entropy_source_driver_name(enum anonymous$20 driver);
+extern const char * entropy_source_driver_name(enum anonymous_20 driver);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -339,7 +339,7 @@ extern void init_sighandlers(void);
 extern signed int ioctl(signed int, unsigned long int, ...);
 // kernel_mode
 // file util.h line 38
-extern enum anonymous$0 kernel_mode(void);
+extern enum anonymous_0 kernel_mode(void);
 // kill
 // file /usr/include/signal.h line 127
 extern signed int kill(signed int, signed int);
@@ -381,10 +381,10 @@ static signed int parse_opt(signed int key, char *arg, struct argp_state *state)
 extern signed int poll(struct pollfd *, unsigned long int, signed int);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$15 *);
+extern signed int pthread_cond_signal(union anonymous_15 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$15 *, union anonymous$2 *);
+extern signed int pthread_cond_wait(union anonymous_15 *, union anonymous_2 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -396,13 +396,13 @@ extern signed int pthread_equal(unsigned long int, unsigned long int);
 extern void pthread_exit(void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$6 *);
+extern signed int pthread_mutex_init(union anonymous_2 *, const union anonymous_6 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -501,13 +501,13 @@ extern signed int vfprintf(struct _IO_FILE *, const char *, void **);
 static inline unsigned int via_xstore(unsigned long int *addr, unsigned int edx_in);
 // viapadlock_rng_enable
 // file viapadlock_engine.h line 107
-extern signed int viapadlock_rng_enable(unsigned int enable, struct anonymous$1 *cfg);
+extern signed int viapadlock_rng_enable(unsigned int enable, struct anonymous_1 *cfg);
 // viapadlock_rng_free
 // file viapadlock_engine.c line 334
 extern void viapadlock_rng_free(void);
 // viapadlock_rng_generate_config
 // file viapadlock_engine.h line 94
-extern double viapadlock_rng_generate_config(unsigned int quality, struct anonymous$1 *cfg);
+extern double viapadlock_rng_generate_config(unsigned int quality, struct anonymous_1 *cfg);
 // viapadlock_rng_init
 // file viapadlock_engine.h line 64
 extern signed int viapadlock_rng_init(const char *devicepath);
@@ -524,7 +524,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file rngd_entsource.c line 110
 static signed int xread(void *buf, unsigned long int size, unsigned int abortonsigalrm);
 
-struct anonymous$13
+struct anonymous_13
 {
   // _call_addr
   void *_call_addr;
@@ -534,7 +534,7 @@ struct anonymous$13
   unsigned int _arch;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_addr
   void *si_addr;
@@ -548,7 +548,7 @@ struct anonymous
   unsigned long int __val[16l];
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // __lock
   signed int __lock;
@@ -568,7 +568,7 @@ struct anonymous$14
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_pid
   signed int si_pid;
@@ -576,7 +576,7 @@ struct anonymous$7
   unsigned int si_uid;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_pid
   signed int si_pid;
@@ -598,7 +598,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_pid
   signed int si_pid;
@@ -608,7 +608,7 @@ struct anonymous$9
   union sigval si_sigval;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_tid
   signed int si_tid;
@@ -618,7 +618,7 @@ struct anonymous$8
   union sigval si_sigval;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_band
   signed long int si_band;
@@ -626,27 +626,27 @@ struct anonymous$12
   signed int si_fd;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$7 _kill;
+  struct anonymous_7 _kill;
   // _timer
-  struct anonymous$8 _timer;
+  struct anonymous_8 _timer;
   // _rt
-  struct anonymous$9 _rt;
+  struct anonymous_9 _rt;
   // _sigchld
-  struct anonymous$10 _sigchld;
+  struct anonymous_10 _sigchld;
   // _sigfault
-  struct anonymous$11 _sigfault;
+  struct anonymous_11 _sigfault;
   // _sigpoll
-  struct anonymous$12 _sigpoll;
+  struct anonymous_12 _sigpoll;
   // _sigsys
-  struct anonymous$13 _sigsys;
+  struct anonymous_13 _sigsys;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_signo
   signed int si_signo;
@@ -655,46 +655,46 @@ struct anonymous$4
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$3 _sifields;
+  union anonymous_3 _sifields;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // MSR_LSW
   unsigned int MSR_LSW;
   // MSR_LSW_MASK
   unsigned int MSR_LSW_MASK;
   // rng_type
-  enum anonymous$17 rng_type;
+  enum anonymous_17 rng_type;
   // msr_fd
   signed int msr_fd[32l];
   // divisor
   unsigned int divisor;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // dc_bias
   unsigned int dc_bias;
   // string_filter
   unsigned int string_filter;
   // noise_source
-  enum anonymous$16 noise_source;
+  enum anonymous_16 noise_source;
   // whitener
   unsigned int whitener;
   // divisor
   unsigned int divisor;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$4 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_4 *, void *);
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[4l];
@@ -702,10 +702,10 @@ union anonymous$6
   signed int __align;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __data
-  struct anonymous$14 __data;
+  struct anonymous_14 __data;
   // __size
   char __size[48l];
   // __align
@@ -740,7 +740,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -925,13 +925,13 @@ struct arguments
   // rng_buffers
   signed int rng_buffers;
   // rng_driver
-  enum anonymous$20 rng_driver;
+  enum anonymous_20 rng_driver;
 };
 
 struct buf_fifo
 {
   // mutex
-  union anonymous$2 mutex;
+  union anonymous_2 mutex;
   // data
   volatile signed int *data;
   // head
@@ -1005,13 +1005,13 @@ struct rng_stat
 struct rng_stats
 {
   // group1_mutex
-  union anonymous$2 group1_mutex;
+  union anonymous_2 group1_mutex;
   // bytes_received
   unsigned long int bytes_received;
   // source_blockfill
   struct rng_stat source_blockfill;
   // group2_mutex
-  union anonymous$2 group2_mutex;
+  union anonymous_2 group2_mutex;
   // fips_blockfill
   struct rng_stat fips_blockfill;
   // bad_fips_blocks
@@ -1021,7 +1021,7 @@ struct rng_stats
   // fips_failures
   unsigned long int fips_failures[5l];
   // group3_mutex
-  union anonymous$2 group3_mutex;
+  union anonymous_2 group3_mutex;
   // bytes_sent
   unsigned long int bytes_sent;
   // entropy_sent
@@ -1037,7 +1037,7 @@ struct rng_stats
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$5 __sigaction_handler;
+  union anonymous_5 __sigaction_handler;
   // sa_mask
   struct anonymous sa_mask;
   // sa_flags
@@ -1083,7 +1083,7 @@ struct trng_params
   // entropy
   double entropy;
   // driver
-  enum anonymous$20 driver;
+  enum anonymous_20 driver;
 };
 
 struct utsname
@@ -1175,7 +1175,7 @@ static struct arguments default_arguments = { .random_name="/dev/random", .rng_n
     .random_step=64, .fill_watermark=-50,
     .feed_interval=60, .rng_timeout=10,
     .rng_quality=0, .daemon=1, .rng_entropy=1.0,
-    .rng_buffers=3, .rng_driver=(enum anonymous$20)RNGD_ENTSOURCE_UNIXSTREAM };
+    .rng_buffers=3, .rng_driver=(enum anonymous_20)RNGD_ENTSOURCE_UNIXSTREAM };
 // arguments
 // file rngd.c line 204
 struct arguments *arguments = &default_arguments;
@@ -1196,7 +1196,7 @@ static signed int daemon_lockfd;
 static struct _IO_FILE *daemon_lockfp = (struct _IO_FILE *)(void *)0;
 // entropy_source_driver
 // file rngd_entsource.c line 66
-static enum anonymous$20 entropy_source_driver = (enum anonymous$20)RNGD_ENTSOURCE_NONE;
+static enum anonymous_20 entropy_source_driver = (enum anonymous_20)RNGD_ENTSOURCE_NONE;
 // exitstatus
 // file rngd.c line 83
 signed int exitstatus = 0;
@@ -1220,7 +1220,7 @@ volatile signed int gotsigterm = 0;
 volatile signed int gotsigusr1 = 0;
 // kernel
 // file rngd.c line 87
-enum anonymous$0 kernel;
+enum anonymous_0 kernel;
 // masterprocess
 // file rngd.c line 81
 signed int masterprocess;
@@ -1244,35 +1244,35 @@ static signed long int random_pool_size = (signed long int)4096;
 unsigned char (**rng_buf)[2500l] = (unsigned char (**)[2500l])(void *)0;
 // rng_buffer_empty
 // file rngd_entsource.c line 71
-union anonymous$15 rng_buffer_empty = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_15 rng_buffer_empty = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // rng_buffer_empty_mutex
 // file rngd_entsource.c line 72
-union anonymous$2 rng_buffer_empty_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_2 rng_buffer_empty_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // rng_buffer_raw
 // file rngd_entsource.c line 75
-union anonymous$15 rng_buffer_raw = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_15 rng_buffer_raw = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // rng_buffer_raw_mutex
 // file rngd_entsource.c line 76
-union anonymous$2 rng_buffer_raw_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_2 rng_buffer_raw_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // rng_buffer_ready
 // file rngd_linux.c line 69
-union anonymous$15 rng_buffer_ready = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_15 rng_buffer_ready = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // rng_buffer_ready_mutex
 // file rngd_linux.c line 70
-union anonymous$2 rng_buffer_ready_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_2 rng_buffer_ready_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // rng_buffers
@@ -1292,7 +1292,7 @@ struct rng_stats rng_stats;
 static unsigned int sigalrm_installed = (unsigned int)0;
 // sigalrm_mutex
 // file rngd_signals.c line 41
-static union anonymous$2 sigalrm_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_2 sigalrm_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // sigalrm_owner
@@ -1310,19 +1310,19 @@ static volatile signed int throttling = 0;
 // trng_parameters
 // file rngd.c line 215
 static struct trng_params trng_parameters[4l] = { { .tag="intelfwh", .name="Intel FWH (82802AB/AC) RNG", .width=32,
-    .buffers=5, .entropy=0.998, .driver=(enum anonymous$20)RNGD_ENTSOURCE_UNIXSTREAM },
+    .buffers=5, .entropy=0.998, .driver=(enum anonymous_20)RNGD_ENTSOURCE_UNIXSTREAM },
     { .tag="viakernel", .name="VIA Padlock RNG (Kernel driver, deprecated)", .width=64,
-    .buffers=3, .entropy=0.75, .driver=(enum anonymous$20)RNGD_ENTSOURCE_UNIXSTREAM },
+    .buffers=3, .entropy=0.75, .driver=(enum anonymous_20)RNGD_ENTSOURCE_UNIXSTREAM },
     { .tag="viapadlock", .name="VIA Padlock RNG", .width=64,
-    .buffers=3, .entropy=0.0, .driver=(enum anonymous$20)RNGD_ENTSOURCE_VIAPADLOCK },
+    .buffers=3, .entropy=0.0, .driver=(enum anonymous_20)RNGD_ENTSOURCE_VIAPADLOCK },
     { .tag=(char *)(void *)0, .name=((char *)NULL), .width=0,
-    .buffers=0, .entropy=0.000000, .driver=(enum anonymous$20)0 } };
+    .buffers=0, .entropy=0.000000, .driver=(enum anonymous_20)0 } };
 // viapadlock_engines_detected
 // file viapadlock_engine.c line 123
 static unsigned int viapadlock_engines_detected = (unsigned int)0;
 // viapadlock_state
 // file viapadlock_engine.c line 133
-static struct anonymous$18 viapadlock_state;
+static struct anonymous_18 viapadlock_state;
 
 // decode_cpu_revision
 // file viapadlock_engine.c line 142
@@ -1345,60 +1345,60 @@ static unsigned int decode_cpu_revision(unsigned int tfms)
 
 // detect_via_padlock_rng
 // file viapadlock_engine.c line 167
-static signed int detect_via_padlock_rng(signed int cpuid_fd, struct anonymous$18 *rng, signed int is_first_rng)
+static signed int detect_via_padlock_rng(signed int cpuid_fd, struct anonymous_18 *rng, signed int is_first_rng)
 {
   unsigned int cpuid_buf[8l];
   unsigned int CPU_revision;
   unsigned int msr_lsw_mask;
-  enum anonymous$17 rng_type;
+  enum anonymous_17 rng_type;
   /* assertion rng != ((void *)0) */
-  assert(rng != (struct anonymous$18 *)(void *)0);
+  assert(rng != (struct anonymous_18 *)(void *)0);
   /* assertion cpuid_fd != -1 */
   assert(cpuid_fd != -1);
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_3;
   do
   {
-    signed long int return_value_lseek$2;
-    return_value_lseek$2=lseek(cpuid_fd, (signed long int)0, 0);
-    if(!(return_value_lseek$2 == 0l))
+    signed long int return_value_lseek_2;
+    return_value_lseek_2=lseek(cpuid_fd, (signed long int)0, 0);
+    if(!(return_value_lseek_2 == 0l))
     {
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
-    signed long int return_value_read$4;
-    return_value_read$4=read(cpuid_fd, (void *)&cpuid_buf, (unsigned long int)32);
-    if(return_value_read$4 == -1l)
+    signed long int return_value_read_4;
+    return_value_read_4=read(cpuid_fd, (void *)&cpuid_buf, (unsigned long int)32);
+    if(return_value_read_4 == -1l)
     {
-      return_value___errno_location$3=__errno_location();
-      return *return_value___errno_location$3;
+      return_value___errno_location_3=__errno_location();
+      return *return_value___errno_location_3;
     }
 
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(cpuid_buf[0l] == 0u)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = cpuid_buf[(signed long int)1] != (unsigned int)0x746e6543 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_5 = cpuid_buf[(signed long int)1] != (unsigned int)0x746e6543 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = cpuid_buf[(signed long int)3] != (unsigned int)0x48727561 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_6 = cpuid_buf[(signed long int)3] != (unsigned int)0x48727561 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = cpuid_buf[(signed long int)2] != (unsigned int)0x736c7561 ? (_Bool)1 : (_Bool)0;
-  signed int *return_value___errno_location$8;
-  signed int *return_value___errno_location$10;
-  _Bool tmp_if_expr$12;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = cpuid_buf[(signed long int)2] != (unsigned int)0x736c7561 ? (_Bool)1 : (_Bool)0;
+  signed int *return_value___errno_location_8;
+  signed int *return_value___errno_location_10;
+  _Bool tmp_if_expr_12;
+  if(tmp_if_expr_7)
     return -1;
 
   else
@@ -1406,20 +1406,20 @@ static signed int detect_via_padlock_rng(signed int cpuid_fd, struct anonymous$1
     CPU_revision=decode_cpu_revision(cpuid_buf[(signed long int)4]);
     do
     {
-      signed long int return_value_lseek$9;
-      return_value_lseek$9=lseek(cpuid_fd, (signed long int)-1073741824, 0);
-      if(!(return_value_lseek$9 == -1073741824l))
+      signed long int return_value_lseek_9;
+      return_value_lseek_9=lseek(cpuid_fd, (signed long int)-1073741824, 0);
+      if(!(return_value_lseek_9 == -1073741824l))
       {
-        return_value___errno_location$8=__errno_location();
-        return *return_value___errno_location$8;
+        return_value___errno_location_8=__errno_location();
+        return *return_value___errno_location_8;
       }
 
-      signed long int return_value_read$11;
-      return_value_read$11=read(cpuid_fd, (void *)&cpuid_buf, (unsigned long int)32);
-      if(return_value_read$11 == -1l)
+      signed long int return_value_read_11;
+      return_value_read_11=read(cpuid_fd, (void *)&cpuid_buf, (unsigned long int)32);
+      if(return_value_read_11 == -1l)
       {
-        return_value___errno_location$10=__errno_location();
-        return *return_value___errno_location$10;
+        return_value___errno_location_10=__errno_location();
+        return *return_value___errno_location_10;
       }
 
     }
@@ -1439,21 +1439,21 @@ static signed int detect_via_padlock_rng(signed int cpuid_fd, struct anonymous$1
         {
           msr_lsw_mask = (unsigned int)(16384 | 8192 | 7168 | 64);
           if(!(CPU_revision >= 395528u))
-            rng_type = (enum anonymous$17)VIA_RNG_TYPE1_ONESRC;
+            rng_type = (enum anonymous_17)VIA_RNG_TYPE1_ONESRC;
 
           else
           {
-            rng_type = (enum anonymous$17)VIA_RNG_TYPE1_TWOSRC;
+            rng_type = (enum anonymous_17)VIA_RNG_TYPE1_TWOSRC;
             msr_lsw_mask = msr_lsw_mask | (unsigned int)768;
           }
           if(is_first_rng == 0)
           {
             if(!(rng_type == rng->rng_type))
-              tmp_if_expr$12 = (_Bool)1;
+              tmp_if_expr_12 = (_Bool)1;
 
             else
-              tmp_if_expr$12 = msr_lsw_mask != rng->MSR_LSW_MASK ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$12)
+              tmp_if_expr_12 = msr_lsw_mask != rng->MSR_LSW_MASK ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_12)
               return -1;
 
           }
@@ -1489,13 +1489,13 @@ extern signed int disable_sigalrm(void)
   sigaddset(&sig, 14);
   pthread_sigmask(0, &sig, (struct anonymous *)(void *)0);
   pthread_mutex_lock(&sigalrm_mutex);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(!(sigalrm_installed == 0u))
   {
-    return_value_pthread_self$1=pthread_self();
-    return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, sigalrm_owner);
-    if(!(return_value_pthread_equal$2 == 0))
+    return_value_pthread_self_1=pthread_self();
+    return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, sigalrm_owner);
+    if(!(return_value_pthread_equal_2 == 0))
     {
       alarm((unsigned int)0);
       sigalrm_installed = (unsigned int)0;
@@ -1551,9 +1551,9 @@ extern void * do_rng_data_sink_loop(void *trash)
       {
         gettimeofday(&stop, ((struct timezone *)NULL));
         pthread_mutex_lock(&rng_stats.group3_mutex);
-        unsigned long int return_value_elapsed_time$1;
-        return_value_elapsed_time$1=elapsed_time(&start, &stop);
-        update_stat(&rng_stats.sink_wait, return_value_elapsed_time$1);
+        unsigned long int return_value_elapsed_time_1;
+        return_value_elapsed_time_1=elapsed_time(&start, &stop);
+        update_stat(&rng_stats.sink_wait, return_value_elapsed_time_1);
         pthread_mutex_unlock(&rng_stats.group3_mutex);
         starving = 0;
       }
@@ -1741,9 +1741,9 @@ extern void * do_rng_fips_test_loop(void *trash)
       }
       gettimeofday(&stop, ((struct timezone *)NULL));
       pthread_mutex_lock(&rng_stats.group2_mutex);
-      unsigned long int return_value_elapsed_time$1;
-      return_value_elapsed_time$1=elapsed_time(&start, &stop);
-      update_stat(&rng_stats.fips_blockfill, return_value_elapsed_time$1);
+      unsigned long int return_value_elapsed_time_1;
+      return_value_elapsed_time_1=elapsed_time(&start, &stop);
+      update_stat(&rng_stats.fips_blockfill, return_value_elapsed_time_1);
       pthread_mutex_unlock(&rng_stats.group2_mutex);
       if(!(fips_result == 0))
       {
@@ -1816,53 +1816,53 @@ static void dump_rng_stats(void)
   signed int j;
   char buf[256l];
   pthread_mutex_lock(&rng_stats.group1_mutex);
-  char *return_value_dump_stat_counter$1;
-  return_value_dump_stat_counter$1=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "bits received from HRNG source", rng_stats.bytes_received * (unsigned long int)8);
-  message(6, return_value_dump_stat_counter$1);
+  char *return_value_dump_stat_counter_1;
+  return_value_dump_stat_counter_1=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "bits received from HRNG source", rng_stats.bytes_received * (unsigned long int)8);
+  message(6, return_value_dump_stat_counter_1);
   pthread_mutex_unlock(&rng_stats.group1_mutex);
   pthread_mutex_lock(&rng_stats.group3_mutex);
-  char *return_value_dump_stat_counter$2;
-  return_value_dump_stat_counter$2=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "bits sent to kernel pool", rng_stats.bytes_sent * (unsigned long int)8);
-  message(6, return_value_dump_stat_counter$2);
-  char *return_value_dump_stat_counter$3;
-  return_value_dump_stat_counter$3=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "entropy added to kernel pool", rng_stats.entropy_sent);
-  message(6, return_value_dump_stat_counter$3);
+  char *return_value_dump_stat_counter_2;
+  return_value_dump_stat_counter_2=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "bits sent to kernel pool", rng_stats.bytes_sent * (unsigned long int)8);
+  message(6, return_value_dump_stat_counter_2);
+  char *return_value_dump_stat_counter_3;
+  return_value_dump_stat_counter_3=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "entropy added to kernel pool", rng_stats.entropy_sent);
+  message(6, return_value_dump_stat_counter_3);
   pthread_mutex_unlock(&rng_stats.group3_mutex);
   pthread_mutex_lock(&rng_stats.group2_mutex);
-  char *return_value_dump_stat_counter$4;
-  return_value_dump_stat_counter$4=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "FIPS 140-2 successes", rng_stats.good_fips_blocks);
-  message(6, return_value_dump_stat_counter$4);
-  char *return_value_dump_stat_counter$5;
-  return_value_dump_stat_counter$5=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "FIPS 140-2 failures", rng_stats.bad_fips_blocks);
-  message(6, return_value_dump_stat_counter$5);
+  char *return_value_dump_stat_counter_4;
+  return_value_dump_stat_counter_4=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "FIPS 140-2 successes", rng_stats.good_fips_blocks);
+  message(6, return_value_dump_stat_counter_4);
+  char *return_value_dump_stat_counter_5;
+  return_value_dump_stat_counter_5=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "FIPS 140-2 failures", rng_stats.bad_fips_blocks);
+  message(6, return_value_dump_stat_counter_5);
   j = 0;
-  char *return_value_dump_stat_counter$6;
+  char *return_value_dump_stat_counter_6;
   for( ; !(j >= 5); j = j + 1)
   {
-    return_value_dump_stat_counter$6=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , fips_test_names[(signed long int)j], rng_stats.fips_failures[(signed long int)j]);
-    message(6, return_value_dump_stat_counter$6);
+    return_value_dump_stat_counter_6=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , fips_test_names[(signed long int)j], rng_stats.fips_failures[(signed long int)j]);
+    message(6, return_value_dump_stat_counter_6);
   }
   pthread_mutex_unlock(&rng_stats.group2_mutex);
   pthread_mutex_lock(&rng_stats.group1_mutex);
-  char *return_value_dump_stat_bw$7;
-  return_value_dump_stat_bw$7=dump_stat_bw(buf, sizeof(char [256l]) /*256ul*/ , "HRNG source speed", "bits", &rng_stats.source_blockfill, (unsigned long int)(2500 * 8));
-  message(6, return_value_dump_stat_bw$7);
+  char *return_value_dump_stat_bw_7;
+  return_value_dump_stat_bw_7=dump_stat_bw(buf, sizeof(char [256l]) /*256ul*/ , "HRNG source speed", "bits", &rng_stats.source_blockfill, (unsigned long int)(2500 * 8));
+  message(6, return_value_dump_stat_bw_7);
   pthread_mutex_unlock(&rng_stats.group1_mutex);
   pthread_mutex_lock(&rng_stats.group2_mutex);
-  char *return_value_dump_stat_bw$8;
-  return_value_dump_stat_bw$8=dump_stat_bw(buf, sizeof(char [256l]) /*256ul*/ , "FIPS tests speed", "bits", &rng_stats.fips_blockfill, (unsigned long int)(2500 * 8));
-  message(6, return_value_dump_stat_bw$8);
+  char *return_value_dump_stat_bw_8;
+  return_value_dump_stat_bw_8=dump_stat_bw(buf, sizeof(char [256l]) /*256ul*/ , "FIPS tests speed", "bits", &rng_stats.fips_blockfill, (unsigned long int)(2500 * 8));
+  message(6, return_value_dump_stat_bw_8);
   pthread_mutex_unlock(&rng_stats.group2_mutex);
   pthread_mutex_lock(&rng_stats.group3_mutex);
-  char *return_value_dump_stat_counter$9;
-  return_value_dump_stat_counter$9=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "Lowest ready-buffers level", rng_stats.buffer_lowmark);
-  message(6, return_value_dump_stat_counter$9);
-  char *return_value_dump_stat_counter$10;
-  return_value_dump_stat_counter$10=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "Entropy starvations", rng_stats.sink_starved);
-  message(6, return_value_dump_stat_counter$10);
-  char *return_value_dump_stat_stat$11;
-  return_value_dump_stat_stat$11=dump_stat_stat(buf, sizeof(char [256l]) /*256ul*/ , "Time spent starving for entropy", "us", &rng_stats.sink_wait);
-  message(6, return_value_dump_stat_stat$11);
+  char *return_value_dump_stat_counter_9;
+  return_value_dump_stat_counter_9=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "Lowest ready-buffers level", rng_stats.buffer_lowmark);
+  message(6, return_value_dump_stat_counter_9);
+  char *return_value_dump_stat_counter_10;
+  return_value_dump_stat_counter_10=dump_stat_counter(buf, sizeof(char [256l]) /*256ul*/ , "Entropy starvations", rng_stats.sink_starved);
+  message(6, return_value_dump_stat_counter_10);
+  char *return_value_dump_stat_stat_11;
+  return_value_dump_stat_stat_11=dump_stat_stat(buf, sizeof(char [256l]) /*256ul*/ , "Time spent starving for entropy", "us", &rng_stats.sink_wait);
+  message(6, return_value_dump_stat_stat_11);
   pthread_mutex_unlock(&rng_stats.group3_mutex);
 }
 
@@ -1925,9 +1925,9 @@ extern unsigned long int elapsed_time(struct timeval *start, struct timeval *sto
   /* assertion start != ((void *)0) && stop != ((void *)0) */
   assert(start != (struct timeval *)(void *)0 && stop != (struct timeval *)(void *)0);
   diff = (signed long int)(((unsigned long int)(stop->tv_sec - start->tv_sec) * 1000000ULL + (unsigned long int)stop->tv_usec) - (unsigned long int)start->tv_usec);
-  signed long long int return_value_llabs$1;
-  return_value_llabs$1=llabs(diff);
-  return (unsigned long int)return_value_llabs$1;
+  signed long long int return_value_llabs_1;
+  return_value_llabs_1=llabs(diff);
+  return (unsigned long int)return_value_llabs_1;
 }
 
 // enable_sigalrm
@@ -1938,30 +1938,30 @@ extern signed int enable_sigalrm(unsigned int seconds)
   struct sigaction action;
   signed int result = 0;
   pthread_mutex_lock(&sigalrm_mutex);
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_pthread_self$3;
-  signed int return_value_pthread_equal$4;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_pthread_self_3;
+  signed int return_value_pthread_equal_4;
   if(sigalrm_installed == 0u)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_pthread_self$3=pthread_self();
-    return_value_pthread_equal$4=pthread_equal(return_value_pthread_self$3, sigalrm_owner);
-    tmp_if_expr$5 = return_value_pthread_equal$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pthread_self_3=pthread_self();
+    return_value_pthread_equal_4=pthread_equal(return_value_pthread_self_3, sigalrm_owner);
+    tmp_if_expr_5 = return_value_pthread_equal_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
   {
     sigemptyset(&action.sa_mask);
     action.sa_flags = 0;
     action.__sigaction_handler.sa_handler = sigalrm_handler;
-    signed int return_value_sigaction$2;
-    return_value_sigaction$2=sigaction(14, &action, (struct sigaction *)(void *)0);
-    if(!(return_value_sigaction$2 >= 0))
+    signed int return_value_sigaction_2;
+    return_value_sigaction_2=sigaction(14, &action, (struct sigaction *)(void *)0);
+    if(!(return_value_sigaction_2 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      message_strerr(3, *return_value___errno_location$1, "unable to install signal handler for SIGARLM");
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      message_strerr(3, *return_value___errno_location_1, "unable to install signal handler for SIGARLM");
       result = -1;
     }
 
@@ -1988,7 +1988,7 @@ extern signed int enable_sigalrm(unsigned int seconds)
 
 // entropy_source_driver_name
 // file rngd_entsource.h line 36
-extern const char * entropy_source_driver_name(enum anonymous$20 driver)
+extern const char * entropy_source_driver_name(enum anonymous_20 driver)
 {
   switch((signed int)driver)
   {
@@ -2029,30 +2029,30 @@ extern signed int fips_run_rng_test(struct fips_ctx *ctx, const void *buf)
   signed int j;
   signed int rng_test = 0;
   const unsigned char *rngdatabuf;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$24;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_24;
   if(ctx == ((struct fips_ctx *)NULL))
     return -1;
 
@@ -2093,11 +2093,11 @@ extern signed int fips_run_rng_test(struct fips_ctx *ctx, const void *buf)
       }
 
       if(ctx->ones >= 10275)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = ctx->ones <= 9725 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = ctx->ones <= 9725 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         rng_test = rng_test | 0x0001;
 
       i = 0;
@@ -2108,121 +2108,121 @@ extern signed int fips_run_rng_test(struct fips_ctx *ctx, const void *buf)
         rng_test = rng_test | 0x0002;
 
       if(!(ctx->runs[0l] >= 2315))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = ctx->runs[(signed long int)0] > 2685 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = ctx->runs[(signed long int)0] > 2685 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = ctx->runs[(signed long int)1] < 1114 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = ctx->runs[(signed long int)1] < 1114 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = ctx->runs[(signed long int)1] > 1386 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = ctx->runs[(signed long int)1] > 1386 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = ctx->runs[(signed long int)2] < 527 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = ctx->runs[(signed long int)2] < 527 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = ctx->runs[(signed long int)2] > 723 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_6 = ctx->runs[(signed long int)2] > 723 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = ctx->runs[(signed long int)3] < 240 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = ctx->runs[(signed long int)3] < 240 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = ctx->runs[(signed long int)3] > 384 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = ctx->runs[(signed long int)3] > 384 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = ctx->runs[(signed long int)4] < 103 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_9 = ctx->runs[(signed long int)4] < 103 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = ctx->runs[(signed long int)4] > 209 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$10)
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_10 = ctx->runs[(signed long int)4] > 209 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_10)
+        tmp_if_expr_11 = (_Bool)1;
 
       else
-        tmp_if_expr$11 = ctx->runs[(signed long int)5] < 103 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$11)
-        tmp_if_expr$12 = (_Bool)1;
+        tmp_if_expr_11 = ctx->runs[(signed long int)5] < 103 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_11)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
-        tmp_if_expr$12 = ctx->runs[(signed long int)5] > 209 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$12)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_12 = ctx->runs[(signed long int)5] > 209 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_12)
+        tmp_if_expr_13 = (_Bool)1;
 
       else
-        tmp_if_expr$13 = ctx->runs[(signed long int)6] < 2315 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$13)
-        tmp_if_expr$14 = (_Bool)1;
+        tmp_if_expr_13 = ctx->runs[(signed long int)6] < 2315 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_13)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
-        tmp_if_expr$14 = ctx->runs[(signed long int)6] > 2685 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$14)
-        tmp_if_expr$15 = (_Bool)1;
+        tmp_if_expr_14 = ctx->runs[(signed long int)6] > 2685 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_14)
+        tmp_if_expr_15 = (_Bool)1;
 
       else
-        tmp_if_expr$15 = ctx->runs[(signed long int)7] < 1114 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$15)
-        tmp_if_expr$16 = (_Bool)1;
+        tmp_if_expr_15 = ctx->runs[(signed long int)7] < 1114 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_15)
+        tmp_if_expr_16 = (_Bool)1;
 
       else
-        tmp_if_expr$16 = ctx->runs[(signed long int)7] > 1386 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$16)
-        tmp_if_expr$17 = (_Bool)1;
+        tmp_if_expr_16 = ctx->runs[(signed long int)7] > 1386 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_16)
+        tmp_if_expr_17 = (_Bool)1;
 
       else
-        tmp_if_expr$17 = ctx->runs[(signed long int)8] < 527 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$17)
-        tmp_if_expr$18 = (_Bool)1;
+        tmp_if_expr_17 = ctx->runs[(signed long int)8] < 527 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_17)
+        tmp_if_expr_18 = (_Bool)1;
 
       else
-        tmp_if_expr$18 = ctx->runs[(signed long int)8] > 723 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$18)
-        tmp_if_expr$19 = (_Bool)1;
+        tmp_if_expr_18 = ctx->runs[(signed long int)8] > 723 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_18)
+        tmp_if_expr_19 = (_Bool)1;
 
       else
-        tmp_if_expr$19 = ctx->runs[(signed long int)9] < 240 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$19)
-        tmp_if_expr$20 = (_Bool)1;
+        tmp_if_expr_19 = ctx->runs[(signed long int)9] < 240 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_19)
+        tmp_if_expr_20 = (_Bool)1;
 
       else
-        tmp_if_expr$20 = ctx->runs[(signed long int)9] > 384 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$20)
-        tmp_if_expr$21 = (_Bool)1;
+        tmp_if_expr_20 = ctx->runs[(signed long int)9] > 384 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_20)
+        tmp_if_expr_21 = (_Bool)1;
 
       else
-        tmp_if_expr$21 = ctx->runs[(signed long int)10] < 103 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$21)
-        tmp_if_expr$22 = (_Bool)1;
+        tmp_if_expr_21 = ctx->runs[(signed long int)10] < 103 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_21)
+        tmp_if_expr_22 = (_Bool)1;
 
       else
-        tmp_if_expr$22 = ctx->runs[(signed long int)10] > 209 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$22)
-        tmp_if_expr$23 = (_Bool)1;
+        tmp_if_expr_22 = ctx->runs[(signed long int)10] > 209 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_22)
+        tmp_if_expr_23 = (_Bool)1;
 
       else
-        tmp_if_expr$23 = ctx->runs[(signed long int)11] < 103 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$23)
-        tmp_if_expr$24 = (_Bool)1;
+        tmp_if_expr_23 = ctx->runs[(signed long int)11] < 103 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_23)
+        tmp_if_expr_24 = (_Bool)1;
 
       else
-        tmp_if_expr$24 = ctx->runs[(signed long int)11] > 209 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$24)
+        tmp_if_expr_24 = ctx->runs[(signed long int)11] > 209 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_24)
         rng_test = rng_test | 0x0004;
 
       memset((void *)ctx->poker, 0, sizeof(signed int [16l]) /*64ul*/ );
@@ -2273,25 +2273,25 @@ static void get_lock(const char *pidfile_name)
   signed int r;
   /* assertion pidfile_name != ((void *)0) */
   assert(pidfile_name != (const char *)(void *)0);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   if(daemon_lockfp == ((struct _IO_FILE *)NULL))
   {
     daemon_lockfd=open(pidfile_name, 02 | 0100, 0644);
     if(daemon_lockfd == -1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       daemon_lockfp=fdopen(daemon_lockfd, "r+");
-      tmp_if_expr$2 = daemon_lockfp == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = daemon_lockfp == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      message_strerr(3, *return_value___errno_location$1, "can't open or create %s", pidfile_name);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      message_strerr(3, *return_value___errno_location_1, "can't open or create %s", pidfile_name);
       die(10);
     }
 
@@ -2301,19 +2301,19 @@ static void get_lock(const char *pidfile_name)
       r=flock(daemon_lockfd, 2 | 4);
       if(!(r == 0))
       {
-        return_value___errno_location$3=__errno_location();
-        tmp_if_expr$4 = *return_value___errno_location$3 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_3=__errno_location();
+        tmp_if_expr_4 = *return_value___errno_location_3 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
     }
-    while(tmp_if_expr$4);
+    while(tmp_if_expr_4);
     if(!(r == 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      if(*return_value___errno_location$6 == 11)
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      if(*return_value___errno_location_6 == 11)
       {
         rewind(daemon_lockfp);
         fscanf(daemon_lockfp, "%d", &otherpid);
@@ -2322,9 +2322,9 @@ static void get_lock(const char *pidfile_name)
 
       else
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        message_strerr(3, *return_value___errno_location$5, "can't lock %s", pidfile_name);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        message_strerr(3, *return_value___errno_location_5, "can't lock %s", pidfile_name);
       }
       die(10);
     }
@@ -2332,15 +2332,15 @@ static void get_lock(const char *pidfile_name)
   }
 
   rewind(daemon_lockfp);
-  signed int return_value_getpid$7;
-  return_value_getpid$7=getpid();
-  fprintf(daemon_lockfp, "%ld\n", (signed long int)return_value_getpid$7);
+  signed int return_value_getpid_7;
+  return_value_getpid_7=getpid();
+  fprintf(daemon_lockfp, "%ld\n", (signed long int)return_value_getpid_7);
   fflush(daemon_lockfp);
-  signed int return_value_fileno$8;
-  return_value_fileno$8=fileno(daemon_lockfp);
-  signed long int return_value_ftell$9;
-  return_value_ftell$9=ftell(daemon_lockfp);
-  ftruncate(return_value_fileno$8, return_value_ftell$9);
+  signed int return_value_fileno_8;
+  return_value_fileno_8=fileno(daemon_lockfp);
+  signed long int return_value_ftell_9;
+  return_value_ftell_9=ftell(daemon_lockfp);
+  ftruncate(return_value_fileno_8, return_value_ftell_9);
 }
 
 // get_rng_proc_parameter
@@ -2356,26 +2356,26 @@ static signed int get_rng_proc_parameter(const char *param, signed long int *val
   snprintf(procname, sizeof(char [512l]) /*512ul*/ , "/proc/sys/kernel/random/%s", param);
   procname[(signed long int)(sizeof(char [512l]) /*512ul*/  - (unsigned long int)1)] = (char)0;
   fp=fopen(procname, "r");
-  _Bool tmp_if_expr$2;
-  signed int return_value_fscanf$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_fscanf_1;
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fscanf$1=fscanf(fp, "%ld", &curvalue);
-    tmp_if_expr$2 = return_value_fscanf$1 == 1 ? (_Bool)1 : (_Bool)0;
+    return_value_fscanf_1=fscanf(fp, "%ld", &curvalue);
+    tmp_if_expr_2 = return_value_fscanf_1 == 1 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     *value = curvalue;
 
   else
     error = 1;
-  signed int return_value_fclose$3;
+  signed int return_value_fclose_3;
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fclose$3=fclose(fp);
-    error = error | return_value_fclose$3;
+    return_value_fclose_3=fclose(fp);
+    error = error | return_value_fclose_3;
   }
 
   if(!(error == 0))
@@ -2396,13 +2396,13 @@ extern signed int getbuffifo_count(struct buf_fifo *fifo)
   /* assertion fifo != ((void *)0) */
   assert(fifo != (struct buf_fifo *)(void *)0);
   pthread_mutex_lock(&fifo->mutex);
-  volatile signed int tmp_if_expr$1;
+  volatile signed int tmp_if_expr_1;
   if(fifo->head >= fifo->tail)
-    tmp_if_expr$1 = fifo->head - fifo->tail;
+    tmp_if_expr_1 = fifo->head - fifo->tail;
 
   else
-    tmp_if_expr$1 = (rng_buffers + 1 + fifo->head) - fifo->tail;
-  count = tmp_if_expr$1;
+    tmp_if_expr_1 = (rng_buffers + 1 + fifo->head) - fifo->tail;
+  count = tmp_if_expr_1;
   pthread_mutex_unlock(&fifo->mutex);
   return count;
 }
@@ -2415,10 +2415,10 @@ extern void init_entropy_source(void)
   /* assertion entropy_source_driver == RNGD_ENTSOURCE_NONE */
   assert((signed int)entropy_source_driver == RNGD_ENTSOURCE_NONE);
   entropy_source_driver = arguments->rng_driver;
-  struct anonymous$1 viacfg;
+  struct anonymous_1 viacfg;
   double viarng_entropy;
-  signed int return_value_viapadlock_rng_init$2;
-  signed int return_value_viapadlock_rng_enable$5;
+  signed int return_value_viapadlock_rng_init_2;
+  signed int return_value_viapadlock_rng_enable_5;
   switch((signed int)entropy_source_driver)
   {
     case RNGD_ENTSOURCE_UNIXSTREAM:
@@ -2426,9 +2426,9 @@ extern void init_entropy_source(void)
       rng_fd=open(arguments->rng_name, 00);
       if(rng_fd == -1)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        message_strerr(3, *return_value___errno_location$1, "can't open %s", arguments->rng_name);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        message_strerr(3, *return_value___errno_location_1, "can't open %s", arguments->rng_name);
         die(1);
       }
 
@@ -2436,8 +2436,8 @@ extern void init_entropy_source(void)
     }
     case RNGD_ENTSOURCE_VIAPADLOCK:
     {
-      return_value_viapadlock_rng_init$2=viapadlock_rng_init((const char *)(void *)0);
-      switch(return_value_viapadlock_rng_init$2)
+      return_value_viapadlock_rng_init_2=viapadlock_rng_init((const char *)(void *)0);
+      switch(return_value_viapadlock_rng_init_2)
       {
         case 0:
         {
@@ -2448,9 +2448,9 @@ extern void init_entropy_source(void)
           break;
         default:
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          message_strerr(3, *return_value___errno_location$3, "Could not initialize VIA PadLock RNG set");
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          message_strerr(3, *return_value___errno_location_3, "Could not initialize VIA PadLock RNG set");
           die(12);
         }
       }
@@ -2458,12 +2458,12 @@ extern void init_entropy_source(void)
       if(IEEE_FLOAT_EQUAL(arguments->rng_entropy, 0.0))
         arguments->rng_entropy = viarng_entropy;
 
-      return_value_viapadlock_rng_enable$5=viapadlock_rng_enable((unsigned int)1, &viacfg);
-      if(!(return_value_viapadlock_rng_enable$5 == 0))
+      return_value_viapadlock_rng_enable_5=viapadlock_rng_enable((unsigned int)1, &viacfg);
+      if(!(return_value_viapadlock_rng_enable_5 == 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        message_strerr(3, *return_value___errno_location$4, "Error while trying to enable the VIA Padlock RNG");
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        message_strerr(3, *return_value___errno_location_4, "Error while trying to enable the VIA Padlock RNG");
         die(12);
       }
 
@@ -2476,19 +2476,19 @@ extern void init_entropy_source(void)
     }
   }
   rng_source_timeout = arguments->rng_timeout;
-  signed int return_value_enable_sigalrm$6;
-  return_value_enable_sigalrm$6=enable_sigalrm((unsigned int)rng_source_timeout);
-  if(!(return_value_enable_sigalrm$6 == 0))
+  signed int return_value_enable_sigalrm_6;
+  return_value_enable_sigalrm_6=enable_sigalrm((unsigned int)rng_source_timeout);
+  if(!(return_value_enable_sigalrm_6 == 0))
     die(1);
 
-  signed int return_value_xread$7;
-  return_value_xread$7=xread((void *)tempbuf, sizeof(unsigned char [4l]) /*4ul*/ , (unsigned int)1);
-  if(!(return_value_xread$7 == 0))
+  signed int return_value_xread_7;
+  return_value_xread_7=xread((void *)tempbuf, sizeof(unsigned char [4l]) /*4ul*/ , (unsigned int)1);
+  if(!(return_value_xread_7 == 0))
     die(1);
 
-  signed int return_value_xread$8;
-  return_value_xread$8=xread((void *)tempbuf, sizeof(unsigned char [4l]) /*4ul*/ , (unsigned int)1);
-  if(!(return_value_xread$8 == 0))
+  signed int return_value_xread_8;
+  return_value_xread_8=xread((void *)tempbuf, sizeof(unsigned char [4l]) /*4ul*/ , (unsigned int)1);
+  if(!(return_value_xread_8 == 0))
     die(1);
 
   disable_sigalrm();
@@ -2504,9 +2504,9 @@ extern void init_kernel_rng(void)
   random_fd=open(arguments->random_name, 02);
   if(random_fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    message_strerr(3, *return_value___errno_location$1, "can't open %s", arguments->random_name);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    message_strerr(3, *return_value___errno_location_1, "can't open %s", arguments->random_name);
     die(10);
   }
 
@@ -2532,57 +2532,57 @@ extern void init_rng_buffers(signed int n)
   rng_buffers = n;
   do
   {
-    pthread_mutex_init(&buffer_queues.empty.mutex, (const union anonymous$6 *)(void *)0);
+    pthread_mutex_init(&buffer_queues.empty.mutex, (const union anonymous_6 *)(void *)0);
     buffer_queues.empty.tail = 0;
     buffer_queues.empty.head = buffer_queues.empty.tail;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)(rng_buffers + 1), sizeof(volatile signed int) /*4ul*/ );
-    void *return_value_test_malloc$2;
-    return_value_test_malloc$2=test_malloc(return_value_calloc$1);
-    buffer_queues.empty.data = (volatile signed int *)return_value_test_malloc$2;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)(rng_buffers + 1), sizeof(volatile signed int) /*4ul*/ );
+    void *return_value_test_malloc_2;
+    return_value_test_malloc_2=test_malloc(return_value_calloc_1);
+    buffer_queues.empty.data = (volatile signed int *)return_value_test_malloc_2;
   }
   while((_Bool)0);
   do
   {
-    pthread_mutex_init(&buffer_queues.full.mutex, (const union anonymous$6 *)(void *)0);
+    pthread_mutex_init(&buffer_queues.full.mutex, (const union anonymous_6 *)(void *)0);
     buffer_queues.full.tail = 0;
     buffer_queues.full.head = buffer_queues.full.tail;
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)(rng_buffers + 1), sizeof(volatile signed int) /*4ul*/ );
-    void *return_value_test_malloc$4;
-    return_value_test_malloc$4=test_malloc(return_value_calloc$3);
-    buffer_queues.full.data = (volatile signed int *)return_value_test_malloc$4;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)(rng_buffers + 1), sizeof(volatile signed int) /*4ul*/ );
+    void *return_value_test_malloc_4;
+    return_value_test_malloc_4=test_malloc(return_value_calloc_3);
+    buffer_queues.full.data = (volatile signed int *)return_value_test_malloc_4;
   }
   while((_Bool)0);
   do
   {
-    pthread_mutex_init(&buffer_queues.accepted.mutex, (const union anonymous$6 *)(void *)0);
+    pthread_mutex_init(&buffer_queues.accepted.mutex, (const union anonymous_6 *)(void *)0);
     buffer_queues.accepted.tail = 0;
     buffer_queues.accepted.head = buffer_queues.accepted.tail;
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc((unsigned long int)(rng_buffers + 1), sizeof(volatile signed int) /*4ul*/ );
-    void *return_value_test_malloc$6;
-    return_value_test_malloc$6=test_malloc(return_value_calloc$5);
-    buffer_queues.accepted.data = (volatile signed int *)return_value_test_malloc$6;
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc((unsigned long int)(rng_buffers + 1), sizeof(volatile signed int) /*4ul*/ );
+    void *return_value_test_malloc_6;
+    return_value_test_malloc_6=test_malloc(return_value_calloc_5);
+    buffer_queues.accepted.data = (volatile signed int *)return_value_test_malloc_6;
   }
   while((_Bool)0);
   do
   {
-    pthread_mutex_init(&buffer_queues.rejected.mutex, (const union anonymous$6 *)(void *)0);
+    pthread_mutex_init(&buffer_queues.rejected.mutex, (const union anonymous_6 *)(void *)0);
     buffer_queues.rejected.tail = 0;
     buffer_queues.rejected.head = buffer_queues.rejected.tail;
-    void *return_value_calloc$7;
-    return_value_calloc$7=calloc((unsigned long int)(rng_buffers + 1), sizeof(volatile signed int) /*4ul*/ );
-    void *return_value_test_malloc$8;
-    return_value_test_malloc$8=test_malloc(return_value_calloc$7);
-    buffer_queues.rejected.data = (volatile signed int *)return_value_test_malloc$8;
+    void *return_value_calloc_7;
+    return_value_calloc_7=calloc((unsigned long int)(rng_buffers + 1), sizeof(volatile signed int) /*4ul*/ );
+    void *return_value_test_malloc_8;
+    return_value_test_malloc_8=test_malloc(return_value_calloc_7);
+    buffer_queues.rejected.data = (volatile signed int *)return_value_test_malloc_8;
   }
   while((_Bool)0);
-  void *return_value_calloc$9;
-  return_value_calloc$9=calloc((unsigned long int)rng_buffers, sizeof(unsigned char *[2500l]) /*8ul*/ );
-  void *return_value_test_malloc$10;
-  return_value_test_malloc$10=test_malloc(return_value_calloc$9);
-  rng_buf = (unsigned char (**)[2500l])return_value_test_malloc$10;
+  void *return_value_calloc_9;
+  return_value_calloc_9=calloc((unsigned long int)rng_buffers, sizeof(unsigned char *[2500l]) /*8ul*/ );
+  void *return_value_test_malloc_10;
+  return_value_test_malloc_10=test_malloc(return_value_calloc_9);
+  rng_buf = (unsigned char (**)[2500l])return_value_test_malloc_10;
   i = 0;
   for( ; !(i >= rng_buffers); i = i + 1)
   {
@@ -2594,18 +2594,18 @@ extern void init_rng_buffers(signed int n)
       pthread_mutex_unlock(&buffer_queues.empty.mutex);
     }
     while((_Bool)0);
-    void *return_value_malloc$11;
-    return_value_malloc$11=malloc((unsigned long int)2500);
-    void *return_value_test_malloc$12;
-    return_value_test_malloc$12=test_malloc(return_value_malloc$11);
-    rng_buf[(signed long int)i] = (unsigned char (*)[2500l])return_value_test_malloc$12;
-    signed int return_value_mlock$14;
-    return_value_mlock$14=mlock((const void *)rng_buf[(signed long int)i], (unsigned long int)2500);
-    if(!(return_value_mlock$14 == 0))
+    void *return_value_malloc_11;
+    return_value_malloc_11=malloc((unsigned long int)2500);
+    void *return_value_test_malloc_12;
+    return_value_test_malloc_12=test_malloc(return_value_malloc_11);
+    rng_buf[(signed long int)i] = (unsigned char (*)[2500l])return_value_test_malloc_12;
+    signed int return_value_mlock_14;
+    return_value_mlock_14=mlock((const void *)rng_buf[(signed long int)i], (unsigned long int)2500);
+    if(!(return_value_mlock_14 == 0))
     {
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      message_strerr(3, *return_value___errno_location$13, "cannot lock buffers");
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      message_strerr(3, *return_value___errno_location_13, "cannot lock buffers");
       die(12);
     }
 
@@ -2619,9 +2619,9 @@ static void init_rng_stats(signed int n)
   set_stat_prefix("stats: ");
   memset((void *)&rng_stats, 0, sizeof(struct rng_stats) /*312ul*/ );
   rng_stats.buffer_lowmark = (unsigned long int)(n - 1);
-  pthread_mutex_init(&rng_stats.group1_mutex, (const union anonymous$6 *)(void *)0);
-  pthread_mutex_init(&rng_stats.group2_mutex, (const union anonymous$6 *)(void *)0);
-  pthread_mutex_init(&rng_stats.group3_mutex, (const union anonymous$6 *)(void *)0);
+  pthread_mutex_init(&rng_stats.group1_mutex, (const union anonymous_6 *)(void *)0);
+  pthread_mutex_init(&rng_stats.group2_mutex, (const union anonymous_6 *)(void *)0);
+  pthread_mutex_init(&rng_stats.group3_mutex, (const union anonymous_6 *)(void *)0);
 }
 
 // init_sighandlers
@@ -2635,35 +2635,35 @@ extern void init_sighandlers(void)
   sigemptyset(&action.sa_mask);
   action.sa_flags = 0;
   action.__sigaction_handler.sa_handler = sigterm_handler;
-  signed int return_value_sigaction$2;
-  return_value_sigaction$2=sigaction(15, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$2 >= 0))
+  signed int return_value_sigaction_2;
+  return_value_sigaction_2=sigaction(15, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    message_strerr(3, *return_value___errno_location$1, "unable to install signal handler for SIGTERM");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    message_strerr(3, *return_value___errno_location_1, "unable to install signal handler for SIGTERM");
     die(12);
   }
 
-  signed int return_value_sigaction$4;
-  return_value_sigaction$4=sigaction(2, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$4 >= 0))
+  signed int return_value_sigaction_4;
+  return_value_sigaction_4=sigaction(2, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_4 >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    message_strerr(3, *return_value___errno_location$3, "unable to install signal handler for SIGINT");
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    message_strerr(3, *return_value___errno_location_3, "unable to install signal handler for SIGINT");
     die(12);
   }
 
   action.sa_flags = 0x10000000;
   action.__sigaction_handler.sa_handler = sigusr1_handler;
-  signed int return_value_sigaction$6;
-  return_value_sigaction$6=sigaction(10, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$6 >= 0))
+  signed int return_value_sigaction_6;
+  return_value_sigaction_6=sigaction(10, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_6 >= 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    message_strerr(3, *return_value___errno_location$5, "unable to install signal handler for SIGUSR1");
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    message_strerr(3, *return_value___errno_location_5, "unable to install signal handler for SIGUSR1");
     die(12);
   }
 
@@ -2678,56 +2678,56 @@ extern void init_sighandlers(void)
 
 // kernel_mode
 // file util.h line 38
-extern enum anonymous$0 kernel_mode(void)
+extern enum anonymous_0 kernel_mode(void)
 {
   struct utsname buf;
   signed long int i;
   char *p;
   char *q;
-  signed int return_value_uname$1;
-  return_value_uname$1=uname(&buf);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  if(!(return_value_uname$1 == 0))
-    return (enum anonymous$0)KERNEL_UNSUPPORTED;
+  signed int return_value_uname_1;
+  return_value_uname_1=uname(&buf);
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  if(!(return_value_uname_1 == 0))
+    return (enum anonymous_0)KERNEL_UNSUPPORTED;
 
   else
   {
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(buf.sysname, "Linux", (unsigned long int)6);
-    if(return_value_strncmp$4 == 0)
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(buf.sysname, "Linux", (unsigned long int)6);
+    if(return_value_strncmp_4 == 0)
     {
       i=strtol(buf.release, &p, 10);
       if(!(i >= 2l))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)*p != 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        return (enum anonymous$0)KERNEL_UNSUPPORTED;
+        tmp_if_expr_2 = (signed int)*p != 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        return (enum anonymous_0)KERNEL_UNSUPPORTED;
 
       if(i >= 3l)
-        return (enum anonymous$0)KERNEL_LINUX_26;
+        return (enum anonymous_0)KERNEL_LINUX_26;
 
       p = p + 1l;
       q = p;
       i=strtol(p, &q, 10);
       if(p == q)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*q != 46 ? (_Bool)1 : (_Bool)0;
-      if(!(i >= 4l) || tmp_if_expr$3)
-        return (enum anonymous$0)KERNEL_UNSUPPORTED;
+        tmp_if_expr_3 = (signed int)*q != 46 ? (_Bool)1 : (_Bool)0;
+      if(!(i >= 4l) || tmp_if_expr_3)
+        return (enum anonymous_0)KERNEL_UNSUPPORTED;
 
       if(!(i >= 6l))
-        return (enum anonymous$0)KERNEL_LINUX_24;
+        return (enum anonymous_0)KERNEL_LINUX_24;
 
-      return (enum anonymous$0)KERNEL_LINUX_26;
+      return (enum anonymous_0)KERNEL_LINUX_26;
     }
 
     else
-      return (enum anonymous$0)KERNEL_UNSUPPORTED;
+      return (enum anonymous_0)KERNEL_UNSUPPORTED;
   }
 }
 
@@ -2758,13 +2758,13 @@ signed int main(signed int argc, char **argv)
   if(!(arguments->daemon == 0))
   {
     get_lock(arguments->pidfile_name);
-    signed int return_value_daemon$2;
-    return_value_daemon$2=daemon(0, 0);
-    if(!(return_value_daemon$2 >= 0))
+    signed int return_value_daemon_2;
+    return_value_daemon_2=daemon(0, 0);
+    if(!(return_value_daemon_2 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      message_strerr(3, *return_value___errno_location$1, "can't daemonize");
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      message_strerr(3, *return_value___errno_location_1, "can't daemonize");
       return 12;
     }
 
@@ -2777,13 +2777,13 @@ signed int main(signed int argc, char **argv)
   message(6, "rngd 2-unofficial-mt.14 starting up...");
   init_rng_buffers(arguments->rng_buffers);
   init_sighandlers();
-  signed int return_value_pthread_create$3;
-  return_value_pthread_create$3=pthread_create(&t1, (const union pthread_attr_t *)(void *)0, do_rng_data_source_loop, (void *)0);
-  signed int return_value_pthread_create$4;
-  return_value_pthread_create$4=pthread_create(&t2, (const union pthread_attr_t *)(void *)0, do_rng_fips_test_loop, (void *)0);
-  signed int return_value_pthread_create$5;
-  return_value_pthread_create$5=pthread_create(&t3, (const union pthread_attr_t *)(void *)0, do_rng_data_sink_loop, (void *)0);
-  if(!((return_value_pthread_create$3 | return_value_pthread_create$4 | return_value_pthread_create$5) == 0))
+  signed int return_value_pthread_create_3;
+  return_value_pthread_create_3=pthread_create(&t1, (const union pthread_attr_t *)(void *)0, do_rng_data_source_loop, (void *)0);
+  signed int return_value_pthread_create_4;
+  return_value_pthread_create_4=pthread_create(&t2, (const union pthread_attr_t *)(void *)0, do_rng_fips_test_loop, (void *)0);
+  signed int return_value_pthread_create_5;
+  return_value_pthread_create_5=pthread_create(&t3, (const union pthread_attr_t *)(void *)0, do_rng_data_sink_loop, (void *)0);
+  if(!((return_value_pthread_create_3 | return_value_pthread_create_4 | return_value_pthread_create_5) == 0))
   {
     message(3, "Insufficient resources to start threads");
     die(12);
@@ -2792,9 +2792,9 @@ signed int main(signed int argc, char **argv)
   sleeptime = 3600;
   while(gotsigterm == 0)
   {
-    unsigned int return_value_sleep$6;
-    return_value_sleep$6=sleep((unsigned int)sleeptime);
-    sleeptime = (signed int)return_value_sleep$6;
+    unsigned int return_value_sleep_6;
+    return_value_sleep_6=sleep((unsigned int)sleeptime);
+    sleeptime = (signed int)return_value_sleep_6;
     if(sleeptime == 0 || !(gotsigterm == 0) || !(gotsigusr1 == 0))
     {
       dump_rng_stats();
@@ -2841,14 +2841,14 @@ extern void message_strerr(signed int priority, signed int errornumber, const ch
   if(!(errornumber == 0))
     strerrbuf=strerror_r(errornumber, errbuf, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(fmt);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(strerrbuf);
-  s = (signed int)(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)3);
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)s);
-  errfmt = (char *)return_value_malloc$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(fmt);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(strerrbuf);
+  s = (signed int)(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)3);
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)s);
+  errfmt = (char *)return_value_malloc_3;
   if(!(errfmt == ((char *)NULL)))
   {
     snprintf(errfmt, (unsigned long int)s, "%s: %s", fmt, strerrbuf);
@@ -2875,46 +2875,46 @@ extern void message_strerr(signed int priority, signed int errornumber, const ch
 // file rngd.c line 278
 static signed int parse_opt(signed int key, char *arg, struct argp_state *state)
 {
-  struct arguments *parse_opt$$1$$arguments = (struct arguments *)state->input;
+  struct arguments *parse_opt__1__arguments = (struct arguments *)state->input;
   signed long int n;
   char *p;
-  _Bool tmp_if_expr$1;
-  signed long int parse_opt$$1$$1$$2$$n;
-  char *parse_opt$$1$$1$$2$$p;
-  _Bool tmp_if_expr$2;
-  signed long int parse_opt$$1$$1$$3$$n;
-  char *parse_opt$$1$$1$$3$$p;
-  _Bool tmp_if_expr$3;
-  signed long int parse_opt$$1$$1$$4$$n;
-  char *parse_opt$$1$$1$$4$$p;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_1;
+  signed long int parse_opt__1__1__2__n;
+  char *parse_opt__1__1__2__p;
+  _Bool tmp_if_expr_2;
+  signed long int parse_opt__1__1__3__n;
+  char *parse_opt__1__1__3__p;
+  _Bool tmp_if_expr_3;
+  signed long int parse_opt__1__1__4__n;
+  char *parse_opt__1__1__4__p;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
   float H;
-  char *parse_opt$$1$$1$$5$$p;
-  _Bool tmp_if_expr$6;
-  signed long int parse_opt$$1$$1$$6$$n;
-  char *parse_opt$$1$$1$$6$$p;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$8;
+  char *parse_opt__1__1__5__p;
+  _Bool tmp_if_expr_6;
+  signed long int parse_opt__1__1__6__n;
+  char *parse_opt__1__1__6__p;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_8;
   signed int i;
-  signed int parse_opt$$1$$1$$9$$i;
-  signed int return_value_strcasecmp$13;
+  signed int parse_opt__1__1__9__i;
+  signed int return_value_strcasecmp_13;
   switch(key)
   {
     case 111:
     {
-      parse_opt$$1$$arguments->random_name = arg;
+      parse_opt__1__arguments->random_name = arg;
       break;
     }
     case 114:
     {
-      parse_opt$$1$$arguments->rng_name = arg;
+      parse_opt__1__arguments->rng_name = arg;
       break;
     }
     case 112:
     {
-      parse_opt$$1$$arguments->pidfile_name = arg;
+      parse_opt__1__arguments->pidfile_name = arg;
       break;
     }
     case 0x82:
@@ -2923,122 +2923,122 @@ static signed int parse_opt(signed int key, char *arg, struct argp_state *state)
     {
       n=strtol(arg, &p, 10);
       if(p == arg)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)*p != 0 ? (_Bool)1 : (_Bool)0;
-      if(n >= 2147483647l || !(n >= 0l) || tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)*p != 0 ? (_Bool)1 : (_Bool)0;
+      if(n >= 2147483647l || !(n >= 0l) || tmp_if_expr_1)
         argp_usage(state);
 
       else
-        parse_opt$$1$$arguments->feed_interval = (signed int)n;
+        parse_opt__1__arguments->feed_interval = (signed int)n;
       break;
     }
     case 84:
     {
-      parse_opt$$1$$1$$2$$n=strtol(arg, &parse_opt$$1$$1$$2$$p, 10);
-      if(parse_opt$$1$$1$$2$$p == arg)
-        tmp_if_expr$2 = (_Bool)1;
+      parse_opt__1__1__2__n=strtol(arg, &parse_opt__1__1__2__p, 10);
+      if(parse_opt__1__1__2__p == arg)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)*parse_opt$$1$$1$$2$$p != 0 ? (_Bool)1 : (_Bool)0;
-      if(parse_opt$$1$$1$$2$$n >= 2147483647l || !(parse_opt$$1$$1$$2$$n >= 0l) || tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)*parse_opt__1__1__2__p != 0 ? (_Bool)1 : (_Bool)0;
+      if(parse_opt__1__1__2__n >= 2147483647l || !(parse_opt__1__1__2__n >= 0l) || tmp_if_expr_2)
         argp_usage(state);
 
       else
-        parse_opt$$1$$arguments->rng_timeout = (signed int)parse_opt$$1$$1$$2$$n;
+        parse_opt__1__arguments->rng_timeout = (signed int)parse_opt__1__1__2__n;
       break;
     }
     case 102:
     {
-      parse_opt$$1$$arguments->daemon = 0;
+      parse_opt__1__arguments->daemon = 0;
       break;
     }
     case 98:
     {
-      parse_opt$$1$$arguments->daemon = 1;
+      parse_opt__1__arguments->daemon = 1;
       break;
     }
     case 115:
     {
-      parse_opt$$1$$1$$3$$n=strtol(arg, &parse_opt$$1$$1$$3$$p, 10);
-      if(parse_opt$$1$$1$$3$$p == arg)
-        tmp_if_expr$3 = (_Bool)1;
+      parse_opt__1__1__3__n=strtol(arg, &parse_opt__1__1__3__p, 10);
+      if(parse_opt__1__1__3__p == arg)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*parse_opt$$1$$1$$3$$p != 0 ? (_Bool)1 : (_Bool)0;
-      if(parse_opt$$1$$1$$3$$n >= 2501l || !((1l & parse_opt$$1$$1$$3$$n) == 0l) || !(parse_opt$$1$$1$$3$$n >= 8l) || tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)*parse_opt__1__1__3__p != 0 ? (_Bool)1 : (_Bool)0;
+      if(parse_opt__1__1__3__n >= 2501l || !((1l & parse_opt__1__1__3__n) == 0l) || !(parse_opt__1__1__3__n >= 8l) || tmp_if_expr_3)
         argp_usage(state);
 
       else
-        parse_opt$$1$$arguments->random_step = (signed int)parse_opt$$1$$1$$3$$n;
+        parse_opt__1__arguments->random_step = (signed int)parse_opt__1__1__3__n;
       break;
     }
     case 87:
     {
-      parse_opt$$1$$1$$4$$n=strtol(arg, &parse_opt$$1$$1$$4$$p, 10);
-      if(!(parse_opt$$1$$1$$4$$p == arg))
-        tmp_if_expr$5 = (signed int)*parse_opt$$1$$1$$4$$p == 37 ? (_Bool)1 : (_Bool)0;
+      parse_opt__1__1__4__n=strtol(arg, &parse_opt__1__1__4__p, 10);
+      if(!(parse_opt__1__1__4__p == arg))
+        tmp_if_expr_5 = (signed int)*parse_opt__1__1__4__p == 37 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
-        parse_opt$$1$$1$$4$$p = parse_opt$$1$$1$$4$$p + 1l;
-        if(parse_opt$$1$$1$$4$$n >= 101l || !((signed int)*parse_opt$$1$$1$$4$$p == 0) || !(parse_opt$$1$$1$$4$$n >= 0l))
+        parse_opt__1__1__4__p = parse_opt__1__1__4__p + 1l;
+        if(parse_opt__1__1__4__n >= 101l || !((signed int)*parse_opt__1__1__4__p == 0) || !(parse_opt__1__1__4__n >= 0l))
           argp_usage(state);
 
         else
-          parse_opt$$1$$arguments->fill_watermark = (signed int)-parse_opt$$1$$1$$4$$n;
+          parse_opt__1__arguments->fill_watermark = (signed int)-parse_opt__1__1__4__n;
       }
 
       else
       {
-        if(parse_opt$$1$$1$$4$$p == arg)
-          tmp_if_expr$4 = (_Bool)1;
+        if(parse_opt__1__1__4__p == arg)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)*parse_opt$$1$$1$$4$$p != 0 ? (_Bool)1 : (_Bool)0;
-        if(parse_opt$$1$$1$$4$$n >= 131072l || tmp_if_expr$4)
+          tmp_if_expr_4 = (signed int)*parse_opt__1__1__4__p != 0 ? (_Bool)1 : (_Bool)0;
+        if(parse_opt__1__1__4__n >= 131072l || tmp_if_expr_4)
           argp_usage(state);
 
         else
-          parse_opt$$1$$arguments->fill_watermark = (signed int)parse_opt$$1$$1$$4$$n;
+          parse_opt__1__arguments->fill_watermark = (signed int)parse_opt__1__1__4__n;
       }
       break;
     }    static unsigned int seen_opt = (unsigned int)0;
     case 72:
     {
-      H=strtof(arg, &parse_opt$$1$$1$$5$$p);
-      if(parse_opt$$1$$1$$5$$p == arg)
-        tmp_if_expr$6 = (_Bool)1;
+      H=strtof(arg, &parse_opt__1__1__5__p);
+      if(parse_opt__1__1__5__p == arg)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)*parse_opt$$1$$1$$5$$p != 0 ? (_Bool)1 : (_Bool)0;
-      if(H <= 0.000000f || H > 1.000000f || tmp_if_expr$6)
+        tmp_if_expr_6 = (signed int)*parse_opt__1__1__5__p != 0 ? (_Bool)1 : (_Bool)0;
+      if(H <= 0.000000f || H > 1.000000f || tmp_if_expr_6)
         argp_usage(state);
 
       else
       {
-        parse_opt$$1$$arguments->rng_entropy = (double)H;
+        parse_opt__1__arguments->rng_entropy = (double)H;
         seen_opt = seen_opt | (unsigned int)0x02;
       }
       break;
     }
     case 66:
     {
-      parse_opt$$1$$1$$6$$n=strtol(arg, &parse_opt$$1$$1$$6$$p, 10);
-      if(parse_opt$$1$$1$$6$$p == arg)
-        tmp_if_expr$7 = (_Bool)1;
+      parse_opt__1__1__6__n=strtol(arg, &parse_opt__1__1__6__p, 10);
+      if(parse_opt__1__1__6__p == arg)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)*parse_opt$$1$$1$$6$$p != 0 ? (_Bool)1 : (_Bool)0;
-      if(parse_opt$$1$$1$$6$$n >= 1001l || !(parse_opt$$1$$1$$6$$n >= 1l) || tmp_if_expr$7)
+        tmp_if_expr_7 = (signed int)*parse_opt__1__1__6__p != 0 ? (_Bool)1 : (_Bool)0;
+      if(parse_opt__1__1__6__n >= 1001l || !(parse_opt__1__1__6__n >= 1l) || tmp_if_expr_7)
         argp_usage(state);
 
       else
       {
-        parse_opt$$1$$arguments->rng_buffers = (signed int)parse_opt$$1$$1$$6$$n;
+        parse_opt__1__arguments->rng_buffers = (signed int)parse_opt__1__1__6__n;
         seen_opt = seen_opt | (unsigned int)0x01;
       }
       break;
@@ -3050,21 +3050,21 @@ static signed int parse_opt(signed int key, char *arg, struct argp_state *state)
 
       else
       {
-        return_value_strcasecmp$9=strcasecmp(arg, "stream");
-        if(return_value_strcasecmp$9 == 0)
+        return_value_strcasecmp_9=strcasecmp(arg, "stream");
+        if(return_value_strcasecmp_9 == 0)
         {
-          parse_opt$$1$$arguments->rng_driver = (enum anonymous$20)RNGD_ENTSOURCE_UNIXSTREAM;
+          parse_opt__1__arguments->rng_driver = (enum anonymous_20)RNGD_ENTSOURCE_UNIXSTREAM;
           seen_opt = seen_opt | (unsigned int)0x04;
         }
 
         else
         {
-          return_value_strcasecmp$8=strcasecmp(arg, "viapadlock");
-          if(return_value_strcasecmp$8 == 0)
+          return_value_strcasecmp_8=strcasecmp(arg, "viapadlock");
+          if(return_value_strcasecmp_8 == 0)
           {
-            parse_opt$$1$$arguments->rng_driver = (enum anonymous$20)RNGD_ENTSOURCE_VIAPADLOCK;
+            parse_opt__1__arguments->rng_driver = (enum anonymous_20)RNGD_ENTSOURCE_VIAPADLOCK;
             if((2u & seen_opt) == 0u)
-              parse_opt$$1$$arguments->rng_entropy = 0.0;
+              parse_opt__1__arguments->rng_entropy = 0.0;
 
             seen_opt = seen_opt | (unsigned int)0x04;
           }
@@ -3080,12 +3080,12 @@ static signed int parse_opt(signed int key, char *arg, struct argp_state *state)
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
-        signed int return_value_strcasecmp$10;
+        signed int return_value_strcasecmp_10;
         static const char * const quality_names[4l] = { "default", "low", "medium", "high" };
-        return_value_strcasecmp$10=strcasecmp(arg, quality_names[(signed long int)i]);
-        if(return_value_strcasecmp$10 == 0)
+        return_value_strcasecmp_10=strcasecmp(arg, quality_names[(signed long int)i]);
+        if(return_value_strcasecmp_10 == 0)
         {
-          parse_opt$$1$$arguments->rng_quality = i;
+          parse_opt__1__arguments->rng_quality = i;
           break;
         }
 
@@ -3097,52 +3097,52 @@ static signed int parse_opt(signed int key, char *arg, struct argp_state *state)
     }
     case 0x81:
     {
-      parse_opt$$1$$1$$9$$i = 0;
-      return_value_strcasecmp$13=strcasecmp(arg, "help");
-      if(return_value_strcasecmp$13 == 0)
+      parse_opt__1__1__9__i = 0;
+      return_value_strcasecmp_13=strcasecmp(arg, "help");
+      if(return_value_strcasecmp_13 == 0)
       {
         fprintf(state->out_stream, "RNG         Description\n");
-        for( ; !(trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].tag == ((char *)NULL)); parse_opt$$1$$1$$9$$i = parse_opt$$1$$1$$9$$i + 1)
+        for( ; !(trng_parameters[(signed long int)parse_opt__1__1__9__i].tag == ((char *)NULL)); parse_opt__1__1__9__i = parse_opt__1__1__9__i + 1)
         {
-          fprintf(state->out_stream, "%-10s  \"%s\"\n", trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].tag, trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].name);
-          if(IEEE_FLOAT_NOTEQUAL(trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].entropy, 0.0))
+          fprintf(state->out_stream, "%-10s  \"%s\"\n", trng_parameters[(signed long int)parse_opt__1__1__9__i].tag, trng_parameters[(signed long int)parse_opt__1__1__9__i].name);
+          if(IEEE_FLOAT_NOTEQUAL(trng_parameters[(signed long int)parse_opt__1__1__9__i].entropy, 0.0))
           {
-            const char *return_value_entropy_source_driver_name$11;
-            return_value_entropy_source_driver_name$11=entropy_source_driver_name(trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].driver);
-            fprintf(state->out_stream, "%-12srng-driver=%s, rng-entropy=%0.3f, rng-buffers=%d;\n", (const void *)" ", return_value_entropy_source_driver_name$11, trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].entropy, trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].buffers);
+            const char *return_value_entropy_source_driver_name_11;
+            return_value_entropy_source_driver_name_11=entropy_source_driver_name(trng_parameters[(signed long int)parse_opt__1__1__9__i].driver);
+            fprintf(state->out_stream, "%-12srng-driver=%s, rng-entropy=%0.3f, rng-buffers=%d;\n", (const void *)" ", return_value_entropy_source_driver_name_11, trng_parameters[(signed long int)parse_opt__1__1__9__i].entropy, trng_parameters[(signed long int)parse_opt__1__1__9__i].buffers);
           }
 
           else
           {
-            const char *return_value_entropy_source_driver_name$12;
-            return_value_entropy_source_driver_name$12=entropy_source_driver_name(trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].driver);
-            fprintf(state->out_stream, "%-12srng-driver=%s, rng-entropy=auto, rng-buffers=%d;\n", (const void *)" ", return_value_entropy_source_driver_name$12, trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].buffers);
+            const char *return_value_entropy_source_driver_name_12;
+            return_value_entropy_source_driver_name_12=entropy_source_driver_name(trng_parameters[(signed long int)parse_opt__1__1__9__i].driver);
+            fprintf(state->out_stream, "%-12srng-driver=%s, rng-entropy=auto, rng-buffers=%d;\n", (const void *)" ", return_value_entropy_source_driver_name_12, trng_parameters[(signed long int)parse_opt__1__1__9__i].buffers);
           }
         }
         exit(0);
       }
 
-      while(!(trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].tag == ((char *)NULL)))
+      while(!(trng_parameters[(signed long int)parse_opt__1__1__9__i].tag == ((char *)NULL)))
       {
-        signed int return_value_strcasecmp$14;
-        return_value_strcasecmp$14=strcasecmp(arg, trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].tag);
-        if(return_value_strcasecmp$14 == 0)
+        signed int return_value_strcasecmp_14;
+        return_value_strcasecmp_14=strcasecmp(arg, trng_parameters[(signed long int)parse_opt__1__1__9__i].tag);
+        if(return_value_strcasecmp_14 == 0)
         {
           if((2u & seen_opt) == 0u)
-            parse_opt$$1$$arguments->rng_entropy = trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].entropy;
+            parse_opt__1__arguments->rng_entropy = trng_parameters[(signed long int)parse_opt__1__1__9__i].entropy;
 
           if((1u & seen_opt) == 0u)
-            parse_opt$$1$$arguments->rng_buffers = trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].buffers;
+            parse_opt__1__arguments->rng_buffers = trng_parameters[(signed long int)parse_opt__1__1__9__i].buffers;
 
           if((4u & seen_opt) == 0u)
-            parse_opt$$1$$arguments->rng_driver = trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].driver;
+            parse_opt__1__arguments->rng_driver = trng_parameters[(signed long int)parse_opt__1__1__9__i].driver;
 
           break;
         }
 
-        parse_opt$$1$$1$$9$$i = parse_opt$$1$$1$$9$$i + 1;
+        parse_opt__1__1__9__i = parse_opt__1__1__9__i + 1;
       }
-      if(trng_parameters[(signed long int)parse_opt$$1$$1$$9$$i].tag == ((char *)NULL))
+      if(trng_parameters[(signed long int)parse_opt__1__1__9__i].tag == ((char *)NULL))
         argp_failure(state, argp_err_exit_status, 0, "Unknown RNG, try --hrng=help");
 
       break;
@@ -3157,21 +3157,21 @@ static signed int parse_opt(signed int key, char *arg, struct argp_state *state)
 // file rngd_linux.c line 186
 static void random_add_entropy(void *buf, unsigned long int size)
 {
-  const signed long int random_add_entropy$array_size0 = (signed long int)size;
-  /* tag-#anon#lST[S32'ent_count'||S32'size'||lARR?{U8}$U8$'data'|] */
-struct anonymous$19
+  const signed long int random_add_entropy_array_size0 = (signed long int)size;
+  /* tag-#anon#lST[S32'ent_count'||S32'size'||lARR?{U8}_U8_'data'|] */
+struct anonymous_19
 {
   // ent_count
   signed int ent_count;
   // size
   signed int size;
   // data
-  unsigned char data[random_add_entropy$array_size0];
+  unsigned char data[random_add_entropy_array_size0];
 };
 
 /* */
   ;
-  struct anonymous$19 entropy;
+  struct anonymous_19 entropy;
   /* assertion buf != ((void *)0) */
   assert(buf != (void *)0);
   entropy.ent_count = (signed int)(arguments->rng_entropy * (double)size * (double)8);
@@ -3180,13 +3180,13 @@ struct anonymous$19
 
   entropy.size = (signed int)size;
   memcpy((void *)entropy.data, buf, size);
-  signed int return_value_ioctl$2;
-  return_value_ioctl$2=ioctl(random_fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(82 << 0 + 8) | (unsigned int)(0x03 << 0)) | sizeof(signed int [2l]) /*8ul*/  << 0 + 8 + 8, &entropy);
-  if(!(return_value_ioctl$2 == 0))
+  signed int return_value_ioctl_2;
+  return_value_ioctl_2=ioctl(random_fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(82 << 0 + 8) | (unsigned int)(0x03 << 0)) | sizeof(signed int [2l]) /*8ul*/  << 0 + 8 + 8, &entropy);
+  if(!(return_value_ioctl_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    message_strerr(3, *return_value___errno_location$1, "RNDADDENTROPY failed");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    message_strerr(3, *return_value___errno_location_1, "RNDADDENTROPY failed");
     exitstatus = 12;
     kill(masterprocess, 15);
     pthread_exit((void *)0);
@@ -3208,12 +3208,12 @@ static void random_sleep(void)
   struct timeval start;
   struct timeval now;
   signed long int timeout_usec;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(random_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(82 << 0 + 8) | (unsigned int)(0x00 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &ent_count);
-  signed int return_value_poll$2;
-  signed int *return_value___errno_location$3;
-  signed int return_value_poll$5;
-  if(return_value_ioctl$1 == 0)
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(random_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(82 << 0 + 8) | (unsigned int)(0x00 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &ent_count);
+  signed int return_value_poll_2;
+  signed int *return_value___errno_location_3;
+  signed int return_value_poll_5;
+  if(return_value_ioctl_1 == 0)
   {
     if((signed long int)ent_count >= random_pool_fill_watermark)
       goto __CPROVER_DUMP_L1;
@@ -3234,18 +3234,18 @@ static void random_sleep(void)
         if(!(timeout_usec >= 1l))
           break;
 
-        return_value_poll$2=poll(&pfd, (unsigned long int)1, (signed int)timeout_usec);
-        if(return_value_poll$2 >= 0)
+        return_value_poll_2=poll(&pfd, (unsigned long int)1, (signed int)timeout_usec);
+        if(return_value_poll_2 >= 0)
           break;
 
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 4)
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 4)
           break;
 
         gettimeofday(&now, (struct timezone *)(void *)0);
-        unsigned long int return_value_elapsed_time$4;
-        return_value_elapsed_time$4=elapsed_time(&start, &now);
-        timeout_usec = timeout_usec - (signed long int)return_value_elapsed_time$4;
+        unsigned long int return_value_elapsed_time_4;
+        return_value_elapsed_time_4=elapsed_time(&start, &now);
+        timeout_usec = timeout_usec - (signed long int)return_value_elapsed_time_4;
         start = now;
       }
     }
@@ -3253,13 +3253,13 @@ static void random_sleep(void)
     else
       while(gotsigterm == 0)
       {
-        return_value_poll$5=poll(&pfd, (unsigned long int)1, -1);
-        if(return_value_poll$5 >= 0)
+        return_value_poll_5=poll(&pfd, (unsigned long int)1, -1);
+        if(return_value_poll_5 >= 0)
           break;
 
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        if(!(*return_value___errno_location$6 == 4))
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        if(!(*return_value___errno_location_6 == 4))
           break;
 
       }
@@ -3271,9 +3271,9 @@ static void random_sleep(void)
 static void rng_data_source_work(signed int i, struct timeval *start, struct timeval *stop)
 {
   gettimeofday(start, ((struct timezone *)NULL));
-  signed int return_value_xread$1;
-  return_value_xread$1=xread((void *)rng_buf[(signed long int)i], (unsigned long int)2500, (unsigned int)0);
-  if(return_value_xread$1 == -1)
+  signed int return_value_xread_1;
+  return_value_xread_1=xread((void *)rng_buf[(signed long int)i], (unsigned long int)2500, (unsigned int)0);
+  if(return_value_xread_1 == -1)
   {
     kill(masterprocess, 15);
     pthread_exit((void *)0);
@@ -3292,9 +3292,9 @@ static void rng_data_source_work(signed int i, struct timeval *start, struct tim
   pthread_cond_signal(&rng_buffer_raw);
   pthread_mutex_unlock(&rng_buffer_raw_mutex);
   pthread_mutex_lock(&rng_stats.group1_mutex);
-  unsigned long int return_value_elapsed_time$2;
-  return_value_elapsed_time$2=elapsed_time(start, stop);
-  update_stat(&rng_stats.source_blockfill, return_value_elapsed_time$2);
+  unsigned long int return_value_elapsed_time_2;
+  return_value_elapsed_time_2=elapsed_time(start, stop);
+  update_stat(&rng_stats.source_blockfill, return_value_elapsed_time_2);
   pthread_mutex_unlock(&rng_stats.group1_mutex);
 }
 
@@ -3382,13 +3382,13 @@ extern void update_stat(struct rng_stat *stat, unsigned long int value)
   unsigned long int overflow = stat->num_samples;
   /* assertion stat != ((void *)0) */
   assert(stat != (struct rng_stat *)(void *)0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(stat->min == 0ul)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = value < stat->min ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = value < stat->min ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     stat->min = value;
 
   if(!(stat->max >= value))
@@ -3417,21 +3417,21 @@ static inline unsigned int via_xstore(unsigned long int *addr, unsigned int edx_
 
 // viapadlock_rng_enable
 // file viapadlock_engine.h line 107
-extern signed int viapadlock_rng_enable(unsigned int enable, struct anonymous$1 *cfg)
+extern signed int viapadlock_rng_enable(unsigned int enable, struct anonymous_1 *cfg)
 {
   signed int error;
   signed int i;
   unsigned int buf[2l];
   if(viapadlock_engines_detected == 0u)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 6;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 6;
     return -1;
   }
 
-  unsigned int tmp_if_expr$2;
-  if(!(cfg == ((struct anonymous$1 *)NULL)))
+  unsigned int tmp_if_expr_2;
+  if(!(cfg == ((struct anonymous_1 *)NULL)))
   {
     if(cfg->dc_bias >= 8u)
       cfg->dc_bias = (unsigned int)7;
@@ -3447,20 +3447,20 @@ extern signed int viapadlock_rng_enable(unsigned int enable, struct anonymous$1 
       cfg->string_filter = (unsigned int)63;
 
     if(cfg->string_filter >= 1u)
-      tmp_if_expr$2 = (unsigned int)16384 | cfg->string_filter << 16;
+      tmp_if_expr_2 = (unsigned int)16384 | cfg->string_filter << 16;
 
     else
-      tmp_if_expr$2 = (unsigned int)0;
-    viapadlock_state.MSR_LSW = ((unsigned int)(cfg->whitener != 0u ? 0 : 8192) | cfg->dc_bias << 10 | (unsigned int)((signed int)cfg->noise_source << 8) | tmp_if_expr$2 | (unsigned int)64) & viapadlock_state.MSR_LSW_MASK;
+      tmp_if_expr_2 = (unsigned int)0;
+    viapadlock_state.MSR_LSW = ((unsigned int)(cfg->whitener != 0u ? 0 : 8192) | cfg->dc_bias << 10 | (unsigned int)((signed int)cfg->noise_source << 8) | tmp_if_expr_2 | (unsigned int)64) & viapadlock_state.MSR_LSW_MASK;
     viapadlock_state.divisor = cfg->divisor;
   }
 
   else
     if(viapadlock_state.MSR_LSW == 0u)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 22;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 22;
       return -1;
     }
 
@@ -3471,32 +3471,32 @@ extern signed int viapadlock_rng_enable(unsigned int enable, struct anonymous$1 
   buf[(signed long int)1] = (unsigned int)0;
   error = 0;
   i = 0;
-  _Bool tmp_if_expr$7;
-  signed long int return_value_write$6;
+  _Bool tmp_if_expr_7;
+  signed long int return_value_write_6;
   for( ; !((unsigned int)i >= viapadlock_engines_detected); i = i + 1)
   {
-    signed long int return_value_lseek$5;
-    return_value_lseek$5=lseek(viapadlock_state.msr_fd[(signed long int)i], (signed long int)4363, 0);
-    if(!(return_value_lseek$5 == 4363l))
-      tmp_if_expr$7 = (_Bool)1;
+    signed long int return_value_lseek_5;
+    return_value_lseek_5=lseek(viapadlock_state.msr_fd[(signed long int)i], (signed long int)4363, 0);
+    if(!(return_value_lseek_5 == 4363l))
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_write$6=write(viapadlock_state.msr_fd[(signed long int)i], (const void *)&buf, (unsigned long int)8);
-      tmp_if_expr$7 = return_value_write$6 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
+      return_value_write_6=write(viapadlock_state.msr_fd[(signed long int)i], (const void *)&buf, (unsigned long int)8);
+      tmp_if_expr_7 = return_value_write_6 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      error = *return_value___errno_location$4;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      error = *return_value___errno_location_4;
       break;
     }
 
   }
-  signed int *return_value___errno_location$8;
-  return_value___errno_location$8=__errno_location();
-  *return_value___errno_location$8 = error;
+  signed int *return_value___errno_location_8;
+  return_value___errno_location_8=__errno_location();
+  *return_value___errno_location_8 = error;
   if(!(error == 0))
     return -1;
 
@@ -3516,14 +3516,14 @@ extern void viapadlock_rng_free(void)
 
 // viapadlock_rng_generate_config
 // file viapadlock_engine.h line 94
-extern double viapadlock_rng_generate_config(unsigned int quality, struct anonymous$1 *cfg)
+extern double viapadlock_rng_generate_config(unsigned int quality, struct anonymous_1 *cfg)
 {
   /* assertion cfg != ((void *)0) */
-  assert(cfg != (struct anonymous$1 *)(void *)0);
+  assert(cfg != (struct anonymous_1 *)(void *)0);
   cfg->dc_bias = (unsigned int)0;
   cfg->whitener = (unsigned int)1;
   cfg->string_filter = (unsigned int)0;
-  cfg->noise_source = (enum anonymous$16)VIAPADLOCK_RNG1_SOURCE_AB;
+  cfg->noise_source = (enum anonymous_16)VIAPADLOCK_RNG1_SOURCE_AB;
   if(quality == 0u || quality >= 3u)
     cfg->divisor = (unsigned int)3;
 
@@ -3553,8 +3553,8 @@ extern signed int viapadlock_rng_init(const char *devicepath)
   msr_fd = cpuid_fd;
   error = 0;
   i = 0;
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_1;
   for( ; !(i >= 32); i = i + 1)
   {
     snprintf(devpath, sizeof(char [4097l]) /*4097ul*/ , cpudev_path, i);
@@ -3563,22 +3563,22 @@ extern signed int viapadlock_rng_init(const char *devicepath)
     msr_fd=open(devpath, 02);
     if(msr_fd == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(!(*return_value___errno_location$3 == 6))
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(!(*return_value___errno_location_3 == 6))
       {
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 2))
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 2))
         {
-          return_value___errno_location$1=__errno_location();
-          error = *return_value___errno_location$1;
+          return_value___errno_location_1=__errno_location();
+          error = *return_value___errno_location_1;
         }
 
       }
 
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(*return_value___errno_location$4 == 5)
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(*return_value___errno_location_4 == 5)
         error = -1;
 
       break;
@@ -3590,12 +3590,12 @@ extern signed int viapadlock_rng_init(const char *devicepath)
     cpuid_fd=open(devpath, 00);
     if(cpuid_fd == -1)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      error = *return_value___errno_location$5;
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      if(*return_value___errno_location$6 == 5)
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      error = *return_value___errno_location_5;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      if(*return_value___errno_location_6 == 5)
         error = -1;
 
       break;
@@ -3622,9 +3622,9 @@ extern signed int viapadlock_rng_init(const char *devicepath)
     viapadlock_rng_free();
     if(!(error == -1))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      *return_value___errno_location$7 = error;
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      *return_value___errno_location_7 = error;
       return -1;
     }
 
@@ -3649,9 +3649,9 @@ extern signed long int viapadlock_rng_read(void *buf, unsigned long int size)
   assert(buf != (void *)0);
   if(viapadlock_engines_detected == 0u)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 6;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 6;
     return (signed long int)-1;
   }
 
@@ -3668,14 +3668,14 @@ extern signed long int viapadlock_rng_read(void *buf, unsigned long int size)
       xstore_flags=via_xstore(xstore_buffer, xstore_divisor);
       if(!((viapadlock_state.MSR_LSW_MASK & xstore_flags) == viapadlock_state.MSR_LSW))
       {
-        signed int return_value_viapadlock_rng_enable$2;
-        return_value_viapadlock_rng_enable$2=viapadlock_rng_enable((unsigned int)1, (struct anonymous$1 *)(void *)0);
-        if(return_value_viapadlock_rng_enable$2 == 0)
+        signed int return_value_viapadlock_rng_enable_2;
+        return_value_viapadlock_rng_enable_2=viapadlock_rng_enable((unsigned int)1, (struct anonymous_1 *)(void *)0);
+        if(return_value_viapadlock_rng_enable_2 == 0)
           return (signed long int)-1;
 
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 11;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 11;
         return (signed long int)-1;
       }
 
@@ -3696,9 +3696,9 @@ extern signed long int viapadlock_rng_read(void *buf, unsigned long int size)
       bytes_read = bytes_read + (unsigned long int)s;
     }
   }
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  *return_value___errno_location$4 = 0;
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  *return_value___errno_location_4 = 0;
   return (signed long int)bytes_read;
 }
 
@@ -3710,12 +3710,12 @@ static signed int xread(void *buf, unsigned long int size, unsigned int abortons
   signed long int r;
   /* assertion buf != ((void *)0) */
   assert(buf != (void *)0);
-  signed int *return_value___errno_location$5;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$1;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_5;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_1;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   while(size >= 1ul)
   {
     while((_Bool)1)
@@ -3732,8 +3732,8 @@ static signed int xread(void *buf, unsigned long int size, unsigned int abortons
           r=viapadlock_rng_read((void *)((unsigned char *)buf + (signed long int)off), size);
           if(r == -1l)
           {
-            return_value___errno_location$5=__errno_location();
-            if(*return_value___errno_location$5 == 11)
+            return_value___errno_location_5=__errno_location();
+            if(*return_value___errno_location_5 == 11)
               message(4, "VIA PadLock RNG configuration changed. Reconfigured.");
 
           }
@@ -3742,8 +3742,8 @@ static signed int xread(void *buf, unsigned long int size, unsigned int abortons
         }
         default:
         {
-          return_value___errno_location$6=__errno_location();
-          *return_value___errno_location$6 = 6;
+          return_value___errno_location_6=__errno_location();
+          *return_value___errno_location_6 = 6;
           return -1;
         }
       }
@@ -3752,21 +3752,21 @@ static signed int xread(void *buf, unsigned long int size, unsigned int abortons
 
       if(r == -1l)
       {
-        return_value___errno_location$1=__errno_location();
-        if(*return_value___errno_location$1 == 4)
-          tmp_if_expr$3 = (_Bool)1;
+        return_value___errno_location_1=__errno_location();
+        if(*return_value___errno_location_1 == 4)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$2=__errno_location();
-          tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_2=__errno_location();
+          tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
         }
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(!tmp_if_expr_4)
         break;
 
     }
@@ -3787,9 +3787,9 @@ static signed int xread(void *buf, unsigned long int size, unsigned int abortons
   }
   if(!(size == 0ul))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    message_strerr(3, *return_value___errno_location$7, "error reading from entropy source:");
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    message_strerr(3, *return_value___errno_location_7, "error reading from entropy source:");
     exitstatus = 11;
     return -1;
   }

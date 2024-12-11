@@ -1,102 +1,102 @@
-// #anon_enum$CTRL_LST=0$CTRL_EN_LSTN=1$CTRL_DE_LSTN=2$CTRL_EN_SVC=3$CTRL_DE_SVC=4$CTRL_EN_BE=5$CTRL_DE_BE=6$CTRL_ADD_SESS=7$CTRL_DEL_SESS=8
+// #anon_enum_CTRL_LST=0_CTRL_EN_LSTN=1_CTRL_DE_LSTN=2_CTRL_EN_SVC=3_CTRL_DE_SVC=4_CTRL_EN_BE=5_CTRL_DE_BE=6_CTRL_ADD_SESS=7_CTRL_DEL_SESS=8
 // file pound.h line 443
-enum anonymous$10 { CTRL_LST=0, CTRL_EN_LSTN=1, CTRL_DE_LSTN=2, CTRL_EN_SVC=3, CTRL_DE_SVC=4, CTRL_EN_BE=5, CTRL_DE_BE=6, CTRL_ADD_SESS=7, CTRL_DEL_SESS=8 };
+enum anonymous_10 { CTRL_LST=0, CTRL_EN_LSTN=1, CTRL_DE_LSTN=2, CTRL_EN_SVC=3, CTRL_DE_SVC=4, CTRL_EN_BE=5, CTRL_DE_BE=6, CTRL_ADD_SESS=7, CTRL_DEL_SESS=8 };
 
-// #anon_enum$RENEG_INIT=0$RENEG_REJECT=1$RENEG_ALLOW=2$RENEG_ABORT=3
+// #anon_enum_RENEG_INIT=0_RENEG_REJECT=1_RENEG_ALLOW=2_RENEG_ABORT=3
 // file pound.h line 426
-enum anonymous$3 { RENEG_INIT=0, RENEG_REJECT=1, RENEG_ALLOW=2, RENEG_ABORT=3 };
+enum anonymous_3 { RENEG_INIT=0, RENEG_REJECT=1, RENEG_ALLOW=2, RENEG_ABORT=3 };
 
-// #anon_enum$SESS_NONE=0$SESS_IP=1$SESS_COOKIE=2$SESS_URL=3$SESS_PARM=4$SESS_HEADER=5$SESS_BASIC=6
+// #anon_enum_SESS_NONE=0_SESS_IP=1_SESS_COOKIE=2_SESS_URL=3_SESS_PARM=4_SESS_HEADER=5_SESS_BASIC=6
 // file pound.h line 312
-enum anonymous$18 { SESS_NONE=0, SESS_IP=1, SESS_COOKIE=2, SESS_URL=3, SESS_PARM=4, SESS_HEADER=5, SESS_BASIC=6 };
+enum anonymous_18 { SESS_NONE=0, SESS_IP=1, SESS_COOKIE=2, SESS_URL=3, SESS_PARM=4, SESS_HEADER=5, SESS_BASIC=6 };
 
-// tag-#anon#ST[*{SYM#tag-lhash_st_TABNODE#}$SYM#tag-lhash_st_TABNODE#$'tab'||S64'lim'||*{V}$V$'content'||S32'cont_len'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-lhash_st_TABNODE#}_SYM#tag-lhash_st_TABNODE#_'tab'||S64'lim'||*{V}_V_'content'||S32'cont_len'||U32'_pad0'|]
 // file svc.c line 113
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{V}$V$'re_pcre'||U64're_nsub'||U64're_erroffset'|]
+// tag-#anon#ST[*{V}_V_'re_pcre'||U64're_nsub'||U64're_erroffset'|]
 // file /usr/include/pcreposix.h line 97
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[ARR128{U8}$U8$'cert_verify_md'||ARR128{U8}$U8$'finish_md'||S32'finish_md_len'||ARR128{U8}$U8$'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'$pad0'||*{cSYM#tag-ssl_cipher_st#}$cSYM#tag-ssl_cipher_st#$'new_cipher'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}$S8$'ctype'||U56'$pad1'||*{SYM#tag-stack_st_X509_NAME#}$SYM#tag-stack_st_X509_NAME#$'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}$U8$'key_block'||*{cSYM#tag-evp_cipher_st#}$cSYM#tag-evp_cipher_st#$'new_sym_enc'||*{cSYM#tag-env_md_st#}$cSYM#tag-env_md_st#$'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}$cSYM#tag-ssl_comp_st#$'new_compression'||S32'cert_request'||U32'$pad2'|]
+// tag-#anon#ST[ARR128{U8}_U8_'cert_verify_md'||ARR128{U8}_U8_'finish_md'||S32'finish_md_len'||ARR128{U8}_U8_'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'_pad0'||*{cSYM#tag-ssl_cipher_st#}_cSYM#tag-ssl_cipher_st#_'new_cipher'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}_S8_'ctype'||U56'_pad1'||*{SYM#tag-stack_st_X509_NAME#}_SYM#tag-stack_st_X509_NAME#_'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}_U8_'key_block'||*{cSYM#tag-evp_cipher_st#}_cSYM#tag-evp_cipher_st#_'new_sym_enc'||*{cSYM#tag-env_md_st#}_cSYM#tag-env_md_st#_'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}_cSYM#tag-ssl_comp_st#_'new_compression'||S32'cert_request'||U32'_pad2'|]
 // file /usr/include/openssl/ssl3.h line 553
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[BF{U32}$U32$'__w_stopval'||BF{U32}$U32$'__w_stopsig'||BF{U32}$U32$'$anon0'|]
+// tag-#anon#ST[BF{U32}_U32_'__w_stopval'||BF{U32}_U32_'__w_stopsig'||BF{U32}_U32_'_anon0'|]
 // file /usr/include/x86_64-linux-gnu/bits/waitstatus.h line 84
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[BF{U32}$U32$'__w_termsig'||BF{U32}$U32$'__w_coredump'||BF{U32}$U32$'__w_retcode'||BF{U32}$U32$'$anon0'|]
+// tag-#anon#ST[BF{U32}_U32_'__w_termsig'||BF{U32}_U32_'__w_coredump'||BF{U32}_U32_'__w_retcode'||BF{U32}_U32_'_anon0'|]
 // file /usr/include/x86_64-linux-gnu/bits/waitstatus.h line 69
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[EN#anon_enum$CTRL_LST=0$CTRL_EN_LSTN=1$CTRL_DE_LSTN=2$CTRL_EN_SVC=3$CTRL_DE_SVC=4$CTRL_EN_BE=5$CTRL_DE_BE=6$CTRL_ADD_SESS=7$CTRL_DEL_SESS=8#{U32}$U32$'cmd'||S32'listener'||S32'service'||S32'backend'||ARR128{S8}$S8$'key'|]
+// tag-#anon#ST[EN#anon_enum_CTRL_LST=0_CTRL_EN_LSTN=1_CTRL_DE_LSTN=2_CTRL_EN_SVC=3_CTRL_DE_SVC=4_CTRL_EN_BE=5_CTRL_DE_BE=6_CTRL_ADD_SESS=7_CTRL_DEL_SESS=8#{U32}_U32_'cmd'||S32'listener'||S32'service'||S32'backend'||ARR128{S8}_S8_'key'|]
 // file pound.h line 451
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'control_sock'||U32'$pad0'||*{SYM#tag-_backend#}$SYM#tag-_backend#$'backends'|]
+// tag-#anon#ST[S32'control_sock'||U32'_pad0'||*{SYM#tag-_backend#}_SYM#tag-_backend#_'backends'|]
 // file svc.c line 1527
 struct anonymous;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/pcreposix.h line 107
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[S32'sess_connect'||S32'sess_connect_renegotiate'||S32'sess_connect_good'||S32'sess_accept'||S32'sess_accept_renegotiate'||S32'sess_accept_good'||S32'sess_miss'||S32'sess_timeout'||S32'sess_cache_full'||S32'sess_hit'||S32'sess_cb_hit'|]
 // file /usr/include/openssl/ssl.h line 964
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[S32'timeout'||U32'$pad0'||*{EN#anon_enum$RENEG_INIT=0$RENEG_REJECT=1$RENEG_ALLOW=2$RENEG_ABORT=3#{U32}$U32$}$EN#anon_enum$RENEG_INIT=0$RENEG_REJECT=1$RENEG_ALLOW=2$RENEG_ABORT=3#{U32}$U32$$'reneg_state'|]
+// tag-#anon#ST[S32'timeout'||U32'_pad0'||*{EN#anon_enum_RENEG_INIT=0_RENEG_REJECT=1_RENEG_ALLOW=2_RENEG_ABORT=3#{U32}_U32_}_EN#anon_enum_RENEG_INIT=0_RENEG_REJECT=1_RENEG_ALLOW=2_RENEG_ABORT=3#{U32}_U32__'reneg_state'|]
 // file http.c line 276
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}$U8$'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
+// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}_U8_'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
 // file /usr/include/openssl/ssl2.h line 203
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
-union anonymous$25;
+union anonymous_25;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-x509_st#}$SYM#tag-x509_st#$'x509'||*{SYM#tag-X509_crl_st#}$SYM#tag-X509_crl_st#$'crl'||*{SYM#tag-evp_pkey_st#}$SYM#tag-evp_pkey_st#$'pkey'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-x509_st#}_SYM#tag-x509_st#_'x509'||*{SYM#tag-X509_crl_st#}_SYM#tag-X509_crl_st#_'crl'||*{SYM#tag-evp_pkey_st#}_SYM#tag-evp_pkey_st#_'pkey'|]
 // file /usr/include/openssl/x509_vfy.h line 126
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[*{SYM#tag-wait#}$SYM#tag-wait#$'__uptr'||*{S32}$S32$'__iptr'|]
+// tag-#anon#UN[*{SYM#tag-wait#}_SYM#tag-wait#_'__uptr'||*{S32}_S32_'__iptr'|]
 // file /usr/include/stdlib.h line 67
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[*{SYM#tag-wait#}$SYM#tag-wait#$'__uptr'||*{S32}$S32$'__iptr'|]$transparent
+// tag-#anon#UN[*{SYM#tag-wait#}_SYM#tag-wait#_'__uptr'||*{S32}_S32_'__iptr'|]_transparent
 // file /usr/include/stdlib.h line 67
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$20;
+union anonymous_20;
 
 // tag-ASIdentifiers_st
 // file /usr/include/openssl/x509.h line 293
@@ -1220,13 +1220,13 @@ static struct _service * parse_service(const char *svc_name);
 static void parse_sess(struct _service * const svc);
 // pcreposix_regcomp
 // file /usr/include/pcreposix.h line 136
-extern signed int pcreposix_regcomp(struct anonymous$8 *, const char *, signed int);
+extern signed int pcreposix_regcomp(struct anonymous_8 *, const char *, signed int);
 // pcreposix_regexec
 // file /usr/include/pcreposix.h line 137
-extern signed int pcreposix_regexec(const struct anonymous$8 *, const char *, unsigned long int, struct anonymous$4 *, signed int);
+extern signed int pcreposix_regexec(const struct anonymous_8 *, const char *, unsigned long int, struct anonymous_4 *, signed int);
 // pcreposix_regfree
 // file /usr/include/pcreposix.h line 140
-extern void pcreposix_regfree(struct anonymous$8 *);
+extern void pcreposix_regfree(struct anonymous_8 *);
 // poll
 // file /usr/include/x86_64-linux-gnu/sys/poll.h line 57
 extern signed int poll(struct pollfd *, unsigned long int, signed int);
@@ -1244,13 +1244,13 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned long int);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$2 *, const union anonymous$9 *);
+extern signed int pthread_cond_init(union anonymous_2 *, const union anonymous_9 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$2 *);
+extern signed int pthread_cond_signal(union anonymous_2 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$2 *, union anonymous$20 *);
+extern signed int pthread_cond_wait(union anonymous_2 *, union anonymous_20 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1259,13 +1259,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern void pthread_exit(void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$20 *, const union anonymous$9 *);
+extern signed int pthread_mutex_init(union anonymous_20 *, const union anonymous_9 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$20 *);
+extern signed int pthread_mutex_lock(union anonymous_20 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$20 *);
+extern signed int pthread_mutex_unlock(union anonymous_20 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -1292,13 +1292,13 @@ extern void * realloc(void *, unsigned long int);
 static void redirect_reply(struct bio_st * const c, const char *url, const signed int code);
 // sel_be
 // file svc.c line 1619
-static struct _backend * sel_be(const struct anonymous$0 *cmd);
+static struct _backend * sel_be(const struct anonymous_0 *cmd);
 // sel_lstn
 // file svc.c line 1581
-static struct _listener * sel_lstn(const struct anonymous$0 *cmd);
+static struct _listener * sel_lstn(const struct anonymous_0 *cmd);
 // sel_svc
 // file svc.c line 1597
-static struct _service * sel_svc(const struct anonymous$0 *cmd);
+static struct _service * sel_svc(const struct anonymous_0 *cmd);
 // setegid
 // file /usr/include/unistd.h line 727
 extern signed int setegid(unsigned int);
@@ -1409,7 +1409,7 @@ static signed int t_cmp(const struct _tn *d1, const struct _tn *d2);
 void t_cont_LHASH_DOALL_ARG(void *arg1, void *arg2);
 // t_cont_doall_arg
 // file svc.c line 167
-static void t_cont_doall_arg(struct _tn *t, struct anonymous$11 *arg);
+static void t_cont_doall_arg(struct _tn *t, struct anonymous_11 *arg);
 // t_dump_LHASH_DOALL_ARG
 // file svc.c line 1553
 void t_dump_LHASH_DOALL_ARG(void *arg1, void *arg2);
@@ -1430,7 +1430,7 @@ static unsigned long int t_hash(const struct _tn *e);
 void t_old_LHASH_DOALL_ARG(void *arg1, void *arg2);
 // t_old_doall_arg
 // file svc.c line 121
-static void t_old_doall_arg(struct _tn *t, struct anonymous$11 *a);
+static void t_old_doall_arg(struct _tn *t, struct anonymous_11 *a);
 // t_remove
 // file svc.c line 96
 static void t_remove(struct lhash_st_TABNODE * const tab, char * const key);
@@ -1466,12 +1466,12 @@ static signed int verify_OK(signed int pre_ok, struct x509_store_ctx_st *ctx);
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // wait
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 102
-extern signed int wait(union anonymous$5);
+extern signed int wait(union anonymous_5);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$11
+struct anonymous_11
 {
   // tab
   struct lhash_st_TABNODE *tab;
@@ -1483,7 +1483,7 @@ struct anonymous$11
   signed int cont_len;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // re_pcre
   void *re_pcre;
@@ -1493,7 +1493,7 @@ struct anonymous$8
   unsigned long int re_erroffset;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // cert_verify_md
   unsigned char cert_verify_md[128l];
@@ -1547,17 +1547,17 @@ struct anonymous$17
   signed int cert_request;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // __w_stopval
   unsigned int __w_stopval : 8;
   // __w_stopsig
   unsigned int __w_stopsig : 8;
-  // $anon0
-  unsigned int $anon0 : 16;
+  // _anon0
+  unsigned int _anon0 : 16;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __w_termsig
   unsigned int __w_termsig : 7;
@@ -1565,14 +1565,14 @@ struct anonymous$13
   unsigned int __w_coredump : 1;
   // __w_retcode
   unsigned int __w_retcode : 8;
-  // $anon0
-  unsigned int $anon0 : 16;
+  // _anon0
+  unsigned int _anon0 : 16;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // cmd
-  enum anonymous$10 cmd;
+  enum anonymous_10 cmd;
   // listener
   signed int listener;
   // service
@@ -1583,7 +1583,7 @@ struct anonymous$0
   char key[128l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __lock
   signed int __lock;
@@ -1611,7 +1611,7 @@ struct anonymous
   struct _backend *backends;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // rm_so
   signed int rm_so;
@@ -1619,7 +1619,7 @@ struct anonymous$4
   signed int rm_eo;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // sess_connect
   signed int sess_connect;
@@ -1645,15 +1645,15 @@ struct anonymous$19
   signed int sess_cb_hit;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // timeout
   signed int timeout;
   // reneg_state
-  enum anonymous$3 *reneg_state;
+  enum anonymous_3 *reneg_state;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // conn_id_length
   unsigned int conn_id_length;
@@ -1679,7 +1679,7 @@ struct anonymous$16
   unsigned int rlen;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // ptr
   char *ptr;
@@ -1693,7 +1693,7 @@ union anonymous$25
   struct ec_key_st *ec;
 };
 
-union anonymous$23
+union anonymous_23
 {
   // ptr
   char *ptr;
@@ -1705,7 +1705,7 @@ union anonymous$23
   struct evp_pkey_st *pkey;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // ptr
   char *ptr;
@@ -1751,7 +1751,7 @@ union anonymous$24
   struct ASN1_VALUE_st *asn1_value;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __uptr
   union wait *__uptr;
@@ -1759,7 +1759,7 @@ union anonymous$15
   signed int *__iptr;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __uptr
   union wait *__uptr;
@@ -1767,7 +1767,7 @@ union anonymous$5
   signed int *__iptr;
 } __attribute__ ((__transparent_union__));
 
-union anonymous$22
+union anonymous_22
 {
   // cb_1
   void (*cb_1)(signed int, signed int, void *);
@@ -1775,7 +1775,7 @@ union anonymous$22
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1785,7 +1785,7 @@ union anonymous$7
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __size
   char __size[4l];
@@ -1793,10 +1793,10 @@ union anonymous$9
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
-  struct anonymous$1 __data;
+  struct anonymous_1 __data;
   // __size
   char __size[48l];
   // __align
@@ -1831,7 +1831,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2088,7 +2088,7 @@ struct _backend
   // ctx
   struct ssl_ctx_st *ctx;
   // mut
-  union anonymous$20 mut;
+  union anonymous_20 mut;
   // n_requests
   signed int n_requests;
   // t_requests
@@ -2128,13 +2128,13 @@ struct _listener
   // add_head
   char *add_head;
   // verb
-  struct anonymous$8 verb;
+  struct anonymous_8 verb;
   // to
   signed int to;
   // has_pat
   signed int has_pat;
   // url_pat
-  struct anonymous$8 url_pat;
+  struct anonymous_8 url_pat;
   // err414
   char *err414;
   // err500
@@ -2170,7 +2170,7 @@ struct _listener
 struct _matcher
 {
   // pat
-  struct anonymous$8 pat;
+  struct anonymous_8 pat;
   // next
   struct _matcher *next;
 };
@@ -2204,15 +2204,15 @@ struct _service
   // tot_pri
   signed int tot_pri;
   // mut
-  union anonymous$20 mut;
+  union anonymous_20 mut;
   // sess_type
-  enum anonymous$18 sess_type;
+  enum anonymous_18 sess_type;
   // sess_ttl
   signed int sess_ttl;
   // sess_start
-  struct anonymous$8 sess_start;
+  struct anonymous_8 sess_start;
   // sess_pat
-  struct anonymous$8 sess_pat;
+  struct anonymous_8 sess_pat;
   // sessions
   struct lhash_st_TABNODE *sessions;
   // dynscale
@@ -2278,7 +2278,7 @@ struct asn1_type_st
   // type
   signed int type;
   // value
-  union anonymous$24 value;
+  union anonymous_24 value;
 };
 
 struct bignum_st
@@ -2368,7 +2368,7 @@ struct bn_gencb_st
   // arg
   void *arg;
   // cb
-  union anonymous$22 cb;
+  union anonymous_22 cb;
 };
 
 struct bn_mont_ctx_st
@@ -2818,7 +2818,7 @@ struct evp_pkey_st
   // engine
   struct engine_st *engine;
   // pkey
-  union anonymous$25 pkey;
+  union anonymous_25 pkey;
   // save_parameters
   signed int save_parameters;
   // attributes
@@ -2870,7 +2870,7 @@ struct hostent
 struct in6_addr
 {
   // __in6_u
-  union anonymous$7 __in6_u;
+  union anonymous_7 __in6_u;
 };
 
 struct in_addr
@@ -3246,7 +3246,7 @@ struct ssl2_state_st
   // write_sequence
   unsigned long int write_sequence;
   // tmp
-  struct anonymous$16 tmp;
+  struct anonymous_16 tmp;
 };
 
 struct ssl3_buffer_st
@@ -3366,7 +3366,7 @@ struct ssl3_state_st
   // server_opaque_prf_input_len
   unsigned long int server_opaque_prf_input_len;
   // tmp
-  struct anonymous$17 tmp;
+  struct anonymous_17 tmp;
   // previous_client_finished
   unsigned char previous_client_finished[64l];
   // previous_client_finished_len
@@ -3454,7 +3454,7 @@ struct ssl_ctx_st
   // get_session_cb
   struct ssl_session_st * (*get_session_cb)(struct ssl_st *, unsigned char *, signed int, signed int *);
   // stats
-  struct anonymous$19 stats;
+  struct anonymous_19 stats;
   // references
   signed int references;
   // app_verify_callback
@@ -4104,9 +4104,9 @@ union wait
   // w_status
   signed int w_status;
   // __wait_terminated
-  struct anonymous$13 __wait_terminated;
+  struct anonymous_13 __wait_terminated;
   // __wait_stopped
-  struct anonymous$14 __wait_stopped;
+  struct anonymous_14 __wait_stopped;
 };
 
 struct x509_cert_aux_st
@@ -4192,7 +4192,7 @@ struct x509_object_st
   // type
   signed int type;
   // data
-  union anonymous$23 data;
+  union anonymous_23 data;
 };
 
 struct x509_st
@@ -4356,55 +4356,55 @@ struct x509_store_st
 
 // AUTHORIZATION
 // file pound.c line 53
-struct anonymous$8 AUTHORIZATION;
+struct anonymous_8 AUTHORIZATION;
 // AddHeader
 // file config.c line 79
-static struct anonymous$8 AddHeader;
+static struct anonymous_8 AddHeader;
 // Address
 // file config.c line 75
-static struct anonymous$8 Address;
+static struct anonymous_8 Address;
 // Alive
 // file config.c line 74
-static struct anonymous$8 Alive;
+static struct anonymous_8 Alive;
 // BackEnd
 // file config.c line 77
-static struct anonymous$8 BackEnd;
+static struct anonymous_8 BackEnd;
 // CAlist
 // file config.c line 79
-static struct anonymous$8 CAlist;
+static struct anonymous_8 CAlist;
 // CHUNK_HEAD
 // file pound.c line 49
-struct anonymous$8 CHUNK_HEAD;
+struct anonymous_8 CHUNK_HEAD;
 // CNName
 // file config.c line 80
-static struct anonymous$8 CNName;
+static struct anonymous_8 CNName;
 // CRLlist
 // file config.c line 79
-static struct anonymous$8 CRLlist;
+static struct anonymous_8 CRLlist;
 // Cert
 // file config.c line 75
-static struct anonymous$8 Cert;
+static struct anonymous_8 Cert;
 // CheckURL
 // file config.c line 75
-static struct anonymous$8 CheckURL;
+static struct anonymous_8 CheckURL;
 // Ciphers
 // file config.c line 79
-static struct anonymous$8 Ciphers;
+static struct anonymous_8 Ciphers;
 // Client
 // file config.c line 75
-static struct anonymous$8 Client;
+static struct anonymous_8 Client;
 // ClientCert
 // file config.c line 79
-static struct anonymous$8 ClientCert;
+static struct anonymous_8 ClientCert;
 // Comment
 // file config.c line 74
-static struct anonymous$8 Comment;
+static struct anonymous_8 Comment;
 // ConnTO
 // file config.c line 80
-static struct anonymous$8 ConnTO;
+static struct anonymous_8 ConnTO;
 // Control
 // file config.c line 74
-static struct anonymous$8 Control;
+static struct anonymous_8 Control;
 // DH1024_params
 // file svc.c line 1440
 static struct dh_st *DH1024_params;
@@ -4413,112 +4413,112 @@ static struct dh_st *DH1024_params;
 static struct dh_st *DH512_params;
 // Daemon
 // file config.c line 74
-static struct anonymous$8 Daemon;
+static struct anonymous_8 Daemon;
 // DisableSSLv2
 // file config.c line 79
-static struct anonymous$8 DisableSSLv2;
+static struct anonymous_8 DisableSSLv2;
 // DisableSSLv3
 // file config.c line 79
-static struct anonymous$8 DisableSSLv3;
+static struct anonymous_8 DisableSSLv3;
 // Disabled
 // file config.c line 80
-static struct anonymous$8 Disabled;
+static struct anonymous_8 Disabled;
 // DynScale
 // file config.c line 78
-static struct anonymous$8 DynScale;
+static struct anonymous_8 DynScale;
 // Emergency
 // file config.c line 77
-static struct anonymous$8 Emergency;
+static struct anonymous_8 Emergency;
 // Empty
 // file config.c line 74
-static struct anonymous$8 Empty;
+static struct anonymous_8 Empty;
 // End
 // file config.c line 75
-static struct anonymous$8 End;
+static struct anonymous_8 End;
 // Err414
 // file config.c line 76
-static struct anonymous$8 Err414;
+static struct anonymous_8 Err414;
 // Err500
 // file config.c line 76
-static struct anonymous$8 Err500;
+static struct anonymous_8 Err500;
 // Err501
 // file config.c line 76
-static struct anonymous$8 Err501;
+static struct anonymous_8 Err501;
 // Err503
 // file config.c line 76
-static struct anonymous$8 Err503;
+static struct anonymous_8 Err503;
 // Grace
 // file config.c line 80
-static struct anonymous$8 Grace;
+static struct anonymous_8 Grace;
 // Group
 // file config.c line 74
-static struct anonymous$8 Group;
+static struct anonymous_8 Group;
 // HAport
 // file config.c line 77
-static struct anonymous$8 HAport;
+static struct anonymous_8 HAport;
 // HAportAddr
 // file config.c line 77
-static struct anonymous$8 HAportAddr;
+static struct anonymous_8 HAportAddr;
 // HEADER
 // file pound.c line 48
-struct anonymous$8 HEADER;
+struct anonymous_8 HEADER;
 // HTTPS
 // file config.c line 80
-static struct anonymous$8 HTTPS;
+static struct anonymous_8 HTTPS;
 // HTTPSCert
 // file config.c line 80
-static struct anonymous$8 HTTPSCert;
+static struct anonymous_8 HTTPSCert;
 // HeadDeny
 // file config.c line 77
-static struct anonymous$8 HeadDeny;
+static struct anonymous_8 HeadDeny;
 // HeadRemove
 // file config.c line 76
-static struct anonymous$8 HeadRemove;
+static struct anonymous_8 HeadRemove;
 // HeadRequire
 // file config.c line 77
-static struct anonymous$8 HeadRequire;
+static struct anonymous_8 HeadRequire;
 // ID
 // file config.c line 78
-static struct anonymous$8 ID;
+static struct anonymous_8 ID;
 // IgnoreCase
 // file config.c line 80
-static struct anonymous$8 IgnoreCase;
+static struct anonymous_8 IgnoreCase;
 // Include
 // file config.c line 80
-static struct anonymous$8 Include;
+static struct anonymous_8 Include;
 // LOCATION
 // file pound.c line 52
-struct anonymous$8 LOCATION;
+struct anonymous_8 LOCATION;
 // ListenHTTP
 // file config.c line 75
-static struct anonymous$8 ListenHTTP;
+static struct anonymous_8 ListenHTTP;
 // ListenHTTPS
 // file config.c line 75
-static struct anonymous$8 ListenHTTPS;
+static struct anonymous_8 ListenHTTPS;
 // LogFacility
 // file config.c line 74
-static struct anonymous$8 LogFacility;
+static struct anonymous_8 LogFacility;
 // LogLevel
 // file config.c line 74
-static struct anonymous$8 LogLevel;
+static struct anonymous_8 LogLevel;
 // MaxRequest
 // file config.c line 76
-static struct anonymous$8 MaxRequest;
+static struct anonymous_8 MaxRequest;
 // NoHTTPS11
 // file config.c line 79
-static struct anonymous$8 NoHTTPS11;
+static struct anonymous_8 NoHTTPS11;
 // Port
 // file config.c line 75
-static struct anonymous$8 Port;
+static struct anonymous_8 Port;
 // Priority
 // file config.c line 77
-static struct anonymous$8 Priority;
+static struct anonymous_8 Priority;
 // RESP_IGN
 // file pound.c line 51
-struct anonymous$8 RESP_IGN;
+struct anonymous_8 RESP_IGN;
 // RESP_SKIP
 // file pound.c line 50
-struct anonymous$8 RESP_SKIP;
+struct anonymous_8 RESP_SKIP;
 // RSA1024_keys
 // file svc.c line 1390
 static struct rsa_st *RSA1024_keys[11l];
@@ -4527,70 +4527,70 @@ static struct rsa_st *RSA1024_keys[11l];
 static struct rsa_st *RSA512_keys[11l];
 // RSA_mut
 // file svc.c line 1388
-static union anonymous$20 RSA_mut;
+static union anonymous_20 RSA_mut;
 // Redirect
 // file config.c line 78
-static struct anonymous$8 Redirect;
+static struct anonymous_8 Redirect;
 // RedirectN
 // file config.c line 78
-static struct anonymous$8 RedirectN;
+static struct anonymous_8 RedirectN;
 // RewriteDestination
 // file config.c line 76
-static struct anonymous$8 RewriteDestination;
+static struct anonymous_8 RewriteDestination;
 // RewriteLocation
 // file config.c line 76
-static struct anonymous$8 RewriteLocation;
+static struct anonymous_8 RewriteLocation;
 // RootJail
 // file config.c line 74
-static struct anonymous$8 RootJail;
+static struct anonymous_8 RootJail;
 // SSLAllowClientRenegotiation
 // file config.c line 79
-static struct anonymous$8 SSLAllowClientRenegotiation;
+static struct anonymous_8 SSLAllowClientRenegotiation;
 // SSLEngine
 // file config.c line 74
-static struct anonymous$8 SSLEngine;
+static struct anonymous_8 SSLEngine;
 // SSLHonorCipherOrder
 // file config.c line 79
-static struct anonymous$8 SSLHonorCipherOrder;
+static struct anonymous_8 SSLHonorCipherOrder;
 // Service
 // file config.c line 77
-static struct anonymous$8 Service;
+static struct anonymous_8 Service;
 // ServiceName
 // file config.c line 77
-static struct anonymous$8 ServiceName;
+static struct anonymous_8 ServiceName;
 // Session
 // file config.c line 78
-static struct anonymous$8 Session;
+static struct anonymous_8 Session;
 // TTL
 // file config.c line 78
-static struct anonymous$8 TTL;
+static struct anonymous_8 TTL;
 // Threads
 // file config.c line 80
-static struct anonymous$8 Threads;
+static struct anonymous_8 Threads;
 // TimeOut
 // file config.c line 78
-static struct anonymous$8 TimeOut;
+static struct anonymous_8 TimeOut;
 // Type
 // file config.c line 78
-static struct anonymous$8 Type;
+static struct anonymous_8 Type;
 // URL
 // file config.c line 77
-static struct anonymous$8 URL;
+static struct anonymous_8 URL;
 // User
 // file config.c line 74
-static struct anonymous$8 User;
+static struct anonymous_8 User;
 // VerifyList
 // file config.c line 79
-static struct anonymous$8 VerifyList;
+static struct anonymous_8 VerifyList;
 // alive_to
 // file pound.c line 37
 signed int alive_to;
 // arg_cond
 // file pound.c line 111
-static union anonymous$2 arg_cond;
+static union anonymous_2 arg_cond;
 // arg_mut
 // file pound.c line 112
-static union anonymous$20 arg_mut;
+static union anonymous_20 arg_mut;
 // be_connto
 // file config.c line 96
 static signed int be_connto = 15;
@@ -4659,7 +4659,7 @@ static char *h503 = "503 Service Unavailable";
 static signed int ignore_case = 0;
 // l_array
 // file pound.c line 68
-static union anonymous$20 *l_array;
+static union anonymous_20 *l_array;
 // last
 // file pound.c line 110
 static struct _thr_arg *last = (struct _thr_arg *)(void *)0;
@@ -4686,7 +4686,7 @@ signed int log_facility;
 static signed int log_level = 1;
 // matches
 // file config.c line 82
-static struct anonymous$4 matches[5l];
+static struct anonymous_4 matches[5l];
 // n_lin
 // file config.c line 104
 static signed int n_lin[8l];
@@ -4743,14 +4743,14 @@ extern struct _IO_FILE *stdout;
 char *user;
 // xHTTP
 // file config.c line 75
-static struct anonymous$8 xHTTP;
+static struct anonymous_8 xHTTP;
 // xhttp
 // file config.c line 84
-static char *xhttp[5l] = { "^(GET|POST|HEAD) ([^ ]+) HTTP/1.[01]$",
-    "^(GET|POST|HEAD|PUT|PATCH|DELETE) ([^ ]+) HTTP/1.[01]$",
-    "^(GET|POST|HEAD|PUT|PATCH|DELETE|LOCK|UNLOCK|PROPFIND|PROPPATCH|SEARCH|MKCOL|MKCALENDAR|MOVE|COPY|OPTIONS|TRACE|MKACTIVITY|CHECKOUT|MERGE|REPORT) ([^ ]+) HTTP/1.[01]$",
-    "^(GET|POST|HEAD|PUT|PATCH|DELETE|LOCK|UNLOCK|PROPFIND|PROPPATCH|SEARCH|MKCOL|MKCALENDAR|MOVE|COPY|OPTIONS|TRACE|MKACTIVITY|CHECKOUT|MERGE|REPORT|SUBSCRIBE|UNSUBSCRIBE|BPROPPATCH|POLL|BMOVE|BCOPY|BDELETE|BPROPFIND|NOTIFY|CONNECT) ([^ ]+) HTTP/1.[01]$",
-    "^(GET|POST|HEAD|PUT|PATCH|DELETE|LOCK|UNLOCK|PROPFIND|PROPPATCH|SEARCH|MKCOL|MKCALENDAR|MOVE|COPY|OPTIONS|TRACE|MKACTIVITY|CHECKOUT|MERGE|REPORT|SUBSCRIBE|UNSUBSCRIBE|BPROPPATCH|POLL|BMOVE|BCOPY|BDELETE|BPROPFIND|NOTIFY|CONNECT|RPC_IN_DATA|RPC_OUT_DATA) ([^ ]+) HTTP/1.[01]$" };
+static char *xhttp[5l] = { "^(GET|POST|HEAD) ([^ ]+) HTTP/1.[01]_",
+    "^(GET|POST|HEAD|PUT|PATCH|DELETE) ([^ ]+) HTTP/1.[01]_",
+    "^(GET|POST|HEAD|PUT|PATCH|DELETE|LOCK|UNLOCK|PROPFIND|PROPPATCH|SEARCH|MKCOL|MKCALENDAR|MOVE|COPY|OPTIONS|TRACE|MKACTIVITY|CHECKOUT|MERGE|REPORT) ([^ ]+) HTTP/1.[01]_",
+    "^(GET|POST|HEAD|PUT|PATCH|DELETE|LOCK|UNLOCK|PROPFIND|PROPPATCH|SEARCH|MKCOL|MKCALENDAR|MOVE|COPY|OPTIONS|TRACE|MKACTIVITY|CHECKOUT|MERGE|REPORT|SUBSCRIBE|UNSUBSCRIBE|BPROPPATCH|POLL|BMOVE|BCOPY|BDELETE|BPROPFIND|NOTIFY|CONNECT) ([^ ]+) HTTP/1.[01]_",
+    "^(GET|POST|HEAD|PUT|PATCH|DELETE|LOCK|UNLOCK|PROPFIND|PROPPATCH|SEARCH|MKCOL|MKCALENDAR|MOVE|COPY|OPTIONS|TRACE|MKACTIVITY|CHECKOUT|MERGE|REPORT|SUBSCRIBE|UNSUBSCRIBE|BPROPPATCH|POLL|BMOVE|BCOPY|BDELETE|BPROPFIND|NOTIFY|CONNECT|RPC_IN_DATA|RPC_OUT_DATA) ([^ ]+) HTTP/1.[01]_" };
 
 // DH_tmp_callback
 // file pound.h line 597
@@ -4766,34 +4766,34 @@ extern struct rsa_st * RSA_tmp_callback(struct ssl_st *ssl, signed int is_export
   struct rsa_st *res;
   signed int ret_val;
   ret_val=pthread_mutex_lock(&RSA_mut);
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   if(!(ret_val == 0))
   {
-    return_value_strerror$1=strerror(ret_val);
-    logmsg(4, "RSA_tmp_callback() lock: %s", return_value_strerror$1);
+    return_value_strerror_1=strerror(ret_val);
+    logmsg(4, "RSA_tmp_callback() lock: %s", return_value_strerror_1);
   }
 
-  struct rsa_st *tmp_if_expr$4;
-  signed int return_value_rand$2;
-  signed int return_value_rand$3;
+  struct rsa_st *tmp_if_expr_4;
+  signed int return_value_rand_2;
+  signed int return_value_rand_3;
   if(!(keylength >= 513))
   {
-    return_value_rand$2=rand();
-    tmp_if_expr$4 = RSA512_keys[(signed long int)(return_value_rand$2 % 11)];
+    return_value_rand_2=rand();
+    tmp_if_expr_4 = RSA512_keys[(signed long int)(return_value_rand_2 % 11)];
   }
 
   else
   {
-    return_value_rand$3=rand();
-    tmp_if_expr$4 = RSA1024_keys[(signed long int)(return_value_rand$3 % 11)];
+    return_value_rand_3=rand();
+    tmp_if_expr_4 = RSA1024_keys[(signed long int)(return_value_rand_3 % 11)];
   }
-  res = tmp_if_expr$4;
+  res = tmp_if_expr_4;
   ret_val=pthread_mutex_unlock(&RSA_mut);
-  char *return_value_strerror$5;
+  char *return_value_strerror_5;
   if(!(ret_val == 0))
   {
-    return_value_strerror$5=strerror(ret_val);
-    logmsg(4, "RSA_tmp_callback() unlock: %s", return_value_strerror$5);
+    return_value_strerror_5=strerror(ret_val);
+    logmsg(4, "RSA_tmp_callback() unlock: %s", return_value_strerror_5);
   }
 
   return res;
@@ -4806,7 +4806,7 @@ static signed int SNI_server_name(struct ssl_st *ssl, signed int *dummy, struct 
   const char *server_name;
   struct _pound_ctx *pc;
   server_name=SSL_get_servername(ssl, 0);
-  signed int return_value_fnmatch$1;
+  signed int return_value_fnmatch_1;
   if(server_name == ((const char *)NULL))
     return 3;
 
@@ -4816,8 +4816,8 @@ static signed int SNI_server_name(struct ssl_st *ssl, signed int *dummy, struct 
     pc = ctx;
     for( ; !(pc == ((struct _pound_ctx *)NULL)); pc = pc->next)
     {
-      return_value_fnmatch$1=fnmatch(pc->server_name, server_name, 0);
-      if(return_value_fnmatch$1 == 0)
+      return_value_fnmatch_1=fnmatch(pc->server_name, server_name, 0);
+      if(return_value_fnmatch_1 == 0)
       {
         SSL_set_SSL_CTX(ssl, pc->ctx);
         return 0;
@@ -4833,25 +4833,25 @@ static signed int SNI_server_name(struct ssl_st *ssl, signed int *dummy, struct 
 // file pound.h line 602
 extern void SSLINFO_callback(const struct ssl_st *ssl, signed int where, signed int rc)
 {
-  enum anonymous$3 *reneg_state;
-  void *return_value_SSL_get_ex_data$1;
-  return_value_SSL_get_ex_data$1=SSL_get_ex_data(ssl, 0);
-  reneg_state = (enum anonymous$3 *)return_value_SSL_get_ex_data$1;
-  _Bool tmp_if_expr$2;
-  if(!(reneg_state == ((enum anonymous$3 *)NULL)))
+  enum anonymous_3 *reneg_state;
+  void *return_value_SSL_get_ex_data_1;
+  return_value_SSL_get_ex_data_1=SSL_get_ex_data(ssl, 0);
+  reneg_state = (enum anonymous_3 *)return_value_SSL_get_ex_data_1;
+  _Bool tmp_if_expr_2;
+  if(!(reneg_state == ((enum anonymous_3 *)NULL)))
   {
     if(!((8193 & where) == 0))
-      tmp_if_expr$2 = (signed int)*reneg_state == RENEG_REJECT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)*reneg_state == RENEG_REJECT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       signed int state;
       state=SSL_state(ssl);
       if(state == 8464 || state == 8720)
       {
-        *reneg_state = (enum anonymous$3)RENEG_ABORT;
+        *reneg_state = (enum anonymous_3)RENEG_ABORT;
         logmsg(4, "rejecting client initiated renegotiation");
       }
 
@@ -4861,7 +4861,7 @@ extern void SSLINFO_callback(const struct ssl_st *ssl, signed int where, signed 
       if(!((0x20 & where) == 0))
       {
         if((signed int)*reneg_state == RENEG_INIT)
-          *reneg_state = (enum anonymous$3)RENEG_REJECT;
+          *reneg_state = (enum anonymous_3)RENEG_REJECT;
 
       }
 
@@ -4877,19 +4877,19 @@ extern void addr2str(char * const res, const signed int res_len, struct addrinfo
   signed int port;
   void *src;
   memset((void *)res, 0, (unsigned long int)res_len);
-  unsigned short int return_value_ntohs$1;
-  const char *return_value_inet_ntop$2;
-  unsigned short int return_value_ntohs$3;
-  const char *return_value_inet_ntop$4;
+  unsigned short int return_value_ntohs_1;
+  const char *return_value_inet_ntop_2;
+  unsigned short int return_value_ntohs_3;
+  const char *return_value_inet_ntop_4;
   switch(addr->ai_family)
   {
     case 2:
     {
       src = (void *)&((struct sockaddr_in *)addr->ai_addr)->sin_addr.s_addr;
-      return_value_ntohs$1=ntohs(((struct sockaddr_in *)addr->ai_addr)->sin_port);
-      port = (signed int)return_value_ntohs$1;
-      return_value_inet_ntop$2=inet_ntop(2, src, buf, (unsigned int)(8192 - 1));
-      if(return_value_inet_ntop$2 == ((const char *)NULL))
+      return_value_ntohs_1=ntohs(((struct sockaddr_in *)addr->ai_addr)->sin_port);
+      port = (signed int)return_value_ntohs_1;
+      return_value_inet_ntop_2=inet_ntop(2, src, buf, (unsigned int)(8192 - 1));
+      if(return_value_inet_ntop_2 == ((const char *)NULL))
         strncpy(buf, "(UNKNOWN)", (unsigned long int)(8192 - 1));
 
       break;
@@ -4897,10 +4897,10 @@ extern void addr2str(char * const res, const signed int res_len, struct addrinfo
     case 10:
     {
       src = (void *)&((struct sockaddr_in6 *)addr->ai_addr)->sin6_addr.__in6_u.__u6_addr8;
-      return_value_ntohs$3=ntohs(((struct sockaddr_in6 *)addr->ai_addr)->sin6_port);
-      port = (signed int)return_value_ntohs$3;
-      return_value_inet_ntop$4=inet_ntop(10, src, buf, (unsigned int)(8192 - 1));
-      if(return_value_inet_ntop$4 == ((const char *)NULL))
+      return_value_ntohs_3=ntohs(((struct sockaddr_in6 *)addr->ai_addr)->sin6_port);
+      port = (signed int)return_value_ntohs_3;
+      return_value_inet_ntop_4=inet_ntop(10, src, buf, (unsigned int)(8192 - 1));
+      if(return_value_inet_ntop_4 == ((const char *)NULL))
         strncpy(buf, "(UNKNOWN)", (unsigned long int)(8192 - 1));
 
       break;
@@ -4932,21 +4932,21 @@ __CPROVER_DUMP_L10:
 // file http.c line 286
 static signed long int bio_callback(struct bio_st * const bio, const signed int cmd, const char *argp, signed int argi, signed long int argl, signed long int ret)
 {
-  struct anonymous$6 *bio_arg;
+  struct anonymous_6 *bio_arg;
   struct pollfd p;
   signed int to;
   signed int p_res;
   signed int p_err;
-  signed int *return_value___errno_location$7;
+  signed int *return_value___errno_location_7;
   if(!(cmd == 0x02) && !(cmd == 0x03))
     return ret;
 
   else
   {
-    char *return_value_BIO_get_callback_arg$1;
-    return_value_BIO_get_callback_arg$1=BIO_get_callback_arg(bio);
-    bio_arg = (struct anonymous$6 *)return_value_BIO_get_callback_arg$1;
-    if(bio_arg == ((struct anonymous$6 *)NULL))
+    char *return_value_BIO_get_callback_arg_1;
+    return_value_BIO_get_callback_arg_1=BIO_get_callback_arg(bio);
+    bio_arg = (struct anonymous_6 *)return_value_BIO_get_callback_arg_1;
+    if(bio_arg == ((struct anonymous_6 *)NULL))
       return ret;
 
     else
@@ -4954,20 +4954,20 @@ static signed long int bio_callback(struct bio_st * const bio, const signed int 
       to = bio_arg->timeout * 1000;
       if(!(to >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 110;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 110;
         return (signed long int)-1;
       }
 
-      if(!(bio_arg->reneg_state == ((enum anonymous$3 *)NULL)))
+      if(!(bio_arg->reneg_state == ((enum anonymous_3 *)NULL)))
       {
         if((signed int)*bio_arg->reneg_state == RENEG_ABORT)
         {
           logmsg(5, "REJECTING renegotiated session");
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 103;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 103;
           return (signed long int)-1;
         }
 
@@ -4983,9 +4983,9 @@ static signed long int bio_callback(struct bio_st * const bio, const signed int 
           BIO_ctrl(bio, 105, (signed long int)0, (void *)(char *)&p.fd);
           p.events = (signed short int)(cmd == 0x02 ? 0x001 | 0x002 : 0x004);
           p_res=poll(&p, (unsigned long int)1, to);
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          p_err = *return_value___errno_location$4;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          p_err = *return_value___errno_location_4;
           switch(p_res)
           {
             case 1:
@@ -4997,9 +4997,9 @@ static signed long int bio_callback(struct bio_st * const bio, const signed int 
 
                 else
                 {
-                  signed int *return_value___errno_location$5;
-                  return_value___errno_location$5=__errno_location();
-                  *return_value___errno_location$5 = 5;
+                  signed int *return_value___errno_location_5;
+                  return_value___errno_location_5=__errno_location();
+                  *return_value___errno_location_5 = 5;
                 }
               }
 
@@ -5009,17 +5009,17 @@ static signed long int bio_callback(struct bio_st * const bio, const signed int 
 
                 else
                 {
-                  signed int *return_value___errno_location$6;
-                  return_value___errno_location$6=__errno_location();
-                  *return_value___errno_location$6 = 104;
+                  signed int *return_value___errno_location_6;
+                  return_value___errno_location_6=__errno_location();
+                  *return_value___errno_location_6 = 104;
                 }
               return (signed long int)-1;
             }
             case 0:
             {
               bio_arg->timeout = err_to;
-              return_value___errno_location$7=__errno_location();
-              *return_value___errno_location$7 = 110;
+              return_value___errno_location_7=__errno_location();
+              *return_value___errno_location_7 = 110;
               return (signed long int)0;
             }
             default:
@@ -5037,17 +5037,17 @@ static signed long int bio_callback(struct bio_st * const bio, const signed int 
 // file pound.h line 539
 extern signed int check_header(const char *header, char * const content)
 {
-  struct anonymous$4 check_header$$1$$matches[4l];
+  struct anonymous_4 check_header__1__matches[4l];
   signed int i;
-  signed int return_value_pcreposix_regexec$3;
-  return_value_pcreposix_regexec$3=pcreposix_regexec(&HEADER, header, (unsigned long int)4, check_header$$1$$matches, 0);
-  signed int return_value_strncasecmp$1;
-  _Bool tmp_if_expr$2;
-  if(return_value_pcreposix_regexec$3 == 0)
+  signed int return_value_pcreposix_regexec_3;
+  return_value_pcreposix_regexec_3=pcreposix_regexec(&HEADER, header, (unsigned long int)4, check_header__1__matches, 0);
+  signed int return_value_strncasecmp_1;
+  _Bool tmp_if_expr_2;
+  if(return_value_pcreposix_regexec_3 == 0)
   {
     i = 0;
-    /* tag-#anon#lST[lARR32{S8}$S8$'header'||S32'len'||S32'val'|] */
-struct anonymous$12
+    /* tag-#anon#lST[lARR32{S8}_S8_'header'||S32'len'||S32'val'|] */
+struct anonymous_12
 {
   // header
   char header[32l];
@@ -5059,7 +5059,7 @@ struct anonymous$12
 
 /* */
     ;
-    static struct anonymous$12 hd_types[10l] = { { .header={ 'T', 'r', 'a', 'n', 's', 'f', 'e', 'r', '-', 'e', 'n', 'c', 'o', 'd', 'i', 'n', 'g', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .len=17,
+    static struct anonymous_12 hd_types[10l] = { { .header={ 'T', 'r', 'a', 'n', 's', 'f', 'e', 'r', '-', 'e', 'n', 'c', 'o', 'd', 'i', 'n', 'g', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .len=17,
     .val=1 },
     { .header={ 'C', 'o', 'n', 't', 'e', 'n', 't', '-', 'l', 'e', 'n', 'g', 't', 'h', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .len=14,
     .val=2 },
@@ -5080,13 +5080,13 @@ struct anonymous$12
     { .header={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .len=0,
     .val=0 } };
     for( ; hd_types[(signed long int)i].len >= 1; i = i + 1)
-      if(check_header$$1$$matches[1l].rm_eo + -check_header$$1$$matches[1l].rm_so == hd_types[(signed long int)i].len)
+      if(check_header__1__matches[1l].rm_eo + -check_header__1__matches[1l].rm_so == hd_types[(signed long int)i].len)
       {
-        return_value_strncasecmp$1=strncasecmp(header + (signed long int)check_header$$1$$matches[(signed long int)1].rm_so, hd_types[(signed long int)i].header, (unsigned long int)hd_types[(signed long int)i].len);
-        if(return_value_strncasecmp$1 == 0)
+        return_value_strncasecmp_1=strncasecmp(header + (signed long int)check_header__1__matches[(signed long int)1].rm_so, hd_types[(signed long int)i].header, (unsigned long int)hd_types[(signed long int)i].len);
+        if(return_value_strncasecmp_1 == 0)
         {
-          strncpy(content, header + (signed long int)check_header$$1$$matches[(signed long int)2].rm_so, (unsigned long int)(check_header$$1$$matches[(signed long int)2].rm_eo - check_header$$1$$matches[(signed long int)2].rm_so));
-          content[(signed long int)(check_header$$1$$matches[(signed long int)2].rm_eo - check_header$$1$$matches[(signed long int)2].rm_so)] = (char)0;
+          strncpy(content, header + (signed long int)check_header__1__matches[(signed long int)2].rm_so, (unsigned long int)(check_header__1__matches[(signed long int)2].rm_eo - check_header__1__matches[(signed long int)2].rm_so));
+          content[(signed long int)(check_header__1__matches[(signed long int)2].rm_eo - check_header__1__matches[(signed long int)2].rm_so)] = (char)0;
           return hd_types[(signed long int)i].val;
         }
 
@@ -5098,11 +5098,11 @@ struct anonymous$12
   else
   {
     if((signed int)*header == 32)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)header[(signed long int)0] == 9 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)header[(signed long int)0] == 9 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       *content = (char)0;
       return 0;
@@ -5126,14 +5126,14 @@ void conf_err(const char *msg)
 static char * conf_fgets(char *buf, const signed int max)
 {
   signed int i;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_pcreposix_regexec$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_pcreposix_regexec_4;
   do
   {
-    char *return_value_fgets$1;
-    return_value_fgets$1=fgets(buf, max, f_in[(signed long int)cur_fin]);
-    if(return_value_fgets$1 == ((char *)NULL))
+    char *return_value_fgets_1;
+    return_value_fgets_1=fgets(buf, max, f_in[(signed long int)cur_fin]);
+    if(return_value_fgets_1 == ((char *)NULL))
     {
       fclose(f_in[(signed long int)cur_fin]);
       free((void *)f_name[(signed long int)cur_fin]);
@@ -5152,32 +5152,32 @@ static char * conf_fgets(char *buf, const signed int max)
     for( ; !(i >= max); i = i + 1)
     {
       if((signed int)buf[(signed long int)i] == 10)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)buf[(signed long int)i] == 13 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)buf[(signed long int)i] == 13 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         buf[(signed long int)i] = (char)0;
         break;
       }
 
     }
-    signed int return_value_pcreposix_regexec$3;
-    return_value_pcreposix_regexec$3=pcreposix_regexec(&Empty, buf, (unsigned long int)4, matches, 0);
-    if(return_value_pcreposix_regexec$3 == 0)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_pcreposix_regexec_3;
+    return_value_pcreposix_regexec_3=pcreposix_regexec(&Empty, buf, (unsigned long int)4, matches, 0);
+    if(return_value_pcreposix_regexec_3 == 0)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_pcreposix_regexec$4=pcreposix_regexec(&Comment, buf, (unsigned long int)4, matches, 0);
-      tmp_if_expr$5 = !(return_value_pcreposix_regexec$4 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_pcreposix_regexec_4=pcreposix_regexec(&Comment, buf, (unsigned long int)4, matches, 0);
+      tmp_if_expr_5 = !(return_value_pcreposix_regexec_4 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$5)
+    if(!tmp_if_expr_5)
     {
-      signed int return_value_pcreposix_regexec$6;
-      return_value_pcreposix_regexec$6=pcreposix_regexec(&Include, buf, (unsigned long int)4, matches, 0);
-      if(return_value_pcreposix_regexec$6 == 0)
+      signed int return_value_pcreposix_regexec_6;
+      return_value_pcreposix_regexec_6=pcreposix_regexec(&Include, buf, (unsigned long int)4, matches, 0);
+      if(return_value_pcreposix_regexec_6 == 0)
       {
         buf[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
         if(cur_fin == 8)
@@ -5234,659 +5234,659 @@ extern void config_parse(const signed int argc, char ** const argv)
   struct _IO_FILE *f_conf;
   signed int c_opt;
   signed int check_only;
-  signed int return_value_pcreposix_regcomp$1;
-  return_value_pcreposix_regcomp$1=pcreposix_regcomp(&Empty, "^[ \t]*$", 0x0001 | 0x0002 | 0);
-  _Bool tmp_if_expr$3;
-  signed int return_value_pcreposix_regcomp$2;
-  if(!(return_value_pcreposix_regcomp$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_pcreposix_regcomp_1;
+  return_value_pcreposix_regcomp_1=pcreposix_regcomp(&Empty, "^[ \t]*_", 0x0001 | 0x0002 | 0);
+  _Bool tmp_if_expr_3;
+  signed int return_value_pcreposix_regcomp_2;
+  if(!(return_value_pcreposix_regcomp_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$2=pcreposix_regcomp(&Comment, "^[ \t]*#.*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$3 = return_value_pcreposix_regcomp$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_2=pcreposix_regcomp(&Comment, "^[ \t]*#.*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_3 = return_value_pcreposix_regcomp_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_pcreposix_regcomp$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_pcreposix_regcomp_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$4=pcreposix_regcomp(&User, "^[ \t]*User[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$5 = return_value_pcreposix_regcomp$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_4=pcreposix_regcomp(&User, "^[ \t]*User[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_5 = return_value_pcreposix_regcomp_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_pcreposix_regcomp$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_pcreposix_regcomp_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$6=pcreposix_regcomp(&Group, "^[ \t]*Group[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$7 = return_value_pcreposix_regcomp$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_6=pcreposix_regcomp(&Group, "^[ \t]*Group[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_7 = return_value_pcreposix_regcomp_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_pcreposix_regcomp$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed int return_value_pcreposix_regcomp_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$8=pcreposix_regcomp(&RootJail, "^[ \t]*RootJail[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$9 = return_value_pcreposix_regcomp$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_8=pcreposix_regcomp(&RootJail, "^[ \t]*RootJail[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_9 = return_value_pcreposix_regcomp_8 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed int return_value_pcreposix_regcomp$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed int return_value_pcreposix_regcomp_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$10=pcreposix_regcomp(&Daemon, "^[ \t]*Daemon[ \t]+([01])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$11 = return_value_pcreposix_regcomp$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_10=pcreposix_regcomp(&Daemon, "^[ \t]*Daemon[ \t]+([01])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_11 = return_value_pcreposix_regcomp_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed int return_value_pcreposix_regcomp$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed int return_value_pcreposix_regcomp_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$12=pcreposix_regcomp(&Threads, "^[ \t]*Threads[ \t]+([1-9][0-9]*)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$13 = return_value_pcreposix_regcomp$12 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_12=pcreposix_regcomp(&Threads, "^[ \t]*Threads[ \t]+([1-9][0-9]*)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_13 = return_value_pcreposix_regcomp_12 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed int return_value_pcreposix_regcomp$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed int return_value_pcreposix_regcomp_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$14=pcreposix_regcomp(&LogFacility, "^[ \t]*LogFacility[ \t]+([a-z0-9-]+)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$15 = return_value_pcreposix_regcomp$14 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_14=pcreposix_regcomp(&LogFacility, "^[ \t]*LogFacility[ \t]+([a-z0-9-]+)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_15 = return_value_pcreposix_regcomp_14 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed int return_value_pcreposix_regcomp$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed int return_value_pcreposix_regcomp_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$16=pcreposix_regcomp(&LogLevel, "^[ \t]*LogLevel[ \t]+([0-5])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$17 = return_value_pcreposix_regcomp$16 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_16=pcreposix_regcomp(&LogLevel, "^[ \t]*LogLevel[ \t]+([0-5])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_17 = return_value_pcreposix_regcomp_16 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed int return_value_pcreposix_regcomp$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed int return_value_pcreposix_regcomp_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$18=pcreposix_regcomp(&Grace, "^[ \t]*Grace[ \t]+([0-9]+)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$19 = return_value_pcreposix_regcomp$18 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_18=pcreposix_regcomp(&Grace, "^[ \t]*Grace[ \t]+([0-9]+)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_19 = return_value_pcreposix_regcomp_18 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed int return_value_pcreposix_regcomp$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed int return_value_pcreposix_regcomp_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$20=pcreposix_regcomp(&Alive, "^[ \t]*Alive[ \t]+([1-9][0-9]*)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$21 = return_value_pcreposix_regcomp$20 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_20=pcreposix_regcomp(&Alive, "^[ \t]*Alive[ \t]+([1-9][0-9]*)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_21 = return_value_pcreposix_regcomp_20 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed int return_value_pcreposix_regcomp$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed int return_value_pcreposix_regcomp_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$22=pcreposix_regcomp(&SSLEngine, "^[ \t]*SSLEngine[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$23 = return_value_pcreposix_regcomp$22 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_22=pcreposix_regcomp(&SSLEngine, "^[ \t]*SSLEngine[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_23 = return_value_pcreposix_regcomp_22 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed int return_value_pcreposix_regcomp$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed int return_value_pcreposix_regcomp_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$24=pcreposix_regcomp(&Control, "^[ \t]*Control[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$25 = return_value_pcreposix_regcomp$24 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_24=pcreposix_regcomp(&Control, "^[ \t]*Control[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_25 = return_value_pcreposix_regcomp_24 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed int return_value_pcreposix_regcomp$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed int return_value_pcreposix_regcomp_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$26=pcreposix_regcomp(&ListenHTTP, "^[ \t]*ListenHTTP[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$27 = return_value_pcreposix_regcomp$26 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_26=pcreposix_regcomp(&ListenHTTP, "^[ \t]*ListenHTTP[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_27 = return_value_pcreposix_regcomp_26 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$29;
-  signed int return_value_pcreposix_regcomp$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$29 = (_Bool)1;
+  _Bool tmp_if_expr_29;
+  signed int return_value_pcreposix_regcomp_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_29 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$28=pcreposix_regcomp(&ListenHTTPS, "^[ \t]*ListenHTTPS[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$29 = return_value_pcreposix_regcomp$28 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_28=pcreposix_regcomp(&ListenHTTPS, "^[ \t]*ListenHTTPS[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_29 = return_value_pcreposix_regcomp_28 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$31;
-  signed int return_value_pcreposix_regcomp$30;
-  if(tmp_if_expr$29)
-    tmp_if_expr$31 = (_Bool)1;
+  _Bool tmp_if_expr_31;
+  signed int return_value_pcreposix_regcomp_30;
+  if(tmp_if_expr_29)
+    tmp_if_expr_31 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$30=pcreposix_regcomp(&End, "^[ \t]*End[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$31 = return_value_pcreposix_regcomp$30 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_30=pcreposix_regcomp(&End, "^[ \t]*End[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_31 = return_value_pcreposix_regcomp_30 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$33;
-  signed int return_value_pcreposix_regcomp$32;
-  if(tmp_if_expr$31)
-    tmp_if_expr$33 = (_Bool)1;
+  _Bool tmp_if_expr_33;
+  signed int return_value_pcreposix_regcomp_32;
+  if(tmp_if_expr_31)
+    tmp_if_expr_33 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$32=pcreposix_regcomp(&Address, "^[ \t]*Address[ \t]+([^ \t]+)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$33 = return_value_pcreposix_regcomp$32 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_32=pcreposix_regcomp(&Address, "^[ \t]*Address[ \t]+([^ \t]+)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_33 = return_value_pcreposix_regcomp_32 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$35;
-  signed int return_value_pcreposix_regcomp$34;
-  if(tmp_if_expr$33)
-    tmp_if_expr$35 = (_Bool)1;
+  _Bool tmp_if_expr_35;
+  signed int return_value_pcreposix_regcomp_34;
+  if(tmp_if_expr_33)
+    tmp_if_expr_35 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$34=pcreposix_regcomp(&Port, "^[ \t]*Port[ \t]+([1-9][0-9]*)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$35 = return_value_pcreposix_regcomp$34 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_34=pcreposix_regcomp(&Port, "^[ \t]*Port[ \t]+([1-9][0-9]*)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_35 = return_value_pcreposix_regcomp_34 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$37;
-  signed int return_value_pcreposix_regcomp$36;
-  if(tmp_if_expr$35)
-    tmp_if_expr$37 = (_Bool)1;
+  _Bool tmp_if_expr_37;
+  signed int return_value_pcreposix_regcomp_36;
+  if(tmp_if_expr_35)
+    tmp_if_expr_37 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$36=pcreposix_regcomp(&Cert, "^[ \t]*Cert[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$37 = return_value_pcreposix_regcomp$36 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_36=pcreposix_regcomp(&Cert, "^[ \t]*Cert[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_37 = return_value_pcreposix_regcomp_36 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$39;
-  signed int return_value_pcreposix_regcomp$38;
-  if(tmp_if_expr$37)
-    tmp_if_expr$39 = (_Bool)1;
+  _Bool tmp_if_expr_39;
+  signed int return_value_pcreposix_regcomp_38;
+  if(tmp_if_expr_37)
+    tmp_if_expr_39 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$38=pcreposix_regcomp(&xHTTP, "^[ \t]*xHTTP[ \t]+([01234])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$39 = return_value_pcreposix_regcomp$38 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_38=pcreposix_regcomp(&xHTTP, "^[ \t]*xHTTP[ \t]+([01234])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_39 = return_value_pcreposix_regcomp_38 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$41;
-  signed int return_value_pcreposix_regcomp$40;
-  if(tmp_if_expr$39)
-    tmp_if_expr$41 = (_Bool)1;
+  _Bool tmp_if_expr_41;
+  signed int return_value_pcreposix_regcomp_40;
+  if(tmp_if_expr_39)
+    tmp_if_expr_41 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$40=pcreposix_regcomp(&Client, "^[ \t]*Client[ \t]+([1-9][0-9]*)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$41 = return_value_pcreposix_regcomp$40 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_40=pcreposix_regcomp(&Client, "^[ \t]*Client[ \t]+([1-9][0-9]*)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_41 = return_value_pcreposix_regcomp_40 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$43;
-  signed int return_value_pcreposix_regcomp$42;
-  if(tmp_if_expr$41)
-    tmp_if_expr$43 = (_Bool)1;
+  _Bool tmp_if_expr_43;
+  signed int return_value_pcreposix_regcomp_42;
+  if(tmp_if_expr_41)
+    tmp_if_expr_43 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$42=pcreposix_regcomp(&CheckURL, "^[ \t]*CheckURL[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$43 = return_value_pcreposix_regcomp$42 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_42=pcreposix_regcomp(&CheckURL, "^[ \t]*CheckURL[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_43 = return_value_pcreposix_regcomp_42 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$45;
-  signed int return_value_pcreposix_regcomp$44;
-  if(tmp_if_expr$43)
-    tmp_if_expr$45 = (_Bool)1;
+  _Bool tmp_if_expr_45;
+  signed int return_value_pcreposix_regcomp_44;
+  if(tmp_if_expr_43)
+    tmp_if_expr_45 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$44=pcreposix_regcomp(&Err414, "^[ \t]*Err414[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$45 = return_value_pcreposix_regcomp$44 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_44=pcreposix_regcomp(&Err414, "^[ \t]*Err414[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_45 = return_value_pcreposix_regcomp_44 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$47;
-  signed int return_value_pcreposix_regcomp$46;
-  if(tmp_if_expr$45)
-    tmp_if_expr$47 = (_Bool)1;
+  _Bool tmp_if_expr_47;
+  signed int return_value_pcreposix_regcomp_46;
+  if(tmp_if_expr_45)
+    tmp_if_expr_47 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$46=pcreposix_regcomp(&Err500, "^[ \t]*Err500[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$47 = return_value_pcreposix_regcomp$46 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_46=pcreposix_regcomp(&Err500, "^[ \t]*Err500[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_47 = return_value_pcreposix_regcomp_46 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$49;
-  signed int return_value_pcreposix_regcomp$48;
-  if(tmp_if_expr$47)
-    tmp_if_expr$49 = (_Bool)1;
+  _Bool tmp_if_expr_49;
+  signed int return_value_pcreposix_regcomp_48;
+  if(tmp_if_expr_47)
+    tmp_if_expr_49 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$48=pcreposix_regcomp(&Err501, "^[ \t]*Err501[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$49 = return_value_pcreposix_regcomp$48 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_48=pcreposix_regcomp(&Err501, "^[ \t]*Err501[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_49 = return_value_pcreposix_regcomp_48 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$51;
-  signed int return_value_pcreposix_regcomp$50;
-  if(tmp_if_expr$49)
-    tmp_if_expr$51 = (_Bool)1;
+  _Bool tmp_if_expr_51;
+  signed int return_value_pcreposix_regcomp_50;
+  if(tmp_if_expr_49)
+    tmp_if_expr_51 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$50=pcreposix_regcomp(&Err503, "^[ \t]*Err503[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$51 = return_value_pcreposix_regcomp$50 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_50=pcreposix_regcomp(&Err503, "^[ \t]*Err503[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_51 = return_value_pcreposix_regcomp_50 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$53;
-  signed int return_value_pcreposix_regcomp$52;
-  if(tmp_if_expr$51)
-    tmp_if_expr$53 = (_Bool)1;
+  _Bool tmp_if_expr_53;
+  signed int return_value_pcreposix_regcomp_52;
+  if(tmp_if_expr_51)
+    tmp_if_expr_53 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$52=pcreposix_regcomp(&MaxRequest, "^[ \t]*MaxRequest[ \t]+([1-9][0-9]*)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$53 = return_value_pcreposix_regcomp$52 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_52=pcreposix_regcomp(&MaxRequest, "^[ \t]*MaxRequest[ \t]+([1-9][0-9]*)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_53 = return_value_pcreposix_regcomp_52 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$55;
-  signed int return_value_pcreposix_regcomp$54;
-  if(tmp_if_expr$53)
-    tmp_if_expr$55 = (_Bool)1;
+  _Bool tmp_if_expr_55;
+  signed int return_value_pcreposix_regcomp_54;
+  if(tmp_if_expr_53)
+    tmp_if_expr_55 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$54=pcreposix_regcomp(&HeadRemove, "^[ \t]*HeadRemove[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$55 = return_value_pcreposix_regcomp$54 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_54=pcreposix_regcomp(&HeadRemove, "^[ \t]*HeadRemove[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_55 = return_value_pcreposix_regcomp_54 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$57;
-  signed int return_value_pcreposix_regcomp$56;
-  if(tmp_if_expr$55)
-    tmp_if_expr$57 = (_Bool)1;
+  _Bool tmp_if_expr_57;
+  signed int return_value_pcreposix_regcomp_56;
+  if(tmp_if_expr_55)
+    tmp_if_expr_57 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$56=pcreposix_regcomp(&RewriteLocation, "^[ \t]*RewriteLocation[ \t]+([012])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$57 = return_value_pcreposix_regcomp$56 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_56=pcreposix_regcomp(&RewriteLocation, "^[ \t]*RewriteLocation[ \t]+([012])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_57 = return_value_pcreposix_regcomp_56 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$59;
-  signed int return_value_pcreposix_regcomp$58;
-  if(tmp_if_expr$57)
-    tmp_if_expr$59 = (_Bool)1;
+  _Bool tmp_if_expr_59;
+  signed int return_value_pcreposix_regcomp_58;
+  if(tmp_if_expr_57)
+    tmp_if_expr_59 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$58=pcreposix_regcomp(&RewriteDestination, "^[ \t]*RewriteDestination[ \t]+([01])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$59 = return_value_pcreposix_regcomp$58 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_58=pcreposix_regcomp(&RewriteDestination, "^[ \t]*RewriteDestination[ \t]+([01])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_59 = return_value_pcreposix_regcomp_58 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$61;
-  signed int return_value_pcreposix_regcomp$60;
-  if(tmp_if_expr$59)
-    tmp_if_expr$61 = (_Bool)1;
+  _Bool tmp_if_expr_61;
+  signed int return_value_pcreposix_regcomp_60;
+  if(tmp_if_expr_59)
+    tmp_if_expr_61 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$60=pcreposix_regcomp(&Service, "^[ \t]*Service[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$61 = return_value_pcreposix_regcomp$60 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_60=pcreposix_regcomp(&Service, "^[ \t]*Service[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_61 = return_value_pcreposix_regcomp_60 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$63;
-  signed int return_value_pcreposix_regcomp$62;
-  if(tmp_if_expr$61)
-    tmp_if_expr$63 = (_Bool)1;
+  _Bool tmp_if_expr_63;
+  signed int return_value_pcreposix_regcomp_62;
+  if(tmp_if_expr_61)
+    tmp_if_expr_63 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$62=pcreposix_regcomp(&ServiceName, "^[ \t]*Service[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$63 = return_value_pcreposix_regcomp$62 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_62=pcreposix_regcomp(&ServiceName, "^[ \t]*Service[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_63 = return_value_pcreposix_regcomp_62 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$65;
-  signed int return_value_pcreposix_regcomp$64;
-  if(tmp_if_expr$63)
-    tmp_if_expr$65 = (_Bool)1;
+  _Bool tmp_if_expr_65;
+  signed int return_value_pcreposix_regcomp_64;
+  if(tmp_if_expr_63)
+    tmp_if_expr_65 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$64=pcreposix_regcomp(&URL, "^[ \t]*URL[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$65 = return_value_pcreposix_regcomp$64 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_64=pcreposix_regcomp(&URL, "^[ \t]*URL[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_65 = return_value_pcreposix_regcomp_64 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$67;
-  signed int return_value_pcreposix_regcomp$66;
-  if(tmp_if_expr$65)
-    tmp_if_expr$67 = (_Bool)1;
+  _Bool tmp_if_expr_67;
+  signed int return_value_pcreposix_regcomp_66;
+  if(tmp_if_expr_65)
+    tmp_if_expr_67 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$66=pcreposix_regcomp(&HeadRequire, "^[ \t]*HeadRequire[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$67 = return_value_pcreposix_regcomp$66 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_66=pcreposix_regcomp(&HeadRequire, "^[ \t]*HeadRequire[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_67 = return_value_pcreposix_regcomp_66 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$69;
-  signed int return_value_pcreposix_regcomp$68;
-  if(tmp_if_expr$67)
-    tmp_if_expr$69 = (_Bool)1;
+  _Bool tmp_if_expr_69;
+  signed int return_value_pcreposix_regcomp_68;
+  if(tmp_if_expr_67)
+    tmp_if_expr_69 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$68=pcreposix_regcomp(&HeadDeny, "^[ \t]*HeadDeny[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$69 = return_value_pcreposix_regcomp$68 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_68=pcreposix_regcomp(&HeadDeny, "^[ \t]*HeadDeny[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_69 = return_value_pcreposix_regcomp_68 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$71;
-  signed int return_value_pcreposix_regcomp$70;
-  if(tmp_if_expr$69)
-    tmp_if_expr$71 = (_Bool)1;
+  _Bool tmp_if_expr_71;
+  signed int return_value_pcreposix_regcomp_70;
+  if(tmp_if_expr_69)
+    tmp_if_expr_71 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$70=pcreposix_regcomp(&BackEnd, "^[ \t]*BackEnd[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$71 = return_value_pcreposix_regcomp$70 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_70=pcreposix_regcomp(&BackEnd, "^[ \t]*BackEnd[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_71 = return_value_pcreposix_regcomp_70 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$73;
-  signed int return_value_pcreposix_regcomp$72;
-  if(tmp_if_expr$71)
-    tmp_if_expr$73 = (_Bool)1;
+  _Bool tmp_if_expr_73;
+  signed int return_value_pcreposix_regcomp_72;
+  if(tmp_if_expr_71)
+    tmp_if_expr_73 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$72=pcreposix_regcomp(&Emergency, "^[ \t]*Emergency[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$73 = return_value_pcreposix_regcomp$72 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_72=pcreposix_regcomp(&Emergency, "^[ \t]*Emergency[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_73 = return_value_pcreposix_regcomp_72 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$75;
-  signed int return_value_pcreposix_regcomp$74;
-  if(tmp_if_expr$73)
-    tmp_if_expr$75 = (_Bool)1;
+  _Bool tmp_if_expr_75;
+  signed int return_value_pcreposix_regcomp_74;
+  if(tmp_if_expr_73)
+    tmp_if_expr_75 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$74=pcreposix_regcomp(&Priority, "^[ \t]*Priority[ \t]+([1-9])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$75 = return_value_pcreposix_regcomp$74 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_74=pcreposix_regcomp(&Priority, "^[ \t]*Priority[ \t]+([1-9])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_75 = return_value_pcreposix_regcomp_74 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$77;
-  signed int return_value_pcreposix_regcomp$76;
-  if(tmp_if_expr$75)
-    tmp_if_expr$77 = (_Bool)1;
+  _Bool tmp_if_expr_77;
+  signed int return_value_pcreposix_regcomp_76;
+  if(tmp_if_expr_75)
+    tmp_if_expr_77 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$76=pcreposix_regcomp(&TimeOut, "^[ \t]*TimeOut[ \t]+([1-9][0-9]*)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$77 = return_value_pcreposix_regcomp$76 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_76=pcreposix_regcomp(&TimeOut, "^[ \t]*TimeOut[ \t]+([1-9][0-9]*)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_77 = return_value_pcreposix_regcomp_76 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$79;
-  signed int return_value_pcreposix_regcomp$78;
-  if(tmp_if_expr$77)
-    tmp_if_expr$79 = (_Bool)1;
+  _Bool tmp_if_expr_79;
+  signed int return_value_pcreposix_regcomp_78;
+  if(tmp_if_expr_77)
+    tmp_if_expr_79 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$78=pcreposix_regcomp(&HAport, "^[ \t]*HAport[ \t]+([1-9][0-9]*)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$79 = return_value_pcreposix_regcomp$78 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_78=pcreposix_regcomp(&HAport, "^[ \t]*HAport[ \t]+([1-9][0-9]*)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_79 = return_value_pcreposix_regcomp_78 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$81;
-  signed int return_value_pcreposix_regcomp$80;
-  if(tmp_if_expr$79)
-    tmp_if_expr$81 = (_Bool)1;
+  _Bool tmp_if_expr_81;
+  signed int return_value_pcreposix_regcomp_80;
+  if(tmp_if_expr_79)
+    tmp_if_expr_81 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$80=pcreposix_regcomp(&HAportAddr, "^[ \t]*HAport[ \t]+([^ \t]+)[ \t]+([1-9][0-9]*)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$81 = return_value_pcreposix_regcomp$80 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_80=pcreposix_regcomp(&HAportAddr, "^[ \t]*HAport[ \t]+([^ \t]+)[ \t]+([1-9][0-9]*)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_81 = return_value_pcreposix_regcomp_80 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$83;
-  signed int return_value_pcreposix_regcomp$82;
-  if(tmp_if_expr$81)
-    tmp_if_expr$83 = (_Bool)1;
+  _Bool tmp_if_expr_83;
+  signed int return_value_pcreposix_regcomp_82;
+  if(tmp_if_expr_81)
+    tmp_if_expr_83 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$82=pcreposix_regcomp(&Redirect, "^[ \t]*Redirect[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$83 = return_value_pcreposix_regcomp$82 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_82=pcreposix_regcomp(&Redirect, "^[ \t]*Redirect[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_83 = return_value_pcreposix_regcomp_82 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$85;
-  signed int return_value_pcreposix_regcomp$84;
-  if(tmp_if_expr$83)
-    tmp_if_expr$85 = (_Bool)1;
+  _Bool tmp_if_expr_85;
+  signed int return_value_pcreposix_regcomp_84;
+  if(tmp_if_expr_83)
+    tmp_if_expr_85 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$84=pcreposix_regcomp(&RedirectN, "^[ \t]*Redirect[ \t]+(30[127])[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$85 = return_value_pcreposix_regcomp$84 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_84=pcreposix_regcomp(&RedirectN, "^[ \t]*Redirect[ \t]+(30[127])[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_85 = return_value_pcreposix_regcomp_84 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$87;
-  signed int return_value_pcreposix_regcomp$86;
-  if(tmp_if_expr$85)
-    tmp_if_expr$87 = (_Bool)1;
+  _Bool tmp_if_expr_87;
+  signed int return_value_pcreposix_regcomp_86;
+  if(tmp_if_expr_85)
+    tmp_if_expr_87 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$86=pcreposix_regcomp(&Session, "^[ \t]*Session[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$87 = return_value_pcreposix_regcomp$86 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_86=pcreposix_regcomp(&Session, "^[ \t]*Session[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_87 = return_value_pcreposix_regcomp_86 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$89;
-  signed int return_value_pcreposix_regcomp$88;
-  if(tmp_if_expr$87)
-    tmp_if_expr$89 = (_Bool)1;
+  _Bool tmp_if_expr_89;
+  signed int return_value_pcreposix_regcomp_88;
+  if(tmp_if_expr_87)
+    tmp_if_expr_89 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$88=pcreposix_regcomp(&Type, "^[ \t]*Type[ \t]+([^ \t]+)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$89 = return_value_pcreposix_regcomp$88 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_88=pcreposix_regcomp(&Type, "^[ \t]*Type[ \t]+([^ \t]+)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_89 = return_value_pcreposix_regcomp_88 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$91;
-  signed int return_value_pcreposix_regcomp$90;
-  if(tmp_if_expr$89)
-    tmp_if_expr$91 = (_Bool)1;
+  _Bool tmp_if_expr_91;
+  signed int return_value_pcreposix_regcomp_90;
+  if(tmp_if_expr_89)
+    tmp_if_expr_91 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$90=pcreposix_regcomp(&TTL, "^[ \t]*TTL[ \t]+([1-9-][0-9]*)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$91 = return_value_pcreposix_regcomp$90 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_90=pcreposix_regcomp(&TTL, "^[ \t]*TTL[ \t]+([1-9-][0-9]*)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_91 = return_value_pcreposix_regcomp_90 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$93;
-  signed int return_value_pcreposix_regcomp$92;
-  if(tmp_if_expr$91)
-    tmp_if_expr$93 = (_Bool)1;
+  _Bool tmp_if_expr_93;
+  signed int return_value_pcreposix_regcomp_92;
+  if(tmp_if_expr_91)
+    tmp_if_expr_93 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$92=pcreposix_regcomp(&ID, "^[ \t]*ID[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$93 = return_value_pcreposix_regcomp$92 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_92=pcreposix_regcomp(&ID, "^[ \t]*ID[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_93 = return_value_pcreposix_regcomp_92 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$95;
-  signed int return_value_pcreposix_regcomp$94;
-  if(tmp_if_expr$93)
-    tmp_if_expr$95 = (_Bool)1;
+  _Bool tmp_if_expr_95;
+  signed int return_value_pcreposix_regcomp_94;
+  if(tmp_if_expr_93)
+    tmp_if_expr_95 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$94=pcreposix_regcomp(&DynScale, "^[ \t]*DynScale[ \t]+([01])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$95 = return_value_pcreposix_regcomp$94 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_94=pcreposix_regcomp(&DynScale, "^[ \t]*DynScale[ \t]+([01])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_95 = return_value_pcreposix_regcomp_94 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$97;
-  signed int return_value_pcreposix_regcomp$96;
-  if(tmp_if_expr$95)
-    tmp_if_expr$97 = (_Bool)1;
+  _Bool tmp_if_expr_97;
+  signed int return_value_pcreposix_regcomp_96;
+  if(tmp_if_expr_95)
+    tmp_if_expr_97 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$96=pcreposix_regcomp(&ClientCert, "^[ \t]*ClientCert[ \t]+([0-3])[ \t]+([1-9])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$97 = return_value_pcreposix_regcomp$96 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_96=pcreposix_regcomp(&ClientCert, "^[ \t]*ClientCert[ \t]+([0-3])[ \t]+([1-9])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_97 = return_value_pcreposix_regcomp_96 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$99;
-  signed int return_value_pcreposix_regcomp$98;
-  if(tmp_if_expr$97)
-    tmp_if_expr$99 = (_Bool)1;
+  _Bool tmp_if_expr_99;
+  signed int return_value_pcreposix_regcomp_98;
+  if(tmp_if_expr_97)
+    tmp_if_expr_99 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$98=pcreposix_regcomp(&AddHeader, "^[ \t]*AddHeader[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$99 = return_value_pcreposix_regcomp$98 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_98=pcreposix_regcomp(&AddHeader, "^[ \t]*AddHeader[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_99 = return_value_pcreposix_regcomp_98 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$101;
-  signed int return_value_pcreposix_regcomp$100;
-  if(tmp_if_expr$99)
-    tmp_if_expr$101 = (_Bool)1;
+  _Bool tmp_if_expr_101;
+  signed int return_value_pcreposix_regcomp_100;
+  if(tmp_if_expr_99)
+    tmp_if_expr_101 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$100=pcreposix_regcomp(&SSLAllowClientRenegotiation, "^[ \t]*SSLAllowClientRenegotiation[ \t]+([012])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$101 = return_value_pcreposix_regcomp$100 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_100=pcreposix_regcomp(&SSLAllowClientRenegotiation, "^[ \t]*SSLAllowClientRenegotiation[ \t]+([012])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_101 = return_value_pcreposix_regcomp_100 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$103;
-  signed int return_value_pcreposix_regcomp$102;
-  if(tmp_if_expr$101)
-    tmp_if_expr$103 = (_Bool)1;
+  _Bool tmp_if_expr_103;
+  signed int return_value_pcreposix_regcomp_102;
+  if(tmp_if_expr_101)
+    tmp_if_expr_103 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$102=pcreposix_regcomp(&DisableSSLv2, "^[ \t]*DisableSSLv2[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$103 = return_value_pcreposix_regcomp$102 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_102=pcreposix_regcomp(&DisableSSLv2, "^[ \t]*DisableSSLv2[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_103 = return_value_pcreposix_regcomp_102 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$105;
-  signed int return_value_pcreposix_regcomp$104;
-  if(tmp_if_expr$103)
-    tmp_if_expr$105 = (_Bool)1;
+  _Bool tmp_if_expr_105;
+  signed int return_value_pcreposix_regcomp_104;
+  if(tmp_if_expr_103)
+    tmp_if_expr_105 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$104=pcreposix_regcomp(&DisableSSLv3, "^[ \t]*DisableSSLv3[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$105 = return_value_pcreposix_regcomp$104 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_104=pcreposix_regcomp(&DisableSSLv3, "^[ \t]*DisableSSLv3[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_105 = return_value_pcreposix_regcomp_104 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$107;
-  signed int return_value_pcreposix_regcomp$106;
-  if(tmp_if_expr$105)
-    tmp_if_expr$107 = (_Bool)1;
+  _Bool tmp_if_expr_107;
+  signed int return_value_pcreposix_regcomp_106;
+  if(tmp_if_expr_105)
+    tmp_if_expr_107 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$106=pcreposix_regcomp(&SSLHonorCipherOrder, "^[ \t]*SSLHonorCipherOrder[ \t]+([01])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$107 = return_value_pcreposix_regcomp$106 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_106=pcreposix_regcomp(&SSLHonorCipherOrder, "^[ \t]*SSLHonorCipherOrder[ \t]+([01])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_107 = return_value_pcreposix_regcomp_106 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$109;
-  signed int return_value_pcreposix_regcomp$108;
-  if(tmp_if_expr$107)
-    tmp_if_expr$109 = (_Bool)1;
+  _Bool tmp_if_expr_109;
+  signed int return_value_pcreposix_regcomp_108;
+  if(tmp_if_expr_107)
+    tmp_if_expr_109 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$108=pcreposix_regcomp(&Ciphers, "^[ \t]*Ciphers[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$109 = return_value_pcreposix_regcomp$108 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_108=pcreposix_regcomp(&Ciphers, "^[ \t]*Ciphers[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_109 = return_value_pcreposix_regcomp_108 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$111;
-  signed int return_value_pcreposix_regcomp$110;
-  if(tmp_if_expr$109)
-    tmp_if_expr$111 = (_Bool)1;
+  _Bool tmp_if_expr_111;
+  signed int return_value_pcreposix_regcomp_110;
+  if(tmp_if_expr_109)
+    tmp_if_expr_111 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$110=pcreposix_regcomp(&CAlist, "^[ \t]*CAlist[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$111 = return_value_pcreposix_regcomp$110 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_110=pcreposix_regcomp(&CAlist, "^[ \t]*CAlist[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_111 = return_value_pcreposix_regcomp_110 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$113;
-  signed int return_value_pcreposix_regcomp$112;
-  if(tmp_if_expr$111)
-    tmp_if_expr$113 = (_Bool)1;
+  _Bool tmp_if_expr_113;
+  signed int return_value_pcreposix_regcomp_112;
+  if(tmp_if_expr_111)
+    tmp_if_expr_113 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$112=pcreposix_regcomp(&VerifyList, "^[ \t]*VerifyList[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$113 = return_value_pcreposix_regcomp$112 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_112=pcreposix_regcomp(&VerifyList, "^[ \t]*VerifyList[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_113 = return_value_pcreposix_regcomp_112 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$115;
-  signed int return_value_pcreposix_regcomp$114;
-  if(tmp_if_expr$113)
-    tmp_if_expr$115 = (_Bool)1;
+  _Bool tmp_if_expr_115;
+  signed int return_value_pcreposix_regcomp_114;
+  if(tmp_if_expr_113)
+    tmp_if_expr_115 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$114=pcreposix_regcomp(&CRLlist, "^[ \t]*CRLlist[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$115 = return_value_pcreposix_regcomp$114 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_114=pcreposix_regcomp(&CRLlist, "^[ \t]*CRLlist[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_115 = return_value_pcreposix_regcomp_114 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$117;
-  signed int return_value_pcreposix_regcomp$116;
-  if(tmp_if_expr$115)
-    tmp_if_expr$117 = (_Bool)1;
+  _Bool tmp_if_expr_117;
+  signed int return_value_pcreposix_regcomp_116;
+  if(tmp_if_expr_115)
+    tmp_if_expr_117 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$116=pcreposix_regcomp(&NoHTTPS11, "^[ \t]*NoHTTPS11[ \t]+([0-2])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$117 = return_value_pcreposix_regcomp$116 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_116=pcreposix_regcomp(&NoHTTPS11, "^[ \t]*NoHTTPS11[ \t]+([0-2])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_117 = return_value_pcreposix_regcomp_116 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$119;
-  signed int return_value_pcreposix_regcomp$118;
-  if(tmp_if_expr$117)
-    tmp_if_expr$119 = (_Bool)1;
+  _Bool tmp_if_expr_119;
+  signed int return_value_pcreposix_regcomp_118;
+  if(tmp_if_expr_117)
+    tmp_if_expr_119 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$118=pcreposix_regcomp(&Include, "^[ \t]*Include[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$119 = return_value_pcreposix_regcomp$118 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_118=pcreposix_regcomp(&Include, "^[ \t]*Include[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_119 = return_value_pcreposix_regcomp_118 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$121;
-  signed int return_value_pcreposix_regcomp$120;
-  if(tmp_if_expr$119)
-    tmp_if_expr$121 = (_Bool)1;
+  _Bool tmp_if_expr_121;
+  signed int return_value_pcreposix_regcomp_120;
+  if(tmp_if_expr_119)
+    tmp_if_expr_121 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$120=pcreposix_regcomp(&ConnTO, "^[ \t]*ConnTO[ \t]+([1-9][0-9]*)[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$121 = return_value_pcreposix_regcomp$120 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_120=pcreposix_regcomp(&ConnTO, "^[ \t]*ConnTO[ \t]+([1-9][0-9]*)[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_121 = return_value_pcreposix_regcomp_120 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$123;
-  signed int return_value_pcreposix_regcomp$122;
-  if(tmp_if_expr$121)
-    tmp_if_expr$123 = (_Bool)1;
+  _Bool tmp_if_expr_123;
+  signed int return_value_pcreposix_regcomp_122;
+  if(tmp_if_expr_121)
+    tmp_if_expr_123 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$122=pcreposix_regcomp(&IgnoreCase, "^[ \t]*IgnoreCase[ \t]+([01])[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$123 = return_value_pcreposix_regcomp$122 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_122=pcreposix_regcomp(&IgnoreCase, "^[ \t]*IgnoreCase[ \t]+([01])[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_123 = return_value_pcreposix_regcomp_122 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$125;
-  signed int return_value_pcreposix_regcomp$124;
-  if(tmp_if_expr$123)
-    tmp_if_expr$125 = (_Bool)1;
+  _Bool tmp_if_expr_125;
+  signed int return_value_pcreposix_regcomp_124;
+  if(tmp_if_expr_123)
+    tmp_if_expr_125 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$124=pcreposix_regcomp(&HTTPS, "^[ \t]*HTTPS[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$125 = return_value_pcreposix_regcomp$124 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_124=pcreposix_regcomp(&HTTPS, "^[ \t]*HTTPS[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_125 = return_value_pcreposix_regcomp_124 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$127;
-  signed int return_value_pcreposix_regcomp$126;
-  if(tmp_if_expr$125)
-    tmp_if_expr$127 = (_Bool)1;
+  _Bool tmp_if_expr_127;
+  signed int return_value_pcreposix_regcomp_126;
+  if(tmp_if_expr_125)
+    tmp_if_expr_127 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$126=pcreposix_regcomp(&HTTPSCert, "^[ \t]*HTTPS[ \t]+\"(.+)\"[ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$127 = return_value_pcreposix_regcomp$126 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_126=pcreposix_regcomp(&HTTPSCert, "^[ \t]*HTTPS[ \t]+\"(.+)\"[ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_127 = return_value_pcreposix_regcomp_126 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$129;
-  signed int return_value_pcreposix_regcomp$128;
-  if(tmp_if_expr$127)
-    tmp_if_expr$129 = (_Bool)1;
+  _Bool tmp_if_expr_129;
+  signed int return_value_pcreposix_regcomp_128;
+  if(tmp_if_expr_127)
+    tmp_if_expr_129 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$128=pcreposix_regcomp(&Disabled, "^[ \t]*Disabled[ \t]+[01][ \t]*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$129 = return_value_pcreposix_regcomp$128 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_128=pcreposix_regcomp(&Disabled, "^[ \t]*Disabled[ \t]+[01][ \t]*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_129 = return_value_pcreposix_regcomp_128 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$131;
-  signed int return_value_pcreposix_regcomp$130;
-  if(tmp_if_expr$129)
-    tmp_if_expr$131 = (_Bool)1;
+  _Bool tmp_if_expr_131;
+  signed int return_value_pcreposix_regcomp_130;
+  if(tmp_if_expr_129)
+    tmp_if_expr_131 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$130=pcreposix_regcomp(&CNName, ".*[Cc][Nn]=([-*.A-Za-z0-9]+).*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$131 = return_value_pcreposix_regcomp$130 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_130=pcreposix_regcomp(&CNName, ".*[Cc][Nn]=([-*.A-Za-z0-9]+).*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_131 = return_value_pcreposix_regcomp_130 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$131)
+  if(tmp_if_expr_131)
   {
     logmsg(3, "bad config Regex - aborted");
     exit(1);
@@ -5896,13 +5896,13 @@ extern void config_parse(const signed int argc, char ** const argv)
   check_only = 0;
   conf_name = "/etc/pound/pound.cfg";
   pid_name = "/var/run/pound.pid";
-  signed int return_value_strcmp$132;
-  signed int return_value_strcmp$133;
-  signed int return_value_strcmp$134;
-  signed int return_value_strcmp$135;
-  signed int return_value_strcmp$136;
-  signed int return_value_strcmp$137;
-  signed int return_value_strcmp$138;
+  signed int return_value_strcmp_132;
+  signed int return_value_strcmp_133;
+  signed int return_value_strcmp_134;
+  signed int return_value_strcmp_135;
+  signed int return_value_strcmp_136;
+  signed int return_value_strcmp_137;
+  signed int return_value_strcmp_138;
   do
   {
     c_opt=getopt(argc, argv, "f:cvVp:");
@@ -5936,32 +5936,32 @@ extern void config_parse(const signed int argc, char ** const argv)
         print_log = 1;
         logmsg(7, "Version %s", (const void *)"2.6");
         logmsg(7, "  Configuration switches:");
-        return_value_strcmp$132=strcmp("0", "0");
-        if(!(return_value_strcmp$132 == 0))
+        return_value_strcmp_132=strcmp("0", "0");
+        if(!(return_value_strcmp_132 == 0))
           logmsg(7, "    --disable-super");
 
-        return_value_strcmp$133=strcmp("", "1");
-        if(!(return_value_strcmp$133 == 0))
+        return_value_strcmp_133=strcmp("", "1");
+        if(!(return_value_strcmp_133 == 0))
           logmsg(7, "    --enable-cert1l");
 
-        return_value_strcmp$134=strcmp("", "");
-        if(!(return_value_strcmp$134 == 0))
+        return_value_strcmp_134=strcmp("", "");
+        if(!(return_value_strcmp_134 == 0))
           logmsg(7, "    --with-ssl=%s", (const void *)"");
 
-        return_value_strcmp$135=strcmp("0", "0");
-        if(!(return_value_strcmp$135 == 0))
+        return_value_strcmp_135=strcmp("0", "0");
+        if(!(return_value_strcmp_135 == 0))
           logmsg(7, "    --with-t_rsa=%s", (const void *)"0");
 
-        return_value_strcmp$136=strcmp("8192", "0");
-        if(!(return_value_strcmp$136 == 0))
+        return_value_strcmp_136=strcmp("8192", "0");
+        if(!(return_value_strcmp_136 == 0))
           logmsg(7, "    --with-maxbuf=%s", (const void *)"8192");
 
-        return_value_strcmp$137=strcmp("", "");
-        if(!(return_value_strcmp$137 == 0))
+        return_value_strcmp_137=strcmp("", "");
+        if(!(return_value_strcmp_137 == 0))
           logmsg(7, "    --with-owner=%s", (const void *)"");
 
-        return_value_strcmp$138=strcmp("", "");
-        if(!(return_value_strcmp$138 == 0))
+        return_value_strcmp_138=strcmp("", "");
+        if(!(return_value_strcmp_138 == 0))
           logmsg(7, "    --with-group=%s", (const void *)"");
 
         logmsg(7, "Exiting...");
@@ -6091,45 +6091,45 @@ extern signed int connect_nb(const signed int sockfd, struct addrinfo *serv_addr
   flags=fcntl(sockfd, 3, 0);
   if(!(flags >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    logmsg(4, "(%lx) connect_nb: fcntl GETFL failed: %s", return_value_pthread_self$1, return_value_strerror$3);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    logmsg(4, "(%lx) connect_nb: fcntl GETFL failed: %s", return_value_pthread_self_1, return_value_strerror_3);
     return -1;
   }
 
-  signed int return_value_fcntl$7;
-  return_value_fcntl$7=fcntl(sockfd, 4, flags | 04000);
-  if(!(return_value_fcntl$7 >= 0))
+  signed int return_value_fcntl_7;
+  return_value_fcntl_7=fcntl(sockfd, 4, flags | 04000);
+  if(!(return_value_fcntl_7 >= 0))
   {
-    unsigned long int return_value_pthread_self$4;
-    return_value_pthread_self$4=pthread_self();
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    logmsg(4, "(%lx) connect_nb: fcntl SETFL failed: %s", return_value_pthread_self$4, return_value_strerror$6);
+    unsigned long int return_value_pthread_self_4;
+    return_value_pthread_self_4=pthread_self();
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    logmsg(4, "(%lx) connect_nb: fcntl SETFL failed: %s", return_value_pthread_self_4, return_value_strerror_6);
     return -1;
   }
 
   error = 0;
   res=connect(sockfd, serv_addr->ai_addr, serv_addr->ai_addrlen);
-  signed int *return_value___errno_location$11;
+  signed int *return_value___errno_location_11;
   if(!(res >= 0))
   {
-    return_value___errno_location$11=__errno_location();
-    if(!(*return_value___errno_location$11 == 115))
+    return_value___errno_location_11=__errno_location();
+    if(!(*return_value___errno_location_11 == 115))
     {
-      unsigned long int return_value_pthread_self$8;
-      return_value_pthread_self$8=pthread_self();
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      char *return_value_strerror$10;
-      return_value_strerror$10=strerror(*return_value___errno_location$9);
-      logmsg(4, "(%lx) connect_nb: connect failed: %s", return_value_pthread_self$8, return_value_strerror$10);
+      unsigned long int return_value_pthread_self_8;
+      return_value_pthread_self_8=pthread_self();
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      char *return_value_strerror_10;
+      return_value_strerror_10=strerror(*return_value___errno_location_9);
+      logmsg(4, "(%lx) connect_nb: connect failed: %s", return_value_pthread_self_8, return_value_strerror_10);
       return -1;
     }
 
@@ -6137,17 +6137,17 @@ extern signed int connect_nb(const signed int sockfd, struct addrinfo *serv_addr
 
   if(res == 0)
   {
-    signed int return_value_fcntl$15;
-    return_value_fcntl$15=fcntl(sockfd, 4, flags);
-    if(!(return_value_fcntl$15 >= 0))
+    signed int return_value_fcntl_15;
+    return_value_fcntl_15=fcntl(sockfd, 4, flags);
+    if(!(return_value_fcntl_15 >= 0))
     {
-      unsigned long int return_value_pthread_self$12;
-      return_value_pthread_self$12=pthread_self();
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      char *return_value_strerror$14;
-      return_value_strerror$14=strerror(*return_value___errno_location$13);
-      logmsg(4, "(%lx) connect_nb: fcntl reSETFL failed: %s", return_value_pthread_self$12, return_value_strerror$14);
+      unsigned long int return_value_pthread_self_12;
+      return_value_pthread_self_12=pthread_self();
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      char *return_value_strerror_14;
+      return_value_strerror_14=strerror(*return_value___errno_location_13);
+      logmsg(4, "(%lx) connect_nb: fcntl reSETFL failed: %s", return_value_pthread_self_12, return_value_strerror_14);
       return -1;
     }
 
@@ -6158,72 +6158,72 @@ extern signed int connect_nb(const signed int sockfd, struct addrinfo *serv_addr
   p.fd = sockfd;
   p.events = (signed short int)0x004;
   res=poll(&p, (unsigned long int)1, to * 1000);
-  unsigned long int return_value_pthread_self$18;
-  signed int *return_value___errno_location$19;
-  char *return_value_strerror$20;
+  unsigned long int return_value_pthread_self_18;
+  signed int *return_value___errno_location_19;
+  char *return_value_strerror_20;
   if(!(res == 1))
   {
     if(res == 0)
     {
-      unsigned long int return_value_pthread_self$16;
-      return_value_pthread_self$16=pthread_self();
-      logmsg(4, "(%lx) connect_nb: poll timed out", return_value_pthread_self$16);
-      signed int *return_value___errno_location$17;
-      return_value___errno_location$17=__errno_location();
-      *return_value___errno_location$17 = 110;
+      unsigned long int return_value_pthread_self_16;
+      return_value_pthread_self_16=pthread_self();
+      logmsg(4, "(%lx) connect_nb: poll timed out", return_value_pthread_self_16);
+      signed int *return_value___errno_location_17;
+      return_value___errno_location_17=__errno_location();
+      *return_value___errno_location_17 = 110;
     }
 
     else
     {
-      return_value_pthread_self$18=pthread_self();
-      return_value___errno_location$19=__errno_location();
-      return_value_strerror$20=strerror(*return_value___errno_location$19);
-      logmsg(4, "(%lx) connect_nb: poll failed: %s", return_value_pthread_self$18, return_value_strerror$20);
+      return_value_pthread_self_18=pthread_self();
+      return_value___errno_location_19=__errno_location();
+      return_value_strerror_20=strerror(*return_value___errno_location_19);
+      logmsg(4, "(%lx) connect_nb: poll failed: %s", return_value_pthread_self_18, return_value_strerror_20);
     }
     return -1;
   }
 
   len = (unsigned int)sizeof(signed int) /*4ul*/ ;
-  signed int return_value_getsockopt$24;
-  return_value_getsockopt$24=getsockopt(sockfd, 1, 4, (void *)&error, &len);
-  if(!(return_value_getsockopt$24 >= 0))
+  signed int return_value_getsockopt_24;
+  return_value_getsockopt_24=getsockopt(sockfd, 1, 4, (void *)&error, &len);
+  if(!(return_value_getsockopt_24 >= 0))
   {
-    unsigned long int return_value_pthread_self$21;
-    return_value_pthread_self$21=pthread_self();
-    signed int *return_value___errno_location$22;
-    return_value___errno_location$22=__errno_location();
-    char *return_value_strerror$23;
-    return_value_strerror$23=strerror(*return_value___errno_location$22);
-    logmsg(4, "(%lx) connect_nb: getsockopt failed: %s", return_value_pthread_self$21, return_value_strerror$23);
+    unsigned long int return_value_pthread_self_21;
+    return_value_pthread_self_21=pthread_self();
+    signed int *return_value___errno_location_22;
+    return_value___errno_location_22=__errno_location();
+    char *return_value_strerror_23;
+    return_value_strerror_23=strerror(*return_value___errno_location_22);
+    logmsg(4, "(%lx) connect_nb: getsockopt failed: %s", return_value_pthread_self_21, return_value_strerror_23);
     return -1;
   }
 
-  signed int return_value_fcntl$28;
-  return_value_fcntl$28=fcntl(sockfd, 4, flags);
-  if(!(return_value_fcntl$28 >= 0))
+  signed int return_value_fcntl_28;
+  return_value_fcntl_28=fcntl(sockfd, 4, flags);
+  if(!(return_value_fcntl_28 >= 0))
   {
-    unsigned long int return_value_pthread_self$25;
-    return_value_pthread_self$25=pthread_self();
-    signed int *return_value___errno_location$26;
-    return_value___errno_location$26=__errno_location();
-    char *return_value_strerror$27;
-    return_value_strerror$27=strerror(*return_value___errno_location$26);
-    logmsg(4, "(%lx) connect_nb: fcntl reSETFL failed: %s", return_value_pthread_self$25, return_value_strerror$27);
+    unsigned long int return_value_pthread_self_25;
+    return_value_pthread_self_25=pthread_self();
+    signed int *return_value___errno_location_26;
+    return_value___errno_location_26=__errno_location();
+    char *return_value_strerror_27;
+    return_value_strerror_27=strerror(*return_value___errno_location_26);
+    logmsg(4, "(%lx) connect_nb: fcntl reSETFL failed: %s", return_value_pthread_self_25, return_value_strerror_27);
     return -1;
   }
 
   if(!(error == 0))
   {
-    signed int *return_value___errno_location$29;
-    return_value___errno_location$29=__errno_location();
-    *return_value___errno_location$29 = error;
-    unsigned long int return_value_pthread_self$30;
-    return_value_pthread_self$30=pthread_self();
-    signed int *return_value___errno_location$31;
-    return_value___errno_location$31=__errno_location();
-    char *return_value_strerror$32;
-    return_value_strerror$32=strerror(*return_value___errno_location$31);
-    logmsg(4, "(%lx) connect_nb: error after getsockopt: %s", return_value_pthread_self$30, return_value_strerror$32);
+    signed int *return_value___errno_location_29;
+    return_value___errno_location_29=__errno_location();
+    *return_value___errno_location_29 = error;
+    unsigned long int return_value_pthread_self_30;
+    return_value_pthread_self_30=pthread_self();
+    signed int *return_value___errno_location_31;
+    return_value___errno_location_31=__errno_location();
+    char *return_value_strerror_32;
+    return_value_strerror_32=strerror(*return_value___errno_location_31);
+    logmsg(4, "(%lx) connect_nb: error after getsockopt: %s", return_value_pthread_self_30, return_value_strerror_32);
     return -1;
   }
 
@@ -6236,7 +6236,7 @@ static signed int copy_bin(struct bio_st * const cl, struct bio_st * const be, s
 {
   char buf[8192l];
   signed int res;
-  signed int return_value_BIO_write$1;
+  signed int return_value_BIO_write_1;
   while(cont >= 1ll)
   {
     res=BIO_read(cl, (void *)buf, (signed int)(cont > (signed long int)8192 ? (signed long int)8192 : cont));
@@ -6249,8 +6249,8 @@ static signed int copy_bin(struct bio_st * const cl, struct bio_st * const be, s
 
     if(no_write == 0)
     {
-      return_value_BIO_write$1=BIO_write(be, (const void *)buf, res);
-      if(!(return_value_BIO_write$1 == res))
+      return_value_BIO_write_1=BIO_write(be, (const void *)buf, res);
+      if(!(return_value_BIO_write_1 == res))
         return -3;
 
     }
@@ -6260,11 +6260,11 @@ static signed int copy_bin(struct bio_st * const cl, struct bio_st * const be, s
       *res_bytes = *res_bytes + (signed long long int)res;
 
   }
-  signed long int return_value_BIO_ctrl$2;
+  signed long int return_value_BIO_ctrl_2;
   if(no_write == 0)
   {
-    return_value_BIO_ctrl$2=BIO_ctrl(be, 11, (signed long int)0, (void *)0);
-    if((signed int)return_value_BIO_ctrl$2 == 1)
+    return_value_BIO_ctrl_2=BIO_ctrl(be, 11, (signed long int)0, (void *)0);
+    if((signed int)return_value_BIO_ctrl_2 == 1)
       goto __CPROVER_DUMP_L7;
 
     return -4;
@@ -6286,27 +6286,27 @@ static signed int copy_chunks(struct bio_st * const cl, struct bio_st * const be
   char buf[8192l];
   signed long long int cont;
   signed long long int tot_size;
-  struct anonymous$4 copy_chunks$$1$$matches[2l];
+  struct anonymous_4 copy_chunks__1__matches[2l];
   signed int res;
   tot_size = 0L;
-  signed int return_value_BIO_printf$11;
-  unsigned long int return_value_pthread_self$12;
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
-  unsigned long int return_value_pthread_self$21;
-  signed int return_value_BIO_printf$25;
+  signed int return_value_BIO_printf_11;
+  unsigned long int return_value_pthread_self_12;
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
+  unsigned long int return_value_pthread_self_21;
+  signed int return_value_BIO_printf_25;
   do
   {
     res=get_line(cl, buf, 8192);
     if(!(res >= 0))
     {
-      unsigned long int return_value_pthread_self$1;
-      return_value_pthread_self$1=pthread_self();
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      logmsg(5, "(%lx) chunked read error: %s", return_value_pthread_self$1, return_value_strerror$3);
+      unsigned long int return_value_pthread_self_1;
+      return_value_pthread_self_1=pthread_self();
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      logmsg(5, "(%lx) chunked read error: %s", return_value_pthread_self_1, return_value_strerror_3);
       return -1;
     }
 
@@ -6314,34 +6314,34 @@ static signed int copy_chunks(struct bio_st * const cl, struct bio_st * const be
       if(res >= 1)
         return 0;
 
-    signed int return_value_pcreposix_regexec$7;
-    return_value_pcreposix_regexec$7=pcreposix_regexec(&CHUNK_HEAD, buf, (unsigned long int)2, copy_chunks$$1$$matches, 0);
-    if(return_value_pcreposix_regexec$7 == 0)
+    signed int return_value_pcreposix_regexec_7;
+    return_value_pcreposix_regexec_7=pcreposix_regexec(&CHUNK_HEAD, buf, (unsigned long int)2, copy_chunks__1__matches, 0);
+    if(return_value_pcreposix_regexec_7 == 0)
       cont=strtoll(buf, (char ** restrict )(void *)0, 16);
 
     else
     {
-      unsigned long int return_value_pthread_self$4;
-      return_value_pthread_self$4=pthread_self();
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      logmsg(5, "(%lx) bad chunk header <%s>: %s", return_value_pthread_self$4, (const void *)buf, return_value_strerror$6);
+      unsigned long int return_value_pthread_self_4;
+      return_value_pthread_self_4=pthread_self();
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      logmsg(5, "(%lx) bad chunk header <%s>: %s", return_value_pthread_self_4, (const void *)buf, return_value_strerror_6);
       return -2;
     }
     if(no_write == 0)
     {
-      return_value_BIO_printf$11=BIO_printf(be, "%s\r\n", (const void *)buf);
-      if(!(return_value_BIO_printf$11 >= 1))
+      return_value_BIO_printf_11=BIO_printf(be, "%s\r\n", (const void *)buf);
+      if(!(return_value_BIO_printf_11 >= 1))
       {
-        unsigned long int return_value_pthread_self$8;
-        return_value_pthread_self$8=pthread_self();
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        char *return_value_strerror$10;
-        return_value_strerror$10=strerror(*return_value___errno_location$9);
-        logmsg(5, "(%lx) error write chunked: %s", return_value_pthread_self$8, return_value_strerror$10);
+        unsigned long int return_value_pthread_self_8;
+        return_value_pthread_self_8=pthread_self();
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        char *return_value_strerror_10;
+        return_value_strerror_10=strerror(*return_value___errno_location_9);
+        logmsg(5, "(%lx) error write chunked: %s", return_value_pthread_self_8, return_value_strerror_10);
         return -3;
       }
 
@@ -6356,18 +6356,18 @@ static signed int copy_chunks(struct bio_st * const cl, struct bio_st * const be
 
     if(cont >= 1ll)
     {
-      signed int return_value_copy_bin$16;
-      return_value_copy_bin$16=copy_bin(cl, be, cont, res_bytes, no_write);
-      if(!(return_value_copy_bin$16 == 0))
+      signed int return_value_copy_bin_16;
+      return_value_copy_bin_16=copy_bin(cl, be, cont, res_bytes, no_write);
+      if(!(return_value_copy_bin_16 == 0))
       {
-        signed int *return_value___errno_location$15;
-        return_value___errno_location$15=__errno_location();
-        if(!(*return_value___errno_location$15 == 0))
+        signed int *return_value___errno_location_15;
+        return_value___errno_location_15=__errno_location();
+        if(!(*return_value___errno_location_15 == 0))
         {
-          return_value_pthread_self$12=pthread_self();
-          return_value___errno_location$13=__errno_location();
-          return_value_strerror$14=strerror(*return_value___errno_location$13);
-          logmsg(5, "(%lx) error copy chunk cont: %s", return_value_pthread_self$12, return_value_strerror$14);
+          return_value_pthread_self_12=pthread_self();
+          return_value___errno_location_13=__errno_location();
+          return_value_strerror_14=strerror(*return_value___errno_location_13);
+          logmsg(5, "(%lx) error copy chunk cont: %s", return_value_pthread_self_12, return_value_strerror_14);
         }
 
         return -4;
@@ -6380,43 +6380,43 @@ static signed int copy_chunks(struct bio_st * const cl, struct bio_st * const be
     res=get_line(cl, buf, 8192);
     if(!(res >= 0))
     {
-      unsigned long int return_value_pthread_self$17;
-      return_value_pthread_self$17=pthread_self();
-      signed int *return_value___errno_location$18;
-      return_value___errno_location$18=__errno_location();
-      char *return_value_strerror$19;
-      return_value_strerror$19=strerror(*return_value___errno_location$18);
-      logmsg(5, "(%lx) error after chunk: %s", return_value_pthread_self$17, return_value_strerror$19);
+      unsigned long int return_value_pthread_self_17;
+      return_value_pthread_self_17=pthread_self();
+      signed int *return_value___errno_location_18;
+      return_value___errno_location_18=__errno_location();
+      char *return_value_strerror_19;
+      return_value_strerror_19=strerror(*return_value___errno_location_18);
+      logmsg(5, "(%lx) error after chunk: %s", return_value_pthread_self_17, return_value_strerror_19);
       return -5;
     }
 
     else
       if(res >= 1)
       {
-        unsigned long int return_value_pthread_self$20;
-        return_value_pthread_self$20=pthread_self();
-        logmsg(5, "(%lx) unexpected EOF after chunk", return_value_pthread_self$20);
+        unsigned long int return_value_pthread_self_20;
+        return_value_pthread_self_20=pthread_self();
+        logmsg(5, "(%lx) unexpected EOF after chunk", return_value_pthread_self_20);
         return -5;
       }
 
     if(!(buf[0l] == 0))
     {
-      return_value_pthread_self$21=pthread_self();
-      logmsg(5, "(%lx) unexpected after chunk \"%s\"", return_value_pthread_self$21, (const void *)buf);
+      return_value_pthread_self_21=pthread_self();
+      logmsg(5, "(%lx) unexpected after chunk \"%s\"", return_value_pthread_self_21, (const void *)buf);
     }
 
     if(no_write == 0)
     {
-      return_value_BIO_printf$25=BIO_printf(be, "%s\r\n", (const void *)buf);
-      if(!(return_value_BIO_printf$25 >= 1))
+      return_value_BIO_printf_25=BIO_printf(be, "%s\r\n", (const void *)buf);
+      if(!(return_value_BIO_printf_25 >= 1))
       {
-        unsigned long int return_value_pthread_self$22;
-        return_value_pthread_self$22=pthread_self();
-        signed int *return_value___errno_location$23;
-        return_value___errno_location$23=__errno_location();
-        char *return_value_strerror$24;
-        return_value_strerror$24=strerror(*return_value___errno_location$23);
-        logmsg(5, "(%lx) error after chunk write: %s", return_value_pthread_self$22, return_value_strerror$24);
+        unsigned long int return_value_pthread_self_22;
+        return_value_pthread_self_22=pthread_self();
+        signed int *return_value___errno_location_23;
+        return_value___errno_location_23=__errno_location();
+        char *return_value_strerror_24;
+        return_value_strerror_24=strerror(*return_value___errno_location_23);
+        logmsg(5, "(%lx) error after chunk write: %s", return_value_pthread_self_22, return_value_strerror_24);
         return -6;
       }
 
@@ -6424,19 +6424,19 @@ static signed int copy_chunks(struct bio_st * const cl, struct bio_st * const be
 
   }
   while((_Bool)1);
-  signed int return_value_BIO_printf$32;
+  signed int return_value_BIO_printf_32;
   do
   {
     res=get_line(cl, buf, 8192);
     if(!(res >= 0))
     {
-      unsigned long int return_value_pthread_self$26;
-      return_value_pthread_self$26=pthread_self();
-      signed int *return_value___errno_location$27;
-      return_value___errno_location$27=__errno_location();
-      char *return_value_strerror$28;
-      return_value_strerror$28=strerror(*return_value___errno_location$27);
-      logmsg(5, "(%lx) error post-chunk: %s", return_value_pthread_self$26, return_value_strerror$28);
+      unsigned long int return_value_pthread_self_26;
+      return_value_pthread_self_26=pthread_self();
+      signed int *return_value___errno_location_27;
+      return_value___errno_location_27=__errno_location();
+      char *return_value_strerror_28;
+      return_value_strerror_28=strerror(*return_value___errno_location_27);
+      logmsg(5, "(%lx) error post-chunk: %s", return_value_pthread_self_26, return_value_strerror_28);
       return -7;
     }
 
@@ -6446,16 +6446,16 @@ static signed int copy_chunks(struct bio_st * const cl, struct bio_st * const be
 
     if(no_write == 0)
     {
-      return_value_BIO_printf$32=BIO_printf(be, "%s\r\n", (const void *)buf);
-      if(!(return_value_BIO_printf$32 >= 1))
+      return_value_BIO_printf_32=BIO_printf(be, "%s\r\n", (const void *)buf);
+      if(!(return_value_BIO_printf_32 >= 1))
       {
-        unsigned long int return_value_pthread_self$29;
-        return_value_pthread_self$29=pthread_self();
-        signed int *return_value___errno_location$30;
-        return_value___errno_location$30=__errno_location();
-        char *return_value_strerror$31;
-        return_value_strerror$31=strerror(*return_value___errno_location$30);
-        logmsg(5, "(%lx) error post-chunk write: %s", return_value_pthread_self$29, return_value_strerror$31);
+        unsigned long int return_value_pthread_self_29;
+        return_value_pthread_self_29=pthread_self();
+        signed int *return_value___errno_location_30;
+        return_value___errno_location_30=__errno_location();
+        char *return_value_strerror_31;
+        return_value_strerror_31=strerror(*return_value___errno_location_30);
+        logmsg(5, "(%lx) error post-chunk write: %s", return_value_pthread_self_29, return_value_strerror_31);
         return -8;
       }
 
@@ -6466,19 +6466,19 @@ static signed int copy_chunks(struct bio_st * const cl, struct bio_st * const be
 
   }
   while((_Bool)1);
-  signed long int return_value_BIO_ctrl$36;
+  signed long int return_value_BIO_ctrl_36;
   if(no_write == 0)
   {
-    return_value_BIO_ctrl$36=BIO_ctrl(be, 11, (signed long int)0, (void *)0);
-    if(!((signed int)return_value_BIO_ctrl$36 == 1))
+    return_value_BIO_ctrl_36=BIO_ctrl(be, 11, (signed long int)0, (void *)0);
+    if(!((signed int)return_value_BIO_ctrl_36 == 1))
     {
-      unsigned long int return_value_pthread_self$33;
-      return_value_pthread_self$33=pthread_self();
-      signed int *return_value___errno_location$34;
-      return_value___errno_location$34=__errno_location();
-      char *return_value_strerror$35;
-      return_value_strerror$35=strerror(*return_value___errno_location$34);
-      logmsg(5, "(%lx) copy_chunks flush error: %s", return_value_pthread_self$33, return_value_strerror$35);
+      unsigned long int return_value_pthread_self_33;
+      return_value_pthread_self_33=pthread_self();
+      signed int *return_value___errno_location_34;
+      return_value___errno_location_34=__errno_location();
+      char *return_value_strerror_35;
+      return_value_strerror_35=strerror(*return_value___errno_location_34);
+      logmsg(5, "(%lx) copy_chunks flush error: %s", return_value_pthread_self_33, return_value_strerror_35);
       return -4;
     }
 
@@ -6494,85 +6494,85 @@ extern signed int cpURL(char *res, char *src, signed int len)
   signed int state;
   char *kp_res = res;
   state = 0;
-  _Bool tmp_if_expr$9;
-  char *tmp_post$1;
-  _Bool tmp_if_expr$8;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$7;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  _Bool tmp_if_expr$19;
-  char *tmp_post$10;
-  _Bool tmp_if_expr$18;
-  char *tmp_post$11;
-  _Bool tmp_if_expr$17;
-  char *tmp_post$12;
-  char *tmp_post$13;
-  char *tmp_post$14;
-  char *tmp_post$15;
-  char *tmp_post$16;
-  char *tmp_post$20;
-  char *tmp_post$21;
+  _Bool tmp_if_expr_9;
+  char *tmp_post_1;
+  _Bool tmp_if_expr_8;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_7;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  _Bool tmp_if_expr_19;
+  char *tmp_post_10;
+  _Bool tmp_if_expr_18;
+  char *tmp_post_11;
+  _Bool tmp_if_expr_17;
+  char *tmp_post_12;
+  char *tmp_post_13;
+  char *tmp_post_14;
+  char *tmp_post_15;
+  char *tmp_post_16;
+  char *tmp_post_20;
+  char *tmp_post_21;
   for( ; len >= 1; len = len - 1)
     switch(state)
     {
       case 1:
       {
         if((signed int)*src >= 48)
-          tmp_if_expr$9 = (signed int)*src <= 57 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (signed int)*src <= 57 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
         {
-          tmp_post$1 = src;
+          tmp_post_1 = src;
           src = src + 1l;
-          *res = (char)((signed int)*tmp_post$1 - 48);
+          *res = (char)((signed int)*tmp_post_1 - 48);
           state = 2;
         }
 
         else
         {
           if((signed int)*src >= 65)
-            tmp_if_expr$8 = (signed int)*src <= 70 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = (signed int)*src <= 70 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          if(tmp_if_expr$8)
+            tmp_if_expr_8 = (_Bool)0;
+          if(tmp_if_expr_8)
           {
-            tmp_post$2 = src;
+            tmp_post_2 = src;
             src = src + 1l;
-            *res = (char)(((signed int)*tmp_post$2 - 65) + 10);
+            *res = (char)(((signed int)*tmp_post_2 - 65) + 10);
             state = 2;
           }
 
           else
           {
             if((signed int)*src >= 97)
-              tmp_if_expr$7 = (signed int)*src <= 102 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = (signed int)*src <= 102 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            if(tmp_if_expr$7)
+              tmp_if_expr_7 = (_Bool)0;
+            if(tmp_if_expr_7)
             {
-              tmp_post$3 = src;
+              tmp_post_3 = src;
               src = src + 1l;
-              *res = (char)(((signed int)*tmp_post$3 - 97) + 10);
+              *res = (char)(((signed int)*tmp_post_3 - 97) + 10);
               state = 2;
             }
 
             else
             {
-              tmp_post$4 = res;
+              tmp_post_4 = res;
               res = res + 1l;
-              *tmp_post$4 = (char)37;
-              tmp_post$5 = res;
+              *tmp_post_4 = (char)37;
+              tmp_post_5 = res;
               res = res + 1l;
-              tmp_post$6 = src;
+              tmp_post_6 = src;
               src = src + 1l;
-              *tmp_post$5 = *tmp_post$6;
+              *tmp_post_5 = *tmp_post_6;
               state = 0;
             }
           }
@@ -6582,15 +6582,15 @@ extern signed int cpURL(char *res, char *src, signed int len)
       case 2:
       {
         if((signed int)*src >= 48)
-          tmp_if_expr$19 = (signed int)*src <= 57 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_19 = (signed int)*src <= 57 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$19 = (_Bool)0;
-        if(tmp_if_expr$19)
+          tmp_if_expr_19 = (_Bool)0;
+        if(tmp_if_expr_19)
         {
-          tmp_post$10 = src;
+          tmp_post_10 = src;
           src = src + 1l;
-          *res = (char)(((signed int)*res * 16 + (signed int)*tmp_post$10) - 48);
+          *res = (char)(((signed int)*res * 16 + (signed int)*tmp_post_10) - 48);
           res = res + 1l;
           state = 0;
         }
@@ -6598,15 +6598,15 @@ extern signed int cpURL(char *res, char *src, signed int len)
         else
         {
           if((signed int)*src >= 65)
-            tmp_if_expr$18 = (signed int)*src <= 70 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_18 = (signed int)*src <= 70 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$18 = (_Bool)0;
-          if(tmp_if_expr$18)
+            tmp_if_expr_18 = (_Bool)0;
+          if(tmp_if_expr_18)
           {
-            tmp_post$11 = src;
+            tmp_post_11 = src;
             src = src + 1l;
-            *res = (char)((((signed int)*res * 16 + (signed int)*tmp_post$11) - 65) + 10);
+            *res = (char)((((signed int)*res * 16 + (signed int)*tmp_post_11) - 65) + 10);
             res = res + 1l;
             state = 0;
           }
@@ -6614,32 +6614,32 @@ extern signed int cpURL(char *res, char *src, signed int len)
           else
           {
             if((signed int)*src >= 97)
-              tmp_if_expr$17 = (signed int)*src <= 102 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_17 = (signed int)*src <= 102 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$17 = (_Bool)0;
-            if(tmp_if_expr$17)
+              tmp_if_expr_17 = (_Bool)0;
+            if(tmp_if_expr_17)
             {
-              tmp_post$12 = src;
+              tmp_post_12 = src;
               src = src + 1l;
-              *res = (char)((((signed int)*res * 16 + (signed int)*tmp_post$12) - 97) + 10);
+              *res = (char)((((signed int)*res * 16 + (signed int)*tmp_post_12) - 97) + 10);
               res = res + 1l;
               state = 0;
             }
 
             else
             {
-              tmp_post$13 = res;
+              tmp_post_13 = res;
               res = res + 1l;
-              *tmp_post$13 = (char)37;
-              tmp_post$14 = res;
+              *tmp_post_13 = (char)37;
+              tmp_post_14 = res;
               res = res + 1l;
-              *tmp_post$14 = *(src - (signed long int)1);
-              tmp_post$15 = res;
+              *tmp_post_14 = *(src - (signed long int)1);
+              tmp_post_15 = res;
               res = res + 1l;
-              tmp_post$16 = src;
+              tmp_post_16 = src;
               src = src + 1l;
-              *tmp_post$15 = *tmp_post$16;
+              *tmp_post_15 = *tmp_post_16;
               state = 0;
             }
           }
@@ -6649,11 +6649,11 @@ extern signed int cpURL(char *res, char *src, signed int len)
       default:
         if(!((signed int)*src == 37))
         {
-          tmp_post$20 = res;
+          tmp_post_20 = res;
           res = res + 1l;
-          tmp_post$21 = src;
+          tmp_post_21 = src;
           src = src + 1l;
-          *tmp_post$20 = *tmp_post$21;
+          *tmp_post_20 = *tmp_post_21;
         }
 
         else
@@ -6662,20 +6662,20 @@ extern signed int cpURL(char *res, char *src, signed int len)
           state = 1;
         }
     }
-  char *tmp_post$22;
+  char *tmp_post_22;
   if(state >= 1)
   {
-    tmp_post$22 = res;
+    tmp_post_22 = res;
     res = res + 1l;
-    *tmp_post$22 = (char)37;
+    *tmp_post_22 = (char)37;
   }
 
-  char *tmp_post$23;
+  char *tmp_post_23;
   if(state >= 2)
   {
-    tmp_post$23 = res;
+    tmp_post_23 = res;
     res = res + 1l;
-    *tmp_post$23 = *(src - (signed long int)1);
+    *tmp_post_23 = *(src - (signed long int)1);
   }
 
   *res = (char)0;
@@ -6689,13 +6689,13 @@ static double cur_time(void)
   struct timeval tv;
   struct timezone tz;
   signed int sv_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  sv_errno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  sv_errno = *return_value___errno_location_1;
   gettimeofday(&tv, &tz);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = sv_errno;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = sv_errno;
   return (double)tv.tv_sec * 1000000.0 + (double)tv.tv_usec;
 }
 
@@ -6714,11 +6714,11 @@ static void do_RSAgen(void)
     t_RSA1024_keys[(signed long int)n]=RSA_generate_key(1024, (unsigned long int)0x10001L, (void (*)(signed int, signed int, void *))(void *)0, (void *)0);
   }
   ret_val=pthread_mutex_lock(&RSA_mut);
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   if(!(ret_val == 0))
   {
-    return_value_strerror$1=strerror(ret_val);
-    logmsg(4, "thr_RSAgen() lock: %s", return_value_strerror$1);
+    return_value_strerror_1=strerror(ret_val);
+    logmsg(4, "thr_RSAgen() lock: %s", return_value_strerror_1);
   }
 
   n = 0;
@@ -6730,11 +6730,11 @@ static void do_RSAgen(void)
     RSA1024_keys[(signed long int)n] = t_RSA1024_keys[(signed long int)n];
   }
   ret_val=pthread_mutex_unlock(&RSA_mut);
-  char *return_value_strerror$2;
+  char *return_value_strerror_2;
   if(!(ret_val == 0))
   {
-    return_value_strerror$2=strerror(ret_val);
-    logmsg(4, "thr_RSAgen() unlock: %s", return_value_strerror$2);
+    return_value_strerror_2=strerror(ret_val);
+    logmsg(4, "thr_RSAgen() unlock: %s", return_value_strerror_2);
   }
 
   goto __CPROVER_DUMP_L7;
@@ -6749,11 +6749,11 @@ static void do_expire(void)
 {
   struct _listener *lstn;
   struct _service *svc;
-  signed long int do_expire$$1$$cur_time;
+  signed long int do_expire__1__cur_time;
   signed int ret_val;
-  do_expire$$1$$cur_time=time((signed long int *)(void *)0);
+  do_expire__1__cur_time=time((signed long int *)(void *)0);
   lstn = listeners;
-  char *return_value_strerror$2;
+  char *return_value_strerror_2;
   for( ; !(lstn == ((struct _listener *)NULL)); lstn = lstn->next)
   {
     svc = lstn->services;
@@ -6764,18 +6764,18 @@ static void do_expire(void)
         ret_val=pthread_mutex_lock(&svc->mut);
         if(!(ret_val == 0))
         {
-          char *return_value_strerror$1;
-          return_value_strerror$1=strerror(ret_val);
-          logmsg(4, "do_expire() lock: %s", return_value_strerror$1);
+          char *return_value_strerror_1;
+          return_value_strerror_1=strerror(ret_val);
+          logmsg(4, "do_expire() lock: %s", return_value_strerror_1);
           goto __CPROVER_DUMP_L5;
         }
 
-        t_expire(svc->sessions, do_expire$$1$$cur_time - (signed long int)svc->sess_ttl);
+        t_expire(svc->sessions, do_expire__1__cur_time - (signed long int)svc->sess_ttl);
         ret_val=pthread_mutex_unlock(&svc->mut);
         if(!(ret_val == 0))
         {
-          return_value_strerror$2=strerror(ret_val);
-          logmsg(4, "do_expire() unlock: %s", return_value_strerror$2);
+          return_value_strerror_2=strerror(ret_val);
+          logmsg(4, "do_expire() unlock: %s", return_value_strerror_2);
         }
 
       }
@@ -6786,7 +6786,7 @@ static void do_expire(void)
     }
   }
   svc = services;
-  char *return_value_strerror$4;
+  char *return_value_strerror_4;
   for( ; !(svc == ((struct _service *)NULL)); svc = svc->next)
   {
     if(!((signed int)svc->sess_type == SESS_NONE))
@@ -6794,18 +6794,18 @@ static void do_expire(void)
       ret_val=pthread_mutex_lock(&svc->mut);
       if(!(ret_val == 0))
       {
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(ret_val);
-        logmsg(4, "do_expire() lock: %s", return_value_strerror$3);
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(ret_val);
+        logmsg(4, "do_expire() lock: %s", return_value_strerror_3);
         goto __CPROVER_DUMP_L11;
       }
 
-      t_expire(svc->sessions, do_expire$$1$$cur_time - (signed long int)svc->sess_ttl);
+      t_expire(svc->sessions, do_expire__1__cur_time - (signed long int)svc->sess_ttl);
       ret_val=pthread_mutex_unlock(&svc->mut);
       if(!(ret_val == 0))
       {
-        return_value_strerror$4=strerror(ret_val);
-        logmsg(4, "do_expire() unlock: %s", return_value_strerror$4);
+        return_value_strerror_4=strerror(ret_val);
+        logmsg(4, "do_expire() unlock: %s", return_value_strerror_4);
       }
 
     }
@@ -6868,14 +6868,14 @@ void do_http(struct _thr_arg *arg)
   struct ssl_st *be_ssl;
   signed long long int cont;
   signed long long int res_bytes;
-  struct anonymous$4 do_http$$1$$matches[4l];
+  struct anonymous_4 do_http__1__matches[4l];
   struct linger l;
   double start_req;
   double end_req;
-  enum anonymous$3 reneg_state;
-  struct anonymous$6 ba1;
-  struct anonymous$6 ba2;
-  reneg_state = (enum anonymous$3)RENEG_INIT;
+  enum anonymous_3 reneg_state;
+  struct anonymous_6 ba1;
+  struct anonymous_6 ba2;
+  reneg_state = (enum anonymous_3)RENEG_INIT;
   ba1.reneg_state = &reneg_state;
   ba2.reneg_state = &reneg_state;
   ba1.timeout = 0;
@@ -6888,7 +6888,7 @@ void do_http(struct _thr_arg *arg)
   free((void *)((struct _thr_arg *)arg)->from_host.ai_addr);
   free((void *)arg);
   if(!(lstn->allow_client_reneg == 0))
-    reneg_state = (enum anonymous$3)RENEG_ALLOW;
+    reneg_state = (enum anonymous_3)RENEG_ALLOW;
 
   n = 1;
   setsockopt(sock, 1, 9, (void *)&n, (unsigned int)sizeof(signed int) /*4ul*/ );
@@ -6906,9 +6906,9 @@ void do_http(struct _thr_arg *arg)
   cl=BIO_new_socket(sock, 1);
   if(cl == ((struct bio_st *)NULL))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    logmsg(4, "(%lx) BIO_new_socket failed", return_value_pthread_self$1);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    logmsg(4, "(%lx) BIO_new_socket failed", return_value_pthread_self_1);
     shutdown(sock, 2);
     close(sock);
     goto __CPROVER_DUMP_L488;
@@ -6917,15 +6917,15 @@ void do_http(struct _thr_arg *arg)
   ba1.timeout = lstn->to;
   BIO_set_callback_arg(cl, (char *)&ba1);
   BIO_set_callback(cl, bio_callback);
-  signed long int return_value_SSL_get_verify_result$5;
+  signed long int return_value_SSL_get_verify_result_5;
   if(!(lstn->ctx == ((struct _pound_ctx *)NULL)))
   {
     ssl=SSL_new(lstn->ctx->ctx);
     if(ssl == ((struct ssl_st *)NULL))
     {
-      unsigned long int return_value_pthread_self$2;
-      return_value_pthread_self$2=pthread_self();
-      logmsg(4, "(%lx) SSL_new: failed", return_value_pthread_self$2);
+      unsigned long int return_value_pthread_self_2;
+      return_value_pthread_self_2=pthread_self();
+      logmsg(4, "(%lx) SSL_new: failed", return_value_pthread_self_2);
       BIO_ctrl(cl, 1, (signed long int)0, (void *)0);
       BIO_free_all(cl);
       goto __CPROVER_DUMP_L488;
@@ -6933,14 +6933,14 @@ void do_http(struct _thr_arg *arg)
 
     SSL_set_ex_data(ssl, 0, (void *)(char *)&reneg_state);
     SSL_set_bio(ssl, cl, cl);
-    struct bio_method_st *return_value_BIO_f_ssl$4;
-    return_value_BIO_f_ssl$4=BIO_f_ssl();
-    bb=BIO_new(return_value_BIO_f_ssl$4);
+    struct bio_method_st *return_value_BIO_f_ssl_4;
+    return_value_BIO_f_ssl_4=BIO_f_ssl();
+    bb=BIO_new(return_value_BIO_f_ssl_4);
     if(bb == ((struct bio_st *)NULL))
     {
-      unsigned long int return_value_pthread_self$3;
-      return_value_pthread_self$3=pthread_self();
-      logmsg(4, "(%lx) BIO_new(Bio_f_ssl()) failed", return_value_pthread_self$3);
+      unsigned long int return_value_pthread_self_3;
+      return_value_pthread_self_3=pthread_self();
+      logmsg(4, "(%lx) BIO_new(Bio_f_ssl()) failed", return_value_pthread_self_3);
       BIO_ctrl(cl, 1, (signed long int)0, (void *)0);
       BIO_free_all(cl);
       goto __CPROVER_DUMP_L488;
@@ -6949,9 +6949,9 @@ void do_http(struct _thr_arg *arg)
     BIO_ctrl(bb, 109, (signed long int)0x01, (void *)(char *)ssl);
     BIO_ctrl(bb, 119, (signed long int)0, (void *)0);
     cl = bb;
-    signed long int return_value_BIO_ctrl$6;
-    return_value_BIO_ctrl$6=BIO_ctrl(cl, 101, (signed long int)0, (void *)0);
-    if(!(return_value_BIO_ctrl$6 >= 1l))
+    signed long int return_value_BIO_ctrl_6;
+    return_value_BIO_ctrl_6=BIO_ctrl(cl, 101, (signed long int)0, (void *)0);
+    if(!(return_value_BIO_ctrl_6 >= 1l))
     {
       BIO_ctrl(cl, 1, (signed long int)0, (void *)0);
       BIO_free_all(cl);
@@ -6965,8 +6965,8 @@ void do_http(struct _thr_arg *arg)
       {
         if(!(lstn->clnt_check >= 3))
         {
-          return_value_SSL_get_verify_result$5=SSL_get_verify_result(ssl);
-          if(!(return_value_SSL_get_verify_result$5 == 0l))
+          return_value_SSL_get_verify_result_5=SSL_get_verify_result(ssl);
+          if(!(return_value_SSL_get_verify_result_5 == 0l))
           {
             addr2str(caddr, 8192 - 1, &from_host, 1);
             logmsg(5, "Bad certificate from %s", (const void *)caddr);
@@ -6985,14 +6985,14 @@ void do_http(struct _thr_arg *arg)
   else
     x509 = (struct x509_st *)(void *)0;
   cur_backend = (struct _backend *)(void *)0;
-  struct bio_method_st *return_value_BIO_f_buffer$8;
-  return_value_BIO_f_buffer$8=BIO_f_buffer();
-  bb=BIO_new(return_value_BIO_f_buffer$8);
+  struct bio_method_st *return_value_BIO_f_buffer_8;
+  return_value_BIO_f_buffer_8=BIO_f_buffer();
+  bb=BIO_new(return_value_BIO_f_buffer_8);
   if(bb == ((struct bio_st *)NULL))
   {
-    unsigned long int return_value_pthread_self$7;
-    return_value_pthread_self$7=pthread_self();
-    logmsg(4, "(%lx) BIO_new(buffer) failed", return_value_pthread_self$7);
+    unsigned long int return_value_pthread_self_7;
+    return_value_pthread_self_7=pthread_self();
+    logmsg(4, "(%lx) BIO_new(buffer) failed", return_value_pthread_self_7);
     BIO_ctrl(cl, 1, (signed long int)0, (void *)0);
     BIO_free_all(cl);
     goto __CPROVER_DUMP_L488;
@@ -7003,66 +7003,66 @@ void do_http(struct _thr_arg *arg)
   cl=BIO_push(bb, cl);
   be_11 = 0;
   cl_11 = be_11;
-  signed int return_value_strncasecmp$14;
-  signed int return_value_pcreposix_regexec$22;
-  _Bool tmp_if_expr$23;
-  signed int return_value_strcasecmp$26;
-  signed int return_value_pcreposix_regexec$28;
-  char *tmp_if_expr$39;
-  char *tmp_if_expr$41;
-  unsigned long int return_value_pthread_self$42;
-  _Bool tmp_if_expr$61;
-  signed int return_value_check_header$67;
-  signed int return_value_BIO_printf$75;
-  struct bio_method_st *return_value_BIO_s_mem$113;
-  signed int return_value_get_line$108;
-  signed int return_value_is_readable$140;
-  signed long int return_value_BIO_ctrl$120;
-  unsigned long int return_value_pthread_self$126;
-  signed int *return_value___errno_location$127;
-  char *return_value_strerror$128;
-  unsigned long int return_value_pthread_self$135;
-  signed int *return_value___errno_location$136;
-  char *return_value_strerror$137;
-  signed long int return_value_BIO_ctrl$144;
-  _Bool tmp_if_expr$146;
-  char *return_value_strstr$145;
-  char *tmp_if_expr$147;
-  char *tmp_if_expr$148;
-  char *tmp_if_expr$149;
-  char *tmp_if_expr$150;
-  char *tmp_if_expr$151;
-  char *tmp_if_expr$152;
-  char *tmp_if_expr$153;
-  char *tmp_if_expr$154;
-  char *tmp_if_expr$155;
-  char *tmp_if_expr$156;
-  char *tmp_if_expr$157;
-  signed int return_value_pcreposix_regexec$162;
-  _Bool tmp_if_expr$163;
-  signed int return_value_strcasecmp$165;
-  signed int return_value_strcasecmp$166;
-  signed int return_value_need_rewrite$170;
-  signed int return_value_need_rewrite$174;
-  _Bool tmp_if_expr$175;
-  unsigned long int return_value_pthread_self$187;
-  signed int *return_value___errno_location$188;
-  char *return_value_strerror$189;
-  signed long int return_value_BIO_ctrl$192;
-  unsigned long int return_value_pthread_self$197;
-  signed int *return_value___errno_location$198;
-  char *return_value_strerror$199;
-  unsigned long int return_value_pthread_self$205;
-  signed int *return_value___errno_location$206;
-  char *return_value_strerror$207;
-  char *tmp_if_expr$216;
-  char *tmp_if_expr$217;
-  char *tmp_if_expr$218;
-  char *tmp_if_expr$219;
-  char *tmp_if_expr$220;
-  char *tmp_if_expr$221;
-  char *tmp_if_expr$222;
-  char *tmp_if_expr$223;
+  signed int return_value_strncasecmp_14;
+  signed int return_value_pcreposix_regexec_22;
+  _Bool tmp_if_expr_23;
+  signed int return_value_strcasecmp_26;
+  signed int return_value_pcreposix_regexec_28;
+  char *tmp_if_expr_39;
+  char *tmp_if_expr_41;
+  unsigned long int return_value_pthread_self_42;
+  _Bool tmp_if_expr_61;
+  signed int return_value_check_header_67;
+  signed int return_value_BIO_printf_75;
+  struct bio_method_st *return_value_BIO_s_mem_113;
+  signed int return_value_get_line_108;
+  signed int return_value_is_readable_140;
+  signed long int return_value_BIO_ctrl_120;
+  unsigned long int return_value_pthread_self_126;
+  signed int *return_value___errno_location_127;
+  char *return_value_strerror_128;
+  unsigned long int return_value_pthread_self_135;
+  signed int *return_value___errno_location_136;
+  char *return_value_strerror_137;
+  signed long int return_value_BIO_ctrl_144;
+  _Bool tmp_if_expr_146;
+  char *return_value_strstr_145;
+  char *tmp_if_expr_147;
+  char *tmp_if_expr_148;
+  char *tmp_if_expr_149;
+  char *tmp_if_expr_150;
+  char *tmp_if_expr_151;
+  char *tmp_if_expr_152;
+  char *tmp_if_expr_153;
+  char *tmp_if_expr_154;
+  char *tmp_if_expr_155;
+  char *tmp_if_expr_156;
+  char *tmp_if_expr_157;
+  signed int return_value_pcreposix_regexec_162;
+  _Bool tmp_if_expr_163;
+  signed int return_value_strcasecmp_165;
+  signed int return_value_strcasecmp_166;
+  signed int return_value_need_rewrite_170;
+  signed int return_value_need_rewrite_174;
+  _Bool tmp_if_expr_175;
+  unsigned long int return_value_pthread_self_187;
+  signed int *return_value___errno_location_188;
+  char *return_value_strerror_189;
+  signed long int return_value_BIO_ctrl_192;
+  unsigned long int return_value_pthread_self_197;
+  signed int *return_value___errno_location_198;
+  char *return_value_strerror_199;
+  unsigned long int return_value_pthread_self_205;
+  signed int *return_value___errno_location_206;
+  char *return_value_strerror_207;
+  char *tmp_if_expr_216;
+  char *tmp_if_expr_217;
+  char *tmp_if_expr_218;
+  char *tmp_if_expr_219;
+  char *tmp_if_expr_220;
+  char *tmp_if_expr_221;
+  char *tmp_if_expr_222;
+  char *tmp_if_expr_223;
   do
   {
     res_bytes = 0LL;
@@ -7080,18 +7080,18 @@ void do_http(struct _thr_arg *arg)
     {
       if(cl_11 == 0)
       {
-        signed int *return_value___errno_location$12;
-        return_value___errno_location$12=__errno_location();
-        if(!(*return_value___errno_location$12 == 0))
+        signed int *return_value___errno_location_12;
+        return_value___errno_location_12=__errno_location();
+        if(!(*return_value___errno_location_12 == 0))
         {
           addr2str(caddr, 8192 - 1, &from_host, 1);
-          unsigned long int return_value_pthread_self$9;
-          return_value_pthread_self$9=pthread_self();
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          char *return_value_strerror$11;
-          return_value_strerror$11=strerror(*return_value___errno_location$10);
-          logmsg(5, "(%lx) error read from %s: %s", return_value_pthread_self$9, (const void *)caddr, return_value_strerror$11);
+          unsigned long int return_value_pthread_self_9;
+          return_value_pthread_self_9=pthread_self();
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          char *return_value_strerror_11;
+          return_value_strerror_11=strerror(*return_value___errno_location_10);
+          logmsg(5, "(%lx) error read from %s: %s", return_value_pthread_self_9, (const void *)caddr, return_value_strerror_11);
         }
 
       }
@@ -7134,22 +7134,22 @@ void do_http(struct _thr_arg *arg)
     start_req=cur_time();
     log_time(req_time);
     strncpy(request, headers[(signed long int)0], (unsigned long int)8192);
-    signed int return_value_pcreposix_regexec$17;
-    return_value_pcreposix_regexec$17=pcreposix_regexec(&lstn->verb, request, (unsigned long int)3, do_http$$1$$matches, 0);
-    if(return_value_pcreposix_regexec$17 == 0)
+    signed int return_value_pcreposix_regexec_17;
+    return_value_pcreposix_regexec_17=pcreposix_regexec(&lstn->verb, request, (unsigned long int)3, do_http__1__matches, 0);
+    if(return_value_pcreposix_regexec_17 == 0)
     {
-      signed int return_value_strncasecmp$13;
-      return_value_strncasecmp$13=strncasecmp(request + (signed long int)do_http$$1$$matches[(signed long int)1].rm_so, "HEAD", (unsigned long int)(do_http$$1$$matches[(signed long int)1].rm_eo - do_http$$1$$matches[(signed long int)1].rm_so));
-      no_cont = (signed int)!(return_value_strncasecmp$13 != 0);
-      signed int return_value_strncasecmp$15;
-      return_value_strncasecmp$15=strncasecmp(request + (signed long int)do_http$$1$$matches[(signed long int)1].rm_so, "RPC_IN_DATA", (unsigned long int)(do_http$$1$$matches[(signed long int)1].rm_eo - do_http$$1$$matches[(signed long int)1].rm_so));
-      if(return_value_strncasecmp$15 == 0)
+      signed int return_value_strncasecmp_13;
+      return_value_strncasecmp_13=strncasecmp(request + (signed long int)do_http__1__matches[(signed long int)1].rm_so, "HEAD", (unsigned long int)(do_http__1__matches[(signed long int)1].rm_eo - do_http__1__matches[(signed long int)1].rm_so));
+      no_cont = (signed int)!(return_value_strncasecmp_13 != 0);
+      signed int return_value_strncasecmp_15;
+      return_value_strncasecmp_15=strncasecmp(request + (signed long int)do_http__1__matches[(signed long int)1].rm_so, "RPC_IN_DATA", (unsigned long int)(do_http__1__matches[(signed long int)1].rm_eo - do_http__1__matches[(signed long int)1].rm_so));
+      if(return_value_strncasecmp_15 == 0)
         is_rpc = 1;
 
       else
       {
-        return_value_strncasecmp$14=strncasecmp(request + (signed long int)do_http$$1$$matches[(signed long int)1].rm_so, "RPC_OUT_DATA", (unsigned long int)(do_http$$1$$matches[(signed long int)1].rm_eo - do_http$$1$$matches[(signed long int)1].rm_so));
-        if(return_value_strncasecmp$14 == 0)
+        return_value_strncasecmp_14=strncasecmp(request + (signed long int)do_http__1__matches[(signed long int)1].rm_so, "RPC_OUT_DATA", (unsigned long int)(do_http__1__matches[(signed long int)1].rm_eo - do_http__1__matches[(signed long int)1].rm_so));
+        if(return_value_strncasecmp_14 == 0)
           is_rpc = 0;
 
       }
@@ -7158,9 +7158,9 @@ void do_http(struct _thr_arg *arg)
     else
     {
       addr2str(caddr, 8192 - 1, &from_host, 1);
-      unsigned long int return_value_pthread_self$16;
-      return_value_pthread_self$16=pthread_self();
-      logmsg(4, "(%lx) e501 bad request \"%s\" from %s", return_value_pthread_self$16, (const void *)request, (const void *)caddr);
+      unsigned long int return_value_pthread_self_16;
+      return_value_pthread_self_16=pthread_self();
+      logmsg(4, "(%lx) e501 bad request \"%s\" from %s", return_value_pthread_self_16, (const void *)request, (const void *)caddr);
       err_reply(cl, h501, lstn->err501);
       free_headers(headers);
       if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7196,18 +7196,18 @@ void do_http(struct _thr_arg *arg)
 
       goto __CPROVER_DUMP_L488;
     }
-    unsigned long int return_value_strlen$18;
-    return_value_strlen$18=strlen(request);
-    cl_11 = (signed int)((signed int)request[(signed long int)(return_value_strlen$18 - (unsigned long int)1)] == 49);
-    n=cpURL(url, request + (signed long int)do_http$$1$$matches[(signed long int)2].rm_so, do_http$$1$$matches[(signed long int)2].rm_eo - do_http$$1$$matches[(signed long int)2].rm_so);
-    unsigned long int return_value_strlen$20;
-    return_value_strlen$20=strlen(url);
-    if(!((unsigned long int)n == return_value_strlen$20))
+    unsigned long int return_value_strlen_18;
+    return_value_strlen_18=strlen(request);
+    cl_11 = (signed int)((signed int)request[(signed long int)(return_value_strlen_18 - (unsigned long int)1)] == 49);
+    n=cpURL(url, request + (signed long int)do_http__1__matches[(signed long int)2].rm_so, do_http__1__matches[(signed long int)2].rm_eo - do_http__1__matches[(signed long int)2].rm_so);
+    unsigned long int return_value_strlen_20;
+    return_value_strlen_20=strlen(url);
+    if(!((unsigned long int)n == return_value_strlen_20))
     {
       addr2str(caddr, 8192 - 1, &from_host, 1);
-      unsigned long int return_value_pthread_self$19;
-      return_value_pthread_self$19=pthread_self();
-      logmsg(5, "(%lx) e501 URL \"%s\" (contains NULL) from %s", return_value_pthread_self$19, (const void *)url, (const void *)caddr);
+      unsigned long int return_value_pthread_self_19;
+      return_value_pthread_self_19=pthread_self();
+      logmsg(5, "(%lx) e501 URL \"%s\" (contains NULL) from %s", return_value_pthread_self_19, (const void *)url, (const void *)caddr);
       err_reply(cl, h501, lstn->err501);
       free_headers(headers);
       if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7246,13 +7246,13 @@ void do_http(struct _thr_arg *arg)
 
     if(!(lstn->has_pat == 0))
     {
-      return_value_pcreposix_regexec$22=pcreposix_regexec(&lstn->url_pat, url, (unsigned long int)0, (struct anonymous$4 *)(void *)0, 0);
-      if(!(return_value_pcreposix_regexec$22 == 0))
+      return_value_pcreposix_regexec_22=pcreposix_regexec(&lstn->url_pat, url, (unsigned long int)0, (struct anonymous_4 *)(void *)0, 0);
+      if(!(return_value_pcreposix_regexec_22 == 0))
       {
         addr2str(caddr, 8192 - 1, &from_host, 1);
-        unsigned long int return_value_pthread_self$21;
-        return_value_pthread_self$21=pthread_self();
-        logmsg(5, "(%lx) e501 bad URL \"%s\" from %s", return_value_pthread_self$21, (const void *)url, (const void *)caddr);
+        unsigned long int return_value_pthread_self_21;
+        return_value_pthread_self_21=pthread_self();
+        logmsg(5, "(%lx) e501 bad URL \"%s\" from %s", return_value_pthread_self_21, (const void *)url, (const void *)caddr);
         err_reply(cl, h501, lstn->err501);
         free_headers(headers);
         if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7297,33 +7297,33 @@ void do_http(struct _thr_arg *arg)
     do
     {
       if(!(n >= 128))
-        tmp_if_expr$23 = headers[(signed long int)n] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_23 = headers[(signed long int)n] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$23 = (_Bool)0;
-      if(!tmp_if_expr$23)
+        tmp_if_expr_23 = (_Bool)0;
+      if(!tmp_if_expr_23)
         break;
 
-      signed int return_value_check_header$24;
-      return_value_check_header$24=check_header(headers[(signed long int)n], buf);
-      if(!(return_value_check_header$24 == 6))
+      signed int return_value_check_header_24;
+      return_value_check_header_24=check_header(headers[(signed long int)n], buf);
+      if(!(return_value_check_header_24 == 6))
       {
-        if(return_value_check_header$24 == 7)
+        if(return_value_check_header_24 == 7)
           goto __CPROVER_DUMP_L47;
 
-        if(return_value_check_header$24 == 8)
+        if(return_value_check_header_24 == 8)
           goto __CPROVER_DUMP_L48;
 
-        if(return_value_check_header$24 == 3)
+        if(return_value_check_header_24 == 3)
           goto __CPROVER_DUMP_L49;
 
-        if(return_value_check_header$24 == 1)
+        if(return_value_check_header_24 == 1)
           goto __CPROVER_DUMP_L51;
 
-        if(return_value_check_header$24 == 2)
+        if(return_value_check_header_24 == 2)
           goto __CPROVER_DUMP_L55;
 
-        if(return_value_check_header$24 == -1)
+        if(return_value_check_header_24 == -1)
           goto __CPROVER_DUMP_L58;
 
       }
@@ -7345,9 +7345,9 @@ void do_http(struct _thr_arg *arg)
 
       __CPROVER_DUMP_L49:
         ;
-        signed int return_value_strcasecmp$25;
-        return_value_strcasecmp$25=strcasecmp("close", buf);
-        if(return_value_strcasecmp$25 == 0)
+        signed int return_value_strcasecmp_25;
+        return_value_strcasecmp_25=strcasecmp("close", buf);
+        if(return_value_strcasecmp_25 == 0)
           conn_closed = 1;
 
         goto __CPROVER_DUMP_L60;
@@ -7359,8 +7359,8 @@ void do_http(struct _thr_arg *arg)
 
         else
         {
-          return_value_strcasecmp$26=strcasecmp("chunked", buf);
-          if(return_value_strcasecmp$26 == 0)
+          return_value_strcasecmp_26=strcasecmp("chunked", buf);
+          if(return_value_strcasecmp_26 == 0)
           {
             if(!(chunked == 0))
               headers_ok[(signed long int)n] = (char)0;
@@ -7391,9 +7391,9 @@ void do_http(struct _thr_arg *arg)
         if(lstn->log_level >= 1)
         {
           addr2str(caddr, 8192 - 1, &from_host, 1);
-          unsigned long int return_value_pthread_self$27;
-          return_value_pthread_self$27=pthread_self();
-          logmsg(5, "(%lx) bad header from %s (%s)", return_value_pthread_self$27, (const void *)caddr, headers[(signed long int)n]);
+          unsigned long int return_value_pthread_self_27;
+          return_value_pthread_self_27=pthread_self();
+          logmsg(5, "(%lx) bad header from %s (%s)", return_value_pthread_self_27, (const void *)caddr, headers[(signed long int)n]);
         }
 
         headers_ok[(signed long int)n] = (char)0;
@@ -7408,8 +7408,8 @@ void do_http(struct _thr_arg *arg)
           struct _matcher *m = lstn->head_off;
           for( ; !(m == ((struct _matcher *)NULL)); m = m->next)
           {
-            return_value_pcreposix_regexec$28=pcreposix_regexec(&m->pat, headers[(signed long int)n], (unsigned long int)0, (struct anonymous$4 *)(void *)0, 0);
-            headers_ok[(signed long int)n] = (char)return_value_pcreposix_regexec$28;
+            return_value_pcreposix_regexec_28=pcreposix_regexec(&m->pat, headers[(signed long int)n], (unsigned long int)0, (struct anonymous_4 *)(void *)0, 0);
+            headers_ok[(signed long int)n] = (char)return_value_pcreposix_regexec_28;
             if(headers_ok[(signed long int)n] == 0)
               break;
 
@@ -7418,43 +7418,43 @@ void do_http(struct _thr_arg *arg)
 
       }
 
-      signed int return_value_pcreposix_regexec$35;
-      return_value_pcreposix_regexec$35=pcreposix_regexec(&AUTHORIZATION, headers[(signed long int)n], (unsigned long int)2, do_http$$1$$matches, 0);
-      if(return_value_pcreposix_regexec$35 == 0)
+      signed int return_value_pcreposix_regexec_35;
+      return_value_pcreposix_regexec_35=pcreposix_regexec(&AUTHORIZATION, headers[(signed long int)n], (unsigned long int)2, do_http__1__matches, 0);
+      if(return_value_pcreposix_regexec_35 == 0)
       {
         signed int inlen;
-        struct bio_method_st *return_value_BIO_s_mem$30;
-        return_value_BIO_s_mem$30=BIO_s_mem();
-        bb=BIO_new(return_value_BIO_s_mem$30);
+        struct bio_method_st *return_value_BIO_s_mem_30;
+        return_value_BIO_s_mem_30=BIO_s_mem();
+        bb=BIO_new(return_value_BIO_s_mem_30);
         if(bb == ((struct bio_st *)NULL))
         {
-          unsigned long int return_value_pthread_self$29;
-          return_value_pthread_self$29=pthread_self();
-          logmsg(4, "(%lx) Can't alloc BIO_s_mem", return_value_pthread_self$29);
+          unsigned long int return_value_pthread_self_29;
+          return_value_pthread_self_29=pthread_self();
+          logmsg(4, "(%lx) Can't alloc BIO_s_mem", return_value_pthread_self_29);
           goto __CPROVER_DUMP_L69;
         }
 
-        struct bio_method_st *return_value_BIO_f_base64$32;
-        return_value_BIO_f_base64$32=BIO_f_base64();
-        b64=BIO_new(return_value_BIO_f_base64$32);
+        struct bio_method_st *return_value_BIO_f_base64_32;
+        return_value_BIO_f_base64_32=BIO_f_base64();
+        b64=BIO_new(return_value_BIO_f_base64_32);
         if(b64 == ((struct bio_st *)NULL))
         {
-          unsigned long int return_value_pthread_self$31;
-          return_value_pthread_self$31=pthread_self();
-          logmsg(4, "(%lx) Can't alloc BIO_f_base64", return_value_pthread_self$31);
+          unsigned long int return_value_pthread_self_31;
+          return_value_pthread_self_31=pthread_self();
+          logmsg(4, "(%lx) Can't alloc BIO_f_base64", return_value_pthread_self_31);
           BIO_free(bb);
           goto __CPROVER_DUMP_L69;
         }
 
         b64=BIO_push(b64, bb);
-        BIO_write(bb, (const void *)(headers[(signed long int)n] + (signed long int)do_http$$1$$matches[(signed long int)1].rm_so), do_http$$1$$matches[(signed long int)1].rm_eo - do_http$$1$$matches[(signed long int)1].rm_so);
+        BIO_write(bb, (const void *)(headers[(signed long int)n] + (signed long int)do_http__1__matches[(signed long int)1].rm_so), do_http__1__matches[(signed long int)1].rm_eo - do_http__1__matches[(signed long int)1].rm_so);
         BIO_write(bb, (const void *)"\n", 1);
         inlen=BIO_read(b64, (void *)buf, 8192 - 1);
         if(!(inlen >= 1))
         {
-          unsigned long int return_value_pthread_self$33;
-          return_value_pthread_self$33=pthread_self();
-          logmsg(4, "(%lx) Can't read BIO_f_base64", return_value_pthread_self$33);
+          unsigned long int return_value_pthread_self_33;
+          return_value_pthread_self_33=pthread_self();
+          logmsg(4, "(%lx) Can't read BIO_f_base64", return_value_pthread_self_33);
           BIO_free_all(b64);
           goto __CPROVER_DUMP_L69;
         }
@@ -7463,9 +7463,9 @@ void do_http(struct _thr_arg *arg)
         mh=strchr(buf, 58);
         if(mh == ((char *)NULL))
         {
-          unsigned long int return_value_pthread_self$34;
-          return_value_pthread_self$34=pthread_self();
-          logmsg(4, "(%lx) Unknown authentication", return_value_pthread_self$34);
+          unsigned long int return_value_pthread_self_34;
+          return_value_pthread_self_34=pthread_self();
+          logmsg(4, "(%lx) Unknown authentication", return_value_pthread_self_34);
           goto __CPROVER_DUMP_L69;
         }
 
@@ -7488,9 +7488,9 @@ void do_http(struct _thr_arg *arg)
           if(!(is_rpc == 1))
           {
             addr2str(caddr, 8192 - 1, &from_host, 1);
-            unsigned long int return_value_pthread_self$36;
-            return_value_pthread_self$36=pthread_self();
-            logmsg(5, "(%lx) e501 request too large (%ld) from %s", return_value_pthread_self$36, cont, (const void *)caddr);
+            unsigned long int return_value_pthread_self_36;
+            return_value_pthread_self_36=pthread_self();
+            logmsg(5, "(%lx) e501 request too large (%ld) from %s", return_value_pthread_self_36, cont, (const void *)caddr);
             err_reply(cl, h501, lstn->err501);
             free_headers(headers);
             if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7535,9 +7535,9 @@ void do_http(struct _thr_arg *arg)
 
     if(!(be == ((struct bio_st *)NULL)))
     {
-      signed int return_value_is_readable$37;
-      return_value_is_readable$37=is_readable(be, 0);
-      if(!(return_value_is_readable$37 == 0))
+      signed int return_value_is_readable_37;
+      return_value_is_readable_37=is_readable(be, 0);
+      if(!(return_value_is_readable_37 == 0))
       {
         BIO_ctrl(be, 1, (signed long int)0, (void *)0);
         BIO_free_all(be);
@@ -7550,14 +7550,14 @@ void do_http(struct _thr_arg *arg)
     if(svc == ((struct _service *)NULL))
     {
       addr2str(caddr, 8192 - 1, &from_host, 1);
-      unsigned long int return_value_pthread_self$38;
-      return_value_pthread_self$38=pthread_self();
+      unsigned long int return_value_pthread_self_38;
+      return_value_pthread_self_38=pthread_self();
       if(!(v_host[0l] == 0))
-        tmp_if_expr$39 = v_host;
+        tmp_if_expr_39 = v_host;
 
       else
-        tmp_if_expr$39 = "-";
-      logmsg(5, "(%lx) e503 no service \"%s\" from %s %s", return_value_pthread_self$38, (const void *)request, (const void *)caddr, tmp_if_expr$39);
+        tmp_if_expr_39 = "-";
+      logmsg(5, "(%lx) e503 no service \"%s\" from %s %s", return_value_pthread_self_38, (const void *)request, (const void *)caddr, tmp_if_expr_39);
       err_reply(cl, h503, lstn->err503);
       free_headers(headers);
       if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7598,14 +7598,14 @@ void do_http(struct _thr_arg *arg)
     if(backend == ((struct _backend *)NULL))
     {
       addr2str(caddr, 8192 - 1, &from_host, 1);
-      unsigned long int return_value_pthread_self$40;
-      return_value_pthread_self$40=pthread_self();
+      unsigned long int return_value_pthread_self_40;
+      return_value_pthread_self_40=pthread_self();
       if(!(v_host[0l] == 0))
-        tmp_if_expr$41 = v_host;
+        tmp_if_expr_41 = v_host;
 
       else
-        tmp_if_expr$41 = "-";
-      logmsg(5, "(%lx) e503 no back-end \"%s\" from %s %s", return_value_pthread_self$40, (const void *)request, (const void *)caddr, tmp_if_expr$41);
+        tmp_if_expr_41 = "-";
+      logmsg(5, "(%lx) e503 no back-end \"%s\" from %s %s", return_value_pthread_self_40, (const void *)request, (const void *)caddr, tmp_if_expr_41);
       err_reply(cl, h503, lstn->err503);
       free_headers(headers);
       if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7673,8 +7673,8 @@ void do_http(struct _thr_arg *arg)
         }
         default:
         {
-          return_value_pthread_self$42=pthread_self();
-          logmsg(4, "(%lx) e503 backend: unknown family %d", return_value_pthread_self$42, backend->addr.ai_family);
+          return_value_pthread_self_42=pthread_self();
+          logmsg(4, "(%lx) e503 backend: unknown family %d", return_value_pthread_self_42, backend->addr.ai_family);
           err_reply(cl, h503, lstn->err503);
           free_headers(headers);
           if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7715,13 +7715,13 @@ void do_http(struct _thr_arg *arg)
       if(!(sock >= 0))
       {
         addr2str(buf, 8192 - 1, &backend->addr, 0);
-        unsigned long int return_value_pthread_self$43;
-        return_value_pthread_self$43=pthread_self();
-        signed int *return_value___errno_location$44;
-        return_value___errno_location$44=__errno_location();
-        char *return_value_strerror$45;
-        return_value_strerror$45=strerror(*return_value___errno_location$44);
-        logmsg(4, "(%lx) e503 backend %s socket create: %s", return_value_pthread_self$43, (const void *)buf, return_value_strerror$45);
+        unsigned long int return_value_pthread_self_43;
+        return_value_pthread_self_43=pthread_self();
+        signed int *return_value___errno_location_44;
+        return_value___errno_location_44=__errno_location();
+        char *return_value_strerror_45;
+        return_value_strerror_45=strerror(*return_value___errno_location_44);
+        logmsg(4, "(%lx) e503 backend %s socket create: %s", return_value_pthread_self_43, (const void *)buf, return_value_strerror_45);
         err_reply(cl, h503, lstn->err503);
         free_headers(headers);
         if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7758,24 +7758,24 @@ void do_http(struct _thr_arg *arg)
         goto __CPROVER_DUMP_L488;
       }
 
-      signed int return_value_connect_nb$51;
-      return_value_connect_nb$51=connect_nb(sock, &backend->addr, backend->conn_to);
-      if(!(return_value_connect_nb$51 >= 0))
+      signed int return_value_connect_nb_51;
+      return_value_connect_nb_51=connect_nb(sock, &backend->addr, backend->conn_to);
+      if(!(return_value_connect_nb_51 >= 0))
       {
         addr2str(buf, 8192 - 1, &backend->addr, 0);
-        unsigned long int return_value_pthread_self$46;
-        return_value_pthread_self$46=pthread_self();
-        signed int *return_value___errno_location$47;
-        return_value___errno_location$47=__errno_location();
-        char *return_value_strerror$48;
-        return_value_strerror$48=strerror(*return_value___errno_location$47);
-        logmsg(4, "(%lx) backend %s connect: %s", return_value_pthread_self$46, (const void *)buf, return_value_strerror$48);
+        unsigned long int return_value_pthread_self_46;
+        return_value_pthread_self_46=pthread_self();
+        signed int *return_value___errno_location_47;
+        return_value___errno_location_47=__errno_location();
+        char *return_value_strerror_48;
+        return_value_strerror_48=strerror(*return_value___errno_location_47);
+        logmsg(4, "(%lx) backend %s connect: %s", return_value_pthread_self_46, (const void *)buf, return_value_strerror_48);
         shutdown(sock, 2);
         close(sock);
         memset((void *)&z_addr, 0, sizeof(struct addrinfo) /*48ul*/ );
-        signed int return_value_memcmp$49;
-        return_value_memcmp$49=memcmp((const void *)&backend->ha_addr, (const void *)&z_addr, sizeof(struct addrinfo) /*48ul*/ );
-        if(return_value_memcmp$49 == 0)
+        signed int return_value_memcmp_49;
+        return_value_memcmp_49=memcmp((const void *)&backend->ha_addr, (const void *)&z_addr, sizeof(struct addrinfo) /*48ul*/ );
+        if(return_value_memcmp_49 == 0)
           kill_be(svc, backend, 1);
 
         old_backend = backend;
@@ -7783,9 +7783,9 @@ void do_http(struct _thr_arg *arg)
         if(backend == ((struct _backend *)NULL) || backend == old_backend)
         {
           addr2str(caddr, 8192 - 1, &from_host, 1);
-          unsigned long int return_value_pthread_self$50;
-          return_value_pthread_self$50=pthread_self();
-          logmsg(5, "(%lx) e503 no back-end \"%s\" from %s", return_value_pthread_self$50, (const void *)request, (const void *)caddr);
+          unsigned long int return_value_pthread_self_50;
+          return_value_pthread_self_50=pthread_self();
+          logmsg(5, "(%lx) e503 no back-end \"%s\" from %s", return_value_pthread_self_50, (const void *)request, (const void *)caddr);
           err_reply(cl, h503, lstn->err503);
           free_headers(headers);
           if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7841,9 +7841,9 @@ void do_http(struct _thr_arg *arg)
       be=BIO_new_socket(sock, 1);
       if(be == ((struct bio_st *)NULL))
       {
-        unsigned long int return_value_pthread_self$52;
-        return_value_pthread_self$52=pthread_self();
-        logmsg(4, "(%lx) e503 BIO_new_socket server failed", return_value_pthread_self$52);
+        unsigned long int return_value_pthread_self_52;
+        return_value_pthread_self_52=pthread_self();
+        logmsg(4, "(%lx) e503 BIO_new_socket server failed", return_value_pthread_self_52);
         shutdown(sock, 2);
         close(sock);
         err_reply(cl, h503, lstn->err503);
@@ -7895,9 +7895,9 @@ void do_http(struct _thr_arg *arg)
         be_ssl=SSL_new(backend->ctx);
         if(be_ssl == ((struct ssl_st *)NULL))
         {
-          unsigned long int return_value_pthread_self$53;
-          return_value_pthread_self$53=pthread_self();
-          logmsg(4, "(%lx) be SSL_new: failed", return_value_pthread_self$53);
+          unsigned long int return_value_pthread_self_53;
+          return_value_pthread_self_53=pthread_self();
+          logmsg(4, "(%lx) be SSL_new: failed", return_value_pthread_self_53);
           err_reply(cl, h503, lstn->err503);
           free_headers(headers);
           if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7935,14 +7935,14 @@ void do_http(struct _thr_arg *arg)
         }
 
         SSL_set_bio(be_ssl, be, be);
-        struct bio_method_st *return_value_BIO_f_ssl$55;
-        return_value_BIO_f_ssl$55=BIO_f_ssl();
-        bb=BIO_new(return_value_BIO_f_ssl$55);
+        struct bio_method_st *return_value_BIO_f_ssl_55;
+        return_value_BIO_f_ssl_55=BIO_f_ssl();
+        bb=BIO_new(return_value_BIO_f_ssl_55);
         if(bb == ((struct bio_st *)NULL))
         {
-          unsigned long int return_value_pthread_self$54;
-          return_value_pthread_self$54=pthread_self();
-          logmsg(4, "(%lx) BIO_new(Bio_f_ssl()) failed", return_value_pthread_self$54);
+          unsigned long int return_value_pthread_self_54;
+          return_value_pthread_self_54=pthread_self();
+          logmsg(4, "(%lx) BIO_new(Bio_f_ssl()) failed", return_value_pthread_self_54);
           err_reply(cl, h503, lstn->err503);
           free_headers(headers);
           if(!(ssl == ((struct ssl_st *)NULL)))
@@ -7982,16 +7982,16 @@ void do_http(struct _thr_arg *arg)
         BIO_ctrl(bb, 109, (signed long int)0x01, (void *)(char *)be_ssl);
         BIO_ctrl(bb, 119, (signed long int)1, (void *)0);
         be = bb;
-        signed long int return_value_BIO_ctrl$58;
-        return_value_BIO_ctrl$58=BIO_ctrl(be, 101, (signed long int)0, (void *)0);
-        if(!(return_value_BIO_ctrl$58 >= 1l))
+        signed long int return_value_BIO_ctrl_58;
+        return_value_BIO_ctrl_58=BIO_ctrl(be, 101, (signed long int)0, (void *)0);
+        if(!(return_value_BIO_ctrl_58 >= 1l))
         {
           addr2str(buf, 8192 - 1, &backend->addr, 0);
-          unsigned long int return_value_ERR_get_error$56;
-          return_value_ERR_get_error$56=ERR_get_error();
-          char *return_value_ERR_error_string$57;
-          return_value_ERR_error_string$57=ERR_error_string(return_value_ERR_get_error$56, (char *)(void *)0);
-          logmsg(5, "BIO_do_handshake with %s failed: %s", (const void *)buf, return_value_ERR_error_string$57);
+          unsigned long int return_value_ERR_get_error_56;
+          return_value_ERR_get_error_56=ERR_get_error();
+          char *return_value_ERR_error_string_57;
+          return_value_ERR_error_string_57=ERR_error_string(return_value_ERR_get_error_56, (char *)(void *)0);
+          logmsg(5, "BIO_do_handshake with %s failed: %s", (const void *)buf, return_value_ERR_error_string_57);
           err_reply(cl, h503, lstn->err503);
           free_headers(headers);
           if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8030,14 +8030,14 @@ void do_http(struct _thr_arg *arg)
 
       }
 
-      struct bio_method_st *return_value_BIO_f_buffer$60;
-      return_value_BIO_f_buffer$60=BIO_f_buffer();
-      bb=BIO_new(return_value_BIO_f_buffer$60);
+      struct bio_method_st *return_value_BIO_f_buffer_60;
+      return_value_BIO_f_buffer_60=BIO_f_buffer();
+      bb=BIO_new(return_value_BIO_f_buffer_60);
       if(bb == ((struct bio_st *)NULL))
       {
-        unsigned long int return_value_pthread_self$59;
-        return_value_pthread_self$59=pthread_self();
-        logmsg(4, "(%lx) e503 BIO_new(buffer) server failed", return_value_pthread_self$59);
+        unsigned long int return_value_pthread_self_59;
+        return_value_pthread_self_59=pthread_self();
+        logmsg(4, "(%lx) e503 BIO_new(buffer) server failed", return_value_pthread_self_59);
         err_reply(cl, h503, lstn->err503);
         free_headers(headers);
         if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8096,44 +8096,44 @@ void do_http(struct _thr_arg *arg)
       do
       {
         if(!(n >= 128))
-          tmp_if_expr$61 = headers[(signed long int)n] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_61 = headers[(signed long int)n] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$61 = (_Bool)0;
-        if(!tmp_if_expr$61)
+          tmp_if_expr_61 = (_Bool)0;
+        if(!tmp_if_expr_61)
           break;
 
         if(!(headers_ok[(signed long int)n] == 0))
         {
           if(!(lstn->rewr_dest == 0))
           {
-            return_value_check_header$67=check_header(headers[(signed long int)n], buf);
-            if(return_value_check_header$67 == 10)
+            return_value_check_header_67=check_header(headers[(signed long int)n], buf);
+            if(return_value_check_header_67 == 10)
             {
-              signed int return_value_pcreposix_regexec$63;
-              return_value_pcreposix_regexec$63=pcreposix_regexec(&LOCATION, buf, (unsigned long int)4, do_http$$1$$matches, 0);
-              if(!(return_value_pcreposix_regexec$63 == 0))
+              signed int return_value_pcreposix_regexec_63;
+              return_value_pcreposix_regexec_63=pcreposix_regexec(&LOCATION, buf, (unsigned long int)4, do_http__1__matches, 0);
+              if(!(return_value_pcreposix_regexec_63 == 0))
               {
-                unsigned long int return_value_pthread_self$62;
-                return_value_pthread_self$62=pthread_self();
-                logmsg(5, "(%lx) Can't parse Destination %s", return_value_pthread_self$62, (const void *)buf);
+                unsigned long int return_value_pthread_self_62;
+                return_value_pthread_self_62=pthread_self();
+                logmsg(5, "(%lx) Can't parse Destination %s", return_value_pthread_self_62, (const void *)buf);
                 break;
               }
 
               addr2str(caddr, 8192 - 1, &cur_backend->addr, 0);
-              strcpy(loc_path, buf + (signed long int)do_http$$1$$matches[(signed long int)3].rm_so);
+              strcpy(loc_path, buf + (signed long int)do_http__1__matches[(signed long int)3].rm_so);
               snprintf(buf, (unsigned long int)8192, "Destination: http://%s%s", (const void *)caddr, (const void *)loc_path);
               free((void *)headers[(signed long int)n]);
               headers[(signed long int)n]=strdup(buf);
               if(headers[(signed long int)n] == ((char *)NULL))
               {
-                unsigned long int return_value_pthread_self$64;
-                return_value_pthread_self$64=pthread_self();
-                signed int *return_value___errno_location$65;
-                return_value___errno_location$65=__errno_location();
-                char *return_value_strerror$66;
-                return_value_strerror$66=strerror(*return_value___errno_location$65);
-                logmsg(4, "(%lx) rewrite Destination - out of memory: %s", return_value_pthread_self$64, return_value_strerror$66);
+                unsigned long int return_value_pthread_self_64;
+                return_value_pthread_self_64=pthread_self();
+                signed int *return_value___errno_location_65;
+                return_value___errno_location_65=__errno_location();
+                char *return_value_strerror_66;
+                return_value_strerror_66=strerror(*return_value___errno_location_65);
+                logmsg(4, "(%lx) rewrite Destination - out of memory: %s", return_value_pthread_self_64, return_value_strerror_66);
                 free_headers(headers);
                 if(!(ssl == ((struct ssl_st *)NULL)))
                   BIO_ssl_shutdown(cl);
@@ -8173,19 +8173,19 @@ void do_http(struct _thr_arg *arg)
 
           }
 
-          signed int return_value_BIO_printf$71;
-          return_value_BIO_printf$71=BIO_printf(be, "%s\r\n", headers[(signed long int)n]);
-          if(!(return_value_BIO_printf$71 >= 1))
+          signed int return_value_BIO_printf_71;
+          return_value_BIO_printf_71=BIO_printf(be, "%s\r\n", headers[(signed long int)n]);
+          if(!(return_value_BIO_printf_71 >= 1))
           {
             addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
             end_req=cur_time();
-            unsigned long int return_value_pthread_self$68;
-            return_value_pthread_self$68=pthread_self();
-            signed int *return_value___errno_location$69;
-            return_value___errno_location$69=__errno_location();
-            char *return_value_strerror$70;
-            return_value_strerror$70=strerror(*return_value___errno_location$69);
-            logmsg(4, "(%lx) e500 error write to %s/%s: %s (%.3f sec)", return_value_pthread_self$68, (const void *)buf, (const void *)request, return_value_strerror$70, (end_req - start_req) / 1000000.0);
+            unsigned long int return_value_pthread_self_68;
+            return_value_pthread_self_68=pthread_self();
+            signed int *return_value___errno_location_69;
+            return_value___errno_location_69=__errno_location();
+            char *return_value_strerror_70;
+            return_value_strerror_70=strerror(*return_value___errno_location_69);
+            logmsg(4, "(%lx) e500 error write to %s/%s: %s (%.3f sec)", return_value_pthread_self_68, (const void *)buf, (const void *)request, return_value_strerror_70, (end_req - start_req) / 1000000.0);
             err_reply(cl, h500, lstn->err500);
             free_headers(headers);
             if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8229,18 +8229,18 @@ void do_http(struct _thr_arg *arg)
       while((_Bool)1);
       if(!(lstn->add_head == ((char *)NULL)))
       {
-        return_value_BIO_printf$75=BIO_printf(be, "%s\r\n", lstn->add_head);
-        if(!(return_value_BIO_printf$75 >= 1))
+        return_value_BIO_printf_75=BIO_printf(be, "%s\r\n", lstn->add_head);
+        if(!(return_value_BIO_printf_75 >= 1))
         {
           addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
           end_req=cur_time();
-          unsigned long int return_value_pthread_self$72;
-          return_value_pthread_self$72=pthread_self();
-          signed int *return_value___errno_location$73;
-          return_value___errno_location$73=__errno_location();
-          char *return_value_strerror$74;
-          return_value_strerror$74=strerror(*return_value___errno_location$73);
-          logmsg(4, "(%lx) e500 error write AddHeader to %s: %s (%.3f sec)", return_value_pthread_self$72, (const void *)buf, return_value_strerror$74, (end_req - start_req) / 1000000.0);
+          unsigned long int return_value_pthread_self_72;
+          return_value_pthread_self_72=pthread_self();
+          signed int *return_value___errno_location_73;
+          return_value___errno_location_73=__errno_location();
+          char *return_value_strerror_74;
+          return_value_strerror_74=strerror(*return_value___errno_location_73);
+          logmsg(4, "(%lx) e500 error write AddHeader to %s: %s (%.3f sec)", return_value_pthread_self_72, (const void *)buf, return_value_strerror_74, (end_req - start_req) / 1000000.0);
           err_reply(cl, h500, lstn->err500);
           free_headers(headers);
           if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8292,19 +8292,19 @@ void do_http(struct _thr_arg *arg)
         {
           SSL_CIPHER_description(cipher, buf, 8192 - 1);
           strip_eol(buf);
-          signed int return_value_BIO_printf$79;
-          return_value_BIO_printf$79=BIO_printf(be, "X-SSL-cipher: %s\r\n", (const void *)buf);
-          if(!(return_value_BIO_printf$79 >= 1))
+          signed int return_value_BIO_printf_79;
+          return_value_BIO_printf_79=BIO_printf(be, "X-SSL-cipher: %s\r\n", (const void *)buf);
+          if(!(return_value_BIO_printf_79 >= 1))
           {
             addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
             end_req=cur_time();
-            unsigned long int return_value_pthread_self$76;
-            return_value_pthread_self$76=pthread_self();
-            signed int *return_value___errno_location$77;
-            return_value___errno_location$77=__errno_location();
-            char *return_value_strerror$78;
-            return_value_strerror$78=strerror(*return_value___errno_location$77);
-            logmsg(4, "(%lx) e500 error write X-SSL-cipher to %s: %s (%.3f sec)", return_value_pthread_self$76, (const void *)buf, return_value_strerror$78, (end_req - start_req) / 1000000.0);
+            unsigned long int return_value_pthread_self_76;
+            return_value_pthread_self_76=pthread_self();
+            signed int *return_value___errno_location_77;
+            return_value___errno_location_77=__errno_location();
+            char *return_value_strerror_78;
+            return_value_strerror_78=strerror(*return_value___errno_location_77);
+            logmsg(4, "(%lx) e500 error write X-SSL-cipher to %s: %s (%.3f sec)", return_value_pthread_self_76, (const void *)buf, return_value_strerror_78, (end_req - start_req) / 1000000.0);
             err_reply(cl, h500, lstn->err500);
             if(!(ssl == ((struct ssl_st *)NULL)))
               BIO_ssl_shutdown(cl);
@@ -8346,27 +8346,27 @@ void do_http(struct _thr_arg *arg)
         {
           if(!(x509 == ((struct x509_st *)NULL)))
           {
-            return_value_BIO_s_mem$113=BIO_s_mem();
-            bb=BIO_new(return_value_BIO_s_mem$113);
+            return_value_BIO_s_mem_113=BIO_s_mem();
+            bb=BIO_new(return_value_BIO_s_mem_113);
             if(!(bb == ((struct bio_st *)NULL)))
             {
-              struct X509_name_st *return_value_X509_get_subject_name$80;
-              return_value_X509_get_subject_name$80=X509_get_subject_name(x509);
-              X509_NAME_print_ex(bb, return_value_X509_get_subject_name$80, 8, (unsigned long int)((1 | 2 | 4 | 0x10 | 0x100 | 0x200 | 8 | 2 << 16 | 1 << 23 | 0) & ~4));
+              struct X509_name_st *return_value_X509_get_subject_name_80;
+              return_value_X509_get_subject_name_80=X509_get_subject_name(x509);
+              X509_NAME_print_ex(bb, return_value_X509_get_subject_name_80, 8, (unsigned long int)((1 | 2 | 4 | 0x10 | 0x100 | 0x200 | 8 | 2 << 16 | 1 << 23 | 0) & ~4));
               get_line(bb, buf, 8192);
-              signed int return_value_BIO_printf$84;
-              return_value_BIO_printf$84=BIO_printf(be, "X-SSL-Subject: %s\r\n", (const void *)buf);
-              if(!(return_value_BIO_printf$84 >= 1))
+              signed int return_value_BIO_printf_84;
+              return_value_BIO_printf_84=BIO_printf(be, "X-SSL-Subject: %s\r\n", (const void *)buf);
+              if(!(return_value_BIO_printf_84 >= 1))
               {
                 addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
                 end_req=cur_time();
-                unsigned long int return_value_pthread_self$81;
-                return_value_pthread_self$81=pthread_self();
-                signed int *return_value___errno_location$82;
-                return_value___errno_location$82=__errno_location();
-                char *return_value_strerror$83;
-                return_value_strerror$83=strerror(*return_value___errno_location$82);
-                logmsg(4, "(%lx) e500 error write X-SSL-Subject to %s: %s (%.3f sec)", return_value_pthread_self$81, (const void *)buf, return_value_strerror$83, (end_req - start_req) / 1000000.0);
+                unsigned long int return_value_pthread_self_81;
+                return_value_pthread_self_81=pthread_self();
+                signed int *return_value___errno_location_82;
+                return_value___errno_location_82=__errno_location();
+                char *return_value_strerror_83;
+                return_value_strerror_83=strerror(*return_value___errno_location_82);
+                logmsg(4, "(%lx) e500 error write X-SSL-Subject to %s: %s (%.3f sec)", return_value_pthread_self_81, (const void *)buf, return_value_strerror_83, (end_req - start_req) / 1000000.0);
                 err_reply(cl, h500, lstn->err500);
                 BIO_free_all(bb);
                 if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8403,23 +8403,23 @@ void do_http(struct _thr_arg *arg)
                 goto __CPROVER_DUMP_L488;
               }
 
-              struct X509_name_st *return_value_X509_get_issuer_name$85;
-              return_value_X509_get_issuer_name$85=X509_get_issuer_name(x509);
-              X509_NAME_print_ex(bb, return_value_X509_get_issuer_name$85, 8, (unsigned long int)((1 | 2 | 4 | 0x10 | 0x100 | 0x200 | 8 | 2 << 16 | 1 << 23 | 0) & ~4));
+              struct X509_name_st *return_value_X509_get_issuer_name_85;
+              return_value_X509_get_issuer_name_85=X509_get_issuer_name(x509);
+              X509_NAME_print_ex(bb, return_value_X509_get_issuer_name_85, 8, (unsigned long int)((1 | 2 | 4 | 0x10 | 0x100 | 0x200 | 8 | 2 << 16 | 1 << 23 | 0) & ~4));
               get_line(bb, buf, 8192);
-              signed int return_value_BIO_printf$89;
-              return_value_BIO_printf$89=BIO_printf(be, "X-SSL-Issuer: %s\r\n", (const void *)buf);
-              if(!(return_value_BIO_printf$89 >= 1))
+              signed int return_value_BIO_printf_89;
+              return_value_BIO_printf_89=BIO_printf(be, "X-SSL-Issuer: %s\r\n", (const void *)buf);
+              if(!(return_value_BIO_printf_89 >= 1))
               {
                 addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
                 end_req=cur_time();
-                unsigned long int return_value_pthread_self$86;
-                return_value_pthread_self$86=pthread_self();
-                signed int *return_value___errno_location$87;
-                return_value___errno_location$87=__errno_location();
-                char *return_value_strerror$88;
-                return_value_strerror$88=strerror(*return_value___errno_location$87);
-                logmsg(4, "(%lx) e500 error write X-SSL-Issuer to %s: %s (%.3f sec)", return_value_pthread_self$86, (const void *)buf, return_value_strerror$88, (end_req - start_req) / 1000000.0);
+                unsigned long int return_value_pthread_self_86;
+                return_value_pthread_self_86=pthread_self();
+                signed int *return_value___errno_location_87;
+                return_value___errno_location_87=__errno_location();
+                char *return_value_strerror_88;
+                return_value_strerror_88=strerror(*return_value___errno_location_87);
+                logmsg(4, "(%lx) e500 error write X-SSL-Issuer to %s: %s (%.3f sec)", return_value_pthread_self_86, (const void *)buf, return_value_strerror_88, (end_req - start_req) / 1000000.0);
                 err_reply(cl, h500, lstn->err500);
                 BIO_free_all(bb);
                 if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8458,19 +8458,19 @@ void do_http(struct _thr_arg *arg)
 
               ASN1_TIME_print(bb, x509->cert_info->validity->notBefore);
               get_line(bb, buf, 8192);
-              signed int return_value_BIO_printf$93;
-              return_value_BIO_printf$93=BIO_printf(be, "X-SSL-notBefore: %s\r\n", (const void *)buf);
-              if(!(return_value_BIO_printf$93 >= 1))
+              signed int return_value_BIO_printf_93;
+              return_value_BIO_printf_93=BIO_printf(be, "X-SSL-notBefore: %s\r\n", (const void *)buf);
+              if(!(return_value_BIO_printf_93 >= 1))
               {
                 addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
                 end_req=cur_time();
-                unsigned long int return_value_pthread_self$90;
-                return_value_pthread_self$90=pthread_self();
-                signed int *return_value___errno_location$91;
-                return_value___errno_location$91=__errno_location();
-                char *return_value_strerror$92;
-                return_value_strerror$92=strerror(*return_value___errno_location$91);
-                logmsg(4, "(%lx) e500 error write X-SSL-notBefore to %s: %s (%.3f sec)", return_value_pthread_self$90, (const void *)buf, return_value_strerror$92, (end_req - start_req) / 1000000.0);
+                unsigned long int return_value_pthread_self_90;
+                return_value_pthread_self_90=pthread_self();
+                signed int *return_value___errno_location_91;
+                return_value___errno_location_91=__errno_location();
+                char *return_value_strerror_92;
+                return_value_strerror_92=strerror(*return_value___errno_location_91);
+                logmsg(4, "(%lx) e500 error write X-SSL-notBefore to %s: %s (%.3f sec)", return_value_pthread_self_90, (const void *)buf, return_value_strerror_92, (end_req - start_req) / 1000000.0);
                 err_reply(cl, h500, lstn->err500);
                 BIO_free_all(bb);
                 if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8509,19 +8509,19 @@ void do_http(struct _thr_arg *arg)
 
               ASN1_TIME_print(bb, x509->cert_info->validity->notAfter);
               get_line(bb, buf, 8192);
-              signed int return_value_BIO_printf$97;
-              return_value_BIO_printf$97=BIO_printf(be, "X-SSL-notAfter: %s\r\n", (const void *)buf);
-              if(!(return_value_BIO_printf$97 >= 1))
+              signed int return_value_BIO_printf_97;
+              return_value_BIO_printf_97=BIO_printf(be, "X-SSL-notAfter: %s\r\n", (const void *)buf);
+              if(!(return_value_BIO_printf_97 >= 1))
               {
                 addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
                 end_req=cur_time();
-                unsigned long int return_value_pthread_self$94;
-                return_value_pthread_self$94=pthread_self();
-                signed int *return_value___errno_location$95;
-                return_value___errno_location$95=__errno_location();
-                char *return_value_strerror$96;
-                return_value_strerror$96=strerror(*return_value___errno_location$95);
-                logmsg(4, "(%lx) e500 error write X-SSL-notAfter to %s: %s (%.3f sec)", return_value_pthread_self$94, (const void *)buf, return_value_strerror$96, (end_req - start_req) / 1000000.0);
+                unsigned long int return_value_pthread_self_94;
+                return_value_pthread_self_94=pthread_self();
+                signed int *return_value___errno_location_95;
+                return_value___errno_location_95=__errno_location();
+                char *return_value_strerror_96;
+                return_value_strerror_96=strerror(*return_value___errno_location_95);
+                logmsg(4, "(%lx) e500 error write X-SSL-notAfter to %s: %s (%.3f sec)", return_value_pthread_self_94, (const void *)buf, return_value_strerror_96, (end_req - start_req) / 1000000.0);
                 err_reply(cl, h500, lstn->err500);
                 BIO_free_all(bb);
                 if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8558,23 +8558,23 @@ void do_http(struct _thr_arg *arg)
                 goto __CPROVER_DUMP_L488;
               }
 
-              struct asn1_string_st *return_value_X509_get_serialNumber$101;
-              return_value_X509_get_serialNumber$101=X509_get_serialNumber(x509);
-              signed long int return_value_ASN1_INTEGER_get$102;
-              return_value_ASN1_INTEGER_get$102=ASN1_INTEGER_get(return_value_X509_get_serialNumber$101);
-              signed int return_value_BIO_printf$103;
-              return_value_BIO_printf$103=BIO_printf(be, "X-SSL-serial: %ld\r\n", return_value_ASN1_INTEGER_get$102);
-              if(!(return_value_BIO_printf$103 >= 1))
+              struct asn1_string_st *return_value_X509_get_serialNumber_101;
+              return_value_X509_get_serialNumber_101=X509_get_serialNumber(x509);
+              signed long int return_value_ASN1_INTEGER_get_102;
+              return_value_ASN1_INTEGER_get_102=ASN1_INTEGER_get(return_value_X509_get_serialNumber_101);
+              signed int return_value_BIO_printf_103;
+              return_value_BIO_printf_103=BIO_printf(be, "X-SSL-serial: %ld\r\n", return_value_ASN1_INTEGER_get_102);
+              if(!(return_value_BIO_printf_103 >= 1))
               {
                 addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
                 end_req=cur_time();
-                unsigned long int return_value_pthread_self$98;
-                return_value_pthread_self$98=pthread_self();
-                signed int *return_value___errno_location$99;
-                return_value___errno_location$99=__errno_location();
-                char *return_value_strerror$100;
-                return_value_strerror$100=strerror(*return_value___errno_location$99);
-                logmsg(4, "(%lx) e500 error write X-SSL-serial to %s: %s (%.3f sec)", return_value_pthread_self$98, (const void *)buf, return_value_strerror$100, (end_req - start_req) / 1000000.0);
+                unsigned long int return_value_pthread_self_98;
+                return_value_pthread_self_98=pthread_self();
+                signed int *return_value___errno_location_99;
+                return_value___errno_location_99=__errno_location();
+                char *return_value_strerror_100;
+                return_value_strerror_100=strerror(*return_value___errno_location_99);
+                logmsg(4, "(%lx) e500 error write X-SSL-serial to %s: %s (%.3f sec)", return_value_pthread_self_98, (const void *)buf, return_value_strerror_100, (end_req - start_req) / 1000000.0);
                 err_reply(cl, h500, lstn->err500);
                 BIO_free_all(bb);
                 if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8613,19 +8613,19 @@ void do_http(struct _thr_arg *arg)
 
               PEM_write_bio_X509(bb, x509);
               get_line(bb, buf, 8192);
-              signed int return_value_BIO_printf$107;
-              return_value_BIO_printf$107=BIO_printf(be, "X-SSL-certificate: %s\r\n", (const void *)buf);
-              if(!(return_value_BIO_printf$107 >= 1))
+              signed int return_value_BIO_printf_107;
+              return_value_BIO_printf_107=BIO_printf(be, "X-SSL-certificate: %s\r\n", (const void *)buf);
+              if(!(return_value_BIO_printf_107 >= 1))
               {
                 addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
                 end_req=cur_time();
-                unsigned long int return_value_pthread_self$104;
-                return_value_pthread_self$104=pthread_self();
-                signed int *return_value___errno_location$105;
-                return_value___errno_location$105=__errno_location();
-                char *return_value_strerror$106;
-                return_value_strerror$106=strerror(*return_value___errno_location$105);
-                logmsg(4, "(%lx) e500 error write X-SSL-certificate to %s: %s (%.3f sec)", return_value_pthread_self$104, (const void *)buf, return_value_strerror$106, (end_req - start_req) / 1000000.0);
+                unsigned long int return_value_pthread_self_104;
+                return_value_pthread_self_104=pthread_self();
+                signed int *return_value___errno_location_105;
+                return_value___errno_location_105=__errno_location();
+                char *return_value_strerror_106;
+                return_value_strerror_106=strerror(*return_value___errno_location_105);
+                logmsg(4, "(%lx) e500 error write X-SSL-certificate to %s: %s (%.3f sec)", return_value_pthread_self_104, (const void *)buf, return_value_strerror_106, (end_req - start_req) / 1000000.0);
                 err_reply(cl, h500, lstn->err500);
                 BIO_free_all(bb);
                 if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8664,23 +8664,23 @@ void do_http(struct _thr_arg *arg)
 
               do
               {
-                return_value_get_line$108=get_line(bb, buf, 8192);
-                if(!(return_value_get_line$108 == 0))
+                return_value_get_line_108=get_line(bb, buf, 8192);
+                if(!(return_value_get_line_108 == 0))
                   break;
 
-                signed int return_value_BIO_printf$112;
-                return_value_BIO_printf$112=BIO_printf(be, "\t%s\r\n", (const void *)buf);
-                if(!(return_value_BIO_printf$112 >= 1))
+                signed int return_value_BIO_printf_112;
+                return_value_BIO_printf_112=BIO_printf(be, "\t%s\r\n", (const void *)buf);
+                if(!(return_value_BIO_printf_112 >= 1))
                 {
                   addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
                   end_req=cur_time();
-                  unsigned long int return_value_pthread_self$109;
-                  return_value_pthread_self$109=pthread_self();
-                  signed int *return_value___errno_location$110;
-                  return_value___errno_location$110=__errno_location();
-                  char *return_value_strerror$111;
-                  return_value_strerror$111=strerror(*return_value___errno_location$110);
-                  logmsg(4, "(%lx) e500 error write X-SSL-certificate to %s: %s (%.3f sec)", return_value_pthread_self$109, (const void *)buf, return_value_strerror$111, (end_req - start_req) / 1000000.0);
+                  unsigned long int return_value_pthread_self_109;
+                  return_value_pthread_self_109=pthread_self();
+                  signed int *return_value___errno_location_110;
+                  return_value___errno_location_110=__errno_location();
+                  char *return_value_strerror_111;
+                  return_value_strerror_111=strerror(*return_value___errno_location_110);
+                  logmsg(4, "(%lx) e500 error write X-SSL-certificate to %s: %s (%.3f sec)", return_value_pthread_self_109, (const void *)buf, return_value_strerror_111, (end_req - start_req) / 1000000.0);
                   err_reply(cl, h500, lstn->err500);
                   BIO_free_all(bb);
                   if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8739,16 +8739,16 @@ void do_http(struct _thr_arg *arg)
 
     if(!(chunked == 0) && !(cl_11 == 0))
     {
-      signed int return_value_copy_chunks$115;
-      return_value_copy_chunks$115=copy_chunks(cl, be, (signed long long int *)(void *)0, cur_backend->be_type, lstn->max_req);
-      if(!(return_value_copy_chunks$115 == 0))
+      signed int return_value_copy_chunks_115;
+      return_value_copy_chunks_115=copy_chunks(cl, be, (signed long long int *)(void *)0, cur_backend->be_type, lstn->max_req);
+      if(!(return_value_copy_chunks_115 == 0))
       {
         addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
         end_req=cur_time();
         addr2str(caddr, 8192 - 1, &from_host, 1);
-        unsigned long int return_value_pthread_self$114;
-        return_value_pthread_self$114=pthread_self();
-        logmsg(5, "(%lx) e500 for %s copy_chunks to %s/%s (%.3f sec)", return_value_pthread_self$114, (const void *)caddr, (const void *)buf, (const void *)request, (end_req - start_req) / 1000000.0);
+        unsigned long int return_value_pthread_self_114;
+        return_value_pthread_self_114=pthread_self();
+        logmsg(5, "(%lx) e500 for %s copy_chunks to %s/%s (%.3f sec)", return_value_pthread_self_114, (const void *)caddr, (const void *)buf, (const void *)request, (end_req - start_req) / 1000000.0);
         err_reply(cl, h500, lstn->err500);
         if(!(ssl == ((struct ssl_st *)NULL)))
           BIO_ssl_shutdown(cl);
@@ -8789,20 +8789,20 @@ void do_http(struct _thr_arg *arg)
     else
       if(cont >= 1ll && !(is_rpc == 1))
       {
-        signed int return_value_copy_bin$119;
-        return_value_copy_bin$119=copy_bin(cl, be, cont, (signed long long int *)(void *)0, cur_backend->be_type);
-        if(!(return_value_copy_bin$119 == 0))
+        signed int return_value_copy_bin_119;
+        return_value_copy_bin_119=copy_bin(cl, be, cont, (signed long long int *)(void *)0, cur_backend->be_type);
+        if(!(return_value_copy_bin_119 == 0))
         {
           addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
           end_req=cur_time();
           addr2str(caddr, 8192 - 1, &from_host, 1);
-          unsigned long int return_value_pthread_self$116;
-          return_value_pthread_self$116=pthread_self();
-          signed int *return_value___errno_location$117;
-          return_value___errno_location$117=__errno_location();
-          char *return_value_strerror$118;
-          return_value_strerror$118=strerror(*return_value___errno_location$117);
-          logmsg(5, "(%lx) e500 for %s error copy client cont to %s/%s: %s (%.3f sec)", return_value_pthread_self$116, (const void *)caddr, (const void *)buf, (const void *)request, return_value_strerror$118, (end_req - start_req) / 1000000.0);
+          unsigned long int return_value_pthread_self_116;
+          return_value_pthread_self_116=pthread_self();
+          signed int *return_value___errno_location_117;
+          return_value___errno_location_117=__errno_location();
+          char *return_value_strerror_118;
+          return_value_strerror_118=strerror(*return_value___errno_location_117);
+          logmsg(5, "(%lx) e500 for %s error copy client cont to %s/%s: %s (%.3f sec)", return_value_pthread_self_116, (const void *)caddr, (const void *)buf, (const void *)request, return_value_strerror_118, (end_req - start_req) / 1000000.0);
           err_reply(cl, h500, lstn->err500);
           if(!(ssl == ((struct ssl_st *)NULL)))
             BIO_ssl_shutdown(cl);
@@ -8843,8 +8843,8 @@ void do_http(struct _thr_arg *arg)
       else
         if(cont >= 1l)
         {
-          return_value_is_readable$140=is_readable(cl, lstn->to);
-          if(!(return_value_is_readable$140 == 0))
+          return_value_is_readable_140=is_readable(cl, lstn->to);
+          if(!(return_value_is_readable_140 == 0))
           {
             char one;
             struct bio_st *cl_unbuf;
@@ -8852,21 +8852,21 @@ void do_http(struct _thr_arg *arg)
             cl_11 = be_11;
             do
             {
-              return_value_BIO_ctrl$120=BIO_ctrl(cl, 10, (signed long int)0, (void *)0);
-              if((signed int)return_value_BIO_ctrl$120 == 0)
+              return_value_BIO_ctrl_120=BIO_ctrl(cl, 10, (signed long int)0, (void *)0);
+              if((signed int)return_value_BIO_ctrl_120 == 0)
                 break;
 
-              signed int return_value_BIO_read$124;
-              return_value_BIO_read$124=BIO_read(cl, (void *)&one, 1);
-              if(!(return_value_BIO_read$124 == 1))
+              signed int return_value_BIO_read_124;
+              return_value_BIO_read_124=BIO_read(cl, (void *)&one, 1);
+              if(!(return_value_BIO_read_124 == 1))
               {
-                unsigned long int return_value_pthread_self$121;
-                return_value_pthread_self$121=pthread_self();
-                signed int *return_value___errno_location$122;
-                return_value___errno_location$122=__errno_location();
-                char *return_value_strerror$123;
-                return_value_strerror$123=strerror(*return_value___errno_location$122);
-                logmsg(5, "(%lx) error read request pending: %s", return_value_pthread_self$121, return_value_strerror$123);
+                unsigned long int return_value_pthread_self_121;
+                return_value_pthread_self_121=pthread_self();
+                signed int *return_value___errno_location_122;
+                return_value___errno_location_122=__errno_location();
+                char *return_value_strerror_123;
+                return_value_strerror_123=strerror(*return_value___errno_location_122);
+                logmsg(5, "(%lx) error read request pending: %s", return_value_pthread_self_121, return_value_strerror_123);
                 if(!(ssl == ((struct ssl_st *)NULL)))
                   BIO_ssl_shutdown(cl);
 
@@ -8904,9 +8904,9 @@ void do_http(struct _thr_arg *arg)
               res_bytes = res_bytes + 1ll;
               if(!(cont >= res_bytes))
               {
-                unsigned long int return_value_pthread_self$125;
-                return_value_pthread_self$125=pthread_self();
-                logmsg(5, "(%lx) error read request pending: max. RPC length exceeded", return_value_pthread_self$125);
+                unsigned long int return_value_pthread_self_125;
+                return_value_pthread_self_125=pthread_self();
+                logmsg(5, "(%lx) error read request pending: max. RPC length exceeded", return_value_pthread_self_125);
                 if(!(ssl == ((struct ssl_st *)NULL)))
                   BIO_ssl_shutdown(cl);
 
@@ -8941,18 +8941,18 @@ void do_http(struct _thr_arg *arg)
                 pthread_exit((void *)0);
               }
 
-              signed int return_value_BIO_write$130;
-              return_value_BIO_write$130=BIO_write(be, (const void *)&one, 1);
-              if(!(return_value_BIO_write$130 == 1))
+              signed int return_value_BIO_write_130;
+              return_value_BIO_write_130=BIO_write(be, (const void *)&one, 1);
+              if(!(return_value_BIO_write_130 == 1))
               {
-                signed int *return_value___errno_location$129;
-                return_value___errno_location$129=__errno_location();
-                if(!(*return_value___errno_location$129 == 0))
+                signed int *return_value___errno_location_129;
+                return_value___errno_location_129=__errno_location();
+                if(!(*return_value___errno_location_129 == 0))
                 {
-                  return_value_pthread_self$126=pthread_self();
-                  return_value___errno_location$127=__errno_location();
-                  return_value_strerror$128=strerror(*return_value___errno_location$127);
-                  logmsg(5, "(%lx) error write request pending: %s", return_value_pthread_self$126, return_value_strerror$128);
+                  return_value_pthread_self_126=pthread_self();
+                  return_value___errno_location_127=__errno_location();
+                  return_value_strerror_128=strerror(*return_value___errno_location_127);
+                  logmsg(5, "(%lx) error write request pending: %s", return_value_pthread_self_126, return_value_strerror_128);
                 }
 
                 if(!(ssl == ((struct ssl_st *)NULL)))
@@ -8995,13 +8995,13 @@ void do_http(struct _thr_arg *arg)
             cl_unbuf=BIO_find_type(cl, lstn->ctx != ((struct _pound_ctx *)NULL) ? 7 | 0x0200 : 5 | 0x0400 | 0x0100);
             if(cl_unbuf == ((struct bio_st *)NULL))
             {
-              unsigned long int return_value_pthread_self$131;
-              return_value_pthread_self$131=pthread_self();
-              signed int *return_value___errno_location$132;
-              return_value___errno_location$132=__errno_location();
-              char *return_value_strerror$133;
-              return_value_strerror$133=strerror(*return_value___errno_location$132);
-              logmsg(4, "(%lx) error get unbuffered: %s", return_value_pthread_self$131, return_value_strerror$133);
+              unsigned long int return_value_pthread_self_131;
+              return_value_pthread_self_131=pthread_self();
+              signed int *return_value___errno_location_132;
+              return_value___errno_location_132=__errno_location();
+              char *return_value_strerror_133;
+              return_value_strerror_133=strerror(*return_value___errno_location_132);
+              logmsg(4, "(%lx) error get unbuffered: %s", return_value_pthread_self_131, return_value_strerror_133);
               if(!(ssl == ((struct ssl_st *)NULL)))
                 BIO_ssl_shutdown(cl);
 
@@ -9045,9 +9045,9 @@ void do_http(struct _thr_arg *arg)
               res_bytes = res_bytes + (signed long long int)res;
               if(!(cont >= res_bytes))
               {
-                unsigned long int return_value_pthread_self$134;
-                return_value_pthread_self$134=pthread_self();
-                logmsg(5, "(%lx) error copy request body: max. RPC length exceeded", return_value_pthread_self$134);
+                unsigned long int return_value_pthread_self_134;
+                return_value_pthread_self_134=pthread_self();
+                logmsg(5, "(%lx) error copy request body: max. RPC length exceeded", return_value_pthread_self_134);
                 if(!(ssl == ((struct ssl_st *)NULL)))
                   BIO_ssl_shutdown(cl);
 
@@ -9082,18 +9082,18 @@ void do_http(struct _thr_arg *arg)
                 pthread_exit((void *)0);
               }
 
-              signed int return_value_BIO_write$139;
-              return_value_BIO_write$139=BIO_write(be, (const void *)buf, res);
-              if(!(return_value_BIO_write$139 == res))
+              signed int return_value_BIO_write_139;
+              return_value_BIO_write_139=BIO_write(be, (const void *)buf, res);
+              if(!(return_value_BIO_write_139 == res))
               {
-                signed int *return_value___errno_location$138;
-                return_value___errno_location$138=__errno_location();
-                if(!(*return_value___errno_location$138 == 0))
+                signed int *return_value___errno_location_138;
+                return_value___errno_location_138=__errno_location();
+                if(!(*return_value___errno_location_138 == 0))
                 {
-                  return_value_pthread_self$135=pthread_self();
-                  return_value___errno_location$136=__errno_location();
-                  return_value_strerror$137=strerror(*return_value___errno_location$136);
-                  logmsg(5, "(%lx) error copy request body: %s", return_value_pthread_self$135, return_value_strerror$137);
+                  return_value_pthread_self_135=pthread_self();
+                  return_value___errno_location_136=__errno_location();
+                  return_value_strerror_137=strerror(*return_value___errno_location_136);
+                  logmsg(5, "(%lx) error copy request body: %s", return_value_pthread_self_135, return_value_strerror_137);
                 }
 
                 if(!(ssl == ((struct ssl_st *)NULL)))
@@ -9140,19 +9140,19 @@ void do_http(struct _thr_arg *arg)
 
     if(cur_backend->be_type == 0)
     {
-      return_value_BIO_ctrl$144=BIO_ctrl(be, 11, (signed long int)0, (void *)0);
-      if(!((signed int)return_value_BIO_ctrl$144 == 1))
+      return_value_BIO_ctrl_144=BIO_ctrl(be, 11, (signed long int)0, (void *)0);
+      if(!((signed int)return_value_BIO_ctrl_144 == 1))
       {
         addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
         end_req=cur_time();
         addr2str(caddr, 8192 - 1, &from_host, 1);
-        unsigned long int return_value_pthread_self$141;
-        return_value_pthread_self$141=pthread_self();
-        signed int *return_value___errno_location$142;
-        return_value___errno_location$142=__errno_location();
-        char *return_value_strerror$143;
-        return_value_strerror$143=strerror(*return_value___errno_location$142);
-        logmsg(5, "(%lx) e500 for %s error flush to %s/%s: %s (%.3f sec)", return_value_pthread_self$141, (const void *)caddr, (const void *)buf, (const void *)request, return_value_strerror$143, (end_req - start_req) / 1000000.0);
+        unsigned long int return_value_pthread_self_141;
+        return_value_pthread_self_141=pthread_self();
+        signed int *return_value___errno_location_142;
+        return_value___errno_location_142=__errno_location();
+        char *return_value_strerror_143;
+        return_value_strerror_143=strerror(*return_value___errno_location_142);
+        logmsg(5, "(%lx) e500 for %s error flush to %s/%s: %s (%.3f sec)", return_value_pthread_self_141, (const void *)caddr, (const void *)buf, (const void *)request, return_value_strerror_143, (end_req - start_req) / 1000000.0);
         err_reply(cl, h500, lstn->err500);
         if(!(ssl == ((struct ssl_st *)NULL)))
           BIO_ssl_shutdown(cl);
@@ -9201,13 +9201,13 @@ void do_http(struct _thr_arg *arg)
       {
         if(!(ssl == ((struct ssl_st *)NULL)))
         {
-          return_value_strstr$145=strstr(u_agent, "MSIE");
-          tmp_if_expr$146 = return_value_strstr$145 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          return_value_strstr_145=strstr(u_agent, "MSIE");
+          tmp_if_expr_146 = return_value_strstr_145 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$146 = (_Bool)0;
-        force_10 = (signed int)tmp_if_expr$146;
+          tmp_if_expr_146 = (_Bool)0;
+        force_10 = (signed int)tmp_if_expr_146;
         break;
       }
       default:
@@ -9239,21 +9239,21 @@ void do_http(struct _thr_arg *arg)
           if(!(v_host[0l] == 0))
           {
             if(!(u_name[0l] == 0))
-              tmp_if_expr$147 = u_name;
+              tmp_if_expr_147 = u_name;
 
             else
-              tmp_if_expr$147 = "-";
-            logmsg(6, "%s %s - %s [%s] \"%s\" %d 0 \"%s\" \"%s\"", (const void *)v_host, (const void *)caddr, tmp_if_expr$147, (const void *)req_time, (const void *)request, cur_backend->be_type, (const void *)referer, (const void *)u_agent);
+              tmp_if_expr_147 = "-";
+            logmsg(6, "%s %s - %s [%s] \"%s\" %d 0 \"%s\" \"%s\"", (const void *)v_host, (const void *)caddr, tmp_if_expr_147, (const void *)req_time, (const void *)request, cur_backend->be_type, (const void *)referer, (const void *)u_agent);
           }
 
           else
           {
             if(!(u_name[0l] == 0))
-              tmp_if_expr$148 = u_name;
+              tmp_if_expr_148 = u_name;
 
             else
-              tmp_if_expr$148 = "-";
-            logmsg(6, "%s - %s [%s] \"%s\" %d 0 \"%s\" \"%s\"", (const void *)caddr, tmp_if_expr$148, (const void *)req_time, (const void *)request, cur_backend->be_type, (const void *)referer, (const void *)u_agent);
+              tmp_if_expr_148 = "-";
+            logmsg(6, "%s - %s [%s] \"%s\" %d 0 \"%s\" \"%s\"", (const void *)caddr, tmp_if_expr_148, (const void *)req_time, (const void *)request, cur_backend->be_type, (const void *)referer, (const void *)u_agent);
           }
           goto __CPROVER_DUMP_L318;
         }
@@ -9262,11 +9262,11 @@ void do_http(struct _thr_arg *arg)
         case 5:
         {
           if(!(u_name[0l] == 0))
-            tmp_if_expr$149 = u_name;
+            tmp_if_expr_149 = u_name;
 
           else
-            tmp_if_expr$149 = "-";
-          logmsg(6, "%s - %s [%s] \"%s\" %d 0 \"%s\" \"%s\"", (const void *)caddr, tmp_if_expr$149, (const void *)req_time, (const void *)request, cur_backend->be_type, (const void *)referer, (const void *)u_agent);
+            tmp_if_expr_149 = "-";
+          logmsg(6, "%s - %s [%s] \"%s\" %d 0 \"%s\" \"%s\"", (const void *)caddr, tmp_if_expr_149, (const void *)req_time, (const void *)request, cur_backend->be_type, (const void *)referer, (const void *)u_agent);
         }
         default:
         {
@@ -9303,67 +9303,67 @@ void do_http(struct _thr_arg *arg)
             if(!(v_host[0l] == 0))
             {
               if(!(svc->name[0l] == 0))
-                tmp_if_expr$150 = svc->name;
+                tmp_if_expr_150 = svc->name;
 
               else
-                tmp_if_expr$150 = "-";
-              logmsg(6, "%s %s - - (%s/%s -> %s) %.3f sec", (const void *)caddr, (const void *)request, (const void *)v_host, tmp_if_expr$150, (const void *)buf, (end_req - start_req) / 1000000.0);
+                tmp_if_expr_150 = "-";
+              logmsg(6, "%s %s - - (%s/%s -> %s) %.3f sec", (const void *)caddr, (const void *)request, (const void *)v_host, tmp_if_expr_150, (const void *)buf, (end_req - start_req) / 1000000.0);
             }
 
             else
             {
               if(!(svc->name[0l] == 0))
-                tmp_if_expr$151 = svc->name;
+                tmp_if_expr_151 = svc->name;
 
               else
-                tmp_if_expr$151 = "-";
-              logmsg(6, "%s %s - - (%s -> %s) %.3f sec", (const void *)caddr, (const void *)request, tmp_if_expr$151, (const void *)buf, (end_req - start_req) / 1000000.0);
+                tmp_if_expr_151 = "-";
+              logmsg(6, "%s %s - - (%s -> %s) %.3f sec", (const void *)caddr, (const void *)request, tmp_if_expr_151, (const void *)buf, (end_req - start_req) / 1000000.0);
             }
             break;
           }
           case 3:
           {
             if(!(v_host[0l] == 0))
-              tmp_if_expr$152 = v_host;
+              tmp_if_expr_152 = v_host;
 
             else
-              tmp_if_expr$152 = "-";
+              tmp_if_expr_152 = "-";
             if(!(u_name[0l] == 0))
-              tmp_if_expr$153 = u_name;
+              tmp_if_expr_153 = u_name;
 
             else
-              tmp_if_expr$153 = "-";
-            logmsg(6, "%s %s - %s [%s] \"%s\" 000 %s \"%s\" \"%s\"", tmp_if_expr$152, (const void *)caddr, tmp_if_expr$153, (const void *)req_time, (const void *)request, (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent);
+              tmp_if_expr_153 = "-";
+            logmsg(6, "%s %s - %s [%s] \"%s\" 000 %s \"%s\" \"%s\"", tmp_if_expr_152, (const void *)caddr, tmp_if_expr_153, (const void *)req_time, (const void *)request, (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent);
             break;
           }
           case 4:
           {
             if(!(u_name[0l] == 0))
-              tmp_if_expr$154 = u_name;
+              tmp_if_expr_154 = u_name;
 
             else
-              tmp_if_expr$154 = "-";
-            logmsg(6, "%s - %s [%s] \"%s\" 000 %s \"%s\" \"%s\"", (const void *)caddr, tmp_if_expr$154, (const void *)req_time, (const void *)request, (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent);
+              tmp_if_expr_154 = "-";
+            logmsg(6, "%s - %s [%s] \"%s\" 000 %s \"%s\" \"%s\"", (const void *)caddr, tmp_if_expr_154, (const void *)req_time, (const void *)request, (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent);
             break;
           }
           case 5:
           {
             if(!(v_host[0l] == 0))
-              tmp_if_expr$155 = v_host;
+              tmp_if_expr_155 = v_host;
 
             else
-              tmp_if_expr$155 = "-";
+              tmp_if_expr_155 = "-";
             if(!(u_name[0l] == 0))
-              tmp_if_expr$156 = u_name;
+              tmp_if_expr_156 = u_name;
 
             else
-              tmp_if_expr$156 = "-";
+              tmp_if_expr_156 = "-";
             if(!(svc->name[0l] == 0))
-              tmp_if_expr$157 = svc->name;
+              tmp_if_expr_157 = svc->name;
 
             else
-              tmp_if_expr$157 = "-";
-            logmsg(6, "%s %s - %s [%s] \"%s\" 000 %s \"%s\" \"%s\" (%s -> %s) %.3f sec", tmp_if_expr$155, (const void *)caddr, tmp_if_expr$156, (const void *)req_time, (const void *)request, (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent, tmp_if_expr$157, (const void *)buf, (end_req - start_req) / 1000000.0);
+              tmp_if_expr_157 = "-";
+            logmsg(6, "%s %s - %s [%s] \"%s\" 000 %s \"%s\" \"%s\" (%s -> %s) %.3f sec", tmp_if_expr_155, (const void *)caddr, tmp_if_expr_156, (const void *)req_time, (const void *)request, (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent, tmp_if_expr_157, (const void *)buf, (end_req - start_req) / 1000000.0);
           }
         }
         break;
@@ -9378,13 +9378,13 @@ void do_http(struct _thr_arg *arg)
         addr2str(buf, 8192 - 1, &cur_backend->addr, 0);
         end_req=cur_time();
         addr2str(caddr, 8192 - 1, &from_host, 1);
-        unsigned long int return_value_pthread_self$158;
-        return_value_pthread_self$158=pthread_self();
-        signed int *return_value___errno_location$159;
-        return_value___errno_location$159=__errno_location();
-        char *return_value_strerror$160;
-        return_value_strerror$160=strerror(*return_value___errno_location$159);
-        logmsg(5, "(%lx) e500 for %s response error read from %s/%s: %s (%.3f secs)", return_value_pthread_self$158, (const void *)caddr, (const void *)buf, (const void *)request, return_value_strerror$160, (end_req - start_req) / 1000000.0);
+        unsigned long int return_value_pthread_self_158;
+        return_value_pthread_self_158=pthread_self();
+        signed int *return_value___errno_location_159;
+        return_value___errno_location_159=__errno_location();
+        char *return_value_strerror_160;
+        return_value_strerror_160=strerror(*return_value___errno_location_159);
+        logmsg(5, "(%lx) e500 for %s response error read from %s/%s: %s (%.3f secs)", return_value_pthread_self_158, (const void *)caddr, (const void *)buf, (const void *)request, return_value_strerror_160, (end_req - start_req) / 1000000.0);
         err_reply(cl, h500, lstn->err500);
         if(!(ssl == ((struct ssl_st *)NULL)))
           BIO_ssl_shutdown(cl);
@@ -9422,13 +9422,13 @@ void do_http(struct _thr_arg *arg)
 
       strncpy(response, headers[(signed long int)0], (unsigned long int)8192);
       be_11 = (signed int)((signed int)response[(signed long int)7] == 49);
-      signed int return_value_pcreposix_regexec$161;
-      return_value_pcreposix_regexec$161=pcreposix_regexec(&RESP_SKIP, response, (unsigned long int)0, (struct anonymous$4 *)(void *)0, 0);
-      skip = (signed int)!(return_value_pcreposix_regexec$161 != 0);
+      signed int return_value_pcreposix_regexec_161;
+      return_value_pcreposix_regexec_161=pcreposix_regexec(&RESP_SKIP, response, (unsigned long int)0, (struct anonymous_4 *)(void *)0, 0);
+      skip = (signed int)!(return_value_pcreposix_regexec_161 != 0);
       if(no_cont == 0)
       {
-        return_value_pcreposix_regexec$162=pcreposix_regexec(&RESP_IGN, response, (unsigned long int)0, (struct anonymous$4 *)(void *)0, 0);
-        if(return_value_pcreposix_regexec$162 == 0)
+        return_value_pcreposix_regexec_162=pcreposix_regexec(&RESP_IGN, response, (unsigned long int)0, (struct anonymous_4 *)(void *)0, 0);
+        if(return_value_pcreposix_regexec_162 == 0)
           no_cont = 1;
 
       }
@@ -9439,29 +9439,29 @@ void do_http(struct _thr_arg *arg)
       do
       {
         if(!(n >= 128))
-          tmp_if_expr$163 = headers[(signed long int)n] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_163 = headers[(signed long int)n] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$163 = (_Bool)0;
-        if(!tmp_if_expr$163)
+          tmp_if_expr_163 = (_Bool)0;
+        if(!tmp_if_expr_163)
           break;
 
-        signed int return_value_check_header$164;
-        return_value_check_header$164=check_header(headers[(signed long int)n], buf);
-        switch(return_value_check_header$164)
+        signed int return_value_check_header_164;
+        return_value_check_header_164=check_header(headers[(signed long int)n], buf);
+        switch(return_value_check_header_164)
         {
           case 3:
           {
-            return_value_strcasecmp$165=strcasecmp("close", buf);
-            if(return_value_strcasecmp$165 == 0)
+            return_value_strcasecmp_165=strcasecmp("close", buf);
+            if(return_value_strcasecmp_165 == 0)
               conn_closed = 1;
 
             break;
           }
           case 1:
           {
-            return_value_strcasecmp$166=strcasecmp("chunked", buf);
-            if(return_value_strcasecmp$166 == 0)
+            return_value_strcasecmp_166=strcasecmp("chunked", buf);
+            if(return_value_strcasecmp_166 == 0)
             {
               chunked = 1;
               no_cont = 0;
@@ -9481,21 +9481,21 @@ void do_http(struct _thr_arg *arg)
           {
             if(!(v_host[0l] == 0))
             {
-              return_value_need_rewrite$170=need_rewrite(lstn->rewr_loc, buf, loc_path, v_host, lstn, cur_backend);
-              if(!(return_value_need_rewrite$170 == 0))
+              return_value_need_rewrite_170=need_rewrite(lstn->rewr_loc, buf, loc_path, v_host, lstn, cur_backend);
+              if(!(return_value_need_rewrite_170 == 0))
               {
                 snprintf(buf, (unsigned long int)8192, "Location: %s://%s/%s", ssl == (struct ssl_st *)(void *)0 ? "http" : "https", (const void *)v_host, (const void *)loc_path);
                 free((void *)headers[(signed long int)n]);
                 headers[(signed long int)n]=strdup(buf);
                 if(headers[(signed long int)n] == ((char *)NULL))
                 {
-                  unsigned long int return_value_pthread_self$167;
-                  return_value_pthread_self$167=pthread_self();
-                  signed int *return_value___errno_location$168;
-                  return_value___errno_location$168=__errno_location();
-                  char *return_value_strerror$169;
-                  return_value_strerror$169=strerror(*return_value___errno_location$168);
-                  logmsg(4, "(%lx) rewrite Location - out of memory: %s", return_value_pthread_self$167, return_value_strerror$169);
+                  unsigned long int return_value_pthread_self_167;
+                  return_value_pthread_self_167=pthread_self();
+                  signed int *return_value___errno_location_168;
+                  return_value___errno_location_168=__errno_location();
+                  char *return_value_strerror_169;
+                  return_value_strerror_169=strerror(*return_value___errno_location_168);
+                  logmsg(4, "(%lx) rewrite Location - out of memory: %s", return_value_pthread_self_167, return_value_strerror_169);
                   free_headers(headers);
                   if(!(ssl == ((struct ssl_st *)NULL)))
                     BIO_ssl_shutdown(cl);
@@ -9540,21 +9540,21 @@ void do_http(struct _thr_arg *arg)
           case 5:
             if(!(v_host[0l] == 0))
             {
-              return_value_need_rewrite$174=need_rewrite(lstn->rewr_loc, buf, loc_path, v_host, lstn, cur_backend);
-              if(!(return_value_need_rewrite$174 == 0))
+              return_value_need_rewrite_174=need_rewrite(lstn->rewr_loc, buf, loc_path, v_host, lstn, cur_backend);
+              if(!(return_value_need_rewrite_174 == 0))
               {
                 snprintf(buf, (unsigned long int)8192, "Content-location: %s://%s/%s", ssl == (struct ssl_st *)(void *)0 ? "http" : "https", (const void *)v_host, (const void *)loc_path);
                 free((void *)headers[(signed long int)n]);
                 headers[(signed long int)n]=strdup(buf);
                 if(headers[(signed long int)n] == ((char *)NULL))
                 {
-                  unsigned long int return_value_pthread_self$171;
-                  return_value_pthread_self$171=pthread_self();
-                  signed int *return_value___errno_location$172;
-                  return_value___errno_location$172=__errno_location();
-                  char *return_value_strerror$173;
-                  return_value_strerror$173=strerror(*return_value___errno_location$172);
-                  logmsg(4, "(%lx) rewrite Content-location - out of memory: %s", return_value_pthread_self$171, return_value_strerror$173);
+                  unsigned long int return_value_pthread_self_171;
+                  return_value_pthread_self_171=pthread_self();
+                  signed int *return_value___errno_location_172;
+                  return_value___errno_location_172=__errno_location();
+                  char *return_value_strerror_173;
+                  return_value_strerror_173=strerror(*return_value___errno_location_172);
+                  logmsg(4, "(%lx) rewrite Content-location - out of memory: %s", return_value_pthread_self_171, return_value_strerror_173);
                   free_headers(headers);
                   if(!(ssl == ((struct ssl_st *)NULL)))
                     BIO_ssl_shutdown(cl);
@@ -9605,29 +9605,29 @@ void do_http(struct _thr_arg *arg)
         do
         {
           if(!(n >= 128))
-            tmp_if_expr$175 = headers[(signed long int)n] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_175 = headers[(signed long int)n] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$175 = (_Bool)0;
-          if(!tmp_if_expr$175)
+            tmp_if_expr_175 = (_Bool)0;
+          if(!tmp_if_expr_175)
             break;
 
-          signed int return_value_BIO_printf$180;
-          return_value_BIO_printf$180=BIO_printf(cl, "%s\r\n", headers[(signed long int)n]);
-          if(!(return_value_BIO_printf$180 >= 1))
+          signed int return_value_BIO_printf_180;
+          return_value_BIO_printf_180=BIO_printf(cl, "%s\r\n", headers[(signed long int)n]);
+          if(!(return_value_BIO_printf_180 >= 1))
           {
-            signed int *return_value___errno_location$179;
-            return_value___errno_location$179=__errno_location();
-            if(!(*return_value___errno_location$179 == 0))
+            signed int *return_value___errno_location_179;
+            return_value___errno_location_179=__errno_location();
+            if(!(*return_value___errno_location_179 == 0))
             {
               addr2str(caddr, 8192 - 1, &from_host, 1);
-              unsigned long int return_value_pthread_self$176;
-              return_value_pthread_self$176=pthread_self();
-              signed int *return_value___errno_location$177;
-              return_value___errno_location$177=__errno_location();
-              char *return_value_strerror$178;
-              return_value_strerror$178=strerror(*return_value___errno_location$177);
-              logmsg(5, "(%lx) error write to %s: %s", return_value_pthread_self$176, (const void *)caddr, return_value_strerror$178);
+              unsigned long int return_value_pthread_self_176;
+              return_value_pthread_self_176=pthread_self();
+              signed int *return_value___errno_location_177;
+              return_value___errno_location_177=__errno_location();
+              char *return_value_strerror_178;
+              return_value_strerror_178=strerror(*return_value___errno_location_177);
+              logmsg(5, "(%lx) error write to %s: %s", return_value_pthread_self_176, (const void *)caddr, return_value_strerror_178);
             }
 
             free_headers(headers);
@@ -9674,22 +9674,22 @@ void do_http(struct _thr_arg *arg)
       if(skip == 0)
         BIO_puts(cl, "\r\n");
 
-      signed long int return_value_BIO_ctrl$185;
-      return_value_BIO_ctrl$185=BIO_ctrl(cl, 11, (signed long int)0, (void *)0);
-      if(!((signed int)return_value_BIO_ctrl$185 == 1))
+      signed long int return_value_BIO_ctrl_185;
+      return_value_BIO_ctrl_185=BIO_ctrl(cl, 11, (signed long int)0, (void *)0);
+      if(!((signed int)return_value_BIO_ctrl_185 == 1))
       {
-        signed int *return_value___errno_location$184;
-        return_value___errno_location$184=__errno_location();
-        if(!(*return_value___errno_location$184 == 0))
+        signed int *return_value___errno_location_184;
+        return_value___errno_location_184=__errno_location();
+        if(!(*return_value___errno_location_184 == 0))
         {
           addr2str(caddr, 8192 - 1, &from_host, 1);
-          unsigned long int return_value_pthread_self$181;
-          return_value_pthread_self$181=pthread_self();
-          signed int *return_value___errno_location$182;
-          return_value___errno_location$182=__errno_location();
-          char *return_value_strerror$183;
-          return_value_strerror$183=strerror(*return_value___errno_location$182);
-          logmsg(5, "(%lx) error flush headers to %s: %s", return_value_pthread_self$181, (const void *)caddr, return_value_strerror$183);
+          unsigned long int return_value_pthread_self_181;
+          return_value_pthread_self_181=pthread_self();
+          signed int *return_value___errno_location_182;
+          return_value___errno_location_182=__errno_location();
+          char *return_value_strerror_183;
+          return_value_strerror_183=strerror(*return_value___errno_location_182);
+          logmsg(5, "(%lx) error flush headers to %s: %s", return_value_pthread_self_181, (const void *)caddr, return_value_strerror_183);
         }
 
         if(!(ssl == ((struct ssl_st *)NULL)))
@@ -9730,9 +9730,9 @@ void do_http(struct _thr_arg *arg)
       {
         if(!(be_11 == 0) && !(chunked == 0))
         {
-          signed int return_value_copy_chunks$186;
-          return_value_copy_chunks$186=copy_chunks(be, cl, &res_bytes, skip, 0LL);
-          if(!(return_value_copy_chunks$186 == 0))
+          signed int return_value_copy_chunks_186;
+          return_value_copy_chunks_186=copy_chunks(be, cl, &res_bytes, skip, 0LL);
+          if(!(return_value_copy_chunks_186 == 0))
           {
             if(!(ssl == ((struct ssl_st *)NULL)))
               BIO_ssl_shutdown(cl);
@@ -9773,18 +9773,18 @@ void do_http(struct _thr_arg *arg)
         else
           if(cont >= 0LL)
           {
-            signed int return_value_copy_bin$191;
-            return_value_copy_bin$191=copy_bin(be, cl, cont, &res_bytes, skip);
-            if(!(return_value_copy_bin$191 == 0))
+            signed int return_value_copy_bin_191;
+            return_value_copy_bin_191=copy_bin(be, cl, cont, &res_bytes, skip);
+            if(!(return_value_copy_bin_191 == 0))
             {
-              signed int *return_value___errno_location$190;
-              return_value___errno_location$190=__errno_location();
-              if(!(*return_value___errno_location$190 == 0))
+              signed int *return_value___errno_location_190;
+              return_value___errno_location_190=__errno_location();
+              if(!(*return_value___errno_location_190 == 0))
               {
-                return_value_pthread_self$187=pthread_self();
-                return_value___errno_location$188=__errno_location();
-                return_value_strerror$189=strerror(*return_value___errno_location$188);
-                logmsg(5, "(%lx) error copy server cont: %s", return_value_pthread_self$187, return_value_strerror$189);
+                return_value_pthread_self_187=pthread_self();
+                return_value___errno_location_188=__errno_location();
+                return_value_strerror_189=strerror(*return_value___errno_location_188);
+                logmsg(5, "(%lx) error copy server cont: %s", return_value_pthread_self_187, return_value_strerror_189);
               }
 
               if(!(ssl == ((struct ssl_st *)NULL)))
@@ -9826,31 +9826,31 @@ void do_http(struct _thr_arg *arg)
           else
             if(skip == 0)
             {
-              signed int return_value_is_readable$210;
-              return_value_is_readable$210=is_readable(be, cur_backend->to);
-              if(!(return_value_is_readable$210 == 0))
+              signed int return_value_is_readable_210;
+              return_value_is_readable_210=is_readable(be, cur_backend->to);
+              if(!(return_value_is_readable_210 == 0))
               {
-                char do_http$$1$$5$$1$$25$$1$$5$$3$$1$$one;
+                char do_http__1__5__1__25__1__5__3__1__one;
                 struct bio_st *be_unbuf;
                 be_11 = 0;
                 cl_11 = be_11;
                 do
                 {
-                  return_value_BIO_ctrl$192=BIO_ctrl(be, 10, (signed long int)0, (void *)0);
-                  if((signed int)return_value_BIO_ctrl$192 == 0)
+                  return_value_BIO_ctrl_192=BIO_ctrl(be, 10, (signed long int)0, (void *)0);
+                  if((signed int)return_value_BIO_ctrl_192 == 0)
                     break;
 
-                  signed int return_value_BIO_read$196;
-                  return_value_BIO_read$196=BIO_read(be, (void *)&do_http$$1$$5$$1$$25$$1$$5$$3$$1$$one, 1);
-                  if(!(return_value_BIO_read$196 == 1))
+                  signed int return_value_BIO_read_196;
+                  return_value_BIO_read_196=BIO_read(be, (void *)&do_http__1__5__1__25__1__5__3__1__one, 1);
+                  if(!(return_value_BIO_read_196 == 1))
                   {
-                    unsigned long int return_value_pthread_self$193;
-                    return_value_pthread_self$193=pthread_self();
-                    signed int *return_value___errno_location$194;
-                    return_value___errno_location$194=__errno_location();
-                    char *return_value_strerror$195;
-                    return_value_strerror$195=strerror(*return_value___errno_location$194);
-                    logmsg(5, "(%lx) error read response pending: %s", return_value_pthread_self$193, return_value_strerror$195);
+                    unsigned long int return_value_pthread_self_193;
+                    return_value_pthread_self_193=pthread_self();
+                    signed int *return_value___errno_location_194;
+                    return_value___errno_location_194=__errno_location();
+                    char *return_value_strerror_195;
+                    return_value_strerror_195=strerror(*return_value___errno_location_194);
+                    logmsg(5, "(%lx) error read response pending: %s", return_value_pthread_self_193, return_value_strerror_195);
                     if(!(ssl == ((struct ssl_st *)NULL)))
                       BIO_ssl_shutdown(cl);
 
@@ -9885,18 +9885,18 @@ void do_http(struct _thr_arg *arg)
                     goto __CPROVER_DUMP_L488;
                   }
 
-                  signed int return_value_BIO_write$201;
-                  return_value_BIO_write$201=BIO_write(cl, (const void *)&do_http$$1$$5$$1$$25$$1$$5$$3$$1$$one, 1);
-                  if(!(return_value_BIO_write$201 == 1))
+                  signed int return_value_BIO_write_201;
+                  return_value_BIO_write_201=BIO_write(cl, (const void *)&do_http__1__5__1__25__1__5__3__1__one, 1);
+                  if(!(return_value_BIO_write_201 == 1))
                   {
-                    signed int *return_value___errno_location$200;
-                    return_value___errno_location$200=__errno_location();
-                    if(!(*return_value___errno_location$200 == 0))
+                    signed int *return_value___errno_location_200;
+                    return_value___errno_location_200=__errno_location();
+                    if(!(*return_value___errno_location_200 == 0))
                     {
-                      return_value_pthread_self$197=pthread_self();
-                      return_value___errno_location$198=__errno_location();
-                      return_value_strerror$199=strerror(*return_value___errno_location$198);
-                      logmsg(5, "(%lx) error write response pending: %s", return_value_pthread_self$197, return_value_strerror$199);
+                      return_value_pthread_self_197=pthread_self();
+                      return_value___errno_location_198=__errno_location();
+                      return_value_strerror_199=strerror(*return_value___errno_location_198);
+                      logmsg(5, "(%lx) error write response pending: %s", return_value_pthread_self_197, return_value_strerror_199);
                     }
 
                     if(!(ssl == ((struct ssl_st *)NULL)))
@@ -9940,13 +9940,13 @@ void do_http(struct _thr_arg *arg)
                 be_unbuf=BIO_find_type(be, cur_backend->ctx != ((struct ssl_ctx_st *)NULL) ? 7 | 0x0200 : 5 | 0x0400 | 0x0100);
                 if(be_unbuf == ((struct bio_st *)NULL))
                 {
-                  unsigned long int return_value_pthread_self$202;
-                  return_value_pthread_self$202=pthread_self();
-                  signed int *return_value___errno_location$203;
-                  return_value___errno_location$203=__errno_location();
-                  char *return_value_strerror$204;
-                  return_value_strerror$204=strerror(*return_value___errno_location$203);
-                  logmsg(4, "(%lx) error get unbuffered: %s", return_value_pthread_self$202, return_value_strerror$204);
+                  unsigned long int return_value_pthread_self_202;
+                  return_value_pthread_self_202=pthread_self();
+                  signed int *return_value___errno_location_203;
+                  return_value___errno_location_203=__errno_location();
+                  char *return_value_strerror_204;
+                  return_value_strerror_204=strerror(*return_value___errno_location_203);
+                  logmsg(4, "(%lx) error get unbuffered: %s", return_value_pthread_self_202, return_value_strerror_204);
                   if(!(ssl == ((struct ssl_st *)NULL)))
                     BIO_ssl_shutdown(cl);
 
@@ -9987,18 +9987,18 @@ void do_http(struct _thr_arg *arg)
                   if(!(res >= 1))
                     break;
 
-                  signed int return_value_BIO_write$209;
-                  return_value_BIO_write$209=BIO_write(cl, (const void *)buf, res);
-                  if(!(return_value_BIO_write$209 == res))
+                  signed int return_value_BIO_write_209;
+                  return_value_BIO_write_209=BIO_write(cl, (const void *)buf, res);
+                  if(!(return_value_BIO_write_209 == res))
                   {
-                    signed int *return_value___errno_location$208;
-                    return_value___errno_location$208=__errno_location();
-                    if(!(*return_value___errno_location$208 == 0))
+                    signed int *return_value___errno_location_208;
+                    return_value___errno_location_208=__errno_location();
+                    if(!(*return_value___errno_location_208 == 0))
                     {
-                      return_value_pthread_self$205=pthread_self();
-                      return_value___errno_location$206=__errno_location();
-                      return_value_strerror$207=strerror(*return_value___errno_location$206);
-                      logmsg(5, "(%lx) error copy response body: %s", return_value_pthread_self$205, return_value_strerror$207);
+                      return_value_pthread_self_205=pthread_self();
+                      return_value___errno_location_206=__errno_location();
+                      return_value_strerror_207=strerror(*return_value___errno_location_206);
+                      logmsg(5, "(%lx) error copy response body: %s", return_value_pthread_self_205, return_value_strerror_207);
                     }
 
                     if(!(ssl == ((struct ssl_st *)NULL)))
@@ -10046,25 +10046,25 @@ void do_http(struct _thr_arg *arg)
 
             }
 
-        signed long int return_value_BIO_ctrl$215;
-        return_value_BIO_ctrl$215=BIO_ctrl(cl, 11, (signed long int)0, (void *)0);
-        if(!((signed int)return_value_BIO_ctrl$215 == 1))
+        signed long int return_value_BIO_ctrl_215;
+        return_value_BIO_ctrl_215=BIO_ctrl(cl, 11, (signed long int)0, (void *)0);
+        if(!((signed int)return_value_BIO_ctrl_215 == 1))
         {
           if(is_rpc == 0 && res_bytes >= 1l)
             break;
 
-          signed int *return_value___errno_location$214;
-          return_value___errno_location$214=__errno_location();
-          if(!(*return_value___errno_location$214 == 0))
+          signed int *return_value___errno_location_214;
+          return_value___errno_location_214=__errno_location();
+          if(!(*return_value___errno_location_214 == 0))
           {
             addr2str(caddr, 8192 - 1, &from_host, 1);
-            unsigned long int return_value_pthread_self$211;
-            return_value_pthread_self$211=pthread_self();
-            signed int *return_value___errno_location$212;
-            return_value___errno_location$212=__errno_location();
-            char *return_value_strerror$213;
-            return_value_strerror$213=strerror(*return_value___errno_location$212);
-            logmsg(5, "(%lx) error final flush to %s: %s", return_value_pthread_self$211, (const void *)caddr, return_value_strerror$213);
+            unsigned long int return_value_pthread_self_211;
+            return_value_pthread_self_211=pthread_self();
+            signed int *return_value___errno_location_212;
+            return_value___errno_location_212=__errno_location();
+            char *return_value_strerror_213;
+            return_value_strerror_213=strerror(*return_value___errno_location_212);
+            logmsg(5, "(%lx) error final flush to %s: %s", return_value_pthread_self_211, (const void *)caddr, return_value_strerror_213);
           }
 
           if(!(ssl == ((struct ssl_st *)NULL)))
@@ -10124,67 +10124,67 @@ void do_http(struct _thr_arg *arg)
         if(!(v_host[0l] == 0))
         {
           if(!(svc->name[0l] == 0))
-            tmp_if_expr$216 = svc->name;
+            tmp_if_expr_216 = svc->name;
 
           else
-            tmp_if_expr$216 = "-";
-          logmsg(6, "%s %s - %s (%s/%s -> %s) %.3f sec", (const void *)caddr, (const void *)request, (const void *)response, (const void *)v_host, tmp_if_expr$216, (const void *)buf, (end_req - start_req) / 1000000.0);
+            tmp_if_expr_216 = "-";
+          logmsg(6, "%s %s - %s (%s/%s -> %s) %.3f sec", (const void *)caddr, (const void *)request, (const void *)response, (const void *)v_host, tmp_if_expr_216, (const void *)buf, (end_req - start_req) / 1000000.0);
         }
 
         else
         {
           if(!(svc->name[0l] == 0))
-            tmp_if_expr$217 = svc->name;
+            tmp_if_expr_217 = svc->name;
 
           else
-            tmp_if_expr$217 = "-";
-          logmsg(6, "%s %s - %s (%s -> %s) %.3f sec", (const void *)caddr, (const void *)request, (const void *)response, tmp_if_expr$217, (const void *)buf, (end_req - start_req) / 1000000.0);
+            tmp_if_expr_217 = "-";
+          logmsg(6, "%s %s - %s (%s -> %s) %.3f sec", (const void *)caddr, (const void *)request, (const void *)response, tmp_if_expr_217, (const void *)buf, (end_req - start_req) / 1000000.0);
         }
         break;
       }
       case 3:
       {
         if(!(v_host[0l] == 0))
-          tmp_if_expr$218 = v_host;
+          tmp_if_expr_218 = v_host;
 
         else
-          tmp_if_expr$218 = "-";
+          tmp_if_expr_218 = "-";
         if(!(u_name[0l] == 0))
-          tmp_if_expr$219 = u_name;
+          tmp_if_expr_219 = u_name;
 
         else
-          tmp_if_expr$219 = "-";
-        logmsg(6, "%s %s - %s [%s] \"%s\" %c%c%c %s \"%s\" \"%s\"", tmp_if_expr$218, (const void *)caddr, tmp_if_expr$219, (const void *)req_time, (const void *)request, response[(signed long int)9], response[(signed long int)10], response[(signed long int)11], (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent);
+          tmp_if_expr_219 = "-";
+        logmsg(6, "%s %s - %s [%s] \"%s\" %c%c%c %s \"%s\" \"%s\"", tmp_if_expr_218, (const void *)caddr, tmp_if_expr_219, (const void *)req_time, (const void *)request, response[(signed long int)9], response[(signed long int)10], response[(signed long int)11], (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent);
         break;
       }
       case 4:
       {
         if(!(u_name[0l] == 0))
-          tmp_if_expr$220 = u_name;
+          tmp_if_expr_220 = u_name;
 
         else
-          tmp_if_expr$220 = "-";
-        logmsg(6, "%s - %s [%s] \"%s\" %c%c%c %s \"%s\" \"%s\"", (const void *)caddr, tmp_if_expr$220, (const void *)req_time, (const void *)request, response[(signed long int)9], response[(signed long int)10], response[(signed long int)11], (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent);
+          tmp_if_expr_220 = "-";
+        logmsg(6, "%s - %s [%s] \"%s\" %c%c%c %s \"%s\" \"%s\"", (const void *)caddr, tmp_if_expr_220, (const void *)req_time, (const void *)request, response[(signed long int)9], response[(signed long int)10], response[(signed long int)11], (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent);
         break;
       }
       case 5:
       {
         if(!(v_host[0l] == 0))
-          tmp_if_expr$221 = v_host;
+          tmp_if_expr_221 = v_host;
 
         else
-          tmp_if_expr$221 = "-";
+          tmp_if_expr_221 = "-";
         if(!(u_name[0l] == 0))
-          tmp_if_expr$222 = u_name;
+          tmp_if_expr_222 = u_name;
 
         else
-          tmp_if_expr$222 = "-";
+          tmp_if_expr_222 = "-";
         if(!(svc->name[0l] == 0))
-          tmp_if_expr$223 = svc->name;
+          tmp_if_expr_223 = svc->name;
 
         else
-          tmp_if_expr$223 = "-";
-        logmsg(6, "%s %s - %s [%s] \"%s\" %c%c%c %s \"%s\" \"%s\" (%s -> %s) %.3f sec", tmp_if_expr$221, (const void *)caddr, tmp_if_expr$222, (const void *)req_time, (const void *)request, response[(signed long int)9], response[(signed long int)10], response[(signed long int)11], (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent, tmp_if_expr$223, (const void *)buf, (end_req - start_req) / 1000000.0);
+          tmp_if_expr_223 = "-";
+        logmsg(6, "%s %s - %s [%s] \"%s\" %c%c%c %s \"%s\" \"%s\" (%s -> %s) %.3f sec", tmp_if_expr_221, (const void *)caddr, tmp_if_expr_222, (const void *)req_time, (const void *)request, response[(signed long int)9], response[(signed long int)10], response[(signed long int)11], (const void *)s_res_bytes, (const void *)referer, (const void *)u_agent, tmp_if_expr_223, (const void *)buf, (end_req - start_req) / 1000000.0);
       }
     }
     if(be_11 == 0)
@@ -10257,18 +10257,18 @@ static void do_rescale(void)
   double average;
   double sq_average;
   lstn = listeners;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  char *return_value_strerror$3;
-  char *return_value_strerror$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  char *return_value_strerror$9;
-  char *return_value_strerror$10;
-  char *return_value_strerror$11;
-  char *return_value_strerror$12;
-  char *return_value_strerror$13;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  char *return_value_strerror_3;
+  char *return_value_strerror_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  char *return_value_strerror_9;
+  char *return_value_strerror_10;
+  char *return_value_strerror_11;
+  char *return_value_strerror_12;
+  char *return_value_strerror_13;
   for( ; !(lstn == ((struct _listener *)NULL)); lstn = lstn->next)
   {
     svc = lstn->services;
@@ -10283,22 +10283,22 @@ static void do_rescale(void)
         for( ; !(be == ((struct _backend *)NULL)); be = be->next)
         {
           if(!(be->be_type == 0))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = !(be->alive != 0) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_1 = !(be->alive != 0) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = be->disabled != 0 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$2)
+            tmp_if_expr_2 = be->disabled != 0 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_2)
           {
             ret_val=pthread_mutex_lock(&be->mut);
             if(!(ret_val == 0))
             {
-              return_value_strerror$3=strerror(ret_val);
-              logmsg(4, "do_rescale() lock: %s", return_value_strerror$3);
+              return_value_strerror_3=strerror(ret_val);
+              logmsg(4, "do_rescale() lock: %s", return_value_strerror_3);
             }
 
             average = average + be->t_average;
@@ -10306,8 +10306,8 @@ static void do_rescale(void)
             ret_val=pthread_mutex_unlock(&be->mut);
             if(!(ret_val == 0))
             {
-              return_value_strerror$4=strerror(ret_val);
-              logmsg(4, "do_rescale() unlock: %s", return_value_strerror$4);
+              return_value_strerror_4=strerror(ret_val);
+              logmsg(4, "do_rescale() unlock: %s", return_value_strerror_4);
             }
 
             n = n + 1;
@@ -10323,9 +10323,9 @@ static void do_rescale(void)
           ret_val=pthread_mutex_lock(&svc->mut);
           if(!(ret_val == 0))
           {
-            char *return_value_strerror$5;
-            return_value_strerror$5=strerror(ret_val);
-            logmsg(4, "thr_rescale() lock: %s", return_value_strerror$5);
+            char *return_value_strerror_5;
+            return_value_strerror_5=strerror(ret_val);
+            logmsg(4, "thr_rescale() lock: %s", return_value_strerror_5);
             goto __CPROVER_DUMP_L30;
           }
 
@@ -10333,21 +10333,21 @@ static void do_rescale(void)
           for( ; !(be == ((struct _backend *)NULL)); be = be->next)
           {
             if(!(be->be_type == 0))
-              tmp_if_expr$6 = (_Bool)1;
+              tmp_if_expr_6 = (_Bool)1;
 
             else
-              tmp_if_expr$6 = !(be->alive != 0) ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$6)
-              tmp_if_expr$7 = (_Bool)1;
+              tmp_if_expr_6 = !(be->alive != 0) ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_6)
+              tmp_if_expr_7 = (_Bool)1;
 
             else
-              tmp_if_expr$7 = be->disabled != 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$7)
-              tmp_if_expr$8 = (_Bool)1;
+              tmp_if_expr_7 = be->disabled != 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_7)
+              tmp_if_expr_8 = (_Bool)1;
 
             else
-              tmp_if_expr$8 = be->n_requests < 8000 ? (_Bool)1 : (_Bool)0;
-            if(!tmp_if_expr$8)
+              tmp_if_expr_8 = be->n_requests < 8000 ? (_Bool)1 : (_Bool)0;
+            if(!tmp_if_expr_8)
             {
               if(be->t_average < average + -sq_average)
               {
@@ -10355,8 +10355,8 @@ static void do_rescale(void)
                 ret_val=pthread_mutex_lock(&be->mut);
                 if(!(ret_val == 0))
                 {
-                  return_value_strerror$9=strerror(ret_val);
-                  logmsg(4, "do_rescale() lock: %s", return_value_strerror$9);
+                  return_value_strerror_9=strerror(ret_val);
+                  logmsg(4, "do_rescale() lock: %s", return_value_strerror_9);
                 }
 
                 for( ; be->n_requests >= 4001; be->t_requests = be->t_requests / (double)2)
@@ -10364,8 +10364,8 @@ static void do_rescale(void)
                 ret_val=pthread_mutex_unlock(&be->mut);
                 if(!(ret_val == 0))
                 {
-                  return_value_strerror$10=strerror(ret_val);
-                  logmsg(4, "do_rescale() unlock: %s", return_value_strerror$10);
+                  return_value_strerror_10=strerror(ret_val);
+                  logmsg(4, "do_rescale() unlock: %s", return_value_strerror_10);
                 }
 
                 svc->tot_pri = svc->tot_pri + 1;
@@ -10379,8 +10379,8 @@ static void do_rescale(void)
                   ret_val=pthread_mutex_lock(&be->mut);
                   if(!(ret_val == 0))
                   {
-                    return_value_strerror$11=strerror(ret_val);
-                    logmsg(4, "do_rescale() lock: %s", return_value_strerror$11);
+                    return_value_strerror_11=strerror(ret_val);
+                    logmsg(4, "do_rescale() lock: %s", return_value_strerror_11);
                   }
 
                   for( ; be->n_requests >= 4001; be->t_requests = be->t_requests / (double)2)
@@ -10388,8 +10388,8 @@ static void do_rescale(void)
                   ret_val=pthread_mutex_unlock(&be->mut);
                   if(!(ret_val == 0))
                   {
-                    return_value_strerror$12=strerror(ret_val);
-                    logmsg(4, "do_rescale() unlock: %s", return_value_strerror$12);
+                    return_value_strerror_12=strerror(ret_val);
+                    logmsg(4, "do_rescale() unlock: %s", return_value_strerror_12);
                   }
 
                   svc->tot_pri = svc->tot_pri - 1;
@@ -10403,8 +10403,8 @@ static void do_rescale(void)
           ret_val=pthread_mutex_unlock(&svc->mut);
           if(!(ret_val == 0))
           {
-            return_value_strerror$13=strerror(ret_val);
-            logmsg(4, "thr_rescale() unlock: %s", return_value_strerror$13);
+            return_value_strerror_13=strerror(ret_val);
+            logmsg(4, "thr_rescale() unlock: %s", return_value_strerror_13);
           }
 
         }
@@ -10417,18 +10417,18 @@ static void do_rescale(void)
     }
   }
   svc = services;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  char *return_value_strerror$16;
-  char *return_value_strerror$17;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$21;
-  char *return_value_strerror$22;
-  char *return_value_strerror$23;
-  char *return_value_strerror$24;
-  char *return_value_strerror$25;
-  char *return_value_strerror$26;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  char *return_value_strerror_16;
+  char *return_value_strerror_17;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_21;
+  char *return_value_strerror_22;
+  char *return_value_strerror_23;
+  char *return_value_strerror_24;
+  char *return_value_strerror_25;
+  char *return_value_strerror_26;
   for( ; !(svc == ((struct _service *)NULL)); svc = svc->next)
   {
     if(!(svc->dynscale == 0))
@@ -10440,22 +10440,22 @@ static void do_rescale(void)
       for( ; !(be == ((struct _backend *)NULL)); be = be->next)
       {
         if(!(be->be_type == 0))
-          tmp_if_expr$14 = (_Bool)1;
+          tmp_if_expr_14 = (_Bool)1;
 
         else
-          tmp_if_expr$14 = !(be->alive != 0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$14)
-          tmp_if_expr$15 = (_Bool)1;
+          tmp_if_expr_14 = !(be->alive != 0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_14)
+          tmp_if_expr_15 = (_Bool)1;
 
         else
-          tmp_if_expr$15 = be->disabled != 0 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$15)
+          tmp_if_expr_15 = be->disabled != 0 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_15)
         {
           ret_val=pthread_mutex_lock(&be->mut);
           if(!(ret_val == 0))
           {
-            return_value_strerror$16=strerror(ret_val);
-            logmsg(4, "do_rescale() lock: %s", return_value_strerror$16);
+            return_value_strerror_16=strerror(ret_val);
+            logmsg(4, "do_rescale() lock: %s", return_value_strerror_16);
           }
 
           average = average + be->t_average;
@@ -10463,8 +10463,8 @@ static void do_rescale(void)
           ret_val=pthread_mutex_unlock(&be->mut);
           if(!(ret_val == 0))
           {
-            return_value_strerror$17=strerror(ret_val);
-            logmsg(4, "do_rescale() unlock: %s", return_value_strerror$17);
+            return_value_strerror_17=strerror(ret_val);
+            logmsg(4, "do_rescale() unlock: %s", return_value_strerror_17);
           }
 
           n = n + 1;
@@ -10480,9 +10480,9 @@ static void do_rescale(void)
         ret_val=pthread_mutex_lock(&svc->mut);
         if(!(ret_val == 0))
         {
-          char *return_value_strerror$18;
-          return_value_strerror$18=strerror(ret_val);
-          logmsg(4, "thr_rescale() lock: %s", return_value_strerror$18);
+          char *return_value_strerror_18;
+          return_value_strerror_18=strerror(ret_val);
+          logmsg(4, "thr_rescale() lock: %s", return_value_strerror_18);
           goto __CPROVER_DUMP_L61;
         }
 
@@ -10490,21 +10490,21 @@ static void do_rescale(void)
         for( ; !(be == ((struct _backend *)NULL)); be = be->next)
         {
           if(!(be->be_type == 0))
-            tmp_if_expr$19 = (_Bool)1;
+            tmp_if_expr_19 = (_Bool)1;
 
           else
-            tmp_if_expr$19 = !(be->alive != 0) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$19)
-            tmp_if_expr$20 = (_Bool)1;
+            tmp_if_expr_19 = !(be->alive != 0) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_19)
+            tmp_if_expr_20 = (_Bool)1;
 
           else
-            tmp_if_expr$20 = be->disabled != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$20)
-            tmp_if_expr$21 = (_Bool)1;
+            tmp_if_expr_20 = be->disabled != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_20)
+            tmp_if_expr_21 = (_Bool)1;
 
           else
-            tmp_if_expr$21 = be->n_requests < 8000 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$21)
+            tmp_if_expr_21 = be->n_requests < 8000 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_21)
           {
             if(be->t_average < average + -sq_average)
             {
@@ -10512,8 +10512,8 @@ static void do_rescale(void)
               ret_val=pthread_mutex_lock(&be->mut);
               if(!(ret_val == 0))
               {
-                return_value_strerror$22=strerror(ret_val);
-                logmsg(4, "do_rescale() lock: %s", return_value_strerror$22);
+                return_value_strerror_22=strerror(ret_val);
+                logmsg(4, "do_rescale() lock: %s", return_value_strerror_22);
               }
 
               for( ; be->n_requests >= 4001; be->t_requests = be->t_requests / (double)2)
@@ -10521,8 +10521,8 @@ static void do_rescale(void)
               ret_val=pthread_mutex_unlock(&be->mut);
               if(!(ret_val == 0))
               {
-                return_value_strerror$23=strerror(ret_val);
-                logmsg(4, "do_rescale() unlock: %s", return_value_strerror$23);
+                return_value_strerror_23=strerror(ret_val);
+                logmsg(4, "do_rescale() unlock: %s", return_value_strerror_23);
               }
 
               svc->tot_pri = svc->tot_pri + 1;
@@ -10536,8 +10536,8 @@ static void do_rescale(void)
                 ret_val=pthread_mutex_lock(&be->mut);
                 if(!(ret_val == 0))
                 {
-                  return_value_strerror$24=strerror(ret_val);
-                  logmsg(4, "do_rescale() lock: %s", return_value_strerror$24);
+                  return_value_strerror_24=strerror(ret_val);
+                  logmsg(4, "do_rescale() lock: %s", return_value_strerror_24);
                 }
 
                 for( ; be->n_requests >= 4001; be->t_requests = be->t_requests / (double)2)
@@ -10545,8 +10545,8 @@ static void do_rescale(void)
                 ret_val=pthread_mutex_unlock(&be->mut);
                 if(!(ret_val == 0))
                 {
-                  return_value_strerror$25=strerror(ret_val);
-                  logmsg(4, "do_rescale() unlock: %s", return_value_strerror$25);
+                  return_value_strerror_25=strerror(ret_val);
+                  logmsg(4, "do_rescale() unlock: %s", return_value_strerror_25);
                 }
 
                 svc->tot_pri = svc->tot_pri - 1;
@@ -10560,8 +10560,8 @@ static void do_rescale(void)
         ret_val=pthread_mutex_unlock(&svc->mut);
         if(!(ret_val == 0))
         {
-          return_value_strerror$26=strerror(ret_val);
-          logmsg(4, "thr_rescale() unlock: %s", return_value_strerror$26);
+          return_value_strerror_26=strerror(ret_val);
+          logmsg(4, "thr_rescale() unlock: %s", return_value_strerror_26);
         }
 
       }
@@ -10605,9 +10605,9 @@ static void do_resurect(void)
         {
           if(!(be->alive == 0))
           {
-            signed int return_value_memcmp$1;
-            return_value_memcmp$1=memcmp((const void *)&be->ha_addr, (const void *)&z_addr, sizeof(struct addrinfo) /*48ul*/ );
-            if(!(return_value_memcmp$1 == 0))
+            signed int return_value_memcmp_1;
+            return_value_memcmp_1=memcmp((const void *)&be->ha_addr, (const void *)&z_addr, sizeof(struct addrinfo) /*48ul*/ );
+            if(!(return_value_memcmp_1 == 0))
             {
               switch(be->ha_addr.ai_family)
               {
@@ -10638,9 +10638,9 @@ static void do_resurect(void)
                 default:
                   goto __CPROVER_DUMP_L13;
               }
-              signed int return_value_connect_nb$2;
-              return_value_connect_nb$2=connect_nb(sock, &be->ha_addr, be->conn_to);
-              if(!(return_value_connect_nb$2 == 0))
+              signed int return_value_connect_nb_2;
+              return_value_connect_nb_2=connect_nb(sock, &be->ha_addr, be->conn_to);
+              if(!(return_value_connect_nb_2 == 0))
               {
                 kill_be(svc, be, 1);
                 addr2str(buf, 8192 - 1, &be->addr, 0);
@@ -10671,9 +10671,9 @@ static void do_resurect(void)
       {
         if(!(be->alive == 0))
         {
-          signed int return_value_memcmp$3;
-          return_value_memcmp$3=memcmp((const void *)&be->ha_addr, (const void *)&z_addr, sizeof(struct addrinfo) /*48ul*/ );
-          if(!(return_value_memcmp$3 == 0))
+          signed int return_value_memcmp_3;
+          return_value_memcmp_3=memcmp((const void *)&be->ha_addr, (const void *)&z_addr, sizeof(struct addrinfo) /*48ul*/ );
+          if(!(return_value_memcmp_3 == 0))
           {
             switch(be->ha_addr.ai_family)
             {
@@ -10704,9 +10704,9 @@ static void do_resurect(void)
               default:
                 goto __CPROVER_DUMP_L28;
             }
-            signed int return_value_connect_nb$4;
-            return_value_connect_nb$4=connect_nb(sock, &be->ha_addr, be->conn_to);
-            if(!(return_value_connect_nb$4 == 0))
+            signed int return_value_connect_nb_4;
+            return_value_connect_nb_4=connect_nb(sock, &be->ha_addr, be->conn_to);
+            if(!(return_value_connect_nb_4 == 0))
             {
               kill_be(svc, be, 1);
               addr2str(buf, 8192 - 1, &be->addr, 0);
@@ -10727,8 +10727,8 @@ static void do_resurect(void)
     }
   }
   lstn = listeners;
-  char *return_value_strerror$7;
-  char *return_value_strerror$8;
+  char *return_value_strerror_7;
+  char *return_value_strerror_8;
   for( ; !(lstn == ((struct _listener *)NULL)); lstn = lstn->next)
   {
     svc = lstn->services;
@@ -10743,9 +10743,9 @@ static void do_resurect(void)
         {
           if(be->alive == 0)
           {
-            signed int return_value_memcmp$5;
-            return_value_memcmp$5=memcmp((const void *)&be->ha_addr, (const void *)&z_addr, sizeof(struct addrinfo) /*48ul*/ );
-            if(return_value_memcmp$5 == 0)
+            signed int return_value_memcmp_5;
+            return_value_memcmp_5=memcmp((const void *)&be->ha_addr, (const void *)&z_addr, sizeof(struct addrinfo) /*48ul*/ );
+            if(return_value_memcmp_5 == 0)
             {
               switch(be->addr.ai_family)
               {
@@ -10812,9 +10812,9 @@ static void do_resurect(void)
               }
               addr = &be->ha_addr;
             }
-            signed int return_value_connect_nb$6;
-            return_value_connect_nb$6=connect_nb(sock, addr, be->conn_to);
-            if(return_value_connect_nb$6 == 0)
+            signed int return_value_connect_nb_6;
+            return_value_connect_nb_6=connect_nb(sock, addr, be->conn_to);
+            if(return_value_connect_nb_6 == 0)
             {
               be->resurrect = 1;
               modified = 1;
@@ -10835,8 +10835,8 @@ static void do_resurect(void)
         ret_val=pthread_mutex_lock(&svc->mut);
         if(!(ret_val == 0))
         {
-          return_value_strerror$7=strerror(ret_val);
-          logmsg(4, "do_resurect() lock: %s", return_value_strerror$7);
+          return_value_strerror_7=strerror(ret_val);
+          logmsg(4, "do_resurect() lock: %s", return_value_strerror_7);
         }
 
         svc->tot_pri = 0;
@@ -10861,8 +10861,8 @@ static void do_resurect(void)
         ret_val=pthread_mutex_unlock(&svc->mut);
         if(!(ret_val == 0))
         {
-          return_value_strerror$8=strerror(ret_val);
-          logmsg(4, "do_resurect() unlock: %s", return_value_strerror$8);
+          return_value_strerror_8=strerror(ret_val);
+          logmsg(4, "do_resurect() unlock: %s", return_value_strerror_8);
         }
 
       }
@@ -10870,8 +10870,8 @@ static void do_resurect(void)
     }
   }
   svc = services;
-  char *return_value_strerror$11;
-  char *return_value_strerror$12;
+  char *return_value_strerror_11;
+  char *return_value_strerror_12;
   for( ; !(svc == ((struct _service *)NULL)); svc = svc->next)
   {
     modified = 0;
@@ -10883,9 +10883,9 @@ static void do_resurect(void)
       {
         if(be->alive == 0)
         {
-          signed int return_value_memcmp$9;
-          return_value_memcmp$9=memcmp((const void *)&be->ha_addr, (const void *)&z_addr, sizeof(struct addrinfo) /*48ul*/ );
-          if(return_value_memcmp$9 == 0)
+          signed int return_value_memcmp_9;
+          return_value_memcmp_9=memcmp((const void *)&be->ha_addr, (const void *)&z_addr, sizeof(struct addrinfo) /*48ul*/ );
+          if(return_value_memcmp_9 == 0)
           {
             switch(be->addr.ai_family)
             {
@@ -10952,9 +10952,9 @@ static void do_resurect(void)
             }
             addr = &be->ha_addr;
           }
-          signed int return_value_connect_nb$10;
-          return_value_connect_nb$10=connect_nb(sock, addr, be->conn_to);
-          if(return_value_connect_nb$10 == 0)
+          signed int return_value_connect_nb_10;
+          return_value_connect_nb_10=connect_nb(sock, addr, be->conn_to);
+          if(return_value_connect_nb_10 == 0)
           {
             be->resurrect = 1;
             modified = 1;
@@ -10975,8 +10975,8 @@ static void do_resurect(void)
       ret_val=pthread_mutex_lock(&svc->mut);
       if(!(ret_val == 0))
       {
-        return_value_strerror$11=strerror(ret_val);
-        logmsg(4, "do_resurect() lock: %s", return_value_strerror$11);
+        return_value_strerror_11=strerror(ret_val);
+        logmsg(4, "do_resurect() lock: %s", return_value_strerror_11);
       }
 
       svc->tot_pri = 0;
@@ -11001,8 +11001,8 @@ static void do_resurect(void)
       ret_val=pthread_mutex_unlock(&svc->mut);
       if(!(ret_val == 0))
       {
-        return_value_strerror$12=strerror(ret_val);
-        logmsg(4, "do_resurect() unlock: %s", return_value_strerror$12);
+        return_value_strerror_12=strerror(ret_val);
+        logmsg(4, "do_resurect() unlock: %s", return_value_strerror_12);
       }
 
     }
@@ -11032,9 +11032,9 @@ __CPROVER_DUMP_L1:
 // file http.c line 42
 static void err_reply(struct bio_st * const c, const char *head, const char *txt)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(txt);
-  BIO_printf(c, err_response, head, return_value_strlen$1, txt);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(txt);
+  BIO_printf(c, err_response, head, return_value_strlen_1, txt);
   BIO_ctrl(c, 11, (signed long int)0, (void *)0);
   goto __CPROVER_DUMP_L1;
 
@@ -11049,24 +11049,24 @@ static char * file2str(const char *fname)
   char *res;
   struct stat st;
   signed int fin;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(fname, &st);
-  if(!(return_value_stat$1 == 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(fname, &st);
+  if(!(return_value_stat_1 == 0))
     conf_err("can't stat Err file - aborted");
 
   fin=open(fname, 00);
   if(!(fin >= 0))
     conf_err("can't open Err file - aborted");
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(st.st_size + (signed long int)1));
-  res = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(st.st_size + (signed long int)1));
+  res = (char *)return_value_malloc_2;
   if(res == ((char *)NULL))
     conf_err("can't alloc Err file (out of memory) - aborted");
 
-  signed long int return_value_read$3;
-  return_value_read$3=read(fin, (void *)res, (unsigned long int)st.st_size);
-  if(!(return_value_read$3 == st.st_size))
+  signed long int return_value_read_3;
+  return_value_read_3=read(fin, (void *)res, (unsigned long int)st.st_size);
+  if(!(return_value_read_3 == st.st_size))
     conf_err("can't read Err file - aborted");
 
   res[st.st_size] = (char)0;
@@ -11097,26 +11097,26 @@ static signed int get_HEADERS(char *res, const struct _service *svc, char ** con
   signed int i;
   signed int n;
   signed int s;
-  struct anonymous$4 get_HEADERS$$1$$matches[4l];
+  struct anonymous_4 get_HEADERS__1__matches[4l];
   res[(signed long int)0] = (char)0;
   i = 0;
   for( ; !(i >= 128); i = i + 1)
     if(!(headers[(signed long int)i] == ((char *)NULL)))
     {
-      signed int return_value_pcreposix_regexec$1;
-      return_value_pcreposix_regexec$1=pcreposix_regexec(&svc->sess_start, headers[(signed long int)i], (unsigned long int)4, get_HEADERS$$1$$matches, 0);
-      if(return_value_pcreposix_regexec$1 == 0)
+      signed int return_value_pcreposix_regexec_1;
+      return_value_pcreposix_regexec_1=pcreposix_regexec(&svc->sess_start, headers[(signed long int)i], (unsigned long int)4, get_HEADERS__1__matches, 0);
+      if(return_value_pcreposix_regexec_1 == 0)
       {
-        s = get_HEADERS$$1$$matches[(signed long int)0].rm_eo;
-        signed int return_value_pcreposix_regexec$2;
-        return_value_pcreposix_regexec$2=pcreposix_regexec(&svc->sess_pat, headers[(signed long int)i] + (signed long int)s, (unsigned long int)4, get_HEADERS$$1$$matches, 0);
-        if(return_value_pcreposix_regexec$2 == 0)
+        s = get_HEADERS__1__matches[(signed long int)0].rm_eo;
+        signed int return_value_pcreposix_regexec_2;
+        return_value_pcreposix_regexec_2=pcreposix_regexec(&svc->sess_pat, headers[(signed long int)i] + (signed long int)s, (unsigned long int)4, get_HEADERS__1__matches, 0);
+        if(return_value_pcreposix_regexec_2 == 0)
         {
-          n = get_HEADERS$$1$$matches[(signed long int)1].rm_eo - get_HEADERS$$1$$matches[(signed long int)1].rm_so;
+          n = get_HEADERS__1__matches[(signed long int)1].rm_eo - get_HEADERS__1__matches[(signed long int)1].rm_so;
           if(n >= 128)
             n = 127;
 
-          strncpy(res, headers[(signed long int)i] + (signed long int)s + (signed long int)get_HEADERS$$1$$matches[(signed long int)1].rm_so, (unsigned long int)n);
+          strncpy(res, headers[(signed long int)i] + (signed long int)s + (signed long int)get_HEADERS__1__matches[(signed long int)1].rm_so, (unsigned long int)n);
           res[(signed long int)n] = (char)0;
         }
 
@@ -11133,10 +11133,10 @@ static signed int get_REQUEST(char *res, const struct _service *svc, const char 
 {
   signed int n;
   signed int s;
-  struct anonymous$4 get_REQUEST$$1$$matches[4l];
-  signed int return_value_pcreposix_regexec$1;
-  return_value_pcreposix_regexec$1=pcreposix_regexec(&svc->sess_start, request, (unsigned long int)4, get_REQUEST$$1$$matches, 0);
-  if(!(return_value_pcreposix_regexec$1 == 0))
+  struct anonymous_4 get_REQUEST__1__matches[4l];
+  signed int return_value_pcreposix_regexec_1;
+  return_value_pcreposix_regexec_1=pcreposix_regexec(&svc->sess_start, request, (unsigned long int)4, get_REQUEST__1__matches, 0);
+  if(!(return_value_pcreposix_regexec_1 == 0))
   {
     res[(signed long int)0] = (char)0;
     return 0;
@@ -11144,10 +11144,10 @@ static signed int get_REQUEST(char *res, const struct _service *svc, const char 
 
   else
   {
-    s = get_REQUEST$$1$$matches[(signed long int)0].rm_eo;
-    signed int return_value_pcreposix_regexec$2;
-    return_value_pcreposix_regexec$2=pcreposix_regexec(&svc->sess_pat, request + (signed long int)s, (unsigned long int)4, get_REQUEST$$1$$matches, 0);
-    if(!(return_value_pcreposix_regexec$2 == 0))
+    s = get_REQUEST__1__matches[(signed long int)0].rm_eo;
+    signed int return_value_pcreposix_regexec_2;
+    return_value_pcreposix_regexec_2=pcreposix_regexec(&svc->sess_pat, request + (signed long int)s, (unsigned long int)4, get_REQUEST__1__matches, 0);
+    if(!(return_value_pcreposix_regexec_2 == 0))
     {
       res[(signed long int)0] = (char)0;
       return 0;
@@ -11155,11 +11155,11 @@ static signed int get_REQUEST(char *res, const struct _service *svc, const char 
 
     else
     {
-      n = get_REQUEST$$1$$matches[(signed long int)1].rm_eo - get_REQUEST$$1$$matches[(signed long int)1].rm_so;
+      n = get_REQUEST__1__matches[(signed long int)1].rm_eo - get_REQUEST__1__matches[(signed long int)1].rm_so;
       if(n >= 128)
         n = 127;
 
-      strncpy(res, request + (signed long int)s + (signed long int)get_REQUEST$$1$$matches[(signed long int)1].rm_so, (unsigned long int)n);
+      strncpy(res, request + (signed long int)s + (signed long int)get_REQUEST__1__matches[(signed long int)1].rm_so, (unsigned long int)n);
       res[(signed long int)n] = (char)0;
       return 1;
     }
@@ -11176,45 +11176,45 @@ extern struct _backend * get_backend(struct _service * const svc, struct addrinf
   signed int no_be;
   void *vp;
   ret_val=pthread_mutex_lock(&svc->mut);
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   if(!(ret_val == 0))
   {
-    return_value_strerror$1=strerror(ret_val);
-    logmsg(4, "get_backend() lock: %s", return_value_strerror$1);
+    return_value_strerror_1=strerror(ret_val);
+    logmsg(4, "get_backend() lock: %s", return_value_strerror_1);
   }
 
   no_be = (signed int)(svc->tot_pri <= 0);
-  struct _backend *tmp_if_expr$4;
-  signed long int return_value_random$2;
-  struct _backend *return_value_rand_backend$3;
-  struct _backend *tmp_if_expr$6;
-  struct _backend *return_value_hash_backend$5;
-  signed int return_value_get_REQUEST$14;
-  struct _backend *tmp_if_expr$9;
-  struct _backend *return_value_hash_backend$8;
-  struct _backend *tmp_if_expr$13;
-  signed long int return_value_random$11;
-  struct _backend *return_value_rand_backend$12;
-  signed int return_value_get_HEADERS$21;
-  struct _backend *tmp_if_expr$16;
-  struct _backend *return_value_hash_backend$15;
-  struct _backend *tmp_if_expr$20;
-  signed long int return_value_random$18;
-  struct _backend *return_value_rand_backend$19;
+  struct _backend *tmp_if_expr_4;
+  signed long int return_value_random_2;
+  struct _backend *return_value_rand_backend_3;
+  struct _backend *tmp_if_expr_6;
+  struct _backend *return_value_hash_backend_5;
+  signed int return_value_get_REQUEST_14;
+  struct _backend *tmp_if_expr_9;
+  struct _backend *return_value_hash_backend_8;
+  struct _backend *tmp_if_expr_13;
+  signed long int return_value_random_11;
+  struct _backend *return_value_rand_backend_12;
+  signed int return_value_get_HEADERS_21;
+  struct _backend *tmp_if_expr_16;
+  struct _backend *return_value_hash_backend_15;
+  struct _backend *tmp_if_expr_20;
+  signed long int return_value_random_18;
+  struct _backend *return_value_rand_backend_19;
   switch((signed int)svc->sess_type)
   {
     case SESS_NONE:
     {
       if(!(no_be == 0))
-        tmp_if_expr$4 = svc->emergency;
+        tmp_if_expr_4 = svc->emergency;
 
       else
       {
-        return_value_random$2=random();
-        return_value_rand_backend$3=rand_backend(svc->backends, (signed int)(return_value_random$2 % (signed long int)svc->tot_pri));
-        tmp_if_expr$4 = return_value_rand_backend$3;
+        return_value_random_2=random();
+        return_value_rand_backend_3=rand_backend(svc->backends, (signed int)(return_value_random_2 % (signed long int)svc->tot_pri));
+        tmp_if_expr_4 = return_value_rand_backend_3;
       }
-      res = tmp_if_expr$4;
+      res = tmp_if_expr_4;
       break;
     }
     case SESS_IP:
@@ -11223,14 +11223,14 @@ extern struct _backend * get_backend(struct _service * const svc, struct addrinf
       if(!(svc->sess_ttl >= 0))
       {
         if(!(no_be == 0))
-          tmp_if_expr$6 = svc->emergency;
+          tmp_if_expr_6 = svc->emergency;
 
         else
         {
-          return_value_hash_backend$5=hash_backend(svc->backends, svc->abs_pri, key);
-          tmp_if_expr$6 = return_value_hash_backend$5;
+          return_value_hash_backend_5=hash_backend(svc->backends, svc->abs_pri, key);
+          tmp_if_expr_6 = return_value_hash_backend_5;
         }
-        res = tmp_if_expr$6;
+        res = tmp_if_expr_6;
       }
 
       else
@@ -11243,9 +11243,9 @@ extern struct _backend * get_backend(struct _service * const svc, struct addrinf
 
           else
           {
-            signed long int return_value_random$7;
-            return_value_random$7=random();
-            res=rand_backend(svc->backends, (signed int)(return_value_random$7 % (signed long int)svc->tot_pri));
+            signed long int return_value_random_7;
+            return_value_random_7=random();
+            res=rand_backend(svc->backends, (signed int)(return_value_random_7 % (signed long int)svc->tot_pri));
             t_add(svc->sessions, key, (const void *)&res, sizeof(struct _backend *) /*8ul*/ );
           }
         }
@@ -11259,20 +11259,20 @@ extern struct _backend * get_backend(struct _service * const svc, struct addrinf
 
     case SESS_PARM:
     {
-      return_value_get_REQUEST$14=get_REQUEST(key, svc, request);
-      if(!(return_value_get_REQUEST$14 == 0))
+      return_value_get_REQUEST_14=get_REQUEST(key, svc, request);
+      if(!(return_value_get_REQUEST_14 == 0))
       {
         if(!(svc->sess_ttl >= 0))
         {
           if(!(no_be == 0))
-            tmp_if_expr$9 = svc->emergency;
+            tmp_if_expr_9 = svc->emergency;
 
           else
           {
-            return_value_hash_backend$8=hash_backend(svc->backends, svc->abs_pri, key);
-            tmp_if_expr$9 = return_value_hash_backend$8;
+            return_value_hash_backend_8=hash_backend(svc->backends, svc->abs_pri, key);
+            tmp_if_expr_9 = return_value_hash_backend_8;
           }
-          res = tmp_if_expr$9;
+          res = tmp_if_expr_9;
         }
 
         else
@@ -11285,9 +11285,9 @@ extern struct _backend * get_backend(struct _service * const svc, struct addrinf
 
             else
             {
-              signed long int return_value_random$10;
-              return_value_random$10=random();
-              res=rand_backend(svc->backends, (signed int)(return_value_random$10 % (signed long int)svc->tot_pri));
+              signed long int return_value_random_10;
+              return_value_random_10=random();
+              res=rand_backend(svc->backends, (signed int)(return_value_random_10 % (signed long int)svc->tot_pri));
               t_add(svc->sessions, key, (const void *)&res, sizeof(struct _backend *) /*8ul*/ );
             }
           }
@@ -11300,34 +11300,34 @@ extern struct _backend * get_backend(struct _service * const svc, struct addrinf
       else
       {
         if(!(no_be == 0))
-          tmp_if_expr$13 = svc->emergency;
+          tmp_if_expr_13 = svc->emergency;
 
         else
         {
-          return_value_random$11=random();
-          return_value_rand_backend$12=rand_backend(svc->backends, (signed int)(return_value_random$11 % (signed long int)svc->tot_pri));
-          tmp_if_expr$13 = return_value_rand_backend$12;
+          return_value_random_11=random();
+          return_value_rand_backend_12=rand_backend(svc->backends, (signed int)(return_value_random_11 % (signed long int)svc->tot_pri));
+          tmp_if_expr_13 = return_value_rand_backend_12;
         }
-        res = tmp_if_expr$13;
+        res = tmp_if_expr_13;
       }
       break;
     }
     default:
     {
-      return_value_get_HEADERS$21=get_HEADERS(key, svc, headers);
-      if(!(return_value_get_HEADERS$21 == 0))
+      return_value_get_HEADERS_21=get_HEADERS(key, svc, headers);
+      if(!(return_value_get_HEADERS_21 == 0))
       {
         if(!(svc->sess_ttl >= 0))
         {
           if(!(no_be == 0))
-            tmp_if_expr$16 = svc->emergency;
+            tmp_if_expr_16 = svc->emergency;
 
           else
           {
-            return_value_hash_backend$15=hash_backend(svc->backends, svc->abs_pri, key);
-            tmp_if_expr$16 = return_value_hash_backend$15;
+            return_value_hash_backend_15=hash_backend(svc->backends, svc->abs_pri, key);
+            tmp_if_expr_16 = return_value_hash_backend_15;
           }
-          res = tmp_if_expr$16;
+          res = tmp_if_expr_16;
         }
 
         else
@@ -11340,9 +11340,9 @@ extern struct _backend * get_backend(struct _service * const svc, struct addrinf
 
             else
             {
-              signed long int return_value_random$17;
-              return_value_random$17=random();
-              res=rand_backend(svc->backends, (signed int)(return_value_random$17 % (signed long int)svc->tot_pri));
+              signed long int return_value_random_17;
+              return_value_random_17=random();
+              res=rand_backend(svc->backends, (signed int)(return_value_random_17 % (signed long int)svc->tot_pri));
               t_add(svc->sessions, key, (const void *)&res, sizeof(struct _backend *) /*8ul*/ );
             }
           }
@@ -11355,24 +11355,24 @@ extern struct _backend * get_backend(struct _service * const svc, struct addrinf
       else
       {
         if(!(no_be == 0))
-          tmp_if_expr$20 = svc->emergency;
+          tmp_if_expr_20 = svc->emergency;
 
         else
         {
-          return_value_random$18=random();
-          return_value_rand_backend$19=rand_backend(svc->backends, (signed int)(return_value_random$18 % (signed long int)svc->tot_pri));
-          tmp_if_expr$20 = return_value_rand_backend$19;
+          return_value_random_18=random();
+          return_value_rand_backend_19=rand_backend(svc->backends, (signed int)(return_value_random_18 % (signed long int)svc->tot_pri));
+          tmp_if_expr_20 = return_value_rand_backend_19;
         }
-        res = tmp_if_expr$20;
+        res = tmp_if_expr_20;
       }
     }
   }
   ret_val=pthread_mutex_unlock(&svc->mut);
-  char *return_value_strerror$22;
+  char *return_value_strerror_22;
   if(!(ret_val == 0))
   {
-    return_value_strerror$22=strerror(ret_val);
-    logmsg(4, "get_backend() unlock: %s", return_value_strerror$22);
+    return_value_strerror_22=strerror(ret_val);
+    logmsg(4, "get_backend() unlock: %s", return_value_strerror_22);
   }
 
   return res;
@@ -11384,7 +11384,7 @@ struct dh_st * get_dh1024()
 {
   struct dh_st *dh;
   dh=DH_new();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dh == ((struct dh_st *)NULL))
     return (struct dh_st *)(void *)0;
 
@@ -11395,11 +11395,11 @@ struct dh_st * get_dh1024()
     static unsigned char dh1024_g[1l] = { (unsigned char)0x05 };
     dh->g=BN_bin2bn(dh1024_g, (signed int)sizeof(unsigned char [1l]) /*1ul*/ , (struct bignum_st *)(void *)0);
     if(dh->p == ((struct bignum_st *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = dh->g == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = dh->g == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       DH_free(dh);
       return (struct dh_st *)(void *)0;
@@ -11416,7 +11416,7 @@ struct dh_st * get_dh512()
 {
   struct dh_st *dh;
   dh=DH_new();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dh == ((struct dh_st *)NULL))
     return (struct dh_st *)(void *)0;
 
@@ -11427,11 +11427,11 @@ struct dh_st * get_dh512()
     static unsigned char dh512_g[1l] = { (unsigned char)0x05 };
     dh->g=BN_bin2bn(dh512_g, (signed int)sizeof(unsigned char [1l]) /*1ul*/ , (struct bignum_st *)(void *)0);
     if(dh->p == ((struct bignum_st *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = dh->g == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = dh->g == (struct bignum_st *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       DH_free(dh);
       return (struct dh_st *)(void *)0;
@@ -11470,34 +11470,34 @@ static char ** get_headers(struct bio_st * const in, struct bio_st * const cl, c
   else
     if(has_eol == 0)
     {
-      unsigned long int return_value_pthread_self$1;
-      return_value_pthread_self$1=pthread_self();
-      logmsg(4, "(%lx) e414 headers: request URI too long", return_value_pthread_self$1);
+      unsigned long int return_value_pthread_self_1;
+      return_value_pthread_self_1=pthread_self();
+      logmsg(4, "(%lx) e414 headers: request URI too long", return_value_pthread_self_1);
       err_reply(cl, h414, lstn->err414);
       return (char **)(void *)0;
     }
 
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)128, sizeof(char *) /*8ul*/ );
-  headers = (char **)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)128, sizeof(char *) /*8ul*/ );
+  headers = (char **)return_value_calloc_3;
   if(headers == ((char **)NULL))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    logmsg(4, "(%lx) e500 headers: out of memory", return_value_pthread_self$2);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    logmsg(4, "(%lx) e500 headers: out of memory", return_value_pthread_self_2);
     err_reply(cl, h500, lstn->err500);
     return (char **)(void *)0;
   }
 
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc((unsigned long int)8192);
-  headers[(signed long int)0] = (char *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc((unsigned long int)8192);
+  headers[(signed long int)0] = (char *)return_value_malloc_5;
   if(*headers == ((char *)NULL))
   {
     free_headers(headers);
-    unsigned long int return_value_pthread_self$4;
-    return_value_pthread_self$4=pthread_self();
-    logmsg(4, "(%lx) e500 header: out of memory", return_value_pthread_self$4);
+    unsigned long int return_value_pthread_self_4;
+    return_value_pthread_self_4=pthread_self();
+    logmsg(4, "(%lx) e500 header: out of memory", return_value_pthread_self_4);
     err_reply(cl, h500, lstn->err500);
     return (char **)(void *)0;
   }
@@ -11507,14 +11507,14 @@ static char ** get_headers(struct bio_st * const in, struct bio_st * const cl, c
   n = 1;
   for( ; !(n >= 128); n = n + 1)
   {
-    signed int return_value_get_line$7;
-    return_value_get_line$7=get_line(in, buf, 8192);
-    if(!(return_value_get_line$7 == 0))
+    signed int return_value_get_line_7;
+    return_value_get_line_7=get_line(in, buf, 8192);
+    if(!(return_value_get_line_7 == 0))
     {
       free_headers(headers);
-      unsigned long int return_value_pthread_self$6;
-      return_value_pthread_self$6=pthread_self();
-      logmsg(4, "(%lx) e500 can't read header", return_value_pthread_self$6);
+      unsigned long int return_value_pthread_self_6;
+      return_value_pthread_self_6=pthread_self();
+      logmsg(4, "(%lx) e500 can't read header", return_value_pthread_self_6);
       err_reply(cl, h500, lstn->err500);
       return (char **)(void *)0;
     }
@@ -11522,15 +11522,15 @@ static char ** get_headers(struct bio_st * const in, struct bio_st * const cl, c
     if(buf[0l] == 0)
       return headers;
 
-    void *return_value_malloc$9;
-    return_value_malloc$9=malloc((unsigned long int)8192);
-    headers[(signed long int)n] = (char *)return_value_malloc$9;
+    void *return_value_malloc_9;
+    return_value_malloc_9=malloc((unsigned long int)8192);
+    headers[(signed long int)n] = (char *)return_value_malloc_9;
     if(headers[(signed long int)n] == ((char *)NULL))
     {
       free_headers(headers);
-      unsigned long int return_value_pthread_self$8;
-      return_value_pthread_self$8=pthread_self();
-      logmsg(4, "(%lx) e500 header: out of memory", return_value_pthread_self$8);
+      unsigned long int return_value_pthread_self_8;
+      return_value_pthread_self_8=pthread_self();
+      logmsg(4, "(%lx) e500 header: out of memory", return_value_pthread_self_8);
       err_reply(cl, h500, lstn->err500);
       return (char **)(void *)0;
     }
@@ -11539,9 +11539,9 @@ static char ** get_headers(struct bio_st * const in, struct bio_st * const cl, c
     strncpy(headers[(signed long int)n], buf, (unsigned long int)(8192 - 1));
   }
   free_headers(headers);
-  unsigned long int return_value_pthread_self$10;
-  return_value_pthread_self$10=pthread_self();
-  logmsg(5, "(%lx) e500 too many headers", return_value_pthread_self$10);
+  unsigned long int return_value_pthread_self_10;
+  return_value_pthread_self_10=pthread_self();
+  logmsg(5, "(%lx) e500 too many headers", return_value_pthread_self_10);
   err_reply(cl, h500, lstn->err500);
   return (char **)(void *)0;
 }
@@ -11573,9 +11573,9 @@ extern signed int get_host(char * const name, struct addrinfo *res)
     }
 
     *res = *ap;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)ap->ai_addrlen);
-    res->ai_addr = (struct sockaddr *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)ap->ai_addrlen);
+    res->ai_addr = (struct sockaddr *)return_value_malloc_1;
     if(res->ai_addr == ((struct sockaddr *)NULL))
     {
       freeaddrinfo(chain);
@@ -11598,16 +11598,16 @@ static signed int get_line(struct bio_st * const in, char * const buf, const sig
   signed int n_read;
   memset((void *)buf, 0, (unsigned long int)bufsize);
   n_read = 0;
-  signed int return_value_BIO_gets$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  signed int return_value_BIO_read$5;
+  signed int return_value_BIO_gets_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_BIO_read_5;
   do
   {
-    return_value_BIO_gets$1=BIO_gets(in, buf + (signed long int)n_read, (bufsize - n_read) - 1);
-    if(!(return_value_BIO_gets$1 == -2))
+    return_value_BIO_gets_1=BIO_gets(in, buf + (signed long int)n_read, (bufsize - n_read) - 1);
+    if(!(return_value_BIO_gets_1 == -2))
     {
-      if(return_value_BIO_gets$1 == 0 || return_value_BIO_gets$1 == -1)
+      if(return_value_BIO_gets_1 == 0 || return_value_BIO_gets_1 == -1)
         goto __CPROVER_DUMP_L3;
 
     }
@@ -11624,19 +11624,19 @@ static signed int get_line(struct bio_st * const in, char * const buf, const sig
     do
     {
       if(!(i >= bufsize))
-        tmp_if_expr$2 = buf[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = buf[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       if((signed int)buf[(signed long int)i] == 10)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)buf[(signed long int)i] == 13 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)buf[(signed long int)i] == 13 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         buf[(signed long int)i] = (char)0;
         return 0;
@@ -11650,14 +11650,14 @@ static signed int get_line(struct bio_st * const in, char * const buf, const sig
 
     else
     {
-      unsigned long int return_value_pthread_self$4;
-      return_value_pthread_self$4=pthread_self();
-      logmsg(5, "(%lx) line too long: %s", return_value_pthread_self$4, buf);
+      unsigned long int return_value_pthread_self_4;
+      return_value_pthread_self_4=pthread_self();
+      logmsg(5, "(%lx) line too long: %s", return_value_pthread_self_4, buf);
       tmp = (char)0;
       while(!((signed int)tmp == 10))
       {
-        return_value_BIO_read$5=BIO_read(in, (void *)&tmp, 1);
-        if(!(return_value_BIO_read$5 == 1))
+        return_value_BIO_read_5=BIO_read(in, (void *)&tmp, 1);
+        if(!(return_value_BIO_read_5 == 1))
           return 1;
 
       }
@@ -11675,9 +11675,9 @@ extern struct _service * get_service(const struct _listener *lstn, const char *r
   for( ; !(svc == ((struct _service *)NULL)); svc = svc->next)
     if(svc->disabled == 0)
     {
-      signed int return_value_match_service$1;
-      return_value_match_service$1=match_service(svc, request, headers);
-      if(!(return_value_match_service$1 == 0))
+      signed int return_value_match_service_1;
+      return_value_match_service_1=match_service(svc, request, headers);
+      if(!(return_value_match_service_1 == 0))
         return svc;
 
     }
@@ -11686,9 +11686,9 @@ extern struct _service * get_service(const struct _listener *lstn, const char *r
   for( ; !(svc == ((struct _service *)NULL)); svc = svc->next)
     if(svc->disabled == 0)
     {
-      signed int return_value_match_service$2;
-      return_value_match_service$2=match_service(svc, request, headers);
-      if(!(return_value_match_service$2 == 0))
+      signed int return_value_match_service_2;
+      return_value_match_service_2=match_service(svc, request, headers);
+      if(!(return_value_match_service_2 == 0))
         return svc;
 
     }
@@ -11767,10 +11767,10 @@ static struct _backend * hash_backend(struct _backend *be, signed int abs_pri, c
   struct _backend *tb;
   signed int pri;
   hv = (unsigned long int)2166136261;
-  char *tmp_post$1;
-  for( ; !(*key == 0); hv = (hv ^ (unsigned long int)*tmp_post$1) * (unsigned long int)16777619 & (unsigned long int)0xFFFFFFFF)
+  char *tmp_post_1;
+  for( ; !(*key == 0); hv = (hv ^ (unsigned long int)*tmp_post_1) * (unsigned long int)16777619 & (unsigned long int)0xFFFFFFFF)
   {
-    tmp_post$1 = key;
+    tmp_post_1 = key;
     key = key + 1l;
   }
   pri = (signed int)(hv % (unsigned long int)abs_pri);
@@ -11782,7 +11782,7 @@ static struct _backend * hash_backend(struct _backend *be, signed int abs_pri, c
       break;
 
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(tb == ((struct _backend *)NULL))
     return (struct _backend *)(void *)0;
 
@@ -11792,11 +11792,11 @@ static struct _backend * hash_backend(struct _backend *be, signed int abs_pri, c
     do
     {
       if(res->alive == 0)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = res->disabled != 0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = res->disabled != 0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       res = res->next;
@@ -11828,8 +11828,8 @@ static char hexchar(char a)
 // file pound.c line 116
 static void init_thr_arg(void)
 {
-  pthread_cond_init(&arg_cond, (const union anonymous$9 *)(void *)0);
-  pthread_mutex_init(&arg_mut, (const union anonymous$9 *)(void *)0);
+  pthread_cond_init(&arg_cond, (const union anonymous_9 *)(void *)0);
+  pthread_mutex_init(&arg_mut, (const union anonymous_9 *)(void *)0);
 }
 
 // init_timer
@@ -11859,7 +11859,7 @@ extern void init_timer(void)
     }
 
   }
-  pthread_mutex_init(&RSA_mut, (const union anonymous$9 *)(void *)0);
+  pthread_mutex_init(&RSA_mut, (const union anonymous_9 *)(void *)0);
   DH512_params=get_dh512();
   DH1024_params=get_dh1024();
   goto __CPROVER_DUMP_L5;
@@ -11873,9 +11873,9 @@ __CPROVER_DUMP_L5:
 static signed int is_readable(struct bio_st * const bio, const signed int to_wait)
 {
   struct pollfd p;
-  signed long int return_value_BIO_ctrl$1;
-  return_value_BIO_ctrl$1=BIO_ctrl(bio, 10, (signed long int)0, (void *)0);
-  if((signed int)return_value_BIO_ctrl$1 >= 1)
+  signed long int return_value_BIO_ctrl_1;
+  return_value_BIO_ctrl_1=BIO_ctrl(bio, 10, (signed long int)0, (void *)0);
+  if((signed int)return_value_BIO_ctrl_1 >= 1)
     return 1;
 
   else
@@ -11883,9 +11883,9 @@ static signed int is_readable(struct bio_st * const bio, const signed int to_wai
     memset((void *)&p, 0, sizeof(struct pollfd) /*8ul*/ );
     BIO_ctrl(bio, 105, (signed long int)0, (void *)(char *)&p.fd);
     p.events = (signed short int)(0x001 | 0x002);
-    signed int return_value_poll$2;
-    return_value_poll$2=poll(&p, (unsigned long int)1, to_wait * 1000);
-    return (signed int)(return_value_poll$2 > 0);
+    signed int return_value_poll_2;
+    return_value_poll_2=poll(&p, (unsigned long int)1, to_wait * 1000);
+    return (signed int)(return_value_poll_2 > 0);
   }
 }
 
@@ -11897,18 +11897,18 @@ extern void kill_be(struct _service * const svc, const struct _backend *be, cons
   signed int ret_val;
   char buf[8192l];
   ret_val=pthread_mutex_lock(&svc->mut);
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   if(!(ret_val == 0))
   {
-    return_value_strerror$1=strerror(ret_val);
-    logmsg(4, "kill_be() lock: %s", return_value_strerror$1);
+    return_value_strerror_1=strerror(ret_val);
+    logmsg(4, "kill_be() lock: %s", return_value_strerror_1);
   }
 
   svc->tot_pri = 0;
   b = svc->backends;
-  unsigned long int return_value_pthread_self$2;
-  unsigned long int return_value_pthread_self$3;
-  unsigned long int return_value_pthread_self$4;
+  unsigned long int return_value_pthread_self_2;
+  unsigned long int return_value_pthread_self_3;
+  unsigned long int return_value_pthread_self_4;
   for( ; !(b == ((struct _backend *)NULL)); b = b->next)
   {
     if(b == be)
@@ -11927,24 +11927,24 @@ extern void kill_be(struct _service * const svc, const struct _backend *be, cons
       {
         b->disabled = 1;
         addr2str(buf, 8192 - 1, &b->addr, 0);
-        return_value_pthread_self$2=pthread_self();
-        logmsg(5, "(%lx) BackEnd %s disabled", return_value_pthread_self$2, (const void *)buf);
+        return_value_pthread_self_2=pthread_self();
+        logmsg(5, "(%lx) BackEnd %s disabled", return_value_pthread_self_2, (const void *)buf);
         goto __CPROVER_DUMP_L7;
 
       __CPROVER_DUMP_L4:
         ;
         b->alive = 0;
         addr2str(buf, 8192 - 1, &b->addr, 0);
-        return_value_pthread_self$3=pthread_self();
-        logmsg(5, "(%lx) BackEnd %s dead (killed)", return_value_pthread_self$3, (const void *)buf);
+        return_value_pthread_self_3=pthread_self();
+        logmsg(5, "(%lx) BackEnd %s dead (killed)", return_value_pthread_self_3, (const void *)buf);
         t_clean(svc->sessions, (void *)&be, sizeof(const struct _backend *) /*8ul*/ );
         goto __CPROVER_DUMP_L7;
 
       __CPROVER_DUMP_L5:
         ;
         addr2str(buf, 8192 - 1, &b->addr, 0);
-        return_value_pthread_self$4=pthread_self();
-        logmsg(5, "(%lx) BackEnd %s enabled", return_value_pthread_self$4, (const void *)buf);
+        return_value_pthread_self_4=pthread_self();
+        logmsg(5, "(%lx) BackEnd %s enabled", return_value_pthread_self_4, (const void *)buf);
         b->disabled = 0;
         goto __CPROVER_DUMP_L7;
       }
@@ -11963,11 +11963,11 @@ extern void kill_be(struct _service * const svc, const struct _backend *be, cons
 
   }
   ret_val=pthread_mutex_unlock(&svc->mut);
-  char *return_value_strerror$5;
+  char *return_value_strerror_5;
   if(!(ret_val == 0))
   {
-    return_value_strerror$5=strerror(ret_val);
-    logmsg(4, "kill_be() unlock: %s", return_value_strerror$5);
+    return_value_strerror_5=strerror(ret_val);
+    logmsg(4, "kill_be() unlock: %s", return_value_strerror_5);
   }
 
   goto __CPROVER_DUMP_L11;
@@ -11980,9 +11980,9 @@ __CPROVER_DUMP_L11:
 // file pound.c line 102
 static unsigned long int l_id(void)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  return (unsigned long int)return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  return (unsigned long int)return_value_pthread_self_1;
 }
 
 // l_init
@@ -11992,10 +11992,10 @@ static void l_init(void)
   signed int i;
   signed int n_locks;
   n_locks=CRYPTO_num_locks();
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)n_locks, sizeof(union anonymous$20) /*40ul*/ );
-  l_array = (union anonymous$20 *)return_value_calloc$1;
-  if(l_array == ((union anonymous$20 *)NULL))
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)n_locks, sizeof(union anonymous_20) /*40ul*/ );
+  l_array = (union anonymous_20 *)return_value_calloc_1;
+  if(l_array == ((union anonymous_20 *)NULL))
   {
     logmsg(3, "lock init: out of memory - aborted...");
     exit(1);
@@ -12003,7 +12003,7 @@ static void l_init(void)
 
   i = 0;
   for( ; !(i >= n_locks); i = i + 1)
-    pthread_mutex_init(&l_array[(signed long int)i], (const union anonymous$9 *)(void *)0);
+    pthread_mutex_init(&l_array[(signed long int)i], (const union anonymous_9 *)(void *)0);
   goto __CPROVER_DUMP_L4;
 
 __CPROVER_DUMP_L4:
@@ -12015,15 +12015,15 @@ __CPROVER_DUMP_L4:
 static void l_lock(const signed int mode, const signed int n, const char *file, signed int line)
 {
   signed int ret_val;
-  char *return_value_strerror$1;
-  char *return_value_strerror$2;
+  char *return_value_strerror_1;
+  char *return_value_strerror_2;
   if(!((1 & mode) == 0))
   {
     ret_val=pthread_mutex_lock(&l_array[(signed long int)n]);
     if(!(ret_val == 0))
     {
-      return_value_strerror$1=strerror(ret_val);
-      logmsg(3, "l_lock lock(): %s", return_value_strerror$1);
+      return_value_strerror_1=strerror(ret_val);
+      logmsg(3, "l_lock lock(): %s", return_value_strerror_1);
     }
 
   }
@@ -12033,8 +12033,8 @@ static void l_lock(const signed int mode, const signed int n, const char *file, 
     ret_val=pthread_mutex_unlock(&l_array[(signed long int)n]);
     if(!(ret_val == 0))
     {
-      return_value_strerror$2=strerror(ret_val);
-      logmsg(3, "l_lock unlock(): %s", return_value_strerror$2);
+      return_value_strerror_2=strerror(ret_val);
+      logmsg(3, "l_lock unlock(): %s", return_value_strerror_2);
     }
 
   }
@@ -12126,9 +12126,9 @@ signed int main(const signed int argc, char **argv)
   signal(15, h_term);
   signal(3, h_term);
   signal(13, (void (*)(signed int))1);
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  srandom((unsigned int)return_value_getpid$1);
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  srandom((unsigned int)return_value_getpid_1);
   SSL_load_error_strings();
   SSL_library_init();
   OPENSSL_add_all_algorithms_noconf();
@@ -12137,59 +12137,59 @@ signed int main(const signed int argc, char **argv)
   CRYPTO_set_id_callback(l_id);
   CRYPTO_set_locking_callback(l_lock);
   init_timer();
-  signed int return_value_pcreposix_regcomp$2;
-  return_value_pcreposix_regcomp$2=pcreposix_regcomp(&HEADER, "^([a-z0-9!#$%&'*+.^_`|~-]+):[ \t]*(.*)[ \t]*$", 0x0001 | 0x0002 | 0);
-  _Bool tmp_if_expr$4;
-  signed int return_value_pcreposix_regcomp$3;
-  if(!(return_value_pcreposix_regcomp$2 == 0))
-    tmp_if_expr$4 = (_Bool)1;
+  signed int return_value_pcreposix_regcomp_2;
+  return_value_pcreposix_regcomp_2=pcreposix_regcomp(&HEADER, "^([a-z0-9!#_%&'*+.^_`|~-]+):[ \t]*(.*)[ \t]*_", 0x0001 | 0x0002 | 0);
+  _Bool tmp_if_expr_4;
+  signed int return_value_pcreposix_regcomp_3;
+  if(!(return_value_pcreposix_regcomp_2 == 0))
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$3=pcreposix_regcomp(&CHUNK_HEAD, "^([0-9a-f]+).*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$4 = return_value_pcreposix_regcomp$3 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_3=pcreposix_regcomp(&CHUNK_HEAD, "^([0-9a-f]+).*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_4 = return_value_pcreposix_regcomp_3 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  signed int return_value_pcreposix_regcomp$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_6;
+  signed int return_value_pcreposix_regcomp_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$5=pcreposix_regcomp(&RESP_SKIP, "^HTTP/1.1 100.*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$6 = return_value_pcreposix_regcomp$5 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_5=pcreposix_regcomp(&RESP_SKIP, "^HTTP/1.1 100.*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_6 = return_value_pcreposix_regcomp_5 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$8;
-  signed int return_value_pcreposix_regcomp$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$8 = (_Bool)1;
+  _Bool tmp_if_expr_8;
+  signed int return_value_pcreposix_regcomp_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$7=pcreposix_regcomp(&RESP_IGN, "^HTTP/1.[01] (10[1-9]|1[1-9][0-9]|204|30[456]).*$", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$8 = return_value_pcreposix_regcomp$7 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_7=pcreposix_regcomp(&RESP_IGN, "^HTTP/1.[01] (10[1-9]|1[1-9][0-9]|204|30[456]).*_", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_8 = return_value_pcreposix_regcomp_7 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$10;
-  signed int return_value_pcreposix_regcomp$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$10 = (_Bool)1;
+  _Bool tmp_if_expr_10;
+  signed int return_value_pcreposix_regcomp_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$9=pcreposix_regcomp(&LOCATION, "(http|https)://([^/]+)(.*)", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$10 = return_value_pcreposix_regcomp$9 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_9=pcreposix_regcomp(&LOCATION, "(http|https)://([^/]+)(.*)", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_10 = return_value_pcreposix_regcomp_9 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$12;
-  signed int return_value_pcreposix_regcomp$11;
-  if(tmp_if_expr$10)
-    tmp_if_expr$12 = (_Bool)1;
+  _Bool tmp_if_expr_12;
+  signed int return_value_pcreposix_regcomp_11;
+  if(tmp_if_expr_10)
+    tmp_if_expr_12 = (_Bool)1;
 
   else
   {
-    return_value_pcreposix_regcomp$11=pcreposix_regcomp(&AUTHORIZATION, "Authorization:[ \t]*Basic[ \t]*\"?([^ \t]*)\"?[ \t]*", 0x0001 | 0x0002 | 0);
-    tmp_if_expr$12 = return_value_pcreposix_regcomp$11 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pcreposix_regcomp_11=pcreposix_regcomp(&AUTHORIZATION, "Authorization:[ \t]*Basic[ \t]*\"?([^ \t]*)\"?[ \t]*", 0x0001 | 0x0002 | 0);
+    tmp_if_expr_12 = return_value_pcreposix_regcomp_11 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$12)
+  if(tmp_if_expr_12)
   {
     logmsg(3, "bad essential Regex - aborted");
     exit(1);
@@ -12209,23 +12209,23 @@ signed int main(const signed int argc, char **argv)
     control_sock=socket(1, 1, 0);
     if(!(control_sock >= 0))
     {
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      char *return_value_strerror$14;
-      return_value_strerror$14=strerror(*return_value___errno_location$13);
-      logmsg(3, "Control \"%s\" create: %s", (const void *)ctrl.sun_path, return_value_strerror$14);
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      char *return_value_strerror_14;
+      return_value_strerror_14=strerror(*return_value___errno_location_13);
+      logmsg(3, "Control \"%s\" create: %s", (const void *)ctrl.sun_path, return_value_strerror_14);
       exit(1);
     }
 
-    signed int return_value_bind$17;
-    return_value_bind$17=bind(control_sock, (struct sockaddr *)&ctrl, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-    if(!(return_value_bind$17 >= 0))
+    signed int return_value_bind_17;
+    return_value_bind_17=bind(control_sock, (struct sockaddr *)&ctrl, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+    if(!(return_value_bind_17 >= 0))
     {
-      signed int *return_value___errno_location$15;
-      return_value___errno_location$15=__errno_location();
-      char *return_value_strerror$16;
-      return_value_strerror$16=strerror(*return_value___errno_location$15);
-      logmsg(3, "Control \"%s\" bind: %s", (const void *)ctrl.sun_path, return_value_strerror$16);
+      signed int *return_value___errno_location_15;
+      return_value___errno_location_15=__errno_location();
+      char *return_value_strerror_16;
+      return_value_strerror_16=strerror(*return_value___errno_location_15);
+      logmsg(3, "Control \"%s\" bind: %s", (const void *)ctrl.sun_path, return_value_strerror_16);
       exit(1);
     }
 
@@ -12241,35 +12241,35 @@ signed int main(const signed int argc, char **argv)
     if(!(lstn->sock >= 0))
     {
       addr2str(tmp, 8192 - 1, &lstn->addr, 0);
-      signed int *return_value___errno_location$18;
-      return_value___errno_location$18=__errno_location();
-      char *return_value_strerror$19;
-      return_value_strerror$19=strerror(*return_value___errno_location$18);
-      logmsg(3, "HTTP socket %s create: %s - aborted", (const void *)tmp, return_value_strerror$19);
+      signed int *return_value___errno_location_18;
+      return_value___errno_location_18=__errno_location();
+      char *return_value_strerror_19;
+      return_value_strerror_19=strerror(*return_value___errno_location_18);
+      logmsg(3, "HTTP socket %s create: %s - aborted", (const void *)tmp, return_value_strerror_19);
       exit(1);
     }
 
     opt = 1;
     setsockopt(lstn->sock, 1, 2, (void *)&opt, (unsigned int)sizeof(signed int) /*4ul*/ );
-    signed int return_value_bind$22;
-    return_value_bind$22=bind(lstn->sock, lstn->addr.ai_addr, (unsigned int)lstn->addr.ai_addrlen);
-    if(!(return_value_bind$22 >= 0))
+    signed int return_value_bind_22;
+    return_value_bind_22=bind(lstn->sock, lstn->addr.ai_addr, (unsigned int)lstn->addr.ai_addrlen);
+    if(!(return_value_bind_22 >= 0))
     {
       addr2str(tmp, 8192 - 1, &lstn->addr, 0);
-      signed int *return_value___errno_location$20;
-      return_value___errno_location$20=__errno_location();
-      char *return_value_strerror$21;
-      return_value_strerror$21=strerror(*return_value___errno_location$20);
-      logmsg(3, "HTTP socket bind %s: %s - aborted", (const void *)tmp, return_value_strerror$21);
+      signed int *return_value___errno_location_20;
+      return_value___errno_location_20=__errno_location();
+      char *return_value_strerror_21;
+      return_value_strerror_21=strerror(*return_value___errno_location_20);
+      logmsg(3, "HTTP socket bind %s: %s - aborted", (const void *)tmp, return_value_strerror_21);
       exit(1);
     }
 
     listen(lstn->sock, 512);
     lstn = lstn->next;
   }
-  void *return_value_calloc$23;
-  return_value_calloc$23=calloc((unsigned long int)n_listeners, sizeof(struct pollfd) /*8ul*/ );
-  polls = (struct pollfd *)return_value_calloc$23;
+  void *return_value_calloc_23;
+  return_value_calloc_23=calloc((unsigned long int)n_listeners, sizeof(struct pollfd) /*8ul*/ );
+  polls = (struct pollfd *)return_value_calloc_23;
   if(polls == ((struct pollfd *)NULL))
   {
     logmsg(3, "Out of memory for poll - aborted");
@@ -12310,15 +12310,15 @@ signed int main(const signed int argc, char **argv)
   }
 
   print_log = 0;
-  signed int *return_value___errno_location$25;
-  char *return_value_strerror$26;
+  signed int *return_value___errno_location_25;
+  char *return_value_strerror_26;
   if(!(daemonize == 0))
   {
-    signed int return_value_fork$24;
-    return_value_fork$24=fork();
-    if(!(return_value_fork$24 == 0))
+    signed int return_value_fork_24;
+    return_value_fork_24=fork();
+    if(!(return_value_fork_24 == 0))
     {
-      if(return_value_fork$24 == -1)
+      if(return_value_fork_24 == -1)
         goto __CPROVER_DUMP_L29;
 
     }
@@ -12336,9 +12336,9 @@ signed int main(const signed int argc, char **argv)
 
     __CPROVER_DUMP_L29:
       ;
-      return_value___errno_location$25=__errno_location();
-      return_value_strerror$26=strerror(*return_value___errno_location$25);
-      logmsg(3, "fork: %s - aborted", return_value_strerror$26);
+      return_value___errno_location_25=__errno_location();
+      return_value_strerror_26=strerror(*return_value___errno_location_25);
+      logmsg(3, "fork: %s - aborted", return_value_strerror_26);
       exit(1);
     }
     exit(0);
@@ -12349,105 +12349,105 @@ signed int main(const signed int argc, char **argv)
   }
 
   fpid=fopen(pid_name, "wt");
-  signed int *return_value___errno_location$28;
-  char *return_value_strerror$29;
+  signed int *return_value___errno_location_28;
+  char *return_value_strerror_29;
   if(!(fpid == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_getpid$27;
-    return_value_getpid$27=getpid();
-    fprintf(fpid, "%d\n", return_value_getpid$27);
+    signed int return_value_getpid_27;
+    return_value_getpid_27=getpid();
+    fprintf(fpid, "%d\n", return_value_getpid_27);
     fclose(fpid);
   }
 
   else
   {
-    return_value___errno_location$28=__errno_location();
-    return_value_strerror$29=strerror(*return_value___errno_location$28);
-    logmsg(5, "Create \"%s\": %s", pid_name, return_value_strerror$29);
+    return_value___errno_location_28=__errno_location();
+    return_value_strerror_29=strerror(*return_value___errno_location_28);
+    logmsg(5, "Create \"%s\": %s", pid_name, return_value_strerror_29);
   }
   if(!(root_jail == ((char *)NULL)))
   {
-    signed int return_value_chroot$32;
-    return_value_chroot$32=chroot(root_jail);
-    if(!(return_value_chroot$32 == 0))
+    signed int return_value_chroot_32;
+    return_value_chroot_32=chroot(root_jail);
+    if(!(return_value_chroot_32 == 0))
     {
-      signed int *return_value___errno_location$30;
-      return_value___errno_location$30=__errno_location();
-      char *return_value_strerror$31;
-      return_value_strerror$31=strerror(*return_value___errno_location$30);
-      logmsg(3, "chroot: %s - aborted", return_value_strerror$31);
+      signed int *return_value___errno_location_30;
+      return_value___errno_location_30=__errno_location();
+      char *return_value_strerror_31;
+      return_value_strerror_31=strerror(*return_value___errno_location_30);
+      logmsg(3, "chroot: %s - aborted", return_value_strerror_31);
       exit(1);
     }
 
-    signed int return_value_chdir$35;
-    return_value_chdir$35=chdir("/");
-    if(!(return_value_chdir$35 == 0))
+    signed int return_value_chdir_35;
+    return_value_chdir_35=chdir("/");
+    if(!(return_value_chdir_35 == 0))
     {
-      signed int *return_value___errno_location$33;
-      return_value___errno_location$33=__errno_location();
-      char *return_value_strerror$34;
-      return_value_strerror$34=strerror(*return_value___errno_location$33);
-      logmsg(3, "chroot/chdir: %s - aborted", return_value_strerror$34);
+      signed int *return_value___errno_location_33;
+      return_value___errno_location_33=__errno_location();
+      char *return_value_strerror_34;
+      return_value_strerror_34=strerror(*return_value___errno_location_33);
+      logmsg(3, "chroot/chdir: %s - aborted", return_value_strerror_34);
       exit(1);
     }
 
   }
 
-  signed int return_value_setgid$38;
-  _Bool tmp_if_expr$40;
-  signed int return_value_setegid$39;
+  signed int return_value_setgid_38;
+  _Bool tmp_if_expr_40;
+  signed int return_value_setegid_39;
   if(!(group == ((char *)NULL)))
   {
-    return_value_setgid$38=setgid(group_id);
-    if(!(return_value_setgid$38 == 0))
-      tmp_if_expr$40 = (_Bool)1;
+    return_value_setgid_38=setgid(group_id);
+    if(!(return_value_setgid_38 == 0))
+      tmp_if_expr_40 = (_Bool)1;
 
     else
     {
-      return_value_setegid$39=setegid(group_id);
-      tmp_if_expr$40 = return_value_setegid$39 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_setegid_39=setegid(group_id);
+      tmp_if_expr_40 = return_value_setegid_39 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$40)
+    if(tmp_if_expr_40)
     {
-      signed int *return_value___errno_location$36;
-      return_value___errno_location$36=__errno_location();
-      char *return_value_strerror$37;
-      return_value_strerror$37=strerror(*return_value___errno_location$36);
-      logmsg(3, "setgid: %s - aborted", return_value_strerror$37);
+      signed int *return_value___errno_location_36;
+      return_value___errno_location_36=__errno_location();
+      char *return_value_strerror_37;
+      return_value_strerror_37=strerror(*return_value___errno_location_36);
+      logmsg(3, "setgid: %s - aborted", return_value_strerror_37);
       exit(1);
     }
 
   }
 
-  signed int return_value_setuid$43;
-  _Bool tmp_if_expr$45;
-  signed int return_value_seteuid$44;
+  signed int return_value_setuid_43;
+  _Bool tmp_if_expr_45;
+  signed int return_value_seteuid_44;
   if(!(user == ((char *)NULL)))
   {
-    return_value_setuid$43=setuid(user_id);
-    if(!(return_value_setuid$43 == 0))
-      tmp_if_expr$45 = (_Bool)1;
+    return_value_setuid_43=setuid(user_id);
+    if(!(return_value_setuid_43 == 0))
+      tmp_if_expr_45 = (_Bool)1;
 
     else
     {
-      return_value_seteuid$44=seteuid(user_id);
-      tmp_if_expr$45 = return_value_seteuid$44 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_seteuid_44=seteuid(user_id);
+      tmp_if_expr_45 = return_value_seteuid_44 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$45)
+    if(tmp_if_expr_45)
     {
-      signed int *return_value___errno_location$41;
-      return_value___errno_location$41=__errno_location();
-      char *return_value_strerror$42;
-      return_value_strerror$42=strerror(*return_value___errno_location$41);
-      logmsg(3, "setuid: %s - aborted", return_value_strerror$42);
+      signed int *return_value___errno_location_41;
+      return_value___errno_location_41=__errno_location();
+      char *return_value_strerror_42;
+      return_value_strerror_42=strerror(*return_value___errno_location_41);
+      logmsg(3, "setuid: %s - aborted", return_value_strerror_42);
       exit(1);
     }
 
   }
 
-  signed int return_value_pthread_create$52;
-  signed int return_value_pthread_create$55;
-  _Bool tmp_if_expr$62;
+  signed int return_value_pthread_create_52;
+  signed int return_value_pthread_create_55;
+  _Bool tmp_if_expr_62;
   do
   {
     son=fork();
@@ -12456,7 +12456,7 @@ signed int main(const signed int argc, char **argv)
       signed int status;
       wait(&status);
       /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$21
+union anonymous_21
 {
   // __in
   signed int __in;
@@ -12467,11 +12467,11 @@ union anonymous$21
 /* */
       ;
       if((0x7f & status) == 0)
-        logmsg(3, "MONITOR: worker exited normally %d, restarting...", (((union anonymous$21){ .__in=status }).__i & 0xff00) >> 8);
+        logmsg(3, "MONITOR: worker exited normally %d, restarting...", (((union anonymous_21){ .__in=status }).__i & 0xff00) >> 8);
 
       else
         if((signed int)((127 & (signed char)status) + 1) >> 1 >= 1)
-          logmsg(3, "MONITOR: worker exited on signal %d, restarting...", ((union anonymous$21){ .__in=status }).__i & 0x7f);
+          logmsg(3, "MONITOR: worker exited on signal %d, restarting...", ((union anonymous_21){ .__in=status }).__i & 0x7f);
 
         else
           logmsg(3, "MONITOR: worker exited (stopped?) %d, restarting...", status);
@@ -12482,36 +12482,36 @@ union anonymous$21
       {
         pthread_attr_init(&attr);
         pthread_attr_setdetachstate(&attr, 1);
-        signed int return_value_pthread_attr_setstacksize$46;
-        return_value_pthread_attr_setstacksize$46=pthread_attr_setstacksize(&attr, (unsigned long int)(1 << 18));
-        if(!(return_value_pthread_attr_setstacksize$46 == 0))
+        signed int return_value_pthread_attr_setstacksize_46;
+        return_value_pthread_attr_setstacksize_46=pthread_attr_setstacksize(&attr, (unsigned long int)(1 << 18));
+        if(!(return_value_pthread_attr_setstacksize_46 == 0))
         {
           logmsg(3, "can't set stack size - aborted");
           exit(1);
         }
 
-        signed int return_value_pthread_create$49;
-        return_value_pthread_create$49=pthread_create(&thr, &attr, thr_timer, (void *)0);
-        if(!(return_value_pthread_create$49 == 0))
+        signed int return_value_pthread_create_49;
+        return_value_pthread_create_49=pthread_create(&thr, &attr, thr_timer, (void *)0);
+        if(!(return_value_pthread_create_49 == 0))
         {
-          signed int *return_value___errno_location$47;
-          return_value___errno_location$47=__errno_location();
-          char *return_value_strerror$48;
-          return_value_strerror$48=strerror(*return_value___errno_location$47);
-          logmsg(3, "create thr_resurect: %s - aborted", return_value_strerror$48);
+          signed int *return_value___errno_location_47;
+          return_value___errno_location_47=__errno_location();
+          char *return_value_strerror_48;
+          return_value_strerror_48=strerror(*return_value___errno_location_47);
+          logmsg(3, "create thr_resurect: %s - aborted", return_value_strerror_48);
           exit(1);
         }
 
         if(control_sock >= 0)
         {
-          return_value_pthread_create$52=pthread_create(&thr, &attr, thr_control, (void *)0);
-          if(!(return_value_pthread_create$52 == 0))
+          return_value_pthread_create_52=pthread_create(&thr, &attr, thr_control, (void *)0);
+          if(!(return_value_pthread_create_52 == 0))
           {
-            signed int *return_value___errno_location$50;
-            return_value___errno_location$50=__errno_location();
-            char *return_value_strerror$51;
-            return_value_strerror$51=strerror(*return_value___errno_location$50);
-            logmsg(3, "create thr_control: %s - aborted", return_value_strerror$51);
+            signed int *return_value___errno_location_50;
+            return_value___errno_location_50=__errno_location();
+            char *return_value_strerror_51;
+            return_value_strerror_51=strerror(*return_value___errno_location_50);
+            logmsg(3, "create thr_control: %s - aborted", return_value_strerror_51);
             exit(1);
           }
 
@@ -12521,14 +12521,14 @@ union anonymous$21
         i = 0;
         for( ; !(i >= numthreads); i = i + 1)
         {
-          return_value_pthread_create$55=pthread_create(&thr, &attr, thr_http, (void *)0);
-          if(!(return_value_pthread_create$55 == 0))
+          return_value_pthread_create_55=pthread_create(&thr, &attr, thr_http, (void *)0);
+          if(!(return_value_pthread_create_55 == 0))
           {
-            signed int *return_value___errno_location$53;
-            return_value___errno_location$53=__errno_location();
-            char *return_value_strerror$54;
-            return_value_strerror$54=strerror(*return_value___errno_location$53);
-            logmsg(3, "create thr_http: %s - aborted", return_value_strerror$54);
+            signed int *return_value___errno_location_53;
+            return_value___errno_location_53=__errno_location();
+            char *return_value_strerror_54;
+            return_value_strerror_54=strerror(*return_value___errno_location_53);
+            logmsg(3, "create thr_http: %s - aborted", return_value_strerror_54);
             exit(1);
           }
 
@@ -12562,15 +12562,15 @@ union anonymous$21
             (polls + (signed long int)i)->revents = (signed short int)0;
             lstn = lstn->next;
           }
-          signed int return_value_poll$63;
-          return_value_poll$63=poll(polls, (unsigned long int)n_listeners, -1);
-          if(!(return_value_poll$63 >= 0))
+          signed int return_value_poll_63;
+          return_value_poll_63=poll(polls, (unsigned long int)n_listeners, -1);
+          if(!(return_value_poll_63 >= 0))
           {
-            signed int *return_value___errno_location$56;
-            return_value___errno_location$56=__errno_location();
-            char *return_value_strerror$57;
-            return_value_strerror$57=strerror(*return_value___errno_location$56);
-            logmsg(4, "poll: %s", return_value_strerror$57);
+            signed int *return_value___errno_location_56;
+            return_value___errno_location_56=__errno_location();
+            char *return_value_strerror_57;
+            return_value_strerror_57=strerror(*return_value___errno_location_56);
+            logmsg(4, "poll: %s", return_value_strerror_57);
           }
 
           else
@@ -12586,21 +12586,21 @@ union anonymous$21
                 clnt=accept(lstn->sock, (struct sockaddr *)&clnt_addr, (unsigned int *)&clnt_length);
                 if(!(clnt >= 0))
                 {
-                  signed int *return_value___errno_location$58;
-                  return_value___errno_location$58=__errno_location();
-                  char *return_value_strerror$59;
-                  return_value_strerror$59=strerror(*return_value___errno_location$58);
-                  logmsg(4, "HTTP accept: %s", return_value_strerror$59);
+                  signed int *return_value___errno_location_58;
+                  return_value___errno_location_58=__errno_location();
+                  char *return_value_strerror_59;
+                  return_value_strerror_59=strerror(*return_value___errno_location_58);
+                  logmsg(4, "HTTP accept: %s", return_value_strerror_59);
                 }
 
                 else
                 {
                   if((signed int)((struct sockaddr_in *)&clnt_addr)->sin_family == 2)
-                    tmp_if_expr$62 = (_Bool)1;
+                    tmp_if_expr_62 = (_Bool)1;
 
                   else
-                    tmp_if_expr$62 = (signed int)((struct sockaddr_in *)&clnt_addr)->sin_family == 10 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$62)
+                    tmp_if_expr_62 = (signed int)((struct sockaddr_in *)&clnt_addr)->sin_family == 10 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_62)
                   {
                     struct _thr_arg arg;
                     if(!(lstn->disabled == 0))
@@ -12608,9 +12608,9 @@ union anonymous$21
 
                     arg.sock = clnt;
                     arg.lstn = lstn;
-                    void *return_value_malloc$60;
-                    return_value_malloc$60=malloc((unsigned long int)clnt_length);
-                    arg.from_host.ai_addr = (struct sockaddr *)return_value_malloc$60;
+                    void *return_value_malloc_60;
+                    return_value_malloc_60=malloc((unsigned long int)clnt_length);
+                    arg.from_host.ai_addr = (struct sockaddr *)return_value_malloc_60;
                     if(arg.from_host.ai_addr == ((struct sockaddr *)NULL))
                     {
                       logmsg(4, "HTTP arg address: malloc");
@@ -12625,9 +12625,9 @@ union anonymous$21
 
                     else
                       arg.from_host.ai_family = 10;
-                    signed int return_value_put_thr_arg$61;
-                    return_value_put_thr_arg$61=put_thr_arg(&arg);
-                    if(!(return_value_put_thr_arg$61 == 0))
+                    signed int return_value_put_thr_arg_61;
+                    return_value_put_thr_arg_61=put_thr_arg(&arg);
+                    if(!(return_value_put_thr_arg_61 == 0))
                       close(clnt);
 
                   }
@@ -12651,11 +12651,11 @@ union anonymous$21
 
       else
       {
-        signed int *return_value___errno_location$64;
-        return_value___errno_location$64=__errno_location();
-        char *return_value_strerror$65;
-        return_value_strerror$65=strerror(*return_value___errno_location$64);
-        logmsg(3, "Can't fork worker (%s) - aborted", return_value_strerror$65);
+        signed int *return_value___errno_location_64;
+        return_value___errno_location_64=__errno_location();
+        char *return_value_strerror_65;
+        return_value_strerror_65=strerror(*return_value___errno_location_64);
+        logmsg(3, "Can't fork worker (%s) - aborted", return_value_strerror_65);
         exit(1);
       }
   }
@@ -12670,16 +12670,16 @@ static signed int match_service(const struct _service *svc, const char *request,
   signed int i;
   signed int found;
   m = svc->url;
-  signed int return_value_pcreposix_regexec$1;
+  signed int return_value_pcreposix_regexec_1;
   for( ; !(m == ((struct _matcher *)NULL)); m = m->next)
   {
-    return_value_pcreposix_regexec$1=pcreposix_regexec(&m->pat, request, (unsigned long int)0, (struct anonymous$4 *)(void *)0, 0);
-    if(!(return_value_pcreposix_regexec$1 == 0))
+    return_value_pcreposix_regexec_1=pcreposix_regexec(&m->pat, request, (unsigned long int)0, (struct anonymous_4 *)(void *)0, 0);
+    if(!(return_value_pcreposix_regexec_1 == 0))
       return 0;
 
   }
   m = svc->req_head;
-  signed int return_value_pcreposix_regexec$2;
+  signed int return_value_pcreposix_regexec_2;
   for( ; !(m == ((struct _matcher *)NULL)); m = m->next)
   {
     i = 0;
@@ -12687,8 +12687,8 @@ static signed int match_service(const struct _service *svc, const char *request,
     for( ; found == 0 && !(i >= 128); i = i + 1)
       if(!(headers[(signed long int)i] == ((char *)NULL)))
       {
-        return_value_pcreposix_regexec$2=pcreposix_regexec(&m->pat, headers[(signed long int)i], (unsigned long int)0, (struct anonymous$4 *)(void *)0, 0);
-        if(return_value_pcreposix_regexec$2 == 0)
+        return_value_pcreposix_regexec_2=pcreposix_regexec(&m->pat, headers[(signed long int)i], (unsigned long int)0, (struct anonymous_4 *)(void *)0, 0);
+        if(return_value_pcreposix_regexec_2 == 0)
           found = 1;
 
       }
@@ -12698,7 +12698,7 @@ static signed int match_service(const struct _service *svc, const char *request,
 
   }
   m = svc->deny_head;
-  signed int return_value_pcreposix_regexec$3;
+  signed int return_value_pcreposix_regexec_3;
   for( ; !(m == ((struct _matcher *)NULL)); m = m->next)
   {
     i = 0;
@@ -12706,8 +12706,8 @@ static signed int match_service(const struct _service *svc, const char *request,
     for( ; found == 0 && !(i >= 128); i = i + 1)
       if(!(headers[(signed long int)i] == ((char *)NULL)))
       {
-        return_value_pcreposix_regexec$3=pcreposix_regexec(&m->pat, headers[(signed long int)i], (unsigned long int)0, (struct anonymous$4 *)(void *)0, 0);
-        if(return_value_pcreposix_regexec$3 == 0)
+        return_value_pcreposix_regexec_3=pcreposix_regexec(&m->pat, headers[(signed long int)i], (unsigned long int)0, (struct anonymous_4 *)(void *)0, 0);
+        if(return_value_pcreposix_regexec_3 == 0)
           found = 1;
 
       }
@@ -12728,31 +12728,31 @@ extern signed int need_rewrite(const signed int rewr_loc, char * const location,
   struct sockaddr_in be_addr;
   struct sockaddr_in6 in6_addr;
   struct sockaddr_in6 be6_addr;
-  struct anonymous$4 need_rewrite$$1$$matches[4l];
+  struct anonymous_4 need_rewrite__1__matches[4l];
   char *proto;
   char *host;
   char *port;
   char *cp;
   char buf[8192l];
   signed int ret_val;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_memcmp$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcasecmp$5;
-  _Bool tmp_if_expr$15;
-  signed int return_value_strcasecmp$14;
-  signed int return_value_memcmp$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcasecmp$11;
-  _Bool tmp_if_expr$16;
-  signed int return_value_memcmp$17;
-  _Bool tmp_if_expr$19;
-  signed int return_value_strcasecmp$18;
-  signed int return_value_memcmp$21;
-  _Bool tmp_if_expr$23;
-  signed int return_value_strcasecmp$22;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_memcmp_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcasecmp_5;
+  _Bool tmp_if_expr_15;
+  signed int return_value_strcasecmp_14;
+  signed int return_value_memcmp_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcasecmp_11;
+  _Bool tmp_if_expr_16;
+  signed int return_value_memcmp_17;
+  _Bool tmp_if_expr_19;
+  signed int return_value_strcasecmp_18;
+  signed int return_value_memcmp_21;
+  _Bool tmp_if_expr_23;
+  signed int return_value_strcasecmp_22;
   if(rewr_loc == 0)
     return 0;
 
@@ -12770,33 +12770,33 @@ extern signed int need_rewrite(const signed int rewr_loc, char * const location,
 
     __CPROVER_DUMP_L2:
       ;
-      signed int return_value_pcreposix_regexec$1;
-      return_value_pcreposix_regexec$1=pcreposix_regexec(&LOCATION, location, (unsigned long int)4, need_rewrite$$1$$matches, 0);
-      if(!(return_value_pcreposix_regexec$1 == 0))
+      signed int return_value_pcreposix_regexec_1;
+      return_value_pcreposix_regexec_1=pcreposix_regexec(&LOCATION, location, (unsigned long int)4, need_rewrite__1__matches, 0);
+      if(!(return_value_pcreposix_regexec_1 == 0))
         return 0;
 
       else
       {
-        proto = location + (signed long int)need_rewrite$$1$$matches[(signed long int)1].rm_so;
-        host = location + (signed long int)need_rewrite$$1$$matches[(signed long int)2].rm_so;
-        if((signed int)location[(signed long int)need_rewrite$$1$$matches[3l].rm_so] == 47)
-          need_rewrite$$1$$matches[(signed long int)3].rm_so = need_rewrite$$1$$matches[(signed long int)3].rm_so + 1;
+        proto = location + (signed long int)need_rewrite__1__matches[(signed long int)1].rm_so;
+        host = location + (signed long int)need_rewrite__1__matches[(signed long int)2].rm_so;
+        if((signed int)location[(signed long int)need_rewrite__1__matches[3l].rm_so] == 47)
+          need_rewrite__1__matches[(signed long int)3].rm_so = need_rewrite__1__matches[(signed long int)3].rm_so + 1;
 
-        strcpy(path, location + (signed long int)need_rewrite$$1$$matches[(signed long int)3].rm_so);
-        location[(signed long int)need_rewrite$$1$$matches[(signed long int)2].rm_eo] = (char)0;
-        location[(signed long int)need_rewrite$$1$$matches[(signed long int)1].rm_eo] = location[(signed long int)need_rewrite$$1$$matches[(signed long int)2].rm_eo];
+        strcpy(path, location + (signed long int)need_rewrite__1__matches[(signed long int)3].rm_so);
+        location[(signed long int)need_rewrite__1__matches[(signed long int)2].rm_eo] = (char)0;
+        location[(signed long int)need_rewrite__1__matches[(signed long int)1].rm_eo] = location[(signed long int)need_rewrite__1__matches[(signed long int)2].rm_eo];
         port=strchr(host, 58);
         if(!(port == ((char *)NULL)))
         {
-          tmp_post$2 = port;
+          tmp_post_2 = port;
           port = port + 1l;
-          *tmp_post$2 = (char)0;
+          *tmp_post_2 = (char)0;
         }
 
         memset((void *)&addr, 0, sizeof(struct addrinfo) /*48ul*/ );
-        signed int return_value_get_host$3;
-        return_value_get_host$3=get_host(host, &addr);
-        if(!(return_value_get_host$3 == 0))
+        signed int return_value_get_host_3;
+        return_value_get_host_3=get_host(host, &addr);
+        if(!(return_value_get_host_3 == 0))
           return 0;
 
         else
@@ -12817,28 +12817,28 @@ extern signed int need_rewrite(const signed int rewr_loc, char * const location,
             if(addr.ai_family == 2)
             {
               memcpy((void *)&be_addr, (const void *)lstn->addr.ai_addr, sizeof(struct sockaddr_in) /*16ul*/ );
-              signed int return_value_memcmp$7;
-              return_value_memcmp$7=memcmp((const void *)&be_addr.sin_addr.s_addr, (const void *)&in_addr.sin_addr.s_addr, sizeof(unsigned int) /*4ul*/ );
-              if(return_value_memcmp$7 == 0)
-                tmp_if_expr$9 = (_Bool)1;
+              signed int return_value_memcmp_7;
+              return_value_memcmp_7=memcmp((const void *)&be_addr.sin_addr.s_addr, (const void *)&in_addr.sin_addr.s_addr, sizeof(unsigned int) /*4ul*/ );
+              if(return_value_memcmp_7 == 0)
+                tmp_if_expr_9 = (_Bool)1;
 
               else
               {
-                return_value_strcasecmp$8=strcasecmp(host, buf);
-                tmp_if_expr$9 = return_value_strcasecmp$8 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_strcasecmp_8=strcasecmp(host, buf);
+                tmp_if_expr_9 = return_value_strcasecmp_8 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$9)
+              if(tmp_if_expr_9)
               {
-                return_value_memcmp$4=memcmp((const void *)&be_addr.sin_port, (const void *)&in_addr.sin_port, sizeof(unsigned short int) /*2ul*/ );
-                if(!(return_value_memcmp$4 == 0))
-                  tmp_if_expr$6 = (_Bool)1;
+                return_value_memcmp_4=memcmp((const void *)&be_addr.sin_port, (const void *)&in_addr.sin_port, sizeof(unsigned short int) /*2ul*/ );
+                if(!(return_value_memcmp_4 == 0))
+                  tmp_if_expr_6 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcasecmp$5=strcasecmp(proto, lstn->ctx == (struct _pound_ctx *)(void *)0 ? "http" : "https");
-                  tmp_if_expr$6 = return_value_strcasecmp$5 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcasecmp_5=strcasecmp(proto, lstn->ctx == (struct _pound_ctx *)(void *)0 ? "http" : "https");
+                  tmp_if_expr_6 = return_value_strcasecmp_5 != 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$6)
+                if(tmp_if_expr_6)
                 {
                   free((void *)addr.ai_addr);
                   return 1;
@@ -12851,28 +12851,28 @@ extern signed int need_rewrite(const signed int rewr_loc, char * const location,
             else
             {
               memcpy((void *)&be6_addr, (const void *)lstn->addr.ai_addr, sizeof(struct sockaddr_in6) /*28ul*/ );
-              signed int return_value_memcmp$13;
-              return_value_memcmp$13=memcmp((const void *)&be6_addr.sin6_addr.__in6_u.__u6_addr8, (const void *)&in6_addr.sin6_addr.__in6_u.__u6_addr8, sizeof(unsigned char [16l]) /*16ul*/ );
-              if(return_value_memcmp$13 == 0)
-                tmp_if_expr$15 = (_Bool)1;
+              signed int return_value_memcmp_13;
+              return_value_memcmp_13=memcmp((const void *)&be6_addr.sin6_addr.__in6_u.__u6_addr8, (const void *)&in6_addr.sin6_addr.__in6_u.__u6_addr8, sizeof(unsigned char [16l]) /*16ul*/ );
+              if(return_value_memcmp_13 == 0)
+                tmp_if_expr_15 = (_Bool)1;
 
               else
               {
-                return_value_strcasecmp$14=strcasecmp(host, buf);
-                tmp_if_expr$15 = return_value_strcasecmp$14 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_strcasecmp_14=strcasecmp(host, buf);
+                tmp_if_expr_15 = return_value_strcasecmp_14 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$15)
+              if(tmp_if_expr_15)
               {
-                return_value_memcmp$10=memcmp((const void *)&be6_addr.sin6_port, (const void *)&in6_addr.sin6_port, sizeof(unsigned short int) /*2ul*/ );
-                if(!(return_value_memcmp$10 == 0))
-                  tmp_if_expr$12 = (_Bool)1;
+                return_value_memcmp_10=memcmp((const void *)&be6_addr.sin6_port, (const void *)&in6_addr.sin6_port, sizeof(unsigned short int) /*2ul*/ );
+                if(!(return_value_memcmp_10 == 0))
+                  tmp_if_expr_12 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcasecmp$11=strcasecmp(proto, lstn->ctx == (struct _pound_ctx *)(void *)0 ? "http" : "https");
-                  tmp_if_expr$12 = return_value_strcasecmp$11 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcasecmp_11=strcasecmp(proto, lstn->ctx == (struct _pound_ctx *)(void *)0 ? "http" : "https");
+                  tmp_if_expr_12 = return_value_strcasecmp_11 != 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$12)
+                if(tmp_if_expr_12)
                 {
                   free((void *)addr.ai_addr);
                   return 1;
@@ -12882,11 +12882,11 @@ extern signed int need_rewrite(const signed int rewr_loc, char * const location,
 
             }
             if(!(rewr_loc == 1))
-              tmp_if_expr$16 = (_Bool)1;
+              tmp_if_expr_16 = (_Bool)1;
 
             else
-              tmp_if_expr$16 = addr.ai_family != lstn->addr.ai_family ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$16)
+              tmp_if_expr_16 = addr.ai_family != lstn->addr.ai_family ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_16)
             {
               free((void *)addr.ai_addr);
               return 0;
@@ -12898,20 +12898,20 @@ extern signed int need_rewrite(const signed int rewr_loc, char * const location,
               {
                 memcpy((void *)&in_addr, (const void *)addr.ai_addr, sizeof(struct sockaddr_in) /*16ul*/ );
                 memcpy((void *)&be_addr, (const void *)lstn->addr.ai_addr, sizeof(struct sockaddr_in) /*16ul*/ );
-                signed int return_value_memcmp$20;
-                return_value_memcmp$20=memcmp((const void *)&be_addr.sin_addr.s_addr, (const void *)&in_addr.sin_addr.s_addr, sizeof(unsigned int) /*4ul*/ );
-                if(return_value_memcmp$20 == 0)
+                signed int return_value_memcmp_20;
+                return_value_memcmp_20=memcmp((const void *)&be_addr.sin_addr.s_addr, (const void *)&in_addr.sin_addr.s_addr, sizeof(unsigned int) /*4ul*/ );
+                if(return_value_memcmp_20 == 0)
                 {
-                  return_value_memcmp$17=memcmp((const void *)&be_addr.sin_port, (const void *)&in_addr.sin_port, sizeof(unsigned short int) /*2ul*/ );
-                  if(!(return_value_memcmp$17 == 0))
-                    tmp_if_expr$19 = (_Bool)1;
+                  return_value_memcmp_17=memcmp((const void *)&be_addr.sin_port, (const void *)&in_addr.sin_port, sizeof(unsigned short int) /*2ul*/ );
+                  if(!(return_value_memcmp_17 == 0))
+                    tmp_if_expr_19 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcasecmp$18=strcasecmp(proto, lstn->ctx != ((struct _pound_ctx *)NULL) ? "http" : "https");
-                    tmp_if_expr$19 = return_value_strcasecmp$18 != 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcasecmp_18=strcasecmp(proto, lstn->ctx != ((struct _pound_ctx *)NULL) ? "http" : "https");
+                    tmp_if_expr_19 = return_value_strcasecmp_18 != 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$19)
+                  if(tmp_if_expr_19)
                   {
                     free((void *)addr.ai_addr);
                     return 1;
@@ -12925,20 +12925,20 @@ extern signed int need_rewrite(const signed int rewr_loc, char * const location,
               {
                 memcpy((void *)&in6_addr, (const void *)addr.ai_addr, sizeof(struct sockaddr_in6) /*28ul*/ );
                 memcpy((void *)&be6_addr, (const void *)lstn->addr.ai_addr, sizeof(struct sockaddr_in6) /*28ul*/ );
-                signed int return_value_memcmp$24;
-                return_value_memcmp$24=memcmp((const void *)&be6_addr.sin6_addr.__in6_u.__u6_addr8, (const void *)&in6_addr.sin6_addr.__in6_u.__u6_addr8, sizeof(unsigned char [16l]) /*16ul*/ );
-                if(return_value_memcmp$24 == 0)
+                signed int return_value_memcmp_24;
+                return_value_memcmp_24=memcmp((const void *)&be6_addr.sin6_addr.__in6_u.__u6_addr8, (const void *)&in6_addr.sin6_addr.__in6_u.__u6_addr8, sizeof(unsigned char [16l]) /*16ul*/ );
+                if(return_value_memcmp_24 == 0)
                 {
-                  return_value_memcmp$21=memcmp((const void *)&be6_addr.sin6_port, (const void *)&in6_addr.sin6_port, sizeof(unsigned short int) /*2ul*/ );
-                  if(!(return_value_memcmp$21 == 0))
-                    tmp_if_expr$23 = (_Bool)1;
+                  return_value_memcmp_21=memcmp((const void *)&be6_addr.sin6_port, (const void *)&in6_addr.sin6_port, sizeof(unsigned short int) /*2ul*/ );
+                  if(!(return_value_memcmp_21 == 0))
+                    tmp_if_expr_23 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcasecmp$22=strcasecmp(proto, lstn->ctx != ((struct _pound_ctx *)NULL) ? "http" : "https");
-                    tmp_if_expr$23 = return_value_strcasecmp$22 != 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcasecmp_22=strcasecmp(proto, lstn->ctx != ((struct _pound_ctx *)NULL) ? "http" : "https");
+                    tmp_if_expr_23 = return_value_strcasecmp_22 != 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$23)
+                  if(tmp_if_expr_23)
                   {
                     free((void *)addr.ai_addr);
                     return 1;
@@ -12967,9 +12967,9 @@ static struct _listener * parse_HTTP(void)
   signed int has_port;
   struct sockaddr_in in;
   struct sockaddr_in6 in6;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _listener) /*232ul*/ );
-  res = (struct _listener *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _listener) /*232ul*/ );
+  res = (struct _listener *)return_value_malloc_1;
   if(res == ((struct _listener *)NULL))
     conf_err("ListenHTTP config: out of memory - aborted");
 
@@ -12981,63 +12981,63 @@ static struct _listener * parse_HTTP(void)
   res->err501 = "This method may not be used.";
   res->err503 = "The service is not available. Please try again later.";
   res->log_level = log_level;
-  signed int return_value_pcreposix_regcomp$2;
-  return_value_pcreposix_regcomp$2=pcreposix_regcomp(&res->verb, xhttp[(signed long int)0], 0x0001 | 0x0002 | 0);
-  if(!(return_value_pcreposix_regcomp$2 == 0))
+  signed int return_value_pcreposix_regcomp_2;
+  return_value_pcreposix_regcomp_2=pcreposix_regcomp(&res->verb, xhttp[(signed long int)0], 0x0001 | 0x0002 | 0);
+  if(!(return_value_pcreposix_regcomp_2 == 0))
     conf_err("xHTTP bad default pattern - aborted");
 
   has_port = 0;
   has_addr = has_port;
-  char *return_value_conf_fgets$3;
-  unsigned long int return_value_strlen$5;
-  unsigned long int return_value_strlen$4;
-  signed int return_value_pcreposix_regexec$35;
-  signed int return_value_atoi$8;
-  unsigned short int return_value_htons$9;
-  signed int return_value_atoi$10;
-  signed int return_value_pcreposix_regexec$34;
-  signed int return_value_pcreposix_regexec$33;
-  signed int return_value_pcreposix_regexec$32;
-  signed int return_value_pcreposix_regexec$31;
-  signed int return_value_pcreposix_regexec$30;
-  signed int return_value_pcreposix_regexec$29;
-  signed int return_value_pcreposix_regexec$28;
-  signed int return_value_pcreposix_regexec$27;
-  signed int return_value_pcreposix_regexec$26;
-  signed int return_value_pcreposix_regexec$25;
-  signed int return_value_pcreposix_regexec$24;
-  signed int return_value_pcreposix_regexec$23;
-  signed int return_value_pcreposix_regexec$22;
-  signed int return_value_pcreposix_regexec$21;
-  signed int return_value_pcreposix_regexec$20;
-  signed int return_value_pcreposix_regexec$19;
+  char *return_value_conf_fgets_3;
+  unsigned long int return_value_strlen_5;
+  unsigned long int return_value_strlen_4;
+  signed int return_value_pcreposix_regexec_35;
+  signed int return_value_atoi_8;
+  unsigned short int return_value_htons_9;
+  signed int return_value_atoi_10;
+  signed int return_value_pcreposix_regexec_34;
+  signed int return_value_pcreposix_regexec_33;
+  signed int return_value_pcreposix_regexec_32;
+  signed int return_value_pcreposix_regexec_31;
+  signed int return_value_pcreposix_regexec_30;
+  signed int return_value_pcreposix_regexec_29;
+  signed int return_value_pcreposix_regexec_28;
+  signed int return_value_pcreposix_regexec_27;
+  signed int return_value_pcreposix_regexec_26;
+  signed int return_value_pcreposix_regexec_25;
+  signed int return_value_pcreposix_regexec_24;
+  signed int return_value_pcreposix_regexec_23;
+  signed int return_value_pcreposix_regexec_22;
+  signed int return_value_pcreposix_regexec_21;
+  signed int return_value_pcreposix_regexec_20;
+  signed int return_value_pcreposix_regexec_19;
   do
   {
-    return_value_conf_fgets$3=conf_fgets(lin, 8192);
-    if(return_value_conf_fgets$3 == ((char *)NULL))
+    return_value_conf_fgets_3=conf_fgets(lin, 8192);
+    if(return_value_conf_fgets_3 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(lin);
-    if(return_value_strlen$6 >= 1ul)
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(lin);
+    if(return_value_strlen_6 >= 1ul)
     {
-      return_value_strlen$5=strlen(lin);
-      if((signed int)lin[-1l + (signed long int)return_value_strlen$5] == 10)
+      return_value_strlen_5=strlen(lin);
+      if((signed int)lin[-1l + (signed long int)return_value_strlen_5] == 10)
       {
-        return_value_strlen$4=strlen(lin);
-        lin[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+        return_value_strlen_4=strlen(lin);
+        lin[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
       }
 
     }
 
-    signed int return_value_pcreposix_regexec$36;
-    return_value_pcreposix_regexec$36=pcreposix_regexec(&Address, lin, (unsigned long int)4, matches, 0);
-    if(return_value_pcreposix_regexec$36 == 0)
+    signed int return_value_pcreposix_regexec_36;
+    return_value_pcreposix_regexec_36=pcreposix_regexec(&Address, lin, (unsigned long int)4, matches, 0);
+    if(return_value_pcreposix_regexec_36 == 0)
     {
       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-      signed int return_value_get_host$7;
-      return_value_get_host$7=get_host(lin + (signed long int)matches[(signed long int)1].rm_so, &res->addr);
-      if(!(return_value_get_host$7 == 0))
+      signed int return_value_get_host_7;
+      return_value_get_host_7=get_host(lin + (signed long int)matches[(signed long int)1].rm_so, &res->addr);
+      if(!(return_value_get_host_7 == 0))
         conf_err("Unknown Listener address");
 
       if(!(res->addr.ai_family == 2))
@@ -13052,25 +13052,25 @@ static struct _listener * parse_HTTP(void)
 
     else
     {
-      return_value_pcreposix_regexec$35=pcreposix_regexec(&Port, lin, (unsigned long int)4, matches, 0);
-      if(return_value_pcreposix_regexec$35 == 0)
+      return_value_pcreposix_regexec_35=pcreposix_regexec(&Port, lin, (unsigned long int)4, matches, 0);
+      if(return_value_pcreposix_regexec_35 == 0)
       {
         switch(res->addr.ai_family)
         {
           case 2:
           {
             memcpy((void *)&in, (const void *)res->addr.ai_addr, sizeof(struct sockaddr_in) /*16ul*/ );
-            return_value_atoi$8=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
-            return_value_htons$9=htons((unsigned short int)return_value_atoi$8);
-            in.sin_port = (unsigned short int)return_value_htons$9;
+            return_value_atoi_8=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
+            return_value_htons_9=htons((unsigned short int)return_value_atoi_8);
+            in.sin_port = (unsigned short int)return_value_htons_9;
             memcpy((void *)res->addr.ai_addr, (const void *)&in, sizeof(struct sockaddr_in) /*16ul*/ );
             break;
           }
           case 10:
           {
             memcpy((void *)&in6, (const void *)res->addr.ai_addr, sizeof(struct sockaddr_in6) /*28ul*/ );
-            return_value_atoi$10=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
-            in6.sin6_port=htons((unsigned short int)return_value_atoi$10);
+            return_value_atoi_10=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
+            in6.sin6_port=htons((unsigned short int)return_value_atoi_10);
             memcpy((void *)res->addr.ai_addr, (const void *)&in6, sizeof(struct sockaddr_in6) /*28ul*/ );
             break;
           }
@@ -13082,37 +13082,37 @@ static struct _listener * parse_HTTP(void)
 
       else
       {
-        return_value_pcreposix_regexec$34=pcreposix_regexec(&xHTTP, lin, (unsigned long int)4, matches, 0);
-        if(return_value_pcreposix_regexec$34 == 0)
+        return_value_pcreposix_regexec_34=pcreposix_regexec(&xHTTP, lin, (unsigned long int)4, matches, 0);
+        if(return_value_pcreposix_regexec_34 == 0)
         {
           signed int n;
           n=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
           pcreposix_regfree(&res->verb);
-          signed int return_value_pcreposix_regcomp$11;
-          return_value_pcreposix_regcomp$11=pcreposix_regcomp(&res->verb, xhttp[(signed long int)n], 0x0001 | 0x0002 | 0);
-          if(!(return_value_pcreposix_regcomp$11 == 0))
+          signed int return_value_pcreposix_regcomp_11;
+          return_value_pcreposix_regcomp_11=pcreposix_regcomp(&res->verb, xhttp[(signed long int)n], 0x0001 | 0x0002 | 0);
+          if(!(return_value_pcreposix_regcomp_11 == 0))
             conf_err("xHTTP bad pattern - aborted");
 
         }
 
         else
         {
-          return_value_pcreposix_regexec$33=pcreposix_regexec(&Client, lin, (unsigned long int)4, matches, 0);
-          if(return_value_pcreposix_regexec$33 == 0)
+          return_value_pcreposix_regexec_33=pcreposix_regexec(&Client, lin, (unsigned long int)4, matches, 0);
+          if(return_value_pcreposix_regexec_33 == 0)
             res->to=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
           else
           {
-            return_value_pcreposix_regexec$32=pcreposix_regexec(&CheckURL, lin, (unsigned long int)4, matches, 0);
-            if(return_value_pcreposix_regexec$32 == 0)
+            return_value_pcreposix_regexec_32=pcreposix_regexec(&CheckURL, lin, (unsigned long int)4, matches, 0);
+            if(return_value_pcreposix_regexec_32 == 0)
             {
               if(!(res->has_pat == 0))
                 conf_err("CheckURL multiple pattern - aborted");
 
               lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-              signed int return_value_pcreposix_regcomp$12;
-              return_value_pcreposix_regcomp$12=pcreposix_regcomp(&res->url_pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0002 | 0 | (ignore_case != 0 ? 0x0001 : 0));
-              if(!(return_value_pcreposix_regcomp$12 == 0))
+              signed int return_value_pcreposix_regcomp_12;
+              return_value_pcreposix_regcomp_12=pcreposix_regcomp(&res->url_pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0002 | 0 | (ignore_case != 0 ? 0x0001 : 0));
+              if(!(return_value_pcreposix_regcomp_12 == 0))
                 conf_err("CheckURL bad pattern - aborted");
 
               res->has_pat = 1;
@@ -13120,8 +13120,8 @@ static struct _listener * parse_HTTP(void)
 
             else
             {
-              return_value_pcreposix_regexec$31=pcreposix_regexec(&Err414, lin, (unsigned long int)4, matches, 0);
-              if(return_value_pcreposix_regexec$31 == 0)
+              return_value_pcreposix_regexec_31=pcreposix_regexec(&Err414, lin, (unsigned long int)4, matches, 0);
+              if(return_value_pcreposix_regexec_31 == 0)
               {
                 lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                 res->err414=file2str(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -13129,8 +13129,8 @@ static struct _listener * parse_HTTP(void)
 
               else
               {
-                return_value_pcreposix_regexec$30=pcreposix_regexec(&Err500, lin, (unsigned long int)4, matches, 0);
-                if(return_value_pcreposix_regexec$30 == 0)
+                return_value_pcreposix_regexec_30=pcreposix_regexec(&Err500, lin, (unsigned long int)4, matches, 0);
+                if(return_value_pcreposix_regexec_30 == 0)
                 {
                   lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                   res->err500=file2str(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -13138,8 +13138,8 @@ static struct _listener * parse_HTTP(void)
 
                 else
                 {
-                  return_value_pcreposix_regexec$29=pcreposix_regexec(&Err501, lin, (unsigned long int)4, matches, 0);
-                  if(return_value_pcreposix_regexec$29 == 0)
+                  return_value_pcreposix_regexec_29=pcreposix_regexec(&Err501, lin, (unsigned long int)4, matches, 0);
+                  if(return_value_pcreposix_regexec_29 == 0)
                   {
                     lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                     res->err501=file2str(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -13147,8 +13147,8 @@ static struct _listener * parse_HTTP(void)
 
                   else
                   {
-                    return_value_pcreposix_regexec$28=pcreposix_regexec(&Err503, lin, (unsigned long int)4, matches, 0);
-                    if(return_value_pcreposix_regexec$28 == 0)
+                    return_value_pcreposix_regexec_28=pcreposix_regexec(&Err503, lin, (unsigned long int)4, matches, 0);
+                    if(return_value_pcreposix_regexec_28 == 0)
                     {
                       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                       res->err503=file2str(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -13156,23 +13156,23 @@ static struct _listener * parse_HTTP(void)
 
                     else
                     {
-                      return_value_pcreposix_regexec$27=pcreposix_regexec(&MaxRequest, lin, (unsigned long int)4, matches, 0);
-                      if(return_value_pcreposix_regexec$27 == 0)
+                      return_value_pcreposix_regexec_27=pcreposix_regexec(&MaxRequest, lin, (unsigned long int)4, matches, 0);
+                      if(return_value_pcreposix_regexec_27 == 0)
                         res->max_req=atoll(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                       else
                       {
-                        return_value_pcreposix_regexec$26=pcreposix_regexec(&HeadRemove, lin, (unsigned long int)4, matches, 0);
-                        if(return_value_pcreposix_regexec$26 == 0)
+                        return_value_pcreposix_regexec_26=pcreposix_regexec(&HeadRemove, lin, (unsigned long int)4, matches, 0);
+                        if(return_value_pcreposix_regexec_26 == 0)
                         {
                           if(!(res->head_off == ((struct _matcher *)NULL)))
                           {
                             m = res->head_off;
                             for( ; !(m->next == ((struct _matcher *)NULL)); m = m->next)
                               ;
-                            void *return_value_malloc$13;
-                            return_value_malloc$13=malloc(sizeof(struct _matcher) /*32ul*/ );
-                            m->next = (struct _matcher *)return_value_malloc$13;
+                            void *return_value_malloc_13;
+                            return_value_malloc_13=malloc(sizeof(struct _matcher) /*32ul*/ );
+                            m->next = (struct _matcher *)return_value_malloc_13;
                             if(m->next == ((struct _matcher *)NULL))
                               conf_err("HeadRemove config: out of memory - aborted");
 
@@ -13181,9 +13181,9 @@ static struct _listener * parse_HTTP(void)
 
                           else
                           {
-                            void *return_value_malloc$14;
-                            return_value_malloc$14=malloc(sizeof(struct _matcher) /*32ul*/ );
-                            res->head_off = (struct _matcher *)return_value_malloc$14;
+                            void *return_value_malloc_14;
+                            return_value_malloc_14=malloc(sizeof(struct _matcher) /*32ul*/ );
+                            res->head_off = (struct _matcher *)return_value_malloc_14;
                             if(res->head_off == ((struct _matcher *)NULL))
                               conf_err("HeadRemove config: out of memory - aborted");
 
@@ -13191,17 +13191,17 @@ static struct _listener * parse_HTTP(void)
                           }
                           memset((void *)m, 0, sizeof(struct _matcher) /*32ul*/ );
                           lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-                          signed int return_value_pcreposix_regcomp$15;
-                          return_value_pcreposix_regcomp$15=pcreposix_regcomp(&m->pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0001 | 0x0002 | 0);
-                          if(!(return_value_pcreposix_regcomp$15 == 0))
+                          signed int return_value_pcreposix_regcomp_15;
+                          return_value_pcreposix_regcomp_15=pcreposix_regcomp(&m->pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0001 | 0x0002 | 0);
+                          if(!(return_value_pcreposix_regcomp_15 == 0))
                             conf_err("HeadRemove bad pattern - aborted");
 
                         }
 
                         else
                         {
-                          return_value_pcreposix_regexec$25=pcreposix_regexec(&AddHeader, lin, (unsigned long int)4, matches, 0);
-                          if(return_value_pcreposix_regexec$25 == 0)
+                          return_value_pcreposix_regexec_25=pcreposix_regexec(&AddHeader, lin, (unsigned long int)4, matches, 0);
+                          if(return_value_pcreposix_regexec_25 == 0)
                           {
                             lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                             if(res->add_head == ((char *)NULL))
@@ -13214,13 +13214,13 @@ static struct _listener * parse_HTTP(void)
 
                             else
                             {
-                              unsigned long int return_value_strlen$16;
-                              return_value_strlen$16=strlen(res->add_head);
-                              unsigned long int return_value_strlen$17;
-                              return_value_strlen$17=strlen(lin + (signed long int)matches[(signed long int)1].rm_so);
-                              void *return_value_realloc$18;
-                              return_value_realloc$18=realloc((void *)res->add_head, return_value_strlen$16 + return_value_strlen$17 + (unsigned long int)3);
-                              res->add_head = (char *)return_value_realloc$18;
+                              unsigned long int return_value_strlen_16;
+                              return_value_strlen_16=strlen(res->add_head);
+                              unsigned long int return_value_strlen_17;
+                              return_value_strlen_17=strlen(lin + (signed long int)matches[(signed long int)1].rm_so);
+                              void *return_value_realloc_18;
+                              return_value_realloc_18=realloc((void *)res->add_head, return_value_strlen_16 + return_value_strlen_17 + (unsigned long int)3);
+                              res->add_head = (char *)return_value_realloc_18;
                               if(res->add_head == ((char *)NULL))
                                 conf_err("AddHeader config: out of memory - aborted");
 
@@ -13231,26 +13231,26 @@ static struct _listener * parse_HTTP(void)
 
                           else
                           {
-                            return_value_pcreposix_regexec$24=pcreposix_regexec(&RewriteLocation, lin, (unsigned long int)4, matches, 0);
-                            if(return_value_pcreposix_regexec$24 == 0)
+                            return_value_pcreposix_regexec_24=pcreposix_regexec(&RewriteLocation, lin, (unsigned long int)4, matches, 0);
+                            if(return_value_pcreposix_regexec_24 == 0)
                               res->rewr_loc=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                             else
                             {
-                              return_value_pcreposix_regexec$23=pcreposix_regexec(&RewriteDestination, lin, (unsigned long int)4, matches, 0);
-                              if(return_value_pcreposix_regexec$23 == 0)
+                              return_value_pcreposix_regexec_23=pcreposix_regexec(&RewriteDestination, lin, (unsigned long int)4, matches, 0);
+                              if(return_value_pcreposix_regexec_23 == 0)
                                 res->rewr_dest=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                               else
                               {
-                                return_value_pcreposix_regexec$22=pcreposix_regexec(&LogLevel, lin, (unsigned long int)4, matches, 0);
-                                if(return_value_pcreposix_regexec$22 == 0)
+                                return_value_pcreposix_regexec_22=pcreposix_regexec(&LogLevel, lin, (unsigned long int)4, matches, 0);
+                                if(return_value_pcreposix_regexec_22 == 0)
                                   res->log_level=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                                 else
                                 {
-                                  return_value_pcreposix_regexec$21=pcreposix_regexec(&Service, lin, (unsigned long int)4, matches, 0);
-                                  if(return_value_pcreposix_regexec$21 == 0)
+                                  return_value_pcreposix_regexec_21=pcreposix_regexec(&Service, lin, (unsigned long int)4, matches, 0);
+                                  if(return_value_pcreposix_regexec_21 == 0)
                                   {
                                     if(res->services == ((struct _service *)NULL))
                                       res->services=parse_service((const char *)(void *)0);
@@ -13266,8 +13266,8 @@ static struct _listener * parse_HTTP(void)
 
                                   else
                                   {
-                                    return_value_pcreposix_regexec$20=pcreposix_regexec(&ServiceName, lin, (unsigned long int)4, matches, 0);
-                                    if(return_value_pcreposix_regexec$20 == 0)
+                                    return_value_pcreposix_regexec_20=pcreposix_regexec(&ServiceName, lin, (unsigned long int)4, matches, 0);
+                                    if(return_value_pcreposix_regexec_20 == 0)
                                     {
                                       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                                       if(res->services == ((struct _service *)NULL))
@@ -13284,8 +13284,8 @@ static struct _listener * parse_HTTP(void)
 
                                     else
                                     {
-                                      return_value_pcreposix_regexec$19=pcreposix_regexec(&End, lin, (unsigned long int)4, matches, 0);
-                                      if(return_value_pcreposix_regexec$19 == 0)
+                                      return_value_pcreposix_regexec_19=pcreposix_regexec(&End, lin, (unsigned long int)4, matches, 0);
+                                      if(return_value_pcreposix_regexec_19 == 0)
                                       {
                                         if(has_addr == 0 || has_port == 0)
                                           conf_err("ListenHTTP missing Address or Port - aborted");
@@ -13338,9 +13338,9 @@ static struct _listener * parse_HTTPS(void)
   ssl_op_enable = 0x80000BFFL;
   ssl_op_enable = ssl_op_enable | 0x00020000L;
   ssl_op_disable = 0x00040000L | 0x00000004L;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _listener) /*232ul*/ );
-  res = (struct _listener *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _listener) /*232ul*/ );
+  res = (struct _listener *)return_value_malloc_1;
   if(res == ((struct _listener *)NULL))
     conf_err("ListenHTTPS config: out of memory - aborted");
 
@@ -13355,76 +13355,76 @@ static struct _listener * parse_HTTPS(void)
   res->disable_ssl_v2 = 0;
   res->disable_ssl_v3 = 0;
   res->log_level = log_level;
-  signed int return_value_pcreposix_regcomp$2;
-  return_value_pcreposix_regcomp$2=pcreposix_regcomp(&res->verb, xhttp[(signed long int)0], 0x0001 | 0x0002 | 0);
-  if(!(return_value_pcreposix_regcomp$2 == 0))
+  signed int return_value_pcreposix_regcomp_2;
+  return_value_pcreposix_regcomp_2=pcreposix_regcomp(&res->verb, xhttp[(signed long int)0], 0x0001 | 0x0002 | 0);
+  if(!(return_value_pcreposix_regcomp_2 == 0))
     conf_err("xHTTP bad default pattern - aborted");
 
   has_other = 0;
   has_port = has_other;
   has_addr = has_port;
-  char *return_value_conf_fgets$3;
-  unsigned long int return_value_strlen$5;
-  unsigned long int return_value_strlen$4;
-  signed int return_value_pcreposix_regexec$68;
-  signed int return_value_pcreposix_regexec$67;
-  signed int return_value_pcreposix_regexec$66;
-  signed int return_value_pcreposix_regexec$65;
-  signed int return_value_pcreposix_regexec$64;
-  signed int return_value_pcreposix_regexec$63;
-  signed int return_value_pcreposix_regexec$62;
-  signed int return_value_pcreposix_regexec$61;
-  signed int return_value_pcreposix_regexec$60;
-  signed int return_value_pcreposix_regexec$59;
-  signed int return_value_pcreposix_regexec$58;
-  signed int return_value_pcreposix_regexec$57;
-  signed int return_value_pcreposix_regexec$56;
-  signed int return_value_pcreposix_regexec$55;
-  signed int return_value_pcreposix_regexec$54;
-  signed int return_value_pcreposix_regexec$53;
-  signed int return_value_pcreposix_regexec$52;
-  signed int return_value_pcreposix_regexec$51;
-  signed int return_value_pcreposix_regexec$50;
-  signed int return_value_pcreposix_regexec$49;
-  signed int return_value_pcreposix_regexec$48;
-  signed int return_value_pcreposix_regexec$47;
-  signed int return_value_pcreposix_regexec$46;
-  signed int return_value_SSL_CTX_load_verify_locations$31;
-  signed int return_value_pcreposix_regexec$45;
-  signed int return_value_pcreposix_regexec$44;
-  signed int return_value_pcreposix_regexec$43;
-  signed int return_value_pcreposix_regexec$42;
-  signed int return_value_pcreposix_regexec$41;
-  _Bool tmp_if_expr$34;
-  _Bool tmp_if_expr$37;
-  signed long int return_value_SSL_CTX_ctrl$36;
+  char *return_value_conf_fgets_3;
+  unsigned long int return_value_strlen_5;
+  unsigned long int return_value_strlen_4;
+  signed int return_value_pcreposix_regexec_68;
+  signed int return_value_pcreposix_regexec_67;
+  signed int return_value_pcreposix_regexec_66;
+  signed int return_value_pcreposix_regexec_65;
+  signed int return_value_pcreposix_regexec_64;
+  signed int return_value_pcreposix_regexec_63;
+  signed int return_value_pcreposix_regexec_62;
+  signed int return_value_pcreposix_regexec_61;
+  signed int return_value_pcreposix_regexec_60;
+  signed int return_value_pcreposix_regexec_59;
+  signed int return_value_pcreposix_regexec_58;
+  signed int return_value_pcreposix_regexec_57;
+  signed int return_value_pcreposix_regexec_56;
+  signed int return_value_pcreposix_regexec_55;
+  signed int return_value_pcreposix_regexec_54;
+  signed int return_value_pcreposix_regexec_53;
+  signed int return_value_pcreposix_regexec_52;
+  signed int return_value_pcreposix_regexec_51;
+  signed int return_value_pcreposix_regexec_50;
+  signed int return_value_pcreposix_regexec_49;
+  signed int return_value_pcreposix_regexec_48;
+  signed int return_value_pcreposix_regexec_47;
+  signed int return_value_pcreposix_regexec_46;
+  signed int return_value_SSL_CTX_load_verify_locations_31;
+  signed int return_value_pcreposix_regexec_45;
+  signed int return_value_pcreposix_regexec_44;
+  signed int return_value_pcreposix_regexec_43;
+  signed int return_value_pcreposix_regexec_42;
+  signed int return_value_pcreposix_regexec_41;
+  _Bool tmp_if_expr_34;
+  _Bool tmp_if_expr_37;
+  signed long int return_value_SSL_CTX_ctrl_36;
   do
   {
-    return_value_conf_fgets$3=conf_fgets(lin, 8192);
-    if(return_value_conf_fgets$3 == ((char *)NULL))
+    return_value_conf_fgets_3=conf_fgets(lin, 8192);
+    if(return_value_conf_fgets_3 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(lin);
-    if(return_value_strlen$6 >= 1ul)
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(lin);
+    if(return_value_strlen_6 >= 1ul)
     {
-      return_value_strlen$5=strlen(lin);
-      if((signed int)lin[-1l + (signed long int)return_value_strlen$5] == 10)
+      return_value_strlen_5=strlen(lin);
+      if((signed int)lin[-1l + (signed long int)return_value_strlen_5] == 10)
       {
-        return_value_strlen$4=strlen(lin);
-        lin[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+        return_value_strlen_4=strlen(lin);
+        lin[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
       }
 
     }
 
-    signed int return_value_pcreposix_regexec$69;
-    return_value_pcreposix_regexec$69=pcreposix_regexec(&Address, lin, (unsigned long int)4, matches, 0);
-    if(return_value_pcreposix_regexec$69 == 0)
+    signed int return_value_pcreposix_regexec_69;
+    return_value_pcreposix_regexec_69=pcreposix_regexec(&Address, lin, (unsigned long int)4, matches, 0);
+    if(return_value_pcreposix_regexec_69 == 0)
     {
       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-      signed int return_value_get_host$7;
-      return_value_get_host$7=get_host(lin + (signed long int)matches[(signed long int)1].rm_so, &res->addr);
-      if(!(return_value_get_host$7 == 0))
+      signed int return_value_get_host_7;
+      return_value_get_host_7=get_host(lin + (signed long int)matches[(signed long int)1].rm_so, &res->addr);
+      if(!(return_value_get_host_7 == 0))
         conf_err("Unknown Listener address");
 
       if(!(res->addr.ai_family == 2))
@@ -13439,26 +13439,26 @@ static struct _listener * parse_HTTPS(void)
 
     else
     {
-      return_value_pcreposix_regexec$68=pcreposix_regexec(&Port, lin, (unsigned long int)4, matches, 0);
-      if(return_value_pcreposix_regexec$68 == 0)
+      return_value_pcreposix_regexec_68=pcreposix_regexec(&Port, lin, (unsigned long int)4, matches, 0);
+      if(return_value_pcreposix_regexec_68 == 0)
       {
         if(res->addr.ai_family == 2)
         {
           memcpy((void *)&in, (const void *)res->addr.ai_addr, sizeof(struct sockaddr_in) /*16ul*/ );
-          signed int return_value_atoi$8;
-          return_value_atoi$8=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
-          unsigned short int return_value_htons$9;
-          return_value_htons$9=htons((unsigned short int)return_value_atoi$8);
-          in.sin_port = (unsigned short int)return_value_htons$9;
+          signed int return_value_atoi_8;
+          return_value_atoi_8=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
+          unsigned short int return_value_htons_9;
+          return_value_htons_9=htons((unsigned short int)return_value_atoi_8);
+          in.sin_port = (unsigned short int)return_value_htons_9;
           memcpy((void *)res->addr.ai_addr, (const void *)&in, sizeof(struct sockaddr_in) /*16ul*/ );
         }
 
         else
         {
           memcpy((void *)&in6, (const void *)res->addr.ai_addr, sizeof(struct sockaddr_in6) /*28ul*/ );
-          signed int return_value_atoi$10;
-          return_value_atoi$10=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
-          in6.sin6_port=htons((unsigned short int)return_value_atoi$10);
+          signed int return_value_atoi_10;
+          return_value_atoi_10=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
+          in6.sin6_port=htons((unsigned short int)return_value_atoi_10);
           memcpy((void *)res->addr.ai_addr, (const void *)&in6, sizeof(struct sockaddr_in6) /*28ul*/ );
         }
         has_port = 1;
@@ -13466,37 +13466,37 @@ static struct _listener * parse_HTTPS(void)
 
       else
       {
-        return_value_pcreposix_regexec$67=pcreposix_regexec(&xHTTP, lin, (unsigned long int)4, matches, 0);
-        if(return_value_pcreposix_regexec$67 == 0)
+        return_value_pcreposix_regexec_67=pcreposix_regexec(&xHTTP, lin, (unsigned long int)4, matches, 0);
+        if(return_value_pcreposix_regexec_67 == 0)
         {
           signed int n;
           n=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
           pcreposix_regfree(&res->verb);
-          signed int return_value_pcreposix_regcomp$11;
-          return_value_pcreposix_regcomp$11=pcreposix_regcomp(&res->verb, xhttp[(signed long int)n], 0x0001 | 0x0002 | 0);
-          if(!(return_value_pcreposix_regcomp$11 == 0))
+          signed int return_value_pcreposix_regcomp_11;
+          return_value_pcreposix_regcomp_11=pcreposix_regcomp(&res->verb, xhttp[(signed long int)n], 0x0001 | 0x0002 | 0);
+          if(!(return_value_pcreposix_regcomp_11 == 0))
             conf_err("xHTTP bad pattern - aborted");
 
         }
 
         else
         {
-          return_value_pcreposix_regexec$66=pcreposix_regexec(&Client, lin, (unsigned long int)4, matches, 0);
-          if(return_value_pcreposix_regexec$66 == 0)
+          return_value_pcreposix_regexec_66=pcreposix_regexec(&Client, lin, (unsigned long int)4, matches, 0);
+          if(return_value_pcreposix_regexec_66 == 0)
             res->to=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
           else
           {
-            return_value_pcreposix_regexec$65=pcreposix_regexec(&CheckURL, lin, (unsigned long int)4, matches, 0);
-            if(return_value_pcreposix_regexec$65 == 0)
+            return_value_pcreposix_regexec_65=pcreposix_regexec(&CheckURL, lin, (unsigned long int)4, matches, 0);
+            if(return_value_pcreposix_regexec_65 == 0)
             {
               if(!(res->has_pat == 0))
                 conf_err("CheckURL multiple pattern - aborted");
 
               lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-              signed int return_value_pcreposix_regcomp$12;
-              return_value_pcreposix_regcomp$12=pcreposix_regcomp(&res->url_pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0002 | 0 | (ignore_case != 0 ? 0x0001 : 0));
-              if(!(return_value_pcreposix_regcomp$12 == 0))
+              signed int return_value_pcreposix_regcomp_12;
+              return_value_pcreposix_regcomp_12=pcreposix_regcomp(&res->url_pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0002 | 0 | (ignore_case != 0 ? 0x0001 : 0));
+              if(!(return_value_pcreposix_regcomp_12 == 0))
                 conf_err("CheckURL bad pattern - aborted");
 
               res->has_pat = 1;
@@ -13504,8 +13504,8 @@ static struct _listener * parse_HTTPS(void)
 
             else
             {
-              return_value_pcreposix_regexec$64=pcreposix_regexec(&Err414, lin, (unsigned long int)4, matches, 0);
-              if(return_value_pcreposix_regexec$64 == 0)
+              return_value_pcreposix_regexec_64=pcreposix_regexec(&Err414, lin, (unsigned long int)4, matches, 0);
+              if(return_value_pcreposix_regexec_64 == 0)
               {
                 lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                 res->err414=file2str(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -13513,8 +13513,8 @@ static struct _listener * parse_HTTPS(void)
 
               else
               {
-                return_value_pcreposix_regexec$63=pcreposix_regexec(&Err500, lin, (unsigned long int)4, matches, 0);
-                if(return_value_pcreposix_regexec$63 == 0)
+                return_value_pcreposix_regexec_63=pcreposix_regexec(&Err500, lin, (unsigned long int)4, matches, 0);
+                if(return_value_pcreposix_regexec_63 == 0)
                 {
                   lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                   res->err500=file2str(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -13522,8 +13522,8 @@ static struct _listener * parse_HTTPS(void)
 
                 else
                 {
-                  return_value_pcreposix_regexec$62=pcreposix_regexec(&Err501, lin, (unsigned long int)4, matches, 0);
-                  if(return_value_pcreposix_regexec$62 == 0)
+                  return_value_pcreposix_regexec_62=pcreposix_regexec(&Err501, lin, (unsigned long int)4, matches, 0);
+                  if(return_value_pcreposix_regexec_62 == 0)
                   {
                     lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                     res->err501=file2str(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -13531,8 +13531,8 @@ static struct _listener * parse_HTTPS(void)
 
                   else
                   {
-                    return_value_pcreposix_regexec$61=pcreposix_regexec(&Err503, lin, (unsigned long int)4, matches, 0);
-                    if(return_value_pcreposix_regexec$61 == 0)
+                    return_value_pcreposix_regexec_61=pcreposix_regexec(&Err503, lin, (unsigned long int)4, matches, 0);
+                    if(return_value_pcreposix_regexec_61 == 0)
                     {
                       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                       res->err503=file2str(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -13540,23 +13540,23 @@ static struct _listener * parse_HTTPS(void)
 
                     else
                     {
-                      return_value_pcreposix_regexec$60=pcreposix_regexec(&MaxRequest, lin, (unsigned long int)4, matches, 0);
-                      if(return_value_pcreposix_regexec$60 == 0)
+                      return_value_pcreposix_regexec_60=pcreposix_regexec(&MaxRequest, lin, (unsigned long int)4, matches, 0);
+                      if(return_value_pcreposix_regexec_60 == 0)
                         res->max_req=atoll(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                       else
                       {
-                        return_value_pcreposix_regexec$59=pcreposix_regexec(&HeadRemove, lin, (unsigned long int)4, matches, 0);
-                        if(return_value_pcreposix_regexec$59 == 0)
+                        return_value_pcreposix_regexec_59=pcreposix_regexec(&HeadRemove, lin, (unsigned long int)4, matches, 0);
+                        if(return_value_pcreposix_regexec_59 == 0)
                         {
                           if(!(res->head_off == ((struct _matcher *)NULL)))
                           {
                             m = res->head_off;
                             for( ; !(m->next == ((struct _matcher *)NULL)); m = m->next)
                               ;
-                            void *return_value_malloc$13;
-                            return_value_malloc$13=malloc(sizeof(struct _matcher) /*32ul*/ );
-                            m->next = (struct _matcher *)return_value_malloc$13;
+                            void *return_value_malloc_13;
+                            return_value_malloc_13=malloc(sizeof(struct _matcher) /*32ul*/ );
+                            m->next = (struct _matcher *)return_value_malloc_13;
                             if(m->next == ((struct _matcher *)NULL))
                               conf_err("HeadRemove config: out of memory - aborted");
 
@@ -13565,9 +13565,9 @@ static struct _listener * parse_HTTPS(void)
 
                           else
                           {
-                            void *return_value_malloc$14;
-                            return_value_malloc$14=malloc(sizeof(struct _matcher) /*32ul*/ );
-                            res->head_off = (struct _matcher *)return_value_malloc$14;
+                            void *return_value_malloc_14;
+                            return_value_malloc_14=malloc(sizeof(struct _matcher) /*32ul*/ );
+                            res->head_off = (struct _matcher *)return_value_malloc_14;
                             if(res->head_off == ((struct _matcher *)NULL))
                               conf_err("HeadRemove config: out of memory - aborted");
 
@@ -13575,35 +13575,35 @@ static struct _listener * parse_HTTPS(void)
                           }
                           memset((void *)m, 0, sizeof(struct _matcher) /*32ul*/ );
                           lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-                          signed int return_value_pcreposix_regcomp$15;
-                          return_value_pcreposix_regcomp$15=pcreposix_regcomp(&m->pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0001 | 0x0002 | 0);
-                          if(!(return_value_pcreposix_regcomp$15 == 0))
+                          signed int return_value_pcreposix_regcomp_15;
+                          return_value_pcreposix_regcomp_15=pcreposix_regcomp(&m->pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0001 | 0x0002 | 0);
+                          if(!(return_value_pcreposix_regcomp_15 == 0))
                             conf_err("HeadRemove bad pattern - aborted");
 
                         }
 
                         else
                         {
-                          return_value_pcreposix_regexec$58=pcreposix_regexec(&RewriteLocation, lin, (unsigned long int)4, matches, 0);
-                          if(return_value_pcreposix_regexec$58 == 0)
+                          return_value_pcreposix_regexec_58=pcreposix_regexec(&RewriteLocation, lin, (unsigned long int)4, matches, 0);
+                          if(return_value_pcreposix_regexec_58 == 0)
                             res->rewr_loc=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                           else
                           {
-                            return_value_pcreposix_regexec$57=pcreposix_regexec(&RewriteDestination, lin, (unsigned long int)4, matches, 0);
-                            if(return_value_pcreposix_regexec$57 == 0)
+                            return_value_pcreposix_regexec_57=pcreposix_regexec(&RewriteDestination, lin, (unsigned long int)4, matches, 0);
+                            if(return_value_pcreposix_regexec_57 == 0)
                               res->rewr_dest=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                             else
                             {
-                              return_value_pcreposix_regexec$56=pcreposix_regexec(&LogLevel, lin, (unsigned long int)4, matches, 0);
-                              if(return_value_pcreposix_regexec$56 == 0)
+                              return_value_pcreposix_regexec_56=pcreposix_regexec(&LogLevel, lin, (unsigned long int)4, matches, 0);
+                              if(return_value_pcreposix_regexec_56 == 0)
                                 res->log_level=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                               else
                               {
-                                return_value_pcreposix_regexec$55=pcreposix_regexec(&Cert, lin, (unsigned long int)4, matches, 0);
-                                if(return_value_pcreposix_regexec$55 == 0)
+                                return_value_pcreposix_regexec_55=pcreposix_regexec(&Cert, lin, (unsigned long int)4, matches, 0);
+                                if(return_value_pcreposix_regexec_55 == 0)
                                 {
                                   struct _IO_FILE *fcert;
                                   char server_name[8192l];
@@ -13617,9 +13617,9 @@ static struct _listener * parse_HTTPS(void)
                                     pc = res->ctx;
                                     for( ; !(pc->next == ((struct _pound_ctx *)NULL)); pc = pc->next)
                                       ;
-                                    void *return_value_malloc$16;
-                                    return_value_malloc$16=malloc(sizeof(struct _pound_ctx) /*24ul*/ );
-                                    pc->next = (struct _pound_ctx *)return_value_malloc$16;
+                                    void *return_value_malloc_16;
+                                    return_value_malloc_16=malloc(sizeof(struct _pound_ctx) /*24ul*/ );
+                                    pc->next = (struct _pound_ctx *)return_value_malloc_16;
                                     if(pc->next == ((struct _pound_ctx *)NULL))
                                       conf_err("ListenHTTPS new POUND_CTX: out of memory - aborted");
 
@@ -13628,36 +13628,36 @@ static struct _listener * parse_HTTPS(void)
 
                                   else
                                   {
-                                    void *return_value_malloc$17;
-                                    return_value_malloc$17=malloc(sizeof(struct _pound_ctx) /*24ul*/ );
-                                    res->ctx = (struct _pound_ctx *)return_value_malloc$17;
+                                    void *return_value_malloc_17;
+                                    return_value_malloc_17=malloc(sizeof(struct _pound_ctx) /*24ul*/ );
+                                    res->ctx = (struct _pound_ctx *)return_value_malloc_17;
                                     if(res->ctx == ((struct _pound_ctx *)NULL))
                                       conf_err("ListenHTTPS new POUND_CTX: out of memory - aborted");
 
                                     pc = res->ctx;
                                   }
-                                  const struct ssl_method_st *return_value_SSLv23_server_method$18;
-                                  return_value_SSLv23_server_method$18=SSLv23_server_method();
-                                  pc->ctx=SSL_CTX_new(return_value_SSLv23_server_method$18);
+                                  const struct ssl_method_st *return_value_SSLv23_server_method_18;
+                                  return_value_SSLv23_server_method_18=SSLv23_server_method();
+                                  pc->ctx=SSL_CTX_new(return_value_SSLv23_server_method_18);
                                   if(pc->ctx == ((struct ssl_ctx_st *)NULL))
                                     conf_err("SSL_CTX_new failed - aborted");
 
                                   pc->server_name = (char *)(void *)0;
                                   pc->next = (struct _pound_ctx *)(void *)0;
                                   lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-                                  signed int return_value_SSL_CTX_use_certificate_chain_file$19;
-                                  return_value_SSL_CTX_use_certificate_chain_file$19=SSL_CTX_use_certificate_chain_file(pc->ctx, lin + (signed long int)matches[(signed long int)1].rm_so);
-                                  if(!(return_value_SSL_CTX_use_certificate_chain_file$19 == 1))
+                                  signed int return_value_SSL_CTX_use_certificate_chain_file_19;
+                                  return_value_SSL_CTX_use_certificate_chain_file_19=SSL_CTX_use_certificate_chain_file(pc->ctx, lin + (signed long int)matches[(signed long int)1].rm_so);
+                                  if(!(return_value_SSL_CTX_use_certificate_chain_file_19 == 1))
                                     conf_err("SSL_CTX_use_certificate_chain_file failed - aborted");
 
-                                  signed int return_value_SSL_CTX_use_PrivateKey_file$20;
-                                  return_value_SSL_CTX_use_PrivateKey_file$20=SSL_CTX_use_PrivateKey_file(pc->ctx, lin + (signed long int)matches[(signed long int)1].rm_so, 1);
-                                  if(!(return_value_SSL_CTX_use_PrivateKey_file$20 == 1))
+                                  signed int return_value_SSL_CTX_use_PrivateKey_file_20;
+                                  return_value_SSL_CTX_use_PrivateKey_file_20=SSL_CTX_use_PrivateKey_file(pc->ctx, lin + (signed long int)matches[(signed long int)1].rm_so, 1);
+                                  if(!(return_value_SSL_CTX_use_PrivateKey_file_20 == 1))
                                     conf_err("SSL_CTX_use_PrivateKey_file failed - aborted");
 
-                                  signed int return_value_SSL_CTX_check_private_key$21;
-                                  return_value_SSL_CTX_check_private_key$21=SSL_CTX_check_private_key(pc->ctx);
-                                  if(!(return_value_SSL_CTX_check_private_key$21 == 1))
+                                  signed int return_value_SSL_CTX_check_private_key_21;
+                                  return_value_SSL_CTX_check_private_key_21=SSL_CTX_check_private_key(pc->ctx);
+                                  if(!(return_value_SSL_CTX_check_private_key_21 == 1))
                                     conf_err("SSL_CTX_check_private_key failed - aborted");
 
                                   fcert=fopen(lin + (signed long int)matches[(signed long int)1].rm_so, "r");
@@ -13670,13 +13670,13 @@ static struct _listener * parse_HTTPS(void)
 
                                   fclose(fcert);
                                   memset((void *)server_name, 0, (unsigned long int)8192);
-                                  struct X509_name_st *return_value_X509_get_subject_name$22;
-                                  return_value_X509_get_subject_name$22=X509_get_subject_name(x509);
-                                  X509_NAME_oneline(return_value_X509_get_subject_name$22, server_name, 8192 - 1);
+                                  struct X509_name_st *return_value_X509_get_subject_name_22;
+                                  return_value_X509_get_subject_name_22=X509_get_subject_name(x509);
+                                  X509_NAME_oneline(return_value_X509_get_subject_name_22, server_name, 8192 - 1);
                                   X509_free(x509);
-                                  signed int return_value_pcreposix_regexec$23;
-                                  return_value_pcreposix_regexec$23=pcreposix_regexec(&CNName, server_name, (unsigned long int)4, matches, 0);
-                                  if(return_value_pcreposix_regexec$23 == 0)
+                                  signed int return_value_pcreposix_regexec_23;
+                                  return_value_pcreposix_regexec_23=pcreposix_regexec(&CNName, server_name, (unsigned long int)4, matches, 0);
+                                  if(return_value_pcreposix_regexec_23 == 0)
                                   {
                                     server_name[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                                     pc->server_name=strdup(server_name + (signed long int)matches[(signed long int)1].rm_so);
@@ -13691,8 +13691,8 @@ static struct _listener * parse_HTTPS(void)
 
                                 else
                                 {
-                                  return_value_pcreposix_regexec$54=pcreposix_regexec(&ClientCert, lin, (unsigned long int)4, matches, 0);
-                                  if(return_value_pcreposix_regexec$54 == 0)
+                                  return_value_pcreposix_regexec_54=pcreposix_regexec(&ClientCert, lin, (unsigned long int)4, matches, 0);
+                                  if(return_value_pcreposix_regexec_54 == 0)
                                   {
                                     has_other = 1;
                                     if(res->ctx == ((struct _pound_ctx *)NULL))
@@ -13714,9 +13714,9 @@ static struct _listener * parse_HTTPS(void)
                                         for( ; !(pc == ((struct _pound_ctx *)NULL)); pc = pc->next)
                                         {
                                           SSL_CTX_set_verify(pc->ctx, 0x01 | 0x04, (signed int (*)(signed int, struct x509_store_ctx_st *))(void *)0);
-                                          signed int return_value_atoi$24;
-                                          return_value_atoi$24=atoi(lin + (signed long int)matches[(signed long int)2].rm_so);
-                                          SSL_CTX_set_verify_depth(pc->ctx, return_value_atoi$24);
+                                          signed int return_value_atoi_24;
+                                          return_value_atoi_24=atoi(lin + (signed long int)matches[(signed long int)2].rm_so);
+                                          SSL_CTX_set_verify_depth(pc->ctx, return_value_atoi_24);
                                         }
                                         break;
                                       }
@@ -13726,9 +13726,9 @@ static struct _listener * parse_HTTPS(void)
                                         for( ; !(pc == ((struct _pound_ctx *)NULL)); pc = pc->next)
                                         {
                                           SSL_CTX_set_verify(pc->ctx, 0x01 | 0x02, (signed int (*)(signed int, struct x509_store_ctx_st *))(void *)0);
-                                          signed int return_value_atoi$25;
-                                          return_value_atoi$25=atoi(lin + (signed long int)matches[(signed long int)2].rm_so);
-                                          SSL_CTX_set_verify_depth(pc->ctx, return_value_atoi$25);
+                                          signed int return_value_atoi_25;
+                                          return_value_atoi_25=atoi(lin + (signed long int)matches[(signed long int)2].rm_so);
+                                          SSL_CTX_set_verify_depth(pc->ctx, return_value_atoi_25);
                                         }
                                         break;
                                       }
@@ -13738,9 +13738,9 @@ static struct _listener * parse_HTTPS(void)
                                         for( ; !(pc == ((struct _pound_ctx *)NULL)); pc = pc->next)
                                         {
                                           SSL_CTX_set_verify(pc->ctx, 0x01 | 0x04, verify_OK);
-                                          signed int return_value_atoi$26;
-                                          return_value_atoi$26=atoi(lin + (signed long int)matches[(signed long int)2].rm_so);
-                                          SSL_CTX_set_verify_depth(pc->ctx, return_value_atoi$26);
+                                          signed int return_value_atoi_26;
+                                          return_value_atoi_26=atoi(lin + (signed long int)matches[(signed long int)2].rm_so);
+                                          SSL_CTX_set_verify_depth(pc->ctx, return_value_atoi_26);
                                         }
                                       }
                                       default:
@@ -13750,8 +13750,8 @@ static struct _listener * parse_HTTPS(void)
 
                                   else
                                   {
-                                    return_value_pcreposix_regexec$53=pcreposix_regexec(&AddHeader, lin, (unsigned long int)4, matches, 0);
-                                    if(return_value_pcreposix_regexec$53 == 0)
+                                    return_value_pcreposix_regexec_53=pcreposix_regexec(&AddHeader, lin, (unsigned long int)4, matches, 0);
+                                    if(return_value_pcreposix_regexec_53 == 0)
                                     {
                                       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                                       if(res->add_head == ((char *)NULL))
@@ -13764,13 +13764,13 @@ static struct _listener * parse_HTTPS(void)
 
                                       else
                                       {
-                                        unsigned long int return_value_strlen$27;
-                                        return_value_strlen$27=strlen(res->add_head);
-                                        unsigned long int return_value_strlen$28;
-                                        return_value_strlen$28=strlen(lin + (signed long int)matches[(signed long int)1].rm_so);
-                                        void *return_value_realloc$29;
-                                        return_value_realloc$29=realloc((void *)res->add_head, return_value_strlen$27 + return_value_strlen$28 + (unsigned long int)3);
-                                        res->add_head = (char *)return_value_realloc$29;
+                                        unsigned long int return_value_strlen_27;
+                                        return_value_strlen_27=strlen(res->add_head);
+                                        unsigned long int return_value_strlen_28;
+                                        return_value_strlen_28=strlen(lin + (signed long int)matches[(signed long int)1].rm_so);
+                                        void *return_value_realloc_29;
+                                        return_value_realloc_29=realloc((void *)res->add_head, return_value_strlen_27 + return_value_strlen_28 + (unsigned long int)3);
+                                        res->add_head = (char *)return_value_realloc_29;
                                         if(res->add_head == ((char *)NULL))
                                           conf_err("AddHeader config: out of memory - aborted");
 
@@ -13781,20 +13781,20 @@ static struct _listener * parse_HTTPS(void)
 
                                     else
                                     {
-                                      return_value_pcreposix_regexec$52=pcreposix_regexec(&DisableSSLv2, lin, (unsigned long int)4, matches, 0);
-                                      if(return_value_pcreposix_regexec$52 == 0)
+                                      return_value_pcreposix_regexec_52=pcreposix_regexec(&DisableSSLv2, lin, (unsigned long int)4, matches, 0);
+                                      if(return_value_pcreposix_regexec_52 == 0)
                                         res->disable_ssl_v2 = 1;
 
                                       else
                                       {
-                                        return_value_pcreposix_regexec$51=pcreposix_regexec(&DisableSSLv3, lin, (unsigned long int)4, matches, 0);
-                                        if(return_value_pcreposix_regexec$51 == 0)
+                                        return_value_pcreposix_regexec_51=pcreposix_regexec(&DisableSSLv3, lin, (unsigned long int)4, matches, 0);
+                                        if(return_value_pcreposix_regexec_51 == 0)
                                           res->disable_ssl_v3 = 1;
 
                                         else
                                         {
-                                          return_value_pcreposix_regexec$50=pcreposix_regexec(&SSLAllowClientRenegotiation, lin, (unsigned long int)4, matches, 0);
-                                          if(return_value_pcreposix_regexec$50 == 0)
+                                          return_value_pcreposix_regexec_50=pcreposix_regexec(&SSLAllowClientRenegotiation, lin, (unsigned long int)4, matches, 0);
+                                          if(return_value_pcreposix_regexec_50 == 0)
                                           {
                                             res->allow_client_reneg=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
                                             if(res->allow_client_reneg == 2)
@@ -13812,12 +13812,12 @@ static struct _listener * parse_HTTPS(void)
 
                                           else
                                           {
-                                            return_value_pcreposix_regexec$49=pcreposix_regexec(&SSLHonorCipherOrder, lin, (unsigned long int)4, matches, 0);
-                                            if(return_value_pcreposix_regexec$49 == 0)
+                                            return_value_pcreposix_regexec_49=pcreposix_regexec(&SSLHonorCipherOrder, lin, (unsigned long int)4, matches, 0);
+                                            if(return_value_pcreposix_regexec_49 == 0)
                                             {
-                                              signed int return_value_atoi$30;
-                                              return_value_atoi$30=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
-                                              if(!(return_value_atoi$30 == 0))
+                                              signed int return_value_atoi_30;
+                                              return_value_atoi_30=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
+                                              if(!(return_value_atoi_30 == 0))
                                               {
                                                 ssl_op_enable = ssl_op_enable | 0x00400000L;
                                                 ssl_op_disable = ssl_op_disable & ~0x00400000L;
@@ -13832,8 +13832,8 @@ static struct _listener * parse_HTTPS(void)
 
                                             else
                                             {
-                                              return_value_pcreposix_regexec$48=pcreposix_regexec(&Ciphers, lin, (unsigned long int)4, matches, 0);
-                                              if(return_value_pcreposix_regexec$48 == 0)
+                                              return_value_pcreposix_regexec_48=pcreposix_regexec(&Ciphers, lin, (unsigned long int)4, matches, 0);
+                                              if(return_value_pcreposix_regexec_48 == 0)
                                               {
                                                 has_other = 1;
                                                 if(res->ctx == ((struct _pound_ctx *)NULL))
@@ -13847,8 +13847,8 @@ static struct _listener * parse_HTTPS(void)
 
                                               else
                                               {
-                                                return_value_pcreposix_regexec$47=pcreposix_regexec(&CAlist, lin, (unsigned long int)4, matches, 0);
-                                                if(return_value_pcreposix_regexec$47 == 0)
+                                                return_value_pcreposix_regexec_47=pcreposix_regexec(&CAlist, lin, (unsigned long int)4, matches, 0);
+                                                if(return_value_pcreposix_regexec_47 == 0)
                                                 {
                                                   struct stack_st_X509_NAME *cert_names;
                                                   has_other = 1;
@@ -13867,8 +13867,8 @@ static struct _listener * parse_HTTPS(void)
 
                                                 else
                                                 {
-                                                  return_value_pcreposix_regexec$46=pcreposix_regexec(&VerifyList, lin, (unsigned long int)4, matches, 0);
-                                                  if(return_value_pcreposix_regexec$46 == 0)
+                                                  return_value_pcreposix_regexec_46=pcreposix_regexec(&VerifyList, lin, (unsigned long int)4, matches, 0);
+                                                  if(return_value_pcreposix_regexec_46 == 0)
                                                   {
                                                     has_other = 1;
                                                     if(res->ctx == ((struct _pound_ctx *)NULL))
@@ -13878,8 +13878,8 @@ static struct _listener * parse_HTTPS(void)
                                                     pc = res->ctx;
                                                     for( ; !(pc == ((struct _pound_ctx *)NULL)); pc = pc->next)
                                                     {
-                                                      return_value_SSL_CTX_load_verify_locations$31=SSL_CTX_load_verify_locations(pc->ctx, lin + (signed long int)matches[(signed long int)1].rm_so, (const char *)(void *)0);
-                                                      if(!(return_value_SSL_CTX_load_verify_locations$31 == 1))
+                                                      return_value_SSL_CTX_load_verify_locations_31=SSL_CTX_load_verify_locations(pc->ctx, lin + (signed long int)matches[(signed long int)1].rm_so, (const char *)(void *)0);
+                                                      if(!(return_value_SSL_CTX_load_verify_locations_31 == 1))
                                                         conf_err("SSL_CTX_load_verify_locations failed - aborted");
 
                                                     }
@@ -13887,8 +13887,8 @@ static struct _listener * parse_HTTPS(void)
 
                                                   else
                                                   {
-                                                    return_value_pcreposix_regexec$45=pcreposix_regexec(&CRLlist, lin, (unsigned long int)4, matches, 0);
-                                                    if(return_value_pcreposix_regexec$45 == 0)
+                                                    return_value_pcreposix_regexec_45=pcreposix_regexec(&CRLlist, lin, (unsigned long int)4, matches, 0);
+                                                    if(return_value_pcreposix_regexec_45 == 0)
                                                     {
                                                       struct x509_store_st *store;
                                                       struct x509_lookup_st *lookup;
@@ -13901,15 +13901,15 @@ static struct _listener * parse_HTTPS(void)
                                                       for( ; !(pc == ((struct _pound_ctx *)NULL)); pc = pc->next)
                                                       {
                                                         store=SSL_CTX_get_cert_store(pc->ctx);
-                                                        struct x509_lookup_method_st *return_value_X509_LOOKUP_file$32;
-                                                        return_value_X509_LOOKUP_file$32=X509_LOOKUP_file();
-                                                        lookup=X509_STORE_add_lookup(store, return_value_X509_LOOKUP_file$32);
+                                                        struct x509_lookup_method_st *return_value_X509_LOOKUP_file_32;
+                                                        return_value_X509_LOOKUP_file_32=X509_LOOKUP_file();
+                                                        lookup=X509_STORE_add_lookup(store, return_value_X509_LOOKUP_file_32);
                                                         if(lookup == ((struct x509_lookup_st *)NULL))
                                                           conf_err("X509_STORE_add_lookup failed - aborted");
 
-                                                        signed int return_value_X509_load_crl_file$33;
-                                                        return_value_X509_load_crl_file$33=X509_load_crl_file(lookup, lin + (signed long int)matches[(signed long int)1].rm_so, 1);
-                                                        if(!(return_value_X509_load_crl_file$33 == 1))
+                                                        signed int return_value_X509_load_crl_file_33;
+                                                        return_value_X509_load_crl_file_33=X509_load_crl_file(lookup, lin + (signed long int)matches[(signed long int)1].rm_so, 1);
+                                                        if(!(return_value_X509_load_crl_file_33 == 1))
                                                           conf_err("X509_load_crl_file failed - aborted");
 
                                                         X509_STORE_set_flags(store, (unsigned long int)(0x4 | 0x8));
@@ -13918,14 +13918,14 @@ static struct _listener * parse_HTTPS(void)
 
                                                     else
                                                     {
-                                                      return_value_pcreposix_regexec$44=pcreposix_regexec(&NoHTTPS11, lin, (unsigned long int)4, matches, 0);
-                                                      if(return_value_pcreposix_regexec$44 == 0)
+                                                      return_value_pcreposix_regexec_44=pcreposix_regexec(&NoHTTPS11, lin, (unsigned long int)4, matches, 0);
+                                                      if(return_value_pcreposix_regexec_44 == 0)
                                                         res->noHTTPS11=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                                                       else
                                                       {
-                                                        return_value_pcreposix_regexec$43=pcreposix_regexec(&Service, lin, (unsigned long int)4, matches, 0);
-                                                        if(return_value_pcreposix_regexec$43 == 0)
+                                                        return_value_pcreposix_regexec_43=pcreposix_regexec(&Service, lin, (unsigned long int)4, matches, 0);
+                                                        if(return_value_pcreposix_regexec_43 == 0)
                                                         {
                                                           if(res->services == ((struct _service *)NULL))
                                                             res->services=parse_service((const char *)(void *)0);
@@ -13941,8 +13941,8 @@ static struct _listener * parse_HTTPS(void)
 
                                                         else
                                                         {
-                                                          return_value_pcreposix_regexec$42=pcreposix_regexec(&ServiceName, lin, (unsigned long int)4, matches, 0);
-                                                          if(return_value_pcreposix_regexec$42 == 0)
+                                                          return_value_pcreposix_regexec_42=pcreposix_regexec(&ServiceName, lin, (unsigned long int)4, matches, 0);
+                                                          if(return_value_pcreposix_regexec_42 == 0)
                                                           {
                                                             lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                                                             if(res->services == ((struct _service *)NULL))
@@ -13959,29 +13959,29 @@ static struct _listener * parse_HTTPS(void)
 
                                                           else
                                                           {
-                                                            return_value_pcreposix_regexec$41=pcreposix_regexec(&End, lin, (unsigned long int)4, matches, 0);
-                                                            if(return_value_pcreposix_regexec$41 == 0)
+                                                            return_value_pcreposix_regexec_41=pcreposix_regexec(&End, lin, (unsigned long int)4, matches, 0);
+                                                            if(return_value_pcreposix_regexec_41 == 0)
                                                             {
-                                                              struct x509_store_st *parse_HTTPS$$1$$1$$29$$store;
+                                                              struct x509_store_st *parse_HTTPS__1__1__29__store;
                                                               if(has_addr == 0 || has_port == 0)
-                                                                tmp_if_expr$34 = (_Bool)1;
+                                                                tmp_if_expr_34 = (_Bool)1;
 
                                                               else
-                                                                tmp_if_expr$34 = res->ctx == (struct _pound_ctx *)(void *)0 ? (_Bool)1 : (_Bool)0;
-                                                              if(tmp_if_expr$34)
+                                                                tmp_if_expr_34 = res->ctx == (struct _pound_ctx *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                                                              if(tmp_if_expr_34)
                                                                 conf_err("ListenHTTPS missing Address, Port or Certificate - aborted");
 
-                                                              signed long int return_value_SSL_CTX_callback_ctrl$35;
-                                                              return_value_SSL_CTX_callback_ctrl$35=SSL_CTX_callback_ctrl(res->ctx->ctx, 53, (void (*)(void))SNI_server_name);
-                                                              if(return_value_SSL_CTX_callback_ctrl$35 == 0l)
-                                                                tmp_if_expr$37 = (_Bool)1;
+                                                              signed long int return_value_SSL_CTX_callback_ctrl_35;
+                                                              return_value_SSL_CTX_callback_ctrl_35=SSL_CTX_callback_ctrl(res->ctx->ctx, 53, (void (*)(void))SNI_server_name);
+                                                              if(return_value_SSL_CTX_callback_ctrl_35 == 0l)
+                                                                tmp_if_expr_37 = (_Bool)1;
 
                                                               else
                                                               {
-                                                                return_value_SSL_CTX_ctrl$36=SSL_CTX_ctrl(res->ctx->ctx, 54, (signed long int)0, (void *)res->ctx);
-                                                                tmp_if_expr$37 = !(return_value_SSL_CTX_ctrl$36 != 0l) ? (_Bool)1 : (_Bool)0;
+                                                                return_value_SSL_CTX_ctrl_36=SSL_CTX_ctrl(res->ctx->ctx, 54, (signed long int)0, (void *)res->ctx);
+                                                                tmp_if_expr_37 = !(return_value_SSL_CTX_ctrl_36 != 0l) ? (_Bool)1 : (_Bool)0;
                                                               }
-                                                              if(tmp_if_expr$37)
+                                                              if(tmp_if_expr_37)
                                                                 conf_err("ListenHTTPS: can't set SNI callback");
 
                                                               pc = res->ctx;
@@ -13998,14 +13998,14 @@ static struct _listener * parse_HTTPS(void)
                                                                 if(res->disable_ssl_v3 == 1)
                                                                   SSL_CTX_ctrl(pc->ctx, 32, 0x02000000L, (void *)0);
 
-                                                                signed int return_value_getpid$38;
-                                                                return_value_getpid$38=getpid();
-                                                                signed long int return_value_random$39;
-                                                                return_value_random$39=random();
-                                                                sprintf(lin, "%d-Pound-%ld", return_value_getpid$38, return_value_random$39);
-                                                                unsigned long int return_value_strlen$40;
-                                                                return_value_strlen$40=strlen(lin);
-                                                                SSL_CTX_set_session_id_context(pc->ctx, (unsigned char *)lin, (unsigned int)return_value_strlen$40);
+                                                                signed int return_value_getpid_38;
+                                                                return_value_getpid_38=getpid();
+                                                                signed long int return_value_random_39;
+                                                                return_value_random_39=random();
+                                                                sprintf(lin, "%d-Pound-%ld", return_value_getpid_38, return_value_random_39);
+                                                                unsigned long int return_value_strlen_40;
+                                                                return_value_strlen_40=strlen(lin);
+                                                                SSL_CTX_set_session_id_context(pc->ctx, (unsigned char *)lin, (unsigned int)return_value_strlen_40);
                                                                 SSL_CTX_set_tmp_rsa_callback(pc->ctx, RSA_tmp_callback);
                                                                 SSL_CTX_set_tmp_dh_callback(pc->ctx, DH_tmp_callback);
                                                                 SSL_CTX_set_info_callback(pc->ctx, SSLINFO_callback);
@@ -14060,9 +14060,9 @@ static struct _backend * parse_be(const signed int is_emergency)
   struct hostent *host;
   struct sockaddr_in in;
   struct sockaddr_in6 in6;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _backend) /*232ul*/ );
-  res = (struct _backend *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _backend) /*232ul*/ );
+  res = (struct _backend *)return_value_malloc_1;
   if(res == ((struct _backend *)NULL))
     conf_err("BackEnd config: out of memory - aborted");
 
@@ -14079,78 +14079,78 @@ static struct _backend * parse_be(const signed int is_emergency)
   res->next = (struct _backend *)(void *)0;
   has_port = 0;
   has_addr = has_port;
-  pthread_mutex_init(&res->mut, (const union anonymous$9 *)(void *)0);
-  char *return_value_conf_fgets$2;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$3;
-  signed int return_value_pcreposix_regexec$47;
-  signed int return_value_atoi$10;
-  unsigned short int return_value_htons$11;
-  signed int return_value_atoi$12;
-  unsigned short int return_value_htons$13;
-  signed int return_value_pcreposix_regexec$46;
-  signed int return_value_pcreposix_regexec$45;
-  signed int return_value_pcreposix_regexec$44;
-  signed int return_value_pcreposix_regexec$43;
-  signed int return_value_atoi$15;
-  unsigned short int return_value_htons$16;
-  signed int return_value_atoi$17;
-  unsigned short int return_value_htons$18;
-  signed int return_value_pcreposix_regexec$42;
-  signed int return_value_atoi$21;
-  unsigned short int return_value_htons$22;
-  signed int return_value_atoi$23;
-  unsigned short int return_value_htons$24;
-  signed int return_value_pcreposix_regexec$41;
-  signed int return_value_pcreposix_regexec$40;
-  signed int return_value_pcreposix_regexec$39;
-  signed int return_value_pcreposix_regexec$38;
-  _Bool tmp_if_expr$37;
+  pthread_mutex_init(&res->mut, (const union anonymous_9 *)(void *)0);
+  char *return_value_conf_fgets_2;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_pcreposix_regexec_47;
+  signed int return_value_atoi_10;
+  unsigned short int return_value_htons_11;
+  signed int return_value_atoi_12;
+  unsigned short int return_value_htons_13;
+  signed int return_value_pcreposix_regexec_46;
+  signed int return_value_pcreposix_regexec_45;
+  signed int return_value_pcreposix_regexec_44;
+  signed int return_value_pcreposix_regexec_43;
+  signed int return_value_atoi_15;
+  unsigned short int return_value_htons_16;
+  signed int return_value_atoi_17;
+  unsigned short int return_value_htons_18;
+  signed int return_value_pcreposix_regexec_42;
+  signed int return_value_atoi_21;
+  unsigned short int return_value_htons_22;
+  signed int return_value_atoi_23;
+  unsigned short int return_value_htons_24;
+  signed int return_value_pcreposix_regexec_41;
+  signed int return_value_pcreposix_regexec_40;
+  signed int return_value_pcreposix_regexec_39;
+  signed int return_value_pcreposix_regexec_38;
+  _Bool tmp_if_expr_37;
   do
   {
-    return_value_conf_fgets$2=conf_fgets(lin, 8192);
-    if(return_value_conf_fgets$2 == ((char *)NULL))
+    return_value_conf_fgets_2=conf_fgets(lin, 8192);
+    if(return_value_conf_fgets_2 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(lin);
-    if(return_value_strlen$5 >= 1ul)
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(lin);
+    if(return_value_strlen_5 >= 1ul)
     {
-      return_value_strlen$4=strlen(lin);
-      if((signed int)lin[-1l + (signed long int)return_value_strlen$4] == 10)
+      return_value_strlen_4=strlen(lin);
+      if((signed int)lin[-1l + (signed long int)return_value_strlen_4] == 10)
       {
-        return_value_strlen$3=strlen(lin);
-        lin[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+        return_value_strlen_3=strlen(lin);
+        lin[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
       }
 
     }
 
-    signed int return_value_pcreposix_regexec$48;
-    return_value_pcreposix_regexec$48=pcreposix_regexec(&Address, lin, (unsigned long int)4, matches, 0);
-    if(return_value_pcreposix_regexec$48 == 0)
+    signed int return_value_pcreposix_regexec_48;
+    return_value_pcreposix_regexec_48=pcreposix_regexec(&Address, lin, (unsigned long int)4, matches, 0);
+    if(return_value_pcreposix_regexec_48 == 0)
     {
       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-      signed int return_value_get_host$9;
-      return_value_get_host$9=get_host(lin + (signed long int)matches[(signed long int)1].rm_so, &res->addr);
-      if(!(return_value_get_host$9 == 0))
+      signed int return_value_get_host_9;
+      return_value_get_host_9=get_host(lin + (signed long int)matches[(signed long int)1].rm_so, &res->addr);
+      if(!(return_value_get_host_9 == 0))
       {
         res->addr.ai_socktype = 1;
         res->addr.ai_family = 1;
         res->addr.ai_protocol = 0;
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc(sizeof(struct sockaddr_un) /*110ul*/ );
-        res->addr.ai_addr = (struct sockaddr *)return_value_malloc$6;
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc(sizeof(struct sockaddr_un) /*110ul*/ );
+        res->addr.ai_addr = (struct sockaddr *)return_value_malloc_6;
         if(res->addr.ai_addr == ((struct sockaddr *)NULL))
           conf_err("out of memory");
 
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(lin + (signed long int)matches[(signed long int)1].rm_so);
-        if(1ul + return_value_strlen$7 >= 109ul)
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(lin + (signed long int)matches[(signed long int)1].rm_so);
+        if(1ul + return_value_strlen_7 >= 109ul)
           conf_err("UNIX path name too long");
 
-        unsigned long int return_value_strlen$8;
-        return_value_strlen$8=strlen(lin + (signed long int)matches[(signed long int)1].rm_so);
-        res->addr.ai_addrlen = (unsigned int)(return_value_strlen$8 + (unsigned long int)1);
+        unsigned long int return_value_strlen_8;
+        return_value_strlen_8=strlen(lin + (signed long int)matches[(signed long int)1].rm_so);
+        res->addr.ai_addrlen = (unsigned int)(return_value_strlen_8 + (unsigned long int)1);
         res->addr.ai_addr->sa_family = (unsigned short int)1;
         strcpy(res->addr.ai_addr->sa_data, lin + (signed long int)matches[(signed long int)1].rm_so);
         res->addr.ai_addrlen = (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ ;
@@ -14161,26 +14161,26 @@ static struct _backend * parse_be(const signed int is_emergency)
 
     else
     {
-      return_value_pcreposix_regexec$47=pcreposix_regexec(&Port, lin, (unsigned long int)4, matches, 0);
-      if(return_value_pcreposix_regexec$47 == 0)
+      return_value_pcreposix_regexec_47=pcreposix_regexec(&Port, lin, (unsigned long int)4, matches, 0);
+      if(return_value_pcreposix_regexec_47 == 0)
       {
         switch(res->addr.ai_family)
         {
           case 2:
           {
             memcpy((void *)&in, (const void *)res->addr.ai_addr, sizeof(struct sockaddr_in) /*16ul*/ );
-            return_value_atoi$10=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
-            return_value_htons$11=htons((unsigned short int)return_value_atoi$10);
-            in.sin_port = (unsigned short int)return_value_htons$11;
+            return_value_atoi_10=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
+            return_value_htons_11=htons((unsigned short int)return_value_atoi_10);
+            in.sin_port = (unsigned short int)return_value_htons_11;
             memcpy((void *)res->addr.ai_addr, (const void *)&in, sizeof(struct sockaddr_in) /*16ul*/ );
             break;
           }
           case 10:
           {
             memcpy((void *)&in6, (const void *)res->addr.ai_addr, sizeof(struct sockaddr_in6) /*28ul*/ );
-            return_value_atoi$12=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
-            return_value_htons$13=htons((unsigned short int)return_value_atoi$12);
-            in6.sin6_port = (unsigned short int)return_value_htons$13;
+            return_value_atoi_12=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
+            return_value_htons_13=htons((unsigned short int)return_value_atoi_12);
+            in6.sin6_port = (unsigned short int)return_value_htons_13;
             memcpy((void *)res->addr.ai_addr, (const void *)&in6, sizeof(struct sockaddr_in6) /*28ul*/ );
             break;
           }
@@ -14192,8 +14192,8 @@ static struct _backend * parse_be(const signed int is_emergency)
 
       else
       {
-        return_value_pcreposix_regexec$46=pcreposix_regexec(&Priority, lin, (unsigned long int)4, matches, 0);
-        if(return_value_pcreposix_regexec$46 == 0)
+        return_value_pcreposix_regexec_46=pcreposix_regexec(&Priority, lin, (unsigned long int)4, matches, 0);
+        if(return_value_pcreposix_regexec_46 == 0)
         {
           if(!(is_emergency == 0))
             conf_err("Priority is not supported for Emergency back-ends");
@@ -14203,28 +14203,28 @@ static struct _backend * parse_be(const signed int is_emergency)
 
         else
         {
-          return_value_pcreposix_regexec$45=pcreposix_regexec(&TimeOut, lin, (unsigned long int)4, matches, 0);
-          if(return_value_pcreposix_regexec$45 == 0)
+          return_value_pcreposix_regexec_45=pcreposix_regexec(&TimeOut, lin, (unsigned long int)4, matches, 0);
+          if(return_value_pcreposix_regexec_45 == 0)
             res->to=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
           else
           {
-            return_value_pcreposix_regexec$44=pcreposix_regexec(&ConnTO, lin, (unsigned long int)4, matches, 0);
-            if(return_value_pcreposix_regexec$44 == 0)
+            return_value_pcreposix_regexec_44=pcreposix_regexec(&ConnTO, lin, (unsigned long int)4, matches, 0);
+            if(return_value_pcreposix_regexec_44 == 0)
               res->conn_to=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
             else
             {
-              return_value_pcreposix_regexec$43=pcreposix_regexec(&HAport, lin, (unsigned long int)4, matches, 0);
-              if(return_value_pcreposix_regexec$43 == 0)
+              return_value_pcreposix_regexec_43=pcreposix_regexec(&HAport, lin, (unsigned long int)4, matches, 0);
+              if(return_value_pcreposix_regexec_43 == 0)
               {
                 if(!(is_emergency == 0))
                   conf_err("HAport is not supported for Emergency back-ends");
 
                 res->ha_addr = res->addr;
-                void *return_value_malloc$14;
-                return_value_malloc$14=malloc((unsigned long int)res->addr.ai_addrlen);
-                res->ha_addr.ai_addr = (struct sockaddr *)return_value_malloc$14;
+                void *return_value_malloc_14;
+                return_value_malloc_14=malloc((unsigned long int)res->addr.ai_addrlen);
+                res->ha_addr.ai_addr = (struct sockaddr *)return_value_malloc_14;
                 if(res->ha_addr.ai_addr == ((struct sockaddr *)NULL))
                   conf_err("out of memory");
 
@@ -14234,18 +14234,18 @@ static struct _backend * parse_be(const signed int is_emergency)
                   case 2:
                   {
                     memcpy((void *)&in, (const void *)res->ha_addr.ai_addr, sizeof(struct sockaddr_in) /*16ul*/ );
-                    return_value_atoi$15=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
-                    return_value_htons$16=htons((unsigned short int)return_value_atoi$15);
-                    in.sin_port = (unsigned short int)return_value_htons$16;
+                    return_value_atoi_15=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
+                    return_value_htons_16=htons((unsigned short int)return_value_atoi_15);
+                    in.sin_port = (unsigned short int)return_value_htons_16;
                     memcpy((void *)res->ha_addr.ai_addr, (const void *)&in, sizeof(struct sockaddr_in) /*16ul*/ );
                     break;
                   }
                   case 10:
                   {
                     memcpy((void *)&in6, (const void *)res->addr.ai_addr, sizeof(struct sockaddr_in6) /*28ul*/ );
-                    return_value_atoi$17=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
-                    return_value_htons$18=htons((unsigned short int)return_value_atoi$17);
-                    in6.sin6_port = (unsigned short int)return_value_htons$18;
+                    return_value_atoi_17=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
+                    return_value_htons_18=htons((unsigned short int)return_value_atoi_17);
+                    in6.sin6_port = (unsigned short int)return_value_htons_18;
                     memcpy((void *)res->addr.ai_addr, (const void *)&in6, sizeof(struct sockaddr_in6) /*28ul*/ );
                     break;
                   }
@@ -14256,29 +14256,29 @@ static struct _backend * parse_be(const signed int is_emergency)
 
               else
               {
-                return_value_pcreposix_regexec$42=pcreposix_regexec(&HAportAddr, lin, (unsigned long int)4, matches, 0);
-                if(return_value_pcreposix_regexec$42 == 0)
+                return_value_pcreposix_regexec_42=pcreposix_regexec(&HAportAddr, lin, (unsigned long int)4, matches, 0);
+                if(return_value_pcreposix_regexec_42 == 0)
                 {
                   if(!(is_emergency == 0))
                     conf_err("HAportAddr is not supported for Emergency back-ends");
 
                   lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-                  signed int return_value_get_host$25;
-                  return_value_get_host$25=get_host(lin + (signed long int)matches[(signed long int)1].rm_so, &res->ha_addr);
-                  if(!(return_value_get_host$25 == 0))
+                  signed int return_value_get_host_25;
+                  return_value_get_host_25=get_host(lin + (signed long int)matches[(signed long int)1].rm_so, &res->ha_addr);
+                  if(!(return_value_get_host_25 == 0))
                   {
                     res->addr.ai_socktype = 1;
                     res->ha_addr.ai_family = 1;
                     res->ha_addr.ai_protocol = 0;
-                    char *return_value_strdup$19;
-                    return_value_strdup$19=strdup(lin + (signed long int)matches[(signed long int)1].rm_so);
-                    res->ha_addr.ai_addr = (struct sockaddr *)return_value_strdup$19;
+                    char *return_value_strdup_19;
+                    return_value_strdup_19=strdup(lin + (signed long int)matches[(signed long int)1].rm_so);
+                    res->ha_addr.ai_addr = (struct sockaddr *)return_value_strdup_19;
                     if(res->ha_addr.ai_addr == ((struct sockaddr *)NULL))
                       conf_err("out of memory");
 
-                    unsigned long int return_value_strlen$20;
-                    return_value_strlen$20=strlen(lin + (signed long int)matches[(signed long int)1].rm_so);
-                    res->addr.ai_addrlen = (unsigned int)(return_value_strlen$20 + (unsigned long int)1);
+                    unsigned long int return_value_strlen_20;
+                    return_value_strlen_20=strlen(lin + (signed long int)matches[(signed long int)1].rm_so);
+                    res->addr.ai_addrlen = (unsigned int)(return_value_strlen_20 + (unsigned long int)1);
                   }
 
                   else
@@ -14287,18 +14287,18 @@ static struct _backend * parse_be(const signed int is_emergency)
                       case 2:
                       {
                         memcpy((void *)&in, (const void *)res->ha_addr.ai_addr, sizeof(struct sockaddr_in) /*16ul*/ );
-                        return_value_atoi$21=atoi(lin + (signed long int)matches[(signed long int)2].rm_so);
-                        return_value_htons$22=htons((unsigned short int)return_value_atoi$21);
-                        in.sin_port = (unsigned short int)return_value_htons$22;
+                        return_value_atoi_21=atoi(lin + (signed long int)matches[(signed long int)2].rm_so);
+                        return_value_htons_22=htons((unsigned short int)return_value_atoi_21);
+                        in.sin_port = (unsigned short int)return_value_htons_22;
                         memcpy((void *)res->ha_addr.ai_addr, (const void *)&in, sizeof(struct sockaddr_in) /*16ul*/ );
                         break;
                       }
                       case 10:
                       {
                         memcpy((void *)&in6, (const void *)res->ha_addr.ai_addr, sizeof(struct sockaddr_in6) /*28ul*/ );
-                        return_value_atoi$23=atoi(lin + (signed long int)matches[(signed long int)2].rm_so);
-                        return_value_htons$24=htons((unsigned short int)return_value_atoi$23);
-                        in6.sin6_port = (unsigned short int)return_value_htons$24;
+                        return_value_atoi_23=atoi(lin + (signed long int)matches[(signed long int)2].rm_so);
+                        return_value_htons_24=htons((unsigned short int)return_value_atoi_23);
+                        in6.sin6_port = (unsigned short int)return_value_htons_24;
                         memcpy((void *)res->ha_addr.ai_addr, (const void *)&in6, sizeof(struct sockaddr_in6) /*28ul*/ );
                         break;
                       }
@@ -14309,12 +14309,12 @@ static struct _backend * parse_be(const signed int is_emergency)
 
                 else
                 {
-                  return_value_pcreposix_regexec$41=pcreposix_regexec(&HTTPS, lin, (unsigned long int)4, matches, 0);
-                  if(return_value_pcreposix_regexec$41 == 0)
+                  return_value_pcreposix_regexec_41=pcreposix_regexec(&HTTPS, lin, (unsigned long int)4, matches, 0);
+                  if(return_value_pcreposix_regexec_41 == 0)
                   {
-                    const struct ssl_method_st *return_value_SSLv23_client_method$26;
-                    return_value_SSLv23_client_method$26=SSLv23_client_method();
-                    res->ctx=SSL_CTX_new(return_value_SSLv23_client_method$26);
+                    const struct ssl_method_st *return_value_SSLv23_client_method_26;
+                    return_value_SSLv23_client_method_26=SSLv23_client_method();
+                    res->ctx=SSL_CTX_new(return_value_SSLv23_client_method_26);
                     if(res->ctx == ((struct ssl_ctx_st *)NULL))
                       conf_err("SSL_CTX_new failed - aborted");
 
@@ -14325,44 +14325,44 @@ static struct _backend * parse_be(const signed int is_emergency)
                     SSL_CTX_ctrl(res->ctx, 32, 0x00020000L, (void *)0);
                     SSL_CTX_ctrl(res->ctx, 77, 0x00040000L, (void *)0);
                     SSL_CTX_ctrl(res->ctx, 77, 0x00000004L, (void *)0);
-                    signed int return_value_getpid$27;
-                    return_value_getpid$27=getpid();
-                    signed long int return_value_random$28;
-                    return_value_random$28=random();
-                    sprintf(lin, "%d-Pound-%ld", return_value_getpid$27, return_value_random$28);
-                    unsigned long int return_value_strlen$29;
-                    return_value_strlen$29=strlen(lin);
-                    SSL_CTX_set_session_id_context(res->ctx, (unsigned char *)lin, (unsigned int)return_value_strlen$29);
+                    signed int return_value_getpid_27;
+                    return_value_getpid_27=getpid();
+                    signed long int return_value_random_28;
+                    return_value_random_28=random();
+                    sprintf(lin, "%d-Pound-%ld", return_value_getpid_27, return_value_random_28);
+                    unsigned long int return_value_strlen_29;
+                    return_value_strlen_29=strlen(lin);
+                    SSL_CTX_set_session_id_context(res->ctx, (unsigned char *)lin, (unsigned int)return_value_strlen_29);
                     SSL_CTX_set_tmp_rsa_callback(res->ctx, RSA_tmp_callback);
                     SSL_CTX_set_tmp_dh_callback(res->ctx, DH_tmp_callback);
                   }
 
                   else
                   {
-                    return_value_pcreposix_regexec$40=pcreposix_regexec(&HTTPSCert, lin, (unsigned long int)4, matches, 0);
-                    if(return_value_pcreposix_regexec$40 == 0)
+                    return_value_pcreposix_regexec_40=pcreposix_regexec(&HTTPSCert, lin, (unsigned long int)4, matches, 0);
+                    if(return_value_pcreposix_regexec_40 == 0)
                     {
-                      const struct ssl_method_st *return_value_SSLv23_client_method$30;
-                      return_value_SSLv23_client_method$30=SSLv23_client_method();
-                      res->ctx=SSL_CTX_new(return_value_SSLv23_client_method$30);
+                      const struct ssl_method_st *return_value_SSLv23_client_method_30;
+                      return_value_SSLv23_client_method_30=SSLv23_client_method();
+                      res->ctx=SSL_CTX_new(return_value_SSLv23_client_method_30);
                       if(res->ctx == ((struct ssl_ctx_st *)NULL))
                         conf_err("SSL_CTX_new failed - aborted");
 
                       SSL_CTX_set_ex_data(res->ctx, 0, (void *)(char *)res);
                       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-                      signed int return_value_SSL_CTX_use_certificate_chain_file$31;
-                      return_value_SSL_CTX_use_certificate_chain_file$31=SSL_CTX_use_certificate_chain_file(res->ctx, lin + (signed long int)matches[(signed long int)1].rm_so);
-                      if(!(return_value_SSL_CTX_use_certificate_chain_file$31 == 1))
+                      signed int return_value_SSL_CTX_use_certificate_chain_file_31;
+                      return_value_SSL_CTX_use_certificate_chain_file_31=SSL_CTX_use_certificate_chain_file(res->ctx, lin + (signed long int)matches[(signed long int)1].rm_so);
+                      if(!(return_value_SSL_CTX_use_certificate_chain_file_31 == 1))
                         conf_err("SSL_CTX_use_certificate_chain_file failed - aborted");
 
-                      signed int return_value_SSL_CTX_use_PrivateKey_file$32;
-                      return_value_SSL_CTX_use_PrivateKey_file$32=SSL_CTX_use_PrivateKey_file(res->ctx, lin + (signed long int)matches[(signed long int)1].rm_so, 1);
-                      if(!(return_value_SSL_CTX_use_PrivateKey_file$32 == 1))
+                      signed int return_value_SSL_CTX_use_PrivateKey_file_32;
+                      return_value_SSL_CTX_use_PrivateKey_file_32=SSL_CTX_use_PrivateKey_file(res->ctx, lin + (signed long int)matches[(signed long int)1].rm_so, 1);
+                      if(!(return_value_SSL_CTX_use_PrivateKey_file_32 == 1))
                         conf_err("SSL_CTX_use_PrivateKey_file failed - aborted");
 
-                      signed int return_value_SSL_CTX_check_private_key$33;
-                      return_value_SSL_CTX_check_private_key$33=SSL_CTX_check_private_key(res->ctx);
-                      if(!(return_value_SSL_CTX_check_private_key$33 == 1))
+                      signed int return_value_SSL_CTX_check_private_key_33;
+                      return_value_SSL_CTX_check_private_key_33=SSL_CTX_check_private_key(res->ctx);
+                      if(!(return_value_SSL_CTX_check_private_key_33 == 1))
                         conf_err("SSL_CTX_check_private_key failed - aborted");
 
                       SSL_CTX_set_verify(res->ctx, 0x00, (signed int (*)(signed int, struct x509_store_ctx_st *))(void *)0);
@@ -14371,38 +14371,38 @@ static struct _backend * parse_be(const signed int is_emergency)
                       SSL_CTX_ctrl(res->ctx, 32, 0x00020000L, (void *)0);
                       SSL_CTX_ctrl(res->ctx, 77, 0x00040000L, (void *)0);
                       SSL_CTX_ctrl(res->ctx, 77, 0x00000004L, (void *)0);
-                      signed int return_value_getpid$34;
-                      return_value_getpid$34=getpid();
-                      signed long int return_value_random$35;
-                      return_value_random$35=random();
-                      sprintf(lin, "%d-Pound-%ld", return_value_getpid$34, return_value_random$35);
-                      unsigned long int return_value_strlen$36;
-                      return_value_strlen$36=strlen(lin);
-                      SSL_CTX_set_session_id_context(res->ctx, (unsigned char *)lin, (unsigned int)return_value_strlen$36);
+                      signed int return_value_getpid_34;
+                      return_value_getpid_34=getpid();
+                      signed long int return_value_random_35;
+                      return_value_random_35=random();
+                      sprintf(lin, "%d-Pound-%ld", return_value_getpid_34, return_value_random_35);
+                      unsigned long int return_value_strlen_36;
+                      return_value_strlen_36=strlen(lin);
+                      SSL_CTX_set_session_id_context(res->ctx, (unsigned char *)lin, (unsigned int)return_value_strlen_36);
                       SSL_CTX_set_tmp_rsa_callback(res->ctx, RSA_tmp_callback);
                       SSL_CTX_set_tmp_dh_callback(res->ctx, DH_tmp_callback);
                     }
 
                     else
                     {
-                      return_value_pcreposix_regexec$39=pcreposix_regexec(&Disabled, lin, (unsigned long int)4, matches, 0);
-                      if(return_value_pcreposix_regexec$39 == 0)
+                      return_value_pcreposix_regexec_39=pcreposix_regexec(&Disabled, lin, (unsigned long int)4, matches, 0);
+                      if(return_value_pcreposix_regexec_39 == 0)
                         res->disabled=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                       else
                       {
-                        return_value_pcreposix_regexec$38=pcreposix_regexec(&End, lin, (unsigned long int)4, matches, 0);
-                        if(return_value_pcreposix_regexec$38 == 0)
+                        return_value_pcreposix_regexec_38=pcreposix_regexec(&End, lin, (unsigned long int)4, matches, 0);
+                        if(return_value_pcreposix_regexec_38 == 0)
                         {
                           if(has_addr == 0)
                             conf_err("BackEnd missing Address - aborted");
 
                           if(res->addr.ai_family == 2)
-                            tmp_if_expr$37 = (_Bool)1;
+                            tmp_if_expr_37 = (_Bool)1;
 
                           else
-                            tmp_if_expr$37 = res->addr.ai_family == 10 ? (_Bool)1 : (_Bool)0;
-                          if(tmp_if_expr$37)
+                            tmp_if_expr_37 = res->addr.ai_family == 10 ? (_Bool)1 : (_Bool)0;
+                          if(tmp_if_expr_37)
                           {
                             if(has_port == 0)
                               conf_err("BackEnd missing Port - aborted");
@@ -14439,51 +14439,51 @@ static void parse_file(void)
   struct _listener *lstn;
   signed int i;
   struct engine_st *e;
-  char *return_value_conf_fgets$1;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$2;
-  signed int return_value_pcreposix_regexec$26;
-  signed int return_value_pcreposix_regexec$25;
-  signed int return_value_pcreposix_regexec$24;
-  signed int return_value_pcreposix_regexec$23;
-  signed int return_value_pcreposix_regexec$22;
-  signed int return_value_strcmp$5;
-  signed int return_value_pcreposix_regexec$21;
-  signed int return_value_pcreposix_regexec$20;
-  signed int return_value_pcreposix_regexec$19;
-  signed int return_value_pcreposix_regexec$18;
-  signed int return_value_pcreposix_regexec$17;
-  signed int return_value_pcreposix_regexec$16;
-  signed int return_value_pcreposix_regexec$15;
-  signed int return_value_pcreposix_regexec$14;
-  signed int return_value_pcreposix_regexec$13;
-  signed int return_value_pcreposix_regexec$12;
-  signed int return_value_pcreposix_regexec$11;
-  signed int return_value_pcreposix_regexec$10;
-  signed int return_value_pcreposix_regexec$9;
-  signed int return_value_pcreposix_regexec$8;
+  char *return_value_conf_fgets_1;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_2;
+  signed int return_value_pcreposix_regexec_26;
+  signed int return_value_pcreposix_regexec_25;
+  signed int return_value_pcreposix_regexec_24;
+  signed int return_value_pcreposix_regexec_23;
+  signed int return_value_pcreposix_regexec_22;
+  signed int return_value_strcmp_5;
+  signed int return_value_pcreposix_regexec_21;
+  signed int return_value_pcreposix_regexec_20;
+  signed int return_value_pcreposix_regexec_19;
+  signed int return_value_pcreposix_regexec_18;
+  signed int return_value_pcreposix_regexec_17;
+  signed int return_value_pcreposix_regexec_16;
+  signed int return_value_pcreposix_regexec_15;
+  signed int return_value_pcreposix_regexec_14;
+  signed int return_value_pcreposix_regexec_13;
+  signed int return_value_pcreposix_regexec_12;
+  signed int return_value_pcreposix_regexec_11;
+  signed int return_value_pcreposix_regexec_10;
+  signed int return_value_pcreposix_regexec_9;
+  signed int return_value_pcreposix_regexec_8;
   do
   {
-    return_value_conf_fgets$1=conf_fgets(lin, 8192);
-    if(return_value_conf_fgets$1 == ((char *)NULL))
+    return_value_conf_fgets_1=conf_fgets(lin, 8192);
+    if(return_value_conf_fgets_1 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(lin);
-    if(return_value_strlen$4 >= 1ul)
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(lin);
+    if(return_value_strlen_4 >= 1ul)
     {
-      return_value_strlen$3=strlen(lin);
-      if((signed int)lin[-1l + (signed long int)return_value_strlen$3] == 10)
+      return_value_strlen_3=strlen(lin);
+      if((signed int)lin[-1l + (signed long int)return_value_strlen_3] == 10)
       {
-        return_value_strlen$2=strlen(lin);
-        lin[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+        return_value_strlen_2=strlen(lin);
+        lin[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
       }
 
     }
 
-    signed int return_value_pcreposix_regexec$27;
-    return_value_pcreposix_regexec$27=pcreposix_regexec(&User, lin, (unsigned long int)4, matches, 0);
-    if(return_value_pcreposix_regexec$27 == 0)
+    signed int return_value_pcreposix_regexec_27;
+    return_value_pcreposix_regexec_27=pcreposix_regexec(&User, lin, (unsigned long int)4, matches, 0);
+    if(return_value_pcreposix_regexec_27 == 0)
     {
       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
       user=strdup(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -14494,8 +14494,8 @@ static void parse_file(void)
 
     else
     {
-      return_value_pcreposix_regexec$26=pcreposix_regexec(&Group, lin, (unsigned long int)4, matches, 0);
-      if(return_value_pcreposix_regexec$26 == 0)
+      return_value_pcreposix_regexec_26=pcreposix_regexec(&Group, lin, (unsigned long int)4, matches, 0);
+      if(return_value_pcreposix_regexec_26 == 0)
       {
         lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
         group=strdup(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -14506,8 +14506,8 @@ static void parse_file(void)
 
       else
       {
-        return_value_pcreposix_regexec$25=pcreposix_regexec(&RootJail, lin, (unsigned long int)4, matches, 0);
-        if(return_value_pcreposix_regexec$25 == 0)
+        return_value_pcreposix_regexec_25=pcreposix_regexec(&RootJail, lin, (unsigned long int)4, matches, 0);
+        if(return_value_pcreposix_regexec_25 == 0)
         {
           lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
           root_jail=strdup(lin + (signed long int)matches[(signed long int)1].rm_so);
@@ -14518,20 +14518,20 @@ static void parse_file(void)
 
         else
         {
-          return_value_pcreposix_regexec$24=pcreposix_regexec(&Daemon, lin, (unsigned long int)4, matches, 0);
-          if(return_value_pcreposix_regexec$24 == 0)
+          return_value_pcreposix_regexec_24=pcreposix_regexec(&Daemon, lin, (unsigned long int)4, matches, 0);
+          if(return_value_pcreposix_regexec_24 == 0)
             daemonize=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
           else
           {
-            return_value_pcreposix_regexec$23=pcreposix_regexec(&Threads, lin, (unsigned long int)4, matches, 0);
-            if(return_value_pcreposix_regexec$23 == 0)
+            return_value_pcreposix_regexec_23=pcreposix_regexec(&Threads, lin, (unsigned long int)4, matches, 0);
+            if(return_value_pcreposix_regexec_23 == 0)
               numthreads=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
             else
             {
-              return_value_pcreposix_regexec$22=pcreposix_regexec(&LogFacility, lin, (unsigned long int)4, matches, 0);
-              if(return_value_pcreposix_regexec$22 == 0)
+              return_value_pcreposix_regexec_22=pcreposix_regexec(&LogFacility, lin, (unsigned long int)4, matches, 0);
+              if(return_value_pcreposix_regexec_22 == 0)
               {
                 lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                 if((signed int)lin[(signed long int)matches[1l].rm_so] == 45)
@@ -14542,8 +14542,8 @@ static void parse_file(void)
                   i = 0;
                   for( ; !(facilitynames[(signed long int)i].c_name == ((char *)NULL)); i = i + 1)
                   {
-                    return_value_strcmp$5=strcmp(facilitynames[(signed long int)i].c_name, lin + (signed long int)matches[(signed long int)1].rm_so);
-                    if(return_value_strcmp$5 == 0)
+                    return_value_strcmp_5=strcmp(facilitynames[(signed long int)i].c_name, lin + (signed long int)matches[(signed long int)1].rm_so);
+                    if(return_value_strcmp_5 == 0)
                     {
                       def_facility = facilitynames[(signed long int)i].c_val;
                       break;
@@ -14555,56 +14555,56 @@ static void parse_file(void)
 
               else
               {
-                return_value_pcreposix_regexec$21=pcreposix_regexec(&Grace, lin, (unsigned long int)4, matches, 0);
-                if(return_value_pcreposix_regexec$21 == 0)
+                return_value_pcreposix_regexec_21=pcreposix_regexec(&Grace, lin, (unsigned long int)4, matches, 0);
+                if(return_value_pcreposix_regexec_21 == 0)
                   grace=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                 else
                 {
-                  return_value_pcreposix_regexec$20=pcreposix_regexec(&LogLevel, lin, (unsigned long int)4, matches, 0);
-                  if(return_value_pcreposix_regexec$20 == 0)
+                  return_value_pcreposix_regexec_20=pcreposix_regexec(&LogLevel, lin, (unsigned long int)4, matches, 0);
+                  if(return_value_pcreposix_regexec_20 == 0)
                     log_level=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                   else
                   {
-                    return_value_pcreposix_regexec$19=pcreposix_regexec(&Client, lin, (unsigned long int)4, matches, 0);
-                    if(return_value_pcreposix_regexec$19 == 0)
+                    return_value_pcreposix_regexec_19=pcreposix_regexec(&Client, lin, (unsigned long int)4, matches, 0);
+                    if(return_value_pcreposix_regexec_19 == 0)
                       clnt_to=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                     else
                     {
-                      return_value_pcreposix_regexec$18=pcreposix_regexec(&Alive, lin, (unsigned long int)4, matches, 0);
-                      if(return_value_pcreposix_regexec$18 == 0)
+                      return_value_pcreposix_regexec_18=pcreposix_regexec(&Alive, lin, (unsigned long int)4, matches, 0);
+                      if(return_value_pcreposix_regexec_18 == 0)
                         alive_to=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                       else
                       {
-                        return_value_pcreposix_regexec$17=pcreposix_regexec(&DynScale, lin, (unsigned long int)4, matches, 0);
-                        if(return_value_pcreposix_regexec$17 == 0)
+                        return_value_pcreposix_regexec_17=pcreposix_regexec(&DynScale, lin, (unsigned long int)4, matches, 0);
+                        if(return_value_pcreposix_regexec_17 == 0)
                           dynscale=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                         else
                         {
-                          return_value_pcreposix_regexec$16=pcreposix_regexec(&TimeOut, lin, (unsigned long int)4, matches, 0);
-                          if(return_value_pcreposix_regexec$16 == 0)
+                          return_value_pcreposix_regexec_16=pcreposix_regexec(&TimeOut, lin, (unsigned long int)4, matches, 0);
+                          if(return_value_pcreposix_regexec_16 == 0)
                             be_to=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                           else
                           {
-                            return_value_pcreposix_regexec$15=pcreposix_regexec(&ConnTO, lin, (unsigned long int)4, matches, 0);
-                            if(return_value_pcreposix_regexec$15 == 0)
+                            return_value_pcreposix_regexec_15=pcreposix_regexec(&ConnTO, lin, (unsigned long int)4, matches, 0);
+                            if(return_value_pcreposix_regexec_15 == 0)
                               be_connto=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                             else
                             {
-                              return_value_pcreposix_regexec$14=pcreposix_regexec(&IgnoreCase, lin, (unsigned long int)4, matches, 0);
-                              if(return_value_pcreposix_regexec$14 == 0)
+                              return_value_pcreposix_regexec_14=pcreposix_regexec(&IgnoreCase, lin, (unsigned long int)4, matches, 0);
+                              if(return_value_pcreposix_regexec_14 == 0)
                                 ignore_case=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                               else
                               {
-                                return_value_pcreposix_regexec$13=pcreposix_regexec(&SSLEngine, lin, (unsigned long int)4, matches, 0);
-                                if(return_value_pcreposix_regexec$13 == 0)
+                                return_value_pcreposix_regexec_13=pcreposix_regexec(&SSLEngine, lin, (unsigned long int)4, matches, 0);
+                                if(return_value_pcreposix_regexec_13 == 0)
                                 {
                                   lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                                   ENGINE_load_builtin_engines();
@@ -14612,17 +14612,17 @@ static void parse_file(void)
                                   if(e == ((struct engine_st *)NULL))
                                     conf_err("could not find engine");
 
-                                  signed int return_value_ENGINE_init$6;
-                                  return_value_ENGINE_init$6=ENGINE_init(e);
-                                  if(return_value_ENGINE_init$6 == 0)
+                                  signed int return_value_ENGINE_init_6;
+                                  return_value_ENGINE_init_6=ENGINE_init(e);
+                                  if(return_value_ENGINE_init_6 == 0)
                                   {
                                     ENGINE_free(e);
                                     conf_err("could not init engine");
                                   }
 
-                                  signed int return_value_ENGINE_set_default$7;
-                                  return_value_ENGINE_set_default$7=ENGINE_set_default(e, (unsigned int)0xFFFF);
-                                  if(return_value_ENGINE_set_default$7 == 0)
+                                  signed int return_value_ENGINE_set_default_7;
+                                  return_value_ENGINE_set_default_7=ENGINE_set_default(e, (unsigned int)0xFFFF);
+                                  if(return_value_ENGINE_set_default_7 == 0)
                                   {
                                     ENGINE_free(e);
                                     conf_err("could not set all defaults");
@@ -14634,8 +14634,8 @@ static void parse_file(void)
 
                                 else
                                 {
-                                  return_value_pcreposix_regexec$12=pcreposix_regexec(&Control, lin, (unsigned long int)4, matches, 0);
-                                  if(return_value_pcreposix_regexec$12 == 0)
+                                  return_value_pcreposix_regexec_12=pcreposix_regexec(&Control, lin, (unsigned long int)4, matches, 0);
+                                  if(return_value_pcreposix_regexec_12 == 0)
                                   {
                                     if(!(ctrl_name == ((char *)NULL)))
                                       conf_err("Control multiply defined - aborted");
@@ -14646,8 +14646,8 @@ static void parse_file(void)
 
                                   else
                                   {
-                                    return_value_pcreposix_regexec$11=pcreposix_regexec(&ListenHTTP, lin, (unsigned long int)4, matches, 0);
-                                    if(return_value_pcreposix_regexec$11 == 0)
+                                    return_value_pcreposix_regexec_11=pcreposix_regexec(&ListenHTTP, lin, (unsigned long int)4, matches, 0);
+                                    if(return_value_pcreposix_regexec_11 == 0)
                                     {
                                       if(listeners == ((struct _listener *)NULL))
                                         listeners=parse_HTTP();
@@ -14663,8 +14663,8 @@ static void parse_file(void)
 
                                     else
                                     {
-                                      return_value_pcreposix_regexec$10=pcreposix_regexec(&ListenHTTPS, lin, (unsigned long int)4, matches, 0);
-                                      if(return_value_pcreposix_regexec$10 == 0)
+                                      return_value_pcreposix_regexec_10=pcreposix_regexec(&ListenHTTPS, lin, (unsigned long int)4, matches, 0);
+                                      if(return_value_pcreposix_regexec_10 == 0)
                                       {
                                         if(listeners == ((struct _listener *)NULL))
                                           listeners=parse_HTTPS();
@@ -14680,8 +14680,8 @@ static void parse_file(void)
 
                                       else
                                       {
-                                        return_value_pcreposix_regexec$9=pcreposix_regexec(&Service, lin, (unsigned long int)4, matches, 0);
-                                        if(return_value_pcreposix_regexec$9 == 0)
+                                        return_value_pcreposix_regexec_9=pcreposix_regexec(&Service, lin, (unsigned long int)4, matches, 0);
+                                        if(return_value_pcreposix_regexec_9 == 0)
                                         {
                                           if(services == ((struct _service *)NULL))
                                             services=parse_service((const char *)(void *)0);
@@ -14697,8 +14697,8 @@ static void parse_file(void)
 
                                         else
                                         {
-                                          return_value_pcreposix_regexec$8=pcreposix_regexec(&ServiceName, lin, (unsigned long int)4, matches, 0);
-                                          if(return_value_pcreposix_regexec$8 == 0)
+                                          return_value_pcreposix_regexec_8=pcreposix_regexec(&ServiceName, lin, (unsigned long int)4, matches, 0);
+                                          if(return_value_pcreposix_regexec_8 == 0)
                                           {
                                             lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
                                             if(services == ((struct _service *)NULL))
@@ -14751,71 +14751,71 @@ static struct _service * parse_service(const char *svc_name)
   struct _backend *be;
   struct _matcher *m;
   signed int ign_case;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _service) /*296ul*/ );
-  res = (struct _service *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _service) /*296ul*/ );
+  res = (struct _service *)return_value_malloc_1;
   if(res == ((struct _service *)NULL))
     conf_err("Service config: out of memory - aborted");
 
   memset((void *)res, 0, sizeof(struct _service) /*296ul*/ );
-  res->sess_type = (enum anonymous$18)SESS_NONE;
+  res->sess_type = (enum anonymous_18)SESS_NONE;
   res->dynscale = dynscale;
-  pthread_mutex_init(&res->mut, (const union anonymous$9 *)(void *)0);
+  pthread_mutex_init(&res->mut, (const union anonymous_9 *)(void *)0);
   if(!(svc_name == ((const char *)NULL)))
     strncpy(res->name, svc_name, (unsigned long int)127);
 
-  struct lhash_st *return_value_lh_new$2;
-  return_value_lh_new$2=lh_new(t_LHASH_HASH, t_LHASH_COMP);
-  res->sessions = (struct lhash_st_TABNODE *)return_value_lh_new$2;
+  struct lhash_st *return_value_lh_new_2;
+  return_value_lh_new_2=lh_new(t_LHASH_HASH, t_LHASH_COMP);
+  res->sessions = (struct lhash_st_TABNODE *)return_value_lh_new_2;
   if(res->sessions == ((struct lhash_st_TABNODE *)NULL))
     conf_err("lh_new failed - aborted");
 
   ign_case = ignore_case;
-  char *return_value_conf_fgets$3;
-  unsigned long int return_value_strlen$5;
-  unsigned long int return_value_strlen$4;
-  signed int return_value_pcreposix_regexec$32;
-  signed int return_value_pcreposix_regexec$31;
-  signed int return_value_pcreposix_regexec$30;
-  signed int return_value_pcreposix_regexec$29;
-  signed int return_value_pcreposix_regexec$28;
-  signed int return_value_pcreposix_regexec$27;
-  signed int return_value_pcreposix_regexec$26;
-  signed int return_value_pcreposix_regexec$25;
-  signed int return_value_pcreposix_regexec$24;
-  signed int return_value_pcreposix_regexec$23;
-  signed int return_value_pcreposix_regexec$22;
+  char *return_value_conf_fgets_3;
+  unsigned long int return_value_strlen_5;
+  unsigned long int return_value_strlen_4;
+  signed int return_value_pcreposix_regexec_32;
+  signed int return_value_pcreposix_regexec_31;
+  signed int return_value_pcreposix_regexec_30;
+  signed int return_value_pcreposix_regexec_29;
+  signed int return_value_pcreposix_regexec_28;
+  signed int return_value_pcreposix_regexec_27;
+  signed int return_value_pcreposix_regexec_26;
+  signed int return_value_pcreposix_regexec_25;
+  signed int return_value_pcreposix_regexec_24;
+  signed int return_value_pcreposix_regexec_23;
+  signed int return_value_pcreposix_regexec_22;
   do
   {
-    return_value_conf_fgets$3=conf_fgets(lin, 8192);
-    if(return_value_conf_fgets$3 == ((char *)NULL))
+    return_value_conf_fgets_3=conf_fgets(lin, 8192);
+    if(return_value_conf_fgets_3 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(lin);
-    if(return_value_strlen$6 >= 1ul)
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(lin);
+    if(return_value_strlen_6 >= 1ul)
     {
-      return_value_strlen$5=strlen(lin);
-      if((signed int)lin[-1l + (signed long int)return_value_strlen$5] == 10)
+      return_value_strlen_5=strlen(lin);
+      if((signed int)lin[-1l + (signed long int)return_value_strlen_5] == 10)
       {
-        return_value_strlen$4=strlen(lin);
-        lin[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+        return_value_strlen_4=strlen(lin);
+        lin[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
       }
 
     }
 
-    signed int return_value_pcreposix_regexec$33;
-    return_value_pcreposix_regexec$33=pcreposix_regexec(&URL, lin, (unsigned long int)4, matches, 0);
-    if(return_value_pcreposix_regexec$33 == 0)
+    signed int return_value_pcreposix_regexec_33;
+    return_value_pcreposix_regexec_33=pcreposix_regexec(&URL, lin, (unsigned long int)4, matches, 0);
+    if(return_value_pcreposix_regexec_33 == 0)
     {
       if(!(res->url == ((struct _matcher *)NULL)))
       {
         m = res->url;
         for( ; !(m->next == ((struct _matcher *)NULL)); m = m->next)
           ;
-        void *return_value_malloc$7;
-        return_value_malloc$7=malloc(sizeof(struct _matcher) /*32ul*/ );
-        m->next = (struct _matcher *)return_value_malloc$7;
+        void *return_value_malloc_7;
+        return_value_malloc_7=malloc(sizeof(struct _matcher) /*32ul*/ );
+        m->next = (struct _matcher *)return_value_malloc_7;
         if(m->next == ((struct _matcher *)NULL))
           conf_err("URL config: out of memory - aborted");
 
@@ -14824,9 +14824,9 @@ static struct _service * parse_service(const char *svc_name)
 
       else
       {
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc(sizeof(struct _matcher) /*32ul*/ );
-        res->url = (struct _matcher *)return_value_malloc$8;
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc(sizeof(struct _matcher) /*32ul*/ );
+        res->url = (struct _matcher *)return_value_malloc_8;
         if(res->url == ((struct _matcher *)NULL))
           conf_err("URL config: out of memory - aborted");
 
@@ -14834,26 +14834,26 @@ static struct _service * parse_service(const char *svc_name)
       }
       memset((void *)m, 0, sizeof(struct _matcher) /*32ul*/ );
       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-      signed int return_value_pcreposix_regcomp$9;
-      return_value_pcreposix_regcomp$9=pcreposix_regcomp(&m->pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0002 | 0 | (ign_case != 0 ? 0x0001 : 0));
-      if(!(return_value_pcreposix_regcomp$9 == 0))
+      signed int return_value_pcreposix_regcomp_9;
+      return_value_pcreposix_regcomp_9=pcreposix_regcomp(&m->pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0002 | 0 | (ign_case != 0 ? 0x0001 : 0));
+      if(!(return_value_pcreposix_regcomp_9 == 0))
         conf_err("URL bad pattern - aborted");
 
     }
 
     else
     {
-      return_value_pcreposix_regexec$32=pcreposix_regexec(&HeadRequire, lin, (unsigned long int)4, matches, 0);
-      if(return_value_pcreposix_regexec$32 == 0)
+      return_value_pcreposix_regexec_32=pcreposix_regexec(&HeadRequire, lin, (unsigned long int)4, matches, 0);
+      if(return_value_pcreposix_regexec_32 == 0)
       {
         if(!(res->req_head == ((struct _matcher *)NULL)))
         {
           m = res->req_head;
           for( ; !(m->next == ((struct _matcher *)NULL)); m = m->next)
             ;
-          void *return_value_malloc$10;
-          return_value_malloc$10=malloc(sizeof(struct _matcher) /*32ul*/ );
-          m->next = (struct _matcher *)return_value_malloc$10;
+          void *return_value_malloc_10;
+          return_value_malloc_10=malloc(sizeof(struct _matcher) /*32ul*/ );
+          m->next = (struct _matcher *)return_value_malloc_10;
           if(m->next == ((struct _matcher *)NULL))
             conf_err("HeadRequire config: out of memory - aborted");
 
@@ -14862,9 +14862,9 @@ static struct _service * parse_service(const char *svc_name)
 
         else
         {
-          void *return_value_malloc$11;
-          return_value_malloc$11=malloc(sizeof(struct _matcher) /*32ul*/ );
-          res->req_head = (struct _matcher *)return_value_malloc$11;
+          void *return_value_malloc_11;
+          return_value_malloc_11=malloc(sizeof(struct _matcher) /*32ul*/ );
+          res->req_head = (struct _matcher *)return_value_malloc_11;
           if(res->req_head == ((struct _matcher *)NULL))
             conf_err("HeadRequire config: out of memory - aborted");
 
@@ -14872,26 +14872,26 @@ static struct _service * parse_service(const char *svc_name)
         }
         memset((void *)m, 0, sizeof(struct _matcher) /*32ul*/ );
         lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-        signed int return_value_pcreposix_regcomp$12;
-        return_value_pcreposix_regcomp$12=pcreposix_regcomp(&m->pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0001 | 0x0002 | 0);
-        if(!(return_value_pcreposix_regcomp$12 == 0))
+        signed int return_value_pcreposix_regcomp_12;
+        return_value_pcreposix_regcomp_12=pcreposix_regcomp(&m->pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0001 | 0x0002 | 0);
+        if(!(return_value_pcreposix_regcomp_12 == 0))
           conf_err("HeadRequire bad pattern - aborted");
 
       }
 
       else
       {
-        return_value_pcreposix_regexec$31=pcreposix_regexec(&HeadDeny, lin, (unsigned long int)4, matches, 0);
-        if(return_value_pcreposix_regexec$31 == 0)
+        return_value_pcreposix_regexec_31=pcreposix_regexec(&HeadDeny, lin, (unsigned long int)4, matches, 0);
+        if(return_value_pcreposix_regexec_31 == 0)
         {
           if(!(res->deny_head == ((struct _matcher *)NULL)))
           {
             m = res->deny_head;
             for( ; !(m->next == ((struct _matcher *)NULL)); m = m->next)
               ;
-            void *return_value_malloc$13;
-            return_value_malloc$13=malloc(sizeof(struct _matcher) /*32ul*/ );
-            m->next = (struct _matcher *)return_value_malloc$13;
+            void *return_value_malloc_13;
+            return_value_malloc_13=malloc(sizeof(struct _matcher) /*32ul*/ );
+            m->next = (struct _matcher *)return_value_malloc_13;
             if(m->next == ((struct _matcher *)NULL))
               conf_err("HeadDeny config: out of memory - aborted");
 
@@ -14900,9 +14900,9 @@ static struct _service * parse_service(const char *svc_name)
 
           else
           {
-            void *return_value_malloc$14;
-            return_value_malloc$14=malloc(sizeof(struct _matcher) /*32ul*/ );
-            res->deny_head = (struct _matcher *)return_value_malloc$14;
+            void *return_value_malloc_14;
+            return_value_malloc_14=malloc(sizeof(struct _matcher) /*32ul*/ );
+            res->deny_head = (struct _matcher *)return_value_malloc_14;
             if(res->deny_head == ((struct _matcher *)NULL))
               conf_err("HeadDeny config: out of memory - aborted");
 
@@ -14910,26 +14910,26 @@ static struct _service * parse_service(const char *svc_name)
           }
           memset((void *)m, 0, sizeof(struct _matcher) /*32ul*/ );
           lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
-          signed int return_value_pcreposix_regcomp$15;
-          return_value_pcreposix_regcomp$15=pcreposix_regcomp(&m->pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0001 | 0x0002 | 0);
-          if(!(return_value_pcreposix_regcomp$15 == 0))
+          signed int return_value_pcreposix_regcomp_15;
+          return_value_pcreposix_regcomp_15=pcreposix_regcomp(&m->pat, lin + (signed long int)matches[(signed long int)1].rm_so, 0x0001 | 0x0002 | 0);
+          if(!(return_value_pcreposix_regcomp_15 == 0))
             conf_err("HeadDeny bad pattern - aborted");
 
         }
 
         else
         {
-          return_value_pcreposix_regexec$30=pcreposix_regexec(&Redirect, lin, (unsigned long int)4, matches, 0);
-          if(return_value_pcreposix_regexec$30 == 0)
+          return_value_pcreposix_regexec_30=pcreposix_regexec(&Redirect, lin, (unsigned long int)4, matches, 0);
+          if(return_value_pcreposix_regexec_30 == 0)
           {
             if(!(res->backends == ((struct _backend *)NULL)))
             {
               be = res->backends;
               for( ; !(be->next == ((struct _backend *)NULL)); be = be->next)
                 ;
-              void *return_value_malloc$16;
-              return_value_malloc$16=malloc(sizeof(struct _backend) /*232ul*/ );
-              be->next = (struct _backend *)return_value_malloc$16;
+              void *return_value_malloc_16;
+              return_value_malloc_16=malloc(sizeof(struct _backend) /*232ul*/ );
+              be->next = (struct _backend *)return_value_malloc_16;
               if(be->next == ((struct _backend *)NULL))
                 conf_err("Redirect config: out of memory - aborted");
 
@@ -14938,9 +14938,9 @@ static struct _service * parse_service(const char *svc_name)
 
             else
             {
-              void *return_value_malloc$17;
-              return_value_malloc$17=malloc(sizeof(struct _backend) /*232ul*/ );
-              res->backends = (struct _backend *)return_value_malloc$17;
+              void *return_value_malloc_17;
+              return_value_malloc_17=malloc(sizeof(struct _backend) /*232ul*/ );
+              res->backends = (struct _backend *)return_value_malloc_17;
               if(res->backends == ((struct _backend *)NULL))
                 conf_err("Redirect config: out of memory - aborted");
 
@@ -14950,15 +14950,15 @@ static struct _service * parse_service(const char *svc_name)
             be->be_type = 302;
             be->priority = 1;
             be->alive = 1;
-            pthread_mutex_init(&be->mut, (const union anonymous$9 *)(void *)0);
+            pthread_mutex_init(&be->mut, (const union anonymous_9 *)(void *)0);
             lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
             be->url=strdup(lin + (signed long int)matches[(signed long int)1].rm_so);
             if(be->url == ((char *)NULL))
               conf_err("Redirector config: out of memory - aborted");
 
-            signed int return_value_pcreposix_regexec$18;
-            return_value_pcreposix_regexec$18=pcreposix_regexec(&LOCATION, be->url, (unsigned long int)4, matches, 0);
-            if(!(return_value_pcreposix_regexec$18 == 0))
+            signed int return_value_pcreposix_regexec_18;
+            return_value_pcreposix_regexec_18=pcreposix_regexec(&LOCATION, be->url, (unsigned long int)4, matches, 0);
+            if(!(return_value_pcreposix_regexec_18 == 0))
               conf_err("Redirect bad URL - aborted");
 
             be->redir_req = matches[(signed long int)3].rm_eo - matches[(signed long int)3].rm_so;
@@ -14969,17 +14969,17 @@ static struct _service * parse_service(const char *svc_name)
 
           else
           {
-            return_value_pcreposix_regexec$29=pcreposix_regexec(&RedirectN, lin, (unsigned long int)4, matches, 0);
-            if(return_value_pcreposix_regexec$29 == 0)
+            return_value_pcreposix_regexec_29=pcreposix_regexec(&RedirectN, lin, (unsigned long int)4, matches, 0);
+            if(return_value_pcreposix_regexec_29 == 0)
             {
               if(!(res->backends == ((struct _backend *)NULL)))
               {
                 be = res->backends;
                 for( ; !(be->next == ((struct _backend *)NULL)); be = be->next)
                   ;
-                void *return_value_malloc$19;
-                return_value_malloc$19=malloc(sizeof(struct _backend) /*232ul*/ );
-                be->next = (struct _backend *)return_value_malloc$19;
+                void *return_value_malloc_19;
+                return_value_malloc_19=malloc(sizeof(struct _backend) /*232ul*/ );
+                be->next = (struct _backend *)return_value_malloc_19;
                 if(be->next == ((struct _backend *)NULL))
                   conf_err("Redirect config: out of memory - aborted");
 
@@ -14988,9 +14988,9 @@ static struct _service * parse_service(const char *svc_name)
 
               else
               {
-                void *return_value_malloc$20;
-                return_value_malloc$20=malloc(sizeof(struct _backend) /*232ul*/ );
-                res->backends = (struct _backend *)return_value_malloc$20;
+                void *return_value_malloc_20;
+                return_value_malloc_20=malloc(sizeof(struct _backend) /*232ul*/ );
+                res->backends = (struct _backend *)return_value_malloc_20;
                 if(res->backends == ((struct _backend *)NULL))
                   conf_err("Redirect config: out of memory - aborted");
 
@@ -15000,15 +15000,15 @@ static struct _service * parse_service(const char *svc_name)
               be->be_type=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
               be->priority = 1;
               be->alive = 1;
-              pthread_mutex_init(&be->mut, (const union anonymous$9 *)(void *)0);
+              pthread_mutex_init(&be->mut, (const union anonymous_9 *)(void *)0);
               lin[(signed long int)matches[(signed long int)2].rm_eo] = (char)0;
               be->url=strdup(lin + (signed long int)matches[(signed long int)2].rm_so);
               if(be->url == ((char *)NULL))
                 conf_err("Redirector config: out of memory - aborted");
 
-              signed int return_value_pcreposix_regexec$21;
-              return_value_pcreposix_regexec$21=pcreposix_regexec(&LOCATION, be->url, (unsigned long int)4, matches, 0);
-              if(!(return_value_pcreposix_regexec$21 == 0))
+              signed int return_value_pcreposix_regexec_21;
+              return_value_pcreposix_regexec_21=pcreposix_regexec(&LOCATION, be->url, (unsigned long int)4, matches, 0);
+              if(!(return_value_pcreposix_regexec_21 == 0))
                 conf_err("Redirect bad URL - aborted");
 
               be->redir_req = matches[(signed long int)3].rm_eo - matches[(signed long int)3].rm_so;
@@ -15019,8 +15019,8 @@ static struct _service * parse_service(const char *svc_name)
 
             else
             {
-              return_value_pcreposix_regexec$28=pcreposix_regexec(&BackEnd, lin, (unsigned long int)4, matches, 0);
-              if(return_value_pcreposix_regexec$28 == 0)
+              return_value_pcreposix_regexec_28=pcreposix_regexec(&BackEnd, lin, (unsigned long int)4, matches, 0);
+              if(return_value_pcreposix_regexec_28 == 0)
               {
                 if(!(res->backends == ((struct _backend *)NULL)))
                 {
@@ -15036,38 +15036,38 @@ static struct _service * parse_service(const char *svc_name)
 
               else
               {
-                return_value_pcreposix_regexec$27=pcreposix_regexec(&Emergency, lin, (unsigned long int)4, matches, 0);
-                if(return_value_pcreposix_regexec$27 == 0)
+                return_value_pcreposix_regexec_27=pcreposix_regexec(&Emergency, lin, (unsigned long int)4, matches, 0);
+                if(return_value_pcreposix_regexec_27 == 0)
                   res->emergency=parse_be(1);
 
                 else
                 {
-                  return_value_pcreposix_regexec$26=pcreposix_regexec(&Session, lin, (unsigned long int)4, matches, 0);
-                  if(return_value_pcreposix_regexec$26 == 0)
+                  return_value_pcreposix_regexec_26=pcreposix_regexec(&Session, lin, (unsigned long int)4, matches, 0);
+                  if(return_value_pcreposix_regexec_26 == 0)
                     parse_sess(res);
 
                   else
                   {
-                    return_value_pcreposix_regexec$25=pcreposix_regexec(&DynScale, lin, (unsigned long int)4, matches, 0);
-                    if(return_value_pcreposix_regexec$25 == 0)
+                    return_value_pcreposix_regexec_25=pcreposix_regexec(&DynScale, lin, (unsigned long int)4, matches, 0);
+                    if(return_value_pcreposix_regexec_25 == 0)
                       res->dynscale=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                     else
                     {
-                      return_value_pcreposix_regexec$24=pcreposix_regexec(&IgnoreCase, lin, (unsigned long int)4, matches, 0);
-                      if(return_value_pcreposix_regexec$24 == 0)
+                      return_value_pcreposix_regexec_24=pcreposix_regexec(&IgnoreCase, lin, (unsigned long int)4, matches, 0);
+                      if(return_value_pcreposix_regexec_24 == 0)
                         ign_case=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                       else
                       {
-                        return_value_pcreposix_regexec$23=pcreposix_regexec(&Disabled, lin, (unsigned long int)4, matches, 0);
-                        if(return_value_pcreposix_regexec$23 == 0)
+                        return_value_pcreposix_regexec_23=pcreposix_regexec(&Disabled, lin, (unsigned long int)4, matches, 0);
+                        if(return_value_pcreposix_regexec_23 == 0)
                           res->disabled=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
                         else
                         {
-                          return_value_pcreposix_regexec$22=pcreposix_regexec(&End, lin, (unsigned long int)4, matches, 0);
-                          if(return_value_pcreposix_regexec$22 == 0)
+                          return_value_pcreposix_regexec_22=pcreposix_regexec(&End, lin, (unsigned long int)4, matches, 0);
+                          if(return_value_pcreposix_regexec_22 == 0)
                           {
                             be = res->backends;
                             for( ; !(be == ((struct _backend *)NULL)); be = be->next)
@@ -15102,81 +15102,81 @@ static void parse_sess(struct _service * const svc)
   char lin[8192l];
   char *cp;
   char *parm = (char *)(void *)0;
-  char *return_value_conf_fgets$1;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$2;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_pcreposix_regexec$25;
-  signed int return_value_pcreposix_regexec$24;
-  signed int return_value_pcreposix_regexec$23;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
+  char *return_value_conf_fgets_1;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_2;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_pcreposix_regexec_25;
+  signed int return_value_pcreposix_regexec_24;
+  signed int return_value_pcreposix_regexec_23;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
   do
   {
-    return_value_conf_fgets$1=conf_fgets(lin, 8192);
-    if(return_value_conf_fgets$1 == ((char *)NULL))
+    return_value_conf_fgets_1=conf_fgets(lin, 8192);
+    if(return_value_conf_fgets_1 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(lin);
-    if(return_value_strlen$4 >= 1ul)
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(lin);
+    if(return_value_strlen_4 >= 1ul)
     {
-      return_value_strlen$3=strlen(lin);
-      if((signed int)lin[-1l + (signed long int)return_value_strlen$3] == 10)
+      return_value_strlen_3=strlen(lin);
+      if((signed int)lin[-1l + (signed long int)return_value_strlen_3] == 10)
       {
-        return_value_strlen$2=strlen(lin);
-        lin[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+        return_value_strlen_2=strlen(lin);
+        lin[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
       }
 
     }
 
-    signed int return_value_pcreposix_regexec$26;
-    return_value_pcreposix_regexec$26=pcreposix_regexec(&Type, lin, (unsigned long int)4, matches, 0);
-    if(return_value_pcreposix_regexec$26 == 0)
+    signed int return_value_pcreposix_regexec_26;
+    return_value_pcreposix_regexec_26=pcreposix_regexec(&Type, lin, (unsigned long int)4, matches, 0);
+    if(return_value_pcreposix_regexec_26 == 0)
     {
       if(!((signed int)svc->sess_type == SESS_NONE))
         conf_err("Multiple Session types in one Service - aborted");
 
       lin[(signed long int)matches[(signed long int)1].rm_eo] = (char)0;
       cp = lin + (signed long int)matches[(signed long int)1].rm_so;
-      signed int return_value_strcasecmp$10;
-      return_value_strcasecmp$10=strcasecmp(cp, "IP");
-      if(return_value_strcasecmp$10 == 0)
-        svc->sess_type = (enum anonymous$18)SESS_IP;
+      signed int return_value_strcasecmp_10;
+      return_value_strcasecmp_10=strcasecmp(cp, "IP");
+      if(return_value_strcasecmp_10 == 0)
+        svc->sess_type = (enum anonymous_18)SESS_IP;
 
       else
       {
-        return_value_strcasecmp$9=strcasecmp(cp, "COOKIE");
-        if(return_value_strcasecmp$9 == 0)
-          svc->sess_type = (enum anonymous$18)SESS_COOKIE;
+        return_value_strcasecmp_9=strcasecmp(cp, "COOKIE");
+        if(return_value_strcasecmp_9 == 0)
+          svc->sess_type = (enum anonymous_18)SESS_COOKIE;
 
         else
         {
-          return_value_strcasecmp$8=strcasecmp(cp, "URL");
-          if(return_value_strcasecmp$8 == 0)
-            svc->sess_type = (enum anonymous$18)SESS_URL;
+          return_value_strcasecmp_8=strcasecmp(cp, "URL");
+          if(return_value_strcasecmp_8 == 0)
+            svc->sess_type = (enum anonymous_18)SESS_URL;
 
           else
           {
-            return_value_strcasecmp$7=strcasecmp(cp, "PARM");
-            if(return_value_strcasecmp$7 == 0)
-              svc->sess_type = (enum anonymous$18)SESS_PARM;
+            return_value_strcasecmp_7=strcasecmp(cp, "PARM");
+            if(return_value_strcasecmp_7 == 0)
+              svc->sess_type = (enum anonymous_18)SESS_PARM;
 
             else
             {
-              return_value_strcasecmp$6=strcasecmp(cp, "BASIC");
-              if(return_value_strcasecmp$6 == 0)
-                svc->sess_type = (enum anonymous$18)SESS_BASIC;
+              return_value_strcasecmp_6=strcasecmp(cp, "BASIC");
+              if(return_value_strcasecmp_6 == 0)
+                svc->sess_type = (enum anonymous_18)SESS_BASIC;
 
               else
               {
-                return_value_strcasecmp$5=strcasecmp(cp, "HEADER");
-                if(return_value_strcasecmp$5 == 0)
-                  svc->sess_type = (enum anonymous$18)SESS_HEADER;
+                return_value_strcasecmp_5=strcasecmp(cp, "HEADER");
+                if(return_value_strcasecmp_5 == 0)
+                  svc->sess_type = (enum anonymous_18)SESS_HEADER;
 
                 else
                   conf_err("Unknown Session type");
@@ -15189,14 +15189,14 @@ static void parse_sess(struct _service * const svc)
 
     else
     {
-      return_value_pcreposix_regexec$25=pcreposix_regexec(&TTL, lin, (unsigned long int)4, matches, 0);
-      if(return_value_pcreposix_regexec$25 == 0)
+      return_value_pcreposix_regexec_25=pcreposix_regexec(&TTL, lin, (unsigned long int)4, matches, 0);
+      if(return_value_pcreposix_regexec_25 == 0)
         svc->sess_ttl=atoi(lin + (signed long int)matches[(signed long int)1].rm_so);
 
       else
       {
-        return_value_pcreposix_regexec$24=pcreposix_regexec(&ID, lin, (unsigned long int)4, matches, 0);
-        if(return_value_pcreposix_regexec$24 == 0)
+        return_value_pcreposix_regexec_24=pcreposix_regexec(&ID, lin, (unsigned long int)4, matches, 0);
+        if(return_value_pcreposix_regexec_24 == 0)
         {
           if(!((signed int)svc->sess_type == SESS_COOKIE))
           {
@@ -15218,8 +15218,8 @@ static void parse_sess(struct _service * const svc)
 
         else
         {
-          return_value_pcreposix_regexec$23=pcreposix_regexec(&End, lin, (unsigned long int)4, matches, 0);
-          if(return_value_pcreposix_regexec$23 == 0)
+          return_value_pcreposix_regexec_23=pcreposix_regexec(&End, lin, (unsigned long int)4, matches, 0);
+          if(return_value_pcreposix_regexec_23 == 0)
           {
             if((signed int)svc->sess_type == SESS_NONE)
               conf_err("Session type not defined - aborted");
@@ -15228,16 +15228,16 @@ static void parse_sess(struct _service * const svc)
               conf_err("Session TTL not defined - aborted");
 
             if((signed int)svc->sess_type == SESS_COOKIE)
-              tmp_if_expr$11 = (_Bool)1;
+              tmp_if_expr_11 = (_Bool)1;
 
             else
-              tmp_if_expr$11 = (signed int)svc->sess_type == SESS_URL ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$11)
-              tmp_if_expr$12 = (_Bool)1;
+              tmp_if_expr_11 = (signed int)svc->sess_type == SESS_URL ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_11)
+              tmp_if_expr_12 = (_Bool)1;
 
             else
-              tmp_if_expr$12 = (signed int)svc->sess_type == SESS_HEADER ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$12)
+              tmp_if_expr_12 = (signed int)svc->sess_type == SESS_HEADER ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_12)
             {
               if(parm == ((char *)NULL))
                 conf_err("Session ID not defined - aborted");
@@ -15247,14 +15247,14 @@ static void parse_sess(struct _service * const svc)
             if((signed int)svc->sess_type == SESS_COOKIE)
             {
               snprintf(lin, (unsigned long int)(8192 - 1), "Cookie[^:]*:.*[ \t]%s=", parm);
-              signed int return_value_pcreposix_regcomp$13;
-              return_value_pcreposix_regcomp$13=pcreposix_regcomp(&svc->sess_start, lin, 0x0001 | 0x0002 | 0);
-              if(!(return_value_pcreposix_regcomp$13 == 0))
+              signed int return_value_pcreposix_regcomp_13;
+              return_value_pcreposix_regcomp_13=pcreposix_regcomp(&svc->sess_start, lin, 0x0001 | 0x0002 | 0);
+              if(!(return_value_pcreposix_regcomp_13 == 0))
                 conf_err("COOKIE pattern failed - aborted");
 
-              signed int return_value_pcreposix_regcomp$14;
-              return_value_pcreposix_regcomp$14=pcreposix_regcomp(&svc->sess_pat, "([^;]*)", 0x0001 | 0x0002 | 0);
-              if(!(return_value_pcreposix_regcomp$14 == 0))
+              signed int return_value_pcreposix_regcomp_14;
+              return_value_pcreposix_regcomp_14=pcreposix_regcomp(&svc->sess_pat, "([^;]*)", 0x0001 | 0x0002 | 0);
+              if(!(return_value_pcreposix_regcomp_14 == 0))
                 conf_err("COOKIE pattern failed - aborted");
 
             }
@@ -15263,14 +15263,14 @@ static void parse_sess(struct _service * const svc)
               if((signed int)svc->sess_type == SESS_URL)
               {
                 snprintf(lin, (unsigned long int)(8192 - 1), "[?&]%s=", parm);
-                signed int return_value_pcreposix_regcomp$15;
-                return_value_pcreposix_regcomp$15=pcreposix_regcomp(&svc->sess_start, lin, 0x0001 | 0x0002 | 0);
-                if(!(return_value_pcreposix_regcomp$15 == 0))
+                signed int return_value_pcreposix_regcomp_15;
+                return_value_pcreposix_regcomp_15=pcreposix_regcomp(&svc->sess_start, lin, 0x0001 | 0x0002 | 0);
+                if(!(return_value_pcreposix_regcomp_15 == 0))
                   conf_err("URL pattern failed - aborted");
 
-                signed int return_value_pcreposix_regcomp$16;
-                return_value_pcreposix_regcomp$16=pcreposix_regcomp(&svc->sess_pat, "([^&;#]*)", 0x0001 | 0x0002 | 0);
-                if(!(return_value_pcreposix_regcomp$16 == 0))
+                signed int return_value_pcreposix_regcomp_16;
+                return_value_pcreposix_regcomp_16=pcreposix_regcomp(&svc->sess_pat, "([^&;#]*)", 0x0001 | 0x0002 | 0);
+                if(!(return_value_pcreposix_regcomp_16 == 0))
                   conf_err("URL pattern failed - aborted");
 
               }
@@ -15278,14 +15278,14 @@ static void parse_sess(struct _service * const svc)
               else
                 if((signed int)svc->sess_type == SESS_PARM)
                 {
-                  signed int return_value_pcreposix_regcomp$17;
-                  return_value_pcreposix_regcomp$17=pcreposix_regcomp(&svc->sess_start, ";", 0x0001 | 0x0002 | 0);
-                  if(!(return_value_pcreposix_regcomp$17 == 0))
+                  signed int return_value_pcreposix_regcomp_17;
+                  return_value_pcreposix_regcomp_17=pcreposix_regcomp(&svc->sess_start, ";", 0x0001 | 0x0002 | 0);
+                  if(!(return_value_pcreposix_regcomp_17 == 0))
                     conf_err("PARM pattern failed - aborted");
 
-                  signed int return_value_pcreposix_regcomp$18;
-                  return_value_pcreposix_regcomp$18=pcreposix_regcomp(&svc->sess_pat, "([^?]*)", 0x0001 | 0x0002 | 0);
-                  if(!(return_value_pcreposix_regcomp$18 == 0))
+                  signed int return_value_pcreposix_regcomp_18;
+                  return_value_pcreposix_regcomp_18=pcreposix_regcomp(&svc->sess_pat, "([^?]*)", 0x0001 | 0x0002 | 0);
+                  if(!(return_value_pcreposix_regcomp_18 == 0))
                     conf_err("PARM pattern failed - aborted");
 
                 }
@@ -15293,14 +15293,14 @@ static void parse_sess(struct _service * const svc)
                 else
                   if((signed int)svc->sess_type == SESS_BASIC)
                   {
-                    signed int return_value_pcreposix_regcomp$19;
-                    return_value_pcreposix_regcomp$19=pcreposix_regcomp(&svc->sess_start, "Authorization:[ \t]*Basic[ \t]*", 0x0001 | 0x0002 | 0);
-                    if(!(return_value_pcreposix_regcomp$19 == 0))
+                    signed int return_value_pcreposix_regcomp_19;
+                    return_value_pcreposix_regcomp_19=pcreposix_regcomp(&svc->sess_start, "Authorization:[ \t]*Basic[ \t]*", 0x0001 | 0x0002 | 0);
+                    if(!(return_value_pcreposix_regcomp_19 == 0))
                       conf_err("BASIC pattern failed - aborted");
 
-                    signed int return_value_pcreposix_regcomp$20;
-                    return_value_pcreposix_regcomp$20=pcreposix_regcomp(&svc->sess_pat, "([^ \t]*)", 0x0001 | 0x0002 | 0);
-                    if(!(return_value_pcreposix_regcomp$20 == 0))
+                    signed int return_value_pcreposix_regcomp_20;
+                    return_value_pcreposix_regcomp_20=pcreposix_regcomp(&svc->sess_pat, "([^ \t]*)", 0x0001 | 0x0002 | 0);
+                    if(!(return_value_pcreposix_regcomp_20 == 0))
                       conf_err("BASIC pattern failed - aborted");
 
                   }
@@ -15309,14 +15309,14 @@ static void parse_sess(struct _service * const svc)
                     if((signed int)svc->sess_type == SESS_HEADER)
                     {
                       snprintf(lin, (unsigned long int)(8192 - 1), "%s:[ \t]*", parm);
-                      signed int return_value_pcreposix_regcomp$21;
-                      return_value_pcreposix_regcomp$21=pcreposix_regcomp(&svc->sess_start, lin, 0x0001 | 0x0002 | 0);
-                      if(!(return_value_pcreposix_regcomp$21 == 0))
+                      signed int return_value_pcreposix_regcomp_21;
+                      return_value_pcreposix_regcomp_21=pcreposix_regcomp(&svc->sess_start, lin, 0x0001 | 0x0002 | 0);
+                      if(!(return_value_pcreposix_regcomp_21 == 0))
                         conf_err("HEADER pattern failed - aborted");
 
-                      signed int return_value_pcreposix_regcomp$22;
-                      return_value_pcreposix_regcomp$22=pcreposix_regcomp(&svc->sess_pat, "([^ \t]*)", 0x0001 | 0x0002 | 0);
-                      if(!(return_value_pcreposix_regcomp$22 == 0))
+                      signed int return_value_pcreposix_regcomp_22;
+                      return_value_pcreposix_regcomp_22=pcreposix_regcomp(&svc->sess_pat, "([^ \t]*)", 0x0001 | 0x0002 | 0);
+                      if(!(return_value_pcreposix_regcomp_22 == 0))
                         conf_err("HEADER pattern failed - aborted");
 
                     }
@@ -15346,9 +15346,9 @@ __CPROVER_DUMP_L42:
 extern signed int put_thr_arg(struct _thr_arg *arg)
 {
   struct _thr_arg *res;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _thr_arg) /*72ul*/ );
-  res = (struct _thr_arg *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _thr_arg) /*72ul*/ );
+  res = (struct _thr_arg *)return_value_malloc_1;
   if(res == ((struct _thr_arg *)NULL))
   {
     logmsg(4, "thr_arg malloc");
@@ -15381,15 +15381,15 @@ extern signed int put_thr_arg(struct _thr_arg *arg)
 // file svc.c line 526
 static struct _backend * rand_backend(struct _backend *be, signed int pri)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(be == ((struct _backend *)NULL)))
   {
     if(be->alive == 0)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = be->disabled != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = be->disabled != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       be = be->next;
 
     else
@@ -15431,18 +15431,18 @@ static void redirect_reply(struct bio_st * const c, const char *url, const signe
   }
   i = 0;
   j = 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   for( ; !(url[(signed long int)i] == 0) && !(j >= 8192); i = i + 1)
   {
     ch = url[(signed long int)i];
     if((signed int)ch == 38 || (signed int)ch == 45 || (signed int)ch == 46 || (signed int)ch == 47 || (signed int)ch == 58 || (signed int)ch == 59 || (signed int)ch == 61 || (signed int)ch == 63 || (signed int)ch == 95 || (signed int)ch >= 48 && !((signed int)ch >= 58) || (signed int)ch >= 65 && !((signed int)ch >= 91) || (signed int)ch >= 97 && !((signed int)ch >= 123))
     {
-      tmp_post$1 = j;
+      tmp_post_1 = j;
       j = j + 1;
-      urlbuf[(signed long int)tmp_post$1] = ch;
+      urlbuf[(signed long int)tmp_post_1] = ch;
     }
 
     else
@@ -15450,39 +15450,39 @@ static void redirect_reply(struct bio_st * const c, const char *url, const signe
       if(j >= 8189)
         break;
 
-      tmp_post$2 = j;
+      tmp_post_2 = j;
       j = j + 1;
-      urlbuf[(signed long int)tmp_post$2] = (char)37;
-      tmp_post$3 = j;
+      urlbuf[(signed long int)tmp_post_2] = (char)37;
+      tmp_post_3 = j;
       j = j + 1;
-      urlbuf[(signed long int)tmp_post$3]=hexchar((char)((signed int)ch >> 4));
-      tmp_post$4 = j;
+      urlbuf[(signed long int)tmp_post_3]=hexchar((char)((signed int)ch >> 4));
+      tmp_post_4 = j;
       j = j + 1;
-      urlbuf[(signed long int)tmp_post$4]=hexchar(ch);
+      urlbuf[(signed long int)tmp_post_4]=hexchar(ch);
     }
   }
-  signed int tmp_post$5 = j;
+  signed int tmp_post_5 = j;
   j = j + 1;
-  urlbuf[(signed long int)tmp_post$5] = (char)0;
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen(redir_pre);
-  unsigned long int return_value_strlen$7;
-  return_value_strlen$7=strlen(redir_post);
-  unsigned long int return_value_strlen$8;
-  return_value_strlen$8=strlen(urlbuf);
-  snprintf(rep, sizeof(char [8192l]) /*8192ul*/ , "HTTP/1.0 %d %s\r\nLocation: %s\r\nContent-Type: text/html\r\nContent-Length: %u\r\n\r\n", code, code_msg, (const void *)urlbuf, (unsigned int)(return_value_strlen$6 + return_value_strlen$7 + return_value_strlen$8));
-  unsigned long int return_value_strlen$9;
-  return_value_strlen$9=strlen(rep);
-  BIO_write(c, (const void *)rep, (signed int)return_value_strlen$9);
-  unsigned long int return_value_strlen$10;
-  return_value_strlen$10=strlen(redir_pre);
-  BIO_write(c, (const void *)redir_pre, (signed int)return_value_strlen$10);
-  unsigned long int return_value_strlen$11;
-  return_value_strlen$11=strlen(urlbuf);
-  BIO_write(c, (const void *)urlbuf, (signed int)return_value_strlen$11);
-  unsigned long int return_value_strlen$12;
-  return_value_strlen$12=strlen(redir_post);
-  BIO_write(c, (const void *)redir_post, (signed int)return_value_strlen$12);
+  urlbuf[(signed long int)tmp_post_5] = (char)0;
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen(redir_pre);
+  unsigned long int return_value_strlen_7;
+  return_value_strlen_7=strlen(redir_post);
+  unsigned long int return_value_strlen_8;
+  return_value_strlen_8=strlen(urlbuf);
+  snprintf(rep, sizeof(char [8192l]) /*8192ul*/ , "HTTP/1.0 %d %s\r\nLocation: %s\r\nContent-Type: text/html\r\nContent-Length: %u\r\n\r\n", code, code_msg, (const void *)urlbuf, (unsigned int)(return_value_strlen_6 + return_value_strlen_7 + return_value_strlen_8));
+  unsigned long int return_value_strlen_9;
+  return_value_strlen_9=strlen(rep);
+  BIO_write(c, (const void *)rep, (signed int)return_value_strlen_9);
+  unsigned long int return_value_strlen_10;
+  return_value_strlen_10=strlen(redir_pre);
+  BIO_write(c, (const void *)redir_pre, (signed int)return_value_strlen_10);
+  unsigned long int return_value_strlen_11;
+  return_value_strlen_11=strlen(urlbuf);
+  BIO_write(c, (const void *)urlbuf, (signed int)return_value_strlen_11);
+  unsigned long int return_value_strlen_12;
+  return_value_strlen_12=strlen(redir_post);
+  BIO_write(c, (const void *)redir_post, (signed int)return_value_strlen_12);
   BIO_ctrl(c, 11, (signed long int)0, (void *)0);
   goto __CPROVER_DUMP_L9;
 
@@ -15492,13 +15492,13 @@ __CPROVER_DUMP_L9:
 
 // sel_be
 // file svc.c line 1619
-static struct _backend * sel_be(const struct anonymous$0 *cmd)
+static struct _backend * sel_be(const struct anonymous_0 *cmd)
 {
   struct _backend *be;
   struct _service *svc;
   signed int i;
   svc=sel_svc(cmd);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(svc == ((struct _service *)NULL))
     return (struct _backend *)(void *)0;
 
@@ -15509,11 +15509,11 @@ static struct _backend * sel_be(const struct anonymous$0 *cmd)
     do
     {
       if(!(be == ((struct _backend *)NULL)))
-        tmp_if_expr$1 = i < cmd->backend ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = i < cmd->backend ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       i = i + 1;
@@ -15526,11 +15526,11 @@ static struct _backend * sel_be(const struct anonymous$0 *cmd)
 
 // sel_lstn
 // file svc.c line 1581
-static struct _listener * sel_lstn(const struct anonymous$0 *cmd)
+static struct _listener * sel_lstn(const struct anonymous_0 *cmd)
 {
   struct _listener *lstn;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(cmd->listener >= 0))
     return (struct _listener *)(void *)0;
 
@@ -15541,11 +15541,11 @@ static struct _listener * sel_lstn(const struct anonymous$0 *cmd)
     do
     {
       if(!(lstn == ((struct _listener *)NULL)))
-        tmp_if_expr$1 = i < cmd->listener ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = i < cmd->listener ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       i = i + 1;
@@ -15558,7 +15558,7 @@ static struct _listener * sel_lstn(const struct anonymous$0 *cmd)
 
 // sel_svc
 // file svc.c line 1597
-static struct _service * sel_svc(const struct anonymous$0 *cmd)
+static struct _service * sel_svc(const struct anonymous_0 *cmd)
 {
   struct _service *svc;
   struct _listener *lstn;
@@ -15575,15 +15575,15 @@ static struct _service * sel_svc(const struct anonymous$0 *cmd)
     svc = lstn->services;
   }
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(svc == ((struct _service *)NULL)))
-      tmp_if_expr$1 = i < cmd->service ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = i < cmd->service ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     i = i + 1;
@@ -15597,23 +15597,23 @@ static struct _service * sel_svc(const struct anonymous$0 *cmd)
 // file http.c line 179
 static signed int strip_eol(char *lin)
 {
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   while(!(*lin == 0))
   {
     if((signed int)*lin == 10)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       if((signed int)*lin == 13)
-        tmp_if_expr$1 = (signed int)lin[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)lin[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
     {
       *lin = (char)0;
       return 1;
@@ -15631,9 +15631,9 @@ static signed int t_LHASH_COMP(const void *arg1, const void *arg2)
 {
   const struct _tn *a = (const struct _tn *)arg1;
   const struct _tn *b = (const struct _tn *)arg2;
-  signed int return_value_t_cmp$1;
-  return_value_t_cmp$1=t_cmp(a, b);
-  return return_value_t_cmp$1;
+  signed int return_value_t_cmp_1;
+  return_value_t_cmp_1=t_cmp(a, b);
+  return return_value_t_cmp_1;
 }
 
 // t_LHASH_HASH
@@ -15641,9 +15641,9 @@ static signed int t_LHASH_COMP(const void *arg1, const void *arg2)
 static unsigned long int t_LHASH_HASH(const void *arg)
 {
   const struct _tn *a = (const struct _tn *)arg;
-  unsigned long int return_value_t_hash$1;
-  return_value_t_hash$1=t_hash(a);
-  return return_value_t_hash$1;
+  unsigned long int return_value_t_hash_1;
+  return_value_t_hash_1=t_hash(a);
+  return return_value_t_hash_1;
 }
 
 // t_add
@@ -15652,9 +15652,9 @@ static void t_add(struct lhash_st_TABNODE * const tab, const char *key, const vo
 {
   struct _tn *t;
   struct _tn *old;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _tn) /*24ul*/ );
-  t = (struct _tn *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _tn) /*24ul*/ );
+  t = (struct _tn *)return_value_malloc_1;
   if(t == ((struct _tn *)NULL))
     logmsg(4, "t_add() content malloc");
 
@@ -15681,9 +15681,9 @@ static void t_add(struct lhash_st_TABNODE * const tab, const char *key, const vo
       {
         memcpy(t->content, content, cont_len);
         t->last_acc=time((signed long int *)(void *)0);
-        void *return_value_lh_insert$2;
-        return_value_lh_insert$2=lh_insert((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0), (void *)(1 != 0 ? t : (struct _tn *)0));
-        old = (struct _tn *)return_value_lh_insert$2;
+        void *return_value_lh_insert_2;
+        return_value_lh_insert_2=lh_insert((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0), (void *)(1 != 0 ? t : (struct _tn *)0));
+        old = (struct _tn *)return_value_lh_insert_2;
         if(!(old == ((struct _tn *)NULL)))
         {
           free((void *)old->key);
@@ -15705,14 +15705,14 @@ __CPROVER_DUMP_L5:
 // file svc.c line 194
 static void t_clean(struct lhash_st_TABNODE * const tab, void * const content, const unsigned long int cont_len)
 {
-  struct anonymous$11 a;
+  struct anonymous_11 a;
   signed int down_load;
   a.tab = tab;
   a.content = content;
   a.cont_len = (signed int)cont_len;
   down_load = (signed int)((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0))->down_load;
   ((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0))->down_load = (unsigned long int)0;
-  lh_doall_arg((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0), t_cont_LHASH_DOALL_ARG, (void *)(1 != 0 ? &a : (struct anonymous$11 *)0));
+  lh_doall_arg((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0), t_cont_LHASH_DOALL_ARG, (void *)(1 != 0 ? &a : (struct anonymous_11 *)0));
   ((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0))->down_load = (unsigned long int)down_load;
   goto __CPROVER_DUMP_L1;
 
@@ -15724,9 +15724,9 @@ __CPROVER_DUMP_L1:
 // file config.c line 456
 static signed int t_cmp(const struct _tn *d1, const struct _tn *d2)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(d1->key, d2->key);
-  return return_value_strcmp$1;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(d1->key, d2->key);
+  return return_value_strcmp_1;
 }
 
 // t_cont_LHASH_DOALL_ARG
@@ -15734,22 +15734,22 @@ static signed int t_cmp(const struct _tn *d1, const struct _tn *d2)
 void t_cont_LHASH_DOALL_ARG(void *arg1, void *arg2)
 {
   struct _tn *a = (struct _tn *)arg1;
-  struct anonymous$11 *b = (struct anonymous$11 *)arg2;
+  struct anonymous_11 *b = (struct anonymous_11 *)arg2;
   t_cont_doall_arg(a, b);
 }
 
 // t_cont_doall_arg
 // file svc.c line 167
-static void t_cont_doall_arg(struct _tn *t, struct anonymous$11 *arg)
+static void t_cont_doall_arg(struct _tn *t, struct anonymous_11 *arg)
 {
   struct _tn *res;
-  signed int return_value_memcmp$2;
-  return_value_memcmp$2=memcmp(t->content, arg->content, (unsigned long int)arg->cont_len);
-  void *return_value_lh_delete$1;
-  if(return_value_memcmp$2 == 0)
+  signed int return_value_memcmp_2;
+  return_value_memcmp_2=memcmp(t->content, arg->content, (unsigned long int)arg->cont_len);
+  void *return_value_lh_delete_1;
+  if(return_value_memcmp_2 == 0)
   {
-    return_value_lh_delete$1=lh_delete((struct lhash_st *)(void *)arg->tab, (void *)(1 != 0 ? t : (struct _tn *)0));
-    res = (struct _tn *)return_value_lh_delete$1;
+    return_value_lh_delete_1=lh_delete((struct lhash_st *)(void *)arg->tab, (void *)(1 != 0 ? t : (struct _tn *)0));
+    res = (struct _tn *)return_value_lh_delete_1;
     if(!(res == ((struct _tn *)NULL)))
     {
       free((void *)res->key);
@@ -15797,9 +15797,9 @@ static void t_dump_doall_arg(struct _tn *t, struct anonymous *arg)
 
   write(arg->control_sock, (const void *)t, sizeof(struct _tn) /*24ul*/ );
   write(arg->control_sock, (const void *)&n_be, sizeof(signed int) /*4ul*/ );
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(t->key);
-  sz = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(t->key);
+  sz = (signed int)return_value_strlen_1;
   write(arg->control_sock, (const void *)&sz, sizeof(signed int) /*4ul*/ );
   write(arg->control_sock, (const void *)t->key, (unsigned long int)sz);
   goto __CPROVER_DUMP_L4;
@@ -15812,13 +15812,13 @@ __CPROVER_DUMP_L4:
 // file svc.c line 148
 static void t_expire(struct lhash_st_TABNODE * const tab, const signed long int lim)
 {
-  struct anonymous$11 a;
+  struct anonymous_11 a;
   signed int down_load;
   a.tab = tab;
   a.lim = lim;
   down_load = (signed int)((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0))->down_load;
   ((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0))->down_load = (unsigned long int)0;
-  lh_doall_arg((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0), t_old_LHASH_DOALL_ARG, (void *)(1 != 0 ? &a : (struct anonymous$11 *)0));
+  lh_doall_arg((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0), t_old_LHASH_DOALL_ARG, (void *)(1 != 0 ? &a : (struct anonymous_11 *)0));
   ((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0))->down_load = (unsigned long int)down_load;
   goto __CPROVER_DUMP_L1;
 
@@ -15833,9 +15833,9 @@ static void * t_find(struct lhash_st_TABNODE * const tab, char * const key)
   struct _tn t;
   struct _tn *res;
   t.key = key;
-  void *return_value_lh_retrieve$1;
-  return_value_lh_retrieve$1=lh_retrieve((struct lhash_st *)tab, (const void *)&t);
-  res = (struct _tn *)return_value_lh_retrieve$1;
+  void *return_value_lh_retrieve_1;
+  return_value_lh_retrieve_1=lh_retrieve((struct lhash_st *)tab, (const void *)&t);
+  res = (struct _tn *)return_value_lh_retrieve_1;
   if(!(res == ((struct _tn *)NULL)))
   {
     res->last_acc=time((signed long int *)(void *)0);
@@ -15853,10 +15853,10 @@ static unsigned long int t_hash(const struct _tn *e)
   unsigned long int res;
   char *k = e->key;
   res = (unsigned long int)2166136261;
-  char *tmp_post$1;
-  for( ; !(*k == 0); res = (res ^ (unsigned long int)*tmp_post$1) * (unsigned long int)16777619 & (unsigned long int)0xFFFFFFFF)
+  char *tmp_post_1;
+  for( ; !(*k == 0); res = (res ^ (unsigned long int)*tmp_post_1) * (unsigned long int)16777619 & (unsigned long int)0xFFFFFFFF)
   {
-    tmp_post$1 = k;
+    tmp_post_1 = k;
     k = k + 1l;
   }
   return res;
@@ -15867,20 +15867,20 @@ static unsigned long int t_hash(const struct _tn *e)
 void t_old_LHASH_DOALL_ARG(void *arg1, void *arg2)
 {
   struct _tn *a = (struct _tn *)arg1;
-  struct anonymous$11 *b = (struct anonymous$11 *)arg2;
+  struct anonymous_11 *b = (struct anonymous_11 *)arg2;
   t_old_doall_arg(a, b);
 }
 
 // t_old_doall_arg
 // file svc.c line 121
-static void t_old_doall_arg(struct _tn *t, struct anonymous$11 *a)
+static void t_old_doall_arg(struct _tn *t, struct anonymous_11 *a)
 {
   struct _tn *res;
-  void *return_value_lh_delete$1;
+  void *return_value_lh_delete_1;
   if(!(t->last_acc >= a->lim))
   {
-    return_value_lh_delete$1=lh_delete((struct lhash_st *)(void *)a->tab, (void *)(1 != 0 ? t : (struct _tn *)0));
-    res = (struct _tn *)return_value_lh_delete$1;
+    return_value_lh_delete_1=lh_delete((struct lhash_st *)(void *)a->tab, (void *)(1 != 0 ? t : (struct _tn *)0));
+    res = (struct _tn *)return_value_lh_delete_1;
     if(!(res == ((struct _tn *)NULL)))
     {
       free((void *)res->key);
@@ -15903,9 +15903,9 @@ static void t_remove(struct lhash_st_TABNODE * const tab, char * const key)
   struct _tn t;
   struct _tn *res;
   t.key = key;
-  void *return_value_lh_delete$1;
-  return_value_lh_delete$1=lh_delete((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0), (void *)(1 != 0 ? &t : (struct _tn *)0));
-  res = (struct _tn *)return_value_lh_delete$1;
+  void *return_value_lh_delete_1;
+  return_value_lh_delete_1=lh_delete((struct lhash_st *)(void *)(1 != 0 ? tab : (struct lhash_st_TABNODE *)0), (void *)(1 != 0 ? &t : (struct _tn *)0));
+  res = (struct _tn *)return_value_lh_delete_1;
   if(!(res == ((struct _tn *)NULL)))
   {
     free((void *)res->key);
@@ -15923,7 +15923,7 @@ __CPROVER_DUMP_L2:
 // file pound.h line 635
 extern void * thr_control(void *arg)
 {
-  struct anonymous$0 cmd;
+  struct anonymous_0 cmd;
   struct sockaddr sa;
   signed int ctl;
   signed int dummy;
@@ -15936,14 +15936,14 @@ extern void * thr_control(void *arg)
   struct _backend dummy_be;
   struct _tn dummy_sess;
   struct pollfd polls;
-  char *return_value_strerror$9;
-  char *return_value_strerror$10;
-  char *return_value_strerror$11;
-  char *return_value_strerror$12;
-  char *return_value_strerror$13;
-  char *return_value_strerror$14;
-  char *return_value_strerror$15;
-  char *return_value_strerror$16;
+  char *return_value_strerror_9;
+  char *return_value_strerror_10;
+  char *return_value_strerror_11;
+  char *return_value_strerror_12;
+  char *return_value_strerror_13;
+  char *return_value_strerror_14;
+  char *return_value_strerror_15;
+  char *return_value_strerror_16;
   if(!(control_sock >= 0))
     return (void *)0;
 
@@ -15963,38 +15963,38 @@ extern void * thr_control(void *arg)
       polls.fd = control_sock;
       polls.events = (signed short int)(0x001 | 0x002);
       polls.revents = (signed short int)0;
-      signed int return_value_poll$3;
-      return_value_poll$3=poll(&polls, (unsigned long int)1, -1);
-      if(!(return_value_poll$3 >= 0))
+      signed int return_value_poll_3;
+      return_value_poll_3=poll(&polls, (unsigned long int)1, -1);
+      if(!(return_value_poll_3 >= 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        logmsg(4, "thr_control() poll: %s", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        logmsg(4, "thr_control() poll: %s", return_value_strerror_2);
         continue;
       }
 
       ctl=accept(control_sock, &sa, (unsigned int *)&dummy);
       if(!(ctl >= 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        logmsg(4, "thr_control() accept: %s", return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        logmsg(4, "thr_control() accept: %s", return_value_strerror_5);
         continue;
       }
 
-      signed long int return_value_read$8;
-      return_value_read$8=read(ctl, (void *)&cmd, sizeof(struct anonymous$0) /*144ul*/ );
-      if(!((unsigned long int)return_value_read$8 == sizeof(struct anonymous$0) /*144ul*/ ))
+      signed long int return_value_read_8;
+      return_value_read_8=read(ctl, (void *)&cmd, sizeof(struct anonymous_0) /*144ul*/ );
+      if(!((unsigned long int)return_value_read_8 == sizeof(struct anonymous_0) /*144ul*/ ))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        logmsg(4, "thr_control() read: %s", return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        logmsg(4, "thr_control() read: %s", return_value_strerror_7);
         continue;
       }
 
@@ -16024,8 +16024,8 @@ extern void * thr_control(void *arg)
               dummy=pthread_mutex_lock(&svc->mut);
               if(!(dummy == 0))
               {
-                return_value_strerror$9=strerror(dummy);
-                logmsg(4, "thr_control() lock: %s", return_value_strerror$9);
+                return_value_strerror_9=strerror(dummy);
+                logmsg(4, "thr_control() lock: %s", return_value_strerror_9);
               }
 
               else
@@ -16034,8 +16034,8 @@ extern void * thr_control(void *arg)
                 dummy=pthread_mutex_unlock(&svc->mut);
                 if(!(dummy == 0))
                 {
-                  return_value_strerror$10=strerror(dummy);
-                  logmsg(4, "thr_control() unlock: %s", return_value_strerror$10);
+                  return_value_strerror_10=strerror(dummy);
+                  logmsg(4, "thr_control() unlock: %s", return_value_strerror_10);
                 }
 
               }
@@ -16061,8 +16061,8 @@ extern void * thr_control(void *arg)
             dummy=pthread_mutex_lock(&svc->mut);
             if(!(dummy == 0))
             {
-              return_value_strerror$11=strerror(dummy);
-              logmsg(4, "thr_control() lock: %s", return_value_strerror$11);
+              return_value_strerror_11=strerror(dummy);
+              logmsg(4, "thr_control() lock: %s", return_value_strerror_11);
             }
 
             else
@@ -16071,8 +16071,8 @@ extern void * thr_control(void *arg)
               dummy=pthread_mutex_unlock(&svc->mut);
               if(!(dummy == 0))
               {
-                return_value_strerror$12=strerror(dummy);
-                logmsg(4, "thr_control() unlock: %s", return_value_strerror$12);
+                return_value_strerror_12=strerror(dummy);
+                logmsg(4, "thr_control() unlock: %s", return_value_strerror_12);
               }
 
             }
@@ -16174,16 +16174,16 @@ extern void * thr_control(void *arg)
           ret_val=pthread_mutex_lock(&svc->mut);
           if(!(ret_val == 0))
           {
-            return_value_strerror$13=strerror(ret_val);
-            logmsg(4, "thr_control() add session lock: %s", return_value_strerror$13);
+            return_value_strerror_13=strerror(ret_val);
+            logmsg(4, "thr_control() add session lock: %s", return_value_strerror_13);
           }
 
           t_add(svc->sessions, cmd.key, (const void *)&be, sizeof(struct _backend *) /*8ul*/ );
           ret_val=pthread_mutex_unlock(&svc->mut);
           if(!(ret_val == 0))
           {
-            return_value_strerror$14=strerror(ret_val);
-            logmsg(4, "thr_control() add session unlock: %s", return_value_strerror$14);
+            return_value_strerror_14=strerror(ret_val);
+            logmsg(4, "thr_control() add session unlock: %s", return_value_strerror_14);
           }
 
           break;
@@ -16200,16 +16200,16 @@ extern void * thr_control(void *arg)
           ret_val=pthread_mutex_lock(&svc->mut);
           if(!(ret_val == 0))
           {
-            return_value_strerror$15=strerror(ret_val);
-            logmsg(4, "thr_control() del session lock: %s", return_value_strerror$15);
+            return_value_strerror_15=strerror(ret_val);
+            logmsg(4, "thr_control() del session lock: %s", return_value_strerror_15);
           }
 
           t_remove(svc->sessions, cmd.key);
           ret_val=pthread_mutex_unlock(&svc->mut);
           if(!(ret_val == 0))
           {
-            return_value_strerror$16=strerror(ret_val);
-            logmsg(4, "thr_control() del session unlock: %s", return_value_strerror$16);
+            return_value_strerror_16=strerror(ret_val);
+            logmsg(4, "thr_control() del session unlock: %s", return_value_strerror_16);
           }
 
           break;
@@ -16250,7 +16250,7 @@ extern void * thr_http(void *dummy)
 extern void * thr_timer(void *arg)
 {
   signed long int last_time;
-  signed long int thr_timer$$1$$cur_time;
+  signed long int thr_timer__1__cur_time;
   signed int n_wait;
   signed int n_remain;
   n_wait = 60;
@@ -16263,13 +16263,13 @@ extern void * thr_timer(void *arg)
   if(n_wait >= 1801)
     n_wait = 1800;
 
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  last_time = return_value_time$1 - (signed long int)n_wait;
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  last_time = return_value_time_1 - (signed long int)n_wait;
   do
   {
-    thr_timer$$1$$cur_time=time((signed long int *)(void *)0);
-    n_remain = (signed int)((signed long int)n_wait - (thr_timer$$1$$cur_time - last_time));
+    thr_timer__1__cur_time=time((signed long int *)(void *)0);
+    n_remain = (signed int)((signed long int)n_wait - (thr_timer__1__cur_time - last_time));
     if(n_remain >= 1)
       sleep((unsigned int)n_remain);
 
@@ -16307,15 +16307,15 @@ extern void * thr_timer(void *arg)
 extern void upd_be(struct _service * const svc, struct _backend * const be, const double elapsed)
 {
   signed int ret_val;
-  char *return_value_strerror$1;
-  char *return_value_strerror$2;
+  char *return_value_strerror_1;
+  char *return_value_strerror_2;
   if(!(svc->dynscale == 0))
   {
     ret_val=pthread_mutex_lock(&be->mut);
     if(!(ret_val == 0))
     {
-      return_value_strerror$1=strerror(ret_val);
-      logmsg(4, "upd_be() lock: %s", return_value_strerror$1);
+      return_value_strerror_1=strerror(ret_val);
+      logmsg(4, "upd_be() lock: %s", return_value_strerror_1);
     }
 
     be->t_requests = be->t_requests + elapsed;
@@ -16330,8 +16330,8 @@ extern void upd_be(struct _service * const svc, struct _backend * const be, cons
     ret_val=pthread_mutex_unlock(&be->mut);
     if(!(ret_val == 0))
     {
-      return_value_strerror$2=strerror(ret_val);
-      logmsg(4, "upd_be() unlock: %s", return_value_strerror$2);
+      return_value_strerror_2=strerror(ret_val);
+      logmsg(4, "upd_be() unlock: %s", return_value_strerror_2);
     }
 
   }
@@ -16348,9 +16348,9 @@ extern void upd_session(struct _service * const svc, char ** const headers, stru
 {
   char key[128l];
   signed int ret_val;
-  char *return_value_strerror$1;
-  void *return_value_t_find$2;
-  char *return_value_strerror$4;
+  char *return_value_strerror_1;
+  void *return_value_t_find_2;
+  char *return_value_strerror_4;
   if(!((signed int)svc->sess_type == SESS_HEADER))
   {
     if((signed int)svc->sess_type == SESS_COOKIE)
@@ -16366,16 +16366,16 @@ extern void upd_session(struct _service * const svc, char ** const headers, stru
     ret_val=pthread_mutex_lock(&svc->mut);
     if(!(ret_val == 0))
     {
-      return_value_strerror$1=strerror(ret_val);
-      logmsg(4, "upd_session() lock: %s", return_value_strerror$1);
+      return_value_strerror_1=strerror(ret_val);
+      logmsg(4, "upd_session() lock: %s", return_value_strerror_1);
     }
 
-    signed int return_value_get_HEADERS$3;
-    return_value_get_HEADERS$3=get_HEADERS(key, svc, headers);
-    if(!(return_value_get_HEADERS$3 == 0))
+    signed int return_value_get_HEADERS_3;
+    return_value_get_HEADERS_3=get_HEADERS(key, svc, headers);
+    if(!(return_value_get_HEADERS_3 == 0))
     {
-      return_value_t_find$2=t_find(svc->sessions, key);
-      if(return_value_t_find$2 == NULL)
+      return_value_t_find_2=t_find(svc->sessions, key);
+      if(return_value_t_find_2 == NULL)
         t_add(svc->sessions, key, (const void *)&be, sizeof(struct _backend *) /*8ul*/ );
 
     }
@@ -16383,8 +16383,8 @@ extern void upd_session(struct _service * const svc, char ** const headers, stru
     ret_val=pthread_mutex_unlock(&svc->mut);
     if(!(ret_val == 0))
     {
-      return_value_strerror$4=strerror(ret_val);
-      logmsg(4, "upd_session() unlock: %s", return_value_strerror$4);
+      return_value_strerror_4=strerror(ret_val);
+      logmsg(4, "upd_session() unlock: %s", return_value_strerror_4);
     }
 
     goto __CPROVER_DUMP_L5;

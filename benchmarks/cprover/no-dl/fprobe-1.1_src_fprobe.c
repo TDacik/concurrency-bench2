@@ -1,94 +1,94 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$20;
+struct anonymous_20;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[SYM#tag-ip#'idi_ip'|]
 // file /usr/include/netinet/ip_icmp.h line 185
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]
 // file /usr/include/netinet/udp.h line 67
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]
 // file /usr/include/netinet/udp.h line 60
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[U32'its_otime'||U32'its_rtime'||U32'its_ttime'|]
 // file /usr/include/netinet/ip_icmp.h line 179
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
 union anonymous;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]#'$anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]#'$anon1'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]#'_anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]#'_anon1'|]
 // file /usr/include/netinet/udp.h line 58
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U32'its_otime'||U32'its_rtime'||U32'its_ttime'|]#'id_ts'||SYM#tag-#anon#ST[SYM#tag-ip#'idi_ip'|]#'id_ip'||SYM#tag-icmp_ra_addr#'id_radv'||U32'id_mask'||ARR1{U8}$U8$'id_data'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U32'its_otime'||U32'its_rtime'||U32'its_ttime'|]#'id_ts'||SYM#tag-#anon#ST[SYM#tag-ip#'idi_ip'|]#'id_ip'||SYM#tag-icmp_ra_addr#'id_radv'||U32'id_mask'||ARR1{U8}_U8_'id_data'|]
 // file /usr/include/netinet/ip_icmp.h line 177
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-#anon#UN[U8'ih_pptr'||SYM#tag-in_addr#'ih_gwaddr'||SYM#tag-ih_idseq#'ih_idseq'||U32'ih_void'||SYM#tag-ih_pmtu#'ih_pmtu'||SYM#tag-ih_rtradv#'ih_rtradv'|]
 // file /usr/include/netinet/ip_icmp.h line 142
-union anonymous$6;
+union anonymous_6;
 
 // tag-DLT
 // file ./fprobe.h line 26
@@ -322,12 +322,12 @@ extern signed int fork(void);
 // fprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
 static inline signed int fprintf(struct _IO_FILE * restrict __stream, const char * restrict __fmt, ...);
-// fprintf$link1
+// fprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link1(struct _IO_FILE * restrict __stream$link1, const char * restrict __fmt$link1, ...);
-// fprintf$link2
+static inline signed int fprintf_link1(struct _IO_FILE * restrict __stream_link1, const char * restrict __fmt_link1, ...);
+// fprintf_link2
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link2(struct _IO_FILE * restrict __stream$link2, const char * restrict __fmt$link2, ...);
+static inline signed int fprintf_link2(struct _IO_FILE * restrict __stream_link2, const char * restrict __fmt_link2, ...);
 // fread
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 282
 static inline unsigned long int fread(void * restrict __ptr, unsigned long int __size, unsigned long int __n, struct _IO_FILE * restrict __stream);
@@ -453,10 +453,10 @@ extern signed int pthread_attr_setschedparam(union pthread_attr_t *, struct sche
 extern signed int pthread_attr_setschedpolicy(union pthread_attr_t *, signed int);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$1 *);
+extern signed int pthread_cond_signal(union anonymous_1 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$1 *, union anonymous$0 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_1 *, union anonymous_0 *, struct timespec *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -465,16 +465,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_detach(unsigned long int);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous$4 *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$21 *, struct anonymous$21 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_21 *, struct anonymous_21 *);
 // put_into
 // file fprobe.c line 467
 signed int put_into(struct Flow *flow, signed int flag);
@@ -495,7 +495,7 @@ extern signed int sched_get_priority_max(signed int);
 extern signed int sched_get_priority_min(signed int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$3 *, struct anonymous$3 *, struct anonymous$3 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_3 *, struct anonymous_3 *, struct anonymous_3 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -525,19 +525,19 @@ extern signed int setvbuf(struct _IO_FILE *, char *, signed int, unsigned long i
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$21 *, signed int);
+extern signed int sigaddset(struct anonymous_21 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$21 *);
+extern signed int sigemptyset(struct anonymous_21 *);
 // sighandler
 // file fprobe.c line 373
 void sighandler(signed int sig);
 // snprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
 static inline signed int snprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, ...);
-// snprintf$link1
+// snprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
-static inline signed int snprintf$link1(char * restrict __s$link1, unsigned long int __n$link1, const char * restrict __fmt$link1, ...);
+static inline signed int snprintf_link1(char * restrict __s_link1, unsigned long int __n_link1, const char * restrict __fmt_link1, ...);
 // socket
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 113
 extern signed int socket(signed int, signed int, signed int);
@@ -578,7 +578,7 @@ void usage();
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 74
 static inline signed int vsnprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, void **__ap);
 
-struct anonymous$18
+struct anonymous_18
 {
   // _call_addr
   void *_call_addr;
@@ -588,7 +588,7 @@ struct anonymous$18
   unsigned int _arch;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_addr
   void *si_addr;
@@ -596,19 +596,19 @@ struct anonymous$16
   signed short int si_addr_lsb;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -628,7 +628,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_pid
   signed int si_pid;
@@ -636,7 +636,7 @@ struct anonymous$10
   unsigned int si_uid;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_pid
   signed int si_pid;
@@ -658,7 +658,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_pid
   signed int si_pid;
@@ -668,7 +668,7 @@ struct anonymous$12
   union sigval si_sigval;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_tid
   signed int si_tid;
@@ -678,7 +678,7 @@ struct anonymous$11
   union sigval si_sigval;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_band
   signed long int si_band;
@@ -686,27 +686,27 @@ struct anonymous$17
   signed int si_fd;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$10 _kill;
+  struct anonymous_10 _kill;
   // _timer
-  struct anonymous$11 _timer;
+  struct anonymous_11 _timer;
   // _rt
-  struct anonymous$12 _rt;
+  struct anonymous_12 _rt;
   // _sigchld
-  struct anonymous$14 _sigchld;
+  struct anonymous_14 _sigchld;
   // _sigfault
-  struct anonymous$16 _sigfault;
+  struct anonymous_16 _sigfault;
   // _sigpoll
-  struct anonymous$17 _sigpoll;
+  struct anonymous_17 _sigpoll;
   // _sigsys
-  struct anonymous$18 _sigsys;
+  struct anonymous_18 _sigsys;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // si_signo
   signed int si_signo;
@@ -715,7 +715,7 @@ struct anonymous$20
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$19 _sifields;
+  union anonymous_19 _sifields;
 };
 
 struct in_addr
@@ -750,13 +750,13 @@ struct ip
   struct in_addr ip_dst;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // idi_ip
   struct ip idi_ip;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // source
   unsigned short int source;
@@ -768,7 +768,7 @@ struct anonymous$9
   unsigned short int check;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // uh_sport
   unsigned short int uh_sport;
@@ -780,7 +780,7 @@ struct anonymous$8
   unsigned short int uh_sum;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // its_otime
   unsigned int its_otime;
@@ -795,10 +795,10 @@ union anonymous
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$20 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_20 *, void *);
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[4l];
@@ -806,22 +806,22 @@ union anonymous$4
   signed int __align;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$5
+union anonymous_5
 {
-  // $anon0
-  struct anonymous$8 $anon0;
-  // $anon1
-  struct anonymous$9 $anon1;
+  // _anon0
+  struct anonymous_8 _anon0;
+  // _anon1
+  struct anonymous_9 _anon1;
 };
 
 struct icmp_ra_addr
@@ -832,12 +832,12 @@ struct icmp_ra_addr
   unsigned int ira_preference;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // id_ts
-  struct anonymous$13 id_ts;
+  struct anonymous_13 id_ts;
   // id_ip
-  struct anonymous$15 id_ip;
+  struct anonymous_15 id_ip;
   // id_radv
   struct icmp_ra_addr id_radv;
   // id_mask
@@ -874,7 +874,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -910,7 +910,7 @@ struct ih_rtradv
   unsigned short int irt_lifetime;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // ih_pptr
   unsigned char ih_pptr;
@@ -1179,9 +1179,9 @@ struct icmp
   // icmp_cksum
   unsigned short int icmp_cksum;
   // icmp_hun
-  union anonymous$6 icmp_hun;
+  union anonymous_6 icmp_hun;
   // icmp_dun
-  union anonymous$7 icmp_dun;
+  union anonymous_7 icmp_dun;
 };
 
 struct passwd
@@ -1273,7 +1273,7 @@ struct sigaction
   // __sigaction_handler
   union anonymous __sigaction_handler;
   // sa_mask
-  struct anonymous$21 sa_mask;
+  struct anonymous_21 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1298,8 +1298,8 @@ struct timezone
 
 struct udphdr
 {
-  // $anon0
-  union anonymous$5 $anon0;
+  // _anon0
+  union anonymous_5 _anon0;
 };
 
 
@@ -1354,9 +1354,9 @@ static signed int active_lifetime = 300;
 // bulk_quantity
 // file fprobe.c line 257
 static unsigned int bulk_quantity = (unsigned int)10000;
-// bulk_quantity$link1
+// bulk_quantity_link1
 // file mem.c line 29
-static unsigned int bulk_quantity$link1;
+static unsigned int bulk_quantity_link1;
 // crc16_poly
 // file hash.c line 22
 static unsigned short int crc16_poly;
@@ -1441,7 +1441,7 @@ static unsigned int element_size;
 static unsigned int element_table_size;
 // emit_cond
 // file fprobe.c line 309
-static union anonymous$1 emit_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_1 emit_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1450,7 +1450,7 @@ static union anonymous$1 emit_cond = { .__data={ .__lock=0, .__futex=(unsigned i
 static unsigned int emit_count;
 // emit_mutex
 // file fprobe.c line 308
-static union anonymous$0 emit_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 emit_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // emit_packet
@@ -1482,7 +1482,7 @@ static struct Flow *flows[65536l];
 static struct Flow *flows_emit;
 // flows_mutex
 // file fprobe.c line 298
-static union anonymous$0 flows_mutex[65536l];
+static union anonymous_0 flows_mutex[65536l];
 // frag_lifetime
 // file fprobe.c line 247
 static signed int frag_lifetime = 30;
@@ -1518,7 +1518,7 @@ static unsigned int malloc_size;
 static unsigned int mem_index_table_size;
 // mem_mutex
 // file mem.c line 23
-static union anonymous$0 mem_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 mem_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // my_log_flags
@@ -1622,7 +1622,7 @@ static struct passwd *pw = ((struct passwd *)NULL);
 static struct Mem *root;
 // scan_cond
 // file fprobe.c line 304
-static union anonymous$1 scan_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_1 scan_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1634,7 +1634,7 @@ static struct Flow *scan_frag_dreg;
 static unsigned int scan_interval = (unsigned int)5;
 // scan_mutex
 // file fprobe.c line 303
-static union anonymous$0 scan_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 scan_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // sched_max
@@ -1651,7 +1651,7 @@ static struct sched_param schedp;
 static unsigned char shuffle_table[256l];
 // sig_mask
 // file fprobe.c line 290
-static struct anonymous$21 sig_mask;
+static struct anonymous_21 sig_mask;
 // sigs
 // file fprobe.c line 295
 static signed int sigs;
@@ -1690,13 +1690,13 @@ unsigned int total_elements;
 unsigned int total_memory;
 // unpending_cond
 // file fprobe.c line 301
-static union anonymous$1 unpending_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_1 unpending_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // unpending_mutex
 // file fprobe.c line 300
-static union anonymous$0 unpending_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 unpending_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // unpending_timeout
@@ -1710,18 +1710,18 @@ static unsigned int verbosity = (unsigned int)6;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // cmpmtime
@@ -1759,12 +1759,12 @@ unsigned short int crc16(unsigned short int crc, unsigned char val)
   signed int i;
   crc = crc ^ (unsigned short int)((signed int)val << 8);
   i = 8;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     crc = (unsigned short int)(((signed int)crc & 0x8000) != 0 ? (signed int)crc << 1 ^ (signed int)crc16_poly : (signed int)crc << 1);
@@ -1791,9 +1791,9 @@ void * emit_thread()
   setuser();
   p = (void *)&emit_packet + (signed long int)netflow->HeaderSize;
   timeout.tv_nsec = (signed long int)0;
-  signed int tmp_post$5;
-  signed int return_value_nanosleep$3;
-  signed int *return_value___errno_location$4;
+  signed int tmp_post_5;
+  signed int return_value_nanosleep_3;
+  signed int *return_value___errno_location_4;
   do
   {
     pthread_mutex_lock(&emit_mutex);
@@ -1801,9 +1801,9 @@ void * emit_thread()
     {
       gettimeofday(&now, ((struct timezone *)NULL));
       timeout.tv_sec = now.tv_sec + (signed long int)emit_timeout;
-      signed int return_value_pthread_cond_timedwait$1;
-      return_value_pthread_cond_timedwait$1=pthread_cond_timedwait(&emit_cond, &emit_mutex, &timeout);
-      if(!(return_value_pthread_cond_timedwait$1 == 0))
+      signed int return_value_pthread_cond_timedwait_1;
+      return_value_pthread_cond_timedwait_1=pthread_cond_timedwait(&emit_cond, &emit_mutex, &timeout);
+      if(!(return_value_pthread_cond_timedwait_1 == 0))
       {
         if(!(emit_count == 0u))
         {
@@ -1843,9 +1843,9 @@ void * emit_thread()
           if(!((peers + (signed long int)i)->type == 1))
             goto __CPROVER_DUMP_L13;
 
-          tmp_post$5 = peer_rot_cur;
+          tmp_post_5 = peer_rot_cur;
           peer_rot_cur = peer_rot_cur + 1;
-          if(!(tmp_post$5 == peer_rot_work))
+          if(!(tmp_post_5 == peer_rot_work))
             goto __CPROVER_DUMP_L13;
 
         }
@@ -1856,9 +1856,9 @@ void * emit_thread()
         if(!(netflow->SeqOffset == 0u))
           *((unsigned int *)(emit_packet + (signed long int)netflow->SeqOffset))=__bswap_32((peers + (signed long int)i)->seq);
 
-        signed long int return_value_send$2;
-        return_value_send$2=send((peers + (signed long int)i)->sock, (const void *)emit_packet, (unsigned long int)size, 0);
-        ret = (signed int)return_value_send$2;
+        signed long int return_value_send_2;
+        return_value_send_2=send((peers + (signed long int)i)->sock, (const void *)emit_packet, (unsigned long int)size, 0);
+        ret = (signed int)return_value_send_2;
         (peers + (signed long int)i)->seq = (peers + (signed long int)i)->seq + emit_count;
         if(!(emit_rate_bytes == 0u))
         {
@@ -1871,12 +1871,12 @@ void * emit_thread()
             timeout.tv_nsec = (signed long int)(emit_rate_delay * (unsigned int)delay);
             do
             {
-              return_value_nanosleep$3=nanosleep(&timeout, &timeout);
-              if(!(return_value_nanosleep$3 == -1))
+              return_value_nanosleep_3=nanosleep(&timeout, &timeout);
+              if(!(return_value_nanosleep_3 == -1))
                 break;
 
-              return_value___errno_location$4=__errno_location();
-              if(!(*return_value___errno_location$4 == 4))
+              return_value___errno_location_4=__errno_location();
+              if(!(*return_value___errno_location_4 == 4))
                 break;
 
             }
@@ -1905,11 +1905,11 @@ void * emit_thread()
 void * fill(signed int fields, unsigned short int *format, struct Flow *flow, void *p)
 {
   signed int i = 0;
-  unsigned int return_value_getuptime$1;
-  unsigned int return_value_getuptime$2;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$4;
-  unsigned int return_value_getuptime$5;
+  unsigned int return_value_getuptime_1;
+  unsigned int return_value_getuptime_2;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_4;
+  unsigned int return_value_getuptime_5;
   for( ; !(i >= fields); i = i + 1)
     switch((signed int)format[(signed long int)i])
     {
@@ -1951,15 +1951,15 @@ void * fill(signed int fields, unsigned short int *format, struct Flow *flow, vo
       }
       case 22:
       {
-        return_value_getuptime$1=getuptime(&flow->ctime);
-        *((unsigned int *)p)=__bswap_32(return_value_getuptime$1);
+        return_value_getuptime_1=getuptime(&flow->ctime);
+        *((unsigned int *)p)=__bswap_32(return_value_getuptime_1);
         p = p + (signed long int)4;
         break;
       }
       case 21:
       {
-        return_value_getuptime$2=getuptime(&flow->mtime);
-        *((unsigned int *)p)=__bswap_32(return_value_getuptime$2);
+        return_value_getuptime_2=getuptime(&flow->mtime);
+        *((unsigned int *)p)=__bswap_32(return_value_getuptime_2);
         p = p + (signed long int)4;
         break;
       }
@@ -1995,28 +1995,28 @@ void * fill(signed int fields, unsigned short int *format, struct Flow *flow, vo
       }
       case 1001:
       {
-        unsigned short int fill$$1$$1$$1$$1$$1$$__v;
+        unsigned short int fill__1__1__1__1__1____v;
         unsigned short int __x = (unsigned short int)netflow->Version;
-        asm("rorw $8, %w0" : "=r"(fill$$1$$1$$1$$1$$1$$__v) : "0"(__x) : "cc");
-        tmp_statement_expression$3 = fill$$1$$1$$1$$1$$1$$__v;
-        *((unsigned short int *)p) = tmp_statement_expression$3;
+        asm("rorw _8, %w0" : "=r"(fill__1__1__1__1__1____v) : "0"(__x) : "cc");
+        tmp_statement_expression_3 = fill__1__1__1__1__1____v;
+        *((unsigned short int *)p) = tmp_statement_expression_3;
         p = p + (signed long int)2;
         break;
       }
       case 1002:
       {
         unsigned short int __v;
-        unsigned short int fill$$1$$1$$1$$1$$2$$__x = (unsigned short int)emit_count;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(fill$$1$$1$$1$$1$$2$$__x) : "cc");
-        tmp_statement_expression$4 = __v;
-        *((unsigned short int *)p) = tmp_statement_expression$4;
+        unsigned short int fill__1__1__1__1__2____x = (unsigned short int)emit_count;
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(fill__1__1__1__1__2____x) : "cc");
+        tmp_statement_expression_4 = __v;
+        *((unsigned short int *)p) = tmp_statement_expression_4;
         p = p + (signed long int)2;
         break;
       }
       case 1003:
       {
-        return_value_getuptime$5=getuptime(&emit_time);
-        *((unsigned int *)p)=__bswap_32(return_value_getuptime$5);
+        return_value_getuptime_5=getuptime(&emit_time);
+        *((unsigned int *)p)=__bswap_32(return_value_getuptime_5);
         p = p + (signed long int)4;
         break;
       }
@@ -2140,44 +2140,44 @@ done:
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
 static inline signed int fprintf(struct _IO_FILE * restrict __stream, const char * restrict __fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  signed int return_value___fprintf_chk$2;
-  return_value___fprintf_chk$2=__fprintf_chk(__stream, 2 - 1, __fmt, return_value___builtin_va_arg_pack$1);
-  return return_value___fprintf_chk$2;
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  signed int return_value___fprintf_chk_2;
+  return_value___fprintf_chk_2=__fprintf_chk(__stream, 2 - 1, __fmt, return_value___builtin_va_arg_pack_1);
+  return return_value___fprintf_chk_2;
 }
 
-// fprintf$link1
+// fprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link1(struct _IO_FILE * restrict __stream$link1, const char * restrict __fmt$link1, ...)
+static inline signed int fprintf_link1(struct _IO_FILE * restrict __stream_link1, const char * restrict __fmt_link1, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link1;
-  return_value___builtin_va_arg_pack$1$link1=__builtin_va_arg_pack();
-  signed int return_value___fprintf_chk$2$link1;
-  return_value___fprintf_chk$2$link1=__fprintf_chk(__stream$link1, 2 - 1, __fmt$link1, return_value___builtin_va_arg_pack$1$link1);
-  return return_value___fprintf_chk$2$link1;
+  void *return_value___builtin_va_arg_pack_1_link1;
+  return_value___builtin_va_arg_pack_1_link1=__builtin_va_arg_pack();
+  signed int return_value___fprintf_chk_2_link1;
+  return_value___fprintf_chk_2_link1=__fprintf_chk(__stream_link1, 2 - 1, __fmt_link1, return_value___builtin_va_arg_pack_1_link1);
+  return return_value___fprintf_chk_2_link1;
 }
 
-// fprintf$link2
+// fprintf_link2
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link2(struct _IO_FILE * restrict __stream$link2, const char * restrict __fmt$link2, ...)
+static inline signed int fprintf_link2(struct _IO_FILE * restrict __stream_link2, const char * restrict __fmt_link2, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link2;
-  return_value___builtin_va_arg_pack$1$link2=__builtin_va_arg_pack();
-  signed int return_value___fprintf_chk$2$link2;
-  return_value___fprintf_chk$2$link2=__fprintf_chk(__stream$link2, 2 - 1, __fmt$link2, return_value___builtin_va_arg_pack$1$link2);
-  return return_value___fprintf_chk$2$link2;
+  void *return_value___builtin_va_arg_pack_1_link2;
+  return_value___builtin_va_arg_pack_1_link2=__builtin_va_arg_pack();
+  signed int return_value___fprintf_chk_2_link2;
+  return_value___fprintf_chk_2_link2=__fprintf_chk(__stream_link2, 2 - 1, __fmt_link2, return_value___builtin_va_arg_pack_1_link2);
+  return return_value___fprintf_chk_2_link2;
 }
 
 // fread
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 282
 static inline unsigned long int fread(void * restrict __ptr, unsigned long int __size, unsigned long int __n, struct _IO_FILE * restrict __stream)
 {
-  unsigned long int return_value___fread_chk$1;
-  unsigned long int return_value___fread_chk_warn$2;
-  unsigned long int return_value___fread_alias$3;
-  return_value___fread_alias$3=__fread_alias(__ptr, __size, __n, __stream);
-  return return_value___fread_alias$3;
+  unsigned long int return_value___fread_chk_1;
+  unsigned long int return_value___fread_chk_warn_2;
+  unsigned long int return_value___fread_alias_3;
+  return_value___fread_alias_3=__fread_alias(__ptr, __size, __n, __stream);
+  return return_value___fread_alias_3;
 }
 
 // gettime
@@ -2194,49 +2194,49 @@ void gettime(struct Time *now)
 // file fprobe.c line 402
 unsigned int getuptime(struct Time *t)
 {
-  signed long int return_value_cmpmtime$1;
-  return_value_cmpmtime$1=cmpmtime(t, &start_time);
-  return (unsigned int)return_value_cmpmtime$1;
+  signed long int return_value_cmpmtime_1;
+  return_value_cmpmtime_1=cmpmtime(t, &start_time);
+  return (unsigned int)return_value_cmpmtime_1;
 }
 
 // hash
 // file ./hash.h line 49
 unsigned short int hash(void *p, signed int size)
 {
-  unsigned short int hash$$1$$hash = (unsigned short int)0;
-  signed int tmp_post$1;
-  void *tmp_post$2;
+  unsigned short int hash__1__hash = (unsigned short int)0;
+  signed int tmp_post_1;
+  void *tmp_post_2;
   do
   {
-    tmp_post$1 = size;
+    tmp_post_1 = size;
     size = size - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = p;
+    tmp_post_2 = p;
     p = p + 1l;
-    hash$$1$$hash = (unsigned short int)((signed int)crc16_table[(signed long int)((signed int)shuffle_table[(signed long int)*((unsigned char *)tmp_post$2)] ^ (signed int)hash$$1$$hash >> 8)] ^ (signed int)hash$$1$$hash << 8);
+    hash__1__hash = (unsigned short int)((signed int)crc16_table[(signed long int)((signed int)shuffle_table[(signed long int)*((unsigned char *)tmp_post_2)] ^ (signed int)hash__1__hash >> 8)] ^ (signed int)hash__1__hash << 8);
   }
   while((_Bool)1);
-  return hash$$1$$hash;
+  return hash__1__hash;
 }
 
 // hash_flow
 // file fprobe.c line 408
 unsigned short int hash_flow(struct Flow *flow)
 {
-  unsigned short int return_value_hash$1;
-  unsigned short int return_value_hash$2;
+  unsigned short int return_value_hash_1;
+  unsigned short int return_value_hash_2;
   if(!((0x0001 & flow->flags) == 0))
   {
-    return_value_hash$1=hash((void *)flow, (signed int)sizeof(struct Flow_F) /*12ul*/ );
-    return return_value_hash$1;
+    return_value_hash_1=hash((void *)flow, (signed int)sizeof(struct Flow_F) /*12ul*/ );
+    return return_value_hash_1;
   }
 
   else
   {
-    return_value_hash$2=hash((void *)flow, (signed int)sizeof(struct Flow_TL) /*16ul*/ );
-    return return_value_hash$2;
+    return_value_hash_2=hash((void *)flow, (signed int)sizeof(struct Flow_TL) /*16ul*/ );
+    return return_value_hash_2;
   }
 }
 
@@ -2252,25 +2252,25 @@ void hash_init()
   rnddev=fopen("/dev/random", "r");
   if(!(rnddev == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_fileno$1;
-    return_value_fileno$1=fileno(rnddev);
-    signed int return_value_fileno$2;
-    return_value_fileno$2=fileno(rnddev);
-    signed int return_value_fcntl$3;
-    return_value_fcntl$3=fcntl(return_value_fileno$2, 3);
-    fcntl(return_value_fileno$1, 4, return_value_fcntl$3 | 04000);
+    signed int return_value_fileno_1;
+    return_value_fileno_1=fileno(rnddev);
+    signed int return_value_fileno_2;
+    return_value_fileno_2=fileno(rnddev);
+    signed int return_value_fcntl_3;
+    return_value_fcntl_3=fcntl(return_value_fileno_2, 3);
+    fcntl(return_value_fileno_1, 4, return_value_fcntl_3 | 04000);
     fread((void *)&rnd, sizeof(signed int) /*4ul*/ , (unsigned long int)1, rnddev);
     fclose(rnddev);
   }
 
-  signed long int return_value_time$4;
-  return_value_time$4=time((signed long int *)(void *)0);
-  signed int return_value_getpid$5;
-  return_value_getpid$5=getpid();
-  srand((unsigned int)(return_value_time$4 ^ (signed long int)return_value_getpid$5 ^ (signed long int)rnd));
-  signed int return_value_rand$6;
-  return_value_rand$6=rand();
-  crc16_poly = (unsigned short int)(return_value_rand$6 | 1);
+  signed long int return_value_time_4;
+  return_value_time_4=time((signed long int *)(void *)0);
+  signed int return_value_getpid_5;
+  return_value_getpid_5=getpid();
+  srand((unsigned int)(return_value_time_4 ^ (signed long int)return_value_getpid_5 ^ (signed long int)rnd));
+  signed int return_value_rand_6;
+  return_value_rand_6=rand();
+  crc16_poly = (unsigned short int)(return_value_rand_6 | 1);
   i = 0;
   for( ; !(i >= 256); i = i + 1)
   {
@@ -2280,9 +2280,9 @@ void hash_init()
   i = 0;
   for( ; !(i >= 256); i = i + 1)
   {
-    signed int return_value_rand$7;
-    return_value_rand$7=rand();
-    j = (signed int)((256.0 * (double)return_value_rand$7) / ((double)2147483647 + 1.0));
+    signed int return_value_rand_7;
+    return_value_rand_7=rand();
+    j = (signed int)((256.0 * (double)return_value_rand_7) / ((double)2147483647 + 1.0));
     m = (signed int)shuffle_table[(signed long int)i];
     shuffle_table[(signed long int)i] = shuffle_table[(signed long int)j];
     shuffle_table[(signed long int)j] = (unsigned char)m;
@@ -2352,11 +2352,11 @@ signed int main(signed int argc, char **argv)
 
   else
     snaplen = 256;
-  signed int return_value_atoi$1;
+  signed int return_value_atoi_1;
   if(!(parms[19l].count == 0))
   {
-    return_value_atoi$1=atoi(parms[(signed long int)19].arg);
-    scan_interval = (unsigned int)return_value_atoi$1;
+    return_value_atoi_1=atoi(parms[(signed long int)19].arg);
+    scan_interval = (unsigned int)return_value_atoi_1;
   }
 
   if(!(parms[7l].count == 0))
@@ -2370,9 +2370,9 @@ signed int main(signed int argc, char **argv)
 
   if(!(parms[14l].count == 0))
   {
-    signed int return_value_atoi$2;
-    return_value_atoi$2=atoi(parms[(signed long int)14].arg);
-    switch(return_value_atoi$2)
+    signed int return_value_atoi_2;
+    return_value_atoi_2=atoi(parms[(signed long int)14].arg);
+    switch(return_value_atoi_2)
     {
       case 1:
       {
@@ -2394,25 +2394,25 @@ signed int main(signed int argc, char **argv)
     }
   }
 
-  signed int return_value_atoi$3;
+  signed int return_value_atoi_3;
   if(!(parms[22l].count == 0))
   {
-    return_value_atoi$3=atoi(parms[(signed long int)22].arg);
-    verbosity = (unsigned int)return_value_atoi$3;
+    return_value_atoi_3=atoi(parms[(signed long int)22].arg);
+    verbosity = (unsigned int)return_value_atoi_3;
   }
 
-  char *tmp_post$4;
-  signed int return_value_atoi$6;
+  char *tmp_post_4;
+  signed int return_value_atoi_6;
   if(!(parms[12l].count == 0))
   {
-    char *return_value___builtin_strchr$5;
-    return_value___builtin_strchr$5=__builtin_strchr(parms[(signed long int)12].arg, 58);
-    log_suffix = return_value___builtin_strchr$5;
+    char *return_value___builtin_strchr_5;
+    return_value___builtin_strchr_5=__builtin_strchr(parms[(signed long int)12].arg, 58);
+    log_suffix = return_value___builtin_strchr_5;
     if(!(log_suffix == ((char *)NULL)))
     {
-      tmp_post$4 = log_suffix;
+      tmp_post_4 = log_suffix;
       log_suffix = log_suffix + 1l;
-      *tmp_post$4 = (char)0;
+      *tmp_post_4 = (char)0;
       if(!(*log_suffix == 0))
       {
         sprintf(errbuf, "[%s]", log_suffix);
@@ -2423,8 +2423,8 @@ signed int main(signed int argc, char **argv)
 
     if(!(*parms[12l].arg == 0))
     {
-      return_value_atoi$6=atoi(parms[(signed long int)12].arg);
-      log_dest = (unsigned int)return_value_atoi$6;
+      return_value_atoi_6=atoi(parms[(signed long int)12].arg);
+      log_dest = (unsigned int)return_value_atoi_6;
     }
 
     if(!(log_suffix == ((char *)NULL)))
@@ -2435,30 +2435,30 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  unsigned long int return_value_strlen$9;
-  return_value_strlen$9=strlen(ident);
-  void *return_value_malloc$10;
-  return_value_malloc$10=malloc(sizeof(char [9l]) /*9ul*/  + (unsigned long int)1 + return_value_strlen$9 + (unsigned long int)1 + (unsigned long int)3 + (unsigned long int)1);
-  pidfilepath = (char *)return_value_malloc$10;
+  unsigned long int return_value_strlen_9;
+  return_value_strlen_9=strlen(ident);
+  void *return_value_malloc_10;
+  return_value_malloc_10=malloc(sizeof(char [9l]) /*9ul*/  + (unsigned long int)1 + return_value_strlen_9 + (unsigned long int)1 + (unsigned long int)3 + (unsigned long int)1);
+  pidfilepath = (char *)return_value_malloc_10;
   if(pidfilepath == ((char *)NULL))
   {
 
   err_malloc:
     ;
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    char *return_value_strerror$8;
-    return_value_strerror$8=strerror(*return_value___errno_location$7);
-    fprintf(stderr, "malloc(): %s\n", return_value_strerror$8);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    char *return_value_strerror_8;
+    return_value_strerror_8=strerror(*return_value___errno_location_7);
+    fprintf(stderr, "malloc(): %s\n", return_value_strerror_8);
     exit(1);
   }
 
   sprintf(pidfilepath, "%s/%s.pid", (const void *)"/var/run", (const void *)ident);
   if(!(parms[16l].count == 0))
   {
-    signed int return_value_atoi$11;
-    return_value_atoi$11=atoi(parms[(signed long int)16].arg);
-    pending_queue_length = (unsigned int)return_value_atoi$11;
+    signed int return_value_atoi_11;
+    return_value_atoi_11=atoi(parms[(signed long int)16].arg);
+    pending_queue_length = (unsigned int)return_value_atoi_11;
     if(!(pending_queue_length >= 1u))
     {
       fprintf(stderr, "Illegal %s\n", (const void *)"pending queue length");
@@ -2478,18 +2478,18 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  signed int return_value_atoi$12;
+  signed int return_value_atoi_12;
   if(!(parms[1l].count == 0))
   {
-    return_value_atoi$12=atoi(parms[(signed long int)1].arg);
-    sockbufsize = return_value_atoi$12 << 10;
+    return_value_atoi_12=atoi(parms[(signed long int)1].arg);
+    sockbufsize = return_value_atoi_12 << 10;
   }
 
   if(!(parms[2l].count == 0))
   {
-    signed int return_value_atoi$13;
-    return_value_atoi$13=atoi(parms[(signed long int)2].arg);
-    bulk_quantity = (unsigned int)return_value_atoi$13;
+    signed int return_value_atoi_13;
+    return_value_atoi_13=atoi(parms[(signed long int)2].arg);
+    bulk_quantity = (unsigned int)return_value_atoi_13;
     if(!(bulk_quantity >= 1u))
     {
       fprintf(stderr, "Illegal %s\n", (const void *)"bulk size");
@@ -2498,18 +2498,18 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  signed int return_value_atoi$14;
+  signed int return_value_atoi_14;
   if(!(parms[13l].count == 0))
   {
-    return_value_atoi$14=atoi(parms[(signed long int)13].arg);
-    memory_limit = return_value_atoi$14 << 10;
+    return_value_atoi_14=atoi(parms[(signed long int)13].arg);
+    memory_limit = return_value_atoi_14 << 10;
   }
 
-  signed int return_value_sscanf$15;
+  signed int return_value_sscanf_15;
   if(!(parms[23l].count == 0))
   {
-    return_value_sscanf$15=sscanf(parms[(signed long int)23].arg, "%d:%d", &snmp_input_index, &snmp_output_index);
-    if(return_value_sscanf$15 == 1)
+    return_value_sscanf_15=sscanf(parms[(signed long int)23].arg, "%d:%d", &snmp_input_index, &snmp_output_index);
+    if(return_value_sscanf_15 == 1)
       snmp_output_index = snmp_input_index;
 
   }
@@ -2519,9 +2519,9 @@ signed int main(signed int argc, char **argv)
 
   if(!(parms[0l].count == 0))
   {
-    signed int return_value_getaddrinfo$16;
-    return_value_getaddrinfo$16=getaddrinfo(parms[(signed long int)0].arg, ((const char *)NULL), &hints, &res);
-    if(!(return_value_getaddrinfo$16 == 0))
+    signed int return_value_getaddrinfo_16;
+    return_value_getaddrinfo_16=getaddrinfo(parms[(signed long int)0].arg, ((const char *)NULL), &hints, &res);
+    if(!(return_value_getaddrinfo_16 == 0))
     {
 
     bad_lhost:
@@ -2541,26 +2541,26 @@ signed int main(signed int argc, char **argv)
     link_layer_size=atoi(parms[(signed long int)10].arg);
 
   link_layer = parms[(signed long int)11].count;
-  char *tmp_if_expr$20;
-  signed int *return_value___errno_location$18;
-  char *return_value_strerror$19;
+  char *tmp_if_expr_20;
+  signed int *return_value___errno_location_18;
+  char *return_value_strerror_19;
   if(!(parms[21l].count == 0))
   {
     pw=getpwnam(parms[(signed long int)21].arg);
     if(pw == ((struct passwd *)NULL))
     {
-      signed int *return_value___errno_location$17;
-      return_value___errno_location$17=__errno_location();
-      if(!(*return_value___errno_location$17 == 0))
+      signed int *return_value___errno_location_17;
+      return_value___errno_location_17=__errno_location();
+      if(!(*return_value___errno_location_17 == 0))
       {
-        return_value___errno_location$18=__errno_location();
-        return_value_strerror$19=strerror(*return_value___errno_location$18);
-        tmp_if_expr$20 = return_value_strerror$19;
+        return_value___errno_location_18=__errno_location();
+        return_value_strerror_19=strerror(*return_value___errno_location_18);
+        tmp_if_expr_20 = return_value_strerror_19;
       }
 
       else
-        tmp_if_expr$20 = "Unknown user";
-      fprintf(stderr, "getpwnam(%s): %s\n", parms[(signed long int)21].arg, tmp_if_expr$20);
+        tmp_if_expr_20 = "Unknown user";
+      fprintf(stderr, "getpwnam(%s): %s\n", parms[(signed long int)21].arg, tmp_if_expr_20);
       exit(1);
     }
 
@@ -2570,39 +2570,39 @@ signed int main(signed int argc, char **argv)
   if(!(npeers >= 1))
     usage();
 
-  void *return_value_malloc$21;
-  return_value_malloc$21=malloc((unsigned long int)npeers * sizeof(struct peer) /*44ul*/ );
-  peers = (struct peer *)return_value_malloc$21;
+  void *return_value_malloc_21;
+  return_value_malloc_21=malloc((unsigned long int)npeers * sizeof(struct peer) /*44ul*/ );
+  peers = (struct peer *)return_value_malloc_21;
   if(peers == ((struct peer *)NULL))
     goto err_malloc;
 
   i = optind;
   npeers = 0;
-  char *tmp_post$23;
-  char *return_value___builtin_strchr$30;
-  char *tmp_post$26;
-  char *tmp_post$27;
-  signed int return_value_bind$33;
-  signed int return_value_getaddrinfo$34;
+  char *tmp_post_23;
+  char *return_value___builtin_strchr_30;
+  char *tmp_post_26;
+  char *tmp_post_27;
+  signed int return_value_bind_33;
+  signed int return_value_getaddrinfo_34;
   for( ; !(i >= argc); npeers = npeers + 1)
   {
     dhost = argv[(signed long int)i];
-    char *return_value___builtin_strchr$22;
-    return_value___builtin_strchr$22=__builtin_strchr(dhost, 58);
-    dport = return_value___builtin_strchr$22;
+    char *return_value___builtin_strchr_22;
+    return_value___builtin_strchr_22=__builtin_strchr(dhost, 58);
+    dport = return_value___builtin_strchr_22;
     if(!(dport == ((char *)NULL)))
     {
-      tmp_post$23 = dport;
+      tmp_post_23 = dport;
       dport = dport + 1l;
-      *tmp_post$23 = (char)0;
+      *tmp_post_23 = (char)0;
       sock=socket(2, 2, 0);
       if(!(sock >= 0))
       {
-        signed int *return_value___errno_location$24;
-        return_value___errno_location$24=__errno_location();
-        char *return_value_strerror$25;
-        return_value_strerror$25=strerror(*return_value___errno_location$24);
-        fprintf(stderr, "socket(): %s\n", return_value_strerror$25);
+        signed int *return_value___errno_location_24;
+        return_value___errno_location_24=__errno_location();
+        char *return_value_strerror_25;
+        return_value_strerror_25=strerror(*return_value___errno_location_24);
+        fprintf(stderr, "socket(): %s\n", return_value_strerror_25);
         exit(1);
       }
 
@@ -2610,21 +2610,21 @@ signed int main(signed int argc, char **argv)
       (peers + (signed long int)npeers)->type = 0;
       (peers + (signed long int)npeers)->laddr = saddr;
       (peers + (signed long int)npeers)->seq = (unsigned int)0;
-      return_value___builtin_strchr$30=__builtin_strchr(dport, 47);
-      lhost = return_value___builtin_strchr$30;
+      return_value___builtin_strchr_30=__builtin_strchr(dport, 47);
+      lhost = return_value___builtin_strchr_30;
       if(!(lhost == ((char *)NULL)))
       {
-        tmp_post$26 = lhost;
+        tmp_post_26 = lhost;
         lhost = lhost + 1l;
-        *tmp_post$26 = (char)0;
-        char *return_value___builtin_strchr$28;
-        return_value___builtin_strchr$28=__builtin_strchr(lhost, 47);
-        type = return_value___builtin_strchr$28;
+        *tmp_post_26 = (char)0;
+        char *return_value___builtin_strchr_28;
+        return_value___builtin_strchr_28=__builtin_strchr(lhost, 47);
+        type = return_value___builtin_strchr_28;
         if(!(type == ((char *)NULL)))
         {
-          tmp_post$27 = type;
+          tmp_post_27 = type;
           type = type + 1l;
-          *tmp_post$27 = (char)0;
+          *tmp_post_27 = (char)0;
           switch((signed int)*type)
           {
             case 0:
@@ -2644,9 +2644,9 @@ signed int main(signed int argc, char **argv)
 
         if(!(*lhost == 0))
         {
-          signed int return_value_getaddrinfo$29;
-          return_value_getaddrinfo$29=getaddrinfo(lhost, ((const char *)NULL), &hints, &res);
-          if(!(return_value_getaddrinfo$29 == 0))
+          signed int return_value_getaddrinfo_29;
+          return_value_getaddrinfo_29=getaddrinfo(lhost, ((const char *)NULL), &hints, &res);
+          if(!(return_value_getaddrinfo_29 == 0))
             goto bad_lhost;
 
           (peers + (signed long int)npeers)->laddr = *((struct sockaddr_in *)res->ai_addr);
@@ -2655,19 +2655,19 @@ signed int main(signed int argc, char **argv)
 
       }
 
-      return_value_bind$33=bind(sock, (struct sockaddr *)&(peers + (signed long int)npeers)->laddr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_bind$33 == 0))
+      return_value_bind_33=bind(sock, (struct sockaddr *)&(peers + (signed long int)npeers)->laddr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_bind_33 == 0))
       {
-        signed int *return_value___errno_location$31;
-        return_value___errno_location$31=__errno_location();
-        char *return_value_strerror$32;
-        return_value_strerror$32=strerror(*return_value___errno_location$31);
-        fprintf(stderr, "bind(): %s\n", return_value_strerror$32);
+        signed int *return_value___errno_location_31;
+        return_value___errno_location_31=__errno_location();
+        char *return_value_strerror_32;
+        return_value_strerror_32=strerror(*return_value___errno_location_31);
+        fprintf(stderr, "bind(): %s\n", return_value_strerror_32);
         exit(1);
       }
 
-      return_value_getaddrinfo$34=getaddrinfo(dhost, dport, &hints, &res);
-      if(return_value_getaddrinfo$34 == 0)
+      return_value_getaddrinfo_34=getaddrinfo(dhost, dport, &hints, &res);
+      if(return_value_getaddrinfo_34 == 0)
         goto __CPROVER_DUMP_L54;
 
     }
@@ -2682,15 +2682,15 @@ signed int main(signed int argc, char **argv)
     ;
     (peers + (signed long int)npeers)->addr = *((struct sockaddr_in *)res->ai_addr);
     freeaddrinfo(res);
-    signed int return_value_connect$37;
-    return_value_connect$37=connect(sock, (struct sockaddr *)&(peers + (signed long int)npeers)->addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_connect$37 == 0))
+    signed int return_value_connect_37;
+    return_value_connect_37=connect(sock, (struct sockaddr *)&(peers + (signed long int)npeers)->addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_connect_37 == 0))
     {
-      signed int *return_value___errno_location$35;
-      return_value___errno_location$35=__errno_location();
-      char *return_value_strerror$36;
-      return_value_strerror$36=strerror(*return_value___errno_location$35);
-      fprintf(stderr, "connect(): %s\n", return_value_strerror$36);
+      signed int *return_value___errno_location_35;
+      return_value___errno_location_35=__errno_location();
+      char *return_value_strerror_36;
+      return_value_strerror_36=strerror(*return_value___errno_location_35);
+      fprintf(stderr, "connect(): %s\n", return_value_strerror_36);
       exit(1);
     }
 
@@ -2711,24 +2711,24 @@ signed int main(signed int argc, char **argv)
     i = i + 1;
   }
   my_log_open(ident, verbosity, log_dest);
-  signed int *return_value___errno_location$39;
-  char *return_value_strerror$40;
+  signed int *return_value___errno_location_39;
+  char *return_value_strerror_40;
   if((2u & log_dest) == 0u)
   {
-    signed int return_value_fork$38;
-    return_value_fork$38=fork();
-    if(!(return_value_fork$38 == -1))
+    signed int return_value_fork_38;
+    return_value_fork_38=fork();
+    if(!(return_value_fork_38 == -1))
     {
-      if(return_value_fork$38 == 0)
+      if(return_value_fork_38 == 0)
         goto __CPROVER_DUMP_L60;
 
     }
 
     else
     {
-      return_value___errno_location$39=__errno_location();
-      return_value_strerror$40=strerror(*return_value___errno_location$39);
-      fprintf(stderr, "fork(): %s", return_value_strerror$40);
+      return_value___errno_location_39=__errno_location();
+      return_value_strerror_40=strerror(*return_value___errno_location_39);
+      fprintf(stderr, "fork(): %s", return_value_strerror_40);
       exit(1);
 
     __CPROVER_DUMP_L60:
@@ -2764,10 +2764,10 @@ __CPROVER_DUMP_L62:
 
   }
 
-  signed int return_value_pcap_fileno$43;
-  signed int return_value_setsockopt$44;
-  signed int *return_value___errno_location$41;
-  char *return_value_strerror$42;
+  signed int return_value_pcap_fileno_43;
+  signed int return_value_setsockopt_44;
+  signed int *return_value___errno_location_41;
+  char *return_value_strerror_42;
   if((signed int)*dev == 45)
   {
     pcap_handle=pcap_open_offline(dev, errbuf);
@@ -2790,13 +2790,13 @@ __CPROVER_DUMP_L62:
 
     if(!(sockbufsize == 0))
     {
-      return_value_pcap_fileno$43=pcap_fileno(pcap_handle);
-      return_value_setsockopt$44=setsockopt(return_value_pcap_fileno$43, 1, 8, (const void *)&sockbufsize, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_setsockopt$44 >= 0))
+      return_value_pcap_fileno_43=pcap_fileno(pcap_handle);
+      return_value_setsockopt_44=setsockopt(return_value_pcap_fileno_43, 1, 8, (const void *)&sockbufsize, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_setsockopt_44 >= 0))
       {
-        return_value___errno_location$41=__errno_location();
-        return_value_strerror$42=strerror(*return_value___errno_location$41);
-        my_log((unsigned int)4, "setsockopt(): %s", return_value_strerror$42);
+        return_value___errno_location_41=__errno_location();
+        return_value_strerror_42=strerror(*return_value___errno_location_41);
+        my_log((unsigned int)4, "setsockopt(): %s", return_value_strerror_42);
       }
 
     }
@@ -2804,15 +2804,15 @@ __CPROVER_DUMP_L62:
   }
   link_type=pcap_datalink(pcap_handle);
   i = 0;
-  _Bool tmp_if_expr$45;
+  _Bool tmp_if_expr_45;
   do
   {
     if(dlt[(signed long int)i].linktype == link_type)
-      tmp_if_expr$45 = (_Bool)1;
+      tmp_if_expr_45 = (_Bool)1;
 
     else
-      tmp_if_expr$45 = dlt[(signed long int)i].linktype == -1 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$45)
+      tmp_if_expr_45 = dlt[(signed long int)i].linktype == -1 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_45)
     {
       off_nl = (signed int)dlt[(signed long int)i].offset_nl;
       link_type_idx = i;
@@ -2834,23 +2834,23 @@ __CPROVER_DUMP_L62:
   if(!(parms[6l].arg == ((char *)NULL)))
   {
     filter = parms[(signed long int)6].arg;
-    signed int return_value_pcap_compile$47;
-    return_value_pcap_compile$47=pcap_compile(pcap_handle, &bpf_filter, filter, 1, (unsigned int)0);
-    if(return_value_pcap_compile$47 == -1)
+    signed int return_value_pcap_compile_47;
+    return_value_pcap_compile_47=pcap_compile(pcap_handle, &bpf_filter, filter, 1, (unsigned int)0);
+    if(return_value_pcap_compile_47 == -1)
     {
-      char *return_value_pcap_geterr$46;
-      return_value_pcap_geterr$46=pcap_geterr(pcap_handle);
-      my_log((unsigned int)2, "pcap_compile(): %s. Filter: %s", return_value_pcap_geterr$46, filter);
+      char *return_value_pcap_geterr_46;
+      return_value_pcap_geterr_46=pcap_geterr(pcap_handle);
+      my_log((unsigned int)2, "pcap_compile(): %s. Filter: %s", return_value_pcap_geterr_46, filter);
       exit(1);
     }
 
-    signed int return_value_pcap_setfilter$49;
-    return_value_pcap_setfilter$49=pcap_setfilter(pcap_handle, &bpf_filter);
-    if(return_value_pcap_setfilter$49 == -1)
+    signed int return_value_pcap_setfilter_49;
+    return_value_pcap_setfilter_49=pcap_setfilter(pcap_handle, &bpf_filter);
+    if(return_value_pcap_setfilter_49 == -1)
     {
-      char *return_value_pcap_geterr$48;
-      return_value_pcap_geterr$48=pcap_geterr(pcap_handle);
-      my_log((unsigned int)2, "pcap_setfilter(): %s", return_value_pcap_geterr$48);
+      char *return_value_pcap_geterr_48;
+      return_value_pcap_geterr_48=pcap_geterr(pcap_handle);
+      my_log((unsigned int)2, "pcap_setfilter(): %s", return_value_pcap_geterr_48);
       exit(1);
     }
 
@@ -2862,14 +2862,14 @@ __CPROVER_DUMP_L62:
   mem_init((unsigned int)sizeof(struct Flow) /*104ul*/ , bulk_quantity, (unsigned int)memory_limit);
   i = 0;
   for( ; !(i >= 65536); i = i + 1)
-    pthread_mutex_init(&flows_mutex[(signed long int)i], ((const union anonymous$4 *)NULL));
+    pthread_mutex_init(&flows_mutex[(signed long int)i], ((const union anonymous_4 *)NULL));
   start_time_offset = (signed long int)(1 << 20);
   gettime(&start_time);
-  void *return_value_mem_alloc$50;
-  return_value_mem_alloc$50=mem_alloc();
-  pending_head = (struct Flow *)return_value_mem_alloc$50;
-  signed int tmp_post$51;
-  void *return_value_mem_alloc$54;
+  void *return_value_mem_alloc_50;
+  return_value_mem_alloc_50=mem_alloc();
+  pending_head = (struct Flow *)return_value_mem_alloc_50;
+  signed int tmp_post_51;
+  void *return_value_mem_alloc_54;
   if(!(pending_head == ((struct Flow *)NULL)))
   {
     pending_tail = pending_head;
@@ -2877,13 +2877,13 @@ __CPROVER_DUMP_L62:
 
   __CPROVER_DUMP_L84:
     ;
-    tmp_post$51 = i;
+    tmp_post_51 = i;
     i = i - 1;
-    if(tmp_post$51 == 0)
+    if(tmp_post_51 == 0)
       goto __CPROVER_DUMP_L87;
 
-    return_value_mem_alloc$54=mem_alloc();
-    pending_tail->next = (struct Flow *)return_value_mem_alloc$54;
+    return_value_mem_alloc_54=mem_alloc();
+    pending_tail->next = (struct Flow *)return_value_mem_alloc_54;
     if(!(pending_tail->next == ((struct Flow *)NULL)))
       goto __CPROVER_DUMP_L86;
 
@@ -2892,11 +2892,11 @@ __CPROVER_DUMP_L62:
 
 err_mem_alloc:
   ;
-  signed int *return_value___errno_location$52;
-  return_value___errno_location$52=__errno_location();
-  char *return_value_strerror$53;
-  return_value_strerror$53=strerror(*return_value___errno_location$52);
-  my_log((unsigned int)2, "mem_alloc(): %s", return_value_strerror$53);
+  signed int *return_value___errno_location_52;
+  return_value___errno_location_52=__errno_location();
+  char *return_value_strerror_53;
+  return_value_strerror_53=strerror(*return_value___errno_location_52);
+  my_log((unsigned int)2, "mem_alloc(): %s", return_value_strerror_53);
   exit(1);
 
 __CPROVER_DUMP_L86:
@@ -2914,40 +2914,40 @@ __CPROVER_DUMP_L87:
   sigact.sa_flags = 0;
   sigaddset(&sig_mask, 15);
   sigaction(15, &sigact, ((struct sigaction *)NULL));
-  signed int return_value_pthread_sigmask$57;
-  return_value_pthread_sigmask$57=pthread_sigmask(0, &sig_mask, ((struct anonymous$21 *)NULL));
-  if(!(return_value_pthread_sigmask$57 == 0))
+  signed int return_value_pthread_sigmask_57;
+  return_value_pthread_sigmask_57=pthread_sigmask(0, &sig_mask, ((struct anonymous_21 *)NULL));
+  if(!(return_value_pthread_sigmask_57 == 0))
   {
-    signed int *return_value___errno_location$55;
-    return_value___errno_location$55=__errno_location();
-    char *return_value_strerror$56;
-    return_value_strerror$56=strerror(*return_value___errno_location$55);
-    my_log((unsigned int)2, "pthread_sigmask(): %s", return_value_strerror$56);
+    signed int *return_value___errno_location_55;
+    return_value___errno_location_55=__errno_location();
+    char *return_value_strerror_56;
+    return_value_strerror_56=strerror(*return_value___errno_location_55);
+    my_log((unsigned int)2, "pthread_sigmask(): %s", return_value_strerror_56);
     exit(1);
   }
 
   my_log((unsigned int)6, "Starting %s...", (const void *)"1.1");
-  _Bool tmp_if_expr$62;
-  signed int return_value_chroot$61;
+  _Bool tmp_if_expr_62;
+  signed int return_value_chroot_61;
   if(!(parms[3l].count == 0))
   {
-    signed int return_value_chdir$60;
-    return_value_chdir$60=chdir(parms[(signed long int)3].arg);
-    if(!(return_value_chdir$60 == 0))
-      tmp_if_expr$62 = (_Bool)1;
+    signed int return_value_chdir_60;
+    return_value_chdir_60=chdir(parms[(signed long int)3].arg);
+    if(!(return_value_chdir_60 == 0))
+      tmp_if_expr_62 = (_Bool)1;
 
     else
     {
-      return_value_chroot$61=chroot(".");
-      tmp_if_expr$62 = return_value_chroot$61 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_chroot_61=chroot(".");
+      tmp_if_expr_62 = return_value_chroot_61 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$62)
+    if(tmp_if_expr_62)
     {
-      signed int *return_value___errno_location$58;
-      return_value___errno_location$58=__errno_location();
-      char *return_value_strerror$59;
-      return_value_strerror$59=strerror(*return_value___errno_location$58);
-      my_log((unsigned int)2, "could not chroot to %s: %s", parms[(signed long int)3].arg, return_value_strerror$59);
+      signed int *return_value___errno_location_58;
+      return_value___errno_location_58=__errno_location();
+      char *return_value_strerror_59;
+      return_value_strerror_59=strerror(*return_value___errno_location_58);
+      my_log((unsigned int)2, "could not chroot to %s: %s", parms[(signed long int)3].arg, return_value_strerror_59);
       exit(1);
     }
 
@@ -2956,44 +2956,44 @@ __CPROVER_DUMP_L87:
   schedp.__sched_priority = (schedp.__sched_priority - 5) + 2;
   pthread_attr_init(&tattr);
   i = 0;
-  _Bool tmp_if_expr$67;
-  signed int return_value_pthread_attr_setschedparam$66;
+  _Bool tmp_if_expr_67;
+  signed int return_value_pthread_attr_setschedparam_66;
   for( ; !(i >= 5); i = i + 1)
   {
     if(schedp.__sched_priority >= 1)
     {
-      signed int return_value_pthread_attr_setschedpolicy$65;
-      return_value_pthread_attr_setschedpolicy$65=pthread_attr_setschedpolicy(&tattr, 1);
-      if(!(return_value_pthread_attr_setschedpolicy$65 == 0))
-        tmp_if_expr$67 = (_Bool)1;
+      signed int return_value_pthread_attr_setschedpolicy_65;
+      return_value_pthread_attr_setschedpolicy_65=pthread_attr_setschedpolicy(&tattr, 1);
+      if(!(return_value_pthread_attr_setschedpolicy_65 == 0))
+        tmp_if_expr_67 = (_Bool)1;
 
       else
       {
-        return_value_pthread_attr_setschedparam$66=pthread_attr_setschedparam(&tattr, &schedp);
-        tmp_if_expr$67 = return_value_pthread_attr_setschedparam$66 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_pthread_attr_setschedparam_66=pthread_attr_setschedparam(&tattr, &schedp);
+        tmp_if_expr_67 = return_value_pthread_attr_setschedparam_66 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$67)
+      if(tmp_if_expr_67)
       {
-        signed int *return_value___errno_location$63;
-        return_value___errno_location$63=__errno_location();
-        char *return_value_strerror$64;
-        return_value_strerror$64=strerror(*return_value___errno_location$63);
-        my_log((unsigned int)2, "pthread_attr_setschedpolicy(): %s", return_value_strerror$64);
+        signed int *return_value___errno_location_63;
+        return_value___errno_location_63=__errno_location();
+        char *return_value_strerror_64;
+        return_value_strerror_64=strerror(*return_value___errno_location_63);
+        my_log((unsigned int)2, "pthread_attr_setschedpolicy(): %s", return_value_strerror_64);
         exit(1);
       }
 
     }
 
-    signed int return_value_pthread_create$70;
+    signed int return_value_pthread_create_70;
     static void *threads[4l] = { (void *)emit_thread, (void *)scan_thread, (void *)unpending_thread, (void *)pcap_thread };
-    return_value_pthread_create$70=pthread_create(&thid, &tattr, (void * (*)(void *))threads[(signed long int)i], NULL);
-    if(!(return_value_pthread_create$70 == 0))
+    return_value_pthread_create_70=pthread_create(&thid, &tattr, (void * (*)(void *))threads[(signed long int)i], NULL);
+    if(!(return_value_pthread_create_70 == 0))
     {
-      signed int *return_value___errno_location$68;
-      return_value___errno_location$68=__errno_location();
-      char *return_value_strerror$69;
-      return_value_strerror$69=strerror(*return_value___errno_location$68);
-      my_log((unsigned int)2, "pthread_create(): %s", return_value_strerror$69);
+      signed int *return_value___errno_location_68;
+      return_value___errno_location_68=__errno_location();
+      char *return_value_strerror_69;
+      return_value_strerror_69=strerror(*return_value___errno_location_68);
+      my_log((unsigned int)2, "pthread_create(): %s", return_value_strerror_69);
       exit(1);
     }
 
@@ -3002,52 +3002,52 @@ __CPROVER_DUMP_L87:
   }
   if(!(pw == ((struct passwd *)NULL)))
   {
-    signed int return_value_setgroups$73;
-    return_value_setgroups$73=setgroups((unsigned long int)0, (const unsigned int *)(void *)0);
-    if(!(return_value_setgroups$73 >= 0))
+    signed int return_value_setgroups_73;
+    return_value_setgroups_73=setgroups((unsigned long int)0, (const unsigned int *)(void *)0);
+    if(!(return_value_setgroups_73 >= 0))
     {
-      signed int *return_value___errno_location$71;
-      return_value___errno_location$71=__errno_location();
-      char *return_value_strerror$72;
-      return_value_strerror$72=strerror(*return_value___errno_location$71);
-      my_log((unsigned int)2, "setgroups: %s", return_value_strerror$72);
+      signed int *return_value___errno_location_71;
+      return_value___errno_location_71=__errno_location();
+      char *return_value_strerror_72;
+      return_value_strerror_72=strerror(*return_value___errno_location_71);
+      my_log((unsigned int)2, "setgroups: %s", return_value_strerror_72);
       exit(1);
     }
 
-    signed int return_value_setregid$76;
-    return_value_setregid$76=setregid(pw->pw_gid, pw->pw_gid);
-    if(!(return_value_setregid$76 == 0))
+    signed int return_value_setregid_76;
+    return_value_setregid_76=setregid(pw->pw_gid, pw->pw_gid);
+    if(!(return_value_setregid_76 == 0))
     {
-      signed int *return_value___errno_location$74;
-      return_value___errno_location$74=__errno_location();
-      char *return_value_strerror$75;
-      return_value_strerror$75=strerror(*return_value___errno_location$74);
-      my_log((unsigned int)2, "setregid(%u): %s", pw->pw_gid, return_value_strerror$75);
+      signed int *return_value___errno_location_74;
+      return_value___errno_location_74=__errno_location();
+      char *return_value_strerror_75;
+      return_value_strerror_75=strerror(*return_value___errno_location_74);
+      my_log((unsigned int)2, "setregid(%u): %s", pw->pw_gid, return_value_strerror_75);
       exit(1);
     }
 
-    signed int return_value_setreuid$79;
-    return_value_setreuid$79=setreuid(pw->pw_uid, pw->pw_uid);
-    if(!(return_value_setreuid$79 == 0))
+    signed int return_value_setreuid_79;
+    return_value_setreuid_79=setreuid(pw->pw_uid, pw->pw_uid);
+    if(!(return_value_setreuid_79 == 0))
     {
-      signed int *return_value___errno_location$77;
-      return_value___errno_location$77=__errno_location();
-      char *return_value_strerror$78;
-      return_value_strerror$78=strerror(*return_value___errno_location$77);
-      my_log((unsigned int)2, "setreuid(%u): %s", pw->pw_uid, return_value_strerror$78);
+      signed int *return_value___errno_location_77;
+      return_value___errno_location_77=__errno_location();
+      char *return_value_strerror_78;
+      return_value_strerror_78=strerror(*return_value___errno_location_77);
+      my_log((unsigned int)2, "setreuid(%u): %s", pw->pw_uid, return_value_strerror_78);
       exit(1);
     }
 
   }
 
   pidfile=fopen(pidfilepath, "w");
-  signed int *return_value___errno_location$80;
-  char *return_value_strerror$81;
+  signed int *return_value___errno_location_80;
+  char *return_value_strerror_81;
   if(pidfile == ((struct _IO_FILE *)NULL))
   {
-    return_value___errno_location$80=__errno_location();
-    return_value_strerror$81=strerror(*return_value___errno_location$80);
-    my_log((unsigned int)3, "Can't create pid file. fopen(): %s", return_value_strerror$81);
+    return_value___errno_location_80=__errno_location();
+    return_value_strerror_81=strerror(*return_value___errno_location_80);
+    my_log((unsigned int)3, "Can't create pid file. fopen(): %s", return_value_strerror_81);
   }
 
   else
@@ -3058,23 +3058,23 @@ __CPROVER_DUMP_L87:
   my_log((unsigned int)6, "pid: %d", pid);
   my_log((unsigned int)6, "interface: %s, datalink: %s (%d)", dev, dlt[(signed long int)link_type_idx].descr, link_type);
   my_log((unsigned int)6, "filter: \"%s\"", filter);
-  char *return_value_inet_ntoa$82;
-  return_value_inet_ntoa$82=inet_ntoa(saddr.sin_addr);
-  char *tmp_if_expr$83;
+  char *return_value_inet_ntoa_82;
+  return_value_inet_ntoa_82=inet_ntoa(saddr.sin_addr);
+  char *tmp_if_expr_83;
   if(!(parms[3l].count == 0))
-    tmp_if_expr$83 = parms[(signed long int)3].arg;
+    tmp_if_expr_83 = parms[(signed long int)3].arg;
 
   else
-    tmp_if_expr$83 = "";
-  char *tmp_if_expr$84;
+    tmp_if_expr_83 = "";
+  char *tmp_if_expr_84;
   if(!(parms[21l].count == 0))
-    tmp_if_expr$84 = parms[(signed long int)21].arg;
+    tmp_if_expr_84 = parms[(signed long int)21].arg;
 
   else
-    tmp_if_expr$84 = "";
-  my_log((unsigned int)6, "options: p=%d s=%u g=%u d=%u e=%u n=%u a=%s x=%u:%u b=%u m=%u q=%u B=%u r=%u t=%u:%u S=%d K=%d k=%d c=%s u=%s v=%u l=%u%s", promisc, scan_interval, frag_lifetime, inactive_lifetime, active_lifetime, netflow->Version, return_value_inet_ntoa$82, snmp_input_index, snmp_output_index, bulk_quantity, memory_limit >> 10, pending_queue_length, sockbufsize >> 10, schedp.__sched_priority - 1, emit_rate_bytes, emit_rate_delay, snaplen, off_nl, link_layer, tmp_if_expr$83, tmp_if_expr$84, verbosity, log_dest, log_suffix != ((char *)NULL) ? log_suffix : "");
+    tmp_if_expr_84 = "";
+  my_log((unsigned int)6, "options: p=%d s=%u g=%u d=%u e=%u n=%u a=%s x=%u:%u b=%u m=%u q=%u B=%u r=%u t=%u:%u S=%d K=%d k=%d c=%s u=%s v=%u l=%u%s", promisc, scan_interval, frag_lifetime, inactive_lifetime, active_lifetime, netflow->Version, return_value_inet_ntoa_82, snmp_input_index, snmp_output_index, bulk_quantity, memory_limit >> 10, pending_queue_length, sockbufsize >> 10, schedp.__sched_priority - 1, emit_rate_bytes, emit_rate_delay, snaplen, off_nl, link_layer, tmp_if_expr_83, tmp_if_expr_84, verbosity, log_dest, log_suffix != ((char *)NULL) ? log_suffix : "");
   i = 0;
-  unsigned short int tmp_statement_expression$87;
+  unsigned short int tmp_statement_expression_87;
   for( ; !(i >= npeers); i = i + 1)
   {
     switch((peers + (signed long int)i)->type)
@@ -3087,30 +3087,30 @@ __CPROVER_DUMP_L87:
       case 1:
         c = 114;
     }
-    char *return_value_inet_ntoa$85;
-    return_value_inet_ntoa$85=inet_ntoa((peers + (signed long int)i)->laddr.sin_addr);
-    snprintf(errbuf, sizeof(char [256l]) /*256ul*/ , "%s", return_value_inet_ntoa$85);
-    char *return_value_inet_ntoa$86;
-    return_value_inet_ntoa$86=inet_ntoa((peers + (signed long int)i)->addr.sin_addr);
+    char *return_value_inet_ntoa_85;
+    return_value_inet_ntoa_85=inet_ntoa((peers + (signed long int)i)->laddr.sin_addr);
+    snprintf(errbuf, sizeof(char [256l]) /*256ul*/ , "%s", return_value_inet_ntoa_85);
+    char *return_value_inet_ntoa_86;
+    return_value_inet_ntoa_86=inet_ntoa((peers + (signed long int)i)->addr.sin_addr);
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)(peers + (signed long int)i)->addr.sin_port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$87 = __v;
-    my_log((unsigned int)6, "collector #%d: %s:%u/%s/%c", i + 1, return_value_inet_ntoa$86, tmp_statement_expression$87, (const void *)errbuf, c);
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_87 = __v;
+    my_log((unsigned int)6, "collector #%d: %s:%u/%s/%c", i + 1, return_value_inet_ntoa_86, tmp_statement_expression_87, (const void *)errbuf, c);
   }
-  unsigned short int tmp_statement_expression$88;
-  unsigned short int main$$1$$27$$__v;
-  unsigned short int main$$1$$27$$__x = (unsigned short int)snmp_input_index;
-  asm("rorw $8, %w0" : "=r"(main$$1$$27$$__v) : "0"(main$$1$$27$$__x) : "cc");
-  tmp_statement_expression$88 = main$$1$$27$$__v;
-  snmp_input_index = (unsigned int)tmp_statement_expression$88;
-  unsigned short int tmp_statement_expression$89;
-  unsigned short int main$$1$$28$$__v;
-  unsigned short int main$$1$$28$$__x = (unsigned short int)snmp_output_index;
-  asm("rorw $8, %w0" : "=r"(main$$1$$28$$__v) : "0"(main$$1$$28$$__x) : "cc");
-  tmp_statement_expression$89 = main$$1$$28$$__v;
-  snmp_output_index = (unsigned int)tmp_statement_expression$89;
-  pthread_sigmask(1, &sig_mask, ((struct anonymous$21 *)NULL));
+  unsigned short int tmp_statement_expression_88;
+  unsigned short int main__1__27____v;
+  unsigned short int main__1__27____x = (unsigned short int)snmp_input_index;
+  asm("rorw _8, %w0" : "=r"(main__1__27____v) : "0"(main__1__27____x) : "cc");
+  tmp_statement_expression_88 = main__1__27____v;
+  snmp_input_index = (unsigned int)tmp_statement_expression_88;
+  unsigned short int tmp_statement_expression_89;
+  unsigned short int main__1__28____v;
+  unsigned short int main__1__28____x = (unsigned short int)snmp_output_index;
+  asm("rorw _8, %w0" : "=r"(main__1__28____v) : "0"(main__1__28____x) : "cc");
+  tmp_statement_expression_89 = main__1__28____v;
+  snmp_output_index = (unsigned int)tmp_statement_expression_89;
+  pthread_sigmask(1, &sig_mask, ((struct anonymous_21 *)NULL));
   timeout.tv_usec = (signed long int)0;
   while((_Bool)1)
   {
@@ -3132,7 +3132,7 @@ __CPROVER_DUMP_L87:
     if(sigs == 0)
     {
       timeout.tv_sec = (signed long int)scan_interval;
-      select(0, ((struct anonymous$3 *)NULL), ((struct anonymous$3 *)NULL), ((struct anonymous$3 *)NULL), &timeout);
+      select(0, ((struct anonymous_3 *)NULL), ((struct anonymous_3 *)NULL), ((struct anonymous_3 *)NULL), &timeout);
     }
 
     if(killed == 0 && !((2 & sigs) == 0))
@@ -3168,37 +3168,37 @@ void * mem_alloc()
   void **iptr;
   void *eptr;
   pthread_mutex_lock(&mem_mutex);
-  void **tmp_post$3;
+  void **tmp_post_3;
   if(free_elements == 0u)
   {
     if(!(limit_memory == 0u) && !(limit_memory >= malloc_size + total_memory))
     {
       mptr = ((struct Mem *)NULL);
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 12;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 12;
       goto done;
     }
 
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)malloc_size, (unsigned long int)1);
-    mptr = (struct Mem *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)malloc_size, (unsigned long int)1);
+    mptr = (struct Mem *)return_value_calloc_2;
     if(mptr == ((struct Mem *)NULL))
       goto done;
 
     iptr = (void **)((void *)mptr + (signed long int)sizeof(struct Mem) /*32ul*/ );
     eptr = (void *)iptr + (signed long int)mem_index_table_size;
     i = (unsigned int)0;
-    for( ; !(i >= bulk_quantity$link1); i = i + 1u)
+    for( ; !(i >= bulk_quantity_link1); i = i + 1u)
     {
-      tmp_post$3 = iptr;
+      tmp_post_3 = iptr;
       iptr = iptr + 1l;
-      *tmp_post$3 = eptr;
+      *tmp_post_3 = eptr;
       eptr = eptr + (signed long int)element_size;
     }
-    mptr->free = bulk_quantity$link1 - (unsigned int)1;
+    mptr->free = bulk_quantity_link1 - (unsigned int)1;
     free_elements = free_elements + mptr->free;
-    total_elements = total_elements + bulk_quantity$link1;
+    total_elements = total_elements + bulk_quantity_link1;
     total_memory = total_memory + malloc_size;
     mptr->first = (void *)iptr;
     mptr->last = ((void *)iptr + (signed long int)element_table_size) - (signed long int)element_size;
@@ -3250,12 +3250,12 @@ __CPROVER_DUMP_L3:
   iptr[(signed long int)mptr->free] = eptr;
   mptr->free = mptr->free + 1u;
   free_elements = free_elements + 1u;
-  if(mptr->free == bulk_quantity$link1)
+  if(mptr->free == bulk_quantity_link1)
   {
     *pptr = mptr->next;
     free((void *)mptr);
-    total_elements = total_elements - bulk_quantity$link1;
-    free_elements = free_elements - bulk_quantity$link1;
+    total_elements = total_elements - bulk_quantity_link1;
+    free_elements = free_elements - bulk_quantity_link1;
     total_memory = total_memory - malloc_size;
   }
 
@@ -3266,10 +3266,10 @@ __CPROVER_DUMP_L3:
 // file ./mem.h line 35
 signed int mem_init(unsigned int element, unsigned int bulk, unsigned int limit)
 {
-  bulk_quantity$link1 = (unsigned int)(void *)bulk;
-  mem_index_table_size = (unsigned int)(sizeof(void *) /*8ul*/  * (unsigned long int)bulk_quantity$link1);
+  bulk_quantity_link1 = (unsigned int)(void *)bulk;
+  mem_index_table_size = (unsigned int)(sizeof(void *) /*8ul*/  * (unsigned long int)bulk_quantity_link1);
   element_size = element;
-  element_table_size = element_size * bulk_quantity$link1;
+  element_table_size = element_size * bulk_quantity_link1;
   malloc_size = (unsigned int)(sizeof(struct Mem) /*32ul*/  + (unsigned long int)mem_index_table_size + (unsigned long int)element_table_size);
   limit_memory = limit;
   return 0;
@@ -3279,9 +3279,9 @@ signed int mem_init(unsigned int element, unsigned int bulk, unsigned int limit)
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
 static inline void * memset(void *__dest, signed int __ch, unsigned long int __len)
 {
-  void *return_value___builtin___memset_chk$1;
-  return_value___builtin___memset_chk$1=__builtin___memset_chk(__dest, __ch, __len, 18446744073709551615ul);
-  return return_value___builtin___memset_chk$1;
+  void *return_value___builtin___memset_chk_1;
+  return_value___builtin___memset_chk_1=__builtin___memset_chk(__dest, __ch, __len, 18446744073709551615ul);
+  return return_value___builtin___memset_chk_1;
 }
 
 // my_getopt
@@ -3292,12 +3292,12 @@ signed int my_getopt(signed int argc, char * const *argv, struct getopt_parms *p
   signed int i;
   signed int p;
   static signed int flag = 0;
-  signed int tmp_post$3 = flag;
+  signed int tmp_post_3 = flag;
   flag = flag + 1;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   static char optstring[4096l];
-  if(tmp_post$3 == 0)
+  if(tmp_post_3 == 0)
   {
     p = 0;
     i = 0;
@@ -3306,14 +3306,14 @@ signed int my_getopt(signed int argc, char * const *argv, struct getopt_parms *p
       if(p >= 4096)
         break;
 
-      tmp_post$1 = p;
+      tmp_post_1 = p;
       p = p + 1;
-      optstring[(signed long int)tmp_post$1] = (parms + (signed long int)i)->name;
+      optstring[(signed long int)tmp_post_1] = (parms + (signed long int)i)->name;
       if(!((0x1 & (parms + (signed long int)i)->flag) == 0))
       {
-        tmp_post$2 = p;
+        tmp_post_2 = p;
         p = p + 1;
-        optstring[(signed long int)tmp_post$2] = (char)58;
+        optstring[(signed long int)tmp_post_2] = (char)58;
       }
 
       optstring[(signed long int)p] = (char)0;
@@ -3333,7 +3333,7 @@ signed int my_getopt(signed int argc, char * const *argv, struct getopt_parms *p
   else
   {
     if(!(my_opterr == 0))
-      fprintf$link1(stderr, "Wrong parameters\n");
+      fprintf_link1(stderr, "Wrong parameters\n");
 
     goto __CPROVER_DUMP_L19;
 
@@ -3347,7 +3347,7 @@ signed int my_getopt(signed int argc, char * const *argv, struct getopt_parms *p
         if((parms + (signed long int)i)->count == 0)
         {
           if(!(my_opterr == 0))
-            fprintf$link1(stderr, "Missing required option\n");
+            fprintf_link1(stderr, "Missing required option\n");
 
           return 63;
         }
@@ -3366,7 +3366,7 @@ signed int my_getopt(signed int argc, char * const *argv, struct getopt_parms *p
     if(optarg == ((char *)NULL))
     {
       if(!(my_opterr == 0))
-        fprintf$link1(stderr, "Option `-%c': %s\n", c, (const void *)"require parameter");
+        fprintf_link1(stderr, "Option `-%c': %s\n", c, (const void *)"require parameter");
 
       return 63;
     }
@@ -3382,7 +3382,7 @@ signed int my_getopt(signed int argc, char * const *argv, struct getopt_parms *p
       goto __CPROVER_DUMP_L19;
 
     if(!(my_opterr == 0))
-      fprintf$link1(stderr, "Option `-%c': %s\n", c, (const void *)"repeat not allowed");
+      fprintf_link1(stderr, "Option `-%c': %s\n", c, (const void *)"repeat not allowed");
 
     return 63;
   }
@@ -3407,12 +3407,12 @@ void my_log(unsigned int level, const char *format, ...)
   {
     args = (void **)&format;
     vsnprintf(msg, sizeof(char [256l]) /*256ul*/ , format, args);
-    snprintf$link1(msg_prefix, sizeof(char [64l]) /*64ul*/ , "[%s]: ", my_log_names[(signed long int)level]);
+    snprintf_link1(msg_prefix, sizeof(char [64l]) /*64ul*/ , "[%s]: ", my_log_names[(signed long int)level]);
     if(!((1u & my_log_flags) == 0u))
       syslog((signed int)level, "%s%s", (const void *)msg_prefix, (const void *)msg);
 
     if(!((2u & my_log_flags) == 0u))
-      fprintf$link2(stdout, "%s%s\n", (const void *)msg_prefix, (const void *)msg);
+      fprintf_link2(stdout, "%s%s\n", (const void *)msg_prefix, (const void *)msg);
 
   }
 
@@ -3444,41 +3444,41 @@ void pcap_callback(unsigned char *useless, struct pcap_pkthdr *pkthdr, const uns
   struct Flow *flow;
   signed int off_frag;
   signed int psize;
-  _Bool tmp_if_expr$1;
-  unsigned int tmp_if_expr$3;
-  unsigned short int tmp_statement_expression$2;
-  unsigned short int tmp_statement_expression$4;
-  unsigned short int tmp_statement_expression$5;
-  unsigned short int tmp_statement_expression$7;
-  unsigned short int tmp_statement_expression$6;
-  unsigned short int tmp_statement_expression$8;
-  unsigned short int tmp_statement_expression$9;
+  _Bool tmp_if_expr_1;
+  unsigned int tmp_if_expr_3;
+  unsigned short int tmp_statement_expression_2;
+  unsigned short int tmp_statement_expression_4;
+  unsigned short int tmp_statement_expression_5;
+  unsigned short int tmp_statement_expression_7;
+  unsigned short int tmp_statement_expression_6;
+  unsigned short int tmp_statement_expression_8;
+  unsigned short int tmp_statement_expression_9;
   if(killed == 0)
   {
     nl = (struct ip *)((void *)packet + (signed long int)off_nl);
     psize = (signed int)(pkthdr->caplen - (unsigned int)off_nl);
     if(!(psize >= (signed int)sizeof(struct ip) /*20*/ ))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)nl->ip_v != 4 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)nl->ip_v != 4 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       if(pending_head->flags == 0)
       {
         flow = pending_head;
         if(!(link_layer == 0))
-          tmp_if_expr$3 = pkthdr->len;
+          tmp_if_expr_3 = pkthdr->len;
 
         else
         {
-          unsigned short int pcap_callback$$1$$3$$__v;
-          unsigned short int pcap_callback$$1$$3$$__x = (unsigned short int)nl->ip_len;
-          asm("rorw $8, %w0" : "=r"(pcap_callback$$1$$3$$__v) : "0"(pcap_callback$$1$$3$$__x) : "cc");
-          tmp_statement_expression$2 = pcap_callback$$1$$3$$__v;
-          tmp_if_expr$3 = (unsigned int)tmp_statement_expression$2;
+          unsigned short int pcap_callback__1__3____v;
+          unsigned short int pcap_callback__1__3____x = (unsigned short int)nl->ip_len;
+          asm("rorw _8, %w0" : "=r"(pcap_callback__1__3____v) : "0"(pcap_callback__1__3____x) : "cc");
+          tmp_statement_expression_2 = pcap_callback__1__3____v;
+          tmp_if_expr_3 = (unsigned int)tmp_statement_expression_2;
         }
-        flow->size = (unsigned long int)tmp_if_expr$3;
+        flow->size = (unsigned long int)tmp_if_expr_3;
         flow->sip = nl->ip_src;
         flow->dip = nl->ip_dst;
         flow->tos = nl->ip_tos;
@@ -3491,18 +3491,18 @@ void pcap_callback(unsigned char *useless, struct pcap_pkthdr *pkthdr, const uns
         flow->ctime.sec = pkthdr->ts.tv_sec;
         flow->ctime.usec = pkthdr->ts.tv_usec;
         flow->mtime = flow->ctime;
-        unsigned short int pcap_callback$$1$$4$$__v;
-        unsigned short int pcap_callback$$1$$4$$__x = (unsigned short int)nl->ip_off;
-        asm("rorw $8, %w0" : "=r"(pcap_callback$$1$$4$$__v) : "0"(pcap_callback$$1$$4$$__x) : "cc");
-        tmp_statement_expression$4 = pcap_callback$$1$$4$$__v;
-        off_frag = ((signed int)tmp_statement_expression$4 & 0x1fff) << 3;
+        unsigned short int pcap_callback__1__4____v;
+        unsigned short int pcap_callback__1__4____x = (unsigned short int)nl->ip_off;
+        asm("rorw _8, %w0" : "=r"(pcap_callback__1__4____v) : "0"(pcap_callback__1__4____x) : "cc");
+        tmp_statement_expression_4 = pcap_callback__1__4____v;
+        off_frag = ((signed int)tmp_statement_expression_4 & 0x1fff) << 3;
         off_tl = (signed int)nl->ip_hl << 2;
         tl = (void *)nl + (signed long int)off_tl;
-        unsigned short int pcap_callback$$1$$5$$__v;
-        unsigned short int pcap_callback$$1$$5$$__x = (unsigned short int)nl->ip_len;
-        asm("rorw $8, %w0" : "=r"(pcap_callback$$1$$5$$__v) : "0"(pcap_callback$$1$$5$$__x) : "cc");
-        tmp_statement_expression$5 = pcap_callback$$1$$5$$__v;
-        flow->sizeF = (unsigned long int)((signed int)tmp_statement_expression$5 - off_tl);
+        unsigned short int pcap_callback__1__5____v;
+        unsigned short int pcap_callback__1__5____x = (unsigned short int)nl->ip_len;
+        asm("rorw _8, %w0" : "=r"(pcap_callback__1__5____v) : "0"(pcap_callback__1__5____x) : "cc");
+        tmp_statement_expression_5 = pcap_callback__1__5____v;
+        flow->sizeF = (unsigned long int)((signed int)tmp_statement_expression_5 - off_tl);
         psize = psize - off_tl;
         if(!((signed int)flow->sizeF >= 0))
           flow->sizeF = (unsigned long int)0;
@@ -3510,19 +3510,19 @@ void pcap_callback(unsigned char *useless, struct pcap_pkthdr *pkthdr, const uns
         if(!((signed int)flow->sizeF >= psize))
           psize = (signed int)flow->sizeF;
 
-        unsigned short int pcap_callback$$1$$6$$__v;
-        unsigned short int pcap_callback$$1$$6$$__x = (unsigned short int)nl->ip_off;
-        asm("rorw $8, %w0" : "=r"(pcap_callback$$1$$6$$__v) : "0"(pcap_callback$$1$$6$$__x) : "cc");
-        tmp_statement_expression$7 = pcap_callback$$1$$6$$__v;
-        if(!((16383 & (signed int)tmp_statement_expression$7) == 0))
+        unsigned short int pcap_callback__1__6____v;
+        unsigned short int pcap_callback__1__6____x = (unsigned short int)nl->ip_off;
+        asm("rorw _8, %w0" : "=r"(pcap_callback__1__6____v) : "0"(pcap_callback__1__6____x) : "cc");
+        tmp_statement_expression_7 = pcap_callback__1__6____v;
+        if(!((16383 & (signed int)tmp_statement_expression_7) == 0))
         {
           flow->flags = flow->flags | 0x0001;
           flow->id = nl->ip_id;
-          unsigned short int pcap_callback$$1$$7$$1$$__v;
-          unsigned short int pcap_callback$$1$$7$$1$$__x = (unsigned short int)nl->ip_off;
-          asm("rorw $8, %w0" : "=r"(pcap_callback$$1$$7$$1$$__v) : "0"(pcap_callback$$1$$7$$1$$__x) : "cc");
-          tmp_statement_expression$6 = pcap_callback$$1$$7$$1$$__v;
-          if((0x2000 & (signed int)tmp_statement_expression$6) == 0)
+          unsigned short int pcap_callback__1__7__1____v;
+          unsigned short int pcap_callback__1__7__1____x = (unsigned short int)nl->ip_off;
+          asm("rorw _8, %w0" : "=r"(pcap_callback__1__7__1____v) : "0"(pcap_callback__1__7__1____x) : "cc");
+          tmp_statement_expression_6 = pcap_callback__1__7__1____v;
+          if((0x2000 & (signed int)tmp_statement_expression_6) == 0)
           {
             flow->flags = flow->flags | 0x0008;
             flow->sizeP = (unsigned long int)off_frag + flow->sizeF;
@@ -3538,22 +3538,22 @@ void pcap_callback(unsigned char *useless, struct pcap_pkthdr *pkthdr, const uns
 
             case 17:
             {
-              flow->sp = ((struct udphdr *)tl)->$anon0.$anon0.uh_sport;
-              flow->dp = ((struct udphdr *)tl)->$anon0.$anon0.uh_dport;
+              flow->sp = ((struct udphdr *)tl)->_anon0._anon0.uh_sport;
+              flow->dp = ((struct udphdr *)tl)->_anon0._anon0.uh_dport;
               break;
             }
             case 1:
             {
               unsigned short int __v;
               unsigned short int __x = (unsigned short int)((struct icmp *)tl)->icmp_type;
-              asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-              tmp_statement_expression$8 = __v;
-              flow->sp = tmp_statement_expression$8;
-              unsigned short int pcap_callback$$1$$8$$1$$2$$__v;
-              unsigned short int pcap_callback$$1$$8$$1$$2$$__x = (unsigned short int)((struct icmp *)tl)->icmp_code;
-              asm("rorw $8, %w0" : "=r"(pcap_callback$$1$$8$$1$$2$$__v) : "0"(pcap_callback$$1$$8$$1$$2$$__x) : "cc");
-              tmp_statement_expression$9 = pcap_callback$$1$$8$$1$$2$$__v;
-              flow->dp = tmp_statement_expression$9;
+              asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+              tmp_statement_expression_8 = __v;
+              flow->sp = tmp_statement_expression_8;
+              unsigned short int pcap_callback__1__8__1__2____v;
+              unsigned short int pcap_callback__1__8__1__2____x = (unsigned short int)((struct icmp *)tl)->icmp_code;
+              asm("rorw _8, %w0" : "=r"(pcap_callback__1__8__1__2____v) : "0"(pcap_callback__1__8__1__2____x) : "cc");
+              tmp_statement_expression_9 = pcap_callback__1__8__1__2____v;
+              flow->dp = tmp_statement_expression_9;
               break;
             }
             default:
@@ -3608,11 +3608,11 @@ void * pcap_thread()
 {
   setuser();
   pcap_loop(pcap_handle, -1, pcap_callback, ((unsigned char *)NULL));
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  char *return_value_strerror$2;
-  return_value_strerror$2=strerror(*return_value___errno_location$1);
-  my_log((unsigned int)6, "pcap_loop() terminated: %s", return_value_strerror$2);
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  char *return_value_strerror_2;
+  return_value_strerror_2=strerror(*return_value___errno_location_1);
+  my_log((unsigned int)6, "pcap_loop() terminated: %s", return_value_strerror_2);
   kill(pid, 15);
   return NULL;
 }
@@ -3633,9 +3633,9 @@ signed int put_into(struct Flow *flow, signed int flag)
   {
     if(flag == 0)
     {
-      void *return_value_mem_alloc$1;
-      return_value_mem_alloc$1=mem_alloc();
-      flown = (struct Flow *)return_value_mem_alloc$1;
+      void *return_value_mem_alloc_1;
+      return_value_mem_alloc_1=mem_alloc();
+      flown = (struct Flow *)return_value_mem_alloc_1;
       if(!(flown == ((struct Flow *)NULL)))
       {
         copy_flow(flow, flown);
@@ -3652,14 +3652,14 @@ signed int put_into(struct Flow *flow, signed int flag)
 
   else
   {
-    signed long int return_value_cmpmtime$2;
-    return_value_cmpmtime$2=cmpmtime(&flow->mtime, &flown->mtime);
-    if(return_value_cmpmtime$2 >= 1l)
+    signed long int return_value_cmpmtime_2;
+    return_value_cmpmtime_2=cmpmtime(&flow->mtime, &flown->mtime);
+    if(return_value_cmpmtime_2 >= 1l)
       flown->mtime = flow->mtime;
 
-    signed long int return_value_cmpmtime$3;
-    return_value_cmpmtime$3=cmpmtime(&flow->ctime, &flown->ctime);
-    if(!(return_value_cmpmtime$3 >= 0l))
+    signed long int return_value_cmpmtime_3;
+    return_value_cmpmtime_3=cmpmtime(&flow->ctime, &flown->ctime);
+    if(!(return_value_cmpmtime_3 >= 0l))
       flown->ctime = flow->ctime;
 
     flown->tcp_flags = flown->tcp_flags | flow->tcp_flags;
@@ -3713,7 +3713,7 @@ void * scan_thread()
   setuser();
   timeout.tv_nsec = (signed long int)0;
   pthread_mutex_lock(&scan_mutex);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     gettime(&now);
@@ -3746,11 +3746,11 @@ void * scan_thread()
         else
         {
           if(!((signed long int)inactive_lifetime >= now.sec + -flow->mtime.sec))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = flow->mtime.sec - flow->ctime.sec > (signed long int)active_lifetime ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = flow->mtime.sec - flow->ctime.sec > (signed long int)active_lifetime ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
           {
             *flowpp = flow->next;
             pthread_mutex_lock(&emit_mutex);
@@ -3806,51 +3806,51 @@ void sighandler(signed int sig)
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
 static inline signed int snprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  signed int return_value___builtin___snprintf_chk$2;
-  return_value___builtin___snprintf_chk$2=__builtin___snprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, return_value___builtin_va_arg_pack$1);
-  return return_value___builtin___snprintf_chk$2;
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  signed int return_value___builtin___snprintf_chk_2;
+  return_value___builtin___snprintf_chk_2=__builtin___snprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, return_value___builtin_va_arg_pack_1);
+  return return_value___builtin___snprintf_chk_2;
 }
 
-// snprintf$link1
+// snprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
-static inline signed int snprintf$link1(char * restrict __s$link1, unsigned long int __n$link1, const char * restrict __fmt$link1, ...)
+static inline signed int snprintf_link1(char * restrict __s_link1, unsigned long int __n_link1, const char * restrict __fmt_link1, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link1;
-  return_value___builtin_va_arg_pack$1$link1=__builtin_va_arg_pack();
-  signed int return_value___builtin___snprintf_chk$2$link1;
-  return_value___builtin___snprintf_chk$2$link1=__builtin___snprintf_chk(__s$link1, __n$link1, 2 - 1, 18446744073709551615ul, __fmt$link1, return_value___builtin_va_arg_pack$1$link1);
-  return return_value___builtin___snprintf_chk$2$link1;
+  void *return_value___builtin_va_arg_pack_1_link1;
+  return_value___builtin_va_arg_pack_1_link1=__builtin_va_arg_pack();
+  signed int return_value___builtin___snprintf_chk_2_link1;
+  return_value___builtin___snprintf_chk_2_link1=__builtin___snprintf_chk(__s_link1, __n_link1, 2 - 1, 18446744073709551615ul, __fmt_link1, return_value___builtin_va_arg_pack_1_link1);
+  return return_value___builtin___snprintf_chk_2_link1;
 }
 
 // sprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 31
 static inline signed int sprintf(char * restrict __s, const char * restrict __fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  signed int return_value___builtin___sprintf_chk$2;
-  return_value___builtin___sprintf_chk$2=__builtin___sprintf_chk(__s, 2 - 1, 18446744073709551615ul, __fmt, return_value___builtin_va_arg_pack$1);
-  return return_value___builtin___sprintf_chk$2;
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  signed int return_value___builtin___sprintf_chk_2;
+  return_value___builtin___sprintf_chk_2=__builtin___sprintf_chk(__s, 2 - 1, 18446744073709551615ul, __fmt, return_value___builtin_va_arg_pack_1);
+  return return_value___builtin___sprintf_chk_2;
 }
 
 // strcat
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 146
 static inline char * strcat(char * restrict __dest, const char * restrict __src)
 {
-  char *return_value___builtin___strcat_chk$1;
-  return_value___builtin___strcat_chk$1=__builtin___strcat_chk(__dest, __src, 18446744073709551615ul);
-  return return_value___builtin___strcat_chk$1;
+  char *return_value___builtin___strcat_chk_1;
+  return_value___builtin___strcat_chk_1=__builtin___strcat_chk(__dest, __src, 18446744073709551615ul);
+  return return_value___builtin___strcat_chk_1;
 }
 
 // syslog
 // file /usr/include/x86_64-linux-gnu/bits/syslog.h line 29
 static inline void syslog(signed int __pri, const char *__fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  __syslog_chk(__pri, 2 - 1, __fmt, return_value___builtin_va_arg_pack$1);
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  __syslog_chk(__pri, 2 - 1, __fmt, return_value___builtin_va_arg_pack_1);
 }
 
 // unpending_thread
@@ -3875,8 +3875,8 @@ __CPROVER_DUMP_L1:
       goto __CPROVER_DUMP_L1;
     }
 
-    signed int return_value_put_into$1;
-    return_value_put_into$1=put_into(pending_tail, 0);
+    signed int return_value_put_into_1;
+    return_value_put_into_1=put_into(pending_tail, 0);
     pending_tail->flags = 0;
     pending_tail = pending_tail->next;
   }
@@ -3894,8 +3894,8 @@ void usage()
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 74
 static inline signed int vsnprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, void **__ap)
 {
-  signed int return_value___builtin___vsnprintf_chk$1;
-  return_value___builtin___vsnprintf_chk$1=__builtin___vsnprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, __ap);
-  return return_value___builtin___vsnprintf_chk$1;
+  signed int return_value___builtin___vsnprintf_chk_1;
+  return_value___builtin___vsnprintf_chk_1=__builtin___vsnprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, __ap);
+  return return_value___builtin___vsnprintf_chk_1;
 }
 

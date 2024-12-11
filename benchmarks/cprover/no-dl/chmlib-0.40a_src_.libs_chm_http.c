@@ -1,8 +1,8 @@
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -203,15 +203,15 @@ void chm_close(struct chmFile *h);
 // chm_enumerate
 // file chm_lib.h line 129
 signed int chm_enumerate(struct chmFile *h, signed int what, signed int (*e)(struct chmFile *, struct chmUnitInfo *, void *), void *context);
-// chm_enumerate::e$object
+// chm_enumerate::e_object
 //
-signed int e$object(struct chmFile *, struct chmUnitInfo *, void *);
+signed int e_object(struct chmFile *, struct chmUnitInfo *, void *);
 // chm_enumerate_dir
 // file chm_lib.c line 1734
 signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int what, signed int (*e)(struct chmFile *, struct chmUnitInfo *, void *), void *context);
-// chm_enumerate_dir::e$object
+// chm_enumerate_dir::e_object
 //
-signed int e$object(struct chmFile *, struct chmUnitInfo *, void *);
+signed int e_object(struct chmFile *, struct chmUnitInfo *, void *);
 // chm_open
 // file chm_lib.h line 90
 struct chmFile * chm_open(const char *filename);
@@ -307,7 +307,7 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -351,7 +351,7 @@ static void usage(const char *argv0);
 // file chm_http.c line 343 function service_request
 signed int write(void);
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -938,21 +938,21 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
     pState->header_read = 1;
   }
 
-  signed int return_value_make_decode_table$1;
-  signed int return_value_make_decode_table$4;
-  signed int return_value_make_decode_table$6;
-  unsigned int tmp_post$7;
-  signed int tmp_post$8;
-  unsigned char *tmp_post$9;
-  signed int tmp_post$10;
-  unsigned char *tmp_post$11;
-  unsigned char *tmp_post$12;
-  unsigned int tmp_post$13;
-  signed int tmp_post$14;
-  unsigned char *tmp_post$15;
-  signed int tmp_post$16;
-  unsigned char *tmp_post$17;
-  unsigned char *tmp_post$18;
+  signed int return_value_make_decode_table_1;
+  signed int return_value_make_decode_table_4;
+  signed int return_value_make_decode_table_6;
+  unsigned int tmp_post_7;
+  signed int tmp_post_8;
+  unsigned char *tmp_post_9;
+  signed int tmp_post_10;
+  unsigned char *tmp_post_11;
+  unsigned char *tmp_post_12;
+  unsigned int tmp_post_13;
+  signed int tmp_post_14;
+  unsigned char *tmp_post_15;
+  signed int tmp_post_16;
+  unsigned char *tmp_post_17;
+  unsigned char *tmp_post_18;
   while(togo >= 1)
   {
     if(pState->block_remaining == 0u)
@@ -1053,8 +1053,8 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
             while((_Bool)0);
             pState->ALIGNED_len[(signed long int)i] = (unsigned char)j;
           }
-          return_value_make_decode_table$1=make_decode_table((unsigned int)8, (unsigned int)7, pState->ALIGNED_len, pState->ALIGNED_table);
-          if(!(return_value_make_decode_table$1 == 0))
+          return_value_make_decode_table_1=make_decode_table((unsigned int)8, (unsigned int)7, pState->ALIGNED_len, pState->ALIGNED_table);
+          if(!(return_value_make_decode_table_1 == 0))
             return 2;
 
         }
@@ -1065,9 +1065,9 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
             lb.bb = bitbuf;
             lb.bl = bitsleft;
             lb.ip = inpos;
-            signed int return_value_lzx_read_lens$2;
-            return_value_lzx_read_lens$2=lzx_read_lens(pState, pState->MAINTREE_len, (unsigned int)0, (unsigned int)256, &lb);
-            if(!(return_value_lzx_read_lens$2 == 0))
+            signed int return_value_lzx_read_lens_2;
+            return_value_lzx_read_lens_2=lzx_read_lens(pState, pState->MAINTREE_len, (unsigned int)0, (unsigned int)256, &lb);
+            if(!(return_value_lzx_read_lens_2 == 0))
               return 2;
 
             bitbuf = lb.bb;
@@ -1080,9 +1080,9 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
             lb.bb = bitbuf;
             lb.bl = bitsleft;
             lb.ip = inpos;
-            signed int return_value_lzx_read_lens$3;
-            return_value_lzx_read_lens$3=lzx_read_lens(pState, pState->MAINTREE_len, (unsigned int)256, (unsigned int)pState->main_elements, &lb);
-            if(!(return_value_lzx_read_lens$3 == 0))
+            signed int return_value_lzx_read_lens_3;
+            return_value_lzx_read_lens_3=lzx_read_lens(pState, pState->MAINTREE_len, (unsigned int)256, (unsigned int)pState->main_elements, &lb);
+            if(!(return_value_lzx_read_lens_3 == 0))
               return 2;
 
             bitbuf = lb.bb;
@@ -1090,8 +1090,8 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
             inpos = lb.ip;
           }
           while((_Bool)0);
-          return_value_make_decode_table$4=make_decode_table((unsigned int)(256 + 50 * 8), (unsigned int)12, pState->MAINTREE_len, pState->MAINTREE_table);
-          if(!(return_value_make_decode_table$4 == 0))
+          return_value_make_decode_table_4=make_decode_table((unsigned int)(256 + 50 * 8), (unsigned int)12, pState->MAINTREE_len, pState->MAINTREE_table);
+          if(!(return_value_make_decode_table_4 == 0))
             return 2;
 
           if(!((signed int)pState->MAINTREE_len[232l] == 0))
@@ -1102,9 +1102,9 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
             lb.bb = bitbuf;
             lb.bl = bitsleft;
             lb.ip = inpos;
-            signed int return_value_lzx_read_lens$5;
-            return_value_lzx_read_lens$5=lzx_read_lens(pState, pState->LENGTH_len, (unsigned int)0, (unsigned int)249, &lb);
-            if(!(return_value_lzx_read_lens$5 == 0))
+            signed int return_value_lzx_read_lens_5;
+            return_value_lzx_read_lens_5=lzx_read_lens(pState, pState->LENGTH_len, (unsigned int)0, (unsigned int)249, &lb);
+            if(!(return_value_lzx_read_lens_5 == 0))
               return 2;
 
             bitbuf = lb.bb;
@@ -1112,8 +1112,8 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
             inpos = lb.ip;
           }
           while((_Bool)0);
-          return_value_make_decode_table$6=make_decode_table((unsigned int)(249 + 1), (unsigned int)12, pState->LENGTH_len, pState->LENGTH_table);
-          if(!(return_value_make_decode_table$6 == 0))
+          return_value_make_decode_table_6=make_decode_table((unsigned int)(249 + 1), (unsigned int)12, pState->LENGTH_len, pState->LENGTH_table);
+          if(!(return_value_make_decode_table_6 == 0))
             return 2;
 
           break;
@@ -1212,9 +1212,9 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
             while((_Bool)0);
             if(!(main_element >= 256))
             {
-              tmp_post$7 = window_posn;
+              tmp_post_7 = window_posn;
               window_posn = window_posn + 1u;
-              window[(signed long int)tmp_post$7] = (unsigned char)main_element;
+              window[(signed long int)tmp_post_7] = (unsigned char)main_element;
               this_run = this_run - 1;
             }
 
@@ -1326,27 +1326,27 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
               this_run = this_run - match_length;
               for( ; !(runsrc >= window); runsrc = runsrc + 1l)
               {
-                tmp_post$8 = match_length;
+                tmp_post_8 = match_length;
                 match_length = match_length - 1;
-                if(!(tmp_post$8 >= 1))
+                if(!(tmp_post_8 >= 1))
                   break;
 
-                tmp_post$9 = rundest;
+                tmp_post_9 = rundest;
                 rundest = rundest + 1l;
-                *tmp_post$9 = runsrc[(signed long int)window_size];
+                *tmp_post_9 = runsrc[(signed long int)window_size];
               }
               do
               {
-                tmp_post$10 = match_length;
+                tmp_post_10 = match_length;
                 match_length = match_length - 1;
-                if(!(tmp_post$10 >= 1))
+                if(!(tmp_post_10 >= 1))
                   break;
 
-                tmp_post$11 = rundest;
+                tmp_post_11 = rundest;
                 rundest = rundest + 1l;
-                tmp_post$12 = runsrc;
+                tmp_post_12 = runsrc;
                 runsrc = runsrc + 1l;
-                *tmp_post$11 = *tmp_post$12;
+                *tmp_post_11 = *tmp_post_12;
               }
               while((_Bool)1);
             }
@@ -1396,9 +1396,9 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
             while((_Bool)0);
             if(!(main_element >= 256))
             {
-              tmp_post$13 = window_posn;
+              tmp_post_13 = window_posn;
               window_posn = window_posn + 1u;
-              window[(signed long int)tmp_post$13] = (unsigned char)main_element;
+              window[(signed long int)tmp_post_13] = (unsigned char)main_element;
               this_run = this_run - 1;
             }
 
@@ -1617,27 +1617,27 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
               this_run = this_run - match_length;
               for( ; !(runsrc >= window); runsrc = runsrc + 1l)
               {
-                tmp_post$14 = match_length;
+                tmp_post_14 = match_length;
                 match_length = match_length - 1;
-                if(!(tmp_post$14 >= 1))
+                if(!(tmp_post_14 >= 1))
                   break;
 
-                tmp_post$15 = rundest;
+                tmp_post_15 = rundest;
                 rundest = rundest + 1l;
-                *tmp_post$15 = runsrc[(signed long int)window_size];
+                *tmp_post_15 = runsrc[(signed long int)window_size];
               }
               do
               {
-                tmp_post$16 = match_length;
+                tmp_post_16 = match_length;
                 match_length = match_length - 1;
-                if(!(tmp_post$16 >= 1))
+                if(!(tmp_post_16 >= 1))
                   break;
 
-                tmp_post$17 = rundest;
+                tmp_post_17 = rundest;
                 rundest = rundest + 1l;
-                tmp_post$18 = runsrc;
+                tmp_post_18 = runsrc;
                 runsrc = runsrc + 1l;
-                *tmp_post$17 = *tmp_post$18;
+                *tmp_post_17 = *tmp_post_18;
               }
               while((_Bool)1);
             }
@@ -1660,9 +1660,9 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
     }
     while((_Bool)1);
   }
-  unsigned int tmp_post$21;
-  _Bool tmp_if_expr$20;
-  unsigned char *tmp_post$19;
+  unsigned int tmp_post_21;
+  _Bool tmp_if_expr_20;
+  unsigned char *tmp_post_19;
   if(!(togo == 0))
     return 2;
 
@@ -1673,18 +1673,18 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
     pState->R0 = R0;
     pState->R1 = R1;
     pState->R2 = R2;
-    tmp_post$21 = pState->frames_read;
+    tmp_post_21 = pState->frames_read;
     pState->frames_read = pState->frames_read + 1u;
-    if(!(tmp_post$21 >= 32768u))
+    if(!(tmp_post_21 >= 32768u))
     {
       if(!(pState->intel_filesize == 0))
       {
         if(!(outlen >= 7))
-          tmp_if_expr$20 = (_Bool)1;
+          tmp_if_expr_20 = (_Bool)1;
 
         else
-          tmp_if_expr$20 = !(pState->intel_started != 0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$20)
+          tmp_if_expr_20 = !(pState->intel_started != 0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_20)
           pState->intel_curpos = pState->intel_curpos + outlen;
 
         else
@@ -1698,9 +1698,9 @@ signed int LZXdecompress(struct LZXstate *pState, unsigned char *inpos, unsigned
           pState->intel_curpos = curpos + outlen;
           while(!(data >= dataend))
           {
-            tmp_post$19 = data;
+            tmp_post_19 = data;
             data = data + 1l;
-            if(!((signed int)*tmp_post$19 == 0xE8))
+            if(!((signed int)*tmp_post_19 == 0xE8))
               curpos = curpos + 1;
 
             else
@@ -1741,12 +1741,12 @@ struct LZXstate * LZXinit(signed int window)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct LZXstate) /*21768ul*/ );
-    pState = (struct LZXstate *)return_value_malloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)wndsize);
-    pState->window = (unsigned char *)return_value_malloc$2;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct LZXstate) /*21768ul*/ );
+    pState = (struct LZXstate *)return_value_malloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)wndsize);
+    pState->window = (unsigned char *)return_value_malloc_2;
     if(pState->window == ((unsigned char *)NULL))
     {
       free((void *)pState);
@@ -1831,26 +1831,26 @@ void LZXteardown(struct LZXstate *pState)
 static signed long int _chm_decompress_block(struct chmFile *h, unsigned long int block, unsigned char **ubuffer)
 {
   unsigned char *cbuffer;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)((unsigned int)h->reset_table.block_len + (unsigned int)6144));
-  cbuffer = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)((unsigned int)h->reset_table.block_len + (unsigned int)6144));
+  cbuffer = (unsigned char *)return_value_malloc_1;
   unsigned long int cmpStart;
   signed long int cmpLen;
   signed int indexSlot;
   unsigned char *lbuffer;
   unsigned int blockAlign = (unsigned int)(block % (unsigned long int)h->reset_blkcount);
   unsigned int i;
-  void *return_value_malloc$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  signed long int return_value__chm_fetch_bytes$5;
-  _Bool tmp_if_expr$8;
-  signed int return_value_LZXdecompress$7;
-  void *return_value_malloc$9;
-  _Bool tmp_if_expr$12;
-  signed long int return_value__chm_fetch_bytes$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_LZXdecompress$13;
+  void *return_value_malloc_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  signed long int return_value__chm_fetch_bytes_5;
+  _Bool tmp_if_expr_8;
+  signed int return_value_LZXdecompress_7;
+  void *return_value_malloc_9;
+  _Bool tmp_if_expr_12;
+  signed long int return_value__chm_fetch_bytes_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_LZXdecompress_13;
   if(cbuffer == ((unsigned char *)NULL))
     return (signed long int)-1;
 
@@ -1877,8 +1877,8 @@ static signed long int _chm_decompress_block(struct chmFile *h, unsigned long in
           indexSlot = (signed int)(curBlockIdx % (unsigned int)h->cache_num_blocks);
           if(h->cache_blocks[(signed long int)indexSlot] == ((unsigned char *)NULL))
           {
-            return_value_malloc$2=malloc((unsigned long int)(unsigned int)h->reset_table.block_len);
-            h->cache_blocks[(signed long int)indexSlot] = (unsigned char *)return_value_malloc$2;
+            return_value_malloc_2=malloc((unsigned long int)(unsigned int)h->reset_table.block_len);
+            h->cache_blocks[(signed long int)indexSlot] = (unsigned char *)return_value_malloc_2;
           }
 
           if(h->cache_blocks[(signed long int)indexSlot] == ((unsigned char *)NULL))
@@ -1889,30 +1889,30 @@ static signed long int _chm_decompress_block(struct chmFile *h, unsigned long in
 
           h->cache_block_indices[(signed long int)indexSlot] = (unsigned long int)curBlockIdx;
           lbuffer = h->cache_blocks[(signed long int)indexSlot];
-          signed int return_value__chm_get_cmpblock_bounds$3;
-          return_value__chm_get_cmpblock_bounds$3=_chm_get_cmpblock_bounds(h, (unsigned long int)curBlockIdx, &cmpStart, &cmpLen);
-          if(return_value__chm_get_cmpblock_bounds$3 == 0 || !(cmpLen >= 0l))
-            tmp_if_expr$4 = (_Bool)1;
+          signed int return_value__chm_get_cmpblock_bounds_3;
+          return_value__chm_get_cmpblock_bounds_3=_chm_get_cmpblock_bounds(h, (unsigned long int)curBlockIdx, &cmpStart, &cmpLen);
+          if(return_value__chm_get_cmpblock_bounds_3 == 0 || !(cmpLen >= 0l))
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = (unsigned long int)cmpLen > h->reset_table.block_len + (unsigned long int)6144 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
-            tmp_if_expr$6 = (_Bool)1;
-
-          else
-          {
-            return_value__chm_fetch_bytes$5=_chm_fetch_bytes(h, cbuffer, cmpStart, cmpLen);
-            tmp_if_expr$6 = return_value__chm_fetch_bytes$5 != cmpLen ? (_Bool)1 : (_Bool)0;
-          }
-          if(tmp_if_expr$6)
-            tmp_if_expr$8 = (_Bool)1;
+            tmp_if_expr_4 = (unsigned long int)cmpLen > h->reset_table.block_len + (unsigned long int)6144 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value_LZXdecompress$7=LZXdecompress(h->lzx_state, cbuffer, lbuffer, (signed int)cmpLen, (signed int)h->reset_table.block_len);
-            tmp_if_expr$8 = return_value_LZXdecompress$7 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value__chm_fetch_bytes_5=_chm_fetch_bytes(h, cbuffer, cmpStart, cmpLen);
+            tmp_if_expr_6 = return_value__chm_fetch_bytes_5 != cmpLen ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$8)
+          if(tmp_if_expr_6)
+            tmp_if_expr_8 = (_Bool)1;
+
+          else
+          {
+            return_value_LZXdecompress_7=LZXdecompress(h->lzx_state, cbuffer, lbuffer, (signed int)cmpLen, (signed int)h->reset_table.block_len);
+            tmp_if_expr_8 = return_value_LZXdecompress_7 != 0 ? (_Bool)1 : (_Bool)0;
+          }
+          if(tmp_if_expr_8)
           {
             free((void *)cbuffer);
             return (signed long int)0;
@@ -1931,8 +1931,8 @@ static signed long int _chm_decompress_block(struct chmFile *h, unsigned long in
     indexSlot = (signed int)(block % (unsigned long int)h->cache_num_blocks);
     if(h->cache_blocks[(signed long int)indexSlot] == ((unsigned char *)NULL))
     {
-      return_value_malloc$9=malloc((unsigned long int)(unsigned int)h->reset_table.block_len);
-      h->cache_blocks[(signed long int)indexSlot] = (unsigned char *)return_value_malloc$9;
+      return_value_malloc_9=malloc((unsigned long int)(unsigned int)h->reset_table.block_len);
+      h->cache_blocks[(signed long int)indexSlot] = (unsigned char *)return_value_malloc_9;
     }
 
     if(h->cache_blocks[(signed long int)indexSlot] == ((unsigned char *)NULL))
@@ -1946,25 +1946,25 @@ static signed long int _chm_decompress_block(struct chmFile *h, unsigned long in
       h->cache_block_indices[(signed long int)indexSlot] = block;
       lbuffer = h->cache_blocks[(signed long int)indexSlot];
       *ubuffer = lbuffer;
-      signed int return_value__chm_get_cmpblock_bounds$10;
-      return_value__chm_get_cmpblock_bounds$10=_chm_get_cmpblock_bounds(h, block, &cmpStart, &cmpLen);
-      if(return_value__chm_get_cmpblock_bounds$10 == 0)
-        tmp_if_expr$12 = (_Bool)1;
+      signed int return_value__chm_get_cmpblock_bounds_10;
+      return_value__chm_get_cmpblock_bounds_10=_chm_get_cmpblock_bounds(h, block, &cmpStart, &cmpLen);
+      if(return_value__chm_get_cmpblock_bounds_10 == 0)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
-        return_value__chm_fetch_bytes$11=_chm_fetch_bytes(h, cbuffer, cmpStart, cmpLen);
-        tmp_if_expr$12 = return_value__chm_fetch_bytes$11 != cmpLen ? (_Bool)1 : (_Bool)0;
+        return_value__chm_fetch_bytes_11=_chm_fetch_bytes(h, cbuffer, cmpStart, cmpLen);
+        tmp_if_expr_12 = return_value__chm_fetch_bytes_11 != cmpLen ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
-        tmp_if_expr$14 = (_Bool)1;
+      if(tmp_if_expr_12)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
-        return_value_LZXdecompress$13=LZXdecompress(h->lzx_state, cbuffer, lbuffer, (signed int)cmpLen, (signed int)h->reset_table.block_len);
-        tmp_if_expr$14 = return_value_LZXdecompress$13 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_LZXdecompress_13=LZXdecompress(h->lzx_state, cbuffer, lbuffer, (signed int)cmpLen, (signed int)h->reset_table.block_len);
+        tmp_if_expr_14 = return_value_LZXdecompress_13 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$14)
+      if(tmp_if_expr_14)
       {
         free((void *)cbuffer);
         return (signed long int)0;
@@ -2034,16 +2034,16 @@ static signed long int _chm_decompress_region(struct chmFile *h, unsigned char *
       if(h->lzx_state == ((struct LZXstate *)NULL))
       {
         signed int window_size;
-        signed int return_value_ffs$1;
-        return_value_ffs$1=ffs((signed int)h->window_size);
-        window_size = return_value_ffs$1 - 1;
+        signed int return_value_ffs_1;
+        return_value_ffs_1=ffs((signed int)h->window_size);
+        window_size = return_value_ffs_1 - 1;
         h->lzx_last_block = -1;
         h->lzx_state=LZXinit(window_size);
       }
 
-      signed long int return_value__chm_decompress_block$2;
-      return_value__chm_decompress_block$2=_chm_decompress_block(h, nBlock, &ubuffer);
-      gotLen = (unsigned long int)return_value__chm_decompress_block$2;
+      signed long int return_value__chm_decompress_block_2;
+      return_value__chm_decompress_block_2=_chm_decompress_block(h, nBlock, &ubuffer);
+      gotLen = (unsigned long int)return_value__chm_decompress_block_2;
       if(!(gotLen >= nLen))
         nLen = gotLen;
 
@@ -2070,9 +2070,9 @@ static signed long int _chm_fetch_bytes(struct chmFile *h, unsigned char *buf, u
     do
       pthread_mutex_lock(&h->mutex);
     while((_Bool)0);
-    signed int return_value_pread64$1;
-    return_value_pread64$1=pread64(h->fd, buf, (signed long int)len, os);
-    readLen = (signed long int)return_value_pread64$1;
+    signed int return_value_pread64_1;
+    return_value_pread64_1=pread64(h->fd, buf, (signed long int)len, os);
+    readLen = (signed long int)return_value_pread64_1;
     do
       pthread_mutex_unlock(&h->mutex);
     while((_Bool)0);
@@ -2093,9 +2093,9 @@ static signed int _chm_find_in_PMGI(unsigned char *page_buf, unsigned int block_
   char buffer[513l];
   cur = page_buf;
   hremain = (unsigned int)0x08;
-  signed int return_value__unmarshal_pmgi_header$1;
-  return_value__unmarshal_pmgi_header$1=_unmarshal_pmgi_header(&cur, &hremain, &header);
-  if(return_value__unmarshal_pmgi_header$1 == 0)
+  signed int return_value__unmarshal_pmgi_header_1;
+  return_value__unmarshal_pmgi_header_1=_unmarshal_pmgi_header(&cur, &hremain, &header);
+  if(return_value__unmarshal_pmgi_header_1 == 0)
     return -1;
 
   else
@@ -2107,19 +2107,19 @@ static signed int _chm_find_in_PMGI(unsigned char *page_buf, unsigned int block_
       if(strLen >= 513ul)
         return -1;
 
-      signed int return_value__chm_parse_UTF8$2;
-      return_value__chm_parse_UTF8$2=_chm_parse_UTF8(&cur, strLen, buffer);
-      if(return_value__chm_parse_UTF8$2 == 0)
+      signed int return_value__chm_parse_UTF8_2;
+      return_value__chm_parse_UTF8_2=_chm_parse_UTF8(&cur, strLen, buffer);
+      if(return_value__chm_parse_UTF8_2 == 0)
         return -1;
 
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(buffer, objPath);
-      if(return_value_strcasecmp$3 >= 1)
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(buffer, objPath);
+      if(return_value_strcasecmp_3 >= 1)
         return page;
 
-      unsigned long int return_value__chm_parse_cword$4;
-      return_value__chm_parse_cword$4=_chm_parse_cword(&cur);
-      page = (signed int)return_value__chm_parse_cword$4;
+      unsigned long int return_value__chm_parse_cword_4;
+      return_value__chm_parse_cword_4=_chm_parse_cword(&cur);
+      page = (signed int)return_value__chm_parse_cword_4;
     }
     return page;
   }
@@ -2138,9 +2138,9 @@ static unsigned char * _chm_find_in_PMGL(unsigned char *page_buf, unsigned int b
   char buffer[513l];
   cur = page_buf;
   hremain = (unsigned int)0x14;
-  signed int return_value__unmarshal_pmgl_header$1;
-  return_value__unmarshal_pmgl_header$1=_unmarshal_pmgl_header(&cur, &hremain, &header);
-  if(return_value__unmarshal_pmgl_header$1 == 0)
+  signed int return_value__unmarshal_pmgl_header_1;
+  return_value__unmarshal_pmgl_header_1=_unmarshal_pmgl_header(&cur, &hremain, &header);
+  if(return_value__unmarshal_pmgl_header_1 == 0)
     return (unsigned char *)(void *)0;
 
   else
@@ -2153,14 +2153,14 @@ static unsigned char * _chm_find_in_PMGL(unsigned char *page_buf, unsigned int b
       if(strLen >= 513ul)
         return (unsigned char *)(void *)0;
 
-      signed int return_value__chm_parse_UTF8$2;
-      return_value__chm_parse_UTF8$2=_chm_parse_UTF8(&cur, strLen, buffer);
-      if(return_value__chm_parse_UTF8$2 == 0)
+      signed int return_value__chm_parse_UTF8_2;
+      return_value__chm_parse_UTF8_2=_chm_parse_UTF8(&cur, strLen, buffer);
+      if(return_value__chm_parse_UTF8_2 == 0)
         return (unsigned char *)(void *)0;
 
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(buffer, objPath);
-      if(return_value_strcasecmp$3 == 0)
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(buffer, objPath);
+      if(return_value_strcasecmp_3 == 0)
         return temp;
 
       _chm_skip_PMGL_entry_data(&cur);
@@ -2176,42 +2176,42 @@ static signed int _chm_get_cmpblock_bounds(struct chmFile *h, unsigned long int 
   unsigned char buffer[8l];
   unsigned char *dummy;
   unsigned int remain;
-  _Bool tmp_if_expr$3;
-  signed int return_value__unmarshal_uint64$2;
-  _Bool tmp_if_expr$6;
-  signed int return_value__unmarshal_int64$5;
-  _Bool tmp_if_expr$9;
-  signed int return_value__unmarshal_uint64$8;
+  _Bool tmp_if_expr_3;
+  signed int return_value__unmarshal_uint64_2;
+  _Bool tmp_if_expr_6;
+  signed int return_value__unmarshal_int64_5;
+  _Bool tmp_if_expr_9;
+  signed int return_value__unmarshal_uint64_8;
   if(!(block >= (unsigned long int)(h->reset_table.block_count + 4294967295u)))
   {
     dummy = buffer;
     remain = (unsigned int)8;
-    signed long int return_value__chm_fetch_bytes$1;
-    return_value__chm_fetch_bytes$1=_chm_fetch_bytes(h, buffer, (unsigned long int)h->data_offset + (unsigned long int)h->rt_unit.start + (unsigned long int)h->reset_table.table_offset + (unsigned long int)block * (unsigned long int)8, (signed long int)remain);
-    if(!(return_value__chm_fetch_bytes$1 == (signed long int)remain))
-      tmp_if_expr$3 = (_Bool)1;
+    signed long int return_value__chm_fetch_bytes_1;
+    return_value__chm_fetch_bytes_1=_chm_fetch_bytes(h, buffer, (unsigned long int)h->data_offset + (unsigned long int)h->rt_unit.start + (unsigned long int)h->reset_table.table_offset + (unsigned long int)block * (unsigned long int)8, (signed long int)remain);
+    if(!(return_value__chm_fetch_bytes_1 == (signed long int)remain))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value__unmarshal_uint64$2=_unmarshal_uint64(&dummy, &remain, start);
-      tmp_if_expr$3 = !(return_value__unmarshal_uint64$2 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value__unmarshal_uint64_2=_unmarshal_uint64(&dummy, &remain, start);
+      tmp_if_expr_3 = !(return_value__unmarshal_uint64_2 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return 0;
 
     dummy = buffer;
     remain = (unsigned int)8;
-    signed long int return_value__chm_fetch_bytes$4;
-    return_value__chm_fetch_bytes$4=_chm_fetch_bytes(h, buffer, (unsigned long int)h->data_offset + (unsigned long int)h->rt_unit.start + (unsigned long int)h->reset_table.table_offset + (unsigned long int)block * (unsigned long int)8 + (unsigned long int)8, (signed long int)remain);
-    if(!(return_value__chm_fetch_bytes$4 == (signed long int)remain))
-      tmp_if_expr$6 = (_Bool)1;
+    signed long int return_value__chm_fetch_bytes_4;
+    return_value__chm_fetch_bytes_4=_chm_fetch_bytes(h, buffer, (unsigned long int)h->data_offset + (unsigned long int)h->rt_unit.start + (unsigned long int)h->reset_table.table_offset + (unsigned long int)block * (unsigned long int)8 + (unsigned long int)8, (signed long int)remain);
+    if(!(return_value__chm_fetch_bytes_4 == (signed long int)remain))
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value__unmarshal_int64$5=_unmarshal_int64(&dummy, &remain, len);
-      tmp_if_expr$6 = !(return_value__unmarshal_int64$5 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value__unmarshal_int64_5=_unmarshal_int64(&dummy, &remain, len);
+      tmp_if_expr_6 = !(return_value__unmarshal_int64_5 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
       return 0;
 
   }
@@ -2220,17 +2220,17 @@ static signed int _chm_get_cmpblock_bounds(struct chmFile *h, unsigned long int 
   {
     dummy = buffer;
     remain = (unsigned int)8;
-    signed long int return_value__chm_fetch_bytes$7;
-    return_value__chm_fetch_bytes$7=_chm_fetch_bytes(h, buffer, (unsigned long int)h->data_offset + (unsigned long int)h->rt_unit.start + (unsigned long int)h->reset_table.table_offset + (unsigned long int)block * (unsigned long int)8, (signed long int)remain);
-    if(!(return_value__chm_fetch_bytes$7 == (signed long int)remain))
-      tmp_if_expr$9 = (_Bool)1;
+    signed long int return_value__chm_fetch_bytes_7;
+    return_value__chm_fetch_bytes_7=_chm_fetch_bytes(h, buffer, (unsigned long int)h->data_offset + (unsigned long int)h->rt_unit.start + (unsigned long int)h->reset_table.table_offset + (unsigned long int)block * (unsigned long int)8, (signed long int)remain);
+    if(!(return_value__chm_fetch_bytes_7 == (signed long int)remain))
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value__unmarshal_uint64$8=_unmarshal_uint64(&dummy, &remain, start);
-      tmp_if_expr$9 = !(return_value__unmarshal_uint64$8 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value__unmarshal_uint64_8=_unmarshal_uint64(&dummy, &remain, start);
+      tmp_if_expr_9 = !(return_value__unmarshal_uint64_8 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
       return 0;
 
     *len = (signed long int)h->reset_table.compressed_len;
@@ -2251,16 +2251,16 @@ static signed int _chm_parse_PMGL_entry(unsigned char **pEntry, struct chmUnitIn
 
   else
   {
-    signed int return_value__chm_parse_UTF8$1;
-    return_value__chm_parse_UTF8$1=_chm_parse_UTF8(pEntry, strLen, ui->path);
-    if(return_value__chm_parse_UTF8$1 == 0)
+    signed int return_value__chm_parse_UTF8_1;
+    return_value__chm_parse_UTF8_1=_chm_parse_UTF8(pEntry, strLen, ui->path);
+    if(return_value__chm_parse_UTF8_1 == 0)
       return 0;
 
     else
     {
-      unsigned long int return_value__chm_parse_cword$2;
-      return_value__chm_parse_cword$2=_chm_parse_cword(pEntry);
-      ui->space = (signed int)return_value__chm_parse_cword$2;
+      unsigned long int return_value__chm_parse_cword_2;
+      return_value__chm_parse_cword_2=_chm_parse_cword(pEntry);
+      ui->space = (signed int)return_value__chm_parse_cword_2;
       ui->start=_chm_parse_cword(pEntry);
       ui->length=_chm_parse_cword(pEntry);
       return 1;
@@ -2272,15 +2272,15 @@ static signed int _chm_parse_PMGL_entry(unsigned char **pEntry, struct chmUnitIn
 // file chm_lib.c line 1119
 static signed int _chm_parse_UTF8(unsigned char **pEntry, unsigned long int count, char *path)
 {
-  char *tmp_post$1;
-  unsigned char *tmp_post$2;
+  char *tmp_post_1;
+  unsigned char *tmp_post_2;
   for( ; !(count == 0ul); count = count - 1ul)
   {
-    tmp_post$1 = path;
+    tmp_post_1 = path;
     path = path + 1l;
-    tmp_post$2 = *pEntry;
+    tmp_post_2 = *pEntry;
     *pEntry = *pEntry + 1l;
-    *tmp_post$1 = (char)*tmp_post$2;
+    *tmp_post_1 = (char)*tmp_post_2;
   }
   *path = (char)0;
   return 1;
@@ -2292,12 +2292,12 @@ static unsigned long int _chm_parse_cword(unsigned char **pEntry)
 {
   unsigned long int accum = (unsigned long int)0;
   unsigned char temp;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
-    tmp_post$1 = *pEntry;
+    tmp_post_1 = *pEntry;
     *pEntry = *pEntry + 1l;
-    temp = *tmp_post$1;
+    temp = *tmp_post_1;
     if(!((signed int)temp >= 0x80))
       break;
 
@@ -2321,12 +2321,12 @@ static void _chm_skip_PMGL_entry_data(unsigned char **pEntry)
 // file chm_lib.c line 1090
 static void _chm_skip_cword(unsigned char **pEntry)
 {
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
-    tmp_post$1 = *pEntry;
+    tmp_post_1 = *pEntry;
     *pEntry = *pEntry + 1l;
-    if(!((signed int)*tmp_post$1 >= 0x80))
+    if(!((signed int)*tmp_post_1 >= 0x80))
       break;
 
   }
@@ -2360,13 +2360,13 @@ static void * _slave(void *param)
 // file chm_lib.c line 202
 static signed int _unmarshal_char_array(unsigned char **pData, unsigned int *pLenRemain, char *dest, signed int count)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(count >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (unsigned int)count > *pLenRemain ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (unsigned int)count > *pLenRemain ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -2448,9 +2448,9 @@ static signed int _unmarshal_itsf_header(unsigned char **pData, unsigned int *pD
     _unmarshal_uint64(pData, pDataLen, &dest->unknown_len);
     _unmarshal_uint64(pData, pDataLen, &dest->dir_offset);
     _unmarshal_uint64(pData, pDataLen, &dest->dir_len);
-    signed int return_value___builtin_memcmp$1;
-    return_value___builtin_memcmp$1=__builtin_memcmp((const void *)dest->signature, (const void *)"ITSF", (unsigned long int)4);
-    if(!(return_value___builtin_memcmp$1 == 0))
+    signed int return_value___builtin_memcmp_1;
+    return_value___builtin_memcmp_1=__builtin_memcmp((const void *)dest->signature, (const void *)"ITSF", (unsigned long int)4);
+    if(!(return_value___builtin_memcmp_1 == 0))
       return 0;
 
     else
@@ -2512,9 +2512,9 @@ static signed int _unmarshal_itsp_header(unsigned char **pData, unsigned int *pD
     _unmarshal_uint32(pData, pDataLen, &dest->lang_id);
     _unmarshal_uuid(pData, pDataLen, dest->system_uuid);
     _unmarshal_uchar_array(pData, pDataLen, dest->unknown_0044, 16);
-    signed int return_value___builtin_memcmp$1;
-    return_value___builtin_memcmp$1=__builtin_memcmp((const void *)dest->signature, (const void *)"ITSP", (unsigned long int)4);
-    if(!(return_value___builtin_memcmp$1 == 0))
+    signed int return_value___builtin_memcmp_1;
+    return_value___builtin_memcmp_1=__builtin_memcmp((const void *)dest->signature, (const void *)"ITSP", (unsigned long int)4);
+    if(!(return_value___builtin_memcmp_1 == 0))
       return 0;
 
     else
@@ -2534,7 +2534,7 @@ static signed int _unmarshal_itsp_header(unsigned char **pData, unsigned int *pD
 // file chm_lib.c line 588
 static signed int _unmarshal_lzxc_control_data(unsigned char **pData, unsigned int *pDataLen, struct chmLzxcControlData *dest)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(*pDataLen >= 24u))
     return 0;
 
@@ -2558,11 +2558,11 @@ static signed int _unmarshal_lzxc_control_data(unsigned char **pData, unsigned i
     }
 
     if(dest->windowSize == 0u)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = dest->resetInterval == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = dest->resetInterval == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 0;
 
     else
@@ -2575,9 +2575,9 @@ static signed int _unmarshal_lzxc_control_data(unsigned char **pData, unsigned i
 
         else
         {
-          signed int return_value___builtin_memcmp$2;
-          return_value___builtin_memcmp$2=__builtin_memcmp((const void *)dest->signature, (const void *)"LZXC", (unsigned long int)4);
-          if(!(return_value___builtin_memcmp$2 == 0))
+          signed int return_value___builtin_memcmp_2;
+          return_value___builtin_memcmp_2=__builtin_memcmp((const void *)dest->signature, (const void *)"LZXC", (unsigned long int)4);
+          if(!(return_value___builtin_memcmp_2 == 0))
             return 0;
 
           else
@@ -2621,9 +2621,9 @@ static signed int _unmarshal_pmgi_header(unsigned char **pData, unsigned int *pD
   {
     _unmarshal_char_array(pData, pDataLen, dest->signature, 4);
     _unmarshal_uint32(pData, pDataLen, &dest->free_space);
-    signed int return_value___builtin_memcmp$1;
-    return_value___builtin_memcmp$1=__builtin_memcmp((const void *)dest->signature, (const void *)_chm_pmgi_marker, (unsigned long int)4);
-    if(!(return_value___builtin_memcmp$1 == 0))
+    signed int return_value___builtin_memcmp_1;
+    return_value___builtin_memcmp_1=__builtin_memcmp((const void *)dest->signature, (const void *)_chm_pmgi_marker, (unsigned long int)4);
+    if(!(return_value___builtin_memcmp_1 == 0))
       return 0;
 
     else
@@ -2645,9 +2645,9 @@ static signed int _unmarshal_pmgl_header(unsigned char **pData, unsigned int *pD
     _unmarshal_uint32(pData, pDataLen, &dest->unknown_0008);
     _unmarshal_int32(pData, pDataLen, &dest->block_prev);
     _unmarshal_int32(pData, pDataLen, &dest->block_next);
-    signed int return_value___builtin_memcmp$1;
-    return_value___builtin_memcmp$1=__builtin_memcmp((const void *)dest->signature, (const void *)_chm_pmgl_marker, (unsigned long int)4);
-    if(!(return_value___builtin_memcmp$1 == 0))
+    signed int return_value___builtin_memcmp_1;
+    return_value___builtin_memcmp_1=__builtin_memcmp((const void *)dest->signature, (const void *)_chm_pmgl_marker, (unsigned long int)4);
+    if(!(return_value___builtin_memcmp_1 == 0))
       return 0;
 
     else
@@ -2659,13 +2659,13 @@ static signed int _unmarshal_pmgl_header(unsigned char **pData, unsigned int *pD
 // file chm_lib.c line 215
 static signed int _unmarshal_uchar_array(unsigned char **pData, unsigned int *pLenRemain, unsigned char *dest, signed int count)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(count >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (unsigned int)count > *pLenRemain ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (unsigned int)count > *pLenRemain ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -2722,9 +2722,9 @@ static signed int _unmarshal_uint64(unsigned char **pData, unsigned int *pLenRem
 // file chm_lib.c line 318
 static signed int _unmarshal_uuid(unsigned char **pData, unsigned int *pDataLen, unsigned char *dest)
 {
-  signed int return_value__unmarshal_uchar_array$1;
-  return_value__unmarshal_uchar_array$1=_unmarshal_uchar_array(pData, pDataLen, dest, 16);
-  return return_value__unmarshal_uchar_array$1;
+  signed int return_value__unmarshal_uchar_array_1;
+  return_value__unmarshal_uchar_array_1=_unmarshal_uchar_array(pData, pDataLen, dest, 16);
+  return return_value__unmarshal_uchar_array_1;
 }
 
 // chm_close
@@ -2770,9 +2770,9 @@ signed int chm_enumerate(struct chmFile *h, signed int what, signed int (*e)(str
 {
   signed int curPage;
   unsigned char *page_buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(unsigned int)h->block_len);
-  page_buf = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(unsigned int)h->block_len);
+  page_buf = (unsigned char *)return_value_malloc_1;
   struct chmPmglHeader header;
   unsigned char *end;
   unsigned char *cur;
@@ -2781,7 +2781,7 @@ signed int chm_enumerate(struct chmFile *h, signed int what, signed int (*e)(str
   struct chmUnitInfo ui;
   signed int type_bits = what & 0x7;
   signed int filter_bits = what & 0xF8;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(page_buf == ((unsigned char *)NULL))
     return 0;
 
@@ -2790,9 +2790,9 @@ signed int chm_enumerate(struct chmFile *h, signed int what, signed int (*e)(str
     curPage = h->index_head;
     while(!(curPage == -1))
     {
-      signed long int return_value__chm_fetch_bytes$2;
-      return_value__chm_fetch_bytes$2=_chm_fetch_bytes(h, page_buf, (unsigned long int)h->dir_offset + (unsigned long int)curPage * (unsigned long int)h->block_len, (signed long int)h->block_len);
-      if(!(return_value__chm_fetch_bytes$2 == (signed long int)h->block_len))
+      signed long int return_value__chm_fetch_bytes_2;
+      return_value__chm_fetch_bytes_2=_chm_fetch_bytes(h, page_buf, (unsigned long int)h->dir_offset + (unsigned long int)curPage * (unsigned long int)h->block_len, (signed long int)h->block_len);
+      if(!(return_value__chm_fetch_bytes_2 == (signed long int)h->block_len))
       {
         free((void *)page_buf);
         return 0;
@@ -2800,9 +2800,9 @@ signed int chm_enumerate(struct chmFile *h, signed int what, signed int (*e)(str
 
       cur = page_buf;
       lenRemain = (unsigned int)0x14;
-      signed int return_value__unmarshal_pmgl_header$3;
-      return_value__unmarshal_pmgl_header$3=_unmarshal_pmgl_header(&cur, &lenRemain, &header);
-      if(return_value__unmarshal_pmgl_header$3 == 0)
+      signed int return_value__unmarshal_pmgl_header_3;
+      return_value__unmarshal_pmgl_header_3=_unmarshal_pmgl_header(&cur, &lenRemain, &header);
+      if(return_value__unmarshal_pmgl_header_3 == 0)
       {
         free((void *)page_buf);
         return 0;
@@ -2812,17 +2812,17 @@ signed int chm_enumerate(struct chmFile *h, signed int what, signed int (*e)(str
       while(!(cur >= end))
       {
         ui.flags = 0;
-        signed int return_value__chm_parse_PMGL_entry$4;
-        return_value__chm_parse_PMGL_entry$4=_chm_parse_PMGL_entry(&cur, &ui);
-        if(return_value__chm_parse_PMGL_entry$4 == 0)
+        signed int return_value__chm_parse_PMGL_entry_4;
+        return_value__chm_parse_PMGL_entry_4=_chm_parse_PMGL_entry(&cur, &ui);
+        if(return_value__chm_parse_PMGL_entry_4 == 0)
         {
           free((void *)page_buf);
           return 0;
         }
 
-        unsigned long int return_value___builtin_strlen$5;
-        return_value___builtin_strlen$5=__builtin_strlen(ui.path);
-        ui_path_len = return_value___builtin_strlen$5 - (unsigned long int)1;
+        unsigned long int return_value___builtin_strlen_5;
+        return_value___builtin_strlen_5=__builtin_strlen(ui.path);
+        ui_path_len = return_value___builtin_strlen_5 - (unsigned long int)1;
         if((signed int)ui.path[(signed long int)ui_path_len] == 47)
           ui.flags = ui.flags | 16;
 
@@ -2832,11 +2832,11 @@ signed int chm_enumerate(struct chmFile *h, signed int what, signed int (*e)(str
         if((signed int)ui.path[0l] == 47)
         {
           if((signed int)ui.path[1l] == 35)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (signed int)ui.path[(signed long int)1] == 36 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (signed int)ui.path[(signed long int)1] == 36 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
             ui.flags = ui.flags | 4;
 
           else
@@ -2877,9 +2877,9 @@ signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int w
 {
   signed int curPage;
   unsigned char *page_buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(unsigned int)h->block_len);
-  page_buf = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(unsigned int)h->block_len);
+  page_buf = (unsigned char *)return_value_malloc_1;
   struct chmPmglHeader header;
   unsigned char *end;
   unsigned char *cur;
@@ -2893,9 +2893,9 @@ signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int w
   signed int prefixLen;
   char lastPath[513l];
   signed int lastPathLen;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strncasecmp$6;
-  _Bool tmp_if_expr$12;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strncasecmp_6;
+  _Bool tmp_if_expr_12;
   if(page_buf == ((unsigned char *)NULL))
     return 0;
 
@@ -2904,9 +2904,9 @@ signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int w
     curPage = h->index_head;
     strncpy(prefixRectified, prefix, (unsigned long int)512);
     prefixRectified[(signed long int)512] = (char)0;
-    unsigned long int return_value___builtin_strlen$2;
-    return_value___builtin_strlen$2=__builtin_strlen(prefixRectified);
-    prefixLen = (signed int)return_value___builtin_strlen$2;
+    unsigned long int return_value___builtin_strlen_2;
+    return_value___builtin_strlen_2=__builtin_strlen(prefixRectified);
+    prefixLen = (signed int)return_value___builtin_strlen_2;
     if(!(prefixLen == 0))
     {
       if(!((signed int)prefixRectified[(signed long int)(prefixLen + -1)] == 47))
@@ -2922,9 +2922,9 @@ signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int w
     lastPathLen = -1;
     while(!(curPage == -1))
     {
-      signed long int return_value__chm_fetch_bytes$3;
-      return_value__chm_fetch_bytes$3=_chm_fetch_bytes(h, page_buf, (unsigned long int)h->dir_offset + (unsigned long int)curPage * (unsigned long int)h->block_len, (signed long int)h->block_len);
-      if(!(return_value__chm_fetch_bytes$3 == (signed long int)h->block_len))
+      signed long int return_value__chm_fetch_bytes_3;
+      return_value__chm_fetch_bytes_3=_chm_fetch_bytes(h, page_buf, (unsigned long int)h->dir_offset + (unsigned long int)curPage * (unsigned long int)h->block_len, (signed long int)h->block_len);
+      if(!(return_value__chm_fetch_bytes_3 == (signed long int)h->block_len))
       {
         free((void *)page_buf);
         return 0;
@@ -2932,9 +2932,9 @@ signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int w
 
       cur = page_buf;
       lenRemain = (unsigned int)0x14;
-      signed int return_value__unmarshal_pmgl_header$4;
-      return_value__unmarshal_pmgl_header$4=_unmarshal_pmgl_header(&cur, &lenRemain, &header);
-      if(return_value__unmarshal_pmgl_header$4 == 0)
+      signed int return_value__unmarshal_pmgl_header_4;
+      return_value__unmarshal_pmgl_header_4=_unmarshal_pmgl_header(&cur, &lenRemain, &header);
+      if(return_value__unmarshal_pmgl_header_4 == 0)
       {
         free((void *)page_buf);
         return 0;
@@ -2944,9 +2944,9 @@ signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int w
       while(!(cur >= end))
       {
         ui.flags = 0;
-        signed int return_value__chm_parse_PMGL_entry$5;
-        return_value__chm_parse_PMGL_entry$5=_chm_parse_PMGL_entry(&cur, &ui);
-        if(return_value__chm_parse_PMGL_entry$5 == 0)
+        signed int return_value__chm_parse_PMGL_entry_5;
+        return_value__chm_parse_PMGL_entry_5=_chm_parse_PMGL_entry(&cur, &ui);
+        if(return_value__chm_parse_PMGL_entry_5 == 0)
         {
           free((void *)page_buf);
           return 0;
@@ -2956,13 +2956,13 @@ signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int w
         {
           if(ui.length == 0ul)
           {
-            return_value_strncasecmp$6=strncasecmp(ui.path, prefixRectified, (unsigned long int)prefixLen);
-            tmp_if_expr$7 = return_value_strncasecmp$6 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strncasecmp_6=strncasecmp(ui.path, prefixRectified, (unsigned long int)prefixLen);
+            tmp_if_expr_7 = return_value_strncasecmp_6 == 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
             it_has_begun = 1;
 
           else
@@ -2974,9 +2974,9 @@ signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int w
 
         else
         {
-          signed int return_value_strncasecmp$8;
-          return_value_strncasecmp$8=strncasecmp(ui.path, prefixRectified, (unsigned long int)prefixLen);
-          if(!(return_value_strncasecmp$8 == 0))
+          signed int return_value_strncasecmp_8;
+          return_value_strncasecmp_8=strncasecmp(ui.path, prefixRectified, (unsigned long int)prefixLen);
+          if(!(return_value_strncasecmp_8 == 0))
           {
             free((void *)page_buf);
             return 1;
@@ -2985,21 +2985,21 @@ signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int w
         }
         if(!(lastPathLen == -1))
         {
-          signed int return_value_strncasecmp$9;
-          return_value_strncasecmp$9=strncasecmp(ui.path, lastPath, (unsigned long int)lastPathLen);
-          if(return_value_strncasecmp$9 == 0)
+          signed int return_value_strncasecmp_9;
+          return_value_strncasecmp_9=strncasecmp(ui.path, lastPath, (unsigned long int)lastPathLen);
+          if(return_value_strncasecmp_9 == 0)
             continue;
 
         }
 
         strncpy(lastPath, ui.path, (unsigned long int)512);
         lastPath[(signed long int)512] = (char)0;
-        unsigned long int return_value___builtin_strlen$10;
-        return_value___builtin_strlen$10=__builtin_strlen(lastPath);
-        lastPathLen = (signed int)return_value___builtin_strlen$10;
-        unsigned long int return_value___builtin_strlen$11;
-        return_value___builtin_strlen$11=__builtin_strlen(ui.path);
-        ui_path_len = return_value___builtin_strlen$11 - (unsigned long int)1;
+        unsigned long int return_value___builtin_strlen_10;
+        return_value___builtin_strlen_10=__builtin_strlen(lastPath);
+        lastPathLen = (signed int)return_value___builtin_strlen_10;
+        unsigned long int return_value___builtin_strlen_11;
+        return_value___builtin_strlen_11=__builtin_strlen(ui.path);
+        ui_path_len = return_value___builtin_strlen_11 - (unsigned long int)1;
         if((signed int)ui.path[(signed long int)ui_path_len] == 47)
           ui.flags = ui.flags | 16;
 
@@ -3009,11 +3009,11 @@ signed int chm_enumerate_dir(struct chmFile *h, const char *prefix, signed int w
         if((signed int)ui.path[0l] == 47)
         {
           if((signed int)ui.path[1l] == 35)
-            tmp_if_expr$12 = (_Bool)1;
+            tmp_if_expr_12 = (_Bool)1;
 
           else
-            tmp_if_expr$12 = (signed int)ui.path[(signed long int)1] == 36 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$12)
+            tmp_if_expr_12 = (signed int)ui.path[(signed long int)1] == 36 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_12)
             ui.flags = ui.flags | 4;
 
           else
@@ -3060,23 +3060,23 @@ struct chmFile * chm_open(const char *filename)
   struct chmItspHeader itspHeader;
   struct chmUnitInfo uiLzxc;
   struct chmLzxcControlData ctlData;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct chmFile) /*1360ul*/ );
-  newHandle = (struct chmFile *)return_value_malloc$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value__unmarshal_itsf_header$3;
-  _Bool tmp_if_expr$7;
-  signed int return_value__unmarshal_itsp_header$6;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$11;
-  signed int return_value_chm_resolve_object$10;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$14;
-  signed int return_value_chm_resolve_object$13;
-  _Bool tmp_if_expr$17;
-  signed int return_value__unmarshal_lzxc_reset_table$16;
-  _Bool tmp_if_expr$20;
-  signed int return_value__unmarshal_lzxc_control_data$19;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct chmFile) /*1360ul*/ );
+  newHandle = (struct chmFile *)return_value_malloc_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value__unmarshal_itsf_header_3;
+  _Bool tmp_if_expr_7;
+  signed int return_value__unmarshal_itsp_header_6;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_11;
+  signed int return_value_chm_resolve_object_10;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_14;
+  signed int return_value_chm_resolve_object_13;
+  _Bool tmp_if_expr_17;
+  signed int return_value__unmarshal_lzxc_reset_table_16;
+  _Bool tmp_if_expr_20;
+  signed int return_value__unmarshal_lzxc_control_data_19;
   if(newHandle == ((struct chmFile *)NULL))
     return (struct chmFile *)(void *)0;
 
@@ -3096,22 +3096,22 @@ struct chmFile * chm_open(const char *filename)
 
     else
     {
-      pthread_mutex_init(&newHandle->mutex, (const union anonymous$0 *)(void *)0);
-      pthread_mutex_init(&newHandle->lzx_mutex, (const union anonymous$0 *)(void *)0);
-      pthread_mutex_init(&newHandle->cache_mutex, (const union anonymous$0 *)(void *)0);
+      pthread_mutex_init(&newHandle->mutex, (const union anonymous_0 *)(void *)0);
+      pthread_mutex_init(&newHandle->lzx_mutex, (const union anonymous_0 *)(void *)0);
+      pthread_mutex_init(&newHandle->cache_mutex, (const union anonymous_0 *)(void *)0);
       sremain = (unsigned int)0x60;
       sbufpos = sbuffer;
-      signed long int return_value__chm_fetch_bytes$2;
-      return_value__chm_fetch_bytes$2=_chm_fetch_bytes(newHandle, sbuffer, (unsigned long int)0, (signed long int)sremain);
-      if(!(return_value__chm_fetch_bytes$2 == (signed long int)sremain))
-        tmp_if_expr$4 = (_Bool)1;
+      signed long int return_value__chm_fetch_bytes_2;
+      return_value__chm_fetch_bytes_2=_chm_fetch_bytes(newHandle, sbuffer, (unsigned long int)0, (signed long int)sremain);
+      if(!(return_value__chm_fetch_bytes_2 == (signed long int)sremain))
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value__unmarshal_itsf_header$3=_unmarshal_itsf_header(&sbufpos, &sremain, &itsfHeader);
-        tmp_if_expr$4 = !(return_value__unmarshal_itsf_header$3 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value__unmarshal_itsf_header_3=_unmarshal_itsf_header(&sbufpos, &sremain, &itsfHeader);
+        tmp_if_expr_4 = !(return_value__unmarshal_itsf_header_3 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
         chm_close(newHandle);
         return (struct chmFile *)(void *)0;
@@ -3124,17 +3124,17 @@ struct chmFile * chm_open(const char *filename)
         newHandle->data_offset = itsfHeader.data_offset;
         sremain = (unsigned int)0x54;
         sbufpos = sbuffer;
-        signed long int return_value__chm_fetch_bytes$5;
-        return_value__chm_fetch_bytes$5=_chm_fetch_bytes(newHandle, sbuffer, (unsigned long int)itsfHeader.dir_offset, (signed long int)sremain);
-        if(!(return_value__chm_fetch_bytes$5 == (signed long int)sremain))
-          tmp_if_expr$7 = (_Bool)1;
+        signed long int return_value__chm_fetch_bytes_5;
+        return_value__chm_fetch_bytes_5=_chm_fetch_bytes(newHandle, sbuffer, (unsigned long int)itsfHeader.dir_offset, (signed long int)sremain);
+        if(!(return_value__chm_fetch_bytes_5 == (signed long int)sremain))
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value__unmarshal_itsp_header$6=_unmarshal_itsp_header(&sbufpos, &sremain, &itspHeader);
-          tmp_if_expr$7 = !(return_value__unmarshal_itsp_header$6 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value__unmarshal_itsp_header_6=_unmarshal_itsp_header(&sbufpos, &sremain, &itspHeader);
+          tmp_if_expr_7 = !(return_value__unmarshal_itsp_header_6 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           chm_close(newHandle);
           return (struct chmFile *)(void *)0;
@@ -3151,52 +3151,52 @@ struct chmFile * chm_open(const char *filename)
             newHandle->index_root = newHandle->index_head;
 
           newHandle->compression_enabled = 1;
-          signed int return_value_chm_resolve_object$8;
-          return_value_chm_resolve_object$8=chm_resolve_object(newHandle, _CHMU_RESET_TABLE, &newHandle->rt_unit);
-          if(!(return_value_chm_resolve_object$8 == 0))
-            tmp_if_expr$9 = (_Bool)1;
+          signed int return_value_chm_resolve_object_8;
+          return_value_chm_resolve_object_8=chm_resolve_object(newHandle, _CHMU_RESET_TABLE, &newHandle->rt_unit);
+          if(!(return_value_chm_resolve_object_8 == 0))
+            tmp_if_expr_9 = (_Bool)1;
 
           else
-            tmp_if_expr$9 = newHandle->rt_unit.space == 1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$9)
-            tmp_if_expr$11 = (_Bool)1;
-
-          else
-          {
-            return_value_chm_resolve_object$10=chm_resolve_object(newHandle, _CHMU_CONTENT, &newHandle->cn_unit);
-            tmp_if_expr$11 = 0 != return_value_chm_resolve_object$10 ? (_Bool)1 : (_Bool)0;
-          }
-          if(tmp_if_expr$11)
-            tmp_if_expr$12 = (_Bool)1;
-
-          else
-            tmp_if_expr$12 = newHandle->cn_unit.space == 1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$12)
-            tmp_if_expr$14 = (_Bool)1;
+            tmp_if_expr_9 = newHandle->rt_unit.space == 1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_9)
+            tmp_if_expr_11 = (_Bool)1;
 
           else
           {
-            return_value_chm_resolve_object$13=chm_resolve_object(newHandle, _CHMU_LZXC_CONTROLDATA, &uiLzxc);
-            tmp_if_expr$14 = 0 != return_value_chm_resolve_object$13 ? (_Bool)1 : (_Bool)0;
+            return_value_chm_resolve_object_10=chm_resolve_object(newHandle, _CHMU_CONTENT, &newHandle->cn_unit);
+            tmp_if_expr_11 = 0 != return_value_chm_resolve_object_10 ? (_Bool)1 : (_Bool)0;
           }
-          if(uiLzxc.space == 1 || tmp_if_expr$14)
+          if(tmp_if_expr_11)
+            tmp_if_expr_12 = (_Bool)1;
+
+          else
+            tmp_if_expr_12 = newHandle->cn_unit.space == 1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_12)
+            tmp_if_expr_14 = (_Bool)1;
+
+          else
+          {
+            return_value_chm_resolve_object_13=chm_resolve_object(newHandle, _CHMU_LZXC_CONTROLDATA, &uiLzxc);
+            tmp_if_expr_14 = 0 != return_value_chm_resolve_object_13 ? (_Bool)1 : (_Bool)0;
+          }
+          if(uiLzxc.space == 1 || tmp_if_expr_14)
             newHandle->compression_enabled = 0;
 
           if(!(newHandle->compression_enabled == 0))
           {
             sremain = (unsigned int)0x28;
             sbufpos = sbuffer;
-            signed long long int return_value_chm_retrieve_object$15;
-            return_value_chm_retrieve_object$15=chm_retrieve_object(newHandle, &newHandle->rt_unit, sbuffer, (unsigned long long int)0, (signed long long int)sremain);
-            if(!(return_value_chm_retrieve_object$15 == (signed long int)sremain))
-              tmp_if_expr$17 = (_Bool)1;
+            signed long long int return_value_chm_retrieve_object_15;
+            return_value_chm_retrieve_object_15=chm_retrieve_object(newHandle, &newHandle->rt_unit, sbuffer, (unsigned long long int)0, (signed long long int)sremain);
+            if(!(return_value_chm_retrieve_object_15 == (signed long int)sremain))
+              tmp_if_expr_17 = (_Bool)1;
 
             else
             {
-              return_value__unmarshal_lzxc_reset_table$16=_unmarshal_lzxc_reset_table(&sbufpos, &sremain, &newHandle->reset_table);
-              tmp_if_expr$17 = !(return_value__unmarshal_lzxc_reset_table$16 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value__unmarshal_lzxc_reset_table_16=_unmarshal_lzxc_reset_table(&sbufpos, &sremain, &newHandle->reset_table);
+              tmp_if_expr_17 = !(return_value__unmarshal_lzxc_reset_table_16 != 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$17)
+            if(tmp_if_expr_17)
               newHandle->compression_enabled = 0;
 
           }
@@ -3211,17 +3211,17 @@ struct chmFile * chm_open(const char *filename)
             }
 
             sbufpos = sbuffer;
-            signed long long int return_value_chm_retrieve_object$18;
-            return_value_chm_retrieve_object$18=chm_retrieve_object(newHandle, &uiLzxc, sbuffer, (unsigned long long int)0, (signed long long int)sremain);
-            if(!(return_value_chm_retrieve_object$18 == (signed long int)sremain))
-              tmp_if_expr$20 = (_Bool)1;
+            signed long long int return_value_chm_retrieve_object_18;
+            return_value_chm_retrieve_object_18=chm_retrieve_object(newHandle, &uiLzxc, sbuffer, (unsigned long long int)0, (signed long long int)sremain);
+            if(!(return_value_chm_retrieve_object_18 == (signed long int)sremain))
+              tmp_if_expr_20 = (_Bool)1;
 
             else
             {
-              return_value__unmarshal_lzxc_control_data$19=_unmarshal_lzxc_control_data(&sbufpos, &sremain, &ctlData);
-              tmp_if_expr$20 = !(return_value__unmarshal_lzxc_control_data$19 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value__unmarshal_lzxc_control_data_19=_unmarshal_lzxc_control_data(&sbufpos, &sremain, &ctlData);
+              tmp_if_expr_20 = !(return_value__unmarshal_lzxc_control_data_19 != 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$20)
+            if(tmp_if_expr_20)
               newHandle->compression_enabled = 0;
 
             newHandle->window_size = ctlData.windowSize;
@@ -3243,10 +3243,10 @@ signed int chm_resolve_object(struct chmFile *h, const char *objPath, struct chm
 {
   signed int curPage;
   unsigned char *page_buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)h->block_len);
-  page_buf = (unsigned char *)return_value_malloc$1;
-  signed int return_value___builtin_memcmp$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)h->block_len);
+  page_buf = (unsigned char *)return_value_malloc_1;
+  signed int return_value___builtin_memcmp_3;
   if(page_buf == ((unsigned char *)NULL))
     return 1;
 
@@ -3255,17 +3255,17 @@ signed int chm_resolve_object(struct chmFile *h, const char *objPath, struct chm
     curPage = h->index_root;
     while(!(curPage == -1))
     {
-      signed long int return_value__chm_fetch_bytes$2;
-      return_value__chm_fetch_bytes$2=_chm_fetch_bytes(h, page_buf, (unsigned long int)h->dir_offset + (unsigned long int)curPage * (unsigned long int)h->block_len, (signed long int)h->block_len);
-      if(!(return_value__chm_fetch_bytes$2 == (signed long int)h->block_len))
+      signed long int return_value__chm_fetch_bytes_2;
+      return_value__chm_fetch_bytes_2=_chm_fetch_bytes(h, page_buf, (unsigned long int)h->dir_offset + (unsigned long int)curPage * (unsigned long int)h->block_len, (signed long int)h->block_len);
+      if(!(return_value__chm_fetch_bytes_2 == (signed long int)h->block_len))
       {
         free((void *)page_buf);
         return 1;
       }
 
-      signed int return_value___builtin_memcmp$4;
-      return_value___builtin_memcmp$4=__builtin_memcmp((const void *)page_buf, (const void *)_chm_pmgl_marker, (unsigned long int)4);
-      if(return_value___builtin_memcmp$4 == 0)
+      signed int return_value___builtin_memcmp_4;
+      return_value___builtin_memcmp_4=__builtin_memcmp((const void *)page_buf, (const void *)_chm_pmgl_marker, (unsigned long int)4);
+      if(return_value___builtin_memcmp_4 == 0)
       {
         unsigned char *pEntry;
         pEntry=_chm_find_in_PMGL(page_buf, h->block_len, objPath);
@@ -3282,8 +3282,8 @@ signed int chm_resolve_object(struct chmFile *h, const char *objPath, struct chm
 
       else
       {
-        return_value___builtin_memcmp$3=__builtin_memcmp((const void *)page_buf, (const void *)_chm_pmgi_marker, (unsigned long int)4);
-        if(return_value___builtin_memcmp$3 == 0)
+        return_value___builtin_memcmp_3=__builtin_memcmp((const void *)page_buf, (const void *)_chm_pmgi_marker, (unsigned long int)4);
+        if(return_value___builtin_memcmp_3 == 0)
           curPage=_chm_find_in_PMGI(page_buf, h->block_len, objPath);
 
         else
@@ -3316,9 +3316,9 @@ signed long long int chm_retrieve_object(struct chmFile *h, struct chmUnitInfo *
 
       if(ui->space == 0)
       {
-        signed long int return_value__chm_fetch_bytes$1;
-        return_value__chm_fetch_bytes$1=_chm_fetch_bytes(h, buf, (unsigned long int)h->data_offset + (unsigned long int)ui->start + (unsigned long int)addr, len);
-        return return_value__chm_fetch_bytes$1;
+        signed long int return_value__chm_fetch_bytes_1;
+        return_value__chm_fetch_bytes_1=_chm_fetch_bytes(h, buf, (unsigned long int)h->data_offset + (unsigned long int)ui->start + (unsigned long int)addr, len);
+        return return_value__chm_fetch_bytes_1;
       }
 
       else
@@ -3359,15 +3359,15 @@ void chm_set_param(struct chmFile *h, signed int paramType, signed int paramVal)
       unsigned char **newBlocks;
       unsigned long int *newIndices;
       signed int i;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)paramVal * sizeof(unsigned char *) /*8ul*/ );
-      newBlocks = (unsigned char **)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)paramVal * sizeof(unsigned char *) /*8ul*/ );
+      newBlocks = (unsigned char **)return_value_malloc_1;
       if(newBlocks == ((unsigned char **)NULL))
         goto __CPROVER_DUMP_L12;
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)paramVal * sizeof(unsigned long int) /*8ul*/ );
-      newIndices = (unsigned long int *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)paramVal * sizeof(unsigned long int) /*8ul*/ );
+      newIndices = (unsigned long int *)return_value_malloc_2;
       if(newIndices == ((unsigned long int *)NULL))
       {
         free((void *)newBlocks);
@@ -3442,20 +3442,20 @@ static void chmhttp_server(const char *filename)
   memset((void *)&bindAddr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   bindAddr.sin_family = (unsigned short int)2;
   bindAddr.sin_port=htons((unsigned short int)config_port);
-  signed int return_value_inet_addr$1;
-  return_value_inet_addr$1=inet_addr((const void *)config_bind);
-  bindAddr.sin_addr.s_addr = (unsigned int)return_value_inet_addr$1;
-  signed int return_value_setsockopt$2;
-  return_value_setsockopt$2=setsockopt(server.socket, 1, 2, (const void *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
-  if(!(return_value_setsockopt$2 == 0))
+  signed int return_value_inet_addr_1;
+  return_value_inet_addr_1=inet_addr((const void *)config_bind);
+  bindAddr.sin_addr.s_addr = (unsigned int)return_value_inet_addr_1;
+  signed int return_value_setsockopt_2;
+  return_value_setsockopt_2=setsockopt(server.socket, 1, 2, (const void *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
+  if(!(return_value_setsockopt_2 == 0))
   {
     perror("setsockopt");
     exit(3);
   }
 
-  signed int return_value_bind$3;
-  return_value_bind$3=bind(server.socket, (struct sockaddr *)&bindAddr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_bind$3 >= 0))
+  signed int return_value_bind_3;
+  return_value_bind_3=bind(server.socket, (struct sockaddr *)&bindAddr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_bind_3 >= 0))
   {
     close(server.socket);
     server.socket = -1;
@@ -3467,9 +3467,9 @@ static void chmhttp_server(const char *filename)
   addrLen = (signed int)sizeof(struct sockaddr) /*16ul*/ ;
   while((_Bool)1)
   {
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(struct chmHttpSlave) /*16ul*/ );
-    slave = (struct chmHttpSlave *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(struct chmHttpSlave) /*16ul*/ );
+    slave = (struct chmHttpSlave *)return_value_malloc_4;
     slave->server = &server;
     slave->fd=accept(server.socket, (struct sockaddr *)&bindAddr, (unsigned int *)&addrLen);
     if(slave->fd == -1)
@@ -3490,9 +3490,9 @@ static void deliver_content(struct _IO_FILE *fout, const char *filename, struct 
   unsigned char buffer[65536l];
   signed int swath;
   signed int offset;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(filename, "/");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(filename, "/");
+  if(return_value_strcmp_1 == 0)
   {
     deliver_index(fout, file);
     fclose(fout);
@@ -3500,9 +3500,9 @@ static void deliver_content(struct _IO_FILE *fout, const char *filename, struct 
 
   else
   {
-    signed int return_value_chm_resolve_object$2;
-    return_value_chm_resolve_object$2=chm_resolve_object(file, filename, &ui);
-    if(!(return_value_chm_resolve_object$2 == 0))
+    signed int return_value_chm_resolve_object_2;
+    return_value_chm_resolve_object_2=chm_resolve_object(file, filename, &ui);
+    if(!(return_value_chm_resolve_object_2 == 0))
     {
       fprintf(fout, CONTENT_404);
       fclose(fout);
@@ -3511,9 +3511,9 @@ static void deliver_content(struct _IO_FILE *fout, const char *filename, struct 
     else
     {
       ext=strrchr(filename, 46);
-      const char *return_value_lookup_mime$3;
-      return_value_lookup_mime$3=lookup_mime(ext);
-      fprintf(fout, "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: %d\r\nContent-Type: %s\r\n\r\n", (signed int)ui.length, return_value_lookup_mime$3);
+      const char *return_value_lookup_mime_3;
+      return_value_lookup_mime_3=lookup_mime(ext);
+      fprintf(fout, "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: %d\r\nContent-Type: %s\r\n\r\n", (signed int)ui.length, return_value_lookup_mime_3);
       swath = 65536;
       offset = 0;
       while(!((unsigned long int)offset >= ui.length))
@@ -3523,9 +3523,9 @@ static void deliver_content(struct _IO_FILE *fout, const char *filename, struct 
 
         else
           swath = 65536;
-        signed long long int return_value_chm_retrieve_object$4;
-        return_value_chm_retrieve_object$4=chm_retrieve_object(file, &ui, buffer, (unsigned long long int)offset, (signed long long int)swath);
-        swath = (signed int)return_value_chm_retrieve_object$4;
+        signed long long int return_value_chm_retrieve_object_4;
+        return_value_chm_retrieve_object_4=chm_retrieve_object(file, &ui, buffer, (unsigned long long int)offset, (signed long long int)swath);
+        swath = (signed int)return_value_chm_retrieve_object_4;
         offset = offset + swath;
         fwrite((const void *)buffer, (unsigned long int)1, (unsigned long int)swath, fout);
       }
@@ -3539,9 +3539,9 @@ static void deliver_content(struct _IO_FILE *fout, const char *filename, struct 
 static void deliver_index(struct _IO_FILE *fout, struct chmFile *file)
 {
   fprintf(fout, "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<h2><u>CHM contents:</u></h2><body><table><tr><td><h5>Size:</h5></td><td><h5>File:</h5></td></tr><tt>");
-  signed int return_value_chm_enumerate$1;
-  return_value_chm_enumerate$1=chm_enumerate(file, 31, _print_ui_index, (void *)fout);
-  if(return_value_chm_enumerate$1 == 0)
+  signed int return_value_chm_enumerate_1;
+  return_value_chm_enumerate_1=chm_enumerate(file, 31, _print_ui_index, (void *)fout);
+  if(return_value_chm_enumerate_1 == 0)
     fprintf(fout, "<br>   *** ERROR ***\r\n");
 
   fprintf(fout, "</tt> </table></body></html>");
@@ -3557,9 +3557,9 @@ static const char * lookup_mime(const char *ext)
     i = 0;
     for( ; !((unsigned long int)i >= 9ul); i = i + 1)
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(mime_types[(signed long int)i].ext, ext);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(mime_types[(signed long int)i].ext, ext);
+      if(return_value_strcasecmp_1 == 0)
         return mime_types[(signed long int)i].ctype;
 
     }
@@ -3604,16 +3604,16 @@ static signed int lzx_read_lens(struct LZXstate *pState, unsigned char *lens, un
     while((_Bool)0);
     pState->PRETREE_len[(signed long int)x] = (unsigned char)y;
   }
-  signed int return_value_make_decode_table$1;
-  return_value_make_decode_table$1=make_decode_table((unsigned int)20, (unsigned int)6, pState->PRETREE_len, pState->PRETREE_table);
-  unsigned int tmp_post$2;
-  unsigned int tmp_post$3;
-  unsigned int tmp_post$4;
-  unsigned int tmp_post$5;
-  unsigned int tmp_post$6;
-  unsigned int tmp_post$7;
-  unsigned int tmp_post$8;
-  if(!(return_value_make_decode_table$1 == 0))
+  signed int return_value_make_decode_table_1;
+  return_value_make_decode_table_1=make_decode_table((unsigned int)20, (unsigned int)6, pState->PRETREE_len, pState->PRETREE_table);
+  unsigned int tmp_post_2;
+  unsigned int tmp_post_3;
+  unsigned int tmp_post_4;
+  unsigned int tmp_post_5;
+  unsigned int tmp_post_6;
+  unsigned int tmp_post_7;
+  unsigned int tmp_post_8;
+  if(!(return_value_make_decode_table_1 == 0))
     return 2;
 
   else
@@ -3681,14 +3681,14 @@ static signed int lzx_read_lens(struct LZXstate *pState, unsigned char *lens, un
         y = y + (unsigned int)4;
         do
         {
-          tmp_post$2 = y;
+          tmp_post_2 = y;
           y = y - 1u;
-          if(tmp_post$2 == 0u)
+          if(tmp_post_2 == 0u)
             break;
 
-          tmp_post$3 = x;
+          tmp_post_3 = x;
           x = x + 1u;
-          lens[(signed long int)tmp_post$3] = (unsigned char)0;
+          lens[(signed long int)tmp_post_3] = (unsigned char)0;
         }
         while((_Bool)1);
       }
@@ -3717,14 +3717,14 @@ static signed int lzx_read_lens(struct LZXstate *pState, unsigned char *lens, un
           y = y + (unsigned int)20;
           do
           {
-            tmp_post$4 = y;
+            tmp_post_4 = y;
             y = y - 1u;
-            if(tmp_post$4 == 0u)
+            if(tmp_post_4 == 0u)
               break;
 
-            tmp_post$5 = x;
+            tmp_post_5 = x;
             x = x + 1u;
-            lens[(signed long int)tmp_post$5] = (unsigned char)0;
+            lens[(signed long int)tmp_post_5] = (unsigned char)0;
           }
           while((_Bool)1);
         }
@@ -3794,14 +3794,14 @@ static signed int lzx_read_lens(struct LZXstate *pState, unsigned char *lens, un
 
             do
             {
-              tmp_post$6 = y;
+              tmp_post_6 = y;
               y = y - 1u;
-              if(tmp_post$6 == 0u)
+              if(tmp_post_6 == 0u)
                 break;
 
-              tmp_post$7 = x;
+              tmp_post_7 = x;
               x = x + 1u;
-              lens[(signed long int)tmp_post$7] = (unsigned char)z;
+              lens[(signed long int)tmp_post_7] = (unsigned char)z;
             }
             while((_Bool)1);
           }
@@ -3812,9 +3812,9 @@ static signed int lzx_read_lens(struct LZXstate *pState, unsigned char *lens, un
             if(!(z >= 0))
               z = z + 17;
 
-            tmp_post$8 = x;
+            tmp_post_8 = x;
             x = x + 1u;
-            lens[(signed long int)tmp_post$8] = (unsigned char)z;
+            lens[(signed long int)tmp_post_8] = (unsigned char)z;
           }
     }
     lb->bb = bitbuf;
@@ -3883,8 +3883,8 @@ static signed int make_decode_table(unsigned int nsyms, unsigned int nbits, unsi
   unsigned int table_mask = (unsigned int)(1 << nbits);
   unsigned int bit_mask = table_mask >> 1;
   unsigned int next_symbol = bit_mask;
-  unsigned int tmp_post$1;
-  unsigned int tmp_post$2;
+  unsigned int tmp_post_1;
+  unsigned int tmp_post_2;
   for( ; nbits >= (unsigned int)bit_num; bit_num = bit_num + 1)
   {
     sym = (unsigned short int)0;
@@ -3899,21 +3899,21 @@ static signed int make_decode_table(unsigned int nsyms, unsigned int nbits, unsi
         fill = bit_mask;
         do
         {
-          tmp_post$1 = fill;
+          tmp_post_1 = fill;
           fill = fill - 1u;
-          if(!(tmp_post$1 >= 1u))
+          if(!(tmp_post_1 >= 1u))
             break;
 
-          tmp_post$2 = leaf;
+          tmp_post_2 = leaf;
           leaf = leaf + 1u;
-          table[(signed long int)tmp_post$2] = sym;
+          table[(signed long int)tmp_post_2] = sym;
         }
         while((_Bool)1);
       }
 
     bit_mask = bit_mask >> 1;
   }
-  unsigned int tmp_post$3;
+  unsigned int tmp_post_3;
   if(!(pos == table_mask))
   {
     sym = (unsigned short int)pos;
@@ -3936,9 +3936,9 @@ static signed int make_decode_table(unsigned int nsyms, unsigned int nbits, unsi
             {
               table[(signed long int)(next_symbol << 1)] = (unsigned short int)0;
               table[(signed long int)((next_symbol << 1) + (unsigned int)1)] = (unsigned short int)0;
-              tmp_post$3 = next_symbol;
+              tmp_post_3 = next_symbol;
               next_symbol = next_symbol + 1u;
-              table[(signed long int)leaf] = (unsigned short int)tmp_post$3;
+              table[(signed long int)leaf] = (unsigned short int)tmp_post_3;
             }
 
             leaf = (unsigned int)((signed int)table[(signed long int)leaf] << 1);
@@ -3983,46 +3983,46 @@ static void service_request(signed int fd, struct chmFile *file)
   if(fout == ((struct _IO_FILE *)NULL))
   {
     perror("chm_http: failed to fdopen client stream");
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(INTERNAL_ERROR);
-    write(fd, (const void *)INTERNAL_ERROR, return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(INTERNAL_ERROR);
+    write(fd, (const void *)INTERNAL_ERROR, return_value_strlen_1);
     close(fd);
     goto __CPROVER_DUMP_L12;
   }
 
   fgets(buffer, 4096, fout);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   while((_Bool)1)
   {
-    char *return_value_fgets$2;
-    return_value_fgets$2=fgets(buffer2, 4096, fout);
-    if(return_value_fgets$2 == ((char *)NULL))
+    char *return_value_fgets_2;
+    return_value_fgets_2=fgets(buffer2, 4096, fout);
+    if(return_value_fgets_2 == ((char *)NULL))
       break;
 
     if((signed int)buffer2[0l] == 13)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)buffer2[(signed long int)0] == 10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)buffer2[(signed long int)0] == 10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)buffer2[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)buffer2[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       break;
 
   }
   end=strrchr(buffer, 32);
-  signed int return_value_strncmp$5;
-  return_value_strncmp$5=strncmp(end + (signed long int)1, "HTTP", (unsigned long int)4);
-  if(return_value_strncmp$5 == 0)
+  signed int return_value_strncmp_5;
+  return_value_strncmp_5=strncmp(end + (signed long int)1, "HTTP", (unsigned long int)4);
+  if(return_value_strncmp_5 == 0)
     *end = (char)0;
 
-  signed int return_value_strncmp$6;
-  return_value_strncmp$6=strncmp(buffer, "GET ", (unsigned long int)4);
-  if(return_value_strncmp$6 == 0)
+  signed int return_value_strncmp_6;
+  return_value_strncmp_6=strncmp(buffer, "GET ", (unsigned long int)4);
+  if(return_value_strncmp_6 == 0)
     deliver_content(fout, buffer + (signed long int)4, file);
 
   else

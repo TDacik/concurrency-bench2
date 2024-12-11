@@ -1,18 +1,18 @@
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
 // tag-_GHashTable
 // file /usr/include/glib-2.0/glib/ghash.h line 37
@@ -349,25 +349,25 @@ void print_vert_label_logic(struct g15canvas *canvas, char *label, unsigned int 
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$0 *);
+extern signed int pthread_cond_broadcast(union anonymous_0 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$0 *, union anonymous$1 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_0 *, union anonymous_1 *, struct timespec *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$1 *);
+extern signed int pthread_mutex_destroy(union anonymous_1 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // recv
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 156
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
@@ -420,7 +420,7 @@ extern unsigned int umask(unsigned int);
 // file /usr/include/unistd.h line 460
 extern signed int usleep(unsigned int);
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -448,10 +448,10 @@ union anonymous
   signed int __align;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -486,7 +486,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1010,7 +1010,7 @@ float temp_tot_cur = (float)1;
 float temp_tot_max = (float)1;
 // wake_now
 // file g15stats.c line 110
-union anonymous$0 wake_now = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_0 wake_now = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1019,9 +1019,9 @@ union anonymous$0 wake_now = { .__data={ .__lock=0, .__futex=(unsigned int)0, ._
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // calc_info_cycle
@@ -1146,9 +1146,9 @@ signed int daemonise(signed int nochdir, signed int noclose)
   __CPROVER_DUMP_L3:
     ;
     umask((unsigned int)0);
-    signed int return_value_setsid$1;
-    return_value_setsid$1=setsid();
-    if(return_value_setsid$1 == -1)
+    signed int return_value_setsid_1;
+    return_value_setsid_1=setsid();
+    if(return_value_setsid_1 == -1)
     {
       perror("setsid");
       return -1;
@@ -1228,9 +1228,9 @@ void drawBar_reversed(struct g15canvas *canvas, signed int x1, signed int y1, si
           g15r_drawLine(canvas, x1, y1 + (y2 - y1) / 2, x2, y1 + (y2 - y1) / 2, color);
         }
 
-    double return_value_ceil$1;
-    return_value_ceil$1=ceil((double)((float)x2 - length));
-    g15r_pixelBox(canvas, (signed int)return_value_ceil$1, y1, x2, y2, color, 1, 1);
+    double return_value_ceil_1;
+    return_value_ceil_1=ceil((double)((float)x2 - length));
+    g15r_pixelBox(canvas, (signed int)return_value_ceil_1, y1, x2, y2, color, 1, 1);
     if(type == 5)
     {
       signed int x = x2 - 2;
@@ -1263,8 +1263,8 @@ void draw_bat_screen(struct g15canvas *canvas, char *tmpstr, signed int all)
   char value[128l];
   signed int i = 0;
   i = 0;
-  char *return_value_fgets$1;
-  char *return_value_fgets$8;
+  char *return_value_fgets_1;
+  char *return_value_fgets_8;
   for( ; !(i >= 3); i = i + 1)
   {
     char filename[30l];
@@ -1277,37 +1277,37 @@ void draw_bat_screen(struct g15canvas *canvas, char *tmpstr, signed int all)
     {
       do
       {
-        return_value_fgets$1=fgets(line, 128, fd_state);
-        if(return_value_fgets$1 == ((char *)NULL))
+        return_value_fgets_1=fgets(line, 128, fd_state);
+        if(return_value_fgets_1 == ((char *)NULL))
           break;
 
-        char *return_value_strcasestr$3;
-        return_value_strcasestr$3=strcasestr(line, "remaining capacity");
-        if(!(return_value_strcasestr$3 == ((char *)NULL)))
+        char *return_value_strcasestr_3;
+        return_value_strcasestr_3=strcasestr(line, "remaining capacity");
+        if(!(return_value_strcasestr_3 == ((char *)NULL)))
         {
           __builtin_strncpy((char *)value, (char *)line + (signed long int)25, (unsigned long int)5);
-          signed int return_value_atoi$2;
-          return_value_atoi$2=atoi(value);
-          bats[(signed long int)i].cur_charge = (signed long int)return_value_atoi$2;
+          signed int return_value_atoi_2;
+          return_value_atoi_2=atoi(value);
+          bats[(signed long int)i].cur_charge = (signed long int)return_value_atoi_2;
         }
 
-        char *return_value_strcasestr$7;
-        return_value_strcasestr$7=strcasestr(line, "charging state");
-        if(!(return_value_strcasestr$7 == ((char *)NULL)))
+        char *return_value_strcasestr_7;
+        return_value_strcasestr_7=strcasestr(line, "charging state");
+        if(!(return_value_strcasestr_7 == ((char *)NULL)))
         {
-          char *return_value_strcasestr$4;
-          return_value_strcasestr$4=strcasestr(line, "charged");
-          if(!(return_value_strcasestr$4 == ((char *)NULL)))
+          char *return_value_strcasestr_4;
+          return_value_strcasestr_4=strcasestr(line, "charged");
+          if(!(return_value_strcasestr_4 == ((char *)NULL)))
             bats[(signed long int)i].status = (signed long int)0;
 
-          char *return_value_strcasestr$5;
-          return_value_strcasestr$5=strcasestr(line, " charging");
-          if(!(return_value_strcasestr$5 == ((char *)NULL)))
+          char *return_value_strcasestr_5;
+          return_value_strcasestr_5=strcasestr(line, " charging");
+          if(!(return_value_strcasestr_5 == ((char *)NULL)))
             bats[(signed long int)i].status = (signed long int)1;
 
-          char *return_value_strcasestr$6;
-          return_value_strcasestr$6=strcasestr(line, "discharging");
-          if(!(return_value_strcasestr$6 == ((char *)NULL)))
+          char *return_value_strcasestr_6;
+          return_value_strcasestr_6=strcasestr(line, "discharging");
+          if(!(return_value_strcasestr_6 == ((char *)NULL)))
             bats[(signed long int)i].status = (signed long int)2;
 
         }
@@ -1321,18 +1321,18 @@ void draw_bat_screen(struct g15canvas *canvas, char *tmpstr, signed int all)
       {
         do
         {
-          return_value_fgets$8=fgets(line, 128, fd_info);
-          if(return_value_fgets$8 == ((char *)NULL))
+          return_value_fgets_8=fgets(line, 128, fd_info);
+          if(return_value_fgets_8 == ((char *)NULL))
             break;
 
-          char *return_value_strcasestr$10;
-          return_value_strcasestr$10=strcasestr(line, "last full capacity");
-          if(!(return_value_strcasestr$10 == ((char *)NULL)))
+          char *return_value_strcasestr_10;
+          return_value_strcasestr_10=strcasestr(line, "last full capacity");
+          if(!(return_value_strcasestr_10 == ((char *)NULL)))
           {
             __builtin_strncpy((char *)value, (char *)line + (signed long int)25, (unsigned long int)5);
-            signed int return_value_atoi$9;
-            return_value_atoi$9=atoi(value);
-            bats[(signed long int)i].max_charge = (signed long int)return_value_atoi$9;
+            signed int return_value_atoi_9;
+            return_value_atoi_9=atoi(value);
+            bats[(signed long int)i].max_charge = (signed long int)return_value_atoi_9;
           }
 
         }
@@ -1430,9 +1430,9 @@ void draw_bat_screen(struct g15canvas *canvas, char *tmpstr, signed int all)
       ;
       strcat(tmpstr, extension);
     }
-    unsigned long int return_value_strlen$11;
-    return_value_strlen$11=strlen(tmpstr);
-    g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen$11 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
+    unsigned long int return_value_strlen_11;
+    return_value_strlen_11=strlen(tmpstr);
+    g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen_11 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
   }
 
 
@@ -1556,43 +1556,43 @@ void draw_cpu_screen_multicore(struct g15canvas *canvas, char *tmpstr, signed in
     height = 1;
 
   core = 0;
-  double tmp_if_expr$1;
-  double tmp_if_expr$2;
-  double tmp_if_expr$3;
-  double tmp_if_expr$4;
-  double tmp_if_expr$5;
+  double tmp_if_expr_1;
+  double tmp_if_expr_2;
+  double tmp_if_expr_3;
+  double tmp_if_expr_4;
+  double tmp_if_expr_5;
   for( ; !(core >= ncpumax) && !(core >= ncpu); core = core + 1)
   {
     if(!(cpu.xcpu_total[(signed long int)core] == 0ul))
-      tmp_if_expr$1 = (double)cpu.xcpu_total[(signed long int)core];
+      tmp_if_expr_1 = (double)cpu.xcpu_total[(signed long int)core];
 
     else
-      tmp_if_expr$1 = 1.0;
-    total = (signed int)tmp_if_expr$1;
+      tmp_if_expr_1 = 1.0;
+    total = (signed int)tmp_if_expr_1;
     if(!(cpu.xcpu_user[(signed long int)core] == 0ul))
-      tmp_if_expr$2 = (double)cpu.xcpu_user[(signed long int)core];
+      tmp_if_expr_2 = (double)cpu.xcpu_user[(signed long int)core];
 
     else
-      tmp_if_expr$2 = 1.0;
-    user = (signed int)tmp_if_expr$2;
+      tmp_if_expr_2 = 1.0;
+    user = (signed int)tmp_if_expr_2;
     if(!(cpu.xcpu_nice[(signed long int)core] == 0ul))
-      tmp_if_expr$3 = (double)cpu.xcpu_nice[(signed long int)core];
+      tmp_if_expr_3 = (double)cpu.xcpu_nice[(signed long int)core];
 
     else
-      tmp_if_expr$3 = 1.0;
-    nice = (signed int)tmp_if_expr$3;
+      tmp_if_expr_3 = 1.0;
+    nice = (signed int)tmp_if_expr_3;
     if(!(cpu.xcpu_sys[(signed long int)core] == 0ul))
-      tmp_if_expr$4 = (double)cpu.xcpu_sys[(signed long int)core];
+      tmp_if_expr_4 = (double)cpu.xcpu_sys[(signed long int)core];
 
     else
-      tmp_if_expr$4 = 1.0;
-    sys = (signed int)tmp_if_expr$4;
+      tmp_if_expr_4 = 1.0;
+    sys = (signed int)tmp_if_expr_4;
     if(!(cpu.xcpu_idle[(signed long int)core] == 0ul))
-      tmp_if_expr$5 = (double)cpu.xcpu_idle[(signed long int)core];
+      tmp_if_expr_5 = (double)cpu.xcpu_idle[(signed long int)core];
 
     else
-      tmp_if_expr$5 = 1.0;
-    idle = (signed int)tmp_if_expr$5;
+      tmp_if_expr_5 = 1.0;
+    idle = (signed int)tmp_if_expr_5;
     static signed int last_total[1024l];
     b_total = total - last_total[(signed long int)core];
     static signed int last_user[1024l];
@@ -1628,16 +1628,16 @@ void draw_cpu_screen_multicore(struct g15canvas *canvas, char *tmpstr, signed in
             result = ((float)(b_total - b_idle) / (float)b_total) * (float)100;
             if(result < 100.000000f)
             {
-              char *return_value_show_hertz_short$6;
-              return_value_show_hertz_short$6=show_hertz_short(freq_cur);
-              sprintf(tmpstr, "%2.f%% %s", result, return_value_show_hertz_short$6);
+              char *return_value_show_hertz_short_6;
+              return_value_show_hertz_short_6=show_hertz_short(freq_cur);
+              sprintf(tmpstr, "%2.f%% %s", result, return_value_show_hertz_short_6);
             }
 
             else
             {
-              char *return_value_show_hertz_short$7;
-              return_value_show_hertz_short$7=show_hertz_short(freq_cur);
-              sprintf(tmpstr, "%3.f%%%s", result, return_value_show_hertz_short$7);
+              char *return_value_show_hertz_short_7;
+              return_value_show_hertz_short_7=show_hertz_short(freq_cur);
+              sprintf(tmpstr, "%3.f%%%s", result, return_value_show_hertz_short_7);
             }
             if(!(ncpu >= 5))
               g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 1, (unsigned int)1, (unsigned int)(y1 + 1));
@@ -1658,9 +1658,9 @@ void draw_cpu_screen_multicore(struct g15canvas *canvas, char *tmpstr, signed in
             if(!(have_freq == 0))
             {
               freq_cur=get_cpu_freq_cur(core);
-              char *return_value_show_hertz_short$8;
-              return_value_show_hertz_short$8=show_hertz_short(freq_cur);
-              sprintf(tmpstr, "%s%3.f%%", return_value_show_hertz_short$8, ((float)(b_total - b_idle) / (float)b_total) * (float)100);
+              char *return_value_show_hertz_short_8;
+              return_value_show_hertz_short_8=show_hertz_short(freq_cur);
+              sprintf(tmpstr, "%s%3.f%%", return_value_show_hertz_short_8, ((float)(b_total - b_idle) / (float)b_total) * (float)100);
             }
 
             else
@@ -1712,9 +1712,9 @@ void draw_cpu_screen_multicore(struct g15canvas *canvas, char *tmpstr, signed in
         {
           freq_cur=get_cpu_freq_cur(core);
           freq_total=get_cpu_freq_max(core);
-          unsigned long int return_value_maxi$9;
-          return_value_maxi$9=maxi((unsigned long int)freq_sum, (unsigned long int)freq_cur);
-          freq_sum = (signed int)return_value_maxi$9;
+          unsigned long int return_value_maxi_9;
+          return_value_maxi_9=maxi((unsigned long int)freq_sum, (unsigned long int)freq_cur);
+          freq_sum = (signed int)return_value_maxi_9;
           drawBar_both(canvas, shift + y1 + move, shift + y2 + move, freq_cur, freq_total, freq_total - freq_cur, freq_total);
         }
 
@@ -1734,9 +1734,9 @@ void draw_cpu_screen_multicore(struct g15canvas *canvas, char *tmpstr, signed in
     if(!(have_freq == 0))
     {
       drawLine_both(canvas, shift + y1 + move, shift + y2 + move);
-      char *return_value_show_hertz_short$10;
-      return_value_show_hertz_short$10=show_hertz_short((signed int)freq_sum);
-      sprintf(tmpstr, "FRQ %s", return_value_show_hertz_short$10);
+      char *return_value_show_hertz_short_10;
+      return_value_show_hertz_short_10=show_hertz_short((signed int)freq_sum);
+      sprintf(tmpstr, "FRQ %s", return_value_show_hertz_short_10);
       print_label(canvas, tmpstr, text_shift);
       draw_summary_screen(canvas, tmpstr, y1, y2, move, shift, text_shift, 2);
     }
@@ -1821,7 +1821,7 @@ void draw_cpu_screen_unicore_logic(struct g15canvas *canvas, struct _glibtop_cpu
     drawLine_both(canvas, 1, 32);
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(cpuandmemory == 0))
   {
     print_vert_label(canvas, "TOTAL");
@@ -1832,11 +1832,11 @@ void draw_cpu_screen_unicore_logic(struct g15canvas *canvas, struct _glibtop_cpu
   else
   {
     if(cycle == 2)
-      tmp_if_expr$1 = mode[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = mode[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!(have_freq == 0) && tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!(have_freq == 0) && tmp_if_expr_1)
       print_vert_label(canvas, "FREQ");
 
     else
@@ -1869,13 +1869,13 @@ void draw_g15_stats_info_screen(struct g15canvas *canvas, char *tmpstr, signed i
 // file g15stats.c line 1257
 void draw_g15_stats_info_screen_logic(struct g15canvas *canvas, char *tmpstr, signed int all, signed int screen_type, struct g15_stats_info *probes, signed int count, float tot_max, signed int *sensor_lost, signed int sensor_id, char *vert_label, char *format_main, char *format_bottom)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(count == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = IEEE_FLOAT_EQUAL((probes + (signed long int)0)->cur, (float)-100) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = IEEE_FLOAT_EQUAL((probes + (signed long int)0)->cur, (float)-100) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     goto __CPROVER_DUMP_L12;
 
   else
@@ -1913,9 +1913,9 @@ void draw_g15_stats_info_screen_logic(struct g15canvas *canvas, char *tmpstr, si
 
         strcat(tmpstr, extension);
       }
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(tmpstr);
-      g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen$2 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(tmpstr);
+      g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen_2 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
     }
 
   }
@@ -2006,18 +2006,18 @@ void draw_net_screen(struct g15canvas *canvas, char *tmpstr, char *interface)
   g15r_drawLine(canvas, 52, 0, 52, 34, 1);
   g15r_drawLine(canvas, 53, 0, 53, 34, 1);
   g15r_drawLine(canvas, 54, 0, 54, 34, 1);
-  char *return_value_show_bytes$1;
-  return_value_show_bytes$1=show_bytes(netload.bytes_in);
-  sprintf(tmpstr, "IN %s", return_value_show_bytes$1);
+  char *return_value_show_bytes_1;
+  return_value_show_bytes_1=show_bytes(netload.bytes_in);
+  sprintf(tmpstr, "IN %s", return_value_show_bytes_1);
   g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 1, (unsigned int)1, (unsigned int)2);
-  char *return_value_show_bytes$2;
-  return_value_show_bytes$2=show_bytes(netload.bytes_out);
-  sprintf(tmpstr, "OUT %s", return_value_show_bytes$2);
+  char *return_value_show_bytes_2;
+  return_value_show_bytes_2=show_bytes(netload.bytes_out);
+  sprintf(tmpstr, "OUT %s", return_value_show_bytes_2);
   g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 1, (unsigned int)1, (unsigned int)26);
   sprintf(tmpstr, "%s", interface);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(tmpstr);
-  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 2, (unsigned int)((unsigned long int)25 - (return_value_strlen$3 * (unsigned long int)9) / (unsigned long int)2), (unsigned int)14);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(tmpstr);
+  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 2, (unsigned int)((unsigned long int)25 - (return_value_strlen_3 * (unsigned long int)9) / (unsigned long int)2), (unsigned int)14);
   if(!(net_scale_absolute == (_Bool)0))
     print_vert_label_logic(canvas, "ABS  ", (unsigned int)47);
 
@@ -2068,16 +2068,16 @@ void draw_summary_screen(struct g15canvas *canvas, char *tmpstr, signed int y1, 
     drawBar_both(canvas, cur_shift + y + move, cur_shift + y2 + move, (signed int)(net_cur_out + (unsigned long int)1), (signed int)net_max_out, (signed int)(net_max_out - net_cur_out), (signed int)net_max_out);
     if(!(net_cur_out >= net_cur_in))
     {
-      char *return_value_show_bytes_short$1;
-      return_value_show_bytes_short$1=show_bytes_short((unsigned long int)(signed int)net_cur_in);
-      sprintf(tmpstr, "IN %s", return_value_show_bytes_short$1);
+      char *return_value_show_bytes_short_1;
+      return_value_show_bytes_short_1=show_bytes_short((unsigned long int)(signed int)net_cur_in);
+      sprintf(tmpstr, "IN %s", return_value_show_bytes_short_1);
     }
 
     else
     {
-      char *return_value_show_bytes_short$2;
-      return_value_show_bytes_short$2=show_bytes_short((unsigned long int)(signed int)net_cur_out);
-      sprintf(tmpstr, "OUT%s", return_value_show_bytes_short$2);
+      char *return_value_show_bytes_short_2;
+      return_value_show_bytes_short_2=show_bytes_short((unsigned long int)(signed int)net_cur_out);
+      sprintf(tmpstr, "OUT%s", return_value_show_bytes_short_2);
     }
     print_label(canvas, tmpstr, text_shift * id);
     id = id + 1;
@@ -2191,7 +2191,7 @@ void format_float(char *tmpstr, char *format_less, char *format_great, float val
 // file g15stats.c line 1616
 void g15stats_wait(signed int seconds)
 {
-  union anonymous$1 dummy_mutex;
+  union anonymous_1 dummy_mutex;
   struct timespec timeout;
   pthread_mutex_init(&dummy_mutex, (const union anonymous *)(void *)0);
   pthread_mutex_lock(&dummy_mutex);
@@ -2234,18 +2234,18 @@ __CPROVER_DUMP_L3:
 // file g15stats.c line 364
 signed int get_cpu_freq_max(signed int core)
 {
-  signed int return_value_get_processor_freq$1;
-  return_value_get_processor_freq$1=get_processor_freq("cpuinfo_max_freq", core);
-  return return_value_get_processor_freq$1;
+  signed int return_value_get_processor_freq_1;
+  return_value_get_processor_freq_1=get_processor_freq("cpuinfo_max_freq", core);
+  return return_value_get_processor_freq_1;
 }
 
 // get_cpu_freq_min
 // file g15stats.c line 368
 signed int get_cpu_freq_min(signed int core)
 {
-  signed int return_value_get_processor_freq$1;
-  return_value_get_processor_freq$1=get_processor_freq("cpuinfo_min_freq", core);
-  return return_value_get_processor_freq$1;
+  signed int return_value_get_processor_freq_1;
+  return_value_get_processor_freq_1=get_processor_freq("cpuinfo_min_freq", core);
+  return return_value_get_processor_freq_1;
 }
 
 // get_hwmon
@@ -2258,9 +2258,9 @@ signed int get_hwmon(signed int sensor_id, char *sensor, char *which, signed int
 
   else
     sprintf(tmpstr, "/sys/class/hwmon/hwmon%d/%s%d_%s", sensor_id, sensor, id, which);
-  signed int return_value_get_sysfs_value$1;
-  return_value_get_sysfs_value$1=get_sysfs_value(tmpstr);
-  return return_value_get_sysfs_value$1;
+  signed int return_value_get_sysfs_value_1;
+  return_value_get_sysfs_value_1=get_sysfs_value(tmpstr);
+  return return_value_get_sysfs_value_1;
 }
 
 // get_next
@@ -2288,9 +2288,9 @@ signed int get_processor_freq(char *which, signed int core)
 {
   static char tmpstr[128l];
   sprintf(tmpstr, "/sys/devices/system/cpu/cpu%d/cpufreq/%s", core, which);
-  signed int return_value_get_sysfs_value$1;
-  return_value_get_sysfs_value$1=get_sysfs_value(tmpstr);
-  return return_value_get_sysfs_value$1;
+  signed int return_value_get_sysfs_value_1;
+  return_value_get_sysfs_value_1=get_sysfs_value(tmpstr);
+  return return_value_get_sysfs_value_1;
 }
 
 // get_sensor_cur
@@ -2299,16 +2299,16 @@ signed int get_sensor_cur(signed int id, signed int screen_id)
 {
   if(screen_id == 7)
   {
-    signed int return_value_get_hwmon$1;
-    return_value_get_hwmon$1=get_hwmon(sensor_temp_id, "temp", "input", id, sensor_type_temp[(signed long int)sensor_temp_id]);
-    return return_value_get_hwmon$1;
+    signed int return_value_get_hwmon_1;
+    return_value_get_hwmon_1=get_hwmon(sensor_temp_id, "temp", "input", id, sensor_type_temp[(signed long int)sensor_temp_id]);
+    return return_value_get_hwmon_1;
   }
 
   else
   {
-    signed int return_value_get_hwmon$2;
-    return_value_get_hwmon$2=get_hwmon(sensor_fan_id, "fan", "input", id, sensor_type_fan[(signed long int)sensor_fan_id]);
-    return return_value_get_hwmon$2;
+    signed int return_value_get_hwmon_2;
+    return_value_get_hwmon_2=get_hwmon(sensor_fan_id, "fan", "input", id, sensor_type_fan[(signed long int)sensor_fan_id]);
+    return return_value_get_hwmon_2;
   }
 }
 
@@ -2318,16 +2318,16 @@ signed int get_sensor_max(signed int id, signed int screen_id)
 {
   if(screen_id == 7)
   {
-    signed int return_value_get_hwmon$1;
-    return_value_get_hwmon$1=get_hwmon(sensor_temp_id, "temp", "max", id, sensor_type_temp[(signed long int)sensor_temp_id]);
-    return return_value_get_hwmon$1;
+    signed int return_value_get_hwmon_1;
+    return_value_get_hwmon_1=get_hwmon(sensor_temp_id, "temp", "max", id, sensor_type_temp[(signed long int)sensor_temp_id]);
+    return return_value_get_hwmon_1;
   }
 
   else
   {
-    signed int return_value_get_hwmon$2;
-    return_value_get_hwmon$2=get_hwmon(sensor_fan_id, "fan", "alarm", id, sensor_type_fan[(signed long int)sensor_fan_id]);
-    return return_value_get_hwmon$2;
+    signed int return_value_get_hwmon_2;
+    return_value_get_hwmon_2=get_hwmon(sensor_fan_id, "fan", "alarm", id, sensor_type_fan[(signed long int)sensor_fan_id]);
+    return return_value_get_hwmon_2;
   }
 }
 
@@ -2349,19 +2349,19 @@ signed int get_sensors(struct g15_stats_info *sensors, signed int screen_id, _Bo
     sprintf(label, "Fan");
   }
   count = 0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   for( ; !(count >= 4); count = count + 1)
   {
-    signed int return_value_get_sensor_cur$1;
-    return_value_get_sensor_cur$1=get_sensor_cur(count + 1, screen_id);
-    (sensors + (signed long int)count)->cur = (float)return_value_get_sensor_cur$1;
+    signed int return_value_get_sensor_cur_1;
+    return_value_get_sensor_cur_1=get_sensor_cur(count + 1, screen_id);
+    (sensors + (signed long int)count)->cur = (float)return_value_get_sensor_cur_1;
     if(IEEE_FLOAT_EQUAL((sensors + (signed long int)count)->cur, -100.000000f))
       break;
 
-    signed int return_value_get_sensor_max$2;
-    return_value_get_sensor_max$2=get_sensor_max(count + 1, screen_id);
-    (sensors + (signed long int)count)->max = (float)return_value_get_sensor_max$2;
+    signed int return_value_get_sensor_max_2;
+    return_value_get_sensor_max_2=get_sensor_max(count + 1, screen_id);
+    (sensors + (signed long int)count)->max = (float)return_value_get_sensor_max_2;
     if(screen_id == 7)
     {
       (sensors + (signed long int)count)->cur = (sensors + (signed long int)count)->cur / (float)1000;
@@ -2370,18 +2370,18 @@ signed int get_sensors(struct g15_stats_info *sensors, signed int screen_id, _Bo
         temp_tot_max = (sensors + (signed long int)count)->max;
 
       if(sensor_temp_main == 1 + count)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         if(sensor_temp_main == 0)
-          tmp_if_expr$3 = temp_tot_cur < (sensors + (signed long int)count)->cur ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = temp_tot_cur < (sensors + (signed long int)count)->cur ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
         temp_tot_cur = (sensors + (signed long int)count)->cur;
 
     }
@@ -2416,9 +2416,9 @@ signed int get_sensors(struct g15_stats_info *sensors, signed int screen_id, _Bo
         sensor_fan_id = sensor_id;
       if(!(sensor_id == -100))
       {
-        signed int return_value_get_sensors$5;
-        return_value_get_sensors$5=get_sensors(sensors, screen_id, sensor_type, sensor_lost, sensor_id);
-        return return_value_get_sensors$5;
+        signed int return_value_get_sensors_5;
+        return_value_get_sensors_5=get_sensors(sensors, screen_id, sensor_type, sensor_lost, sensor_id);
+        return return_value_get_sensors_5;
       }
 
     }
@@ -2426,9 +2426,9 @@ signed int get_sensors(struct g15_stats_info *sensors, signed int screen_id, _Bo
     else
     {
       sensor_type[(signed long int)sensor_id] = (_Bool)1;
-      signed int return_value_get_sensors$6;
-      return_value_get_sensors$6=get_sensors(sensors, screen_id, sensor_type, sensor_lost, sensor_id);
-      return return_value_get_sensors$6;
+      signed int return_value_get_sensors_6;
+      return_value_get_sensors_6=get_sensors(sensors, screen_id, sensor_type, sensor_lost, sensor_id);
+      return return_value_get_sensors_6;
     }
     if(!(sensor_id == -100))
       goto __CPROVER_DUMP_L22;
@@ -2467,10 +2467,10 @@ signed int get_sysfs_value(char *filename)
   fd_main=fopen(filename, "r");
   if(!(fd_main == ((struct _IO_FILE *)NULL)))
   {
-    char *return_value_fgets$1;
+    char *return_value_fgets_1;
     static char tmpstr[128l];
-    return_value_fgets$1=fgets(tmpstr, 128, fd_main);
-    if(!(return_value_fgets$1 == ((char *)NULL)))
+    return_value_fgets_1=fgets(tmpstr, 128, fd_main);
+    if(!(return_value_fgets_1 == ((char *)NULL)))
     {
       fclose(fd_main);
       ret_val=atoi(tmpstr);
@@ -2691,89 +2691,89 @@ signed int main(signed int argc, char **argv)
   unsigned char interface[128l];
   signed int unicore = 0;
   i = 0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strncmp$2;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strncmp$5;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strncmp$8;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strncmp$11;
-  _Bool tmp_if_expr$15;
-  signed int return_value_strncmp$14;
-  _Bool tmp_if_expr$18;
-  signed int return_value_strncmp$17;
-  _Bool tmp_if_expr$21;
-  signed int return_value_strncmp$20;
-  _Bool tmp_if_expr$24;
-  signed int return_value_strncmp$23;
-  _Bool tmp_if_expr$27;
-  signed int return_value_strncmp$26;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strncmp_2;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strncmp_5;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strncmp_8;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strncmp_11;
+  _Bool tmp_if_expr_15;
+  signed int return_value_strncmp_14;
+  _Bool tmp_if_expr_18;
+  signed int return_value_strncmp_17;
+  _Bool tmp_if_expr_21;
+  signed int return_value_strncmp_20;
+  _Bool tmp_if_expr_24;
+  signed int return_value_strncmp_23;
+  _Bool tmp_if_expr_27;
+  signed int return_value_strncmp_26;
   for( ; !(i >= argc); i = i + 1)
   {
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(argv[(signed long int)i], "-d", (unsigned long int)2);
-    if(return_value_strncmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(argv[(signed long int)i], "-d", (unsigned long int)2);
+    if(return_value_strncmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$2=strncmp(argv[(signed long int)i], "--daemon", (unsigned long int)8);
-      tmp_if_expr$3 = 0 == return_value_strncmp$2 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_2=strncmp(argv[(signed long int)i], "--daemon", (unsigned long int)8);
+      tmp_if_expr_3 = 0 == return_value_strncmp_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       go_daemon = 1;
 
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(argv[(signed long int)i], "-u", (unsigned long int)2);
-    if(return_value_strncmp$4 == 0)
-      tmp_if_expr$6 = (_Bool)1;
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(argv[(signed long int)i], "-u", (unsigned long int)2);
+    if(return_value_strncmp_4 == 0)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$5=strncmp(argv[(signed long int)i], "--unicore", (unsigned long int)9);
-      tmp_if_expr$6 = 0 == return_value_strncmp$5 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_5=strncmp(argv[(signed long int)i], "--unicore", (unsigned long int)9);
+      tmp_if_expr_6 = 0 == return_value_strncmp_5 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
       unicore = 1;
 
-    signed int return_value_strncmp$7;
-    return_value_strncmp$7=strncmp(argv[(signed long int)i], "-nsa", (unsigned long int)4);
-    if(return_value_strncmp$7 == 0)
-      tmp_if_expr$9 = (_Bool)1;
+    signed int return_value_strncmp_7;
+    return_value_strncmp_7=strncmp(argv[(signed long int)i], "-nsa", (unsigned long int)4);
+    if(return_value_strncmp_7 == 0)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$8=strncmp(argv[(signed long int)i], "--net-scale-absolute", (unsigned long int)20);
-      tmp_if_expr$9 = 0 == return_value_strncmp$8 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_8=strncmp(argv[(signed long int)i], "--net-scale-absolute", (unsigned long int)20);
+      tmp_if_expr_9 = 0 == return_value_strncmp_8 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
       net_scale_absolute = (_Bool)1;
 
-    signed int return_value_strncmp$10;
-    return_value_strncmp$10=strncmp(argv[(signed long int)i], "-df", (unsigned long int)3);
-    if(return_value_strncmp$10 == 0)
-      tmp_if_expr$12 = (_Bool)1;
+    signed int return_value_strncmp_10;
+    return_value_strncmp_10=strncmp(argv[(signed long int)i], "-df", (unsigned long int)3);
+    if(return_value_strncmp_10 == 0)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$11=strncmp(argv[(signed long int)i], "--disable-freq", (unsigned long int)14);
-      tmp_if_expr$12 = 0 == return_value_strncmp$11 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_11=strncmp(argv[(signed long int)i], "--disable-freq", (unsigned long int)14);
+      tmp_if_expr_12 = 0 == return_value_strncmp_11 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$12)
+    if(tmp_if_expr_12)
       have_freq = 0;
 
-    signed int return_value_strncmp$13;
-    return_value_strncmp$13=strncmp(argv[(signed long int)i], "-h", (unsigned long int)2);
-    if(return_value_strncmp$13 == 0)
-      tmp_if_expr$15 = (_Bool)1;
+    signed int return_value_strncmp_13;
+    return_value_strncmp_13=strncmp(argv[(signed long int)i], "-h", (unsigned long int)2);
+    if(return_value_strncmp_13 == 0)
+      tmp_if_expr_15 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$14=strncmp(argv[(signed long int)i], "--help", (unsigned long int)6);
-      tmp_if_expr$15 = 0 == return_value_strncmp$14 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_14=strncmp(argv[(signed long int)i], "--help", (unsigned long int)6);
+      tmp_if_expr_15 = 0 == return_value_strncmp_14 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$15)
+    if(tmp_if_expr_15)
     {
       printf("%s %s - (c) 2008-2009 Mike Lampard, Piotr Czarnecki\n", (const void *)"g15stats", (const void *)"1.9.2");
       printf("Usage: %s [Options]\n", (const void *)"g15stats");
@@ -2790,17 +2790,17 @@ signed int main(signed int argc, char **argv)
       return 0;
     }
 
-    signed int return_value_strncmp$16;
-    return_value_strncmp$16=strncmp(argv[(signed long int)i], "-i", (unsigned long int)2);
-    if(return_value_strncmp$16 == 0)
-      tmp_if_expr$18 = (_Bool)1;
+    signed int return_value_strncmp_16;
+    return_value_strncmp_16=strncmp(argv[(signed long int)i], "-i", (unsigned long int)2);
+    if(return_value_strncmp_16 == 0)
+      tmp_if_expr_18 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$17=strncmp(argv[(signed long int)i], "--interface", (unsigned long int)11);
-      tmp_if_expr$18 = 0 == return_value_strncmp$17 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_17=strncmp(argv[(signed long int)i], "--interface", (unsigned long int)11);
+      tmp_if_expr_18 = 0 == return_value_strncmp_17 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$18)
+    if(tmp_if_expr_18)
     {
       if(!(argv[(signed long int)(1 + i)] == ((char *)NULL)))
       {
@@ -2811,17 +2811,17 @@ signed int main(signed int argc, char **argv)
 
     }
 
-    signed int return_value_strncmp$19;
-    return_value_strncmp$19=strncmp(argv[(signed long int)i], "-t", (unsigned long int)2);
-    if(return_value_strncmp$19 == 0)
-      tmp_if_expr$21 = (_Bool)1;
+    signed int return_value_strncmp_19;
+    return_value_strncmp_19=strncmp(argv[(signed long int)i], "-t", (unsigned long int)2);
+    if(return_value_strncmp_19 == 0)
+      tmp_if_expr_21 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$20=strncmp(argv[(signed long int)i], "--temperature", (unsigned long int)13);
-      tmp_if_expr$21 = 0 == return_value_strncmp$20 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_20=strncmp(argv[(signed long int)i], "--temperature", (unsigned long int)13);
+      tmp_if_expr_21 = 0 == return_value_strncmp_20 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$21)
+    if(tmp_if_expr_21)
     {
       if(!(argv[(signed long int)(1 + i)] == ((char *)NULL)))
       {
@@ -2834,17 +2834,17 @@ signed int main(signed int argc, char **argv)
 
     }
 
-    signed int return_value_strncmp$22;
-    return_value_strncmp$22=strncmp(argv[(signed long int)i], "-gt", (unsigned long int)3);
-    if(return_value_strncmp$22 == 0)
-      tmp_if_expr$24 = (_Bool)1;
+    signed int return_value_strncmp_22;
+    return_value_strncmp_22=strncmp(argv[(signed long int)i], "-gt", (unsigned long int)3);
+    if(return_value_strncmp_22 == 0)
+      tmp_if_expr_24 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$23=strncmp(argv[(signed long int)i], "--global-temp", (unsigned long int)13);
-      tmp_if_expr$24 = 0 == return_value_strncmp$23 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_23=strncmp(argv[(signed long int)i], "--global-temp", (unsigned long int)13);
+      tmp_if_expr_24 = 0 == return_value_strncmp_23 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$24)
+    if(tmp_if_expr_24)
     {
       if(!(argv[(signed long int)(1 + i)] == ((char *)NULL)))
       {
@@ -2854,17 +2854,17 @@ signed int main(signed int argc, char **argv)
 
     }
 
-    signed int return_value_strncmp$25;
-    return_value_strncmp$25=strncmp(argv[(signed long int)i], "-f", (unsigned long int)2);
-    if(return_value_strncmp$25 == 0)
-      tmp_if_expr$27 = (_Bool)1;
+    signed int return_value_strncmp_25;
+    return_value_strncmp_25=strncmp(argv[(signed long int)i], "-f", (unsigned long int)2);
+    if(return_value_strncmp_25 == 0)
+      tmp_if_expr_27 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$26=strncmp(argv[(signed long int)i], "--fan", (unsigned long int)5);
-      tmp_if_expr$27 = 0 == return_value_strncmp$26 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_26=strncmp(argv[(signed long int)i], "--fan", (unsigned long int)5);
+      tmp_if_expr_27 = 0 == return_value_strncmp_26 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$27)
+    if(tmp_if_expr_27)
     {
       if(!(argv[(signed long int)(1 + i)] == ((char *)NULL)))
       {
@@ -2887,9 +2887,9 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    void *return_value_malloc$28;
-    return_value_malloc$28=malloc(sizeof(struct g15canvas) /*1060ul*/ );
-    canvas = (struct g15canvas *)return_value_malloc$28;
+    void *return_value_malloc_28;
+    return_value_malloc_28=malloc(sizeof(struct g15canvas) /*1060ul*/ );
+    canvas = (struct g15canvas *)return_value_malloc_28;
     if(go_daemon == 1)
       daemonise(0, 0);
 
@@ -3137,12 +3137,12 @@ void network_watch(void *iface)
           j = 0;
           for( ; !(j >= 107); j = j + 1)
           {
-            unsigned long int return_value_maxi$1;
-            return_value_maxi$1=maxi((unsigned long int)max_in, (unsigned long int)net_hist[(signed long int)j][(signed long int)0]);
-            max_in = (signed int)return_value_maxi$1;
-            unsigned long int return_value_maxi$2;
-            return_value_maxi$2=maxi((unsigned long int)max_out, (unsigned long int)net_hist[(signed long int)j][(signed long int)1]);
-            max_out = (signed int)return_value_maxi$2;
+            unsigned long int return_value_maxi_1;
+            return_value_maxi_1=maxi((unsigned long int)max_in, (unsigned long int)net_hist[(signed long int)j][(signed long int)0]);
+            max_in = (signed int)return_value_maxi_1;
+            unsigned long int return_value_maxi_2;
+            return_value_maxi_2=maxi((unsigned long int)max_out, (unsigned long int)net_hist[(signed long int)j][(signed long int)1]);
+            max_out = (signed int)return_value_maxi_2;
           }
           net_max_in = (unsigned long int)max_in;
           net_max_out = (unsigned long int)max_out;
@@ -3176,28 +3176,28 @@ void print_freq_info(struct g15canvas *canvas, char *tmpstr)
     strcat(tmpstr, proc);
     if(!(ncpu >= 5))
     {
-      signed int return_value_get_cpu_freq_cur$1;
-      return_value_get_cpu_freq_cur$1=get_cpu_freq_cur(core);
-      char *return_value_show_hertz$2;
-      return_value_show_hertz$2=show_hertz(return_value_get_cpu_freq_cur$1);
-      strcat(tmpstr, return_value_show_hertz$2);
+      signed int return_value_get_cpu_freq_cur_1;
+      return_value_get_cpu_freq_cur_1=get_cpu_freq_cur(core);
+      char *return_value_show_hertz_2;
+      return_value_show_hertz_2=show_hertz(return_value_get_cpu_freq_cur_1);
+      strcat(tmpstr, return_value_show_hertz_2);
     }
 
     else
     {
-      signed int return_value_get_cpu_freq_cur$3;
-      return_value_get_cpu_freq_cur$3=get_cpu_freq_cur(core);
-      char *return_value_show_hertz_short$4;
-      return_value_show_hertz_short$4=show_hertz_short(return_value_get_cpu_freq_cur$3);
-      strcat(tmpstr, return_value_show_hertz_short$4);
+      signed int return_value_get_cpu_freq_cur_3;
+      return_value_get_cpu_freq_cur_3=get_cpu_freq_cur(core);
+      char *return_value_show_hertz_short_4;
+      return_value_show_hertz_short_4=show_hertz_short(return_value_get_cpu_freq_cur_3);
+      strcat(tmpstr, return_value_show_hertz_short_4);
     }
     if(!(1 + core >= ncpu))
       strcat(tmpstr, "|");
 
   }
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(tmpstr);
-  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen$5 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(tmpstr);
+  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen_5 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
 }
 
 // print_info_label
@@ -3276,43 +3276,43 @@ void print_mem_info(struct g15canvas *canvas, char *tmpstr)
   struct _glibtop_mem mem;
   glibtop_get_mem(&mem);
   sprintf(tmpstr, "Memory Used %dMB | Memory Total %dMB", (unsigned int)((mem.buffer + mem.cached + mem.user) / (unsigned long int)(1024 * 1024)), (unsigned int)(mem.total / (unsigned long int)(1024 * 1024)));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(tmpstr);
-  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen$1 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(tmpstr);
+  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen_1 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
 }
 
 // print_net_current_info
 // file g15stats.c line 534
 void print_net_current_info(struct g15canvas *canvas, char *tmpstr)
 {
-  char *return_value_show_bytes$1;
-  return_value_show_bytes$1=show_bytes(net_cur_in);
-  sprintf(tmpstr, "Current IN %s/s|", return_value_show_bytes$1);
+  char *return_value_show_bytes_1;
+  return_value_show_bytes_1=show_bytes(net_cur_in);
+  sprintf(tmpstr, "Current IN %s/s|", return_value_show_bytes_1);
   strcat(tmpstr, "Current OUT ");
-  char *return_value_show_bytes$2;
-  return_value_show_bytes$2=show_bytes(net_cur_out);
-  strcat(tmpstr, return_value_show_bytes$2);
+  char *return_value_show_bytes_2;
+  return_value_show_bytes_2=show_bytes(net_cur_out);
+  strcat(tmpstr, return_value_show_bytes_2);
   strcat(tmpstr, "/s");
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(tmpstr);
-  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen$3 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(tmpstr);
+  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen_3 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
 }
 
 // print_net_peak_info
 // file g15stats.c line 526
 void print_net_peak_info(struct g15canvas *canvas, char *tmpstr)
 {
-  char *return_value_show_bytes$1;
-  return_value_show_bytes$1=show_bytes(net_max_in);
-  sprintf(tmpstr, "Peak IN %s/s|", return_value_show_bytes$1);
+  char *return_value_show_bytes_1;
+  return_value_show_bytes_1=show_bytes(net_max_in);
+  sprintf(tmpstr, "Peak IN %s/s|", return_value_show_bytes_1);
   strcat(tmpstr, "Peak OUT ");
-  char *return_value_show_bytes$2;
-  return_value_show_bytes$2=show_bytes(net_max_out);
-  strcat(tmpstr, return_value_show_bytes$2);
+  char *return_value_show_bytes_2;
+  return_value_show_bytes_2=show_bytes(net_max_out);
+  strcat(tmpstr, return_value_show_bytes_2);
   strcat(tmpstr, "/s");
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(tmpstr);
-  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen$3 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(tmpstr);
+  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen_3 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
 }
 
 // print_swap_info
@@ -3322,9 +3322,9 @@ void print_swap_info(struct g15canvas *canvas, char *tmpstr)
   struct _glibtop_swap swap;
   glibtop_get_swap(&swap);
   sprintf(tmpstr, "Swap Used %dMB | Swap Avail. %dMB", (unsigned int)(swap.used / (unsigned long int)(1024 * 1024)), (unsigned int)(swap.total / (unsigned long int)(1024 * 1024)));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(tmpstr);
-  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen$1 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(tmpstr);
+  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen_1 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
 }
 
 // print_sys_load_info
@@ -3345,9 +3345,9 @@ void print_sys_load_info(struct g15canvas *canvas, char *tmpstr)
     hours = (float)(signed int)hours - days * (float)24;
 
   sprintf(tmpstr, "LoadAVG %.2f %.2f %.2f | Uptime %.fd%.fh", loadavg.loadavg[(signed long int)0], loadavg.loadavg[(signed long int)1], loadavg.loadavg[(signed long int)2], days, hours);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(tmpstr);
-  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen$1 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(tmpstr);
+  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen_1 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
 }
 
 // print_time_info
@@ -3356,12 +3356,12 @@ void print_time_info(struct g15canvas *canvas, char *tmpstr)
 {
   signed long int now;
   time(&now);
-  char *return_value_ctime$1;
-  return_value_ctime$1=ctime(&now);
-  sprintf(tmpstr, "%s", return_value_ctime$1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(tmpstr);
-  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen$2 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
+  char *return_value_ctime_1;
+  return_value_ctime_1=ctime(&now);
+  sprintf(tmpstr, "%s", return_value_ctime_1);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(tmpstr);
+  g15r_renderString(canvas, (unsigned char *)tmpstr, 0, 0, (unsigned int)((unsigned long int)80 - (return_value_strlen_2 * (unsigned long int)4) / (unsigned long int)2), (unsigned int)37);
 }
 
 // print_vert_label
@@ -3377,9 +3377,9 @@ void print_vert_label_logic(struct g15canvas *canvas, char *label, unsigned int 
 {
   signed int i;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((char *)label);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((char *)label);
+  len = (signed int)return_value_strlen_1;
   if(len >= 6)
     len = 5;
 
@@ -3459,9 +3459,9 @@ char * show_bytes_short(unsigned long int bytes)
 // file g15stats.c line 174
 char * show_hertz(signed int hertz)
 {
-  char *return_value_show_hertz_logic$1;
-  return_value_show_hertz_logic$1=show_hertz_logic(hertz, "Hz");
-  return return_value_show_hertz_logic$1;
+  char *return_value_show_hertz_logic_1;
+  return_value_show_hertz_logic_1=show_hertz_logic(hertz, "Hz");
+  return return_value_show_hertz_logic_1;
 }
 
 // show_hertz_logic
@@ -3478,9 +3478,9 @@ char * show_hertz_logic(signed int hertz, char *hz)
 
     else
       sprintf(tmpstr, "%3iK", hertz);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((char *)hz);
-  if(return_value_strlen$1 >= 1ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((char *)hz);
+  if(return_value_strlen_1 >= 1ul)
     strcat(tmpstr, hz);
 
   return tmpstr;
@@ -3490,8 +3490,8 @@ char * show_hertz_logic(signed int hertz, char *hz)
 // file g15stats.c line 170
 char * show_hertz_short(signed int hertz)
 {
-  char *return_value_show_hertz_logic$1;
-  return_value_show_hertz_logic$1=show_hertz_logic(hertz, "");
-  return return_value_show_hertz_logic$1;
+  char *return_value_show_hertz_logic_1;
+  return_value_show_hertz_logic_1=show_hertz_logic(hertz, "");
+  return return_value_show_hertz_logic_1;
 }
 

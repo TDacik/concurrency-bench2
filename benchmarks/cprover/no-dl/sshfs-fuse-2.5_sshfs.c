@@ -1,36 +1,36 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
 union anonymous;
 
@@ -344,9 +344,9 @@ static inline signed int buf_get_data(struct buffer *buf, struct buffer *data);
 // buf_get_entries
 // file sshfs.c line 806
 static signed int buf_get_entries(struct buffer *buf, struct fuse_cache_dirhandle *h, signed int (*filler)(struct fuse_cache_dirhandle *, const char *, struct stat *));
-// buf_get_entries::filler$object
+// buf_get_entries::filler_object
 //
-signed int filler$object(struct fuse_cache_dirhandle *, const char *, struct stat *);
+signed int filler_object(struct fuse_cache_dirhandle *, const char *, struct stat *);
 // buf_get_mem
 // file sshfs.c line 635
 static inline signed int buf_get_mem(struct buffer *buf, void *data, unsigned long int len);
@@ -431,9 +431,9 @@ static signed int cache_getattr(const char *path, struct stat *stbuf);
 // cache_getdir
 // file cache.c line 302
 static signed int cache_getdir(const char *path, struct fuse_dirhandle *h, signed int (*filler)(struct fuse_dirhandle *, const char *, signed int, unsigned long int));
-// cache_getdir::filler$object
+// cache_getdir::filler_object
 //
-signed int filler$object(struct fuse_dirhandle *, const char *, signed int, unsigned long int);
+signed int filler_object(struct fuse_dirhandle *, const char *, signed int, unsigned long int);
 // cache_init
 // file cache.h line 25
 struct fuse_operations * cache_init(struct fuse_cache_operations *oper);
@@ -491,9 +491,9 @@ static void cache_unity_fill(struct fuse_cache_operations *oper, struct fuse_ope
 // cache_unity_getdir
 // file cache.c line 345
 static signed int cache_unity_getdir(const char *path, struct fuse_dirhandle *h, signed int (*filler)(struct fuse_dirhandle *, const char *, signed int, unsigned long int));
-// cache_unity_getdir::filler$object
+// cache_unity_getdir::filler_object
 //
-signed int filler$object(struct fuse_dirhandle *, const char *, signed int, unsigned long int);
+signed int filler_object(struct fuse_dirhandle *, const char *, signed int, unsigned long int);
 // cache_unlink
 // file cache.c line 370
 static signed int cache_unlink(const char *path);
@@ -856,13 +856,13 @@ static void * process_requests(void *data_);
 static signed int processing_init(void);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$4 *);
+extern signed int pthread_cond_broadcast(union anonymous_4 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$4 *, const union anonymous$3 *);
+extern signed int pthread_cond_init(union anonymous_4 *, const union anonymous_3 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$4 *, union anonymous$2 *);
+extern signed int pthread_cond_wait(union anonymous_4 *, union anonymous_2 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -871,16 +871,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_detach(unsigned long int);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$3 *);
+extern signed int pthread_mutex_init(union anonymous_2 *, const union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$0 *, struct anonymous$0 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_0 *, struct anonymous_0 *);
 // ptsname
 // file /usr/include/stdlib.h line 932
 extern char * ptsname(signed int);
@@ -902,9 +902,9 @@ extern signed long int read(signed int, void *, unsigned long int);
 // read_id_map
 // file sshfs.c line 3677
 static void read_id_map(char *file, unsigned int * (*map_fn)(char *), const char *name_id, struct _GHashTable **idmap, struct _GHashTable **r_idmap);
-// read_id_map::map_fn$object
+// read_id_map::map_fn_object
 //
-unsigned int * map_fn$object(char *);
+unsigned int * map_fn_object(char *);
 // read_password
 // file sshfs.c line 3463
 static signed int read_password(void);
@@ -922,16 +922,16 @@ static void request_free(struct request *req);
 static struct read_chunk * search_read_chunk(struct sshfs_file *sf, signed long int offset);
 // sem_destroy
 // file /usr/include/semaphore.h line 39
-extern signed int sem_destroy(union anonymous$1 *);
+extern signed int sem_destroy(union anonymous_1 *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$1 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_1 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$1 *);
+extern signed int sem_post(union anonymous_1 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$1 *);
+extern signed int sem_wait(union anonymous_1 *);
 // set_ssh_command
 // file sshfs.c line 3503
 static void set_ssh_command(void);
@@ -968,18 +968,18 @@ static signed int sftp_read(unsigned char *type, struct buffer *buf);
 // sftp_readdir_async
 // file sshfs.c line 2051
 static signed int sftp_readdir_async(struct buffer *handle, struct fuse_cache_dirhandle *h, signed int (*filler)(struct fuse_cache_dirhandle *, const char *, struct stat *));
-// sftp_readdir_async::filler$object
+// sftp_readdir_async::filler_object
 //
-signed int filler$object(struct fuse_cache_dirhandle *, const char *, struct stat *);
+signed int filler_object(struct fuse_cache_dirhandle *, const char *, struct stat *);
 // sftp_readdir_send
 // file sshfs.c line 2034
 static signed int sftp_readdir_send(struct request **req, struct buffer *handle);
 // sftp_readdir_sync
 // file sshfs.c line 2123
 static signed int sftp_readdir_sync(struct buffer *handle, struct fuse_cache_dirhandle *h, signed int (*filler)(struct fuse_cache_dirhandle *, const char *, struct stat *));
-// sftp_readdir_sync::filler$object
+// sftp_readdir_sync::filler_object
 //
-signed int filler$object(struct fuse_cache_dirhandle *, const char *, struct stat *);
+signed int filler_object(struct fuse_cache_dirhandle *, const char *, struct stat *);
 // sftp_request
 // file sshfs.c line 1909
 static signed int sftp_request(unsigned char type, struct buffer *buf, unsigned char expect_type, struct buffer *outbuf);
@@ -989,12 +989,12 @@ static signed int sftp_request_iov(unsigned char type, struct iovec *iov, unsign
 // sftp_request_send
 // file sshfs.c line 1828
 static signed int sftp_request_send(unsigned char type, struct iovec *iov, unsigned long int count, void (*begin_func)(struct request *), void (*end_func)(struct request *), signed int want_reply, void *data, struct request **reqp);
-// sftp_request_send::begin_func$object
+// sftp_request_send::begin_func_object
 //
-void begin_func$object(struct request *);
-// sftp_request_send::end_func$object
+void begin_func_object(struct request *);
+// sftp_request_send::end_func_object
 //
-void end_func$object(struct request *);
+void end_func_object(struct request *);
 // sftp_request_wait
 // file sshfs.c line 1762
 static signed int sftp_request_wait(struct request *req, unsigned char type, unsigned char expect_type, struct buffer *outbuf);
@@ -1003,10 +1003,10 @@ static signed int sftp_request_wait(struct request *req, unsigned char type, uns
 static signed int sftp_send_iov(unsigned char type, unsigned int id, struct iovec *iov, unsigned long int count);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$0 *, signed int);
+extern signed int sigaddset(struct anonymous_0 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$0 *);
+extern signed int sigemptyset(struct anonymous_0 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -1076,9 +1076,9 @@ static signed int sshfs_getattr(const char *path, struct stat *stbuf);
 // sshfs_getdir
 // file sshfs.c line 2141
 static signed int sshfs_getdir(const char *path, struct fuse_cache_dirhandle *h, signed int (*filler)(struct fuse_cache_dirhandle *, const char *, struct stat *));
-// sshfs_getdir::filler$object
+// sshfs_getdir::filler_object
 //
-signed int filler$object(struct fuse_cache_dirhandle *, const char *, struct stat *);
+signed int filler_object(struct fuse_cache_dirhandle *, const char *, struct stat *);
 // sshfs_inc_modifver
 // file sshfs.c line 2370
 static void sshfs_inc_modifver(void);
@@ -1269,13 +1269,13 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file /usr/include/x86_64-linux-gnu/sys/uio.h line 50
 extern signed long int writev(signed int, struct iovec *, signed int);
 
-struct anonymous$0
+struct anonymous_0
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __lock
   signed int __lock;
@@ -1295,7 +1295,7 @@ struct anonymous$5
   unsigned int __broadcast_seq;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1305,7 +1305,7 @@ union anonymous$7
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[32l];
@@ -1313,7 +1313,7 @@ union anonymous$1
   signed long int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __size
   char __size[4l];
@@ -1321,10 +1321,10 @@ union anonymous$3
   signed int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
-  struct anonymous$5 __data;
+  struct anonymous_5 __data;
   // __size
   char __size[48l];
   // __align
@@ -1359,7 +1359,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1369,7 +1369,7 @@ union anonymous$2
   signed long int __align;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1564,7 +1564,7 @@ struct cache
   // table
   struct _GHashTable *table;
   // lock
-  union anonymous$2 lock;
+  union anonymous_2 lock;
   // last_cleaned
   signed long int last_cleaned;
   // write_ctr
@@ -1818,7 +1818,7 @@ struct group
 struct in6_addr
 {
   // __in6_u
-  union anonymous$7 __in6_u;
+  union anonymous_7 __in6_u;
 };
 
 struct in_addr
@@ -1944,7 +1944,7 @@ struct sshfs_io
   // num_reqs
   signed int num_reqs;
   // finished
-  union anonymous$4 finished;
+  union anonymous_4 finished;
   // error
   signed int error;
 };
@@ -1992,7 +1992,7 @@ struct request
   // want_reply
   unsigned int want_reply;
   // ready
-  union anonymous$1 ready;
+  union anonymous_1 ready;
   // reply_type
   unsigned char reply_type;
   // id
@@ -2128,9 +2128,9 @@ struct sshfs
   // reqtab
   struct _GHashTable *reqtab;
   // lock
-  union anonymous$2 lock;
+  union anonymous_2 lock;
   // lock_write
-  union anonymous$2 lock_write;
+  union anonymous_2 lock_write;
   // processing_thread_started
   signed int processing_thread_started;
   // randseed
@@ -2164,7 +2164,7 @@ struct sshfs
   // max_outstanding_len
   unsigned int max_outstanding_len;
   // outstanding_cond
-  union anonymous$4 outstanding_cond;
+  union anonymous_4 outstanding_cond;
   // password_stdin
   signed int password_stdin;
   // password
@@ -2202,7 +2202,7 @@ struct sshfs_file
   // write_reqs
   struct list_head write_reqs;
   // write_finished
-  union anonymous$4 write_finished;
+  union anonymous_4 write_finished;
   // write_error
   signed int write_error;
   // readahead
@@ -2443,9 +2443,9 @@ static inline void buf_add_path(struct buffer *buf, const char *path)
   {
     if(!(path[1l] == 0))
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(sshfs.base_path);
-      if(!((signed int)sshfs.base_path[-1l + (signed long int)return_value_strlen$1] == 47))
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(sshfs.base_path);
+      if(!((signed int)sshfs.base_path[-1l + (signed long int)return_value_strlen_1] == 47))
         realpath=g_strdup_printf("%s/%s", sshfs.base_path, path + (signed long int)1);
 
       else
@@ -2560,18 +2560,18 @@ static signed int buf_get_attrs(struct buffer *buf, struct stat *stbuf, signed i
   unsigned int atime = (unsigned int)0;
   unsigned int mtime = (unsigned int)0;
   unsigned int mode = (unsigned int)(0100000 | 0777);
-  signed int return_value_buf_get_uint32$1;
-  return_value_buf_get_uint32$1=buf_get_uint32(buf, &flags);
-  signed int return_value_buf_get_uint64$2;
-  signed int return_value_buf_get_uint32$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_buf_get_uint32$4;
-  signed int return_value_buf_get_uint32$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_buf_get_uint32$8;
-  signed int return_value_translate_id$13;
-  signed int return_value_translate_id$14;
-  if(return_value_buf_get_uint32$1 == -1)
+  signed int return_value_buf_get_uint32_1;
+  return_value_buf_get_uint32_1=buf_get_uint32(buf, &flags);
+  signed int return_value_buf_get_uint64_2;
+  signed int return_value_buf_get_uint32_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_buf_get_uint32_4;
+  signed int return_value_buf_get_uint32_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_buf_get_uint32_8;
+  signed int return_value_translate_id_13;
+  signed int return_value_translate_id_14;
+  if(return_value_buf_get_uint32_1 == -1)
     return -5;
 
   else
@@ -2581,8 +2581,8 @@ static signed int buf_get_attrs(struct buffer *buf, struct stat *stbuf, signed i
 
     if(!((1u & flags) == 0u))
     {
-      return_value_buf_get_uint64$2=buf_get_uint64(buf, &size);
-      if(!(return_value_buf_get_uint64$2 == -1))
+      return_value_buf_get_uint64_2=buf_get_uint64(buf, &size);
+      if(!(return_value_buf_get_uint64_2 == -1))
         goto __CPROVER_DUMP_L3;
 
       return -5;
@@ -2595,16 +2595,16 @@ static signed int buf_get_attrs(struct buffer *buf, struct stat *stbuf, signed i
       ;
       if(!((2u & flags) == 0u))
       {
-        return_value_buf_get_uint32$3=buf_get_uint32(buf, &uid);
-        if(return_value_buf_get_uint32$3 == -1)
-          tmp_if_expr$5 = (_Bool)1;
+        return_value_buf_get_uint32_3=buf_get_uint32(buf, &uid);
+        if(return_value_buf_get_uint32_3 == -1)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value_buf_get_uint32$4=buf_get_uint32(buf, &gid);
-          tmp_if_expr$5 = return_value_buf_get_uint32$4 == -1 ? (_Bool)1 : (_Bool)0;
+          return_value_buf_get_uint32_4=buf_get_uint32(buf, &gid);
+          tmp_if_expr_5 = return_value_buf_get_uint32_4 == -1 ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$5)
+        if(!tmp_if_expr_5)
           goto __CPROVER_DUMP_L6;
 
         return -5;
@@ -2617,8 +2617,8 @@ static signed int buf_get_attrs(struct buffer *buf, struct stat *stbuf, signed i
         ;
         if(!((4u & flags) == 0u))
         {
-          return_value_buf_get_uint32$6=buf_get_uint32(buf, &mode);
-          if(!(return_value_buf_get_uint32$6 == -1))
+          return_value_buf_get_uint32_6=buf_get_uint32(buf, &mode);
+          if(!(return_value_buf_get_uint32_6 == -1))
             goto __CPROVER_DUMP_L7;
 
           return -5;
@@ -2631,17 +2631,17 @@ static signed int buf_get_attrs(struct buffer *buf, struct stat *stbuf, signed i
           ;
           if(!((8u & flags) == 0u))
           {
-            signed int return_value_buf_get_uint32$7;
-            return_value_buf_get_uint32$7=buf_get_uint32(buf, &atime);
-            if(return_value_buf_get_uint32$7 == -1)
-              tmp_if_expr$9 = (_Bool)1;
+            signed int return_value_buf_get_uint32_7;
+            return_value_buf_get_uint32_7=buf_get_uint32(buf, &atime);
+            if(return_value_buf_get_uint32_7 == -1)
+              tmp_if_expr_9 = (_Bool)1;
 
             else
             {
-              return_value_buf_get_uint32$8=buf_get_uint32(buf, &mtime);
-              tmp_if_expr$9 = return_value_buf_get_uint32$8 == -1 ? (_Bool)1 : (_Bool)0;
+              return_value_buf_get_uint32_8=buf_get_uint32(buf, &mtime);
+              tmp_if_expr_9 = return_value_buf_get_uint32_8 == -1 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$9)
+            if(tmp_if_expr_9)
               return -5;
 
           }
@@ -2650,24 +2650,24 @@ static signed int buf_get_attrs(struct buffer *buf, struct stat *stbuf, signed i
           {
             unsigned int extcount;
             unsigned int i;
-            signed int return_value_buf_get_uint32$10;
-            return_value_buf_get_uint32$10=buf_get_uint32(buf, &extcount);
-            if(return_value_buf_get_uint32$10 == -1)
+            signed int return_value_buf_get_uint32_10;
+            return_value_buf_get_uint32_10=buf_get_uint32(buf, &extcount);
+            if(return_value_buf_get_uint32_10 == -1)
               return -5;
 
             i = (unsigned int)0;
             for( ; !(i >= extcount); i = i + 1u)
             {
               struct buffer tmp;
-              signed int return_value_buf_get_data$11;
-              return_value_buf_get_data$11=buf_get_data(buf, &tmp);
-              if(return_value_buf_get_data$11 == -1)
+              signed int return_value_buf_get_data_11;
+              return_value_buf_get_data_11=buf_get_data(buf, &tmp);
+              if(return_value_buf_get_data_11 == -1)
                 return -5;
 
               buf_free(&tmp);
-              signed int return_value_buf_get_data$12;
-              return_value_buf_get_data$12=buf_get_data(buf, &tmp);
-              if(return_value_buf_get_data$12 == -1)
+              signed int return_value_buf_get_data_12;
+              return_value_buf_get_data_12=buf_get_data(buf, &tmp);
+              if(return_value_buf_get_data_12 == -1)
                 return -5;
 
               buf_free(&tmp);
@@ -2679,8 +2679,8 @@ static signed int buf_get_attrs(struct buffer *buf, struct stat *stbuf, signed i
 
           if(sshfs.idmap == 2 && !(sshfs.uid_map == ((struct _GHashTable *)NULL)))
           {
-            return_value_translate_id$13=translate_id(&uid, sshfs.uid_map);
-            if(!(return_value_translate_id$13 == -1))
+            return_value_translate_id_13=translate_id(&uid, sshfs.uid_map);
+            if(!(return_value_translate_id_13 == -1))
               goto __CPROVER_DUMP_L19;
 
             return -1;
@@ -2693,8 +2693,8 @@ static signed int buf_get_attrs(struct buffer *buf, struct stat *stbuf, signed i
             ;
             if(sshfs.idmap == 2 && !(sshfs.gid_map == ((struct _GHashTable *)NULL)))
             {
-              return_value_translate_id$14=translate_id(&gid, sshfs.gid_map);
-              if(!(return_value_translate_id$14 == -1))
+              return_value_translate_id_14=translate_id(&gid, sshfs.gid_map);
+              if(!(return_value_translate_id_14 == -1))
                 goto __CPROVER_DUMP_L20;
 
               return -1;
@@ -2734,24 +2734,24 @@ static signed int buf_get_attrs(struct buffer *buf, struct stat *stbuf, signed i
 static inline signed int buf_get_data(struct buffer *buf, struct buffer *data)
 {
   unsigned int len;
-  signed int return_value_buf_get_uint32$1;
-  return_value_buf_get_uint32$1=buf_get_uint32(buf, &len);
-  _Bool tmp_if_expr$2;
-  if(return_value_buf_get_uint32$1 == -1)
-    tmp_if_expr$2 = (_Bool)1;
+  signed int return_value_buf_get_uint32_1;
+  return_value_buf_get_uint32_1=buf_get_uint32(buf, &len);
+  _Bool tmp_if_expr_2;
+  if(return_value_buf_get_uint32_1 == -1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (unsigned long int)len > buf->size - buf->len ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (unsigned long int)len > buf->size - buf->len ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return -1;
 
   else
   {
     buf_init(data, (unsigned long int)(len + (unsigned int)1));
     data->size = (unsigned long int)len;
-    signed int return_value_buf_get_mem$3;
-    return_value_buf_get_mem$3=buf_get_mem(buf, (void *)data->p, data->size);
-    if(return_value_buf_get_mem$3 == -1)
+    signed int return_value_buf_get_mem_3;
+    return_value_buf_get_mem_3=buf_get_mem(buf, (void *)data->p, data->size);
+    if(return_value_buf_get_mem_3 == -1)
     {
       buf_free(data);
       return -1;
@@ -2768,9 +2768,9 @@ static signed int buf_get_entries(struct buffer *buf, struct fuse_cache_dirhandl
 {
   unsigned int count;
   unsigned int i;
-  signed int return_value_buf_get_uint32$1;
-  return_value_buf_get_uint32$1=buf_get_uint32(buf, &count);
-  if(return_value_buf_get_uint32$1 == -1)
+  signed int return_value_buf_get_uint32_1;
+  return_value_buf_get_uint32_1=buf_get_uint32(buf, &count);
+  if(return_value_buf_get_uint32_1 == -1)
     return -5;
 
   else
@@ -2782,14 +2782,14 @@ static signed int buf_get_entries(struct buffer *buf, struct fuse_cache_dirhandl
       char *name;
       char *longname;
       struct stat stbuf;
-      signed int return_value_buf_get_string$2;
-      return_value_buf_get_string$2=buf_get_string(buf, &name);
-      if(return_value_buf_get_string$2 == -1)
+      signed int return_value_buf_get_string_2;
+      return_value_buf_get_string_2=buf_get_string(buf, &name);
+      if(return_value_buf_get_string_2 == -1)
         return -5;
 
-      signed int return_value_buf_get_string$3;
-      return_value_buf_get_string$3=buf_get_string(buf, &longname);
-      if(!(return_value_buf_get_string$3 == -1))
+      signed int return_value_buf_get_string_3;
+      return_value_buf_get_string_3=buf_get_string(buf, &longname);
+      if(!(return_value_buf_get_string_3 == -1))
       {
         free((void *)longname);
         err=buf_get_attrs(buf, &stbuf, (signed int *)(void *)0);
@@ -2816,9 +2816,9 @@ static signed int buf_get_entries(struct buffer *buf, struct fuse_cache_dirhandl
 // file sshfs.c line 635
 static inline signed int buf_get_mem(struct buffer *buf, void *data, unsigned long int len)
 {
-  signed int return_value_buf_check_get$1;
-  return_value_buf_check_get$1=buf_check_get(buf, len);
-  if(return_value_buf_check_get$1 == -1)
+  signed int return_value_buf_check_get_1;
+  return_value_buf_check_get_1=buf_check_get(buf, len);
+  if(return_value_buf_check_get_1 == -1)
     return -1;
 
   else
@@ -2844,109 +2844,109 @@ static signed int buf_get_statvfs(struct buffer *buf, struct statvfs *stbuf)
   unsigned long int fsid;
   unsigned long int flag;
   unsigned long int namemax;
-  signed int return_value_buf_get_uint64$1;
-  return_value_buf_get_uint64$1=buf_get_uint64(buf, &bsize);
-  _Bool tmp_if_expr$3;
-  signed int return_value_buf_get_uint64$2;
-  if(return_value_buf_get_uint64$1 == -1)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_buf_get_uint64_1;
+  return_value_buf_get_uint64_1=buf_get_uint64(buf, &bsize);
+  _Bool tmp_if_expr_3;
+  signed int return_value_buf_get_uint64_2;
+  if(return_value_buf_get_uint64_1 == -1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint64$2=buf_get_uint64(buf, &frsize);
-    tmp_if_expr$3 = return_value_buf_get_uint64$2 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint64_2=buf_get_uint64(buf, &frsize);
+    tmp_if_expr_3 = return_value_buf_get_uint64_2 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_buf_get_uint64$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_buf_get_uint64_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint64$4=buf_get_uint64(buf, &blocks);
-    tmp_if_expr$5 = return_value_buf_get_uint64$4 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint64_4=buf_get_uint64(buf, &blocks);
+    tmp_if_expr_5 = return_value_buf_get_uint64_4 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_buf_get_uint64$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_buf_get_uint64_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint64$6=buf_get_uint64(buf, &bfree);
-    tmp_if_expr$7 = return_value_buf_get_uint64$6 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint64_6=buf_get_uint64(buf, &bfree);
+    tmp_if_expr_7 = return_value_buf_get_uint64_6 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_buf_get_uint64$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed int return_value_buf_get_uint64_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint64$8=buf_get_uint64(buf, &bavail);
-    tmp_if_expr$9 = return_value_buf_get_uint64$8 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint64_8=buf_get_uint64(buf, &bavail);
+    tmp_if_expr_9 = return_value_buf_get_uint64_8 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed int return_value_buf_get_uint64$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed int return_value_buf_get_uint64_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint64$10=buf_get_uint64(buf, &files);
-    tmp_if_expr$11 = return_value_buf_get_uint64$10 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint64_10=buf_get_uint64(buf, &files);
+    tmp_if_expr_11 = return_value_buf_get_uint64_10 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed int return_value_buf_get_uint64$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed int return_value_buf_get_uint64_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint64$12=buf_get_uint64(buf, &ffree);
-    tmp_if_expr$13 = return_value_buf_get_uint64$12 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint64_12=buf_get_uint64(buf, &ffree);
+    tmp_if_expr_13 = return_value_buf_get_uint64_12 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed int return_value_buf_get_uint64$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed int return_value_buf_get_uint64_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint64$14=buf_get_uint64(buf, &favail);
-    tmp_if_expr$15 = return_value_buf_get_uint64$14 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint64_14=buf_get_uint64(buf, &favail);
+    tmp_if_expr_15 = return_value_buf_get_uint64_14 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed int return_value_buf_get_uint64$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed int return_value_buf_get_uint64_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint64$16=buf_get_uint64(buf, &fsid);
-    tmp_if_expr$17 = return_value_buf_get_uint64$16 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint64_16=buf_get_uint64(buf, &fsid);
+    tmp_if_expr_17 = return_value_buf_get_uint64_16 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed int return_value_buf_get_uint64$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed int return_value_buf_get_uint64_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint64$18=buf_get_uint64(buf, &flag);
-    tmp_if_expr$19 = return_value_buf_get_uint64$18 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint64_18=buf_get_uint64(buf, &flag);
+    tmp_if_expr_19 = return_value_buf_get_uint64_18 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed int return_value_buf_get_uint64$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed int return_value_buf_get_uint64_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint64$20=buf_get_uint64(buf, &namemax);
-    tmp_if_expr$21 = return_value_buf_get_uint64$20 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint64_20=buf_get_uint64(buf, &namemax);
+    tmp_if_expr_21 = return_value_buf_get_uint64_20 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$21)
+  if(tmp_if_expr_21)
     return -1;
 
   else
@@ -2970,9 +2970,9 @@ static signed int buf_get_statvfs(struct buffer *buf, struct statvfs *stbuf)
 static inline signed int buf_get_string(struct buffer *buf, char **str)
 {
   struct buffer data;
-  signed int return_value_buf_get_data$1;
-  return_value_buf_get_data$1=buf_get_data(buf, &data);
-  if(return_value_buf_get_data$1 == -1)
+  signed int return_value_buf_get_data_1;
+  return_value_buf_get_data_1=buf_get_data(buf, &data);
+  if(return_value_buf_get_data_1 == -1)
     return -1;
 
   else
@@ -2988,9 +2988,9 @@ static inline signed int buf_get_string(struct buffer *buf, char **str)
 static inline signed int buf_get_uint32(struct buffer *buf, unsigned int *val)
 {
   unsigned int nval;
-  signed int return_value_buf_get_mem$1;
-  return_value_buf_get_mem$1=buf_get_mem(buf, (void *)&nval, (unsigned long int)4);
-  if(return_value_buf_get_mem$1 == -1)
+  signed int return_value_buf_get_mem_1;
+  return_value_buf_get_mem_1=buf_get_mem(buf, (void *)&nval, (unsigned long int)4);
+  if(return_value_buf_get_mem_1 == -1)
     return -1;
 
   else
@@ -3006,19 +3006,19 @@ static inline signed int buf_get_uint64(struct buffer *buf, unsigned long int *v
 {
   unsigned int val1;
   unsigned int val2;
-  signed int return_value_buf_get_uint32$1;
-  return_value_buf_get_uint32$1=buf_get_uint32(buf, &val1);
-  _Bool tmp_if_expr$3;
-  signed int return_value_buf_get_uint32$2;
-  if(return_value_buf_get_uint32$1 == -1)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_buf_get_uint32_1;
+  return_value_buf_get_uint32_1=buf_get_uint32(buf, &val1);
+  _Bool tmp_if_expr_3;
+  signed int return_value_buf_get_uint32_2;
+  if(return_value_buf_get_uint32_1 == -1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_buf_get_uint32$2=buf_get_uint32(buf, &val2);
-    tmp_if_expr$3 = return_value_buf_get_uint32$2 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_buf_get_uint32_2=buf_get_uint32(buf, &val2);
+    tmp_if_expr_3 = return_value_buf_get_uint32_2 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     return -1;
 
   else
@@ -3032,9 +3032,9 @@ static inline signed int buf_get_uint64(struct buffer *buf, unsigned long int *v
 // file sshfs.c line 644
 static inline signed int buf_get_uint8(struct buffer *buf, unsigned char *val)
 {
-  signed int return_value_buf_get_mem$1;
-  return_value_buf_get_mem$1=buf_get_mem(buf, (void *)val, (unsigned long int)1);
-  return return_value_buf_get_mem$1;
+  signed int return_value_buf_get_mem_1;
+  return_value_buf_get_mem_1=buf_get_mem(buf, (void *)val, (unsigned long int)1);
+  return return_value_buf_get_mem_1;
 }
 
 // buf_init
@@ -3043,9 +3043,9 @@ static inline void buf_init(struct buffer *buf, unsigned long int size)
 {
   if(!(size == 0ul))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size);
-    buf->p = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size);
+    buf->p = (unsigned char *)return_value_malloc_1;
     if(buf->p == ((unsigned char *)NULL))
     {
       fprintf(stderr, "sshfs: memory allocation failed\n");
@@ -3065,9 +3065,9 @@ static inline void buf_init(struct buffer *buf, unsigned long int size)
 static void buf_resize(struct buffer *buf, unsigned long int len)
 {
   buf->size = buf->len + len + (unsigned long int)63 & (unsigned long int)~31;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)buf->p, buf->size);
-  buf->p = (unsigned char *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)buf->p, buf->size);
+  buf->p = (unsigned char *)return_value_realloc_1;
   if(buf->p == ((unsigned char *)NULL))
   {
     fprintf(stderr, "sshfs: memory allocation failed\n");
@@ -3096,9 +3096,9 @@ void cache_add_attr(const char *path, struct stat *stbuf, unsigned long int wrct
     {
       node=cache_get(path);
       node->stat = *stbuf;
-      signed long int return_value_time$1;
-      return_value_time$1=time((signed long int *)(void *)0);
-      node->stat_valid = return_value_time$1 + (signed long int)cache.stat_timeout;
+      signed long int return_value_time_1;
+      return_value_time_1=time((signed long int *)(void *)0);
+      node->stat_valid = return_value_time_1 + (signed long int)cache.stat_timeout;
       if(!(node->valid >= node->stat_valid))
         node->valid = node->stat_valid;
 
@@ -3119,9 +3119,9 @@ static void cache_add_dir(const char *path, char **dir)
   node=cache_get(path);
   g_strfreev(node->dir);
   node->dir = dir;
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  node->dir_valid = return_value_time$1 + (signed long int)cache.dir_timeout;
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  node->dir_valid = return_value_time_1 + (signed long int)cache.dir_timeout;
   if(!(node->valid >= node->dir_valid))
     node->valid = node->dir_valid;
 
@@ -3137,12 +3137,12 @@ static void cache_add_link(const char *path, const char *link, unsigned long int
   pthread_mutex_lock(&cache.lock);
   node=cache_get(path);
   g_free((void *)node->link);
-  unsigned long int return_value_my_strnlen$1;
-  return_value_my_strnlen$1=my_strnlen(link, size - (unsigned long int)1);
-  node->link=g_strndup(link, return_value_my_strnlen$1);
-  signed long int return_value_time$2;
-  return_value_time$2=time((signed long int *)(void *)0);
-  node->link_valid = return_value_time$2 + (signed long int)cache.link_timeout;
+  unsigned long int return_value_my_strnlen_1;
+  return_value_my_strnlen_1=my_strnlen(link, size - (unsigned long int)1);
+  node->link=g_strndup(link, return_value_my_strnlen_1);
+  signed long int return_value_time_2;
+  return_value_time_2=time((signed long int *)(void *)0);
+  node->link_valid = return_value_time_2 + (signed long int)cache.link_timeout;
   if(!(node->valid >= node->link_valid))
     node->valid = node->link_valid;
 
@@ -3180,11 +3180,11 @@ static void cache_clean(void)
 {
   signed long int now;
   now=time((signed long int *)(void *)0);
-  unsigned int return_value_g_hash_table_size$1;
+  unsigned int return_value_g_hash_table_size_1;
   if(!(5l + cache.last_cleaned >= now))
   {
-    return_value_g_hash_table_size$1=g_hash_table_size(cache.table);
-    if(return_value_g_hash_table_size$1 >= 10001u || !(60l + cache.last_cleaned >= now))
+    return_value_g_hash_table_size_1=g_hash_table_size(cache.table);
+    if(return_value_g_hash_table_size_1 >= 10001u || !(60l + cache.last_cleaned >= now))
     {
       g_hash_table_foreach_remove(cache.table, (signed int (*)(void *, void *, void *))cache_clean_entry, (void *)&now);
       cache.last_cleaned = now;
@@ -3223,11 +3223,11 @@ static signed int cache_create(const char *path, unsigned int mode, struct fuse_
 static signed int cache_del_children(const char *key, void *val_, const char *path)
 {
   (void)val_;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(key, path, return_value_strlen$1);
-  if(return_value_strncmp$2 == 0)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(key, path, return_value_strlen_1);
+  if(return_value_strncmp_2 == 0)
     return (signed int)!(0 != 0);
 
   else
@@ -3240,22 +3240,22 @@ static signed int cache_dirfill(struct fuse_cache_dirhandle *ch, const char *nam
 {
   signed int err;
   err=ch->filler(ch->h, name, 0, (unsigned long int)0);
-  char *tmp_if_expr$2;
+  char *tmp_if_expr_2;
   if(err == 0)
   {
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup(name);
-    g_ptr_array_add(ch->dir, (void *)return_value_g_strdup$1);
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup(name);
+    g_ptr_array_add(ch->dir, (void *)return_value_g_strdup_1);
     if(!((61440u & stbuf->st_mode) == 0u))
     {
       char *fullpath;
       const char *basepath;
       if(ch->path[1l] == 0)
-        tmp_if_expr$2 = "";
+        tmp_if_expr_2 = "";
 
       else
-        tmp_if_expr$2 = ch->path;
-      basepath = tmp_if_expr$2;
+        tmp_if_expr_2 = ch->path;
+      basepath = tmp_if_expr_2;
       fullpath=g_strdup_printf("%s/%s", basepath, name);
       cache_add_attr(fullpath, stbuf, ch->wrctr);
       g_free((void *)fullpath);
@@ -3344,9 +3344,9 @@ static struct node * cache_get(const char *path)
   {
     char *pathcopy;
     pathcopy=g_strdup(path);
-    void *return_value_g_malloc0_n$1;
-    return_value_g_malloc0_n$1=g_malloc0_n((unsigned long int)1, sizeof(struct node) /*192ul*/ );
-    node = (struct node *)return_value_g_malloc0_n$1;
+    void *return_value_g_malloc0_n_1;
+    return_value_g_malloc0_n_1=g_malloc0_n((unsigned long int)1, sizeof(struct node) /*192ul*/ );
+    node = (struct node *)return_value_g_malloc0_n_1;
     g_hash_table_insert(cache.table, (void *)pathcopy, (void *)node);
   }
 
@@ -3468,7 +3468,7 @@ struct fuse_operations * cache_init(struct fuse_cache_operations *oper)
   if(!(cache.on == 0))
   {
     cache_fill(oper, &cache_oper);
-    pthread_mutex_init(&cache.lock, (const union anonymous$3 *)(void *)0);
+    pthread_mutex_init(&cache.lock, (const union anonymous_3 *)(void *)0);
     cache.table=g_hash_table_new_full(g_str_hash, g_str_equal, g_free, free_node);
     if(!(cache.table == ((struct _GHashTable *)NULL)))
       goto __CPROVER_DUMP_L1;
@@ -3538,9 +3538,9 @@ static signed int cache_link(const char *from, const char *to)
 // file cache.c line 82
 static struct node * cache_lookup(const char *path)
 {
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(cache.table, (const void *)path);
-  return (struct node *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(cache.table, (const void *)path);
+  return (struct node *)return_value_g_hash_table_lookup_1;
 }
 
 // cache_mkdir
@@ -3575,9 +3575,9 @@ signed int cache_parse_options(struct fuse_args *args)
   cache.dir_timeout = (unsigned int)20;
   cache.link_timeout = (unsigned int)20;
   cache.on = 1;
-  signed int return_value_fuse_opt_parse$1;
-  return_value_fuse_opt_parse$1=fuse_opt_parse(args, (void *)&cache, cache_opts, (signed int (*)(void *, const char *, signed int, struct fuse_args *))(void *)0);
-  return return_value_fuse_opt_parse$1;
+  signed int return_value_fuse_opt_parse_1;
+  return_value_fuse_opt_parse_1=fuse_opt_parse(args, (void *)&cache, cache_opts, (signed int (*)(void *, const char *, signed int, struct fuse_args *))(void *)0);
+  return return_value_fuse_opt_parse_1;
 }
 
 // cache_purge
@@ -3794,15 +3794,15 @@ static void check_large_read(struct fuse_args *args)
   struct utsname buf;
   signed int err;
   err=uname(&buf);
-  signed int return_value_strcmp$2;
-  signed int return_value_strncmp$1;
+  signed int return_value_strcmp_2;
+  signed int return_value_strncmp_1;
   if(err == 0)
   {
-    return_value_strcmp$2=strcmp(buf.sysname, "Linux");
-    if(return_value_strcmp$2 == 0)
+    return_value_strcmp_2=strcmp(buf.sysname, "Linux");
+    if(return_value_strcmp_2 == 0)
     {
-      return_value_strncmp$1=strncmp(buf.release, "2.4.", (unsigned long int)4);
-      if(return_value_strncmp$1 == 0)
+      return_value_strncmp_1=strncmp(buf.release, "2.4.", (unsigned long int)4);
+      if(return_value_strncmp_1 == 0)
         fuse_opt_insert_arg(args, 1, "-olarge_read");
 
     }
@@ -3815,18 +3815,18 @@ static void check_large_read(struct fuse_args *args)
 // file sshfs.c line 1277
 static void chunk_free(struct read_chunk *chunk)
 {
-  signed int return_value_list_empty$1;
-  struct read_req *tmp_statement_expression$2;
+  signed int return_value_list_empty_1;
+  struct read_req *tmp_statement_expression_2;
   do
   {
-    return_value_list_empty$1=list_empty(&chunk->reqs);
-    if(!(return_value_list_empty$1 == 0))
+    return_value_list_empty_1=list_empty(&chunk->reqs);
+    if(!(return_value_list_empty_1 == 0))
       break;
 
     struct read_req *rreq;
     const struct list_head *__mptr = chunk->reqs.prev;
-    tmp_statement_expression$2 = (struct read_req *)((char *)__mptr - (signed long int)8ul);
-    rreq = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct read_req *)((char *)__mptr - (signed long int)8ul);
+    rreq = tmp_statement_expression_2;
     list_del(&rreq->list);
     buf_free(&rreq->data);
     g_free((void *)rreq);
@@ -3950,9 +3950,9 @@ static signed int connect_to(char *host, char *port)
   err=getaddrinfo(host, port, &hint, &ai);
   if(!(err == 0))
   {
-    const char *return_value_gai_strerror$1;
-    return_value_gai_strerror$1=gai_strerror(err);
-    fprintf(stderr, "failed to resolve %s:%s: %s\n", host, port, return_value_gai_strerror$1);
+    const char *return_value_gai_strerror_1;
+    return_value_gai_strerror_1=gai_strerror(err);
+    fprintf(stderr, "failed to resolve %s:%s: %s\n", host, port, return_value_gai_strerror_1);
     return -1;
   }
 
@@ -3995,17 +3995,17 @@ static signed int count_components(const char *p)
   for( ; (signed int)*p == 47; p = p + 1l)
     ;
   ctr = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(*p == 0); ctr = ctr + 1)
   {
     do
     {
       if(!(*p == 0))
-        tmp_if_expr$1 = (signed int)*p != 47 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)*p != 47 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       p = p + 1l;
@@ -4026,9 +4026,9 @@ static signed int do_read(struct buffer *buf)
   unsigned long int size = buf->size;
   while(!(size == 0ul))
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(sshfs.rfd, (void *)p, size);
-    res = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(sshfs.rfd, (void *)p, size);
+    res = (signed int)return_value_read_1;
     if(res == -1)
     {
       perror("read");
@@ -4055,9 +4055,9 @@ static signed int do_write(struct iovec *iov, unsigned long int count)
   signed int res;
   while(!(count == 0ul))
   {
-    signed long int return_value_writev$1;
-    return_value_writev$1=writev(sshfs.wfd, iov, (signed int)count);
-    res = (signed int)return_value_writev$1;
+    signed long int return_value_writev_1;
+    return_value_writev_1=writev(sshfs.wfd, iov, (signed int)count);
+    res = (signed int)return_value_writev_1;
     if(res == -1)
     {
       perror("write");
@@ -4103,17 +4103,17 @@ static char * find_base_path(void)
 {
   char *s = sshfs.host;
   char *d = s;
-  _Bool tmp_if_expr$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
+  _Bool tmp_if_expr_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
   do
   {
     if(!(*s == 0))
-      tmp_if_expr$1 = (signed int)*s != 58 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*s != 58 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if((signed int)*s == 91)
@@ -4127,24 +4127,24 @@ static char * find_base_path(void)
           exit(1);
         }
 
-        tmp_post$2 = d;
+        tmp_post_2 = d;
         d = d + 1l;
-        *tmp_post$2 = *s;
+        *tmp_post_2 = *s;
       }
     }
 
     else
     {
-      tmp_post$3 = d;
+      tmp_post_3 = d;
       d = d + 1l;
-      *tmp_post$3 = *s;
+      *tmp_post_3 = *s;
     }
     s = s + 1l;
   }
   while((_Bool)1);
-  char *tmp_post$4 = d;
+  char *tmp_post_4 = d;
   d = d + 1l;
-  *tmp_post$4 = (char)0;
+  *tmp_post_4 = (char)0;
   s = s + 1l;
   return s;
 }
@@ -4163,33 +4163,33 @@ static void free_node(void *node_)
 static char * fsname_escape_commas(char *fsnameold)
 {
   char *fsname;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(fsnameold);
-  void *return_value_g_malloc$2;
-  return_value_g_malloc$2=g_malloc(return_value_strlen$1 * (unsigned long int)2 + (unsigned long int)1);
-  fsname = (char *)return_value_g_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(fsnameold);
+  void *return_value_g_malloc_2;
+  return_value_g_malloc_2=g_malloc(return_value_strlen_1 * (unsigned long int)2 + (unsigned long int)1);
+  fsname = (char *)return_value_g_malloc_2;
   char *d = fsname;
   char *s = fsnameold;
-  _Bool tmp_if_expr$4;
-  char *tmp_post$3;
-  char *tmp_post$5;
+  _Bool tmp_if_expr_4;
+  char *tmp_post_3;
+  char *tmp_post_5;
   for( ; !(*s == 0); s = s + 1l)
   {
     if((signed int)*s == 92)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*s == 44 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*s == 44 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      tmp_post$3 = d;
+      tmp_post_3 = d;
       d = d + 1l;
-      *tmp_post$3 = (char)92;
+      *tmp_post_3 = (char)92;
     }
 
-    tmp_post$5 = d;
+    tmp_post_5 = d;
     d = d + 1l;
-    *tmp_post$5 = *s;
+    *tmp_post_5 = *s;
   }
   *d = (char)0;
   g_free((void *)fsnameold);
@@ -4200,19 +4200,19 @@ static char * fsname_escape_commas(char *fsnameold)
 // file sshfs.c line 3573
 static void fsname_remove_commas(char *fsname)
 {
-  char *return_value_strchr$2;
-  return_value_strchr$2=strchr(fsname, 44);
-  char *tmp_post$1;
-  if(!(return_value_strchr$2 == ((char *)NULL)))
+  char *return_value_strchr_2;
+  return_value_strchr_2=strchr(fsname, 44);
+  char *tmp_post_1;
+  if(!(return_value_strchr_2 == ((char *)NULL)))
   {
     char *s = fsname;
     char *d = s;
     for( ; !(*s == 0); s = s + 1l)
       if(!((signed int)*s == 44))
       {
-        tmp_post$1 = d;
+        tmp_post_1 = d;
         d = d + 1l;
-        *tmp_post$1 = *s;
+        *tmp_post_1 = *s;
       }
 
     *d = *s;
@@ -4231,30 +4231,30 @@ static inline struct sshfs_file * get_sshfs_file(struct fuse_file_info *fi)
 // file sshfs.c line 3769
 static unsigned int * groupname_to_gid(char *name)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   struct group *gr;
   gr=getgrnam(name);
   if(gr == ((struct group *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 0)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 0)
       return (unsigned int *)(void *)0;
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "Failed to look up group '%s': %s\n", name, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "Failed to look up group '%s': %s\n", name, return_value_strerror_4);
     exit(1);
   }
 
   unsigned int *r;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(unsigned int) /*4ul*/ );
-  r = (unsigned int *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(unsigned int) /*4ul*/ );
+  r = (unsigned int *)return_value_malloc_5;
   if(r == ((unsigned int *)NULL))
   {
     fprintf(stderr, "sshfs: memory allocation failed\n");
@@ -4281,26 +4281,26 @@ static unsigned long int iov_length(struct iovec *iov, unsigned long int nr_segs
 // file sshfs.c line 3322
 static signed int is_ssh_opt(const char *arg)
 {
-  signed int return_value_strncasecmp$3;
+  signed int return_value_strncasecmp_3;
   if(!((signed int)*arg == 45))
   {
     unsigned int arglen;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(arg);
-    arglen = (unsigned int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(arg);
+    arglen = (unsigned int)return_value_strlen_1;
     const char **o = ssh_opts;
     for( ; !(*o == ((const char *)NULL)); o = o + 1l)
     {
       unsigned int olen;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(*o);
-      olen = (unsigned int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(*o);
+      olen = (unsigned int)return_value_strlen_2;
       if(!(olen >= arglen))
       {
         if((signed int)arg[(signed long int)olen] == 61)
         {
-          return_value_strncasecmp$3=strncasecmp(arg, *o, (unsigned long int)olen);
-          if(return_value_strncasecmp$3 == 0)
+          return_value_strncasecmp_3=strncasecmp(arg, *o, (unsigned long int)olen);
+          if(return_value_strncasecmp_3 == 0)
             return 1;
 
         }
@@ -4398,19 +4398,19 @@ signed int main(signed int argc, char **argv)
   ssh_add_arg("-x");
   ssh_add_arg("-a");
   ssh_add_arg("-oClearAllForwardings=yes");
-  signed int return_value_fuse_opt_parse$1;
-  return_value_fuse_opt_parse$1=fuse_opt_parse(&args, (void *)&sshfs, sshfs_opts, sshfs_opt_proc);
-  _Bool tmp_if_expr$3;
-  signed int return_value_parse_workarounds$2;
-  if(return_value_fuse_opt_parse$1 == -1)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_fuse_opt_parse_1;
+  return_value_fuse_opt_parse_1=fuse_opt_parse(&args, (void *)&sshfs, sshfs_opts, sshfs_opt_proc);
+  _Bool tmp_if_expr_3;
+  signed int return_value_parse_workarounds_2;
+  if(return_value_fuse_opt_parse_1 == -1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_parse_workarounds$2=parse_workarounds();
-    tmp_if_expr$3 = return_value_parse_workarounds$2 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_parse_workarounds_2=parse_workarounds();
+    tmp_if_expr_3 = return_value_parse_workarounds_2 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     exit(1);
 
   if(sshfs.idmap == 1)
@@ -4474,9 +4474,9 @@ signed int main(signed int argc, char **argv)
   }
 
   fsname=g_strdup(sshfs.host);
-  char *return_value_find_base_path$4;
-  return_value_find_base_path$4=find_base_path();
-  sshfs.base_path=g_strdup(return_value_find_base_path$4);
+  char *return_value_find_base_path_4;
+  return_value_find_base_path_4=find_base_path();
+  sshfs.base_path=g_strdup(return_value_find_base_path_4);
   if(!(sshfs.ssh_command == ((char *)NULL)))
     set_ssh_command();
 
@@ -4493,11 +4493,11 @@ signed int main(signed int argc, char **argv)
 
     else
       sftp_server = "sftp";
-  char *return_value_strchr$5;
+  char *return_value_strchr_5;
   if(!(sshfs.ssh_ver == 1u))
   {
-    return_value_strchr$5=strchr(sftp_server, 47);
-    if(return_value_strchr$5 == ((char *)NULL))
+    return_value_strchr_5=strchr(sftp_server, 47);
+    if(return_value_strchr_5 == ((char *)NULL))
       ssh_add_arg("-s");
 
   }
@@ -4508,18 +4508,18 @@ signed int main(signed int argc, char **argv)
   if(res == -1)
     exit(1);
 
-  signed long int return_value_time$6;
-  return_value_time$6=time(((signed long int *)NULL));
-  sshfs.randseed = (unsigned int)return_value_time$6;
+  signed long int return_value_time_6;
+  return_value_time_6=time(((signed long int *)NULL));
+  sshfs.randseed = (unsigned int)return_value_time_6;
   if(sshfs.max_read >= 65537u)
     sshfs.max_read = (unsigned int)65536;
 
   if(sshfs.max_write >= 65537u)
     sshfs.max_write = (unsigned int)65536;
 
-  signed int return_value_fuse_is_lib_option$7;
-  return_value_fuse_is_lib_option$7=fuse_is_lib_option("ac_attr_timeout=");
-  if(!(return_value_fuse_is_lib_option$7 == 0))
+  signed int return_value_fuse_is_lib_option_7;
+  return_value_fuse_is_lib_option_7=fuse_is_lib_option("ac_attr_timeout=");
+  if(!(return_value_fuse_is_lib_option_7 == 0))
     fuse_opt_insert_arg(&args, 1, "-oauto_cache,ac_attr_timeout=0");
 
   libver=fuse_version();
@@ -4560,15 +4560,15 @@ signed int main(signed int argc, char **argv)
   if(ch == ((struct fuse_chan *)NULL))
     exit(1);
 
-  signed int return_value_fuse_chan_fd$8;
-  return_value_fuse_chan_fd$8=fuse_chan_fd(ch);
-  res=fcntl(return_value_fuse_chan_fd$8, 2, 1);
+  signed int return_value_fuse_chan_fd_8;
+  return_value_fuse_chan_fd_8=fuse_chan_fd(ch);
+  res=fcntl(return_value_fuse_chan_fd_8, 2, 1);
   if(res == -1)
     perror("WARNING: failed to set FD_CLOEXEC on fuse device");
 
-  struct fuse_operations *return_value_cache_init$9;
-  return_value_cache_init$9=cache_init(&sshfs_oper);
-  fuse=fuse_new(ch, &args, return_value_cache_init$9, sizeof(struct fuse_operations) /*360ul*/ , (void *)0);
+  struct fuse_operations *return_value_cache_init_9;
+  return_value_cache_init_9=cache_init(&sshfs_oper);
+  fuse=fuse_new(ch, &args, return_value_cache_init_9, sizeof(struct fuse_operations) /*360ul*/ , (void *)0);
   if(fuse == ((struct fuse *)NULL))
   {
     fuse_unmount(mountpoint, ch);
@@ -4584,11 +4584,11 @@ signed int main(signed int argc, char **argv)
   }
 
   res=fuse_daemonize(foreground);
-  struct fuse_session *return_value_fuse_get_session$10;
+  struct fuse_session *return_value_fuse_get_session_10;
   if(!(res == -1))
   {
-    return_value_fuse_get_session$10=fuse_get_session(fuse);
-    res=fuse_set_signal_handlers(return_value_fuse_get_session$10);
+    return_value_fuse_get_session_10=fuse_get_session(fuse);
+    res=fuse_set_signal_handlers(return_value_fuse_get_session_10);
   }
 
   if(res == -1)
@@ -4608,9 +4608,9 @@ signed int main(signed int argc, char **argv)
 
   else
     res = 0;
-  struct fuse_session *return_value_fuse_get_session$11;
-  return_value_fuse_get_session$11=fuse_get_session(fuse);
-  fuse_remove_signal_handlers(return_value_fuse_get_session$11);
+  struct fuse_session *return_value_fuse_get_session_11;
+  return_value_fuse_get_session_11=fuse_get_session(fuse);
+  fuse_remove_signal_handlers(return_value_fuse_get_session_11);
   fuse_unmount(mountpoint, ch);
   fuse_destroy(fuse);
   free((void *)mountpoint);
@@ -4638,15 +4638,15 @@ signed int main(signed int argc, char **argv)
 static unsigned long int my_strnlen(const char *s, unsigned long int maxsize)
 {
   const char *p = s;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(maxsize == 0ul))
-      tmp_if_expr$1 = *p != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *p != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     maxsize = maxsize - 1ul;
@@ -4705,22 +4705,22 @@ static void parse_idmap_line(char *line, const char *filename, const unsigned in
       fprintf(stderr, "%s:%u: unknown format\n", filename, lineno);
       exit(1);
     }
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   unsigned int remote_id;
-  unsigned long int return_value_strtoul$2;
-  return_value_strtoul$2=strtoul(id_tok, (char ** restrict )(void *)0, 10);
-  remote_id = (unsigned int)return_value_strtoul$2;
-  signed int *return_value___errno_location$5;
-  return_value___errno_location$5=__errno_location();
-  if(!(*return_value___errno_location$5 == 0))
+  unsigned long int return_value_strtoul_2;
+  return_value_strtoul_2=strtoul(id_tok, (char ** restrict )(void *)0, 10);
+  remote_id = (unsigned int)return_value_strtoul_2;
+  signed int *return_value___errno_location_5;
+  return_value___errno_location_5=__errno_location();
+  if(!(*return_value___errno_location_5 == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "Invalid id number on line %u of '%s': %s\n", lineno, filename, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "Invalid id number on line %u of '%s': %s\n", lineno, filename, return_value_strerror_4);
     exit(1);
   }
 
@@ -4767,23 +4767,23 @@ static signed int process_one_request(void)
   unsigned int id;
   buf_init(&buf, (unsigned long int)0);
   res=sftp_read(&type, &buf);
-  const char *return_value_type_name$3;
+  const char *return_value_type_name_3;
   if(res == -1)
     return -1;
 
   else
   {
-    signed int return_value_buf_get_uint32$1;
-    return_value_buf_get_uint32$1=buf_get_uint32(&buf, &id);
-    if(return_value_buf_get_uint32$1 == -1)
+    signed int return_value_buf_get_uint32_1;
+    return_value_buf_get_uint32_1=buf_get_uint32(&buf, &id);
+    if(return_value_buf_get_uint32_1 == -1)
       return -1;
 
     else
     {
       pthread_mutex_lock(&sshfs.lock);
-      void *return_value_g_hash_table_lookup$2;
-      return_value_g_hash_table_lookup$2=g_hash_table_lookup(sshfs.reqtab, (void *)(unsigned long int)id);
-      req = (struct request *)return_value_g_hash_table_lookup$2;
+      void *return_value_g_hash_table_lookup_2;
+      return_value_g_hash_table_lookup_2=g_hash_table_lookup(sshfs.reqtab, (void *)(unsigned long int)id);
+      req = (struct request *)return_value_g_hash_table_lookup_2;
       if(req == ((struct request *)NULL))
         fprintf(stderr, "request %i not found\n", id);
 
@@ -4810,8 +4810,8 @@ static signed int process_one_request(void)
           do
             if(!(sshfs.debug == 0))
             {
-              return_value_type_name$3=type_name(type);
-              fprintf(stderr, "  [%05i] %14s %8ubytes (%ims)\n", id, return_value_type_name$3, msgsize, difftime);
+              return_value_type_name_3=type_name(type);
+              fprintf(stderr, "  [%05i] %14s %8ubytes (%ims)\n", id, return_value_type_name_3, msgsize, difftime);
             }
 
           while((_Bool)0);
@@ -4859,9 +4859,9 @@ static void * process_requests(void *data_)
   (void)data_;
   while((_Bool)1)
   {
-    signed int return_value_process_one_request$1;
-    return_value_process_one_request$1=process_one_request();
-    if(return_value_process_one_request$1 == -1)
+    signed int return_value_process_one_request_1;
+    return_value_process_one_request_1=process_one_request();
+    if(return_value_process_one_request_1 == -1)
       break;
 
   }
@@ -4875,9 +4875,9 @@ static void * process_requests(void *data_)
   pthread_mutex_unlock(&sshfs.lock);
   if(sshfs.reconnect == 0)
   {
-    signed int return_value_getpid$2;
-    return_value_getpid$2=getpid();
-    kill(return_value_getpid$2, 15);
+    signed int return_value_getpid_2;
+    return_value_getpid_2=getpid();
+    kill(return_value_getpid_2, 15);
   }
 
   return (void *)0;
@@ -4888,9 +4888,9 @@ static void * process_requests(void *data_)
 static signed int processing_init(void)
 {
   signal(13, (void (*)(signed int))1);
-  pthread_mutex_init(&sshfs.lock, (const union anonymous$3 *)(void *)0);
-  pthread_mutex_init(&sshfs.lock_write, (const union anonymous$3 *)(void *)0);
-  pthread_cond_init(&sshfs.outstanding_cond, (const union anonymous$3 *)(void *)0);
+  pthread_mutex_init(&sshfs.lock, (const union anonymous_3 *)(void *)0);
+  pthread_mutex_init(&sshfs.lock_write, (const union anonymous_3 *)(void *)0);
+  pthread_cond_init(&sshfs.outstanding_cond, (const union anonymous_3 *)(void *)0);
   sshfs.reqtab=g_hash_table_new((unsigned int (*)(const void *))(void *)0, (signed int (*)(const void *, const void *))(void *)0);
   if(sshfs.reqtab == ((struct _GHashTable *)NULL))
   {
@@ -4911,9 +4911,9 @@ static signed int pty_expect_loop(void)
   const char *passwd_str = "assword:";
   signed int timeout = 60 * 1000;
   signed int passwd_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(passwd_str);
-  passwd_len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(passwd_str);
+  passwd_len = (signed int)return_value_strlen_1;
   signed int len = 0;
   char c;
   while((_Bool)1)
@@ -4939,9 +4939,9 @@ static signed int pty_expect_loop(void)
     if(!(fds[0l].revents == 0))
       break;
 
-    signed long int return_value_read$2;
-    return_value_read$2=read(sshfs.ptyfd, (void *)&c, (unsigned long int)1);
-    res = (signed int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read(sshfs.ptyfd, (void *)&c, (unsigned long int)1);
+    res = (signed int)return_value_read_2;
     if(res == -1)
     {
       perror("read");
@@ -4958,13 +4958,13 @@ static signed int pty_expect_loop(void)
     len = len + 1;
     if(len == passwd_len)
     {
-      signed int return_value_memcmp$4;
-      return_value_memcmp$4=memcmp((const void *)buf, (const void *)passwd_str, (unsigned long int)passwd_len);
-      if(return_value_memcmp$4 == 0)
+      signed int return_value_memcmp_4;
+      return_value_memcmp_4=memcmp((const void *)buf, (const void *)passwd_str, (unsigned long int)passwd_len);
+      if(return_value_memcmp_4 == 0)
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(sshfs.password);
-        write(sshfs.ptyfd, (const void *)sshfs.password, return_value_strlen$3);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(sshfs.password);
+        write(sshfs.ptyfd, (const void *)sshfs.password, return_value_strlen_3);
       }
 
       memmove((void *)buf, (const void *)(buf + (signed long int)1), (unsigned long int)(passwd_len - 1));
@@ -4975,9 +4975,9 @@ static signed int pty_expect_loop(void)
   if(sshfs.reconnect == 0)
   {
     unsigned long int size;
-    signed int return_value_getpagesize$5;
-    return_value_getpagesize$5=getpagesize();
-    size = (unsigned long int)return_value_getpagesize$5;
+    signed int return_value_getpagesize_5;
+    return_value_getpagesize_5=getpagesize();
+    size = (unsigned long int)return_value_getpagesize_5;
     memset((void *)sshfs.password, 0, size);
     munmap((void *)sshfs.password, size);
     sshfs.password = (char *)(void *)0;
@@ -5000,9 +5000,9 @@ static signed int pty_master(char **name)
 
   else
   {
-    signed int return_value_grantpt$1;
-    return_value_grantpt$1=grantpt(mfd);
-    if(!(return_value_grantpt$1 == 0))
+    signed int return_value_grantpt_1;
+    return_value_grantpt_1=grantpt(mfd);
+    if(!(return_value_grantpt_1 == 0))
     {
       perror("grantpt");
       return -1;
@@ -5010,9 +5010,9 @@ static signed int pty_master(char **name)
 
     else
     {
-      signed int return_value_unlockpt$2;
-      return_value_unlockpt$2=unlockpt(mfd);
-      if(!(return_value_unlockpt$2 == 0))
+      signed int return_value_unlockpt_2;
+      return_value_unlockpt_2=unlockpt(mfd);
+      if(!(return_value_unlockpt_2 == 0))
       {
         perror("unlockpt");
         return -1;
@@ -5032,14 +5032,14 @@ static signed int pty_master(char **name)
 static void random_string(char *str, signed int length)
 {
   signed int i = 0;
-  char *tmp_post$1;
-  signed int return_value_rand_r$2;
+  char *tmp_post_1;
+  signed int return_value_rand_r_2;
   for( ; !(i >= length); i = i + 1)
   {
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    return_value_rand_r$2=rand_r(&sshfs.randseed);
-    *tmp_post$1 = (char)(48 + return_value_rand_r$2 % 10);
+    return_value_rand_r_2=rand_r(&sshfs.randseed);
+    *tmp_post_1 = (char)(48 + return_value_rand_r_2 % 10);
   }
   *str = (char)0;
 }
@@ -5058,26 +5058,26 @@ static void read_id_map(char *file, unsigned int * (*map_fn)(char *), const char
   fp=fopen(file, "r");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "failed to open '%s': %s\n", file, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "failed to open '%s': %s\n", file, return_value_strerror_2);
     exit(1);
   }
 
   struct stat st;
-  signed int return_value_fileno$5;
-  return_value_fileno$5=fileno(fp);
-  signed int return_value_fstat$6;
-  return_value_fstat$6=fstat(return_value_fileno$5, &st);
-  if(return_value_fstat$6 == -1)
+  signed int return_value_fileno_5;
+  return_value_fileno_5=fileno(fp);
+  signed int return_value_fstat_6;
+  return_value_fstat_6=fstat(return_value_fileno_5, &st);
+  if(return_value_fstat_6 == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "failed to stat '%s': %s\n", file, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "failed to stat '%s': %s\n", file, return_value_strerror_4);
     exit(1);
   }
 
@@ -5093,27 +5093,27 @@ static void read_id_map(char *file, unsigned int * (*map_fn)(char *), const char
     exit(1);
   }
 
-  char *return_value_fgets$7;
-  _Bool tmp_if_expr$8;
+  char *return_value_fgets_7;
+  _Bool tmp_if_expr_8;
   do
   {
-    return_value_fgets$7=fgets(line, 2048, fp);
-    if(return_value_fgets$7 == ((char *)NULL))
+    return_value_fgets_7=fgets(line, 2048, fp);
+    if(return_value_fgets_7 == ((char *)NULL))
       break;
 
     lineno = lineno + 1u;
     unsigned int remote_id;
     char *name;
     if((signed int)line[0l] == 10)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$8)
+      tmp_if_expr_8 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_8)
     {
-      signed int return_value_feof$9;
-      return_value_feof$9=feof(fp);
-      parse_idmap_line(line, file, lineno, &remote_id, &name, return_value_feof$9);
+      signed int return_value_feof_9;
+      return_value_feof_9=feof(fp);
+      parse_idmap_line(line, file, lineno, &remote_id, &name, return_value_feof_9);
       unsigned int *local_id;
       local_id=map_fn(name);
       if(local_id == ((unsigned int *)NULL))
@@ -5138,15 +5138,15 @@ static void read_id_map(char *file, unsigned int * (*map_fn)(char *), const char
 
   }
   while((_Bool)1);
-  signed int return_value_fclose$12;
-  return_value_fclose$12=fclose(fp);
-  if(return_value_fclose$12 == -1)
+  signed int return_value_fclose_12;
+  return_value_fclose_12=fclose(fp);
+  if(return_value_fclose_12 == -1)
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    char *return_value_strerror$11;
-    return_value_strerror$11=strerror(*return_value___errno_location$10);
-    fprintf(stderr, "failed to close '%s': %s", file, return_value_strerror$11);
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    char *return_value_strerror_11;
+    return_value_strerror_11=strerror(*return_value___errno_location_10);
+    fprintf(stderr, "failed to close '%s': %s", file, return_value_strerror_11);
     exit(1);
   }
 
@@ -5160,9 +5160,9 @@ static signed int read_password(void)
   size=getpagesize();
   signed int max_password = 64;
   signed int n;
-  void *return_value_mmap$1;
-  return_value_mmap$1=mmap((void *)0, (unsigned long int)size, 0x1 | 0x2, 0x02 | 0x20 | 0x02000, -1, (signed long int)0);
-  sshfs.password = (char *)return_value_mmap$1;
+  void *return_value_mmap_1;
+  return_value_mmap_1=mmap((void *)0, (unsigned long int)size, 0x1 | 0x2, 0x02 | 0x20 | 0x02000, -1, (signed long int)0);
+  sshfs.password = (char *)return_value_mmap_1;
   if(sshfs.password == (char *)-1)
   {
     perror("Failed to allocate locked page for password");
@@ -5175,9 +5175,9 @@ static signed int read_password(void)
     for( ; !(n >= max_password); n = n + 1)
     {
       signed int res;
-      signed long int return_value_read$2;
-      return_value_read$2=read(0, (void *)&sshfs.password[(signed long int)n], (unsigned long int)1);
-      res = (signed int)return_value_read$2;
+      signed long int return_value_read_2;
+      return_value_read_2=read(0, (void *)&sshfs.password[(signed long int)n], (unsigned long int)1);
+      res = (signed int)return_value_read_2;
       if(res == -1)
       {
         perror("Reading password");
@@ -5237,19 +5237,19 @@ static void request_free(struct request *req)
 static struct read_chunk * search_read_chunk(struct sshfs_file *sf, signed long int offset)
 {
   struct read_chunk *ch = sf->readahead;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ch == ((struct read_chunk *)NULL)))
-    tmp_if_expr$1 = ch->offset == offset ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ch->offset == offset ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = ch->modifver == sshfs.modifver ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = ch->modifver == sshfs.modifver ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
     ch->refs = ch->refs + 1;
     return ch;
@@ -5269,7 +5269,7 @@ static void set_ssh_command(void)
   signed int end = 0;
   d = sshfs.ssh_command;
   s = sshfs.ssh_command;
-  char *tmp_post$2;
+  char *tmp_post_2;
   for( ; end == 0; s = s + 1l)
     switch((signed int)*s)
     {
@@ -5283,9 +5283,9 @@ static void set_ssh_command(void)
 
         else
         {
-          signed int return_value_fuse_opt_insert_arg$1;
-          return_value_fuse_opt_insert_arg$1=fuse_opt_insert_arg(&sshfs.ssh_args, i, sshfs.ssh_command);
-          if(return_value_fuse_opt_insert_arg$1 == -1)
+          signed int return_value_fuse_opt_insert_arg_1;
+          return_value_fuse_opt_insert_arg_1=fuse_opt_insert_arg(&sshfs.ssh_args, i, sshfs.ssh_command);
+          if(return_value_fuse_opt_insert_arg_1 == -1)
             _exit(1);
 
         }
@@ -5299,9 +5299,9 @@ static void set_ssh_command(void)
 
       default:
       {
-        tmp_post$2 = d;
+        tmp_post_2 = d;
         d = d + 1l;
-        *tmp_post$2 = *s;
+        *tmp_post_2 = *s;
       }
     }
 }
@@ -5323,24 +5323,24 @@ static signed int sftp_check_root(const char *base_path)
   buf_init(&buf, (unsigned long int)0);
   buf_add_string(&buf, remote_dir);
   buf_to_iov(&buf, &iov[(signed long int)0]);
-  signed int return_value_sftp_send_iov$1;
-  return_value_sftp_send_iov$1=sftp_send_iov((unsigned char)7, id, iov, (unsigned long int)1);
-  signed int return_value_sftp_read$2;
-  signed int return_value_buf_get_uint32$3;
+  signed int return_value_sftp_send_iov_1;
+  return_value_sftp_send_iov_1=sftp_send_iov((unsigned char)7, id, iov, (unsigned long int)1);
+  signed int return_value_sftp_read_2;
+  signed int return_value_buf_get_uint32_3;
   signed int err2;
-  if(!(return_value_sftp_send_iov$1 == -1))
+  if(!(return_value_sftp_send_iov_1 == -1))
   {
     buf_clear(&buf);
-    return_value_sftp_read$2=sftp_read(&type, &buf);
-    if(!(return_value_sftp_read$2 == -1))
+    return_value_sftp_read_2=sftp_read(&type, &buf);
+    if(!(return_value_sftp_read_2 == -1))
     {
       if(!((signed int)type == 101) && !((signed int)type == 105))
         fprintf(stderr, "protocol error\n");
 
       else
       {
-        return_value_buf_get_uint32$3=buf_get_uint32(&buf, &replid);
-        if(!(return_value_buf_get_uint32$3 == -1))
+        return_value_buf_get_uint32_3=buf_get_uint32(&buf, &replid);
+        if(!(return_value_buf_get_uint32_3 == -1))
         {
           if(!(replid == id))
             fprintf(stderr, "bad reply ID\n");
@@ -5350,16 +5350,16 @@ static signed int sftp_check_root(const char *base_path)
             if((signed int)type == 101)
             {
               unsigned int serr;
-              signed int return_value_buf_get_uint32$4;
-              return_value_buf_get_uint32$4=buf_get_uint32(&buf, &serr);
-              if(return_value_buf_get_uint32$4 == -1)
+              signed int return_value_buf_get_uint32_4;
+              return_value_buf_get_uint32_4=buf_get_uint32(&buf, &serr);
+              if(return_value_buf_get_uint32_4 == -1)
                 goto out;
 
-              signed int return_value_sftp_error_to_errno$5;
-              return_value_sftp_error_to_errno$5=sftp_error_to_errno(serr);
-              char *return_value_strerror$6;
-              return_value_strerror$6=strerror(return_value_sftp_error_to_errno$5);
-              fprintf(stderr, "%s:%s: %s\n", sshfs.host, remote_dir, return_value_strerror$6);
+              signed int return_value_sftp_error_to_errno_5;
+              return_value_sftp_error_to_errno_5=sftp_error_to_errno(serr);
+              char *return_value_strerror_6;
+              return_value_strerror_6=strerror(return_value_sftp_error_to_errno_5);
+              fprintf(stderr, "%s:%s: %s\n", sshfs.host, remote_dir, return_value_strerror_6);
               goto out;
             }
 
@@ -5411,24 +5411,24 @@ static void sftp_detect_uid()
   buf_init(&buf, (unsigned long int)5);
   buf_add_string(&buf, ".");
   buf_to_iov(&buf, &iov[(signed long int)0]);
-  signed int return_value_sftp_send_iov$1;
-  return_value_sftp_send_iov$1=sftp_send_iov((unsigned char)17, id, iov, (unsigned long int)1);
-  signed int return_value_sftp_read$2;
-  signed int return_value_buf_get_uint32$3;
-  signed int return_value_buf_get_attrs$5;
-  if(!(return_value_sftp_send_iov$1 == -1))
+  signed int return_value_sftp_send_iov_1;
+  return_value_sftp_send_iov_1=sftp_send_iov((unsigned char)17, id, iov, (unsigned long int)1);
+  signed int return_value_sftp_read_2;
+  signed int return_value_buf_get_uint32_3;
+  signed int return_value_buf_get_attrs_5;
+  if(!(return_value_sftp_send_iov_1 == -1))
   {
     buf_clear(&buf);
-    return_value_sftp_read$2=sftp_read(&type, &buf);
-    if(!(return_value_sftp_read$2 == -1))
+    return_value_sftp_read_2=sftp_read(&type, &buf);
+    if(!(return_value_sftp_read_2 == -1))
     {
       if(!((signed int)type == 101) && !((signed int)type == 105))
         fprintf(stderr, "protocol error\n");
 
       else
       {
-        return_value_buf_get_uint32$3=buf_get_uint32(&buf, &replid);
-        if(!(return_value_buf_get_uint32$3 == -1))
+        return_value_buf_get_uint32_3=buf_get_uint32(&buf, &replid);
+        if(!(return_value_buf_get_uint32_3 == -1))
         {
           if(!(replid == id))
             fprintf(stderr, "bad reply ID\n");
@@ -5438,17 +5438,17 @@ static void sftp_detect_uid()
             if((signed int)type == 101)
             {
               unsigned int serr;
-              signed int return_value_buf_get_uint32$4;
-              return_value_buf_get_uint32$4=buf_get_uint32(&buf, &serr);
-              if(return_value_buf_get_uint32$4 == -1)
+              signed int return_value_buf_get_uint32_4;
+              return_value_buf_get_uint32_4=buf_get_uint32(&buf, &serr);
+              if(return_value_buf_get_uint32_4 == -1)
                 goto out;
 
               fprintf(stderr, "failed to stat home directory (%i)\n", serr);
               goto out;
             }
 
-            return_value_buf_get_attrs$5=buf_get_attrs(&buf, &stbuf, &flags);
-            if(return_value_buf_get_attrs$5 == 0)
+            return_value_buf_get_attrs_5=buf_get_attrs(&buf, &stbuf, &flags);
+            if(return_value_buf_get_attrs_5 == 0)
             {
               if(!((0x00000002 & flags) == 0))
               {
@@ -5543,9 +5543,9 @@ static signed int sftp_find_init_reply(unsigned int *version)
 static unsigned int sftp_get_id(void)
 {
   static unsigned int idctr;
-  unsigned int tmp_post$1 = idctr;
+  unsigned int tmp_post_1 = idctr;
   idctr = idctr + 1u;
-  return tmp_post$1;
+  return tmp_post_1;
 }
 
 // sftp_init
@@ -5556,22 +5556,22 @@ static signed int sftp_init()
   unsigned int version = (unsigned int)0;
   struct buffer buf;
   buf_init(&buf, (unsigned long int)0);
-  signed int return_value_sftp_send_iov$1;
-  return_value_sftp_send_iov$1=sftp_send_iov((unsigned char)1, (unsigned int)3, (struct iovec *)(void *)0, (unsigned long int)0);
-  signed int return_value_pty_expect_loop$2;
-  signed int return_value_sftp_find_init_reply$3;
-  if(!(return_value_sftp_send_iov$1 == -1))
+  signed int return_value_sftp_send_iov_1;
+  return_value_sftp_send_iov_1=sftp_send_iov((unsigned char)1, (unsigned int)3, (struct iovec *)(void *)0, (unsigned long int)0);
+  signed int return_value_pty_expect_loop_2;
+  signed int return_value_sftp_find_init_reply_3;
+  if(!(return_value_sftp_send_iov_1 == -1))
   {
     if(!(sshfs.password_stdin == 0))
     {
-      return_value_pty_expect_loop$2=pty_expect_loop();
-      if(return_value_pty_expect_loop$2 == -1)
+      return_value_pty_expect_loop_2=pty_expect_loop();
+      if(return_value_pty_expect_loop_2 == -1)
         goto out;
 
     }
 
-    return_value_sftp_find_init_reply$3=sftp_find_init_reply(&version);
-    if(!(return_value_sftp_find_init_reply$3 == -1))
+    return_value_sftp_find_init_reply_3=sftp_find_init_reply(&version);
+    if(!(return_value_sftp_find_init_reply_3 == -1))
     {
       sshfs.server_version = (signed int)version;
       if(version >= 4u)
@@ -5595,14 +5595,14 @@ static signed int sftp_init_reply_ok(struct buffer *buf, unsigned int *version)
 {
   unsigned int len;
   unsigned char type;
-  signed int return_value_buf_get_uint32$1;
-  return_value_buf_get_uint32$1=buf_get_uint32(buf, &len);
-  _Bool tmp_if_expr$7;
-  signed int return_value_buf_get_string$6;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$12;
-  if(return_value_buf_get_uint32$1 == -1)
+  signed int return_value_buf_get_uint32_1;
+  return_value_buf_get_uint32_1=buf_get_uint32(buf, &len);
+  _Bool tmp_if_expr_7;
+  signed int return_value_buf_get_string_6;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_12;
+  if(return_value_buf_get_uint32_1 == -1)
     return -1;
 
   else
@@ -5611,9 +5611,9 @@ static signed int sftp_init_reply_ok(struct buffer *buf, unsigned int *version)
 
     else
     {
-      signed int return_value_buf_get_uint8$2;
-      return_value_buf_get_uint8$2=buf_get_uint8(buf, &type);
-      if(return_value_buf_get_uint8$2 == -1)
+      signed int return_value_buf_get_uint8_2;
+      return_value_buf_get_uint8_2=buf_get_uint8(buf, &type);
+      if(return_value_buf_get_uint8_2 == -1)
         return -1;
 
       else
@@ -5622,9 +5622,9 @@ static signed int sftp_init_reply_ok(struct buffer *buf, unsigned int *version)
 
         else
         {
-          signed int return_value_buf_get_uint32$3;
-          return_value_buf_get_uint32$3=buf_get_uint32(buf, version);
-          if(return_value_buf_get_uint32$3 == -1)
+          signed int return_value_buf_get_uint32_3;
+          return_value_buf_get_uint32_3=buf_get_uint32(buf, version);
+          if(return_value_buf_get_uint32_3 == -1)
             return -1;
 
           else
@@ -5638,9 +5638,9 @@ static signed int sftp_init_reply_ok(struct buffer *buf, unsigned int *version)
             {
               struct buffer buf2;
               buf_init(&buf2, (unsigned long int)(len - (unsigned int)5));
-              signed int return_value_do_read$4;
-              return_value_do_read$4=do_read(&buf2);
-              if(return_value_do_read$4 == -1)
+              signed int return_value_do_read_4;
+              return_value_do_read_4=do_read(&buf2);
+              if(return_value_do_read_4 == -1)
               {
                 buf_free(&buf2);
                 return -1;
@@ -5650,17 +5650,17 @@ static signed int sftp_init_reply_ok(struct buffer *buf, unsigned int *version)
               {
                 char *ext;
                 char *extdata;
-                signed int return_value_buf_get_string$5;
-                return_value_buf_get_string$5=buf_get_string(&buf2, &ext);
-                if(return_value_buf_get_string$5 == -1)
-                  tmp_if_expr$7 = (_Bool)1;
+                signed int return_value_buf_get_string_5;
+                return_value_buf_get_string_5=buf_get_string(&buf2, &ext);
+                if(return_value_buf_get_string_5 == -1)
+                  tmp_if_expr_7 = (_Bool)1;
 
                 else
                 {
-                  return_value_buf_get_string$6=buf_get_string(&buf2, &extdata);
-                  tmp_if_expr$7 = return_value_buf_get_string$6 == -1 ? (_Bool)1 : (_Bool)0;
+                  return_value_buf_get_string_6=buf_get_string(&buf2, &extdata);
+                  tmp_if_expr_7 = return_value_buf_get_string_6 == -1 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$7)
+                if(tmp_if_expr_7)
                 {
                   buf_free(&buf2);
                   return -1;
@@ -5671,12 +5671,12 @@ static signed int sftp_init_reply_ok(struct buffer *buf, unsigned int *version)
                     fprintf(stderr, "Extension: %s <%s>\n", ext, extdata);
 
                 while((_Bool)0);
-                signed int return_value_strcmp$9;
-                return_value_strcmp$9=strcmp(ext, "posix-rename@openssh.com");
-                if(return_value_strcmp$9 == 0)
+                signed int return_value_strcmp_9;
+                return_value_strcmp_9=strcmp(ext, "posix-rename@openssh.com");
+                if(return_value_strcmp_9 == 0)
                 {
-                  return_value_strcmp$8=strcmp(extdata, "1");
-                  if(return_value_strcmp$8 == 0)
+                  return_value_strcmp_8=strcmp(extdata, "1");
+                  if(return_value_strcmp_8 == 0)
                   {
                     sshfs.ext_posix_rename = 1;
                     sshfs.rename_workaround = 0;
@@ -5684,22 +5684,22 @@ static signed int sftp_init_reply_ok(struct buffer *buf, unsigned int *version)
 
                 }
 
-                signed int return_value_strcmp$11;
-                return_value_strcmp$11=strcmp(ext, "statvfs@openssh.com");
-                if(return_value_strcmp$11 == 0)
+                signed int return_value_strcmp_11;
+                return_value_strcmp_11=strcmp(ext, "statvfs@openssh.com");
+                if(return_value_strcmp_11 == 0)
                 {
-                  return_value_strcmp$10=strcmp(extdata, "2");
-                  if(return_value_strcmp$10 == 0)
+                  return_value_strcmp_10=strcmp(extdata, "2");
+                  if(return_value_strcmp_10 == 0)
                     sshfs.ext_statvfs = 1;
 
                 }
 
-                signed int return_value_strcmp$13;
-                return_value_strcmp$13=strcmp(ext, "hardlink@openssh.com");
-                if(return_value_strcmp$13 == 0)
+                signed int return_value_strcmp_13;
+                return_value_strcmp_13=strcmp(ext, "hardlink@openssh.com");
+                if(return_value_strcmp_13 == 0)
                 {
-                  return_value_strcmp$12=strcmp(extdata, "1");
-                  if(return_value_strcmp$12 == 0)
+                  return_value_strcmp_12=strcmp(extdata, "1");
+                  if(return_value_strcmp_12 == 0)
                     sshfs.ext_hardlink = 1;
 
                 }
@@ -5726,9 +5726,9 @@ static signed int sftp_read(unsigned char *type, struct buffer *buf)
   res=do_read(&buf2);
   if(!(res == -1))
   {
-    signed int return_value_buf_get_uint32$1;
-    return_value_buf_get_uint32$1=buf_get_uint32(&buf2, &len);
-    if(return_value_buf_get_uint32$1 == -1)
+    signed int return_value_buf_get_uint32_1;
+    return_value_buf_get_uint32_1=buf_get_uint32(&buf2, &len);
+    if(return_value_buf_get_uint32_1 == -1)
       return -1;
 
     if(len >= 131073u)
@@ -5737,9 +5737,9 @@ static signed int sftp_read(unsigned char *type, struct buffer *buf)
       return -1;
     }
 
-    signed int return_value_buf_get_uint8$2;
-    return_value_buf_get_uint8$2=buf_get_uint8(&buf2, type);
-    if(return_value_buf_get_uint8$2 == -1)
+    signed int return_value_buf_get_uint8_2;
+    return_value_buf_get_uint8_2=buf_get_uint8(&buf2, type);
+    if(return_value_buf_get_uint8_2 == -1)
       return -1;
 
     buf_init(buf, (unsigned long int)(len - (unsigned int)1));
@@ -5786,9 +5786,9 @@ static signed int sftp_readdir_async(struct buffer *handle, struct fuse_cache_di
       if(!(done == 0))
       {
         pthread_mutex_lock(&sshfs.lock);
-        signed int return_value_sshfs_req_pending$1;
-        return_value_sshfs_req_pending$1=sshfs_req_pending(req);
-        if(!(return_value_sshfs_req_pending$1 == 0))
+        signed int return_value_sshfs_req_pending_1;
+        return_value_sshfs_req_pending_1=sshfs_req_pending(req);
+        if(!(return_value_sshfs_req_pending_1 == 0))
           req->want_reply = (unsigned int)0;
 
         pthread_mutex_unlock(&sshfs.lock);
@@ -5833,9 +5833,9 @@ static signed int sftp_readdir_send(struct request **req, struct buffer *handle)
 {
   struct iovec iov;
   buf_to_iov(handle, &iov);
-  signed int return_value_sftp_request_send$1;
-  return_value_sftp_request_send$1=sftp_request_send((unsigned char)12, &iov, (unsigned long int)1, (void (*)(struct request *))(void *)0, (void (*)(struct request *))(void *)0, 104, (void *)0, req);
-  return return_value_sftp_request_send$1;
+  signed int return_value_sftp_request_send_1;
+  return_value_sftp_request_send_1=sftp_request_send((unsigned char)12, &iov, (unsigned long int)1, (void (*)(struct request *))(void *)0, (void (*)(struct request *))(void *)0, 104, (void *)0, req);
+  return return_value_sftp_request_send_1;
 }
 
 // sftp_readdir_sync
@@ -5867,9 +5867,9 @@ static signed int sftp_request(unsigned char type, struct buffer *buf, unsigned 
 {
   struct iovec iov;
   buf_to_iov(buf, &iov);
-  signed int return_value_sftp_request_iov$1;
-  return_value_sftp_request_iov$1=sftp_request_iov(type, &iov, (unsigned long int)1, expect_type, outbuf);
-  return return_value_sftp_request_iov$1;
+  signed int return_value_sftp_request_iov_1;
+  return_value_sftp_request_iov_1=sftp_request_iov(type, &iov, (unsigned long int)1, expect_type, outbuf);
+  return return_value_sftp_request_iov_1;
 }
 
 // sftp_request_iov
@@ -5884,9 +5884,9 @@ static signed int sftp_request_iov(unsigned char type, struct iovec *iov, unsign
 
   else
   {
-    signed int return_value_sftp_request_wait$1;
-    return_value_sftp_request_wait$1=sftp_request_wait(req, type, expect_type, outbuf);
-    return return_value_sftp_request_wait$1;
+    signed int return_value_sftp_request_wait_1;
+    return_value_sftp_request_wait_1=sftp_request_wait(req, type, expect_type, outbuf);
+    return return_value_sftp_request_wait_1;
   }
 }
 
@@ -5897,9 +5897,9 @@ static signed int sftp_request_send(unsigned char type, struct iovec *iov, unsig
   signed int err;
   unsigned int id;
   struct request *req;
-  void *return_value_g_malloc0_n$1;
-  return_value_g_malloc0_n$1=g_malloc0_n((unsigned long int)1, sizeof(struct request) /*136ul*/ );
-  req = (struct request *)return_value_g_malloc0_n$1;
+  void *return_value_g_malloc0_n_1;
+  return_value_g_malloc0_n_1=g_malloc0_n((unsigned long int)1, sizeof(struct request) /*136ul*/ );
+  req = (struct request *)return_value_g_malloc0_n_1;
   req->want_reply = (unsigned int)want_reply;
   req->end_func = end_func;
   req->data = data;
@@ -5912,16 +5912,16 @@ static signed int sftp_request_send(unsigned char type, struct iovec *iov, unsig
   id=sftp_get_id();
   req->id = id;
   err=start_processing_thread();
-  unsigned long int return_value_iov_length$2;
-  const char *return_value_type_name$3;
-  signed int return_value_sftp_send_iov$4;
+  unsigned long int return_value_iov_length_2;
+  const char *return_value_type_name_3;
+  signed int return_value_sftp_send_iov_4;
   if(!(err == 0))
     pthread_mutex_unlock(&sshfs.lock);
 
   else
   {
-    return_value_iov_length$2=iov_length(iov, count);
-    req->len = return_value_iov_length$2 + (unsigned long int)9;
+    return_value_iov_length_2=iov_length(iov, count);
+    req->len = return_value_iov_length_2 + (unsigned long int)9;
     sshfs.outstanding_len = sshfs.outstanding_len + (unsigned int)req->len;
     while(!(sshfs.max_outstanding_len >= sshfs.outstanding_len))
       pthread_cond_wait(&sshfs.outstanding_cond, &sshfs.lock);
@@ -5936,15 +5936,15 @@ static signed int sftp_request_send(unsigned char type, struct iovec *iov, unsig
     do
       if(!(sshfs.debug == 0))
       {
-        return_value_type_name$3=type_name(type);
-        fprintf(stderr, "[%05i] %s\n", id, return_value_type_name$3);
+        return_value_type_name_3=type_name(type);
+        fprintf(stderr, "[%05i] %s\n", id, return_value_type_name_3);
       }
 
     while((_Bool)0);
     pthread_mutex_unlock(&sshfs.lock);
     err = -5;
-    return_value_sftp_send_iov$4=sftp_send_iov(type, id, iov, count);
-    if(return_value_sftp_send_iov$4 == -1)
+    return_value_sftp_send_iov_4=sftp_send_iov(type, id, iov, count);
+    if(return_value_sftp_send_iov_4 == -1)
     {
       signed int rmed;
       pthread_mutex_lock(&sshfs.lock);
@@ -5978,7 +5978,7 @@ out:
 static signed int sftp_request_wait(struct request *req, unsigned char type, unsigned char expect_type, struct buffer *outbuf)
 {
   signed int err;
-  signed int return_value_sem_wait$1;
+  signed int return_value_sem_wait_1;
   if(!(req->error == 0))
     err = req->error;
 
@@ -5986,8 +5986,8 @@ static signed int sftp_request_wait(struct request *req, unsigned char type, uns
   {
     do
     {
-      return_value_sem_wait$1=sem_wait(&req->ready);
-      if(return_value_sem_wait$1 == 0)
+      return_value_sem_wait_1=sem_wait(&req->ready);
+      if(return_value_sem_wait_1 == 0)
         break;
 
     }
@@ -6014,9 +6014,9 @@ static signed int sftp_request_wait(struct request *req, unsigned char type, uns
         if((signed int)req->reply_type == 101)
         {
           unsigned int serr;
-          signed int return_value_buf_get_uint32$2;
-          return_value_buf_get_uint32$2=buf_get_uint32(&req->reply, &serr);
-          if(return_value_buf_get_uint32$2 == -1)
+          signed int return_value_buf_get_uint32_2;
+          return_value_buf_get_uint32_2=buf_get_uint32(&req->reply, &serr);
+          if(return_value_buf_get_uint32_2 == -1)
             goto out;
 
           switch(serr)
@@ -6050,9 +6050,9 @@ static signed int sftp_request_wait(struct request *req, unsigned char type, uns
             }
             default:
             {
-              signed int return_value_sftp_error_to_errno$3;
-              return_value_sftp_error_to_errno$3=sftp_error_to_errno(serr);
-              err = -return_value_sftp_error_to_errno$3;
+              signed int return_value_sftp_error_to_errno_3;
+              return_value_sftp_error_to_errno_3=sftp_error_to_errno(serr);
+              err = -return_value_sftp_error_to_errno_3;
             }
           }
         }
@@ -6092,21 +6092,21 @@ static signed int sftp_send_iov(unsigned char type, unsigned int id, struct iove
   /* assertion count <= 3 - 1 */
   assert(count <= (unsigned long int)(3 - 1));
   buf_init(&buf, (unsigned long int)9);
-  unsigned long int return_value_iov_length$1;
-  return_value_iov_length$1=iov_length(iov, count);
-  buf_add_uint32(&buf, (unsigned int)(return_value_iov_length$1 + (unsigned long int)5));
+  unsigned long int return_value_iov_length_1;
+  return_value_iov_length_1=iov_length(iov, count);
+  buf_add_uint32(&buf, (unsigned int)(return_value_iov_length_1 + (unsigned long int)5));
   buf_add_uint8(&buf, type);
   buf_add_uint32(&buf, id);
-  unsigned int tmp_post$2 = nout;
+  unsigned int tmp_post_2 = nout;
   nout = nout + 1u;
-  buf_to_iov(&buf, &iovout[(signed long int)tmp_post$2]);
+  buf_to_iov(&buf, &iovout[(signed long int)tmp_post_2]);
   i = (unsigned int)0;
-  unsigned int tmp_post$3;
+  unsigned int tmp_post_3;
   for( ; !((unsigned long int)i >= count); i = i + 1u)
   {
-    tmp_post$3 = nout;
+    tmp_post_3 = nout;
     nout = nout + 1u;
-    iovout[(signed long int)tmp_post$3] = iov[(signed long int)i];
+    iovout[(signed long int)tmp_post_3] = iov[(signed long int)i];
   }
   pthread_mutex_lock(&sshfs.lock_write);
   res=do_write(iovout, (unsigned long int)nout);
@@ -6119,9 +6119,9 @@ static signed int sftp_send_iov(unsigned char type, unsigned int id, struct iove
 // file sshfs.c line 840
 static void ssh_add_arg(const char *arg)
 {
-  signed int return_value_fuse_opt_add_arg$1;
-  return_value_fuse_opt_add_arg$1=fuse_opt_add_arg(&sshfs.ssh_args, arg);
-  if(return_value_fuse_opt_add_arg$1 == -1)
+  signed int return_value_fuse_opt_add_arg_1;
+  return_value_fuse_opt_add_arg_1=fuse_opt_add_arg(&sshfs.ssh_args, arg);
+  if(return_value_fuse_opt_add_arg_1 == -1)
     _exit(1);
 
 }
@@ -6132,7 +6132,7 @@ static signed int ssh_connect(void)
 {
   signed int res;
   res=processing_init();
-  signed int return_value_sftp_check_root$2;
+  signed int return_value_sftp_check_root_2;
   if(res == -1)
     return -1;
 
@@ -6140,15 +6140,15 @@ static signed int ssh_connect(void)
   {
     if(sshfs.delay_connect == 0)
     {
-      signed int return_value_connect_remote$1;
-      return_value_connect_remote$1=connect_remote();
-      if(return_value_connect_remote$1 == -1)
+      signed int return_value_connect_remote_1;
+      return_value_connect_remote_1=connect_remote();
+      if(return_value_connect_remote_1 == -1)
         return -1;
 
       if(sshfs.no_check_root == 0)
       {
-        return_value_sftp_check_root$2=sftp_check_root(sshfs.base_path);
-        if(!(return_value_sftp_check_root$2 == 0))
+        return_value_sftp_check_root_2=sftp_check_root(sshfs.base_path);
+        if(!(return_value_sftp_check_root_2 == 0))
           return -1;
 
       }
@@ -6171,13 +6171,13 @@ static signed int sshfs_async_read(struct sshfs_file *sf, char *rbuf, unsigned l
   signed int curr_is_seq;
   pthread_mutex_lock(&sshfs.lock);
   curr_is_seq = sf->is_seq;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sf->next_pos == offset)
-    tmp_if_expr$1 = (signed long int)sf->modifver == sshfs.modifver ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed long int)sf->modifver == sshfs.modifver ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  sf->is_seq = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  sf->is_seq = (signed int)tmp_if_expr_1;
   sf->next_pos = (signed long int)((unsigned long int)offset + size);
   sf->modifver = (signed int)sshfs.modifver;
   chunk=search_read_chunk(sf, offset);
@@ -6280,12 +6280,12 @@ static signed int sshfs_chown(const char *path, unsigned int uid, unsigned int g
   if(uid == sshfs.local_uid && !(sshfs.remote_uid_detected == 0))
     uid = sshfs.remote_uid;
 
-  signed int return_value_translate_id$1;
-  signed int return_value_translate_id$2;
+  signed int return_value_translate_id_1;
+  signed int return_value_translate_id_2;
   if(sshfs.idmap == 2 && !(sshfs.r_uid_map == ((struct _GHashTable *)NULL)))
   {
-    return_value_translate_id$1=translate_id(&uid, sshfs.r_uid_map);
-    if(!(return_value_translate_id$1 == -1))
+    return_value_translate_id_1=translate_id(&uid, sshfs.r_uid_map);
+    if(!(return_value_translate_id_1 == -1))
       goto __CPROVER_DUMP_L2;
 
     return -1;
@@ -6298,8 +6298,8 @@ static signed int sshfs_chown(const char *path, unsigned int uid, unsigned int g
     ;
     if(sshfs.idmap == 2 && !(sshfs.r_gid_map == ((struct _GHashTable *)NULL)))
     {
-      return_value_translate_id$2=translate_id(&gid, sshfs.r_gid_map);
-      if(!(return_value_translate_id$2 == -1))
+      return_value_translate_id_2=translate_id(&gid, sshfs.r_gid_map);
+      if(!(return_value_translate_id_2 == -1))
         goto __CPROVER_DUMP_L3;
 
       return -1;
@@ -6326,9 +6326,9 @@ static signed int sshfs_chown(const char *path, unsigned int uid, unsigned int g
 // file sshfs.c line 3036
 static signed int sshfs_create(const char *path, unsigned int mode, struct fuse_file_info *fi)
 {
-  signed int return_value_sshfs_open_common$1;
-  return_value_sshfs_open_common$1=sshfs_open_common(path, mode, fi);
-  return return_value_sshfs_open_common$1;
+  signed int return_value_sshfs_open_common_1;
+  return_value_sshfs_open_common_1=sshfs_open_common(path, mode, fi);
+  return return_value_sshfs_open_common_1;
 }
 
 // sshfs_do_rename
@@ -6373,9 +6373,9 @@ static signed int sshfs_ext_statvfs(const char *path, struct statvfs *stbuf)
   err=sftp_request((unsigned char)200, &buf, (unsigned char)201, &outbuf);
   if(err == 0)
   {
-    signed int return_value_buf_get_statvfs$1;
-    return_value_buf_get_statvfs$1=buf_get_statvfs(&outbuf, stbuf);
-    if(return_value_buf_get_statvfs$1 == -1)
+    signed int return_value_buf_get_statvfs_1;
+    return_value_buf_get_statvfs_1=buf_get_statvfs(&outbuf, stbuf);
+    if(return_value_buf_get_statvfs_1 == -1)
       err = -5;
 
     buf_free(&outbuf);
@@ -6395,17 +6395,17 @@ static signed int sshfs_fgetattr(const char *path, struct stat *stbuf, struct fu
   struct sshfs_file *sf;
   sf=get_sshfs_file(fi);
   (void)path;
-  signed int return_value_sshfs_file_is_conn$1;
-  return_value_sshfs_file_is_conn$1=sshfs_file_is_conn(sf);
-  signed int return_value_sshfs_getattr$2;
-  if(return_value_sshfs_file_is_conn$1 == 0)
+  signed int return_value_sshfs_file_is_conn_1;
+  return_value_sshfs_file_is_conn_1=sshfs_file_is_conn(sf);
+  signed int return_value_sshfs_getattr_2;
+  if(return_value_sshfs_file_is_conn_1 == 0)
     return -5;
 
   else
     if(!(sshfs.fstat_workaround == 0))
     {
-      return_value_sshfs_getattr$2=sshfs_getattr(path, stbuf);
-      return return_value_sshfs_getattr$2;
+      return_value_sshfs_getattr_2=sshfs_getattr(path, stbuf);
+      return return_value_sshfs_getattr_2;
     }
 
     else
@@ -6461,10 +6461,10 @@ static signed int sshfs_flush(const char *path, struct fuse_file_info *fi)
   sf=get_sshfs_file(fi);
   struct list_head write_reqs;
   struct list_head *curr_list;
-  signed int return_value_sshfs_file_is_conn$1;
-  return_value_sshfs_file_is_conn$1=sshfs_file_is_conn(sf);
-  signed int return_value_list_empty$2;
-  if(return_value_sshfs_file_is_conn$1 == 0)
+  signed int return_value_sshfs_file_is_conn_1;
+  return_value_sshfs_file_is_conn_1=sshfs_file_is_conn(sf);
+  signed int return_value_list_empty_2;
+  if(return_value_sshfs_file_is_conn_1 == 0)
     return -5;
 
   else
@@ -6475,9 +6475,9 @@ static signed int sshfs_flush(const char *path, struct fuse_file_info *fi)
     {
       (void)path;
       pthread_mutex_lock(&sshfs.lock);
-      signed int return_value_list_empty$3;
-      return_value_list_empty$3=list_empty(&sf->write_reqs);
-      if(return_value_list_empty$3 == 0)
+      signed int return_value_list_empty_3;
+      return_value_list_empty_3=list_empty(&sf->write_reqs);
+      if(return_value_list_empty_3 == 0)
       {
         curr_list = sf->write_reqs.prev;
         list_del(&sf->write_reqs);
@@ -6485,8 +6485,8 @@ static signed int sshfs_flush(const char *path, struct fuse_file_info *fi)
         list_add(&write_reqs, curr_list);
         do
         {
-          return_value_list_empty$2=list_empty(&write_reqs);
-          if(!(return_value_list_empty$2 == 0))
+          return_value_list_empty_2=list_empty(&write_reqs);
+          if(!(return_value_list_empty_2 == 0))
             break;
 
           pthread_cond_wait(&sf->write_finished, &sshfs.lock);
@@ -6506,9 +6506,9 @@ static signed int sshfs_flush(const char *path, struct fuse_file_info *fi)
 static signed int sshfs_fsync(const char *path, signed int isdatasync, struct fuse_file_info *fi)
 {
   (void)isdatasync;
-  signed int return_value_sshfs_flush$1;
-  return_value_sshfs_flush$1=sshfs_flush(path, fi);
-  return return_value_sshfs_flush$1;
+  signed int return_value_sshfs_flush_1;
+  return_value_sshfs_flush_1=sshfs_flush(path, fi);
+  return return_value_sshfs_flush_1;
 }
 
 // sshfs_ftruncate
@@ -6520,10 +6520,10 @@ static signed int sshfs_ftruncate(const char *path, signed long int size, struct
   struct sshfs_file *sf;
   sf=get_sshfs_file(fi);
   (void)path;
-  signed int return_value_sshfs_file_is_conn$1;
-  return_value_sshfs_file_is_conn$1=sshfs_file_is_conn(sf);
-  signed int return_value_sshfs_truncate_workaround$2;
-  if(return_value_sshfs_file_is_conn$1 == 0)
+  signed int return_value_sshfs_file_is_conn_1;
+  return_value_sshfs_file_is_conn_1=sshfs_file_is_conn(sf);
+  signed int return_value_sshfs_truncate_workaround_2;
+  if(return_value_sshfs_file_is_conn_1 == 0)
     return -5;
 
   else
@@ -6531,8 +6531,8 @@ static signed int sshfs_ftruncate(const char *path, signed long int size, struct
     sshfs_inc_modifver();
     if(!(sshfs.truncate_workaround == 0))
     {
-      return_value_sshfs_truncate_workaround$2=sshfs_truncate_workaround(path, size, fi);
-      return return_value_sshfs_truncate_workaround$2;
+      return_value_sshfs_truncate_workaround_2=sshfs_truncate_workaround(path, size, fi);
+      return return_value_sshfs_truncate_workaround_2;
     }
 
     else
@@ -6552,11 +6552,11 @@ static signed int sshfs_ftruncate(const char *path, signed long int size, struct
 // file sshfs.c line 3337
 static signed int sshfs_fuse_main(struct fuse_args *args)
 {
-  struct fuse_operations *return_value_cache_init$1;
-  return_value_cache_init$1=cache_init(&sshfs_oper);
-  signed int return_value_fuse_main_real$2;
-  return_value_fuse_main_real$2=fuse_main_real(args->argc, args->argv, return_value_cache_init$1, sizeof(struct fuse_operations) /*360ul*/ , (void *)0);
-  return return_value_fuse_main_real$2;
+  struct fuse_operations *return_value_cache_init_1;
+  return_value_cache_init_1=cache_init(&sshfs_oper);
+  signed int return_value_fuse_main_real_2;
+  return_value_fuse_main_real_2=fuse_main_real(args->argc, args->argv, return_value_cache_init_1, sizeof(struct fuse_operations) /*360ul*/ , (void *)0);
+  return return_value_fuse_main_real_2;
 }
 
 // sshfs_getattr
@@ -6704,9 +6704,9 @@ static signed int sshfs_mknod(const char *path, unsigned int mode, unsigned long
 // file sshfs.c line 2501
 static signed int sshfs_open(const char *path, struct fuse_file_info *fi)
 {
-  signed int return_value_sshfs_open_common$1;
-  return_value_sshfs_open_common$1=sshfs_open_common(path, (unsigned int)0, fi);
-  return return_value_sshfs_open_common$1;
+  signed int return_value_sshfs_open_common_1;
+  return_value_sshfs_open_common_1=sshfs_open_common(path, (unsigned int)0, fi);
+  return return_value_sshfs_open_common_1;
 }
 
 // sshfs_open_common
@@ -6747,11 +6747,11 @@ static signed int sshfs_open_common(const char *path, unsigned int mode, struct 
   if(!((01000 & fi->flags) == 0))
     pflags = pflags | (unsigned int)0x00000010;
 
-  void *return_value_g_malloc0_n$1;
-  return_value_g_malloc0_n$1=g_malloc0_n((unsigned long int)1, sizeof(struct sshfs_file) /*128ul*/ );
-  sf = (struct sshfs_file *)return_value_g_malloc0_n$1;
+  void *return_value_g_malloc0_n_1;
+  return_value_g_malloc0_n_1=g_malloc0_n((unsigned long int)1, sizeof(struct sshfs_file) /*128ul*/ );
+  sf = (struct sshfs_file *)return_value_g_malloc0_n_1;
   list_init(&sf->write_reqs);
-  pthread_cond_init(&sf->write_finished, (const union anonymous$3 *)(void *)0);
+  pthread_cond_init(&sf->write_finished, (const union anonymous_3 *)(void *)0);
   sf->is_seq = 0;
   sf->refs = 1;
   sf->next_pos = (signed long int)0;
@@ -6807,8 +6807,8 @@ static signed int sshfs_opt_proc(void *data, const char *arg, signed int key, st
 {
   char *tmp;
   (void)data;
-  signed int return_value_is_ssh_opt$1;
-  char *return_value_strchr$2;
+  signed int return_value_is_ssh_opt_1;
+  char *return_value_strchr_2;
   if(!(key == -1))
   {
     if(key == -2)
@@ -6836,8 +6836,8 @@ static signed int sshfs_opt_proc(void *data, const char *arg, signed int key, st
 
   else
   {
-    return_value_is_ssh_opt$1=is_ssh_opt(arg);
-    if(!(return_value_is_ssh_opt$1 == 0))
+    return_value_is_ssh_opt_1=is_ssh_opt(arg);
+    if(!(return_value_is_ssh_opt_1 == 0))
     {
       tmp=g_strdup_printf("-o%s", arg);
       ssh_add_arg(tmp);
@@ -6851,8 +6851,8 @@ static signed int sshfs_opt_proc(void *data, const char *arg, signed int key, st
     ;
     if(sshfs.host == ((char *)NULL))
     {
-      return_value_strchr$2=strchr(arg, 58);
-      if(!(return_value_strchr$2 == ((char *)NULL)))
+      return_value_strchr_2=strchr(arg, 58);
+      if(!(return_value_strchr_2 == ((char *)NULL)))
       {
         sshfs.host=strdup(arg);
         return 0;
@@ -6911,24 +6911,24 @@ static signed int sshfs_read(const char *path, char *rbuf, unsigned long int siz
   struct sshfs_file *sf;
   sf=get_sshfs_file(fi);
   (void)path;
-  signed int return_value_sshfs_file_is_conn$1;
-  return_value_sshfs_file_is_conn$1=sshfs_file_is_conn(sf);
-  signed int return_value_sshfs_sync_read$2;
-  signed int return_value_sshfs_async_read$3;
-  if(return_value_sshfs_file_is_conn$1 == 0)
+  signed int return_value_sshfs_file_is_conn_1;
+  return_value_sshfs_file_is_conn_1=sshfs_file_is_conn(sf);
+  signed int return_value_sshfs_sync_read_2;
+  signed int return_value_sshfs_async_read_3;
+  if(return_value_sshfs_file_is_conn_1 == 0)
     return -5;
 
   else
     if(!(sshfs.sync_read == 0))
     {
-      return_value_sshfs_sync_read$2=sshfs_sync_read(sf, rbuf, size, offset);
-      return return_value_sshfs_sync_read$2;
+      return_value_sshfs_sync_read_2=sshfs_sync_read(sf, rbuf, size, offset);
+      return return_value_sshfs_sync_read_2;
     }
 
     else
     {
-      return_value_sshfs_async_read$3=sshfs_async_read(sf, rbuf, size, offset);
-      return return_value_sshfs_async_read$3;
+      return_value_sshfs_async_read_3=sshfs_async_read(sf, rbuf, size, offset);
+      return return_value_sshfs_async_read_3;
     }
 }
 
@@ -6945,8 +6945,8 @@ static void sshfs_read_begin(struct request *req)
 static void sshfs_read_end(struct request *req)
 {
   struct read_req *rreq = (struct read_req *)req->data;
-  signed int return_value_sftp_error_to_errno$1;
-  signed int return_value_buf_check_get$3;
+  signed int return_value_sftp_error_to_errno_1;
+  signed int return_value_buf_check_get_3;
   if(!(req->error == 0))
     rreq->res = (signed long int)req->error;
 
@@ -6957,17 +6957,17 @@ static void sshfs_read_end(struct request *req)
       if((signed int)req->reply_type == 101)
       {
         unsigned int serr;
-        signed int return_value_buf_get_uint32$2;
-        return_value_buf_get_uint32$2=buf_get_uint32(&req->reply, &serr);
-        if(!(return_value_buf_get_uint32$2 == -1))
+        signed int return_value_buf_get_uint32_2;
+        return_value_buf_get_uint32_2=buf_get_uint32(&req->reply, &serr);
+        if(!(return_value_buf_get_uint32_2 == -1))
         {
           if(serr == 1u)
             rreq->res = (signed long int)0;
 
           else
           {
-            return_value_sftp_error_to_errno$1=sftp_error_to_errno(serr);
-            rreq->res = (signed long int)-return_value_sftp_error_to_errno$1;
+            return_value_sftp_error_to_errno_1=sftp_error_to_errno(serr);
+            rreq->res = (signed long int)-return_value_sftp_error_to_errno_1;
           }
         }
 
@@ -6977,17 +6977,17 @@ static void sshfs_read_end(struct request *req)
         if((signed int)req->reply_type == 103)
         {
           unsigned int retsize;
-          signed int return_value_buf_get_uint32$4;
-          return_value_buf_get_uint32$4=buf_get_uint32(&req->reply, &retsize);
-          if(!(return_value_buf_get_uint32$4 == -1))
+          signed int return_value_buf_get_uint32_4;
+          return_value_buf_get_uint32_4=buf_get_uint32(&req->reply, &retsize);
+          if(!(return_value_buf_get_uint32_4 == -1))
           {
             if(!(rreq->size >= (unsigned long int)retsize))
               fprintf(stderr, "long read\n");
 
             else
             {
-              return_value_buf_check_get$3=buf_check_get(&req->reply, (unsigned long int)retsize);
-              if(!(return_value_buf_check_get$3 == -1))
+              return_value_buf_check_get_3=buf_check_get(&req->reply, (unsigned long int)retsize);
+              if(!(return_value_buf_check_get_3 == -1))
               {
                 rreq->res = (signed long int)retsize;
                 rreq->data = req->reply;
@@ -7020,7 +7020,7 @@ static signed int sshfs_readlink(const char *path, char *linkbuf, unsigned long 
   struct buffer name;
   /* assertion size > 0 */
   assert(size > (unsigned long int)0);
-  signed int return_value_buf_get_string$1;
+  signed int return_value_buf_get_string_1;
   if(!(sshfs.server_version >= 3))
     return -1;
 
@@ -7034,14 +7034,14 @@ static signed int sshfs_readlink(const char *path, char *linkbuf, unsigned long 
       unsigned int count;
       char *link;
       err = -5;
-      signed int return_value_buf_get_uint32$2;
-      return_value_buf_get_uint32$2=buf_get_uint32(&name, &count);
-      if(!(return_value_buf_get_uint32$2 == -1))
+      signed int return_value_buf_get_uint32_2;
+      return_value_buf_get_uint32_2=buf_get_uint32(&name, &count);
+      if(!(return_value_buf_get_uint32_2 == -1))
       {
         if(count == 1u)
         {
-          return_value_buf_get_string$1=buf_get_string(&name, &link);
-          if(!(return_value_buf_get_string$1 == -1))
+          return_value_buf_get_string_1=buf_get_string(&name, &link);
+          if(!(return_value_buf_get_string_1 == -1))
           {
             if(!(sshfs.transform_symlinks == 0))
               transform_symlink(path, &link);
@@ -7071,9 +7071,9 @@ static signed int sshfs_release(const char *path, struct fuse_file_info *fi)
   struct sshfs_file *sf;
   sf=get_sshfs_file(fi);
   struct buffer *handle = &sf->handle;
-  signed int return_value_sshfs_file_is_conn$1;
-  return_value_sshfs_file_is_conn$1=sshfs_file_is_conn(sf);
-  if(!(return_value_sshfs_file_is_conn$1 == 0))
+  signed int return_value_sshfs_file_is_conn_1;
+  return_value_sshfs_file_is_conn_1=sshfs_file_is_conn(sf);
+  if(!(return_value_sshfs_file_is_conn_1 == 0))
   {
     sshfs_flush(path, fi);
     sftp_request((unsigned char)4, handle, (unsigned char)0, (struct buffer *)(void *)0);
@@ -7127,9 +7127,9 @@ static signed int sshfs_rename(const char *from, const char *to)
 // file sshfs.c line 2043
 static signed int sshfs_req_pending(struct request *req)
 {
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(sshfs.reqtab, (void *)(unsigned long int)req->id);
-  if(!(return_value_g_hash_table_lookup$1 == NULL))
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(sshfs.reqtab, (void *)(unsigned long int)req->id);
+  if(!(return_value_g_hash_table_lookup_1 == NULL))
     return 1;
 
   else
@@ -7154,11 +7154,11 @@ static signed int sshfs_rmdir(const char *path)
 static struct read_chunk * sshfs_send_read(struct sshfs_file *sf, unsigned long int size, signed long int offset)
 {
   struct read_chunk *chunk;
-  void *return_value_g_malloc0_n$1;
-  return_value_g_malloc0_n$1=g_malloc0_n((unsigned long int)1, sizeof(struct read_chunk) /*112ul*/ );
-  chunk = (struct read_chunk *)return_value_g_malloc0_n$1;
+  void *return_value_g_malloc0_n_1;
+  return_value_g_malloc0_n_1=g_malloc0_n((unsigned long int)1, sizeof(struct read_chunk) /*112ul*/ );
+  chunk = (struct read_chunk *)return_value_g_malloc0_n_1;
   struct buffer *handle = &sf->handle;
-  pthread_cond_init(&chunk->sio.finished, (const union anonymous$3 *)(void *)0);
+  pthread_cond_init(&chunk->sio.finished, (const union anonymous_3 *)(void *)0);
   list_init(&chunk->reqs);
   chunk->size = size;
   chunk->offset = offset;
@@ -7170,9 +7170,9 @@ static struct read_chunk * sshfs_send_read(struct sshfs_file *sf, unsigned long 
     struct iovec iov[1l];
     struct read_req *rreq;
     unsigned long int bsize = size < (unsigned long int)sshfs.max_read ? size : (unsigned long int)sshfs.max_read;
-    void *return_value_g_malloc0_n$2;
-    return_value_g_malloc0_n$2=g_malloc0_n((unsigned long int)1, sizeof(struct read_req) /*64ul*/ );
-    rreq = (struct read_req *)return_value_g_malloc0_n$2;
+    void *return_value_g_malloc0_n_2;
+    return_value_g_malloc0_n_2=g_malloc0_n((unsigned long int)1, sizeof(struct read_req) /*64ul*/ );
+    rreq = (struct read_req *)return_value_g_malloc0_n_2;
     rreq->sio = &chunk->sio;
     rreq->size = bsize;
     buf_init(&rreq->data, (unsigned long int)0);
@@ -7197,11 +7197,11 @@ static struct read_chunk * sshfs_send_read(struct sshfs_file *sf, unsigned long 
 // file sshfs.c line 2989
 static signed int sshfs_statfs(const char *path, struct statvfs *buf)
 {
-  signed int return_value_sshfs_ext_statvfs$1;
+  signed int return_value_sshfs_ext_statvfs_1;
   if(!(sshfs.ext_statvfs == 0))
   {
-    return_value_sshfs_ext_statvfs$1=sshfs_ext_statvfs(path, buf);
-    return return_value_sshfs_ext_statvfs$1;
+    return_value_sshfs_ext_statvfs_1=sshfs_ext_statvfs(path, buf);
+    return return_value_sshfs_ext_statvfs_1;
   }
 
   else
@@ -7244,9 +7244,9 @@ static signed int sshfs_sync_read(struct sshfs_file *sf, char *buf, unsigned lon
 {
   struct read_chunk *chunk;
   chunk=sshfs_send_read(sf, size, offset);
-  signed int return_value_wait_chunk$1;
-  return_value_wait_chunk$1=wait_chunk(chunk, buf, size);
-  return return_value_wait_chunk$1;
+  signed int return_value_wait_chunk_1;
+  return_value_wait_chunk_1=wait_chunk(chunk, buf, size);
+  return return_value_wait_chunk_1;
 }
 
 // sshfs_sync_write
@@ -7258,7 +7258,7 @@ static signed int sshfs_sync_write(struct sshfs_file *sf, const char *wbuf, unsi
   struct sshfs_io sio = { .num_reqs=0, .finished={ .__data={ .__lock=0, .__futex=0u, .__total_seq=0ull, .__wakeup_seq=0ull,
     .__woken_seq=0ull, .__mutex=NULL,
     .__nwaiters=0u, .__broadcast_seq=0u } }, .error=0 };
-  pthread_cond_init(&sio.finished, (const union anonymous$3 *)(void *)0);
+  pthread_cond_init(&sio.finished, (const union anonymous_3 *)(void *)0);
   while(err == 0 && !(size == 0ul))
   {
     struct buffer buf;
@@ -7301,7 +7301,7 @@ static void sshfs_sync_write_end(struct request *req)
 {
   unsigned int serr;
   struct sshfs_io *sio = (struct sshfs_io *)req->data;
-  signed int return_value_buf_get_uint32$1;
+  signed int return_value_buf_get_uint32_1;
   if(!(req->error == 0))
     sio->error = req->error;
 
@@ -7313,8 +7313,8 @@ static void sshfs_sync_write_end(struct request *req)
 
       else
       {
-        return_value_buf_get_uint32$1=buf_get_uint32(&req->reply, &serr);
-        if(!(return_value_buf_get_uint32$1 == -1))
+        return_value_buf_get_uint32_1=buf_get_uint32(&req->reply, &serr);
+        if(!(return_value_buf_get_uint32_1 == -1))
         {
           if(!(serr == 0u))
             sio->error = -5;
@@ -7337,11 +7337,11 @@ static signed int sshfs_truncate(const char *path, signed long int size)
   signed int err;
   struct buffer buf;
   sshfs_inc_modifver();
-  signed int return_value_sshfs_truncate_workaround$1;
+  signed int return_value_sshfs_truncate_workaround_1;
   if(size == 0l || !(sshfs.truncate_workaround == 0))
   {
-    return_value_sshfs_truncate_workaround$1=sshfs_truncate_workaround(path, size, (struct fuse_file_info *)(void *)0);
-    return return_value_sshfs_truncate_workaround$1;
+    return_value_sshfs_truncate_workaround_1=sshfs_truncate_workaround(path, size, (struct fuse_file_info *)(void *)0);
+    return return_value_sshfs_truncate_workaround_1;
   }
 
   else
@@ -7399,9 +7399,9 @@ static signed int sshfs_truncate_shrink(const char *path, signed long int size)
   char *data;
   signed long int offset;
   struct fuse_file_info fi;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)size, (unsigned long int)1);
-  data = (char *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)size, (unsigned long int)1);
+  data = (char *)return_value_calloc_1;
   if(data == ((char *)NULL))
     return -12;
 
@@ -7414,9 +7414,9 @@ static signed int sshfs_truncate_shrink(const char *path, signed long int size)
       offset = (signed long int)0;
       for( ; !(offset >= size); offset = offset + (signed long int)res)
       {
-        unsigned long int sshfs_truncate_shrink$$1$$1$$1$$bufsize;
-        sshfs_truncate_shrink$$1$$1$$1$$bufsize=calc_buf_size(size, offset);
-        res=sshfs_read(path, data + offset, sshfs_truncate_shrink$$1$$1$$1$$bufsize, offset, &fi);
+        unsigned long int sshfs_truncate_shrink__1__1__1__bufsize;
+        sshfs_truncate_shrink__1__1__1__bufsize=calc_buf_size(size, offset);
+        res=sshfs_read(path, data + offset, sshfs_truncate_shrink__1__1__1__bufsize, offset, &fi);
         if(!(res >= 1))
           break;
 
@@ -7460,13 +7460,13 @@ static signed int sshfs_truncate_shrink(const char *path, signed long int size)
 // file sshfs.c line 3195
 static signed int sshfs_truncate_workaround(const char *path, signed long int size, struct fuse_file_info *fi)
 {
-  signed int return_value_sshfs_truncate_zero$1;
-  signed int return_value_sshfs_truncate_shrink$2;
-  signed int return_value_sshfs_truncate_extend$3;
+  signed int return_value_sshfs_truncate_zero_1;
+  signed int return_value_sshfs_truncate_shrink_2;
+  signed int return_value_sshfs_truncate_extend_3;
   if(size == 0l)
   {
-    return_value_sshfs_truncate_zero$1=sshfs_truncate_zero(path);
-    return return_value_sshfs_truncate_zero$1;
+    return_value_sshfs_truncate_zero_1=sshfs_truncate_zero(path);
+    return return_value_sshfs_truncate_zero_1;
   }
 
   else
@@ -7487,14 +7487,14 @@ static signed int sshfs_truncate_workaround(const char *path, signed long int si
     else
       if(!(size >= stbuf.st_size))
       {
-        return_value_sshfs_truncate_shrink$2=sshfs_truncate_shrink(path, size);
-        return return_value_sshfs_truncate_shrink$2;
+        return_value_sshfs_truncate_shrink_2=sshfs_truncate_shrink(path, size);
+        return return_value_sshfs_truncate_shrink_2;
       }
 
       else
       {
-        return_value_sshfs_truncate_extend$3=sshfs_truncate_extend(path, size, fi);
-        return return_value_sshfs_truncate_extend$3;
+        return_value_sshfs_truncate_extend_3=sshfs_truncate_extend(path, size, fi);
+        return return_value_sshfs_truncate_extend_3;
       }
   }
 }
@@ -7550,21 +7550,21 @@ static signed int sshfs_write(const char *path, const char *wbuf, unsigned long 
   struct sshfs_file *sf;
   sf=get_sshfs_file(fi);
   (void)path;
-  signed int return_value_sshfs_file_is_conn$1;
-  return_value_sshfs_file_is_conn$1=sshfs_file_is_conn(sf);
-  _Bool tmp_if_expr$2;
-  if(return_value_sshfs_file_is_conn$1 == 0)
+  signed int return_value_sshfs_file_is_conn_1;
+  return_value_sshfs_file_is_conn_1=sshfs_file_is_conn(sf);
+  _Bool tmp_if_expr_2;
+  if(return_value_sshfs_file_is_conn_1 == 0)
     return -5;
 
   else
   {
     sshfs_inc_modifver();
     if(sshfs.sync_write == 0)
-      tmp_if_expr$2 = !(sf->write_error != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = !(sf->write_error != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       err=sshfs_async_write(sf, wbuf, size, offset);
 
     else
@@ -7588,7 +7588,7 @@ static void sshfs_write_end(struct request *req)
 {
   unsigned int serr;
   struct sshfs_file *sf = (struct sshfs_file *)req->data;
-  signed int return_value_buf_get_uint32$1;
+  signed int return_value_buf_get_uint32_1;
   if(!(req->error == 0))
     sf->write_error = req->error;
 
@@ -7600,8 +7600,8 @@ static void sshfs_write_end(struct request *req)
 
       else
       {
-        return_value_buf_get_uint32$1=buf_get_uint32(&req->reply, &serr);
-        if(!(return_value_buf_get_uint32$1 == -1))
+        return_value_buf_get_uint32_1=buf_get_uint32(&req->reply, &serr);
+        if(!(return_value_buf_get_uint32_1 == -1))
         {
           if(!(serr == 0u))
             sf->write_error = -5;
@@ -7622,8 +7622,8 @@ static signed int start_processing_thread(void)
 {
   signed int err;
   unsigned long int thread_id;
-  struct anonymous$0 oldset;
-  struct anonymous$0 newset;
+  struct anonymous_0 oldset;
+  struct anonymous_0 newset;
   if(!(sshfs.processing_thread_started == 0))
     return 0;
 
@@ -7657,14 +7657,14 @@ static signed int start_processing_thread(void)
       err=pthread_create(&thread_id, (const union pthread_attr_t *)(void *)0, process_requests, (void *)0);
       if(!(err == 0))
       {
-        char *return_value_strerror$1;
-        return_value_strerror$1=strerror(err);
-        fprintf(stderr, "failed to create thread: %s\n", return_value_strerror$1);
+        char *return_value_strerror_1;
+        return_value_strerror_1=strerror(err);
+        fprintf(stderr, "failed to create thread: %s\n", return_value_strerror_1);
         return -5;
       }
 
       pthread_detach(thread_id);
-      pthread_sigmask(2, &oldset, (struct anonymous$0 *)(void *)0);
+      pthread_sigmask(2, &oldset, (struct anonymous_0 *)(void *)0);
       sshfs.processing_thread_started = 1;
       return 0;
     }
@@ -7677,8 +7677,8 @@ static signed int start_ssh(void)
   char *ptyname = (char *)(void *)0;
   signed int sockpair[2l];
   signed int pid;
-  _Bool tmp_if_expr$5;
-  signed int return_value_dup2$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_dup2_4;
   if(!(sshfs.password_stdin == 0))
   {
     sshfs.ptyfd=pty_master(&ptyname);
@@ -7697,9 +7697,9 @@ static signed int start_ssh(void)
 
   __CPROVER_DUMP_L2:
     ;
-    signed int return_value_socketpair$1;
-    return_value_socketpair$1=socketpair(1, 1, 0, sockpair);
-    if(return_value_socketpair$1 == -1)
+    signed int return_value_socketpair_1;
+    return_value_socketpair_1=socketpair(1, 1, 0, sockpair);
+    if(return_value_socketpair_1 == -1)
     {
       perror("failed to create socket pair");
       return -1;
@@ -7726,9 +7726,9 @@ static signed int start_ssh(void)
             signed int i = 1;
             for( ; !(i >= sshfs.ssh_args.argc); i = i + 1)
             {
-              signed int return_value_strcmp$2;
-              return_value_strcmp$2=strcmp(sshfs.ssh_args.argv[(signed long int)i], "-x");
-              if(return_value_strcmp$2 == 0)
+              signed int return_value_strcmp_2;
+              return_value_strcmp_2=strcmp(sshfs.ssh_args.argv[(signed long int)i], "-x");
+              if(return_value_strcmp_2 == 0)
               {
                 replace_arg(&sshfs.ssh_args.argv[(signed long int)i], "-X");
                 break;
@@ -7738,17 +7738,17 @@ static signed int start_ssh(void)
           }
 
           devnull=open("/dev/null", 01);
-          signed int return_value_dup2$3;
-          return_value_dup2$3=dup2(sockpair[(signed long int)1], 0);
-          if(return_value_dup2$3 == -1)
-            tmp_if_expr$5 = (_Bool)1;
+          signed int return_value_dup2_3;
+          return_value_dup2_3=dup2(sockpair[(signed long int)1], 0);
+          if(return_value_dup2_3 == -1)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
-            return_value_dup2$4=dup2(sockpair[(signed long int)1], 1);
-            tmp_if_expr$5 = return_value_dup2$4 == -1 ? (_Bool)1 : (_Bool)0;
+            return_value_dup2_4=dup2(sockpair[(signed long int)1], 1);
+            tmp_if_expr_5 = return_value_dup2_4 == -1 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$5)
+          if(tmp_if_expr_5)
           {
             perror("failed to redirect input/output");
             _exit(1);
@@ -7760,11 +7760,11 @@ static signed int start_ssh(void)
           close(devnull);
           close(sockpair[(signed long int)0]);
           close(sockpair[(signed long int)1]);
-          signed int return_value_fork$6;
-          return_value_fork$6=fork();
-          if(!(return_value_fork$6 == -1))
+          signed int return_value_fork_6;
+          return_value_fork_6=fork();
+          if(!(return_value_fork_6 == -1))
           {
-            if(return_value_fork$6 == 0)
+            if(return_value_fork_6 == 0)
               goto __CPROVER_DUMP_L14;
 
           }
@@ -7801,20 +7801,20 @@ static signed int start_ssh(void)
 
           if(!(sshfs.debug == 0))
           {
-            signed int start_ssh$$1$$4$$5$$i;
+            signed int start_ssh__1__4__5__i;
             fprintf(stderr, "executing");
-            start_ssh$$1$$4$$5$$i = 0;
-            for( ; !(start_ssh$$1$$4$$5$$i >= sshfs.ssh_args.argc); start_ssh$$1$$4$$5$$i = start_ssh$$1$$4$$5$$i + 1)
-              fprintf(stderr, " <%s>", sshfs.ssh_args.argv[(signed long int)start_ssh$$1$$4$$5$$i]);
+            start_ssh__1__4__5__i = 0;
+            for( ; !(start_ssh__1__4__5__i >= sshfs.ssh_args.argc); start_ssh__1__4__5__i = start_ssh__1__4__5__i + 1)
+              fprintf(stderr, " <%s>", sshfs.ssh_args.argv[(signed long int)start_ssh__1__4__5__i]);
             fprintf(stderr, "\n");
           }
 
           execvp(sshfs.ssh_args.argv[(signed long int)0], sshfs.ssh_args.argv);
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          char *return_value_strerror$8;
-          return_value_strerror$8=strerror(*return_value___errno_location$7);
-          fprintf(stderr, "failed to execute '%s': %s\n", sshfs.ssh_args.argv[(signed long int)0], return_value_strerror$8);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          char *return_value_strerror_8;
+          return_value_strerror_8=strerror(*return_value___errno_location_7);
+          fprintf(stderr, "failed to execute '%s': %s\n", sshfs.ssh_args.argv[(signed long int)0], return_value_strerror_8);
           _exit(1);
         }
 
@@ -7834,13 +7834,13 @@ static void strip_common(const char **sp, const char **tp)
 
 __CPROVER_DUMP_L1:
   ;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
   while((_Bool)1)
   {
     if((signed int)*s == 47)
@@ -7856,16 +7856,16 @@ __CPROVER_DUMP_L1:
     do
     {
       if(*s == *t)
-        tmp_if_expr$6 = *s != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (signed int)*s != 47 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (signed int)*s != 47 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(!tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(!tmp_if_expr_7)
         break;
 
       s = s + 1l;
@@ -7873,35 +7873,35 @@ __CPROVER_DUMP_L1:
     }
     while((_Bool)1);
     if(*s == *t)
-      tmp_if_expr$1 = *s != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(*s == 0)
-        tmp_if_expr$2 = (signed int)*t == 47 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)*t == 47 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
       if((signed int)*s == 47)
-        tmp_if_expr$4 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$5)
+    if(!tmp_if_expr_5)
       break;
 
   }
@@ -7931,13 +7931,13 @@ static void transform_symlink(const char *path, char **linkp)
   char *s;
   signed int dotdots;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)*l == 47))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)b[(signed long int)0] != 47 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)b[(signed long int)0] != 47 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     strip_common(&l, &b);
     if(*b == 0)
@@ -7947,11 +7947,11 @@ static void transform_symlink(const char *path, char **linkp)
       if(!(dotdots == 0))
       {
         dotdots = dotdots - 1;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(l);
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc((unsigned long int)(dotdots * 3) + return_value_strlen$2 + (unsigned long int)2);
-        newlink = (char *)return_value_malloc$3;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(l);
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc((unsigned long int)(dotdots * 3) + return_value_strlen_2 + (unsigned long int)2);
+        newlink = (char *)return_value_malloc_3;
         if(newlink == ((char *)NULL))
         {
           fprintf(stderr, "sshfs: memory allocation failed\n");
@@ -7989,9 +7989,9 @@ static void transform_symlink(const char *path, char **linkp)
 static inline signed int translate_id(unsigned int *id, struct _GHashTable *map)
 {
   void *id_p;
-  signed int return_value_g_hash_table_lookup_extended$1;
-  return_value_g_hash_table_lookup_extended$1=g_hash_table_lookup_extended(map, (void *)(unsigned long int)*id, (void **)(void *)0, &id_p);
-  if(!(return_value_g_hash_table_lookup_extended$1 == 0))
+  signed int return_value_g_hash_table_lookup_extended_1;
+  return_value_g_hash_table_lookup_extended_1=g_hash_table_lookup_extended(map, (void *)(unsigned long int)*id, (void **)(void *)0, &id_p);
+  if(!(return_value_g_hash_table_lookup_extended_1 == 0))
   {
     *id = (unsigned int)(unsigned long int)id_p;
     return 0;
@@ -8088,30 +8088,30 @@ static void usage(const char *progname)
 // file sshfs.c line 3745
 static unsigned int * username_to_uid(char *name)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   struct passwd *pw;
   pw=getpwnam(name);
   if(pw == ((struct passwd *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 0)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 0)
       return (unsigned int *)(void *)0;
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "Failed to look up user '%s': %s\n", name, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "Failed to look up user '%s': %s\n", name, return_value_strerror_4);
     exit(1);
   }
 
   unsigned int *r;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(unsigned int) /*4ul*/ );
-  r = (unsigned int *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(unsigned int) /*4ul*/ );
+  r = (unsigned int *)return_value_malloc_5;
   if(r == ((unsigned int *)NULL))
   {
     fprintf(stderr, "sshfs: memory allocation failed\n");
@@ -8132,8 +8132,8 @@ static signed int wait_chunk(struct read_chunk *chunk, char *buf, unsigned long 
   while(!(chunk->sio.num_reqs == 0))
     pthread_cond_wait(&chunk->sio.finished, &sshfs.lock);
   pthread_mutex_unlock(&sshfs.lock);
-  signed int return_value_list_empty$1;
-  struct read_req *tmp_statement_expression$2;
+  signed int return_value_list_empty_1;
+  struct read_req *tmp_statement_expression_2;
   if(!(chunk->sio.error == 0))
   {
     if(!(chunk->sio.error == 1))
@@ -8145,16 +8145,16 @@ static signed int wait_chunk(struct read_chunk *chunk, char *buf, unsigned long 
   {
     do
     {
-      return_value_list_empty$1=list_empty(&chunk->reqs);
-      if(!(return_value_list_empty$1 == 0))
+      return_value_list_empty_1=list_empty(&chunk->reqs);
+      if(!(return_value_list_empty_1 == 0))
         break;
 
       if(size == 0ul)
         break;
 
       const struct list_head *__mptr = chunk->reqs.prev;
-      tmp_statement_expression$2 = (struct read_req *)((char *)__mptr - (signed long int)8ul);
-      rreq = tmp_statement_expression$2;
+      tmp_statement_expression_2 = (struct read_req *)((char *)__mptr - (signed long int)8ul);
+      rreq = tmp_statement_expression_2;
       if(!(rreq->res >= 0l))
       {
         chunk->sio.error = (signed int)rreq->res;

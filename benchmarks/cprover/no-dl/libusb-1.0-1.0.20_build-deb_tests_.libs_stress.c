@@ -1,46 +1,46 @@
-// #anon_enum$LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED=1$LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT=2
+// #anon_enum_LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED=1_LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT=2
 // file ../../libusb/libusb.h line 1897
-enum anonymous$2 { LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED=1, LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT=2 };
+enum anonymous_2 { LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED=1, LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT=2 };
 
-// #anon_enum$LIBUSB_HOTPLUG_NO_FLAGS=0$LIBUSB_HOTPLUG_ENUMERATE=1
+// #anon_enum_LIBUSB_HOTPLUG_NO_FLAGS=0_LIBUSB_HOTPLUG_ENUMERATE=1
 // file ../../libusb/libusb.h line 1884
-enum anonymous$1 { LIBUSB_HOTPLUG_NO_FLAGS=0, LIBUSB_HOTPLUG_ENUMERATE=1 };
+enum anonymous_1 { LIBUSB_HOTPLUG_NO_FLAGS=0, LIBUSB_HOTPLUG_ENUMERATE=1 };
 
-// #anon_enum$TEST_STATUS_SUCCESS=0$TEST_STATUS_FAILURE=1$TEST_STATUS_ERROR=2$TEST_STATUS_SKIP=3
+// #anon_enum_TEST_STATUS_SUCCESS=0_TEST_STATUS_FAILURE=1_TEST_STATUS_ERROR=2_TEST_STATUS_SKIP=3
 // file ../../tests/libusb_testlib.h line 36
-enum anonymous$6 { TEST_STATUS_SUCCESS=0, TEST_STATUS_FAILURE=1, TEST_STATUS_ERROR=2, TEST_STATUS_SKIP=3 };
+enum anonymous_6 { TEST_STATUS_SUCCESS=0, TEST_STATUS_FAILURE=1, TEST_STATUS_ERROR=2, TEST_STATUS_SKIP=3 };
 
-// tag-#anon#ST[*{*{S8}$S8$}$*{S8}$S8$$'test_names'||S32'test_count'||S32'list_tests'||S32'verbose'||S32'old_stdout'||S32'old_stderr'||U32'$pad0'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'output_file'||S32'null_fd'||U32'$pad1'|]
+// tag-#anon#ST[*{*{S8}_S8_}_*{S8}_S8__'test_names'||S32'test_count'||S32'list_tests'||S32'verbose'||S32'old_stdout'||S32'old_stderr'||U32'_pad0'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'output_file'||S32'null_fd'||U32'_pad1'|]
 // file ../../tests/libusb_testlib.h line 51
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{cS8}$cS8$'name'||*{EN#anon_enum$TEST_STATUS_SUCCESS=0$TEST_STATUS_FAILURE=1$TEST_STATUS_ERROR=2$TEST_STATUS_SKIP=3#{U32}$U32$(*{SYM#tag-#anon#ST[*{*{S8}$S8$}$*{S8}$S8$$'test_names'||S32'test_count'||S32'list_tests'||S32'verbose'||S32'old_stdout'||S32'old_stderr'||U32'$pad0'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'output_file'||S32'null_fd'||U32'$pad1'|]#}$SYM#tag-#anon#ST[*{*{S8}$S8$}$*{S8}$S8$$'test_names'||S32'test_count'||S32'list_tests'||S32'verbose'||S32'old_stdout'||S32'old_stderr'||U32'$pad0'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'output_file'||S32'null_fd'||U32'$pad1'|]#$)->EN#anon_enum$TEST_STATUS_SUCCESS=0$TEST_STATUS_FAILURE=1$TEST_STATUS_ERROR=2$TEST_STATUS_SKIP=3#{U32}$U32$}$EN#anon_enum$TEST_STATUS_SUCCESS=0$TEST_STATUS_FAILURE=1$TEST_STATUS_ERROR=2$TEST_STATUS_SKIP=3#{U32}$U32$(*{SYM#tag-#anon#ST[*{*{S8}$S8$}$*{S8}$S8$$'test_names'||S32'test_count'||S32'list_tests'||S32'verbose'||S32'old_stdout'||S32'old_stderr'||U32'$pad0'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'output_file'||S32'null_fd'||U32'$pad1'|]#}$SYM#tag-#anon#ST[*{*{S8}$S8$}$*{S8}$S8$$'test_names'||S32'test_count'||S32'list_tests'||S32'verbose'||S32'old_stdout'||S32'old_stderr'||U32'$pad0'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'output_file'||S32'null_fd'||U32'$pad1'|]#$)->EN#anon_enum$TEST_STATUS_SUCCESS=0$TEST_STATUS_FAILURE=1$TEST_STATUS_ERROR=2$TEST_STATUS_SKIP=3#{U32}$U32$$'function'|]
+// tag-#anon#ST[*{cS8}_cS8_'name'||*{EN#anon_enum_TEST_STATUS_SUCCESS=0_TEST_STATUS_FAILURE=1_TEST_STATUS_ERROR=2_TEST_STATUS_SKIP=3#{U32}_U32_(*{SYM#tag-#anon#ST[*{*{S8}_S8_}_*{S8}_S8__'test_names'||S32'test_count'||S32'list_tests'||S32'verbose'||S32'old_stdout'||S32'old_stderr'||U32'_pad0'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'output_file'||S32'null_fd'||U32'_pad1'|]#}_SYM#tag-#anon#ST[*{*{S8}_S8_}_*{S8}_S8__'test_names'||S32'test_count'||S32'list_tests'||S32'verbose'||S32'old_stdout'||S32'old_stderr'||U32'_pad0'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'output_file'||S32'null_fd'||U32'_pad1'|]#_)->EN#anon_enum_TEST_STATUS_SUCCESS=0_TEST_STATUS_FAILURE=1_TEST_STATUS_ERROR=2_TEST_STATUS_SKIP=3#{U32}_U32_}_EN#anon_enum_TEST_STATUS_SUCCESS=0_TEST_STATUS_FAILURE=1_TEST_STATUS_ERROR=2_TEST_STATUS_SKIP=3#{U32}_U32_(*{SYM#tag-#anon#ST[*{*{S8}_S8_}_*{S8}_S8__'test_names'||S32'test_count'||S32'list_tests'||S32'verbose'||S32'old_stdout'||S32'old_stderr'||U32'_pad0'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'output_file'||S32'null_fd'||U32'_pad1'|]#}_SYM#tag-#anon#ST[*{*{S8}_S8_}_*{S8}_S8__'test_names'||S32'test_count'||S32'list_tests'||S32'verbose'||S32'old_stdout'||S32'old_stderr'||U32'_pad0'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'output_file'||S32'null_fd'||U32'_pad1'|]#_)->EN#anon_enum_TEST_STATUS_SUCCESS=0_TEST_STATUS_FAILURE=1_TEST_STATUS_ERROR=2_TEST_STATUS_SKIP=3#{U32}_U32__'function'|]
 // file ../../tests/libusb_testlib.h line 79
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
 struct anonymous;
 
-// tag-#anon#UN[*{SYM#tag-usbfs_urb#}$SYM#tag-usbfs_urb#$'urbs'||*{*{SYM#tag-usbfs_urb#}$SYM#tag-usbfs_urb#$}$*{SYM#tag-usbfs_urb#}$SYM#tag-usbfs_urb#$$'iso_urbs'|]
+// tag-#anon#UN[*{SYM#tag-usbfs_urb#}_SYM#tag-usbfs_urb#_'urbs'||*{*{SYM#tag-usbfs_urb#}_SYM#tag-usbfs_urb#_}_*{SYM#tag-usbfs_urb#}_SYM#tag-usbfs_urb#__'iso_urbs'|]
 // file ../../libusb/os/linux_usbfs.c line 167
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$4;
+union anonymous_4;
 
 // tag-#anon#UN[S32'number_of_packets'||U32'stream_id'|]
 // file ../../libusb/os/linux_usbfs.h line 97
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -350,7 +350,7 @@ static signed int check_usb_vfs(const char *dirname);
 static signed int claim_interface(struct libusb_device_handle *handle, signed int iface);
 // cleanup_test_output
 // file ../../tests/testlib.c line 80
-static void cleanup_test_output(struct anonymous$5 *ctx);
+static void cleanup_test_output(struct anonymous_5 *ctx);
 // clear_configuration
 // file ../../libusb/descriptor.c line 365
 static void clear_configuration(struct libusb_config_descriptor *config);
@@ -516,9 +516,9 @@ static inline unsigned char * libusb_control_transfer_get_data(struct libusb_tra
 // libusb_cpu_to_le16
 // file ../../libusb/libusb.h line 161
 static inline unsigned short int libusb_cpu_to_le16(const unsigned short int x);
-// libusb_cpu_to_le16$link1
+// libusb_cpu_to_le16_link1
 // file ../../libusb/libusb.h line 161
-static inline unsigned short int libusb_cpu_to_le16$link1(const unsigned short int x$link1);
+static inline unsigned short int libusb_cpu_to_le16_link1(const unsigned short int x_link1);
 // libusb_detach_kernel_driver
 // file ../../libusb/core.c line 1857
 signed int libusb_detach_kernel_driver(struct libusb_device_handle *dev, signed int interface_number);
@@ -537,18 +537,18 @@ void libusb_exit(struct libusb_context *ctx);
 // libusb_fill_bulk_transfer
 // file ../../libusb/libusb.h line 1545
 static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *buffer, signed int length, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_bulk_transfer::callback$object
+// libusb_fill_bulk_transfer::callback_object
 //
-void callback$object(struct libusb_transfer *);
+void callback_object(struct libusb_transfer *);
 // libusb_fill_control_setup
 // file ../../libusb/libusb.h line 1465
 static inline void libusb_fill_control_setup(unsigned char *buffer, unsigned char bmRequestType, unsigned char bRequest, unsigned short int wValue, unsigned short int wIndex, unsigned short int wLength);
 // libusb_fill_control_transfer
 // file ../../libusb/libusb.h line 1514
 static inline void libusb_fill_control_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char *buffer, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_control_transfer::callback$object
+// libusb_fill_control_transfer::callback_object
 //
-void callback$object(struct libusb_transfer *);
+void callback_object(struct libusb_transfer *);
 // libusb_free_bos_descriptor
 // file ../../libusb/descriptor.c line 953
 void libusb_free_bos_descriptor(struct libusb_bos_descriptor *bos);
@@ -683,10 +683,10 @@ signed int libusb_has_capability(unsigned int capability);
 void libusb_hotplug_deregister_callback(struct libusb_context *ctx, signed int handle);
 // libusb_hotplug_register_callback
 // file ../../libusb/hotplug.c line 230
-signed int libusb_hotplug_register_callback(struct libusb_context *ctx, enum anonymous$2 events, enum anonymous$1 flags, signed int vendor_id, signed int product_id, signed int dev_class, signed int (*cb_fn)(struct libusb_context *, struct libusb_device *, enum anonymous$2, void *), void *user_data, signed int *handle);
-// libusb_hotplug_register_callback::cb_fn$object
+signed int libusb_hotplug_register_callback(struct libusb_context *ctx, enum anonymous_2 events, enum anonymous_1 flags, signed int vendor_id, signed int product_id, signed int dev_class, signed int (*cb_fn)(struct libusb_context *, struct libusb_device *, enum anonymous_2, void *), void *user_data, signed int *handle);
+// libusb_hotplug_register_callback::cb_fn_object
 //
-signed int cb_fn$object(struct libusb_context *, struct libusb_device *, enum anonymous$2, void *);
+signed int cb_fn_object(struct libusb_context *, struct libusb_device *, enum anonymous_2, void *);
 // libusb_init
 // file ../../libusb/libusb.h line 1303
 signed int libusb_init(struct libusb_context **context);
@@ -735,12 +735,12 @@ signed int libusb_set_interface_alt_setting(struct libusb_device_handle *dev, si
 // libusb_set_pollfd_notifiers
 // file ../../libusb/io.c line 2565
 void libusb_set_pollfd_notifiers(struct libusb_context *ctx, void (*added_cb)(signed int, signed short int, void *), void (*removed_cb)(signed int, void *), void *user_data);
-// libusb_set_pollfd_notifiers::added_cb$object
+// libusb_set_pollfd_notifiers::added_cb_object
 //
-void added_cb$object(signed int, signed short int, void *);
-// libusb_set_pollfd_notifiers::removed_cb$object
+void added_cb_object(signed int, signed short int, void *);
+// libusb_set_pollfd_notifiers::removed_cb_object
 //
-void removed_cb$object(signed int, void *);
+void removed_cb_object(signed int, void *);
 // libusb_setlocale
 // file ../../libusb/strerror.c line 158
 signed int libusb_setlocale(const char *locale);
@@ -752,10 +752,10 @@ const char * libusb_strerror(enum libusb_error errcode);
 signed int libusb_submit_transfer(struct libusb_transfer *transfer);
 // libusb_testlib_logf
 // file ../../tests/libusb_testlib.h line 65
-void libusb_testlib_logf(struct anonymous$5 *ctx, const char *fmt, ...);
+void libusb_testlib_logf(struct anonymous_5 *ctx, const char *fmt, ...);
 // libusb_testlib_run_tests
 // file ../../tests/libusb_testlib.h line 103
-signed int libusb_testlib_run_tests(signed int argc, char **argv, const struct anonymous$7 *tests);
+signed int libusb_testlib_run_tests(signed int argc, char **argv, const struct anonymous_7 *tests);
 // libusb_transfer_get_stream_id
 // file ../../libusb/io.c line 1599
 unsigned int libusb_transfer_get_stream_id(struct libusb_transfer *transfer);
@@ -819,33 +819,33 @@ signed int linux_udev_stop_event_monitor(void);
 // list_add
 // file ../../libusb/libusbi.h line 116
 static inline void list_add(struct list_head *entry, struct list_head *head);
-// list_add$link1
+// list_add_link1
 // file ../../libusb/libusbi.h line 116
-static inline void list_add$link1(struct list_head *entry$link1, struct list_head *head$link1);
-// list_add$link2
+static inline void list_add_link1(struct list_head *entry_link1, struct list_head *head_link1);
+// list_add_link2
 // file ../../libusb/libusbi.h line 116
-static inline void list_add$link2(struct list_head *entry$link2, struct list_head *head$link2);
+static inline void list_add_link2(struct list_head *entry_link2, struct list_head *head_link2);
 // list_add_tail
 // file ../../libusb/libusbi.h line 125
 static inline void list_add_tail(struct list_head *entry, struct list_head *head);
-// list_add_tail$link1
+// list_add_tail_link1
 // file ../../libusb/libusbi.h line 125
-static inline void list_add_tail$link1(struct list_head *entry$link1, struct list_head *head$link1);
+static inline void list_add_tail_link1(struct list_head *entry_link1, struct list_head *head_link1);
 // list_del
 // file ../../libusb/libusbi.h line 135
 static inline void list_del(struct list_head *entry);
-// list_del$link1
+// list_del_link1
 // file ../../libusb/libusbi.h line 135
-static inline void list_del$link1(struct list_head *entry$link1);
-// list_del$link2
+static inline void list_del_link1(struct list_head *entry_link1);
+// list_del_link2
 // file ../../libusb/libusbi.h line 135
-static inline void list_del$link2(struct list_head *entry$link2);
+static inline void list_del_link2(struct list_head *entry_link2);
 // list_init
 // file ../../libusb/libusbi.h line 111
 static inline void list_init(struct list_head *entry);
-// list_init$link1
+// list_init_link1
 // file ../../libusb/libusbi.h line 111
-static inline void list_init$link1(struct list_head *entry$link1);
+static inline void list_init_link1(struct list_head *entry_link1);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -974,19 +974,19 @@ static void print_usage(signed int argc, char **argv);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$9 *);
+extern signed int pthread_cond_broadcast(union anonymous_9 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$9 *);
+extern signed int pthread_cond_destroy(union anonymous_9 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$9 *, const union anonymous$4 *);
+extern signed int pthread_cond_init(union anonymous_9 *, const union anonymous_4 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$9 *, union anonymous$3 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_9 *, union anonymous_3 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$9 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_9 *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -995,28 +995,28 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$4 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$3 *);
+extern signed int pthread_mutex_trylock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$4 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_4 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$4 *);
+extern signed int pthread_mutexattr_init(union anonymous_4 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$4 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_4 *, signed int);
 // raw_desc_to_config
 // file ../../libusb/descriptor.c line 499
 static signed int raw_desc_to_config(struct libusb_context *ctx, unsigned char *buf, signed int size, signed int host_endian, struct libusb_config_descriptor **config);
@@ -1046,7 +1046,7 @@ static signed int seek_to_next_config(struct libusb_context *ctx, unsigned char 
 static signed int seek_to_next_descriptor(struct libusb_context *ctx, unsigned char descriptor_type, unsigned char *buffer, signed int size);
 // setup_test_output
 // file ../../tests/testlib.c line 108
-static signed int setup_test_output(struct anonymous$5 *ctx);
+static signed int setup_test_output(struct anonymous_5 *ctx);
 // snprintf
 // file /usr/include/stdio.h line 386
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
@@ -1112,19 +1112,19 @@ static signed int sysfs_get_active_config(struct libusb_device *dev, signed int 
 static signed int sysfs_scan_device(struct libusb_context *ctx, const char *devname);
 // test_default_context_change
 // file ../../tests/stress.c line 115
-static enum anonymous$6 test_default_context_change(struct anonymous$5 *tctx);
+static enum anonymous_6 test_default_context_change(struct anonymous_5 *tctx);
 // test_get_device_list
 // file ../../tests/stress.c line 49
-static enum anonymous$6 test_get_device_list(struct anonymous$5 *tctx);
+static enum anonymous_6 test_get_device_list(struct anonymous_5 *tctx);
 // test_init_and_exit
 // file ../../tests/stress.c line 29
-static enum anonymous$6 test_init_and_exit(struct anonymous$5 *tctx);
+static enum anonymous_6 test_init_and_exit(struct anonymous_5 *tctx);
 // test_many_device_lists
 // file ../../tests/stress.c line 74
-static enum anonymous$6 test_many_device_lists(struct anonymous$5 *tctx);
+static enum anonymous_6 test_many_device_lists(struct anonymous_5 *tctx);
 // test_result_to_str
 // file ../../tests/testlib.c line 56
-static const char * test_result_to_str(enum anonymous$6 result);
+static const char * test_result_to_str(enum anonymous_6 result);
 // timerfd_create
 // file /usr/include/x86_64-linux-gnu/sys/timerfd.h line 38
 extern signed int timerfd_create(signed int, signed int);
@@ -1247,13 +1247,13 @@ signed int usbi_handle_transfer_completion(struct usbi_transfer *itransfer, enum
 void usbi_hotplug_deregister_all(struct libusb_context *ctx);
 // usbi_hotplug_match
 // file ../../libusb/hotplug.h line 85
-void usbi_hotplug_match(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous$2 event);
+void usbi_hotplug_match(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous_2 event);
 // usbi_hotplug_match_cb
 // file ../../libusb/hotplug.c line 150
-static signed int usbi_hotplug_match_cb(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous$2 event, struct libusb_hotplug_callback *hotplug_cb);
+static signed int usbi_hotplug_match_cb(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous_2 event, struct libusb_hotplug_callback *hotplug_cb);
 // usbi_hotplug_notification
 // file ../../libusb/hotplug.h line 87
-void usbi_hotplug_notification(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous$2 event);
+void usbi_hotplug_notification(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous_2 event);
 // usbi_io_exit
 // file ../../libusb/libusbi.h line 469
 void usbi_io_exit(struct libusb_context *ctx);
@@ -1271,7 +1271,7 @@ static void usbi_log_str(struct libusb_context *ctx, enum libusb_log_level level
 void usbi_log_v(struct libusb_context *ctx, enum libusb_log_level level, const char *function, const char *format, void **args);
 // usbi_mutex_init_recursive
 // file ../../libusb/os/threads_posix.h line 46
-extern signed int usbi_mutex_init_recursive(union anonymous$3 *mutex, union anonymous$4 *attr);
+extern signed int usbi_mutex_init_recursive(union anonymous_3 *mutex, union anonymous_4 *attr);
 // usbi_parse_descriptor
 // file ../../libusb/descriptor.c line 45
 signed int usbi_parse_descriptor(const unsigned char *source, const char *descriptor, void *dest, signed int host_endian);
@@ -1281,12 +1281,12 @@ signed int usbi_pipe(signed int *pipefd);
 // usbi_reallocf
 // file ../../libusb/libusbi.h line 142
 static inline void * usbi_reallocf(void *ptr, unsigned long int size);
-// usbi_reallocf$link1
+// usbi_reallocf_link1
 // file ../../libusb/libusbi.h line 142
-static inline void * usbi_reallocf$link1(void *ptr$link1, unsigned long int size$link1);
-// usbi_reallocf$link2
+static inline void * usbi_reallocf_link1(void *ptr_link1, unsigned long int size_link1);
+// usbi_reallocf_link2
 // file ../../libusb/libusbi.h line 142
-static inline void * usbi_reallocf$link2(void *ptr$link2, unsigned long int size$link2);
+static inline void * usbi_reallocf_link2(void *ptr_link2, unsigned long int size_link2);
 // usbi_remove_pollfd
 // file ../../libusb/io.c line 2615
 void usbi_remove_pollfd(struct libusb_context *ctx, signed int fd);
@@ -1315,7 +1315,7 @@ extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$5
+struct anonymous_5
 {
   // test_names
   char **test_names;
@@ -1335,12 +1335,12 @@ struct anonymous$5
   signed int null_fd;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // name
   const char *name;
   // function
-  enum anonymous$6 (*function)(struct anonymous$5 *);
+  enum anonymous_6 (*function)(struct anonymous_5 *);
 };
 
 struct anonymous
@@ -1363,7 +1363,7 @@ struct anonymous
   unsigned int __broadcast_seq;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // urbs
   struct usbfs_urb *urbs;
@@ -1371,7 +1371,7 @@ union anonymous$10
   struct usbfs_urb **iso_urbs;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[4l];
@@ -1379,7 +1379,7 @@ union anonymous$4
   signed int __align;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // number_of_packets
   signed int number_of_packets;
@@ -1387,7 +1387,7 @@ union anonymous$8
   unsigned int stream_id;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __data
   struct anonymous __data;
@@ -1425,7 +1425,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1564,7 +1564,7 @@ struct libusb_device_descriptor
 struct libusb_device
 {
   // lock
-  union anonymous$3 lock;
+  union anonymous_3 lock;
   // refcnt
   signed int refcnt;
   // ctx
@@ -1696,19 +1696,19 @@ struct libusb_context
   // usb_devs
   struct list_head usb_devs;
   // usb_devs_lock
-  union anonymous$3 usb_devs_lock;
+  union anonymous_3 usb_devs_lock;
   // open_devs
   struct list_head open_devs;
   // open_devs_lock
-  union anonymous$3 open_devs_lock;
+  union anonymous_3 open_devs_lock;
   // hotplug_cbs
   struct list_head hotplug_cbs;
   // hotplug_cbs_lock
-  union anonymous$3 hotplug_cbs_lock;
+  union anonymous_3 hotplug_cbs_lock;
   // flying_transfers
   struct list_head flying_transfers;
   // flying_transfers_lock
-  union anonymous$3 flying_transfers_lock;
+  union anonymous_3 flying_transfers_lock;
   // fd_added_cb
   void (*fd_added_cb)(signed int, signed short int, void *);
   // fd_removed_cb
@@ -1716,15 +1716,15 @@ struct libusb_context
   // fd_cb_user_data
   void *fd_cb_user_data;
   // events_lock
-  union anonymous$3 events_lock;
+  union anonymous_3 events_lock;
   // event_handler_active
   signed int event_handler_active;
   // event_waiters_lock
-  union anonymous$3 event_waiters_lock;
+  union anonymous_3 event_waiters_lock;
   // event_waiters_cond
-  union anonymous$9 event_waiters_cond;
+  union anonymous_9 event_waiters_cond;
   // event_data_lock
-  union anonymous$3 event_data_lock;
+  union anonymous_3 event_data_lock;
   // device_close
   unsigned int device_close;
   // ipollfds
@@ -1762,7 +1762,7 @@ struct libusb_control_setup
 struct libusb_device_handle
 {
   // lock
-  union anonymous$3 lock;
+  union anonymous_3 lock;
   // claimed_interfaces
   unsigned long int claimed_interfaces;
   // list
@@ -1810,11 +1810,11 @@ struct libusb_hotplug_callback
   // dev_class
   signed int dev_class;
   // flags
-  enum anonymous$1 flags;
+  enum anonymous_1 flags;
   // events
-  enum anonymous$2 events;
+  enum anonymous_2 events;
   // cb
-  signed int (*cb)(struct libusb_context *, struct libusb_device *, enum anonymous$2, void *);
+  signed int (*cb)(struct libusb_context *, struct libusb_device *, enum anonymous_2, void *);
   // handle
   signed int handle;
   // user_data
@@ -1828,7 +1828,7 @@ struct libusb_hotplug_callback
 struct libusb_hotplug_message
 {
   // event
-  enum anonymous$2 event;
+  enum anonymous_2 event;
   // device
   struct libusb_device *device;
   // list
@@ -2003,8 +2003,8 @@ struct linux_device_priv
 
 struct linux_transfer_priv
 {
-  // $anon0
-  union anonymous$10 $anon0;
+  // _anon0
+  union anonymous_10 _anon0;
   // reap_action
   enum reap_action reap_action;
   // num_urbs
@@ -2185,8 +2185,8 @@ struct usbfs_urb
   signed int actual_length;
   // start_frame
   signed int start_frame;
-  // $anon0
-  union anonymous$8 $anon0;
+  // _anon0
+  union anonymous_8 _anon0;
   // error_count
   signed int error_count;
   // signr
@@ -2296,9 +2296,9 @@ struct usbi_transfer
   // flags
   unsigned char flags;
   // lock
-  union anonymous$3 lock;
+  union anonymous_3 lock;
   // flags_lock
-  union anonymous$3 flags_lock;
+  union anonymous_3 flags_lock;
 };
 
 struct utsname
@@ -2323,12 +2323,12 @@ struct utsname
 struct list_head active_contexts_list;
 // active_contexts_lock
 // file ../../libusb/core.c line 73
-union anonymous$3 active_contexts_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 active_contexts_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // default_context_lock
 // file ../../libusb/core.c line 70
-static union anonymous$3 default_context_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_3 default_context_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // default_context_refcnt
@@ -2348,12 +2348,12 @@ static struct libusb_version libusb_version_internal = { .major=(const unsigned 
 static unsigned long int linux_event_thread;
 // linux_hotplug_lock
 // file ../../libusb/os/linux_usbfs.c line 126
-union anonymous$3 linux_hotplug_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 linux_hotplug_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // linux_hotplug_startstop_lock
 // file ../../libusb/os/linux_usbfs.c line 124
-union anonymous$3 linux_hotplug_startstop_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 linux_hotplug_startstop_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // linux_usbfs_backend
@@ -2408,14 +2408,14 @@ static signed int sysfs_can_relate_devices = -1;
 static signed int sysfs_has_descriptors = -1;
 // tests
 // file ../../tests/stress.c line 149
-static const struct anonymous$7 tests[5l];
+static const struct anonymous_7 tests[5l];
 // tests
 // file ../../tests/stress.c line 149
-static const struct anonymous$7 tests[5l] = { { .name="init_and_exit", .function=test_init_and_exit },
+static const struct anonymous_7 tests[5l] = { { .name="init_and_exit", .function=test_init_and_exit },
     { .name="get_device_list", .function=test_get_device_list },
     { .name="many_device_lists", .function=test_many_device_lists },
     { .name="default_context_change", .function=test_default_context_change },
-    { .name=(const char *)(void *)0, .function=(enum anonymous$6 (*)(struct anonymous$5 *))(void *)0 } };
+    { .name=(const char *)(void *)0, .function=(enum anonymous_6 (*)(struct anonymous_5 *))(void *)0 } };
 // timestamp_origin
 // file ../../libusb/core.c line 71
 static struct timeval timestamp_origin = { .tv_sec=(signed long int)0, .tv_usec=(signed long int)0 };
@@ -2486,14 +2486,14 @@ static signed int __read_sysfs_attr(struct libusb_context *ctx, const char *devn
   f=fopen(filename, "r");
   if(f == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 2)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 2)
       return LIBUSB_ERROR_NO_DEVICE;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "__read_sysfs_attr", "open %s failed errno=%d", (const void *)filename, *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "__read_sysfs_attr", "open %s failed errno=%d", (const void *)filename, *return_value___errno_location_2);
     return LIBUSB_ERROR_IO;
   }
 
@@ -2501,9 +2501,9 @@ static signed int __read_sysfs_attr(struct libusb_context *ctx, const char *devn
   fclose(f);
   if(!(r == 1))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "__read_sysfs_attr", "fscanf %s returned %d, errno=%d", attr, r, *return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "__read_sysfs_attr", "fscanf %s returned %d, errno=%d", attr, r, *return_value___errno_location_3);
     return LIBUSB_ERROR_NO_DEVICE;
   }
 
@@ -2550,9 +2550,9 @@ static signed int _get_usbfs_fd(struct libusb_device *dev, unsigned int mode, si
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 2)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 2)
     {
       if(silent == 0)
         usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "_get_usbfs_fd", "File doesn't exist, wait %d ms and try again", delay / 1000);
@@ -2572,14 +2572,14 @@ static signed int _get_usbfs_fd(struct libusb_device *dev, unsigned int mode, si
       ;
       if(silent == 0)
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "_get_usbfs_fd", "libusb couldn't open USB device %s: %s", (const void *)path, return_value_strerror$3);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(*return_value___errno_location$4 == 13)
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "_get_usbfs_fd", "libusb couldn't open USB device %s: %s", (const void *)path, return_value_strerror_3);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(*return_value___errno_location_4 == 13)
         {
           if(mode == 2u)
             usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "_get_usbfs_fd", "libusb requires write access to USB device nodes.");
@@ -2588,16 +2588,16 @@ static signed int _get_usbfs_fd(struct libusb_device *dev, unsigned int mode, si
 
       }
 
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 13)
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 13)
         return LIBUSB_ERROR_ACCESS;
 
       else
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        if(*return_value___errno_location$6 == 2)
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        if(*return_value___errno_location_6 == 2)
           return LIBUSB_ERROR_NO_DEVICE;
 
         else
@@ -2613,9 +2613,9 @@ static signed int _is_usbdev_entry(struct dirent *entry, signed int *bus_p, sign
 {
   signed int busnum;
   signed int devnum;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(entry->d_name, "usbdev%d.%d", &busnum, &devnum);
-  if(!(return_value_sscanf$1 == 2))
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(entry->d_name, "usbdev%d.%d", &busnum, &devnum);
+  if(!(return_value_sscanf_1 == 2))
     return 0;
 
   else
@@ -2643,9 +2643,9 @@ static signed int _open_sysfs_attr(struct libusb_device *dev, const char *attr)
   fd=open(filename, 00);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    usbi_log(dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "_open_sysfs_attr", "open %s failed ret=%d errno=%d", (const void *)filename, fd, *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    usbi_log(dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "_open_sysfs_attr", "open %s failed ret=%d errno=%d", (const void *)filename, fd, *return_value___errno_location_1);
     return LIBUSB_ERROR_IO;
   }
 
@@ -2662,22 +2662,22 @@ static signed int add_to_flying_list(struct usbi_transfer *transfer)
   signed int r = 0;
   signed int first = 1;
   pthread_mutex_lock(&ctx->flying_transfers_lock);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
   if(ctx->flying_transfers.next == &ctx->flying_transfers)
-    list_add$link1(&transfer->list, &ctx->flying_transfers);
+    list_add_link1(&transfer->list, &ctx->flying_transfers);
 
   else
   {
     if(!(timeout->tv_sec == 0l))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = timeout->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = timeout->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       list_add_tail(&transfer->list, &ctx->flying_transfers);
 
     else
@@ -2687,28 +2687,28 @@ static signed int add_to_flying_list(struct usbi_transfer *transfer)
       {
         struct timeval *cur_tv = &cur->timeout;
         if(!(cur_tv->tv_sec == 0l))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = cur_tv->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = cur_tv->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = cur_tv->tv_sec > timeout->tv_sec ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_3 = cur_tv->tv_sec > timeout->tv_sec ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
           if(cur_tv->tv_sec == timeout->tv_sec)
-            tmp_if_expr$4 = cur_tv->tv_usec > timeout->tv_usec ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = cur_tv->tv_usec > timeout->tv_usec ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (_Bool)0;
+          tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
         {
           list_add_tail(&transfer->list, &cur->list);
           goto out;
@@ -2722,26 +2722,26 @@ static signed int add_to_flying_list(struct usbi_transfer *transfer)
 
 out:
   ;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if(!(first == 0))
   {
     if(ctx->timerfd >= 0)
     {
       if(!(timeout->tv_sec == 0l))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = timeout->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = timeout->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
         struct itimerspec it = { .it_interval={ .tv_sec=(signed long int)0, .tv_nsec=(signed long int)0 }, .it_value={ .tv_sec=timeout->tv_sec, .tv_nsec=timeout->tv_usec * (signed long int)1000 } };
         usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "add_to_flying_list", "arm timerfd for timeout in %dms (first in line)", ((struct libusb_transfer *)((unsigned char *)transfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ ))->timeout);
         r=timerfd_settime(ctx->timerfd, 1, &it, (struct itimerspec *)(void *)0);
         if(!(r >= 0))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "add_to_flying_list", "failed to arm first timerfd (errno %d)", *return_value___errno_location$6);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "add_to_flying_list", "failed to arm first timerfd (errno %d)", *return_value___errno_location_6);
           r = LIBUSB_ERROR_OTHER;
         }
 
@@ -2752,7 +2752,7 @@ out:
   }
 
   if(!(r == 0))
-    list_del$link1(&transfer->list);
+    list_del_link1(&transfer->list);
 
   pthread_mutex_unlock(&ctx->flying_transfers_lock);
   return r;
@@ -2763,16 +2763,16 @@ out:
 static signed int arm_timerfd_for_next_timeout(struct libusb_context *ctx)
 {
   struct usbi_transfer *transfer = (struct usbi_transfer *)((unsigned long int)(&ctx->flying_transfers)->next - (unsigned long int)8ul);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(&transfer->list == &ctx->flying_transfers); transfer = (struct usbi_transfer *)((unsigned long int)transfer->list.next - (unsigned long int)8ul))
   {
     struct timeval *cur_tv = &transfer->timeout;
     if(!(cur_tv->tv_sec == 0l))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = cur_tv->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = cur_tv->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if((128 & (signed int)transfer->flags) == 0)
@@ -2791,9 +2791,9 @@ static signed int arm_timerfd_for_next_timeout(struct libusb_context *ctx)
 
 disarm:
   ;
-  signed int return_value_disarm_timerfd$2;
-  return_value_disarm_timerfd$2=disarm_timerfd(ctx);
-  return return_value_disarm_timerfd$2;
+  signed int return_value_disarm_timerfd_2;
+  return_value_disarm_timerfd_2=disarm_timerfd(ctx);
+  return return_value_disarm_timerfd_2;
 }
 
 // calculate_timeout
@@ -2811,9 +2811,9 @@ static signed int calculate_timeout(struct usbi_transfer *transfer)
     r=usbi_backend->clock_gettime(0, &current_time);
     if(!(r >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      usbi_log(((struct libusb_transfer *)((unsigned char *)transfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ ))->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "calculate_timeout", "failed to read monotonic clock, errno=%d", *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      usbi_log(((struct libusb_transfer *)((unsigned char *)transfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ ))->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "calculate_timeout", "failed to read monotonic clock, errno=%d", *return_value___errno_location_1);
       return r;
     }
 
@@ -2868,37 +2868,37 @@ static signed int check_usb_vfs(const char *dirname)
 static signed int claim_interface(struct libusb_device_handle *handle, signed int iface)
 {
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   signed int r;
   r=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(15 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &iface);
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_2;
   if(!(r == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 2)
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 2)
       return LIBUSB_ERROR_NOT_FOUND;
 
     else
     {
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 16)
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 16)
         return LIBUSB_ERROR_BUSY;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 19)
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 19)
           return LIBUSB_ERROR_NO_DEVICE;
 
       }
     }
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "claim_interface", "claim interface failed, error %d errno %d", r, *return_value___errno_location$5);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "claim_interface", "claim interface failed, error %d errno %d", r, *return_value___errno_location_5);
     return LIBUSB_ERROR_OTHER;
   }
 
@@ -2907,7 +2907,7 @@ static signed int claim_interface(struct libusb_device_handle *handle, signed in
 
 // cleanup_test_output
 // file ../../tests/testlib.c line 80
-static void cleanup_test_output(struct anonymous$5 *ctx)
+static void cleanup_test_output(struct anonymous_5 *ctx)
 {
   if(ctx->verbose == 0)
   {
@@ -3006,40 +3006,40 @@ static signed int detach_kernel_driver_and_claim(struct libusb_device_handle *ha
   struct usbfs_disconnect_claim dc;
   signed int r;
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   dc.interface = (unsigned int)interface;
   strcpy(dc.driver, "usbfs");
   dc.flags = (unsigned int)0x02;
   r=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(27 << 0)) | sizeof(struct usbfs_disconnect_claim) /*264ul*/  << 0 + 8 + 8, &dc);
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(r == 0)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
     if(!(r == 0))
     {
-      return_value___errno_location$4=__errno_location();
-      tmp_if_expr$5 = *return_value___errno_location$4 != 25 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_4=__errno_location();
+      tmp_if_expr_5 = *return_value___errno_location_4 != 25 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
   }
-  signed int *return_value___errno_location$3;
-  if(tmp_if_expr$6)
+  signed int *return_value___errno_location_3;
+  if(tmp_if_expr_6)
   {
     if(r == 0)
       return 0;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    switch(*return_value___errno_location$2)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    switch(*return_value___errno_location_2)
     {
       case 16:
         return LIBUSB_ERROR_BUSY;
@@ -3049,8 +3049,8 @@ static signed int detach_kernel_driver_and_claim(struct libusb_device_handle *ha
         return LIBUSB_ERROR_NO_DEVICE;
       default:
       {
-        return_value___errno_location$3=__errno_location();
-        usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "detach_kernel_driver_and_claim", "disconnect-and-claim failed errno %d", *return_value___errno_location$3);
+        return_value___errno_location_3=__errno_location();
+        usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "detach_kernel_driver_and_claim", "disconnect-and-claim failed errno %d", *return_value___errno_location_3);
         return LIBUSB_ERROR_OTHER;
       }
     }
@@ -3062,9 +3062,9 @@ static signed int detach_kernel_driver_and_claim(struct libusb_device_handle *ha
 
   else
   {
-    signed int return_value_claim_interface$7;
-    return_value_claim_interface$7=claim_interface(handle, interface);
-    return return_value_claim_interface$7;
+    signed int return_value_claim_interface_7;
+    return_value_claim_interface_7=claim_interface(handle, interface);
+    return return_value_claim_interface_7;
   }
 }
 
@@ -3089,30 +3089,30 @@ static signed int discard_urbs(struct usbi_transfer *itransfer, signed int first
 {
   struct libusb_transfer *transfer = (struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ );
   struct linux_transfer_priv *tpriv;
-  void *return_value_usbi_transfer_get_os_priv$1;
-  return_value_usbi_transfer_get_os_priv$1=usbi_transfer_get_os_priv(itransfer);
-  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv$1;
+  void *return_value_usbi_transfer_get_os_priv_1;
+  return_value_usbi_transfer_get_os_priv_1=usbi_transfer_get_os_priv(itransfer);
+  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv_1;
   struct linux_device_handle_priv *dpriv;
   dpriv=_device_handle_priv(transfer->dev_handle);
   signed int i;
   signed int ret = 0;
   struct usbfs_urb *urb;
   i = last_plus_one - 1;
-  signed int *return_value___errno_location$4;
+  signed int *return_value___errno_location_4;
   for( ; i >= first; i = i - 1)
   {
     if((signed int)transfer->type == LIBUSB_TRANSFER_TYPE_ISOCHRONOUS)
-      urb = tpriv->$anon0.iso_urbs[(signed long int)i];
+      urb = tpriv->_anon0.iso_urbs[(signed long int)i];
 
     else
-      urb = &tpriv->$anon0.urbs[(signed long int)i];
-    signed int return_value_ioctl$2;
-    return_value_ioctl$2=ioctl(dpriv->fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(11 << 0) | (unsigned int)(0 << 0 + 8 + 8)), urb);
-    if(!(return_value_ioctl$2 == 0))
+      urb = &tpriv->_anon0.urbs[(signed long int)i];
+    signed int return_value_ioctl_2;
+    return_value_ioctl_2=ioctl(dpriv->fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(11 << 0) | (unsigned int)(0 << 0 + 8 + 8)), urb);
+    if(!(return_value_ioctl_2 == 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 22)
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 22)
       {
         usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "discard_urbs", "URB not found --> assuming ready to be reaped");
         if(i == last_plus_one + -1)
@@ -3122,8 +3122,8 @@ static signed int discard_urbs(struct usbi_transfer *itransfer, signed int first
 
       else
       {
-        return_value___errno_location$4=__errno_location();
-        if(*return_value___errno_location$4 == 19)
+        return_value___errno_location_4=__errno_location();
+        if(*return_value___errno_location_4 == 19)
         {
           usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "discard_urbs", "Device not found for URB --> assuming ready to be reaped");
           ret = LIBUSB_ERROR_NO_DEVICE;
@@ -3131,9 +3131,9 @@ static signed int discard_urbs(struct usbi_transfer *itransfer, signed int first
 
         else
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "discard_urbs", "unrecognised discard errno %d", *return_value___errno_location$3);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "discard_urbs", "unrecognised discard errno %d", *return_value___errno_location_3);
           ret = LIBUSB_ERROR_OTHER;
         }
       }
@@ -3148,9 +3148,9 @@ static signed int discard_urbs(struct usbi_transfer *itransfer, signed int first
 static struct discovered_devs * discovered_devs_alloc(void)
 {
   struct discovered_devs *ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct discovered_devs) /*16ul*/  + sizeof(void *) /*8ul*/  * (unsigned long int)8);
-  ret = (struct discovered_devs *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct discovered_devs) /*16ul*/  + sizeof(void *) /*8ul*/  * (unsigned long int)8);
+  ret = (struct discovered_devs *)return_value_malloc_1;
   if(!(ret == ((struct discovered_devs *)NULL)))
   {
     ret->len = (unsigned long int)0;
@@ -3177,9 +3177,9 @@ struct discovered_devs * discovered_devs_append(struct discovered_devs *discdevs
   {
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "discovered_devs_append", "need to increase capacity");
     capacity = discdevs->capacity + (unsigned long int)8;
-    void *return_value_usbi_reallocf$1;
-    return_value_usbi_reallocf$1=usbi_reallocf((void *)discdevs, sizeof(struct discovered_devs) /*16ul*/  + sizeof(void *) /*8ul*/  * capacity);
-    discdevs = (struct discovered_devs *)return_value_usbi_reallocf$1;
+    void *return_value_usbi_reallocf_1;
+    return_value_usbi_reallocf_1=usbi_reallocf((void *)discdevs, sizeof(struct discovered_devs) /*16ul*/  + sizeof(void *) /*8ul*/  * capacity);
+    discdevs = (struct discovered_devs *)return_value_usbi_reallocf_1;
     if(!(discdevs == ((struct discovered_devs *)NULL)))
     {
       discdevs->capacity = capacity;
@@ -3252,20 +3252,20 @@ static signed int do_streams_ioctl(struct libusb_device_handle *handle, signed l
 {
   signed int r;
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   struct usbfs_streams *streams;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_3;
   if(num_endpoints >= 31)
     return LIBUSB_ERROR_INVALID_PARAM;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct usbfs_streams) /*8ul*/  + (unsigned long int)num_endpoints);
-    streams = (struct usbfs_streams *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct usbfs_streams) /*8ul*/  + (unsigned long int)num_endpoints);
+    streams = (struct usbfs_streams *)return_value_malloc_2;
     if(streams == ((struct usbfs_streams *)NULL))
       return LIBUSB_ERROR_NO_MEM;
 
@@ -3278,28 +3278,28 @@ static signed int do_streams_ioctl(struct libusb_device_handle *handle, signed l
       free((void *)streams);
       if(!(r >= 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        if(*return_value___errno_location$5 == 25)
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        if(*return_value___errno_location_5 == 25)
           return LIBUSB_ERROR_NOT_SUPPORTED;
 
         else
         {
-          return_value___errno_location$4=__errno_location();
-          if(*return_value___errno_location$4 == 22)
+          return_value___errno_location_4=__errno_location();
+          if(*return_value___errno_location_4 == 22)
             return LIBUSB_ERROR_INVALID_PARAM;
 
           else
           {
-            return_value___errno_location$3=__errno_location();
-            if(*return_value___errno_location$3 == 19)
+            return_value___errno_location_3=__errno_location();
+            if(*return_value___errno_location_3 == 19)
               return LIBUSB_ERROR_NO_DEVICE;
 
           }
         }
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "do_streams_ioctl", "streams-ioctl failed error %d errno %d", r, *return_value___errno_location$6);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "do_streams_ioctl", "streams-ioctl failed error %d errno %d", r, *return_value___errno_location_6);
         return LIBUSB_ERROR_OTHER;
       }
 
@@ -3417,9 +3417,9 @@ static signed int find_monotonic_clock(void)
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "find_monotonic_clock", "monotonic clock doesn't work, errno %d", *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "find_monotonic_clock", "monotonic clock doesn't work, errno %d", *return_value___errno_location_1);
     return 0;
   }
 }
@@ -3430,17 +3430,17 @@ static const char * find_usbfs_path(void)
 {
   const char *path = "/dev/bus/usb";
   const char *ret = (const char *)(void *)0;
-  signed int return_value_check_usb_vfs$2;
-  return_value_check_usb_vfs$2=check_usb_vfs(path);
-  if(!(return_value_check_usb_vfs$2 == 0))
+  signed int return_value_check_usb_vfs_2;
+  return_value_check_usb_vfs_2=check_usb_vfs(path);
+  if(!(return_value_check_usb_vfs_2 == 0))
     ret = path;
 
   else
   {
     path = "/proc/bus/usb";
-    signed int return_value_check_usb_vfs$1;
-    return_value_check_usb_vfs$1=check_usb_vfs(path);
-    if(!(return_value_check_usb_vfs$1 == 0))
+    signed int return_value_check_usb_vfs_1;
+    return_value_check_usb_vfs_1=check_usb_vfs(path);
+    if(!(return_value_check_usb_vfs_1 == 0))
       ret = path;
 
   }
@@ -3458,9 +3458,9 @@ static const char * find_usbfs_path(void)
         if(entry == ((struct dirent *)NULL))
           break;
 
-        signed int return_value__is_usbdev_entry$3;
-        return_value__is_usbdev_entry$3=_is_usbdev_entry(entry, (signed int *)(void *)0, (signed int *)(void *)0);
-        if(!(return_value__is_usbdev_entry$3 == 0))
+        signed int return_value__is_usbdev_entry_3;
+        return_value__is_usbdev_entry_3=_is_usbdev_entry(entry, (signed int *)(void *)0, (signed int *)(void *)0);
+        if(!(return_value__is_usbdev_entry_3 == 0))
         {
           ret = path;
           usbdev_names = 1;
@@ -3490,14 +3490,14 @@ static void free_iso_urbs(struct linux_transfer_priv *tpriv)
   signed int i = 0;
   for( ; !(i >= tpriv->num_urbs); i = i + 1)
   {
-    struct usbfs_urb *urb = tpriv->$anon0.iso_urbs[(signed long int)i];
+    struct usbfs_urb *urb = tpriv->_anon0.iso_urbs[(signed long int)i];
     if(urb == ((struct usbfs_urb *)NULL))
       break;
 
     free((void *)urb);
   }
-  free((void *)tpriv->$anon0.iso_urbs);
-  tpriv->$anon0.iso_urbs = (struct usbfs_urb **)(void *)0;
+  free((void *)tpriv->_anon0.iso_urbs);
+  tpriv->_anon0.iso_urbs = (struct usbfs_urb **)(void *)0;
 }
 
 // get_next_timeout
@@ -3507,24 +3507,24 @@ static signed int get_next_timeout(struct libusb_context *ctx, struct timeval *t
   struct timeval timeout;
   signed int r;
   r=libusb_get_next_timeout(ctx, &timeout);
-  _Bool tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(!(r == 0))
   {
     if(!(timeout.tv_sec == 0l))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (&timeout)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (&timeout)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       return 1;
 
     if(timeout.tv_sec == tv->tv_sec)
-      tmp_if_expr$2 = (signed int)((&timeout)->tv_usec < tv->tv_usec);
+      tmp_if_expr_2 = (signed int)((&timeout)->tv_usec < tv->tv_usec);
 
     else
-      tmp_if_expr$2 = (signed int)((&timeout)->tv_sec < tv->tv_sec);
-    if(!(tmp_if_expr$2 == 0))
+      tmp_if_expr_2 = (signed int)((&timeout)->tv_sec < tv->tv_sec);
+    if(!(tmp_if_expr_2 == 0))
       *out = timeout;
 
     else
@@ -3541,11 +3541,11 @@ static signed int get_next_timeout(struct libusb_context *ctx, struct timeval *t
 static signed int handle_bulk_completion(struct usbi_transfer *itransfer, struct usbfs_urb *urb)
 {
   struct linux_transfer_priv *tpriv;
-  void *return_value_usbi_transfer_get_os_priv$1;
-  return_value_usbi_transfer_get_os_priv$1=usbi_transfer_get_os_priv(itransfer);
-  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv$1;
+  void *return_value_usbi_transfer_get_os_priv_1;
+  return_value_usbi_transfer_get_os_priv_1=usbi_transfer_get_os_priv(itransfer);
+  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv_1;
   struct libusb_transfer *transfer = (struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ );
-  signed int urb_idx = (signed int)(urb - tpriv->$anon0.urbs);
+  signed int urb_idx = (signed int)(urb - tpriv->_anon0.urbs);
   pthread_mutex_lock(&itransfer->lock);
   usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "handle_bulk_completion", "handling completion status %d of bulk urb %d/%d", urb->status, urb_idx + 1, tpriv->num_urbs);
   tpriv->num_retired = tpriv->num_retired + 1;
@@ -3691,24 +3691,24 @@ out_unlock:
 
 completed:
   ;
-  free((void *)tpriv->$anon0.urbs);
-  tpriv->$anon0.urbs = (struct usbfs_urb *)(void *)0;
+  free((void *)tpriv->_anon0.urbs);
+  tpriv->_anon0.urbs = (struct usbfs_urb *)(void *)0;
   pthread_mutex_unlock(&itransfer->lock);
-  signed int tmp_if_expr$4;
-  signed int return_value_usbi_handle_transfer_cancellation$2;
-  signed int return_value_usbi_handle_transfer_completion$3;
+  signed int tmp_if_expr_4;
+  signed int return_value_usbi_handle_transfer_cancellation_2;
+  signed int return_value_usbi_handle_transfer_completion_3;
   if((signed int)tpriv->reap_action == CANCELLED)
   {
-    return_value_usbi_handle_transfer_cancellation$2=usbi_handle_transfer_cancellation(itransfer);
-    tmp_if_expr$4 = return_value_usbi_handle_transfer_cancellation$2;
+    return_value_usbi_handle_transfer_cancellation_2=usbi_handle_transfer_cancellation(itransfer);
+    tmp_if_expr_4 = return_value_usbi_handle_transfer_cancellation_2;
   }
 
   else
   {
-    return_value_usbi_handle_transfer_completion$3=usbi_handle_transfer_completion(itransfer, tpriv->reap_status);
-    tmp_if_expr$4 = return_value_usbi_handle_transfer_completion$3;
+    return_value_usbi_handle_transfer_completion_3=usbi_handle_transfer_completion(itransfer, tpriv->reap_status);
+    tmp_if_expr_4 = return_value_usbi_handle_transfer_completion_3;
   }
-  return tmp_if_expr$4;
+  return tmp_if_expr_4;
 }
 
 // handle_control_completion
@@ -3716,9 +3716,9 @@ completed:
 static signed int handle_control_completion(struct usbi_transfer *itransfer, struct usbfs_urb *urb)
 {
   struct linux_transfer_priv *tpriv;
-  void *return_value_usbi_transfer_get_os_priv$1;
-  return_value_usbi_transfer_get_os_priv$1=usbi_transfer_get_os_priv(itransfer);
-  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv$1;
+  void *return_value_usbi_transfer_get_os_priv_1;
+  return_value_usbi_transfer_get_os_priv_1=usbi_transfer_get_os_priv(itransfer);
+  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv_1;
   signed int status;
   pthread_mutex_lock(&itransfer->lock);
   usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "handle_control_completion", "handling completion status %d", urb->status);
@@ -3732,12 +3732,12 @@ static signed int handle_control_completion(struct usbi_transfer *itransfer, str
 
     }
 
-    free((void *)tpriv->$anon0.urbs);
-    tpriv->$anon0.urbs = (struct usbfs_urb *)(void *)0;
+    free((void *)tpriv->_anon0.urbs);
+    tpriv->_anon0.urbs = (struct usbfs_urb *)(void *)0;
     pthread_mutex_unlock(&itransfer->lock);
-    signed int return_value_usbi_handle_transfer_cancellation$2;
-    return_value_usbi_handle_transfer_cancellation$2=usbi_handle_transfer_cancellation(itransfer);
-    return return_value_usbi_handle_transfer_cancellation$2;
+    signed int return_value_usbi_handle_transfer_cancellation_2;
+    return_value_usbi_handle_transfer_cancellation_2=usbi_handle_transfer_cancellation(itransfer);
+    return return_value_usbi_handle_transfer_cancellation_2;
   }
 
   if(!(urb->status == 0))
@@ -3798,12 +3798,12 @@ static signed int handle_control_completion(struct usbi_transfer *itransfer, str
 
 __CPROVER_DUMP_L10:
   ;
-  free((void *)tpriv->$anon0.urbs);
-  tpriv->$anon0.urbs = (struct usbfs_urb *)(void *)0;
+  free((void *)tpriv->_anon0.urbs);
+  tpriv->_anon0.urbs = (struct usbfs_urb *)(void *)0;
   pthread_mutex_unlock(&itransfer->lock);
-  signed int return_value_usbi_handle_transfer_completion$3;
-  return_value_usbi_handle_transfer_completion$3=usbi_handle_transfer_completion(itransfer, (enum libusb_transfer_status)status);
-  return return_value_usbi_handle_transfer_completion$3;
+  signed int return_value_usbi_handle_transfer_completion_3;
+  return_value_usbi_handle_transfer_completion_3=usbi_handle_transfer_completion(itransfer, (enum libusb_transfer_status)status);
+  return return_value_usbi_handle_transfer_completion_3;
 }
 
 // handle_events
@@ -3824,9 +3824,9 @@ static signed int handle_events(struct libusb_context *ctx, struct timeval *tv)
   else
     internal_nfds = (unsigned long int)1;
   pthread_mutex_lock(&ctx->event_data_lock);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(!(ctx->pollfds_modified == 0u))
   {
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "handle_events", "poll fds modified, reallocating");
@@ -3838,9 +3838,9 @@ static signed int handle_events(struct libusb_context *ctx, struct timeval *tv)
 
     /* assertion ctx->pollfds_cnt >= internal_nfds */
     assert(ctx->pollfds_cnt >= internal_nfds);
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(ctx->pollfds_cnt, sizeof(struct pollfd) /*8ul*/ );
-    ctx->pollfds = (struct pollfd *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(ctx->pollfds_cnt, sizeof(struct pollfd) /*8ul*/ );
+    ctx->pollfds = (struct pollfd *)return_value_calloc_1;
     if(ctx->pollfds == ((struct pollfd *)NULL))
     {
       pthread_mutex_unlock(&ctx->event_data_lock);
@@ -3857,21 +3857,21 @@ static signed int handle_events(struct libusb_context *ctx, struct timeval *tv)
     }
     ctx->pollfds_modified = (unsigned int)0;
     if(!(ctx->device_close == 0u))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$4)
+      tmp_if_expr_4 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_4)
       usbi_clear_event(ctx);
 
   }
@@ -3883,12 +3883,12 @@ static signed int handle_events(struct libusb_context *ctx, struct timeval *tv)
   if(!(tv->tv_usec % 1000l == 0l))
     timeout_ms = timeout_ms + 1;
 
-  signed int return_value_handle_timeouts$5;
-  _Bool tmp_if_expr$8;
-  signed int *return_value___errno_location$7;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
+  signed int return_value_handle_timeouts_5;
+  _Bool tmp_if_expr_8;
+  signed int *return_value___errno_location_7;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
   do
   {
 
@@ -3899,29 +3899,29 @@ static signed int handle_events(struct libusb_context *ctx, struct timeval *tv)
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "handle_events", "poll() returned %d", r);
     if(r == 0)
     {
-      return_value_handle_timeouts$5=handle_timeouts(ctx);
-      return return_value_handle_timeouts$5;
+      return_value_handle_timeouts_5=handle_timeouts(ctx);
+      return return_value_handle_timeouts_5;
     }
 
     else
     {
       if(r == -1)
       {
-        return_value___errno_location$7=__errno_location();
-        tmp_if_expr$8 = *return_value___errno_location$7 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_7=__errno_location();
+        tmp_if_expr_8 = *return_value___errno_location_7 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
         return LIBUSB_ERROR_INTERRUPTED;
 
       else
         if(!(r >= 0))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "handle_events", "poll failed %d err=%d", r, *return_value___errno_location$6);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "handle_events", "poll failed %d err=%d", r, *return_value___errno_location_6);
           return LIBUSB_ERROR_IO;
         }
 
@@ -3945,7 +3945,7 @@ static signed int handle_events(struct libusb_context *ctx, struct timeval *tv)
         usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "handle_events", "hotplug message received");
         special_event = 1;
         message = (struct libusb_hotplug_message *)((unsigned long int)(&ctx->hotplug_msgs)->next - (unsigned long int)16ul);
-        list_del$link1(&message->list);
+        list_del_link1(&message->list);
       }
 
       if(ret == 0)
@@ -3953,7 +3953,7 @@ static signed int handle_events(struct libusb_context *ctx, struct timeval *tv)
         if(!(ctx->completed_transfers.next == &ctx->completed_transfers))
         {
           itransfer = (struct usbi_transfer *)((unsigned long int)(&ctx->completed_transfers)->next - (unsigned long int)24ul);
-          list_del$link1(&itransfer->completed_list);
+          list_del_link1(&itransfer->completed_list);
           pthread_mutex_unlock(&ctx->event_data_lock);
           ret=usbi_backend->handle_transfer_completion(itransfer);
           if(!(ret == 0))
@@ -3965,21 +3965,21 @@ static signed int handle_events(struct libusb_context *ctx, struct timeval *tv)
       }
 
       if(!(ctx->device_close == 0u))
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_9 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$10)
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_10 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_10)
+        tmp_if_expr_11 = (_Bool)1;
 
       else
-        tmp_if_expr$11 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$11)
+        tmp_if_expr_11 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_11)
         usbi_clear_event(ctx);
 
       pthread_mutex_unlock(&ctx->event_data_lock);
@@ -4008,13 +4008,13 @@ static signed int handle_events(struct libusb_context *ctx, struct timeval *tv)
     {
       if(!((fds + 1l)->revents == 0))
       {
-        signed int handle_events$$1$$4$$ret;
+        signed int handle_events__1__4__ret;
         usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "handle_events", "timerfd triggered");
         special_event = 1;
-        handle_events$$1$$4$$ret=handle_timerfd_trigger(ctx);
-        if(!(handle_events$$1$$4$$ret >= 0))
+        handle_events__1__4__ret=handle_timerfd_trigger(ctx);
+        if(!(handle_events__1__4__ret >= 0))
         {
-          r = handle_events$$1$$4$$ret;
+          r = handle_events__1__4__ret;
           goto handled;
         }
 
@@ -4048,9 +4048,9 @@ static signed int handle_iso_completion(struct usbi_transfer *itransfer, struct 
 {
   struct libusb_transfer *transfer = (struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ );
   struct linux_transfer_priv *tpriv;
-  void *return_value_usbi_transfer_get_os_priv$1;
-  return_value_usbi_transfer_get_os_priv$1=usbi_transfer_get_os_priv(itransfer);
-  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv$1;
+  void *return_value_usbi_transfer_get_os_priv_1;
+  return_value_usbi_transfer_get_os_priv_1=usbi_transfer_get_os_priv(itransfer);
+  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv_1;
   signed int num_urbs = tpriv->num_urbs;
   signed int urb_idx = 0;
   signed int i;
@@ -4058,13 +4058,13 @@ static signed int handle_iso_completion(struct usbi_transfer *itransfer, struct 
   pthread_mutex_lock(&itransfer->lock);
   i = 0;
   for( ; !(i >= num_urbs); i = i + 1)
-    if(urb == tpriv->$anon0.iso_urbs[(signed long int)i])
+    if(urb == tpriv->_anon0.iso_urbs[(signed long int)i])
     {
       urb_idx = i + 1;
       break;
     }
 
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(urb_idx == 0)
   {
     usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "handle_iso_completion", "could not locate urb!");
@@ -4076,13 +4076,13 @@ static signed int handle_iso_completion(struct usbi_transfer *itransfer, struct 
   {
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "handle_iso_completion", "handling completion status %d of iso urb %d/%d", urb->status, urb_idx, num_urbs);
     i = 0;
-    for( ; !(i >= urb->$anon0.number_of_packets); i = i + 1)
+    for( ; !(i >= urb->_anon0.number_of_packets); i = i + 1)
     {
       struct usbfs_iso_packet_desc *urb_desc = &urb->iso_frame_desc[(signed long int)i];
       struct libusb_iso_packet_descriptor *lib_desc;
-      tmp_post$2 = tpriv->iso_packet_offset;
+      tmp_post_2 = tpriv->iso_packet_offset;
       tpriv->iso_packet_offset = tpriv->iso_packet_offset + 1;
-      lib_desc = &transfer->iso_packet_desc[(signed long int)tmp_post$2];
+      lib_desc = &transfer->iso_packet_desc[(signed long int)tmp_post_2];
       lib_desc->status = (enum libusb_transfer_status)LIBUSB_TRANSFER_COMPLETED;
       if(!(urb_desc->status == 0u))
       {
@@ -4153,17 +4153,17 @@ static signed int handle_iso_completion(struct usbi_transfer *itransfer, struct 
         if((signed int)tpriv->reap_action == CANCELLED)
         {
           pthread_mutex_unlock(&itransfer->lock);
-          signed int return_value_usbi_handle_transfer_cancellation$3;
-          return_value_usbi_handle_transfer_cancellation$3=usbi_handle_transfer_cancellation(itransfer);
-          return return_value_usbi_handle_transfer_cancellation$3;
+          signed int return_value_usbi_handle_transfer_cancellation_3;
+          return_value_usbi_handle_transfer_cancellation_3=usbi_handle_transfer_cancellation(itransfer);
+          return return_value_usbi_handle_transfer_cancellation_3;
         }
 
         else
         {
           pthread_mutex_unlock(&itransfer->lock);
-          signed int return_value_usbi_handle_transfer_completion$4;
-          return_value_usbi_handle_transfer_completion$4=usbi_handle_transfer_completion(itransfer, (enum libusb_transfer_status)LIBUSB_TRANSFER_ERROR);
-          return return_value_usbi_handle_transfer_completion$4;
+          signed int return_value_usbi_handle_transfer_completion_4;
+          return_value_usbi_handle_transfer_completion_4=usbi_handle_transfer_completion(itransfer, (enum libusb_transfer_status)LIBUSB_TRANSFER_ERROR);
+          return return_value_usbi_handle_transfer_completion_4;
         }
       }
 
@@ -4205,9 +4205,9 @@ static signed int handle_iso_completion(struct usbi_transfer *itransfer, struct 
         usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "handle_iso_completion", "last URB in transfer --> complete!");
         free_iso_urbs(tpriv);
         pthread_mutex_unlock(&itransfer->lock);
-        signed int return_value_usbi_handle_transfer_completion$5;
-        return_value_usbi_handle_transfer_completion$5=usbi_handle_transfer_completion(itransfer, status);
-        return return_value_usbi_handle_transfer_completion$5;
+        signed int return_value_usbi_handle_transfer_completion_5;
+        return_value_usbi_handle_transfer_completion_5=usbi_handle_transfer_completion(itransfer, status);
+        return return_value_usbi_handle_transfer_completion_5;
       }
 
     }
@@ -4227,14 +4227,14 @@ static void handle_timeout(struct usbi_transfer *itransfer)
   signed int r;
   itransfer->flags = itransfer->flags | (unsigned char)128;
   r=libusb_cancel_transfer(transfer);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(r == 0)
     itransfer->flags = itransfer->flags | (unsigned char)1;
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "handle_timeout", "async cancel failed %d errno=%d", r, *return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "handle_timeout", "async cancel failed %d errno=%d", r, *return_value___errno_location_1);
   }
 }
 
@@ -4260,9 +4260,9 @@ static signed int handle_timeouts_locked(struct libusb_context *ctx)
   struct timespec systime_ts;
   struct timeval systime;
   struct usbi_transfer *transfer;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(ctx->flying_transfers.next == &ctx->flying_transfers)
     return 0;
 
@@ -4281,28 +4281,28 @@ static signed int handle_timeouts_locked(struct libusb_context *ctx)
       {
         struct timeval *cur_tv = &transfer->timeout;
         if(!(cur_tv->tv_sec == 0l))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = cur_tv->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = cur_tv->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_1)
           return 0;
 
         if((130 & (signed int)transfer->flags) == 0)
         {
           if(!(systime.tv_sec >= cur_tv->tv_sec))
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
             if(cur_tv->tv_sec == systime.tv_sec)
-              tmp_if_expr$2 = cur_tv->tv_usec > systime.tv_usec ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = cur_tv->tv_usec > systime.tv_usec ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = (_Bool)0;
+            tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$3)
+          if(tmp_if_expr_3)
             return 0;
 
           handle_timeout(transfer);
@@ -4348,11 +4348,11 @@ static signed int initialize_device(struct libusb_device *dev, unsigned char bus
   dev->device_address = devaddr;
   if(!(sysfs_dir == ((const char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(sysfs_dir);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-    priv->sysfs_dir = (char *)return_value_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(sysfs_dir);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+    priv->sysfs_dir = (char *)return_value_malloc_2;
     if(priv->sysfs_dir == ((char *)NULL))
       return LIBUSB_ERROR_NO_MEM;
 
@@ -4400,9 +4400,9 @@ static signed int initialize_device(struct libusb_device *dev, unsigned char bus
     do
     {
       descriptors_size = descriptors_size * 2;
-      void *return_value_usbi_reallocf$3;
-      return_value_usbi_reallocf$3=usbi_reallocf$link2((void *)priv->descriptors, (unsigned long int)descriptors_size);
-      priv->descriptors = (unsigned char *)return_value_usbi_reallocf$3;
+      void *return_value_usbi_reallocf_3;
+      return_value_usbi_reallocf_3=usbi_reallocf_link2((void *)priv->descriptors, (unsigned long int)descriptors_size);
+      priv->descriptors = (unsigned char *)return_value_usbi_reallocf_3;
       if(priv->descriptors == ((unsigned char *)NULL))
       {
         close(fd);
@@ -4415,9 +4415,9 @@ static signed int initialize_device(struct libusb_device *dev, unsigned char bus
       r=read(fd, (void *)(priv->descriptors + (signed long int)priv->descriptors_len), (unsigned long int)(descriptors_size - priv->descriptors_len));
       if(!(r >= 0l))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "initialize_device", "read descriptor failed ret=%d errno=%d", fd, *return_value___errno_location$4);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "initialize_device", "read descriptor failed ret=%d errno=%d", fd, *return_value___errno_location_4);
         close(fd);
         return LIBUSB_ERROR_IO;
       }
@@ -4456,9 +4456,9 @@ static signed int initialize_device(struct libusb_device *dev, unsigned char bus
 
         else
         {
-          signed int return_value_usbfs_get_active_config$5;
-          return_value_usbfs_get_active_config$5=usbfs_get_active_config(dev, fd);
-          r = (signed long int)return_value_usbfs_get_active_config$5;
+          signed int return_value_usbfs_get_active_config_5;
+          return_value_usbfs_get_active_config_5=usbfs_get_active_config(dev, fd);
+          r = (signed long int)return_value_usbfs_get_active_config_5;
           if(r >= 1l)
           {
             priv->active_config = (signed int)r;
@@ -4497,9 +4497,9 @@ static signed int kernel_version_ge(signed int major, signed int minor, signed i
   signed int kmajor;
   signed int kminor;
   signed int ksublevel;
-  signed int return_value_uname$1;
-  return_value_uname$1=uname(&uts);
-  if(!(return_value_uname$1 >= 0))
+  signed int return_value_uname_1;
+  return_value_uname_1=uname(&uts);
+  if(!(return_value_uname_1 >= 0))
     return -1;
 
   else
@@ -4565,17 +4565,17 @@ struct libusb_transfer * libusb_alloc_transfer(signed int iso_packets)
   unsigned long int os_alloc_size = usbi_backend->transfer_priv_size;
   unsigned long int alloc_size = sizeof(struct usbi_transfer) /*152ul*/  + sizeof(struct libusb_transfer) /*64ul*/  + sizeof(struct libusb_iso_packet_descriptor) /*12ul*/  * (unsigned long int)iso_packets + os_alloc_size;
   struct usbi_transfer *itransfer;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, alloc_size);
-  itransfer = (struct usbi_transfer *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, alloc_size);
+  itransfer = (struct usbi_transfer *)return_value_calloc_1;
   if(itransfer == ((struct usbi_transfer *)NULL))
     return (struct libusb_transfer *)(void *)0;
 
   else
   {
     itransfer->num_iso_packets = iso_packets;
-    pthread_mutex_init(&itransfer->lock, (const union anonymous$4 *)(void *)0);
-    pthread_mutex_init(&itransfer->flags_lock, (const union anonymous$4 *)(void *)0);
+    pthread_mutex_init(&itransfer->lock, (const union anonymous_4 *)(void *)0);
+    pthread_mutex_init(&itransfer->flags_lock, (const union anonymous_4 *)(void *)0);
     transfer = (struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ );
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "libusb_alloc_transfer", "transfer %p", transfer);
     return transfer;
@@ -4606,9 +4606,9 @@ signed int libusb_attach_kernel_driver(struct libusb_device_handle *dev, signed 
 // file ../../libusb/sync.c line 253
 signed int libusb_bulk_transfer(struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *data, signed int length, signed int *transferred, unsigned int timeout)
 {
-  signed int return_value_do_sync_bulk_transfer$1;
-  return_value_do_sync_bulk_transfer$1=do_sync_bulk_transfer(dev_handle, endpoint, data, length, transferred, timeout, (unsigned char)LIBUSB_TRANSFER_TYPE_BULK);
-  return return_value_do_sync_bulk_transfer$1;
+  signed int return_value_do_sync_bulk_transfer_1;
+  return_value_do_sync_bulk_transfer_1=do_sync_bulk_transfer(dev_handle, endpoint, data, length, transferred, timeout, (unsigned char)LIBUSB_TRANSFER_TYPE_BULK);
+  return return_value_do_sync_bulk_transfer_1;
 }
 
 // libusb_cancel_transfer
@@ -4620,13 +4620,13 @@ signed int libusb_cancel_transfer(struct libusb_transfer *transfer)
   usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "libusb_cancel_transfer", "transfer %p", transfer);
   pthread_mutex_lock(&itransfer->lock);
   pthread_mutex_lock(&itransfer->flags_lock);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((32 & (signed int)itransfer->flags) == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ((signed int)itransfer->flags & 4) != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = ((signed int)itransfer->flags & 4) != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     r = LIBUSB_ERROR_NOT_FOUND;
 
   else
@@ -4708,33 +4708,33 @@ void libusb_close(struct libusb_device_handle *dev_handle)
 {
   struct libusb_context *ctx;
   signed int pending_events;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   if(!(dev_handle == ((struct libusb_device_handle *)NULL)))
   {
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "libusb_close", "");
     ctx = dev_handle->dev->ctx;
     pthread_mutex_lock(&ctx->event_data_lock);
     if(!(ctx->device_close == 0u))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
-    pending_events = (signed int)tmp_if_expr$3;
+      tmp_if_expr_3 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
+    pending_events = (signed int)tmp_if_expr_3;
     ctx->device_close = ctx->device_close + 1u;
     if(pending_events == 0)
       usbi_signal_event(ctx);
@@ -4745,21 +4745,21 @@ void libusb_close(struct libusb_device_handle *dev_handle)
     pthread_mutex_lock(&ctx->event_data_lock);
     ctx->device_close = ctx->device_close - 1u;
     if(!(ctx->device_close == 0u))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
-    pending_events = (signed int)tmp_if_expr$6;
+      tmp_if_expr_6 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
+    pending_events = (signed int)tmp_if_expr_6;
     if(pending_events == 0)
       usbi_clear_event(ctx);
 
@@ -4778,15 +4778,15 @@ signed int libusb_control_transfer(struct libusb_device_handle *dev_handle, unsi
   unsigned char *buffer;
   signed int completed = 0;
   signed int r;
-  unsigned char *return_value_libusb_control_transfer_get_data$2;
+  unsigned char *return_value_libusb_control_transfer_get_data_2;
   if(transfer == ((struct libusb_transfer *)NULL))
     return LIBUSB_ERROR_NO_MEM;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct libusb_control_setup) /*8ul*/  + (unsigned long int)wLength);
-    buffer = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct libusb_control_setup) /*8ul*/  + (unsigned long int)wLength);
+    buffer = (unsigned char *)return_value_malloc_1;
     if(buffer == ((unsigned char *)NULL))
     {
       libusb_free_transfer(transfer);
@@ -4813,8 +4813,8 @@ signed int libusb_control_transfer(struct libusb_device_handle *dev_handle, unsi
         sync_transfer_wait_for_completion(transfer);
         if((0x80 & (signed int)bmRequestType) == 128)
         {
-          return_value_libusb_control_transfer_get_data$2=libusb_control_transfer_get_data(transfer);
-          memcpy((void *)data, (const void *)return_value_libusb_control_transfer_get_data$2, (unsigned long int)transfer->actual_length);
+          return_value_libusb_control_transfer_get_data_2=libusb_control_transfer_get_data(transfer);
+          memcpy((void *)data, (const void *)return_value_libusb_control_transfer_get_data_2, (unsigned long int)transfer->actual_length);
         }
 
         switch((signed int)transfer->status)
@@ -4875,8 +4875,8 @@ static inline unsigned char * libusb_control_transfer_get_data(struct libusb_tra
 // file ../../libusb/libusb.h line 161
 static inline unsigned short int libusb_cpu_to_le16(const unsigned short int x)
 {
-  /* tag-#anon#lUN[lARR2{U8}$U8$'b8'||U16'b16'|] */
-union anonymous$0
+  /* tag-#anon#lUN[lARR2{U8}_U8_'b8'||U16'b16'|] */
+union anonymous_0
 {
   // b8
   unsigned char b8[2l];
@@ -4886,18 +4886,18 @@ union anonymous$0
 
 /* */
   ;
-  union anonymous$0 _tmp;
+  union anonymous_0 _tmp;
   _tmp.b8[(signed long int)1] = (unsigned char)((signed int)x >> 8);
   _tmp.b8[(signed long int)0] = (unsigned char)((signed int)x & 0xff);
   return _tmp.b16;
 }
 
-// libusb_cpu_to_le16$link1
+// libusb_cpu_to_le16_link1
 // file ../../libusb/libusb.h line 161
-static inline unsigned short int libusb_cpu_to_le16$link1(const unsigned short int x$link1)
+static inline unsigned short int libusb_cpu_to_le16_link1(const unsigned short int x_link1)
 {
-  /* tag-#anon#lUN[lARR2{U8}$U8$'b8'||U16'b16'|] */
-union anonymous$0
+  /* tag-#anon#lUN[lARR2{U8}_U8_'b8'||U16'b16'|] */
+union anonymous_0
 {
   // b8
   unsigned char b8[2l];
@@ -4907,10 +4907,10 @@ union anonymous$0
 
 /* */
   ;
-  union anonymous$0 _tmp$link1;
-  _tmp$link1.b8[(signed long int)1] = (unsigned char)((signed int)x$link1 >> 8);
-  _tmp$link1.b8[(signed long int)0] = (unsigned char)((signed int)x$link1 & 0xff);
-  return _tmp$link1.b16;
+  union anonymous_0 _tmp_link1;
+  _tmp_link1.b8[(signed long int)1] = (unsigned char)((signed int)x_link1 >> 8);
+  _tmp_link1.b8[(signed long int)0] = (unsigned char)((signed int)x_link1 & 0xff);
+  return _tmp_link1.b16;
 }
 
 // libusb_detach_kernel_driver
@@ -5056,9 +5056,9 @@ void libusb_exit(struct libusb_context *ctx)
   pthread_mutex_lock(&active_contexts_lock);
   list_del(&ctx->list);
   pthread_mutex_unlock(&active_contexts_lock);
-  signed int return_value_libusb_has_capability$1;
-  return_value_libusb_has_capability$1=libusb_has_capability((unsigned int)1);
-  if(!(return_value_libusb_has_capability$1 == 0))
+  signed int return_value_libusb_has_capability_1;
+  return_value_libusb_has_capability_1=libusb_has_capability((unsigned int)1);
+  if(!(return_value_libusb_has_capability_1 == 0))
   {
     usbi_hotplug_deregister_all(ctx);
     if(ctx->open_devs.next == &ctx->open_devs)
@@ -5116,9 +5116,9 @@ static inline void libusb_fill_control_setup(unsigned char *buffer, unsigned cha
   struct libusb_control_setup *setup = (struct libusb_control_setup *)(void *)buffer;
   setup->bmRequestType = bmRequestType;
   setup->bRequest = bRequest;
-  setup->wValue=libusb_cpu_to_le16$link1(wValue);
-  setup->wIndex=libusb_cpu_to_le16$link1(wIndex);
-  setup->wLength=libusb_cpu_to_le16$link1(wLength);
+  setup->wValue=libusb_cpu_to_le16_link1(wValue);
+  setup->wIndex=libusb_cpu_to_le16_link1(wIndex);
+  setup->wLength=libusb_cpu_to_le16_link1(wLength);
 }
 
 // libusb_fill_control_transfer
@@ -5131,11 +5131,11 @@ static inline void libusb_fill_control_transfer(struct libusb_transfer *transfer
   transfer->type = (unsigned char)LIBUSB_TRANSFER_TYPE_CONTROL;
   transfer->timeout = timeout;
   transfer->buffer = buffer;
-  unsigned short int return_value_libusb_cpu_to_le16$1;
+  unsigned short int return_value_libusb_cpu_to_le16_1;
   if(!(setup == ((struct libusb_control_setup *)NULL)))
   {
-    return_value_libusb_cpu_to_le16$1=libusb_cpu_to_le16$link1(setup->wLength);
-    transfer->length = (signed int)(sizeof(struct libusb_control_setup) /*8ul*/  + (unsigned long int)return_value_libusb_cpu_to_le16$1);
+    return_value_libusb_cpu_to_le16_1=libusb_cpu_to_le16_link1(setup->wLength);
+    transfer->length = (signed int)(sizeof(struct libusb_control_setup) /*8ul*/  + (unsigned long int)return_value_libusb_cpu_to_le16_1);
   }
 
   transfer->user_data = user_data;
@@ -5180,7 +5180,7 @@ void libusb_free_container_id_descriptor(struct libusb_container_id_descriptor *
 // file ../../libusb/libusb.h line 1314
 void libusb_free_device_list(struct libusb_device **list, signed int unref_devices)
 {
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(list == ((struct libusb_device **)NULL)))
   {
     if(!(unref_devices == 0))
@@ -5189,9 +5189,9 @@ void libusb_free_device_list(struct libusb_device **list, signed int unref_devic
       struct libusb_device *dev;
       do
       {
-        tmp_post$1 = i;
+        tmp_post_1 = i;
         i = i + 1;
-        dev = list[(signed long int)tmp_post$1];
+        dev = list[(signed long int)tmp_post_1];
         if(dev == ((struct libusb_device *)NULL))
           break;
 
@@ -5301,9 +5301,9 @@ signed int libusb_get_active_config_descriptor(struct libusb_device *dev, struct
     else
     {
       usbi_parse_descriptor(tmp, "bbw", (void *)&_config, host_endian);
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)_config.wTotalLength);
-      buf = (unsigned char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)_config.wTotalLength);
+      buf = (unsigned char *)return_value_malloc_1;
       if(buf == ((unsigned char *)NULL))
         return LIBUSB_ERROR_NO_MEM;
 
@@ -5348,9 +5348,9 @@ signed int libusb_get_bos_descriptor(struct libusb_device_handle *handle, struct
     {
       usbi_parse_descriptor(bos_header, "bbwb", (void *)&_bos, host_endian);
       usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "libusb_get_bos_descriptor", "found BOS descriptor: size %d bytes, %d capabilities", _bos.wTotalLength, _bos.bNumDeviceCaps);
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)_bos.wTotalLength, (unsigned long int)1);
-      bos_data = (unsigned char *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)_bos.wTotalLength, (unsigned long int)1);
+      bos_data = (unsigned char *)return_value_calloc_1;
       if(bos_data == ((unsigned char *)NULL))
         return LIBUSB_ERROR_NO_MEM;
 
@@ -5404,9 +5404,9 @@ signed int libusb_get_config_descriptor(struct libusb_device *dev, unsigned char
       else
       {
         usbi_parse_descriptor(tmp, "bbw", (void *)&_config, host_endian);
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc((unsigned long int)_config.wTotalLength);
-        buf = (unsigned char *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc((unsigned long int)_config.wTotalLength);
+        buf = (unsigned char *)return_value_malloc_1;
         if(buf == ((unsigned char *)NULL))
           return LIBUSB_ERROR_NO_MEM;
 
@@ -5437,13 +5437,13 @@ signed int libusb_get_config_descriptor_by_value(struct libusb_device *dev, unsi
     if(!(r >= 0))
       return r;
 
-    signed int return_value_raw_desc_to_config$1;
-    return_value_raw_desc_to_config$1=raw_desc_to_config(dev->ctx, buf, r, host_endian, config);
-    return return_value_raw_desc_to_config$1;
+    signed int return_value_raw_desc_to_config_1;
+    return_value_raw_desc_to_config_1=raw_desc_to_config(dev->ctx, buf, r, host_endian, config);
+    return return_value_raw_desc_to_config_1;
   }
 
   r=usbi_get_config_index_by_value(dev, bConfigurationValue, &idx);
-  signed int return_value_libusb_get_config_descriptor$2;
+  signed int return_value_libusb_get_config_descriptor_2;
   if(!(r >= 0))
     return r;
 
@@ -5453,8 +5453,8 @@ signed int libusb_get_config_descriptor_by_value(struct libusb_device *dev, unsi
 
     else
     {
-      return_value_libusb_get_config_descriptor$2=libusb_get_config_descriptor(dev, (unsigned char)idx, config);
-      return return_value_libusb_get_config_descriptor$2;
+      return_value_libusb_get_config_descriptor_2=libusb_get_config_descriptor(dev, (unsigned char)idx, config);
+      return return_value_libusb_get_config_descriptor_2;
     }
 }
 
@@ -5516,9 +5516,9 @@ signed int libusb_get_container_id_descriptor(struct libusb_context *ctx, struct
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct libusb_container_id_descriptor) /*20ul*/ );
-      _container_id = (struct libusb_container_id_descriptor *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct libusb_container_id_descriptor) /*20ul*/ );
+      _container_id = (struct libusb_container_id_descriptor *)return_value_malloc_1;
       if(_container_id == ((struct libusb_container_id_descriptor *)NULL))
         return LIBUSB_ERROR_NO_MEM;
 
@@ -5535,9 +5535,9 @@ signed int libusb_get_container_id_descriptor(struct libusb_context *ctx, struct
 // file ../../libusb/libusb.h line 1764
 static inline signed int libusb_get_descriptor(struct libusb_device_handle *dev, unsigned char desc_type, unsigned char desc_index, unsigned char *data, signed int length)
 {
-  signed int return_value_libusb_control_transfer$1;
-  return_value_libusb_control_transfer$1=libusb_control_transfer(dev, (unsigned char)128, (unsigned char)6, (unsigned short int)((signed int)desc_type << 8 | (signed int)desc_index), (unsigned short int)0, data, (unsigned short int)length, (unsigned int)1000);
-  return return_value_libusb_control_transfer$1;
+  signed int return_value_libusb_control_transfer_1;
+  return_value_libusb_control_transfer_1=libusb_control_transfer(dev, (unsigned char)128, (unsigned char)6, (unsigned short int)((signed int)desc_type << 8 | (signed int)desc_index), (unsigned short int)0, data, (unsigned short int)length, (unsigned int)1000);
+  return return_value_libusb_control_transfer_1;
 }
 
 // libusb_get_device
@@ -5577,25 +5577,25 @@ signed long int libusb_get_device_list(struct libusb_context *ctx, struct libusb
     ctx = usbi_default_context;
 
   usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "libusb_get_device_list", "");
-  void *return_value_calloc$2;
+  void *return_value_calloc_2;
   if(discdevs == ((struct discovered_devs *)NULL))
     return (signed long int)LIBUSB_ERROR_NO_MEM;
 
   else
   {
-    signed int return_value_libusb_has_capability$1;
-    return_value_libusb_has_capability$1=libusb_has_capability((unsigned int)1);
-    if(!(return_value_libusb_has_capability$1 == 0))
+    signed int return_value_libusb_has_capability_1;
+    return_value_libusb_has_capability_1=libusb_has_capability((unsigned int)1);
+    if(!(return_value_libusb_has_capability_1 == 0))
     {
-      struct libusb_device *libusb_get_device_list$$1$$1$$dev;
+      struct libusb_device *libusb_get_device_list__1__1__dev;
       if(!(usbi_backend->hotplug_poll == ((void (*)(void))NULL)))
         usbi_backend->hotplug_poll();
 
       pthread_mutex_lock(&ctx->usb_devs_lock);
-      libusb_get_device_list$$1$$1$$dev = (struct libusb_device *)((unsigned long int)(&ctx->usb_devs)->next - (unsigned long int)80ul);
-      for( ; !(&libusb_get_device_list$$1$$1$$dev->list == &ctx->usb_devs); libusb_get_device_list$$1$$1$$dev = (struct libusb_device *)((unsigned long int)libusb_get_device_list$$1$$1$$dev->list.next - (unsigned long int)80ul))
+      libusb_get_device_list__1__1__dev = (struct libusb_device *)((unsigned long int)(&ctx->usb_devs)->next - (unsigned long int)80ul);
+      for( ; !(&libusb_get_device_list__1__1__dev->list == &ctx->usb_devs); libusb_get_device_list__1__1__dev = (struct libusb_device *)((unsigned long int)libusb_get_device_list__1__1__dev->list.next - (unsigned long int)80ul))
       {
-        discdevs=discovered_devs_append(discdevs, libusb_get_device_list$$1$$1$$dev);
+        discdevs=discovered_devs_append(discdevs, libusb_get_device_list__1__1__dev);
         if(discdevs == ((struct discovered_devs *)NULL))
         {
           r = LIBUSB_ERROR_NO_MEM;
@@ -5614,8 +5614,8 @@ signed long int libusb_get_device_list(struct libusb_context *ctx, struct libusb
     else
     {
       len = (signed long int)discdevs->len;
-      return_value_calloc$2=calloc((unsigned long int)(len + (signed long int)1), sizeof(struct libusb_device *) /*8ul*/ );
-      ret = (struct libusb_device **)return_value_calloc$2;
+      return_value_calloc_2=calloc((unsigned long int)(len + (signed long int)1), sizeof(struct libusb_device *) /*8ul*/ );
+      ret = (struct libusb_device **)return_value_calloc_2;
       if(ret == ((struct libusb_device **)NULL))
         len = (signed long int)LIBUSB_ERROR_NO_MEM;
 
@@ -5727,9 +5727,9 @@ signed int libusb_get_next_timeout(struct libusb_context *ctx, struct timeval *t
   if(ctx == ((struct libusb_context *)NULL))
     ctx = usbi_default_context;
 
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_4;
   if(ctx->timerfd >= 0)
     return 0;
 
@@ -5750,11 +5750,11 @@ signed int libusb_get_next_timeout(struct libusb_context *ctx, struct timeval *t
         if((130 & (signed int)transfer->flags) == 0)
         {
           if(!(transfer->timeout.tv_sec == 0l))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = (&transfer->timeout)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (&transfer->timeout)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
           next_timeout = transfer->timeout;
@@ -5763,11 +5763,11 @@ signed int libusb_get_next_timeout(struct libusb_context *ctx, struct timeval *t
 
       pthread_mutex_unlock(&ctx->flying_transfers_lock);
       if(!(next_timeout.tv_sec == 0l))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (&next_timeout)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (&next_timeout)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_2)
       {
         usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "libusb_get_next_timeout", "no URB with timeout or all handled by OS; no timeout!");
         return 0;
@@ -5778,20 +5778,20 @@ signed int libusb_get_next_timeout(struct libusb_context *ctx, struct timeval *t
         r=usbi_backend->clock_gettime(0, &cur_ts);
         if(!(r >= 0))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "libusb_get_next_timeout", "failed to read monotonic clock, errno=%d", *return_value___errno_location$3);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "libusb_get_next_timeout", "failed to read monotonic clock, errno=%d", *return_value___errno_location_3);
           return 0;
         }
 
         (&cur_tv)->tv_sec = (&cur_ts)->tv_sec;
         (&cur_tv)->tv_usec = (&cur_ts)->tv_nsec / (signed long int)1000;
         if(cur_tv.tv_sec == next_timeout.tv_sec)
-          tmp_if_expr$4 = (signed int)((&cur_tv)->tv_usec < (&next_timeout)->tv_usec);
+          tmp_if_expr_4 = (signed int)((&cur_tv)->tv_usec < (&next_timeout)->tv_usec);
 
         else
-          tmp_if_expr$4 = (signed int)((&cur_tv)->tv_sec < (&next_timeout)->tv_sec);
-        if(tmp_if_expr$4 == 0)
+          tmp_if_expr_4 = (signed int)((&cur_tv)->tv_sec < (&next_timeout)->tv_sec);
+        if(tmp_if_expr_4 == 0)
         {
           usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "libusb_get_next_timeout", "first timeout already expired");
           tv->tv_usec = (signed long int)0;
@@ -5834,18 +5834,18 @@ struct libusb_pollfd ** libusb_get_pollfds(struct libusb_context *ctx)
     ctx = usbi_default_context;
 
   pthread_mutex_lock(&ctx->event_data_lock);
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(ctx->pollfds_cnt + (unsigned long int)1, sizeof(struct libusb_pollfd *) /*8ul*/ );
-  ret = (struct libusb_pollfd **)return_value_calloc$1;
-  unsigned long int tmp_post$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(ctx->pollfds_cnt + (unsigned long int)1, sizeof(struct libusb_pollfd *) /*8ul*/ );
+  ret = (struct libusb_pollfd **)return_value_calloc_1;
+  unsigned long int tmp_post_2;
   if(!(ret == ((struct libusb_pollfd **)NULL)))
   {
     ipollfd = (struct usbi_pollfd *)((unsigned long int)(&ctx->ipollfds)->next - (unsigned long int)8ul);
     for( ; !(&ipollfd->list == &ctx->ipollfds); ipollfd = (struct usbi_pollfd *)((unsigned long int)ipollfd->list.next - (unsigned long int)8ul))
     {
-      tmp_post$2 = i;
+      tmp_post_2 = i;
       i = i + 1ul;
-      ret[(signed long int)tmp_post$2] = (struct libusb_pollfd *)ipollfd;
+      ret[(signed long int)tmp_post_2] = (struct libusb_pollfd *)ipollfd;
     }
     ret[(signed long int)ctx->pollfds_cnt] = (struct libusb_pollfd *)(void *)0;
   }
@@ -5903,9 +5903,9 @@ signed int libusb_get_port_path(struct libusb_context *ctx, struct libusb_device
   do
     (void)ctx;
   while((_Bool)0);
-  signed int return_value_libusb_get_port_numbers$1;
-  return_value_libusb_get_port_numbers$1=libusb_get_port_numbers(dev, port_numbers, (signed int)port_numbers_len);
-  return return_value_libusb_get_port_numbers$1;
+  signed int return_value_libusb_get_port_numbers_1;
+  return_value_libusb_get_port_numbers_1=libusb_get_port_numbers(dev, port_numbers, (signed int)port_numbers_len);
+  return return_value_libusb_get_port_numbers_1;
 }
 
 // libusb_get_ss_endpoint_companion_descriptor
@@ -5939,9 +5939,9 @@ signed int libusb_get_ss_endpoint_companion_descriptor(struct libusb_context *ct
         return LIBUSB_ERROR_IO;
       }
 
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct libusb_ss_endpoint_companion_descriptor) /*6ul*/ );
-      *ep_comp = (struct libusb_ss_endpoint_companion_descriptor *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct libusb_ss_endpoint_companion_descriptor) /*6ul*/ );
+      *ep_comp = (struct libusb_ss_endpoint_companion_descriptor *)return_value_malloc_1;
       if(*ep_comp == ((struct libusb_ss_endpoint_companion_descriptor *)NULL))
         return LIBUSB_ERROR_NO_MEM;
 
@@ -5973,9 +5973,9 @@ signed int libusb_get_ss_usb_device_capability_descriptor(struct libusb_context 
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct libusb_ss_usb_device_capability_descriptor) /*10ul*/ );
-      _ss_usb_device_cap = (struct libusb_ss_usb_device_capability_descriptor *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct libusb_ss_usb_device_capability_descriptor) /*10ul*/ );
+      _ss_usb_device_cap = (struct libusb_ss_usb_device_capability_descriptor *)return_value_malloc_1;
       if(_ss_usb_device_cap == ((struct libusb_ss_usb_device_capability_descriptor *)NULL))
         return LIBUSB_ERROR_NO_MEM;
 
@@ -5992,9 +5992,9 @@ signed int libusb_get_ss_usb_device_capability_descriptor(struct libusb_context 
 // file ../../libusb/libusb.h line 1786
 static inline signed int libusb_get_string_descriptor(struct libusb_device_handle *dev, unsigned char desc_index, unsigned short int langid, unsigned char *data, signed int length)
 {
-  signed int return_value_libusb_control_transfer$1;
-  return_value_libusb_control_transfer$1=libusb_control_transfer(dev, (unsigned char)128, (unsigned char)6, (unsigned short int)(3 << 8 | (signed int)desc_index), langid, data, (unsigned short int)length, (unsigned int)1000);
-  return return_value_libusb_control_transfer$1;
+  signed int return_value_libusb_control_transfer_1;
+  return_value_libusb_control_transfer_1=libusb_control_transfer(dev, (unsigned char)128, (unsigned char)6, (unsigned short int)(3 << 8 | (signed int)desc_index), langid, data, (unsigned short int)length, (unsigned int)1000);
+  return return_value_libusb_control_transfer_1;
 }
 
 // libusb_get_string_descriptor_ascii
@@ -6006,9 +6006,9 @@ signed int libusb_get_string_descriptor_ascii(struct libusb_device_handle *dev, 
   signed int si;
   signed int di;
   unsigned short int langid;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if((signed int)desc_index == 0)
     return LIBUSB_ERROR_INVALID_PARAM;
 
@@ -6047,22 +6047,22 @@ signed int libusb_get_string_descriptor_ascii(struct libusb_device_handle *dev, 
                   break;
 
                 if(!((0x80 & (signed int)tbuf[(signed long int)si]) == 0))
-                  tmp_if_expr$3 = (_Bool)1;
+                  tmp_if_expr_3 = (_Bool)1;
 
                 else
-                  tmp_if_expr$3 = tbuf[(signed long int)(si + 1)] != 0 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$3)
+                  tmp_if_expr_3 = tbuf[(signed long int)(si + 1)] != 0 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_3)
                 {
-                  tmp_post$1 = di;
+                  tmp_post_1 = di;
                   di = di + 1;
-                  data[(signed long int)tmp_post$1] = (unsigned char)63;
+                  data[(signed long int)tmp_post_1] = (unsigned char)63;
                 }
 
                 else
                 {
-                  tmp_post$2 = di;
+                  tmp_post_2 = di;
                   di = di + 1;
-                  data[(signed long int)tmp_post$2] = tbuf[(signed long int)si];
+                  data[(signed long int)tmp_post_2] = tbuf[(signed long int)si];
                 }
               }
               data[(signed long int)di] = (unsigned char)0;
@@ -6093,9 +6093,9 @@ signed int libusb_get_usb_2_0_extension_descriptor(struct libusb_context *ctx, s
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct libusb_usb_2_0_extension_descriptor) /*8ul*/ );
-      _usb_2_0_extension = (struct libusb_usb_2_0_extension_descriptor *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct libusb_usb_2_0_extension_descriptor) /*8ul*/ );
+      _usb_2_0_extension = (struct libusb_usb_2_0_extension_descriptor *)return_value_malloc_1;
       if(_usb_2_0_extension == ((struct libusb_usb_2_0_extension_descriptor *)NULL))
         return LIBUSB_ERROR_NO_MEM;
 
@@ -6122,9 +6122,9 @@ signed int libusb_handle_events(struct libusb_context *ctx)
   struct timeval tv;
   tv.tv_sec = (signed long int)60;
   tv.tv_usec = (signed long int)0;
-  signed int return_value_libusb_handle_events_timeout_completed$1;
-  return_value_libusb_handle_events_timeout_completed$1=libusb_handle_events_timeout_completed(ctx, &tv, (signed int *)(void *)0);
-  return return_value_libusb_handle_events_timeout_completed$1;
+  signed int return_value_libusb_handle_events_timeout_completed_1;
+  return_value_libusb_handle_events_timeout_completed_1=libusb_handle_events_timeout_completed(ctx, &tv, (signed int *)(void *)0);
+  return return_value_libusb_handle_events_timeout_completed_1;
 }
 
 // libusb_handle_events_completed
@@ -6134,9 +6134,9 @@ signed int libusb_handle_events_completed(struct libusb_context *ctx, signed int
   struct timeval tv;
   tv.tv_sec = (signed long int)60;
   tv.tv_usec = (signed long int)0;
-  signed int return_value_libusb_handle_events_timeout_completed$1;
-  return_value_libusb_handle_events_timeout_completed$1=libusb_handle_events_timeout_completed(ctx, &tv, completed);
-  return return_value_libusb_handle_events_timeout_completed$1;
+  signed int return_value_libusb_handle_events_timeout_completed_1;
+  return_value_libusb_handle_events_timeout_completed_1=libusb_handle_events_timeout_completed(ctx, &tv, completed);
+  return return_value_libusb_handle_events_timeout_completed_1;
 }
 
 // libusb_handle_events_locked
@@ -6151,23 +6151,23 @@ signed int libusb_handle_events_locked(struct libusb_context *ctx, struct timeva
   r=get_next_timeout(ctx, tv, &poll_timeout);
   if(!(r == 0))
   {
-    signed int return_value_handle_timeouts$1;
-    return_value_handle_timeouts$1=handle_timeouts(ctx);
-    return return_value_handle_timeouts$1;
+    signed int return_value_handle_timeouts_1;
+    return_value_handle_timeouts_1=handle_timeouts(ctx);
+    return return_value_handle_timeouts_1;
   }
 
-  signed int return_value_handle_events$2;
-  return_value_handle_events$2=handle_events(ctx, &poll_timeout);
-  return return_value_handle_events$2;
+  signed int return_value_handle_events_2;
+  return_value_handle_events_2=handle_events(ctx, &poll_timeout);
+  return return_value_handle_events_2;
 }
 
 // libusb_handle_events_timeout
 // file ../../libusb/libusb.h line 1808
 signed int libusb_handle_events_timeout(struct libusb_context *ctx, struct timeval *tv)
 {
-  signed int return_value_libusb_handle_events_timeout_completed$1;
-  return_value_libusb_handle_events_timeout_completed$1=libusb_handle_events_timeout_completed(ctx, tv, (signed int *)(void *)0);
-  return return_value_libusb_handle_events_timeout_completed$1;
+  signed int return_value_libusb_handle_events_timeout_completed_1;
+  return_value_libusb_handle_events_timeout_completed_1=libusb_handle_events_timeout_completed(ctx, tv, (signed int *)(void *)0);
+  return return_value_libusb_handle_events_timeout_completed_1;
 }
 
 // libusb_handle_events_timeout_completed
@@ -6182,28 +6182,28 @@ signed int libusb_handle_events_timeout_completed(struct libusb_context *ctx, st
   r=get_next_timeout(ctx, tv, &poll_timeout);
   if(!(r == 0))
   {
-    signed int return_value_handle_timeouts$1;
-    return_value_handle_timeouts$1=handle_timeouts(ctx);
-    return return_value_handle_timeouts$1;
+    signed int return_value_handle_timeouts_1;
+    return_value_handle_timeouts_1=handle_timeouts(ctx);
+    return return_value_handle_timeouts_1;
   }
 
-  signed int return_value_libusb_try_lock_events$3;
-  _Bool tmp_if_expr$2;
-  signed int return_value_libusb_event_handler_active$4;
+  signed int return_value_libusb_try_lock_events_3;
+  _Bool tmp_if_expr_2;
+  signed int return_value_libusb_event_handler_active_4;
   do
   {
 
   retry:
     ;
-    return_value_libusb_try_lock_events$3=libusb_try_lock_events(ctx);
-    if(return_value_libusb_try_lock_events$3 == 0)
+    return_value_libusb_try_lock_events_3=libusb_try_lock_events(ctx);
+    if(return_value_libusb_try_lock_events_3 == 0)
     {
       if(completed == ((signed int *)NULL))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = !(*completed != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = !(*completed != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "libusb_handle_events_timeout_completed", "doing our own event handling");
         r=handle_events(ctx, &poll_timeout);
@@ -6221,8 +6221,8 @@ signed int libusb_handle_events_timeout_completed(struct libusb_context *ctx, st
 
     }
 
-    return_value_libusb_event_handler_active$4=libusb_event_handler_active(ctx);
-    if(!(return_value_libusb_event_handler_active$4 == 0))
+    return_value_libusb_event_handler_active_4=libusb_event_handler_active(ctx);
+    if(!(return_value_libusb_event_handler_active_4 == 0))
       break;
 
     libusb_unlock_event_waiters(ctx);
@@ -6235,15 +6235,15 @@ signed int libusb_handle_events_timeout_completed(struct libusb_context *ctx, st
 already_done:
   ;
   libusb_unlock_event_waiters(ctx);
-  signed int return_value_handle_timeouts$5;
+  signed int return_value_handle_timeouts_5;
   if(!(r >= 0))
     return r;
 
   else
     if(r == 1)
     {
-      return_value_handle_timeouts$5=handle_timeouts(ctx);
-      return return_value_handle_timeouts$5;
+      return_value_handle_timeouts_5=handle_timeouts(ctx);
+      return return_value_handle_timeouts_5;
     }
 
     else
@@ -6274,9 +6274,9 @@ signed int libusb_has_capability(unsigned int capability)
 void libusb_hotplug_deregister_callback(struct libusb_context *ctx, signed int handle)
 {
   struct libusb_hotplug_callback *hotplug_cb;
-  signed int return_value_libusb_has_capability$1;
-  return_value_libusb_has_capability$1=libusb_has_capability((unsigned int)1);
-  if(!(return_value_libusb_has_capability$1 == 0))
+  signed int return_value_libusb_has_capability_1;
+  return_value_libusb_has_capability_1=libusb_has_capability((unsigned int)1);
+  if(!(return_value_libusb_has_capability_1 == 0))
   {
     if(ctx == ((struct libusb_context *)NULL))
       ctx = usbi_default_context;
@@ -6288,24 +6288,24 @@ void libusb_hotplug_deregister_callback(struct libusb_context *ctx, signed int h
         hotplug_cb->needs_free = 1;
 
     pthread_mutex_unlock(&ctx->hotplug_cbs_lock);
-    usbi_hotplug_notification(ctx, (struct libusb_device *)(void *)0, (enum anonymous$2)0);
+    usbi_hotplug_notification(ctx, (struct libusb_device *)(void *)0, (enum anonymous_2)0);
   }
 
 }
 
 // libusb_hotplug_register_callback
 // file ../../libusb/hotplug.c line 230
-signed int libusb_hotplug_register_callback(struct libusb_context *ctx, enum anonymous$2 events, enum anonymous$1 flags, signed int vendor_id, signed int product_id, signed int dev_class, signed int (*cb_fn)(struct libusb_context *, struct libusb_device *, enum anonymous$2, void *), void *user_data, signed int *handle)
+signed int libusb_hotplug_register_callback(struct libusb_context *ctx, enum anonymous_2 events, enum anonymous_1 flags, signed int vendor_id, signed int product_id, signed int dev_class, signed int (*cb_fn)(struct libusb_context *, struct libusb_device *, enum anonymous_2, void *), void *user_data, signed int *handle)
 {
   struct libusb_hotplug_callback *new_callback;
-  signed int return_value_libusb_has_capability$1;
-  return_value_libusb_has_capability$1=libusb_has_capability((unsigned int)1);
-  signed int tmp_post$3;
-  if(return_value_libusb_has_capability$1 == 0)
+  signed int return_value_libusb_has_capability_1;
+  return_value_libusb_has_capability_1=libusb_has_capability((unsigned int)1);
+  signed int tmp_post_3;
+  if(return_value_libusb_has_capability_1 == 0)
     return LIBUSB_ERROR_NOT_SUPPORTED;
 
   else
-    if(cb_fn == ((signed int (*)(struct libusb_context *, struct libusb_device *, enum anonymous$2, void *))NULL) || !((-65536 & product_id) == 0) && !(product_id == -1) || !((-65536 & vendor_id) == 0) && !(vendor_id == -1) || !((-256 & dev_class) == 0) && !(dev_class == -1))
+    if(cb_fn == ((signed int (*)(struct libusb_context *, struct libusb_device *, enum anonymous_2, void *))NULL) || !((-65536 & product_id) == 0) && !(product_id == -1) || !((-65536 & vendor_id) == 0) && !(vendor_id == -1) || !((-256 & dev_class) == 0) && !(dev_class == -1))
       return LIBUSB_ERROR_INVALID_PARAM;
 
     else
@@ -6313,9 +6313,9 @@ signed int libusb_hotplug_register_callback(struct libusb_context *ctx, enum ano
       if(ctx == ((struct libusb_context *)NULL))
         ctx = usbi_default_context;
 
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct libusb_hotplug_callback) /*80ul*/ );
-      new_callback = (struct libusb_hotplug_callback *)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct libusb_hotplug_callback) /*80ul*/ );
+      new_callback = (struct libusb_hotplug_callback *)return_value_calloc_2;
       if(new_callback == ((struct libusb_hotplug_callback *)NULL))
         return LIBUSB_ERROR_NO_MEM;
 
@@ -6332,19 +6332,19 @@ signed int libusb_hotplug_register_callback(struct libusb_context *ctx, enum ano
         new_callback->needs_free = 0;
         pthread_mutex_lock(&ctx->hotplug_cbs_lock);
         static signed int handle_id = 1;
-        tmp_post$3 = handle_id;
+        tmp_post_3 = handle_id;
         handle_id = handle_id + 1;
-        new_callback->handle = tmp_post$3;
-        list_add$link2(&new_callback->list, &ctx->hotplug_cbs);
+        new_callback->handle = tmp_post_3;
+        list_add_link2(&new_callback->list, &ctx->hotplug_cbs);
         pthread_mutex_unlock(&ctx->hotplug_cbs_lock);
         if(!((LIBUSB_HOTPLUG_ENUMERATE & (signed int)flags) == 0))
         {
           signed int i;
           signed int len;
           struct libusb_device **devs;
-          signed long int return_value_libusb_get_device_list$4;
-          return_value_libusb_get_device_list$4=libusb_get_device_list(ctx, &devs);
-          len = (signed int)return_value_libusb_get_device_list$4;
+          signed long int return_value_libusb_get_device_list_4;
+          return_value_libusb_get_device_list_4=libusb_get_device_list(ctx, &devs);
+          len = (signed int)return_value_libusb_get_device_list_4;
           if(!(len >= 0))
           {
             libusb_hotplug_deregister_callback(ctx, new_callback->handle);
@@ -6353,7 +6353,7 @@ signed int libusb_hotplug_register_callback(struct libusb_context *ctx, enum ano
 
           i = 0;
           for( ; !(i >= len); i = i + 1)
-            usbi_hotplug_match_cb(ctx, devs[(signed long int)i], (enum anonymous$2)LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED, new_callback);
+            usbi_hotplug_match_cb(ctx, devs[(signed long int)i], (enum anonymous_2)LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED, new_callback);
           libusb_free_device_list(devs, 1);
         }
 
@@ -6389,9 +6389,9 @@ signed int libusb_init(struct libusb_context **context)
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct libusb_context) /*544ul*/ );
-    ctx = (struct libusb_context *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct libusb_context) /*544ul*/ );
+    ctx = (struct libusb_context *)return_value_calloc_1;
     if(ctx == ((struct libusb_context *)NULL))
       r = LIBUSB_ERROR_NO_MEM;
 
@@ -6413,9 +6413,9 @@ signed int libusb_init(struct libusb_context **context)
       }
 
       usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "libusb_init", "libusb v%u.%u.%u.%u%s", libusb_version_internal.major, libusb_version_internal.minor, libusb_version_internal.micro, libusb_version_internal.nano, libusb_version_internal.rc);
-      pthread_mutex_init(&ctx->usb_devs_lock, (const union anonymous$4 *)(void *)0);
-      pthread_mutex_init(&ctx->open_devs_lock, (const union anonymous$4 *)(void *)0);
-      pthread_mutex_init(&ctx->hotplug_cbs_lock, (const union anonymous$4 *)(void *)0);
+      pthread_mutex_init(&ctx->usb_devs_lock, (const union anonymous_4 *)(void *)0);
+      pthread_mutex_init(&ctx->open_devs_lock, (const union anonymous_4 *)(void *)0);
+      pthread_mutex_init(&ctx->hotplug_cbs_lock, (const union anonymous_4 *)(void *)0);
       list_init(&ctx->usb_devs);
       list_init(&ctx->open_devs);
       list_init(&ctx->hotplug_cbs);
@@ -6487,9 +6487,9 @@ signed int libusb_init(struct libusb_context **context)
 // file ../../libusb/sync.c line 302
 signed int libusb_interrupt_transfer(struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *data, signed int length, signed int *transferred, unsigned int timeout)
 {
-  signed int return_value_do_sync_bulk_transfer$1;
-  return_value_do_sync_bulk_transfer$1=do_sync_bulk_transfer(dev_handle, endpoint, data, length, transferred, timeout, (unsigned char)LIBUSB_TRANSFER_TYPE_INTERRUPT);
-  return return_value_do_sync_bulk_transfer$1;
+  signed int return_value_do_sync_bulk_transfer_1;
+  return_value_do_sync_bulk_transfer_1=do_sync_bulk_transfer(dev_handle, endpoint, data, length, transferred, timeout, (unsigned char)LIBUSB_TRANSFER_TYPE_INTERRUPT);
+  return return_value_do_sync_bulk_transfer_1;
 }
 
 // libusb_kernel_driver_active
@@ -6547,15 +6547,15 @@ signed int libusb_open(struct libusb_device *dev, struct libusb_device_handle **
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct libusb_device_handle) /*80ul*/  + priv_size);
-    _handle = (struct libusb_device_handle *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct libusb_device_handle) /*80ul*/  + priv_size);
+    _handle = (struct libusb_device_handle *)return_value_malloc_1;
     if(_handle == ((struct libusb_device_handle *)NULL))
       return LIBUSB_ERROR_NO_MEM;
 
     else
     {
-      r=pthread_mutex_init(&_handle->lock, (const union anonymous$4 *)(void *)0);
+      r=pthread_mutex_init(&_handle->lock, (const union anonymous_4 *)(void *)0);
       if(!(r == 0))
       {
         free((void *)_handle);
@@ -6601,19 +6601,19 @@ struct libusb_device_handle * libusb_open_device_with_vid_pid(struct libusb_cont
   struct libusb_device_handle *handle = (struct libusb_device_handle *)(void *)0;
   unsigned long int i = (unsigned long int)0;
   signed int r;
-  signed long int return_value_libusb_get_device_list$1;
-  return_value_libusb_get_device_list$1=libusb_get_device_list(ctx, &devs);
-  unsigned long int tmp_post$2;
-  if(!(return_value_libusb_get_device_list$1 >= 0l))
+  signed long int return_value_libusb_get_device_list_1;
+  return_value_libusb_get_device_list_1=libusb_get_device_list(ctx, &devs);
+  unsigned long int tmp_post_2;
+  if(!(return_value_libusb_get_device_list_1 >= 0l))
     return (struct libusb_device_handle *)(void *)0;
 
   else
   {
     do
     {
-      tmp_post$2 = i;
+      tmp_post_2 = i;
       i = i + 1ul;
-      dev = devs[(signed long int)tmp_post$2];
+      dev = devs[(signed long int)tmp_post_2];
       if(dev == ((struct libusb_device *)NULL))
         break;
 
@@ -6799,45 +6799,45 @@ void libusb_set_pollfd_notifiers(struct libusb_context *ctx, void (*added_cb)(si
 signed int libusb_setlocale(const char *locale)
 {
   unsigned long int i;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(locale == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(locale);
-    tmp_if_expr$2 = return_value_strlen$1 < (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(locale);
+    tmp_if_expr_2 = return_value_strlen_1 < (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_strlen$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$2)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_strlen_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_2)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_strlen$3=strlen(locale);
-    if(return_value_strlen$3 >= 3ul)
-      tmp_if_expr$4 = (signed int)locale[(signed long int)2] != 45 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_3=strlen(locale);
+    if(return_value_strlen_3 >= 3ul)
+      tmp_if_expr_4 = (signed int)locale[(signed long int)2] != 45 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (signed int)locale[(signed long int)2] != 95 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (signed int)locale[(signed long int)2] != 95 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (signed int)locale[(signed long int)2] != 46 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (signed int)locale[(signed long int)2] != 46 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (_Bool)0;
+    tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
     return LIBUSB_ERROR_INVALID_PARAM;
 
   else
@@ -6845,9 +6845,9 @@ signed int libusb_setlocale(const char *locale)
     i = (unsigned long int)0;
     for( ; !(i >= 4ul); i = i + 1ul)
     {
-      signed int return_value_strncasecmp$8;
-      return_value_strncasecmp$8=strncasecmp(usbi_locale_supported[(signed long int)i], locale, (unsigned long int)2);
-      if(return_value_strncasecmp$8 == 0)
+      signed int return_value_strncasecmp_8;
+      return_value_strncasecmp_8=strncasecmp(usbi_locale_supported[(signed long int)i], locale, (unsigned long int)2);
+      if(return_value_strncasecmp_8 == 0)
         break;
 
     }
@@ -6947,7 +6947,7 @@ out:
 
 // libusb_testlib_logf
 // file ../../tests/libusb_testlib.h line 65
-void libusb_testlib_logf(struct anonymous$5 *ctx, const char *fmt, ...)
+void libusb_testlib_logf(struct anonymous_5 *ctx, const char *fmt, ...)
 {
   void **va = (void **)&fmt;
   vfprintf(ctx->output_file, fmt, va);
@@ -6958,7 +6958,7 @@ void libusb_testlib_logf(struct anonymous$5 *ctx, const char *fmt, ...)
 
 // libusb_testlib_run_tests
 // file ../../tests/libusb_testlib.h line 103
-signed int libusb_testlib_run_tests(signed int argc, char **argv, const struct anonymous$7 *tests)
+signed int libusb_testlib_run_tests(signed int argc, char **argv, const struct anonymous_7 *tests)
 {
   signed int run_count = 0;
   signed int idx = 0;
@@ -6969,8 +6969,8 @@ signed int libusb_testlib_run_tests(signed int argc, char **argv, const struct a
   signed int r;
   signed int j;
   unsigned long int arglen;
-  enum anonymous$6 test_result;
-  struct anonymous$5 ctx;
+  enum anonymous_6 test_result;
+  struct anonymous_5 ctx;
   ctx.test_names = (char **)(void *)0;
   ctx.test_count = 0;
   ctx.list_tests = (signed int)!(1 == 1);
@@ -6979,7 +6979,7 @@ signed int libusb_testlib_run_tests(signed int argc, char **argv, const struct a
   ctx.old_stderr = -1;
   ctx.output_file = stdout;
   ctx.null_fd = -1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argc >= 2)
   {
     j = 1;
@@ -6987,11 +6987,11 @@ signed int libusb_testlib_run_tests(signed int argc, char **argv, const struct a
     {
       arglen=strlen(argv[(signed long int)j]);
       if((signed int)*argv[(signed long int)j] == 45)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)argv[(signed long int)j][(signed long int)0] == 47 ? (_Bool)1 : (_Bool)0;
-      if(arglen >= 2ul && tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)argv[(signed long int)j][(signed long int)0] == 47 ? (_Bool)1 : (_Bool)0;
+      if(arglen >= 2ul && tmp_if_expr_1)
         switch((signed int)argv[(signed long int)j][(signed long int)1])
         {
           case 108:
@@ -7037,7 +7037,7 @@ signed int libusb_testlib_run_tests(signed int argc, char **argv, const struct a
     else
       if(!(ctx.list_tests == 0))
       {
-        for( ; !((tests + (signed long int)idx)->function == ((enum anonymous$6 (*)(struct anonymous$5 *))NULL)); idx = idx + 1)
+        for( ; !((tests + (signed long int)idx)->function == ((enum anonymous_6 (*)(struct anonymous_5 *))NULL)); idx = idx + 1)
           libusb_testlib_logf(&ctx, (tests + (signed long int)idx)->name);
         cleanup_test_output(&ctx);
         return 0;
@@ -7045,18 +7045,18 @@ signed int libusb_testlib_run_tests(signed int argc, char **argv, const struct a
 
       else
       {
-        while(!((tests + (signed long int)idx)->function == ((enum anonymous$6 (*)(struct anonymous$5 *))NULL)))
+        while(!((tests + (signed long int)idx)->function == ((enum anonymous_6 (*)(struct anonymous_5 *))NULL)))
         {
-          const struct anonymous$7 *test = &tests[(signed long int)idx];
+          const struct anonymous_7 *test = &tests[(signed long int)idx];
           idx = idx + 1;
           if(ctx.test_count >= 1)
           {
             signed int i = 0;
             for( ; !(i >= ctx.test_count); i = i + 1)
             {
-              signed int return_value_strcmp$2;
-              return_value_strcmp$2=strcmp(ctx.test_names[(signed long int)i], test->name);
-              if(return_value_strcmp$2 == 0)
+              signed int return_value_strcmp_2;
+              return_value_strcmp_2=strcmp(ctx.test_names[(signed long int)i], test->name);
+              if(return_value_strcmp_2 == 0)
                 break;
 
             }
@@ -7067,9 +7067,9 @@ signed int libusb_testlib_run_tests(signed int argc, char **argv, const struct a
 
           libusb_testlib_logf(&ctx, "Starting test run: %s...", test->name);
           test_result=test->function(&ctx);
-          const char *return_value_test_result_to_str$3;
-          return_value_test_result_to_str$3=test_result_to_str(test_result);
-          libusb_testlib_logf(&ctx, "%s (%d)", return_value_test_result_to_str$3, test_result);
+          const char *return_value_test_result_to_str_3;
+          return_value_test_result_to_str_3=test_result_to_str(test_result);
+          libusb_testlib_logf(&ctx, "%s (%d)", return_value_test_result_to_str_3, test_result);
           if((signed int)test_result == TEST_STATUS_SUCCESS)
           {
             pass_count = pass_count + 1;
@@ -7182,9 +7182,9 @@ void libusb_unref_device(struct libusb_device *dev)
       if(!(usbi_backend->destroy_device == ((void (*)(struct libusb_device *))NULL)))
         usbi_backend->destroy_device(dev);
 
-      signed int return_value_libusb_has_capability$1;
-      return_value_libusb_has_capability$1=libusb_has_capability((unsigned int)1);
-      if(return_value_libusb_has_capability$1 == 0)
+      signed int return_value_libusb_has_capability_1;
+      return_value_libusb_has_capability_1=libusb_has_capability((unsigned int)1);
+      if(return_value_libusb_has_capability_1 == 0)
         usbi_disconnect_device(dev);
 
       pthread_mutex_destroy(&dev->lock);
@@ -7215,9 +7215,9 @@ signed int libusb_wait_for_event(struct libusb_context *ctx, struct timeval *tv)
     r=usbi_backend->clock_gettime(1, &timeout);
     if(!(r >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "libusb_wait_for_event", "failed to read realtime clock, error %d", *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "libusb_wait_for_event", "failed to read realtime clock, error %d", *return_value___errno_location_1);
       return LIBUSB_ERROR_OTHER;
     }
 
@@ -7312,21 +7312,21 @@ signed int linux_get_device_address(struct libusb_context *ctx, signed int detac
 {
   signed int sysfs_attr;
   usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "linux_get_device_address", "getting address for device: %s detached: %d", sys_name, detached);
-  signed int return_value_strncmp$1;
+  signed int return_value_strncmp_1;
   if(sys_name == ((const char *)NULL) || sysfs_can_relate_devices == 0 || !(detached == 0))
   {
     if(dev_node == ((const char *)NULL))
       return LIBUSB_ERROR_OTHER;
 
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(dev_node, "/dev/bus/usb", (unsigned long int)12);
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(dev_node, "/dev/bus/usb", (unsigned long int)12);
+    if(return_value_strncmp_2 == 0)
       sscanf(dev_node, "/dev/bus/usb/%hhu/%hhu", busnum, devaddr);
 
     else
     {
-      return_value_strncmp$1=strncmp(dev_node, "/proc/bus/usb", (unsigned long int)13);
-      if(return_value_strncmp$1 == 0)
+      return_value_strncmp_1=strncmp(dev_node, "/proc/bus/usb", (unsigned long int)13);
+      if(return_value_strncmp_1 == 0)
         sscanf(dev_node, "/proc/bus/usb/%hhu/%hhu", busnum, devaddr);
 
     }
@@ -7372,18 +7372,18 @@ static signed int linux_get_parent_info(struct libusb_device *dev, const char *s
   char *tmp;
   signed int ret;
   signed int add_parent = 1;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strncmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strncmp_1;
   if(sysfs_dir == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strncmp$1=strncmp(sysfs_dir, "usb", (unsigned long int)3);
-    tmp_if_expr$2 = 0 == return_value_strncmp$1 ? (_Bool)1 : (_Bool)0;
+    return_value_strncmp_1=strncmp(sysfs_dir, "usb", (unsigned long int)3);
+    tmp_if_expr_2 = 0 == return_value_strncmp_1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$2)
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_2)
     return LIBUSB_SUCCESS;
 
   else
@@ -7396,18 +7396,18 @@ static signed int linux_get_parent_info(struct libusb_device *dev, const char *s
     {
       tmp=strrchr(parent_sysfs_dir, 46);
       if(!(tmp == ((char *)NULL)))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         tmp=strrchr(parent_sysfs_dir, 45);
-        tmp_if_expr$4 = (char *)(void *)0 != tmp ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (char *)(void *)0 != tmp ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
-        signed int return_value_atoi$3;
-        return_value_atoi$3=atoi(tmp + (signed long int)1);
-        dev->port_number = (unsigned char)return_value_atoi$3;
+        signed int return_value_atoi_3;
+        return_value_atoi_3=atoi(tmp + (signed long int)1);
+        dev->port_number = (unsigned char)return_value_atoi_3;
         *tmp = (char)0;
       }
 
@@ -7417,9 +7417,9 @@ static signed int linux_get_parent_info(struct libusb_device *dev, const char *s
         free((void *)parent_sysfs_dir);
         return LIBUSB_SUCCESS;
       }
-      char *return_value_strchr$5;
-      return_value_strchr$5=strchr(parent_sysfs_dir, 45);
-      if(return_value_strchr$5 == ((char *)NULL))
+      char *return_value_strchr_5;
+      return_value_strchr_5=strchr(parent_sysfs_dir, 45);
+      if(return_value_strchr_5 == ((char *)NULL))
       {
         tmp = parent_sysfs_dir;
         ret=asprintf(&parent_sysfs_dir, "usb%s", tmp);
@@ -7443,9 +7443,9 @@ static signed int linux_get_parent_info(struct libusb_device *dev, const char *s
           {
             struct linux_device_priv *priv;
             priv=_device_priv(it);
-            signed int return_value_strcmp$6;
-            return_value_strcmp$6=strcmp(priv->sysfs_dir, parent_sysfs_dir);
-            if(return_value_strcmp$6 == 0)
+            signed int return_value_strcmp_6;
+            return_value_strcmp_6=strcmp(priv->sysfs_dir, parent_sysfs_dir);
+            if(return_value_strcmp_6 == 0)
             {
               dev->parent_dev=libusb_ref_device(it);
               break;
@@ -7499,18 +7499,18 @@ static signed int linux_scan_devices(struct libusb_context *ctx)
 // file ../../libusb/os/linux_usbfs.c line 475
 static signed int linux_start_event_monitor(void)
 {
-  signed int return_value_linux_udev_start_event_monitor$1;
-  return_value_linux_udev_start_event_monitor$1=linux_udev_start_event_monitor();
-  return return_value_linux_udev_start_event_monitor$1;
+  signed int return_value_linux_udev_start_event_monitor_1;
+  return_value_linux_udev_start_event_monitor_1=linux_udev_start_event_monitor();
+  return return_value_linux_udev_start_event_monitor_1;
 }
 
 // linux_stop_event_monitor
 // file ../../libusb/os/linux_usbfs.c line 484
 static signed int linux_stop_event_monitor(void)
 {
-  signed int return_value_linux_udev_stop_event_monitor$1;
-  return_value_linux_udev_stop_event_monitor$1=linux_udev_stop_event_monitor();
-  return return_value_linux_udev_stop_event_monitor$1;
+  signed int return_value_linux_udev_stop_event_monitor_1;
+  return_value_linux_udev_stop_event_monitor_1=linux_udev_stop_event_monitor();
+  return return_value_linux_udev_stop_event_monitor_1;
 }
 
 // linux_udev_event_thread_main
@@ -7524,18 +7524,18 @@ static void * linux_udev_event_thread_main(void *arg)
     .revents=0 },
     { .fd=udev_monitor_fd, .events=(signed short int)0x001, .revents=0 } };
   usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "linux_udev_event_thread_main", "udev event thread entering.");
-  signed int return_value_poll$1;
+  signed int return_value_poll_1;
   do
   {
-    return_value_poll$1=poll(fds, (unsigned long int)2, -1);
-    if(!(return_value_poll$1 >= 0))
+    return_value_poll_1=poll(fds, (unsigned long int)2, -1);
+    if(!(return_value_poll_1 >= 0))
       break;
 
     if(!((0x001 & (signed int)fds[0l].revents) == 0))
     {
-      signed long int return_value_read$2;
-      return_value_read$2=read(udev_control_pipe[(signed long int)0], (void *)&dummy, sizeof(char) /*1ul*/ );
-      r = (signed int)return_value_read$2;
+      signed long int return_value_read_2;
+      return_value_read_2=read(udev_control_pipe[(signed long int)0], (void *)&dummy, sizeof(char) /*1ul*/ );
+      r = (signed int)return_value_read_2;
       if(!(r >= 1))
         usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "linux_udev_event_thread_main", "udev control pipe read failed");
 
@@ -7634,7 +7634,7 @@ signed int linux_udev_start_event_monitor(void)
   /* assertion udev_ctx == ((void *)0) */
   assert(udev_ctx == (struct udev *)(void *)0);
   udev_ctx=udev_new();
-  signed int return_value_udev_monitor_enable_receiving$1;
+  signed int return_value_udev_monitor_enable_receiving_1;
   if(udev_ctx == ((struct udev *)NULL))
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "linux_udev_start_event_monitor", "could not create udev context");
 
@@ -7652,8 +7652,8 @@ signed int linux_udev_start_event_monitor(void)
 
       else
       {
-        return_value_udev_monitor_enable_receiving$1=udev_monitor_enable_receiving(udev_monitor);
-        if(!(return_value_udev_monitor_enable_receiving$1 == 0))
+        return_value_udev_monitor_enable_receiving_1=udev_monitor_enable_receiving(udev_monitor);
+        if(!(return_value_udev_monitor_enable_receiving_1 == 0))
           usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "linux_udev_start_event_monitor", "failed to enable the udev monitor");
 
         else
@@ -7662,18 +7662,18 @@ signed int linux_udev_start_event_monitor(void)
           r=fcntl(udev_monitor_fd, 3);
           if(r == -1)
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "linux_udev_start_event_monitor", "getting udev monitor fd flags (%d)", *return_value___errno_location$2);
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "linux_udev_start_event_monitor", "getting udev monitor fd flags (%d)", *return_value___errno_location_2);
             goto err_free_monitor;
           }
 
           r=fcntl(udev_monitor_fd, 4, r | 04000);
           if(!(r == 0))
           {
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "linux_udev_start_event_monitor", "setting udev monitor fd flags (%d)", *return_value___errno_location$3);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "linux_udev_start_event_monitor", "setting udev monitor fd flags (%d)", *return_value___errno_location_3);
             goto err_free_monitor;
           }
 
@@ -7728,9 +7728,9 @@ signed int linux_udev_stop_event_monitor(void)
   assert(udev_monitor != (struct udev_monitor *)(void *)0);
   /* assertion udev_monitor_fd != -1 */
   assert(udev_monitor_fd != -1);
-  signed long int return_value_write$1;
-  return_value_write$1=write(udev_control_pipe[(signed long int)1], (const void *)&dummy, sizeof(char) /*1ul*/ );
-  r = (signed int)return_value_write$1;
+  signed long int return_value_write_1;
+  return_value_write_1=write(udev_control_pipe[(signed long int)1], (const void *)&dummy, sizeof(char) /*1ul*/ );
+  r = (signed int)return_value_write_1;
   if(!(r >= 1))
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "linux_udev_stop_event_monitor", "udev control pipe signal failed");
 
@@ -7757,24 +7757,24 @@ static inline void list_add(struct list_head *entry, struct list_head *head)
   head->next = entry;
 }
 
-// list_add$link1
+// list_add_link1
 // file ../../libusb/libusbi.h line 116
-static inline void list_add$link1(struct list_head *entry$link1, struct list_head *head$link1)
+static inline void list_add_link1(struct list_head *entry_link1, struct list_head *head_link1)
 {
-  entry$link1->next = head$link1->next;
-  entry$link1->prev = head$link1;
-  head$link1->next->prev = entry$link1;
-  head$link1->next = entry$link1;
+  entry_link1->next = head_link1->next;
+  entry_link1->prev = head_link1;
+  head_link1->next->prev = entry_link1;
+  head_link1->next = entry_link1;
 }
 
-// list_add$link2
+// list_add_link2
 // file ../../libusb/libusbi.h line 116
-static inline void list_add$link2(struct list_head *entry$link2, struct list_head *head$link2)
+static inline void list_add_link2(struct list_head *entry_link2, struct list_head *head_link2)
 {
-  entry$link2->next = head$link2->next;
-  entry$link2->prev = head$link2;
-  head$link2->next->prev = entry$link2;
-  head$link2->next = entry$link2;
+  entry_link2->next = head_link2->next;
+  entry_link2->prev = head_link2;
+  head_link2->next->prev = entry_link2;
+  head_link2->next = entry_link2;
 }
 
 // list_add_tail
@@ -7787,14 +7787,14 @@ static inline void list_add_tail(struct list_head *entry, struct list_head *head
   head->prev = entry;
 }
 
-// list_add_tail$link1
+// list_add_tail_link1
 // file ../../libusb/libusbi.h line 125
-static inline void list_add_tail$link1(struct list_head *entry$link1, struct list_head *head$link1)
+static inline void list_add_tail_link1(struct list_head *entry_link1, struct list_head *head_link1)
 {
-  entry$link1->next = head$link1;
-  entry$link1->prev = head$link1->prev;
-  head$link1->prev->next = entry$link1;
-  head$link1->prev = entry$link1;
+  entry_link1->next = head_link1;
+  entry_link1->prev = head_link1->prev;
+  head_link1->prev->next = entry_link1;
+  head_link1->prev = entry_link1;
 }
 
 // list_del
@@ -7807,24 +7807,24 @@ static inline void list_del(struct list_head *entry)
   entry->next = entry->prev;
 }
 
-// list_del$link1
+// list_del_link1
 // file ../../libusb/libusbi.h line 135
-static inline void list_del$link1(struct list_head *entry$link1)
+static inline void list_del_link1(struct list_head *entry_link1)
 {
-  entry$link1->next->prev = entry$link1->prev;
-  entry$link1->prev->next = entry$link1->next;
-  entry$link1->prev = (struct list_head *)(void *)0;
-  entry$link1->next = entry$link1->prev;
+  entry_link1->next->prev = entry_link1->prev;
+  entry_link1->prev->next = entry_link1->next;
+  entry_link1->prev = (struct list_head *)(void *)0;
+  entry_link1->next = entry_link1->prev;
 }
 
-// list_del$link2
+// list_del_link2
 // file ../../libusb/libusbi.h line 135
-static inline void list_del$link2(struct list_head *entry$link2)
+static inline void list_del_link2(struct list_head *entry_link2)
 {
-  entry$link2->next->prev = entry$link2->prev;
-  entry$link2->prev->next = entry$link2->next;
-  entry$link2->prev = (struct list_head *)(void *)0;
-  entry$link2->next = entry$link2->prev;
+  entry_link2->next->prev = entry_link2->prev;
+  entry_link2->prev->next = entry_link2->next;
+  entry_link2->prev = (struct list_head *)(void *)0;
+  entry_link2->next = entry_link2->prev;
 }
 
 // list_init
@@ -7835,30 +7835,30 @@ static inline void list_init(struct list_head *entry)
   entry->prev = entry->next;
 }
 
-// list_init$link1
+// list_init_link1
 // file ../../libusb/libusbi.h line 111
-static inline void list_init$link1(struct list_head *entry$link1)
+static inline void list_init_link1(struct list_head *entry_link1)
 {
-  entry$link1->next = entry$link1;
-  entry$link1->prev = entry$link1->next;
+  entry_link1->next = entry_link1;
+  entry_link1->prev = entry_link1->next;
 }
 
 // main
 // file ../../tests/stress.c line 157
 signed int main(signed int argc, char **argv)
 {
-  signed int return_value_libusb_testlib_run_tests$1;
-  return_value_libusb_testlib_run_tests$1=libusb_testlib_run_tests(argc, argv, tests);
-  return return_value_libusb_testlib_run_tests$1;
+  signed int return_value_libusb_testlib_run_tests_1;
+  return_value_libusb_testlib_run_tests_1=libusb_testlib_run_tests(argc, argv, tests);
+  return return_value_libusb_testlib_run_tests_1;
 }
 
 // op_alloc_streams
 // file ../../libusb/os/linux_usbfs.c line 1544
 static signed int op_alloc_streams(struct libusb_device_handle *handle, unsigned int num_streams, unsigned char *endpoints, signed int num_endpoints)
 {
-  signed int return_value_do_streams_ioctl$1;
-  return_value_do_streams_ioctl$1=do_streams_ioctl(handle, (signed long int)((unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(28 << 0)) | sizeof(struct usbfs_streams) /*8ul*/  << 0 + 8 + 8), num_streams, endpoints, num_endpoints);
-  return return_value_do_streams_ioctl$1;
+  signed int return_value_do_streams_ioctl_1;
+  return_value_do_streams_ioctl_1=do_streams_ioctl(handle, (signed long int)((unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(28 << 0)) | sizeof(struct usbfs_streams) /*8ul*/  << 0 + 8 + 8), num_streams, endpoints, num_endpoints);
+  return return_value_do_streams_ioctl_1;
 }
 
 // op_attach_kernel_driver
@@ -7866,49 +7866,49 @@ static signed int op_alloc_streams(struct libusb_device_handle *handle, unsigned
 static signed int op_attach_kernel_driver(struct libusb_device_handle *handle, signed int interface)
 {
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   struct usbfs_ioctl command;
   signed int r;
   command.ifno = interface;
   command.ioctl_code = (signed int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(23 << 0) | (unsigned int)(0 << 0 + 8 + 8));
   command.data = (void *)0;
   r=ioctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(18 << 0)) | sizeof(struct usbfs_ioctl) /*16ul*/  << 0 + 8 + 8, &command);
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_2;
   if(!(r >= 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    if(*return_value___errno_location$5 == 61)
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    if(*return_value___errno_location_5 == 61)
       return LIBUSB_ERROR_NOT_FOUND;
 
     else
     {
-      return_value___errno_location$4=__errno_location();
-      if(*return_value___errno_location$4 == 22)
+      return_value___errno_location_4=__errno_location();
+      if(*return_value___errno_location_4 == 22)
         return LIBUSB_ERROR_INVALID_PARAM;
 
       else
       {
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 19)
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 19)
           return LIBUSB_ERROR_NO_DEVICE;
 
         else
         {
-          return_value___errno_location$2=__errno_location();
-          if(*return_value___errno_location$2 == 16)
+          return_value___errno_location_2=__errno_location();
+          if(*return_value___errno_location_2 == 16)
             return LIBUSB_ERROR_BUSY;
 
         }
       }
     }
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_attach_kernel_driver", "attach failed error %d errno %d", r, *return_value___errno_location$6);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_attach_kernel_driver", "attach failed error %d errno %d", r, *return_value___errno_location_6);
     return LIBUSB_ERROR_OTHER;
   }
 
@@ -7924,12 +7924,12 @@ static signed int op_attach_kernel_driver(struct libusb_device_handle *handle, s
 static signed int op_cancel_transfer(struct usbi_transfer *itransfer)
 {
   struct linux_transfer_priv *tpriv;
-  void *return_value_usbi_transfer_get_os_priv$1;
-  return_value_usbi_transfer_get_os_priv$1=usbi_transfer_get_os_priv(itransfer);
-  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv$1;
+  void *return_value_usbi_transfer_get_os_priv_1;
+  return_value_usbi_transfer_get_os_priv_1=usbi_transfer_get_os_priv(itransfer);
+  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv_1;
   struct libusb_transfer *transfer = (struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ );
   signed int r;
-  if(tpriv->$anon0.urbs == ((struct usbfs_urb *)NULL))
+  if(tpriv->_anon0.urbs == ((struct usbfs_urb *)NULL))
     return LIBUSB_ERROR_NOT_FOUND;
 
   else
@@ -7960,18 +7960,18 @@ static signed int op_cancel_transfer(struct usbi_transfer *itransfer)
 // file ../../libusb/os/linux_usbfs.c line 1683
 static signed int op_claim_interface(struct libusb_device_handle *handle, signed int iface)
 {
-  signed int return_value_detach_kernel_driver_and_claim$1;
-  signed int return_value_claim_interface$2;
+  signed int return_value_detach_kernel_driver_and_claim_1;
+  signed int return_value_claim_interface_2;
   if(!(handle->auto_detach_kernel_driver == 0))
   {
-    return_value_detach_kernel_driver_and_claim$1=detach_kernel_driver_and_claim(handle, iface);
-    return return_value_detach_kernel_driver_and_claim$1;
+    return_value_detach_kernel_driver_and_claim_1=detach_kernel_driver_and_claim(handle, iface);
+    return return_value_detach_kernel_driver_and_claim_1;
   }
 
   else
   {
-    return_value_claim_interface$2=claim_interface(handle, iface);
-    return return_value_claim_interface$2;
+    return_value_claim_interface_2=claim_interface(handle, iface);
+    return return_value_claim_interface_2;
   }
 }
 
@@ -7980,30 +7980,30 @@ static signed int op_claim_interface(struct libusb_device_handle *handle, signed
 static signed int op_clear_halt(struct libusb_device_handle *handle, unsigned char endpoint)
 {
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   unsigned int _endpoint = (unsigned int)endpoint;
   signed int r;
   r=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(21 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &_endpoint);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!(r == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 2)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 2)
       return LIBUSB_ERROR_NOT_FOUND;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 19)
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 19)
         return LIBUSB_ERROR_NO_DEVICE;
 
     }
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_clear_halt", "clear_halt failed error %d errno %d", r, *return_value___errno_location$4);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_clear_halt", "clear_halt failed error %d errno %d", r, *return_value___errno_location_4);
     return LIBUSB_ERROR_OTHER;
   }
 
@@ -8016,9 +8016,9 @@ static void op_clear_transfer_priv(struct usbi_transfer *itransfer)
 {
   struct libusb_transfer *transfer = (struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ );
   struct linux_transfer_priv *tpriv;
-  void *return_value_usbi_transfer_get_os_priv$1;
-  return_value_usbi_transfer_get_os_priv$1=usbi_transfer_get_os_priv(itransfer);
-  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv$1;
+  void *return_value_usbi_transfer_get_os_priv_1;
+  return_value_usbi_transfer_get_os_priv_1=usbi_transfer_get_os_priv(itransfer);
+  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv_1;
   switch((signed int)transfer->type)
   {
     case LIBUSB_TRANSFER_TYPE_CONTROL:
@@ -8029,20 +8029,20 @@ static void op_clear_transfer_priv(struct usbi_transfer *itransfer)
 
     case LIBUSB_TRANSFER_TYPE_INTERRUPT:
     {
-      if(!(tpriv->$anon0.urbs == ((struct usbfs_urb *)NULL)))
+      if(!(tpriv->_anon0.urbs == ((struct usbfs_urb *)NULL)))
       {
-        free((void *)tpriv->$anon0.urbs);
-        tpriv->$anon0.urbs = (struct usbfs_urb *)(void *)0;
+        free((void *)tpriv->_anon0.urbs);
+        tpriv->_anon0.urbs = (struct usbfs_urb *)(void *)0;
       }
 
       break;
     }
     case LIBUSB_TRANSFER_TYPE_ISOCHRONOUS:
     {
-      if(!(tpriv->$anon0.iso_urbs == ((struct usbfs_urb **)NULL)))
+      if(!(tpriv->_anon0.iso_urbs == ((struct usbfs_urb **)NULL)))
       {
         free_iso_urbs(tpriv);
-        tpriv->$anon0.iso_urbs = (struct usbfs_urb **)(void *)0;
+        tpriv->_anon0.iso_urbs = (struct usbfs_urb **)(void *)0;
       }
 
       break;
@@ -8056,19 +8056,19 @@ static void op_clear_transfer_priv(struct usbi_transfer *itransfer)
 // file ../../libusb/os/linux_usbfs.c line 2625
 static signed int op_clock_gettime(signed int clk_id, struct timespec *tp)
 {
-  signed int return_value_clock_gettime$1;
-  signed int return_value_clock_gettime$2;
+  signed int return_value_clock_gettime_1;
+  signed int return_value_clock_gettime_2;
   switch(clk_id)
   {
     case 0:
     {
-      return_value_clock_gettime$1=clock_gettime(monotonic_clkid, tp);
-      return return_value_clock_gettime$1;
+      return_value_clock_gettime_1=clock_gettime(monotonic_clkid, tp);
+      return return_value_clock_gettime_1;
     }
     case 1:
     {
-      return_value_clock_gettime$2=clock_gettime(0, tp);
-      return return_value_clock_gettime$2;
+      return_value_clock_gettime_2=clock_gettime(0, tp);
+      return return_value_clock_gettime_2;
     }
     default:
       return LIBUSB_ERROR_INVALID_PARAM;
@@ -8080,9 +8080,9 @@ static signed int op_clock_gettime(signed int clk_id, struct timespec *tp)
 static void op_close(struct libusb_device_handle *dev_handle)
 {
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(dev_handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(dev_handle);
+  fd = return_value__device_handle_priv_1->fd;
   usbi_remove_pollfd(dev_handle->dev->ctx, fd);
   close(fd);
 }
@@ -8106,9 +8106,9 @@ static void op_destroy_device(struct libusb_device *dev)
 static signed int op_detach_kernel_driver(struct libusb_device_handle *handle, signed int interface)
 {
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   struct usbfs_ioctl command;
   struct usbfs_getdriver getdrv;
   signed int r;
@@ -8117,13 +8117,13 @@ static signed int op_detach_kernel_driver(struct libusb_device_handle *handle, s
   command.data = (void *)0;
   getdrv.interface = (unsigned int)interface;
   r=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(8 << 0)) | sizeof(struct usbfs_getdriver) /*260ul*/  << 0 + 8 + 8, &getdrv);
-  signed int return_value_strcmp$2;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$3;
+  signed int return_value_strcmp_2;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_3;
   if(r == 0)
   {
-    return_value_strcmp$2=strcmp(getdrv.driver, "usbfs");
-    if(!(return_value_strcmp$2 == 0))
+    return_value_strcmp_2=strcmp(getdrv.driver, "usbfs");
+    if(!(return_value_strcmp_2 == 0))
       goto __CPROVER_DUMP_L1;
 
     return LIBUSB_ERROR_NOT_FOUND;
@@ -8137,28 +8137,28 @@ static signed int op_detach_kernel_driver(struct libusb_device_handle *handle, s
     r=ioctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(18 << 0)) | sizeof(struct usbfs_ioctl) /*16ul*/  << 0 + 8 + 8, &command);
     if(!(r == 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 61)
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 61)
         return LIBUSB_ERROR_NOT_FOUND;
 
       else
       {
-        return_value___errno_location$4=__errno_location();
-        if(*return_value___errno_location$4 == 22)
+        return_value___errno_location_4=__errno_location();
+        if(*return_value___errno_location_4 == 22)
           return LIBUSB_ERROR_INVALID_PARAM;
 
         else
         {
-          return_value___errno_location$3=__errno_location();
-          if(*return_value___errno_location$3 == 19)
+          return_value___errno_location_3=__errno_location();
+          if(*return_value___errno_location_3 == 19)
             return LIBUSB_ERROR_NO_DEVICE;
 
         }
       }
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_detach_kernel_driver", "detach failed error %d errno %d", r, *return_value___errno_location$6);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_detach_kernel_driver", "detach failed error %d errno %d", r, *return_value___errno_location_6);
       return LIBUSB_ERROR_OTHER;
     }
 
@@ -8184,9 +8184,9 @@ static void op_exit(void)
 // file ../../libusb/os/linux_usbfs.c line 1551
 static signed int op_free_streams(struct libusb_device_handle *handle, unsigned char *endpoints, signed int num_endpoints)
 {
-  signed int return_value_do_streams_ioctl$1;
-  return_value_do_streams_ioctl$1=do_streams_ioctl(handle, (signed long int)((unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(29 << 0)) | sizeof(struct usbfs_streams) /*8ul*/  << 0 + 8 + 8), (unsigned int)0, endpoints, num_endpoints);
-  return return_value_do_streams_ioctl$1;
+  signed int return_value_do_streams_ioctl_1;
+  return_value_do_streams_ioctl_1=do_streams_ioctl(handle, (signed long int)((unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(29 << 0)) | sizeof(struct usbfs_streams) /*8ul*/  << 0 + 8 + 8), (unsigned int)0, endpoints, num_endpoints);
+  return return_value_do_streams_ioctl_1;
 }
 
 // op_get_active_config_descriptor
@@ -8304,9 +8304,9 @@ static signed int op_get_configuration(struct libusb_device_handle *handle, sign
 
   else
   {
-    struct linux_device_handle_priv *return_value__device_handle_priv$1;
-    return_value__device_handle_priv$1=_device_handle_priv(handle);
-    r=usbfs_get_active_config(handle->dev, return_value__device_handle_priv$1->fd);
+    struct linux_device_handle_priv *return_value__device_handle_priv_1;
+    return_value__device_handle_priv_1=_device_handle_priv(handle);
+    r=usbfs_get_active_config(handle->dev, return_value__device_handle_priv_1->fd);
   }
   if(!(r >= 0))
     return r;
@@ -8349,7 +8349,7 @@ static signed int op_handle_events(struct libusb_context *ctx, struct pollfd *fd
   unsigned int i = (unsigned int)0;
   pthread_mutex_lock(&ctx->open_devs_lock);
   i = (unsigned int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; num_ready >= 1 && !((unsigned long int)i >= nfds); i = i + 1u)
   {
     struct pollfd *pollfd = &fds[(signed long int)i];
@@ -8367,11 +8367,11 @@ static signed int op_handle_events(struct libusb_context *ctx, struct pollfd *fd
 
       }
       if(hpriv == ((struct linux_device_handle_priv *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = hpriv->fd != pollfd->fd ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = hpriv->fd != pollfd->fd ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_handle_events", "cannot find handle for fd %d", pollfd->fd);
 
       else
@@ -8555,37 +8555,37 @@ static signed int op_init(struct libusb_context *ctx)
 static signed int op_kernel_driver_active(struct libusb_device_handle *handle, signed int interface)
 {
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   struct usbfs_getdriver getdrv;
   signed int r;
   getdrv.interface = (unsigned int)interface;
   r=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(8 << 0)) | sizeof(struct usbfs_getdriver) /*260ul*/  << 0 + 8 + 8, &getdrv);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!(r == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 61)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 61)
       return 0;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 19)
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 19)
         return LIBUSB_ERROR_NO_DEVICE;
 
     }
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_kernel_driver_active", "get driver failed error %d errno %d", r, *return_value___errno_location$4);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_kernel_driver_active", "get driver failed error %d errno %d", r, *return_value___errno_location_4);
     return LIBUSB_ERROR_OTHER;
   }
 
-  signed int return_value_strcmp$5;
-  return_value_strcmp$5=strcmp(getdrv.driver, "usbfs");
-  return return_value_strcmp$5 == 0 ? 0 : 1;
+  signed int return_value_strcmp_5;
+  return_value_strcmp_5=strcmp(getdrv.driver, "usbfs");
+  return return_value_strcmp_5 == 0 ? 0 : 1;
 }
 
 // op_open
@@ -8596,7 +8596,7 @@ static signed int op_open(struct libusb_device_handle *handle)
   hpriv=_device_handle_priv(handle);
   signed int r;
   hpriv->fd=_get_usbfs_fd(handle->dev, (unsigned int)02, 0);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(hpriv->fd >= 0))
   {
     if(hpriv->fd == LIBUSB_ERROR_NO_DEVICE)
@@ -8619,15 +8619,15 @@ static signed int op_open(struct libusb_device_handle *handle)
     r=ioctl(hpriv->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(26 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &hpriv->caps);
     if(!(r >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 25)
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 25)
         usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "op_open", "getcap not available");
 
       else
       {
-        return_value___errno_location$1=__errno_location();
-        usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_open", "getcap failed (%d)", *return_value___errno_location$1);
+        return_value___errno_location_1=__errno_location();
+        usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_open", "getcap failed (%d)", *return_value___errno_location_1);
       }
       hpriv->caps = (unsigned int)0;
       if(!(supports_flag_zero_packet == 0))
@@ -8638,9 +8638,9 @@ static signed int op_open(struct libusb_device_handle *handle)
 
     }
 
-    signed int return_value_usbi_add_pollfd$3;
-    return_value_usbi_add_pollfd$3=usbi_add_pollfd(handle->dev->ctx, hpriv->fd, (signed short int)0x004);
-    return return_value_usbi_add_pollfd$3;
+    signed int return_value_usbi_add_pollfd_3;
+    return_value_usbi_add_pollfd_3=usbi_add_pollfd(handle->dev->ctx, hpriv->fd, (signed short int)0x004);
+    return return_value_usbi_add_pollfd_3;
   }
 }
 
@@ -8667,9 +8667,9 @@ static signed int op_release_interface(struct libusb_device_handle *handle, sign
 static signed int op_reset_device(struct libusb_device_handle *handle)
 {
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   signed int i;
   signed int r;
   signed int ret = 0;
@@ -8682,17 +8682,17 @@ static signed int op_reset_device(struct libusb_device_handle *handle)
   r=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(20 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
   if(!(r == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 19)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 19)
     {
       ret = LIBUSB_ERROR_NOT_FOUND;
       goto out;
     }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_reset_device", "reset failed error %d errno %d", r, *return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_reset_device", "reset failed error %d errno %d", r, *return_value___errno_location_3);
     ret = LIBUSB_ERROR_OTHER;
     goto out;
   }
@@ -8704,9 +8704,9 @@ static signed int op_reset_device(struct libusb_device_handle *handle)
       r=detach_kernel_driver_and_claim(handle, i);
       if(!(r == 0))
       {
-        const char *return_value_libusb_error_name$4;
-        return_value_libusb_error_name$4=libusb_error_name(r);
-        usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "op_reset_device", "failed to re-claim interface %d after reset: %s", i, return_value_libusb_error_name$4);
+        const char *return_value_libusb_error_name_4;
+        return_value_libusb_error_name_4=libusb_error_name(r);
+        usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "op_reset_device", "failed to re-claim interface %d after reset: %s", i, return_value_libusb_error_name_4);
         handle->claimed_interfaces = handle->claimed_interfaces & (unsigned long int)~(1L << i);
         ret = LIBUSB_ERROR_NOT_FOUND;
       }
@@ -8727,37 +8727,37 @@ static signed int op_set_configuration(struct libusb_device_handle *handle, sign
   struct linux_device_priv *priv;
   priv=_device_priv(handle->dev);
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   signed int r;
   r=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(5 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &config);
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_2;
   if(!(r == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 22)
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 22)
       return LIBUSB_ERROR_NOT_FOUND;
 
     else
     {
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 16)
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 16)
         return LIBUSB_ERROR_BUSY;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 19)
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 19)
           return LIBUSB_ERROR_NO_DEVICE;
 
       }
     }
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_set_configuration", "failed, error %d errno %d", r, *return_value___errno_location$5);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_set_configuration", "failed, error %d errno %d", r, *return_value___errno_location_5);
     return LIBUSB_ERROR_OTHER;
   }
 
@@ -8770,32 +8770,32 @@ static signed int op_set_configuration(struct libusb_device_handle *handle, sign
 static signed int op_set_interface(struct libusb_device_handle *handle, signed int iface, signed int altsetting)
 {
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   struct usbfs_setinterface setintf;
   signed int r;
   setintf.interface = (unsigned int)iface;
   setintf.altsetting = (unsigned int)altsetting;
   r=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(4 << 0)) | sizeof(struct usbfs_setinterface) /*8ul*/  << 0 + 8 + 8, &setintf);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!(r == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 22)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 22)
       return LIBUSB_ERROR_NOT_FOUND;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 19)
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 19)
         return LIBUSB_ERROR_NO_DEVICE;
 
     }
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_set_interface", "setintf failed error %d errno %d", r, *return_value___errno_location$4);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "op_set_interface", "setintf failed error %d errno %d", r, *return_value___errno_location_4);
     return LIBUSB_ERROR_OTHER;
   }
 
@@ -8807,33 +8807,33 @@ static signed int op_set_interface(struct libusb_device_handle *handle, signed i
 static signed int op_submit_transfer(struct usbi_transfer *itransfer)
 {
   struct libusb_transfer *transfer = (struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ );
-  signed int return_value_submit_control_transfer$1;
-  signed int return_value_submit_bulk_transfer$2;
-  signed int return_value_submit_bulk_transfer$3;
-  signed int return_value_submit_iso_transfer$4;
+  signed int return_value_submit_control_transfer_1;
+  signed int return_value_submit_bulk_transfer_2;
+  signed int return_value_submit_bulk_transfer_3;
+  signed int return_value_submit_iso_transfer_4;
   switch((signed int)transfer->type)
   {
     case LIBUSB_TRANSFER_TYPE_CONTROL:
     {
-      return_value_submit_control_transfer$1=submit_control_transfer(itransfer);
-      return return_value_submit_control_transfer$1;
+      return_value_submit_control_transfer_1=submit_control_transfer(itransfer);
+      return return_value_submit_control_transfer_1;
     }
     case LIBUSB_TRANSFER_TYPE_BULK:
 
     case LIBUSB_TRANSFER_TYPE_BULK_STREAM:
     {
-      return_value_submit_bulk_transfer$2=submit_bulk_transfer(itransfer);
-      return return_value_submit_bulk_transfer$2;
+      return_value_submit_bulk_transfer_2=submit_bulk_transfer(itransfer);
+      return return_value_submit_bulk_transfer_2;
     }
     case LIBUSB_TRANSFER_TYPE_INTERRUPT:
     {
-      return_value_submit_bulk_transfer$3=submit_bulk_transfer(itransfer);
-      return return_value_submit_bulk_transfer$3;
+      return_value_submit_bulk_transfer_3=submit_bulk_transfer(itransfer);
+      return return_value_submit_bulk_transfer_3;
     }
     case LIBUSB_TRANSFER_TYPE_ISOCHRONOUS:
     {
-      return_value_submit_iso_transfer$4=submit_iso_transfer(itransfer);
-      return return_value_submit_iso_transfer$4;
+      return_value_submit_iso_transfer_4=submit_iso_transfer(itransfer);
+      return return_value_submit_iso_transfer_4;
     }
     default:
     {
@@ -8882,9 +8882,9 @@ static signed int parse_bos(struct libusb_context *ctx, struct libusb_bos_descri
 
         else
         {
-          void *return_value_calloc$1;
-          return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct libusb_bos_descriptor) /*8ul*/  + (unsigned long int)bos_header.bNumDeviceCaps * sizeof(void *) /*8ul*/ );
-          _bos = (struct libusb_bos_descriptor *)return_value_calloc$1;
+          void *return_value_calloc_1;
+          return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct libusb_bos_descriptor) /*8ul*/  + (unsigned long int)bos_header.bNumDeviceCaps * sizeof(void *) /*8ul*/ );
+          _bos = (struct libusb_bos_descriptor *)return_value_calloc_1;
           if(_bos == ((struct libusb_bos_descriptor *)NULL))
             return LIBUSB_ERROR_NO_MEM;
 
@@ -8922,9 +8922,9 @@ static signed int parse_bos(struct libusb_context *ctx, struct libusb_bos_descri
                 break;
               }
 
-              void *return_value_malloc$2;
-              return_value_malloc$2=malloc((unsigned long int)dev_cap.bLength);
-              _bos->dev_capability[(signed long int)i] = (struct libusb_bos_dev_capability_descriptor *)return_value_malloc$2;
+              void *return_value_malloc_2;
+              return_value_malloc_2=malloc((unsigned long int)dev_cap.bLength);
+              _bos->dev_capability[(signed long int)i] = (struct libusb_bos_dev_capability_descriptor *)return_value_malloc_2;
               if(_bos->dev_capability[(signed long int)i] == ((struct libusb_bos_dev_capability_descriptor *)NULL))
               {
                 libusb_free_bos_descriptor(_bos);
@@ -8991,9 +8991,9 @@ static signed int parse_configuration(struct libusb_context *ctx, struct libusb_
           else
           {
             tmp = (unsigned long int)config->bNumInterfaces * sizeof(struct libusb_interface) /*16ul*/ ;
-            void *return_value_malloc$1;
-            return_value_malloc$1=malloc(tmp);
-            usb_interface = (struct libusb_interface *)return_value_malloc$1;
+            void *return_value_malloc_1;
+            return_value_malloc_1=malloc(tmp);
+            usb_interface = (struct libusb_interface *)return_value_malloc_1;
             config->interface = usb_interface;
             if(config->interface == ((struct libusb_interface *)NULL))
               return LIBUSB_ERROR_NO_MEM;
@@ -9039,9 +9039,9 @@ static signed int parse_configuration(struct libusb_context *ctx, struct libusb_
                 {
                   if(config->extra_length == 0)
                   {
-                    void *return_value_malloc$2;
-                    return_value_malloc$2=malloc((unsigned long int)len);
-                    config->extra = (const unsigned char *)return_value_malloc$2;
+                    void *return_value_malloc_2;
+                    return_value_malloc_2=malloc((unsigned long int)len);
+                    config->extra = (const unsigned char *)return_value_malloc_2;
                     if(config->extra == ((const unsigned char *)NULL))
                     {
                       r = LIBUSB_ERROR_NO_MEM;
@@ -9160,9 +9160,9 @@ static signed int parse_endpoint(struct libusb_context *ctx, struct libusb_endpo
 
         else
         {
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc((unsigned long int)len);
-          extra = (unsigned char *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc((unsigned long int)len);
+          extra = (unsigned char *)return_value_malloc_1;
           endpoint->extra = extra;
           if(extra == ((unsigned char *)NULL))
           {
@@ -9195,14 +9195,14 @@ static signed int parse_interface(struct libusb_context *ctx, struct libusb_inte
   struct libusb_interface_descriptor *ifp;
   unsigned char *begin;
   usb_interface->num_altsetting = 0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   while(size >= 9)
   {
     struct libusb_interface_descriptor *altsetting = (struct libusb_interface_descriptor *)usb_interface->altsetting;
-    void *return_value_usbi_reallocf$1;
-    return_value_usbi_reallocf$1=usbi_reallocf$link1((void *)altsetting, sizeof(struct libusb_interface_descriptor) /*40ul*/  * (unsigned long int)(usb_interface->num_altsetting + 1));
-    altsetting = (struct libusb_interface_descriptor *)return_value_usbi_reallocf$1;
+    void *return_value_usbi_reallocf_1;
+    return_value_usbi_reallocf_1=usbi_reallocf_link1((void *)altsetting, sizeof(struct libusb_interface_descriptor) /*40ul*/  * (unsigned long int)(usb_interface->num_altsetting + 1));
+    altsetting = (struct libusb_interface_descriptor *)return_value_usbi_reallocf_1;
     if(altsetting == ((struct libusb_interface_descriptor *)NULL))
     {
       r = LIBUSB_ERROR_NO_MEM;
@@ -9275,9 +9275,9 @@ static signed int parse_interface(struct libusb_context *ctx, struct libusb_inte
     len = (signed int)(buffer - begin);
     if(!(len == 0))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)len);
-      ifp->extra = (const unsigned char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)len);
+      ifp->extra = (const unsigned char *)return_value_malloc_2;
       if(ifp->extra == ((const unsigned char *)NULL))
       {
         r = LIBUSB_ERROR_NO_MEM;
@@ -9292,9 +9292,9 @@ static signed int parse_interface(struct libusb_context *ctx, struct libusb_inte
     {
       struct libusb_endpoint_descriptor *endpoint;
       tmp = (unsigned long int)ifp->bNumEndpoints * sizeof(struct libusb_endpoint_descriptor) /*32ul*/ ;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(tmp);
-      endpoint = (struct libusb_endpoint_descriptor *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(tmp);
+      endpoint = (struct libusb_endpoint_descriptor *)return_value_malloc_3;
       ifp->endpoint = endpoint;
       if(endpoint == ((struct libusb_endpoint_descriptor *)NULL))
       {
@@ -9324,16 +9324,16 @@ static signed int parse_interface(struct libusb_context *ctx, struct libusb_inte
 
     ifp = (struct libusb_interface_descriptor *)buffer;
     if(!(size >= 9))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)ifp->bDescriptorType != 4 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = (signed int)ifp->bDescriptorType != 4 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)ifp->bInterfaceNumber != interface_number ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (signed int)ifp->bInterfaceNumber != interface_number ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
       return parsed;
 
   }
@@ -9349,13 +9349,13 @@ err:
 // file ../../tests/testlib.c line 72
 static void print_usage(signed int argc, char **argv)
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(argc >= 1)
-    tmp_if_expr$1 = argv[(signed long int)0];
+    tmp_if_expr_1 = argv[(signed long int)0];
 
   else
-    tmp_if_expr$1 = "test_*";
-  printf("Usage: %s [-l] [-v] [<test_name> ...]\n", tmp_if_expr$1);
+    tmp_if_expr_1 = "test_*";
+  printf("Usage: %s [-l] [-v] [<test_name> ...]\n", tmp_if_expr_1);
   printf("   -l   List available tests\n");
   printf("   -v   Don't redirect STDERR/STDOUT during tests\n");
 }
@@ -9365,9 +9365,9 @@ static void print_usage(signed int argc, char **argv)
 static signed int raw_desc_to_config(struct libusb_context *ctx, unsigned char *buf, signed int size, signed int host_endian, struct libusb_config_descriptor **config)
 {
   struct libusb_config_descriptor *_config;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct libusb_config_descriptor) /*40ul*/ );
-  _config = (struct libusb_config_descriptor *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct libusb_config_descriptor) /*40ul*/ );
+  _config = (struct libusb_config_descriptor *)return_value_malloc_1;
   signed int r;
   if(_config == ((struct libusb_config_descriptor *)NULL))
     return LIBUSB_ERROR_NO_MEM;
@@ -9402,14 +9402,14 @@ static signed int reap_for_handle(struct libusb_device_handle *handle)
   struct usbi_transfer *itransfer;
   struct libusb_transfer *transfer;
   r=ioctl(hpriv->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(13 << 0)) | sizeof(void *) /*8ul*/  << 0 + 8 + 8, &urb);
-  signed int *return_value___errno_location$1;
-  signed int return_value_handle_iso_completion$4;
-  signed int return_value_handle_bulk_completion$5;
-  signed int return_value_handle_control_completion$6;
+  signed int *return_value___errno_location_1;
+  signed int return_value_handle_iso_completion_4;
+  signed int return_value_handle_bulk_completion_5;
+  signed int return_value_handle_control_completion_6;
   if(r == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 11))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 11))
       goto __CPROVER_DUMP_L1;
 
     return 1;
@@ -9422,14 +9422,14 @@ static signed int reap_for_handle(struct libusb_device_handle *handle)
     ;
     if(!(r >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 19)
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 19)
         return LIBUSB_ERROR_NO_DEVICE;
 
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "reap_for_handle", "reap failed error %d errno=%d", r, *return_value___errno_location$3);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "reap_for_handle", "reap failed error %d errno=%d", r, *return_value___errno_location_3);
       return LIBUSB_ERROR_IO;
     }
 
@@ -9440,8 +9440,8 @@ static signed int reap_for_handle(struct libusb_device_handle *handle)
     {
       case LIBUSB_TRANSFER_TYPE_ISOCHRONOUS:
       {
-        return_value_handle_iso_completion$4=handle_iso_completion(itransfer, urb);
-        return return_value_handle_iso_completion$4;
+        return_value_handle_iso_completion_4=handle_iso_completion(itransfer, urb);
+        return return_value_handle_iso_completion_4;
       }
       case LIBUSB_TRANSFER_TYPE_BULK:
 
@@ -9449,13 +9449,13 @@ static signed int reap_for_handle(struct libusb_device_handle *handle)
 
       case LIBUSB_TRANSFER_TYPE_INTERRUPT:
       {
-        return_value_handle_bulk_completion$5=handle_bulk_completion(itransfer, urb);
-        return return_value_handle_bulk_completion$5;
+        return_value_handle_bulk_completion_5=handle_bulk_completion(itransfer, urb);
+        return return_value_handle_bulk_completion_5;
       }
       case LIBUSB_TRANSFER_TYPE_CONTROL:
       {
-        return_value_handle_control_completion$6=handle_control_completion(itransfer, urb);
-        return return_value_handle_control_completion$6;
+        return_value_handle_control_completion_6=handle_control_completion(itransfer, urb);
+        return return_value_handle_control_completion_6;
       }
       default:
       {
@@ -9471,21 +9471,21 @@ static signed int reap_for_handle(struct libusb_device_handle *handle)
 static signed int release_interface(struct libusb_device_handle *handle, signed int iface)
 {
   signed int fd;
-  struct linux_device_handle_priv *return_value__device_handle_priv$1;
-  return_value__device_handle_priv$1=_device_handle_priv(handle);
-  fd = return_value__device_handle_priv$1->fd;
+  struct linux_device_handle_priv *return_value__device_handle_priv_1;
+  return_value__device_handle_priv_1=_device_handle_priv(handle);
+  fd = return_value__device_handle_priv_1->fd;
   signed int r;
   r=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(16 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &iface);
   if(!(r == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 19)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 19)
       return LIBUSB_ERROR_NO_DEVICE;
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "release_interface", "release interface failed, error %d errno %d", r, *return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    usbi_log(handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "release_interface", "release interface failed, error %d errno %d", r, *return_value___errno_location_3);
     return LIBUSB_ERROR_OTHER;
   }
 
@@ -9500,20 +9500,20 @@ static signed int remove_from_flying_list(struct usbi_transfer *transfer)
   signed int rearm_timerfd;
   signed int r = 0;
   pthread_mutex_lock(&ctx->flying_transfers_lock);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(transfer->timeout.tv_sec == 0l))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (&transfer->timeout)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (struct usbi_transfer *)((unsigned long int)(&ctx->flying_transfers)->next - (unsigned long int)8ul) == transfer ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (&transfer->timeout)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (struct usbi_transfer *)((unsigned long int)(&ctx->flying_transfers)->next - (unsigned long int)8ul) == transfer ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  rearm_timerfd = (signed int)tmp_if_expr$2;
-  list_del$link1(&transfer->list);
+    tmp_if_expr_2 = (_Bool)0;
+  rearm_timerfd = (signed int)tmp_if_expr_2;
+  list_del_link1(&transfer->list);
   if(ctx->timerfd >= 0)
   {
     if(!(rearm_timerfd == 0))
@@ -9614,19 +9614,19 @@ static signed int seek_to_next_descriptor(struct libusb_context *ctx, unsigned c
 
 // setup_test_output
 // file ../../tests/testlib.c line 108
-static signed int setup_test_output(struct anonymous$5 *ctx)
+static signed int setup_test_output(struct anonymous_5 *ctx)
 {
-  _Bool tmp_if_expr$6;
-  signed int return_value_dup2$5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_dup2_5;
   if(ctx->verbose == 0)
   {
     ctx->old_stdout=dup(1);
     if(!(ctx->old_stdout >= 0))
     {
       ctx->old_stdout = -1;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      printf("Failed to duplicate stdout handle: %d\n", *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      printf("Failed to duplicate stdout handle: %d\n", *return_value___errno_location_1);
       return 1;
     }
 
@@ -9635,9 +9635,9 @@ static signed int setup_test_output(struct anonymous$5 *ctx)
     {
       ctx->old_stderr = -1;
       cleanup_test_output(ctx);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      printf("Failed to duplicate stderr handle: %d\n", *return_value___errno_location$2);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      printf("Failed to duplicate stderr handle: %d\n", *return_value___errno_location_2);
       return 1;
     }
 
@@ -9646,23 +9646,23 @@ static signed int setup_test_output(struct anonymous$5 *ctx)
     {
       ctx->null_fd = -1;
       cleanup_test_output(ctx);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      printf("Failed to open null handle: %d\n", *return_value___errno_location$3);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      printf("Failed to open null handle: %d\n", *return_value___errno_location_3);
       return 1;
     }
 
-    signed int return_value_dup2$4;
-    return_value_dup2$4=dup2(ctx->null_fd, 1);
-    if(!(return_value_dup2$4 >= 0))
-      tmp_if_expr$6 = (_Bool)1;
+    signed int return_value_dup2_4;
+    return_value_dup2_4=dup2(ctx->null_fd, 1);
+    if(!(return_value_dup2_4 >= 0))
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_dup2$5=dup2(ctx->null_fd, 2);
-      tmp_if_expr$6 = return_value_dup2$5 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_dup2_5=dup2(ctx->null_fd, 2);
+      tmp_if_expr_6 = return_value_dup2_5 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       cleanup_test_output(ctx);
       return 1;
@@ -9673,9 +9673,9 @@ static signed int setup_test_output(struct anonymous$5 *ctx)
     {
       ctx->output_file = stdout;
       cleanup_test_output(ctx);
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      printf("Failed to open FILE for output handle: %d\n", *return_value___errno_location$7);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      printf("Failed to open FILE for output handle: %d\n", *return_value___errno_location_7);
       return 1;
     }
 
@@ -9690,9 +9690,9 @@ static signed int submit_bulk_transfer(struct usbi_transfer *itransfer)
 {
   struct libusb_transfer *transfer = (struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ );
   struct linux_transfer_priv *tpriv;
-  void *return_value_usbi_transfer_get_os_priv$1;
-  return_value_usbi_transfer_get_os_priv$1=usbi_transfer_get_os_priv(itransfer);
-  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv$1;
+  void *return_value_usbi_transfer_get_os_priv_1;
+  return_value_usbi_transfer_get_os_priv_1=usbi_transfer_get_os_priv(itransfer);
+  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv_1;
   struct linux_device_handle_priv *dpriv;
   dpriv=_device_handle_priv(transfer->dev_handle);
   struct usbfs_urb *urbs;
@@ -9701,8 +9701,8 @@ static signed int submit_bulk_transfer(struct usbi_transfer *itransfer)
   signed int use_bulk_continuation;
   signed int r;
   signed int i;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
   if(!(is_out == 0))
   {
     if((8 & (signed int)transfer->flags) == 0)
@@ -9722,11 +9722,11 @@ static signed int submit_bulk_transfer(struct usbi_transfer *itransfer)
     if(!((8u & dpriv->caps) == 0u))
     {
       if(!(transfer->length == 0))
-        tmp_if_expr$2 = transfer->length;
+        tmp_if_expr_2 = transfer->length;
 
       else
-        tmp_if_expr$2 = 1;
-      bulk_buffer_len = tmp_if_expr$2;
+        tmp_if_expr_2 = 1;
+      bulk_buffer_len = tmp_if_expr_2;
       use_bulk_continuation = 0;
     }
 
@@ -9741,11 +9741,11 @@ static signed int submit_bulk_transfer(struct usbi_transfer *itransfer)
         if(!((4u & dpriv->caps) == 0u))
         {
           if(!(transfer->length == 0))
-            tmp_if_expr$3 = transfer->length;
+            tmp_if_expr_3 = transfer->length;
 
           else
-            tmp_if_expr$3 = 1;
-          bulk_buffer_len = tmp_if_expr$3;
+            tmp_if_expr_3 = 1;
+          bulk_buffer_len = tmp_if_expr_3;
           use_bulk_continuation = 0;
         }
 
@@ -9767,15 +9767,15 @@ static signed int submit_bulk_transfer(struct usbi_transfer *itransfer)
       }
 
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "submit_bulk_transfer", "need %d urbs for new transfer with length %d", num_urbs, transfer->length);
-    void *return_value_calloc$4;
-    return_value_calloc$4=calloc((unsigned long int)num_urbs, sizeof(struct usbfs_urb) /*56ul*/ );
-    urbs = (struct usbfs_urb *)return_value_calloc$4;
+    void *return_value_calloc_4;
+    return_value_calloc_4=calloc((unsigned long int)num_urbs, sizeof(struct usbfs_urb) /*56ul*/ );
+    urbs = (struct usbfs_urb *)return_value_calloc_4;
     if(urbs == ((struct usbfs_urb *)NULL))
       return LIBUSB_ERROR_NO_MEM;
 
     else
     {
-      tpriv->$anon0.urbs = urbs;
+      tpriv->_anon0.urbs = urbs;
       tpriv->num_urbs = num_urbs;
       tpriv->num_retired = 0;
       tpriv->reap_action = (enum reap_action)NORMAL;
@@ -9790,13 +9790,13 @@ static signed int submit_bulk_transfer(struct usbi_transfer *itransfer)
           case LIBUSB_TRANSFER_TYPE_BULK:
           {
             urb->type = (unsigned char)3;
-            urb->$anon0.stream_id = (unsigned int)0;
+            urb->_anon0.stream_id = (unsigned int)0;
             break;
           }
           case LIBUSB_TRANSFER_TYPE_BULK_STREAM:
           {
             urb->type = (unsigned char)3;
-            urb->$anon0.stream_id = itransfer->stream_id;
+            urb->_anon0.stream_id = itransfer->stream_id;
             break;
           }
           case LIBUSB_TRANSFER_TYPE_INTERRUPT:
@@ -9829,29 +9829,29 @@ static signed int submit_bulk_transfer(struct usbi_transfer *itransfer)
         r=ioctl(dpriv->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(10 << 0)) | sizeof(struct usbfs_urb) /*56ul*/  << 0 + 8 + 8, urb);
         if(!(r >= 0))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          if(*return_value___errno_location$6 == 19)
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          if(*return_value___errno_location_6 == 19)
             r = LIBUSB_ERROR_NO_DEVICE;
 
           else
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "submit_bulk_transfer", "submiturb failed error %d errno=%d", r, *return_value___errno_location$5);
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "submit_bulk_transfer", "submiturb failed error %d errno=%d", r, *return_value___errno_location_5);
             r = LIBUSB_ERROR_IO;
           }
           if(i == 0)
           {
             usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "submit_bulk_transfer", "first URB failed, easy peasy");
             free((void *)urbs);
-            tpriv->$anon0.urbs = (struct usbfs_urb *)(void *)0;
+            tpriv->_anon0.urbs = (struct usbfs_urb *)(void *)0;
             return r;
           }
 
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          tpriv->reap_action = (enum reap_action)(121 == *return_value___errno_location$7 ? COMPLETED_EARLY : SUBMIT_FAILED);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          tpriv->reap_action = (enum reap_action)(121 == *return_value___errno_location_7 ? COMPLETED_EARLY : SUBMIT_FAILED);
           tpriv->num_retired = tpriv->num_retired + (num_urbs - i);
           if((signed int)tpriv->reap_action == COMPLETED_EARLY)
             return 0;
@@ -9872,9 +9872,9 @@ static signed int submit_bulk_transfer(struct usbi_transfer *itransfer)
 static signed int submit_control_transfer(struct usbi_transfer *itransfer)
 {
   struct linux_transfer_priv *tpriv;
-  void *return_value_usbi_transfer_get_os_priv$1;
-  return_value_usbi_transfer_get_os_priv$1=usbi_transfer_get_os_priv(itransfer);
-  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv$1;
+  void *return_value_usbi_transfer_get_os_priv_1;
+  return_value_usbi_transfer_get_os_priv_1=usbi_transfer_get_os_priv(itransfer);
+  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv_1;
   struct libusb_transfer *transfer = (struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ );
   struct linux_device_handle_priv *dpriv;
   dpriv=_device_handle_priv(transfer->dev_handle);
@@ -9885,15 +9885,15 @@ static signed int submit_control_transfer(struct usbi_transfer *itransfer)
 
   else
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct usbfs_urb) /*56ul*/ );
-    urb = (struct usbfs_urb *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct usbfs_urb) /*56ul*/ );
+    urb = (struct usbfs_urb *)return_value_calloc_2;
     if(urb == ((struct usbfs_urb *)NULL))
       return LIBUSB_ERROR_NO_MEM;
 
     else
     {
-      tpriv->$anon0.urbs = urb;
+      tpriv->_anon0.urbs = urb;
       tpriv->num_urbs = 1;
       tpriv->reap_action = (enum reap_action)NORMAL;
       urb->usercontext = (void *)itransfer;
@@ -9905,15 +9905,15 @@ static signed int submit_control_transfer(struct usbi_transfer *itransfer)
       if(!(r >= 0))
       {
         free((void *)urb);
-        tpriv->$anon0.urbs = (struct usbfs_urb *)(void *)0;
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 19)
+        tpriv->_anon0.urbs = (struct usbfs_urb *)(void *)0;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 19)
           return LIBUSB_ERROR_NO_DEVICE;
 
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "submit_control_transfer", "submiturb failed error %d errno=%d", r, *return_value___errno_location$4);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "submit_control_transfer", "submiturb failed error %d errno=%d", r, *return_value___errno_location_4);
         return LIBUSB_ERROR_IO;
       }
 
@@ -9928,9 +9928,9 @@ static signed int submit_iso_transfer(struct usbi_transfer *itransfer)
 {
   struct libusb_transfer *transfer = (struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ );
   struct linux_transfer_priv *tpriv;
-  void *return_value_usbi_transfer_get_os_priv$1;
-  return_value_usbi_transfer_get_os_priv$1=usbi_transfer_get_os_priv(itransfer);
-  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv$1;
+  void *return_value_usbi_transfer_get_os_priv_1;
+  return_value_usbi_transfer_get_os_priv_1=usbi_transfer_get_os_priv(itransfer);
+  tpriv = (struct linux_transfer_priv *)return_value_usbi_transfer_get_os_priv_1;
   struct linux_device_handle_priv *dpriv;
   dpriv=_device_handle_priv(transfer->dev_handle);
   struct usbfs_urb **urbs;
@@ -9960,16 +9960,16 @@ static signed int submit_iso_transfer(struct usbi_transfer *itransfer)
       this_urb_len = this_urb_len + (signed int)packet_len;
   }
   usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "submit_iso_transfer", "need %d %dk URBs for transfer", num_urbs, (49152 * 128) / 1024);
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)num_urbs, sizeof(struct usbfs_urb *) /*8ul*/ );
-  urbs = (struct usbfs_urb **)return_value_calloc$2;
-  signed int *return_value___errno_location$5;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)num_urbs, sizeof(struct usbfs_urb *) /*8ul*/ );
+  urbs = (struct usbfs_urb **)return_value_calloc_2;
+  signed int *return_value___errno_location_5;
   if(urbs == ((struct usbfs_urb **)NULL))
     return LIBUSB_ERROR_NO_MEM;
 
   else
   {
-    tpriv->$anon0.iso_urbs = urbs;
+    tpriv->_anon0.iso_urbs = urbs;
     tpriv->num_urbs = num_urbs;
     tpriv->num_retired = 0;
     tpriv->reap_action = (enum reap_action)NORMAL;
@@ -9998,9 +9998,9 @@ static signed int submit_iso_transfer(struct usbi_transfer *itransfer)
           break;
       }
       alloc_size = sizeof(struct usbfs_urb) /*56ul*/  + (unsigned long int)urb_packet_offset * sizeof(struct usbfs_iso_packet_desc) /*12ul*/ ;
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)1, alloc_size);
-      urb = (struct usbfs_urb *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)1, alloc_size);
+      urb = (struct usbfs_urb *)return_value_calloc_3;
       if(urb == ((struct usbfs_urb *)NULL))
       {
         free_iso_urbs(tpriv);
@@ -10020,7 +10020,7 @@ static signed int submit_iso_transfer(struct usbi_transfer *itransfer)
       urb->type = (unsigned char)0;
       urb->flags = (unsigned int)0x02;
       urb->endpoint = transfer->endpoint;
-      urb->$anon0.number_of_packets = urb_packet_offset;
+      urb->_anon0.number_of_packets = urb_packet_offset;
       urb->buffer = (void *)urb_buffer_orig;
     }
     i = 0;
@@ -10030,15 +10030,15 @@ static signed int submit_iso_transfer(struct usbi_transfer *itransfer)
       r=ioctl(dpriv->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(10 << 0)) | sizeof(struct usbfs_urb) /*56ul*/  << 0 + 8 + 8, urbs[(signed long int)i]);
       if(!(r >= 0))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        if(*return_value___errno_location$6 == 19)
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        if(*return_value___errno_location_6 == 19)
           r = LIBUSB_ERROR_NO_DEVICE;
 
         else
         {
-          return_value___errno_location$5=__errno_location();
-          if(*return_value___errno_location$5 == 22)
+          return_value___errno_location_5=__errno_location();
+          if(*return_value___errno_location_5 == 22)
           {
             usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "submit_iso_transfer", "submiturb failed, transfer too large");
             r = LIBUSB_ERROR_INVALID_PARAM;
@@ -10046,9 +10046,9 @@ static signed int submit_iso_transfer(struct usbi_transfer *itransfer)
 
           else
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "submit_iso_transfer", "submiturb failed error %d errno=%d", r, *return_value___errno_location$4);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            usbi_log(transfer->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "submit_iso_transfer", "submiturb failed error %d errno=%d", r, *return_value___errno_location_4);
             r = LIBUSB_ERROR_IO;
           }
         }
@@ -10094,9 +10094,9 @@ static void sync_transfer_wait_for_completion(struct libusb_transfer *transfer)
     {
       if(!(r == LIBUSB_ERROR_INTERRUPTED))
       {
-        const char *return_value_libusb_error_name$1;
-        return_value_libusb_error_name$1=libusb_error_name(r);
-        usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "sync_transfer_wait_for_completion", "libusb_handle_events failed: %s, cancelling transfer and retrying", return_value_libusb_error_name$1);
+        const char *return_value_libusb_error_name_1;
+        return_value_libusb_error_name_1=libusb_error_name(r);
+        usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "sync_transfer_wait_for_completion", "libusb_handle_events failed: %s, cancelling transfer and retrying", return_value_libusb_error_name_1);
         libusb_cancel_transfer(transfer);
       }
 
@@ -10124,9 +10124,9 @@ static signed int sysfs_get_active_config(struct libusb_device *dev, signed int 
     close(fd);
     if(!(r >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      usbi_log(dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "sysfs_get_active_config", "read bConfigurationValue failed ret=%d errno=%d", r, *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      usbi_log(dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "sysfs_get_active_config", "read bConfigurationValue failed ret=%d errno=%d", r, *return_value___errno_location_1);
       return LIBUSB_ERROR_IO;
     }
 
@@ -10179,15 +10179,15 @@ static signed int sysfs_scan_device(struct libusb_context *ctx, const char *devn
 
   else
   {
-    signed int return_value_linux_enumerate_device$1;
-    return_value_linux_enumerate_device$1=linux_enumerate_device(ctx, (unsigned char)((signed int)busnum & 0xff), (unsigned char)((signed int)devaddr & 0xff), devname);
-    return return_value_linux_enumerate_device$1;
+    signed int return_value_linux_enumerate_device_1;
+    return_value_linux_enumerate_device_1=linux_enumerate_device(ctx, (unsigned char)((signed int)busnum & 0xff), (unsigned char)((signed int)devaddr & 0xff), devname);
+    return return_value_linux_enumerate_device_1;
   }
 }
 
 // test_default_context_change
 // file ../../tests/stress.c line 115
-static enum anonymous$6 test_default_context_change(struct anonymous$5 *tctx)
+static enum anonymous_6 test_default_context_change(struct anonymous_5 *tctx)
 {
   struct libusb_context *ctx = (struct libusb_context *)(void *)0;
   signed int r;
@@ -10198,7 +10198,7 @@ static enum anonymous$6 test_default_context_change(struct anonymous$5 *tctx)
     if(!(r == LIBUSB_SUCCESS))
     {
       libusb_testlib_logf(tctx, "Failed to init libusb: %d", r);
-      return (enum anonymous$6)TEST_STATUS_FAILURE;
+      return (enum anonymous_6)TEST_STATUS_FAILURE;
     }
 
     libusb_set_debug((struct libusb_context *)(void *)0, LIBUSB_LOG_LEVEL_DEBUG);
@@ -10207,18 +10207,18 @@ static enum anonymous$6 test_default_context_change(struct anonymous$5 *tctx)
     if(!(r == LIBUSB_SUCCESS))
     {
       libusb_testlib_logf(tctx, "Failed to init libusb: %d", r);
-      return (enum anonymous$6)TEST_STATUS_FAILURE;
+      return (enum anonymous_6)TEST_STATUS_FAILURE;
     }
 
     libusb_exit(ctx);
     libusb_exit((struct libusb_context *)(void *)0);
   }
-  return (enum anonymous$6)TEST_STATUS_SUCCESS;
+  return (enum anonymous_6)TEST_STATUS_SUCCESS;
 }
 
 // test_get_device_list
 // file ../../tests/stress.c line 49
-static enum anonymous$6 test_get_device_list(struct anonymous$5 *tctx)
+static enum anonymous_6 test_get_device_list(struct anonymous_5 *tctx)
 {
   struct libusb_context *ctx = (struct libusb_context *)(void *)0;
   signed int r;
@@ -10227,7 +10227,7 @@ static enum anonymous$6 test_get_device_list(struct anonymous$5 *tctx)
   if(!(r == LIBUSB_SUCCESS))
   {
     libusb_testlib_logf(tctx, "Failed to init libusb: %d", r);
-    return (enum anonymous$6)TEST_STATUS_FAILURE;
+    return (enum anonymous_6)TEST_STATUS_FAILURE;
   }
 
   else
@@ -10241,19 +10241,19 @@ static enum anonymous$6 test_get_device_list(struct anonymous$5 *tctx)
       if(device_list == ((struct libusb_device **)NULL) || !(list_size >= 0l))
       {
         libusb_testlib_logf(tctx, "Failed to get device list on iteration %d: %d (%p)", i, -list_size, device_list);
-        return (enum anonymous$6)TEST_STATUS_FAILURE;
+        return (enum anonymous_6)TEST_STATUS_FAILURE;
       }
 
       libusb_free_device_list(device_list, 1);
     }
     libusb_exit(ctx);
-    return (enum anonymous$6)TEST_STATUS_SUCCESS;
+    return (enum anonymous_6)TEST_STATUS_SUCCESS;
   }
 }
 
 // test_init_and_exit
 // file ../../tests/stress.c line 29
-static enum anonymous$6 test_init_and_exit(struct anonymous$5 *tctx)
+static enum anonymous_6 test_init_and_exit(struct anonymous_5 *tctx)
 {
   struct libusb_context *ctx = (struct libusb_context *)(void *)0;
   signed int i = 0;
@@ -10264,18 +10264,18 @@ static enum anonymous$6 test_init_and_exit(struct anonymous$5 *tctx)
     if(!(r == LIBUSB_SUCCESS))
     {
       libusb_testlib_logf(tctx, "Failed to init libusb on iteration %d: %d", i, r);
-      return (enum anonymous$6)TEST_STATUS_FAILURE;
+      return (enum anonymous_6)TEST_STATUS_FAILURE;
     }
 
     libusb_exit(ctx);
     ctx = (struct libusb_context *)(void *)0;
   }
-  return (enum anonymous$6)TEST_STATUS_SUCCESS;
+  return (enum anonymous_6)TEST_STATUS_SUCCESS;
 }
 
 // test_many_device_lists
 // file ../../tests/stress.c line 74
-static enum anonymous$6 test_many_device_lists(struct anonymous$5 *tctx)
+static enum anonymous_6 test_many_device_lists(struct anonymous_5 *tctx)
 {
   struct libusb_context *ctx = (struct libusb_context *)(void *)0;
   struct libusb_device **device_lists[100l];
@@ -10283,11 +10283,11 @@ static enum anonymous$6 test_many_device_lists(struct anonymous$5 *tctx)
   signed int i;
   memset((void *)device_lists, 0, sizeof(struct libusb_device **[100l]) /*800ul*/ );
   r=libusb_init(&ctx);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(r == LIBUSB_SUCCESS))
   {
     libusb_testlib_logf(tctx, "Failed to init libusb: %d", r);
-    return (enum anonymous$6)TEST_STATUS_FAILURE;
+    return (enum anonymous_6)TEST_STATUS_FAILURE;
   }
 
   else
@@ -10298,14 +10298,14 @@ static enum anonymous$6 test_many_device_lists(struct anonymous$5 *tctx)
       signed long int list_size;
       list_size=libusb_get_device_list(ctx, &device_lists[(signed long int)i]);
       if(!(list_size >= 0l))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = device_lists[(signed long int)i] == (struct libusb_device **)(void *)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = device_lists[(signed long int)i] == (struct libusb_device **)(void *)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         libusb_testlib_logf(tctx, "Failed to get device list on iteration %d: %d (%p)", i, -list_size, device_lists[(signed long int)i]);
-        return (enum anonymous$6)TEST_STATUS_FAILURE;
+        return (enum anonymous_6)TEST_STATUS_FAILURE;
       }
 
     }
@@ -10318,13 +10318,13 @@ static enum anonymous$6 test_many_device_lists(struct anonymous$5 *tctx)
       }
 
     libusb_exit(ctx);
-    return (enum anonymous$6)TEST_STATUS_SUCCESS;
+    return (enum anonymous_6)TEST_STATUS_SUCCESS;
   }
 }
 
 // test_result_to_str
 // file ../../tests/testlib.c line 56
-static const char * test_result_to_str(enum anonymous$6 result)
+static const char * test_result_to_str(enum anonymous_6 result)
 {
   switch((signed int)result)
   {
@@ -10358,9 +10358,9 @@ static signed int udev_device_info(struct libusb_context *ctx, signed int detach
 
     else
     {
-      signed int return_value_linux_get_device_address$1;
-      return_value_linux_get_device_address$1=linux_get_device_address(ctx, detached, busnum, devaddr, dev_node, *sys_name);
-      return return_value_linux_get_device_address$1;
+      signed int return_value_linux_get_device_address_1;
+      return_value_linux_get_device_address_1=linux_get_device_address(ctx, detached, busnum, devaddr, dev_node, *sys_name);
+      return return_value_linux_get_device_address_1;
     }
   }
 }
@@ -10381,17 +10381,17 @@ static void udev_hotplug_event(struct udev_device *udev_dev)
     if(udev_action == ((const char *)NULL))
       break;
 
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(udev_action, "remove", (unsigned long int)6);
-    detached = (signed int)!(return_value_strncmp$1 != 0);
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(udev_action, "remove", (unsigned long int)6);
+    detached = (signed int)!(return_value_strncmp_1 != 0);
     r=udev_device_info((struct libusb_context *)(void *)0, detached, udev_dev, &busnum, &devaddr, &sys_name);
     if(!(r == LIBUSB_SUCCESS))
       break;
 
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "udev_hotplug_event", "udev hotplug event. action: %s.", udev_action);
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(udev_action, "add", (unsigned long int)3);
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(udev_action, "add", (unsigned long int)3);
+    if(return_value_strncmp_2 == 0)
       linux_hotplug_enumerate(busnum, devaddr, sys_name);
 
     else
@@ -10417,14 +10417,14 @@ static signed int usbfs_get_active_config(struct libusb_device *dev, signed int 
   r=ioctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(0 << 0)) | sizeof(struct usbfs_ctrltransfer) /*24ul*/  << 0 + 8 + 8, &ctrl);
   if(!(r >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 19)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 19)
       return LIBUSB_ERROR_NO_DEVICE;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    usbi_log(dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "usbfs_get_active_config", "get_configuration failed ret=%d errno=%d", r, *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    usbi_log(dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_WARNING, "usbfs_get_active_config", "get_configuration failed ret=%d errno=%d", r, *return_value___errno_location_2);
     return LIBUSB_ERROR_IO;
   }
 
@@ -10436,9 +10436,9 @@ static signed int usbfs_get_active_config(struct libusb_device *dev, signed int 
 signed int usbi_add_pollfd(struct libusb_context *ctx, signed int fd, signed short int events)
 {
   struct usbi_pollfd *ipollfd;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct usbi_pollfd) /*24ul*/ );
-  ipollfd = (struct usbi_pollfd *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct usbi_pollfd) /*24ul*/ );
+  ipollfd = (struct usbi_pollfd *)return_value_malloc_1;
   if(ipollfd == ((struct usbi_pollfd *)NULL))
     return LIBUSB_ERROR_NO_MEM;
 
@@ -10465,16 +10465,16 @@ struct libusb_device * usbi_alloc_device(struct libusb_context *ctx, unsigned lo
 {
   unsigned long int priv_size = usbi_backend->device_priv_size;
   struct libusb_device *dev;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct libusb_device) /*128ul*/  + priv_size);
-  dev = (struct libusb_device *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct libusb_device) /*128ul*/  + priv_size);
+  dev = (struct libusb_device *)return_value_calloc_1;
   signed int r;
   if(dev == ((struct libusb_device *)NULL))
     return (struct libusb_device *)(void *)0;
 
   else
   {
-    r=pthread_mutex_init(&dev->lock, (const union anonymous$4 *)(void *)0);
+    r=pthread_mutex_init(&dev->lock, (const union anonymous_4 *)(void *)0);
     if(!(r == 0))
     {
       free((void *)dev);
@@ -10487,9 +10487,9 @@ struct libusb_device * usbi_alloc_device(struct libusb_context *ctx, unsigned lo
       dev->refcnt = 1;
       dev->session_data = session_id;
       dev->speed = (enum libusb_speed)LIBUSB_SPEED_UNKNOWN;
-      signed int return_value_libusb_has_capability$2;
-      return_value_libusb_has_capability$2=libusb_has_capability((unsigned int)1);
-      if(return_value_libusb_has_capability$2 == 0)
+      signed int return_value_libusb_has_capability_2;
+      return_value_libusb_has_capability_2=libusb_has_capability((unsigned int)1);
+      if(return_value_libusb_has_capability_2 == 0)
         usbi_connect_device(dev);
 
       return dev;
@@ -10523,12 +10523,12 @@ void usbi_connect_device(struct libusb_device *dev)
   pthread_mutex_lock(&dev->ctx->usb_devs_lock);
   list_add(&dev->list, &dev->ctx->usb_devs);
   pthread_mutex_unlock(&dev->ctx->usb_devs_lock);
-  signed int return_value_libusb_has_capability$1;
-  return_value_libusb_has_capability$1=libusb_has_capability((unsigned int)1);
-  if(!(return_value_libusb_has_capability$1 == 0))
+  signed int return_value_libusb_has_capability_1;
+  return_value_libusb_has_capability_1=libusb_has_capability((unsigned int)1);
+  if(!(return_value_libusb_has_capability_1 == 0))
   {
     if(!(dev->ctx->hotplug_msgs.next == ((struct list_head *)NULL)))
-      usbi_hotplug_notification(ctx, dev, (enum anonymous$2)LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED);
+      usbi_hotplug_notification(ctx, dev, (enum anonymous_2)LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED);
 
   }
 
@@ -10569,12 +10569,12 @@ void usbi_disconnect_device(struct libusb_device *dev)
   pthread_mutex_lock(&ctx->usb_devs_lock);
   list_del(&dev->list);
   pthread_mutex_unlock(&ctx->usb_devs_lock);
-  signed int return_value_libusb_has_capability$1;
-  return_value_libusb_has_capability$1=libusb_has_capability((unsigned int)1);
-  if(!(return_value_libusb_has_capability$1 == 0))
+  signed int return_value_libusb_has_capability_1;
+  return_value_libusb_has_capability_1=libusb_has_capability((unsigned int)1);
+  if(!(return_value_libusb_has_capability_1 == 0))
   {
     if(!(dev->ctx->hotplug_msgs.next == ((struct list_head *)NULL)))
-      usbi_hotplug_notification(ctx, dev, (enum anonymous$2)LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT);
+      usbi_hotplug_notification(ctx, dev, (enum anonymous_2)LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT);
 
   }
 
@@ -10585,25 +10585,25 @@ void usbi_disconnect_device(struct libusb_device *dev)
 static void usbi_fd_notification(struct libusb_context *ctx)
 {
   signed int pending_events;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ctx->device_close == 0u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
-  pending_events = (signed int)tmp_if_expr$3;
+    tmp_if_expr_3 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
+  pending_events = (signed int)tmp_if_expr_3;
   ctx->pollfds_modified = (unsigned int)1;
   if(pending_events == 0)
     usbi_signal_event(ctx);
@@ -10666,9 +10666,9 @@ struct libusb_device * usbi_get_device_by_session_id(struct libusb_context *ctx,
 signed int usbi_get_tid(void)
 {
   signed int ret = -1;
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)186);
-  ret = (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)186);
+  ret = (signed int)return_value_syscall_1;
   return ret;
 }
 
@@ -10716,14 +10716,14 @@ signed int usbi_handle_transfer_cancellation(struct usbi_transfer *transfer)
   if(!((1 & (signed int)transfer->flags) == 0))
   {
     usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "usbi_handle_transfer_cancellation", "detected timeout cancellation");
-    signed int return_value_usbi_handle_transfer_completion$1;
-    return_value_usbi_handle_transfer_completion$1=usbi_handle_transfer_completion(transfer, (enum libusb_transfer_status)LIBUSB_TRANSFER_TIMED_OUT);
-    return return_value_usbi_handle_transfer_completion$1;
+    signed int return_value_usbi_handle_transfer_completion_1;
+    return_value_usbi_handle_transfer_completion_1=usbi_handle_transfer_completion(transfer, (enum libusb_transfer_status)LIBUSB_TRANSFER_TIMED_OUT);
+    return return_value_usbi_handle_transfer_completion_1;
   }
 
-  signed int return_value_usbi_handle_transfer_completion$2;
-  return_value_usbi_handle_transfer_completion$2=usbi_handle_transfer_completion(transfer, (enum libusb_transfer_status)LIBUSB_TRANSFER_CANCELLED);
-  return return_value_usbi_handle_transfer_completion$2;
+  signed int return_value_usbi_handle_transfer_completion_2;
+  return_value_usbi_handle_transfer_completion_2=usbi_handle_transfer_completion(transfer, (enum libusb_transfer_status)LIBUSB_TRANSFER_CANCELLED);
+  return return_value_usbi_handle_transfer_completion_2;
 }
 
 // usbi_handle_transfer_completion
@@ -10735,11 +10735,11 @@ signed int usbi_handle_transfer_completion(struct usbi_transfer *itransfer, enum
   unsigned char flags;
   signed int r;
   r=remove_from_flying_list(itransfer);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(r >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    usbi_log(((struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ ))->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "usbi_handle_transfer_completion", "failed to set timer for next timeout, errno=%d", *return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    usbi_log(((struct libusb_transfer *)((unsigned char *)itransfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ ))->dev_handle->dev->ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "usbi_handle_transfer_completion", "failed to set timer for next timeout, errno=%d", *return_value___errno_location_1);
   }
 
   pthread_mutex_lock(&itransfer->flags_lock);
@@ -10789,7 +10789,7 @@ void usbi_hotplug_deregister_all(struct libusb_context *ctx)
   next = (struct libusb_hotplug_callback *)((unsigned long int)hotplug_cb->list.next - (unsigned long int)64ul);
   for( ; !(&hotplug_cb->list == &ctx->hotplug_cbs); next = (struct libusb_hotplug_callback *)((unsigned long int)next->list.next - (unsigned long int)64ul))
   {
-    list_del$link2(&hotplug_cb->list);
+    list_del_link2(&hotplug_cb->list);
     free((void *)hotplug_cb);
     hotplug_cb = next;
   }
@@ -10798,7 +10798,7 @@ void usbi_hotplug_deregister_all(struct libusb_context *ctx)
 
 // usbi_hotplug_match
 // file ../../libusb/hotplug.h line 85
-void usbi_hotplug_match(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous$2 event)
+void usbi_hotplug_match(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous_2 event)
 {
   struct libusb_hotplug_callback *hotplug_cb;
   struct libusb_hotplug_callback *next;
@@ -10813,7 +10813,7 @@ void usbi_hotplug_match(struct libusb_context *ctx, struct libusb_device *dev, e
     pthread_mutex_lock(&ctx->hotplug_cbs_lock);
     if(!(ret == 0))
     {
-      list_del$link2(&hotplug_cb->list);
+      list_del_link2(&hotplug_cb->list);
       free((void *)hotplug_cb);
     }
 
@@ -10824,7 +10824,7 @@ void usbi_hotplug_match(struct libusb_context *ctx, struct libusb_device *dev, e
 
 // usbi_hotplug_match_cb
 // file ../../libusb/hotplug.c line 150
-static signed int usbi_hotplug_match_cb(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous$2 event, struct libusb_hotplug_callback *hotplug_cb)
+static signed int usbi_hotplug_match_cb(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous_2 event, struct libusb_hotplug_callback *hotplug_cb)
 {
   if(!(hotplug_cb->needs_free == 0))
     return 1;
@@ -10883,16 +10883,16 @@ static signed int usbi_hotplug_match_cb(struct libusb_context *ctx, struct libus
 
 // usbi_hotplug_notification
 // file ../../libusb/hotplug.h line 87
-void usbi_hotplug_notification(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous$2 event)
+void usbi_hotplug_notification(struct libusb_context *ctx, struct libusb_device *dev, enum anonymous_2 event)
 {
   signed int pending_events;
   struct libusb_hotplug_message *message;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct libusb_hotplug_message) /*32ul*/ );
-  message = (struct libusb_hotplug_message *)return_value_calloc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct libusb_hotplug_message) /*32ul*/ );
+  message = (struct libusb_hotplug_message *)return_value_calloc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(message == ((struct libusb_hotplug_message *)NULL))
     usbi_log(ctx, (enum libusb_log_level)LIBUSB_LOG_LEVEL_ERROR, "usbi_hotplug_notification", "error allocating hotplug message");
 
@@ -10902,22 +10902,22 @@ void usbi_hotplug_notification(struct libusb_context *ctx, struct libusb_device 
     message->device = dev;
     pthread_mutex_lock(&ctx->event_data_lock);
     if(!(ctx->device_close == 0u))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
-    pending_events = (signed int)tmp_if_expr$4;
-    list_add_tail$link1(&message->list, &ctx->hotplug_msgs);
+      tmp_if_expr_4 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
+    pending_events = (signed int)tmp_if_expr_4;
+    list_add_tail_link1(&message->list, &ctx->hotplug_msgs);
     if(pending_events == 0)
       usbi_signal_event(ctx);
 
@@ -10953,15 +10953,15 @@ void usbi_io_exit(struct libusb_context *ctx)
 signed int usbi_io_init(struct libusb_context *ctx)
 {
   signed int r;
-  pthread_mutex_init(&ctx->flying_transfers_lock, (const union anonymous$4 *)(void *)0);
-  usbi_mutex_init_recursive(&ctx->events_lock, (union anonymous$4 *)(void *)0);
-  pthread_mutex_init(&ctx->event_waiters_lock, (const union anonymous$4 *)(void *)0);
-  pthread_cond_init(&ctx->event_waiters_cond, (const union anonymous$4 *)(void *)0);
-  pthread_mutex_init(&ctx->event_data_lock, (const union anonymous$4 *)(void *)0);
-  list_init$link1(&ctx->flying_transfers);
-  list_init$link1(&ctx->ipollfds);
-  list_init$link1(&ctx->hotplug_msgs);
-  list_init$link1(&ctx->completed_transfers);
+  pthread_mutex_init(&ctx->flying_transfers_lock, (const union anonymous_4 *)(void *)0);
+  usbi_mutex_init_recursive(&ctx->events_lock, (union anonymous_4 *)(void *)0);
+  pthread_mutex_init(&ctx->event_waiters_lock, (const union anonymous_4 *)(void *)0);
+  pthread_cond_init(&ctx->event_waiters_cond, (const union anonymous_4 *)(void *)0);
+  pthread_mutex_init(&ctx->event_data_lock, (const union anonymous_4 *)(void *)0);
+  list_init_link1(&ctx->flying_transfers);
+  list_init_link1(&ctx->ipollfds);
+  list_init_link1(&ctx->hotplug_msgs);
+  list_init_link1(&ctx->completed_transfers);
   r=usbi_pipe(ctx->event_pipe);
   signed int return_value;
   if(!(r >= 0))
@@ -10982,9 +10982,9 @@ signed int usbi_io_init(struct libusb_context *ctx)
 
       else
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "usbi_io_init", "timerfd not available (code %d error %d)", ctx->timerfd, *return_value___errno_location$1);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "usbi_io_init", "timerfd not available (code %d error %d)", ctx->timerfd, *return_value___errno_location_1);
         ctx->timerfd = -1;
       }
       return 0;
@@ -11114,9 +11114,9 @@ void usbi_log_v(struct libusb_context *ctx, enum libusb_log_level level, const c
           }
           if(!(global_debug == 0))
           {
-            signed int return_value_usbi_get_tid$1;
-            return_value_usbi_get_tid$1=usbi_get_tid();
-            header_len=snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "[%2d.%06d] [%08x] libusb: %s [%s] ", (signed int)now.tv_sec, (signed int)now.tv_usec, return_value_usbi_get_tid$1, prefix, function);
+            signed int return_value_usbi_get_tid_1;
+            return_value_usbi_get_tid_1=usbi_get_tid();
+            header_len=snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "[%2d.%06d] [%08x] libusb: %s [%s] ", (signed int)now.tv_sec, (signed int)now.tv_usec, return_value_usbi_get_tid_1, prefix, function);
           }
 
           else
@@ -11149,11 +11149,11 @@ __CPROVER_DUMP_L23:
 
 // usbi_mutex_init_recursive
 // file ../../libusb/os/threads_posix.h line 46
-extern signed int usbi_mutex_init_recursive(union anonymous$3 *mutex, union anonymous$4 *attr)
+extern signed int usbi_mutex_init_recursive(union anonymous_3 *mutex, union anonymous_4 *attr)
 {
   signed int err;
-  union anonymous$4 stack_attr;
-  if(attr == ((union anonymous$4 *)NULL))
+  union anonymous_4 stack_attr;
+  if(attr == ((union anonymous_4 *)NULL))
   {
     attr = &stack_attr;
     err=pthread_mutexattr_init(&stack_attr);
@@ -11192,18 +11192,18 @@ signed int usbi_parse_descriptor(const unsigned char *source, const char *descri
   const char *cp;
   unsigned int d;
   cp = descriptor;
-  unsigned char *tmp_post$1;
-  const unsigned char *tmp_post$2;
+  unsigned char *tmp_post_1;
+  const unsigned char *tmp_post_2;
   for( ; !(*cp == 0); cp = cp + 1l)
     switch((signed int)*cp)
     {
       case 98:
       {
-        tmp_post$1 = dp;
+        tmp_post_1 = dp;
         dp = dp + 1l;
-        tmp_post$2 = sp;
+        tmp_post_2 = sp;
         sp = sp + 1l;
-        *tmp_post$1 = *tmp_post$2;
+        *tmp_post_1 = *tmp_post_2;
         break;
       }
       case 119:
@@ -11260,18 +11260,18 @@ signed int usbi_pipe(signed int *pipefd)
     ret=fcntl(pipefd[(signed long int)1], 3);
     if(ret == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "usbi_pipe", "Failed to get pipe fd flags: %d", *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "usbi_pipe", "Failed to get pipe fd flags: %d", *return_value___errno_location_1);
       goto err_close_pipe;
     }
 
     ret=fcntl(pipefd[(signed long int)1], 4, ret | 04000);
     if(!(ret == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "usbi_pipe", "Failed to set non-blocking on new pipe: %d", *return_value___errno_location$2);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      usbi_log((struct libusb_context *)(void *)0, (enum libusb_log_level)LIBUSB_LOG_LEVEL_DEBUG, "usbi_pipe", "Failed to set non-blocking on new pipe: %d", *return_value___errno_location_2);
       goto err_close_pipe;
     }
 
@@ -11297,28 +11297,28 @@ static inline void * usbi_reallocf(void *ptr, unsigned long int size)
   return ret;
 }
 
-// usbi_reallocf$link1
+// usbi_reallocf_link1
 // file ../../libusb/libusbi.h line 142
-static inline void * usbi_reallocf$link1(void *ptr$link1, unsigned long int size$link1)
+static inline void * usbi_reallocf_link1(void *ptr_link1, unsigned long int size_link1)
 {
-  void *ret$link1;
-  ret$link1=realloc(ptr$link1, size$link1);
-  if(ret$link1 == NULL)
-    free(ptr$link1);
+  void *ret_link1;
+  ret_link1=realloc(ptr_link1, size_link1);
+  if(ret_link1 == NULL)
+    free(ptr_link1);
 
-  return ret$link1;
+  return ret_link1;
 }
 
-// usbi_reallocf$link2
+// usbi_reallocf_link2
 // file ../../libusb/libusbi.h line 142
-static inline void * usbi_reallocf$link2(void *ptr$link2, unsigned long int size$link2)
+static inline void * usbi_reallocf_link2(void *ptr_link2, unsigned long int size_link2)
 {
-  void *ret$link2;
-  ret$link2=realloc(ptr$link2, size$link2);
-  if(ret$link2 == NULL)
-    free(ptr$link2);
+  void *ret_link2;
+  ret_link2=realloc(ptr_link2, size_link2);
+  if(ret_link2 == NULL)
+    free(ptr_link2);
 
-  return ret$link2;
+  return ret_link2;
 }
 
 // usbi_remove_pollfd
@@ -11345,7 +11345,7 @@ void usbi_remove_pollfd(struct libusb_context *ctx, signed int fd)
 
   else
   {
-    list_del$link1(&ipollfd->list);
+    list_del_link1(&ipollfd->list);
     ctx->pollfds_cnt = ctx->pollfds_cnt - 1ul;
     usbi_fd_notification(ctx);
     pthread_mutex_unlock(&ctx->event_data_lock);
@@ -11408,25 +11408,25 @@ void usbi_signal_transfer_completion(struct usbi_transfer *transfer)
   struct libusb_context *ctx = ((struct libusb_transfer *)((unsigned char *)transfer + (signed long int)sizeof(struct usbi_transfer) /*152ul*/ ))->dev_handle->dev->ctx;
   signed int pending_events;
   pthread_mutex_lock(&ctx->event_data_lock);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ctx->device_close == 0u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = ctx->pollfds_modified != 0u ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = !((&ctx->hotplug_msgs)->next == &ctx->hotplug_msgs) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
-  pending_events = (signed int)tmp_if_expr$3;
+    tmp_if_expr_3 = !((&ctx->completed_transfers)->next == &ctx->completed_transfers) ? (_Bool)1 : (_Bool)0;
+  pending_events = (signed int)tmp_if_expr_3;
   list_add_tail(&transfer->completed_list, &ctx->completed_transfers);
   if(pending_events == 0)
     usbi_signal_event(ctx);

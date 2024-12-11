@@ -1,86 +1,86 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']
+// tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']
+// tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val']
+// tag-#anon#ST[ARR16{U64}_U64_'__val']
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}$U8$'__pad1'|U64'__pad2'|U32'__flags'|U32'$pad0']
+// tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}_U8_'__pad1'|U64'__pad2'|U32'__flags'|U32'_pad0']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[S32'si_pid'|U32'si_uid']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']
+// tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']
+// tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']
+// tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'|*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}$SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}$SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#$|*{V}$V$)->V$'sa_sigaction']
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'|*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}_SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}_SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#_|*{V}_V_)->V_'sa_sigaction']
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[ARR32{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}$U8$'__pad1'|U64'__pad2'|U32'__flags'|U32'$pad0']#'__data'|ARR56{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}_U8_'__pad1'|U64'__pad2'|U32'__flags'|U32'_pad0']#'__data'|ARR56{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$9;
+union anonymous_9;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -199,13 +199,13 @@ extern signed int * __errno_location(void);
 static void _sigev_handler(signed int signum);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$9, unsigned int *);
+extern signed int accept(signed int, union anonymous_9, unsigned int *);
 // clock_gettime
 // file /usr/include/time.h line 342
 extern signed int clock_gettime(signed int, struct timespec *);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$9, unsigned int);
+extern signed int connect(signed int, union anonymous_9, unsigned int);
 // enter_npth
 // file ../../src/npth.c line 118
 static void enter_npth(void);
@@ -235,19 +235,19 @@ signed int npth_accept(signed int s, struct sockaddr *addr, unsigned int *addrle
 signed int npth_clock_gettime(struct timespec *ts);
 // npth_cond_timedwait
 // file ../../src/npth.c line 476
-signed int npth_cond_timedwait(union anonymous$14 *cond, union anonymous$17 *mutex, struct timespec *abstime);
+signed int npth_cond_timedwait(union anonymous_14 *cond, union anonymous_17 *mutex, struct timespec *abstime);
 // npth_cond_wait
 // file ../../src/npth.c line 464
-signed int npth_cond_wait(union anonymous$14 *cond, union anonymous$17 *mutex);
+signed int npth_cond_wait(union anonymous_14 *cond, union anonymous_17 *mutex);
 // npth_connect
 // file ../../src/npth.c line 539
 signed int npth_connect(signed int s, struct sockaddr *addr, unsigned int addrlen);
 // npth_create
 // file ../../src/npth.c line 275
 signed int npth_create(unsigned long int *thread, const union pthread_attr_t *attr, void * (*start_routine)(void *), void *arg);
-// npth_create::start_routine$object
+// npth_create::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // npth_exit
 // file ../../src/npth.c line 320
 void npth_exit(void *retval);
@@ -262,16 +262,16 @@ signed int npth_init(void);
 signed int npth_join(unsigned long int thread, void **retval);
 // npth_mutex_lock
 // file ../src/npth.h line 222
-signed int npth_mutex_lock(union anonymous$17 *mutex);
+signed int npth_mutex_lock(union anonymous_17 *mutex);
 // npth_mutex_timedlock
 // file ../../src/npth.c line 348
-signed int npth_mutex_timedlock(union anonymous$17 *mutex, struct timespec *abstime);
+signed int npth_mutex_timedlock(union anonymous_17 *mutex, struct timespec *abstime);
 // npth_protect
 // file ../../src/npth.c line 691
 void npth_protect(void);
 // npth_pselect
 // file ../../src/npth.c line 576
-signed int npth_pselect(signed int nfd, struct anonymous$18 *rfds, struct anonymous$18 *wfds, struct anonymous$18 *efds, struct timespec *timeout, const struct anonymous$0 *sigmask);
+signed int npth_pselect(signed int nfd, struct anonymous_18 *rfds, struct anonymous_18 *wfds, struct anonymous_18 *efds, struct timespec *timeout, const struct anonymous_0 *sigmask);
 // npth_read
 // file ../../src/npth.c line 636
 signed long int npth_read(signed int fd, void *buf, unsigned long int nbytes);
@@ -280,19 +280,19 @@ signed long int npth_read(signed int fd, void *buf, unsigned long int nbytes);
 signed int npth_recvmsg(signed int fd, struct msghdr *msg, signed int flags);
 // npth_rwlock_rdlock
 // file ../../src/npth.c line 371
-signed int npth_rwlock_rdlock(union anonymous$12 *rwlock);
+signed int npth_rwlock_rdlock(union anonymous_12 *rwlock);
 // npth_rwlock_timedrdlock
 // file ../../src/npth.c line 391
-signed int npth_rwlock_timedrdlock(union anonymous$12 *rwlock, struct timespec *abstime);
+signed int npth_rwlock_timedrdlock(union anonymous_12 *rwlock, struct timespec *abstime);
 // npth_rwlock_timedwrlock
 // file ../../src/npth.c line 436
-signed int npth_rwlock_timedwrlock(union anonymous$12 *rwlock, struct timespec *abstime);
+signed int npth_rwlock_timedwrlock(union anonymous_12 *rwlock, struct timespec *abstime);
 // npth_rwlock_wrlock
 // file ../../src/npth.c line 416
-signed int npth_rwlock_wrlock(union anonymous$12 *rwlock);
+signed int npth_rwlock_wrlock(union anonymous_12 *rwlock);
 // npth_select
 // file ../../src/npth.c line 563
-signed int npth_select(signed int nfd, struct anonymous$18 *rfds, struct anonymous$18 *wfds, struct anonymous$18 *efds, struct timeval *timeout);
+signed int npth_select(signed int nfd, struct anonymous_18 *rfds, struct anonymous_18 *wfds, struct anonymous_18 *efds, struct timeval *timeout);
 // npth_sendmsg
 // file ../../src/npth.c line 672
 signed int npth_sendmsg(signed int fd, struct msghdr *msg, signed int flags);
@@ -313,7 +313,7 @@ signed int npth_sigev_get_pending(signed int *r_signum);
 void npth_sigev_init(void);
 // npth_sigev_sigmask
 // file ../../src/npth-sigev.c line 155
-struct anonymous$0 * npth_sigev_sigmask(void);
+struct anonymous_0 * npth_sigev_sigmask(void);
 // npth_sleep
 // file ../../src/npth.c line 503
 unsigned int npth_sleep(unsigned int sec);
@@ -334,16 +334,16 @@ signed int npth_waitpid(signed int pid, signed int *status, signed int options);
 signed long int npth_write(signed int fd, const void *buf, unsigned long int nbytes);
 // pselect
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 118
-extern signed int pselect(signed int, struct anonymous$18 *, struct anonymous$18 *, struct anonymous$18 *, struct timespec *, const struct anonymous$0 *);
+extern signed int pselect(signed int, struct anonymous_18 *, struct anonymous_18 *, struct anonymous_18 *, struct timespec *, const struct anonymous_0 *);
 // pthread_atfork
 // file /usr/include/pthread.h line 1147
 extern signed int pthread_atfork(void (*)(void), void (*)(void), void (*)(void));
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$14 *, union anonymous$17 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_14 *, union anonymous_17 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$14 *, union anonymous$17 *);
+extern signed int pthread_cond_wait(union anonymous_14 *, union anonymous_17 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -358,37 +358,37 @@ extern signed int pthread_getname_np(unsigned long int, char *, unsigned long in
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$17 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_17 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$17 *);
+extern signed int pthread_mutex_lock(union anonymous_17 *);
 // pthread_mutex_timedlock
 // file /usr/include/pthread.h line 769
-extern signed int pthread_mutex_timedlock(union anonymous$17 *, struct timespec *);
+extern signed int pthread_mutex_timedlock(union anonymous_17 *, struct timespec *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$17 *);
+extern signed int pthread_mutex_trylock(union anonymous_17 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$17 *);
+extern signed int pthread_mutex_unlock(union anonymous_17 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$12 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_12 *);
 // pthread_rwlock_timedrdlock
 // file /usr/include/pthread.h line 908
-extern signed int pthread_rwlock_timedrdlock(union anonymous$12 *, struct timespec *);
+extern signed int pthread_rwlock_timedrdlock(union anonymous_12 *, struct timespec *);
 // pthread_rwlock_timedwrlock
 // file /usr/include/pthread.h line 923
-extern signed int pthread_rwlock_timedwrlock(union anonymous$12 *, struct timespec *);
+extern signed int pthread_rwlock_timedwrlock(union anonymous_12 *, struct timespec *);
 // pthread_rwlock_tryrdlock
 // file /usr/include/pthread.h line 903
-extern signed int pthread_rwlock_tryrdlock(union anonymous$12 *);
+extern signed int pthread_rwlock_tryrdlock(union anonymous_12 *);
 // pthread_rwlock_trywrlock
 // file /usr/include/pthread.h line 918
-extern signed int pthread_rwlock_trywrlock(union anonymous$12 *);
+extern signed int pthread_rwlock_trywrlock(union anonymous_12 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$12 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_12 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -397,7 +397,7 @@ extern unsigned long int pthread_self(void);
 extern signed int pthread_setname_np(unsigned long int, const char *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$0 *, struct anonymous$0 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_0 *, struct anonymous_0 *);
 // pthread_tryjoin_np
 // file /usr/include/pthread.h line 257
 extern signed int pthread_tryjoin_np(unsigned long int, void **);
@@ -412,19 +412,19 @@ extern signed long int recvmsg(signed int, struct msghdr *, signed int);
 static void restore_sigmask_for_child_process(void);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$18 *, struct anonymous$18 *, struct anonymous$18 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_18 *, struct anonymous_18 *, struct anonymous_18 *, struct timeval *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$19 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_19 *, signed int, unsigned int);
 // sem_open
 // file /usr/include/semaphore.h line 42
-extern union anonymous$19 * sem_open(const char *, signed int, ...);
+extern union anonymous_19 * sem_open(const char *, signed int, ...);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$19 *);
+extern signed int sem_post(union anonymous_19 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$19 *);
+extern signed int sem_wait(union anonymous_19 *);
 // sendmsg
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 184
 extern signed long int sendmsg(signed int, struct msghdr *, signed int);
@@ -433,16 +433,16 @@ extern signed long int sendmsg(signed int, struct msghdr *, signed int);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$0 *, signed int);
+extern signed int sigaddset(struct anonymous_0 *, signed int);
 // sigdelset
 // file /usr/include/signal.h line 224
-extern signed int sigdelset(struct anonymous$0 *, signed int);
+extern signed int sigdelset(struct anonymous_0 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$0 *);
+extern signed int sigemptyset(struct anonymous_0 *);
 // sigismember
 // file /usr/include/signal.h line 227
-extern signed int sigismember(const struct anonymous$0 *, signed int);
+extern signed int sigismember(const struct anonymous_0 *, signed int);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -458,12 +458,12 @@ extern signed int system(const char *);
 // thread_start
 // file ../../src/npth.c line 253
 static void * thread_start(void *startup_arg);
-// thread_start::1::start_routine$object
+// thread_start::1::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // try_sem_open
 // file ../../src/npth.c line 146
-static signed int try_sem_open(union anonymous$19 **r_sem);
+static signed int try_sem_open(union anonymous_19 **r_sem);
 // usleep
 // file /usr/include/unistd.h line 460
 extern signed int usleep(unsigned int);
@@ -474,7 +474,7 @@ extern signed int waitpid(signed int, signed int *, signed int);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$7
+struct anonymous_7
 {
   // _call_addr
   void *_call_addr;
@@ -484,7 +484,7 @@ struct anonymous$7
   unsigned int _arch;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_addr
   void *si_addr;
@@ -492,19 +492,19 @@ struct anonymous$5
   signed short int si_addr_lsb;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __lock
   signed int __lock;
@@ -524,7 +524,7 @@ struct anonymous$13
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __lock
   signed int __lock;
@@ -552,7 +552,7 @@ struct anonymous$11
   unsigned int __flags;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // si_pid
   signed int si_pid;
@@ -560,7 +560,7 @@ struct anonymous$1
   unsigned int si_uid;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_pid
   signed int si_pid;
@@ -582,7 +582,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // si_pid
   signed int si_pid;
@@ -592,7 +592,7 @@ struct anonymous$3
   union sigval si_sigval;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // si_tid
   signed int si_tid;
@@ -602,7 +602,7 @@ struct anonymous$2
   union sigval si_sigval;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_band
   signed long int si_band;
@@ -610,27 +610,27 @@ struct anonymous$6
   signed int si_fd;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$1 _kill;
+  struct anonymous_1 _kill;
   // _timer
-  struct anonymous$2 _timer;
+  struct anonymous_2 _timer;
   // _rt
-  struct anonymous$3 _rt;
+  struct anonymous_3 _rt;
   // _sigchld
-  struct anonymous$4 _sigchld;
+  struct anonymous_4 _sigchld;
   // _sigfault
-  struct anonymous$5 _sigfault;
+  struct anonymous_5 _sigfault;
   // _sigpoll
-  struct anonymous$6 _sigpoll;
+  struct anonymous_6 _sigpoll;
   // _sigsys
-  struct anonymous$7 _sigsys;
+  struct anonymous_7 _sigsys;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_signo
   signed int si_signo;
@@ -639,18 +639,18 @@ struct anonymous$10
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$8 _sifields;
+  union anonymous_8 _sifields;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$10 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_10 *, void *);
 };
 
-union anonymous$19
+union anonymous_19
 {
   // __size
   char __size[32l];
@@ -666,20 +666,20 @@ union anonymous
   signed int __align;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __data
-  struct anonymous$13 __data;
+  struct anonymous_13 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __data
-  struct anonymous$11 __data;
+  struct anonymous_11 __data;
   // __size
   char __size[56l];
   // __align
@@ -714,7 +714,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$17
+union anonymous_17
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -724,7 +724,7 @@ union anonymous$17
   signed long int __align;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -754,7 +754,7 @@ union anonymous$16
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -893,9 +893,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$15 __sigaction_handler;
+  union anonymous_15 __sigaction_handler;
   // sa_mask
-  struct anonymous$0 sa_mask;
+  struct anonymous_0 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -940,19 +940,19 @@ struct timeval
 static volatile unsigned long int main_thread;
 // sceptre
 // file ../../src/npth.c line 62
-static union anonymous$19 *sceptre;
+static union anonymous_19 *sceptre;
 // sceptre_buffer
 // file ../../src/npth.c line 61
-static union anonymous$19 sceptre_buffer;
+static union anonymous_19 sceptre_buffer;
 // sceptre
 // file ../../src/npth.c line 62
-static union anonymous$19 *sceptre = &sceptre_buffer;
+static union anonymous_19 *sceptre = &sceptre_buffer;
 // sigev_block
 // file ../../src/npth-sigev.c line 76
-static struct anonymous$0 sigev_block;
+static struct anonymous_0 sigev_block;
 // sigev_pending
 // file ../../src/npth-sigev.c line 73
-static struct anonymous$0 sigev_pending;
+static struct anonymous_0 sigev_pending;
 // sigev_signum
 // file ../../src/npth-sigev.c line 84
 static signed int sigev_signum[32l];
@@ -961,7 +961,7 @@ static signed int sigev_signum[32l];
 static signed int sigev_signum_cnt;
 // sigev_unblock
 // file ../../src/npth-sigev.c line 79
-static struct anonymous$0 sigev_unblock;
+static struct anonymous_0 sigev_unblock;
 // stderr
 // file /usr/include/stdio.h line 170
 extern struct _IO_FILE *stderr;
@@ -989,29 +989,29 @@ static void leave_npth(void)
 {
   signed int res;
   signed int save_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  save_errno = *return_value___errno_location$1;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  save_errno = *return_value___errno_location_1;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
     res=sem_wait(sceptre);
     if(!(res >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
   /* assertion !res */
   assert(!(res != 0));
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  *return_value___errno_location$4 = save_errno;
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  *return_value___errno_location_4 = save_errno;
 }
 
 // main
@@ -1019,14 +1019,14 @@ static void leave_npth(void)
 signed int main(signed int argc, char **argv)
 {
   signed int rc;
-  union anonymous$17 mutex;
+  union anonymous_17 mutex;
   rc=npth_init();
   do
     if(!(rc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(rc);
-      fprintf(stderr, "%s:%d: %s\n", (const void *)"../../tests/t-mutex.c", 23, return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(rc);
+      fprintf(stderr, "%s:%d: %s\n", (const void *)"../../tests/t-mutex.c", 23, return_value_strerror_1);
       exit(1);
     }
 
@@ -1035,9 +1035,9 @@ signed int main(signed int argc, char **argv)
   do
     if(!(rc == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(rc);
-      fprintf(stderr, "%s:%d: %s\n", (const void *)"../../tests/t-mutex.c", 26, return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(rc);
+      fprintf(stderr, "%s:%d: %s\n", (const void *)"../../tests/t-mutex.c", 26, return_value_strerror_2);
       exit(1);
     }
 
@@ -1046,9 +1046,9 @@ signed int main(signed int argc, char **argv)
   do
     if(!(rc == 0))
     {
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(rc);
-      fprintf(stderr, "%s:%d: %s\n", (const void *)"../../tests/t-mutex.c", 28, return_value_strerror$3);
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(rc);
+      fprintf(stderr, "%s:%d: %s\n", (const void *)"../../tests/t-mutex.c", 28, return_value_strerror_3);
       exit(1);
     }
 
@@ -1057,9 +1057,9 @@ signed int main(signed int argc, char **argv)
   do
     if(!(rc == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(rc);
-      fprintf(stderr, "%s:%d: %s\n", (const void *)"../../tests/t-mutex.c", 30, return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(rc);
+      fprintf(stderr, "%s:%d: %s\n", (const void *)"../../tests/t-mutex.c", 30, return_value_strerror_4);
       exit(1);
     }
 
@@ -1082,14 +1082,14 @@ signed int npth_accept(signed int s, struct sockaddr *addr, unsigned int *addrle
 // file ../../src/npth.c line 698
 signed int npth_clock_gettime(struct timespec *ts)
 {
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$1=clock_gettime(0, ts);
-  return return_value_clock_gettime$1;
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_1=clock_gettime(0, ts);
+  return return_value_clock_gettime_1;
 }
 
 // npth_cond_timedwait
 // file ../../src/npth.c line 476
-signed int npth_cond_timedwait(union anonymous$14 *cond, union anonymous$17 *mutex, struct timespec *abstime)
+signed int npth_cond_timedwait(union anonymous_14 *cond, union anonymous_17 *mutex, struct timespec *abstime)
 {
   signed int err;
   enter_npth();
@@ -1100,7 +1100,7 @@ signed int npth_cond_timedwait(union anonymous$14 *cond, union anonymous$17 *mut
 
 // npth_cond_wait
 // file ../../src/npth.c line 464
-signed int npth_cond_wait(union anonymous$14 *cond, union anonymous$17 *mutex)
+signed int npth_cond_wait(union anonymous_14 *cond, union anonymous_17 *mutex)
 {
   signed int err;
   enter_npth();
@@ -1126,14 +1126,14 @@ signed int npth_create(unsigned long int *thread, const union pthread_attr_t *at
 {
   signed int err;
   struct startup_s *startup;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct startup_s) /*16ul*/ );
-  startup = (struct startup_s *)return_value_malloc$1;
-  signed int *return_value___errno_location$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct startup_s) /*16ul*/ );
+  startup = (struct startup_s *)return_value_malloc_1;
+  signed int *return_value___errno_location_2;
   if(startup == ((struct startup_s *)NULL))
   {
-    return_value___errno_location$2=__errno_location();
-    return *return_value___errno_location$2;
+    return_value___errno_location_2=__errno_location();
+    return *return_value___errno_location_2;
   }
 
   startup->start_routine = start_routine;
@@ -1162,9 +1162,9 @@ void npth_exit(void *retval)
 // file ../../src/npth.c line 214
 signed int npth_getname_np(unsigned long int target_thread, char *buf, unsigned long int buflen)
 {
-  signed int return_value_pthread_getname_np$1;
-  return_value_pthread_getname_np$1=pthread_getname_np(target_thread, buf, buflen);
-  return return_value_pthread_getname_np$1;
+  signed int return_value_pthread_getname_np_1;
+  return_value_pthread_getname_np_1=pthread_getname_np(target_thread, buf, buflen);
+  return return_value_pthread_getname_np_1;
 }
 
 // npth_init
@@ -1173,32 +1173,32 @@ signed int npth_init(void)
 {
   signed int res;
   main_thread=pthread_self();
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   res=sem_init(sceptre, 0, (unsigned int)1);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!(res >= 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    if(*return_value___errno_location$5 == 38)
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    if(*return_value___errno_location_5 == 38)
     {
-      signed int return_value_try_sem_open$3;
-      return_value_try_sem_open$3=try_sem_open(&sceptre);
-      if(!(return_value_try_sem_open$3 == 0))
+      signed int return_value_try_sem_open_3;
+      return_value_try_sem_open_3=try_sem_open(&sceptre);
+      if(!(return_value_try_sem_open_3 == 0))
       {
-        return_value___errno_location$2=__errno_location();
-        return *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        return *return_value___errno_location_2;
       }
 
     }
 
     else
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      return *return_value___errno_location$4;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      return *return_value___errno_location_4;
     }
   }
 
@@ -1226,7 +1226,7 @@ signed int npth_join(unsigned long int thread, void **retval)
 
 // npth_mutex_lock
 // file ../src/npth.h line 222
-signed int npth_mutex_lock(union anonymous$17 *mutex)
+signed int npth_mutex_lock(union anonymous_17 *mutex)
 {
   signed int err;
   err=pthread_mutex_trylock(mutex);
@@ -1244,7 +1244,7 @@ signed int npth_mutex_lock(union anonymous$17 *mutex)
 
 // npth_mutex_timedlock
 // file ../../src/npth.c line 348
-signed int npth_mutex_timedlock(union anonymous$17 *mutex, struct timespec *abstime)
+signed int npth_mutex_timedlock(union anonymous_17 *mutex, struct timespec *abstime)
 {
   signed int err;
   err=pthread_mutex_trylock(mutex);
@@ -1269,7 +1269,7 @@ void npth_protect(void)
 
 // npth_pselect
 // file ../../src/npth.c line 576
-signed int npth_pselect(signed int nfd, struct anonymous$18 *rfds, struct anonymous$18 *wfds, struct anonymous$18 *efds, struct timespec *timeout, const struct anonymous$0 *sigmask)
+signed int npth_pselect(signed int nfd, struct anonymous_18 *rfds, struct anonymous_18 *wfds, struct anonymous_18 *efds, struct timespec *timeout, const struct anonymous_0 *sigmask)
 {
   signed int res;
   enter_npth();
@@ -1295,16 +1295,16 @@ signed int npth_recvmsg(signed int fd, struct msghdr *msg, signed int flags)
 {
   signed int res;
   enter_npth();
-  signed long int return_value_recvmsg$1;
-  return_value_recvmsg$1=recvmsg(fd, msg, flags);
-  res = (signed int)return_value_recvmsg$1;
+  signed long int return_value_recvmsg_1;
+  return_value_recvmsg_1=recvmsg(fd, msg, flags);
+  res = (signed int)return_value_recvmsg_1;
   leave_npth();
   return res;
 }
 
 // npth_rwlock_rdlock
 // file ../../src/npth.c line 371
-signed int npth_rwlock_rdlock(union anonymous$12 *rwlock)
+signed int npth_rwlock_rdlock(union anonymous_12 *rwlock)
 {
   signed int err;
   err=pthread_rwlock_tryrdlock(rwlock);
@@ -1322,7 +1322,7 @@ signed int npth_rwlock_rdlock(union anonymous$12 *rwlock)
 
 // npth_rwlock_timedrdlock
 // file ../../src/npth.c line 391
-signed int npth_rwlock_timedrdlock(union anonymous$12 *rwlock, struct timespec *abstime)
+signed int npth_rwlock_timedrdlock(union anonymous_12 *rwlock, struct timespec *abstime)
 {
   signed int err;
   err=pthread_rwlock_tryrdlock(rwlock);
@@ -1340,7 +1340,7 @@ signed int npth_rwlock_timedrdlock(union anonymous$12 *rwlock, struct timespec *
 
 // npth_rwlock_timedwrlock
 // file ../../src/npth.c line 436
-signed int npth_rwlock_timedwrlock(union anonymous$12 *rwlock, struct timespec *abstime)
+signed int npth_rwlock_timedwrlock(union anonymous_12 *rwlock, struct timespec *abstime)
 {
   signed int err;
   err=pthread_rwlock_trywrlock(rwlock);
@@ -1358,7 +1358,7 @@ signed int npth_rwlock_timedwrlock(union anonymous$12 *rwlock, struct timespec *
 
 // npth_rwlock_wrlock
 // file ../../src/npth.c line 416
-signed int npth_rwlock_wrlock(union anonymous$12 *rwlock)
+signed int npth_rwlock_wrlock(union anonymous_12 *rwlock)
 {
   signed int err;
   err=pthread_rwlock_trywrlock(rwlock);
@@ -1376,7 +1376,7 @@ signed int npth_rwlock_wrlock(union anonymous$12 *rwlock)
 
 // npth_select
 // file ../../src/npth.c line 563
-signed int npth_select(signed int nfd, struct anonymous$18 *rfds, struct anonymous$18 *wfds, struct anonymous$18 *efds, struct timeval *timeout)
+signed int npth_select(signed int nfd, struct anonymous_18 *rfds, struct anonymous_18 *wfds, struct anonymous_18 *efds, struct timeval *timeout)
 {
   signed int res;
   enter_npth();
@@ -1391,9 +1391,9 @@ signed int npth_sendmsg(signed int fd, struct msghdr *msg, signed int flags)
 {
   signed int res;
   enter_npth();
-  signed long int return_value_sendmsg$1;
-  return_value_sendmsg$1=sendmsg(fd, msg, flags);
-  res = (signed int)return_value_sendmsg$1;
+  signed long int return_value_sendmsg_1;
+  return_value_sendmsg_1=sendmsg(fd, msg, flags);
+  res = (signed int)return_value_sendmsg_1;
   leave_npth();
   return res;
 }
@@ -1402,9 +1402,9 @@ signed int npth_sendmsg(signed int fd, struct msghdr *msg, signed int flags)
 // file ../../src/npth.c line 228
 signed int npth_setname_np(unsigned long int target_thread, const char *name)
 {
-  signed int return_value_pthread_setname_np$1;
-  return_value_pthread_setname_np$1=pthread_setname_np(target_thread, name);
-  return return_value_pthread_setname_np$1;
+  signed int return_value_pthread_setname_np_1;
+  return_value_pthread_setname_np_1=pthread_setname_np(target_thread, name);
+  return return_value_pthread_setname_np_1;
 }
 
 // npth_sigev_add
@@ -1412,13 +1412,13 @@ signed int npth_setname_np(unsigned long int target_thread, const char *name)
 void npth_sigev_add(signed int signum)
 {
   struct sigaction sa;
-  struct anonymous$0 ss;
+  struct anonymous_0 ss;
   sigemptyset(&ss);
   /* assertion sigev_signum_cnt < 32 */
   assert(sigev_signum_cnt < 32);
-  signed int tmp_post$1 = sigev_signum_cnt;
+  signed int tmp_post_1 = sigev_signum_cnt;
   sigev_signum_cnt = sigev_signum_cnt + 1;
-  sigev_signum[(signed long int)tmp_post$1] = signum;
+  sigev_signum[(signed long int)tmp_post_1] = signum;
   sigdelset(&sigev_unblock, signum);
   sigaddset(&sigev_block, signum);
   sa.__sigaction_handler.sa_handler = _sigev_handler;
@@ -1431,7 +1431,7 @@ void npth_sigev_add(signed int signum)
 // file ../../src/npth-sigev.c line 143
 void npth_sigev_fini(void)
 {
-  pthread_sigmask(2, &sigev_block, (struct anonymous$0 *)(void *)0);
+  pthread_sigmask(2, &sigev_block, (struct anonymous_0 *)(void *)0);
   pthread_atfork((void (*)(void))(void *)0, (void (*)(void))(void *)0, restore_sigmask_for_child_process);
 }
 
@@ -1443,9 +1443,9 @@ signed int npth_sigev_get_pending(signed int *r_signum)
   for( ; !(i >= sigev_signum_cnt); i = i + 1)
   {
     signed int signum = sigev_signum[(signed long int)i];
-    signed int return_value_sigismember$1;
-    return_value_sigismember$1=sigismember(&sigev_pending, signum);
-    if(!(return_value_sigismember$1 == 0))
+    signed int return_value_sigismember_1;
+    return_value_sigismember_1=sigismember(&sigev_pending, signum);
+    if(!(return_value_sigismember_1 == 0))
     {
       sigdelset(&sigev_pending, signum);
       *r_signum = signum;
@@ -1461,13 +1461,13 @@ signed int npth_sigev_get_pending(signed int *r_signum)
 void npth_sigev_init(void)
 {
   sigemptyset(&sigev_pending);
-  pthread_sigmask(2, (const struct anonymous$0 *)(void *)0, &sigev_block);
-  pthread_sigmask(2, (const struct anonymous$0 *)(void *)0, &sigev_unblock);
+  pthread_sigmask(2, (const struct anonymous_0 *)(void *)0, &sigev_block);
+  pthread_sigmask(2, (const struct anonymous_0 *)(void *)0, &sigev_unblock);
 }
 
 // npth_sigev_sigmask
 // file ../../src/npth-sigev.c line 155
-struct anonymous$0 * npth_sigev_sigmask(void)
+struct anonymous_0 * npth_sigev_sigmask(void)
 {
   return &sigev_unblock;
 }
@@ -1538,7 +1538,7 @@ signed long int npth_write(signed int fd, const void *buf, unsigned long int nby
 // file ../../src/npth-sigev.c line 134
 static void restore_sigmask_for_child_process(void)
 {
-  pthread_sigmask(2, &sigev_unblock, (struct anonymous$0 *)(void *)0);
+  pthread_sigmask(2, &sigev_unblock, (struct anonymous_0 *)(void *)0);
 }
 
 // thread_start
@@ -1560,34 +1560,34 @@ static void * thread_start(void *startup_arg)
 
 // try_sem_open
 // file ../../src/npth.c line 146
-static signed int try_sem_open(union anonymous$19 **r_sem)
+static signed int try_sem_open(union anonymous_19 **r_sem)
 {
-  union anonymous$19 *sem;
+  union anonymous_19 *sem;
   char name[256l];
   signed int counter = 0;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int return_value_getpid$2;
-    return_value_getpid$2=getpid();
-    snprintf(name, sizeof(char [256l]) /*256ul*/  - (unsigned long int)1, "/npth-sceptre-%lu-%u", (unsigned long int)return_value_getpid$2, counter);
+    signed int return_value_getpid_2;
+    return_value_getpid_2=getpid();
+    snprintf(name, sizeof(char [256l]) /*256ul*/  - (unsigned long int)1, "/npth-sceptre-%lu-%u", (unsigned long int)return_value_getpid_2, counter);
     name[(signed long int)(sizeof(char [256l]) /*256ul*/  - (unsigned long int)1)] = (char)0;
     counter = counter + 1;
     sem=sem_open(name, 0100 | 0200, 0400 | 0200, 1);
-    if(!(sem == ((union anonymous$19 *)NULL)))
+    if(!(sem == ((union anonymous_19 *)NULL)))
     {
       *r_sem = sem;
       return 0;
     }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, " semOpen(%s): %s\n", (const void *)name, return_value_strerror$4);
-    return_value___errno_location$1=__errno_location();
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, " semOpen(%s): %s\n", (const void *)name, return_value_strerror_4);
+    return_value___errno_location_1=__errno_location();
   }
-  while(*return_value___errno_location$1 == 17);
+  while(*return_value___errno_location_1 == 17);
   return -1;
 }
 

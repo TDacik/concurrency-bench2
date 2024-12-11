@@ -1,92 +1,92 @@
-// tag-#anon#ST[*{S8}$S8$'TEMPLATE_NAME'|*{S8}$S8$'SERVICE_NAME'|*{S8}$S8$'LANGUAGE'|*{SYM#tag-ci_membuf#}$SYM#tag-ci_membuf#$'data'|S64'last_used'|S64'loaded'|S64'modified'|S32'locked'|S32'must_free'|S32'non_cached'|U32'$pad0']
+// tag-#anon#ST[*{S8}_S8_'TEMPLATE_NAME'|*{S8}_S8_'SERVICE_NAME'|*{S8}_S8_'LANGUAGE'|*{SYM#tag-ci_membuf#}_SYM#tag-ci_membuf#_'data'|S64'last_used'|S64'loaded'|S64'modified'|S32'locked'|S32'must_free'|S32'non_cached'|U32'_pad0']
 // file txtTemplate.c line 42
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'|S64'__align']#}$SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'|S64'__align']#$'sem']
+// tag-#anon#ST[*{SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'|S64'__align']#}_SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'|S64'__align']#_'sem']
 // file include/proc_mutex.h line 74
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val']
+// tag-#anon#ST[ARR16{U64}_U64_'__val']
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}$U8$'__pad1'|U64'__pad2'|U32'__flags'|U32'$pad0']
+// tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}_U8_'__pad1'|U64'__pad2'|U32'__flags'|U32'_pad0']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'fd']
 // file include/proc_mutex.h line 79
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'id']
 // file include/proc_mutex.h line 69
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#UN[*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']#$'mutex'|*{SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}$U8$'__pad1'|U64'__pad2'|U32'__flags'|U32'$pad0']#'__data'|ARR56{S8}$S8$'__size'|S64'__align']#}$SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}$U8$'__pad1'|U64'__pad2'|U32'__flags'|U32'$pad0']#'__data'|ARR56{S8}$S8$'__size'|S64'__align']#$'rwlock']
+// tag-#anon#UN[*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']#_'mutex'|*{SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}_U8_'__pad1'|U64'__pad2'|U32'__flags'|U32'_pad0']#'__data'|ARR56{S8}_S8_'__size'|S64'__align']#}_SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}_U8_'__pad1'|U64'__pad2'|U32'__flags'|U32'_pad0']#'__data'|ARR56{S8}_S8_'__size'|S64'__align']#_'rwlock']
 // file os/unix/threads.c line 30
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[*{V(*{cS8}$cS8$|S32|*{*{cS8}$cS8$}$*{cS8}$cS8$$)->V}$V(*{cS8}$cS8$|S32|*{*{cS8}$cS8$}$*{cS8}$cS8$$)->V$'command_action'|*{V(*{cS8}$cS8$|S32|*{V}$V$)->V}$V(*{cS8}$cS8$|S32|*{V}$V$)->V$'command_action_extend']
+// tag-#anon#UN[*{V(*{cS8}_cS8_|S32|*{*{cS8}_cS8_}_*{cS8}_cS8__)->V}_V(*{cS8}_cS8_|S32|*{*{cS8}_cS8_}_*{cS8}_cS8__)->V_'command_action'|*{V(*{cS8}_cS8_|S32|*{V}_V_)->V}_V(*{cS8}_cS8_|S32|*{V}_V_)->V_'command_action_extend']
 // file include/commands.h line 46
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'|ARR8{U16}$U16$'__u6_addr16'|ARR4{U32}$U32$'__u6_addr32']
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'|ARR8{U16}_U16_'__u6_addr16'|ARR4{U32}_U32_'__u6_addr32']
 // file /usr/include/netinet/in.h line 211
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[ARR32{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[ARR8{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[F64'__align'|ARR1{S8}$S8$'ptr']
+// tag-#anon#UN[F64'__align'|ARR1{S8}_S8_'ptr']
 // file mem.c line 100
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}$U8$'__pad1'|U64'__pad2'|U32'__flags'|U32'$pad0']#'__data'|ARR56{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}_U8_'__pad1'|U64'__pad2'|U32'__flags'|U32'_pad0']#'__data'|ARR56{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'id']#'sysv'|SYM#tag-#anon#ST[*{SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'|S64'__align']#}$SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'|S64'__align']#$'sem']#'posix'|SYM#tag-#anon#ST[S32'fd']#'file']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'id']#'sysv'|SYM#tag-#anon#ST[*{SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'|S64'__align']#}_SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'|S64'__align']#_'sem']#'posix'|SYM#tag-#anon#ST[S32'fd']#'file']
 // file include/proc_mutex.h line 67
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-ci_proc_mutex#'proc_mutex'|SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']#'thread_mutex']
+// tag-#anon#UN[SYM#tag-ci_proc_mutex#'proc_mutex'|SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']#'thread_mutex']
 // file cache.c line 90
-union anonymous$5;
+union anonymous_5;
 
 // tag-#anon#UN[SYM#tag-posix#'posix'|SYM#tag-sysv#'sysv'|S32'id_']
 // file include/shared_mem.h line 58
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
 union anonymous;
 
@@ -672,15 +672,15 @@ extern const unsigned short int ** __ctype_b_loc(void);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
-// __intl_free$object
+// __intl_free_object
 //
-void __intl_free$object(void *);
-// __intl_malloc$object
+void __intl_free_object(void *);
+// __intl_malloc_object
 //
-void * __intl_malloc$object(signed int);
-// __log_error$object
+void * __intl_malloc_object(signed int);
+// __log_error_object
 //
-void __log_error$object(void *, const char *, ...);
+void __log_error_object(void *, const char *, ...);
 // _os_free
 // file request_common.c line 35
 static void _os_free(void *ptr);
@@ -921,9 +921,9 @@ static signed int check_reg(void *data, const char *name, const void *val);
 // check_request
 // file request.c line 427
 static signed int check_request(struct ci_request *req);
-// check_request$link1
+// check_request_link1
 // file access.c line 69
-signed int check_request$link1(struct ci_request *req$link1);
+signed int check_request_link1(struct ci_request *req_link1);
 // check_tables
 // file txt_format.c line 218
 struct ci_fmt_entry * check_tables(const char *var, struct ci_fmt_entry *u_table, signed int *directive_len, unsigned int *width, signed int *left_align, char *parameter);
@@ -1038,9 +1038,9 @@ const struct ci_array_item * ci_array_get_item(struct ci_array *array, signed in
 // ci_array_iterate
 // file array.c line 116
 void ci_array_iterate(const struct ci_array *array, void *data, signed int (*fn)(void *, const char *, const void *));
-// ci_array_iterate::fn$object
+// ci_array_iterate::fn_object
 //
-signed int fn$object(void *, const char *, const void *);
+signed int fn_object(void *, const char *, const void *);
 // ci_array_new
 // file include/array.h line 90
 struct ci_array * ci_array_new(unsigned long int size);
@@ -1116,9 +1116,9 @@ void * ci_cache_read_vector_val(const void *val, unsigned long int val_size, voi
 // ci_cache_search
 // file cache.c line 53
 const void * ci_cache_search(struct ci_cache *cache, const void *key, void **val, void *data, void * (*dup_from_cache)(const void *, unsigned long int, void *));
-// ci_cache_search::dup_from_cache$object
+// ci_cache_search::dup_from_cache_object
 //
-void * dup_from_cache$object(const void *, unsigned long int, void *);
+void * dup_from_cache_object(const void *, unsigned long int, void *);
 // ci_cache_store_vector_size
 // file cache.c line 432
 unsigned long int ci_cache_store_vector_size(struct ci_vector *v);
@@ -1134,9 +1134,9 @@ void ci_cache_type_register(struct ci_cache_type *type);
 // ci_cache_update
 // file cache.c line 58
 signed int ci_cache_update(struct ci_cache *cache, const void *key, const void *val, unsigned long int val_size, void * (*copy_to_cache)(void *, const void *, unsigned long int));
-// ci_cache_update::copy_to_cache$object
+// ci_cache_update::copy_to_cache_object
 //
-void * copy_to_cache$object(void *, const void *, unsigned long int);
+void * copy_to_cache_object(void *, const void *, unsigned long int);
 // ci_cached_file_destroy
 // file body.c line 423
 void ci_cached_file_destroy(struct ci_cached_file *body);
@@ -1197,12 +1197,12 @@ signed int ci_client_http_headers_completed(struct ci_request *req);
 // ci_client_icapfilter
 // file request_common.c line 1303
 signed int ci_client_icapfilter(struct ci_request *req, signed int timeout, struct ci_headers_list *req_headers, struct ci_headers_list *resp_headers, void *data_source, signed int (*source_read)(void *, char *, signed int), void *data_dest, signed int (*dest_write)(void *, char *, signed int));
-// ci_client_icapfilter::dest_write$object
+// ci_client_icapfilter::dest_write_object
 //
-signed int dest_write$object(void *, char *, signed int);
-// ci_client_icapfilter::source_read$object
+signed int dest_write_object(void *, char *, signed int);
+// ci_client_icapfilter::source_read_object
 //
-signed int source_read$object(void *, char *, signed int);
+signed int source_read_object(void *, char *, signed int);
 // ci_client_request
 // file request_common.c line 662
 struct ci_request * ci_client_request(struct ci_connection *conn, char *server, char *service);
@@ -1212,15 +1212,15 @@ void ci_client_request_reuse(struct ci_request *req);
 // ci_command_register_action
 // file commands.c line 203
 void ci_command_register_action(const char *name, signed int type, void *data, void (*command_action)(const char *, signed int, void *));
-// ci_command_register_action::command_action$object
+// ci_command_register_action::command_action_object
 //
-void command_action$object(const char *, signed int, void *);
+void command_action_object(const char *, signed int, void *);
 // ci_command_register_ctl_cmd
 // file commands.c line 198
 void ci_command_register_ctl_cmd(const char *name, signed int type, void (*command_action)(const char *, signed int, const char **));
-// ci_command_register_ctl_cmd::command_action$object
+// ci_command_register_ctl_cmd::command_action_object
 //
-void command_action$object(const char *, signed int, const char **);
+void command_action_object(const char *, signed int, const char **);
 // ci_command_schedule
 // file commands.c line 227
 void ci_command_schedule(const char *name, void *data, signed long int afterSecs);
@@ -1266,9 +1266,9 @@ void ci_dyn_array_destroy(struct ci_dyn_array *array);
 // ci_dyn_array_iterate
 // file array.c line 329
 void ci_dyn_array_iterate(const struct ci_dyn_array *array, void *data, signed int (*fn)(void *, const char *, const void *));
-// ci_dyn_array_iterate::fn$object
+// ci_dyn_array_iterate::fn_object
 //
-signed int fn$object(void *, const char *, const void *);
+signed int fn_object(void *, const char *, const void *);
 // ci_dyn_array_new
 // file array.c line 212
 struct ci_dyn_array * ci_dyn_array_new(unsigned long int size);
@@ -1335,9 +1335,9 @@ void ci_headers_destroy(struct ci_headers_list *h);
 // ci_headers_iterate
 // file header.c line 424
 signed int ci_headers_iterate(struct ci_headers_list *h, void *data, void (*fn)(void *, const char *, const char *));
-// ci_headers_iterate::fn$object
+// ci_headers_iterate::fn_object
 //
-void fn$object(void *, const char *, const char *);
+void fn_object(void *, const char *, const char *);
 // ci_headers_pack
 // file include/header.h line 230
 void ci_headers_pack(struct ci_headers_list *h);
@@ -1434,15 +1434,15 @@ signed int ci_linger_close(signed int fd, signed int timeout);
 // ci_list_cmp_handler
 // file array.c line 536
 void ci_list_cmp_handler(struct ci_list *list, signed int (*cmp_func)(const void *, const void *, unsigned long int));
-// ci_list_cmp_handler::cmp_func$object
+// ci_list_cmp_handler::cmp_func_object
 //
-signed int cmp_func$object(const void *, const void *, unsigned long int);
+signed int cmp_func_object(const void *, const void *, unsigned long int);
 // ci_list_copy_handler
 // file array.c line 546
 void ci_list_copy_handler(struct ci_list *list, signed int (*copy_func)(void *, const void *));
-// ci_list_copy_handler::copy_func$object
+// ci_list_copy_handler::copy_func_object
 //
-signed int copy_func$object(void *, const void *);
+signed int copy_func_object(void *, const void *);
 // ci_list_create
 // file include/array.h line 619
 struct ci_list * ci_list_create(unsigned long int init_size, unsigned long int obj_size);
@@ -1452,15 +1452,15 @@ void ci_list_destroy(struct ci_list *list);
 // ci_list_free_handler
 // file array.c line 541
 void ci_list_free_handler(struct ci_list *list, void (*free_func)(void *));
-// ci_list_free_handler::free_func$object
+// ci_list_free_handler::free_func_object
 //
-void free_func$object(void *);
+void free_func_object(void *);
 // ci_list_iterate
 // file include/array.h line 671
 void ci_list_iterate(struct ci_list *list, void *data, signed int (*fn)(void *, const void *));
-// ci_list_iterate::fn$object
+// ci_list_iterate::fn_object
 //
-signed int fn$object(void *, const void *);
+signed int fn_object(void *, const void *);
 // ci_list_pop
 // file array.c line 617
 void * ci_list_pop(struct ci_list *list, void *data);
@@ -1476,33 +1476,33 @@ const void * ci_list_push_back(struct ci_list *list, const void *data);
 // ci_list_remove
 // file include/array.h line 716
 signed int ci_list_remove(struct ci_list *list, const void *obj);
-// ci_list_remove::1::cmp_func$object
+// ci_list_remove::1::cmp_func_object
 //
-signed int cmp_func$object(const void *, const void *, unsigned long int);
+signed int cmp_func_object(const void *, const void *, unsigned long int);
 // ci_list_search
 // file include/array.h line 725
 const void * ci_list_search(struct ci_list *list, const void *data);
 // ci_list_search2
 // file array.c line 742
 const void * ci_list_search2(struct ci_list *list, const void *data, signed int (*cmp_func)(const void *, const void *, unsigned long int));
-// ci_list_search2::cmp_func$object
+// ci_list_search2::cmp_func_object
 //
-signed int cmp_func$object(const void *, const void *, unsigned long int);
-// ci_list_search::1::cmp_func$object
+signed int cmp_func_object(const void *, const void *, unsigned long int);
+// ci_list_search::1::cmp_func_object
 //
-signed int cmp_func$object(const void *, const void *, unsigned long int);
+signed int cmp_func_object(const void *, const void *, unsigned long int);
 // ci_list_sort
 // file array.c line 752
 void ci_list_sort(struct ci_list *list);
 // ci_list_sort2
 // file array.c line 766
 void ci_list_sort2(struct ci_list *list, signed int (*cmp_func)(const void *, const void *, unsigned long int));
-// ci_list_sort2::cmp_func$object
+// ci_list_sort2::cmp_func_object
 //
-signed int cmp_func$object(const void *, const void *, unsigned long int);
-// ci_list_sort::1::cmp_func$object
+signed int cmp_func_object(const void *, const void *, unsigned long int);
+// ci_list_sort::1::cmp_func_object
 //
-signed int cmp_func$object(const void *, const void *, unsigned long int);
+signed int cmp_func_object(const void *, const void *, unsigned long int);
 // ci_local_cache_destroy
 // file cache.c line 217
 void ci_local_cache_destroy(struct ci_cache *cache);
@@ -1512,15 +1512,15 @@ signed int ci_local_cache_init(struct ci_cache *cache, const char *name);
 // ci_local_cache_search
 // file cache.c line 238
 const void * ci_local_cache_search(struct ci_cache *cache, const void *key, void **val, void *data, void * (*dup_from_cache)(const void *, unsigned long int, void *));
-// ci_local_cache_search::dup_from_cache$object
+// ci_local_cache_search::dup_from_cache_object
 //
-void * dup_from_cache$object(const void *, unsigned long int, void *);
+void * dup_from_cache_object(const void *, unsigned long int, void *);
 // ci_local_cache_update
 // file cache.c line 277
 signed int ci_local_cache_update(struct ci_cache *cache, const void *key, const void *val, unsigned long int val_size, void * (*copy_to_cache)(void *, const void *, unsigned long int));
-// ci_local_cache_update::copy_to_cache$object
+// ci_local_cache_update::copy_to_cache_object
 //
-void * copy_to_cache$object(void *, const void *, unsigned long int);
+void * copy_to_cache_object(void *, const void *, unsigned long int);
 // ci_lookup_table_create
 // file include/lookup_table.h line 86
 struct ci_lookup_table * ci_lookup_table_create(const char *table);
@@ -1791,15 +1791,15 @@ const void * ci_registry_id_get_item(signed int reg_id, const char *label);
 // ci_registry_id_iterate
 // file registry.c line 135
 signed int ci_registry_id_iterate(signed int reg_id, void *data, signed int (*fn)(void *, const char *, const void *));
-// ci_registry_id_iterate::fn$object
+// ci_registry_id_iterate::fn_object
 //
-signed int fn$object(void *, const char *, const void *);
+signed int fn_object(void *, const char *, const void *);
 // ci_registry_iterate
 // file registry.c line 65
 signed int ci_registry_iterate(const char *name, void *data, signed int (*fn)(void *, const char *, const void *));
-// ci_registry_iterate::fn$object
+// ci_registry_iterate::fn_object
 //
-signed int fn$object(void *, const char *, const void *);
+signed int fn_object(void *, const char *, const void *);
 // ci_request_206_origin_body
 // file request_common.c line 436
 signed int ci_request_206_origin_body(struct ci_request *req, unsigned long int offset);
@@ -1956,9 +1956,9 @@ const char * ci_sockaddr_t_to_ip(struct ci_sockaddr *addr, char *ip, signed int 
 // ci_stat_area_construct
 // file stats.c line 198
 struct stat_area * ci_stat_area_construct(void *mem_block, signed int size, void (*release_mem)(void *));
-// ci_stat_area_construct::release_mem$object
+// ci_stat_area_construct::release_mem_object
 //
-void release_mem$object(void *);
+void release_mem_object(void *);
 // ci_stat_area_destroy
 // file stats.c line 236
 void ci_stat_area_destroy(struct stat_area *area);
@@ -1977,9 +1977,9 @@ void ci_stat_area_uint64_inc(struct stat_area *area, signed int ID, signed int c
 // ci_stat_attach_mem
 // file include/stats.h line 81
 void ci_stat_attach_mem(void *mem_block, signed int size, void (*release_mem)(void *));
-// ci_stat_attach_mem::release_mem$object
+// ci_stat_attach_mem::release_mem_object
 //
-void release_mem$object(void *);
+void release_mem_object(void *);
 // ci_stat_entry_register
 // file include/stats.h line 78
 signed int ci_stat_entry_register(char *label, signed int type, char *group);
@@ -2013,9 +2013,9 @@ char * ci_str_trim2(char *s);
 // ci_str_vector_iterate
 // file array.c line 461
 void ci_str_vector_iterate(const struct ci_vector *vector, void *data, signed int (*fn)(void *, const char *));
-// ci_str_vector_iterate::fn$object
+// ci_str_vector_iterate::fn_object
 //
-signed int fn$object(void *, const char *);
+signed int fn_object(void *, const char *);
 // ci_str_vector_search
 // file include/array.h line 549
 const char * ci_str_vector_search(struct ci_vector *vector, const char *item);
@@ -2039,31 +2039,31 @@ void ci_strtime(char *buf);
 void ci_strtime_rfc822(char *buf);
 // ci_thread_cond_destroy
 // file include/ci_threads.h line 62
-signed int ci_thread_cond_destroy(union anonymous$9 *pcond);
+signed int ci_thread_cond_destroy(union anonymous_9 *pcond);
 // ci_thread_cond_init
 // file include/ci_threads.h line 61
-signed int ci_thread_cond_init(union anonymous$9 *pcond);
+signed int ci_thread_cond_init(union anonymous_9 *pcond);
 // ci_thread_create
 // file include/ci_threads.h line 67
 signed int ci_thread_create(unsigned long int *pthread_id, void * (*pfunc)(void *), void *parg);
-// ci_thread_create::pfunc$object
+// ci_thread_create::pfunc_object
 //
-void * pfunc$object(void *);
+void * pfunc_object(void *);
 // ci_thread_join
 // file include/ci_threads.h line 68
 signed int ci_thread_join(unsigned long int thread_id);
 // ci_thread_mutex_destroy
 // file include/ci_threads.h line 40
-signed int ci_thread_mutex_destroy(union anonymous$3 *pmutex);
+signed int ci_thread_mutex_destroy(union anonymous_3 *pmutex);
 // ci_thread_mutex_init
 // file include/ci_threads.h line 39
-signed int ci_thread_mutex_init(union anonymous$3 *pmutex);
+signed int ci_thread_mutex_init(union anonymous_3 *pmutex);
 // ci_thread_rwlock_destroy
 // file include/ci_threads.h line 48
-signed int ci_thread_rwlock_destroy(union anonymous$1 *rwlock);
+signed int ci_thread_rwlock_destroy(union anonymous_1 *rwlock);
 // ci_thread_rwlock_init
 // file include/ci_threads.h line 47
-signed int ci_thread_rwlock_init(union anonymous$1 *rwlock);
+signed int ci_thread_rwlock_init(union anonymous_1 *rwlock);
 // ci_txt_template_build_content
 // file txtTemplate.c line 396
 struct ci_membuf * ci_txt_template_build_content(const struct ci_request *req, const char *SERVICE_NAME, const char *TEMPLATE_NAME, struct ci_fmt_entry *user_table);
@@ -2106,9 +2106,9 @@ void ci_vector_destroy(struct ci_vector *vector);
 // ci_vector_iterate
 // file array.c line 452
 void ci_vector_iterate(const struct ci_vector *vector, void *data, signed int (*fn)(void *, const void *));
-// ci_vector_iterate::fn$object
+// ci_vector_iterate::fn_object
 //
-signed int fn$object(void *, const void *);
+signed int fn_object(void *, const void *);
 // ci_vector_pop
 // file array.c line 427
 void * ci_vector_pop(struct ci_vector *vector);
@@ -2142,24 +2142,24 @@ static signed int client_parse_icap_header(struct ci_request *req, struct ci_hea
 // client_parse_incoming_data
 // file request_common.c line 1082
 static signed int client_parse_incoming_data(struct ci_request *req, void *data_dest, signed int (*dest_write)(void *, char *, signed int));
-// client_parse_incoming_data::dest_write$object
+// client_parse_incoming_data::dest_write_object
 //
-signed int dest_write$object(void *, char *, signed int);
+signed int dest_write_object(void *, char *, signed int);
 // client_prepere_body_chunk
 // file request_common.c line 1052
 static signed int client_prepere_body_chunk(struct ci_request *req, void *data, signed int (*readdata)(void *, char *, signed int));
-// client_prepere_body_chunk::readdata$object
+// client_prepere_body_chunk::readdata_object
 //
-signed int readdata$object(void *, char *, signed int);
+signed int readdata_object(void *, char *, signed int);
 // client_send_get_data
 // file request_common.c line 1200
 static signed int client_send_get_data(struct ci_request *req, signed int timeout, void *data_source, signed int (*source_read)(void *, char *, signed int), void *data_dest, signed int (*dest_write)(void *, char *, signed int));
-// client_send_get_data::dest_write$object
+// client_send_get_data::dest_write_object
 //
-signed int dest_write$object(void *, char *, signed int);
-// client_send_get_data::source_read$object
+signed int dest_write_object(void *, char *, signed int);
+// client_send_get_data::source_read_object
 //
-signed int source_read$object(void *, char *, signed int);
+signed int source_read_object(void *, char *, signed int);
 // client_send_request_headers
 // file request_common.c line 816
 static signed int client_send_request_headers(struct ci_request *req, signed int has_eof, signed int timeout);
@@ -2658,9 +2658,9 @@ static signed int get_request_options(struct ci_request *req, struct ci_headers_
 // get_send_body
 // file request.c line 907
 static signed int get_send_body(struct ci_request *req, signed int parse_only);
-// get_send_body::1::service_io$object
+// get_send_body::1::service_io_object
 //
-signed int service_io$object(char *, signed int *, char *, signed int *, signed int, struct ci_request *);
+signed int service_io_object(char *, signed int *, char *, signed int *, signed int, struct ci_request *);
 // get_service
 // file acl.c line 48
 void * get_service(struct ci_request *req, char *param);
@@ -3117,9 +3117,9 @@ extern struct real_pcre * pcre_compile(const char *, signed int, const char **, 
 // pcre_exec
 // file /usr/include/pcre.h line 573
 extern signed int pcre_exec(const struct real_pcre *, const struct pcre_extra *, const char *, signed int, signed int, signed int, signed int *, signed int);
-// pcre_free$object
+// pcre_free_object
 //
-void pcre_free$object(void *);
+void pcre_free_object(void *);
 // perror
 // file /usr/include/stdio.h line 846
 extern void perror(const char *);
@@ -3203,19 +3203,19 @@ signed int process_request(struct ci_request *req);
 extern signed int pthread_atfork(void (*)(void), void (*)(void), void (*)(void));
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 981
-extern signed int pthread_cond_broadcast(union anonymous$9 *);
+extern signed int pthread_cond_broadcast(union anonymous_9 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 973
-extern signed int pthread_cond_destroy(union anonymous$9 *);
+extern signed int pthread_cond_destroy(union anonymous_9 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 968
-extern signed int pthread_cond_init(union anonymous$9 *, const union anonymous$21 *);
+extern signed int pthread_cond_init(union anonymous_9 *, const union anonymous_21 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 977
-extern signed int pthread_cond_signal(union anonymous$9 *);
+extern signed int pthread_cond_signal(union anonymous_9 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 989
-extern signed int pthread_cond_wait(union anonymous$9 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_9 *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 233
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -3227,31 +3227,31 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 754
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 749
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$21 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_21 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_rwlock_destroy
 // file /usr/include/pthread.h line 893
-extern signed int pthread_rwlock_destroy(union anonymous$1 *);
+extern signed int pthread_rwlock_destroy(union anonymous_1 *);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 888
-extern signed int pthread_rwlock_init(union anonymous$1 *, const union anonymous$22 *);
+extern signed int pthread_rwlock_init(union anonymous_1 *, const union anonymous_22 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 897
-extern signed int pthread_rwlock_rdlock(union anonymous$1 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_1 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 927
-extern signed int pthread_rwlock_unlock(union anonymous$1 *);
+extern signed int pthread_rwlock_unlock(union anonymous_1 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 912
-extern signed int pthread_rwlock_wrlock(union anonymous$1 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_1 *);
 // pthread_self
 // file /usr/include/pthread.h line 275
 extern unsigned long int pthread_self(void);
@@ -3263,7 +3263,7 @@ extern signed int pthread_setcancelstate(signed int, signed int *);
 extern signed int pthread_setcanceltype(signed int, signed int *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$18 *, struct anonymous$18 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_18 *, struct anonymous_18 *);
 // put_to_queue
 // file proc_threads_queues.c line 68
 signed int put_to_queue(struct connections_queue *q, struct ci_connection *con);
@@ -3324,15 +3324,15 @@ struct child_shared_data * register_child(struct childs_queue *q, signed int pid
 // register_command
 // file include/commands.h line 54
 void register_command(const char *name, signed int type, void (*command_action)(const char *, signed int, const char **));
-// register_command::command_action$object
+// register_command::command_action_object
 //
-void command_action$object(const char *, signed int, const char **);
+void command_action_object(const char *, signed int, const char **);
 // register_command_extend
 // file commands.c line 70
 void register_command_extend(const char *name, signed int type, void *data, void (*command_action)(const char *, signed int, void *));
-// register_command_extend::command_action$object
+// register_command_extend::command_action_object
 //
-void command_action$object(const char *, signed int, void *);
+void command_action_object(const char *, signed int, void *);
 // register_conf_table
 // file cfg_param.c line 231
 signed int register_conf_table(const char *name, struct ci_conf_entry *table, signed int type);
@@ -3404,19 +3404,19 @@ struct ci_options_entry * search_options_table(const char *directive, struct ci_
 struct ci_conf_entry * search_variables(char *table, char *varname);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$19 *, struct anonymous$19 *, struct anonymous$19 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_19 *, struct anonymous_19 *, struct anonymous_19 *, struct timeval *);
 // sem_open
 // file /usr/include/semaphore.h line 42
-extern union anonymous$10 * sem_open(const char *, signed int, ...);
+extern union anonymous_10 * sem_open(const char *, signed int, ...);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$10 *);
+extern signed int sem_post(union anonymous_10 *);
 // sem_unlink
 // file /usr/include/semaphore.h line 48
 extern signed int sem_unlink(const char *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$10 *);
+extern signed int sem_wait(union anonymous_10 *);
 // semctl
 // file /usr/include/x86_64-linux-gnu/sys/sem.h line 52
 extern signed int semctl(signed int, signed int, signed int, ...);
@@ -3432,9 +3432,9 @@ static signed int send_current_block_data(struct ci_request *req);
 // send_remaining_response
 // file request.c line 1070
 static signed int send_remaining_response(struct ci_request *req);
-// send_remaining_response::1::service_io$object
+// send_remaining_response::1::service_io_object
 //
-signed int service_io$object(char *, signed int *, char *, signed int *, signed int, struct ci_request *);
+signed int service_io_object(char *, signed int *, char *, signed int *, signed int, struct ci_request *);
 // send_term_to_childs
 // file mpmt_server.c line 283
 static void send_term_to_childs(struct childs_queue *q);
@@ -3506,13 +3506,13 @@ extern signed int shmget(signed int, unsigned long int, signed int);
 extern signed int shutdown(signed int, signed int);
 // sigaddset
 // file /usr/include/signal.h line 219
-extern signed int sigaddset(struct anonymous$18 *, signed int);
+extern signed int sigaddset(struct anonymous_18 *, signed int);
 // sigchld_handler_main
 // file mpmt_server.c line 130
 static void sigchld_handler_main(signed int sig);
 // sigemptyset
 // file /usr/include/signal.h line 213
-extern signed int sigemptyset(struct anonymous$18 *);
+extern signed int sigemptyset(struct anonymous_18 *);
 // sighup_handler_main
 // file mpmt_server.c line 135
 static void sighup_handler_main();
@@ -3707,25 +3707,25 @@ signed int sysv_shared_mem_detach(struct ci_shared_mem_id *id);
 signed int sysv_shared_mem_print_info(struct ci_shared_mem_id *id, char *buf, unsigned long int buf_size);
 // templateExpired
 // file txtTemplate.c line 109
-static signed int templateExpired(struct anonymous$7 *template);
+static signed int templateExpired(struct anonymous_7 *template);
 // templateFind
 // file txtTemplate.c line 208
-static struct anonymous$7 * templateFind(const char *SERVICE_NAME, const char *TEMPLATE_NAME, const char *LANGUAGE);
+static struct anonymous_7 * templateFind(const char *SERVICE_NAME, const char *TEMPLATE_NAME, const char *LANGUAGE);
 // templateFindFree
 // file txtTemplate.c line 228
-static struct anonymous$7 * templateFindFree(void);
+static struct anonymous_7 * templateFindFree(void);
 // templateFree
 // file txtTemplate.c line 136
-static void templateFree(struct anonymous$7 *template);
+static void templateFree(struct anonymous_7 *template);
 // templateLoadText
 // file txtTemplate.c line 347
-static struct anonymous$7 * templateLoadText(const struct ci_request *req, const char *service_name, const char *page_name);
+static struct anonymous_7 * templateLoadText(const struct ci_request *req, const char *service_name, const char *page_name);
 // templateTryLoadText
 // file txtTemplate.c line 251
-static struct anonymous$7 * templateTryLoadText(const struct ci_request *req, const char *service_name, const char *page_name, const char *lang);
+static struct anonymous_7 * templateTryLoadText(const struct ci_request *req, const char *service_name, const char *page_name, const char *lang);
 // template_release
 // file txtTemplate.c line 152
-static void template_release(struct anonymous$7 *template);
+static void template_release(struct anonymous_7 *template);
 // term_handler_child
 // file mpmt_server.c line 99
 static void term_handler_child(signed int sig);
@@ -3811,7 +3811,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file decode.c line 208
 static signed int zlib_inflate(const char *buf, signed int len, char *unzipped_buf, signed int *unzipped_buf_len);
 
-struct anonymous$7
+struct anonymous_7
 {
   // TEMPLATE_NAME
   char *TEMPLATE_NAME;
@@ -3835,25 +3835,25 @@ struct anonymous$7
   signed int non_cached;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // sem
-  union anonymous$10 *sem;
+  union anonymous_10 *sem;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // __lock
   signed int __lock;
@@ -3873,7 +3873,7 @@ struct anonymous$8
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -3901,27 +3901,27 @@ struct anonymous$2
   unsigned int __flags;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // fd
   signed int fd;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // id
   signed int id;
 };
 
-union anonymous$23
+union anonymous_23
 {
   // mutex
-  union anonymous$3 *mutex;
+  union anonymous_3 *mutex;
   // rwlock
-  union anonymous$1 *rwlock;
+  union anonymous_1 *rwlock;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // command_action
   void (*command_action)(const char *, signed int, const char **);
@@ -3929,7 +3929,7 @@ union anonymous$16
   void (*command_action_extend)(const char *, signed int, void *);
 };
 
-union anonymous$17
+union anonymous_17
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -3939,7 +3939,7 @@ union anonymous$17
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __size
   char __size[32l];
@@ -3947,7 +3947,7 @@ union anonymous$10
   signed long int __align;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // __size
   char __size[4l];
@@ -3955,7 +3955,7 @@ union anonymous$21
   signed int __align;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // __size
   char __size[8l];
@@ -3963,7 +3963,7 @@ union anonymous$22
   signed long int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __align
   double __align;
@@ -3971,34 +3971,34 @@ union anonymous$4
   char ptr[1l];
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __data
-  struct anonymous$8 __data;
+  struct anonymous_8 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[56l];
   // __align
   signed long int __align;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // sysv
-  struct anonymous$11 sysv;
+  struct anonymous_11 sysv;
   // posix
-  struct anonymous$12 posix;
+  struct anonymous_12 posix;
   // file
-  struct anonymous$13 file;
+  struct anonymous_13 file;
 };
 
 struct __pthread_internal_list
@@ -4029,7 +4029,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -4045,16 +4045,16 @@ struct ci_proc_mutex
   char name[64l];
   // scheme
   const struct ci_proc_mutex_scheme *scheme;
-  // $anon0
-  union anonymous$14 $anon0;
+  // _anon0
+  union anonymous_14 _anon0;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // proc_mutex
   struct ci_proc_mutex proc_mutex;
   // thread_mutex
-  union anonymous$3 thread_mutex;
+  union anonymous_3 thread_mutex;
 };
 
 struct posix
@@ -4069,7 +4069,7 @@ struct sysv
   signed int id;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // posix
   struct posix posix;
@@ -4079,7 +4079,7 @@ union anonymous$15
   signed int id_;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -4361,8 +4361,8 @@ struct ci_shared_mem_id
   unsigned long int size;
   // scheme
   const struct ci_shared_mem_scheme *scheme;
-  // $anon0
-  union anonymous$15 $anon0;
+  // _anon0
+  union anonymous_15 _anon0;
 };
 
 struct childs_queue
@@ -4581,8 +4581,8 @@ struct ci_command
   signed int type;
   // data
   void *data;
-  // $anon0
-  union anonymous$16 $anon0;
+  // _anon0
+  union anonymous_16 _anon0;
 };
 
 struct ci_conf_entry
@@ -4794,7 +4794,7 @@ struct common_mutex
   // isproc
   signed int isproc;
   // mtx
-  union anonymous$5 mtx;
+  union anonymous_5 mtx;
 };
 
 struct ci_local_cache_data
@@ -5188,7 +5188,7 @@ struct ci_service_module
 struct ci_service_xdata
 {
   // lock
-  union anonymous$1 lock;
+  union anonymous_1 lock;
   // status
   signed int status;
   // intl_srv_conf_table
@@ -5346,11 +5346,11 @@ struct connections_queue
   // size
   signed int size;
   // queue_mtx
-  union anonymous$3 queue_mtx;
+  union anonymous_3 queue_mtx;
   // cond_mtx
-  union anonymous$3 cond_mtx;
+  union anonymous_3 cond_mtx;
   // queue_cond
-  union anonymous$9 queue_cond;
+  union anonymous_9 queue_cond;
 };
 
 struct dlib_entry
@@ -5450,7 +5450,7 @@ struct http_basic_auth_data
 struct in6_addr
 {
   // __in6_u
-  union anonymous$17 __in6_u;
+  union anonymous_17 __in6_u;
 };
 
 struct info_req_data
@@ -5540,7 +5540,7 @@ struct logfile
   // access_list
   struct ci_access_entry *access_list;
   // rwlock
-  union anonymous$1 rwlock;
+  union anonymous_1 rwlock;
   // next
   struct logfile *next;
 };
@@ -5588,7 +5588,7 @@ struct mem_buffer_block
   // ID
   signed int ID;
   // data
-  union anonymous$4 data;
+  union anonymous_4 data;
 };
 
 struct module_tmp_struct
@@ -5612,7 +5612,7 @@ struct modules_list
 struct mutex_itm
 {
   // mtx
-  union anonymous$23 mtx;
+  union anonymous_23 mtx;
   // type
   signed int type;
   // next
@@ -5682,7 +5682,7 @@ struct pool_allocator
   // hits_count
   signed int hits_count;
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
   // free
   struct mem_block_item *free;
   // allocated
@@ -5924,7 +5924,7 @@ struct stat
 struct stat_area
 {
   // mtx
-  union anonymous$3 mtx;
+  union anonymous_3 mtx;
   // release_mem
   void (*release_mem)(void *);
   // mem_block
@@ -6159,7 +6159,7 @@ char *CI_TMPDIR = "/var/tmp/";
 static struct ci_list *COMMANDS_LIST = (struct ci_list *)(void *)0;
 // COMMANDS_MTX
 // file commands.c line 40
-union anonymous$3 COMMANDS_MTX;
+union anonymous_3 COMMANDS_MTX;
 // COMMANDS_QUEUE
 // file commands.c line 39
 static struct ci_list *COMMANDS_QUEUE = (struct ci_list *)(void *)0;
@@ -6835,7 +6835,7 @@ static struct ci_conf_entry conf_variables[55l] = { { .name="ListenAddress", .da
     .msg=(const char *)(void *)0 } };
 // counters_mtx
 // file mpmt_server.c line 71
-union anonymous$3 counters_mtx;
+union anonymous_3 counters_mtx;
 // days
 // file os/unix/utilfunc.c line 26
 static const char *days[7l] = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
@@ -6902,9 +6902,9 @@ struct dlib_entry *dlib_list = (struct dlib_entry *)(void *)0;
 // eof_str
 // file request.c line 738
 const char *eof_str = "0\r\n\r\n";
-// eof_str$link1
+// eof_str_link1
 // file request_common.c line 1198
-static const char *eof_str$link1 = "0\r\n\r\n";
+static const char *eof_str_link1 = "0\r\n\r\n";
 // eol_str
 // file request.c line 737
 const char *eol_str = "\r\n";
@@ -6929,7 +6929,7 @@ struct ci_lookup_table_type file_table_type = { .open=file_table_open, .close=fi
     .type="file" };
 // free_server_cond
 // file mpmt_server.c line 70
-union anonymous$9 free_server_cond;
+union anonymous_9 free_server_cond;
 // hash_table_type
 // file lookup_file_table.c line 329
 struct ci_lookup_table_type hash_table_type;
@@ -7016,7 +7016,7 @@ static const char *months[12l] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Ju
 static struct mutex_itm *mutexes = (struct mutex_itm *)(void *)0;
 // mutexes_lock
 // file os/unix/threads.c line 40
-union anonymous$3 mutexes_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 mutexes_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // object_pools
@@ -7151,7 +7151,7 @@ struct ci_mem_allocator *short_buffers[16l];
 static struct ci_acl_spec *specs_list;
 // systemlog_rwlock
 // file log.c line 199
-static union anonymous$1 systemlog_rwlock;
+static union anonymous_1 systemlog_rwlock;
 // sysv_mutex_scheme
 // file os/unix/proc_mutex.c line 104
 static struct ci_proc_mutex_scheme sysv_mutex_scheme;
@@ -7174,10 +7174,10 @@ const struct ci_shared_mem_scheme sysv_scheme = { .shared_mem_create=sysv_shared
     .name="sysv" };
 // templates
 // file txtTemplate.c line 60
-struct anonymous$7 *templates = (struct anonymous$7 *)(void *)0;
+struct anonymous_7 *templates = (struct anonymous_7 *)(void *)0;
 // templates_mutex
 // file txtTemplate.c line 66
-static union anonymous$3 templates_mutex;
+static union anonymous_3 templates_mutex;
 // text_chars
 // file filetype.c line 390
 static const char text_chars[256l] = { (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)1, (const char)1, (const char)1, (const char)1, (const char)0, (const char)1, (const char)1, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)1, (const char)0, (const char)0, (const char)0, (const char)0, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)1, (const char)0, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)1, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)4, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2, (const char)2 };
@@ -7186,7 +7186,7 @@ static const char text_chars[256l] = { (const char)0, (const char)0, (const char
 struct server_decl **threads_list = (struct server_decl **)(void *)0;
 // threads_list_mtx
 // file mpmt_server.c line 65
-union anonymous$3 threads_list_mtx;
+union anonymous_3 threads_list_mtx;
 // txtTemplateInited
 // file txtTemplate.c line 61
 signed int txtTemplateInited = 0;
@@ -7436,9 +7436,9 @@ static void _os_free(void *ptr)
 // file request_common.c line 30
 static void * _os_malloc(signed int size)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)size);
-  return return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)size);
+  return return_value_malloc_1;
 }
 
 // access_check_client
@@ -7486,7 +7486,7 @@ signed int access_check_request(struct ci_request *req)
 
     }
 
-    res=check_request$link1(req);
+    res=check_request_link1(req);
     if(CI_DEBUG_LEVEL >= 9)
     {
       if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
@@ -7528,24 +7528,24 @@ signed int acl_cmp_uint64_equal(const void *key1, const void *key2)
   {
     if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
     {
-      signed int tmp_if_expr$1;
+      signed int tmp_if_expr_1;
       if(data->operator == 1)
-        tmp_if_expr$1 = 62;
+        tmp_if_expr_1 = 62;
 
       else
-        tmp_if_expr$1 = data->operator == 2 ? 60 : 61;
-      __log_error((void *)0, "Acl content length check %llu %c %llu\n", (signed long long int)data->data, tmp_if_expr$1, (signed long long int)k1);
+        tmp_if_expr_1 = data->operator == 2 ? 60 : 61;
+      __log_error((void *)0, "Acl content length check %llu %c %llu\n", (signed long long int)data->data, tmp_if_expr_1, (signed long long int)k1);
     }
 
     if(!(CI_DEBUG_STDOUT == 0))
     {
-      signed int tmp_if_expr$2;
+      signed int tmp_if_expr_2;
       if(data->operator == 1)
-        tmp_if_expr$2 = 62;
+        tmp_if_expr_2 = 62;
 
       else
-        tmp_if_expr$2 = data->operator == 2 ? 60 : 61;
-      printf("Acl content length check %llu %c %llu\n", (signed long long int)data->data, tmp_if_expr$2, (signed long long int)k1);
+        tmp_if_expr_2 = data->operator == 2 ? 60 : 61;
+      printf("Acl content length check %llu %c %llu\n", (signed long long int)data->data, tmp_if_expr_2, (signed long long int)k1);
     }
 
   }
@@ -7593,8 +7593,8 @@ static signed int acl_load_defaults()
 // file acl.c line 270
 void * acl_time_dup(const char *str, struct ci_mem_allocator *allocator)
 {
-  /* tag-#anon#lST[l*{cS8}$cS8$'day'|S32'id'|U32'$pad0'] */
-struct anonymous$6
+  /* tag-#anon#lST[l*{cS8}_cS8_'day'|S32'id'|U32'_pad0'] */
+struct anonymous_6
 {
   // day
   const char *day;
@@ -7604,7 +7604,7 @@ struct anonymous$6
 
 /* */
   ;
-  struct anonymous$6 acl_time_dup$$1$$days[15l] = { { .day="Sunday", .id=0 }, { .day="Monday", .id=1 }, { .day="Tuesday", .id=2 }, { .day="Wednesday", .id=3 }, { .day="Thursday", .id=4 }, { .day="Friday", .id=5 }, { .day="Saturday", .id=6 }, { .day="S", .id=0 }, { .day="M", .id=1 }, { .day="T", .id=2 }, { .day="W", .id=3 }, { .day="H", .id=4 }, { .day="F", .id=5 }, { .day="A", .id=6 }, { .day=(const char *)(void *)0, .id=-1 } };
+  struct anonymous_6 acl_time_dup__1__days[15l] = { { .day="Sunday", .id=0 }, { .day="Monday", .id=1 }, { .day="Tuesday", .id=2 }, { .day="Wednesday", .id=3 }, { .day="Thursday", .id=4 }, { .day="Friday", .id=5 }, { .day="Saturday", .id=6 }, { .day="S", .id=0 }, { .day="M", .id=1 }, { .day="T", .id=2 }, { .day="W", .id=3 }, { .day="H", .id=4 }, { .day="F", .id=5 }, { .day="A", .id=6 }, { .day=(const char *)(void *)0, .id=-1 } };
   signed int h1;
   signed int m1;
   signed int h2;
@@ -7622,33 +7622,33 @@ struct anonymous$6
   strncpy(buf, str, sizeof(char [1024l]) /*1024ul*/ );
   buf[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1)] = (char)0;
   s = buf;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  return_value___ctype_b_loc$4=__ctype_b_loc();
-  if((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*s]) == 0)
+  const unsigned short int **return_value___ctype_b_loc_4;
+  return_value___ctype_b_loc_4=__ctype_b_loc();
+  if((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*s]) == 0)
   {
     if((signed int)*s == 44)
       s = s + 1l;
 
     i = 0;
-    if(!(acl_time_dup$$1$$days[(signed long int)i].day == ((const char *)NULL)))
+    if(!(acl_time_dup__1__days[(signed long int)i].day == ((const char *)NULL)))
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(acl_time_dup$$1$$days[(signed long int)i].day);
-      signed int return_value_strncasecmp$2;
-      return_value_strncasecmp$2=strncasecmp(s, acl_time_dup$$1$$days[(signed long int)i].day, return_value_strlen$1);
-      if(return_value_strncasecmp$2 == 0)
-        tmd->days = tmd->days | (unsigned int)(1 << acl_time_dup$$1$$days[(signed long int)i].id);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(acl_time_dup__1__days[(signed long int)i].day);
+      signed int return_value_strncasecmp_2;
+      return_value_strncasecmp_2=strncasecmp(s, acl_time_dup__1__days[(signed long int)i].day, return_value_strlen_1);
+      if(return_value_strncasecmp_2 == 0)
+        tmd->days = tmd->days | (unsigned int)(1 << acl_time_dup__1__days[(signed long int)i].id);
 
       else
         i = i + 1;
     }
 
-    if(acl_time_dup$$1$$days[(signed long int)i].day == ((const char *)NULL))
+    if(acl_time_dup__1__days[(signed long int)i].day == ((const char *)NULL))
       error = s;
 
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(acl_time_dup$$1$$days[(signed long int)i].day);
-    s = s + (signed long int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(acl_time_dup__1__days[(signed long int)i].day);
+    s = s + (signed long int)return_value_strlen_3;
     if(!((signed int)*s == 47))
       error = s;
 
@@ -7657,88 +7657,88 @@ struct anonymous$6
 
   }
 
-  const unsigned short int **return_value___ctype_b_loc$5;
-  return_value___ctype_b_loc$5=__ctype_b_loc();
-  signed long int return_value_strtol$6;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  signed long int return_value_strtol$9;
-  const unsigned short int **return_value___ctype_b_loc$10;
-  signed long int return_value_strtol$12;
-  const unsigned short int **return_value___ctype_b_loc$13;
-  signed long int return_value_strtol$15;
-  if((2048 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*s]) == 0)
+  const unsigned short int **return_value___ctype_b_loc_5;
+  return_value___ctype_b_loc_5=__ctype_b_loc();
+  signed long int return_value_strtol_6;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  signed long int return_value_strtol_9;
+  const unsigned short int **return_value___ctype_b_loc_10;
+  signed long int return_value_strtol_12;
+  const unsigned short int **return_value___ctype_b_loc_13;
+  signed long int return_value_strtol_15;
+  if((2048 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*s]) == 0)
     error = s;
 
   else
   {
-    return_value_strtol$6=strtol(s, &e, 10);
-    h1 = (signed int)return_value_strtol$6;
+    return_value_strtol_6=strtol(s, &e, 10);
+    h1 = (signed int)return_value_strtol_6;
     if(h1 >= 25 || !(h1 >= 0))
       error = s;
 
     else
     {
-      _Bool tmp_if_expr$8;
+      _Bool tmp_if_expr_8;
       if(!((signed int)*e == 58))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$7=__ctype_b_loc();
-        tmp_if_expr$8 = !(((signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)e[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_7=__ctype_b_loc();
+        tmp_if_expr_8 = !(((signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)e[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$8)
+      if(tmp_if_expr_8)
         error = e;
 
       else
       {
         s = e + (signed long int)1;
-        return_value_strtol$9=strtol(s, &e, 10);
-        m1 = (signed int)return_value_strtol$9;
+        return_value_strtol_9=strtol(s, &e, 10);
+        m1 = (signed int)return_value_strtol_9;
         if(m1 >= 60 || !(m1 >= 0))
           error = s;
 
         else
         {
-          _Bool tmp_if_expr$11;
+          _Bool tmp_if_expr_11;
           if(!((signed int)*e == 45))
-            tmp_if_expr$11 = (_Bool)1;
+            tmp_if_expr_11 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$10=__ctype_b_loc();
-            tmp_if_expr$11 = !(((signed int)(*return_value___ctype_b_loc$10)[(signed long int)(signed int)e[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_10=__ctype_b_loc();
+            tmp_if_expr_11 = !(((signed int)(*return_value___ctype_b_loc_10)[(signed long int)(signed int)e[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$11)
+          if(tmp_if_expr_11)
             error = e;
 
           else
           {
             s = e + (signed long int)1;
-            return_value_strtol$12=strtol(s, &e, 10);
-            h2 = (signed int)return_value_strtol$12;
+            return_value_strtol_12=strtol(s, &e, 10);
+            h2 = (signed int)return_value_strtol_12;
             if(h2 >= 25 || !(h2 >= 0))
               error = s;
 
             else
             {
-              _Bool tmp_if_expr$14;
+              _Bool tmp_if_expr_14;
               if(!((signed int)*e == 58))
-                tmp_if_expr$14 = (_Bool)1;
+                tmp_if_expr_14 = (_Bool)1;
 
               else
               {
-                return_value___ctype_b_loc$13=__ctype_b_loc();
-                tmp_if_expr$14 = !(((signed int)(*return_value___ctype_b_loc$13)[(signed long int)(signed int)e[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
+                return_value___ctype_b_loc_13=__ctype_b_loc();
+                tmp_if_expr_14 = !(((signed int)(*return_value___ctype_b_loc_13)[(signed long int)(signed int)e[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$14)
+              if(tmp_if_expr_14)
                 error = e;
 
               else
               {
                 s = e + (signed long int)1;
-                return_value_strtol$15=strtol(s, &e, 10);
-                m2 = (signed int)return_value_strtol$15;
+                return_value_strtol_15=strtol(s, &e, 10);
+                m2 = (signed int)return_value_strtol_15;
                 if(m2 >= 60 || !(m2 >= 0))
                   error = s;
 
@@ -7814,19 +7814,19 @@ signed int acl_time_equal(const void *key1, const void *key2)
   }
 
   signed int matches;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((tmd_acl->days & tmd_request->days) == 0u))
-    tmp_if_expr$1 = tmd_request->start_time >= tmd_acl->start_time ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = tmd_request->start_time >= tmd_acl->start_time ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = tmd_request->start_time <= tmd_acl->end_time ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = tmd_request->start_time <= tmd_acl->end_time ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  matches = (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  matches = (signed int)tmp_if_expr_2;
   if(CI_DEBUG_LEVEL >= 8)
   {
     if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
@@ -7852,9 +7852,9 @@ void acl_time_free(void *tmd, struct ci_mem_allocator *allocator)
 static struct mutex_itm * add_mutex(void *pmutex, signed int type)
 {
   struct mutex_itm *m;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct mutex_itm) /*24ul*/ );
-  m = (struct mutex_itm *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct mutex_itm) /*24ul*/ );
+  m = (struct mutex_itm *)return_value_malloc_1;
   if(m == ((struct mutex_itm *)NULL))
     return (struct mutex_itm *)(void *)0;
 
@@ -7864,12 +7864,12 @@ static struct mutex_itm * add_mutex(void *pmutex, signed int type)
     {
       case 0:
       {
-        m->mtx.mutex = (union anonymous$3 *)pmutex;
+        m->mtx.mutex = (union anonymous_3 *)pmutex;
         break;
       }
       case 1:
       {
-        m->mtx.rwlock = (union anonymous$1 *)pmutex;
+        m->mtx.rwlock = (union anonymous_1 *)pmutex;
         break;
       }
       default:
@@ -7913,24 +7913,24 @@ struct ci_service_module * add_service(struct ci_service_module *service)
   if(service_list == ((struct ci_service_module **)NULL))
   {
     service_list_size = 32;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)service_list_size * sizeof(struct ci_service_module *) /*8ul*/ );
-    service_list = (struct ci_service_module **)return_value_malloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)service_list_size * sizeof(struct ci_service_xdata) /*3768ul*/ );
-    service_extra_data_list = (struct ci_service_xdata *)return_value_malloc$2;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)service_list_size * sizeof(struct ci_service_module *) /*8ul*/ );
+    service_list = (struct ci_service_module **)return_value_malloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)service_list_size * sizeof(struct ci_service_xdata) /*3768ul*/ );
+    service_extra_data_list = (struct ci_service_xdata *)return_value_malloc_2;
   }
 
   else
     if(services_num == service_list_size)
     {
       service_list_size = service_list_size + 32;
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)service_list, (unsigned long int)service_list_size * sizeof(struct ci_service_module *) /*8ul*/ );
-      service_list = (struct ci_service_module **)return_value_realloc$3;
-      void *return_value_realloc$4;
-      return_value_realloc$4=realloc((void *)service_extra_data_list, (unsigned long int)service_list_size * sizeof(struct ci_service_xdata) /*3768ul*/ );
-      service_extra_data_list = (struct ci_service_xdata *)return_value_realloc$4;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)service_list, (unsigned long int)service_list_size * sizeof(struct ci_service_module *) /*8ul*/ );
+      service_list = (struct ci_service_module **)return_value_realloc_3;
+      void *return_value_realloc_4;
+      return_value_realloc_4=realloc((void *)service_extra_data_list, (unsigned long int)service_list_size * sizeof(struct ci_service_xdata) /*3768ul*/ );
+      service_extra_data_list = (struct ci_service_xdata *)return_value_realloc_4;
     }
 
   if(service_list == ((struct ci_service_module **)NULL) || service_extra_data_list == ((struct ci_service_xdata *)NULL))
@@ -7962,9 +7962,9 @@ struct ci_service_module * add_service(struct ci_service_module *service)
 
   else
     xdata->status = 0;
-  signed int tmp_post$5 = services_num;
+  signed int tmp_post_5 = services_num;
   services_num = services_num + 1;
-  service_list[(signed long int)tmp_post$5] = service;
+  service_list[(signed long int)tmp_post_5] = service;
   cfg_table=create_service_conf_table(xdata, service->mod_conf_table);
   xdata->intl_srv_conf_table = cfg_table;
   if(!(cfg_table == ((struct ci_conf_entry *)NULL)))
@@ -7982,9 +7982,9 @@ struct service_alias * add_service_alias(const char *service_alias, const char *
   struct ci_service_xdata *xdata = (struct ci_service_xdata *)(void *)0;
   signed int len = 0;
   signed int alias_indx = 0;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(service_alias, service_name);
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(service_alias, service_name);
+  if(return_value_strcmp_1 == 0)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -8003,9 +8003,9 @@ struct service_alias * add_service_alias(const char *service_alias, const char *
   {
     if(service_aliases == ((struct service_alias *)NULL))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)32 * sizeof(struct service_alias) /*328ul*/ );
-      service_aliases = (struct service_alias *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)32 * sizeof(struct service_alias) /*328ul*/ );
+      service_aliases = (struct service_alias *)return_value_malloc_2;
       service_aliases_size = 32;
     }
 
@@ -8013,9 +8013,9 @@ struct service_alias * add_service_alias(const char *service_alias, const char *
       if(service_aliases_num == service_aliases_size)
       {
         service_aliases_size = service_aliases_size + 32;
-        void *return_value_realloc$3;
-        return_value_realloc$3=realloc((void *)service_aliases, (unsigned long int)service_aliases_size * sizeof(struct service_alias) /*328ul*/ );
-        service_aliases = (struct service_alias *)return_value_realloc$3;
+        void *return_value_realloc_3;
+        return_value_realloc_3=realloc((void *)service_aliases, (unsigned long int)service_aliases_size * sizeof(struct service_alias) /*328ul*/ );
+        service_aliases = (struct service_alias *)return_value_realloc_3;
       }
 
     if(service_aliases == ((struct service_alias *)NULL))
@@ -8052,9 +8052,9 @@ struct service_alias * add_service_alias(const char *service_alias, const char *
     (service_aliases + (signed long int)alias_indx)->args[(signed long int)0] = (char)0;
     if(!(salias == ((struct service_alias *)NULL)))
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(salias->args);
-      len = (signed int)return_value_strlen$4;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(salias->args);
+      len = (signed int)return_value_strlen_4;
       strcpy((service_aliases + (signed long int)alias_indx)->args, salias->args);
     }
 
@@ -8082,26 +8082,26 @@ void * add_to_modules_list(struct modules_list *mod_list, void *module)
   if(mod_list->modules == ((void **)NULL))
   {
     mod_list->list_size = 20;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)mod_list->list_size * sizeof(void *) /*8ul*/ );
-    mod_list->modules = (void **)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)mod_list->list_size * sizeof(void *) /*8ul*/ );
+    mod_list->modules = (void **)return_value_malloc_1;
   }
 
   else
     if(mod_list->modules_num == mod_list->list_size)
     {
       mod_list->list_size = mod_list->list_size + 20;
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)mod_list->modules, (unsigned long int)mod_list->list_size * sizeof(void *) /*8ul*/ );
-      mod_list->modules = (void **)return_value_realloc$2;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)mod_list->modules, (unsigned long int)mod_list->list_size * sizeof(void *) /*8ul*/ );
+      mod_list->modules = (void **)return_value_realloc_2;
     }
 
   if(mod_list->modules == ((void **)NULL))
     exit(-1);
 
-  signed int tmp_post$3 = mod_list->modules_num;
+  signed int tmp_post_3 = mod_list->modules_num;
   mod_list->modules_num = mod_list->modules_num + 1;
-  mod_list->modules[(signed long int)tmp_post$3] = module;
+  mod_list->modules[(signed long int)tmp_post_3] = module;
   return module;
 }
 
@@ -8109,9 +8109,9 @@ void * add_to_modules_list(struct modules_list *mod_list, void *module)
 // file decode.c line 198
 static void * alloc_a_buffer(void *op, unsigned int items, unsigned int size)
 {
-  void *return_value_ci_buffer_alloc$1;
-  return_value_ci_buffer_alloc$1=ci_buffer_alloc((signed int)(items * size));
-  return return_value_ci_buffer_alloc$1;
+  void *return_value_ci_buffer_alloc_1;
+  return_value_ci_buffer_alloc_1=ci_buffer_alloc((signed int)(items * size));
+  return return_value_ci_buffer_alloc_1;
 }
 
 // alloc_mem_allocator_struct
@@ -8121,17 +8121,17 @@ static struct ci_mem_allocator * alloc_mem_allocator_struct()
   struct ci_mem_allocator *alc;
   if(!(MEM_ALLOCATOR_POOL >= 0))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct ci_mem_allocator) /*56ul*/ );
-    alc = (struct ci_mem_allocator *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct ci_mem_allocator) /*56ul*/ );
+    alc = (struct ci_mem_allocator *)return_value_malloc_1;
     alc->must_free = 1;
   }
 
   else
   {
-    void *return_value_ci_object_pool_alloc$2;
-    return_value_ci_object_pool_alloc$2=ci_object_pool_alloc(MEM_ALLOCATOR_POOL);
-    alc = (struct ci_mem_allocator *)return_value_ci_object_pool_alloc$2;
+    void *return_value_ci_object_pool_alloc_2;
+    return_value_ci_object_pool_alloc_2=ci_object_pool_alloc(MEM_ALLOCATOR_POOL);
+    alc = (struct ci_mem_allocator *)return_value_ci_object_pool_alloc_2;
     alc->must_free = 2;
   }
   return alc;
@@ -8221,9 +8221,9 @@ signed int attach_childs_queue(struct childs_queue *q)
 {
   struct child_shared_data *c;
   ci_proc_mutex_lock(&q->queue_mtx);
-  void *return_value_ci_shared_mem_attach$1;
-  return_value_ci_shared_mem_attach$1=ci_shared_mem_attach(&q->shmid);
-  c = (struct child_shared_data *)return_value_ci_shared_mem_attach$1;
+  void *return_value_ci_shared_mem_attach_1;
+  return_value_ci_shared_mem_attach_1=ci_shared_mem_attach(&q->shmid);
+  c = (struct child_shared_data *)return_value_ci_shared_mem_attach_1;
   if(c == ((struct child_shared_data *)NULL))
   {
     log_server((struct ci_request *)(void *)0, "can't attach shared memory!");
@@ -8266,9 +8266,9 @@ struct http_basic_auth_data * basic_create_auth_data(const char *auth_line, cons
   char dec_http_user[513l];
   char *str;
   signed int max_decode_len = 255 + 256 + 2;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct http_basic_auth_data) /*513ul*/ );
-  data = (struct http_basic_auth_data *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct http_basic_auth_data) /*513ul*/ );
+  data = (struct http_basic_auth_data *)return_value_malloc_1;
   ci_base64_decode(auth_line, dec_http_user, max_decode_len);
   if(CI_DEBUG_LEVEL >= 5)
   {
@@ -8302,14 +8302,14 @@ struct http_basic_auth_data * basic_create_auth_data(const char *auth_line, cons
 signed int basic_post_init(struct ci_server_conf *server_conf)
 {
   signed int size;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen("Proxy-Authenticate: Basic realm=");
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(basic_realm);
-  size = (signed int)(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)3);
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)(size + 1) * sizeof(char) /*1ul*/ );
-  basic_authentication = (char *)return_value_malloc$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen("Proxy-Authenticate: Basic realm=");
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(basic_realm);
+  size = (signed int)(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)3);
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)(size + 1) * sizeof(char) /*1ul*/ );
+  basic_authentication = (char *)return_value_malloc_3;
   if(basic_authentication == ((char *)NULL))
     return 0;
 
@@ -8355,13 +8355,13 @@ signed int basic_simple_db_athenticate(struct http_basic_auth_data *data, const 
 
     else
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(pass == ((char **)NULL))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = pass[(signed long int)0] == ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = pass[(signed long int)0] == ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if(!((signed int)data->http_pass[0l] == 0))
           ret = -1;
@@ -8372,9 +8372,9 @@ signed int basic_simple_db_athenticate(struct http_basic_auth_data *data, const 
 
       else
       {
-        signed int return_value_strcmp$1;
-        return_value_strcmp$1=strcmp(data->http_pass, pass[(signed long int)0]);
-        if(!(return_value_strcmp$1 == 0))
+        signed int return_value_strcmp_1;
+        return_value_strcmp_1=strcmp(data->http_pass, pass[(signed long int)0]);
+        if(!(return_value_strcmp_1 == 0))
           ret = -1;
 
       }
@@ -8454,9 +8454,9 @@ signed int build_statistics(struct info_req_data *info_data)
       sz = 1024;
 
     ci_membuf_write(info_data->body, buf, sz, 0);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(tmpl->childsHeader);
-    ci_membuf_write(info_data->body, tmpl->childsHeader, (signed int)return_value_strlen$1, 0);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(tmpl->childsHeader);
+    ci_membuf_write(info_data->body, tmpl->childsHeader, (signed int)return_value_strlen_1, 0);
     k = 0;
     for( ; !(k >= info_data->childs); k = k + 1)
     {
@@ -8466,12 +8466,12 @@ signed int build_statistics(struct info_req_data *info_data)
 
       ci_membuf_write(info_data->body, buf, sz, 0);
     }
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tmpl->childsEnd);
-    ci_membuf_write(info_data->body, tmpl->childsEnd, (signed int)return_value_strlen$2, 0);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(tmpl->closingChildsHeader);
-    ci_membuf_write(info_data->body, tmpl->closingChildsHeader, (signed int)return_value_strlen$3, 0);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tmpl->childsEnd);
+    ci_membuf_write(info_data->body, tmpl->childsEnd, (signed int)return_value_strlen_2, 0);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(tmpl->closingChildsHeader);
+    ci_membuf_write(info_data->body, tmpl->closingChildsHeader, (signed int)return_value_strlen_3, 0);
     k = 0;
     for( ; !((unsigned int)k >= info_data->closing_childs); k = k + 1)
     {
@@ -8481,9 +8481,9 @@ signed int build_statistics(struct info_req_data *info_data)
 
       ci_membuf_write(info_data->body, buf, sz, 0);
     }
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(tmpl->childsEnd);
-    ci_membuf_write(info_data->body, tmpl->childsEnd, (signed int)return_value_strlen$4, 0);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(tmpl->childsEnd);
+    ci_membuf_write(info_data->body, tmpl->childsEnd, (signed int)return_value_strlen_4, 0);
     sz=snprintf(buf, (unsigned long int)1024, tmpl->d1TableHeader_tmpl, (const void *)"Semaphores in use");
     if(sz >= 1025)
       sz = 1024;
@@ -8495,9 +8495,9 @@ signed int build_statistics(struct info_req_data *info_data)
     childs_queue->queue_mtx.scheme->proc_mutex_print_info(&childs_queue->queue_mtx, buf2, (unsigned long int)1024);
     sz=snprintf(buf, (unsigned long int)1024, tmpl->d1TableEntry_tmpl, (const void *)buf2);
     ci_membuf_write(info_data->body, buf, sz, 0);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(tmpl->d1TableEnd_tmpl);
-    ci_membuf_write(info_data->body, tmpl->d1TableEnd_tmpl, (signed int)return_value_strlen$5, 0);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(tmpl->d1TableEnd_tmpl);
+    ci_membuf_write(info_data->body, tmpl->d1TableEnd_tmpl, (signed int)return_value_strlen_5, 0);
     sz=snprintf(buf, (unsigned long int)1024, tmpl->d1TableHeader_tmpl, (const void *)"Shared mem blocks in use");
     if(sz >= 1025)
       sz = 1024;
@@ -8510,9 +8510,9 @@ signed int build_statistics(struct info_req_data *info_data)
       ci_membuf_write(info_data->body, buf, sz, 0);
     }
 
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(tmpl->d1TableEnd_tmpl);
-    ci_membuf_write(info_data->body, tmpl->d1TableEnd_tmpl, (signed int)return_value_strlen$6, 0);
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(tmpl->d1TableEnd_tmpl);
+    ci_membuf_write(info_data->body, tmpl->d1TableEnd_tmpl, (signed int)return_value_strlen_6, 0);
     gid = 0;
     if(!(gid >= STAT_GROUPS.entries_num))
     {
@@ -8552,9 +8552,9 @@ signed int build_statistics(struct info_req_data *info_data)
         k = k + 1;
       }
 
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(tmpl->statsEnd);
-      ci_membuf_write(info_data->body, tmpl->statsEnd, (signed int)return_value_strlen$7, 1);
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(tmpl->statsEnd);
+      ci_membuf_write(info_data->body, tmpl->statsEnd, (signed int)return_value_strlen_7, 1);
       gid = gid + 1;
     }
 
@@ -8727,11 +8727,11 @@ signed int cb_check_command(void *data, const void *obj)
 {
   const struct ci_command **rcommand = (const struct ci_command **)data;
   const struct ci_command *cur_item = (const struct ci_command *)obj;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(*rcommand == ((const struct ci_command *)NULL)))
   {
-    return_value_strcmp$1=strcmp((*rcommand)->name, cur_item->name);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp((*rcommand)->name, cur_item->name);
+    if(return_value_strcmp_1 == 0)
     {
       *rcommand = cur_item;
       return 1;
@@ -8764,13 +8764,13 @@ static signed int cb_check_queue(void *data, const void *item)
 
       }
 
-      void *tmp_if_expr$1;
+      void *tmp_if_expr_1;
       if(!(sch->data == NULL))
-        tmp_if_expr$1 = sch->data;
+        tmp_if_expr_1 = sch->data;
 
       else
-        tmp_if_expr$1 = cmd->data;
-      cmd->$anon0.command_action_extend(cmd->name, cmd->type, tmp_if_expr$1);
+        tmp_if_expr_1 = cmd->data;
+      cmd->_anon0.command_action_extend(cmd->name, cmd->type, tmp_if_expr_1);
     }
 
     pthread_mutex_lock(&COMMANDS_MTX);
@@ -8789,19 +8789,19 @@ signed int cfg_acl_add(const char *directive, const char **argv, void *setdata)
   const char *acl_type;
   signed int argc;
   signed int ok;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(*argv == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(argv[(signed long int)1] != ((const char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = !(argv[(signed long int)1] != ((const char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(argv[(signed long int)2] != ((const char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(argv[(signed long int)2] != ((const char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -8851,18 +8851,18 @@ signed int cfg_default_acl_access(const char *directive, const char **argv, void
   struct ci_access_entry *access_entry;
   const struct ci_acl_spec *acl_spec;
   const struct ci_acl_type *spec_type;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(*argv == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$10;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_10;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -8879,9 +8879,9 @@ signed int cfg_default_acl_access(const char *directive, const char **argv, void
 
   else
   {
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp("client_access", directive);
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp("client_access", directive);
+    if(return_value_strcmp_3 == 0)
     {
       tolist = &acl_connection_access_list;
       only_connection = 1;
@@ -8889,22 +8889,22 @@ signed int cfg_default_acl_access(const char *directive, const char **argv, void
 
     else
     {
-      return_value_strcmp$2=strcmp("icap_access", directive);
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp("icap_access", directive);
+      if(return_value_strcmp_2 == 0)
         tolist = &acl_access_list;
 
       else
         return 0;
     }
-    signed int return_value_strcmp$5;
-    return_value_strcmp$5=strcmp(argv[(signed long int)0], "allow");
-    if(return_value_strcmp$5 == 0)
+    signed int return_value_strcmp_5;
+    return_value_strcmp_5=strcmp(argv[(signed long int)0], "allow");
+    if(return_value_strcmp_5 == 0)
       type = 1;
 
     else
     {
-      return_value_strcmp$4=strcmp(argv[(signed long int)0], "deny");
-      if(return_value_strcmp$4 == 0)
+      return_value_strcmp_4=strcmp(argv[(signed long int)0], "deny");
+      if(return_value_strcmp_4 == 0)
         type = -1;
 
       else
@@ -8960,34 +8960,34 @@ signed int cfg_default_acl_access(const char *directive, const char **argv, void
 
         else
           spec_type = (const struct ci_acl_type *)(void *)0;
-        _Bool tmp_if_expr$7;
+        _Bool tmp_if_expr_7;
         if(!(spec_type == ((const struct ci_acl_type *)NULL)) && !(only_connection == 0))
         {
-          return_value_strcmp$6=strcmp(spec_type->name, "port");
-          tmp_if_expr$7 = return_value_strcmp$6 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_6=strcmp(spec_type->name, "port");
+          tmp_if_expr_7 = return_value_strcmp_6 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        _Bool tmp_if_expr$9;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        _Bool tmp_if_expr_9;
+        if(tmp_if_expr_7)
         {
-          return_value_strcmp$8=strcmp(spec_type->name, "src");
-          tmp_if_expr$9 = return_value_strcmp$8 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_8=strcmp(spec_type->name, "src");
+          tmp_if_expr_9 = return_value_strcmp_8 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        _Bool tmp_if_expr$11;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        _Bool tmp_if_expr_11;
+        if(tmp_if_expr_9)
         {
-          return_value_strcmp$10=strcmp(spec_type->name, "srvip");
-          tmp_if_expr$11 = return_value_strcmp$10 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_10=strcmp(spec_type->name, "srvip");
+          tmp_if_expr_11 = return_value_strcmp_10 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        if(tmp_if_expr$11)
+          tmp_if_expr_11 = (_Bool)0;
+        if(tmp_if_expr_11)
         {
           if(CI_DEBUG_LEVEL >= 1)
           {
@@ -9134,9 +9134,9 @@ struct cfg_default_value * cfg_default_value_store(void *param, void *value, sig
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct cfg_default_value) /*32ul*/ );
-    dval = (struct cfg_default_value *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct cfg_default_value) /*32ul*/ );
+    dval = (struct cfg_default_value *)return_value_malloc_1;
     if(dval == ((struct cfg_default_value *)NULL))
       return ((struct cfg_default_value *)NULL);
 
@@ -9179,21 +9179,21 @@ struct cfg_default_value * cfg_default_value_store(void *param, void *value, sig
 signed int cfg_group_source_by_group(const char *directive, const char **argv, void *setdata)
 {
   const char *group_table = (const char *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     group_table = argv[(signed long int)0];
-    signed int return_value_group_source_add_by_group$2;
-    return_value_group_source_add_by_group$2=group_source_add_by_group(group_table);
-    return return_value_group_source_add_by_group$2;
+    signed int return_value_group_source_add_by_group_2;
+    return_value_group_source_add_by_group_2=group_source_add_by_group(group_table);
+    return return_value_group_source_add_by_group_2;
   }
 }
 
@@ -9202,21 +9202,21 @@ signed int cfg_group_source_by_group(const char *directive, const char **argv, v
 signed int cfg_group_source_by_user(const char *directive, const char **argv, void *setdata)
 {
   const char *group_table = (const char *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     group_table = argv[(signed long int)0];
-    signed int return_value_group_source_add_by_user$2;
-    return_value_group_source_add_by_user$2=group_source_add_by_user(group_table);
-    return return_value_group_source_add_by_user$2;
+    signed int return_value_group_source_add_by_user_2;
+    return_value_group_source_add_by_user_2=group_source_add_by_user(group_table);
+    return return_value_group_source_add_by_user_2;
   }
 }
 
@@ -9226,13 +9226,13 @@ signed int cfg_include_config_file(const char *directive, const char **argv, voi
 {
   char path[4096l];
   const char *cfg_file;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -9255,9 +9255,9 @@ signed int cfg_include_config_file(const char *directive, const char **argv, voi
 
     }
 
-    signed int return_value_parse_file$2;
-    return_value_parse_file$2=parse_file(cfg_file);
-    return return_value_parse_file$2;
+    signed int return_value_parse_file_2;
+    return_value_parse_file_2=parse_file(cfg_file);
+    return return_value_parse_file_2;
   }
 }
 
@@ -9267,21 +9267,21 @@ signed int cfg_load_magicfile(const char *directive, const char **argv, void *se
 {
   const char *db_file;
   struct ci_magics_db *ndb;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     db_file = argv[(signed long int)0];
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(CI_CONF.magics_file, db_file);
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(CI_CONF.magics_file, db_file);
+    if(return_value_strcmp_2 == 0)
     {
       if(CI_DEBUG_LEVEL >= 2)
       {
@@ -9339,19 +9339,19 @@ signed int cfg_load_magicfile(const char *directive, const char **argv, void *se
 // file cfg_param.c line 438
 signed int cfg_load_module(const char *directive, const char **argv, void *setdata)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -9378,9 +9378,9 @@ signed int cfg_load_module(const char *directive, const char **argv, void *setda
 
     }
 
-    void *return_value_register_module$3;
-    return_value_register_module$3=register_module(argv[(signed long int)1], argv[(signed long int)0]);
-    if(return_value_register_module$3 == NULL)
+    void *return_value_register_module_3;
+    return_value_register_module_3=register_module(argv[(signed long int)1], argv[(signed long int)0]);
+    if(return_value_register_module_3 == NULL)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -9405,19 +9405,19 @@ signed int cfg_load_module(const char *directive, const char **argv, void *setda
 signed int cfg_load_service(const char *directive, const char **argv, void *setdata)
 {
   struct ci_service_module *service = (struct ci_service_module *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -9472,20 +9472,20 @@ signed int cfg_load_service(const char *directive, const char **argv, void *setd
 // file cfg_param.c line 667
 signed int cfg_proc_lock_scheme(const char *directive, const char **argv, void *setdata)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
-    signed int return_value_ci_proc_mutex_set_scheme$2;
-    return_value_ci_proc_mutex_set_scheme$2=ci_proc_mutex_set_scheme(argv[(signed long int)0]);
-    return return_value_ci_proc_mutex_set_scheme$2;
+    signed int return_value_ci_proc_mutex_set_scheme_2;
+    return_value_ci_proc_mutex_set_scheme_2=ci_proc_mutex_set_scheme(argv[(signed long int)0]);
+    return return_value_ci_proc_mutex_set_scheme_2;
   }
 }
 
@@ -9494,19 +9494,19 @@ signed int cfg_proc_lock_scheme(const char *directive, const char **argv, void *
 signed int cfg_service_alias(const char *directive, const char **argv, void *setdata)
 {
   char *service_args = (char *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -9550,13 +9550,13 @@ signed int cfg_service_alias(const char *directive, const char **argv, void *set
 signed int cfg_set_accesslog(const char *directive, const char **argv, void *setdata)
 {
   const char **acls = (const char **)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -9590,9 +9590,9 @@ signed int cfg_set_accesslog(const char *directive, const char **argv, void *set
 
     }
 
-    signed int return_value_file_log_addlogfile$2;
-    return_value_file_log_addlogfile$2=file_log_addlogfile(argv[(signed long int)0], argv[(signed long int)1], acls);
-    return return_value_file_log_addlogfile$2;
+    signed int return_value_file_log_addlogfile_2;
+    return_value_file_log_addlogfile_2=file_log_addlogfile(argv[(signed long int)0], argv[(signed long int)1], acls);
+    return return_value_file_log_addlogfile_2;
   }
 }
 
@@ -9605,20 +9605,20 @@ signed int cfg_set_acl_controllers(const char *directive, const char **argv, voi
   signed int argc;
   signed int ret;
   struct access_control_module *acl_mod;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
-    signed int return_value_strncasecmp$2;
-    return_value_strncasecmp$2=strncasecmp(argv[(signed long int)0], "none", (unsigned long int)4);
-    if(return_value_strncasecmp$2 == 0)
+    signed int return_value_strncasecmp_2;
+    return_value_strncasecmp_2=strncasecmp(argv[(signed long int)0], "none", (unsigned long int)4);
+    if(return_value_strncasecmp_2 == 0)
     {
       used_access_controllers = (struct access_control_module **)(void *)0;
       return 1;
@@ -9629,9 +9629,9 @@ signed int cfg_set_acl_controllers(const char *directive, const char **argv, voi
       argc = 0;
       for( ; !(argv[(signed long int)argc] == ((const char *)NULL)); argc = argc + 1)
         ;
-      void *return_value_ci_cfg_alloc_mem$3;
-      return_value_ci_cfg_alloc_mem$3=ci_cfg_alloc_mem((signed int)((unsigned long int)(argc + 1) * sizeof(struct access_control_module *) /*8ul*/ ));
-      used_access_controllers = (struct access_control_module **)return_value_ci_cfg_alloc_mem$3;
+      void *return_value_ci_cfg_alloc_mem_3;
+      return_value_ci_cfg_alloc_mem_3=ci_cfg_alloc_mem((signed int)((unsigned long int)(argc + 1) * sizeof(struct access_control_module *) /*8ul*/ ));
+      used_access_controllers = (struct access_control_module **)return_value_ci_cfg_alloc_mem_3;
       k = 0;
       ret = 1;
       i = 0;
@@ -9640,9 +9640,9 @@ signed int cfg_set_acl_controllers(const char *directive, const char **argv, voi
         acl_mod=find_access_controller(argv[(signed long int)i]);
         if(!(acl_mod == ((struct access_control_module *)NULL)))
         {
-          signed int tmp_post$4 = k;
+          signed int tmp_post_4 = k;
           k = k + 1;
-          used_access_controllers[(signed long int)tmp_post$4] = acl_mod;
+          used_access_controllers[(signed long int)tmp_post_4] = acl_mod;
         }
 
         else
@@ -9671,36 +9671,36 @@ signed int cfg_set_acl_controllers(const char *directive, const char **argv, voi
 signed int cfg_set_auth_method(const char *directive, const char **argv, void *setdata)
 {
   const char *method = (const char *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 0;
 
   else
   {
     method = argv[(signed long int)0];
-    signed int return_value_strncasecmp$4;
-    return_value_strncasecmp$4=strncasecmp(argv[(signed long int)1], "none", (unsigned long int)4);
-    if(return_value_strncasecmp$4 == 0)
+    signed int return_value_strncasecmp_4;
+    return_value_strncasecmp_4=strncasecmp(argv[(signed long int)1], "none", (unsigned long int)4);
+    if(return_value_strncasecmp_4 == 0)
     {
-      signed int return_value_set_method_authenticators$3;
-      return_value_set_method_authenticators$3=set_method_authenticators(method, (const char **)(void *)0);
-      return return_value_set_method_authenticators$3;
+      signed int return_value_set_method_authenticators_3;
+      return_value_set_method_authenticators_3=set_method_authenticators(method, (const char **)(void *)0);
+      return return_value_set_method_authenticators_3;
     }
 
-    signed int return_value_set_method_authenticators$5;
-    return_value_set_method_authenticators$5=set_method_authenticators(method, (const char **)argv + (signed long int)1);
-    return return_value_set_method_authenticators$5;
+    signed int return_value_set_method_authenticators_5;
+    return_value_set_method_authenticators_5=set_method_authenticators(method, (const char **)argv + (signed long int)1);
+    return return_value_set_method_authenticators_5;
   }
 }
 
@@ -9708,20 +9708,20 @@ signed int cfg_set_auth_method(const char *directive, const char **argv, void *s
 // file cfg_param.c line 399
 signed int cfg_set_body_maxmem(const char *directive, const char **argv, void *setdata)
 {
-  signed int return_value_intl_cfg_size_long$1;
-  return_value_intl_cfg_size_long$1=intl_cfg_size_long(directive, argv, (void *)&CI_BODY_MAX_MEM);
-  return return_value_intl_cfg_size_long$1;
+  signed int return_value_intl_cfg_size_long_1;
+  return_value_intl_cfg_size_long_1=intl_cfg_size_long(directive, argv, (void *)&CI_BODY_MAX_MEM);
+  return return_value_intl_cfg_size_long_1;
 }
 
 // cfg_set_debug_level
 // file cfg_param.c line 380
 signed int cfg_set_debug_level(const char *directive, const char **argv, void *setdata)
 {
-  signed int return_value_intl_cfg_set_int$1;
+  signed int return_value_intl_cfg_set_int_1;
   if(DebugLevelSetFromCmd == 0)
   {
-    return_value_intl_cfg_set_int$1=intl_cfg_set_int(directive, argv, (void *)&CI_DEBUG_LEVEL);
-    return return_value_intl_cfg_set_int$1;
+    return_value_intl_cfg_set_int_1=intl_cfg_set_int(directive, argv, (void *)&CI_DEBUG_LEVEL);
+    return return_value_intl_cfg_set_int_1;
   }
 
   return 1;
@@ -9732,37 +9732,37 @@ signed int cfg_set_debug_level(const char *directive, const char **argv, void *s
 signed int cfg_set_debug_level_cmd(const char *directive, const char **argv, void *setdata)
 {
   DebugLevelSetFromCmd = 1;
-  signed int return_value_intl_cfg_set_int$1;
-  return_value_intl_cfg_set_int$1=intl_cfg_set_int(directive, argv, (void *)&CI_DEBUG_LEVEL);
-  return return_value_intl_cfg_set_int$1;
+  signed int return_value_intl_cfg_set_int_1;
+  return_value_intl_cfg_set_int_1=intl_cfg_set_int(directive, argv, (void *)&CI_DEBUG_LEVEL);
+  return return_value_intl_cfg_set_int_1;
 }
 
 // cfg_set_debug_stdout
 // file cfg_param.c line 394
 signed int cfg_set_debug_stdout(const char *directive, const char **argv, void *setdata)
 {
-  signed int return_value_intl_cfg_enable$1;
-  return_value_intl_cfg_enable$1=intl_cfg_enable(directive, argv, (void *)&CI_DEBUG_STDOUT);
-  return return_value_intl_cfg_enable$1;
+  signed int return_value_intl_cfg_enable_1;
+  return_value_intl_cfg_enable_1=intl_cfg_enable(directive, argv, (void *)&CI_DEBUG_STDOUT);
+  return return_value_intl_cfg_enable_1;
 }
 
 // cfg_set_logformat
 // file cfg_param.c line 479
 signed int cfg_set_logformat(const char *directive, const char **argv, void *setdata)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = argv[(signed long int)1] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -9789,9 +9789,9 @@ signed int cfg_set_logformat(const char *directive, const char **argv, void *set
 
     }
 
-    signed int return_value_logformat_add$3;
-    return_value_logformat_add$3=logformat_add(argv[(signed long int)0], argv[(signed long int)1]);
-    return return_value_logformat_add$3;
+    signed int return_value_logformat_add_3;
+    return_value_logformat_add_3=logformat_add(argv[(signed long int)0], argv[(signed long int)1]);
+    return return_value_logformat_add_3;
   }
 }
 
@@ -9800,13 +9800,13 @@ signed int cfg_set_logformat(const char *directive, const char **argv, void *set
 signed int cfg_set_logger(const char *directive, const char **argv, void *setdata)
 {
   struct logger_module *logger;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -9850,24 +9850,24 @@ signed int cfg_set_logger(const char *directive, const char **argv, void *setdat
 signed int cfg_set_tmp_dir(const char *directive, const char **argv, void *setdata)
 {
   signed int len;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     cfg_default_value_store((void *)&CI_CONF.TMPDIR, (void *)&CI_CONF.TMPDIR, (signed int)sizeof(char *) /*8ul*/ );
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(argv[(signed long int)0]);
-    len = (signed int)return_value_strlen$2;
-    void *return_value_ci_cfg_alloc_mem$3;
-    return_value_ci_cfg_alloc_mem$3=ci_cfg_alloc_mem((signed int)((unsigned long int)(len + 2) * sizeof(char) /*1ul*/ ));
-    CI_CONF.TMPDIR = (char *)return_value_ci_cfg_alloc_mem$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(argv[(signed long int)0]);
+    len = (signed int)return_value_strlen_2;
+    void *return_value_ci_cfg_alloc_mem_3;
+    return_value_ci_cfg_alloc_mem_3=ci_cfg_alloc_mem((signed int)((unsigned long int)(len + 2) * sizeof(char) /*1ul*/ ));
+    CI_CONF.TMPDIR = (char *)return_value_ci_cfg_alloc_mem_3;
     strcpy(CI_CONF.TMPDIR, argv[(signed long int)0]);
     if(!((signed int)CI_CONF.TMPDIR[(signed long int)len] == 47))
     {
@@ -9894,20 +9894,20 @@ signed int cfg_set_tmp_dir(const char *directive, const char **argv, void *setda
 // file cfg_param.c line 659
 signed int cfg_shared_mem_scheme(const char *directive, const char **argv, void *setdata)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
-    signed int return_value_ci_shared_mem_set_scheme$2;
-    return_value_ci_shared_mem_set_scheme$2=ci_shared_mem_set_scheme(argv[(signed long int)0]);
-    return return_value_ci_shared_mem_set_scheme$2;
+    signed int return_value_ci_shared_mem_set_scheme_2;
+    return_value_ci_shared_mem_set_scheme_2=ci_shared_mem_set_scheme(argv[(signed long int)0]);
+    return return_value_ci_shared_mem_set_scheme_2;
   }
 }
 
@@ -9916,13 +9916,13 @@ signed int cfg_shared_mem_scheme(const char *directive, const char **argv, void 
 signed int cfg_srv_allow206(const char *directive, const char **argv, void *setdata)
 {
   struct ci_service_xdata *srv_xdata = (struct ci_service_xdata *)setdata;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -9949,9 +9949,9 @@ signed int cfg_srv_allow206(const char *directive, const char **argv, void *setd
 
     }
 
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp(argv[(signed long int)0], "off");
-    if(!(return_value_strcasecmp$2 == 0))
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp(argv[(signed long int)0], "off");
+    if(!(return_value_strcasecmp_2 == 0))
     {
       pthread_rwlock_wrlock(&srv_xdata->lock);
       srv_xdata->disable_206 = 1;
@@ -9969,13 +9969,13 @@ signed int cfg_srv_max_connections(const char *directive, const char **argv, voi
   signed int max_connections;
   char *end;
   struct ci_service_xdata *srv_xdata = (struct ci_service_xdata *)setdata;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -9992,15 +9992,15 @@ signed int cfg_srv_max_connections(const char *directive, const char **argv, voi
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 0;
-    signed long long int return_value_strtoll$3;
-    return_value_strtoll$3=strtoll(argv[(signed long int)0], &end, 10);
-    max_connections = (signed int)return_value_strtoll$3;
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(!(*return_value___errno_location$4 == 0) || !(max_connections >= 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 0;
+    signed long long int return_value_strtoll_3;
+    return_value_strtoll_3=strtoll(argv[(signed long int)0], &end, 10);
+    max_connections = (signed int)return_value_strtoll_3;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(!(*return_value___errno_location_4 == 0) || !(max_connections >= 0))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -10042,18 +10042,18 @@ signed int cfg_srv_options_ttl(const char *directive, const char **argv, void *s
   char *end = (char *)(void *)0;
   const char *units;
   struct ci_service_xdata *srv_xdata = (struct ci_service_xdata *)setdata;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcasecmp$13;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$7;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcasecmp_13;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_7;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -10070,15 +10070,15 @@ signed int cfg_srv_options_ttl(const char *directive, const char **argv, void *s
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 0;
-    signed long long int return_value_strtoll$3;
-    return_value_strtoll$3=strtoll(argv[(signed long int)0], &end, 10);
-    ttl = (signed int)return_value_strtoll$3;
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(!(*return_value___errno_location$4 == 0) || !(ttl >= 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 0;
+    signed long long int return_value_strtoll_3;
+    return_value_strtoll_3=strtoll(argv[(signed long int)0], &end, 10);
+    ttl = (signed int)return_value_strtoll_3;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(!(*return_value___errno_location_4 == 0) || !(ttl >= 0))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -10095,13 +10095,13 @@ signed int cfg_srv_options_ttl(const char *directive, const char **argv, void *s
 
     else
     {
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if(!(end == ((char *)NULL)))
-        tmp_if_expr$5 = (signed int)*end != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (signed int)*end != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
         units = end;
 
       else
@@ -10112,48 +10112,48 @@ signed int cfg_srv_options_ttl(const char *directive, const char **argv, void *s
           units = (const char *)(void *)0;
       if(!(units == ((const char *)NULL)))
       {
-        signed int return_value_strcasecmp$12;
-        return_value_strcasecmp$12=strcasecmp(units, "sec");
-        _Bool tmp_if_expr$14;
-        if(return_value_strcasecmp$12 == 0)
-          tmp_if_expr$14 = (_Bool)1;
+        signed int return_value_strcasecmp_12;
+        return_value_strcasecmp_12=strcasecmp(units, "sec");
+        _Bool tmp_if_expr_14;
+        if(return_value_strcasecmp_12 == 0)
+          tmp_if_expr_14 = (_Bool)1;
 
         else
         {
-          return_value_strcasecmp$13=strcasecmp(units, "secs");
-          tmp_if_expr$14 = return_value_strcasecmp$13 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_13=strcasecmp(units, "secs");
+          tmp_if_expr_14 = return_value_strcasecmp_13 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$14)
+        if(tmp_if_expr_14)
           u = 1;
 
         else
         {
-          return_value_strcasecmp$9=strcasecmp(units, "min");
-          _Bool tmp_if_expr$11;
-          if(return_value_strcasecmp$9 == 0)
-            tmp_if_expr$11 = (_Bool)1;
+          return_value_strcasecmp_9=strcasecmp(units, "min");
+          _Bool tmp_if_expr_11;
+          if(return_value_strcasecmp_9 == 0)
+            tmp_if_expr_11 = (_Bool)1;
 
           else
           {
-            return_value_strcasecmp$10=strcasecmp(units, "mins");
-            tmp_if_expr$11 = return_value_strcasecmp$10 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_10=strcasecmp(units, "mins");
+            tmp_if_expr_11 = return_value_strcasecmp_10 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$11)
+          if(tmp_if_expr_11)
             u = 60;
 
           else
           {
-            return_value_strcasecmp$6=strcasecmp(units, "hour");
-            _Bool tmp_if_expr$8;
-            if(return_value_strcasecmp$6 == 0)
-              tmp_if_expr$8 = (_Bool)1;
+            return_value_strcasecmp_6=strcasecmp(units, "hour");
+            _Bool tmp_if_expr_8;
+            if(return_value_strcasecmp_6 == 0)
+              tmp_if_expr_8 = (_Bool)1;
 
             else
             {
-              return_value_strcasecmp$7=strcasecmp(units, "hours");
-              tmp_if_expr$8 = return_value_strcasecmp$7 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcasecmp_7=strcasecmp(units, "hours");
+              tmp_if_expr_8 = return_value_strcasecmp_7 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$8)
+            if(tmp_if_expr_8)
               u = 60 * 60;
 
             else
@@ -10200,13 +10200,13 @@ signed int cfg_srv_preview_size(const char *directive, const char **argv, void *
   signed int preview;
   char *end;
   struct ci_service_xdata *srv_xdata = (struct ci_service_xdata *)setdata;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -10223,9 +10223,9 @@ signed int cfg_srv_preview_size(const char *directive, const char **argv, void *
 
   else
   {
-    signed int return_value_strcmp$5;
-    return_value_strcmp$5=strcmp(argv[(signed long int)0], "-");
-    if(return_value_strcmp$5 == 0)
+    signed int return_value_strcmp_5;
+    return_value_strcmp_5=strcmp(argv[(signed long int)0], "-");
+    if(return_value_strcmp_5 == 0)
     {
       preview = -1;
       if(CI_DEBUG_LEVEL >= 2)
@@ -10242,15 +10242,15 @@ signed int cfg_srv_preview_size(const char *directive, const char **argv, void *
 
     else
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
-      signed long long int return_value_strtoll$3;
-      return_value_strtoll$3=strtoll(argv[(signed long int)0], &end, 10);
-      preview = (signed int)return_value_strtoll$3;
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 0) || !(preview >= 0))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
+      signed long long int return_value_strtoll_3;
+      return_value_strtoll_3=strtoll(argv[(signed long int)0], &end, 10);
+      preview = (signed int)return_value_strtoll_3;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 0) || !(preview >= 0))
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -10286,13 +10286,13 @@ signed int cfg_srv_preview_size(const char *directive, const char **argv, void *
 signed int cfg_srv_transfer_complete(const char *directive, const char **argv, void *setdata)
 {
   struct ci_service_xdata *srv_xdata = (struct ci_service_xdata *)setdata;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -10329,13 +10329,13 @@ signed int cfg_srv_transfer_complete(const char *directive, const char **argv, v
 signed int cfg_srv_transfer_ignore(const char *directive, const char **argv, void *setdata)
 {
   struct ci_service_xdata *srv_xdata = (struct ci_service_xdata *)setdata;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -10372,13 +10372,13 @@ signed int cfg_srv_transfer_ignore(const char *directive, const char **argv, voi
 signed int cfg_srv_transfer_preview(const char *directive, const char **argv, void *setdata)
 {
   struct ci_service_xdata *srv_xdata = (struct ci_service_xdata *)setdata;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -10502,7 +10502,7 @@ static void check_for_exited_childs()
         if(CI_DEBUG_LEVEL >= 1)
         {
           /* tag-#anon#lUN[lS32'__in'|S32'__i'] */
-union anonymous$20
+union anonymous_20
 {
   // __in
   signed int __in;
@@ -10513,10 +10513,10 @@ union anonymous$20
 /* */
           ;
           if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
-            __log_error((void *)0, "signaled with signal:%d\n", ((union anonymous$20){ .__in=status }).__i & 0x7f);
+            __log_error((void *)0, "signaled with signal:%d\n", ((union anonymous_20){ .__in=status }).__i & 0x7f);
 
           if(!(CI_DEBUG_STDOUT == 0))
-            printf("signaled with signal:%d\n", ((union anonymous$20){ .__in=status }).__i & 0x7f);
+            printf("signaled with signal:%d\n", ((union anonymous_20){ .__in=status }).__i & 0x7f);
 
         }
 
@@ -10538,9 +10538,9 @@ union anonymous$20
       }
 
       remove_child(old_childs_queue, pid, exit_status);
-      signed int return_value_childs_queue_is_empty$1;
-      return_value_childs_queue_is_empty$1=childs_queue_is_empty(old_childs_queue);
-      if(!(return_value_childs_queue_is_empty$1 == 0))
+      signed int return_value_childs_queue_is_empty_1;
+      return_value_childs_queue_is_empty_1=childs_queue_is_empty(old_childs_queue);
+      if(!(return_value_childs_queue_is_empty_1 == 0))
       {
         ret=destroy_childs_queue(old_childs_queue);
         old_childs_queue = (struct childs_queue *)(void *)0;
@@ -10574,9 +10574,9 @@ signed int check_magics(struct ci_magics_db *db, const char *buf, signed int buf
   for( ; !(i >= db->magics_num); i = i + 1)
     if((unsigned long int)buflen >= (db->magics + (signed long int)i)->len + (unsigned long int)(db->magics + (signed long int)i)->offset)
     {
-      signed int return_value_memcmp$1;
-      return_value_memcmp$1=memcmp((const void *)(buf + (signed long int)(db->magics + (signed long int)i)->offset), (const void *)(db->magics + (signed long int)i)->magic, (db->magics + (signed long int)i)->len);
-      if(return_value_memcmp$1 == 0)
+      signed int return_value_memcmp_1;
+      return_value_memcmp_1=memcmp((const void *)(buf + (signed long int)(db->magics + (signed long int)i)->offset), (const void *)(db->magics + (signed long int)i)->magic, (db->magics + (signed long int)i)->len);
+      if(return_value_memcmp_1 == 0)
         return (signed int)(db->magics + (signed long int)i)->type;
 
     }
@@ -10593,9 +10593,9 @@ static signed int check_realloc(char **buf, signed int *size, signed int used, s
   while(!(*size + -used >= mustadded))
   {
     len = *size + 4096;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)*buf, (unsigned long int)len);
-    newbuf = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)*buf, (unsigned long int)len);
+    newbuf = (char *)return_value_realloc_1;
     if(newbuf == ((char *)NULL))
       return 11;
 
@@ -10611,9 +10611,9 @@ static signed int check_reg(void *data, const char *name, const void *val)
 {
   struct check_reg_data *rdata = (struct check_reg_data *)data;
   rdata->count = rdata->count + 1;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(rdata->name, name);
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(rdata->name, name);
+  if(return_value_strcmp_1 == 0)
   {
     rdata->found = 1;
     return 1;
@@ -10644,60 +10644,60 @@ static signed int check_request(struct ci_request *req)
     {
       if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
       {
-        signed int tmp_if_expr$1;
+        signed int tmp_if_expr_1;
         if(!(req->entities[0l] == ((struct ci_encaps_entity *)NULL)))
-          tmp_if_expr$1 = req->entities[(signed long int)0]->type;
+          tmp_if_expr_1 = req->entities[(signed long int)0]->type;
 
         else
-          tmp_if_expr$1 = -1;
-        signed int tmp_if_expr$2;
+          tmp_if_expr_1 = -1;
+        signed int tmp_if_expr_2;
         if(!(req->entities[1l] == ((struct ci_encaps_entity *)NULL)))
-          tmp_if_expr$2 = req->entities[(signed long int)1]->type;
+          tmp_if_expr_2 = req->entities[(signed long int)1]->type;
 
         else
-          tmp_if_expr$2 = -1;
-        signed int tmp_if_expr$3;
+          tmp_if_expr_2 = -1;
+        signed int tmp_if_expr_3;
         if(!(req->entities[2l] == ((struct ci_encaps_entity *)NULL)))
-          tmp_if_expr$3 = req->entities[(signed long int)2]->type;
+          tmp_if_expr_3 = req->entities[(signed long int)2]->type;
 
         else
-          tmp_if_expr$3 = -1;
-        signed int tmp_if_expr$4;
+          tmp_if_expr_3 = -1;
+        signed int tmp_if_expr_4;
         if(!(req->entities[3l] == ((struct ci_encaps_entity *)NULL)))
-          tmp_if_expr$4 = req->entities[(signed long int)3]->type;
+          tmp_if_expr_4 = req->entities[(signed long int)3]->type;
 
         else
-          tmp_if_expr$4 = -1;
-        __log_error((void *)0, "\n type:%d Entities: %d %d %d %d \n", req->type, tmp_if_expr$1, tmp_if_expr$2, tmp_if_expr$3, tmp_if_expr$4);
+          tmp_if_expr_4 = -1;
+        __log_error((void *)0, "\n type:%d Entities: %d %d %d %d \n", req->type, tmp_if_expr_1, tmp_if_expr_2, tmp_if_expr_3, tmp_if_expr_4);
       }
 
       if(!(CI_DEBUG_STDOUT == 0))
       {
-        signed int tmp_if_expr$5;
+        signed int tmp_if_expr_5;
         if(!(req->entities[0l] == ((struct ci_encaps_entity *)NULL)))
-          tmp_if_expr$5 = req->entities[(signed long int)0]->type;
+          tmp_if_expr_5 = req->entities[(signed long int)0]->type;
 
         else
-          tmp_if_expr$5 = -1;
-        signed int tmp_if_expr$6;
+          tmp_if_expr_5 = -1;
+        signed int tmp_if_expr_6;
         if(!(req->entities[1l] == ((struct ci_encaps_entity *)NULL)))
-          tmp_if_expr$6 = req->entities[(signed long int)1]->type;
+          tmp_if_expr_6 = req->entities[(signed long int)1]->type;
 
         else
-          tmp_if_expr$6 = -1;
-        signed int tmp_if_expr$7;
+          tmp_if_expr_6 = -1;
+        signed int tmp_if_expr_7;
         if(!(req->entities[2l] == ((struct ci_encaps_entity *)NULL)))
-          tmp_if_expr$7 = req->entities[(signed long int)2]->type;
+          tmp_if_expr_7 = req->entities[(signed long int)2]->type;
 
         else
-          tmp_if_expr$7 = -1;
-        signed int tmp_if_expr$8;
+          tmp_if_expr_7 = -1;
+        signed int tmp_if_expr_8;
         if(!(req->entities[3l] == ((struct ci_encaps_entity *)NULL)))
-          tmp_if_expr$8 = req->entities[(signed long int)3]->type;
+          tmp_if_expr_8 = req->entities[(signed long int)3]->type;
 
         else
-          tmp_if_expr$8 = -1;
-        printf("\n type:%d Entities: %d %d %d %d \n", req->type, tmp_if_expr$5, tmp_if_expr$6, tmp_if_expr$7, tmp_if_expr$8);
+          tmp_if_expr_8 = -1;
+        printf("\n type:%d Entities: %d %d %d %d \n", req->type, tmp_if_expr_5, tmp_if_expr_6, tmp_if_expr_7, tmp_if_expr_8);
       }
 
     }
@@ -10781,16 +10781,16 @@ static signed int check_request(struct ci_request *req)
   }
 }
 
-// check_request$link1
+// check_request_link1
 // file access.c line 69
-signed int check_request$link1(struct ci_request *req$link1)
+signed int check_request_link1(struct ci_request *req_link1)
 {
   signed int res;
   signed int i = 0;
   for( ; !(used_access_controllers[(signed long int)i] == ((struct access_control_module *)NULL)); i = i + 1)
     if(!(used_access_controllers[(signed long int)i]->request_access == ((signed int (*)(struct ci_request *))NULL)))
     {
-      res=used_access_controllers[(signed long int)i]->request_access(req$link1);
+      res=used_access_controllers[(signed long int)i]->request_access(req_link1);
       if(!(res == 0))
         return res;
 
@@ -10809,9 +10809,9 @@ struct ci_fmt_entry * check_tables(const char *var, struct ci_fmt_entry *u_table
   i = 0;
   for( ; !(GlobalTable[(signed long int)i].directive == ((const char *)NULL)); i = i + 1)
   {
-    signed int return_value_check_directive$1;
-    return_value_check_directive$1=check_directive(var + (signed long int)params_len, GlobalTable[(signed long int)i].directive, directive_len);
-    if(!(return_value_check_directive$1 == 0))
+    signed int return_value_check_directive_1;
+    return_value_check_directive_1=check_directive(var + (signed long int)params_len, GlobalTable[(signed long int)i].directive, directive_len);
+    if(!(return_value_check_directive_1 == 0))
     {
       *directive_len = *directive_len + (signed int)params_len;
       return &GlobalTable[(signed long int)i];
@@ -10823,9 +10823,9 @@ struct ci_fmt_entry * check_tables(const char *var, struct ci_fmt_entry *u_table
     i = 0;
     for( ; !((u_table + (signed long int)i)->directive == ((const char *)NULL)); i = i + 1)
     {
-      signed int return_value_check_directive$2;
-      return_value_check_directive$2=check_directive(var + (signed long int)params_len, (u_table + (signed long int)i)->directive, directive_len);
-      if(!(return_value_check_directive$2 == 0))
+      signed int return_value_check_directive_2;
+      return_value_check_directive_2=check_directive(var + (signed long int)params_len, (u_table + (signed long int)i)->directive, directive_len);
+      if(!(return_value_check_directive_2 == 0))
       {
         *directive_len = *directive_len + (signed int)params_len;
         return &u_table[(signed long int)i];
@@ -10861,9 +10861,9 @@ signed int check_to_add_method_id(struct auth_hash *hash, signed int method_id)
   {
     while(!(hash->hash_size >= method_id))
     {
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)hash->hash, (unsigned long int)(hash->hash_size + 20));
-      new_mem = (struct authenticator_module ***)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)hash->hash, (unsigned long int)(hash->hash_size + 20));
+      new_mem = (struct authenticator_module ***)return_value_realloc_1;
       if(new_mem == ((struct authenticator_module ***)NULL))
       {
         if(CI_DEBUG_LEVEL >= 1)
@@ -10914,24 +10914,24 @@ signed int check_unicode(unsigned char *buf, signed int buflen)
 
     else
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)*buf == 0xff)
-        tmp_if_expr$2 = (signed int)buf[(signed long int)1] == 0xfe ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)buf[(signed long int)1] == 0xfe ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         endian = 0;
 
       else
       {
-        _Bool tmp_if_expr$1;
+        _Bool tmp_if_expr_1;
         if((signed int)*buf == 0xfe)
-          tmp_if_expr$1 = (signed int)buf[(signed long int)1] == 0xff ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)buf[(signed long int)1] == 0xff ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
           endian = 1;
 
         else
@@ -11005,9 +11005,9 @@ signed int check_user_group(const char *user, const char *group)
         i = 0;
         if(!(groups[(signed long int)i] == ((char *)NULL)))
         {
-          signed int return_value_strcmp$1;
-          return_value_strcmp$1=strcmp(group, groups[(signed long int)i]);
-          if(return_value_strcmp$1 == 0)
+          signed int return_value_strcmp_1;
+          return_value_strcmp_1=strcmp(group, groups[(signed long int)i]);
+          if(return_value_strcmp_1 == 0)
           {
             gsrc->db->release_result(gsrc->db, (void **)groups);
             return 1;
@@ -11030,9 +11030,9 @@ signed int check_user_group(const char *user, const char *group)
         i = 0;
         if(!(users[(signed long int)i] == ((char *)NULL)))
         {
-          signed int return_value_strcmp$2;
-          return_value_strcmp$2=strcmp(user, users[(signed long int)i]);
-          if(return_value_strcmp$2 == 0)
+          signed int return_value_strcmp_2;
+          return_value_strcmp_2=strcmp(user, users[(signed long int)i]);
+          if(return_value_strcmp_2 == 0)
           {
             gsrc->db->release_result(gsrc->db, (void **)users);
             return 1;
@@ -11064,9 +11064,9 @@ void child_main(signed int sockfd, signed int pipefd)
   ci_thread_mutex_init(&counters_mtx);
   ci_thread_cond_init(&free_server_cond);
   ci_stat_attach_mem((void *)child_data->stats, child_data->stats_size, (void (*)(void *))(void *)0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(CI_CONF.THREADS_PER_CHILD + 1) * sizeof(struct server_decl *) /*8ul*/ );
-  threads_list = (struct server_decl **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(CI_CONF.THREADS_PER_CHILD + 1) * sizeof(struct server_decl *) /*8ul*/ );
+  threads_list = (struct server_decl **)return_value_malloc_1;
   con_queue=init_queue(CI_CONF.THREADS_PER_CHILD);
   i = 0;
   for( ; !(i >= CI_CONF.THREADS_PER_CHILD); i = i + 1)
@@ -11081,11 +11081,11 @@ void child_main(signed int sockfd, signed int pipefd)
   threads_list[(signed long int)CI_CONF.THREADS_PER_CHILD] = (struct server_decl *)(void *)0;
   ret=ci_thread_create(&thread, (void * (*)(void *))listener_thread, (void *)&sockfd);
   listener_thread_id = thread;
-  signed long int return_value_time$2;
-  return_value_time$2=time((signed long int *)(void *)0);
-  signed int return_value_getpid$3;
-  return_value_getpid$3=getpid();
-  srand((unsigned int)return_value_time$2 + (unsigned int)return_value_getpid$3);
+  signed long int return_value_time_2;
+  return_value_time_2=time((signed long int *)(void *)0);
+  signed int return_value_getpid_3;
+  return_value_getpid_3=getpid();
+  srand((unsigned int)return_value_time_2 + (unsigned int)return_value_getpid_3);
   child_signals();
   if(!(child_data->father_said == 0))
     child_data->to_be_killed = 2;
@@ -11170,20 +11170,20 @@ void child_main(signed int sockfd, signed int pipefd)
 
     commands_exec_scheduled();
   }
-  signed int return_value_getpid$4;
-  signed int return_value_getpid$5;
+  signed int return_value_getpid_4;
+  signed int return_value_getpid_5;
   if(CI_DEBUG_LEVEL >= 5)
   {
     if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
     {
-      return_value_getpid$4=getpid();
-      __log_error((void *)0, "Child :%d going down :%s\n", return_value_getpid$4, child_data->to_be_killed == 2 ? "IMMEDIATELY" : "GRACEFULLY");
+      return_value_getpid_4=getpid();
+      __log_error((void *)0, "Child :%d going down :%s\n", return_value_getpid_4, child_data->to_be_killed == 2 ? "IMMEDIATELY" : "GRACEFULLY");
     }
 
     if(!(CI_DEBUG_STDOUT == 0))
     {
-      return_value_getpid$5=getpid();
-      printf("Child :%d going down :%s\n", return_value_getpid$5, child_data->to_be_killed == 2 ? "IMMEDIATELY" : "GRACEFULLY");
+      return_value_getpid_5=getpid();
+      printf("Child :%d going down :%s\n", return_value_getpid_5, child_data->to_be_killed == 2 ? "IMMEDIATELY" : "GRACEFULLY");
     }
 
   }
@@ -11257,9 +11257,9 @@ void ci_MD5Final(unsigned char *digest, struct ci_MD5Context *ctx)
   unsigned int *uin;
   count = ctx->bits[(signed long int)0] >> 3 & (unsigned int)0x3F;
   p = ctx->in + (signed long int)count;
-  unsigned char *tmp_post$1 = p;
+  unsigned char *tmp_post_1 = p;
   p = p + 1l;
-  *tmp_post$1 = (unsigned char)0x80;
+  *tmp_post_1 = (unsigned char)0x80;
   count = (unsigned int)(64 - 1) - count;
   if(!(count >= 8u))
   {
@@ -11345,9 +11345,9 @@ const struct ci_acl_spec * ci_access_entry_add_acl(struct ci_access_entry *acces
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct ci_specs_list) /*24ul*/ );
-    spec_entry = (struct ci_specs_list *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct ci_specs_list) /*24ul*/ );
+    spec_entry = (struct ci_specs_list *)return_value_malloc_1;
     if(spec_entry == ((struct ci_specs_list *)NULL))
       return (const struct ci_acl_spec *)(void *)0;
 
@@ -11401,9 +11401,9 @@ signed int ci_access_entry_add_acl_by_name(struct ci_access_entry *access_entry,
 
   else
   {
-    const struct ci_acl_spec *return_value_ci_access_entry_add_acl$1;
-    return_value_ci_access_entry_add_acl$1=ci_access_entry_add_acl(access_entry, acl, negate);
-    if(return_value_ci_access_entry_add_acl$1 == ((const struct ci_acl_spec *)NULL))
+    const struct ci_acl_spec *return_value_ci_access_entry_add_acl_1;
+    return_value_ci_access_entry_add_acl_1=ci_access_entry_add_acl(access_entry, acl, negate);
+    if(return_value_ci_access_entry_add_acl_1 == ((const struct ci_acl_spec *)NULL))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -11428,7 +11428,7 @@ signed int ci_access_entry_add_acl_by_name(struct ci_access_entry *access_entry,
 signed int ci_access_entry_match_request(struct ci_access_entry *access_entry, struct ci_request *req)
 {
   struct ci_specs_list *spec_list;
-  signed int return_value_request_match_specslist$1;
+  signed int return_value_request_match_specslist_1;
   if(access_entry == ((struct ci_access_entry *)NULL))
     return 1;
 
@@ -11451,8 +11451,8 @@ signed int ci_access_entry_match_request(struct ci_access_entry *access_entry, s
       {
         if(!(spec_list->spec == ((const struct ci_acl_spec *)NULL)))
         {
-          return_value_request_match_specslist$1=request_match_specslist(req, spec_list);
-          if(!(return_value_request_match_specslist$1 == 0))
+          return_value_request_match_specslist_1=request_match_specslist(req, spec_list);
+          if(!(return_value_request_match_specslist_1 == 0))
             return access_entry->type;
 
         }
@@ -11476,9 +11476,9 @@ struct ci_access_entry * ci_access_entry_new(struct ci_access_entry **list, sign
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct ci_access_entry) /*24ul*/ );
-    access_entry = (struct ci_access_entry *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct ci_access_entry) /*24ul*/ );
+    access_entry = (struct ci_access_entry *)return_value_malloc_1;
     if(access_entry == ((struct ci_access_entry *)NULL))
       return (struct ci_access_entry *)(void *)0;
 
@@ -11639,9 +11639,9 @@ void ci_acl_reset()
 // file include/acl.h line 205
 const struct ci_acl_spec * ci_acl_search(const char *name)
 {
-  struct ci_acl_spec *return_value_ci_acl_spec_search$1;
-  return_value_ci_acl_spec_search$1=ci_acl_spec_search(specs_list, name);
-  return (const struct ci_acl_spec *)return_value_ci_acl_spec_search$1;
+  struct ci_acl_spec *return_value_ci_acl_spec_search_1;
+  return_value_ci_acl_spec_search_1=ci_acl_spec_search(specs_list, name);
+  return (const struct ci_acl_spec *)return_value_ci_acl_spec_search_1;
 }
 
 // ci_acl_spec_list_release
@@ -11670,9 +11670,9 @@ struct ci_acl_spec * ci_acl_spec_new(const char *name, const char *type, const c
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct ci_acl_spec) /*64ul*/ );
-    spec = (struct ci_acl_spec *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct ci_acl_spec) /*64ul*/ );
+    spec = (struct ci_acl_spec *)return_value_malloc_1;
     if(spec == ((struct ci_acl_spec *)NULL))
       return (struct ci_acl_spec *)(void *)0;
 
@@ -11735,9 +11735,9 @@ struct ci_acl_data * ci_acl_spec_new_data(struct ci_acl_spec *spec, const char *
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct ci_acl_data) /*16ul*/ );
-      new_data = (struct ci_acl_data *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct ci_acl_data) /*16ul*/ );
+      new_data = (struct ci_acl_data *)return_value_malloc_1;
       if(new_data == ((struct ci_acl_data *)NULL))
       {
         ops->free(data, default_allocator);
@@ -11817,9 +11817,9 @@ struct ci_acl_spec * ci_acl_spec_search(struct ci_acl_spec *list, const char *na
 
       }
 
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(spec->name, name);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(spec->name, name);
+      if(return_value_strcmp_1 == 0)
         return spec;
 
       spec = spec->next;
@@ -11832,18 +11832,18 @@ struct ci_acl_spec * ci_acl_spec_search(struct ci_acl_spec *list, const char *na
 // file include/acl.h line 224
 signed int ci_acl_type_add(const struct ci_acl_type *type)
 {
-  signed int return_value_ci_acl_typelist_add$1;
-  return_value_ci_acl_typelist_add$1=ci_acl_typelist_add(&types_list, type);
-  return return_value_ci_acl_typelist_add$1;
+  signed int return_value_ci_acl_typelist_add_1;
+  return_value_ci_acl_typelist_add_1=ci_acl_typelist_add(&types_list, type);
+  return return_value_ci_acl_typelist_add_1;
 }
 
 // ci_acl_type_search
 // file acl.c line 815
 const struct ci_acl_type * ci_acl_type_search(const char *name)
 {
-  const struct ci_acl_type *return_value_ci_acl_typelist_search$1;
-  return_value_ci_acl_typelist_search$1=ci_acl_typelist_search(&types_list, name);
-  return return_value_ci_acl_typelist_search$1;
+  const struct ci_acl_type *return_value_ci_acl_typelist_search_1;
+  return_value_ci_acl_typelist_search_1=ci_acl_typelist_search(&types_list, name);
+  return return_value_ci_acl_typelist_search_1;
 }
 
 // ci_acl_typelist_add
@@ -11853,9 +11853,9 @@ signed int ci_acl_typelist_add(struct ci_acl_type_list *list, const struct ci_ac
   struct ci_acl_type *cur;
   struct ci_acl_type *nl = (struct ci_acl_type *)(void *)0;
   {
-    const struct ci_acl_type *return_value_ci_acl_typelist_search$1;
-    return_value_ci_acl_typelist_search$1=ci_acl_typelist_search(list, type->name);
-    if(!(return_value_ci_acl_typelist_search$1 == ((const struct ci_acl_type *)NULL)))
+    const struct ci_acl_type *return_value_ci_acl_typelist_search_1;
+    return_value_ci_acl_typelist_search_1=ci_acl_typelist_search(list, type->name);
+    if(!(return_value_ci_acl_typelist_search_1 == ((const struct ci_acl_type *)NULL)))
     {
       if(CI_DEBUG_LEVEL >= 3)
       {
@@ -11875,9 +11875,9 @@ signed int ci_acl_typelist_add(struct ci_acl_type_list *list, const struct ci_ac
       if(list->acl_type_list_num == list->acl_type_list_size)
       {
         list->acl_type_list_size = list->acl_type_list_size + 32;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)list->acl_type_list, (unsigned long int)list->acl_type_list_size * sizeof(struct ci_acl_type) /*56ul*/ );
-        nl = (struct ci_acl_type *)return_value_realloc$2;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)list->acl_type_list, (unsigned long int)list->acl_type_list_size * sizeof(struct ci_acl_type) /*56ul*/ );
+        nl = (struct ci_acl_type *)return_value_realloc_2;
         if(nl == ((struct ci_acl_type *)NULL))
         {
           if(CI_DEBUG_LEVEL >= 1)
@@ -11911,9 +11911,9 @@ signed int ci_acl_typelist_add(struct ci_acl_type_list *list, const struct ci_ac
 // file acl.c line 630
 signed int ci_acl_typelist_init(struct ci_acl_type_list *list)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)32 * sizeof(struct ci_acl_type) /*56ul*/ );
-  list->acl_type_list = (struct ci_acl_type *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)32 * sizeof(struct ci_acl_type) /*56ul*/ );
+  list->acl_type_list = (struct ci_acl_type *)return_value_malloc_1;
   list->acl_type_list_size = 32;
   list->acl_type_list_num = 0;
   return 1;
@@ -11944,9 +11944,9 @@ const struct ci_acl_type * ci_acl_typelist_search(struct ci_acl_type_list *list,
   signed int i = 0;
   for( ; !(i >= list->acl_type_list_num); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((list->acl_type_list + (signed long int)i)->name, name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((list->acl_type_list + (signed long int)i)->name, name);
+    if(return_value_strcmp_1 == 0)
       return (const struct ci_acl_type *)&list->acl_type_list[(signed long int)i];
 
   }
@@ -11980,9 +11980,9 @@ signed int ci_args_apply(signed int argc, char **argv, struct ci_options_entry *
 
     else
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(entry->name, "$$");
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(entry->name, "__");
+      if(return_value_strcmp_1 == 0)
       {
         act_args[(signed long int)0] = argv[(signed long int)i];
         entry->action(entry->name, act_args, entry->data);
@@ -12011,13 +12011,13 @@ void ci_args_usage(const char *progname, struct ci_options_entry *options)
 
     else
     {
-      char *tmp_if_expr$1;
+      char *tmp_if_expr_1;
       if((options + (signed long int)i)->parameter == ((const char *)NULL))
-        tmp_if_expr$1 = "";
+        tmp_if_expr_1 = "";
 
       else
-        tmp_if_expr$1 = (options + (signed long int)i)->parameter;
-      printf(" [%s %s]", (options + (signed long int)i)->name, tmp_if_expr$1);
+        tmp_if_expr_1 = (options + (signed long int)i)->parameter;
+      printf(" [%s %s]", (options + (signed long int)i)->name, tmp_if_expr_1);
     }
   printf("\n\n");
   i = 0;
@@ -12027,13 +12027,13 @@ void ci_args_usage(const char *progname, struct ci_options_entry *options)
 
     else
     {
-      char *tmp_if_expr$2;
+      char *tmp_if_expr_2;
       if((options + (signed long int)i)->parameter == ((const char *)NULL))
-        tmp_if_expr$2 = "\t";
+        tmp_if_expr_2 = "\t";
 
       else
-        tmp_if_expr$2 = (options + (signed long int)i)->parameter;
-      printf("%s %s\t\t: %s\n", (options + (signed long int)i)->name, tmp_if_expr$2, (options + (signed long int)i)->msg);
+        tmp_if_expr_2 = (options + (signed long int)i)->parameter;
+      printf("%s %s\t\t: %s\n", (options + (signed long int)i)->name, tmp_if_expr_2, (options + (signed long int)i)->msg);
     }
 }
 
@@ -12045,32 +12045,32 @@ const struct ci_array_item * ci_array_add(struct ci_array *array, const char *na
   struct ci_mem_allocator *packer = array->alloc;
   /* assertion packer */
   assert(packer != ((struct ci_mem_allocator *)NULL));
-  void *return_value_ci_pack_allocator_alloc_unaligned$1;
-  return_value_ci_pack_allocator_alloc_unaligned$1=ci_pack_allocator_alloc_unaligned(packer, (unsigned long int)&((struct ci_array_item *)0)[(signed long int)1]);
-  item = (struct ci_array_item *)return_value_ci_pack_allocator_alloc_unaligned$1;
+  void *return_value_ci_pack_allocator_alloc_unaligned_1;
+  return_value_ci_pack_allocator_alloc_unaligned_1=ci_pack_allocator_alloc_unaligned(packer, (unsigned long int)&((struct ci_array_item *)0)[(signed long int)1]);
+  item = (struct ci_array_item *)return_value_ci_pack_allocator_alloc_unaligned_1;
   if(!(item == ((struct ci_array_item *)NULL)))
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(name);
-    void *return_value_ci_pack_allocator_alloc_from_rear$3;
-    return_value_ci_pack_allocator_alloc_from_rear$3=ci_pack_allocator_alloc_from_rear(packer, (signed int)(return_value_strlen$2 + (unsigned long int)1));
-    item->name = (char *)return_value_ci_pack_allocator_alloc_from_rear$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(name);
+    void *return_value_ci_pack_allocator_alloc_from_rear_3;
+    return_value_ci_pack_allocator_alloc_from_rear_3=ci_pack_allocator_alloc_from_rear(packer, (signed int)(return_value_strlen_2 + (unsigned long int)1));
+    item->name = (char *)return_value_ci_pack_allocator_alloc_from_rear_3;
     item->value=ci_pack_allocator_alloc_from_rear(packer, (signed int)size);
   }
 
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(item == ((struct ci_array_item *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = !(item->name != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = !(item->name != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = !(item->value != NULL) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = !(item->value != NULL) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
     if(CI_DEBUG_LEVEL >= 2)
     {
@@ -12158,9 +12158,9 @@ struct ci_array * ci_array_new(unsigned long int size)
 
     else
     {
-      void *return_value_ci_pack_allocator_alloc$1;
-      return_value_ci_pack_allocator_alloc$1=ci_pack_allocator_alloc(packer, sizeof(struct ci_array) /*40ul*/ );
-      array = (struct ci_array *)return_value_ci_pack_allocator_alloc$1;
+      void *return_value_ci_pack_allocator_alloc_1;
+      return_value_ci_pack_allocator_alloc_1=ci_pack_allocator_alloc(packer, sizeof(struct ci_array) /*40ul*/ );
+      array = (struct ci_array *)return_value_ci_pack_allocator_alloc_1;
       if(array == ((struct ci_array *)NULL))
       {
         ci_buffer_free(buffer);
@@ -12186,12 +12186,12 @@ struct ci_array * ci_array_new(unsigned long int size)
 struct ci_array * ci_array_new2(unsigned long int items, unsigned long int item_size)
 {
   unsigned long int array_size;
-  unsigned long int return_value_ci_pack_allocator_required_size$1;
-  return_value_ci_pack_allocator_required_size$1=ci_pack_allocator_required_size();
-  array_size = return_value_ci_pack_allocator_required_size$1 + (sizeof(struct ci_array) /*40ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)) + items * ((item_size + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)) + (sizeof(struct ci_array_item) /*16ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)));
-  struct ci_array *return_value_ci_array_new$2;
-  return_value_ci_array_new$2=ci_array_new(array_size);
-  return return_value_ci_array_new$2;
+  unsigned long int return_value_ci_pack_allocator_required_size_1;
+  return_value_ci_pack_allocator_required_size_1=ci_pack_allocator_required_size();
+  array_size = return_value_ci_pack_allocator_required_size_1 + (sizeof(struct ci_array) /*40ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)) + items * ((item_size + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)) + (sizeof(struct ci_array_item) /*16ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)));
+  struct ci_array *return_value_ci_array_new_2;
+  return_value_ci_array_new_2=ci_array_new(array_size);
+  return return_value_ci_array_new_2;
 }
 
 // ci_array_pop
@@ -12212,13 +12212,13 @@ const struct ci_array_item * ci_array_pop(struct ci_array *array)
 
     else
     {
-      void *tmp_if_expr$1;
+      void *tmp_if_expr_1;
       if(!((void *)(array->items + (signed long int)(array->count + 4294967295u))->name >= (array->items + (signed long int)(array->count + 4294967295u))->value))
-        tmp_if_expr$1 = (void *)(array->items + (signed long int)(array->count - (unsigned int)1))->name;
+        tmp_if_expr_1 = (void *)(array->items + (signed long int)(array->count - (unsigned int)1))->name;
 
       else
-        tmp_if_expr$1 = (void *)(array->items + (signed long int)(array->count - (unsigned int)1))->value;
-      ci_pack_allocator_set_end_pos(array->alloc, tmp_if_expr$1);
+        tmp_if_expr_1 = (void *)(array->items + (signed long int)(array->count - (unsigned int)1))->value;
+      ci_pack_allocator_set_end_pos(array->alloc, tmp_if_expr_1);
     }
     return item;
   }
@@ -12231,9 +12231,9 @@ const void * ci_array_search(struct ci_array *array, const char *name)
   signed int i = 0;
   for( ; !((unsigned int)i >= array->count); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((array->items + (signed long int)i)->name, name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((array->items + (signed long int)i)->name, name);
+    if(return_value_strcmp_1 == 0)
       return (array->items + (signed long int)i)->value;
 
   }
@@ -12246,24 +12246,24 @@ signed long int ci_atol_ext(const char *str, const char **error)
 {
   char *e;
   signed long int val;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   val=strtol(str, &e, 10);
   if(!(error == ((const char **)NULL)))
   {
     *error = (const char *)(void *)0;
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if((val == 0x7fffffffffffffffL || val == -9223372036854775808l) && *return_value___errno_location$3 == 34)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if((val == 0x7fffffffffffffffL || val == -9223372036854775808l) && *return_value___errno_location_3 == 34)
     {
       *error = atol_err_erange;
       goto __CPROVER_DUMP_L5;
     }
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(val == 0l && !(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(val == 0l && !(*return_value___errno_location_2 == 0))
       *error = atol_err_conversion;
 
     else
@@ -12280,24 +12280,24 @@ signed long int ci_atol_ext(const char *str, const char **error)
 
   if(!(val == 0l))
   {
-    _Bool tmp_if_expr$5;
+    _Bool tmp_if_expr_5;
     if((signed int)*e == 107)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)*e == 75 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (signed int)*e == 75 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
       val = val * (signed long int)1024;
 
     else
     {
-      _Bool tmp_if_expr$4;
+      _Bool tmp_if_expr_4;
       if((signed int)*e == 109)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)*e == 77 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)*e == 77 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         val = val * (signed long int)1024 * (signed long int)1024;
 
     }
@@ -12323,36 +12323,36 @@ signed int ci_base64_decode(const char *encoded, char *decoded, signed int len)
     i = len;
     for( ; i >= 4; i = i - 3)
     {
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if((signed int)base64_table[(signed long int)*str] >= 64)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)base64_table[(signed long int)str[(signed long int)1]] > 63 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$2;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_1 = (signed int)base64_table[(signed long int)str[(signed long int)1]] > 63 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_2;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)base64_table[(signed long int)str[(signed long int)2]] > 63 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$3;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = (signed int)base64_table[(signed long int)str[(signed long int)2]] > 63 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_3;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)base64_table[(signed long int)str[(signed long int)3]] > 63 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)base64_table[(signed long int)str[(signed long int)3]] > 63 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         break;
 
-      unsigned char *tmp_post$4 = result;
+      unsigned char *tmp_post_4 = result;
       result = result + 1l;
-      *tmp_post$4 = (unsigned char)((signed int)base64_table[(signed long int)*str] << 2 | (signed int)base64_table[(signed long int)str[(signed long int)1]] >> 4);
-      unsigned char *tmp_post$5 = result;
+      *tmp_post_4 = (unsigned char)((signed int)base64_table[(signed long int)*str] << 2 | (signed int)base64_table[(signed long int)str[(signed long int)1]] >> 4);
+      unsigned char *tmp_post_5 = result;
       result = result + 1l;
-      *tmp_post$5 = (unsigned char)((signed int)base64_table[(signed long int)str[(signed long int)1]] << 4 | (signed int)base64_table[(signed long int)str[(signed long int)2]] >> 2);
-      unsigned char *tmp_post$6 = result;
+      *tmp_post_5 = (unsigned char)((signed int)base64_table[(signed long int)str[(signed long int)1]] << 4 | (signed int)base64_table[(signed long int)str[(signed long int)2]] >> 2);
+      unsigned char *tmp_post_6 = result;
       result = result + 1l;
-      *tmp_post$6 = (unsigned char)((signed int)base64_table[(signed long int)str[(signed long int)2]] << 6 | (signed int)base64_table[(signed long int)str[(signed long int)3]]);
+      *tmp_post_6 = (unsigned char)((signed int)base64_table[(signed long int)str[(signed long int)2]] << 6 | (signed int)base64_table[(signed long int)str[(signed long int)3]]);
       str = str + (signed long int)4;
     }
     *result = (unsigned char)0;
@@ -12366,13 +12366,13 @@ char * ci_base64_decode_dup(const char *encoded)
 {
   signed int len;
   char *result;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(encoded);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(encoded);
+  len = (signed int)return_value_strlen_1;
   len = ((len + 3) / 4) * 3 + 1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)len * sizeof(char) /*1ul*/ );
-  result = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)len * sizeof(char) /*1ul*/ );
+  result = (char *)return_value_malloc_2;
   if(result == ((char *)NULL))
     return (char *)(void *)0;
 
@@ -12394,69 +12394,69 @@ signed int ci_base64_encode(const unsigned char *data, unsigned long int len, ch
   k = 0;
   for( ; !((unsigned long int)i >= len + 18446744073709551613ul) && !((unsigned long int)k >= outlen + 18446744073709551612ul); i = i + 3)
   {
-    signed int tmp_post$1 = k;
+    signed int tmp_post_1 = k;
     k = k + 1;
-    out[(signed long int)tmp_post$1] = base64_set[(signed long int)((signed int)data[(signed long int)i] >> 2 & 0x3F)];
-    signed int tmp_post$2 = k;
+    out[(signed long int)tmp_post_1] = base64_set[(signed long int)((signed int)data[(signed long int)i] >> 2 & 0x3F)];
+    signed int tmp_post_2 = k;
     k = k + 1;
-    out[(signed long int)tmp_post$2] = base64_set[(signed long int)(((signed int)data[(signed long int)i] << 4 | (signed int)data[(signed long int)(i + 1)] >> 4) & 0x3F)];
-    signed int tmp_post$3 = k;
+    out[(signed long int)tmp_post_2] = base64_set[(signed long int)(((signed int)data[(signed long int)i] << 4 | (signed int)data[(signed long int)(i + 1)] >> 4) & 0x3F)];
+    signed int tmp_post_3 = k;
     k = k + 1;
-    out[(signed long int)tmp_post$3] = base64_set[(signed long int)(((signed int)data[(signed long int)(i + 1)] << 2 | (signed int)data[(signed long int)(i + 2)] >> 6) & 0x3F)];
-    signed int tmp_post$4 = k;
+    out[(signed long int)tmp_post_3] = base64_set[(signed long int)(((signed int)data[(signed long int)(i + 1)] << 2 | (signed int)data[(signed long int)(i + 2)] >> 6) & 0x3F)];
+    signed int tmp_post_4 = k;
     k = k + 1;
-    out[(signed long int)tmp_post$4] = base64_set[(signed long int)((signed int)data[(signed long int)(i + 2)] & 0x3F)];
+    out[(signed long int)tmp_post_4] = base64_set[(signed long int)((signed int)data[(signed long int)(i + 2)] & 0x3F)];
   }
   if(!((unsigned long int)i >= len) && !((unsigned long int)k >= outlen + 18446744073709551612ul))
   {
-    signed int tmp_post$5 = k;
+    signed int tmp_post_5 = k;
     k = k + 1;
-    signed int tmp_if_expr$6;
+    signed int tmp_if_expr_6;
     if(!((unsigned long int)i >= len))
-      tmp_if_expr$6 = (signed int)data[(signed long int)i];
+      tmp_if_expr_6 = (signed int)data[(signed long int)i];
 
     else
-      tmp_if_expr$6 = 0;
-    out[(signed long int)tmp_post$5] = base64_set[(signed long int)(tmp_if_expr$6 >> 2 & 0x3F)];
-    signed int tmp_post$7 = k;
+      tmp_if_expr_6 = 0;
+    out[(signed long int)tmp_post_5] = base64_set[(signed long int)(tmp_if_expr_6 >> 2 & 0x3F)];
+    signed int tmp_post_7 = k;
     k = k + 1;
-    signed int tmp_if_expr$8;
+    signed int tmp_if_expr_8;
     if(!((unsigned long int)i >= len))
-      tmp_if_expr$8 = (signed int)data[(signed long int)i];
+      tmp_if_expr_8 = (signed int)data[(signed long int)i];
 
     else
-      tmp_if_expr$8 = 0;
-    signed int tmp_if_expr$9;
+      tmp_if_expr_8 = 0;
+    signed int tmp_if_expr_9;
     if(!((unsigned long int)(1 + i) >= len))
-      tmp_if_expr$9 = (signed int)data[(signed long int)(i + 1)];
+      tmp_if_expr_9 = (signed int)data[(signed long int)(i + 1)];
 
     else
-      tmp_if_expr$9 = 0;
-    out[(signed long int)tmp_post$7] = base64_set[(signed long int)((tmp_if_expr$8 << 4 | tmp_if_expr$9 >> 4) & 0x3F)];
-    signed int tmp_post$10 = k;
+      tmp_if_expr_9 = 0;
+    out[(signed long int)tmp_post_7] = base64_set[(signed long int)((tmp_if_expr_8 << 4 | tmp_if_expr_9 >> 4) & 0x3F)];
+    signed int tmp_post_10 = k;
     k = k + 1;
-    signed int tmp_if_expr$11;
+    signed int tmp_if_expr_11;
     if(!((unsigned long int)(1 + i) >= len))
-      tmp_if_expr$11 = (signed int)data[(signed long int)(i + 1)];
+      tmp_if_expr_11 = (signed int)data[(signed long int)(i + 1)];
 
     else
-      tmp_if_expr$11 = 0;
-    signed int tmp_if_expr$12;
+      tmp_if_expr_11 = 0;
+    signed int tmp_if_expr_12;
     if(!((unsigned long int)(2 + i) >= len))
-      tmp_if_expr$12 = (signed int)data[(signed long int)(i + 2)];
+      tmp_if_expr_12 = (signed int)data[(signed long int)(i + 2)];
 
     else
-      tmp_if_expr$12 = 0;
-    out[(signed long int)tmp_post$10] = base64_set[(signed long int)((tmp_if_expr$11 << 2 | tmp_if_expr$12 >> 6) & 0x3F)];
-    signed int tmp_post$13 = k;
+      tmp_if_expr_12 = 0;
+    out[(signed long int)tmp_post_10] = base64_set[(signed long int)((tmp_if_expr_11 << 2 | tmp_if_expr_12 >> 6) & 0x3F)];
+    signed int tmp_post_13 = k;
     k = k + 1;
-    signed int tmp_if_expr$14;
+    signed int tmp_if_expr_14;
     if(!((unsigned long int)(2 + i) >= len))
-      tmp_if_expr$14 = (signed int)data[(signed long int)(i + 2)];
+      tmp_if_expr_14 = (signed int)data[(signed long int)(i + 2)];
 
     else
-      tmp_if_expr$14 = 0;
-    out[(signed long int)tmp_post$13] = base64_set[(signed long int)(tmp_if_expr$14 & 0x3F)];
+      tmp_if_expr_14 = 0;
+    out[(signed long int)tmp_post_13] = base64_set[(signed long int)(tmp_if_expr_14 & 0x3F)];
   }
 
   out[(signed long int)k] = (char)0;
@@ -12543,9 +12543,9 @@ signed int ci_buf_reset_size(struct ci_buf *buf, signed int req_size)
     if(!(buf->buf == ((char *)NULL)))
       __intl_free((void *)buf->buf);
 
-    signed int return_value_ci_buf_mem_alloc$1;
-    return_value_ci_buf_mem_alloc$1=ci_buf_mem_alloc(buf, req_size);
-    return return_value_ci_buf_mem_alloc$1;
+    signed int return_value_ci_buf_mem_alloc_1;
+    return_value_ci_buf_mem_alloc_1=ci_buf_mem_alloc(buf, req_size);
+    return return_value_ci_buf_mem_alloc_1;
   }
 }
 
@@ -12573,13 +12573,13 @@ void * ci_buffer_alloc(signed int block_size)
   struct mem_buffer_block *block = (struct mem_buffer_block *)(void *)0;
   size = (signed int)((unsigned long int)block_size + (unsigned long int)&((struct mem_buffer_block *)0)->data.ptr[(signed long int)0]);
   type = block_size - 1 >> 6;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(type >= 16))
-    tmp_if_expr$1 = short_buffers[(signed long int)type] != (struct ci_mem_allocator *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = short_buffers[(signed long int)type] != (struct ci_mem_allocator *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     void *return_value;
     return_value=short_buffers[(signed long int)type]->alloc(short_buffers[(signed long int)type], (unsigned long int)size);
@@ -12599,11 +12599,11 @@ void * ci_buffer_alloc(signed int block_size)
 
     }
 
-  void *return_value_malloc$2;
+  void *return_value_malloc_2;
   if(block == ((struct mem_buffer_block *)NULL))
   {
-    return_value_malloc$2=malloc((unsigned long int)size);
-    block = (struct mem_buffer_block *)return_value_malloc$2;
+    return_value_malloc_2=malloc((unsigned long int)size);
+    block = (struct mem_buffer_block *)return_value_malloc_2;
   }
 
   if(block == ((struct mem_buffer_block *)NULL))
@@ -12665,13 +12665,13 @@ unsigned long int ci_buffer_blocksize(const void *data)
   else
   {
     type = block->ID - 1 >> 6;
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(type >= 16))
-      tmp_if_expr$1 = short_buffers[(signed long int)type] != (struct ci_mem_allocator *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = short_buffers[(signed long int)type] != (struct ci_mem_allocator *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       buffer_block_size = (unsigned long int)short_buffer_sizes[(signed long int)type];
 
     else
@@ -12718,13 +12718,13 @@ void ci_buffer_free(void *data)
     {
       block_size = block->ID;
       type = block_size - 1 >> 6;
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(!(type >= 16))
-        tmp_if_expr$1 = short_buffers[(signed long int)type] != (struct ci_mem_allocator *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = short_buffers[(signed long int)type] != (struct ci_mem_allocator *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         short_buffers[(signed long int)type]->free(short_buffers[(signed long int)type], (void *)block);
         if(CI_DEBUG_LEVEL >= 8)
@@ -12773,11 +12773,11 @@ void * ci_buffer_realloc(void *data, signed int block_size)
 {
   signed int buffer_size = 0;
   struct mem_buffer_block *block;
-  void *return_value_ci_buffer_alloc$1;
+  void *return_value_ci_buffer_alloc_1;
   if(data == NULL)
   {
-    return_value_ci_buffer_alloc$1=ci_buffer_alloc(block_size);
-    return return_value_ci_buffer_alloc$1;
+    return_value_ci_buffer_alloc_1=ci_buffer_alloc(block_size);
+    return return_value_ci_buffer_alloc_1;
   }
 
   block = (struct mem_buffer_block *)(data - (signed long int)(unsigned long int)&((struct mem_buffer_block *)0)->data.ptr[(signed long int)0]);
@@ -12798,9 +12798,9 @@ void * ci_buffer_realloc(void *data, signed int block_size)
 
   else
   {
-    unsigned long int return_value_ci_buffer_blocksize$2;
-    return_value_ci_buffer_blocksize$2=ci_buffer_blocksize(data);
-    buffer_size = (signed int)return_value_ci_buffer_blocksize$2;
+    unsigned long int return_value_ci_buffer_blocksize_2;
+    return_value_ci_buffer_blocksize_2=ci_buffer_blocksize(data);
+    buffer_size = (signed int)return_value_ci_buffer_blocksize_2;
     /* assertion buffer_size > 0 */
     assert(buffer_size > 0);
     if(CI_DEBUG_LEVEL >= 8)
@@ -12925,9 +12925,9 @@ struct ci_cache * ci_cache_build(const char *name, const char *cache_type, unsig
     if(type == ((const struct ci_cache_type *)NULL))
     {
       type = &ci_local_cache;
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(cache_type, ci_local_cache.name);
-      if(!(return_value_strcasecmp$1 == 0))
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(cache_type, ci_local_cache.name);
+      if(!(return_value_strcasecmp_1 == 0))
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -12943,9 +12943,9 @@ struct ci_cache * ci_cache_build(const char *name, const char *cache_type, unsig
 
     }
 
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct ci_cache) /*80ul*/ );
-    cache = (struct ci_cache *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct ci_cache) /*80ul*/ );
+    cache = (struct ci_cache *)return_value_malloc_2;
     if(cache == ((struct ci_cache *)NULL))
       return (struct ci_cache *)(void *)0;
 
@@ -13038,14 +13038,14 @@ unsigned long int ci_cache_store_vector_size(struct ci_vector *v)
   {
     vector_data_start = (void *)v->items[(signed long int)(v->count - 1)];
     vector_data_end = (void *)(v->mem + (signed long int)v->max_size);
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(vector_data_start >= vector_data_end))
-      tmp_if_expr$1 = vector_data_start > (void *)v->mem ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = vector_data_start > (void *)v->mem ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
     /* assertion vector_data_start < vector_data_end && vector_data_start > (void *)v->mem */
-    assert(tmp_if_expr$1);
+    assert(tmp_if_expr_1);
     vector_data_size = (signed int)(vector_data_end - vector_data_start);
     vector_indx_size = (signed int)((unsigned long int)(v->count + 1) * sizeof(void *) /*8ul*/ );
     return sizeof(unsigned long int) /*8ul*/  + (unsigned long int)vector_indx_size + (unsigned long int)vector_data_size;
@@ -13071,14 +13071,14 @@ void * ci_cache_store_vector_val(void *buf, const void *val, unsigned long int b
   {
     vector_data_start = (void *)v->items[(signed long int)(v->count - 1)];
     vector_data_end = (const void *)(v->mem + (signed long int)v->max_size);
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(vector_data_start >= vector_data_end))
-      tmp_if_expr$1 = vector_data_start > (void *)v->mem ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = vector_data_start > (void *)v->mem ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
     /* assertion vector_data_start < vector_data_end && vector_data_start > (void *)v->mem */
-    assert(tmp_if_expr$1);
+    assert(tmp_if_expr_1);
     vector_data_size = (signed int)(vector_data_end - vector_data_start);
     vector_indx_size = (signed int)((unsigned long int)(v->count + 1) * sizeof(void *) /*8ul*/ );
     /* assertion buf_size >= sizeof(size_t) + vector_indx_size + vector_data_size */
@@ -13099,9 +13099,9 @@ void * ci_cache_store_vector_val(void *buf, const void *val, unsigned long int b
 // file cache.c line 42
 static const struct ci_cache_type * ci_cache_type_get(const char *name)
 {
-  const void *return_value_ci_registry_get_item$1;
-  return_value_ci_registry_get_item$1=ci_registry_get_item("c-icap::ci_cache_type", name);
-  return (const struct ci_cache_type *)return_value_ci_registry_get_item$1;
+  const void *return_value_ci_registry_get_item_1;
+  return_value_ci_registry_get_item_1=ci_registry_get_item("c-icap::ci_cache_type", name);
+  return (const struct ci_cache_type *)return_value_ci_registry_get_item_1;
 }
 
 // ci_cache_type_register
@@ -13148,9 +13148,9 @@ void ci_cached_file_destroy(struct ci_cached_file *body)
 struct ci_cached_file * ci_cached_file_new(signed int size)
 {
   struct ci_cached_file *body;
-  void *return_value_ci_object_pool_alloc$1;
-  return_value_ci_object_pool_alloc$1=ci_object_pool_alloc(CACHED_FILE_POOL);
-  body = (struct ci_cached_file *)return_value_ci_object_pool_alloc$1;
+  void *return_value_ci_object_pool_alloc_1;
+  return_value_ci_object_pool_alloc_1=ci_object_pool_alloc(CACHED_FILE_POOL);
+  body = (struct ci_cached_file *)return_value_ci_object_pool_alloc_1;
   if(body == ((struct ci_cached_file *)NULL))
     return (struct ci_cached_file *)(void *)0;
 
@@ -13161,9 +13161,9 @@ struct ci_cached_file * ci_cached_file_new(signed int size)
 
     if(CI_BODY_MAX_MEM >= size && size >= 1)
     {
-      void *return_value_ci_buffer_alloc$2;
-      return_value_ci_buffer_alloc$2=ci_buffer_alloc((signed int)((unsigned long int)size * sizeof(char) /*1ul*/ ));
-      body->buf = (char *)return_value_ci_buffer_alloc$2;
+      void *return_value_ci_buffer_alloc_2;
+      return_value_ci_buffer_alloc_2=ci_buffer_alloc((signed int)((unsigned long int)size * sizeof(char) /*1ul*/ ));
+      body->buf = (char *)return_value_ci_buffer_alloc_2;
     }
 
     else
@@ -13229,13 +13229,13 @@ signed int ci_cached_file_read(struct ci_cached_file *body, char *buf, signed in
     else
       if(body->fd >= 1)
       {
-        _Bool tmp_if_expr$1;
+        _Bool tmp_if_expr_1;
         if(!((0x01 & body->flags) == 0))
-          tmp_if_expr$1 = body->unlocked >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = body->unlocked >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
           remains = (signed int)(body->unlocked - body->readpos);
 
         else
@@ -13251,13 +13251,13 @@ signed int ci_cached_file_read(struct ci_cached_file *body, char *buf, signed in
 
       else
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(!((0x01 & body->flags) == 0))
-          tmp_if_expr$2 = body->unlocked >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = body->unlocked >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
           remains = (signed int)(body->unlocked - body->readpos);
 
         else
@@ -13327,8 +13327,8 @@ void ci_cached_file_reset(struct ci_cached_file *body, signed int new_size)
     ci_array_destroy(body->attributes);
 
   body->attributes = (struct ci_array *)(void *)0;
-  signed int return_value_resize_buffer$1;
-  return_value_resize_buffer$1=resize_buffer(body, new_size);
+  signed int return_value_resize_buffer_1;
+  return_value_resize_buffer_1=resize_buffer(body, new_size);
 }
 
 // ci_cached_file_write
@@ -13352,13 +13352,13 @@ signed int ci_cached_file_write(struct ci_cached_file *body, const char *buf, si
 
   }
 
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  signed int return_value_do_write$7;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  signed int return_value_do_write_7;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
   if(len == 0)
     return 0;
 
@@ -13373,14 +13373,14 @@ signed int ci_cached_file_write(struct ci_cached_file *body, const char *buf, si
         {
           if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
           {
-            return_value___errno_location$1=__errno_location();
-            __log_error((void *)0, "Cannot write to file!!! (errno=%d)\n", *return_value___errno_location$1);
+            return_value___errno_location_1=__errno_location();
+            __log_error((void *)0, "Cannot write to file!!! (errno=%d)\n", *return_value___errno_location_1);
           }
 
           if(!(CI_DEBUG_STDOUT == 0))
           {
-            return_value___errno_location$2=__errno_location();
-            printf("Cannot write to file!!! (errno=%d)\n", *return_value___errno_location$2);
+            return_value___errno_location_2=__errno_location();
+            printf("Cannot write to file!!! (errno=%d)\n", *return_value___errno_location_2);
           }
 
         }
@@ -13415,16 +13415,16 @@ signed int ci_cached_file_write(struct ci_cached_file *body, const char *buf, si
         }
 
         ret=do_write(body->fd, (const void *)body->buf, (unsigned long int)body->endpos);
-        _Bool tmp_if_expr$8;
+        _Bool tmp_if_expr_8;
         if(ret >= 0)
         {
-          return_value_do_write$7=do_write(body->fd, (const void *)buf, (unsigned long int)len);
-          tmp_if_expr$8 = return_value_do_write$7 >= 0 ? (_Bool)1 : (_Bool)0;
+          return_value_do_write_7=do_write(body->fd, (const void *)buf, (unsigned long int)len);
+          tmp_if_expr_8 = return_value_do_write_7 >= 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (_Bool)0;
+        if(tmp_if_expr_8)
         {
           body->endpos = body->endpos + (signed long int)len;
           return len;
@@ -13436,16 +13436,16 @@ signed int ci_cached_file_write(struct ci_cached_file *body, const char *buf, si
           {
             if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
             {
-              return_value___errno_location$3=__errno_location();
-              return_value_strerror$4=strerror(*return_value___errno_location$3);
-              __log_error((void *)0, "Cannot write to cachefile: %s\n", return_value_strerror$4);
+              return_value___errno_location_3=__errno_location();
+              return_value_strerror_4=strerror(*return_value___errno_location_3);
+              __log_error((void *)0, "Cannot write to cachefile: %s\n", return_value_strerror_4);
             }
 
             if(!(CI_DEBUG_STDOUT == 0))
             {
-              return_value___errno_location$5=__errno_location();
-              return_value_strerror$6=strerror(*return_value___errno_location$5);
-              printf("Cannot write to cachefile: %s\n", return_value_strerror$6);
+              return_value___errno_location_5=__errno_location();
+              return_value_strerror_6=strerror(*return_value___errno_location_5);
+              printf("Cannot write to cachefile: %s\n", return_value_strerror_6);
             }
 
           }
@@ -13539,19 +13539,19 @@ void ci_cfg_lib_reset()
 // file include/cfg_param.h line 171
 signed int ci_cfg_onoff(const char *directive, const char **argv, void *setdata)
 {
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   if(setdata == NULL)
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(argv == ((const char **)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -13568,15 +13568,15 @@ signed int ci_cfg_onoff(const char *directive, const char **argv, void *setdata)
 
     else
     {
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(argv[(signed long int)0], "on");
-      if(return_value_strcasecmp$3 == 0)
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(argv[(signed long int)0], "on");
+      if(return_value_strcasecmp_3 == 0)
         *((signed int *)setdata) = 1;
 
       else
       {
-        return_value_strcasecmp$2=strcasecmp(argv[(signed long int)0], "off");
-        if(return_value_strcasecmp$2 == 0)
+        return_value_strcasecmp_2=strcasecmp(argv[(signed long int)0], "off");
+        if(return_value_strcasecmp_2 == 0)
           *((signed int *)setdata) = 0;
 
         else
@@ -13603,19 +13603,19 @@ signed int ci_cfg_set_int(const char *directive, const char **argv, void *setdat
 {
   signed int val = 0;
   char *end;
-  signed int *return_value___errno_location$4;
+  signed int *return_value___errno_location_4;
   if(setdata == NULL)
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(argv == ((const char **)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -13632,16 +13632,16 @@ signed int ci_cfg_set_int(const char *directive, const char **argv, void *setdat
 
     else
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
-      signed long long int return_value_strtoll$3;
-      return_value_strtoll$3=strtoll(argv[(signed long int)0], &end, 10);
-      val = (signed int)return_value_strtoll$3;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
+      signed long long int return_value_strtoll_3;
+      return_value_strtoll_3=strtoll(argv[(signed long int)0], &end, 10);
+      val = (signed int)return_value_strtoll_3;
       if(val == 0)
       {
-        return_value___errno_location$4=__errno_location();
-        if(!(*return_value___errno_location$4 == 0))
+        return_value___errno_location_4=__errno_location();
+        if(!(*return_value___errno_location_4 == 0))
           return 0;
 
       }
@@ -13671,22 +13671,22 @@ signed int ci_cfg_set_str(const char *directive, const char **argv, void *setdat
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(argv == ((const char **)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 0;
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(argv[(signed long int)0]);
-      void *return_value_ci_cfg_alloc_mem$3;
-      return_value_ci_cfg_alloc_mem$3=ci_cfg_alloc_mem((signed int)(return_value_strlen$2 + (unsigned long int)1));
-      *((char **)setdata) = (char *)return_value_ci_cfg_alloc_mem$3;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(argv[(signed long int)0]);
+      void *return_value_ci_cfg_alloc_mem_3;
+      return_value_ci_cfg_alloc_mem_3=ci_cfg_alloc_mem((signed int)(return_value_strlen_2 + (unsigned long int)1));
+      *((char **)setdata) = (char *)return_value_ci_cfg_alloc_mem_3;
       if(*((char **)setdata) == ((char *)NULL))
         return 0;
 
@@ -13715,19 +13715,19 @@ signed int ci_cfg_size_long(const char *directive, const char **argv, void *setd
 {
   signed long int val = (signed long int)0;
   char *end;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   if(setdata == NULL)
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(argv == ((const char **)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -13744,42 +13744,42 @@ signed int ci_cfg_size_long(const char *directive, const char **argv, void *setd
 
     else
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
       val=strtol(argv[(signed long int)0], &end, 10);
-      _Bool tmp_if_expr$4;
+      _Bool tmp_if_expr_4;
       if(val == 0l)
       {
-        return_value___errno_location$3=__errno_location();
-        tmp_if_expr$4 = *return_value___errno_location$3 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_3=__errno_location();
+        tmp_if_expr_4 = *return_value___errno_location_3 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(!(val >= 0l) || tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(!(val >= 0l) || tmp_if_expr_4)
         return 0;
 
       else
       {
-        _Bool tmp_if_expr$6;
+        _Bool tmp_if_expr_6;
         if((signed int)*end == 107)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = (signed int)*end == 75 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (signed int)*end == 75 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
           val = val * (signed long int)1024;
 
         else
         {
-          _Bool tmp_if_expr$5;
+          _Bool tmp_if_expr_5;
           if((signed int)*end == 109)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = (signed int)*end == 77 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = (signed int)*end == 77 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
             val = val * (signed long int)1024 * (signed long int)1024;
 
         }
@@ -13808,19 +13808,19 @@ signed int ci_cfg_size_off(const char *directive, const char **argv, void *setda
 {
   signed long int val = (signed long int)0;
   char *end;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   if(setdata == NULL)
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(argv == ((const char **)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = argv[(signed long int)0] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -13837,42 +13837,42 @@ signed int ci_cfg_size_off(const char *directive, const char **argv, void *setda
 
     else
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
       val=strtoll(argv[(signed long int)0], &end, 10);
-      _Bool tmp_if_expr$4;
+      _Bool tmp_if_expr_4;
       if(val == 0l)
       {
-        return_value___errno_location$3=__errno_location();
-        tmp_if_expr$4 = *return_value___errno_location$3 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_3=__errno_location();
+        tmp_if_expr_4 = *return_value___errno_location_3 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(!(val >= 0l) || tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(!(val >= 0l) || tmp_if_expr_4)
         return 0;
 
       else
       {
-        _Bool tmp_if_expr$6;
+        _Bool tmp_if_expr_6;
         if((signed int)*end == 107)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = (signed int)*end == 75 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (signed int)*end == 75 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
           val = val * (signed long int)1024;
 
         else
         {
-          _Bool tmp_if_expr$5;
+          _Bool tmp_if_expr_5;
           if((signed int)*end == 109)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = (signed int)*end == 77 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = (signed int)*end == 77 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
             val = val * (signed long int)1024 * (signed long int)1024;
 
         }
@@ -13907,45 +13907,45 @@ struct ci_connection * ci_client_connect_to(char *servername, signed int port, s
   unsigned int addrlen = (unsigned int)0;
   char errBuf[512l];
   signed int errNo;
-  signed int *return_value___errno_location$1;
-  char *return_value_ci_strerror$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_ci_strerror$4;
-  signed int *return_value___errno_location$6;
-  signed int *return_value___errno_location$7;
-  char *return_value_ci_strerror$8;
-  signed int *return_value___errno_location$9;
-  signed int *return_value___errno_location$10;
-  char *return_value_ci_strerror$11;
-  char *return_value_ci_strerror$13;
-  char *return_value_ci_strerror$14;
-  signed int *return_value___errno_location$16;
-  char *return_value_ci_strerror$17;
-  signed int *return_value___errno_location$18;
-  char *return_value_ci_strerror$19;
+  signed int *return_value___errno_location_1;
+  char *return_value_ci_strerror_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_ci_strerror_4;
+  signed int *return_value___errno_location_6;
+  signed int *return_value___errno_location_7;
+  char *return_value_ci_strerror_8;
+  signed int *return_value___errno_location_9;
+  signed int *return_value___errno_location_10;
+  char *return_value_ci_strerror_11;
+  char *return_value_ci_strerror_13;
+  char *return_value_ci_strerror_14;
+  signed int *return_value___errno_location_16;
+  char *return_value_ci_strerror_17;
+  signed int *return_value___errno_location_18;
+  char *return_value_ci_strerror_19;
   if(connection == ((struct ci_connection *)NULL))
     return (struct ci_connection *)(void *)0;
 
   else
   {
-    signed int return_value_ci_host_to_sockaddr_t$5;
-    return_value_ci_host_to_sockaddr_t$5=ci_host_to_sockaddr_t(servername, &connection->srvaddr, proto);
-    if(return_value_ci_host_to_sockaddr_t$5 == 0)
+    signed int return_value_ci_host_to_sockaddr_t_5;
+    return_value_ci_host_to_sockaddr_t_5=ci_host_to_sockaddr_t(servername, &connection->srvaddr, proto);
+    if(return_value_ci_host_to_sockaddr_t_5 == 0)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
         if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
         {
-          return_value___errno_location$1=__errno_location();
-          return_value_ci_strerror$2=ci_strerror(*return_value___errno_location$1, errBuf, sizeof(char [512l]) /*512ul*/ );
-          __log_error((void *)0, "Error getting address info for host '%s': %s\n", servername, return_value_ci_strerror$2);
+          return_value___errno_location_1=__errno_location();
+          return_value_ci_strerror_2=ci_strerror(*return_value___errno_location_1, errBuf, sizeof(char [512l]) /*512ul*/ );
+          __log_error((void *)0, "Error getting address info for host '%s': %s\n", servername, return_value_ci_strerror_2);
         }
 
         if(!(CI_DEBUG_STDOUT == 0))
         {
-          return_value___errno_location$3=__errno_location();
-          return_value_ci_strerror$4=ci_strerror(*return_value___errno_location$3, errBuf, sizeof(char [512l]) /*512ul*/ );
-          printf("Error getting address info for host '%s': %s\n", servername, return_value_ci_strerror$4);
+          return_value___errno_location_3=__errno_location();
+          return_value_ci_strerror_4=ci_strerror(*return_value___errno_location_3, errBuf, sizeof(char [512l]) /*512ul*/ );
+          printf("Error getting address info for host '%s': %s\n", servername, return_value_ci_strerror_4);
         }
 
       }
@@ -13965,18 +13965,18 @@ struct ci_connection * ci_client_connect_to(char *servername, signed int port, s
         {
           if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
           {
-            return_value___errno_location$6=__errno_location();
-            return_value___errno_location$7=__errno_location();
-            return_value_ci_strerror$8=ci_strerror(*return_value___errno_location$7, errBuf, sizeof(char [512l]) /*512ul*/ );
-            __log_error((void *)0, "Error opening socket :%d:%s....\n", *return_value___errno_location$6, return_value_ci_strerror$8);
+            return_value___errno_location_6=__errno_location();
+            return_value___errno_location_7=__errno_location();
+            return_value_ci_strerror_8=ci_strerror(*return_value___errno_location_7, errBuf, sizeof(char [512l]) /*512ul*/ );
+            __log_error((void *)0, "Error opening socket :%d:%s....\n", *return_value___errno_location_6, return_value_ci_strerror_8);
           }
 
           if(!(CI_DEBUG_STDOUT == 0))
           {
-            return_value___errno_location$9=__errno_location();
-            return_value___errno_location$10=__errno_location();
-            return_value_ci_strerror$11=ci_strerror(*return_value___errno_location$10, errBuf, sizeof(char [512l]) /*512ul*/ );
-            printf("Error opening socket :%d:%s....\n", *return_value___errno_location$9, return_value_ci_strerror$11);
+            return_value___errno_location_9=__errno_location();
+            return_value___errno_location_10=__errno_location();
+            return_value_ci_strerror_11=ci_strerror(*return_value___errno_location_10, errBuf, sizeof(char [512l]) /*512ul*/ );
+            printf("Error opening socket :%d:%s....\n", *return_value___errno_location_9, return_value_ci_strerror_11);
           }
 
         }
@@ -13988,26 +13988,26 @@ struct ci_connection * ci_client_connect_to(char *servername, signed int port, s
       else
       {
         addrlen = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-        signed int return_value_connect$15;
-        return_value_connect$15=connect(connection->fd, (struct sockaddr *)&connection->srvaddr.sockaddr, addrlen);
-        if(!(return_value_connect$15 == 0))
+        signed int return_value_connect_15;
+        return_value_connect_15=connect(connection->fd, (struct sockaddr *)&connection->srvaddr.sockaddr, addrlen);
+        if(!(return_value_connect_15 == 0))
         {
-          signed int *return_value___errno_location$12;
-          return_value___errno_location$12=__errno_location();
-          errNo = *return_value___errno_location$12;
+          signed int *return_value___errno_location_12;
+          return_value___errno_location_12=__errno_location();
+          errNo = *return_value___errno_location_12;
           ci_sockaddr_t_to_host(&connection->srvaddr, hostname, 256);
           if(CI_DEBUG_LEVEL >= 1)
           {
             if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
             {
-              return_value_ci_strerror$13=ci_strerror(errNo, errBuf, sizeof(char [512l]) /*512ul*/ );
-              __log_error((void *)0, "Error connecting to host  '%s': %s \n", (const void *)hostname, return_value_ci_strerror$13);
+              return_value_ci_strerror_13=ci_strerror(errNo, errBuf, sizeof(char [512l]) /*512ul*/ );
+              __log_error((void *)0, "Error connecting to host  '%s': %s \n", (const void *)hostname, return_value_ci_strerror_13);
             }
 
             if(!(CI_DEBUG_STDOUT == 0))
             {
-              return_value_ci_strerror$14=ci_strerror(errNo, errBuf, sizeof(char [512l]) /*512ul*/ );
-              printf("Error connecting to host  '%s': %s \n", (const void *)hostname, return_value_ci_strerror$14);
+              return_value_ci_strerror_14=ci_strerror(errNo, errBuf, sizeof(char [512l]) /*512ul*/ );
+              printf("Error connecting to host  '%s': %s \n", (const void *)hostname, return_value_ci_strerror_14);
             }
 
           }
@@ -14018,24 +14018,24 @@ struct ci_connection * ci_client_connect_to(char *servername, signed int port, s
         }
 
         addrlen = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-        signed int return_value_getsockname$20;
-        return_value_getsockname$20=getsockname(connection->fd, (struct sockaddr *)&connection->claddr.sockaddr, &addrlen);
-        if(!(return_value_getsockname$20 == 0))
+        signed int return_value_getsockname_20;
+        return_value_getsockname_20=getsockname(connection->fd, (struct sockaddr *)&connection->claddr.sockaddr, &addrlen);
+        if(!(return_value_getsockname_20 == 0))
         {
           if(CI_DEBUG_LEVEL >= 1)
           {
             if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
             {
-              return_value___errno_location$16=__errno_location();
-              return_value_ci_strerror$17=ci_strerror(*return_value___errno_location$16, errBuf, sizeof(char [512l]) /*512ul*/ );
-              __log_error((void *)0, "Error getting client sockname: %s\n", return_value_ci_strerror$17);
+              return_value___errno_location_16=__errno_location();
+              return_value_ci_strerror_17=ci_strerror(*return_value___errno_location_16, errBuf, sizeof(char [512l]) /*512ul*/ );
+              __log_error((void *)0, "Error getting client sockname: %s\n", return_value_ci_strerror_17);
             }
 
             if(!(CI_DEBUG_STDOUT == 0))
             {
-              return_value___errno_location$18=__errno_location();
-              return_value_ci_strerror$19=ci_strerror(*return_value___errno_location$18, errBuf, sizeof(char [512l]) /*512ul*/ );
-              printf("Error getting client sockname: %s\n", return_value_ci_strerror$19);
+              return_value___errno_location_18=__errno_location();
+              return_value_ci_strerror_19=ci_strerror(*return_value___errno_location_18, errBuf, sizeof(char [512l]) /*512ul*/ );
+              printf("Error getting client sockname: %s\n", return_value_ci_strerror_19);
             }
 
           }
@@ -14061,10 +14061,10 @@ struct ci_connection * ci_client_connect_to(char *servername, signed int port, s
 // file request_common.c line 962
 signed int ci_client_get_server_options(struct ci_request *req, signed int timeout)
 {
-  signed int return_value_client_create_request$1;
-  return_value_client_create_request$1=client_create_request(req, req->req_server, req->service, 0x01);
-  signed int return_value_client_parse_icap_header$2;
-  if(!(return_value_client_create_request$1 == 1))
+  signed int return_value_client_create_request_1;
+  return_value_client_create_request_1=client_create_request(req, req->req_server, req->service, 0x01);
+  signed int return_value_client_parse_icap_header_2;
+  if(!(return_value_client_create_request_1 == 1))
     return -1;
 
   else
@@ -14073,14 +14073,14 @@ signed int ci_client_get_server_options(struct ci_request *req, signed int timeo
     do
     {
       ci_wait_for_data(req->connection->fd, timeout, 0x1);
-      signed int return_value_net_data_read$3;
-      return_value_net_data_read$3=net_data_read(req);
-      if(return_value_net_data_read$3 == -1)
+      signed int return_value_net_data_read_3;
+      return_value_net_data_read_3=net_data_read(req);
+      if(return_value_net_data_read_3 == -1)
         return -1;
 
-      return_value_client_parse_icap_header$2=client_parse_icap_header(req, req->response_header);
+      return_value_client_parse_icap_header_2=client_parse_icap_header(req, req->response_header);
     }
-    while(return_value_client_parse_icap_header$2 == 2);
+    while(return_value_client_parse_icap_header_2 == 2);
     ci_headers_unpack(req->response_header);
     get_request_options(req, req->response_header);
     return 1;
@@ -14107,10 +14107,10 @@ signed int ci_client_icapfilter(struct ci_request *req, signed int timeout, stru
   signed int preview_status;
   char *buf;
   const char *val;
-  signed int return_value_client_create_request$1;
-  return_value_client_create_request$1=client_create_request(req, req->req_server, req->service, req->type);
-  signed int return_value_client_parse_icap_header$3;
-  if(!(return_value_client_create_request$1 == 1))
+  signed int return_value_client_create_request_1;
+  return_value_client_create_request_1=client_create_request(req, req->req_server, req->service, req->type);
+  signed int return_value_client_parse_icap_header_3;
+  if(!(return_value_client_create_request_1 == 1))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -14152,9 +14152,9 @@ signed int ci_client_icapfilter(struct ci_request *req, signed int timeout, stru
     if(!(pre_eof == 0))
       req->eof_received = 1;
 
-    signed int return_value_client_build_headers$2;
-    return_value_client_build_headers$2=client_build_headers(req, (signed int)(req_headers != (struct ci_headers_list *)(void *)0), (signed int)(resp_headers != (struct ci_headers_list *)(void *)0), (signed int)(data_source != (void *)0));
-    if(return_value_client_build_headers$2 == 0)
+    signed int return_value_client_build_headers_2;
+    return_value_client_build_headers_2=client_build_headers(req, (signed int)(req_headers != (struct ci_headers_list *)(void *)0), (signed int)(resp_headers != (struct ci_headers_list *)(void *)0), (signed int)(data_source != (void *)0));
+    if(return_value_client_build_headers_2 == 0)
       return -1;
 
     else
@@ -14232,14 +14232,14 @@ signed int ci_client_icapfilter(struct ci_request *req, signed int timeout, stru
           do
           {
             ci_wait_for_data(req->connection->fd, timeout, 0x1);
-            signed int return_value_net_data_read$4;
-            return_value_net_data_read$4=net_data_read(req);
-            if(return_value_net_data_read$4 == -1)
+            signed int return_value_net_data_read_4;
+            return_value_net_data_read_4=net_data_read(req);
+            if(return_value_net_data_read_4 == -1)
               return -1;
 
-            return_value_client_parse_icap_header$3=client_parse_icap_header(req, req->response_header);
+            return_value_client_parse_icap_header_3=client_parse_icap_header(req, req->response_header);
           }
-          while(return_value_client_parse_icap_header$3 == 2);
+          while(return_value_client_parse_icap_header_3 == 2);
           sscanf(req->response_header->buf, "ICAP/%d.%d %d", &v1, &v2, &preview_status);
           if(CI_DEBUG_LEVEL >= 3)
           {
@@ -14406,9 +14406,9 @@ void ci_command_schedule_on(const char *name, void *data, signed long int time)
   sch.name[(signed long int)(128 - 1)] = (char)0;
   sch.when = time;
   sch.data = data;
-  const void *return_value_ci_list_search$1;
-  return_value_ci_list_search$1=ci_list_search(COMMANDS_QUEUE, (const void *)&sch);
-  if(!(return_value_ci_list_search$1 == NULL))
+  const void *return_value_ci_list_search_1;
+  return_value_ci_list_search_1=ci_list_search(COMMANDS_QUEUE, (const void *)&sch);
+  if(!(return_value_ci_list_search_1 == NULL))
   {
     if(CI_DEBUG_LEVEL >= 7)
     {
@@ -14499,9 +14499,9 @@ struct ci_mem_allocator * ci_create_pack_allocator(char *memblock, unsigned long
 {
   struct ci_mem_allocator *allocator;
   struct pack_allocator *pack_alloc;
-  void *return_value_ci_object_pool_alloc$1;
-  return_value_ci_object_pool_alloc$1=ci_object_pool_alloc(PACK_ALLOCATOR_POOL);
-  pack_alloc = (struct pack_allocator *)return_value_ci_object_pool_alloc$1;
+  void *return_value_ci_object_pool_alloc_1;
+  return_value_ci_object_pool_alloc_1=ci_object_pool_alloc(PACK_ALLOCATOR_POOL);
+  pack_alloc = (struct pack_allocator *)return_value_ci_object_pool_alloc_1;
   if(pack_alloc == ((struct pack_allocator *)NULL))
     return (struct ci_mem_allocator *)(void *)0;
 
@@ -14516,9 +14516,9 @@ struct ci_mem_allocator * ci_create_pack_allocator(char *memblock, unsigned long
 
     else
     {
-      struct ci_mem_allocator *return_value_init_pack_allocator$2;
-      return_value_init_pack_allocator$2=init_pack_allocator(allocator, pack_alloc, memblock, size, 2);
-      return return_value_init_pack_allocator$2;
+      struct ci_mem_allocator *return_value_init_pack_allocator_2;
+      return_value_init_pack_allocator_2=init_pack_allocator(allocator, pack_alloc, memblock, size, 2);
+      return return_value_init_pack_allocator_2;
     }
   }
 }
@@ -14539,9 +14539,9 @@ struct ci_mem_allocator * ci_create_pack_allocator_on_memblock(char *memblock, u
     allocator = (struct ci_mem_allocator *)memblock;
     memblock = memblock + (signed long int)(sizeof(struct ci_mem_allocator) /*56ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1));
     size = size - (sizeof(struct ci_mem_allocator) /*56ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1));
-    struct ci_mem_allocator *return_value_init_pack_allocator$1;
-    return_value_init_pack_allocator$1=init_pack_allocator(allocator, pack_alloc, memblock, size, 0);
-    return return_value_init_pack_allocator$1;
+    struct ci_mem_allocator *return_value_init_pack_allocator_1;
+    return_value_init_pack_allocator_1=init_pack_allocator(allocator, pack_alloc, memblock, size, 0);
+    return return_value_init_pack_allocator_1;
   }
 }
 
@@ -14552,9 +14552,9 @@ struct ci_mem_allocator * ci_create_pool_allocator(signed int items_size)
   struct pool_allocator *palloc;
   struct ci_mem_allocator *allocator;
   palloc=pool_allocator_build(items_size, 0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ci_mem_allocator) /*56ul*/ );
-  allocator = (struct ci_mem_allocator *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ci_mem_allocator) /*56ul*/ );
+  allocator = (struct ci_mem_allocator *)return_value_malloc_1;
   if(allocator == ((struct ci_mem_allocator *)NULL))
     return (struct ci_mem_allocator *)(void *)0;
 
@@ -14579,9 +14579,9 @@ struct ci_mem_allocator * ci_create_serial_allocator(signed int size)
   struct ci_mem_allocator *allocator;
   struct serial_allocator *sdata;
   sdata=serial_allocator_build(size);
-  void *return_value_serial_allocation$1;
-  return_value_serial_allocation$1=serial_allocation(sdata, sizeof(struct ci_mem_allocator) /*56ul*/ );
-  allocator = (struct ci_mem_allocator *)return_value_serial_allocation$1;
+  void *return_value_serial_allocation_1;
+  return_value_serial_allocation_1=serial_allocation(sdata, sizeof(struct ci_mem_allocator) /*56ul*/ );
+  allocator = (struct ci_mem_allocator *)return_value_serial_allocation_1;
   if(allocator == ((struct ci_mem_allocator *)NULL))
   {
     ci_buffer_free((void *)sdata);
@@ -14646,9 +14646,9 @@ signed int ci_dlib_entry(const char *name, const char *file, void *handle)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct dlib_entry) /*32ul*/ );
-    dl_e = (struct dlib_entry *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct dlib_entry) /*32ul*/ );
+    dl_e = (struct dlib_entry *)return_value_malloc_1;
     if(dl_e == ((struct dlib_entry *)NULL))
       return 0;
 
@@ -14705,9 +14705,9 @@ const struct ci_array_item * ci_dyn_array_add(struct ci_dyn_array *array, const 
   signed int name_size;
   if(array->count == array->max_items)
   {
-    void *return_value_ci_buffer_realloc$1;
-    return_value_ci_buffer_realloc$1=ci_buffer_realloc((void *)array->items, (signed int)((unsigned long int)(array->max_items + 32) * sizeof(struct ci_array_item *) /*8ul*/ ));
-    items_space = (struct ci_array_item **)return_value_ci_buffer_realloc$1;
+    void *return_value_ci_buffer_realloc_1;
+    return_value_ci_buffer_realloc_1=ci_buffer_realloc((void *)array->items, (signed int)((unsigned long int)(array->max_items + 32) * sizeof(struct ci_array_item *) /*8ul*/ ));
+    items_space = (struct ci_array_item **)return_value_ci_buffer_realloc_1;
     if(items_space == ((struct ci_array_item **)NULL))
       return (const struct ci_array_item *)(void *)0;
 
@@ -14737,9 +14737,9 @@ const struct ci_array_item * ci_dyn_array_add(struct ci_dyn_array *array, const 
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(name);
-    name_size = (signed int)(return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(name);
+    name_size = (signed int)(return_value_strlen_2 + (unsigned long int)1);
     void *return_value_1;
     return_value_1=packer->alloc(packer, (unsigned long int)name_size);
     item->name = (char *)return_value_1;
@@ -14748,13 +14748,13 @@ const struct ci_array_item * ci_dyn_array_add(struct ci_dyn_array *array, const 
 
     else
       item->value = (void *)0;
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(item->name == ((char *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (!(item->value != NULL) ? (size > (unsigned long int)0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (!(item->value != NULL) ? (size > (unsigned long int)0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       if(CI_DEBUG_LEVEL >= 2)
       {
@@ -14784,9 +14784,9 @@ const struct ci_array_item * ci_dyn_array_add(struct ci_dyn_array *array, const 
 
       else
         item->value = (void *)value;
-      signed int tmp_post$4 = array->count;
+      signed int tmp_post_4 = array->count;
       array->count = array->count + 1;
-      array->items[(signed long int)tmp_post$4] = item;
+      array->items[(signed long int)tmp_post_4] = item;
       return item;
     }
   }
@@ -14830,9 +14830,9 @@ struct ci_dyn_array * ci_dyn_array_new(unsigned long int size)
   if(!(item_size >= sizeof(struct ci_array_item) /*16ul*/ ))
     item_size = sizeof(struct ci_array_item) /*16ul*/ ;
 
-  struct ci_dyn_array *return_value_ci_dyn_array_new2$1;
-  return_value_ci_dyn_array_new2$1=ci_dyn_array_new2(items_count, item_size);
-  return return_value_ci_dyn_array_new2$1;
+  struct ci_dyn_array *return_value_ci_dyn_array_new2_1;
+  return_value_ci_dyn_array_new2_1=ci_dyn_array_new2(items_count, item_size);
+  return return_value_ci_dyn_array_new2_1;
 }
 
 // ci_dyn_array_new2
@@ -14863,9 +14863,9 @@ struct ci_dyn_array * ci_dyn_array_new2(unsigned long int items, unsigned long i
         items = (unsigned long int)32;
 
       array->max_items = (signed int)items;
-      void *return_value_ci_buffer_alloc$1;
-      return_value_ci_buffer_alloc$1=ci_buffer_alloc((signed int)(items * sizeof(struct ci_array_item *) /*8ul*/ ));
-      array->items = (struct ci_array_item **)return_value_ci_buffer_alloc$1;
+      void *return_value_ci_buffer_alloc_1;
+      return_value_ci_buffer_alloc_1=ci_buffer_alloc((signed int)(items * sizeof(struct ci_array_item *) /*8ul*/ ));
+      array->items = (struct ci_array_item **)return_value_ci_buffer_alloc_1;
       array->count = 0;
       array->alloc = packer;
       return array;
@@ -14879,11 +14879,11 @@ const void * ci_dyn_array_search(struct ci_dyn_array *array, const char *name)
 {
   struct ci_array_item *item;
   signed int i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(i >= array->count); i = i + 1)
   {
-    return_value_strcmp$1=strcmp(array->items[(signed long int)i]->name, name);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(array->items[(signed long int)i]->name, name);
+    if(return_value_strcmp_1 == 0)
       return array->items[(signed long int)i]->value;
 
   }
@@ -14900,9 +14900,9 @@ signed int ci_extend_filetype(struct ci_magics_db *db, struct ci_request *req, c
 
   else
     heads = (struct ci_headers_list *)(void *)0;
-  signed int return_value_extend_object_type$1;
-  return_value_extend_object_type$1=extend_object_type(db, heads, buf, len, iscompressed);
-  return return_value_extend_object_type$1;
+  signed int return_value_extend_object_type_1;
+  return_value_extend_object_type_1=extend_object_type(db, heads, buf, len, iscompressed);
+  return return_value_extend_object_type_1;
 }
 
 // ci_filetype
@@ -14971,7 +14971,7 @@ signed int ci_format_text(struct ci_request *req_data, const char *fmt, char *bu
   s = fmt;
   b = buffer;
   remains = len - 1;
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   while(!(*s == 0))
   {
     if(!(remains >= 1))
@@ -15024,8 +15024,8 @@ signed int ci_format_text(struct ci_request *req_data, const char *fmt, char *bu
 
           else
           {
-            return_value_malloc$1=malloc((unsigned long int)(space + (unsigned int)1) * sizeof(char) /*1ul*/ );
-            lb = (char *)return_value_malloc$1;
+            return_value_malloc_1=malloc((unsigned long int)(space + (unsigned int)1) * sizeof(char) /*1ul*/ );
+            lb = (char *)return_value_malloc_1;
             if(!(lb == ((char *)NULL)))
             {
               val_len=fmte->format(req_data, lb, (signed int)space, parameter);
@@ -15076,22 +15076,22 @@ signed int ci_format_text(struct ci_request *req_data, const char *fmt, char *bu
 
       else
       {
-        char *tmp_post$2 = b;
+        char *tmp_post_2 = b;
         b = b + 1l;
-        const char *tmp_post$3 = s;
+        const char *tmp_post_3 = s;
         s = s + 1l;
-        *tmp_post$2 = *tmp_post$3;
+        *tmp_post_2 = *tmp_post_3;
         remains = remains - 1;
       }
     }
 
     else
     {
-      char *tmp_post$4 = b;
+      char *tmp_post_4 = b;
       b = b + 1l;
-      const char *tmp_post$5 = s;
+      const char *tmp_post_5 = s;
       s = s + 1l;
-      *tmp_post$4 = *tmp_post$5;
+      *tmp_post_4 = *tmp_post_5;
       remains = remains - 1;
     }
   }
@@ -15107,9 +15107,9 @@ signed int ci_get_data_group_id(struct ci_magics_db *db, const char *group)
   i = 0;
   for( ; !(i >= db->groups_num); i = i + 1)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(group, (db->groups + (signed long int)i)->name);
-    if(return_value_strcasecmp$1 == 0)
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(group, (db->groups + (signed long int)i)->name);
+    if(return_value_strcasecmp_1 == 0)
       return i;
 
   }
@@ -15124,9 +15124,9 @@ signed int ci_get_data_type_id(struct ci_magics_db *db, const char *name)
   i = 0;
   for( ; !(i >= db->types_num); i = i + 1)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(name, (db->types + (signed long int)i)->name);
-    if(return_value_strcasecmp$1 == 0)
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(name, (db->types + (signed long int)i)->name);
+    if(return_value_strcasecmp_1 == 0)
       return i;
 
   }
@@ -15307,7 +15307,7 @@ const char * ci_headers_add(struct ci_headers_list *h, const char *line)
   signed int len;
   signed int linelen;
   signed int i = 0;
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_4;
   if(!(h->packed == 0))
     return (const char *)(void *)0;
 
@@ -15316,9 +15316,9 @@ const char * ci_headers_add(struct ci_headers_list *h, const char *line)
     if(h->used == h->size)
     {
       len = h->size + 64;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)h->headers, (unsigned long int)len * sizeof(char *) /*8ul*/ );
-      newspace = (char **)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)h->headers, (unsigned long int)len * sizeof(char *) /*8ul*/ );
+      newspace = (char **)return_value_realloc_1;
       if(newspace == ((char **)NULL))
       {
         if(CI_DEBUG_LEVEL >= 1)
@@ -15338,17 +15338,17 @@ const char * ci_headers_add(struct ci_headers_list *h, const char *line)
       h->size = len;
     }
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(line);
-    linelen = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(line);
+    linelen = (signed int)return_value_strlen_2;
     len = h->bufsize;
     for( ; !(len + -h->bufused >= 4 + linelen); len = len + 4096)
       ;
     if(!(h->bufsize >= len))
     {
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)h->buf, (unsigned long int)len * sizeof(char) /*1ul*/ );
-      newbuf = (char *)return_value_realloc$3;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)h->buf, (unsigned long int)len * sizeof(char) /*1ul*/ );
+      newbuf = (char *)return_value_realloc_3;
       if(newbuf == ((char *)NULL))
       {
         if(CI_DEBUG_LEVEL >= 1)
@@ -15370,8 +15370,8 @@ const char * ci_headers_add(struct ci_headers_list *h, const char *line)
       i = 1;
       for( ; !(i >= h->used); i = i + 1)
       {
-        return_value_strlen$4=strlen(h->headers[(signed long int)(i - 1)]);
-        h->headers[(signed long int)i] = h->headers[(signed long int)(i - 1)] + (signed long int)return_value_strlen$4 + (signed long int)2;
+        return_value_strlen_4=strlen(h->headers[(signed long int)(i - 1)]);
+        h->headers[(signed long int)i] = h->headers[(signed long int)(i - 1)] + (signed long int)return_value_strlen_4 + (signed long int)2;
       }
     }
 
@@ -15382,9 +15382,9 @@ const char * ci_headers_add(struct ci_headers_list *h, const char *line)
     (newhead + (signed long int)linelen)[(signed long int)3] = (char)10;
     if(!(newhead == ((char *)NULL)))
     {
-      signed int tmp_post$5 = h->used;
+      signed int tmp_post_5 = h->used;
       h->used = h->used + 1;
-      h->headers[(signed long int)tmp_post$5] = newhead;
+      h->headers[(signed long int)tmp_post_5] = newhead;
     }
 
     return newhead;
@@ -15399,7 +15399,7 @@ signed int ci_headers_addheaders(struct ci_headers_list *h, const struct ci_head
   signed int i;
   char *newbuf;
   char **newspace;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!(h->packed == 0))
     return 0;
 
@@ -15410,9 +15410,9 @@ signed int ci_headers_addheaders(struct ci_headers_list *h, const struct ci_head
       ;
     if(!(h->size >= len))
     {
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)h->headers, (unsigned long int)len * sizeof(char *) /*8ul*/ );
-      newspace = (char **)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)h->headers, (unsigned long int)len * sizeof(char *) /*8ul*/ );
+      newspace = (char **)return_value_realloc_1;
       if(newspace == ((char **)NULL))
       {
         if(CI_DEBUG_LEVEL >= 1)
@@ -15437,9 +15437,9 @@ signed int ci_headers_addheaders(struct ci_headers_list *h, const struct ci_head
       ;
     if(!(h->bufsize >= len))
     {
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)h->buf, (unsigned long int)len * sizeof(char) /*1ul*/ );
-      newbuf = (char *)return_value_realloc$2;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)h->buf, (unsigned long int)len * sizeof(char) /*1ul*/ );
+      newbuf = (char *)return_value_realloc_2;
       if(newbuf == ((char *)NULL))
       {
         if(CI_DEBUG_LEVEL >= 1)
@@ -15466,8 +15466,8 @@ signed int ci_headers_addheaders(struct ci_headers_list *h, const struct ci_head
     i = 1;
     for( ; !(i >= h->used); i = i + 1)
     {
-      return_value_strlen$3=strlen(h->headers[(signed long int)(i - 1)]);
-      h->headers[(signed long int)i] = h->headers[(signed long int)(i - 1)] + (signed long int)return_value_strlen$3 + (signed long int)2;
+      return_value_strlen_3=strlen(h->headers[(signed long int)(i - 1)]);
+      h->headers[(signed long int)i] = h->headers[(signed long int)(i - 1)] + (signed long int)return_value_strlen_3 + (signed long int)2;
     }
     return 1;
   }
@@ -15480,10 +15480,10 @@ const char * ci_headers_copy_value(struct ci_headers_list *h, const char *header
   const char *phead;
   signed int i;
   phead=ci_headers_search(h, header);
-  const unsigned short int **return_value___ctype_b_loc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(phead == ((const char *)NULL))
     return (const char *)(void *)0;
 
@@ -15516,8 +15516,8 @@ const char * ci_headers_copy_value(struct ci_headers_list *h, const char *header
       phead = phead + 1l;
       do
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*phead]) == 0)
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*phead]) == 0)
           break;
 
         if((signed int)*phead == 0)
@@ -15530,21 +15530,21 @@ const char * ci_headers_copy_value(struct ci_headers_list *h, const char *header
       do
       {
         if(!((unsigned long int)i >= len + 18446744073709551615ul))
-          tmp_if_expr$2 = (signed int)*phead != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*phead != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (signed int)*phead != 13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (signed int)*phead != 13 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (signed int)*phead != 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (signed int)*phead != 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         buf[(signed long int)i] = *phead;
@@ -15563,10 +15563,10 @@ const char * ci_headers_copy_value(struct ci_headers_list *h, const char *header
 struct ci_headers_list * ci_headers_create()
 {
   struct ci_headers_list *h;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ci_headers_list) /*40ul*/ );
-  h = (struct ci_headers_list *)return_value_malloc$1;
-  void *return_value_malloc$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ci_headers_list) /*40ul*/ );
+  h = (struct ci_headers_list *)return_value_malloc_1;
+  void *return_value_malloc_3;
   if(h == ((struct ci_headers_list *)NULL))
   {
     if(CI_DEBUG_LEVEL >= 1)
@@ -15586,20 +15586,20 @@ struct ci_headers_list * ci_headers_create()
   {
     h->headers = (char **)(void *)0;
     h->buf = (char *)(void *)0;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)64 * sizeof(char *) /*8ul*/ );
-    h->headers = (char **)return_value_malloc$2;
-    _Bool tmp_if_expr$4;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)64 * sizeof(char *) /*8ul*/ );
+    h->headers = (char **)return_value_malloc_2;
+    _Bool tmp_if_expr_4;
     if(h->headers == ((char **)NULL))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_malloc$3=malloc((unsigned long int)4096 * sizeof(char) /*1ul*/ );
-      h->buf = (char *)return_value_malloc$3;
-      tmp_if_expr$4 = !(h->buf != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+      return_value_malloc_3=malloc((unsigned long int)4096 * sizeof(char) /*1ul*/ );
+      h->buf = (char *)return_value_malloc_3;
+      tmp_if_expr_4 = !(h->buf != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -15652,19 +15652,19 @@ signed int ci_headers_iterate(struct ci_headers_list *h, void *data, void (*fn)(
   signed int i;
   signed int j;
   i = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
   if(!(i >= h->used))
   {
     s = h->headers[(signed long int)i];
@@ -15672,31 +15672,31 @@ signed int ci_headers_iterate(struct ci_headers_list *h, void *data, void (*fn)(
     do
     {
       if(!((unsigned long int)j >= 255ul))
-        tmp_if_expr$1 = (signed int)*s != 58 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)*s != 58 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (signed int)*s != 32 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (signed int)*s != 32 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(!tmp_if_expr_5)
         break;
 
       header[(signed long int)j] = *s;
@@ -15720,50 +15720,50 @@ signed int ci_headers_iterate(struct ci_headers_list *h, void *data, void (*fn)(
     do
     {
       if(!((unsigned long int)j >= 8195ul))
-        tmp_if_expr$6 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
       {
         if((signed int)*s == 13)
-          tmp_if_expr$7 = (signed int)s[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (signed int)s[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = (signed int)s[(signed long int)2] != 9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = (signed int)s[(signed long int)2] != 9 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = (signed int)s[(signed long int)2] != 32 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (_Bool)0;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = (signed int)s[(signed long int)2] != 32 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
-          tmp_if_expr$12 = (_Bool)1;
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
+          tmp_if_expr_12 = (_Bool)1;
 
         else
         {
           if((signed int)*s == 10)
-            tmp_if_expr$10 = (signed int)s[(signed long int)1] != 9 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_10 = (signed int)s[(signed long int)1] != 9 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
-            tmp_if_expr$11 = (signed int)s[(signed long int)1] != 32 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
+            tmp_if_expr_11 = (signed int)s[(signed long int)1] != 32 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$11 = (_Bool)0;
-          tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_11 = (_Bool)0;
+          tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
         }
-        tmp_if_expr$13 = !tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_13 = !tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$13 = (_Bool)0;
-      if(!tmp_if_expr$13)
+        tmp_if_expr_13 = (_Bool)0;
+      if(!tmp_if_expr_13)
         break;
 
       value[(signed long int)j] = *s;
@@ -15788,9 +15788,9 @@ void ci_headers_pack(struct ci_headers_list *h)
   i = 0;
   for( ; !(i >= h->used); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(h->headers[(signed long int)i]);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(h->headers[(signed long int)i]);
+    len = (signed int)return_value_strlen_1;
     if((signed int)h->headers[(signed long int)i][(signed long int)(1 + len)] == 10)
       h->headers[(signed long int)i][(signed long int)len] = (char)13;
 
@@ -15828,11 +15828,11 @@ signed int ci_headers_remove(struct ci_headers_list *h, const char *header)
     i = 0;
     for( ; !(i >= h->used); i = i + 1)
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(header);
-      signed int return_value_strncasecmp$3;
-      return_value_strncasecmp$3=strncasecmp(h->headers[(signed long int)i], header, return_value_strlen$2);
-      if(return_value_strncasecmp$3 == 0)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(header);
+      signed int return_value_strncasecmp_3;
+      return_value_strncasecmp_3=strncasecmp(h->headers[(signed long int)i], header, return_value_strlen_2);
+      if(return_value_strncasecmp_3 == 0)
       {
         phead = h->headers[(signed long int)i];
         if(i == h->used + -1)
@@ -15865,9 +15865,9 @@ signed int ci_headers_remove(struct ci_headers_list *h, const char *header)
           j = i + 1;
           for( ; !(j >= h->used); j = j + 1)
           {
-            unsigned long int return_value_strlen$1;
-            return_value_strlen$1=strlen(h->headers[(signed long int)(j - 1)]);
-            header_len = (signed int)return_value_strlen$1;
+            unsigned long int return_value_strlen_1;
+            return_value_strlen_1=strlen(h->headers[(signed long int)(j - 1)]);
+            header_len = (signed int)return_value_strlen_1;
             h->headers[(signed long int)j] = h->headers[(signed long int)(j - 1)] + (signed long int)header_len + (signed long int)1;
             if((signed int)*h->headers[(signed long int)j] == 10)
               h->headers[(signed long int)j] = h->headers[(signed long int)j] + 1l;
@@ -15909,11 +15909,11 @@ const char * ci_headers_search(struct ci_headers_list *h, const char *header)
   signed int i = 0;
   for( ; !(i >= h->used); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(header);
-    signed int return_value_strncasecmp$2;
-    return_value_strncasecmp$2=strncasecmp(h->headers[(signed long int)i], header, return_value_strlen$1);
-    if(return_value_strncasecmp$2 == 0)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(header);
+    signed int return_value_strncasecmp_2;
+    return_value_strncasecmp_2=strncasecmp(h->headers[(signed long int)i], header, return_value_strlen_1);
+    if(return_value_strncasecmp_2 == 0)
       return h->headers[(signed long int)i];
 
   }
@@ -15932,9 +15932,9 @@ signed int ci_headers_setsize(struct ci_headers_list *h, signed int size)
   else
   {
     new_size = (size / 4096 + 1) * 4096;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)h->buf, (unsigned long int)new_size * sizeof(char) /*1ul*/ );
-    newbuf = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)h->buf, (unsigned long int)new_size * sizeof(char) /*1ul*/ );
+    newbuf = (char *)return_value_realloc_1;
     if(newbuf == ((char *)NULL))
     {
       if(CI_DEBUG_LEVEL >= 1)
@@ -15969,7 +15969,7 @@ signed int ci_headers_unpack(struct ci_headers_list *h)
   char *shead;
   char *ebuf;
   char *str;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(h->bufused >= 2))
     return 4;
 
@@ -16007,47 +16007,47 @@ signed int ci_headers_unpack(struct ci_headers_list *h)
       for( ; !(str >= ebuf); str = str + 1l)
       {
         eoh = 0;
-        _Bool tmp_if_expr$5;
+        _Bool tmp_if_expr_5;
         if((signed int)*str == 13)
-          tmp_if_expr$5 = (signed int)str[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (signed int)str[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
-          _Bool tmp_if_expr$2;
+          _Bool tmp_if_expr_2;
           if(str + 2l >= ebuf)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
           {
             if(!((signed int)str[2l] == 9))
-              tmp_if_expr$1 = (signed int)str[(signed long int)2] != 32 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = (signed int)str[(signed long int)2] != 32 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$1 = (_Bool)0;
-            tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = (_Bool)0;
+            tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$2)
+          if(tmp_if_expr_2)
             eoh = 1;
 
         }
 
         else
         {
-          _Bool tmp_if_expr$3;
+          _Bool tmp_if_expr_3;
           if((signed int)*str == 10)
-            tmp_if_expr$3 = (signed int)str[(signed long int)1] != 9 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (signed int)str[(signed long int)1] != 9 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          _Bool tmp_if_expr$4;
-          if(tmp_if_expr$3)
-            tmp_if_expr$4 = (signed int)str[(signed long int)1] != 32 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (_Bool)0;
+          _Bool tmp_if_expr_4;
+          if(tmp_if_expr_3)
+            tmp_if_expr_4 = (signed int)str[(signed long int)1] != 32 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(tmp_if_expr_4)
             eoh = 1;
 
           else
@@ -16061,9 +16061,9 @@ signed int ci_headers_unpack(struct ci_headers_list *h)
           if(h->used >= h->size)
           {
             len = h->size + 64;
-            void *return_value_realloc$6;
-            return_value_realloc$6=realloc((void *)h->headers, (unsigned long int)len * sizeof(char *) /*8ul*/ );
-            newspace = (char **)return_value_realloc$6;
+            void *return_value_realloc_6;
+            return_value_realloc_6=realloc((void *)h->headers, (unsigned long int)len * sizeof(char *) /*8ul*/ );
+            newspace = (char **)return_value_realloc_6;
             if(newspace == ((char **)NULL))
             {
               if(CI_DEBUG_LEVEL >= 1)
@@ -16104,7 +16104,7 @@ const char * ci_headers_value(struct ci_headers_list *h, const char *header)
 {
   const char *phead;
   phead=ci_headers_search(h, header);
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(phead == ((const char *)NULL))
     return (const char *)(void *)0;
 
@@ -16122,8 +16122,8 @@ const char * ci_headers_value(struct ci_headers_list *h, const char *header)
       phead = phead + 1l;
       do
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*phead]) == 0)
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*phead]) == 0)
           break;
 
         if((signed int)*phead == 0)
@@ -16149,22 +16149,22 @@ signed int ci_host_to_sockaddr_t(const char *servername, struct ci_sockaddr *add
   hints.ai_socktype = 1;
   hints.ai_protocol = 0;
   ret=getaddrinfo(servername, (const char *)(void *)0, &hints, &res);
-  const char *return_value_gai_strerror$1;
-  const char *return_value_gai_strerror$2;
+  const char *return_value_gai_strerror_1;
+  const char *return_value_gai_strerror_2;
   if(!(ret == 0))
   {
     if(CI_DEBUG_LEVEL >= 5)
     {
       if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
       {
-        return_value_gai_strerror$1=gai_strerror(ret);
-        __log_error((void *)0, "Error geting addrinfo:%s\n", return_value_gai_strerror$1);
+        return_value_gai_strerror_1=gai_strerror(ret);
+        __log_error((void *)0, "Error geting addrinfo:%s\n", return_value_gai_strerror_1);
       }
 
       if(!(CI_DEBUG_STDOUT == 0))
       {
-        return_value_gai_strerror$2=gai_strerror(ret);
-        printf("Error geting addrinfo:%s\n", return_value_gai_strerror$2);
+        return_value_gai_strerror_2=gai_strerror(ret);
+        printf("Error geting addrinfo:%s\n", return_value_gai_strerror_2);
       }
 
     }
@@ -16205,9 +16205,9 @@ const struct ci_ip * ci_http_client_ip(struct ci_request *req)
 
         else
         {
-          signed int return_value_ci_inet_aton$1;
-          return_value_ci_inet_aton$1=ci_inet_aton(2, ip, (void *)&req->xclient_ip.address);
-          if(!(return_value_ci_inet_aton$1 == 0))
+          signed int return_value_ci_inet_aton_1;
+          return_value_ci_inet_aton_1=ci_inet_aton(2, ip, (void *)&req->xclient_ip.address);
+          if(!(return_value_ci_inet_aton_1 == 0))
           {
             req->xclient_ip.family = 2;
             req->xclient_ip.netmask.s_addr=htonl(0xFFFFFFFF);
@@ -16253,13 +16253,13 @@ signed long int ci_http_content_length(struct ci_request *req)
 
     else
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 0;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 0;
       res=strtoll(val, &e, 10);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 34)
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 34)
       {
         if(!(res == 0x7fffffffffffffffLL) && !(res == -9223372036854775808ll))
           goto __CPROVER_DUMP_L5;
@@ -16337,9 +16337,9 @@ const char * ci_http_request_add_header(struct ci_request *req, const char *head
 
     else
     {
-      const char *return_value_ci_headers_add$1;
-      return_value_ci_headers_add$1=ci_headers_add(heads, header);
-      return return_value_ci_headers_add$1;
+      const char *return_value_ci_headers_add_1;
+      return_value_ci_headers_add_1=ci_headers_add(heads, header);
+      return return_value_ci_headers_add_1;
     }
   }
 }
@@ -16356,9 +16356,9 @@ signed int ci_http_request_create(struct ci_request *req, signed int has_body)
       ci_request_release_entity(req, i);
 
   i = 0;
-  signed int tmp_post$1 = i;
+  signed int tmp_post_1 = i;
   i = i + 1;
-  req->entities[(signed long int)tmp_post$1]=ci_request_alloc_entity(req, 0, 0);
+  req->entities[(signed long int)tmp_post_1]=ci_request_alloc_entity(req, 0, 0);
   if(!(has_body == 0))
     req->entities[(signed long int)i]=ci_request_alloc_entity(req, 2, 0);
 
@@ -16443,9 +16443,9 @@ signed int ci_http_request_remove_header(struct ci_request *req, const char *hea
 
     else
     {
-      signed int return_value_ci_headers_remove$1;
-      return_value_ci_headers_remove$1=ci_headers_remove(heads, header);
-      return return_value_ci_headers_remove$1;
+      signed int return_value_ci_headers_remove_1;
+      return_value_ci_headers_remove_1=ci_headers_remove(heads, header);
+      return return_value_ci_headers_remove_1;
     }
   }
 }
@@ -16476,17 +16476,17 @@ signed int ci_http_request_url(struct ci_request *req, char *buf, signed int buf
   signed int i;
   signed int bytes;
   heads=ci_http_request_headers(req);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$10;
-  const unsigned short int **return_value___ctype_b_loc$9;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_10;
+  const unsigned short int **return_value___ctype_b_loc_9;
+  _Bool tmp_if_expr_11;
   if(heads == ((struct ci_headers_list *)NULL))
     return 0;
 
@@ -16517,29 +16517,29 @@ signed int ci_http_request_url(struct ci_request *req, char *buf, signed int buf
               if(!(i >= buf_size + -1))
               {
                 if((signed int)host[(signed long int)i] == 0)
-                  tmp_if_expr$1 = (_Bool)1;
+                  tmp_if_expr_1 = (_Bool)1;
 
                 else
-                  tmp_if_expr$1 = (signed int)host[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$1)
-                  tmp_if_expr$2 = (_Bool)1;
+                  tmp_if_expr_1 = (signed int)host[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_1)
+                  tmp_if_expr_2 = (_Bool)1;
 
                 else
-                  tmp_if_expr$2 = (signed int)host[(signed long int)i] == 13 ? (_Bool)1 : (_Bool)0;
-                tmp_if_expr$3 = !tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_2 = (signed int)host[(signed long int)i] == 13 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_3 = !tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = (_Bool)0;
+              if(tmp_if_expr_3)
               {
-                return_value___ctype_b_loc$4=__ctype_b_loc();
-                tmp_if_expr$5 = !(((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)host[(signed long int)i]] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
+                return_value___ctype_b_loc_4=__ctype_b_loc();
+                tmp_if_expr_5 = !(((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)host[(signed long int)i]] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$5 = (_Bool)0;
-              if(!tmp_if_expr$5)
+                tmp_if_expr_5 = (_Bool)0;
+              if(!tmp_if_expr_5)
                 break;
 
               buf[(signed long int)i] = host[(signed long int)i];
@@ -16559,34 +16559,34 @@ signed int ci_http_request_url(struct ci_request *req, char *buf, signed int buf
           if(!(i >= buf_size + -1))
           {
             if((signed int)str[(signed long int)i] == 0)
-              tmp_if_expr$6 = (_Bool)1;
+              tmp_if_expr_6 = (_Bool)1;
 
             else
-              tmp_if_expr$6 = (signed int)str[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$6)
-              tmp_if_expr$7 = (_Bool)1;
+              tmp_if_expr_6 = (signed int)str[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_6)
+              tmp_if_expr_7 = (_Bool)1;
 
             else
-              tmp_if_expr$7 = (signed int)str[(signed long int)i] == 13 ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$8 = !tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = (signed int)str[(signed long int)i] == 13 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = !tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          if(tmp_if_expr$8)
+            tmp_if_expr_8 = (_Bool)0;
+          if(tmp_if_expr_8)
           {
-            return_value___ctype_b_loc$9=__ctype_b_loc();
-            tmp_if_expr$10 = !(((signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)str[(signed long int)i]] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_9=__ctype_b_loc();
+            tmp_if_expr_10 = !(((signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)str[(signed long int)i]] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
-            tmp_if_expr$11 = (signed int)str[(signed long int)i] != 63 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
+            tmp_if_expr_11 = (signed int)str[(signed long int)i] != 63 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$11 = (_Bool)0;
-          if(!tmp_if_expr$11)
+            tmp_if_expr_11 = (_Bool)0;
+          if(!tmp_if_expr_11)
             break;
 
           buf[(signed long int)i] = str[(signed long int)i];
@@ -16616,9 +16616,9 @@ const char * ci_http_response_add_header(struct ci_request *req, const char *hea
 
     else
     {
-      const char *return_value_ci_headers_add$1;
-      return_value_ci_headers_add$1=ci_headers_add(heads, header);
-      return return_value_ci_headers_add$1;
+      const char *return_value_ci_headers_add_1;
+      return_value_ci_headers_add_1=ci_headers_add(heads, header);
+      return return_value_ci_headers_add_1;
     }
   }
 }
@@ -16637,9 +16637,9 @@ signed int ci_http_response_create(struct ci_request *req, signed int has_reshdr
   i = 0;
   if(!(has_reshdr == 0))
   {
-    signed int tmp_post$1 = i;
+    signed int tmp_post_1 = i;
     i = i + 1;
-    req->entities[(signed long int)tmp_post$1]=ci_request_alloc_entity(req, 1, 0);
+    req->entities[(signed long int)tmp_post_1]=ci_request_alloc_entity(req, 1, 0);
   }
 
   if(!(has_body == 0))
@@ -16701,9 +16701,9 @@ signed int ci_http_response_remove_header(struct ci_request *req, const char *he
 
     else
     {
-      signed int return_value_ci_headers_remove$1;
-      return_value_ci_headers_remove$1=ci_headers_remove(heads, header);
-      return return_value_ci_headers_remove$1;
+      signed int return_value_ci_headers_remove_1;
+      return_value_ci_headers_remove_1=ci_headers_remove(heads, header);
+      return return_value_ci_headers_remove_1;
     }
   }
 }
@@ -16728,27 +16728,27 @@ signed int ci_http_response_reset_headers(struct ci_request *req)
 // file simple_api.c line 246
 const char * ci_icap_add_xheader(struct ci_request *req, const char *header)
 {
-  const char *return_value_ci_headers_add$1;
-  return_value_ci_headers_add$1=ci_headers_add(req->xheaders, header);
-  return return_value_ci_headers_add$1;
+  const char *return_value_ci_headers_add_1;
+  return_value_ci_headers_add_1=ci_headers_add(req->xheaders, header);
+  return return_value_ci_headers_add_1;
 }
 
 // ci_icap_append_xheaders
 // file simple_api.c line 251
 signed int ci_icap_append_xheaders(struct ci_request *req, struct ci_headers_list *headers)
 {
-  signed int return_value_ci_headers_addheaders$1;
-  return_value_ci_headers_addheaders$1=ci_headers_addheaders(req->xheaders, headers);
-  return return_value_ci_headers_addheaders$1;
+  signed int return_value_ci_headers_addheaders_1;
+  return_value_ci_headers_addheaders_1=ci_headers_addheaders(req->xheaders, headers);
+  return return_value_ci_headers_addheaders_1;
 }
 
 // ci_inet_aton
 // file include/net_io.h line 119
 signed int ci_inet_aton(signed int af, const char *cp, void *addr)
 {
-  signed int return_value_inet_aton$1;
-  return_value_inet_aton$1=inet_aton(cp, (struct in_addr *)addr);
-  return return_value_inet_aton$1;
+  signed int return_value_inet_aton_1;
+  return_value_inet_aton_1=inet_aton(cp, (struct in_addr *)addr);
+  return return_value_inet_aton_1;
 }
 
 // ci_inet_ntoa
@@ -16765,9 +16765,9 @@ const char * ci_inet_ntoa(signed int af, const void *src, char *dst, signed int 
 // file cache.c line 32
 signed long int ci_internal_time()
 {
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  return return_value_time$1;
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  return return_value_time_1;
 }
 
 // ci_linger_close
@@ -16786,10 +16786,10 @@ signed int ci_linger_close(signed int fd, signed int timeout)
 
   }
 
-  signed int return_value_shutdown$1;
-  return_value_shutdown$1=shutdown(fd, 1);
-  signed int return_value_ci_wait_for_data$2;
-  if(!(return_value_shutdown$1 == 0))
+  signed int return_value_shutdown_1;
+  return_value_shutdown_1=shutdown(fd, 1);
+  signed int return_value_ci_wait_for_data_2;
+  if(!(return_value_shutdown_1 == 0))
   {
     close(fd);
     return 1;
@@ -16799,8 +16799,8 @@ signed int ci_linger_close(signed int fd, signed int timeout)
   {
     do
     {
-      return_value_ci_wait_for_data$2=ci_wait_for_data(fd, timeout, 0x1);
-      if(return_value_ci_wait_for_data$2 == 0)
+      return_value_ci_wait_for_data_2=ci_wait_for_data(fd, timeout, 0x1);
+      if(return_value_ci_wait_for_data_2 == 0)
         break;
 
       ret=ci_read_nonblock(fd, (void *)buf, (unsigned long int)10);
@@ -16956,7 +16956,7 @@ void * ci_list_pop_back(struct ci_list *list, void *data)
 {
   struct ci_list_item *tmp;
   struct ci_list_item *it = list->last;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(list->items == ((struct ci_list_item *)NULL))
     return (void *)0;
 
@@ -16978,11 +16978,11 @@ void * ci_list_pop_back(struct ci_list *list, void *data)
       do
       {
         if(!(tmp == ((struct ci_list_item *)NULL)))
-          tmp_if_expr$1 = tmp->next != list->last ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = tmp->next != list->last ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(!tmp_if_expr_1)
           break;
 
         tmp = tmp->next;
@@ -17191,14 +17191,14 @@ void ci_list_sort2(struct ci_list *list, signed int (*cmp_func)(const void *, co
   struct ci_list_item *sortedTail = (struct ci_list_item *)(void *)0;
   struct ci_list_item **currentSorted;
   struct ci_list_item *currentHead;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(list->items == ((struct ci_list_item *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(list->items->next != ((struct ci_list_item *)NULL)) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = !(list->items->next != ((struct ci_list_item *)NULL)) ? (_Bool)1 : (_Bool)0;
   signed int return_value;
-  if(!tmp_if_expr$1)
+  if(!tmp_if_expr_1)
   {
     it = list->items;
     while(!(it == ((struct ci_list_item *)NULL)))
@@ -17264,9 +17264,9 @@ signed int ci_local_cache_init(struct ci_cache *cache, const char *name)
   signed int i;
   unsigned int new_hash_size;
   struct ci_mem_allocator *allocator;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ci_local_cache_data) /*128ul*/ );
-  cache_data = (struct ci_local_cache_data *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ci_local_cache_data) /*128ul*/ );
+  cache_data = (struct ci_local_cache_data *)return_value_malloc_1;
   if(cache_data == ((struct ci_local_cache_data *)NULL))
     return 0;
 
@@ -17702,13 +17702,13 @@ struct ci_lookup_table * ci_lookup_table_create_ext(const char *table, const str
         args = (char *)(void *)0;
     }
     lt_type=ci_lookup_table_type_search(ttype);
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(lt_type == ((struct ci_lookup_table_type *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(lt_type->open != ((void * (*)(struct ci_lookup_table *))NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !(lt_type->open != ((void * (*)(struct ci_lookup_table *))NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -17726,9 +17726,9 @@ struct ci_lookup_table * ci_lookup_table_create_ext(const char *table, const str
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct ci_lookup_table) /*120ul*/ );
-      lt = (struct ci_lookup_table *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct ci_lookup_table) /*120ul*/ );
+      lt = (struct ci_lookup_table *)return_value_malloc_2;
       if(lt == ((struct ci_lookup_table *)NULL))
       {
         if(CI_DEBUG_LEVEL >= 1)
@@ -17795,39 +17795,39 @@ void ci_lookup_table_destroy(struct ci_lookup_table *lt)
 // file lookup_table.c line 228
 const char * ci_lookup_table_get_row(struct ci_lookup_table *table, const char *key, const char **columns, char ***vals)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(table->key_ops == &ci_str_ops)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = table->key_ops == &ci_str_ext_ops ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = table->key_ops == &ci_str_ext_ops ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = table->key_ops == &ci_regex_ops ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(!tmp_if_expr$2)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_2 = table->key_ops == &ci_regex_ops ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(!tmp_if_expr_2)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
     if(table->val_ops == &ci_str_ops)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = table->val_ops == &ci_str_ext_ops ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = table->val_ops == &ci_str_ext_ops ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = table->val_ops == &ci_regex_ops ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$5 = !tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = table->val_ops == &ci_regex_ops ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = !tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -17844,9 +17844,9 @@ const char * ci_lookup_table_get_row(struct ci_lookup_table *table, const char *
 
   else
   {
-    const void *return_value_lookup_table_get_row$6;
-    return_value_lookup_table_get_row$6=lookup_table_get_row(table, (const void *)key, columns, (void ***)vals);
-    return (const char *)return_value_lookup_table_get_row$6;
+    const void *return_value_lookup_table_get_row_6;
+    return_value_lookup_table_get_row_6=lookup_table_get_row(table, (const void *)key, columns, (void ***)vals);
+    return (const char *)return_value_lookup_table_get_row_6;
   }
 }
 
@@ -17854,13 +17854,13 @@ const char * ci_lookup_table_get_row(struct ci_lookup_table *table, const char *
 // file lookup_table.c line 172
 void * ci_lookup_table_open(struct ci_lookup_table *table)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(table->_lt_type == ((struct ci_lookup_table_type *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(table->open != ((void * (*)(struct ci_lookup_table *))NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(table->open != ((void * (*)(struct ci_lookup_table *))NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -17887,13 +17887,13 @@ void * ci_lookup_table_open(struct ci_lookup_table *table)
 // file lookup_table.c line 196
 void ci_lookup_table_release_result(struct ci_lookup_table *table, void **val)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(table->_lt_type == ((struct ci_lookup_table_type *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(table->release_result != ((void (*)(struct ci_lookup_table *, void **))NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(table->release_result != ((void (*)(struct ci_lookup_table *, void **))NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -17915,15 +17915,15 @@ void ci_lookup_table_release_result(struct ci_lookup_table *table, void **val)
 // file lookup_table.c line 181
 const char * ci_lookup_table_search(struct ci_lookup_table *table, const char *key, char ***vals)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(table->_lt_type == ((struct ci_lookup_table_type *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(table->search != ((void * (*)(struct ci_lookup_table *, void *, void ***))NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(table->search != ((void * (*)(struct ci_lookup_table *, void *, void ***))NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -17940,37 +17940,37 @@ const char * ci_lookup_table_search(struct ci_lookup_table *table, const char *k
 
   else
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(table->key_ops == &ci_str_ops)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = table->key_ops == &ci_str_ext_ops ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = table->key_ops == &ci_str_ext_ops ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = table->key_ops == &ci_regex_ops ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$6;
-    if(!tmp_if_expr$3)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_3 = table->key_ops == &ci_regex_ops ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_6;
+    if(!tmp_if_expr_3)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
       if(table->val_ops == &ci_str_ops)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = table->val_ops == &ci_str_ext_ops ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = table->val_ops == &ci_str_ext_ops ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = table->val_ops == &ci_regex_ops ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$6 = !tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = table->val_ops == &ci_regex_ops ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = !tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -18015,9 +18015,9 @@ struct ci_lookup_table_type * ci_lookup_table_type_register(struct ci_lookup_tab
 
   else
   {
-    signed int tmp_post$1 = lookup_tables_types_num;
+    signed int tmp_post_1 = lookup_tables_types_num;
     lookup_tables_types_num = lookup_tables_types_num + 1;
-    lookup_tables_types[(signed long int)tmp_post$1] = lt_type;
+    lookup_tables_types[(signed long int)tmp_post_1] = lt_type;
     return lt_type;
   }
 }
@@ -18029,9 +18029,9 @@ struct ci_lookup_table_type * ci_lookup_table_type_search(const char *type)
   signed int i = 0;
   for( ; !(i >= lookup_tables_types_num); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(type, lookup_tables_types[(signed long int)i]->type);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(type, lookup_tables_types[(signed long int)i]->type);
+    if(return_value_strcmp_1 == 0)
       return lookup_tables_types[(signed long int)i];
 
   }
@@ -18063,9 +18063,9 @@ signed int ci_magic_data_type(const char *buf, signed int len)
 
   else
   {
-    signed int return_value_ci_filetype$1;
-    return_value_ci_filetype$1=ci_filetype(_MAGIC_DB, buf, len);
-    return return_value_ci_filetype$1;
+    signed int return_value_ci_filetype_1;
+    return_value_ci_filetype_1=ci_filetype(_MAGIC_DB, buf, len);
+    return return_value_ci_filetype_1;
   }
 }
 
@@ -18078,9 +18078,9 @@ signed int ci_magic_data_type_ext(struct ci_headers_list *headers, const char *b
 
   else
   {
-    signed int return_value_extend_object_type$1;
-    return_value_extend_object_type$1=extend_object_type(_MAGIC_DB, headers, buf, len, iscompressed);
-    return return_value_extend_object_type$1;
+    signed int return_value_extend_object_type_1;
+    return_value_extend_object_type_1=extend_object_type(_MAGIC_DB, headers, buf, len, iscompressed);
+    return return_value_extend_object_type_1;
   }
 }
 
@@ -18106,9 +18106,9 @@ struct ci_magics_db * ci_magic_db_load(const char *filename)
 
   else
   {
-    signed int return_value_ci_magics_db_file_add$1;
-    return_value_ci_magics_db_file_add$1=ci_magics_db_file_add(_MAGIC_DB, filename);
-    if(!(return_value_ci_magics_db_file_add$1 == 0))
+    signed int return_value_ci_magics_db_file_add_1;
+    return_value_ci_magics_db_file_add_1=ci_magics_db_file_add(_MAGIC_DB, filename);
+    if(!(return_value_ci_magics_db_file_add_1 == 0))
       return _MAGIC_DB;
 
     else
@@ -18125,9 +18125,9 @@ signed int ci_magic_group_check(signed int type, signed int group)
 
   else
   {
-    signed int return_value_ci_belongs_to_group$1;
-    return_value_ci_belongs_to_group$1=ci_belongs_to_group(_MAGIC_DB, type, group);
-    return return_value_ci_belongs_to_group$1;
+    signed int return_value_ci_belongs_to_group_1;
+    return_value_ci_belongs_to_group_1=ci_belongs_to_group(_MAGIC_DB, type, group);
+    return return_value_ci_belongs_to_group_1;
   }
 }
 
@@ -18140,9 +18140,9 @@ signed int ci_magic_group_id(const char *group)
 
   else
   {
-    signed int return_value_ci_get_data_group_id$1;
-    return_value_ci_get_data_group_id$1=ci_get_data_group_id(_MAGIC_DB, group);
-    return return_value_ci_get_data_group_id$1;
+    signed int return_value_ci_get_data_group_id_1;
+    return_value_ci_get_data_group_id_1=ci_get_data_group_id(_MAGIC_DB, group);
+    return return_value_ci_get_data_group_id_1;
   }
 }
 
@@ -18150,38 +18150,38 @@ signed int ci_magic_group_id(const char *group)
 // file filetype.c line 783
 char * ci_magic_group_name(signed int group)
 {
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   if(_MAGIC_DB == ((struct ci_magics_db *)NULL) || !(group >= 1))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(_MAGIC_DB == ((struct ci_magics_db *)NULL)))
-      tmp_if_expr$1 = _MAGIC_DB->groups_num;
+      tmp_if_expr_1 = _MAGIC_DB->groups_num;
 
     else
-      tmp_if_expr$1 = 0;
-    tmp_if_expr$2 = group >= tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = 0;
+    tmp_if_expr_2 = group >= tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return (char *)(void *)0;
 
   else
   {
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(!(_MAGIC_DB == ((struct ci_magics_db *)NULL)))
-      tmp_if_expr$3 = group < _MAGIC_DB->groups_num ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = group < _MAGIC_DB->groups_num ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    char *tmp_if_expr$4;
-    if(group >= 0 && tmp_if_expr$3)
-      tmp_if_expr$4 = (_MAGIC_DB->groups + (signed long int)group)->name;
+      tmp_if_expr_3 = (_Bool)0;
+    char *tmp_if_expr_4;
+    if(group >= 0 && tmp_if_expr_3)
+      tmp_if_expr_4 = (_MAGIC_DB->groups + (signed long int)group)->name;
 
     else
-      tmp_if_expr$4 = (char *)(void *)0;
-    return tmp_if_expr$4;
+      tmp_if_expr_4 = (char *)(void *)0;
+    return tmp_if_expr_4;
   }
 }
 
@@ -18189,13 +18189,13 @@ char * ci_magic_group_name(signed int group)
 // file filetype.c line 760
 signed int ci_magic_groups_count()
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(_MAGIC_DB == ((struct ci_magics_db *)NULL)))
-    tmp_if_expr$1 = _MAGIC_DB->groups_num;
+    tmp_if_expr_1 = _MAGIC_DB->groups_num;
 
   else
-    tmp_if_expr$1 = 0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = 0;
+  return tmp_if_expr_1;
 }
 
 // ci_magic_req_data_type
@@ -18222,38 +18222,38 @@ signed int ci_magic_req_data_type(struct ci_request *req, signed int *isencoded)
 // file filetype.c line 774
 char * ci_magic_type_descr(signed int type)
 {
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   if(_MAGIC_DB == ((struct ci_magics_db *)NULL) || !(type >= 1))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(_MAGIC_DB == ((struct ci_magics_db *)NULL)))
-      tmp_if_expr$1 = _MAGIC_DB->types_num;
+      tmp_if_expr_1 = _MAGIC_DB->types_num;
 
     else
-      tmp_if_expr$1 = 0;
-    tmp_if_expr$2 = type >= tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = 0;
+    tmp_if_expr_2 = type >= tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return (char *)(void *)0;
 
   else
   {
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(!(_MAGIC_DB == ((struct ci_magics_db *)NULL)))
-      tmp_if_expr$3 = type < _MAGIC_DB->types_num ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = type < _MAGIC_DB->types_num ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    char *tmp_if_expr$4;
-    if(type >= 0 && tmp_if_expr$3)
-      tmp_if_expr$4 = (_MAGIC_DB->types + (signed long int)type)->descr;
+      tmp_if_expr_3 = (_Bool)0;
+    char *tmp_if_expr_4;
+    if(type >= 0 && tmp_if_expr_3)
+      tmp_if_expr_4 = (_MAGIC_DB->types + (signed long int)type)->descr;
 
     else
-      tmp_if_expr$4 = (char *)(void *)0;
-    return tmp_if_expr$4;
+      tmp_if_expr_4 = (char *)(void *)0;
+    return tmp_if_expr_4;
   }
 }
 
@@ -18266,9 +18266,9 @@ signed int ci_magic_type_id(const char *name)
 
   else
   {
-    signed int return_value_ci_get_data_type_id$1;
-    return_value_ci_get_data_type_id$1=ci_get_data_type_id(_MAGIC_DB, name);
-    return return_value_ci_get_data_type_id$1;
+    signed int return_value_ci_get_data_type_id_1;
+    return_value_ci_get_data_type_id_1=ci_get_data_type_id(_MAGIC_DB, name);
+    return return_value_ci_get_data_type_id_1;
   }
 }
 
@@ -18276,32 +18276,32 @@ signed int ci_magic_type_id(const char *name)
 // file filetype.c line 765
 char * ci_magic_type_name(signed int type)
 {
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   if(_MAGIC_DB == ((struct ci_magics_db *)NULL) || !(type >= 1))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(_MAGIC_DB == ((struct ci_magics_db *)NULL)))
-      tmp_if_expr$1 = _MAGIC_DB->types_num;
+      tmp_if_expr_1 = _MAGIC_DB->types_num;
 
     else
-      tmp_if_expr$1 = 0;
-    tmp_if_expr$2 = type >= tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = 0;
+    tmp_if_expr_2 = type >= tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return (char *)(void *)0;
 
   else
   {
-    char *tmp_if_expr$3;
+    char *tmp_if_expr_3;
     if(!(_MAGIC_DB == ((struct ci_magics_db *)NULL)))
-      tmp_if_expr$3 = (_MAGIC_DB->types + (signed long int)type)->name;
+      tmp_if_expr_3 = (_MAGIC_DB->types + (signed long int)type)->name;
 
     else
-      tmp_if_expr$3 = (char *)(void *)0;
-    return tmp_if_expr$3;
+      tmp_if_expr_3 = (char *)(void *)0;
+    return tmp_if_expr_3;
   }
 }
 
@@ -18309,13 +18309,13 @@ char * ci_magic_type_name(signed int type)
 // file filetype.c line 754
 signed int ci_magic_types_count()
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(_MAGIC_DB == ((struct ci_magics_db *)NULL)))
-    tmp_if_expr$1 = _MAGIC_DB->types_num;
+    tmp_if_expr_1 = _MAGIC_DB->types_num;
 
   else
-    tmp_if_expr$1 = 0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = 0;
+  return tmp_if_expr_1;
 }
 
 // ci_magics_db_build
@@ -18344,7 +18344,7 @@ signed int ci_magics_db_file_add(struct ci_magics_db *db, const char *filename)
   struct ci_magic_record record;
   struct _IO_FILE *f;
   f=fopen64(filename, "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(f == ((struct _IO_FILE *)NULL))
   {
     if(CI_DEBUG_LEVEL >= 1)
@@ -18366,8 +18366,8 @@ signed int ci_magics_db_file_add(struct ci_magics_db *db, const char *filename)
     ret = 0;
     do
     {
-      return_value_fgets$1=fgets(line, 32768, f);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(line, 32768, f);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       lineNum = lineNum + 1;
@@ -18447,9 +18447,9 @@ struct ci_magics_db * ci_magics_db_init()
 {
   struct ci_magics_db *db;
   signed int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ci_magics_db) /*48ul*/ );
-  db = (struct ci_magics_db *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ci_magics_db) /*48ul*/ );
+  db = (struct ci_magics_db *)return_value_malloc_1;
   if(db == ((struct ci_magics_db *)NULL))
     return (struct ci_magics_db *)(void *)0;
 
@@ -18499,11 +18499,11 @@ signed int ci_membuf_attr_add(struct ci_membuf *body, const char *attr, const vo
   if(body->attributes == ((struct ci_array *)NULL))
     body->attributes=ci_array_new((unsigned long int)1024);
 
-  const struct ci_array_item *return_value_ci_array_add$1;
+  const struct ci_array_item *return_value_ci_array_add_1;
   if(!(body->attributes == ((struct ci_array *)NULL)))
   {
-    return_value_ci_array_add$1=ci_array_add(body->attributes, attr, val, val_size);
-    return (signed int)(return_value_ci_array_add$1 != (const struct ci_array_item *)(void *)0);
+    return_value_ci_array_add_1=ci_array_add(body->attributes, attr, val, val_size);
+    return (signed int)(return_value_ci_array_add_1 != (const struct ci_array_item *)(void *)0);
   }
 
   return 0;
@@ -18513,11 +18513,11 @@ signed int ci_membuf_attr_add(struct ci_membuf *body, const char *attr, const vo
 // file body.c line 256
 const void * ci_membuf_attr_get(struct ci_membuf *body, const char *attr)
 {
-  const void *return_value_ci_array_search$1;
+  const void *return_value_ci_array_search_1;
   if(!(body->attributes == ((struct ci_array *)NULL)))
   {
-    return_value_ci_array_search$1=ci_array_search(body->attributes, attr);
-    return return_value_ci_array_search$1;
+    return_value_ci_array_search_1=ci_array_search(body->attributes, attr);
+    return return_value_ci_array_search_1;
   }
 
   return (void *)0;
@@ -18589,13 +18589,13 @@ struct ci_membuf * ci_membuf_from_content(char *buf, unsigned long int buf_size,
 
         else
         {
-          _Bool tmp_if_expr$1;
+          _Bool tmp_if_expr_1;
           if(content_size >= buf_size)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = (signed int)buf[(signed long int)content_size] != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (signed int)buf[(signed long int)content_size] != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
           {
             if(CI_DEBUG_LEVEL >= 1)
             {
@@ -18613,9 +18613,9 @@ struct ci_membuf * ci_membuf_from_content(char *buf, unsigned long int buf_size,
         }
       }
 
-      void *return_value_ci_object_pool_alloc$2;
-      return_value_ci_object_pool_alloc$2=ci_object_pool_alloc(MEMBUF_POOL);
-      b = (struct ci_membuf *)return_value_ci_object_pool_alloc$2;
+      void *return_value_ci_object_pool_alloc_2;
+      return_value_ci_object_pool_alloc_2=ci_object_pool_alloc(MEMBUF_POOL);
+      b = (struct ci_membuf *)return_value_ci_object_pool_alloc_2;
       if(b == ((struct ci_membuf *)NULL))
       {
         if(CI_DEBUG_LEVEL >= 1)
@@ -18649,9 +18649,9 @@ struct ci_membuf * ci_membuf_from_content(char *buf, unsigned long int buf_size,
 // file include/body.h line 54
 struct ci_membuf * ci_membuf_new()
 {
-  struct ci_membuf *return_value_ci_membuf_new_sized$1;
-  return_value_ci_membuf_new_sized$1=ci_membuf_new_sized(8192);
-  return return_value_ci_membuf_new_sized$1;
+  struct ci_membuf *return_value_ci_membuf_new_sized_1;
+  return_value_ci_membuf_new_sized_1=ci_membuf_new_sized(8192);
+  return return_value_ci_membuf_new_sized_1;
 }
 
 // ci_membuf_new_sized
@@ -18659,9 +18659,9 @@ struct ci_membuf * ci_membuf_new()
 struct ci_membuf * ci_membuf_new_sized(signed int size)
 {
   struct ci_membuf *b;
-  void *return_value_ci_object_pool_alloc$1;
-  return_value_ci_object_pool_alloc$1=ci_object_pool_alloc(MEMBUF_POOL);
-  b = (struct ci_membuf *)return_value_ci_object_pool_alloc$1;
+  void *return_value_ci_object_pool_alloc_1;
+  return_value_ci_object_pool_alloc_1=ci_object_pool_alloc(MEMBUF_POOL);
+  b = (struct ci_membuf *)return_value_ci_object_pool_alloc_1;
   if(b == ((struct ci_membuf *)NULL))
     return (struct ci_membuf *)(void *)0;
 
@@ -18670,9 +18670,9 @@ struct ci_membuf * ci_membuf_new_sized(signed int size)
     b->endpos = 0;
     b->readpos = 0;
     b->flags = (unsigned int)0;
-    void *return_value_ci_buffer_alloc$2;
-    return_value_ci_buffer_alloc$2=ci_buffer_alloc((signed int)((unsigned long int)size * sizeof(char) /*1ul*/ ));
-    b->buf = (char *)return_value_ci_buffer_alloc$2;
+    void *return_value_ci_buffer_alloc_2;
+    return_value_ci_buffer_alloc_2=ci_buffer_alloc((signed int)((unsigned long int)size * sizeof(char) /*1ul*/ ));
+    b->buf = (char *)return_value_ci_buffer_alloc_2;
     if(b->buf == ((char *)NULL))
     {
       ci_object_pool_free((void *)b);
@@ -18769,13 +18769,13 @@ signed int ci_membuf_write(struct ci_membuf *b, const char *data, signed int len
   signed int newsize;
   char *newbuf;
   signed int terminate = (signed int)(b->flags & (unsigned int)0x01);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((4u & b->flags) == 0u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (b->flags & (unsigned int)0x08) != 0u ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (b->flags & (unsigned int)0x08) != 0u ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -18817,9 +18817,9 @@ signed int ci_membuf_write(struct ci_membuf *b, const char *data, signed int len
       while(!(remains >= len))
       {
         newsize = b->bufsize + 4096;
-        void *return_value_ci_buffer_realloc$2;
-        return_value_ci_buffer_realloc$2=ci_buffer_realloc((void *)b->buf, newsize);
-        newbuf = (char *)return_value_ci_buffer_realloc$2;
+        void *return_value_ci_buffer_realloc_2;
+        return_value_ci_buffer_realloc_2=ci_buffer_realloc((void *)b->buf, newsize);
+        newbuf = (char *)return_value_ci_buffer_realloc_2;
         if(newbuf == ((char *)NULL))
         {
           if(CI_DEBUG_LEVEL >= 1)
@@ -18884,9 +18884,9 @@ signed int ci_mktemp_file(char *dir, char *template, char *filename)
 {
   snprintf(filename, (unsigned long int)4096, "%s%s", dir, template);
   filename[(signed long int)(4096 - 1)] = (char)0;
-  signed int return_value_mkstemp64$1;
-  return_value_mkstemp64$1=mkstemp64(filename);
-  return return_value_mkstemp64$1;
+  signed int return_value_mkstemp64_1;
+  return_value_mkstemp64_1=mkstemp64(filename);
+  return return_value_mkstemp64_1;
 }
 
 // ci_module_load
@@ -18898,11 +18898,11 @@ void * ci_module_load(const char *module_file, const char *default_path)
   signed int len;
   if(!((signed int)*module_file == 47))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(default_path);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(module_file);
-    len = (signed int)(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(default_path);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(module_file);
+    len = (signed int)(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)1);
     if(len >= 4096)
     {
       if(CI_DEBUG_LEVEL >= 1)
@@ -18951,9 +18951,9 @@ void * ci_module_load(const char *module_file, const char *default_path)
 // file include/dlib.h line 41
 void * ci_module_sym(void *handle, const char *symbol)
 {
-  void *return_value_dlsym$1;
-  return_value_dlsym$1=dlsym(handle, symbol);
-  return return_value_dlsym$1;
+  void *return_value_dlsym_1;
+  return_value_dlsym_1=dlsym(handle, symbol);
+  return return_value_dlsym_1;
 }
 
 // ci_module_unload
@@ -18993,31 +18993,31 @@ void ci_named_pipe_close(signed int pipe_fd)
 signed int ci_named_pipe_create(char *name)
 {
   signed int status;
-  signed int ci_named_pipe_create$$1$$pipe;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int ci_named_pipe_create__1__pipe;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   status=mkfifo(name, (unsigned int)(0400 | 0200 | 0200 >> 3));
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!(status >= 0))
   {
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 17))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 17))
       return -1;
 
   }
 
-  ci_named_pipe_create$$1$$pipe=open64(name, 00 | 04000);
-  return ci_named_pipe_create$$1$$pipe;
+  ci_named_pipe_create__1__pipe=open64(name, 00 | 04000);
+  return ci_named_pipe_create__1__pipe;
 }
 
 // ci_named_pipe_open
 // file mpmt_server.c line 453
 signed int ci_named_pipe_open(char *name)
 {
-  signed int ci_named_pipe_open$$1$$pipe;
-  ci_named_pipe_open$$1$$pipe=open64(name, 00 | 04000);
-  return ci_named_pipe_open$$1$$pipe;
+  signed int ci_named_pipe_open__1__pipe;
+  ci_named_pipe_open__1__pipe=open64(name, 00 | 04000);
+  return ci_named_pipe_open__1__pipe;
 }
 
 // ci_netio_init
@@ -19033,13 +19033,13 @@ signed int ci_netio_init(signed int fd)
 void * ci_object_pool_alloc(signed int id)
 {
   struct mem_buffer_block *block = (struct mem_buffer_block *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(id >= object_pools_used || !(id >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(object_pools[(signed long int)id] != ((struct ci_mem_allocator *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(object_pools[(signed long int)id] != ((struct ci_mem_allocator *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -19114,19 +19114,19 @@ void ci_object_pool_free(void *ptr)
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(object_pools_used >= block->ID))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = block->ID < 0 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = block->ID < 0 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = !(object_pools[(signed long int)block->ID] != ((struct ci_mem_allocator *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = !(object_pools[(signed long int)block->ID] != ((struct ci_mem_allocator *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -19166,9 +19166,9 @@ signed int ci_object_pool_register(const char *name, signed int size)
   ID = -1;
   if(object_pools == ((struct ci_mem_allocator **)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)128 * sizeof(struct ci_mem_allocator *) /*8ul*/ );
-    object_pools = (struct ci_mem_allocator **)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)128 * sizeof(struct ci_mem_allocator *) /*8ul*/ );
+    object_pools = (struct ci_mem_allocator **)return_value_malloc_1;
     object_pools_size = 128;
     ID = 0;
   }
@@ -19188,9 +19188,9 @@ signed int ci_object_pool_register(const char *name, signed int size)
       if(object_pools_size == object_pools_used)
       {
         object_pools_size = object_pools_size + 128;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)object_pools, (unsigned long int)object_pools_size * sizeof(struct ci_mem_allocator *) /*8ul*/ );
-        object_pools = (struct ci_mem_allocator **)return_value_realloc$2;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)object_pools, (unsigned long int)object_pools_size * sizeof(struct ci_mem_allocator *) /*8ul*/ );
+        object_pools = (struct ci_mem_allocator **)return_value_realloc_2;
       }
 
       ID = object_pools_used;
@@ -19247,9 +19247,9 @@ signed int ci_object_pools_init()
 void * ci_pack_allocator_alloc(struct ci_mem_allocator *allocator, unsigned long int size)
 {
   size = size + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1);
-  void *return_value_ci_pack_allocator_alloc_unaligned$1;
-  return_value_ci_pack_allocator_alloc_unaligned$1=ci_pack_allocator_alloc_unaligned(allocator, size);
-  return return_value_ci_pack_allocator_alloc_unaligned$1;
+  void *return_value_ci_pack_allocator_alloc_unaligned_1;
+  return_value_ci_pack_allocator_alloc_unaligned_1=ci_pack_allocator_alloc_unaligned(allocator, size);
+  return return_value_ci_pack_allocator_alloc_unaligned_1;
 }
 
 // ci_pack_allocator_alloc_from_rear
@@ -19401,7 +19401,7 @@ struct ci_dyn_array * ci_parse_key_value_list(const char *str, char sep)
   char *v;
   struct ci_dyn_array *args_array;
   s=strdup(str);
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(s == ((char *)NULL))
     return (struct ci_dyn_array *)(void *)0;
 
@@ -19431,25 +19431,25 @@ struct ci_dyn_array * ci_parse_key_value_list(const char *str, char sep)
 
       if(!(*k == 0))
       {
-        unsigned long int tmp_if_expr$2;
+        unsigned long int tmp_if_expr_2;
         if(!(v == ((char *)NULL)))
         {
-          return_value_strlen$1=strlen(v);
-          tmp_if_expr$2 = return_value_strlen$1 + (unsigned long int)1;
+          return_value_strlen_1=strlen(v);
+          tmp_if_expr_2 = return_value_strlen_1 + (unsigned long int)1;
         }
 
         else
-          tmp_if_expr$2 = (unsigned long int)1;
-        ci_dyn_array_add(args_array, k, (const void *)(v != ((char *)NULL) ? v : ""), tmp_if_expr$2);
+          tmp_if_expr_2 = (unsigned long int)1;
+        ci_dyn_array_add(args_array, k, (const void *)(v != ((char *)NULL) ? v : ""), tmp_if_expr_2);
       }
 
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(!(e == ((char *)NULL)))
-        tmp_if_expr$3 = *e != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = *e != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      k = tmp_if_expr$3 ? e : (char *)(void *)0;
+        tmp_if_expr_3 = (_Bool)0;
+      k = tmp_if_expr_3 ? e : (char *)(void *)0;
     }
     return args_array;
   }
@@ -19509,23 +19509,23 @@ signed int ci_proc_mutex_lock(struct ci_proc_mutex *mutex)
 // file include/proc_mutex.h line 93
 signed int ci_proc_mutex_set_scheme(const char *scheme)
 {
-  signed int return_value_strcasecmp$3;
-  return_value_strcasecmp$3=strcasecmp(scheme, "sysv");
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
-  if(return_value_strcasecmp$3 == 0)
+  signed int return_value_strcasecmp_3;
+  return_value_strcasecmp_3=strcasecmp(scheme, "sysv");
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
+  if(return_value_strcasecmp_3 == 0)
     default_mutex_scheme = &sysv_mutex_scheme;
 
   else
   {
-    return_value_strcasecmp$2=strcasecmp(scheme, "posix");
-    if(return_value_strcasecmp$2 == 0)
+    return_value_strcasecmp_2=strcasecmp(scheme, "posix");
+    if(return_value_strcasecmp_2 == 0)
       default_mutex_scheme = &posix_mutex_scheme;
 
     else
     {
-      return_value_strcasecmp$1=strcasecmp(scheme, "file");
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(scheme, "file");
+      if(return_value_strcasecmp_1 == 0)
         default_mutex_scheme = &file_mutex_scheme;
 
       else
@@ -19569,25 +19569,25 @@ const struct ci_array_item * ci_ptr_array_add(struct ci_array *ptr_array, const 
   struct ci_mem_allocator *packer = ptr_array->alloc;
   /* assertion packer */
   assert(packer != ((struct ci_mem_allocator *)NULL));
-  void *return_value_ci_pack_allocator_alloc_unaligned$1;
-  return_value_ci_pack_allocator_alloc_unaligned$1=ci_pack_allocator_alloc_unaligned(packer, (unsigned long int)&((struct ci_array_item *)0)[(signed long int)1]);
-  item = (struct ci_array_item *)return_value_ci_pack_allocator_alloc_unaligned$1;
-  unsigned long int return_value_strlen$2;
-  void *return_value_ci_pack_allocator_alloc_from_rear$3;
+  void *return_value_ci_pack_allocator_alloc_unaligned_1;
+  return_value_ci_pack_allocator_alloc_unaligned_1=ci_pack_allocator_alloc_unaligned(packer, (unsigned long int)&((struct ci_array_item *)0)[(signed long int)1]);
+  item = (struct ci_array_item *)return_value_ci_pack_allocator_alloc_unaligned_1;
+  unsigned long int return_value_strlen_2;
+  void *return_value_ci_pack_allocator_alloc_from_rear_3;
   if(!(item == ((struct ci_array_item *)NULL)))
   {
-    return_value_strlen$2=strlen(name);
-    return_value_ci_pack_allocator_alloc_from_rear$3=ci_pack_allocator_alloc_from_rear(packer, (signed int)(return_value_strlen$2 + (unsigned long int)1));
-    item->name = (char *)return_value_ci_pack_allocator_alloc_from_rear$3;
+    return_value_strlen_2=strlen(name);
+    return_value_ci_pack_allocator_alloc_from_rear_3=ci_pack_allocator_alloc_from_rear(packer, (signed int)(return_value_strlen_2 + (unsigned long int)1));
+    item->name = (char *)return_value_ci_pack_allocator_alloc_from_rear_3;
   }
 
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(item == ((struct ci_array_item *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = !(item->name != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = !(item->name != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
     if(CI_DEBUG_LEVEL >= 2)
     {
@@ -19619,12 +19619,12 @@ const struct ci_array_item * ci_ptr_array_add(struct ci_array *ptr_array, const 
 struct ci_array * ci_ptr_array_new2(unsigned long int items)
 {
   unsigned long int array_size;
-  unsigned long int return_value_ci_pack_allocator_required_size$1;
-  return_value_ci_pack_allocator_required_size$1=ci_pack_allocator_required_size();
-  array_size = return_value_ci_pack_allocator_required_size$1 + (sizeof(struct ci_array) /*40ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)) + items * ((sizeof(void *) /*8ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)) + (sizeof(struct ci_array_item) /*16ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)));
-  struct ci_array *return_value_ci_array_new$2;
-  return_value_ci_array_new$2=ci_array_new(array_size);
-  return return_value_ci_array_new$2;
+  unsigned long int return_value_ci_pack_allocator_required_size_1;
+  return_value_ci_pack_allocator_required_size_1=ci_pack_allocator_required_size();
+  array_size = return_value_ci_pack_allocator_required_size_1 + (sizeof(struct ci_array) /*40ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)) + items * ((sizeof(void *) /*8ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)) + (sizeof(struct ci_array_item) /*16ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)));
+  struct ci_array *return_value_ci_array_new_2;
+  return_value_ci_array_new_2=ci_array_new(array_size);
+  return return_value_ci_array_new_2;
 }
 
 // ci_ptr_array_pop
@@ -19665,18 +19665,18 @@ void * ci_ptr_array_pop_value(struct ci_array *ptr_array, char *name, unsigned l
 // file array.c line 160
 void * ci_ptr_array_search(struct ci_array *array, const char *name)
 {
-  const void *return_value_ci_array_search$1;
-  return_value_ci_array_search$1=ci_array_search(array, name);
-  return (void *)return_value_ci_array_search$1;
+  const void *return_value_ci_array_search_1;
+  return_value_ci_array_search_1=ci_array_search(array, name);
+  return (void *)return_value_ci_array_search_1;
 }
 
 // ci_ptr_dyn_array_add
 // file array.c line 336
 const struct ci_array_item * ci_ptr_dyn_array_add(struct ci_dyn_array *array, const char *name, void *value)
 {
-  const struct ci_array_item *return_value_ci_dyn_array_add$1;
-  return_value_ci_dyn_array_add$1=ci_dyn_array_add(array, name, value, (unsigned long int)0);
-  return return_value_ci_dyn_array_add$1;
+  const struct ci_array_item *return_value_ci_dyn_array_add_1;
+  return_value_ci_dyn_array_add_1=ci_dyn_array_add(array, name, value, (unsigned long int)0);
+  return return_value_ci_dyn_array_add_1;
 }
 
 // ci_ptr_vector_add
@@ -19692,9 +19692,9 @@ void * ci_ptr_vector_add(struct ci_vector *vector, void *value)
 
   else
   {
-    void *return_value_ci_pack_allocator_alloc_unaligned$1;
-    return_value_ci_pack_allocator_alloc_unaligned$1=ci_pack_allocator_alloc_unaligned(packer, (unsigned long int)&((void **)0)[(signed long int)1]);
-    indx = (void **)return_value_ci_pack_allocator_alloc_unaligned$1;
+    void *return_value_ci_pack_allocator_alloc_unaligned_1;
+    return_value_ci_pack_allocator_alloc_unaligned_1=ci_pack_allocator_alloc_unaligned(packer, (unsigned long int)&((void **)0)[(signed long int)1]);
+    indx = (void **)return_value_ci_pack_allocator_alloc_unaligned_1;
     if(indx == ((void **)NULL))
     {
       if(CI_DEBUG_LEVEL >= 2)
@@ -19726,51 +19726,51 @@ void * ci_ptr_vector_add(struct ci_vector *vector, void *value)
 signed int ci_read(signed int fd, void *buf, unsigned long int count, signed int timeout)
 {
   signed int bytes = 0;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed long int return_value_read$3;
-    return_value_read$3=read(fd, buf, count);
-    bytes = (signed int)return_value_read$3;
+    signed long int return_value_read_3;
+    return_value_read_3=read(fd, buf, count);
+    bytes = (signed int)return_value_read_3;
     if(bytes == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
-  signed int *return_value___errno_location$8;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  while(tmp_if_expr_2);
+  signed int *return_value___errno_location_8;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   if(bytes == -1)
   {
-    return_value___errno_location$8=__errno_location();
-    if(*return_value___errno_location$8 == 11)
+    return_value___errno_location_8=__errno_location();
+    if(*return_value___errno_location_8 == 11)
     {
-      signed int return_value_ci_wait_for_data$4;
-      return_value_ci_wait_for_data$4=ci_wait_for_data(fd, timeout, 0x1);
-      if(return_value_ci_wait_for_data$4 == 0)
+      signed int return_value_ci_wait_for_data_4;
+      return_value_ci_wait_for_data_4=ci_wait_for_data(fd, timeout, 0x1);
+      if(return_value_ci_wait_for_data_4 == 0)
         return bytes;
 
       do
       {
-        signed long int return_value_read$7;
-        return_value_read$7=read(fd, buf, count);
-        bytes = (signed int)return_value_read$7;
+        signed long int return_value_read_7;
+        return_value_read_7=read(fd, buf, count);
+        bytes = (signed int)return_value_read_7;
         if(bytes == -1)
         {
-          return_value___errno_location$5=__errno_location();
-          tmp_if_expr$6 = *return_value___errno_location$5 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_5=__errno_location();
+          tmp_if_expr_6 = *return_value___errno_location_5 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
       }
-      while(tmp_if_expr$6);
+      while(tmp_if_expr_6);
     }
 
   }
@@ -19852,9 +19852,9 @@ static signed int ci_read_icap_header(struct ci_request *req, struct ci_headers_
     i = startsearch;
     for( ; !(i >= bytes + -3); i = i + 1)
     {
-      signed int return_value_strncmp$1;
-      return_value_strncmp$1=strncmp(buf_end + (signed long int)i, "\r\n\r\n", (unsigned long int)4);
-      if(return_value_strncmp$1 == 0)
+      signed int return_value_strncmp_1;
+      return_value_strncmp_1=strncmp(buf_end + (signed long int)i, "\r\n\r\n", (unsigned long int)4);
+      if(return_value_strncmp_1 == 0)
       {
         buf_end = buf_end + (signed long int)i + (signed long int)2;
         eoh = 1;
@@ -19886,28 +19886,28 @@ static signed int ci_read_icap_header(struct ci_request *req, struct ci_headers_
 signed int ci_read_nonblock(signed int fd, void *buf, unsigned long int count)
 {
   signed int bytes = 0;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed long int return_value_read$3;
-    return_value_read$3=read(fd, buf, count);
-    bytes = (signed int)return_value_read$3;
+    signed long int return_value_read_3;
+    return_value_read_3=read(fd, buf, count);
+    bytes = (signed int)return_value_read_3;
     if(bytes == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
-  signed int *return_value___errno_location$4;
+  while(tmp_if_expr_2);
+  signed int *return_value___errno_location_4;
   if(!(bytes >= 0))
   {
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 11)
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 11)
       return 0;
 
   }
@@ -19922,8 +19922,8 @@ signed int ci_regex_apply(void * const regex, const char *str, signed int len, s
   signed int count = 0;
   signed int i;
   struct ci_regex_replace_part parts;
-  unsigned long int return_value_strlen$1;
-  _Bool tmp_if_expr$3;
+  unsigned long int return_value_strlen_1;
+  _Bool tmp_if_expr_3;
   if(str == ((const char *)NULL))
     return 0;
 
@@ -19933,16 +19933,16 @@ signed int ci_regex_apply(void * const regex, const char *str, signed int len, s
     signed int rc;
     signed int offset = 0;
     signed int str_length;
-    unsigned long int tmp_if_expr$2;
+    unsigned long int tmp_if_expr_2;
     if(len >= 0)
-      tmp_if_expr$2 = (unsigned long int)len;
+      tmp_if_expr_2 = (unsigned long int)len;
 
     else
     {
-      return_value_strlen$1=strlen(str);
-      tmp_if_expr$2 = return_value_strlen$1;
+      return_value_strlen_1=strlen(str);
+      tmp_if_expr_2 = return_value_strlen_1;
     }
-    str_length = (signed int)tmp_if_expr$2;
+    str_length = (signed int)tmp_if_expr_2;
     do
     {
       memset((void *)ovector, 0, sizeof(signed int [30l]) /*120ul*/ );
@@ -19971,11 +19971,11 @@ signed int ci_regex_apply(void * const regex, const char *str, signed int len, s
             do
             {
               if(!(i >= 10))
-                tmp_if_expr$3 = ovector[(signed long int)(2 * i + 1)] > ovector[(signed long int)(2 * i)] ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_3 = ovector[(signed long int)(2 * i + 1)] > ovector[(signed long int)(2 * i)] ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              if(!tmp_if_expr$3)
+                tmp_if_expr_3 = (_Bool)0;
+              if(!tmp_if_expr_3)
                 break;
 
               if(CI_DEBUG_LEVEL >= 9)
@@ -20063,9 +20063,9 @@ char * ci_regex_parse(const char *str, signed int *flags, signed int *recursive)
   else
   {
     str = str + 1l;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(str);
-    slen = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(str);
+    slen = (signed int)return_value_strlen_1;
     e = str + (signed long int)slen;
     for( ; !((signed int)*e == 47); e = e - 1l)
       if(e == str)
@@ -20077,9 +20077,9 @@ char * ci_regex_parse(const char *str, signed int *flags, signed int *recursive)
     else
     {
       slen = (signed int)(e - str);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)(slen + 1) * sizeof(char) /*1ul*/ );
-      s = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)(slen + 1) * sizeof(char) /*1ul*/ );
+      s = (char *)return_value_malloc_2;
       strncpy(s, str, (unsigned long int)slen);
       s[(signed long int)slen] = (char)0;
       *flags = 0;
@@ -20139,18 +20139,18 @@ char * ci_regex_parse(const char *str, signed int *flags, signed int *recursive)
 signed int ci_registry_add_item(const char *name, const char *label, const void *obj)
 {
   struct ci_dyn_array *registry = (struct ci_dyn_array *)(void *)0;
-  _Bool tmp_if_expr$4;
-  void *return_value_ci_ptr_array_search$3;
+  _Bool tmp_if_expr_4;
+  void *return_value_ci_ptr_array_search_3;
   if(REGISTRIES == ((struct ci_array *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_ci_ptr_array_search$3=ci_ptr_array_search(REGISTRIES, name);
-    registry = (struct ci_dyn_array *)return_value_ci_ptr_array_search$3;
-    tmp_if_expr$4 = registry == (struct ci_dyn_array *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    return_value_ci_ptr_array_search_3=ci_ptr_array_search(REGISTRIES, name);
+    registry = (struct ci_dyn_array *)return_value_ci_ptr_array_search_3;
+    tmp_if_expr_4 = registry == (struct ci_dyn_array *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
   {
     if(CI_DEBUG_LEVEL >= 3)
     {
@@ -20162,19 +20162,19 @@ signed int ci_registry_add_item(const char *name, const char *label, const void 
 
     }
 
-    signed int return_value_ci_registry_create$1;
-    return_value_ci_registry_create$1=ci_registry_create(name);
-    if(!(return_value_ci_registry_create$1 >= 0))
+    signed int return_value_ci_registry_create_1;
+    return_value_ci_registry_create_1=ci_registry_create(name);
+    if(!(return_value_ci_registry_create_1 >= 0))
       return 0;
 
-    void *return_value_ci_ptr_array_search$2;
-    return_value_ci_ptr_array_search$2=ci_ptr_array_search(REGISTRIES, name);
-    registry = (struct ci_dyn_array *)return_value_ci_ptr_array_search$2;
+    void *return_value_ci_ptr_array_search_2;
+    return_value_ci_ptr_array_search_2=ci_ptr_array_search(REGISTRIES, name);
+    registry = (struct ci_dyn_array *)return_value_ci_ptr_array_search_2;
   }
 
-  const struct ci_array_item *return_value_ci_ptr_dyn_array_add$5;
-  return_value_ci_ptr_dyn_array_add$5=ci_ptr_dyn_array_add(registry, label, (void *)obj);
-  if(!(return_value_ci_ptr_dyn_array_add$5 == ((const struct ci_array_item *)NULL)))
+  const struct ci_array_item *return_value_ci_ptr_dyn_array_add_5;
+  return_value_ci_ptr_dyn_array_add_5=ci_ptr_dyn_array_add(registry, label, (void *)obj);
+  if(!(return_value_ci_ptr_dyn_array_add_5 == ((const struct ci_array_item *)NULL)))
   {
     REG_ITEMS_COUNT = REG_ITEMS_COUNT + 1;
     return REG_ITEMS_COUNT;
@@ -20190,13 +20190,13 @@ void ci_registry_clean()
 {
   struct ci_dyn_array *registry = (struct ci_dyn_array *)(void *)0;
   char buf[1024l];
-  void *return_value_ci_ptr_array_pop_value$1;
+  void *return_value_ci_ptr_array_pop_value_1;
   if(!(REGISTRIES == ((struct ci_array *)NULL)))
   {
     do
     {
-      return_value_ci_ptr_array_pop_value$1=ci_ptr_array_pop_value(REGISTRIES, buf, sizeof(char [1024l]) /*1024ul*/ );
-      registry = (struct ci_dyn_array *)return_value_ci_ptr_array_pop_value$1;
+      return_value_ci_ptr_array_pop_value_1=ci_ptr_array_pop_value(REGISTRIES, buf, sizeof(char [1024l]) /*1024ul*/ );
+      registry = (struct ci_dyn_array *)return_value_ci_ptr_array_pop_value_1;
       if(registry == ((struct ci_dyn_array *)NULL))
         break;
 
@@ -20223,14 +20223,14 @@ void ci_registry_clean()
 // file registry.c line 29
 signed int ci_registry_create(const char *name)
 {
-  void *return_value_ci_ptr_array_search$1;
+  void *return_value_ci_ptr_array_search_1;
   if(REGISTRIES == ((struct ci_array *)NULL))
     REGISTRIES=ci_ptr_array_new2((unsigned long int)1024);
 
   else
   {
-    return_value_ci_ptr_array_search$1=ci_ptr_array_search(REGISTRIES, name);
-    if(!(return_value_ci_ptr_array_search$1 == NULL))
+    return_value_ci_ptr_array_search_1=ci_ptr_array_search(REGISTRIES, name);
+    if(!(return_value_ci_ptr_array_search_1 == NULL))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -20285,18 +20285,18 @@ signed int ci_registry_get_id(const char *name)
 const void * ci_registry_get_item(const char *name, const char *label)
 {
   struct ci_dyn_array *registry = (struct ci_dyn_array *)(void *)0;
-  _Bool tmp_if_expr$2;
-  void *return_value_ci_ptr_array_search$1;
+  _Bool tmp_if_expr_2;
+  void *return_value_ci_ptr_array_search_1;
   if(REGISTRIES == ((struct ci_array *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_ci_ptr_array_search$1=ci_ptr_array_search(REGISTRIES, name);
-    registry = (struct ci_dyn_array *)return_value_ci_ptr_array_search$1;
-    tmp_if_expr$2 = registry == (struct ci_dyn_array *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    return_value_ci_ptr_array_search_1=ci_ptr_array_search(REGISTRIES, name);
+    registry = (struct ci_dyn_array *)return_value_ci_ptr_array_search_1;
+    tmp_if_expr_2 = registry == (struct ci_dyn_array *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -20313,9 +20313,9 @@ const void * ci_registry_get_item(const char *name, const char *label)
 
   else
   {
-    const void *return_value_ci_dyn_array_search$3;
-    return_value_ci_dyn_array_search$3=ci_dyn_array_search(registry, label);
-    return return_value_ci_dyn_array_search$3;
+    const void *return_value_ci_dyn_array_search_3;
+    return_value_ci_dyn_array_search_3=ci_dyn_array_search(registry, label);
+    return return_value_ci_dyn_array_search_3;
   }
 }
 
@@ -20325,25 +20325,25 @@ const void * ci_registry_id_get_item(signed int reg_id, const char *label)
 {
   const struct ci_dyn_array *registry = (const struct ci_dyn_array *)(void *)0;
   const struct ci_array_item *ai;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(REGISTRIES == ((struct ci_array *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     ai=ci_array_get_item(REGISTRIES, reg_id);
-    tmp_if_expr$1 = ai == (const struct ci_array_item *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ai == (const struct ci_array_item *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     registry = (const struct ci_dyn_array *)ai->value;
-    tmp_if_expr$2 = registry == (const struct ci_dyn_array *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = registry == (const struct ci_dyn_array *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -20360,9 +20360,9 @@ const void * ci_registry_id_get_item(signed int reg_id, const char *label)
 
   else
   {
-    const void *return_value_ci_dyn_array_search$3;
-    return_value_ci_dyn_array_search$3=ci_dyn_array_search(registry, label);
-    return return_value_ci_dyn_array_search$3;
+    const void *return_value_ci_dyn_array_search_3;
+    return_value_ci_dyn_array_search_3=ci_dyn_array_search(registry, label);
+    return return_value_ci_dyn_array_search_3;
   }
 }
 
@@ -20372,25 +20372,25 @@ signed int ci_registry_id_iterate(signed int reg_id, void *data, signed int (*fn
 {
   const struct ci_dyn_array *registry = (const struct ci_dyn_array *)(void *)0;
   const struct ci_array_item *ai;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(REGISTRIES == ((struct ci_array *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     ai=ci_array_get_item(REGISTRIES, reg_id);
-    tmp_if_expr$1 = ai == (const struct ci_array_item *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ai == (const struct ci_array_item *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     registry = (const struct ci_dyn_array *)ai->value;
-    tmp_if_expr$2 = registry == (const struct ci_dyn_array *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = registry == (const struct ci_dyn_array *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -20417,18 +20417,18 @@ signed int ci_registry_id_iterate(signed int reg_id, void *data, signed int (*fn
 signed int ci_registry_iterate(const char *name, void *data, signed int (*fn)(void *, const char *, const void *))
 {
   const struct ci_dyn_array *registry = (const struct ci_dyn_array *)(void *)0;
-  _Bool tmp_if_expr$2;
-  void *return_value_ci_ptr_array_search$1;
+  _Bool tmp_if_expr_2;
+  void *return_value_ci_ptr_array_search_1;
   if(REGISTRIES == ((struct ci_array *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_ci_ptr_array_search$1=ci_ptr_array_search(REGISTRIES, name);
-    registry = (const struct ci_dyn_array *)return_value_ci_ptr_array_search$1;
-    tmp_if_expr$2 = registry == (const struct ci_dyn_array *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    return_value_ci_ptr_array_search_1=ci_ptr_array_search(REGISTRIES, name);
+    registry = (const struct ci_dyn_array *)return_value_ci_ptr_array_search_1;
+    tmp_if_expr_2 = registry == (const struct ci_dyn_array *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -20571,13 +20571,13 @@ struct ci_encaps_entity * ci_request_alloc_entity(struct ci_request *req, signed
       req->trash_entities[(signed long int)type] = (struct ci_encaps_entity *)(void *)0;
       e->type = type;
       e->start = val;
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(e->type == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = e->type == 1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = e->type == 1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         if(!(e->entity == NULL))
           ci_headers_reset((struct ci_headers_list *)e->entity);
@@ -20609,9 +20609,9 @@ struct ci_encaps_entity * ci_request_alloc_entity(struct ci_request *req, signed
 
       }
 
-      struct ci_encaps_entity *return_value_mk_encaps_entity$2;
-      return_value_mk_encaps_entity$2=mk_encaps_entity(type, val);
-      return return_value_mk_encaps_entity$2;
+      struct ci_encaps_entity *return_value_mk_encaps_entity_2;
+      return_value_mk_encaps_entity_2=mk_encaps_entity(type, val);
+      return return_value_mk_encaps_entity_2;
     }
 }
 
@@ -20772,9 +20772,9 @@ char * ci_request_set_log_str(struct ci_request *req, char *logstr)
   if(!(req->log_str == ((char *)NULL)))
     __intl_free((void *)req->log_str);
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(logstr);
-  size = (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(logstr);
+  size = (signed int)(return_value_strlen_1 + (unsigned long int)1);
   void *return_value;
   return_value=__intl_malloc((signed int)((unsigned long int)size * sizeof(char) /*1ul*/ ));
   req->log_str = (char *)return_value;
@@ -20816,11 +20816,11 @@ signed int ci_request_set_str_attribute(struct ci_request *req, const char *name
 
   __CPROVER_DUMP_L3:
     ;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(value);
-    const struct ci_array_item *return_value_ci_array_add$2;
-    return_value_ci_array_add$2=ci_array_add(req->attributes, name, (const void *)value, return_value_strlen$1 + (unsigned long int)1);
-    if(return_value_ci_array_add$2 == ((const struct ci_array_item *)NULL))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(value);
+    const struct ci_array_item *return_value_ci_array_add_2;
+    return_value_ci_array_add_2=ci_array_add(req->attributes, name, (const void *)value, return_value_strlen_1 + (unsigned long int)1);
+    if(return_value_ci_array_add_2 == ((const struct ci_array_item *)NULL))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -20867,9 +20867,9 @@ void ci_request_t_pack(struct ci_request *req, signed int is_request)
 
   if(!(elist[2l] == ((struct ci_encaps_entity *)NULL)))
   {
-    signed int return_value_sizeofencaps$1;
-    return_value_sizeofencaps$1=sizeofencaps(elist[(signed long int)1]);
-    elist[(signed long int)2]->start = return_value_sizeofencaps$1 + elist[(signed long int)1]->start;
+    signed int return_value_sizeofencaps_1;
+    return_value_sizeofencaps_1=sizeofencaps(elist[(signed long int)1]);
+    elist[(signed long int)2]->start = return_value_sizeofencaps_1 + elist[(signed long int)1]->start;
   }
 
   if(*elist == ((struct ci_encaps_entity *)NULL))
@@ -20878,112 +20878,112 @@ void ci_request_t_pack(struct ci_request *req, signed int is_request)
   else
     if(!(elist[2l] == ((struct ci_encaps_entity *)NULL)))
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!((*elist)->type >= 6))
-        tmp_if_expr$2 = elist[(signed long int)0]->type >= 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = elist[(signed long int)0]->type >= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      const char *tmp_if_expr$3;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = ci_encaps_entities[(signed long int)elist[(signed long int)0]->type];
+        tmp_if_expr_2 = (_Bool)0;
+      const char *tmp_if_expr_3;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = ci_encaps_entities[(signed long int)elist[(signed long int)0]->type];
 
       else
-        tmp_if_expr$3 = "UNKNOWN";
-      _Bool tmp_if_expr$4;
+        tmp_if_expr_3 = "UNKNOWN";
+      _Bool tmp_if_expr_4;
       if(!(elist[1l]->type >= 6))
-        tmp_if_expr$4 = elist[(signed long int)1]->type >= 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = elist[(signed long int)1]->type >= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      const char *tmp_if_expr$5;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = ci_encaps_entities[(signed long int)elist[(signed long int)1]->type];
+        tmp_if_expr_4 = (_Bool)0;
+      const char *tmp_if_expr_5;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = ci_encaps_entities[(signed long int)elist[(signed long int)1]->type];
 
       else
-        tmp_if_expr$5 = "UNKNOWN";
-      _Bool tmp_if_expr$6;
+        tmp_if_expr_5 = "UNKNOWN";
+      _Bool tmp_if_expr_6;
       if(!(elist[2l]->type >= 6))
-        tmp_if_expr$6 = elist[(signed long int)2]->type >= 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = elist[(signed long int)2]->type >= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      const char *tmp_if_expr$7;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = ci_encaps_entities[(signed long int)elist[(signed long int)2]->type];
+        tmp_if_expr_6 = (_Bool)0;
+      const char *tmp_if_expr_7;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = ci_encaps_entities[(signed long int)elist[(signed long int)2]->type];
 
       else
-        tmp_if_expr$7 = "UNKNOWN";
-      sprintf(buf, "Encapsulated: %s=%d, %s=%d, %s=%d", tmp_if_expr$3, elist[(signed long int)0]->start, tmp_if_expr$5, elist[(signed long int)1]->start, tmp_if_expr$7, elist[(signed long int)2]->start);
+        tmp_if_expr_7 = "UNKNOWN";
+      sprintf(buf, "Encapsulated: %s=%d, %s=%d, %s=%d", tmp_if_expr_3, elist[(signed long int)0]->start, tmp_if_expr_5, elist[(signed long int)1]->start, tmp_if_expr_7, elist[(signed long int)2]->start);
     }
 
     else
       if(!(elist[1l] == ((struct ci_encaps_entity *)NULL)))
       {
-        _Bool tmp_if_expr$8;
+        _Bool tmp_if_expr_8;
         if(!((*elist)->type >= 6))
-          tmp_if_expr$8 = elist[(signed long int)0]->type >= 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = elist[(signed long int)0]->type >= 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        const char *tmp_if_expr$9;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = ci_encaps_entities[(signed long int)elist[(signed long int)0]->type];
+          tmp_if_expr_8 = (_Bool)0;
+        const char *tmp_if_expr_9;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = ci_encaps_entities[(signed long int)elist[(signed long int)0]->type];
 
         else
-          tmp_if_expr$9 = "UNKNOWN";
-        _Bool tmp_if_expr$10;
+          tmp_if_expr_9 = "UNKNOWN";
+        _Bool tmp_if_expr_10;
         if(!(elist[1l]->type >= 6))
-          tmp_if_expr$10 = elist[(signed long int)1]->type >= 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = elist[(signed long int)1]->type >= 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        const char *tmp_if_expr$11;
-        if(tmp_if_expr$10)
-          tmp_if_expr$11 = ci_encaps_entities[(signed long int)elist[(signed long int)1]->type];
+          tmp_if_expr_10 = (_Bool)0;
+        const char *tmp_if_expr_11;
+        if(tmp_if_expr_10)
+          tmp_if_expr_11 = ci_encaps_entities[(signed long int)elist[(signed long int)1]->type];
 
         else
-          tmp_if_expr$11 = "UNKNOWN";
-        sprintf(buf, "Encapsulated: %s=%d, %s=%d", tmp_if_expr$9, elist[(signed long int)0]->start, tmp_if_expr$11, elist[(signed long int)1]->start);
+          tmp_if_expr_11 = "UNKNOWN";
+        sprintf(buf, "Encapsulated: %s=%d, %s=%d", tmp_if_expr_9, elist[(signed long int)0]->start, tmp_if_expr_11, elist[(signed long int)1]->start);
       }
 
       else
       {
-        _Bool tmp_if_expr$12;
+        _Bool tmp_if_expr_12;
         if(!((*elist)->type >= 6))
-          tmp_if_expr$12 = elist[(signed long int)0]->type >= 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_12 = elist[(signed long int)0]->type >= 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        const char *tmp_if_expr$13;
-        if(tmp_if_expr$12)
-          tmp_if_expr$13 = ci_encaps_entities[(signed long int)elist[(signed long int)0]->type];
+          tmp_if_expr_12 = (_Bool)0;
+        const char *tmp_if_expr_13;
+        if(tmp_if_expr_12)
+          tmp_if_expr_13 = ci_encaps_entities[(signed long int)elist[(signed long int)0]->type];
 
         else
-          tmp_if_expr$13 = "UNKNOWN";
-        sprintf(buf, "Encapsulated: %s=%d", tmp_if_expr$13, elist[(signed long int)0]->start);
+          tmp_if_expr_13 = "UNKNOWN";
+        sprintf(buf, "Encapsulated: %s=%d", tmp_if_expr_13, elist[(signed long int)0]->start);
       }
   if(!(is_request == 0))
     ci_headers_add(req->request_header, buf);
 
   else
     ci_headers_add(req->response_header, buf);
-  struct ci_encaps_entity **tmp_post$14;
+  struct ci_encaps_entity **tmp_post_14;
   do
   {
-    tmp_post$14 = elist;
+    tmp_post_14 = elist;
     elist = elist + 1l;
-    e = *tmp_post$14;
+    e = *tmp_post_14;
     if(e == ((struct ci_encaps_entity *)NULL))
       break;
 
-    _Bool tmp_if_expr$15;
+    _Bool tmp_if_expr_15;
     if(e->type == 0)
-      tmp_if_expr$15 = (_Bool)1;
+      tmp_if_expr_15 = (_Bool)1;
 
     else
-      tmp_if_expr$15 = e->type == 1 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$15)
+      tmp_if_expr_15 = e->type == 1 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_15)
       ci_headers_pack((struct ci_headers_list *)e->entity);
 
   }
@@ -21031,13 +21031,13 @@ void ci_ring_buf_destroy(struct ci_ring_buf *buf)
 // file body.c line 888
 signed int ci_ring_buf_is_empty(struct ci_ring_buf *buf)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(buf->read_pos == buf->write_pos)
-    tmp_if_expr$1 = buf->full == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = buf->full == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // ci_ring_buf_new
@@ -21045,17 +21045,17 @@ signed int ci_ring_buf_is_empty(struct ci_ring_buf *buf)
 struct ci_ring_buf * ci_ring_buf_new(signed int size)
 {
   struct ci_ring_buf *buf;
-  void *return_value_ci_object_pool_alloc$1;
-  return_value_ci_object_pool_alloc$1=ci_object_pool_alloc(RING_BUF_POOL);
-  buf = (struct ci_ring_buf *)return_value_ci_object_pool_alloc$1;
+  void *return_value_ci_object_pool_alloc_1;
+  return_value_ci_object_pool_alloc_1=ci_object_pool_alloc(RING_BUF_POOL);
+  buf = (struct ci_ring_buf *)return_value_ci_object_pool_alloc_1;
   if(buf == ((struct ci_ring_buf *)NULL))
     return (struct ci_ring_buf *)(void *)0;
 
   else
   {
-    void *return_value_ci_buffer_alloc$2;
-    return_value_ci_buffer_alloc$2=ci_buffer_alloc(size);
-    buf->buf = (char *)return_value_ci_buffer_alloc$2;
+    void *return_value_ci_buffer_alloc_2;
+    return_value_ci_buffer_alloc_2=ci_buffer_alloc(size);
+    buf->buf = (char *)return_value_ci_buffer_alloc_2;
     if(buf->buf == ((char *)NULL))
     {
       ci_object_pool_free((void *)buf);
@@ -21120,13 +21120,13 @@ signed int ci_ring_buf_read(struct ci_ring_buf *buf, char *data, signed int size
 // file body.c line 912
 signed int ci_ring_buf_read_block(struct ci_ring_buf *buf, char **rb, signed int *len)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(buf->read_pos == buf->write_pos)
-    tmp_if_expr$1 = buf->full == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = buf->full == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     *rb = buf->read_pos;
     *len = 0;
@@ -21179,13 +21179,13 @@ signed int ci_ring_buf_write(struct ci_ring_buf *buf, const char *data, signed i
 // file body.c line 893
 signed int ci_ring_buf_write_block(struct ci_ring_buf *buf, char **wb, signed int *len)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(buf->read_pos == buf->write_pos)
-    tmp_if_expr$1 = buf->full == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = buf->full == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     *wb = buf->write_pos;
     *len = (signed int)((buf->end_buf - buf->write_pos) + (signed long int)1);
@@ -21231,9 +21231,9 @@ void ci_service_add_xincludes(struct ci_service_xdata *srv_xdata, char **xinclud
       }
 
       strncat(srv_xdata->xincludes, xincludes[(signed long int)i], (unsigned long int)(511 - len));
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(xincludes[(signed long int)i]);
-      len = len + (signed int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(xincludes[(signed long int)i]);
+      len = len + (signed int)return_value_strlen_1;
       i = i + 1;
     }
     pthread_rwlock_unlock(&srv_xdata->lock);
@@ -21364,14 +21364,14 @@ void ci_service_set_xopts(struct ci_service_xdata *srv_xdata, unsigned long int 
 // file include/shared_mem.h line 75
 void * ci_shared_mem_attach(struct ci_shared_mem_id *id)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(id == ((struct ci_shared_mem_id *)NULL)))
-    tmp_if_expr$1 = id->scheme != ((const struct ci_shared_mem_scheme *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = id->scheme != ((const struct ci_shared_mem_scheme *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion id && id->scheme */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   void *return_value;
   return_value=id->scheme->shared_mem_attach(id);
   return return_value;
@@ -21397,14 +21397,14 @@ void * ci_shared_mem_create(struct ci_shared_mem_id *id, const char *name, signe
 // file include/shared_mem.h line 77
 signed int ci_shared_mem_destroy(struct ci_shared_mem_id *id)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(id == ((struct ci_shared_mem_id *)NULL)))
-    tmp_if_expr$1 = id->scheme != ((const struct ci_shared_mem_scheme *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = id->scheme != ((const struct ci_shared_mem_scheme *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion id && id->scheme */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   signed int return_value;
   return_value=id->scheme->shared_mem_destroy(id);
   return return_value;
@@ -21414,14 +21414,14 @@ signed int ci_shared_mem_destroy(struct ci_shared_mem_id *id)
 // file include/shared_mem.h line 76
 signed int ci_shared_mem_detach(struct ci_shared_mem_id *id)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(id == ((struct ci_shared_mem_id *)NULL)))
-    tmp_if_expr$1 = id->scheme != ((const struct ci_shared_mem_scheme *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = id->scheme != ((const struct ci_shared_mem_scheme *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion id && id->scheme */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   signed int return_value;
   return_value=id->scheme->shared_mem_detach(id);
   return return_value;
@@ -21431,23 +21431,23 @@ signed int ci_shared_mem_detach(struct ci_shared_mem_id *id)
 // file include/shared_mem.h line 80
 signed int ci_shared_mem_set_scheme(const char *name)
 {
-  signed int return_value_strcasecmp$3;
-  return_value_strcasecmp$3=strcasecmp(name, "posix");
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
-  if(return_value_strcasecmp$3 == 0)
+  signed int return_value_strcasecmp_3;
+  return_value_strcasecmp_3=strcasecmp(name, "posix");
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
+  if(return_value_strcasecmp_3 == 0)
     default_scheme = &posix_scheme;
 
   else
   {
-    return_value_strcasecmp$2=strcasecmp(name, "mmap");
-    if(return_value_strcasecmp$2 == 0)
+    return_value_strcasecmp_2=strcasecmp(name, "mmap");
+    if(return_value_strcasecmp_2 == 0)
       default_scheme = &mmap_scheme;
 
     else
     {
-      return_value_strcasecmp$1=strcasecmp(name, "sysv");
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(name, "sysv");
+      if(return_value_strcasecmp_1 == 0)
         default_scheme = &sysv_scheme;
 
       else
@@ -21497,9 +21497,9 @@ void ci_simple_file_destroy(struct ci_simple_file *body)
 struct ci_simple_file * ci_simple_file_named_new(char *dir, char *filename, signed long int maxsize)
 {
   struct ci_simple_file *body;
-  void *return_value_ci_object_pool_alloc$1;
-  return_value_ci_object_pool_alloc$1=ci_object_pool_alloc(SIMPLE_FILE_POOL);
-  body = (struct ci_simple_file *)return_value_ci_object_pool_alloc$1;
+  void *return_value_ci_object_pool_alloc_1;
+  return_value_ci_object_pool_alloc_1=ci_object_pool_alloc(SIMPLE_FILE_POOL);
+  body = (struct ci_simple_file *)return_value_ci_object_pool_alloc_1;
   if(body == ((struct ci_simple_file *)NULL))
     return (struct ci_simple_file *)(void *)0;
 
@@ -21566,9 +21566,9 @@ struct ci_simple_file * ci_simple_file_named_new(char *dir, char *filename, sign
 struct ci_simple_file * ci_simple_file_new(signed long int maxsize)
 {
   struct ci_simple_file *body;
-  void *return_value_ci_object_pool_alloc$1;
-  return_value_ci_object_pool_alloc$1=ci_object_pool_alloc(SIMPLE_FILE_POOL);
-  body = (struct ci_simple_file *)return_value_ci_object_pool_alloc$1;
+  void *return_value_ci_object_pool_alloc_1;
+  return_value_ci_object_pool_alloc_1=ci_object_pool_alloc(SIMPLE_FILE_POOL);
+  body = (struct ci_simple_file *)return_value_ci_object_pool_alloc_1;
   if(body == ((struct ci_simple_file *)NULL))
     return (struct ci_simple_file *)(void *)0;
 
@@ -21655,13 +21655,13 @@ signed int ci_simple_file_read(struct ci_simple_file *body, char *buf, signed in
 
       }
 
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(!((1u & body->flags) == 0u))
-        tmp_if_expr$1 = body->unlocked >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = body->unlocked >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         remains = (signed int)(body->unlocked - body->readpos);
 
       else
@@ -21745,9 +21745,9 @@ const char * ci_simple_file_to_const_string(struct ci_simple_file *body)
     map_size = body->endpos + (signed long int)1;
     if(body->mmap_addr == ((char *)NULL))
     {
-      void *return_value_mmap64$1;
-      return_value_mmap64$1=mmap64((void *)0, (unsigned long int)map_size, 0x1 | 0x2, 0x02, body->fd, (signed long int)0);
-      addr = (char *)return_value_mmap64$1;
+      void *return_value_mmap64_1;
+      return_value_mmap64_1=mmap64((void *)0, (unsigned long int)map_size, 0x1 | 0x2, 0x02, body->fd, (signed long int)0);
+      addr = (char *)return_value_mmap64_1;
       if(addr == ((char *)NULL))
         return ((const char *)NULL);
 
@@ -21769,17 +21769,17 @@ struct ci_membuf * ci_simple_file_to_membuf(struct ci_simple_file *body, unsigne
   /* assertion flags & 0x08 */
   assert((flags & (unsigned int)0x08) != 0u);
   void *addr;
-  const char *return_value_ci_simple_file_to_const_string$1;
-  return_value_ci_simple_file_to_const_string$1=ci_simple_file_to_const_string(body);
-  addr = (void *)return_value_ci_simple_file_to_const_string$1;
+  const char *return_value_ci_simple_file_to_const_string_1;
+  return_value_ci_simple_file_to_const_string_1=ci_simple_file_to_const_string(body);
+  addr = (void *)return_value_ci_simple_file_to_const_string_1;
   if(addr == NULL)
     return (struct ci_membuf *)(void *)0;
 
   else
   {
-    struct ci_membuf *return_value_ci_membuf_from_content$2;
-    return_value_ci_membuf_from_content$2=ci_membuf_from_content(body->mmap_addr, (unsigned long int)body->mmap_size, (unsigned long int)body->endpos, (unsigned int)(0x08 | 0x04 | 0x01 | 0x02));
-    return return_value_ci_membuf_from_content$2;
+    struct ci_membuf *return_value_ci_membuf_from_content_2;
+    return_value_ci_membuf_from_content_2=ci_membuf_from_content(body->mmap_addr, (unsigned long int)body->mmap_size, (unsigned long int)body->endpos, (unsigned int)(0x08 | 0x04 | 0x01 | 0x02));
+    return return_value_ci_membuf_from_content_2;
   }
 }
 
@@ -21802,9 +21802,9 @@ signed int ci_simple_file_truncate(struct ci_simple_file *body, signed long int 
 
     else
     {
-      signed int return_value_ftruncate64$1;
-      return_value_ftruncate64$1=ftruncate64(body->fd, new_size);
-      if(!(return_value_ftruncate64$1 == 0))
+      signed int return_value_ftruncate64_1;
+      return_value_ftruncate64_1=ftruncate64(body->fd, new_size);
+      if(!(return_value_ftruncate64_1 == 0))
         return 0;
 
     }
@@ -21825,10 +21825,10 @@ signed int ci_simple_file_write(struct ci_simple_file *body, const char *buf, si
 {
   signed int ret;
   signed int wsize = 0;
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
   if(!((2u & body->flags) == 0u))
   {
     if(len >= 1)
@@ -21861,32 +21861,32 @@ signed int ci_simple_file_write(struct ci_simple_file *body, const char *buf, si
     {
       if(!(body->endpos >= body->readpos))
       {
-        signed long int tmp_if_expr$1;
+        signed long int tmp_if_expr_1;
         if(!((signed long int)len >= body->readpos + -body->endpos + -1l))
-          tmp_if_expr$1 = (signed long int)len;
+          tmp_if_expr_1 = (signed long int)len;
 
         else
-          tmp_if_expr$1 = (body->readpos - body->endpos) - (signed long int)1;
-        wsize = (signed int)tmp_if_expr$1;
+          tmp_if_expr_1 = (body->readpos - body->endpos) - (signed long int)1;
+        wsize = (signed int)tmp_if_expr_1;
       }
 
       else
       {
-        _Bool tmp_if_expr$5;
+        _Bool tmp_if_expr_5;
         if(!(body->max_store_size == 0l))
-          tmp_if_expr$5 = body->endpos >= body->max_store_size ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = body->endpos >= body->max_store_size ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
-          _Bool tmp_if_expr$3;
+          _Bool tmp_if_expr_3;
           if(!(body->readpos == 0l))
-            tmp_if_expr$3 = (body->flags & (unsigned int)0x01) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (body->flags & (unsigned int)0x01) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
           {
             body->endpos = (signed long int)0;
             if((4u & body->flags) == 0u)
@@ -21904,13 +21904,13 @@ signed int ci_simple_file_write(struct ci_simple_file *body, const char *buf, si
 
             }
 
-            signed long int tmp_if_expr$2;
+            signed long int tmp_if_expr_2;
             if(!((signed long int)len >= body->readpos + -body->endpos + -1l))
-              tmp_if_expr$2 = (signed long int)len;
+              tmp_if_expr_2 = (signed long int)len;
 
             else
-              tmp_if_expr$2 = (body->readpos - body->endpos) - (signed long int)1;
-            wsize = (signed int)tmp_if_expr$2;
+              tmp_if_expr_2 = (body->readpos - body->endpos) - (signed long int)1;
+            wsize = (signed int)tmp_if_expr_2;
           }
 
           else
@@ -21936,13 +21936,13 @@ signed int ci_simple_file_write(struct ci_simple_file *body, const char *buf, si
         else
           if(!(body->max_store_size == 0l))
           {
-            signed long int tmp_if_expr$4;
+            signed long int tmp_if_expr_4;
             if(!((signed long int)len >= body->max_store_size + -body->endpos))
-              tmp_if_expr$4 = (signed long int)len;
+              tmp_if_expr_4 = (signed long int)len;
 
             else
-              tmp_if_expr$4 = body->max_store_size - body->endpos;
-            wsize = (signed int)tmp_if_expr$4;
+              tmp_if_expr_4 = body->max_store_size - body->endpos;
+            wsize = (signed int)tmp_if_expr_4;
           }
 
           else
@@ -21956,16 +21956,16 @@ signed int ci_simple_file_write(struct ci_simple_file *body, const char *buf, si
         {
           if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
           {
-            return_value___errno_location$6=__errno_location();
-            return_value_strerror$7=strerror(*return_value___errno_location$6);
-            __log_error((void *)0, "Cannot write to file: %s\n", return_value_strerror$7);
+            return_value___errno_location_6=__errno_location();
+            return_value_strerror_7=strerror(*return_value___errno_location_6);
+            __log_error((void *)0, "Cannot write to file: %s\n", return_value_strerror_7);
           }
 
           if(!(CI_DEBUG_STDOUT == 0))
           {
-            return_value___errno_location$8=__errno_location();
-            return_value_strerror$9=strerror(*return_value___errno_location$8);
-            printf("Cannot write to file: %s\n", return_value_strerror$9);
+            return_value___errno_location_8=__errno_location();
+            return_value_strerror_9=strerror(*return_value___errno_location_8);
+            printf("Cannot write to file: %s\n", return_value_strerror_9);
           }
 
         }
@@ -22016,9 +22016,9 @@ const char * ci_sockaddr_t_to_host(struct ci_sockaddr *addr, char *hname, signed
 // file include/net_io.h line 123
 const char * ci_sockaddr_t_to_ip(struct ci_sockaddr *addr, char *ip, signed int maxlen)
 {
-  const char *return_value_ci_inet_ntoa$1;
-  return_value_ci_inet_ntoa$1=ci_inet_ntoa(addr->ci_sin_family, addr->ci_sin_addr, ip, maxlen);
-  return return_value_ci_inet_ntoa$1;
+  const char *return_value_ci_inet_ntoa_1;
+  return_value_ci_inet_ntoa_1=ci_inet_ntoa(addr->ci_sin_family, addr->ci_sin_addr, ip, maxlen);
+  return return_value_ci_inet_ntoa_1;
 }
 
 // ci_stat_area_construct
@@ -22026,16 +22026,16 @@ const char * ci_sockaddr_t_to_ip(struct ci_sockaddr *addr, char *ip, signed int 
 struct stat_area * ci_stat_area_construct(void *mem_block, signed int size, void (*release_mem)(void *))
 {
   struct stat_area *area = (struct stat_area *)(void *)0;
-  signed int return_value_ci_stat_memblock_size$1;
-  return_value_ci_stat_memblock_size$1=ci_stat_memblock_size();
-  if(!(size >= return_value_ci_stat_memblock_size$1))
+  signed int return_value_ci_stat_memblock_size_1;
+  return_value_ci_stat_memblock_size_1=ci_stat_memblock_size();
+  if(!(size >= return_value_ci_stat_memblock_size_1))
     return (struct stat_area *)(void *)0;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct stat_area) /*56ul*/ );
-    area = (struct stat_area *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct stat_area) /*56ul*/ );
+    area = (struct stat_area *)return_value_malloc_2;
     if(area == ((struct stat_area *)NULL))
       return (struct stat_area *)(void *)0;
 
@@ -22073,13 +22073,13 @@ void ci_stat_area_kbs_inc(struct stat_area *area, signed int ID, signed int coun
 {
   if(!(area->mem_block == ((struct stat_memblock *)NULL)))
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(ID >= 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ID >= area->mem_block->counterskbs_size ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = ID >= area->mem_block->counterskbs_size ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       pthread_mutex_lock(&area->mtx);
       (area->mem_block->counterskbs + (signed long int)ID)->bytes = (area->mem_block->counterskbs + (signed long int)ID)->bytes + (unsigned int)count;
@@ -22096,13 +22096,13 @@ void ci_stat_area_kbs_inc(struct stat_area *area, signed int ID, signed int coun
 // file stats.c line 322
 void ci_stat_area_merge(struct stat_area *dest, struct stat_area *src)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dest->mem_block == ((struct stat_memblock *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(src->mem_block != ((struct stat_memblock *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(src->mem_block != ((struct stat_memblock *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
     ci_stat_memblock_merge(dest->mem_block, src->mem_block);
 
 }
@@ -22131,13 +22131,13 @@ void ci_stat_area_uint64_inc(struct stat_area *area, signed int ID, signed int c
 {
   if(!(area->mem_block == ((struct stat_memblock *)NULL)))
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(ID >= 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ID >= area->mem_block->counters64_size ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = ID >= area->mem_block->counters64_size ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       pthread_mutex_lock(&area->mtx);
       area->mem_block->counters64[(signed long int)ID] = area->mem_block->counters64[(signed long int)ID] + (unsigned long int)count;
@@ -22170,17 +22170,17 @@ signed int ci_stat_entry_register(char *label, signed int type, char *group)
   {
     if(type == 0)
     {
-      signed int return_value_stat_entry_add$1;
-      return_value_stat_entry_add$1=stat_entry_add(&STAT_INT64, label, type, gid);
-      return return_value_stat_entry_add$1;
+      signed int return_value_stat_entry_add_1;
+      return_value_stat_entry_add_1=stat_entry_add(&STAT_INT64, label, type, gid);
+      return return_value_stat_entry_add_1;
     }
 
     else
       if(type == 1)
       {
-        signed int return_value_stat_entry_add$2;
-        return_value_stat_entry_add$2=stat_entry_add(&STAT_KBS, label, type, gid);
-        return return_value_stat_entry_add$2;
+        signed int return_value_stat_entry_add_2;
+        return_value_stat_entry_add_2=stat_entry_add(&STAT_KBS, label, type, gid);
+        return return_value_stat_entry_add_2;
       }
 
     return -1;
@@ -22201,13 +22201,13 @@ void ci_stat_kbs_inc(signed int ID, signed int count)
 {
   if(!(STATS->mem_block == ((struct stat_memblock *)NULL)))
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(ID >= 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ID >= STATS->mem_block->counterskbs_size ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = ID >= STATS->mem_block->counterskbs_size ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       pthread_mutex_lock(&STATS->mtx);
       (STATS->mem_block->counterskbs + (signed long int)ID)->bytes = (STATS->mem_block->counterskbs + (signed long int)ID)->bytes + (unsigned int)count;
@@ -22225,19 +22225,19 @@ void ci_stat_kbs_inc(signed int ID, signed int count)
 void ci_stat_memblock_merge(struct stat_memblock *dest_block, struct stat_memblock *mem_block)
 {
   signed int i;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(dest_block == ((struct stat_memblock *)NULL)) && !(mem_block == ((struct stat_memblock *)NULL)))
   {
     i = 0;
     do
     {
       if(!(i >= dest_block->counters64_size))
-        tmp_if_expr$1 = i < mem_block->counters64_size ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = i < mem_block->counters64_size ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       dest_block->counters64[(signed long int)i] = dest_block->counters64[(signed long int)i] + mem_block->counters64[(signed long int)i];
@@ -22248,11 +22248,11 @@ void ci_stat_memblock_merge(struct stat_memblock *dest_block, struct stat_memblo
     do
     {
       if(!(i >= dest_block->counterskbs_size))
-        tmp_if_expr$2 = i < mem_block->counterskbs_size ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = i < mem_block->counterskbs_size ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       (dest_block->counterskbs + (signed long int)i)->kb = (dest_block->counterskbs + (signed long int)i)->kb + (mem_block->counterskbs + (signed long int)i)->kb;
@@ -22304,21 +22304,21 @@ void ci_stat_release()
 // file stats.c line 168
 void ci_stat_uint64_inc(signed int ID, signed int count)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(STATS == ((struct stat_area *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(STATS->mem_block != ((struct stat_memblock *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(STATS->mem_block != ((struct stat_memblock *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(ID >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = ID >= STATS->mem_block->counters64_size ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = ID >= STATS->mem_block->counters64_size ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       pthread_mutex_lock(&STATS->mtx);
       STATS->mem_block->counters64[(signed long int)ID] = STATS->mem_block->counters64[(signed long int)ID] + (unsigned long int)count;
@@ -22335,16 +22335,16 @@ void ci_str_trim(char *str)
 {
   char *s;
   char *e;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  const unsigned short int **return_value___ctype_b_loc_3;
   if(!(str == ((char *)NULL)))
   {
     s = str;
     e = (char *)(void *)0;
     do
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*s]) == 0)
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*s]) == 0)
         break;
 
       e = s;
@@ -22352,14 +22352,14 @@ void ci_str_trim(char *str)
         *e = e[(signed long int)1];
     }
     while((_Bool)1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(str);
-    e = str + (signed long int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(str);
+    e = str + (signed long int)return_value_strlen_2;
     e = e - 1l;
     do
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*e]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*e]) == 0)
         break;
 
       if(!(e >= str))
@@ -22378,8 +22378,8 @@ void ci_str_trim(char *str)
 char * ci_str_trim2(char *s)
 {
   char *e;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  const unsigned short int **return_value___ctype_b_loc_3;
   if(s == ((char *)NULL))
     return (char *)(void *)0;
 
@@ -22387,21 +22387,21 @@ char * ci_str_trim2(char *s)
   {
     do
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*s]) == 0)
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*s]) == 0)
         break;
 
       s = s + 1l;
     }
     while((_Bool)1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(s);
-    e = s + (signed long int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(s);
+    e = s + (signed long int)return_value_strlen_2;
     e = e - 1l;
     do
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*e]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*e]) == 0)
         break;
 
       if(!(e >= s))
@@ -22429,9 +22429,9 @@ const char * ci_str_vector_search(struct ci_vector *vector, const char *item)
   signed int i = 0;
   for( ; !(vector->items[(signed long int)i] == NULL); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((const char *)vector->items[(signed long int)i], item);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((const char *)vector->items[(signed long int)i], item);
+    if(return_value_strcmp_1 == 0)
       return (const char *)vector->items[(signed long int)i];
 
   }
@@ -22458,11 +22458,11 @@ const char * ci_strcasestr(const char *str, const char *find)
       if((signed int)*c == 0)
         return (const char *)(void *)0;
 
-      signed int return_value_tolower$1;
-      return_value_tolower$1=tolower((signed int)*c);
-      signed int return_value_tolower$2;
-      return_value_tolower$2=tolower((signed int)*f);
-      if(!(return_value_tolower$1 == return_value_tolower$2))
+      signed int return_value_tolower_1;
+      return_value_tolower_1=tolower((signed int)*c);
+      signed int return_value_tolower_2;
+      return_value_tolower_2=tolower((signed int)*f);
+      if(!(return_value_tolower_1 == return_value_tolower_2))
         break;
 
       f = f + 1l;
@@ -22475,9 +22475,9 @@ const char * ci_strcasestr(const char *str, const char *find)
 // file include/util.h line 57
 char * ci_strerror(signed int error, char *buf, unsigned long int buflen)
 {
-  char *return_value_strerror_r$1;
-  return_value_strerror_r$1=strerror_r(error, buf, buflen);
-  return return_value_strerror_r$1;
+  char *return_value_strerror_r_1;
+  return_value_strerror_r_1=strerror_r(error, buf, buflen);
+  return return_value_strerror_r_1;
 }
 
 // ci_strncasestr
@@ -22486,7 +22486,7 @@ const char * ci_strncasestr(const char *s, const char *find, unsigned long int s
 {
   unsigned long int len;
   len=strlen(find);
-  signed int return_value_strncasecmp$1;
+  signed int return_value_strncasecmp_1;
   if(len == 0ul)
     return (const char *)(void *)0;
 
@@ -22494,14 +22494,14 @@ const char * ci_strncasestr(const char *s, const char *find, unsigned long int s
   {
     while(slen >= len)
     {
-      signed int return_value_tolower$2;
-      return_value_tolower$2=tolower((signed int)*s);
-      signed int return_value_tolower$3;
-      return_value_tolower$3=tolower((signed int)*find);
-      if(return_value_tolower$2 == return_value_tolower$3)
+      signed int return_value_tolower_2;
+      return_value_tolower_2=tolower((signed int)*s);
+      signed int return_value_tolower_3;
+      return_value_tolower_3=tolower((signed int)*find);
+      if(return_value_tolower_2 == return_value_tolower_3)
       {
-        return_value_strncasecmp$1=strncasecmp(s, find, len);
-        if(return_value_strncasecmp$1 == 0)
+        return_value_strncasecmp_1=strncasecmp(s, find, len);
+        if(return_value_strncasecmp_1 == 0)
           return s;
 
       }
@@ -22519,7 +22519,7 @@ const char * ci_strnstr(const char *s, const char *find, unsigned long int slen)
 {
   unsigned long int len;
   len=strlen(find);
-  signed int return_value_strncmp$1;
+  signed int return_value_strncmp_1;
   if(len == 0ul)
     return (const char *)(void *)0;
 
@@ -22529,8 +22529,8 @@ const char * ci_strnstr(const char *s, const char *find, unsigned long int slen)
     {
       if(*s == *find)
       {
-        return_value_strncmp$1=strncmp(s, find, len);
-        if(return_value_strncmp$1 == 0)
+        return_value_strncmp_1=strncmp(s, find, len);
+        if(return_value_strncmp_1 == 0)
           return s;
 
       }
@@ -22549,13 +22549,13 @@ void ci_strtime(char *buf)
   struct tm br_tm;
   signed long int tm;
   time(&tm);
-  struct tm *return_value_localtime_r$1;
-  return_value_localtime_r$1=localtime_r(&tm, &br_tm);
-  asctime_r(return_value_localtime_r$1, buf);
+  struct tm *return_value_localtime_r_1;
+  return_value_localtime_r_1=localtime_r(&tm, &br_tm);
+  asctime_r(return_value_localtime_r_1, buf);
   buf[(signed long int)(64 - 1)] = (char)0;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(buf);
-  buf[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(buf);
+  buf[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
 }
 
 // ci_strtime_rfc822
@@ -22572,56 +22572,56 @@ void ci_strtime_rfc822(char *buf)
 
 // ci_thread_cond_destroy
 // file include/ci_threads.h line 62
-signed int ci_thread_cond_destroy(union anonymous$9 *pcond)
+signed int ci_thread_cond_destroy(union anonymous_9 *pcond)
 {
-  signed int return_value_pthread_cond_destroy$1;
-  return_value_pthread_cond_destroy$1=pthread_cond_destroy(pcond);
-  return return_value_pthread_cond_destroy$1;
+  signed int return_value_pthread_cond_destroy_1;
+  return_value_pthread_cond_destroy_1=pthread_cond_destroy(pcond);
+  return return_value_pthread_cond_destroy_1;
 }
 
 // ci_thread_cond_init
 // file include/ci_threads.h line 61
-signed int ci_thread_cond_init(union anonymous$9 *pcond)
+signed int ci_thread_cond_init(union anonymous_9 *pcond)
 {
-  signed int return_value_pthread_cond_init$1;
-  return_value_pthread_cond_init$1=pthread_cond_init(pcond, (const union anonymous$21 *)(void *)0);
-  return return_value_pthread_cond_init$1;
+  signed int return_value_pthread_cond_init_1;
+  return_value_pthread_cond_init_1=pthread_cond_init(pcond, (const union anonymous_21 *)(void *)0);
+  return return_value_pthread_cond_init_1;
 }
 
 // ci_thread_create
 // file include/ci_threads.h line 67
 signed int ci_thread_create(unsigned long int *pthread_id, void * (*pfunc)(void *), void *parg)
 {
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(pthread_id, (const union pthread_attr_t *)(void *)0, pfunc, parg);
-  return return_value_pthread_create$1;
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(pthread_id, (const union pthread_attr_t *)(void *)0, pfunc, parg);
+  return return_value_pthread_create_1;
 }
 
 // ci_thread_join
 // file include/ci_threads.h line 68
 signed int ci_thread_join(unsigned long int thread_id)
 {
-  signed int return_value_pthread_join$1;
-  return_value_pthread_join$1=pthread_join(thread_id, (void **)(void *)0);
-  return return_value_pthread_join$1;
+  signed int return_value_pthread_join_1;
+  return_value_pthread_join_1=pthread_join(thread_id, (void **)(void *)0);
+  return return_value_pthread_join_1;
 }
 
 // ci_thread_mutex_destroy
 // file include/ci_threads.h line 40
-signed int ci_thread_mutex_destroy(union anonymous$3 *pmutex)
+signed int ci_thread_mutex_destroy(union anonymous_3 *pmutex)
 {
   del_mutex((void *)pmutex);
-  signed int return_value_pthread_mutex_destroy$1;
-  return_value_pthread_mutex_destroy$1=pthread_mutex_destroy(pmutex);
-  return return_value_pthread_mutex_destroy$1;
+  signed int return_value_pthread_mutex_destroy_1;
+  return_value_pthread_mutex_destroy_1=pthread_mutex_destroy(pmutex);
+  return return_value_pthread_mutex_destroy_1;
 }
 
 // ci_thread_mutex_init
 // file include/ci_threads.h line 39
-signed int ci_thread_mutex_init(union anonymous$3 *pmutex)
+signed int ci_thread_mutex_init(union anonymous_3 *pmutex)
 {
   signed int ret;
-  ret=pthread_mutex_init(pmutex, (const union anonymous$21 *)(void *)0);
+  ret=pthread_mutex_init(pmutex, (const union anonymous_21 *)(void *)0);
   if(!(ret == 0))
     return ret;
 
@@ -22634,20 +22634,20 @@ signed int ci_thread_mutex_init(union anonymous$3 *pmutex)
 
 // ci_thread_rwlock_destroy
 // file include/ci_threads.h line 48
-signed int ci_thread_rwlock_destroy(union anonymous$1 *rwlock)
+signed int ci_thread_rwlock_destroy(union anonymous_1 *rwlock)
 {
   del_mutex((void *)rwlock);
-  signed int return_value_pthread_rwlock_destroy$1;
-  return_value_pthread_rwlock_destroy$1=pthread_rwlock_destroy(rwlock);
-  return return_value_pthread_rwlock_destroy$1;
+  signed int return_value_pthread_rwlock_destroy_1;
+  return_value_pthread_rwlock_destroy_1=pthread_rwlock_destroy(rwlock);
+  return return_value_pthread_rwlock_destroy_1;
 }
 
 // ci_thread_rwlock_init
 // file include/ci_threads.h line 47
-signed int ci_thread_rwlock_init(union anonymous$1 *rwlock)
+signed int ci_thread_rwlock_init(union anonymous_1 *rwlock)
 {
   signed int ret;
-  ret=pthread_rwlock_init(rwlock, (const union anonymous$22 *)(void *)0);
+  ret=pthread_rwlock_init(rwlock, (const union anonymous_22 *)(void *)0);
   if(!(ret == 0))
     return ret;
 
@@ -22664,9 +22664,9 @@ struct ci_membuf * ci_txt_template_build_content(const struct ci_request *req, c
 {
   struct ci_membuf *content;
   char templpath[4096l];
-  struct anonymous$7 *template = (struct anonymous$7 *)(void *)0;
+  struct anonymous_7 *template = (struct anonymous_7 *)(void *)0;
   content=ci_membuf_new_sized(TEMPLATE_MEMBUF_SIZE);
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(content == ((struct ci_membuf *)NULL))
   {
     if(CI_DEBUG_LEVEL >= 1)
@@ -22685,14 +22685,14 @@ struct ci_membuf * ci_txt_template_build_content(const struct ci_request *req, c
   else
   {
     template=templateLoadText(req, SERVICE_NAME, TEMPLATE_NAME);
-    if(!(template == ((struct anonymous$7 *)NULL)))
+    if(!(template == ((struct anonymous_7 *)NULL)))
     {
       content->endpos=ci_format_text((struct ci_request *)req, template->data->buf, content->buf, content->bufsize, user_table);
       ci_membuf_write(content, "\0", 1, 1);
       if(!(template->LANGUAGE == ((char *)NULL)))
       {
-        return_value_strlen$1=strlen(template->LANGUAGE);
-        ci_membuf_attr_add(content, "lang", (const void *)template->LANGUAGE, return_value_strlen$1 + (unsigned long int)1);
+        return_value_strlen_1=strlen(template->LANGUAGE);
+        ci_membuf_attr_add(content, "lang", (const void *)template->LANGUAGE, return_value_strlen_1 + (unsigned long int)1);
       }
 
       template_release(template);
@@ -22705,9 +22705,9 @@ struct ci_membuf * ci_txt_template_build_content(const struct ci_request *req, c
       if(!(content->bufsize >= content->endpos))
         content->endpos = content->bufsize;
 
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(TEMPLATE_DEF_LANG);
-      ci_membuf_attr_add(content, "lang", (const void *)TEMPLATE_DEF_LANG, return_value_strlen$2 + (unsigned long int)1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(TEMPLATE_DEF_LANG);
+      ci_membuf_attr_add(content, "lang", (const void *)TEMPLATE_DEF_LANG, return_value_strlen_2 + (unsigned long int)1);
       if(CI_DEBUG_LEVEL >= 1)
       {
         if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
@@ -22728,13 +22728,13 @@ struct ci_membuf * ci_txt_template_build_content(const struct ci_request *req, c
 void ci_txt_template_close(void)
 {
   signed int i;
-  if(!(templates == ((struct anonymous$7 *)NULL)))
+  if(!(templates == ((struct anonymous_7 *)NULL)))
   {
     i = 0;
     for( ; !(i >= TEMPLATE_CACHE_SIZE); i = i + 1)
       templateFree(&templates[(signed long int)i]);
     free((void *)templates);
-    templates = (struct anonymous$7 *)(void *)0;
+    templates = (struct anonymous_7 *)(void *)0;
     ci_thread_mutex_destroy(&templates_mutex);
   }
 
@@ -22745,10 +22745,10 @@ void ci_txt_template_close(void)
 signed int ci_txt_template_init(void)
 {
   signed int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)TEMPLATE_CACHE_SIZE * sizeof(struct anonymous$7) /*72ul*/ );
-  templates = (struct anonymous$7 *)return_value_malloc$1;
-  if(templates == ((struct anonymous$7 *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)TEMPLATE_CACHE_SIZE * sizeof(struct anonymous_7) /*72ul*/ );
+  templates = (struct anonymous_7 *)return_value_malloc_1;
+  if(templates == ((struct anonymous_7 *)NULL))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -22810,9 +22810,9 @@ void ci_txt_template_set_dir(const char *dir)
 // file decode.c line 313
 signed int ci_uncompress_preview(signed int compress_method, const char *buf, signed int len, char *unzipped_buf, signed int *unzipped_buf_len)
 {
-  signed int return_value_zlib_inflate$1;
-  return_value_zlib_inflate$1=zlib_inflate(buf, len, unzipped_buf, unzipped_buf_len);
-  return return_value_zlib_inflate$1;
+  signed int return_value_zlib_inflate_1;
+  return_value_zlib_inflate_1=zlib_inflate(buf, len, unzipped_buf, unzipped_buf_len);
+  return return_value_zlib_inflate_1;
   return -1;
 }
 
@@ -22837,9 +22837,9 @@ void * ci_vector_add(struct ci_vector *vector, const void *value, unsigned long 
   struct ci_mem_allocator *packer = vector->alloc;
   /* assertion packer */
   assert(packer != ((struct ci_mem_allocator *)NULL));
-  void *return_value_ci_pack_allocator_alloc_unaligned$1;
-  return_value_ci_pack_allocator_alloc_unaligned$1=ci_pack_allocator_alloc_unaligned(packer, (unsigned long int)&((void **)0)[(signed long int)1]);
-  indx = (void **)return_value_ci_pack_allocator_alloc_unaligned$1;
+  void *return_value_ci_pack_allocator_alloc_unaligned_1;
+  return_value_ci_pack_allocator_alloc_unaligned_1=ci_pack_allocator_alloc_unaligned(packer, (unsigned long int)&((void **)0)[(signed long int)1]);
+  indx = (void **)return_value_ci_pack_allocator_alloc_unaligned_1;
   item=ci_pack_allocator_alloc_from_rear(packer, (signed int)size);
   if(item == NULL || indx == ((void **)NULL))
   {
@@ -22873,15 +22873,15 @@ struct ci_vector * ci_vector_cast_from_voidvoid(const void **p)
 {
   const void *buf;
   struct ci_vector *v = (struct ci_vector *)((void *)p - (signed long int)(sizeof(struct ci_vector) /*48ul*/  + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1)));
-  unsigned long int return_value_ci_pack_allocator_required_size$1;
-  return_value_ci_pack_allocator_required_size$1=ci_pack_allocator_required_size();
-  buf = (void *)v - (signed long int)return_value_ci_pack_allocator_required_size$1;
+  unsigned long int return_value_ci_pack_allocator_required_size_1;
+  return_value_ci_pack_allocator_required_size_1=ci_pack_allocator_required_size();
+  buf = (void *)v - (signed long int)return_value_ci_pack_allocator_required_size_1;
   /* assertion v->mem == buf */
   assert(v->mem == (char *)buf);
-  unsigned long int return_value_ci_buffer_blocksize$2;
-  return_value_ci_buffer_blocksize$2=ci_buffer_blocksize(buf);
+  unsigned long int return_value_ci_buffer_blocksize_2;
+  return_value_ci_buffer_blocksize_2=ci_buffer_blocksize(buf);
   /* assertion ci_buffer_blocksize(buf) != 0 */
-  assert(return_value_ci_buffer_blocksize$2 != (unsigned long int)0);
+  assert(return_value_ci_buffer_blocksize_2 != (unsigned long int)0);
   return v;
 }
 
@@ -22915,12 +22915,12 @@ struct ci_vector * ci_vector_create(unsigned long int max_size)
 
     else
     {
-      void *return_value_ci_pack_allocator_alloc$1;
-      return_value_ci_pack_allocator_alloc$1=ci_pack_allocator_alloc(packer, sizeof(struct ci_vector) /*48ul*/ );
-      vector = (struct ci_vector *)return_value_ci_pack_allocator_alloc$1;
-      void *return_value_ci_pack_allocator_alloc_unaligned$2;
-      return_value_ci_pack_allocator_alloc_unaligned$2=ci_pack_allocator_alloc_unaligned(packer, (unsigned long int)&((void **)0)[(signed long int)1]);
-      indx = (void **)return_value_ci_pack_allocator_alloc_unaligned$2;
+      void *return_value_ci_pack_allocator_alloc_1;
+      return_value_ci_pack_allocator_alloc_1=ci_pack_allocator_alloc(packer, sizeof(struct ci_vector) /*48ul*/ );
+      vector = (struct ci_vector *)return_value_ci_pack_allocator_alloc_1;
+      void *return_value_ci_pack_allocator_alloc_unaligned_2;
+      return_value_ci_pack_allocator_alloc_unaligned_2=ci_pack_allocator_alloc_unaligned(packer, (unsigned long int)&((void **)0)[(signed long int)1]);
+      indx = (void **)return_value_ci_pack_allocator_alloc_unaligned_2;
       if(indx == ((void **)NULL) || vector == ((struct ci_vector *)NULL))
       {
         ci_buffer_free(buffer);
@@ -22999,10 +22999,10 @@ void * ci_vector_pop(struct ci_vector *vector)
 // file include/net_io.h line 144
 signed int ci_wait_for_data(signed int fd, signed int secs, signed int what_wait)
 {
-  struct anonymous$19 rfds;
-  struct anonymous$19 wfds;
-  struct anonymous$19 *preadfds;
-  struct anonymous$19 *pwritefds;
+  struct anonymous_19 rfds;
+  struct anonymous_19 wfds;
+  struct anonymous_19 *preadfds;
+  struct anonymous_19 *pwritefds;
   struct timeval tv;
   signed int ret = 0;
   if(secs >= 0)
@@ -23011,15 +23011,15 @@ signed int ci_wait_for_data(signed int fd, signed int secs, signed int what_wait
     tv.tv_usec = (signed long int)0;
   }
 
-  preadfds = (struct anonymous$19 *)(void *)0;
-  pwritefds = (struct anonymous$19 *)(void *)0;
+  preadfds = (struct anonymous_19 *)(void *)0;
+  pwritefds = (struct anonymous_19 *)(void *)0;
   if(!((0x1 & what_wait) == 0))
   {
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&rfds)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rfds)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -23030,33 +23030,33 @@ signed int ci_wait_for_data(signed int fd, signed int secs, signed int what_wait
   {
     do
     {
-      signed int ci_wait_for_data$$1$$3$$1$$__d0;
-      signed int ci_wait_for_data$$1$$3$$1$$__d1;
-      asm("cld; rep; stosq" : "=c"(ci_wait_for_data$$1$$3$$1$$__d0), "=D"(ci_wait_for_data$$1$$3$$1$$__d1) : "a"(0), "0"(sizeof(struct anonymous$19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wfds)->fds_bits[(signed long int)0]) : "memory");
+      signed int ci_wait_for_data__1__3__1____d0;
+      signed int ci_wait_for_data__1__3__1____d1;
+      asm("cld; rep; stosq" : "=c"(ci_wait_for_data__1__3__1____d0), "=D"(ci_wait_for_data__1__3__1____d1) : "a"(0), "0"(sizeof(struct anonymous_19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wfds)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&wfds)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wfds)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
     pwritefds = &wfds;
   }
 
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  ret=select(fd + 1, preadfds, pwritefds, (struct anonymous$19 *)(void *)0, secs >= 0 ? &tv : (struct timeval *)(void *)0);
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  ret=select(fd + 1, preadfds, pwritefds, (struct anonymous_19 *)(void *)0, secs >= 0 ? &tv : (struct timeval *)(void *)0);
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_3;
   if(ret >= 1)
   {
     ret = 0;
-    if(!(preadfds == ((struct anonymous$19 *)NULL)))
+    if(!(preadfds == ((struct anonymous_19 *)NULL)))
     {
       if(!((preadfds->fds_bits[(signed long int)(fd / 8)] & (signed long int)(1UL << fd % 8)) == 0l))
         ret = 0x1;
 
     }
 
-    if(!(pwritefds == ((struct anonymous$19 *)NULL)))
+    if(!(pwritefds == ((struct anonymous_19 *)NULL)))
     {
       if(!((pwritefds->fds_bits[(signed long int)(fd / 8)] & (signed long int)(1UL << fd % 8)) == 0l))
         ret = ret | 0x2;
@@ -23070,21 +23070,21 @@ signed int ci_wait_for_data(signed int fd, signed int secs, signed int what_wait
   {
     if(!(ret >= 0))
     {
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 4))
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 4))
       {
         if(CI_DEBUG_LEVEL >= 5)
         {
           if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
           {
-            return_value___errno_location$2=__errno_location();
-            __log_error((void *)0, "Fatal error while waiting for new data (errno=%d....\n", *return_value___errno_location$2);
+            return_value___errno_location_2=__errno_location();
+            __log_error((void *)0, "Fatal error while waiting for new data (errno=%d....\n", *return_value___errno_location_2);
           }
 
           if(!(CI_DEBUG_STDOUT == 0))
           {
-            return_value___errno_location$3=__errno_location();
-            printf("Fatal error while waiting for new data (errno=%d....\n", *return_value___errno_location$3);
+            return_value___errno_location_3=__errno_location();
+            printf("Fatal error while waiting for new data (errno=%d....\n", *return_value___errno_location_3);
           }
 
         }
@@ -23105,53 +23105,53 @@ signed int ci_write(signed int fd, const void *buf, unsigned long int count, sig
   signed int bytes = 0;
   signed int remains = (signed int)count;
   char *b = (char *)buf;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$8;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_8;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   while(remains >= 1)
   {
     do
     {
-      signed long int return_value_write$3;
-      return_value_write$3=write(fd, (const void *)b, (unsigned long int)remains);
-      bytes = (signed int)return_value_write$3;
+      signed long int return_value_write_3;
+      return_value_write_3=write(fd, (const void *)b, (unsigned long int)remains);
+      bytes = (signed int)return_value_write_3;
       if(bytes == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
     if(bytes == -1)
     {
-      return_value___errno_location$8=__errno_location();
-      if(*return_value___errno_location$8 == 11)
+      return_value___errno_location_8=__errno_location();
+      if(*return_value___errno_location_8 == 11)
       {
-        signed int return_value_ci_wait_for_data$4;
-        return_value_ci_wait_for_data$4=ci_wait_for_data(fd, timeout, 0x2);
-        if(return_value_ci_wait_for_data$4 == 0)
+        signed int return_value_ci_wait_for_data_4;
+        return_value_ci_wait_for_data_4=ci_wait_for_data(fd, timeout, 0x2);
+        if(return_value_ci_wait_for_data_4 == 0)
           return bytes;
 
         do
         {
-          signed long int return_value_write$7;
-          return_value_write$7=write(fd, (const void *)b, (unsigned long int)remains);
-          bytes = (signed int)return_value_write$7;
+          signed long int return_value_write_7;
+          return_value_write_7=write(fd, (const void *)b, (unsigned long int)remains);
+          bytes = (signed int)return_value_write_7;
           if(bytes == -1)
           {
-            return_value___errno_location$5=__errno_location();
-            tmp_if_expr$6 = *return_value___errno_location$5 == 4 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_5=__errno_location();
+            tmp_if_expr_6 = *return_value___errno_location_5 == 4 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$6 = (_Bool)0;
+            tmp_if_expr_6 = (_Bool)0;
         }
-        while(tmp_if_expr$6);
+        while(tmp_if_expr_6);
       }
 
     }
@@ -23170,28 +23170,28 @@ signed int ci_write(signed int fd, const void *buf, unsigned long int count, sig
 signed int ci_write_nonblock(signed int fd, const void *buf, unsigned long int count)
 {
   signed int bytes = 0;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed long int return_value_write$3;
-    return_value_write$3=write(fd, buf, count);
-    bytes = (signed int)return_value_write$3;
+    signed long int return_value_write_3;
+    return_value_write_3=write(fd, buf, count);
+    bytes = (signed int)return_value_write_3;
     if(bytes == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
-  signed int *return_value___errno_location$4;
+  while(tmp_if_expr_2);
+  signed int *return_value___errno_location_4;
   if(!(bytes >= 0))
   {
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 11)
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 11)
       return 0;
 
   }
@@ -23220,24 +23220,24 @@ static signed int ci_writen(signed int fd, char *buf, signed int len, signed int
 // file aserver.c line 50
 signed int clear_pid(char *pidfile)
 {
-  signed int return_value_remove$3;
-  return_value_remove$3=remove(pidfile);
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  if(!(return_value_remove$3 == 0))
+  signed int return_value_remove_3;
+  return_value_remove_3=remove(pidfile);
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  if(!(return_value_remove_3 == 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
       if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
       {
-        return_value___errno_location$1=__errno_location();
-        __log_error((void *)0, "Cannot delete the pid file: %s Error:%d\n", pidfile, *return_value___errno_location$1);
+        return_value___errno_location_1=__errno_location();
+        __log_error((void *)0, "Cannot delete the pid file: %s Error:%d\n", pidfile, *return_value___errno_location_1);
       }
 
       if(!(CI_DEBUG_STDOUT == 0))
       {
-        return_value___errno_location$2=__errno_location();
-        printf("Cannot delete the pid file: %s Error:%d\n", pidfile, *return_value___errno_location$2);
+        return_value___errno_location_2=__errno_location();
+        printf("Cannot delete the pid file: %s Error:%d\n", pidfile, *return_value___errno_location_2);
       }
 
     }
@@ -23262,16 +23262,16 @@ static signed int client_build_headers(struct ci_request *req, signed int has_re
   i = 0;
   if(!(has_reqhdr == 0))
   {
-    signed int tmp_post$1 = i;
+    signed int tmp_post_1 = i;
     i = i + 1;
-    req->entities[(signed long int)tmp_post$1]=ci_request_alloc_entity(req, 0, 0);
+    req->entities[(signed long int)tmp_post_1]=ci_request_alloc_entity(req, 0, 0);
   }
 
   if(!(has_reshdr == 0))
   {
-    signed int tmp_post$2 = i;
+    signed int tmp_post_2 = i;
     i = i + 1;
-    req->entities[(signed long int)tmp_post$2]=ci_request_alloc_entity(req, 1, 0);
+    req->entities[(signed long int)tmp_post_2]=ci_request_alloc_entity(req, 1, 0);
   }
 
   if(!(has_body == 0))
@@ -23293,26 +23293,26 @@ static signed int client_create_request(struct ci_request *req, char *servername
   else
   {
     req->type = reqtype;
-    const char *tmp_if_expr$1;
+    const char *tmp_if_expr_1;
     if(reqtype >= 0x01 && !(reqtype >= 5))
-      tmp_if_expr$1 = ci_methods[(signed long int)reqtype];
+      tmp_if_expr_1 = ci_methods[(signed long int)reqtype];
 
     else
-      tmp_if_expr$1 = "UNKNOWN";
-    snprintf(buf, (unsigned long int)255, "%s icap://%s/%s ICAP/1.0", tmp_if_expr$1, servername, service);
+      tmp_if_expr_1 = "UNKNOWN";
+    snprintf(buf, (unsigned long int)255, "%s icap://%s/%s ICAP/1.0", tmp_if_expr_1, servername, service);
     buf[(signed long int)255] = (char)0;
     ci_headers_add(req->request_header, buf);
     snprintf(buf, (unsigned long int)255, "Host: %s", servername);
     buf[(signed long int)255] = (char)0;
     ci_headers_add(req->request_header, buf);
     ci_headers_add(req->request_header, "User-Agent: C-ICAP-Client-Library/0.01");
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(req->allow204 == 0))
-      tmp_if_expr$2 = req->allow206 != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = req->allow206 != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       ci_headers_add(req->request_header, "Allow: 204, 206");
 
     else
@@ -23348,13 +23348,13 @@ static signed int client_parse_encaps_header(struct ci_request *req, struct ci_h
     {
       if(req->pstrblock_read_len >= 1)
       {
-        signed int tmp_if_expr$1;
+        signed int tmp_if_expr_1;
         if(!(req->pstrblock_read_len >= remains))
-          tmp_if_expr$1 = req->pstrblock_read_len;
+          tmp_if_expr_1 = req->pstrblock_read_len;
 
         else
-          tmp_if_expr$1 = remains;
-        readed = tmp_if_expr$1;
+          tmp_if_expr_1 = remains;
+        readed = tmp_if_expr_1;
         memcpy((void *)(h->buf + (signed long int)h->bufused), (const void *)req->pstrblock_read, (unsigned long int)readed);
         h->bufused = h->bufused + readed;
         req->pstrblock_read = req->pstrblock_read + (signed long int)readed;
@@ -23367,9 +23367,9 @@ static signed int client_parse_encaps_header(struct ci_request *req, struct ci_h
       else
       {
         buf_end = h->buf + (signed long int)h->bufused;
-        signed int return_value_strncmp$2;
-        return_value_strncmp$2=strncmp(buf_end - (signed long int)4, "\r\n\r\n", (unsigned long int)4);
-        if(return_value_strncmp$2 == 0)
+        signed int return_value_strncmp_2;
+        return_value_strncmp_2=strncmp(buf_end - (signed long int)4, "\r\n\r\n", (unsigned long int)4);
+        if(return_value_strncmp_2 == 0)
         {
           h->bufused = h->bufused - 2;
           return 1;
@@ -23415,9 +23415,9 @@ static signed int client_parse_icap_header(struct ci_request *req, struct ci_hea
 
     else
       readed = req->pstrblock_read_len - 3;
-    signed int return_value_check_realloc$1;
-    return_value_check_realloc$1=check_realloc(&h->buf, &h->bufsize, h->bufused, readed);
-    if(!(return_value_check_realloc$1 == 1))
+    signed int return_value_check_realloc_1;
+    return_value_check_realloc_1=check_realloc(&h->buf, &h->bufsize, h->bufused, readed);
+    if(!(return_value_check_realloc_1 == 1))
       return -1;
 
     else
@@ -23513,9 +23513,9 @@ static signed int client_parse_incoming_data(struct ci_request *req, void *data_
       req->status = 1;
       size = req->entities[(signed long int)1]->start - req->entities[(signed long int)0]->start;
       resp_heads = (struct ci_headers_list *)req->entities[(signed long int)0]->entity;
-      signed int return_value_ci_headers_setsize$1;
-      return_value_ci_headers_setsize$1=ci_headers_setsize(resp_heads, size);
-      if(return_value_ci_headers_setsize$1 == 0)
+      signed int return_value_ci_headers_setsize_1;
+      return_value_ci_headers_setsize_1=ci_headers_setsize(resp_heads, size);
+      if(return_value_ci_headers_setsize_1 == 0)
         return -1;
 
     }
@@ -23637,9 +23637,9 @@ static signed int client_prepere_body_chunk(struct ci_request *req, void *data, 
   else
   {
     wbuf = wbuf + (signed long int)chunksize;
-    char *tmp_post$1 = wbuf;
+    char *tmp_post_1 = wbuf;
     wbuf = wbuf + 1l;
-    *tmp_post$1 = (char)13;
+    *tmp_post_1 = (char)13;
     *wbuf = (char)10;
     def_bytes=snprintf(tmpbuf, (unsigned long int)30, "%x\r\n", chunksize);
     wbuf = (req->wbuf + (signed long int)30) - (signed long int)def_bytes;
@@ -23658,7 +23658,7 @@ static signed int client_send_get_data(struct ci_request *req, signed int timeou
   signed int read_status;
   signed int bytes;
   signed int io_action;
-  signed int return_value_client_prepere_body_chunk$1;
+  signed int return_value_client_prepere_body_chunk_1;
   if(!(req->pstrblock_read_len == 0))
   {
     read_status=client_parse_incoming_data(req, data_dest, dest_write);
@@ -23702,11 +23702,11 @@ static signed int client_send_get_data(struct ci_request *req, signed int timeou
         {
           if(!(data_source == NULL))
           {
-            return_value_client_prepere_body_chunk$1=client_prepere_body_chunk(req, data_source, source_read);
-            if(!(return_value_client_prepere_body_chunk$1 >= 1))
+            return_value_client_prepere_body_chunk_1=client_prepere_body_chunk(req, data_source, source_read);
+            if(!(return_value_client_prepere_body_chunk_1 >= 1))
             {
               req->eof_received = 1;
-              req->pstrblock_responce = (char *)eof_str$link1;
+              req->pstrblock_responce = (char *)eof_str_link1;
               req->remain_send_block_bytes = 5;
             }
 
@@ -23723,22 +23723,22 @@ static signed int client_send_get_data(struct ci_request *req, signed int timeou
         req->remain_send_block_bytes = req->remain_send_block_bytes - bytes;
       }
 
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!(req->eof_received == 0))
-        tmp_if_expr$2 = req->remain_send_block_bytes == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = req->remain_send_block_bytes == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         io_action = 0;
 
       else
         io_action = 0x2;
       if(!((0x1 & io_ret) == 0))
       {
-        signed int return_value_net_data_read$3;
-        return_value_net_data_read$3=net_data_read(req);
-        if(return_value_net_data_read$3 == -1)
+        signed int return_value_net_data_read_3;
+        return_value_net_data_read_3=net_data_read(req);
+        if(return_value_net_data_read_3 == -1)
           return -1;
 
         read_status=client_parse_incoming_data(req, data_dest, dest_write);
@@ -23767,10 +23767,10 @@ static signed int client_send_request_headers(struct ci_request *req, signed int
   struct ci_headers_list *headers;
   signed int bytes;
   ci_request_pack(req);
-  signed int return_value_ci_writen$1;
-  return_value_ci_writen$1=ci_writen(req->connection->fd, req->request_header->buf, req->request_header->bufused, timeout);
-  struct ci_encaps_entity **tmp_post$2;
-  if(!(return_value_ci_writen$1 >= 0))
+  signed int return_value_ci_writen_1;
+  return_value_ci_writen_1=ci_writen(req->connection->fd, req->request_header->buf, req->request_header->bufused, timeout);
+  struct ci_encaps_entity **tmp_post_2;
+  if(!(return_value_ci_writen_1 >= 0))
     return -1;
 
   else
@@ -23779,24 +23779,24 @@ static signed int client_send_request_headers(struct ci_request *req, signed int
     elist = req->entities;
     do
     {
-      tmp_post$2 = elist;
+      tmp_post_2 = elist;
       elist = elist + 1l;
-      e = *tmp_post$2;
+      e = *tmp_post_2;
       if(e == ((struct ci_encaps_entity *)NULL))
         break;
 
-      _Bool tmp_if_expr$4;
+      _Bool tmp_if_expr_4;
       if(e->type == 0)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = e->type == 1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = e->type == 1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
         headers = (struct ci_headers_list *)e->entity;
-        signed int return_value_ci_writen$3;
-        return_value_ci_writen$3=ci_writen(req->connection->fd, headers->buf, headers->bufused, timeout);
-        if(!(return_value_ci_writen$3 >= 0))
+        signed int return_value_ci_writen_3;
+        return_value_ci_writen_3=ci_writen(req->connection->fd, headers->buf, headers->bufused, timeout);
+        if(!(return_value_ci_writen_3 >= 0))
           return -1;
 
         req->bytes_out = req->bytes_out + (unsigned long int)headers->bufused;
@@ -23804,32 +23804,32 @@ static signed int client_send_request_headers(struct ci_request *req, signed int
 
     }
     while((_Bool)1);
-    _Bool tmp_if_expr$10;
+    _Bool tmp_if_expr_10;
     if(req->preview >= 1)
-      tmp_if_expr$10 = req->preview_data.used > 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_10 = req->preview_data.used > 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
     {
       bytes=sprintf(req->wbuf, "%x\r\n", req->preview);
-      signed int return_value_ci_writen$5;
-      return_value_ci_writen$5=ci_writen(req->connection->fd, req->wbuf, bytes, timeout);
-      if(!(return_value_ci_writen$5 >= 0))
+      signed int return_value_ci_writen_5;
+      return_value_ci_writen_5=ci_writen(req->connection->fd, req->wbuf, bytes, timeout);
+      if(!(return_value_ci_writen_5 >= 0))
         return -1;
 
       req->bytes_out = req->bytes_out + (unsigned long int)bytes;
-      signed int return_value_ci_writen$6;
-      return_value_ci_writen$6=ci_writen(req->connection->fd, req->preview_data.buf, req->preview, timeout);
-      if(!(return_value_ci_writen$6 >= 0))
+      signed int return_value_ci_writen_6;
+      return_value_ci_writen_6=ci_writen(req->connection->fd, req->preview_data.buf, req->preview, timeout);
+      if(!(return_value_ci_writen_6 >= 0))
         return -1;
 
       req->bytes_out = req->bytes_out + (unsigned long int)req->preview;
       if(!(has_eof == 0))
       {
-        signed int return_value_ci_writen$7;
-        return_value_ci_writen$7=ci_writen(req->connection->fd, "\r\n0; ieof\r\n\r\n", 13, timeout);
-        if(!(return_value_ci_writen$7 >= 0))
+        signed int return_value_ci_writen_7;
+        return_value_ci_writen_7=ci_writen(req->connection->fd, "\r\n0; ieof\r\n\r\n", 13, timeout);
+        if(!(return_value_ci_writen_7 >= 0))
           return -1;
 
         req->bytes_out = req->bytes_out + (unsigned long int)13;
@@ -23838,9 +23838,9 @@ static signed int client_send_request_headers(struct ci_request *req, signed int
 
       else
       {
-        signed int return_value_ci_writen$8;
-        return_value_ci_writen$8=ci_writen(req->connection->fd, "\r\n0\r\n\r\n", 7, timeout);
-        if(!(return_value_ci_writen$8 >= 0))
+        signed int return_value_ci_writen_8;
+        return_value_ci_writen_8=ci_writen(req->connection->fd, "\r\n0\r\n\r\n", 7, timeout);
+        if(!(return_value_ci_writen_8 >= 0))
           return -1;
 
         req->bytes_out = req->bytes_out + (unsigned long int)7;
@@ -23850,9 +23850,9 @@ static signed int client_send_request_headers(struct ci_request *req, signed int
     else
       if(req->preview == 0)
       {
-        signed int return_value_ci_writen$9;
-        return_value_ci_writen$9=ci_writen(req->connection->fd, "0\r\n\r\n", 5, timeout);
-        if(!(return_value_ci_writen$9 >= 0))
+        signed int return_value_ci_writen_9;
+        return_value_ci_writen_9=ci_writen(req->connection->fd, "0\r\n\r\n", 5, timeout);
+        if(!(return_value_ci_writen_9 >= 0))
           return -1;
 
         req->bytes_out = req->bytes_out + (unsigned long int)5;
@@ -23903,18 +23903,18 @@ void commands_exec_scheduled()
 // file commands.c line 188
 signed int commands_execute_start_child()
 {
-  signed int return_value_execute_child_commands$1;
-  return_value_execute_child_commands$1=execute_child_commands(8);
-  return return_value_execute_child_commands$1;
+  signed int return_value_execute_child_commands_1;
+  return_value_execute_child_commands_1=execute_child_commands(8);
+  return return_value_execute_child_commands_1;
 }
 
 // commands_execute_stop_child
 // file commands.c line 193
 signed int commands_execute_stop_child()
 {
-  signed int return_value_execute_child_commands$1;
-  return_value_execute_child_commands$1=execute_child_commands(16);
-  return return_value_execute_child_commands$1;
+  signed int return_value_execute_child_commands_1;
+  return_value_execute_child_commands_1=execute_child_commands(16);
+  return return_value_execute_child_commands_1;
 }
 
 // commands_init
@@ -23953,9 +23953,9 @@ signed int common_mutex_destroy(struct common_mutex *mtx)
 
   else
   {
-    signed int return_value_ci_thread_mutex_destroy$1;
-    return_value_ci_thread_mutex_destroy$1=ci_thread_mutex_destroy(&mtx->mtx.thread_mutex);
-    return return_value_ci_thread_mutex_destroy$1;
+    signed int return_value_ci_thread_mutex_destroy_1;
+    return_value_ci_thread_mutex_destroy_1=ci_thread_mutex_destroy(&mtx->mtx.thread_mutex);
+    return return_value_ci_thread_mutex_destroy_1;
   }
 }
 
@@ -23969,9 +23969,9 @@ signed int common_mutex_init(struct common_mutex *mtx, signed int proc_mtx)
   else
   {
     mtx->isproc = 0;
-    signed int return_value_ci_thread_mutex_init$1;
-    return_value_ci_thread_mutex_init$1=ci_thread_mutex_init(&mtx->mtx.thread_mutex);
-    return return_value_ci_thread_mutex_init$1;
+    signed int return_value_ci_thread_mutex_init_1;
+    return_value_ci_thread_mutex_init_1=ci_thread_mutex_init(&mtx->mtx.thread_mutex);
+    return return_value_ci_thread_mutex_init_1;
   }
 }
 
@@ -23984,9 +23984,9 @@ signed int common_mutex_lock(struct common_mutex *mtx)
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&mtx->mtx.thread_mutex);
-    return return_value_pthread_mutex_lock$1;
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&mtx->mtx.thread_mutex);
+    return return_value_pthread_mutex_lock_1;
   }
 }
 
@@ -23999,9 +23999,9 @@ signed int common_mutex_unlock(struct common_mutex *mtx)
 
   else
   {
-    signed int return_value_pthread_mutex_unlock$1;
-    return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&mtx->mtx.thread_mutex);
-    return return_value_pthread_mutex_unlock$1;
+    signed int return_value_pthread_mutex_unlock_1;
+    return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&mtx->mtx.thread_mutex);
+    return return_value_pthread_mutex_unlock_1;
   }
 }
 
@@ -24038,9 +24038,9 @@ signed int config(signed int argc, char **argv)
   ARGC = argc;
   ARGV = argv;
   ci_cfg_lib_init();
-  signed int return_value_ci_args_apply$1;
-  return_value_ci_args_apply$1=ci_args_apply(argc, argv, options);
-  if(return_value_ci_args_apply$1 == 0)
+  signed int return_value_ci_args_apply_1;
+  return_value_ci_args_apply_1=ci_args_apply(argc, argv, options);
+  if(return_value_ci_args_apply_1 == 0)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -24056,9 +24056,9 @@ signed int config(signed int argc, char **argv)
     exit(-1);
   }
 
-  signed int return_value_parse_file$2;
-  return_value_parse_file$2=parse_file(CI_CONF.cfg_file);
-  if(return_value_parse_file$2 == 0)
+  signed int return_value_parse_file_2;
+  return_value_parse_file_2=parse_file(CI_CONF.cfg_file);
+  if(return_value_parse_file_2 == 0)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -24085,9 +24085,9 @@ signed int create_childs_queue(struct childs_queue *q, signed int size)
   struct stat_memblock *mem_block;
   q->stats_block_size=ci_stat_memblock_size();
   q->shared_mem_size = (signed int)(sizeof(struct child_shared_data) /*56ul*/  * (unsigned long int)size + (unsigned long int)(q->stats_block_size * size) + (unsigned long int)q->stats_block_size + sizeof(struct server_statistics) /*12ul*/ );
-  void *return_value_ci_shared_mem_create$1;
-  return_value_ci_shared_mem_create$1=ci_shared_mem_create(&q->shmid, "kids-queue", q->shared_mem_size);
-  q->childs = (struct child_shared_data *)return_value_ci_shared_mem_create$1;
+  void *return_value_ci_shared_mem_create_1;
+  return_value_ci_shared_mem_create_1=ci_shared_mem_create(&q->shmid, "kids-queue", q->shared_mem_size);
+  q->childs = (struct child_shared_data *)return_value_ci_shared_mem_create_1;
   if(q->childs == ((struct child_shared_data *)NULL))
   {
     log_server((struct ci_request *)(void *)0, "can't get shared memory!");
@@ -24180,9 +24180,9 @@ struct ci_conf_entry * create_service_conf_table(struct ci_service_xdata *srv_xd
     size = size + i;
   }
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(size + 1) * sizeof(struct ci_conf_entry) /*32ul*/ );
-  table = (struct ci_conf_entry *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(size + 1) * sizeof(struct ci_conf_entry) /*32ul*/ );
+  table = (struct ci_conf_entry *)return_value_malloc_1;
   if(table == ((struct ci_conf_entry *)NULL))
     return (struct ci_conf_entry *)(void *)0;
 
@@ -24233,9 +24233,9 @@ signed int datatype_cmp(const void *key1, const void *key2)
     else
     {
       type = type >> 16;
-      signed int return_value_ci_magic_group_check$1;
-      return_value_ci_magic_group_check$1=ci_magic_group_check((signed int)*((unsigned int *)key2), (signed int)type);
-      if(!(return_value_ci_magic_group_check$1 == 0))
+      signed int return_value_ci_magic_group_check_1;
+      return_value_ci_magic_group_check_1=ci_magic_group_check((signed int)*((unsigned int *)key2), (signed int)type);
+      if(!(return_value_ci_magic_group_check_1 == 0))
         return 0;
 
       else
@@ -24289,9 +24289,9 @@ signed int datatype_equal(const void *key1, const void *key2)
     else
     {
       type = type >> 16;
-      signed int return_value_ci_magic_group_check$1;
-      return_value_ci_magic_group_check$1=ci_magic_group_check((signed int)*((unsigned int *)key2), (signed int)type);
-      if(!(return_value_ci_magic_group_check$1 == 0))
+      signed int return_value_ci_magic_group_check_1;
+      return_value_ci_magic_group_check_1=ci_magic_group_check((signed int)*((unsigned int *)key2), (signed int)type);
+      if(!(return_value_ci_magic_group_check_1 == 0))
         return 1;
 
       else
@@ -24317,9 +24317,9 @@ unsigned long int datatype_len(const void *key)
 // file default_acl.c line 86
 signed int default_acl_client_match(struct ci_request *req)
 {
-  signed int return_value_ci_access_entry_match_request$1;
-  return_value_ci_access_entry_match_request$1=ci_access_entry_match_request(acl_connection_access_list, req);
-  return return_value_ci_access_entry_match_request$1;
+  signed int return_value_ci_access_entry_match_request_1;
+  return_value_ci_access_entry_match_request_1=ci_access_entry_match_request(acl_connection_access_list, req);
+  return return_value_ci_access_entry_match_request_1;
 }
 
 // default_acl_init
@@ -24350,18 +24350,18 @@ void default_acl_release()
 // file default_acl.c line 91
 signed int default_acl_request_match(struct ci_request *req)
 {
-  signed int return_value_ci_access_entry_match_request$1;
-  return_value_ci_access_entry_match_request$1=ci_access_entry_match_request(acl_access_list, req);
-  return return_value_ci_access_entry_match_request$1;
+  signed int return_value_ci_access_entry_match_request_1;
+  return_value_ci_access_entry_match_request_1=ci_access_entry_match_request(acl_access_list, req);
+  return return_value_ci_access_entry_match_request_1;
 }
 
 // default_cmp
 // file array.c line 680
 static signed int default_cmp(const void *obj1, const void *obj2, unsigned long int size)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp(obj1, obj2, size);
-  return return_value_memcmp$1;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp(obj1, obj2, size);
+  return return_value_memcmp_1;
 }
 
 // del_mutex
@@ -24374,7 +24374,7 @@ static void del_mutex(void *pmutex)
   m = mutexes;
   for( ; !(m == ((struct mutex_itm *)NULL)); m = m->next)
   {
-    if(m->mtx.mutex == (union anonymous$3 *)pmutex)
+    if(m->mtx.mutex == (union anonymous_3 *)pmutex)
     {
       if(p == ((struct mutex_itm *)NULL))
         mutexes = mutexes->next;
@@ -24399,9 +24399,9 @@ __CPROVER_DUMP_L6:
 signed int destroy_childs_queue(struct childs_queue *q)
 {
   ci_proc_mutex_lock(&q->queue_mtx);
-  signed int return_value_ci_shared_mem_destroy$1;
-  return_value_ci_shared_mem_destroy$1=ci_shared_mem_destroy(&q->shmid);
-  if(return_value_ci_shared_mem_destroy$1 == 0)
+  signed int return_value_ci_shared_mem_destroy_1;
+  return_value_ci_shared_mem_destroy_1=ci_shared_mem_destroy(&q->shmid);
+  if(return_value_ci_shared_mem_destroy_1 == 0)
   {
     log_server((struct ci_request *)(void *)0, "can't destroy shared memory!");
     ci_proc_mutex_unlock(&q->queue_mtx);
@@ -24421,13 +24421,13 @@ signed int destroy_childs_queue(struct childs_queue *q)
 // file header.c line 563
 void destroy_encaps_entity(struct ci_encaps_entity *e)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(e->type == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = e->type == 1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = e->type == 1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     ci_headers_destroy((struct ci_headers_list *)e->entity);
 
   else
@@ -24450,9 +24450,9 @@ void destroy_queue(struct connections_queue *q)
 signed int dettach_childs_queue(struct childs_queue *q)
 {
   ci_proc_mutex_lock(&q->queue_mtx);
-  signed int return_value_ci_shared_mem_detach$1;
-  return_value_ci_shared_mem_detach$1=ci_shared_mem_detach(&q->shmid);
-  if(return_value_ci_shared_mem_detach$1 == 0)
+  signed int return_value_ci_shared_mem_detach_1;
+  return_value_ci_shared_mem_detach_1=ci_shared_mem_detach(&q->shmid);
+  if(return_value_ci_shared_mem_detach_1 == 0)
   {
     log_server((struct ci_request *)(void *)0, "can't dettach shared memory!");
     ci_proc_mutex_unlock(&q->queue_mtx);
@@ -24471,19 +24471,19 @@ signed int dettach_childs_queue(struct childs_queue *q)
 // file body.c line 318
 void do_close(signed int fd)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  signed int return_value_close$2;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  signed int return_value_close_2;
+  signed int *return_value___errno_location_3;
   do
   {
-    return_value_close$2=close(fd);
-    if(return_value_close$2 >= 0)
+    return_value_close_2=close(fd);
+    if(return_value_close_2 >= 0)
       break;
 
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 4))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 4))
       break;
 
   }
@@ -24507,9 +24507,9 @@ static signed int do_end_of_data(struct ci_request *req)
       {
         if(req->status == 0)
         {
-          signed int return_value_ec_responce$1;
-          return_value_ec_responce$1=ec_responce(req, 2);
-          if(!(return_value_ec_responce$1 >= 0))
+          signed int return_value_ec_responce_1;
+          return_value_ec_responce_1=ec_responce(req, 2);
+          if(!(return_value_ec_responce_1 >= 0))
           {
             if(CI_DEBUG_LEVEL >= 5)
             {
@@ -24599,9 +24599,9 @@ static signed int do_fake_preview(struct ci_request *req)
 
         }
 
-        signed int return_value_ec_responce$1;
-        return_value_ec_responce$1=ec_responce(req, 2);
-        if(!(return_value_ec_responce$1 >= 0))
+        signed int return_value_ec_responce_1;
+        return_value_ec_responce_1=ec_responce(req, 2);
+        if(!(return_value_ec_responce_1 >= 0))
         {
           req->keepalive = 0;
           return -1;
@@ -24675,24 +24675,24 @@ static signed int do_fake_preview(struct ci_request *req)
 signed int do_open(const char *pathname, signed int flags)
 {
   signed int fd;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
     fd=open64(pathname, flags, 0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3);
     if(!(fd >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
   return fd;
 }
 
@@ -24701,26 +24701,26 @@ signed int do_open(const char *pathname, signed int flags)
 signed int do_read(signed int fd, void *buf, unsigned long int count)
 {
   signed int bytes;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
-    signed long int return_value_read$4;
-    return_value_read$4=read(fd, buf, count);
-    bytes = (signed int)return_value_read$4;
+    signed long int return_value_read_4;
+    return_value_read_4=read(fd, buf, count);
+    bytes = (signed int)return_value_read_4;
     if(!(bytes >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
   return bytes;
 }
 
@@ -24763,13 +24763,13 @@ static signed int do_request(struct ci_request *req)
     /* assertion req->current_service_mod */
     assert(req->current_service_mod != ((struct ci_service_module *)NULL));
     srv_xdata=service_data(req->current_service_mod);
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(srv_xdata == ((struct ci_service_xdata *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = srv_xdata->status != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = srv_xdata->status != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(CI_DEBUG_LEVEL >= 2)
       {
@@ -25038,9 +25038,9 @@ static signed int do_request_preview(struct ci_request *req)
     res=req->current_service_mod->mod_check_preview_handler(req->preview_data.buf, req->preview_data.used, req);
   if(res == 204)
   {
-    signed int return_value_ec_responce$1;
-    return_value_ec_responce$1=ec_responce(req, 2);
-    if(!(return_value_ec_responce$1 >= 0))
+    signed int return_value_ec_responce_1;
+    return_value_ec_responce_1=ec_responce(req, 2);
+    if(!(return_value_ec_responce_1 >= 0))
     {
       req->keepalive = 0;
       return -1;
@@ -25125,26 +25125,26 @@ static signed int do_request_preview(struct ci_request *req)
 signed int do_write(signed int fd, const void *buf, unsigned long int count)
 {
   signed int bytes;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
-    signed long int return_value_write$4;
-    return_value_write$4=write(fd, buf, count);
-    bytes = (signed int)return_value_write$4;
+    signed long int return_value_write_4;
+    return_value_write_4=write(fd, buf, count);
+    bytes = (signed int)return_value_write_4;
     if(!(bytes >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
   return bytes;
 }
 
@@ -25290,19 +25290,19 @@ static signed int ec_responce(struct ci_request *req, signed int ec)
     ec = 1;
   }
 
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(ec >= 0 && !(ec >= 16))
-    tmp_if_expr$1 = ci_error_codes[(signed long int)ec].code;
+    tmp_if_expr_1 = ci_error_codes[(signed long int)ec].code;
 
   else
-    tmp_if_expr$1 = 1000;
-  char *tmp_if_expr$2;
+    tmp_if_expr_1 = 1000;
+  char *tmp_if_expr_2;
   if(ec >= 0 && !(ec >= 16))
-    tmp_if_expr$2 = ci_error_codes[(signed long int)ec].str;
+    tmp_if_expr_2 = ci_error_codes[(signed long int)ec].str;
 
   else
-    tmp_if_expr$2 = "UNKNOWN ERROR CODE";
-  snprintf(buf, (unsigned long int)256, "ICAP/1.0 %d %s", tmp_if_expr$1, tmp_if_expr$2);
+    tmp_if_expr_2 = "UNKNOWN ERROR CODE";
+  snprintf(buf, (unsigned long int)256, "ICAP/1.0 %d %s", tmp_if_expr_1, tmp_if_expr_2);
   ci_headers_add(req->response_header, buf);
   ci_headers_add(req->response_header, "Server: C-ICAP/0.4.2");
   if(!(req->keepalive == 0))
@@ -25349,23 +25349,23 @@ static void ec_responce_simple(struct ci_request *req, signed int ec)
 {
   char buf[256l];
   signed int len;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(ec >= 0 && !(ec >= 16))
-    tmp_if_expr$1 = ci_error_codes[(signed long int)ec].code;
+    tmp_if_expr_1 = ci_error_codes[(signed long int)ec].code;
 
   else
-    tmp_if_expr$1 = 1000;
-  char *tmp_if_expr$2;
+    tmp_if_expr_1 = 1000;
+  char *tmp_if_expr_2;
   if(ec >= 0 && !(ec >= 16))
-    tmp_if_expr$2 = ci_error_codes[(signed long int)ec].str;
+    tmp_if_expr_2 = ci_error_codes[(signed long int)ec].str;
 
   else
-    tmp_if_expr$2 = "UNKNOWN ERROR CODE";
-  snprintf(buf, (unsigned long int)256, "ICAP/1.0 %d %s\r\n\r\n", tmp_if_expr$1, tmp_if_expr$2);
+    tmp_if_expr_2 = "UNKNOWN ERROR CODE";
+  snprintf(buf, (unsigned long int)256, "ICAP/1.0 %d %s\r\n\r\n", tmp_if_expr_1, tmp_if_expr_2);
   buf[(signed long int)255] = (char)0;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(buf);
-  len = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(buf);
+  len = (signed int)return_value_strlen_3;
   ci_write(req->connection->fd, (const void *)buf, (unsigned long int)len, TIMEOUT);
   req->bytes_out = req->bytes_out + (unsigned long int)len;
   req->return_code = ec;
@@ -25406,7 +25406,7 @@ static signed int exec_cmd_step(void *data, const void *cmd)
 
     }
 
-    command->$anon0.command_action_extend(command->name, command->type, command->data);
+    command->_anon0.command_action_extend(command->name, command->type, command->data);
   }
 
   return 0;
@@ -25459,7 +25459,7 @@ signed int execute_command(struct ci_command *command, char *cmdline, signed int
   else
   {
     args=split_args(cmdline);
-    command->$anon0.command_action(args[(signed long int)0], exec_type, (const char **)(args + (signed long int)1));
+    command->_anon0.command_action(args[(signed long int)0], exec_type, (const char **)(args + (signed long int)1));
     free_args(args);
     return 1;
   }
@@ -25486,10 +25486,10 @@ signed int extend_object_type(struct ci_magics_db *db, struct ci_headers_list *h
   const char *content_type = (const char *)(void *)0;
   const char *content_encoding = (const char *)(void *)0;
   *iscompressed = 0;
-  char *return_value_strcasestr$2;
-  char *return_value_strcasestr$1;
-  char *return_value_strcasestr$14;
-  char *return_value_strcasestr$16;
+  char *return_value_strcasestr_2;
+  char *return_value_strcasestr_1;
+  char *return_value_strcasestr_14;
+  char *return_value_strcasestr_16;
   if(!(len >= 1))
     return 5;
 
@@ -25510,42 +25510,42 @@ signed int extend_object_type(struct ci_magics_db *db, struct ci_headers_list *h
 
         }
 
-        char *return_value_strcasestr$3;
-        return_value_strcasestr$3=strcasestr(content_encoding, "gzip");
-        if(!(return_value_strcasestr$3 == ((char *)NULL)))
+        char *return_value_strcasestr_3;
+        return_value_strcasestr_3=strcasestr(content_encoding, "gzip");
+        if(!(return_value_strcasestr_3 == ((char *)NULL)))
           *iscompressed = 1;
 
         else
         {
-          return_value_strcasestr$2=strcasestr(content_encoding, "deflate");
-          if(!(return_value_strcasestr$2 == ((char *)NULL)))
+          return_value_strcasestr_2=strcasestr(content_encoding, "deflate");
+          if(!(return_value_strcasestr_2 == ((char *)NULL)))
             *iscompressed = 2;
 
           else
           {
-            return_value_strcasestr$1=strcasestr(content_encoding, "bzip2");
-            if(!(return_value_strcasestr$1 == ((char *)NULL)))
+            return_value_strcasestr_1=strcasestr(content_encoding, "bzip2");
+            if(!(return_value_strcasestr_1 == ((char *)NULL)))
               *iscompressed = 3;
 
             else
               *iscompressed = 4;
           }
         }
-        _Bool tmp_if_expr$6;
+        _Bool tmp_if_expr_6;
         if(*iscompressed == 1)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = *iscompressed == 2 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = *iscompressed == 2 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
         {
-          void *return_value_ci_buffer_alloc$4;
-          return_value_ci_buffer_alloc$4=ci_buffer_alloc(len);
-          unzipped_buf = (char *)return_value_ci_buffer_alloc$4;
+          void *return_value_ci_buffer_alloc_4;
+          return_value_ci_buffer_alloc_4=ci_buffer_alloc(len);
+          unzipped_buf = (char *)return_value_ci_buffer_alloc_4;
           unzipped_buf_len = len;
-          signed int return_value_ci_uncompress_preview$5;
-          return_value_ci_uncompress_preview$5=ci_uncompress_preview(*iscompressed, buf, len, unzipped_buf, &unzipped_buf_len);
-          if(!(return_value_ci_uncompress_preview$5 == -1))
+          signed int return_value_ci_uncompress_preview_5;
+          return_value_ci_uncompress_preview_5=ci_uncompress_preview(*iscompressed, buf, len, unzipped_buf, &unzipped_buf_len);
+          if(!(return_value_ci_uncompress_preview_5 == -1))
           {
             checkbuf = unzipped_buf;
             len = unzipped_buf_len;
@@ -25578,82 +25578,82 @@ signed int extend_object_type(struct ci_magics_db *db, struct ci_headers_list *h
     {
       if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
       {
-        char *tmp_if_expr$7;
+        char *tmp_if_expr_7;
         if(!(db == ((struct ci_magics_db *)NULL)))
-          tmp_if_expr$7 = (db->types + (signed long int)file_type)->name;
+          tmp_if_expr_7 = (db->types + (signed long int)file_type)->name;
 
         else
-          tmp_if_expr$7 = (char *)(void *)0;
-        _Bool tmp_if_expr$8;
+          tmp_if_expr_7 = (char *)(void *)0;
+        _Bool tmp_if_expr_8;
         if(!(db == ((struct ci_magics_db *)NULL)))
-          tmp_if_expr$8 = file_type < db->types_num ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = file_type < db->types_num ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        char *tmp_if_expr$9;
-        if(file_type >= 0 && tmp_if_expr$8)
-          tmp_if_expr$9 = (db->types + (signed long int)file_type)->descr;
+          tmp_if_expr_8 = (_Bool)0;
+        char *tmp_if_expr_9;
+        if(file_type >= 0 && tmp_if_expr_8)
+          tmp_if_expr_9 = (db->types + (signed long int)file_type)->descr;
 
         else
-          tmp_if_expr$9 = (char *)(void *)0;
-        __log_error((void *)0, "File type returned :%s,%s\n", tmp_if_expr$7, tmp_if_expr$9);
+          tmp_if_expr_9 = (char *)(void *)0;
+        __log_error((void *)0, "File type returned :%s,%s\n", tmp_if_expr_7, tmp_if_expr_9);
       }
 
       if(!(CI_DEBUG_STDOUT == 0))
       {
-        char *tmp_if_expr$10;
+        char *tmp_if_expr_10;
         if(!(db == ((struct ci_magics_db *)NULL)))
-          tmp_if_expr$10 = (db->types + (signed long int)file_type)->name;
+          tmp_if_expr_10 = (db->types + (signed long int)file_type)->name;
 
         else
-          tmp_if_expr$10 = (char *)(void *)0;
-        _Bool tmp_if_expr$11;
+          tmp_if_expr_10 = (char *)(void *)0;
+        _Bool tmp_if_expr_11;
         if(!(db == ((struct ci_magics_db *)NULL)))
-          tmp_if_expr$11 = file_type < db->types_num ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = file_type < db->types_num ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        char *tmp_if_expr$12;
-        if(file_type >= 0 && tmp_if_expr$11)
-          tmp_if_expr$12 = (db->types + (signed long int)file_type)->descr;
+          tmp_if_expr_11 = (_Bool)0;
+        char *tmp_if_expr_12;
+        if(file_type >= 0 && tmp_if_expr_11)
+          tmp_if_expr_12 = (db->types + (signed long int)file_type)->descr;
 
         else
-          tmp_if_expr$12 = (char *)(void *)0;
-        printf("File type returned :%s,%s\n", tmp_if_expr$10, tmp_if_expr$12);
+          tmp_if_expr_12 = (char *)(void *)0;
+        printf("File type returned :%s,%s\n", tmp_if_expr_10, tmp_if_expr_12);
       }
 
     }
 
-    signed int return_value_ci_belongs_to_group$18;
-    return_value_ci_belongs_to_group$18=ci_belongs_to_group(db, file_type, 0);
-    if(!(return_value_ci_belongs_to_group$18 == 0))
+    signed int return_value_ci_belongs_to_group_18;
+    return_value_ci_belongs_to_group_18=ci_belongs_to_group(db, file_type, 0);
+    if(!(return_value_ci_belongs_to_group_18 == 0))
     {
       if(!(headers == ((struct ci_headers_list *)NULL)))
       {
         content_type=ci_headers_value(headers, "Content-Type");
         if(!(content_type == ((const char *)NULL)))
         {
-          char *return_value_strcasestr$13;
-          return_value_strcasestr$13=strcasestr(content_type, "text/html");
-          _Bool tmp_if_expr$15;
-          if(!(return_value_strcasestr$13 == ((char *)NULL)))
-            tmp_if_expr$15 = (_Bool)1;
+          char *return_value_strcasestr_13;
+          return_value_strcasestr_13=strcasestr(content_type, "text/html");
+          _Bool tmp_if_expr_15;
+          if(!(return_value_strcasestr_13 == ((char *)NULL)))
+            tmp_if_expr_15 = (_Bool)1;
 
           else
           {
-            return_value_strcasestr$14=strcasestr(content_type, "text/css");
-            tmp_if_expr$15 = return_value_strcasestr$14 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            return_value_strcasestr_14=strcasestr(content_type, "text/css");
+            tmp_if_expr_15 = return_value_strcasestr_14 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
           }
-          _Bool tmp_if_expr$17;
-          if(tmp_if_expr$15)
-            tmp_if_expr$17 = (_Bool)1;
+          _Bool tmp_if_expr_17;
+          if(tmp_if_expr_15)
+            tmp_if_expr_17 = (_Bool)1;
 
           else
           {
-            return_value_strcasestr$16=strcasestr(content_type, "text/javascript");
-            tmp_if_expr$17 = return_value_strcasestr$16 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            return_value_strcasestr_16=strcasestr(content_type, "text/javascript");
+            tmp_if_expr_17 = return_value_strcasestr_16 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$17)
+          if(tmp_if_expr_17)
             file_type = 4;
 
         }
@@ -25666,48 +25666,48 @@ signed int extend_object_type(struct ci_magics_db *db, struct ci_headers_list *h
     {
       if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
       {
-        char *tmp_if_expr$19;
+        char *tmp_if_expr_19;
         if(!(db == ((struct ci_magics_db *)NULL)))
-          tmp_if_expr$19 = (db->types + (signed long int)file_type)->name;
+          tmp_if_expr_19 = (db->types + (signed long int)file_type)->name;
 
         else
-          tmp_if_expr$19 = (char *)(void *)0;
-        _Bool tmp_if_expr$20;
+          tmp_if_expr_19 = (char *)(void *)0;
+        _Bool tmp_if_expr_20;
         if(!(db == ((struct ci_magics_db *)NULL)))
-          tmp_if_expr$20 = file_type < db->types_num ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_20 = file_type < db->types_num ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$20 = (_Bool)0;
-        char *tmp_if_expr$21;
-        if(file_type >= 0 && tmp_if_expr$20)
-          tmp_if_expr$21 = (db->types + (signed long int)file_type)->descr;
+          tmp_if_expr_20 = (_Bool)0;
+        char *tmp_if_expr_21;
+        if(file_type >= 0 && tmp_if_expr_20)
+          tmp_if_expr_21 = (db->types + (signed long int)file_type)->descr;
 
         else
-          tmp_if_expr$21 = (char *)(void *)0;
-        __log_error((void *)0, "The file type now is :%s,%s\n", tmp_if_expr$19, tmp_if_expr$21);
+          tmp_if_expr_21 = (char *)(void *)0;
+        __log_error((void *)0, "The file type now is :%s,%s\n", tmp_if_expr_19, tmp_if_expr_21);
       }
 
       if(!(CI_DEBUG_STDOUT == 0))
       {
-        char *tmp_if_expr$22;
+        char *tmp_if_expr_22;
         if(!(db == ((struct ci_magics_db *)NULL)))
-          tmp_if_expr$22 = (db->types + (signed long int)file_type)->name;
+          tmp_if_expr_22 = (db->types + (signed long int)file_type)->name;
 
         else
-          tmp_if_expr$22 = (char *)(void *)0;
-        _Bool tmp_if_expr$23;
+          tmp_if_expr_22 = (char *)(void *)0;
+        _Bool tmp_if_expr_23;
         if(!(db == ((struct ci_magics_db *)NULL)))
-          tmp_if_expr$23 = file_type < db->types_num ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_23 = file_type < db->types_num ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$23 = (_Bool)0;
-        char *tmp_if_expr$24;
-        if(file_type >= 0 && tmp_if_expr$23)
-          tmp_if_expr$24 = (db->types + (signed long int)file_type)->descr;
+          tmp_if_expr_23 = (_Bool)0;
+        char *tmp_if_expr_24;
+        if(file_type >= 0 && tmp_if_expr_23)
+          tmp_if_expr_24 = (db->types + (signed long int)file_type)->descr;
 
         else
-          tmp_if_expr$24 = (char *)(void *)0;
-        printf("The file type now is :%s,%s\n", tmp_if_expr$22, tmp_if_expr$24);
+          tmp_if_expr_24 = (char *)(void *)0;
+        printf("The file type now is :%s,%s\n", tmp_if_expr_22, tmp_if_expr_24);
       }
 
     }
@@ -25726,13 +25726,13 @@ void file_log_access(struct ci_request *req)
   struct logfile *lf;
   char logline[4096l];
   lf = ACCESS_LOG_FILES;
-  signed int return_value_ci_access_entry_match_request$1;
+  signed int return_value_ci_access_entry_match_request_1;
   for( ; !(lf == ((struct logfile *)NULL)); lf = lf->next)
   {
     if(!(lf->access_list == ((struct ci_access_entry *)NULL)))
     {
-      return_value_ci_access_entry_match_request$1=ci_access_entry_match_request(lf->access_list, req);
-      if(!(return_value_ci_access_entry_match_request$1 == 1))
+      return_value_ci_access_entry_match_request_1=ci_access_entry_match_request(lf->access_list, req);
+      if(!(return_value_ci_access_entry_match_request_1 == 1))
       {
         if(CI_DEBUG_LEVEL >= 6)
         {
@@ -25792,9 +25792,9 @@ signed int file_log_addlogfile(const char *file, const char *format, const char 
 
     else
       access_log_format = (char *)(void *)0;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct logfile) /*96ul*/ );
-    newlf = (struct logfile *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct logfile) /*96ul*/ );
+    newlf = (struct logfile *)return_value_malloc_1;
     newlf->file = access_log_file;
     newlf->log_fmt = access_log_format != (char *)(void *)0 ? access_log_format : DEFAULT_LOG_FORMAT;
     newlf->access_log = (struct _IO_FILE *)(void *)0;
@@ -25804,9 +25804,9 @@ signed int file_log_addlogfile(const char *file, const char *format, const char 
     {
       if(!(*acls == ((const char *)NULL)))
       {
-        struct ci_access_entry *return_value_ci_access_entry_new$2;
-        return_value_ci_access_entry_new$2=ci_access_entry_new(&newlf->access_list, 1);
-        if(return_value_ci_access_entry_new$2 == ((struct ci_access_entry *)NULL))
+        struct ci_access_entry *return_value_ci_access_entry_new_2;
+        return_value_ci_access_entry_new_2=ci_access_entry_new(&newlf->access_list, 1);
+        if(return_value_ci_access_entry_new_2 == ((struct ci_access_entry *)NULL))
         {
           if(CI_DEBUG_LEVEL >= 1)
           {
@@ -25827,9 +25827,9 @@ signed int file_log_addlogfile(const char *file, const char *format, const char 
         for( ; !(acls[(signed long int)i] == ((const char *)NULL)); i = i + 1)
         {
           acl_name = acls[(signed long int)i];
-          signed int return_value_ci_access_entry_add_acl_by_name$3;
-          return_value_ci_access_entry_add_acl_by_name$3=ci_access_entry_add_acl_by_name(newlf->access_list, acl_name);
-          if(return_value_ci_access_entry_add_acl_by_name$3 == 0)
+          signed int return_value_ci_access_entry_add_acl_by_name_3;
+          return_value_ci_access_entry_add_acl_by_name_3=ci_access_entry_add_acl_by_name(newlf->access_list, acl_name);
+          if(return_value_ci_access_entry_add_acl_by_name_3 == 0)
           {
             if(CI_DEBUG_LEVEL >= 1)
             {
@@ -25860,9 +25860,9 @@ signed int file_log_addlogfile(const char *file, const char *format, const char 
       lf = ACCESS_LOG_FILES;
       for( ; !(lf->next == ((struct logfile *)NULL)); lf = lf->next)
       {
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(lf->file, newlf->file);
-        if(return_value_strcmp$4 == 0)
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(lf->file, newlf->file);
+        if(return_value_strcmp_4 == 0)
         {
           if(CI_DEBUG_LEVEL >= 1)
           {
@@ -26036,10 +26036,10 @@ void file_log_server(const char *server, const char *format, void **ap)
 // file os/unix/proc_mutex.c line 195
 static signed int file_proc_mutex_destroy(struct ci_proc_mutex *mutex)
 {
-  close(mutex->$anon0.file.fd);
-  signed int return_value_unlink$1;
-  return_value_unlink$1=unlink(mutex->name);
-  if(!(return_value_unlink$1 == 0))
+  close(mutex->_anon0.file.fd);
+  signed int return_value_unlink_1;
+  return_value_unlink_1=unlink(mutex->name);
+  if(!(return_value_unlink_1 == 0))
     return 0;
 
   else
@@ -26052,8 +26052,8 @@ static signed int file_proc_mutex_init(struct ci_proc_mutex *mutex, const char *
 {
   strcpy(mutex->name, "/tmp/icap_lock");
   snprintf(mutex->name, (unsigned long int)64, "%s_%s.XXXXXX", (const void *)"/tmp/icap_lock", name);
-  mutex->$anon0.file.fd=mkstemp64(mutex->name);
-  if(!(mutex->$anon0.file.fd >= 0))
+  mutex->_anon0.file.fd=mkstemp64(mutex->name);
+  if(!(mutex->_anon0.file.fd >= 0))
     return 0;
 
   else
@@ -26069,9 +26069,9 @@ static signed int file_proc_mutex_lock(struct ci_proc_mutex *mutex)
   fl.l_whence = (signed short int)0;
   fl.l_start = (signed long int)0;
   fl.l_len = (signed long int)0;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(mutex->$anon0.file.fd, 7, &fl);
-  if(!(return_value_fcntl$1 >= 0))
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(mutex->_anon0.file.fd, 7, &fl);
+  if(!(return_value_fcntl_1 >= 0))
     return 0;
 
   else
@@ -26082,9 +26082,9 @@ static signed int file_proc_mutex_lock(struct ci_proc_mutex *mutex)
 // file os/unix/proc_mutex.c line 228
 static signed int file_proc_mutex_print_info(struct ci_proc_mutex *mutex, char *buf, unsigned long int buf_size)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, buf_size, "file:%s", (const void *)mutex->name);
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, buf_size, "file:%s", (const void *)mutex->name);
+  return return_value_snprintf_1;
 }
 
 // file_proc_mutex_unlock
@@ -26096,9 +26096,9 @@ static signed int file_proc_mutex_unlock(struct ci_proc_mutex *mutex)
   fl.l_whence = (signed short int)0;
   fl.l_start = (signed long int)0;
   fl.l_len = (signed long int)0;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(mutex->$anon0.file.fd, 6, &fl);
-  if(!(return_value_fcntl$1 >= 0))
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(mutex->_anon0.file.fd, 6, &fl);
+  if(!(return_value_fcntl_1 >= 0))
     return 0;
 
   else
@@ -26172,9 +26172,9 @@ void * file_table_open(struct ci_lookup_table *table)
   {
     text_table->entries = (struct text_table_entry *)(void *)0;
     table->data = (void *)text_table;
-    signed int return_value_load_text_table$1;
-    return_value_load_text_table$1=load_text_table(table->path, table);
-    if(return_value_load_text_table$1 == 0)
+    signed int return_value_load_text_table_1;
+    return_value_load_text_table_1=load_text_table(table->path, table);
+    if(return_value_load_text_table_1 == 0)
     {
       table->data = (void *)0;
       return table->data;
@@ -26251,13 +26251,13 @@ void fill_queue_statistics(struct childs_queue *q, struct info_req_data *info_da
     i = 0;
     for( ; !(i >= q->size); i = i + 1)
     {
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(!((q->childs + (signed long int)i)->pid == 0))
-        tmp_if_expr$1 = (q->childs + (signed long int)i)->to_be_killed == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (q->childs + (signed long int)i)->to_be_killed == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         if(!(info_data->child_pids == ((signed int *)NULL)))
           info_data->child_pids[(signed long int)info_data->childs] = (q->childs + (signed long int)i)->pid;
@@ -26366,14 +26366,14 @@ struct access_control_module * find_access_controller(const char *name)
 {
   struct access_control_module *sh;
   signed int i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(i >= access_controllers.modules_num); i = i + 1)
   {
     sh = (struct access_control_module *)access_controllers.modules[(signed long int)i];
     if(!(sh->name == ((const char *)NULL)))
     {
-      return_value_strcmp$1=strcmp(sh->name, name);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(sh->name, name);
+      if(return_value_strcmp_1 == 0)
         return sh;
 
     }
@@ -26391,22 +26391,22 @@ struct ci_conf_entry * find_action(char *str, char **arg)
   char *s;
   signed int size;
   end = str;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   for( ; !((signed int)*end == 0); end = end + 1l)
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*end]) == 0))
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*end]) == 0))
       break;
 
   }
   size = (signed int)(end - str);
   *end = (char)0;
   end = end + 1l;
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   for( ; !((signed int)*end == 0); end = end + 1l)
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*end]) == 0)
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*end]) == 0)
       break;
 
   }
@@ -26421,9 +26421,9 @@ struct ci_conf_entry * find_action(char *str, char **arg)
 
   else
     table = (char *)(void *)0;
-  struct ci_conf_entry *return_value_search_variables$3;
-  return_value_search_variables$3=search_variables(table, str);
-  return return_value_search_variables$3;
+  struct ci_conf_entry *return_value_search_variables_3;
+  return_value_search_variables_3=search_variables(table, str);
+  return return_value_search_variables_3;
 }
 
 // find_an_idle_child
@@ -26472,9 +26472,9 @@ struct http_auth_method * find_auth_method(const char *method)
   signed int i = 0;
   for( ; !(i >= auth_methods.modules_num); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(method, ((struct http_auth_method *)auth_methods.modules[(signed long int)i])->name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(method, ((struct http_auth_method *)auth_methods.modules[(signed long int)i])->name);
+    if(return_value_strcmp_1 == 0)
       return (struct http_auth_method *)auth_methods.modules[(signed long int)i];
 
   }
@@ -26490,9 +26490,9 @@ struct http_auth_method * find_auth_method_id(const char *method, signed int *me
   i = 0;
   for( ; !(i >= auth_methods.modules_num); i = i + 1)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(method, ((struct http_auth_method *)auth_methods.modules[(signed long int)i])->name);
-    if(return_value_strcasecmp$1 == 0)
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(method, ((struct http_auth_method *)auth_methods.modules[(signed long int)i])->name);
+    if(return_value_strcasecmp_1 == 0)
     {
       *method_id = i;
       return (struct http_auth_method *)auth_methods.modules[(signed long int)i];
@@ -26509,9 +26509,9 @@ struct authenticator_module * find_authenticator(const char *name)
   signed int i = 0;
   for( ; !(i >= authenticators.modules_num); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(name, ((struct authenticator_module *)authenticators.modules[(signed long int)i])->name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(name, ((struct authenticator_module *)authenticators.modules[(signed long int)i])->name);
+    if(return_value_strcmp_1 == 0)
       return (struct authenticator_module *)authenticators.modules[(signed long int)i];
 
   }
@@ -26526,7 +26526,7 @@ struct ci_command * find_command(const char *cmd_line)
   char *s;
   struct ci_command tmpCmd;
   struct ci_command *cmd;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(COMMANDS_LIST == ((struct ci_list *)NULL))
   {
     if(CI_DEBUG_LEVEL >= 5)
@@ -26550,8 +26550,8 @@ struct ci_command * find_command(const char *cmd_line)
 
     else
     {
-      return_value_strlen$1=strlen(cmd_line);
-      len = (signed int)return_value_strlen$1;
+      return_value_strlen_1=strlen(cmd_line);
+      len = (signed int)return_value_strlen_1;
     }
     if(!(len == 0) && !(len >= 128))
     {
@@ -26581,14 +26581,14 @@ struct common_module * find_common(const char *name)
 {
   struct common_module *m;
   signed int i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(i >= common_modules.modules_num); i = i + 1)
   {
     m = (struct common_module *)common_modules.modules[(signed long int)i];
     if(!(m->name == ((const char *)NULL)))
     {
-      return_value_strcmp$1=strcmp(m->name, name);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(m->name, name);
+      if(return_value_strcmp_1 == 0)
         return m;
 
     }
@@ -26603,14 +26603,14 @@ struct logger_module * find_logger(const char *name)
 {
   struct logger_module *sh;
   signed int i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(i >= loggers.modules_num); i = i + 1)
   {
     sh = (struct logger_module *)loggers.modules[(signed long int)i];
     if(!(sh->name == ((const char *)NULL)))
     {
-      return_value_strcmp$1=strcmp(sh->name, name);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(sh->name, name);
+      if(return_value_strcmp_1 == 0)
         return sh;
 
     }
@@ -26624,9 +26624,9 @@ struct logger_module * find_logger(const char *name)
 void * find_module(const char *name, signed int *type)
 {
   void *mod;
-  struct logger_module *return_value_find_logger$1;
-  return_value_find_logger$1=find_logger(name);
-  mod = (void *)return_value_find_logger$1;
+  struct logger_module *return_value_find_logger_1;
+  return_value_find_logger_1=find_logger(name);
+  mod = (void *)return_value_find_logger_1;
   if(!(mod == NULL))
   {
     *type = LOGGER;
@@ -26635,9 +26635,9 @@ void * find_module(const char *name, signed int *type)
 
   else
   {
-    struct service_handler_module *return_value_find_servicehandler$2;
-    return_value_find_servicehandler$2=find_servicehandler(name);
-    mod = (void *)return_value_find_servicehandler$2;
+    struct service_handler_module *return_value_find_servicehandler_2;
+    return_value_find_servicehandler_2=find_servicehandler(name);
+    mod = (void *)return_value_find_servicehandler_2;
     if(!(mod == NULL))
     {
       *type = SERVICE_HANDLER;
@@ -26646,9 +26646,9 @@ void * find_module(const char *name, signed int *type)
 
     else
     {
-      struct access_control_module *return_value_find_access_controller$3;
-      return_value_find_access_controller$3=find_access_controller(name);
-      mod = (void *)return_value_find_access_controller$3;
+      struct access_control_module *return_value_find_access_controller_3;
+      return_value_find_access_controller_3=find_access_controller(name);
+      mod = (void *)return_value_find_access_controller_3;
       if(!(mod == NULL))
       {
         *type = ACCESS_CONTROLLER;
@@ -26657,9 +26657,9 @@ void * find_module(const char *name, signed int *type)
 
       else
       {
-        struct http_auth_method *return_value_find_auth_method$4;
-        return_value_find_auth_method$4=find_auth_method(name);
-        mod = (void *)return_value_find_auth_method$4;
+        struct http_auth_method *return_value_find_auth_method_4;
+        return_value_find_auth_method_4=find_auth_method(name);
+        mod = (void *)return_value_find_auth_method_4;
         if(!(mod == NULL))
         {
           *type = AUTH_METHOD;
@@ -26668,9 +26668,9 @@ void * find_module(const char *name, signed int *type)
 
         else
         {
-          struct authenticator_module *return_value_find_authenticator$5;
-          return_value_find_authenticator$5=find_authenticator(name);
-          mod = (void *)return_value_find_authenticator$5;
+          struct authenticator_module *return_value_find_authenticator_5;
+          return_value_find_authenticator_5=find_authenticator(name);
+          mod = (void *)return_value_find_authenticator_5;
           if(!(mod == NULL))
           {
             *type = AUTHENTICATOR;
@@ -26679,9 +26679,9 @@ void * find_module(const char *name, signed int *type)
 
           else
           {
-            struct common_module *return_value_find_common$6;
-            return_value_find_common$6=find_common(name);
-            mod = (void *)return_value_find_common$6;
+            struct common_module *return_value_find_common_6;
+            return_value_find_common_6=find_common(name);
+            mod = (void *)return_value_find_common_6;
             if(!(mod == NULL))
             {
               *type = COMMON;
@@ -26707,9 +26707,9 @@ struct ci_service_module * find_service(const char *service_name)
   signed int i = 0;
   for( ; !(i >= services_num); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(service_list[(signed long int)i]->mod_name, service_name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(service_list[(signed long int)i]->mod_name, service_name);
+    if(return_value_strcmp_1 == 0)
       return service_list[(signed long int)i];
 
   }
@@ -26723,9 +26723,9 @@ struct service_alias * find_service_alias(const char *service_name)
   signed int i = 0;
   for( ; !(i >= service_aliases_num); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((service_aliases + (signed long int)i)->alias, service_name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((service_aliases + (signed long int)i)->alias, service_name);
+    if(return_value_strcmp_1 == 0)
       return &service_aliases[(signed long int)i];
 
   }
@@ -26739,9 +26739,9 @@ struct ci_service_module * find_service_by_alias(const char *service_name)
   signed int i = 0;
   for( ; !(i >= service_aliases_num); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((service_aliases + (signed long int)i)->alias, service_name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((service_aliases + (signed long int)i)->alias, service_name);
+    if(return_value_strcmp_1 == 0)
       return (service_aliases + (signed long int)i)->service;
 
   }
@@ -26754,14 +26754,14 @@ struct service_handler_module * find_servicehandler(const char *name)
 {
   struct service_handler_module *sh;
   signed int i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(i >= service_handlers.modules_num); i = i + 1)
   {
     sh = (struct service_handler_module *)service_handlers.modules[(signed long int)i];
     if(!(sh->name == ((const char *)NULL)))
     {
-      return_value_strcmp$1=strcmp(sh->name, name);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(sh->name, name);
+      if(return_value_strcmp_1 == 0)
         return sh;
 
     }
@@ -26780,11 +26780,11 @@ struct service_handler_module * find_servicehandler_by_ext(const char *extension
   signed int len_extension;
   signed int len_s = 0;
   signed int found = 0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(extension);
-  len_extension = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(extension);
+  len_extension = (signed int)return_value_strlen_1;
   i = 0;
-  char *return_value_strchr$3;
+  char *return_value_strchr_3;
   for( ; !(i >= service_handlers.modules_num); i = i + 1)
   {
     sh = (struct service_handler_module *)service_handlers.modules[(signed long int)i];
@@ -26794,19 +26794,19 @@ struct service_handler_module * find_servicehandler_by_ext(const char *extension
       s=strstr(s, extension);
       if(!(s == ((const char *)NULL)))
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(s);
-        len_s = (signed int)return_value_strlen$2;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(s);
+        len_s = (signed int)return_value_strlen_2;
         if(len_s >= len_extension)
         {
-          return_value_strchr$3=strchr(",. \t", (signed int)s[(signed long int)len_extension]);
-          _Bool tmp_if_expr$4;
-          if(!(return_value_strchr$3 == ((char *)NULL)))
-            tmp_if_expr$4 = (_Bool)1;
+          return_value_strchr_3=strchr(",. \t", (signed int)s[(signed long int)len_extension]);
+          _Bool tmp_if_expr_4;
+          if(!(return_value_strchr_3 == ((char *)NULL)))
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = (signed int)s[(signed long int)len_extension] == 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (signed int)s[(signed long int)len_extension] == 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
             found = 1;
 
         }
@@ -26869,9 +26869,9 @@ signed int fmt_gmttime(struct ci_request *req, char *buf, signed int len, const 
 
     t=time(&t);
     gmtime_r(&t, &tm);
-    unsigned long int return_value_strftime$1;
-    return_value_strftime$1=strftime(buf, (unsigned long int)len, tfmt, &tm);
-    return (signed int)return_value_strftime$1;
+    unsigned long int return_value_strftime_1;
+    return_value_strftime_1=strftime(buf, (unsigned long int)len, tfmt, &tm);
+    return (signed int)return_value_strftime_1;
   }
 }
 
@@ -26881,21 +26881,21 @@ signed int fmt_http_req_head_o(struct ci_request *req, char *buf, signed int len
 {
   const char *s = (const char *)(void *)0;
   signed int i;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(len == 0)
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(param == ((const char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)param[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)param[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       s=ci_http_request(req);
 
     else
@@ -26906,21 +26906,21 @@ signed int fmt_http_req_head_o(struct ci_request *req, char *buf, signed int len
       do
       {
         if(!(i >= len))
-          tmp_if_expr$2 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         buf[(signed long int)i] = *s;
@@ -26948,9 +26948,9 @@ signed int fmt_http_req_url_o(struct ci_request *req, char *buf, signed int len,
 
   else
   {
-    signed int return_value_ci_http_request_url$1;
-    return_value_ci_http_request_url$1=ci_http_request_url(req, buf, len);
-    return return_value_ci_http_request_url$1;
+    signed int return_value_ci_http_request_url_1;
+    return_value_ci_http_request_url_1=ci_http_request_url(req, buf, len);
+    return return_value_ci_http_request_url_1;
   }
 }
 
@@ -26961,21 +26961,21 @@ signed int fmt_http_res_head_o(struct ci_request *req, char *buf, signed int len
   const char *s = (const char *)(void *)0;
   signed int i;
   struct ci_headers_list *http_resp_headers;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(len == 0)
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(param == ((const char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)param[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)param[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       http_resp_headers=ci_http_response_headers(req);
       if(!(http_resp_headers == ((struct ci_headers_list *)NULL)))
@@ -26995,21 +26995,21 @@ signed int fmt_http_res_head_o(struct ci_request *req, char *buf, signed int len
       do
       {
         if(!(i >= len))
-          tmp_if_expr$2 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         buf[(signed long int)i] = *s;
@@ -27034,9 +27034,9 @@ signed int fmt_httpclientip(struct ci_request *req, char *buf, signed int len, c
 {
   const char *s;
   signed int i;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(len == 0)
     return 0;
 
@@ -27049,21 +27049,21 @@ signed int fmt_httpclientip(struct ci_request *req, char *buf, signed int len, c
       do
       {
         if(!(i >= len))
-          tmp_if_expr$1 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(!tmp_if_expr_3)
           break;
 
         buf[(signed long int)i] = *s;
@@ -27088,9 +27088,9 @@ signed int fmt_httpserverip(struct ci_request *req, char *buf, signed int len, c
 {
   const char *s;
   signed int i;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(len == 0)
     return 0;
 
@@ -27103,21 +27103,21 @@ signed int fmt_httpserverip(struct ci_request *req, char *buf, signed int len, c
       do
       {
         if(!(i >= len))
-          tmp_if_expr$1 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(!tmp_if_expr_3)
           break;
 
         buf[(signed long int)i] = *s;
@@ -27142,21 +27142,21 @@ signed int fmt_icap_req_head(struct ci_request *req, char *buf, signed int len, 
 {
   const char *s = (const char *)(void *)0;
   signed int i;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(len == 0)
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(param == ((const char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)param[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)param[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(!(req->request_header == ((struct ci_headers_list *)NULL)))
       {
@@ -27175,21 +27175,21 @@ signed int fmt_icap_req_head(struct ci_request *req, char *buf, signed int len, 
       do
       {
         if(!(i >= len))
-          tmp_if_expr$2 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         buf[(signed long int)i] = *s;
@@ -27214,21 +27214,21 @@ signed int fmt_icap_res_head(struct ci_request *req, char *buf, signed int len, 
 {
   const char *s = (const char *)(void *)0;
   signed int i;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(len == 0)
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(param == ((const char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)param[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)param[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(!(req->response_header == ((struct ci_headers_list *)NULL)))
       {
@@ -27256,21 +27256,21 @@ signed int fmt_icap_res_head(struct ci_request *req, char *buf, signed int len, 
       do
       {
         if(!(i >= len))
-          tmp_if_expr$2 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*s != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (signed int)*s != 13 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         buf[(signed long int)i] = *s;
@@ -27295,29 +27295,29 @@ signed int fmt_icapmethod(struct ci_request *req, char *buf, signed int len, con
 {
   signed int i;
   const char *s;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(req->type >= 5))
-    tmp_if_expr$1 = req->type >= 0x01 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = req->type >= 0x01 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  const char *tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = ci_methods[(signed long int)req->type];
+    tmp_if_expr_1 = (_Bool)0;
+  const char *tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = ci_methods[(signed long int)req->type];
 
   else
-    tmp_if_expr$2 = "UNKNOWN";
-  s = tmp_if_expr$2;
+    tmp_if_expr_2 = "UNKNOWN";
+  s = tmp_if_expr_2;
   i = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   do
   {
     if(!(i >= len))
-      tmp_if_expr$3 = *s != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(!tmp_if_expr_3)
       break;
 
     buf[(signed long int)i] = *s;
@@ -27332,21 +27332,21 @@ signed int fmt_icapmethod(struct ci_request *req, char *buf, signed int len, con
 // file txt_format.c line 416
 signed int fmt_icapstatus(struct ci_request *req, char *buf, signed int len, const char *param)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(req->return_code >= 0)
-    tmp_if_expr$1 = req->return_code < 16 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = req->return_code < 16 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  signed int tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = ci_error_codes[(signed long int)req->return_code].code;
+    tmp_if_expr_1 = (_Bool)0;
+  signed int tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = ci_error_codes[(signed long int)req->return_code].code;
 
   else
-    tmp_if_expr$2 = 1000;
-  signed int return_value_snprintf$3;
-  return_value_snprintf$3=snprintf(buf, (unsigned long int)len, "%d", tmp_if_expr$2);
-  return return_value_snprintf$3;
+    tmp_if_expr_2 = 1000;
+  signed int return_value_snprintf_3;
+  return_value_snprintf_3=snprintf(buf, (unsigned long int)len, "%d", tmp_if_expr_2);
+  return return_value_snprintf_3;
 }
 
 // fmt_localip
@@ -27358,14 +27358,14 @@ signed int fmt_localip(struct ci_request *req, char *buf, signed int len, const 
 
   else
   {
-    const char *return_value_ci_sockaddr_t_to_ip$1;
-    return_value_ci_sockaddr_t_to_ip$1=ci_sockaddr_t_to_ip(&req->connection->srvaddr, buf, 16);
-    if(return_value_ci_sockaddr_t_to_ip$1 == ((const char *)NULL))
+    const char *return_value_ci_sockaddr_t_to_ip_1;
+    return_value_ci_sockaddr_t_to_ip_1=ci_sockaddr_t_to_ip(&req->connection->srvaddr, buf, 16);
+    if(return_value_ci_sockaddr_t_to_ip_1 == ((const char *)NULL))
       strcpy(buf, "-");
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(buf);
-    return (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(buf);
+    return (signed int)return_value_strlen_2;
   }
 }
 
@@ -27390,9 +27390,9 @@ signed int fmt_localtime(struct ci_request *req, char *buf, signed int len, cons
 
     t=time(&t);
     localtime_r(&t, &tm);
-    unsigned long int return_value_strftime$1;
-    return_value_strftime$1=strftime(buf, (unsigned long int)len, tfmt, &tm);
-    return (signed int)return_value_strftime$1;
+    unsigned long int return_value_strftime_1;
+    return_value_strftime_1=strftime(buf, (unsigned long int)len, tfmt, &tm);
+    return (signed int)return_value_strftime_1;
   }
 }
 
@@ -27402,7 +27402,7 @@ signed int fmt_logstr(struct ci_request *req, char *buf, signed int len, const c
 {
   signed int i;
   const char *s;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(req->log_str == ((char *)NULL))
     return 0;
 
@@ -27413,11 +27413,11 @@ signed int fmt_logstr(struct ci_request *req, char *buf, signed int len, const c
     do
     {
       if(!(i >= len))
-        tmp_if_expr$1 = *s != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       buf[(signed long int)i] = *s;
@@ -27466,14 +27466,14 @@ signed int fmt_remoteip(struct ci_request *req, char *buf, signed int len, const
 
   else
   {
-    const char *return_value_ci_sockaddr_t_to_ip$1;
-    return_value_ci_sockaddr_t_to_ip$1=ci_sockaddr_t_to_ip(&req->connection->claddr, buf, 16);
-    if(return_value_ci_sockaddr_t_to_ip$1 == ((const char *)NULL))
+    const char *return_value_ci_sockaddr_t_to_ip_1;
+    return_value_ci_sockaddr_t_to_ip_1=ci_sockaddr_t_to_ip(&req->connection->claddr, buf, 16);
+    if(return_value_ci_sockaddr_t_to_ip_1 == ((const char *)NULL))
       strcpy(buf, "-");
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(buf);
-    return (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(buf);
+    return (signed int)return_value_strlen_2;
   }
 }
 
@@ -27483,15 +27483,15 @@ signed int fmt_req_attribute(struct ci_request *req, char *buf, signed int len, 
 {
   signed int i;
   const char *s;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(req->attributes == ((struct ci_array *)NULL))
     return 0;
 
   else
   {
-    const void *return_value_ci_array_search$1;
-    return_value_ci_array_search$1=ci_array_search(req->attributes, param);
-    s = (const char *)return_value_ci_array_search$1;
+    const void *return_value_ci_array_search_1;
+    return_value_ci_array_search_1=ci_array_search(req->attributes, param);
+    s = (const char *)return_value_ci_array_search_1;
     if(s == ((const char *)NULL))
       return 0;
 
@@ -27501,11 +27501,11 @@ signed int fmt_req_attribute(struct ci_request *req, char *buf, signed int len, 
       do
       {
         if(!(i >= len))
-          tmp_if_expr$2 = *s != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         buf[(signed long int)i] = *s;
@@ -27522,54 +27522,54 @@ signed int fmt_req_attribute(struct ci_request *req, char *buf, signed int len, 
 // file txt_format.c line 593
 signed int fmt_req_body_bytes_rcv(struct ci_request *req, char *buf, signed int len, const char *param)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->body_bytes_in);
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->body_bytes_in);
+  return return_value_snprintf_1;
 }
 
 // fmt_req_body_bytes_sent
 // file txt_format.c line 597
 signed int fmt_req_body_bytes_sent(struct ci_request *req, char *buf, signed int len, const char *param)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->body_bytes_out);
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->body_bytes_out);
+  return return_value_snprintf_1;
 }
 
 // fmt_req_bytes_rcv
 // file txt_format.c line 577
 signed int fmt_req_bytes_rcv(struct ci_request *req, char *buf, signed int len, const char *param)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->bytes_in);
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->bytes_in);
+  return return_value_snprintf_1;
 }
 
 // fmt_req_bytes_sent
 // file txt_format.c line 581
 signed int fmt_req_bytes_sent(struct ci_request *req, char *buf, signed int len, const char *param)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->bytes_out);
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->bytes_out);
+  return return_value_snprintf_1;
 }
 
 // fmt_req_http_bytes_rcv
 // file txt_format.c line 585
 signed int fmt_req_http_bytes_rcv(struct ci_request *req, char *buf, signed int len, const char *param)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->http_bytes_in);
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->http_bytes_in);
+  return return_value_snprintf_1;
 }
 
 // fmt_req_http_bytes_sent
 // file txt_format.c line 589
 signed int fmt_req_http_bytes_sent(struct ci_request *req, char *buf, signed int len, const char *param)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->http_bytes_out);
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, (unsigned long int)len, "%lld", (signed long long int)req->http_bytes_out);
+  return return_value_snprintf_1;
 }
 
 // fmt_req_preview_hex
@@ -27580,7 +27580,7 @@ signed int fmt_req_preview_hex(struct ci_request *req, char *buf, signed int len
   signed int num;
   signed int n;
   signed int bytes;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(len == 0)
     return 0;
 
@@ -27595,9 +27595,9 @@ signed int fmt_req_preview_hex(struct ci_request *req, char *buf, signed int len
     {
       if(!(param == ((const char *)NULL)))
       {
-        signed long int return_value_strtol$1;
-        return_value_strtol$1=strtol(param, (char ** restrict )(void *)0, 10);
-        num = (signed int)return_value_strtol$1;
+        signed long int return_value_strtol_1;
+        return_value_strtol_1=strtol(param, (char ** restrict )(void *)0, 10);
+        num = (signed int)return_value_strtol_1;
       }
 
       else
@@ -27607,24 +27607,24 @@ signed int fmt_req_preview_hex(struct ci_request *req, char *buf, signed int len
       do
       {
         if(!(i >= num))
-          tmp_if_expr$2 = i < req->preview_data.used ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = i < req->preview_data.used ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!(len >= 1) || !tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!(len >= 1) || !tmp_if_expr_2)
           break;
 
-        _Bool tmp_if_expr$4;
+        _Bool tmp_if_expr_4;
         if((signed int)req->preview_data.buf[(signed long int)i] >= 32)
-          tmp_if_expr$4 = (signed int)req->preview_data.buf[(signed long int)i] <= 126 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)req->preview_data.buf[(signed long int)i] <= 126 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
         {
-          signed int tmp_post$3 = n;
+          signed int tmp_post_3 = n;
           n = n + 1;
-          buf[(signed long int)tmp_post$3] = req->preview_data.buf[(signed long int)i];
+          buf[(signed long int)tmp_post_3] = req->preview_data.buf[(signed long int)i];
           len = len - 1;
         }
 
@@ -27648,7 +27648,7 @@ signed int fmt_req_preview_hex(struct ci_request *req, char *buf, signed int len
 // file txt_format.c line 633
 signed int fmt_req_preview_len(struct ci_request *req, char *buf, signed int len, const char *param)
 {
-  signed int return_value_snprintf$1;
+  signed int return_value_snprintf_1;
   if(len == 0)
     return 0;
 
@@ -27656,8 +27656,8 @@ signed int fmt_req_preview_len(struct ci_request *req, char *buf, signed int len
   {
     if(req->preview >= 0)
     {
-      return_value_snprintf$1=snprintf(buf, (unsigned long int)len, "%d", req->preview_data.used);
-      return return_value_snprintf$1;
+      return_value_snprintf_1=snprintf(buf, (unsigned long int)len, "%d", req->preview_data.used);
+      return return_value_snprintf_1;
     }
 
     *buf = (char)45;
@@ -27672,15 +27672,15 @@ signed int fmt_request(struct ci_request *req, char *buf, signed int len, const 
   signed int i;
   char *s = req->service;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= len))
-      tmp_if_expr$1 = *s != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     buf[(signed long int)i] = *s;
@@ -27688,7 +27688,7 @@ signed int fmt_request(struct ci_request *req, char *buf, signed int len, const 
     s = s + 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!((signed int)req->args[0l] == 0))
   {
     if(!(i >= len))
@@ -27699,11 +27699,11 @@ signed int fmt_request(struct ci_request *req, char *buf, signed int len, const 
       do
       {
         if(!(i >= len))
-          tmp_if_expr$2 = *s != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         buf[(signed long int)i] = *s;
@@ -27724,9 +27724,9 @@ signed int fmt_seconds(struct ci_request *req, char *buf, signed int len, const 
 {
   signed long int tm;
   time(&tm);
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, (unsigned long int)len, "%ld", tm);
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, (unsigned long int)len, "%ld", tm);
+  return return_value_snprintf_1;
 }
 
 // fmt_service
@@ -27736,15 +27736,15 @@ signed int fmt_service(struct ci_request *req, char *buf, signed int len, const 
   signed int i;
   char *s = req->service;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= len))
-      tmp_if_expr$1 = *s != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     buf[(signed long int)i] = *s;
@@ -27762,15 +27762,15 @@ signed int fmt_username(struct ci_request *req, char *buf, signed int len, const
   signed int i;
   char *s = req->user;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= len))
-      tmp_if_expr$1 = *s != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     buf[(signed long int)i] = *s;
@@ -27800,9 +27800,9 @@ static signed int format_body_chunk(struct ci_request *req)
       req->http_bytes_out = req->http_bytes_out + (unsigned long int)req->remain_send_block_bytes;
       req->body_bytes_out = req->body_bytes_out + (unsigned long int)req->remain_send_block_bytes;
       wbuf = req->wbuf + (signed long int)30 + (signed long int)req->remain_send_block_bytes;
-      char *tmp_post$1 = wbuf;
+      char *tmp_post_1 = wbuf;
       wbuf = wbuf + 1l;
-      *tmp_post$1 = (char)13;
+      *tmp_post_1 = (char)13;
       *wbuf = (char)10;
       def_bytes=snprintf(tmpbuf, (unsigned long int)30, "%x\r\n", req->remain_send_block_bytes);
       wbuf = (req->wbuf + (signed long int)30) - (signed long int)def_bytes;
@@ -27814,13 +27814,13 @@ static signed int format_body_chunk(struct ci_request *req)
     else
       if(req->remain_send_block_bytes == -2)
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(req->return_code == 3)
-          tmp_if_expr$2 = req->i206_use_original_body >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = req->i206_use_original_body >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
         {
           def_bytes=sprintf(req->wbuf, "0; use-original-body=%ld\r\n\r\n", req->i206_use_original_body);
           req->pstrblock_responce = req->wbuf;
@@ -27844,13 +27844,13 @@ static signed int format_body_chunk(struct ci_request *req)
 // file cfg_param.c line 678
 signed int fread_line(struct _IO_FILE *f_conf, char *line)
 {
-  char *return_value_fgets$2;
-  return_value_fgets$2=fgets(line, 8192, f_conf);
-  if(return_value_fgets$2 == ((char *)NULL))
+  char *return_value_fgets_2;
+  return_value_fgets_2=fgets(line, 8192, f_conf);
+  if(return_value_fgets_2 == ((char *)NULL))
   {
-    signed int return_value_feof$1;
-    return_value_feof$1=feof(f_conf);
-    if(!(return_value_feof$1 == 0))
+    signed int return_value_feof_1;
+    return_value_feof_1=feof(f_conf);
+    if(!(return_value_feof_1 == 0))
     {
       line[(signed long int)0] = (char)0;
       return -1;
@@ -27860,22 +27860,22 @@ signed int fread_line(struct _IO_FILE *f_conf, char *line)
       return 0;
   }
 
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(line);
-  signed int return_value_feof$3;
-  if(return_value_strlen$5 >= 8190ul)
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(line);
+  signed int return_value_feof_3;
+  if(return_value_strlen_5 >= 8190ul)
   {
     if(!((signed int)line[8190l] == 10))
     {
       do
       {
-        return_value_feof$3=feof(f_conf);
-        if(!(return_value_feof$3 == 0))
+        return_value_feof_3=feof(f_conf);
+        if(!(return_value_feof_3 == 0))
           break;
 
-        signed int return_value_fgetc$4;
-        return_value_fgetc$4=fgetc(f_conf);
-        if(return_value_fgetc$4 == 10)
+        signed int return_value_fgetc_4;
+        return_value_fgetc_4=fgetc(f_conf);
+        if(return_value_fgetc_4 == 10)
           return 1;
 
       }
@@ -28091,9 +28091,9 @@ void * get_client_ip(struct ci_request *req, char *param)
 void * get_content_length(struct ci_request *req, char *param)
 {
   struct acl_cmp_uint64_data *clen_p;
-  void *return_value_ci_buffer_alloc$1;
-  return_value_ci_buffer_alloc$1=ci_buffer_alloc((signed int)sizeof(struct acl_cmp_uint64_data) /*16ul*/ );
-  clen_p = (struct acl_cmp_uint64_data *)return_value_ci_buffer_alloc$1;
+  void *return_value_ci_buffer_alloc_1;
+  return_value_ci_buffer_alloc_1=ci_buffer_alloc((signed int)sizeof(struct acl_cmp_uint64_data) /*16ul*/ );
+  clen_p = (struct acl_cmp_uint64_data *)return_value_ci_buffer_alloc_1;
   signed long int clen;
   clen=ci_http_content_length(req);
   if(!(clen >= 0l))
@@ -28130,9 +28130,9 @@ void * get_data_type(struct ci_request *req, char *param)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(unsigned int) /*4ul*/ );
-    ret_type = (signed int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(unsigned int) /*4ul*/ );
+    ret_type = (signed int *)return_value_malloc_1;
     if(ret_type == ((signed int *)NULL))
       return (void *)0;
 
@@ -28148,53 +28148,53 @@ void * get_data_type(struct ci_request *req, char *param)
 // file header.c line 573
 signed int get_encaps_type(const char *buf, signed int *val, char **endpoint)
 {
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(buf, "req-hdr", (unsigned long int)7);
-  if(return_value_strncmp$2 == 0)
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(buf, "req-hdr", (unsigned long int)7);
+  if(return_value_strncmp_2 == 0)
   {
-    signed long int return_value_strtol$1;
-    return_value_strtol$1=strtol(buf + (signed long int)8, endpoint, 10);
-    *val = (signed int)return_value_strtol$1;
+    signed long int return_value_strtol_1;
+    return_value_strtol_1=strtol(buf + (signed long int)8, endpoint, 10);
+    *val = (signed int)return_value_strtol_1;
     return 0;
   }
 
-  signed int return_value_strncmp$4;
-  return_value_strncmp$4=strncmp(buf, "res-hdr", (unsigned long int)7);
-  if(return_value_strncmp$4 == 0)
+  signed int return_value_strncmp_4;
+  return_value_strncmp_4=strncmp(buf, "res-hdr", (unsigned long int)7);
+  if(return_value_strncmp_4 == 0)
   {
-    signed long int return_value_strtol$3;
-    return_value_strtol$3=strtol(buf + (signed long int)8, endpoint, 10);
-    *val = (signed int)return_value_strtol$3;
+    signed long int return_value_strtol_3;
+    return_value_strtol_3=strtol(buf + (signed long int)8, endpoint, 10);
+    *val = (signed int)return_value_strtol_3;
     return 1;
   }
 
-  signed int return_value_strncmp$6;
-  return_value_strncmp$6=strncmp(buf, "req-body", (unsigned long int)8);
-  if(return_value_strncmp$6 == 0)
+  signed int return_value_strncmp_6;
+  return_value_strncmp_6=strncmp(buf, "req-body", (unsigned long int)8);
+  if(return_value_strncmp_6 == 0)
   {
-    signed long int return_value_strtol$5;
-    return_value_strtol$5=strtol(buf + (signed long int)9, endpoint, 10);
-    *val = (signed int)return_value_strtol$5;
+    signed long int return_value_strtol_5;
+    return_value_strtol_5=strtol(buf + (signed long int)9, endpoint, 10);
+    *val = (signed int)return_value_strtol_5;
     return 2;
   }
 
-  signed int return_value_strncmp$8;
-  return_value_strncmp$8=strncmp(buf, "res-body", (unsigned long int)8);
-  if(return_value_strncmp$8 == 0)
+  signed int return_value_strncmp_8;
+  return_value_strncmp_8=strncmp(buf, "res-body", (unsigned long int)8);
+  if(return_value_strncmp_8 == 0)
   {
-    signed long int return_value_strtol$7;
-    return_value_strtol$7=strtol(buf + (signed long int)9, endpoint, 10);
-    *val = (signed int)return_value_strtol$7;
+    signed long int return_value_strtol_7;
+    return_value_strtol_7=strtol(buf + (signed long int)9, endpoint, 10);
+    *val = (signed int)return_value_strtol_7;
     return 3;
   }
 
-  signed int return_value_strncmp$10;
-  return_value_strncmp$10=strncmp(buf, "null-body", (unsigned long int)9);
-  if(return_value_strncmp$10 == 0)
+  signed int return_value_strncmp_10;
+  return_value_strncmp_10=strncmp(buf, "null-body", (unsigned long int)9);
+  if(return_value_strncmp_10 == 0)
   {
-    signed long int return_value_strtol$9;
-    return_value_strtol$9=strtol(buf + (signed long int)10, endpoint, 10);
-    *val = (signed int)return_value_strtol$9;
+    signed long int return_value_strtol_9;
+    return_value_strtol_9=strtol(buf + (signed long int)10, endpoint, 10);
+    *val = (signed int)return_value_strtol_9;
     return 4;
   }
 
@@ -28205,9 +28205,9 @@ signed int get_encaps_type(const char *buf, signed int *val, char **endpoint)
 // file proc_threads_queues.c line 86
 signed int get_from_queue(struct connections_queue *q, struct ci_connection *con)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->queue_mtx);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->queue_mtx);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
     return -1;
 
   else
@@ -28233,9 +28233,9 @@ const char * get_header(struct ci_headers_list *headers, char *head)
   const char *val;
   char *buf;
   signed int i;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(head == ((char *)NULL) || headers == ((struct ci_headers_list *)NULL))
     return (const char *)(void *)0;
 
@@ -28251,9 +28251,9 @@ const char * get_header(struct ci_headers_list *headers, char *head)
 
       else
       {
-        void *return_value_ci_buffer_alloc$1;
-        return_value_ci_buffer_alloc$1=ci_buffer_alloc(8192);
-        buf = (char *)return_value_ci_buffer_alloc$1;
+        void *return_value_ci_buffer_alloc_1;
+        return_value_ci_buffer_alloc_1=ci_buffer_alloc(8192);
+        buf = (char *)return_value_ci_buffer_alloc_1;
         if(buf == ((char *)NULL))
           return (const char *)(void *)0;
 
@@ -28263,21 +28263,21 @@ const char * get_header(struct ci_headers_list *headers, char *head)
           do
           {
             if(!(i >= 8191))
-              tmp_if_expr$2 = (signed int)*val != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = (signed int)*val != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(tmp_if_expr$2)
-              tmp_if_expr$3 = (signed int)*val != 13 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = (_Bool)0;
+            if(tmp_if_expr_2)
+              tmp_if_expr_3 = (signed int)*val != 13 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(tmp_if_expr$3)
-              tmp_if_expr$4 = (signed int)*val != 10 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = (_Bool)0;
+            if(tmp_if_expr_3)
+              tmp_if_expr_4 = (signed int)*val != 10 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(!tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(!tmp_if_expr_4)
               break;
 
             buf[(signed long int)i] = *val;
@@ -28296,9 +28296,9 @@ const char * get_header(struct ci_headers_list *headers, char *head)
 // file acl.c line 68
 void * get_http_client_ip(struct ci_request *req, char *param)
 {
-  const struct ci_ip *return_value_ci_http_client_ip$1;
-  return_value_ci_http_client_ip$1=ci_http_client_ip(req);
-  return (void *)return_value_ci_http_client_ip$1;
+  const struct ci_ip *return_value_ci_http_client_ip_1;
+  return_value_ci_http_client_ip_1=ci_http_client_ip(req);
+  return (void *)return_value_ci_http_client_ip_1;
 }
 
 // get_http_req_header
@@ -28307,9 +28307,9 @@ void * get_http_req_header(struct ci_request *req, char *param)
 {
   struct ci_headers_list *heads;
   heads=ci_http_request_headers(req);
-  const char *return_value_get_header$1;
-  return_value_get_header$1=get_header(heads, param);
-  return (void *)return_value_get_header$1;
+  const char *return_value_get_header_1;
+  return_value_get_header_1=get_header(heads, param);
+  return (void *)return_value_get_header_1;
 }
 
 // get_http_resp_header
@@ -28318,9 +28318,9 @@ void * get_http_resp_header(struct ci_request *req, char *param)
 {
   struct ci_headers_list *heads;
   heads=ci_http_response_headers(req);
-  const char *return_value_get_header$1;
-  return_value_get_header$1=get_header(heads, param);
-  return (void *)return_value_get_header$1;
+  const char *return_value_get_header_1;
+  return_value_get_header_1=get_header(heads, param);
+  return (void *)return_value_get_header_1;
 }
 
 // get_icap_header
@@ -28328,9 +28328,9 @@ void * get_http_resp_header(struct ci_request *req, char *param)
 void * get_icap_header(struct ci_request *req, char *param)
 {
   struct ci_headers_list *heads = req->request_header;
-  const char *return_value_get_header$1;
-  return_value_get_header$1=get_header(heads, param);
-  return (void *)return_value_get_header$1;
+  const char *return_value_get_header_1;
+  return_value_get_header_1=get_header(heads, param);
+  return (void *)return_value_get_header_1;
 }
 
 // get_icap_response_header
@@ -28338,20 +28338,20 @@ void * get_icap_header(struct ci_request *req, char *param)
 void * get_icap_response_header(struct ci_request *req, char *param)
 {
   struct ci_headers_list *heads = req->response_header;
-  const char *return_value_get_header$1;
-  return_value_get_header$1=get_header(heads, param);
-  return (void *)return_value_get_header$1;
+  const char *return_value_get_header_1;
+  return_value_get_header_1=get_header(heads, param);
+  return (void *)return_value_get_header_1;
 }
 
 // get_method
 // file request.c line 304
 static signed int get_method(char *buf, char **end)
 {
-  signed int return_value_strncmp$3;
-  return_value_strncmp$3=strncmp(buf, "OPTIONS", (unsigned long int)7);
-  signed int return_value_strncmp$2;
-  signed int return_value_strncmp$1;
-  if(return_value_strncmp$3 == 0)
+  signed int return_value_strncmp_3;
+  return_value_strncmp_3=strncmp(buf, "OPTIONS", (unsigned long int)7);
+  signed int return_value_strncmp_2;
+  signed int return_value_strncmp_1;
+  if(return_value_strncmp_3 == 0)
   {
     *end = buf + (signed long int)7;
     return 0x01;
@@ -28359,8 +28359,8 @@ static signed int get_method(char *buf, char **end)
 
   else
   {
-    return_value_strncmp$2=strncmp(buf, "REQMOD", (unsigned long int)6);
-    if(return_value_strncmp$2 == 0)
+    return_value_strncmp_2=strncmp(buf, "REQMOD", (unsigned long int)6);
+    if(return_value_strncmp_2 == 0)
     {
       *end = buf + (signed long int)6;
       return 0x02;
@@ -28368,8 +28368,8 @@ static signed int get_method(char *buf, char **end)
 
     else
     {
-      return_value_strncmp$1=strncmp(buf, "RESPMOD", (unsigned long int)7);
-      if(return_value_strncmp$1 == 0)
+      return_value_strncmp_1=strncmp(buf, "RESPMOD", (unsigned long int)7);
+      if(return_value_strncmp_1 == 0)
       {
         *end = buf + (signed long int)7;
         return 0x04;
@@ -28395,19 +28395,19 @@ void * get_port(struct ci_request *req, char *param)
 // file acl.c line 52
 void * get_reqtype(struct ci_request *req, char *param)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(req->type >= 5))
-    tmp_if_expr$1 = req->type >= 0x01 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = req->type >= 0x01 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  const char *tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = ci_methods[(signed long int)req->type];
+    tmp_if_expr_1 = (_Bool)0;
+  const char *tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = ci_methods[(signed long int)req->type];
 
   else
-    tmp_if_expr$2 = "UNKNOWN";
-  return (void *)tmp_if_expr$2;
+    tmp_if_expr_2 = "UNKNOWN";
+  return (void *)tmp_if_expr_2;
 }
 
 // get_request_options
@@ -28418,9 +28418,9 @@ static signed int get_request_options(struct ci_request *req, struct ci_headers_
   pstr=ci_headers_value(h, "Preview");
   if(!(pstr == ((const char *)NULL)))
   {
-    signed long int return_value_strtol$1;
-    return_value_strtol$1=strtol(pstr, (char ** restrict )(void *)0, 10);
-    req->preview = (signed int)return_value_strtol$1;
+    signed long int return_value_strtol_1;
+    return_value_strtol_1=strtol(pstr, (char ** restrict )(void *)0, 10);
+    req->preview = (signed int)return_value_strtol_1;
   }
 
   else
@@ -28429,19 +28429,19 @@ static signed int get_request_options(struct ci_request *req, struct ci_headers_
   pstr=ci_headers_value(h, "Allow");
   if(!(pstr == ((const char *)NULL)))
   {
-    signed long int return_value_strtol$2;
-    return_value_strtol$2=strtol(pstr, (char ** restrict )(void *)0, 10);
-    if(return_value_strtol$2 == 204l)
+    signed long int return_value_strtol_2;
+    return_value_strtol_2=strtol(pstr, (char ** restrict )(void *)0, 10);
+    if(return_value_strtol_2 == 204l)
       req->allow204 = 1;
 
   }
 
   pstr=ci_headers_value(h, "Connection");
-  signed int return_value_strncmp$3;
+  signed int return_value_strncmp_3;
   if(!(pstr == ((const char *)NULL)))
   {
-    return_value_strncmp$3=strncmp(pstr, "close", (unsigned long int)5);
-    if(return_value_strncmp$3 == 0)
+    return_value_strncmp_3=strncmp(pstr, "close", (unsigned long int)5);
+    if(return_value_strncmp_3 == 0)
       req->keepalive = 0;
 
   }
@@ -28474,8 +28474,8 @@ static signed int get_send_body(struct ci_request *req, signed int parse_only)
 
   else
     service_io = req->current_service_mod->mod_service_io;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
   if(service_io == ((signed int (*)(char *, signed int *, char *, signed int *, signed int, struct ci_request *))NULL))
     return -1;
 
@@ -28504,9 +28504,9 @@ static signed int get_send_body(struct ci_request *req, signed int parse_only)
 
       if(!((0x1 & ret) == 0))
       {
-        signed int return_value_net_data_read$5;
-        return_value_net_data_read$5=net_data_read(req);
-        if(return_value_net_data_read$5 == -1)
+        signed int return_value_net_data_read_5;
+        return_value_net_data_read_5=net_data_read(req);
+        if(return_value_net_data_read_5 == -1)
           return -1;
 
       }
@@ -28520,9 +28520,9 @@ static signed int get_send_body(struct ci_request *req, signed int parse_only)
 
         }
 
-        signed int return_value_send_current_block_data$6;
-        return_value_send_current_block_data$6=send_current_block_data(req);
-        if(return_value_send_current_block_data$6 == -1)
+        signed int return_value_send_current_block_data_6;
+        return_value_send_current_block_data_6=send_current_block_data(req);
+        if(return_value_send_current_block_data_6 == -1)
           return -1;
 
       }
@@ -28543,9 +28543,9 @@ static signed int get_send_body(struct ci_request *req, signed int parse_only)
     {
       if(req->remain_send_block_bytes == 0)
       {
-        signed int return_value_update_send_status$7;
-        return_value_update_send_status$7=update_send_status(req);
-        if(return_value_update_send_status$7 == -1)
+        signed int return_value_update_send_status_7;
+        return_value_update_send_status_7=update_send_status(req);
+        if(return_value_update_send_status_7 == -1)
           return -1;
 
       }
@@ -28586,13 +28586,13 @@ static signed int get_send_body(struct ci_request *req, signed int parse_only)
 
     }
 
-    _Bool tmp_if_expr$9;
+    _Bool tmp_if_expr_9;
     if(!(wchunkdata == ((char *)NULL)))
-      tmp_if_expr$9 = req->write_to_module_pending != 0u ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_9 = req->write_to_module_pending != 0u ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
       wbytes = (signed int)req->write_to_module_pending;
 
     else
@@ -28663,12 +28663,12 @@ static signed int get_send_body(struct ci_request *req, signed int parse_only)
         if(rbytes == -2)
           service_eof = 1;
 
-      _Bool tmp_if_expr$8;
+      _Bool tmp_if_expr_8;
       if(no_io == 0)
-        tmp_if_expr$8 = req->pstrblock_read_len != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = req->pstrblock_read_len != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8 = (_Bool)0;
+        tmp_if_expr_8 = (_Bool)0;
       action = 0;
       if(req->write_to_module_pending == 0u)
       {
@@ -28687,9 +28687,9 @@ static signed int get_send_body(struct ci_request *req, signed int parse_only)
 
         if(has_formated_data == 0)
         {
-          signed int return_value_format_body_chunk$10;
-          return_value_format_body_chunk$10=format_body_chunk(req);
-          if(return_value_format_body_chunk$10 == -2)
+          signed int return_value_format_body_chunk_10;
+          return_value_format_body_chunk_10=format_body_chunk(req);
+          if(return_value_format_body_chunk_10 == -2)
             req->status = 6;
 
         }
@@ -28699,32 +28699,32 @@ static signed int get_send_body(struct ci_request *req, signed int parse_only)
       if(!(req->remain_send_block_bytes == 0))
         action = action | 0x2;
 
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(req->eof_received == 0)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
         if(!(req->eof_received == 0))
-          tmp_if_expr$1 = req->write_to_module_pending != 0u ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = req->write_to_module_pending != 0u ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
-      _Bool tmp_if_expr$4;
-      if(tmp_if_expr$2)
+      _Bool tmp_if_expr_4;
+      if(tmp_if_expr_2)
       {
         if(!(action == 0))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = lock_status != req->data_locked ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = lock_status != req->data_locked ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
 
     __CPROVER_DUMP_L55:
       ;
@@ -28783,9 +28783,9 @@ void * get_srv_ip(struct ci_request *req, char *param)
 void * get_time_data(struct ci_request *req, char *param)
 {
   struct acl_time_data *tmd_req;
-  void *return_value_ci_buffer_alloc$1;
-  return_value_ci_buffer_alloc$1=ci_buffer_alloc((signed int)sizeof(struct acl_time_data) /*12ul*/ );
-  tmd_req = (struct acl_time_data *)return_value_ci_buffer_alloc$1;
+  void *return_value_ci_buffer_alloc_1;
+  return_value_ci_buffer_alloc_1=ci_buffer_alloc((signed int)sizeof(struct acl_time_data) /*12ul*/ );
+  tmd_req = (struct acl_time_data *)return_value_ci_buffer_alloc_1;
   struct tm br_tm;
   signed long int tm;
   time(&tm);
@@ -28817,9 +28817,9 @@ signed int group_cmp(const void *key1, const void *key2)
   {
     group = (const char *)key1;
     user = (const char *)key2;
-    signed int return_value_check_user_group$1;
-    return_value_check_user_group$1=check_user_group(user, group);
-    return return_value_check_user_group$1;
+    signed int return_value_check_user_group_1;
+    return_value_check_user_group_1=check_user_group(user, group);
+    return return_value_check_user_group_1;
   }
 }
 
@@ -28828,10 +28828,10 @@ signed int group_cmp(const void *key1, const void *key2)
 static void * group_dup(const char *str, struct ci_mem_allocator *allocator)
 {
   char *new_s;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
   void *return_value;
-  return_value=allocator->alloc(allocator, return_value_strlen$1 + (unsigned long int)1);
+  return_value=allocator->alloc(allocator, return_value_strlen_1 + (unsigned long int)1);
   new_s = (char *)return_value;
   if(!(new_s == ((char *)NULL)))
     strcpy(new_s, str);
@@ -28852,9 +28852,9 @@ signed int group_equal(const void *key1, const void *key2)
   {
     group = (const char *)key1;
     user = (const char *)key2;
-    signed int return_value_check_user_group$1;
-    return_value_check_user_group$1=check_user_group(user, group);
-    return return_value_check_user_group$1;
+    signed int return_value_check_user_group_1;
+    return_value_check_user_group_1=check_user_group(user, group);
+    return return_value_check_user_group_1;
   }
 }
 
@@ -28869,9 +28869,9 @@ static void group_free(void *key, struct ci_mem_allocator *allocator)
 // file http_auth.c line 271
 static unsigned long int group_len(const void *key)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((const char *)key);
-  return return_value_strlen$1 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((const char *)key);
+  return return_value_strlen_1 + (unsigned long int)1;
 }
 
 // group_source_add
@@ -28897,9 +28897,9 @@ signed int group_source_add(const char *table_name, signed int type)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct group_source) /*32ul*/ );
-    gsrc = (struct group_source *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct group_source) /*32ul*/ );
+    gsrc = (struct group_source *)return_value_malloc_1;
     if(gsrc == ((struct group_source *)NULL))
     {
       if(CI_DEBUG_LEVEL >= 1)
@@ -29004,18 +29004,18 @@ signed int group_source_add(const char *table_name, signed int type)
 // file cfg_param.c line 636
 signed int group_source_add_by_group(const char *table_name)
 {
-  signed int return_value_group_source_add$1;
-  return_value_group_source_add$1=group_source_add(table_name, 0);
-  return return_value_group_source_add$1;
+  signed int return_value_group_source_add_1;
+  return_value_group_source_add_1=group_source_add(table_name, 0);
+  return return_value_group_source_add_1;
 }
 
 // group_source_add_by_user
 // file cfg_param.c line 637
 signed int group_source_add_by_user(const char *table_name)
 {
-  signed int return_value_group_source_add$1;
-  return_value_group_source_add$1=group_source_add(table_name, 1);
-  return return_value_group_source_add$1;
+  signed int return_value_group_source_add_1;
+  return_value_group_source_add_1=group_source_add(table_name, 1);
+  return return_value_group_source_add_1;
 }
 
 // group_source_release
@@ -29043,9 +29043,9 @@ signed int groups_add(struct ci_magics_db *db, const char *name, const char *des
   signed int indx;
   if(db->groups_num >= db->groups_size)
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)db->groups, (unsigned long int)(db->groups_size + 15) * sizeof(struct ci_data_group) /*67ul*/ );
-    newdata = (struct ci_data_group *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)db->groups, (unsigned long int)(db->groups_size + 15) * sizeof(struct ci_data_group) /*67ul*/ );
+    newdata = (struct ci_data_group *)return_value_realloc_1;
     if(newdata == ((struct ci_data_group *)NULL))
       return -1;
 
@@ -29064,9 +29064,9 @@ signed int groups_add(struct ci_magics_db *db, const char *name, const char *des
 // file filetype.c line 82
 signed int groups_init(struct ci_magics_db *db)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)15 * sizeof(struct ci_data_group) /*67ul*/ );
-  db->groups = (struct ci_data_group *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)15 * sizeof(struct ci_data_group) /*67ul*/ );
+  db->groups = (struct ci_data_group *)return_value_malloc_1;
   if(db->groups == ((struct ci_data_group *)NULL))
     return 0;
 
@@ -29111,11 +29111,11 @@ void handle_monitor_process_commands(char *cmd_line)
       i = 0;
       for( ; !(i >= childs_queue->size); i = i + 1)
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(cmd_line);
-        signed long int return_value_write$2;
-        return_value_write$2=write((childs_queue->childs + (signed long int)i)->pipe, (const void *)cmd_line, return_value_strlen$1);
-        bytes = (signed int)return_value_write$2;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(cmd_line);
+        signed long int return_value_write_2;
+        return_value_write_2=write((childs_queue->childs + (signed long int)i)->pipe, (const void *)cmd_line, return_value_strlen_1);
+        bytes = (signed int)return_value_write_2;
       }
     }
 
@@ -29150,9 +29150,9 @@ void * hash_table_open(struct ci_lookup_table *table)
 {
   struct text_table_entry *e;
   struct text_table *text_table;
-  void *return_value_file_table_open$1;
-  return_value_file_table_open$1=file_table_open(table);
-  text_table = (struct text_table *)return_value_file_table_open$1;
+  void *return_value_file_table_open_1;
+  return_value_file_table_open_1=file_table_open(table);
+  text_table = (struct text_table *)return_value_file_table_open_1;
   if(text_table == ((struct text_table *)NULL))
     return (void *)0;
 
@@ -29216,9 +29216,9 @@ void * hash_table_search(struct ci_lookup_table *table, void *key, void ***vals)
   else
   {
     *vals = (void **)(void *)0;
-    const void *return_value_ci_hash_search$1;
-    return_value_ci_hash_search$1=ci_hash_search(text_table->hash_table, key);
-    e = (struct text_table_entry *)return_value_ci_hash_search$1;
+    const void *return_value_ci_hash_search_1;
+    return_value_ci_hash_search_1=ci_hash_search(text_table->hash_table, key);
+    e = (struct text_table_entry *)return_value_ci_hash_search_1;
     if(e == ((struct text_table_entry *)NULL))
       return (void *)0;
 
@@ -29235,7 +29235,7 @@ void * hash_table_search(struct ci_lookup_table *table, void *key, void ***vals)
 signed int http_authenticate(struct ci_request *req, char *use_method)
 {
   struct http_auth_method *auth_method;
-  struct authenticator_module **http_authenticate$$1$$authenticators;
+  struct authenticator_module **http_authenticate__1__authenticators;
   void *method_data;
   const char *auth_str;
   const char *method_str;
@@ -29268,7 +29268,7 @@ signed int http_authenticate(struct ci_request *req, char *use_method)
     if(use_method == ((char *)NULL))
       use_method = DEFAULT_AUTH_METHOD;
 
-    auth_method=get_authentication_schema(use_method, &http_authenticate$$1$$authenticators);
+    auth_method=get_authentication_schema(use_method, &http_authenticate__1__authenticators);
     if(auth_method == ((struct http_auth_method *)NULL))
     {
       if(CI_DEBUG_LEVEL >= 1)
@@ -29305,9 +29305,9 @@ signed int http_authenticate(struct ci_request *req, char *use_method)
           return -1;
 
         len = (signed int)(auth_str - method_str);
-        signed int return_value_strncmp$1;
-        return_value_strncmp$1=strncmp(method_str, use_method, (unsigned long int)len);
-        if(!(return_value_strncmp$1 == 0))
+        signed int return_value_strncmp_1;
+        return_value_strncmp_1=strncmp(method_str, use_method, (unsigned long int)len);
+        if(!(return_value_strncmp_1 == 0))
           return -1;
 
         if(CI_DEBUG_LEVEL >= 5)
@@ -29324,7 +29324,7 @@ signed int http_authenticate(struct ci_request *req, char *use_method)
         method_data=auth_method->create_auth_data(auth_str, &username);
         strncpy(req->user, username, (unsigned long int)255);
         req->user[(signed long int)255] = (char)0;
-        res=call_authenticators(http_authenticate$$1$$authenticators, method_data);
+        res=call_authenticators(http_authenticate__1__authenticators, method_data);
         auth_method->release_auth_data(method_data);
       }
 
@@ -29357,9 +29357,9 @@ signed int http_authenticate(struct ci_request *req, char *use_method)
 // file http_auth.c line 36
 signed int http_authorize(struct ci_request *req, char *method)
 {
-  signed int return_value_http_authenticate$1;
-  return_value_http_authenticate$1=http_authenticate(req, method);
-  return return_value_http_authenticate$1;
+  signed int return_value_http_authenticate_1;
+  return_value_http_authenticate_1=http_authenticate(req, method);
+  return return_value_http_authenticate_1;
   if(CI_DEBUG_LEVEL >= 1)
   {
     if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
@@ -29382,9 +29382,9 @@ static signed int icap_header_check_realloc(char **buf, signed int *size, signed
   if(!(*size + -used >= mustadded))
   {
     len = *size + 512;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)*buf, (unsigned long int)len);
-    newbuf = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)*buf, (unsigned long int)len);
+    newbuf = (char *)return_value_realloc_1;
     if(newbuf == ((char *)NULL))
       return 11;
 
@@ -29402,7 +29402,7 @@ signed int icap_init_server(char *address, signed int port, signed int *protocol
   signed int fd;
   struct sockaddr_in addr;
   fd=socket(2, 1, 0);
-  signed int return_value_inet_pton$1;
+  signed int return_value_inet_pton_1;
   if(fd == -1)
   {
     if(CI_DEBUG_LEVEL >= 1)
@@ -29429,8 +29429,8 @@ signed int icap_init_server(char *address, signed int port, signed int *protocol
 
     else
     {
-      return_value_inet_pton$1=inet_pton(2, address, (void *)&addr.sin_addr.s_addr);
-      if(!(return_value_inet_pton$1 == 1))
+      return_value_inet_pton_1=inet_pton(2, address, (void *)&addr.sin_addr.s_addr);
+      if(!(return_value_inet_pton_1 == 1))
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -29447,9 +29447,9 @@ signed int icap_init_server(char *address, signed int port, signed int *protocol
       }
 
     }
-    signed int return_value_bind$2;
-    return_value_bind$2=bind(fd, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_bind$2 == 0))
+    signed int return_value_bind_2;
+    return_value_bind_2=bind(fd, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_bind_2 == 0))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -29466,9 +29466,9 @@ signed int icap_init_server(char *address, signed int port, signed int *protocol
 
     else
     {
-      signed int return_value_listen$3;
-      return_value_listen$3=listen(fd, 512);
-      if(!(return_value_listen$3 == 0))
+      signed int return_value_listen_3;
+      return_value_listen_3=listen(fd, 512);
+      if(!(return_value_listen_3 == 0))
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -29498,9 +29498,9 @@ signed int icap_socket_opts(signed int fd, signed int secs_to_linger)
 {
   struct linger li;
   signed int value = 1;
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(fd, 1, 2, (const void *)&value, (unsigned int)sizeof(signed int) /*4ul*/ );
-  if(return_value_setsockopt$1 == -1)
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(fd, 1, 2, (const void *)&value, (unsigned int)sizeof(signed int) /*4ul*/ );
+  if(return_value_setsockopt_1 == -1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -29515,9 +29515,9 @@ signed int icap_socket_opts(signed int fd, signed int secs_to_linger)
   }
 
   value = 1;
-  signed int return_value_setsockopt$2;
-  return_value_setsockopt$2=setsockopt(fd, 6, 1, (const void *)&value, (unsigned int)sizeof(signed int) /*4ul*/ );
-  if(return_value_setsockopt$2 == -1)
+  signed int return_value_setsockopt_2;
+  return_value_setsockopt_2=setsockopt(fd, 6, 1, (const void *)&value, (unsigned int)sizeof(signed int) /*4ul*/ );
+  if(return_value_setsockopt_2 == -1)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -29533,9 +29533,9 @@ signed int icap_socket_opts(signed int fd, signed int secs_to_linger)
 
   li.l_onoff = 1;
   li.l_linger = secs_to_linger;
-  signed int return_value_setsockopt$3;
-  return_value_setsockopt$3=setsockopt(fd, 1, 13, (const void *)(char *)&li, (unsigned int)sizeof(struct linger) /*8ul*/ );
-  if(!(return_value_setsockopt$3 >= 0))
+  signed int return_value_setsockopt_3;
+  return_value_setsockopt_3=setsockopt(fd, 1, 13, (const void *)(char *)&li, (unsigned int)sizeof(struct linger) /*8ul*/ );
+  if(!(return_value_setsockopt_3 >= 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -29604,38 +29604,38 @@ signed int info_end_of_data_handler(struct ci_request *req)
 void * info_init_request_data(struct ci_request *req)
 {
   struct info_req_data *info_data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct info_req_data) /*72ul*/ );
-  info_data = (struct info_req_data *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct info_req_data) /*72ul*/ );
+  info_data = (struct info_req_data *)return_value_malloc_1;
   info_data->body=ci_membuf_new();
   info_data->childs = 0;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)childs_queue->size * sizeof(signed int) /*4ul*/ );
-  info_data->child_pids = (signed int *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)childs_queue->size * sizeof(signed int) /*4ul*/ );
+  info_data->child_pids = (signed int *)return_value_malloc_2;
   info_data->free_servers = 0;
   info_data->used_servers = 0;
   info_data->closing_childs = (unsigned int)0;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)childs_queue->size * sizeof(signed int) /*4ul*/ );
-  info_data->closing_child_pids = (signed int *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)childs_queue->size * sizeof(signed int) /*4ul*/ );
+  info_data->closing_child_pids = (signed int *)return_value_malloc_3;
   info_data->started_childs = (unsigned int)0;
   info_data->closed_childs = (unsigned int)0;
   info_data->crashed_childs = (unsigned int)0;
   info_data->txt_mode = 0;
   if(!((signed int)req->args[0l] == 0))
   {
-    char *return_value_strstr$4;
-    return_value_strstr$4=strstr(req->args, "view=text");
-    if(!(return_value_strstr$4 == ((char *)NULL)))
+    char *return_value_strstr_4;
+    return_value_strstr_4=strstr(req->args, "view=text");
+    if(!(return_value_strstr_4 == ((char *)NULL)))
       info_data->txt_mode = 1;
 
   }
 
-  signed int return_value_ci_stat_memblock_size$5;
-  return_value_ci_stat_memblock_size$5=ci_stat_memblock_size();
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc((unsigned long int)return_value_ci_stat_memblock_size$5);
-  info_data->collect_stats = (struct stat_memblock *)return_value_malloc$6;
+  signed int return_value_ci_stat_memblock_size_5;
+  return_value_ci_stat_memblock_size_5=ci_stat_memblock_size();
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc((unsigned long int)return_value_ci_stat_memblock_size_5);
+  info_data->collect_stats = (struct stat_memblock *)return_value_malloc_6;
   info_data->collect_stats->sig = (unsigned int)0xFAFA;
   stat_memblock_fix(info_data->collect_stats);
   ci_stat_memblock_reset(info_data->collect_stats);
@@ -29688,9 +29688,9 @@ void info_release_request_data(void *data)
 signed int init_auth_hash(struct auth_hash *hash)
 {
   hash->usedsize = 0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)20 * sizeof(struct authenticator_module *) /*8ul*/ );
-  hash->hash = (struct authenticator_module ***)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)20 * sizeof(struct authenticator_module *) /*8ul*/ );
+  hash->hash = (struct authenticator_module ***)return_value_malloc_1;
   if(hash->hash == ((struct authenticator_module ***)NULL))
   {
     hash->hash_size = 20;
@@ -29743,18 +29743,18 @@ signed int init_body_system()
 static void init_child_mutexes()
 {
   struct mutex_itm *m;
-  pthread_mutex_init(&mutexes_lock, (const union anonymous$21 *)(void *)0);
+  pthread_mutex_init(&mutexes_lock, (const union anonymous_21 *)(void *)0);
   m = mutexes;
   for( ; !(m == ((struct mutex_itm *)NULL)); m = m->next)
     switch(m->type)
     {
       case 0:
       {
-        pthread_mutex_init(m->mtx.mutex, (const union anonymous$21 *)(void *)0);
+        pthread_mutex_init(m->mtx.mutex, (const union anonymous_21 *)(void *)0);
         break;
       }
       case 1:
-        pthread_rwlock_init(m->mtx.rwlock, (const union anonymous$22 *)(void *)0);
+        pthread_rwlock_init(m->mtx.rwlock, (const union anonymous_22 *)(void *)0);
     }
 }
 
@@ -29772,9 +29772,9 @@ void init_commands()
 // file aserver.c line 44
 void init_conf_tables()
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)10 * sizeof(struct sub_table) /*24ul*/ );
-  extra_conf_tables = (struct sub_table *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)10 * sizeof(struct sub_table) /*24ul*/ );
+  extra_conf_tables = (struct sub_table *)return_value_malloc_1;
   if(extra_conf_tables == ((struct sub_table *)NULL))
   {
     if(CI_DEBUG_LEVEL >= 1)
@@ -29952,13 +29952,13 @@ signed int init_modules()
 // file mem.c line 661
 struct ci_mem_allocator * init_pack_allocator(struct ci_mem_allocator *allocator, struct pack_allocator *pack_alloc, char *memblock, unsigned long int size, signed int free)
 {
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(size == (7 + size & 18446744073709551608)))
-    tmp_if_expr$1 = (size - (unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d) + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1);
+    tmp_if_expr_1 = (size - (unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d) + ((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1) & ~((unsigned long int)&((struct _ci_align_test *)0 + (signed long int)0)->d - (unsigned long int)1);
 
   else
-    tmp_if_expr$1 = size;
-  size = tmp_if_expr$1;
+    tmp_if_expr_1 = size;
+  size = tmp_if_expr_1;
   pack_alloc->memchunk = (void *)memblock;
   pack_alloc->curpos = pack_alloc->memchunk;
   pack_alloc->end = pack_alloc->memchunk + (signed long int)size;
@@ -29981,10 +29981,10 @@ struct connections_queue * init_queue(signed int size)
 {
   signed int ret;
   struct connections_queue *q;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct connections_queue) /*144ul*/ );
-  q = (struct connections_queue *)return_value_malloc$1;
-  void *return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct connections_queue) /*144ul*/ );
+  q = (struct connections_queue *)return_value_malloc_1;
+  void *return_value_malloc_2;
   if(q == ((struct connections_queue *)NULL))
     return (struct connections_queue *)(void *)0;
 
@@ -29999,8 +29999,8 @@ struct connections_queue * init_queue(signed int size)
 
     if(ret == 0)
     {
-      return_value_malloc$2=malloc((unsigned long int)size * sizeof(struct ci_connection) /*88ul*/ );
-      q->connections = (struct ci_connection *)return_value_malloc$2;
+      return_value_malloc_2=malloc((unsigned long int)size * sizeof(struct ci_connection) /*88ul*/ );
+      q->connections = (struct ci_connection *)return_value_malloc_2;
       if(!(q->connections == ((struct ci_connection *)NULL)))
       {
         q->size = size;
@@ -30038,9 +30038,9 @@ signed int init_server(char *address, signed int port, signed int *family)
 signed int init_services()
 {
   signed int ret = 0;
-  struct ci_service_module *return_value_add_service$1;
-  return_value_add_service$1=add_service(&info_service);
-  if(!(return_value_add_service$1 == ((struct ci_service_module *)NULL)))
+  struct ci_service_module *return_value_add_service_1;
+  return_value_add_service_1=add_service(&info_service);
+  if(!(return_value_add_service_1 == ((struct ci_service_module *)NULL)))
     ret = 1;
 
   return ret;
@@ -30076,38 +30076,38 @@ void * int32_dup(const char *str, struct ci_mem_allocator *allocator)
   i = (signed int *)return_value;
   if(!(i == ((signed int *)NULL)))
   {
-    signed long int return_value_strtol$1;
-    return_value_strtol$1=strtol(str, &e, 10);
-    *i = (signed int)return_value_strtol$1;
-    _Bool tmp_if_expr$4;
+    signed long int return_value_strtol_1;
+    return_value_strtol_1=strtol(str, &e, 10);
+    *i = (signed int)return_value_strtol_1;
+    _Bool tmp_if_expr_4;
     if((signed int)*e == 75)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*e == 107 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*e == 107 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       *i = *i * 1000;
 
     else
     {
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if((signed int)*e == 77)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*e == 109 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)*e == 109 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         *i = *i * 1000000;
 
       else
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if((signed int)*e == 71)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)*e == 103 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)*e == 103 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           *i = *i * 1000000000;
 
       }
@@ -30152,9 +30152,9 @@ signed int intl_cfg_disable(const char *directive, const char **argv, void *setd
   else
   {
     cfg_default_value_store(setdata, setdata, (signed int)sizeof(signed int) /*4ul*/ );
-    signed int return_value_ci_cfg_disable$1;
-    return_value_ci_cfg_disable$1=ci_cfg_disable(directive, argv, setdata);
-    return return_value_ci_cfg_disable$1;
+    signed int return_value_ci_cfg_disable_1;
+    return_value_ci_cfg_disable_1=ci_cfg_disable(directive, argv, setdata);
+    return return_value_ci_cfg_disable_1;
   }
 }
 
@@ -30168,9 +30168,9 @@ signed int intl_cfg_enable(const char *directive, const char **argv, void *setda
   else
   {
     cfg_default_value_store(setdata, setdata, (signed int)sizeof(signed int) /*4ul*/ );
-    signed int return_value_ci_cfg_enable$1;
-    return_value_ci_cfg_enable$1=ci_cfg_enable(directive, argv, setdata);
-    return return_value_ci_cfg_enable$1;
+    signed int return_value_ci_cfg_enable_1;
+    return_value_ci_cfg_enable_1=ci_cfg_enable(directive, argv, setdata);
+    return return_value_ci_cfg_enable_1;
   }
 }
 
@@ -30184,9 +30184,9 @@ signed int intl_cfg_onoff(const char *directive, const char **argv, void *setdat
   else
   {
     cfg_default_value_store(setdata, setdata, (signed int)sizeof(signed int) /*4ul*/ );
-    signed int return_value_ci_cfg_onoff$1;
-    return_value_ci_cfg_onoff$1=ci_cfg_onoff(directive, argv, setdata);
-    return return_value_ci_cfg_onoff$1;
+    signed int return_value_ci_cfg_onoff_1;
+    return_value_ci_cfg_onoff_1=ci_cfg_onoff(directive, argv, setdata);
+    return return_value_ci_cfg_onoff_1;
   }
 }
 
@@ -30200,9 +30200,9 @@ signed int intl_cfg_set_int(const char *directive, const char **argv, void *setd
   else
   {
     cfg_default_value_store(setdata, setdata, (signed int)sizeof(signed int) /*4ul*/ );
-    signed int return_value_ci_cfg_set_int$1;
-    return_value_ci_cfg_set_int$1=ci_cfg_set_int(directive, argv, setdata);
-    return return_value_ci_cfg_set_int$1;
+    signed int return_value_ci_cfg_set_int_1;
+    return_value_ci_cfg_set_int_1=ci_cfg_set_int(directive, argv, setdata);
+    return return_value_ci_cfg_set_int_1;
   }
 }
 
@@ -30216,9 +30216,9 @@ signed int intl_cfg_set_str(const char *directive, const char **argv, void *setd
   else
   {
     cfg_default_value_store(setdata, setdata, (signed int)sizeof(char *) /*8ul*/ );
-    signed int return_value_ci_cfg_set_str$1;
-    return_value_ci_cfg_set_str$1=ci_cfg_set_str(directive, argv, setdata);
-    return return_value_ci_cfg_set_str$1;
+    signed int return_value_ci_cfg_set_str_1;
+    return_value_ci_cfg_set_str_1=ci_cfg_set_str(directive, argv, setdata);
+    return return_value_ci_cfg_set_str_1;
   }
 }
 
@@ -30232,9 +30232,9 @@ signed int intl_cfg_size_long(const char *directive, const char **argv, void *se
   else
   {
     cfg_default_value_store(setdata, setdata, (signed int)sizeof(signed long int) /*8ul*/ );
-    signed int return_value_ci_cfg_size_long$1;
-    return_value_ci_cfg_size_long$1=ci_cfg_size_long(directive, argv, setdata);
-    return return_value_ci_cfg_size_long$1;
+    signed int return_value_ci_cfg_size_long_1;
+    return_value_ci_cfg_size_long_1=ci_cfg_size_long(directive, argv, setdata);
+    return return_value_ci_cfg_size_long_1;
   }
 }
 
@@ -30248,9 +30248,9 @@ signed int intl_cfg_size_off(const char *directive, const char **argv, void *set
   else
   {
     cfg_default_value_store(setdata, setdata, (signed int)sizeof(signed long int) /*8ul*/ );
-    signed int return_value_ci_cfg_size_off$1;
-    return_value_ci_cfg_size_off$1=ci_cfg_size_off(directive, argv, setdata);
-    return return_value_ci_cfg_size_off$1;
+    signed int return_value_ci_cfg_size_off_1;
+    return_value_ci_cfg_size_off_1=ci_cfg_size_off(directive, argv, setdata);
+    return return_value_ci_cfg_size_off_1;
   }
 }
 
@@ -30297,9 +30297,9 @@ void * ip_dup(const char *value, struct ci_mem_allocator *allocator)
 
     strncpy(str_addr, value, (unsigned long int)len);
     str_addr[(signed long int)len] = (char)0;
-    signed int return_value_ci_inet_aton$1;
-    return_value_ci_inet_aton$1=ci_inet_aton(socket_family, str_addr, (void *)&address);
-    if(return_value_ci_inet_aton$1 == 0)
+    signed int return_value_ci_inet_aton_1;
+    return_value_ci_inet_aton_1=ci_inet_aton(socket_family, str_addr, (void *)&address);
+    if(return_value_ci_inet_aton_1 == 0)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -30316,9 +30316,9 @@ void * ip_dup(const char *value, struct ci_mem_allocator *allocator)
 
     strncpy(str_netmask, pstr + (signed long int)1, (unsigned long int)16);
     str_netmask[(signed long int)16] = (char)0;
-    signed int return_value_ci_inet_aton$2;
-    return_value_ci_inet_aton$2=ci_inet_aton(socket_family, str_netmask, (void *)&netmask);
-    if(return_value_ci_inet_aton$2 == 0)
+    signed int return_value_ci_inet_aton_2;
+    return_value_ci_inet_aton_2=ci_inet_aton(socket_family, str_netmask, (void *)&netmask);
+    if(return_value_ci_inet_aton_2 == 0)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -30337,9 +30337,9 @@ void * ip_dup(const char *value, struct ci_mem_allocator *allocator)
 
   else
   {
-    signed int return_value_ci_inet_aton$3;
-    return_value_ci_inet_aton$3=ci_inet_aton(socket_family, value, (void *)&address);
-    if(return_value_ci_inet_aton$3 == 0)
+    signed int return_value_ci_inet_aton_3;
+    return_value_ci_inet_aton_3=ci_inet_aton(socket_family, value, (void *)&address);
+    if(return_value_ci_inet_aton_3 == 0)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -30374,12 +30374,12 @@ signed int ip_equal(const void *ref_key, const void *key_check)
   char buf[128l];
   char buf1[128l];
   char buf2[128l];
-  const char *return_value_ci_inet_ntoa$1;
-  const char *return_value_ci_inet_ntoa$2;
-  const char *return_value_ci_inet_ntoa$3;
-  const char *return_value_ci_inet_ntoa$4;
-  const char *return_value_ci_inet_ntoa$5;
-  const char *return_value_ci_inet_ntoa$6;
+  const char *return_value_ci_inet_ntoa_1;
+  const char *return_value_ci_inet_ntoa_2;
+  const char *return_value_ci_inet_ntoa_3;
+  const char *return_value_ci_inet_ntoa_4;
+  const char *return_value_ci_inet_ntoa_5;
+  const char *return_value_ci_inet_ntoa_6;
   if(ip_check == ((const struct ci_ip *)NULL))
     return 0;
 
@@ -30389,18 +30389,18 @@ signed int ip_equal(const void *ref_key, const void *key_check)
     {
       if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
       {
-        return_value_ci_inet_ntoa$1=ci_inet_ntoa(ip_check->family, (const void *)&ip_check->address, buf, 128);
-        return_value_ci_inet_ntoa$2=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->address, buf1, 128);
-        return_value_ci_inet_ntoa$3=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->netmask, buf2, 128);
-        __log_error((void *)0, "going to check addresses  ip address: %s %s/%s\n", return_value_ci_inet_ntoa$1, return_value_ci_inet_ntoa$2, return_value_ci_inet_ntoa$3);
+        return_value_ci_inet_ntoa_1=ci_inet_ntoa(ip_check->family, (const void *)&ip_check->address, buf, 128);
+        return_value_ci_inet_ntoa_2=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->address, buf1, 128);
+        return_value_ci_inet_ntoa_3=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->netmask, buf2, 128);
+        __log_error((void *)0, "going to check addresses  ip address: %s %s/%s\n", return_value_ci_inet_ntoa_1, return_value_ci_inet_ntoa_2, return_value_ci_inet_ntoa_3);
       }
 
       if(!(CI_DEBUG_STDOUT == 0))
       {
-        return_value_ci_inet_ntoa$4=ci_inet_ntoa(ip_check->family, (const void *)&ip_check->address, buf, 128);
-        return_value_ci_inet_ntoa$5=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->address, buf1, 128);
-        return_value_ci_inet_ntoa$6=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->netmask, buf2, 128);
-        printf("going to check addresses  ip address: %s %s/%s\n", return_value_ci_inet_ntoa$4, return_value_ci_inet_ntoa$5, return_value_ci_inet_ntoa$6);
+        return_value_ci_inet_ntoa_4=ci_inet_ntoa(ip_check->family, (const void *)&ip_check->address, buf, 128);
+        return_value_ci_inet_ntoa_5=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->address, buf1, 128);
+        return_value_ci_inet_ntoa_6=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->netmask, buf2, 128);
+        printf("going to check addresses  ip address: %s %s/%s\n", return_value_ci_inet_ntoa_4, return_value_ci_inet_ntoa_5, return_value_ci_inet_ntoa_6);
       }
 
     }
@@ -30439,12 +30439,12 @@ signed int ip_sockaddr_equal(const void *ref_key, const void *key_check)
   char buf[128l];
   char buf1[128l];
   char buf2[128l];
-  const char *return_value_ci_inet_ntoa$1;
-  const char *return_value_ci_inet_ntoa$2;
-  const char *return_value_ci_inet_ntoa$3;
-  const char *return_value_ci_inet_ntoa$4;
-  const char *return_value_ci_inet_ntoa$5;
-  const char *return_value_ci_inet_ntoa$6;
+  const char *return_value_ci_inet_ntoa_1;
+  const char *return_value_ci_inet_ntoa_2;
+  const char *return_value_ci_inet_ntoa_3;
+  const char *return_value_ci_inet_ntoa_4;
+  const char *return_value_ci_inet_ntoa_5;
+  const char *return_value_ci_inet_ntoa_6;
   if(ip_check == ((const struct ci_sockaddr *)NULL))
     return 0;
 
@@ -30454,18 +30454,18 @@ signed int ip_sockaddr_equal(const void *ref_key, const void *key_check)
     {
       if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
       {
-        return_value_ci_inet_ntoa$1=ci_inet_ntoa(ip_check->ci_sin_family, ip_check->ci_sin_addr, buf, 128);
-        return_value_ci_inet_ntoa$2=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->address, buf1, 128);
-        return_value_ci_inet_ntoa$3=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->netmask, buf2, 128);
-        __log_error((void *)0, "going to check addresses  ip address: %s %s/%s\n", return_value_ci_inet_ntoa$1, return_value_ci_inet_ntoa$2, return_value_ci_inet_ntoa$3);
+        return_value_ci_inet_ntoa_1=ci_inet_ntoa(ip_check->ci_sin_family, ip_check->ci_sin_addr, buf, 128);
+        return_value_ci_inet_ntoa_2=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->address, buf1, 128);
+        return_value_ci_inet_ntoa_3=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->netmask, buf2, 128);
+        __log_error((void *)0, "going to check addresses  ip address: %s %s/%s\n", return_value_ci_inet_ntoa_1, return_value_ci_inet_ntoa_2, return_value_ci_inet_ntoa_3);
       }
 
       if(!(CI_DEBUG_STDOUT == 0))
       {
-        return_value_ci_inet_ntoa$4=ci_inet_ntoa(ip_check->ci_sin_family, ip_check->ci_sin_addr, buf, 128);
-        return_value_ci_inet_ntoa$5=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->address, buf1, 128);
-        return_value_ci_inet_ntoa$6=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->netmask, buf2, 128);
-        printf("going to check addresses  ip address: %s %s/%s\n", return_value_ci_inet_ntoa$4, return_value_ci_inet_ntoa$5, return_value_ci_inet_ntoa$6);
+        return_value_ci_inet_ntoa_4=ci_inet_ntoa(ip_check->ci_sin_family, ip_check->ci_sin_addr, buf, 128);
+        return_value_ci_inet_ntoa_5=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->address, buf1, 128);
+        return_value_ci_inet_ntoa_6=ci_inet_ntoa(ip_ref->family, (const void *)&ip_ref->netmask, buf2, 128);
+        printf("going to check addresses  ip address: %s %s/%s\n", return_value_ci_inet_ntoa_4, return_value_ci_inet_ntoa_5, return_value_ci_inet_ntoa_6);
       }
 
     }
@@ -30566,9 +30566,9 @@ signed int is_icap_running(char *pidfile)
 
   else
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)strPid, sizeof(char [30l]) /*30ul*/ );
-    bytes = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)strPid, sizeof(char [30l]) /*30ul*/ );
+    bytes = (signed int)return_value_read_1;
     close(fd);
     if(!(bytes >= 0))
       return 0;
@@ -30580,9 +30580,9 @@ signed int is_icap_running(char *pidfile)
 
       else
         strPid[(signed long int)(sizeof(char [30l]) /*30ul*/  - (unsigned long int)1)] = (char)0;
-      signed long int return_value_strtol$2;
-      return_value_strtol$2=strtol(strPid, (char ** restrict )(void *)0, 10);
-      pid = (signed int)return_value_strtol$2;
+      signed long int return_value_strtol_2;
+      return_value_strtol_2=strtol(strPid, (char ** restrict )(void *)0, 10);
+      pid = (signed int)return_value_strtol_2;
       if(!(pid >= 1))
         return 0;
 
@@ -30625,9 +30625,9 @@ signed int keepalive_request(struct ci_request *req)
 
   __CPROVER_DUMP_L2:
     ;
-    signed int return_value_ci_wait_for_data$1;
-    return_value_ci_wait_for_data$1=ci_wait_for_data(req->connection->fd, KEEPALIVE_TIMEOUT, 0x1);
-    return return_value_ci_wait_for_data$1;
+    signed int return_value_ci_wait_for_data_1;
+    return_value_ci_wait_for_data_1=ci_wait_for_data(req->connection->fd, KEEPALIVE_TIMEOUT, 0x1);
+    return return_value_ci_wait_for_data_1;
   }
 }
 
@@ -30655,15 +30655,15 @@ static void kill_all_childs()
 
     ci_usleep((unsigned long int)30000);
     wait_childs_to_exit(childs_queue);
-    signed int return_value_childs_queue_is_empty$1;
-    return_value_childs_queue_is_empty$1=childs_queue_is_empty(childs_queue);
-    childs_running = (signed int)!(return_value_childs_queue_is_empty$1 != 0);
+    signed int return_value_childs_queue_is_empty_1;
+    return_value_childs_queue_is_empty_1=childs_queue_is_empty(childs_queue);
+    childs_running = (signed int)!(return_value_childs_queue_is_empty_1 != 0);
     if(!(old_childs_queue == ((struct childs_queue *)NULL)))
     {
       wait_childs_to_exit(old_childs_queue);
-      signed int return_value_childs_queue_is_empty$2;
-      return_value_childs_queue_is_empty$2=childs_queue_is_empty(old_childs_queue);
-      childs_running = childs_running + (signed int)!(return_value_childs_queue_is_empty$2 != 0);
+      signed int return_value_childs_queue_is_empty_2;
+      return_value_childs_queue_is_empty_2=childs_queue_is_empty(old_childs_queue);
+      childs_running = childs_running + (signed int)!(return_value_childs_queue_is_empty_2 != 0);
     }
 
   }
@@ -30735,21 +30735,21 @@ void listener_thread(signed int *fd)
   pthread_cond_wait(&free_server_cond, &counters_mtx);
   pthread_mutex_unlock(&counters_mtx);
   pid=getpid();
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$7;
-  signed int *return_value___errno_location$8;
-  signed int *return_value___errno_location$5;
-  signed int *return_value___errno_location$15;
-  signed int *return_value___errno_location$13;
-  signed int *return_value___errno_location$14;
-  signed int *return_value___errno_location$17;
-  signed int *return_value___errno_location$18;
-  signed int *return_value___errno_location$10;
-  _Bool tmp_if_expr$11;
-  signed int return_value_ci_proc_mutex_unlock$21;
-  signed int *return_value___errno_location$22;
-  signed int *return_value___errno_location$23;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_7;
+  signed int *return_value___errno_location_8;
+  signed int *return_value___errno_location_5;
+  signed int *return_value___errno_location_15;
+  signed int *return_value___errno_location_13;
+  signed int *return_value___errno_location_14;
+  signed int *return_value___errno_location_17;
+  signed int *return_value___errno_location_18;
+  signed int *return_value___errno_location_10;
+  _Bool tmp_if_expr_11;
+  signed int return_value_ci_proc_mutex_unlock_21;
+  signed int *return_value___errno_location_22;
+  signed int *return_value___errno_location_23;
   while((_Bool)1)
   {
     if(!(child_data->to_be_killed == 0))
@@ -30767,13 +30767,13 @@ void listener_thread(signed int *fd)
       goto LISTENER_FAILS_UNLOCKED;
     }
 
-    signed int return_value_ci_proc_mutex_lock$4;
-    return_value_ci_proc_mutex_lock$4=ci_proc_mutex_lock(&accept_mutex);
-    if(return_value_ci_proc_mutex_lock$4 == 0)
+    signed int return_value_ci_proc_mutex_lock_4;
+    return_value_ci_proc_mutex_lock_4=ci_proc_mutex_lock(&accept_mutex);
+    if(return_value_ci_proc_mutex_lock_4 == 0)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 4)
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 4)
       {
         if(CI_DEBUG_LEVEL >= 5)
         {
@@ -30794,14 +30794,14 @@ void listener_thread(signed int *fd)
         {
           if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
           {
-            return_value___errno_location$1=__errno_location();
-            __log_error((void *)0, "Unknown errno %d in proc_mutex_lock of pid %d. Exiting!\n", *return_value___errno_location$1, pid);
+            return_value___errno_location_1=__errno_location();
+            __log_error((void *)0, "Unknown errno %d in proc_mutex_lock of pid %d. Exiting!\n", *return_value___errno_location_1, pid);
           }
 
           if(!(CI_DEBUG_STDOUT == 0))
           {
-            return_value___errno_location$2=__errno_location();
-            printf("Unknown errno %d in proc_mutex_lock of pid %d. Exiting!\n", *return_value___errno_location$2, pid);
+            return_value___errno_location_2=__errno_location();
+            printf("Unknown errno %d in proc_mutex_lock of pid %d. Exiting!\n", *return_value___errno_location_2, pid);
           }
 
         }
@@ -30823,7 +30823,7 @@ void listener_thread(signed int *fd)
 
     do
     {
-      struct anonymous$19 fds;
+      struct anonymous_19 fds;
       signed int ret;
       do
       {
@@ -30832,30 +30832,30 @@ void listener_thread(signed int *fd)
         ;
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->fds_bits[(signed long int)0]) : "memory");
         (&fds)->fds_bits[(signed long int)(sockfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->fds_bits[(signed long int)(sockfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sockfd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        *return_value___errno_location$6 = 0;
-        ret=select(sockfd + 1, &fds, (struct anonymous$19 *)(void *)0, (struct anonymous$19 *)(void *)0, (struct timeval *)(void *)0);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        *return_value___errno_location_6 = 0;
+        ret=select(sockfd + 1, &fds, (struct anonymous_19 *)(void *)0, (struct anonymous_19 *)(void *)0, (struct timeval *)(void *)0);
         if(!(ret >= 0))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          if(!(*return_value___errno_location$9 == 4))
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          if(!(*return_value___errno_location_9 == 4))
           {
             if(CI_DEBUG_LEVEL >= 1)
             {
               if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
               {
-                return_value___errno_location$7=__errno_location();
-                __log_error((void *)0, "Error in select %d! Exiting server!\n", *return_value___errno_location$7);
+                return_value___errno_location_7=__errno_location();
+                __log_error((void *)0, "Error in select %d! Exiting server!\n", *return_value___errno_location_7);
               }
 
               if(!(CI_DEBUG_STDOUT == 0))
               {
-                return_value___errno_location$8=__errno_location();
-                printf("Error in select %d! Exiting server!\n", *return_value___errno_location$8);
+                return_value___errno_location_8=__errno_location();
+                printf("Error in select %d! Exiting server!\n", *return_value___errno_location_8);
               }
 
             }
@@ -30880,37 +30880,37 @@ void listener_thread(signed int *fd)
 
         }
 
-        return_value___errno_location$5=__errno_location();
+        return_value___errno_location_5=__errno_location();
       }
-      while(*return_value___errno_location$5 == 4);
+      while(*return_value___errno_location_5 == 4);
       do
       {
-        signed int *return_value___errno_location$12;
-        return_value___errno_location$12=__errno_location();
-        *return_value___errno_location$12 = 0;
+        signed int *return_value___errno_location_12;
+        return_value___errno_location_12=__errno_location();
+        *return_value___errno_location_12 = 0;
         claddrlen = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
         conn.fd=accept(sockfd, (struct sockaddr *)&conn.claddr.sockaddr, &claddrlen);
         if(conn.fd == -1)
         {
-          signed int *return_value___errno_location$16;
-          return_value___errno_location$16=__errno_location();
-          if(!(*return_value___errno_location$16 == 4))
+          signed int *return_value___errno_location_16;
+          return_value___errno_location_16=__errno_location();
+          if(!(*return_value___errno_location_16 == 4))
           {
-            return_value___errno_location$15=__errno_location();
-            if(!(*return_value___errno_location$15 == 103))
+            return_value___errno_location_15=__errno_location();
+            if(!(*return_value___errno_location_15 == 103))
             {
               if(CI_DEBUG_LEVEL >= 1)
               {
                 if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
                 {
-                  return_value___errno_location$13=__errno_location();
-                  __log_error((void *)0, "Error accept %d!\nExiting server!\n", *return_value___errno_location$13);
+                  return_value___errno_location_13=__errno_location();
+                  __log_error((void *)0, "Error accept %d!\nExiting server!\n", *return_value___errno_location_13);
                 }
 
                 if(!(CI_DEBUG_STDOUT == 0))
                 {
-                  return_value___errno_location$14=__errno_location();
-                  printf("Error accept %d!\nExiting server!\n", *return_value___errno_location$14);
+                  return_value___errno_location_14=__errno_location();
+                  printf("Error accept %d!\nExiting server!\n", *return_value___errno_location_14);
                 }
 
               }
@@ -30920,15 +30920,15 @@ void listener_thread(signed int *fd)
 
           }
 
-          signed int *return_value___errno_location$19;
-          return_value___errno_location$19=__errno_location();
-          _Bool tmp_if_expr$20;
-          if(*return_value___errno_location$19 == 4)
-            tmp_if_expr$20 = child_data->to_be_killed != 0 ? (_Bool)1 : (_Bool)0;
+          signed int *return_value___errno_location_19;
+          return_value___errno_location_19=__errno_location();
+          _Bool tmp_if_expr_20;
+          if(*return_value___errno_location_19 == 4)
+            tmp_if_expr_20 = child_data->to_be_killed != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$20 = (_Bool)0;
-          if(tmp_if_expr$20)
+            tmp_if_expr_20 = (_Bool)0;
+          if(tmp_if_expr_20)
           {
             if(CI_DEBUG_LEVEL >= 5)
             {
@@ -30948,28 +30948,28 @@ void listener_thread(signed int *fd)
             {
               if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
               {
-                return_value___errno_location$17=__errno_location();
-                __log_error((void *)0, "Accept failed: errno=%d, ingore!\n", *return_value___errno_location$17);
+                return_value___errno_location_17=__errno_location();
+                __log_error((void *)0, "Accept failed: errno=%d, ingore!\n", *return_value___errno_location_17);
               }
 
               if(!(CI_DEBUG_STDOUT == 0))
               {
-                return_value___errno_location$18=__errno_location();
-                printf("Accept failed: errno=%d, ingore!\n", *return_value___errno_location$18);
+                return_value___errno_location_18=__errno_location();
+                printf("Accept failed: errno=%d, ingore!\n", *return_value___errno_location_18);
               }
 
             }
 
         }
 
-        return_value___errno_location$10=__errno_location();
-        if(*return_value___errno_location$10 == 4)
-          tmp_if_expr$11 = !(child_data->to_be_killed != 0) ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_10=__errno_location();
+        if(*return_value___errno_location_10 == 4)
+          tmp_if_expr_11 = !(child_data->to_be_killed != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
+          tmp_if_expr_11 = (_Bool)0;
       }
-      while(tmp_if_expr$11);
+      while(tmp_if_expr_11);
       if(conn.fd >= 0)
       {
         claddrlen = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
@@ -31039,26 +31039,26 @@ void listener_thread(signed int *fd)
     child_data->idle = 1;
     do
     {
-      return_value_ci_proc_mutex_unlock$21=ci_proc_mutex_unlock(&accept_mutex);
-      if(!(return_value_ci_proc_mutex_unlock$21 == 0))
+      return_value_ci_proc_mutex_unlock_21=ci_proc_mutex_unlock(&accept_mutex);
+      if(!(return_value_ci_proc_mutex_unlock_21 == 0))
         break;
 
-      signed int *return_value___errno_location$24;
-      return_value___errno_location$24=__errno_location();
-      if(!(*return_value___errno_location$24 == 4))
+      signed int *return_value___errno_location_24;
+      return_value___errno_location_24=__errno_location();
+      if(!(*return_value___errno_location_24 == 4))
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
           if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
           {
-            return_value___errno_location$22=__errno_location();
-            __log_error((void *)0, "Error:%d while trying to unlock proc_mutex, exiting listener of server:%d\n", *return_value___errno_location$22, pid);
+            return_value___errno_location_22=__errno_location();
+            __log_error((void *)0, "Error:%d while trying to unlock proc_mutex, exiting listener of server:%d\n", *return_value___errno_location_22, pid);
           }
 
           if(!(CI_DEBUG_STDOUT == 0))
           {
-            return_value___errno_location$23=__errno_location();
-            printf("Error:%d while trying to unlock proc_mutex, exiting listener of server:%d\n", *return_value___errno_location$23, pid);
+            return_value___errno_location_23=__errno_location();
+            printf("Error:%d while trying to unlock proc_mutex, exiting listener of server:%d\n", *return_value___errno_location_23, pid);
           }
 
         }
@@ -31105,34 +31105,34 @@ LISTENER_FAILS_UNLOCKED:
 LISTENER_FAILS:
   ;
   listener_running = 0;
-  signed int *return_value___errno_location$25;
-  return_value___errno_location$25=__errno_location();
-  *return_value___errno_location$25 = 0;
-  signed int return_value_ci_proc_mutex_unlock$26;
-  signed int *return_value___errno_location$27;
-  signed int *return_value___errno_location$28;
+  signed int *return_value___errno_location_25;
+  return_value___errno_location_25=__errno_location();
+  *return_value___errno_location_25 = 0;
+  signed int return_value_ci_proc_mutex_unlock_26;
+  signed int *return_value___errno_location_27;
+  signed int *return_value___errno_location_28;
   do
   {
-    return_value_ci_proc_mutex_unlock$26=ci_proc_mutex_unlock(&accept_mutex);
-    if(!(return_value_ci_proc_mutex_unlock$26 == 0))
+    return_value_ci_proc_mutex_unlock_26=ci_proc_mutex_unlock(&accept_mutex);
+    if(!(return_value_ci_proc_mutex_unlock_26 == 0))
       break;
 
-    signed int *return_value___errno_location$29;
-    return_value___errno_location$29=__errno_location();
-    if(!(*return_value___errno_location$29 == 4))
+    signed int *return_value___errno_location_29;
+    return_value___errno_location_29=__errno_location();
+    if(!(*return_value___errno_location_29 == 4))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
         if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
         {
-          return_value___errno_location$27=__errno_location();
-          __log_error((void *)0, "Error:%d while trying to unlock proc_mutex of server:%d\n", *return_value___errno_location$27, pid);
+          return_value___errno_location_27=__errno_location();
+          __log_error((void *)0, "Error:%d while trying to unlock proc_mutex of server:%d\n", *return_value___errno_location_27, pid);
         }
 
         if(!(CI_DEBUG_STDOUT == 0))
         {
-          return_value___errno_location$28=__errno_location();
-          printf("Error:%d while trying to unlock proc_mutex of server:%d\n", *return_value___errno_location$28, pid);
+          return_value___errno_location_28=__errno_location();
+          printf("Error:%d while trying to unlock proc_mutex of server:%d\n", *return_value___errno_location_28, pid);
         }
 
       }
@@ -31170,9 +31170,9 @@ struct ci_service_module * load_c_service(const char *service_file)
 
   else
   {
-    void *return_value_ci_module_sym$1;
-    return_value_ci_module_sym$1=ci_module_sym(service_handle, "service");
-    service = (struct ci_service_module *)return_value_ci_module_sym$1;
+    void *return_value_ci_module_sym_1;
+    return_value_ci_module_sym_1=ci_module_sym(service_handle, "service");
+    service = (struct ci_service_module *)return_value_ci_module_sym_1;
     if(service == ((struct ci_service_module *)NULL))
     {
       if(CI_DEBUG_LEVEL >= 1)
@@ -31191,13 +31191,13 @@ struct ci_service_module * load_c_service(const char *service_file)
 
     else
     {
-      const char *tmp_if_expr$2;
+      const char *tmp_if_expr_2;
       if(!(service->mod_name == ((const char *)NULL)))
-        tmp_if_expr$2 = service->mod_name;
+        tmp_if_expr_2 = service->mod_name;
 
       else
-        tmp_if_expr$2 = "";
-      ci_dlib_entry(tmp_if_expr$2, service_file, service_handle);
+        tmp_if_expr_2 = "";
+      ci_dlib_entry(tmp_if_expr_2, service_file, service_handle);
       return service;
     }
   }
@@ -31377,13 +31377,13 @@ void log_server(struct ci_request *req, const char *format, ...)
   void **ap;
   char prefix[64l];
   ap = (void **)&format;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   if(!(default_logger == ((struct logger_module *)NULL)))
   {
     if(!(MY_PROC_PID == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      snprintf(prefix, (unsigned long int)64, "%u/%u", (unsigned int)MY_PROC_PID, (unsigned int)return_value_pthread_self$1);
+      return_value_pthread_self_1=pthread_self();
+      snprintf(prefix, (unsigned long int)64, "%u/%u", (unsigned int)MY_PROC_PID, (unsigned int)return_value_pthread_self_1);
     }
 
     else
@@ -31412,9 +31412,9 @@ signed int logformat_add(const char *name, const char *format)
 {
   struct logformat *lf;
   struct logformat *tmp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct logformat) /*24ul*/ );
-  lf = (struct logformat *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct logformat) /*24ul*/ );
+  lf = (struct logformat *)return_value_malloc_1;
   if(lf == ((struct logformat *)NULL))
   {
     if(CI_DEBUG_LEVEL >= 1)
@@ -31434,13 +31434,13 @@ signed int logformat_add(const char *name, const char *format)
   {
     lf->name=strdup(name);
     lf->fmt=strdup(format);
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(lf->name == ((char *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = !(lf->fmt != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = !(lf->fmt != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -31489,9 +31489,9 @@ char * logformat_fmt(const char *name)
   {
     while(!(tmp == ((struct logformat *)NULL)))
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(tmp->name, name);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(tmp->name, name);
+      if(return_value_strcmp_1 == 0)
         return tmp->fmt;
 
       tmp = tmp->next;
@@ -31527,7 +31527,7 @@ void logformat_release()
 static const void * lookup_table_get_row(struct ci_lookup_table *table, const void *key, const char **columns, void ***vals)
 {
   signed int i;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(table->_lt_type == ((struct ci_lookup_table_type *)NULL))
   {
     if(CI_DEBUG_LEVEL >= 1)
@@ -31545,13 +31545,13 @@ static const void * lookup_table_get_row(struct ci_lookup_table *table, const vo
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(table->col_names == ((struct ci_vector *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = table->_lt_type->get_row != ((const void * (*)(struct ci_lookup_table *, const void *, const char **, void ***))NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = table->_lt_type->get_row != ((const void * (*)(struct ci_lookup_table *, const void *, const char **, void ***))NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -31572,16 +31572,16 @@ static const void * lookup_table_get_row(struct ci_lookup_table *table, const vo
       do
       {
         if(!(i >= 1024))
-          tmp_if_expr$2 = columns[(signed long int)i] != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = columns[(signed long int)i] != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
-        const char *return_value_ci_str_vector_search$3;
-        return_value_ci_str_vector_search$3=ci_str_vector_search(table->col_names, columns[(signed long int)i]);
-        if(return_value_ci_str_vector_search$3 == ((const char *)NULL))
+        const char *return_value_ci_str_vector_search_3;
+        return_value_ci_str_vector_search_3=ci_str_vector_search(table->col_names, columns[(signed long int)i]);
+        if(return_value_ci_str_vector_search_3 == ((const char *)NULL))
         {
           if(CI_DEBUG_LEVEL >= 1)
           {
@@ -31614,9 +31614,9 @@ signed int magics_add(struct ci_magics_db *db, signed int offset, unsigned char 
   signed int indx;
   if(db->magics_num >= db->magics_size)
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)db->magics, (unsigned long int)(db->magics_size + 50) * sizeof(struct ci_magic) /*72ul*/ );
-    newdata = (struct ci_magic *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)db->magics, (unsigned long int)(db->magics_size + 50) * sizeof(struct ci_magic) /*72ul*/ );
+    newdata = (struct ci_magic *)return_value_realloc_1;
     if(newdata == ((struct ci_magic *)NULL))
       return -1;
 
@@ -31637,9 +31637,9 @@ signed int magics_add(struct ci_magics_db *db, signed int offset, unsigned char 
 // file filetype.c line 83
 signed int magics_init(struct ci_magics_db *db)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)50 * sizeof(struct ci_magic) /*72ul*/ );
-  db->magics = (struct ci_magic *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)50 * sizeof(struct ci_magic) /*72ul*/ );
+  db->magics = (struct ci_magic *)return_value_malloc_1;
   if(db->magics == ((struct ci_magic *)NULL))
     return 0;
 
@@ -31660,9 +31660,9 @@ signed int main(signed int argc, char **argv)
   init_internal_lookup_tables();
   ci_acl_init();
   init_http_auth();
-  signed int return_value_init_body_system$1;
-  return_value_init_body_system$1=init_body_system();
-  if(!(return_value_init_body_system$1 == 1))
+  signed int return_value_init_body_system_1;
+  return_value_init_body_system_1=init_body_system();
+  if(!(return_value_init_body_system_1 == 1))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -31711,9 +31711,9 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  signed int return_value_log_open$2;
-  return_value_log_open$2=log_open();
-  if(return_value_log_open$2 == 0)
+  signed int return_value_log_open_2;
+  return_value_log_open_2=log_open();
+  if(return_value_log_open_2 == 0)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -31728,9 +31728,9 @@ signed int main(signed int argc, char **argv)
     exit(-1);
   }
 
-  signed int return_value_is_icap_running$3;
-  return_value_is_icap_running$3=is_icap_running(CI_CONF.PIDFILE);
-  if(!(return_value_is_icap_running$3 == 0))
+  signed int return_value_is_icap_running_3;
+  return_value_is_icap_running_3=is_icap_running(CI_CONF.PIDFILE);
+  if(!(return_value_is_icap_running_3 == 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -31748,15 +31748,15 @@ signed int main(signed int argc, char **argv)
   if(!(DAEMON_MODE == 0))
     run_as_daemon();
 
-  signed int return_value_set_running_permissions$4;
-  return_value_set_running_permissions$4=set_running_permissions(CI_CONF.RUN_USER, CI_CONF.RUN_GROUP);
-  if(return_value_set_running_permissions$4 == 0)
+  signed int return_value_set_running_permissions_4;
+  return_value_set_running_permissions_4=set_running_permissions(CI_CONF.RUN_USER, CI_CONF.RUN_GROUP);
+  if(return_value_set_running_permissions_4 == 0)
     exit(-1);
 
   store_pid(CI_CONF.PIDFILE);
-  signed int return_value_init_server$5;
-  return_value_init_server$5=init_server(CI_CONF.ADDRESS, CI_CONF.PORT, &CI_CONF.PROTOCOL_FAMILY);
-  if(return_value_init_server$5 == 0)
+  signed int return_value_init_server_5;
+  return_value_init_server_5=init_server(CI_CONF.ADDRESS, CI_CONF.PORT, &CI_CONF.PROTOCOL_FAMILY);
+  if(return_value_init_server_5 == 0)
     return -1;
 
   else
@@ -31801,9 +31801,9 @@ signed int mem_init()
   MEM_ALLOCATOR_POOL=ci_object_pool_register("ci_mem_allocator_t", (signed int)sizeof(struct ci_mem_allocator) /*56ul*/ );
   /* assertion MEM_ALLOCATOR_POOL >=0 */
   assert(MEM_ALLOCATOR_POOL >= 0);
-  unsigned long int return_value_sizeof_pack_allocator$1;
-  return_value_sizeof_pack_allocator$1=sizeof_pack_allocator();
-  PACK_ALLOCATOR_POOL=ci_object_pool_register("pack_allocator_t", (signed int)return_value_sizeof_pack_allocator$1);
+  unsigned long int return_value_sizeof_pack_allocator_1;
+  return_value_sizeof_pack_allocator_1=sizeof_pack_allocator();
+  PACK_ALLOCATOR_POOL=ci_object_pool_register("pack_allocator_t", (signed int)return_value_sizeof_pack_allocator_1);
   /* assertion PACK_ALLOCATOR_POOL >=0 */
   assert(PACK_ALLOCATOR_POOL >= 0);
   return ret;
@@ -31825,9 +31825,9 @@ signed int methods_authenticators(struct auth_hash *hash, const char *method_nam
   signed int auths_num;
   struct authenticator_module **new_mem;
   struct authenticator_module *auth_mod;
-  signed int return_value_check_to_add_method_id$1;
-  return_value_check_to_add_method_id$1=check_to_add_method_id(hash, method_id);
-  if(return_value_check_to_add_method_id$1 == 0)
+  signed int return_value_check_to_add_method_id_1;
+  return_value_check_to_add_method_id_1=check_to_add_method_id(hash, method_id);
+  if(return_value_check_to_add_method_id_1 == 0)
     return 0;
 
   else
@@ -31835,9 +31835,9 @@ signed int methods_authenticators(struct auth_hash *hash, const char *method_nam
     auths_num = 0;
     for( ; !(argv[(signed long int)auths_num] == ((const char *)NULL)); auths_num = auths_num + 1)
       ;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(auths_num + 1) * sizeof(struct authenticator_module *) /*8ul*/ );
-    new_mem = (struct authenticator_module **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(auths_num + 1) * sizeof(struct authenticator_module *) /*8ul*/ );
+    new_mem = (struct authenticator_module **)return_value_malloc_2;
     if(new_mem == ((struct authenticator_module **)NULL))
     {
       if(CI_DEBUG_LEVEL >= 1)
@@ -31891,9 +31891,9 @@ signed int methods_authenticators(struct auth_hash *hash, const char *method_nam
 
         else
         {
-          signed int return_value_strcasecmp$3;
-          return_value_strcasecmp$3=strcasecmp(auth_mod->method, method_name);
-          if(!(return_value_strcasecmp$3 == 0))
+          signed int return_value_strcasecmp_3;
+          return_value_strcasecmp_3=strcasecmp(auth_mod->method, method_name);
+          if(!(return_value_strcasecmp_3 == 0))
           {
             if(CI_DEBUG_LEVEL >= 1)
             {
@@ -31909,9 +31909,9 @@ signed int methods_authenticators(struct auth_hash *hash, const char *method_nam
 
           else
           {
-            signed int tmp_post$4 = k;
+            signed int tmp_post_4 = k;
             k = k + 1;
-            new_mem[(signed long int)tmp_post$4] = auth_mod;
+            new_mem[(signed long int)tmp_post_4] = auth_mod;
           }
         }
       }
@@ -31926,10 +31926,10 @@ signed int methods_authenticators(struct auth_hash *hash, const char *method_nam
 struct ci_encaps_entity * mk_encaps_entity(signed int type, signed int val)
 {
   struct ci_encaps_entity *h;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ci_encaps_entity) /*16ul*/ );
-  h = (struct ci_encaps_entity *)return_value_malloc$1;
-  struct ci_headers_list *return_value_ci_headers_create$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ci_encaps_entity) /*16ul*/ );
+  h = (struct ci_encaps_entity *)return_value_malloc_1;
+  struct ci_headers_list *return_value_ci_headers_create_2;
   if(h == ((struct ci_encaps_entity *)NULL))
     return (struct ci_encaps_entity *)(void *)0;
 
@@ -31939,8 +31939,8 @@ struct ci_encaps_entity * mk_encaps_entity(signed int type, signed int val)
     h->type = type;
     if(type == 0 || type == 1)
     {
-      return_value_ci_headers_create$2=ci_headers_create();
-      h->entity = (void *)return_value_ci_headers_create$2;
+      return_value_ci_headers_create_2=ci_headers_create();
+      h->entity = (void *)return_value_ci_headers_create_2;
     }
 
     else
@@ -31960,39 +31960,39 @@ static signed int mk_responce_header(struct ci_request *req)
   srv_xdata=service_data(req->current_service_mod);
   ci_headers_reset(req->response_header);
   head = req->response_header;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(req->return_code >= 0)
-    tmp_if_expr$1 = req->return_code < 16 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = req->return_code < 16 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion req->return_code >= EC_100 && req->return_code < EC_MAX */
-  assert(tmp_if_expr$1);
-  _Bool tmp_if_expr$2;
+  assert(tmp_if_expr_1);
+  _Bool tmp_if_expr_2;
   if(req->return_code >= 0)
-    tmp_if_expr$2 = req->return_code < 16 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = req->return_code < 16 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  signed int tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = ci_error_codes[(signed long int)req->return_code].code;
+    tmp_if_expr_2 = (_Bool)0;
+  signed int tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = ci_error_codes[(signed long int)req->return_code].code;
 
   else
-    tmp_if_expr$3 = 1000;
-  _Bool tmp_if_expr$4;
+    tmp_if_expr_3 = 1000;
+  _Bool tmp_if_expr_4;
   if(req->return_code >= 0)
-    tmp_if_expr$4 = req->return_code < 16 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = req->return_code < 16 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  char *tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = ci_error_codes[(signed long int)req->return_code].str;
+    tmp_if_expr_4 = (_Bool)0;
+  char *tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = ci_error_codes[(signed long int)req->return_code].str;
 
   else
-    tmp_if_expr$5 = "UNKNOWN ERROR CODE";
-  snprintf(buf, (unsigned long int)512, "ICAP/1.0 %d %s", tmp_if_expr$3, tmp_if_expr$5);
+    tmp_if_expr_5 = "UNKNOWN ERROR CODE";
+  snprintf(buf, (unsigned long int)512, "ICAP/1.0 %d %s", tmp_if_expr_3, tmp_if_expr_5);
   ci_headers_add(head, buf);
   ci_headers_add(head, "Server: C-ICAP/0.4.2");
   if(!(req->keepalive == 0))
@@ -32019,13 +32019,13 @@ static signed int mk_responce_header(struct ci_request *req)
 
   }
 
-  const char *tmp_if_expr$6;
+  const char *tmp_if_expr_6;
   if(!(req->current_service_mod->mod_short_descr == ((const char *)NULL)))
-    tmp_if_expr$6 = req->current_service_mod->mod_short_descr;
+    tmp_if_expr_6 = req->current_service_mod->mod_short_descr;
 
   else
-    tmp_if_expr$6 = req->current_service_mod->mod_name;
-  snprintf(buf, (unsigned long int)512, "Via: ICAP/1.0 %s (C-ICAP/0.4.2 %s )", (const void *)MY_HOSTNAME, tmp_if_expr$6);
+    tmp_if_expr_6 = req->current_service_mod->mod_name;
+  snprintf(buf, (unsigned long int)512, "Via: ICAP/1.0 %s (C-ICAP/0.4.2 %s )", (const void *)MY_HOSTNAME, tmp_if_expr_6);
   buf[(signed long int)511] = (char)0;
   if(req->type == 0x04)
     ci_http_response_add_header(req, buf);
@@ -32080,9 +32080,9 @@ signed int mmap_shared_mem_detach(struct ci_shared_mem_id *id)
 // file os/unix/shared_mem.c line 137
 signed int mmap_shared_mem_print_info(struct ci_shared_mem_id *id, char *buf, unsigned long int buf_size)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, buf_size, "mmap:%s/%p %ld kbs", (const void *)id->name, id->mem, (signed long int)(id->size / (unsigned long int)1024));
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, buf_size, "mmap:%s/%p %ld kbs", (const void *)id->name, id->mem, (signed long int)(id->size / (unsigned long int)1024));
+  return return_value_snprintf_1;
 }
 
 // mod_null_io
@@ -32101,44 +32101,44 @@ static signed int mod_null_io(char *rbuf, signed int *rlen, char *wbuf, signed i
 // file module.c line 115
 static signed int module_type(const char *type)
 {
-  signed int return_value_strcmp$6;
-  return_value_strcmp$6=strcmp(type, "service_handler");
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$6 == 0)
+  signed int return_value_strcmp_6;
+  return_value_strcmp_6=strcmp(type, "service_handler");
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_6 == 0)
     return SERVICE_HANDLER;
 
   else
   {
-    return_value_strcmp$5=strcmp(type, "logger");
-    if(return_value_strcmp$5 == 0)
+    return_value_strcmp_5=strcmp(type, "logger");
+    if(return_value_strcmp_5 == 0)
       return LOGGER;
 
     else
     {
-      return_value_strcmp$4=strcmp(type, "access_controller");
-      if(return_value_strcmp$4 == 0)
+      return_value_strcmp_4=strcmp(type, "access_controller");
+      if(return_value_strcmp_4 == 0)
         return ACCESS_CONTROLLER;
 
       else
       {
-        return_value_strcmp$3=strcmp(type, "auth_method");
-        if(return_value_strcmp$3 == 0)
+        return_value_strcmp_3=strcmp(type, "auth_method");
+        if(return_value_strcmp_3 == 0)
           return AUTH_METHOD;
 
         else
         {
-          return_value_strcmp$2=strcmp(type, "authenticator");
-          if(return_value_strcmp$2 == 0)
+          return_value_strcmp_2=strcmp(type, "authenticator");
+          if(return_value_strcmp_2 == 0)
             return AUTHENTICATOR;
 
           else
           {
-            return_value_strcmp$1=strcmp(type, "common");
-            if(return_value_strcmp$1 == 0)
+            return_value_strcmp_1=strcmp(type, "common");
+            if(return_value_strcmp_1 == 0)
               return COMMON;
 
           }
@@ -32173,8 +32173,8 @@ signed int net_data_read(struct ci_request *req)
   }
 
   bytes = 4096 - req->pstrblock_read_len;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
   if(!(bytes >= 1))
   {
     if(CI_DEBUG_LEVEL >= 5)
@@ -32199,14 +32199,14 @@ signed int net_data_read(struct ci_request *req)
       {
         if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
         {
-          return_value___errno_location$1=__errno_location();
-          __log_error((void *)0, "Error reading data (read return=%d, errno=%d) \n", bytes, *return_value___errno_location$1);
+          return_value___errno_location_1=__errno_location();
+          __log_error((void *)0, "Error reading data (read return=%d, errno=%d) \n", bytes, *return_value___errno_location_1);
         }
 
         if(!(CI_DEBUG_STDOUT == 0))
         {
-          return_value___errno_location$2=__errno_location();
-          printf("Error reading data (read return=%d, errno=%d) \n", bytes, *return_value___errno_location$2);
+          return_value___errno_location_2=__errno_location();
+          printf("Error reading data (read return=%d, errno=%d) \n", bytes, *return_value___errno_location_2);
         }
 
       }
@@ -32231,9 +32231,9 @@ struct ci_request * newrequest(struct ci_connection *connection)
   signed int access;
   signed int len;
   struct ci_connection *conn;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ci_connection) /*88ul*/ );
-  conn = (struct ci_connection *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ci_connection) /*88ul*/ );
+  conn = (struct ci_connection *)return_value_malloc_1;
   /* assertion conn */
   assert(conn != ((struct ci_connection *)NULL));
   ci_copy_connection(conn, connection);
@@ -32241,9 +32241,9 @@ struct ci_request * newrequest(struct ci_connection *connection)
   access=access_check_client(req);
   if(access == -1)
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen("ICAP/1.0 403 Forbidden\r\n\r\n");
-    len = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen("ICAP/1.0 403 Forbidden\r\n\r\n");
+    len = (signed int)return_value_strlen_2;
     ci_write(connection->fd, (const void *)"ICAP/1.0 403 Forbidden\r\n\r\n", (unsigned long int)len, TIMEOUT);
     ci_request_destroy(req);
     return (struct ci_request *)(void *)0;
@@ -32258,9 +32258,9 @@ struct ci_request * newrequest(struct ci_connection *connection)
 struct server_decl * newthread(struct connections_queue *con_queue)
 {
   struct server_decl *serv;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct server_decl) /*48ul*/ );
-  serv = (struct server_decl *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct server_decl) /*48ul*/ );
+  serv = (struct server_decl *)return_value_malloc_1;
   serv->srv_id = 0;
   serv->con_queue = con_queue;
   serv->served_requests = 0;
@@ -32304,13 +32304,13 @@ static void options_responce(struct ci_request *req)
     strcat(buf, "REQMOD");
   ci_headers_add(head, buf);
   str = req->current_service_mod->mod_short_descr;
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   if(!(str == ((const char *)NULL)))
-    tmp_if_expr$1 = str;
+    tmp_if_expr_1 = str;
 
   else
-    tmp_if_expr$1 = req->current_service_mod->mod_name;
-  snprintf(buf, (unsigned long int)1023, "Service: C-ICAP/0.4.2 server - %s", tmp_if_expr$1);
+    tmp_if_expr_1 = req->current_service_mod->mod_name;
+  snprintf(buf, (unsigned long int)1023, "Service: C-ICAP/0.4.2 server - %s", tmp_if_expr_1);
   buf[(signed long int)1023] = (char)0;
   ci_headers_add(head, buf);
   ci_service_data_read_lock(srv_xdata);
@@ -32370,9 +32370,9 @@ static void options_responce(struct ci_request *req)
   else
     ci_headers_add(head, "Options-TTL: 3600");
   strcpy(buf, "Date: ");
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(buf);
-  ci_strtime_rfc822(buf + (signed long int)return_value_strlen$2);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(buf);
+  ci_strtime_rfc822(buf + (signed long int)return_value_strlen_2);
   ci_headers_add(head, buf);
   if(preview >= 0)
   {
@@ -32461,9 +32461,9 @@ static void options_responce(struct ci_request *req)
   req->remain_send_block_bytes = head->bufused;
   do
   {
-    signed int return_value_wait_for_data$3;
-    return_value_wait_for_data$3=wait_for_data(req->connection->fd, TIMEOUT, 0x2);
-    if(!(return_value_wait_for_data$3 >= 0))
+    signed int return_value_wait_for_data_3;
+    return_value_wait_for_data_3=wait_for_data(req->connection->fd, TIMEOUT, 0x2);
+    if(!(return_value_wait_for_data_3 >= 0))
     {
       if(CI_DEBUG_LEVEL >= 3)
       {
@@ -32478,9 +32478,9 @@ static void options_responce(struct ci_request *req)
       goto __CPROVER_DUMP_L35;
     }
 
-    signed int return_value_send_current_block_data$4;
-    return_value_send_current_block_data$4=send_current_block_data(req);
-    if(return_value_send_current_block_data$4 == -1)
+    signed int return_value_send_current_block_data_4;
+    return_value_send_current_block_data_4=send_current_block_data(req);
+    if(return_value_send_current_block_data_4 == -1)
     {
       if(CI_DEBUG_LEVEL >= 3)
       {
@@ -32506,9 +32506,9 @@ __CPROVER_DUMP_L35:
 // file mem.c line 404
 static void * os_allocator_alloc(struct ci_mem_allocator *allocator, unsigned long int size)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size);
-  return return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size);
+  return return_value_malloc_1;
 }
 
 // os_allocator_destroy
@@ -32543,8 +32543,8 @@ signed int parse_chunk_data(struct ci_request *req, char **wdata)
   signed int tmp;
   signed int read_status = 0;
   *wdata = (char *)(void *)0;
-  signed int return_value_strncmp$4;
-  signed int return_value_strncmp$3;
+  signed int return_value_strncmp_4;
+  signed int return_value_strncmp_3;
   if(!(req->write_to_module_pending == 0u))
     return -1;
 
@@ -32571,12 +32571,12 @@ signed int parse_chunk_data(struct ci_request *req, char **wdata)
         eofChunk = eofChunk + (signed long int)2;
         chunkLen = (signed int)(eofChunk - req->pstrblock_read);
         req->request_bytes_in = req->request_bytes_in + (unsigned long int)(eofChunk - req->pstrblock_read);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
-        signed long int return_value_strtol$2;
-        return_value_strtol$2=strtol(req->pstrblock_read, &end, 16);
-        tmp = (signed int)return_value_strtol$2;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
+        signed long int return_value_strtol_2;
+        return_value_strtol_2=strtol(req->pstrblock_read, &end, 16);
+        tmp = (signed int)return_value_strtol_2;
         if(tmp == 0)
         {
           if(req->pstrblock_read == end)
@@ -32640,23 +32640,23 @@ signed int parse_chunk_data(struct ci_request *req, char **wdata)
           __CPROVER_DUMP_L16:
             ;
             remains = (signed int)((signed long int)req->pstrblock_read_len - (end - req->pstrblock_read));
-            _Bool tmp_if_expr$5;
+            _Bool tmp_if_expr_5;
             if(remains >= 18)
             {
-              return_value_strncmp$4=strncmp(end, "use-original-body=", (unsigned long int)18);
-              tmp_if_expr$5 = return_value_strncmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strncmp_4=strncmp(end, "use-original-body=", (unsigned long int)18);
+              tmp_if_expr_5 = return_value_strncmp_4 == 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$5 = (_Bool)0;
-            if(tmp_if_expr$5)
+              tmp_if_expr_5 = (_Bool)0;
+            if(tmp_if_expr_5)
               req->i206_use_original_body=strtol(end + (signed long int)18, &end, 10);
 
             else
               if(remains >= 4)
               {
-                return_value_strncmp$3=strncmp(end, "ieof", (unsigned long int)4);
-                if(!(return_value_strncmp$3 == 0))
+                return_value_strncmp_3=strncmp(end, "ieof", (unsigned long int)4);
+                if(!(return_value_strncmp_3 == 0))
                   return -1;
 
               }
@@ -32673,13 +32673,13 @@ signed int parse_chunk_data(struct ci_request *req, char **wdata)
           read_status = 2;
           req->current_chunk_len = req->current_chunk_len + (unsigned int)2;
         }
-        _Bool tmp_if_expr$6;
+        _Bool tmp_if_expr_6;
         if(!((signed int)*end == 13))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = (signed int)end[(signed long int)1] != 10 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (signed int)end[(signed long int)1] != 10 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
           return -1;
 
         req->pstrblock_read_len = req->pstrblock_read_len - chunkLen;
@@ -32758,9 +32758,9 @@ unsigned int parse_directive(const char *var, unsigned int *width, signed int *l
 
   else
     *left_align = 0;
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(s1, &e, 10);
-  *width = (unsigned int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(s1, &e, 10);
+  *width = (unsigned int)return_value_strtol_1;
   if(e == s1)
     *width = (unsigned int)0;
 
@@ -32835,8 +32835,8 @@ signed int parse_file(const char *conf_file)
   char line[8192l];
   signed int line_count;
   signed int ret_value;
-  signed int return_value_feof$1;
-  signed int return_value_process_line$3;
+  signed int return_value_feof_1;
+  signed int return_value_process_line_3;
   if(PARSE_LEVEL >= 5)
   {
     if(CI_DEBUG_LEVEL >= 1)
@@ -32877,23 +32877,23 @@ signed int parse_file(const char *conf_file)
       PARSE_LEVEL = PARSE_LEVEL + 1;
       do
       {
-        return_value_feof$1=feof(f_conf);
-        if(!(return_value_feof$1 == 0))
+        return_value_feof_1=feof(f_conf);
+        if(!(return_value_feof_1 == 0))
           break;
 
         line_count = line_count + 1;
-        signed int return_value_fread_line$2;
-        return_value_fread_line$2=fread_line(f_conf, line);
-        _Bool tmp_if_expr$4;
-        if(return_value_fread_line$2 == 0)
-          tmp_if_expr$4 = (_Bool)1;
+        signed int return_value_fread_line_2;
+        return_value_fread_line_2=fread_line(f_conf, line);
+        _Bool tmp_if_expr_4;
+        if(return_value_fread_line_2 == 0)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_process_line$3=process_line(line);
-          tmp_if_expr$4 = !(return_value_process_line$3 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_process_line_3=process_line(line);
+          tmp_if_expr_4 = !(return_value_process_line_3 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           if(CI_DEBUG_LEVEL >= 1)
           {
@@ -32938,14 +32938,14 @@ static signed int parse_header(struct ci_request *req)
   char *val;
   h = req->request_header;
   request_status=ci_read_icap_header(req, h, TIMEOUT);
-  const unsigned short int **return_value___ctype_b_loc$1;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$5;
-  signed int return_value_strncasecmp$14;
-  signed int return_value_strncasecmp$13;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strncasecmp$12;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_5;
+  signed int return_value_strncasecmp_14;
+  signed int return_value_strncasecmp_13;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strncasecmp_12;
   if(!(request_status == 0))
     return request_status;
 
@@ -32966,37 +32966,37 @@ static signed int parse_header(struct ci_request *req)
         i = 1;
         for( ; request_status == 0 && !(i >= h->used); i = i + 1)
         {
-          signed int return_value_strncasecmp$15;
-          return_value_strncasecmp$15=strncasecmp("Preview:", h->headers[(signed long int)i], (unsigned long int)8);
-          if(return_value_strncasecmp$15 == 0)
+          signed int return_value_strncasecmp_15;
+          return_value_strncasecmp_15=strncasecmp("Preview:", h->headers[(signed long int)i], (unsigned long int)8);
+          if(return_value_strncasecmp_15 == 0)
           {
             val = h->headers[(signed long int)i] + (signed long int)8;
             do
             {
-              return_value___ctype_b_loc$1=__ctype_b_loc();
-              if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*val]) == 0))
-                tmp_if_expr$2 = (signed int)*val != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_1=__ctype_b_loc();
+              if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*val]) == 0))
+                tmp_if_expr_2 = (signed int)*val != 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$2 = (_Bool)0;
-              if(!tmp_if_expr$2)
+                tmp_if_expr_2 = (_Bool)0;
+              if(!tmp_if_expr_2)
                 break;
 
               val = val + 1l;
             }
             while((_Bool)1);
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            *return_value___errno_location$3 = 0;
-            signed long int return_value_strtol$4;
-            return_value_strtol$4=strtol(val, (char ** restrict )(void *)0, 10);
-            result = (signed int)return_value_strtol$4;
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            if(!(*return_value___errno_location$6 == 22))
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            *return_value___errno_location_3 = 0;
+            signed long int return_value_strtol_4;
+            return_value_strtol_4=strtol(val, (char ** restrict )(void *)0, 10);
+            result = (signed int)return_value_strtol_4;
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            if(!(*return_value___errno_location_6 == 22))
             {
-              return_value___errno_location$5=__errno_location();
-              if(!(*return_value___errno_location$5 == 34))
+              return_value___errno_location_5=__errno_location();
+              if(!(*return_value___errno_location_5 == 34))
               {
                 req->preview = result;
                 if(result >= 0)
@@ -33010,50 +33010,50 @@ static signed int parse_header(struct ci_request *req)
 
           else
           {
-            return_value_strncasecmp$14=strncasecmp("Encapsulated:", h->headers[(signed long int)i], (unsigned long int)13);
-            if(return_value_strncasecmp$14 == 0)
+            return_value_strncasecmp_14=strncasecmp("Encapsulated:", h->headers[(signed long int)i], (unsigned long int)13);
+            if(return_value_strncasecmp_14 == 0)
               request_status=process_encapsulated(req, h->headers[(signed long int)i]);
 
             else
             {
-              return_value_strncasecmp$13=strncasecmp("Connection:", h->headers[(signed long int)i], (unsigned long int)11);
-              if(return_value_strncasecmp$13 == 0)
+              return_value_strncasecmp_13=strncasecmp("Connection:", h->headers[(signed long int)i], (unsigned long int)11);
+              if(return_value_strncasecmp_13 == 0)
               {
                 val = h->headers[(signed long int)i] + (signed long int)11;
                 do
                 {
-                  return_value___ctype_b_loc$7=__ctype_b_loc();
-                  if(!((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*val]) == 0))
-                    tmp_if_expr$8 = (signed int)*val != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value___ctype_b_loc_7=__ctype_b_loc();
+                  if(!((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*val]) == 0))
+                    tmp_if_expr_8 = (signed int)*val != 0 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$8 = (_Bool)0;
-                  if(!tmp_if_expr$8)
+                    tmp_if_expr_8 = (_Bool)0;
+                  if(!tmp_if_expr_8)
                     break;
 
                   val = val + 1l;
                 }
                 while((_Bool)1);
-                signed int return_value_strncasecmp$9;
-                return_value_strncasecmp$9=strncasecmp(val, "close", (unsigned long int)5);
-                if(return_value_strncasecmp$9 == 0)
+                signed int return_value_strncasecmp_9;
+                return_value_strncasecmp_9=strncasecmp(val, "close", (unsigned long int)5);
+                if(return_value_strncasecmp_9 == 0)
                   req->keepalive = 0;
 
               }
 
               else
               {
-                return_value_strncasecmp$12=strncasecmp("Allow:", h->headers[(signed long int)i], (unsigned long int)6);
-                if(return_value_strncasecmp$12 == 0)
+                return_value_strncasecmp_12=strncasecmp("Allow:", h->headers[(signed long int)i], (unsigned long int)6);
+                if(return_value_strncasecmp_12 == 0)
                 {
-                  char *return_value_strstr$10;
-                  return_value_strstr$10=strstr(h->headers[(signed long int)i] + (signed long int)6, "204");
-                  if(!(return_value_strstr$10 == ((char *)NULL)))
+                  char *return_value_strstr_10;
+                  return_value_strstr_10=strstr(h->headers[(signed long int)i] + (signed long int)6, "204");
+                  if(!(return_value_strstr_10 == ((char *)NULL)))
                     req->allow204 = 1;
 
-                  char *return_value_strstr$11;
-                  return_value_strstr$11=strstr(h->headers[(signed long int)i] + (signed long int)6, "206");
-                  if(!(return_value_strstr$11 == ((char *)NULL)))
+                  char *return_value_strstr_11;
+                  return_value_strstr_11=strstr(h->headers[(signed long int)i] + (signed long int)6, "206");
+                  if(!(return_value_strstr_11 == ((char *)NULL)))
                     req->allow206 = 1;
 
                 }
@@ -33067,9 +33067,9 @@ static signed int parse_header(struct ci_request *req)
 
         else
         {
-          signed int return_value_check_request$16;
-          return_value_check_request$16=check_request(req);
-          return return_value_check_request$16;
+          signed int return_value_check_request_16;
+          return_value_check_request_16=check_request(req);
+          return return_value_check_request_16;
         }
       }
     }
@@ -33086,10 +33086,10 @@ static signed int parse_record(char *line, struct ci_magic_record *record)
   signed int len;
   signed int c;
   signed int i;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  len = (signed int)return_value_strlen$1;
-  signed int *return_value___errno_location$4;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  len = (signed int)return_value_strlen_1;
+  signed int *return_value___errno_location_4;
   if(!(len >= 4))
     return 0;
 
@@ -33102,22 +33102,22 @@ static signed int parse_record(char *line, struct ci_magic_record *record)
       len = len - 1;
       line[(signed long int)len] = (char)0;
       s = line;
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
-      signed long int return_value_strtol$3;
-      return_value_strtol$3=strtol(s, &end, 10);
-      record->offset = (signed int)return_value_strtol$3;
-      _Bool tmp_if_expr$5;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
+      signed long int return_value_strtol_3;
+      return_value_strtol_3=strtol(s, &end, 10);
+      record->offset = (signed int)return_value_strtol_3;
+      _Bool tmp_if_expr_5;
       if(!((signed int)*end == 58))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$4=__errno_location();
-        tmp_if_expr$5 = *return_value___errno_location$4 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_4=__errno_location();
+        tmp_if_expr_5 = *return_value___errno_location_4 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         return 0;
 
       else
@@ -33139,58 +33139,58 @@ static signed int parse_record(char *line, struct ci_magic_record *record)
             if((signed int)*s == 120)
             {
               s = s + 1l;
-              char *tmp_post$6 = s;
+              char *tmp_post_6 = s;
               s = s + 1l;
-              num[(signed long int)0] = *tmp_post$6;
-              char *tmp_post$7 = s;
+              num[(signed long int)0] = *tmp_post_6;
+              char *tmp_post_7 = s;
               s = s + 1l;
-              num[(signed long int)1] = *tmp_post$7;
+              num[(signed long int)1] = *tmp_post_7;
               num[(signed long int)2] = (char)0;
-              signed long int return_value_strtol$8;
-              return_value_strtol$8=strtol(num, (char ** restrict )(void *)0, 16);
-              c = (signed int)return_value_strtol$8;
+              signed long int return_value_strtol_8;
+              return_value_strtol_8=strtol(num, (char ** restrict )(void *)0, 16);
+              c = (signed int)return_value_strtol_8;
             }
 
             else
             {
-              char *tmp_post$9 = s;
+              char *tmp_post_9 = s;
               s = s + 1l;
-              num[(signed long int)0] = *tmp_post$9;
-              char *tmp_post$10 = s;
+              num[(signed long int)0] = *tmp_post_9;
+              char *tmp_post_10 = s;
               s = s + 1l;
-              num[(signed long int)1] = *tmp_post$10;
-              char *tmp_post$11 = s;
+              num[(signed long int)1] = *tmp_post_10;
+              char *tmp_post_11 = s;
               s = s + 1l;
-              num[(signed long int)2] = *tmp_post$11;
+              num[(signed long int)2] = *tmp_post_11;
               num[(signed long int)3] = (char)0;
-              signed long int return_value_strtol$12;
-              return_value_strtol$12=strtol(num, (char ** restrict )(void *)0, 8);
-              c = (signed int)return_value_strtol$12;
+              signed long int return_value_strtol_12;
+              return_value_strtol_12=strtol(num, (char ** restrict )(void *)0, 8);
+              c = (signed int)return_value_strtol_12;
             }
             if(c >= 257 || !(c >= 0))
               return -2;
 
-            signed int tmp_post$13 = i;
+            signed int tmp_post_13 = i;
             i = i + 1;
-            record->magic[(signed long int)tmp_post$13] = (unsigned char)c;
+            record->magic[(signed long int)tmp_post_13] = (unsigned char)c;
           }
 
           else
           {
-            signed int tmp_post$14 = i;
+            signed int tmp_post_14 = i;
             i = i + 1;
-            record->magic[(signed long int)tmp_post$14] = (unsigned char)*s;
+            record->magic[(signed long int)tmp_post_14] = (unsigned char)*s;
             s = s + 1l;
           }
         }
         record->len = (unsigned long int)i;
-        _Bool tmp_if_expr$15;
+        _Bool tmp_if_expr_15;
         if(s >= end)
-          tmp_if_expr$15 = (_Bool)1;
+          tmp_if_expr_15 = (_Bool)1;
 
         else
-          tmp_if_expr$15 = (signed int)*s != 58 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$15)
+          tmp_if_expr_15 = (signed int)*s != 58 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_15)
           return -2;
 
         else
@@ -33224,9 +33224,9 @@ static signed int parse_record(char *line, struct ci_magic_record *record)
                   break;
 
                 *end = (char)0;
-                void *return_value_malloc$16;
-                return_value_malloc$16=malloc((unsigned long int)(15 + 1));
-                record->groups[(signed long int)i] = (char *)return_value_malloc$16;
+                void *return_value_malloc_16;
+                return_value_malloc_16=malloc((unsigned long int)(15 + 1));
+                record->groups[(signed long int)i] = (char *)return_value_malloc_16;
                 strncpy(record->groups[(signed long int)i], s, (unsigned long int)15);
                 record->groups[(signed long int)i][(signed long int)15] = (char)0;
                 i = i + 1;
@@ -33236,9 +33236,9 @@ static signed int parse_record(char *line, struct ci_magic_record *record)
                 s = end + (signed long int)1;
               }
               while((_Bool)1);
-              void *return_value_malloc$17;
-              return_value_malloc$17=malloc((unsigned long int)(15 + 1));
-              record->groups[(signed long int)i] = (char *)return_value_malloc$17;
+              void *return_value_malloc_17;
+              return_value_malloc_17=malloc((unsigned long int)(15 + 1));
+              record->groups[(signed long int)i] = (char *)return_value_malloc_17;
               strncpy(record->groups[(signed long int)i], s, (unsigned long int)15);
               record->groups[(signed long int)i][(signed long int)15] = (char)0;
               i = i + 1;
@@ -33265,7 +33265,7 @@ static signed int parse_request(struct ci_request *req, char *buf)
   struct ci_service_module *service = (struct ci_service_module *)(void *)0;
   struct service_alias *salias = (struct service_alias *)(void *)0;
   req->type=get_method(buf, &end);
-  signed int return_value_strncasecmp$1;
+  signed int return_value_strncasecmp_1;
   if(!(req->type >= 0))
     return 4;
 
@@ -33274,23 +33274,23 @@ static signed int parse_request(struct ci_request *req, char *buf)
     for( ; (signed int)*end == 32; end = end + 1l)
       ;
     start = end;
-    signed int return_value_strncasecmp$2;
-    return_value_strncasecmp$2=strncasecmp(start, "icap://", (unsigned long int)7);
-    if(return_value_strncasecmp$2 == 0)
+    signed int return_value_strncasecmp_2;
+    return_value_strncasecmp_2=strncasecmp(start, "icap://", (unsigned long int)7);
+    if(return_value_strncasecmp_2 == 0)
       start = start + (signed long int)7;
 
     else
     {
-      return_value_strncasecmp$1=strncasecmp(start, "icaps://", (unsigned long int)8);
-      if(return_value_strncasecmp$1 == 0)
+      return_value_strncasecmp_1=strncasecmp(start, "icaps://", (unsigned long int)8);
+      if(return_value_strncasecmp_1 == 0)
         start = start + (signed long int)8;
 
       else
         return 4;
     }
-    unsigned long int return_value_strcspn$3;
-    return_value_strcspn$3=strcspn(start, "/ ");
-    len = (signed int)return_value_strcspn$3;
+    unsigned long int return_value_strcspn_3;
+    return_value_strcspn_3=strcspn(start, "/ ");
+    len = (signed int)return_value_strcspn_3;
     end = start + (signed long int)len;
     servnamelen = 256 > len ? len : 256;
     memcpy((void *)req->req_server, (const void *)start, (unsigned long int)servnamelen);
@@ -33323,9 +33323,9 @@ static signed int parse_request(struct ci_request *req, char *buf)
         end=strchr(start, 32);
         if(!(end == ((char *)NULL)))
         {
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(req->args);
-          args_len = (signed int)return_value_strlen$4;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(req->args);
+          args_len = (signed int)return_value_strlen_4;
           len = (signed int)(end - start);
           if(!(args_len == 0) && !(len == 0))
           {
@@ -33347,22 +33347,22 @@ static signed int parse_request(struct ci_request *req, char *buf)
     start = end;
     vmajor = -1;
     vminor = vmajor;
-    signed int return_value_strncmp$7;
-    return_value_strncmp$7=strncmp(start, "ICAP/", (unsigned long int)5);
-    if(return_value_strncmp$7 == 0)
+    signed int return_value_strncmp_7;
+    return_value_strncmp_7=strncmp(start, "ICAP/", (unsigned long int)5);
+    if(return_value_strncmp_7 == 0)
     {
       start = start + (signed long int)5;
-      signed long int return_value_strtol$5;
-      return_value_strtol$5=strtol(start, &end, 10);
-      vmajor = (signed int)return_value_strtol$5;
+      signed long int return_value_strtol_5;
+      return_value_strtol_5=strtol(start, &end, 10);
+      vmajor = (signed int)return_value_strtol_5;
       if(vmajor >= 1)
       {
         if((signed int)*end == 46)
         {
           start = end + (signed long int)1;
-          signed long int return_value_strtol$6;
-          return_value_strtol$6=strtol(start, &end, 10);
-          vminor = (signed int)return_value_strtol$6;
+          signed long int return_value_strtol_6;
+          return_value_strtol_6=strtol(start, &end, 10);
+          vminor = (signed int)return_value_strtol_6;
           if(end == start)
             vminor = -1;
 
@@ -33457,9 +33457,9 @@ static void * pool_allocator_alloc(struct ci_mem_allocator *allocator, unsigned 
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct mem_block_item) /*16ul*/ );
-      mem_item = (struct mem_block_item *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct mem_block_item) /*16ul*/ );
+      mem_item = (struct mem_block_item *)return_value_malloc_1;
       mem_item->data = (void *)0;
       data=malloc((unsigned long int)palloc->items_size);
       palloc->alloc_count = palloc->alloc_count + 1;
@@ -33486,9 +33486,9 @@ static void * pool_allocator_alloc(struct ci_mem_allocator *allocator, unsigned 
 static struct pool_allocator * pool_allocator_build(signed int items_size, signed int strict)
 {
   struct pool_allocator *palloc;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pool_allocator) /*72ul*/ );
-  palloc = (struct pool_allocator *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pool_allocator) /*72ul*/ );
+  palloc = (struct pool_allocator *)return_value_malloc_1;
   if(palloc == ((struct pool_allocator *)NULL))
     return (struct pool_allocator *)(void *)0;
 
@@ -33576,9 +33576,9 @@ static void pool_allocator_reset(struct ci_mem_allocator *allocator)
 // file os/unix/proc_mutex.c line 139
 static signed int posix_proc_mutex_destroy(struct ci_proc_mutex *mutex)
 {
-  signed int return_value_sem_unlink$1;
-  return_value_sem_unlink$1=sem_unlink(mutex->name);
-  if(!(return_value_sem_unlink$1 >= 0))
+  signed int return_value_sem_unlink_1;
+  return_value_sem_unlink_1=sem_unlink(mutex->name);
+  if(!(return_value_sem_unlink_1 >= 0))
     return 0;
 
   else
@@ -33590,29 +33590,29 @@ static signed int posix_proc_mutex_destroy(struct ci_proc_mutex *mutex)
 static signed int posix_proc_mutex_init(struct ci_proc_mutex *mutex, const char *name)
 {
   signed int i = 0;
-  mutex->$anon0.posix.sem = (union anonymous$10 *)0;
+  mutex->_anon0.posix.sem = (union anonymous_10 *)0;
   i = 0;
   for( ; !(i >= 1024); i = i + 1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
     snprintf(mutex->name, (unsigned long int)64, "%s%s.%d", (const void *)"/c-icap-sem.", name, i);
-    mutex->$anon0.posix.sem=sem_open(mutex->name, 0100 | 0200, 0400 | 0200 | 0400 >> 3, 1);
-    if(!(mutex->$anon0.posix.sem == ((union anonymous$10 *)NULL)))
+    mutex->_anon0.posix.sem=sem_open(mutex->name, 0100 | 0200, 0400 | 0200 | 0400 >> 3, 1);
+    if(!(mutex->_anon0.posix.sem == ((union anonymous_10 *)NULL)))
       return 1;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 17))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 17))
       break;
 
   }
-  signed int *return_value___errno_location$5;
-  return_value___errno_location$5=__errno_location();
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$4;
-  if(*return_value___errno_location$5 == 17)
+  signed int *return_value___errno_location_5;
+  return_value___errno_location_5=__errno_location();
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_4;
+  if(*return_value___errno_location_5 == 17)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -33631,14 +33631,14 @@ static signed int posix_proc_mutex_init(struct ci_proc_mutex *mutex, const char 
     {
       if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
       {
-        return_value___errno_location$3=__errno_location();
-        __log_error((void *)0, "Error allocation posix proc mutex, errno: %d\n", *return_value___errno_location$3);
+        return_value___errno_location_3=__errno_location();
+        __log_error((void *)0, "Error allocation posix proc mutex, errno: %d\n", *return_value___errno_location_3);
       }
 
       if(!(CI_DEBUG_STDOUT == 0))
       {
-        return_value___errno_location$4=__errno_location();
-        printf("Error allocation posix proc mutex, errno: %d\n", *return_value___errno_location$4);
+        return_value___errno_location_4=__errno_location();
+        printf("Error allocation posix proc mutex, errno: %d\n", *return_value___errno_location_4);
       }
 
     }
@@ -33650,9 +33650,9 @@ static signed int posix_proc_mutex_init(struct ci_proc_mutex *mutex, const char 
 // file os/unix/proc_mutex.c line 147
 static signed int posix_proc_mutex_lock(struct ci_proc_mutex *mutex)
 {
-  signed int return_value_sem_wait$1;
-  return_value_sem_wait$1=sem_wait(mutex->$anon0.posix.sem);
-  if(!(return_value_sem_wait$1 == 0))
+  signed int return_value_sem_wait_1;
+  return_value_sem_wait_1=sem_wait(mutex->_anon0.posix.sem);
+  if(!(return_value_sem_wait_1 == 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -33675,18 +33675,18 @@ static signed int posix_proc_mutex_lock(struct ci_proc_mutex *mutex)
 // file os/unix/proc_mutex.c line 165
 static signed int posix_proc_mutex_print_info(struct ci_proc_mutex *mutex, char *buf, unsigned long int buf_size)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, buf_size, "posix:%s", (const void *)mutex->name);
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, buf_size, "posix:%s", (const void *)mutex->name);
+  return return_value_snprintf_1;
 }
 
 // posix_proc_mutex_unlock
 // file os/unix/proc_mutex.c line 156
 static signed int posix_proc_mutex_unlock(struct ci_proc_mutex *mutex)
 {
-  signed int return_value_sem_post$1;
-  return_value_sem_post$1=sem_post(mutex->$anon0.posix.sem);
-  if(!(return_value_sem_post$1 == 0))
+  signed int return_value_sem_post_1;
+  return_value_sem_post_1=sem_post(mutex->_anon0.posix.sem);
+  if(!(return_value_sem_post_1 == 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -33721,15 +33721,15 @@ void * posix_shared_mem_create(struct ci_shared_mem_id *id, const char *name, si
   i = 0;
   for( ; !(i >= 1024); i = i + 1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
     snprintf(id->name, (unsigned long int)64, "%s-%s.%d", (const void *)"/c-icap-shared", name, i);
-    id->$anon0.posix.fd=shm_open(id->name, 02 | 0100 | 0200, (unsigned int)(0400 | 0200));
-    ftruncate64(id->$anon0.posix.fd, (signed long int)id->size);
-    if(id->$anon0.posix.fd >= 0)
+    id->_anon0.posix.fd=shm_open(id->name, 02 | 0100 | 0200, (unsigned int)(0400 | 0200));
+    ftruncate64(id->_anon0.posix.fd, (signed long int)id->size);
+    if(id->_anon0.posix.fd >= 0)
     {
-      id->mem=mmap64((void *)0, (unsigned long int)size, 0x1 | 0x2, 0x01, id->$anon0.posix.fd, (signed long int)0);
+      id->mem=mmap64((void *)0, (unsigned long int)size, 0x1 | 0x2, 0x01, id->_anon0.posix.fd, (signed long int)0);
       if(id->mem == (void *)-1)
       {
         if(CI_DEBUG_LEVEL >= 1)
@@ -33757,7 +33757,7 @@ void * posix_shared_mem_create(struct ci_shared_mem_id *id, const char *name, si
 signed int posix_shared_mem_destroy(struct ci_shared_mem_id *id)
 {
   munmap(id->mem, id->size);
-  close(id->$anon0.posix.fd);
+  close(id->_anon0.posix.fd);
   id->mem = (void *)0;
   shm_unlink(id->name);
   return 1;
@@ -33776,9 +33776,9 @@ signed int posix_shared_mem_detach(struct ci_shared_mem_id *id)
 // file os/unix/shared_mem.c line 201
 signed int posix_shared_mem_print_info(struct ci_shared_mem_id *id, char *buf, unsigned long int buf_size)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, buf_size, "posix:%s %ld kbs", (const void *)id->name, (signed long int)(id->size / (unsigned long int)1024));
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, buf_size, "posix:%s %ld kbs", (const void *)id->name, (signed long int)(id->size / (unsigned long int)1024));
+  return return_value_snprintf_1;
 }
 
 // post_init_modules
@@ -34063,25 +34063,25 @@ signed int process_encapsulated(struct ci_request *req, const char *buf)
   start = buf + (signed long int)13;
   pos = start;
   end = (char *)start;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  _Bool tmp_if_expr$2;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  _Bool tmp_if_expr_2;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*pos]) == 0))
-      tmp_if_expr$2 = (signed int)*pos != 0 ? (_Bool)1 : (_Bool)0;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*pos]) == 0))
+      tmp_if_expr_2 = (signed int)*pos != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     pos = pos + 1l;
   }
   while((_Bool)1);
-  const unsigned short int **return_value___ctype_b_loc$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   while(!((signed int)*pos == 0))
   {
     type=get_encaps_type(pos, &val, &end);
@@ -34094,26 +34094,26 @@ signed int process_encapsulated(struct ci_request *req, const char *buf)
     if(type == 4)
       hasbody = 0;
 
-    signed int tmp_post$3 = num;
+    signed int tmp_post_3 = num;
     num = num + 1;
-    req->entities[(signed long int)tmp_post$3]=ci_request_alloc_entity(req, type, val);
+    req->entities[(signed long int)tmp_post_3]=ci_request_alloc_entity(req, type, val);
     /* assertion start != end */
     assert(start != end);
     pos = end;
     do
     {
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*pos]) == 0))
-        tmp_if_expr$5 = (_Bool)1;
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*pos]) == 0))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)*pos == 44 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (signed int)*pos != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (signed int)*pos == 44 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (signed int)*pos != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(!tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(!tmp_if_expr_6)
         break;
 
       pos = pos + 1l;
@@ -34137,21 +34137,21 @@ signed int process_line(char *orig_line)
   strncpy(line, orig_line, (unsigned long int)8192);
   line[(signed long int)(8192 - 1)] = (char)0;
   str = line;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   for( ; !((signed int)*str == 0); str = str + 1l)
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*str]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*str]) == 0)
       break;
 
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)*str == 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)*str == 35 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)*str == 35 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 1;
 
   else
@@ -34213,13 +34213,13 @@ signed int process_request(struct ci_request *req)
     ;
     if(!(STATS == ((struct stat_area *)NULL)))
     {
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(!(req->return_code == 7))
-        tmp_if_expr$1 = req->current_service_mod != ((struct ci_service_module *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = req->current_service_mod != ((struct ci_service_module *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         srv_xdata=service_data(req->current_service_mod);
 
       else
@@ -34366,9 +34366,9 @@ signed int process_request(struct ci_request *req)
 signed int put_to_queue(struct connections_queue *q, struct ci_connection *con)
 {
   signed int ret;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->queue_mtx);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->queue_mtx);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
     return -1;
 
   else
@@ -34407,10 +34407,10 @@ static signed int read_encaps_header(struct ci_request *req, struct ci_headers_l
   signed int remains;
   signed int readed = 0;
   char *buf_end = (char *)(void *)0;
-  signed int return_value_ci_headers_setsize$1;
-  return_value_ci_headers_setsize$1=ci_headers_setsize(h, size + (CHECK_FOR_BUGGY_CLIENT != 0 ? 2 : 0));
-  signed int return_value_strncmp$4;
-  if(return_value_ci_headers_setsize$1 == 0)
+  signed int return_value_ci_headers_setsize_1;
+  return_value_ci_headers_setsize_1=ci_headers_setsize(h, size + (CHECK_FOR_BUGGY_CLIENT != 0 ? 2 : 0));
+  signed int return_value_strncmp_4;
+  if(return_value_ci_headers_setsize_1 == 0)
     return 11;
 
   else
@@ -34418,13 +34418,13 @@ static signed int read_encaps_header(struct ci_request *req, struct ci_headers_l
     buf_end = h->buf;
     if(req->pstrblock_read_len >= 1)
     {
-      signed int tmp_if_expr$2;
+      signed int tmp_if_expr_2;
       if(!(req->pstrblock_read_len >= size))
-        tmp_if_expr$2 = req->pstrblock_read_len;
+        tmp_if_expr_2 = req->pstrblock_read_len;
 
       else
-        tmp_if_expr$2 = size;
-      readed = tmp_if_expr$2;
+        tmp_if_expr_2 = size;
+      readed = tmp_if_expr_2;
       memcpy((void *)h->buf, (const void *)req->pstrblock_read, (unsigned long int)readed);
       buf_end = h->buf + (signed long int)readed;
       if(req->pstrblock_read_len >= size)
@@ -34443,9 +34443,9 @@ static signed int read_encaps_header(struct ci_request *req, struct ci_headers_l
     remains = size - readed;
     while(remains >= 1)
     {
-      signed int return_value_wait_for_data$3;
-      return_value_wait_for_data$3=wait_for_data(req->connection->fd, TIMEOUT, 0x1);
-      if(return_value_wait_for_data$3 == -1)
+      signed int return_value_wait_for_data_3;
+      return_value_wait_for_data_3=wait_for_data(req->connection->fd, TIMEOUT, 0x1);
+      if(return_value_wait_for_data_3 == -1)
         return -1;
 
       bytes=ci_read_nonblock(req->connection->fd, (void *)buf_end, (unsigned long int)remains);
@@ -34457,16 +34457,16 @@ static signed int read_encaps_header(struct ci_request *req, struct ci_headers_l
       req->bytes_in = req->bytes_in + (unsigned long int)bytes;
     }
     h->bufused = (signed int)(buf_end - h->buf);
-    signed int return_value_strncmp$5;
-    return_value_strncmp$5=strncmp(buf_end - (signed long int)4, "\r\n\r\n", (unsigned long int)4);
-    if(return_value_strncmp$5 == 0)
+    signed int return_value_strncmp_5;
+    return_value_strncmp_5=strncmp(buf_end - (signed long int)4, "\r\n\r\n", (unsigned long int)4);
+    if(return_value_strncmp_5 == 0)
       h->bufused = h->bufused - 2;
 
     else
       if(!(CHECK_FOR_BUGGY_CLIENT == 0))
       {
-        return_value_strncmp$4=strncmp(buf_end - (signed long int)2, "\r\n", (unsigned long int)2);
-        if(!(return_value_strncmp$4 == 0))
+        return_value_strncmp_4=strncmp(buf_end - (signed long int)2, "\r\n", (unsigned long int)2);
+        if(!(return_value_strncmp_4 == 0))
         {
           *buf_end = (char)13;
           buf_end[(signed long int)1] = (char)10;
@@ -34492,14 +34492,14 @@ static signed int read_preview_data(struct ci_request *req)
   req->write_to_module_pending = (unsigned int)0;
   if(req->pstrblock_read_len == 0)
   {
-    signed int return_value_wait_for_data$1;
-    return_value_wait_for_data$1=wait_for_data(req->connection->fd, TIMEOUT, 0x1);
-    if(!(return_value_wait_for_data$1 >= 0))
+    signed int return_value_wait_for_data_1;
+    return_value_wait_for_data_1=wait_for_data(req->connection->fd, TIMEOUT, 0x1);
+    if(!(return_value_wait_for_data_1 >= 0))
       return -1;
 
-    signed int return_value_net_data_read$2;
-    return_value_net_data_read$2=net_data_read(req);
-    if(return_value_net_data_read$2 == -1)
+    signed int return_value_net_data_read_2;
+    return_value_net_data_read_2=net_data_read(req);
+    if(return_value_net_data_read_2 == -1)
       return -1;
 
   }
@@ -34525,9 +34525,9 @@ static signed int read_preview_data(struct ci_request *req)
       return -1;
     }
 
-    signed int return_value_ci_buf_write$3;
-    return_value_ci_buf_write$3=ci_buf_write(&req->preview_data, wdata, (signed int)req->write_to_module_pending);
-    if(!(return_value_ci_buf_write$3 >= 0))
+    signed int return_value_ci_buf_write_3;
+    return_value_ci_buf_write_3=ci_buf_write(&req->preview_data, wdata, (signed int)req->write_to_module_pending);
+    if(!(return_value_ci_buf_write_3 >= 0))
       return -1;
 
     req->write_to_module_pending = (unsigned int)0;
@@ -34544,14 +34544,14 @@ static signed int read_preview_data(struct ci_request *req)
     if(!(ret == 2))
       goto __CPROVER_DUMP_L3;
 
-    signed int return_value_wait_for_data$4;
-    return_value_wait_for_data$4=wait_for_data(req->connection->fd, TIMEOUT, 0x1);
-    if(!(return_value_wait_for_data$4 >= 0))
+    signed int return_value_wait_for_data_4;
+    return_value_wait_for_data_4=wait_for_data(req->connection->fd, TIMEOUT, 0x1);
+    if(!(return_value_wait_for_data_4 >= 0))
       return -1;
 
-    signed int return_value_net_data_read$5;
-    return_value_net_data_read$5=net_data_read(req);
-    if(return_value_net_data_read$5 == -1)
+    signed int return_value_net_data_read_5;
+    return_value_net_data_read_5=net_data_read(req);
+    if(return_value_net_data_read_5 == -1)
       return -1;
 
   }
@@ -34574,18 +34574,18 @@ signed int read_row(struct _IO_FILE *f, signed int cols, struct text_table_entry
   const struct ci_type_ops *key_ops = table->key_ops;
   const struct ci_type_ops *val_ops = table->val_ops;
   *e = (struct text_table_entry *)(void *)0;
-  char *return_value_fgets$1;
-  return_value_fgets$1=fgets(line, 65535, f);
-  unsigned long int return_value_strlen$3;
-  if(return_value_fgets$1 == ((char *)NULL))
+  char *return_value_fgets_1;
+  return_value_fgets_1=fgets(line, 65535, f);
+  unsigned long int return_value_strlen_3;
+  if(return_value_fgets_1 == ((char *)NULL))
     return 0;
 
   else
   {
     line[(signed long int)65535] = (char)0;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(line);
-    line_len = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(line);
+    line_len = (signed int)return_value_strlen_2;
     if(line_len >= 65536)
     {
       line[(signed long int)64] = (char)0;
@@ -34689,8 +34689,8 @@ signed int read_row(struct _IO_FILE *f, signed int cols, struct text_table_entry
 
             if(end == ((char *)NULL))
             {
-              return_value_strlen$3=strlen(s);
-              end = s + (signed long int)return_value_strlen$3;
+              return_value_strlen_3=strlen(s);
+              end = s + (signed long int)return_value_strlen_3;
             }
 
             s = end + (signed long int)1;
@@ -34794,9 +34794,9 @@ signed int reconfig()
 {
   cfg_default_value_restore_all();
   ci_cfg_lib_reset();
-  signed int return_value_ci_args_apply$1;
-  return_value_ci_args_apply$1=ci_args_apply(ARGC, ARGV, options);
-  if(return_value_ci_args_apply$1 == 0)
+  signed int return_value_ci_args_apply_1;
+  return_value_ci_args_apply_1=ci_args_apply(ARGC, ARGV, options);
+  if(return_value_ci_args_apply_1 == 0)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -34813,9 +34813,9 @@ signed int reconfig()
 
   else
   {
-    signed int return_value_parse_file$2;
-    return_value_parse_file$2=parse_file(CI_CONF.cfg_file);
-    if(return_value_parse_file$2 == 0)
+    signed int return_value_parse_file_2;
+    return_value_parse_file_2=parse_file(CI_CONF.cfg_file);
+    if(return_value_parse_file_2 == 0)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -34855,9 +34855,9 @@ signed int recycle_request(struct ci_request *req, struct ci_connection *connect
   access=access_check_client(req);
   if(access == -1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen("ICAP/1.0 403 Forbidden\r\n\r\n");
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen("ICAP/1.0 403 Forbidden\r\n\r\n");
+    len = (signed int)return_value_strlen_1;
     ci_write(connection->fd, (const void *)"ICAP/1.0 403 Forbidden\r\n\r\n", (unsigned long int)len, TIMEOUT);
     return 0;
   }
@@ -34876,11 +34876,11 @@ signed int regex_cmp(const void *key1, const void *key2)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((const char *)key2);
-    signed int return_value_ci_regex_apply$2;
-    return_value_ci_regex_apply$2=ci_regex_apply(reg->preg, (const char *)key2, (signed int)return_value_strlen$1, 0, (struct ci_list *)(void *)0, (void *)0);
-    return return_value_ci_regex_apply$2 == 0 ? 1 : 0;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((const char *)key2);
+    signed int return_value_ci_regex_apply_2;
+    return_value_ci_regex_apply_2=ci_regex_apply(reg->preg, (const char *)key2, (signed int)return_value_strlen_1, 0, (struct ci_list *)(void *)0, (void *)0);
+    return return_value_ci_regex_apply_2 == 0 ? 1 : 0;
   }
 }
 
@@ -34969,11 +34969,11 @@ signed int regex_equal(const void *key1, const void *key2)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((const char *)key2);
-    signed int return_value_ci_regex_apply$2;
-    return_value_ci_regex_apply$2=ci_regex_apply(reg->preg, (const char *)key2, (signed int)return_value_strlen$1, 0, (struct ci_list *)(void *)0, (void *)0);
-    return (signed int)(return_value_ci_regex_apply$2 != 0);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((const char *)key2);
+    signed int return_value_ci_regex_apply_2;
+    return_value_ci_regex_apply_2=ci_regex_apply(reg->preg, (const char *)key2, (signed int)return_value_strlen_1, 0, (struct ci_list *)(void *)0, (void *)0);
+    return (signed int)(return_value_ci_regex_apply_2 != 0);
   }
 }
 
@@ -34991,9 +34991,9 @@ void regex_free(void *key, struct ci_mem_allocator *allocator)
 // file types_ops.c line 287
 unsigned long int regex_len(const void *key)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(((struct ci_acl_regex *)key)->str);
-  return return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(((struct ci_acl_regex *)key)->str);
+  return return_value_strlen_1;
 }
 
 // regex_table_close
@@ -35026,9 +35026,9 @@ void * regex_table_open(struct ci_lookup_table *table)
   else
   {
     table->key_ops = &ci_regex_ops;
-    void *return_value_file_table_open$1;
-    return_value_file_table_open$1=file_table_open(table);
-    text_table = (struct text_table *)return_value_file_table_open$1;
+    void *return_value_file_table_open_1;
+    return_value_file_table_open_1=file_table_open(table);
+    text_table = (struct text_table *)return_value_file_table_open_1;
     if(text_table == ((struct text_table *)NULL))
       return (void *)0;
 
@@ -35048,9 +35048,9 @@ void regex_table_release_result(struct ci_lookup_table *table_data, void **val)
 // file lookup_file_table.c line 451
 void * regex_table_search(struct ci_lookup_table *table, void *key, void ***vals)
 {
-  void *return_value_file_table_search$1;
-  return_value_file_table_search$1=file_table_search(table, key, vals);
-  return return_value_file_table_search$1;
+  void *return_value_file_table_search_1;
+  return_value_file_table_search_1=file_table_search(table, key, vals);
+  return return_value_file_table_search_1;
 }
 
 // register_child
@@ -35125,7 +35125,7 @@ void register_command(const char *name, signed int type, void (*command_action)(
     cmd.name[(signed long int)(128 - 1)] = (char)0;
     cmd.type = type;
     cmd.data = (void *)0;
-    cmd.$anon0.command_action = command_action;
+    cmd._anon0.command_action = command_action;
     pthread_mutex_lock(&COMMANDS_MTX);
     ci_list_push(COMMANDS_LIST, (const void *)&cmd);
     pthread_mutex_unlock(&COMMANDS_MTX);
@@ -35167,7 +35167,7 @@ void register_command_extend(const char *name, signed int type, void *data, void
     cmd.name[(signed long int)(128 - 1)] = (char)0;
     cmd.type = type;
     cmd.data = data;
-    cmd.$anon0.command_action_extend = command_action;
+    cmd._anon0.command_action_extend = command_action;
     pthread_mutex_lock(&COMMANDS_MTX);
     ci_list_push(COMMANDS_LIST, (const void *)&cmd);
     pthread_mutex_unlock(&COMMANDS_MTX);
@@ -35191,7 +35191,7 @@ signed int register_conf_table(const char *name, struct ci_conf_entry *table, si
   struct sub_table *new;
   signed int i;
   signed int insert_pos;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(extra_conf_tables == ((struct sub_table *)NULL))
     return 0;
 
@@ -35201,16 +35201,16 @@ signed int register_conf_table(const char *name, struct ci_conf_entry *table, si
     i = 0;
     for( ; !(i >= conf_tables_num) && !(insert_pos >= 0); i = i + 1)
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!((extra_conf_tables + (signed long int)i)->name == ((const char *)NULL)))
       {
-        return_value_strcmp$1=strcmp(name, (extra_conf_tables + (signed long int)i)->name);
-        tmp_if_expr$2 = return_value_strcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_1=strcmp(name, (extra_conf_tables + (signed long int)i)->name);
+        tmp_if_expr_2 = return_value_strcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -35235,9 +35235,9 @@ signed int register_conf_table(const char *name, struct ci_conf_entry *table, si
       insert_pos = conf_tables_num;
       if(conf_tables_num == conf_tables_list_size)
       {
-        void *return_value_realloc$3;
-        return_value_realloc$3=realloc((void *)extra_conf_tables, sizeof(struct sub_table) /*24ul*/  * (unsigned long int)(conf_tables_list_size + 10));
-        new = (struct sub_table *)return_value_realloc$3;
+        void *return_value_realloc_3;
+        return_value_realloc_3=realloc((void *)extra_conf_tables, sizeof(struct sub_table) /*24ul*/  * (unsigned long int)(conf_tables_list_size + 10));
+        new = (struct sub_table *)return_value_realloc_3;
         if(new == ((struct sub_table *)NULL))
           return 0;
 
@@ -35300,9 +35300,9 @@ void * register_module(const char *module_file, const char *type)
     else
     {
       check_mod = (struct module_tmp_struct *)module;
-      void *return_value_find_module$1;
-      return_value_find_module$1=find_module(check_mod->name, &check_mod_type);
-      if(!(return_value_find_module$1 == NULL))
+      void *return_value_find_module_1;
+      return_value_find_module_1=find_module(check_mod->name, &check_mod_type);
+      if(!(return_value_find_module_1 == NULL))
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -35350,9 +35350,9 @@ struct ci_service_module * register_service(const char *service_file)
 
   else
   {
-    struct ci_service_module *return_value_find_service$1;
-    return_value_find_service$1=find_service(service->mod_name);
-    if(!(return_value_find_service$1 == ((struct ci_service_module *)NULL)))
+    struct ci_service_module *return_value_find_service_1;
+    return_value_find_service_1=find_service(service->mod_name);
+    if(!(return_value_find_service_1 == ((struct ci_service_module *)NULL)))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -35369,9 +35369,9 @@ struct ci_service_module * register_service(const char *service_file)
 
     else
     {
-      struct ci_service_module *return_value_add_service$2;
-      return_value_add_service$2=add_service(service);
-      return return_value_add_service$2;
+      struct ci_service_module *return_value_add_service_2;
+      return_value_add_service_2=add_service(service);
+      return return_value_add_service_2;
     }
   }
 }
@@ -35715,9 +35715,9 @@ signed int resize_buffer(struct ci_cached_file *body, signed int new_size)
 
     else
     {
-      void *return_value_ci_buffer_realloc$1;
-      return_value_ci_buffer_realloc$1=ci_buffer_realloc((void *)body->buf, new_size);
-      newbuf = (char *)return_value_ci_buffer_realloc$1;
+      void *return_value_ci_buffer_realloc_1;
+      return_value_ci_buffer_realloc_1=ci_buffer_realloc((void *)body->buf, new_size);
+      newbuf = (char *)return_value_ci_buffer_realloc_1;
       if(!(newbuf == ((char *)NULL)))
       {
         body->buf = newbuf;
@@ -35785,9 +35785,9 @@ void run_as_daemon()
     exit(-1);
   }
 
-  signed int return_value_chdir$1;
-  return_value_chdir$1=chdir("/");
-  if(!(return_value_chdir$1 >= 0))
+  signed int return_value_chdir_1;
+  return_value_chdir_1=chdir("/");
+  if(!(return_value_chdir_1 >= 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -35818,9 +35818,9 @@ void run_as_daemon()
     exit(-1);
   }
 
-  signed int return_value_dup2$2;
-  return_value_dup2$2=dup2(fd, 0);
-  if(!(return_value_dup2$2 >= 0))
+  signed int return_value_dup2_2;
+  return_value_dup2_2=dup2(fd, 0);
+  if(!(return_value_dup2_2 >= 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -35835,9 +35835,9 @@ void run_as_daemon()
     exit(-1);
   }
 
-  signed int return_value_dup2$3;
-  return_value_dup2$3=dup2(fd, 1);
-  if(!(return_value_dup2$3 >= 0))
+  signed int return_value_dup2_3;
+  return_value_dup2_3=dup2(fd, 1);
+  if(!(return_value_dup2_3 >= 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -35852,9 +35852,9 @@ void run_as_daemon()
     exit(-1);
   }
 
-  signed int return_value_dup2$4;
-  return_value_dup2$4=dup2(fd, 2);
-  if(!(return_value_dup2$4 >= 0))
+  signed int return_value_dup2_4;
+  return_value_dup2_4=dup2(fd, 2);
+  if(!(return_value_dup2_4 >= 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -35879,9 +35879,9 @@ struct ci_conf_entry * search_conf_table(struct ci_conf_entry *table, char *varn
   signed int i = 0;
   for( ; !((table + (signed long int)i)->name == ((const char *)NULL)); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(varname, (table + (signed long int)i)->name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(varname, (table + (signed long int)i)->name);
+    if(return_value_strcmp_1 == 0)
       return &table[(signed long int)i];
 
   }
@@ -35895,16 +35895,16 @@ struct ci_options_entry * search_options_table(const char *directive, struct ci_
   signed int i;
   const char *option_search;
   if(!((signed int)*directive == 45))
-    option_search = "$$";
+    option_search = "__";
 
   else
     option_search = directive;
   i = 0;
   for( ; !((options + (signed long int)i)->name == ((const char *)NULL)); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(option_search, (options + (signed long int)i)->name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(option_search, (options + (signed long int)i)->name);
+    if(return_value_strcmp_1 == 0)
       return &options[(signed long int)i];
 
   }
@@ -35916,11 +35916,11 @@ struct ci_options_entry * search_options_table(const char *directive, struct ci_
 struct ci_conf_entry * search_variables(char *table, char *varname)
 {
   signed int i;
-  struct ci_conf_entry *return_value_search_conf_table$1;
+  struct ci_conf_entry *return_value_search_conf_table_1;
   if(table == ((char *)NULL))
   {
-    return_value_search_conf_table$1=search_conf_table(conf_variables, varname);
-    return return_value_search_conf_table$1;
+    return_value_search_conf_table_1=search_conf_table(conf_variables, varname);
+    return return_value_search_conf_table_1;
   }
 
   if(CI_DEBUG_LEVEL >= 3)
@@ -35933,7 +35933,7 @@ struct ci_conf_entry * search_variables(char *table, char *varname)
 
   }
 
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_3;
   if(extra_conf_tables == ((struct sub_table *)NULL))
     return (struct ci_conf_entry *)(void *)0;
 
@@ -35943,12 +35943,12 @@ struct ci_conf_entry * search_variables(char *table, char *varname)
     for( ; !(i >= conf_tables_num); i = i + 1)
       if(!((extra_conf_tables + (signed long int)i)->name == ((const char *)NULL)))
       {
-        return_value_strcmp$3=strcmp(table, (extra_conf_tables + (signed long int)i)->name);
-        if(return_value_strcmp$3 == 0)
+        return_value_strcmp_3=strcmp(table, (extra_conf_tables + (signed long int)i)->name);
+        if(return_value_strcmp_3 == 0)
         {
-          struct ci_conf_entry *return_value_search_conf_table$2;
-          return_value_search_conf_table$2=search_conf_table((extra_conf_tables + (signed long int)i)->conf_table, varname);
-          return return_value_search_conf_table$2;
+          struct ci_conf_entry *return_value_search_conf_table_2;
+          return_value_search_conf_table_2=search_conf_table((extra_conf_tables + (signed long int)i)->conf_table, varname);
+          return return_value_search_conf_table_2;
         }
 
       }
@@ -35972,8 +35972,8 @@ struct ci_conf_entry * search_variables(char *table, char *varname)
 static signed int send_current_block_data(struct ci_request *req)
 {
   signed int bytes;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
   if(req->remain_send_block_bytes == 0)
     return 0;
 
@@ -35986,14 +35986,14 @@ static signed int send_current_block_data(struct ci_request *req)
       {
         if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
         {
-          return_value___errno_location$1=__errno_location();
-          __log_error((void *)0, "Error writing to socket (errno:%d, bytes:%d. string:\"%s\")", *return_value___errno_location$1, req->remain_send_block_bytes, req->pstrblock_responce);
+          return_value___errno_location_1=__errno_location();
+          __log_error((void *)0, "Error writing to socket (errno:%d, bytes:%d. string:\"%s\")", *return_value___errno_location_1, req->remain_send_block_bytes, req->pstrblock_responce);
         }
 
         if(!(CI_DEBUG_STDOUT == 0))
         {
-          return_value___errno_location$2=__errno_location();
-          printf("Error writing to socket (errno:%d, bytes:%d. string:\"%s\")", *return_value___errno_location$2, req->remain_send_block_bytes, req->pstrblock_responce);
+          return_value___errno_location_2=__errno_location();
+          printf("Error writing to socket (errno:%d, bytes:%d. string:\"%s\")", *return_value___errno_location_2, req->remain_send_block_bytes, req->pstrblock_responce);
         }
 
       }
@@ -36087,9 +36087,9 @@ static signed int send_remaining_response(struct ci_request *req)
             return -1;
           }
 
-          signed int return_value_send_current_block_data$1;
-          return_value_send_current_block_data$1=send_current_block_data(req);
-          if(return_value_send_current_block_data$1 == -1)
+          signed int return_value_send_current_block_data_1;
+          return_value_send_current_block_data_1=send_current_block_data(req);
+          if(return_value_send_current_block_data_1 == -1)
             return -1;
 
           goto __CPROVER_DUMP_L4;
@@ -36210,9 +36210,9 @@ static void * serial_allocator_alloc(struct ci_mem_allocator *allocator, unsigne
 
   else
   {
-    void *return_value_serial_allocation$1;
-    return_value_serial_allocation$1=serial_allocation(serial_alloc, size);
-    return return_value_serial_allocation$1;
+    void *return_value_serial_allocation_1;
+    return_value_serial_allocation_1=serial_allocation(serial_alloc, size);
+    return return_value_serial_allocation_1;
   }
 }
 
@@ -36230,9 +36230,9 @@ static struct serial_allocator * serial_allocator_build(signed int size)
   {
     buffer=ci_buffer_alloc(size);
     serial_alloc = (struct serial_allocator *)buffer;
-    unsigned long int return_value_ci_buffer_blocksize$1;
-    return_value_ci_buffer_blocksize$1=ci_buffer_blocksize(buffer);
-    size = (signed int)return_value_ci_buffer_blocksize$1;
+    unsigned long int return_value_ci_buffer_blocksize_1;
+    return_value_ci_buffer_blocksize_1=ci_buffer_blocksize(buffer);
+    size = (signed int)return_value_ci_buffer_blocksize_1;
     serial_alloc->memchunk = buffer + (signed long int)sizeof(struct serial_allocator) /*32ul*/ ;
     size = size - (signed int)sizeof(struct serial_allocator) /*32ul*/ ;
     serial_alloc->curpos = serial_alloc->memchunk;
@@ -36311,9 +36311,9 @@ static signed int server_reconfigure()
 
   else
   {
-    signed int return_value_system_reconfigure$1;
-    return_value_system_reconfigure$1=system_reconfigure();
-    if(return_value_system_reconfigure$1 == 0)
+    signed int return_value_system_reconfigure_1;
+    return_value_system_reconfigure_1=system_reconfigure();
+    if(return_value_system_reconfigure_1 == 0)
       return 0;
 
     else
@@ -36328,12 +36328,12 @@ static signed int server_reconfigure()
         }
 
       old_childs_queue = childs_queue;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct childs_queue) /*224ul*/ );
-      childs_queue = (struct childs_queue *)return_value_malloc$2;
-      signed int return_value_create_childs_queue$3;
-      return_value_create_childs_queue$3=create_childs_queue(childs_queue, 2 * CI_CONF.MAX_SERVERS);
-      if(return_value_create_childs_queue$3 == 0)
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct childs_queue) /*224ul*/ );
+      childs_queue = (struct childs_queue *)return_value_malloc_2;
+      signed int return_value_create_childs_queue_3;
+      return_value_create_childs_queue_3=create_childs_queue(childs_queue, 2 * CI_CONF.MAX_SERVERS);
+      if(return_value_create_childs_queue_3 == 0)
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -36398,9 +36398,9 @@ signed int set_method_authenticators(const char *method_name, const char **argv)
 
   else
   {
-    signed int return_value_methods_authenticators$1;
-    return_value_methods_authenticators$1=methods_authenticators(&authenticators_hash, method_name, method_id, argv);
-    return return_value_methods_authenticators$1;
+    signed int return_value_methods_authenticators_1;
+    return_value_methods_authenticators_1=methods_authenticators(&authenticators_hash, method_name, method_id, argv);
+    return return_value_methods_authenticators_1;
   }
 }
 
@@ -36413,26 +36413,26 @@ signed int set_running_permissions(char *user, char *group)
   char *pend;
   struct passwd *pwd;
   struct group *grp;
-  signed int *return_value___errno_location$4;
-  struct group *return_value_getgrgid$3;
+  signed int *return_value___errno_location_4;
+  struct group *return_value_getgrgid_3;
   if(!(group == ((char *)NULL)))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
-    signed long int return_value_strtol$2;
-    return_value_strtol$2=strtol(group, &pend, 10);
-    gid = (unsigned int)return_value_strtol$2;
-    _Bool tmp_if_expr$5;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
+    signed long int return_value_strtol_2;
+    return_value_strtol_2=strtol(group, &pend, 10);
+    gid = (unsigned int)return_value_strtol_2;
+    _Bool tmp_if_expr_5;
     if(!(pend == ((char *)NULL)))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$4=__errno_location();
-      tmp_if_expr$5 = *return_value___errno_location$4 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_4=__errno_location();
+      tmp_if_expr_5 = *return_value___errno_location_4 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
       grp=getgrnam(group);
       if(grp == ((struct group *)NULL))
@@ -36455,8 +36455,8 @@ signed int set_running_permissions(char *user, char *group)
 
     else
     {
-      return_value_getgrgid$3=getgrgid(gid);
-      if(return_value_getgrgid$3 == ((struct group *)NULL))
+      return_value_getgrgid_3=getgrgid(gid);
+      if(return_value_getgrgid_3 == ((struct group *)NULL))
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -36472,9 +36472,9 @@ signed int set_running_permissions(char *user, char *group)
       }
 
     }
-    signed int return_value_setgid$6;
-    return_value_setgid$6=setgid(gid);
-    if(!(return_value_setgid$6 == 0))
+    signed int return_value_setgid_6;
+    return_value_setgid_6=setgid(gid);
+    if(!(return_value_setgid_6 == 0))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -36492,26 +36492,26 @@ signed int set_running_permissions(char *user, char *group)
 
   }
 
-  signed int *return_value___errno_location$10;
-  struct passwd *return_value_getpwuid$9;
+  signed int *return_value___errno_location_10;
+  struct passwd *return_value_getpwuid_9;
   if(!(user == ((char *)NULL)))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    *return_value___errno_location$7 = 0;
-    signed long int return_value_strtol$8;
-    return_value_strtol$8=strtol(user, &pend, 10);
-    uid = (unsigned int)return_value_strtol$8;
-    _Bool tmp_if_expr$11;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    *return_value___errno_location_7 = 0;
+    signed long int return_value_strtol_8;
+    return_value_strtol_8=strtol(user, &pend, 10);
+    uid = (unsigned int)return_value_strtol_8;
+    _Bool tmp_if_expr_11;
     if(!(pend == ((char *)NULL)))
-      tmp_if_expr$11 = (_Bool)1;
+      tmp_if_expr_11 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$10=__errno_location();
-      tmp_if_expr$11 = *return_value___errno_location$10 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_10=__errno_location();
+      tmp_if_expr_11 = *return_value___errno_location_10 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$11)
+    if(tmp_if_expr_11)
     {
       pwd=getpwnam(user);
       if(pwd == ((struct passwd *)NULL))
@@ -36534,8 +36534,8 @@ signed int set_running_permissions(char *user, char *group)
 
     else
     {
-      return_value_getpwuid$9=getpwuid(uid);
-      if(return_value_getpwuid$9 == ((struct passwd *)NULL))
+      return_value_getpwuid_9=getpwuid(uid);
+      if(return_value_getpwuid_9 == ((struct passwd *)NULL))
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -36551,9 +36551,9 @@ signed int set_running_permissions(char *user, char *group)
       }
 
     }
-    signed int return_value_setuid$12;
-    return_value_setuid$12=setuid(uid);
-    if(!(return_value_setuid$12 == 0))
+    signed int return_value_setuid_12;
+    return_value_setuid_12=setuid(uid);
+    if(!(return_value_setuid_12 == 0))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -36612,17 +36612,17 @@ static unsigned long int sizeof_pack_allocator()
 // file header.c line 613
 signed int sizeofencaps(struct ci_encaps_entity *e)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(e->type == 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = e->type == 1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = e->type == 1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int return_value_sizeofheader$1;
-    return_value_sizeofheader$1=sizeofheader((struct ci_headers_list *)e->entity);
-    return return_value_sizeofheader$1;
+    signed int return_value_sizeofheader_1;
+    return_value_sizeofheader_1=sizeofheader((struct ci_headers_list *)e->entity);
+    return return_value_sizeofheader_1;
   }
 
   return 0;
@@ -36687,12 +36687,12 @@ char ** split_args(char *args)
   char *str;
   char *end;
   char *p;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(50 + 1) * sizeof(char *) /*8ul*/ );
-  argv = (char **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(50 + 1) * sizeof(char *) /*8ul*/ );
+  argv = (char **)return_value_malloc_1;
   end = args;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$4;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_4;
   do
   {
     str = end;
@@ -36724,8 +36724,8 @@ char ** split_args(char *args)
       brkt = 0;
       for( ; !((signed int)*end == 0); end = end + 1l)
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*end]) == 0))
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*end]) == 0))
         {
           if(brkt == 0)
             break;
@@ -36746,9 +36746,9 @@ char ** split_args(char *args)
       }
     }
     len = (signed int)(end - str);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)(len + 1) * sizeof(char) /*1ul*/ );
-    argv[(signed long int)i] = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)(len + 1) * sizeof(char) /*1ul*/ );
+    argv[(signed long int)i] = (char *)return_value_malloc_3;
     memcpy((void *)argv[(signed long int)i], (const void *)str, (unsigned long int)len);
     argv[(signed long int)i][(signed long int)len] = (char)0;
     i = i + 1;
@@ -36760,8 +36760,8 @@ char ** split_args(char *args)
 
     for( ; !((signed int)*end == 0); end = end + 1l)
     {
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*end]) == 0)
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*end]) == 0)
         break;
 
     }
@@ -36781,10 +36781,10 @@ signed int start_child(signed int fd)
   signed int free_servers;
   signed int used_servers;
   signed int max_requests;
-  signed int return_value_pipe$1;
-  return_value_pipe$1=pipe(pfd);
-  signed int return_value_fcntl$3;
-  if(!(return_value_pipe$1 >= 0))
+  signed int return_value_pipe_1;
+  return_value_pipe_1=pipe(pfd);
+  signed int return_value_fcntl_3;
+  if(!(return_value_pipe_1 >= 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -36801,18 +36801,18 @@ signed int start_child(signed int fd)
 
   else
   {
-    signed int return_value_fcntl$2;
-    return_value_fcntl$2=fcntl(pfd[(signed long int)0], 4, 04000);
-    _Bool tmp_if_expr$4;
-    if(!(return_value_fcntl$2 >= 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_fcntl_2;
+    return_value_fcntl_2=fcntl(pfd[(signed long int)0], 4, 04000);
+    _Bool tmp_if_expr_4;
+    if(!(return_value_fcntl_2 >= 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_fcntl$3=fcntl(pfd[(signed long int)1], 4, 04000);
-      tmp_if_expr$4 = return_value_fcntl$3 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fcntl_3=fcntl(pfd[(signed long int)1], 4, 04000);
+      tmp_if_expr_4 = return_value_fcntl_3 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -36832,9 +36832,9 @@ signed int start_child(signed int fd)
     if(pid == 0)
     {
       MY_PROC_PID=getpid();
-      signed int return_value_attach_childs_queue$5;
-      return_value_attach_childs_queue$5=attach_childs_queue(childs_queue);
-      if(return_value_attach_childs_queue$5 == 0)
+      signed int return_value_attach_childs_queue_5;
+      return_value_attach_childs_queue_5=attach_childs_queue(childs_queue);
+      if(return_value_attach_childs_queue_5 == 0)
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -36849,9 +36849,9 @@ signed int start_child(signed int fd)
         exit(-2);
       }
 
-      signed int return_value_getpid$6;
-      return_value_getpid$6=getpid();
-      child_data=register_child(childs_queue, return_value_getpid$6, CI_CONF.THREADS_PER_CHILD, pfd[(signed long int)1]);
+      signed int return_value_getpid_6;
+      return_value_getpid_6=getpid();
+      child_data=register_child(childs_queue, return_value_getpid_6, CI_CONF.THREADS_PER_CHILD, pfd[(signed long int)1]);
       if(child_data == ((struct child_shared_data *)NULL))
       {
         childs_queue_stats(childs_queue, &children_num, &free_servers, &used_servers, &max_requests);
@@ -36898,26 +36898,26 @@ signed int start_server()
   char command_buffer[128l];
   signed int user_informed = 0;
   ctl_socket=ci_named_pipe_create(CI_CONF.COMMANDS_SOCKET);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
   if(!(ctl_socket >= 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
       if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        __log_error((void *)0, "Error opening control socket %s: %s. Fatal error, exiting!\n", return_value_strerror$2, CI_CONF.COMMANDS_SOCKET);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        __log_error((void *)0, "Error opening control socket %s: %s. Fatal error, exiting!\n", return_value_strerror_2, CI_CONF.COMMANDS_SOCKET);
       }
 
       if(!(CI_DEBUG_STDOUT == 0))
       {
-        return_value___errno_location$3=__errno_location();
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        printf("Error opening control socket %s: %s. Fatal error, exiting!\n", return_value_strerror$4, CI_CONF.COMMANDS_SOCKET);
+        return_value___errno_location_3=__errno_location();
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        printf("Error opening control socket %s: %s. Fatal error, exiting!\n", return_value_strerror_4, CI_CONF.COMMANDS_SOCKET);
       }
 
     }
@@ -36925,9 +36925,9 @@ signed int start_server()
     exit(0);
   }
 
-  signed int return_value_ci_proc_mutex_init$5;
-  return_value_ci_proc_mutex_init$5=ci_proc_mutex_init(&accept_mutex, "accept");
-  if(return_value_ci_proc_mutex_init$5 == 0)
+  signed int return_value_ci_proc_mutex_init_5;
+  return_value_ci_proc_mutex_init_5=ci_proc_mutex_init(&accept_mutex, "accept");
+  if(return_value_ci_proc_mutex_init_5 == 0)
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -36942,12 +36942,12 @@ signed int start_server()
     exit(0);
   }
 
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(sizeof(struct childs_queue) /*224ul*/ );
-  childs_queue = (struct childs_queue *)return_value_malloc$6;
-  signed int return_value_create_childs_queue$7;
-  return_value_create_childs_queue$7=create_childs_queue(childs_queue, 2 * CI_CONF.MAX_SERVERS);
-  if(return_value_create_childs_queue$7 == 0)
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(sizeof(struct childs_queue) /*224ul*/ );
+  childs_queue = (struct childs_queue *)return_value_malloc_6;
+  signed int return_value_create_childs_queue_7;
+  return_value_create_childs_queue_7=create_childs_queue(childs_queue, 2 * CI_CONF.MAX_SERVERS);
+  if(return_value_create_childs_queue_7 == 0)
   {
     ci_proc_mutex_destroy(&accept_mutex);
     if(CI_DEBUG_LEVEL >= 1)
@@ -37029,16 +37029,16 @@ signed int start_server()
 
       }
 
-      _Bool tmp_if_expr$8;
+      _Bool tmp_if_expr_8;
       if(MAX_REQUESTS_PER_CHILD >= 1)
       {
         child_indx=find_a_child_nrequests(childs_queue, MAX_REQUESTS_PER_CHILD);
-        tmp_if_expr$8 = child_indx >= 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = child_indx >= 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
       {
         if(CI_DEBUG_LEVEL >= 8)
         {
@@ -37121,9 +37121,9 @@ signed int start_server()
       if(!(c_icap_reconfigure == 0))
       {
         c_icap_reconfigure = 0;
-        signed int return_value_server_reconfigure$9;
-        return_value_server_reconfigure$9=server_reconfigure();
-        if(return_value_server_reconfigure$9 == 0)
+        signed int return_value_server_reconfigure_9;
+        return_value_server_reconfigure_9=server_reconfigure();
+        if(return_value_server_reconfigure_9 == 0)
         {
           if(CI_DEBUG_LEVEL >= 1)
           {
@@ -37191,9 +37191,9 @@ signed int stat_entry_add(struct stat_entry_list *list, const char *label, signe
       {
         if(list->size == 0)
         {
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc((unsigned long int)128 * sizeof(struct stat_entry) /*16ul*/ );
-          list->entries = (struct stat_entry *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc((unsigned long int)128 * sizeof(struct stat_entry) /*16ul*/ );
+          list->entries = (struct stat_entry *)return_value_malloc_1;
           if(list->entries == ((struct stat_entry *)NULL))
             return -1;
 
@@ -37201,9 +37201,9 @@ signed int stat_entry_add(struct stat_entry_list *list, const char *label, signe
 
         else
         {
-          void *return_value_realloc$2;
-          return_value_realloc$2=realloc((void *)list->entries, (unsigned long int)(list->size + 128) * sizeof(struct stat_entry) /*16ul*/ );
-          l = (struct stat_entry *)return_value_realloc$2;
+          void *return_value_realloc_2;
+          return_value_realloc_2=realloc((void *)list->entries, (unsigned long int)(list->size + 128) * sizeof(struct stat_entry) /*16ul*/ );
+          l = (struct stat_entry *)return_value_realloc_2;
           if(l == ((struct stat_entry *)NULL))
             return -1;
 
@@ -37227,7 +37227,7 @@ signed int stat_entry_add(struct stat_entry_list *list, const char *label, signe
 signed int stat_entry_by_name(struct stat_entry_list *list, const char *label)
 {
   signed int i;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(list->entries == ((struct stat_entry *)NULL))
     return -1;
 
@@ -37236,8 +37236,8 @@ signed int stat_entry_by_name(struct stat_entry_list *list, const char *label)
     i = 0;
     for( ; !(i >= list->entries_num); i = i + 1)
     {
-      return_value_strcmp$1=strcmp(label, (list->entries + (signed long int)i)->label);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(label, (list->entries + (signed long int)i)->label);
+      if(return_value_strcmp_1 == 0)
         return i;
 
     }
@@ -37272,17 +37272,17 @@ signed int stat_group_add(char *group)
   gid = 0;
   for( ; !(gid >= STAT_GROUPS.entries_num); gid = gid + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(STAT_GROUPS.groups[(signed long int)gid], group);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(STAT_GROUPS.groups[(signed long int)gid], group);
+    if(return_value_strcmp_1 == 0)
       return gid;
 
   }
   if(STAT_GROUPS.size == 0)
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)128 * sizeof(char *) /*8ul*/ );
-    STAT_GROUPS.groups = (char **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)128 * sizeof(char *) /*8ul*/ );
+    STAT_GROUPS.groups = (char **)return_value_malloc_2;
     if(STAT_GROUPS.groups == ((char **)NULL))
       return -1;
 
@@ -37292,9 +37292,9 @@ signed int stat_group_add(char *group)
   else
     if(STAT_GROUPS.size == STAT_GROUPS.entries_num)
     {
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)STAT_GROUPS.groups, (unsigned long int)(STAT_GROUPS.size + 128) * sizeof(char *) /*8ul*/ );
-      group_list = (char **)return_value_realloc$3;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)STAT_GROUPS.groups, (unsigned long int)(STAT_GROUPS.size + 128) * sizeof(char *) /*8ul*/ );
+      group_list = (char **)return_value_realloc_3;
       if(group_list == ((char **)NULL))
         return -1;
 
@@ -37366,11 +37366,11 @@ signed int store_pid(char *pidfile)
   {
     snprintf(strPid, (unsigned long int)29, "%d", pid);
     strPid[(signed long int)29] = (char)0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(strPid);
-    signed long int return_value_write$2;
-    return_value_write$2=write(fd, (const void *)strPid, return_value_strlen$1);
-    bytes = (signed int)return_value_write$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(strPid);
+    signed long int return_value_write_2;
+    return_value_write_2=write(fd, (const void *)strPid, return_value_strlen_1);
+    bytes = (signed int)return_value_write_2;
     close(fd);
     return 1;
   }
@@ -37385,16 +37385,16 @@ signed int string_ext_cmp(const void *key1, const void *key2)
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((const char *)key1, "*");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((const char *)key1, "*");
+    if(return_value_strcmp_1 == 0)
       return 0;
 
     else
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp((const char *)key1, (const char *)key2);
-      return return_value_strcmp$2;
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp((const char *)key1, (const char *)key2);
+      return return_value_strcmp_2;
     }
   }
 }
@@ -37408,16 +37408,16 @@ signed int string_ext_equal(const void *key1, const void *key2)
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((const char *)key1, "*");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((const char *)key1, "*");
+    if(return_value_strcmp_1 == 0)
       return 1;
 
     else
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp((const char *)key1, (const char *)key2);
-      return (signed int)(return_value_strcmp$2 == 0);
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp((const char *)key1, (const char *)key2);
+      return (signed int)(return_value_strcmp_2 == 0);
     }
   }
 }
@@ -37431,9 +37431,9 @@ signed int stringcmp(const void *key1, const void *key2)
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((const char *)key1, (const char *)key2);
-    return return_value_strcmp$1;
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((const char *)key1, (const char *)key2);
+    return return_value_strcmp_1;
   }
 }
 
@@ -37442,10 +37442,10 @@ signed int stringcmp(const void *key1, const void *key2)
 void * stringdup(const char *str, struct ci_mem_allocator *allocator)
 {
   char *new_s;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
   void *return_value;
-  return_value=allocator->alloc(allocator, return_value_strlen$1 + (unsigned long int)1);
+  return_value=allocator->alloc(allocator, return_value_strlen_1 + (unsigned long int)1);
   new_s = (char *)return_value;
   if(!(new_s == ((char *)NULL)))
     strcpy(new_s, str);
@@ -37462,9 +37462,9 @@ signed int stringequal(const void *key1, const void *key2)
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((const char *)key1, (const char *)key2);
-    return (signed int)(return_value_strcmp$1 == 0);
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((const char *)key1, (const char *)key2);
+    return (signed int)(return_value_strcmp_1 == 0);
   }
 }
 
@@ -37479,9 +37479,9 @@ void stringfree(void *key, struct ci_mem_allocator *allocator)
 // file types_ops.c line 55
 unsigned long int stringlen(const void *key)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((const char *)key);
-  return return_value_strlen$1 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((const char *)key);
+  return return_value_strlen_1 + (unsigned long int)1;
 }
 
 // system_reconfigure
@@ -37532,9 +37532,9 @@ signed int system_reconfigure()
   init_modules();
   init_services();
   old_port = CI_CONF.PORT;
-  signed int return_value_reconfig$1;
-  return_value_reconfig$1=reconfig();
-  if(return_value_reconfig$1 == 0)
+  signed int return_value_reconfig_1;
+  return_value_reconfig_1=reconfig();
+  if(return_value_reconfig_1 == 0)
     return 0;
 
   else
@@ -37567,9 +37567,9 @@ void system_shutdown()
 // file os/unix/proc_mutex.c line 74
 static signed int sysv_proc_mutex_destroy(struct ci_proc_mutex *mutex)
 {
-  signed int return_value_semctl$1;
-  return_value_semctl$1=semctl(mutex->$anon0.sysv.id, 0, 0, 0);
-  if(!(return_value_semctl$1 >= 0))
+  signed int return_value_semctl_1;
+  return_value_semctl_1=semctl(mutex->_anon0.sysv.id, 0, 0, 0);
+  if(!(return_value_semctl_1 >= 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -37593,10 +37593,10 @@ static signed int sysv_proc_mutex_destroy(struct ci_proc_mutex *mutex)
 static signed int sysv_proc_mutex_init(struct ci_proc_mutex *mutex, const char *name)
 {
   union semun arg;
-  mutex->$anon0.sysv.id=semget((signed int)0, 1, 01000 | 0600);
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  if(!(mutex->$anon0.sysv.id >= 0))
+  mutex->_anon0.sysv.id=semget((signed int)0, 1, 01000 | 0600);
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  if(!(mutex->_anon0.sysv.id >= 0))
   {
     if(CI_DEBUG_LEVEL >= 1)
     {
@@ -37614,22 +37614,22 @@ static signed int sysv_proc_mutex_init(struct ci_proc_mutex *mutex, const char *
   else
   {
     arg.val = 0;
-    signed int return_value_semctl$3;
-    return_value_semctl$3=semctl(mutex->$anon0.sysv.id, 0, 16, arg);
-    if(!(return_value_semctl$3 >= 0))
+    signed int return_value_semctl_3;
+    return_value_semctl_3=semctl(mutex->_anon0.sysv.id, 0, 16, arg);
+    if(!(return_value_semctl_3 >= 0))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
         if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
         {
-          return_value___errno_location$1=__errno_location();
-          __log_error((void *)0, "Error setting default value for mutex, errno:%d\n", *return_value___errno_location$1);
+          return_value___errno_location_1=__errno_location();
+          __log_error((void *)0, "Error setting default value for mutex, errno:%d\n", *return_value___errno_location_1);
         }
 
         if(!(CI_DEBUG_STDOUT == 0))
         {
-          return_value___errno_location$2=__errno_location();
-          printf("Error setting default value for mutex, errno:%d\n", *return_value___errno_location$2);
+          return_value___errno_location_2=__errno_location();
+          printf("Error setting default value for mutex, errno:%d\n", *return_value___errno_location_2);
         }
 
       }
@@ -37650,9 +37650,9 @@ static signed int sysv_proc_mutex_init(struct ci_proc_mutex *mutex, const char *
 // file os/unix/proc_mutex.c line 83
 static signed int sysv_proc_mutex_lock(struct ci_proc_mutex *mutex)
 {
-  signed int return_value_semop$1;
-  return_value_semop$1=semop(mutex->$anon0.sysv.id, (struct sembuf *)&op_lock, (unsigned long int)2);
-  if(!(return_value_semop$1 >= 0))
+  signed int return_value_semop_1;
+  return_value_semop_1=semop(mutex->_anon0.sysv.id, (struct sembuf *)&op_lock, (unsigned long int)2);
+  if(!(return_value_semop_1 >= 0))
     return 0;
 
   else
@@ -37663,18 +37663,18 @@ static signed int sysv_proc_mutex_lock(struct ci_proc_mutex *mutex)
 // file os/unix/proc_mutex.c line 99
 static signed int sysv_proc_mutex_print_info(struct ci_proc_mutex *mutex, char *buf, unsigned long int buf_size)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, buf_size, "sysv:%s/%d", (const void *)mutex->name, mutex->$anon0.sysv.id);
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, buf_size, "sysv:%s/%d", (const void *)mutex->name, mutex->_anon0.sysv.id);
+  return return_value_snprintf_1;
 }
 
 // sysv_proc_mutex_unlock
 // file os/unix/proc_mutex.c line 91
 static signed int sysv_proc_mutex_unlock(struct ci_proc_mutex *mutex)
 {
-  signed int return_value_semop$1;
-  return_value_semop$1=semop(mutex->$anon0.sysv.id, (struct sembuf *)&op_unlock, (unsigned long int)1);
-  if(!(return_value_semop$1 >= 0))
+  signed int return_value_semop_1;
+  return_value_semop_1=semop(mutex->_anon0.sysv.id, (struct sembuf *)&op_unlock, (unsigned long int)1);
+  if(!(return_value_semop_1 >= 0))
     return 0;
 
   else
@@ -37685,7 +37685,7 @@ static signed int sysv_proc_mutex_unlock(struct ci_proc_mutex *mutex)
 // file os/unix/shared_mem.c line 56
 void * sysv_shared_mem_attach(struct ci_shared_mem_id *id)
 {
-  id->mem=shmat(id->$anon0.sysv.id, (void *)0, 0);
+  id->mem=shmat(id->_anon0.sysv.id, (void *)0, 0);
   if(id->mem == (void *)-1)
     return (void *)0;
 
@@ -37697,13 +37697,13 @@ void * sysv_shared_mem_attach(struct ci_shared_mem_id *id)
 // file os/unix/shared_mem.c line 40
 void * sysv_shared_mem_create(struct ci_shared_mem_id *id, const char *name, signed int size)
 {
-  id->$anon0.sysv.id=shmget((signed int)0, (unsigned long int)size, 0600 | 01000);
-  if(!(id->$anon0.sysv.id >= 0))
+  id->_anon0.sysv.id=shmget((signed int)0, (unsigned long int)size, 0600 | 01000);
+  if(!(id->_anon0.sysv.id >= 0))
     return (void *)0;
 
   else
   {
-    id->mem=shmat(id->$anon0.sysv.id, (void *)0, 0);
+    id->mem=shmat(id->_anon0.sysv.id, (void *)0, 0);
     if(id->mem == (void *)-1)
       return (void *)0;
 
@@ -37720,16 +37720,16 @@ void * sysv_shared_mem_create(struct ci_shared_mem_id *id, const char *name, sig
 // file os/unix/shared_mem.c line 73
 signed int sysv_shared_mem_destroy(struct ci_shared_mem_id *id)
 {
-  signed int return_value_shmdt$1;
-  return_value_shmdt$1=shmdt(id->mem);
-  if(!(return_value_shmdt$1 >= 0))
+  signed int return_value_shmdt_1;
+  return_value_shmdt_1=shmdt(id->mem);
+  if(!(return_value_shmdt_1 >= 0))
     return 0;
 
   else
   {
-    signed int return_value_shmctl$2;
-    return_value_shmctl$2=shmctl(id->$anon0.sysv.id, 0, (struct shmid_ds *)(void *)0);
-    if(!(return_value_shmctl$2 >= 0))
+    signed int return_value_shmctl_2;
+    return_value_shmctl_2=shmctl(id->_anon0.sysv.id, 0, (struct shmid_ds *)(void *)0);
+    if(!(return_value_shmctl_2 >= 0))
       return 0;
 
     else
@@ -37741,9 +37741,9 @@ signed int sysv_shared_mem_destroy(struct ci_shared_mem_id *id)
 // file os/unix/shared_mem.c line 64
 signed int sysv_shared_mem_detach(struct ci_shared_mem_id *id)
 {
-  signed int return_value_shmdt$1;
-  return_value_shmdt$1=shmdt(id->mem);
-  if(!(return_value_shmdt$1 >= 0))
+  signed int return_value_shmdt_1;
+  return_value_shmdt_1=shmdt(id->mem);
+  if(!(return_value_shmdt_1 >= 0))
     return 0;
 
   else
@@ -37754,14 +37754,14 @@ signed int sysv_shared_mem_detach(struct ci_shared_mem_id *id)
 // file os/unix/shared_mem.c line 84
 signed int sysv_shared_mem_print_info(struct ci_shared_mem_id *id, char *buf, unsigned long int buf_size)
 {
-  signed int return_value_snprintf$1;
-  return_value_snprintf$1=snprintf(buf, buf_size, "sysv:%s/%d %ld kbs", (const void *)id->name, id->$anon0.sysv.id, (signed long int)(id->size / (unsigned long int)1024));
-  return return_value_snprintf$1;
+  signed int return_value_snprintf_1;
+  return_value_snprintf_1=snprintf(buf, buf_size, "sysv:%s/%d %ld kbs", (const void *)id->name, id->_anon0.sysv.id, (signed long int)(id->size / (unsigned long int)1024));
+  return return_value_snprintf_1;
 }
 
 // templateExpired
 // file txtTemplate.c line 109
-static signed int templateExpired(struct anonymous$7 *template)
+static signed int templateExpired(struct anonymous_7 *template)
 {
   char path[4096l];
   struct stat file;
@@ -37770,9 +37770,9 @@ static signed int templateExpired(struct anonymous$7 *template)
   if(current_time + -template->loaded >= (signed long int)TEMPLATE_RELOAD_TIME)
   {
     makeTemplatePathFileName(path, 4096, template->SERVICE_NAME, template->TEMPLATE_NAME, template->LANGUAGE);
-    signed int return_value_stat64$1;
-    return_value_stat64$1=stat64(path, &file);
-    if(!(return_value_stat64$1 >= 0))
+    signed int return_value_stat64_1;
+    return_value_stat64_1=stat64(path, &file);
+    if(!(return_value_stat64_1 >= 0))
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -37809,26 +37809,26 @@ static signed int templateExpired(struct anonymous$7 *template)
 
 // templateFind
 // file txtTemplate.c line 208
-static struct anonymous$7 * templateFind(const char *SERVICE_NAME, const char *TEMPLATE_NAME, const char *LANGUAGE)
+static struct anonymous_7 * templateFind(const char *SERVICE_NAME, const char *TEMPLATE_NAME, const char *LANGUAGE)
 {
   signed int i = 0;
   i = 0;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
   for( ; !(i >= TEMPLATE_CACHE_SIZE); i = i + 1)
     if(!((templates + (signed long int)i)->data == ((struct ci_membuf *)NULL)))
     {
       if((templates + (signed long int)i)->must_free == 0)
       {
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp((templates + (signed long int)i)->SERVICE_NAME, SERVICE_NAME);
-        if(return_value_strcmp$3 == 0)
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp((templates + (signed long int)i)->SERVICE_NAME, SERVICE_NAME);
+        if(return_value_strcmp_3 == 0)
         {
-          return_value_strcmp$2=strcmp((templates + (signed long int)i)->TEMPLATE_NAME, TEMPLATE_NAME);
-          if(return_value_strcmp$2 == 0)
+          return_value_strcmp_2=strcmp((templates + (signed long int)i)->TEMPLATE_NAME, TEMPLATE_NAME);
+          if(return_value_strcmp_2 == 0)
           {
-            return_value_strcmp$1=strcmp((templates + (signed long int)i)->LANGUAGE, LANGUAGE);
-            if(return_value_strcmp$1 == 0)
+            return_value_strcmp_1=strcmp((templates + (signed long int)i)->LANGUAGE, LANGUAGE);
+            if(return_value_strcmp_1 == 0)
             {
               if(CI_DEBUG_LEVEL >= 4)
               {
@@ -37851,15 +37851,15 @@ static struct anonymous$7 * templateFind(const char *SERVICE_NAME, const char *T
 
     }
 
-  return (struct anonymous$7 *)(void *)0;
+  return (struct anonymous_7 *)(void *)0;
 }
 
 // templateFindFree
 // file txtTemplate.c line 228
-static struct anonymous$7 * templateFindFree(void)
+static struct anonymous_7 * templateFindFree(void)
 {
   signed long int oldest = (signed long int)0;
-  struct anonymous$7 *useme = (struct anonymous$7 *)(void *)0;
+  struct anonymous_7 *useme = (struct anonymous_7 *)(void *)0;
   signed int i = 0;
   i = 0;
   for( ; !(i >= TEMPLATE_CACHE_SIZE); i = i + 1)
@@ -37878,7 +37878,7 @@ static struct anonymous$7 * templateFindFree(void)
 
     }
 
-  if(!(useme == ((struct anonymous$7 *)NULL)))
+  if(!(useme == ((struct anonymous_7 *)NULL)))
   {
     if(!(useme->data == ((struct ci_membuf *)NULL)))
       templateFree(useme);
@@ -37890,10 +37890,10 @@ static struct anonymous$7 * templateFindFree(void)
 
 // templateFree
 // file txtTemplate.c line 136
-static void templateFree(struct anonymous$7 *template)
+static void templateFree(struct anonymous_7 *template)
 {
   /* assertion template != ((void *)0) */
-  assert(template != (struct anonymous$7 *)(void *)0);
+  assert(template != (struct anonymous_7 *)(void *)0);
   if(!(template->data == ((struct ci_membuf *)NULL)))
   {
     if(!(template->TEMPLATE_NAME == ((char *)NULL)))
@@ -37916,19 +37916,19 @@ static void templateFree(struct anonymous$7 *template)
 
 // templateLoadText
 // file txtTemplate.c line 347
-static struct anonymous$7 * templateLoadText(const struct ci_request *req, const char *service_name, const char *page_name)
+static struct anonymous_7 * templateLoadText(const struct ci_request *req, const char *service_name, const char *page_name)
 {
   const char *acceptLangHeader;
   const char *s;
   char preferred[32l];
   signed int i;
-  struct anonymous$7 *template = (struct anonymous$7 *)(void *)0;
+  struct anonymous_7 *template = (struct anonymous_7 *)(void *)0;
   acceptLangHeader=ci_http_request_get_header((struct ci_request *)req, "Accept-Language");
-  const unsigned short int **return_value___ctype_b_loc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
   if(!(acceptLangHeader == ((const char *)NULL)))
   {
     s = acceptLangHeader;
@@ -37946,8 +37946,8 @@ static struct anonymous$7 * templateLoadText(const struct ci_request *req, const
     {
       for( ; !((signed int)*s == 0); s = s + 1l)
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*s]) == 0)
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*s]) == 0)
           break;
 
       }
@@ -37955,24 +37955,24 @@ static struct anonymous$7 * templateLoadText(const struct ci_request *req, const
       do
       {
         if(!((signed int)*s == 0))
-          tmp_if_expr$2 = (signed int)*s != 44 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*s != 44 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (signed int)*s != 59 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (signed int)*s != 59 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
-          return_value___ctype_b_loc$4=__ctype_b_loc();
-          tmp_if_expr$5 = !(((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*s] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_4=__ctype_b_loc();
+          tmp_if_expr_5 = !(((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*s] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if((unsigned long int)i >= 31ul || !tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if((unsigned long int)i >= 31ul || !tmp_if_expr_5)
           break;
 
         preferred[(signed long int)i] = *s;
@@ -37992,7 +37992,7 @@ static struct anonymous$7 * templateLoadText(const struct ci_request *req, const
       }
 
       template=templateTryLoadText(req, service_name, page_name, preferred);
-      if(!(template == ((struct anonymous$7 *)NULL)))
+      if(!(template == ((struct anonymous_7 *)NULL)))
         return template;
 
       for( ; !((signed int)*s == 0); s = s + 1l)
@@ -38015,14 +38015,14 @@ static struct anonymous$7 * templateLoadText(const struct ci_request *req, const
 
   }
 
-  struct anonymous$7 *return_value_templateTryLoadText$6;
-  return_value_templateTryLoadText$6=templateTryLoadText(req, service_name, page_name, TEMPLATE_DEF_LANG);
-  return return_value_templateTryLoadText$6;
+  struct anonymous_7 *return_value_templateTryLoadText_6;
+  return_value_templateTryLoadText_6=templateTryLoadText(req, service_name, page_name, TEMPLATE_DEF_LANG);
+  return return_value_templateTryLoadText_6;
 }
 
 // templateTryLoadText
 // file txtTemplate.c line 251
-static struct anonymous$7 * templateTryLoadText(const struct ci_request *req, const char *service_name, const char *page_name, const char *lang)
+static struct anonymous_7 * templateTryLoadText(const struct ci_request *req, const char *service_name, const char *page_name, const char *lang)
 {
   signed int fd;
   char path[4096l];
@@ -38030,20 +38030,20 @@ static struct anonymous$7 * templateTryLoadText(const struct ci_request *req, co
   struct stat file;
   signed long int len;
   struct ci_membuf *textbuff = (struct ci_membuf *)(void *)0;
-  struct anonymous$7 *tempTemplate = (struct anonymous$7 *)(void *)0;
+  struct anonymous_7 *tempTemplate = (struct anonymous_7 *)(void *)0;
   signed long int current_time;
   time(&current_time);
   pthread_mutex_lock(&templates_mutex);
   tempTemplate=templateFind(service_name, page_name, lang);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
-  if(!(tempTemplate == ((struct anonymous$7 *)NULL)))
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
+  if(!(tempTemplate == ((struct anonymous_7 *)NULL)))
   {
     tempTemplate->last_used = current_time;
     tempTemplate->locked = tempTemplate->locked + 1;
@@ -38072,21 +38072,21 @@ static struct anonymous$7 * templateTryLoadText(const struct ci_request *req, co
       {
         if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
         {
-          return_value___errno_location$1=__errno_location();
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          __log_error((void *)0, "templateTryLoadText: '%s': %s\n", (const void *)path, return_value_strerror$2);
+          return_value___errno_location_1=__errno_location();
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          __log_error((void *)0, "templateTryLoadText: '%s': %s\n", (const void *)path, return_value_strerror_2);
         }
 
         if(!(CI_DEBUG_STDOUT == 0))
         {
-          return_value___errno_location$3=__errno_location();
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          printf("templateTryLoadText: '%s': %s\n", (const void *)path, return_value_strerror$4);
+          return_value___errno_location_3=__errno_location();
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          printf("templateTryLoadText: '%s': %s\n", (const void *)path, return_value_strerror_4);
         }
 
       }
 
-      return (struct anonymous$7 *)(void *)0;
+      return (struct anonymous_7 *)(void *)0;
     }
 
     else
@@ -38105,7 +38105,7 @@ static struct anonymous$7 * templateTryLoadText(const struct ci_request *req, co
 
         }
 
-        return (struct anonymous$7 *)(void *)0;
+        return (struct anonymous_7 *)(void *)0;
       }
 
       else
@@ -38126,22 +38126,22 @@ static struct anonymous$7 * templateTryLoadText(const struct ci_request *req, co
           {
             if(!(__log_error == ((void (*)(void *, const char *, ...))NULL)))
             {
-              return_value___errno_location$5=__errno_location();
-              return_value_strerror$6=strerror(*return_value___errno_location$5);
-              __log_error((void *)0, "templateTryLoadText: failed to fully read: '%s': %s\n", (const void *)path, return_value_strerror$6);
+              return_value___errno_location_5=__errno_location();
+              return_value_strerror_6=strerror(*return_value___errno_location_5);
+              __log_error((void *)0, "templateTryLoadText: failed to fully read: '%s': %s\n", (const void *)path, return_value_strerror_6);
             }
 
             if(!(CI_DEBUG_STDOUT == 0))
             {
-              return_value___errno_location$7=__errno_location();
-              return_value_strerror$8=strerror(*return_value___errno_location$7);
-              printf("templateTryLoadText: failed to fully read: '%s': %s\n", (const void *)path, return_value_strerror$8);
+              return_value___errno_location_7=__errno_location();
+              return_value_strerror_8=strerror(*return_value___errno_location_7);
+              printf("templateTryLoadText: failed to fully read: '%s': %s\n", (const void *)path, return_value_strerror_8);
             }
 
           }
 
           ci_membuf_free(textbuff);
-          return (struct anonymous$7 *)(void *)0;
+          return (struct anonymous_7 *)(void *)0;
         }
 
         else
@@ -38149,7 +38149,7 @@ static struct anonymous$7 * templateTryLoadText(const struct ci_request *req, co
           ci_membuf_write(textbuff, "\0", 1, 1);
           pthread_mutex_lock(&templates_mutex);
           tempTemplate=templateFindFree();
-          if(!(tempTemplate == ((struct anonymous$7 *)NULL)))
+          if(!(tempTemplate == ((struct anonymous_7 *)NULL)))
           {
             tempTemplate->locked = tempTemplate->locked + 1;
             tempTemplate->non_cached = 0;
@@ -38167,10 +38167,10 @@ static struct anonymous$7 * templateTryLoadText(const struct ci_request *req, co
 
             }
 
-            void *return_value_malloc$9;
-            return_value_malloc$9=malloc(sizeof(struct anonymous$7) /*72ul*/ );
-            tempTemplate = (struct anonymous$7 *)return_value_malloc$9;
-            if(tempTemplate == ((struct anonymous$7 *)NULL))
+            void *return_value_malloc_9;
+            return_value_malloc_9=malloc(sizeof(struct anonymous_7) /*72ul*/ );
+            tempTemplate = (struct anonymous_7 *)return_value_malloc_9;
+            if(tempTemplate == ((struct anonymous_7 *)NULL))
             {
               if(CI_DEBUG_LEVEL >= 1)
               {
@@ -38184,7 +38184,7 @@ static struct anonymous$7 * templateTryLoadText(const struct ci_request *req, co
 
               pthread_mutex_unlock(&templates_mutex);
               ci_membuf_free(textbuff);
-              return (struct anonymous$7 *)(void *)0;
+              return (struct anonymous_7 *)(void *)0;
             }
 
             tempTemplate->non_cached = 1;
@@ -38207,11 +38207,11 @@ static struct anonymous$7 * templateTryLoadText(const struct ci_request *req, co
 
 // template_release
 // file txtTemplate.c line 152
-static void template_release(struct anonymous$7 *template)
+static void template_release(struct anonymous_7 *template)
 {
   signed int must_free = 0;
-  signed int return_value_templateExpired$1;
-  if(!(template == ((struct anonymous$7 *)NULL)))
+  signed int return_value_templateExpired_1;
+  if(!(template == ((struct anonymous_7 *)NULL)))
   {
     if(!(template->non_cached == 0))
     {
@@ -38221,16 +38221,16 @@ static void template_release(struct anonymous$7 *template)
 
     else
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!(template->must_free == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
-        return_value_templateExpired$1=templateExpired(template);
-        tmp_if_expr$2 = return_value_templateExpired$1 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_templateExpired_1=templateExpired(template);
+        tmp_if_expr_2 = return_value_templateExpired_1 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
         must_free = 1;
 
       pthread_mutex_lock(&templates_mutex);
@@ -38238,13 +38238,13 @@ static void template_release(struct anonymous$7 *template)
       if(!(template->locked >= 0))
         template->locked = 0;
 
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(!(must_free == 0))
-        tmp_if_expr$3 = template->locked == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = template->locked == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
         templateFree(template);
 
       else
@@ -38319,7 +38319,7 @@ signed int thread_main(struct server_decl *srv)
   signed int keepalive_reqs;
   thread_signals(0);
   srv->srv_id=getpid();
-  signed int return_value_keepalive_request$1;
+  signed int return_value_keepalive_request_1;
   while((_Bool)1)
   {
     if(child_data->to_be_killed == 2)
@@ -38439,16 +38439,16 @@ signed int thread_main(struct server_decl *srv)
 
           }
 
-          _Bool tmp_if_expr$2;
+          _Bool tmp_if_expr_2;
           if(!(srv->current_req->keepalive == 0))
           {
-            return_value_keepalive_request$1=keepalive_request(srv->current_req);
-            tmp_if_expr$2 = return_value_keepalive_request$1 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_keepalive_request_1=keepalive_request(srv->current_req);
+            tmp_if_expr_2 = return_value_keepalive_request_1 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(tmp_if_expr_2)
           {
             if(CI_DEBUG_LEVEL >= 8)
             {
@@ -38467,13 +38467,13 @@ signed int thread_main(struct server_decl *srv)
         }
         if(!(srv->current_req == ((struct ci_request *)NULL)))
         {
-          _Bool tmp_if_expr$3;
+          _Bool tmp_if_expr_3;
           if(!(request_status == 1))
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = child_data->to_be_killed != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = child_data->to_be_killed != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
             ci_hard_close(srv->current_req->connection->fd);
 
           else
@@ -38516,15 +38516,15 @@ signed int thread_main(struct server_decl *srv)
 // file mpmt_server.c line 164
 void thread_signals(signed int islistener)
 {
-  struct anonymous$18 sig_mask;
+  struct anonymous_18 sig_mask;
   sigemptyset(&sig_mask);
   sigaddset(&sig_mask, 2);
   if(islistener == 0)
     sigaddset(&sig_mask, 1);
 
-  signed int return_value_pthread_sigmask$1;
-  return_value_pthread_sigmask$1=pthread_sigmask(0, &sig_mask, (struct anonymous$18 *)(void *)0);
-  if(!(return_value_pthread_sigmask$1 == 0))
+  signed int return_value_pthread_sigmask_1;
+  return_value_pthread_sigmask_1=pthread_sigmask(0, &sig_mask, (struct anonymous_18 *)(void *)0);
+  if(!(return_value_pthread_sigmask_1 == 0))
   {
     if(CI_DEBUG_LEVEL >= 5)
     {
@@ -38551,9 +38551,9 @@ signed int types_add(struct ci_magics_db *db, const char *name, const char *desc
   signed int i;
   if(db->types_num >= db->types_size)
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)db->types, (unsigned long int)(db->types_size + 50) * sizeof(struct ci_data_type) /*324ul*/ );
-    newdata = (struct ci_data_type *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)db->types, (unsigned long int)(db->types_size + 50) * sizeof(struct ci_data_type) /*324ul*/ );
+    newdata = (struct ci_data_type *)return_value_realloc_1;
     if(newdata == ((struct ci_data_type *)NULL))
       return -1;
 
@@ -38581,9 +38581,9 @@ signed int types_add(struct ci_magics_db *db, const char *name, const char *desc
 // file filetype.c line 81
 signed int types_init(struct ci_magics_db *db)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)50 * sizeof(struct ci_data_type) /*324ul*/ );
-  db->types = (struct ci_data_type *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)50 * sizeof(struct ci_data_type) /*324ul*/ );
+  db->types = (struct ci_data_type *)return_value_malloc_1;
   if(db->types == ((struct ci_data_type *)NULL))
     return 0;
 
@@ -38625,38 +38625,38 @@ void * uint64_dup(const char *str, struct ci_mem_allocator *allocator)
   i = (unsigned long int *)return_value;
   if(!(i == ((unsigned long int *)NULL)))
   {
-    signed long long int return_value_strtoll$1;
-    return_value_strtoll$1=strtoll(str, &e, 10);
-    *i = (unsigned long int)return_value_strtoll$1;
-    _Bool tmp_if_expr$4;
+    signed long long int return_value_strtoll_1;
+    return_value_strtoll_1=strtoll(str, &e, 10);
+    *i = (unsigned long int)return_value_strtoll_1;
+    _Bool tmp_if_expr_4;
     if((signed int)*e == 75)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*e == 107 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*e == 107 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       *i = *i * (unsigned long int)1000;
 
     else
     {
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if((signed int)*e == 77)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*e == 109 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)*e == 109 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         *i = *i * (unsigned long int)1000000;
 
       else
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if((signed int)*e == 71)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)*e == 103 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)*e == 103 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           *i = *i * (unsigned long int)1000000000;
 
       }
@@ -38697,15 +38697,15 @@ struct ci_conf_entry * unregister_conf_table(const char *name)
 {
   signed int i;
   struct ci_conf_entry *table;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(extra_conf_tables == ((struct sub_table *)NULL)))
   {
     i = 0;
     for( ; !(i >= conf_tables_num); i = i + 1)
       if(!((extra_conf_tables + (signed long int)i)->name == ((const char *)NULL)))
       {
-        return_value_strcmp$1=strcmp(name, (extra_conf_tables + (signed long int)i)->name);
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(name, (extra_conf_tables + (signed long int)i)->name);
+        if(return_value_strcmp_1 == 0)
         {
           table = (extra_conf_tables + (signed long int)i)->conf_table;
           (extra_conf_tables + (signed long int)i)->name = (const char *)(void *)0;
@@ -38740,9 +38740,9 @@ static signed int update_send_status(struct ci_request *req)
   struct ci_encaps_entity *e;
   if(req->status == 0)
   {
-    signed int return_value_mk_responce_header$1;
-    return_value_mk_responce_header$1=mk_responce_header(req);
-    if(return_value_mk_responce_header$1 == 0)
+    signed int return_value_mk_responce_header_1;
+    return_value_mk_responce_header_1=mk_responce_header(req);
+    if(return_value_mk_responce_header_1 == 0)
     {
       if(CI_DEBUG_LEVEL >= 1)
       {
@@ -38774,7 +38774,7 @@ static signed int update_send_status(struct ci_request *req)
     return 1;
   }
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(req->status == 6)
   {
     if(CI_DEBUG_LEVEL >= 9)
@@ -38819,20 +38819,20 @@ static signed int update_send_status(struct ci_request *req)
       {
         i = status - 2;
         e = req->entities[(signed long int)i];
-        _Bool tmp_if_expr$3;
+        _Bool tmp_if_expr_3;
         if(!(e == ((struct ci_encaps_entity *)NULL)))
         {
           if(e->type == 0)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = e->type == 1 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = e->type == 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
           req->pstrblock_responce = ((struct ci_headers_list *)e->entity)->buf;
           req->remain_send_block_bytes = ((struct ci_headers_list *)e->entity)->bufused;
@@ -38889,9 +38889,9 @@ signed int url_decoder(const char *input, char *output, signed int output_len)
       str[(signed long int)0] = input[(signed long int)(i + 1)];
       str[(signed long int)1] = input[(signed long int)(i + 2)];
       str[(signed long int)2] = (char)0;
-      signed long int return_value_strtol$1;
-      return_value_strtol$1=strtol(str, (char ** restrict )(void *)0, 16);
-      output[(signed long int)k] = (char)return_value_strtol$1;
+      signed long int return_value_strtol_1;
+      return_value_strtol_1=strtol(str, (char ** restrict )(void *)0, 16);
+      output[(signed long int)k] = (char)return_value_strtol_1;
       i = i + 3;
     }
 
@@ -38931,9 +38931,9 @@ signed int url_decoder2(char *input)
       str[(signed long int)0] = input[(signed long int)(i + 1)];
       str[(signed long int)1] = input[(signed long int)(i + 2)];
       str[(signed long int)2] = (char)0;
-      signed long int return_value_strtol$1;
-      return_value_strtol$1=strtol(str, (char ** restrict )(void *)0, 16);
-      input[(signed long int)k] = (char)return_value_strtol$1;
+      signed long int return_value_strtol_1;
+      return_value_strtol_1=strtol(str, (char ** restrict )(void *)0, 16);
+      input[(signed long int)k] = (char)return_value_strtol_1;
       i = i + 3;
     }
 
@@ -38970,8 +38970,8 @@ static void wait_childs_to_exit(struct childs_queue *q)
   signed int status;
   signed int pid;
   i = 0;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   for( ; !(i >= q->size); i = i + 1)
     if(!((q->childs + (signed long int)i)->pid == 0))
     {
@@ -39003,20 +39003,20 @@ static void wait_childs_to_exit(struct childs_queue *q)
       {
         do
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 0;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 0;
           pid=waitpid((q->childs + (signed long int)i)->pid, &status, 1);
           if(!(pid >= 0))
           {
-            return_value___errno_location$1=__errno_location();
-            tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_1=__errno_location();
+            tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$2 = (_Bool)0;
+            tmp_if_expr_2 = (_Bool)0;
         }
-        while(tmp_if_expr$2);
+        while(tmp_if_expr_2);
         if(pid >= 1)
         {
           remove_child(q, pid, 0);
@@ -39041,7 +39041,7 @@ static void wait_childs_to_exit(struct childs_queue *q)
 // file mpmt_server.c line 465
 signed int wait_for_commands(signed int ctl_fd, char *command_buffer, signed int secs)
 {
-  struct anonymous$19 fds;
+  struct anonymous_19 fds;
   struct timeval tv;
   signed int ret = 0;
   if(secs >= 0)
@@ -39054,15 +39054,15 @@ signed int wait_for_commands(signed int ctl_fd, char *command_buffer, signed int
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&fds)->fds_bits[(signed long int)(ctl_fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->fds_bits[(signed long int)(ctl_fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << ctl_fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  ret=select(ctl_fd + 1, &fds, (struct anonymous$19 *)(void *)0, (struct anonymous$19 *)(void *)0, secs >= 0 ? &tv : (struct timeval *)(void *)0);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  ret=select(ctl_fd + 1, &fds, (struct anonymous_19 *)(void *)0, (struct anonymous_19 *)(void *)0, secs >= 0 ? &tv : (struct timeval *)(void *)0);
+  signed int *return_value___errno_location_2;
   if(ret >= 1)
   {
     if((fds.fds_bits[(signed long int)(ctl_fd / 8)] & (signed long int)(1UL << ctl_fd % 8)) == 0l)
@@ -39088,8 +39088,8 @@ signed int wait_for_commands(signed int ctl_fd, char *command_buffer, signed int
     ;
     if(!(ret >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 4))
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 4))
       {
         if(CI_DEBUG_LEVEL >= 1)
         {
@@ -39149,16 +39149,16 @@ signed int wait_for_queue(struct connections_queue *q)
 
   }
 
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->cond_mtx);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->cond_mtx);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
     return -1;
 
   else
   {
-    signed int return_value_pthread_cond_wait$2;
-    return_value_pthread_cond_wait$2=pthread_cond_wait(&q->queue_cond, &q->cond_mtx);
-    if(!(return_value_pthread_cond_wait$2 == 0))
+    signed int return_value_pthread_cond_wait_2;
+    return_value_pthread_cond_wait_2=pthread_cond_wait(&q->queue_cond, &q->cond_mtx);
+    if(!(return_value_pthread_cond_wait_2 == 0))
     {
       pthread_mutex_unlock(&q->cond_mtx);
       return -1;
@@ -39166,9 +39166,9 @@ signed int wait_for_queue(struct connections_queue *q)
 
     else
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->cond_mtx);
-      if(!(return_value_pthread_mutex_unlock$3 == 0))
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->cond_mtx);
+      if(!(return_value_pthread_mutex_unlock_3 == 0))
         return -1;
 
       else

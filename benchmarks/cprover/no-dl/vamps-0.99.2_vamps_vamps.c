@@ -1,54 +1,54 @@
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32's'||U32'$pad0'||*{cV}$cV$'p'||*{cS8}$cS8$'f'|]
+// tag-#anon#ST[S32's'||U32'_pad0'||*{cV}_cV_'p'||*{cS8}_cS8_'f'|]
 // file vamps.c line 143
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[S8'dmv'||U8'len'|]
 // file getvlc.h line 43
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[U8'cbp'||U8'len'|]
 // file getvlc.h line 48
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[U8'code'||S8'len'|]
 // file putvlc.h line 5
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[U8'delta'||U8'len'|]
 // file getvlc.h line 38
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[U8'mba'||U8'len'|]
 // file getvlc.h line 64
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[U8'modes'||U8'len'|]
 // file getvlc.h line 33
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[U8'run'||U8'$pad0'||S16'level'|]
+// tag-#anon#ST[U8'run'||U8'_pad0'||S16'level'|]
 // file requant.c line 225
 struct anonymous;
 
 // tag-#anon#ST[U8'run'||U8'level'||U8'len'|]
 // file getvlc.h line 58
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[U8'size'||U8'len'|]
 // file getvlc.h line 53
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$11;
+union anonymous_11;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -265,19 +265,19 @@ static inline signed int new_mpeg_audio_id(signed int id);
 static inline signed int new_private_1_type(unsigned char *ptr);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$10 *);
+extern signed int pthread_cond_signal(union anonymous_10 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$10 *, union anonymous$11 *);
+extern signed int pthread_cond_wait(union anonymous_10 *, union anonymous_11 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$11 *);
+extern signed int pthread_mutex_lock(union anonymous_11 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$11 *);
+extern signed int pthread_mutex_unlock(union anonymous_11 *);
 // putAC
 // file requant.c line 616
 signed int putAC(signed int run, signed int signed_level, signed int vlcformat);
@@ -381,7 +381,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file vamps.c line 1292
 void write_injections(const char *filename);
 
-struct anonymous$9
+struct anonymous_9
 {
   // __lock
   signed int __lock;
@@ -401,7 +401,7 @@ struct anonymous$9
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // s
   signed int s;
@@ -411,7 +411,7 @@ struct anonymous$8
   const char *f;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // dmv
   signed char dmv;
@@ -419,7 +419,7 @@ struct anonymous$3
   unsigned char len;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // cbp
   unsigned char cbp;
@@ -427,7 +427,7 @@ struct anonymous$4
   unsigned char len;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // code
   unsigned char code;
@@ -435,7 +435,7 @@ struct anonymous$0
   char len;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // delta
   unsigned char delta;
@@ -443,7 +443,7 @@ struct anonymous$2
   unsigned char len;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // mba
   unsigned char mba;
@@ -451,7 +451,7 @@ struct anonymous$7
   unsigned char len;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // modes
   unsigned char modes;
@@ -467,7 +467,7 @@ struct anonymous
   signed short int level;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // run
   unsigned char run;
@@ -477,7 +477,7 @@ struct anonymous$6
   unsigned char len;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // size
   unsigned char size;
@@ -485,10 +485,10 @@ struct anonymous$5
   unsigned char len;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __data
-  struct anonymous$9 __data;
+  struct anonymous_9 __data;
   // __size
   char __size[48l];
   // __align
@@ -523,7 +523,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -670,7 +670,7 @@ struct stat
 
 // CBP_7
 // file getvlc.h line 144
-static const struct anonymous$4 CBP_7[112l] = { { .cbp=(unsigned char)0x22, .len=(unsigned char)7 },
+static const struct anonymous_4 CBP_7[112l] = { { .cbp=(unsigned char)0x22, .len=(unsigned char)7 },
     { .cbp=(unsigned char)0x12, .len=(unsigned char)7 },
     { .cbp=(unsigned char)0x0a, .len=(unsigned char)7 },
     { .cbp=(unsigned char)0x06, .len=(unsigned char)7 },
@@ -784,7 +784,7 @@ static const struct anonymous$4 CBP_7[112l] = { { .cbp=(unsigned char)0x22, .len
     { .cbp=(unsigned char)0x3c, .len=(unsigned char)3 } };
 // CBP_9
 // file getvlc.h line 175
-static const struct anonymous$4 CBP_9[64l] = { { .cbp=(unsigned char)0, .len=(unsigned char)0 },
+static const struct anonymous_4 CBP_9[64l] = { { .cbp=(unsigned char)0, .len=(unsigned char)0 },
     { .cbp=(unsigned char)0x00, .len=(unsigned char)9 },
     { .cbp=(unsigned char)0x27, .len=(unsigned char)9 },
     { .cbp=(unsigned char)0x1b, .len=(unsigned char)9 },
@@ -850,7 +850,7 @@ static const struct anonymous$4 CBP_9[64l] = { { .cbp=(unsigned char)0, .len=(un
     { .cbp=(unsigned char)0x07, .len=(unsigned char)8 } };
 // DCT_13
 // file getvlc.h line 243
-static const struct anonymous$6 DCT_13[48l] = { { .run=(unsigned char)11, .level=(unsigned char)2, .len=(unsigned char)13 },
+static const struct anonymous_6 DCT_13[48l] = { { .run=(unsigned char)11, .level=(unsigned char)2, .len=(unsigned char)13 },
     { .run=(unsigned char)10, .level=(unsigned char)2, .len=(unsigned char)13 },
     { .run=(unsigned char)6, .level=(unsigned char)3, .len=(unsigned char)13 },
     { .run=(unsigned char)4, .level=(unsigned char)4, .len=(unsigned char)13 },
@@ -900,7 +900,7 @@ static const struct anonymous$6 DCT_13[48l] = { { .run=(unsigned char)11, .level
     { .run=(unsigned char)18, .level=(unsigned char)1, .len=(unsigned char)12 } };
 // DCT_15
 // file getvlc.h line 228
-static const struct anonymous$6 DCT_15[48l] = { { .run=(unsigned char)1, .level=(unsigned char)40, .len=(unsigned char)15 },
+static const struct anonymous_6 DCT_15[48l] = { { .run=(unsigned char)1, .level=(unsigned char)40, .len=(unsigned char)15 },
     { .run=(unsigned char)1, .level=(unsigned char)39, .len=(unsigned char)15 },
     { .run=(unsigned char)1, .level=(unsigned char)38, .len=(unsigned char)15 },
     { .run=(unsigned char)1, .level=(unsigned char)37, .len=(unsigned char)15 },
@@ -950,7 +950,7 @@ static const struct anonymous$6 DCT_15[48l] = { { .run=(unsigned char)1, .level=
     { .run=(unsigned char)1, .level=(unsigned char)16, .len=(unsigned char)14 } };
 // DCT_16
 // file getvlc.h line 217
-static const struct anonymous$6 DCT_16[32l] = { { .run=(unsigned char)129, .level=(unsigned char)0, .len=(unsigned char)0 },
+static const struct anonymous_6 DCT_16[32l] = { { .run=(unsigned char)129, .level=(unsigned char)0, .len=(unsigned char)0 },
     { .run=(unsigned char)129, .level=(unsigned char)0, .len=(unsigned char)0 },
     { .run=(unsigned char)129, .level=(unsigned char)0, .len=(unsigned char)0 },
     { .run=(unsigned char)129, .level=(unsigned char)0, .len=(unsigned char)0 },
@@ -984,7 +984,7 @@ static const struct anonymous$6 DCT_16[32l] = { { .run=(unsigned char)129, .leve
     { .run=(unsigned char)28, .level=(unsigned char)1, .len=(unsigned char)0 } };
 // DCT_B14AC_5
 // file getvlc.h line 275
-static const struct anonymous$6 DCT_B14AC_5[27l] = { { .run=(unsigned char)1, .level=(unsigned char)3, .len=(unsigned char)5 },
+static const struct anonymous_6 DCT_B14AC_5[27l] = { { .run=(unsigned char)1, .level=(unsigned char)3, .len=(unsigned char)5 },
     { .run=(unsigned char)5, .level=(unsigned char)1, .len=(unsigned char)5 },
     { .run=(unsigned char)4, .level=(unsigned char)1, .len=(unsigned char)5 },
     { .run=(unsigned char)1, .level=(unsigned char)2, .len=(unsigned char)4 },
@@ -1013,7 +1013,7 @@ static const struct anonymous$6 DCT_B14AC_5[27l] = { { .run=(unsigned char)1, .l
     { .run=(unsigned char)1, .level=(unsigned char)1, .len=(unsigned char)2 } };
 // DCT_B14DC_5
 // file getvlc.h line 285
-static const struct anonymous$6 DCT_B14DC_5[27l] = { { .run=(unsigned char)1, .level=(unsigned char)3, .len=(unsigned char)5 },
+static const struct anonymous_6 DCT_B14DC_5[27l] = { { .run=(unsigned char)1, .level=(unsigned char)3, .len=(unsigned char)5 },
     { .run=(unsigned char)5, .level=(unsigned char)1, .len=(unsigned char)5 },
     { .run=(unsigned char)4, .level=(unsigned char)1, .len=(unsigned char)5 },
     { .run=(unsigned char)1, .level=(unsigned char)2, .len=(unsigned char)4 },
@@ -1042,7 +1042,7 @@ static const struct anonymous$6 DCT_B14DC_5[27l] = { { .run=(unsigned char)1, .l
     { .run=(unsigned char)1, .level=(unsigned char)1, .len=(unsigned char)1 } };
 // DCT_B14_10
 // file getvlc.h line 258
-static const struct anonymous$6 DCT_B14_10[8l] = { { .run=(unsigned char)17, .level=(unsigned char)1, .len=(unsigned char)10 },
+static const struct anonymous_6 DCT_B14_10[8l] = { { .run=(unsigned char)17, .level=(unsigned char)1, .len=(unsigned char)10 },
     { .run=(unsigned char)6, .level=(unsigned char)2, .len=(unsigned char)10 },
     { .run=(unsigned char)1, .level=(unsigned char)7, .len=(unsigned char)10 },
     { .run=(unsigned char)3, .level=(unsigned char)3, .len=(unsigned char)10 },
@@ -1052,7 +1052,7 @@ static const struct anonymous$6 DCT_B14_10[8l] = { { .run=(unsigned char)17, .le
     { .run=(unsigned char)5, .level=(unsigned char)2, .len=(unsigned char)10 } };
 // DCT_B14_8
 // file getvlc.h line 263
-static const struct anonymous$6 DCT_B14_8[36l] = { { .run=(unsigned char)65, .level=(unsigned char)0, .len=(unsigned char)6 },
+static const struct anonymous_6 DCT_B14_8[36l] = { { .run=(unsigned char)65, .level=(unsigned char)0, .len=(unsigned char)6 },
     { .run=(unsigned char)65, .level=(unsigned char)0, .len=(unsigned char)6 },
     { .run=(unsigned char)65, .level=(unsigned char)0, .len=(unsigned char)6 },
     { .run=(unsigned char)65, .level=(unsigned char)0, .len=(unsigned char)6 },
@@ -1090,7 +1090,7 @@ static const struct anonymous$6 DCT_B14_8[36l] = { { .run=(unsigned char)65, .le
     { .run=(unsigned char)11, .level=(unsigned char)1, .len=(unsigned char)8 } };
 // DCT_B15_10
 // file getvlc.h line 295
-static const struct anonymous$6 DCT_B15_10[8l] = { { .run=(unsigned char)6, .level=(unsigned char)2, .len=(unsigned char)9 },
+static const struct anonymous_6 DCT_B15_10[8l] = { { .run=(unsigned char)6, .level=(unsigned char)2, .len=(unsigned char)9 },
     { .run=(unsigned char)6, .level=(unsigned char)2, .len=(unsigned char)9 },
     { .run=(unsigned char)15, .level=(unsigned char)1, .len=(unsigned char)9 },
     { .run=(unsigned char)15, .level=(unsigned char)1, .len=(unsigned char)9 },
@@ -1100,7 +1100,7 @@ static const struct anonymous$6 DCT_B15_10[8l] = { { .run=(unsigned char)6, .lev
     { .run=(unsigned char)16, .level=(unsigned char)1, .len=(unsigned char)9 } };
 // DCT_B15_8
 // file getvlc.h line 300
-static const struct anonymous$6 DCT_B15_8[252l] = { { .run=(unsigned char)65, .level=(unsigned char)0, .len=(unsigned char)6 },
+static const struct anonymous_6 DCT_B15_8[252l] = { { .run=(unsigned char)65, .level=(unsigned char)0, .len=(unsigned char)6 },
     { .run=(unsigned char)65, .level=(unsigned char)0, .len=(unsigned char)6 },
     { .run=(unsigned char)65, .level=(unsigned char)0, .len=(unsigned char)6 },
     { .run=(unsigned char)65, .level=(unsigned char)0, .len=(unsigned char)6 },
@@ -1354,7 +1354,7 @@ static const struct anonymous$6 DCT_B15_8[252l] = { { .run=(unsigned char)65, .l
     { .run=(unsigned char)1, .level=(unsigned char)15, .len=(unsigned char)8 } };
 // DC_chrom_5
 // file getvlc.h line 202
-static const struct anonymous$5 DC_chrom_5[31l] = { { .size=(unsigned char)0, .len=(unsigned char)2 },
+static const struct anonymous_5 DC_chrom_5[31l] = { { .size=(unsigned char)0, .len=(unsigned char)2 },
     { .size=(unsigned char)0, .len=(unsigned char)2 },
     { .size=(unsigned char)0, .len=(unsigned char)2 },
     { .size=(unsigned char)0, .len=(unsigned char)2 },
@@ -1387,7 +1387,7 @@ static const struct anonymous$5 DC_chrom_5[31l] = { { .size=(unsigned char)0, .l
     { .size=(unsigned char)5, .len=(unsigned char)5 } };
 // DC_long
 // file getvlc.h line 209
-static const struct anonymous$5 DC_long[32l] = { { .size=(unsigned char)6, .len=(unsigned char)5 },
+static const struct anonymous_5 DC_long[32l] = { { .size=(unsigned char)6, .len=(unsigned char)5 },
     { .size=(unsigned char)6, .len=(unsigned char)5 },
     { .size=(unsigned char)6, .len=(unsigned char)5 },
     { .size=(unsigned char)6, .len=(unsigned char)5 },
@@ -1421,7 +1421,7 @@ static const struct anonymous$5 DC_long[32l] = { { .size=(unsigned char)6, .len=
     { .size=(unsigned char)11, .len=(unsigned char)9 } };
 // DC_lum_5
 // file getvlc.h line 195
-static const struct anonymous$5 DC_lum_5[31l] = { { .size=(unsigned char)1, .len=(unsigned char)2 },
+static const struct anonymous_5 DC_lum_5[31l] = { { .size=(unsigned char)1, .len=(unsigned char)2 },
     { .size=(unsigned char)1, .len=(unsigned char)2 },
     { .size=(unsigned char)1, .len=(unsigned char)2 },
     { .size=(unsigned char)1, .len=(unsigned char)2 },
@@ -1454,13 +1454,13 @@ static const struct anonymous$5 DC_lum_5[31l] = { { .size=(unsigned char)1, .len
     { .size=(unsigned char)6, .len=(unsigned char)5 } };
 // DMV_2
 // file getvlc.h line 139
-static const struct anonymous$3 DMV_2[4l] = { { .dmv=(signed char)0, .len=(unsigned char)1 },
+static const struct anonymous_3 DMV_2[4l] = { { .dmv=(signed char)0, .len=(unsigned char)1 },
     { .dmv=(signed char)0, .len=(unsigned char)1 },
     { .dmv=(signed char)1, .len=(unsigned char)2 },
     { .dmv=(signed char)-1, .len=(unsigned char)2 } };
 // MBA_11
 // file getvlc.h line 374
-static const struct anonymous$7 MBA_11[104l] = { { .mba=(unsigned char)32, .len=(unsigned char)11 },
+static const struct anonymous_7 MBA_11[104l] = { { .mba=(unsigned char)32, .len=(unsigned char)11 },
     { .mba=(unsigned char)31, .len=(unsigned char)11 },
     { .mba=(unsigned char)30, .len=(unsigned char)11 },
     { .mba=(unsigned char)29, .len=(unsigned char)11 },
@@ -1566,7 +1566,7 @@ static const struct anonymous$7 MBA_11[104l] = { { .mba=(unsigned char)32, .len=
     { .mba=(unsigned char)7, .len=(unsigned char)7 } };
 // MBA_5
 // file getvlc.h line 367
-static const struct anonymous$7 MBA_5[30l] = { { .mba=(unsigned char)6, .len=(unsigned char)5 },
+static const struct anonymous_7 MBA_5[30l] = { { .mba=(unsigned char)6, .len=(unsigned char)5 },
     { .mba=(unsigned char)5, .len=(unsigned char)5 },
     { .mba=(unsigned char)4, .len=(unsigned char)4 },
     { .mba=(unsigned char)4, .len=(unsigned char)4 },
@@ -1598,7 +1598,7 @@ static const struct anonymous$7 MBA_5[30l] = { { .mba=(unsigned char)6, .len=(un
     { .mba=(unsigned char)0, .len=(unsigned char)1 } };
 // MB_B
 // file getvlc.h line 95
-static const struct anonymous$1 MB_B[64l] = { { .modes=(unsigned char)0, .len=(unsigned char)0 },
+static const struct anonymous_1 MB_B[64l] = { { .modes=(unsigned char)0, .len=(unsigned char)0 },
     { .modes=(unsigned char)(1 | 16), .len=(unsigned char)6 },
     { .modes=(unsigned char)(4 | 2 | 16), .len=(unsigned char)6 },
     { .modes=(unsigned char)(8 | 2 | 16), .len=(unsigned char)6 },
@@ -1664,11 +1664,11 @@ static const struct anonymous$1 MB_B[64l] = { { .modes=(unsigned char)0, .len=(u
     { .modes=(unsigned char)(8 | 4 | 2), .len=(unsigned char)2 } };
 // MB_I
 // file getvlc.h line 73
-static const struct anonymous$1 MB_I[2l] = { { .modes=(unsigned char)(1 | 16), .len=(unsigned char)2 },
+static const struct anonymous_1 MB_I[2l] = { { .modes=(unsigned char)(1 | 16), .len=(unsigned char)2 },
     { .modes=(unsigned char)1, .len=(unsigned char)1 } };
 // MB_P
 // file getvlc.h line 80
-static const struct anonymous$1 MB_P[32l] = { { .modes=(unsigned char)(1 | 16), .len=(unsigned char)6 },
+static const struct anonymous_1 MB_P[32l] = { { .modes=(unsigned char)(1 | 16), .len=(unsigned char)6 },
     { .modes=(unsigned char)(2 | 16), .len=(unsigned char)5 },
     { .modes=(unsigned char)(8 | 2 | 16), .len=(unsigned char)5 },
     { .modes=(unsigned char)1, .len=(unsigned char)5 },
@@ -1702,7 +1702,7 @@ static const struct anonymous$1 MB_P[32l] = { { .modes=(unsigned char)(1 | 16), 
     { .modes=(unsigned char)(8 | 2), .len=(unsigned char)1 } };
 // MV_10
 // file getvlc.h line 129
-static const struct anonymous$2 MV_10[48l] = { { .delta=(unsigned char)0, .len=(unsigned char)10 },
+static const struct anonymous_2 MV_10[48l] = { { .delta=(unsigned char)0, .len=(unsigned char)10 },
     { .delta=(unsigned char)0, .len=(unsigned char)10 },
     { .delta=(unsigned char)0, .len=(unsigned char)10 },
     { .delta=(unsigned char)0, .len=(unsigned char)10 },
@@ -1752,7 +1752,7 @@ static const struct anonymous$2 MV_10[48l] = { { .delta=(unsigned char)0, .len=(
     { .delta=(unsigned char)4, .len=(unsigned char)7 } };
 // MV_4
 // file getvlc.h line 125
-static const struct anonymous$2 MV_4[8l] = { { .delta=(unsigned char)3, .len=(unsigned char)6 },
+static const struct anonymous_2 MV_4[8l] = { { .delta=(unsigned char)3, .len=(unsigned char)6 },
     { .delta=(unsigned char)2, .len=(unsigned char)4 },
     { .delta=(unsigned char)1, .len=(unsigned char)3 },
     { .delta=(unsigned char)1, .len=(unsigned char)3 },
@@ -1762,7 +1762,7 @@ static const struct anonymous$2 MV_4[8l] = { { .delta=(unsigned char)3, .len=(un
     { .delta=(unsigned char)0, .len=(unsigned char)2 } };
 // addrinctab
 // file putvlc.h line 231
-static const struct anonymous$0 addrinctab[33l] = { { .code=(unsigned char)0x01, .len=(char)1 },
+static const struct anonymous_0 addrinctab[33l] = { { .code=(unsigned char)0x01, .len=(char)1 },
     { .code=(unsigned char)0x03, .len=(char)3 },
     { .code=(unsigned char)0x02, .len=(char)3 },
     { .code=(unsigned char)0x03, .len=(char)4 },
@@ -1833,7 +1833,7 @@ unsigned long int bytes_written;
 signed int calc_ps_vap;
 // cbptable
 // file putvlc.h line 61
-static const struct anonymous$0 cbptable[64l] = { { .code=(unsigned char)0x01, .len=(char)9 },
+static const struct anonymous_0 cbptable[64l] = { { .code=(unsigned char)0x01, .len=(char)9 },
     { .code=(unsigned char)0x0b, .len=(char)5 },
     { .code=(unsigned char)0x09, .len=(char)5 },
     { .code=(unsigned char)0x0d, .len=(char)6 },
@@ -1908,13 +1908,13 @@ signed int cell_gap_packs;
 static unsigned int concealment_motion_vectors;
 // condr
 // file vamps.c line 166
-union anonymous$10 condr = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_10 condr = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // condw
 // file vamps.c line 167
-union anonymous$10 condw = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_10 condw = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1923,7 +1923,7 @@ union anonymous$10 condw = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__t
 static signed short int *curTable;
 // dct_code_tab1
 // file putvlc.h line 91
-static const struct anonymous$0 dct_code_tab1[2l][40l] = { { { .code=(unsigned char)0x03, .len=(char)2 },
+static const struct anonymous_0 dct_code_tab1[2l][40l] = { { { .code=(unsigned char)0x03, .len=(char)2 },
     { .code=(unsigned char)0x04, .len=(char)4 },
     { .code=(unsigned char)0x05, .len=(char)5 },
     { .code=(unsigned char)0x06, .len=(char)7 },
@@ -2005,7 +2005,7 @@ static const struct anonymous$0 dct_code_tab1[2l][40l] = { { { .code=(unsigned c
     { .code=(unsigned char)0x00, .len=(char)0 } } };
 // dct_code_tab1a
 // file putvlc.h line 165
-static const struct anonymous$0 dct_code_tab1a[2l][40l] = { { { .code=(unsigned char)0x02, .len=(char)2 },
+static const struct anonymous_0 dct_code_tab1a[2l][40l] = { { { .code=(unsigned char)0x02, .len=(char)2 },
     { .code=(unsigned char)0x06, .len=(char)3 },
     { .code=(unsigned char)0x07, .len=(char)4 },
     { .code=(unsigned char)0x1c, .len=(char)5 },
@@ -2087,7 +2087,7 @@ static const struct anonymous$0 dct_code_tab1a[2l][40l] = { { { .code=(unsigned 
     { .code=(unsigned char)0x00, .len=(char)0 } } };
 // dct_code_tab2
 // file putvlc.h line 121
-static const struct anonymous$0 dct_code_tab2[30l][5l] = { { { .code=(unsigned char)0x05, .len=(char)4 },
+static const struct anonymous_0 dct_code_tab2[30l][5l] = { { { .code=(unsigned char)0x05, .len=(char)4 },
     { .code=(unsigned char)0x04, .len=(char)7 },
     { .code=(unsigned char)0x0b, .len=(char)10 },
     { .code=(unsigned char)0x14, .len=(char)12 },
@@ -2239,7 +2239,7 @@ static const struct anonymous$0 dct_code_tab2[30l][5l] = { { { .code=(unsigned c
     { .code=(unsigned char)0x00, .len=(char)0 } } };
 // dct_code_tab2a
 // file putvlc.h line 195
-static const struct anonymous$0 dct_code_tab2a[30l][5l] = { { { .code=(unsigned char)0x05, .len=(char)5 },
+static const struct anonymous_0 dct_code_tab2a[30l][5l] = { { { .code=(unsigned char)0x05, .len=(char)5 },
     { .code=(unsigned char)0x07, .len=(char)7 },
     { .code=(unsigned char)0xfc, .len=(char)8 },
     { .code=(unsigned char)0x0c, .len=(char)10 },
@@ -2392,9 +2392,9 @@ static const struct anonymous$0 dct_code_tab2a[30l][5l] = { { { .code=(unsigned 
 // eof
 // file vamps.c line 120
 signed int eof;
-// eof$link1
+// eof_link1
 // file requant.c line 147
-static signed int eof$link1;
+static signed int eof_link1;
 // f_code
 // file requant.c line 198
 static unsigned int f_code[2l][2l];
@@ -2433,7 +2433,7 @@ static signed int inbitcnt;
 static unsigned long long int inbytecnt;
 // injections
 // file vamps.c line 148
-struct anonymous$8 injections[13l];
+struct anonymous_8 injections[13l];
 // nav_packs
 // file vamps.c line 119
 signed int nav_packs;
@@ -2463,7 +2463,7 @@ unsigned long int vin_bytes;
 unsigned long int vout_bytes;
 // injections
 // file vamps.c line 148
-struct anonymous$8 injections[13l] = { { .s=(signed int)sizeof(unsigned long int) /*8ul*/ , .p=(const void *)&bytes_read,
+struct anonymous_8 injections[13l] = { { .s=(signed int)sizeof(unsigned long int) /*8ul*/ , .p=(const void *)&bytes_read,
     .f="%llu" },
     { .s=(signed int)sizeof(unsigned long int) /*8ul*/ , .p=(const void *)&bytes_written,
     .f="%llu" },
@@ -2527,7 +2527,7 @@ static signed int mb_sav_run;
 static signed int mb_skip;
 // mbtypetab
 // file putvlc.h line 24
-static const struct anonymous$0 mbtypetab[3l][32l] = { { { .code=(unsigned char)0, .len=(char)0 },
+static const struct anonymous_0 mbtypetab[3l][32l] = { { { .code=(unsigned char)0, .len=(char)0 },
     { .code=(unsigned char)1, .len=(char)1 },
     { .code=(unsigned char)0, .len=(char)0 },
     { .code=(unsigned char)0, .len=(char)0 },
@@ -2631,12 +2631,12 @@ static signed int mloka1;
 static signed int mloka2;
 // mutr
 // file vamps.c line 168
-union anonymous$11 mutr = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_11 mutr = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // mutw
 // file vamps.c line 169
-union anonymous$11 mutw = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_11 mutw = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // new_quantizer_scale
@@ -6173,9 +6173,9 @@ static unsigned int quantizer_scale;
 // rbuf
 // file vamps.c line 96
 unsigned char rbuf[4194304l];
-// rbuf$link1
+// rbuf_link1
 // file requant.c line 135
-static unsigned char *rbuf$link1;
+static unsigned char *rbuf_link1;
 // rhwp
 // file vamps.c line 101
 unsigned char *rhwp;
@@ -6263,9 +6263,9 @@ signed int volen;
 // wbuf
 // file vamps.c line 97
 unsigned char wbuf[4194304l];
-// wbuf$link1
+// wbuf_link1
 // file requant.c line 135
-static unsigned char *wbuf$link1;
+static unsigned char *wbuf_link1;
 // wptr
 // file vamps.c line 102
 unsigned char *wptr;
@@ -6329,26 +6329,26 @@ static inline void check_pack(unsigned char *ptr)
   pack_start_code = pack_start_code | (unsigned int)ptr[(signed long int)1] << 16;
   pack_start_code = pack_start_code | (unsigned int)ptr[(signed long int)2] << 8;
   pack_start_code = pack_start_code | (unsigned int)ptr[(signed long int)3];
-  unsigned long int return_value_rtell$1;
+  unsigned long int return_value_rtell_1;
   if(!(pack_start_code == 442u))
   {
-    return_value_rtell$1=rtell(ptr);
-    fatal("Bad pack start code at %llu: %08lx", return_value_rtell$1, pack_start_code);
+    return_value_rtell_1=rtell(ptr);
+    fatal("Bad pack start code at %llu: %08lx", return_value_rtell_1, pack_start_code);
   }
 
-  unsigned long int return_value_rtell$2;
+  unsigned long int return_value_rtell_2;
   if(!((0xc0 & (signed int)ptr[4l]) == 0x40))
   {
-    return_value_rtell$2=rtell(ptr);
-    fatal("Not an MPEG2 program stream pack at %llu", return_value_rtell$2);
+    return_value_rtell_2=rtell(ptr);
+    fatal("Not an MPEG2 program stream pack at %llu", return_value_rtell_2);
   }
 
   pack_stuffing_length = (signed int)ptr[(signed long int)13] & 7;
-  unsigned long int return_value_rtell$3;
+  unsigned long int return_value_rtell_3;
   if(!(pack_stuffing_length == 0))
   {
-    return_value_rtell$3=rtell(ptr);
-    fatal("Non-zero pack stuffing length at %llu: %d\n", return_value_rtell$3, pack_stuffing_length);
+    return_value_rtell_3=rtell(ptr);
+    fatal("Non-zero pack stuffing length at %llu: %d\n", return_value_rtell_3, pack_stuffing_length);
   }
 
 }
@@ -6367,30 +6367,30 @@ static inline signed int check_video_packet(unsigned char *ptr)
   vid_packet_start_code = vid_packet_start_code | (unsigned int)ptr[(signed long int)1] << 16;
   vid_packet_start_code = vid_packet_start_code | (unsigned int)ptr[(signed long int)2] << 8;
   vid_packet_start_code = vid_packet_start_code | (unsigned int)ptr[(signed long int)3];
-  unsigned long int return_value_rtell$1;
+  unsigned long int return_value_rtell_1;
   if(!(vid_packet_start_code == 480u))
   {
-    return_value_rtell$1=rtell(ptr);
-    fatal("Bad video packet start code at %llu: %08lx", return_value_rtell$1, vid_packet_start_code);
+    return_value_rtell_1=rtell(ptr);
+    fatal("Bad video packet start code at %llu: %08lx", return_value_rtell_1, vid_packet_start_code);
   }
 
   vid_packet_length = (signed int)ptr[(signed long int)4] << 8;
   vid_packet_length = vid_packet_length | (signed int)ptr[(signed long int)5];
   vid_packet_length = vid_packet_length + 6;
-  unsigned long int return_value_rtell$2;
+  unsigned long int return_value_rtell_2;
   if(!((0xc0 & (signed int)ptr[6l]) == 0x80))
   {
-    return_value_rtell$2=rtell(ptr);
-    fatal("Not an MPEG2 video packet at %llu", return_value_rtell$2);
+    return_value_rtell_2=rtell(ptr);
+    fatal("Not an MPEG2 video packet at %llu", return_value_rtell_2);
   }
 
-  unsigned long int return_value_rtell$3;
+  unsigned long int return_value_rtell_3;
   if(!(ptr[7l] == 0))
   {
     if(!((0xc0 & (signed int)ptr[7l]) == 0xc0))
     {
-      return_value_rtell$3=rtell(ptr);
-      fatal("First video packet in sequence starting at %llu misses PTS or DTS, flags=%02x", return_value_rtell$3, ptr[(signed long int)7]);
+      return_value_rtell_3=rtell(ptr);
+      fatal("First video packet in sequence starting at %llu misses PTS or DTS, flags=%02x", return_value_rtell_3, ptr[(signed long int)7]);
     }
 
     sequence_header_code = (unsigned int)ptr[(signed long int)(6 + 3 + (signed int)ptr[(signed long int)8] + 0)] << 24;
@@ -6405,7 +6405,7 @@ static inline signed int check_video_packet(unsigned char *ptr)
   }
 
   pad_packet_length = 0;
-  unsigned long int return_value_rtell$4;
+  unsigned long int return_value_rtell_4;
   if(!(14 + vid_packet_length >= 2048))
   {
     ptr = ptr + (signed long int)vid_packet_length;
@@ -6415,8 +6415,8 @@ static inline signed int check_video_packet(unsigned char *ptr)
     pad_packet_start_code = pad_packet_start_code | (unsigned int)ptr[(signed long int)3];
     if(!(pad_packet_start_code == 446u))
     {
-      return_value_rtell$4=rtell(ptr + (signed long int)vid_packet_length);
-      fatal("Bad padding packet start code at %llu: %08lx", return_value_rtell$4, pad_packet_start_code);
+      return_value_rtell_4=rtell(ptr + (signed long int)vid_packet_length);
+      fatal("Bad padding packet start code at %llu: %08lx", return_value_rtell_4, pad_packet_start_code);
     }
 
     pad_packet_length = (signed int)ptr[(signed long int)4] << 8;
@@ -6424,11 +6424,11 @@ static inline signed int check_video_packet(unsigned char *ptr)
     pad_packet_length = pad_packet_length + 6;
   }
 
-  unsigned long int return_value_rtell$5;
+  unsigned long int return_value_rtell_5;
   if(!(pad_packet_length + vid_packet_length == 2034))
   {
-    return_value_rtell$5=rtell(ptr);
-    fatal("Bad video packet length at %llu: %d", return_value_rtell$5, vid_packet_length);
+    return_value_rtell_5=rtell(ptr);
+    fatal("Bad video packet length at %llu: %d", return_value_rtell_5, vid_packet_length);
   }
 
   return rc;
@@ -6504,17 +6504,17 @@ void fatal(char *fmt, ...)
 static void flush(void)
 {
   signed int size = (signed int)(wptr - wbuf);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(size == 0))
   {
-    signed long int return_value_write$3;
-    return_value_write$3=write(1, (const void *)wbuf, (unsigned long int)size);
-    if(!(return_value_write$3 == (signed long int)size))
+    signed long int return_value_write_3;
+    return_value_write_3=write(1, (const void *)wbuf, (unsigned long int)size);
+    if(!(return_value_write_3 == (signed long int)size))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fatal("write to stdout: %s", return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fatal("write to stdout: %s", return_value_strerror_2);
     }
 
     wptr = wbuf;
@@ -6554,9 +6554,9 @@ static inline void flush_write_buffer()
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf)
 {
-  signed int return_value___fxstat$1;
-  return_value___fxstat$1=__fxstat(1, __fd, __statbuf);
-  return return_value___fxstat$1;
+  signed int return_value___fxstat_1;
+  return_value___fxstat_1=__fxstat(1, __fd, __statbuf);
+  return return_value___fxstat_1;
 }
 
 // gen_video_packet
@@ -6567,13 +6567,13 @@ static inline signed int gen_video_packet(unsigned char *ptr, unsigned char *vop
   signed int header_data_length;
   signed int data_length;
   signed int padding_length;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if((0xc0 & (signed int)ptr[7l]) == 0xc0)
-    tmp_if_expr$1 = (signed int)ptr[(signed long int)8];
+    tmp_if_expr_1 = (signed int)ptr[(signed long int)8];
 
   else
-    tmp_if_expr$1 = 0;
-  header_data_length = tmp_if_expr$1;
+    tmp_if_expr_1 = 0;
+  header_data_length = tmp_if_expr_1;
   data_length = 2048 - (14 + 6 + 3 + header_data_length);
   if(avail >= data_length)
   {
@@ -6626,22 +6626,22 @@ static signed int getNewQuant(signed int curQuant, signed int intra)
 {
   signed int mquant = 0;
   double cStress;
-  signed int return_value_scale_quant$1;
-  signed int return_value_increment_quant$2;
-  signed int return_value_scale_quant$3;
-  signed int return_value_increment_quant$4;
-  signed int return_value_scale_quant$5;
-  signed int return_value_increment_quant$6;
-  signed int return_value_scale_quant$7;
-  signed int return_value_increment_quant$8;
+  signed int return_value_scale_quant_1;
+  signed int return_value_increment_quant_2;
+  signed int return_value_scale_quant_3;
+  signed int return_value_increment_quant_4;
+  signed int return_value_scale_quant_5;
+  signed int return_value_increment_quant_6;
+  signed int return_value_scale_quant_7;
+  signed int return_value_increment_quant_8;
   switch(picture_coding_type)
   {
     case (unsigned int)1:
     {
       cStress = (stress_factor - i_min_stress) / (1.0 - i_min_stress);
-      return_value_scale_quant$1=scale_quant((double)curQuant + (double)i_factor * cStress);
-      return_value_increment_quant$2=increment_quant(curQuant);
-      mquant=intmax(return_value_scale_quant$1, return_value_increment_quant$2);
+      return_value_scale_quant_1=scale_quant((double)curQuant + (double)i_factor * cStress);
+      return_value_increment_quant_2=increment_quant(curQuant);
+      mquant=intmax(return_value_scale_quant_1, return_value_increment_quant_2);
       break;
     }
     case (unsigned int)2:
@@ -6649,25 +6649,25 @@ static signed int getNewQuant(signed int curQuant, signed int intra)
       cStress = (stress_factor - p_min_stress) / (1.0 - p_min_stress);
       if(!(intra == 0))
       {
-        return_value_scale_quant$3=scale_quant((double)curQuant + (double)i_factor * cStress);
-        return_value_increment_quant$4=increment_quant(curQuant);
-        mquant=intmax(return_value_scale_quant$3, return_value_increment_quant$4);
+        return_value_scale_quant_3=scale_quant((double)curQuant + (double)i_factor * cStress);
+        return_value_increment_quant_4=increment_quant(curQuant);
+        mquant=intmax(return_value_scale_quant_3, return_value_increment_quant_4);
       }
 
       else
       {
-        return_value_scale_quant$5=scale_quant((double)curQuant + (double)p_factor * cStress);
-        return_value_increment_quant$6=increment_quant(curQuant);
-        mquant=intmax(return_value_scale_quant$5, return_value_increment_quant$6);
+        return_value_scale_quant_5=scale_quant((double)curQuant + (double)p_factor * cStress);
+        return_value_increment_quant_6=increment_quant(curQuant);
+        mquant=intmax(return_value_scale_quant_5, return_value_increment_quant_6);
       }
       break;
     }
     case (unsigned int)3:
     {
       cStress = (stress_factor - b_min_stress) / (1.0 - b_min_stress);
-      return_value_scale_quant$7=scale_quant((double)curQuant + (double)b_factor * cStress);
-      return_value_increment_quant$8=increment_quant(curQuant);
-      mquant=intmax(return_value_scale_quant$7, return_value_increment_quant$8);
+      return_value_scale_quant_7=scale_quant((double)curQuant + (double)b_factor * cStress);
+      return_value_increment_quant_8=increment_quant(curQuant);
+      mquant=intmax(return_value_scale_quant_7, return_value_increment_quant_8);
       break;
     }
     default:
@@ -6680,7 +6680,7 @@ static signed int getNewQuant(signed int curQuant, signed int intra)
 // file requant.c line 938
 static inline signed int get_chroma_dc_dct_diff()
 {
-  const struct anonymous$5 *tab;
+  const struct anonymous_5 *tab;
   signed int size;
   signed int dc_diff;
   if(!(inbitbuf >= 0xf8000000))
@@ -6723,7 +6723,7 @@ static inline signed int get_chroma_dc_dct_diff()
 // file requant.c line 877
 static inline signed int get_coded_block_pattern()
 {
-  const struct anonymous$4 *tab;
+  const struct anonymous_4 *tab;
   if(inbitbuf >= 536870912u)
   {
     tab = CBP_7 + (signed long int)(((unsigned int)inbitbuf >> 32 - 7) - (unsigned int)16);
@@ -6743,7 +6743,7 @@ static inline signed int get_coded_block_pattern()
 // file requant.c line 869
 static inline void get_dmv()
 {
-  const struct anonymous$3 *tab = DMV_2 + (signed long int)((unsigned int)inbitbuf >> 32 - 2);
+  const struct anonymous_3 *tab = DMV_2 + (signed long int)((unsigned int)inbitbuf >> 32 - 2);
   Copy_Bits((unsigned int)tab->len);
   goto __CPROVER_DUMP_L1;
 
@@ -6758,7 +6758,7 @@ static void get_intra_block_B14()
   signed int i;
   signed int li;
   signed int val;
-  const struct anonymous$6 *tab;
+  const struct anonymous_6 *tab;
   i = 0;
   li = i;
   while((_Bool)1)
@@ -6779,9 +6779,9 @@ static void get_intra_block_B14()
       val = (signed int)curTable[(signed long int)val];
       if(!(val == 0))
       {
-        signed int return_value_putAC$1;
-        return_value_putAC$1=putAC((i - li) - 1, val, 0);
-        if(!(return_value_putAC$1 == 0))
+        signed int return_value_putAC_1;
+        return_value_putAC_1=putAC((i - li) - 1, val, 0);
+        if(!(return_value_putAC_1 == 0))
           break;
 
         li = i;
@@ -6811,9 +6811,9 @@ static void get_intra_block_B14()
         val = (signed int)curTable[(signed long int)val];
         if(!(val == 0))
         {
-          signed int return_value_putAC$2;
-          return_value_putAC$2=putAC((i - li) - 1, val, 0);
-          if(!(return_value_putAC$2 == 0))
+          signed int return_value_putAC_2;
+          return_value_putAC_2=putAC((i - li) - 1, val, 0);
+          if(!(return_value_putAC_2 == 0))
             break;
 
           li = i;
@@ -6875,7 +6875,7 @@ static void get_intra_block_B15()
   signed int i;
   signed int li;
   signed int val;
-  const struct anonymous$6 *tab;
+  const struct anonymous_6 *tab;
   i = 0;
   li = i;
   while((_Bool)1)
@@ -6895,9 +6895,9 @@ static void get_intra_block_B15()
         val = (signed int)curTable[(signed long int)val];
         if(!(val == 0))
         {
-          signed int return_value_putAC$1;
-          return_value_putAC$1=putAC((i - li) - 1, val, 1);
-          if(!(return_value_putAC$1 == 0))
+          signed int return_value_putAC_1;
+          return_value_putAC_1=putAC((i - li) - 1, val, 1);
+          if(!(return_value_putAC_1 == 0))
             break;
 
           li = i;
@@ -6924,9 +6924,9 @@ static void get_intra_block_B15()
         val = (signed int)curTable[(signed long int)val];
         if(!(val == 0))
         {
-          signed int return_value_putAC$2;
-          return_value_putAC$2=putAC((i - li) - 1, val, 1);
-          if(!(return_value_putAC$2 == 0))
+          signed int return_value_putAC_2;
+          return_value_putAC_2=putAC((i - li) - 1, val, 1);
+          if(!(return_value_putAC_2 == 0))
             break;
 
           li = i;
@@ -6986,7 +6986,7 @@ static void get_intra_block_B15()
 // file requant.c line 896
 static inline signed int get_luma_dc_dct_diff()
 {
-  const struct anonymous$5 *tab;
+  const struct anonymous_5 *tab;
   signed int size;
   signed int dc_diff;
   if(!(inbitbuf >= 0xf8000000))
@@ -7030,7 +7030,7 @@ static inline signed int get_luma_dc_dct_diff()
 static inline signed int get_macroblock_modes()
 {
   signed int macroblock_modes;
-  const struct anonymous$1 *tab;
+  const struct anonymous_1 *tab;
   switch(picture_coding_type)
   {
     case (unsigned int)1:
@@ -7142,7 +7142,7 @@ static inline signed int get_macroblock_modes()
 // file requant.c line 840
 static inline void get_motion_delta(const signed int f_code)
 {
-  const struct anonymous$2 *tab;
+  const struct anonymous_2 *tab;
   if(!((0x80000000 & inbitbuf) == 0u))
   {
     Copy_Bits((unsigned int)1);
@@ -7181,7 +7181,7 @@ static signed int get_non_intra_block_rq(struct anonymous *blk)
   signed int i;
   signed int li;
   signed int val;
-  const struct anonymous$6 *tab;
+  const struct anonymous_6 *tab;
   i = -1;
   li = i;
   if(inbitbuf >= 671088640u)
@@ -7318,7 +7318,7 @@ static signed int get_non_intra_block_sav(struct anonymous *blk, signed int cc)
   signed int i;
   signed int li;
   signed int val;
-  const struct anonymous$6 *tab;
+  const struct anonymous_6 *tab;
   i = -1;
   li = i;
   if(inbitbuf >= 671088640u)
@@ -7350,11 +7350,11 @@ __CPROVER_DUMP_L2:
     val = (val ^ (signed int)inbitbuf >> 32 - 1) - ((signed int)inbitbuf >> 32 - 1);
     if(li == -1)
     {
-      signed int return_value_abs$1;
-      return_value_abs$1=abs(val);
-      signed int return_value_abs$2;
-      return_value_abs$2=abs(mb_sav_lev);
-      if(!(return_value_abs$1 >= return_value_abs$2))
+      signed int return_value_abs_1;
+      return_value_abs_1=abs(val);
+      signed int return_value_abs_2;
+      return_value_abs_2=abs(mb_sav_lev);
+      if(!(return_value_abs_1 >= return_value_abs_2))
       {
         mb_sav_c = cc;
         mb_sav_lev = val;
@@ -7398,11 +7398,11 @@ __CPROVER_DUMP_L2:
       val = (signed int)inbitbuf >> 32 - 12;
       if(li == -1)
       {
-        signed int return_value_abs$3;
-        return_value_abs$3=abs(val);
-        signed int return_value_abs$4;
-        return_value_abs$4=abs(mb_sav_lev);
-        if(!(return_value_abs$3 >= return_value_abs$4))
+        signed int return_value_abs_3;
+        return_value_abs_3=abs(val);
+        signed int return_value_abs_4;
+        return_value_abs_4=abs(mb_sav_lev);
+        if(!(return_value_abs_3 >= return_value_abs_4))
         {
           mb_sav_c = cc;
           mb_sav_lev = val;
@@ -7580,9 +7580,9 @@ static inline signed int lock(signed int size)
       rhwp = rptr + (signed long int)avail;
     }
 
-    signed long int return_value_read$1;
-    return_value_read$1=read(0, (void *)rhwp, (unsigned long int)(0x1000 * 1024 - avail));
-    n = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(0, (void *)rhwp, (unsigned long int)(0x1000 * 1024 - avail));
+    n = (signed int)return_value_read_1;
     if(!(n % 2048 == 0))
       fatal("Premature EOF");
 
@@ -7692,9 +7692,9 @@ signed int main(signed int argc, char * const *argv)
 
   if(ps_size == 0ul)
   {
-    signed int return_value_fstat$1;
-    return_value_fstat$1=fstat(0, &st);
-    if(!((61440u & st.st_mode) == 32768u) || !(return_value_fstat$1 >= 0))
+    signed int return_value_fstat_1;
+    return_value_fstat_1=fstat(0, &st);
+    if(!((61440u & st.st_mode) == 32768u) || !(return_value_fstat_1 >= 0))
     {
       fputs("Standard input is not a regular file and -S option not given.\n\n", stderr);
       usage();
@@ -7703,30 +7703,30 @@ signed int main(signed int argc, char * const *argv)
     ps_size = (unsigned long int)st.st_size;
   }
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)vbuf_size);
-  vibuf = (unsigned char *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)vbuf_size);
-  vobuf = (unsigned char *)return_value_malloc$3;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)vbuf_size);
+  vibuf = (unsigned char *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)vbuf_size);
+  vobuf = (unsigned char *)return_value_malloc_3;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
   if(vibuf == ((unsigned char *)NULL) || vobuf == ((unsigned char *)NULL))
   {
-    return_value___errno_location$4=__errno_location();
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    fatal("Allocation of video buffers failed: %s", return_value_strerror$5);
+    return_value___errno_location_4=__errno_location();
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    fatal("Allocation of video buffers failed: %s", return_value_strerror_5);
   }
 
-  signed int return_value_pthread_create$8;
-  return_value_pthread_create$8=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, requant_thread, (void *)0);
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  if(!(return_value_pthread_create$8 == 0))
+  signed int return_value_pthread_create_8;
+  return_value_pthread_create_8=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, requant_thread, (void *)0);
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  if(!(return_value_pthread_create_8 == 0))
   {
-    return_value___errno_location$6=__errno_location();
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    fatal("pthread_create: %s", return_value_strerror$7);
+    return_value___errno_location_6=__errno_location();
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    fatal("pthread_create: %s", return_value_strerror_7);
   }
 
   vaporize();
@@ -7834,27 +7834,27 @@ static void motion_fr_frame(unsigned int *f_code)
 // file requant.c line 1910
 void mpeg2_slice(const signed int code)
 {
-  signed int return_value_slice_init$1;
-  return_value_slice_init$1=slice_init(code);
-  signed int return_value_get_quantizer_scale$2;
-  if(return_value_slice_init$1 == 0)
+  signed int return_value_slice_init_1;
+  return_value_slice_init_1=slice_init(code);
+  signed int return_value_get_quantizer_scale_2;
+  if(return_value_slice_init_1 == 0)
     while((_Bool)1)
     {
       signed int macroblock_modes;
       signed int mba_inc;
-      const struct anonymous$7 *mba;
+      const struct anonymous_7 *mba;
       macroblock_modes=get_macroblock_modes();
       if(!((16 & macroblock_modes) == 0))
       {
-        return_value_get_quantizer_scale$2=get_quantizer_scale();
-        quantizer_scale = (unsigned int)return_value_get_quantizer_scale$2;
+        return_value_get_quantizer_scale_2=get_quantizer_scale();
+        quantizer_scale = (unsigned int)return_value_get_quantizer_scale_2;
       }
 
       if(!((1 & macroblock_modes) == 0))
       {
-        signed int return_value_getNewQuant$3;
-        return_value_getNewQuant$3=getNewQuant((signed int)quantizer_scale, 1);
-        new_quantizer_scale = (unsigned int)return_value_getNewQuant$3;
+        signed int return_value_getNewQuant_3;
+        return_value_getNewQuant_3=getNewQuant((signed int)quantizer_scale, 1);
+        new_quantizer_scale = (unsigned int)return_value_getNewQuant_3;
         if(last_coded_scale == new_quantizer_scale)
           macroblock_modes = macroblock_modes & (signed int)0xFFFFFFEF;
 
@@ -7900,11 +7900,11 @@ void mpeg2_slice(const signed int code)
         unsigned int o_outbitcnt;
         unsigned int o_outbitbuf;
         o_owbuf = owbuf;
-        o_wbuf = wbuf$link1;
+        o_wbuf = wbuf_link1;
         o_outbitcnt = (unsigned int)outbitcnt;
         o_outbitbuf = outbitbuf;
-        wbuf$link1 = n_owbuf;
-        owbuf = wbuf$link1;
+        wbuf_link1 = n_owbuf;
+        owbuf = wbuf_link1;
         outbitcnt = 8;
         outbitbuf = (unsigned int)0;
         if(picture_structure == 3u)
@@ -8006,16 +8006,16 @@ void mpeg2_slice(const signed int code)
 
       __CPROVER_DUMP_L30:
         ;
-        n_wbuf = wbuf$link1;
+        n_wbuf = wbuf_link1;
         n_outbitcnt = (unsigned int)outbitcnt;
         n_outbitbuf = outbitbuf;
         owbuf = o_owbuf;
-        wbuf$link1 = o_wbuf;
+        wbuf_link1 = o_wbuf;
         outbitcnt = (signed int)o_outbitcnt;
         outbitbuf = o_outbitbuf;
-        signed int return_value_getNewQuant$4;
-        return_value_getNewQuant$4=getNewQuant((signed int)quantizer_scale, 0);
-        new_quantizer_scale = (unsigned int)return_value_getNewQuant$4;
+        signed int return_value_getNewQuant_4;
+        return_value_getNewQuant_4=getNewQuant((signed int)quantizer_scale, 0);
+        new_quantizer_scale = (unsigned int)return_value_getNewQuant_4;
         if(!((2 & macroblock_modes) == 0))
         {
           signed int coded_block_pattern;
@@ -8028,9 +8028,9 @@ void mpeg2_slice(const signed int code)
           if(!((0x20 & coded_block_pattern) == 0))
           {
             slice_non_intra_DCT(0);
-            signed int return_value_isNotEmpty$5;
-            return_value_isNotEmpty$5=isNotEmpty(block[(signed long int)0]);
-            if(!(return_value_isNotEmpty$5 == 0))
+            signed int return_value_isNotEmpty_5;
+            return_value_isNotEmpty_5=isNotEmpty(block[(signed long int)0]);
+            if(!(return_value_isNotEmpty_5 == 0))
               new_coded_block_pattern = new_coded_block_pattern | 0x20;
 
           }
@@ -8038,9 +8038,9 @@ void mpeg2_slice(const signed int code)
           if(!((0x10 & coded_block_pattern) == 0))
           {
             slice_non_intra_DCT(1);
-            signed int return_value_isNotEmpty$6;
-            return_value_isNotEmpty$6=isNotEmpty(block[(signed long int)1]);
-            if(!(return_value_isNotEmpty$6 == 0))
+            signed int return_value_isNotEmpty_6;
+            return_value_isNotEmpty_6=isNotEmpty(block[(signed long int)1]);
+            if(!(return_value_isNotEmpty_6 == 0))
               new_coded_block_pattern = new_coded_block_pattern | 0x10;
 
           }
@@ -8048,9 +8048,9 @@ void mpeg2_slice(const signed int code)
           if(!((0x08 & coded_block_pattern) == 0))
           {
             slice_non_intra_DCT(2);
-            signed int return_value_isNotEmpty$7;
-            return_value_isNotEmpty$7=isNotEmpty(block[(signed long int)2]);
-            if(!(return_value_isNotEmpty$7 == 0))
+            signed int return_value_isNotEmpty_7;
+            return_value_isNotEmpty_7=isNotEmpty(block[(signed long int)2]);
+            if(!(return_value_isNotEmpty_7 == 0))
               new_coded_block_pattern = new_coded_block_pattern | 0x08;
 
           }
@@ -8058,9 +8058,9 @@ void mpeg2_slice(const signed int code)
           if(!((0x04 & coded_block_pattern) == 0))
           {
             slice_non_intra_DCT(3);
-            signed int return_value_isNotEmpty$8;
-            return_value_isNotEmpty$8=isNotEmpty(block[(signed long int)3]);
-            if(!(return_value_isNotEmpty$8 == 0))
+            signed int return_value_isNotEmpty_8;
+            return_value_isNotEmpty_8=isNotEmpty(block[(signed long int)3]);
+            if(!(return_value_isNotEmpty_8 == 0))
               new_coded_block_pattern = new_coded_block_pattern | 0x04;
 
           }
@@ -8068,9 +8068,9 @@ void mpeg2_slice(const signed int code)
           if(!((0x02 & coded_block_pattern) == 0))
           {
             slice_non_intra_DCT(4);
-            signed int return_value_isNotEmpty$9;
-            return_value_isNotEmpty$9=isNotEmpty(block[(signed long int)4]);
-            if(!(return_value_isNotEmpty$9 == 0))
+            signed int return_value_isNotEmpty_9;
+            return_value_isNotEmpty_9=isNotEmpty(block[(signed long int)4]);
+            if(!(return_value_isNotEmpty_9 == 0))
               new_coded_block_pattern = new_coded_block_pattern | 0x02;
 
           }
@@ -8078,9 +8078,9 @@ void mpeg2_slice(const signed int code)
           if(!((0x01 & coded_block_pattern) == 0))
           {
             slice_non_intra_DCT(5);
-            signed int return_value_isNotEmpty$10;
-            return_value_isNotEmpty$10=isNotEmpty(block[(signed long int)5]);
-            if(!(return_value_isNotEmpty$10 == 0))
+            signed int return_value_isNotEmpty_10;
+            return_value_isNotEmpty_10=isNotEmpty(block[(signed long int)5]);
+            if(!(return_value_isNotEmpty_10 == 0))
               new_coded_block_pattern = new_coded_block_pattern | 0x01;
 
           }
@@ -8266,9 +8266,9 @@ static inline signed int new_private_1_type(unsigned char *ptr)
 
         else
         {
-          unsigned long int return_value_rtell$1;
-          return_value_rtell$1=rtell(ptr);
-          fatal("Unknown private stream 1 type at %llu: %02x", return_value_rtell$1, type);
+          unsigned long int return_value_rtell_1;
+          return_value_rtell_1=rtell(ptr);
+          fatal("Unknown private stream 1 type at %llu: %02x", return_value_rtell_1, type);
           abase = 0;
         }
     track = audio_track_map[(signed long int)(type - abase)];
@@ -8282,7 +8282,7 @@ signed int putAC(signed int run, signed int signed_level, signed int vlcformat)
 {
   signed int level;
   signed int len;
-  const struct anonymous$0 *ptab = (const struct anonymous$0 *)(void *)0;
+  const struct anonymous_0 *ptab = (const struct anonymous_0 *)(void *)0;
   level = signed_level < 0 ? -signed_level : signed_level;
   if(run >= 64 || !(run >= 0))
   {
@@ -8341,7 +8341,7 @@ signed int putAC(signed int run, signed int signed_level, signed int vlcformat)
 // file requant.c line 668
 static inline signed int putACfirst(signed int run, signed int val)
 {
-  signed int return_value_putAC$1;
+  signed int return_value_putAC_1;
   if(run == 0 && (val == 1 || val == -1))
   {
     putbits((unsigned int)(2 | (val < 0 ? 1 : 0)), 2);
@@ -8350,8 +8350,8 @@ static inline signed int putACfirst(signed int run, signed int val)
 
   else
   {
-    return_value_putAC$1=putAC(run, val, 0);
-    return return_value_putAC$1;
+    return_value_putAC_1=putAC(run, val, 0);
+    return return_value_putAC_1;
   }
 }
 
@@ -8359,13 +8359,13 @@ static inline signed int putACfirst(signed int run, signed int val)
 // file requant.c line 1821
 static inline void put_quantiser(signed int quantiser)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(q_scale_type == 0u))
-    tmp_if_expr$1 = (signed int)map_non_linear_mquant[(signed long int)quantiser];
+    tmp_if_expr_1 = (signed int)map_non_linear_mquant[(signed long int)quantiser];
 
   else
-    tmp_if_expr$1 = quantiser >> 1;
-  putbits((unsigned int)tmp_if_expr$1, 5);
+    tmp_if_expr_1 = quantiser >> 1;
+  putbits((unsigned int)tmp_if_expr_1, 5);
   last_coded_scale = (unsigned int)quantiser;
 }
 
@@ -8388,8 +8388,8 @@ static inline void putbits(unsigned int val, signed int n)
 {
   for( ; n >= outbitcnt; outbitcnt = 8)
   {
-    wbuf$link1[(signed long int)0] = (unsigned char)(outbitbuf << outbitcnt | val >> n - outbitcnt);
-    wbuf$link1 = wbuf$link1 + (signed long int)1;
+    wbuf_link1[(signed long int)0] = (unsigned char)(outbitbuf << outbitcnt | val >> n - outbitcnt);
+    wbuf_link1 = wbuf_link1 + (signed long int)1;
     n = n - outbitcnt;
     outbitbuf = (unsigned int)0;
     val = val & ~(0xffffffffU << n);
@@ -8443,16 +8443,16 @@ static void putmbtype(signed int mb_type)
 // file requant.c line 678
 void putnonintrablk(struct anonymous *blk)
 {
-  signed int return_value_putACfirst$1;
-  return_value_putACfirst$1=putACfirst((signed int)blk->run, (signed int)blk->level);
-  if(return_value_putACfirst$1 == 0)
+  signed int return_value_putACfirst_1;
+  return_value_putACfirst_1=putACfirst((signed int)blk->run, (signed int)blk->level);
+  if(return_value_putACfirst_1 == 0)
   {
     blk = blk + 1l;
     while(!(blk->level == 0))
     {
-      signed int return_value_putAC$2;
-      return_value_putAC$2=putAC((signed int)blk->run, (signed int)blk->level, 0);
-      if(!(return_value_putAC$2 == 0))
+      signed int return_value_putAC_2;
+      return_value_putAC_2=putAC((signed int)blk->run, (signed int)blk->level, 0);
+      if(!(return_value_putAC_2 == 0))
         goto __CPROVER_DUMP_L4;
 
       blk = blk + 1l;
@@ -8477,9 +8477,9 @@ void read_injections(const char *filename)
     i = (unsigned int)0;
     for( ; !((unsigned long int)i >= 13ul); i = i + 1u)
     {
-      signed int return_value_fscanf$1;
-      return_value_fscanf$1=fscanf(fp, injections[(signed long int)i].f, injections[(signed long int)i].p);
-      if(!(return_value_fscanf$1 == 1))
+      signed int return_value_fscanf_1;
+      return_value_fscanf_1=fscanf(fp, injections[(signed long int)i].f, injections[(signed long int)i].p);
+      if(!(return_value_fscanf_1 == 1))
         fatal("Bad format of injections file: %s", filename);
 
     }
@@ -8554,13 +8554,13 @@ void * requant_thread(void *p)
     else
       if(fact_x <= 3.000000f)
       {
-        double requant_thread$$1$$3$$inter = ((double)fact_x - 1.0) / (3.0 - 1.0);
-        i_factor = (signed int)((double)i_factors[(signed long int)0] + requant_thread$$1$$3$$inter * (double)(i_factors[(signed long int)1] - i_factors[(signed long int)0]));
-        p_factor = (signed int)((double)p_factors[(signed long int)0] + requant_thread$$1$$3$$inter * (double)(p_factors[(signed long int)1] - p_factors[(signed long int)0]));
-        b_factor = (signed int)((double)b_factors[(signed long int)0] + requant_thread$$1$$3$$inter * (double)(b_factors[(signed long int)1] - b_factors[(signed long int)0]));
-        i_min_stress = i_min_stresses[(signed long int)0] + requant_thread$$1$$3$$inter * (i_min_stresses[(signed long int)1] - i_min_stresses[(signed long int)0]);
-        p_min_stress = p_min_stresses[(signed long int)0] + requant_thread$$1$$3$$inter * (p_min_stresses[(signed long int)1] - p_min_stresses[(signed long int)0]);
-        b_min_stress = b_min_stresses[(signed long int)0] + requant_thread$$1$$3$$inter * (b_min_stresses[(signed long int)1] - b_min_stresses[(signed long int)0]);
+        double requant_thread__1__3__inter = ((double)fact_x - 1.0) / (3.0 - 1.0);
+        i_factor = (signed int)((double)i_factors[(signed long int)0] + requant_thread__1__3__inter * (double)(i_factors[(signed long int)1] - i_factors[(signed long int)0]));
+        p_factor = (signed int)((double)p_factors[(signed long int)0] + requant_thread__1__3__inter * (double)(p_factors[(signed long int)1] - p_factors[(signed long int)0]));
+        b_factor = (signed int)((double)b_factors[(signed long int)0] + requant_thread__1__3__inter * (double)(b_factors[(signed long int)1] - b_factors[(signed long int)0]));
+        i_min_stress = i_min_stresses[(signed long int)0] + requant_thread__1__3__inter * (i_min_stresses[(signed long int)1] - i_min_stresses[(signed long int)0]);
+        p_min_stress = p_min_stresses[(signed long int)0] + requant_thread__1__3__inter * (p_min_stresses[(signed long int)1] - p_min_stresses[(signed long int)0]);
+        b_min_stress = b_min_stresses[(signed long int)0] + requant_thread__1__3__inter * (b_min_stresses[(signed long int)1] - b_min_stresses[(signed long int)0]);
       }
 
       else
@@ -8631,33 +8631,33 @@ void * requant_thread(void *p)
       }
     }
   }
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
   while((_Bool)1)
   {
     found = (unsigned char)0;
     while(found == 0)
     {
-      if(!(rbuf$link1 - cbuf >= 8l))
+      if(!(rbuf_link1 - cbuf >= 8l))
       {
-        if(!(wbuf$link1 == ((unsigned char *)NULL)))
+        if(!(wbuf_link1 == ((unsigned char *)NULL)))
         {
           pthread_mutex_lock(&mutw);
-          rqt_wcnt = (signed int)(wbuf$link1 - owbuf);
+          rqt_wcnt = (signed int)(wbuf_link1 - owbuf);
           pthread_cond_signal(&condw);
           pthread_mutex_unlock(&mutw);
         }
@@ -8666,8 +8666,8 @@ void * requant_thread(void *p)
         while(rqt_rcnt == 0)
           pthread_cond_wait(&condr, &mutr);
         cbuf = rqt_rptr;
-        rbuf$link1 = cbuf;
-        rbuf$link1 = rbuf$link1 + (signed long int)(rqt_rcnt + 3);
+        rbuf_link1 = cbuf;
+        rbuf_link1 = rbuf_link1 + (signed long int)(rqt_rcnt + 3);
         rqt_rcnt = 0;
         owbuf = rqt_wptr;
         fact_x = rqt_fact;
@@ -8675,79 +8675,79 @@ void * requant_thread(void *p)
         outbytecnt = rqt_outbytes;
         orim2vsize = (signed long long int)rqt_visize;
         pthread_mutex_unlock(&mutr);
-        wbuf$link1 = owbuf;
+        wbuf_link1 = owbuf;
       }
 
       if((signed int)cbuf[7l] == 0)
-        tmp_if_expr$3 = (signed int)cbuf[(signed long int)6] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)cbuf[(signed long int)6] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (signed int)cbuf[(signed long int)5] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (signed int)cbuf[(signed long int)5] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (signed int)cbuf[(signed long int)4] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (signed int)cbuf[(signed long int)4] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (signed int)cbuf[(signed long int)3] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (signed int)cbuf[(signed long int)3] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (signed int)cbuf[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (signed int)cbuf[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (signed int)cbuf[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (signed int)cbuf[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (signed int)cbuf[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (signed int)cbuf[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
         cbuf = cbuf + (signed long int)1;
 
       else
       {
         if((signed int)*cbuf == 0)
-          tmp_if_expr$1 = (signed int)cbuf[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)cbuf[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (signed int)cbuf[(signed long int)2] == 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (signed int)cbuf[(signed long int)2] == 1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
           found = (unsigned char)1;
 
         else
         {
-          memcpy((void *)wbuf$link1, (const void *)cbuf, (unsigned long int)1);
+          memcpy((void *)wbuf_link1, (const void *)cbuf, (unsigned long int)1);
           cbuf = cbuf + (signed long int)1;
-          wbuf$link1 = wbuf$link1 + (signed long int)1;
+          wbuf_link1 = wbuf_link1 + (signed long int)1;
         }
       }
     }
-    memcpy((void *)wbuf$link1, (const void *)cbuf, (unsigned long int)3);
+    memcpy((void *)wbuf_link1, (const void *)cbuf, (unsigned long int)3);
     cbuf = cbuf + (signed long int)3;
-    wbuf$link1 = wbuf$link1 + (signed long int)3;
-    if(!(rbuf$link1 - cbuf >= 1l))
+    wbuf_link1 = wbuf_link1 + (signed long int)3;
+    if(!(rbuf_link1 - cbuf >= 1l))
     {
-      if(!(wbuf$link1 == ((unsigned char *)NULL)))
+      if(!(wbuf_link1 == ((unsigned char *)NULL)))
       {
         pthread_mutex_lock(&mutw);
-        rqt_wcnt = (signed int)(wbuf$link1 - owbuf);
+        rqt_wcnt = (signed int)(wbuf_link1 - owbuf);
         pthread_cond_signal(&condw);
         pthread_mutex_unlock(&mutw);
       }
@@ -8756,8 +8756,8 @@ void * requant_thread(void *p)
       while(rqt_rcnt == 0)
         pthread_cond_wait(&condr, &mutr);
       cbuf = rqt_rptr;
-      rbuf$link1 = cbuf;
-      rbuf$link1 = rbuf$link1 + (signed long int)(rqt_rcnt + 3);
+      rbuf_link1 = cbuf;
+      rbuf_link1 = rbuf_link1 + (signed long int)(rqt_rcnt + 3);
       rqt_rcnt = 0;
       owbuf = rqt_wptr;
       fact_x = rqt_fact;
@@ -8765,21 +8765,21 @@ void * requant_thread(void *p)
       outbytecnt = rqt_outbytes;
       orim2vsize = (signed long long int)rqt_visize;
       pthread_mutex_unlock(&mutr);
-      wbuf$link1 = owbuf;
+      wbuf_link1 = owbuf;
     }
 
     ID = cbuf[(signed long int)0];
-    memcpy((void *)wbuf$link1, (const void *)cbuf, (unsigned long int)1);
+    memcpy((void *)wbuf_link1, (const void *)cbuf, (unsigned long int)1);
     cbuf = cbuf + (signed long int)1;
-    wbuf$link1 = wbuf$link1 + (signed long int)1;
+    wbuf_link1 = wbuf_link1 + (signed long int)1;
     if((signed int)ID == 0x00)
     {
-      if(!(rbuf$link1 - cbuf >= 4l))
+      if(!(rbuf_link1 - cbuf >= 4l))
       {
-        if(!(wbuf$link1 == ((unsigned char *)NULL)))
+        if(!(wbuf_link1 == ((unsigned char *)NULL)))
         {
           pthread_mutex_lock(&mutw);
-          rqt_wcnt = (signed int)(wbuf$link1 - owbuf);
+          rqt_wcnt = (signed int)(wbuf_link1 - owbuf);
           pthread_cond_signal(&condw);
           pthread_mutex_unlock(&mutw);
         }
@@ -8788,8 +8788,8 @@ void * requant_thread(void *p)
         while(rqt_rcnt == 0)
           pthread_cond_wait(&condr, &mutr);
         cbuf = rqt_rptr;
-        rbuf$link1 = cbuf;
-        rbuf$link1 = rbuf$link1 + (signed long int)(rqt_rcnt + 3);
+        rbuf_link1 = cbuf;
+        rbuf_link1 = rbuf_link1 + (signed long int)(rqt_rcnt + 3);
         rqt_rcnt = 0;
         owbuf = rqt_wptr;
         fact_x = rqt_fact;
@@ -8797,7 +8797,7 @@ void * requant_thread(void *p)
         outbytecnt = rqt_outbytes;
         orim2vsize = (signed long long int)rqt_visize;
         pthread_mutex_unlock(&mutr);
-        wbuf$link1 = owbuf;
+        wbuf_link1 = owbuf;
       }
 
       picture_coding_type = (unsigned int)((signed int)cbuf[(signed long int)1] >> 3 & 0x7);
@@ -8812,20 +8812,20 @@ void * requant_thread(void *p)
         cbuf[(signed long int)3] = cbuf[(signed long int)3] | (unsigned char)0xF8;
       }
       validExtHeader = 0;
-      memcpy((void *)wbuf$link1, (const void *)cbuf, (unsigned long int)4);
+      memcpy((void *)wbuf_link1, (const void *)cbuf, (unsigned long int)4);
       cbuf = cbuf + (signed long int)4;
-      wbuf$link1 = wbuf$link1 + (signed long int)4;
+      wbuf_link1 = wbuf_link1 + (signed long int)4;
     }
 
     else
       if((signed int)ID == 0xB3)
       {
-        if(!(rbuf$link1 - cbuf >= 8l))
+        if(!(rbuf_link1 - cbuf >= 8l))
         {
-          if(!(wbuf$link1 == ((unsigned char *)NULL)))
+          if(!(wbuf_link1 == ((unsigned char *)NULL)))
           {
             pthread_mutex_lock(&mutw);
-            rqt_wcnt = (signed int)(wbuf$link1 - owbuf);
+            rqt_wcnt = (signed int)(wbuf_link1 - owbuf);
             pthread_cond_signal(&condw);
             pthread_mutex_unlock(&mutw);
           }
@@ -8834,8 +8834,8 @@ void * requant_thread(void *p)
           while(rqt_rcnt == 0)
             pthread_cond_wait(&condr, &mutr);
           cbuf = rqt_rptr;
-          rbuf$link1 = cbuf;
-          rbuf$link1 = rbuf$link1 + (signed long int)(rqt_rcnt + 3);
+          rbuf_link1 = cbuf;
+          rbuf_link1 = rbuf_link1 + (signed long int)(rqt_rcnt + 3);
           rqt_rcnt = 0;
           owbuf = rqt_wptr;
           fact_x = rqt_fact;
@@ -8843,7 +8843,7 @@ void * requant_thread(void *p)
           outbytecnt = rqt_outbytes;
           orim2vsize = (signed long long int)rqt_visize;
           pthread_mutex_unlock(&mutr);
-          wbuf$link1 = owbuf;
+          wbuf_link1 = owbuf;
         }
 
         horizontal_size_value = (unsigned int)((signed int)cbuf[(signed long int)0] << 4 | (signed int)cbuf[(signed long int)1] >> 4);
@@ -8855,20 +8855,20 @@ void * requant_thread(void *p)
           validSeqHeader = 1;
         validPicHeader = 0;
         validExtHeader = 0;
-        memcpy((void *)wbuf$link1, (const void *)cbuf, (unsigned long int)8);
+        memcpy((void *)wbuf_link1, (const void *)cbuf, (unsigned long int)8);
         cbuf = cbuf + (signed long int)8;
-        wbuf$link1 = wbuf$link1 + (signed long int)8;
+        wbuf_link1 = wbuf_link1 + (signed long int)8;
       }
 
       else
         if((signed int)ID == 0xB5)
         {
-          if(!(rbuf$link1 - cbuf >= 1l))
+          if(!(rbuf_link1 - cbuf >= 1l))
           {
-            if(!(wbuf$link1 == ((unsigned char *)NULL)))
+            if(!(wbuf_link1 == ((unsigned char *)NULL)))
             {
               pthread_mutex_lock(&mutw);
-              rqt_wcnt = (signed int)(wbuf$link1 - owbuf);
+              rqt_wcnt = (signed int)(wbuf_link1 - owbuf);
               pthread_cond_signal(&condw);
               pthread_mutex_unlock(&mutw);
             }
@@ -8877,8 +8877,8 @@ void * requant_thread(void *p)
             while(rqt_rcnt == 0)
               pthread_cond_wait(&condr, &mutr);
             cbuf = rqt_rptr;
-            rbuf$link1 = cbuf;
-            rbuf$link1 = rbuf$link1 + (signed long int)(rqt_rcnt + 3);
+            rbuf_link1 = cbuf;
+            rbuf_link1 = rbuf_link1 + (signed long int)(rqt_rcnt + 3);
             rqt_rcnt = 0;
             owbuf = rqt_wptr;
             fact_x = rqt_fact;
@@ -8886,17 +8886,17 @@ void * requant_thread(void *p)
             outbytecnt = rqt_outbytes;
             orim2vsize = (signed long long int)rqt_visize;
             pthread_mutex_unlock(&mutr);
-            wbuf$link1 = owbuf;
+            wbuf_link1 = owbuf;
           }
 
           if((signed int)*cbuf >> 4 == 0x8)
           {
-            if(!(rbuf$link1 - cbuf >= 5l))
+            if(!(rbuf_link1 - cbuf >= 5l))
             {
-              if(!(wbuf$link1 == ((unsigned char *)NULL)))
+              if(!(wbuf_link1 == ((unsigned char *)NULL)))
               {
                 pthread_mutex_lock(&mutw);
-                rqt_wcnt = (signed int)(wbuf$link1 - owbuf);
+                rqt_wcnt = (signed int)(wbuf_link1 - owbuf);
                 pthread_cond_signal(&condw);
                 pthread_mutex_unlock(&mutw);
               }
@@ -8905,8 +8905,8 @@ void * requant_thread(void *p)
               while(rqt_rcnt == 0)
                 pthread_cond_wait(&condr, &mutr);
               cbuf = rqt_rptr;
-              rbuf$link1 = cbuf;
-              rbuf$link1 = rbuf$link1 + (signed long int)(rqt_rcnt + 3);
+              rbuf_link1 = cbuf;
+              rbuf_link1 = rbuf_link1 + (signed long int)(rqt_rcnt + 3);
               rqt_rcnt = 0;
               owbuf = rqt_wptr;
               fact_x = rqt_fact;
@@ -8914,7 +8914,7 @@ void * requant_thread(void *p)
               outbytecnt = rqt_outbytes;
               orim2vsize = (signed long long int)rqt_visize;
               pthread_mutex_unlock(&mutr);
-              wbuf$link1 = owbuf;
+              wbuf_link1 = owbuf;
             }
 
             f_code[(signed long int)0][(signed long int)0] = (unsigned int)(((signed int)cbuf[(signed long int)0] & 0xF) - 1);
@@ -8929,73 +8929,73 @@ void * requant_thread(void *p)
             intra_vlc_format = (unsigned int)((signed int)cbuf[(signed long int)3] >> 3 & 0x1);
             alternate_scan = (unsigned int)((signed int)cbuf[(signed long int)3] >> 2 & 0x1);
             if(f_code[0l][0l] >= 9u)
-              tmp_if_expr$10 = f_code[(signed long int)0][(signed long int)0] < (unsigned int)14 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_10 = f_code[(signed long int)0][(signed long int)0] < (unsigned int)14 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$10 = (_Bool)0;
-            if(tmp_if_expr$10)
-              tmp_if_expr$12 = (_Bool)1;
+              tmp_if_expr_10 = (_Bool)0;
+            if(tmp_if_expr_10)
+              tmp_if_expr_12 = (_Bool)1;
 
             else
             {
               if(f_code[0l][1l] >= 9u)
-                tmp_if_expr$11 = f_code[(signed long int)0][(signed long int)1] < (unsigned int)14 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_11 = f_code[(signed long int)0][(signed long int)1] < (unsigned int)14 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$11 = (_Bool)0;
-              tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_11 = (_Bool)0;
+              tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$12)
-              tmp_if_expr$14 = (_Bool)1;
+            if(tmp_if_expr_12)
+              tmp_if_expr_14 = (_Bool)1;
 
             else
             {
               if(f_code[1l][0l] >= 9u)
-                tmp_if_expr$13 = f_code[(signed long int)1][(signed long int)0] < (unsigned int)14 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_13 = f_code[(signed long int)1][(signed long int)0] < (unsigned int)14 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$13 = (_Bool)0;
-              tmp_if_expr$14 = tmp_if_expr$13 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_13 = (_Bool)0;
+              tmp_if_expr_14 = tmp_if_expr_13 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$14)
-              tmp_if_expr$16 = (_Bool)1;
+            if(tmp_if_expr_14)
+              tmp_if_expr_16 = (_Bool)1;
 
             else
             {
               if(f_code[1l][1l] >= 9u)
-                tmp_if_expr$15 = f_code[(signed long int)1][(signed long int)1] < (unsigned int)14 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_15 = f_code[(signed long int)1][(signed long int)1] < (unsigned int)14 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$15 = (_Bool)0;
-              tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_15 = (_Bool)0;
+              tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
             }
-            if(picture_structure == 0u || tmp_if_expr$16)
+            if(picture_structure == 0u || tmp_if_expr_16)
               validExtHeader = 0;
 
             else
               validExtHeader = 1;
-            memcpy((void *)wbuf$link1, (const void *)cbuf, (unsigned long int)5);
+            memcpy((void *)wbuf_link1, (const void *)cbuf, (unsigned long int)5);
             cbuf = cbuf + (signed long int)5;
-            wbuf$link1 = wbuf$link1 + (signed long int)5;
+            wbuf_link1 = wbuf_link1 + (signed long int)5;
           }
 
           else
           {
-            memcpy((void *)wbuf$link1, (const void *)cbuf, (unsigned long int)1);
+            memcpy((void *)wbuf_link1, (const void *)cbuf, (unsigned long int)1);
             cbuf = cbuf + (signed long int)1;
-            wbuf$link1 = wbuf$link1 + (signed long int)1;
+            wbuf_link1 = wbuf_link1 + (signed long int)1;
           }
         }
 
         else
           if((signed int)ID == 0xB8)
           {
-            if(!(rbuf$link1 - cbuf >= 4l))
+            if(!(rbuf_link1 - cbuf >= 4l))
             {
-              if(!(wbuf$link1 == ((unsigned char *)NULL)))
+              if(!(wbuf_link1 == ((unsigned char *)NULL)))
               {
                 pthread_mutex_lock(&mutw);
-                rqt_wcnt = (signed int)(wbuf$link1 - owbuf);
+                rqt_wcnt = (signed int)(wbuf_link1 - owbuf);
                 pthread_cond_signal(&condw);
                 pthread_mutex_unlock(&mutw);
               }
@@ -9004,8 +9004,8 @@ void * requant_thread(void *p)
               while(rqt_rcnt == 0)
                 pthread_cond_wait(&condr, &mutr);
               cbuf = rqt_rptr;
-              rbuf$link1 = cbuf;
-              rbuf$link1 = rbuf$link1 + (signed long int)(rqt_rcnt + 3);
+              rbuf_link1 = cbuf;
+              rbuf_link1 = rbuf_link1 + (signed long int)(rqt_rcnt + 3);
               rqt_rcnt = 0;
               owbuf = rqt_wptr;
               fact_x = rqt_fact;
@@ -9013,21 +9013,21 @@ void * requant_thread(void *p)
               outbytecnt = rqt_outbytes;
               orim2vsize = (signed long long int)rqt_visize;
               pthread_mutex_unlock(&mutr);
-              wbuf$link1 = owbuf;
+              wbuf_link1 = owbuf;
             }
 
-            memcpy((void *)wbuf$link1, (const void *)cbuf, (unsigned long int)4);
+            memcpy((void *)wbuf_link1, (const void *)cbuf, (unsigned long int)4);
             cbuf = cbuf + (signed long int)4;
-            wbuf$link1 = wbuf$link1 + (signed long int)4;
+            wbuf_link1 = wbuf_link1 + (signed long int)4;
           }
 
           else
             if((signed int)ID >= 0x01 && !(validExtHeader == 0) && !(validPicHeader == 0) && !(validSeqHeader == 0) && !((signed int)ID >= 176))
             {
-              unsigned char *outTemp = wbuf$link1;
+              unsigned char *outTemp = wbuf_link1;
               unsigned char *inTemp = cbuf;
               signed long long int threshold;
-              bytediff = (signed long long int)((float)(outbytecnt + (unsigned long int)(wbuf$link1 - owbuf)) - (float)(inbytecnt - (unsigned long int)(rbuf$link1 - cbuf)) / fact_x);
+              bytediff = (signed long long int)((float)(outbytecnt + (unsigned long int)(wbuf_link1 - owbuf)) - (float)(inbytecnt - (unsigned long int)(rbuf_link1 - cbuf)) / fact_x);
               if(!(inbytecnt >= (unsigned long int)greedyFactor2))
                 threshold = (signed long long int)(inbytecnt >> 1);
 
@@ -9062,23 +9062,23 @@ void * requant_thread(void *p)
                 mpeg2_slice((const signed int)ID);
                 flush_read_buffer();
                 flush_write_buffer();
-                if(sliceError >= 1 || !(cbuf - inTemp >= wbuf$link1 - outTemp))
+                if(sliceError >= 1 || !(cbuf - inTemp >= wbuf_link1 - outTemp))
                 {
                   memcpy((void *)outTemp, (const void *)inTemp, (unsigned long int)(cbuf - inTemp));
-                  wbuf$link1 = outTemp + (cbuf - inTemp);
-                  outbytecnt = outbytecnt - (unsigned long long int)((wbuf$link1 - outTemp) - (cbuf - inTemp));
+                  wbuf_link1 = outTemp + (cbuf - inTemp);
+                  outbytecnt = outbytecnt - (unsigned long long int)((wbuf_link1 - outTemp) - (cbuf - inTemp));
                 }
 
               }
 
             }
 
-    if(wbuf$link1 - owbuf >= 1l)
+    if(wbuf_link1 - owbuf >= 1l)
     {
       orbuf = orbuf;
       mloka1 = mloka1;
       mloka2 = mloka2;
-      eof$link1 = eof$link1;
+      eof_link1 = eof_link1;
     }
 
   }
@@ -9099,9 +9099,9 @@ static signed int scale_quant(double quant)
   signed int iquant;
   if(!(q_scale_type == 0u))
   {
-    double return_value_floor$1;
-    return_value_floor$1=floor(quant + 0.5);
-    iquant = (signed int)return_value_floor$1;
+    double return_value_floor_1;
+    return_value_floor_1=floor(quant + 0.5);
+    iquant = (signed int)return_value_floor_1;
     if(!(iquant >= 1))
       iquant = 1;
 
@@ -9113,9 +9113,9 @@ static signed int scale_quant(double quant)
 
   else
   {
-    double return_value_floor$2;
-    return_value_floor$2=floor(quant + 0.5);
-    iquant = (signed int)return_value_floor$2;
+    double return_value_floor_2;
+    return_value_floor_2=floor(quant + 0.5);
+    iquant = (signed int)return_value_floor_2;
     if(!(iquant >= 2))
       iquant = 2;
 
@@ -9134,31 +9134,31 @@ void scan_track_map(signed int *map, unsigned int ntracks)
   unsigned int i = (unsigned int)1;
   unsigned int track;
   char *op = optarg;
-  unsigned int tmp_post$1;
-  _Bool tmp_if_expr$3;
-  char *tmp_post$2;
+  unsigned int tmp_post_1;
+  _Bool tmp_if_expr_3;
+  char *tmp_post_2;
   do
   {
-    signed long int return_value_strtol$4;
-    return_value_strtol$4=strtol(op, &op, 10);
-    track = (unsigned int)(return_value_strtol$4 - (signed long int)1);
+    signed long int return_value_strtol_4;
+    return_value_strtol_4=strtol(op, &op, 10);
+    track = (unsigned int)(return_value_strtol_4 - (signed long int)1);
     if(track >= ntracks)
       usage();
 
     map[(signed long int)track] = (signed int)i;
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1u;
-    if(ntracks >= tmp_post$1)
+    if(ntracks >= tmp_post_1)
     {
-      tmp_post$2 = op;
+      tmp_post_2 = op;
       op = op + 1l;
-      tmp_if_expr$3 = *tmp_post$2 != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = *tmp_post_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
 }
 
 // skip
@@ -9173,15 +9173,15 @@ static inline void skip(signed int size)
 static inline signed int slice_init(signed int code)
 {
   signed int offset;
-  const struct anonymous$7 *mba;
+  const struct anonymous_7 *mba;
   mb_out = 0;
   v_offset = (code - 1) * 16;
-  signed int return_value_get_quantizer_scale$1;
-  return_value_get_quantizer_scale$1=get_quantizer_scale();
-  quantizer_scale = (unsigned int)return_value_get_quantizer_scale$1;
-  signed int return_value_getNewQuant$2;
-  return_value_getNewQuant$2=getNewQuant((signed int)quantizer_scale, 0);
-  new_quantizer_scale = (unsigned int)return_value_getNewQuant$2;
+  signed int return_value_get_quantizer_scale_1;
+  return_value_get_quantizer_scale_1=get_quantizer_scale();
+  quantizer_scale = (unsigned int)return_value_get_quantizer_scale_1;
+  signed int return_value_getNewQuant_2;
+  return_value_getNewQuant_2=getNewQuant((signed int)quantizer_scale, 0);
+  new_quantizer_scale = (unsigned int)return_value_getNewQuant_2;
   put_quantiser((signed int)new_quantizer_scale);
   while(!((0x80000000 & inbitbuf) == 0u))
     Flush_Bits((unsigned int)9);
@@ -9268,16 +9268,16 @@ static void vap_leader(void)
   unsigned char *ptr;
   signed int id;
   signed int data_length;
-  signed int return_value_lock$1;
-  signed int return_value_check_video_packet$2;
-  unsigned long int return_value_rtell$3;
-  signed int tmp_statement_expression$5;
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_rtell$4;
+  signed int return_value_lock_1;
+  signed int return_value_check_video_packet_2;
+  unsigned long int return_value_rtell_3;
+  signed int tmp_statement_expression_5;
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_rtell_4;
   do
   {
-    return_value_lock$1=lock(2048);
-    if(!(return_value_lock$1 == 0))
+    return_value_lock_1=lock(2048);
+    if(!(return_value_lock_1 == 0))
       break;
 
     ptr = rptr;
@@ -9288,8 +9288,8 @@ static void vap_leader(void)
     {
       case 0xe0:
       {
-        return_value_check_video_packet$2=check_video_packet(ptr);
-        if(!(return_value_check_video_packet$2 == 0))
+        return_value_check_video_packet_2=check_video_packet(ptr);
+        if(!(return_value_check_video_packet_2 == 0))
           goto __CPROVER_DUMP_L17;
 
         copy(2048);
@@ -9330,8 +9330,8 @@ static void vap_leader(void)
         data_length = data_length | (signed int)ptr[(signed long int)5];
         if(!(data_length == 2028))
         {
-          return_value_rtell$3=rtell(ptr);
-          fatal("Bad padding packet length at %llu: %d", return_value_rtell$3, data_length);
+          return_value_rtell_3=rtell(ptr);
+          fatal("Bad padding packet length at %llu: %d", return_value_rtell_3, data_length);
         }
 
         break;
@@ -9340,18 +9340,18 @@ static void vap_leader(void)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$6;
-        return_value___builtin_strcmp$6=__builtin_strcmp((char *)(ptr + (signed long int)6), "Vamps-data");
-        tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-        if(!(tmp_statement_expression$5 == 0))
-          tmp_if_expr$7 = (_Bool)1;
+        signed int return_value___builtin_strcmp_6;
+        return_value___builtin_strcmp_6=__builtin_strcmp((char *)(ptr + (signed long int)6), "Vamps-data");
+        tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+        if(!(tmp_statement_expression_5 == 0))
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = (signed int)ptr[(signed long int)17] != 0x01 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (signed int)ptr[(signed long int)17] != 0x01 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
         {
-          return_value_rtell$4=rtell(ptr);
-          fatal("Misplaced private stream 2 pack at %llu", return_value_rtell$4);
+          return_value_rtell_4=rtell(ptr);
+          fatal("Misplaced private stream 2 pack at %llu", return_value_rtell_4);
         }
 
         skip(2048);
@@ -9359,9 +9359,9 @@ static void vap_leader(void)
       }
       default:
       {
-        unsigned long int return_value_rtell$8;
-        return_value_rtell$8=rtell(ptr);
-        fatal("Encountered stream ID %02x at %llu, probably bad MPEG2 program stream", id, return_value_rtell$8);
+        unsigned long int return_value_rtell_8;
+        return_value_rtell_8=rtell(ptr);
+        fatal("Encountered stream ID %02x at %llu, probably bad MPEG2 program stream", id, return_value_rtell_8);
       }
     }
     if(wptr == wbuf + 4194304l)
@@ -9390,20 +9390,20 @@ static inline signed int vap_phase1(void)
   signed int seqhdr;
   signed int cell_gap;
   seq_length = 0;
-  signed int return_value_lock$1;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  signed int return_value_new_private_1_type$6;
-  signed int return_value_new_mpeg_audio_id$7;
-  unsigned long int return_value_rtell$8;
-  signed int tmp_statement_expression$10;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_rtell$9;
-  signed int tmp_post$13;
+  signed int return_value_lock_1;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  signed int return_value_new_private_1_type_6;
+  signed int return_value_new_mpeg_audio_id_7;
+  unsigned long int return_value_rtell_8;
+  signed int tmp_statement_expression_10;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_rtell_9;
+  signed int tmp_post_13;
   do
   {
-    return_value_lock$1=lock(seq_length + 2048);
-    if(!(return_value_lock$1 == 0))
+    return_value_lock_1=lock(seq_length + 2048);
+    if(!(return_value_lock_1 == 0))
       break;
 
     ptr = rptr + (signed long int)seq_length;
@@ -9438,17 +9438,17 @@ static inline signed int vap_phase1(void)
         {
           signed int i = (signed int)(viptr - vibuf);
           vbuf_size = vbuf_size + 1024 * 1024;
-          void *return_value_realloc$2;
-          return_value_realloc$2=realloc((void *)vibuf, (unsigned long int)vbuf_size);
-          vibuf = (unsigned char *)return_value_realloc$2;
-          void *return_value_realloc$3;
-          return_value_realloc$3=realloc((void *)vobuf, (unsigned long int)vbuf_size);
-          vobuf = (unsigned char *)return_value_realloc$3;
+          void *return_value_realloc_2;
+          return_value_realloc_2=realloc((void *)vibuf, (unsigned long int)vbuf_size);
+          vibuf = (unsigned char *)return_value_realloc_2;
+          void *return_value_realloc_3;
+          return_value_realloc_3=realloc((void *)vobuf, (unsigned long int)vbuf_size);
+          vobuf = (unsigned char *)return_value_realloc_3;
           if(vibuf == ((unsigned char *)NULL) || vobuf == ((unsigned char *)NULL))
           {
-            return_value___errno_location$4=__errno_location();
-            return_value_strerror$5=strerror(*return_value___errno_location$4);
-            fatal("Reallocation of video buffers failed: %s", return_value_strerror$5);
+            return_value___errno_location_4=__errno_location();
+            return_value_strerror_5=strerror(*return_value___errno_location_4);
+            fatal("Reallocation of video buffers failed: %s", return_value_strerror_5);
           }
 
           viptr = vibuf + (signed long int)i;
@@ -9461,8 +9461,8 @@ static inline signed int vap_phase1(void)
       case 0xbd:
       {
         aux_packs = aux_packs + 1;
-        return_value_new_private_1_type$6=new_private_1_type(ptr);
-        if(return_value_new_private_1_type$6 == 0)
+        return_value_new_private_1_type_6=new_private_1_type(ptr);
+        if(return_value_new_private_1_type_6 == 0)
           skipped_aux_packs = skipped_aux_packs + 1;
 
         break;
@@ -9484,8 +9484,8 @@ static inline signed int vap_phase1(void)
       case 0xc7:
       {
         aux_packs = aux_packs + 1;
-        return_value_new_mpeg_audio_id$7=new_mpeg_audio_id(id);
-        if(return_value_new_mpeg_audio_id$7 == 0)
+        return_value_new_mpeg_audio_id_7=new_mpeg_audio_id(id);
+        if(return_value_new_mpeg_audio_id_7 == 0)
           skipped_aux_packs = skipped_aux_packs + 1;
 
         break;
@@ -9502,8 +9502,8 @@ static inline signed int vap_phase1(void)
         data_length = data_length | (signed int)ptr[(signed long int)5];
         if(!(data_length == 2028))
         {
-          return_value_rtell$8=rtell(ptr);
-          fatal("Bad padding packet length at %llu: %d", return_value_rtell$8, data_length);
+          return_value_rtell_8=rtell(ptr);
+          fatal("Bad padding packet length at %llu: %d", return_value_rtell_8, data_length);
         }
 
         break;
@@ -9512,34 +9512,34 @@ static inline signed int vap_phase1(void)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$11;
-        return_value___builtin_strcmp$11=__builtin_strcmp((char *)(ptr + (signed long int)6), "Vamps-data");
-        tmp_statement_expression$10 = return_value___builtin_strcmp$11;
-        if(!(tmp_statement_expression$10 == 0))
-          tmp_if_expr$12 = (_Bool)1;
+        signed int return_value___builtin_strcmp_11;
+        return_value___builtin_strcmp_11=__builtin_strcmp((char *)(ptr + (signed long int)6), "Vamps-data");
+        tmp_statement_expression_10 = return_value___builtin_strcmp_11;
+        if(!(tmp_statement_expression_10 == 0))
+          tmp_if_expr_12 = (_Bool)1;
 
         else
-          tmp_if_expr$12 = (signed int)ptr[(signed long int)17] != 0x01 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$12)
+          tmp_if_expr_12 = (signed int)ptr[(signed long int)17] != 0x01 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_12)
         {
-          return_value_rtell$9=rtell(ptr);
-          fatal("Misplaced private stream 2 pack at %llu", return_value_rtell$9);
+          return_value_rtell_9=rtell(ptr);
+          fatal("Misplaced private stream 2 pack at %llu", return_value_rtell_9);
         }
 
         cell_gap = (signed int)ptr[(signed long int)18] << 8;
         cell_gap = cell_gap | (signed int)ptr[(signed long int)19];
-        tmp_post$13 = cell_gap;
+        tmp_post_13 = cell_gap;
         cell_gap = cell_gap - 1;
-        cell_gap_packs = cell_gap_packs + tmp_post$13;
+        cell_gap_packs = cell_gap_packs + tmp_post_13;
         total_packs = total_packs + cell_gap;
         bytes_read = bytes_read + (unsigned long int)(cell_gap * 2048);
         break;
       }
       default:
       {
-        unsigned long int return_value_rtell$14;
-        return_value_rtell$14=rtell(ptr);
-        fatal("Encountered stream ID %02x at %llu, probably bad MPEG2 program stream", id, return_value_rtell$14);
+        unsigned long int return_value_rtell_14;
+        return_value_rtell_14=rtell(ptr);
+        fatal("Encountered stream ID %02x at %llu, probably bad MPEG2 program stream", id, return_value_rtell_14);
       }
     }
     seq_length = seq_length + 2048;
@@ -9561,10 +9561,10 @@ static inline void vap_phase2(signed int seq_length)
   unsigned char *voptr = vobuf;
   unsigned char *vohwp = vobuf + (signed long int)volen;
   i = 0;
-  unsigned long int return_value_rtell$2;
-  signed int tmp_statement_expression$4;
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_rtell$3;
+  unsigned long int return_value_rtell_2;
+  signed int tmp_statement_expression_4;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_rtell_3;
   for( ; !(i >= seq_length); i = i + 2048)
   {
     ptr = rptr + (signed long int)14;
@@ -9576,9 +9576,9 @@ static inline void vap_phase2(signed int seq_length)
         avail = (signed int)(vohwp - voptr);
         if(!(avail == 0))
         {
-          signed int return_value_gen_video_packet$1;
-          return_value_gen_video_packet$1=gen_video_packet(ptr, voptr, avail);
-          voptr = voptr + (signed long int)return_value_gen_video_packet$1;
+          signed int return_value_gen_video_packet_1;
+          return_value_gen_video_packet_1=gen_video_packet(ptr, voptr, avail);
+          voptr = voptr + (signed long int)return_value_gen_video_packet_1;
           copy(2048);
         }
 
@@ -9624,8 +9624,8 @@ static inline void vap_phase2(signed int seq_length)
         data_length = data_length | (signed int)ptr[(signed long int)5];
         if(!(data_length == 2028))
         {
-          return_value_rtell$2=rtell(ptr);
-          fatal("Bad padding packet length at %llu: %d", return_value_rtell$2, data_length);
+          return_value_rtell_2=rtell(ptr);
+          fatal("Bad padding packet length at %llu: %d", return_value_rtell_2, data_length);
         }
 
         break;
@@ -9634,18 +9634,18 @@ static inline void vap_phase2(signed int seq_length)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$5;
-        return_value___builtin_strcmp$5=__builtin_strcmp((char *)(ptr + (signed long int)6), "Vamps-data");
-        tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-        if(!(tmp_statement_expression$4 == 0))
-          tmp_if_expr$6 = (_Bool)1;
+        signed int return_value___builtin_strcmp_5;
+        return_value___builtin_strcmp_5=__builtin_strcmp((char *)(ptr + (signed long int)6), "Vamps-data");
+        tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+        if(!(tmp_statement_expression_4 == 0))
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = (signed int)ptr[(signed long int)17] != 0x01 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (signed int)ptr[(signed long int)17] != 0x01 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
         {
-          return_value_rtell$3=rtell(ptr);
-          fatal("Misplaced private stream 2 pack at %llu", return_value_rtell$3);
+          return_value_rtell_3=rtell(ptr);
+          fatal("Misplaced private stream 2 pack at %llu", return_value_rtell_3);
         }
 
         skip(2048);
@@ -9653,9 +9653,9 @@ static inline void vap_phase2(signed int seq_length)
       }
       default:
       {
-        unsigned long int return_value_rtell$7;
-        return_value_rtell$7=rtell(ptr);
-        fatal("Encountered stream ID %02x at %llu, probably bad MPEG2 program stream", id, return_value_rtell$7);
+        unsigned long int return_value_rtell_7;
+        return_value_rtell_7=rtell(ptr);
+        fatal("Encountered stream ID %02x at %llu, probably bad MPEG2 program stream", id, return_value_rtell_7);
       }
     }
     if(wptr == wbuf + 4194304l)
@@ -9673,10 +9673,10 @@ static void vap_trailer(signed int length)
   signed int id;
   signed int data_length;
   i = 0;
-  unsigned long int return_value_rtell$1;
-  signed int tmp_statement_expression$3;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_rtell$2;
+  unsigned long int return_value_rtell_1;
+  signed int tmp_statement_expression_3;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_rtell_2;
   for( ; !(i >= length); i = i + 2048)
   {
     ptr = rptr + (signed long int)14;
@@ -9695,8 +9695,8 @@ static void vap_trailer(signed int length)
           data_length = data_length | (signed int)ptr[(signed long int)5];
           if(!(data_length == 2028))
           {
-            return_value_rtell$1=rtell(ptr);
-            fatal("Bad padding packet length at %llu: %d", return_value_rtell$1, data_length);
+            return_value_rtell_1=rtell(ptr);
+            fatal("Bad padding packet length at %llu: %d", return_value_rtell_1, data_length);
           }
 
         }
@@ -9706,18 +9706,18 @@ static void vap_trailer(signed int length)
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$4;
-            return_value___builtin_strcmp$4=__builtin_strcmp((char *)(ptr + (signed long int)6), "Vamps-data");
-            tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-            if(!(tmp_statement_expression$3 == 0))
-              tmp_if_expr$5 = (_Bool)1;
+            signed int return_value___builtin_strcmp_4;
+            return_value___builtin_strcmp_4=__builtin_strcmp((char *)(ptr + (signed long int)6), "Vamps-data");
+            tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+            if(!(tmp_statement_expression_3 == 0))
+              tmp_if_expr_5 = (_Bool)1;
 
             else
-              tmp_if_expr$5 = (signed int)ptr[(signed long int)17] != 0x01 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$5)
+              tmp_if_expr_5 = (signed int)ptr[(signed long int)17] != 0x01 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_5)
             {
-              return_value_rtell$2=rtell(ptr);
-              fatal("Misplaced private stream 2 pack at %llu", return_value_rtell$2);
+              return_value_rtell_2=rtell(ptr);
+              fatal("Misplaced private stream 2 pack at %llu", return_value_rtell_2);
             }
 
             skip(2048);
@@ -9794,13 +9794,13 @@ void write_injections(const char *filename)
   unsigned int i;
   struct _IO_FILE *fp;
   fp=fopen(filename, "w");
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("Failed creating injections file: %s: %s", filename, return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("Failed creating injections file: %s: %s", filename, return_value_strerror_2);
   }
 
   i = (unsigned int)0;
@@ -9823,9 +9823,9 @@ void write_injections(const char *filename)
     }
     _IO_putc(10, fp);
   }
-  signed int return_value_fclose$3;
-  return_value_fclose$3=fclose(fp);
-  if(!(return_value_fclose$3 == 0))
+  signed int return_value_fclose_3;
+  return_value_fclose_3=fclose(fp);
+  if(!(return_value_fclose_3 == 0))
     fatal("Failed writing injections file: %s: %s");
 
 }

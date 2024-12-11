@@ -1,98 +1,98 @@
-// tag-#anon#ST[*{V(SYM#tag-sigval#)->V}$V(SYM#tag-sigval#)->V$'_function'||*{SYM#tag-pthread_attr_t#}$SYM#tag-pthread_attr_t#$'_attribute'|]
+// tag-#anon#ST[*{V(SYM#tag-sigval#)->V}_V(SYM#tag-sigval#)->V_'_function'||*{SYM#tag-pthread_attr_t#}_SYM#tag-pthread_attr_t#_'_attribute'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 327
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S16'__flags'||U16'$pad0'||S32'__pgrp'||SYM#tag-#anon#ST[ARR16{U64}$U64$'__val'|]#'__sd'||SYM#tag-#anon#ST[ARR16{U64}$U64$'__val'|]#'__ss'||SYM#tag-sched_param#'__sp'||S32'__policy'||ARR16{S32}$S32$'__pad'|]
+// tag-#anon#ST[S16'__flags'||U16'_pad0'||S32'__pgrp'||SYM#tag-#anon#ST[ARR16{U64}_U64_'__val'|]#'__sd'||SYM#tag-#anon#ST[ARR16{U64}_U64_'__val'|]#'__ss'||SYM#tag-sched_param#'__sp'||S32'__policy'||ARR16{S32}_S32_'__pad'|]
 // file /usr/include/spawn.h line 30
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[S32'__allocated'||S32'__used'||*{SYM#tag-__spawn_action#}$SYM#tag-__spawn_action#$'__actions'||ARR16{S32}$S32$'__pad'|]
+// tag-#anon#ST[S32'__allocated'||S32'__used'||*{SYM#tag-__spawn_action#}_SYM#tag-__spawn_action#_'__actions'||ARR16{S32}_S32_'__pad'|]
 // file /usr/include/spawn.h line 44
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'b_errno'||ARR64{S8}$S8$'b_function'|]
+// tag-#anon#ST[S32'b_errno'||ARR64{S8}_S8_'b_function'|]
 // file netsys_c_spawn.c line 21
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#UN[*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'ifu_broadaddr'||*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'ifu_dstaddr'|]
+// tag-#anon#UN[*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'ifu_broadaddr'||*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'ifu_dstaddr'|]
 // file /usr/include/ifaddrs.h line 38
 union anonymous;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR12{S32}$S32$'_pad'||S32'_tid'||SYM#tag-#anon#ST[*{V(SYM#tag-sigval#)->V}$V(SYM#tag-sigval#)->V$'_function'||*{SYM#tag-pthread_attr_t#}$SYM#tag-pthread_attr_t#$'_attribute'|]#'_sigev_thread'|]
+// tag-#anon#UN[ARR12{S32}_S32_'_pad'||S32'_tid'||SYM#tag-#anon#ST[*{V(SYM#tag-sigval#)->V}_V(SYM#tag-sigval#)->V_'_function'||*{SYM#tag-pthread_attr_t#}_SYM#tag-pthread_attr_t#_'_attribute'|]#'_sigev_thread'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 319
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[ARR256{S8}$S8$'buffer'||SYM#tag-#anon#ST[S32'b_errno'||ARR64{S8}$S8$'b_function'|]#'decoded'|]
+// tag-#anon#UN[ARR256{S8}_S8_'buffer'||SYM#tag-#anon#ST[S32'b_errno'||ARR64{S8}_S8_'b_function'|]#'decoded'|]
 // file netsys_c_spawn.c line 19
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$9;
+union anonymous_9;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -301,9 +301,9 @@ struct timespec;
 // __bswap_32
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx);
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1);
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
@@ -339,7 +339,7 @@ static signed long int alloc_poll_aggreg(void);
 static signed long int alloc_poll_mem(signed int n);
 // alloc_sem_block
 // file netsys_c_sem.c line 43
-static signed long int alloc_sem_block(union anonymous$5 *s, signed int close_flag);
+static signed long int alloc_sem_block(union anonymous_5 *s, signed int close_flag);
 // alloc_timespec_pair
 // file netsys_c_clock.c line 44
 static signed long int alloc_timespec_pair(double sec, signed long int nsec);
@@ -1479,7 +1479,7 @@ extern signed int getpid(void);
 extern signed int getsid(signed int);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous$9, unsigned int *);
+extern signed int getsockname(signed int, union anonymous_9, unsigned int *);
 // grantpt
 // file /usr/include/stdlib.h line 923
 extern signed int grantpt(signed int);
@@ -2268,37 +2268,37 @@ extern signed int posix_memalign(void **, unsigned long int, unsigned long int);
 extern signed int posix_openpt(signed int);
 // posix_spawn
 // file /usr/include/spawn.h line 72
-extern signed int posix_spawn(signed int *, const char *, const struct anonymous$8 *, const struct anonymous$22 *, char * const * restrict , char * const * restrict );
+extern signed int posix_spawn(signed int *, const char *, const struct anonymous_8 *, const struct anonymous_22 *, char * const * restrict , char * const * restrict );
 // posix_spawn_file_actions_addclose
 // file /usr/include/spawn.h line 178
-extern signed int posix_spawn_file_actions_addclose(struct anonymous$8 *, signed int);
+extern signed int posix_spawn_file_actions_addclose(struct anonymous_8 *, signed int);
 // posix_spawn_file_actions_adddup2
 // file /usr/include/spawn.h line 184
-extern signed int posix_spawn_file_actions_adddup2(struct anonymous$8 *, signed int, signed int);
+extern signed int posix_spawn_file_actions_adddup2(struct anonymous_8 *, signed int, signed int);
 // posix_spawn_file_actions_destroy
 // file /usr/include/spawn.h line 164
-extern signed int posix_spawn_file_actions_destroy(struct anonymous$8 *);
+extern signed int posix_spawn_file_actions_destroy(struct anonymous_8 *);
 // posix_spawn_file_actions_init
 // file /usr/include/spawn.h line 160
-extern signed int posix_spawn_file_actions_init(struct anonymous$8 *);
+extern signed int posix_spawn_file_actions_init(struct anonymous_8 *);
 // posix_spawnattr_destroy
 // file /usr/include/spawn.h line 94
-extern signed int posix_spawnattr_destroy(struct anonymous$22 *);
+extern signed int posix_spawnattr_destroy(struct anonymous_22 *);
 // posix_spawnattr_init
 // file /usr/include/spawn.h line 91
-extern signed int posix_spawnattr_init(struct anonymous$22 *);
+extern signed int posix_spawnattr_init(struct anonymous_22 *);
 // posix_spawnattr_setflags
 // file /usr/include/spawn.h line 125
-extern signed int posix_spawnattr_setflags(struct anonymous$22 *, signed short int);
+extern signed int posix_spawnattr_setflags(struct anonymous_22 *, signed short int);
 // posix_spawnattr_setpgroup
 // file /usr/include/spawn.h line 134
-extern signed int posix_spawnattr_setpgroup(struct anonymous$22 *, signed int);
+extern signed int posix_spawnattr_setpgroup(struct anonymous_22 *, signed int);
 // posix_spawnattr_setsigdefault
 // file /usr/include/spawn.h line 104
-extern signed int posix_spawnattr_setsigdefault(struct anonymous$22 *, const struct anonymous$2 *);
+extern signed int posix_spawnattr_setsigdefault(struct anonymous_22 *, const struct anonymous_2 *);
 // posix_spawnattr_setsigmask
 // file /usr/include/spawn.h line 115
-extern signed int posix_spawnattr_setsigmask(struct anonymous$22 *, const struct anonymous$2 *);
+extern signed int posix_spawnattr_setsigmask(struct anonymous_22 *, const struct anonymous_2 *);
 // prep_stat_queue
 // file netsys_c_mem.c line 1166
 static signed int prep_stat_queue(void);
@@ -2310,16 +2310,16 @@ static signed int prep_stat_tab(void);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$4 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$2 *, struct anonymous$2 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_2 *, struct anonymous_2 *);
 // ptsname
 // file /usr/include/stdlib.h line 932
 extern char * ptsname(signed int);
@@ -2358,31 +2358,31 @@ extern signed long int recv(signed int, void *, unsigned long int, signed int);
 extern signed int renameat(signed int, const char *, signed int, const char *);
 // sem_close
 // file /usr/include/semaphore.h line 45
-extern signed int sem_close(union anonymous$5 *);
+extern signed int sem_close(union anonymous_5 *);
 // sem_destroy
 // file /usr/include/semaphore.h line 39
-extern signed int sem_destroy(union anonymous$5 *);
+extern signed int sem_destroy(union anonymous_5 *);
 // sem_getvalue
 // file /usr/include/semaphore.h line 72
-extern signed int sem_getvalue(union anonymous$5 *, signed int *);
+extern signed int sem_getvalue(union anonymous_5 *, signed int *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$5 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_5 *, signed int, unsigned int);
 // sem_open
 // file /usr/include/semaphore.h line 42
-extern union anonymous$5 * sem_open(const char *, signed int, ...);
+extern union anonymous_5 * sem_open(const char *, signed int, ...);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$5 *);
+extern signed int sem_post(union anonymous_5 *);
 // sem_trywait
 // file /usr/include/semaphore.h line 66
-extern signed int sem_trywait(union anonymous$5 *);
+extern signed int sem_trywait(union anonymous_5 *);
 // sem_unlink
 // file /usr/include/semaphore.h line 48
 extern signed int sem_unlink(const char *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$5 *);
+extern signed int sem_wait(union anonymous_5 *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -2412,10 +2412,10 @@ extern signed int shm_unlink(const char *);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$2 *, signed int);
+extern signed int sigaddset(struct anonymous_2 *, signed int);
 // sigchld_action
 // file netsys_c_subprocess.c line 195
-static void sigchld_action(signed int signo, struct anonymous$21 *info, void *ctx);
+static void sigchld_action(signed int signo, struct anonymous_21 *info, void *ctx);
 // sigchld_consumer
 // file netsys_c_subprocess.c line 152
 static void * sigchld_consumer(void *arg);
@@ -2436,13 +2436,13 @@ static void sigchld_producer(signed int pid);
 static void sigchld_unlock(signed int unblock_signal);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$2 *);
+extern signed int sigemptyset(struct anonymous_2 *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$2 *);
+extern signed int sigfillset(struct anonymous_2 *);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$2 *, struct anonymous$2 *);
+extern signed int sigprocmask(signed int, const struct anonymous_2 *, struct anonymous_2 *);
 // socket_domain
 // file netsys_c_multicast.c line 25
 static signed int socket_domain(signed int fd);
@@ -2900,7 +2900,7 @@ extern signed int waitpid(signed int, signed int *, signed int);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$0
+struct anonymous_0
 {
   // _function
   void (*_function)(union sigval);
@@ -2908,7 +2908,7 @@ struct anonymous$0
   union pthread_attr_t *_attribute;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // _call_addr
   void *_call_addr;
@@ -2918,7 +2918,7 @@ struct anonymous$19
   unsigned int _arch;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_addr
   void *si_addr;
@@ -2926,7 +2926,7 @@ struct anonymous$17
   signed short int si_addr_lsb;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __val
   unsigned long int __val[16l];
@@ -2938,16 +2938,16 @@ struct sched_param
   signed int __sched_priority;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // __flags
   signed short int __flags;
   // __pgrp
   signed int __pgrp;
   // __sd
-  struct anonymous$2 __sd;
+  struct anonymous_2 __sd;
   // __ss
-  struct anonymous$2 __ss;
+  struct anonymous_2 __ss;
   // __sp
   struct sched_param __sp;
   // __policy
@@ -2956,7 +2956,7 @@ struct anonymous$22
   signed int __pad[16l];
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // __allocated
   signed int __allocated;
@@ -2968,7 +2968,7 @@ struct anonymous$8
   signed int __pad[16l];
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // b_errno
   signed int b_errno;
@@ -2976,7 +2976,7 @@ struct anonymous$10
   char b_function[64l];
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_pid
   signed int si_pid;
@@ -2984,7 +2984,7 @@ struct anonymous$13
   unsigned int si_uid;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_pid
   signed int si_pid;
@@ -3006,7 +3006,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_pid
   signed int si_pid;
@@ -3016,7 +3016,7 @@ struct anonymous$15
   union sigval si_sigval;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_tid
   signed int si_tid;
@@ -3026,7 +3026,7 @@ struct anonymous$14
   union sigval si_sigval;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_band
   signed long int si_band;
@@ -3034,27 +3034,27 @@ struct anonymous$18
   signed int si_fd;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$13 _kill;
+  struct anonymous_13 _kill;
   // _timer
-  struct anonymous$14 _timer;
+  struct anonymous_14 _timer;
   // _rt
-  struct anonymous$15 _rt;
+  struct anonymous_15 _rt;
   // _sigchld
-  struct anonymous$16 _sigchld;
+  struct anonymous_16 _sigchld;
   // _sigfault
-  struct anonymous$17 _sigfault;
+  struct anonymous_17 _sigfault;
   // _sigpoll
-  struct anonymous$18 _sigpoll;
+  struct anonymous_18 _sigpoll;
   // _sigsys
-  struct anonymous$19 _sigsys;
+  struct anonymous_19 _sigsys;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // si_signo
   signed int si_signo;
@@ -3063,7 +3063,7 @@ struct anonymous$21
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$20 _sifields;
+  union anonymous_20 _sifields;
 };
 
 union anonymous
@@ -3074,25 +3074,25 @@ union anonymous
   struct sockaddr *ifu_dstaddr;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$21 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_21 *, void *);
 };
 
-union anonymous$1
+union anonymous_1
 {
   // _pad
   signed int _pad[12l];
   // _tid
   signed int _tid;
   // _sigev_thread
-  struct anonymous$0 _sigev_thread;
+  struct anonymous_0 _sigev_thread;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -3102,15 +3102,15 @@ union anonymous$6
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$11
+union anonymous_11
 {
   // buffer
   char buffer[256l];
   // decoded
-  struct anonymous$10 decoded;
+  struct anonymous_10 decoded;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __size
   char __size[32l];
@@ -3118,7 +3118,7 @@ union anonymous$5
   signed long int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[4l];
@@ -3154,7 +3154,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -3164,7 +3164,7 @@ union anonymous$3
   signed long int __align;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -3194,7 +3194,7 @@ union anonymous$7
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -3409,7 +3409,7 @@ struct ifaddrs
 struct in6_addr
 {
   // __in6_u
-  union anonymous$6 __in6_u;
+  union anonymous_6 __in6_u;
 };
 
 struct in_addr
@@ -3473,7 +3473,7 @@ struct not_event
   // allow_user_add
   signed int allow_user_add;
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
 };
 
 struct nqueue
@@ -3519,7 +3519,7 @@ union pthread_attr_t
 struct sem_block
 {
   // sem_ptr
-  union anonymous$5 *sem_ptr;
+  union anonymous_5 *sem_ptr;
   // sem_close_flag
   signed int sem_close_flag;
 };
@@ -3527,9 +3527,9 @@ struct sem_block
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$12 __sigaction_handler;
+  union anonymous_12 __sigaction_handler;
   // sa_mask
-  struct anonymous$2 sa_mask;
+  struct anonymous_2 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -3565,7 +3565,7 @@ struct sigevent
   // sigev_notify
   signed int sigev_notify;
   // _sigev_un
-  union anonymous$1 _sigev_un;
+  union anonymous_1 _sigev_un;
 };
 
 struct sockaddr
@@ -4136,7 +4136,7 @@ static signed int sigchld_list_cnt = 0;
 static signed int sigchld_list_len = 0;
 // sigchld_mutex
 // file netsys_c_subprocess.c line 32
-static union anonymous$3 sigchld_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_3 sigchld_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // sigchld_pipe_rd
@@ -4168,18 +4168,18 @@ static signed int syslog_opt_flags[5l] = { 0x02, 0x08, 0x04, 0x10, 0x01 };
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1)
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1)
 {
-  signed long int return_value___builtin_bswap32$1$link1;
-  return_value___builtin_bswap32$1$link1=__builtin_bswap32((signed long int)__bsx$link1);
-  return (unsigned int)return_value___builtin_bswap32$1$link1;
+  signed long int return_value___builtin_bswap32_1_link1;
+  return_value___builtin_bswap32_1_link1=__builtin_bswap32((signed long int)__bsx_link1);
+  return (unsigned int)return_value___builtin_bswap32_1_link1;
 }
 
 // alloc_not_event
@@ -4188,9 +4188,9 @@ static signed long int alloc_not_event(void)
 {
   struct not_event *p;
   signed long int r;
-  void *return_value_caml_stat_alloc$1;
-  return_value_caml_stat_alloc$1=caml_stat_alloc(sizeof(struct not_event) /*64ul*/ );
-  p = (struct not_event *)return_value_caml_stat_alloc$1;
+  void *return_value_caml_stat_alloc_1;
+  return_value_caml_stat_alloc_1=caml_stat_alloc(sizeof(struct not_event) /*64ul*/ );
+  p = (struct not_event *)return_value_caml_stat_alloc_1;
   r=caml_alloc_custom(&not_event_ops, sizeof(struct not_event *) /*8ul*/ , (unsigned long int)0, (unsigned long int)1);
   *((struct not_event **)(void *)&((signed long int *)r)[(signed long int)1]) = p;
   return r;
@@ -4202,9 +4202,9 @@ static signed long int alloc_poll_aggreg(void)
 {
   struct poll_aggreg *p;
   signed long int r;
-  void *return_value_caml_stat_alloc$1;
-  return_value_caml_stat_alloc$1=caml_stat_alloc(sizeof(struct poll_aggreg) /*12ul*/ );
-  p = (struct poll_aggreg *)return_value_caml_stat_alloc$1;
+  void *return_value_caml_stat_alloc_1;
+  return_value_caml_stat_alloc_1=caml_stat_alloc(sizeof(struct poll_aggreg) /*12ul*/ );
+  p = (struct poll_aggreg *)return_value_caml_stat_alloc_1;
   r=caml_alloc_custom(&poll_aggreg_ops, sizeof(struct poll_aggreg *) /*8ul*/ , (unsigned long int)1, (unsigned long int)0);
   *((struct poll_aggreg **)(void *)&((signed long int *)r)[(signed long int)1]) = p;
   return r;
@@ -4216,9 +4216,9 @@ static signed long int alloc_poll_mem(signed int n)
 {
   struct pollfd *p;
   signed long int r;
-  void *return_value_caml_stat_alloc$1;
-  return_value_caml_stat_alloc$1=caml_stat_alloc((unsigned long int)n * sizeof(struct pollfd) /*8ul*/ );
-  p = (struct pollfd *)return_value_caml_stat_alloc$1;
+  void *return_value_caml_stat_alloc_1;
+  return_value_caml_stat_alloc_1=caml_stat_alloc((unsigned long int)n * sizeof(struct pollfd) /*8ul*/ );
+  p = (struct pollfd *)return_value_caml_stat_alloc_1;
   r=caml_alloc_custom(&poll_mem_ops, sizeof(struct pollfd *) /*8ul*/ , (unsigned long int)n, (unsigned long int)100000);
   *((struct pollfd **)(void *)&((signed long int *)r)[(signed long int)1]) = p;
   return r;
@@ -4226,7 +4226,7 @@ static signed long int alloc_poll_mem(signed int n)
 
 // alloc_sem_block
 // file netsys_c_sem.c line 43
-static signed long int alloc_sem_block(union anonymous$5 *s, signed int close_flag)
+static signed long int alloc_sem_block(union anonymous_5 *s, signed int close_flag)
 {
   signed long int r;
   struct sem_block *sb;
@@ -4262,9 +4262,9 @@ static signed long int alloc_timespec_pair(double sec, signed long int nsec)
   while((_Bool)0);
   do
   {
-    unsigned long int alloc_timespec_pair$$1$$2$$caml__temp_offset = (unsigned long int)1;
-    signed long int alloc_timespec_pair$$1$$2$$caml__temp_val = ((signed long int)nsec << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)tsout)[(signed long int)alloc_timespec_pair$$1$$2$$caml__temp_offset], alloc_timespec_pair$$1$$2$$caml__temp_val);
+    unsigned long int alloc_timespec_pair__1__2__caml__temp_offset = (unsigned long int)1;
+    signed long int alloc_timespec_pair__1__2__caml__temp_val = ((signed long int)nsec << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)tsout)[(signed long int)alloc_timespec_pair__1__2__caml__temp_offset], alloc_timespec_pair__1__2__caml__temp_val);
   }
   while((_Bool)0);
   signed long int caml__temp_result = tsout;
@@ -4277,9 +4277,9 @@ static signed long int alloc_timespec_pair(double sec, signed long int nsec)
 static void ba_unmap_file(void *addr, unsigned long int len)
 {
   unsigned long int page;
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(30);
-  page = (unsigned long int)return_value_sysconf$1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(30);
+  page = (unsigned long int)return_value_sysconf_1;
   unsigned long int delta = (unsigned long int)addr % page;
   munmap((void *)((unsigned long int)addr - delta), len + delta);
 }
@@ -4358,39 +4358,39 @@ static void free_sem_block(signed long int v)
   struct sem_block *sb = (struct sem_block *)(void *)&((signed long int *)v)[(signed long int)1];
   if(!(sb->sem_close_flag == 0))
   {
-    if(!(sb->sem_ptr == ((union anonymous$5 *)NULL)))
+    if(!(sb->sem_ptr == ((union anonymous_5 *)NULL)))
       sem_close(sb->sem_ptr);
 
   }
 
-  sb->sem_ptr = (union anonymous$5 *)(void *)0;
+  sb->sem_ptr = (union anonymous_5 *)(void *)0;
 }
 
 // fstat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf)
 {
-  signed int return_value___fxstat$1;
-  return_value___fxstat$1=__fxstat(1, __fd, __statbuf);
-  return return_value___fxstat$1;
+  signed int return_value___fxstat_1;
+  return_value___fxstat_1=__fxstat(1, __fd, __statbuf);
+  return return_value___fxstat_1;
 }
 
 // ioprio_get
 // file netsys_c_ioprio.c line 49
 static inline signed int ioprio_get(signed int which, signed int who)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)252, which, who);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)252, which, who);
+  return (signed int)return_value_syscall_1;
 }
 
 // ioprio_set
 // file netsys_c_ioprio.c line 44
 static inline signed int ioprio_set(signed int which, signed int who, signed int ioprio)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)251, which, who, ioprio);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)251, which, who, ioprio);
+  return (signed int)return_value_syscall_1;
 }
 
 // main
@@ -4410,9 +4410,9 @@ static void make_timespec(signed long int tspair, struct timespec *ts)
   signed long int n;
   signed long int r;
   d = *((double *)((signed long int *)tspair)[(signed long int)0]);
-  signed int return_value___finite$1;
-  return_value___finite$1=__finite(d);
-  if(d < 0.000000 || return_value___finite$1 == 0 || d > 9.223372e+18)
+  signed int return_value___finite_1;
+  return_value___finite_1=__finite(d);
+  if(d < 0.000000 || return_value___finite_1 == 0 || d > 9.223372e+18)
     caml_failwith("Netsys_posix: time value out of range");
 
   n = ((signed long int *)tspair)[(signed long int)1] >> 1;
@@ -4420,9 +4420,9 @@ static void make_timespec(signed long int tspair, struct timespec *ts)
     caml_failwith("Netsys_posix: time value out of range");
 
   i=floor(d);
-  double return_value_floor$2;
-  return_value_floor$2=floor((d - i) * 1E9);
-  r = (signed long int)return_value_floor$2;
+  double return_value_floor_2;
+  return_value_floor_2=floor((d - i) * 1E9);
+  r = (signed long int)return_value_floor_2;
   r = r + n;
   for( ; r >= 1000000000l; i = i + (double)1)
     r = r - (signed long int)1000000000;
@@ -4434,9 +4434,9 @@ static void make_timespec(signed long int tspair, struct timespec *ts)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 482
 static inline signed int mknod(const char *__path, unsigned int __mode, unsigned long int __dev)
 {
-  signed int return_value___xmknod$1;
-  return_value___xmknod$1=__xmknod(0, __path, __mode, &__dev);
-  return return_value___xmknod$1;
+  signed int return_value___xmknod_1;
+  return_value___xmknod_1=__xmknod(0, __path, __mode, &__dev);
+  return return_value___xmknod_1;
 }
 
 // netstring_int_blit_ml
@@ -4463,19 +4463,19 @@ signed long int netstring_int_blit_ml(signed long int src, signed long int srcpo
   srcpos_c = srcpos >> 1;
   destpos_c = destpos >> 1;
   len_c = len >> 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(len_c >= 0l) || !(srcpos_c >= 0l))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (unsigned long int)(srcpos_c + len_c) > (unsigned long int)(((unsigned long int *)src)[(signed long int)-1] >> 10) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!(destpos_c >= 0l) || tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (unsigned long int)(srcpos_c + len_c) > (unsigned long int)(((unsigned long int *)src)[(signed long int)-1] >> 10) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!(destpos_c >= 0l) || tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (unsigned long int)(destpos_c + len_c) > (unsigned long int)(((unsigned long int *)dest)[(signed long int)-1] >> 10) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (unsigned long int)(destpos_c + len_c) > (unsigned long int)(((unsigned long int *)dest)[(signed long int)-1] >> 10) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     caml_invalid_argument("Netaccel.int_blit");
 
   if(srcpos_c >= destpos_c || !(src == dest))
@@ -4500,9 +4500,9 @@ signed long int netstring_int_blit_ml(signed long int src, signed long int srcpo
 // file netaccel_c.c line 73
 signed long int netstring_int_series_byte(signed long int *argv, signed int argn)
 {
-  signed long int return_value_netstring_int_series_ml$1;
-  return_value_netstring_int_series_ml$1=netstring_int_series_ml(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5]);
-  return return_value_netstring_int_series_ml$1;
+  signed long int return_value_netstring_int_series_ml_1;
+  return_value_netstring_int_series_ml_1=netstring_int_series_ml(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5]);
+  return return_value_netstring_int_series_ml_1;
 }
 
 // netstring_int_series_ml
@@ -4540,19 +4540,19 @@ signed long int netstring_int_series_ml(signed long int src, signed long int src
   destpos_c = destpos >> 1;
   len_c = len >> 1;
   n_c = n >> 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(len_c >= 0l) || !(srcpos_c >= 0l))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (unsigned long int)(srcpos_c + len_c) > (unsigned long int)(((unsigned long int *)src)[(signed long int)-1] >> 10) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!(destpos_c >= 0l) || tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (unsigned long int)(srcpos_c + len_c) > (unsigned long int)(((unsigned long int *)src)[(signed long int)-1] >> 10) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!(destpos_c >= 0l) || tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (unsigned long int)(destpos_c + len_c) > (unsigned long int)(((unsigned long int *)dest)[(signed long int)-1] >> 10) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (unsigned long int)(destpos_c + len_c) > (unsigned long int)(((unsigned long int *)dest)[(signed long int)-1] >> 10) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     caml_invalid_argument("Netaccel.int_series");
 
   s = n_c;
@@ -4571,9 +4571,9 @@ signed long int netstring_int_series_ml(signed long int src, signed long int src
 // file netaccel_c.c line 136
 signed long int netstring_read_iso88591_byte(signed long int *argv, signed int argn)
 {
-  signed long int return_value_netstring_read_iso88591_ml$1;
-  return_value_netstring_read_iso88591_ml$1=netstring_read_iso88591_ml(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5], argv[(signed long int)6]);
-  return return_value_netstring_read_iso88591_ml$1;
+  signed long int return_value_netstring_read_iso88591_ml_1;
+  return_value_netstring_read_iso88591_ml_1=netstring_read_iso88591_ml(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5], argv[(signed long int)6]);
+  return return_value_netstring_read_iso88591_ml_1;
 }
 
 // netstring_read_iso88591_ml
@@ -4625,17 +4625,17 @@ signed long int netstring_read_iso88591_ml(signed long int maxcode, signed long 
   if(!((unsigned long int)slice_char_len == ((unsigned long int *)slice_blen)[-1l] >> 10))
     caml_invalid_argument("Netaccel.read_iso88591");
 
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_caml_string_length$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_caml_string_length_1;
   if(!(l_in_c >= 0l) || !(p_in_c >= 0l))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_caml_string_length$1=caml_string_length(s_in);
-    tmp_if_expr$2 = (unsigned long int)(p_in_c + l_in_c) > return_value_caml_string_length$1 ? (_Bool)1 : (_Bool)0;
+    return_value_caml_string_length_1=caml_string_length(s_in);
+    tmp_if_expr_2 = (unsigned long int)(p_in_c + l_in_c) > return_value_caml_string_length_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     caml_invalid_argument("Netaccel.read_iso88591");
 
   m = l_in_c;
@@ -4652,9 +4652,9 @@ signed long int netstring_read_iso88591_ml(signed long int maxcode, signed long 
       r=caml_alloc_tuple((unsigned long int)3);
       do
       {
-        unsigned long int netstring_read_iso88591_ml$$1$$1$$1$$1$$1$$caml__temp_offset = (unsigned long int)0;
-        signed long int netstring_read_iso88591_ml$$1$$1$$1$$1$$1$$caml__temp_val = ((signed long int)k << 1) + (signed long int)1;
-        caml_modify(&((signed long int *)r)[(signed long int)netstring_read_iso88591_ml$$1$$1$$1$$1$$1$$caml__temp_offset], netstring_read_iso88591_ml$$1$$1$$1$$1$$1$$caml__temp_val);
+        unsigned long int netstring_read_iso88591_ml__1__1__1__1__1__caml__temp_offset = (unsigned long int)0;
+        signed long int netstring_read_iso88591_ml__1__1__1__1__1__caml__temp_val = ((signed long int)k << 1) + (signed long int)1;
+        caml_modify(&((signed long int *)r)[(signed long int)netstring_read_iso88591_ml__1__1__1__1__1__caml__temp_offset], netstring_read_iso88591_ml__1__1__1__1__1__caml__temp_val);
       }
       while((_Bool)0);
       do
@@ -4666,14 +4666,14 @@ signed long int netstring_read_iso88591_ml(signed long int maxcode, signed long 
       while((_Bool)0);
       do
       {
-        unsigned long int netstring_read_iso88591_ml$$1$$1$$1$$1$$3$$caml__temp_offset = (unsigned long int)2;
-        signed long int netstring_read_iso88591_ml$$1$$1$$1$$1$$3$$caml__temp_val = enc;
-        caml_modify(&((signed long int *)r)[(signed long int)netstring_read_iso88591_ml$$1$$1$$1$$1$$3$$caml__temp_offset], netstring_read_iso88591_ml$$1$$1$$1$$1$$3$$caml__temp_val);
+        unsigned long int netstring_read_iso88591_ml__1__1__1__1__3__caml__temp_offset = (unsigned long int)2;
+        signed long int netstring_read_iso88591_ml__1__1__1__1__3__caml__temp_val = enc;
+        caml_modify(&((signed long int *)r)[(signed long int)netstring_read_iso88591_ml__1__1__1__1__3__caml__temp_offset], netstring_read_iso88591_ml__1__1__1__1__3__caml__temp_val);
       }
       while((_Bool)0);
-      signed long int *return_value_caml_named_value$3;
-      return_value_caml_named_value$3=caml_named_value("Netconversion.Malformed_code_read");
-      caml_raise_with_arg(*return_value_caml_named_value$3, r);
+      signed long int *return_value_caml_named_value_3;
+      return_value_caml_named_value_3=caml_named_value("Netconversion.Malformed_code_read");
+      caml_raise_with_arg(*return_value_caml_named_value_3, r);
     }
 
     ((signed long int *)slice_char)[k] = ((signed long int)(signed int)ch << 1) + (signed long int)1;
@@ -4684,23 +4684,23 @@ signed long int netstring_read_iso88591_ml(signed long int maxcode, signed long 
   r=caml_alloc_tuple((unsigned long int)3);
   do
   {
-    unsigned long int netstring_read_iso88591_ml$$1$$3$$caml__temp_offset = (unsigned long int)0;
-    signed long int netstring_read_iso88591_ml$$1$$3$$caml__temp_val = ((signed long int)m << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_iso88591_ml$$1$$3$$caml__temp_offset], netstring_read_iso88591_ml$$1$$3$$caml__temp_val);
+    unsigned long int netstring_read_iso88591_ml__1__3__caml__temp_offset = (unsigned long int)0;
+    signed long int netstring_read_iso88591_ml__1__3__caml__temp_val = ((signed long int)m << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_iso88591_ml__1__3__caml__temp_offset], netstring_read_iso88591_ml__1__3__caml__temp_val);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int netstring_read_iso88591_ml$$1$$4$$caml__temp_offset = (unsigned long int)1;
-    signed long int netstring_read_iso88591_ml$$1$$4$$caml__temp_val = ((signed long int)m << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_iso88591_ml$$1$$4$$caml__temp_offset], netstring_read_iso88591_ml$$1$$4$$caml__temp_val);
+    unsigned long int netstring_read_iso88591_ml__1__4__caml__temp_offset = (unsigned long int)1;
+    signed long int netstring_read_iso88591_ml__1__4__caml__temp_val = ((signed long int)m << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_iso88591_ml__1__4__caml__temp_offset], netstring_read_iso88591_ml__1__4__caml__temp_val);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int netstring_read_iso88591_ml$$1$$5$$caml__temp_offset = (unsigned long int)2;
-    signed long int netstring_read_iso88591_ml$$1$$5$$caml__temp_val = enc;
-    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_iso88591_ml$$1$$5$$caml__temp_offset], netstring_read_iso88591_ml$$1$$5$$caml__temp_val);
+    unsigned long int netstring_read_iso88591_ml__1__5__caml__temp_offset = (unsigned long int)2;
+    signed long int netstring_read_iso88591_ml__1__5__caml__temp_val = enc;
+    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_iso88591_ml__1__5__caml__temp_offset], netstring_read_iso88591_ml__1__5__caml__temp_val);
   }
   while((_Bool)0);
   signed long int caml__temp_result = r;
@@ -4712,9 +4712,9 @@ signed long int netstring_read_iso88591_ml(signed long int maxcode, signed long 
 // file netaccel_c.c line 272
 signed long int netstring_read_utf8_byte(signed long int *argv, signed int argn)
 {
-  signed long int return_value_netstring_read_utf8_ml$1;
-  return_value_netstring_read_utf8_ml$1=netstring_read_utf8_ml(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5]);
-  return return_value_netstring_read_utf8_ml$1;
+  signed long int return_value_netstring_read_utf8_ml_1;
+  return_value_netstring_read_utf8_ml_1=netstring_read_utf8_ml(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5]);
+  return return_value_netstring_read_utf8_ml_1;
 }
 
 // netstring_read_utf8_ml
@@ -4772,17 +4772,17 @@ signed long int netstring_read_utf8_ml(signed long int is_java, signed long int 
   if(!((unsigned long int)slice_char_len == ((unsigned long int *)slice_blen)[-1l] >> 10))
     caml_invalid_argument("Netaccel.read_utf8");
 
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_caml_string_length$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_caml_string_length_1;
   if(!(l_in_c >= 0l) || !(p_in_c >= 0l))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_caml_string_length$1=caml_string_length(s_in);
-    tmp_if_expr$2 = (unsigned long int)(p_in_c + l_in_c) > return_value_caml_string_length$1 ? (_Bool)1 : (_Bool)0;
+    return_value_caml_string_length_1=caml_string_length(s_in);
+    tmp_if_expr_2 = (unsigned long int)(p_in_c + l_in_c) > return_value_caml_string_length_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     caml_invalid_argument("Netaccel.read_utf8");
 
   p = p_in_c;
@@ -4927,17 +4927,17 @@ signed long int netstring_read_utf8_ml(signed long int is_java, signed long int 
   while((_Bool)0);
   do
   {
-    unsigned long int netstring_read_utf8_ml$$1$$4$$caml__temp_offset = (unsigned long int)1;
-    signed long int netstring_read_utf8_ml$$1$$4$$caml__temp_val = ((signed long int)(p - p_in_c) << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_utf8_ml$$1$$4$$caml__temp_offset], netstring_read_utf8_ml$$1$$4$$caml__temp_val);
+    unsigned long int netstring_read_utf8_ml__1__4__caml__temp_offset = (unsigned long int)1;
+    signed long int netstring_read_utf8_ml__1__4__caml__temp_val = ((signed long int)(p - p_in_c) << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_utf8_ml__1__4__caml__temp_offset], netstring_read_utf8_ml__1__4__caml__temp_val);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int netstring_read_utf8_ml$$1$$5$$caml__temp_offset = (unsigned long int)2;
-    signed long int netstring_read_utf8_ml$$1$$5$$caml__temp_val;
-    netstring_read_utf8_ml$$1$$5$$caml__temp_val=caml_hash_variant("Enc_utf8");
-    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_utf8_ml$$1$$5$$caml__temp_offset], netstring_read_utf8_ml$$1$$5$$caml__temp_val);
+    unsigned long int netstring_read_utf8_ml__1__5__caml__temp_offset = (unsigned long int)2;
+    signed long int netstring_read_utf8_ml__1__5__caml__temp_val;
+    netstring_read_utf8_ml__1__5__caml__temp_val=caml_hash_variant("Enc_utf8");
+    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_utf8_ml__1__5__caml__temp_offset], netstring_read_utf8_ml__1__5__caml__temp_val);
   }
   while((_Bool)0);
   signed long int caml__temp_result = r;
@@ -4950,32 +4950,32 @@ malformed_code:
   r=caml_alloc_tuple((unsigned long int)3);
   do
   {
-    unsigned long int netstring_read_utf8_ml$$1$$7$$caml__temp_offset = (unsigned long int)0;
-    signed long int netstring_read_utf8_ml$$1$$7$$caml__temp_val = ((signed long int)n << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_utf8_ml$$1$$7$$caml__temp_offset], netstring_read_utf8_ml$$1$$7$$caml__temp_val);
+    unsigned long int netstring_read_utf8_ml__1__7__caml__temp_offset = (unsigned long int)0;
+    signed long int netstring_read_utf8_ml__1__7__caml__temp_val = ((signed long int)n << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_utf8_ml__1__7__caml__temp_offset], netstring_read_utf8_ml__1__7__caml__temp_val);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int netstring_read_utf8_ml$$1$$8$$caml__temp_offset = (unsigned long int)1;
-    signed long int netstring_read_utf8_ml$$1$$8$$caml__temp_val = ((signed long int)(p - p_in_c) << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_utf8_ml$$1$$8$$caml__temp_offset], netstring_read_utf8_ml$$1$$8$$caml__temp_val);
+    unsigned long int netstring_read_utf8_ml__1__8__caml__temp_offset = (unsigned long int)1;
+    signed long int netstring_read_utf8_ml__1__8__caml__temp_val = ((signed long int)(p - p_in_c) << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_utf8_ml__1__8__caml__temp_offset], netstring_read_utf8_ml__1__8__caml__temp_val);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int netstring_read_utf8_ml$$1$$9$$caml__temp_offset = (unsigned long int)2;
-    signed long int netstring_read_utf8_ml$$1$$9$$caml__temp_val;
-    netstring_read_utf8_ml$$1$$9$$caml__temp_val=caml_hash_variant("Enc_utf8");
-    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_utf8_ml$$1$$9$$caml__temp_offset], netstring_read_utf8_ml$$1$$9$$caml__temp_val);
+    unsigned long int netstring_read_utf8_ml__1__9__caml__temp_offset = (unsigned long int)2;
+    signed long int netstring_read_utf8_ml__1__9__caml__temp_val;
+    netstring_read_utf8_ml__1__9__caml__temp_val=caml_hash_variant("Enc_utf8");
+    caml_modify(&((signed long int *)r)[(signed long int)netstring_read_utf8_ml__1__9__caml__temp_offset], netstring_read_utf8_ml__1__9__caml__temp_val);
   }
   while((_Bool)0);
-  signed long int *return_value_caml_named_value$3;
-  return_value_caml_named_value$3=caml_named_value("Netconversion.Malformed_code_read");
-  caml_raise_with_arg(*return_value_caml_named_value$3, r);
-  signed long int netstring_read_utf8_ml$$1$$10$$caml__temp_result = ((signed long int)0 << 1) + (signed long int)1;
+  signed long int *return_value_caml_named_value_3;
+  return_value_caml_named_value_3=caml_named_value("Netconversion.Malformed_code_read");
+  caml_raise_with_arg(*return_value_caml_named_value_3, r);
+  signed long int netstring_read_utf8_ml__1__10__caml__temp_result = ((signed long int)0 << 1) + (signed long int)1;
   caml_local_roots = caml__frame;
-  return netstring_read_utf8_ml$$1$$10$$caml__temp_result;
+  return netstring_read_utf8_ml__1__10__caml__temp_result;
 }
 
 // netsys__exit
@@ -4998,9 +4998,9 @@ signed long int netsys_add_event_source(signed long int pav, signed long int pus
   pa = *((struct poll_aggreg **)(void *)&((signed long int *)pav)[(signed long int)1]);
   v = ((signed long int *)pushv)[(signed long int)1];
   fd = (signed int)(((signed long int *)v)[(signed long int)0] >> 1);
-  signed int return_value_translate_to_epoll_events$1;
-  return_value_translate_to_epoll_events$1=translate_to_epoll_events((signed int)(((signed long int *)pushv)[(signed long int)2] >> 1));
-  ee.events = (unsigned int)(return_value_translate_to_epoll_events$1 | 1073741824);
+  signed int return_value_translate_to_epoll_events_1;
+  return_value_translate_to_epoll_events_1=translate_to_epoll_events((signed int)(((signed long int *)pushv)[(signed long int)2] >> 1));
+  ee.events = (unsigned int)(return_value_translate_to_epoll_events_1 | 1073741824);
   ee.data.u64 = (unsigned long int)((((signed long int *)pushv)[(signed long int)0] >> 1) << 1);
   code=epoll_ctl(pa->fd, 1, fd, &ee);
   if(code == -1)
@@ -5088,9 +5088,9 @@ signed long int netsys_as_process_event(signed long int pv)
 // file netsys_c_sem.c line 188
 signed long int netsys_as_sem(signed long int memv, signed long int posv)
 {
-  union anonymous$5 *s;
+  union anonymous_5 *s;
   signed long int r;
-  s = (union anonymous$5 *)((char *)((struct caml_ba_array *)(void *)&((signed long int *)memv)[(signed long int)1])->data + (posv >> 1));
+  s = (union anonymous_5 *)((char *)((struct caml_ba_array *)(void *)&((signed long int *)memv)[(signed long int)1])->data + (posv >> 1));
   r=alloc_sem_block(s, 0);
   return r;
 }
@@ -5357,31 +5357,31 @@ signed long int netsys_consume_not_event(signed long int nev)
   ok = 0;
   n = (signed long int)0;
   e = 0;
-  signed long int return_value_read$1;
-  signed int *return_value___errno_location$2;
-  signed long int return_value_read$3;
-  signed int *return_value___errno_location$4;
+  signed long int return_value_read_1;
+  signed int *return_value___errno_location_2;
+  signed long int return_value_read_3;
+  signed int *return_value___errno_location_4;
   signed long int caml__temp_result;
   switch((signed int)ne->type)
   {
     case NE_PIPE:
     {
-      return_value_read$1=read(ne->fd1, (void *)buf, (unsigned long int)1);
-      code = (signed int)return_value_read$1;
+      return_value_read_1=read(ne->fd1, (void *)buf, (unsigned long int)1);
+      code = (signed int)return_value_read_1;
       ok = (signed int)(code == 1);
-      return_value___errno_location$2=__errno_location();
-      e = *return_value___errno_location$2;
+      return_value___errno_location_2=__errno_location();
+      e = *return_value___errno_location_2;
       goto __CPROVER_DUMP_L4;
     }
     case NE_EVENTFD:
 
     case NE_TIMERFD:
     {
-      return_value_read$3=read(ne->fd1, (void *)(char *)&n, (unsigned long int)8);
-      code = (signed int)return_value_read$3;
+      return_value_read_3=read(ne->fd1, (void *)(char *)&n, (unsigned long int)8);
+      code = (signed int)return_value_read_3;
       ok = (signed int)(code == 8);
-      return_value___errno_location$4=__errno_location();
-      e = *return_value___errno_location$4;
+      return_value___errno_location_4=__errno_location();
+      e = *return_value___errno_location_4;
     }
     default:
     {
@@ -5440,13 +5440,13 @@ signed long int netsys_copy_value(signed long int flags, signed long int orig)
   caml__roots_block.ntables = (signed long int)1;
   caml__roots_block.tables[(signed long int)0] = &block;
   caml__dummy_block = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((1l & orig) == 0l))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (unsigned long int)(((unsigned long int *)orig)[(signed long int)-1] >> 10) == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (unsigned long int)(((unsigned long int *)orig)[(signed long int)-1] >> 10) == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     signed long int caml__temp_result = orig;
     caml_local_roots = caml__frame;
@@ -5454,10 +5454,10 @@ signed long int netsys_copy_value(signed long int flags, signed long int orig)
   }
 
   code=prep_stat_tab();
-  signed long int return_value_caml_ba_alloc_dims$2;
-  signed long int return_value_caml_copy_int32$3;
-  signed long int return_value_caml_copy_int64$4;
-  signed long int return_value_caml_copy_nativeint$5;
+  signed long int return_value_caml_ba_alloc_dims_2;
+  signed long int return_value_caml_copy_int32_3;
+  signed long int return_value_caml_copy_int64_4;
+  signed long int return_value_caml_copy_nativeint_5;
   if(code == 0)
   {
     code=prep_stat_queue();
@@ -5468,20 +5468,20 @@ signed long int netsys_copy_value(signed long int flags, signed long int orig)
       if(code == 0)
       {
         bigarray_ops.name = "_bigarray";
-        return_value_caml_ba_alloc_dims$2=caml_ba_alloc_dims(3 | 0, 1, (void *)0, 1);
-        bigarray_ops.ops = (void *)*((struct custom_operations **)return_value_caml_ba_alloc_dims$2);
+        return_value_caml_ba_alloc_dims_2=caml_ba_alloc_dims(3 | 0, 1, (void *)0, 1);
+        bigarray_ops.ops = (void *)*((struct custom_operations **)return_value_caml_ba_alloc_dims_2);
         bigarray_ops.next = &caml_int32_ops;
         caml_int32_ops.name = "_i";
-        return_value_caml_copy_int32$3=caml_copy_int32(0);
-        caml_int32_ops.ops = (void *)*((struct custom_operations **)return_value_caml_copy_int32$3);
+        return_value_caml_copy_int32_3=caml_copy_int32(0);
+        caml_int32_ops.ops = (void *)*((struct custom_operations **)return_value_caml_copy_int32_3);
         caml_int32_ops.next = &caml_int64_ops;
         caml_int64_ops.name = "_j";
-        return_value_caml_copy_int64$4=caml_copy_int64((signed long long int)0);
-        caml_int64_ops.ops = (void *)*((struct custom_operations **)return_value_caml_copy_int64$4);
+        return_value_caml_copy_int64_4=caml_copy_int64((signed long long int)0);
+        caml_int64_ops.ops = (void *)*((struct custom_operations **)return_value_caml_copy_int64_4);
         caml_int64_ops.next = &caml_nativeint_ops;
         caml_nativeint_ops.name = "_n";
-        return_value_caml_copy_nativeint$5=caml_copy_nativeint((signed long int)0);
-        caml_nativeint_ops.ops = (void *)*((struct custom_operations **)return_value_caml_copy_nativeint$5);
+        return_value_caml_copy_nativeint_5=caml_copy_nativeint((signed long int)0);
+        caml_nativeint_ops.ops = (void *)*((struct custom_operations **)return_value_caml_copy_nativeint_5);
         caml_nativeint_ops.next = (struct named_custom_ops *)(void *)0;
         extra_block = (char *)(void *)0;
         extra_block_end = (char *)(void *)0;
@@ -5494,9 +5494,9 @@ signed long int netsys_copy_value(signed long int flags, signed long int orig)
             caml_raise_out_of_memory();
 
           extra_block_end = extra_block + (signed long int)request;
-          unsigned long int return_value_caml_allocation_color$6;
-          return_value_caml_allocation_color$6=caml_allocation_color((void *)extra_block);
-          color = (signed int)return_value_caml_allocation_color$6;
+          unsigned long int return_value_caml_allocation_color_6;
+          return_value_caml_allocation_color_6=caml_allocation_color((void *)extra_block);
+          color = (signed int)return_value_caml_allocation_color_6;
           dest = extra_block;
           dest_end = dest + bytelen;
           block = (signed long int)((unsigned long int *)extra_block + (signed long int)1);
@@ -5532,9 +5532,9 @@ signed long int netsys_copy_value(signed long int flags, signed long int orig)
             caml_add_to_heap(extra_block);
           }
 
-          signed long int netsys_copy_value$$1$$5$$caml__temp_result = block;
+          signed long int netsys_copy_value__1__5__caml__temp_result = block;
           caml_local_roots = caml__frame;
-          return netsys_copy_value$$1$$5$$caml__temp_result;
+          return netsys_copy_value__1__5__caml__temp_result;
         }
 
       }
@@ -5548,8 +5548,8 @@ exit:
   ;
   unprep_stat_tab();
   unprep_stat_queue();
-  signed int *return_value___errno_location$7;
-  signed long int *return_value_caml_named_value$8;
+  signed int *return_value___errno_location_7;
+  signed long int *return_value_caml_named_value_8;
   if(!(code == -1))
   {
     if(code == -2)
@@ -5562,8 +5562,8 @@ exit:
 
   else
   {
-    return_value___errno_location$7=__errno_location();
-    unix_error(*return_value___errno_location$7, "netsys_copy_value", (signed long int)0);
+    return_value___errno_location_7=__errno_location();
+    unix_error(*return_value___errno_location_7, "netsys_copy_value", (signed long int)0);
 
   __CPROVER_DUMP_L14:
     ;
@@ -5571,8 +5571,8 @@ exit:
 
   __CPROVER_DUMP_L15:
     ;
-    return_value_caml_named_value$8=caml_named_value("Netsys_mem.Out_of_space");
-    caml_raise_constant(*return_value_caml_named_value$8);
+    return_value_caml_named_value_8=caml_named_value("Netsys_mem.Out_of_space");
+    caml_raise_constant(*return_value_caml_named_value_8);
   }
   caml_failwith("Netsys_mem.copy_value: Unknown error");
 }
@@ -5601,9 +5601,9 @@ signed long int netsys_create_event_aggreg(signed long int cancelv)
   code=fcntl(fd, 2, 1);
   if(code == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    e = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    e = *return_value___errno_location_1;
     close(fd);
     unix_error(e, "fcntl", (signed long int)0);
   }
@@ -5619,9 +5619,9 @@ signed long int netsys_create_event_aggreg(signed long int cancelv)
     cancel_fd=eventfd((unsigned int)0, 0);
     if(cancel_fd == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      e = *return_value___errno_location$2;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      e = *return_value___errno_location_2;
       close(fd);
       unix_error(e, "eventfd", (signed long int)0);
     }
@@ -5629,9 +5629,9 @@ signed long int netsys_create_event_aggreg(signed long int cancelv)
     code=fcntl(cancel_fd, 2, 1);
     if(code == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      e = *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      e = *return_value___errno_location_3;
       close(fd);
       close(cancel_fd);
       unix_error(e, "fcntl", (signed long int)0);
@@ -5642,9 +5642,9 @@ signed long int netsys_create_event_aggreg(signed long int cancelv)
     code=epoll_ctl(fd, 1, cancel_fd, &ee);
     if(code == -1)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      e = *return_value___errno_location$4;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      e = *return_value___errno_location_4;
       close(fd);
       close(cancel_fd);
       unix_error(e, "epoll_ctl (ADD)", (signed long int)0);
@@ -5677,7 +5677,7 @@ extern signed long int netsys_create_not_event(signed long int allow_user_add)
   p->fd1 = -1;
   p->fd2 = -1;
   p->allow_user_add = (signed int)(allow_user_add >> 1);
-  x=pthread_mutex_init(&p->mutex, (const union anonymous$4 *)(void *)0);
+  x=pthread_mutex_init(&p->mutex, (const union anonymous_4 *)(void *)0);
   if(!(x == 0))
     unix_error(x, "pthread_mutex_init", (signed long int)0);
 
@@ -5690,9 +5690,9 @@ extern signed long int netsys_create_not_event(signed long int allow_user_add)
   x=fcntl(p->fd1, 2, 1);
   if(x == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    e = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    e = *return_value___errno_location_1;
     close(p->fd1);
     unix_error(e, "fcntl", (signed long int)0);
   }
@@ -5712,11 +5712,11 @@ signed long int netsys_create_process(signed long int cmd, signed long int cmdli
 signed long int netsys_ctermid(signed long int unit)
 {
   char *s = (char *)(void *)0;
-  char *return_value_ctermid$1;
-  return_value_ctermid$1=ctermid(s);
-  signed long int return_value_caml_copy_string$2;
-  return_value_caml_copy_string$2=caml_copy_string(return_value_ctermid$1);
-  return return_value_caml_copy_string$2;
+  char *return_value_ctermid_1;
+  return_value_ctermid_1=ctermid(s);
+  signed long int return_value_caml_copy_string_2;
+  return_value_caml_copy_string_2=caml_copy_string(return_value_ctermid_1);
+  return return_value_caml_copy_string_2;
 }
 
 // netsys_del_event_source
@@ -5913,9 +5913,9 @@ signed long int netsys_fallocate(signed long int fd, signed long int start, sign
 // file netsys_c.c line 248
 signed long int netsys_fchdir(signed long int fd)
 {
-  signed int return_value_fchdir$1;
-  return_value_fchdir$1=fchdir((signed int)(fd >> 1));
-  if(return_value_fchdir$1 == -1)
+  signed int return_value_fchdir_1;
+  return_value_fchdir_1=fchdir((signed int)(fd >> 1));
+  if(return_value_fchdir_1 == -1)
     uerror("fchdir", (signed long int)0);
 
   return ((signed long int)0 << 1) + (signed long int)1;
@@ -6039,13 +6039,13 @@ signed long int netsys_get_custom_ops(signed long int v)
   caml__roots_r.ntables = (signed long int)1;
   caml__roots_r.tables[(signed long int)0] = &r;
   caml__dummy_r = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1l & v) == 0l)
-    tmp_if_expr$1 = (signed int)((unsigned char *)v)[(signed long int)-sizeof(signed long int) /*8ul*/ ] == 255 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)((unsigned char *)v)[(signed long int)-sizeof(signed long int) /*8ul*/ ] == 255 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     custom_ops = *((struct custom_operations **)v);
     r=caml_alloc_small((unsigned long int)2, (unsigned int)0);
@@ -6118,9 +6118,9 @@ signed long int netsys_get_poll_mem(signed long int s, signed long int k)
   triple=caml_alloc_tuple((unsigned long int)3);
   do
   {
-    unsigned long int netsys_get_poll_mem$$1$$1$$caml__temp_offset = (unsigned long int)0;
-    signed long int netsys_get_poll_mem$$1$$1$$caml__temp_val = ((signed long int)p.fd << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)triple)[(signed long int)netsys_get_poll_mem$$1$$1$$caml__temp_offset], netsys_get_poll_mem$$1$$1$$caml__temp_val);
+    unsigned long int netsys_get_poll_mem__1__1__caml__temp_offset = (unsigned long int)0;
+    signed long int netsys_get_poll_mem__1__1__caml__temp_val = ((signed long int)p.fd << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)triple)[(signed long int)netsys_get_poll_mem__1__1__caml__temp_offset], netsys_get_poll_mem__1__1__caml__temp_val);
   }
   while((_Bool)0);
   do
@@ -6132,9 +6132,9 @@ signed long int netsys_get_poll_mem(signed long int s, signed long int k)
   while((_Bool)0);
   do
   {
-    unsigned long int netsys_get_poll_mem$$1$$3$$caml__temp_offset = (unsigned long int)2;
-    signed long int netsys_get_poll_mem$$1$$3$$caml__temp_val = ((signed long int)p.revents << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)triple)[(signed long int)netsys_get_poll_mem$$1$$3$$caml__temp_offset], netsys_get_poll_mem$$1$$3$$caml__temp_val);
+    unsigned long int netsys_get_poll_mem__1__3__caml__temp_offset = (unsigned long int)2;
+    signed long int netsys_get_poll_mem__1__3__caml__temp_val = ((signed long int)p.revents << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)triple)[(signed long int)netsys_get_poll_mem__1__3__caml__temp_offset], netsys_get_poll_mem__1__3__caml__temp_val);
   }
   while((_Bool)0);
   return triple;
@@ -6164,7 +6164,7 @@ signed long int netsys_get_subprocess_status(signed long int atom_idx_v)
   if(!(copy.terminated == 0))
   {
     /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$23
+union anonymous_23
 {
   // __in
   signed int __in;
@@ -6177,15 +6177,15 @@ union anonymous$23
     if((0x7f & copy.status) == 0)
     {
       st=caml_alloc_small((unsigned long int)1, (unsigned int)0);
-      ((signed long int *)st)[(signed long int)0] = ((signed long int)((((union anonymous$23){ .__in=copy.status }).__i & 0xff00) >> 8) << 1) + (signed long int)1;
+      ((signed long int *)st)[(signed long int)0] = ((signed long int)((((union anonymous_23){ .__in=copy.status }).__i & 0xff00) >> 8) << 1) + (signed long int)1;
     }
 
     else
     {
       st=caml_alloc_small((unsigned long int)1, (unsigned int)1);
-      signed int return_value_caml_rev_convert_signal_number$1;
-      return_value_caml_rev_convert_signal_number$1=caml_rev_convert_signal_number(((union anonymous$23){ .__in=copy.status }).__i & 0x7f);
-      ((signed long int *)st)[(signed long int)0] = ((signed long int)return_value_caml_rev_convert_signal_number$1 << 1) + (signed long int)1;
+      signed int return_value_caml_rev_convert_signal_number_1;
+      return_value_caml_rev_convert_signal_number_1=caml_rev_convert_signal_number(((union anonymous_23){ .__in=copy.status }).__i & 0x7f);
+      ((signed long int *)st)[(signed long int)0] = ((signed long int)return_value_caml_rev_convert_signal_number_1 << 1) + (signed long int)1;
     }
     r=caml_alloc((unsigned long int)1, (unsigned int)0);
     ((signed long int *)r)[(signed long int)0] = st;
@@ -6207,9 +6207,9 @@ signed long int netsys_getacp(signed long int dummy)
 // file netsys_c_mem.c line 64
 signed long int netsys_getpagesize(signed long int dummy)
 {
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(30);
-  return ((signed long int)return_value_sysconf$1 << 1) + (signed long int)1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(30);
+  return ((signed long int)return_value_sysconf_1 << 1) + (signed long int)1;
 }
 
 // netsys_getpgid
@@ -6244,9 +6244,9 @@ signed long int netsys_grab(signed long int addrv, signed long int lenv)
   unsigned long int length;
   start = (void *)*((signed long int *)(void *)&((signed long int *)addrv)[(signed long int)1]);
   length = (unsigned long int)(lenv >> 1);
-  signed long int return_value_caml_ba_alloc_dims$1;
-  return_value_caml_ba_alloc_dims$1=caml_ba_alloc_dims(0 | 3, 1, start, length);
-  return return_value_caml_ba_alloc_dims$1;
+  signed long int return_value_caml_ba_alloc_dims_1;
+  return_value_caml_ba_alloc_dims_1=caml_ba_alloc_dims(0 | 3, 1, start, length);
+  return return_value_caml_ba_alloc_dims_1;
 }
 
 // netsys_grantpt
@@ -6335,9 +6335,9 @@ signed long int netsys_have_sem_named(signed long int dummy)
 // file netsys_c_mem.c line 339
 signed long int netsys_hdr_address(signed long int objv)
 {
-  signed long int return_value_caml_copy_nativeint$1;
-  return_value_caml_copy_nativeint$1=caml_copy_nativeint((signed long int)(char *)((unsigned long int *)objv - (signed long int)1));
-  return return_value_caml_copy_nativeint$1;
+  signed long int return_value_caml_copy_nativeint_1;
+  return_value_caml_copy_nativeint_1=caml_copy_nativeint((signed long int)(char *)((unsigned long int *)objv - (signed long int)1));
+  return return_value_caml_copy_nativeint_1;
 }
 
 // netsys_htab_add
@@ -6426,14 +6426,14 @@ static signed int netsys_htab_grow(struct htab *t, unsigned long int n)
   {
     old_table = t->table;
     old_size = t->table_size;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(n * sizeof(struct htab_cell) /*16ul*/ );
-    new_table = (struct htab_cell *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(n * sizeof(struct htab_cell) /*16ul*/ );
+    new_table = (struct htab_cell *)return_value_malloc_1;
     if(new_table == ((struct htab_cell *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 12;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 12;
       return -1;
     }
 
@@ -6467,9 +6467,9 @@ extern signed int netsys_htab_init(struct htab *t, unsigned long int n)
   t->table = (struct htab_cell *)(void *)0;
   t->table_size = (unsigned long int)0;
   t->table_used = (unsigned long int)0;
-  signed int return_value_netsys_htab_grow$1;
-  return_value_netsys_htab_grow$1=netsys_htab_grow(t, n);
-  return return_value_netsys_htab_grow$1;
+  signed int return_value_netsys_htab_grow_1;
+  return_value_netsys_htab_grow_1=netsys_htab_grow(t, n);
+  return return_value_netsys_htab_grow_1;
 }
 
 // netsys_htab_lookup
@@ -6587,9 +6587,9 @@ signed long int netsys_init_value(signed long int memv, signed long int offv, si
   struct named_custom_ops *old_ops;
   struct named_custom_ops *next_ops;
   code=prep_stat_tab();
-  signed int tmp_statement_expression$4;
-  signed int *return_value___errno_location$5;
-  signed long int *return_value_caml_named_value$6;
+  signed int tmp_statement_expression_4;
+  signed int *return_value___errno_location_5;
+  signed long int *return_value_caml_named_value_6;
   if(code == 0)
   {
     code=prep_stat_queue();
@@ -6611,14 +6611,14 @@ signed long int netsys_init_value(signed long int memv, signed long int offv, si
       signed long int pair;
       old_ops = ops;
       pair = ((signed long int *)target_custom_ops)[(signed long int)0];
-      void *return_value_caml_stat_alloc$1;
-      return_value_caml_stat_alloc$1=caml_stat_alloc(sizeof(struct named_custom_ops) /*24ul*/ );
-      ops = (struct named_custom_ops *)return_value_caml_stat_alloc$1;
-      unsigned long int return_value_caml_string_length$2;
-      return_value_caml_string_length$2=caml_string_length(((signed long int *)pair)[(signed long int)0]);
-      void *return_value_caml_stat_alloc$3;
-      return_value_caml_stat_alloc$3=caml_stat_alloc(return_value_caml_string_length$2 + (unsigned long int)1);
-      ops->name = (char *)return_value_caml_stat_alloc$3;
+      void *return_value_caml_stat_alloc_1;
+      return_value_caml_stat_alloc_1=caml_stat_alloc(sizeof(struct named_custom_ops) /*24ul*/ );
+      ops = (struct named_custom_ops *)return_value_caml_stat_alloc_1;
+      unsigned long int return_value_caml_string_length_2;
+      return_value_caml_string_length_2=caml_string_length(((signed long int *)pair)[(signed long int)0]);
+      void *return_value_caml_stat_alloc_3;
+      return_value_caml_stat_alloc_3=caml_stat_alloc(return_value_caml_string_length_2 + (unsigned long int)1);
+      ops->name = (char *)return_value_caml_stat_alloc_3;
       unsigned long int __s1_len;
       unsigned long int __s2_len;
       __builtin_strcmp(ops->name, (char *)((signed long int *)pair)[(signed long int)0]);
@@ -6640,23 +6640,23 @@ signed long int netsys_init_value(signed long int memv, signed long int offv, si
 
       __result;
       __builtin_strcmp(ops->name, (char *)((signed long int *)pair)[(signed long int)0]);
-      const unsigned char *netsys_init_value$$1$$4$$1$$2$$__s2 = (const unsigned char *)(const char *)ops->name;
-      signed int netsys_init_value$$1$$4$$1$$2$$__result = (signed int)((const unsigned char *)(char *)((signed long int *)pair)[(signed long int)0])[(signed long int)0] - (signed int)netsys_init_value$$1$$4$$1$$2$$__s2[(signed long int)0];
-      if(netsys_init_value$$1$$4$$1$$2$$__result == 0 && __s2_len >= 1ul)
+      const unsigned char *netsys_init_value__1__4__1__2____s2 = (const unsigned char *)(const char *)ops->name;
+      signed int netsys_init_value__1__4__1__2____result = (signed int)((const unsigned char *)(char *)((signed long int *)pair)[(signed long int)0])[(signed long int)0] - (signed int)netsys_init_value__1__4__1__2____s2[(signed long int)0];
+      if(netsys_init_value__1__4__1__2____result == 0 && __s2_len >= 1ul)
       {
-        netsys_init_value$$1$$4$$1$$2$$__result = (signed int)((const unsigned char *)(char *)((signed long int *)pair)[(signed long int)0])[(signed long int)1] - (signed int)netsys_init_value$$1$$4$$1$$2$$__s2[(signed long int)1];
-        if(netsys_init_value$$1$$4$$1$$2$$__result == 0 && __s2_len >= 2ul)
+        netsys_init_value__1__4__1__2____result = (signed int)((const unsigned char *)(char *)((signed long int *)pair)[(signed long int)0])[(signed long int)1] - (signed int)netsys_init_value__1__4__1__2____s2[(signed long int)1];
+        if(netsys_init_value__1__4__1__2____result == 0 && __s2_len >= 2ul)
         {
-          netsys_init_value$$1$$4$$1$$2$$__result = (signed int)((const unsigned char *)(char *)((signed long int *)pair)[(signed long int)0])[(signed long int)2] - (signed int)netsys_init_value$$1$$4$$1$$2$$__s2[(signed long int)2];
-          if(netsys_init_value$$1$$4$$1$$2$$__result == 0 && __s2_len >= 3ul)
-            netsys_init_value$$1$$4$$1$$2$$__result = (signed int)((const unsigned char *)(char *)((signed long int *)pair)[(signed long int)0])[(signed long int)3] - (signed int)netsys_init_value$$1$$4$$1$$2$$__s2[(signed long int)3];
+          netsys_init_value__1__4__1__2____result = (signed int)((const unsigned char *)(char *)((signed long int *)pair)[(signed long int)0])[(signed long int)2] - (signed int)netsys_init_value__1__4__1__2____s2[(signed long int)2];
+          if(netsys_init_value__1__4__1__2____result == 0 && __s2_len >= 3ul)
+            netsys_init_value__1__4__1__2____result = (signed int)((const unsigned char *)(char *)((signed long int *)pair)[(signed long int)0])[(signed long int)3] - (signed int)netsys_init_value__1__4__1__2____s2[(signed long int)3];
 
         }
 
       }
 
-      tmp_statement_expression$4 = netsys_init_value$$1$$4$$1$$2$$__result;
-      -tmp_statement_expression$4;
+      tmp_statement_expression_4 = netsys_init_value__1__4__1__2____result;
+      -tmp_statement_expression_4;
       __builtin_strcmp(ops->name, (char *)((signed long int *)pair)[(signed long int)0]);
       ops->ops = (void *)*((signed long int *)(void *)&((signed long int *)((signed long int *)pair)[(signed long int)1])[(signed long int)1]);
       ops->next = old_ops;
@@ -6701,8 +6701,8 @@ signed long int netsys_init_value(signed long int memv, signed long int offv, si
 
     else
     {
-      return_value___errno_location$5=__errno_location();
-      unix_error(*return_value___errno_location$5, "netsys_init_value", (signed long int)0);
+      return_value___errno_location_5=__errno_location();
+      unix_error(*return_value___errno_location_5, "netsys_init_value", (signed long int)0);
 
     __CPROVER_DUMP_L18:
       ;
@@ -6710,8 +6710,8 @@ signed long int netsys_init_value(signed long int memv, signed long int offv, si
 
     __CPROVER_DUMP_L19:
       ;
-      return_value_caml_named_value$6=caml_named_value("Netsys_mem.Out_of_space");
-      caml_raise_constant(*return_value_caml_named_value$6);
+      return_value_caml_named_value_6=caml_named_value("Netsys_mem.Out_of_space");
+      caml_raise_constant(*return_value_caml_named_value_6);
     }
     caml_failwith("Netsys_mem.init_value: Unknown error");
   }
@@ -6748,11 +6748,11 @@ signed int netsys_init_value_1(struct htab *t, struct nqueue *q, char *dest, cha
   copy = (signed long int)0;
   dest_cur = dest;
   addr_delta = (char *)target_addr - dest;
-  signed int tmp_statement_expression$7;
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
-  signed int tmp_statement_expression$9;
+  signed int tmp_statement_expression_7;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
+  signed int tmp_statement_expression_9;
   if(simulation == 0 && dest_cur >= dest_end)
     return -4;
 
@@ -6778,40 +6778,40 @@ signed int netsys_init_value_1(struct htab *t, struct nqueue *q, char *dest, cha
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$8;
-          return_value___builtin_strcmp$8=__builtin_strcmp(ops_ptr->name, "_bigarray");
-          tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-          if(tmp_statement_expression$7 == 0)
+          signed int return_value___builtin_strcmp_8;
+          return_value___builtin_strcmp_8=__builtin_strcmp(ops_ptr->name, "_bigarray");
+          tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+          if(tmp_statement_expression_7 == 0)
             bigarray_target_ops = ops_ptr->ops;
 
           else
           {
-            unsigned long int netsys_init_value_1$$1$$3$$2$$__s1_len;
-            unsigned long int netsys_init_value_1$$1$$3$$2$$__s2_len;
-            signed int return_value___builtin_strcmp$6;
-            return_value___builtin_strcmp$6=__builtin_strcmp(ops_ptr->name, "_i");
-            tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-            if(tmp_statement_expression$5 == 0)
+            unsigned long int netsys_init_value_1__1__3__2____s1_len;
+            unsigned long int netsys_init_value_1__1__3__2____s2_len;
+            signed int return_value___builtin_strcmp_6;
+            return_value___builtin_strcmp_6=__builtin_strcmp(ops_ptr->name, "_i");
+            tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+            if(tmp_statement_expression_5 == 0)
               int32_target_ops = ops_ptr->ops;
 
             else
             {
-              unsigned long int netsys_init_value_1$$1$$3$$3$$__s1_len;
-              unsigned long int netsys_init_value_1$$1$$3$$3$$__s2_len;
-              signed int return_value___builtin_strcmp$4;
-              return_value___builtin_strcmp$4=__builtin_strcmp(ops_ptr->name, "_j");
-              tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-              if(tmp_statement_expression$3 == 0)
+              unsigned long int netsys_init_value_1__1__3__3____s1_len;
+              unsigned long int netsys_init_value_1__1__3__3____s2_len;
+              signed int return_value___builtin_strcmp_4;
+              return_value___builtin_strcmp_4=__builtin_strcmp(ops_ptr->name, "_j");
+              tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+              if(tmp_statement_expression_3 == 0)
                 int64_target_ops = ops_ptr->ops;
 
               else
               {
-                unsigned long int netsys_init_value_1$$1$$3$$4$$__s1_len;
-                unsigned long int netsys_init_value_1$$1$$3$$4$$__s2_len;
-                signed int return_value___builtin_strcmp$2;
-                return_value___builtin_strcmp$2=__builtin_strcmp(ops_ptr->name, "_n");
-                tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-                if(tmp_statement_expression$1 == 0)
+                unsigned long int netsys_init_value_1__1__3__4____s1_len;
+                unsigned long int netsys_init_value_1__1__3__4____s2_len;
+                signed int return_value___builtin_strcmp_2;
+                return_value___builtin_strcmp_2=__builtin_strcmp(ops_ptr->name, "_n");
+                tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+                if(tmp_statement_expression_1 == 0)
                   nativeint_target_ops = ops_ptr->ops;
 
               }
@@ -6872,8 +6872,8 @@ signed int netsys_init_value_1(struct htab *t, struct nqueue *q, char *dest, cha
               i = 0;
               for( ; !((unsigned long int)i >= work_words); i = i + 1)
               {
-                signed long int netsys_init_value_1$$1$$4$$3$$1$$5$$1$$field = ((signed long int *)work)[(signed long int)i];
-                if((1l & netsys_init_value_1$$1$$4$$3$$1$$5$$1$$field) == 0l)
+                signed long int netsys_init_value_1__1__4__3__1__5__1__field = ((signed long int *)work)[(signed long int)i];
+                if((1l & netsys_init_value_1__1__4__3__1__5__1__field) == 0l)
                 {
                   if(!(enable_cc == 0))
                   {
@@ -6887,13 +6887,13 @@ signed int netsys_init_value_1(struct htab *t, struct nqueue *q, char *dest, cha
                       cc_pair = ((signed long int *)cc_rest)[(signed long int)0];
                       start = (((signed long int *)cc_pair)[(signed long int)0] >> 1) << 1;
                       end = (((signed long int *)cc_pair)[(signed long int)1] >> 1) << 1;
-                      if(netsys_init_value_1$$1$$4$$3$$1$$5$$1$$field >= start && !(netsys_init_value_1$$1$$4$$3$$1$$5$$1$$field >= end))
+                      if(netsys_init_value_1__1__4__3__1__5__1__field >= start && !(netsys_init_value_1__1__4__3__1__5__1__field >= end))
                         goto cont_for;
 
                     }
                   }
 
-                  code=netsys_queue_add(q, (void *)netsys_init_value_1$$1$$4$$3$$1$$5$$1$$field);
+                  code=netsys_queue_add(q, (void *)netsys_init_value_1__1__4__3__1__5__1__field);
                   if(!(code == 0))
                     return code;
 
@@ -6944,12 +6944,12 @@ signed int netsys_init_value_1(struct htab *t, struct nqueue *q, char *dest, cha
                         if(enable_bigarrays == 0)
                           return -2;
 
-                        unsigned long int netsys_init_value_1$$1$$4$$3$$2$$1$$1$$1$$1$$2$$__s1_len;
-                        unsigned long int netsys_init_value_1$$1$$4$$3$$2$$1$$1$$1$$1$$2$$__s2_len;
-                        signed int return_value___builtin_strcmp$10;
-                        return_value___builtin_strcmp$10=__builtin_strcmp(id, "_bigarray");
-                        tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-                        if(tmp_statement_expression$9 == 0)
+                        unsigned long int netsys_init_value_1__1__4__3__2__1__1__1__1__2____s1_len;
+                        unsigned long int netsys_init_value_1__1__4__3__2__1__1__1__1__2____s2_len;
+                        signed int return_value___builtin_strcmp_10;
+                        return_value___builtin_strcmp_10=__builtin_strcmp(id, "_bigarray");
+                        tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+                        if(tmp_statement_expression_9 == 0)
                         {
                           caml_id = (char)98;
                           break;
@@ -7151,9 +7151,9 @@ signed int netsys_init_value_1(struct htab *t, struct nqueue *q, char *dest, cha
 // file netsys_c_mem.c line 1314
 signed long int netsys_init_value_bc(signed long int *argv, signed int argn)
 {
-  signed long int return_value_netsys_init_value$1;
-  return_value_netsys_init_value$1=netsys_init_value(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5], argv[(signed long int)6]);
-  return return_value_netsys_init_value$1;
+  signed long int return_value_netsys_init_value_1;
+  return_value_netsys_init_value_1=netsys_init_value(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5], argv[(signed long int)6]);
+  return return_value_netsys_init_value_1;
 }
 
 // netsys_initgroups
@@ -7187,9 +7187,9 @@ signed long int netsys_install_sigchld_handler(signed long int dummy)
   if(sigchld_list == ((struct sigchld_atom *)NULL))
   {
     sigchld_list_len = 100;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)sigchld_list_len * sizeof(struct sigchld_atom) /*32ul*/ );
-    sigchld_list = (struct sigchld_atom *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)sigchld_list_len * sizeof(struct sigchld_atom) /*32ul*/ );
+    sigchld_list = (struct sigchld_atom *)return_value_malloc_1;
     if(sigchld_list == ((struct sigchld_atom *)NULL))
       caml_failwith("Cannot allocate memory");
 
@@ -7201,13 +7201,13 @@ signed long int netsys_install_sigchld_handler(signed long int dummy)
   code=sigaction(17, &action, (struct sigaction *)(void *)0);
   if(code == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    code = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    code = *return_value___errno_location_2;
     sigchld_unlock(1);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = code;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = code;
     uerror("sigaction", (signed long int)0);
   }
 
@@ -7219,9 +7219,9 @@ signed long int netsys_install_sigchld_handler(signed long int dummy)
 // file netsys_c.c line 11
 signed long int netsys_int64_of_file_descr(signed long int fd)
 {
-  signed long int return_value_caml_copy_int64$1;
-  return_value_caml_copy_int64$1=caml_copy_int64(fd >> 1);
-  return return_value_caml_copy_int64$1;
+  signed long int return_value_caml_copy_int64_1;
+  return_value_caml_copy_int64_1=caml_copy_int64(fd >> 1);
+  return return_value_caml_copy_int64_1;
 }
 
 // netsys_interrupt_aggreg
@@ -7234,9 +7234,9 @@ signed long int netsys_interrupt_aggreg(signed long int pav)
     unsigned long int buf;
     signed int n;
     buf = (unsigned long int)1;
-    signed long int return_value_write$1;
-    return_value_write$1=write(pa->cancel_fd, (const void *)(char *)&buf, (unsigned long int)8);
-    n = (signed int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(pa->cancel_fd, (const void *)(char *)&buf, (unsigned long int)8);
+    n = (signed int)return_value_write_1;
     if(n == -1)
       uerror("write", (signed long int)0);
 
@@ -7302,9 +7302,9 @@ signed long int netsys_ioprio_get(signed long int target)
       result=caml_alloc((unsigned long int)1, (unsigned int)1);
       do
       {
-        unsigned long int netsys_ioprio_get$$1$$2$$2$$caml__temp_offset = (unsigned long int)0;
-        signed long int netsys_ioprio_get$$1$$2$$2$$caml__temp_val = ((signed long int)ioprio_data << 1) + (signed long int)1;
-        caml_modify(&((signed long int *)result)[(signed long int)netsys_ioprio_get$$1$$2$$2$$caml__temp_offset], netsys_ioprio_get$$1$$2$$2$$caml__temp_val);
+        unsigned long int netsys_ioprio_get__1__2__2__caml__temp_offset = (unsigned long int)0;
+        signed long int netsys_ioprio_get__1__2__2__caml__temp_val = ((signed long int)ioprio_data << 1) + (signed long int)1;
+        caml_modify(&((signed long int *)result)[(signed long int)netsys_ioprio_get__1__2__2__caml__temp_offset], netsys_ioprio_get__1__2__2__caml__temp_val);
       }
       while((_Bool)0);
       break;
@@ -7415,22 +7415,22 @@ signed long int netsys_is_bigarray(signed long int v)
   caml__roots_r.ntables = (signed long int)1;
   caml__roots_r.tables[(signed long int)0] = &r;
   caml__dummy_r = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if((1l & v) == 0l)
-    tmp_if_expr$3 = (signed int)((unsigned char *)v)[(signed long int)-sizeof(signed long int) /*8ul*/ ] == 255 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (signed int)((unsigned char *)v)[(signed long int)-sizeof(signed long int) /*8ul*/ ] == 255 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  signed int tmp_statement_expression$1;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  signed int tmp_statement_expression_1;
+  if(tmp_if_expr_3)
   {
     custom_ops = *((struct custom_operations **)v);
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(custom_ops->identifier, "_bigarray");
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    r = ((signed long int)((signed int)(tmp_statement_expression$1 == 0) != 0) << 1) + (signed long int)1;
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(custom_ops->identifier, "_bigarray");
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    r = ((signed long int)((signed int)(tmp_statement_expression_1 == 0) != 0) << 1) + (signed long int)1;
   }
 
   else
@@ -7478,8 +7478,8 @@ signed long int netsys_kill_all_subprocesses(signed long int sig_v, signed long 
   ng_flag = (signed int)(ng_flag_v >> 1);
   sigchld_lock(1, 1);
   k = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   for( ; !(k >= sigchld_list_len); k = k + 1)
   {
     atom = &sigchld_list[(signed long int)k];
@@ -7488,18 +7488,18 @@ signed long int netsys_kill_all_subprocesses(signed long int sig_v, signed long 
       if(atom->terminated == 0)
       {
         if(ng_flag == 0)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = atom->pgid == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = atom->pgid == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           if(!(o_flag == 0))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = atom->kill_flag != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = atom->kill_flag != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             kill(atom->pid, sig);
 
         }
@@ -7551,7 +7551,7 @@ signed long int netsys_killpg_all_subprocesses(signed long int sig_v, signed lon
   for( ; !(k >= sigchld_list_len); k = k + 1)
     (sigchld_list + (signed long int)k)->kill_sent = 0;
   k = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(k >= sigchld_list_len); k = k + 1)
   {
     atom = &sigchld_list[(signed long int)k];
@@ -7564,11 +7564,11 @@ signed long int netsys_killpg_all_subprocesses(signed long int sig_v, signed lon
           if(atom->kill_sent == 0)
           {
             if(!(o_flag == 0))
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = atom->kill_flag != 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = atom->kill_flag != 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_1)
             {
               pgid = atom->pgid;
               kill(-pgid, sig);
@@ -7611,7 +7611,7 @@ signed long int netsys_killpg_subprocess(signed long int sig_v, signed long int 
   sigchld_lock(1, 1);
   atom = &sigchld_list[(signed long int)atom_idx];
   pgid = atom->pgid;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pgid >= 1)
   {
     exists = 0;
@@ -7619,11 +7619,11 @@ signed long int netsys_killpg_subprocess(signed long int sig_v, signed long int 
     for( ; exists == 0 && !(k >= sigchld_list_len); k = k + 1)
     {
       if(!((sigchld_list + (signed long int)k)->pid == 0))
-        tmp_if_expr$1 = !((sigchld_list + (signed long int)k)->terminated != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = !((sigchld_list + (signed long int)k)->terminated != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      exists = (signed int)tmp_if_expr$1;
+        tmp_if_expr_1 = (_Bool)0;
+      exists = (signed int)tmp_if_expr_1;
     }
     if(!(exists == 0))
       kill(-pgid, sig);
@@ -7641,9 +7641,9 @@ signed long int netsys_linkat(signed long int olddirfd, signed long int oldpath,
   signed int cv_flags;
   cv_flags=caml_convert_flag_list(flags, at_flags_table);
   cv_flags = cv_flags & 0x400;
-  signed int return_value_linkat$1;
-  return_value_linkat$1=linkat((signed int)(olddirfd >> 1), (char *)oldpath, (signed int)(newdirfd >> 1), (char *)newpath, cv_flags);
-  if(return_value_linkat$1 == -1)
+  signed int return_value_linkat_1;
+  return_value_linkat_1=linkat((signed int)(olddirfd >> 1), (char *)oldpath, (signed int)(newdirfd >> 1), (char *)newpath, cv_flags);
+  if(return_value_linkat_1 == -1)
     uerror("linkat", oldpath);
 
   return ((signed long int)0 << 1) + (signed long int)1;
@@ -7675,12 +7675,12 @@ signed long int netsys_map_file(signed long int fdv, signed long int posv, signe
 
   shared = (signed int)(sharedv >> 1) != 0 ? 0x01 : 0x02;
   size = sizev >> 1;
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(30);
-  pagesize = (unsigned long int)return_value_sysconf$1;
-  signed int return_value_fstat$2;
-  return_value_fstat$2=fstat(fd, &st);
-  if(return_value_fstat$2 == -1)
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(30);
+  pagesize = (unsigned long int)return_value_sysconf_1;
+  signed int return_value_fstat_2;
+  return_value_fstat_2=fstat(fd, &st);
+  if(return_value_fstat_2 == -1)
     uerror("fstat", (signed long int)0);
 
   eofpos = st.st_size;
@@ -7703,9 +7703,9 @@ signed long int netsys_map_file(signed long int fdv, signed long int posv, signe
 
     if(!(eofpos + -pos >= size))
     {
-      signed int return_value_ftruncate$3;
-      return_value_ftruncate$3=ftruncate(fd, pos + size);
-      if(return_value_ftruncate$3 == -1)
+      signed int return_value_ftruncate_3;
+      return_value_ftruncate_3=ftruncate(fd, pos + size);
+      if(return_value_ftruncate_3 == -1)
         uerror("ftruncate", (signed long int)0);
 
     }
@@ -7718,9 +7718,9 @@ signed long int netsys_map_file(signed long int fdv, signed long int posv, signe
     uerror("mmap", (signed long int)0);
 
   eff_addr = (void *)((unsigned long int)eff_addr + delta);
-  signed long int return_value_caml_ba_alloc_dims$4;
-  return_value_caml_ba_alloc_dims$4=caml_ba_alloc_dims(3 | 0 | 1024, 1, eff_addr, basize);
-  return return_value_caml_ba_alloc_dims$4;
+  signed long int return_value_caml_ba_alloc_dims_4;
+  return_value_caml_ba_alloc_dims_4=caml_ba_alloc_dims(3 | 0 | 1024, 1, eff_addr, basize);
+  return return_value_caml_ba_alloc_dims_4;
 }
 
 // netsys_mcast_add_membership
@@ -7733,27 +7733,27 @@ signed long int netsys_mcast_add_membership(signed long int fd, signed long int 
   t=socket_domain(fd_sock);
   r = 0;
   struct ip_mreq mreq;
-  unsigned long int return_value_caml_string_length$1;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_caml_string_length$2;
-  struct ipv6_mreq netsys_mcast_add_membership$$1$$1$$2$$mreq;
-  unsigned long int return_value_caml_string_length$4;
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_caml_string_length$5;
+  unsigned long int return_value_caml_string_length_1;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_caml_string_length_2;
+  struct ipv6_mreq netsys_mcast_add_membership__1__1__2__mreq;
+  unsigned long int return_value_caml_string_length_4;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_caml_string_length_5;
   switch(t)
   {
     case 2:
     {
-      return_value_caml_string_length$1=caml_string_length(group_addr);
-      if(!(return_value_caml_string_length$1 == 4ul))
-        tmp_if_expr$3 = (_Bool)1;
+      return_value_caml_string_length_1=caml_string_length(group_addr);
+      if(!(return_value_caml_string_length_1 == 4ul))
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_caml_string_length$2=caml_string_length(if_addr);
-        tmp_if_expr$3 = return_value_caml_string_length$2 != (unsigned long int)4 ? (_Bool)1 : (_Bool)0;
+        return_value_caml_string_length_2=caml_string_length(if_addr);
+        tmp_if_expr_3 = return_value_caml_string_length_2 != (unsigned long int)4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         caml_invalid_argument("Netsys.mcast_add_membership: Not an IPV4 address");
 
       memcpy((void *)&mreq.imr_multiaddr, (const void *)&(*((struct in_addr *)group_addr)), (unsigned long int)4);
@@ -7763,21 +7763,21 @@ signed long int netsys_mcast_add_membership(signed long int fd, signed long int 
     }
     case 10:
     {
-      return_value_caml_string_length$4=caml_string_length(group_addr);
-      if(!(return_value_caml_string_length$4 == 16ul))
-        tmp_if_expr$6 = (_Bool)1;
+      return_value_caml_string_length_4=caml_string_length(group_addr);
+      if(!(return_value_caml_string_length_4 == 16ul))
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_caml_string_length$5=caml_string_length(if_addr);
-        tmp_if_expr$6 = return_value_caml_string_length$5 != (unsigned long int)16 ? (_Bool)1 : (_Bool)0;
+        return_value_caml_string_length_5=caml_string_length(if_addr);
+        tmp_if_expr_6 = return_value_caml_string_length_5 != (unsigned long int)16 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
         caml_invalid_argument("Netsys.mcast_add_membership: Not an IPV6 address");
 
-      memcpy((void *)&netsys_mcast_add_membership$$1$$1$$2$$mreq.ipv6mr_multiaddr, (const void *)&(*((struct in6_addr *)group_addr)), (unsigned long int)16);
-      netsys_mcast_add_membership$$1$$1$$2$$mreq.ipv6mr_interface = (unsigned int)0;
-      r=setsockopt(fd_sock, 41, 20, (void *)&netsys_mcast_add_membership$$1$$1$$2$$mreq, (unsigned int)sizeof(struct ipv6_mreq) /*20ul*/ );
+      memcpy((void *)&netsys_mcast_add_membership__1__1__2__mreq.ipv6mr_multiaddr, (const void *)&(*((struct in6_addr *)group_addr)), (unsigned long int)16);
+      netsys_mcast_add_membership__1__1__2__mreq.ipv6mr_interface = (unsigned int)0;
+      r=setsockopt(fd_sock, 41, 20, (void *)&netsys_mcast_add_membership__1__1__2__mreq, (unsigned int)sizeof(struct ipv6_mreq) /*20ul*/ );
       break;
     }
     default:
@@ -7799,27 +7799,27 @@ signed long int netsys_mcast_drop_membership(signed long int fd, signed long int
   t=socket_domain(fd_sock);
   r = 0;
   struct ip_mreq mreq;
-  unsigned long int return_value_caml_string_length$1;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_caml_string_length$2;
-  struct ipv6_mreq netsys_mcast_drop_membership$$1$$1$$2$$mreq;
-  unsigned long int return_value_caml_string_length$4;
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_caml_string_length$5;
+  unsigned long int return_value_caml_string_length_1;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_caml_string_length_2;
+  struct ipv6_mreq netsys_mcast_drop_membership__1__1__2__mreq;
+  unsigned long int return_value_caml_string_length_4;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_caml_string_length_5;
   switch(t)
   {
     case 2:
     {
-      return_value_caml_string_length$1=caml_string_length(group_addr);
-      if(!(return_value_caml_string_length$1 == 4ul))
-        tmp_if_expr$3 = (_Bool)1;
+      return_value_caml_string_length_1=caml_string_length(group_addr);
+      if(!(return_value_caml_string_length_1 == 4ul))
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_caml_string_length$2=caml_string_length(if_addr);
-        tmp_if_expr$3 = return_value_caml_string_length$2 != (unsigned long int)4 ? (_Bool)1 : (_Bool)0;
+        return_value_caml_string_length_2=caml_string_length(if_addr);
+        tmp_if_expr_3 = return_value_caml_string_length_2 != (unsigned long int)4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         caml_invalid_argument("Netsys.mcast_drop_membership: Not an IPV4 address");
 
       memcpy((void *)&mreq.imr_multiaddr, (const void *)&(*((struct in_addr *)group_addr)), (unsigned long int)4);
@@ -7829,21 +7829,21 @@ signed long int netsys_mcast_drop_membership(signed long int fd, signed long int
     }
     case 10:
     {
-      return_value_caml_string_length$4=caml_string_length(group_addr);
-      if(!(return_value_caml_string_length$4 == 16ul))
-        tmp_if_expr$6 = (_Bool)1;
+      return_value_caml_string_length_4=caml_string_length(group_addr);
+      if(!(return_value_caml_string_length_4 == 16ul))
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_caml_string_length$5=caml_string_length(if_addr);
-        tmp_if_expr$6 = return_value_caml_string_length$5 != (unsigned long int)16 ? (_Bool)1 : (_Bool)0;
+        return_value_caml_string_length_5=caml_string_length(if_addr);
+        tmp_if_expr_6 = return_value_caml_string_length_5 != (unsigned long int)16 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
         caml_invalid_argument("Netsys.mcast_drop_membership: Not an IPV6 address");
 
-      memcpy((void *)&netsys_mcast_drop_membership$$1$$1$$2$$mreq.ipv6mr_multiaddr, (const void *)&(*((struct in6_addr *)group_addr)), (unsigned long int)16);
-      netsys_mcast_drop_membership$$1$$1$$2$$mreq.ipv6mr_interface = (unsigned int)0;
-      r=setsockopt(fd_sock, 41, 21, (const void *)&netsys_mcast_drop_membership$$1$$1$$2$$mreq, (unsigned int)sizeof(struct ipv6_mreq) /*20ul*/ );
+      memcpy((void *)&netsys_mcast_drop_membership__1__1__2__mreq.ipv6mr_multiaddr, (const void *)&(*((struct in6_addr *)group_addr)), (unsigned long int)16);
+      netsys_mcast_drop_membership__1__1__2__mreq.ipv6mr_interface = (unsigned int)0;
+      r=setsockopt(fd_sock, 41, 21, (const void *)&netsys_mcast_drop_membership__1__1__2__mreq, (unsigned int)sizeof(struct ipv6_mreq) /*20ul*/ );
       break;
     }
     default:
@@ -8003,9 +8003,9 @@ signed long int netsys_mem_write(signed long int fdv, signed long int memv, sign
 signed long int netsys_memory_address(signed long int memv)
 {
   struct caml_ba_array *mem = (struct caml_ba_array *)(void *)&((signed long int *)memv)[(signed long int)1];
-  signed long int return_value_caml_copy_nativeint$1;
-  return_value_caml_copy_nativeint$1=caml_copy_nativeint((signed long int)mem->data);
-  return return_value_caml_copy_nativeint$1;
+  signed long int return_value_caml_copy_nativeint_1;
+  return_value_caml_copy_nativeint_1=caml_copy_nativeint((signed long int)mem->data);
+  return return_value_caml_copy_nativeint_1;
 }
 
 // netsys_memory_unmap_file
@@ -8057,9 +8057,9 @@ signed long int netsys_mk_poll_mem(signed long int n)
 // file netsys_c.c line 523
 signed long int netsys_mkdirat(signed long int dirfd, signed long int path, signed long int perm)
 {
-  signed int return_value_mkdirat$1;
-  return_value_mkdirat$1=mkdirat((signed int)(dirfd >> 1), (char *)path, (unsigned int)(signed int)(perm >> 1));
-  if(return_value_mkdirat$1 == -1)
+  signed int return_value_mkdirat_1;
+  return_value_mkdirat_1=mkdirat((signed int)(dirfd >> 1), (char *)path, (unsigned int)(signed int)(perm >> 1));
+  if(return_value_mkdirat_1 == -1)
     uerror("mkdirat", path);
 
   return ((signed long int)0 << 1) + (signed long int)1;
@@ -8069,9 +8069,9 @@ signed long int netsys_mkdirat(signed long int dirfd, signed long int path, sign
 // file netsys_c.c line 595
 signed long int netsys_mkfifoat(signed long int dirfd, signed long int path, signed long int mode)
 {
-  signed int return_value_mkfifoat$1;
-  return_value_mkfifoat$1=mkfifoat((signed int)(dirfd >> 1), (char *)path, (unsigned int)(signed int)(mode >> 1));
-  if(return_value_mkfifoat$1 == -1)
+  signed int return_value_mkfifoat_1;
+  return_value_mkfifoat_1=mkfifoat((signed int)(dirfd >> 1), (char *)path, (unsigned int)(signed int)(mode >> 1));
+  if(return_value_mkfifoat_1 == -1)
     uerror("mkfifoat", path);
 
   return ((signed long int)0 << 1) + (signed long int)1;
@@ -8162,9 +8162,9 @@ signed long int netsys_nanosleep(signed long int tspair, signed long int tsref)
   make_timespec(tspair, &t_in);
   caml_enter_blocking_section();
   r=nanosleep(&t_in, &t_out);
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  e = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  e = *return_value___errno_location_1;
   caml_leave_blocking_section();
   tsout=alloc_timespec_pair((double)t_out.tv_sec, t_out.tv_nsec);
   do
@@ -8193,25 +8193,25 @@ extern struct not_event * netsys_not_event_of_value(signed long int nev)
 // file netsys_c_event.h line 47
 extern void netsys_not_event_signal(struct not_event *ne)
 {
-  _Bool return_value___sync_bool_compare_and_swap$2;
+  _Bool return_value___sync_bool_compare_and_swap_2;
   signed long int buf;
   switch((signed int)ne->type)
   {
     case NE_PIPE:
     {
       __CPROVER_atomic_begin();
-      return_value___sync_bool_compare_and_swap$2 = *(&ne->state) == 0;
+      return_value___sync_bool_compare_and_swap_2 = *(&ne->state) == 0;
       *(&ne->state) = *(&ne->state) == 0 ? 1 : *(&ne->state);
       FENCE(WRfence);
       __CPROVER_atomic_end();
-      if(!(return_value___sync_bool_compare_and_swap$2 == (_Bool)0))
+      if(!(return_value___sync_bool_compare_and_swap_2 == (_Bool)0))
       {
         if(ne->fd2 >= 0)
         {
           signed int n;
-          signed long int return_value_write$1;
-          return_value_write$1=write(ne->fd2, (const void *)"X", (unsigned long int)1);
-          n = (signed int)return_value_write$1;
+          signed long int return_value_write_1;
+          return_value_write_1=write(ne->fd2, (const void *)"X", (unsigned long int)1);
+          n = (signed int)return_value_write_1;
           if(n == -1)
             fprintf(stderr, "Cannot write to signaling pipe [netsys_c_event.c]\n");
 
@@ -8226,11 +8226,11 @@ extern void netsys_not_event_signal(struct not_event *ne)
       buf = (signed long int)1;
       if(ne->fd1 >= 0)
       {
-        signed int netsys_not_event_signal$$1$$1$$2$$1$$n;
-        signed long int return_value_write$3;
-        return_value_write$3=write(ne->fd1, (const void *)(char *)&buf, (unsigned long int)8);
-        netsys_not_event_signal$$1$$1$$2$$1$$n = (signed int)return_value_write$3;
-        if(netsys_not_event_signal$$1$$1$$2$$1$$n == -1)
+        signed int netsys_not_event_signal__1__1__2__1__n;
+        signed long int return_value_write_3;
+        return_value_write_3=write(ne->fd1, (const void *)(char *)&buf, (unsigned long int)8);
+        netsys_not_event_signal__1__1__2__1__n = (signed int)return_value_write_3;
+        if(netsys_not_event_signal__1__1__2__1__n == -1)
           fprintf(stderr, "Cannot write to signaling pipe [netsys_c_event.c]\n");
 
       }
@@ -8265,9 +8265,9 @@ extern signed long int netsys_not_event_timerfd(signed int clockid)
   x=fcntl(p->fd1, 2, 1);
   if(x == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    e = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    e = *return_value___errno_location_1;
     close(p->fd1);
     unix_error(e, "fcntl", (signed long int)0);
   }
@@ -8279,9 +8279,9 @@ extern signed long int netsys_not_event_timerfd(signed int clockid)
 // file netsys_c_mem.c line 334
 signed long int netsys_obj_address(signed long int objv)
 {
-  signed long int return_value_caml_copy_nativeint$1;
-  return_value_caml_copy_nativeint$1=caml_copy_nativeint((signed long int)(signed long int *)objv);
-  return return_value_caml_copy_nativeint$1;
+  signed long int return_value_caml_copy_nativeint_1;
+  return_value_caml_copy_nativeint_1=caml_copy_nativeint((signed long int)(signed long int *)objv);
+  return return_value_caml_copy_nativeint_1;
 }
 
 // netsys_openat
@@ -8304,11 +8304,11 @@ signed long int netsys_openat(signed long int dirfd, signed long int path, signe
   signed int cv_flags;
   char *p;
   cv_flags=caml_convert_flag_list(flags, open_flag_table);
-  unsigned long int return_value_caml_string_length$1;
-  return_value_caml_string_length$1=caml_string_length(path);
-  void *return_value_caml_stat_alloc$2;
-  return_value_caml_stat_alloc$2=caml_stat_alloc(return_value_caml_string_length$1 + (unsigned long int)1);
-  p = (char *)return_value_caml_stat_alloc$2;
+  unsigned long int return_value_caml_string_length_1;
+  return_value_caml_string_length_1=caml_string_length(path);
+  void *return_value_caml_stat_alloc_2;
+  return_value_caml_stat_alloc_2=caml_stat_alloc(return_value_caml_string_length_1 + (unsigned long int)1);
+  p = (char *)return_value_caml_stat_alloc_2;
   strcpy(p, (char *)path);
   caml_enter_blocking_section();
   ret=openat((signed int)(dirfd >> 1), p, cv_flags, (signed int)(perm >> 1));
@@ -8334,9 +8334,9 @@ signed long int netsys_openlog(signed long int ident, signed long int opts, sign
   {
     if(ident_buf == ((char *)NULL))
     {
-      void *return_value_caml_stat_alloc$1;
-      return_value_caml_stat_alloc$1=caml_stat_alloc((unsigned long int)256);
-      ident_buf = (char *)return_value_caml_stat_alloc$1;
+      void *return_value_caml_stat_alloc_1;
+      return_value_caml_stat_alloc_1=caml_stat_alloc((unsigned long int)256);
+      ident_buf = (char *)return_value_caml_stat_alloc_1;
     }
 
     __builtin_strncpy(ident_buf, (char *)((signed long int *)ident)[(signed long int)0], (unsigned long int)(256 - 1));
@@ -8446,9 +8446,9 @@ signed long int netsys_poll(signed long int s, signed long int nv, signed long i
   n = (signed int)(nv >> 1);
   tmo = tv >> 1;
   caml_enter_blocking_section();
-  signed int return_value_poll$1;
-  return_value_poll$1=poll(p, (unsigned long int)n, (signed int)tmo);
-  r = (signed long int)return_value_poll$1;
+  signed int return_value_poll_1;
+  return_value_poll_1=poll(p, (unsigned long int)n, (signed int)tmo);
+  r = (signed long int)return_value_poll_1;
   caml_leave_blocking_section();
   if(r == -1l)
     uerror("poll", (signed long int)0);
@@ -8464,44 +8464,44 @@ signed long int netsys_poll_constants(signed long int dummy)
   r=caml_alloc_tuple((unsigned long int)6);
   do
   {
-    unsigned long int netsys_poll_constants$$1$$1$$caml__temp_offset = (unsigned long int)0;
+    unsigned long int netsys_poll_constants__1__1__caml__temp_offset = (unsigned long int)0;
     signed long int caml__temp_val = ((signed long int)0x001 << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)netsys_poll_constants$$1$$1$$caml__temp_offset], caml__temp_val);
+    caml_modify(&((signed long int *)r)[(signed long int)netsys_poll_constants__1__1__caml__temp_offset], caml__temp_val);
   }
   while((_Bool)0);
   do
   {
     unsigned long int caml__temp_offset = (unsigned long int)1;
-    signed long int netsys_poll_constants$$1$$2$$caml__temp_val = ((signed long int)0x002 << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)caml__temp_offset], netsys_poll_constants$$1$$2$$caml__temp_val);
+    signed long int netsys_poll_constants__1__2__caml__temp_val = ((signed long int)0x002 << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)r)[(signed long int)caml__temp_offset], netsys_poll_constants__1__2__caml__temp_val);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int netsys_poll_constants$$1$$3$$caml__temp_offset = (unsigned long int)2;
-    signed long int netsys_poll_constants$$1$$3$$caml__temp_val = ((signed long int)0x004 << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)netsys_poll_constants$$1$$3$$caml__temp_offset], netsys_poll_constants$$1$$3$$caml__temp_val);
+    unsigned long int netsys_poll_constants__1__3__caml__temp_offset = (unsigned long int)2;
+    signed long int netsys_poll_constants__1__3__caml__temp_val = ((signed long int)0x004 << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)r)[(signed long int)netsys_poll_constants__1__3__caml__temp_offset], netsys_poll_constants__1__3__caml__temp_val);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int netsys_poll_constants$$1$$4$$caml__temp_offset = (unsigned long int)3;
-    signed long int netsys_poll_constants$$1$$4$$caml__temp_val = ((signed long int)0x008 << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)netsys_poll_constants$$1$$4$$caml__temp_offset], netsys_poll_constants$$1$$4$$caml__temp_val);
+    unsigned long int netsys_poll_constants__1__4__caml__temp_offset = (unsigned long int)3;
+    signed long int netsys_poll_constants__1__4__caml__temp_val = ((signed long int)0x008 << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)r)[(signed long int)netsys_poll_constants__1__4__caml__temp_offset], netsys_poll_constants__1__4__caml__temp_val);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int netsys_poll_constants$$1$$5$$caml__temp_offset = (unsigned long int)4;
-    signed long int netsys_poll_constants$$1$$5$$caml__temp_val = ((signed long int)0x010 << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)netsys_poll_constants$$1$$5$$caml__temp_offset], netsys_poll_constants$$1$$5$$caml__temp_val);
+    unsigned long int netsys_poll_constants__1__5__caml__temp_offset = (unsigned long int)4;
+    signed long int netsys_poll_constants__1__5__caml__temp_val = ((signed long int)0x010 << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)r)[(signed long int)netsys_poll_constants__1__5__caml__temp_offset], netsys_poll_constants__1__5__caml__temp_val);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int netsys_poll_constants$$1$$6$$caml__temp_offset = (unsigned long int)5;
-    signed long int netsys_poll_constants$$1$$6$$caml__temp_val = ((signed long int)0x020 << 1) + (signed long int)1;
-    caml_modify(&((signed long int *)r)[(signed long int)netsys_poll_constants$$1$$6$$caml__temp_offset], netsys_poll_constants$$1$$6$$caml__temp_val);
+    unsigned long int netsys_poll_constants__1__6__caml__temp_offset = (unsigned long int)5;
+    signed long int netsys_poll_constants__1__6__caml__temp_val = ((signed long int)0x020 << 1) + (signed long int)1;
+    caml_modify(&((signed long int *)r)[(signed long int)netsys_poll_constants__1__6__caml__temp_offset], netsys_poll_constants__1__6__caml__temp_val);
   }
   while((_Bool)0);
   return r;
@@ -8544,28 +8544,28 @@ signed long int netsys_poll_event_sources(signed long int pav, signed long int t
   pa = *((struct poll_aggreg **)(void *)&((signed long int *)pav)[(signed long int)1]);
   caml_enter_blocking_section();
   code=epoll_wait(pa->fd, ee, 128, tmo);
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  e = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  e = *return_value___errno_location_1;
   caml_leave_blocking_section();
   if(code == -1)
     unix_error(e, "epoll_wait", (signed long int)0);
 
   r = ((signed long int)0 << 1) + (signed long int)1;
   k = 0;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   for( ; !(k >= code); k = k + 1)
     if(ee[(signed long int)k].data.u64 == 1ul)
     {
       unsigned long int buf;
       signed int n;
-      signed long int return_value_read$2;
-      return_value_read$2=read(pa->cancel_fd, (void *)(char *)&buf, (unsigned long int)8);
-      n = (signed int)return_value_read$2;
+      signed long int return_value_read_2;
+      return_value_read_2=read(pa->cancel_fd, (void *)(char *)&buf, (unsigned long int)8);
+      n = (signed int)return_value_read_2;
       if(n == -1)
       {
-        return_value___errno_location$3=__errno_location();
-        unix_error(*return_value___errno_location$3, "read", (signed long int)0);
+        return_value___errno_location_3=__errno_location();
+        unix_error(*return_value___errno_location_3, "read", (signed long int)0);
       }
 
     }
@@ -8582,34 +8582,34 @@ signed long int netsys_poll_event_sources(signed long int pav, signed long int t
       while((_Bool)0);
       do
       {
-        unsigned long int netsys_poll_event_sources$$1$$1$$1$$2$$2$$caml__temp_offset = (unsigned long int)1;
-        signed long int netsys_poll_event_sources$$1$$1$$1$$2$$2$$caml__temp_val = ((signed long int)0 << 1) + (signed long int)1;
-        caml_modify(&((signed long int *)r_item)[(signed long int)netsys_poll_event_sources$$1$$1$$1$$2$$2$$caml__temp_offset], netsys_poll_event_sources$$1$$1$$1$$2$$2$$caml__temp_val);
+        unsigned long int netsys_poll_event_sources__1__1__1__2__2__caml__temp_offset = (unsigned long int)1;
+        signed long int netsys_poll_event_sources__1__1__1__2__2__caml__temp_val = ((signed long int)0 << 1) + (signed long int)1;
+        caml_modify(&((signed long int *)r_item)[(signed long int)netsys_poll_event_sources__1__1__1__2__2__caml__temp_offset], netsys_poll_event_sources__1__1__1__2__2__caml__temp_val);
       }
       while((_Bool)0);
       do
       {
-        unsigned long int netsys_poll_event_sources$$1$$1$$1$$2$$3$$caml__temp_offset = (unsigned long int)2;
-        signed long int netsys_poll_event_sources$$1$$1$$1$$2$$3$$caml__temp_val;
-        signed int return_value_translate_to_poll_events$4;
-        return_value_translate_to_poll_events$4=translate_to_poll_events((signed int)ee[(signed long int)k].events);
-        netsys_poll_event_sources$$1$$1$$1$$2$$3$$caml__temp_val = ((signed long int)return_value_translate_to_poll_events$4 << 1) + (signed long int)1;
-        caml_modify(&((signed long int *)r_item)[(signed long int)netsys_poll_event_sources$$1$$1$$1$$2$$3$$caml__temp_offset], netsys_poll_event_sources$$1$$1$$1$$2$$3$$caml__temp_val);
+        unsigned long int netsys_poll_event_sources__1__1__1__2__3__caml__temp_offset = (unsigned long int)2;
+        signed long int netsys_poll_event_sources__1__1__1__2__3__caml__temp_val;
+        signed int return_value_translate_to_poll_events_4;
+        return_value_translate_to_poll_events_4=translate_to_poll_events((signed int)ee[(signed long int)k].events);
+        netsys_poll_event_sources__1__1__1__2__3__caml__temp_val = ((signed long int)return_value_translate_to_poll_events_4 << 1) + (signed long int)1;
+        caml_modify(&((signed long int *)r_item)[(signed long int)netsys_poll_event_sources__1__1__1__2__3__caml__temp_offset], netsys_poll_event_sources__1__1__1__2__3__caml__temp_val);
       }
       while((_Bool)0);
       r_cons=caml_alloc((unsigned long int)2, (unsigned int)0);
       do
       {
-        unsigned long int netsys_poll_event_sources$$1$$1$$1$$2$$4$$caml__temp_offset = (unsigned long int)0;
-        signed long int netsys_poll_event_sources$$1$$1$$1$$2$$4$$caml__temp_val = r_item;
-        caml_modify(&((signed long int *)r_cons)[(signed long int)netsys_poll_event_sources$$1$$1$$1$$2$$4$$caml__temp_offset], netsys_poll_event_sources$$1$$1$$1$$2$$4$$caml__temp_val);
+        unsigned long int netsys_poll_event_sources__1__1__1__2__4__caml__temp_offset = (unsigned long int)0;
+        signed long int netsys_poll_event_sources__1__1__1__2__4__caml__temp_val = r_item;
+        caml_modify(&((signed long int *)r_cons)[(signed long int)netsys_poll_event_sources__1__1__1__2__4__caml__temp_offset], netsys_poll_event_sources__1__1__1__2__4__caml__temp_val);
       }
       while((_Bool)0);
       do
       {
-        unsigned long int netsys_poll_event_sources$$1$$1$$1$$2$$5$$caml__temp_offset = (unsigned long int)1;
-        signed long int netsys_poll_event_sources$$1$$1$$1$$2$$5$$caml__temp_val = r;
-        caml_modify(&((signed long int *)r_cons)[(signed long int)netsys_poll_event_sources$$1$$1$$1$$2$$5$$caml__temp_offset], netsys_poll_event_sources$$1$$1$$1$$2$$5$$caml__temp_val);
+        unsigned long int netsys_poll_event_sources__1__1__1__2__5__caml__temp_offset = (unsigned long int)1;
+        signed long int netsys_poll_event_sources__1__1__1__2__5__caml__temp_val = r;
+        caml_modify(&((signed long int *)r_cons)[(signed long int)netsys_poll_event_sources__1__1__1__2__5__caml__temp_offset], netsys_poll_event_sources__1__1__1__2__5__caml__temp_val);
       }
       while((_Bool)0);
       r = r_cons;
@@ -8646,9 +8646,9 @@ signed long int netsys_posix_openpt(signed long int noctty)
 // file netsys_c_spawn.c line 816
 signed long int netsys_posix_spawn_byte(signed long int *argv, signed int argn)
 {
-  signed long int return_value_netsys_posix_spawn_nat$1;
-  return_value_netsys_posix_spawn_nat$1=netsys_posix_spawn_nat(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5]);
-  return return_value_netsys_posix_spawn_nat$1;
+  signed long int return_value_netsys_posix_spawn_nat_1;
+  return_value_netsys_posix_spawn_nat_1=netsys_posix_spawn_nat(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5]);
+  return return_value_netsys_posix_spawn_nat_1;
 }
 
 // netsys_posix_spawn_nat
@@ -8666,9 +8666,9 @@ signed long int netsys_posix_spawn_nat(signed long int v_pg, signed long int v_f
   char **sub_env;
   signed int cleanup_sub_argv;
   signed int cleanup_sub_env;
-  struct anonymous$8 fd_actions;
+  struct anonymous_8 fd_actions;
   signed int n_fd_actions;
-  struct anonymous$22 attr;
+  struct anonymous_22 attr;
   signed int cleanup_fd_actions;
   signed int cleanup_attr;
   signed long int v_fd_actions_l;
@@ -8680,8 +8680,8 @@ signed long int netsys_posix_spawn_nat(signed long int v_pg, signed long int v_f
   signed long int v_sig_actions_hd;
   signed long int v_signals_l;
   signed long int v_signals_hd;
-  struct anonymous$2 sigdfl;
-  struct anonymous$2 spawn_mask;
+  struct anonymous_2 sigdfl;
+  struct anonymous_2 spawn_mask;
   signed int fd1;
   signed int fd2;
   signed int signr;
@@ -8705,9 +8705,9 @@ signed long int netsys_posix_spawn_nat(signed long int v_pg, signed long int v_f
   code=open(".", 00, 0);
   if(code == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    uerror_errno = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    uerror_errno = *return_value___errno_location_1;
     uerror_function = "netsys_posix_spawn/open";
     goto main_exit;
   }
@@ -8717,18 +8717,18 @@ signed long int netsys_posix_spawn_nat(signed long int v_pg, signed long int v_f
   code=fcntl(fd_known, 2, 1);
   if(code == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    uerror_errno = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    uerror_errno = *return_value___errno_location_2;
     uerror_function = "netsys_posix_spawn/fcntl";
     goto main_exit;
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(((unsigned long int)(((unsigned long int *)v_args)[(signed long int)-1] >> 10) + (unsigned long int)1) * sizeof(char *) /*8ul*/ );
-  sub_argv = (char **)return_value_malloc$3;
-  void *return_value_malloc$4;
-  _Bool tmp_if_expr$8;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(((unsigned long int)(((unsigned long int *)v_args)[(signed long int)-1] >> 10) + (unsigned long int)1) * sizeof(char *) /*8ul*/ );
+  sub_argv = (char **)return_value_malloc_3;
+  void *return_value_malloc_4;
+  _Bool tmp_if_expr_8;
   if(sub_argv == ((char **)NULL))
   {
     uerror_errno = 12;
@@ -8742,8 +8742,8 @@ signed long int netsys_posix_spawn_nat(signed long int v_pg, signed long int v_f
       sub_argv[k] = (char *)((signed long int *)v_args)[k];
     sub_argv[(signed long int)(unsigned long int)(((unsigned long int *)v_args)[(signed long int)-1] >> 10)] = (char *)(void *)0;
     cleanup_sub_argv = 1;
-    return_value_malloc$4=malloc(((unsigned long int)(((unsigned long int *)v_env)[(signed long int)-1] >> 10) + (unsigned long int)1) * sizeof(char *) /*8ul*/ );
-    sub_env = (char **)return_value_malloc$4;
+    return_value_malloc_4=malloc(((unsigned long int)(((unsigned long int *)v_env)[(signed long int)-1] >> 10) + (unsigned long int)1) * sizeof(char *) /*8ul*/ );
+    sub_env = (char **)return_value_malloc_4;
     if(sub_env == ((char **)NULL))
     {
       uerror_errno = 12;
@@ -8783,9 +8783,9 @@ signed long int netsys_posix_spawn_nat(signed long int v_pg, signed long int v_f
             code=posix_spawnattr_setpgroup(&attr, (signed int)(((signed long int *)v_pg)[(signed long int)0] >> 1));
             if(!(code == 0))
             {
-              signed int *return_value___errno_location$5;
-              return_value___errno_location$5=__errno_location();
-              uerror_errno = *return_value___errno_location$5;
+              signed int *return_value___errno_location_5;
+              return_value___errno_location_5=__errno_location();
+              uerror_errno = *return_value___errno_location_5;
               uerror_function = "netsys_spawn/psa_setpgroup [1]";
               goto main_exit;
             }
@@ -8803,9 +8803,9 @@ signed long int netsys_posix_spawn_nat(signed long int v_pg, signed long int v_f
                 code=posix_spawnattr_setpgroup(&attr, 0);
                 if(!(code == 0))
                 {
-                  signed int *return_value___errno_location$6;
-                  return_value___errno_location$6=__errno_location();
-                  uerror_errno = *return_value___errno_location$6;
+                  signed int *return_value___errno_location_6;
+                  return_value___errno_location_6=__errno_location();
+                  uerror_errno = *return_value___errno_location_6;
                   uerror_function = "netsys_spawn/psa_setpgroup [2]";
                   goto main_exit;
                 }
@@ -8864,9 +8864,9 @@ signed long int netsys_posix_spawn_nat(signed long int v_pg, signed long int v_f
                   code=sigaddset(&spawn_mask, signr);
                   if(code == -1)
                   {
-                    signed int *return_value___errno_location$7;
-                    return_value___errno_location$7=__errno_location();
-                    uerror_errno = *return_value___errno_location$7;
+                    signed int *return_value___errno_location_7;
+                    return_value___errno_location_7=__errno_location();
+                    uerror_errno = *return_value___errno_location_7;
                     uerror_function = "netsys_spawn/sigaddset [190]";
                     goto main_exit;
                   }
@@ -8971,11 +8971,11 @@ signed long int netsys_posix_spawn_nat(signed long int v_pg, signed long int v_f
                       for( ; !(k >= nofile); k = k + 1l)
                       {
                         if(k >= j)
-                          tmp_if_expr$8 = (_Bool)1;
+                          tmp_if_expr_8 = (_Bool)1;
 
                         else
-                          tmp_if_expr$8 = !((signed int)(((signed long int *)v_fd_actions_0)[k] >> 1) != 0) ? (_Bool)1 : (_Bool)0;
-                        if(tmp_if_expr$8)
+                          tmp_if_expr_8 = !((signed int)(((signed long int *)v_fd_actions_0)[k] >> 1) != 0) ? (_Bool)1 : (_Bool)0;
+                        if(tmp_if_expr_8)
                         {
                           if(!(k == (signed long int)fd_known))
                           {
@@ -9093,9 +9093,9 @@ signed long int netsys_ptsname(signed long int fd)
   if(s == ((char *)NULL))
     uerror("ptsname", (signed long int)0);
 
-  signed long int return_value_caml_copy_string$1;
-  return_value_caml_copy_string$1=caml_copy_string(s);
-  return return_value_caml_copy_string$1;
+  signed long int return_value_caml_copy_string_1;
+  return_value_caml_copy_string_1=caml_copy_string(s);
+  return return_value_caml_copy_string_1;
 }
 
 // netsys_push_event_sources
@@ -9115,9 +9115,9 @@ signed long int netsys_push_event_sources(signed long int pav, signed long int p
     v_pushlist_hd = ((signed long int *)v_pushlist_l)[(signed long int)0];
     v_pushlist_l = ((signed long int *)v_pushlist_l)[(signed long int)1];
     fd = (signed int)(((signed long int *)((signed long int *)v_pushlist_hd)[(signed long int)1])[(signed long int)0] >> 1);
-    signed int return_value_translate_to_epoll_events$1;
-    return_value_translate_to_epoll_events$1=translate_to_epoll_events((signed int)(((signed long int *)v_pushlist_hd)[(signed long int)2] >> 1));
-    ee.events = (unsigned int)(return_value_translate_to_epoll_events$1 | 1073741824);
+    signed int return_value_translate_to_epoll_events_1;
+    return_value_translate_to_epoll_events_1=translate_to_epoll_events((signed int)(((signed long int *)v_pushlist_hd)[(signed long int)2] >> 1));
+    ee.events = (unsigned int)(return_value_translate_to_epoll_events_1 | 1073741824);
     ee.data.u64 = (unsigned long int)((((signed long int *)v_pushlist_hd)[(signed long int)0] >> 1) << 1);
     code=epoll_ctl(pa->fd, 3, fd, &ee);
     if(code == -1)
@@ -9158,11 +9158,11 @@ signed long int netsys_query_langinfo(signed long int locale)
   if(old_locale == ((char *)NULL))
     caml_failwith("Netsys_posix.query_locale: no locale support");
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(old_locale);
-  void *return_value_caml_stat_alloc$2;
-  return_value_caml_stat_alloc$2=caml_stat_alloc(return_value_strlen$1 + (unsigned long int)1);
-  oldcopy_locale = (char *)return_value_caml_stat_alloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(old_locale);
+  void *return_value_caml_stat_alloc_2;
+  return_value_caml_stat_alloc_2=caml_stat_alloc(return_value_strlen_1 + (unsigned long int)1);
+  oldcopy_locale = (char *)return_value_caml_stat_alloc_2;
   strcpy(oldcopy_locale, old_locale);
   new_locale=setlocale(6, (char *)locale);
   if(new_locale == ((char *)NULL))
@@ -9179,9 +9179,9 @@ signed long int netsys_query_langinfo(signed long int locale)
     {
       unsigned long int caml__temp_offset = (unsigned long int)k;
       signed long int caml__temp_val;
-      char *return_value_nl_langinfo$3;
-      return_value_nl_langinfo$3=nl_langinfo(locale_items_table[(signed long int)k]);
-      caml__temp_val=caml_copy_string(return_value_nl_langinfo$3);
+      char *return_value_nl_langinfo_3;
+      return_value_nl_langinfo_3=nl_langinfo(locale_items_table[(signed long int)k]);
+      caml__temp_val=caml_copy_string(return_value_nl_langinfo_3);
       caml_modify(&((signed long int *)s)[(signed long int)caml__temp_offset], caml__temp_val);
     }
     while((_Bool)0);
@@ -9259,9 +9259,9 @@ extern signed int netsys_queue_init(struct nqueue *q, unsigned long int n)
   t=malloc(n * sizeof(void *) /*8ul*/ );
   if(t == NULL)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
     return -1;
   }
 
@@ -9312,16 +9312,16 @@ signed long int netsys_readlinkat(signed long int dirfd, signed long int path)
 {
   char buffer[4096l];
   signed int len;
-  signed long int return_value_readlinkat$1;
-  return_value_readlinkat$1=readlinkat((signed int)(dirfd >> 1), (char *)path, buffer, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
-  len = (signed int)return_value_readlinkat$1;
+  signed long int return_value_readlinkat_1;
+  return_value_readlinkat_1=readlinkat((signed int)(dirfd >> 1), (char *)path, buffer, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
+  len = (signed int)return_value_readlinkat_1;
   if(len == -1)
     uerror("readlinkat", path);
 
   buffer[(signed long int)len] = (char)0;
-  signed long int return_value_caml_copy_string$2;
-  return_value_caml_copy_string$2=caml_copy_string(buffer);
-  return return_value_caml_copy_string$2;
+  signed long int return_value_caml_copy_string_2;
+  return_value_caml_copy_string_2=caml_copy_string(buffer);
+  return return_value_caml_copy_string_2;
 }
 
 // netsys_real_select
@@ -9355,9 +9355,9 @@ signed long int netsys_realpath(signed long int name)
 // file netsys_c.c line 535
 signed long int netsys_renameat(signed long int olddirfd, signed long int oldpath, signed long int newdirfd, signed long int newpath)
 {
-  signed int return_value_renameat$1;
-  return_value_renameat$1=renameat((signed int)(olddirfd >> 1), (char *)oldpath, (signed int)(newdirfd >> 1), (char *)newpath);
-  if(return_value_renameat$1 == -1)
+  signed int return_value_renameat_1;
+  return_value_renameat_1=renameat((signed int)(olddirfd >> 1), (char *)oldpath, (signed int)(newdirfd >> 1), (char *)newpath);
+  if(return_value_renameat_1 == -1)
     uerror("renameat", oldpath);
 
   return ((signed long int)0 << 1) + (signed long int)1;
@@ -9457,9 +9457,9 @@ signed long int netsys_return_all_not_event_fd(signed long int nev)
     v2=caml_alloc((unsigned long int)2, (unsigned int)0);
     do
     {
-      unsigned long int netsys_return_all_not_event_fd$$1$$1$$1$$caml__temp_offset = (unsigned long int)0;
-      signed long int netsys_return_all_not_event_fd$$1$$1$$1$$caml__temp_val = ((signed long int)ne->fd1 << 1) + (signed long int)1;
-      caml_modify(&((signed long int *)v2)[(signed long int)netsys_return_all_not_event_fd$$1$$1$$1$$caml__temp_offset], netsys_return_all_not_event_fd$$1$$1$$1$$caml__temp_val);
+      unsigned long int netsys_return_all_not_event_fd__1__1__1__caml__temp_offset = (unsigned long int)0;
+      signed long int netsys_return_all_not_event_fd__1__1__1__caml__temp_val = ((signed long int)ne->fd1 << 1) + (signed long int)1;
+      caml_modify(&((signed long int *)v2)[(signed long int)netsys_return_all_not_event_fd__1__1__1__caml__temp_offset], netsys_return_all_not_event_fd__1__1__1__caml__temp_val);
     }
     while((_Bool)0);
     do
@@ -9477,16 +9477,16 @@ signed long int netsys_return_all_not_event_fd(signed long int nev)
     v2=caml_alloc((unsigned long int)2, (unsigned int)0);
     do
     {
-      unsigned long int netsys_return_all_not_event_fd$$1$$2$$1$$caml__temp_offset = (unsigned long int)0;
-      signed long int netsys_return_all_not_event_fd$$1$$2$$1$$caml__temp_val = ((signed long int)ne->fd2 << 1) + (signed long int)1;
-      caml_modify(&((signed long int *)v2)[(signed long int)netsys_return_all_not_event_fd$$1$$2$$1$$caml__temp_offset], netsys_return_all_not_event_fd$$1$$2$$1$$caml__temp_val);
+      unsigned long int netsys_return_all_not_event_fd__1__2__1__caml__temp_offset = (unsigned long int)0;
+      signed long int netsys_return_all_not_event_fd__1__2__1__caml__temp_val = ((signed long int)ne->fd2 << 1) + (signed long int)1;
+      caml_modify(&((signed long int *)v2)[(signed long int)netsys_return_all_not_event_fd__1__2__1__caml__temp_offset], netsys_return_all_not_event_fd__1__2__1__caml__temp_val);
     }
     while((_Bool)0);
     do
     {
-      unsigned long int netsys_return_all_not_event_fd$$1$$2$$2$$caml__temp_offset = (unsigned long int)1;
-      signed long int netsys_return_all_not_event_fd$$1$$2$$2$$caml__temp_val = v1;
-      caml_modify(&((signed long int *)v2)[(signed long int)netsys_return_all_not_event_fd$$1$$2$$2$$caml__temp_offset], netsys_return_all_not_event_fd$$1$$2$$2$$caml__temp_val);
+      unsigned long int netsys_return_all_not_event_fd__1__2__2__caml__temp_offset = (unsigned long int)1;
+      signed long int netsys_return_all_not_event_fd__1__2__2__caml__temp_val = v1;
+      caml_modify(&((signed long int *)v2)[(signed long int)netsys_return_all_not_event_fd__1__2__2__caml__temp_offset], netsys_return_all_not_event_fd__1__2__2__caml__temp_val);
     }
     while((_Bool)0);
     v1 = v2;
@@ -9519,9 +9519,9 @@ signed long int netsys_s_read_int4_64(signed long int sv, signed long int pv)
   signed long int p;
   s = (char *)sv;
   p = pv >> 1;
-  unsigned int return_value___bswap_32$1;
-  return_value___bswap_32$1=__bswap_32(*((unsigned int *)(s + p)));
-  return ((signed long int)(signed int)return_value___bswap_32$1 << 1) + (signed long int)1;
+  unsigned int return_value___bswap_32_1;
+  return_value___bswap_32_1=__bswap_32(*((unsigned int *)(s + p)));
+  return ((signed long int)(signed int)return_value___bswap_32_1 << 1) + (signed long int)1;
 }
 
 // netsys_s_read_string_array
@@ -9558,9 +9558,9 @@ signed long int netsys_s_read_string_array(signed long int sv, signed long int p
   av_in_heap = (signed int)(n > (signed long int)5000 || lv >> 1 > (signed long int)20000);
   err = 0;
   k = (signed long int)0;
-  signed long int tmp_if_expr$3;
-  signed long int return_value_netsys_alloc_string_shr$1;
-  signed long int return_value_caml_alloc_string$2;
+  signed long int tmp_if_expr_3;
+  signed long int return_value_netsys_alloc_string_shr_1;
+  signed long int return_value_caml_alloc_string_2;
   while(!(k >= n))
   {
     if(!(l >= 4l + p))
@@ -9583,16 +9583,16 @@ signed long int netsys_s_read_string_array(signed long int sv, signed long int p
 
     if(!(av_in_heap == 0))
     {
-      return_value_netsys_alloc_string_shr$1=netsys_alloc_string_shr((unsigned long int)e);
-      tmp_if_expr$3 = return_value_netsys_alloc_string_shr$1;
+      return_value_netsys_alloc_string_shr_1=netsys_alloc_string_shr((unsigned long int)e);
+      tmp_if_expr_3 = return_value_netsys_alloc_string_shr_1;
     }
 
     else
     {
-      return_value_caml_alloc_string$2=caml_alloc_string((unsigned long int)e);
-      tmp_if_expr$3 = return_value_caml_alloc_string$2;
+      return_value_caml_alloc_string_2=caml_alloc_string((unsigned long int)e);
+      tmp_if_expr_3 = return_value_caml_alloc_string_2;
     }
-    uv = tmp_if_expr$3;
+    uv = tmp_if_expr_3;
     s = (char *)sv;
     memcpy((void *)(char *)uv, (const void *)(s + p), (unsigned long int)e);
     caml_modify(&((signed long int *)av)[k], uv);
@@ -9637,14 +9637,14 @@ signed long int netsys_sem_close(signed long int srv)
   struct sem_block *sb;
   signed int code;
   sb = (struct sem_block *)(void *)&((signed long int *)srv)[(signed long int)1];
-  if(sb->sem_ptr == ((union anonymous$5 *)NULL))
+  if(sb->sem_ptr == ((union anonymous_5 *)NULL))
     caml_invalid_argument("Netsys.sem_close: stale semaphore");
 
   code=sem_close(sb->sem_ptr);
   if(code == -1)
     uerror("sem_close", (signed long int)0);
 
-  sb->sem_ptr = (union anonymous$5 *)(void *)0;
+  sb->sem_ptr = (union anonymous_5 *)(void *)0;
   return ((signed long int)0 << 1) + (signed long int)1;
 }
 
@@ -9655,14 +9655,14 @@ signed long int netsys_sem_destroy(signed long int srv)
   struct sem_block *sb;
   signed int code;
   sb = (struct sem_block *)(void *)&((signed long int *)srv)[(signed long int)1];
-  if(sb->sem_ptr == ((union anonymous$5 *)NULL))
+  if(sb->sem_ptr == ((union anonymous_5 *)NULL))
     caml_invalid_argument("Netsys.sem_destroy: stale semaphore");
 
   code=sem_destroy(sb->sem_ptr);
   if(code == -1)
     uerror("sem_destroy", (signed long int)0);
 
-  sb->sem_ptr = (union anonymous$5 *)(void *)0;
+  sb->sem_ptr = (union anonymous_5 *)(void *)0;
   return ((signed long int)0 << 1) + (signed long int)1;
 }
 
@@ -9674,7 +9674,7 @@ signed long int netsys_sem_getvalue(signed long int srv)
   signed int code;
   signed int sval;
   sb = (struct sem_block *)(void *)&((signed long int *)srv)[(signed long int)1];
-  if(sb->sem_ptr == ((union anonymous$5 *)NULL))
+  if(sb->sem_ptr == ((union anonymous_5 *)NULL))
     caml_invalid_argument("Netsys.sem_getvalue: stale semaphore");
 
   code=sem_getvalue(sb->sem_ptr, &sval);
@@ -9691,12 +9691,12 @@ signed long int netsys_sem_getvalue(signed long int srv)
 // file netsys_c_sem.c line 166
 signed long int netsys_sem_init(signed long int memv, signed long int posv, signed long int psharedv, signed long int initv)
 {
-  union anonymous$5 *s;
+  union anonymous_5 *s;
   signed int code;
   unsigned int init;
   signed long int r;
   init = (unsigned int)(initv >> 1);
-  s = (union anonymous$5 *)((char *)((struct caml_ba_array *)(void *)&((signed long int *)memv)[(signed long int)1])->data + (posv >> 1));
+  s = (union anonymous_5 *)((char *)((struct caml_ba_array *)(void *)&((signed long int *)memv)[(signed long int)1])->data + (posv >> 1));
   code=sem_init(s, (signed int)(psharedv >> 1), init);
   if(code == -1)
     uerror("sem_init", (signed long int)0);
@@ -9709,14 +9709,14 @@ signed long int netsys_sem_init(signed long int memv, signed long int posv, sign
 // file netsys_c_sem.c line 111
 signed long int netsys_sem_open(signed long int namev, signed long int flagsv, signed long int modev, signed long int initv)
 {
-  union anonymous$5 *s;
+  union anonymous_5 *s;
   signed long int r;
   unsigned int init;
   signed int flags;
   init = (unsigned int)(initv >> 1);
   flags=caml_convert_flag_list(flagsv, sem_open_flag_table);
   s=sem_open((char *)namev, flags, (signed int)(modev >> 1), init);
-  if(s == ((union anonymous$5 *)NULL))
+  if(s == ((union anonymous_5 *)NULL))
     uerror("sem_open", namev);
 
   r=alloc_sem_block(s, 1);
@@ -9730,7 +9730,7 @@ signed long int netsys_sem_post(signed long int srv)
   struct sem_block *sb;
   signed int code;
   sb = (struct sem_block *)(void *)&((signed long int *)srv)[(signed long int)1];
-  if(sb->sem_ptr == ((union anonymous$5 *)NULL))
+  if(sb->sem_ptr == ((union anonymous_5 *)NULL))
     caml_invalid_argument("Netsys.sem_post: stale semaphore");
 
   code=sem_post(sb->sem_ptr);
@@ -9744,7 +9744,7 @@ signed long int netsys_sem_post(signed long int srv)
 // file netsys_c_sem.c line 77
 signed long int netsys_sem_size(signed long int dummy)
 {
-  return ((signed long int)sizeof(union anonymous$5) /*32ul*/  << 1) + (signed long int)1;
+  return ((signed long int)sizeof(union anonymous_5) /*32ul*/  << 1) + (signed long int)1;
 }
 
 // netsys_sem_unlink
@@ -9772,11 +9772,11 @@ signed long int netsys_sem_value_max(signed long int dummy)
 signed long int netsys_sem_wait(signed long int srv, signed long int bv)
 {
   struct sem_block *sb;
-  union anonymous$5 *s;
+  union anonymous_5 *s;
   signed int code;
   signed int tag;
   sb = (struct sem_block *)(void *)&((signed long int *)srv)[(signed long int)1];
-  if(sb->sem_ptr == ((union anonymous$5 *)NULL))
+  if(sb->sem_ptr == ((union anonymous_5 *)NULL))
     caml_invalid_argument("Netsys.sem_wait: stale semaphore");
 
   tag = (signed int)(bv >> 1);
@@ -9962,11 +9962,11 @@ signed long int netsys_shm_open(signed long int path, signed long int flags, sig
   signed int cv_flags;
   char *p;
   cv_flags=caml_convert_flag_list(flags, shm_open_flag_table);
-  unsigned long int return_value_caml_string_length$1;
-  return_value_caml_string_length$1=caml_string_length(path);
-  void *return_value_caml_stat_alloc$2;
-  return_value_caml_stat_alloc$2=caml_stat_alloc(return_value_caml_string_length$1 + (unsigned long int)1);
-  p = (char *)return_value_caml_stat_alloc$2;
+  unsigned long int return_value_caml_string_length_1;
+  return_value_caml_string_length_1=caml_string_length(path);
+  void *return_value_caml_stat_alloc_2;
+  return_value_caml_stat_alloc_2=caml_stat_alloc(return_value_caml_string_length_1 + (unsigned long int)1);
+  p = (char *)return_value_caml_stat_alloc_2;
   strcpy(p, (char *)path);
   ret=shm_open(p, cv_flags, (unsigned int)(signed int)(perm >> 1));
   caml_stat_free((void *)p);
@@ -9994,9 +9994,9 @@ signed long int netsys_shm_unlink(signed long int path)
 // file netsys_c_spawn.c line 485
 signed long int netsys_spawn_byte(signed long int *argv, signed int argn)
 {
-  signed long int return_value_netsys_spawn_nat$1;
-  return_value_netsys_spawn_nat$1=netsys_spawn_nat(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5], argv[(signed long int)6]);
-  return return_value_netsys_spawn_nat$1;
+  signed long int return_value_netsys_spawn_nat_1;
+  return_value_netsys_spawn_nat_1=netsys_spawn_nat(argv[(signed long int)0], argv[(signed long int)1], argv[(signed long int)2], argv[(signed long int)3], argv[(signed long int)4], argv[(signed long int)5], argv[(signed long int)6]);
+  return return_value_netsys_spawn_nat_1;
 }
 
 // netsys_spawn_nat
@@ -10007,9 +10007,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
   char *uerror_function;
   signed long int return_value;
   signed int code;
-  struct anonymous$2 mask;
-  struct anonymous$2 save_mask;
-  struct anonymous$2 spawn_mask;
+  struct anonymous_2 mask;
+  struct anonymous_2 save_mask;
+  struct anonymous_2 spawn_mask;
   signed int cleanup_mask;
   signed int ctrl_pipe[2l];
   signed int cleanup_pipe0;
@@ -10020,9 +10020,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
   char **sub_env;
   signed int cleanup_sub_argv;
   signed int cleanup_sub_env;
-  union anonymous$11 me;
+  union anonymous_11 me;
   signed long int n;
-  char *netsys_spawn_nat$$1$$ttyname;
+  char *netsys_spawn_nat__1__ttyname;
   signed int ttyfd;
   struct sigaction sigact;
   signed int signr;
@@ -10049,9 +10049,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
   sub_env = (char **)(void *)0;
   return_value = ((signed long int)0 << 1) + (signed long int)1;
   uerror_function = "<uninit>";
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(4);
-  nofile = (signed int)return_value_sysconf$1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(4);
+  nofile = (signed int)return_value_sysconf_1;
   code=sigfillset(&mask);
   if(code == -1)
     unix_error(22, "netsys_spawn/sigfillset [000]", (signed long int)0);
@@ -10060,28 +10060,28 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
   if(!(code == 0))
     unix_error(code, "netsys_spawn/pthread_sigmask [001]", (signed long int)0);
 
-  memcpy((void *)&spawn_mask, (const void *)&save_mask, sizeof(struct anonymous$2) /*128ul*/ );
+  memcpy((void *)&spawn_mask, (const void *)&save_mask, sizeof(struct anonymous_2) /*128ul*/ );
   cleanup_mask = 1;
   code=pipe(ctrl_pipe);
   if(code == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    uerror_errno = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    uerror_errno = *return_value___errno_location_2;
     uerror_function = "netsys_spawn/pipe [010]";
     goto main_exit;
   }
 
   cleanup_pipe0 = 1;
   cleanup_pipe1 = 1;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(((unsigned long int)(((unsigned long int *)v_args)[(signed long int)-1] >> 10) + (unsigned long int)1) * sizeof(char *) /*8ul*/ );
-  sub_argv = (char **)return_value_malloc$3;
-  void *return_value_malloc$4;
-  signed int *return_value___errno_location$21;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$32;
-  signed int *return_value___errno_location$31;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(((unsigned long int)(((unsigned long int *)v_args)[(signed long int)-1] >> 10) + (unsigned long int)1) * sizeof(char *) /*8ul*/ );
+  sub_argv = (char **)return_value_malloc_3;
+  void *return_value_malloc_4;
+  signed int *return_value___errno_location_21;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_32;
+  signed int *return_value___errno_location_31;
   if(sub_argv == ((char **)NULL))
   {
     uerror_errno = 12;
@@ -10095,8 +10095,8 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
       sub_argv[(signed long int)k] = (char *)((signed long int *)v_args)[(signed long int)k];
     sub_argv[(signed long int)(unsigned long int)(((unsigned long int *)v_args)[(signed long int)-1] >> 10)] = (char *)(void *)0;
     cleanup_sub_argv = 1;
-    return_value_malloc$4=malloc(((unsigned long int)(((unsigned long int *)v_env)[(signed long int)-1] >> 10) + (unsigned long int)1) * sizeof(char *) /*8ul*/ );
-    sub_env = (char **)return_value_malloc$4;
+    return_value_malloc_4=malloc(((unsigned long int)(((unsigned long int *)v_env)[(signed long int)-1] >> 10) + (unsigned long int)1) * sizeof(char *) /*8ul*/ );
+    sub_env = (char **)return_value_malloc_4;
     if(sub_env == ((char **)NULL))
     {
       uerror_errno = 12;
@@ -10113,9 +10113,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
       pid=fork();
       if(pid == -1)
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        uerror_errno = *return_value___errno_location$5;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        uerror_errno = *return_value___errno_location_5;
         uerror_function = "netsys_spawn/fork [031]";
         goto main_exit;
       }
@@ -10126,9 +10126,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
         code=close(ctrl_pipe[(signed long int)0]);
         if(code == -1)
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          uerror_errno = *return_value___errno_location$6;
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          uerror_errno = *return_value___errno_location_6;
           uerror_function = "netsys_spawn/close [100]";
           goto sub_error;
         }
@@ -10136,9 +10136,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
         code=fcntl(ctrl_pipe[(signed long int)1], 2, 1);
         if(code == -1)
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          uerror_errno = *return_value___errno_location$7;
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          uerror_errno = *return_value___errno_location_7;
           uerror_function = "netsys_spawn/fcntl [101]";
           goto sub_error;
         }
@@ -10151,9 +10151,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
               code=chdir((char *)((signed long int *)v_chdir)[(signed long int)0]);
               if(code == -1)
               {
-                signed int *return_value___errno_location$8;
-                return_value___errno_location$8=__errno_location();
-                uerror_errno = *return_value___errno_location$8;
+                signed int *return_value___errno_location_8;
+                return_value___errno_location_8=__errno_location();
+                uerror_errno = *return_value___errno_location_8;
                 uerror_function = "netsys_spawn/chdir [110]";
                 goto sub_error;
               }
@@ -10165,9 +10165,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
               code=fchdir((signed int)(((signed long int *)v_chdir)[(signed long int)1] >> 1));
               if(code == -1)
               {
-                signed int *return_value___errno_location$9;
-                return_value___errno_location$9=__errno_location();
-                uerror_errno = *return_value___errno_location$9;
+                signed int *return_value___errno_location_9;
+                return_value___errno_location_9=__errno_location();
+                uerror_errno = *return_value___errno_location_9;
                 uerror_function = "netsys_spawn/fchdir [111]";
                 goto sub_error;
               }
@@ -10191,9 +10191,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
             code=setpgid(0, (signed int)(((signed long int *)v_pg)[(signed long int)0] >> 1));
             if(code == -1)
             {
-              signed int *return_value___errno_location$10;
-              return_value___errno_location$10=__errno_location();
-              uerror_errno = *return_value___errno_location$10;
+              signed int *return_value___errno_location_10;
+              return_value___errno_location_10=__errno_location();
+              uerror_errno = *return_value___errno_location_10;
               uerror_function = "netsys_spawn/setpgid [120]";
               goto sub_error;
             }
@@ -10210,9 +10210,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 code=setpgid(0, 0);
                 if(code == -1)
                 {
-                  signed int *return_value___errno_location$11;
-                  return_value___errno_location$11=__errno_location();
-                  uerror_errno = *return_value___errno_location$11;
+                  signed int *return_value___errno_location_11;
+                  return_value___errno_location_11=__errno_location();
+                  uerror_errno = *return_value___errno_location_11;
                   uerror_function = "netsys_spawn/setpgid [130]";
                   goto sub_error;
                 }
@@ -10224,25 +10224,25 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 code=setpgid(0, 0);
                 if(code == -1)
                 {
-                  signed int *return_value___errno_location$12;
-                  return_value___errno_location$12=__errno_location();
-                  uerror_errno = *return_value___errno_location$12;
+                  signed int *return_value___errno_location_12;
+                  return_value___errno_location_12=__errno_location();
+                  uerror_errno = *return_value___errno_location_12;
                   uerror_function = "netsys_spawn/setpgid [140]";
                   goto sub_error;
                 }
 
-                netsys_spawn_nat$$1$$ttyname=ctermid((char *)(void *)0);
-                ttyfd=open(netsys_spawn_nat$$1$$ttyname, 02);
+                netsys_spawn_nat__1__ttyname=ctermid((char *)(void *)0);
+                ttyfd=open(netsys_spawn_nat__1__ttyname, 02);
                 if(ttyfd == -1)
                 {
-                  signed int *return_value___errno_location$13;
-                  return_value___errno_location$13=__errno_location();
-                  uerror_errno = *return_value___errno_location$13;
+                  signed int *return_value___errno_location_13;
+                  return_value___errno_location_13=__errno_location();
+                  uerror_errno = *return_value___errno_location_13;
                   uerror_function = "netsys_spawn/open [141]";
                   goto sub_error;
                 }
 
-                sigact.__sigaction_handler.sa_sigaction = (void (*)(signed int, struct anonymous$21 *, void *))(void *)0;
+                sigact.__sigaction_handler.sa_sigaction = (void (*)(signed int, struct anonymous_21 *, void *))(void *)0;
                 sigact.__sigaction_handler.sa_handler = empty_signal_handler;
                 sigact.sa_flags = 0;
                 code=sigemptyset(&sigact.sa_mask);
@@ -10256,9 +10256,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 code=sigaction(22, &sigact, (struct sigaction *)(void *)0);
                 if(code == -1)
                 {
-                  signed int *return_value___errno_location$14;
-                  return_value___errno_location$14=__errno_location();
-                  uerror_errno = *return_value___errno_location$14;
+                  signed int *return_value___errno_location_14;
+                  return_value___errno_location_14=__errno_location();
+                  uerror_errno = *return_value___errno_location_14;
                   uerror_function = "netsys_spawn/sigaction [143]";
                   goto sub_error;
                 }
@@ -10266,9 +10266,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 code=tcsetpgrp(ttyfd, pid);
                 if(code == -1)
                 {
-                  signed int *return_value___errno_location$15;
-                  return_value___errno_location$15=__errno_location();
-                  uerror_errno = *return_value___errno_location$15;
+                  signed int *return_value___errno_location_15;
+                  return_value___errno_location_15=__errno_location();
+                  uerror_errno = *return_value___errno_location_15;
                   uerror_function = "netsys_spawn/tcsetpgrp [144]";
                   goto sub_error;
                 }
@@ -10276,9 +10276,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 code=close(ttyfd);
                 if(code == -1)
                 {
-                  signed int *return_value___errno_location$16;
-                  return_value___errno_location$16=__errno_location();
-                  uerror_errno = *return_value___errno_location$16;
+                  signed int *return_value___errno_location_16;
+                  return_value___errno_location_16=__errno_location();
+                  uerror_errno = *return_value___errno_location_16;
                   uerror_function = "netsys_spawn/close [145]";
                   goto sub_error;
                 }
@@ -10302,7 +10302,7 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
               case 0:
               {
                 signr=caml_convert_signal_number((signed int)(((signed long int *)v_sig_actions_hd)[(signed long int)0] >> 1));
-                sigact.__sigaction_handler.sa_sigaction = (void (*)(signed int, struct anonymous$21 *, void *))(void *)0;
+                sigact.__sigaction_handler.sa_sigaction = (void (*)(signed int, struct anonymous_21 *, void *))(void *)0;
                 sigact.__sigaction_handler.sa_handler = (void (*)(signed int))0;
                 sigact.sa_flags = 0;
                 code=sigemptyset(&sigact.sa_mask);
@@ -10316,9 +10316,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 code=sigaction(signr, &sigact, (struct sigaction *)(void *)0);
                 if(code == -1)
                 {
-                  signed int *return_value___errno_location$17;
-                  return_value___errno_location$17=__errno_location();
-                  uerror_errno = *return_value___errno_location$17;
+                  signed int *return_value___errno_location_17;
+                  return_value___errno_location_17=__errno_location();
+                  uerror_errno = *return_value___errno_location_17;
                   uerror_function = "netsys_spawn/sigaction [171]";
                   goto sub_error;
                 }
@@ -10328,7 +10328,7 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
               case 1:
               {
                 signr=caml_convert_signal_number((signed int)(((signed long int *)v_sig_actions_hd)[(signed long int)0] >> 1));
-                sigact.__sigaction_handler.sa_sigaction = (void (*)(signed int, struct anonymous$21 *, void *))(void *)0;
+                sigact.__sigaction_handler.sa_sigaction = (void (*)(signed int, struct anonymous_21 *, void *))(void *)0;
                 sigact.__sigaction_handler.sa_handler = (void (*)(signed int))1;
                 sigact.sa_flags = 0;
                 code=sigemptyset(&sigact.sa_mask);
@@ -10342,9 +10342,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 code=sigaction(signr, &sigact, (struct sigaction *)(void *)0);
                 if(code == -1)
                 {
-                  signed int *return_value___errno_location$18;
-                  return_value___errno_location$18=__errno_location();
-                  uerror_errno = *return_value___errno_location$18;
+                  signed int *return_value___errno_location_18;
+                  return_value___errno_location_18=__errno_location();
+                  uerror_errno = *return_value___errno_location_18;
                   uerror_function = "netsys_spawn/sigaction [181]";
                   goto sub_error;
                 }
@@ -10399,9 +10399,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 code=close(fd1);
                 if(code == -1)
                 {
-                  signed int *return_value___errno_location$19;
-                  return_value___errno_location$19=__errno_location();
-                  uerror_errno = *return_value___errno_location$19;
+                  signed int *return_value___errno_location_19;
+                  return_value___errno_location_19=__errno_location();
+                  uerror_errno = *return_value___errno_location_19;
                   uerror_function = "netsys_spawn/close [201]";
                   goto sub_error;
                 }
@@ -10416,12 +10416,12 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                   code=close(fd1);
                   if(code == -1)
                   {
-                    return_value___errno_location$21=__errno_location();
-                    if(!(*return_value___errno_location$21 == 9))
+                    return_value___errno_location_21=__errno_location();
+                    if(!(*return_value___errno_location_21 == 9))
                     {
-                      signed int *return_value___errno_location$20;
-                      return_value___errno_location$20=__errno_location();
-                      uerror_errno = *return_value___errno_location$20;
+                      signed int *return_value___errno_location_20;
+                      return_value___errno_location_20=__errno_location();
+                      uerror_errno = *return_value___errno_location_20;
                       uerror_function = "netsys_spawn/close [210]";
                       goto sub_error;
                     }
@@ -10440,11 +10440,11 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 for( ; !(k >= nofile); k = k + 1)
                 {
                   if(k >= j)
-                    tmp_if_expr$22 = (_Bool)1;
+                    tmp_if_expr_22 = (_Bool)1;
 
                   else
-                    tmp_if_expr$22 = !((signed int)(((signed long int *)v_fd_actions_0)[(signed long int)k] >> 1) != 0) ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$22)
+                    tmp_if_expr_22 = !((signed int)(((signed long int *)v_fd_actions_0)[(signed long int)k] >> 1) != 0) ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_22)
                   {
                     if(!(k == ctrl_pipe[1l]))
                       close(k);
@@ -10468,9 +10468,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 code=fcntl(fd1, 1);
                 if(code == -1)
                 {
-                  signed int *return_value___errno_location$23;
-                  return_value___errno_location$23=__errno_location();
-                  uerror_errno = *return_value___errno_location$23;
+                  signed int *return_value___errno_location_23;
+                  return_value___errno_location_23=__errno_location();
+                  uerror_errno = *return_value___errno_location_23;
                   uerror_function = "netsys_spawn/fcntl [221]";
                   goto sub_error;
                 }
@@ -10480,9 +10480,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                   code=dup(ctrl_pipe[(signed long int)1]);
                   if(code == -1)
                   {
-                    signed int *return_value___errno_location$24;
-                    return_value___errno_location$24=__errno_location();
-                    uerror_errno = *return_value___errno_location$24;
+                    signed int *return_value___errno_location_24;
+                    return_value___errno_location_24=__errno_location();
+                    uerror_errno = *return_value___errno_location_24;
                     uerror_function = "netsys_spawn/dup [222]";
                     goto sub_error;
                   }
@@ -10491,9 +10491,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                   code=fcntl(ctrl_pipe[(signed long int)1], 2, 1);
                   if(code == -1)
                   {
-                    signed int *return_value___errno_location$25;
-                    return_value___errno_location$25=__errno_location();
-                    uerror_errno = *return_value___errno_location$25;
+                    signed int *return_value___errno_location_25;
+                    return_value___errno_location_25=__errno_location();
+                    uerror_errno = *return_value___errno_location_25;
                     uerror_function = "netsys_spawn/fcntl [223]";
                     goto sub_error;
                   }
@@ -10503,9 +10503,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
                 code=dup2(fd1, fd2);
                 if(code == -1)
                 {
-                  signed int *return_value___errno_location$26;
-                  return_value___errno_location$26=__errno_location();
-                  uerror_errno = *return_value___errno_location$26;
+                  signed int *return_value___errno_location_26;
+                  return_value___errno_location_26=__errno_location();
+                  uerror_errno = *return_value___errno_location_26;
                   uerror_function = "netsys_spawn/dup2 [224]";
                   goto sub_error;
                 }
@@ -10520,12 +10520,12 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
               }
             }
           }
-          code=sigprocmask(2, &spawn_mask, (struct anonymous$2 *)(void *)0);
+          code=sigprocmask(2, &spawn_mask, (struct anonymous_2 *)(void *)0);
           if(code == -1)
           {
-            signed int *return_value___errno_location$27;
-            return_value___errno_location$27=__errno_location();
-            uerror_errno = *return_value___errno_location$27;
+            signed int *return_value___errno_location_27;
+            return_value___errno_location_27=__errno_location();
+            uerror_errno = *return_value___errno_location_27;
             uerror_function = "netsys_spawn/sigprocmask [241]";
             goto sub_error;
           }
@@ -10533,9 +10533,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
           code=execve((char *)v_cmd, sub_argv, sub_env);
           if(code == -1)
           {
-            signed int *return_value___errno_location$28;
-            return_value___errno_location$28=__errno_location();
-            uerror_errno = *return_value___errno_location$28;
+            signed int *return_value___errno_location_28;
+            return_value___errno_location_28=__errno_location();
+            uerror_errno = *return_value___errno_location_28;
             uerror_function = "netsys_spawn/execve [290]";
             goto sub_error;
           }
@@ -10564,9 +10564,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
       code=close(ctrl_pipe[(signed long int)1]);
       if(code == -1)
       {
-        signed int *return_value___errno_location$29;
-        return_value___errno_location$29=__errno_location();
-        uerror_errno = *return_value___errno_location$29;
+        signed int *return_value___errno_location_29;
+        return_value___errno_location_29=__errno_location();
+        uerror_errno = *return_value___errno_location_29;
         uerror_function = "netsys_spawn/close [300]";
         goto main_exit;
       }
@@ -10575,9 +10575,9 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
       n=read(ctrl_pipe[(signed long int)0], (void *)me.buffer, sizeof(char [256l]) /*256ul*/ );
       if(n == -1l)
       {
-        signed int *return_value___errno_location$30;
-        return_value___errno_location$30=__errno_location();
-        uerror_errno = *return_value___errno_location$30;
+        signed int *return_value___errno_location_30;
+        return_value___errno_location_30=__errno_location();
+        uerror_errno = *return_value___errno_location_30;
         uerror_function = "netsys_spawn/read [301]";
         goto main_exit;
       }
@@ -10599,13 +10599,13 @@ signed long int netsys_spawn_nat(signed long int v_chdir, signed long int v_pg, 
           code=waitpid(pid, (signed int *)(void *)0, 0);
           if(code == -1)
           {
-            return_value___errno_location$31=__errno_location();
-            tmp_if_expr$32 = *return_value___errno_location$31 == 4 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_31=__errno_location();
+            tmp_if_expr_32 = *return_value___errno_location_31 == 4 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$32 = (_Bool)0;
-          code = (signed int)tmp_if_expr$32;
+            tmp_if_expr_32 = (_Bool)0;
+          code = (signed int)tmp_if_expr_32;
         }
         uerror_errno = me.decoded.b_errno;
         uerror_function = me.decoded.b_function;
@@ -10620,7 +10620,7 @@ main_exit:
 
   if(!(cleanup_mask == 0))
   {
-    code=pthread_sigmask(2, &save_mask, (struct anonymous$2 *)(void *)0);
+    code=pthread_sigmask(2, &save_mask, (struct anonymous_2 *)(void *)0);
     if(uerror_errno == 0 && !(code == 0))
     {
       uerror_errno = code;
@@ -10634,9 +10634,9 @@ main_exit:
     code=close(ctrl_pipe[(signed long int)0]);
     if(code == -1 && uerror_errno == 0)
     {
-      signed int *return_value___errno_location$33;
-      return_value___errno_location$33=__errno_location();
-      uerror_errno = *return_value___errno_location$33;
+      signed int *return_value___errno_location_33;
+      return_value___errno_location_33=__errno_location();
+      uerror_errno = *return_value___errno_location_33;
       uerror_function = "netsys_spawn/close [410]";
     }
 
@@ -10647,9 +10647,9 @@ main_exit:
     code=close(ctrl_pipe[(signed long int)1]);
     if(code == -1 && uerror_errno == 0)
     {
-      signed int *return_value___errno_location$34;
-      return_value___errno_location$34=__errno_location();
-      uerror_errno = *return_value___errno_location$34;
+      signed int *return_value___errno_location_34;
+      return_value___errno_location_34=__errno_location();
+      uerror_errno = *return_value___errno_location_34;
       uerror_function = "netsys_spawn/close [411]";
     }
 
@@ -10702,7 +10702,7 @@ signed long int netsys_subprocess_cleanup_after_fork(signed long int dummy)
     close(sigchld_pipe_rd);
     close(sigchld_pipe_wr);
     sigchld_init = 0;
-    pthread_mutex_init(&sigchld_mutex, (const union anonymous$4 *)(void *)0);
+    pthread_mutex_init(&sigchld_mutex, (const union anonymous_4 *)(void *)0);
   }
 
   if(!(reinit == 0))
@@ -10715,9 +10715,9 @@ signed long int netsys_subprocess_cleanup_after_fork(signed long int dummy)
 // file netsys_c.c line 581
 signed long int netsys_symlinkat(signed long int oldpath, signed long int newdirfd, signed long int newpath)
 {
-  signed int return_value_symlinkat$1;
-  return_value_symlinkat$1=symlinkat((char *)oldpath, (signed int)(newdirfd >> 1), (char *)newpath);
-  if(return_value_symlinkat$1 == -1)
+  signed int return_value_symlinkat_1;
+  return_value_symlinkat_1=symlinkat((char *)oldpath, (signed int)(newdirfd >> 1), (char *)newpath);
+  if(return_value_symlinkat_1 == -1)
     uerror("symlinkat", oldpath);
 
   return ((signed long int)0 << 1) + (signed long int)1;
@@ -10727,9 +10727,9 @@ signed long int netsys_symlinkat(signed long int oldpath, signed long int newdir
 // file netsys_c.c line 75
 signed long int netsys_sysconf_open_max(signed long int unit)
 {
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(4);
-  return ((signed long int)return_value_sysconf$1 << 1) + (signed long int)1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(4);
+  return ((signed long int)return_value_sysconf_1 << 1) + (signed long int)1;
 }
 
 // netsys_syslog
@@ -10797,29 +10797,29 @@ signed long int netsys_test_for_ip6_global_addr(signed long int dummy)
   struct ifaddrs *ifcur;
   signed int found;
   signed int family;
-  signed int return_value_getifaddrs$1;
-  return_value_getifaddrs$1=getifaddrs(&ifaddr);
-  if(return_value_getifaddrs$1 == -1)
+  signed int return_value_getifaddrs_1;
+  return_value_getifaddrs_1=getifaddrs(&ifaddr);
+  if(return_value_getifaddrs_1 == -1)
     uerror("getifaddrs", (signed long int)0);
 
   found = 0;
   ifcur = ifaddr;
-  _Bool tmp_statement_expression$17;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$21;
-  unsigned int return_value___bswap_32$20;
-  _Bool tmp_statement_expression$14;
-  _Bool tmp_statement_expression$11;
-  _Bool tmp_statement_expression$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
-  unsigned int return_value___bswap_32$9;
-  _Bool tmp_statement_expression$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value___bswap_32$5;
+  _Bool tmp_statement_expression_17;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_21;
+  unsigned int return_value___bswap_32_20;
+  _Bool tmp_statement_expression_14;
+  _Bool tmp_statement_expression_11;
+  _Bool tmp_statement_expression_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
+  unsigned int return_value___bswap_32_9;
+  _Bool tmp_statement_expression_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value___bswap_32_5;
   for( ; found == 0 && !(ifcur == ((struct ifaddrs *)NULL)); ifcur = ifcur->ifa_next)
     if(!(ifcur->ifa_addr == ((struct sockaddr *)NULL)))
     {
@@ -10829,82 +10829,82 @@ signed long int netsys_test_for_ip6_global_addr(signed long int dummy)
         struct sockaddr_in6 *sa6 = (struct sockaddr_in6 *)ifcur->ifa_addr;
         struct in6_addr *__a = (struct in6_addr *)&sa6->sin6_addr;
         if(__a->__in6_u.__u6_addr32[0l] == 0u)
-          tmp_if_expr$18 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_18 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        if(tmp_if_expr$18)
-          tmp_if_expr$19 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_18 = (_Bool)0;
+        if(tmp_if_expr_18)
+          tmp_if_expr_19 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$19 = (_Bool)0;
-        if(tmp_if_expr$19)
+          tmp_if_expr_19 = (_Bool)0;
+        if(tmp_if_expr_19)
         {
-          return_value___bswap_32$20=__bswap_32$link1((unsigned int)1);
-          tmp_if_expr$21 = __a->__in6_u.__u6_addr32[(signed long int)3] == return_value___bswap_32$20 ? (_Bool)1 : (_Bool)0;
+          return_value___bswap_32_20=__bswap_32_link1((unsigned int)1);
+          tmp_if_expr_21 = __a->__in6_u.__u6_addr32[(signed long int)3] == return_value___bswap_32_20 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$21 = (_Bool)0;
-        tmp_statement_expression$17 = tmp_if_expr$21;
-        if(!tmp_statement_expression$17)
+          tmp_if_expr_21 = (_Bool)0;
+        tmp_statement_expression_17 = tmp_if_expr_21;
+        if(!tmp_statement_expression_17)
         {
           if(!((signed int)*((const unsigned char *)&sa6->sin6_addr) == 0xff))
           {
-            struct in6_addr *netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$2$$__a = (struct in6_addr *)&sa6->sin6_addr;
-            unsigned int return_value___bswap_32$15;
-            return_value___bswap_32$15=__bswap_32$link1(0xffc00000);
-            unsigned int return_value___bswap_32$16;
-            return_value___bswap_32$16=__bswap_32$link1(0xfe800000);
-            tmp_statement_expression$14 = (netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$2$$__a->__in6_u.__u6_addr32[(signed long int)0] & return_value___bswap_32$15) == return_value___bswap_32$16;
-            if(!tmp_statement_expression$14)
+            struct in6_addr *netsys_test_for_ip6_global_addr__1__2__1__1__2____a = (struct in6_addr *)&sa6->sin6_addr;
+            unsigned int return_value___bswap_32_15;
+            return_value___bswap_32_15=__bswap_32_link1(0xffc00000);
+            unsigned int return_value___bswap_32_16;
+            return_value___bswap_32_16=__bswap_32_link1(0xfe800000);
+            tmp_statement_expression_14 = (netsys_test_for_ip6_global_addr__1__2__1__1__2____a->__in6_u.__u6_addr32[(signed long int)0] & return_value___bswap_32_15) == return_value___bswap_32_16;
+            if(!tmp_statement_expression_14)
             {
-              struct in6_addr *netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$3$$__a = (struct in6_addr *)&sa6->sin6_addr;
-              unsigned int return_value___bswap_32$12;
-              return_value___bswap_32$12=__bswap_32$link1(0xffc00000);
-              unsigned int return_value___bswap_32$13;
-              return_value___bswap_32$13=__bswap_32$link1(0xfec00000);
-              tmp_statement_expression$11 = (netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$3$$__a->__in6_u.__u6_addr32[(signed long int)0] & return_value___bswap_32$12) == return_value___bswap_32$13;
-              if(!tmp_statement_expression$11)
+              struct in6_addr *netsys_test_for_ip6_global_addr__1__2__1__1__3____a = (struct in6_addr *)&sa6->sin6_addr;
+              unsigned int return_value___bswap_32_12;
+              return_value___bswap_32_12=__bswap_32_link1(0xffc00000);
+              unsigned int return_value___bswap_32_13;
+              return_value___bswap_32_13=__bswap_32_link1(0xfec00000);
+              tmp_statement_expression_11 = (netsys_test_for_ip6_global_addr__1__2__1__1__3____a->__in6_u.__u6_addr32[(signed long int)0] & return_value___bswap_32_12) == return_value___bswap_32_13;
+              if(!tmp_statement_expression_11)
               {
-                struct in6_addr *netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$4$$__a = (struct in6_addr *)&sa6->sin6_addr;
-                if(netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$4$$__a->__in6_u.__u6_addr32[0l] == 0u)
-                  tmp_if_expr$8 = netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$4$$__a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                struct in6_addr *netsys_test_for_ip6_global_addr__1__2__1__1__4____a = (struct in6_addr *)&sa6->sin6_addr;
+                if(netsys_test_for_ip6_global_addr__1__2__1__1__4____a->__in6_u.__u6_addr32[0l] == 0u)
+                  tmp_if_expr_8 = netsys_test_for_ip6_global_addr__1__2__1__1__4____a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$8 = (_Bool)0;
-                if(tmp_if_expr$8)
+                  tmp_if_expr_8 = (_Bool)0;
+                if(tmp_if_expr_8)
                 {
-                  return_value___bswap_32$9=__bswap_32$link1((unsigned int)0xffff);
-                  tmp_if_expr$10 = netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$4$$__a->__in6_u.__u6_addr32[(signed long int)2] == return_value___bswap_32$9 ? (_Bool)1 : (_Bool)0;
+                  return_value___bswap_32_9=__bswap_32_link1((unsigned int)0xffff);
+                  tmp_if_expr_10 = netsys_test_for_ip6_global_addr__1__2__1__1__4____a->__in6_u.__u6_addr32[(signed long int)2] == return_value___bswap_32_9 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$10 = (_Bool)0;
-                tmp_statement_expression$7 = tmp_if_expr$10;
-                if(!tmp_statement_expression$7)
+                  tmp_if_expr_10 = (_Bool)0;
+                tmp_statement_expression_7 = tmp_if_expr_10;
+                if(!tmp_statement_expression_7)
                 {
-                  struct in6_addr *netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$5$$__a = (struct in6_addr *)&sa6->sin6_addr;
-                  if(netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$5$$__a->__in6_u.__u6_addr32[0l] == 0u)
-                    tmp_if_expr$3 = netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$5$$__a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                  struct in6_addr *netsys_test_for_ip6_global_addr__1__2__1__1__5____a = (struct in6_addr *)&sa6->sin6_addr;
+                  if(netsys_test_for_ip6_global_addr__1__2__1__1__5____a->__in6_u.__u6_addr32[0l] == 0u)
+                    tmp_if_expr_3 = netsys_test_for_ip6_global_addr__1__2__1__1__5____a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$3 = (_Bool)0;
-                  if(tmp_if_expr$3)
-                    tmp_if_expr$4 = netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$5$$__a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_3 = (_Bool)0;
+                  if(tmp_if_expr_3)
+                    tmp_if_expr_4 = netsys_test_for_ip6_global_addr__1__2__1__1__5____a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$4 = (_Bool)0;
-                  if(tmp_if_expr$4)
+                    tmp_if_expr_4 = (_Bool)0;
+                  if(tmp_if_expr_4)
                   {
-                    return_value___bswap_32$5=__bswap_32$link1(netsys_test_for_ip6_global_addr$$1$$2$$1$$1$$5$$__a->__in6_u.__u6_addr32[(signed long int)3]);
-                    tmp_if_expr$6 = return_value___bswap_32$5 > (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+                    return_value___bswap_32_5=__bswap_32_link1(netsys_test_for_ip6_global_addr__1__2__1__1__5____a->__in6_u.__u6_addr32[(signed long int)3]);
+                    tmp_if_expr_6 = return_value___bswap_32_5 > (unsigned int)1 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$6 = (_Bool)0;
-                  tmp_statement_expression$2 = tmp_if_expr$6;
-                  if(!tmp_statement_expression$2)
+                    tmp_if_expr_6 = (_Bool)0;
+                  tmp_statement_expression_2 = tmp_if_expr_6;
+                  if(!tmp_statement_expression_2)
                     found = 1;
 
                 }
@@ -11021,12 +11021,12 @@ signed long int netsys_timer_create(signed long int clock, signed long int texp)
       v_timer=caml_alloc((unsigned long int)1, (unsigned int)1);
       do
       {
-        unsigned long int netsys_timer_create$$1$$3$$2$$caml__temp_offset = (unsigned long int)0;
-        signed long int netsys_timer_create$$1$$3$$2$$caml__temp_val;
-        signed int return_value_netsys_return_not_event_fd$1;
-        return_value_netsys_return_not_event_fd$1=netsys_return_not_event_fd(v_event);
-        netsys_timer_create$$1$$3$$2$$caml__temp_val = ((signed long int)return_value_netsys_return_not_event_fd$1 << 1) + (signed long int)1;
-        caml_modify(&((signed long int *)v_timer)[(signed long int)netsys_timer_create$$1$$3$$2$$caml__temp_offset], netsys_timer_create$$1$$3$$2$$caml__temp_val);
+        unsigned long int netsys_timer_create__1__3__2__caml__temp_offset = (unsigned long int)0;
+        signed long int netsys_timer_create__1__3__2__caml__temp_val;
+        signed int return_value_netsys_return_not_event_fd_1;
+        return_value_netsys_return_not_event_fd_1=netsys_return_not_event_fd(v_event);
+        netsys_timer_create__1__3__2__caml__temp_val = ((signed long int)return_value_netsys_return_not_event_fd_1 << 1) + (signed long int)1;
+        caml_modify(&((signed long int *)v_timer)[(signed long int)netsys_timer_create__1__3__2__caml__temp_offset], netsys_timer_create__1__3__2__caml__temp_val);
       }
       while((_Bool)0);
     }
@@ -11038,16 +11038,16 @@ signed long int netsys_timer_create(signed long int clock, signed long int texp)
       v=caml_alloc((unsigned long int)2, (unsigned int)0);
       do
       {
-        unsigned long int netsys_timer_create$$1$$4$$caml__temp_offset = (unsigned long int)0;
-        signed long int netsys_timer_create$$1$$4$$caml__temp_val = v_timer;
-        caml_modify(&((signed long int *)v)[(signed long int)netsys_timer_create$$1$$4$$caml__temp_offset], netsys_timer_create$$1$$4$$caml__temp_val);
+        unsigned long int netsys_timer_create__1__4__caml__temp_offset = (unsigned long int)0;
+        signed long int netsys_timer_create__1__4__caml__temp_val = v_timer;
+        caml_modify(&((signed long int *)v)[(signed long int)netsys_timer_create__1__4__caml__temp_offset], netsys_timer_create__1__4__caml__temp_val);
       }
       while((_Bool)0);
       do
       {
-        unsigned long int netsys_timer_create$$1$$5$$caml__temp_offset = (unsigned long int)1;
-        signed long int netsys_timer_create$$1$$5$$caml__temp_val = v_event;
-        caml_modify(&((signed long int *)v)[(signed long int)netsys_timer_create$$1$$5$$caml__temp_offset], netsys_timer_create$$1$$5$$caml__temp_val);
+        unsigned long int netsys_timer_create__1__5__caml__temp_offset = (unsigned long int)1;
+        signed long int netsys_timer_create__1__5__caml__temp_val = v_event;
+        caml_modify(&((signed long int *)v)[(signed long int)netsys_timer_create__1__5__caml__temp_offset], netsys_timer_create__1__5__caml__temp_val);
       }
       while((_Bool)0);
       caml__temp_result = v;
@@ -11167,9 +11167,9 @@ signed long int netsys_ttyname(signed long int fd)
   if(s == ((char *)NULL))
     uerror("ttyname", (signed long int)0);
 
-  signed long int return_value_caml_copy_string$1;
-  return_value_caml_copy_string$1=caml_copy_string(s);
-  return return_value_caml_copy_string$1;
+  signed long int return_value_caml_copy_string_1;
+  return_value_caml_copy_string_1=caml_copy_string(s);
+  return return_value_caml_copy_string_1;
 }
 
 // netsys_unix_error_of_code
@@ -11177,9 +11177,9 @@ signed long int netsys_ttyname(signed long int fd)
 signed long int netsys_unix_error_of_code(signed long int n)
 {
   signed int e = (signed int)(n >> 1);
-  signed long int return_value_unix_error_of_code$1;
-  return_value_unix_error_of_code$1=unix_error_of_code(e);
-  return return_value_unix_error_of_code$1;
+  signed long int return_value_unix_error_of_code_1;
+  return_value_unix_error_of_code_1=unix_error_of_code(e);
+  return return_value_unix_error_of_code_1;
 }
 
 // netsys_unlinkat
@@ -11189,9 +11189,9 @@ signed long int netsys_unlinkat(signed long int dirfd, signed long int path, sig
   signed int cv_flags;
   cv_flags=caml_convert_flag_list(flags, at_flags_table);
   cv_flags = cv_flags & 0x200;
-  signed int return_value_unlinkat$1;
-  return_value_unlinkat$1=unlinkat((signed int)(dirfd >> 1), (char *)path, cv_flags);
-  if(return_value_unlinkat$1 == -1)
+  signed int return_value_unlinkat_1;
+  return_value_unlinkat_1=unlinkat((signed int)(dirfd >> 1), (char *)path, cv_flags);
+  if(return_value_unlinkat_1 == -1)
     uerror("unlinkat", path);
 
   return ((signed long int)0 << 1) + (signed long int)1;
@@ -11257,9 +11257,9 @@ signed long int netsys_wait_not_event(signed long int nev)
   p.events = (signed short int)0x001;
   p.revents = (signed short int)0;
   code=poll(&p, (unsigned long int)1, -1);
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  e = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  e = *return_value___errno_location_1;
   caml_leave_blocking_section();
   if(code == -1)
     unix_error(e, "poll", (signed long int)0);
@@ -11286,38 +11286,38 @@ signed long int netsys_watch_subprocess(signed long int pid_v, signed long int p
   if(sigchld_list == ((struct sigchld_atom *)NULL))
     caml_failwith("Netsys_posix.watch_subprocess: uninitialized");
 
-  signed int return_value_pipe$1;
-  return_value_pipe$1=pipe(pfd);
-  if(return_value_pipe$1 == -1)
+  signed int return_value_pipe_1;
+  return_value_pipe_1=pipe(pfd);
+  if(return_value_pipe_1 == -1)
     uerror("pipe", (signed long int)0);
 
-  signed int return_value_fcntl$4;
-  return_value_fcntl$4=fcntl(pfd[(signed long int)0], 2, 1);
-  if(return_value_fcntl$4 == -1)
+  signed int return_value_fcntl_4;
+  return_value_fcntl_4=fcntl(pfd[(signed long int)0], 2, 1);
+  if(return_value_fcntl_4 == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    code = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    code = *return_value___errno_location_2;
     close(pfd[(signed long int)0]);
     close(pfd[(signed long int)1]);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = code;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = code;
     uerror("set_close_on_exec", (signed long int)0);
   }
 
-  signed int return_value_fcntl$7;
-  return_value_fcntl$7=fcntl(pfd[(signed long int)1], 2, 1);
-  if(return_value_fcntl$7 == -1)
+  signed int return_value_fcntl_7;
+  return_value_fcntl_7=fcntl(pfd[(signed long int)1], 2, 1);
+  if(return_value_fcntl_7 == -1)
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    code = *return_value___errno_location$5;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    code = *return_value___errno_location_5;
     close(pfd[(signed long int)0]);
     close(pfd[(signed long int)1]);
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    *return_value___errno_location$6 = code;
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    *return_value___errno_location_6 = code;
     uerror("set_close_on_exec", (signed long int)0);
   }
 
@@ -11327,14 +11327,14 @@ signed long int netsys_watch_subprocess(signed long int pid_v, signed long int p
   sigchld_lock(1, 1);
   if(sigchld_init == 0)
   {
-    signed int return_value_sigchld_init_mt$9;
-    return_value_sigchld_init_mt$9=sigchld_init_mt();
-    if(return_value_sigchld_init_mt$9 == -1)
+    signed int return_value_sigchld_init_mt_9;
+    return_value_sigchld_init_mt_9=sigchld_init_mt();
+    if(return_value_sigchld_init_mt_9 == -1)
     {
       signed int saved_errno;
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      saved_errno = *return_value___errno_location$8;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      saved_errno = *return_value___errno_location_8;
       sigchld_unlock(1);
       unix_error(saved_errno, "netsys_watch_subprocess [delayed init]", (signed long int)0);
     }
@@ -11355,9 +11355,9 @@ signed long int netsys_watch_subprocess(signed long int pid_v, signed long int p
   {
     signed int old_size = sigchld_list_len;
     sigchld_list_len = sigchld_list_len + sigchld_list_len;
-    void *return_value_realloc$10;
-    return_value_realloc$10=realloc((void *)(struct sigchld_atom *)sigchld_list, (unsigned long int)sigchld_list_len * sizeof(struct sigchld_atom) /*32ul*/ );
-    sigchld_list = (struct sigchld_atom *)return_value_realloc$10;
+    void *return_value_realloc_10;
+    return_value_realloc_10=realloc((void *)(struct sigchld_atom *)sigchld_list, (unsigned long int)sigchld_list_len * sizeof(struct sigchld_atom) /*32ul*/ );
+    sigchld_list = (struct sigchld_atom *)return_value_realloc_10;
     if(sigchld_list == ((struct sigchld_atom *)NULL))
     {
       sigchld_unlock(1);
@@ -11376,15 +11376,15 @@ signed long int netsys_watch_subprocess(signed long int pid_v, signed long int p
   code=waitpid(pid, &status, 1);
   if(code == -1)
   {
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    code = *return_value___errno_location$11;
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    code = *return_value___errno_location_11;
     sigchld_unlock(1);
     close(pfd[(signed long int)0]);
     close(pfd[(signed long int)1]);
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    *return_value___errno_location$12 = code;
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    *return_value___errno_location_12 = code;
     uerror("waitpid", (signed long int)0);
   }
 
@@ -11500,27 +11500,27 @@ static signed int prep_stat_queue(void)
   signed int need_init = 0;
   if(stat_queue == ((struct nqueue *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct nqueue) /*32ul*/ );
-    stat_queue = (struct nqueue *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct nqueue) /*32ul*/ );
+    stat_queue = (struct nqueue *)return_value_malloc_1;
     if(stat_queue == ((struct nqueue *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 12;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 12;
       return -1;
     }
 
     need_init = 1;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(need_init == 0))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = stat_queue->table == (void **)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = stat_queue->table == (void **)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     code=netsys_queue_init(stat_queue, (unsigned long int)256);
     if(!(code == 0))
@@ -11541,27 +11541,27 @@ static signed int prep_stat_tab(void)
   signed int need_init = 0;
   if(stat_tab == ((struct htab *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct htab) /*24ul*/ );
-    stat_tab = (struct htab *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct htab) /*24ul*/ );
+    stat_tab = (struct htab *)return_value_malloc_1;
     if(stat_tab == ((struct htab *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 12;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 12;
       return -1;
     }
 
     need_init = 1;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(need_init == 0))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = stat_tab->table == (struct htab_cell *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = stat_tab->table == (struct htab_cell *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     code=netsys_htab_init(stat_tab, (unsigned long int)256);
     if(!(code == 0))
@@ -11576,34 +11576,34 @@ static signed int prep_stat_tab(void)
 
 // sigchld_action
 // file netsys_c_subprocess.c line 195
-static void sigchld_action(signed int signo, struct anonymous$21 *info, void *ctx)
+static void sigchld_action(signed int signo, struct anonymous_21 *info, void *ctx)
 {
   signed int pid;
   signed int saved_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  saved_errno = *return_value___errno_location$1;
-  _Bool tmp_if_expr$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  saved_errno = *return_value___errno_location_1;
+  _Bool tmp_if_expr_2;
   if(info->si_code == 1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = info->si_code == 2 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = info->si_code == 2 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = info->si_code == 3 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = info->si_code == 3 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     pid = info->_sifields._kill.si_pid;
     sigchld_producer(pid);
   }
 
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  *return_value___errno_location$4 = saved_errno;
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  *return_value___errno_location_4 = saved_errno;
 }
 
 // sigchld_consumer
@@ -11615,18 +11615,18 @@ static void * sigchld_consumer(void *arg)
   signed int pid;
   while((_Bool)1)
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(sigchld_pipe_rd, (void *)buf, sizeof(signed int) /*4ul*/ );
-    n = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(sigchld_pipe_rd, (void *)buf, sizeof(signed int) /*4ul*/ );
+    n = (signed int)return_value_read_1;
     if(n == 0)
       break;
 
     else
       if(n == -1)
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 4)
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 4)
           continue;
 
         else
@@ -11663,28 +11663,28 @@ static signed int sigchld_init_mt(void)
       goto __CPROVER_DUMP_L6;
     }
 
-    signed int return_value_pipe$1;
-    return_value_pipe$1=pipe(filedes);
-    if(return_value_pipe$1 == -1)
+    signed int return_value_pipe_1;
+    return_value_pipe_1=pipe(filedes);
+    if(return_value_pipe_1 == -1)
       break;
 
     sigchld_pipe_rd = filedes[(signed long int)0];
     sigchld_pipe_wr = filedes[(signed long int)1];
     close_sigchld_pipe_rd = 1;
     close_sigchld_pipe_wr = 1;
-    signed int return_value_fcntl$2;
-    return_value_fcntl$2=fcntl(sigchld_pipe_rd, 2, 1);
-    if(return_value_fcntl$2 == -1)
+    signed int return_value_fcntl_2;
+    return_value_fcntl_2=fcntl(sigchld_pipe_rd, 2, 1);
+    if(return_value_fcntl_2 == -1)
       break;
 
-    signed int return_value_fcntl$3;
-    return_value_fcntl$3=fcntl(sigchld_pipe_wr, 2, 1);
-    if(return_value_fcntl$3 == -1)
+    signed int return_value_fcntl_3;
+    return_value_fcntl_3=fcntl(sigchld_pipe_wr, 2, 1);
+    if(return_value_fcntl_3 == -1)
       break;
 
-    signed int return_value_pthread_create$4;
-    return_value_pthread_create$4=pthread_create(&pthr, (const union pthread_attr_t *)(void *)0, sigchld_consumer, (void *)0);
-    if(!(return_value_pthread_create$4 == 0))
+    signed int return_value_pthread_create_4;
+    return_value_pthread_create_4=pthread_create(&pthr, (const union pthread_attr_t *)(void *)0, sigchld_consumer, (void *)0);
+    if(!(return_value_pthread_create_4 == 0))
       break;
 
     eflag = 0;
@@ -11697,18 +11697,18 @@ __CPROVER_DUMP_L6:
   if(!(eflag == 0))
   {
     signed int saved_errno;
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    saved_errno = *return_value___errno_location$5;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    saved_errno = *return_value___errno_location_5;
     if(!(close_sigchld_pipe_rd == 0))
       close(sigchld_pipe_rd);
 
     if(!(close_sigchld_pipe_wr == 0))
       close(sigchld_pipe_wr);
 
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    *return_value___errno_location$6 = saved_errno;
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    *return_value___errno_location_6 = saved_errno;
     return -1;
   }
 
@@ -11719,20 +11719,20 @@ __CPROVER_DUMP_L6:
 // file netsys_c_subprocess.c line 38
 static void sigchld_lock(signed int block_signal, signed int master_lock)
 {
-  struct anonymous$2 set;
+  struct anonymous_2 set;
   signed int code;
   sigemptyset(&set);
   sigaddset(&set, 17);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(block_signal == 0))
   {
-    code=pthread_sigmask(0, &set, (struct anonymous$2 *)(void *)0);
+    code=pthread_sigmask(0, &set, (struct anonymous_2 *)(void *)0);
     if(!(code == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "Netsys: pthread_sigmask returns: %s\n", return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "Netsys: pthread_sigmask returns: %s\n", return_value_strerror_2);
     }
 
   }
@@ -11741,11 +11741,11 @@ static void sigchld_lock(signed int block_signal, signed int master_lock)
     caml_enter_blocking_section();
 
   code=pthread_mutex_lock(&sigchld_mutex);
-  char *return_value_strerror$3;
+  char *return_value_strerror_3;
   if(!(code == 0))
   {
-    return_value_strerror$3=strerror(code);
-    fprintf(stderr, "Netsys: pthread_mutex_lock returns: %s\n", return_value_strerror$3);
+    return_value_strerror_3=strerror(code);
+    fprintf(stderr, "Netsys: pthread_mutex_lock returns: %s\n", return_value_strerror_3);
   }
 
   if(!(master_lock == 0))
@@ -11764,8 +11764,8 @@ static void sigchld_process(signed int pid)
   sigchld_lock(0, 0);
   old_cnt = sigchld_list_cnt;
   k = 0;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   for( ; !(k >= sigchld_list_len); k = k + 1)
   {
     atom = &sigchld_list[(signed long int)k];
@@ -11776,9 +11776,9 @@ static void sigchld_process(signed int pid)
         code=waitpid(atom->pid, &atom->status, 1);
         if(code == -1)
         {
-          return_value___errno_location$1=__errno_location();
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          fprintf(stderr, "Netsys: waitpid returns error: %s\n", return_value_strerror$2);
+          return_value___errno_location_1=__errno_location();
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          fprintf(stderr, "Netsys: waitpid returns error: %s\n", return_value_strerror_2);
         }
 
         if(code >= 1)
@@ -11809,25 +11809,25 @@ static void sigchld_producer(signed int pid)
 {
   char buf[(signed long int)sizeof(signed int) /*4l*/ ];
   signed int n;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   if(!(sigchld_init == 0))
   {
     memcpy((void *)buf, (const void *)&pid, sizeof(signed int) /*4ul*/ );
     while((_Bool)1)
     {
-      signed long int return_value_write$1;
-      return_value_write$1=write(sigchld_pipe_wr, (const void *)buf, sizeof(signed int) /*4ul*/ );
-      n = (signed int)return_value_write$1;
+      signed long int return_value_write_1;
+      return_value_write_1=write(sigchld_pipe_wr, (const void *)buf, sizeof(signed int) /*4ul*/ );
+      n = (signed int)return_value_write_1;
       if(!(n == -1))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 != 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 != 4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         break;
 
     }
@@ -11839,28 +11839,28 @@ static void sigchld_producer(signed int pid)
 // file netsys_c_subprocess.c line 76
 static void sigchld_unlock(signed int unblock_signal)
 {
-  struct anonymous$2 set;
+  struct anonymous_2 set;
   signed int code;
   sigemptyset(&set);
   sigaddset(&set, 17);
   code=pthread_mutex_unlock(&sigchld_mutex);
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   if(!(code == 0))
   {
-    return_value_strerror$1=strerror(code);
-    fprintf(stderr, "Netsys: pthread_mutex_unlock returns: %s\n", return_value_strerror$1);
+    return_value_strerror_1=strerror(code);
+    fprintf(stderr, "Netsys: pthread_mutex_unlock returns: %s\n", return_value_strerror_1);
   }
 
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(!(unblock_signal == 0))
   {
-    code=pthread_sigmask(1, &set, (struct anonymous$2 *)(void *)0);
+    code=pthread_sigmask(1, &set, (struct anonymous_2 *)(void *)0);
     if(!(code == 0))
     {
-      return_value___errno_location$2=__errno_location();
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fprintf(stderr, "Netsys: pthread_sigmask returns: %s\n", return_value_strerror$3);
+      return_value___errno_location_2=__errno_location();
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fprintf(stderr, "Netsys: pthread_sigmask returns: %s\n", return_value_strerror_3);
     }
 
   }
@@ -11873,9 +11873,9 @@ static signed int socket_domain(signed int fd)
 {
   union sock_addr_union addr;
   unsigned int l = (unsigned int)sizeof(union sock_addr_union) /*112ul*/ ;
-  signed int return_value_getsockname$1;
-  return_value_getsockname$1=getsockname(fd, &addr.s_gen, &l);
-  if(return_value_getsockname$1 == -1)
+  signed int return_value_getsockname_1;
+  return_value_getsockname_1=getsockname(fd, &addr.s_gen, &l);
+  if(return_value_getsockname_1 == -1)
     uerror("getsockname", (signed long int)0);
 
   switch((signed int)addr.s_gen.sa_family)
@@ -11930,9 +11930,9 @@ static signed int translate_to_poll_events(signed int i)
 // file netsys_c_mem.c line 1188
 static void unprep_stat_queue(void)
 {
-  signed long int return_value_netsys_queue_size$1;
-  return_value_netsys_queue_size$1=netsys_queue_size(stat_queue);
-  if(return_value_netsys_queue_size$1 >= 257l)
+  signed long int return_value_netsys_queue_size_1;
+  return_value_netsys_queue_size_1=netsys_queue_size(stat_queue);
+  if(return_value_netsys_queue_size_1 >= 257l)
     netsys_queue_free(stat_queue);
 
 }

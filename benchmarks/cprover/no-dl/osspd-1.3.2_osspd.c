@@ -1,62 +1,62 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
 struct anonymous;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -569,15 +569,15 @@ void ossp_slave_init(signed int argc, char **argv);
 // ossp_slave_process_command
 // file ossp-slave.c line 133
 signed int ossp_slave_process_command(signed int cmd_fd, signed long int (* const *action_fn_tbl)(enum ossp_opcode, void *, void *, unsigned long int, void *, void *, unsigned long int *, signed int), signed int (*action_pre_fn)(void), void (*action_post_fn)(void));
-// ossp_slave_process_command::action_fn_tbl$object$object
+// ossp_slave_process_command::action_fn_tbl_object_object
 //
-signed long int action_fn_tbl$object$object(enum ossp_opcode, void *, void *, unsigned long int, void *, void *, unsigned long int *, signed int);
-// ossp_slave_process_command::action_post_fn$object
+signed long int action_fn_tbl_object_object(enum ossp_opcode, void *, void *, unsigned long int, void *, void *, unsigned long int *, signed int);
+// ossp_slave_process_command::action_post_fn_object
 //
-void action_post_fn$object(void);
-// ossp_slave_process_command::action_pre_fn$object
+void action_post_fn_object(void);
+// ossp_slave_process_command::action_pre_fn_object
 //
-signed int action_pre_fn$object(void);
+signed int action_pre_fn_object(void);
 // pipe
 // file /usr/include/unistd.h line 417
 extern signed int pipe(signed int *);
@@ -586,34 +586,34 @@ extern signed int pipe(signed int *);
 static signed int process_arg(void *data, const char *arg, signed int key, struct fuse_args *outargs);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$3 *);
+extern signed int pthread_cond_broadcast(union anonymous_3 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$3 *);
+extern signed int pthread_cond_signal(union anonymous_3 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$3 *, union anonymous$0 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_3 *, union anonymous_0 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous$0 *);
+extern signed int pthread_cond_wait(union anonymous_3 *, union anonymous_0 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$0 *);
+extern signed int pthread_mutex_destroy(union anonymous_0 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous$1 *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous_1 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$0 *);
+extern signed int pthread_mutex_trylock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // put_mixer
 // file osspd.c line 559
 static void put_mixer(struct ossp_mixer *mixer);
@@ -744,7 +744,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file ossp-util.h line 143
 signed int write_fill(signed int fd, const void *buf, unsigned long int size);
 
-struct anonymous$10
+struct anonymous_10
 {
   // _call_addr
   void *_call_addr;
@@ -754,7 +754,7 @@ struct anonymous$10
   unsigned int _arch;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_addr
   void *si_addr;
@@ -768,7 +768,7 @@ struct anonymous
   unsigned long int __val[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -788,7 +788,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_pid
   signed int si_pid;
@@ -796,7 +796,7 @@ struct anonymous$4
   unsigned int si_uid;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_pid
   signed int si_pid;
@@ -818,7 +818,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_pid
   signed int si_pid;
@@ -828,7 +828,7 @@ struct anonymous$6
   union sigval si_sigval;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_tid
   signed int si_tid;
@@ -838,7 +838,7 @@ struct anonymous$5
   union sigval si_sigval;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_band
   signed long int si_band;
@@ -846,27 +846,27 @@ struct anonymous$9
   signed int si_fd;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$4 _kill;
+  struct anonymous_4 _kill;
   // _timer
-  struct anonymous$5 _timer;
+  struct anonymous_5 _timer;
   // _rt
-  struct anonymous$6 _rt;
+  struct anonymous_6 _rt;
   // _sigchld
-  struct anonymous$7 _sigchld;
+  struct anonymous_7 _sigchld;
   // _sigfault
-  struct anonymous$8 _sigfault;
+  struct anonymous_8 _sigfault;
   // _sigpoll
-  struct anonymous$9 _sigpoll;
+  struct anonymous_9 _sigpoll;
   // _sigsys
-  struct anonymous$10 _sigsys;
+  struct anonymous_10 _sigsys;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_signo
   signed int si_signo;
@@ -875,18 +875,18 @@ struct anonymous$12
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$11 _sifields;
+  union anonymous_11 _sifields;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$12 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_12 *, void *);
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[4l];
@@ -894,10 +894,10 @@ union anonymous$1
   signed int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -932,7 +932,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1309,9 +1309,9 @@ struct ossp_stream
   // refcnt
   unsigned int refcnt;
   // cmd_mutex
-  union anonymous$0 cmd_mutex;
+  union anonymous_0 cmd_mutex;
   // mmap_mutex
-  union anonymous$0 mmap_mutex;
+  union anonymous_0 mmap_mutex;
   // ph
   struct fuse_pollhandle *ph;
   // pid
@@ -1505,7 +1505,7 @@ struct ring_buf
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$13 __sigaction_handler;
+  union anonymous_13 __sigaction_handler;
   // sa_mask
   struct anonymous sa_mask;
   // sa_flags
@@ -1621,7 +1621,7 @@ static signed int init_wait_fd = -1;
 static unsigned int max_streams;
 // mixer_delayed_put_cond
 // file osspd.c line 171
-static union anonymous$3 mixer_delayed_put_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 mixer_delayed_put_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1636,7 +1636,7 @@ static struct list_head mixer_delayed_put_head = { .next=&mixer_delayed_put_head
 static unsigned long int mixer_delayed_put_thread;
 // mixer_mutex
 // file osspd.c line 153
-static union anonymous$0 mixer_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 mixer_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // mixer_ops
@@ -1660,7 +1660,7 @@ static struct fuse_session *mixer_se;
 static struct list_head *mixer_tbl;
 // mutex
 // file osspd.c line 152
-static union anonymous$0 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // notify_epfd
@@ -1668,7 +1668,7 @@ static union anonymous$0 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0
 static signed int notify_epfd;
 // notify_poller_kill_wait
 // file osspd.c line 167
-static union anonymous$3 notify_poller_kill_wait = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 notify_poller_kill_wait = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1801,7 +1801,7 @@ static struct list_head slave_corpse_list = { .next=&slave_corpse_list, .prev=&s
 static unsigned long int slave_reaper_thread;
 // slave_reaper_wait
 // file osspd.c line 168
-static union anonymous$3 slave_reaper_wait = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 slave_reaper_wait = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1820,9 +1820,9 @@ static unsigned int umax_streams;
 // usage
 // file osspd.c line 1991
 static const char *usage = "usage: osspd [options]\n\noptions:\n    --help            print this help message\n    --dsp=NAME        DSP device name (default dsp)\n    --dsp-maj=MAJ     DSP device major number (default 14)\n    --dsp-min=MIN     DSP device minor number (default 3)\n    --adsp=NAME       Aux DSP device name (default adsp, blank to disable)\n    --adsp-maj=MAJ    Aux DSP device major number (default 14)\n    --adsp-min=MIN    Aux DSP device minor number (default 12)\n    --mixer=NAME      mixer device name (default mixer, blank to disable)\n    --mixer-maj=MAJ   mixer device major number (default 14)\n    --mixer-min=MIN   mixer device minor number (default 0)\n    --max=MAX         maximum number of open streams (default 256)\n    --umax=MAX        maximum number of open streams per UID (default --max)\n    --exit-on-idle    exit if idle\n    --dsp-slave=PATH  DSP slave (default: /usr/lib/osspd/ossp-padsp)\n    --log=LEVEL       log level (0..6)\n    --timestamp       timestamp log messages\n    -v                increase verbosity, can be specified multiple times\n    -f                Run in foreground (don't daemonize)\n\n";
-// usage$link1
+// usage_link1
 // file ossp-slave.c line 24
-static const char *usage$link1 = "usage: ossp-SLAVE [options]\n\nproxies commands from osspd to pulseaudio\n\noptions:\n    -u UID            uid to use\n    -g GID            gid to use\n    -c CMD_FD         fd to receive commands from osspd\n    -n NOTIFY_FD      fd to send async notifications to osspd\n    -m MMAP_FD        fd to use for mmap\n    -o MMAP_OFFSET    mmap offset\n    -s MMAP_SIZE      mmap size\n    -l LOG_LEVEL      set log level\n    -t                enable log timestamps\n";
+static const char *usage_link1 = "usage: ossp-SLAVE [options]\n\nproxies commands from osspd to pulseaudio\n\noptions:\n    -u UID            uid to use\n    -g GID            gid to use\n    -c CMD_FD         fd to receive commands from osspd\n    -n NOTIFY_FD      fd to send async notifications to osspd\n    -m MMAP_FD        fd to use for mmap\n    -o MMAP_OFFSET    mmap offset\n    -s MMAP_SIZE      mmap size\n    -l LOG_LEVEL      set log level\n    -t                enable log timestamps\n";
 
 // INIT_LIST_HEAD
 // file ossp-util.h line 200
@@ -1919,15 +1919,15 @@ static signed int alloc_os(unsigned long int stream_size, unsigned long int mmap
   signed int rc;
   /* assertion stream_size >= sizeof(struct ossp_stream) */
   assert(stream_size >= sizeof(struct ossp_stream) /*264ul*/ );
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, stream_size);
-  os = (struct ossp_stream *)return_value_calloc$1;
-  signed int return_value_pthread_mutex_init$3;
-  struct ossp_uid_cnt *tmp_statement_expression$4;
-  struct ossp_uid_cnt *tmp_statement_expression$5;
-  unsigned long int return_value_find_next_zero_bit$7;
-  struct list_head *return_value_os_tbl_head$8;
-  struct list_head *return_value_os_pgrp_tbl_head$9;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, stream_size);
+  os = (struct ossp_stream *)return_value_calloc_1;
+  signed int return_value_pthread_mutex_init_3;
+  struct ossp_uid_cnt *tmp_statement_expression_4;
+  struct ossp_uid_cnt *tmp_statement_expression_5;
+  unsigned long int return_value_find_next_zero_bit_7;
+  struct list_head *return_value_os_tbl_head_8;
+  struct list_head *return_value_os_pgrp_tbl_head_9;
   if(os == ((struct ossp_stream *)NULL))
     return -12;
 
@@ -1937,20 +1937,20 @@ static signed int alloc_os(unsigned long int stream_size, unsigned long int mmap
     INIT_LIST_HEAD(&os->pgrp_link);
     INIT_LIST_HEAD(&os->notify_link);
     os->refcnt = (unsigned int)1;
-    signed int return_value_pthread_mutex_init$2;
-    return_value_pthread_mutex_init$2=pthread_mutex_init(&os->cmd_mutex, (const union anonymous$1 *)(void *)0);
-    rc = -return_value_pthread_mutex_init$2;
+    signed int return_value_pthread_mutex_init_2;
+    return_value_pthread_mutex_init_2=pthread_mutex_init(&os->cmd_mutex, (const union anonymous_1 *)(void *)0);
+    rc = -return_value_pthread_mutex_init_2;
     if(rc == 0)
     {
-      return_value_pthread_mutex_init$3=pthread_mutex_init(&os->mmap_mutex, (const union anonymous$1 *)(void *)0);
-      rc = -return_value_pthread_mutex_init$3;
+      return_value_pthread_mutex_init_3=pthread_mutex_init(&os->mmap_mutex, (const union anonymous_1 *)(void *)0);
+      rc = -return_value_pthread_mutex_init_3;
       if(rc == 0)
       {
         pthread_mutex_lock(&mutex);
-        const struct list_head *alloc_os$$1$$1$$1$$__mptr = (&uid_cnt_list)->next;
-        tmp_statement_expression$4 = (struct ossp_uid_cnt *)((char *)alloc_os$$1$$1$$1$$__mptr - (signed long int)0ul);
-        tmp_ucnt = tmp_statement_expression$4;
-        for( ; !(&tmp_ucnt->link == &uid_cnt_list); tmp_ucnt = tmp_statement_expression$5)
+        const struct list_head *alloc_os__1__1__1____mptr = (&uid_cnt_list)->next;
+        tmp_statement_expression_4 = (struct ossp_uid_cnt *)((char *)alloc_os__1__1__1____mptr - (signed long int)0ul);
+        tmp_ucnt = tmp_statement_expression_4;
+        for( ; !(&tmp_ucnt->link == &uid_cnt_list); tmp_ucnt = tmp_statement_expression_5)
         {
           if(tmp_ucnt->uid == uid)
           {
@@ -1959,14 +1959,14 @@ static signed int alloc_os(unsigned long int stream_size, unsigned long int mmap
           }
 
           const struct list_head *__mptr = tmp_ucnt->link.next;
-          tmp_statement_expression$5 = (struct ossp_uid_cnt *)((char *)__mptr - (signed long int)0ul);
+          tmp_statement_expression_5 = (struct ossp_uid_cnt *)((char *)__mptr - (signed long int)0ul);
         }
         if(ucnt == ((struct ossp_uid_cnt *)NULL))
         {
           rc = -12;
-          void *return_value_calloc$6;
-          return_value_calloc$6=calloc((unsigned long int)1, sizeof(struct ossp_uid_cnt) /*24ul*/ );
-          ucnt = (struct ossp_uid_cnt *)return_value_calloc$6;
+          void *return_value_calloc_6;
+          return_value_calloc_6=calloc((unsigned long int)1, sizeof(struct ossp_uid_cnt) /*24ul*/ );
+          ucnt = (struct ossp_uid_cnt *)return_value_calloc_6;
           if(ucnt == ((struct ossp_uid_cnt *)NULL))
             goto err_unlock;
 
@@ -1978,8 +1978,8 @@ static signed int alloc_os(unsigned long int stream_size, unsigned long int mmap
         if(umax_streams >= 1u + ucnt->nr_os)
         {
           rc = -16;
-          return_value_find_next_zero_bit$7=find_next_zero_bit(os_id_bitmap, (unsigned long int)max_streams, (unsigned long int)0);
-          os->id = (unsigned int)return_value_find_next_zero_bit$7;
+          return_value_find_next_zero_bit_7=find_next_zero_bit(os_id_bitmap, (unsigned long int)max_streams, (unsigned long int)0);
+          os->id = (unsigned int)return_value_find_next_zero_bit_7;
           if(!(os->id >= max_streams))
           {
             __set_bit((signed int)os->id, os_id_bitmap);
@@ -2000,10 +2000,10 @@ static signed int alloc_os(unsigned long int stream_size, unsigned long int mmap
             os->se = se;
             memset((void *)os->vol, -1, sizeof(signed int [2l][2l]) /*16ul*/ );
             memset((void *)os->vol_set, -1, sizeof(signed int [2l][2l]) /*16ul*/ );
-            return_value_os_tbl_head$8=os_tbl_head((unsigned long int)os->id);
-            list_add(&os->link, return_value_os_tbl_head$8);
-            return_value_os_pgrp_tbl_head$9=os_pgrp_tbl_head(os->pgrp);
-            list_add(&os->pgrp_link, return_value_os_pgrp_tbl_head$9);
+            return_value_os_tbl_head_8=os_tbl_head((unsigned long int)os->id);
+            list_add(&os->link, return_value_os_tbl_head_8);
+            return_value_os_pgrp_tbl_head_9=os_pgrp_tbl_head(os->pgrp);
+            list_add(&os->pgrp_link, return_value_os_pgrp_tbl_head_9);
             ucnt->nr_os = ucnt->nr_os + 1u;
             *osp = os;
             pthread_mutex_unlock(&mutex);
@@ -2043,83 +2043,83 @@ static signed int create_os(const char *slave_path, unsigned long int stream_siz
   struct epoll_event ev = { .events=0u, .data={ .ptr=NULL } };
   signed int i;
   signed int rc;
-  static union anonymous$0 create_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+  static union anonymous_0 create_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
   pthread_mutex_lock(&create_mutex);
-  signed int return_value_socketpair$3;
-  return_value_socketpair$3=socketpair(1, 1, 0, cmd_sock);
-  _Bool tmp_if_expr$5;
-  signed int return_value_socketpair$4;
-  if(!(return_value_socketpair$3 == 0))
-    tmp_if_expr$5 = (_Bool)1;
+  signed int return_value_socketpair_3;
+  return_value_socketpair_3=socketpair(1, 1, 0, cmd_sock);
+  _Bool tmp_if_expr_5;
+  signed int return_value_socketpair_4;
+  if(!(return_value_socketpair_3 == 0))
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_socketpair$4=socketpair(1, 1, 0, notify_sock);
-    tmp_if_expr$5 = return_value_socketpair$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_socketpair_4=socketpair(1, 1, 0, notify_sock);
+    tmp_if_expr_5 = return_value_socketpair_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    rc = -(*return_value___errno_location$1);
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(-rc);
-    log_msg(3, "failed to create slave command channel (%s)", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    rc = -(*return_value___errno_location_1);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(-rc);
+    log_msg(3, "failed to create slave command channel (%s)", return_value_strerror_2);
     goto close_all;
   }
 
-  signed int return_value_fcntl$8;
-  return_value_fcntl$8=fcntl(notify_sock[(signed long int)0], 4, 04000);
-  if(!(return_value_fcntl$8 >= 0))
+  signed int return_value_fcntl_8;
+  return_value_fcntl_8=fcntl(notify_sock[(signed long int)0], 4, 04000);
+  if(!(return_value_fcntl_8 >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    rc = -(*return_value___errno_location$6);
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(-rc);
-    log_msg(3, "failed to set NONBLOCK on notify sock (%s)", return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    rc = -(*return_value___errno_location_6);
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(-rc);
+    log_msg(3, "failed to set NONBLOCK on notify sock (%s)", return_value_strerror_7);
     goto close_all;
   }
 
   rc=alloc_os(stream_size, mmap_size, pid, (unsigned int)pgrp, uid, gid, cmd_sock[(signed long int)0], notify_sock, se, &os);
   if(!(rc == 0))
   {
-    char *return_value_strerror$9;
-    return_value_strerror$9=strerror(-rc);
-    log_msg(3, "failed to allocate stream for %d (%s)", pid, return_value_strerror$9);
+    char *return_value_strerror_9;
+    return_value_strerror_9=strerror(-rc);
+    log_msg(3, "failed to allocate stream for %d (%s)", pid, return_value_strerror_9);
     goto close_all;
   }
 
   rc = -12;
   os->mixer=get_mixer(pgrp);
-  struct list_head *return_value_os_notify_tbl_head$10;
-  signed int return_value_epoll_ctl$13;
-  _Bool tmp_if_expr$20;
-  signed int return_value_close$19;
-  signed int return_value_fcntl$27;
-  _Bool tmp_if_expr$29;
-  signed int return_value_fcntl$28;
-  _Bool tmp_if_expr$31;
-  signed int return_value_fcntl$30;
+  struct list_head *return_value_os_notify_tbl_head_10;
+  signed int return_value_epoll_ctl_13;
+  _Bool tmp_if_expr_20;
+  signed int return_value_close_19;
+  signed int return_value_fcntl_27;
+  _Bool tmp_if_expr_29;
+  signed int return_value_fcntl_28;
+  _Bool tmp_if_expr_31;
+  signed int return_value_fcntl_30;
   if(!(os->mixer == ((struct ossp_mixer *)NULL)))
   {
     pthread_mutex_lock(&mutex);
-    return_value_os_notify_tbl_head$10=os_notify_tbl_head(os->notify_rx);
-    list_add(&os->notify_link, return_value_os_notify_tbl_head$10);
+    return_value_os_notify_tbl_head_10=os_notify_tbl_head(os->notify_rx);
+    list_add(&os->notify_link, return_value_os_notify_tbl_head_10);
     pthread_mutex_unlock(&mutex);
     ev.events = (unsigned int)1;
     ev.data.fd = notify_sock[(signed long int)0];
-    return_value_epoll_ctl$13=epoll_ctl(notify_epfd, 1, notify_sock[(signed long int)0], &ev);
-    if(!(return_value_epoll_ctl$13 == 0))
+    return_value_epoll_ctl_13=epoll_ctl(notify_epfd, 1, notify_sock[(signed long int)0], &ev);
+    if(!(return_value_epoll_ctl_13 == 0))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      rc = -(*return_value___errno_location$11);
-      char *return_value_strerror$12;
-      return_value_strerror$12=strerror(-rc);
-      log_msg(3, "S[%u/%d] failed to add notify epoll (%s)", os->id, os->pid, return_value_strerror$12);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      rc = -(*return_value___errno_location_11);
+      char *return_value_strerror_12;
+      return_value_strerror_12=strerror(-rc);
+      log_msg(3, "S[%u/%d] failed to add notify epoll (%s)", os->id, os->pid, return_value_strerror_12);
       close(os->notify_rx);
       os->notify_rx = -1;
       goto put_os;
@@ -2128,12 +2128,12 @@ static signed int create_os(const char *slave_path, unsigned long int stream_siz
     os->slave_pid=fork();
     if(!(os->slave_pid >= 0))
     {
-      signed int *return_value___errno_location$14;
-      return_value___errno_location$14=__errno_location();
-      rc = -(*return_value___errno_location$14);
-      char *return_value_strerror$15;
-      return_value_strerror$15=strerror(-rc);
-      log_msg(3, "S[%u/%d] failed to fork slave (%s)", os->id, os->pid, return_value_strerror$15);
+      signed int *return_value___errno_location_14;
+      return_value___errno_location_14=__errno_location();
+      rc = -(*return_value___errno_location_14);
+      char *return_value_strerror_15;
+      return_value_strerror_15=strerror(-rc);
+      log_msg(3, "S[%u/%d] failed to fork slave (%s)", os->id, os->pid, return_value_strerror_15);
       goto put_os;
     }
 
@@ -2147,24 +2147,24 @@ static signed int create_os(const char *slave_path, unsigned long int stream_siz
       char slave_path_copy[4096l];
       char *argv[19l] = { slave_path_copy, "-u", id_str[(signed long int)0], "-g", id_str[(signed long int)1], "-c", fd_str[(signed long int)0], "-n", fd_str[(signed long int)1], "-m", fd_str[(signed long int)2], "-o", mmap_off_str, "-s", mmap_size_str, "-l", log_str, (char *)(void *)0, (char *)(void *)0 };
       struct passwd *pwd;
-      signed int return_value_close$18;
-      return_value_close$18=close(cmd_sock[(signed long int)0]);
-      if(!(return_value_close$18 == 0))
-        tmp_if_expr$20 = (_Bool)1;
+      signed int return_value_close_18;
+      return_value_close_18=close(cmd_sock[(signed long int)0]);
+      if(!(return_value_close_18 == 0))
+        tmp_if_expr_20 = (_Bool)1;
 
       else
       {
-        return_value_close$19=close(notify_sock[(signed long int)0]);
-        tmp_if_expr$20 = return_value_close$19 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_close_19=close(notify_sock[(signed long int)0]);
+        tmp_if_expr_20 = return_value_close_19 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$20)
+      if(tmp_if_expr_20)
         do
         {
-          signed int *return_value___errno_location$16;
-          return_value___errno_location$16=__errno_location();
-          char *return_value_strerror$17;
-          return_value_strerror$17=strerror(-(-(*return_value___errno_location$16)));
-          log_msg(1, "failed to close server pipe fds (%s)", return_value_strerror$17);
+          signed int *return_value___errno_location_16;
+          return_value___errno_location_16=__errno_location();
+          char *return_value_strerror_17;
+          return_value_strerror_17=strerror(-(-(*return_value___errno_location_16)));
+          log_msg(1, "failed to close server pipe fds (%s)", return_value_strerror_17);
           _exit(1);
         }
         while((_Bool)0);
@@ -2183,12 +2183,12 @@ static signed int create_os(const char *slave_path, unsigned long int stream_siz
       strncpy(slave_path_copy, slave_path, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
       if(!((signed int)slave_path_copy[4095l] == 0))
       {
-        signed int *return_value___errno_location$21;
-        return_value___errno_location$21=__errno_location();
-        rc = -(*return_value___errno_location$21);
-        char *return_value_strerror$22;
-        return_value_strerror$22=strerror(-rc);
-        log_msg(2, "S[%u/%d] slave path too long (%s)", os->id, os->pid, return_value_strerror$22);
+        signed int *return_value___errno_location_21;
+        return_value___errno_location_21=__errno_location();
+        rc = -(*return_value___errno_location_21);
+        char *return_value_strerror_22;
+        return_value_strerror_22=strerror(-rc);
+        log_msg(2, "S[%u/%d] slave path too long (%s)", os->id, os->pid, return_value_strerror_22);
         goto child_fail;
       }
 
@@ -2204,43 +2204,43 @@ static signed int create_os(const char *slave_path, unsigned long int stream_siz
         argv[(signed long int)(sizeof(char *[19l]) /*152ul*/  / sizeof(char *) /*8ul*/  - (unsigned long int)2)] = "-t";
 
       execv(slave_path, argv);
-      signed int *return_value___errno_location$23;
-      return_value___errno_location$23=__errno_location();
-      rc = -(*return_value___errno_location$23);
-      char *return_value_strerror$24;
-      return_value_strerror$24=strerror(-rc);
-      log_msg(2, "S[%u/%d] execv failed for <%d> (%s)", os->id, os->pid, pid, return_value_strerror$24);
+      signed int *return_value___errno_location_23;
+      return_value___errno_location_23=__errno_location();
+      rc = -(*return_value___errno_location_23);
+      char *return_value_strerror_24;
+      return_value_strerror_24=strerror(-rc);
+      log_msg(2, "S[%u/%d] execv failed for <%d> (%s)", os->id, os->pid, pid, return_value_strerror_24);
 
     child_fail:
       ;
       _exit(1);
     }
 
-    return_value_fcntl$27=fcntl(os->cmd_fd, 2, 1);
-    if(!(return_value_fcntl$27 >= 0))
-      tmp_if_expr$29 = (_Bool)1;
+    return_value_fcntl_27=fcntl(os->cmd_fd, 2, 1);
+    if(!(return_value_fcntl_27 >= 0))
+      tmp_if_expr_29 = (_Bool)1;
 
     else
     {
-      return_value_fcntl$28=fcntl(os->notify_tx, 2, 1);
-      tmp_if_expr$29 = return_value_fcntl$28 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fcntl_28=fcntl(os->notify_tx, 2, 1);
+      tmp_if_expr_29 = return_value_fcntl_28 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$29)
-      tmp_if_expr$31 = (_Bool)1;
+    if(tmp_if_expr_29)
+      tmp_if_expr_31 = (_Bool)1;
 
     else
     {
-      return_value_fcntl$30=fcntl(os->notify_rx, 2, 1);
-      tmp_if_expr$31 = return_value_fcntl$30 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fcntl_30=fcntl(os->notify_rx, 2, 1);
+      tmp_if_expr_31 = return_value_fcntl_30 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$31)
+    if(tmp_if_expr_31)
     {
-      signed int *return_value___errno_location$25;
-      return_value___errno_location$25=__errno_location();
-      rc = -(*return_value___errno_location$25);
-      char *return_value_strerror$26;
-      return_value_strerror$26=strerror(-rc);
-      log_msg(2, "S[%u/%d] failed to set CLOEXEC on server side fds (%s)", os->id, os->pid, return_value_strerror$26);
+      signed int *return_value___errno_location_25;
+      return_value___errno_location_25=__errno_location();
+      rc = -(*return_value___errno_location_25);
+      char *return_value_strerror_26;
+      return_value_strerror_26=strerror(-rc);
+      log_msg(2, "S[%u/%d] failed to set CLOEXEC on server side fds (%s)", os->id, os->pid, return_value_strerror_26);
       goto put_os;
     }
 
@@ -2299,12 +2299,12 @@ static void dsp_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg, s
   signed int i;
   ret = (signed long int)-9;
   os=find_os((unsigned int)fi->fh);
-  struct ossp_dsp_stream *tmp_statement_expression$1;
+  struct ossp_dsp_stream *tmp_statement_expression_1;
   if(!(os == ((struct ossp_stream *)NULL)))
   {
     const struct ossp_stream *__mptr = os;
-    tmp_statement_expression$1 = (struct ossp_dsp_stream *)((char *)__mptr - (signed long int)0ul);
-    dsps = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct ossp_dsp_stream *)((char *)__mptr - (signed long int)0ul);
+    dsps = tmp_statement_expression_1;
     if((255u & cmd >> 8) == 77u)
     {
       mixer_do_ioctl(req, os->mixer, cmd, uarg, in_buf, in_bufsz, out_bufsz);
@@ -2392,9 +2392,9 @@ static void dsp_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg, s
       i = 198672;
       do
       {
-        signed int return_value_ioctl_prep_uarg$2;
-        return_value_ioctl_prep_uarg$2=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-        if(!(return_value_ioctl_prep_uarg$2 == 0))
+        signed int return_value_ioctl_prep_uarg_2;
+        return_value_ioctl_prep_uarg_2=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+        if(!(return_value_ioctl_prep_uarg_2 == 0))
           goto __CPROVER_DUMP_L85;
 
       }
@@ -2407,9 +2407,9 @@ static void dsp_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg, s
       i = 0x00000100 | 0x00000200 | 0x00001000 | 0x00004000;
       do
       {
-        signed int return_value_ioctl_prep_uarg$3;
-        return_value_ioctl_prep_uarg$3=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-        if(!(return_value_ioctl_prep_uarg$3 == 0))
+        signed int return_value_ioctl_prep_uarg_3;
+        return_value_ioctl_prep_uarg_3=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+        if(!(return_value_ioctl_prep_uarg_3 == 0))
           goto __CPROVER_DUMP_L85;
 
       }
@@ -2480,9 +2480,9 @@ static void dsp_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg, s
 
       ri:
         ;
-        signed int return_value_ioctl_prep_uarg$4;
-        return_value_ioctl_prep_uarg$4=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-        if(!(return_value_ioctl_prep_uarg$4 == 0))
+        signed int return_value_ioctl_prep_uarg_4;
+        return_value_ioctl_prep_uarg_4=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+        if(!(return_value_ioctl_prep_uarg_4 == 0))
           goto __CPROVER_DUMP_L85;
 
       }
@@ -2517,9 +2517,9 @@ static void dsp_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg, s
 
       wi:
         ;
-        signed int return_value_ioctl_prep_uarg$5;
-        return_value_ioctl_prep_uarg$5=ioctl_prep_uarg(req, (void *)&i, sizeof(signed int) /*4ul*/ , (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-        if(!(return_value_ioctl_prep_uarg$5 == 0))
+        signed int return_value_ioctl_prep_uarg_5;
+        return_value_ioctl_prep_uarg_5=ioctl_prep_uarg(req, (void *)&i, sizeof(signed int) /*4ul*/ , (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+        if(!(return_value_ioctl_prep_uarg_5 == 0))
           goto __CPROVER_DUMP_L85;
 
       }
@@ -2535,9 +2535,9 @@ static void dsp_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg, s
 
       __CPROVER_DUMP_L45:
         ;
-        signed int return_value_ioctl_prep_uarg$6;
-        return_value_ioctl_prep_uarg$6=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-        if(!(return_value_ioctl_prep_uarg$6 == 0))
+        signed int return_value_ioctl_prep_uarg_6;
+        return_value_ioctl_prep_uarg_6=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+        if(!(return_value_ioctl_prep_uarg_6 == 0))
           goto __CPROVER_DUMP_L85;
 
       }
@@ -2555,9 +2555,9 @@ static void dsp_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg, s
 
       __CPROVER_DUMP_L50:
         ;
-        signed int return_value_ioctl_prep_uarg$7;
-        return_value_ioctl_prep_uarg$7=ioctl_prep_uarg(req, (void *)&i, sizeof(signed int) /*4ul*/ , (void *)0, 1ul, uarg, in_buf, in_bufsz, out_bufsz);
-        if(!(return_value_ioctl_prep_uarg$7 == 0))
+        signed int return_value_ioctl_prep_uarg_7;
+        return_value_ioctl_prep_uarg_7=ioctl_prep_uarg(req, (void *)&i, sizeof(signed int) /*4ul*/ , (void *)0, 1ul, uarg, in_buf, in_bufsz, out_bufsz);
+        if(!(return_value_ioctl_prep_uarg_7 == 0))
           goto __CPROVER_DUMP_L85;
 
       }
@@ -2573,9 +2573,9 @@ static void dsp_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg, s
 
       __CPROVER_DUMP_L55:
         ;
-        signed int return_value_ioctl_prep_uarg$8;
-        return_value_ioctl_prep_uarg$8=ioctl_prep_uarg(req, (void *)&i, sizeof(signed int) /*4ul*/ , (void *)0, 1ul, uarg, in_buf, in_bufsz, out_bufsz);
-        if(!(return_value_ioctl_prep_uarg$8 == 0))
+        signed int return_value_ioctl_prep_uarg_8;
+        return_value_ioctl_prep_uarg_8=ioctl_prep_uarg(req, (void *)&i, sizeof(signed int) /*4ul*/ , (void *)0, 1ul, uarg, in_buf, in_bufsz, out_bufsz);
+        if(!(return_value_ioctl_prep_uarg_8 == 0))
           goto __CPROVER_DUMP_L85;
 
       }
@@ -2608,9 +2608,9 @@ static void dsp_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg, s
       }
       do
       {
-        signed int return_value_ioctl_prep_uarg$9;
-        return_value_ioctl_prep_uarg$9=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&info, sizeof(struct audio_buf_info) /*16ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-        if(!(return_value_ioctl_prep_uarg$9 == 0))
+        signed int return_value_ioctl_prep_uarg_9;
+        return_value_ioctl_prep_uarg_9=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&info, sizeof(struct audio_buf_info) /*16ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+        if(!(return_value_ioctl_prep_uarg_9 == 0))
           goto __CPROVER_DUMP_L85;
 
       }
@@ -2624,31 +2624,31 @@ static void dsp_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg, s
 
     __CPROVER_DUMP_L67:
       ;
-      struct count_info dsp_ioctl$$1$$3$$18$$info;
+      struct count_info dsp_ioctl__1__3__18__info;
       op = (enum ossp_opcode)((unsigned long int)cmd == ((unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(18 << 0)) | sizeof(struct count_info) /*12ul*/  << 0 + 8 + 8) ? OSSP_DSP_GET_OPTR : OSSP_DSP_GET_IPTR);
       do
       {
-        signed int return_value_ioctl_prep_uarg$10;
-        return_value_ioctl_prep_uarg$10=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&dsp_ioctl$$1$$3$$18$$info, sizeof(struct count_info) /*12ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-        if(!(return_value_ioctl_prep_uarg$10 == 0))
+        signed int return_value_ioctl_prep_uarg_10;
+        return_value_ioctl_prep_uarg_10=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&dsp_ioctl__1__3__18__info, sizeof(struct count_info) /*12ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+        if(!(return_value_ioctl_prep_uarg_10 == 0))
           goto __CPROVER_DUMP_L85;
 
       }
       while((_Bool)0);
-      ret=exec_simple_cmd(&dsps->os, op, (void *)0, (void *)&dsp_ioctl$$1$$3$$18$$info);
+      ret=exec_simple_cmd(&dsps->os, op, (void *)0, (void *)&dsp_ioctl__1__3__18__info);
       if(!(ret == 0l))
         goto err;
 
-      fuse_reply_ioctl(req, 0, (const void *)&dsp_ioctl$$1$$3$$18$$info, sizeof(struct count_info) /*12ul*/ );
+      fuse_reply_ioctl(req, 0, (const void *)&dsp_ioctl__1__3__18__info, sizeof(struct count_info) /*12ul*/ );
       goto __CPROVER_DUMP_L85;
       do
       {
 
       __CPROVER_DUMP_L73:
         ;
-        signed int return_value_ioctl_prep_uarg$11;
-        return_value_ioctl_prep_uarg$11=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-        if(!(return_value_ioctl_prep_uarg$11 == 0))
+        signed int return_value_ioctl_prep_uarg_11;
+        return_value_ioctl_prep_uarg_11=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+        if(!(return_value_ioctl_prep_uarg_11 == 0))
           goto __CPROVER_DUMP_L85;
 
       }
@@ -2709,27 +2709,27 @@ static void dsp_open_common(struct fuse_req *req, struct fuse_file_info *fi, str
   struct ossp_mixer_cmd mxcmd;
   signed int pgrp;
   signed long int ret;
-  signed int return_value_get_proc_self_info$1;
-  return_value_get_proc_self_info$1=get_proc_self_info(fuse_ctx->pid, &pgrp, (char *)(void *)0, (unsigned long int)0);
-  ret = (signed long int)return_value_get_proc_self_info$1;
+  signed int return_value_get_proc_self_info_1;
+  return_value_get_proc_self_info_1=get_proc_self_info(fuse_ctx->pid, &pgrp, (char *)(void *)0, (unsigned long int)0);
+  ret = (signed long int)return_value_get_proc_self_info_1;
   if(!(ret == 0l))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror((signed int)-ret);
-    log_msg(2, "get_proc_self_info(%d) failed (%s)", fuse_ctx->pid, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror((signed int)-ret);
+    log_msg(2, "get_proc_self_info(%d) failed (%s)", fuse_ctx->pid, return_value_strerror_2);
     goto err;
   }
 
-  signed int return_value_create_os$3;
-  return_value_create_os$3=create_os(dsp_slave_path, sizeof(struct ossp_dsp_stream) /*280ul*/ , (unsigned long int)1048576, fuse_ctx->pid, pgrp, fuse_ctx->uid, fuse_ctx->gid, se, &os);
-  ret = (signed long int)return_value_create_os$3;
-  struct ossp_dsp_stream *tmp_statement_expression$4;
-  _Bool tmp_if_expr$5;
+  signed int return_value_create_os_3;
+  return_value_create_os_3=create_os(dsp_slave_path, sizeof(struct ossp_dsp_stream) /*280ul*/ , (unsigned long int)1048576, fuse_ctx->pid, pgrp, fuse_ctx->uid, fuse_ctx->gid, se, &os);
+  ret = (signed long int)return_value_create_os_3;
+  struct ossp_dsp_stream *tmp_statement_expression_4;
+  _Bool tmp_if_expr_5;
   if(ret == 0l)
   {
     const struct ossp_stream *__mptr = os;
-    tmp_statement_expression$4 = (struct ossp_dsp_stream *)((char *)__mptr - (signed long int)0ul);
-    dsps = tmp_statement_expression$4;
+    tmp_statement_expression_4 = (struct ossp_dsp_stream *)((char *)__mptr - (signed long int)0ul);
+    dsps = tmp_statement_expression_4;
     mixer = os->mixer;
     switch(fi->flags & 0003)
     {
@@ -2763,11 +2763,11 @@ static void dsp_open_common(struct fuse_req *req, struct fuse_file_info *fi, str
 
     memcpy((void *)os->vol, (const void *)mixer->vol, sizeof(signed int [2l][2l]) /*16ul*/ );
     if(os->vol[0l][0l] >= 0)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = os->vol[(signed long int)1][(signed long int)0] >= 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = os->vol[(signed long int)1][(signed long int)0] >= 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       init_mixer_cmd(&mxcmd, mixer);
       memcpy((void *)mxcmd.set.vol, (const void *)os->vol, sizeof(signed int [2l][2l]) /*16ul*/ );
@@ -2834,13 +2834,13 @@ static void dsp_read(struct fuse_req *req, unsigned long int size, signed long i
   void *buf = (void *)0;
   signed long int ret = (signed long int)-9;
   os=find_os((unsigned int)fi->fh);
-  struct ossp_dsp_stream *tmp_statement_expression$1;
-  _Bool tmp_if_expr$2;
+  struct ossp_dsp_stream *tmp_statement_expression_1;
+  _Bool tmp_if_expr_2;
   if(!(os == ((struct ossp_stream *)NULL)))
   {
     const struct ossp_stream *__mptr = os;
-    tmp_statement_expression$1 = (struct ossp_dsp_stream *)((char *)__mptr - (signed long int)0ul);
-    dsps = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct ossp_dsp_stream *)((char *)__mptr - (signed long int)0ul);
+    dsps = tmp_statement_expression_1;
     ret = (signed long int)-22;
     if(!((2u & dsps->rw) == 0u))
     {
@@ -2852,11 +2852,11 @@ static void dsp_read(struct fuse_req *req, unsigned long int size, signed long i
         if(!(buf == NULL))
         {
           if(!((04000 & fi->flags) == 0))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = dsps->nonblock != 0 ? (_Bool)1 : (_Bool)0;
-          arg.nonblock = (unsigned int)tmp_if_expr$2;
+            tmp_if_expr_2 = dsps->nonblock != 0 ? (_Bool)1 : (_Bool)0;
+          arg.nonblock = (unsigned int)tmp_if_expr_2;
           ret=exec_cmd(os, (enum ossp_opcode)OSSP_DSP_READ, (const void *)&arg, sizeof(struct ossp_dsp_rw_arg) /*4ul*/ , (void *)0, (unsigned long int)0, (void *)0, (unsigned long int)0, buf, &size, -1);
         }
 
@@ -2902,13 +2902,13 @@ static void dsp_write(struct fuse_req *req, const char *buf, unsigned long int s
   struct ossp_dsp_stream *dsps;
   signed long int ret = (signed long int)-9;
   os=find_os((unsigned int)fi->fh);
-  struct ossp_dsp_stream *tmp_statement_expression$1;
-  _Bool tmp_if_expr$2;
+  struct ossp_dsp_stream *tmp_statement_expression_1;
+  _Bool tmp_if_expr_2;
   if(!(os == ((struct ossp_stream *)NULL)))
   {
     const struct ossp_stream *__mptr = os;
-    tmp_statement_expression$1 = (struct ossp_dsp_stream *)((char *)__mptr - (signed long int)0ul);
-    dsps = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct ossp_dsp_stream *)((char *)__mptr - (signed long int)0ul);
+    dsps = tmp_statement_expression_1;
     ret = (signed long int)-22;
     if(!((1u & dsps->rw) == 0u))
     {
@@ -2916,11 +2916,11 @@ static void dsp_write(struct fuse_req *req, const char *buf, unsigned long int s
       if(dsps->mmapped == 0u)
       {
         if(!((04000 & fi->flags) == 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = dsps->nonblock != 0 ? (_Bool)1 : (_Bool)0;
-        arg.nonblock = (unsigned int)tmp_if_expr$2;
+          tmp_if_expr_2 = dsps->nonblock != 0 ? (_Bool)1 : (_Bool)0;
+        arg.nonblock = (unsigned int)tmp_if_expr_2;
         ret=exec_cmd(os, (enum ossp_opcode)OSSP_DSP_WRITE, (const void *)&arg, sizeof(struct ossp_dsp_rw_arg) /*4ul*/ , (const void *)buf, size, (void *)0, (unsigned long int)0, (void *)0, (unsigned long int *)(void *)0, -1);
       }
 
@@ -2948,9 +2948,9 @@ signed int ensure_sbuf_size(struct sized_buf *sbuf, unsigned long int size)
 
   else
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)sbuf->buf, size);
-    new_buf = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)sbuf->buf, size);
+    new_buf = (char *)return_value_realloc_1;
     if(new_buf == ((char *)NULL) && !(size == 0ul))
       return -12;
 
@@ -2975,9 +2975,9 @@ static signed long int exec_cmd(struct ossp_stream *os, enum ossp_opcode opcode,
   is_mixer = (signed int)((signed int)opcode == OSSP_MIXER);
   if(!(is_mixer == 0))
   {
-    signed int return_value_pthread_mutex_trylock$1;
-    return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&os->cmd_mutex);
-    ret = (signed long int)-return_value_pthread_mutex_trylock$1;
+    signed int return_value_pthread_mutex_trylock_1;
+    return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&os->cmd_mutex);
+    ret = (signed long int)-return_value_pthread_mutex_trylock_1;
     if(!(ret == 0l))
       return ret;
 
@@ -3053,13 +3053,13 @@ static signed long int exec_cmd(struct ossp_stream *os, enum ossp_opcode opcode,
 static signed long int exec_cmd_intern(struct ossp_stream *os, enum ossp_opcode opcode, const void *carg, unsigned long int carg_size, const void *din, unsigned long int din_size, void *rarg, unsigned long int rarg_size, void *dout, unsigned long int *dout_sizep, signed int fd)
 {
   unsigned long int dout_size;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(dout_sizep == ((unsigned long int *)NULL)))
-    tmp_if_expr$1 = *dout_sizep;
+    tmp_if_expr_1 = *dout_sizep;
 
   else
-    tmp_if_expr$1 = (unsigned long int)0;
-  dout_size = tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned long int)0;
+  dout_size = tmp_if_expr_1;
   struct ossp_cmd cmd = { .magic=0xdeadbeef, .opcode=opcode, .din_size=din_size, .dout_size=dout_size };
   struct iovec iov = { .iov_base=(void *)&cmd, .iov_len=sizeof(struct ossp_cmd) /*24ul*/  };
   struct msghdr msg = { .msg_name=NULL, .msg_namelen=0u, .msg_iov=&iov, .msg_iovlen=(unsigned long int)1,
@@ -3069,9 +3069,9 @@ static signed long int exec_cmd_intern(struct ossp_stream *os, enum ossp_opcode 
   char cmsg_buf[24l];
   char reason[512l];
   signed int rc;
-  struct cmsghdr *tmp_if_expr$2;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$10;
+  struct cmsghdr *tmp_if_expr_2;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_10;
   if(!(os->dead == 0))
     return (signed long int)-5;
 
@@ -3084,11 +3084,11 @@ static signed long int exec_cmd_intern(struct ossp_stream *os, enum ossp_opcode 
       msg.msg_control = (void *)cmsg_buf;
       msg.msg_controllen = sizeof(char [24l]) /*24ul*/ ;
       if(msg.msg_controllen >= sizeof(struct cmsghdr) /*16ul*/ )
-        tmp_if_expr$2 = (struct cmsghdr *)(&msg)->msg_control;
+        tmp_if_expr_2 = (struct cmsghdr *)(&msg)->msg_control;
 
       else
-        tmp_if_expr$2 = (struct cmsghdr *)0;
-      cmsg = tmp_if_expr$2;
+        tmp_if_expr_2 = (struct cmsghdr *)0;
+      cmsg = tmp_if_expr_2;
       cmsg->cmsg_level = 1;
       cmsg->cmsg_type = 1;
       cmsg->cmsg_len = ((sizeof(struct cmsghdr) /*16ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)1 & (unsigned long int)~(sizeof(unsigned long int) /*8ul*/  - (unsigned long int)1)) + sizeof(signed int) /*4ul*/ ;
@@ -3096,42 +3096,42 @@ static signed long int exec_cmd_intern(struct ossp_stream *os, enum ossp_opcode 
       msg.msg_controllen = cmsg->cmsg_len;
     }
 
-    signed long int return_value_sendmsg$5;
-    return_value_sendmsg$5=sendmsg(os->cmd_fd, &msg, 0);
-    if(!(return_value_sendmsg$5 >= 1l))
+    signed long int return_value_sendmsg_5;
+    return_value_sendmsg_5=sendmsg(os->cmd_fd, &msg, 0);
+    if(!(return_value_sendmsg_5 >= 1l))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      rc = -(*return_value___errno_location$3);
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(-rc);
-      snprintf(reason, sizeof(char [512l]) /*512ul*/ , "command sendmsg failed: %s", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      rc = -(*return_value___errno_location_3);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(-rc);
+      snprintf(reason, sizeof(char [512l]) /*512ul*/ , "command sendmsg failed: %s", return_value_strerror_4);
       goto fail;
     }
 
     rc=write_fill(os->cmd_fd, carg, carg_size);
     if(!(rc >= 0))
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
       rc=write_fill(os->cmd_fd, din, din_size);
-      tmp_if_expr$7 = rc < 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = rc < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
     {
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(-rc);
-      snprintf(reason, sizeof(char [512l]) /*512ul*/ , "can't tranfer command argument and/or data: %s", return_value_strerror$6);
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(-rc);
+      snprintf(reason, sizeof(char [512l]) /*512ul*/ , "can't tranfer command argument and/or data: %s", return_value_strerror_6);
       goto fail;
     }
 
     rc=read_fill(os->cmd_fd, (void *)&reply, sizeof(struct ossp_reply) /*16ul*/ );
     if(!(rc >= 0))
     {
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(-rc);
-      snprintf(reason, sizeof(char [512l]) /*512ul*/ , "can't read reply: %s", return_value_strerror$8);
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(-rc);
+      snprintf(reason, sizeof(char [512l]) /*512ul*/ , "can't read reply: %s", return_value_strerror_8);
       goto fail;
     }
 
@@ -3158,18 +3158,18 @@ static signed long int exec_cmd_intern(struct ossp_stream *os, enum ossp_opcode 
 
         rc=read_fill(os->cmd_fd, rarg, rarg_size);
         if(!(rc >= 0))
-          tmp_if_expr$10 = (_Bool)1;
+          tmp_if_expr_10 = (_Bool)1;
 
         else
         {
           rc=read_fill(os->cmd_fd, dout, dout_size);
-          tmp_if_expr$10 = rc < 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = rc < 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$10)
+        if(tmp_if_expr_10)
         {
-          char *return_value_strerror$9;
-          return_value_strerror$9=strerror(-rc);
-          snprintf(reason, sizeof(char [512l]) /*512ul*/ , "can't read data out: %s", return_value_strerror$9);
+          char *return_value_strerror_9;
+          return_value_strerror_9=strerror(-rc);
+          snprintf(reason, sizeof(char [512l]) /*512ul*/ , "can't read data out: %s", return_value_strerror_9);
           goto fail;
         }
 
@@ -3211,18 +3211,18 @@ static signed int exec_mixer_cmd(struct ossp_mixer_cmd *mxcmd, struct ossp_strea
     i = j >> 1;
   }
   pthread_mutex_unlock(&mixer_mutex);
-  signed long int return_value_exec_simple_cmd$1;
-  return_value_exec_simple_cmd$1=exec_simple_cmd(os, (enum ossp_opcode)OSSP_MIXER, (void *)0, (void *)0);
-  rc = (signed int)return_value_exec_simple_cmd$1;
-  char *return_value_strerror$2;
+  signed long int return_value_exec_simple_cmd_1;
+  return_value_exec_simple_cmd_1=exec_simple_cmd(os, (enum ossp_opcode)OSSP_MIXER, (void *)0, (void *)0);
+  rc = (signed int)return_value_exec_simple_cmd_1;
+  char *return_value_strerror_2;
   if(rc >= 0)
     log_msg(5, "S[%u/%d] volume set=%d/%d:%d/%d get=%d/%d:%d/%d", os->id, os->pid, mxcmd->set.vol[(signed long int)0][(signed long int)0], mxcmd->set.vol[(signed long int)0][(signed long int)1], mxcmd->set.vol[(signed long int)1][(signed long int)0], mxcmd->set.vol[(signed long int)1][(signed long int)1], os->vol[(signed long int)0][(signed long int)0], os->vol[(signed long int)0][(signed long int)1], os->vol[(signed long int)1][(signed long int)0], os->vol[(signed long int)1][(signed long int)1]);
 
   else
     if(!(rc == -16))
     {
-      return_value_strerror$2=strerror(-rc);
-      log_msg(3, "S[%u/%d] mixer command failed (%s)", os->id, os->pid, return_value_strerror$2);
+      return_value_strerror_2=strerror(-rc);
+      log_msg(3, "S[%u/%d] mixer command failed (%s)", os->id, os->pid, return_value_strerror_2);
     }
 
   return rc;
@@ -3232,9 +3232,9 @@ static signed int exec_mixer_cmd(struct ossp_mixer_cmd *mxcmd, struct ossp_strea
 // file osspd.c line 424
 static signed long int exec_simple_cmd(struct ossp_stream *os, enum ossp_opcode opcode, void *carg, void *rarg)
 {
-  signed long int return_value_exec_cmd$1;
-  return_value_exec_cmd$1=exec_cmd(os, opcode, carg, (unsigned long int)ossp_arg_sizes[(signed long int)opcode].carg_size, (void *)0, (unsigned long int)0, rarg, (unsigned long int)ossp_arg_sizes[(signed long int)opcode].rarg_size, (void *)0, (unsigned long int *)(void *)0, -1);
-  return return_value_exec_cmd$1;
+  signed long int return_value_exec_cmd_1;
+  return_value_exec_cmd_1=exec_cmd(os, opcode, carg, (unsigned long int)ossp_arg_sizes[(signed long int)opcode].carg_size, (void *)0, (unsigned long int)0, rarg, (unsigned long int)ossp_arg_sizes[(signed long int)opcode].rarg_size, (void *)0, (unsigned long int *)(void *)0, -1);
+  return return_value_exec_cmd_1;
 }
 
 // find_mixer
@@ -3253,27 +3253,27 @@ static struct ossp_mixer * find_mixer(signed int pgrp)
 static struct ossp_mixer * find_mixer_locked(signed int pgrp)
 {
   struct ossp_mixer *mixer;
-  struct ossp_mixer *tmp_statement_expression$1;
+  struct ossp_mixer *tmp_statement_expression_1;
   const struct list_head *__mptr;
-  struct list_head *return_value_mixer_tbl_head$2;
-  return_value_mixer_tbl_head$2=mixer_tbl_head(pgrp);
-  __mptr = return_value_mixer_tbl_head$2->next;
-  tmp_statement_expression$1 = (struct ossp_mixer *)((char *)__mptr - (signed long int)8ul);
-  mixer = tmp_statement_expression$1;
-  struct list_head *return_value_mixer_tbl_head$3;
-  struct ossp_mixer *tmp_statement_expression$4;
+  struct list_head *return_value_mixer_tbl_head_2;
+  return_value_mixer_tbl_head_2=mixer_tbl_head(pgrp);
+  __mptr = return_value_mixer_tbl_head_2->next;
+  tmp_statement_expression_1 = (struct ossp_mixer *)((char *)__mptr - (signed long int)8ul);
+  mixer = tmp_statement_expression_1;
+  struct list_head *return_value_mixer_tbl_head_3;
+  struct ossp_mixer *tmp_statement_expression_4;
   do
   {
-    return_value_mixer_tbl_head$3=mixer_tbl_head(pgrp);
-    if(&mixer->link == return_value_mixer_tbl_head$3)
+    return_value_mixer_tbl_head_3=mixer_tbl_head(pgrp);
+    if(&mixer->link == return_value_mixer_tbl_head_3)
       break;
 
     if(mixer->pgrp == pgrp)
       return mixer;
 
-    const struct list_head *find_mixer_locked$$1$$1$$2$$__mptr = mixer->link.next;
-    tmp_statement_expression$4 = (struct ossp_mixer *)((char *)find_mixer_locked$$1$$1$$2$$__mptr - (signed long int)8ul);
-    mixer = tmp_statement_expression$4;
+    const struct list_head *find_mixer_locked__1__1__2____mptr = mixer->link.next;
+    tmp_statement_expression_4 = (struct ossp_mixer *)((char *)find_mixer_locked__1__1__2____mptr - (signed long int)8ul);
+    mixer = tmp_statement_expression_4;
   }
   while((_Bool)1);
   return (struct ossp_mixer *)(void *)0;
@@ -3286,8 +3286,8 @@ unsigned long int find_next_zero_bit(const unsigned long int *addr, unsigned lon
   const unsigned long int *p = addr + (signed long int)(offset / ((unsigned long int)8 * sizeof(signed long int) /*8ul*/ ));
   unsigned long int result = offset & ~((unsigned long int)8 * sizeof(signed long int) /*8ul*/  - (unsigned long int)1);
   unsigned long int tmp;
-  const unsigned long int *tmp_post$1;
-  const unsigned long int *tmp_post$2;
+  const unsigned long int *tmp_post_1;
+  const unsigned long int *tmp_post_2;
   if(offset >= size)
     return size;
 
@@ -3297,9 +3297,9 @@ unsigned long int find_next_zero_bit(const unsigned long int *addr, unsigned lon
     offset = offset % ((unsigned long int)8 * sizeof(signed long int) /*8ul*/ );
     if(!(offset == 0ul))
     {
-      tmp_post$1 = p;
+      tmp_post_1 = p;
       p = p + 1l;
-      tmp = *tmp_post$1;
+      tmp = *tmp_post_1;
       tmp = tmp | ~0UL >> (unsigned long int)8 * sizeof(signed long int) /*8ul*/  - offset;
       if(!(size >= sizeof(signed long int) * 8 /*64ul*/ ))
         goto found_first;
@@ -3313,9 +3313,9 @@ unsigned long int find_next_zero_bit(const unsigned long int *addr, unsigned lon
 
     for( ; !((18446744073709551552ul & size) == 0ul); size = size - (unsigned long int)8 * sizeof(signed long int) /*8ul*/ )
     {
-      tmp_post$2 = p;
+      tmp_post_2 = p;
       p = p + 1l;
-      tmp = *tmp_post$2;
+      tmp = *tmp_post_2;
       if(!(~tmp == 0ul))
         goto found_middle;
 
@@ -3339,9 +3339,9 @@ unsigned long int find_next_zero_bit(const unsigned long int *addr, unsigned lon
 
       found_middle:
         ;
-        unsigned long int return_value___ffs$3;
-        return_value___ffs$3=__ffs(~tmp);
-        return result + return_value___ffs$3;
+        unsigned long int return_value___ffs_3;
+        return_value___ffs_3=__ffs(~tmp);
+        return result + return_value___ffs_3;
       }
     }
   }
@@ -3354,19 +3354,19 @@ static struct ossp_stream * find_os(unsigned int id)
   struct ossp_stream *os;
   struct ossp_stream *found = (struct ossp_stream *)(void *)0;
   pthread_mutex_lock(&mutex);
-  struct ossp_stream *tmp_statement_expression$1;
+  struct ossp_stream *tmp_statement_expression_1;
   const struct list_head *__mptr;
-  struct list_head *return_value_os_tbl_head$2;
-  return_value_os_tbl_head$2=os_tbl_head((unsigned long int)id);
-  __mptr = return_value_os_tbl_head$2->next;
-  tmp_statement_expression$1 = (struct ossp_stream *)((char *)__mptr - (signed long int)8ul);
-  os = tmp_statement_expression$1;
-  struct list_head *return_value_os_tbl_head$3;
-  struct ossp_stream *tmp_statement_expression$4;
+  struct list_head *return_value_os_tbl_head_2;
+  return_value_os_tbl_head_2=os_tbl_head((unsigned long int)id);
+  __mptr = return_value_os_tbl_head_2->next;
+  tmp_statement_expression_1 = (struct ossp_stream *)((char *)__mptr - (signed long int)8ul);
+  os = tmp_statement_expression_1;
+  struct list_head *return_value_os_tbl_head_3;
+  struct ossp_stream *tmp_statement_expression_4;
   do
   {
-    return_value_os_tbl_head$3=os_tbl_head((unsigned long int)id);
-    if(&os->link == return_value_os_tbl_head$3)
+    return_value_os_tbl_head_3=os_tbl_head((unsigned long int)id);
+    if(&os->link == return_value_os_tbl_head_3)
       break;
 
     if(os->id == id)
@@ -3375,9 +3375,9 @@ static struct ossp_stream * find_os(unsigned int id)
       break;
     }
 
-    const struct list_head *find_os$$1$$1$$2$$__mptr = os->link.next;
-    tmp_statement_expression$4 = (struct ossp_stream *)((char *)find_os$$1$$1$$2$$__mptr - (signed long int)8ul);
-    os = tmp_statement_expression$4;
+    const struct list_head *find_os__1__1__2____mptr = os->link.next;
+    tmp_statement_expression_4 = (struct ossp_stream *)((char *)find_os__1__1__2____mptr - (signed long int)8ul);
+    os = tmp_statement_expression_4;
   }
   while((_Bool)1);
   pthread_mutex_unlock(&mutex);
@@ -3391,19 +3391,19 @@ static struct ossp_stream * find_os_by_notify_rx(signed int notify_rx)
   struct ossp_stream *os;
   struct ossp_stream *found = (struct ossp_stream *)(void *)0;
   pthread_mutex_lock(&mutex);
-  struct ossp_stream *tmp_statement_expression$1;
+  struct ossp_stream *tmp_statement_expression_1;
   const struct list_head *__mptr;
-  struct list_head *return_value_os_notify_tbl_head$2;
-  return_value_os_notify_tbl_head$2=os_notify_tbl_head(notify_rx);
-  __mptr = return_value_os_notify_tbl_head$2->next;
-  tmp_statement_expression$1 = (struct ossp_stream *)((char *)__mptr - (signed long int)40ul);
-  os = tmp_statement_expression$1;
-  struct list_head *return_value_os_notify_tbl_head$3;
-  struct ossp_stream *tmp_statement_expression$4;
+  struct list_head *return_value_os_notify_tbl_head_2;
+  return_value_os_notify_tbl_head_2=os_notify_tbl_head(notify_rx);
+  __mptr = return_value_os_notify_tbl_head_2->next;
+  tmp_statement_expression_1 = (struct ossp_stream *)((char *)__mptr - (signed long int)40ul);
+  os = tmp_statement_expression_1;
+  struct list_head *return_value_os_notify_tbl_head_3;
+  struct ossp_stream *tmp_statement_expression_4;
   do
   {
-    return_value_os_notify_tbl_head$3=os_notify_tbl_head(notify_rx);
-    if(&os->notify_link == return_value_os_notify_tbl_head$3)
+    return_value_os_notify_tbl_head_3=os_notify_tbl_head(notify_rx);
+    if(&os->notify_link == return_value_os_notify_tbl_head_3)
       break;
 
     if(os->notify_rx == notify_rx)
@@ -3412,9 +3412,9 @@ static struct ossp_stream * find_os_by_notify_rx(signed int notify_rx)
       break;
     }
 
-    const struct list_head *find_os_by_notify_rx$$1$$1$$2$$__mptr = os->notify_link.next;
-    tmp_statement_expression$4 = (struct ossp_stream *)((char *)find_os_by_notify_rx$$1$$1$$2$$__mptr - (signed long int)40ul);
-    os = tmp_statement_expression$4;
+    const struct list_head *find_os_by_notify_rx__1__1__2____mptr = os->notify_link.next;
+    tmp_statement_expression_4 = (struct ossp_stream *)((char *)find_os_by_notify_rx__1__1__2____mptr - (signed long int)40ul);
+    os = tmp_statement_expression_4;
   }
   while((_Bool)1);
   pthread_mutex_unlock(&mutex);
@@ -3434,19 +3434,19 @@ static void finish_mixer_cmd(struct ossp_mixer_cmd *mxcmd)
   signed int j;
   pthread_mutex_lock(&mixer_mutex);
   pthread_mutex_lock(&mutex);
-  struct ossp_stream *tmp_statement_expression$1;
+  struct ossp_stream *tmp_statement_expression_1;
   const struct list_head *__mptr;
-  struct list_head *return_value_os_pgrp_tbl_head$2;
-  return_value_os_pgrp_tbl_head$2=os_pgrp_tbl_head(mixer->pgrp);
-  __mptr = return_value_os_pgrp_tbl_head$2->next;
-  tmp_statement_expression$1 = (struct ossp_stream *)((char *)__mptr - (signed long int)24ul);
-  os = tmp_statement_expression$1;
-  struct list_head *return_value_os_pgrp_tbl_head$3;
-  struct ossp_stream *tmp_statement_expression$4;
+  struct list_head *return_value_os_pgrp_tbl_head_2;
+  return_value_os_pgrp_tbl_head_2=os_pgrp_tbl_head(mixer->pgrp);
+  __mptr = return_value_os_pgrp_tbl_head_2->next;
+  tmp_statement_expression_1 = (struct ossp_stream *)((char *)__mptr - (signed long int)24ul);
+  os = tmp_statement_expression_1;
+  struct list_head *return_value_os_pgrp_tbl_head_3;
+  struct ossp_stream *tmp_statement_expression_4;
   do
   {
-    return_value_os_pgrp_tbl_head$3=os_pgrp_tbl_head(mixer->pgrp);
-    if(&os->pgrp_link == return_value_os_pgrp_tbl_head$3)
+    return_value_os_pgrp_tbl_head_3=os_pgrp_tbl_head(mixer->pgrp);
+    if(&os->pgrp_link == return_value_os_pgrp_tbl_head_3)
       break;
 
     if(os->pgrp == mixer->pgrp)
@@ -3467,16 +3467,16 @@ static void finish_mixer_cmd(struct ossp_mixer_cmd *mxcmd)
       }
     }
 
-    const struct list_head *finish_mixer_cmd$$1$$1$$2$$__mptr = os->pgrp_link.next;
-    tmp_statement_expression$4 = (struct ossp_stream *)((char *)finish_mixer_cmd$$1$$1$$2$$__mptr - (signed long int)24ul);
-    os = tmp_statement_expression$4;
+    const struct list_head *finish_mixer_cmd__1__1__2____mptr = os->pgrp_link.next;
+    tmp_statement_expression_4 = (struct ossp_stream *)((char *)finish_mixer_cmd__1__1__2____mptr - (signed long int)24ul);
+    os = tmp_statement_expression_4;
   }
   while((_Bool)1);
   pthread_mutex_unlock(&mutex);
   i = 0;
   j = 0;
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$6;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_6;
   for( ; !(i >= 2); j = j & 1)
   {
     if(mxcmd->set.vol[(signed long int)i][(signed long int)j] >= 0)
@@ -3496,12 +3496,12 @@ static void finish_mixer_cmd(struct ossp_mixer_cmd *mxcmd)
     signed int _max1 = 0;
     signed int _max2 = vol[(signed long int)i][(signed long int)j];
     (void)(&_max1 == &_max2);
-    tmp_statement_expression$6 = _max1 > _max2 ? _max1 : _max2;
-    _min1 = tmp_statement_expression$6;
+    tmp_statement_expression_6 = _max1 > _max2 ? _max1 : _max2;
+    _min1 = tmp_statement_expression_6;
     signed int _min2 = 100;
     (void)(&_min1 == &_min2);
-    tmp_statement_expression$5 = _min1 < _min2 ? _min1 : _min2;
-    vol[(signed long int)i][(signed long int)j] = tmp_statement_expression$5;
+    tmp_statement_expression_5 = _min1 < _min2 ? _min1 : _min2;
+    vol[(signed long int)i][(signed long int)j] = tmp_statement_expression_5;
     j = j + (i << 1);
     j = j + 1;
     i = j >> 1;
@@ -3521,9 +3521,9 @@ static struct ossp_mixer * get_mixer(signed int pgrp)
   mixer=find_mixer_locked(pgrp);
   if(!(mixer == ((struct ossp_mixer *)NULL)))
   {
-    signed int return_value_list_empty$1;
-    return_value_list_empty$1=list_empty(&mixer->delayed_put_link);
-    if(!(return_value_list_empty$1 == 0))
+    signed int return_value_list_empty_1;
+    return_value_list_empty_1=list_empty(&mixer->delayed_put_link);
+    if(!(return_value_list_empty_1 == 0))
       mixer->refcnt = mixer->refcnt + 1u;
 
     else
@@ -3531,26 +3531,26 @@ static struct ossp_mixer * get_mixer(signed int pgrp)
     goto out_unlock;
   }
 
-  signed int return_value_list_empty$2;
-  struct ossp_mixer *tmp_statement_expression$3;
+  signed int return_value_list_empty_2;
+  struct ossp_mixer *tmp_statement_expression_3;
   while(!(2u * max_streams >= nr_mixers))
   {
-    return_value_list_empty$2=list_empty(&mixer_delayed_put_head);
-    if(!(return_value_list_empty$2 == 0))
+    return_value_list_empty_2=list_empty(&mixer_delayed_put_head);
+    if(!(return_value_list_empty_2 == 0))
       break;
 
-    struct ossp_mixer *get_mixer$$1$$2$$mixer;
+    struct ossp_mixer *get_mixer__1__2__mixer;
     const struct list_head *__mptr = (&mixer_delayed_put_head)->next;
-    tmp_statement_expression$3 = (struct ossp_mixer *)((char *)__mptr - (signed long int)24ul);
-    get_mixer$$1$$2$$mixer = tmp_statement_expression$3;
+    tmp_statement_expression_3 = (struct ossp_mixer *)((char *)__mptr - (signed long int)24ul);
+    get_mixer__1__2__mixer = tmp_statement_expression_3;
     /* assertion mixer->refcnt == 1 */
-    assert(get_mixer$$1$$2$$mixer->refcnt == (unsigned int)1);
-    put_mixer_real(get_mixer$$1$$2$$mixer);
+    assert(get_mixer__1__2__mixer->refcnt == (unsigned int)1);
+    put_mixer_real(get_mixer__1__2__mixer);
   }
-  void *return_value_calloc$4;
-  return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct ossp_mixer) /*72ul*/ );
-  mixer = (struct ossp_mixer *)return_value_calloc$4;
-  struct list_head *return_value_mixer_tbl_head$5;
+  void *return_value_calloc_4;
+  return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct ossp_mixer) /*72ul*/ );
+  mixer = (struct ossp_mixer *)return_value_calloc_4;
+  struct list_head *return_value_mixer_tbl_head_5;
   if(mixer == ((struct ossp_mixer *)NULL))
   {
     log_msg(3, "failed to allocate mixer for %d", pgrp);
@@ -3564,8 +3564,8 @@ static struct ossp_mixer * get_mixer(signed int pgrp)
     INIT_LIST_HEAD(&mixer->delayed_put_link);
     mixer->refcnt = (unsigned int)1;
     memset((void *)mixer->vol, -1, sizeof(signed int [2l][2l]) /*16ul*/ );
-    return_value_mixer_tbl_head$5=mixer_tbl_head(pgrp);
-    list_add(&mixer->link, return_value_mixer_tbl_head$5);
+    return_value_mixer_tbl_head_5=mixer_tbl_head(pgrp);
+    list_add(&mixer->link, return_value_mixer_tbl_head_5);
     nr_mixers = nr_mixers + 1u;
     log_msg(5, "CREATE mixer(%d)", pgrp);
   }
@@ -3595,16 +3595,16 @@ signed int get_proc_self_info(signed int pid, signed int *ppid_r, char *cmd_buf,
   fd=open(path, 00);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    rc = -(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    rc = -(*return_value___errno_location_1);
     goto out;
   }
 
   ret=read(fd, (void *)buf, sizeof(char [4096l]) /*4096ul*/ );
-  unsigned long int return_value_strtoul$2;
-  _Bool tmp_if_expr$3;
-  unsigned long int tmp_statement_expression$4;
+  unsigned long int return_value_strtoul_2;
+  _Bool tmp_if_expr_3;
+  unsigned long int tmp_statement_expression_4;
   if(ret >= 0l)
   {
     if((unsigned long int)ret == sizeof(char [4096l]) /*4096ul*/ )
@@ -3629,14 +3629,14 @@ signed int get_proc_self_info(signed int pid, signed int *ppid_r, char *cmd_buf,
 
           ppid_start = ppid_start + 1l;
         }
-        return_value_strtoul$2=strtoul(ppid_start, &end, 10);
-        ppid = (signed int)return_value_strtoul$2;
+        return_value_strtoul_2=strtoul(ppid_start, &end, 10);
+        ppid = (signed int)return_value_strtoul_2;
         if(end == ppid_start)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)*end != 32 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (signed int)*end != 32 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_3)
         {
           if(!(ppid_r == ((signed int *)NULL)))
             *ppid_r = ppid;
@@ -3646,8 +3646,8 @@ signed int get_proc_self_info(signed int pid, signed int *ppid_r, char *cmd_buf,
             unsigned long int len;
             unsigned long int __min1 = (unsigned long int)(cmd_end - cmd_start);
             unsigned long int __min2 = cmd_buf_sz - (unsigned long int)1;
-            tmp_statement_expression$4 = __min1 < __min2 ? __min1 : __min2;
-            len = tmp_statement_expression$4;
+            tmp_statement_expression_4 = __min1 < __min2 ? __min1 : __min2;
+            len = tmp_statement_expression_4;
             memcpy((void *)cmd_buf, (const void *)cmd_start, len);
             cmd_buf[(signed long int)len] = (char)0;
           }
@@ -3758,10 +3758,10 @@ void log_msg(signed int severity, const char *fmt, ...)
   unsigned long int len = sizeof(char [1024l]) /*1024ul*/ ;
   unsigned long int off = (unsigned long int)0;
   void **ap;
-  signed int return_value_abs$1;
-  return_value_abs$1=abs(ossp_log_level);
-  signed int return_value_snprintf$4;
-  if(return_value_abs$1 >= severity)
+  signed int return_value_abs_1;
+  return_value_abs_1=abs(ossp_log_level);
+  signed int return_value_snprintf_4;
+  if(return_value_abs_1 >= severity)
   {
     static signed int syslog_opened = 0;
     if(syslog_opened == 0 && !(ossp_log_level >= 0))
@@ -3779,9 +3779,9 @@ void log_msg(signed int severity, const char *fmt, ...)
       if(start == 0ul)
         start = now;
 
-      signed int return_value_snprintf$2;
-      return_value_snprintf$2=snprintf(buf + (signed long int)off, len - off, "<%08lu> ", now - start);
-      off = off + (unsigned long int)return_value_snprintf$2;
+      signed int return_value_snprintf_2;
+      return_value_snprintf_2=snprintf(buf + (signed long int)off, len - off, "<%08lu> ", now - start);
+      off = off + (unsigned long int)return_value_snprintf_2;
     }
 
     if(ossp_log_level >= 1)
@@ -3790,26 +3790,26 @@ void log_msg(signed int severity, const char *fmt, ...)
       if(!(severity_strs[(signed long int)severity] == ((const char *)NULL)))
         snprintf(sev_buf, sizeof(char [16l]) /*16ul*/ , " %s", severity_strs[(signed long int)severity]);
 
-      signed int return_value_snprintf$3;
-      return_value_snprintf$3=snprintf(buf + (signed long int)off, len - off, "%s%s: ", (const void *)ossp_log_name, (const void *)sev_buf);
-      off = off + (unsigned long int)return_value_snprintf$3;
+      signed int return_value_snprintf_3;
+      return_value_snprintf_3=snprintf(buf + (signed long int)off, len - off, "%s%s: ", (const void *)ossp_log_name, (const void *)sev_buf);
+      off = off + (unsigned long int)return_value_snprintf_3;
     }
 
     else
       if(!(severity_strs[(signed long int)severity] == ((const char *)NULL)))
       {
-        return_value_snprintf$4=snprintf(buf + (signed long int)off, len - off, "%s ", severity_strs[(signed long int)severity]);
-        off = off + (unsigned long int)return_value_snprintf$4;
+        return_value_snprintf_4=snprintf(buf + (signed long int)off, len - off, "%s ", severity_strs[(signed long int)severity]);
+        off = off + (unsigned long int)return_value_snprintf_4;
       }
 
     ap = (void **)&fmt;
-    signed int return_value_vsnprintf$5;
-    return_value_vsnprintf$5=vsnprintf(buf + (signed long int)off, len - off, fmt, ap);
-    off = off + (unsigned long int)return_value_vsnprintf$5;
+    signed int return_value_vsnprintf_5;
+    return_value_vsnprintf_5=vsnprintf(buf + (signed long int)off, len - off, fmt, ap);
+    off = off + (unsigned long int)return_value_vsnprintf_5;
     ap = ((void **)NULL);
-    signed int return_value_snprintf$6;
-    return_value_snprintf$6=snprintf(buf + (signed long int)off, len - off, "\n");
-    off = off + (unsigned long int)return_value_snprintf$6;
+    signed int return_value_snprintf_6;
+    return_value_snprintf_6=snprintf(buf + (signed long int)off, len - off, "\n");
+    off = off + (unsigned long int)return_value_snprintf_6;
     if(ossp_log_level >= 1)
       fputs(buf, stderr);
 
@@ -3840,9 +3840,9 @@ signed int main(signed int argc, char **argv)
     .exit_on_idle=0, .timestamp=0, .fg=0,
     .help=0 };
   param.log_level = (unsigned int)ossp_log_level;
-  signed int return_value_fuse_opt_parse$1;
-  return_value_fuse_opt_parse$1=fuse_opt_parse(&args, (void *)&param, ossp_opts, process_arg);
-  if(!(return_value_fuse_opt_parse$1 == 0))
+  signed int return_value_fuse_opt_parse_1;
+  return_value_fuse_opt_parse_1=fuse_opt_parse(&args, (void *)&param, ossp_opts, process_arg);
+  if(!(return_value_fuse_opt_parse_1 == 0))
     do
     {
       log_msg(1, "failed to parse arguments");
@@ -3850,8 +3850,8 @@ signed int main(signed int argc, char **argv)
     }
     while((_Bool)0);
 
-  char *return_value_strerror$28;
-  char *return_value_strerror$30;
+  char *return_value_strerror_28;
+  char *return_value_strerror_30;
   if(!(param.help == 0))
     return 0;
 
@@ -3878,16 +3878,16 @@ signed int main(signed int argc, char **argv)
     log_msg(4, "OSS Proxy v%s (C) 2008-2010 by Tejun Heo <teheo@suse.de>", (const void *)"1.3.2");
     memset((void *)&sa, 0, sizeof(struct sigaction) /*152ul*/ );
     sa.__sigaction_handler.sa_handler = (void (*)(signed int))1;
-    signed int return_value_sigaction$4;
-    return_value_sigaction$4=sigaction(13, &sa, (struct sigaction *)(void *)0);
-    if(!(return_value_sigaction$4 == 0))
+    signed int return_value_sigaction_4;
+    return_value_sigaction_4=sigaction(13, &sa, (struct sigaction *)(void *)0);
+    if(!(return_value_sigaction_4 == 0))
       do
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(-(-(*return_value___errno_location$2)));
-        log_msg(1, "failed to ignore SIGPIPE (%s)", return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(-(-(*return_value___errno_location_2)));
+        log_msg(1, "failed to ignore SIGPIPE (%s)", return_value_strerror_3);
         _exit(1);
       }
       while((_Bool)0);
@@ -3900,9 +3900,9 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      signed int return_value_snprintf$5;
-      return_value_snprintf$5=snprintf(dsp_slave_path, (unsigned long int)4096, "%s/%s", (const void *)"/usr/lib/osspd", (const void *)"ossp-padsp");
-      ret = (signed long int)return_value_snprintf$5;
+      signed int return_value_snprintf_5;
+      return_value_snprintf_5=snprintf(dsp_slave_path, (unsigned long int)4096, "%s/%s", (const void *)"/usr/lib/osspd", (const void *)"ossp-padsp");
+      ret = (signed long int)return_value_snprintf_5;
       if(ret >= 4096l)
         do
         {
@@ -3912,16 +3912,16 @@ signed int main(signed int argc, char **argv)
         while((_Bool)0);
 
     }
-    signed int return_value_stat$8;
-    return_value_stat$8=stat(dsp_slave_path, &stat_buf);
-    if(!(return_value_stat$8 == 0))
+    signed int return_value_stat_8;
+    return_value_stat_8=stat(dsp_slave_path, &stat_buf);
+    if(!(return_value_stat_8 == 0))
       do
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(-(-(*return_value___errno_location$6)));
-        log_msg(1, "failed to stat %s (%s)", (const void *)dsp_slave_path, return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(-(-(*return_value___errno_location_6)));
+        log_msg(1, "failed to stat %s (%s)", (const void *)dsp_slave_path, return_value_strerror_7);
         _exit(1);
       }
       while((_Bool)0);
@@ -3934,21 +3934,21 @@ signed int main(signed int argc, char **argv)
       }
       while((_Bool)0);
 
-    void *return_value_calloc$9;
-    return_value_calloc$9=calloc((((unsigned long int)max_streams + (unsigned long int)8 * sizeof(signed long int) /*8ul*/ ) - (unsigned long int)1) / ((unsigned long int)8 * sizeof(signed long int) /*8ul*/ ), sizeof(signed long int) /*8ul*/ );
-    os_id_bitmap = (unsigned long int *)return_value_calloc$9;
-    void *return_value_calloc$10;
-    return_value_calloc$10=calloc((unsigned long int)hashtbl_size, sizeof(struct list_head) /*16ul*/ );
-    mixer_tbl = (struct list_head *)return_value_calloc$10;
-    void *return_value_calloc$11;
-    return_value_calloc$11=calloc((unsigned long int)hashtbl_size, sizeof(struct list_head) /*16ul*/ );
-    os_tbl = (struct list_head *)return_value_calloc$11;
-    void *return_value_calloc$12;
-    return_value_calloc$12=calloc((unsigned long int)hashtbl_size, sizeof(struct list_head) /*16ul*/ );
-    os_pgrp_tbl = (struct list_head *)return_value_calloc$12;
-    void *return_value_calloc$13;
-    return_value_calloc$13=calloc((unsigned long int)hashtbl_size, sizeof(struct list_head) /*16ul*/ );
-    os_notify_tbl = (struct list_head *)return_value_calloc$13;
+    void *return_value_calloc_9;
+    return_value_calloc_9=calloc((((unsigned long int)max_streams + (unsigned long int)8 * sizeof(signed long int) /*8ul*/ ) - (unsigned long int)1) / ((unsigned long int)8 * sizeof(signed long int) /*8ul*/ ), sizeof(signed long int) /*8ul*/ );
+    os_id_bitmap = (unsigned long int *)return_value_calloc_9;
+    void *return_value_calloc_10;
+    return_value_calloc_10=calloc((unsigned long int)hashtbl_size, sizeof(struct list_head) /*16ul*/ );
+    mixer_tbl = (struct list_head *)return_value_calloc_10;
+    void *return_value_calloc_11;
+    return_value_calloc_11=calloc((unsigned long int)hashtbl_size, sizeof(struct list_head) /*16ul*/ );
+    os_tbl = (struct list_head *)return_value_calloc_11;
+    void *return_value_calloc_12;
+    return_value_calloc_12=calloc((unsigned long int)hashtbl_size, sizeof(struct list_head) /*16ul*/ );
+    os_pgrp_tbl = (struct list_head *)return_value_calloc_12;
+    void *return_value_calloc_13;
+    return_value_calloc_13=calloc((unsigned long int)hashtbl_size, sizeof(struct list_head) /*16ul*/ );
+    os_notify_tbl = (struct list_head *)return_value_calloc_13;
     if(mixer_tbl == ((struct list_head *)NULL) || os_notify_tbl == ((struct list_head *)NULL) || os_pgrp_tbl == ((struct list_head *)NULL) || os_tbl == ((struct list_head *)NULL) || os_id_bitmap == ((unsigned long int *)NULL))
       do
       {
@@ -3966,15 +3966,15 @@ signed int main(signed int argc, char **argv)
       INIT_LIST_HEAD(&os_notify_tbl[(signed long int)u]);
     }
     __set_bit(0, os_id_bitmap);
-    signed int return_value_pthread_create$14;
-    return_value_pthread_create$14=pthread_create(&mixer_delayed_put_thread, (const union pthread_attr_t *)(void *)0, mixer_delayed_put_worker, (void *)0);
-    ret = (signed long int)-return_value_pthread_create$14;
+    signed int return_value_pthread_create_14;
+    return_value_pthread_create_14=pthread_create(&mixer_delayed_put_thread, (const union pthread_attr_t *)(void *)0, mixer_delayed_put_worker, (void *)0);
+    ret = (signed long int)-return_value_pthread_create_14;
     if(!(ret == 0l))
       do
       {
-        char *return_value_strerror$15;
-        return_value_strerror$15=strerror((signed int)-ret);
-        log_msg(1, "failed to create mixer delayed put worker (%s)", return_value_strerror$15);
+        char *return_value_strerror_15;
+        return_value_strerror_15=strerror((signed int)-ret);
+        log_msg(1, "failed to create mixer delayed put worker (%s)", return_value_strerror_15);
         _exit(1);
       }
       while((_Bool)0);
@@ -3999,63 +3999,63 @@ signed int main(signed int argc, char **argv)
     if(!(notify_epfd >= 0))
       do
       {
-        signed int *return_value___errno_location$16;
-        return_value___errno_location$16=__errno_location();
-        char *return_value_strerror$17;
-        return_value_strerror$17=strerror(-(-(*return_value___errno_location$16)));
-        log_msg(1, "failed to create notify epoll (%s)", return_value_strerror$17);
+        signed int *return_value___errno_location_16;
+        return_value___errno_location_16=__errno_location();
+        char *return_value_strerror_17;
+        return_value_strerror_17=strerror(-(-(*return_value___errno_location_16)));
+        log_msg(1, "failed to create notify epoll (%s)", return_value_strerror_17);
         _exit(1);
       }
       while((_Bool)0);
 
-    signed int return_value_fcntl$20;
-    return_value_fcntl$20=fcntl(notify_epfd, 2, 1);
-    if(!(return_value_fcntl$20 >= 0))
+    signed int return_value_fcntl_20;
+    return_value_fcntl_20=fcntl(notify_epfd, 2, 1);
+    if(!(return_value_fcntl_20 >= 0))
       do
       {
-        signed int *return_value___errno_location$18;
-        return_value___errno_location$18=__errno_location();
-        char *return_value_strerror$19;
-        return_value_strerror$19=strerror(-(-(*return_value___errno_location$18)));
-        log_msg(1, "failed to set CLOEXEC on notify epfd (%s)", return_value_strerror$19);
+        signed int *return_value___errno_location_18;
+        return_value___errno_location_18=__errno_location();
+        char *return_value_strerror_19;
+        return_value_strerror_19=strerror(-(-(*return_value___errno_location_18)));
+        log_msg(1, "failed to set CLOEXEC on notify epfd (%s)", return_value_strerror_19);
         _exit(1);
       }
       while((_Bool)0);
 
-    signed int return_value_pthread_create$21;
-    return_value_pthread_create$21=pthread_create(&notify_poller_thread, (const union pthread_attr_t *)(void *)0, notify_poller, (void *)0);
-    ret = (signed long int)-return_value_pthread_create$21;
+    signed int return_value_pthread_create_21;
+    return_value_pthread_create_21=pthread_create(&notify_poller_thread, (const union pthread_attr_t *)(void *)0, notify_poller, (void *)0);
+    ret = (signed long int)-return_value_pthread_create_21;
     if(!(ret == 0l))
       do
       {
-        char *return_value_strerror$22;
-        return_value_strerror$22=strerror((signed int)-ret);
-        log_msg(1, "failed to create notify poller thread (%s)", return_value_strerror$22);
+        char *return_value_strerror_22;
+        return_value_strerror_22=strerror((signed int)-ret);
+        log_msg(1, "failed to create notify poller thread (%s)", return_value_strerror_22);
         _exit(1);
       }
       while((_Bool)0);
 
-    signed int return_value_pthread_create$23;
-    return_value_pthread_create$23=pthread_create(&slave_reaper_thread, (const union pthread_attr_t *)(void *)0, slave_reaper, (void *)0);
-    ret = (signed long int)-return_value_pthread_create$23;
+    signed int return_value_pthread_create_23;
+    return_value_pthread_create_23=pthread_create(&slave_reaper_thread, (const union pthread_attr_t *)(void *)0, slave_reaper, (void *)0);
+    ret = (signed long int)-return_value_pthread_create_23;
     if(!(ret == 0l))
       do
       {
-        char *return_value_strerror$24;
-        return_value_strerror$24=strerror((signed int)-ret);
-        log_msg(1, "failed to create slave reaper thread (%s)", return_value_strerror$24);
+        char *return_value_strerror_24;
+        return_value_strerror_24=strerror((signed int)-ret);
+        log_msg(1, "failed to create slave reaper thread (%s)", return_value_strerror_24);
         _exit(1);
       }
       while((_Bool)0);
 
-    unsigned long int return_value_strlen$25;
-    return_value_strlen$25=strlen(param.mixer_name);
-    if(!(return_value_strlen$25 == 0ul))
+    unsigned long int return_value_strlen_25;
+    return_value_strlen_25=strlen(param.mixer_name);
+    if(!(return_value_strlen_25 == 0ul))
       mixer_se=setup_ossp_cuse(&mixer_ops, param.mixer_name, (signed int)param.mixer_major, (signed int)param.mixer_minor, args.argc, args.argv);
 
-    unsigned long int return_value_strlen$26;
-    return_value_strlen$26=strlen(param.adsp_name);
-    if(!(return_value_strlen$26 == 0ul))
+    unsigned long int return_value_strlen_26;
+    return_value_strlen_26=strlen(param.adsp_name);
+    if(!(return_value_strlen_26 == 0ul))
       adsp_se=setup_ossp_cuse(&dsp_ops, param.adsp_name, (signed int)param.adsp_major, (signed int)param.adsp_minor, args.argc, args.argv);
 
     dsp_se=setup_ossp_cuse(&dsp_ops, param.dsp_name, (signed int)param.dsp_major, (signed int)param.dsp_minor, args.argc, args.argv);
@@ -4076,33 +4076,33 @@ signed int main(signed int argc, char **argv)
     log_msg(4, "Creating %s (%d:%d)%s%s", param.dsp_name, param.dsp_major, param.dsp_minor, (const void *)adsp_buf, (const void *)mixer_buf);
     if(!(mixer_se == ((struct fuse_session *)NULL)))
     {
-      signed int return_value_pthread_create$27;
-      return_value_pthread_create$27=pthread_create(&cuse_mixer_thread, (const union pthread_attr_t *)(void *)0, cuse_worker, (void *)mixer_se);
-      ret = (signed long int)-return_value_pthread_create$27;
+      signed int return_value_pthread_create_27;
+      return_value_pthread_create_27=pthread_create(&cuse_mixer_thread, (const union pthread_attr_t *)(void *)0, cuse_worker, (void *)mixer_se);
+      ret = (signed long int)-return_value_pthread_create_27;
       if(!(ret == 0l))
       {
-        return_value_strerror$28=strerror((signed int)-ret);
-        log_msg(2, "failed to create mixer worker (%s)", return_value_strerror$28);
+        return_value_strerror_28=strerror((signed int)-ret);
+        log_msg(2, "failed to create mixer worker (%s)", return_value_strerror_28);
       }
 
     }
 
     if(!(adsp_se == ((struct fuse_session *)NULL)))
     {
-      signed int return_value_pthread_create$29;
-      return_value_pthread_create$29=pthread_create(&cuse_adsp_thread, (const union pthread_attr_t *)(void *)0, cuse_worker, (void *)adsp_se);
-      ret = (signed long int)-return_value_pthread_create$29;
+      signed int return_value_pthread_create_29;
+      return_value_pthread_create_29=pthread_create(&cuse_adsp_thread, (const union pthread_attr_t *)(void *)0, cuse_worker, (void *)adsp_se);
+      ret = (signed long int)-return_value_pthread_create_29;
       if(!(ret == 0l))
       {
-        return_value_strerror$30=strerror((signed int)-ret);
-        log_msg(2, "failed to create adsp worker (%s)", return_value_strerror$30);
+        return_value_strerror_30=strerror((signed int)-ret);
+        log_msg(2, "failed to create adsp worker (%s)", return_value_strerror_30);
       }
 
     }
 
-    void *return_value_cuse_worker$31;
-    return_value_cuse_worker$31=cuse_worker((void *)dsp_se);
-    ret = (signed long int)return_value_cuse_worker$31;
+    void *return_value_cuse_worker_31;
+    return_value_cuse_worker_31=cuse_worker((void *)dsp_se);
+    ret = (signed long int)return_value_cuse_worker_31;
     if(!(ret >= 0l))
       do
       {
@@ -4123,8 +4123,8 @@ static void * mixer_delayed_put_worker(void *arg)
   struct timespec ts;
   signed long int now;
   pthread_mutex_lock(&mutex);
-  signed int return_value_list_empty$1;
-  struct ossp_mixer *tmp_statement_expression$2;
+  signed int return_value_list_empty_1;
+  struct ossp_mixer *tmp_statement_expression_2;
   do
   {
 
@@ -4135,13 +4135,13 @@ static void * mixer_delayed_put_worker(void *arg)
     mixer = (struct ossp_mixer *)(void *)0;
     do
     {
-      return_value_list_empty$1=list_empty(&mixer_delayed_put_head);
-      if(!(return_value_list_empty$1 == 0))
+      return_value_list_empty_1=list_empty(&mixer_delayed_put_head);
+      if(!(return_value_list_empty_1 == 0))
         break;
 
       const struct list_head *__mptr = (&mixer_delayed_put_head)->next;
-      tmp_statement_expression$2 = (struct ossp_mixer *)((char *)__mptr - (signed long int)24ul);
-      mixer = tmp_statement_expression$2;
+      tmp_statement_expression_2 = (struct ossp_mixer *)((char *)__mptr - (signed long int)24ul);
+      mixer = tmp_statement_expression_2;
       if(mixer->put_expires >= now)
         break;
 
@@ -4177,11 +4177,11 @@ static void mixer_do_ioctl(struct fuse_req *req, struct ossp_mixer *mixer, unsig
   signed int i;
   signed int rc;
   mixer_simple_ioctl(req, mixer, cmd, uarg, in_buf, in_bufsz, out_bufsz, &not_mine);
-  void *return_value_calloc$3;
-  struct ossp_stream *tmp_statement_expression$4;
-  struct list_head *return_value_os_pgrp_tbl_head$6;
-  signed int tmp_post$8;
-  struct ossp_stream *tmp_statement_expression$7;
+  void *return_value_calloc_3;
+  struct ossp_stream *tmp_statement_expression_4;
+  struct list_head *return_value_os_pgrp_tbl_head_6;
+  signed int tmp_post_8;
+  struct ossp_stream *tmp_statement_expression_7;
   if(!(not_mine == 0))
   {
     rc = -6;
@@ -4190,9 +4190,9 @@ static void mixer_do_ioctl(struct fuse_req *req, struct ossp_mixer *mixer, unsig
       if(!((1073741824u & cmd) == 0u))
         do
         {
-          signed int return_value_ioctl_prep_uarg$1;
-          return_value_ioctl_prep_uarg$1=ioctl_prep_uarg(req, (void *)&i, sizeof(signed int) /*4ul*/ , (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-          if(!(return_value_ioctl_prep_uarg$1 == 0))
+          signed int return_value_ioctl_prep_uarg_1;
+          return_value_ioctl_prep_uarg_1=ioctl_prep_uarg(req, (void *)&i, sizeof(signed int) /*4ul*/ , (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+          if(!(return_value_ioctl_prep_uarg_1 == 0))
             goto __CPROVER_DUMP_L25;
 
         }
@@ -4201,9 +4201,9 @@ static void mixer_do_ioctl(struct fuse_req *req, struct ossp_mixer *mixer, unsig
       else
         do
         {
-          signed int return_value_ioctl_prep_uarg$2;
-          return_value_ioctl_prep_uarg$2=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-          if(!(return_value_ioctl_prep_uarg$2 == 0))
+          signed int return_value_ioctl_prep_uarg_2;
+          return_value_ioctl_prep_uarg_2=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+          if(!(return_value_ioctl_prep_uarg_2 == 0))
             goto __CPROVER_DUMP_L25;
 
         }
@@ -4246,8 +4246,8 @@ static void mixer_do_ioctl(struct fuse_req *req, struct ossp_mixer *mixer, unsig
 
       mxcmd.out_dir = dir;
       pthread_mutex_lock(&mutex);
-      return_value_calloc$3=calloc((unsigned long int)max_streams, sizeof(struct ossp_stream *) /*8ul*/ );
-      osa = (struct ossp_stream **)return_value_calloc$3;
+      return_value_calloc_3=calloc((unsigned long int)max_streams, sizeof(struct ossp_stream *) /*8ul*/ );
+      osa = (struct ossp_stream **)return_value_calloc_3;
       if(osa == ((struct ossp_stream **)NULL))
       {
         pthread_mutex_unlock(&mutex);
@@ -4258,28 +4258,28 @@ static void mixer_do_ioctl(struct fuse_req *req, struct ossp_mixer *mixer, unsig
       {
         nr_os = 0;
         const struct list_head *__mptr;
-        struct list_head *return_value_os_pgrp_tbl_head$5;
-        return_value_os_pgrp_tbl_head$5=os_pgrp_tbl_head(mixer->pgrp);
-        __mptr = return_value_os_pgrp_tbl_head$5->next;
-        tmp_statement_expression$4 = (struct ossp_stream *)((char *)__mptr - (signed long int)24ul);
-        os = tmp_statement_expression$4;
+        struct list_head *return_value_os_pgrp_tbl_head_5;
+        return_value_os_pgrp_tbl_head_5=os_pgrp_tbl_head(mixer->pgrp);
+        __mptr = return_value_os_pgrp_tbl_head_5->next;
+        tmp_statement_expression_4 = (struct ossp_stream *)((char *)__mptr - (signed long int)24ul);
+        os = tmp_statement_expression_4;
         do
         {
-          return_value_os_pgrp_tbl_head$6=os_pgrp_tbl_head(mixer->pgrp);
-          if(&os->pgrp_link == return_value_os_pgrp_tbl_head$6)
+          return_value_os_pgrp_tbl_head_6=os_pgrp_tbl_head(mixer->pgrp);
+          if(&os->pgrp_link == return_value_os_pgrp_tbl_head_6)
             break;
 
           if(os->pgrp == mixer->pgrp)
           {
-            tmp_post$8 = nr_os;
+            tmp_post_8 = nr_os;
             nr_os = nr_os + 1;
-            osa[(signed long int)tmp_post$8] = os;
+            osa[(signed long int)tmp_post_8] = os;
             os->refcnt = os->refcnt + 1u;
           }
 
-          const struct list_head *mixer_do_ioctl$$1$$6$$2$$__mptr = os->pgrp_link.next;
-          tmp_statement_expression$7 = (struct ossp_stream *)((char *)mixer_do_ioctl$$1$$6$$2$$__mptr - (signed long int)24ul);
-          os = tmp_statement_expression$7;
+          const struct list_head *mixer_do_ioctl__1__6__2____mptr = os->pgrp_link.next;
+          tmp_statement_expression_7 = (struct ossp_stream *)((char *)mixer_do_ioctl__1__6__2____mptr - (signed long int)24ul);
+          os = tmp_statement_expression_7;
         }
         while((_Bool)1);
         pthread_mutex_unlock(&mutex);
@@ -4329,18 +4329,18 @@ static void mixer_ioctl(struct fuse_req *req, signed int signed_cmd, void *uarg,
 static void mixer_open(struct fuse_req *req, struct fuse_file_info *fi)
 {
   signed int pid;
-  struct fuse_ctx *return_value_fuse_req_ctx$1;
-  return_value_fuse_req_ctx$1=fuse_req_ctx(req);
-  pid = return_value_fuse_req_ctx$1->pid;
+  struct fuse_ctx *return_value_fuse_req_ctx_1;
+  return_value_fuse_req_ctx_1=fuse_req_ctx(req);
+  pid = return_value_fuse_req_ctx_1->pid;
   signed int pgrp;
   struct ossp_mixer *mixer;
   signed int rc;
   rc=get_proc_self_info(pid, &pgrp, (char *)(void *)0, (unsigned long int)0);
   if(!(rc == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(-rc);
-    log_msg(2, "get_proc_self_info(%d) failed (%s)", pid, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(-rc);
+    log_msg(2, "get_proc_self_info(%d) failed (%s)", pid, return_value_strerror_2);
     fuse_reply_err(req, -rc);
     goto __CPROVER_DUMP_L4;
   }
@@ -4409,9 +4409,9 @@ static void mixer_simple_ioctl(struct fuse_req *req, struct ossp_mixer *mixer, u
     .fillers={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
     do
     {
-      signed int return_value_ioctl_prep_uarg$1;
-      return_value_ioctl_prep_uarg$1=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&info, sizeof(struct mixer_info) /*92ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-      if(!(return_value_ioctl_prep_uarg$1 == 0))
+      signed int return_value_ioctl_prep_uarg_1;
+      return_value_ioctl_prep_uarg_1=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&info, sizeof(struct mixer_info) /*92ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+      if(!(return_value_ioctl_prep_uarg_1 == 0))
         goto __CPROVER_DUMP_L26;
 
     }
@@ -4424,19 +4424,19 @@ static void mixer_simple_ioctl(struct fuse_req *req, struct ossp_mixer *mixer, u
 
   __CPROVER_DUMP_L7:
     ;
-    struct _old_mixer_info mixer_simple_ioctl$$1$$1$$2$$info = { .id={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .name={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
+    struct _old_mixer_info mixer_simple_ioctl__1__1__2__info = { .id={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .name={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
     do
     {
-      signed int return_value_ioctl_prep_uarg$2;
-      return_value_ioctl_prep_uarg$2=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&mixer_simple_ioctl$$1$$1$$2$$info, sizeof(struct _old_mixer_info) /*48ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-      if(!(return_value_ioctl_prep_uarg$2 == 0))
+      signed int return_value_ioctl_prep_uarg_2;
+      return_value_ioctl_prep_uarg_2=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&mixer_simple_ioctl__1__1__2__info, sizeof(struct _old_mixer_info) /*48ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+      if(!(return_value_ioctl_prep_uarg_2 == 0))
         goto __CPROVER_DUMP_L26;
 
     }
     while((_Bool)0);
-    strncpy(mixer_simple_ioctl$$1$$1$$2$$info.id, id, sizeof(char [16l]) /*16ul*/  - (unsigned long int)1);
-    strncpy(mixer_simple_ioctl$$1$$1$$2$$info.name, name, sizeof(char [32l]) /*32ul*/  - (unsigned long int)1);
-    fuse_reply_ioctl(req, 0, (const void *)&mixer_simple_ioctl$$1$$1$$2$$info, sizeof(struct _old_mixer_info) /*48ul*/ );
+    strncpy(mixer_simple_ioctl__1__1__2__info.id, id, sizeof(char [16l]) /*16ul*/  - (unsigned long int)1);
+    strncpy(mixer_simple_ioctl__1__1__2__info.name, name, sizeof(char [32l]) /*32ul*/  - (unsigned long int)1);
+    fuse_reply_ioctl(req, 0, (const void *)&mixer_simple_ioctl__1__1__2__info, sizeof(struct _old_mixer_info) /*48ul*/ );
     goto __CPROVER_DUMP_L26;
 
   __CPROVER_DUMP_L13:
@@ -4462,9 +4462,9 @@ static void mixer_simple_ioctl(struct fuse_req *req, struct ossp_mixer *mixer, u
 
     puti:
       ;
-      signed int return_value_ioctl_prep_uarg$3;
-      return_value_ioctl_prep_uarg$3=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
-      if(!(return_value_ioctl_prep_uarg$3 == 0))
+      signed int return_value_ioctl_prep_uarg_3;
+      return_value_ioctl_prep_uarg_3=ioctl_prep_uarg(req, (void *)0, 1ul, (void *)&i, sizeof(signed int) /*4ul*/ , uarg, in_buf, in_bufsz, out_bufsz);
+      if(!(return_value_ioctl_prep_uarg_3 == 0))
         goto __CPROVER_DUMP_L26;
 
     }
@@ -4500,7 +4500,7 @@ static void * notify_poller(void *arg)
   struct epoll_event events[1024l];
   signed int i;
   signed int nfds;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   do
   {
 
@@ -4591,14 +4591,14 @@ static void * notify_poller(void *arg)
         else
           if(!(ret >= 0l))
           {
-            return_value___errno_location$3=__errno_location();
-            if(!(*return_value___errno_location$3 == 11))
+            return_value___errno_location_3=__errno_location();
+            if(!(*return_value___errno_location_3 == 11))
             {
-              signed int *return_value___errno_location$1;
-              return_value___errno_location$1=__errno_location();
-              char *return_value_strerror$2;
-              return_value_strerror$2=strerror(-(-(*return_value___errno_location$1)));
-              log_msg(3, "S[%u/%d] read fail on notify fd (%s)", os->id, os->pid, return_value_strerror$2);
+              signed int *return_value___errno_location_1;
+              return_value___errno_location_1=__errno_location();
+              char *return_value_strerror_2;
+              return_value_strerror_2=strerror(-(-(*return_value___errno_location_1)));
+              log_msg(3, "S[%u/%d] read fail on notify fd (%s)", os->id, os->pid, return_value_strerror_2);
               os->dead = 1;
             }
 
@@ -4682,40 +4682,40 @@ static void ossp_daemonize(void)
 
   }
 
-  signed int return_value_pipe$3;
-  return_value_pipe$3=pipe(pfd);
-  if(!(return_value_pipe$3 == 0))
+  signed int return_value_pipe_3;
+  return_value_pipe_3=pipe(pfd);
+  if(!(return_value_pipe_3 == 0))
     do
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(-(-(*return_value___errno_location$1)));
-      log_msg(1, "failed to create pipe for init wait (%s)", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(-(-(*return_value___errno_location_1)));
+      log_msg(1, "failed to create pipe for init wait (%s)", return_value_strerror_2);
       _exit(1);
     }
     while((_Bool)0);
 
-  signed int return_value_fcntl$6;
-  return_value_fcntl$6=fcntl(pfd[(signed long int)0], 2, 1);
-  _Bool tmp_if_expr$8;
-  signed int return_value_fcntl$7;
-  if(!(return_value_fcntl$6 >= 0))
-    tmp_if_expr$8 = (_Bool)1;
+  signed int return_value_fcntl_6;
+  return_value_fcntl_6=fcntl(pfd[(signed long int)0], 2, 1);
+  _Bool tmp_if_expr_8;
+  signed int return_value_fcntl_7;
+  if(!(return_value_fcntl_6 >= 0))
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_fcntl$7=fcntl(pfd[(signed long int)1], 2, 1);
-    tmp_if_expr$8 = return_value_fcntl$7 < 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fcntl_7=fcntl(pfd[(signed long int)1], 2, 1);
+    tmp_if_expr_8 = return_value_fcntl_7 < 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$8)
+  if(tmp_if_expr_8)
     do
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(-(-(*return_value___errno_location$4)));
-      log_msg(1, "failed to set CLOEXEC on init wait pipe (%s)", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(-(-(*return_value___errno_location_4)));
+      log_msg(1, "failed to set CLOEXEC on init wait pipe (%s)", return_value_strerror_5);
       _exit(1);
     }
     while((_Bool)0);
@@ -4724,17 +4724,17 @@ static void ossp_daemonize(void)
   if(!(pid >= 0))
     do
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      char *return_value_strerror$10;
-      return_value_strerror$10=strerror(-(-(*return_value___errno_location$9)));
-      log_msg(1, "failed to fork for daemon (%s)", return_value_strerror$10);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      char *return_value_strerror_10;
+      return_value_strerror_10=strerror(-(-(*return_value___errno_location_9)));
+      log_msg(1, "failed to fork for daemon (%s)", return_value_strerror_10);
       _exit(1);
     }
     while((_Bool)0);
 
-  _Bool tmp_if_expr$12;
-  signed int *return_value___errno_location$11;
+  _Bool tmp_if_expr_12;
+  signed int *return_value___errno_location_11;
   if(pid == 0)
   {
     close(pfd[(signed long int)0]);
@@ -4751,14 +4751,14 @@ static void ossp_daemonize(void)
       ret=read(pfd[(signed long int)0], (void *)&err, sizeof(signed int) /*4ul*/ );
       if(!(ret >= 0l))
       {
-        return_value___errno_location$11=__errno_location();
-        tmp_if_expr$12 = *return_value___errno_location$11 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_11=__errno_location();
+        tmp_if_expr_12 = *return_value___errno_location_11 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$12 = (_Bool)0;
+        tmp_if_expr_12 = (_Bool)0;
     }
-    while(tmp_if_expr$12);
+    while(tmp_if_expr_12);
     if(err == 0 && (unsigned long int)ret == sizeof(signed int) /*4ul*/ )
       exit(0);
 
@@ -4784,11 +4784,11 @@ static void ossp_init_done(void *userdata)
     if(!((unsigned long int)ret == sizeof(signed int) /*4ul*/ ))
       do
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(-(-(*return_value___errno_location$1)));
-        log_msg(1, "failed to notify init completion, ret=%zd (%s)", ret, return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(-(-(*return_value___errno_location_1)));
+        log_msg(1, "failed to notify init completion, ret=%zd (%s)", ret, return_value_strerror_2);
         _exit(1);
       }
       while((_Bool)0);
@@ -4814,16 +4814,16 @@ void ossp_slave_init(signed int argc, char **argv)
   struct passwd *pw;
   struct passwd pw_buf;
   struct sigaction sa;
-  signed long int sa$array_size0;
-  sa$array_size0=sysconf(70);
-  char pw_sbuf[sa$array_size0];
-  signed long int return_value_strtol$1;
-  signed long int return_value_strtol$2;
-  signed long int return_value_strtol$3;
-  signed long int return_value_strtol$4;
-  signed long int return_value_strtol$5;
-  unsigned long long int return_value_strtoull$6;
-  signed long int return_value_strtol$7;
+  signed long int sa_array_size0;
+  sa_array_size0=sysconf(70);
+  char pw_sbuf[sa_array_size0];
+  signed long int return_value_strtol_1;
+  signed long int return_value_strtol_2;
+  signed long int return_value_strtol_3;
+  signed long int return_value_strtol_4;
+  signed long int return_value_strtol_5;
+  unsigned long long int return_value_strtoull_6;
+  signed long int return_value_strtol_7;
   do
   {
     opt=getopt(argc, argv, "u:g:c:n:m:o:s:l:t");
@@ -4835,39 +4835,39 @@ void ossp_slave_init(signed int argc, char **argv)
       case 117:
       {
         have_uid = 1;
-        return_value_strtol$1=strtol(optarg, (char ** restrict )(void *)0, 0);
-        uid = (unsigned int)return_value_strtol$1;
+        return_value_strtol_1=strtol(optarg, (char ** restrict )(void *)0, 0);
+        uid = (unsigned int)return_value_strtol_1;
         break;
       }
       case 103:
       {
         have_gid = 1;
-        return_value_strtol$2=strtol(optarg, (char ** restrict )(void *)0, 0);
-        gid = (unsigned int)return_value_strtol$2;
+        return_value_strtol_2=strtol(optarg, (char ** restrict )(void *)0, 0);
+        gid = (unsigned int)return_value_strtol_2;
         break;
       }
       case 99:
       {
-        return_value_strtol$3=strtol(optarg, (char ** restrict )(void *)0, 0);
-        ossp_cmd_fd = (signed int)return_value_strtol$3;
+        return_value_strtol_3=strtol(optarg, (char ** restrict )(void *)0, 0);
+        ossp_cmd_fd = (signed int)return_value_strtol_3;
         break;
       }
       case 110:
       {
-        return_value_strtol$4=strtol(optarg, (char ** restrict )(void *)0, 0);
-        ossp_notify_fd = (signed int)return_value_strtol$4;
+        return_value_strtol_4=strtol(optarg, (char ** restrict )(void *)0, 0);
+        ossp_notify_fd = (signed int)return_value_strtol_4;
         break;
       }
       case 109:
       {
-        return_value_strtol$5=strtol(optarg, (char ** restrict )(void *)0, 0);
-        mmap_fd = (signed int)return_value_strtol$5;
+        return_value_strtol_5=strtol(optarg, (char ** restrict )(void *)0, 0);
+        mmap_fd = (signed int)return_value_strtol_5;
         break;
       }
       case 111:
       {
-        return_value_strtoull$6=strtoull(optarg, (char ** restrict )(void *)0, 0);
-        mmap_off = (signed long int)return_value_strtoull$6;
+        return_value_strtoull_6=strtoull(optarg, (char ** restrict )(void *)0, 0);
+        mmap_off = (signed long int)return_value_strtoull_6;
         break;
       }
       case 115:
@@ -4877,8 +4877,8 @@ void ossp_slave_init(signed int argc, char **argv)
       }
       case 108:
       {
-        return_value_strtol$7=strtol(optarg, (char ** restrict )(void *)0, 0);
-        ossp_log_level = (signed int)return_value_strtol$7;
+        return_value_strtol_7=strtol(optarg, (char ** restrict )(void *)0, 0);
+        ossp_log_level = (signed int)return_value_strtol_7;
         break;
       }
       case 116:
@@ -4888,25 +4888,25 @@ void ossp_slave_init(signed int argc, char **argv)
   while((_Bool)1);
   if(have_gid == 0 || have_uid == 0 || !(ossp_cmd_fd >= 0) || !(ossp_notify_fd >= 0))
   {
-    fputs(usage$link1, stderr);
+    fputs(usage_link1, stderr);
     _exit(1);
   }
 
   snprintf(ossp_user_name, sizeof(char [128l]) /*128ul*/ , "uid%d", uid);
-  signed int return_value_getpwuid_r$8;
-  return_value_getpwuid_r$8=getpwuid_r(uid, &pw_buf, pw_sbuf, (unsigned long int)sa$array_size0, &pw);
-  if(return_value_getpwuid_r$8 == 0)
+  signed int return_value_getpwuid_r_8;
+  return_value_getpwuid_r_8=getpwuid_r(uid, &pw_buf, pw_sbuf, (unsigned long int)sa_array_size0, &pw);
+  if(return_value_getpwuid_r_8 == 0)
     snprintf(ossp_user_name, sizeof(char [128l]) /*128ul*/ , "%s", pw->pw_name);
 
-  signed int return_value_getpid$9;
-  return_value_getpid$9=getpid();
-  snprintf(ossp_log_name, sizeof(char [128l]) /*128ul*/ , "ossp-padsp[%s:%d]", (const void *)ossp_user_name, return_value_getpid$9);
+  signed int return_value_getpid_9;
+  return_value_getpid_9=getpid();
+  snprintf(ossp_log_name, sizeof(char [128l]) /*128ul*/ , "ossp-padsp[%s:%d]", (const void *)ossp_user_name, return_value_getpid_9);
   if(mmap_fd >= 0)
   {
     void *p;
     if(mmap_off == 0l || mmap_size == 0ul)
     {
-      fputs(usage$link1, stderr);
+      fputs(usage_link1, stderr);
       _exit(1);
     }
 
@@ -4914,11 +4914,11 @@ void ossp_slave_init(signed int argc, char **argv)
     if(p == (void *)-1)
       do
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        char *return_value_strerror$11;
-        return_value_strerror$11=strerror(-(-(*return_value___errno_location$10)));
-        log_msg(1, "mmap failed (%s)", return_value_strerror$11);
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        char *return_value_strerror_11;
+        return_value_strerror_11=strerror(-(-(*return_value___errno_location_10)));
+        log_msg(1, "mmap failed (%s)", return_value_strerror_11);
         _exit(1);
       }
       while((_Bool)0);
@@ -4928,42 +4928,42 @@ void ossp_slave_init(signed int argc, char **argv)
     close(mmap_fd);
   }
 
-  signed int return_value_setresgid$14;
-  return_value_setresgid$14=setresgid(gid, gid, gid);
-  _Bool tmp_if_expr$16;
-  signed int return_value_setresuid$15;
-  if(!(return_value_setresgid$14 == 0))
-    tmp_if_expr$16 = (_Bool)1;
+  signed int return_value_setresgid_14;
+  return_value_setresgid_14=setresgid(gid, gid, gid);
+  _Bool tmp_if_expr_16;
+  signed int return_value_setresuid_15;
+  if(!(return_value_setresgid_14 == 0))
+    tmp_if_expr_16 = (_Bool)1;
 
   else
   {
-    return_value_setresuid$15=setresuid(uid, uid, uid);
-    tmp_if_expr$16 = return_value_setresuid$15 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_setresuid_15=setresuid(uid, uid, uid);
+    tmp_if_expr_16 = return_value_setresuid_15 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$16)
+  if(tmp_if_expr_16)
     do
     {
-      signed int *return_value___errno_location$12;
-      return_value___errno_location$12=__errno_location();
-      char *return_value_strerror$13;
-      return_value_strerror$13=strerror(-(-(*return_value___errno_location$12)));
-      log_msg(1, "failed to drop privileges (%s)", return_value_strerror$13);
+      signed int *return_value___errno_location_12;
+      return_value___errno_location_12=__errno_location();
+      char *return_value_strerror_13;
+      return_value_strerror_13=strerror(-(-(*return_value___errno_location_12)));
+      log_msg(1, "failed to drop privileges (%s)", return_value_strerror_13);
       _exit(1);
     }
     while((_Bool)0);
 
   memset((void *)&sa, 0, sizeof(struct sigaction) /*152ul*/ );
   sa.__sigaction_handler.sa_handler = (void (*)(signed int))1;
-  signed int return_value_sigaction$19;
-  return_value_sigaction$19=sigaction(13, &sa, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$19 == 0))
+  signed int return_value_sigaction_19;
+  return_value_sigaction_19=sigaction(13, &sa, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_19 == 0))
     do
     {
-      signed int *return_value___errno_location$17;
-      return_value___errno_location$17=__errno_location();
-      char *return_value_strerror$18;
-      return_value_strerror$18=strerror(-(-(*return_value___errno_location$17)));
-      log_msg(1, "failed to ignore SIGPIPE (%s)", return_value_strerror$18);
+      signed int *return_value___errno_location_17;
+      return_value___errno_location_17=__errno_location();
+      char *return_value_strerror_18;
+      return_value_strerror_18=strerror(-(-(*return_value___errno_location_17)));
+      log_msg(1, "failed to ignore SIGPIPE (%s)", return_value_strerror_18);
       _exit(1);
     }
     while((_Bool)0);
@@ -4993,18 +4993,18 @@ signed int ossp_slave_process_command(signed int cmd_fd, signed long int (* cons
   struct ossp_reply reply = { .magic=0xbeefdead, .result=0, .dout_size=0ul };
   signed long int ret;
   ret=recvmsg(cmd_fd, &msg, 0);
-  struct cmsghdr *tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$7;
-  signed int return_value_ensure_sbuf_size$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_ensure_sbuf_size$8;
-  _Bool tmp_if_expr$11;
-  signed int return_value_ensure_sbuf_size$10;
-  _Bool tmp_if_expr$16;
-  signed int return_value_write_fill$15;
-  _Bool tmp_if_expr$18;
-  signed int return_value_write_fill$17;
+  struct cmsghdr *tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_ensure_sbuf_size_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_ensure_sbuf_size_8;
+  _Bool tmp_if_expr_11;
+  signed int return_value_ensure_sbuf_size_10;
+  _Bool tmp_if_expr_16;
+  signed int return_value_write_fill_15;
+  _Bool tmp_if_expr_18;
+  signed int return_value_write_fill_17;
   if(ret == 0l)
     return 0;
 
@@ -5012,12 +5012,12 @@ signed int ossp_slave_process_command(signed int cmd_fd, signed long int (* cons
   {
     if(!(ret >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      ret = (signed long int)-(*return_value___errno_location$1);
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror((signed int)-ret);
-      log_msg(2, "failed to read command channel (%s)", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      ret = (signed long int)-(*return_value___errno_location_1);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror((signed int)-ret);
+      log_msg(2, "failed to read command channel (%s)", return_value_strerror_2);
       return (signed int)ret;
     }
 
@@ -5037,19 +5037,19 @@ signed int ossp_slave_process_command(signed int cmd_fd, signed long int (* cons
       else
       {
         if(msg.msg_controllen >= sizeof(struct cmsghdr) /*16ul*/ )
-          tmp_if_expr$3 = (struct cmsghdr *)(&msg)->msg_control;
+          tmp_if_expr_3 = (struct cmsghdr *)(&msg)->msg_control;
 
         else
-          tmp_if_expr$3 = (struct cmsghdr *)0;
-        cmsg = tmp_if_expr$3;
+          tmp_if_expr_3 = (struct cmsghdr *)0;
+        cmsg = tmp_if_expr_3;
         while(!(cmsg == ((struct cmsghdr *)NULL)))
         {
           if(cmsg->cmsg_level == 1)
-            tmp_if_expr$4 = cmsg->cmsg_type == 1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = cmsg->cmsg_type == 1 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(tmp_if_expr_4)
             fd = *((signed int *)cmsg->__cmsg_data);
 
           else
@@ -5079,37 +5079,37 @@ signed int ossp_slave_process_command(signed int cmd_fd, signed long int (* cons
 
           else
           {
-            signed int return_value_ensure_sbuf_size$5;
+            signed int return_value_ensure_sbuf_size_5;
             static struct sized_buf carg_sbuf = { .buf=((char *)NULL), .size=0ul };
-            return_value_ensure_sbuf_size$5=ensure_sbuf_size(&carg_sbuf, carg_size);
+            return_value_ensure_sbuf_size_5=ensure_sbuf_size(&carg_sbuf, carg_size);
             static struct sized_buf din_sbuf = { .buf=((char *)NULL), .size=0ul };
-            if(!(return_value_ensure_sbuf_size$5 == 0))
-              tmp_if_expr$7 = (_Bool)1;
+            if(!(return_value_ensure_sbuf_size_5 == 0))
+              tmp_if_expr_7 = (_Bool)1;
 
             else
             {
-              return_value_ensure_sbuf_size$6=ensure_sbuf_size(&din_sbuf, din_size);
-              tmp_if_expr$7 = return_value_ensure_sbuf_size$6 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_ensure_sbuf_size_6=ensure_sbuf_size(&din_sbuf, din_size);
+              tmp_if_expr_7 = return_value_ensure_sbuf_size_6 != 0 ? (_Bool)1 : (_Bool)0;
             }
             static struct sized_buf rarg_sbuf = { .buf=((char *)NULL), .size=0ul };
-            if(tmp_if_expr$7)
-              tmp_if_expr$9 = (_Bool)1;
+            if(tmp_if_expr_7)
+              tmp_if_expr_9 = (_Bool)1;
 
             else
             {
-              return_value_ensure_sbuf_size$8=ensure_sbuf_size(&rarg_sbuf, rarg_size);
-              tmp_if_expr$9 = return_value_ensure_sbuf_size$8 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_ensure_sbuf_size_8=ensure_sbuf_size(&rarg_sbuf, rarg_size);
+              tmp_if_expr_9 = return_value_ensure_sbuf_size_8 != 0 ? (_Bool)1 : (_Bool)0;
             }
             static struct sized_buf dout_sbuf = { .buf=((char *)NULL), .size=0ul };
-            if(tmp_if_expr$9)
-              tmp_if_expr$11 = (_Bool)1;
+            if(tmp_if_expr_9)
+              tmp_if_expr_11 = (_Bool)1;
 
             else
             {
-              return_value_ensure_sbuf_size$10=ensure_sbuf_size(&dout_sbuf, dout_size);
-              tmp_if_expr$11 = return_value_ensure_sbuf_size$10 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_ensure_sbuf_size_10=ensure_sbuf_size(&dout_sbuf, dout_size);
+              tmp_if_expr_11 = return_value_ensure_sbuf_size_10 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$11)
+            if(tmp_if_expr_11)
             {
               log_msg(2, "failed to allocate command buffers");
               return -12;
@@ -5120,9 +5120,9 @@ signed int ossp_slave_process_command(signed int cmd_fd, signed long int (* cons
               if(!(carg_size == 0ul))
               {
                 carg = carg_sbuf.buf;
-                signed int return_value_read_fill$12;
-                return_value_read_fill$12=read_fill(cmd_fd, (void *)carg, carg_size);
-                ret = (signed long int)return_value_read_fill$12;
+                signed int return_value_read_fill_12;
+                return_value_read_fill_12=read_fill(cmd_fd, (void *)carg, carg_size);
+                ret = (signed long int)return_value_read_fill_12;
                 if(!(ret >= 0l))
                   return (signed int)ret;
 
@@ -5131,9 +5131,9 @@ signed int ossp_slave_process_command(signed int cmd_fd, signed long int (* cons
               if(!(din_size == 0ul))
               {
                 din = din_sbuf.buf;
-                signed int return_value_read_fill$13;
-                return_value_read_fill$13=read_fill(cmd_fd, (void *)din, din_size);
-                ret = (signed long int)return_value_read_fill$13;
+                signed int return_value_read_fill_13;
+                return_value_read_fill_13=read_fill(cmd_fd, (void *)din, din_size);
+                ret = (signed long int)return_value_read_fill_13;
                 if(!(ret >= 0l))
                   return (signed int)ret;
 
@@ -5168,25 +5168,25 @@ signed int ossp_slave_process_command(signed int cmd_fd, signed long int (* cons
                 rarg_size = (unsigned long int)0;
                 dout_size = (unsigned long int)0;
               }
-              signed int return_value_write_fill$14;
-              return_value_write_fill$14=write_fill(cmd_fd, (const void *)&reply, sizeof(struct ossp_reply) /*16ul*/ );
-              if(!(return_value_write_fill$14 >= 0))
-                tmp_if_expr$16 = (_Bool)1;
+              signed int return_value_write_fill_14;
+              return_value_write_fill_14=write_fill(cmd_fd, (const void *)&reply, sizeof(struct ossp_reply) /*16ul*/ );
+              if(!(return_value_write_fill_14 >= 0))
+                tmp_if_expr_16 = (_Bool)1;
 
               else
               {
-                return_value_write_fill$15=write_fill(cmd_fd, (const void *)rarg, rarg_size);
-                tmp_if_expr$16 = return_value_write_fill$15 < 0 ? (_Bool)1 : (_Bool)0;
+                return_value_write_fill_15=write_fill(cmd_fd, (const void *)rarg, rarg_size);
+                tmp_if_expr_16 = return_value_write_fill_15 < 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$16)
-                tmp_if_expr$18 = (_Bool)1;
+              if(tmp_if_expr_16)
+                tmp_if_expr_18 = (_Bool)1;
 
               else
               {
-                return_value_write_fill$17=write_fill(cmd_fd, (const void *)dout, dout_size);
-                tmp_if_expr$18 = return_value_write_fill$17 < 0 ? (_Bool)1 : (_Bool)0;
+                return_value_write_fill_17=write_fill(cmd_fd, (const void *)dout, dout_size);
+                tmp_if_expr_18 = return_value_write_fill_17 < 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$18)
+              if(tmp_if_expr_18)
                 return -5;
 
               else
@@ -5308,7 +5308,7 @@ static void put_os(struct ossp_stream *os)
 // file ossp-util.h line 142
 signed int read_fill(signed int fd, void *buf, unsigned long int size)
 {
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   while(!(size == 0ul))
   {
     signed long int ret;
@@ -5321,12 +5321,12 @@ signed int read_fill(signed int fd, void *buf, unsigned long int size)
 
       else
       {
-        return_value___errno_location$1=__errno_location();
-        rc = -(*return_value___errno_location$1);
+        return_value___errno_location_1=__errno_location();
+        rc = -(*return_value___errno_location_1);
       }
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(-rc);
-      log_msg(2, "failed to read_fill %zu bytes from fd %d (%s)", size, fd, return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(-rc);
+      log_msg(2, "failed to read_fill %zu bytes from fd %d (%s)", size, fd, return_value_strerror_2);
       return rc;
     }
 
@@ -5357,7 +5357,7 @@ static inline void ring_consume(struct ring_buf *ring, unsigned long int size)
 void * ring_data(struct ring_buf *ring, unsigned long int *sizep)
 {
   unsigned long int tail;
-  unsigned long int tmp_statement_expression$1;
+  unsigned long int tmp_statement_expression_1;
   if(ring->bytes == 0ul)
     return (void *)0;
 
@@ -5367,8 +5367,8 @@ void * ring_data(struct ring_buf *ring, unsigned long int *sizep)
     unsigned long int _min1 = ring->bytes;
     unsigned long int _min2 = ring->size - tail;
     (void)(&_min1 == &_min2);
-    tmp_statement_expression$1 = _min1 < _min2 ? _min1 : _min2;
-    *sizep = tmp_statement_expression$1;
+    tmp_statement_expression_1 = _min1 < _min2 ? _min1 : _min2;
+    *sizep = tmp_statement_expression_1;
     return (void *)(ring->buf + (signed long int)tail);
   }
 }
@@ -5378,20 +5378,20 @@ void * ring_data(struct ring_buf *ring, unsigned long int *sizep)
 void ring_fill(struct ring_buf *ring, const void *buf, unsigned long int size)
 {
   unsigned long int tail;
-  unsigned long int return_value_ring_space$1;
-  return_value_ring_space$1=ring_space(ring);
+  unsigned long int return_value_ring_space_1;
+  return_value_ring_space_1=ring_space(ring);
   /* assertion ring_space(ring) >= size */
-  assert(return_value_ring_space$1 >= size);
+  assert(return_value_ring_space_1 >= size);
   tail = ((ring->head + ring->size) - ring->bytes) % ring->size;
-  unsigned long int tmp_statement_expression$2;
+  unsigned long int tmp_statement_expression_2;
   if(ring->head >= tail)
   {
     unsigned long int todo;
     unsigned long int _min1 = size;
     unsigned long int _min2 = ring->size - ring->head;
     (void)(&_min1 == &_min2);
-    tmp_statement_expression$2 = _min1 < _min2 ? _min1 : _min2;
-    todo = tmp_statement_expression$2;
+    tmp_statement_expression_2 = _min1 < _min2 ? _min1 : _min2;
+    todo = tmp_statement_expression_2;
     memcpy((void *)(ring->buf + (signed long int)ring->head), buf, todo);
     ring->head = (ring->head + todo) % ring->size;
     ring->bytes = ring->bytes + todo;
@@ -5413,16 +5413,16 @@ signed int ring_resize(struct ring_buf *ring, unsigned long int new_size)
   struct ring_buf new_ring = { .buf=((char *)NULL), .size=new_size, .head=0ul, .bytes=0ul };
   void *p;
   unsigned long int size;
-  unsigned long int return_value_ring_bytes$1;
-  return_value_ring_bytes$1=ring_bytes(ring);
-  if(!(new_size >= return_value_ring_bytes$1))
+  unsigned long int return_value_ring_bytes_1;
+  return_value_ring_bytes_1=ring_bytes(ring);
+  if(!(new_size >= return_value_ring_bytes_1))
     return -28;
 
   else
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, new_size);
-    new_ring.buf = (char *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, new_size);
+    new_ring.buf = (char *)return_value_calloc_2;
     if(new_ring.buf == ((char *)NULL) && !(new_size == 0ul))
       return -12;
 
@@ -5459,16 +5459,16 @@ static void set_extra_env(signed int pid)
   char procenviron[32l];
   const signed int step = 1024;
   char *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(step + 1));
-  data = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(step + 1));
+  data = (char *)return_value_malloc_1;
   signed int ofs = 0;
   signed int fd;
   signed int ret;
-  signed long int return_value_read$2;
-  unsigned long int return_value_strlen$4;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strncmp$6;
+  signed long int return_value_read_2;
+  unsigned long int return_value_strlen_4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strncmp_6;
   if(!(data == ((char *)NULL)))
   {
     sprintf(procenviron, "/proc/%d/environ", pid);
@@ -5477,16 +5477,16 @@ static void set_extra_env(signed int pid)
     {
       do
       {
-        return_value_read$2=read(fd, (void *)(data + (signed long int)ofs), (unsigned long int)step);
-        ret = (signed int)return_value_read$2;
+        return_value_read_2=read(fd, (void *)(data + (signed long int)ofs), (unsigned long int)step);
+        ret = (signed int)return_value_read_2;
         if(!(ret >= 1))
           break;
 
         char *newdata;
         ofs = ofs + ret;
-        void *return_value_realloc$3;
-        return_value_realloc$3=realloc((void *)data, (unsigned long int)(ofs + step + 1));
-        newdata = (char *)return_value_realloc$3;
+        void *return_value_realloc_3;
+        return_value_realloc_3=realloc((void *)data, (unsigned long int)(ofs + step + 1));
+        newdata = (char *)return_value_realloc_3;
         if(newdata == ((char *)NULL))
         {
           ret = -1;
@@ -5502,22 +5502,22 @@ static void set_extra_env(signed int pid)
         data[(signed long int)ofs] = (char)0;
         do
         {
-          return_value_strlen$4=strlen(ptr);
-          ret = (signed int)return_value_strlen$4;
+          return_value_strlen_4=strlen(ptr);
+          ret = (signed int)return_value_strlen_4;
           if(!(ret >= 1))
             break;
 
-          signed int return_value_strncmp$5;
-          return_value_strncmp$5=strncmp(ptr, "DISPLAY=", (unsigned long int)8);
-          if(return_value_strncmp$5 == 0)
-            tmp_if_expr$7 = (_Bool)1;
+          signed int return_value_strncmp_5;
+          return_value_strncmp_5=strncmp(ptr, "DISPLAY=", (unsigned long int)8);
+          if(return_value_strncmp_5 == 0)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value_strncmp$6=strncmp(ptr, "PULSE_", (unsigned long int)6);
-            tmp_if_expr$7 = !(return_value_strncmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strncmp_6=strncmp(ptr, "PULSE_", (unsigned long int)6);
+            tmp_if_expr_7 = !(return_value_strncmp_6 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$7)
+          if(tmp_if_expr_7)
             putenv(ptr);
 
           ptr = ptr + (signed long int)(ret + 1);
@@ -5553,18 +5553,18 @@ static struct fuse_session * setup_ossp_cuse(struct cuse_lowlevel_ops *ops, cons
 
   else
   {
-    struct fuse_chan *return_value_fuse_session_next_chan$1;
-    return_value_fuse_session_next_chan$1=fuse_session_next_chan(se, (struct fuse_chan *)(void *)0);
-    fd=fuse_chan_fd(return_value_fuse_session_next_chan$1);
-    signed int return_value_fcntl$4;
-    return_value_fcntl$4=fcntl(fd, 2, 1);
-    if(!(return_value_fcntl$4 >= 0))
+    struct fuse_chan *return_value_fuse_session_next_chan_1;
+    return_value_fuse_session_next_chan_1=fuse_session_next_chan(se, (struct fuse_chan *)(void *)0);
+    fd=fuse_chan_fd(return_value_fuse_session_next_chan_1);
+    signed int return_value_fcntl_4;
+    return_value_fcntl_4=fcntl(fd, 2, 1);
+    if(!(return_value_fcntl_4 >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(-(-(*return_value___errno_location$2)));
-      log_msg(2, "failed to set CLOEXEC on %s CUSE fd (%s)", name, return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(-(-(*return_value___errno_location_2)));
+      log_msg(2, "failed to set CLOEXEC on %s CUSE fd (%s)", name, return_value_strerror_3);
       cuse_lowlevel_teardown(se);
       return (struct fuse_session *)(void *)0;
     }
@@ -5579,9 +5579,9 @@ static void shutdown_notification(struct ossp_stream *os)
 {
   struct ossp_notify obituary = { .magic=0xbebebebe, .opcode=(enum ossp_notify_opcode)OSSP_NOTIFY_OBITUARY };
   signed long int ret;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   while(os->notify_rx >= 0)
   {
     ret=write(os->notify_tx, (const void *)&obituary, sizeof(struct ossp_notify) /*8ul*/ );
@@ -5592,12 +5592,12 @@ static void shutdown_notification(struct ossp_stream *os)
 
       else
       {
-        return_value___errno_location$3=__errno_location();
-        if(!(*return_value___errno_location$3 == 32))
+        return_value___errno_location_3=__errno_location();
+        if(!(*return_value___errno_location_3 == 32))
         {
-          return_value___errno_location$1=__errno_location();
-          return_value_strerror$2=strerror(-(-(*return_value___errno_location$1)));
-          log_msg(3, "S[%u/%d] unexpected error on notify_tx (%s)", os->id, os->pid, return_value_strerror$2);
+          return_value___errno_location_1=__errno_location();
+          return_value_strerror_2=strerror(-(-(*return_value___errno_location_1)));
+          log_msg(3, "S[%u/%d] unexpected error on notify_tx (%s)", os->id, os->pid, return_value_strerror_2);
         }
 
       }
@@ -5621,27 +5621,27 @@ static void * slave_reaper(void *arg)
   signed int status;
   signed int pid;
   pthread_mutex_lock(&mutex);
-  signed int return_value_list_empty$1;
-  struct ossp_stream *tmp_statement_expression$2;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
+  signed int return_value_list_empty_1;
+  struct ossp_stream *tmp_statement_expression_2;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
   do
   {
 
   repeat:
     ;
-    return_value_list_empty$1=list_empty(&slave_corpse_list);
-    if(!(return_value_list_empty$1 == 0))
+    return_value_list_empty_1=list_empty(&slave_corpse_list);
+    if(!(return_value_list_empty_1 == 0))
     {
       pthread_cond_wait(&slave_reaper_wait, &mutex);
       goto repeat;
     }
 
     const struct list_head *__mptr = (&slave_corpse_list)->next;
-    tmp_statement_expression$2 = (struct ossp_stream *)((char *)__mptr - (signed long int)8ul);
-    os = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct ossp_stream *)((char *)__mptr - (signed long int)8ul);
+    os = tmp_statement_expression_2;
     list_del_init(&os->link);
     pthread_mutex_unlock(&mutex);
     do
@@ -5649,33 +5649,33 @@ static void * slave_reaper(void *arg)
       pid=waitpid(os->slave_pid, &status, 0);
       if(!(pid >= 0))
       {
-        return_value___errno_location$3=__errno_location();
-        tmp_if_expr$4 = *return_value___errno_location$3 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_3=__errno_location();
+        tmp_if_expr_4 = *return_value___errno_location_3 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
     }
-    while(tmp_if_expr$4);
+    while(tmp_if_expr_4);
     if(!(pid >= 0))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      if(*return_value___errno_location$9 == 10)
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      if(*return_value___errno_location_9 == 10)
       {
-        return_value___errno_location$5=__errno_location();
-        return_value_strerror$6=strerror(-(-(*return_value___errno_location$5)));
-        log_msg(3, "S[%u/%d] slave %d already gone? (%s)", os->id, os->pid, os->slave_pid, return_value_strerror$6);
+        return_value___errno_location_5=__errno_location();
+        return_value_strerror_6=strerror(-(-(*return_value___errno_location_5)));
+        log_msg(3, "S[%u/%d] slave %d already gone? (%s)", os->id, os->pid, os->slave_pid, return_value_strerror_6);
       }
 
       else
         do
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          char *return_value_strerror$8;
-          return_value_strerror$8=strerror(-(-(*return_value___errno_location$7)));
-          log_msg(1, "waitpid(%d) failed (%s)", os->slave_pid, return_value_strerror$8);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          char *return_value_strerror_8;
+          return_value_strerror_8=strerror(-(-(*return_value___errno_location_7)));
+          log_msg(1, "waitpid(%d) failed (%s)", os->slave_pid, return_value_strerror_8);
           _exit(1);
         }
         while((_Bool)0);
@@ -5693,7 +5693,7 @@ static void * slave_reaper(void *arg)
 // file ossp-util.h line 143
 signed int write_fill(signed int fd, const void *buf, unsigned long int size)
 {
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   while(!(size == 0ul))
   {
     signed long int ret;
@@ -5706,12 +5706,12 @@ signed int write_fill(signed int fd, const void *buf, unsigned long int size)
 
       else
       {
-        return_value___errno_location$1=__errno_location();
-        rc = -(*return_value___errno_location$1);
+        return_value___errno_location_1=__errno_location();
+        rc = -(*return_value___errno_location_1);
       }
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(-rc);
-      log_msg(2, "failed to write_fill %zu bytes to fd %d (%s)", size, fd, return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(-rc);
+      log_msg(2, "failed to write_fill %zu bytes to fd %d (%s)", size, fd, return_value_strerror_2);
       return rc;
     }
 

@@ -1,42 +1,42 @@
-// tag-#anon#ST[*{S8}$S8$'path'||S32'path_len'||S32'fd'||U8'rw'||U56'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'path'||S32'path_len'||S32'fd'||U8'rw'||U56'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/unionfs.h line 23
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[ARR2{S32}$S32$'__val'|]
+// tag-#anon#ST[ARR2{S32}_S32_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/types.h line 134
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'nbranches'||U32'$pad0'||*{SYM#tag-#anon#ST[*{S8}$S8$'path'||S32'path_len'||S32'fd'||U8'rw'||U56'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'path'||S32'path_len'||S32'fd'||U8'rw'||U56'$pad0'|]#$'branches'||B'cow_enabled'||B'statfs_omit_ro'||U16'$pad1'||S32'doexit'||S32'retval'||U32'$pad2'||*{S8}$S8$'chroot'||B'debug'||U56'$pad3'||*{S8}$S8$'dbgpath'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]#'dbgpath_lock'||B'hide_meta_files'||B'relaxed_permissions'||U48'$pad4'|]
+// tag-#anon#ST[S32'nbranches'||U32'_pad0'||*{SYM#tag-#anon#ST[*{S8}_S8_'path'||S32'path_len'||S32'fd'||U8'rw'||U56'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'path'||S32'path_len'||S32'fd'||U8'rw'||U56'_pad0'|]#_'branches'||B'cow_enabled'||B'statfs_omit_ro'||U16'_pad1'||S32'doexit'||S32'retval'||U32'_pad2'||*{S8}_S8_'chroot'||B'debug'||U56'_pad3'||*{S8}_S8_'dbgpath'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]#'dbgpath_lock'||B'hide_meta_files'||B'relaxed_permissions'||U48'_pad4'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/opts.h line 19
 struct anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR8{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -277,12 +277,12 @@ extern signed int creat(const char *, unsigned int);
 // create_hashtable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/hashtable.h line 75
 struct hashtable * create_hashtable(unsigned int minsize, unsigned int (*hashf)(void *), signed int (*eqf)(void *, void *));
-// create_hashtable::eqf$object
+// create_hashtable::eqf_object
 //
-signed int eqf$object(void *, void *);
-// create_hashtable::hashf$object
+signed int eqf_object(void *, void *);
+// create_hashtable::hashf_object
 //
-unsigned int hashf$object(void *);
+unsigned int hashf_object(void *);
 // debug_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/debug.h line 39
 signed int debug_init(void);
@@ -430,9 +430,9 @@ extern char * index(const char *, signed int);
 // indexFor
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/hashtable_private.h line 33
 static inline unsigned int indexFor(unsigned int tablelength, unsigned int hashvalue);
-// indexFor$link1
+// indexFor_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/hashtable_private.h line 33
-static inline unsigned int indexFor$link1(unsigned int tablelength$link1, unsigned int hashvalue$link1);
+static inline unsigned int indexFor_link1(unsigned int tablelength_link1, unsigned int hashvalue_link1);
 // init_syslog
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/usyslog.h line 22
 void init_syslog(void);
@@ -448,15 +448,15 @@ extern signed int link(const char *, const char *);
 // lstat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
 static inline signed int lstat(const char *__path, struct stat *__statbuf);
-// lstat$link1
+// lstat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
-static inline signed int lstat$link1(const char *__path$link1, struct stat *__statbuf$link1);
-// lstat$link2
+static inline signed int lstat_link1(const char *__path_link1, struct stat *__statbuf_link1);
+// lstat_link2
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
-static inline signed int lstat$link2(const char *__path$link2, struct stat *__statbuf$link2);
-// lstat$link3
+static inline signed int lstat_link2(const char *__path_link2, struct stat *__statbuf_link2);
+// lstat_link3
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
-static inline signed int lstat$link3(const char *__path$link3, struct stat *__statbuf$link3);
+static inline signed int lstat_link3(const char *__path_link3, struct stat *__statbuf_link3);
 // madvise
 // file /usr/include/x86_64-linux-gnu/sys/mman.h line 94
 extern signed int madvise(void *, unsigned long int, signed int);
@@ -484,9 +484,9 @@ extern signed int mkfifo(const char *, unsigned int);
 // mknod
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 482
 static inline signed int mknod(const char *__path, unsigned int __mode, unsigned long int __dev);
-// mknod$link1
+// mknod_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 482
-static inline signed int mknod$link1(const char *__path$link1, unsigned int __mode$link1, unsigned long int __dev$link1);
+static inline signed int mknod_link1(const char *__path_link1, unsigned int __mode_link1, unsigned long int __dev_link1);
 // mmap
 // file /usr/include/x86_64-linux-gnu/sys/mman.h line 61
 extern void * mmap(void *, unsigned long int, signed int, signed int, signed int, signed long int);
@@ -540,40 +540,40 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$3 *, const union anonymous$1 *);
+extern signed int pthread_cond_init(union anonymous_3 *, const union anonymous_1 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$3 *);
+extern signed int pthread_cond_signal(union anonymous_3 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous$0 *);
+extern signed int pthread_cond_wait(union anonymous_3 *, union anonymous_0 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous$1 *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous_1 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$0 *);
+extern signed int pthread_mutex_trylock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 890
-extern signed int pthread_rwlock_init(union anonymous$6 *, const union anonymous$4 *);
+extern signed int pthread_rwlock_init(union anonymous_6 *, const union anonymous_4 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$6 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_6 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$6 *);
+extern signed int pthread_rwlock_unlock(union anonymous_6 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$6 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_6 *);
 // put_dbgfile
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/debug.h line 43
 void put_dbgfile(void);
@@ -652,9 +652,9 @@ extern signed int sscanf(const char *, const char *, ...);
 // stat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf);
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1);
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1);
 // statfs
 // file /usr/include/x86_64-linux-gnu/sys/statfs.h line 35
 extern signed int statfs(const char *, struct statfs *);
@@ -757,9 +757,9 @@ static signed int unionfs_read(const char *path, char *buf, unsigned long int si
 // unionfs_readdir
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/readdir.h line 6
 signed int unionfs_readdir(const char *path, void *buf, signed int (*filler)(void *, const char *, struct stat *, signed long int), signed long int offset, struct fuse_file_info *fi);
-// unionfs_readdir::filler$object
+// unionfs_readdir::filler_object
 //
-signed int filler$object(void *, const char *, struct stat *, signed long int);
+signed int filler_object(void *, const char *, struct stat *, signed long int);
 // unionfs_readlink
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/unionfs.c line 412
 static signed int unionfs_readlink(const char *path, char *buf, unsigned long int size);
@@ -821,7 +821,7 @@ char * whiteout_tag(const char *fname);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$7
+struct anonymous_7
 {
   // path
   char *path;
@@ -833,13 +833,13 @@ struct anonymous$7
   unsigned char rw;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __val
   signed int __val[2l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -859,7 +859,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // __lock
   signed int __lock;
@@ -887,10 +887,10 @@ struct anonymous$8
   unsigned int __flags;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
-  struct anonymous$8 __data;
+  struct anonymous_8 __data;
   // __size
   char __size[56l];
   // __align
@@ -902,7 +902,7 @@ struct anonymous
   // nbranches
   signed int nbranches;
   // branches
-  struct anonymous$7 *branches;
+  struct anonymous_7 *branches;
   // cow_enabled
   _Bool cow_enabled;
   // statfs_omit_ro
@@ -918,14 +918,14 @@ struct anonymous
   // dbgpath
   char *dbgpath;
   // dbgpath_lock
-  union anonymous$6 dbgpath_lock;
+  union anonymous_6 dbgpath_lock;
   // hide_meta_files
   _Bool hide_meta_files;
   // relaxed_permissions
   _Bool relaxed_permissions;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[4l];
@@ -933,7 +933,7 @@ union anonymous$1
   signed int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[8l];
@@ -941,10 +941,10 @@ union anonymous$4
   signed long int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -979,7 +979,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1432,7 +1432,7 @@ struct statfs
   // f_ffree
   unsigned long int f_ffree;
   // f_fsid
-  struct anonymous$5 f_fsid;
+  struct anonymous_5 f_fsid;
   // f_namelen
   signed long int f_namelen;
   // f_frsize
@@ -1480,7 +1480,7 @@ struct ulogs
   // used
   _Bool used;
   // lock
-  union anonymous$0 lock;
+  union anonymous_0 lock;
   // next
   struct ulogs *next;
 };
@@ -1496,7 +1496,7 @@ struct utimbuf
 
 // cond_message
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/usyslog.c line 40
-static union anonymous$3 cond_message;
+static union anonymous_3 cond_message;
 // dbgfile
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/debug.c line 17
 struct _IO_FILE *dbgfile = (struct _IO_FILE *)(void *)0;
@@ -1505,7 +1505,7 @@ struct _IO_FILE *dbgfile = (struct _IO_FILE *)(void *)0;
 static char default_debug_path[20l] = { '.', '/', 'u', 'n', 'i', 'o', 'n', 'f', 's', '_', 'd', 'e', 'b', 'u', 'g', '.', 'l', 'o', 'g', 0 };
 // file_lock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/debug.c line 15
-static union anonymous$6 file_lock = { .__data={ .__lock=0, .__nr_readers=(unsigned int)0, .__readers_wakeup=(unsigned int)0,
+static union anonymous_6 file_lock = { .__data={ .__lock=0, .__nr_readers=(unsigned int)0, .__readers_wakeup=(unsigned int)0,
     .__writer_wakeup=(unsigned int)0, .__nr_readers_queued=(unsigned int)0,
     .__nr_writers_queued=(unsigned int)0,
     .__writer=0,
@@ -1523,7 +1523,7 @@ static signed int free_entries;
 static struct ulogs *free_head;
 // list_lock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/usyslog.c line 39
-static union anonymous$0 list_lock;
+static union anonymous_0 list_lock;
 // max_load_factor
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/hashtable.c line 24
 const float max_load_factor = (const float)0.65;
@@ -1615,46 +1615,46 @@ signed int __find_rw_branch_cutlast(const char *path, signed int rw_hint)
   branch=find_rw_branch_cow(path);
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *__find_rw_branch_cutlast$$1$$1$$dbgfile;
-    __find_rw_branch_cutlast$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *__find_rw_branch_cutlast__1__1__dbgfile;
+    __find_rw_branch_cutlast__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 117);
-    fprintf(__find_rw_branch_cutlast$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 117);
+    fprintf(__find_rw_branch_cutlast__1__1__dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 117);
     fprintf(stderr, "branch = %d\n", branch);
-    fprintf(__find_rw_branch_cutlast$$1$$1$$dbgfile, "branch = %d\n", branch);
+    fprintf(__find_rw_branch_cutlast__1__1__dbgfile, "branch = %d\n", branch);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   if(branch >= 0)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if(!(branch >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 != 2 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 != 2 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *__find_rw_branch_cutlast$$1$$2$$1$$dbgfile;
-        __find_rw_branch_cutlast$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *__find_rw_branch_cutlast__1__2__1__dbgfile;
+        __find_rw_branch_cutlast__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 119);
-        fprintf(__find_rw_branch_cutlast$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 119);
+        fprintf(__find_rw_branch_cutlast__1__2__1__dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 119);
         fprintf(stderr, "return %d\n", branch);
-        fprintf(__find_rw_branch_cutlast$$1$$2$$1$$dbgfile, "return %d\n", branch);
+        fprintf(__find_rw_branch_cutlast__1__2__1__dbgfile, "return %d\n", branch);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -1666,12 +1666,12 @@ signed int __find_rw_branch_cutlast(const char *path, signed int rw_hint)
 
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *__find_rw_branch_cutlast$$1$$3$$dbgfile;
-    __find_rw_branch_cutlast$$1$$3$$dbgfile=get_dbgfile();
+    struct _IO_FILE *__find_rw_branch_cutlast__1__3__dbgfile;
+    __find_rw_branch_cutlast__1__3__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 121);
-    fprintf(__find_rw_branch_cutlast$$1$$3$$dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 121);
+    fprintf(__find_rw_branch_cutlast__1__3__dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 121);
     fprintf(stderr, "Check for parent directory\n");
-    fprintf(__find_rw_branch_cutlast$$1$$3$$dbgfile, "Check for parent directory\n");
+    fprintf(__find_rw_branch_cutlast__1__3__dbgfile, "Check for parent directory\n");
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -1681,18 +1681,18 @@ signed int __find_rw_branch_cutlast(const char *path, signed int rw_hint)
   dname=u_dirname(path);
   if(dname == ((char *)NULL))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = 12;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = 12;
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *__find_rw_branch_cutlast$$1$$4$$1$$1$$dbgfile;
-        __find_rw_branch_cutlast$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *__find_rw_branch_cutlast__1__4__1__1__dbgfile;
+        __find_rw_branch_cutlast__1__4__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 129);
-        fprintf(__find_rw_branch_cutlast$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 129);
+        fprintf(__find_rw_branch_cutlast__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 129);
         fprintf(stderr, "return %d\n", -1);
-        fprintf(__find_rw_branch_cutlast$$1$$4$$1$$1$$dbgfile, "return %d\n", -1);
+        fprintf(__find_rw_branch_cutlast__1__4__1__1__dbgfile, "return %d\n", -1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -1705,19 +1705,19 @@ signed int __find_rw_branch_cutlast(const char *path, signed int rw_hint)
   branch=find_rorw_branch(dname);
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *__find_rw_branch_cutlast$$1$$5$$dbgfile;
-    __find_rw_branch_cutlast$$1$$5$$dbgfile=get_dbgfile();
+    struct _IO_FILE *__find_rw_branch_cutlast__1__5__dbgfile;
+    __find_rw_branch_cutlast__1__5__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 133);
-    fprintf(__find_rw_branch_cutlast$$1$$5$$dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 133);
+    fprintf(__find_rw_branch_cutlast__1__5__dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 133);
     fprintf(stderr, "branch = %d\n", branch);
-    fprintf(__find_rw_branch_cutlast$$1$$5$$dbgfile, "branch = %d\n", branch);
+    fprintf(__find_rw_branch_cutlast__1__5__dbgfile, "branch = %d\n", branch);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   signed int branch_rw;
-  signed int return_value_path_create$7;
+  signed int return_value_path_create_7;
   if(branch >= 0)
   {
     if(!((uopt.branches + (signed long int)branch)->rw == 0))
@@ -1730,9 +1730,9 @@ signed int __find_rw_branch_cutlast(const char *path, signed int rw_hint)
     if(uopt.cow_enabled == (_Bool)0)
     {
       branch = -1;
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = 13;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = 13;
       goto out;
     }
 
@@ -1743,12 +1743,12 @@ signed int __find_rw_branch_cutlast(const char *path, signed int rw_hint)
       branch_rw = rw_hint;
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *__find_rw_branch_cutlast$$1$$7$$dbgfile;
-      __find_rw_branch_cutlast$$1$$7$$dbgfile=get_dbgfile();
+      struct _IO_FILE *__find_rw_branch_cutlast__1__7__dbgfile;
+      __find_rw_branch_cutlast__1__7__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 156);
-      fprintf(__find_rw_branch_cutlast$$1$$7$$dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 156);
+      fprintf(__find_rw_branch_cutlast__1__7__dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 156);
       fprintf(stderr, "branch_rw = %d\n", branch_rw);
-      fprintf(__find_rw_branch_cutlast$$1$$7$$dbgfile, "branch_rw = %d\n", branch_rw);
+      fprintf(__find_rw_branch_cutlast__1__7__dbgfile, "branch_rw = %d\n", branch_rw);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -1757,14 +1757,14 @@ signed int __find_rw_branch_cutlast(const char *path, signed int rw_hint)
     if(!(branch_rw >= 0))
     {
       branch = -1;
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6 = 13;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6 = 13;
       goto out;
     }
 
-    return_value_path_create$7=path_create(dname, branch, branch_rw);
-    if(return_value_path_create$7 == 0)
+    return_value_path_create_7=path_create(dname, branch, branch_rw);
+    if(return_value_path_create_7 == 0)
       branch = branch_rw;
 
   }
@@ -1776,12 +1776,12 @@ out:
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *__find_rw_branch_cutlast$$1$$9$$1$$dbgfile;
-      __find_rw_branch_cutlast$$1$$9$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *__find_rw_branch_cutlast__1__9__1__dbgfile;
+      __find_rw_branch_cutlast__1__9__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 170);
-      fprintf(__find_rw_branch_cutlast$$1$$9$$1$$dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 170);
+      fprintf(__find_rw_branch_cutlast__1__9__1__dbgfile, "%s(): %d: ", (const void *)"__find_rw_branch_cutlast", 170);
       fprintf(stderr, "return %d\n", branch);
-      fprintf(__find_rw_branch_cutlast$$1$$9$$1$$dbgfile, "return %d\n", branch);
+      fprintf(__find_rw_branch_cutlast__1__9__1__dbgfile, "return %d\n", branch);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -1796,17 +1796,17 @@ out:
 static inline char * __strsep_1c(char **__s, char __reject)
 {
   char *__retval = *__s;
-  char *return_value___builtin_strchr$2;
-  char *tmp_post$1;
+  char *return_value___builtin_strchr_2;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2=__builtin_strchr(__retval, (signed int)__reject);
-    *__s = return_value___builtin_strchr$2;
+    return_value___builtin_strchr_2=__builtin_strchr(__retval, (signed int)__reject);
+    *__s = return_value___builtin_strchr_2;
     if(!(*__s == ((char *)NULL)))
     {
-      tmp_post$1 = *__s;
+      tmp_post_1 = *__s;
       *__s = *__s + 1l;
-      *tmp_post$1 = (char)0;
+      *tmp_post_1 = (char)0;
     }
 
   }
@@ -1819,8 +1819,8 @@ static inline char * __strsep_1c(char **__s, char __reject)
 static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
 {
   char *__retval = *__s;
-  _Bool tmp_if_expr$2;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
     char *__cp = __retval;
@@ -1833,15 +1833,15 @@ static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
       }
 
       if(*__cp == __reject1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        tmp_post$1 = __cp;
+        tmp_post_1 = __cp;
         __cp = __cp + 1l;
-        *tmp_post$1 = (char)0;
+        *tmp_post_1 = (char)0;
         break;
       }
 
@@ -1857,9 +1857,9 @@ static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
 static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, char __reject3)
 {
   char *__retval = *__s;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
     char *__cp = __retval;
@@ -1872,20 +1872,20 @@ static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, cha
       }
 
       if(*__cp == __reject1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = *__cp == __reject3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = *__cp == __reject3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        tmp_post$1 = __cp;
+        tmp_post_1 = __cp;
         __cp = __cp + 1l;
-        *tmp_post$1 = (char)0;
+        *tmp_post_1 = (char)0;
         break;
       }
 
@@ -1900,10 +1900,10 @@ static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, cha
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/opts.c line 173
 static void add_branch(char *branch)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)uopt.branches, (unsigned long int)(uopt.nbranches + 1) * sizeof(struct anonymous$7) /*24ul*/ );
-  uopt.branches = (struct anonymous$7 *)return_value_realloc$1;
-  if(uopt.branches == ((struct anonymous$7 *)NULL))
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)uopt.branches, (unsigned long int)(uopt.nbranches + 1) * sizeof(struct anonymous_7) /*24ul*/ );
+  uopt.branches = (struct anonymous_7 *)return_value_realloc_1;
+  if(uopt.branches == ((struct anonymous_7 *)NULL))
   {
     fprintf(stderr, "%s: realloc failed\n", (const void *)"add_branch");
     exit(1);
@@ -1911,40 +1911,40 @@ static void add_branch(char *branch)
 
   char *res;
   char **ptr = (char **)&branch;
-  char *tmp_statement_expression$2;
+  char *tmp_statement_expression_2;
   char __r0;
   char __r1;
   char __r2;
-  char *return_value___strsep_g$3;
-  return_value___strsep_g$3=__strsep_g(ptr, "=");
-  tmp_statement_expression$2 = return_value___strsep_g$3;
-  res = tmp_statement_expression$2;
-  char *tmp_statement_expression$5;
-  signed int return_value_strcasecmp$7;
+  char *return_value___strsep_g_3;
+  return_value___strsep_g_3=__strsep_g(ptr, "=");
+  tmp_statement_expression_2 = return_value___strsep_g_3;
+  res = tmp_statement_expression_2;
+  char *tmp_statement_expression_5;
+  signed int return_value_strcasecmp_7;
   if(!(res == ((char *)NULL)))
   {
-    char *return_value___strdup$4;
-    return_value___strdup$4=__strdup(res);
-    (uopt.branches + (signed long int)uopt.nbranches)->path = return_value___strdup$4;
+    char *return_value___strdup_4;
+    return_value___strdup_4=__strdup(res);
+    (uopt.branches + (signed long int)uopt.nbranches)->path = return_value___strdup_4;
     (uopt.branches + (signed long int)uopt.nbranches)->rw = (unsigned char)0;
-    char add_branch$$1$$4$$__r0;
-    char add_branch$$1$$4$$__r1;
-    char add_branch$$1$$4$$__r2;
-    char *return_value___strsep_g$6;
-    return_value___strsep_g$6=__strsep_g(ptr, "=");
-    tmp_statement_expression$5 = return_value___strsep_g$6;
-    res = tmp_statement_expression$5;
+    char add_branch__1__4____r0;
+    char add_branch__1__4____r1;
+    char add_branch__1__4____r2;
+    char *return_value___strsep_g_6;
+    return_value___strsep_g_6=__strsep_g(ptr, "=");
+    tmp_statement_expression_5 = return_value___strsep_g_6;
+    res = tmp_statement_expression_5;
     if(!(res == ((char *)NULL)))
     {
-      signed int return_value_strcasecmp$8;
-      return_value_strcasecmp$8=strcasecmp(res, "rw");
-      if(return_value_strcasecmp$8 == 0)
+      signed int return_value_strcasecmp_8;
+      return_value_strcasecmp_8=strcasecmp(res, "rw");
+      if(return_value_strcasecmp_8 == 0)
         (uopt.branches + (signed long int)uopt.nbranches)->rw = (unsigned char)1;
 
       else
       {
-        return_value_strcasecmp$7=strcasecmp(res, "ro");
-        if(!(return_value_strcasecmp$7 == 0))
+        return_value_strcasecmp_7=strcasecmp(res, "ro");
+        if(!(return_value_strcasecmp_7 == 0))
           fprintf(stderr, "Failed to parse RO/RW flag, setting RO.\n");
 
       }
@@ -1960,17 +1960,17 @@ static void add_branch(char *branch)
 char * add_trailing_slash(char *path)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  len = (signed int)return_value_strlen_1;
   if((signed int)path[(signed long int)(len + -1)] == 47)
     return path;
 
   else
   {
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)path, (unsigned long int)(len + 2));
-    path = (char *)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)path, (unsigned long int)(len + 2));
+    path = (char *)return_value_realloc_2;
     if(path == ((char *)NULL))
     {
       fprintf(stderr, "%s: realloc() failed, aborting\n", (const void *)"add_trailing_slash");
@@ -2031,9 +2031,9 @@ signed int build_path(char *path, signed int max_len, const char *callfunc, sign
     }
 
     va_end(ap);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(str);
-    len = len + (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(str);
+    len = len + (signed int)return_value_strlen_1;
     if(!(max_len >= 1 + len))
     {
 
@@ -2043,12 +2043,12 @@ signed int build_path(char *path, signed int max_len, const char *callfunc, sign
       {
         if(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *build_path$$1$$1$$2$$1$$1$$dbgfile;
-          build_path$$1$$1$$2$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *build_path__1__1__2__1__1__dbgfile;
+          build_path__1__1__2__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"build_path", 116);
-          fprintf(build_path$$1$$1$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"build_path", 116);
+          fprintf(build_path__1__1__2__1__1__dbgfile, "%s(): %d: ", (const void *)"build_path", 116);
           fprintf(stderr, "%s():%d Path too long \n", callfunc, line);
-          fprintf(build_path$$1$$1$$2$$1$$1$$dbgfile, "%s():%d Path too long \n", callfunc, line);
+          fprintf(build_path__1__1__2__1__1__dbgfile, "%s():%d Path too long \n", callfunc, line);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -2057,31 +2057,31 @@ signed int build_path(char *path, signed int max_len, const char *callfunc, sign
         usyslog(4, "%s():%d Path too long \n", callfunc, line);
       }
       while((_Bool)0);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 36;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 36;
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *build_path$$1$$1$$2$$2$$1$$dbgfile;
-          build_path$$1$$1$$2$$2$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *build_path__1__1__2__2__1__dbgfile;
+          build_path__1__1__2__2__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"build_path", 118);
-          fprintf(build_path$$1$$1$$2$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"build_path", 118);
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          fprintf(stderr, "return %d\n", -(*return_value___errno_location$3));
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          fprintf(build_path$$1$$1$$2$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$4));
+          fprintf(build_path__1__1__2__2__1__dbgfile, "%s(): %d: ", (const void *)"build_path", 118);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          fprintf(stderr, "return %d\n", -(*return_value___errno_location_3));
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          fprintf(build_path__1__1__2__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_4));
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
           break;
         }
 
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      return -(*return_value___errno_location$5);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      return -(*return_value___errno_location_5);
     }
 
     strcat(path, str);
@@ -2095,12 +2095,12 @@ signed int build_path(char *path, signed int max_len, const char *callfunc, sign
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *build_path$$1$$2$$1$$1$$dbgfile;
-        build_path$$1$$2$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *build_path__1__2__1__1__dbgfile;
+        build_path__1__2__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"build_path", 125);
-        fprintf(build_path$$1$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"build_path", 125);
+        fprintf(build_path__1__2__1__1__dbgfile, "%s(): %d: ", (const void *)"build_path", 125);
         fprintf(stderr, "from: %s():%d : No argument given?\n", callfunc, line);
-        fprintf(build_path$$1$$2$$1$$1$$dbgfile, "from: %s():%d : No argument given?\n", callfunc, line);
+        fprintf(build_path__1__2__1__1__dbgfile, "from: %s():%d : No argument given?\n", callfunc, line);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2109,41 +2109,41 @@ signed int build_path(char *path, signed int max_len, const char *callfunc, sign
       usyslog(3, "from: %s():%d : No argument given?\n", callfunc, line);
     }
     while((_Bool)0);
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    *return_value___errno_location$6 = 5;
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    *return_value___errno_location_6 = 5;
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *build_path$$1$$2$$2$$1$$dbgfile;
-        build_path$$1$$2$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *build_path__1__2__2__1__dbgfile;
+        build_path__1__2__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"build_path", 127);
-        fprintf(build_path$$1$$2$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"build_path", 127);
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$7));
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        fprintf(build_path$$1$$2$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$8));
+        fprintf(build_path__1__2__2__1__dbgfile, "%s(): %d: ", (const void *)"build_path", 127);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_7));
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        fprintf(build_path__1__2__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_8));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    return -(*return_value___errno_location$9);
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    return -(*return_value___errno_location_9);
   }
 
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *build_path$$1$$3$$dbgfile;
-    build_path$$1$$3$$dbgfile=get_dbgfile();
+    struct _IO_FILE *build_path__1__3__dbgfile;
+    build_path__1__3__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"build_path", 130);
-    fprintf(build_path$$1$$3$$dbgfile, "%s(): %d: ", (const void *)"build_path", 130);
+    fprintf(build_path__1__3__dbgfile, "%s(): %d: ", (const void *)"build_path", 130);
     fprintf(stderr, "from: %s():%d path: %s\n", callfunc, line, str_ptr);
-    fprintf(build_path$$1$$3$$dbgfile, "from: %s():%d path: %s\n", callfunc, line, str_ptr);
+    fprintf(build_path__1__3__dbgfile, "from: %s():%d path: %s\n", callfunc, line, str_ptr);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -2152,12 +2152,12 @@ signed int build_path(char *path, signed int max_len, const char *callfunc, sign
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *build_path$$1$$4$$1$$dbgfile;
-      build_path$$1$$4$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *build_path__1__4__1__dbgfile;
+      build_path__1__4__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"build_path", 131);
-      fprintf(build_path$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"build_path", 131);
+      fprintf(build_path__1__4__1__dbgfile, "%s(): %d: ", (const void *)"build_path", 131);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(build_path$$1$$4$$1$$dbgfile, "return %d\n", 0);
+      fprintf(build_path__1__4__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -2173,12 +2173,12 @@ signed int copy_directory(const char *path, signed int branch_ro, signed int bra
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *copy_directory$$1$$1$$dbgfile;
-    copy_directory$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *copy_directory__1__1__dbgfile;
+    copy_directory__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"copy_directory", 186);
-    fprintf(copy_directory$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_directory", 186);
+    fprintf(copy_directory__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_directory", 186);
     fprintf(stderr, "%s\n", path);
-    fprintf(copy_directory$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(copy_directory__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -2191,12 +2191,12 @@ signed int copy_directory(const char *path, signed int branch_ro, signed int bra
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_directory$$1$$2$$1$$1$$dbgfile;
-        copy_directory$$1$$2$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_directory__1__2__1__1__dbgfile;
+        copy_directory__1__2__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_directory", 191);
-        fprintf(copy_directory$$1$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_directory", 191);
+        fprintf(copy_directory__1__2__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_directory", 191);
         fprintf(stderr, "return %d\n", res);
-        fprintf(copy_directory$$1$$2$$1$$1$$dbgfile, "return %d\n", res);
+        fprintf(copy_directory__1__2__1__1__dbgfile, "return %d\n", res);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2207,19 +2207,19 @@ signed int copy_directory(const char *path, signed int branch_ro, signed int bra
   }
 
   char from[1024l];
-  signed int return_value_build_path$1;
-  return_value_build_path$1=build_path(from, 1024, "copy_directory", 196, (uopt.branches + (signed long int)branch_ro)->path, path, (void *)0);
-  if(!(return_value_build_path$1 == 0))
+  signed int return_value_build_path_1;
+  return_value_build_path_1=build_path(from, 1024, "copy_directory", 196, (uopt.branches + (signed long int)branch_ro)->path, path, (void *)0);
+  if(!(return_value_build_path_1 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_directory$$1$$3$$1$$dbgfile;
-        copy_directory$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_directory__1__3__1__dbgfile;
+        copy_directory__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_directory", 196);
-        fprintf(copy_directory$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_directory", 196);
+        fprintf(copy_directory__1__3__1__dbgfile, "%s(): %d: ", (const void *)"copy_directory", 196);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(copy_directory$$1$$3$$1$$dbgfile, "return %d\n", 1);
+        fprintf(copy_directory__1__3__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2236,12 +2236,12 @@ signed int copy_directory(const char *path, signed int branch_ro, signed int bra
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_directory$$1$$4$$1$$dbgfile;
-        copy_directory$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_directory__1__4__1__dbgfile;
+        copy_directory__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_directory", 199);
-        fprintf(copy_directory$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_directory", 199);
+        fprintf(copy_directory__1__4__1__dbgfile, "%s(): %d: ", (const void *)"copy_directory", 199);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(copy_directory$$1$$4$$1$$dbgfile, "return %d\n", 1);
+        fprintf(copy_directory__1__4__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2252,9 +2252,9 @@ signed int copy_directory(const char *path, signed int branch_ro, signed int bra
   }
 
   struct dirent *de;
-  signed int tmp_statement_expression$2;
-  _Bool tmp_if_expr$6;
-  signed int tmp_statement_expression$4;
+  signed int tmp_statement_expression_2;
+  _Bool tmp_if_expr_6;
+  signed int tmp_statement_expression_4;
   do
   {
     de=readdir(dp);
@@ -2263,27 +2263,27 @@ signed int copy_directory(const char *path, signed int branch_ro, signed int bra
 
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$3;
-    return_value___builtin_strcmp$3=__builtin_strcmp(de->d_name, ".");
-    tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-    if(tmp_statement_expression$2 == 0)
-      tmp_if_expr$6 = (_Bool)1;
+    signed int return_value___builtin_strcmp_3;
+    return_value___builtin_strcmp_3=__builtin_strcmp(de->d_name, ".");
+    tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+    if(tmp_statement_expression_2 == 0)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      unsigned long int copy_directory$$1$$5$$2$$__s1_len;
-      unsigned long int copy_directory$$1$$5$$2$$__s2_len;
-      signed int return_value___builtin_strcmp$5;
-      return_value___builtin_strcmp$5=__builtin_strcmp(de->d_name, "..");
-      tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-      tmp_if_expr$6 = tmp_statement_expression$4 == 0 ? (_Bool)1 : (_Bool)0;
+      unsigned long int copy_directory__1__5__2____s1_len;
+      unsigned long int copy_directory__1__5__2____s2_len;
+      signed int return_value___builtin_strcmp_5;
+      return_value___builtin_strcmp_5=__builtin_strcmp(de->d_name, "..");
+      tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+      tmp_if_expr_6 = tmp_statement_expression_4 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$6)
+    if(!tmp_if_expr_6)
     {
       char member[1024l];
-      signed int return_value_build_path$7;
-      return_value_build_path$7=build_path(member, 1024, "copy_directory", 206, path, (const void *)"/", (const void *)de->d_name, (void *)0);
-      if(!(return_value_build_path$7 == 0))
+      signed int return_value_build_path_7;
+      return_value_build_path_7=build_path(member, 1024, "copy_directory", 206, path, (const void *)"/", (const void *)de->d_name, (void *)0);
+      if(!(return_value_build_path_7 == 0))
       {
         res = 1;
         break;
@@ -2301,12 +2301,12 @@ signed int copy_directory(const char *path, signed int branch_ro, signed int bra
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *copy_directory$$1$$6$$1$$dbgfile;
-      copy_directory$$1$$6$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *copy_directory__1__6__1__dbgfile;
+      copy_directory__1__6__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"copy_directory", 215);
-      fprintf(copy_directory$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_directory", 215);
+      fprintf(copy_directory__1__6__1__dbgfile, "%s(): %d: ", (const void *)"copy_directory", 215);
       fprintf(stderr, "return %d\n", res);
-      fprintf(copy_directory$$1$$6$$1$$dbgfile, "return %d\n", res);
+      fprintf(copy_directory__1__6__1__dbgfile, "return %d\n", res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -2322,20 +2322,20 @@ signed int copy_fifo(struct cow *cow)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *copy_fifo$$1$$1$$dbgfile;
-    copy_fifo$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *copy_fifo__1__1__dbgfile;
+    copy_fifo__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"copy_fifo", 265);
-    fprintf(copy_fifo$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_fifo", 265);
+    fprintf(copy_fifo__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_fifo", 265);
     fprintf(stderr, "from %s to %s\n", cow->from_path, cow->to_path);
-    fprintf(copy_fifo$$1$$1$$dbgfile, "from %s to %s\n", cow->from_path, cow->to_path);
+    fprintf(copy_fifo__1__1__dbgfile, "from %s to %s\n", cow->from_path, cow->to_path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
-  signed int return_value_mkfifo$1;
-  return_value_mkfifo$1=mkfifo(cow->to_path, cow->stat->st_mode);
-  if(!(return_value_mkfifo$1 == 0))
+  signed int return_value_mkfifo_1;
+  return_value_mkfifo_1=mkfifo(cow->to_path, cow->stat->st_mode);
+  if(!(return_value_mkfifo_1 == 0))
   {
 
   __CPROVER_DUMP_L3:
@@ -2344,12 +2344,12 @@ signed int copy_fifo(struct cow *cow)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_fifo$$1$$2$$1$$1$$dbgfile;
-        copy_fifo$$1$$2$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_fifo__1__2__1__1__dbgfile;
+        copy_fifo__1__2__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_fifo", 268);
-        fprintf(copy_fifo$$1$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_fifo", 268);
+        fprintf(copy_fifo__1__2__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_fifo", 268);
         fprintf(stderr, "mkfifo: %s", cow->to_path);
-        fprintf(copy_fifo$$1$$2$$1$$1$$dbgfile, "mkfifo: %s", cow->to_path);
+        fprintf(copy_fifo__1__2__1__1__dbgfile, "mkfifo: %s", cow->to_path);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2361,12 +2361,12 @@ signed int copy_fifo(struct cow *cow)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_fifo$$1$$2$$2$$1$$dbgfile;
-        copy_fifo$$1$$2$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_fifo__1__2__2__1__dbgfile;
+        copy_fifo__1__2__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_fifo", 269);
-        fprintf(copy_fifo$$1$$2$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_fifo", 269);
+        fprintf(copy_fifo__1__2__2__1__dbgfile, "%s(): %d: ", (const void *)"copy_fifo", 269);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(copy_fifo$$1$$2$$2$$1$$dbgfile, "return %d\n", 1);
+        fprintf(copy_fifo__1__2__2__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2379,25 +2379,25 @@ signed int copy_fifo(struct cow *cow)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *copy_fifo$$1$$3$$1$$dbgfile;
-      copy_fifo$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *copy_fifo__1__3__1__dbgfile;
+      copy_fifo__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"copy_fifo", 271);
-      fprintf(copy_fifo$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_fifo", 271);
-      signed int return_value_setfile$2;
-      return_value_setfile$2=setfile(cow->to_path, cow->stat);
-      fprintf(stderr, "return %d\n", return_value_setfile$2);
-      signed int return_value_setfile$3;
-      return_value_setfile$3=setfile(cow->to_path, cow->stat);
-      fprintf(copy_fifo$$1$$3$$1$$dbgfile, "return %d\n", return_value_setfile$3);
+      fprintf(copy_fifo__1__3__1__dbgfile, "%s(): %d: ", (const void *)"copy_fifo", 271);
+      signed int return_value_setfile_2;
+      return_value_setfile_2=setfile(cow->to_path, cow->stat);
+      fprintf(stderr, "return %d\n", return_value_setfile_2);
+      signed int return_value_setfile_3;
+      return_value_setfile_3=setfile(cow->to_path, cow->stat);
+      fprintf(copy_fifo__1__3__1__dbgfile, "return %d\n", return_value_setfile_3);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
       break;
     }
 
-  signed int return_value_setfile$4;
-  return_value_setfile$4=setfile(cow->to_path, cow->stat);
-  return return_value_setfile$4;
+  signed int return_value_setfile_4;
+  return_value_setfile_4=setfile(cow->to_path, cow->stat);
+  return return_value_setfile_4;
 }
 
 // copy_file
@@ -2406,12 +2406,12 @@ signed int copy_file(struct cow *cow)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *copy_file$$1$$1$$dbgfile;
-    copy_file$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *copy_file__1__1__dbgfile;
+    copy_file__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 135);
-    fprintf(copy_file$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 135);
+    fprintf(copy_file__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 135);
     fprintf(stderr, "from %s to %s\n", cow->from_path, cow->to_path);
-    fprintf(copy_file$$1$$1$$dbgfile, "from %s to %s\n", cow->from_path, cow->to_path);
+    fprintf(copy_file__1__1__dbgfile, "from %s to %s\n", cow->from_path, cow->to_path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -2435,12 +2435,12 @@ signed int copy_file(struct cow *cow)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_file$$1$$2$$1$$1$$dbgfile;
-        copy_file$$1$$2$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_file__1__2__1__1__dbgfile;
+        copy_file__1__2__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 146);
-        fprintf(copy_file$$1$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 146);
+        fprintf(copy_file__1__2__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 146);
         fprintf(stderr, "%s", cow->from_path);
-        fprintf(copy_file$$1$$2$$1$$1$$dbgfile, "%s", cow->from_path);
+        fprintf(copy_file__1__2__1__1__dbgfile, "%s", cow->from_path);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2452,12 +2452,12 @@ signed int copy_file(struct cow *cow)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_file$$1$$2$$2$$1$$dbgfile;
-        copy_file$$1$$2$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_file__1__2__2__1__dbgfile;
+        copy_file__1__2__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 147);
-        fprintf(copy_file$$1$$2$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 147);
+        fprintf(copy_file__1__2__2__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 147);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(copy_file$$1$$2$$2$$1$$dbgfile, "return %d\n", 1);
+        fprintf(copy_file__1__2__2__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2478,12 +2478,12 @@ signed int copy_file(struct cow *cow)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_file$$1$$3$$1$$1$$dbgfile;
-        copy_file$$1$$3$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_file__1__3__1__1__dbgfile;
+        copy_file__1__3__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 156);
-        fprintf(copy_file$$1$$3$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 156);
+        fprintf(copy_file__1__3__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 156);
         fprintf(stderr, "%s", cow->to_path);
-        fprintf(copy_file$$1$$3$$1$$1$$dbgfile, "%s", cow->to_path);
+        fprintf(copy_file__1__3__1__1__dbgfile, "%s", cow->to_path);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2496,12 +2496,12 @@ signed int copy_file(struct cow *cow)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_file$$1$$3$$2$$1$$dbgfile;
-        copy_file$$1$$3$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_file__1__3__2__1__dbgfile;
+        copy_file__1__3__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 158);
-        fprintf(copy_file$$1$$3$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 158);
+        fprintf(copy_file__1__3__2__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 158);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(copy_file$$1$$3$$2$$1$$dbgfile, "return %d\n", 1);
+        fprintf(copy_file__1__3__2__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2511,18 +2511,18 @@ signed int copy_file(struct cow *cow)
     return 1;
   }
 
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(fs->st_size >= 1l)
-    tmp_if_expr$6 = fs->st_size <= (signed long int)(8 * 1048576) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_6 = fs->st_size <= (signed long int)(8 * 1048576) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  signed long int return_value_read$4;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (_Bool)0;
+  signed long int return_value_read_4;
+  if(tmp_if_expr_6)
   {
-    void *return_value_mmap$3;
-    return_value_mmap$3=mmap((void *)0, (unsigned long int)fs->st_size, 0x1, 0 | 0x01, from_fd, (signed long int)0);
-    p = (char *)return_value_mmap$3;
+    void *return_value_mmap_3;
+    return_value_mmap_3=mmap((void *)0, (unsigned long int)fs->st_size, 0x1, 0 | 0x01, from_fd, (signed long int)0);
+    p = (char *)return_value_mmap_3;
     if(p == (char *)-1)
     {
 
@@ -2532,12 +2532,12 @@ signed int copy_file(struct cow *cow)
       {
         if(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *copy_file$$1$$4$$1$$1$$1$$dbgfile;
-          copy_file$$1$$4$$1$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *copy_file__1__4__1__1__1__dbgfile;
+          copy_file__1__4__1__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 170);
-          fprintf(copy_file$$1$$4$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 170);
+          fprintf(copy_file__1__4__1__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 170);
           fprintf(stderr, "mmap: %s", cow->from_path);
-          fprintf(copy_file$$1$$4$$1$$1$$1$$dbgfile, "mmap: %s", cow->from_path);
+          fprintf(copy_file__1__4__1__1__1__dbgfile, "mmap: %s", cow->from_path);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -2552,9 +2552,9 @@ signed int copy_file(struct cow *cow)
     else
     {
       madvise((void *)p, (unsigned long int)fs->st_size, 2);
-      signed long int return_value_write$1;
-      return_value_write$1=write(to_fd, (const void *)p, (unsigned long int)fs->st_size);
-      if(!(return_value_write$1 == fs->st_size))
+      signed long int return_value_write_1;
+      return_value_write_1=write(to_fd, (const void *)p, (unsigned long int)fs->st_size);
+      if(!(return_value_write_1 == fs->st_size))
       {
 
       __CPROVER_DUMP_L20:
@@ -2563,12 +2563,12 @@ signed int copy_file(struct cow *cow)
         {
           if(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *copy_file$$1$$4$$2$$1$$1$$1$$dbgfile;
-            copy_file$$1$$4$$2$$1$$1$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *copy_file__1__4__2__1__1__1__dbgfile;
+            copy_file__1__4__2__1__1__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 175);
-            fprintf(copy_file$$1$$4$$2$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 175);
+            fprintf(copy_file__1__4__2__1__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 175);
             fprintf(stderr, "%s", cow->to_path);
-            fprintf(copy_file$$1$$4$$2$$1$$1$$1$$dbgfile, "%s", cow->to_path);
+            fprintf(copy_file__1__4__2__1__1__1__dbgfile, "%s", cow->to_path);
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
@@ -2580,9 +2580,9 @@ signed int copy_file(struct cow *cow)
         rval = 1;
       }
 
-      signed int return_value_munmap$2;
-      return_value_munmap$2=munmap((void *)p, (unsigned long int)fs->st_size);
-      if(!(return_value_munmap$2 >= 0))
+      signed int return_value_munmap_2;
+      return_value_munmap_2=munmap((void *)p, (unsigned long int)fs->st_size);
+      if(!(return_value_munmap_2 >= 0))
       {
 
       __CPROVER_DUMP_L23:
@@ -2591,12 +2591,12 @@ signed int copy_file(struct cow *cow)
         {
           if(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *copy_file$$1$$4$$2$$2$$1$$1$$dbgfile;
-            copy_file$$1$$4$$2$$2$$1$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *copy_file__1__4__2__2__1__1__dbgfile;
+            copy_file__1__4__2__2__1__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 180);
-            fprintf(copy_file$$1$$4$$2$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 180);
+            fprintf(copy_file__1__4__2__2__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 180);
             fprintf(stderr, "%s", cow->from_path);
-            fprintf(copy_file$$1$$4$$2$$2$$1$$1$$dbgfile, "%s", cow->from_path);
+            fprintf(copy_file__1__4__2__2__1__1__dbgfile, "%s", cow->from_path);
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
@@ -2616,14 +2616,14 @@ signed int copy_file(struct cow *cow)
     do
     {
       static char buf[4096l];
-      return_value_read$4=read(from_fd, (void *)buf, (unsigned long int)4096);
-      rcount = (signed int)return_value_read$4;
+      return_value_read_4=read(from_fd, (void *)buf, (unsigned long int)4096);
+      rcount = (signed int)return_value_read_4;
       if(!(rcount >= 1))
         break;
 
-      signed long int return_value_write$5;
-      return_value_write$5=write(to_fd, (const void *)buf, (unsigned long int)rcount);
-      wcount = (signed int)return_value_write$5;
+      signed long int return_value_write_5;
+      return_value_write_5=write(to_fd, (const void *)buf, (unsigned long int)rcount);
+      wcount = (signed int)return_value_write_5;
       if(wcount == -1 || !(rcount == wcount))
       {
 
@@ -2633,12 +2633,12 @@ signed int copy_file(struct cow *cow)
         {
           if(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *copy_file$$1$$5$$1$$1$$1$$1$$dbgfile;
-            copy_file$$1$$5$$1$$1$$1$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *copy_file__1__5__1__1__1__1__dbgfile;
+            copy_file__1__5__1__1__1__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 190);
-            fprintf(copy_file$$1$$5$$1$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 190);
+            fprintf(copy_file__1__5__1__1__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 190);
             fprintf(stderr, "%s", cow->to_path);
-            fprintf(copy_file$$1$$5$$1$$1$$1$$1$$dbgfile, "%s", cow->to_path);
+            fprintf(copy_file__1__5__1__1__1__1__dbgfile, "%s", cow->to_path);
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
@@ -2662,12 +2662,12 @@ signed int copy_file(struct cow *cow)
       {
         if(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *copy_file$$1$$5$$2$$1$$1$$dbgfile;
-          copy_file$$1$$5$$2$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *copy_file__1__5__2__1__1__dbgfile;
+          copy_file__1__5__2__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 196);
-          fprintf(copy_file$$1$$5$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 196);
+          fprintf(copy_file__1__5__2__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 196);
           fprintf(stderr, "copy failed: %s", cow->from_path);
-          fprintf(copy_file$$1$$5$$2$$1$$1$$dbgfile, "copy failed: %s", cow->from_path);
+          fprintf(copy_file__1__5__2__1__1__dbgfile, "copy failed: %s", cow->from_path);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -2687,12 +2687,12 @@ signed int copy_file(struct cow *cow)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_file$$1$$6$$1$$1$$dbgfile;
-        copy_file$$1$$6$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_file__1__6__1__1__dbgfile;
+        copy_file__1__6__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 204);
-        fprintf(copy_file$$1$$6$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 204);
+        fprintf(copy_file__1__6__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 204);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(copy_file$$1$$6$$1$$1$$dbgfile, "return %d\n", 1);
+        fprintf(copy_file__1__6__1__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2702,10 +2702,10 @@ signed int copy_file(struct cow *cow)
     return 1;
   }
 
-  signed int return_value_setfile$9;
-  return_value_setfile$9=setfile(cow->to_path, cow->stat);
-  signed int return_value_fchmod$7;
-  if(!(return_value_setfile$9 == 0))
+  signed int return_value_setfile_9;
+  return_value_setfile_9=setfile(cow->to_path, cow->stat);
+  signed int return_value_fchmod_7;
+  if(!(return_value_setfile_9 == 0))
     rval = 1;
 
   else
@@ -2713,9 +2713,9 @@ signed int copy_file(struct cow *cow)
     {
       if(fs->st_uid == cow->uid)
       {
-        signed int return_value_fstat$8;
-        return_value_fstat$8=fstat(to_fd, &to_stat);
-        if(!(return_value_fstat$8 == 0))
+        signed int return_value_fstat_8;
+        return_value_fstat_8=fstat(to_fd, &to_stat);
+        if(!(return_value_fstat_8 == 0))
         {
 
         __CPROVER_DUMP_L41:
@@ -2724,12 +2724,12 @@ signed int copy_file(struct cow *cow)
           {
             if(!(uopt.debug == (_Bool)0))
             {
-              struct _IO_FILE *copy_file$$1$$7$$1$$1$$1$$dbgfile;
-              copy_file$$1$$7$$1$$1$$1$$dbgfile=get_dbgfile();
+              struct _IO_FILE *copy_file__1__7__1__1__1__dbgfile;
+              copy_file__1__7__1__1__1__dbgfile=get_dbgfile();
               fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 217);
-              fprintf(copy_file$$1$$7$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 217);
+              fprintf(copy_file__1__7__1__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 217);
               fprintf(stderr, "%s", cow->to_path);
-              fprintf(copy_file$$1$$7$$1$$1$$1$$dbgfile, "%s", cow->to_path);
+              fprintf(copy_file__1__7__1__1__1__dbgfile, "%s", cow->to_path);
               fflush(stderr);
               fflush(stdout);
               put_dbgfile();
@@ -2744,8 +2744,8 @@ signed int copy_file(struct cow *cow)
         else
           if(fs->st_gid == to_stat.st_gid)
           {
-            return_value_fchmod$7=fchmod(to_fd, fs->st_mode & (unsigned int)(04000 | 02000 | 01000 | 0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3) & ~cow->umask);
-            if(!(return_value_fchmod$7 == 0))
+            return_value_fchmod_7=fchmod(to_fd, fs->st_mode & (unsigned int)(04000 | 02000 | 01000 | 0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3) & ~cow->umask);
+            if(!(return_value_fchmod_7 == 0))
             {
 
             __CPROVER_DUMP_L44:
@@ -2754,12 +2754,12 @@ signed int copy_file(struct cow *cow)
               {
                 if(!(uopt.debug == (_Bool)0))
                 {
-                  struct _IO_FILE *copy_file$$1$$7$$2$$1$$1$$dbgfile;
-                  copy_file$$1$$7$$2$$1$$1$$dbgfile=get_dbgfile();
+                  struct _IO_FILE *copy_file__1__7__2__1__1__dbgfile;
+                  copy_file__1__7__2__1__1__dbgfile=get_dbgfile();
                   fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 221);
-                  fprintf(copy_file$$1$$7$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 221);
+                  fprintf(copy_file__1__7__2__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 221);
                   fprintf(stderr, "%s", cow->to_path);
-                  fprintf(copy_file$$1$$7$$2$$1$$1$$dbgfile, "%s", cow->to_path);
+                  fprintf(copy_file__1__7__2__1__1__dbgfile, "%s", cow->to_path);
                   fflush(stderr);
                   fflush(stdout);
                   put_dbgfile();
@@ -2778,9 +2778,9 @@ signed int copy_file(struct cow *cow)
     }
 
   close(from_fd);
-  signed int return_value_close$10;
-  return_value_close$10=close(to_fd);
-  if(!(return_value_close$10 == 0))
+  signed int return_value_close_10;
+  return_value_close_10=close(to_fd);
+  if(!(return_value_close_10 == 0))
   {
 
   __CPROVER_DUMP_L48:
@@ -2789,12 +2789,12 @@ signed int copy_file(struct cow *cow)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_file$$1$$8$$1$$1$$dbgfile;
-        copy_file$$1$$8$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_file__1__8__1__1__dbgfile;
+        copy_file__1__8__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 227);
-        fprintf(copy_file$$1$$8$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 227);
+        fprintf(copy_file__1__8__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 227);
         fprintf(stderr, "%s", cow->to_path);
-        fprintf(copy_file$$1$$8$$1$$1$$dbgfile, "%s", cow->to_path);
+        fprintf(copy_file__1__8__1__1__dbgfile, "%s", cow->to_path);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2809,12 +2809,12 @@ signed int copy_file(struct cow *cow)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *copy_file$$1$$9$$1$$dbgfile;
-      copy_file$$1$$9$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *copy_file__1__9__1__dbgfile;
+      copy_file__1__9__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"copy_file", 231);
-      fprintf(copy_file$$1$$9$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_file", 231);
+      fprintf(copy_file__1__9__1__dbgfile, "%s(): %d: ", (const void *)"copy_file", 231);
       fprintf(stderr, "return %d\n", rval);
-      fprintf(copy_file$$1$$9$$1$$dbgfile, "return %d\n", rval);
+      fprintf(copy_file__1__9__1__dbgfile, "return %d\n", rval);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -2830,22 +2830,22 @@ signed int copy_link(struct cow *cow)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *copy_link$$1$$1$$dbgfile;
-    copy_link$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *copy_link__1__1__dbgfile;
+    copy_link__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"copy_link", 239);
-    fprintf(copy_link$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_link", 239);
+    fprintf(copy_link__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_link", 239);
     fprintf(stderr, "from %s to %s\n", cow->from_path, cow->to_path);
-    fprintf(copy_link$$1$$1$$dbgfile, "from %s to %s\n", cow->from_path, cow->to_path);
+    fprintf(copy_link__1__1__dbgfile, "from %s to %s\n", cow->from_path, cow->to_path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   signed int len;
-  char copy_link$$1$$link[1024l];
-  signed long int return_value_readlink$1;
-  return_value_readlink$1=readlink(cow->from_path, copy_link$$1$$link, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
-  len = (signed int)return_value_readlink$1;
+  char copy_link__1__link[1024l];
+  signed long int return_value_readlink_1;
+  return_value_readlink_1=readlink(cow->from_path, copy_link__1__link, sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
+  len = (signed int)return_value_readlink_1;
   if(len == -1)
   {
 
@@ -2855,12 +2855,12 @@ signed int copy_link(struct cow *cow)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_link$$1$$2$$1$$1$$dbgfile;
-        copy_link$$1$$2$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_link__1__2__1__1__dbgfile;
+        copy_link__1__2__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_link", 245);
-        fprintf(copy_link$$1$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_link", 245);
+        fprintf(copy_link__1__2__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_link", 245);
         fprintf(stderr, "readlink: %s", cow->from_path);
-        fprintf(copy_link$$1$$2$$1$$1$$dbgfile, "readlink: %s", cow->from_path);
+        fprintf(copy_link__1__2__1__1__dbgfile, "readlink: %s", cow->from_path);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2872,12 +2872,12 @@ signed int copy_link(struct cow *cow)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_link$$1$$2$$2$$1$$dbgfile;
-        copy_link$$1$$2$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_link__1__2__2__1__dbgfile;
+        copy_link__1__2__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_link", 246);
-        fprintf(copy_link$$1$$2$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_link", 246);
+        fprintf(copy_link__1__2__2__1__dbgfile, "%s(): %d: ", (const void *)"copy_link", 246);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(copy_link$$1$$2$$2$$1$$dbgfile, "return %d\n", 1);
+        fprintf(copy_link__1__2__2__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2887,10 +2887,10 @@ signed int copy_link(struct cow *cow)
     return 1;
   }
 
-  copy_link$$1$$link[(signed long int)len] = (char)0;
-  signed int return_value_symlink$2;
-  return_value_symlink$2=symlink(copy_link$$1$$link, cow->to_path);
-  if(!(return_value_symlink$2 == 0))
+  copy_link__1__link[(signed long int)len] = (char)0;
+  signed int return_value_symlink_2;
+  return_value_symlink_2=symlink(copy_link__1__link, cow->to_path);
+  if(!(return_value_symlink_2 == 0))
   {
 
   __CPROVER_DUMP_L9:
@@ -2899,29 +2899,29 @@ signed int copy_link(struct cow *cow)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_link$$1$$3$$1$$1$$dbgfile;
-        copy_link$$1$$3$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_link__1__3__1__1__dbgfile;
+        copy_link__1__3__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_link", 252);
-        fprintf(copy_link$$1$$3$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_link", 252);
-        fprintf(stderr, "symlink: %s", (const void *)copy_link$$1$$link);
-        fprintf(copy_link$$1$$3$$1$$1$$dbgfile, "symlink: %s", (const void *)copy_link$$1$$link);
+        fprintf(copy_link__1__3__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_link", 252);
+        fprintf(stderr, "symlink: %s", (const void *)copy_link__1__link);
+        fprintf(copy_link__1__3__1__1__dbgfile, "symlink: %s", (const void *)copy_link__1__link);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
       }
 
-      usyslog(4, "symlink: %s", (const void *)copy_link$$1$$link);
+      usyslog(4, "symlink: %s", (const void *)copy_link__1__link);
     }
     while((_Bool)0);
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_link$$1$$3$$2$$1$$dbgfile;
-        copy_link$$1$$3$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_link__1__3__2__1__dbgfile;
+        copy_link__1__3__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_link", 253);
-        fprintf(copy_link$$1$$3$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_link", 253);
+        fprintf(copy_link__1__3__2__1__dbgfile, "%s(): %d: ", (const void *)"copy_link", 253);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(copy_link$$1$$3$$2$$1$$dbgfile, "return %d\n", 1);
+        fprintf(copy_link__1__3__2__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -2934,25 +2934,25 @@ signed int copy_link(struct cow *cow)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *copy_link$$1$$4$$1$$dbgfile;
-      copy_link$$1$$4$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *copy_link__1__4__1__dbgfile;
+      copy_link__1__4__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"copy_link", 256);
-      fprintf(copy_link$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_link", 256);
-      signed int return_value_setlink$3;
-      return_value_setlink$3=setlink(cow->to_path, cow->stat);
-      fprintf(stderr, "return %d\n", return_value_setlink$3);
-      signed int return_value_setlink$4;
-      return_value_setlink$4=setlink(cow->to_path, cow->stat);
-      fprintf(copy_link$$1$$4$$1$$dbgfile, "return %d\n", return_value_setlink$4);
+      fprintf(copy_link__1__4__1__dbgfile, "%s(): %d: ", (const void *)"copy_link", 256);
+      signed int return_value_setlink_3;
+      return_value_setlink_3=setlink(cow->to_path, cow->stat);
+      fprintf(stderr, "return %d\n", return_value_setlink_3);
+      signed int return_value_setlink_4;
+      return_value_setlink_4=setlink(cow->to_path, cow->stat);
+      fprintf(copy_link__1__4__1__dbgfile, "return %d\n", return_value_setlink_4);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
       break;
     }
 
-  signed int return_value_setlink$5;
-  return_value_setlink$5=setlink(cow->to_path, cow->stat);
-  return return_value_setlink$5;
+  signed int return_value_setlink_5;
+  return_value_setlink_5=setlink(cow->to_path, cow->stat);
+  return return_value_setlink_5;
 }
 
 // copy_special
@@ -2961,20 +2961,20 @@ signed int copy_special(struct cow *cow)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *copy_special$$1$$1$$dbgfile;
-    copy_special$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *copy_special__1__1__dbgfile;
+    copy_special__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"copy_special", 280);
-    fprintf(copy_special$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_special", 280);
+    fprintf(copy_special__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_special", 280);
     fprintf(stderr, "from %s to %s\n", cow->from_path, cow->to_path);
-    fprintf(copy_special$$1$$1$$dbgfile, "from %s to %s\n", cow->from_path, cow->to_path);
+    fprintf(copy_special__1__1__dbgfile, "from %s to %s\n", cow->from_path, cow->to_path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
-  signed int return_value_mknod$1;
-  return_value_mknod$1=mknod$link1(cow->to_path, cow->stat->st_mode, cow->stat->st_rdev);
-  if(!(return_value_mknod$1 == 0))
+  signed int return_value_mknod_1;
+  return_value_mknod_1=mknod_link1(cow->to_path, cow->stat->st_mode, cow->stat->st_rdev);
+  if(!(return_value_mknod_1 == 0))
   {
 
   __CPROVER_DUMP_L3:
@@ -2983,12 +2983,12 @@ signed int copy_special(struct cow *cow)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_special$$1$$2$$1$$1$$dbgfile;
-        copy_special$$1$$2$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_special__1__2__1__1__dbgfile;
+        copy_special__1__2__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_special", 283);
-        fprintf(copy_special$$1$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_special", 283);
+        fprintf(copy_special__1__2__1__1__dbgfile, "%s(): %d: ", (const void *)"copy_special", 283);
         fprintf(stderr, "mknod: %s", cow->to_path);
-        fprintf(copy_special$$1$$2$$1$$1$$dbgfile, "mknod: %s", cow->to_path);
+        fprintf(copy_special__1__2__1__1__dbgfile, "mknod: %s", cow->to_path);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3000,12 +3000,12 @@ signed int copy_special(struct cow *cow)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *copy_special$$1$$2$$2$$1$$dbgfile;
-        copy_special$$1$$2$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *copy_special__1__2__2__1__dbgfile;
+        copy_special__1__2__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"copy_special", 284);
-        fprintf(copy_special$$1$$2$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_special", 284);
+        fprintf(copy_special__1__2__2__1__dbgfile, "%s(): %d: ", (const void *)"copy_special", 284);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(copy_special$$1$$2$$2$$1$$dbgfile, "return %d\n", 1);
+        fprintf(copy_special__1__2__2__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3018,25 +3018,25 @@ signed int copy_special(struct cow *cow)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *copy_special$$1$$3$$1$$dbgfile;
-      copy_special$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *copy_special__1__3__1__dbgfile;
+      copy_special__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"copy_special", 286);
-      fprintf(copy_special$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"copy_special", 286);
-      signed int return_value_setfile$2;
-      return_value_setfile$2=setfile(cow->to_path, cow->stat);
-      fprintf(stderr, "return %d\n", return_value_setfile$2);
-      signed int return_value_setfile$3;
-      return_value_setfile$3=setfile(cow->to_path, cow->stat);
-      fprintf(copy_special$$1$$3$$1$$dbgfile, "return %d\n", return_value_setfile$3);
+      fprintf(copy_special__1__3__1__dbgfile, "%s(): %d: ", (const void *)"copy_special", 286);
+      signed int return_value_setfile_2;
+      return_value_setfile_2=setfile(cow->to_path, cow->stat);
+      fprintf(stderr, "return %d\n", return_value_setfile_2);
+      signed int return_value_setfile_3;
+      return_value_setfile_3=setfile(cow->to_path, cow->stat);
+      fprintf(copy_special__1__3__1__dbgfile, "return %d\n", return_value_setfile_3);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
       break;
     }
 
-  signed int return_value_setfile$4;
-  return_value_setfile$4=setfile(cow->to_path, cow->stat);
-  return return_value_setfile$4;
+  signed int return_value_setfile_4;
+  return_value_setfile_4=setfile(cow->to_path, cow->stat);
+  return return_value_setfile_4;
 }
 
 // cow_cp
@@ -3045,12 +3045,12 @@ signed int cow_cp(const char *path, signed int branch_ro, signed int branch_rw)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *cow_cp$$1$$1$$dbgfile;
-    cow_cp$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *cow_cp__1__1__dbgfile;
+    cow_cp__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"cow_cp", 129);
-    fprintf(cow_cp$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"cow_cp", 129);
+    fprintf(cow_cp__1__1__dbgfile, "%s(): %d: ", (const void *)"cow_cp", 129);
     fprintf(stderr, "%s\n", path);
-    fprintf(cow_cp$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(cow_cp__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -3059,19 +3059,19 @@ signed int cow_cp(const char *path, signed int branch_ro, signed int branch_rw)
   path_create_cutlast(path, branch_ro, branch_rw);
   char from[1024l];
   char to[1024l];
-  signed int return_value_build_path$1;
-  return_value_build_path$1=build_path(from, 1024, "cow_cp", 135, (uopt.branches + (signed long int)branch_ro)->path, path, (void *)0);
-  if(!(return_value_build_path$1 == 0))
+  signed int return_value_build_path_1;
+  return_value_build_path_1=build_path(from, 1024, "cow_cp", 135, (uopt.branches + (signed long int)branch_ro)->path, path, (void *)0);
+  if(!(return_value_build_path_1 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *cow_cp$$1$$2$$1$$dbgfile;
-        cow_cp$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *cow_cp__1__2__1__dbgfile;
+        cow_cp__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"cow_cp", 136);
-        fprintf(cow_cp$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"cow_cp", 136);
+        fprintf(cow_cp__1__2__1__dbgfile, "%s(): %d: ", (const void *)"cow_cp", 136);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(cow_cp$$1$$2$$1$$dbgfile, "return %d\n", -36);
+        fprintf(cow_cp__1__2__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3081,19 +3081,19 @@ signed int cow_cp(const char *path, signed int branch_ro, signed int branch_rw)
     return -36;
   }
 
-  signed int return_value_build_path$2;
-  return_value_build_path$2=build_path(to, 1024, "cow_cp", 137, (uopt.branches + (signed long int)branch_rw)->path, path, (void *)0);
-  if(!(return_value_build_path$2 == 0))
+  signed int return_value_build_path_2;
+  return_value_build_path_2=build_path(to, 1024, "cow_cp", 137, (uopt.branches + (signed long int)branch_rw)->path, path, (void *)0);
+  if(!(return_value_build_path_2 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *cow_cp$$1$$3$$1$$dbgfile;
-        cow_cp$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *cow_cp__1__3__1__dbgfile;
+        cow_cp__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"cow_cp", 138);
-        fprintf(cow_cp$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"cow_cp", 138);
+        fprintf(cow_cp__1__3__1__dbgfile, "%s(): %d: ", (const void *)"cow_cp", 138);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(cow_cp$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(cow_cp__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3111,7 +3111,7 @@ signed int cow_cp(const char *path, signed int branch_ro, signed int branch_rw)
   cow.from_path = from;
   cow.to_path = to;
   struct stat buf;
-  lstat$link3(cow.from_path, &buf);
+  lstat_link3(cow.from_path, &buf);
   cow.stat = &buf;
   signed int res;
   switch(buf.st_mode & (unsigned int)0170000)
@@ -3147,12 +3147,12 @@ signed int cow_cp(const char *path, signed int branch_ro, signed int branch_rw)
       {
         if(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *cow_cp$$1$$4$$1$$1$$dbgfile;
-          cow_cp$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *cow_cp__1__4__1__1__dbgfile;
+          cow_cp__1__4__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"cow_cp", 173);
-          fprintf(cow_cp$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"cow_cp", 173);
+          fprintf(cow_cp__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"cow_cp", 173);
           fprintf(stderr, "COW of sockets not supported: %s\n", cow.from_path);
-          fprintf(cow_cp$$1$$4$$1$$1$$dbgfile, "COW of sockets not supported: %s\n", cow.from_path);
+          fprintf(cow_cp__1__4__1__1__dbgfile, "COW of sockets not supported: %s\n", cow.from_path);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -3164,12 +3164,12 @@ signed int cow_cp(const char *path, signed int branch_ro, signed int branch_rw)
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *cow_cp$$1$$4$$2$$1$$dbgfile;
-          cow_cp$$1$$4$$2$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *cow_cp__1__4__2__1__dbgfile;
+          cow_cp__1__4__2__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"cow_cp", 174);
-          fprintf(cow_cp$$1$$4$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"cow_cp", 174);
+          fprintf(cow_cp__1__4__2__1__dbgfile, "%s(): %d: ", (const void *)"cow_cp", 174);
           fprintf(stderr, "return %d\n", 1);
-          fprintf(cow_cp$$1$$4$$2$$1$$dbgfile, "return %d\n", 1);
+          fprintf(cow_cp__1__4__2__1__dbgfile, "return %d\n", 1);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -3184,12 +3184,12 @@ signed int cow_cp(const char *path, signed int branch_ro, signed int branch_rw)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *cow_cp$$1$$5$$1$$dbgfile;
-      cow_cp$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *cow_cp__1__5__1__dbgfile;
+      cow_cp__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"cow_cp", 179);
-      fprintf(cow_cp$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"cow_cp", 179);
+      fprintf(cow_cp__1__5__1__dbgfile, "%s(): %d: ", (const void *)"cow_cp", 179);
       fprintf(stderr, "return %d\n", res);
-      fprintf(cow_cp$$1$$5$$1$$dbgfile, "return %d\n", res);
+      fprintf(cow_cp__1__5__1__dbgfile, "return %d\n", res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -3219,17 +3219,17 @@ struct hashtable * create_hashtable(unsigned int minsize, unsigned int (*hashf)(
         break;
       }
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct hashtable) /*48ul*/ );
-    h = (struct hashtable *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct hashtable) /*48ul*/ );
+    h = (struct hashtable *)return_value_malloc_1;
     if(h == ((struct hashtable *)NULL))
       return (struct hashtable *)(void *)0;
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct entry *) /*8ul*/  * (unsigned long int)size);
-      h->table = (struct entry **)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct entry *) /*8ul*/  * (unsigned long int)size);
+      h->table = (struct entry **)return_value_malloc_2;
       if(h->table == ((struct entry **)NULL))
       {
         free((void *)h);
@@ -3244,9 +3244,9 @@ struct hashtable * create_hashtable(unsigned int minsize, unsigned int (*hashf)(
         h->entrycount = (unsigned int)0;
         h->hashfn = hashf;
         h->eqfn = eqf;
-        signed int return_value_my_ceil$3;
-        return_value_my_ceil$3=my_ceil((float)size * max_load_factor);
-        h->loadlimit = (unsigned int)return_value_my_ceil$3;
+        signed int return_value_my_ceil_3;
+        return_value_my_ceil_3=my_ceil((float)size * max_load_factor);
+        h->loadlimit = (unsigned int)return_value_my_ceil_3;
         return h;
       }
     }
@@ -3269,11 +3269,11 @@ signed int debug_init(void)
   signed int res = 0;
   if(dbgfile == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    printf("Failed to open %s for writing: %s.\nAborting!\n", dbgpath, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    printf("Failed to open %s for writing: %s.\nAborting!\n", dbgpath, return_value_strerror_2);
     dbgfile = old_dbgfile;
     res = 2;
   }
@@ -3294,12 +3294,12 @@ signed int dir_not_empty(const char *path)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *dir_not_empty$$1$$1$$dbgfile;
-    dir_not_empty$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *dir_not_empty__1__1__dbgfile;
+    dir_not_empty__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"dir_not_empty", 197);
-    fprintf(dir_not_empty$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"dir_not_empty", 197);
+    fprintf(dir_not_empty__1__1__dbgfile, "%s(): %d: ", (const void *)"dir_not_empty", 197);
     fprintf(stderr, "%s\n", path);
-    fprintf(dir_not_empty$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(dir_not_empty__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -3314,18 +3314,18 @@ signed int dir_not_empty(const char *path)
 
   _Bool subdir_hidden = (_Bool)0;
   i = 0;
-  signed int tmp_statement_expression$2;
-  _Bool tmp_if_expr$6;
-  signed int tmp_statement_expression$4;
+  signed int tmp_statement_expression_2;
+  _Bool tmp_if_expr_6;
+  signed int tmp_statement_expression_4;
   for( ; !(i >= uopt.nbranches); i = i + 1)
   {
     if(subdir_hidden != (_Bool)0)
       break;
 
     char p[1024l];
-    signed int return_value_build_path$1;
-    return_value_build_path$1=build_path(p, 1024, "dir_not_empty", 213, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-    if(!(return_value_build_path$1 == 0))
+    signed int return_value_build_path_1;
+    return_value_build_path_1=build_path(p, 1024, "dir_not_empty", 213, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+    if(!(return_value_build_path_1 == 0))
     {
       rc = -36;
       break;
@@ -3362,35 +3362,35 @@ signed int dir_not_empty(const char *path)
 
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$3;
-        return_value___builtin_strcmp$3=__builtin_strcmp(de->d_name, ".");
-        tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-        if(tmp_statement_expression$2 == 0)
-          tmp_if_expr$6 = (_Bool)1;
+        signed int return_value___builtin_strcmp_3;
+        return_value___builtin_strcmp_3=__builtin_strcmp(de->d_name, ".");
+        tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+        if(tmp_statement_expression_2 == 0)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          unsigned long int dir_not_empty$$1$$2$$1$$4$$2$$__s1_len;
-          unsigned long int dir_not_empty$$1$$2$$1$$4$$2$$__s2_len;
-          signed int return_value___builtin_strcmp$5;
-          return_value___builtin_strcmp$5=__builtin_strcmp(de->d_name, "..");
-          tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-          tmp_if_expr$6 = tmp_statement_expression$4 == 0 ? (_Bool)1 : (_Bool)0;
+          unsigned long int dir_not_empty__1__2__1__4__2____s1_len;
+          unsigned long int dir_not_empty__1__2__1__4__2____s2_len;
+          signed int return_value___builtin_strcmp_5;
+          return_value___builtin_strcmp_5=__builtin_strcmp(de->d_name, "..");
+          tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+          tmp_if_expr_6 = tmp_statement_expression_4 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$6)
+        if(!tmp_if_expr_6)
         {
           if(!(uopt.cow_enabled == (_Bool)0))
           {
-            void *return_value_hashtable_search$7;
-            return_value_hashtable_search$7=hashtable_search(whiteouts, (void *)de->d_name);
-            if(!(return_value_hashtable_search$7 == NULL))
+            void *return_value_hashtable_search_7;
+            return_value_hashtable_search_7=hashtable_search(whiteouts, (void *)de->d_name);
+            if(!(return_value_hashtable_search_7 == NULL))
               continue;
 
           }
 
-          _Bool return_value_hide_meta_files$8;
-          return_value_hide_meta_files$8=hide_meta_files(i, p, de);
-          if(!((signed int)return_value_hide_meta_files$8 == 1))
+          _Bool return_value_hide_meta_files_8;
+          return_value_hide_meta_files_8=hide_meta_files(i, p, de);
+          if(!((signed int)return_value_hide_meta_files_8 == 1))
           {
             not_empty = 1;
             closedir(dp);
@@ -3418,12 +3418,12 @@ out:
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *dir_not_empty$$1$$3$$1$$dbgfile;
-        dir_not_empty$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *dir_not_empty__1__3__1__dbgfile;
+        dir_not_empty__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"dir_not_empty", 261);
-        fprintf(dir_not_empty$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"dir_not_empty", 261);
+        fprintf(dir_not_empty__1__3__1__dbgfile, "%s(): %d: ", (const void *)"dir_not_empty", 261);
         fprintf(stderr, "return %d\n", rc);
-        fprintf(dir_not_empty$$1$$3$$1$$dbgfile, "return %d\n", rc);
+        fprintf(dir_not_empty__1__3__1__dbgfile, "return %d\n", rc);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3436,12 +3436,12 @@ out:
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *dir_not_empty$$1$$4$$1$$dbgfile;
-      dir_not_empty$$1$$4$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *dir_not_empty__1__4__1__dbgfile;
+      dir_not_empty__1__4__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"dir_not_empty", 263);
-      fprintf(dir_not_empty$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"dir_not_empty", 263);
+      fprintf(dir_not_empty__1__4__1__dbgfile, "%s(): %d: ", (const void *)"dir_not_empty", 263);
       fprintf(stderr, "return %d\n", not_empty);
-      fprintf(dir_not_empty$$1$$4$$1$$dbgfile, "return %d\n", not_empty);
+      fprintf(dir_not_empty__1__4__1__dbgfile, "return %d\n", not_empty);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -3457,12 +3457,12 @@ static signed int do_create(const char *path, signed int nbranch_ro, signed int 
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *do_create$$1$$1$$dbgfile;
-    do_create$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *do_create__1__1__dbgfile;
+    do_create__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"do_create", 34);
-    fprintf(do_create$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create", 34);
+    fprintf(do_create__1__1__dbgfile, "%s(): %d: ", (const void *)"do_create", 34);
     fprintf(stderr, "%s\n", path);
-    fprintf(do_create$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(do_create__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -3472,18 +3472,18 @@ static signed int do_create(const char *path, signed int nbranch_ro, signed int 
   sprintf(dirp, "%s%s", (uopt.branches + (signed long int)nbranch_rw)->path, path);
   struct stat buf;
   signed int res;
-  res=stat$link1(dirp, &buf);
+  res=stat_link1(dirp, &buf);
   if(!(res == -1))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *do_create$$1$$2$$1$$dbgfile;
-        do_create$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *do_create__1__2__1__dbgfile;
+        do_create__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"do_create", 41);
-        fprintf(do_create$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create", 41);
+        fprintf(do_create__1__2__1__dbgfile, "%s(): %d: ", (const void *)"do_create", 41);
         fprintf(stderr, "return %d\n", 0);
-        fprintf(do_create$$1$$2$$1$$dbgfile, "return %d\n", 0);
+        fprintf(do_create__1__2__1__dbgfile, "return %d\n", 0);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3500,18 +3500,18 @@ static signed int do_create(const char *path, signed int nbranch_ro, signed int 
   {
     char o_dirp[1024l];
     sprintf(o_dirp, "%s%s", (uopt.branches + (signed long int)nbranch_ro)->path, path);
-    res=stat$link1(o_dirp, &buf);
+    res=stat_link1(o_dirp, &buf);
     if(res == -1)
     {
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *do_create$$1$$4$$1$$1$$dbgfile;
-          do_create$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *do_create__1__4__1__1__dbgfile;
+          do_create__1__4__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"do_create", 52);
-          fprintf(do_create$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create", 52);
+          fprintf(do_create__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"do_create", 52);
           fprintf(stderr, "return %d\n", 1);
-          fprintf(do_create$$1$$4$$1$$1$$dbgfile, "return %d\n", 1);
+          fprintf(do_create__1__4__1__1__dbgfile, "return %d\n", 1);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -3532,12 +3532,12 @@ static signed int do_create(const char *path, signed int nbranch_ro, signed int 
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *do_create$$1$$5$$1$$1$$dbgfile;
-        do_create$$1$$5$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *do_create__1__5__1__1__dbgfile;
+        do_create__1__5__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"do_create", 57);
-        fprintf(do_create$$1$$5$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create", 57);
+        fprintf(do_create__1__5__1__1__dbgfile, "%s(): %d: ", (const void *)"do_create", 57);
         fprintf(stderr, "Creating %s failed: \n", (const void *)dirp);
-        fprintf(do_create$$1$$5$$1$$1$$dbgfile, "Creating %s failed: \n", (const void *)dirp);
+        fprintf(do_create__1__5__1__1__dbgfile, "Creating %s failed: \n", (const void *)dirp);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3549,12 +3549,12 @@ static signed int do_create(const char *path, signed int nbranch_ro, signed int 
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *do_create$$1$$5$$2$$1$$dbgfile;
-        do_create$$1$$5$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *do_create__1__5__2__1__dbgfile;
+        do_create__1__5__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"do_create", 58);
-        fprintf(do_create$$1$$5$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create", 58);
+        fprintf(do_create__1__5__2__1__dbgfile, "%s(): %d: ", (const void *)"do_create", 58);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(do_create$$1$$5$$2$$1$$dbgfile, "return %d\n", 1);
+        fprintf(do_create__1__5__2__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3569,12 +3569,12 @@ static signed int do_create(const char *path, signed int nbranch_ro, signed int 
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *do_create$$1$$6$$1$$dbgfile;
-        do_create$$1$$6$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *do_create__1__6__1__dbgfile;
+        do_create__1__6__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"do_create", 61);
-        fprintf(do_create$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create", 61);
+        fprintf(do_create__1__6__1__dbgfile, "%s(): %d: ", (const void *)"do_create", 61);
         fprintf(stderr, "return %d\n", 0);
-        fprintf(do_create$$1$$6$$1$$dbgfile, "return %d\n", 0);
+        fprintf(do_create__1__6__1__dbgfile, "return %d\n", 0);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3584,19 +3584,19 @@ static signed int do_create(const char *path, signed int nbranch_ro, signed int 
     return 0;
   }
 
-  signed int return_value_setfile$1;
-  return_value_setfile$1=setfile(dirp, &buf);
-  if(!(return_value_setfile$1 == 0))
+  signed int return_value_setfile_1;
+  return_value_setfile_1=setfile(dirp, &buf);
+  if(!(return_value_setfile_1 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *do_create$$1$$7$$1$$dbgfile;
-        do_create$$1$$7$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *do_create__1__7__1__dbgfile;
+        do_create__1__7__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"do_create", 63);
-        fprintf(do_create$$1$$7$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create", 63);
+        fprintf(do_create__1__7__1__dbgfile, "%s(): %d: ", (const void *)"do_create", 63);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(do_create$$1$$7$$1$$dbgfile, "return %d\n", 1);
+        fprintf(do_create__1__7__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3609,12 +3609,12 @@ static signed int do_create(const char *path, signed int nbranch_ro, signed int 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *do_create$$1$$8$$1$$dbgfile;
-      do_create$$1$$8$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *do_create__1__8__1__dbgfile;
+      do_create__1__8__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"do_create", 67);
-      fprintf(do_create$$1$$8$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create", 67);
+      fprintf(do_create__1__8__1__dbgfile, "%s(): %d: ", (const void *)"do_create", 67);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(do_create$$1$$8$$1$$dbgfile, "return %d\n", 0);
+      fprintf(do_create__1__8__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -3630,31 +3630,31 @@ static signed int do_create_whiteout(const char *path, signed int branch_rw, enu
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *do_create_whiteout$$1$$1$$dbgfile;
-    do_create_whiteout$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *do_create_whiteout__1__1__dbgfile;
+    do_create_whiteout__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"do_create_whiteout", 138);
-    fprintf(do_create_whiteout$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 138);
+    fprintf(do_create_whiteout__1__1__dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 138);
     fprintf(stderr, "%s\n", path);
-    fprintf(do_create_whiteout$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(do_create_whiteout__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   char metapath[1024l];
-  signed int return_value_build_path$1;
-  return_value_build_path$1=build_path(metapath, 1024, "do_create_whiteout", 142, (const void *)".unionfs-fuse/", path, (void *)0);
-  if(!(return_value_build_path$1 == 0))
+  signed int return_value_build_path_1;
+  return_value_build_path_1=build_path(metapath, 1024, "do_create_whiteout", 142, (const void *)".unionfs-fuse/", path, (void *)0);
+  if(!(return_value_build_path_1 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *do_create_whiteout$$1$$2$$1$$dbgfile;
-        do_create_whiteout$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *do_create_whiteout__1__2__1__dbgfile;
+        do_create_whiteout__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"do_create_whiteout", 142);
-        fprintf(do_create_whiteout$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 142);
+        fprintf(do_create_whiteout__1__2__1__dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 142);
         fprintf(stderr, "return %d\n", -1);
-        fprintf(do_create_whiteout$$1$$2$$1$$dbgfile, "return %d\n", -1);
+        fprintf(do_create_whiteout__1__2__1__dbgfile, "return %d\n", -1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3666,19 +3666,19 @@ static signed int do_create_whiteout(const char *path, signed int branch_rw, enu
 
   path_create_cutlast(metapath, branch_rw, branch_rw);
   char p[1024l];
-  signed int return_value_build_path$2;
-  return_value_build_path$2=build_path(p, 1024, "do_create_whiteout", 149, (uopt.branches + (signed long int)branch_rw)->path, (const void *)metapath, (void *)0);
-  if(!(return_value_build_path$2 == 0))
+  signed int return_value_build_path_2;
+  return_value_build_path_2=build_path(p, 1024, "do_create_whiteout", 149, (uopt.branches + (signed long int)branch_rw)->path, (const void *)metapath, (void *)0);
+  if(!(return_value_build_path_2 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *do_create_whiteout$$1$$3$$1$$dbgfile;
-        do_create_whiteout$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *do_create_whiteout__1__3__1__dbgfile;
+        do_create_whiteout__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"do_create_whiteout", 149);
-        fprintf(do_create_whiteout$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 149);
+        fprintf(do_create_whiteout__1__3__1__dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 149);
         fprintf(stderr, "return %d\n", -1);
-        fprintf(do_create_whiteout$$1$$3$$1$$dbgfile, "return %d\n", -1);
+        fprintf(do_create_whiteout__1__3__1__dbgfile, "return %d\n", -1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3698,12 +3698,12 @@ static signed int do_create_whiteout(const char *path, signed int branch_rw, enu
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *do_create_whiteout$$1$$4$$1$$1$$dbgfile;
-          do_create_whiteout$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *do_create_whiteout__1__4__1__1__dbgfile;
+          do_create_whiteout__1__4__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"do_create_whiteout", 155);
-          fprintf(do_create_whiteout$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 155);
+          fprintf(do_create_whiteout__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 155);
           fprintf(stderr, "return %d\n", -1);
-          fprintf(do_create_whiteout$$1$$4$$1$$1$$dbgfile, "return %d\n", -1);
+          fprintf(do_create_whiteout__1__4__1__1__dbgfile, "return %d\n", -1);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -3728,30 +3728,30 @@ static signed int do_create_whiteout(const char *path, signed int branch_rw, enu
       {
         if(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *do_create_whiteout$$1$$5$$1$$1$$dbgfile;
-          do_create_whiteout$$1$$5$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *do_create_whiteout__1__5__1__1__dbgfile;
+          do_create_whiteout__1__5__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"do_create_whiteout", 160);
-          fprintf(do_create_whiteout$$1$$5$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 160);
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          fprintf(stderr, "Creating %s failed: %s\n", (const void *)p, return_value_strerror$4);
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          char *return_value_strerror$6;
-          return_value_strerror$6=strerror(*return_value___errno_location$5);
-          fprintf(do_create_whiteout$$1$$5$$1$$1$$dbgfile, "Creating %s failed: %s\n", (const void *)p, return_value_strerror$6);
+          fprintf(do_create_whiteout__1__5__1__1__dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 160);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          fprintf(stderr, "Creating %s failed: %s\n", (const void *)p, return_value_strerror_4);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          char *return_value_strerror_6;
+          return_value_strerror_6=strerror(*return_value___errno_location_5);
+          fprintf(do_create_whiteout__1__5__1__1__dbgfile, "Creating %s failed: %s\n", (const void *)p, return_value_strerror_6);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
         }
 
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        usyslog(3, "Creating %s failed: %s\n", (const void *)p, return_value_strerror$8);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        usyslog(3, "Creating %s failed: %s\n", (const void *)p, return_value_strerror_8);
       }
       while((_Bool)0);
     }
@@ -3760,12 +3760,12 @@ static signed int do_create_whiteout(const char *path, signed int branch_rw, enu
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *do_create_whiteout$$1$$6$$1$$dbgfile;
-      do_create_whiteout$$1$$6$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *do_create_whiteout__1__6__1__dbgfile;
+      do_create_whiteout__1__6__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"do_create_whiteout", 163);
-      fprintf(do_create_whiteout$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 163);
+      fprintf(do_create_whiteout__1__6__1__dbgfile, "%s(): %d: ", (const void *)"do_create_whiteout", 163);
       fprintf(stderr, "return %d\n", res);
-      fprintf(do_create_whiteout$$1$$6$$1$$dbgfile, "return %d\n", res);
+      fprintf(do_create_whiteout__1__6__1__dbgfile, "return %d\n", res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -3783,7 +3783,7 @@ static void do_syslog(void)
   struct ulogs *log_entry = used_head;
   while(!(log_entry == ((struct ulogs *)NULL)))
   {
-    union anonymous$0 *entry_lock = &log_entry->lock;
+    union anonymous_0 *entry_lock = &log_entry->lock;
     signed int res;
     res=pthread_mutex_trylock(entry_lock);
     if(!(res == 0))
@@ -3791,16 +3791,16 @@ static void do_syslog(void)
       if(!(res == 16))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *do_syslog$$1$$1$$1$$1$$dbgfile;
-          do_syslog$$1$$1$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *do_syslog__1__1__1__1__dbgfile;
+          do_syslog__1__1__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"do_syslog", 106);
-          fprintf(do_syslog$$1$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"do_syslog", 106);
-          char *return_value_strerror$1;
-          return_value_strerror$1=strerror(res);
-          fprintf(stderr, "Entirely unexpected locking error %s\n", return_value_strerror$1);
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(res);
-          fprintf(do_syslog$$1$$1$$1$$1$$dbgfile, "Entirely unexpected locking error %s\n", return_value_strerror$2);
+          fprintf(do_syslog__1__1__1__1__dbgfile, "%s(): %d: ", (const void *)"do_syslog", 106);
+          char *return_value_strerror_1;
+          return_value_strerror_1=strerror(res);
+          fprintf(stderr, "Entirely unexpected locking error %s\n", return_value_strerror_1);
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(res);
+          fprintf(do_syslog__1__1__1__1__dbgfile, "Entirely unexpected locking error %s\n", return_value_strerror_2);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -3847,29 +3847,29 @@ static unsigned int elfhash(const char *str)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *elfhash$$1$$1$$dbgfile;
-    elfhash$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *elfhash__1__1__dbgfile;
+    elfhash__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"elfhash", 167);
-    fprintf(elfhash$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"elfhash", 167);
+    fprintf(elfhash__1__1__dbgfile, "%s(): %d: ", (const void *)"elfhash", 167);
     fprintf(stderr, "%s\n", str);
-    fprintf(elfhash$$1$$1$$dbgfile, "%s\n", str);
+    fprintf(elfhash__1__1__dbgfile, "%s\n", str);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
-  unsigned int elfhash$$1$$hash = (unsigned int)0;
+  unsigned int elfhash__1__hash = (unsigned int)0;
   while(!(*str == 0))
   {
-    elfhash$$1$$hash = (elfhash$$1$$hash << 4) + (unsigned int)*str;
-    unsigned int highbyte = (unsigned int)((unsigned long int)elfhash$$1$$hash & 0xF0000000UL);
+    elfhash__1__hash = (elfhash__1__hash << 4) + (unsigned int)*str;
+    unsigned int highbyte = (unsigned int)((unsigned long int)elfhash__1__hash & 0xF0000000UL);
     if(!(highbyte == 0u))
-      elfhash$$1$$hash = elfhash$$1$$hash ^ highbyte >> 24;
+      elfhash__1__hash = elfhash__1__hash ^ highbyte >> 24;
 
-    elfhash$$1$$hash = elfhash$$1$$hash & ~highbyte;
+    elfhash__1__hash = elfhash__1__hash & ~highbyte;
     str = str + 1l;
   }
-  return elfhash$$1$$hash;
+  return elfhash__1__hash;
 }
 
 // filedir_hidden
@@ -3881,12 +3881,12 @@ static signed int filedir_hidden(const char *path)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *filedir_hidden$$1$$1$$1$$dbgfile;
-        filedir_hidden$$1$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *filedir_hidden__1__1__1__dbgfile;
+        filedir_hidden__1__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"filedir_hidden", 40);
-        fprintf(filedir_hidden$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"filedir_hidden", 40);
+        fprintf(filedir_hidden__1__1__1__dbgfile, "%s(): %d: ", (const void *)"filedir_hidden", 40);
         fprintf(stderr, "return %d\n", 0);
-        fprintf(filedir_hidden$$1$$1$$1$$dbgfile, "return %d\n", 0);
+        fprintf(filedir_hidden__1__1__1__dbgfile, "return %d\n", 0);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3897,21 +3897,21 @@ static signed int filedir_hidden(const char *path)
   }
 
   char p[1024l];
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen("_HIDDEN~");
-  if(return_value_strlen$1 + return_value_strlen$2 >= 1025ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen("_HIDDEN~");
+  if(return_value_strlen_1 + return_value_strlen_2 >= 1025ul)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *filedir_hidden$$1$$2$$1$$dbgfile;
-        filedir_hidden$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *filedir_hidden__1__2__1__dbgfile;
+        filedir_hidden__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"filedir_hidden", 43);
-        fprintf(filedir_hidden$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"filedir_hidden", 43);
+        fprintf(filedir_hidden__1__2__1__dbgfile, "%s(): %d: ", (const void *)"filedir_hidden", 43);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(filedir_hidden$$1$$2$$1$$dbgfile, "return %d\n", -36);
+        fprintf(filedir_hidden__1__2__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3924,12 +3924,12 @@ static signed int filedir_hidden(const char *path)
   snprintf(p, (unsigned long int)1024, "%s%s", path, (const void *)"_HIDDEN~");
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *filedir_hidden$$1$$3$$dbgfile;
-    filedir_hidden$$1$$3$$dbgfile=get_dbgfile();
+    struct _IO_FILE *filedir_hidden__1__3__dbgfile;
+    filedir_hidden__1__3__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"filedir_hidden", 45);
-    fprintf(filedir_hidden$$1$$3$$dbgfile, "%s(): %d: ", (const void *)"filedir_hidden", 45);
+    fprintf(filedir_hidden__1__3__dbgfile, "%s(): %d: ", (const void *)"filedir_hidden", 45);
     fprintf(stderr, "%s\n", (const void *)p);
-    fprintf(filedir_hidden$$1$$3$$dbgfile, "%s\n", (const void *)p);
+    fprintf(filedir_hidden__1__3__dbgfile, "%s\n", (const void *)p);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -3937,18 +3937,18 @@ static signed int filedir_hidden(const char *path)
   }
   struct stat stbuf;
   signed int res;
-  res=lstat$link2(p, &stbuf);
+  res=lstat_link2(p, &stbuf);
   if(res == 0)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *filedir_hidden$$1$$4$$1$$dbgfile;
-        filedir_hidden$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *filedir_hidden__1__4__1__dbgfile;
+        filedir_hidden__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"filedir_hidden", 49);
-        fprintf(filedir_hidden$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"filedir_hidden", 49);
+        fprintf(filedir_hidden__1__4__1__dbgfile, "%s(): %d: ", (const void *)"filedir_hidden", 49);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(filedir_hidden$$1$$4$$1$$dbgfile, "return %d\n", 1);
+        fprintf(filedir_hidden__1__4__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -3961,12 +3961,12 @@ static signed int filedir_hidden(const char *path)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *filedir_hidden$$1$$5$$1$$dbgfile;
-      filedir_hidden$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *filedir_hidden__1__5__1__dbgfile;
+      filedir_hidden__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"filedir_hidden", 51);
-      fprintf(filedir_hidden$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"filedir_hidden", 51);
+      fprintf(filedir_hidden__1__5__1__dbgfile, "%s(): %d: ", (const void *)"filedir_hidden", 51);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(filedir_hidden$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(filedir_hidden__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -3982,12 +3982,12 @@ static signed int find_branch(const char *path, enum searchflag flag)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *find_branch$$1$$1$$dbgfile;
-    find_branch$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *find_branch__1__1__dbgfile;
+    find_branch__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"find_branch", 58);
-    fprintf(find_branch$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_branch", 58);
+    fprintf(find_branch__1__1__dbgfile, "%s(): %d: ", (const void *)"find_branch", 58);
     fprintf(stderr, "%s\n", path);
-    fprintf(find_branch$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(find_branch__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -3998,19 +3998,19 @@ static signed int find_branch(const char *path, enum searchflag flag)
   for( ; !(i >= uopt.nbranches); i = i + 1)
   {
     char p[1024l];
-    signed int return_value_build_path$1;
-    return_value_build_path$1=build_path(p, 1024, "find_branch", 63, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-    if(!(return_value_build_path$1 == 0))
+    signed int return_value_build_path_1;
+    return_value_build_path_1=build_path(p, 1024, "find_branch", 63, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+    if(!(return_value_build_path_1 == 0))
     {
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *find_branch$$1$$2$$1$$1$$1$$dbgfile;
-          find_branch$$1$$2$$1$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *find_branch__1__2__1__1__1__dbgfile;
+          find_branch__1__2__1__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"find_branch", 63);
-          fprintf(find_branch$$1$$2$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_branch", 63);
+          fprintf(find_branch__1__2__1__1__1__dbgfile, "%s(): %d: ", (const void *)"find_branch", 63);
           fprintf(stderr, "return %d\n", -36);
-          fprintf(find_branch$$1$$2$$1$$1$$1$$dbgfile, "return %d\n", -36);
+          fprintf(find_branch__1__2__1__1__1__dbgfile, "return %d\n", -36);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -4022,15 +4022,15 @@ static signed int find_branch(const char *path, enum searchflag flag)
 
     struct stat stbuf;
     signed int res;
-    res=lstat$link1(p, &stbuf);
+    res=lstat_link1(p, &stbuf);
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *find_branch$$1$$2$$1$$2$$dbgfile;
-      find_branch$$1$$2$$1$$2$$dbgfile=get_dbgfile();
+      struct _IO_FILE *find_branch__1__2__1__2__dbgfile;
+      find_branch__1__2__1__2__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"find_branch", 68);
-      fprintf(find_branch$$1$$2$$1$$2$$dbgfile, "%s(): %d: ", (const void *)"find_branch", 68);
+      fprintf(find_branch__1__2__1__2__dbgfile, "%s(): %d: ", (const void *)"find_branch", 68);
       fprintf(stderr, "%s: res = %d\n", (const void *)p, res);
-      fprintf(find_branch$$1$$2$$1$$2$$dbgfile, "%s: res = %d\n", (const void *)p, res);
+      fprintf(find_branch__1__2__1__2__dbgfile, "%s: res = %d\n", (const void *)p, res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -4044,12 +4044,12 @@ static signed int find_branch(const char *path, enum searchflag flag)
           if(!(uopt.debug == (_Bool)0))
             while(!(uopt.debug == (_Bool)0))
             {
-              struct _IO_FILE *find_branch$$1$$2$$1$$3$$1$$1$$1$$dbgfile;
-              find_branch$$1$$2$$1$$3$$1$$1$$1$$dbgfile=get_dbgfile();
+              struct _IO_FILE *find_branch__1__2__1__3__1__1__1__dbgfile;
+              find_branch__1__2__1__3__1__1__1__dbgfile=get_dbgfile();
               fprintf(stderr, "%s(): %d: ", (const void *)"find_branch", 74);
-              fprintf(find_branch$$1$$2$$1$$3$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_branch", 74);
+              fprintf(find_branch__1__2__1__3__1__1__1__dbgfile, "%s(): %d: ", (const void *)"find_branch", 74);
               fprintf(stderr, "return %d\n", i);
-              fprintf(find_branch$$1$$2$$1$$3$$1$$1$$1$$dbgfile, "return %d\n", i);
+              fprintf(find_branch__1__2__1__3__1__1__1__dbgfile, "return %d\n", i);
               fflush(stderr);
               fflush(stdout);
               put_dbgfile();
@@ -4065,12 +4065,12 @@ static signed int find_branch(const char *path, enum searchflag flag)
             if(!(uopt.debug == (_Bool)0))
               while(!(uopt.debug == (_Bool)0))
               {
-                struct _IO_FILE *find_branch$$1$$2$$1$$3$$1$$2$$1$$dbgfile;
-                find_branch$$1$$2$$1$$3$$1$$2$$1$$dbgfile=get_dbgfile();
+                struct _IO_FILE *find_branch__1__2__1__3__1__2__1__dbgfile;
+                find_branch__1__2__1__3__1__2__1__dbgfile=get_dbgfile();
                 fprintf(stderr, "%s(): %d: ", (const void *)"find_branch", 77);
-                fprintf(find_branch$$1$$2$$1$$3$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"find_branch", 77);
+                fprintf(find_branch__1__2__1__3__1__2__1__dbgfile, "%s(): %d: ", (const void *)"find_branch", 77);
                 fprintf(stderr, "return %d\n", i);
-                fprintf(find_branch$$1$$2$$1$$3$$1$$2$$1$$dbgfile, "return %d\n", i);
+                fprintf(find_branch__1__2__1__3__1__2__1__dbgfile, "return %d\n", i);
                 fflush(stderr);
                 fflush(stdout);
                 put_dbgfile();
@@ -4091,12 +4091,12 @@ static signed int find_branch(const char *path, enum searchflag flag)
           {
             if(!(uopt.debug == (_Bool)0))
             {
-              struct _IO_FILE *find_branch$$1$$2$$1$$3$$1$$3$$1$$dbgfile;
-              find_branch$$1$$2$$1$$3$$1$$3$$1$$dbgfile=get_dbgfile();
+              struct _IO_FILE *find_branch__1__2__1__3__1__3__1__dbgfile;
+              find_branch__1__2__1__3__1__3__1__dbgfile=get_dbgfile();
               fprintf(stderr, "%s(): %d: ", (const void *)"find_branch", 80);
-              fprintf(find_branch$$1$$2$$1$$3$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"find_branch", 80);
+              fprintf(find_branch__1__2__1__3__1__3__1__dbgfile, "%s(): %d: ", (const void *)"find_branch", 80);
               fprintf(stderr, "%s: Unknown flag %d\n", (const void *)"find_branch", flag);
-              fprintf(find_branch$$1$$2$$1$$3$$1$$3$$1$$dbgfile, "%s: Unknown flag %d\n", (const void *)"find_branch", flag);
+              fprintf(find_branch__1__2__1__3__1__3__1__dbgfile, "%s: Unknown flag %d\n", (const void *)"find_branch", flag);
               fflush(stderr);
               fflush(stdout);
               put_dbgfile();
@@ -4111,18 +4111,18 @@ static signed int find_branch(const char *path, enum searchflag flag)
     res=path_hidden(path, i);
     if(res >= 1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 2;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 2;
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *find_branch$$1$$2$$1$$4$$1$$1$$dbgfile;
-          find_branch$$1$$2$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *find_branch__1__2__1__4__1__1__dbgfile;
+          find_branch__1__2__1__4__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"find_branch", 89);
-          fprintf(find_branch$$1$$2$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_branch", 89);
+          fprintf(find_branch__1__2__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"find_branch", 89);
           fprintf(stderr, "return %d\n", -1);
-          fprintf(find_branch$$1$$2$$1$$4$$1$$1$$dbgfile, "return %d\n", -1);
+          fprintf(find_branch__1__2__1__4__1__1__dbgfile, "return %d\n", -1);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -4135,18 +4135,18 @@ static signed int find_branch(const char *path, enum searchflag flag)
     else
       if(!(res >= 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = res;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = res;
         if(!(uopt.debug == (_Bool)0))
           while(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *find_branch$$1$$2$$1$$5$$1$$1$$dbgfile;
-            find_branch$$1$$2$$1$$5$$1$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *find_branch__1__2__1__5__1__1__dbgfile;
+            find_branch__1__2__1__5__1__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"find_branch", 92);
-            fprintf(find_branch$$1$$2$$1$$5$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_branch", 92);
+            fprintf(find_branch__1__2__1__5__1__1__dbgfile, "%s(): %d: ", (const void *)"find_branch", 92);
             fprintf(stderr, "return %d\n", -1);
-            fprintf(find_branch$$1$$2$$1$$5$$1$$1$$dbgfile, "return %d\n", -1);
+            fprintf(find_branch__1__2__1__5__1__1__dbgfile, "return %d\n", -1);
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
@@ -4157,18 +4157,18 @@ static signed int find_branch(const char *path, enum searchflag flag)
       }
 
   }
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  *return_value___errno_location$4 = 2;
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  *return_value___errno_location_4 = 2;
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *find_branch$$1$$3$$1$$dbgfile;
-      find_branch$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *find_branch__1__3__1__dbgfile;
+      find_branch__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"find_branch", 97);
-      fprintf(find_branch$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"find_branch", 97);
+      fprintf(find_branch__1__3__1__dbgfile, "%s(): %d: ", (const void *)"find_branch", 97);
       fprintf(stderr, "return %d\n", -1);
-      fprintf(find_branch$$1$$3$$1$$dbgfile, "return %d\n", -1);
+      fprintf(find_branch__1__3__1__dbgfile, "return %d\n", -1);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -4184,12 +4184,12 @@ signed int find_lowest_rw_branch(signed int branch_ro)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *find_lowest_rw_branch$$1$$1$$dbgfile;
-    find_lowest_rw_branch$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *find_lowest_rw_branch__1__1__dbgfile;
+    find_lowest_rw_branch__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"find_lowest_rw_branch", 226);
-    fprintf(find_lowest_rw_branch$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_lowest_rw_branch", 226);
+    fprintf(find_lowest_rw_branch__1__1__dbgfile, "%s(): %d: ", (const void *)"find_lowest_rw_branch", 226);
     fprintf(stderr, "\n");
-    fprintf(find_lowest_rw_branch$$1$$1$$dbgfile, "\n");
+    fprintf(find_lowest_rw_branch__1__1__dbgfile, "\n");
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -4203,12 +4203,12 @@ signed int find_lowest_rw_branch(signed int branch_ro)
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *find_lowest_rw_branch$$1$$2$$1$$1$$1$$dbgfile;
-          find_lowest_rw_branch$$1$$2$$1$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *find_lowest_rw_branch__1__2__1__1__1__dbgfile;
+          find_lowest_rw_branch__1__2__1__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"find_lowest_rw_branch", 230);
-          fprintf(find_lowest_rw_branch$$1$$2$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_lowest_rw_branch", 230);
+          fprintf(find_lowest_rw_branch__1__2__1__1__1__dbgfile, "%s(): %d: ", (const void *)"find_lowest_rw_branch", 230);
           fprintf(stderr, "return %d\n", i);
-          fprintf(find_lowest_rw_branch$$1$$2$$1$$1$$1$$dbgfile, "return %d\n", i);
+          fprintf(find_lowest_rw_branch__1__2__1__1__1__dbgfile, "return %d\n", i);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -4221,12 +4221,12 @@ signed int find_lowest_rw_branch(signed int branch_ro)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *find_lowest_rw_branch$$1$$3$$1$$dbgfile;
-      find_lowest_rw_branch$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *find_lowest_rw_branch__1__3__1__dbgfile;
+      find_lowest_rw_branch__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"find_lowest_rw_branch", 233);
-      fprintf(find_lowest_rw_branch$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"find_lowest_rw_branch", 233);
+      fprintf(find_lowest_rw_branch__1__3__1__dbgfile, "%s(): %d: ", (const void *)"find_lowest_rw_branch", 233);
       fprintf(stderr, "return %d\n", -1);
-      fprintf(find_lowest_rw_branch$$1$$3$$1$$dbgfile, "return %d\n", -1);
+      fprintf(find_lowest_rw_branch__1__3__1__dbgfile, "return %d\n", -1);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -4242,12 +4242,12 @@ signed int find_rorw_branch(const char *path)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *find_rorw_branch$$1$$1$$dbgfile;
-    find_rorw_branch$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *find_rorw_branch__1__1__dbgfile;
+    find_rorw_branch__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"find_rorw_branch", 104);
-    fprintf(find_rorw_branch$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_rorw_branch", 104);
+    fprintf(find_rorw_branch__1__1__dbgfile, "%s(): %d: ", (const void *)"find_rorw_branch", 104);
     fprintf(stderr, "%s\n", path);
-    fprintf(find_rorw_branch$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(find_rorw_branch__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -4258,12 +4258,12 @@ signed int find_rorw_branch(const char *path)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *find_rorw_branch$$1$$2$$1$$dbgfile;
-      find_rorw_branch$$1$$2$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *find_rorw_branch__1__2__1__dbgfile;
+      find_rorw_branch__1__2__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"find_rorw_branch", 106);
-      fprintf(find_rorw_branch$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"find_rorw_branch", 106);
+      fprintf(find_rorw_branch__1__2__1__dbgfile, "%s(): %d: ", (const void *)"find_rorw_branch", 106);
       fprintf(stderr, "return %d\n", res);
-      fprintf(find_rorw_branch$$1$$2$$1$$dbgfile, "return %d\n", res);
+      fprintf(find_rorw_branch__1__2__1__dbgfile, "return %d\n", res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -4279,12 +4279,12 @@ signed int find_rw_branch_cow(const char *path)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *find_rw_branch_cow$$1$$1$$dbgfile;
-    find_rw_branch_cow$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *find_rw_branch_cow__1__1__dbgfile;
+    find_rw_branch_cow__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"find_rw_branch_cow", 191);
-    fprintf(find_rw_branch_cow$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 191);
+    fprintf(find_rw_branch_cow__1__1__dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 191);
     fprintf(stderr, "%s\n", path);
-    fprintf(find_rw_branch_cow$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(find_rw_branch_cow__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -4297,12 +4297,12 @@ signed int find_rw_branch_cow(const char *path)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *find_rw_branch_cow$$1$$2$$1$$dbgfile;
-        find_rw_branch_cow$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *find_rw_branch_cow__1__2__1__dbgfile;
+        find_rw_branch_cow__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"find_rw_branch_cow", 196);
-        fprintf(find_rw_branch_cow$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 196);
+        fprintf(find_rw_branch_cow__1__2__1__dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 196);
         fprintf(stderr, "return %d\n", -1);
-        fprintf(find_rw_branch_cow$$1$$2$$1$$dbgfile, "return %d\n", -1);
+        fprintf(find_rw_branch_cow__1__2__1__dbgfile, "return %d\n", -1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -4317,12 +4317,12 @@ signed int find_rw_branch_cow(const char *path)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *find_rw_branch_cow$$1$$3$$1$$dbgfile;
-        find_rw_branch_cow$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *find_rw_branch_cow__1__3__1__dbgfile;
+        find_rw_branch_cow__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"find_rw_branch_cow", 199);
-        fprintf(find_rw_branch_cow$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 199);
+        fprintf(find_rw_branch_cow__1__3__1__dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 199);
         fprintf(stderr, "return %d\n", branch_rorw);
-        fprintf(find_rw_branch_cow$$1$$3$$1$$dbgfile, "return %d\n", branch_rorw);
+        fprintf(find_rw_branch_cow__1__3__1__dbgfile, "return %d\n", branch_rorw);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -4334,18 +4334,18 @@ signed int find_rw_branch_cow(const char *path)
 
   if(uopt.cow_enabled == (_Bool)0)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 13;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 13;
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *find_rw_branch_cow$$1$$4$$1$$1$$dbgfile;
-        find_rw_branch_cow$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *find_rw_branch_cow__1__4__1__1__dbgfile;
+        find_rw_branch_cow__1__4__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"find_rw_branch_cow", 204);
-        fprintf(find_rw_branch_cow$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 204);
+        fprintf(find_rw_branch_cow__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 204);
         fprintf(stderr, "return %d\n", -1);
-        fprintf(find_rw_branch_cow$$1$$4$$1$$1$$dbgfile, "return %d\n", -1);
+        fprintf(find_rw_branch_cow__1__4__1__1__dbgfile, "return %d\n", -1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -4359,18 +4359,18 @@ signed int find_rw_branch_cow(const char *path)
   branch_rw=find_lowest_rw_branch(branch_rorw);
   if(!(branch_rw >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 13;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 13;
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *find_rw_branch_cow$$1$$5$$1$$1$$dbgfile;
-        find_rw_branch_cow$$1$$5$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *find_rw_branch_cow__1__5__1__1__dbgfile;
+        find_rw_branch_cow__1__5__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"find_rw_branch_cow", 211);
-        fprintf(find_rw_branch_cow$$1$$5$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 211);
+        fprintf(find_rw_branch_cow__1__5__1__1__dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 211);
         fprintf(stderr, "return %d\n", -1);
-        fprintf(find_rw_branch_cow$$1$$5$$1$$1$$dbgfile, "return %d\n", -1);
+        fprintf(find_rw_branch_cow__1__5__1__1__dbgfile, "return %d\n", -1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -4380,19 +4380,19 @@ signed int find_rw_branch_cow(const char *path)
     return -1;
   }
 
-  signed int return_value_cow_cp$3;
-  return_value_cow_cp$3=cow_cp(path, branch_rorw, branch_rw);
-  if(!(return_value_cow_cp$3 == 0))
+  signed int return_value_cow_cp_3;
+  return_value_cow_cp_3=cow_cp(path, branch_rorw, branch_rw);
+  if(!(return_value_cow_cp_3 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *find_rw_branch_cow$$1$$6$$1$$dbgfile;
-        find_rw_branch_cow$$1$$6$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *find_rw_branch_cow__1__6__1__dbgfile;
+        find_rw_branch_cow__1__6__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"find_rw_branch_cow", 214);
-        fprintf(find_rw_branch_cow$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 214);
+        fprintf(find_rw_branch_cow__1__6__1__dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 214);
         fprintf(stderr, "return %d\n", -1);
-        fprintf(find_rw_branch_cow$$1$$6$$1$$dbgfile, "return %d\n", -1);
+        fprintf(find_rw_branch_cow__1__6__1__dbgfile, "return %d\n", -1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -4406,12 +4406,12 @@ signed int find_rw_branch_cow(const char *path)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *find_rw_branch_cow$$1$$7$$1$$dbgfile;
-      find_rw_branch_cow$$1$$7$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *find_rw_branch_cow__1__7__1__dbgfile;
+      find_rw_branch_cow__1__7__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"find_rw_branch_cow", 219);
-      fprintf(find_rw_branch_cow$$1$$7$$1$$dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 219);
+      fprintf(find_rw_branch_cow__1__7__1__dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cow", 219);
       fprintf(stderr, "return %d\n", branch_rw);
-      fprintf(find_rw_branch_cow$$1$$7$$1$$dbgfile, "return %d\n", branch_rw);
+      fprintf(find_rw_branch_cow__1__7__1__dbgfile, "return %d\n", branch_rw);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -4431,12 +4431,12 @@ signed int find_rw_branch_cutlast(const char *path)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *find_rw_branch_cutlast$$1$$1$$1$$dbgfile;
-      find_rw_branch_cutlast$$1$$1$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *find_rw_branch_cutlast__1__1__1__dbgfile;
+      find_rw_branch_cutlast__1__1__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"find_rw_branch_cutlast", 179);
-      fprintf(find_rw_branch_cutlast$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cutlast", 179);
+      fprintf(find_rw_branch_cutlast__1__1__1__dbgfile, "%s(): %d: ", (const void *)"find_rw_branch_cutlast", 179);
       fprintf(stderr, "return %d\n", res);
-      fprintf(find_rw_branch_cutlast$$1$$1$$1$$dbgfile, "return %d\n", res);
+      fprintf(find_rw_branch_cutlast__1__1__1__dbgfile, "return %d\n", res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -4450,9 +4450,9 @@ signed int find_rw_branch_cutlast(const char *path)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf)
 {
-  signed int return_value___fxstat$1;
-  return_value___fxstat$1=__fxstat(1, __fd, __statbuf);
-  return return_value___fxstat$1;
+  signed int return_value___fxstat_1;
+  return_value___fxstat_1=__fxstat(1, __fd, __statbuf);
+  return return_value___fxstat_1;
 }
 
 // get_dbgfile
@@ -4485,25 +4485,25 @@ static char * get_opt_str(const char *arg, char *opt_name)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  if(!(return_value_strlen$1 >= 3ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  if(!(return_value_strlen_1 >= 3ul))
   {
     fprintf(stderr, "%s path has not sufficient characters, aborting!\n", opt_name);
     exit(1);
   }
 
   str = str + 1l;
-  char *return_value___strdup$2;
-  return_value___strdup$2=__strdup(str);
-  str = return_value___strdup$2;
+  char *return_value___strdup_2;
+  return_value___strdup_2=__strdup(str);
+  str = return_value___strdup_2;
   if(str == ((char *)NULL))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "strdup failed: %s Aborting!\n", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "strdup failed: %s Aborting!\n", return_value_strerror_4);
     exit(1);
   }
 
@@ -4583,7 +4583,7 @@ static signed int hashtable_expand(struct hashtable *h)
   struct entry **pE;
   unsigned int newsize;
   unsigned int i;
-  unsigned int hashtable_expand$$1$$index;
+  unsigned int hashtable_expand__1__index;
   if(h->primeindex == prime_table_length + 4294967295u)
     return 0;
 
@@ -4591,9 +4591,9 @@ static signed int hashtable_expand(struct hashtable *h)
   {
     h->primeindex = h->primeindex + 1u;
     newsize = primes[(signed long int)h->primeindex];
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct entry *) /*8ul*/  * (unsigned long int)newsize);
-    newtable = (struct entry **)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct entry *) /*8ul*/  * (unsigned long int)newsize);
+    newtable = (struct entry **)return_value_malloc_1;
     if(!(newtable == ((struct entry **)NULL)))
     {
       memset((void *)newtable, 0, (unsigned long int)newsize * sizeof(struct entry *) /*8ul*/ );
@@ -4606,9 +4606,9 @@ static signed int hashtable_expand(struct hashtable *h)
             break;
 
           h->table[(signed long int)i] = e->next;
-          hashtable_expand$$1$$index=indexFor(newsize, e->h);
-          e->next = newtable[(signed long int)hashtable_expand$$1$$index];
-          newtable[(signed long int)hashtable_expand$$1$$index] = e;
+          hashtable_expand__1__index=indexFor(newsize, e->h);
+          e->next = newtable[(signed long int)hashtable_expand__1__index];
+          newtable[(signed long int)hashtable_expand__1__index] = e;
         }
         while((_Bool)1);
       free((void *)h->table);
@@ -4617,9 +4617,9 @@ static signed int hashtable_expand(struct hashtable *h)
 
     else
     {
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)h->table, (unsigned long int)newsize * sizeof(struct entry *) /*8ul*/ );
-      newtable = (struct entry **)return_value_realloc$2;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)h->table, (unsigned long int)newsize * sizeof(struct entry *) /*8ul*/ );
+      newtable = (struct entry **)return_value_realloc_2;
       if(newtable == ((struct entry **)NULL))
       {
         h->primeindex = h->primeindex - 1u;
@@ -4635,23 +4635,23 @@ static signed int hashtable_expand(struct hashtable *h)
         e = *pE;
         for( ; !(e == ((struct entry *)NULL)); e = *pE)
         {
-          hashtable_expand$$1$$index=indexFor(newsize, e->h);
-          if(hashtable_expand$$1$$index == i)
+          hashtable_expand__1__index=indexFor(newsize, e->h);
+          if(hashtable_expand__1__index == i)
             pE = &e->next;
 
           else
           {
             *pE = e->next;
-            e->next = newtable[(signed long int)hashtable_expand$$1$$index];
-            newtable[(signed long int)hashtable_expand$$1$$index] = e;
+            e->next = newtable[(signed long int)hashtable_expand__1__index];
+            newtable[(signed long int)hashtable_expand__1__index] = e;
           }
         }
       }
     }
     h->tablelength = newsize;
-    signed int return_value_my_ceil$3;
-    return_value_my_ceil$3=my_ceil((float)newsize * max_load_factor);
-    h->loadlimit = (unsigned int)return_value_my_ceil$3;
+    signed int return_value_my_ceil_3;
+    return_value_my_ceil_3=my_ceil((float)newsize * max_load_factor);
+    h->loadlimit = (unsigned int)return_value_my_ceil_3;
     return -1;
   }
 }
@@ -4660,15 +4660,15 @@ static signed int hashtable_expand(struct hashtable *h)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/hashtable.h line 99
 signed int hashtable_insert(struct hashtable *h, void *k, void *v)
 {
-  unsigned int hashtable_insert$$1$$index;
+  unsigned int hashtable_insert__1__index;
   struct entry *e;
   h->entrycount = h->entrycount + 1u;
   if(!(h->loadlimit >= h->entrycount))
     hashtable_expand(h);
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct entry) /*32ul*/ );
-  e = (struct entry *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct entry) /*32ul*/ );
+  e = (struct entry *)return_value_malloc_1;
   if(e == ((struct entry *)NULL))
   {
     h->entrycount = h->entrycount - 1u;
@@ -4678,11 +4678,11 @@ signed int hashtable_insert(struct hashtable *h, void *k, void *v)
   else
   {
     e->h=hash(h, k);
-    hashtable_insert$$1$$index=indexFor(h->tablelength, e->h);
+    hashtable_insert__1__index=indexFor(h->tablelength, e->h);
     e->k = k;
     e->v = v;
-    e->next = h->table[(signed long int)hashtable_insert$$1$$index];
-    h->table[(signed long int)hashtable_insert$$1$$index] = e;
+    e->next = h->table[(signed long int)hashtable_insert__1__index];
+    h->table[(signed long int)hashtable_insert__1__index] = e;
     return -1;
   }
 }
@@ -4694,9 +4694,9 @@ struct hashtable_itr * hashtable_iterator(struct hashtable *h)
   unsigned int i;
   unsigned int tablelength;
   struct hashtable_itr *itr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hashtable_itr) /*32ul*/ );
-  itr = (struct hashtable_itr *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hashtable_itr) /*32ul*/ );
+  itr = (struct hashtable_itr *)return_value_malloc_1;
   if(itr == ((struct hashtable_itr *)NULL))
     return (struct hashtable_itr *)(void *)0;
 
@@ -4817,10 +4817,10 @@ signed int hashtable_iterator_search(struct hashtable_itr *itr, struct hashtable
   struct entry *e;
   struct entry *parent;
   unsigned int hashvalue;
-  unsigned int hashtable_iterator_search$$1$$index;
+  unsigned int hashtable_iterator_search__1__index;
   hashvalue=hash(h, k);
-  hashtable_iterator_search$$1$$index=indexFor$link1(h->tablelength, hashvalue);
-  e = h->table[(signed long int)hashtable_iterator_search$$1$$index];
+  hashtable_iterator_search__1__index=indexFor_link1(h->tablelength, hashvalue);
+  e = h->table[(signed long int)hashtable_iterator_search__1__index];
   parent = (struct entry *)(void *)0;
   signed int return_value;
   while(!(e == ((struct entry *)NULL)))
@@ -4830,7 +4830,7 @@ signed int hashtable_iterator_search(struct hashtable_itr *itr, struct hashtable
       return_value=h->eqfn(k, e->k);
       if(!(return_value == 0))
       {
-        itr->index = hashtable_iterator_search$$1$$index;
+        itr->index = hashtable_iterator_search__1__index;
         itr->e = e;
         itr->parent = parent;
         itr->h = h;
@@ -4853,12 +4853,12 @@ void * hashtable_remove(struct hashtable *h, void *k)
   struct entry **pE;
   void *v;
   unsigned int hashvalue;
-  unsigned int hashtable_remove$$1$$index;
+  unsigned int hashtable_remove__1__index;
   hashvalue=hash(h, k);
-  unsigned int return_value_hash$1;
-  return_value_hash$1=hash(h, k);
-  hashtable_remove$$1$$index=indexFor(h->tablelength, return_value_hash$1);
-  pE = &h->table[(signed long int)hashtable_remove$$1$$index];
+  unsigned int return_value_hash_1;
+  return_value_hash_1=hash(h, k);
+  hashtable_remove__1__index=indexFor(h->tablelength, return_value_hash_1);
+  pE = &h->table[(signed long int)hashtable_remove__1__index];
   e = *pE;
   signed int return_value;
   while(!(e == ((struct entry *)NULL)))
@@ -4890,10 +4890,10 @@ void * hashtable_search(struct hashtable *h, void *k)
 {
   struct entry *e;
   unsigned int hashvalue;
-  unsigned int hashtable_search$$1$$index;
+  unsigned int hashtable_search__1__index;
   hashvalue=hash(h, k);
-  hashtable_search$$1$$index=indexFor(h->tablelength, hashvalue);
-  e = h->table[(signed long int)hashtable_search$$1$$index];
+  hashtable_search__1__index=indexFor(h->tablelength, hashvalue);
+  e = h->table[(signed long int)hashtable_search__1__index];
   signed int return_value;
   while(!(e == ((struct entry *)NULL)))
   {
@@ -4916,12 +4916,12 @@ signed int hide_dir(const char *path, signed int branch_rw)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *hide_dir$$1$$1$$dbgfile;
-    hide_dir$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *hide_dir__1__1__dbgfile;
+    hide_dir__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"hide_dir", 179);
-    fprintf(hide_dir$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"hide_dir", 179);
+    fprintf(hide_dir__1__1__dbgfile, "%s(): %d: ", (const void *)"hide_dir", 179);
     fprintf(stderr, "%s\n", path);
-    fprintf(hide_dir$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(hide_dir__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -4932,12 +4932,12 @@ signed int hide_dir(const char *path, signed int branch_rw)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *hide_dir$$1$$2$$1$$dbgfile;
-      hide_dir$$1$$2$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *hide_dir__1__2__1__dbgfile;
+      hide_dir__1__2__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"hide_dir", 181);
-      fprintf(hide_dir$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"hide_dir", 181);
+      fprintf(hide_dir__1__2__1__dbgfile, "%s(): %d: ", (const void *)"hide_dir", 181);
       fprintf(stderr, "return %d\n", res);
-      fprintf(hide_dir$$1$$2$$1$$dbgfile, "return %d\n", res);
+      fprintf(hide_dir__1__2__1__dbgfile, "return %d\n", res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -4953,12 +4953,12 @@ signed int hide_file(const char *path, signed int branch_rw)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *hide_file$$1$$1$$dbgfile;
-    hide_file$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *hide_file__1__1__dbgfile;
+    hide_file__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"hide_file", 170);
-    fprintf(hide_file$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"hide_file", 170);
+    fprintf(hide_file__1__1__dbgfile, "%s(): %d: ", (const void *)"hide_file", 170);
     fprintf(stderr, "%s\n", path);
-    fprintf(hide_file$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(hide_file__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -4969,12 +4969,12 @@ signed int hide_file(const char *path, signed int branch_rw)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *hide_file$$1$$2$$1$$dbgfile;
-      hide_file$$1$$2$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *hide_file__1__2__1__dbgfile;
+      hide_file__1__2__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"hide_file", 172);
-      fprintf(hide_file$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"hide_file", 172);
+      fprintf(hide_file__1__2__1__dbgfile, "%s(): %d: ", (const void *)"hide_file", 172);
       fprintf(stderr, "return %d\n", res);
-      fprintf(hide_file$$1$$2$$1$$dbgfile, "return %d\n", res);
+      fprintf(hide_file__1__2__1__dbgfile, "return %d\n", res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -4993,12 +4993,12 @@ static _Bool hide_meta_files(signed int branch, const char *path, struct dirent 
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *hide_meta_files$$1$$1$$1$$dbgfile;
-        hide_meta_files$$1$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *hide_meta_files__1__1__1__dbgfile;
+        hide_meta_files__1__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"hide_meta_files", 41);
-        fprintf(hide_meta_files$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"hide_meta_files", 41);
+        fprintf(hide_meta_files__1__1__1__dbgfile, "%s(): %d: ", (const void *)"hide_meta_files", 41);
         fprintf(stderr, "return %d\n", 0);
-        fprintf(hide_meta_files$$1$$1$$1$$dbgfile, "return %d\n", 0);
+        fprintf(hide_meta_files__1__1__1__dbgfile, "return %d\n", 0);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5010,31 +5010,31 @@ static _Bool hide_meta_files(signed int branch, const char *path, struct dirent 
 
   fprintf(stderr, "uopt.branches[branch].path = %s path = %s\n", (uopt.branches + (signed long int)branch)->path, path);
   fprintf(stderr, "METANAME = %s, de->d_name = %s\n", (const void *)".unionfs-fuse", (const void *)de->d_name);
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_3;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$4;
-  return_value___builtin_strcmp$4=__builtin_strcmp((uopt.branches + (signed long int)branch)->path, path);
-  tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-  signed int tmp_statement_expression$1;
-  if(tmp_statement_expression$3 == 0)
+  signed int return_value___builtin_strcmp_4;
+  return_value___builtin_strcmp_4=__builtin_strcmp((uopt.branches + (signed long int)branch)->path, path);
+  tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+  signed int tmp_statement_expression_1;
+  if(tmp_statement_expression_3 == 0)
   {
-    unsigned long int hide_meta_files$$1$$3$$__s1_len;
-    unsigned long int hide_meta_files$$1$$3$$__s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(".unionfs-fuse", de->d_name);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    unsigned long int hide_meta_files__1__3____s1_len;
+    unsigned long int hide_meta_files__1__3____s2_len;
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(".unionfs-fuse", de->d_name);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
     {
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *hide_meta_files$$1$$4$$1$$1$$dbgfile;
-          hide_meta_files$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *hide_meta_files__1__4__1__1__dbgfile;
+          hide_meta_files__1__4__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"hide_meta_files", 51);
-          fprintf(hide_meta_files$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"hide_meta_files", 51);
+          fprintf(hide_meta_files__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"hide_meta_files", 51);
           fprintf(stderr, "return %d\n", 1);
-          fprintf(hide_meta_files$$1$$4$$1$$1$$dbgfile, "return %d\n", 1);
+          fprintf(hide_meta_files__1__4__1__1__dbgfile, "return %d\n", 1);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -5046,19 +5046,19 @@ static _Bool hide_meta_files(signed int branch, const char *path, struct dirent 
 
   }
 
-  signed int return_value_strncmp$5;
-  return_value_strncmp$5=strncmp(".fuse_hidden", de->d_name, (unsigned long int)12);
-  if(return_value_strncmp$5 == 0)
+  signed int return_value_strncmp_5;
+  return_value_strncmp_5=strncmp(".fuse_hidden", de->d_name, (unsigned long int)12);
+  if(return_value_strncmp_5 == 0)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *hide_meta_files$$1$$6$$1$$dbgfile;
-        hide_meta_files$$1$$6$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *hide_meta_files__1__6__1__dbgfile;
+        hide_meta_files__1__6__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"hide_meta_files", 56);
-        fprintf(hide_meta_files$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"hide_meta_files", 56);
+        fprintf(hide_meta_files__1__6__1__dbgfile, "%s(): %d: ", (const void *)"hide_meta_files", 56);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(hide_meta_files$$1$$6$$1$$dbgfile, "return %d\n", 1);
+        fprintf(hide_meta_files__1__6__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5071,12 +5071,12 @@ static _Bool hide_meta_files(signed int branch, const char *path, struct dirent 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *hide_meta_files$$1$$7$$1$$dbgfile;
-      hide_meta_files$$1$$7$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *hide_meta_files__1__7__1__dbgfile;
+      hide_meta_files__1__7__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"hide_meta_files", 58);
-      fprintf(hide_meta_files$$1$$7$$1$$dbgfile, "%s(): %d: ", (const void *)"hide_meta_files", 58);
+      fprintf(hide_meta_files__1__7__1__dbgfile, "%s(): %d: ", (const void *)"hide_meta_files", 58);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(hide_meta_files$$1$$7$$1$$dbgfile, "return %d\n", 0);
+      fprintf(hide_meta_files__1__7__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -5093,11 +5093,11 @@ static inline unsigned int indexFor(unsigned int tablelength, unsigned int hashv
   return hashvalue % tablelength;
 }
 
-// indexFor$link1
+// indexFor_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/hashtable_private.h line 33
-static inline unsigned int indexFor$link1(unsigned int tablelength$link1, unsigned int hashvalue$link1)
+static inline unsigned int indexFor_link1(unsigned int tablelength_link1, unsigned int hashvalue_link1)
 {
-  return hashvalue$link1 % tablelength$link1;
+  return hashvalue_link1 % tablelength_link1;
 }
 
 // init_syslog
@@ -5105,8 +5105,8 @@ static inline unsigned int indexFor$link1(unsigned int tablelength$link1, unsign
 void init_syslog(void)
 {
   openlog("unionfs-fuse: ", 0x02 | 0x08 | 0x10 | 0x01, 3 << 3);
-  pthread_mutex_init(&list_lock, (const union anonymous$1 *)(void *)0);
-  pthread_cond_init(&cond_message, (const union anonymous$1 *)(void *)0);
+  pthread_mutex_init(&list_lock, (const union anonymous_1 *)(void *)0);
+  pthread_cond_init(&cond_message, (const union anonymous_1 *)(void *)0);
   unsigned long int thread;
   union pthread_attr_t attr;
   signed int t_arg = 0;
@@ -5116,22 +5116,22 @@ void init_syslog(void)
   i = 0;
   for( ; !(i >= 32); i = i + 1)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct ulogs) /*312ul*/ );
-    log = (struct ulogs *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct ulogs) /*312ul*/ );
+    log = (struct ulogs *)return_value_malloc_1;
     if(log == ((struct ulogs *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fprintf(stderr, "\nLog initialization failed: %s\n", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fprintf(stderr, "\nLog initialization failed: %s\n", return_value_strerror_3);
       fprintf(stderr, "Aborting!\n");
       exit(1);
     }
 
     log->used = (_Bool)0;
-    pthread_mutex_init(&log->lock, (const union anonymous$1 *)(void *)0);
+    pthread_mutex_init(&log->lock, (const union anonymous_1 *)(void *)0);
     if(!(last == ((struct ulogs *)NULL)))
       last->next = log;
 
@@ -5148,9 +5148,9 @@ void init_syslog(void)
   res=pthread_create(&thread, &attr, syslog_thread, (void *)&t_arg);
   if(!(res == 0))
   {
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(res);
-    fprintf(stderr, "Failed to initialize the syslog threads: %s\n", return_value_strerror$4);
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(res);
+    fprintf(stderr, "Failed to initialize the syslog threads: %s\n", return_value_strerror_4);
     exit(1);
   }
 
@@ -5162,12 +5162,12 @@ static _Bool is_hiding(struct hashtable *hides, char *fname)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *is_hiding$$1$$1$$dbgfile;
-    is_hiding$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *is_hiding__1__1__dbgfile;
+    is_hiding__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"is_hiding", 67);
-    fprintf(is_hiding$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"is_hiding", 67);
+    fprintf(is_hiding__1__1__dbgfile, "%s(): %d: ", (const void *)"is_hiding", 67);
     fprintf(stderr, "%s\n", fname);
-    fprintf(is_hiding$$1$$1$$dbgfile, "%s\n", fname);
+    fprintf(is_hiding__1__1__dbgfile, "%s\n", fname);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -5178,26 +5178,26 @@ static _Bool is_hiding(struct hashtable *hides, char *fname)
   if(!(tag == ((char *)NULL)))
   {
     *tag = (char)0;
-    void *return_value_hashtable_search$3;
-    return_value_hashtable_search$3=hashtable_search(hides, (void *)fname);
-    if(return_value_hashtable_search$3 == NULL)
+    void *return_value_hashtable_search_3;
+    return_value_hashtable_search_3=hashtable_search(hides, (void *)fname);
+    if(return_value_hashtable_search_3 == NULL)
     {
-      char *return_value___strdup$1;
-      return_value___strdup$1=__strdup(fname);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)1);
-      hashtable_insert(hides, (void *)return_value___strdup$1, return_value_malloc$2);
+      char *return_value___strdup_1;
+      return_value___strdup_1=__strdup(fname);
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)1);
+      hashtable_insert(hides, (void *)return_value___strdup_1, return_value_malloc_2);
     }
 
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *is_hiding$$1$$2$$2$$1$$dbgfile;
-        is_hiding$$1$$2$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *is_hiding__1__2__2__1__dbgfile;
+        is_hiding__1__2__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"is_hiding", 82);
-        fprintf(is_hiding$$1$$2$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"is_hiding", 82);
+        fprintf(is_hiding__1__2__2__1__dbgfile, "%s(): %d: ", (const void *)"is_hiding", 82);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(is_hiding$$1$$2$$2$$1$$dbgfile, "return %d\n", 1);
+        fprintf(is_hiding__1__2__2__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5210,12 +5210,12 @@ static _Bool is_hiding(struct hashtable *hides, char *fname)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *is_hiding$$1$$3$$1$$dbgfile;
-      is_hiding$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *is_hiding__1__3__1__dbgfile;
+      is_hiding__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"is_hiding", 85);
-      fprintf(is_hiding$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"is_hiding", 85);
+      fprintf(is_hiding__1__3__1__dbgfile, "%s(): %d: ", (const void *)"is_hiding", 85);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(is_hiding$$1$$3$$1$$dbgfile, "return %d\n", 0);
+      fprintf(is_hiding__1__3__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -5229,36 +5229,36 @@ static _Bool is_hiding(struct hashtable *hides, char *fname)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
 static inline signed int lstat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___lxstat$1;
-  return_value___lxstat$1=__lxstat(1, __path, __statbuf);
-  return return_value___lxstat$1;
+  signed int return_value___lxstat_1;
+  return_value___lxstat_1=__lxstat(1, __path, __statbuf);
+  return return_value___lxstat_1;
 }
 
-// lstat$link1
+// lstat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
-static inline signed int lstat$link1(const char *__path$link1, struct stat *__statbuf$link1)
+static inline signed int lstat_link1(const char *__path_link1, struct stat *__statbuf_link1)
 {
-  signed int return_value___lxstat$1$link1;
-  return_value___lxstat$1$link1=__lxstat(1, __path$link1, __statbuf$link1);
-  return return_value___lxstat$1$link1;
+  signed int return_value___lxstat_1_link1;
+  return_value___lxstat_1_link1=__lxstat(1, __path_link1, __statbuf_link1);
+  return return_value___lxstat_1_link1;
 }
 
-// lstat$link2
+// lstat_link2
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
-static inline signed int lstat$link2(const char *__path$link2, struct stat *__statbuf$link2)
+static inline signed int lstat_link2(const char *__path_link2, struct stat *__statbuf_link2)
 {
-  signed int return_value___lxstat$1$link2;
-  return_value___lxstat$1$link2=__lxstat(1, __path$link2, __statbuf$link2);
-  return return_value___lxstat$1$link2;
+  signed int return_value___lxstat_1_link2;
+  return_value___lxstat_1_link2=__lxstat(1, __path_link2, __statbuf_link2);
+  return return_value___lxstat_1_link2;
 }
 
-// lstat$link3
+// lstat_link3
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
-static inline signed int lstat$link3(const char *__path$link3, struct stat *__statbuf$link3)
+static inline signed int lstat_link3(const char *__path_link3, struct stat *__statbuf_link3)
 {
-  signed int return_value___lxstat$1$link3;
-  return_value___lxstat$1$link3=__lxstat(1, __path$link3, __statbuf$link3);
-  return return_value___lxstat$1$link3;
+  signed int return_value___lxstat_1_link3;
+  return_value___lxstat_1_link3=__lxstat(1, __path_link3, __statbuf_link3);
+  return return_value___lxstat_1_link3;
 }
 
 // main
@@ -5268,19 +5268,19 @@ signed int main(signed int argc, char **argv)
   struct fuse_args args = { .argc=argc, .argv=argv, .allocated=0 };
   init_syslog();
   uopt_init();
-  signed int return_value_fuse_opt_parse$1;
-  return_value_fuse_opt_parse$1=fuse_opt_parse(&args, (void *)0, unionfs_opts, unionfs_opt_proc);
-  if(return_value_fuse_opt_parse$1 == -1)
+  signed int return_value_fuse_opt_parse_1;
+  return_value_fuse_opt_parse_1=fuse_opt_parse(&args, (void *)0, unionfs_opts, unionfs_opt_proc);
+  if(return_value_fuse_opt_parse_1 == -1)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *main$$1$$1$$1$$dbgfile;
-        main$$1$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *main__1__1__1__dbgfile;
+        main__1__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"main", 840);
-        fprintf(main$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"main", 840);
+        fprintf(main__1__1__1__dbgfile, "%s(): %d: ", (const void *)"main", 840);
         fprintf(stderr, "return %d\n", 1);
-        fprintf(main$$1$$1$$1$$dbgfile, "return %d\n", 1);
+        fprintf(main__1__1__1__dbgfile, "return %d\n", 1);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5301,12 +5301,12 @@ signed int main(signed int argc, char **argv)
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *main$$1$$2$$1$$1$$1$$dbgfile;
-          main$$1$$2$$1$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *main__1__2__1__1__1__dbgfile;
+          main__1__2__1__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"main", 847);
-          fprintf(main$$1$$2$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"main", 847);
+          fprintf(main__1__2__1__1__1__dbgfile, "%s(): %d: ", (const void *)"main", 847);
           fprintf(stderr, "return %d\n", 1);
-          fprintf(main$$1$$2$$1$$1$$1$$dbgfile, "return %d\n", 1);
+          fprintf(main__1__2__1__1__1__dbgfile, "return %d\n", 1);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -5319,13 +5319,13 @@ signed int main(signed int argc, char **argv)
   }
 
   signed int uid;
-  unsigned int return_value_getuid$2;
-  return_value_getuid$2=getuid();
-  uid = (signed int)return_value_getuid$2;
+  unsigned int return_value_getuid_2;
+  return_value_getuid_2=getuid();
+  uid = (signed int)return_value_getuid_2;
   signed int gid;
-  unsigned int return_value_getgid$3;
-  return_value_getgid$3=getgid();
-  gid = (signed int)return_value_getgid$3;
+  unsigned int return_value_getgid_3;
+  return_value_getgid_3=getgid();
+  gid = (signed int)return_value_getgid_3;
   _Bool default_permissions = (_Bool)1;
   if(!(gid == 0) && !(uid == 0) && !(uopt.relaxed_permissions == (_Bool)0))
     default_permissions = (_Bool)0;
@@ -5339,9 +5339,9 @@ signed int main(signed int argc, char **argv)
 
   if(!(default_permissions == (_Bool)0))
   {
-    signed int return_value_fuse_opt_add_arg$4;
-    return_value_fuse_opt_add_arg$4=fuse_opt_add_arg(&args, "-odefault_permissions");
-    if(!(return_value_fuse_opt_add_arg$4 == 0))
+    signed int return_value_fuse_opt_add_arg_4;
+    return_value_fuse_opt_add_arg_4=fuse_opt_add_arg(&args, "-odefault_permissions");
+    if(!(return_value_fuse_opt_add_arg_4 == 0))
     {
       fprintf(stderr, "Severe failure, can't enable permssion checks, aborting!\n");
       exit(1);
@@ -5350,9 +5350,9 @@ signed int main(signed int argc, char **argv)
   }
 
   unionfs_post_opts();
-  signed int return_value_fuse_opt_add_arg$5;
-  return_value_fuse_opt_add_arg$5=fuse_opt_add_arg(&args, "-obig_writes");
-  if(!(return_value_fuse_opt_add_arg$5 == 0))
+  signed int return_value_fuse_opt_add_arg_5;
+  return_value_fuse_opt_add_arg_5=fuse_opt_add_arg(&args, "-obig_writes");
+  if(!(return_value_fuse_opt_add_arg_5 == 0))
   {
     fprintf(stderr, "Failed to enable big writes!\n");
     exit(1);
@@ -5364,12 +5364,12 @@ signed int main(signed int argc, char **argv)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *main$$1$$7$$1$$dbgfile;
-      main$$1$$7$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *main__1__7__1__dbgfile;
+      main__1__7__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"main", 884);
-      fprintf(main$$1$$7$$1$$dbgfile, "%s(): %d: ", (const void *)"main", 884);
+      fprintf(main__1__7__1__dbgfile, "%s(): %d: ", (const void *)"main", 884);
       fprintf(stderr, "return %d\n", uopt.doexit != 0 ? uopt.retval : res);
-      fprintf(main$$1$$7$$1$$dbgfile, "return %d\n", uopt.doexit != 0 ? uopt.retval : res);
+      fprintf(main__1__7__1__dbgfile, "return %d\n", uopt.doexit != 0 ? uopt.retval : res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -5389,9 +5389,9 @@ char * make_absolute(char *relpath)
   else
   {
     char cwd[1024l];
-    char *return_value_getcwd$1;
-    return_value_getcwd$1=getcwd(cwd, (unsigned long int)1024);
-    if(return_value_getcwd$1 == ((char *)NULL))
+    char *return_value_getcwd_1;
+    return_value_getcwd_1=getcwd(cwd, (unsigned long int)1024);
+    if(return_value_getcwd_1 == ((char *)NULL))
     {
       perror("Unable to get current working directory");
       return (char *)(void *)0;
@@ -5410,9 +5410,9 @@ char * make_absolute(char *relpath)
       else
       {
         signed int abslen;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(relpath);
-        abslen = (signed int)(cwdlen + return_value_strlen$2 + (unsigned long int)2);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(relpath);
+        abslen = (signed int)(cwdlen + return_value_strlen_2 + (unsigned long int)2);
         if(abslen >= 1025)
         {
           fprintf(stderr, "Absolute path too long!\n");
@@ -5422,9 +5422,9 @@ char * make_absolute(char *relpath)
         else
         {
           char *abspath;
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc((unsigned long int)abslen);
-          abspath = (char *)return_value_malloc$3;
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc((unsigned long int)abslen);
+          abspath = (char *)return_value_malloc_3;
           if(abspath == ((char *)NULL))
           {
             fprintf(stderr, "%s: malloc failed\n", (const void *)"make_absolute");
@@ -5445,32 +5445,32 @@ signed int maybe_whiteout(const char *path, signed int branch_rw, enum whiteout 
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *maybe_whiteout$$1$$1$$dbgfile;
-    maybe_whiteout$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *maybe_whiteout__1__1__dbgfile;
+    maybe_whiteout__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"maybe_whiteout", 189);
-    fprintf(maybe_whiteout$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"maybe_whiteout", 189);
+    fprintf(maybe_whiteout__1__1__dbgfile, "%s(): %d: ", (const void *)"maybe_whiteout", 189);
     fprintf(stderr, "%s\n", path);
-    fprintf(maybe_whiteout$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(maybe_whiteout__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
-  signed int return_value_find_rorw_branch$1;
-  return_value_find_rorw_branch$1=find_rorw_branch(path);
-  if(!(return_value_find_rorw_branch$1 == -1))
+  signed int return_value_find_rorw_branch_1;
+  return_value_find_rorw_branch_1=find_rorw_branch(path);
+  if(!(return_value_find_rorw_branch_1 == -1))
   {
     signed int res;
     res=do_create_whiteout(path, branch_rw, mode);
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *maybe_whiteout$$1$$2$$1$$1$$dbgfile;
-        maybe_whiteout$$1$$2$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *maybe_whiteout__1__2__1__1__dbgfile;
+        maybe_whiteout__1__2__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"maybe_whiteout", 194);
-        fprintf(maybe_whiteout$$1$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"maybe_whiteout", 194);
+        fprintf(maybe_whiteout__1__2__1__1__dbgfile, "%s(): %d: ", (const void *)"maybe_whiteout", 194);
         fprintf(stderr, "return %d\n", res);
-        fprintf(maybe_whiteout$$1$$2$$1$$1$$dbgfile, "return %d\n", res);
+        fprintf(maybe_whiteout__1__2__1__1__dbgfile, "return %d\n", res);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5483,12 +5483,12 @@ signed int maybe_whiteout(const char *path, signed int branch_rw, enum whiteout 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *maybe_whiteout$$1$$3$$1$$dbgfile;
-      maybe_whiteout$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *maybe_whiteout__1__3__1__dbgfile;
+      maybe_whiteout__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"maybe_whiteout", 197);
-      fprintf(maybe_whiteout$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"maybe_whiteout", 197);
+      fprintf(maybe_whiteout__1__3__1__dbgfile, "%s(): %d: ", (const void *)"maybe_whiteout", 197);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(maybe_whiteout$$1$$3$$1$$dbgfile, "return %d\n", 0);
+      fprintf(maybe_whiteout__1__3__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -5502,18 +5502,18 @@ signed int maybe_whiteout(const char *path, signed int branch_rw, enum whiteout 
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 482
 static inline signed int mknod(const char *__path, unsigned int __mode, unsigned long int __dev)
 {
-  signed int return_value___xmknod$1;
-  return_value___xmknod$1=__xmknod(0, __path, __mode, &__dev);
-  return return_value___xmknod$1;
+  signed int return_value___xmknod_1;
+  return_value___xmknod_1=__xmknod(0, __path, __mode, &__dev);
+  return return_value___xmknod_1;
 }
 
-// mknod$link1
+// mknod_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 482
-static inline signed int mknod$link1(const char *__path$link1, unsigned int __mode$link1, unsigned long int __dev$link1)
+static inline signed int mknod_link1(const char *__path_link1, unsigned int __mode_link1, unsigned long int __dev_link1)
 {
-  signed int return_value___xmknod$1$link1;
-  return_value___xmknod$1$link1=__xmknod(0, __path$link1, __mode$link1, &__dev$link1);
-  return return_value___xmknod$1$link1;
+  signed int return_value___xmknod_1_link1;
+  return_value___xmknod_1_link1=__xmknod(0, __path_link1, __mode_link1, &__dev_link1);
+  return return_value___xmknod_1_link1;
 }
 
 // my_ceil
@@ -5532,16 +5532,16 @@ static signed int my_ceil(float x)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/opts.c line 210
 static signed int parse_branches(const char *arg)
 {
-  char *tmp_statement_expression$2;
+  char *tmp_statement_expression_2;
   if(!(uopt.nbranches == 0))
     return 0;
 
   else
   {
     char *buf;
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(arg);
-    buf = return_value___strdup$1;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(arg);
+    buf = return_value___strdup_1;
     char **ptr = (char **)&buf;
     char *branch;
     do
@@ -5549,16 +5549,16 @@ static signed int parse_branches(const char *arg)
       char __r0;
       char __r1;
       char __r2;
-      char *return_value___strsep_g$3;
-      return_value___strsep_g$3=__strsep_g(ptr, ":");
-      tmp_statement_expression$2 = return_value___strsep_g$3;
-      branch = tmp_statement_expression$2;
+      char *return_value___strsep_g_3;
+      return_value___strsep_g_3=__strsep_g(ptr, ":");
+      tmp_statement_expression_2 = return_value___strsep_g_3;
+      branch = tmp_statement_expression_2;
       if(branch == ((char *)NULL))
         break;
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(branch);
-      if(!(return_value_strlen$4 == 0ul))
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(branch);
+      if(!(return_value_strlen_4 == 0ul))
         add_branch(branch);
 
     }
@@ -5575,12 +5575,12 @@ signed int path_create(const char *path, signed int nbranch_ro, signed int nbran
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *path_create$$1$$1$$dbgfile;
-    path_create$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *path_create__1__1__dbgfile;
+    path_create__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"path_create", 75);
-    fprintf(path_create$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"path_create", 75);
+    fprintf(path_create__1__1__dbgfile, "%s(): %d: ", (const void *)"path_create", 75);
     fprintf(stderr, "%s\n", path);
-    fprintf(path_create$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(path_create__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -5591,12 +5591,12 @@ signed int path_create(const char *path, signed int nbranch_ro, signed int nbran
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *path_create$$1$$2$$1$$dbgfile;
-        path_create$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *path_create__1__2__1__dbgfile;
+        path_create__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"path_create", 77);
-        fprintf(path_create$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"path_create", 77);
+        fprintf(path_create__1__2__1__dbgfile, "%s(): %d: ", (const void *)"path_create", 77);
         fprintf(stderr, "return %d\n", 0);
-        fprintf(path_create$$1$$2$$1$$dbgfile, "return %d\n", 0);
+        fprintf(path_create__1__2__1__dbgfile, "return %d\n", 0);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5607,19 +5607,19 @@ signed int path_create(const char *path, signed int nbranch_ro, signed int nbran
   }
 
   char p[1024l];
-  signed int return_value_build_path$1;
-  return_value_build_path$1=build_path(p, 1024, "path_create", 80, (uopt.branches + (signed long int)nbranch_rw)->path, path, (void *)0);
-  if(!(return_value_build_path$1 == 0))
+  signed int return_value_build_path_1;
+  return_value_build_path_1=build_path(p, 1024, "path_create", 80, (uopt.branches + (signed long int)nbranch_rw)->path, path, (void *)0);
+  if(!(return_value_build_path_1 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *path_create$$1$$3$$1$$dbgfile;
-        path_create$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *path_create__1__3__1__dbgfile;
+        path_create__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"path_create", 80);
-        fprintf(path_create$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"path_create", 80);
+        fprintf(path_create__1__3__1__dbgfile, "%s(): %d: ", (const void *)"path_create", 80);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(path_create$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(path_create__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5630,19 +5630,19 @@ signed int path_create(const char *path, signed int nbranch_ro, signed int nbran
   }
 
   struct stat st;
-  signed int return_value_stat$2;
-  return_value_stat$2=stat$link1(p, &st);
-  if(return_value_stat$2 == 0)
+  signed int return_value_stat_2;
+  return_value_stat_2=stat_link1(p, &st);
+  if(return_value_stat_2 == 0)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *path_create$$1$$4$$1$$1$$dbgfile;
-        path_create$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *path_create__1__4__1__1__dbgfile;
+        path_create__1__4__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"path_create", 85);
-        fprintf(path_create$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"path_create", 85);
+        fprintf(path_create__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"path_create", 85);
         fprintf(stderr, "return %d\n", 0);
-        fprintf(path_create$$1$$4$$1$$1$$dbgfile, "return %d\n", 0);
+        fprintf(path_create__1__4__1__1__dbgfile, "return %d\n", 0);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5680,12 +5680,12 @@ __CPROVER_DUMP_L16:
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *path_create$$1$$5$$1$$1$$dbgfile;
-          path_create$$1$$5$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *path_create__1__5__1__1__dbgfile;
+          path_create__1__5__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"path_create", 100);
-          fprintf(path_create$$1$$5$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"path_create", 100);
+          fprintf(path_create__1__5__1__1__dbgfile, "%s(): %d: ", (const void *)"path_create", 100);
           fprintf(stderr, "return %d\n", res);
-          fprintf(path_create$$1$$5$$1$$1$$dbgfile, "return %d\n", res);
+          fprintf(path_create__1__5__1__1__dbgfile, "return %d\n", res);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -5706,12 +5706,12 @@ __CPROVER_DUMP_L16:
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *path_create$$1$$6$$1$$dbgfile;
-      path_create$$1$$6$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *path_create__1__6__1__dbgfile;
+      path_create__1__6__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"path_create", 106);
-      fprintf(path_create$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"path_create", 106);
+      fprintf(path_create__1__6__1__dbgfile, "%s(): %d: ", (const void *)"path_create", 106);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(path_create$$1$$6$$1$$dbgfile, "return %d\n", 0);
+      fprintf(path_create__1__6__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -5727,12 +5727,12 @@ signed int path_create_cutlast(const char *path, signed int nbranch_ro, signed i
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *path_create_cutlast$$1$$1$$dbgfile;
-    path_create_cutlast$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *path_create_cutlast__1__1__dbgfile;
+    path_create_cutlast__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"path_create_cutlast", 114);
-    fprintf(path_create_cutlast$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"path_create_cutlast", 114);
+    fprintf(path_create_cutlast__1__1__dbgfile, "%s(): %d: ", (const void *)"path_create_cutlast", 114);
     fprintf(stderr, "%s\n", path);
-    fprintf(path_create_cutlast$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(path_create_cutlast__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -5745,12 +5745,12 @@ signed int path_create_cutlast(const char *path, signed int nbranch_ro, signed i
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *path_create_cutlast$$1$$2$$1$$dbgfile;
-        path_create_cutlast$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *path_create_cutlast__1__2__1__dbgfile;
+        path_create_cutlast__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"path_create_cutlast", 118);
-        fprintf(path_create_cutlast$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"path_create_cutlast", 118);
+        fprintf(path_create_cutlast__1__2__1__dbgfile, "%s(): %d: ", (const void *)"path_create_cutlast", 118);
         fprintf(stderr, "return %d\n", -12);
-        fprintf(path_create_cutlast$$1$$2$$1$$dbgfile, "return %d\n", -12);
+        fprintf(path_create_cutlast__1__2__1__dbgfile, "return %d\n", -12);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5766,12 +5766,12 @@ signed int path_create_cutlast(const char *path, signed int nbranch_ro, signed i
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *path_create_cutlast$$1$$3$$1$$dbgfile;
-      path_create_cutlast$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *path_create_cutlast__1__3__1__dbgfile;
+      path_create_cutlast__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"path_create_cutlast", 122);
-      fprintf(path_create_cutlast$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"path_create_cutlast", 122);
+      fprintf(path_create_cutlast__1__3__1__dbgfile, "%s(): %d: ", (const void *)"path_create_cutlast", 122);
       fprintf(stderr, "return %d\n", ret);
-      fprintf(path_create_cutlast$$1$$3$$1$$dbgfile, "return %d\n", ret);
+      fprintf(path_create_cutlast__1__3__1__dbgfile, "return %d\n", ret);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -5787,12 +5787,12 @@ signed int path_hidden(const char *path, signed int branch)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *path_hidden$$1$$1$$dbgfile;
-    path_hidden$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *path_hidden__1__1__dbgfile;
+    path_hidden__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"path_hidden", 58);
-    fprintf(path_hidden$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"path_hidden", 58);
+    fprintf(path_hidden__1__1__dbgfile, "%s(): %d: ", (const void *)"path_hidden", 58);
     fprintf(stderr, "%s\n", path);
-    fprintf(path_hidden$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(path_hidden__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -5803,12 +5803,12 @@ signed int path_hidden(const char *path, signed int branch)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *path_hidden$$1$$2$$1$$dbgfile;
-        path_hidden$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *path_hidden__1__2__1__dbgfile;
+        path_hidden__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"path_hidden", 60);
-        fprintf(path_hidden$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"path_hidden", 60);
+        fprintf(path_hidden__1__2__1__dbgfile, "%s(): %d: ", (const void *)"path_hidden", 60);
         fprintf(stderr, "return %d\n", 0);
-        fprintf(path_hidden$$1$$2$$1$$dbgfile, "return %d\n", 0);
+        fprintf(path_hidden__1__2__1__dbgfile, "return %d\n", 0);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5819,19 +5819,19 @@ signed int path_hidden(const char *path, signed int branch)
   }
 
   char whiteoutpath[1024l];
-  signed int return_value_build_path$1;
-  return_value_build_path$1=build_path(whiteoutpath, 1024, "path_hidden", 63, (uopt.branches + (signed long int)branch)->path, (const void *)".unionfs-fuse/", path, (void *)0);
-  if(!(return_value_build_path$1 == 0))
+  signed int return_value_build_path_1;
+  return_value_build_path_1=build_path(whiteoutpath, 1024, "path_hidden", 63, (uopt.branches + (signed long int)branch)->path, (const void *)".unionfs-fuse/", path, (void *)0);
+  if(!(return_value_build_path_1 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *path_hidden$$1$$3$$1$$dbgfile;
-        path_hidden$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *path_hidden__1__3__1__dbgfile;
+        path_hidden__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"path_hidden", 63);
-        fprintf(path_hidden$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"path_hidden", 63);
+        fprintf(path_hidden__1__3__1__dbgfile, "%s(): %d: ", (const void *)"path_hidden", 63);
         fprintf(stderr, "return %d\n", 0);
-        fprintf(path_hidden$$1$$3$$1$$dbgfile, "return %d\n", 0);
+        fprintf(path_hidden__1__3__1__dbgfile, "return %d\n", 0);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5842,9 +5842,9 @@ signed int path_hidden(const char *path, signed int branch)
   }
 
   char *walk;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(".unionfs-fuse/");
-  walk = (whiteoutpath + (signed long int)(uopt.branches + (signed long int)branch)->path_len + (signed long int)return_value_strlen$2) - (signed long int)1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(".unionfs-fuse/");
+  walk = (whiteoutpath + (signed long int)(uopt.branches + (signed long int)branch)->path_len + (signed long int)return_value_strlen_2) - (signed long int)1;
   for( ; !((signed int)*walk == 0); walk = walk + 1l)
     if(!((signed int)*walk == 47))
       break;
@@ -5873,12 +5873,12 @@ __CPROVER_DUMP_L12:
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *path_hidden$$1$$4$$1$$1$$dbgfile;
-          path_hidden$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *path_hidden__1__4__1__1__dbgfile;
+          path_hidden__1__4__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"path_hidden", 80);
-          fprintf(path_hidden$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"path_hidden", 80);
+          fprintf(path_hidden__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"path_hidden", 80);
           fprintf(stderr, "return %d\n", res);
-          fprintf(path_hidden$$1$$4$$1$$1$$dbgfile, "return %d\n", res);
+          fprintf(path_hidden__1__4__1__1__dbgfile, "return %d\n", res);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -5899,12 +5899,12 @@ __CPROVER_DUMP_L12:
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *path_hidden$$1$$5$$1$$dbgfile;
-      path_hidden$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *path_hidden__1__5__1__dbgfile;
+      path_hidden__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"path_hidden", 86);
-      fprintf(path_hidden$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"path_hidden", 86);
+      fprintf(path_hidden__1__5__1__dbgfile, "%s(): %d: ", (const void *)"path_hidden", 86);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(path_hidden$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(path_hidden__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -5920,31 +5920,31 @@ enum filetype path_is_dir(const char *path)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *path_is_dir$$1$$1$$dbgfile;
-    path_is_dir$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *path_is_dir__1__1__dbgfile;
+    path_is_dir__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"path_is_dir", 123);
-    fprintf(path_is_dir$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"path_is_dir", 123);
+    fprintf(path_is_dir__1__1__dbgfile, "%s(): %d: ", (const void *)"path_is_dir", 123);
     fprintf(stderr, "%s\n", path);
-    fprintf(path_is_dir$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(path_is_dir__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   struct stat buf;
-  signed int return_value_lstat$1;
-  return_value_lstat$1=lstat$link2(path, &buf);
-  if(return_value_lstat$1 == -1)
+  signed int return_value_lstat_1;
+  return_value_lstat_1=lstat_link2(path, &buf);
+  if(return_value_lstat_1 == -1)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *path_is_dir$$1$$2$$1$$dbgfile;
-        path_is_dir$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *path_is_dir__1__2__1__dbgfile;
+        path_is_dir__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"path_is_dir", 127);
-        fprintf(path_is_dir$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"path_is_dir", 127);
+        fprintf(path_is_dir__1__2__1__dbgfile, "%s(): %d: ", (const void *)"path_is_dir", 127);
         fprintf(stderr, "return %d\n", NOT_EXISTING);
-        fprintf(path_is_dir$$1$$2$$1$$dbgfile, "return %d\n", NOT_EXISTING);
+        fprintf(path_is_dir__1__2__1__dbgfile, "return %d\n", NOT_EXISTING);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5959,12 +5959,12 @@ enum filetype path_is_dir(const char *path)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *path_is_dir$$1$$3$$1$$dbgfile;
-        path_is_dir$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *path_is_dir__1__3__1__dbgfile;
+        path_is_dir__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"path_is_dir", 129);
-        fprintf(path_is_dir$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"path_is_dir", 129);
+        fprintf(path_is_dir__1__3__1__dbgfile, "%s(): %d: ", (const void *)"path_is_dir", 129);
         fprintf(stderr, "return %d\n", IS_DIR);
-        fprintf(path_is_dir$$1$$3$$1$$dbgfile, "return %d\n", IS_DIR);
+        fprintf(path_is_dir__1__3__1__dbgfile, "return %d\n", IS_DIR);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -5977,12 +5977,12 @@ enum filetype path_is_dir(const char *path)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *path_is_dir$$1$$4$$1$$dbgfile;
-      path_is_dir$$1$$4$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *path_is_dir__1__4__1__dbgfile;
+      path_is_dir__1__4__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"path_is_dir", 131);
-      fprintf(path_is_dir$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"path_is_dir", 131);
+      fprintf(path_is_dir__1__4__1__dbgfile, "%s(): %d: ", (const void *)"path_is_dir", 131);
       fprintf(stderr, "return %d\n", IS_FILE);
-      fprintf(path_is_dir$$1$$4$$1$$dbgfile, "return %d\n", IS_FILE);
+      fprintf(path_is_dir__1__4__1__dbgfile, "return %d\n", IS_FILE);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -6012,21 +6012,21 @@ static void read_whiteouts(const char *path, struct hashtable *whiteouts, signed
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *read_whiteouts$$1$$1$$dbgfile;
-    read_whiteouts$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *read_whiteouts__1__1__dbgfile;
+    read_whiteouts__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"read_whiteouts", 92);
-    fprintf(read_whiteouts$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"read_whiteouts", 92);
+    fprintf(read_whiteouts__1__1__dbgfile, "%s(): %d: ", (const void *)"read_whiteouts", 92);
     fprintf(stderr, "%s\n", path);
-    fprintf(read_whiteouts$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(read_whiteouts__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   char p[1024l];
-  signed int return_value_build_path$1;
-  return_value_build_path$1=build_path(p, 1024, "read_whiteouts", 95, (uopt.branches + (signed long int)branch)->path, (const void *)".unionfs-fuse/", path, (void *)0);
-  if(return_value_build_path$1 == 0)
+  signed int return_value_build_path_1;
+  return_value_build_path_1=build_path(p, 1024, "read_whiteouts", 95, (uopt.branches + (signed long int)branch)->path, (const void *)".unionfs-fuse/", path, (void *)0);
+  if(return_value_build_path_1 == 0)
   {
     struct __dirstream *dp;
     dp=opendir(p);
@@ -6055,12 +6055,12 @@ signed int remove_hidden(const char *path, signed int maxbranch)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *remove_hidden$$1$$1$$dbgfile;
-    remove_hidden$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *remove_hidden__1__1__dbgfile;
+    remove_hidden__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"remove_hidden", 94);
-    fprintf(remove_hidden$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"remove_hidden", 94);
+    fprintf(remove_hidden__1__1__dbgfile, "%s(): %d: ", (const void *)"remove_hidden", 94);
     fprintf(stderr, "%s\n", path);
-    fprintf(remove_hidden$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(remove_hidden__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -6071,12 +6071,12 @@ signed int remove_hidden(const char *path, signed int maxbranch)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *remove_hidden$$1$$2$$1$$dbgfile;
-        remove_hidden$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *remove_hidden__1__2__1__dbgfile;
+        remove_hidden__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"remove_hidden", 96);
-        fprintf(remove_hidden$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"remove_hidden", 96);
+        fprintf(remove_hidden__1__2__1__dbgfile, "%s(): %d: ", (const void *)"remove_hidden", 96);
         fprintf(stderr, "return %d\n", 0);
-        fprintf(remove_hidden$$1$$2$$1$$dbgfile, "return %d\n", 0);
+        fprintf(remove_hidden__1__2__1__dbgfile, "return %d\n", 0);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -6093,19 +6093,19 @@ signed int remove_hidden(const char *path, signed int maxbranch)
   for( ; maxbranch >= i; i = i + 1)
   {
     char p[1024l];
-    signed int return_value_build_path$1;
-    return_value_build_path$1=build_path(p, 1024, "remove_hidden", 103, (uopt.branches + (signed long int)i)->path, (const void *)".unionfs-fuse/", path, (void *)0);
-    if(!(return_value_build_path$1 == 0))
+    signed int return_value_build_path_1;
+    return_value_build_path_1=build_path(p, 1024, "remove_hidden", 103, (uopt.branches + (signed long int)i)->path, (const void *)".unionfs-fuse/", path, (void *)0);
+    if(!(return_value_build_path_1 == 0))
     {
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *remove_hidden$$1$$3$$1$$1$$1$$dbgfile;
-          remove_hidden$$1$$3$$1$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *remove_hidden__1__3__1__1__1__dbgfile;
+          remove_hidden__1__3__1__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"remove_hidden", 103);
-          fprintf(remove_hidden$$1$$3$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"remove_hidden", 103);
+          fprintf(remove_hidden__1__3__1__1__1__dbgfile, "%s(): %d: ", (const void *)"remove_hidden", 103);
           fprintf(stderr, "return %d\n", -36);
-          fprintf(remove_hidden$$1$$3$$1$$1$$1$$dbgfile, "return %d\n", -36);
+          fprintf(remove_hidden__1__3__1__1__1__dbgfile, "return %d\n", -36);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -6115,21 +6115,21 @@ signed int remove_hidden(const char *path, signed int maxbranch)
       return -36;
     }
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(p);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen("_HIDDEN~");
-    if(return_value_strlen$2 + return_value_strlen$3 >= 1025ul)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(p);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen("_HIDDEN~");
+    if(return_value_strlen_2 + return_value_strlen_3 >= 1025ul)
     {
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *remove_hidden$$1$$3$$1$$2$$1$$dbgfile;
-          remove_hidden$$1$$3$$1$$2$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *remove_hidden__1__3__1__2__1__dbgfile;
+          remove_hidden__1__3__1__2__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"remove_hidden", 104);
-          fprintf(remove_hidden$$1$$3$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"remove_hidden", 104);
+          fprintf(remove_hidden__1__3__1__2__1__dbgfile, "%s(): %d: ", (const void *)"remove_hidden", 104);
           fprintf(stderr, "return %d\n", -36);
-          fprintf(remove_hidden$$1$$3$$1$$2$$1$$dbgfile, "return %d\n", -36);
+          fprintf(remove_hidden__1__3__1__2__1__dbgfile, "return %d\n", -36);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -6140,9 +6140,9 @@ signed int remove_hidden(const char *path, signed int maxbranch)
     }
 
     strcat(p, "_HIDDEN~");
-    enum filetype return_value_path_is_dir$4;
-    return_value_path_is_dir$4=path_is_dir(p);
-    switch((signed int)return_value_path_is_dir$4)
+    enum filetype return_value_path_is_dir_4;
+    return_value_path_is_dir_4=path_is_dir(p);
+    switch((signed int)return_value_path_is_dir_4)
     {
       case IS_FILE:
       {
@@ -6165,12 +6165,12 @@ signed int remove_hidden(const char *path, signed int maxbranch)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *remove_hidden$$1$$4$$1$$dbgfile;
-      remove_hidden$$1$$4$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *remove_hidden__1__4__1__dbgfile;
+      remove_hidden__1__4__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"remove_hidden", 114);
-      fprintf(remove_hidden$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"remove_hidden", 114);
+      fprintf(remove_hidden__1__4__1__dbgfile, "%s(): %d: ", (const void *)"remove_hidden", 114);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(remove_hidden$$1$$4$$1$$dbgfile, "return %d\n", 0);
+      fprintf(remove_hidden__1__4__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -6186,12 +6186,12 @@ static signed int rmdir_ro(const char *path, signed int branch_ro)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *rmdir_ro$$1$$1$$dbgfile;
-    rmdir_ro$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *rmdir_ro__1__1__dbgfile;
+    rmdir_ro__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"rmdir_ro", 60);
-    fprintf(rmdir_ro$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"rmdir_ro", 60);
+    fprintf(rmdir_ro__1__1__dbgfile, "%s(): %d: ", (const void *)"rmdir_ro", 60);
     fprintf(stderr, "%s\n", path);
-    fprintf(rmdir_ro$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(rmdir_ro__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -6206,24 +6206,24 @@ static signed int rmdir_ro(const char *path, signed int branch_ro)
   {
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *rmdir_ro$$1$$2$$dbgfile;
-      rmdir_ro$$1$$2$$dbgfile=get_dbgfile();
+      struct _IO_FILE *rmdir_ro__1__2__dbgfile;
+      rmdir_ro__1__2__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"rmdir_ro", 68);
-      fprintf(rmdir_ro$$1$$2$$dbgfile, "%s(): %d: ", (const void *)"rmdir_ro", 68);
+      fprintf(rmdir_ro__1__2__dbgfile, "%s(): %d: ", (const void *)"rmdir_ro", 68);
       fprintf(stderr, "Calling hide_dir\n");
-      fprintf(rmdir_ro$$1$$2$$dbgfile, "Calling hide_dir\n");
+      fprintf(rmdir_ro__1__2__dbgfile, "Calling hide_dir\n");
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
       break;
     }
-    signed int return_value_hide_dir$10;
-    return_value_hide_dir$10=hide_dir(path, branch_rw);
-    if(return_value_hide_dir$10 == -1)
+    signed int return_value_hide_dir_10;
+    return_value_hide_dir_10=hide_dir(path, branch_rw);
+    if(return_value_hide_dir_10 == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 17 || *return_value___errno_location$1 == 20 || *return_value___errno_location$1 == 39)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 17 || *return_value___errno_location_1 == 20 || *return_value___errno_location_1 == 39)
       {
 
       __CPROVER_DUMP_L5:
@@ -6232,40 +6232,40 @@ static signed int rmdir_ro(const char *path, signed int branch_ro)
         {
           if(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *rmdir_ro$$1$$3$$1$$1$$1$$dbgfile;
-            rmdir_ro$$1$$3$$1$$1$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *rmdir_ro__1__3__1__1__1__dbgfile;
+            rmdir_ro__1__3__1__1__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"rmdir_ro", 76);
-            fprintf(rmdir_ro$$1$$3$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"rmdir_ro", 76);
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            char *return_value_strerror$3;
-            return_value_strerror$3=strerror(*return_value___errno_location$2);
-            fprintf(stderr, "%s: Creating the whiteout failed: %s\n", (const void *)"rmdir_ro", return_value_strerror$3);
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            char *return_value_strerror$5;
-            return_value_strerror$5=strerror(*return_value___errno_location$4);
-            fprintf(rmdir_ro$$1$$3$$1$$1$$1$$dbgfile, "%s: Creating the whiteout failed: %s\n", (const void *)"rmdir_ro", return_value_strerror$5);
+            fprintf(rmdir_ro__1__3__1__1__1__dbgfile, "%s(): %d: ", (const void *)"rmdir_ro", 76);
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            char *return_value_strerror_3;
+            return_value_strerror_3=strerror(*return_value___errno_location_2);
+            fprintf(stderr, "%s: Creating the whiteout failed: %s\n", (const void *)"rmdir_ro", return_value_strerror_3);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            char *return_value_strerror_5;
+            return_value_strerror_5=strerror(*return_value___errno_location_4);
+            fprintf(rmdir_ro__1__3__1__1__1__dbgfile, "%s: Creating the whiteout failed: %s\n", (const void *)"rmdir_ro", return_value_strerror_5);
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
           }
 
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          char *return_value_strerror$7;
-          return_value_strerror$7=strerror(*return_value___errno_location$6);
-          usyslog(3, "%s: Creating the whiteout failed: %s\n", (const void *)"rmdir_ro", return_value_strerror$7);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          char *return_value_strerror_7;
+          return_value_strerror_7=strerror(*return_value___errno_location_6);
+          usyslog(3, "%s: Creating the whiteout failed: %s\n", (const void *)"rmdir_ro", return_value_strerror_7);
         }
         while((_Bool)0);
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        *return_value___errno_location$8 = 14;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        *return_value___errno_location_8 = 14;
       }
 
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      return *return_value___errno_location$9;
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      return *return_value___errno_location_9;
     }
 
     return 0;
@@ -6278,22 +6278,22 @@ static signed int rmdir_rw(const char *path, signed int branch_rw)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *rmdir_rw$$1$$1$$dbgfile;
-    rmdir_rw$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *rmdir_rw__1__1__dbgfile;
+    rmdir_rw__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"rmdir_rw", 42);
-    fprintf(rmdir_rw$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"rmdir_rw", 42);
+    fprintf(rmdir_rw__1__1__dbgfile, "%s(): %d: ", (const void *)"rmdir_rw", 42);
     fprintf(stderr, "%s\n", path);
-    fprintf(rmdir_rw$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(rmdir_rw__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   char p[1024l];
-  signed int return_value_build_path$1;
-  return_value_build_path$1=build_path(p, 1024, "rmdir_rw", 45, (uopt.branches + (signed long int)branch_rw)->path, path, (void *)0);
-  signed int *return_value___errno_location$2;
-  if(!(return_value_build_path$1 == 0))
+  signed int return_value_build_path_1;
+  return_value_build_path_1=build_path(p, 1024, "rmdir_rw", 45, (uopt.branches + (signed long int)branch_rw)->path, path, (void *)0);
+  signed int *return_value___errno_location_2;
+  if(!(return_value_build_path_1 == 0))
     return 36;
 
   else
@@ -6302,8 +6302,8 @@ static signed int rmdir_rw(const char *path, signed int branch_rw)
     res=rmdir(p);
     if(res == -1)
     {
-      return_value___errno_location$2=__errno_location();
-      return *return_value___errno_location$2;
+      return_value___errno_location_2=__errno_location();
+      return *return_value___errno_location_2;
     }
 
     else
@@ -6344,9 +6344,9 @@ void set_debug_path(char *new_path, signed int len)
   if(!(uopt.dbgpath == ((char *)NULL)))
     free((void *)uopt.dbgpath);
 
-  char *return_value___strndup$1;
-  return_value___strndup$1=__strndup(new_path, (unsigned long int)len);
-  uopt.dbgpath = return_value___strndup$1;
+  char *return_value___strndup_1;
+  return_value___strndup_1=__strndup(new_path, (unsigned long int)len);
+  uopt.dbgpath = return_value___strndup_1;
   pthread_rwlock_unlock(&uopt.dbgpath_lock);
 }
 
@@ -6356,9 +6356,9 @@ signed int set_max_open_files(const char *arg)
 {
   struct rlimit rlim;
   unsigned long int max_files;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(arg, "max_files=%ld\n", &max_files);
-  if(!(return_value_sscanf$1 == 1))
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(arg, "max_files=%ld\n", &max_files);
+  if(!(return_value_sscanf_1 == 1))
   {
     fprintf(stderr, "%s Converting %s to number failed, aborting!\n", (const void *)"set_max_open_files", arg);
     exit(1);
@@ -6366,15 +6366,15 @@ signed int set_max_open_files(const char *arg)
 
   rlim.rlim_cur = max_files;
   rlim.rlim_max = max_files;
-  signed int return_value_setrlimit$4;
-  return_value_setrlimit$4=setrlimit(7, &rlim);
-  if(!(return_value_setrlimit$4 == 0))
+  signed int return_value_setrlimit_4;
+  return_value_setrlimit_4=setrlimit(7, &rlim);
+  if(!(return_value_setrlimit_4 == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fprintf(stderr, "%s: Setting the maximum number of files failed: %s\n", (const void *)"set_max_open_files", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fprintf(stderr, "%s: Setting the maximum number of files failed: %s\n", (const void *)"set_max_open_files", return_value_strerror_3);
     exit(1);
   }
 
@@ -6402,54 +6402,54 @@ signed int set_owner(const char *path)
         {
           if(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *set_owner$$1$$1$$1$$1$$1$$dbgfile;
-            set_owner$$1$$1$$1$$1$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *set_owner__1__1__1__1__1__dbgfile;
+            set_owner__1__1__1__1__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"set_owner", 210);
-            fprintf(set_owner$$1$$1$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"set_owner", 210);
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            char *return_value_strerror$2;
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            fprintf(stderr, ":%s: Setting the correct file owner failed: %s !\n", (const void *)"set_owner", return_value_strerror$2);
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            char *return_value_strerror$4;
-            return_value_strerror$4=strerror(*return_value___errno_location$3);
-            fprintf(set_owner$$1$$1$$1$$1$$1$$dbgfile, ":%s: Setting the correct file owner failed: %s !\n", (const void *)"set_owner", return_value_strerror$4);
+            fprintf(set_owner__1__1__1__1__1__dbgfile, "%s(): %d: ", (const void *)"set_owner", 210);
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            char *return_value_strerror_2;
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            fprintf(stderr, ":%s: Setting the correct file owner failed: %s !\n", (const void *)"set_owner", return_value_strerror_2);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            char *return_value_strerror_4;
+            return_value_strerror_4=strerror(*return_value___errno_location_3);
+            fprintf(set_owner__1__1__1__1__1__dbgfile, ":%s: Setting the correct file owner failed: %s !\n", (const void *)"set_owner", return_value_strerror_4);
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
           }
 
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          char *return_value_strerror$6;
-          return_value_strerror$6=strerror(*return_value___errno_location$5);
-          usyslog(4, ":%s: Setting the correct file owner failed: %s !\n", (const void *)"set_owner", return_value_strerror$6);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          char *return_value_strerror_6;
+          return_value_strerror_6=strerror(*return_value___errno_location_5);
+          usyslog(4, ":%s: Setting the correct file owner failed: %s !\n", (const void *)"set_owner", return_value_strerror_6);
         }
         while((_Bool)0);
         if(!(uopt.debug == (_Bool)0))
           while(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *set_owner$$1$$1$$1$$2$$1$$dbgfile;
-            set_owner$$1$$1$$1$$2$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *set_owner__1__1__1__2__1__dbgfile;
+            set_owner__1__1__1__2__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"set_owner", 211);
-            fprintf(set_owner$$1$$1$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"set_owner", 211);
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            fprintf(stderr, "return %d\n", -(*return_value___errno_location$7));
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            fprintf(set_owner$$1$$1$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$8));
+            fprintf(set_owner__1__1__1__2__1__dbgfile, "%s(): %d: ", (const void *)"set_owner", 211);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            fprintf(stderr, "return %d\n", -(*return_value___errno_location_7));
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            fprintf(set_owner__1__1__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_8));
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
             break;
           }
 
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        return -(*return_value___errno_location$9);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        return -(*return_value___errno_location_9);
       }
 
     }
@@ -6459,12 +6459,12 @@ signed int set_owner(const char *path)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *set_owner$$1$$2$$1$$dbgfile;
-      set_owner$$1$$2$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *set_owner__1__2__1__dbgfile;
+      set_owner__1__2__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"set_owner", 214);
-      fprintf(set_owner$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"set_owner", 214);
+      fprintf(set_owner__1__2__1__dbgfile, "%s(): %d: ", (const void *)"set_owner", 214);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(set_owner$$1$$2$$1$$dbgfile, "return %d\n", 0);
+      fprintf(set_owner__1__2__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -6480,12 +6480,12 @@ signed int setfile(const char *path, struct stat *fs)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *setfile$$1$$1$$dbgfile;
-    setfile$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *setfile__1__1__dbgfile;
+    setfile__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"setfile", 61);
-    fprintf(setfile$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"setfile", 61);
+    fprintf(setfile__1__1__dbgfile, "%s(): %d: ", (const void *)"setfile", 61);
     fprintf(stderr, "%s\n", path);
-    fprintf(setfile$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(setfile__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -6496,9 +6496,9 @@ signed int setfile(const char *path, struct stat *fs)
   fs->st_mode = fs->st_mode & (unsigned int)(04000 | 02000 | 01000 | 0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3);
   ut.actime = fs->st_atim.tv_sec;
   ut.modtime = fs->st_mtim.tv_sec;
-  signed int return_value_utime$1;
-  return_value_utime$1=utime(path, &ut);
-  if(!(return_value_utime$1 == 0))
+  signed int return_value_utime_1;
+  return_value_utime_1=utime(path, &ut);
+  if(!(return_value_utime_1 == 0))
   {
 
   __CPROVER_DUMP_L3:
@@ -6507,12 +6507,12 @@ signed int setfile(const char *path, struct stat *fs)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *setfile$$1$$2$$1$$1$$dbgfile;
-        setfile$$1$$2$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *setfile__1__2__1__1__dbgfile;
+        setfile__1__2__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"setfile", 71);
-        fprintf(setfile$$1$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"setfile", 71);
+        fprintf(setfile__1__2__1__1__dbgfile, "%s(): %d: ", (const void *)"setfile", 71);
         fprintf(stderr, "utimes: %s", path);
-        fprintf(setfile$$1$$2$$1$$1$$dbgfile, "utimes: %s", path);
+        fprintf(setfile__1__2__1__1__dbgfile, "utimes: %s", path);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -6524,13 +6524,13 @@ signed int setfile(const char *path, struct stat *fs)
     rval = 1;
   }
 
-  signed int return_value_chown$3;
-  return_value_chown$3=chown(path, fs->st_uid, fs->st_gid);
-  if(!(return_value_chown$3 == 0))
+  signed int return_value_chown_3;
+  return_value_chown_3=chown(path, fs->st_uid, fs->st_gid);
+  if(!(return_value_chown_3 == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 1))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 1))
     {
 
     __CPROVER_DUMP_L6:
@@ -6539,12 +6539,12 @@ signed int setfile(const char *path, struct stat *fs)
       {
         if(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *setfile$$1$$3$$1$$1$$1$$dbgfile;
-          setfile$$1$$3$$1$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *setfile__1__3__1__1__1__dbgfile;
+          setfile__1__3__1__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"setfile", 82);
-          fprintf(setfile$$1$$3$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"setfile", 82);
+          fprintf(setfile__1__3__1__1__1__dbgfile, "%s(): %d: ", (const void *)"setfile", 82);
           fprintf(stderr, "chown: %s", path);
-          fprintf(setfile$$1$$3$$1$$1$$1$$dbgfile, "chown: %s", path);
+          fprintf(setfile__1__3__1__1__1__dbgfile, "chown: %s", path);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -6559,9 +6559,9 @@ signed int setfile(const char *path, struct stat *fs)
     fs->st_mode = fs->st_mode & (unsigned int)~(01000 | 04000 | 02000);
   }
 
-  signed int return_value_chmod$4;
-  return_value_chmod$4=chmod(path, fs->st_mode);
-  if(!(return_value_chmod$4 == 0))
+  signed int return_value_chmod_4;
+  return_value_chmod_4=chmod(path, fs->st_mode);
+  if(!(return_value_chmod_4 == 0))
   {
 
   __CPROVER_DUMP_L10:
@@ -6570,12 +6570,12 @@ signed int setfile(const char *path, struct stat *fs)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *setfile$$1$$4$$1$$1$$dbgfile;
-        setfile$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *setfile__1__4__1__1__dbgfile;
+        setfile__1__4__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"setfile", 89);
-        fprintf(setfile$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"setfile", 89);
+        fprintf(setfile__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"setfile", 89);
         fprintf(stderr, "chown: %s", path);
-        fprintf(setfile$$1$$4$$1$$1$$dbgfile, "chown: %s", path);
+        fprintf(setfile__1__4__1__1__dbgfile, "chown: %s", path);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -6590,12 +6590,12 @@ signed int setfile(const char *path, struct stat *fs)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *setfile$$1$$5$$1$$dbgfile;
-      setfile$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *setfile__1__5__1__dbgfile;
+      setfile__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"setfile", 110);
-      fprintf(setfile$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"setfile", 110);
+      fprintf(setfile__1__5__1__dbgfile, "%s(): %d: ", (const void *)"setfile", 110);
       fprintf(stderr, "return %d\n", rval);
-      fprintf(setfile$$1$$5$$1$$dbgfile, "return %d\n", rval);
+      fprintf(setfile__1__5__1__dbgfile, "return %d\n", rval);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -6611,24 +6611,24 @@ static signed int setlink(const char *path, struct stat *fs)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *setlink$$1$$1$$dbgfile;
-    setlink$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *setlink__1__1__dbgfile;
+    setlink__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"setlink", 118);
-    fprintf(setlink$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"setlink", 118);
+    fprintf(setlink__1__1__dbgfile, "%s(): %d: ", (const void *)"setlink", 118);
     fprintf(stderr, "%s\n", path);
-    fprintf(setlink$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(setlink__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
-  signed int return_value_lchown$2;
-  return_value_lchown$2=lchown(path, fs->st_uid, fs->st_gid);
-  if(!(return_value_lchown$2 == 0))
+  signed int return_value_lchown_2;
+  return_value_lchown_2=lchown(path, fs->st_uid, fs->st_gid);
+  if(!(return_value_lchown_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 1))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 1))
     {
 
     __CPROVER_DUMP_L3:
@@ -6637,12 +6637,12 @@ static signed int setlink(const char *path, struct stat *fs)
       {
         if(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *setlink$$1$$2$$1$$1$$1$$dbgfile;
-          setlink$$1$$2$$1$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *setlink__1__2__1__1__1__dbgfile;
+          setlink__1__2__1__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"setlink", 122);
-          fprintf(setlink$$1$$2$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"setlink", 122);
+          fprintf(setlink__1__2__1__1__1__dbgfile, "%s(): %d: ", (const void *)"setlink", 122);
           fprintf(stderr, "lchown: %s", path);
-          fprintf(setlink$$1$$2$$1$$1$$1$$dbgfile, "lchown: %s", path);
+          fprintf(setlink__1__2__1__1__1__dbgfile, "lchown: %s", path);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -6654,12 +6654,12 @@ static signed int setlink(const char *path, struct stat *fs)
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *setlink$$1$$2$$1$$2$$1$$dbgfile;
-          setlink$$1$$2$$1$$2$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *setlink__1__2__1__2__1__dbgfile;
+          setlink__1__2__1__2__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"setlink", 123);
-          fprintf(setlink$$1$$2$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"setlink", 123);
+          fprintf(setlink__1__2__1__2__1__dbgfile, "%s(): %d: ", (const void *)"setlink", 123);
           fprintf(stderr, "return %d\n", 1);
-          fprintf(setlink$$1$$2$$1$$2$$1$$dbgfile, "return %d\n", 1);
+          fprintf(setlink__1__2__1__2__1__dbgfile, "return %d\n", 1);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -6674,12 +6674,12 @@ static signed int setlink(const char *path, struct stat *fs)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *setlink$$1$$3$$1$$dbgfile;
-      setlink$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *setlink__1__3__1__dbgfile;
+      setlink__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"setlink", 126);
-      fprintf(setlink$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"setlink", 126);
+      fprintf(setlink__1__3__1__dbgfile, "%s(): %d: ", (const void *)"setlink", 126);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(setlink$$1$$3$$1$$dbgfile, "return %d\n", 0);
+      fprintf(setlink__1__3__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -6693,18 +6693,18 @@ static signed int setlink(const char *path, struct stat *fs)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1)
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1)
 {
-  signed int return_value___xstat$1$link1;
-  return_value___xstat$1$link1=__xstat(1, __path$link1, __statbuf$link1);
-  return return_value___xstat$1$link1;
+  signed int return_value___xstat_1_link1;
+  return_value___xstat_1_link1=__xstat(1, __path_link1, __statbuf_link1);
+  return return_value___xstat_1_link1;
 }
 
 // statvfs_local
@@ -6719,12 +6719,12 @@ static signed int statvfs_local(const char *path, struct statvfs *stbuf)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *statvfs_local$$1$$1$$1$$dbgfile;
-        statvfs_local$$1$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *statvfs_local__1__1__1__dbgfile;
+        statvfs_local__1__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"statvfs_local", 534);
-        fprintf(statvfs_local$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"statvfs_local", 534);
+        fprintf(statvfs_local__1__1__1__dbgfile, "%s(): %d: ", (const void *)"statvfs_local", 534);
         fprintf(stderr, "return %d\n", res);
-        fprintf(statvfs_local$$1$$1$$1$$dbgfile, "return %d\n", res);
+        fprintf(statvfs_local__1__1__1__dbgfile, "return %d\n", res);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -6752,12 +6752,12 @@ static signed int statvfs_local(const char *path, struct statvfs *stbuf)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *statvfs_local$$1$$4$$1$$dbgfile;
-      statvfs_local$$1$$4$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *statvfs_local__1__4__1__dbgfile;
+      statvfs_local__1__4__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"statvfs_local", 558);
-      fprintf(statvfs_local$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"statvfs_local", 558);
+      fprintf(statvfs_local__1__4__1__dbgfile, "%s(): %d: ", (const void *)"statvfs_local", 558);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(statvfs_local$$1$$4$$1$$dbgfile, "return %d\n", 0);
+      fprintf(statvfs_local__1__4__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -6771,13 +6771,13 @@ static signed int statvfs_local(const char *path, struct statvfs *stbuf)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/string.h line 29
 static inline signed int string_equal(void *s1, void *s2)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp((const char *)s1, (const char *)s2);
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  if(tmp_statement_expression$1 == 0)
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp((const char *)s1, (const char *)s2);
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  if(tmp_statement_expression_1 == 0)
     return 1;
 
   else
@@ -6788,9 +6788,9 @@ static inline signed int string_equal(void *s1, void *s2)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/string.h line 15
 unsigned int string_hash(void *s)
 {
-  unsigned int return_value_elfhash$1;
-  return_value_elfhash$1=elfhash((const char *)s);
-  return return_value_elfhash$1;
+  unsigned int return_value_elfhash_1;
+  return_value_elfhash_1=elfhash((const char *)s);
+  return return_value_elfhash_1;
 }
 
 // syslog_thread
@@ -6801,8 +6801,8 @@ static void * syslog_thread(void *arg)
   if(tinfo == 0 && tinfo == 1)
     printf("Starting thread %d", tinfo);
 
-  union anonymous$0 sleep_mutex;
-  pthread_mutex_init(&sleep_mutex, (const union anonymous$1 *)(void *)0);
+  union anonymous_0 sleep_mutex;
+  pthread_mutex_init(&sleep_mutex, (const union anonymous_1 *)(void *)0);
   pthread_mutex_lock(&sleep_mutex);
   while((_Bool)1)
   {
@@ -6818,21 +6818,21 @@ char * u_dirname(const char *path)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *u_dirname$$1$$1$$dbgfile;
-    u_dirname$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *u_dirname__1__1__dbgfile;
+    u_dirname__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"u_dirname", 140);
-    fprintf(u_dirname$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"u_dirname", 140);
+    fprintf(u_dirname__1__1__dbgfile, "%s(): %d: ", (const void *)"u_dirname", 140);
     fprintf(stderr, "%s\n", path);
-    fprintf(u_dirname$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(u_dirname__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   char *ret;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(path);
-  ret = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(path);
+  ret = return_value___strdup_1;
   if(ret == ((char *)NULL))
   {
 
@@ -6842,12 +6842,12 @@ char * u_dirname(const char *path)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *u_dirname$$1$$3$$1$$1$$dbgfile;
-        u_dirname$$1$$3$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *u_dirname__1__3__1__1__dbgfile;
+        u_dirname__1__3__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"u_dirname", 144);
-        fprintf(u_dirname$$1$$3$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"u_dirname", 144);
+        fprintf(u_dirname__1__3__1__1__dbgfile, "%s(): %d: ", (const void *)"u_dirname", 144);
         fprintf(stderr, "strdup failed, probably out of memory!\n");
-        fprintf(u_dirname$$1$$3$$1$$1$$dbgfile, "strdup failed, probably out of memory!\n");
+        fprintf(u_dirname__1__3__1__1__dbgfile, "strdup failed, probably out of memory!\n");
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -6878,12 +6878,12 @@ static signed int unionfs_chmod(const char *path, unsigned int mode)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_chmod$$1$$1$$dbgfile;
-    unionfs_chmod$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_chmod__1__1__dbgfile;
+    unionfs_chmod__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_chmod", 87);
-    fprintf(unionfs_chmod$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_chmod", 87);
+    fprintf(unionfs_chmod__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_chmod", 87);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_chmod$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_chmod__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -6896,41 +6896,41 @@ static signed int unionfs_chmod(const char *path, unsigned int mode)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_chmod$$1$$2$$1$$dbgfile;
-        unionfs_chmod$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_chmod__1__2__1__dbgfile;
+        unionfs_chmod__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_chmod", 90);
-        fprintf(unionfs_chmod$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_chmod", 90);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_chmod$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_chmod__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_chmod", 90);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_chmod__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char p[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(p, 1024, "unionfs_chmod", 93, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(p, 1024, "unionfs_chmod", 93, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_chmod$$1$$3$$1$$dbgfile;
-        unionfs_chmod$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_chmod__1__3__1__dbgfile;
+        unionfs_chmod__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_chmod", 93);
-        fprintf(unionfs_chmod$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_chmod", 93);
+        fprintf(unionfs_chmod__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_chmod", 93);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_chmod$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_chmod__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -6947,36 +6947,36 @@ static signed int unionfs_chmod(const char *path, unsigned int mode)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_chmod$$1$$4$$1$$dbgfile;
-        unionfs_chmod$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_chmod__1__4__1__dbgfile;
+        unionfs_chmod__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_chmod", 96);
-        fprintf(unionfs_chmod$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_chmod", 96);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$5));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(unionfs_chmod$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$6));
+        fprintf(unionfs_chmod__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_chmod", 96);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_5));
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(unionfs_chmod__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_6));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return -(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return -(*return_value___errno_location_7);
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_chmod$$1$$5$$1$$dbgfile;
-      unionfs_chmod$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_chmod__1__5__1__dbgfile;
+      unionfs_chmod__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_chmod", 98);
-      fprintf(unionfs_chmod$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_chmod", 98);
+      fprintf(unionfs_chmod__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_chmod", 98);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_chmod$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_chmod__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -6992,12 +6992,12 @@ static signed int unionfs_chown(const char *path, unsigned int uid, unsigned int
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_chown$$1$$1$$dbgfile;
-    unionfs_chown$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_chown__1__1__dbgfile;
+    unionfs_chown__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_chown", 102);
-    fprintf(unionfs_chown$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_chown", 102);
+    fprintf(unionfs_chown__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_chown", 102);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_chown$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_chown__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -7010,41 +7010,41 @@ static signed int unionfs_chown(const char *path, unsigned int uid, unsigned int
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_chown$$1$$2$$1$$dbgfile;
-        unionfs_chown$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_chown__1__2__1__dbgfile;
+        unionfs_chown__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_chown", 105);
-        fprintf(unionfs_chown$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_chown", 105);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_chown$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_chown__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_chown", 105);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_chown__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char p[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(p, 1024, "unionfs_chown", 108, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(p, 1024, "unionfs_chown", 108, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_chown$$1$$3$$1$$dbgfile;
-        unionfs_chown$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_chown__1__3__1__dbgfile;
+        unionfs_chown__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_chown", 108);
-        fprintf(unionfs_chown$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_chown", 108);
+        fprintf(unionfs_chown__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_chown", 108);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_chown$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_chown__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -7061,36 +7061,36 @@ static signed int unionfs_chown(const char *path, unsigned int uid, unsigned int
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_chown$$1$$4$$1$$dbgfile;
-        unionfs_chown$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_chown__1__4__1__dbgfile;
+        unionfs_chown__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_chown", 111);
-        fprintf(unionfs_chown$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_chown", 111);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$5));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(unionfs_chown$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$6));
+        fprintf(unionfs_chown__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_chown", 111);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_5));
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(unionfs_chown__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_6));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return -(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return -(*return_value___errno_location_7);
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_chown$$1$$5$$1$$dbgfile;
-      unionfs_chown$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_chown__1__5__1__dbgfile;
+      unionfs_chown__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_chown", 113);
-      fprintf(unionfs_chown$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_chown", 113);
+      fprintf(unionfs_chown__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_chown", 113);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_chown$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_chown__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -7106,12 +7106,12 @@ static signed int unionfs_create(const char *path, unsigned int mode, struct fus
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_create$$1$$1$$dbgfile;
-    unionfs_create$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_create__1__1__dbgfile;
+    unionfs_create__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_create", 121);
-    fprintf(unionfs_create$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 121);
+    fprintf(unionfs_create__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 121);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_create$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_create__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -7124,41 +7124,41 @@ static signed int unionfs_create(const char *path, unsigned int mode, struct fus
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_create$$1$$2$$1$$dbgfile;
-        unionfs_create$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_create__1__2__1__dbgfile;
+        unionfs_create__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_create", 124);
-        fprintf(unionfs_create$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 124);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_create$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_create__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 124);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_create__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char p[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(p, 1024, "unionfs_create", 127, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(p, 1024, "unionfs_create", 127, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_create$$1$$3$$1$$dbgfile;
-        unionfs_create$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_create__1__3__1__dbgfile;
+        unionfs_create__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_create", 127);
-        fprintf(unionfs_create$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 127);
+        fprintf(unionfs_create__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 127);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_create$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_create__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -7175,25 +7175,25 @@ static signed int unionfs_create(const char *path, unsigned int mode, struct fus
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_create$$1$$4$$1$$dbgfile;
-        unionfs_create$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_create__1__4__1__dbgfile;
+        unionfs_create__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_create", 134);
-        fprintf(unionfs_create$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 134);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$5));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(unionfs_create$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$6));
+        fprintf(unionfs_create__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 134);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_5));
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(unionfs_create__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_6));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return -(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return -(*return_value___errno_location_7);
   }
 
   set_owner(p);
@@ -7202,12 +7202,12 @@ static signed int unionfs_create(const char *path, unsigned int mode, struct fus
   remove_hidden(path, i);
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_create$$1$$5$$dbgfile;
-    unionfs_create$$1$$5$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_create__1__5__dbgfile;
+    unionfs_create__1__5__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_create", 144);
-    fprintf(unionfs_create$$1$$5$$dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 144);
+    fprintf(unionfs_create__1__5__dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 144);
     fprintf(stderr, "fd = %lx\n", fi->fh);
-    fprintf(unionfs_create$$1$$5$$dbgfile, "fd = %lx\n", fi->fh);
+    fprintf(unionfs_create__1__5__dbgfile, "fd = %lx\n", fi->fh);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -7216,12 +7216,12 @@ static signed int unionfs_create(const char *path, unsigned int mode, struct fus
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_create$$1$$6$$1$$dbgfile;
-      unionfs_create$$1$$6$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_create__1__6__1__dbgfile;
+      unionfs_create__1__6__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_create", 145);
-      fprintf(unionfs_create$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 145);
+      fprintf(unionfs_create__1__6__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_create", 145);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_create$$1$$6$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_create__1__6__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -7237,12 +7237,12 @@ static signed int unionfs_flush(const char *path, struct fuse_file_info *fi)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_flush$$1$$1$$dbgfile;
-    unionfs_flush$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_flush__1__1__dbgfile;
+    unionfs_flush__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_flush", 155);
-    fprintf(unionfs_flush$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_flush", 155);
+    fprintf(unionfs_flush__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_flush", 155);
     fprintf(stderr, "fd = %lx\n", fi->fh);
-    fprintf(unionfs_flush$$1$$1$$dbgfile, "fd = %lx\n", fi->fh);
+    fprintf(unionfs_flush__1__1__dbgfile, "fd = %lx\n", fi->fh);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -7252,19 +7252,19 @@ static signed int unionfs_flush(const char *path, struct fuse_file_info *fi)
   fd=dup((signed int)fi->fh);
   if(fd == -1)
   {
-    signed int return_value_fsync$1;
-    return_value_fsync$1=fsync((signed int)fi->fh);
-    if(return_value_fsync$1 == -1)
+    signed int return_value_fsync_1;
+    return_value_fsync_1=fsync((signed int)fi->fh);
+    if(return_value_fsync_1 == -1)
     {
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *unionfs_flush$$1$$2$$1$$1$$dbgfile;
-          unionfs_flush$$1$$2$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *unionfs_flush__1__2__1__1__dbgfile;
+          unionfs_flush__1__2__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_flush", 161);
-          fprintf(unionfs_flush$$1$$2$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_flush", 161);
+          fprintf(unionfs_flush__1__2__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_flush", 161);
           fprintf(stderr, "return %d\n", -5);
-          fprintf(unionfs_flush$$1$$2$$1$$1$$dbgfile, "return %d\n", -5);
+          fprintf(unionfs_flush__1__2__1__1__dbgfile, "return %d\n", -5);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -7277,25 +7277,25 @@ static signed int unionfs_flush(const char *path, struct fuse_file_info *fi)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_flush$$1$$2$$2$$1$$dbgfile;
-        unionfs_flush$$1$$2$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_flush__1__2__2__1__dbgfile;
+        unionfs_flush__1__2__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_flush", 163);
-        fprintf(unionfs_flush$$1$$2$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_flush", 163);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$2));
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        fprintf(unionfs_flush$$1$$2$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$3));
+        fprintf(unionfs_flush__1__2__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_flush", 163);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_2));
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        fprintf(unionfs_flush__1__2__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_3));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    return -(*return_value___errno_location$4);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    return -(*return_value___errno_location_4);
   }
 
   signed int res;
@@ -7305,36 +7305,36 @@ static signed int unionfs_flush(const char *path, struct fuse_file_info *fi)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_flush$$1$$3$$1$$dbgfile;
-        unionfs_flush$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_flush__1__3__1__dbgfile;
+        unionfs_flush__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_flush", 167);
-        fprintf(unionfs_flush$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_flush", 167);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$5));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(unionfs_flush$$1$$3$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$6));
+        fprintf(unionfs_flush__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_flush", 167);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_5));
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(unionfs_flush__1__3__1__dbgfile, "return %d\n", -(*return_value___errno_location_6));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return -(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return -(*return_value___errno_location_7);
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_flush$$1$$4$$1$$dbgfile;
-      unionfs_flush$$1$$4$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_flush__1__4__1__dbgfile;
+      unionfs_flush__1__4__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_flush", 169);
-      fprintf(unionfs_flush$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_flush", 169);
+      fprintf(unionfs_flush__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_flush", 169);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_flush$$1$$4$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_flush__1__4__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -7350,12 +7350,12 @@ static signed int unionfs_fsync(const char *path, signed int isdatasync, struct 
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_fsync$$1$$1$$dbgfile;
-    unionfs_fsync$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_fsync__1__1__dbgfile;
+    unionfs_fsync__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_fsync", 176);
-    fprintf(unionfs_fsync$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_fsync", 176);
+    fprintf(unionfs_fsync__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_fsync", 176);
     fprintf(stderr, "fd = %lx\n", fi->fh);
-    fprintf(unionfs_fsync$$1$$1$$dbgfile, "fd = %lx\n", fi->fh);
+    fprintf(unionfs_fsync__1__1__dbgfile, "fd = %lx\n", fi->fh);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -7372,36 +7372,36 @@ static signed int unionfs_fsync(const char *path, signed int isdatasync, struct 
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_fsync$$1$$4$$1$$dbgfile;
-        unionfs_fsync$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_fsync__1__4__1__dbgfile;
+        unionfs_fsync__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_fsync", 189);
-        fprintf(unionfs_fsync$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_fsync", 189);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_fsync$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_fsync__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_fsync", 189);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_fsync__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_fsync$$1$$5$$1$$dbgfile;
-      unionfs_fsync$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_fsync__1__5__1__dbgfile;
+      unionfs_fsync__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_fsync", 191);
-      fprintf(unionfs_fsync$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_fsync", 191);
+      fprintf(unionfs_fsync__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_fsync", 191);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_fsync$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_fsync__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -7417,12 +7417,12 @@ static signed int unionfs_getattr(const char *path, struct stat *stbuf)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_getattr$$1$$1$$dbgfile;
-    unionfs_getattr$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_getattr__1__1__dbgfile;
+    unionfs_getattr__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_getattr", 195);
-    fprintf(unionfs_getattr$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_getattr", 195);
+    fprintf(unionfs_getattr__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_getattr", 195);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_getattr$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_getattr__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -7435,41 +7435,41 @@ static signed int unionfs_getattr(const char *path, struct stat *stbuf)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_getattr$$1$$2$$1$$dbgfile;
-        unionfs_getattr$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_getattr__1__2__1__dbgfile;
+        unionfs_getattr__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_getattr", 198);
-        fprintf(unionfs_getattr$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_getattr", 198);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_getattr$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_getattr__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_getattr", 198);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_getattr__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char p[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(p, 1024, "unionfs_getattr", 201, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(p, 1024, "unionfs_getattr", 201, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_getattr$$1$$3$$1$$dbgfile;
-        unionfs_getattr$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_getattr__1__3__1__dbgfile;
+        unionfs_getattr__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_getattr", 201);
-        fprintf(unionfs_getattr$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_getattr", 201);
+        fprintf(unionfs_getattr__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_getattr", 201);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_getattr$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_getattr__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -7486,25 +7486,25 @@ static signed int unionfs_getattr(const char *path, struct stat *stbuf)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_getattr$$1$$4$$1$$dbgfile;
-        unionfs_getattr$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_getattr__1__4__1__dbgfile;
+        unionfs_getattr__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_getattr", 204);
-        fprintf(unionfs_getattr$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_getattr", 204);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$5));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(unionfs_getattr$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$6));
+        fprintf(unionfs_getattr__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_getattr", 204);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_5));
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(unionfs_getattr__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_6));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return -(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return -(*return_value___errno_location_7);
   }
 
   if((61440u & stbuf->st_mode) == 16384u)
@@ -7513,12 +7513,12 @@ static signed int unionfs_getattr(const char *path, struct stat *stbuf)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_getattr$$1$$5$$1$$dbgfile;
-      unionfs_getattr$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_getattr__1__5__1__dbgfile;
+      unionfs_getattr__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_getattr", 215);
-      fprintf(unionfs_getattr$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_getattr", 215);
+      fprintf(unionfs_getattr__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_getattr", 215);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_getattr$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_getattr__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -7546,30 +7546,30 @@ static void * unionfs_init(struct fuse_conn_info *conn)
       {
         if(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *unionfs_init$$1$$1$$1$$1$$1$$dbgfile;
-          unionfs_init$$1$$1$$1$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *unionfs_init__1__1__1__1__1__dbgfile;
+          unionfs_init__1__1__1__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_init", 232);
-          fprintf(unionfs_init$$1$$1$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_init", 232);
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          fprintf(stderr, "Chdir to %s failed: %s ! Aborting!\n", uopt.chroot, return_value_strerror$2);
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          fprintf(unionfs_init$$1$$1$$1$$1$$1$$dbgfile, "Chdir to %s failed: %s ! Aborting!\n", uopt.chroot, return_value_strerror$4);
+          fprintf(unionfs_init__1__1__1__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_init", 232);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          fprintf(stderr, "Chdir to %s failed: %s ! Aborting!\n", uopt.chroot, return_value_strerror_2);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          fprintf(unionfs_init__1__1__1__1__1__dbgfile, "Chdir to %s failed: %s ! Aborting!\n", uopt.chroot, return_value_strerror_4);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
         }
 
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        char *return_value_strerror$6;
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        usyslog(4, "Chdir to %s failed: %s ! Aborting!\n", uopt.chroot, return_value_strerror$6);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        char *return_value_strerror_6;
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        usyslog(4, "Chdir to %s failed: %s ! Aborting!\n", uopt.chroot, return_value_strerror_6);
       }
       while((_Bool)0);
       exit(1);
@@ -7626,12 +7626,12 @@ static signed int unionfs_ioctl(const char *path, signed int cmd, void *arg, str
         {
           if(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *unionfs_ioctl$$1$$1$$3$$1$$dbgfile;
-            unionfs_ioctl$$1$$1$$3$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *unionfs_ioctl__1__1__3__1__dbgfile;
+            unionfs_ioctl__1__1__3__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_ioctl", 299);
-            fprintf(unionfs_ioctl$$1$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_ioctl", 299);
+            fprintf(unionfs_ioctl__1__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_ioctl", 299);
             fprintf(stderr, "Unknown ioctl: %d", cmd);
-            fprintf(unionfs_ioctl$$1$$1$$3$$1$$dbgfile, "Unknown ioctl: %d", cmd);
+            fprintf(unionfs_ioctl__1__1__3__1__dbgfile, "Unknown ioctl: %d", cmd);
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
@@ -7653,12 +7653,12 @@ static signed int unionfs_link(const char *from, const char *to)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_link$$1$$1$$dbgfile;
-    unionfs_link$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_link__1__1__dbgfile;
+    unionfs_link__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_link", 246);
-    fprintf(unionfs_link$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 246);
+    fprintf(unionfs_link__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 246);
     fprintf(stderr, "from %s to %s\n", from, to);
-    fprintf(unionfs_link$$1$$1$$dbgfile, "from %s to %s\n", from, to);
+    fprintf(unionfs_link__1__1__dbgfile, "from %s to %s\n", from, to);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -7671,25 +7671,25 @@ static signed int unionfs_link(const char *from, const char *to)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_link$$1$$2$$1$$dbgfile;
-        unionfs_link$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_link__1__2__1__dbgfile;
+        unionfs_link__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_link", 250);
-        fprintf(unionfs_link$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 250);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_link$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_link__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 250);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_link__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   signed int j;
@@ -7699,35 +7699,35 @@ static signed int unionfs_link(const char *from, const char *to)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_link$$1$$3$$1$$dbgfile;
-        unionfs_link$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_link__1__3__1__dbgfile;
+        unionfs_link__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_link", 253);
-        fprintf(unionfs_link$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 253);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$4));
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(unionfs_link$$1$$3$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$5));
+        fprintf(unionfs_link__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 253);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_4));
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(unionfs_link__1__3__1__dbgfile, "return %d\n", -(*return_value___errno_location_5));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    return -(*return_value___errno_location$6);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    return -(*return_value___errno_location_6);
   }
 
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_link$$1$$4$$dbgfile;
-    unionfs_link$$1$$4$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_link__1__4__dbgfile;
+    unionfs_link__1__4__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_link", 255);
-    fprintf(unionfs_link$$1$$4$$dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 255);
+    fprintf(unionfs_link__1__4__dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 255);
     fprintf(stderr, "from branch: %d to branch: %d\n", i, j);
-    fprintf(unionfs_link$$1$$4$$dbgfile, "from branch: %d to branch: %d\n", i, j);
+    fprintf(unionfs_link__1__4__dbgfile, "from branch: %d to branch: %d\n", i, j);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -7735,19 +7735,19 @@ static signed int unionfs_link(const char *from, const char *to)
   }
   char f[1024l];
   char t[1024l];
-  signed int return_value_build_path$7;
-  return_value_build_path$7=build_path(f, 1024, "unionfs_link", 258, (uopt.branches + (signed long int)i)->path, from, (void *)0);
-  if(!(return_value_build_path$7 == 0))
+  signed int return_value_build_path_7;
+  return_value_build_path_7=build_path(f, 1024, "unionfs_link", 258, (uopt.branches + (signed long int)i)->path, from, (void *)0);
+  if(!(return_value_build_path_7 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_link$$1$$5$$1$$dbgfile;
-        unionfs_link$$1$$5$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_link__1__5__1__dbgfile;
+        unionfs_link__1__5__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_link", 258);
-        fprintf(unionfs_link$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 258);
+        fprintf(unionfs_link__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 258);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_link$$1$$5$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_link__1__5__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -7757,19 +7757,19 @@ static signed int unionfs_link(const char *from, const char *to)
     return -36;
   }
 
-  signed int return_value_build_path$8;
-  return_value_build_path$8=build_path(t, 1024, "unionfs_link", 259, (uopt.branches + (signed long int)j)->path, to, (void *)0);
-  if(!(return_value_build_path$8 == 0))
+  signed int return_value_build_path_8;
+  return_value_build_path_8=build_path(t, 1024, "unionfs_link", 259, (uopt.branches + (signed long int)j)->path, to, (void *)0);
+  if(!(return_value_build_path_8 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_link$$1$$6$$1$$dbgfile;
-        unionfs_link$$1$$6$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_link__1__6__1__dbgfile;
+        unionfs_link__1__6__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_link", 259);
-        fprintf(unionfs_link$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 259);
+        fprintf(unionfs_link__1__6__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 259);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_link$$1$$6$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_link__1__6__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -7786,37 +7786,37 @@ static signed int unionfs_link(const char *from, const char *to)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_link$$1$$7$$1$$dbgfile;
-        unionfs_link$$1$$7$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_link__1__7__1__dbgfile;
+        unionfs_link__1__7__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_link", 262);
-        fprintf(unionfs_link$$1$$7$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 262);
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$9));
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        fprintf(unionfs_link$$1$$7$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$10));
+        fprintf(unionfs_link__1__7__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 262);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_9));
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        fprintf(unionfs_link__1__7__1__dbgfile, "return %d\n", -(*return_value___errno_location_10));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    return -(*return_value___errno_location$11);
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    return -(*return_value___errno_location_11);
   }
 
   remove_hidden(to, i);
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_link$$1$$8$$1$$dbgfile;
-      unionfs_link$$1$$8$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_link__1__8__1__dbgfile;
+      unionfs_link__1__8__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_link", 267);
-      fprintf(unionfs_link$$1$$8$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 267);
+      fprintf(unionfs_link__1__8__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_link", 267);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_link$$1$$8$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_link__1__8__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -7832,12 +7832,12 @@ static signed int unionfs_mkdir(const char *path, unsigned int mode)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_mkdir$$1$$1$$dbgfile;
-    unionfs_mkdir$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_mkdir__1__1__dbgfile;
+    unionfs_mkdir__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mkdir", 314);
-    fprintf(unionfs_mkdir$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mkdir", 314);
+    fprintf(unionfs_mkdir__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mkdir", 314);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_mkdir$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_mkdir__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -7850,41 +7850,41 @@ static signed int unionfs_mkdir(const char *path, unsigned int mode)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_mkdir$$1$$2$$1$$dbgfile;
-        unionfs_mkdir$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_mkdir__1__2__1__dbgfile;
+        unionfs_mkdir__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mkdir", 317);
-        fprintf(unionfs_mkdir$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mkdir", 317);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_mkdir$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_mkdir__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mkdir", 317);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_mkdir__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char p[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(p, 1024, "unionfs_mkdir", 320, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(p, 1024, "unionfs_mkdir", 320, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_mkdir$$1$$3$$1$$dbgfile;
-        unionfs_mkdir$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_mkdir__1__3__1__dbgfile;
+        unionfs_mkdir__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mkdir", 320);
-        fprintf(unionfs_mkdir$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mkdir", 320);
+        fprintf(unionfs_mkdir__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mkdir", 320);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_mkdir$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_mkdir__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -7901,25 +7901,25 @@ static signed int unionfs_mkdir(const char *path, unsigned int mode)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_mkdir$$1$$4$$1$$dbgfile;
-        unionfs_mkdir$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_mkdir__1__4__1__dbgfile;
+        unionfs_mkdir__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mkdir", 323);
-        fprintf(unionfs_mkdir$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mkdir", 323);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$5));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(unionfs_mkdir$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$6));
+        fprintf(unionfs_mkdir__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mkdir", 323);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_5));
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(unionfs_mkdir__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_6));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return -(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return -(*return_value___errno_location_7);
   }
 
   set_owner(p);
@@ -7927,12 +7927,12 @@ static signed int unionfs_mkdir(const char *path, unsigned int mode)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_mkdir$$1$$5$$1$$dbgfile;
-      unionfs_mkdir$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_mkdir__1__5__1__dbgfile;
+      unionfs_mkdir__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mkdir", 329);
-      fprintf(unionfs_mkdir$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mkdir", 329);
+      fprintf(unionfs_mkdir__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mkdir", 329);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_mkdir$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_mkdir__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -7948,12 +7948,12 @@ static signed int unionfs_mknod(const char *path, unsigned int mode, unsigned lo
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_mknod$$1$$1$$dbgfile;
-    unionfs_mknod$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_mknod__1__1__dbgfile;
+    unionfs_mknod__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mknod", 333);
-    fprintf(unionfs_mknod$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 333);
+    fprintf(unionfs_mknod__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 333);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_mknod$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_mknod__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -7966,41 +7966,41 @@ static signed int unionfs_mknod(const char *path, unsigned int mode, unsigned lo
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_mknod$$1$$2$$1$$dbgfile;
-        unionfs_mknod$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_mknod__1__2__1__dbgfile;
+        unionfs_mknod__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mknod", 336);
-        fprintf(unionfs_mknod$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 336);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_mknod$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_mknod__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 336);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_mknod__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char p[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(p, 1024, "unionfs_mknod", 339, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(p, 1024, "unionfs_mknod", 339, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_mknod$$1$$3$$1$$dbgfile;
-        unionfs_mknod$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_mknod__1__3__1__dbgfile;
+        unionfs_mknod__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mknod", 339);
-        fprintf(unionfs_mknod$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 339);
+        fprintf(unionfs_mknod__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 339);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_mknod$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_mknod__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -8013,7 +8013,7 @@ static signed int unionfs_mknod(const char *path, unsigned int mode, unsigned lo
   signed int file_type = (signed int)(mode & (unsigned int)0170000);
   signed int file_perm = (signed int)(mode & (unsigned int)(04000 | 02000 | 01000 | 0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3));
   signed int res = -1;
-  signed int return_value_close$5;
+  signed int return_value_close_5;
   if(file_type == 0100000)
   {
 
@@ -8023,12 +8023,12 @@ static signed int unionfs_mknod(const char *path, unsigned int mode, unsigned lo
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_mknod$$1$$4$$1$$1$$dbgfile;
-        unionfs_mknod$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_mknod__1__4__1__1__dbgfile;
+        unionfs_mknod__1__4__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mknod", 351);
-        fprintf(unionfs_mknod$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 351);
+        fprintf(unionfs_mknod__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 351);
         fprintf(stderr, "deprecated mknod workaround, tell the unionfs-fuse authors if you see this!\n");
-        fprintf(unionfs_mknod$$1$$4$$1$$1$$dbgfile, "deprecated mknod workaround, tell the unionfs-fuse authors if you see this!\n");
+        fprintf(unionfs_mknod__1__4__1__1__dbgfile, "deprecated mknod workaround, tell the unionfs-fuse authors if you see this!\n");
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -8040,8 +8040,8 @@ static signed int unionfs_mknod(const char *path, unsigned int mode, unsigned lo
     res=creat(p, (unsigned int)0);
     if(res >= 1)
     {
-      return_value_close$5=close(res);
-      if(return_value_close$5 == -1)
+      return_value_close_5=close(res);
+      if(return_value_close_5 == -1)
       {
 
       __CPROVER_DUMP_L13:
@@ -8050,12 +8050,12 @@ static signed int unionfs_mknod(const char *path, unsigned int mode, unsigned lo
         {
           if(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *unionfs_mknod$$1$$4$$2$$1$$dbgfile;
-            unionfs_mknod$$1$$4$$2$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *unionfs_mknod__1__4__2__1__dbgfile;
+            unionfs_mknod__1__4__2__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mknod", 354);
-            fprintf(unionfs_mknod$$1$$4$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 354);
+            fprintf(unionfs_mknod__1__4__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 354);
             fprintf(stderr, "Warning, cannot close file\n");
-            fprintf(unionfs_mknod$$1$$4$$2$$1$$dbgfile, "Warning, cannot close file\n");
+            fprintf(unionfs_mknod__1__4__2__1__dbgfile, "Warning, cannot close file\n");
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
@@ -8077,25 +8077,25 @@ static signed int unionfs_mknod(const char *path, unsigned int mode, unsigned lo
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_mknod$$1$$6$$1$$dbgfile;
-        unionfs_mknod$$1$$6$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_mknod__1__6__1__dbgfile;
+        unionfs_mknod__1__6__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mknod", 359);
-        fprintf(unionfs_mknod$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 359);
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$6));
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        fprintf(unionfs_mknod$$1$$6$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$7));
+        fprintf(unionfs_mknod__1__6__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 359);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_6));
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        fprintf(unionfs_mknod__1__6__1__dbgfile, "return %d\n", -(*return_value___errno_location_7));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    return -(*return_value___errno_location$8);
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    return -(*return_value___errno_location_8);
   }
 
   set_owner(p);
@@ -8104,12 +8104,12 @@ static signed int unionfs_mknod(const char *path, unsigned int mode, unsigned lo
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_mknod$$1$$7$$1$$dbgfile;
-      unionfs_mknod$$1$$7$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_mknod__1__7__1__dbgfile;
+      unionfs_mknod__1__7__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_mknod", 367);
-      fprintf(unionfs_mknod$$1$$7$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 367);
+      fprintf(unionfs_mknod__1__7__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_mknod", 367);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_mknod$$1$$7$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_mknod__1__7__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -8125,12 +8125,12 @@ static signed int unionfs_open(const char *path, struct fuse_file_info *fi)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_open$$1$$1$$dbgfile;
-    unionfs_open$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_open__1__1__dbgfile;
+    unionfs_open__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_open", 371);
-    fprintf(unionfs_open$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 371);
+    fprintf(unionfs_open__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 371);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_open$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_open__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -8147,41 +8147,41 @@ static signed int unionfs_open(const char *path, struct fuse_file_info *fi)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_open$$1$$4$$1$$dbgfile;
-        unionfs_open$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_open__1__4__1__dbgfile;
+        unionfs_open__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_open", 380);
-        fprintf(unionfs_open$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 380);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_open$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_open__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 380);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_open__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char p[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(p, 1024, "unionfs_open", 383, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(p, 1024, "unionfs_open", 383, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_open$$1$$5$$1$$dbgfile;
-        unionfs_open$$1$$5$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_open__1__5__1__dbgfile;
+        unionfs_open__1__5__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_open", 383);
-        fprintf(unionfs_open$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 383);
+        fprintf(unionfs_open__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 383);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_open$$1$$5$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_open__1__5__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -8198,25 +8198,25 @@ static signed int unionfs_open(const char *path, struct fuse_file_info *fi)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_open$$1$$6$$1$$dbgfile;
-        unionfs_open$$1$$6$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_open__1__6__1__dbgfile;
+        unionfs_open__1__6__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_open", 386);
-        fprintf(unionfs_open$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 386);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$5));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(unionfs_open$$1$$6$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$6));
+        fprintf(unionfs_open__1__6__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 386);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_5));
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(unionfs_open__1__6__1__dbgfile, "return %d\n", -(*return_value___errno_location_6));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return -(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return -(*return_value___errno_location_7);
   }
 
   if(!((3 & fi->flags) == 0))
@@ -8225,12 +8225,12 @@ static signed int unionfs_open(const char *path, struct fuse_file_info *fi)
   fi->fh = (unsigned long int)fd;
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_open$$1$$8$$dbgfile;
-    unionfs_open$$1$$8$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_open__1__8__dbgfile;
+    unionfs_open__1__8__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_open", 398);
-    fprintf(unionfs_open$$1$$8$$dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 398);
+    fprintf(unionfs_open__1__8__dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 398);
     fprintf(stderr, "fd = %lx\n", fi->fh);
-    fprintf(unionfs_open$$1$$8$$dbgfile, "fd = %lx\n", fi->fh);
+    fprintf(unionfs_open__1__8__dbgfile, "fd = %lx\n", fi->fh);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -8239,12 +8239,12 @@ static signed int unionfs_open(const char *path, struct fuse_file_info *fi)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_open$$1$$9$$1$$dbgfile;
-      unionfs_open$$1$$9$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_open__1__9__1__dbgfile;
+      unionfs_open__1__9__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_open", 399);
-      fprintf(unionfs_open$$1$$9$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 399);
+      fprintf(unionfs_open__1__9__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_open", 399);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_open$$1$$9$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_open__1__9__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -8382,11 +8382,11 @@ void unionfs_post_opts(void)
     res=chdir(uopt.chroot);
     if(!(res == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "Chdir to %s failed: %s ! Aborting!\n", uopt.chroot, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "Chdir to %s failed: %s ! Aborting!\n", uopt.chroot, return_value_strerror_2);
       exit(1);
     }
 
@@ -8409,18 +8409,18 @@ void unionfs_post_opts(void)
     fd=open(path, 00);
     if(fd == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      fprintf(stderr, "\nFailed to open %s: %s. Aborting!\n\n", (const void *)path, return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      fprintf(stderr, "\nFailed to open %s: %s. Aborting!\n\n", (const void *)path, return_value_strerror_4);
       exit(1);
     }
 
     (uopt.branches + (signed long int)i)->fd = fd;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(path);
-    (uopt.branches + (signed long int)i)->path_len = (signed int)return_value_strlen$5;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(path);
+    (uopt.branches + (signed long int)i)->path_len = (signed int)return_value_strlen_5;
   }
 }
 
@@ -8430,56 +8430,56 @@ static signed int unionfs_read(const char *path, char *buf, unsigned long int si
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_read$$1$$1$$dbgfile;
-    unionfs_read$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_read__1__1__dbgfile;
+    unionfs_read__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_read", 403);
-    fprintf(unionfs_read$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_read", 403);
+    fprintf(unionfs_read__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_read", 403);
     fprintf(stderr, "fd = %lx\n", fi->fh);
-    fprintf(unionfs_read$$1$$1$$dbgfile, "fd = %lx\n", fi->fh);
+    fprintf(unionfs_read__1__1__dbgfile, "fd = %lx\n", fi->fh);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   signed int res;
-  signed long int return_value_pread$1;
-  return_value_pread$1=pread((signed int)fi->fh, (void *)buf, size, offset);
-  res = (signed int)return_value_pread$1;
+  signed long int return_value_pread_1;
+  return_value_pread_1=pread((signed int)fi->fh, (void *)buf, size, offset);
+  res = (signed int)return_value_pread_1;
   if(res == -1)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_read$$1$$2$$1$$dbgfile;
-        unionfs_read$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_read__1__2__1__dbgfile;
+        unionfs_read__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_read", 407);
-        fprintf(unionfs_read$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_read", 407);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$2));
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        fprintf(unionfs_read$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$3));
+        fprintf(unionfs_read__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_read", 407);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_2));
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        fprintf(unionfs_read__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_3));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    return -(*return_value___errno_location$4);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    return -(*return_value___errno_location_4);
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_read$$1$$3$$1$$dbgfile;
-      unionfs_read$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_read__1__3__1__dbgfile;
+      unionfs_read__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_read", 409);
-      fprintf(unionfs_read$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_read", 409);
+      fprintf(unionfs_read__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_read", 409);
       fprintf(stderr, "return %d\n", res);
-      fprintf(unionfs_read$$1$$3$$1$$dbgfile, "return %d\n", res);
+      fprintf(unionfs_read__1__3__1__dbgfile, "return %d\n", res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -8495,12 +8495,12 @@ signed int unionfs_readdir(const char *path, void *buf, signed int (*filler)(voi
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_readdir$$1$$1$$dbgfile;
-    unionfs_readdir$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_readdir__1__1__dbgfile;
+    unionfs_readdir__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_readdir", 112);
-    fprintf(unionfs_readdir$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_readdir", 112);
+    fprintf(unionfs_readdir__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_readdir", 112);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_readdir$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_readdir__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -8524,9 +8524,9 @@ signed int unionfs_readdir(const char *path, void *buf, signed int (*filler)(voi
       break;
 
     char p[1024l];
-    signed int return_value_build_path$1;
-    return_value_build_path$1=build_path(p, 1024, "unionfs_readdir", 132, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-    if(!(return_value_build_path$1 == 0))
+    signed int return_value_build_path_1;
+    return_value_build_path_1=build_path(p, 1024, "unionfs_readdir", 132, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+    if(!(return_value_build_path_1 == 0))
     {
       rc = -36;
       break;
@@ -8561,28 +8561,28 @@ signed int unionfs_readdir(const char *path, void *buf, signed int (*filler)(voi
         if(de == ((struct dirent *)NULL))
           break;
 
-        void *return_value_hashtable_search$2;
-        return_value_hashtable_search$2=hashtable_search(files, (void *)de->d_name);
-        if(return_value_hashtable_search$2 == NULL)
+        void *return_value_hashtable_search_2;
+        return_value_hashtable_search_2=hashtable_search(files, (void *)de->d_name);
+        if(return_value_hashtable_search_2 == NULL)
         {
           if(!(uopt.cow_enabled == (_Bool)0))
           {
-            void *return_value_hashtable_search$3;
-            return_value_hashtable_search$3=hashtable_search(whiteouts, (void *)de->d_name);
-            if(!(return_value_hashtable_search$3 == NULL))
+            void *return_value_hashtable_search_3;
+            return_value_hashtable_search_3=hashtable_search(whiteouts, (void *)de->d_name);
+            if(!(return_value_hashtable_search_3 == NULL))
               continue;
 
           }
 
-          _Bool return_value_hide_meta_files$4;
-          return_value_hide_meta_files$4=hide_meta_files(i, p, de);
-          if(!((signed int)return_value_hide_meta_files$4 == 1))
+          _Bool return_value_hide_meta_files_4;
+          return_value_hide_meta_files_4=hide_meta_files(i, p, de);
+          if(!((signed int)return_value_hide_meta_files_4 == 1))
           {
-            char *return_value___strdup$5;
-            return_value___strdup$5=__strdup(de->d_name);
-            void *return_value_malloc$6;
-            return_value_malloc$6=malloc((unsigned long int)1);
-            hashtable_insert(files, (void *)return_value___strdup$5, return_value_malloc$6);
+            char *return_value___strdup_5;
+            return_value___strdup_5=__strdup(de->d_name);
+            void *return_value_malloc_6;
+            return_value_malloc_6=malloc((unsigned long int)1);
+            hashtable_insert(files, (void *)return_value___strdup_5, return_value_malloc_6);
             struct stat st;
             memset((void *)&st, 0, sizeof(struct stat) /*144ul*/ );
             st.st_ino = de->d_ino;
@@ -8614,12 +8614,12 @@ out:
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_readdir$$1$$3$$1$$dbgfile;
-      unionfs_readdir$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_readdir__1__3__1__dbgfile;
+      unionfs_readdir__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_readdir", 185);
-      fprintf(unionfs_readdir$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_readdir", 185);
+      fprintf(unionfs_readdir__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_readdir", 185);
       fprintf(stderr, "return %d\n", rc);
-      fprintf(unionfs_readdir$$1$$3$$1$$dbgfile, "return %d\n", rc);
+      fprintf(unionfs_readdir__1__3__1__dbgfile, "return %d\n", rc);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -8635,12 +8635,12 @@ static signed int unionfs_readlink(const char *path, char *buf, unsigned long in
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_readlink$$1$$1$$dbgfile;
-    unionfs_readlink$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_readlink__1__1__dbgfile;
+    unionfs_readlink__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_readlink", 413);
-    fprintf(unionfs_readlink$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_readlink", 413);
+    fprintf(unionfs_readlink__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_readlink", 413);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_readlink$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_readlink__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -8653,41 +8653,41 @@ static signed int unionfs_readlink(const char *path, char *buf, unsigned long in
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_readlink$$1$$2$$1$$dbgfile;
-        unionfs_readlink$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_readlink__1__2__1__dbgfile;
+        unionfs_readlink__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_readlink", 416);
-        fprintf(unionfs_readlink$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_readlink", 416);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_readlink$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_readlink__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_readlink", 416);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_readlink__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char p[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(p, 1024, "unionfs_readlink", 419, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(p, 1024, "unionfs_readlink", 419, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_readlink$$1$$3$$1$$dbgfile;
-        unionfs_readlink$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_readlink__1__3__1__dbgfile;
+        unionfs_readlink__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_readlink", 419);
-        fprintf(unionfs_readlink$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_readlink", 419);
+        fprintf(unionfs_readlink__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_readlink", 419);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_readlink$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_readlink__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -8698,45 +8698,45 @@ static signed int unionfs_readlink(const char *path, char *buf, unsigned long in
   }
 
   signed int res;
-  signed long int return_value_readlink$5;
-  return_value_readlink$5=readlink(p, buf, size - (unsigned long int)1);
-  res = (signed int)return_value_readlink$5;
+  signed long int return_value_readlink_5;
+  return_value_readlink_5=readlink(p, buf, size - (unsigned long int)1);
+  res = (signed int)return_value_readlink_5;
   if(res == -1)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_readlink$$1$$4$$1$$dbgfile;
-        unionfs_readlink$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_readlink__1__4__1__dbgfile;
+        unionfs_readlink__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_readlink", 423);
-        fprintf(unionfs_readlink$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_readlink", 423);
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$6));
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        fprintf(unionfs_readlink$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$7));
+        fprintf(unionfs_readlink__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_readlink", 423);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_6));
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        fprintf(unionfs_readlink__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_7));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    return -(*return_value___errno_location$8);
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    return -(*return_value___errno_location_8);
   }
 
   buf[(signed long int)res] = (char)0;
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_readlink$$1$$5$$1$$dbgfile;
-      unionfs_readlink$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_readlink__1__5__1__dbgfile;
+      unionfs_readlink__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_readlink", 427);
-      fprintf(unionfs_readlink$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_readlink", 427);
+      fprintf(unionfs_readlink__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_readlink", 427);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_readlink$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_readlink__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -8752,12 +8752,12 @@ static signed int unionfs_release(const char *path, struct fuse_file_info *fi)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_release$$1$$1$$dbgfile;
-    unionfs_release$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_release__1__1__dbgfile;
+    unionfs_release__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_release", 431);
-    fprintf(unionfs_release$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_release", 431);
+    fprintf(unionfs_release__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_release", 431);
     fprintf(stderr, "fd = %lx\n", fi->fh);
-    fprintf(unionfs_release$$1$$1$$dbgfile, "fd = %lx\n", fi->fh);
+    fprintf(unionfs_release__1__1__dbgfile, "fd = %lx\n", fi->fh);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -8770,36 +8770,36 @@ static signed int unionfs_release(const char *path, struct fuse_file_info *fi)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_release$$1$$2$$1$$dbgfile;
-        unionfs_release$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_release__1__2__1__dbgfile;
+        unionfs_release__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_release", 434);
-        fprintf(unionfs_release$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_release", 434);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_release$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_release__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_release", 434);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_release__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_release$$1$$3$$1$$dbgfile;
-      unionfs_release$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_release__1__3__1__dbgfile;
+      unionfs_release__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_release", 436);
-      fprintf(unionfs_release$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_release", 436);
+      fprintf(unionfs_release__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_release", 436);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_release$$1$$3$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_release__1__3__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -8815,12 +8815,12 @@ static signed int unionfs_rename(const char *from, const char *to)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_rename$$1$$1$$dbgfile;
-    unionfs_rename$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_rename__1__1__dbgfile;
+    unionfs_rename__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 445);
-    fprintf(unionfs_rename$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 445);
+    fprintf(unionfs_rename__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 445);
     fprintf(stderr, "from %s to %s\n", from, to);
-    fprintf(unionfs_rename$$1$$1$$dbgfile, "from %s to %s\n", from, to);
+    fprintf(unionfs_rename__1__1__dbgfile, "from %s to %s\n", from, to);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -8834,25 +8834,25 @@ static signed int unionfs_rename(const char *from, const char *to)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_rename$$1$$2$$1$$dbgfile;
-        unionfs_rename$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_rename__1__2__1__dbgfile;
+        unionfs_rename__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 450);
-        fprintf(unionfs_rename$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 450);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_rename$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_rename__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 450);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_rename__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   signed int i;
@@ -8862,25 +8862,25 @@ static signed int unionfs_rename(const char *from, const char *to)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_rename$$1$$3$$1$$dbgfile;
-        unionfs_rename$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_rename__1__3__1__dbgfile;
+        unionfs_rename__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 453);
-        fprintf(unionfs_rename$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 453);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$4));
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(unionfs_rename$$1$$3$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$5));
+        fprintf(unionfs_rename__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 453);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_4));
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(unionfs_rename__1__3__1__dbgfile, "return %d\n", -(*return_value___errno_location_5));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    return -(*return_value___errno_location$6);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    return -(*return_value___errno_location_6);
   }
 
   if((uopt.branches + (signed long int)i)->rw == 0)
@@ -8891,25 +8891,25 @@ static signed int unionfs_rename(const char *from, const char *to)
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *unionfs_rename$$1$$4$$1$$1$$dbgfile;
-          unionfs_rename$$1$$4$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *unionfs_rename__1__4__1__1__dbgfile;
+          unionfs_rename__1__4__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 457);
-          fprintf(unionfs_rename$$1$$4$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 457);
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          fprintf(stderr, "return %d\n", -(*return_value___errno_location$7));
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          fprintf(unionfs_rename$$1$$4$$1$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$8));
+          fprintf(unionfs_rename__1__4__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 457);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          fprintf(stderr, "return %d\n", -(*return_value___errno_location_7));
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          fprintf(unionfs_rename__1__4__1__1__dbgfile, "return %d\n", -(*return_value___errno_location_8));
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
           break;
         }
 
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      return -(*return_value___errno_location$9);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      return -(*return_value___errno_location_9);
     }
 
   }
@@ -8923,12 +8923,12 @@ static signed int unionfs_rename(const char *from, const char *to)
     {
       if(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_rename$$1$$5$$1$$1$$dbgfile;
-        unionfs_rename$$1$$5$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_rename__1__5__1__1__dbgfile;
+        unionfs_rename__1__5__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 462);
-        fprintf(unionfs_rename$$1$$5$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 462);
+        fprintf(unionfs_rename__1__5__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 462);
         fprintf(stderr, "%s: from and to are on different writable branches %d vs %d, whichis not supported yet.\n", (const void *)"unionfs_rename", i, j);
-        fprintf(unionfs_rename$$1$$5$$1$$1$$dbgfile, "%s: from and to are on different writable branches %d vs %d, whichis not supported yet.\n", (const void *)"unionfs_rename", i, j);
+        fprintf(unionfs_rename__1__5__1__1__dbgfile, "%s: from and to are on different writable branches %d vs %d, whichis not supported yet.\n", (const void *)"unionfs_rename", i, j);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -8940,12 +8940,12 @@ static signed int unionfs_rename(const char *from, const char *to)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_rename$$1$$5$$2$$1$$dbgfile;
-        unionfs_rename$$1$$5$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_rename__1__5__2__1__dbgfile;
+        unionfs_rename__1__5__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 463);
-        fprintf(unionfs_rename$$1$$5$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 463);
+        fprintf(unionfs_rename__1__5__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 463);
         fprintf(stderr, "return %d\n", -18);
-        fprintf(unionfs_rename$$1$$5$$2$$1$$dbgfile, "return %d\n", -18);
+        fprintf(unionfs_rename__1__5__2__1__dbgfile, "return %d\n", -18);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -8957,19 +8957,19 @@ static signed int unionfs_rename(const char *from, const char *to)
 
   char f[1024l];
   char t[1024l];
-  signed int return_value_build_path$10;
-  return_value_build_path$10=build_path(f, 1024, "unionfs_rename", 467, (uopt.branches + (signed long int)i)->path, from, (void *)0);
-  if(!(return_value_build_path$10 == 0))
+  signed int return_value_build_path_10;
+  return_value_build_path_10=build_path(f, 1024, "unionfs_rename", 467, (uopt.branches + (signed long int)i)->path, from, (void *)0);
+  if(!(return_value_build_path_10 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_rename$$1$$6$$1$$dbgfile;
-        unionfs_rename$$1$$6$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_rename__1__6__1__dbgfile;
+        unionfs_rename__1__6__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 467);
-        fprintf(unionfs_rename$$1$$6$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 467);
+        fprintf(unionfs_rename__1__6__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 467);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_rename$$1$$6$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_rename__1__6__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -8979,19 +8979,19 @@ static signed int unionfs_rename(const char *from, const char *to)
     return -36;
   }
 
-  signed int return_value_build_path$11;
-  return_value_build_path$11=build_path(t, 1024, "unionfs_rename", 468, (uopt.branches + (signed long int)i)->path, to, (void *)0);
-  if(!(return_value_build_path$11 == 0))
+  signed int return_value_build_path_11;
+  return_value_build_path_11=build_path(t, 1024, "unionfs_rename", 468, (uopt.branches + (signed long int)i)->path, to, (void *)0);
+  if(!(return_value_build_path_11 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_rename$$1$$7$$1$$dbgfile;
-        unionfs_rename$$1$$7$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_rename__1__7__1__dbgfile;
+        unionfs_rename__1__7__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 468);
-        fprintf(unionfs_rename$$1$$7$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 468);
+        fprintf(unionfs_rename__1__7__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 468);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_rename$$1$$7$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_rename__1__7__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -9008,12 +9008,12 @@ static signed int unionfs_rename(const char *from, const char *to)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_rename$$1$$8$$1$$dbgfile;
-        unionfs_rename$$1$$8$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_rename__1__8__1__dbgfile;
+        unionfs_rename__1__8__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 472);
-        fprintf(unionfs_rename$$1$$8$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 472);
+        fprintf(unionfs_rename__1__8__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 472);
         fprintf(stderr, "return %d\n", -2);
-        fprintf(unionfs_rename$$1$$8$$1$$dbgfile, "return %d\n", -2);
+        fprintf(unionfs_rename__1__8__1__dbgfile, "return %d\n", -2);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -9040,25 +9040,25 @@ static signed int unionfs_rename(const char *from, const char *to)
       if(!(uopt.debug == (_Bool)0))
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *unionfs_rename$$1$$9$$1$$1$$dbgfile;
-          unionfs_rename$$1$$9$$1$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *unionfs_rename__1__9__1__1__dbgfile;
+          unionfs_rename__1__9__1__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 484);
-          fprintf(unionfs_rename$$1$$9$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 484);
-          signed int *return_value___errno_location$12;
-          return_value___errno_location$12=__errno_location();
-          fprintf(stderr, "return %d\n", -(*return_value___errno_location$12));
-          signed int *return_value___errno_location$13;
-          return_value___errno_location$13=__errno_location();
-          fprintf(unionfs_rename$$1$$9$$1$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$13));
+          fprintf(unionfs_rename__1__9__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 484);
+          signed int *return_value___errno_location_12;
+          return_value___errno_location_12=__errno_location();
+          fprintf(stderr, "return %d\n", -(*return_value___errno_location_12));
+          signed int *return_value___errno_location_13;
+          return_value___errno_location_13=__errno_location();
+          fprintf(unionfs_rename__1__9__1__1__dbgfile, "return %d\n", -(*return_value___errno_location_13));
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
           break;
         }
 
-      signed int *return_value___errno_location$14;
-      return_value___errno_location$14=__errno_location();
-      return -(*return_value___errno_location$14);
+      signed int *return_value___errno_location_14;
+      return_value___errno_location_14=__errno_location();
+      return -(*return_value___errno_location_14);
     }
 
   }
@@ -9067,14 +9067,14 @@ static signed int unionfs_rename(const char *from, const char *to)
   if(res == -1)
   {
     signed int err;
-    signed int *return_value___errno_location$15;
-    return_value___errno_location$15=__errno_location();
-    err = *return_value___errno_location$15;
+    signed int *return_value___errno_location_15;
+    return_value___errno_location_15=__errno_location();
+    err = *return_value___errno_location_15;
     if((uopt.branches + (signed long int)i)->rw == 0)
     {
-      signed int return_value_unlink$16;
-      return_value_unlink$16=unlink(f);
-      if(!(return_value_unlink$16 == 0))
+      signed int return_value_unlink_16;
+      return_value_unlink_16=unlink(f);
+      if(!(return_value_unlink_16 == 0))
       {
 
       __CPROVER_DUMP_L40:
@@ -9083,12 +9083,12 @@ static signed int unionfs_rename(const char *from, const char *to)
         {
           if(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *unionfs_rename$$1$$10$$1$$1$$1$$dbgfile;
-            unionfs_rename$$1$$10$$1$$1$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *unionfs_rename__1__10__1__1__1__dbgfile;
+            unionfs_rename__1__10__1__1__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 495);
-            fprintf(unionfs_rename$$1$$10$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 495);
+            fprintf(unionfs_rename__1__10__1__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 495);
             fprintf(stderr, "%s: cow of %s succeeded, but rename() failed and now also unlink()  failed\n", (const void *)"unionfs_rename", from);
-            fprintf(unionfs_rename$$1$$10$$1$$1$$1$$dbgfile, "%s: cow of %s succeeded, but rename() failed and now also unlink()  failed\n", (const void *)"unionfs_rename", from);
+            fprintf(unionfs_rename__1__10__1__1__1__dbgfile, "%s: cow of %s succeeded, but rename() failed and now also unlink()  failed\n", (const void *)"unionfs_rename", from);
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
@@ -9099,9 +9099,9 @@ static signed int unionfs_rename(const char *from, const char *to)
         while((_Bool)0);
       }
 
-      signed int return_value_remove_hidden$17;
-      return_value_remove_hidden$17=remove_hidden(from, i);
-      if(!(return_value_remove_hidden$17 == 0))
+      signed int return_value_remove_hidden_17;
+      return_value_remove_hidden_17=remove_hidden(from, i);
+      if(!(return_value_remove_hidden_17 == 0))
       {
 
       __CPROVER_DUMP_L43:
@@ -9110,12 +9110,12 @@ static signed int unionfs_rename(const char *from, const char *to)
         {
           if(!(uopt.debug == (_Bool)0))
           {
-            struct _IO_FILE *unionfs_rename$$1$$10$$1$$2$$1$$dbgfile;
-            unionfs_rename$$1$$10$$1$$2$$1$$dbgfile=get_dbgfile();
+            struct _IO_FILE *unionfs_rename__1__10__1__2__1__dbgfile;
+            unionfs_rename__1__10__1__2__1__dbgfile=get_dbgfile();
             fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 499);
-            fprintf(unionfs_rename$$1$$10$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 499);
+            fprintf(unionfs_rename__1__10__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 499);
             fprintf(stderr, "%s: cow of %s succeeded, but rename() failed and now also removing the whiteout  failed\n", (const void *)"unionfs_rename", from);
-            fprintf(unionfs_rename$$1$$10$$1$$2$$1$$dbgfile, "%s: cow of %s succeeded, but rename() failed and now also removing the whiteout  failed\n", (const void *)"unionfs_rename", from);
+            fprintf(unionfs_rename__1__10__1__2__1__dbgfile, "%s: cow of %s succeeded, but rename() failed and now also removing the whiteout  failed\n", (const void *)"unionfs_rename", from);
             fflush(stderr);
             fflush(stdout);
             put_dbgfile();
@@ -9131,12 +9131,12 @@ static signed int unionfs_rename(const char *from, const char *to)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_rename$$1$$10$$2$$1$$dbgfile;
-        unionfs_rename$$1$$10$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_rename__1__10__2__1__dbgfile;
+        unionfs_rename__1__10__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 501);
-        fprintf(unionfs_rename$$1$$10$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 501);
+        fprintf(unionfs_rename__1__10__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 501);
         fprintf(stderr, "return %d\n", -err);
-        fprintf(unionfs_rename$$1$$10$$2$$1$$dbgfile, "return %d\n", -err);
+        fprintf(unionfs_rename__1__10__2__1__dbgfile, "return %d\n", -err);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -9159,12 +9159,12 @@ static signed int unionfs_rename(const char *from, const char *to)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_rename$$1$$12$$1$$dbgfile;
-      unionfs_rename$$1$$12$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_rename__1__12__1__dbgfile;
+      unionfs_rename__1__12__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rename", 515);
-      fprintf(unionfs_rename$$1$$12$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 515);
+      fprintf(unionfs_rename__1__12__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rename", 515);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_rename$$1$$12$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_rename__1__12__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -9180,21 +9180,21 @@ signed int unionfs_rmdir(const char *path)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_rmdir$$1$$1$$dbgfile;
-    unionfs_rmdir$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_rmdir__1__1__dbgfile;
+    unionfs_rmdir__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_rmdir", 89);
-    fprintf(unionfs_rmdir$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_rmdir", 89);
+    fprintf(unionfs_rmdir__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_rmdir", 89);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_rmdir$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_rmdir__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
-  signed int return_value_dir_not_empty$1;
-  return_value_dir_not_empty$1=dir_not_empty(path);
-  signed int *return_value___errno_location$2;
-  if(!(return_value_dir_not_empty$1 == 0))
+  signed int return_value_dir_not_empty_1;
+  return_value_dir_not_empty_1=dir_not_empty(path);
+  signed int *return_value___errno_location_2;
+  if(!(return_value_dir_not_empty_1 == 0))
     return -39;
 
   else
@@ -9203,8 +9203,8 @@ signed int unionfs_rmdir(const char *path)
     i=find_rorw_branch(path);
     if(i == -1)
     {
-      return_value___errno_location$2=__errno_location();
-      return -(*return_value___errno_location$2);
+      return_value___errno_location_2=__errno_location();
+      return -(*return_value___errno_location_2);
     }
 
     else
@@ -9238,20 +9238,20 @@ static signed int unionfs_statfs(const char *path, struct statvfs *stbuf)
   (void)path;
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_statfs$$1$$1$$dbgfile;
-    unionfs_statfs$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_statfs__1__1__dbgfile;
+    unionfs_statfs__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_statfs", 572);
-    fprintf(unionfs_statfs$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_statfs", 572);
+    fprintf(unionfs_statfs__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_statfs", 572);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_statfs$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_statfs__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   signed int first = 1;
-  const signed long int first$array_size0 = (signed long int)uopt.nbranches;
-  unsigned long int devno[first$array_size0];
+  const signed long int first_array_size0 = (signed long int)uopt.nbranches;
+  unsigned long int devno[first_array_size0];
   signed int retVal = 0;
   signed int i = 0;
   i = 0;
@@ -9262,9 +9262,9 @@ static signed int unionfs_statfs(const char *path, struct statvfs *stbuf)
     res=statvfs_local((uopt.branches + (signed long int)i)->path, &stb);
     if(res == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      retVal = -(*return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      retVal = -(*return_value___errno_location_1);
       break;
     }
 
@@ -9272,9 +9272,9 @@ static signed int unionfs_statfs(const char *path, struct statvfs *stbuf)
     res=stat((uopt.branches + (signed long int)i)->path, &st);
     if(res == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      retVal = -(*return_value___errno_location$2);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      retVal = -(*return_value___errno_location_2);
       break;
     }
 
@@ -9330,12 +9330,12 @@ static signed int unionfs_statfs(const char *path, struct statvfs *stbuf)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_statfs$$1$$3$$1$$dbgfile;
-      unionfs_statfs$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_statfs__1__3__1__dbgfile;
+      unionfs_statfs__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_statfs", 637);
-      fprintf(unionfs_statfs$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_statfs", 637);
+      fprintf(unionfs_statfs__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_statfs", 637);
       fprintf(stderr, "return %d\n", retVal);
-      fprintf(unionfs_statfs$$1$$3$$1$$dbgfile, "return %d\n", retVal);
+      fprintf(unionfs_statfs__1__3__1__dbgfile, "return %d\n", retVal);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -9351,12 +9351,12 @@ static signed int unionfs_symlink(const char *from, const char *to)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_symlink$$1$$1$$dbgfile;
-    unionfs_symlink$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_symlink__1__1__dbgfile;
+    unionfs_symlink__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_symlink", 641);
-    fprintf(unionfs_symlink$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_symlink", 641);
+    fprintf(unionfs_symlink__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_symlink", 641);
     fprintf(stderr, "from %s to %s\n", from, to);
-    fprintf(unionfs_symlink$$1$$1$$dbgfile, "from %s to %s\n", from, to);
+    fprintf(unionfs_symlink__1__1__dbgfile, "from %s to %s\n", from, to);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -9369,41 +9369,41 @@ static signed int unionfs_symlink(const char *from, const char *to)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_symlink$$1$$2$$1$$dbgfile;
-        unionfs_symlink$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_symlink__1__2__1__dbgfile;
+        unionfs_symlink__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_symlink", 644);
-        fprintf(unionfs_symlink$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_symlink", 644);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_symlink$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_symlink__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_symlink", 644);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_symlink__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char t[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(t, 1024, "unionfs_symlink", 647, (uopt.branches + (signed long int)i)->path, to, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(t, 1024, "unionfs_symlink", 647, (uopt.branches + (signed long int)i)->path, to, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_symlink$$1$$3$$1$$dbgfile;
-        unionfs_symlink$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_symlink__1__3__1__dbgfile;
+        unionfs_symlink__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_symlink", 647);
-        fprintf(unionfs_symlink$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_symlink", 647);
+        fprintf(unionfs_symlink__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_symlink", 647);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_symlink$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_symlink__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -9420,25 +9420,25 @@ static signed int unionfs_symlink(const char *from, const char *to)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_symlink$$1$$4$$1$$dbgfile;
-        unionfs_symlink$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_symlink__1__4__1__dbgfile;
+        unionfs_symlink__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_symlink", 650);
-        fprintf(unionfs_symlink$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_symlink", 650);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$5));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(unionfs_symlink$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$6));
+        fprintf(unionfs_symlink__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_symlink", 650);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_5));
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(unionfs_symlink__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_6));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return -(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return -(*return_value___errno_location_7);
   }
 
   set_owner(t);
@@ -9446,12 +9446,12 @@ static signed int unionfs_symlink(const char *from, const char *to)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_symlink$$1$$5$$1$$dbgfile;
-      unionfs_symlink$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_symlink__1__5__1__dbgfile;
+      unionfs_symlink__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_symlink", 655);
-      fprintf(unionfs_symlink$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_symlink", 655);
+      fprintf(unionfs_symlink__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_symlink", 655);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_symlink$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_symlink__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -9467,12 +9467,12 @@ static signed int unionfs_truncate(const char *path, signed long int size)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_truncate$$1$$1$$dbgfile;
-    unionfs_truncate$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_truncate__1__1__dbgfile;
+    unionfs_truncate__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_truncate", 659);
-    fprintf(unionfs_truncate$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_truncate", 659);
+    fprintf(unionfs_truncate__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_truncate", 659);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_truncate$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_truncate__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -9485,41 +9485,41 @@ static signed int unionfs_truncate(const char *path, signed long int size)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_truncate$$1$$2$$1$$dbgfile;
-        unionfs_truncate$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_truncate__1__2__1__dbgfile;
+        unionfs_truncate__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_truncate", 662);
-        fprintf(unionfs_truncate$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_truncate", 662);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_truncate$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_truncate__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_truncate", 662);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_truncate__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char p[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(p, 1024, "unionfs_truncate", 665, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(p, 1024, "unionfs_truncate", 665, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_truncate$$1$$3$$1$$dbgfile;
-        unionfs_truncate$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_truncate__1__3__1__dbgfile;
+        unionfs_truncate__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_truncate", 665);
-        fprintf(unionfs_truncate$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_truncate", 665);
+        fprintf(unionfs_truncate__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_truncate", 665);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_truncate$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_truncate__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -9536,36 +9536,36 @@ static signed int unionfs_truncate(const char *path, signed long int size)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_truncate$$1$$4$$1$$dbgfile;
-        unionfs_truncate$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_truncate__1__4__1__dbgfile;
+        unionfs_truncate__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_truncate", 669);
-        fprintf(unionfs_truncate$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_truncate", 669);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$5));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(unionfs_truncate$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$6));
+        fprintf(unionfs_truncate__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_truncate", 669);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_5));
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(unionfs_truncate__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_6));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return -(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return -(*return_value___errno_location_7);
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_truncate$$1$$5$$1$$dbgfile;
-      unionfs_truncate$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_truncate__1__5__1__dbgfile;
+      unionfs_truncate__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_truncate", 671);
-      fprintf(unionfs_truncate$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_truncate", 671);
+      fprintf(unionfs_truncate__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_truncate", 671);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_truncate$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_truncate__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -9581,12 +9581,12 @@ signed int unionfs_unlink(const char *path)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_unlink$$1$$1$$dbgfile;
-    unionfs_unlink$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_unlink__1__1__dbgfile;
+    unionfs_unlink__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_unlink", 76);
-    fprintf(unionfs_unlink$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_unlink", 76);
+    fprintf(unionfs_unlink__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_unlink", 76);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_unlink$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_unlink__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -9599,25 +9599,25 @@ signed int unionfs_unlink(const char *path)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_unlink$$1$$2$$1$$dbgfile;
-        unionfs_unlink$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_unlink__1__2__1__dbgfile;
+        unionfs_unlink__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_unlink", 79);
-        fprintf(unionfs_unlink$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_unlink", 79);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", *return_value___errno_location$1);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_unlink$$1$$2$$1$$dbgfile, "return %d\n", *return_value___errno_location$2);
+        fprintf(unionfs_unlink__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_unlink", 79);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", *return_value___errno_location_1);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_unlink__1__2__1__dbgfile, "return %d\n", *return_value___errno_location_2);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   signed int res;
@@ -9640,12 +9640,12 @@ signed int unionfs_unlink(const char *path)
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_unlink$$1$$5$$1$$dbgfile;
-      unionfs_unlink$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_unlink__1__5__1__dbgfile;
+      unionfs_unlink__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_unlink", 98);
-      fprintf(unionfs_unlink$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_unlink", 98);
+      fprintf(unionfs_unlink__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_unlink", 98);
       fprintf(stderr, "return %d\n", -res);
-      fprintf(unionfs_unlink$$1$$5$$1$$dbgfile, "return %d\n", -res);
+      fprintf(unionfs_unlink__1__5__1__dbgfile, "return %d\n", -res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -9661,12 +9661,12 @@ static signed int unionfs_utimens(const char *path, struct timespec *ts)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_utimens$$1$$1$$dbgfile;
-    unionfs_utimens$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_utimens__1__1__dbgfile;
+    unionfs_utimens__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_utimens", 675);
-    fprintf(unionfs_utimens$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_utimens", 675);
+    fprintf(unionfs_utimens__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_utimens", 675);
     fprintf(stderr, "%s\n", path);
-    fprintf(unionfs_utimens$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unionfs_utimens__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -9679,41 +9679,41 @@ static signed int unionfs_utimens(const char *path, struct timespec *ts)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_utimens$$1$$2$$1$$dbgfile;
-        unionfs_utimens$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_utimens__1__2__1__dbgfile;
+        unionfs_utimens__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_utimens", 678);
-        fprintf(unionfs_utimens$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_utimens", 678);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$1));
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unionfs_utimens$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$2));
+        fprintf(unionfs_utimens__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_utimens", 678);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_1));
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unionfs_utimens__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_2));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return -(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return -(*return_value___errno_location_3);
   }
 
   char p[1024l];
-  signed int return_value_build_path$4;
-  return_value_build_path$4=build_path(p, 1024, "unionfs_utimens", 681, (uopt.branches + (signed long int)i)->path, path, (void *)0);
-  if(!(return_value_build_path$4 == 0))
+  signed int return_value_build_path_4;
+  return_value_build_path_4=build_path(p, 1024, "unionfs_utimens", 681, (uopt.branches + (signed long int)i)->path, path, (void *)0);
+  if(!(return_value_build_path_4 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_utimens$$1$$3$$1$$dbgfile;
-        unionfs_utimens$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_utimens__1__3__1__dbgfile;
+        unionfs_utimens__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_utimens", 681);
-        fprintf(unionfs_utimens$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_utimens", 681);
+        fprintf(unionfs_utimens__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_utimens", 681);
         fprintf(stderr, "return %d\n", -36);
-        fprintf(unionfs_utimens$$1$$3$$1$$dbgfile, "return %d\n", -36);
+        fprintf(unionfs_utimens__1__3__1__dbgfile, "return %d\n", -36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -9730,36 +9730,36 @@ static signed int unionfs_utimens(const char *path, struct timespec *ts)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_utimens$$1$$4$$1$$dbgfile;
-        unionfs_utimens$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_utimens__1__4__1__dbgfile;
+        unionfs_utimens__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_utimens", 694);
-        fprintf(unionfs_utimens$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_utimens", 694);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$5));
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(unionfs_utimens$$1$$4$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$6));
+        fprintf(unionfs_utimens__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_utimens", 694);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_5));
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(unionfs_utimens__1__4__1__dbgfile, "return %d\n", -(*return_value___errno_location_6));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return -(*return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return -(*return_value___errno_location_7);
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_utimens$$1$$5$$1$$dbgfile;
-      unionfs_utimens$$1$$5$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_utimens__1__5__1__dbgfile;
+      unionfs_utimens__1__5__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_utimens", 696);
-      fprintf(unionfs_utimens$$1$$5$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_utimens", 696);
+      fprintf(unionfs_utimens__1__5__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_utimens", 696);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unionfs_utimens$$1$$5$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unionfs_utimens__1__5__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -9776,56 +9776,56 @@ static signed int unionfs_write(const char *path, const char *buf, unsigned long
   (void)path;
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unionfs_write$$1$$1$$dbgfile;
-    unionfs_write$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unionfs_write__1__1__dbgfile;
+    unionfs_write__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_write", 702);
-    fprintf(unionfs_write$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_write", 702);
+    fprintf(unionfs_write__1__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_write", 702);
     fprintf(stderr, "fd = %lx\n", fi->fh);
-    fprintf(unionfs_write$$1$$1$$dbgfile, "fd = %lx\n", fi->fh);
+    fprintf(unionfs_write__1__1__dbgfile, "fd = %lx\n", fi->fh);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   signed int res;
-  signed long int return_value_pwrite$1;
-  return_value_pwrite$1=pwrite((signed int)fi->fh, (const void *)buf, size, offset);
-  res = (signed int)return_value_pwrite$1;
+  signed long int return_value_pwrite_1;
+  return_value_pwrite_1=pwrite((signed int)fi->fh, (const void *)buf, size, offset);
+  res = (signed int)return_value_pwrite_1;
   if(res == -1)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unionfs_write$$1$$2$$1$$dbgfile;
-        unionfs_write$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unionfs_write__1__2__1__dbgfile;
+        unionfs_write__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_write", 705);
-        fprintf(unionfs_write$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_write", 705);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(stderr, "return %d\n", -(*return_value___errno_location$2));
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        fprintf(unionfs_write$$1$$2$$1$$dbgfile, "return %d\n", -(*return_value___errno_location$3));
+        fprintf(unionfs_write__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_write", 705);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(stderr, "return %d\n", -(*return_value___errno_location_2));
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        fprintf(unionfs_write__1__2__1__dbgfile, "return %d\n", -(*return_value___errno_location_3));
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    return -(*return_value___errno_location$4);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    return -(*return_value___errno_location_4);
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unionfs_write$$1$$3$$1$$dbgfile;
-      unionfs_write$$1$$3$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unionfs_write__1__3__1__dbgfile;
+      unionfs_write__1__3__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unionfs_write", 707);
-      fprintf(unionfs_write$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unionfs_write", 707);
+      fprintf(unionfs_write__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unionfs_write", 707);
       fprintf(stderr, "return %d\n", res);
-      fprintf(unionfs_write$$1$$3$$1$$dbgfile, "return %d\n", res);
+      fprintf(unionfs_write__1__3__1__dbgfile, "return %d\n", res);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -9841,12 +9841,12 @@ static signed int unlink_ro(const char *path, signed int branch_ro)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unlink_ro$$1$$1$$dbgfile;
-    unlink_ro$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unlink_ro__1__1__dbgfile;
+    unlink_ro__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unlink_ro", 40);
-    fprintf(unlink_ro$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unlink_ro", 40);
+    fprintf(unlink_ro__1__1__dbgfile, "%s(): %d: ", (const void *)"unlink_ro", 40);
     fprintf(stderr, "%s\n", path);
-    fprintf(unlink_ro$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unlink_ro__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -9859,12 +9859,12 @@ static signed int unlink_ro(const char *path, signed int branch_ro)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unlink_ro$$1$$2$$1$$dbgfile;
-        unlink_ro$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unlink_ro__1__2__1__dbgfile;
+        unlink_ro__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unlink_ro", 45);
-        fprintf(unlink_ro$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unlink_ro", 45);
+        fprintf(unlink_ro__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unlink_ro", 45);
         fprintf(stderr, "return %d\n", 13);
-        fprintf(unlink_ro$$1$$2$$1$$dbgfile, "return %d\n", 13);
+        fprintf(unlink_ro__1__2__1__dbgfile, "return %d\n", 13);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -9874,43 +9874,43 @@ static signed int unlink_ro(const char *path, signed int branch_ro)
     return 13;
   }
 
-  signed int return_value_hide_file$4;
-  return_value_hide_file$4=hide_file(path, branch_rw);
-  if(return_value_hide_file$4 == -1)
+  signed int return_value_hide_file_4;
+  return_value_hide_file_4=hide_file(path, branch_rw);
+  if(return_value_hide_file_4 == -1)
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unlink_ro$$1$$3$$1$$1$$dbgfile;
-        unlink_ro$$1$$3$$1$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unlink_ro__1__3__1__1__dbgfile;
+        unlink_ro__1__3__1__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unlink_ro", 50);
-        fprintf(unlink_ro$$1$$3$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unlink_ro", 50);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        fprintf(stderr, "return %d\n", *return_value___errno_location$1);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(unlink_ro$$1$$3$$1$$1$$dbgfile, "return %d\n", *return_value___errno_location$2);
+        fprintf(unlink_ro__1__3__1__1__dbgfile, "%s(): %d: ", (const void *)"unlink_ro", 50);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        fprintf(stderr, "return %d\n", *return_value___errno_location_1);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(unlink_ro__1__3__1__1__dbgfile, "return %d\n", *return_value___errno_location_2);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unlink_ro$$1$$4$$1$$dbgfile;
-      unlink_ro$$1$$4$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unlink_ro__1__4__1__dbgfile;
+      unlink_ro__1__4__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unlink_ro", 53);
-      fprintf(unlink_ro$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unlink_ro", 53);
+      fprintf(unlink_ro__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unlink_ro", 53);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unlink_ro$$1$$4$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unlink_ro__1__4__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -9926,31 +9926,31 @@ static signed int unlink_rw(const char *path, signed int branch_rw)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *unlink_rw$$1$$1$$dbgfile;
-    unlink_rw$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *unlink_rw__1__1__dbgfile;
+    unlink_rw__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"unlink_rw", 61);
-    fprintf(unlink_rw$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"unlink_rw", 61);
+    fprintf(unlink_rw__1__1__dbgfile, "%s(): %d: ", (const void *)"unlink_rw", 61);
     fprintf(stderr, "%s\n", path);
-    fprintf(unlink_rw$$1$$1$$dbgfile, "%s\n", path);
+    fprintf(unlink_rw__1__1__dbgfile, "%s\n", path);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
     break;
   }
   char p[1024l];
-  signed int return_value_build_path$1;
-  return_value_build_path$1=build_path(p, 1024, "unlink_rw", 64, (uopt.branches + (signed long int)branch_rw)->path, path, (void *)0);
-  if(!(return_value_build_path$1 == 0))
+  signed int return_value_build_path_1;
+  return_value_build_path_1=build_path(p, 1024, "unlink_rw", 64, (uopt.branches + (signed long int)branch_rw)->path, path, (void *)0);
+  if(!(return_value_build_path_1 == 0))
   {
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unlink_rw$$1$$2$$1$$dbgfile;
-        unlink_rw$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unlink_rw__1__2__1__dbgfile;
+        unlink_rw__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unlink_rw", 64);
-        fprintf(unlink_rw$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"unlink_rw", 64);
+        fprintf(unlink_rw__1__2__1__dbgfile, "%s(): %d: ", (const void *)"unlink_rw", 64);
         fprintf(stderr, "return %d\n", 36);
-        fprintf(unlink_rw$$1$$2$$1$$dbgfile, "return %d\n", 36);
+        fprintf(unlink_rw__1__2__1__dbgfile, "return %d\n", 36);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -9967,36 +9967,36 @@ static signed int unlink_rw(const char *path, signed int branch_rw)
     if(!(uopt.debug == (_Bool)0))
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *unlink_rw$$1$$3$$1$$dbgfile;
-        unlink_rw$$1$$3$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *unlink_rw__1__3__1__dbgfile;
+        unlink_rw__1__3__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"unlink_rw", 67);
-        fprintf(unlink_rw$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"unlink_rw", 67);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        fprintf(stderr, "return %d\n", *return_value___errno_location$2);
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        fprintf(unlink_rw$$1$$3$$1$$dbgfile, "return %d\n", *return_value___errno_location$3);
+        fprintf(unlink_rw__1__3__1__dbgfile, "%s(): %d: ", (const void *)"unlink_rw", 67);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        fprintf(stderr, "return %d\n", *return_value___errno_location_2);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        fprintf(unlink_rw__1__3__1__dbgfile, "return %d\n", *return_value___errno_location_3);
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
         break;
       }
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    return *return_value___errno_location$4;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    return *return_value___errno_location_4;
   }
 
   if(!(uopt.debug == (_Bool)0))
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *unlink_rw$$1$$4$$1$$dbgfile;
-      unlink_rw$$1$$4$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *unlink_rw__1__4__1__dbgfile;
+      unlink_rw__1__4__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"unlink_rw", 69);
-      fprintf(unlink_rw$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"unlink_rw", 69);
+      fprintf(unlink_rw__1__4__1__dbgfile, "%s(): %d: ", (const void *)"unlink_rw", 69);
       fprintf(stderr, "return %d\n", 0);
-      fprintf(unlink_rw$$1$$4$$1$$dbgfile, "return %d\n", 0);
+      fprintf(unlink_rw__1__4__1__dbgfile, "return %d\n", 0);
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -10011,7 +10011,7 @@ static signed int unlink_rw(const char *path, signed int branch_rw)
 void uopt_init()
 {
   memset((void *)&uopt, 0, sizeof(struct anonymous) /*120ul*/ );
-  pthread_rwlock_init(&uopt.dbgpath_lock, (const union anonymous$4 *)(void *)0);
+  pthread_rwlock_init(&uopt.dbgpath_lock, (const union anonymous_4 *)(void *)0);
 }
 
 // usyslog
@@ -10025,12 +10025,12 @@ void usyslog(signed int priority, const char *format, ...)
   {
     while(!(uopt.debug == (_Bool)0))
     {
-      struct _IO_FILE *usyslog$$1$$1$$1$$dbgfile;
-      usyslog$$1$$1$$1$$dbgfile=get_dbgfile();
+      struct _IO_FILE *usyslog__1__1__1__dbgfile;
+      usyslog__1__1__1__dbgfile=get_dbgfile();
       fprintf(stderr, "%s(): %d: ", (const void *)"usyslog", 191);
-      fprintf(usyslog$$1$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"usyslog", 191);
+      fprintf(usyslog__1__1__1__dbgfile, "%s(): %d: ", (const void *)"usyslog", 191);
       fprintf(stderr, "All syslog entries already busy\n");
-      fprintf(usyslog$$1$$1$$1$$dbgfile, "All syslog entries already busy\n");
+      fprintf(usyslog__1__1__1__dbgfile, "All syslog entries already busy\n");
       fflush(stderr);
       fflush(stdout);
       put_dbgfile();
@@ -10048,12 +10048,12 @@ void usyslog(signed int priority, const char *format, ...)
     {
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *usyslog$$1$$2$$1$$dbgfile;
-        usyslog$$1$$2$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *usyslog__1__2__1__dbgfile;
+        usyslog__1__2__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"usyslog", 202);
-        fprintf(usyslog$$1$$2$$1$$dbgfile, "%s(): %d: ", (const void *)"usyslog", 202);
+        fprintf(usyslog__1__2__1__dbgfile, "%s(): %d: ", (const void *)"usyslog", 202);
         fprintf(stderr, "Critical log error, log entry is BUSY, but should not\n");
-        fprintf(usyslog$$1$$2$$1$$dbgfile, "Critical log error, log entry is BUSY, but should not\n");
+        fprintf(usyslog__1__2__1__dbgfile, "Critical log error, log entry is BUSY, but should not\n");
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -10068,16 +10068,16 @@ void usyslog(signed int priority, const char *format, ...)
       {
         while(!(uopt.debug == (_Bool)0))
         {
-          struct _IO_FILE *usyslog$$1$$3$$1$$dbgfile;
-          usyslog$$1$$3$$1$$dbgfile=get_dbgfile();
+          struct _IO_FILE *usyslog__1__3__1__dbgfile;
+          usyslog__1__3__1__dbgfile=get_dbgfile();
           fprintf(stderr, "%s(): %d: ", (const void *)"usyslog", 207);
-          fprintf(usyslog$$1$$3$$1$$dbgfile, "%s(): %d: ", (const void *)"usyslog", 207);
-          char *return_value_strerror$1;
-          return_value_strerror$1=strerror(res);
-          fprintf(stderr, "Never should happen, can get lock: %s\n", return_value_strerror$1);
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(res);
-          fprintf(usyslog$$1$$3$$1$$dbgfile, "Never should happen, can get lock: %s\n", return_value_strerror$2);
+          fprintf(usyslog__1__3__1__dbgfile, "%s(): %d: ", (const void *)"usyslog", 207);
+          char *return_value_strerror_1;
+          return_value_strerror_1=strerror(res);
+          fprintf(stderr, "Never should happen, can get lock: %s\n", return_value_strerror_1);
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(res);
+          fprintf(usyslog__1__3__1__dbgfile, "Never should happen, can get lock: %s\n", return_value_strerror_2);
           fflush(stderr);
           fflush(stdout);
           put_dbgfile();
@@ -10091,12 +10091,12 @@ void usyslog(signed int priority, const char *format, ...)
     {
       while(!(uopt.debug == (_Bool)0))
       {
-        struct _IO_FILE *usyslog$$1$$4$$1$$dbgfile;
-        usyslog$$1$$4$$1$$dbgfile=get_dbgfile();
+        struct _IO_FILE *usyslog__1__4__1__dbgfile;
+        usyslog__1__4__1__dbgfile=get_dbgfile();
         fprintf(stderr, "%s(): %d: ", (const void *)"usyslog", 214);
-        fprintf(usyslog$$1$$4$$1$$dbgfile, "%s(): %d: ", (const void *)"usyslog", 214);
+        fprintf(usyslog__1__4__1__dbgfile, "%s(): %d: ", (const void *)"usyslog", 214);
         fprintf(stderr, "Never should happen, entry is busy, but should not!\n");
-        fprintf(usyslog$$1$$4$$1$$dbgfile, "Never should happen, entry is busy, but should not!\n");
+        fprintf(usyslog__1__4__1__dbgfile, "Never should happen, entry is busy, but should not!\n");
         fflush(stderr);
         fflush(stdout);
         put_dbgfile();
@@ -10146,12 +10146,12 @@ char * whiteout_tag(const char *fname)
 {
   while(!(uopt.debug == (_Bool)0))
   {
-    struct _IO_FILE *whiteout_tag$$1$$1$$dbgfile;
-    whiteout_tag$$1$$1$$dbgfile=get_dbgfile();
+    struct _IO_FILE *whiteout_tag__1__1__dbgfile;
+    whiteout_tag__1__1__dbgfile=get_dbgfile();
     fprintf(stderr, "%s(): %d: ", (const void *)"whiteout_tag", 32);
-    fprintf(whiteout_tag$$1$$1$$dbgfile, "%s(): %d: ", (const void *)"whiteout_tag", 32);
+    fprintf(whiteout_tag__1__1__dbgfile, "%s(): %d: ", (const void *)"whiteout_tag", 32);
     fprintf(stderr, "%s\n", fname);
-    fprintf(whiteout_tag$$1$$1$$dbgfile, "%s\n", fname);
+    fprintf(whiteout_tag__1__1__dbgfile, "%s\n", fname);
     fflush(stderr);
     fflush(stdout);
     put_dbgfile();
@@ -10159,13 +10159,13 @@ char * whiteout_tag(const char *fname)
   }
   char *tag;
   tag=strstr(fname, "_HIDDEN~");
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
   if(!(tag == ((char *)NULL)) && !(tag == fname))
   {
-    return_value_strlen$1=strlen(tag);
-    return_value_strlen$2=strlen("_HIDDEN~");
-    if(!(return_value_strlen$1 == return_value_strlen$2))
+    return_value_strlen_1=strlen(tag);
+    return_value_strlen_2=strlen("_HIDDEN~");
+    if(!(return_value_strlen_1 == return_value_strlen_2))
       goto __CPROVER_DUMP_L3;
 
     return tag;

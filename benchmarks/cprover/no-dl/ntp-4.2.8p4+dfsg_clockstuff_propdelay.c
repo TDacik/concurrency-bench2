@@ -1,250 +1,250 @@
-// #anon_enum$isc_assertiontype_require=0$isc_assertiontype_ensure=1$isc_assertiontype_insist=2$isc_assertiontype_invariant=3
+// #anon_enum_isc_assertiontype_require=0_isc_assertiontype_ensure=1_isc_assertiontype_insist=2_isc_assertiontype_invariant=3
 // file ../lib/isc/include/isc/assertions.h line 33
-enum anonymous$45 { isc_assertiontype_require=0, isc_assertiontype_ensure=1, isc_assertiontype_insist=2, isc_assertiontype_invariant=3 };
+enum anonymous_45 { isc_assertiontype_require=0, isc_assertiontype_ensure=1, isc_assertiontype_insist=2, isc_assertiontype_invariant=3 };
 
-// #anon_enum$isc_boolean_false=0$isc_boolean_true=1
+// #anon_enum_isc_boolean_false=0_isc_boolean_true=1
 // file ../lib/isc/include/isc/boolean.h line 25
-enum anonymous$11 { isc_boolean_false=0, isc_boolean_true=1 };
+enum anonymous_11 { isc_boolean_false=0, isc_boolean_true=1 };
 
-// #anon_enum$isc_taskmgrmode_normal=0$isc_taskmgrmode_privileged=1
+// #anon_enum_isc_taskmgrmode_normal=0_isc_taskmgrmode_privileged=1
 // file ../lib/isc/include/isc/task.h line 104
-enum anonymous$59 { isc_taskmgrmode_normal=0, isc_taskmgrmode_privileged=1 };
+enum anonymous_59 { isc_taskmgrmode_normal=0, isc_taskmgrmode_privileged=1 };
 
-// #anon_enum$task_state_idle=0$task_state_ready=1$task_state_running=2$task_state_done=3
+// #anon_enum_task_state_idle=0_task_state_ready=1_task_state_running=2_task_state_done=3
 // file ./../lib/isc/task.c line 86
-enum anonymous$56 { task_state_idle=0, task_state_ready=1, task_state_running=2, task_state_done=3 };
+enum anonymous_56 { task_state_idle=0, task_state_ready=1, task_state_running=2, task_state_done=3 };
 
-// tag-#anon#ST[*{SYM#tag-isc__task#}$SYM#tag-isc__task#$'head'||*{SYM#tag-isc__task#}$SYM#tag-isc__task#$'tail'|]
+// tag-#anon#ST[*{SYM#tag-isc__task#}_SYM#tag-isc__task#_'head'||*{SYM#tag-isc__task#}_SYM#tag-isc__task#_'tail'|]
 // file ./../lib/isc/task.c line 133
-struct anonymous$58;
+struct anonymous_58;
 
-// tag-#anon#ST[*{SYM#tag-isc__task#}$SYM#tag-isc__task#$'prev'||*{SYM#tag-isc__task#}$SYM#tag-isc__task#$'next'|]
+// tag-#anon#ST[*{SYM#tag-isc__task#}_SYM#tag-isc__task#_'prev'||*{SYM#tag-isc__task#}_SYM#tag-isc__task#_'next'|]
 // file ./../lib/isc/task.c line 119
-struct anonymous$57;
+struct anonymous_57;
 
-// tag-#anon#ST[*{SYM#tag-isc_buffer#}$SYM#tag-isc_buffer#$'prev'||*{SYM#tag-isc_buffer#}$SYM#tag-isc_buffer#$'next'|]
+// tag-#anon#ST[*{SYM#tag-isc_buffer#}_SYM#tag-isc_buffer#_'prev'||*{SYM#tag-isc_buffer#}_SYM#tag-isc_buffer#_'next'|]
 // file ../lib/isc/include/isc/buffer.h line 179
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[*{SYM#tag-isc_event#}$SYM#tag-isc_event#$'head'||*{SYM#tag-isc_event#}$SYM#tag-isc_event#$'tail'|]
+// tag-#anon#ST[*{SYM#tag-isc_event#}_SYM#tag-isc_event#_'head'||*{SYM#tag-isc_event#}_SYM#tag-isc_event#_'tail'|]
 // file ../lib/isc/include/isc/types.h line 56
-struct anonymous$52;
+struct anonymous_52;
 
-// tag-#anon#ST[*{SYM#tag-isc_event#}$SYM#tag-isc_event#$'prev'||*{SYM#tag-isc_event#}$SYM#tag-isc_event#$'next'|]
+// tag-#anon#ST[*{SYM#tag-isc_event#}_SYM#tag-isc_event#_'prev'||*{SYM#tag-isc_event#}_SYM#tag-isc_event#_'next'|]
 // file ../lib/isc/include/isc/event.h line 81
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{SYM#tag-isc_logchannel#}$SYM#tag-isc_logchannel#$'head'||*{SYM#tag-isc_logchannel#}$SYM#tag-isc_logchannel#$'tail'|]
+// tag-#anon#ST[*{SYM#tag-isc_logchannel#}_SYM#tag-isc_logchannel#_'head'||*{SYM#tag-isc_logchannel#}_SYM#tag-isc_logchannel#_'tail'|]
 // file ./../lib/isc/log.c line 119
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[*{SYM#tag-isc_logchannel#}$SYM#tag-isc_logchannel#$'prev'||*{SYM#tag-isc_logchannel#}$SYM#tag-isc_logchannel#$'next'|]
+// tag-#anon#ST[*{SYM#tag-isc_logchannel#}_SYM#tag-isc_logchannel#_'prev'||*{SYM#tag-isc_logchannel#}_SYM#tag-isc_logchannel#_'next'|]
 // file ./../lib/isc/log.c line 78
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[*{SYM#tag-isc_logchannellist#}$SYM#tag-isc_logchannellist#$'head'||*{SYM#tag-isc_logchannellist#}$SYM#tag-isc_logchannellist#$'tail'|]
+// tag-#anon#ST[*{SYM#tag-isc_logchannellist#}_SYM#tag-isc_logchannellist#_'head'||*{SYM#tag-isc_logchannellist#}_SYM#tag-isc_logchannellist#_'tail'|]
 // file ./../lib/isc/log.c line 120
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[*{SYM#tag-isc_logchannellist#}$SYM#tag-isc_logchannellist#$'prev'||*{SYM#tag-isc_logchannellist#}$SYM#tag-isc_logchannellist#$'next'|]
+// tag-#anon#ST[*{SYM#tag-isc_logchannellist#}_SYM#tag-isc_logchannellist#_'prev'||*{SYM#tag-isc_logchannellist#}_SYM#tag-isc_logchannellist#_'next'|]
 // file ./../lib/isc/log.c line 94
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[*{SYM#tag-isc_logmessage#}$SYM#tag-isc_logmessage#$'head'||*{SYM#tag-isc_logmessage#}$SYM#tag-isc_logmessage#$'tail'|]
+// tag-#anon#ST[*{SYM#tag-isc_logmessage#}_SYM#tag-isc_logmessage#_'head'||*{SYM#tag-isc_logmessage#}_SYM#tag-isc_logmessage#_'tail'|]
 // file ./../lib/isc/log.c line 158
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[*{SYM#tag-isc_logmessage#}$SYM#tag-isc_logmessage#$'prev'||*{SYM#tag-isc_logmessage#}$SYM#tag-isc_logmessage#$'next'|]
+// tag-#anon#ST[*{SYM#tag-isc_logmessage#}_SYM#tag-isc_logmessage#_'prev'||*{SYM#tag-isc_logmessage#}_SYM#tag-isc_logmessage#_'next'|]
 // file ./../lib/isc/log.c line 106
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[*{SYM#tag-isc_sockaddr#}$SYM#tag-isc_sockaddr#$'prev'||*{SYM#tag-isc_sockaddr#}$SYM#tag-isc_sockaddr#$'next'|]
+// tag-#anon#ST[*{SYM#tag-isc_sockaddr#}_SYM#tag-isc_sockaddr#_'prev'||*{SYM#tag-isc_sockaddr#}_SYM#tag-isc_sockaddr#_'next'|]
 // file ../lib/isc/include/isc/sockaddr.h line 42
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{SYM#tag-recvbuf#}$SYM#tag-recvbuf#$'phead'||*{*{SYM#tag-recvbuf#}$SYM#tag-recvbuf#$}$*{SYM#tag-recvbuf#}$SYM#tag-recvbuf#$$'pptail'|]
+// tag-#anon#ST[*{SYM#tag-recvbuf#}_SYM#tag-recvbuf#_'phead'||*{*{SYM#tag-recvbuf#}_SYM#tag-recvbuf#_}_*{SYM#tag-recvbuf#}_SYM#tag-recvbuf#__'pptail'|]
 // file recvbuff.c line 25
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{SYM#tag-resulttable#}$SYM#tag-resulttable#$'head'||*{SYM#tag-resulttable#}$SYM#tag-resulttable#$'tail'|]
+// tag-#anon#ST[*{SYM#tag-resulttable#}_SYM#tag-resulttable#_'head'||*{SYM#tag-resulttable#}_SYM#tag-resulttable#_'tail'|]
 // file ./../lib/isc/result.c line 112
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[*{SYM#tag-resulttable#}$SYM#tag-resulttable#$'prev'||*{SYM#tag-resulttable#}$SYM#tag-resulttable#$'next'|]
+// tag-#anon#ST[*{SYM#tag-resulttable#}_SYM#tag-resulttable#_'prev'||*{SYM#tag-resulttable#}_SYM#tag-resulttable#_'next'|]
 // file ./../lib/isc/result.c line 40
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[*{SYM#tag-savekey#}$SYM#tag-savekey#$'b'||*{SYM#tag-savekey#}$SYM#tag-savekey#$'f'|]
+// tag-#anon#ST[*{SYM#tag-savekey#}_SYM#tag-savekey#_'b'||*{SYM#tag-savekey#}_SYM#tag-savekey#_'f'|]
 // file authkeys.c line 26
-struct anonymous$53;
+struct anonymous_53;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[ARR4{U32}$U32$'buf'||ARR2{U32}$U32$'bytes'||ARR16{U32}$U32$'in'|]
+// tag-#anon#ST[ARR4{U32}_U32_'buf'||ARR2{U32}_U32_'bytes'||ARR16{U32}_U32_'in'|]
 // file ../lib/isc/include/isc/md5.h line 60
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[ARR5{U32}$U32$'state'||ARR2{U32}$U32$'count'||ARR64{U8}$U8$'buffer'|]
+// tag-#anon#ST[ARR5{U32}_U32_'state'||ARR2{U32}_U32_'count'||ARR64{U8}_U8_'buffer'|]
 // file ../lib/isc/include/isc/sha1.h line 45
-struct anonymous$62;
+struct anonymous_62;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[S32'hi'||S32'lo'|]
 // file ../include/ntp_calendar.h line 34
-struct anonymous$61;
+struct anonymous_61;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[S32'tv_sec'||S32'tv_usec'|]
 // file /usr/include/x86_64-linux-gnu/bits/utmp.h line 73
-struct anonymous$39;
+struct anonymous_39;
 
 // tag-#anon#ST[S64'quot'||S64'rem'|]
 // file /usr/include/inttypes.h line 271
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[SYM#tag-#anon#UN[U32'Xl_ui'||S32'Xl_i'|]#'Ul_i'||U32'l_uf'|]
 // file ../include/ntp_fp.h line 30
-struct anonymous$38;
+struct anonymous_38;
 
 // tag-#anon#ST[U16'll'||U16'lh'||U16'hl'||S16'hh'|]
 // file ../include/ntp_types.h line 190
-struct anonymous$40;
+struct anonymous_40;
 
 // tag-#anon#ST[U16'll'||U16'lh'||U16'hl'||U16'hh'|]
 // file ../include/ntp_types.h line 193
-struct anonymous$41;
+struct anonymous_41;
 
 // tag-#anon#ST[U32'lo'||S32'hi'|]
 // file ../include/ntp_types.h line 196
-struct anonymous$42;
+struct anonymous_42;
 
 // tag-#anon#ST[U32'lo'||U32'hi'|]
 // file ../include/ntp_types.h line 199
-struct anonymous$43;
+struct anonymous_43;
 
 // tag-#anon#ST[U32'magic'|]
 // file ../lib/isc/include/isc/magic.h line 25
-struct anonymous$30;
+struct anonymous_30;
 
 // tag-#anon#ST[cU16'more_help'||cU16'save_opts'||cU16'number_option'||cU16'default_opt'|]
 // file /usr/include/autoopts/options.h line 551
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'ifu_broadaddr'||*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'ifu_dstaddr'|]
+// tag-#anon#UN[*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'ifu_broadaddr'||*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'ifu_dstaddr'|]
 // file /usr/include/ifaddrs.h line 38
-union anonymous$29;
+union anonymous_29;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[*{cS8}$cS8$'argString'||U64'argEnum'||U64'argIntptr'||S64'argInt'||U64'argUint'||U32'argBool'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'argFp'||S32'argFd'|]
+// tag-#anon#UN[*{cS8}_cS8_'argString'||U64'argEnum'||U64'argIntptr'||S64'argInt'||U64'argUint'||U32'argBool'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'argFp'||S32'argFd'|]
 // file /usr/include/autoopts/options.h line 450
 union anonymous;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$48;
+union anonymous_48;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$65;
+union anonymous_65;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$60;
+union anonymous_60;
 
-// tag-#anon#UN[ARR64{U8}$U8$'c'||ARR16{U32}$U32$'l'|]
+// tag-#anon#UN[ARR64{U8}_U8_'c'||ARR16{U32}_U32_'l'|]
 // file ./../lib/isc/sha1.c line 125
-union anonymous$63;
+union anonymous_63;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
 // tag-#anon#UN[SYM#tag-#anon#ST[U16'll'||U16'lh'||U16'hl'||S16'hh'|]#'w_s'||SYM#tag-#anon#ST[U16'll'||U16'lh'||U16'hl'||U16'hh'|]#'W_s'||SYM#tag-#anon#ST[U32'lo'||S32'hi'|]#'d_s'||SYM#tag-#anon#ST[U32'lo'||U32'hi'|]#'D_s'||S64'q_s'||U64'Q_s'|]
 // file ../include/ntp_types.h line 175
-union anonymous$44;
+union anonymous_44;
 
-// tag-#anon#UN[SYM#tag-#anon#UN[SYM#tag-sockaddr#'sa'||SYM#tag-sockaddr_in#'sa4'||SYM#tag-sockaddr_in6#'sa6'|]#'X_recv_srcadr'||*{S8}$S8$'X_recv_srcclock'||*{SYM#tag-peer#}$SYM#tag-peer#$'X_recv_peer'||U256'$pad'|]
+// tag-#anon#UN[SYM#tag-#anon#UN[SYM#tag-sockaddr#'sa'||SYM#tag-sockaddr_in#'sa4'||SYM#tag-sockaddr_in6#'sa6'|]#'X_recv_srcadr'||*{S8}_S8_'X_recv_srcclock'||*{SYM#tag-peer#}_SYM#tag-peer#_'X_recv_peer'||U256'_pad'|]
 // file ../include/recvbuff.h line 51
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
 // tag-#anon#UN[SYM#tag-in_addr#'in'||SYM#tag-in6_addr#'in6'|]
 // file ../lib/isc/include/isc/netaddr.h line 38
-union anonymous$51;
+union anonymous_51;
 
-// tag-#anon#UN[SYM#tag-pkt#'X_recv_pkt'||ARR1000{U8}$U8$'X_recv_buffer'|]
+// tag-#anon#UN[SYM#tag-pkt#'X_recv_pkt'||ARR1000{U8}_U8_'X_recv_buffer'|]
 // file ../include/recvbuff.h line 70
-union anonymous$2;
+union anonymous_2;
 
 // tag-#anon#UN[SYM#tag-sockaddr#'sa'||SYM#tag-sockaddr_in#'sa4'||SYM#tag-sockaddr_in6#'sa6'|]
 // file ../include/ntp_net.h line 28
-union anonymous$47;
+union anonymous_47;
 
 // tag-#anon#UN[SYM#tag-sockaddr#'sa'||SYM#tag-sockaddr_in#'sin'||SYM#tag-sockaddr_in6#'sin6'|]
 // file ../lib/isc/include/isc/sockaddr.h line 33
-union anonymous$50;
+union anonymous_50;
 
 // tag-#anon#UN[U32'Xl_ui'||S32'Xl_i'|]
 // file ../include/ntp_fp.h line 31
-union anonymous$37;
+union anonymous_37;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$49;
+union anonymous_49;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$64;
+union anonymous_64;
 
 // tag-HistEvent
 // file /usr/include/histedit.h line 189
@@ -815,22 +815,22 @@ extern void add_full_recv_buffer(struct recvbuf *rb);
 static inline struct timespec add_tspec_ns(struct timespec a, signed long int b);
 // addr2refid
 // file a_md5encrypt.c line 105
-extern unsigned int addr2refid(union anonymous$47 *addr);
-// addremove_io_fd$object
+extern unsigned int addr2refid(union anonymous_47 *addr);
+// addremove_io_fd_object
 //
-void addremove_io_fd$object(signed int, signed int, signed int);
+void addremove_io_fd_object(signed int, signed int, signed int);
 // addto_syslog
 // file msyslog.c line 143
 void addto_syslog(signed int level, const char *msg);
 // addv64
 // file vint64ops.c line 175
-extern union anonymous$44 addv64(const union anonymous$44 *lhs, const union anonymous$44 *rhs);
+extern union anonymous_44 addv64(const union anonymous_44 *lhs, const union anonymous_44 *rhs);
 // addv64i32
 // file vint64ops.c line 213
-extern union anonymous$44 addv64i32(const union anonymous$44 *lhs, signed int rhs);
+extern union anonymous_44 addv64i32(const union anonymous_44 *lhs, signed int rhs);
 // addv64u32
 // file vint64ops.c line 251
-extern union anonymous$44 addv64u32(const union anonymous$44 *lhs, unsigned int rhs);
+extern union anonymous_44 addv64u32(const union anonymous_44 *lhs, unsigned int rhs);
 // adj_systime
 // file systime.c line 278
 extern signed int adj_systime(double now);
@@ -866,7 +866,7 @@ extern signed int atoi(const char *);
 extern signed int atoint(const char *str, signed long int *ival);
 // atolfp
 // file atolfp.c line 30
-extern signed int atolfp(const char *str, struct anonymous$38 *lfp);
+extern signed int atolfp(const char *str, struct anonymous_38 *lfp);
 // atouint
 // file atouint.c line 17
 extern signed int atouint(const char *str, unsigned long int *uval);
@@ -935,7 +935,7 @@ extern unsigned int available_blocking_child_slot(void);
 static signed int badopt(const char *mess, signed int ch);
 // block_thread_signals
 // file work_thread.c line 502
-static void block_thread_signals(struct anonymous$14 *pmask);
+static void block_thread_signals(struct anonymous_14 *pmask);
 // blocking_child_common
 // file ntp_worker.c line 269
 extern signed int blocking_child_common(struct blocking_child_tag *c);
@@ -953,7 +953,7 @@ void * blocking_thread(void *ThreadArg);
 extern void * bsearch(const void *, const void *, unsigned long int, unsigned long int, signed int (*)(const void *, const void *));
 // buftvtots
 // file buftvtots.c line 16
-extern signed int buftvtots(const char *bufp, struct anonymous$38 *ts);
+extern signed int buftvtots(const char *bufp, struct anonymous_38 *ts);
 // byteSwap
 // file ./../lib/isc/md5.c line 71
 static void byteSwap(unsigned int *buf, unsigned int words);
@@ -1028,13 +1028,13 @@ extern signed int closedir(struct __dirstream *);
 static inline signed int cmp_tspec(struct timespec a, struct timespec b);
 // common_prettydate
 // file prettydate.c line 155
-static char * common_prettydate(struct anonymous$38 *ts, signed int local);
+static char * common_prettydate(struct anonymous_38 *ts, signed int local);
 // convertLFPToRefID
 // file refidsmear.c line 36
-extern unsigned int convertLFPToRefID(struct anonymous$38 num);
+extern unsigned int convertLFPToRefID(struct anonymous_38 num);
 // convertRefIDToLFP
 // file refidsmear.c line 18
-extern struct anonymous$38 convertRefIDToLFP(unsigned int r);
+extern struct anonymous_38 convertRefIDToLFP(unsigned int r);
 // copy_addrinfo_common
 // file ntp_rfc2553.c line 157
 struct addrinfo * copy_addrinfo_common(struct addrinfo *src, signed int just_one);
@@ -1050,18 +1050,18 @@ extern double cos(double);
 // create_buffers
 // file recvbuff.c line 79
 static void create_buffers(signed int nbufs);
-// ctrl_c_hook$object
+// ctrl_c_hook_object
 //
-void ctrl_c_hook$object(void);
+void ctrl_c_hook_object(void);
 // decode_bitflags
 // file statestr.c line 335
 static const char * decode_bitflags(signed int bits, const char *sep2, struct codestring *tab, unsigned long int tab_ct);
 // decodenetnum
 // file decodenetnum.c line 24
-extern signed int decodenetnum(const char *num, union anonymous$47 *netnum);
+extern signed int decodenetnum(const char *num, union anonymous_47 *netnum);
 // default_callback
 // file ./../lib/isc/assertions.c line 105
-static void default_callback(const char *file, signed int line, enum anonymous$45 type, const char *cond);
+static void default_callback(const char *file, signed int line, enum anonymous_45 type, const char *cond);
 // default_fatal_callback
 // file ./../lib/isc/error.c line 97
 static void default_fatal_callback(const char *file, signed int line, const char *format, void **args);
@@ -1070,7 +1070,7 @@ static void default_fatal_callback(const char *file, signed int line, const char
 static void default_unexpected_callback(const char *file, signed int line, const char *format, void **args);
 // dequeue_events
 // file ./../lib/isc/task.c line 638
-static unsigned int dequeue_events(struct isc__task *task, void *sender, unsigned int first, unsigned int last, void *tag, struct anonymous$52 *events, enum anonymous$11 purging);
+static unsigned int dequeue_events(struct isc__task *task, void *sender, unsigned int first, unsigned int last, void *tag, struct anonymous_52 *events, enum anonymous_11 purging);
 // destroy
 // file ./../lib/isc/event.c line 36
 static void destroy(struct isc_event *event);
@@ -1109,7 +1109,7 @@ signed int el_set(struct editline *, signed int, ...);
 signed int el_source(struct editline *, const char *);
 // empty_readyq
 // file ./../lib/isc/task.c line 925
-static inline enum anonymous$11 empty_readyq(struct isc__taskmgr *manager);
+static inline enum anonymous_11 empty_readyq(struct isc__taskmgr *manager);
 // ensure_workitems_empty_slot
 // file work_thread.c line 129
 static void ensure_workitems_empty_slot(struct blocking_child_tag *c);
@@ -1134,9 +1134,9 @@ extern void exit(signed int);
 // exit_worker
 // file work_thread.c line 72
 extern void exit_worker(signed int exitcode);
-// fatal_callback$object
+// fatal_callback_object
 //
-void fatal_callback$object(const char *, signed int, const char *, void **);
+void fatal_callback_object(const char *, signed int, const char *, void **);
 // fclose
 // file /usr/include/stdio.h line 237
 extern signed int fclose(struct _IO_FILE *);
@@ -1167,9 +1167,9 @@ static signed int finddelay(double lat1, double long1, double lat2, double long2
 // fix_tv_usec
 // file ./../lib/isc/unix/stdtime.c line 41
 static inline void fix_tv_usec(struct timeval *tv);
-// fix_tv_usec$link1
+// fix_tv_usec_link1
 // file ./../lib/isc/unix/time.c line 62
-static inline void fix_tv_usec$link1(struct timeval *tv$link1);
+static inline void fix_tv_usec_link1(struct timeval *tv_link1);
 // fopen
 // file /usr/include/stdio.h line 272
 extern struct _IO_FILE * fopen(const char *, const char *);
@@ -1244,10 +1244,10 @@ extern struct recvbuf * get_full_recv_buffer(void);
 static inline void get_ostime(struct timespec *tsp);
 // get_struct_tm
 // file prettydate.c line 63
-static struct tm * get_struct_tm(const union anonymous$44 *stamp, signed int local);
+static struct tm * get_struct_tm(const union anonymous_44 *stamp, signed int local);
 // get_systime
 // file systime.c line 162
-extern void get_systime(struct anonymous$38 *now);
+extern void get_systime(struct anonymous_38 *now);
 // get_worker_context
 // file ntp_intres.c line 965
 static struct dnsworker_ctx_tag * get_worker_context(struct blocking_child_tag *c, unsigned int idx);
@@ -1257,9 +1257,9 @@ extern signed int getaddrinfo(const char *, const char *, struct addrinfo *, str
 // getaddrinfo_sometime
 // file ntp_intres.c line 235
 extern signed int getaddrinfo_sometime(const char *node, const char *service, struct addrinfo *hints, signed int retry, void (*callback)(signed int, signed int, void *, const char *, const char *, struct addrinfo *, struct addrinfo *), void *context);
-// getaddrinfo_sometime::callback$object
+// getaddrinfo_sometime::callback_object
 //
-void callback$object(signed int, signed int, void *, const char *, const char *, struct addrinfo *, struct addrinfo *);
+void callback_object(signed int, signed int, void *, const char *, const char *, struct addrinfo *, struct addrinfo *);
 // getaddrinfo_sometime_complete
 // file ntp_intres.c line 458
 static void getaddrinfo_sometime_complete(enum blocking_work_req_tag rtype, void *context, unsigned long int respsize, void *resp);
@@ -1283,10 +1283,10 @@ extern signed int getifaddrs(struct ifaddrs **);
 extern signed int getnameinfo(struct sockaddr *, unsigned int, char *, unsigned int, char *, unsigned int, signed int);
 // getnameinfo_sometime
 // file ntp_intres.c line 623
-extern signed int getnameinfo_sometime(union anonymous$47 *psau, unsigned long int hostoctets, unsigned long int servoctets, signed int flags, void (*callback)(signed int, signed int, union anonymous$47 *, signed int, const char *, const char *, void *), void *context);
-// getnameinfo_sometime::callback$object
+extern signed int getnameinfo_sometime(union anonymous_47 *psau, unsigned long int hostoctets, unsigned long int servoctets, signed int flags, void (*callback)(signed int, signed int, union anonymous_47 *, signed int, const char *, const char *, void *), void *context);
+// getnameinfo_sometime::callback_object
 //
-void callback$object(signed int, signed int, union anonymous$47 *, signed int, const char *, const char *, void *);
+void callback_object(signed int, signed int, union anonymous_47 *, signed int, const char *, const char *, void *);
 // getnameinfo_sometime_complete
 // file ntp_intres.c line 789
 static void getnameinfo_sometime_complete(enum blocking_work_req_tag rtype, void *context, unsigned long int respsize, void *resp);
@@ -1301,13 +1301,13 @@ extern char * getpass_keytype(signed int keytype);
 extern signed int getpid(void);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous$64, unsigned int *);
+extern signed int getsockname(signed int, union anonymous_64, unsigned int *);
 // gettimeofday
 // file /usr/include/x86_64-linux-gnu/sys/time.h line 71
 extern signed int gettimeofday(struct timeval *, struct timezone *);
 // gmprettydate
 // file prettydate.c line 214
-extern char * gmprettydate(struct anonymous$38 *ts);
+extern char * gmprettydate(struct anonymous_38 *ts);
 // gmtime
 // file /usr/include/time.h line 239
 extern struct tm * gmtime(const signed long int *);
@@ -1322,13 +1322,13 @@ static double greatcircle(double lat1, double long1, double lat2, double long2);
 static unsigned int greatest_version(struct isc_logchannel *channel, signed int *greatestp);
 // has_full_recv_buffer
 // file recvbuff.c line 296
-extern enum anonymous$11 has_full_recv_buffer(void);
+extern enum anonymous_11 has_full_recv_buffer(void);
 // hextoint
 // file hextoint.c line 11
 extern signed int hextoint(const char *str, unsigned long int *pu);
 // hextolfp
 // file hextolfp.c line 13
-extern signed int hextolfp(const char *str, struct anonymous$38 *lfp);
+extern signed int hextolfp(const char *str, struct anonymous_38 *lfp);
 // history
 // file /usr/include/histedit.h line 200
 signed int history(struct history *, struct HistEvent *, signed int, ...);
@@ -1352,7 +1352,7 @@ extern const char * humanlogtime(void);
 extern const char * humantime(signed long int cursec);
 // icmpv64
 // file vint64ops.c line 128
-extern signed int icmpv64(const union anonymous$44 *lhs, const union anonymous$44 *rhs);
+extern signed int icmpv64(const union anonymous_44 *lhs, const union anonymous_44 *rhs);
 // icom_freq
 // file icom.c line 72
 signed int icom_freq(signed int fd, signed int ident, double freq);
@@ -1401,18 +1401,18 @@ static inline void initialise_buffer(struct recvbuf *buff);
 // initialize
 // file ./../lib/isc/unix/net.c line 220
 static void initialize(void);
-// initialize$link1
+// initialize_link1
 // file ./../lib/isc/random.c line 58
-static void initialize$link1(void);
-// initialize$link2
+static void initialize_link1(void);
+// initialize_link2
 // file ./../lib/isc/result.c line 166
-static void initialize$link2(void);
+static void initialize_link2(void);
 // initialize_action
 // file ./../lib/isc/unix/net.c line 205
 static void initialize_action(void);
-// initialize_action$link1
+// initialize_action_link1
 // file ./../lib/isc/result.c line 149
-static void initialize_action$link1(void);
+static void initialize_action_link1(void);
 // initialize_ipv6only
 // file ./../lib/isc/unix/net.c line 315
 static void initialize_ipv6only(void);
@@ -1523,7 +1523,7 @@ void isc__buffer_subtract(struct isc_buffer *b, unsigned int n);
 void isc__buffer_usedregion(struct isc_buffer *b, struct isc_region *r);
 // isc__mutex_init
 // file ../lib/isc/pthreads/include/isc/mutex.h line 79
-unsigned int isc__mutex_init(union anonymous$4 *mp, const char *file, unsigned int line);
+unsigned int isc__mutex_init(union anonymous_4 *mp, const char *file, unsigned int line);
 // isc__strerror
 // file ../lib/isc/unix/include/isc/strerror.h line 41
 void isc__strerror(signed int num, char *buf, unsigned long int size);
@@ -1557,18 +1557,18 @@ void * isc__task_gettag(struct isc_task *task0);
 // isc__task_onshutdown
 // file ./../lib/isc/task.c line 795
 unsigned int isc__task_onshutdown(struct isc_task *task0, void (*action)(struct isc_task *, struct isc_event *), const void *arg);
-// isc__task_onshutdown::action$object
+// isc__task_onshutdown::action_object
 //
-void action$object(struct isc_task *, struct isc_event *);
+void action_object(struct isc_task *, struct isc_event *);
 // isc__task_privilege
 // file ./../lib/isc/task.c line 1707
-enum anonymous$11 isc__task_privilege(struct isc_task *task0);
+enum anonymous_11 isc__task_privilege(struct isc_task *task0);
 // isc__task_purge
 // file ./../lib/isc/task.c line 710
 unsigned int isc__task_purge(struct isc_task *task, void *sender, unsigned int type, void *tag);
 // isc__task_purgeevent
 // file ./../lib/isc/task.c line 723
-enum anonymous$11 isc__task_purgeevent(struct isc_task *task0, struct isc_event *event);
+enum anonymous_11 isc__task_purgeevent(struct isc_task *task0, struct isc_event *event);
 // isc__task_purgerange
 // file ./../lib/isc/task.c line 678
 unsigned int isc__task_purgerange(struct isc_task *task0, void *sender, unsigned int first, unsigned int last, void *tag);
@@ -1583,16 +1583,16 @@ void isc__task_sendanddetach(struct isc_task **taskp, struct isc_event **eventp)
 void isc__task_setname(struct isc_task *task0, const char *name, void *tag);
 // isc__task_setprivilege
 // file ./../lib/isc/task.c line 1680
-void isc__task_setprivilege(struct isc_task *task0, enum anonymous$11 priv);
+void isc__task_setprivilege(struct isc_task *task0, enum anonymous_11 priv);
 // isc__task_shutdown
 // file ./../lib/isc/task.c line 835
 void isc__task_shutdown(struct isc_task *task0);
 // isc__task_unsend
 // file ./../lib/isc/task.c line 781
-unsigned int isc__task_unsend(struct isc_task *task, void *sender, unsigned int type, void *tag, struct anonymous$52 *events);
+unsigned int isc__task_unsend(struct isc_task *task, void *sender, unsigned int type, void *tag, struct anonymous_52 *events);
 // isc__task_unsendrange
 // file ./../lib/isc/task.c line 766
-unsigned int isc__task_unsendrange(struct isc_task *task, void *sender, unsigned int first, unsigned int last, void *tag, struct anonymous$52 *events);
+unsigned int isc__task_unsendrange(struct isc_task *task, void *sender, unsigned int first, unsigned int last, void *tag, struct anonymous_52 *events);
 // isc__taskmgr_create
 // file ./../lib/isc/task.c line 1321
 unsigned int isc__taskmgr_create(struct isc_mem *mctx, unsigned int workers, unsigned int default_quantum, struct isc_taskmgr **managerp);
@@ -1601,7 +1601,7 @@ unsigned int isc__taskmgr_create(struct isc_mem *mctx, unsigned int workers, uns
 void isc__taskmgr_destroy(struct isc_taskmgr **managerp);
 // isc__taskmgr_mode
 // file ./../lib/isc/task.c line 1570
-enum anonymous$59 isc__taskmgr_mode(struct isc_taskmgr *manager0);
+enum anonymous_59 isc__taskmgr_mode(struct isc_taskmgr *manager0);
 // isc__taskmgr_pause
 // file ./../lib/isc/task.c line 1617
 void isc__taskmgr_pause(struct isc_taskmgr *manager0);
@@ -1610,22 +1610,22 @@ void isc__taskmgr_pause(struct isc_taskmgr *manager0);
 void isc__taskmgr_resume(struct isc_taskmgr *manager0);
 // isc__taskmgr_setmode
 // file ./../lib/isc/task.c line 1561
-void isc__taskmgr_setmode(struct isc_taskmgr *manager0, enum anonymous$59 mode);
+void isc__taskmgr_setmode(struct isc_taskmgr *manager0, enum anonymous_59 mode);
 // isc_assertion_failed
 // file ../lib/isc/include/isc/assertions.h line 45
-void isc_assertion_failed(const char *file, signed int line, enum anonymous$45 type, const char *cond);
-// isc_assertion_failed_cb$object
+void isc_assertion_failed(const char *file, signed int line, enum anonymous_45 type, const char *cond);
+// isc_assertion_failed_cb_object
 //
-void isc_assertion_failed_cb$object(const char *, signed int, enum anonymous$45, const char *);
+void isc_assertion_failed_cb_object(const char *, signed int, enum anonymous_45, const char *);
 // isc_assertion_setcallback
 // file ./../lib/isc/assertions.c line 64
-void isc_assertion_setcallback(void (*cb)(const char *, signed int, enum anonymous$45, const char *));
-// isc_assertion_setcallback::cb$object
+void isc_assertion_setcallback(void (*cb)(const char *, signed int, enum anonymous_45, const char *));
+// isc_assertion_setcallback::cb_object
 //
-void cb$object(const char *, signed int, enum anonymous$45, const char *);
+void cb_object(const char *, signed int, enum anonymous_45, const char *);
 // isc_assertion_typetotext
 // file ./../lib/isc/assertions.c line 73
-const char * isc_assertion_typetotext(enum anonymous$45 type);
+const char * isc_assertion_typetotext(enum anonymous_45 type);
 // isc_backtrace_getsymbol
 // file ../lib/isc/include/isc/backtrace.h line 109
 unsigned int isc_backtrace_getsymbol(const void *addr, const char **symbolp, unsigned long int *offsetp);
@@ -1664,7 +1664,7 @@ unsigned char isc_buffer_getuint8(struct isc_buffer *b);
 void isc_buffer_reinit(struct isc_buffer *b, void *base, unsigned int length);
 // isc_condition_waituntil
 // file ./../lib/isc/pthreads/condition.c line 34
-unsigned int isc_condition_waituntil(union anonymous$3 *c, union anonymous$4 *m, struct isc_time *t);
+unsigned int isc_condition_waituntil(union anonymous_3 *c, union anonymous_4 *m, struct isc_time *t);
 // isc_dir_chdir
 // file ./../lib/isc/unix/dir.c line 161
 unsigned int isc_dir_chdir(const char *dirname);
@@ -1698,24 +1698,24 @@ void isc_error_runtimecheck(const char *file, signed int line, const char *expre
 // isc_error_setfatal
 // file ./../lib/isc/error.c line 53
 void isc_error_setfatal(void (*cb)(const char *, signed int, const char *, void **));
-// isc_error_setfatal::cb$object
+// isc_error_setfatal::cb_object
 //
-void cb$object(const char *, signed int, const char *, void **);
+void cb_object(const char *, signed int, const char *, void **);
 // isc_error_setunexpected
 // file ./../lib/isc/error.c line 45
 void isc_error_setunexpected(void (*cb)(const char *, signed int, const char *, void **));
-// isc_error_setunexpected::cb$object
+// isc_error_setunexpected::cb_object
 //
-void cb$object(const char *, signed int, const char *, void **);
+void cb_object(const char *, signed int, const char *, void **);
 // isc_error_unexpected
 // file ../lib/isc/include/isc/error.h line 45
 void isc_error_unexpected(const char *file, signed int line, const char *format, ...);
 // isc_event_allocate
 // file ./../lib/isc/event.c line 41
 struct isc_event * isc_event_allocate(struct isc_mem *mctx, void *sender, unsigned int type, void (*action)(struct isc_task *, struct isc_event *), const void *arg, unsigned long int size);
-// isc_event_allocate::action$object
+// isc_event_allocate::action_object
 //
-void action$object(struct isc_task *, struct isc_event *);
+void action_object(struct isc_task *, struct isc_event *);
 // isc_event_free
 // file ./../lib/isc/event.c line 75
 void isc_event_free(struct isc_event **eventp);
@@ -1727,19 +1727,19 @@ unsigned int isc_file_absolutepath(const char *filename, char *path, unsigned lo
 const char * isc_file_basename(const char *filename);
 // isc_file_exists
 // file ./../lib/isc/unix/file.c line 344
-enum anonymous$11 isc_file_exists(const char *pathname);
+enum anonymous_11 isc_file_exists(const char *pathname);
 // isc_file_getmodtime
 // file ./../lib/isc/unix/file.c line 102
 unsigned int isc_file_getmodtime(const char *file, struct isc_time *itime);
 // isc_file_isabsolute
 // file ./../lib/isc/unix/file.c line 370
-enum anonymous$11 isc_file_isabsolute(const char *filename);
+enum anonymous_11 isc_file_isabsolute(const char *filename);
 // isc_file_ischdiridempotent
 // file ./../lib/isc/unix/file.c line 382
-enum anonymous$11 isc_file_ischdiridempotent(const char *filename);
+enum anonymous_11 isc_file_ischdiridempotent(const char *filename);
 // isc_file_iscurrentdir
 // file ./../lib/isc/unix/file.c line 376
-enum anonymous$11 isc_file_iscurrentdir(const char *filename);
+enum anonymous_11 isc_file_iscurrentdir(const char *filename);
 // isc_file_isplainfile
 // file ./../lib/isc/unix/file.c line 353
 unsigned int isc_file_isplainfile(const char *filename);
@@ -1784,7 +1784,7 @@ unsigned int isc_file_template(const char *path, const char *templet, char *buf,
 unsigned int isc_file_truncate(const char *filename, signed long int size);
 // isc_hash_calc
 // file ../lib/isc/include/isc/hash.h line 161
-unsigned int isc_hash_calc(const unsigned char *, unsigned int, enum anonymous$11);
+unsigned int isc_hash_calc(const unsigned char *, unsigned int, enum anonymous_11);
 // isc_interfaceiter_create
 // file ./../lib/isc/unix/ifiter_getifaddrs.c line 54
 unsigned int isc_interfaceiter_create(struct isc_mem *mctx, struct isc_interfaceiter **iterp);
@@ -1802,7 +1802,7 @@ unsigned int isc_interfaceiter_first(struct isc_interfaceiter *iter);
 unsigned int isc_interfaceiter_next(struct isc_interfaceiter *iter);
 // isc_interval_iszero
 // file ./../lib/isc/unix/time.c line 98
-enum anonymous$11 isc_interval_iszero(const struct isc_interval *i);
+enum anonymous_11 isc_interval_iszero(const struct isc_interval *i);
 // isc_interval_set
 // file ../lib/isc/unix/include/isc/time.h line 49
 void isc_interval_set(struct isc_interval *i, unsigned int seconds, unsigned int nanoseconds);
@@ -1826,7 +1826,7 @@ unsigned int isc_log_createchannel(struct isc_logconfig *lcfg, const char *name,
 void isc_log_destroy(struct isc_log **lctxp);
 // isc_log_doit
 // file ./../lib/isc/log.c line 1405
-static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, enum anonymous$11 write_once, struct isc_msgcat *msgcat, signed int msgset, signed int msg, const char *format, void **args);
+static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, enum anonymous_11 write_once, struct isc_msgcat *msgcat, signed int msgset, signed int msg, const char *format, void **args);
 // isc_log_getdebuglevel
 // file ./../lib/isc/log.c line 979
 unsigned int isc_log_getdebuglevel(struct isc_log *lctx);
@@ -1886,7 +1886,7 @@ void isc_log_vwrite(struct isc_log *lctx, struct isc_logcategory *category, stru
 void isc_log_vwrite1(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, const char *format, void **args);
 // isc_log_wouldlog
 // file ./../lib/isc/log.c line 1378
-enum anonymous$11 isc_log_wouldlog(struct isc_log *lctx, signed int level);
+enum anonymous_11 isc_log_wouldlog(struct isc_log *lctx, signed int level);
 // isc_log_write
 // file ../lib/isc/include/isc/log.h line 568
 void isc_log_write(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, const char *format, ...);
@@ -1907,16 +1907,16 @@ struct isc_logconfig * isc_logconfig_get(struct isc_log *lctx);
 unsigned int isc_logconfig_use(struct isc_log *lctx, struct isc_logconfig *lcfg);
 // isc_md5_final
 // file ./../lib/isc/md5.c line 248
-void isc_md5_final(struct anonymous$46 *ctx, unsigned char *digest);
+void isc_md5_final(struct anonymous_46 *ctx, unsigned char *digest);
 // isc_md5_init
 // file ./../lib/isc/md5.c line 87
-void isc_md5_init(struct anonymous$46 *ctx);
+void isc_md5_init(struct anonymous_46 *ctx);
 // isc_md5_invalidate
 // file ./../lib/isc/md5.c line 98
-void isc_md5_invalidate(struct anonymous$46 *ctx);
+void isc_md5_invalidate(struct anonymous_46 *ctx);
 // isc_md5_update
 // file ./../lib/isc/md5.c line 209
-void isc_md5_update(struct anonymous$46 *ctx, const unsigned char *buf, unsigned int len);
+void isc_md5_update(struct anonymous_46 *ctx, const unsigned char *buf, unsigned int len);
 // isc_msgcat_close
 // file ./../lib/isc/nls/msgcat.c line 87
 void isc_msgcat_close(struct isc_msgcat **msgcatp);
@@ -1970,10 +1970,10 @@ void isc_netaddr_any(struct isc_netaddr *netaddr);
 void isc_netaddr_any6(struct isc_netaddr *netaddr);
 // isc_netaddr_eqprefix
 // file ./../lib/isc/netaddr.c line 70
-enum anonymous$11 isc_netaddr_eqprefix(const struct isc_netaddr *a, const struct isc_netaddr *b, unsigned int prefixlen);
+enum anonymous_11 isc_netaddr_eqprefix(const struct isc_netaddr *a, const struct isc_netaddr *b, unsigned int prefixlen);
 // isc_netaddr_equal
 // file ./../lib/isc/netaddr.c line 37
-enum anonymous$11 isc_netaddr_equal(const struct isc_netaddr *a, const struct isc_netaddr *b);
+enum anonymous_11 isc_netaddr_equal(const struct isc_netaddr *a, const struct isc_netaddr *b);
 // isc_netaddr_format
 // file ./../lib/isc/netaddr.c line 183
 void isc_netaddr_format(const struct isc_netaddr *na, char *array, unsigned int size);
@@ -1997,16 +1997,16 @@ void isc_netaddr_fromv4mapped(struct isc_netaddr *t, const struct isc_netaddr *s
 unsigned int isc_netaddr_getzone(const struct isc_netaddr *netaddr);
 // isc_netaddr_isexperimental
 // file ./../lib/isc/netaddr.c line 390
-enum anonymous$11 isc_netaddr_isexperimental(struct isc_netaddr *na);
+enum anonymous_11 isc_netaddr_isexperimental(struct isc_netaddr *na);
 // isc_netaddr_islinklocal
 // file ../lib/isc/include/isc/netaddr.h line 147
-enum anonymous$11 isc_netaddr_islinklocal(struct isc_netaddr *na);
+enum anonymous_11 isc_netaddr_islinklocal(struct isc_netaddr *na);
 // isc_netaddr_ismulticast
 // file ./../lib/isc/netaddr.c line 378
-enum anonymous$11 isc_netaddr_ismulticast(struct isc_netaddr *na);
+enum anonymous_11 isc_netaddr_ismulticast(struct isc_netaddr *na);
 // isc_netaddr_issitelocal
 // file ./../lib/isc/netaddr.c line 412
-enum anonymous$11 isc_netaddr_issitelocal(struct isc_netaddr *na);
+enum anonymous_11 isc_netaddr_issitelocal(struct isc_netaddr *na);
 // isc_netaddr_masktoprefixlen
 // file ../lib/isc/include/isc/netaddr.h line 66
 unsigned int isc_netaddr_masktoprefixlen(const struct isc_netaddr *s, unsigned int *lenp);
@@ -2048,16 +2048,16 @@ unsigned int isc_result_register(unsigned int base, unsigned int nresults, const
 const char * isc_result_totext(unsigned int result);
 // isc_sha1_final
 // file ./../lib/isc/sha1.c line 325
-void isc_sha1_final(struct anonymous$62 *context, unsigned char *digest);
+void isc_sha1_final(struct anonymous_62 *context, unsigned char *digest);
 // isc_sha1_init
 // file ./../lib/isc/sha1.c line 268
-void isc_sha1_init(struct anonymous$62 *context);
+void isc_sha1_init(struct anonymous_62 *context);
 // isc_sha1_invalidate
 // file ./../lib/isc/sha1.c line 283
-void isc_sha1_invalidate(struct anonymous$62 *context);
+void isc_sha1_invalidate(struct anonymous_62 *context);
 // isc_sha1_update
 // file ./../lib/isc/sha1.c line 291
-void isc_sha1_update(struct anonymous$62 *context, const unsigned char *data, unsigned int len);
+void isc_sha1_update(struct anonymous_62 *context, const unsigned char *data, unsigned int len);
 // isc_sockaddr_any
 // file ./../lib/isc/sockaddr.c line 256
 void isc_sockaddr_any(struct isc_sockaddr *sockaddr);
@@ -2069,16 +2069,16 @@ void isc_sockaddr_any6(struct isc_sockaddr *sockaddr);
 void isc_sockaddr_anyofpf(struct isc_sockaddr *sockaddr, signed int pf);
 // isc_sockaddr_compare
 // file ./../lib/isc/sockaddr.c line 50
-enum anonymous$11 isc_sockaddr_compare(const struct isc_sockaddr *a, const struct isc_sockaddr *b, unsigned int flags);
+enum anonymous_11 isc_sockaddr_compare(const struct isc_sockaddr *a, const struct isc_sockaddr *b, unsigned int flags);
 // isc_sockaddr_eqaddr
 // file ./../lib/isc/sockaddr.c line 44
-enum anonymous$11 isc_sockaddr_eqaddr(const struct isc_sockaddr *a, const struct isc_sockaddr *b);
+enum anonymous_11 isc_sockaddr_eqaddr(const struct isc_sockaddr *a, const struct isc_sockaddr *b);
 // isc_sockaddr_eqaddrprefix
 // file ./../lib/isc/sockaddr.c line 104
-enum anonymous$11 isc_sockaddr_eqaddrprefix(const struct isc_sockaddr *a, const struct isc_sockaddr *b, unsigned int prefixlen);
+enum anonymous_11 isc_sockaddr_eqaddrprefix(const struct isc_sockaddr *a, const struct isc_sockaddr *b, unsigned int prefixlen);
 // isc_sockaddr_equal
 // file ./../lib/isc/sockaddr.c line 37
-enum anonymous$11 isc_sockaddr_equal(const struct isc_sockaddr *a, const struct isc_sockaddr *b);
+enum anonymous_11 isc_sockaddr_equal(const struct isc_sockaddr *a, const struct isc_sockaddr *b);
 // isc_sockaddr_format
 // file ./../lib/isc/sockaddr.c line 181
 void isc_sockaddr_format(const struct isc_sockaddr *sa, char *array, unsigned int size);
@@ -2099,19 +2099,19 @@ unsigned int isc_sockaddr_frompath(struct isc_sockaddr *sockaddr, const char *pa
 unsigned short int isc_sockaddr_getport(const struct isc_sockaddr *sockaddr);
 // isc_sockaddr_hash
 // file ./../lib/isc/sockaddr.c line 205
-unsigned int isc_sockaddr_hash(const struct isc_sockaddr *sockaddr, enum anonymous$11 address_only);
+unsigned int isc_sockaddr_hash(const struct isc_sockaddr *sockaddr, enum anonymous_11 address_only);
 // isc_sockaddr_isexperimental
 // file ./../lib/isc/sockaddr.c line 459
-enum anonymous$11 isc_sockaddr_isexperimental(const struct isc_sockaddr *sockaddr);
+enum anonymous_11 isc_sockaddr_isexperimental(const struct isc_sockaddr *sockaddr);
 // isc_sockaddr_islinklocal
 // file ./../lib/isc/sockaddr.c line 481
-enum anonymous$11 isc_sockaddr_islinklocal(const struct isc_sockaddr *sockaddr);
+enum anonymous_11 isc_sockaddr_islinklocal(const struct isc_sockaddr *sockaddr);
 // isc_sockaddr_ismulticast
 // file ./../lib/isc/sockaddr.c line 447
-enum anonymous$11 isc_sockaddr_ismulticast(const struct isc_sockaddr *sockaddr);
+enum anonymous_11 isc_sockaddr_ismulticast(const struct isc_sockaddr *sockaddr);
 // isc_sockaddr_issitelocal
 // file ./../lib/isc/sockaddr.c line 470
-enum anonymous$11 isc_sockaddr_issitelocal(const struct isc_sockaddr *sockaddr);
+enum anonymous_11 isc_sockaddr_issitelocal(const struct isc_sockaddr *sockaddr);
 // isc_sockaddr_pf
 // file ./../lib/isc/sockaddr.c line 345
 signed int isc_sockaddr_pf(const struct isc_sockaddr *sockaddr);
@@ -2153,13 +2153,13 @@ void isc_stdtime_get(unsigned int *t);
 unsigned long long int isc_string_touint64(char *, char **, signed int);
 // isc_task_exiting
 // file ./../lib/isc/task.c line 1725
-enum anonymous$11 isc_task_exiting(struct isc_task *t);
+enum anonymous_11 isc_task_exiting(struct isc_task *t);
 // isc_thread_create
 // file ../lib/isc/pthreads/include/isc/thread.h line 39
 unsigned int isc_thread_create(void * (*func)(void *), void *arg, unsigned long int *thread);
-// isc_thread_create::func$object
+// isc_thread_create::func_object
 //
-void * func$object(void *);
+void * func_object(void *);
 // isc_thread_setconcurrency
 // file ../lib/isc/pthreads/include/isc/thread.h line 42
 void isc_thread_setconcurrency(unsigned int level);
@@ -2180,7 +2180,7 @@ void isc_time_formathttptimestamp(const struct isc_time *t, char *buf, unsigned 
 void isc_time_formattimestamp(const struct isc_time *t, char *buf, unsigned int len);
 // isc_time_isepoch
 // file ./../lib/isc/unix/time.c line 134
-enum anonymous$11 isc_time_isepoch(const struct isc_time *t);
+enum anonymous_11 isc_time_isepoch(const struct isc_time *t);
 // isc_time_microdiff
 // file ./../lib/isc/unix/time.c line 305
 unsigned long long int isc_time_microdiff(const struct isc_time *t1, const struct isc_time *t2);
@@ -2213,16 +2213,16 @@ unsigned int isc_time_subtract(const struct isc_time *t, const struct isc_interv
 extern unsigned int isocal_date_to_ntp(struct isodate *id);
 // isocal_date_to_ntp64
 // file ntp_calendar.c line 1775
-extern union anonymous$44 isocal_date_to_ntp64(struct isodate *id);
+extern union anonymous_44 isocal_date_to_ntp64(struct isodate *id);
 // isocal_ntp64_to_date
 // file ntp_calendar.c line 1713
-extern signed int isocal_ntp64_to_date(struct isodate *id, const union anonymous$44 *ntp);
+extern signed int isocal_ntp64_to_date(struct isodate *id, const union anonymous_44 *ntp);
 // isocal_ntp_to_date
 // file ntp_calendar.c line 1754
 extern signed int isocal_ntp_to_date(struct isodate *id, unsigned int ntp, const signed long int *piv);
 // isocal_split_eraweeks
 // file ntp_calendar.c line 1661
-extern struct anonymous$61 isocal_split_eraweeks(signed int weeks);
+extern struct anonymous_61 isocal_split_eraweeks(signed int weeks);
 // isocal_weeks_in_years
 // file ntp_calendar.c line 1613
 extern signed int isocal_weeks_in_years(signed int years);
@@ -2243,10 +2243,10 @@ static double latlong(char *str, signed int islat);
 extern double ldexp(double, signed int);
 // ldiv
 // file /usr/include/stdlib.h line 790
-extern struct anonymous$24 ldiv(signed long int, signed long int);
+extern struct anonymous_24 ldiv(signed long int, signed long int);
 // lfp_stamp_to_tval
 // file ../include/timevalops.h line 422
-static inline struct timeval lfp_stamp_to_tval(struct anonymous$38 x, const signed long int *p);
+static inline struct timeval lfp_stamp_to_tval(struct anonymous_38 x, const signed long int *p);
 // link
 // file /usr/include/unistd.h line 790
 extern signed int link(const char *, const char *);
@@ -2324,7 +2324,7 @@ extern signed int mprintf(const char *fmt, ...);
 extern signed int msnprintf(char *buf, unsigned long int bufsiz, const char *fmt, ...);
 // mstolfp
 // file mstolfp.c line 12
-extern signed int mstolfp(const char *str, struct anonymous$38 *lfp);
+extern signed int mstolfp(const char *str, struct anonymous_38 *lfp);
 // msyslog
 // file ../include/ntp_stdlib.h line 33
 extern void msyslog(signed int level, const char *fmt, ...);
@@ -2339,7 +2339,7 @@ extern signed int mvsnprintf(char *buf, unsigned long int bufsiz, const char *fm
 extern void mvsyslog(signed int level, const char *fmt, void **ap);
 // netof
 // file netof.c line 15
-extern union anonymous$47 * netof(union anonymous$47 *hostaddr);
+extern union anonymous_47 * netof(union anonymous_47 *hostaddr);
 // nexttok
 // file authreadkeys.c line 25
 static char * nexttok(char **str);
@@ -2352,9 +2352,9 @@ static inline struct timespec normalize_tspec(struct timespec x);
 // normalize_tval
 // file ../include/timevalops.h line 136
 static inline struct timeval normalize_tval(struct timeval x);
-// normalize_tval$link1
+// normalize_tval_link1
 // file ../include/timevalops.h line 136
-static inline struct timeval normalize_tval$link1(struct timeval x$link1);
+static inline struct timeval normalize_tval_link1(struct timeval x_link1);
 // now
 // file ntp_calendar.c line 118
 static inline signed long int now(void);
@@ -2414,7 +2414,7 @@ extern signed int ntpcal_date_to_daysec(struct calendar *jd);
 extern unsigned int ntpcal_date_to_ntp(struct calendar *jd);
 // ntpcal_date_to_ntp64
 // file ntp_calendar.c line 1477
-extern union anonymous$44 ntpcal_date_to_ntp64(struct calendar *jd);
+extern union anonymous_44 ntpcal_date_to_ntp64(struct calendar *jd);
 // ntpcal_date_to_rd
 // file ../include/ntp_calendar.h line 220
 extern signed int ntpcal_date_to_rd(struct calendar *jd);
@@ -2423,10 +2423,10 @@ extern signed int ntpcal_date_to_rd(struct calendar *jd);
 extern signed long int ntpcal_date_to_time(struct calendar *jd);
 // ntpcal_dayjoin
 // file ../include/ntp_calendar.h line 158
-extern union anonymous$44 ntpcal_dayjoin(signed int days, signed int secs);
+extern union anonymous_44 ntpcal_dayjoin(signed int days, signed int secs);
 // ntpcal_days_in_months
 // file ntp_calendar.c line 1192
-extern struct anonymous$61 ntpcal_days_in_months(signed int m);
+extern struct anonymous_61 ntpcal_days_in_months(signed int m);
 // ntpcal_days_in_years
 // file ../include/ntp_calendar.h line 170
 extern signed int ntpcal_days_in_years(signed int years);
@@ -2438,13 +2438,13 @@ extern signed int ntpcal_daysec_to_date(struct calendar *jd, signed int sec);
 extern signed int ntpcal_daysec_to_tm(struct tm *utm, signed int sec);
 // ntpcal_daysplit
 // file ../include/ntp_calendar.h line 151
-extern struct anonymous$61 ntpcal_daysplit(const union anonymous$44 *ts);
+extern struct anonymous_61 ntpcal_daysplit(const union anonymous_44 *ts);
 // ntpcal_daysplit_to_date
 // file ../include/ntp_calendar.h line 306
-extern signed int ntpcal_daysplit_to_date(struct calendar *jd, const struct anonymous$61 *ds, signed int dof);
+extern signed int ntpcal_daysplit_to_date(struct calendar *jd, const struct anonymous_61 *ds, signed int dof);
 // ntpcal_daysplit_to_tm
 // file ntp_calendar.c line 1023
-extern signed int ntpcal_daysplit_to_tm(struct tm *utm, const struct anonymous$61 *ds, signed int dof);
+extern signed int ntpcal_daysplit_to_tm(struct tm *utm, const struct anonymous_61 *ds, signed int dof);
 // ntpcal_edate_to_eradays
 // file ntp_calendar.c line 1230
 extern signed int ntpcal_edate_to_eradays(signed int years, signed int mons, signed int mdays);
@@ -2462,16 +2462,16 @@ extern signed int ntpcal_get_build_date(struct calendar *jd);
 extern signed int ntpcal_leapyears_in_years(signed int years);
 // ntpcal_ntp64_to_date
 // file ntp_calendar.c line 1444
-extern signed int ntpcal_ntp64_to_date(struct calendar *jd, const union anonymous$44 *ntp);
+extern signed int ntpcal_ntp64_to_date(struct calendar *jd, const union anonymous_44 *ntp);
 // ntpcal_ntp_to_date
 // file ntp_calendar.c line 1458
 extern signed int ntpcal_ntp_to_date(struct calendar *jd, unsigned int ntp, const signed long int *piv);
 // ntpcal_ntp_to_ntp
 // file ../include/ntp_calendar.h line 144
-extern union anonymous$44 ntpcal_ntp_to_ntp(unsigned int ntp, const signed long int *pivot);
+extern union anonymous_44 ntpcal_ntp_to_ntp(unsigned int ntp, const signed long int *pivot);
 // ntpcal_ntp_to_time
 // file ../include/ntp_calendar.h line 135
-extern union anonymous$44 ntpcal_ntp_to_time(unsigned int ntp, const signed long int *pivot);
+extern union anonymous_44 ntpcal_ntp_to_time(unsigned int ntp, const signed long int *pivot);
 // ntpcal_periodic_extend
 // file ntp_calendar.c line 501
 extern signed int ntpcal_periodic_extend(signed int pivot, signed int value, signed int cycle);
@@ -2490,21 +2490,21 @@ extern signed int ntpcal_rd_to_ystart(signed int rd);
 // ntpcal_set_timefunc
 // file ntp_calendar.c line 102
 extern signed long int (*ntpcal_set_timefunc(signed long int (*nfunc)(signed long int *)))(signed long int *);
-// ntpcal_set_timefunc::1::res$object
+// ntpcal_set_timefunc::1::res_object
 //
-signed long int res$object(signed long int *);
-// ntpcal_set_timefunc::nfunc$object
+signed long int res_object(signed long int *);
+// ntpcal_set_timefunc::nfunc_object
 //
-signed long int nfunc$object(signed long int *);
+signed long int nfunc_object(signed long int *);
 // ntpcal_split_eradays
 // file ../include/ntp_calendar.h line 234
-extern struct anonymous$61 ntpcal_split_eradays(signed int days, signed int *isleapyear);
+extern struct anonymous_61 ntpcal_split_eradays(signed int days, signed int *isleapyear);
 // ntpcal_split_yeardays
 // file ntp_calendar.c line 844
-extern struct anonymous$61 ntpcal_split_yeardays(signed int eyd, signed int isleapyear);
+extern struct anonymous_61 ntpcal_split_yeardays(signed int eyd, signed int isleapyear);
 // ntpcal_time_to_date
 // file ntp_calendar.c line 1040
-extern signed int ntpcal_time_to_date(struct calendar *jd, const union anonymous$44 *ts);
+extern signed int ntpcal_time_to_date(struct calendar *jd, const union anonymous_44 *ts);
 // ntpcal_tm_to_daysec
 // file ntp_calendar.c line 1407
 extern signed int ntpcal_tm_to_daysec(struct tm *utm);
@@ -2576,7 +2576,7 @@ static inline struct isc__task * pop_readyq(struct isc__taskmgr *manager);
 static void prepare_child_sems(struct blocking_child_tag *c);
 // prettydate
 // file prettydate.c line 205
-extern char * prettydate(struct anonymous$38 *ts);
+extern char * prettydate(struct anonymous_38 *ts);
 // printf
 // file /usr/include/stdio.h line 362
 extern signed int printf(const char *, ...);
@@ -2606,22 +2606,22 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$3 *);
+extern signed int pthread_cond_broadcast(union anonymous_3 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$3 *);
+extern signed int pthread_cond_destroy(union anonymous_3 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$3 *, const union anonymous$60 *);
+extern signed int pthread_cond_init(union anonymous_3 *, const union anonymous_60 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$3 *);
+extern signed int pthread_cond_signal(union anonymous_3 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$3 *, union anonymous$4 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_3 *, union anonymous_4 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous$4 *);
+extern signed int pthread_cond_wait(union anonymous_3 *, union anonymous_4 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -2633,22 +2633,22 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$4 *);
+extern signed int pthread_mutex_destroy(union anonymous_4 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$4 *, const union anonymous$60 *);
+extern signed int pthread_mutex_init(union anonymous_4 *, const union anonymous_60 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$14 *, struct anonymous$14 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_14 *, struct anonymous_14 *);
 // purge_recv_buffers_for_fd
 // file recvbuff.c line 266
 extern void purge_recv_buffers_for_fd(signed int fd);
@@ -2658,9 +2658,9 @@ static inline void push_readyq(struct isc__taskmgr *manager, struct isc__task *t
 // queue_blocking_request
 // file ../include/ntp_worker.h line 111
 extern signed int queue_blocking_request(enum blocking_work_req_tag rtype, void *req, unsigned long int reqsize, void (*done_func)(enum blocking_work_req_tag, void *, unsigned long int, void *), void *context);
-// queue_blocking_request::done_func$object
+// queue_blocking_request::done_func_object
 //
-void done_func$object(enum blocking_work_req_tag, void *, unsigned long int, void *);
+void done_func_object(enum blocking_work_req_tag, void *, unsigned long int, void *);
 // queue_blocking_response
 // file ../include/ntp_worker.h line 114
 extern signed int queue_blocking_response(struct blocking_child_tag *c, struct blocking_pipe_header_tag *resp, unsigned long int respsize, const struct blocking_pipe_header_tag *req);
@@ -2690,7 +2690,7 @@ extern struct blocking_pipe_header_tag * receive_blocking_resp_internal(struct b
 extern const char * refid_str(unsigned int refid, signed int stratum);
 // refnumtoa
 // file refnumtoa.c line 12
-extern const char * refnumtoa(union anonymous$47 *num);
+extern const char * refnumtoa(union anonymous_47 *num);
 // register_table
 // file ./../lib/isc/result.c line 116
 static unsigned int register_table(unsigned int base, unsigned int nresults, const char **txt, struct isc_msgcat *msgcat, signed int set);
@@ -2741,19 +2741,19 @@ static double satpropdelay(double dg);
 static void scheduled_sleep(signed long int scheduled, signed long int earliest, struct dnsworker_ctx_tag *worker_ctx);
 // sem_destroy
 // file /usr/include/semaphore.h line 39
-extern signed int sem_destroy(union anonymous$65 *);
+extern signed int sem_destroy(union anonymous_65 *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$65 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_65 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$65 *);
+extern signed int sem_post(union anonymous_65 *);
 // sem_timedwait
 // file /usr/include/semaphore.h line 61
-extern signed int sem_timedwait(union anonymous$65 *, struct timespec *);
+extern signed int sem_timedwait(union anonymous_65 *, struct timespec *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$65 *);
+extern signed int sem_wait(union anonymous_65 *);
 // send_blocking_req_internal
 // file ../include/ntp_worker.h line 118
 extern signed int send_blocking_req_internal(struct blocking_child_tag *c, struct blocking_pipe_header_tag *hdr, void *data);
@@ -2763,18 +2763,18 @@ extern signed int send_blocking_resp_internal(struct blocking_child_tag *c, stru
 // set_ctrl_c_hook
 // file syssignal.c line 133
 extern void set_ctrl_c_hook(void (*c_hook)(void));
-// set_ctrl_c_hook::1::handler$object
+// set_ctrl_c_hook::1::handler_object
 //
-void handler$object(signed int);
-// set_ctrl_c_hook::c_hook$object
+void handler_object(signed int);
+// set_ctrl_c_hook::c_hook_object
 //
-void c_hook$object(void);
+void c_hook_object(void);
 // set_sys_fuzz
 // file systime.c line 104
 extern void set_sys_fuzz(double fuzz_val);
-// set_tod_using$object
+// set_tod_using_object
 //
-void set_tod_using$object(const char *);
+void set_tod_using_object(const char *);
 // setlogmask
 // file /usr/include/x86_64-linux-gnu/sys/syslog.h line 184
 extern signed int setlogmask(signed int);
@@ -2795,19 +2795,19 @@ static signed int should_retry_dns(signed int rescode, signed int res_errno);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$14 *, signed int);
+extern signed int sigaddset(struct anonymous_14 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$14 *);
+extern signed int sigemptyset(struct anonymous_14 *);
 // sigint_handler
 // file syssignal.c line 123
 void sigint_handler(signed int signum);
 // signal_no_reset
 // file syssignal.c line 29
 extern void signal_no_reset(signed int sig, void (*func)(signed int));
-// signal_no_reset::func$object
+// signal_no_reset::func_object
 //
-void func$object(signed int);
+void func_object(signed int);
 // sin
 // file propdelay.c line 58
 extern double sin(double);
@@ -2816,10 +2816,10 @@ extern double sin(double);
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
 // sock_hash
 // file socktoa.c line 107
-extern unsigned short int sock_hash(const union anonymous$47 *addr);
+extern unsigned short int sock_hash(const union anonymous_47 *addr);
 // sockaddr_masktoprefixlen
 // file socktoa.c line 150
-extern signed int sockaddr_masktoprefixlen(const union anonymous$47 *psa);
+extern signed int sockaddr_masktoprefixlen(const union anonymous_47 *psa);
 // socket
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 113
 extern signed int socket(signed int, signed int, signed int);
@@ -2828,13 +2828,13 @@ extern signed int socket(signed int, signed int, signed int);
 extern signed int socketpair(signed int, signed int, signed int, signed int *);
 // sockporttoa
 // file socktoa.c line 81
-extern const char * sockporttoa(const union anonymous$47 *sock);
+extern const char * sockporttoa(const union anonymous_47 *sock);
 // socktoa
 // file ../include/ntp_stdlib.h line 158
-extern const char * socktoa(const union anonymous$47 *sock);
+extern const char * socktoa(const union anonymous_47 *sock);
 // socktohost
 // file socktohost.c line 25
-extern const char * socktohost(const union anonymous$47 *sock);
+extern const char * socktohost(const union anonymous_47 *sock);
 // sqrt
 // file propdelay.c line 63
 extern double sqrt(double);
@@ -2862,9 +2862,9 @@ extern signed int stat(const char *, struct stat *);
 // statustoa
 // file statestr.c line 435
 extern char * statustoa(signed int type, signed int st);
-// step_callback$object
+// step_callback_object
 //
-void step_callback$object(void);
+void step_callback_object(void);
 // step_systime
 // file systime.c line 349
 extern signed int step_systime(double step);
@@ -2912,7 +2912,7 @@ extern char * strstr(const char *, const char *);
 extern signed long int strtol(const char *, char ** restrict , signed int);
 // strtouv64
 // file vint64ops.c line 42
-extern union anonymous$44 strtouv64(const char *begp, char **endp, signed int base);
+extern union anonymous_44 strtouv64(const char *begp, char **endp, signed int base);
 // sub_tspec
 // file ../include/timespecops.h line 155
 static inline struct timespec sub_tspec(struct timespec a, struct timespec b);
@@ -2921,13 +2921,13 @@ static inline struct timespec sub_tspec(struct timespec a, struct timespec b);
 static inline struct timeval sub_tval(struct timeval a, struct timeval b);
 // subv64
 // file vint64ops.c line 194
-extern union anonymous$44 subv64(const union anonymous$44 *lhs, const union anonymous$44 *rhs);
+extern union anonymous_44 subv64(const union anonymous_44 *lhs, const union anonymous_44 *rhs);
 // subv64i32
 // file vint64ops.c line 232
-extern union anonymous$44 subv64i32(const union anonymous$44 *lhs, signed int rhs);
+extern union anonymous_44 subv64i32(const union anonymous_44 *lhs, signed int rhs);
 // subv64u32
 // file vint64ops.c line 270
-extern union anonymous$44 subv64u32(const union anonymous$44 *lhs, unsigned int rhs);
+extern union anonymous_44 subv64u32(const union anonymous_44 *lhs, unsigned int rhs);
 // symtbl_compare
 // file ./../lib/isc/backtrace.c line 229
 static signed int symtbl_compare(const void *addr, const void *entryarg);
@@ -2940,15 +2940,15 @@ extern signed long int sysconf(signed int);
 // syslog
 // file /usr/include/x86_64-linux-gnu/sys/syslog.h line 190
 extern void syslog(signed int, const char *, ...);
-// systime_func$object
+// systime_func_object
 //
-signed long int systime_func$object(signed long int *);
+signed long int systime_func_object(signed long int *);
 // tan
 // file propdelay.c line 61
 extern double tan(double);
 // task_detach
 // file ./../lib/isc/task.c line 476
-static inline enum anonymous$11 task_detach(struct isc__task *task);
+static inline enum anonymous_11 task_detach(struct isc__task *task);
 // task_finished
 // file ./../lib/isc/task.c line 297
 static void task_finished(struct isc__task *task);
@@ -2957,10 +2957,10 @@ static void task_finished(struct isc__task *task);
 static inline void task_ready(struct isc__task *task);
 // task_send
 // file ./../lib/isc/task.c line 530
-static inline enum anonymous$11 task_send(struct isc__task *task, struct isc_event **eventp);
+static inline enum anonymous_11 task_send(struct isc__task *task, struct isc_event **eventp);
 // task_shutdown
 // file ./../lib/isc/task.c line 412
-static inline enum anonymous$11 task_shutdown(struct isc__task *task);
+static inline enum anonymous_11 task_shutdown(struct isc__task *task);
 // tcgetattr
 // file /usr/include/termios.h line 66
 extern signed int tcgetattr(signed int, struct termios *);
@@ -2972,7 +2972,7 @@ extern signed int tcsetattr(signed int, signed int, struct termios *);
 extern signed long int time(signed long int *);
 // time_to_vint64
 // file ntp_calendar.c line 240
-extern union anonymous$44 time_to_vint64(const signed long int *ptt);
+extern union anonymous_44 time_to_vint64(const signed long int *ptt);
 // tolower
 // file /usr/include/ctype.h line 124
 extern signed int tolower(signed int);
@@ -2985,9 +2985,9 @@ extern signed int toupper(signed int);
 // transform
 // file ./../lib/isc/md5.c line 122
 static void transform(unsigned int *buf, const unsigned int *in);
-// transform$link1
+// transform_link1
 // file ./../lib/isc/sha1.c line 203
-static void transform$link1(unsigned int *state, const unsigned char *buffer);
+static void transform_link1(unsigned int *state, const unsigned char *buffer);
 // truncate
 // file /usr/include/unistd.h line 993
 extern signed int truncate(const char *, signed long int);
@@ -3002,34 +3002,34 @@ static void try_ipv6pktinfo(void);
 static unsigned int try_proto(signed int domain);
 // tspec_intv_to_lfp
 // file ../include/timespecops.h line 297
-static inline struct anonymous$38 tspec_intv_to_lfp(struct timespec x);
+static inline struct anonymous_38 tspec_intv_to_lfp(struct timespec x);
 // tspec_stamp_to_lfp
 // file ../include/timespecops.h line 313
-static inline struct anonymous$38 tspec_stamp_to_lfp(struct timespec x);
+static inline struct anonymous_38 tspec_stamp_to_lfp(struct timespec x);
 // tspectoa
 // file ../include/timespecops.h line 284
 static inline const char * tspectoa(struct timespec x);
 // tval_intv_to_lfp
 // file ../include/timevalops.h line 349
-static inline struct anonymous$38 tval_intv_to_lfp(struct timeval x);
+static inline struct anonymous_38 tval_intv_to_lfp(struct timeval x);
 // tval_stamp_to_lfp
 // file ../include/timevalops.h line 365
-static inline struct anonymous$38 tval_stamp_to_lfp(struct timeval x);
+static inline struct anonymous_38 tval_stamp_to_lfp(struct timeval x);
 // ucmpv64
 // file vint64ops.c line 152
-extern signed int ucmpv64(const union anonymous$44 *lhs, const union anonymous$44 *rhs);
+extern signed int ucmpv64(const union anonymous_44 *lhs, const union anonymous_44 *rhs);
 // uglydate
 // file uglydate.c line 15
-extern char * uglydate(struct anonymous$38 *ts);
+extern char * uglydate(struct anonymous_38 *ts);
 // uint32_2cpl_to_int32
 // file ntp_calendar.c line 186
 static inline signed int uint32_2cpl_to_int32(const unsigned int vu);
 // uint32_saturate
 // file ntp_calendar.c line 222
 static inline unsigned int uint32_saturate(unsigned int vu, unsigned int mu);
-// unexpected_callback$object
+// unexpected_callback_object
 //
-void unexpected_callback$object(const char *, signed int, const char *, void **);
+void unexpected_callback_object(const char *, signed int, const char *, void **);
 // unlink
 // file /usr/include/unistd.h line 826
 extern signed int unlink(const char *);
@@ -3041,13 +3041,13 @@ extern signed int utimes(const char *, struct timeval *);
 extern signed int vfprintf(struct _IO_FILE *, const char *, void **);
 // vint64_to_time
 // file ntp_calendar.c line 286
-extern signed long int vint64_to_time(const union anonymous$44 *tv);
+extern signed long int vint64_to_time(const union anonymous_44 *tv);
 // vsnprintf
 // file /usr/include/stdio.h line 390
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // wait_for_sem
 // file work_thread.c line 597
-static signed int wait_for_sem(union anonymous$65 *sem, struct timespec *timeout);
+static signed int wait_for_sem(union anonymous_65 *sem, struct timespec *timeout);
 // waveangle
 // file propdelay.c line 406
 static double waveangle(double dg, double h, signed int n);
@@ -3067,7 +3067,7 @@ static unsigned int year_to_ntp(signed int year);
 // file ymd2yd.c line 12
 extern signed int ymd2yd(signed int y, signed int m, signed int d);
 
-struct anonymous$58
+struct anonymous_58
 {
   // head
   struct isc__task *head;
@@ -3075,7 +3075,7 @@ struct anonymous$58
   struct isc__task *tail;
 };
 
-struct anonymous$57
+struct anonymous_57
 {
   // prev
   struct isc__task *prev;
@@ -3083,7 +3083,7 @@ struct anonymous$57
   struct isc__task *next;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // prev
   struct isc_buffer *prev;
@@ -3091,7 +3091,7 @@ struct anonymous$27
   struct isc_buffer *next;
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // head
   struct isc_event *head;
@@ -3099,7 +3099,7 @@ struct anonymous$52
   struct isc_event *tail;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // prev
   struct isc_event *prev;
@@ -3107,7 +3107,7 @@ struct anonymous$9
   struct isc_event *next;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // head
   struct isc_logchannel *head;
@@ -3115,7 +3115,7 @@ struct anonymous$31
   struct isc_logchannel *tail;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // prev
   struct isc_logchannel *prev;
@@ -3123,7 +3123,7 @@ struct anonymous$33
   struct isc_logchannel *next;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // head
   struct isc_logchannellist *head;
@@ -3131,7 +3131,7 @@ struct anonymous$32
   struct isc_logchannellist *tail;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // prev
   struct isc_logchannellist *prev;
@@ -3139,7 +3139,7 @@ struct anonymous$34
   struct isc_logchannellist *next;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // head
   struct isc_logmessage *head;
@@ -3147,7 +3147,7 @@ struct anonymous$12
   struct isc_logmessage *tail;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // prev
   struct isc_logmessage *prev;
@@ -3155,7 +3155,7 @@ struct anonymous$35
   struct isc_logmessage *next;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // prev
   struct isc_sockaddr *prev;
@@ -3163,7 +3163,7 @@ struct anonymous$8
   struct isc_sockaddr *next;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // phead
   struct recvbuf *phead;
@@ -3171,7 +3171,7 @@ struct anonymous$7
   struct recvbuf **pptail;
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // head
   struct resulttable *head;
@@ -3179,7 +3179,7 @@ struct anonymous$54
   struct resulttable *tail;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // prev
   struct resulttable *prev;
@@ -3187,7 +3187,7 @@ struct anonymous$55
   struct resulttable *next;
 };
 
-struct anonymous$53
+struct anonymous_53
 {
   // b
   struct savekey *b;
@@ -3195,7 +3195,7 @@ struct anonymous$53
   struct savekey *f;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // _call_addr
   void *_call_addr;
@@ -3205,7 +3205,7 @@ struct anonymous$22
   unsigned int _arch;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // si_addr
   void *si_addr;
@@ -3213,13 +3213,13 @@ struct anonymous$20
   signed short int si_addr_lsb;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // buf
   unsigned int buf[4l];
@@ -3229,7 +3229,7 @@ struct anonymous$46
   unsigned int in[16l];
 };
 
-struct anonymous$62
+struct anonymous_62
 {
   // state
   unsigned int state[5l];
@@ -3239,7 +3239,7 @@ struct anonymous$62
   unsigned char buffer[64l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __lock
   signed int __lock;
@@ -3259,7 +3259,7 @@ struct anonymous$5
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$61
+struct anonymous_61
 {
   // hi
   signed int hi;
@@ -3267,7 +3267,7 @@ struct anonymous$61
   signed int lo;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_pid
   signed int si_pid;
@@ -3275,7 +3275,7 @@ struct anonymous$16
   unsigned int si_uid;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_pid
   signed int si_pid;
@@ -3297,7 +3297,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_pid
   signed int si_pid;
@@ -3307,7 +3307,7 @@ struct anonymous$18
   union sigval si_sigval;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_tid
   signed int si_tid;
@@ -3317,7 +3317,7 @@ struct anonymous$17
   union sigval si_sigval;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // si_band
   signed long int si_band;
@@ -3325,27 +3325,27 @@ struct anonymous$21
   signed int si_fd;
 };
 
-union anonymous$23
+union anonymous_23
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$16 _kill;
+  struct anonymous_16 _kill;
   // _timer
-  struct anonymous$17 _timer;
+  struct anonymous_17 _timer;
   // _rt
-  struct anonymous$18 _rt;
+  struct anonymous_18 _rt;
   // _sigchld
-  struct anonymous$19 _sigchld;
+  struct anonymous_19 _sigchld;
   // _sigfault
-  struct anonymous$20 _sigfault;
+  struct anonymous_20 _sigfault;
   // _sigpoll
-  struct anonymous$21 _sigpoll;
+  struct anonymous_21 _sigpoll;
   // _sigsys
-  struct anonymous$22 _sigsys;
+  struct anonymous_22 _sigsys;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_signo
   signed int si_signo;
@@ -3354,10 +3354,10 @@ struct anonymous$15
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$23 _sifields;
+  union anonymous_23 _sifields;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // tv_sec
   signed int tv_sec;
@@ -3365,7 +3365,7 @@ struct anonymous$39
   signed int tv_usec;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // quot
   signed long int quot;
@@ -3373,7 +3373,7 @@ struct anonymous$24
   signed long int rem;
 };
 
-union anonymous$37
+union anonymous_37
 {
   // Xl_ui
   unsigned int Xl_ui;
@@ -3381,15 +3381,15 @@ union anonymous$37
   signed int Xl_i;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // Ul_i
-  union anonymous$37 Ul_i;
+  union anonymous_37 Ul_i;
   // l_uf
   unsigned int l_uf;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // ll
   unsigned short int ll;
@@ -3401,7 +3401,7 @@ struct anonymous$40
   signed short int hh;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // ll
   unsigned short int ll;
@@ -3413,7 +3413,7 @@ struct anonymous$41
   unsigned short int hh;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // lo
   unsigned int lo;
@@ -3421,7 +3421,7 @@ struct anonymous$42
   signed int hi;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // lo
   unsigned int lo;
@@ -3429,13 +3429,13 @@ struct anonymous$43
   unsigned int hi;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // magic
   unsigned int magic;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // more_help
   const unsigned short int more_help;
@@ -3447,7 +3447,7 @@ struct anonymous$0
   const unsigned short int default_opt;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // ptr
   char *ptr;
@@ -3461,7 +3461,7 @@ union anonymous$6
   struct ec_key_st *ec;
 };
 
-union anonymous$29
+union anonymous_29
 {
   // ifu_broadaddr
   struct sockaddr *ifu_broadaddr;
@@ -3469,12 +3469,12 @@ union anonymous$29
   struct sockaddr *ifu_dstaddr;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$15 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_15 *, void *);
 };
 
 union anonymous
@@ -3497,7 +3497,7 @@ union anonymous
   signed int argFd;
 };
 
-union anonymous$48
+union anonymous_48
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -3507,7 +3507,7 @@ union anonymous$48
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$65
+union anonymous_65
 {
   // __size
   char __size[32l];
@@ -3515,7 +3515,7 @@ union anonymous$65
   signed long int __align;
 };
 
-union anonymous$60
+union anonymous_60
 {
   // __size
   char __size[4l];
@@ -3523,7 +3523,7 @@ union anonymous$60
   signed int __align;
 };
 
-union anonymous$63
+union anonymous_63
 {
   // c
   unsigned char c[64l];
@@ -3531,26 +3531,26 @@ union anonymous$63
   unsigned int l[16l];
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$5 __data;
+  struct anonymous_5 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$44
+union anonymous_44
 {
   // w_s
-  struct anonymous$40 w_s;
+  struct anonymous_40 w_s;
   // W_s
-  struct anonymous$41 W_s;
+  struct anonymous_41 W_s;
   // d_s
-  struct anonymous$42 d_s;
+  struct anonymous_42 d_s;
   // D_s
-  struct anonymous$43 D_s;
+  struct anonymous_43 D_s;
   // q_s
   signed long int q_s;
   // Q_s
@@ -3586,7 +3586,7 @@ struct sockaddr_in
 struct in6_addr
 {
   // __in6_u
-  union anonymous$48 __in6_u;
+  union anonymous_48 __in6_u;
 };
 
 struct sockaddr_in6
@@ -3603,7 +3603,7 @@ struct sockaddr_in6
   unsigned int sin6_scope_id;
 };
 
-union anonymous$47
+union anonymous_47
 {
   // sa
   struct sockaddr sa;
@@ -3613,10 +3613,10 @@ union anonymous$47
   struct sockaddr_in6 sa6;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // X_recv_srcadr
-  union anonymous$47 X_recv_srcadr;
+  union anonymous_47 X_recv_srcadr;
   // X_recv_srcclock
   char *X_recv_srcclock;
   // X_recv_peer
@@ -3651,7 +3651,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -3661,7 +3661,7 @@ union anonymous$4
   signed long int __align;
 };
 
-union anonymous$51
+union anonymous_51
 {
   // in
   struct in_addr in;
@@ -3686,18 +3686,18 @@ struct pkt
   // refid
   unsigned int refid;
   // reftime
-  struct anonymous$38 reftime;
+  struct anonymous_38 reftime;
   // org
-  struct anonymous$38 org;
+  struct anonymous_38 org;
   // rec
-  struct anonymous$38 rec;
+  struct anonymous_38 rec;
   // xmt
-  struct anonymous$38 xmt;
+  struct anonymous_38 xmt;
   // exten
   unsigned int exten[518l];
 };
 
-union anonymous$2
+union anonymous_2
 {
   // X_recv_pkt
   struct pkt X_recv_pkt;
@@ -3705,7 +3705,7 @@ union anonymous$2
   unsigned char X_recv_buffer[1000l];
 };
 
-union anonymous$50
+union anonymous_50
 {
   // sa
   struct sockaddr sa;
@@ -3715,7 +3715,7 @@ union anonymous$50
   struct sockaddr_in6 sin6;
 };
 
-union anonymous$49
+union anonymous_49
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -3745,7 +3745,7 @@ union anonymous$49
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$64
+union anonymous_64
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -3922,9 +3922,9 @@ struct blocking_child_tag
   // next_workresp
   unsigned long int next_workresp;
   // blocking_req_ready
-  union anonymous$65 *blocking_req_ready;
+  union anonymous_65 *blocking_req_ready;
   // wake_scheduled_sleep
-  union anonymous$65 *wake_scheduled_sleep;
+  union anonymous_65 *wake_scheduled_sleep;
   // resp_read_pipe
   signed int resp_read_pipe;
   // resp_write_pipe
@@ -3992,11 +3992,11 @@ struct blocking_gni_req_tag
   // flags
   signed int flags;
   // callback
-  void (*callback)(signed int, signed int, union anonymous$47 *, signed int, const char *, const char *, void *);
+  void (*callback)(signed int, signed int, union anonymous_47 *, signed int, const char *, const char *, void *);
   // context
   void *context;
   // socku
-  union anonymous$47 socku;
+  union anonymous_47 socku;
 };
 
 struct blocking_gni_resp_tag
@@ -4210,7 +4210,7 @@ struct evp_pkey_st
   // engine
   struct engine_st *engine;
   // pkey
-  union anonymous$6 pkey;
+  union anonymous_6 pkey;
   // save_parameters
   signed int save_parameters;
   // attributes
@@ -4268,7 +4268,7 @@ struct ifaddrs
   // ifa_netmask
   struct sockaddr *ifa_netmask;
   // ifa_ifu
-  union anonymous$29 ifa_ifu;
+  union anonymous_29 ifa_ifu;
   // ifa_data
   void *ifa_data;
 };
@@ -4286,11 +4286,11 @@ struct interface
   // ifnum
   unsigned int ifnum;
   // sin
-  union anonymous$47 sin;
+  union anonymous_47 sin;
   // mask
-  union anonymous$47 mask;
+  union anonymous_47 mask;
   // bcast
-  union anonymous$47 bcast;
+  union anonymous_47 bcast;
   // name
   char name[32l];
   // family
@@ -4316,7 +4316,7 @@ struct interface
   // ifindex
   unsigned int ifindex;
   // ignore_packets
-  enum anonymous$11 ignore_packets;
+  enum anonymous_11 ignore_packets;
   // peers
   struct peer *peers;
   // peercnt
@@ -4340,15 +4340,15 @@ struct isc__task
   // manager
   struct isc__taskmgr *manager;
   // lock
-  union anonymous$4 lock;
+  union anonymous_4 lock;
   // state
-  enum anonymous$56 state;
+  enum anonymous_56 state;
   // references
   unsigned int references;
   // events
-  struct anonymous$52 events;
+  struct anonymous_52 events;
   // on_shutdown
-  struct anonymous$52 on_shutdown;
+  struct anonymous_52 on_shutdown;
   // quantum
   unsigned int quantum;
   // flags
@@ -4360,11 +4360,11 @@ struct isc__task
   // tag
   void *tag;
   // link
-  struct anonymous$57 link;
+  struct anonymous_57 link;
   // ready_link
-  struct anonymous$57 ready_link;
+  struct anonymous_57 ready_link;
   // ready_priority_link
-  struct anonymous$57 ready_priority_link;
+  struct anonymous_57 ready_priority_link;
 };
 
 struct isc_taskmethods
@@ -4380,7 +4380,7 @@ struct isc_taskmethods
   // sendanddetach
   void (*sendanddetach)(struct isc_task **, struct isc_event **);
   // unsend
-  unsigned int (*unsend)(struct isc_task *, void *, unsigned int, void *, struct anonymous$52 *);
+  unsigned int (*unsend)(struct isc_task *, void *, unsigned int, void *, struct anonymous_52 *);
   // onshutdown
   unsigned int (*onshutdown)(struct isc_task *, void (*)(struct isc_task *, struct isc_event *), const void *);
   // shutdown
@@ -4396,9 +4396,9 @@ struct isc_taskmethods
   // endexclusive
   void (*endexclusive)(struct isc_task *);
   // setprivilege
-  void (*setprivilege)(struct isc_task *, enum anonymous$11);
+  void (*setprivilege)(struct isc_task *, enum anonymous_11);
   // privilege
-  enum anonymous$11 (*privilege)(struct isc_task *);
+  enum anonymous_11 (*privilege)(struct isc_task *);
 };
 
 struct isc__taskmethods
@@ -4424,7 +4424,7 @@ struct isc__taskmgr
   // mctx
   struct isc_mem *mctx;
   // lock
-  union anonymous$4 lock;
+  union anonymous_4 lock;
   // workers
   unsigned int workers;
   // threads
@@ -4432,27 +4432,27 @@ struct isc__taskmgr
   // default_quantum
   unsigned int default_quantum;
   // tasks
-  struct anonymous$58 tasks;
+  struct anonymous_58 tasks;
   // ready_tasks
-  struct anonymous$58 ready_tasks;
+  struct anonymous_58 ready_tasks;
   // ready_priority_tasks
-  struct anonymous$58 ready_priority_tasks;
+  struct anonymous_58 ready_priority_tasks;
   // mode
-  enum anonymous$59 mode;
+  enum anonymous_59 mode;
   // work_available
-  union anonymous$3 work_available;
+  union anonymous_3 work_available;
   // exclusive_granted
-  union anonymous$3 exclusive_granted;
+  union anonymous_3 exclusive_granted;
   // paused
-  union anonymous$3 paused;
+  union anonymous_3 paused;
   // tasks_running
   unsigned int tasks_running;
   // pause_requested
-  enum anonymous$11 pause_requested;
+  enum anonymous_11 pause_requested;
   // exclusive_requested
-  enum anonymous$11 exclusive_requested;
+  enum anonymous_11 exclusive_requested;
   // exiting
-  enum anonymous$11 exiting;
+  enum anonymous_11 exiting;
 };
 
 struct isc_backtrace_symmap
@@ -4478,7 +4478,7 @@ struct isc_buffer
   // active
   unsigned int active;
   // link
-  struct anonymous$27 link;
+  struct anonymous_27 link;
   // mctx
   struct isc_mem *mctx;
 };
@@ -4524,7 +4524,7 @@ struct isc_event
   // ev_destroy_arg
   void *ev_destroy_arg;
   // ev_link
-  struct anonymous$9 ev_link;
+  struct anonymous_9 ev_link;
 };
 
 struct isc_netaddr
@@ -4532,7 +4532,7 @@ struct isc_netaddr
   // family
   unsigned int family;
   // type
-  union anonymous$51 type;
+  union anonymous_51 type;
   // zone
   unsigned int zone;
 };
@@ -4608,13 +4608,13 @@ struct isc_log
   // debug_level
   signed int debug_level;
   // lock
-  union anonymous$4 lock;
+  union anonymous_4 lock;
   // logconfig
   struct isc_logconfig *logconfig;
   // buffer
   char buffer[8192l];
   // messages
-  struct anonymous$12 messages;
+  struct anonymous_12 messages;
 };
 
 struct isc_logcategory
@@ -4636,7 +4636,7 @@ struct isc_logfile
   // maximum_size
   signed long int maximum_size;
   // maximum_reached
-  enum anonymous$11 maximum_reached;
+  enum anonymous_11 maximum_reached;
 };
 
 union isc_logdestination
@@ -4660,7 +4660,7 @@ struct isc_logchannel
   // destination
   union isc_logdestination destination;
   // link
-  struct anonymous$33 link;
+  struct anonymous_33 link;
 };
 
 struct isc_logchannellist
@@ -4670,7 +4670,7 @@ struct isc_logchannellist
   // channel
   struct isc_logchannel *channel;
   // link
-  struct anonymous$34 link;
+  struct anonymous_34 link;
 };
 
 struct isc_logconfig
@@ -4680,9 +4680,9 @@ struct isc_logconfig
   // lctx
   struct isc_log *lctx;
   // channels
-  struct anonymous$31 channels;
+  struct anonymous_31 channels;
   // channellists
-  struct anonymous$32 *channellists;
+  struct anonymous_32 *channellists;
   // channellist_count
   unsigned int channellist_count;
   // duplicate_interval
@@ -4692,7 +4692,7 @@ struct isc_logconfig
   // tag
   char *tag;
   // dynamic
-  enum anonymous$11 dynamic;
+  enum anonymous_11 dynamic;
 };
 
 struct isc_time
@@ -4710,7 +4710,7 @@ struct isc_logmessage
   // time
   struct isc_time time;
   // link
-  struct anonymous$35 link;
+  struct anonymous_35 link;
 };
 
 struct isc_logmodule
@@ -4732,7 +4732,7 @@ struct isc_ondestroy
   // magic
   unsigned int magic;
   // events
-  struct anonymous$52 events;
+  struct anonymous_52 events;
 };
 
 struct isc_region
@@ -4746,11 +4746,11 @@ struct isc_region
 struct isc_sockaddr
 {
   // type
-  union anonymous$50 type;
+  union anonymous_50 type;
   // length
   unsigned int length;
   // link
-  struct anonymous$8 link;
+  struct anonymous_8 link;
 };
 
 struct isc_taskmgrmethods
@@ -4758,9 +4758,9 @@ struct isc_taskmgrmethods
   // destroy
   void (*destroy)(struct isc_taskmgr **);
   // setmode
-  void (*setmode)(struct isc_taskmgr *, enum anonymous$59);
+  void (*setmode)(struct isc_taskmgr *, enum anonymous_59);
   // mode
-  enum anonymous$59 (*mode)(struct isc_taskmgr *);
+  enum anonymous_59 (*mode)(struct isc_taskmgr *);
   // taskcreate
   unsigned int (*taskcreate)(struct isc_taskmgr *, unsigned int, struct isc_task **);
 };
@@ -4874,7 +4874,7 @@ struct options
   // pTransProc
   void (*pTransProc)(void);
   // specOptIdx
-  struct anonymous$0 specOptIdx;
+  struct anonymous_0 specOptIdx;
   // optCt
   const signed int optCt;
   // presetOptCt
@@ -4904,7 +4904,7 @@ struct peer
   // ilink
   struct peer *ilink;
   // srcadr
-  union anonymous$47 srcadr;
+  union anonymous_47 srcadr;
   // hostname
   char *hostname;
   // addrs
@@ -4962,7 +4962,7 @@ struct peer
   // refid
   unsigned int refid;
   // reftime
-  struct anonymous$38 reftime;
+  struct anonymous_38 reftime;
   // keyid
   unsigned int keyid;
   // opcode
@@ -5038,15 +5038,15 @@ struct peer
   // filter_order
   unsigned char filter_order[8l];
   // rec
-  struct anonymous$38 rec;
+  struct anonymous_38 rec;
   // xmt
-  struct anonymous$38 xmt;
+  struct anonymous_38 xmt;
   // dst
-  struct anonymous$38 dst;
+  struct anonymous_38 dst;
   // aorg
-  struct anonymous$38 aorg;
+  struct anonymous_38 aorg;
   // borg
-  struct anonymous$38 borg;
+  struct anonymous_38 borg;
   // offset
   double offset;
   // delay
@@ -5132,9 +5132,9 @@ struct recvbuf
   // link
   struct recvbuf *link;
   // X_from_where
-  union anonymous$1 X_from_where;
+  union anonymous_1 X_from_where;
   // srcadr
-  union anonymous$47 srcadr;
+  union anonymous_47 srcadr;
   // dstadr
   struct interface *dstadr;
   // fd
@@ -5142,13 +5142,13 @@ struct recvbuf
   // msg_flags
   signed int msg_flags;
   // recv_time
-  struct anonymous$38 recv_time;
+  struct anonymous_38 recv_time;
   // receiver
   void (*receiver)(struct recvbuf *);
   // recv_length
   signed int recv_length;
   // recv_space
-  union anonymous$2 recv_space;
+  union anonymous_2 recv_space;
   // used
   signed int used;
 };
@@ -5184,7 +5184,7 @@ struct refclockbug
   // values
   unsigned int values[16l];
   // times
-  struct anonymous$38 times[32l];
+  struct anonymous_38 times[32l];
 };
 
 struct refclockio
@@ -5252,9 +5252,9 @@ struct refclockproc
   // codeproc
   signed int codeproc;
   // lastref
-  struct anonymous$38 lastref;
+  struct anonymous_38 lastref;
   // lastrec
-  struct anonymous$38 lastrec;
+  struct anonymous_38 lastrec;
   // offset
   double offset;
   // disp
@@ -5340,7 +5340,7 @@ struct resulttable
   // set
   signed int set;
   // link
-  struct anonymous$55 link;
+  struct anonymous_55 link;
 };
 
 struct savekey
@@ -5348,7 +5348,7 @@ struct savekey
   // hlink
   struct savekey *hlink;
   // llink
-  struct anonymous$53 llink;
+  struct anonymous_53 llink;
   // secret
   unsigned char *secret;
   // lifetime
@@ -5366,9 +5366,9 @@ struct savekey
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$13 __sigaction_handler;
+  union anonymous_13 __sigaction_handler;
   // sa_mask
-  struct anonymous$14 sa_mask;
+  struct anonymous_14 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -5498,7 +5498,7 @@ struct utmp
   // ut_session
   signed int ut_session;
   // ut_tv
-  struct anonymous$39 ut_tv;
+  struct anonymous_39 ut_tv;
   // ut_addr_v6
   signed int ut_addr_v6[4l];
   // __glibc_reserved
@@ -5524,7 +5524,7 @@ struct utmpx
   // ut_session
   signed int ut_session;
   // ut_tv
-  struct anonymous$39 ut_tv;
+  struct anonymous_39 ut_tv;
   // ut_addr_v6
   signed int ut_addr_v6[4l];
   // __glibc_reserved
@@ -5783,7 +5783,7 @@ static struct recvbuf *free_recv_list;
 static volatile unsigned long int free_recvbufs;
 // full_recv_fifo
 // file recvbuff.c line 25
-static struct anonymous$7 full_recv_fifo;
+static struct anonymous_7 full_recv_fifo;
 // full_recvbufs
 // file recvbuff.c line 18
 static volatile unsigned long int full_recvbufs;
@@ -5846,10 +5846,10 @@ const signed int isc__backtrace_nsymbols = 0;
 const struct isc_backtrace_symmap isc__backtrace_symtable[1l] = { { .addr=(void *)0, .symbol="" } };
 // isc_assertion_failed_cb
 // file ./../lib/isc/assertions.c line 45
-static void (*isc_assertion_failed_cb)(const char *, signed int, enum anonymous$45, const char *);
+static void (*isc_assertion_failed_cb)(const char *, signed int, enum anonymous_45, const char *);
 // isc_assertion_failed_cb
 // file ./../lib/isc/assertions.c line 45
-static void (*isc_assertion_failed_cb)(const char *, signed int, enum anonymous$45, const char *) = default_callback;
+static void (*isc_assertion_failed_cb)(const char *, signed int, enum anonymous_45, const char *) = default_callback;
 // isc_categories
 // file ./../lib/isc/log.c line 194
 struct isc_logcategory isc_categories[3l] = { { .name="default", .id=(unsigned int)0 },
@@ -5877,7 +5877,7 @@ struct isc_logmodule isc_modules[6l] = { { .name="socket", .id=(unsigned int)0 }
 struct isc_msgcat *isc_msgcat = (struct isc_msgcat *)(void *)0;
 // isc_strerror_lock
 // file ./../lib/isc/unix/strerror.c line 39
-static union anonymous$4 isc_strerror_lock;
+static union anonymous_4 isc_strerror_lock;
 // isc_time_epoch
 // file ./../lib/isc/unix/time.c line 114
 struct isc_time *isc_time_epoch;
@@ -5913,7 +5913,7 @@ char lib_stringbuf[16l][128l];
 static char *lineedit_prompt;
 // lock
 // file ./../lib/isc/result.c line 113
-static union anonymous$4 lock;
+static union anonymous_4 lock;
 // log_level_strings
 // file ./../lib/isc/log.c line 164
 static const char *log_level_strings[6l] = { "debug", "info", "notice", "warning", "error", "critical" };
@@ -5983,12 +5983,12 @@ unsigned int ntp_syslogmask = ~((unsigned int)0);
 // once
 // file ./../lib/isc/unix/net.c line 115
 static signed int once = 0;
-// once$link1
+// once_link1
 // file ./../lib/isc/random.c line 39
-static signed int once$link1 = 0;
-// once$link2
+static signed int once_link1 = 0;
+// once_link2
 // file ./../lib/isc/result.c line 111
-static signed int once$link2 = 0;
+static signed int once_link2 = 0;
 // once_ipv6only
 // file ./../lib/isc/unix/net.c line 106
 static signed int once_ipv6only = 0;
@@ -6055,7 +6055,7 @@ static unsigned long int *rptr = &randtbl[(signed long int)1];
 static char *scan = (char *)(void *)0;
 // seenv6
 // file ./../lib/isc/unix/ifiter_getifaddrs.c line 33
-static enum anonymous$11 seenv6 = (enum anonymous$11)isc_boolean_false;
+static enum anonymous_11 seenv6 = (enum anonymous_11)isc_boolean_false;
 // select_codes
 // file statestr.c line 59
 static struct codestring select_codes[9l] = { { .code=0, .string="sel_reject" }, { .code=1, .string="sel_falsetick" }, { .code=2, .string="sel_excess" }, { .code=3, .string="sel_outlier" }, { .code=4, .string="sel_candidate" }, { .code=5, .string="sel_backup" }, { .code=6, .string="sel_sys.peer" }, { .code=7, .string="sel_pps.peer" }, { .code=-1, .string="sel" } };
@@ -6137,7 +6137,7 @@ static signed long int (*systime_func)(signed long int *);
 static signed long int (*systime_func)(signed long int *) = time;
 // tables
 // file ./../lib/isc/result.c line 112
-static struct anonymous$54 tables;
+static struct anonymous_54 tables;
 // taskmethods
 // file ./../lib/isc/task.c line 259
 static struct isc__taskmethods taskmethods;
@@ -6231,9 +6231,9 @@ __CPROVER_DUMP_L2:
         free((void *)sk->secret);
       }
 
-      void *return_value_ereallocz$1;
-      return_value_ereallocz$1=ereallocz((void *)0, len, (unsigned long int)0, 0);
-      sk->secret = (unsigned char *)return_value_ereallocz$1;
+      void *return_value_ereallocz_1;
+      return_value_ereallocz_1=ereallocz((void *)0, len, (unsigned long int)0, 0);
+      sk->secret = (unsigned char *)return_value_ereallocz_1;
       sk->type = (unsigned short int)keytype;
       secretsize = len;
       sk->secretsize = (unsigned short int)secretsize;
@@ -6248,9 +6248,9 @@ __CPROVER_DUMP_L2:
     }
 
   secretsize = len;
-  void *return_value_ereallocz$2;
-  return_value_ereallocz$2=ereallocz((void *)0, secretsize, (unsigned long int)0, 0);
-  secret = (unsigned char *)return_value_ereallocz$2;
+  void *return_value_ereallocz_2;
+  return_value_ereallocz_2=ereallocz((void *)0, secretsize, (unsigned long int)0, 0);
+  secret = (unsigned char *)return_value_ereallocz_2;
   memcpy((void *)secret, (const void *)key, secretsize);
   allocsymkey(bucket, keyno, (unsigned short int)0, (unsigned short int)keytype, (unsigned long int)0, (unsigned short int)secretsize, secret);
 
@@ -6270,13 +6270,13 @@ extern signed int MD5authdecrypt(signed int type, unsigned char *key, unsigned i
       ssl_init();
 
   while((_Bool)0);
-  const char *return_value_OBJ_nid2sn$1;
-  return_value_OBJ_nid2sn$1=OBJ_nid2sn(type);
-  const struct env_md_st *return_value_EVP_get_digestbyname$2;
-  return_value_EVP_get_digestbyname$2=EVP_get_digestbyname(return_value_OBJ_nid2sn$1);
-  signed int return_value_EVP_DigestInit$3;
-  return_value_EVP_DigestInit$3=EVP_DigestInit(&ctx, return_value_EVP_get_digestbyname$2);
-  if(return_value_EVP_DigestInit$3 == 0)
+  const char *return_value_OBJ_nid2sn_1;
+  return_value_OBJ_nid2sn_1=OBJ_nid2sn(type);
+  const struct env_md_st *return_value_EVP_get_digestbyname_2;
+  return_value_EVP_get_digestbyname_2=EVP_get_digestbyname(return_value_OBJ_nid2sn_1);
+  signed int return_value_EVP_DigestInit_3;
+  return_value_EVP_DigestInit_3=EVP_DigestInit(&ctx, return_value_EVP_get_digestbyname_2);
+  if(return_value_EVP_DigestInit_3 == 0)
   {
     msyslog(3, "MAC decrypt: digest init failed");
     return 0;
@@ -6295,9 +6295,9 @@ extern signed int MD5authdecrypt(signed int type, unsigned char *key, unsigned i
 
     else
     {
-      signed int return_value_memcmp$4;
-      return_value_memcmp$4=memcmp((const void *)digest, (const void *)((char *)pkt + (signed long int)length + (signed long int)4), (unsigned long int)len);
-      return (signed int)!(return_value_memcmp$4 != 0);
+      signed int return_value_memcmp_4;
+      return_value_memcmp_4=memcmp((const void *)digest, (const void *)((char *)pkt + (signed long int)length + (signed long int)4), (unsigned long int)len);
+      return (signed int)!(return_value_memcmp_4 != 0);
     }
   }
 }
@@ -6314,13 +6314,13 @@ extern signed int MD5authencrypt(signed int type, unsigned char *key, unsigned i
       ssl_init();
 
   while((_Bool)0);
-  const char *return_value_OBJ_nid2sn$1;
-  return_value_OBJ_nid2sn$1=OBJ_nid2sn(type);
-  const struct env_md_st *return_value_EVP_get_digestbyname$2;
-  return_value_EVP_get_digestbyname$2=EVP_get_digestbyname(return_value_OBJ_nid2sn$1);
-  signed int return_value_EVP_DigestInit$3;
-  return_value_EVP_DigestInit$3=EVP_DigestInit(&ctx, return_value_EVP_get_digestbyname$2);
-  if(return_value_EVP_DigestInit$3 == 0)
+  const char *return_value_OBJ_nid2sn_1;
+  return_value_OBJ_nid2sn_1=OBJ_nid2sn(type);
+  const struct env_md_st *return_value_EVP_get_digestbyname_2;
+  return_value_EVP_get_digestbyname_2=EVP_get_digestbyname(return_value_OBJ_nid2sn_1);
+  signed int return_value_EVP_DigestInit_3;
+  return_value_EVP_DigestInit_3=EVP_DigestInit(&ctx, return_value_EVP_get_digestbyname_2);
+  if(return_value_EVP_DigestInit_3 == 0)
   {
     msyslog(3, "MAC encrypt: digest init failed");
     return 0;
@@ -6404,14 +6404,14 @@ static inline struct timespec add_tspec_ns(struct timespec a, signed long int b)
 {
   struct timespec x = a;
   x.tv_nsec = x.tv_nsec + b;
-  struct timespec return_value_normalize_tspec$1;
-  return_value_normalize_tspec$1=normalize_tspec(x);
-  return return_value_normalize_tspec$1;
+  struct timespec return_value_normalize_tspec_1;
+  return_value_normalize_tspec_1=normalize_tspec(x);
+  return return_value_normalize_tspec_1;
 }
 
 // addr2refid
 // file a_md5encrypt.c line 105
-extern unsigned int addr2refid(union anonymous$47 *addr)
+extern unsigned int addr2refid(union anonymous_47 *addr)
 {
   unsigned char digest[20l];
   unsigned int addr_refid;
@@ -6429,11 +6429,11 @@ extern unsigned int addr2refid(union anonymous$47 *addr)
     while((_Bool)0);
     EVP_MD_CTX_init(&ctx);
     EVP_MD_CTX_set_flags(&ctx, 0x0008);
-    const struct env_md_st *return_value_EVP_md5$1;
-    return_value_EVP_md5$1=EVP_md5();
-    signed int return_value_EVP_DigestInit_ex$2;
-    return_value_EVP_DigestInit_ex$2=EVP_DigestInit_ex(&ctx, return_value_EVP_md5$1, (struct engine_st *)(void *)0);
-    if(return_value_EVP_DigestInit_ex$2 == 0)
+    const struct env_md_st *return_value_EVP_md5_1;
+    return_value_EVP_md5_1=EVP_md5();
+    signed int return_value_EVP_DigestInit_ex_2;
+    return_value_EVP_DigestInit_ex_2=EVP_DigestInit_ex(&ctx, return_value_EVP_md5_1, (struct engine_st *)(void *)0);
+    if(return_value_EVP_DigestInit_ex_2 == 0)
     {
       msyslog(3, "MD5 init failed");
       exit(1);
@@ -6458,17 +6458,17 @@ void addto_syslog(signed int level, const char *msg)
   signed int pid;
   const char *nl_or_empty;
   const char *human_time;
-  static const char *addto_syslog$$1$$prog;
+  static const char *addto_syslog__1__prog;
   static const char *prevcall_progname;
   if(!(progname == prevcall_progname))
   {
     prevcall_progname = progname;
-    addto_syslog$$1$$prog=strrchr(progname, 47);
-    if(!(addto_syslog$$1$$prog == ((const char *)NULL)))
-      addto_syslog$$1$$prog = addto_syslog$$1$$prog + 1l;
+    addto_syslog__1__prog=strrchr(progname, 47);
+    if(!(addto_syslog__1__prog == ((const char *)NULL)))
+      addto_syslog__1__prog = addto_syslog__1__prog + 1l;
 
     else
-      addto_syslog$$1$$prog = progname;
+      addto_syslog__1__prog = progname;
   }
 
   log_to_term = msyslog_term;
@@ -6494,9 +6494,9 @@ void addto_syslog(signed int level, const char *msg)
 
     else
       pid = -1;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(msg);
-    if(!((signed int)msg[-1l + (signed long int)return_value_strlen$1] == 10))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(msg);
+    if(!((signed int)msg[-1l + (signed long int)return_value_strlen_1] == 10))
       nl_or_empty = nl;
 
     else
@@ -6508,7 +6508,7 @@ void addto_syslog(signed int level, const char *msg)
         fprintf(term_file, "%s ", human_time);
 
       if(!(msyslog_term_pid == 0))
-        fprintf(term_file, "%s[%d]: ", addto_syslog$$1$$prog, pid);
+        fprintf(term_file, "%s[%d]: ", addto_syslog__1__prog, pid);
 
       fprintf(term_file, "%s%s", msg, nl_or_empty);
       fflush(term_file);
@@ -6519,7 +6519,7 @@ void addto_syslog(signed int level, const char *msg)
       if(!(msyslog_include_timestamp == 0))
         fprintf(syslog_file, "%s ", human_time);
 
-      fprintf(syslog_file, "%s[%d]: %s%s", addto_syslog$$1$$prog, pid, msg, nl_or_empty);
+      fprintf(syslog_file, "%s[%d]: %s%s", addto_syslog__1__prog, pid, msg, nl_or_empty);
       fflush(syslog_file);
     }
 
@@ -6529,27 +6529,27 @@ void addto_syslog(signed int level, const char *msg)
 
 // addv64
 // file vint64ops.c line 175
-extern union anonymous$44 addv64(const union anonymous$44 *lhs, const union anonymous$44 *rhs)
+extern union anonymous_44 addv64(const union anonymous_44 *lhs, const union anonymous_44 *rhs)
 {
-  union anonymous$44 res;
+  union anonymous_44 res;
   res.Q_s = lhs->Q_s + rhs->Q_s;
   return res;
 }
 
 // addv64i32
 // file vint64ops.c line 213
-extern union anonymous$44 addv64i32(const union anonymous$44 *lhs, signed int rhs)
+extern union anonymous_44 addv64i32(const union anonymous_44 *lhs, signed int rhs)
 {
-  union anonymous$44 res = *lhs;
+  union anonymous_44 res = *lhs;
   res.q_s = res.q_s + (signed long int)rhs;
   return res;
 }
 
 // addv64u32
 // file vint64ops.c line 251
-extern union anonymous$44 addv64u32(const union anonymous$44 *lhs, unsigned int rhs)
+extern union anonymous_44 addv64u32(const union anonymous_44 *lhs, unsigned int rhs)
 {
-  union anonymous$44 res = *lhs;
+  union anonymous_44 res = *lhs;
   res.Q_s = res.Q_s + (unsigned long int)rhs;
   return res;
 }
@@ -6596,9 +6596,9 @@ extern signed int adj_systime(double now)
 
     if(!(adjtv.tv_sec == 0l) || !(adjtv.tv_usec == 0l))
     {
-      signed int return_value_adjtime$1;
-      return_value_adjtime$1=adjtime(&adjtv, &oadjtv);
-      if(!(return_value_adjtime$1 >= 0))
+      signed int return_value_adjtime_1;
+      return_value_adjtime_1=adjtime(&adjtv, &oadjtv);
+      if(!(return_value_adjtime_1 >= 0))
       {
         msyslog(3, "adj_systime: %m");
         return 0;
@@ -6620,12 +6620,12 @@ static void alloc_dnsworker_context(unsigned int idx)
 
   else
   {
-    isc_assertion_failed("ntp_intres.c", 959, (enum anonymous$45)isc_assertiontype_require, "((void *)0) == dnsworker_contexts[idx]");
+    isc_assertion_failed("ntp_intres.c", 959, (enum anonymous_45)isc_assertiontype_require, "((void *)0) == dnsworker_contexts[idx]");
     (_Bool)0;
   }
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)0, worker_context_sz, (unsigned long int)0, 1);
-  dnsworker_contexts[(signed long int)idx] = (struct dnsworker_ctx_tag *)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)0, worker_context_sz, (unsigned long int)0, 1);
+  dnsworker_contexts[(signed long int)idx] = (struct dnsworker_ctx_tag *)return_value_ereallocz_1;
 }
 
 // allocsymkey
@@ -6681,18 +6681,18 @@ static unsigned int assignchannel(struct isc_logconfig *lcfg, unsigned int categ
   struct isc_logchannellist *new_item;
   struct isc_log *lctx;
   unsigned int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lcfg == ((struct isc_logconfig *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1063, (enum anonymous$45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 1063, (enum anonymous_45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
     (_Bool)0;
   }
   lctx = lcfg->lctx;
@@ -6701,21 +6701,21 @@ static unsigned int assignchannel(struct isc_logconfig *lcfg, unsigned int categ
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1067, (enum anonymous$45)isc_assertiontype_require, "category_id < lctx->category_count");
+    isc_assertion_failed("./../lib/isc/log.c", 1067, (enum anonymous_45)isc_assertiontype_require, "category_id < lctx->category_count");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(module == ((const struct isc_logmodule *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = module->id < lctx->module_count ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = module->id < lctx->module_count ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1068, (enum anonymous$45)isc_assertiontype_require, "module == ((void *)0) || module->id < lctx->module_count");
+    isc_assertion_failed("./../lib/isc/log.c", 1068, (enum anonymous_45)isc_assertiontype_require, "module == ((void *)0) || module->id < lctx->module_count");
     (_Bool)0;
   }
   if(!(channel == ((struct isc_logchannel *)NULL)))
@@ -6723,7 +6723,7 @@ static unsigned int assignchannel(struct isc_logconfig *lcfg, unsigned int categ
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1069, (enum anonymous$45)isc_assertiontype_require, "channel != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 1069, (enum anonymous_45)isc_assertiontype_require, "channel != ((void *)0)");
     (_Bool)0;
   }
   result=sync_channellist(lcfg);
@@ -6733,9 +6733,9 @@ static unsigned int assignchannel(struct isc_logconfig *lcfg, unsigned int categ
   else
   {
     (void)lctx->mctx;
-    void *return_value_ereallocz$3;
-    return_value_ereallocz$3=ereallocz((void *)0, sizeof(struct isc_logchannellist) /*32ul*/ , (unsigned long int)0, 0);
-    new_item = (struct isc_logchannellist *)return_value_ereallocz$3;
+    void *return_value_ereallocz_3;
+    return_value_ereallocz_3=ereallocz((void *)0, sizeof(struct isc_logchannellist) /*32ul*/ , (unsigned long int)0, 0);
+    new_item = (struct isc_logchannellist *)return_value_ereallocz_3;
     if(new_item == ((struct isc_logchannellist *)NULL))
       return (unsigned int)1;
 
@@ -6761,7 +6761,7 @@ static unsigned int assignchannel(struct isc_logconfig *lcfg, unsigned int categ
           lcfg->highest_level = channel->level;
 
         if(channel->level == 0)
-          lcfg->dynamic = (enum anonymous$11)isc_boolean_true;
+          lcfg->dynamic = (enum anonymous_11)isc_boolean_true;
 
       }
 
@@ -6804,9 +6804,9 @@ extern signed int atoint(const char *str, signed long int *ival)
     isneg = 0;
     oflow_digit = 55;
   }
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  const char *tmp_post$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  const char *tmp_post_4;
   if((signed int)*cp == 0)
     return 0;
 
@@ -6815,30 +6815,30 @@ extern signed int atoint(const char *str, signed long int *ival)
     u = (signed long int)0;
     while(!((signed int)*cp == 0))
     {
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
         return 0;
 
       if(u >= 214748365l)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if(u == 214748364l)
-          tmp_if_expr$2 = (signed int)*cp > oflow_digit ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*cp > oflow_digit ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         return 0;
 
       u = (u << 3) + (u << 1);
-      tmp_post$4 = cp;
+      tmp_post_4 = cp;
       cp = cp + 1l;
-      u = u + (signed long int)((signed int)*tmp_post$4 - 48);
+      u = u + (signed long int)((signed int)*tmp_post_4 - 48);
     }
     if(!(isneg == 0))
       *ival = -u;
@@ -6851,7 +6851,7 @@ extern signed int atoint(const char *str, signed long int *ival)
 
 // atolfp
 // file atolfp.c line 30
-extern signed int atolfp(const char *str, struct anonymous$38 *lfp)
+extern signed int atolfp(const char *str, struct anonymous_38 *lfp)
 {
   const char *cp;
   unsigned long int dec_i;
@@ -6864,7 +6864,7 @@ extern signed int atolfp(const char *str, struct anonymous$38 *lfp)
 
   else
   {
-    isc_assertion_failed("atolfp.c", 43, (enum anonymous$45)isc_assertiontype_require, "str != ((void *)0)");
+    isc_assertion_failed("atolfp.c", 43, (enum anonymous_45)isc_assertiontype_require, "str != ((void *)0)");
     (_Bool)0;
   }
   isneg = 0;
@@ -6872,11 +6872,11 @@ extern signed int atolfp(const char *str, struct anonymous$38 *lfp)
   dec_i = dec_f;
   ndec = 0;
   cp = str;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
       break;
 
     cp = cp + 1l;
@@ -6891,15 +6891,15 @@ extern signed int atolfp(const char *str, struct anonymous$38 *lfp)
   if((signed int)*cp == 43)
     cp = cp + 1l;
 
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$6;
-  const char *tmp_post$3;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  const unsigned short int **return_value___ctype_b_loc$5;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  const char *tmp_post_3;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  const unsigned short int **return_value___ctype_b_loc_5;
   if(!((signed int)*cp == 46))
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*cp]) == 0))
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*cp]) == 0))
       goto __CPROVER_DUMP_L8;
 
     return 0;
@@ -6922,12 +6922,12 @@ extern signed int atolfp(const char *str, struct anonymous$38 *lfp)
     }
     if(!((signed int)*cp == 0))
     {
-      return_value___ctype_b_loc$6=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+      return_value___ctype_b_loc_6=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
       {
-        tmp_post$3 = cp;
+        tmp_post_3 = cp;
         cp = cp + 1l;
-        if(!((signed int)*tmp_post$3 == 46))
+        if(!((signed int)*tmp_post_3 == 46))
           return 0;
 
         for( ; !(ndec >= 9); cp = cp + 1l)
@@ -6945,8 +6945,8 @@ extern signed int atolfp(const char *str, struct anonymous$38 *lfp)
         }
         do
         {
-          return_value___ctype_b_loc$4=__ctype_b_loc();
-          if((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+          return_value___ctype_b_loc_4=__ctype_b_loc();
+          if((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
             break;
 
           cp = cp + 1l;
@@ -6954,8 +6954,8 @@ extern signed int atolfp(const char *str, struct anonymous$38 *lfp)
         while((_Bool)1);
         if(!((signed int)*cp == 0))
         {
-          return_value___ctype_b_loc$5=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+          return_value___ctype_b_loc_5=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
             return 0;
 
         }
@@ -7007,9 +7007,9 @@ extern signed int atouint(const char *str, unsigned long int *uval)
 {
   unsigned long int u;
   const char *cp = str;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  const char *tmp_post$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  const char *tmp_post_4;
   if((signed int)*cp == 0)
     return 0;
 
@@ -7018,30 +7018,30 @@ extern signed int atouint(const char *str, unsigned long int *uval)
     u = (unsigned long int)0;
     while(!((signed int)*cp == 0))
     {
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
         return 0;
 
       if(u >= 429496730ul)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if(u == 429496729ul)
-          tmp_if_expr$2 = (signed int)*cp >= 54 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*cp >= 54 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         return 0;
 
       u = (u << 3) + (u << 1);
-      tmp_post$4 = cp;
+      tmp_post_4 = cp;
       cp = cp + 1l;
-      u = u + (unsigned long int)((signed int)*tmp_post$4 - 48);
+      u = u + (unsigned long int)((signed int)*tmp_post_4 - 48);
     }
     *uval = u;
     return 1;
@@ -7058,29 +7058,29 @@ static void audio_config_read(signed int unit, const char **c_dev, const char **
   char ab[100l];
   snprintf(device, sizeof(char [20l]) /*20ul*/ , "%s%d", (const void *)"/etc/ntp.audio", unit);
   fd=fopen(device, "r");
-  char *return_value_fgets$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  const unsigned short int **return_value___ctype_b_loc$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$16;
-  const unsigned short int **return_value___ctype_b_loc$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$28;
-  signed int return_value_sscanf$27;
-  signed int return_value_strncmp$23;
-  _Bool tmp_if_expr$25;
-  signed int return_value_sscanf$24;
-  signed int return_value_strncmp$20;
-  _Bool tmp_if_expr$22;
-  signed int return_value_sscanf$21;
-  signed int return_value_strncmp$19;
-  signed int return_value_sscanf$18;
+  char *return_value_fgets_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  const unsigned short int **return_value___ctype_b_loc_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_16;
+  const unsigned short int **return_value___ctype_b_loc_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_28;
+  signed int return_value_sscanf_27;
+  signed int return_value_strncmp_23;
+  _Bool tmp_if_expr_25;
+  signed int return_value_sscanf_24;
+  signed int return_value_strncmp_20;
+  _Bool tmp_if_expr_22;
+  signed int return_value_sscanf_21;
+  signed int return_value_strncmp_19;
+  signed int return_value_sscanf_18;
   if(fd == ((struct _IO_FILE *)NULL))
   {
     printf("audio_config_read: <%s> NO\n", (const void *)device);
@@ -7106,8 +7106,8 @@ static void audio_config_read(signed int unit, const char **c_dev, const char **
     printf("audio_config_read: reading <%s>\n", (const void *)device);
     do
     {
-      return_value_fgets$1=fgets(line, (signed int)sizeof(char [100l]) /*100ul*/ , fd);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(line, (signed int)sizeof(char [100l]) /*100ul*/ , fd);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       char *cp;
@@ -7118,25 +7118,25 @@ static void audio_config_read(signed int unit, const char **c_dev, const char **
       if(!(cp == ((char *)NULL)))
         *cp = (char)0;
 
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(line);
-      i = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(line);
+      i = (signed int)return_value_strlen_2;
       do
       {
         if(i >= 1)
-          tmp_if_expr$3 = ((signed int)(unsigned char)line[(signed long int)(i - 1)] & ~0x7f) == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = ((signed int)(unsigned char)line[(signed long int)(i - 1)] & ~0x7f) == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
-          return_value___ctype_b_loc$4=__ctype_b_loc();
-          tmp_if_expr$5 = ((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(unsigned char)line[(signed long int)(i - 1)]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_4=__ctype_b_loc();
+          tmp_if_expr_5 = ((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(unsigned char)line[(signed long int)(i - 1)]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(!tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(!tmp_if_expr_5)
           break;
 
         i = i - 1;
@@ -7147,19 +7147,19 @@ static void audio_config_read(signed int unit, const char **c_dev, const char **
       do
       {
         if(!(*cc == 0))
-          tmp_if_expr$6 = ((signed int)(unsigned char)*cc & ~0x7f) == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = ((signed int)(unsigned char)*cc & ~0x7f) == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
-          return_value___ctype_b_loc$7=__ctype_b_loc();
-          tmp_if_expr$8 = ((signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)(unsigned char)*cc] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_7=__ctype_b_loc();
+          tmp_if_expr_8 = ((signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)(unsigned char)*cc] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(!tmp_if_expr$8)
+          tmp_if_expr_8 = (_Bool)0;
+        if(!tmp_if_expr_8)
           break;
 
         cc = cc + 1l;
@@ -7171,24 +7171,24 @@ static void audio_config_read(signed int unit, const char **c_dev, const char **
         for( ; !(*ca == 0); ca = ca + 1l)
           if((-128 & (signed int)(unsigned char)*ca) == 0)
           {
-            const unsigned short int **return_value___ctype_b_loc$12;
-            return_value___ctype_b_loc$12=__ctype_b_loc();
-            if(!((512 & (signed int)(*return_value___ctype_b_loc$12)[(signed long int)(signed int)(unsigned char)*ca]) == 0))
+            const unsigned short int **return_value___ctype_b_loc_12;
+            return_value___ctype_b_loc_12=__ctype_b_loc();
+            if(!((512 & (signed int)(*return_value___ctype_b_loc_12)[(signed long int)(signed int)(unsigned char)*ca]) == 0))
             {
-              signed int return_value_toupper$9;
-              return_value_toupper$9=toupper((signed int)(unsigned char)*ca);
-              *ca = (char)return_value_toupper$9;
+              signed int return_value_toupper_9;
+              return_value_toupper_9=toupper((signed int)(unsigned char)*ca);
+              *ca = (char)return_value_toupper_9;
             }
 
             else
             {
-              return_value___ctype_b_loc$10=__ctype_b_loc();
-              if(!((8192 & (signed int)(*return_value___ctype_b_loc$10)[(signed long int)(signed int)(unsigned char)*ca]) == 0))
-                tmp_if_expr$11 = (_Bool)1;
+              return_value___ctype_b_loc_10=__ctype_b_loc();
+              if(!((8192 & (signed int)(*return_value___ctype_b_loc_10)[(signed long int)(signed int)(unsigned char)*ca]) == 0))
+                tmp_if_expr_11 = (_Bool)1;
 
               else
-                tmp_if_expr$11 = (signed int)*ca == 61 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$11)
+                tmp_if_expr_11 = (signed int)*ca == 61 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_11)
                 break;
 
             }
@@ -7197,40 +7197,40 @@ static void audio_config_read(signed int unit, const char **c_dev, const char **
         do
         {
           if(!(*ca == 0))
-            tmp_if_expr$13 = ((signed int)(unsigned char)*ca & ~0x7f) == 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_13 = ((signed int)(unsigned char)*ca & ~0x7f) == 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$13 = (_Bool)0;
-          if(tmp_if_expr$13)
+            tmp_if_expr_13 = (_Bool)0;
+          if(tmp_if_expr_13)
           {
-            return_value___ctype_b_loc$14=__ctype_b_loc();
-            if(!((8192 & (signed int)(*return_value___ctype_b_loc$14)[(signed long int)(signed int)(unsigned char)*ca]) == 0))
-              tmp_if_expr$15 = (_Bool)1;
+            return_value___ctype_b_loc_14=__ctype_b_loc();
+            if(!((8192 & (signed int)(*return_value___ctype_b_loc_14)[(signed long int)(signed int)(unsigned char)*ca]) == 0))
+              tmp_if_expr_15 = (_Bool)1;
 
             else
-              tmp_if_expr$15 = (signed int)*ca == 61 ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_15 = (signed int)*ca == 61 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$16 = (_Bool)0;
-          if(!tmp_if_expr$16)
+            tmp_if_expr_16 = (_Bool)0;
+          if(!tmp_if_expr_16)
             break;
 
           ca = ca + 1l;
         }
         while((_Bool)1);
-        signed int return_value_strncmp$26;
-        return_value_strncmp$26=strncmp(cc, "IDEV", (unsigned long int)4);
-        if(return_value_strncmp$26 == 0)
+        signed int return_value_strncmp_26;
+        return_value_strncmp_26=strncmp(cc, "IDEV", (unsigned long int)4);
+        if(return_value_strncmp_26 == 0)
         {
-          return_value_sscanf$27=sscanf(ca, "%99s", (const void *)ab);
-          tmp_if_expr$28 = 1 == return_value_sscanf$27 ? (_Bool)1 : (_Bool)0;
+          return_value_sscanf_27=sscanf(ca, "%99s", (const void *)ab);
+          tmp_if_expr_28 = 1 == return_value_sscanf_27 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$28 = (_Bool)0;
-        if(tmp_if_expr$28)
+          tmp_if_expr_28 = (_Bool)0;
+        if(tmp_if_expr_28)
         {
           strlcpy(cf_i_dev, ab, sizeof(char [100l]) /*100ul*/ );
           printf("idev <%s>\n", (const void *)ab);
@@ -7238,16 +7238,16 @@ static void audio_config_read(signed int unit, const char **c_dev, const char **
 
         else
         {
-          return_value_strncmp$23=strncmp(cc, "CDEV", (unsigned long int)4);
-          if(return_value_strncmp$23 == 0)
+          return_value_strncmp_23=strncmp(cc, "CDEV", (unsigned long int)4);
+          if(return_value_strncmp_23 == 0)
           {
-            return_value_sscanf$24=sscanf(ca, "%99s", (const void *)ab);
-            tmp_if_expr$25 = 1 == return_value_sscanf$24 ? (_Bool)1 : (_Bool)0;
+            return_value_sscanf_24=sscanf(ca, "%99s", (const void *)ab);
+            tmp_if_expr_25 = 1 == return_value_sscanf_24 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$25 = (_Bool)0;
-          if(tmp_if_expr$25)
+            tmp_if_expr_25 = (_Bool)0;
+          if(tmp_if_expr_25)
           {
             strlcpy(cf_c_dev, ab, sizeof(char [100l]) /*100ul*/ );
             printf("cdev <%s>\n", (const void *)ab);
@@ -7255,16 +7255,16 @@ static void audio_config_read(signed int unit, const char **c_dev, const char **
 
           else
           {
-            return_value_strncmp$20=strncmp(cc, "AGC", (unsigned long int)3);
-            if(return_value_strncmp$20 == 0)
+            return_value_strncmp_20=strncmp(cc, "AGC", (unsigned long int)3);
+            if(return_value_strncmp_20 == 0)
             {
-              return_value_sscanf$21=sscanf(ca, "%99s", (const void *)ab);
-              tmp_if_expr$22 = 1 == return_value_sscanf$21 ? (_Bool)1 : (_Bool)0;
+              return_value_sscanf_21=sscanf(ca, "%99s", (const void *)ab);
+              tmp_if_expr_22 = 1 == return_value_sscanf_21 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$22 = (_Bool)0;
-            if(tmp_if_expr$22)
+              tmp_if_expr_22 = (_Bool)0;
+            if(tmp_if_expr_22)
             {
               strlcpy(cf_agc, ab, sizeof(char [100l]) /*100ul*/ );
               printf("agc <%s> %d\n", (const void *)ab, i);
@@ -7272,16 +7272,16 @@ static void audio_config_read(signed int unit, const char **c_dev, const char **
 
             else
             {
-              return_value_strncmp$19=strncmp(cc, "MONITOR", (unsigned long int)7);
-              if(return_value_strncmp$19 == 0)
+              return_value_strncmp_19=strncmp(cc, "MONITOR", (unsigned long int)7);
+              if(return_value_strncmp_19 == 0)
               {
-                return_value_sscanf$18=sscanf(ca, "%99s", (const void *)ab);
-                if(return_value_sscanf$18 == 1)
+                return_value_sscanf_18=sscanf(ca, "%99s", (const void *)ab);
+                if(return_value_sscanf_18 == 1)
                 {
                   strlcpy(cf_monitor, ab, sizeof(char [100l]) /*100ul*/ );
-                  signed int return_value_mixer_name$17;
-                  return_value_mixer_name$17=mixer_name(ab, -1);
-                  printf("monitor <%s> %d\n", (const void *)ab, return_value_mixer_name$17);
+                  signed int return_value_mixer_name_17;
+                  return_value_mixer_name_17=mixer_name(ab, -1);
+                  printf("monitor <%s> %d\n", (const void *)ab, return_value_mixer_name_17);
                 }
 
               }
@@ -7318,11 +7318,11 @@ signed int audio_gain(signed int gain, signed int mongain, signed int port)
     rval=ioctl(ctl_fd, 2 == port ? (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(6 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8 : (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(7 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &l);
   if(rval == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    printf("audio_gain: agc write: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    printf("audio_gain: agc write: %s\n", return_value_strerror_2);
     return rval;
   }
 
@@ -7339,11 +7339,11 @@ signed int audio_gain(signed int gain, signed int mongain, signed int port)
       rval=ioctl(ctl_fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(0 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &l);
     if(rval == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      printf("audio_gain: mongain write: %s\n", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      printf("audio_gain: mongain write: %s\n", return_value_strerror_4);
       return rval;
     }
 
@@ -7357,11 +7357,11 @@ signed int audio_gain(signed int gain, signed int mongain, signed int port)
     rval=ioctl(ctl_fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(0xff << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &l);
     if(rval == -1)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      printf("SOUND_MIXER_WRITE_RECSRC: %s\n", return_value_strerror$6);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      printf("SOUND_MIXER_WRITE_RECSRC: %s\n", return_value_strerror_6);
       return rval;
     }
 
@@ -7388,12 +7388,12 @@ signed int audio_init(const char *dname, signed int bufsiz, signed int unit)
     dname = cf_i_dev;
 
   fd=open(dname, 02 | 04000, 0777);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
   if(!(fd >= 0))
   {
     msyslog(3, "audio_init: %s %m", dname);
@@ -7415,31 +7415,31 @@ signed int audio_init(const char *dname, signed int bufsiz, signed int unit)
       printf("audio_init: <%s> bufsiz %d\n", dname, bufsiz);
       rval = fd;
       signed int tmp = (16 << 16) + 6;
-      signed int return_value_ioctl$3;
-      return_value_ioctl$3=ioctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(10 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &tmp);
-      if(return_value_ioctl$3 == -1)
+      signed int return_value_ioctl_3;
+      return_value_ioctl_3=ioctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(10 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &tmp);
+      if(return_value_ioctl_3 == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        printf("audio_init: SNDCTL_DSP_SETFRAGMENT: %s\n", return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        printf("audio_init: SNDCTL_DSP_SETFRAGMENT: %s\n", return_value_strerror_2);
       }
 
-      signed int return_value_ioctl$6;
-      return_value_ioctl$6=ioctl(ctl_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(0xfe << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &devmask);
-      if(return_value_ioctl$6 == -1)
+      signed int return_value_ioctl_6;
+      return_value_ioctl_6=ioctl(ctl_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(0xfe << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &devmask);
+      if(return_value_ioctl_6 == -1)
       {
-        return_value___errno_location$4=__errno_location();
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        printf("SOUND_MIXER_READ_DEVMASK: %s\n", return_value_strerror$5);
+        return_value___errno_location_4=__errno_location();
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        printf("SOUND_MIXER_READ_DEVMASK: %s\n", return_value_strerror_5);
       }
 
-      signed int return_value_ioctl$9;
-      return_value_ioctl$9=ioctl(ctl_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(0xfd << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &recmask);
-      if(return_value_ioctl$9 == -1)
+      signed int return_value_ioctl_9;
+      return_value_ioctl_9=ioctl(ctl_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(0xfd << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &recmask);
+      if(return_value_ioctl_9 == -1)
       {
-        return_value___errno_location$7=__errno_location();
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        printf("SOUND_MIXER_READ_RECMASK: %s\n", return_value_strerror$8);
+        return_value___errno_location_7=__errno_location();
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        printf("SOUND_MIXER_READ_RECMASK: %s\n", return_value_strerror_8);
       }
 
       if(!((signed int)cf_agc[0l] == 0))
@@ -7455,10 +7455,10 @@ signed int audio_init(const char *dname, signed int bufsiz, signed int unit)
 
       if(!((signed int)cf_monitor[0l] == 0))
       {
-        signed int audio_init$$1$$5$$i;
-        audio_init$$1$$5$$i=mixer_name(cf_monitor, devmask);
-        if(audio_init$$1$$5$$i >= 0)
-          monitor = (signed int)((unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(audio_init$$1$$5$$i << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8);
+        signed int audio_init__1__5__i;
+        audio_init__1__5__i=mixer_name(cf_monitor, devmask);
+        if(audio_init__1__5__i >= 0)
+          monitor = (signed int)((unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(audio_init__1__5__i << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8);
 
         else
           printf("monitor %s not in devmask %#x\n", (const void *)cf_monitor, devmask);
@@ -7475,15 +7475,15 @@ void audio_show(void)
 {
   signed int recsrc = 0;
   printf("audio_show: ctl_fd %d\n", ctl_fd);
-  signed int return_value_ioctl$3;
-  return_value_ioctl$3=ioctl(ctl_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(0xff << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &recsrc);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_ioctl$3 == -1)
+  signed int return_value_ioctl_3;
+  return_value_ioctl_3=ioctl(ctl_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(77 << 0 + 8) | (unsigned int)(0xff << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &recsrc);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_ioctl_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    printf("SOUND_MIXER_READ_RECSRC: %s\n", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    printf("SOUND_MIXER_READ_RECSRC: %s\n", return_value_strerror_2);
   }
 
 }
@@ -7495,18 +7495,18 @@ extern void auth_agekeys(void)
   struct savekey *sk;
   struct savekey *i_dl_nextiter;
   sk = key_listhead.llink.f;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(sk == &key_listhead))
     {
       i_dl_nextiter = sk->llink.f;
-      tmp_if_expr$1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if(sk->lifetime >= 1ul)
@@ -7534,18 +7534,18 @@ extern void auth_delkeys(void)
   struct savekey *sk;
   struct savekey *i_dl_nextiter;
   sk = key_listhead.llink.f;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(sk == &key_listhead))
     {
       i_dl_nextiter = sk->llink.f;
-      tmp_if_expr$1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if(!(sk->keyid >= 65536u))
@@ -7607,11 +7607,11 @@ extern signed int auth_havekey(unsigned int id)
 // file authkeys.c line 214
 static inline unsigned short int auth_log2(double x)
 {
-  double return_value_log10$1;
-  return_value_log10$1=log10(x);
-  double return_value_log10$2;
-  return_value_log10$2=log10((double)2);
-  return (unsigned short int)(return_value_log10$1 / return_value_log10$2);
+  double return_value_log10_1;
+  return_value_log10_1=log10(x);
+  double return_value_log10_2;
+  return_value_log10_2=log10((double)2);
+  return (unsigned short int)(return_value_log10_1 / return_value_log10_2);
 }
 
 // auth_moremem
@@ -7620,9 +7620,9 @@ extern void auth_moremem(signed int keycount)
 {
   struct savekey *sk;
   signed int i = keycount > 0 ? keycount : 16;
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)0, (unsigned long int)i * sizeof(struct savekey) /*56ul*/  + (unsigned long int)0, (unsigned long int)0, 1);
-  sk = (struct savekey *)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)0, (unsigned long int)i * sizeof(struct savekey) /*56ul*/  + (unsigned long int)0, (unsigned long int)0, 1);
+  sk = (struct savekey *)return_value_ereallocz_1;
   authnumfreekeys = authnumfreekeys + i;
   for( ; i >= 1; sk = sk + 1l)
   {
@@ -7660,32 +7660,32 @@ static void auth_resize_hashtable(void)
   unsigned long int newalloc;
   struct savekey *sk;
   totalkeys = authnumkeys + (unsigned long int)authnumfreekeys;
-  unsigned short int return_value_auth_log2$1;
-  return_value_auth_log2$1=auth_log2((double)totalkeys / 4.0);
-  hashbits = (unsigned short int)((signed int)return_value_auth_log2$1 + 1);
+  unsigned short int return_value_auth_log2_1;
+  return_value_auth_log2_1=auth_log2((double)totalkeys / 4.0);
+  hashbits = (unsigned short int)((signed int)return_value_auth_log2_1 + 1);
   hashbits = (unsigned short int)(4 > (signed int)hashbits ? 4 : (signed int)hashbits);
   hashbits = (unsigned short int)(15 < (signed int)hashbits ? 15 : (signed int)hashbits);
   authhashbuckets = (unsigned short int)(1 << (signed int)hashbits);
   authhashmask = (unsigned short int)((signed int)authhashbuckets - 1);
   newalloc = (unsigned long int)authhashbuckets * sizeof(struct savekey *) /*8ul*/ ;
-  void *return_value_ereallocz$2;
-  return_value_ereallocz$2=ereallocz((void *)key_hash, newalloc, (unsigned long int)0, 0);
-  key_hash = (struct savekey **)return_value_ereallocz$2;
+  void *return_value_ereallocz_2;
+  return_value_ereallocz_2=ereallocz((void *)key_hash, newalloc, (unsigned long int)0, 0);
+  key_hash = (struct savekey **)return_value_ereallocz_2;
   memset((void *)key_hash, 0, newalloc);
   struct savekey *i_dl_nextiter;
   sk = key_listhead.llink.f;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   do
   {
     if(!(sk == &key_listhead))
     {
       i_dl_nextiter = sk->llink.f;
-      tmp_if_expr$3 = 1 != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = 1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(!tmp_if_expr_3)
       break;
 
     hash = (unsigned short int)(sk->keyid & (unsigned int)authhashmask);
@@ -7705,24 +7705,24 @@ static void auth_resize_hashtable(void)
 extern signed int authdecrypt(unsigned int keyno, unsigned int *pkt, signed int length, signed int size)
 {
   authdecryptions = authdecryptions + 1ul;
-  _Bool tmp_if_expr$2;
-  signed int return_value_authhavekey$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_authhavekey_1;
   if(keyno == 0u)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_authhavekey$1=authhavekey(keyno);
-    tmp_if_expr$2 = !(return_value_authhavekey$1 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_authhavekey_1=authhavekey(keyno);
+    tmp_if_expr_2 = !(return_value_authhavekey_1 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(!(size >= 4) || tmp_if_expr$2)
+  if(!(size >= 4) || tmp_if_expr_2)
     return 0;
 
   else
   {
-    signed int return_value_MD5authdecrypt$3;
-    return_value_MD5authdecrypt$3=MD5authdecrypt(cache_type, cache_secret, pkt, length, size);
-    return return_value_MD5authdecrypt$3;
+    signed int return_value_MD5authdecrypt_3;
+    return_value_MD5authdecrypt_3=MD5authdecrypt(cache_type, cache_secret, pkt, length, size);
+    return return_value_MD5authdecrypt_3;
   }
 }
 
@@ -7737,16 +7737,16 @@ extern signed int authencrypt(unsigned int keyno, unsigned int *pkt, signed int 
 
   else
   {
-    signed int return_value_authhavekey$1;
-    return_value_authhavekey$1=authhavekey(keyno);
-    if(return_value_authhavekey$1 == 0)
+    signed int return_value_authhavekey_1;
+    return_value_authhavekey_1=authhavekey(keyno);
+    if(return_value_authhavekey_1 == 0)
       return 0;
 
     else
     {
-      signed int return_value_MD5authencrypt$2;
-      return_value_MD5authencrypt$2=MD5authencrypt(cache_type, cache_secret, pkt, length);
-      return return_value_MD5authencrypt$2;
+      signed int return_value_MD5authencrypt_2;
+      return_value_MD5authencrypt_2=MD5authencrypt(cache_type, cache_secret, pkt, length);
+      return return_value_MD5authencrypt_2;
     }
   }
 }
@@ -7807,7 +7807,7 @@ extern signed int authistrusted(unsigned int keyno)
 {
   struct savekey *sk;
   struct savekey **bucket;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(keyno == cache_keyid)
     return (signed int)!(!((0x001 & (signed int)cache_flags) != 0));
 
@@ -7821,11 +7821,11 @@ extern signed int authistrusted(unsigned int keyno)
         break;
 
     if(sk == ((struct savekey *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((0x001 & (signed int)sk->flags) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((0x001 & (signed int)sk->flags) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       authkeynotfound = authkeynotfound + 1ul;
       return 0;
@@ -7878,9 +7878,9 @@ extern signed int authreadkeys(const char *file)
       token=nexttok(&line);
       if(!(token == ((char *)NULL)))
       {
-        signed int return_value_atoi$1;
-        return_value_atoi$1=atoi(token);
-        keyno = (unsigned int)return_value_atoi$1;
+        signed int return_value_atoi_1;
+        return_value_atoi_1=atoi(token);
+        keyno = (unsigned int)return_value_atoi_1;
         if(keyno == 0u)
           log_maybe(&nerr, "authreadkeys: cannot change key %s", token);
 
@@ -7902,11 +7902,11 @@ extern signed int authreadkeys(const char *file)
 
               else
               {
-                const char *return_value_OBJ_nid2sn$2;
-                return_value_OBJ_nid2sn$2=OBJ_nid2sn(keytype);
-                const struct env_md_st *return_value_EVP_get_digestbyname$3;
-                return_value_EVP_get_digestbyname$3=EVP_get_digestbyname(return_value_OBJ_nid2sn$2);
-                if(return_value_EVP_get_digestbyname$3 == ((const struct env_md_st *)NULL))
+                const char *return_value_OBJ_nid2sn_2;
+                return_value_OBJ_nid2sn_2=OBJ_nid2sn(keytype);
+                const struct env_md_st *return_value_EVP_get_digestbyname_3;
+                return_value_EVP_get_digestbyname_3=EVP_get_digestbyname(return_value_OBJ_nid2sn_2);
+                if(return_value_EVP_get_digestbyname_3 == ((const struct env_md_st *)NULL))
                   log_maybe(&nerr, "authreadkeys: no algorithm for key %d", keyno);
 
                 else
@@ -7930,9 +7930,9 @@ extern signed int authreadkeys(const char *file)
                       j = (unsigned long int)0;
                       for( ; !(j >= jlim); j = j + 1ul)
                       {
-                        signed int return_value_tolower$4;
-                        return_value_tolower$4=tolower((signed int)(unsigned char)token[(signed long int)j]);
-                        ptr=strchr(hex, return_value_tolower$4);
+                        signed int return_value_tolower_4;
+                        return_value_tolower_4=tolower((signed int)(unsigned char)token[(signed long int)j]);
+                        ptr=strchr(hex, return_value_tolower_4);
                         if(ptr == ((char *)NULL))
                           break;
 
@@ -8033,9 +8033,9 @@ __CPROVER_DUMP_L11:
 extern signed int authusekey(unsigned int keyno, signed int keytype, const unsigned char *str)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((const char *)str);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((const char *)str);
+  len = (signed int)return_value_strlen_1;
   if(len == 0)
     return 0;
 
@@ -8073,9 +8073,9 @@ extern unsigned int available_blocking_child_slot(void)
   prev_octets = prev_alloc * each;
   new_alloc = blocking_children_alloc + (unsigned long int)4;
   octets = new_alloc * each;
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)blocking_children, octets, prev_octets, 1);
-  blocking_children = (struct blocking_child_tag **)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)blocking_children, octets, prev_octets, 1);
+  blocking_children = (struct blocking_child_tag **)return_value_ereallocz_1;
   blocking_children_alloc = new_alloc;
   return (unsigned int)prev_alloc;
 }
@@ -8097,9 +8097,9 @@ static signed int badopt(const char *mess, signed int ch)
 
 // block_thread_signals
 // file work_thread.c line 502
-static void block_thread_signals(struct anonymous$14 *pmask)
+static void block_thread_signals(struct anonymous_14 *pmask)
 {
-  struct anonymous$14 block;
+  struct anonymous_14 block;
   sigemptyset(&block);
   sigaddset(&block, 14);
   sigaddset(&block, 10);
@@ -8120,8 +8120,8 @@ extern signed int blocking_child_common(struct blocking_child_tag *c)
   signed int say_bye;
   struct blocking_pipe_header_tag *req;
   say_bye = 0;
-  signed int return_value_blocking_getaddrinfo$1;
-  signed int return_value_blocking_getnameinfo$2;
+  signed int return_value_blocking_getaddrinfo_1;
+  signed int return_value_blocking_getnameinfo_2;
   while(say_bye == 0)
   {
     req=receive_blocking_req_internal(c);
@@ -8137,16 +8137,16 @@ extern signed int blocking_child_common(struct blocking_child_tag *c)
       {
         case BLOCKING_GETADDRINFO:
         {
-          return_value_blocking_getaddrinfo$1=blocking_getaddrinfo(c, req);
-          if(!(return_value_blocking_getaddrinfo$1 == 0))
+          return_value_blocking_getaddrinfo_1=blocking_getaddrinfo(c, req);
+          if(!(return_value_blocking_getaddrinfo_1 == 0))
             say_bye = 1;
 
           break;
         }
         case BLOCKING_GETNAMEINFO:
         {
-          return_value_blocking_getnameinfo$2=blocking_getnameinfo(c, req);
-          if(!(return_value_blocking_getnameinfo$2 == 0))
+          return_value_blocking_getnameinfo_2=blocking_getnameinfo(c, req);
+          if(!(return_value_blocking_getnameinfo_2 == 0))
             say_bye = 1;
 
           break;
@@ -8187,10 +8187,10 @@ extern signed int blocking_getaddrinfo(struct blocking_child_tag *c, struct bloc
   worker_ctx=get_worker_context(c, gai_req->dns_idx);
   scheduled_sleep(gai_req->scheduled, gai_req->earliest, worker_ctx);
   reload_resolv_conf(worker_ctx);
-  resp_octets = sizeof(struct blocking_pipe_header_tag) /*40ul*/  + sizeof(struct blocking_gai_resp_tag) /*24ul*/  + (unsigned long int)16 * (sizeof(struct addrinfo) /*48ul*/  + sizeof(union anonymous$47) /*28ul*/ ) + (unsigned long int)256;
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)0, resp_octets, (unsigned long int)0, 1);
-  resp = (struct blocking_pipe_header_tag *)return_value_ereallocz$1;
+  resp_octets = sizeof(struct blocking_pipe_header_tag) /*40ul*/  + sizeof(struct blocking_gai_resp_tag) /*24ul*/  + (unsigned long int)16 * (sizeof(struct addrinfo) /*48ul*/  + sizeof(union anonymous_47) /*28ul*/ ) + (unsigned long int)256;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)0, resp_octets, (unsigned long int)0, 1);
+  resp = (struct blocking_pipe_header_tag *)return_value_ereallocz_1;
   gai_resp = (struct blocking_gai_resp_tag *)(void *)(resp + (signed long int)1);
   do
     if(debug >= 2)
@@ -8200,16 +8200,16 @@ extern signed int blocking_getaddrinfo(struct blocking_child_tag *c, struct bloc
   ai_res = (struct addrinfo *)(void *)0;
   gai_resp->retcode=getaddrinfo(node, service, &gai_req->hints, &ai_res);
   gai_resp->retry = gai_req->retry;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(gai_resp->retcode == -11)
   {
-    return_value___errno_location$2=__errno_location();
-    gai_resp->gai_errno = *return_value___errno_location$2;
+    return_value___errno_location_2=__errno_location();
+    gai_resp->gai_errno = *return_value___errno_location_2;
   }
 
   canons_octets = (unsigned long int)0;
-  unsigned long int return_value_strlen$3;
-  const char *return_value_humantime$4;
+  unsigned long int return_value_strlen_3;
+  const char *return_value_humantime_4;
   if(gai_resp->retcode == 0)
   {
     ai = ai_res;
@@ -8218,8 +8218,8 @@ extern signed int blocking_getaddrinfo(struct blocking_child_tag *c, struct bloc
       gai_resp->ai_count = gai_resp->ai_count + 1;
       if(!(ai->ai_canonname == ((char *)NULL)))
       {
-        return_value_strlen$3=strlen(ai->ai_canonname);
-        canons_octets = canons_octets + return_value_strlen$3 + (unsigned long int)1;
+        return_value_strlen_3=strlen(ai->ai_canonname);
+        canons_octets = canons_octets + return_value_strlen_3 + (unsigned long int)1;
       }
 
       ai = ai->ai_next;
@@ -8231,8 +8231,8 @@ extern signed int blocking_getaddrinfo(struct blocking_child_tag *c, struct bloc
       do
         if(debug >= 1)
         {
-          return_value_humantime$4=humantime(time_now);
-          mprintf("DNS success after retry, ignoring sleeps scheduled before now (%s)\n", return_value_humantime$4);
+          return_value_humantime_4=humantime(time_now);
+          mprintf("DNS success after retry, ignoring sleeps scheduled before now (%s)\n", return_value_humantime_4);
         }
 
       while((_Bool)0);
@@ -8240,11 +8240,11 @@ extern signed int blocking_getaddrinfo(struct blocking_child_tag *c, struct bloc
 
   }
 
-  gai_resp->octets = sizeof(struct blocking_gai_resp_tag) /*24ul*/  + (unsigned long int)gai_resp->ai_count * (sizeof(struct addrinfo) /*48ul*/  + sizeof(union anonymous$47) /*28ul*/ ) + canons_octets;
+  gai_resp->octets = sizeof(struct blocking_gai_resp_tag) /*24ul*/  + (unsigned long int)gai_resp->ai_count * (sizeof(struct addrinfo) /*48ul*/  + sizeof(union anonymous_47) /*28ul*/ ) + canons_octets;
   resp_octets = sizeof(struct blocking_pipe_header_tag) /*40ul*/  + gai_resp->octets;
-  void *return_value_ereallocz$5;
-  return_value_ereallocz$5=ereallocz((void *)resp, resp_octets, (unsigned long int)0, 0);
-  resp = (struct blocking_pipe_header_tag *)return_value_ereallocz$5;
+  void *return_value_ereallocz_5;
+  return_value_ereallocz_5=ereallocz((void *)resp, resp_octets, (unsigned long int)0, 0);
+  resp = (struct blocking_pipe_header_tag *)return_value_ereallocz_5;
   gai_resp = (struct blocking_gai_resp_tag *)(void *)(resp + (signed long int)1);
   cp = (char *)(void *)(gai_resp + (signed long int)1);
   canons_octets = (unsigned long int)0;
@@ -8259,9 +8259,9 @@ extern signed int blocking_getaddrinfo(struct blocking_child_tag *c, struct bloc
       if(!(serialized_ai->ai_canonname == ((char *)NULL)))
       {
         serialized_ai->ai_canonname = (char *)canons_octets;
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(ai->ai_canonname);
-        canons_octets = canons_octets + return_value_strlen$6 + (unsigned long int)1;
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(ai->ai_canonname);
+        canons_octets = canons_octets + return_value_strlen_6 + (unsigned long int)1;
       }
 
     }
@@ -8273,19 +8273,19 @@ extern signed int blocking_getaddrinfo(struct blocking_child_tag *c, struct bloc
 
       else
       {
-        isc_assertion_failed("ntp_intres.c", 423, (enum anonymous$45)isc_assertiontype_insist, "ai->ai_addrlen <= sizeof(sockaddr_u)");
+        isc_assertion_failed("ntp_intres.c", 423, (enum anonymous_45)isc_assertiontype_insist, "ai->ai_addrlen <= sizeof(sockaddr_u)");
         (_Bool)0;
       }
       memcpy((void *)cp, (const void *)ai->ai_addr, (unsigned long int)ai->ai_addrlen);
-      cp = cp + (signed long int)sizeof(union anonymous$47) /*28ul*/ ;
+      cp = cp + (signed long int)sizeof(union anonymous_47) /*28ul*/ ;
     }
     ai = ai_res;
     for( ; !(ai == ((struct addrinfo *)NULL)); ai = ai->ai_next)
       if(!(ai->ai_canonname == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(ai->ai_canonname);
-        this_octets = return_value_strlen$7 + (unsigned long int)1;
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(ai->ai_canonname);
+        this_octets = return_value_strlen_7 + (unsigned long int)1;
         memcpy((void *)cp, (const void *)ai->ai_canonname, this_octets);
         cp = cp + (signed long int)this_octets;
       }
@@ -8296,9 +8296,9 @@ extern signed int blocking_getaddrinfo(struct blocking_child_tag *c, struct bloc
 
 __CPROVER_DUMP_L21:
   ;
-  signed int return_value_queue_blocking_response$8;
-  return_value_queue_blocking_response$8=queue_blocking_response(c, resp, resp_octets, req);
-  if(!(return_value_queue_blocking_response$8 == 0))
+  signed int return_value_queue_blocking_response_8;
+  return_value_queue_blocking_response_8=queue_blocking_response(c, resp, resp_octets, req);
+  if(!(return_value_queue_blocking_response_8 == 0))
   {
     msyslog(3, "blocking_getaddrinfo can not queue response");
     return -1;
@@ -8330,7 +8330,7 @@ extern signed int blocking_getnameinfo(struct blocking_child_tag *c, struct bloc
 
   else
   {
-    isc_assertion_failed("ntp_intres.c", 702, (enum anonymous$45)isc_assertiontype_require, "octets < sizeof(host)");
+    isc_assertion_failed("ntp_intres.c", 702, (enum anonymous_45)isc_assertiontype_require, "octets < sizeof(host)");
     (_Bool)0;
   }
   service = host + (signed long int)gni_req->hostoctets;
@@ -8338,29 +8338,29 @@ extern signed int blocking_getnameinfo(struct blocking_child_tag *c, struct bloc
   scheduled_sleep(gni_req->scheduled, gni_req->earliest, worker_ctx);
   reload_resolv_conf(worker_ctx);
   resp_octets = sizeof(struct blocking_pipe_header_tag) /*40ul*/  + sizeof(struct blocking_gni_resp_tag) /*40ul*/  + octets;
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)0, resp_octets, (unsigned long int)0, 1);
-  resp = (struct blocking_pipe_header_tag *)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)0, resp_octets, (unsigned long int)0, 1);
+  resp = (struct blocking_pipe_header_tag *)return_value_ereallocz_1;
   gni_resp = (struct blocking_gni_resp_tag *)(void *)((char *)resp + (signed long int)sizeof(struct blocking_pipe_header_tag) /*40ul*/ );
-  const char *return_value_socktoa$2;
+  const char *return_value_socktoa_2;
   do
     if(debug >= 2)
     {
-      return_value_socktoa$2=socktoa(&gni_req->socku);
-      mprintf("blocking_getnameinfo given addr %s flags 0x%x hostlen %lu servlen %lu\n", return_value_socktoa$2, gni_req->flags, (unsigned long int)gni_req->hostoctets, (unsigned long int)gni_req->servoctets);
+      return_value_socktoa_2=socktoa(&gni_req->socku);
+      mprintf("blocking_getnameinfo given addr %s flags 0x%x hostlen %lu servlen %lu\n", return_value_socktoa_2, gni_req->flags, (unsigned long int)gni_req->hostoctets, (unsigned long int)gni_req->servoctets);
     }
 
   while((_Bool)0);
   gni_resp->retcode=getnameinfo(&gni_req->socku.sa, (unsigned int)(2 == (signed int)(&gni_req->socku)->sa.sa_family ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ), host, (unsigned int)gni_req->hostoctets, service, (unsigned int)gni_req->servoctets, gni_req->flags);
   gni_resp->retry = gni_req->retry;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   if(gni_resp->retcode == -11)
   {
-    return_value___errno_location$3=__errno_location();
-    gni_resp->gni_errno = *return_value___errno_location$3;
+    return_value___errno_location_3=__errno_location();
+    gni_resp->gni_errno = *return_value___errno_location_3;
   }
 
-  const char *return_value_humantime$6;
+  const char *return_value_humantime_6;
   if(!(gni_resp->retcode == 0))
   {
     gni_resp->hostoctets = (unsigned long int)0;
@@ -8369,12 +8369,12 @@ extern signed int blocking_getnameinfo(struct blocking_child_tag *c, struct bloc
 
   else
   {
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(host);
-    gni_resp->hostoctets = return_value_strlen$4 + (unsigned long int)1;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(service);
-    gni_resp->servoctets = return_value_strlen$5 + (unsigned long int)1;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(host);
+    gni_resp->hostoctets = return_value_strlen_4 + (unsigned long int)1;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(service);
+    gni_resp->servoctets = return_value_strlen_5 + (unsigned long int)1;
     if(gni_req->retry >= 3)
     {
       time_now=time((signed long int *)(void *)0);
@@ -8382,8 +8382,8 @@ extern signed int blocking_getnameinfo(struct blocking_child_tag *c, struct bloc
       do
         if(debug >= 1)
         {
-          return_value_humantime$6=humantime(time_now);
-          mprintf("DNS success after retrying, ignoring sleeps scheduled before now (%s)\n", return_value_humantime$6);
+          return_value_humantime_6=humantime(time_now);
+          mprintf("DNS success after retrying, ignoring sleeps scheduled before now (%s)\n", return_value_humantime_6);
         }
 
       while((_Bool)0);
@@ -8392,9 +8392,9 @@ extern signed int blocking_getnameinfo(struct blocking_child_tag *c, struct bloc
   }
   octets = gni_resp->hostoctets + gni_resp->servoctets;
   resp_octets = sizeof(struct blocking_pipe_header_tag) /*40ul*/  + sizeof(struct blocking_gni_resp_tag) /*40ul*/  + octets;
-  void *return_value_ereallocz$7;
-  return_value_ereallocz$7=ereallocz((void *)resp, resp_octets, (unsigned long int)0, 0);
-  resp = (struct blocking_pipe_header_tag *)return_value_ereallocz$7;
+  void *return_value_ereallocz_7;
+  return_value_ereallocz_7=ereallocz((void *)resp, resp_octets, (unsigned long int)0, 0);
+  resp = (struct blocking_pipe_header_tag *)return_value_ereallocz_7;
   gni_resp = (struct blocking_gni_resp_tag *)(void *)(resp + (signed long int)1);
   gni_resp->octets = sizeof(struct blocking_gni_resp_tag) /*40ul*/  + octets;
   cp = (char *)(void *)(gni_resp + (signed long int)1);
@@ -8411,7 +8411,7 @@ extern signed int blocking_getnameinfo(struct blocking_child_tag *c, struct bloc
 
   else
   {
-    isc_assertion_failed("ntp_intres.c", 778, (enum anonymous$45)isc_assertiontype_insist, "(size_t)(cp - (char *)resp) == resp_octets");
+    isc_assertion_failed("ntp_intres.c", 778, (enum anonymous_45)isc_assertiontype_insist, "(size_t)(cp - (char *)resp) == resp_octets");
     (_Bool)0;
   }
   if(resp_octets + 18446744073709551576ul == gni_resp->octets)
@@ -8419,7 +8419,7 @@ extern signed int blocking_getnameinfo(struct blocking_child_tag *c, struct bloc
 
   else
   {
-    isc_assertion_failed("ntp_intres.c", 779, (enum anonymous$45)isc_assertiontype_insist, "resp_octets - sizeof(*resp) == gni_resp->octets");
+    isc_assertion_failed("ntp_intres.c", 779, (enum anonymous_45)isc_assertiontype_insist, "resp_octets - sizeof(*resp) == gni_resp->octets");
     (_Bool)0;
   }
   rc=queue_blocking_response(c, resp, resp_octets, req);
@@ -8434,15 +8434,15 @@ extern signed int blocking_getnameinfo(struct blocking_child_tag *c, struct bloc
 void * blocking_thread(void *ThreadArg)
 {
   struct blocking_child_tag *c = (struct blocking_child_tag *)ThreadArg;
-  signed int return_value_blocking_child_common$1;
-  return_value_blocking_child_common$1=blocking_child_common(c);
-  exit_worker(return_value_blocking_child_common$1);
+  signed int return_value_blocking_child_common_1;
+  return_value_blocking_child_common_1=blocking_child_common(c);
+  exit_worker(return_value_blocking_child_common_1);
   return NULL;
 }
 
 // buftvtots
 // file buftvtots.c line 16
-extern signed int buftvtots(const char *bufp, struct anonymous$38 *ts)
+extern signed int buftvtots(const char *bufp, struct anonymous_38 *ts)
 {
   struct timeval tv;
   memcpy((void *)&tv, (const void *)bufp, sizeof(struct timeval) /*16ul*/ );
@@ -8461,12 +8461,12 @@ extern signed int buftvtots(const char *bufp, struct anonymous$38 *ts)
 static void byteSwap(unsigned int *buf, unsigned int words)
 {
   unsigned char *p = (unsigned char *)buf;
-  unsigned int *tmp_post$1;
+  unsigned int *tmp_post_1;
   do
   {
-    tmp_post$1 = buf;
+    tmp_post_1 = buf;
     buf = buf + 1l;
-    *tmp_post$1 = (unsigned int)((unsigned int)p[(signed long int)3] << 8 | (unsigned int)p[(signed long int)2]) << 16 | (unsigned int)p[(signed long int)1] << 8 | (unsigned int)p[(signed long int)0];
+    *tmp_post_1 = (unsigned int)((unsigned int)p[(signed long int)3] << 8 | (unsigned int)p[(signed long int)2]) << 16 | (unsigned int)p[(signed long int)1] << 8 | (unsigned int)p[(signed long int)0];
     p = p + (signed long int)4;
     words = words - 1u;
   }
@@ -8477,8 +8477,8 @@ static void byteSwap(unsigned int *buf, unsigned int words)
 // file calyearstart.c line 79
 extern unsigned int caldaystart(unsigned int ntptime, const signed long int *pivot)
 {
-  union anonymous$44 vlong;
-  struct anonymous$61 split;
+  union anonymous_44 vlong;
+  struct anonymous_61 split;
   vlong=ntpcal_ntp_to_ntp(ntptime, pivot);
   split=ntpcal_daysplit(&vlong);
   return ntptime - (unsigned int)split.lo;
@@ -8488,14 +8488,14 @@ extern unsigned int caldaystart(unsigned int ntptime, const signed long int *piv
 // file caljulian.c line 22
 extern void caljulian(unsigned int ntp, struct calendar *jt)
 {
-  union anonymous$44 vlong;
-  struct anonymous$61 split;
+  union anonymous_44 vlong;
+  struct anonymous_61 split;
   if(!(jt == ((struct calendar *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("caljulian.c", 31, (enum anonymous$45)isc_assertiontype_insist, "((void *)0) != jt");
+    isc_assertion_failed("caljulian.c", 31, (enum anonymous_45)isc_assertiontype_insist, "((void *)0) != jt");
     (_Bool)0;
   }
   vlong=ntpcal_ntp_to_ntp(ntp, (const signed long int *)(void *)0);
@@ -8508,13 +8508,13 @@ extern void caljulian(unsigned int ntp, struct calendar *jt)
 extern unsigned int calmonthstart(unsigned int ntptime, const signed long int *pivot)
 {
   unsigned int ndays;
-  union anonymous$44 vlong;
-  struct anonymous$61 split;
+  union anonymous_44 vlong;
+  struct anonymous_61 split;
   vlong=ntpcal_ntp_to_ntp(ntptime, pivot);
   split=ntpcal_daysplit(&vlong);
-  signed int return_value_ntpcal_rd_to_mstart$1;
-  return_value_ntpcal_rd_to_mstart$1=ntpcal_rd_to_mstart(split.hi + 693596);
-  ndays = (unsigned int)(return_value_ntpcal_rd_to_mstart$1 - 693596);
+  signed int return_value_ntpcal_rd_to_mstart_1;
+  return_value_ntpcal_rd_to_mstart_1=ntpcal_rd_to_mstart(split.hi + 693596);
+  ndays = (unsigned int)(return_value_ntpcal_rd_to_mstart_1 - 693596);
   return (unsigned int)(ndays * (unsigned int)(60 * 60 * 24));
 }
 
@@ -8523,13 +8523,13 @@ extern unsigned int calmonthstart(unsigned int ntptime, const signed long int *p
 extern unsigned int caltontp(struct calendar *jt)
 {
   signed int eraday;
-  union anonymous$44 ntptime;
+  union anonymous_44 ntptime;
   if(!(jt == ((struct calendar *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("caltontp.c", 43, (enum anonymous$45)isc_assertiontype_require, "jt != ((void *)0)");
+    isc_assertion_failed("caltontp.c", 43, (enum anonymous_45)isc_assertiontype_require, "jt != ((void *)0)");
     (_Bool)0;
   }
   if(!((signed int)jt->month >= 14))
@@ -8537,7 +8537,7 @@ extern unsigned int caltontp(struct calendar *jt)
 
   else
   {
-    isc_assertion_failed("caltontp.c", 45, (enum anonymous$45)isc_assertiontype_require, "jt->month <= 13");
+    isc_assertion_failed("caltontp.c", 45, (enum anonymous_45)isc_assertiontype_require, "jt->month <= 13");
     (_Bool)0;
   }
   if(!((signed int)jt->monthday >= 33))
@@ -8545,7 +8545,7 @@ extern unsigned int caltontp(struct calendar *jt)
 
   else
   {
-    isc_assertion_failed("caltontp.c", 46, (enum anonymous$45)isc_assertiontype_require, "jt->monthday <= 32");
+    isc_assertion_failed("caltontp.c", 46, (enum anonymous_45)isc_assertiontype_require, "jt->monthday <= 32");
     (_Bool)0;
   }
   if(!((signed int)jt->yearday >= 367))
@@ -8553,7 +8553,7 @@ extern unsigned int caltontp(struct calendar *jt)
 
   else
   {
-    isc_assertion_failed("caltontp.c", 47, (enum anonymous$45)isc_assertiontype_require, "jt->yearday <= 366");
+    isc_assertion_failed("caltontp.c", 47, (enum anonymous_45)isc_assertiontype_require, "jt->yearday <= 366");
     (_Bool)0;
   }
   if(!((signed int)jt->hour >= 25))
@@ -8561,7 +8561,7 @@ extern unsigned int caltontp(struct calendar *jt)
 
   else
   {
-    isc_assertion_failed("caltontp.c", 48, (enum anonymous$45)isc_assertiontype_require, "jt->hour <= 24");
+    isc_assertion_failed("caltontp.c", 48, (enum anonymous_45)isc_assertiontype_require, "jt->hour <= 24");
     (_Bool)0;
   }
   if(!((signed int)jt->minute >= 61))
@@ -8569,7 +8569,7 @@ extern unsigned int caltontp(struct calendar *jt)
 
   else
   {
-    isc_assertion_failed("caltontp.c", 49, (enum anonymous$45)isc_assertiontype_require, "jt->minute <= (60)");
+    isc_assertion_failed("caltontp.c", 49, (enum anonymous_45)isc_assertiontype_require, "jt->minute <= (60)");
     (_Bool)0;
   }
   if(!((signed int)jt->second >= 61))
@@ -8577,21 +8577,21 @@ extern unsigned int caltontp(struct calendar *jt)
 
   else
   {
-    isc_assertion_failed("caltontp.c", 50, (enum anonymous$45)isc_assertiontype_require, "jt->second <= (60)");
+    isc_assertion_failed("caltontp.c", 50, (enum anonymous_45)isc_assertiontype_require, "jt->second <= (60)");
     (_Bool)0;
   }
-  signed int return_value_ntpcal_year_to_ystart$1;
+  signed int return_value_ntpcal_year_to_ystart_1;
   if(!(jt->yearday == 0))
   {
-    return_value_ntpcal_year_to_ystart$1=ntpcal_year_to_ystart((signed int)jt->year);
-    eraday = (return_value_ntpcal_year_to_ystart$1 + (signed int)jt->yearday) - 1;
+    return_value_ntpcal_year_to_ystart_1=ntpcal_year_to_ystart((signed int)jt->year);
+    eraday = (return_value_ntpcal_year_to_ystart_1 + (signed int)jt->yearday) - 1;
   }
 
   else
     eraday=ntpcal_date_to_rd(jt);
-  signed int return_value_ntpcal_etime_to_seconds$2;
-  return_value_ntpcal_etime_to_seconds$2=ntpcal_etime_to_seconds((signed int)jt->hour, (signed int)jt->minute, (signed int)jt->second);
-  ntptime=ntpcal_dayjoin(eraday - 693596, return_value_ntpcal_etime_to_seconds$2);
+  signed int return_value_ntpcal_etime_to_seconds_2;
+  return_value_ntpcal_etime_to_seconds_2=ntpcal_etime_to_seconds((signed int)jt->hour, (signed int)jt->minute, (signed int)jt->second);
+  ntptime=ntpcal_dayjoin(eraday - 693596, return_value_ntpcal_etime_to_seconds_2);
   return ntptime.d_s.lo;
 }
 
@@ -8600,13 +8600,13 @@ extern unsigned int caltontp(struct calendar *jt)
 extern unsigned int calweekstart(unsigned int ntptime, const signed long int *pivot)
 {
   unsigned int ndays;
-  union anonymous$44 vlong;
-  struct anonymous$61 split;
+  union anonymous_44 vlong;
+  struct anonymous_61 split;
   vlong=ntpcal_ntp_to_ntp(ntptime, pivot);
   split=ntpcal_daysplit(&vlong);
-  signed int return_value_ntpcal_weekday_le$1;
-  return_value_ntpcal_weekday_le$1=ntpcal_weekday_le(split.hi + 693596, 1);
-  ndays = (unsigned int)(return_value_ntpcal_weekday_le$1 - 693596);
+  signed int return_value_ntpcal_weekday_le_1;
+  return_value_ntpcal_weekday_le_1=ntpcal_weekday_le(split.hi + 693596, 1);
+  ndays = (unsigned int)(return_value_ntpcal_weekday_le_1 - 693596);
   return (unsigned int)(ndays * (unsigned int)(60 * 60 * 24));
 }
 
@@ -8615,13 +8615,13 @@ extern unsigned int calweekstart(unsigned int ntptime, const signed long int *pi
 extern unsigned int calyearstart(unsigned int ntptime, const signed long int *pivot)
 {
   unsigned int ndays;
-  union anonymous$44 vlong;
-  struct anonymous$61 split;
+  union anonymous_44 vlong;
+  struct anonymous_61 split;
   vlong=ntpcal_ntp_to_ntp(ntptime, pivot);
   split=ntpcal_daysplit(&vlong);
-  signed int return_value_ntpcal_rd_to_ystart$1;
-  return_value_ntpcal_rd_to_ystart$1=ntpcal_rd_to_ystart(split.hi + 693596);
-  ndays = (unsigned int)(return_value_ntpcal_rd_to_ystart$1 - 693596);
+  signed int return_value_ntpcal_rd_to_ystart_1;
+  return_value_ntpcal_rd_to_ystart_1=ntpcal_rd_to_ystart(split.hi + 693596);
+  ndays = (unsigned int)(return_value_ntpcal_rd_to_ystart_1 - 693596);
   return (unsigned int)(ndays * (unsigned int)(60 * 60 * 24));
 }
 
@@ -8629,9 +8629,9 @@ extern unsigned int calyearstart(unsigned int ntptime, const signed long int *pi
 // file statestr.c line 496
 extern const char * ceventstr(signed int num)
 {
-  const char *return_value_getcode$1;
-  return_value_getcode$1=getcode(num, clock_codes);
-  return return_value_getcode$1;
+  const char *return_value_getcode_1;
+  return_value_getcode_1=getcode(num, clock_codes);
+  return return_value_getcode_1;
 }
 
 // change_logfile
@@ -8649,26 +8649,26 @@ extern signed int change_logfile(const char *fname, signed int leave_crumbs)
 
   else
   {
-    isc_assertion_failed("msyslog.c", 469, (enum anonymous$45)isc_assertiontype_require, "fname != ((void *)0)");
+    isc_assertion_failed("msyslog.c", 469, (enum anonymous_45)isc_assertiontype_require, "fname != ((void *)0)");
     (_Bool)0;
   }
   log_fname = fname;
-  signed int return_value_strcmp$1;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcmp$8;
-  _Bool tmp_if_expr$11;
-  char *return_value_getcwd$10;
-  signed int return_value_fileno$14;
-  signed int return_value_fileno$15;
+  signed int return_value_strcmp_1;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcmp_8;
+  _Bool tmp_if_expr_11;
+  char *return_value_getcwd_10;
+  signed int return_value_fileno_14;
+  signed int return_value_fileno_15;
   if(!(syslog_fname == ((char *)NULL)) && !(syslog_file == ((struct _IO_FILE *)NULL)))
   {
-    return_value_strcmp$1=strcmp(syslog_fname, log_fname);
-    if(!(return_value_strcmp$1 == 0))
+    return_value_strcmp_1=strcmp(syslog_fname, log_fname);
+    if(!(return_value_strcmp_1 == 0))
       goto __CPROVER_DUMP_L4;
 
     return 0;
@@ -8679,9 +8679,9 @@ extern signed int change_logfile(const char *fname, signed int leave_crumbs)
 
   __CPROVER_DUMP_L4:
     ;
-    signed int return_value_strcmp$13;
-    return_value_strcmp$13=strcmp(log_fname, "stderr");
-    if(return_value_strcmp$13 == 0)
+    signed int return_value_strcmp_13;
+    return_value_strcmp_13=strcmp(log_fname, "stderr");
+    if(return_value_strcmp_13 == 0)
     {
       new_file = stderr;
       abs_fname=estrdup_impl(log_fname);
@@ -8689,8 +8689,8 @@ extern signed int change_logfile(const char *fname, signed int leave_crumbs)
 
     else
     {
-      return_value_strcmp$12=strcmp(log_fname, "stdout");
-      if(return_value_strcmp$12 == 0)
+      return_value_strcmp_12=strcmp(log_fname, "stdout");
+      if(return_value_strcmp_12 == 0)
       {
         new_file = stdout;
         abs_fname=estrdup_impl(log_fname);
@@ -8700,42 +8700,42 @@ extern signed int change_logfile(const char *fname, signed int leave_crumbs)
       {
         if(!(syslog_fname == ((char *)NULL)))
         {
-          return_value_strcmp$2=strcmp(log_fname, syslog_fname);
-          if(return_value_strcmp$2 == 0)
+          return_value_strcmp_2=strcmp(log_fname, syslog_fname);
+          if(return_value_strcmp_2 == 0)
             log_fname = syslog_abs_fname;
 
         }
 
         if(!(log_fname == syslog_abs_fname))
-          tmp_if_expr$5 = 47 != (signed int)log_fname[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = 47 != (signed int)log_fname[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
-          return_value_strcmp$6=strcmp(log_fname, "stderr");
-          tmp_if_expr$7 = 0 != return_value_strcmp$6 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_6=strcmp(log_fname, "stderr");
+          tmp_if_expr_7 = 0 != return_value_strcmp_6 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
         {
-          return_value_strcmp$8=strcmp(log_fname, "stdout");
-          tmp_if_expr$9 = 0 != return_value_strcmp$8 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_8=strcmp(log_fname, "stdout");
+          tmp_if_expr_9 = 0 != return_value_strcmp_8 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
         {
-          return_value_getcwd$10=getcwd(curdir, sizeof(char [512l]) /*512ul*/ );
-          tmp_if_expr$11 = (char *)(void *)0 != return_value_getcwd$10 ? (_Bool)1 : (_Bool)0;
+          return_value_getcwd_10=getcwd(curdir, sizeof(char [512l]) /*512ul*/ );
+          tmp_if_expr_11 = (char *)(void *)0 != return_value_getcwd_10 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        if(tmp_if_expr$11)
+          tmp_if_expr_11 = (_Bool)0;
+        if(tmp_if_expr_11)
         {
           cd_octets=strlen(curdir);
           if(cd_octets >= 2ul)
@@ -8747,13 +8747,13 @@ extern signed int change_logfile(const char *fname, signed int leave_crumbs)
 
           octets = cd_octets;
           octets = octets + (unsigned long int)1;
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(log_fname);
-          octets = octets + return_value_strlen$3;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(log_fname);
+          octets = octets + return_value_strlen_3;
           octets = octets + (unsigned long int)1;
-          void *return_value_ereallocz$4;
-          return_value_ereallocz$4=ereallocz((void *)0, octets, (unsigned long int)0, 0);
-          abs_fname = (char *)return_value_ereallocz$4;
+          void *return_value_ereallocz_4;
+          return_value_ereallocz_4=ereallocz((void *)0, octets, (unsigned long int)0, 0);
+          abs_fname = (char *)return_value_ereallocz_4;
           snprintf(abs_fname, octets, "%.*s%c%s", (signed int)cd_octets, (const void *)curdir, 47, log_fname);
         }
 
@@ -8780,9 +8780,9 @@ extern signed int change_logfile(const char *fname, signed int leave_crumbs)
 
       if(!(syslog_file == ((struct _IO_FILE *)NULL)) && !(syslog_file == stderr) && !(syslog_file == stdout))
       {
-        return_value_fileno$14=fileno(syslog_file);
-        return_value_fileno$15=fileno(new_file);
-        if(!(return_value_fileno$14 == return_value_fileno$15))
+        return_value_fileno_14=fileno(syslog_file);
+        return_value_fileno_15=fileno(new_file);
+        if(!(return_value_fileno_14 == return_value_fileno_15))
           fclose(syslog_file);
 
       }
@@ -8923,9 +8923,9 @@ extern void close_all_beyond(signed int keep_fd)
 {
   signed int fd;
   signed int max_fd;
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(4);
-  max_fd = (signed int)return_value_sysconf$1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(4);
+  max_fd = (signed int)return_value_sysconf_1;
   fd = keep_fd + 1;
   for( ; !(fd >= max_fd); fd = fd + 1)
     close(fd);
@@ -8954,20 +8954,20 @@ static inline signed int cmp_tspec(struct timespec a, struct timespec b)
 
 // common_prettydate
 // file prettydate.c line 155
-static char * common_prettydate(struct anonymous$38 *ts, signed int local)
+static char * common_prettydate(struct anonymous_38 *ts, signed int local)
 {
   char *bp;
   struct tm *tm;
   unsigned int msec;
   unsigned int ntps;
-  union anonymous$44 sec;
-  signed int tmp_post$1;
+  union anonymous_44 sec;
+  signed int tmp_post_1;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$1 = lib_nextbuf;
+    tmp_post_1 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    bp = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+    bp = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
@@ -8981,7 +8981,7 @@ static char * common_prettydate(struct anonymous$38 *ts, signed int local)
 
   sec=ntpcal_ntp_to_time(ntps, (const signed long int *)(void *)0);
   tm=get_struct_tm(&sec, local);
-  const char *tmp_if_expr$2;
+  const char *tmp_if_expr_2;
   static const char pfmt0[47l] = { '%', '0', '8', 'l', 'x', '.', '%', '0', '8', 'l', 'x', ' ', ' ', '%', 's', ',', ' ', '%', 's', ' ', '%', '2', 'd', ' ', '%', '4', 'd', ' ', '%', '2', 'd', ':', '%', '0', '2', 'd', ':', '%', '0', '2', 'd', '.', '%', '0', '3', 'u', 0 };
   if(tm == ((struct tm *)NULL))
   {
@@ -8989,11 +8989,11 @@ static char * common_prettydate(struct anonymous$38 *ts, signed int local)
     ntpcal_time_to_date(&jd, &sec);
     static const char pfmt1[52l] = { '%', '0', '8', 'l', 'x', '.', '%', '0', '8', 'l', 'x', ' ', '[', '%', 's', ',', ' ', '%', 's', ' ', '%', '2', 'd', ' ', '%', '4', 'd', ' ', '%', '2', 'd', ':', '%', '0', '2', 'd', ':', '%', '0', '2', 'd', '.', '%', '0', '3', 'u', ' ', 'U', 'T', 'C', ']', 0 };
     if(!(local == 0))
-      tmp_if_expr$2 = pfmt1;
+      tmp_if_expr_2 = pfmt1;
 
     else
-      tmp_if_expr$2 = pfmt0;
-    snprintf(bp, (unsigned long int)128, tmp_if_expr$2, (unsigned long int)ts->Ul_i.Xl_ui, (unsigned long int)ts->l_uf, daynames[(signed long int)jd.weekday], months[(signed long int)((signed int)jd.month - 1)], jd.monthday, jd.year, jd.hour, jd.minute, jd.second, msec);
+      tmp_if_expr_2 = pfmt0;
+    snprintf(bp, (unsigned long int)128, tmp_if_expr_2, (unsigned long int)ts->Ul_i.Xl_ui, (unsigned long int)ts->l_uf, daynames[(signed long int)jd.weekday], months[(signed long int)((signed int)jd.month - 1)], jd.monthday, jd.year, jd.hour, jd.minute, jd.second, msec);
   }
 
   else
@@ -9003,7 +9003,7 @@ static char * common_prettydate(struct anonymous$38 *ts, signed int local)
 
 // convertLFPToRefID
 // file refidsmear.c line 36
-extern unsigned int convertLFPToRefID(struct anonymous$38 num)
+extern unsigned int convertLFPToRefID(struct anonymous_38 num)
 {
   unsigned int temp;
   do
@@ -9016,16 +9016,16 @@ extern unsigned int convertLFPToRefID(struct anonymous$38 num)
   num.Ul_i.Xl_ui = num.Ul_i.Xl_ui & (unsigned int)3;
   temp = num.Ul_i.Xl_ui << 22 | num.l_uf >> 10;
   temp = temp | 0xFE000000U;
-  unsigned int return_value_htonl$1;
-  return_value_htonl$1=htonl(temp);
-  return return_value_htonl$1;
+  unsigned int return_value_htonl_1;
+  return_value_htonl_1=htonl(temp);
+  return return_value_htonl_1;
 }
 
 // convertRefIDToLFP
 // file refidsmear.c line 18
-extern struct anonymous$38 convertRefIDToLFP(unsigned int r)
+extern struct anonymous_38 convertRefIDToLFP(unsigned int r)
 {
-  struct anonymous$38 temp;
+  struct anonymous_38 temp;
   r=ntohl(r);
   temp.l_uf = r << 10;
   temp.Ul_i.Xl_ui = r >> 22 & (unsigned int)0x3;
@@ -9041,7 +9041,7 @@ struct addrinfo * copy_addrinfo_common(struct addrinfo *src, signed int just_one
   struct addrinfo *ai_nxt;
   struct addrinfo *ai_cpy;
   struct addrinfo *dst;
-  union anonymous$47 *psau;
+  union anonymous_47 *psau;
   char *pcanon;
   unsigned int elements;
   unsigned long int octets;
@@ -9050,7 +9050,7 @@ struct addrinfo * copy_addrinfo_common(struct addrinfo *src, signed int just_one
   elements = (unsigned int)0;
   canons_octets = (unsigned long int)0;
   ai_src = src;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   for( ; !(ai_src == ((struct addrinfo *)NULL)); ai_src = ai_nxt)
   {
     if(!(just_one == 0))
@@ -9061,18 +9061,18 @@ struct addrinfo * copy_addrinfo_common(struct addrinfo *src, signed int just_one
     elements = elements + 1u;
     if(!(ai_src->ai_canonname == ((char *)NULL)))
     {
-      return_value_strlen$1=strlen(ai_src->ai_canonname);
-      canons_octets = canons_octets + (unsigned long int)1 + return_value_strlen$1;
+      return_value_strlen_1=strlen(ai_src->ai_canonname);
+      canons_octets = canons_octets + (unsigned long int)1 + return_value_strlen_1;
     }
 
   }
-  octets = (unsigned long int)elements * (sizeof(struct addrinfo) /*48ul*/  + sizeof(union anonymous$47) /*28ul*/ );
+  octets = (unsigned long int)elements * (sizeof(struct addrinfo) /*48ul*/  + sizeof(union anonymous_47) /*28ul*/ );
   octets = octets + canons_octets;
-  void *return_value_ereallocz$2;
-  return_value_ereallocz$2=ereallocz((void *)0, octets, (unsigned long int)0, 1);
-  dst = (struct addrinfo *)return_value_ereallocz$2;
+  void *return_value_ereallocz_2;
+  return_value_ereallocz_2=ereallocz((void *)0, octets, (unsigned long int)0, 1);
+  dst = (struct addrinfo *)return_value_ereallocz_2;
   ai_cpy = dst;
-  psau = (union anonymous$47 *)(void *)(ai_cpy + (signed long int)elements);
+  psau = (union anonymous_47 *)(void *)(ai_cpy + (signed long int)elements);
   pcanon = (char *)(void *)(psau + (signed long int)elements);
   ai_src = src;
   for( ; !(ai_src == ((struct addrinfo *)NULL)); ai_src = ai_nxt)
@@ -9088,7 +9088,7 @@ struct addrinfo * copy_addrinfo_common(struct addrinfo *src, signed int just_one
 
     else
     {
-      isc_assertion_failed("ntp_rfc2553.c", 206, (enum anonymous$45)isc_assertiontype_require, "ai_src->ai_addrlen <= sizeof(sockaddr_u)");
+      isc_assertion_failed("ntp_rfc2553.c", 206, (enum anonymous_45)isc_assertiontype_require, "ai_src->ai_addrlen <= sizeof(sockaddr_u)");
       (_Bool)0;
     }
     memcpy((void *)psau, (const void *)ai_src->ai_addr, (unsigned long int)ai_src->ai_addrlen);
@@ -9097,9 +9097,9 @@ struct addrinfo * copy_addrinfo_common(struct addrinfo *src, signed int just_one
     if(!(ai_cpy->ai_canonname == ((char *)NULL)))
     {
       ai_cpy->ai_canonname = pcanon;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(ai_src->ai_canonname);
-      str_octets = (unsigned long int)1 + return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(ai_src->ai_canonname);
+      str_octets = (unsigned long int)1 + return_value_strlen_3;
       memcpy((void *)pcanon, (const void *)ai_src->ai_canonname, str_octets);
       pcanon = pcanon + (signed long int)str_octets;
     }
@@ -9120,7 +9120,7 @@ struct addrinfo * copy_addrinfo_common(struct addrinfo *src, signed int just_one
 
   else
   {
-    isc_assertion_failed("ntp_rfc2553.c", 224, (enum anonymous$45)isc_assertiontype_ensure, "pcanon == ((char *)dst + octets)");
+    isc_assertion_failed("ntp_rfc2553.c", 224, (enum anonymous_45)isc_assertiontype_ensure, "pcanon == ((char *)dst + octets)");
     (_Bool)0;
   }
   return dst;
@@ -9130,18 +9130,18 @@ struct addrinfo * copy_addrinfo_common(struct addrinfo *src, signed int just_one
 // file ntp_rfc2553.c line 119
 struct addrinfo * copy_addrinfo_impl(struct addrinfo *src)
 {
-  struct addrinfo *return_value_copy_addrinfo_common$1;
-  return_value_copy_addrinfo_common$1=copy_addrinfo_common(src, 1);
-  return return_value_copy_addrinfo_common$1;
+  struct addrinfo *return_value_copy_addrinfo_common_1;
+  return_value_copy_addrinfo_common_1=copy_addrinfo_common(src, 1);
+  return return_value_copy_addrinfo_common_1;
 }
 
 // copy_addrinfo_list_impl
 // file ntp_rfc2553.c line 138
 struct addrinfo * copy_addrinfo_list_impl(struct addrinfo *src)
 {
-  struct addrinfo *return_value_copy_addrinfo_common$1;
-  return_value_copy_addrinfo_common$1=copy_addrinfo_common(src, 0);
-  return return_value_copy_addrinfo_common$1;
+  struct addrinfo *return_value_copy_addrinfo_common_1;
+  return_value_copy_addrinfo_common_1=copy_addrinfo_common(src, 0);
+  return return_value_copy_addrinfo_common_1;
 }
 
 // create_buffers
@@ -9152,9 +9152,9 @@ static void create_buffers(signed int nbufs)
   signed int i;
   signed int abuf = (signed int)((unsigned long int)nbufs + buffer_shortfall);
   buffer_shortfall = (volatile unsigned long int)0;
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)0, (unsigned long int)abuf * sizeof(struct recvbuf) /*2272ul*/ , (unsigned long int)0, 1);
-  bufp = (struct recvbuf *)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)0, (unsigned long int)abuf * sizeof(struct recvbuf) /*2272ul*/ , (unsigned long int)0, 1);
+  bufp = (struct recvbuf *)return_value_ereallocz_1;
   i = 0;
   for( ; !(i >= abuf); i = i + 1)
   {
@@ -9182,16 +9182,16 @@ static const char * decode_bitflags(signed int bits, const char *sep2, struct co
   unsigned long int b;
   signed int rc;
   signed int saved_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  saved_errno = *return_value___errno_location$1;
-  signed int tmp_post$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  saved_errno = *return_value___errno_location_1;
+  signed int tmp_post_2;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$2 = lib_nextbuf;
+    tmp_post_2 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    buf = &lib_stringbuf[(signed long int)tmp_post$2][(signed long int)0];
+    buf = &lib_stringbuf[(signed long int)tmp_post_2][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
@@ -9217,22 +9217,22 @@ static const char * decode_bitflags(signed int bits, const char *sep2, struct co
 
 toosmall:
   ;
-  char *tmp_if_expr$3;
+  char *tmp_if_expr_3;
   if(tab == peer_st_bits)
-    tmp_if_expr$3 = "peer_st";
+    tmp_if_expr_3 = "peer_st";
 
   else
-    tmp_if_expr$3 = tab == k_st_bits ? "kern_st" : "";
-  snprintf(buf, (unsigned long int)128, "decode_bitflags(%s) can't decode 0x%x in %d bytes", tmp_if_expr$3, bits, (signed int)128);
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  *return_value___errno_location$4 = saved_errno;
+    tmp_if_expr_3 = tab == k_st_bits ? "kern_st" : "";
+  snprintf(buf, (unsigned long int)128, "decode_bitflags(%s) can't decode 0x%x in %d bytes", tmp_if_expr_3, bits, (signed int)128);
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  *return_value___errno_location_4 = saved_errno;
   return buf;
 }
 
 // decodenetnum
 // file decodenetnum.c line 24
-extern signed int decodenetnum(const char *num, union anonymous$47 *netnum)
+extern signed int decodenetnum(const char *num, union anonymous_47 *netnum)
 {
   struct addrinfo hints;
   struct addrinfo *ai = (struct addrinfo *)(void *)0;
@@ -9248,17 +9248,17 @@ extern signed int decodenetnum(const char *num, union anonymous$47 *netnum)
 
   else
   {
-    isc_assertion_failed("decodenetnum.c", 38, (enum anonymous$45)isc_assertiontype_require, "num != ((void *)0)");
+    isc_assertion_failed("decodenetnum.c", 38, (enum anonymous_45)isc_assertiontype_require, "num != ((void *)0)");
     (_Bool)0;
   }
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(num);
-  char *return_value_strchr$2;
-  char *tmp_post$3;
-  const char *tmp_post$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_sscanf$5;
-  if(return_value_strlen$1 >= sizeof(char [80l]) /*80ul*/ )
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(num);
+  char *return_value_strchr_2;
+  char *tmp_post_3;
+  const char *tmp_post_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_sscanf_5;
+  if(return_value_strlen_1 >= sizeof(char [80l]) /*80ul*/ )
     return 0;
 
   else
@@ -9272,8 +9272,8 @@ extern signed int decodenetnum(const char *num, union anonymous$47 *netnum)
 
       else
       {
-        return_value_strchr$2=strchr(pp + (signed long int)1, 58);
-        if(!(return_value_strchr$2 == ((char *)NULL)))
+        return_value_strchr_2=strchr(pp + (signed long int)1, 58);
+        if(!(return_value_strchr_2 == ((char *)NULL)))
           cp = num;
 
         else
@@ -9291,14 +9291,14 @@ extern signed int decodenetnum(const char *num, union anonymous$47 *netnum)
     {
       cp = num + (signed long int)1;
       np = name;
-      for( ; !(*cp == 0); *tmp_post$3 = *tmp_post$4)
+      for( ; !(*cp == 0); *tmp_post_3 = *tmp_post_4)
       {
         if((signed int)*cp == 93)
           break;
 
-        tmp_post$3 = np;
+        tmp_post_3 = np;
         np = np + 1l;
-        tmp_post$4 = cp;
+        tmp_post_4 = cp;
         cp = cp + 1l;
       }
       *np = (char)0;
@@ -9328,21 +9328,21 @@ extern signed int decodenetnum(const char *num, union anonymous$47 *netnum)
 
       else
       {
-        isc_assertion_failed("decodenetnum.c", 78, (enum anonymous$45)isc_assertiontype_insist, "ai->ai_addrlen <= sizeof(*netnum)");
+        isc_assertion_failed("decodenetnum.c", 78, (enum anonymous_45)isc_assertiontype_insist, "ai->ai_addrlen <= sizeof(*netnum)");
         (_Bool)0;
       }
-      bzero((void *)&(*netnum), sizeof(union anonymous$47) /*28ul*/ );
+      bzero((void *)&(*netnum), sizeof(union anonymous_47) /*28ul*/ );
       memcpy((void *)netnum, (const void *)ai->ai_addr, (unsigned long int)ai->ai_addrlen);
       freeaddrinfo(ai);
       if(port_str == ((const char *)NULL))
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_sscanf$5=sscanf(port_str, "%hu", &port);
-        tmp_if_expr$6 = 1 != return_value_sscanf$5 ? (_Bool)1 : (_Bool)0;
+        return_value_sscanf_5=sscanf(port_str, "%hu", &port);
+        tmp_if_expr_6 = 1 != return_value_sscanf_5 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
         port = (unsigned short int)123;
 
       netnum->sa4.sin_port=htons(port);
@@ -9353,7 +9353,7 @@ extern signed int decodenetnum(const char *num, union anonymous$47 *netnum)
 
 // default_callback
 // file ./../lib/isc/assertions.c line 105
-static void default_callback(const char *file, signed int line, enum anonymous$45 type, const char *cond)
+static void default_callback(const char *file, signed int line, enum anonymous_45 type, const char *cond)
 {
   void *tracebuf[128l];
   signed int i;
@@ -9365,11 +9365,11 @@ static void default_callback(const char *file, signed int line, enum anonymous$4
   if(result == 0u && nframes >= 1)
     logsuffix = ", back trace";
 
-  const char *return_value_isc_assertion_typetotext$1;
-  return_value_isc_assertion_typetotext$1=isc_assertion_typetotext(type);
-  const char *return_value_isc_msgcat_get$2;
-  return_value_isc_msgcat_get$2=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-  fprintf(stderr, "%s:%d: %s(%s) %s%s\n", file, line, return_value_isc_assertion_typetotext$1, cond, return_value_isc_msgcat_get$2, logsuffix);
+  const char *return_value_isc_assertion_typetotext_1;
+  return_value_isc_assertion_typetotext_1=isc_assertion_typetotext(type);
+  const char *return_value_isc_msgcat_get_2;
+  return_value_isc_msgcat_get_2=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+  fprintf(stderr, "%s:%d: %s(%s) %s%s\n", file, line, return_value_isc_assertion_typetotext_1, cond, return_value_isc_msgcat_get_2, logsuffix);
   if(result == 0u)
   {
     i = 0;
@@ -9393,9 +9393,9 @@ static void default_callback(const char *file, signed int line, enum anonymous$4
 // file ./../lib/isc/error.c line 97
 static void default_fatal_callback(const char *file, signed int line, const char *format, void **args)
 {
-  const char *return_value_isc_msgcat_get$1;
-  return_value_isc_msgcat_get$1=isc_msgcat_get(isc_msgcat, 1, 110, "fatal error");
-  fprintf(stderr, "%s:%d: %s: ", file, line, return_value_isc_msgcat_get$1);
+  const char *return_value_isc_msgcat_get_1;
+  return_value_isc_msgcat_get_1=isc_msgcat_get(isc_msgcat, 1, 110, "fatal error");
+  fprintf(stderr, "%s:%d: %s: ", file, line, return_value_isc_msgcat_get_1);
   vfprintf(stderr, format, args);
   fprintf(stderr, "\n");
   fflush(stderr);
@@ -9413,23 +9413,23 @@ static void default_unexpected_callback(const char *file, signed int line, const
 
 // dequeue_events
 // file ./../lib/isc/task.c line 638
-static unsigned int dequeue_events(struct isc__task *task, void *sender, unsigned int first, unsigned int last, void *tag, struct anonymous$52 *events, enum anonymous$11 purging)
+static unsigned int dequeue_events(struct isc__task *task, void *sender, unsigned int first, unsigned int last, void *tag, struct anonymous_52 *events, enum anonymous_11 purging)
 {
   struct isc_event *event;
   struct isc_event *next_event;
   unsigned int count = (unsigned int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 645, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 645, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   if(last >= first)
@@ -9437,14 +9437,14 @@ static unsigned int dequeue_events(struct isc__task *task, void *sender, unsigne
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 646, (enum anonymous$45)isc_assertiontype_require, "last >= first");
+    isc_assertion_failed("./../lib/isc/task.c", 646, (enum anonymous_45)isc_assertiontype_require, "last >= first");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&task->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&task->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -9455,9 +9455,9 @@ static unsigned int dequeue_events(struct isc__task *task, void *sender, unsigne
   }
   while((_Bool)0);
   event = task->events.head;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   for( ; !(event == ((struct isc_event *)NULL)); event = next_event)
   {
     next_event = event->ev_link.next;
@@ -9466,25 +9466,25 @@ static unsigned int dequeue_events(struct isc__task *task, void *sender, unsigne
       if(last >= event->ev_type)
       {
         if(sender == NULL)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = event->ev_sender == sender ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = event->ev_sender == sender ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
         {
           if(tag == NULL)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = event->ev_tag == tag ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = event->ev_tag == tag ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
           {
             if(purging == /*enum*/isc_boolean_false)
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = (event->ev_attributes & (unsigned int)0x00000001) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (event->ev_attributes & (unsigned int)0x00000001) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_3)
             {
 
             __CPROVER_DUMP_L19:
@@ -9501,7 +9501,7 @@ static unsigned int dequeue_events(struct isc__task *task, void *sender, unsigne
 
                   else
                   {
-                    isc_assertion_failed("./../lib/isc/task.c", 666, (enum anonymous$45)isc_assertiontype_insist, "(task->events).tail == (event)");
+                    isc_assertion_failed("./../lib/isc/task.c", 666, (enum anonymous_45)isc_assertiontype_insist, "(task->events).tail == (event)");
                     (_Bool)0;
                   }
                   task->events.tail = event->ev_link.prev;
@@ -9516,7 +9516,7 @@ static unsigned int dequeue_events(struct isc__task *task, void *sender, unsigne
 
                   else
                   {
-                    isc_assertion_failed("./../lib/isc/task.c", 666, (enum anonymous$45)isc_assertiontype_insist, "(task->events).head == (event)");
+                    isc_assertion_failed("./../lib/isc/task.c", 666, (enum anonymous_45)isc_assertiontype_insist, "(task->events).head == (event)");
                     (_Bool)0;
                   }
                   task->events.head = event->ev_link.next;
@@ -9554,9 +9554,9 @@ static unsigned int dequeue_events(struct isc__task *task, void *sender, unsigne
   }
   do
   {
-    signed int return_value_pthread_mutex_unlock$6;
-    return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&task->lock);
-    if(return_value_pthread_mutex_unlock$6 == 0)
+    signed int return_value_pthread_mutex_unlock_6;
+    return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&task->lock);
+    if(return_value_pthread_mutex_unlock_6 == 0)
       (_Bool)1;
 
     else
@@ -9589,7 +9589,7 @@ static unsigned int dir_current(char *dirname, unsigned long int length)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 433, (enum anonymous$45)isc_assertiontype_require, "dirname != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 433, (enum anonymous_45)isc_assertiontype_require, "dirname != ((void *)0)");
     (_Bool)0;
   }
   if(length >= 1ul)
@@ -9597,30 +9597,30 @@ static unsigned int dir_current(char *dirname, unsigned long int length)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 434, (enum anonymous$45)isc_assertiontype_require, "length > 0U");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 434, (enum anonymous_45)isc_assertiontype_require, "length > 0U");
     (_Bool)0;
   }
   cwd=getcwd(dirname, length);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(cwd == ((char *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 34)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 34)
       result = (unsigned int)19;
 
     else
     {
-      return_value___errno_location$1=__errno_location();
-      result=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/file.c", (unsigned int)442);
+      return_value___errno_location_1=__errno_location();
+      result=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/file.c", (unsigned int)442);
     }
   }
 
   else
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(dirname);
-    if(1ul + return_value_strlen$3 == length)
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(dirname);
+    if(1ul + return_value_strlen_3 == length)
       result = (unsigned int)19;
 
     else
@@ -9636,25 +9636,25 @@ static unsigned int dir_current(char *dirname, unsigned long int length)
 static void dispatch(struct isc__taskmgr *manager)
 {
   struct isc__task *task;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(manager == ((struct isc__taskmgr *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)manager)->magic == (unsigned int)(84 << 24 | 83 << 16 | 75 << 8 | 77) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)manager)->magic == (unsigned int)(84 << 24 | 83 << 16 | 75 << 8 | 77) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 986, (enum anonymous$45)isc_assertiontype_require, "(((manager) != ((void *)0)) && (((const isc__magic_t *)(manager))->magic == ((('T') << 24 | ('S') << 16 | ('K') << 8 | ('M')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 986, (enum anonymous_45)isc_assertiontype_require, "(((manager) != ((void *)0)) && (((const isc__magic_t *)(manager))->magic == ((('T') << 24 | ('S') << 16 | ('K') << 8 | ('M')))))");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -9664,11 +9664,11 @@ static void dispatch(struct isc__taskmgr *manager)
     }
   }
   while((_Bool)0);
-  enum anonymous$11 return_value_empty_readyq$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$15;
-  enum anonymous$11 return_value_empty_readyq$18;
+  enum anonymous_11 return_value_empty_readyq_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_15;
+  enum anonymous_11 return_value_empty_readyq_18;
   while((_Bool)1)
   {
     if(!(manager->exiting == /*enum*/isc_boolean_false))
@@ -9680,8 +9680,8 @@ static void dispatch(struct isc__taskmgr *manager)
 
     do
     {
-      return_value_empty_readyq$3=empty_readyq(manager);
-      if(return_value_empty_readyq$3 == /*enum*/isc_boolean_false)
+      return_value_empty_readyq_3=empty_readyq(manager);
+      if(return_value_empty_readyq_3 == /*enum*/isc_boolean_false)
       {
         if(manager->pause_requested == /*enum*/isc_boolean_false)
         {
@@ -9701,9 +9701,9 @@ static void dispatch(struct isc__taskmgr *manager)
 
       do
       {
-        signed int return_value_pthread_cond_wait$4;
-        return_value_pthread_cond_wait$4=pthread_cond_wait(&manager->work_available, &manager->lock);
-        if(return_value_pthread_cond_wait$4 == 0)
+        signed int return_value_pthread_cond_wait_4;
+        return_value_pthread_cond_wait_4=pthread_cond_wait(&manager->work_available, &manager->lock);
+        if(return_value_pthread_cond_wait_4 == 0)
           (_Bool)1;
 
         else
@@ -9719,29 +9719,29 @@ static void dispatch(struct isc__taskmgr *manager)
     if(!(task == ((struct isc__task *)NULL)))
     {
       unsigned int dispatch_count = (unsigned int)0;
-      enum anonymous$11 done = (enum anonymous$11)isc_boolean_false;
-      enum anonymous$11 requeue = (enum anonymous$11)isc_boolean_false;
-      enum anonymous$11 finished = (enum anonymous$11)isc_boolean_false;
+      enum anonymous_11 done = (enum anonymous_11)isc_boolean_false;
+      enum anonymous_11 requeue = (enum anonymous_11)isc_boolean_false;
+      enum anonymous_11 finished = (enum anonymous_11)isc_boolean_false;
       struct isc_event *event;
       if(!(task == ((struct isc__task *)NULL)))
-        tmp_if_expr$5 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
         (_Bool)1;
 
       else
       {
-        isc_assertion_failed("./../lib/isc/task.c", 1083, (enum anonymous$45)isc_assertiontype_insist, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+        isc_assertion_failed("./../lib/isc/task.c", 1083, (enum anonymous_45)isc_assertiontype_insist, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
         (_Bool)0;
       }
       manager->tasks_running = manager->tasks_running + 1u;
       do
       {
-        signed int return_value_pthread_mutex_unlock$6;
-        return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&manager->lock);
-        if(return_value_pthread_mutex_unlock$6 == 0)
+        signed int return_value_pthread_mutex_unlock_6;
+        return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&manager->lock);
+        if(return_value_pthread_mutex_unlock_6 == 0)
           (_Bool)1;
 
         else
@@ -9753,9 +9753,9 @@ static void dispatch(struct isc__taskmgr *manager)
       while((_Bool)0);
       do
       {
-        signed int return_value_pthread_mutex_lock$7;
-        return_value_pthread_mutex_lock$7=pthread_mutex_lock(&task->lock);
-        if(return_value_pthread_mutex_lock$7 == 0)
+        signed int return_value_pthread_mutex_lock_7;
+        return_value_pthread_mutex_lock_7=pthread_mutex_lock(&task->lock);
+        if(return_value_pthread_mutex_lock_7 == 0)
           (_Bool)1;
 
         else
@@ -9770,10 +9770,10 @@ static void dispatch(struct isc__taskmgr *manager)
 
       else
       {
-        isc_assertion_failed("./../lib/isc/task.c", 1094, (enum anonymous$45)isc_assertiontype_insist, "task->state == task_state_ready");
+        isc_assertion_failed("./../lib/isc/task.c", 1094, (enum anonymous_45)isc_assertiontype_insist, "task->state == task_state_ready");
         (_Bool)0;
       }
-      task->state = (enum anonymous$56)task_state_running;
+      task->state = (enum anonymous_56)task_state_running;
       isc_stdtime_get(&task->now);
       while((_Bool)1)
       {
@@ -9795,7 +9795,7 @@ static void dispatch(struct isc__taskmgr *manager)
 
               else
               {
-                isc_assertion_failed("./../lib/isc/task.c", 1102, (enum anonymous$45)isc_assertiontype_insist, "(task->events).tail == (event)");
+                isc_assertion_failed("./../lib/isc/task.c", 1102, (enum anonymous_45)isc_assertiontype_insist, "(task->events).tail == (event)");
                 (_Bool)0;
               }
               task->events.tail = event->ev_link.prev;
@@ -9810,7 +9810,7 @@ static void dispatch(struct isc__taskmgr *manager)
 
               else
               {
-                isc_assertion_failed("./../lib/isc/task.c", 1102, (enum anonymous$45)isc_assertiontype_insist, "(task->events).head == (event)");
+                isc_assertion_failed("./../lib/isc/task.c", 1102, (enum anonymous_45)isc_assertiontype_insist, "(task->events).head == (event)");
                 (_Bool)0;
               }
               task->events.head = event->ev_link.next;
@@ -9823,9 +9823,9 @@ static void dispatch(struct isc__taskmgr *manager)
           {
             do
             {
-              signed int return_value_pthread_mutex_unlock$8;
-              return_value_pthread_mutex_unlock$8=pthread_mutex_unlock(&task->lock);
-              if(return_value_pthread_mutex_unlock$8 == 0)
+              signed int return_value_pthread_mutex_unlock_8;
+              return_value_pthread_mutex_unlock_8=pthread_mutex_unlock(&task->lock);
+              if(return_value_pthread_mutex_unlock_8 == 0)
                 (_Bool)1;
 
               else
@@ -9836,9 +9836,9 @@ static void dispatch(struct isc__taskmgr *manager)
             }
             while((_Bool)0);
             event->ev_action((struct isc_task *)task, event);
-            signed int return_value_pthread_mutex_lock$9;
-            return_value_pthread_mutex_lock$9=pthread_mutex_lock(&task->lock);
-            if(return_value_pthread_mutex_lock$9 == 0)
+            signed int return_value_pthread_mutex_lock_9;
+            return_value_pthread_mutex_lock_9=pthread_mutex_lock(&task->lock);
+            if(return_value_pthread_mutex_lock_9 == 0)
               (_Bool)1;
 
             else
@@ -9857,14 +9857,14 @@ static void dispatch(struct isc__taskmgr *manager)
           {
             if((1u & task->flags) == 0u)
             {
-              enum anonymous$11 was_idle;
+              enum anonymous_11 was_idle;
               was_idle=task_shutdown(task);
               if(was_idle == /*enum*/isc_boolean_false)
                 (_Bool)1;
 
               else
               {
-                isc_assertion_failed("./../lib/isc/task.c", 1152, (enum anonymous$45)isc_assertiontype_insist, "!was_idle");
+                isc_assertion_failed("./../lib/isc/task.c", 1152, (enum anonymous_45)isc_assertiontype_insist, "!was_idle");
                 (_Bool)0;
               }
             }
@@ -9876,27 +9876,27 @@ static void dispatch(struct isc__taskmgr *manager)
         if(task->events.head == ((struct isc_event *)NULL))
         {
           if(task->references == 0u)
-            tmp_if_expr$10 = (task->flags & (unsigned int)0x01) != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_10 = (task->flags & (unsigned int)0x01) != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
           {
-            finished = (enum anonymous$11)isc_boolean_true;
-            task->state = (enum anonymous$56)task_state_done;
+            finished = (enum anonymous_11)isc_boolean_true;
+            task->state = (enum anonymous_56)task_state_done;
           }
 
           else
-            task->state = (enum anonymous$56)task_state_idle;
-          done = (enum anonymous$11)isc_boolean_true;
+            task->state = (enum anonymous_56)task_state_idle;
+          done = (enum anonymous_11)isc_boolean_true;
         }
 
         else
           if(dispatch_count >= task->quantum)
           {
-            task->state = (enum anonymous$56)task_state_ready;
-            requeue = (enum anonymous$11)isc_boolean_true;
-            done = (enum anonymous$11)isc_boolean_true;
+            task->state = (enum anonymous_56)task_state_ready;
+            requeue = (enum anonymous_11)isc_boolean_true;
+            done = (enum anonymous_11)isc_boolean_true;
           }
 
         if(!(done == /*enum*/isc_boolean_false))
@@ -9905,9 +9905,9 @@ static void dispatch(struct isc__taskmgr *manager)
       }
       do
       {
-        signed int return_value_pthread_mutex_unlock$11;
-        return_value_pthread_mutex_unlock$11=pthread_mutex_unlock(&task->lock);
-        if(return_value_pthread_mutex_unlock$11 == 0)
+        signed int return_value_pthread_mutex_unlock_11;
+        return_value_pthread_mutex_unlock_11=pthread_mutex_unlock(&task->lock);
+        if(return_value_pthread_mutex_unlock_11 == 0)
           (_Bool)1;
 
         else
@@ -9922,9 +9922,9 @@ static void dispatch(struct isc__taskmgr *manager)
 
       do
       {
-        signed int return_value_pthread_mutex_lock$12;
-        return_value_pthread_mutex_lock$12=pthread_mutex_lock(&manager->lock);
-        if(return_value_pthread_mutex_lock$12 == 0)
+        signed int return_value_pthread_mutex_lock_12;
+        return_value_pthread_mutex_lock_12=pthread_mutex_lock(&manager->lock);
+        if(return_value_pthread_mutex_lock_12 == 0)
           (_Bool)1;
 
         else
@@ -9936,16 +9936,16 @@ static void dispatch(struct isc__taskmgr *manager)
       while((_Bool)0);
       manager->tasks_running = manager->tasks_running - 1u;
       if(!(manager->exclusive_requested == /*enum*/isc_boolean_false))
-        tmp_if_expr$15 = manager->tasks_running == (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_15 = manager->tasks_running == (unsigned int)1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$15 = (_Bool)0;
-      if(tmp_if_expr$15)
+        tmp_if_expr_15 = (_Bool)0;
+      if(tmp_if_expr_15)
         do
         {
-          signed int return_value_pthread_cond_signal$13;
-          return_value_pthread_cond_signal$13=pthread_cond_signal(&manager->exclusive_granted);
-          if(return_value_pthread_cond_signal$13 == 0)
+          signed int return_value_pthread_cond_signal_13;
+          return_value_pthread_cond_signal_13=pthread_cond_signal(&manager->exclusive_granted);
+          if(return_value_pthread_cond_signal_13 == 0)
             (_Bool)1;
 
           else
@@ -9962,9 +9962,9 @@ static void dispatch(struct isc__taskmgr *manager)
           if(manager->tasks_running == 0u)
             do
             {
-              signed int return_value_pthread_cond_signal$14;
-              return_value_pthread_cond_signal$14=pthread_cond_signal(&manager->paused);
-              if(return_value_pthread_cond_signal$14 == 0)
+              signed int return_value_pthread_cond_signal_14;
+              return_value_pthread_cond_signal_14=pthread_cond_signal(&manager->paused);
+              if(return_value_pthread_cond_signal_14 == 0)
                 (_Bool)1;
 
               else
@@ -9984,18 +9984,18 @@ static void dispatch(struct isc__taskmgr *manager)
 
     if(manager->tasks_running == 0u)
     {
-      return_value_empty_readyq$18=empty_readyq(manager);
-      if(!(return_value_empty_readyq$18 == /*enum*/isc_boolean_false))
+      return_value_empty_readyq_18=empty_readyq(manager);
+      if(!(return_value_empty_readyq_18 == /*enum*/isc_boolean_false))
       {
-        manager->mode = (enum anonymous$59)isc_taskmgrmode_normal;
-        enum anonymous$11 return_value_empty_readyq$17;
-        return_value_empty_readyq$17=empty_readyq(manager);
-        if(return_value_empty_readyq$17 == /*enum*/isc_boolean_false)
+        manager->mode = (enum anonymous_59)isc_taskmgrmode_normal;
+        enum anonymous_11 return_value_empty_readyq_17;
+        return_value_empty_readyq_17=empty_readyq(manager);
+        if(return_value_empty_readyq_17 == /*enum*/isc_boolean_false)
           do
           {
-            signed int return_value_pthread_cond_broadcast$16;
-            return_value_pthread_cond_broadcast$16=pthread_cond_broadcast(&manager->work_available);
-            if(return_value_pthread_cond_broadcast$16 == 0)
+            signed int return_value_pthread_cond_broadcast_16;
+            return_value_pthread_cond_broadcast_16=pthread_cond_broadcast(&manager->work_available);
+            if(return_value_pthread_cond_broadcast_16 == 0)
               (_Bool)1;
 
             else
@@ -10016,9 +10016,9 @@ static void dispatch(struct isc__taskmgr *manager)
 
   __CPROVER_DUMP_L93:
     ;
-    signed int return_value_pthread_mutex_unlock$19;
-    return_value_pthread_mutex_unlock$19=pthread_mutex_unlock(&manager->lock);
-    if(return_value_pthread_mutex_unlock$19 == 0)
+    signed int return_value_pthread_mutex_unlock_19;
+    return_value_pthread_mutex_unlock_19=pthread_mutex_unlock(&manager->lock);
+    if(return_value_pthread_mutex_unlock_19 == 0)
       (_Bool)1;
 
     else
@@ -10042,13 +10042,13 @@ extern char * dofptoa(unsigned int fpv, signed int neg, signed short int ndec, s
   unsigned char *cpdec;
   char *buf;
   char *bp;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$1 = lib_nextbuf;
+    tmp_post_1 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    buf = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+    buf = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
@@ -10090,15 +10090,15 @@ extern char * dofptoa(unsigned int fpv, signed int neg, signed short int ndec, s
   if((signed int)dec >= 7)
     dec = (signed short int)6;
 
-  unsigned char *tmp_post$2;
+  unsigned char *tmp_post_2;
   if((signed int)dec >= 1)
     do
     {
       val = val & (unsigned long int)0xffff;
       val = (val << 3) + (val << 1);
-      tmp_post$2 = cpend;
+      tmp_post_2 = cpend;
       cpend = cpend + 1l;
-      *tmp_post$2 = (unsigned char)(val >> 16);
+      *tmp_post_2 = (unsigned char)(val >> 16);
       dec = dec - 1;
     }
     while((signed int)dec >= 1);
@@ -10120,29 +10120,29 @@ extern char * dofptoa(unsigned int fpv, signed int neg, signed short int ndec, s
       break;
 
   bp = buf;
-  char *tmp_post$3;
+  char *tmp_post_3;
   if(!(neg == 0))
   {
-    tmp_post$3 = bp;
+    tmp_post_3 = bp;
     bp = bp + 1l;
-    *tmp_post$3 = (char)45;
+    *tmp_post_3 = (char)45;
   }
 
-  char *tmp_post$4;
-  char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  for( ; !(cp >= cpend); *tmp_post$5 = (char)((signed int)*tmp_post$6 + 48))
+  char *tmp_post_4;
+  char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  for( ; !(cp >= cpend); *tmp_post_5 = (char)((signed int)*tmp_post_6 + 48))
   {
     if(cp == cpdec)
     {
-      tmp_post$4 = bp;
+      tmp_post_4 = bp;
       bp = bp + 1l;
-      *tmp_post$4 = (char)46;
+      *tmp_post_4 = (char)46;
     }
 
-    tmp_post$5 = bp;
+    tmp_post_5 = bp;
     bp = bp + 1l;
-    tmp_post$6 = cp;
+    tmp_post_6 = cp;
     cp = cp + 1l;
   }
   *bp = (char)0;
@@ -10170,13 +10170,13 @@ extern char * dolfptoa(unsigned int fpi, unsigned int fpv, signed int neg, signe
   unsigned char cbuf[24l];
   char *buf;
   char *bp;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$1 = lib_nextbuf;
+    tmp_post_1 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    buf = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+    buf = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
@@ -10206,30 +10206,30 @@ extern char * dolfptoa(unsigned int fpi, unsigned int fpv, signed int neg, signe
   if(!(sizeof(unsigned char [24l]) /*24ul*/  + -((unsigned long int)(cpend - cbuf)) >= (unsigned long int)dec))
     dec = (signed int)(sizeof(unsigned char [24l]) /*24ul*/  - (unsigned long int)(cpend - cbuf));
 
-  unsigned char *tmp_post$2;
+  unsigned char *tmp_post_2;
   for( ; dec >= 1 && !(fpv == 0u); dec = dec - 1)
   {
-    unsigned int dolfptoa$$1$$4$$1$$digit;
+    unsigned int dolfptoa__1__4__1__digit;
     unsigned int tmph;
     unsigned int tmpl;
-    dolfptoa$$1$$4$$1$$digit = (unsigned int)0;
+    dolfptoa__1__4__1__digit = (unsigned int)0;
     do
     {
-      dolfptoa$$1$$4$$1$$digit = (unsigned int)dolfptoa$$1$$4$$1$$digit << 1 | (unsigned int)fpv >> 31;
+      dolfptoa__1__4__1__digit = (unsigned int)dolfptoa__1__4__1__digit << 1 | (unsigned int)fpv >> 31;
       fpv = (unsigned int)fpv << 1;
     }
     while((_Bool)0);
-    tmph = dolfptoa$$1$$4$$1$$digit;
+    tmph = dolfptoa__1__4__1__digit;
     tmpl = fpv;
     do
     {
-      dolfptoa$$1$$4$$1$$digit = (unsigned int)dolfptoa$$1$$4$$1$$digit << 1 | (unsigned int)fpv >> 31;
+      dolfptoa__1__4__1__digit = (unsigned int)dolfptoa__1__4__1__digit << 1 | (unsigned int)fpv >> 31;
       fpv = (unsigned int)fpv << 1;
     }
     while((_Bool)0);
     do
     {
-      dolfptoa$$1$$4$$1$$digit = (unsigned int)dolfptoa$$1$$4$$1$$digit << 1 | (unsigned int)fpv >> 31;
+      dolfptoa__1__4__1__digit = (unsigned int)dolfptoa__1__4__1__digit << 1 | (unsigned int)fpv >> 31;
       fpv = (unsigned int)fpv << 1;
     }
     while((_Bool)0);
@@ -10237,12 +10237,12 @@ extern char * dolfptoa(unsigned int fpi, unsigned int fpv, signed int neg, signe
     {
       unsigned int add_t = fpv;
       fpv = fpv + tmpl;
-      dolfptoa$$1$$4$$1$$digit = dolfptoa$$1$$4$$1$$digit + tmph + (unsigned int)((unsigned int)fpv < add_t);
+      dolfptoa__1__4__1__digit = dolfptoa__1__4__1__digit + tmph + (unsigned int)((unsigned int)fpv < add_t);
     }
     while((_Bool)0);
-    tmp_post$2 = cpend;
+    tmp_post_2 = cpend;
     cpend = cpend + 1l;
-    *tmp_post$2 = (unsigned char)dolfptoa$$1$$4$$1$$digit;
+    *tmp_post_2 = (unsigned char)dolfptoa__1__4__1__digit;
   }
   if(dec >= 1)
     cpend = cpend + (signed long int)dec;
@@ -10274,29 +10274,29 @@ extern char * dolfptoa(unsigned int fpi, unsigned int fpv, signed int neg, signe
     cp = cpdec - (signed long int)1;
 
   bp = buf;
-  char *tmp_post$3;
+  char *tmp_post_3;
   if(!(neg == 0))
   {
-    tmp_post$3 = bp;
+    tmp_post_3 = bp;
     bp = bp + 1l;
-    *tmp_post$3 = (char)45;
+    *tmp_post_3 = (char)45;
   }
 
-  char *tmp_post$4;
-  char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  for( ; !(cp >= cpend); *tmp_post$5 = (char)((signed int)(char)*tmp_post$6 + 48))
+  char *tmp_post_4;
+  char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  for( ; !(cp >= cpend); *tmp_post_5 = (char)((signed int)(char)*tmp_post_6 + 48))
   {
     if(cp == cpdec)
     {
-      tmp_post$4 = bp;
+      tmp_post_4 = bp;
       bp = bp + 1l;
-      *tmp_post$4 = (char)46;
+      *tmp_post_4 = (char)46;
     }
 
-    tmp_post$5 = bp;
+    tmp_post_5 = bp;
     bp = bp + 1l;
-    tmp_post$6 = cp;
+    tmp_post_6 = cp;
     cp = cp + 1l;
   }
   *bp = (char)0;
@@ -10313,16 +10313,16 @@ static void doublefreq(double freq, unsigned char *x, signed int len)
   snprintf(s1, sizeof(char [16l]) /*16ul*/ , " %10.0f", freq);
   y = s1 + (signed long int)10;
   i = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
+  char *tmp_post_1;
+  char *tmp_post_2;
   for( ; !((signed int)*y == 32); i = i + 1)
   {
-    tmp_post$1 = y;
+    tmp_post_1 = y;
     y = y - 1l;
-    x[(signed long int)i] = (unsigned char)((signed int)*tmp_post$1 & 0x0f);
-    tmp_post$2 = y;
+    x[(signed long int)i] = (unsigned char)((signed int)*tmp_post_1 & 0x0f);
+    tmp_post_2 = y;
     y = y - 1l;
-    x[(signed long int)i] = (unsigned char)((signed int)x[(signed long int)i] | ((signed int)*tmp_post$2 & 0x0f) << 4);
+    x[(signed long int)i] = (unsigned char)((signed int)x[(signed long int)i] | ((signed int)*tmp_post_2 & 0x0f) << 4);
   }
   for( ; !(i >= len); i = i + 1)
     x[(signed long int)i] = (unsigned char)0;
@@ -10331,15 +10331,15 @@ static void doublefreq(double freq, unsigned char *x, signed int len)
 
 // empty_readyq
 // file ./../lib/isc/task.c line 925
-static inline enum anonymous$11 empty_readyq(struct isc__taskmgr *manager)
+static inline enum anonymous_11 empty_readyq(struct isc__taskmgr *manager)
 {
-  struct anonymous$58 queue;
+  struct anonymous_58 queue;
   if((signed int)manager->mode == isc_taskmgrmode_normal)
     queue = manager->ready_tasks;
 
   else
     queue = manager->ready_priority_tasks;
-  return (enum anonymous$11)((queue.head == (struct isc__task *)(void *)0 ? isc_boolean_true : isc_boolean_false) != 0 ? isc_boolean_true : isc_boolean_false);
+  return (enum anonymous_11)((queue.head == (struct isc__task *)(void *)0 ? isc_boolean_true : isc_boolean_false) != 0 ? isc_boolean_true : isc_boolean_false);
 }
 
 // ensure_workitems_empty_slot
@@ -10367,9 +10367,9 @@ static void ensure_workitems_empty_slot(struct blocking_child_tag *c)
     old_octets = c->workitems_alloc * each;
     new_octets = new_alloc * each;
     nonvol_workitems = (void *)(unsigned long int)(volatile void *)c->workitems;
-    void *return_value_ereallocz$1;
-    return_value_ereallocz$1=ereallocz(nonvol_workitems, new_octets, old_octets, 1);
-    c->workitems = (struct blocking_pipe_header_tag * volatile * volatile )return_value_ereallocz$1;
+    void *return_value_ereallocz_1;
+    return_value_ereallocz_1=ereallocz(nonvol_workitems, new_octets, old_octets, 1);
+    c->workitems = (struct blocking_pipe_header_tag * volatile * volatile )return_value_ereallocz_1;
     if(c->next_workitem == 0ul)
       c->next_workitem = c->workitems_alloc;
 
@@ -10402,9 +10402,9 @@ static void ensure_workresp_empty_slot(struct blocking_child_tag *c)
     old_octets = c->responses_alloc * each;
     new_octets = new_alloc * each;
     nonvol_responses = (void *)(unsigned long int)(volatile void *)c->responses;
-    void *return_value_ereallocz$1;
-    return_value_ereallocz$1=ereallocz(nonvol_responses, new_octets, old_octets, 1);
-    c->responses = (struct blocking_pipe_header_tag * volatile * volatile )return_value_ereallocz$1;
+    void *return_value_ereallocz_1;
+    return_value_ereallocz_1=ereallocz(nonvol_responses, new_octets, old_octets, 1);
+    c->responses = (struct blocking_pipe_header_tag * volatile * volatile )return_value_ereallocz_1;
     if(c->next_response == 0ul)
       c->next_response = c->responses_alloc;
 
@@ -10423,9 +10423,9 @@ extern void * ereallocz(void *ptr, unsigned long int newsz, unsigned long int pr
 
   else
     allocsz = newsz;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc(ptr, allocsz);
-  mem = (char *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc(ptr, allocsz);
+  mem = (char *)return_value_realloc_1;
   if(mem == ((char *)NULL))
   {
     msyslog_term = 1;
@@ -10446,17 +10446,17 @@ extern void errno_to_str(signed int err, char *buf, unsigned long int bufsiz)
   char *pstatic;
   buf[(signed long int)0] = (char)0;
   pstatic=strerror_r(err, buf, bufsiz);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(pstatic == ((char *)NULL))
-    tmp_if_expr$2 = 0 == (signed int)buf[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = 0 == (signed int)buf[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  signed int *return_value___errno_location$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  signed int *return_value___errno_location_1;
+  if(tmp_if_expr_2)
   {
-    return_value___errno_location$1=__errno_location();
-    snprintf(buf, bufsiz, "%s(%d): errno %d", (const void *)"strerror_r", err, *return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    snprintf(buf, bufsiz, "%s(%d): errno %d", (const void *)"strerror_r", err, *return_value___errno_location_1);
   }
 
   else
@@ -10471,12 +10471,12 @@ extern char * estrdup_impl(const char *str)
 {
   char *copy;
   unsigned long int bytes;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  bytes = return_value_strlen$1 + (unsigned long int)1;
-  void *return_value_ereallocz$2;
-  return_value_ereallocz$2=ereallocz((void *)0, bytes, (unsigned long int)0, 0);
-  copy = (char *)return_value_ereallocz$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  bytes = return_value_strlen_1 + (unsigned long int)1;
+  void *return_value_ereallocz_2;
+  return_value_ereallocz_2=ereallocz((void *)0, bytes, (unsigned long int)0, 0);
+  copy = (char *)return_value_ereallocz_2;
   memcpy((void *)copy, (const void *)str, bytes);
   return copy;
 }
@@ -10485,26 +10485,26 @@ extern char * estrdup_impl(const char *str)
 // file statestr.c line 481
 extern const char * eventstr(signed int num)
 {
-  const char *return_value_getcode$1;
-  const char *return_value_getcode$2;
-  const char *return_value_getcode$3;
+  const char *return_value_getcode_1;
+  const char *return_value_getcode_2;
+  const char *return_value_getcode_3;
   if(!((0x080 & num) == 0))
   {
-    return_value_getcode$1=getcode(num & ~0x080, peer_codes);
-    return return_value_getcode$1;
+    return_value_getcode_1=getcode(num & ~0x080, peer_codes);
+    return return_value_getcode_1;
   }
 
   else
     if(!((0x100 & num) == 0))
     {
-      return_value_getcode$2=getcode(num & ~0x100, crypto_codes);
-      return return_value_getcode$2;
+      return_value_getcode_2=getcode(num & ~0x100, crypto_codes);
+      return return_value_getcode_2;
     }
 
     else
     {
-      return_value_getcode$3=getcode(num, sys_codes);
-      return return_value_getcode$3;
+      return_value_getcode_3=getcode(num, sys_codes);
+      return return_value_getcode_3;
     }
 }
 
@@ -10525,7 +10525,7 @@ static unsigned int file_stats(const char *file, struct stat *stats)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 92, (enum anonymous$45)isc_assertiontype_require, "file != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 92, (enum anonymous_45)isc_assertiontype_require, "file != ((void *)0)");
     (_Bool)0;
   }
   if(!(stats == ((struct stat *)NULL)))
@@ -10533,16 +10533,16 @@ static unsigned int file_stats(const char *file, struct stat *stats)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 93, (enum anonymous$45)isc_assertiontype_require, "stats != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 93, (enum anonymous_45)isc_assertiontype_require, "stats != ((void *)0)");
     (_Bool)0;
   }
-  signed int return_value_stat$2;
-  return_value_stat$2=stat(file, stats);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_stat$2 == 0))
+  signed int return_value_stat_2;
+  return_value_stat_2=stat(file, stats);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_stat_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    result=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/file.c", (unsigned int)96);
+    return_value___errno_location_1=__errno_location();
+    result=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/file.c", (unsigned int)96);
   }
 
   return result;
@@ -10583,10 +10583,10 @@ static signed int finddelay(double lat1, double long1, double lat2, double long2
 // file ./../lib/isc/unix/stdtime.c line 41
 static inline void fix_tv_usec(struct timeval *tv)
 {
-  enum anonymous$11 fixed = (enum anonymous$11)isc_boolean_false;
+  enum anonymous_11 fixed = (enum anonymous_11)isc_boolean_false;
   if(!(tv->tv_usec >= 0l))
   {
-    fixed = (enum anonymous$11)isc_boolean_true;
+    fixed = (enum anonymous_11)isc_boolean_true;
     do
     {
       tv->tv_sec = tv->tv_sec - (signed long int)1;
@@ -10598,7 +10598,7 @@ static inline void fix_tv_usec(struct timeval *tv)
   else
     if(tv->tv_usec >= 1000000l)
     {
-      fixed = (enum anonymous$11)isc_boolean_true;
+      fixed = (enum anonymous_11)isc_boolean_true;
       do
       {
         tv->tv_sec = tv->tv_sec + (signed long int)1;
@@ -10612,35 +10612,35 @@ static inline void fix_tv_usec(struct timeval *tv)
 
 }
 
-// fix_tv_usec$link1
+// fix_tv_usec_link1
 // file ./../lib/isc/unix/time.c line 62
-static inline void fix_tv_usec$link1(struct timeval *tv$link1)
+static inline void fix_tv_usec_link1(struct timeval *tv_link1)
 {
-  enum anonymous$11 fixed$link1 = (enum anonymous$11)isc_boolean_false;
-  if(!(tv$link1->tv_usec >= 0l))
+  enum anonymous_11 fixed_link1 = (enum anonymous_11)isc_boolean_false;
+  if(!(tv_link1->tv_usec >= 0l))
   {
-    fixed$link1 = (enum anonymous$11)isc_boolean_true;
+    fixed_link1 = (enum anonymous_11)isc_boolean_true;
     do
     {
-      tv$link1->tv_sec = tv$link1->tv_sec - (signed long int)1;
-      tv$link1->tv_usec = tv$link1->tv_usec + (signed long int)1000000;
+      tv_link1->tv_sec = tv_link1->tv_sec - (signed long int)1;
+      tv_link1->tv_usec = tv_link1->tv_usec + (signed long int)1000000;
     }
-    while(!(tv$link1->tv_usec >= 0l));
+    while(!(tv_link1->tv_usec >= 0l));
   }
 
   else
-    if(tv$link1->tv_usec >= 1000000l)
+    if(tv_link1->tv_usec >= 1000000l)
     {
-      fixed$link1 = (enum anonymous$11)isc_boolean_true;
+      fixed_link1 = (enum anonymous_11)isc_boolean_true;
       do
       {
-        tv$link1->tv_sec = tv$link1->tv_sec + (signed long int)1;
-        tv$link1->tv_usec = tv$link1->tv_usec - (signed long int)1000000;
+        tv_link1->tv_sec = tv_link1->tv_sec + (signed long int)1;
+        tv_link1->tv_usec = tv_link1->tv_usec - (signed long int)1000000;
       }
-      while(tv$link1->tv_usec >= 1000000l);
+      while(tv_link1->tv_usec >= 1000000l);
     }
 
-  if(!(fixed$link1 == /*enum*/isc_boolean_false))
+  if(!(fixed_link1 == /*enum*/isc_boolean_false))
     syslog(3, "gettimeofday returned bad tv_usec: corrected");
 
 }
@@ -10655,25 +10655,25 @@ extern const char * format_time_fraction(signed long int secs, signed long int f
   unsigned int u;
   signed long int fraclimit;
   signed int notneg;
-  struct anonymous$24 qr;
+  struct anonymous_24 qr;
 
 __CPROVER_DUMP_L1:
   ;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$1 = lib_nextbuf;
+    tmp_post_1 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    cp = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+    cp = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
   secs_u = (unsigned long int)secs;
   notneg = (signed int)(prec < 0);
-  signed int return_value_abs$2;
-  return_value_abs$2=abs(prec);
-  prec_u = (unsigned int)return_value_abs$2;
+  signed int return_value_abs_2;
+  return_value_abs_2=abs(prec);
+  prec_u = (unsigned int)return_value_abs_2;
   fraclimit = (signed long int)10;
   u = (unsigned int)1;
   for( ; !(u >= prec_u); u = u + 1u)
@@ -10722,9 +10722,9 @@ extern char * fptoa(signed int fpv, signed short int ndec)
 
   else
     plusfp = (unsigned int)fpv;
-  char *return_value_dofptoa$1;
-  return_value_dofptoa$1=dofptoa(plusfp, neg, ndec, 0);
-  return return_value_dofptoa$1;
+  char *return_value_dofptoa_1;
+  return_value_dofptoa_1=dofptoa(plusfp, neg, ndec, 0);
+  return return_value_dofptoa_1;
 }
 
 // fptoms
@@ -10738,9 +10738,9 @@ extern char * fptoms(signed int fpv, signed short int ndec)
 
   else
     plusfp = (unsigned int)fpv;
-  char *return_value_dofptoa$1;
-  return_value_dofptoa$1=dofptoa(plusfp, neg, ndec, 1);
-  return return_value_dofptoa$1;
+  char *return_value_dofptoa_1;
+  return_value_dofptoa_1=dofptoa(plusfp, neg, ndec, 1);
+  return return_value_dofptoa_1;
 }
 
 // free_recvbuffs
@@ -10790,18 +10790,18 @@ static void freesymkey(struct savekey *sk, struct savekey **bucket)
     free((void *)sk->secret);
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     struct savekey **ppentry = &(*bucket);
     while(!(sk == *ppentry))
     {
       if(!(*ppentry == ((struct savekey *)NULL)))
-        tmp_if_expr$1 = (*ppentry)->hlink != (struct savekey *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (*ppentry)->hlink != (struct savekey *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         ppentry = &(*ppentry)->hlink;
 
       else
@@ -10863,7 +10863,7 @@ static void get_addr(unsigned int family, struct isc_netaddr *dst, struct sockad
   struct sockaddr_in6 *sa6;
   memset((void *)dst, 0, sizeof(struct isc_netaddr) /*24ul*/ );
   dst->family = family;
-  _Bool tmp_statement_expression$1;
+  _Bool tmp_statement_expression_1;
   switch(family)
   {
     case (unsigned int)2:
@@ -10881,12 +10881,12 @@ static void get_addr(unsigned int family, struct isc_netaddr *dst, struct sockad
       else
       {
         struct in6_addr *__a = (struct in6_addr *)&sa6->sin6_addr;
-        unsigned int return_value_htonl$2;
-        return_value_htonl$2=htonl(0xffc00000);
-        unsigned int return_value_htonl$3;
-        return_value_htonl$3=htonl(0xfe800000);
-        tmp_statement_expression$1 = (__a->__in6_u.__u6_addr32[(signed long int)0] & return_value_htonl$2) == return_value_htonl$3;
-        if(tmp_statement_expression$1)
+        unsigned int return_value_htonl_2;
+        return_value_htonl_2=htonl(0xffc00000);
+        unsigned int return_value_htonl_3;
+        return_value_htonl_3=htonl(0xfe800000);
+        tmp_statement_expression_1 = (__a->__in6_u.__u6_addr32[(signed long int)0] & return_value_htonl_2) == return_value_htonl_3;
+        if(tmp_statement_expression_1)
         {
           unsigned short int zone16;
           memcpy((void *)&zone16, (const void *)&sa6->sin6_addr.__in6_u.__u6_addr8[(signed long int)2], sizeof(unsigned short int) /*2ul*/ );
@@ -10915,7 +10915,7 @@ static void get_addr(unsigned int family, struct isc_netaddr *dst, struct sockad
     }
     default:
     {
-      isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 143, (enum anonymous$45)isc_assertiontype_insist, "0");
+      isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 143, (enum anonymous_45)isc_assertiontype_insist, "0");
       (void)(0 != 0 ? (_Bool)1 : (_Bool)0);
     }
   }
@@ -10925,11 +10925,11 @@ static void get_addr(unsigned int family, struct isc_netaddr *dst, struct sockad
 // file ntp_intres.c line 938
 static unsigned int get_dnschild_ctx(void)
 {
-  unsigned int return_value_reserve_dnschild_ctx$1;
+  unsigned int return_value_reserve_dnschild_ctx_1;
   if(!(worker_per_query == 0))
   {
-    return_value_reserve_dnschild_ctx$1=reserve_dnschild_ctx();
-    return return_value_reserve_dnschild_ctx$1;
+    return_value_reserve_dnschild_ctx_1=reserve_dnschild_ctx();
+    return return_value_reserve_dnschild_ctx_1;
   }
 
   else
@@ -11028,9 +11028,9 @@ static inline void get_ostime(struct timespec *tsp)
   rc=clock_gettime(0, tsp);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    msyslog(3, "read system clock failed: %m (%d)", *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    msyslog(3, "read system clock failed: %m (%d)", *return_value___errno_location_1);
     exit(1);
   }
 
@@ -11044,7 +11044,7 @@ static inline void get_ostime(struct timespec *tsp)
 
 // get_struct_tm
 // file prettydate.c line 63
-static struct tm * get_struct_tm(const union anonymous$44 *stamp, signed int local)
+static struct tm * get_struct_tm(const union anonymous_44 *stamp, signed int local)
 {
   struct tm *tm = (struct tm *)(void *)0;
   signed int folds = 0;
@@ -11100,18 +11100,18 @@ static struct tm * get_struct_tm(const union anonymous$44 *stamp, signed int loc
 
   else
   {
-    isc_assertion_failed("prettydate.c", 144, (enum anonymous$45)isc_assertiontype_insist, "tm != ((void *)0)");
+    isc_assertion_failed("prettydate.c", 144, (enum anonymous_45)isc_assertiontype_insist, "tm != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(folds == 0))
   {
     tm->tm_year = tm->tm_year + folds * 28;
     if(!(tm->tm_year >= 1))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = tm->tm_year >= 200 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = tm->tm_year >= 200 ? (_Bool)1 : (_Bool)0;
     return (struct tm *)(void *)0;
   }
 
@@ -11121,7 +11121,7 @@ static struct tm * get_struct_tm(const union anonymous$44 *stamp, signed int loc
 
 // get_systime
 // file systime.c line 162
-extern void get_systime(struct anonymous$38 *now)
+extern void get_systime(struct anonymous_38 *now)
 {
   struct timespec ts;
   struct timespec ts_min;
@@ -11129,9 +11129,9 @@ extern void get_systime(struct anonymous$38 *now)
   struct timespec ts_prev_log;
   double dfuzz;
   double ddelta;
-  struct anonymous$38 result;
-  struct anonymous$38 lfpfuzz;
-  struct anonymous$38 lfpdelta;
+  struct anonymous_38 result;
+  struct anonymous_38 lfpfuzz;
+  struct anonymous_38 lfpdelta;
   get_ostime(&ts);
 
 __CPROVER_DUMP_L1:
@@ -11139,21 +11139,21 @@ __CPROVER_DUMP_L1:
 
 __CPROVER_DUMP_L2:
   ;
-  struct timespec return_value_add_tspec_ns$1;
-  return_value_add_tspec_ns$1=add_tspec_ns(ts, (signed long int)50000000);
-  signed int return_value_cmp_tspec$2;
+  struct timespec return_value_add_tspec_ns_1;
+  return_value_add_tspec_ns_1=add_tspec_ns(ts, (signed long int)50000000);
+  signed int return_value_cmp_tspec_2;
   static struct timespec ts_last;
-  return_value_cmp_tspec$2=cmp_tspec(return_value_add_tspec_ns$1, ts_last);
-  if(!(return_value_cmp_tspec$2 >= 0))
+  return_value_cmp_tspec_2=cmp_tspec(return_value_add_tspec_ns_1, ts_last);
+  if(!(return_value_cmp_tspec_2 >= 0))
     lamport_violated = 1;
 
   ts_last = ts;
   {
     static struct timespec ts_prev;
     ts_min=add_tspec_ns(ts_prev, sys_fuzz_nsec);
-    signed int return_value_cmp_tspec$3;
-    return_value_cmp_tspec$3=cmp_tspec(ts, ts_min);
-    if(!(return_value_cmp_tspec$3 >= 0))
+    signed int return_value_cmp_tspec_3;
+    return_value_cmp_tspec_3=cmp_tspec(ts, ts_min);
+    if(!(return_value_cmp_tspec_3 >= 0))
     {
       ts_lam=sub_tspec(ts_min, ts);
       if(lamport_violated == 0 && ts_lam.tv_sec >= 1l)
@@ -11171,9 +11171,9 @@ __CPROVER_DUMP_L2:
     ts_prev = ts;
   }
   result=tspec_stamp_to_lfp(ts);
-  signed long int return_value_ntp_random$4;
-  return_value_ntp_random$4=ntp_random();
-  dfuzz = (((double)return_value_ntp_random$4 * 2.) / 4294967296.0) * sys_fuzz;
+  signed long int return_value_ntp_random_4;
+  return_value_ntp_random_4=ntp_random();
+  dfuzz = (((double)return_value_ntp_random_4 * 2.) / 4294967296.0) * sys_fuzz;
   do
   {
     double d_tmp;
@@ -11184,9 +11184,9 @@ __CPROVER_DUMP_L2:
     if(!(M_isneg == 0))
       d_tmp = -d_tmp;
 
-    double return_value_ldexp$5;
-    return_value_ldexp$5=ldexp(d_tmp, 32);
-    q_tmp = (unsigned long int)return_value_ldexp$5;
+    double return_value_ldexp_5;
+    return_value_ldexp_5=ldexp(d_tmp, 32);
+    q_tmp = (unsigned long int)return_value_ldexp_5;
     if(!(M_isneg == 0))
       q_tmp = ~q_tmp + (unsigned long int)1;
 
@@ -11201,38 +11201,38 @@ __CPROVER_DUMP_L2:
     (&result)->Ul_i.Xl_ui = (&result)->Ul_i.Xl_ui + (&lfpfuzz)->Ul_i.Xl_ui + (unsigned int)((unsigned int)(&result)->l_uf < add_t);
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
   static double dfuzz_prev;
-  static struct anonymous$38 lfp_prev;
+  static struct anonymous_38 lfp_prev;
   if(!((lfp_prev.Ul_i.Xl_ui | lfp_prev.l_uf) == 0u))
   {
     if(lamport_violated == 0)
     {
       if(!(lfp_prev.Ul_i.Xl_ui >= result.Ul_i.Xl_ui))
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
         if(result.Ul_i.Xl_ui == lfp_prev.Ul_i.Xl_ui)
-          tmp_if_expr$9 = (unsigned int)(&result)->l_uf > (unsigned int)(&lfp_prev)->l_uf ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (unsigned int)(&result)->l_uf > (unsigned int)(&lfp_prev)->l_uf ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (_Bool)0;
+        tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$10)
+      if(!tmp_if_expr_10)
       {
         if(sys_fuzz > 0.)
         {
-          const char *return_value_tspectoa$6;
-          return_value_tspectoa$6=tspectoa(ts_prev_log);
-          const char *return_value_tspectoa$7;
-          return_value_tspectoa$7=tspectoa(ts_min);
-          msyslog(3, "ts_prev %s ts_min %s", return_value_tspectoa$6, return_value_tspectoa$7);
-          const char *return_value_tspectoa$8;
-          return_value_tspectoa$8=tspectoa(ts);
-          msyslog(3, "ts %s", return_value_tspectoa$8);
+          const char *return_value_tspectoa_6;
+          return_value_tspectoa_6=tspectoa(ts_prev_log);
+          const char *return_value_tspectoa_7;
+          return_value_tspectoa_7=tspectoa(ts_min);
+          msyslog(3, "ts_prev %s ts_min %s", return_value_tspectoa_6, return_value_tspectoa_7);
+          const char *return_value_tspectoa_8;
+          return_value_tspectoa_8=tspectoa(ts);
+          msyslog(3, "ts %s", return_value_tspectoa_8);
           msyslog(3, "sys_fuzz %ld nsec, prior fuzz %.9f", sys_fuzz_nsec, dfuzz_prev);
           msyslog(3, "this fuzz %.9f", dfuzz);
           lfpdelta = lfp_prev;
@@ -11245,19 +11245,19 @@ __CPROVER_DUMP_L2:
           while((_Bool)0);
           do
           {
-            double get_systime$$1$$7$$1$$1$$2$$d_tmp;
-            unsigned long int get_systime$$1$$7$$1$$1$$2$$q_tmp;
-            signed int get_systime$$1$$7$$1$$1$$2$$M_isneg;
-            get_systime$$1$$7$$1$$1$$2$$q_tmp = ((unsigned long int)(&lfpdelta)->Ul_i.Xl_ui << 32) + (unsigned long int)(&lfpdelta)->l_uf;
-            get_systime$$1$$7$$1$$1$$2$$M_isneg = (signed int)(((&lfpdelta)->Ul_i.Xl_ui & 0x80000000) != (unsigned int)0);
-            if(!(get_systime$$1$$7$$1$$1$$2$$M_isneg == 0))
-              get_systime$$1$$7$$1$$1$$2$$q_tmp = ~get_systime$$1$$7$$1$$1$$2$$q_tmp + (unsigned long int)1;
+            double get_systime__1__7__1__1__2__d_tmp;
+            unsigned long int get_systime__1__7__1__1__2__q_tmp;
+            signed int get_systime__1__7__1__1__2__M_isneg;
+            get_systime__1__7__1__1__2__q_tmp = ((unsigned long int)(&lfpdelta)->Ul_i.Xl_ui << 32) + (unsigned long int)(&lfpdelta)->l_uf;
+            get_systime__1__7__1__1__2__M_isneg = (signed int)(((&lfpdelta)->Ul_i.Xl_ui & 0x80000000) != (unsigned int)0);
+            if(!(get_systime__1__7__1__1__2__M_isneg == 0))
+              get_systime__1__7__1__1__2__q_tmp = ~get_systime__1__7__1__1__2__q_tmp + (unsigned long int)1;
 
-            get_systime$$1$$7$$1$$1$$2$$d_tmp=ldexp((double)get_systime$$1$$7$$1$$1$$2$$q_tmp, -32);
-            if(!(get_systime$$1$$7$$1$$1$$2$$M_isneg == 0))
-              get_systime$$1$$7$$1$$1$$2$$d_tmp = -get_systime$$1$$7$$1$$1$$2$$d_tmp;
+            get_systime__1__7__1__1__2__d_tmp=ldexp((double)get_systime__1__7__1__1__2__q_tmp, -32);
+            if(!(get_systime__1__7__1__1__2__M_isneg == 0))
+              get_systime__1__7__1__1__2__d_tmp = -get_systime__1__7__1__1__2__d_tmp;
 
-            ddelta = get_systime$$1$$7$$1$$1$$2$$d_tmp;
+            ddelta = get_systime__1__7__1__1__2__d_tmp;
           }
           while((_Bool)0);
           msyslog(3, "prev get_systime 0x%x.%08x is %.9f later than 0x%x.%08x", lfp_prev.Ul_i.Xl_ui, lfp_prev.l_uf, ddelta, result.Ul_i.Xl_ui, result.l_uf);
@@ -11295,9 +11295,9 @@ static struct dnsworker_ctx_tag * get_worker_context(struct blocking_child_tag *
     static unsigned long int ps = sizeof(struct dnsworker_ctx_tag *) /*8ul*/ ;
     new_octets = (unsigned long int)new_alloc * ps;
     octets = (unsigned long int)dnsworker_contexts_alloc * ps;
-    void *return_value_ereallocz$1;
-    return_value_ereallocz$1=ereallocz((void *)dnsworker_contexts, new_octets, octets, 1);
-    dnsworker_contexts = (struct dnsworker_ctx_tag **)return_value_ereallocz$1;
+    void *return_value_ereallocz_1;
+    return_value_ereallocz_1=ereallocz((void *)dnsworker_contexts, new_octets, octets, 1);
+    dnsworker_contexts = (struct dnsworker_ctx_tag **)return_value_ereallocz_1;
     dnsworker_contexts_alloc = new_alloc;
   }
 
@@ -11319,13 +11319,13 @@ extern signed int getaddrinfo_sometime(const char *node, const char *service, st
   unsigned long int req_size;
   unsigned long int nodesize;
   unsigned long int servsize;
-  signed long int getaddrinfo_sometime$$1$$now;
+  signed long int getaddrinfo_sometime__1__now;
   if(!(node == ((const char *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("ntp_intres.c", 252, (enum anonymous$45)isc_assertiontype_require, "((void *)0) != node");
+    isc_assertion_failed("ntp_intres.c", 252, (enum anonymous_45)isc_assertiontype_require, "((void *)0) != node");
     (_Bool)0;
   }
   if(!(hints == ((struct addrinfo *)NULL)))
@@ -11335,7 +11335,7 @@ extern signed int getaddrinfo_sometime(const char *node, const char *service, st
 
     else
     {
-      isc_assertion_failed("ntp_intres.c", 254, (enum anonymous$45)isc_assertiontype_require, "0 == hints->ai_addrlen");
+      isc_assertion_failed("ntp_intres.c", 254, (enum anonymous_45)isc_assertiontype_require, "0 == hints->ai_addrlen");
       (_Bool)0;
     }
     if(hints->ai_addr == ((struct sockaddr *)NULL))
@@ -11343,7 +11343,7 @@ extern signed int getaddrinfo_sometime(const char *node, const char *service, st
 
     else
     {
-      isc_assertion_failed("ntp_intres.c", 255, (enum anonymous$45)isc_assertiontype_require, "((void *)0) == hints->ai_addr");
+      isc_assertion_failed("ntp_intres.c", 255, (enum anonymous_45)isc_assertiontype_require, "((void *)0) == hints->ai_addr");
       (_Bool)0;
     }
     if(hints->ai_canonname == ((char *)NULL))
@@ -11351,7 +11351,7 @@ extern signed int getaddrinfo_sometime(const char *node, const char *service, st
 
     else
     {
-      isc_assertion_failed("ntp_intres.c", 256, (enum anonymous$45)isc_assertiontype_require, "((void *)0) == hints->ai_canonname");
+      isc_assertion_failed("ntp_intres.c", 256, (enum anonymous_45)isc_assertiontype_require, "((void *)0) == hints->ai_canonname");
       (_Bool)0;
     }
     if(hints->ai_next == ((struct addrinfo *)NULL))
@@ -11359,34 +11359,34 @@ extern signed int getaddrinfo_sometime(const char *node, const char *service, st
 
     else
     {
-      isc_assertion_failed("ntp_intres.c", 257, (enum anonymous$45)isc_assertiontype_require, "((void *)0) == hints->ai_next");
+      isc_assertion_failed("ntp_intres.c", 257, (enum anonymous_45)isc_assertiontype_require, "((void *)0) == hints->ai_next");
       (_Bool)0;
     }
   }
 
   idx=get_dnschild_ctx();
   child_ctx = dnschild_contexts[(signed long int)idx];
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(node);
-  nodesize = return_value_strlen$1 + (unsigned long int)1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(service);
-  servsize = return_value_strlen$2 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(node);
+  nodesize = return_value_strlen_1 + (unsigned long int)1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(service);
+  servsize = return_value_strlen_2 + (unsigned long int)1;
   req_size = sizeof(struct blocking_gai_req_tag) /*120ul*/  + nodesize + servsize;
-  void *return_value_ereallocz$3;
-  return_value_ereallocz$3=ereallocz((void *)0, req_size, (unsigned long int)0, 1);
-  gai_req = (struct blocking_gai_req_tag *)return_value_ereallocz$3;
+  void *return_value_ereallocz_3;
+  return_value_ereallocz_3=ereallocz((void *)0, req_size, (unsigned long int)0, 1);
+  gai_req = (struct blocking_gai_req_tag *)return_value_ereallocz_3;
   gai_req->octets = req_size;
   gai_req->dns_idx = idx;
-  getaddrinfo_sometime$$1$$now=time((signed long int *)(void *)0);
-  gai_req->scheduled = getaddrinfo_sometime$$1$$now;
-  signed long int tmp_if_expr$4;
-  if(!(child_ctx->next_dns_timeslot >= getaddrinfo_sometime$$1$$now))
-    tmp_if_expr$4 = getaddrinfo_sometime$$1$$now;
+  getaddrinfo_sometime__1__now=time((signed long int *)(void *)0);
+  gai_req->scheduled = getaddrinfo_sometime__1__now;
+  signed long int tmp_if_expr_4;
+  if(!(child_ctx->next_dns_timeslot >= getaddrinfo_sometime__1__now))
+    tmp_if_expr_4 = getaddrinfo_sometime__1__now;
 
   else
-    tmp_if_expr$4 = child_ctx->next_dns_timeslot;
-  gai_req->earliest = tmp_if_expr$4;
+    tmp_if_expr_4 = child_ctx->next_dns_timeslot;
+  gai_req->earliest = tmp_if_expr_4;
   child_ctx->next_dns_timeslot = gai_req->earliest;
   if(!(hints == ((struct addrinfo *)NULL)))
     gai_req->hints = *hints;
@@ -11398,14 +11398,14 @@ extern signed int getaddrinfo_sometime(const char *node, const char *service, st
   gai_req->servsize = servsize;
   memcpy((void *)((char *)gai_req + (signed long int)sizeof(struct blocking_gai_req_tag) /*120ul*/ ), (const void *)node, nodesize);
   memcpy((void *)((char *)gai_req + (signed long int)sizeof(struct blocking_gai_req_tag) /*120ul*/  + (signed long int)nodesize), (const void *)service, servsize);
-  signed int return_value_queue_blocking_request$6;
-  return_value_queue_blocking_request$6=queue_blocking_request((enum blocking_work_req_tag)BLOCKING_GETADDRINFO, (void *)gai_req, req_size, getaddrinfo_sometime_complete, (void *)gai_req);
-  if(!(return_value_queue_blocking_request$6 == 0))
+  signed int return_value_queue_blocking_request_6;
+  return_value_queue_blocking_request_6=queue_blocking_request((enum blocking_work_req_tag)BLOCKING_GETADDRINFO, (void *)gai_req, req_size, getaddrinfo_sometime_complete, (void *)gai_req);
+  if(!(return_value_queue_blocking_request_6 == 0))
   {
     msyslog(3, "unable to queue getaddrinfo request");
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5 = 14;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5 = 14;
     return -1;
   }
 
@@ -11421,7 +11421,7 @@ static void getaddrinfo_sometime_complete(enum blocking_work_req_tag rtype, void
   struct dnschild_ctx_tag *child_ctx;
   struct addrinfo *ai;
   struct addrinfo *next_ai;
-  union anonymous$47 *psau;
+  union anonymous_47 *psau;
   char *node;
   char *service;
   char *canon_start;
@@ -11441,8 +11441,8 @@ __CPROVER_DUMP_L2:
   node = (char *)gai_req + (signed long int)sizeof(struct blocking_gai_req_tag) /*120ul*/ ;
   service = node + (signed long int)gai_req->nodesize;
   child_ctx = dnschild_contexts[(signed long int)gai_req->dns_idx];
-  const char *return_value_humantime$1;
-  const char *return_value_gai_strerror$3;
+  const char *return_value_humantime_1;
+  const char *return_value_gai_strerror_3;
   if(gai_resp->retcode == 0)
   {
     if(gai_resp->retry >= 3)
@@ -11452,8 +11452,8 @@ __CPROVER_DUMP_L2:
       do
         if(debug >= 1)
         {
-          return_value_humantime$1=humantime(time_now);
-          mprintf("DNS success after retry, %u next_dns_timeslot reset (%s)\n", gai_req->dns_idx, return_value_humantime$1);
+          return_value_humantime_1=humantime(time_now);
+          mprintf("DNS success after retry, %u next_dns_timeslot reset (%s)\n", gai_req->dns_idx, return_value_humantime_1);
         }
 
       while((_Bool)0);
@@ -11476,25 +11476,25 @@ __CPROVER_DUMP_L2:
             fam_spec = 10 == af ? " (AAAA)" : (2 == af ? " (A)" : "");
             if(gai_resp->retcode == -11)
             {
-              signed int *return_value___errno_location$2;
-              return_value___errno_location$2=__errno_location();
-              *return_value___errno_location$2 = gai_resp->gai_errno;
+              signed int *return_value___errno_location_2;
+              return_value___errno_location_2=__errno_location();
+              *return_value___errno_location_2 = gai_resp->gai_errno;
               msyslog(6, "retrying DNS %s%s: EAI_SYSTEM %d: %m", node, fam_spec, gai_resp->gai_errno);
             }
 
             else
             {
-              return_value_gai_strerror$3=gai_strerror(gai_resp->retcode);
-              msyslog(6, "retrying DNS %s%s: %s (%d)", node, fam_spec, return_value_gai_strerror$3, gai_resp->retcode);
+              return_value_gai_strerror_3=gai_strerror(gai_resp->retcode);
+              msyslog(6, "retrying DNS %s%s: %s (%d)", node, fam_spec, return_value_gai_strerror_3, gai_resp->retcode);
             }
           }
 
         }
 
         manage_dns_retry_interval(&gai_req->scheduled, &gai_req->earliest, &gai_req->retry, &child_ctx->next_dns_timeslot);
-        signed int return_value_queue_blocking_request$4;
-        return_value_queue_blocking_request$4=queue_blocking_request((enum blocking_work_req_tag)BLOCKING_GETADDRINFO, (void *)gai_req, gai_req->octets, getaddrinfo_sometime_complete, (void *)gai_req);
-        if(return_value_queue_blocking_request$4 == 0)
+        signed int return_value_queue_blocking_request_4;
+        return_value_queue_blocking_request_4=queue_blocking_request((enum blocking_work_req_tag)BLOCKING_GETADDRINFO, (void *)gai_req, gai_req->octets, getaddrinfo_sometime_complete, (void *)gai_req);
+        if(return_value_queue_blocking_request_4 == 0)
           goto __CPROVER_DUMP_L23;
 
         else
@@ -11512,8 +11512,8 @@ __CPROVER_DUMP_L2:
     (ai + (signed long int)i)->ai_next = next_ai;
     next_ai = &ai[(signed long int)i];
   }
-  psau = (union anonymous$47 *)(void *)((char *)ai + (signed long int)((unsigned long int)gai_resp->ai_count * sizeof(struct addrinfo) /*48ul*/ ));
-  canon_start = (char *)psau + (signed long int)((unsigned long int)gai_resp->ai_count * sizeof(union anonymous$47) /*28ul*/ );
+  psau = (union anonymous_47 *)(void *)((char *)ai + (signed long int)((unsigned long int)gai_resp->ai_count * sizeof(struct addrinfo) /*48ul*/ ));
+  canon_start = (char *)psau + (signed long int)((unsigned long int)gai_resp->ai_count * sizeof(union anonymous_47) /*28ul*/ );
   i = 0;
   for( ; !(i >= gai_resp->ai_count); i = i + 1)
   {
@@ -11530,7 +11530,7 @@ __CPROVER_DUMP_L2:
 
   else
   {
-    isc_assertion_failed("ntp_intres.c", 571, (enum anonymous$45)isc_assertiontype_ensure, "(char *)psau == canon_start");
+    isc_assertion_failed("ntp_intres.c", 571, (enum anonymous_45)isc_assertiontype_ensure, "(char *)psau == canon_start");
     (_Bool)0;
   }
   if(gai_resp->ai_count == 0)
@@ -11552,13 +11552,13 @@ static const char * getcode(signed int code, struct codestring *codetab)
     if(codetab->code == code)
       return codetab->string;
 
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$1 = lib_nextbuf;
+    tmp_post_1 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    buf = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+    buf = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
@@ -11571,7 +11571,7 @@ static const char * getcode(signed int code, struct codestring *codetab)
 static const char * getevents(signed int cnt)
 {
   char *buf;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(cnt == 0)
     return "no events";
 
@@ -11580,9 +11580,9 @@ static const char * getevents(signed int cnt)
     do
     {
       bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-      tmp_post$1 = lib_nextbuf;
+      tmp_post_1 = lib_nextbuf;
       lib_nextbuf = lib_nextbuf + 1;
-      buf = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+      buf = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
       lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
     }
     while((_Bool)0);
@@ -11593,7 +11593,7 @@ static const char * getevents(signed int cnt)
 
 // getnameinfo_sometime
 // file ntp_intres.c line 623
-extern signed int getnameinfo_sometime(union anonymous$47 *psau, unsigned long int hostoctets, unsigned long int servoctets, signed int flags, void (*callback)(signed int, signed int, union anonymous$47 *, signed int, const char *, const char *, void *), void *context)
+extern signed int getnameinfo_sometime(union anonymous_47 *psau, unsigned long int hostoctets, unsigned long int servoctets, signed int flags, void (*callback)(signed int, signed int, union anonymous_47 *, signed int, const char *, const char *, void *), void *context)
 {
   struct blocking_gni_req_tag *gni_req;
   unsigned int idx;
@@ -11604,7 +11604,7 @@ extern signed int getnameinfo_sometime(union anonymous$47 *psau, unsigned long i
 
   else
   {
-    isc_assertion_failed("ntp_intres.c", 637, (enum anonymous$45)isc_assertiontype_require, "hostoctets");
+    isc_assertion_failed("ntp_intres.c", 637, (enum anonymous_45)isc_assertiontype_require, "hostoctets");
     (_Bool)0;
   }
   if(!(hostoctets + servoctets >= 1024ul))
@@ -11612,25 +11612,25 @@ extern signed int getnameinfo_sometime(union anonymous$47 *psau, unsigned long i
 
   else
   {
-    isc_assertion_failed("ntp_intres.c", 638, (enum anonymous$45)isc_assertiontype_require, "hostoctets + servoctets < 1024");
+    isc_assertion_failed("ntp_intres.c", 638, (enum anonymous_45)isc_assertiontype_require, "hostoctets + servoctets < 1024");
     (_Bool)0;
   }
   idx=get_dnschild_ctx();
   child_ctx = dnschild_contexts[(signed long int)idx];
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)0, sizeof(struct blocking_gni_req_tag) /*112ul*/ , (unsigned long int)0, 1);
-  gni_req = (struct blocking_gni_req_tag *)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)0, sizeof(struct blocking_gni_req_tag) /*112ul*/ , (unsigned long int)0, 1);
+  gni_req = (struct blocking_gni_req_tag *)return_value_ereallocz_1;
   gni_req->octets = sizeof(struct blocking_gni_req_tag) /*112ul*/ ;
   gni_req->dns_idx = idx;
   time_now=time((signed long int *)(void *)0);
   gni_req->scheduled = time_now;
-  signed long int tmp_if_expr$2;
+  signed long int tmp_if_expr_2;
   if(!(child_ctx->next_dns_timeslot >= time_now))
-    tmp_if_expr$2 = time_now;
+    tmp_if_expr_2 = time_now;
 
   else
-    tmp_if_expr$2 = child_ctx->next_dns_timeslot;
-  gni_req->earliest = tmp_if_expr$2;
+    tmp_if_expr_2 = child_ctx->next_dns_timeslot;
+  gni_req->earliest = tmp_if_expr_2;
   child_ctx->next_dns_timeslot = gni_req->earliest;
   memcpy((void *)&gni_req->socku, (const void *)psau, 2 == (signed int)psau->sa.sa_family ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ );
   gni_req->hostoctets = hostoctets;
@@ -11639,14 +11639,14 @@ extern signed int getnameinfo_sometime(union anonymous$47 *psau, unsigned long i
   gni_req->retry = 2;
   gni_req->callback = callback;
   gni_req->context = context;
-  signed int return_value_queue_blocking_request$4;
-  return_value_queue_blocking_request$4=queue_blocking_request((enum blocking_work_req_tag)BLOCKING_GETNAMEINFO, (void *)gni_req, sizeof(struct blocking_gni_req_tag) /*112ul*/ , getnameinfo_sometime_complete, (void *)gni_req);
-  if(!(return_value_queue_blocking_request$4 == 0))
+  signed int return_value_queue_blocking_request_4;
+  return_value_queue_blocking_request_4=queue_blocking_request((enum blocking_work_req_tag)BLOCKING_GETNAMEINFO, (void *)gni_req, sizeof(struct blocking_gni_req_tag) /*112ul*/ , getnameinfo_sometime_complete, (void *)gni_req);
+  if(!(return_value_queue_blocking_request_4 == 0))
   {
     msyslog(3, "unable to queue getnameinfo request");
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 14;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 14;
     return -1;
   }
 
@@ -11673,7 +11673,7 @@ __CPROVER_DUMP_L1:
 __CPROVER_DUMP_L2:
   ;
   child_ctx = dnschild_contexts[(signed long int)gni_req->dns_idx];
-  const char *return_value_humantime$1;
+  const char *return_value_humantime_1;
   if(gni_resp->retcode == 0)
   {
     if(gni_resp->retry >= 3)
@@ -11683,8 +11683,8 @@ __CPROVER_DUMP_L2:
       do
         if(debug >= 1)
         {
-          return_value_humantime$1=humantime(time_now);
-          mprintf("DNS success after retry, %u next_dns_timeslot reset (%s)\n", gni_req->dns_idx, return_value_humantime$1);
+          return_value_humantime_1=humantime(time_now);
+          mprintf("DNS success after retry, %u next_dns_timeslot reset (%s)\n", gni_req->dns_idx, return_value_humantime_1);
         }
 
       while((_Bool)0);
@@ -11702,20 +11702,20 @@ __CPROVER_DUMP_L2:
     {
       if(!(again == 0))
       {
-        signed int return_value_queue_blocking_request$2;
-        return_value_queue_blocking_request$2=queue_blocking_request((enum blocking_work_req_tag)BLOCKING_GETNAMEINFO, (void *)gni_req, gni_req->octets, getnameinfo_sometime_complete, (void *)gni_req);
-        if(return_value_queue_blocking_request$2 == 0)
+        signed int return_value_queue_blocking_request_2;
+        return_value_queue_blocking_request_2=queue_blocking_request((enum blocking_work_req_tag)BLOCKING_GETNAMEINFO, (void *)gni_req, gni_req->octets, getnameinfo_sometime_complete, (void *)gni_req);
+        if(return_value_queue_blocking_request_2 == 0)
           goto __CPROVER_DUMP_L14;
 
-        const char *return_value_socktoa$3;
-        return_value_socktoa$3=socktoa(&gni_req->socku);
-        msyslog(3, "unable to retry reverse lookup of %s", return_value_socktoa$3);
+        const char *return_value_socktoa_3;
+        return_value_socktoa_3=socktoa(&gni_req->socku);
+        msyslog(3, "unable to retry reverse lookup of %s", return_value_socktoa_3);
       }
 
     }
 
   }
-  char *tmp_if_expr$4;
+  char *tmp_if_expr_4;
   if(gni_resp->hostoctets == 0ul)
   {
     host = (char *)(void *)0;
@@ -11726,11 +11726,11 @@ __CPROVER_DUMP_L2:
   {
     host = (char *)gni_resp + (signed long int)sizeof(struct blocking_gni_resp_tag) /*40ul*/ ;
     if(!(gni_resp->servoctets == 0ul))
-      tmp_if_expr$4 = host + (signed long int)gni_resp->hostoctets;
+      tmp_if_expr_4 = host + (signed long int)gni_resp->hostoctets;
 
     else
-      tmp_if_expr$4 = (char *)(void *)0;
-    service = tmp_if_expr$4;
+      tmp_if_expr_4 = (char *)(void *)0;
+    service = tmp_if_expr_4;
   }
   gni_req->callback(gni_resp->retcode, gni_resp->gni_errno, &gni_req->socku, gni_req->flags, host, service, gni_req->context);
   free((void *)gni_req);
@@ -11744,21 +11744,21 @@ __CPROVER_DUMP_L14:
 extern char * getpass_keytype(signed int keytype)
 {
   char pass_prompt[76l];
-  const char *return_value_keytype_name$1;
-  return_value_keytype_name$1=keytype_name(keytype);
-  snprintf(pass_prompt, sizeof(char [76l]) /*76ul*/ , "%.64s Password: ", return_value_keytype_name$1);
-  char *return_value_getpass$2;
-  return_value_getpass$2=getpass(pass_prompt);
-  return return_value_getpass$2;
+  const char *return_value_keytype_name_1;
+  return_value_keytype_name_1=keytype_name(keytype);
+  snprintf(pass_prompt, sizeof(char [76l]) /*76ul*/ , "%.64s Password: ", return_value_keytype_name_1);
+  char *return_value_getpass_2;
+  return_value_getpass_2=getpass(pass_prompt);
+  return return_value_getpass_2;
 }
 
 // gmprettydate
 // file prettydate.c line 214
-extern char * gmprettydate(struct anonymous$38 *ts)
+extern char * gmprettydate(struct anonymous_38 *ts)
 {
-  char *return_value_common_prettydate$1;
-  return_value_common_prettydate$1=common_prettydate(ts, 0);
-  return return_value_common_prettydate$1;
+  char *return_value_common_prettydate_1;
+  return_value_common_prettydate_1=common_prettydate(ts, 0);
+  return return_value_common_prettydate_1;
 }
 
 // good_rand
@@ -11785,19 +11785,19 @@ static double greatcircle(double lat1, double long1, double lat2, double long2)
   double l2r;
   l1r = lat1 * (3.1415926536 / 180.0);
   l2r = lat2 * (3.1415926536 / 180.0);
-  double return_value_cos$1;
-  return_value_cos$1=cos(l1r);
-  double return_value_cos$2;
-  return_value_cos$2=cos(l2r);
-  double return_value_cos$3;
-  return_value_cos$3=cos((long2 - long1) * (3.1415926536 / 180.0));
-  double return_value_sin$4;
-  return_value_sin$4=sin(l1r);
-  double return_value_sin$5;
-  return_value_sin$5=sin(l2r);
-  double return_value_acos$6;
-  return_value_acos$6=acos(return_value_cos$1 * return_value_cos$2 * return_value_cos$3 + return_value_sin$4 * return_value_sin$5);
-  dg = 6370.0 * return_value_acos$6;
+  double return_value_cos_1;
+  return_value_cos_1=cos(l1r);
+  double return_value_cos_2;
+  return_value_cos_2=cos(l2r);
+  double return_value_cos_3;
+  return_value_cos_3=cos((long2 - long1) * (3.1415926536 / 180.0));
+  double return_value_sin_4;
+  return_value_sin_4=sin(l1r);
+  double return_value_sin_5;
+  return_value_sin_5=sin(l2r);
+  double return_value_acos_6;
+  return_value_acos_6=acos(return_value_cos_1 * return_value_cos_2 * return_value_cos_3 + return_value_sin_4 * return_value_sin_5);
+  dg = 6370.0 * return_value_acos_6;
   if(debug >= 2)
     printf("greatcircle lat1 %g long1 %g lat2 %g long2 %g dist %g\n", lat1, long1, lat2, long2, dg);
 
@@ -11822,16 +11822,16 @@ static unsigned int greatest_version(struct isc_logchannel *channel, signed int 
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1157, (enum anonymous$45)isc_assertiontype_require, "channel->type == 3");
+    isc_assertion_failed("./../lib/isc/log.c", 1157, (enum anonymous_45)isc_assertiontype_require, "channel->type == 3");
     (_Bool)0;
   }
   basenam=strrchr(channel->destination.file.name, (signed int)sep);
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(!(basenam == ((char *)NULL)))
   {
-    tmp_post$1 = basenam;
+    tmp_post_1 = basenam;
     basenam = basenam + 1l;
-    *tmp_post$1 = (char)0;
+    *tmp_post_1 = (char)0;
     dirname = channel->destination.file.name;
   }
 
@@ -11839,8 +11839,8 @@ static unsigned int greatest_version(struct isc_logchannel *channel, signed int 
   {
     do
     {
-      /* tag-#anon#lUN[l*{clV}$clV$'k'||l*{lV}$lV$'v'|] */
-union anonymous$10
+      /* tag-#anon#lUN[l*{clV}_clV_'k'||l*{lV}_lV_'v'|] */
+union anonymous_10
 {
   // k
   const void *k;
@@ -11850,23 +11850,23 @@ union anonymous$10
 
 /* */
       ;
-      union anonymous$10 _u;
+      union anonymous_10 _u;
       _u.k = (const void *)channel->destination.file.name;
       basenam = (char *)_u.v;
     }
     while((_Bool)0);
     dirname = ".";
   }
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(basenam);
-  basenamelen = (unsigned int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(basenam);
+  basenamelen = (unsigned int)return_value_strlen_2;
   isc_dir_init(&dir);
   result=isc_dir_open(&dir, dirname);
   if(!(basenam == channel->destination.file.name))
     *(basenam - (signed long int)1) = sep;
 
-  unsigned int return_value_isc_dir_read$3;
-  signed int return_value_strncmp$5;
+  unsigned int return_value_isc_dir_read_3;
+  signed int return_value_strncmp_5;
   if(!(result == 0u))
     return result;
 
@@ -11874,20 +11874,20 @@ union anonymous$10
   {
     do
     {
-      return_value_isc_dir_read$3=isc_dir_read(&dir);
-      if(!(return_value_isc_dir_read$3 == 0u))
+      return_value_isc_dir_read_3=isc_dir_read(&dir);
+      if(!(return_value_isc_dir_read_3 == 0u))
         break;
 
       if(!(basenamelen >= dir.entry.length))
       {
-        return_value_strncmp$5=strncmp(dir.entry.name, basenam, (unsigned long int)basenamelen);
-        if(return_value_strncmp$5 == 0)
+        return_value_strncmp_5=strncmp(dir.entry.name, basenam, (unsigned long int)basenamelen);
+        if(return_value_strncmp_5 == 0)
         {
           if((signed int)dir.entry.name[(signed long int)basenamelen] == 46)
           {
-            signed long int return_value_strtol$4;
-            return_value_strtol$4=strtol(&dir.entry.name[(signed long int)(basenamelen + (unsigned int)1)], &digit_end, 10);
-            version = (signed int)return_value_strtol$4;
+            signed long int return_value_strtol_4;
+            return_value_strtol_4=strtol(&dir.entry.name[(signed long int)(basenamelen + (unsigned int)1)], &digit_end, 10);
+            version = (signed int)return_value_strtol_4;
             if((signed int)*digit_end == 0)
             {
               if(!(greatest >= version))
@@ -11912,13 +11912,13 @@ union anonymous$10
 
 // has_full_recv_buffer
 // file recvbuff.c line 296
-extern enum anonymous$11 has_full_recv_buffer(void)
+extern enum anonymous_11 has_full_recv_buffer(void)
 {
   if(!(full_recv_fifo.phead == ((struct recvbuf *)NULL)))
-    return (enum anonymous$11)isc_boolean_true;
+    return (enum anonymous_11)isc_boolean_true;
 
   else
-    return (enum anonymous$11)isc_boolean_false;
+    return (enum anonymous_11)isc_boolean_false;
 }
 
 // hextoint
@@ -11927,12 +11927,12 @@ extern signed int hextoint(const char *str, unsigned long int *pu)
 {
   unsigned long int u;
   const char *cp = str;
-  _Bool tmp_if_expr$7;
-  const char *tmp_post$2;
-  _Bool tmp_if_expr$6;
-  const char *tmp_post$3;
-  _Bool tmp_if_expr$5;
-  const char *tmp_post$4;
+  _Bool tmp_if_expr_7;
+  const char *tmp_post_2;
+  _Bool tmp_if_expr_6;
+  const char *tmp_post_3;
+  _Bool tmp_if_expr_5;
+  const char *tmp_post_4;
   if((signed int)*cp == 0)
     return 0;
 
@@ -11941,9 +11941,9 @@ extern signed int hextoint(const char *str, unsigned long int *pu)
     u = (unsigned long int)0;
     while(!((signed int)*cp == 0))
     {
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((4096 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((4096 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
         return 0;
 
       if(!((4026531840ul & u) == 0ul))
@@ -11951,43 +11951,43 @@ extern signed int hextoint(const char *str, unsigned long int *pu)
 
       u = u << 4;
       if((signed int)*cp >= 48)
-        tmp_if_expr$7 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
       {
-        tmp_post$2 = cp;
+        tmp_post_2 = cp;
         cp = cp + 1l;
-        u = u + (unsigned long int)((signed int)*tmp_post$2 - 48);
+        u = u + (unsigned long int)((signed int)*tmp_post_2 - 48);
       }
 
       else
       {
         if((signed int)*cp >= 97)
-          tmp_if_expr$6 = (signed int)*cp <= 102 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (signed int)*cp <= 102 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
-          tmp_post$3 = cp;
+          tmp_post_3 = cp;
           cp = cp + 1l;
-          u = u + (unsigned long int)(((signed int)*tmp_post$3 - 97) + 10);
+          u = u + (unsigned long int)(((signed int)*tmp_post_3 - 97) + 10);
         }
 
         else
         {
           if((signed int)*cp >= 65)
-            tmp_if_expr$5 = (signed int)*cp <= 70 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (signed int)*cp <= 70 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
           {
-            tmp_post$4 = cp;
+            tmp_post_4 = cp;
             cp = cp + 1l;
-            u = u + (unsigned long int)(((signed int)*tmp_post$4 - 65) + 10);
+            u = u + (unsigned long int)(((signed int)*tmp_post_4 - 65) + 10);
           }
 
           else
@@ -12002,7 +12002,7 @@ extern signed int hextoint(const char *str, unsigned long int *pu)
 
 // hextolfp
 // file hextolfp.c line 13
-extern signed int hextolfp(const char *str, struct anonymous$38 *lfp)
+extern signed int hextolfp(const char *str, struct anonymous_38 *lfp)
 {
   const char *cp;
   const char *cpstart;
@@ -12012,11 +12012,11 @@ extern signed int hextolfp(const char *str, struct anonymous$38 *lfp)
   dec_f = (unsigned long int)0;
   dec_i = dec_f;
   cp = str;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
       break;
 
     cp = cp + 1l;
@@ -12036,7 +12036,7 @@ extern signed int hextolfp(const char *str, struct anonymous$38 *lfp)
     dec_i = dec_i << 4;
     dec_i = dec_i + (unsigned long int)(ind - digits > (signed long int)15 ? (ind - digits) - (signed long int)6 : ind - digits);
   }
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   if(ind == ((char *)NULL) || !(cp - cpstart >= 8l))
     return 0;
 
@@ -12064,8 +12064,8 @@ extern signed int hextolfp(const char *str, struct anonymous$38 *lfp)
     else
       if(!((signed int)*cp == 0))
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*cp]) == 0))
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*cp]) == 0))
           goto __CPROVER_DUMP_L10;
 
         return 0;
@@ -12092,7 +12092,7 @@ extern const char * humanlogtime(void)
   struct tm *tm;
   cursec=time((signed long int *)(void *)0);
   tm=localtime(&cursec);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(tm == ((struct tm *)NULL))
     return "-- --- --:--:--";
 
@@ -12101,9 +12101,9 @@ extern const char * humanlogtime(void)
     do
     {
       bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-      tmp_post$1 = lib_nextbuf;
+      tmp_post_1 = lib_nextbuf;
       lib_nextbuf = lib_nextbuf + 1;
-      bp = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+      bp = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
       lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
     }
     while((_Bool)0);
@@ -12119,7 +12119,7 @@ extern const char * humantime(signed long int cursec)
   char *bp;
   struct tm *tm;
   tm=localtime(&cursec);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(tm == ((struct tm *)NULL))
     return "--:--:--";
 
@@ -12128,9 +12128,9 @@ extern const char * humantime(signed long int cursec)
     do
     {
       bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-      tmp_post$1 = lib_nextbuf;
+      tmp_post_1 = lib_nextbuf;
       lib_nextbuf = lib_nextbuf + 1;
-      bp = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+      bp = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
       lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
     }
     while((_Bool)0);
@@ -12141,7 +12141,7 @@ extern const char * humantime(signed long int cursec)
 
 // icmpv64
 // file vint64ops.c line 128
-extern signed int icmpv64(const union anonymous$44 *lhs, const union anonymous$44 *rhs)
+extern signed int icmpv64(const union anonymous_44 *lhs, const union anonymous_44 *rhs)
 {
   signed int res = (signed int)(lhs->q_s > rhs->q_s) - (signed int)(lhs->q_s < rhs->q_s);
   return res;
@@ -12161,9 +12161,9 @@ signed int icom_freq(signed int fd, signed int ident, double freq)
   else
     temp = 5;
   doublefreq(freq * 1e6, &cmd[(signed long int)6], temp);
-  signed long int return_value_write$1;
-  return_value_write$1=write(fd, (const void *)cmd, (unsigned long int)(temp + 7));
-  rc = (signed int)return_value_write$1;
+  signed long int return_value_write_1;
+  return_value_write_1=write(fd, (const void *)cmd, (unsigned long int)(temp + 7));
+  rc = (signed int)return_value_write_1;
   if(rc == -1)
   {
     msyslog(3, "icom_freq: write() failed: %m");
@@ -12197,13 +12197,13 @@ signed int icom_init(const char *device, signed int speed, signed int trace)
     rc=tcgetattr(fd, &ttyb);
     if(!(rc >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      saved_errno = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      saved_errno = *return_value___errno_location_1;
       close(fd);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = saved_errno;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = saved_errno;
       return -1;
     }
 
@@ -12218,13 +12218,13 @@ signed int icom_init(const char *device, signed int speed, signed int trace)
     rc=tcsetattr(fd, 0, &ttyb);
     if(!(rc >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      saved_errno = *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      saved_errno = *return_value___errno_location_3;
       close(fd);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = saved_errno;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = saved_errno;
       return -1;
     }
 
@@ -12242,9 +12242,9 @@ static const char * inet_ntop4(const unsigned char *src, char *dst, unsigned lon
   len=snprintf(tmp, sizeof(char [16l]) /*16ul*/ , fmt, src[(signed long int)0], src[(signed long int)1], src[(signed long int)2], src[(signed long int)3]);
   if((unsigned long int)len >= size || !(len >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 28;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 28;
     return (const char *)(void *)0;
   }
 
@@ -12259,7 +12259,7 @@ static const char * inet_ntop6(const unsigned char *src, char *dst, unsigned lon
   char tmp[(signed long int)sizeof(char [46l]) /*46l*/ ];
   char *tp;
   /* tag-#anon#lST[S32'base'||S32'len'|] */
-struct anonymous$26
+struct anonymous_26
 {
   // base
   signed int base;
@@ -12269,8 +12269,8 @@ struct anonymous$26
 
 /* */
   ;
-  struct anonymous$26 best;
-  struct anonymous$26 cur;
+  struct anonymous_26 best;
+  struct anonymous_26 cur;
   unsigned int words[8l];
   signed int i;
   memset((void *)words, 0, sizeof(unsigned int [8l]) /*32ul*/ );
@@ -12316,20 +12316,20 @@ struct anonymous$26
 
   tp = tmp;
   i = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
   for( ; !(i >= 8); i = i + 1)
     if(i >= best.base && !(best.base == -1) && !(i >= best.base + best.len))
     {
       if(i == best.base)
       {
-        tmp_post$1 = tp;
+        tmp_post_1 = tp;
         tp = tp + 1l;
-        *tmp_post$1 = (char)58;
+        *tmp_post_1 = (char)58;
       }
 
     }
@@ -12338,72 +12338,72 @@ struct anonymous$26
     {
       if(!(i == 0))
       {
-        tmp_post$2 = tp;
+        tmp_post_2 = tp;
         tp = tp + 1l;
-        *tmp_post$2 = (char)58;
+        *tmp_post_2 = (char)58;
       }
 
       if(best.base == 0 && i == 6)
       {
         if(best.len == 6)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
           if(best.len == 7)
-            tmp_if_expr$5 = words[(signed long int)7] != (unsigned int)0x0001 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = words[(signed long int)7] != (unsigned int)0x0001 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (_Bool)0;
+          tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
-          tmp_if_expr$8 = (_Bool)1;
+        if(tmp_if_expr_6)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
           if(best.len == 5)
-            tmp_if_expr$7 = words[(signed long int)5] == (unsigned int)0xffff ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = words[(signed long int)5] == (unsigned int)0xffff ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = (_Bool)0;
+          tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
         {
-          const char *return_value_inet_ntop4$3;
-          return_value_inet_ntop4$3=inet_ntop4(src + (signed long int)12, tp, sizeof(char [46l]) /*46ul*/  - (unsigned long int)(tp - tmp));
-          if(return_value_inet_ntop4$3 == ((const char *)NULL))
+          const char *return_value_inet_ntop4_3;
+          return_value_inet_ntop4_3=inet_ntop4(src + (signed long int)12, tp, sizeof(char [46l]) /*46ul*/  - (unsigned long int)(tp - tmp));
+          if(return_value_inet_ntop4_3 == ((const char *)NULL))
             return (const char *)(void *)0;
 
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(tp);
-          tp = tp + (signed long int)return_value_strlen$4;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(tp);
+          tp = tp + (signed long int)return_value_strlen_4;
           break;
         }
 
       }
 
-      signed int return_value_snprintf$9;
-      return_value_snprintf$9=snprintf(tp, sizeof(char [46l]) /*46ul*/  - (unsigned long int)(tp - tmp), "%x", words[(signed long int)i]);
-      tp = tp + (signed long int)return_value_snprintf$9;
+      signed int return_value_snprintf_9;
+      return_value_snprintf_9=snprintf(tp, sizeof(char [46l]) /*46ul*/  - (unsigned long int)(tp - tmp), "%x", words[(signed long int)i]);
+      tp = tp + (signed long int)return_value_snprintf_9;
     }
-  char *tmp_post$10;
+  char *tmp_post_10;
   if(best.base + best.len == 8 && !(best.base == -1))
   {
-    tmp_post$10 = tp;
+    tmp_post_10 = tp;
     tp = tp + 1l;
-    *tmp_post$10 = (char)58;
+    *tmp_post_10 = (char)58;
   }
 
-  char *tmp_post$11 = tp;
+  char *tmp_post_11 = tp;
   tp = tp + 1l;
-  *tmp_post$11 = (char)0;
+  *tmp_post_11 = (char)0;
   if(!(size >= (unsigned long int)(tp - tmp)))
   {
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    *return_value___errno_location$12 = 28;
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    *return_value___errno_location_12 = 28;
     return (const char *)(void *)0;
   }
 
@@ -12424,12 +12424,12 @@ static signed int inet_pton4(const char *src, unsigned char *dst)
   octets = 0;
   tp = tmp;
   *tp = (unsigned char)0;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   do
   {
-    tmp_post$1 = src;
+    tmp_post_1 = src;
     src = src + 1l;
-    ch = (signed int)*tmp_post$1;
+    ch = (signed int)*tmp_post_1;
     if(ch == 0)
       break;
 
@@ -12503,12 +12503,12 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
   memset((void *)tp, 0, (unsigned long int)16);
   endp = tp + (signed long int)16;
   colonp = (unsigned char *)(void *)0;
-  const char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  signed int return_value_inet_pton4$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  const char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  signed int return_value_inet_pton4_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   if((signed int)*src == 58)
   {
     src = src + 1l;
@@ -12528,9 +12528,9 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
     val = (unsigned int)0;
     do
     {
-      tmp_post$1 = src;
+      tmp_post_1 = src;
       src = src + 1l;
-      ch = (signed int)*tmp_post$1;
+      ch = (signed int)*tmp_post_1;
       if(ch == 0)
         break;
 
@@ -12571,12 +12571,12 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
           if(!(endp >= tp + 2l))
             return 0;
 
-          tmp_post$2 = tp;
+          tmp_post_2 = tp;
           tp = tp + 1l;
-          *tmp_post$2 = (unsigned char)((signed int)(unsigned char)(val >> 8) & 0xff);
-          tmp_post$3 = tp;
+          *tmp_post_2 = (unsigned char)((signed int)(unsigned char)(val >> 8) & 0xff);
+          tmp_post_3 = tp;
           tp = tp + 1l;
-          *tmp_post$3 = (unsigned char)((signed int)(unsigned char)val & 0xff);
+          *tmp_post_3 = (unsigned char)((signed int)(unsigned char)val & 0xff);
           seen_xdigits = 0;
           val = (unsigned int)0;
         }
@@ -12585,8 +12585,8 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
         {
           if(ch == 46 && endp >= tp + 4l)
           {
-            return_value_inet_pton4$4=inet_pton4(curtok, tp);
-            if(return_value_inet_pton4$4 >= 1)
+            return_value_inet_pton4_4=inet_pton4(curtok, tp);
+            if(return_value_inet_pton4_4 >= 1)
             {
               tp = tp + (signed long int)4;
               seen_xdigits = 0;
@@ -12604,12 +12604,12 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
       if(!(endp >= tp + 2l))
         return 0;
 
-      tmp_post$5 = tp;
+      tmp_post_5 = tp;
       tp = tp + 1l;
-      *tmp_post$5 = (unsigned char)((signed int)(unsigned char)(val >> 8) & 0xff);
-      tmp_post$6 = tp;
+      *tmp_post_5 = (unsigned char)((signed int)(unsigned char)(val >> 8) & 0xff);
+      tmp_post_6 = tp;
       tp = tp + 1l;
-      *tmp_post$6 = (unsigned char)((signed int)(unsigned char)val & 0xff);
+      *tmp_post_6 = (unsigned char)((signed int)(unsigned char)val & 0xff);
     }
 
     if(!(colonp == ((unsigned char *)NULL)))
@@ -12644,9 +12644,9 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
 extern void init_auth(void)
 {
   unsigned long int newalloc = (unsigned long int)authhashbuckets * sizeof(struct savekey *) /*8ul*/ ;
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)key_hash, newalloc, (unsigned long int)0, 0);
-  key_hash = (struct savekey **)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)key_hash, newalloc, (unsigned long int)0, 0);
+  key_hash = (struct savekey **)return_value_ereallocz_1;
   memset((void *)key_hash, 0, newalloc);
   do
   {
@@ -12662,12 +12662,12 @@ extern void init_lib(void)
 {
   if(lib_inited == 0)
   {
-    unsigned int return_value_isc_net_probeipv4$1;
-    return_value_isc_net_probeipv4$1=isc_net_probeipv4();
-    ipv4_works = (signed int)((unsigned int)0 == return_value_isc_net_probeipv4$1);
-    unsigned int return_value_isc_net_probeipv6$2;
-    return_value_isc_net_probeipv6$2=isc_net_probeipv6();
-    ipv6_works = (signed int)((unsigned int)0 == return_value_isc_net_probeipv6$2);
+    unsigned int return_value_isc_net_probeipv4_1;
+    return_value_isc_net_probeipv4_1=isc_net_probeipv4();
+    ipv4_works = (signed int)((unsigned int)0 == return_value_isc_net_probeipv4_1);
+    unsigned int return_value_isc_net_probeipv6_2;
+    return_value_isc_net_probeipv6_2=isc_net_probeipv6();
+    ipv6_works = (signed int)((unsigned int)0 == return_value_isc_net_probeipv6_2);
     init_systime();
     lib_inited = 1;
   }
@@ -12678,9 +12678,9 @@ extern void init_lib(void)
 // file ./../lib/isc/unix/strerror.c line 40
 static void init_lock(void)
 {
-  unsigned int return_value_isc__mutex_init$1;
-  return_value_isc__mutex_init$1=isc__mutex_init(&isc_strerror_lock, "./../lib/isc/unix/strerror.c", (unsigned int)41);
-  if(return_value_isc__mutex_init$1 == 0u)
+  unsigned int return_value_isc__mutex_init_1;
+  return_value_isc__mutex_init_1=isc__mutex_init(&isc_strerror_lock, "./../lib/isc/unix/strerror.c", (unsigned int)41);
+  if(return_value_isc__mutex_init_1 == 0u)
     (_Bool)1;
 
   else
@@ -12751,9 +12751,9 @@ static inline void initialise_buffer(struct recvbuf *buff)
 // file ./../lib/isc/unix/net.c line 220
 static void initialize(void)
 {
-  signed int return_value_pthread_once$1;
-  return_value_pthread_once$1=pthread_once(&once, initialize_action);
-  if(return_value_pthread_once$1 == 0)
+  signed int return_value_pthread_once_1;
+  return_value_pthread_once_1=pthread_once(&once, initialize_action);
+  if(return_value_pthread_once_1 == 0)
     (_Bool)1;
 
   else
@@ -12763,13 +12763,13 @@ static void initialize(void)
   }
 }
 
-// initialize$link1
+// initialize_link1
 // file ./../lib/isc/random.c line 58
-static void initialize$link1(void)
+static void initialize_link1(void)
 {
-  signed int return_value_pthread_once$1$link1;
-  return_value_pthread_once$1$link1=pthread_once(&once$link1, initialize_rand);
-  if(return_value_pthread_once$1$link1 == 0)
+  signed int return_value_pthread_once_1_link1;
+  return_value_pthread_once_1_link1=pthread_once(&once_link1, initialize_rand);
+  if(return_value_pthread_once_1_link1 == 0)
     (_Bool)1;
 
   else
@@ -12779,14 +12779,14 @@ static void initialize$link1(void)
   }
 }
 
-// initialize$link2
+// initialize_link2
 // file ./../lib/isc/result.c line 166
-static void initialize$link2(void)
+static void initialize_link2(void)
 {
   isc_lib_initmsgcat();
-  signed int return_value_pthread_once$1$link2;
-  return_value_pthread_once$1$link2=pthread_once(&once$link2, initialize_action$link1);
-  if(return_value_pthread_once$1$link2 == 0)
+  signed int return_value_pthread_once_1_link2;
+  return_value_pthread_once_1_link2=pthread_once(&once_link2, initialize_action_link1);
+  if(return_value_pthread_once_1_link2 == 0)
     (_Bool)1;
 
   else
@@ -12804,14 +12804,14 @@ static void initialize_action(void)
   ipv6_result=try_proto(10);
 }
 
-// initialize_action$link1
+// initialize_action_link1
 // file ./../lib/isc/result.c line 149
-static void initialize_action$link1(void)
+static void initialize_action_link1(void)
 {
   unsigned int result;
-  unsigned int return_value_isc__mutex_init$1;
-  return_value_isc__mutex_init$1=isc__mutex_init(&lock, "./../lib/isc/result.c", (unsigned int)152);
-  if(return_value_isc__mutex_init$1 == 0u)
+  unsigned int return_value_isc__mutex_init_1;
+  return_value_isc__mutex_init_1=isc__mutex_init(&lock, "./../lib/isc/result.c", (unsigned int)152);
+  if(return_value_isc__mutex_init_1 == 0u)
     (_Bool)1;
 
   else
@@ -12826,11 +12826,11 @@ static void initialize_action$link1(void)
   }
   while((_Bool)0);
   result=register_table((unsigned int)(0 << 16), (unsigned int)62, text, isc_msgcat, 2);
-  const char *return_value_isc_msgcat_get$2;
+  const char *return_value_isc_msgcat_get_2;
   if(!(result == 0u))
   {
-    return_value_isc_msgcat_get$2=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-    isc_error_unexpected("./../lib/isc/result.c", 158, "register_table() %s: %u", return_value_isc_msgcat_get$2, result);
+    return_value_isc_msgcat_get_2=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+    isc_error_unexpected("./../lib/isc/result.c", 158, "register_table() %s: %u", return_value_isc_msgcat_get_2, result);
   }
 
 }
@@ -12839,9 +12839,9 @@ static void initialize_action$link1(void)
 // file ./../lib/isc/unix/net.c line 315
 static void initialize_ipv6only(void)
 {
-  signed int return_value_pthread_once$1;
-  return_value_pthread_once$1=pthread_once(&once_ipv6only, try_ipv6only);
-  if(return_value_pthread_once$1 == 0)
+  signed int return_value_pthread_once_1;
+  return_value_pthread_once_1=pthread_once(&once_ipv6only, try_ipv6only);
+  if(return_value_pthread_once_1 == 0)
     (_Bool)1;
 
   else
@@ -12855,9 +12855,9 @@ static void initialize_ipv6only(void)
 // file ./../lib/isc/unix/net.c line 368
 static void initialize_ipv6pktinfo(void)
 {
-  signed int return_value_pthread_once$1;
-  return_value_pthread_once$1=pthread_once(&once_ipv6pktinfo, try_ipv6pktinfo);
-  if(return_value_pthread_once$1 == 0)
+  signed int return_value_pthread_once_1;
+  return_value_pthread_once_1=pthread_once(&once_ipv6pktinfo, try_ipv6pktinfo);
+  if(return_value_pthread_once_1 == 0)
     (_Bool)1;
 
   else
@@ -12872,13 +12872,13 @@ static void initialize_ipv6pktinfo(void)
 static void initialize_rand(void)
 {
   unsigned int pid;
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  pid = (unsigned int)return_value_getpid$1;
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  pid = (unsigned int)return_value_getpid_1;
   pid = pid << 16 & 0xffff0000 | pid >> 16 & (unsigned int)0xffff;
-  signed long int return_value_time$2;
-  return_value_time$2=time((signed long int *)(void *)0);
-  srand((unsigned int)(return_value_time$2 ^ (signed long int)pid));
+  signed long int return_value_time_2;
+  return_value_time_2=time((signed long int *)(void *)0);
+  srand((unsigned int)(return_value_time_2 ^ (signed long int)pid));
 }
 
 // int32_sflag
@@ -12903,26 +12903,26 @@ static unsigned int internal_current(struct isc_interfaceiter *iter)
   struct ifaddrs *ifa;
   signed int family;
   unsigned int namelen;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(iter == ((struct isc_interfaceiter *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)iter)->magic == (unsigned int)(73 << 24 | 70 << 16 | 73 << 8 | 71) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)iter)->magic == (unsigned int)(73 << 24 | 70 << 16 | 73 << 8 | 71) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 145, (enum anonymous$45)isc_assertiontype_require, "(((iter) != ((void *)0)) && (((const isc__magic_t *)(iter))->magic == ((('I') << 24 | ('F') << 16 | ('I') << 8 | ('G')))))");
+    isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 145, (enum anonymous_45)isc_assertiontype_require, "(((iter) != ((void *)0)) && (((const isc__magic_t *)(iter))->magic == ((('I') << 24 | ('F') << 16 | ('I') << 8 | ('G')))))");
     (_Bool)0;
   }
   ifa = iter->pos;
-  unsigned int return_value_linux_if_inet6_current$2;
+  unsigned int return_value_linux_if_inet6_current_2;
   if(iter->pos == ((struct ifaddrs *)NULL))
   {
-    return_value_linux_if_inet6_current$2=linux_if_inet6_current(iter);
-    return return_value_linux_if_inet6_current$2;
+    return_value_linux_if_inet6_current_2=linux_if_inet6_current(iter);
+    return return_value_linux_if_inet6_current_2;
   }
 
   else
@@ -12932,7 +12932,7 @@ static unsigned int internal_current(struct isc_interfaceiter *iter)
 
     else
     {
-      isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 162, (enum anonymous$45)isc_assertiontype_insist, "ifa != ((void *)0)");
+      isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 162, (enum anonymous_45)isc_assertiontype_insist, "ifa != ((void *)0)");
       (_Bool)0;
     }
     if(!(ifa->ifa_name == ((char *)NULL)))
@@ -12940,7 +12940,7 @@ static unsigned int internal_current(struct isc_interfaceiter *iter)
 
     else
     {
-      isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 163, (enum anonymous$45)isc_assertiontype_insist, "ifa->ifa_name != ((void *)0)");
+      isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 163, (enum anonymous_45)isc_assertiontype_insist, "ifa->ifa_name != ((void *)0)");
       (_Bool)0;
     }
     if((64u & ifa->ifa_flags) == 0u)
@@ -12959,12 +12959,12 @@ static unsigned int internal_current(struct isc_interfaceiter *iter)
         else
         {
           if(family == 10)
-            seenv6 = (enum anonymous$11)isc_boolean_true;
+            seenv6 = (enum anonymous_11)isc_boolean_true;
 
           memset((void *)&iter->current, 0, sizeof(struct isc_interface) /*140ul*/ );
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(ifa->ifa_name);
-          namelen = (unsigned int)return_value_strlen$3;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(ifa->ifa_name);
+          namelen = (unsigned int)return_value_strlen_3;
           if((unsigned long int)namelen >= 32ul)
             namelen = (unsigned int)(sizeof(char [32l]) /*32ul*/  - (unsigned long int)1);
 
@@ -13041,13 +13041,13 @@ static unsigned int internal_next(struct isc_interfaceiter *iter)
   if(!(iter->pos == ((struct ifaddrs *)NULL)))
     iter->pos = iter->pos->ifa_next;
 
-  unsigned int return_value_linux_if_inet6_next$1;
+  unsigned int return_value_linux_if_inet6_next_1;
   if(iter->pos == ((struct ifaddrs *)NULL))
   {
     if(seenv6 == /*enum*/isc_boolean_false)
     {
-      return_value_linux_if_inet6_next$1=linux_if_inet6_next(iter);
-      return return_value_linux_if_inet6_next$1;
+      return_value_linux_if_inet6_next_1=linux_if_inet6_next(iter);
+      return return_value_linux_if_inet6_next_1;
     }
 
     return (unsigned int)29;
@@ -13063,16 +13063,16 @@ extern void interrupt_worker_sleep(void)
   unsigned int idx;
   struct blocking_child_tag *c;
   idx = (unsigned int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !((unsigned long int)idx >= blocking_children_alloc); idx = idx + 1u)
   {
     c = blocking_children[(signed long int)idx];
     if(c == ((struct blocking_child_tag *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (union anonymous$65 *)(void *)0 == c->wake_scheduled_sleep ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (union anonymous_65 *)(void *)0 == c->wake_scheduled_sleep ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       sem_post(c->wake_scheduled_sleep);
 
   }
@@ -13152,18 +13152,18 @@ unsigned int isc___errno2result(signed int posixerrno, const char *file, unsigne
 // file ./../lib/isc/buffer.c line 180
 void isc__buffer_activeregion(struct isc_buffer *b, struct isc_region *r)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 185, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 185, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(!(r == ((struct isc_region *)NULL)))
@@ -13171,7 +13171,7 @@ void isc__buffer_activeregion(struct isc_buffer *b, struct isc_region *r)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 186, (enum anonymous$45)isc_assertiontype_require, "r != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 186, (enum anonymous_45)isc_assertiontype_require, "r != ((void *)0)");
     (_Bool)0;
   }
   do
@@ -13193,18 +13193,18 @@ void isc__buffer_activeregion(struct isc_buffer *b, struct isc_region *r)
 // file ./../lib/isc/buffer.c line 121
 void isc__buffer_add(struct isc_buffer *b, unsigned int n)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 126, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 126, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->length >= b->used + n)
@@ -13212,7 +13212,7 @@ void isc__buffer_add(struct isc_buffer *b, unsigned int n)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 127, (enum anonymous$45)isc_assertiontype_require, "b->used + n <= b->length");
+    isc_assertion_failed("./../lib/isc/buffer.c", 127, (enum anonymous_45)isc_assertiontype_require, "b->used + n <= b->length");
     (_Bool)0;
   }
   do
@@ -13224,18 +13224,18 @@ void isc__buffer_add(struct isc_buffer *b, unsigned int n)
 // file ./../lib/isc/buffer.c line 109
 void isc__buffer_availableregion(struct isc_buffer *b, struct isc_region *r)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 114, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 114, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(!(r == ((struct isc_region *)NULL)))
@@ -13243,7 +13243,7 @@ void isc__buffer_availableregion(struct isc_buffer *b, struct isc_region *r)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 115, (enum anonymous$45)isc_assertiontype_require, "r != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 115, (enum anonymous_45)isc_assertiontype_require, "r != ((void *)0)");
     (_Bool)0;
   }
   do
@@ -13258,18 +13258,18 @@ void isc__buffer_availableregion(struct isc_buffer *b, struct isc_region *r)
 // file ./../lib/isc/buffer.c line 227
 void isc__buffer_back(struct isc_buffer *b, unsigned int n)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 232, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 232, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->current >= n)
@@ -13277,7 +13277,7 @@ void isc__buffer_back(struct isc_buffer *b, unsigned int n)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 233, (enum anonymous$45)isc_assertiontype_require, "n <= b->current");
+    isc_assertion_failed("./../lib/isc/buffer.c", 233, (enum anonymous_45)isc_assertiontype_require, "n <= b->current");
     (_Bool)0;
   }
   do
@@ -13289,18 +13289,18 @@ void isc__buffer_back(struct isc_buffer *b, unsigned int n)
 // file ./../lib/isc/buffer.c line 145
 void isc__buffer_clear(struct isc_buffer *b)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 150, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 150, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   do
@@ -13316,18 +13316,18 @@ void isc__buffer_clear(struct isc_buffer *b)
 // file ./../lib/isc/buffer.c line 156
 void isc__buffer_consumedregion(struct isc_buffer *b, struct isc_region *r)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 161, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 161, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(!(r == ((struct isc_region *)NULL)))
@@ -13335,7 +13335,7 @@ void isc__buffer_consumedregion(struct isc_buffer *b, struct isc_region *r)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 162, (enum anonymous$45)isc_assertiontype_require, "r != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 162, (enum anonymous_45)isc_assertiontype_require, "r != ((void *)0)");
     (_Bool)0;
   }
   do
@@ -13350,18 +13350,18 @@ void isc__buffer_consumedregion(struct isc_buffer *b, struct isc_region *r)
 // file ./../lib/isc/buffer.c line 204
 void isc__buffer_first(struct isc_buffer *b)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 209, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 209, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   do
@@ -13373,18 +13373,18 @@ void isc__buffer_first(struct isc_buffer *b)
 // file ./../lib/isc/buffer.c line 215
 void isc__buffer_forward(struct isc_buffer *b, unsigned int n)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 220, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 220, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->used >= b->current + n)
@@ -13392,7 +13392,7 @@ void isc__buffer_forward(struct isc_buffer *b, unsigned int n)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 221, (enum anonymous$45)isc_assertiontype_require, "b->current + n <= b->used");
+    isc_assertion_failed("./../lib/isc/buffer.c", 221, (enum anonymous_45)isc_assertiontype_require, "b->current + n <= b->used");
     (_Bool)0;
   }
   do
@@ -13409,13 +13409,13 @@ void isc__buffer_init(struct isc_buffer *b, const void *base, unsigned int lengt
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 37, (enum anonymous$45)isc_assertiontype_require, "b != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 37, (enum anonymous_45)isc_assertiontype_require, "b != ((void *)0)");
     (_Bool)0;
   }
   do
   {
-    /* tag-#anon#lUN[l*{clV}$clV$'konst'||l*{lV}$lV$'var'|] */
-union anonymous$28
+    /* tag-#anon#lUN[l*{clV}_clV_'konst'||l*{lV}_lV_'var'|] */
+union anonymous_28
 {
   // konst
   const void *konst;
@@ -13425,7 +13425,7 @@ union anonymous$28
 
 /* */
     ;
-    union anonymous$28 _u;
+    union anonymous_28 _u;
     _u.konst = base;
     b->base = _u.var;
     b->length = length;
@@ -13450,8 +13450,8 @@ void isc__buffer_initnull(struct isc_buffer *b)
 {
   do
   {
-    /* tag-#anon#lUN[l*{clV}$clV$'konst'||l*{lV}$lV$'var'|] */
-union anonymous$28
+    /* tag-#anon#lUN[l*{clV}_clV_'konst'||l*{lV}_lV_'var'|] */
+union anonymous_28
 {
   // konst
   const void *konst;
@@ -13461,7 +13461,7 @@ union anonymous$28
 
 /* */
     ;
-    union anonymous$28 _u;
+    union anonymous_28 _u;
     _u.konst = (void *)0;
     b->base = _u.var;
     b->length = (unsigned int)0;
@@ -13484,18 +13484,18 @@ union anonymous$28
 // file ./../lib/isc/buffer.c line 72
 void isc__buffer_invalidate(struct isc_buffer *b)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 77, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 77, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if((void *)b->link.prev == (void *)-1)
@@ -13503,7 +13503,7 @@ void isc__buffer_invalidate(struct isc_buffer *b)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 78, (enum anonymous$45)isc_assertiontype_require, "!((void *)((b)->link.prev) != (void *)(-1))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 78, (enum anonymous_45)isc_assertiontype_require, "!((void *)((b)->link.prev) != (void *)(-1))");
     (_Bool)0;
   }
   if(b->mctx == ((struct isc_mem *)NULL))
@@ -13511,7 +13511,7 @@ void isc__buffer_invalidate(struct isc_buffer *b)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 79, (enum anonymous$45)isc_assertiontype_require, "b->mctx == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 79, (enum anonymous_45)isc_assertiontype_require, "b->mctx == ((void *)0)");
     (_Bool)0;
   }
   do
@@ -13530,18 +13530,18 @@ void isc__buffer_invalidate(struct isc_buffer *b)
 // file ./../lib/isc/buffer.c line 398
 void isc__buffer_putmem(struct isc_buffer *b, const unsigned char *base, unsigned int length)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 401, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 401, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->length >= b->used + length)
@@ -13549,7 +13549,7 @@ void isc__buffer_putmem(struct isc_buffer *b, const unsigned char *base, unsigne
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 402, (enum anonymous$45)isc_assertiontype_require, "b->used + length <= b->length");
+    isc_assertion_failed("./../lib/isc/buffer.c", 402, (enum anonymous_45)isc_assertiontype_require, "b->used + length <= b->length");
     (_Bool)0;
   }
   do
@@ -13566,18 +13566,18 @@ void isc__buffer_putstr(struct isc_buffer *b, const char *source)
 {
   unsigned int l;
   unsigned char *cp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 412, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 412, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(!(source == ((const char *)NULL)))
@@ -13585,18 +13585,18 @@ void isc__buffer_putstr(struct isc_buffer *b, const char *source)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 413, (enum anonymous$45)isc_assertiontype_require, "source != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 413, (enum anonymous_45)isc_assertiontype_require, "source != ((void *)0)");
     (_Bool)0;
   }
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(source);
-  l = (unsigned int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(source);
+  l = (unsigned int)return_value_strlen_2;
   if(b->length + -b->used >= l)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 420, (enum anonymous$45)isc_assertiontype_require, "l <= ((b)->length - (b)->used)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 420, (enum anonymous_45)isc_assertiontype_require, "l <= ((b)->length - (b)->used)");
     (_Bool)0;
   }
   cp = (unsigned char *)(void *)((unsigned char *)b->base + (signed long int)b->used);
@@ -13608,18 +13608,18 @@ void isc__buffer_putstr(struct isc_buffer *b, const char *source)
 // file ./../lib/isc/buffer.c line 312
 void isc__buffer_putuint16(struct isc_buffer *b, unsigned short int val)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 313, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 313, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->length >= 2u + b->used)
@@ -13627,7 +13627,7 @@ void isc__buffer_putuint16(struct isc_buffer *b, unsigned short int val)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 314, (enum anonymous$45)isc_assertiontype_require, "b->used + 2 <= b->length");
+    isc_assertion_failed("./../lib/isc/buffer.c", 314, (enum anonymous_45)isc_assertiontype_require, "b->used + 2 <= b->length");
     (_Bool)0;
   }
   do
@@ -13646,18 +13646,18 @@ void isc__buffer_putuint16(struct isc_buffer *b, unsigned short int val)
 // file ./../lib/isc/buffer.c line 320
 void isc__buffer_putuint24(struct isc_buffer *b, unsigned int val)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 321, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 321, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->length >= 3u + b->used)
@@ -13665,7 +13665,7 @@ void isc__buffer_putuint24(struct isc_buffer *b, unsigned int val)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 322, (enum anonymous$45)isc_assertiontype_require, "b->used + 3 <= b->length");
+    isc_assertion_failed("./../lib/isc/buffer.c", 322, (enum anonymous_45)isc_assertiontype_require, "b->used + 3 <= b->length");
     (_Bool)0;
   }
   do
@@ -13685,18 +13685,18 @@ void isc__buffer_putuint24(struct isc_buffer *b, unsigned int val)
 // file ./../lib/isc/buffer.c line 351
 void isc__buffer_putuint32(struct isc_buffer *b, unsigned int val)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 352, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 352, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->length >= 4u + b->used)
@@ -13704,7 +13704,7 @@ void isc__buffer_putuint32(struct isc_buffer *b, unsigned int val)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 353, (enum anonymous$45)isc_assertiontype_require, "b->used + 4 <= b->length");
+    isc_assertion_failed("./../lib/isc/buffer.c", 353, (enum anonymous_45)isc_assertiontype_require, "b->used + 4 <= b->length");
     (_Bool)0;
   }
   do
@@ -13727,18 +13727,18 @@ void isc__buffer_putuint48(struct isc_buffer *b, unsigned long long int val)
 {
   unsigned short int valhi;
   unsigned int vallo;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 388, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 388, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->length >= 6u + b->used)
@@ -13746,7 +13746,7 @@ void isc__buffer_putuint48(struct isc_buffer *b, unsigned long long int val)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 389, (enum anonymous$45)isc_assertiontype_require, "b->used + 6 <= b->length");
+    isc_assertion_failed("./../lib/isc/buffer.c", 389, (enum anonymous_45)isc_assertiontype_require, "b->used + 6 <= b->length");
     (_Bool)0;
   }
   valhi = (unsigned short int)(val >> 32);
@@ -13763,14 +13763,14 @@ void isc__buffer_putuint48(struct isc_buffer *b, unsigned long long int val)
   while((_Bool)0);
   do
   {
-    unsigned char *isc__buffer_putuint48$$1$$2$$_cp;
-    unsigned int isc__buffer_putuint48$$1$$2$$_val2 = vallo;
-    isc__buffer_putuint48$$1$$2$$_cp = (unsigned char *)(void *)((unsigned char *)b->base + (signed long int)b->used);
+    unsigned char *isc__buffer_putuint48__1__2___cp;
+    unsigned int isc__buffer_putuint48__1__2___val2 = vallo;
+    isc__buffer_putuint48__1__2___cp = (unsigned char *)(void *)((unsigned char *)b->base + (signed long int)b->used);
     b->used = b->used + (unsigned int)4;
-    isc__buffer_putuint48$$1$$2$$_cp[(signed long int)0] = (unsigned char)((isc__buffer_putuint48$$1$$2$$_val2 & 0xff000000) >> 24);
-    isc__buffer_putuint48$$1$$2$$_cp[(signed long int)1] = (unsigned char)((isc__buffer_putuint48$$1$$2$$_val2 & (unsigned int)0x00ff0000) >> 16);
-    isc__buffer_putuint48$$1$$2$$_cp[(signed long int)2] = (unsigned char)((isc__buffer_putuint48$$1$$2$$_val2 & (unsigned int)0x0000ff00) >> 8);
-    isc__buffer_putuint48$$1$$2$$_cp[(signed long int)3] = (unsigned char)(isc__buffer_putuint48$$1$$2$$_val2 & (unsigned int)0x000000ff);
+    isc__buffer_putuint48__1__2___cp[(signed long int)0] = (unsigned char)((isc__buffer_putuint48__1__2___val2 & 0xff000000) >> 24);
+    isc__buffer_putuint48__1__2___cp[(signed long int)1] = (unsigned char)((isc__buffer_putuint48__1__2___val2 & (unsigned int)0x00ff0000) >> 16);
+    isc__buffer_putuint48__1__2___cp[(signed long int)2] = (unsigned char)((isc__buffer_putuint48__1__2___val2 & (unsigned int)0x0000ff00) >> 8);
+    isc__buffer_putuint48__1__2___cp[(signed long int)3] = (unsigned char)(isc__buffer_putuint48__1__2___val2 & (unsigned int)0x000000ff);
   }
   while((_Bool)0);
 }
@@ -13779,18 +13779,18 @@ void isc__buffer_putuint48(struct isc_buffer *b, unsigned long long int val)
 // file ./../lib/isc/buffer.c line 283
 void isc__buffer_putuint8(struct isc_buffer *b, unsigned char val)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 284, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 284, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->length >= 1u + b->used)
@@ -13798,7 +13798,7 @@ void isc__buffer_putuint8(struct isc_buffer *b, unsigned char val)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 285, (enum anonymous$45)isc_assertiontype_require, "b->used + 1 <= b->length");
+    isc_assertion_failed("./../lib/isc/buffer.c", 285, (enum anonymous_45)isc_assertiontype_require, "b->used + 1 <= b->length");
     (_Bool)0;
   }
   do
@@ -13816,18 +13816,18 @@ void isc__buffer_putuint8(struct isc_buffer *b, unsigned char val)
 // file ./../lib/isc/buffer.c line 85
 void isc__buffer_region(struct isc_buffer *b, struct isc_region *r)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 90, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 90, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(!(r == ((struct isc_region *)NULL)))
@@ -13835,7 +13835,7 @@ void isc__buffer_region(struct isc_buffer *b, struct isc_region *r)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 91, (enum anonymous$45)isc_assertiontype_require, "r != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 91, (enum anonymous_45)isc_assertiontype_require, "r != ((void *)0)");
     (_Bool)0;
   }
   do
@@ -13850,18 +13850,18 @@ void isc__buffer_region(struct isc_buffer *b, struct isc_region *r)
 // file ./../lib/isc/buffer.c line 168
 void isc__buffer_remainingregion(struct isc_buffer *b, struct isc_region *r)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 173, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 173, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(!(r == ((struct isc_region *)NULL)))
@@ -13869,7 +13869,7 @@ void isc__buffer_remainingregion(struct isc_buffer *b, struct isc_region *r)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 174, (enum anonymous$45)isc_assertiontype_require, "r != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 174, (enum anonymous_45)isc_assertiontype_require, "r != ((void *)0)");
     (_Bool)0;
   }
   do
@@ -13884,18 +13884,18 @@ void isc__buffer_remainingregion(struct isc_buffer *b, struct isc_region *r)
 // file ./../lib/isc/buffer.c line 192
 void isc__buffer_setactive(struct isc_buffer *b, unsigned int n)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 197, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 197, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->used >= b->current + n)
@@ -13903,7 +13903,7 @@ void isc__buffer_setactive(struct isc_buffer *b, unsigned int n)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 198, (enum anonymous$45)isc_assertiontype_require, "b->current + n <= b->used");
+    isc_assertion_failed("./../lib/isc/buffer.c", 198, (enum anonymous_45)isc_assertiontype_require, "b->current + n <= b->used");
     (_Bool)0;
   }
   do
@@ -13915,18 +13915,18 @@ void isc__buffer_setactive(struct isc_buffer *b, unsigned int n)
 // file ./../lib/isc/buffer.c line 133
 void isc__buffer_subtract(struct isc_buffer *b, unsigned int n)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 138, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 138, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->used >= n)
@@ -13934,7 +13934,7 @@ void isc__buffer_subtract(struct isc_buffer *b, unsigned int n)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 139, (enum anonymous$45)isc_assertiontype_require, "b->used >= n");
+    isc_assertion_failed("./../lib/isc/buffer.c", 139, (enum anonymous_45)isc_assertiontype_require, "b->used >= n");
     (_Bool)0;
   }
   do
@@ -13954,18 +13954,18 @@ void isc__buffer_subtract(struct isc_buffer *b, unsigned int n)
 // file ./../lib/isc/buffer.c line 97
 void isc__buffer_usedregion(struct isc_buffer *b, struct isc_region *r)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 102, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 102, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(!(r == ((struct isc_region *)NULL)))
@@ -13973,7 +13973,7 @@ void isc__buffer_usedregion(struct isc_buffer *b, struct isc_region *r)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 103, (enum anonymous$45)isc_assertiontype_require, "r != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 103, (enum anonymous_45)isc_assertiontype_require, "r != ((void *)0)");
     (_Bool)0;
   }
   do
@@ -13986,12 +13986,12 @@ void isc__buffer_usedregion(struct isc_buffer *b, struct isc_region *r)
 
 // isc__mutex_init
 // file ../lib/isc/pthreads/include/isc/mutex.h line 79
-unsigned int isc__mutex_init(union anonymous$4 *mp, const char *file, unsigned int line)
+unsigned int isc__mutex_init(union anonymous_4 *mp, const char *file, unsigned int line)
 {
   char strbuf[128l];
   unsigned int result = (unsigned int)0;
   signed int err;
-  err=pthread_mutex_init(mp, (const union anonymous$60 *)(void *)0);
+  err=pthread_mutex_init(mp, (const union anonymous_60 *)(void *)0);
   if(err == 12)
     return (unsigned int)1;
 
@@ -13999,9 +13999,9 @@ unsigned int isc__mutex_init(union anonymous$4 *mp, const char *file, unsigned i
   {
     if(!(err == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      isc__strerror(*return_value___errno_location$1, strbuf, sizeof(char [128l]) /*128ul*/ );
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      isc__strerror(*return_value___errno_location_1, strbuf, sizeof(char [128l]) /*128ul*/ );
       isc_error_unexpected(file, (signed int)line, "isc_mutex_init() failed: %s", (const void *)strbuf);
       result = (unsigned int)34;
     }
@@ -14021,13 +14021,13 @@ void isc__strerror(signed int num, char *buf, unsigned long int size)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/strerror.c", 55, (enum anonymous$45)isc_assertiontype_require, "buf != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/strerror.c", 55, (enum anonymous_45)isc_assertiontype_require, "buf != ((void *)0)");
     (_Bool)0;
   }
-  signed int return_value_pthread_once$1;
-  static signed int isc__strerror$$1$$once = 0;
-  return_value_pthread_once$1=pthread_once(&isc__strerror$$1$$once, init_lock);
-  if(return_value_pthread_once$1 == 0)
+  signed int return_value_pthread_once_1;
+  static signed int isc__strerror__1__once = 0;
+  return_value_pthread_once_1=pthread_once(&isc__strerror__1__once, init_lock);
+  if(return_value_pthread_once_1 == 0)
     (_Bool)1;
 
   else
@@ -14037,9 +14037,9 @@ void isc__strerror(signed int num, char *buf, unsigned long int size)
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&isc_strerror_lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&isc_strerror_lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -14057,9 +14057,9 @@ void isc__strerror(signed int num, char *buf, unsigned long int size)
     snprintf(buf, size, "Unknown error: %u", unum);
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&isc_strerror_lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&isc_strerror_lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -14076,39 +14076,39 @@ void isc__strerror(signed int num, char *buf, unsigned long int size)
 void isc__task_attach(struct isc_task *source0, struct isc_task **targetp)
 {
   struct isc__task *source = (struct isc__task *)source0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(source == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)source)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)source)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 399, (enum anonymous$45)isc_assertiontype_require, "(((source) != ((void *)0)) && (((const isc__magic_t *)(source))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 399, (enum anonymous_45)isc_assertiontype_require, "(((source) != ((void *)0)) && (((const isc__magic_t *)(source))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(targetp == ((struct isc_task **)NULL)))
-    tmp_if_expr$2 = *targetp == (struct isc_task *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = *targetp == (struct isc_task *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 400, (enum anonymous$45)isc_assertiontype_require, "targetp != ((void *)0) && *targetp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 400, (enum anonymous_45)isc_assertiontype_require, "targetp != ((void *)0) && *targetp == ((void *)0)");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$3;
-    return_value_pthread_mutex_lock$3=pthread_mutex_lock(&source->lock);
-    if(return_value_pthread_mutex_lock$3 == 0)
+    signed int return_value_pthread_mutex_lock_3;
+    return_value_pthread_mutex_lock_3=pthread_mutex_lock(&source->lock);
+    if(return_value_pthread_mutex_lock_3 == 0)
       (_Bool)1;
 
     else
@@ -14121,9 +14121,9 @@ void isc__task_attach(struct isc_task *source0, struct isc_task **targetp)
   source->references = source->references + 1u;
   do
   {
-    signed int return_value_pthread_mutex_unlock$4;
-    return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&source->lock);
-    if(return_value_pthread_mutex_unlock$4 == 0)
+    signed int return_value_pthread_mutex_unlock_4;
+    return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&source->lock);
+    if(return_value_pthread_mutex_unlock_4 == 0)
       (_Bool)1;
 
     else
@@ -14147,14 +14147,14 @@ unsigned int isc__task_beginexclusive(struct isc_task *task0)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 1645, (enum anonymous$45)isc_assertiontype_require, "task->state == task_state_running");
+    isc_assertion_failed("./../lib/isc/task.c", 1645, (enum anonymous_45)isc_assertiontype_require, "task->state == task_state_running");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -14168,9 +14168,9 @@ unsigned int isc__task_beginexclusive(struct isc_task *task0)
   {
     do
     {
-      signed int return_value_pthread_mutex_unlock$2;
-      return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&manager->lock);
-      if(return_value_pthread_mutex_unlock$2 == 0)
+      signed int return_value_pthread_mutex_unlock_2;
+      return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&manager->lock);
+      if(return_value_pthread_mutex_unlock_2 == 0)
         (_Bool)1;
 
       else
@@ -14185,13 +14185,13 @@ unsigned int isc__task_beginexclusive(struct isc_task *task0)
 
   else
   {
-    manager->exclusive_requested = (enum anonymous$11)isc_boolean_true;
+    manager->exclusive_requested = (enum anonymous_11)isc_boolean_true;
     while(manager->tasks_running >= 2u)
       do
       {
-        signed int return_value_pthread_cond_wait$3;
-        return_value_pthread_cond_wait$3=pthread_cond_wait(&manager->exclusive_granted, &manager->lock);
-        if(return_value_pthread_cond_wait$3 == 0)
+        signed int return_value_pthread_cond_wait_3;
+        return_value_pthread_cond_wait_3=pthread_cond_wait(&manager->exclusive_granted, &manager->lock);
+        if(return_value_pthread_cond_wait_3 == 0)
           (_Bool)1;
 
         else
@@ -14203,9 +14203,9 @@ unsigned int isc__task_beginexclusive(struct isc_task *task0)
       while((_Bool)0);
     do
     {
-      signed int return_value_pthread_mutex_unlock$4;
-      return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&manager->lock);
-      if(return_value_pthread_mutex_unlock$4 == 0)
+      signed int return_value_pthread_mutex_unlock_4;
+      return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&manager->lock);
+      if(return_value_pthread_mutex_unlock_4 == 0)
         (_Bool)1;
 
       else
@@ -14225,40 +14225,40 @@ unsigned int isc__task_create(struct isc_taskmgr *manager0, unsigned int quantum
 {
   struct isc__taskmgr *manager = (struct isc__taskmgr *)manager0;
   struct isc__task *task;
-  enum anonymous$11 exiting;
+  enum anonymous_11 exiting;
   unsigned int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(manager == ((struct isc__taskmgr *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)manager)->magic == (unsigned int)(84 << 24 | 83 << 16 | 75 << 8 | 77) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)manager)->magic == (unsigned int)(84 << 24 | 83 << 16 | 75 << 8 | 77) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 337, (enum anonymous$45)isc_assertiontype_require, "(((manager) != ((void *)0)) && (((const isc__magic_t *)(manager))->magic == ((('T') << 24 | ('S') << 16 | ('K') << 8 | ('M')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 337, (enum anonymous_45)isc_assertiontype_require, "(((manager) != ((void *)0)) && (((const isc__magic_t *)(manager))->magic == ((('T') << 24 | ('S') << 16 | ('K') << 8 | ('M')))))");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(taskp == ((struct isc_task **)NULL)))
-    tmp_if_expr$2 = *taskp == (struct isc_task *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = *taskp == (struct isc_task *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 338, (enum anonymous$45)isc_assertiontype_require, "taskp != ((void *)0) && *taskp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 338, (enum anonymous_45)isc_assertiontype_require, "taskp != ((void *)0) && *taskp == ((void *)0)");
     (_Bool)0;
   }
   (void)manager->mctx;
-  void *return_value_ereallocz$3;
-  return_value_ereallocz$3=ereallocz((void *)0, sizeof(struct isc__task) /*192ul*/ , (unsigned long int)0, 0);
-  task = (struct isc__task *)return_value_ereallocz$3;
+  void *return_value_ereallocz_3;
+  return_value_ereallocz_3=ereallocz((void *)0, sizeof(struct isc__task) /*192ul*/ , (unsigned long int)0, 0);
+  task = (struct isc__task *)return_value_ereallocz_3;
   if(task == ((struct isc__task *)NULL))
     return (unsigned int)1;
 
@@ -14276,9 +14276,9 @@ unsigned int isc__task_create(struct isc_taskmgr *manager0, unsigned int quantum
     {
       do
       {
-        signed int return_value_pthread_mutex_lock$4;
-        return_value_pthread_mutex_lock$4=pthread_mutex_lock(&manager->lock);
-        if(return_value_pthread_mutex_lock$4 == 0)
+        signed int return_value_pthread_mutex_lock_4;
+        return_value_pthread_mutex_lock_4=pthread_mutex_lock(&manager->lock);
+        if(return_value_pthread_mutex_lock_4 == 0)
           (_Bool)1;
 
         else
@@ -14290,9 +14290,9 @@ unsigned int isc__task_create(struct isc_taskmgr *manager0, unsigned int quantum
       while((_Bool)0);
       do
       {
-        signed int return_value_pthread_mutex_lock$5;
-        return_value_pthread_mutex_lock$5=pthread_mutex_lock(&task->lock);
-        if(return_value_pthread_mutex_lock$5 == 0)
+        signed int return_value_pthread_mutex_lock_5;
+        return_value_pthread_mutex_lock_5=pthread_mutex_lock(&task->lock);
+        if(return_value_pthread_mutex_lock_5 == 0)
           (_Bool)1;
 
         else
@@ -14303,7 +14303,7 @@ unsigned int isc__task_create(struct isc_taskmgr *manager0, unsigned int quantum
       }
       while((_Bool)0);
       task->manager = manager;
-      task->state = (enum anonymous$56)task_state_idle;
+      task->state = (enum anonymous_56)task_state_idle;
       task->references = (unsigned int)1;
       do
       {
@@ -14342,9 +14342,9 @@ unsigned int isc__task_create(struct isc_taskmgr *manager0, unsigned int quantum
       while((_Bool)0);
       do
       {
-        signed int return_value_pthread_mutex_unlock$6;
-        return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&task->lock);
-        if(return_value_pthread_mutex_unlock$6 == 0)
+        signed int return_value_pthread_mutex_unlock_6;
+        return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&task->lock);
+        if(return_value_pthread_mutex_unlock_6 == 0)
           (_Bool)1;
 
         else
@@ -14356,9 +14356,9 @@ unsigned int isc__task_create(struct isc_taskmgr *manager0, unsigned int quantum
       while((_Bool)0);
       do
       {
-        signed int return_value_pthread_mutex_unlock$7;
-        return_value_pthread_mutex_unlock$7=pthread_mutex_unlock(&manager->lock);
-        if(return_value_pthread_mutex_unlock$7 == 0)
+        signed int return_value_pthread_mutex_unlock_7;
+        return_value_pthread_mutex_unlock_7=pthread_mutex_unlock(&manager->lock);
+        if(return_value_pthread_mutex_unlock_7 == 0)
           (_Bool)1;
 
         else
@@ -14368,12 +14368,12 @@ unsigned int isc__task_create(struct isc_taskmgr *manager0, unsigned int quantum
         }
       }
       while((_Bool)0);
-      exiting = (enum anonymous$11)isc_boolean_false;
+      exiting = (enum anonymous_11)isc_boolean_false;
       do
       {
-        signed int return_value_pthread_mutex_lock$8;
-        return_value_pthread_mutex_lock$8=pthread_mutex_lock(&manager->lock);
-        if(return_value_pthread_mutex_lock$8 == 0)
+        signed int return_value_pthread_mutex_lock_8;
+        return_value_pthread_mutex_lock_8=pthread_mutex_lock(&manager->lock);
+        if(return_value_pthread_mutex_lock_8 == 0)
           (_Bool)1;
 
         else
@@ -14406,12 +14406,12 @@ unsigned int isc__task_create(struct isc_taskmgr *manager0, unsigned int quantum
       }
 
       else
-        exiting = (enum anonymous$11)isc_boolean_true;
+        exiting = (enum anonymous_11)isc_boolean_true;
       do
       {
-        signed int return_value_pthread_mutex_unlock$9;
-        return_value_pthread_mutex_unlock$9=pthread_mutex_unlock(&manager->lock);
-        if(return_value_pthread_mutex_unlock$9 == 0)
+        signed int return_value_pthread_mutex_unlock_9;
+        return_value_pthread_mutex_unlock_9=pthread_mutex_unlock(&manager->lock);
+        if(return_value_pthread_mutex_unlock_9 == 0)
           (_Bool)1;
 
         else
@@ -14423,9 +14423,9 @@ unsigned int isc__task_create(struct isc_taskmgr *manager0, unsigned int quantum
       while((_Bool)0);
       if(!(exiting == /*enum*/isc_boolean_false))
       {
-        signed int return_value_pthread_mutex_destroy$10;
-        return_value_pthread_mutex_destroy$10=pthread_mutex_destroy(&task->lock);
-        if(return_value_pthread_mutex_destroy$10 == 0)
+        signed int return_value_pthread_mutex_destroy_10;
+        return_value_pthread_mutex_destroy_10=pthread_mutex_destroy(&task->lock);
+        if(return_value_pthread_mutex_destroy_10 == 0)
           (_Bool)1;
 
         else
@@ -14456,7 +14456,7 @@ void isc__task_destroy(struct isc_task **taskp)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 860, (enum anonymous$45)isc_assertiontype_require, "taskp != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 860, (enum anonymous_45)isc_assertiontype_require, "taskp != ((void *)0)");
     (_Bool)0;
   }
   isc__task_shutdown(*taskp);
@@ -14468,35 +14468,35 @@ void isc__task_destroy(struct isc_task **taskp)
 void isc__task_detach(struct isc_task **taskp)
 {
   struct isc__task *task;
-  enum anonymous$11 was_idle;
+  enum anonymous_11 was_idle;
   if(!(taskp == ((struct isc_task **)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 513, (enum anonymous$45)isc_assertiontype_require, "taskp != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 513, (enum anonymous_45)isc_assertiontype_require, "taskp != ((void *)0)");
     (_Bool)0;
   }
   task = (struct isc__task *)*taskp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 515, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 515, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&task->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&task->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -14509,9 +14509,9 @@ void isc__task_detach(struct isc_task **taskp)
   was_idle=task_detach(task);
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&task->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&task->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -14538,14 +14538,14 @@ void isc__task_endexclusive(struct isc_task *task0)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 1668, (enum anonymous$45)isc_assertiontype_require, "task->state == task_state_running");
+    isc_assertion_failed("./../lib/isc/task.c", 1668, (enum anonymous_45)isc_assertiontype_require, "task->state == task_state_running");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -14560,15 +14560,15 @@ void isc__task_endexclusive(struct isc_task *task0)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 1670, (enum anonymous$45)isc_assertiontype_require, "manager->exclusive_requested");
+    isc_assertion_failed("./../lib/isc/task.c", 1670, (enum anonymous_45)isc_assertiontype_require, "manager->exclusive_requested");
     (_Bool)0;
   }
-  manager->exclusive_requested = (enum anonymous$11)isc_boolean_false;
+  manager->exclusive_requested = (enum anonymous_11)isc_boolean_false;
   do
   {
-    signed int return_value_pthread_cond_broadcast$2;
-    return_value_pthread_cond_broadcast$2=pthread_cond_broadcast(&manager->work_available);
-    if(return_value_pthread_cond_broadcast$2 == 0)
+    signed int return_value_pthread_cond_broadcast_2;
+    return_value_pthread_cond_broadcast_2=pthread_cond_broadcast(&manager->work_available);
+    if(return_value_pthread_cond_broadcast_2 == 0)
       (_Bool)1;
 
     else
@@ -14580,9 +14580,9 @@ void isc__task_endexclusive(struct isc_task *task0)
   while((_Bool)0);
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&manager->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&manager->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -14599,18 +14599,18 @@ void isc__task_endexclusive(struct isc_task *task0)
 void isc__task_getcurrenttime(struct isc_task *task0, unsigned int *t)
 {
   struct isc__task *task = (struct isc__task *)task0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 905, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 905, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   if(!(t == ((unsigned int *)NULL)))
@@ -14618,14 +14618,14 @@ void isc__task_getcurrenttime(struct isc_task *task0, unsigned int *t)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 906, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 906, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0)");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&task->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&task->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -14638,9 +14638,9 @@ void isc__task_getcurrenttime(struct isc_task *task0, unsigned int *t)
   *t = task->now;
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&task->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&task->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -14657,18 +14657,18 @@ void isc__task_getcurrenttime(struct isc_task *task0, unsigned int *t)
 const char * isc__task_getname(struct isc_task *task0)
 {
   struct isc__task *task = (struct isc__task *)task0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 887, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 887, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   return task->name;
@@ -14679,18 +14679,18 @@ const char * isc__task_getname(struct isc_task *task0)
 void * isc__task_gettag(struct isc_task *task0)
 {
   struct isc__task *task = (struct isc__task *)task0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 896, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 896, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   return task->tag;
@@ -14701,21 +14701,21 @@ void * isc__task_gettag(struct isc_task *task0)
 unsigned int isc__task_onshutdown(struct isc_task *task0, void (*action)(struct isc_task *, struct isc_event *), const void *arg)
 {
   struct isc__task *task = (struct isc__task *)task0;
-  enum anonymous$11 disallowed = (enum anonymous$11)isc_boolean_false;
+  enum anonymous_11 disallowed = (enum anonymous_11)isc_boolean_false;
   unsigned int result = (unsigned int)0;
   struct isc_event *event;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 808, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 808, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   if(!(action == ((void (*)(struct isc_task *, struct isc_event *))NULL)))
@@ -14723,7 +14723,7 @@ unsigned int isc__task_onshutdown(struct isc_task *task0, void (*action)(struct 
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 809, (enum anonymous$45)isc_assertiontype_require, "action != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 809, (enum anonymous_45)isc_assertiontype_require, "action != ((void *)0)");
     (_Bool)0;
   }
   event=isc_event_allocate(task->manager->mctx, (void *)0, (unsigned int)((0 << 16) + 1), action, arg, sizeof(struct isc_event) /*88ul*/ );
@@ -14734,9 +14734,9 @@ unsigned int isc__task_onshutdown(struct isc_task *task0, void (*action)(struct 
   {
     do
     {
-      signed int return_value_pthread_mutex_lock$2;
-      return_value_pthread_mutex_lock$2=pthread_mutex_lock(&task->lock);
-      if(return_value_pthread_mutex_lock$2 == 0)
+      signed int return_value_pthread_mutex_lock_2;
+      return_value_pthread_mutex_lock_2=pthread_mutex_lock(&task->lock);
+      if(return_value_pthread_mutex_lock_2 == 0)
         (_Bool)1;
 
       else
@@ -14748,7 +14748,7 @@ unsigned int isc__task_onshutdown(struct isc_task *task0, void (*action)(struct 
     while((_Bool)0);
     if(!((1u & task->flags) == 0u))
     {
-      disallowed = (enum anonymous$11)isc_boolean_true;
+      disallowed = (enum anonymous_11)isc_boolean_true;
       result = (unsigned int)22;
     }
 
@@ -14772,9 +14772,9 @@ unsigned int isc__task_onshutdown(struct isc_task *task0, void (*action)(struct 
     }
     do
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&task->lock);
-      if(return_value_pthread_mutex_unlock$3 == 0)
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&task->lock);
+      if(return_value_pthread_mutex_unlock_3 == 0)
         (_Bool)1;
 
       else
@@ -14796,15 +14796,15 @@ unsigned int isc__task_onshutdown(struct isc_task *task0, void (*action)(struct 
 
 // isc__task_privilege
 // file ./../lib/isc/task.c line 1707
-enum anonymous$11 isc__task_privilege(struct isc_task *task0)
+enum anonymous_11 isc__task_privilege(struct isc_task *task0)
 {
   struct isc__task *task = (struct isc__task *)task0;
-  enum anonymous$11 priv;
+  enum anonymous_11 priv;
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&task->lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&task->lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -14814,12 +14814,12 @@ enum anonymous$11 isc__task_privilege(struct isc_task *task0)
     }
   }
   while((_Bool)0);
-  priv = (enum anonymous$11)((task->flags & (unsigned int)0x02) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
+  priv = (enum anonymous_11)((task->flags & (unsigned int)0x02) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
   do
   {
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&task->lock);
-    if(return_value_pthread_mutex_unlock$2 == 0)
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&task->lock);
+    if(return_value_pthread_mutex_unlock_2 == 0)
       (_Bool)1;
 
     else
@@ -14836,37 +14836,37 @@ enum anonymous$11 isc__task_privilege(struct isc_task *task0)
 // file ./../lib/isc/task.c line 710
 unsigned int isc__task_purge(struct isc_task *task, void *sender, unsigned int type, void *tag)
 {
-  unsigned int return_value_isc__task_purgerange$1;
-  return_value_isc__task_purgerange$1=isc__task_purgerange(task, sender, type, type, tag);
-  return return_value_isc__task_purgerange$1;
+  unsigned int return_value_isc__task_purgerange_1;
+  return_value_isc__task_purgerange_1=isc__task_purgerange(task, sender, type, type, tag);
+  return return_value_isc__task_purgerange_1;
 }
 
 // isc__task_purgeevent
 // file ./../lib/isc/task.c line 723
-enum anonymous$11 isc__task_purgeevent(struct isc_task *task0, struct isc_event *event)
+enum anonymous_11 isc__task_purgeevent(struct isc_task *task0, struct isc_event *event)
 {
   struct isc__task *task = (struct isc__task *)task0;
   struct isc_event *curr_event;
   struct isc_event *next_event;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 733, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 733, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&task->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&task->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -14899,7 +14899,7 @@ enum anonymous$11 isc__task_purgeevent(struct isc_task *task0, struct isc_event 
 
             else
             {
-              isc_assertion_failed("./../lib/isc/task.c", 751, (enum anonymous$45)isc_assertiontype_insist, "(task->events).tail == (curr_event)");
+              isc_assertion_failed("./../lib/isc/task.c", 751, (enum anonymous_45)isc_assertiontype_insist, "(task->events).tail == (curr_event)");
               (_Bool)0;
             }
             task->events.tail = curr_event->ev_link.prev;
@@ -14914,7 +14914,7 @@ enum anonymous$11 isc__task_purgeevent(struct isc_task *task0, struct isc_event 
 
             else
             {
-              isc_assertion_failed("./../lib/isc/task.c", 751, (enum anonymous$45)isc_assertiontype_insist, "(task->events).head == (curr_event)");
+              isc_assertion_failed("./../lib/isc/task.c", 751, (enum anonymous_45)isc_assertiontype_insist, "(task->events).head == (curr_event)");
               (_Bool)0;
             }
             task->events.head = curr_event->ev_link.next;
@@ -14931,9 +14931,9 @@ enum anonymous$11 isc__task_purgeevent(struct isc_task *task0, struct isc_event 
   }
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&task->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&task->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -14944,12 +14944,12 @@ enum anonymous$11 isc__task_purgeevent(struct isc_task *task0, struct isc_event 
   }
   while((_Bool)0);
   if(curr_event == ((struct isc_event *)NULL))
-    return (enum anonymous$11)isc_boolean_false;
+    return (enum anonymous_11)isc_boolean_false;
 
   else
   {
     isc_event_free(&curr_event);
-    return (enum anonymous$11)isc_boolean_true;
+    return (enum anonymous_11)isc_boolean_true;
   }
 }
 
@@ -14959,7 +14959,7 @@ unsigned int isc__task_purgerange(struct isc_task *task0, void *sender, unsigned
 {
   struct isc__task *task = (struct isc__task *)task0;
   unsigned int count;
-  struct anonymous$52 events;
+  struct anonymous_52 events;
   struct isc_event *event;
   struct isc_event *next_event;
   do
@@ -14968,7 +14968,7 @@ unsigned int isc__task_purgerange(struct isc_task *task0, void *sender, unsigned
     events.tail = (struct isc_event *)(void *)0;
   }
   while((_Bool)0);
-  count=dequeue_events(task, sender, first, last, tag, &events, (enum anonymous$11)isc_boolean_true);
+  count=dequeue_events(task, sender, first, last, tag, &events, (enum anonymous_11)isc_boolean_true);
   event = events.head;
   for( ; !(event == ((struct isc_event *)NULL)); event = next_event)
   {
@@ -14983,26 +14983,26 @@ unsigned int isc__task_purgerange(struct isc_task *task0, void *sender, unsigned
 void isc__task_send(struct isc_task *task0, struct isc_event **eventp)
 {
   struct isc__task *task = (struct isc__task *)task0;
-  enum anonymous$11 was_idle;
-  _Bool tmp_if_expr$1;
+  enum anonymous_11 was_idle;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 568, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 568, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&task->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&task->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -15015,9 +15015,9 @@ void isc__task_send(struct isc_task *task0, struct isc_event **eventp)
   was_idle=task_send(task, eventp);
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&task->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&task->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -15036,37 +15036,37 @@ void isc__task_send(struct isc_task *task0, struct isc_event **eventp)
 // file ../lib/isc/include/isc/task.h line 265
 void isc__task_sendanddetach(struct isc_task **taskp, struct isc_event **eventp)
 {
-  enum anonymous$11 idle1;
-  enum anonymous$11 idle2;
+  enum anonymous_11 idle1;
+  enum anonymous_11 idle2;
   struct isc__task *task;
   if(!(taskp == ((struct isc_task **)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 611, (enum anonymous$45)isc_assertiontype_require, "taskp != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 611, (enum anonymous_45)isc_assertiontype_require, "taskp != ((void *)0)");
     (_Bool)0;
   }
   task = (struct isc__task *)*taskp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 613, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 613, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&task->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&task->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -15080,9 +15080,9 @@ void isc__task_sendanddetach(struct isc_task **taskp, struct isc_event **eventp)
   idle2=task_detach(task);
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&task->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&task->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -15097,7 +15097,7 @@ void isc__task_sendanddetach(struct isc_task **taskp, struct isc_event **eventp)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 627, (enum anonymous$45)isc_assertiontype_insist, "!(idle1 && idle2)");
+    isc_assertion_failed("./../lib/isc/task.c", 627, (enum anonymous_45)isc_assertiontype_insist, "!(idle1 && idle2)");
     (_Bool)0;
   }
   if(!(idle1 == /*enum*/isc_boolean_false) || !(idle2 == /*enum*/isc_boolean_false))
@@ -15111,25 +15111,25 @@ void isc__task_sendanddetach(struct isc_task **taskp, struct isc_event **eventp)
 void isc__task_setname(struct isc_task *task0, const char *name, void *tag)
 {
   struct isc__task *task = (struct isc__task *)task0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 874, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 874, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&task->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&task->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -15144,9 +15144,9 @@ void isc__task_setname(struct isc_task *task0, const char *name, void *tag)
   task->tag = tag;
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&task->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&task->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -15160,16 +15160,16 @@ void isc__task_setname(struct isc_task *task0, const char *name, void *tag)
 
 // isc__task_setprivilege
 // file ./../lib/isc/task.c line 1680
-void isc__task_setprivilege(struct isc_task *task0, enum anonymous$11 priv)
+void isc__task_setprivilege(struct isc_task *task0, enum anonymous_11 priv)
 {
   struct isc__task *task = (struct isc__task *)task0;
   struct isc__taskmgr *manager = task->manager;
-  enum anonymous$11 oldpriv;
+  enum anonymous_11 oldpriv;
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&task->lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&task->lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -15179,7 +15179,7 @@ void isc__task_setprivilege(struct isc_task *task0, enum anonymous$11 priv)
     }
   }
   while((_Bool)0);
-  oldpriv = (enum anonymous$11)((task->flags & (unsigned int)0x02) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
+  oldpriv = (enum anonymous_11)((task->flags & (unsigned int)0x02) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
   if(!(priv == /*enum*/isc_boolean_false))
     task->flags = task->flags | (unsigned int)0x02;
 
@@ -15187,9 +15187,9 @@ void isc__task_setprivilege(struct isc_task *task0, enum anonymous$11 priv)
     task->flags = task->flags & (unsigned int)~0x02;
   do
   {
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&task->lock);
-    if(return_value_pthread_mutex_unlock$2 == 0)
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&task->lock);
+    if(return_value_pthread_mutex_unlock_2 == 0)
       (_Bool)1;
 
     else
@@ -15199,14 +15199,14 @@ void isc__task_setprivilege(struct isc_task *task0, enum anonymous$11 priv)
     }
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(priv == oldpriv))
   {
     do
     {
-      signed int return_value_pthread_mutex_lock$3;
-      return_value_pthread_mutex_lock$3=pthread_mutex_lock(&manager->lock);
-      if(return_value_pthread_mutex_lock$3 == 0)
+      signed int return_value_pthread_mutex_lock_3;
+      return_value_pthread_mutex_lock_3=pthread_mutex_lock(&manager->lock);
+      if(return_value_pthread_mutex_lock_3 == 0)
         (_Bool)1;
 
       else
@@ -15217,11 +15217,11 @@ void isc__task_setprivilege(struct isc_task *task0, enum anonymous$11 priv)
     }
     while((_Bool)0);
     if(!(priv == /*enum*/isc_boolean_false))
-      tmp_if_expr$4 = (void *)task->ready_link.prev != (void *)-1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (void *)task->ready_link.prev != (void *)-1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
 
     __CPROVER_DUMP_L16:
@@ -15260,7 +15260,7 @@ void isc__task_setprivilege(struct isc_task *task0, enum anonymous$11 priv)
 
               else
               {
-                isc_assertion_failed("./../lib/isc/task.c", 1702, (enum anonymous$45)isc_assertiontype_insist, "(manager->ready_priority_tasks).tail == (task)");
+                isc_assertion_failed("./../lib/isc/task.c", 1702, (enum anonymous_45)isc_assertiontype_insist, "(manager->ready_priority_tasks).tail == (task)");
                 (_Bool)0;
               }
               manager->ready_priority_tasks.tail = task->ready_priority_link.prev;
@@ -15275,7 +15275,7 @@ void isc__task_setprivilege(struct isc_task *task0, enum anonymous$11 priv)
 
               else
               {
-                isc_assertion_failed("./../lib/isc/task.c", 1702, (enum anonymous$45)isc_assertiontype_insist, "(manager->ready_priority_tasks).head == (task)");
+                isc_assertion_failed("./../lib/isc/task.c", 1702, (enum anonymous_45)isc_assertiontype_insist, "(manager->ready_priority_tasks).head == (task)");
                 (_Bool)0;
               }
               manager->ready_priority_tasks.head = task->ready_priority_link.next;
@@ -15290,9 +15290,9 @@ void isc__task_setprivilege(struct isc_task *task0, enum anonymous$11 priv)
 
     do
     {
-      signed int return_value_pthread_mutex_unlock$5;
-      return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&manager->lock);
-      if(return_value_pthread_mutex_unlock$5 == 0)
+      signed int return_value_pthread_mutex_unlock_5;
+      return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&manager->lock);
+      if(return_value_pthread_mutex_unlock_5 == 0)
         (_Bool)1;
 
       else
@@ -15311,26 +15311,26 @@ void isc__task_setprivilege(struct isc_task *task0, enum anonymous$11 priv)
 void isc__task_shutdown(struct isc_task *task0)
 {
   struct isc__task *task = (struct isc__task *)task0;
-  enum anonymous$11 was_idle;
-  _Bool tmp_if_expr$1;
+  enum anonymous_11 was_idle;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 843, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 843, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&task->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&task->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -15343,9 +15343,9 @@ void isc__task_shutdown(struct isc_task *task0)
   was_idle=task_shutdown(task);
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&task->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&task->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -15362,20 +15362,20 @@ void isc__task_shutdown(struct isc_task *task0)
 
 // isc__task_unsend
 // file ./../lib/isc/task.c line 781
-unsigned int isc__task_unsend(struct isc_task *task, void *sender, unsigned int type, void *tag, struct anonymous$52 *events)
+unsigned int isc__task_unsend(struct isc_task *task, void *sender, unsigned int type, void *tag, struct anonymous_52 *events)
 {
-  unsigned int return_value_dequeue_events$1;
-  return_value_dequeue_events$1=dequeue_events((struct isc__task *)task, sender, type, type, tag, events, (enum anonymous$11)isc_boolean_false);
-  return return_value_dequeue_events$1;
+  unsigned int return_value_dequeue_events_1;
+  return_value_dequeue_events_1=dequeue_events((struct isc__task *)task, sender, type, type, tag, events, (enum anonymous_11)isc_boolean_false);
+  return return_value_dequeue_events_1;
 }
 
 // isc__task_unsendrange
 // file ./../lib/isc/task.c line 766
-unsigned int isc__task_unsendrange(struct isc_task *task, void *sender, unsigned int first, unsigned int last, void *tag, struct anonymous$52 *events)
+unsigned int isc__task_unsendrange(struct isc_task *task, void *sender, unsigned int first, unsigned int last, void *tag, struct anonymous_52 *events)
 {
-  unsigned int return_value_dequeue_events$1;
-  return_value_dequeue_events$1=dequeue_events((struct isc__task *)task, sender, first, last, tag, events, (enum anonymous$11)isc_boolean_false);
-  return return_value_dequeue_events$1;
+  unsigned int return_value_dequeue_events_1;
+  return_value_dequeue_events_1=dequeue_events((struct isc__task *)task, sender, first, last, tag, events, (enum anonymous_11)isc_boolean_false);
+  return return_value_dequeue_events_1;
 }
 
 // isc__taskmgr_create
@@ -15391,34 +15391,34 @@ unsigned int isc__taskmgr_create(struct isc_mem *mctx, unsigned int workers, uns
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 1332, (enum anonymous$45)isc_assertiontype_require, "workers > 0");
+    isc_assertion_failed("./../lib/isc/task.c", 1332, (enum anonymous_45)isc_assertiontype_require, "workers > 0");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(managerp == ((struct isc_taskmgr **)NULL)))
-    tmp_if_expr$1 = *managerp == (struct isc_taskmgr *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *managerp == (struct isc_taskmgr *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 1333, (enum anonymous$45)isc_assertiontype_require, "managerp != ((void *)0) && *managerp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 1333, (enum anonymous_45)isc_assertiontype_require, "managerp != ((void *)0) && *managerp == ((void *)0)");
     (_Bool)0;
   }
   (void)mctx;
-  void *return_value_ereallocz$2;
-  return_value_ereallocz$2=ereallocz((void *)0, sizeof(struct isc__taskmgr) /*304ul*/ , (unsigned long int)0, 0);
-  manager = (struct isc__taskmgr *)return_value_ereallocz$2;
-  void *return_value_ereallocz$4;
-  signed int return_value_pthread_cond_init$6;
-  signed int return_value_pthread_cond_init$8;
-  signed int return_value_pthread_cond_init$10;
-  signed int return_value_pthread_cond_destroy$13;
-  signed int return_value_pthread_cond_destroy$14;
-  signed int return_value_pthread_mutex_destroy$16;
+  void *return_value_ereallocz_2;
+  return_value_ereallocz_2=ereallocz((void *)0, sizeof(struct isc__taskmgr) /*304ul*/ , (unsigned long int)0, 0);
+  manager = (struct isc__taskmgr *)return_value_ereallocz_2;
+  void *return_value_ereallocz_4;
+  signed int return_value_pthread_cond_init_6;
+  signed int return_value_pthread_cond_init_8;
+  signed int return_value_pthread_cond_init_10;
+  signed int return_value_pthread_cond_destroy_13;
+  signed int return_value_pthread_cond_destroy_14;
+  signed int return_value_pthread_mutex_destroy_16;
   if(manager == ((struct isc__taskmgr *)NULL))
     return (unsigned int)1;
 
@@ -15427,16 +15427,16 @@ unsigned int isc__taskmgr_create(struct isc_mem *mctx, unsigned int workers, uns
     manager->common.methods = &taskmgrmethods;
     manager->common.impmagic = (unsigned int)(84 << 24 | 83 << 16 | 75 << 8 | 77);
     manager->common.magic = (unsigned int)(65 << 24 | 116 << 16 | 109 << 8 | 103);
-    manager->mode = (enum anonymous$59)isc_taskmgrmode_normal;
+    manager->mode = (enum anonymous_59)isc_taskmgrmode_normal;
     manager->mctx = (struct isc_mem *)(void *)0;
     result=isc__mutex_init(&manager->lock, "./../lib/isc/task.c", (unsigned int)1358);
     if(result == 0u)
     {
       do
       {
-        signed int return_value_pthread_mutex_lock$3;
-        return_value_pthread_mutex_lock$3=pthread_mutex_lock(&manager->lock);
-        if(return_value_pthread_mutex_lock$3 == 0)
+        signed int return_value_pthread_mutex_lock_3;
+        return_value_pthread_mutex_lock_3=pthread_mutex_lock(&manager->lock);
+        if(return_value_pthread_mutex_lock_3 == 0)
           (_Bool)1;
 
         else
@@ -15448,39 +15448,39 @@ unsigned int isc__taskmgr_create(struct isc_mem *mctx, unsigned int workers, uns
       while((_Bool)0);
       manager->workers = (unsigned int)0;
       (void)mctx;
-      return_value_ereallocz$4=ereallocz((void *)0, (unsigned long int)workers * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)0, 0);
-      manager->threads = (unsigned long int *)return_value_ereallocz$4;
+      return_value_ereallocz_4=ereallocz((void *)0, (unsigned long int)workers * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)0, 0);
+      manager->threads = (unsigned long int *)return_value_ereallocz_4;
       if(manager->threads == ((unsigned long int *)NULL))
         result = (unsigned int)1;
 
       else
       {
-        return_value_pthread_cond_init$6=pthread_cond_init(&manager->work_available, (const union anonymous$60 *)(void *)0);
-        if(!(return_value_pthread_cond_init$6 == 0))
+        return_value_pthread_cond_init_6=pthread_cond_init(&manager->work_available, (const union anonymous_60 *)(void *)0);
+        if(!(return_value_pthread_cond_init_6 == 0))
         {
-          const char *return_value_isc_msgcat_get$5;
-          return_value_isc_msgcat_get$5=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-          isc_error_unexpected("./../lib/isc/task.c", 1372, "isc_condition_init() %s", return_value_isc_msgcat_get$5);
+          const char *return_value_isc_msgcat_get_5;
+          return_value_isc_msgcat_get_5=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+          isc_error_unexpected("./../lib/isc/task.c", 1372, "isc_condition_init() %s", return_value_isc_msgcat_get_5);
           result = (unsigned int)34;
           goto cleanup_threads;
         }
 
-        return_value_pthread_cond_init$8=pthread_cond_init(&manager->exclusive_granted, (const union anonymous$60 *)(void *)0);
-        if(!(return_value_pthread_cond_init$8 == 0))
+        return_value_pthread_cond_init_8=pthread_cond_init(&manager->exclusive_granted, (const union anonymous_60 *)(void *)0);
+        if(!(return_value_pthread_cond_init_8 == 0))
         {
-          const char *return_value_isc_msgcat_get$7;
-          return_value_isc_msgcat_get$7=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-          isc_error_unexpected("./../lib/isc/task.c", 1380, "isc_condition_init() %s", return_value_isc_msgcat_get$7);
+          const char *return_value_isc_msgcat_get_7;
+          return_value_isc_msgcat_get_7=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+          isc_error_unexpected("./../lib/isc/task.c", 1380, "isc_condition_init() %s", return_value_isc_msgcat_get_7);
           result = (unsigned int)34;
           goto cleanup_workavailable;
         }
 
-        return_value_pthread_cond_init$10=pthread_cond_init(&manager->paused, (const union anonymous$60 *)(void *)0);
-        if(!(return_value_pthread_cond_init$10 == 0))
+        return_value_pthread_cond_init_10=pthread_cond_init(&manager->paused, (const union anonymous_60 *)(void *)0);
+        if(!(return_value_pthread_cond_init_10 == 0))
         {
-          const char *return_value_isc_msgcat_get$9;
-          return_value_isc_msgcat_get$9=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-          isc_error_unexpected("./../lib/isc/task.c", 1388, "isc_condition_init() %s", return_value_isc_msgcat_get$9);
+          const char *return_value_isc_msgcat_get_9;
+          return_value_isc_msgcat_get_9=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+          isc_error_unexpected("./../lib/isc/task.c", 1388, "isc_condition_init() %s", return_value_isc_msgcat_get_9);
           result = (unsigned int)34;
           goto cleanup_exclusivegranted;
         }
@@ -15508,18 +15508,18 @@ unsigned int isc__taskmgr_create(struct isc_mem *mctx, unsigned int workers, uns
         }
         while((_Bool)0);
         manager->tasks_running = (unsigned int)0;
-        manager->exclusive_requested = (enum anonymous$11)isc_boolean_false;
-        manager->pause_requested = (enum anonymous$11)isc_boolean_false;
-        manager->exiting = (enum anonymous$11)isc_boolean_false;
+        manager->exclusive_requested = (enum anonymous_11)isc_boolean_false;
+        manager->pause_requested = (enum anonymous_11)isc_boolean_false;
+        manager->exiting = (enum anonymous_11)isc_boolean_false;
         do
           *(&manager->mctx) = mctx;
         while((_Bool)0);
         i = (unsigned int)0;
         for( ; !(i >= workers); i = i + 1u)
         {
-          unsigned int return_value_isc_thread_create$11;
-          return_value_isc_thread_create$11=isc_thread_create(run, (void *)manager, &manager->threads[(signed long int)manager->workers]);
-          if(return_value_isc_thread_create$11 == 0u)
+          unsigned int return_value_isc_thread_create_11;
+          return_value_isc_thread_create_11=isc_thread_create(run, (void *)manager, &manager->threads[(signed long int)manager->workers]);
+          if(return_value_isc_thread_create_11 == 0u)
           {
             manager->workers = manager->workers + 1u;
             started = started + 1u;
@@ -15528,9 +15528,9 @@ unsigned int isc__taskmgr_create(struct isc_mem *mctx, unsigned int workers, uns
         }
         do
         {
-          signed int return_value_pthread_mutex_unlock$12;
-          return_value_pthread_mutex_unlock$12=pthread_mutex_unlock(&manager->lock);
-          if(return_value_pthread_mutex_unlock$12 == 0)
+          signed int return_value_pthread_mutex_unlock_12;
+          return_value_pthread_mutex_unlock_12=pthread_mutex_unlock(&manager->lock);
+          if(return_value_pthread_mutex_unlock_12 == 0)
             (_Bool)1;
 
           else
@@ -15552,13 +15552,13 @@ unsigned int isc__taskmgr_create(struct isc_mem *mctx, unsigned int workers, uns
 
       cleanup_exclusivegranted:
         ;
-        return_value_pthread_cond_destroy$13=pthread_cond_destroy(&manager->exclusive_granted);
-        (void)(return_value_pthread_cond_destroy$13 == 0 ? 0 : 34);
+        return_value_pthread_cond_destroy_13=pthread_cond_destroy(&manager->exclusive_granted);
+        (void)(return_value_pthread_cond_destroy_13 == 0 ? 0 : 34);
 
       cleanup_workavailable:
         ;
-        return_value_pthread_cond_destroy$14=pthread_cond_destroy(&manager->work_available);
-        (void)(return_value_pthread_cond_destroy$14 == 0 ? 0 : 34);
+        return_value_pthread_cond_destroy_14=pthread_cond_destroy(&manager->work_available);
+        (void)(return_value_pthread_cond_destroy_14 == 0 ? 0 : 34);
 
       cleanup_threads:
         ;
@@ -15570,9 +15570,9 @@ unsigned int isc__taskmgr_create(struct isc_mem *mctx, unsigned int workers, uns
 
       cleanup_lock:
         ;
-        signed int return_value_pthread_mutex_unlock$15;
-        return_value_pthread_mutex_unlock$15=pthread_mutex_unlock(&manager->lock);
-        if(return_value_pthread_mutex_unlock$15 == 0)
+        signed int return_value_pthread_mutex_unlock_15;
+        return_value_pthread_mutex_unlock_15=pthread_mutex_unlock(&manager->lock);
+        if(return_value_pthread_mutex_unlock_15 == 0)
           (_Bool)1;
 
         else
@@ -15582,8 +15582,8 @@ unsigned int isc__taskmgr_create(struct isc_mem *mctx, unsigned int workers, uns
         }
       }
       while((_Bool)0);
-      return_value_pthread_mutex_destroy$16=pthread_mutex_destroy(&manager->lock);
-      if(return_value_pthread_mutex_destroy$16 == 0)
+      return_value_pthread_mutex_destroy_16=pthread_mutex_destroy(&manager->lock);
+      if(return_value_pthread_mutex_destroy_16 == 0)
         (_Bool)1;
 
       else
@@ -15615,29 +15615,29 @@ void isc__taskmgr_destroy(struct isc_taskmgr **managerp)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 1465, (enum anonymous$45)isc_assertiontype_require, "managerp != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 1465, (enum anonymous_45)isc_assertiontype_require, "managerp != ((void *)0)");
     (_Bool)0;
   }
   manager = (struct isc__taskmgr *)*managerp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(manager == ((struct isc__taskmgr *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)manager)->magic == (unsigned int)(84 << 24 | 83 << 16 | 75 << 8 | 77) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)manager)->magic == (unsigned int)(84 << 24 | 83 << 16 | 75 << 8 | 77) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 1467, (enum anonymous$45)isc_assertiontype_require, "(((manager) != ((void *)0)) && (((const isc__magic_t *)(manager))->magic == ((('T') << 24 | ('S') << 16 | ('K') << 8 | ('M')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 1467, (enum anonymous_45)isc_assertiontype_require, "(((manager) != ((void *)0)) && (((const isc__magic_t *)(manager))->magic == ((('T') << 24 | ('S') << 16 | ('K') << 8 | ('M')))))");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -15652,19 +15652,19 @@ void isc__taskmgr_destroy(struct isc_taskmgr **managerp)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 1504, (enum anonymous$45)isc_assertiontype_insist, "!manager->exiting");
+    isc_assertion_failed("./../lib/isc/task.c", 1504, (enum anonymous_45)isc_assertiontype_insist, "!manager->exiting");
     (_Bool)0;
   }
-  manager->exiting = (enum anonymous$11)isc_boolean_true;
-  manager->mode = (enum anonymous$59)isc_taskmgrmode_normal;
+  manager->exiting = (enum anonymous_11)isc_boolean_true;
+  manager->mode = (enum anonymous_59)isc_taskmgrmode_normal;
   task = manager->tasks.head;
   for( ; !(task == ((struct isc__task *)NULL)); task = task->link.next)
   {
     do
     {
-      signed int return_value_pthread_mutex_lock$3;
-      return_value_pthread_mutex_lock$3=pthread_mutex_lock(&task->lock);
-      if(return_value_pthread_mutex_lock$3 == 0)
+      signed int return_value_pthread_mutex_lock_3;
+      return_value_pthread_mutex_lock_3=pthread_mutex_lock(&task->lock);
+      if(return_value_pthread_mutex_lock_3 == 0)
         (_Bool)1;
 
       else
@@ -15674,16 +15674,16 @@ void isc__taskmgr_destroy(struct isc_taskmgr **managerp)
       }
     }
     while((_Bool)0);
-    enum anonymous$11 return_value_task_shutdown$4;
-    return_value_task_shutdown$4=task_shutdown(task);
-    if(!(return_value_task_shutdown$4 == /*enum*/isc_boolean_false))
+    enum anonymous_11 return_value_task_shutdown_4;
+    return_value_task_shutdown_4=task_shutdown(task);
+    if(!(return_value_task_shutdown_4 == /*enum*/isc_boolean_false))
       push_readyq(manager, task);
 
     do
     {
-      signed int return_value_pthread_mutex_unlock$5;
-      return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&task->lock);
-      if(return_value_pthread_mutex_unlock$5 == 0)
+      signed int return_value_pthread_mutex_unlock_5;
+      return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&task->lock);
+      if(return_value_pthread_mutex_unlock_5 == 0)
         (_Bool)1;
 
       else
@@ -15696,9 +15696,9 @@ void isc__taskmgr_destroy(struct isc_taskmgr **managerp)
   }
   do
   {
-    signed int return_value_pthread_cond_broadcast$6;
-    return_value_pthread_cond_broadcast$6=pthread_cond_broadcast(&manager->work_available);
-    if(return_value_pthread_cond_broadcast$6 == 0)
+    signed int return_value_pthread_cond_broadcast_6;
+    return_value_pthread_cond_broadcast_6=pthread_cond_broadcast(&manager->work_available);
+    if(return_value_pthread_cond_broadcast_6 == 0)
       (_Bool)1;
 
     else
@@ -15710,9 +15710,9 @@ void isc__taskmgr_destroy(struct isc_taskmgr **managerp)
   while((_Bool)0);
   do
   {
-    signed int return_value_pthread_mutex_unlock$7;
-    return_value_pthread_mutex_unlock$7=pthread_mutex_unlock(&manager->lock);
-    if(return_value_pthread_mutex_unlock$7 == 0)
+    signed int return_value_pthread_mutex_unlock_7;
+    return_value_pthread_mutex_unlock_7=pthread_mutex_unlock(&manager->lock);
+    if(return_value_pthread_mutex_unlock_7 == 0)
       (_Bool)1;
 
     else
@@ -15723,11 +15723,11 @@ void isc__taskmgr_destroy(struct isc_taskmgr **managerp)
   }
   while((_Bool)0);
   i = (unsigned int)0;
-  signed int return_value_pthread_join$8;
+  signed int return_value_pthread_join_8;
   for( ; !(i >= manager->workers); i = i + 1u)
   {
-    return_value_pthread_join$8=pthread_join(manager->threads[(signed long int)i], (void **)(void *)0);
-    (void)(return_value_pthread_join$8 == 0 ? 0 : 34);
+    return_value_pthread_join_8=pthread_join(manager->threads[(signed long int)i], (void **)(void *)0);
+    (void)(return_value_pthread_join_8 == 0 ? 0 : 34);
   }
   manager_free(manager);
   *managerp = (struct isc_taskmgr *)(void *)0;
@@ -15735,15 +15735,15 @@ void isc__taskmgr_destroy(struct isc_taskmgr **managerp)
 
 // isc__taskmgr_mode
 // file ./../lib/isc/task.c line 1570
-enum anonymous$59 isc__taskmgr_mode(struct isc_taskmgr *manager0)
+enum anonymous_59 isc__taskmgr_mode(struct isc_taskmgr *manager0)
 {
   struct isc__taskmgr *manager = (struct isc__taskmgr *)manager0;
-  enum anonymous$59 mode;
+  enum anonymous_59 mode;
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -15756,9 +15756,9 @@ enum anonymous$59 isc__taskmgr_mode(struct isc_taskmgr *manager0)
   mode = manager->mode;
   do
   {
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&manager->lock);
-    if(return_value_pthread_mutex_unlock$2 == 0)
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&manager->lock);
+    if(return_value_pthread_mutex_unlock_2 == 0)
       (_Bool)1;
 
     else
@@ -15778,9 +15778,9 @@ void isc__taskmgr_pause(struct isc_taskmgr *manager0)
   struct isc__taskmgr *manager = (struct isc__taskmgr *)manager0;
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -15793,9 +15793,9 @@ void isc__taskmgr_pause(struct isc_taskmgr *manager0)
   while(manager->tasks_running >= 1u)
     do
     {
-      signed int return_value_pthread_cond_wait$2;
-      return_value_pthread_cond_wait$2=pthread_cond_wait(&manager->paused, &manager->lock);
-      if(return_value_pthread_cond_wait$2 == 0)
+      signed int return_value_pthread_cond_wait_2;
+      return_value_pthread_cond_wait_2=pthread_cond_wait(&manager->paused, &manager->lock);
+      if(return_value_pthread_cond_wait_2 == 0)
         (_Bool)1;
 
       else
@@ -15805,12 +15805,12 @@ void isc__taskmgr_pause(struct isc_taskmgr *manager0)
       }
     }
     while((_Bool)0);
-  manager->pause_requested = (enum anonymous$11)isc_boolean_true;
+  manager->pause_requested = (enum anonymous_11)isc_boolean_true;
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&manager->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&manager->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -15829,9 +15829,9 @@ void isc__taskmgr_resume(struct isc_taskmgr *manager0)
   struct isc__taskmgr *manager = (struct isc__taskmgr *)manager0;
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -15843,12 +15843,12 @@ void isc__taskmgr_resume(struct isc_taskmgr *manager0)
   while((_Bool)0);
   if(!(manager->pause_requested == /*enum*/isc_boolean_false))
   {
-    manager->pause_requested = (enum anonymous$11)isc_boolean_false;
+    manager->pause_requested = (enum anonymous_11)isc_boolean_false;
     do
     {
-      signed int return_value_pthread_cond_broadcast$2;
-      return_value_pthread_cond_broadcast$2=pthread_cond_broadcast(&manager->work_available);
-      if(return_value_pthread_cond_broadcast$2 == 0)
+      signed int return_value_pthread_cond_broadcast_2;
+      return_value_pthread_cond_broadcast_2=pthread_cond_broadcast(&manager->work_available);
+      if(return_value_pthread_cond_broadcast_2 == 0)
         (_Bool)1;
 
       else
@@ -15862,9 +15862,9 @@ void isc__taskmgr_resume(struct isc_taskmgr *manager0)
 
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&manager->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&manager->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -15878,14 +15878,14 @@ void isc__taskmgr_resume(struct isc_taskmgr *manager0)
 
 // isc__taskmgr_setmode
 // file ./../lib/isc/task.c line 1561
-void isc__taskmgr_setmode(struct isc_taskmgr *manager0, enum anonymous$59 mode)
+void isc__taskmgr_setmode(struct isc_taskmgr *manager0, enum anonymous_59 mode)
 {
   struct isc__taskmgr *manager = (struct isc__taskmgr *)manager0;
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -15898,9 +15898,9 @@ void isc__taskmgr_setmode(struct isc_taskmgr *manager0, enum anonymous$59 mode)
   manager->mode = mode;
   do
   {
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&manager->lock);
-    if(return_value_pthread_mutex_unlock$2 == 0)
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&manager->lock);
+    if(return_value_pthread_mutex_unlock_2 == 0)
       (_Bool)1;
 
     else
@@ -15914,7 +15914,7 @@ void isc__taskmgr_setmode(struct isc_taskmgr *manager0, enum anonymous$59 mode)
 
 // isc_assertion_failed
 // file ../lib/isc/include/isc/assertions.h line 45
-void isc_assertion_failed(const char *file, signed int line, enum anonymous$45 type, const char *cond)
+void isc_assertion_failed(const char *file, signed int line, enum anonymous_45 type, const char *cond)
 {
   isc_assertion_failed_cb(file, line, type, cond);
   abort();
@@ -15922,9 +15922,9 @@ void isc_assertion_failed(const char *file, signed int line, enum anonymous$45 t
 
 // isc_assertion_setcallback
 // file ./../lib/isc/assertions.c line 64
-void isc_assertion_setcallback(void (*cb)(const char *, signed int, enum anonymous$45, const char *))
+void isc_assertion_setcallback(void (*cb)(const char *, signed int, enum anonymous_45, const char *))
 {
-  if(cb == ((void (*)(const char *, signed int, enum anonymous$45, const char *))NULL))
+  if(cb == ((void (*)(const char *, signed int, enum anonymous_45, const char *))NULL))
     isc_assertion_failed_cb = default_callback;
 
   else
@@ -15933,7 +15933,7 @@ void isc_assertion_setcallback(void (*cb)(const char *, signed int, enum anonymo
 
 // isc_assertion_typetotext
 // file ./../lib/isc/assertions.c line 73
-const char * isc_assertion_typetotext(enum anonymous$45 type)
+const char * isc_assertion_typetotext(enum anonymous_45 type)
 {
   const char *result;
   switch((signed int)type)
@@ -15970,13 +15970,13 @@ unsigned int isc_backtrace_getsymbol(const void *addr, const char **symbolp, uns
 {
   unsigned int result = (unsigned int)0;
   struct isc_backtrace_symmap *found;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(symbolp == ((const char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *symbolp != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(offsetp == ((unsigned long int *)NULL) || tmp_if_expr$1)
+    tmp_if_expr_1 = *symbolp != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(offsetp == ((unsigned long int *)NULL) || tmp_if_expr_1)
     return (unsigned int)25;
 
   else
@@ -15985,9 +15985,9 @@ unsigned int isc_backtrace_getsymbol(const void *addr, const char **symbolp, uns
 
     else
     {
-      void *return_value_bsearch$2;
-      return_value_bsearch$2=bsearch(addr, (const void *)isc__backtrace_symtable, (unsigned long int)isc__backtrace_nsymbols, sizeof(const struct isc_backtrace_symmap) /*16ul*/ , symtbl_compare);
-      found = (struct isc_backtrace_symmap *)return_value_bsearch$2;
+      void *return_value_bsearch_2;
+      return_value_bsearch_2=bsearch(addr, (const void *)isc__backtrace_symtable, (unsigned long int)isc__backtrace_nsymbols, sizeof(const struct isc_backtrace_symmap) /*16ul*/ , symtbl_compare);
+      found = (struct isc_backtrace_symmap *)return_value_bsearch_2;
       if(found == ((struct isc_backtrace_symmap *)NULL))
         result = (unsigned int)23;
 
@@ -16004,32 +16004,32 @@ unsigned int isc_backtrace_getsymbol(const void *addr, const char **symbolp, uns
 // file ./../lib/isc/backtrace.c line 214
 unsigned int isc_backtrace_getsymbolfromindex(signed int idx, const void **addrp, const char **symbolp)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(addrp == ((const void **)NULL)))
-    tmp_if_expr$1 = *addrp == (void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *addrp == (void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/backtrace.c", 217, (enum anonymous$45)isc_assertiontype_require, "addrp != ((void *)0) && *addrp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/backtrace.c", 217, (enum anonymous_45)isc_assertiontype_require, "addrp != ((void *)0) && *addrp == ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(symbolp == ((const char **)NULL)))
-    tmp_if_expr$2 = *symbolp == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = *symbolp == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/backtrace.c", 218, (enum anonymous$45)isc_assertiontype_require, "symbolp != ((void *)0) && *symbolp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/backtrace.c", 218, (enum anonymous_45)isc_assertiontype_require, "symbolp != ((void *)0) && *symbolp == ((void *)0)");
     (_Bool)0;
   }
   if(idx >= isc__backtrace_nsymbols || !(idx >= 0))
@@ -16067,7 +16067,7 @@ unsigned int isc_buffer_allocate(struct isc_mem *mctx, struct isc_buffer **dynbu
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 454, (enum anonymous$45)isc_assertiontype_require, "dynbuffer != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 454, (enum anonymous_45)isc_assertiontype_require, "dynbuffer != ((void *)0)");
     (_Bool)0;
   }
   if(*dynbuffer == ((struct isc_buffer *)NULL))
@@ -16075,13 +16075,13 @@ unsigned int isc_buffer_allocate(struct isc_mem *mctx, struct isc_buffer **dynbu
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 455, (enum anonymous$45)isc_assertiontype_require, "*dynbuffer == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 455, (enum anonymous_45)isc_assertiontype_require, "*dynbuffer == ((void *)0)");
     (_Bool)0;
   }
   (void)mctx;
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)0, (unsigned long int)length + sizeof(struct isc_buffer) /*56ul*/ , (unsigned long int)0, 0);
-  dbuf = (struct isc_buffer *)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)0, (unsigned long int)length + sizeof(struct isc_buffer) /*56ul*/ , (unsigned long int)0, 0);
+  dbuf = (struct isc_buffer *)return_value_ereallocz_1;
   if(dbuf == ((struct isc_buffer *)NULL))
     return (unsigned int)1;
 
@@ -16100,18 +16100,18 @@ void isc_buffer_compact(struct isc_buffer *b)
 {
   unsigned int length;
   void *src;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 249, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 249, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   src = (void *)((unsigned char *)b->base + (signed long int)b->current);
@@ -16132,18 +16132,18 @@ unsigned int isc_buffer_copyregion(struct isc_buffer *b, const struct isc_region
 {
   unsigned char *base;
   unsigned int available;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 432, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 432, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(!(r == ((const struct isc_region *)NULL)))
@@ -16151,7 +16151,7 @@ unsigned int isc_buffer_copyregion(struct isc_buffer *b, const struct isc_region
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 433, (enum anonymous$45)isc_assertiontype_require, "r != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 433, (enum anonymous_45)isc_assertiontype_require, "r != ((void *)0)");
     (_Bool)0;
   }
   base = (unsigned char *)(void *)((unsigned char *)b->base + (signed long int)b->used);
@@ -16179,21 +16179,21 @@ void isc_buffer_free(struct isc_buffer **dynbuffer)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 476, (enum anonymous$45)isc_assertiontype_require, "dynbuffer != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 476, (enum anonymous_45)isc_assertiontype_require, "dynbuffer != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(*dynbuffer == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)*dynbuffer)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)*dynbuffer)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 477, (enum anonymous$45)isc_assertiontype_require, "(((*dynbuffer) != ((void *)0)) && (((const isc__magic_t *)(*dynbuffer))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 477, (enum anonymous_45)isc_assertiontype_require, "(((*dynbuffer) != ((void *)0)) && (((const isc__magic_t *)(*dynbuffer))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(!((*dynbuffer)->mctx == ((struct isc_mem *)NULL)))
@@ -16201,7 +16201,7 @@ void isc_buffer_free(struct isc_buffer **dynbuffer)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 478, (enum anonymous$45)isc_assertiontype_require, "(*dynbuffer)->mctx != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 478, (enum anonymous_45)isc_assertiontype_require, "(*dynbuffer)->mctx != ((void *)0)");
     (_Bool)0;
   }
   dbuf = *dynbuffer;
@@ -16221,18 +16221,18 @@ unsigned short int isc_buffer_getuint16(struct isc_buffer *b)
 {
   unsigned char *cp;
   unsigned short int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 300, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 300, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->used + -b->current >= 2u)
@@ -16240,7 +16240,7 @@ unsigned short int isc_buffer_getuint16(struct isc_buffer *b)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 301, (enum anonymous$45)isc_assertiontype_require, "b->used - b->current >= 2");
+    isc_assertion_failed("./../lib/isc/buffer.c", 301, (enum anonymous_45)isc_assertiontype_require, "b->used - b->current >= 2");
     (_Bool)0;
   }
   cp = (unsigned char *)(void *)((unsigned char *)b->base + (signed long int)b->current);
@@ -16256,18 +16256,18 @@ unsigned int isc_buffer_getuint32(struct isc_buffer *b)
 {
   unsigned char *cp;
   unsigned int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 337, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 337, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->used + -b->current >= 4u)
@@ -16275,7 +16275,7 @@ unsigned int isc_buffer_getuint32(struct isc_buffer *b)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 338, (enum anonymous$45)isc_assertiontype_require, "b->used - b->current >= 4");
+    isc_assertion_failed("./../lib/isc/buffer.c", 338, (enum anonymous_45)isc_assertiontype_require, "b->used - b->current >= 4");
     (_Bool)0;
   }
   cp = (unsigned char *)(void *)((unsigned char *)b->base + (signed long int)b->current);
@@ -16293,18 +16293,18 @@ unsigned long long int isc_buffer_getuint48(struct isc_buffer *b)
 {
   unsigned char *cp;
   unsigned long long int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 368, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 368, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->used + -b->current >= 6u)
@@ -16312,7 +16312,7 @@ unsigned long long int isc_buffer_getuint48(struct isc_buffer *b)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 369, (enum anonymous$45)isc_assertiontype_require, "b->used - b->current >= 6");
+    isc_assertion_failed("./../lib/isc/buffer.c", 369, (enum anonymous_45)isc_assertiontype_require, "b->used - b->current >= 6");
     (_Bool)0;
   }
   cp = (unsigned char *)(void *)((unsigned char *)b->base + (signed long int)b->current);
@@ -16332,18 +16332,18 @@ unsigned char isc_buffer_getuint8(struct isc_buffer *b)
 {
   unsigned char *cp;
   unsigned char result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b == ((struct isc_buffer *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)b)->magic == 0x42756621U ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 272, (enum anonymous$45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
+    isc_assertion_failed("./../lib/isc/buffer.c", 272, (enum anonymous_45)isc_assertiontype_require, "(((b) != ((void *)0)) && (((const isc__magic_t *)(b))->magic == (0x42756621U)))");
     (_Bool)0;
   }
   if(b->used + -b->current >= 1u)
@@ -16351,7 +16351,7 @@ unsigned char isc_buffer_getuint8(struct isc_buffer *b)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 273, (enum anonymous$45)isc_assertiontype_require, "b->used - b->current >= 1");
+    isc_assertion_failed("./../lib/isc/buffer.c", 273, (enum anonymous_45)isc_assertiontype_require, "b->used - b->current >= 1");
     (_Bool)0;
   }
   cp = (unsigned char *)(void *)((unsigned char *)b->base + (signed long int)b->current);
@@ -16369,7 +16369,7 @@ void isc_buffer_reinit(struct isc_buffer *b, void *base, unsigned int length)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 63, (enum anonymous$45)isc_assertiontype_require, "b->length <= length");
+    isc_assertion_failed("./../lib/isc/buffer.c", 63, (enum anonymous_45)isc_assertiontype_require, "b->length <= length");
     (_Bool)0;
   }
   if(!(base == NULL))
@@ -16377,7 +16377,7 @@ void isc_buffer_reinit(struct isc_buffer *b, void *base, unsigned int length)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/buffer.c", 64, (enum anonymous$45)isc_assertiontype_require, "base != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/buffer.c", 64, (enum anonymous_45)isc_assertiontype_require, "base != ((void *)0)");
     (_Bool)0;
   }
   memmove(base, b->base, (unsigned long int)b->length);
@@ -16387,18 +16387,18 @@ void isc_buffer_reinit(struct isc_buffer *b, void *base, unsigned int length)
 
 // isc_condition_waituntil
 // file ./../lib/isc/pthreads/condition.c line 34
-unsigned int isc_condition_waituntil(union anonymous$3 *c, union anonymous$4 *m, struct isc_time *t)
+unsigned int isc_condition_waituntil(union anonymous_3 *c, union anonymous_4 *m, struct isc_time *t)
 {
   signed int presult;
   unsigned int result;
   struct timespec ts;
   char strbuf[128l];
-  if(!(c == ((union anonymous$3 *)NULL)) && !(m == ((union anonymous$4 *)NULL)) && !(t == ((struct isc_time *)NULL)))
+  if(!(c == ((union anonymous_3 *)NULL)) && !(m == ((union anonymous_4 *)NULL)) && !(t == ((struct isc_time *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/pthreads/condition.c", 40, (enum anonymous$45)isc_assertiontype_require, "c != ((void *)0) && m != ((void *)0) && t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/pthreads/condition.c", 40, (enum anonymous_45)isc_assertiontype_require, "c != ((void *)0) && m != ((void *)0) && t != ((void *)0)");
     (_Bool)0;
   }
   result=isc_time_secondsastimet(t, &ts.tv_sec);
@@ -16407,9 +16407,9 @@ unsigned int isc_condition_waituntil(union anonymous$3 *c, union anonymous$4 *m,
 
   else
   {
-    unsigned int return_value_isc_time_nanoseconds$1;
-    return_value_isc_time_nanoseconds$1=isc_time_nanoseconds(t);
-    ts.tv_nsec = (signed long int)return_value_isc_time_nanoseconds$1;
+    unsigned int return_value_isc_time_nanoseconds_1;
+    return_value_isc_time_nanoseconds_1=isc_time_nanoseconds(t);
+    ts.tv_nsec = (signed long int)return_value_isc_time_nanoseconds_1;
     do
     {
       presult=pthread_cond_timedwait(c, m, &ts);
@@ -16422,9 +16422,9 @@ unsigned int isc_condition_waituntil(union anonymous$3 *c, union anonymous$4 *m,
     }
     while(presult == 4);
     isc__strerror(presult, strbuf, sizeof(char [128l]) /*128ul*/ );
-    const char *return_value_isc_msgcat_get$2;
-    return_value_isc_msgcat_get$2=isc_msgcat_get(isc_msgcat, 1, 109, "returned");
-    isc_error_unexpected("./../lib/isc/pthreads/condition.c", 68, "pthread_cond_timedwait() %s %s", return_value_isc_msgcat_get$2, (const void *)strbuf);
+    const char *return_value_isc_msgcat_get_2;
+    return_value_isc_msgcat_get_2=isc_msgcat_get(isc_msgcat, 1, 109, "returned");
+    isc_error_unexpected("./../lib/isc/pthreads/condition.c", 68, "pthread_cond_timedwait() %s %s", return_value_isc_msgcat_get_2, (const void *)strbuf);
     return (unsigned int)34;
   }
 }
@@ -16438,18 +16438,18 @@ unsigned int isc_dir_chdir(const char *dirname)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/dir.c", 166, (enum anonymous$45)isc_assertiontype_require, "dirname != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/dir.c", 166, (enum anonymous_45)isc_assertiontype_require, "dirname != ((void *)0)");
     (_Bool)0;
   }
-  signed int return_value_chdir$3;
-  return_value_chdir$3=chdir(dirname);
-  signed int *return_value___errno_location$1;
-  unsigned int return_value_isc___errno2result$2;
-  if(!(return_value_chdir$3 >= 0))
+  signed int return_value_chdir_3;
+  return_value_chdir_3=chdir(dirname);
+  signed int *return_value___errno_location_1;
+  unsigned int return_value_isc___errno2result_2;
+  if(!(return_value_chdir_3 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_isc___errno2result$2=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/dir.c", (unsigned int)169);
-    return return_value_isc___errno2result$2;
+    return_value___errno_location_1=__errno_location();
+    return_value_isc___errno2result_2=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/dir.c", (unsigned int)169);
+    return return_value_isc___errno2result_2;
   }
 
   else
@@ -16465,7 +16465,7 @@ unsigned int isc_dir_chroot(const char *dirname)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/dir.c", 177, (enum anonymous$45)isc_assertiontype_require, "dirname != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/dir.c", 177, (enum anonymous_45)isc_assertiontype_require, "dirname != ((void *)0)");
     (_Bool)0;
   }
   return (unsigned int)27;
@@ -16475,24 +16475,24 @@ unsigned int isc_dir_chroot(const char *dirname)
 // file ./../lib/isc/unix/dir.c line 141
 void isc_dir_close(struct isc_dir *dir)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(dir == ((struct isc_dir *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)dir)->magic == (unsigned int)(68 << 24 | 73 << 16 | 82 << 8 | 42) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)dir)->magic == (unsigned int)(68 << 24 | 73 << 16 | 82 << 8 | 42) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = dir->handle != (struct __dirstream *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = dir->handle != (struct __dirstream *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/dir.c", 142, (enum anonymous$45)isc_assertiontype_require, "(((dir) != ((void *)0)) && (((const isc__magic_t *)(dir))->magic == ((('D') << 24 | ('I') << 16 | ('R') << 8 | ('*'))))) && dir->handle != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/dir.c", 142, (enum anonymous_45)isc_assertiontype_require, "(((dir) != ((void *)0)) && (((const isc__magic_t *)(dir))->magic == ((('D') << 24 | ('I') << 16 | ('R') << 8 | ('*'))))) && dir->handle != ((void *)0)");
     (_Bool)0;
   }
   closedir(dir->handle);
@@ -16513,42 +16513,42 @@ unsigned int isc_dir_createunique(char *templet)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/dir.c", 197, (enum anonymous$45)isc_assertiontype_require, "templet != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/dir.c", 197, (enum anonymous_45)isc_assertiontype_require, "templet != ((void *)0)");
     (_Bool)0;
   }
   pid=getpid();
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(templet);
-  x = (templet + (signed long int)return_value_strlen$1) - (signed long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(templet);
+  x = (templet + (signed long int)return_value_strlen_1) - (signed long int)1;
   for( ; (signed int)*x == 88 && x >= templet; pid = pid / 10)
   {
     *x = (char)(pid % 10 + 48);
     x = x - 1l;
   }
   x = x + 1l;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  char *tmp_post$4;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  char *tmp_post_4;
   do
   {
     i=mkdir(templet, (unsigned int)0700);
     if(i == 0)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 != 17 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 != 17 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       break;
 
     p = x;
     while(!((signed int)*p == 0))
     {
-      const unsigned short int **return_value___ctype_b_loc$5;
-      return_value___ctype_b_loc$5=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(0xff & (signed int)*p)]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_5;
+      return_value___ctype_b_loc_5=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(0xff & (signed int)*p)]) == 0))
         *p = (char)97;
 
       else
@@ -16557,28 +16557,28 @@ unsigned int isc_dir_createunique(char *templet)
 
         else
         {
-          tmp_post$4 = p;
+          tmp_post_4 = p;
           p = p + 1l;
-          *tmp_post$4 = (char)97;
+          *tmp_post_4 = (char)97;
           continue;
         }
       break;
     }
     if((signed int)*p == 0)
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6 = 17;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6 = 17;
       break;
     }
 
   }
   while((_Bool)1);
-  signed int *return_value___errno_location$7;
+  signed int *return_value___errno_location_7;
   if(i == -1)
   {
-    return_value___errno_location$7=__errno_location();
-    result=isc___errno2result(*return_value___errno_location$7, "./../lib/isc/unix/dir.c", (unsigned int)251);
+    return_value___errno_location_7=__errno_location();
+    result=isc___errno2result(*return_value___errno_location_7, "./../lib/isc/unix/dir.c", (unsigned int)251);
   }
 
   else
@@ -16595,7 +16595,7 @@ void isc_dir_init(struct isc_dir *dir)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/dir.c", 45, (enum anonymous$45)isc_assertiontype_require, "dir != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/dir.c", 45, (enum anonymous_45)isc_assertiontype_require, "dir != ((void *)0)");
     (_Bool)0;
   }
   dir->entry.name[(signed long int)0] = (char)0;
@@ -16611,18 +16611,18 @@ unsigned int isc_dir_open(struct isc_dir *dir, const char *dirname)
   char *p;
   unsigned long int octets;
   unsigned int result = (unsigned int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(dir == ((struct isc_dir *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)dir)->magic == (unsigned int)(68 << 24 | 73 << 16 | 82 << 8 | 42) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)dir)->magic == (unsigned int)(68 << 24 | 73 << 16 | 82 << 8 | 42) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/dir.c", 65, (enum anonymous$45)isc_assertiontype_require, "(((dir) != ((void *)0)) && (((const isc__magic_t *)(dir))->magic == ((('D') << 24 | ('I') << 16 | ('R') << 8 | ('*')))))");
+    isc_assertion_failed("./../lib/isc/unix/dir.c", 65, (enum anonymous_45)isc_assertiontype_require, "(((dir) != ((void *)0)) && (((const isc__magic_t *)(dir))->magic == ((('D') << 24 | ('I') << 16 | ('R') << 8 | ('*')))))");
     (_Bool)0;
   }
   if(!(dirname == ((const char *)NULL)))
@@ -16630,46 +16630,46 @@ unsigned int isc_dir_open(struct isc_dir *dir, const char *dirname)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/dir.c", 66, (enum anonymous$45)isc_assertiontype_require, "dirname != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/dir.c", 66, (enum anonymous_45)isc_assertiontype_require, "dirname != ((void *)0)");
     (_Bool)0;
   }
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(dirname);
-  octets = return_value_strlen$2 + (unsigned long int)1;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  signed int *return_value___errno_location$6;
-  unsigned int return_value_isc___errno2result$7;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(dirname);
+  octets = return_value_strlen_2 + (unsigned long int)1;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  signed int *return_value___errno_location_6;
+  unsigned int return_value_isc___errno2result_7;
   if(2ul + octets >= 1025ul)
     return (unsigned int)19;
 
   else
   {
     strlcpy(dir->dirname, dirname, octets);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(dir->dirname);
-    p = dir->dirname + (signed long int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(dir->dirname);
+    p = dir->dirname + (signed long int)return_value_strlen_3;
     if(!(dir->dirname >= p))
     {
       if(!((signed int)p[-1l] == 47))
       {
-        tmp_post$4 = p;
+        tmp_post_4 = p;
         p = p + 1l;
-        *tmp_post$4 = (char)47;
+        *tmp_post_4 = (char)47;
       }
 
     }
 
-    tmp_post$5 = p;
+    tmp_post_5 = p;
     p = p + 1l;
-    *tmp_post$5 = (char)42;
+    *tmp_post_5 = (char)42;
     *p = (char)0;
     dir->handle=opendir(dirname);
     if(dir->handle == ((struct __dirstream *)NULL))
     {
-      return_value___errno_location$6=__errno_location();
-      return_value_isc___errno2result$7=isc___errno2result(*return_value___errno_location$6, "./../lib/isc/unix/dir.c", (unsigned int)93);
-      return return_value_isc___errno2result$7;
+      return_value___errno_location_6=__errno_location();
+      return_value_isc___errno2result_7=isc___errno2result(*return_value___errno_location_6, "./../lib/isc/unix/dir.c", (unsigned int)93);
+      return return_value_isc___errno2result_7;
     }
 
     else
@@ -16683,24 +16683,24 @@ unsigned int isc_dir_read(struct isc_dir *dir)
 {
   struct dirent *entry;
   unsigned long int octets;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(dir == ((struct isc_dir *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)dir)->magic == (unsigned int)(68 << 24 | 73 << 16 | 82 << 8 | 42) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)dir)->magic == (unsigned int)(68 << 24 | 73 << 16 | 82 << 8 | 42) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = dir->handle != (struct __dirstream *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = dir->handle != (struct __dirstream *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/dir.c", 110, (enum anonymous$45)isc_assertiontype_require, "(((dir) != ((void *)0)) && (((const isc__magic_t *)(dir))->magic == ((('D') << 24 | ('I') << 16 | ('R') << 8 | ('*'))))) && dir->handle != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/dir.c", 110, (enum anonymous_45)isc_assertiontype_require, "(((dir) != ((void *)0)) && (((const isc__magic_t *)(dir))->magic == ((('D') << 24 | ('I') << 16 | ('R') << 8 | ('*'))))) && dir->handle != ((void *)0)");
     (_Bool)0;
   }
   entry=readdir(dir->handle);
@@ -16709,18 +16709,18 @@ unsigned int isc_dir_read(struct isc_dir *dir)
 
   else
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(entry->d_name);
-    octets = return_value_strlen$3 + (unsigned long int)1;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(entry->d_name);
+    octets = return_value_strlen_3 + (unsigned long int)1;
     if(octets >= 257ul)
       return (unsigned int)34;
 
     else
     {
       strlcpy(dir->entry.name, entry->d_name, octets);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(entry->d_name);
-      dir->entry.length = (unsigned int)return_value_strlen$4;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(entry->d_name);
+      dir->entry.length = (unsigned int)return_value_strlen_4;
       return (unsigned int)0;
     }
   }
@@ -16730,24 +16730,24 @@ unsigned int isc_dir_read(struct isc_dir *dir)
 // file ./../lib/isc/unix/dir.c line 152
 unsigned int isc_dir_reset(struct isc_dir *dir)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(dir == ((struct isc_dir *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)dir)->magic == (unsigned int)(68 << 24 | 73 << 16 | 82 << 8 | 42) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)dir)->magic == (unsigned int)(68 << 24 | 73 << 16 | 82 << 8 | 42) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = dir->handle != (struct __dirstream *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = dir->handle != (struct __dirstream *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/dir.c", 153, (enum anonymous$45)isc_assertiontype_require, "(((dir) != ((void *)0)) && (((const isc__magic_t *)(dir))->magic == ((('D') << 24 | ('I') << 16 | ('R') << 8 | ('*'))))) && dir->handle != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/dir.c", 153, (enum anonymous_45)isc_assertiontype_require, "(((dir) != ((void *)0)) && (((const isc__magic_t *)(dir))->magic == ((('D') << 24 | ('I') << 16 | ('R') << 8 | ('*'))))) && dir->handle != ((void *)0)");
     (_Bool)0;
   }
   rewinddir(dir->handle);
@@ -16768,9 +16768,9 @@ void isc_error_fatal(const char *file, signed int line, const char *format, ...)
 // file ./../lib/isc/error.c line 80
 void isc_error_runtimecheck(const char *file, signed int line, const char *expression)
 {
-  const char *return_value_isc_msgcat_get$1;
-  return_value_isc_msgcat_get$1=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-  isc_error_fatal(file, line, "RUNTIME_CHECK(%s) %s", expression, return_value_isc_msgcat_get$1);
+  const char *return_value_isc_msgcat_get_1;
+  return_value_isc_msgcat_get_1=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+  isc_error_fatal(file, line, "RUNTIME_CHECK(%s) %s", expression, return_value_isc_msgcat_get_1);
 }
 
 // isc_error_setfatal
@@ -16815,7 +16815,7 @@ struct isc_event * isc_event_allocate(struct isc_mem *mctx, void *sender, unsign
 
   else
   {
-    isc_assertion_failed("./../lib/isc/event.c", 47, (enum anonymous$45)isc_assertiontype_require, "size >= sizeof(struct isc_event)");
+    isc_assertion_failed("./../lib/isc/event.c", 47, (enum anonymous_45)isc_assertiontype_require, "size >= sizeof(struct isc_event)");
     (_Bool)0;
   }
   if(!(action == ((void (*)(struct isc_task *, struct isc_event *))NULL)))
@@ -16823,13 +16823,13 @@ struct isc_event * isc_event_allocate(struct isc_mem *mctx, void *sender, unsign
 
   else
   {
-    isc_assertion_failed("./../lib/isc/event.c", 48, (enum anonymous$45)isc_assertiontype_require, "action != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/event.c", 48, (enum anonymous_45)isc_assertiontype_require, "action != ((void *)0)");
     (_Bool)0;
   }
   (void)mctx;
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)0, size, (unsigned long int)0, 0);
-  event = (struct isc_event *)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)0, size, (unsigned long int)0, 0);
+  event = (struct isc_event *)return_value_ereallocz_1;
   if(event == ((struct isc_event *)NULL))
     return (struct isc_event *)(void *)0;
 
@@ -16837,8 +16837,8 @@ struct isc_event * isc_event_allocate(struct isc_mem *mctx, void *sender, unsign
   {
     do
     {
-      /* tag-#anon#lUN[l*{clV}$clV$'k'||l*{lV}$lV$'v'|] */
-union anonymous$10
+      /* tag-#anon#lUN[l*{clV}_clV_'k'||l*{lV}_lV_'v'|] */
+union anonymous_10
 {
   // k
   const void *k;
@@ -16848,7 +16848,7 @@ union anonymous$10
 
 /* */
       ;
-      union anonymous$10 _u;
+      union anonymous_10 _u;
       _u.k = arg;
       deconst_arg = _u.v;
     }
@@ -16886,7 +16886,7 @@ void isc_event_free(struct isc_event **eventp)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/event.c", 78, (enum anonymous$45)isc_assertiontype_require, "eventp != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/event.c", 78, (enum anonymous_45)isc_assertiontype_require, "eventp != ((void *)0)");
     (_Bool)0;
   }
   event = *eventp;
@@ -16895,7 +16895,7 @@ void isc_event_free(struct isc_event **eventp)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/event.c", 80, (enum anonymous$45)isc_assertiontype_require, "event != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/event.c", 80, (enum anonymous_45)isc_assertiontype_require, "event != ((void *)0)");
     (_Bool)0;
   }
   if(!(event->ev_destroy == ((void (*)(struct isc_event *))NULL)))
@@ -16915,11 +16915,11 @@ unsigned int isc_file_absolutepath(const char *filename, char *path, unsigned lo
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(path);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(filename);
-    if(!(pathlen >= 1ul + return_value_strlen$1 + return_value_strlen$2))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(path);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(filename);
+    if(!(pathlen >= 1ul + return_value_strlen_1 + return_value_strlen_2))
       return (unsigned int)19;
 
     else
@@ -16940,7 +16940,7 @@ const char * isc_file_basename(const char *filename)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 395, (enum anonymous$45)isc_assertiontype_require, "filename != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 395, (enum anonymous_45)isc_assertiontype_require, "filename != ((void *)0)");
     (_Bool)0;
   }
   s=strrchr(filename, 47);
@@ -16953,7 +16953,7 @@ const char * isc_file_basename(const char *filename)
 
 // isc_file_exists
 // file ./../lib/isc/unix/file.c line 344
-enum anonymous$11 isc_file_exists(const char *pathname)
+enum anonymous_11 isc_file_exists(const char *pathname)
 {
   struct stat stats;
   if(!(pathname == ((const char *)NULL)))
@@ -16961,12 +16961,12 @@ enum anonymous$11 isc_file_exists(const char *pathname)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 347, (enum anonymous$45)isc_assertiontype_require, "pathname != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 347, (enum anonymous_45)isc_assertiontype_require, "pathname != ((void *)0)");
     (_Bool)0;
   }
-  unsigned int return_value_file_stats$1;
-  return_value_file_stats$1=file_stats(pathname, &stats);
-  return (enum anonymous$11)(return_value_file_stats$1 == (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
+  unsigned int return_value_file_stats_1;
+  return_value_file_stats_1=file_stats(pathname, &stats);
+  return (enum anonymous_11)(return_value_file_stats_1 == (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
 }
 
 // isc_file_getmodtime
@@ -16980,7 +16980,7 @@ unsigned int isc_file_getmodtime(const char *file, struct isc_time *itime)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 106, (enum anonymous$45)isc_assertiontype_require, "file != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 106, (enum anonymous_45)isc_assertiontype_require, "file != ((void *)0)");
     (_Bool)0;
   }
   if(!(itime == ((struct isc_time *)NULL)))
@@ -16988,7 +16988,7 @@ unsigned int isc_file_getmodtime(const char *file, struct isc_time *itime)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 107, (enum anonymous$45)isc_assertiontype_require, "itime != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 107, (enum anonymous_45)isc_assertiontype_require, "itime != ((void *)0)");
     (_Bool)0;
   }
   result=file_stats(file, &stats);
@@ -17000,67 +17000,67 @@ unsigned int isc_file_getmodtime(const char *file, struct isc_time *itime)
 
 // isc_file_isabsolute
 // file ./../lib/isc/unix/file.c line 370
-enum anonymous$11 isc_file_isabsolute(const char *filename)
+enum anonymous_11 isc_file_isabsolute(const char *filename)
 {
   if(!(filename == ((const char *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 371, (enum anonymous$45)isc_assertiontype_require, "filename != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 371, (enum anonymous_45)isc_assertiontype_require, "filename != ((void *)0)");
     (_Bool)0;
   }
-  return (enum anonymous$11)((signed int)filename[(signed long int)0] == 47 ? isc_boolean_true : isc_boolean_false);
+  return (enum anonymous_11)((signed int)filename[(signed long int)0] == 47 ? isc_boolean_true : isc_boolean_false);
 }
 
 // isc_file_ischdiridempotent
 // file ./../lib/isc/unix/file.c line 382
-enum anonymous$11 isc_file_ischdiridempotent(const char *filename)
+enum anonymous_11 isc_file_ischdiridempotent(const char *filename)
 {
   if(!(filename == ((const char *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 383, (enum anonymous$45)isc_assertiontype_require, "filename != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 383, (enum anonymous_45)isc_assertiontype_require, "filename != ((void *)0)");
     (_Bool)0;
   }
-  enum anonymous$11 return_value_isc_file_isabsolute$1;
-  return_value_isc_file_isabsolute$1=isc_file_isabsolute(filename);
-  if(!(return_value_isc_file_isabsolute$1 == /*enum*/isc_boolean_false))
-    return (enum anonymous$11)isc_boolean_true;
+  enum anonymous_11 return_value_isc_file_isabsolute_1;
+  return_value_isc_file_isabsolute_1=isc_file_isabsolute(filename);
+  if(!(return_value_isc_file_isabsolute_1 == /*enum*/isc_boolean_false))
+    return (enum anonymous_11)isc_boolean_true;
 
   else
   {
-    enum anonymous$11 return_value_isc_file_iscurrentdir$2;
-    return_value_isc_file_iscurrentdir$2=isc_file_iscurrentdir(filename);
-    if(!(return_value_isc_file_iscurrentdir$2 == /*enum*/isc_boolean_false))
-      return (enum anonymous$11)isc_boolean_true;
+    enum anonymous_11 return_value_isc_file_iscurrentdir_2;
+    return_value_isc_file_iscurrentdir_2=isc_file_iscurrentdir(filename);
+    if(!(return_value_isc_file_iscurrentdir_2 == /*enum*/isc_boolean_false))
+      return (enum anonymous_11)isc_boolean_true;
 
     else
-      return (enum anonymous$11)isc_boolean_false;
+      return (enum anonymous_11)isc_boolean_false;
   }
 }
 
 // isc_file_iscurrentdir
 // file ./../lib/isc/unix/file.c line 376
-enum anonymous$11 isc_file_iscurrentdir(const char *filename)
+enum anonymous_11 isc_file_iscurrentdir(const char *filename)
 {
   if(!(filename == ((const char *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 377, (enum anonymous$45)isc_assertiontype_require, "filename != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 377, (enum anonymous_45)isc_assertiontype_require, "filename != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)*filename == 46)
-    tmp_if_expr$1 = (signed int)filename[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)filename[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (enum anonymous$11)(tmp_if_expr$1 ? isc_boolean_true : isc_boolean_false);
+    tmp_if_expr_1 = (_Bool)0;
+  return (enum anonymous_11)(tmp_if_expr_1 ? isc_boolean_true : isc_boolean_false);
 }
 
 // isc_file_isplainfile
@@ -17069,15 +17069,15 @@ unsigned int isc_file_isplainfile(const char *filename)
 {
   struct stat filestat;
   memset((void *)&filestat, 0, sizeof(struct stat) /*144ul*/ );
-  signed int return_value_stat$3;
-  return_value_stat$3=stat(filename, &filestat);
-  signed int *return_value___errno_location$1;
-  unsigned int return_value_isc___errno2result$2;
-  if(return_value_stat$3 == -1)
+  signed int return_value_stat_3;
+  return_value_stat_3=stat(filename, &filestat);
+  signed int *return_value___errno_location_1;
+  unsigned int return_value_isc___errno2result_2;
+  if(return_value_stat_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_isc___errno2result$2=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/file.c", (unsigned int)361);
-    return return_value_isc___errno2result$2;
+    return_value___errno_location_1=__errno_location();
+    return_value_isc___errno2result_2=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/file.c", (unsigned int)361);
+    return return_value_isc___errno2result_2;
   }
 
   else
@@ -17092,9 +17092,9 @@ unsigned int isc_file_isplainfile(const char *filename)
 // file ./../lib/isc/unix/file.c line 165
 unsigned int isc_file_mktemplate(const char *path, char *buf, unsigned long int buflen)
 {
-  unsigned int return_value_isc_file_template$1;
-  return_value_isc_file_template$1=isc_file_template(path, "tmp-XXXXXXXXXX", buf, buflen);
-  return return_value_isc_file_template$1;
+  unsigned int return_value_isc_file_template_1;
+  return_value_isc_file_template_1=isc_file_template(path, "tmp-XXXXXXXXXX", buf, buflen);
+  return return_value_isc_file_template_1;
 }
 
 // isc_file_openunique
@@ -17102,9 +17102,9 @@ unsigned int isc_file_mktemplate(const char *path, char *buf, unsigned long int 
 unsigned int isc_file_openunique(char *templet, struct _IO_FILE **fp)
 {
   signed int mode = 0200 | 0400 | 0400 >> 3 | 0200 >> 3 | (0400 >> 3) >> 3 | (0200 >> 3) >> 3;
-  unsigned int return_value_isc_file_openuniquemode$1;
-  return_value_isc_file_openuniquemode$1=isc_file_openuniquemode(templet, mode, fp);
-  return return_value_isc_file_openuniquemode$1;
+  unsigned int return_value_isc_file_openuniquemode_1;
+  return_value_isc_file_openuniquemode_1=isc_file_openuniquemode(templet, mode, fp);
+  return return_value_isc_file_openuniquemode_1;
 }
 
 // isc_file_openuniquemode
@@ -17122,48 +17122,48 @@ unsigned int isc_file_openuniquemode(char *templet, signed int mode, struct _IO_
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 268, (enum anonymous$45)isc_assertiontype_require, "templet != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 268, (enum anonymous_45)isc_assertiontype_require, "templet != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(fp == ((struct _IO_FILE **)NULL)))
-    tmp_if_expr$1 = *fp == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *fp == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 269, (enum anonymous$45)isc_assertiontype_require, "fp != ((void *)0) && *fp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 269, (enum anonymous_45)isc_assertiontype_require, "fp != ((void *)0) && *fp == ((void *)0)");
     (_Bool)0;
   }
   cp = templet;
   for( ; !((signed int)*cp == 0); cp = cp + 1l)
     ;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  signed int *return_value___errno_location$4;
-  unsigned int return_value_isc___errno2result$5;
-  _Bool tmp_if_expr$8;
-  char *tmp_post$7;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  signed int *return_value___errno_location_4;
+  unsigned int return_value_isc___errno2result_5;
+  _Bool tmp_if_expr_8;
+  char *tmp_post_7;
   if(cp == templet)
     return (unsigned int)25;
 
   else
   {
-    tmp_post$2 = cp;
+    tmp_post_2 = cp;
     cp = cp - 1l;
-    x = tmp_post$2;
-    for( ; cp >= templet; x = tmp_post$3)
+    x = tmp_post_2;
+    for( ; cp >= templet; x = tmp_post_3)
     {
       if(!((signed int)*cp == 88))
         break;
 
       isc_random_get(&which);
       *cp = alphnum[(signed long int)((unsigned long int)which % (sizeof(char [63l]) /*63ul*/  - (unsigned long int)1))];
-      tmp_post$3 = cp;
+      tmp_post_3 = cp;
       cp = cp - 1l;
     }
     do
@@ -17172,13 +17172,13 @@ unsigned int isc_file_openuniquemode(char *templet, signed int mode, struct _IO_
       if(!(fd == -1))
         break;
 
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      if(!(*return_value___errno_location$6 == 17))
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      if(!(*return_value___errno_location_6 == 17))
       {
-        return_value___errno_location$4=__errno_location();
-        return_value_isc___errno2result$5=isc___errno2result(*return_value___errno_location$4, "./../lib/isc/unix/file.c", (unsigned int)287);
-        return return_value_isc___errno2result$5;
+        return_value___errno_location_4=__errno_location();
+        return_value_isc___errno2result_5=isc___errno2result(*return_value___errno_location_4, "./../lib/isc/unix/file.c", (unsigned int)287);
+        return return_value_isc___errno2result_5;
       }
 
       cp = x;
@@ -17190,18 +17190,18 @@ unsigned int isc_file_openuniquemode(char *templet, signed int mode, struct _IO_
 
         t=strchr(alphnum, (signed int)*cp);
         if(t == ((char *)NULL))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
           t = t + 1l;
-          tmp_if_expr$8 = (signed int)*t == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (signed int)*t == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
         {
-          tmp_post$7 = cp;
+          tmp_post_7 = cp;
           cp = cp + 1l;
-          *tmp_post$7 = alphnum[(signed long int)0];
+          *tmp_post_7 = alphnum[(signed long int)0];
         }
 
         else
@@ -17216,12 +17216,12 @@ unsigned int isc_file_openuniquemode(char *templet, signed int mode, struct _IO_
     f=fdopen(fd, "w+");
     if(f == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      result=isc___errno2result(*return_value___errno_location$9, "./../lib/isc/unix/file.c", (unsigned int)303);
-      signed int return_value_remove$10;
-      return_value_remove$10=remove(templet);
-      if(!(return_value_remove$10 >= 0))
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      result=isc___errno2result(*return_value___errno_location_9, "./../lib/isc/unix/file.c", (unsigned int)303);
+      signed int return_value_remove_10;
+      return_value_remove_10=remove(templet);
+      if(!(return_value_remove_10 >= 0))
         isc_log_write(isc_lctx, &isc_categories[(signed long int)1], &isc_modules[(signed long int)4], -4, "remove '%s': failed", templet);
 
       close(fd);
@@ -17238,9 +17238,9 @@ unsigned int isc_file_openuniquemode(char *templet, signed int mode, struct _IO_
 unsigned int isc_file_openuniqueprivate(char *templet, struct _IO_FILE **fp)
 {
   signed int mode = 0200 | 0400;
-  unsigned int return_value_isc_file_openuniquemode$1;
-  return_value_isc_file_openuniquemode$1=isc_file_openuniquemode(templet, mode, fp);
-  return return_value_isc_file_openuniquemode$1;
+  unsigned int return_value_isc_file_openuniquemode_1;
+  return_value_isc_file_openuniquemode_1=isc_file_openuniquemode(templet, mode, fp);
+  return return_value_isc_file_openuniquemode_1;
 }
 
 // isc_file_progname
@@ -17254,7 +17254,7 @@ unsigned int isc_file_progname(const char *filename, char *buf, unsigned long in
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 409, (enum anonymous$45)isc_assertiontype_require, "filename != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 409, (enum anonymous_45)isc_assertiontype_require, "filename != ((void *)0)");
     (_Bool)0;
   }
   if(!(buf == ((char *)NULL)))
@@ -17262,13 +17262,13 @@ unsigned int isc_file_progname(const char *filename, char *buf, unsigned long in
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 410, (enum anonymous$45)isc_assertiontype_require, "buf != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 410, (enum anonymous_45)isc_assertiontype_require, "buf != ((void *)0)");
     (_Bool)0;
   }
   base=isc_file_basename(filename);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(base);
-  len = return_value_strlen$1 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(base);
+  len = return_value_strlen_1 + (unsigned long int)1;
   if(!(buflen >= len))
     return (unsigned int)19;
 
@@ -17289,20 +17289,20 @@ unsigned int isc_file_remove(const char *filename)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 320, (enum anonymous$45)isc_assertiontype_require, "filename != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 320, (enum anonymous_45)isc_assertiontype_require, "filename != ((void *)0)");
     (_Bool)0;
   }
   r=unlink(filename);
-  signed int *return_value___errno_location$1;
-  unsigned int return_value_isc___errno2result$2;
+  signed int *return_value___errno_location_1;
+  unsigned int return_value_isc___errno2result_2;
   if(r == 0)
     return (unsigned int)0;
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_isc___errno2result$2=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/file.c", (unsigned int)326);
-    return return_value_isc___errno2result$2;
+    return_value___errno_location_1=__errno_location();
+    return_value_isc___errno2result_2=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/file.c", (unsigned int)326);
+    return return_value_isc___errno2result_2;
   }
 }
 
@@ -17316,7 +17316,7 @@ unsigned int isc_file_rename(const char *oldname, const char *newname)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 333, (enum anonymous$45)isc_assertiontype_require, "oldname != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 333, (enum anonymous_45)isc_assertiontype_require, "oldname != ((void *)0)");
     (_Bool)0;
   }
   if(!(newname == ((const char *)NULL)))
@@ -17324,20 +17324,20 @@ unsigned int isc_file_rename(const char *oldname, const char *newname)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 334, (enum anonymous$45)isc_assertiontype_require, "newname != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 334, (enum anonymous_45)isc_assertiontype_require, "newname != ((void *)0)");
     (_Bool)0;
   }
   r=rename(oldname, newname);
-  signed int *return_value___errno_location$1;
-  unsigned int return_value_isc___errno2result$2;
+  signed int *return_value___errno_location_1;
+  unsigned int return_value_isc___errno2result_2;
   if(r == 0)
     return (unsigned int)0;
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_isc___errno2result$2=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/file.c", (unsigned int)340);
-    return return_value_isc___errno2result$2;
+    return_value___errno_location_1=__errno_location();
+    return_value_isc___errno2result_2=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/file.c", (unsigned int)340);
+    return return_value_isc___errno2result_2;
   }
 }
 
@@ -17353,7 +17353,7 @@ unsigned int isc_file_renameunique(const char *file, char *templet)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 210, (enum anonymous$45)isc_assertiontype_require, "file != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 210, (enum anonymous_45)isc_assertiontype_require, "file != ((void *)0)");
     (_Bool)0;
   }
   if(!(templet == ((char *)NULL)))
@@ -17361,53 +17361,53 @@ unsigned int isc_file_renameunique(const char *file, char *templet)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 211, (enum anonymous$45)isc_assertiontype_require, "templet != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 211, (enum anonymous_45)isc_assertiontype_require, "templet != ((void *)0)");
     (_Bool)0;
   }
   cp = templet;
   for( ; !((signed int)*cp == 0); cp = cp + 1l)
     ;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  signed int return_value_link$3;
-  signed int *return_value___errno_location$4;
-  unsigned int return_value_isc___errno2result$5;
-  _Bool tmp_if_expr$8;
-  char *tmp_post$7;
-  signed int *return_value___errno_location$11;
-  signed int *return_value___errno_location$9;
-  unsigned int return_value_isc___errno2result$10;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  signed int return_value_link_3;
+  signed int *return_value___errno_location_4;
+  unsigned int return_value_isc___errno2result_5;
+  _Bool tmp_if_expr_8;
+  char *tmp_post_7;
+  signed int *return_value___errno_location_11;
+  signed int *return_value___errno_location_9;
+  unsigned int return_value_isc___errno2result_10;
   if(cp == templet)
     return (unsigned int)25;
 
   else
   {
-    tmp_post$1 = cp;
+    tmp_post_1 = cp;
     cp = cp - 1l;
-    x = tmp_post$1;
-    for( ; cp >= templet; x = tmp_post$2)
+    x = tmp_post_1;
+    for( ; cp >= templet; x = tmp_post_2)
     {
       if(!((signed int)*cp == 88))
         break;
 
       isc_random_get(&which);
       *cp = alphnum[(signed long int)((unsigned long int)which % (sizeof(char [63l]) /*63ul*/  - (unsigned long int)1))];
-      tmp_post$2 = cp;
+      tmp_post_2 = cp;
       cp = cp - 1l;
     }
     do
     {
-      return_value_link$3=link(file, templet);
-      if(!(return_value_link$3 == -1))
+      return_value_link_3=link(file, templet);
+      if(!(return_value_link_3 == -1))
         break;
 
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      if(!(*return_value___errno_location$6 == 17))
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      if(!(*return_value___errno_location_6 == 17))
       {
-        return_value___errno_location$4=__errno_location();
-        return_value_isc___errno2result$5=isc___errno2result(*return_value___errno_location$4, "./../lib/isc/unix/file.c", (unsigned int)227);
-        return return_value_isc___errno2result$5;
+        return_value___errno_location_4=__errno_location();
+        return_value_isc___errno2result_5=isc___errno2result(*return_value___errno_location_4, "./../lib/isc/unix/file.c", (unsigned int)227);
+        return return_value_isc___errno2result_5;
       }
 
       cp = x;
@@ -17419,18 +17419,18 @@ unsigned int isc_file_renameunique(const char *file, char *templet)
 
         t=strchr(alphnum, (signed int)*cp);
         if(t == ((char *)NULL))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
           t = t + 1l;
-          tmp_if_expr$8 = (signed int)*t == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (signed int)*t == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
         {
-          tmp_post$7 = cp;
+          tmp_post_7 = cp;
           cp = cp + 1l;
-          *tmp_post$7 = alphnum[(signed long int)0];
+          *tmp_post_7 = alphnum[(signed long int)0];
         }
 
         else
@@ -17442,17 +17442,17 @@ unsigned int isc_file_renameunique(const char *file, char *templet)
       while((_Bool)1);
     }
     while((_Bool)1);
-    signed int return_value_unlink$12;
-    return_value_unlink$12=unlink(file);
-    if(!(return_value_unlink$12 >= 0))
+    signed int return_value_unlink_12;
+    return_value_unlink_12=unlink(file);
+    if(!(return_value_unlink_12 >= 0))
     {
-      return_value___errno_location$11=__errno_location();
-      if(*return_value___errno_location$11 == 2)
+      return_value___errno_location_11=__errno_location();
+      if(*return_value___errno_location_11 == 2)
         goto __CPROVER_DUMP_L21;
 
-      return_value___errno_location$9=__errno_location();
-      return_value_isc___errno2result$10=isc___errno2result(*return_value___errno_location$9, "./../lib/isc/unix/file.c", (unsigned int)243);
-      return return_value_isc___errno2result$10;
+      return_value___errno_location_9=__errno_location();
+      return_value_isc___errno2result_10=isc___errno2result(*return_value___errno_location_9, "./../lib/isc/unix/file.c", (unsigned int)243);
+      return return_value_isc___errno2result_10;
     }
 
     else
@@ -17479,21 +17479,21 @@ unsigned int isc_file_safecreate(const char *filename, struct _IO_FILE **fp)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 482, (enum anonymous$45)isc_assertiontype_require, "filename != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 482, (enum anonymous_45)isc_assertiontype_require, "filename != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(fp == ((struct _IO_FILE **)NULL)))
-    tmp_if_expr$1 = *fp == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *fp == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 483, (enum anonymous$45)isc_assertiontype_require, "fp != ((void *)0) && *fp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 483, (enum anonymous_45)isc_assertiontype_require, "fp != ((void *)0) && *fp == ((void *)0)");
     (_Bool)0;
   }
   result=file_stats(filename, &sb);
@@ -17512,13 +17512,13 @@ unsigned int isc_file_safecreate(const char *filename, struct _IO_FILE **fp)
     else
       return result;
   fd=open(filename, flags, 0400 | 0200);
-  signed int *return_value___errno_location$2;
-  unsigned int return_value_isc___errno2result$3;
+  signed int *return_value___errno_location_2;
+  unsigned int return_value_isc___errno2result_3;
   if(fd == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    return_value_isc___errno2result$3=isc___errno2result(*return_value___errno_location$2, "./../lib/isc/unix/file.c", (unsigned int)497);
-    return return_value_isc___errno2result$3;
+    return_value___errno_location_2=__errno_location();
+    return_value_isc___errno2result_3=isc___errno2result(*return_value___errno_location_2, "./../lib/isc/unix/file.c", (unsigned int)497);
+    return return_value_isc___errno2result_3;
   }
 
   else
@@ -17526,9 +17526,9 @@ unsigned int isc_file_safecreate(const char *filename, struct _IO_FILE **fp)
     f=fdopen(fd, "w");
     if(f == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      result=isc___errno2result(*return_value___errno_location$4, "./../lib/isc/unix/file.c", (unsigned int)501);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      result=isc___errno2result(*return_value___errno_location_4, "./../lib/isc/unix/file.c", (unsigned int)501);
       close(fd);
       return result;
     }
@@ -17548,31 +17548,31 @@ unsigned int isc_file_settime(const char *file, struct isc_time *itime)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 125, (enum anonymous$45)isc_assertiontype_require, "file != ((void *)0) && itime != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 125, (enum anonymous_45)isc_assertiontype_require, "file != ((void *)0) && itime != ((void *)0)");
     (_Bool)0;
   }
-  unsigned int return_value_isc_time_seconds$1;
-  return_value_isc_time_seconds$1=isc_time_seconds(itime);
-  times[(signed long int)1].tv_sec = (signed long int)return_value_isc_time_seconds$1;
+  unsigned int return_value_isc_time_seconds_1;
+  return_value_isc_time_seconds_1=isc_time_seconds(itime);
+  times[(signed long int)1].tv_sec = (signed long int)return_value_isc_time_seconds_1;
   times[(signed long int)0].tv_sec = times[(signed long int)1].tv_sec;
-  signed int *return_value___errno_location$3;
-  unsigned int return_value_isc___errno2result$4;
+  signed int *return_value___errno_location_3;
+  unsigned int return_value_isc___errno2result_4;
   if(!((9223372036854775808ull & (unsigned long int)times[0l].tv_sec) == 0ul))
     return (unsigned int)41;
 
   else
   {
-    unsigned int return_value_isc_time_nanoseconds$2;
-    return_value_isc_time_nanoseconds$2=isc_time_nanoseconds(itime);
-    times[(signed long int)1].tv_usec = (signed long int)(signed int)(return_value_isc_time_nanoseconds$2 / (unsigned int)1000);
+    unsigned int return_value_isc_time_nanoseconds_2;
+    return_value_isc_time_nanoseconds_2=isc_time_nanoseconds(itime);
+    times[(signed long int)1].tv_usec = (signed long int)(signed int)(return_value_isc_time_nanoseconds_2 / (unsigned int)1000);
     times[(signed long int)0].tv_usec = times[(signed long int)1].tv_usec;
-    signed int return_value_utimes$5;
-    return_value_utimes$5=utimes(file, times);
-    if(!(return_value_utimes$5 >= 0))
+    signed int return_value_utimes_5;
+    return_value_utimes_5=utimes(file, times);
+    if(!(return_value_utimes_5 >= 0))
     {
-      return_value___errno_location$3=__errno_location();
-      return_value_isc___errno2result$4=isc___errno2result(*return_value___errno_location$3, "./../lib/isc/unix/file.c", (unsigned int)156);
-      return return_value_isc___errno2result$4;
+      return_value___errno_location_3=__errno_location();
+      return_value_isc___errno2result_4=isc___errno2result(*return_value___errno_location_3, "./../lib/isc/unix/file.c", (unsigned int)156);
+      return return_value_isc___errno2result_4;
     }
 
     else
@@ -17592,7 +17592,7 @@ unsigned int isc_file_splitpath(struct isc_mem *mctx, char *path, char **dirnam,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 515, (enum anonymous$45)isc_assertiontype_require, "path != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 515, (enum anonymous_45)isc_assertiontype_require, "path != ((void *)0)");
     (_Bool)0;
   }
   slash=strrchr(path, 47);
@@ -17601,9 +17601,9 @@ unsigned int isc_file_splitpath(struct isc_mem *mctx, char *path, char **dirnam,
     slash = slash + 1l;
     file = slash;
     (void)mctx;
-    char *return_value_estrdup_impl$1;
-    return_value_estrdup_impl$1=estrdup_impl("/");
-    dir = return_value_estrdup_impl$1;
+    char *return_value_estrdup_impl_1;
+    return_value_estrdup_impl_1=estrdup_impl("/");
+    dir = return_value_estrdup_impl_1;
   }
 
   else
@@ -17612,9 +17612,9 @@ unsigned int isc_file_splitpath(struct isc_mem *mctx, char *path, char **dirnam,
       slash = slash + 1l;
       file = slash;
       (void)mctx;
-      void *return_value_ereallocz$2;
-      return_value_ereallocz$2=ereallocz((void *)0, (unsigned long int)(slash - path), (unsigned long int)0, 0);
-      dir = (char *)return_value_ereallocz$2;
+      void *return_value_ereallocz_2;
+      return_value_ereallocz_2=ereallocz((void *)0, (unsigned long int)(slash - path), (unsigned long int)0, 0);
+      dir = (char *)return_value_ereallocz_2;
       if(!(dir == ((char *)NULL)))
         strlcpy(dir, path, (unsigned long int)(slash - path));
 
@@ -17624,9 +17624,9 @@ unsigned int isc_file_splitpath(struct isc_mem *mctx, char *path, char **dirnam,
     {
       file = path;
       (void)mctx;
-      char *return_value_estrdup_impl$3;
-      return_value_estrdup_impl$3=estrdup_impl(".");
-      dir = return_value_estrdup_impl$3;
+      char *return_value_estrdup_impl_3;
+      return_value_estrdup_impl_3=estrdup_impl(".");
+      dir = return_value_estrdup_impl_3;
     }
   if(dir == ((char *)NULL))
     return (unsigned int)1;
@@ -17657,7 +17657,7 @@ unsigned int isc_file_template(const char *path, const char *templet, char *buf,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 174, (enum anonymous$45)isc_assertiontype_require, "path != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 174, (enum anonymous_45)isc_assertiontype_require, "path != ((void *)0)");
     (_Bool)0;
   }
   if(!(templet == ((const char *)NULL)))
@@ -17665,7 +17665,7 @@ unsigned int isc_file_template(const char *path, const char *templet, char *buf,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 175, (enum anonymous$45)isc_assertiontype_require, "templet != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 175, (enum anonymous_45)isc_assertiontype_require, "templet != ((void *)0)");
     (_Bool)0;
   }
   if(!(buf == ((char *)NULL)))
@@ -17673,7 +17673,7 @@ unsigned int isc_file_template(const char *path, const char *templet, char *buf,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/file.c", 176, (enum anonymous$45)isc_assertiontype_require, "buf != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/file.c", 176, (enum anonymous_45)isc_assertiontype_require, "buf != ((void *)0)");
     (_Bool)0;
   }
   s=strrchr(templet, 47);
@@ -17683,9 +17683,9 @@ unsigned int isc_file_template(const char *path, const char *templet, char *buf,
   s=strrchr(path, 47);
   if(!(s == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(templet);
-    if(!(buflen >= 2ul + return_value_strlen$1 + (unsigned long int)(s - path)))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(templet);
+    if(!(buflen >= 2ul + return_value_strlen_1 + (unsigned long int)(s - path)))
       return (unsigned int)19;
 
     strlcpy(buf, path, buflen);
@@ -17695,9 +17695,9 @@ unsigned int isc_file_template(const char *path, const char *templet, char *buf,
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(templet);
-    if(!(buflen >= 1ul + return_value_strlen$2))
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(templet);
+    if(!(buflen >= 1ul + return_value_strlen_2))
       return (unsigned int)19;
 
     strlcpy(buf, templet, buflen);
@@ -17710,13 +17710,13 @@ unsigned int isc_file_template(const char *path, const char *templet, char *buf,
 unsigned int isc_file_truncate(const char *filename, signed long int size)
 {
   unsigned int result = (unsigned int)0;
-  signed int return_value_truncate$2;
-  return_value_truncate$2=truncate(filename, size);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_truncate$2 >= 0))
+  signed int return_value_truncate_2;
+  return_value_truncate_2=truncate(filename, size);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_truncate_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    result=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/file.c", (unsigned int)470);
+    return_value___errno_location_1=__errno_location();
+    result=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/file.c", (unsigned int)470);
   }
 
   return result;
@@ -17736,7 +17736,7 @@ unsigned int isc_interfaceiter_create(struct isc_mem *mctx, struct isc_interface
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 60, (enum anonymous$45)isc_assertiontype_require, "mctx != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 60, (enum anonymous_45)isc_assertiontype_require, "mctx != ((void *)0)");
     (_Bool)0;
   }
   if(!(iterp == ((struct isc_interfaceiter **)NULL)))
@@ -17744,7 +17744,7 @@ unsigned int isc_interfaceiter_create(struct isc_mem *mctx, struct isc_interface
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 61, (enum anonymous$45)isc_assertiontype_require, "iterp != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 61, (enum anonymous_45)isc_assertiontype_require, "iterp != ((void *)0)");
     (_Bool)0;
   }
   if(*iterp == ((struct isc_interfaceiter *)NULL))
@@ -17752,13 +17752,13 @@ unsigned int isc_interfaceiter_create(struct isc_mem *mctx, struct isc_interface
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 62, (enum anonymous$45)isc_assertiontype_require, "*iterp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/ifiter_getifaddrs.c", 62, (enum anonymous_45)isc_assertiontype_require, "*iterp == ((void *)0)");
     (_Bool)0;
   }
   (void)mctx;
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)0, sizeof(struct isc_interfaceiter) /*272ul*/ , (unsigned long int)0, 0);
-  iter = (struct isc_interfaceiter *)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)0, sizeof(struct isc_interfaceiter) /*272ul*/ , (unsigned long int)0, 0);
+  iter = (struct isc_interfaceiter *)return_value_ereallocz_1;
   if(iter == ((struct isc_interfaceiter *)NULL))
     return (unsigned int)1;
 
@@ -17773,9 +17773,9 @@ unsigned int isc_interfaceiter_create(struct isc_mem *mctx, struct isc_interface
       iter->proc=fopen("/proc/net/if_inet6", "r");
       if(iter->proc == ((struct _IO_FILE *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        isc__strerror(*return_value___errno_location$2, strbuf, sizeof(char [128l]) /*128ul*/ );
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        isc__strerror(*return_value___errno_location_2, strbuf, sizeof(char [128l]) /*128ul*/ );
         isc_log_write(isc_lctx, &isc_categories[(signed long int)1], &isc_modules[(signed long int)0], -3, "failed to open /proc/net/if_inet6");
       }
 
@@ -17791,20 +17791,20 @@ unsigned int isc_interfaceiter_create(struct isc_mem *mctx, struct isc_interface
       if(ret >= 0)
         break;
 
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(!(*return_value___errno_location$3 == 4))
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(!(*return_value___errno_location_3 == 4))
         break;
 
     }
     if(!(ret >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      isc__strerror(*return_value___errno_location$4, strbuf, sizeof(char [128l]) /*128ul*/ );
-      const char *return_value_isc_msgcat_get$5;
-      return_value_isc_msgcat_get$5=isc_msgcat_get(isc_msgcat, 21, 1801, "getifaddrs");
-      isc_error_unexpected("./../lib/isc/unix/ifiter_getifaddrs.c", 99, "getting interface addresses: %s: %s", return_value_isc_msgcat_get$5, (const void *)strbuf);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      isc__strerror(*return_value___errno_location_4, strbuf, sizeof(char [128l]) /*128ul*/ );
+      const char *return_value_isc_msgcat_get_5;
+      return_value_isc_msgcat_get_5=isc_msgcat_get(isc_msgcat, 21, 1801, "getifaddrs");
+      isc_error_unexpected("./../lib/isc/unix/ifiter_getifaddrs.c", 99, "getting interface addresses: %s: %s", return_value_isc_msgcat_get_5, (const void *)strbuf);
       result = (unsigned int)34;
       goto failure;
     }
@@ -17838,7 +17838,7 @@ unsigned int isc_interfaceiter_current(struct isc_interfaceiter *iter, struct is
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 269, (enum anonymous$45)isc_assertiontype_require, "iter->result == 0");
+    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 269, (enum anonymous_45)isc_assertiontype_require, "iter->result == 0");
     (_Bool)0;
   }
   memcpy((void *)ifdata, (const void *)&iter->current, sizeof(struct isc_interface) /*140ul*/ );
@@ -17855,22 +17855,22 @@ void isc_interfaceiter_destroy(struct isc_interfaceiter **iterp)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 316, (enum anonymous$45)isc_assertiontype_require, "iterp != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 316, (enum anonymous_45)isc_assertiontype_require, "iterp != ((void *)0)");
     (_Bool)0;
   }
   iter = *iterp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(iter == ((struct isc_interfaceiter *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)iter)->magic == (unsigned int)(73 << 24 | 70 << 16 | 73 << 8 | 71) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)iter)->magic == (unsigned int)(73 << 24 | 70 << 16 | 73 << 8 | 71) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 318, (enum anonymous$45)isc_assertiontype_require, "(((iter) != ((void *)0)) && (((const isc__magic_t *)(iter))->magic == ((('I') << 24 | ('F') << 16 | ('I') << 8 | ('G')))))");
+    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 318, (enum anonymous_45)isc_assertiontype_require, "(((iter) != ((void *)0)) && (((const isc__magic_t *)(iter))->magic == ((('I') << 24 | ('F') << 16 | ('I') << 8 | ('G')))))");
     (_Bool)0;
   }
   internal_destroy(iter);
@@ -17892,18 +17892,18 @@ void isc_interfaceiter_destroy(struct isc_interfaceiter **iterp)
 unsigned int isc_interfaceiter_first(struct isc_interfaceiter *iter)
 {
   unsigned int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(iter == ((struct isc_interfaceiter *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)iter)->magic == (unsigned int)(73 << 24 | 70 << 16 | 73 << 8 | 71) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)iter)->magic == (unsigned int)(73 << 24 | 70 << 16 | 73 << 8 | 71) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 278, (enum anonymous$45)isc_assertiontype_require, "(((iter) != ((void *)0)) && (((const isc__magic_t *)(iter))->magic == ((('I') << 24 | ('F') << 16 | ('I') << 8 | ('G')))))");
+    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 278, (enum anonymous_45)isc_assertiontype_require, "(((iter) != ((void *)0)) && (((const isc__magic_t *)(iter))->magic == ((('I') << 24 | ('F') << 16 | ('I') << 8 | ('G')))))");
     (_Bool)0;
   }
   internal_first(iter);
@@ -17928,18 +17928,18 @@ unsigned int isc_interfaceiter_first(struct isc_interfaceiter *iter)
 unsigned int isc_interfaceiter_next(struct isc_interfaceiter *iter)
 {
   unsigned int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(iter == ((struct isc_interfaceiter *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)iter)->magic == (unsigned int)(73 << 24 | 70 << 16 | 73 << 8 | 71) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)iter)->magic == (unsigned int)(73 << 24 | 70 << 16 | 73 << 8 | 71) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 297, (enum anonymous$45)isc_assertiontype_require, "(((iter) != ((void *)0)) && (((const isc__magic_t *)(iter))->magic == ((('I') << 24 | ('F') << 16 | ('I') << 8 | ('G')))))");
+    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 297, (enum anonymous_45)isc_assertiontype_require, "(((iter) != ((void *)0)) && (((const isc__magic_t *)(iter))->magic == ((('I') << 24 | ('F') << 16 | ('I') << 8 | ('G')))))");
     (_Bool)0;
   }
   if(iter->result == 0u)
@@ -17947,7 +17947,7 @@ unsigned int isc_interfaceiter_next(struct isc_interfaceiter *iter)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 298, (enum anonymous$45)isc_assertiontype_require, "iter->result == 0");
+    isc_assertion_failed("./../lib/isc/unix/interfaceiter.c", 298, (enum anonymous_45)isc_assertiontype_require, "iter->result == 0");
     (_Bool)0;
   }
   do
@@ -17968,14 +17968,14 @@ unsigned int isc_interfaceiter_next(struct isc_interfaceiter *iter)
 
 // isc_interval_iszero
 // file ./../lib/isc/unix/time.c line 98
-enum anonymous$11 isc_interval_iszero(const struct isc_interval *i)
+enum anonymous_11 isc_interval_iszero(const struct isc_interval *i)
 {
   if(!(i == ((const struct isc_interval *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 99, (enum anonymous$45)isc_assertiontype_require, "i != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 99, (enum anonymous_45)isc_assertiontype_require, "i != ((void *)0)");
     (_Bool)0;
   }
   if(!(i->nanoseconds >= 1000000000u))
@@ -17983,7 +17983,7 @@ enum anonymous$11 isc_interval_iszero(const struct isc_interval *i)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 100, (enum anonymous$45)isc_assertiontype_insist, "i->nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 100, (enum anonymous_45)isc_assertiontype_insist, "i->nanoseconds < 1000000000");
     (_Bool)0;
   }
   if(i->seconds == 0u)
@@ -17991,7 +17991,7 @@ enum anonymous$11 isc_interval_iszero(const struct isc_interval *i)
     if(!(i->nanoseconds == 0u))
       goto __CPROVER_DUMP_L7;
 
-    return (enum anonymous$11)isc_boolean_true;
+    return (enum anonymous_11)isc_boolean_true;
   }
 
   else
@@ -17999,7 +17999,7 @@ enum anonymous$11 isc_interval_iszero(const struct isc_interval *i)
 
   __CPROVER_DUMP_L7:
     ;
-    return (enum anonymous$11)isc_boolean_false;
+    return (enum anonymous_11)isc_boolean_false;
   }
 }
 
@@ -18012,7 +18012,7 @@ void isc_interval_set(struct isc_interval *i, unsigned int seconds, unsigned int
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 90, (enum anonymous$45)isc_assertiontype_require, "i != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 90, (enum anonymous_45)isc_assertiontype_require, "i != ((void *)0)");
     (_Bool)0;
   }
   if(!(nanoseconds >= 1000000000u))
@@ -18020,7 +18020,7 @@ void isc_interval_set(struct isc_interval *i, unsigned int seconds, unsigned int
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 91, (enum anonymous$45)isc_assertiontype_require, "nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 91, (enum anonymous_45)isc_assertiontype_require, "nanoseconds < 1000000000");
     (_Bool)0;
   }
   i->seconds = seconds;
@@ -18032,16 +18032,16 @@ void isc_interval_set(struct isc_interval *i, unsigned int seconds, unsigned int
 void isc_lib_initmsgcat(void)
 {
   unsigned int result;
-  signed int return_value_pthread_once$1;
-  return_value_pthread_once$1=pthread_once(&msgcat_once, open_msgcat);
-  result = (unsigned int)(return_value_pthread_once$1 == 0 ? 0 : 34);
+  signed int return_value_pthread_once_1;
+  return_value_pthread_once_1=pthread_once(&msgcat_once, open_msgcat);
+  result = (unsigned int)(return_value_pthread_once_1 == 0 ? 0 : 34);
   if(!(result == 0u))
   {
-    const char *return_value_isc_msgcat_get$2;
-    return_value_isc_msgcat_get$2=isc_msgcat_get(isc_msgcat, 1, 110, "fatal error");
-    const char *return_value_isc_msgcat_get$3;
-    return_value_isc_msgcat_get$3=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-    fprintf(stderr, "%s:%d: %s: isc_once_do() %s.\n", (const void *)"./../lib/isc/lib.c", 77, return_value_isc_msgcat_get$2, return_value_isc_msgcat_get$3);
+    const char *return_value_isc_msgcat_get_2;
+    return_value_isc_msgcat_get_2=isc_msgcat_get(isc_msgcat, 1, 110, "fatal error");
+    const char *return_value_isc_msgcat_get_3;
+    return_value_isc_msgcat_get_3=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+    fprintf(stderr, "%s:%d: %s: isc_once_do() %s.\n", (const void *)"./../lib/isc/lib.c", 77, return_value_isc_msgcat_get_2, return_value_isc_msgcat_get_3);
     abort();
   }
 
@@ -18052,18 +18052,18 @@ void isc_lib_initmsgcat(void)
 struct isc_logcategory * isc_log_categorybyname(struct isc_log *lctx, const char *name)
 {
   struct isc_logcategory *catp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 616, (enum anonymous$45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 616, (enum anonymous_45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
   if(!(name == ((const char *)NULL)))
@@ -18071,7 +18071,7 @@ struct isc_logcategory * isc_log_categorybyname(struct isc_log *lctx, const char
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 617, (enum anonymous$45)isc_assertiontype_require, "name != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 617, (enum anonymous_45)isc_assertiontype_require, "name != ((void *)0)");
     (_Bool)0;
   }
   catp = lctx->categories;
@@ -18079,8 +18079,8 @@ struct isc_logcategory * isc_log_categorybyname(struct isc_log *lctx, const char
     if(catp->id == 1U)
       do
       {
-        /* tag-#anon#lUN[l*{clV}$clV$'k'||l*{lV}$lV$'v'|] */
-union anonymous$10
+        /* tag-#anon#lUN[l*{clV}_clV_'k'||l*{lV}_lV_'v'|] */
+union anonymous_10
 {
   // k
   const void *k;
@@ -18090,7 +18090,7 @@ union anonymous$10
 
 /* */
         ;
-        union anonymous$10 _u;
+        union anonymous_10 _u;
         _u.k = (const void *)catp->name;
         catp = (struct isc_logcategory *)_u.v;
       }
@@ -18098,9 +18098,9 @@ union anonymous$10
 
     else
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(catp->name, name);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(catp->name, name);
+      if(return_value_strcmp_2 == 0)
         return catp;
 
       catp = catp + 1l;
@@ -18113,25 +18113,25 @@ union anonymous$10
 void isc_log_closefilelogs(struct isc_log *lctx)
 {
   struct isc_logchannel *channel;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1036, (enum anonymous$45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 1036, (enum anonymous_45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&lctx->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&lctx->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -18155,9 +18155,9 @@ void isc_log_closefilelogs(struct isc_log *lctx)
 
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&lctx->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&lctx->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -18181,41 +18181,41 @@ unsigned int isc_log_create(struct isc_mem *mctx, struct isc_log **lctxp, struct
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 273, (enum anonymous$45)isc_assertiontype_require, "mctx != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 273, (enum anonymous_45)isc_assertiontype_require, "mctx != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lctxp == ((struct isc_log **)NULL)))
-    tmp_if_expr$1 = *lctxp == (struct isc_log *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *lctxp == (struct isc_log *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 274, (enum anonymous$45)isc_assertiontype_require, "lctxp != ((void *)0) && *lctxp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 274, (enum anonymous_45)isc_assertiontype_require, "lctxp != ((void *)0) && *lctxp == ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(lcfgp == ((struct isc_logconfig **)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = *lcfgp == (struct isc_logconfig *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = *lcfgp == (struct isc_logconfig *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 275, (enum anonymous$45)isc_assertiontype_require, "lcfgp == ((void *)0) || *lcfgp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 275, (enum anonymous_45)isc_assertiontype_require, "lcfgp == ((void *)0) || *lcfgp == ((void *)0)");
     (_Bool)0;
   }
   (void)mctx;
-  void *return_value_ereallocz$3;
-  return_value_ereallocz$3=ereallocz((void *)0, sizeof(struct isc_log) /*8304ul*/ , (unsigned long int)0, 0);
-  lctx = (struct isc_log *)return_value_ereallocz$3;
+  void *return_value_ereallocz_3;
+  return_value_ereallocz_3=ereallocz((void *)0, sizeof(struct isc_log) /*8304ul*/ , (unsigned long int)0, 0);
+  lctx = (struct isc_log *)return_value_ereallocz_3;
   if(!(lctx == ((struct isc_log *)NULL)))
   {
     lctx->mctx = mctx;
@@ -18276,18 +18276,18 @@ unsigned int isc_log_createchannel(struct isc_logconfig *lcfg, const char *name,
 {
   struct isc_logchannel *channel;
   struct isc_mem *mctx;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lcfg == ((struct isc_logconfig *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 711, (enum anonymous$45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 711, (enum anonymous_45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
     (_Bool)0;
   }
   if(!(name == ((const char *)NULL)))
@@ -18295,7 +18295,7 @@ unsigned int isc_log_createchannel(struct isc_logconfig *lcfg, const char *name,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 712, (enum anonymous$45)isc_assertiontype_require, "name != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 712, (enum anonymous_45)isc_assertiontype_require, "name != ((void *)0)");
     (_Bool)0;
   }
   if(type == 1u || type == 2u || type == 3u || type == 4u)
@@ -18303,7 +18303,7 @@ unsigned int isc_log_createchannel(struct isc_logconfig *lcfg, const char *name,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 714, (enum anonymous$45)isc_assertiontype_require, "type == 2 || type == 3 || type == 4 || type == 1");
+    isc_assertion_failed("./../lib/isc/log.c", 714, (enum anonymous_45)isc_assertiontype_require, "type == 2 || type == 3 || type == 4 || type == 1");
     (_Bool)0;
   }
   if(type == 1u || !(destination == ((const union isc_logdestination *)NULL)))
@@ -18311,7 +18311,7 @@ unsigned int isc_log_createchannel(struct isc_logconfig *lcfg, const char *name,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 715, (enum anonymous$45)isc_assertiontype_require, "destination != ((void *)0) || type == 1");
+    isc_assertion_failed("./../lib/isc/log.c", 715, (enum anonymous_45)isc_assertiontype_require, "destination != ((void *)0) || type == 1");
     (_Bool)0;
   }
   if(level >= -5)
@@ -18319,7 +18319,7 @@ unsigned int isc_log_createchannel(struct isc_logconfig *lcfg, const char *name,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 716, (enum anonymous$45)isc_assertiontype_require, "level >= (-5)");
+    isc_assertion_failed("./../lib/isc/log.c", 716, (enum anonymous_45)isc_assertiontype_require, "level >= (-5)");
     (_Bool)0;
   }
   if((4294963168u & flags) == 0u)
@@ -18327,25 +18327,25 @@ unsigned int isc_log_createchannel(struct isc_logconfig *lcfg, const char *name,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 718, (enum anonymous$45)isc_assertiontype_require, "(flags & (unsigned int)~(0x001F | 0x1000)) == 0");
+    isc_assertion_failed("./../lib/isc/log.c", 718, (enum anonymous_45)isc_assertiontype_require, "(flags & (unsigned int)~(0x001F | 0x1000)) == 0");
     (_Bool)0;
   }
   mctx = lcfg->lctx->mctx;
   (void)mctx;
-  void *return_value_ereallocz$2;
-  return_value_ereallocz$2=ereallocz((void *)0, sizeof(struct isc_logchannel) /*80ul*/ , (unsigned long int)0, 0);
-  channel = (struct isc_logchannel *)return_value_ereallocz$2;
-  char *return_value_estrdup_impl$4;
-  unsigned long int return_value_strlen$5;
+  void *return_value_ereallocz_2;
+  return_value_ereallocz_2=ereallocz((void *)0, sizeof(struct isc_logchannel) /*80ul*/ , (unsigned long int)0, 0);
+  channel = (struct isc_logchannel *)return_value_ereallocz_2;
+  char *return_value_estrdup_impl_4;
+  unsigned long int return_value_strlen_5;
   if(channel == ((struct isc_logchannel *)NULL))
     return (unsigned int)1;
 
   else
   {
     (void)mctx;
-    char *return_value_estrdup_impl$3;
-    return_value_estrdup_impl$3=estrdup_impl(name);
-    channel->name = return_value_estrdup_impl$3;
+    char *return_value_estrdup_impl_3;
+    return_value_estrdup_impl_3=estrdup_impl(name);
+    channel->name = return_value_estrdup_impl_3;
     if(channel->name == ((char *)NULL))
     {
       (void)mctx;
@@ -18374,12 +18374,12 @@ unsigned int isc_log_createchannel(struct isc_logconfig *lcfg, const char *name,
         case (unsigned int)3:
         {
           (void)mctx;
-          return_value_estrdup_impl$4=estrdup_impl(destination->file.name);
-          channel->destination.file.name = return_value_estrdup_impl$4;
+          return_value_estrdup_impl_4=estrdup_impl(destination->file.name);
+          channel->destination.file.name = return_value_estrdup_impl_4;
           channel->destination.file.stream = (struct _IO_FILE *)(void *)0;
           channel->destination.file.versions = destination->file.versions;
           channel->destination.file.maximum_size = destination->file.maximum_size;
-          channel->destination.file.maximum_reached = (enum anonymous$11)isc_boolean_false;
+          channel->destination.file.maximum_reached = (enum anonymous_11)isc_boolean_false;
           break;
         }
         case (unsigned int)4:
@@ -18394,8 +18394,8 @@ unsigned int isc_log_createchannel(struct isc_logconfig *lcfg, const char *name,
           break;
         default:
         {
-          return_value_strlen$5=strlen(channel->name);
-          (void)(return_value_strlen$5 + (unsigned long int)1);
+          return_value_strlen_5=strlen(channel->name);
+          (void)(return_value_strlen_5 + (unsigned long int)1);
           (void)mctx;
           free((void *)channel->name);
           (void)mctx;
@@ -18418,9 +18418,9 @@ unsigned int isc_log_createchannel(struct isc_logconfig *lcfg, const char *name,
         lcfg->channels.head = channel;
       }
       while((_Bool)0);
-      signed int return_value_strcmp$6;
-      return_value_strcmp$6=strcmp(name, "default_stderr");
-      if(return_value_strcmp$6 == 0)
+      signed int return_value_strcmp_6;
+      return_value_strcmp_6=strcmp(name, "default_stderr");
+      if(return_value_strcmp_6 == 0)
         default_channel.channel = channel;
 
       return (unsigned int)0;
@@ -18436,26 +18436,26 @@ void isc_log_destroy(struct isc_log **lctxp)
   struct isc_logconfig *lcfg;
   struct isc_mem *mctx;
   struct isc_logmessage *message;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(lctxp == ((struct isc_log **)NULL)))
   {
     if(!(*lctxp == ((struct isc_log *)NULL)))
-      tmp_if_expr$1 = ((const struct anonymous$30 *)*lctxp)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((const struct anonymous_30 *)*lctxp)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 468, (enum anonymous$45)isc_assertiontype_require, "lctxp != ((void *)0) && (((*lctxp) != ((void *)0)) && (((const isc__magic_t *)(*lctxp))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 468, (enum anonymous_45)isc_assertiontype_require, "lctxp != ((void *)0) && (((*lctxp) != ((void *)0)) && (((const isc__magic_t *)(*lctxp))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
   lctx = *lctxp;
@@ -18467,9 +18467,9 @@ void isc_log_destroy(struct isc_log **lctxp)
     isc_logconfig_destroy(&lcfg);
   }
 
-  signed int return_value_pthread_mutex_destroy$3;
-  return_value_pthread_mutex_destroy$3=pthread_mutex_destroy(&lctx->lock);
-  if(return_value_pthread_mutex_destroy$3 == 0)
+  signed int return_value_pthread_mutex_destroy_3;
+  return_value_pthread_mutex_destroy_3=pthread_mutex_destroy(&lctx->lock);
+  if(return_value_pthread_mutex_destroy_3 == 0)
     (_Bool)1;
 
   else
@@ -18498,7 +18498,7 @@ void isc_log_destroy(struct isc_log **lctxp)
 
         else
         {
-          isc_assertion_failed("./../lib/isc/log.c", 482, (enum anonymous$45)isc_assertiontype_insist, "(lctx->messages).tail == (message)");
+          isc_assertion_failed("./../lib/isc/log.c", 482, (enum anonymous_45)isc_assertiontype_insist, "(lctx->messages).tail == (message)");
           (_Bool)0;
         }
         lctx->messages.tail = message->link.prev;
@@ -18513,7 +18513,7 @@ void isc_log_destroy(struct isc_log **lctxp)
 
         else
         {
-          isc_assertion_failed("./../lib/isc/log.c", 482, (enum anonymous$45)isc_assertiontype_insist, "(lctx->messages).head == (message)");
+          isc_assertion_failed("./../lib/isc/log.c", 482, (enum anonymous_45)isc_assertiontype_insist, "(lctx->messages).head == (message)");
           (_Bool)0;
         }
         lctx->messages.head = message->link.next;
@@ -18522,9 +18522,9 @@ void isc_log_destroy(struct isc_log **lctxp)
       message->link.next = (struct isc_logmessage *)(void *)-1;
     }
     while((_Bool)0);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(message->text);
-    (void)(sizeof(struct isc_logmessage) /*32ul*/  + return_value_strlen$4 + (unsigned long int)1);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(message->text);
+    (void)(sizeof(struct isc_logmessage) /*32ul*/  + return_value_strlen_4 + (unsigned long int)1);
     (void)mctx;
     free((void *)message);
   }
@@ -18544,7 +18544,7 @@ void isc_log_destroy(struct isc_log **lctxp)
 
 // isc_log_doit
 // file ./../lib/isc/log.c line 1405
-static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, enum anonymous$11 write_once, struct isc_msgcat *msgcat, signed int msgset, signed int msg, const char *format, void **args)
+static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, enum anonymous_11 write_once, struct isc_msgcat *msgcat, signed int msgset, signed int msg, const char *format, void **args)
 {
   signed int syslog_level;
   char time_string[64l];
@@ -18552,36 +18552,36 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
   unsigned long int octets;
   const char *iformat;
   struct stat statbuf;
-  enum anonymous$11 matched = (enum anonymous$11)isc_boolean_false;
-  enum anonymous$11 printtime;
-  enum anonymous$11 printtag;
-  enum anonymous$11 printcategory;
-  enum anonymous$11 printmodule;
-  enum anonymous$11 printlevel;
+  enum anonymous_11 matched = (enum anonymous_11)isc_boolean_false;
+  enum anonymous_11 printtime;
+  enum anonymous_11 printtag;
+  enum anonymous_11 printcategory;
+  enum anonymous_11 printmodule;
+  enum anonymous_11 printlevel;
   struct isc_logconfig *lcfg;
   struct isc_logchannel *channel;
   struct isc_logchannellist *category_channels;
   unsigned int result;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(lctx == ((struct isc_log *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(lctx == ((struct isc_log *)NULL)))
-      tmp_if_expr$1 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1424, (enum anonymous$45)isc_assertiontype_require, "lctx == ((void *)0) || (((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 1424, (enum anonymous_45)isc_assertiontype_require, "lctx == ((void *)0) || (((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
   if(!(category == ((struct isc_logcategory *)NULL)))
@@ -18589,7 +18589,7 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1425, (enum anonymous$45)isc_assertiontype_require, "category != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 1425, (enum anonymous_45)isc_assertiontype_require, "category != ((void *)0)");
     (_Bool)0;
   }
   if(!(module == ((struct isc_logmodule *)NULL)))
@@ -18597,7 +18597,7 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1426, (enum anonymous$45)isc_assertiontype_require, "module != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 1426, (enum anonymous_45)isc_assertiontype_require, "module != ((void *)0)");
     (_Bool)0;
   }
   if(!(level == 0))
@@ -18605,7 +18605,7 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1427, (enum anonymous$45)isc_assertiontype_require, "level != 0");
+    isc_assertion_failed("./../lib/isc/log.c", 1427, (enum anonymous_45)isc_assertiontype_require, "level != 0");
     (_Bool)0;
   }
   if(!(format == ((const char *)NULL)))
@@ -18613,28 +18613,28 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1428, (enum anonymous$45)isc_assertiontype_require, "format != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 1428, (enum anonymous_45)isc_assertiontype_require, "format != ((void *)0)");
     (_Bool)0;
   }
-  const char *return_value_isc_msgcat_get$6;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$20;
-  signed int return_value_stat$17;
-  _Bool tmp_if_expr$19;
-  signed int *return_value___errno_location$18;
-  _Bool tmp_if_expr$21;
-  char *tmp_if_expr$23;
-  char *tmp_if_expr$24;
-  const char *tmp_if_expr$25;
-  const char *tmp_if_expr$27;
-  const char *tmp_if_expr$26;
-  char *tmp_if_expr$28;
-  char *tmp_if_expr$31;
-  char *tmp_if_expr$32;
-  const char *tmp_if_expr$33;
-  const char *tmp_if_expr$35;
-  const char *tmp_if_expr$34;
-  char *tmp_if_expr$36;
+  const char *return_value_isc_msgcat_get_6;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_20;
+  signed int return_value_stat_17;
+  _Bool tmp_if_expr_19;
+  signed int *return_value___errno_location_18;
+  _Bool tmp_if_expr_21;
+  char *tmp_if_expr_23;
+  char *tmp_if_expr_24;
+  const char *tmp_if_expr_25;
+  const char *tmp_if_expr_27;
+  const char *tmp_if_expr_26;
+  char *tmp_if_expr_28;
+  char *tmp_if_expr_31;
+  char *tmp_if_expr_32;
+  const char *tmp_if_expr_33;
+  const char *tmp_if_expr_35;
+  const char *tmp_if_expr_34;
+  char *tmp_if_expr_36;
   if(!(lctx == ((struct isc_log *)NULL)))
   {
     if(!(category->id >= lctx->category_count))
@@ -18642,7 +18642,7 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
     else
     {
-      isc_assertion_failed("./../lib/isc/log.c", 1438, (enum anonymous$45)isc_assertiontype_require, "category->id < lctx->category_count");
+      isc_assertion_failed("./../lib/isc/log.c", 1438, (enum anonymous_45)isc_assertiontype_require, "category->id < lctx->category_count");
       (_Bool)0;
     }
     if(!(module->id >= lctx->module_count))
@@ -18650,12 +18650,12 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
     else
     {
-      isc_assertion_failed("./../lib/isc/log.c", 1439, (enum anonymous$45)isc_assertiontype_require, "module->id < lctx->module_count");
+      isc_assertion_failed("./../lib/isc/log.c", 1439, (enum anonymous_45)isc_assertiontype_require, "module->id < lctx->module_count");
       (_Bool)0;
     }
-    enum anonymous$11 return_value_isc_log_wouldlog$3;
-    return_value_isc_log_wouldlog$3=isc_log_wouldlog(lctx, level);
-    if(!(return_value_isc_log_wouldlog$3 == /*enum*/isc_boolean_false))
+    enum anonymous_11 return_value_isc_log_wouldlog_3;
+    return_value_isc_log_wouldlog_3=isc_log_wouldlog(lctx, level);
+    if(!(return_value_isc_log_wouldlog_3 == /*enum*/isc_boolean_false))
     {
       if(!(msgcat == ((struct isc_msgcat *)NULL)))
         iformat=isc_msgcat_get(msgcat, msgset, msg, format);
@@ -18666,9 +18666,9 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
       level_string[(signed long int)0] = (char)0;
       do
       {
-        signed int return_value_pthread_mutex_lock$4;
-        return_value_pthread_mutex_lock$4=pthread_mutex_lock(&lctx->lock);
-        if(return_value_pthread_mutex_lock$4 == 0)
+        signed int return_value_pthread_mutex_lock_4;
+        return_value_pthread_mutex_lock_4=pthread_mutex_lock(&lctx->lock);
+        if(return_value_pthread_mutex_lock_4 == 0)
           (_Bool)1;
 
         else
@@ -18706,7 +18706,7 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
         __CPROVER_DUMP_L37:
           ;
-          matched = (enum anonymous$11)isc_boolean_true;
+          matched = (enum anonymous_11)isc_boolean_true;
           channel = category_channels->channel;
           category_channels = category_channels->link.next;
           if(!((4096u & channel->flags) == 0u))
@@ -18732,9 +18732,9 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
             if((signed int)time_string[0l] == 0)
             {
               struct isc_time isctime;
-              unsigned int return_value_isc_time_now$5;
-              return_value_isc_time_now$5=isc_time_now(&isctime);
-              if(return_value_isc_time_now$5 == 0u)
+              unsigned int return_value_isc_time_now_5;
+              return_value_isc_time_now_5=isc_time_now(&isctime);
+              if(return_value_isc_time_now_5 == 0u)
                 (_Bool)1;
 
               else
@@ -18753,8 +18753,8 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
             {
               if(!(level >= -5))
               {
-                return_value_isc_msgcat_get$6=isc_msgcat_get(isc_msgcat, 10, 802, "level");
-                snprintf(level_string, sizeof(char [24l]) /*24ul*/ , "%s %d: ", return_value_isc_msgcat_get$6, level);
+                return_value_isc_msgcat_get_6=isc_msgcat_get(isc_msgcat, 10, 802, "level");
+                snprintf(level_string, sizeof(char [24l]) /*24ul*/ , "%s %d: ", return_value_isc_msgcat_get_6, level);
               }
 
               else
@@ -18777,9 +18777,9 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
               struct isc_time oldest;
               struct isc_interval interval;
               isc_interval_set(&interval, lcfg->duplicate_interval, (unsigned int)0);
-              unsigned int return_value_isc_time_now$7;
-              return_value_isc_time_now$7=isc_time_now(&oldest);
-              if(return_value_isc_time_now$7 == 0u)
+              unsigned int return_value_isc_time_now_7;
+              return_value_isc_time_now_7=isc_time_now(&oldest);
+              if(return_value_isc_time_now_7 == 0u)
                 (_Bool)1;
 
               else
@@ -18787,18 +18787,18 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
                 isc_error_runtimecheck("./../lib/isc/log.c", 1562, "isc_time_now((&oldest)) == 0");
                 (_Bool)0;
               }
-              unsigned int return_value_isc_time_subtract$8;
-              return_value_isc_time_subtract$8=isc_time_subtract(&oldest, &interval, &oldest);
-              if(!(return_value_isc_time_subtract$8 == 0u))
+              unsigned int return_value_isc_time_subtract_8;
+              return_value_isc_time_subtract_8=isc_time_subtract(&oldest, &interval, &oldest);
+              if(!(return_value_isc_time_subtract_8 == 0u))
                 message = (struct isc_logmessage *)(void *)0;
 
               else
                 message = lctx->messages.head;
               while(!(message == ((struct isc_logmessage *)NULL)))
               {
-                signed int return_value_isc_time_compare$10;
-                return_value_isc_time_compare$10=isc_time_compare(&message->time, &oldest);
-                if(!(return_value_isc_time_compare$10 >= 0))
+                signed int return_value_isc_time_compare_10;
+                return_value_isc_time_compare_10=isc_time_compare(&message->time, &oldest);
+                if(!(return_value_isc_time_compare_10 >= 0))
                 {
                   new = message->link.next;
 
@@ -18816,7 +18816,7 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
                       else
                       {
-                        isc_assertion_failed("./../lib/isc/log.c", 1592, (enum anonymous$45)isc_assertiontype_insist, "(lctx->messages).tail == (message)");
+                        isc_assertion_failed("./../lib/isc/log.c", 1592, (enum anonymous_45)isc_assertiontype_insist, "(lctx->messages).tail == (message)");
                         (_Bool)0;
                       }
                       lctx->messages.tail = message->link.prev;
@@ -18831,7 +18831,7 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
                       else
                       {
-                        isc_assertion_failed("./../lib/isc/log.c", 1592, (enum anonymous$45)isc_assertiontype_insist, "(lctx->messages).head == (message)");
+                        isc_assertion_failed("./../lib/isc/log.c", 1592, (enum anonymous_45)isc_assertiontype_insist, "(lctx->messages).head == (message)");
                         (_Bool)0;
                       }
                       lctx->messages.head = message->link.next;
@@ -18840,24 +18840,24 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
                     message->link.next = (struct isc_logmessage *)(void *)-1;
                   }
                   while((_Bool)0);
-                  unsigned long int return_value_strlen$9;
-                  return_value_strlen$9=strlen(message->text);
-                  (void)(sizeof(struct isc_logmessage) /*32ul*/  + (unsigned long int)1 + return_value_strlen$9);
+                  unsigned long int return_value_strlen_9;
+                  return_value_strlen_9=strlen(message->text);
+                  (void)(sizeof(struct isc_logmessage) /*32ul*/  + (unsigned long int)1 + return_value_strlen_9);
                   (void)lctx->mctx;
                   free((void *)message);
                   message = new;
                   continue;
                 }
 
-                signed int return_value_strcmp$12;
-                return_value_strcmp$12=strcmp(lctx->buffer, message->text);
-                if(return_value_strcmp$12 == 0)
+                signed int return_value_strcmp_12;
+                return_value_strcmp_12=strcmp(lctx->buffer, message->text);
+                if(return_value_strcmp_12 == 0)
                 {
                   do
                   {
-                    signed int return_value_pthread_mutex_unlock$11;
-                    return_value_pthread_mutex_unlock$11=pthread_mutex_unlock(&lctx->lock);
-                    if(return_value_pthread_mutex_unlock$11 == 0)
+                    signed int return_value_pthread_mutex_unlock_11;
+                    return_value_pthread_mutex_unlock_11=pthread_mutex_unlock(&lctx->lock);
+                    if(return_value_pthread_mutex_unlock_11 == 0)
                       (_Bool)1;
 
                     else
@@ -18872,20 +18872,20 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
                 message = message->link.next;
               }
-              unsigned long int return_value_strlen$13;
-              return_value_strlen$13=strlen(lctx->buffer);
-              octets = return_value_strlen$13 + (unsigned long int)1;
+              unsigned long int return_value_strlen_13;
+              return_value_strlen_13=strlen(lctx->buffer);
+              octets = return_value_strlen_13 + (unsigned long int)1;
               (void)lctx->mctx;
-              void *return_value_ereallocz$14;
-              return_value_ereallocz$14=ereallocz((void *)0, sizeof(struct isc_logmessage) /*32ul*/  + octets, (unsigned long int)0, 0);
-              new = (struct isc_logmessage *)return_value_ereallocz$14;
+              void *return_value_ereallocz_14;
+              return_value_ereallocz_14=ereallocz((void *)0, sizeof(struct isc_logmessage) /*32ul*/  + octets, (unsigned long int)0, 0);
+              new = (struct isc_logmessage *)return_value_ereallocz_14;
               if(!(new == ((struct isc_logmessage *)NULL)))
               {
                 new->text = (char *)(new + (signed long int)1);
                 strlcpy(new->text, lctx->buffer, octets);
-                unsigned int return_value_isc_time_now$15;
-                return_value_isc_time_now$15=isc_time_now(&new->time);
-                if(return_value_isc_time_now$15 == 0u)
+                unsigned int return_value_isc_time_now_15;
+                return_value_isc_time_now_15=isc_time_now(&new->time);
+                if(return_value_isc_time_now_15 == 0u)
                   (_Bool)1;
 
                 else
@@ -18914,16 +18914,16 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
           }
 
-          printtime = (enum anonymous$11)((channel->flags & (unsigned int)0x0001) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
+          printtime = (enum anonymous_11)((channel->flags & (unsigned int)0x0001) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
           if(!((16u & channel->flags) == 0u))
-            tmp_if_expr$16 = lcfg->tag != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_16 = lcfg->tag != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$16 = (_Bool)0;
-          printtag = (enum anonymous$11)(tmp_if_expr$16 ? isc_boolean_true : isc_boolean_false);
-          printcategory = (enum anonymous$11)((channel->flags & (unsigned int)0x0004) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
-          printmodule = (enum anonymous$11)((channel->flags & (unsigned int)0x0008) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
-          printlevel = (enum anonymous$11)((channel->flags & (unsigned int)0x0002) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
+            tmp_if_expr_16 = (_Bool)0;
+          printtag = (enum anonymous_11)(tmp_if_expr_16 ? isc_boolean_true : isc_boolean_false);
+          printcategory = (enum anonymous_11)((channel->flags & (unsigned int)0x0004) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
+          printmodule = (enum anonymous_11)((channel->flags & (unsigned int)0x0008) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
+          printlevel = (enum anonymous_11)((channel->flags & (unsigned int)0x0002) != (unsigned int)0 ? isc_boolean_true : isc_boolean_false);
           switch(channel->type)
           {
             case (unsigned int)3:
@@ -18931,31 +18931,31 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
               if(!(channel->destination.file.maximum_reached == /*enum*/isc_boolean_false))
               {
                 if(!(channel->destination.file.versions == -2))
-                  tmp_if_expr$20 = (_Bool)1;
+                  tmp_if_expr_20 = (_Bool)1;
 
                 else
                 {
-                  return_value_stat$17=stat(channel->destination.file.name, &statbuf);
-                  if(!(return_value_stat$17 == 0))
+                  return_value_stat_17=stat(channel->destination.file.name, &statbuf);
+                  if(!(return_value_stat_17 == 0))
                   {
-                    return_value___errno_location$18=__errno_location();
-                    tmp_if_expr$19 = *return_value___errno_location$18 == 2 ? (_Bool)1 : (_Bool)0;
+                    return_value___errno_location_18=__errno_location();
+                    tmp_if_expr_19 = *return_value___errno_location_18 == 2 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$19 = (_Bool)0;
-                  tmp_if_expr$20 = tmp_if_expr$19 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_19 = (_Bool)0;
+                  tmp_if_expr_20 = tmp_if_expr_19 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$20)
-                  tmp_if_expr$21 = (_Bool)1;
+                if(tmp_if_expr_20)
+                  tmp_if_expr_21 = (_Bool)1;
 
                 else
-                  tmp_if_expr$21 = statbuf.st_size < channel->destination.file.maximum_size ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$21)
+                  tmp_if_expr_21 = statbuf.st_size < channel->destination.file.maximum_size ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_21)
                 {
                   fclose(channel->destination.file.stream);
                   channel->destination.file.stream = (struct _IO_FILE *)(void *)0;
-                  channel->destination.file.maximum_reached = (enum anonymous$11)isc_boolean_false;
+                  channel->destination.file.maximum_reached = (enum anonymous_11)isc_boolean_false;
                 }
 
                 else
@@ -18969,9 +18969,9 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
                 {
                   if((32768u & channel->flags) == 0u)
                   {
-                    const char *return_value_isc_result_totext$22;
-                    return_value_isc_result_totext$22=isc_result_totext(result);
-                    syslog(3, "isc_log_open '%s' failed: %s", channel->destination.file.name, return_value_isc_result_totext$22);
+                    const char *return_value_isc_result_totext_22;
+                    return_value_isc_result_totext_22=isc_result_totext(result);
+                    syslog(3, "isc_log_open '%s' failed: %s", channel->destination.file.name, return_value_isc_result_totext_22);
                     channel->flags = channel->flags | (unsigned int)0x8000;
                   }
 
@@ -18987,38 +18987,38 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
             case (unsigned int)4:
             {
               if(!(printtime == /*enum*/isc_boolean_false))
-                tmp_if_expr$23 = time_string;
+                tmp_if_expr_23 = time_string;
 
               else
-                tmp_if_expr$23 = "";
+                tmp_if_expr_23 = "";
               if(!(printtag == /*enum*/isc_boolean_false))
-                tmp_if_expr$24 = lcfg->tag;
+                tmp_if_expr_24 = lcfg->tag;
 
               else
-                tmp_if_expr$24 = "";
+                tmp_if_expr_24 = "";
               if(!(printcategory == /*enum*/isc_boolean_false))
-                tmp_if_expr$25 = category->name;
+                tmp_if_expr_25 = category->name;
 
               else
-                tmp_if_expr$25 = "";
+                tmp_if_expr_25 = "";
               if(!(printmodule == /*enum*/isc_boolean_false))
               {
                 if(!(module == ((struct isc_logmodule *)NULL)))
-                  tmp_if_expr$26 = module->name;
+                  tmp_if_expr_26 = module->name;
 
                 else
-                  tmp_if_expr$26 = "no_module";
-                tmp_if_expr$27 = tmp_if_expr$26;
+                  tmp_if_expr_26 = "no_module";
+                tmp_if_expr_27 = tmp_if_expr_26;
               }
 
               else
-                tmp_if_expr$27 = "";
+                tmp_if_expr_27 = "";
               if(!(printlevel == /*enum*/isc_boolean_false))
-                tmp_if_expr$28 = level_string;
+                tmp_if_expr_28 = level_string;
 
               else
-                tmp_if_expr$28 = "";
-              fprintf(channel->destination.file.stream, "%s%s%s%s%s%s%s%s%s%s\n", tmp_if_expr$23, printtime != (enum anonymous$11)0 ? " " : "", tmp_if_expr$24, printtag != (enum anonymous$11)0 ? ": " : "", tmp_if_expr$25, printcategory != (enum anonymous$11)0 ? ": " : "", tmp_if_expr$27, printmodule != (enum anonymous$11)0 ? ": " : "", tmp_if_expr$28, (const void *)lctx->buffer);
+                tmp_if_expr_28 = "";
+              fprintf(channel->destination.file.stream, "%s%s%s%s%s%s%s%s%s%s\n", tmp_if_expr_23, printtime != (enum anonymous_11)0 ? " " : "", tmp_if_expr_24, printtag != (enum anonymous_11)0 ? ": " : "", tmp_if_expr_25, printcategory != (enum anonymous_11)0 ? ": " : "", tmp_if_expr_27, printmodule != (enum anonymous_11)0 ? ": " : "", tmp_if_expr_28, (const void *)lctx->buffer);
               fflush(channel->destination.file.stream);
               if(channel->destination.file.maximum_size >= 1l)
               {
@@ -19027,17 +19027,17 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
 
                 else
                 {
-                  isc_assertion_failed("./../lib/isc/log.c", 1723, (enum anonymous$45)isc_assertiontype_insist, "channel->type == 3");
+                  isc_assertion_failed("./../lib/isc/log.c", 1723, (enum anonymous_45)isc_assertiontype_insist, "channel->type == 3");
                   (_Bool)0;
                 }
-                signed int return_value_fileno$29;
-                return_value_fileno$29=fileno(channel->destination.file.stream);
-                signed int return_value_fstat$30;
-                return_value_fstat$30=fstat(return_value_fileno$29, &statbuf);
-                if(return_value_fstat$30 >= 0)
+                signed int return_value_fileno_29;
+                return_value_fileno_29=fileno(channel->destination.file.stream);
+                signed int return_value_fstat_30;
+                return_value_fstat_30=fstat(return_value_fileno_29, &statbuf);
+                if(return_value_fstat_30 >= 0)
                 {
                   if(!(channel->destination.file.maximum_size >= statbuf.st_size))
-                    channel->destination.file.maximum_reached = (enum anonymous$11)isc_boolean_true;
+                    channel->destination.file.maximum_reached = (enum anonymous_11)isc_boolean_true;
 
                 }
 
@@ -19057,38 +19057,38 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
                 else
                   syslog_level = syslog_map[(signed long int)-level];
               if(!(printtime == /*enum*/isc_boolean_false))
-                tmp_if_expr$31 = time_string;
+                tmp_if_expr_31 = time_string;
 
               else
-                tmp_if_expr$31 = "";
+                tmp_if_expr_31 = "";
               if(!(printtag == /*enum*/isc_boolean_false))
-                tmp_if_expr$32 = lcfg->tag;
+                tmp_if_expr_32 = lcfg->tag;
 
               else
-                tmp_if_expr$32 = "";
+                tmp_if_expr_32 = "";
               if(!(printcategory == /*enum*/isc_boolean_false))
-                tmp_if_expr$33 = category->name;
+                tmp_if_expr_33 = category->name;
 
               else
-                tmp_if_expr$33 = "";
+                tmp_if_expr_33 = "";
               if(!(printmodule == /*enum*/isc_boolean_false))
               {
                 if(!(module == ((struct isc_logmodule *)NULL)))
-                  tmp_if_expr$34 = module->name;
+                  tmp_if_expr_34 = module->name;
 
                 else
-                  tmp_if_expr$34 = "no_module";
-                tmp_if_expr$35 = tmp_if_expr$34;
+                  tmp_if_expr_34 = "no_module";
+                tmp_if_expr_35 = tmp_if_expr_34;
               }
 
               else
-                tmp_if_expr$35 = "";
+                tmp_if_expr_35 = "";
               if(!(printlevel == /*enum*/isc_boolean_false))
-                tmp_if_expr$36 = level_string;
+                tmp_if_expr_36 = level_string;
 
               else
-                tmp_if_expr$36 = "";
-              syslog(channel->destination.facility | syslog_level, "%s%s%s%s%s%s%s%s%s%s", tmp_if_expr$31, printtime != (enum anonymous$11)0 ? " " : "", tmp_if_expr$32, printtag != (enum anonymous$11)0 ? ": " : "", tmp_if_expr$33, printcategory != (enum anonymous$11)0 ? ": " : "", tmp_if_expr$35, printmodule != (enum anonymous$11)0 ? ": " : "", tmp_if_expr$36, (const void *)lctx->buffer);
+                tmp_if_expr_36 = "";
+              syslog(channel->destination.facility | syslog_level, "%s%s%s%s%s%s%s%s%s%s", tmp_if_expr_31, printtime != (enum anonymous_11)0 ? " " : "", tmp_if_expr_32, printtag != (enum anonymous_11)0 ? ": " : "", tmp_if_expr_33, printcategory != (enum anonymous_11)0 ? ": " : "", tmp_if_expr_35, printmodule != (enum anonymous_11)0 ? ": " : "", tmp_if_expr_36, (const void *)lctx->buffer);
             }
             case (unsigned int)1:
 
@@ -19099,9 +19099,9 @@ static void isc_log_doit(struct isc_log *lctx, struct isc_logcategory *category,
       }
       do
       {
-        signed int return_value_pthread_mutex_unlock$37;
-        return_value_pthread_mutex_unlock$37=pthread_mutex_unlock(&lctx->lock);
-        if(return_value_pthread_mutex_unlock$37 == 0)
+        signed int return_value_pthread_mutex_unlock_37;
+        return_value_pthread_mutex_unlock_37=pthread_mutex_unlock(&lctx->lock);
+        if(return_value_pthread_mutex_unlock_37 == 0)
           (_Bool)1;
 
         else
@@ -19124,18 +19124,18 @@ __CPROVER_DUMP_L132:
 // file ./../lib/isc/log.c line 979
 unsigned int isc_log_getdebuglevel(struct isc_log *lctx)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 980, (enum anonymous$45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 980, (enum anonymous_45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
   return (unsigned int)lctx->debug_level;
@@ -19145,18 +19145,18 @@ unsigned int isc_log_getdebuglevel(struct isc_log *lctx)
 // file ./../lib/isc/log.c line 993
 unsigned int isc_log_getduplicateinterval(struct isc_logconfig *lcfg)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lcfg == ((struct isc_logconfig *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 994, (enum anonymous$45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 994, (enum anonymous_45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
   return lcfg->duplicate_interval;
@@ -19166,18 +19166,18 @@ unsigned int isc_log_getduplicateinterval(struct isc_logconfig *lcfg)
 // file ./../lib/isc/log.c line 1020
 char * isc_log_gettag(struct isc_logconfig *lcfg)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lcfg == ((struct isc_logconfig *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1021, (enum anonymous$45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 1021, (enum anonymous_45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
     (_Bool)0;
   }
   return lcfg->tag;
@@ -19187,14 +19187,14 @@ char * isc_log_gettag(struct isc_logconfig *lcfg)
 // file ./../lib/isc/log.c line 905
 void isc_log_ivwrite(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, struct isc_msgcat *msgcat, signed int msgset, signed int msg, const char *format, void **args)
 {
-  isc_log_doit(lctx, category, module, level, (enum anonymous$11)isc_boolean_false, msgcat, msgset, msg, format, args);
+  isc_log_doit(lctx, category, module, level, (enum anonymous_11)isc_boolean_false, msgcat, msgset, msg, format, args);
 }
 
 // isc_log_ivwrite1
 // file ./../lib/isc/log.c line 936
 void isc_log_ivwrite1(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, struct isc_msgcat *msgcat, signed int msgset, signed int msg, const char *format, void **args)
 {
-  isc_log_doit(lctx, category, module, level, (enum anonymous$11)isc_boolean_true, msgcat, msgset, msg, format, args);
+  isc_log_doit(lctx, category, module, level, (enum anonymous_11)isc_boolean_true, msgcat, msgset, msg, format, args);
 }
 
 // isc_log_iwrite
@@ -19202,7 +19202,7 @@ void isc_log_ivwrite1(struct isc_log *lctx, struct isc_logcategory *category, st
 void isc_log_iwrite(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, struct isc_msgcat *msgcat, signed int msgset, signed int msg, const char *format, ...)
 {
   void **args = (void **)&format;
-  isc_log_doit(lctx, category, module, level, (enum anonymous$11)isc_boolean_false, msgcat, msgset, msg, format, args);
+  isc_log_doit(lctx, category, module, level, (enum anonymous_11)isc_boolean_false, msgcat, msgset, msg, format, args);
   args = ((void **)NULL);
 }
 
@@ -19211,7 +19211,7 @@ void isc_log_iwrite(struct isc_log *lctx, struct isc_logcategory *category, stru
 void isc_log_iwrite1(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, struct isc_msgcat *msgcat, signed int msgset, signed int msg, const char *format, ...)
 {
   void **args = (void **)&format;
-  isc_log_doit(lctx, category, module, level, (enum anonymous$11)isc_boolean_true, msgcat, msgset, msg, format, args);
+  isc_log_doit(lctx, category, module, level, (enum anonymous_11)isc_boolean_true, msgcat, msgset, msg, format, args);
   args = ((void **)NULL);
 }
 
@@ -19220,18 +19220,18 @@ void isc_log_iwrite1(struct isc_log *lctx, struct isc_logcategory *category, str
 struct isc_logmodule * isc_log_modulebyname(struct isc_log *lctx, const char *name)
 {
   struct isc_logmodule *modp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 683, (enum anonymous$45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 683, (enum anonymous_45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
   if(!(name == ((const char *)NULL)))
@@ -19239,7 +19239,7 @@ struct isc_logmodule * isc_log_modulebyname(struct isc_log *lctx, const char *na
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 684, (enum anonymous$45)isc_assertiontype_require, "name != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 684, (enum anonymous_45)isc_assertiontype_require, "name != ((void *)0)");
     (_Bool)0;
   }
   modp = lctx->modules;
@@ -19247,8 +19247,8 @@ struct isc_logmodule * isc_log_modulebyname(struct isc_log *lctx, const char *na
     if(modp->id == 1U)
       do
       {
-        /* tag-#anon#lUN[l*{clV}$clV$'k'||l*{lV}$lV$'v'|] */
-union anonymous$10
+        /* tag-#anon#lUN[l*{clV}_clV_'k'||l*{lV}_lV_'v'|] */
+union anonymous_10
 {
   // k
   const void *k;
@@ -19258,7 +19258,7 @@ union anonymous$10
 
 /* */
         ;
-        union anonymous$10 _u;
+        union anonymous_10 _u;
         _u.k = (const void *)modp->name;
         modp = (struct isc_logmodule *)_u.v;
       }
@@ -19266,9 +19266,9 @@ union anonymous$10
 
     else
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(modp->name, name);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(modp->name, name);
+      if(return_value_strcmp_2 == 0)
         return modp;
 
       modp = modp + 1l;
@@ -19281,8 +19281,8 @@ union anonymous$10
 static unsigned int isc_log_open(struct isc_logchannel *channel)
 {
   struct stat statbuf;
-  enum anonymous$11 regular_file;
-  enum anonymous$11 roll = (enum anonymous$11)isc_boolean_false;
+  enum anonymous_11 regular_file;
+  enum anonymous_11 roll = (enum anonymous_11)isc_boolean_false;
   unsigned int result = (unsigned int)0;
   const char *path;
   if(channel->type == 3u)
@@ -19290,7 +19290,7 @@ static unsigned int isc_log_open(struct isc_logchannel *channel)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1326, (enum anonymous$45)isc_assertiontype_require, "channel->type == 3");
+    isc_assertion_failed("./../lib/isc/log.c", 1326, (enum anonymous_45)isc_assertiontype_require, "channel->type == 3");
     (_Bool)0;
   }
   if(channel->destination.file.stream == ((struct _IO_FILE *)NULL))
@@ -19298,61 +19298,61 @@ static unsigned int isc_log_open(struct isc_logchannel *channel)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1327, (enum anonymous$45)isc_assertiontype_require, "(channel->destination.file.stream) == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 1327, (enum anonymous_45)isc_assertiontype_require, "(channel->destination.file.stream) == ((void *)0)");
     (_Bool)0;
   }
   path = channel->destination.file.name;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(path == ((const char *)NULL)))
-    tmp_if_expr$1 = (signed int)*path != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*path != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1331, (enum anonymous$45)isc_assertiontype_require, "path != ((void *)0) && *path != '\\0'");
+    isc_assertion_failed("./../lib/isc/log.c", 1331, (enum anonymous_45)isc_assertiontype_require, "path != ((void *)0) && *path != '\\0'");
     (_Bool)0;
   }
-  signed int return_value_stat$6;
-  return_value_stat$6=stat(path, &statbuf);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$5;
-  if(return_value_stat$6 == 0)
+  signed int return_value_stat_6;
+  return_value_stat_6=stat(path, &statbuf);
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_5;
+  if(return_value_stat_6 == 0)
   {
-    regular_file = (enum anonymous$11)((statbuf.st_mode & (unsigned int)0170000) == (unsigned int)0100000 ? isc_boolean_true : isc_boolean_false);
+    regular_file = (enum anonymous_11)((statbuf.st_mode & (unsigned int)0170000) == (unsigned int)0100000 ? isc_boolean_true : isc_boolean_false);
     if(channel->destination.file.maximum_size == 0l)
-      tmp_if_expr$2 = channel->destination.file.versions != -2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = channel->destination.file.versions != -2 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if(channel->destination.file.maximum_size >= 1l)
-        tmp_if_expr$3 = statbuf.st_size >= channel->destination.file.maximum_size ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = statbuf.st_size >= channel->destination.file.maximum_size ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       roll = regular_file;
 
   }
 
   else
   {
-    return_value___errno_location$5=__errno_location();
-    if(*return_value___errno_location$5 == 2)
+    return_value___errno_location_5=__errno_location();
+    if(*return_value___errno_location_5 == 2)
     {
-      regular_file = (enum anonymous$11)isc_boolean_true;
+      regular_file = (enum anonymous_11)isc_boolean_true;
       (void)regular_file;
     }
 
@@ -19370,9 +19370,9 @@ static unsigned int isc_log_open(struct isc_logchannel *channel)
 
     if((32768u & channel->flags) == 0u)
     {
-      const char *return_value_isc_result_totext$7;
-      return_value_isc_result_totext$7=isc_result_totext(result);
-      syslog(3, "isc_log_open: roll_log '%s' failed: %s", channel->destination.file.name, return_value_isc_result_totext$7);
+      const char *return_value_isc_result_totext_7;
+      return_value_isc_result_totext_7=isc_result_totext(result);
+      syslog(3, "isc_log_open: roll_log '%s' failed: %s", channel->destination.file.name, return_value_isc_result_totext_7);
       channel->flags = channel->flags | (unsigned int)0x8000;
     }
 
@@ -19401,32 +19401,32 @@ void isc_log_opensyslog(const char *tag, signed int options, signed int facility
 void isc_log_registercategories(struct isc_log *lctx, struct isc_logcategory *categories)
 {
   struct isc_logcategory *catp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 572, (enum anonymous$45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 572, (enum anonymous_45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(categories == ((struct isc_logcategory *)NULL)))
-    tmp_if_expr$2 = (categories + (signed long int)0)->name != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (categories + (signed long int)0)->name != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 573, (enum anonymous$45)isc_assertiontype_require, "categories != ((void *)0) && categories[0].name != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 573, (enum anonymous_45)isc_assertiontype_require, "categories != ((void *)0) && categories[0].name != ((void *)0)");
     (_Bool)0;
   }
   if(lctx->categories == ((struct isc_logcategory *)NULL))
@@ -19439,8 +19439,8 @@ void isc_log_registercategories(struct isc_log *lctx, struct isc_logcategory *ca
       if(catp->id == 1U)
         do
         {
-          /* tag-#anon#lUN[l*{clV}$clV$'k'||l*{lV}$lV$'v'|] */
-union anonymous$10
+          /* tag-#anon#lUN[l*{clV}_clV_'k'||l*{lV}_lV_'v'|] */
+union anonymous_10
 {
   // k
   const void *k;
@@ -19450,7 +19450,7 @@ union anonymous$10
 
 /* */
           ;
-          union anonymous$10 _u;
+          union anonymous_10 _u;
           _u.k = (const void *)catp->name;
           catp = (struct isc_logcategory *)_u.v;
         }
@@ -19462,12 +19462,12 @@ union anonymous$10
     catp->id = (unsigned int)0x7fffffff * 2U + 1U;
   }
   catp = categories;
-  unsigned int tmp_post$3;
+  unsigned int tmp_post_3;
   for( ; !(catp->name == ((const char *)NULL)); catp = catp + 1l)
   {
-    tmp_post$3 = lctx->category_count;
+    tmp_post_3 = lctx->category_count;
     lctx->category_count = lctx->category_count + 1u;
-    catp->id = tmp_post$3;
+    catp->id = tmp_post_3;
   }
 }
 
@@ -19476,32 +19476,32 @@ union anonymous$10
 void isc_log_registermodules(struct isc_log *lctx, struct isc_logmodule *modules)
 {
   struct isc_logmodule *modp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 639, (enum anonymous$45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 639, (enum anonymous_45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(modules == ((struct isc_logmodule *)NULL)))
-    tmp_if_expr$2 = (modules + (signed long int)0)->name != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (modules + (signed long int)0)->name != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 640, (enum anonymous$45)isc_assertiontype_require, "modules != ((void *)0) && modules[0].name != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 640, (enum anonymous_45)isc_assertiontype_require, "modules != ((void *)0) && modules[0].name != ((void *)0)");
     (_Bool)0;
   }
   if(lctx->modules == ((struct isc_logmodule *)NULL))
@@ -19514,8 +19514,8 @@ void isc_log_registermodules(struct isc_log *lctx, struct isc_logmodule *modules
       if(modp->id == 1U)
         do
         {
-          /* tag-#anon#lUN[l*{clV}$clV$'k'||l*{lV}$lV$'v'|] */
-union anonymous$10
+          /* tag-#anon#lUN[l*{clV}_clV_'k'||l*{lV}_lV_'v'|] */
+union anonymous_10
 {
   // k
   const void *k;
@@ -19525,7 +19525,7 @@ union anonymous$10
 
 /* */
           ;
-          union anonymous$10 _u;
+          union anonymous_10 _u;
           _u.k = (const void *)modp->name;
           modp = (struct isc_logmodule *)_u.v;
         }
@@ -19537,12 +19537,12 @@ union anonymous$10
     modp->id = (unsigned int)0x7fffffff * 2U + 1U;
   }
   modp = modules;
-  unsigned int tmp_post$3;
+  unsigned int tmp_post_3;
   for( ; !(modp->name == ((const char *)NULL)); modp = modp + 1l)
   {
-    tmp_post$3 = lctx->module_count;
+    tmp_post_3 = lctx->module_count;
     lctx->module_count = lctx->module_count + 1u;
-    modp->id = tmp_post$3;
+    modp->id = tmp_post_3;
   }
 }
 
@@ -19558,25 +19558,25 @@ void isc_log_setcontext(struct isc_log *lctx)
 void isc_log_setdebuglevel(struct isc_log *lctx, unsigned int level)
 {
   struct isc_logchannel *channel;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 957, (enum anonymous$45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 957, (enum anonymous_45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&lctx->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&lctx->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -19609,9 +19609,9 @@ void isc_log_setdebuglevel(struct isc_log *lctx, unsigned int level)
 
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&lctx->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&lctx->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -19627,18 +19627,18 @@ void isc_log_setdebuglevel(struct isc_log *lctx, unsigned int level)
 // file ./../lib/isc/log.c line 986
 void isc_log_setduplicateinterval(struct isc_logconfig *lcfg, unsigned int interval)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lcfg == ((struct isc_logconfig *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 987, (enum anonymous$45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 987, (enum anonymous_45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
     (_Bool)0;
   }
   lcfg->duplicate_interval = interval;
@@ -19648,27 +19648,27 @@ void isc_log_setduplicateinterval(struct isc_logconfig *lcfg, unsigned int inter
 // file ./../lib/isc/log.c line 1000
 unsigned int isc_log_settag(struct isc_logconfig *lcfg, const char *tag)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lcfg == ((struct isc_logconfig *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1001, (enum anonymous$45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 1001, (enum anonymous_45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(tag == ((const char *)NULL)))
-    tmp_if_expr$3 = (signed int)*tag != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (signed int)*tag != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     if(!(lcfg->tag == ((char *)NULL)))
     {
@@ -19677,9 +19677,9 @@ unsigned int isc_log_settag(struct isc_logconfig *lcfg, const char *tag)
     }
 
     (void)lcfg->lctx->mctx;
-    char *return_value_estrdup_impl$2;
-    return_value_estrdup_impl$2=estrdup_impl(tag);
-    lcfg->tag = return_value_estrdup_impl$2;
+    char *return_value_estrdup_impl_2;
+    return_value_estrdup_impl_2=estrdup_impl(tag);
+    lcfg->tag = return_value_estrdup_impl_2;
     if(lcfg->tag == ((char *)NULL))
       return (unsigned int)1;
 
@@ -19706,18 +19706,18 @@ unsigned int isc_log_usechannel(struct isc_logconfig *lcfg, const char *name, co
   struct isc_logchannel *channel;
   unsigned int result = (unsigned int)0;
   unsigned int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lcfg == ((struct isc_logconfig *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 797, (enum anonymous$45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 797, (enum anonymous_45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
     (_Bool)0;
   }
   if(!(name == ((const char *)NULL)))
@@ -19725,44 +19725,44 @@ unsigned int isc_log_usechannel(struct isc_logconfig *lcfg, const char *name, co
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 798, (enum anonymous$45)isc_assertiontype_require, "name != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 798, (enum anonymous_45)isc_assertiontype_require, "name != ((void *)0)");
     (_Bool)0;
   }
   lctx = lcfg->lctx;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(category == ((const struct isc_logcategory *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = category->id < lctx->category_count ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = category->id < lctx->category_count ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 802, (enum anonymous$45)isc_assertiontype_require, "category == ((void *)0) || category->id < lctx->category_count");
+    isc_assertion_failed("./../lib/isc/log.c", 802, (enum anonymous_45)isc_assertiontype_require, "category == ((void *)0) || category->id < lctx->category_count");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(module == ((const struct isc_logmodule *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = module->id < lctx->module_count ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = module->id < lctx->module_count ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 803, (enum anonymous$45)isc_assertiontype_require, "module == ((void *)0) || module->id < lctx->module_count");
+    isc_assertion_failed("./../lib/isc/log.c", 803, (enum anonymous_45)isc_assertiontype_require, "module == ((void *)0) || module->id < lctx->module_count");
     (_Bool)0;
   }
   channel = lcfg->channels.head;
-  signed int return_value_strcmp$4;
+  signed int return_value_strcmp_4;
   for( ; !(channel == ((struct isc_logchannel *)NULL)); channel = channel->link.next)
   {
-    return_value_strcmp$4=strcmp(name, channel->name);
-    if(return_value_strcmp$4 == 0)
+    return_value_strcmp_4=strcmp(name, channel->name);
+    if(return_value_strcmp_4 == 0)
       break;
 
   }
@@ -19793,46 +19793,46 @@ unsigned int isc_log_usechannel(struct isc_logconfig *lcfg, const char *name, co
 // file ./../lib/isc/log.c line 847
 void isc_log_vwrite(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, const char *format, void **args)
 {
-  isc_log_doit(lctx, category, module, level, (enum anonymous$11)isc_boolean_false, (struct isc_msgcat *)(void *)0, 0, 0, format, args);
+  isc_log_doit(lctx, category, module, level, (enum anonymous_11)isc_boolean_false, (struct isc_msgcat *)(void *)0, 0, 0, format, args);
 }
 
 // isc_log_vwrite1
 // file ./../lib/isc/log.c line 875
 void isc_log_vwrite1(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, const char *format, void **args)
 {
-  isc_log_doit(lctx, category, module, level, (enum anonymous$11)isc_boolean_true, (struct isc_msgcat *)(void *)0, 0, 0, format, args);
+  isc_log_doit(lctx, category, module, level, (enum anonymous_11)isc_boolean_true, (struct isc_msgcat *)(void *)0, 0, 0, format, args);
 }
 
 // isc_log_wouldlog
 // file ./../lib/isc/log.c line 1378
-enum anonymous$11 isc_log_wouldlog(struct isc_log *lctx, signed int level)
+enum anonymous_11 isc_log_wouldlog(struct isc_log *lctx, signed int level)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(lctx == ((struct isc_log *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = lctx->logconfig == (struct isc_logconfig *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    return (enum anonymous$11)isc_boolean_false;
+    tmp_if_expr_1 = lctx->logconfig == (struct isc_logconfig *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    return (enum anonymous_11)isc_boolean_false;
 
   else
   {
     if(lctx->logconfig->highest_level >= level)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(!(lctx->logconfig->dynamic == /*enum*/isc_boolean_false))
-        tmp_if_expr$2 = level <= lctx->debug_level ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = level <= lctx->debug_level ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    return (enum anonymous$11)(tmp_if_expr$3 ? isc_boolean_true : isc_boolean_false);
+    return (enum anonymous_11)(tmp_if_expr_3 ? isc_boolean_true : isc_boolean_false);
   }
 }
 
@@ -19841,7 +19841,7 @@ enum anonymous$11 isc_log_wouldlog(struct isc_log *lctx, signed int level)
 void isc_log_write(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, const char *format, ...)
 {
   void **args = (void **)&format;
-  isc_log_doit(lctx, category, module, level, (enum anonymous$11)isc_boolean_false, (struct isc_msgcat *)(void *)0, 0, 0, format, args);
+  isc_log_doit(lctx, category, module, level, (enum anonymous_11)isc_boolean_false, (struct isc_msgcat *)(void *)0, 0, 0, format, args);
   args = ((void **)NULL);
 }
 
@@ -19850,7 +19850,7 @@ void isc_log_write(struct isc_log *lctx, struct isc_logcategory *category, struc
 void isc_log_write1(struct isc_log *lctx, struct isc_logcategory *category, struct isc_logmodule *module, signed int level, const char *format, ...)
 {
   void **args = (void **)&format;
-  isc_log_doit(lctx, category, module, level, (enum anonymous$11)isc_boolean_true, (struct isc_msgcat *)(void *)0, 0, 0, format, args);
+  isc_log_doit(lctx, category, module, level, (enum anonymous_11)isc_boolean_true, (struct isc_msgcat *)(void *)0, 0, 0, format, args);
   args = ((void **)NULL);
 }
 
@@ -19862,47 +19862,47 @@ unsigned int isc_logconfig_create(struct isc_log *lctx, struct isc_logconfig **l
   union isc_logdestination destination;
   unsigned int result = (unsigned int)0;
   signed int level = -1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lcfgp == ((struct isc_logconfig **)NULL)))
-    tmp_if_expr$1 = *lcfgp == (struct isc_logconfig *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *lcfgp == (struct isc_logconfig *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 337, (enum anonymous$45)isc_assertiontype_require, "lcfgp != ((void *)0) && *lcfgp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 337, (enum anonymous_45)isc_assertiontype_require, "lcfgp != ((void *)0) && *lcfgp == ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$2 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 338, (enum anonymous$45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 338, (enum anonymous_45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
   (void)lctx->mctx;
-  void *return_value_ereallocz$3;
-  return_value_ereallocz$3=ereallocz((void *)0, sizeof(struct isc_logconfig) /*72ul*/ , (unsigned long int)0, 0);
-  lcfg = (struct isc_logconfig *)return_value_ereallocz$3;
+  void *return_value_ereallocz_3;
+  return_value_ereallocz_3=ereallocz((void *)0, sizeof(struct isc_logconfig) /*72ul*/ , (unsigned long int)0, 0);
+  lcfg = (struct isc_logconfig *)return_value_ereallocz_3;
   if(!(lcfg == ((struct isc_logconfig *)NULL)))
   {
     lcfg->lctx = lctx;
-    lcfg->channellists = (struct anonymous$32 *)(void *)0;
+    lcfg->channellists = (struct anonymous_32 *)(void *)0;
     lcfg->channellist_count = (unsigned int)0;
     lcfg->duplicate_interval = (unsigned int)0;
     lcfg->highest_level = level;
     lcfg->tag = (char *)(void *)0;
-    lcfg->dynamic = (enum anonymous$11)isc_boolean_false;
+    lcfg->dynamic = (enum anonymous_11)isc_boolean_false;
     do
     {
       lcfg->channels.head = (struct isc_logchannel *)(void *)0;
@@ -19962,41 +19962,41 @@ void isc_logconfig_destroy(struct isc_logconfig **lcfgp)
   struct isc_logchannellist *item;
   char *filename;
   unsigned int i;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(lcfgp == ((struct isc_logconfig **)NULL)))
   {
     if(!(*lcfgp == ((struct isc_logconfig *)NULL)))
-      tmp_if_expr$1 = ((const struct anonymous$30 *)*lcfgp)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((const struct anonymous_30 *)*lcfgp)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 511, (enum anonymous$45)isc_assertiontype_require, "lcfgp != ((void *)0) && (((*lcfgp) != ((void *)0)) && (((const isc__magic_t *)(*lcfgp))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 511, (enum anonymous_45)isc_assertiontype_require, "lcfgp != ((void *)0) && (((*lcfgp) != ((void *)0)) && (((const isc__magic_t *)(*lcfgp))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
     (_Bool)0;
   }
   lcfg = *lcfgp;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(lcfg->lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$3 = lcfg->lctx->logconfig != lcfg ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = lcfg->lctx->logconfig != lcfg ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 519, (enum anonymous$45)isc_assertiontype_require, "lcfg->lctx != ((void *)0) && lcfg->lctx->logconfig != lcfg");
+    isc_assertion_failed("./../lib/isc/log.c", 519, (enum anonymous_45)isc_assertiontype_require, "lcfg->lctx != ((void *)0) && lcfg->lctx->logconfig != lcfg");
     (_Bool)0;
   }
   mctx = lcfg->lctx->mctx;
@@ -20021,7 +20021,7 @@ void isc_logconfig_destroy(struct isc_logconfig **lcfgp)
 
         else
         {
-          isc_assertion_failed("./../lib/isc/log.c", 524, (enum anonymous$45)isc_assertiontype_insist, "(lcfg->channels).tail == (channel)");
+          isc_assertion_failed("./../lib/isc/log.c", 524, (enum anonymous_45)isc_assertiontype_insist, "(lcfg->channels).tail == (channel)");
           (_Bool)0;
         }
         lcfg->channels.tail = channel->link.prev;
@@ -20036,7 +20036,7 @@ void isc_logconfig_destroy(struct isc_logconfig **lcfgp)
 
         else
         {
-          isc_assertion_failed("./../lib/isc/log.c", 524, (enum anonymous$45)isc_assertiontype_insist, "(lcfg->channels).head == (channel)");
+          isc_assertion_failed("./../lib/isc/log.c", 524, (enum anonymous_45)isc_assertiontype_insist, "(lcfg->channels).head == (channel)");
           (_Bool)0;
         }
         lcfg->channels.head = channel->link.next;
@@ -20049,8 +20049,8 @@ void isc_logconfig_destroy(struct isc_logconfig **lcfgp)
     {
       do
       {
-        /* tag-#anon#lUN[l*{clV}$clV$'k'||l*{lV}$lV$'v'|] */
-union anonymous$10
+        /* tag-#anon#lUN[l*{clV}_clV_'k'||l*{lV}_lV_'v'|] */
+union anonymous_10
 {
   // k
   const void *k;
@@ -20060,7 +20060,7 @@ union anonymous$10
 
 /* */
         ;
-        union anonymous$10 _u;
+        union anonymous_10 _u;
         _u.k = (const void *)channel->destination.file.name;
         filename = (char *)_u.v;
       }
@@ -20101,7 +20101,7 @@ union anonymous$10
 
           else
           {
-            isc_assertion_failed("./../lib/isc/log.c", 546, (enum anonymous$45)isc_assertiontype_insist, "(lcfg->channellists[i]).tail == (item)");
+            isc_assertion_failed("./../lib/isc/log.c", 546, (enum anonymous_45)isc_assertiontype_insist, "(lcfg->channellists[i]).tail == (item)");
             (_Bool)0;
           }
           (lcfg->channellists + (signed long int)i)->tail = item->link.prev;
@@ -20116,7 +20116,7 @@ union anonymous$10
 
           else
           {
-            isc_assertion_failed("./../lib/isc/log.c", 546, (enum anonymous$45)isc_assertiontype_insist, "(lcfg->channellists[i]).head == (item)");
+            isc_assertion_failed("./../lib/isc/log.c", 546, (enum anonymous_45)isc_assertiontype_insist, "(lcfg->channellists[i]).head == (item)");
             (_Bool)0;
           }
           (lcfg->channellists + (signed long int)i)->head = item->link.next;
@@ -20131,8 +20131,8 @@ union anonymous$10
     while((_Bool)1);
   if(lcfg->channellist_count >= 1u)
   {
-    /* tag-#anon#lST[l*{SYM#tag-isc_logchannellist#}$SYM#tag-isc_logchannellist#$'head'||l*{SYM#tag-isc_logchannellist#}$SYM#tag-isc_logchannellist#$'tail'|] */
-struct anonymous$36
+    /* tag-#anon#lST[l*{SYM#tag-isc_logchannellist#}_SYM#tag-isc_logchannellist#_'head'||l*{SYM#tag-isc_logchannellist#}_SYM#tag-isc_logchannellist#_'tail'|] */
+struct anonymous_36
 {
   // head
   struct isc_logchannellist *head;
@@ -20142,12 +20142,12 @@ struct anonymous$36
 
 /* */
     ;
-    (void)((unsigned long int)lcfg->channellist_count * sizeof(struct anonymous$36) /*16ul*/ );
+    (void)((unsigned long int)lcfg->channellist_count * sizeof(struct anonymous_36) /*16ul*/ );
     (void)mctx;
     free((void *)lcfg->channellists);
   }
 
-  lcfg->dynamic = (enum anonymous$11)isc_boolean_false;
+  lcfg->dynamic = (enum anonymous_11)isc_boolean_false;
   if(!(lcfg->tag == ((char *)NULL)))
   {
     (void)lcfg->lctx->mctx;
@@ -20167,18 +20167,18 @@ struct anonymous$36
 // file ./../lib/isc/log.c line 423
 struct isc_logconfig * isc_logconfig_get(struct isc_log *lctx)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 424, (enum anonymous$45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 424, (enum anonymous_45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
   if(!(lctx->logconfig == ((struct isc_logconfig *)NULL)))
@@ -20186,7 +20186,7 @@ struct isc_logconfig * isc_logconfig_get(struct isc_log *lctx)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 426, (enum anonymous$45)isc_assertiontype_ensure, "lctx->logconfig != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/log.c", 426, (enum anonymous_45)isc_assertiontype_ensure, "lctx->logconfig != ((void *)0)");
     (_Bool)0;
   }
   return lctx->logconfig;
@@ -20198,32 +20198,32 @@ unsigned int isc_logconfig_use(struct isc_log *lctx, struct isc_logconfig *lcfg)
 {
   struct isc_logconfig *old_cfg;
   unsigned int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lctx == ((struct isc_log *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lctx)->magic == (unsigned int)(76 << 24 | 99 << 16 | 116 << 8 | 120) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 436, (enum anonymous$45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 436, (enum anonymous_45)isc_assertiontype_require, "(((lctx) != ((void *)0)) && (((const isc__magic_t *)(lctx))->magic == ((('L') << 24 | ('c') << 16 | ('t') << 8 | ('x')))))");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(lcfg == ((struct isc_logconfig *)NULL)))
-    tmp_if_expr$2 = ((const struct anonymous$30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = ((const struct anonymous_30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 437, (enum anonymous$45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 437, (enum anonymous_45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
     (_Bool)0;
   }
   if(lcfg->lctx == lctx)
@@ -20231,7 +20231,7 @@ unsigned int isc_logconfig_use(struct isc_log *lctx, struct isc_logconfig *lcfg)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 438, (enum anonymous$45)isc_assertiontype_require, "lcfg->lctx == lctx");
+    isc_assertion_failed("./../lib/isc/log.c", 438, (enum anonymous_45)isc_assertiontype_require, "lcfg->lctx == lctx");
     (_Bool)0;
   }
   result=sync_channellist(lcfg);
@@ -20242,9 +20242,9 @@ unsigned int isc_logconfig_use(struct isc_log *lctx, struct isc_logconfig *lcfg)
   {
     do
     {
-      signed int return_value_pthread_mutex_lock$3;
-      return_value_pthread_mutex_lock$3=pthread_mutex_lock(&lctx->lock);
-      if(return_value_pthread_mutex_lock$3 == 0)
+      signed int return_value_pthread_mutex_lock_3;
+      return_value_pthread_mutex_lock_3=pthread_mutex_lock(&lctx->lock);
+      if(return_value_pthread_mutex_lock_3 == 0)
         (_Bool)1;
 
       else
@@ -20258,9 +20258,9 @@ unsigned int isc_logconfig_use(struct isc_log *lctx, struct isc_logconfig *lcfg)
     lctx->logconfig = lcfg;
     do
     {
-      signed int return_value_pthread_mutex_unlock$4;
-      return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&lctx->lock);
-      if(return_value_pthread_mutex_unlock$4 == 0)
+      signed int return_value_pthread_mutex_unlock_4;
+      return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&lctx->lock);
+      if(return_value_pthread_mutex_unlock_4 == 0)
         (_Bool)1;
 
       else
@@ -20277,13 +20277,13 @@ unsigned int isc_logconfig_use(struct isc_log *lctx, struct isc_logconfig *lcfg)
 
 // isc_md5_final
 // file ./../lib/isc/md5.c line 248
-void isc_md5_final(struct anonymous$46 *ctx, unsigned char *digest)
+void isc_md5_final(struct anonymous_46 *ctx, unsigned char *digest)
 {
   signed int count = (signed int)(ctx->bytes[(signed long int)0] & (unsigned int)0x3f);
   unsigned char *p = (unsigned char *)ctx->in + (signed long int)count;
-  unsigned char *tmp_post$1 = p;
+  unsigned char *tmp_post_1 = p;
   p = p + 1l;
-  *tmp_post$1 = (unsigned char)0x80;
+  *tmp_post_1 = (unsigned char)0x80;
   count = (56 - 1) - count;
   if(!(count >= 0))
   {
@@ -20301,12 +20301,12 @@ void isc_md5_final(struct anonymous$46 *ctx, unsigned char *digest)
   transform(ctx->buf, ctx->in);
   byteSwap(ctx->buf, (unsigned int)4);
   memcpy((void *)digest, (const void *)ctx->buf, (unsigned long int)16);
-  memset((void *)ctx, 0, sizeof(struct anonymous$46) /*88ul*/ );
+  memset((void *)ctx, 0, sizeof(struct anonymous_46) /*88ul*/ );
 }
 
 // isc_md5_init
 // file ./../lib/isc/md5.c line 87
-void isc_md5_init(struct anonymous$46 *ctx)
+void isc_md5_init(struct anonymous_46 *ctx)
 {
   ctx->buf[(signed long int)0] = (unsigned int)0x67452301;
   ctx->buf[(signed long int)1] = 0xefcdab89;
@@ -20318,14 +20318,14 @@ void isc_md5_init(struct anonymous$46 *ctx)
 
 // isc_md5_invalidate
 // file ./../lib/isc/md5.c line 98
-void isc_md5_invalidate(struct anonymous$46 *ctx)
+void isc_md5_invalidate(struct anonymous_46 *ctx)
 {
-  memset((void *)ctx, 0, sizeof(struct anonymous$46) /*88ul*/ );
+  memset((void *)ctx, 0, sizeof(struct anonymous_46) /*88ul*/ );
 }
 
 // isc_md5_update
 // file ./../lib/isc/md5.c line 209
-void isc_md5_update(struct anonymous$46 *ctx, const unsigned char *buf, unsigned int len)
+void isc_md5_update(struct anonymous_46 *ctx, const unsigned char *buf, unsigned int len)
 {
   unsigned int t = ctx->bytes[(signed long int)0];
   ctx->bytes[(signed long int)0] = t + len;
@@ -20364,22 +20364,22 @@ void isc_msgcat_close(struct isc_msgcat **msgcatp)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 94, (enum anonymous$45)isc_assertiontype_require, "msgcatp != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 94, (enum anonymous_45)isc_assertiontype_require, "msgcatp != ((void *)0)");
     (_Bool)0;
   }
   msgcat = *msgcatp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(msgcat == ((struct isc_msgcat *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)msgcat)->magic == (unsigned int)(77 << 24 | 67 << 16 | 97 << 8 | 116) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)msgcat)->magic == (unsigned int)(77 << 24 | 67 << 16 | 97 << 8 | 116) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(msgcat == ((struct isc_msgcat *)NULL) || tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(msgcat == ((struct isc_msgcat *)NULL) || tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 96, (enum anonymous$45)isc_assertiontype_require, "(((msgcat) != ((void *)0)) && (((const isc__magic_t *)(msgcat))->magic == ((('M') << 24 | ('C') << 16 | ('a') << 8 | ('t'))))) || msgcat == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 96, (enum anonymous_45)isc_assertiontype_require, "(((msgcat) != ((void *)0)) && (((const isc__magic_t *)(msgcat))->magic == ((('M') << 24 | ('C') << 16 | ('a') << 8 | ('t'))))) || msgcat == ((void *)0)");
     (_Bool)0;
   }
   if(!(msgcat == ((struct isc_msgcat *)NULL)))
@@ -20395,18 +20395,18 @@ void isc_msgcat_close(struct isc_msgcat **msgcatp)
 // file ../lib/isc/include/isc/msgcat.h line 112
 const char * isc_msgcat_get(struct isc_msgcat *msgcat, signed int set, signed int message, const char *default_text)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(msgcat == ((struct isc_msgcat *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)msgcat)->magic == (unsigned int)(77 << 24 | 67 << 16 | 97 << 8 | 116) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)msgcat)->magic == (unsigned int)(77 << 24 | 67 << 16 | 97 << 8 | 116) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(msgcat == ((struct isc_msgcat *)NULL) || tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(msgcat == ((struct isc_msgcat *)NULL) || tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 119, (enum anonymous$45)isc_assertiontype_require, "(((msgcat) != ((void *)0)) && (((const isc__magic_t *)(msgcat))->magic == ((('M') << 24 | ('C') << 16 | ('a') << 8 | ('t'))))) || msgcat == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 119, (enum anonymous_45)isc_assertiontype_require, "(((msgcat) != ((void *)0)) && (((const isc__magic_t *)(msgcat))->magic == ((('M') << 24 | ('C') << 16 | ('a') << 8 | ('t'))))) || msgcat == ((void *)0)");
     (_Bool)0;
   }
   if(set >= 1)
@@ -20414,7 +20414,7 @@ const char * isc_msgcat_get(struct isc_msgcat *msgcat, signed int set, signed in
 
   else
   {
-    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 120, (enum anonymous$45)isc_assertiontype_require, "set > 0");
+    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 120, (enum anonymous_45)isc_assertiontype_require, "set > 0");
     (_Bool)0;
   }
   if(message >= 1)
@@ -20422,7 +20422,7 @@ const char * isc_msgcat_get(struct isc_msgcat *msgcat, signed int set, signed in
 
   else
   {
-    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 121, (enum anonymous$45)isc_assertiontype_require, "message > 0");
+    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 121, (enum anonymous_45)isc_assertiontype_require, "message > 0");
     (_Bool)0;
   }
   if(!(default_text == ((const char *)NULL)))
@@ -20430,7 +20430,7 @@ const char * isc_msgcat_get(struct isc_msgcat *msgcat, signed int set, signed in
 
   else
   {
-    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 122, (enum anonymous$45)isc_assertiontype_require, "default_text != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 122, (enum anonymous_45)isc_assertiontype_require, "default_text != ((void *)0)");
     (_Bool)0;
   }
   return default_text;
@@ -20446,26 +20446,26 @@ void isc_msgcat_open(const char *name, struct isc_msgcat **msgcatp)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 64, (enum anonymous$45)isc_assertiontype_require, "name != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 64, (enum anonymous_45)isc_assertiontype_require, "name != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(msgcatp == ((struct isc_msgcat **)NULL)))
-    tmp_if_expr$1 = *msgcatp == (struct isc_msgcat *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *msgcatp == (struct isc_msgcat *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 65, (enum anonymous$45)isc_assertiontype_require, "msgcatp != ((void *)0) && *msgcatp == ((void *)0)");
+    isc_assertion_failed("./../lib/isc/nls/msgcat.c", 65, (enum anonymous_45)isc_assertiontype_require, "msgcatp != ((void *)0) && *msgcatp == ((void *)0)");
     (_Bool)0;
   }
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct isc_msgcat) /*4ul*/ );
-  msgcat = (struct isc_msgcat *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct isc_msgcat) /*4ul*/ );
+  msgcat = (struct isc_msgcat *)return_value_malloc_2;
   if(msgcat == ((struct isc_msgcat *)NULL))
     *msgcatp = (struct isc_msgcat *)(void *)0;
 
@@ -20526,7 +20526,7 @@ unsigned int isc_net_getudpportrange(signed int af, unsigned short int *low, uns
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/net.c", 481, (enum anonymous$45)isc_assertiontype_require, "low != ((void *)0) && high != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/net.c", 481, (enum anonymous_45)isc_assertiontype_require, "low != ((void *)0) && high != ((void *)0)");
     (_Bool)0;
   }
   (void)af;
@@ -20543,25 +20543,25 @@ unsigned int isc_net_getudpportrange(signed int af, unsigned short int *low, uns
 // file ./../lib/isc/inet_ntop.c line 60
 const char * isc_net_ntop(signed int af, const void *src, char *dst, unsigned long int size)
 {
-  const char *return_value_inet_ntop4$1;
-  const char *return_value_inet_ntop6$2;
-  signed int *return_value___errno_location$3;
+  const char *return_value_inet_ntop4_1;
+  const char *return_value_inet_ntop6_2;
+  signed int *return_value___errno_location_3;
   switch(af)
   {
     case 2:
     {
-      return_value_inet_ntop4$1=inet_ntop4((const unsigned char *)src, dst, size);
-      return return_value_inet_ntop4$1;
+      return_value_inet_ntop4_1=inet_ntop4((const unsigned char *)src, dst, size);
+      return return_value_inet_ntop4_1;
     }
     case 10:
     {
-      return_value_inet_ntop6$2=inet_ntop6((const unsigned char *)src, dst, size);
-      return return_value_inet_ntop6$2;
+      return_value_inet_ntop6_2=inet_ntop6((const unsigned char *)src, dst, size);
+      return return_value_inet_ntop6_2;
     }
     default:
     {
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 97;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 97;
       return (const char *)(void *)0;
     }
   }
@@ -20611,25 +20611,25 @@ unsigned int isc_net_probeunix(void)
 // file ./../lib/isc/inet_pton.c line 59
 signed int isc_net_pton(signed int af, const char *src, void *dst)
 {
-  signed int return_value_inet_pton4$1;
-  signed int return_value_inet_pton6$2;
-  signed int *return_value___errno_location$3;
+  signed int return_value_inet_pton4_1;
+  signed int return_value_inet_pton6_2;
+  signed int *return_value___errno_location_3;
   switch(af)
   {
     case 2:
     {
-      return_value_inet_pton4$1=inet_pton4(src, (unsigned char *)dst);
-      return return_value_inet_pton4$1;
+      return_value_inet_pton4_1=inet_pton4(src, (unsigned char *)dst);
+      return return_value_inet_pton4_1;
     }
     case 10:
     {
-      return_value_inet_pton6$2=inet_pton6(src, (unsigned char *)dst);
-      return return_value_inet_pton6$2;
+      return_value_inet_pton6_2=inet_pton6(src, (unsigned char *)dst);
+      return return_value_inet_pton6_2;
     }
     default:
     {
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 97;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 97;
       return -1;
     }
   }
@@ -20655,7 +20655,7 @@ void isc_netaddr_any6(struct isc_netaddr *netaddr)
 
 // isc_netaddr_eqprefix
 // file ./../lib/isc/netaddr.c line 70
-enum anonymous$11 isc_netaddr_eqprefix(const struct isc_netaddr *a, const struct isc_netaddr *b, unsigned int prefixlen)
+enum anonymous_11 isc_netaddr_eqprefix(const struct isc_netaddr *a, const struct isc_netaddr *b, unsigned int prefixlen)
 {
   const unsigned char *pa = (const unsigned char *)(void *)0;
   const unsigned char *pb = (const unsigned char *)(void *)0;
@@ -20667,11 +20667,11 @@ enum anonymous$11 isc_netaddr_eqprefix(const struct isc_netaddr *a, const struct
 
   else
   {
-    isc_assertion_failed("./../lib/isc/netaddr.c", 78, (enum anonymous$45)isc_assertiontype_require, "a != ((void *)0) && b != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/netaddr.c", 78, (enum anonymous_45)isc_assertiontype_require, "a != ((void *)0) && b != ((void *)0)");
     (_Bool)0;
   }
   if(!(a->family == b->family))
-    return (enum anonymous$11)isc_boolean_false;
+    return (enum anonymous_11)isc_boolean_false;
 
   else
     if(!(a->zone == b->zone))
@@ -20679,7 +20679,7 @@ enum anonymous$11 isc_netaddr_eqprefix(const struct isc_netaddr *a, const struct
       if(b->zone == 0u)
         goto __CPROVER_DUMP_L5;
 
-      return (enum anonymous$11)isc_boolean_false;
+      return (enum anonymous_11)isc_boolean_false;
     }
 
     else
@@ -20704,7 +20704,7 @@ enum anonymous$11 isc_netaddr_eqprefix(const struct isc_netaddr *a, const struct
           break;
         }
         default:
-          return (enum anonymous$11)isc_boolean_false;
+          return (enum anonymous_11)isc_boolean_false;
       }
       if(!(8u * ipabytes >= prefixlen))
         prefixlen = ipabytes * (unsigned int)8;
@@ -20713,10 +20713,10 @@ enum anonymous$11 isc_netaddr_eqprefix(const struct isc_netaddr *a, const struct
       nbits = prefixlen % (unsigned int)8;
       if(nbytes >= 1u)
       {
-        signed int return_value_memcmp$1;
-        return_value_memcmp$1=memcmp((const void *)pa, (const void *)pb, (unsigned long int)nbytes);
-        if(!(return_value_memcmp$1 == 0))
-          return (enum anonymous$11)isc_boolean_false;
+        signed int return_value_memcmp_1;
+        return_value_memcmp_1=memcmp((const void *)pa, (const void *)pb, (unsigned long int)nbytes);
+        if(!(return_value_memcmp_1 == 0))
+          return (enum anonymous_11)isc_boolean_false;
 
       }
 
@@ -20730,7 +20730,7 @@ enum anonymous$11 isc_netaddr_eqprefix(const struct isc_netaddr *a, const struct
 
         else
         {
-          isc_assertion_failed("./../lib/isc/netaddr.c", 116, (enum anonymous$45)isc_assertiontype_insist, "nbytes < ipabytes");
+          isc_assertion_failed("./../lib/isc/netaddr.c", 116, (enum anonymous_45)isc_assertiontype_insist, "nbytes < ipabytes");
           (_Bool)0;
         }
         if(!(nbits >= 8u))
@@ -20738,41 +20738,41 @@ enum anonymous$11 isc_netaddr_eqprefix(const struct isc_netaddr *a, const struct
 
         else
         {
-          isc_assertion_failed("./../lib/isc/netaddr.c", 117, (enum anonymous$45)isc_assertiontype_insist, "nbits < 8");
+          isc_assertion_failed("./../lib/isc/netaddr.c", 117, (enum anonymous_45)isc_assertiontype_insist, "nbits < 8");
           (_Bool)0;
         }
         bytea = (unsigned int)pa[(signed long int)nbytes];
         byteb = (unsigned int)pb[(signed long int)nbytes];
         mask = (unsigned int)(0xFF << (unsigned int)8 - nbits & 0xFF);
         if(!((bytea & mask) == (byteb & mask)))
-          return (enum anonymous$11)isc_boolean_false;
+          return (enum anonymous_11)isc_boolean_false;
 
       }
 
-      return (enum anonymous$11)isc_boolean_true;
+      return (enum anonymous_11)isc_boolean_true;
     }
 }
 
 // isc_netaddr_equal
 // file ./../lib/isc/netaddr.c line 37
-enum anonymous$11 isc_netaddr_equal(const struct isc_netaddr *a, const struct isc_netaddr *b)
+enum anonymous_11 isc_netaddr_equal(const struct isc_netaddr *a, const struct isc_netaddr *b)
 {
   if(!(a == ((const struct isc_netaddr *)NULL)) && !(b == ((const struct isc_netaddr *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/netaddr.c", 38, (enum anonymous$45)isc_assertiontype_require, "a != ((void *)0) && b != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/netaddr.c", 38, (enum anonymous_45)isc_assertiontype_require, "a != ((void *)0) && b != ((void *)0)");
     (_Bool)0;
   }
-  signed int return_value_memcmp$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_memcmp_1;
+  _Bool tmp_if_expr_2;
   if(!(a->family == b->family))
-    return (enum anonymous$11)isc_boolean_false;
+    return (enum anonymous_11)isc_boolean_false;
 
   else
     if(!(a->zone == b->zone))
-      return (enum anonymous$11)isc_boolean_false;
+      return (enum anonymous_11)isc_boolean_false;
 
     else
     {
@@ -20781,27 +20781,27 @@ enum anonymous$11 isc_netaddr_equal(const struct isc_netaddr *a, const struct is
         case (unsigned int)2:
         {
           if(!(a->type.in.s_addr == b->type.in.s_addr))
-            return (enum anonymous$11)isc_boolean_false;
+            return (enum anonymous_11)isc_boolean_false;
 
           break;
         }
         case (unsigned int)10:
         {
-          return_value_memcmp$1=memcmp((const void *)&a->type.in6, (const void *)&b->type.in6, sizeof(struct in6_addr) /*16ul*/ );
-          if(!(return_value_memcmp$1 == 0))
-            tmp_if_expr$2 = (_Bool)1;
+          return_value_memcmp_1=memcmp((const void *)&a->type.in6, (const void *)&b->type.in6, sizeof(struct in6_addr) /*16ul*/ );
+          if(!(return_value_memcmp_1 == 0))
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = a->zone != b->zone ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
-            return (enum anonymous$11)isc_boolean_false;
+            tmp_if_expr_2 = a->zone != b->zone ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
+            return (enum anonymous_11)isc_boolean_false;
 
           break;
         }
         default:
-          return (enum anonymous$11)isc_boolean_false;
+          return (enum anonymous_11)isc_boolean_false;
       }
-      return (enum anonymous$11)isc_boolean_true;
+      return (enum anonymous_11)isc_boolean_true;
     }
 }
 
@@ -20826,9 +20826,9 @@ void isc_netaddr_format(const struct isc_netaddr *na, char *array, unsigned int 
 
     if(!(result == 0u))
     {
-      const char *return_value_isc_msgcat_get$1;
-      return_value_isc_msgcat_get$1=isc_msgcat_get(isc_msgcat, 12, 1001, "unknown address, family");
-      snprintf(array, (unsigned long int)size, "<%s %u>", return_value_isc_msgcat_get$1, na->family);
+      const char *return_value_isc_msgcat_get_1;
+      return_value_isc_msgcat_get_1=isc_msgcat_get(isc_msgcat, 12, 1001, "unknown address, family");
+      snprintf(array, (unsigned long int)size, "<%s %u>", return_value_isc_msgcat_get_1, na->family);
       array[(signed long int)(size - (unsigned int)1)] = (char)0;
     }
 
@@ -20885,7 +20885,7 @@ void isc_netaddr_fromsockaddr(struct isc_netaddr *t, const struct isc_sockaddr *
     }
     default:
     {
-      isc_assertion_failed("./../lib/isc/netaddr.c", 359, (enum anonymous$45)isc_assertiontype_insist, "0");
+      isc_assertion_failed("./../lib/isc/netaddr.c", 359, (enum anonymous_45)isc_assertiontype_insist, "0");
       (void)(0 != 0 ? (_Bool)1 : (_Bool)0);
     }
   }
@@ -20898,8 +20898,8 @@ void isc_netaddr_fromv4mapped(struct isc_netaddr *t, const struct isc_netaddr *s
   struct isc_netaddr *src;
   do
   {
-    /* tag-#anon#lUN[l*{clV}$clV$'k'||l*{lV}$lV$'v'|] */
-union anonymous$10
+    /* tag-#anon#lUN[l*{clV}_clV_'k'||l*{lV}_lV_'v'|] */
+union anonymous_10
 {
   // k
   const void *k;
@@ -20909,7 +20909,7 @@ union anonymous$10
 
 /* */
     ;
-    union anonymous$10 _u;
+    union anonymous_10 _u;
     _u.k = (const void *)s;
     src = (struct isc_netaddr *)_u.v;
   }
@@ -20919,34 +20919,34 @@ union anonymous$10
 
   else
   {
-    isc_assertion_failed("./../lib/isc/netaddr.c", 429, (enum anonymous$45)isc_assertiontype_require, "s->family == 10");
+    isc_assertion_failed("./../lib/isc/netaddr.c", 429, (enum anonymous_45)isc_assertiontype_require, "s->family == 10");
     (_Bool)0;
   }
-  _Bool tmp_statement_expression$1;
+  _Bool tmp_statement_expression_1;
   struct in6_addr *__a = (struct in6_addr *)&src->type.in6;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(__a->__in6_u.__u6_addr32[0l] == 0u)
-    tmp_if_expr$2 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_htonl$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_htonl_3;
+  if(tmp_if_expr_2)
   {
-    return_value_htonl$3=htonl((unsigned int)0xffff);
-    tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$3 ? (_Bool)1 : (_Bool)0;
+    return_value_htonl_3=htonl((unsigned int)0xffff);
+    tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_3 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  tmp_statement_expression$1 = tmp_if_expr$4;
-  if(tmp_statement_expression$1)
+    tmp_if_expr_4 = (_Bool)0;
+  tmp_statement_expression_1 = tmp_if_expr_4;
+  if(tmp_statement_expression_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/netaddr.c", 430, (enum anonymous$45)isc_assertiontype_require, "(__extension__ ({ const struct in6_addr *__a = (const struct in6_addr *) (&src->type.in6); __a->__in6_u.__u6_addr32[0] == 0 && __a->__in6_u.__u6_addr32[1] == 0 && __a->__in6_u.__u6_addr32[2] == htonl (0xffff); }))");
+    isc_assertion_failed("./../lib/isc/netaddr.c", 430, (enum anonymous_45)isc_assertiontype_require, "(__extension__ ({ const struct in6_addr *__a = (const struct in6_addr *) (&src->type.in6); __a->__in6_u.__u6_addr32[0] == 0 && __a->__in6_u.__u6_addr32[1] == 0 && __a->__in6_u.__u6_addr32[2] == htonl (0xffff); }))");
     (_Bool)0;
   }
   memset((void *)t, 0, sizeof(struct isc_netaddr) /*24ul*/ );
@@ -20967,86 +20967,86 @@ unsigned int isc_netaddr_getzone(const struct isc_netaddr *netaddr)
 
 // isc_netaddr_isexperimental
 // file ./../lib/isc/netaddr.c line 390
-enum anonymous$11 isc_netaddr_isexperimental(struct isc_netaddr *na)
+enum anonymous_11 isc_netaddr_isexperimental(struct isc_netaddr *na)
 {
-  unsigned int return_value_htonl$1;
-  unsigned int return_value_htonl$2;
+  unsigned int return_value_htonl_1;
+  unsigned int return_value_htonl_2;
   if(na->family == 2u)
   {
-    return_value_htonl$1=htonl((unsigned int)0xf0000000);
-    return_value_htonl$2=htonl((unsigned int)0xf0000000);
-    return (enum anonymous$11)(((unsigned int)na->type.in.s_addr & (unsigned int)return_value_htonl$1) == (unsigned int)return_value_htonl$2 ? isc_boolean_true : isc_boolean_false);
+    return_value_htonl_1=htonl((unsigned int)0xf0000000);
+    return_value_htonl_2=htonl((unsigned int)0xf0000000);
+    return (enum anonymous_11)(((unsigned int)na->type.in.s_addr & (unsigned int)return_value_htonl_1) == (unsigned int)return_value_htonl_2 ? isc_boolean_true : isc_boolean_false);
   }
 
-  return (enum anonymous$11)isc_boolean_false;
+  return (enum anonymous_11)isc_boolean_false;
 }
 
 // isc_netaddr_islinklocal
 // file ../lib/isc/include/isc/netaddr.h line 147
-enum anonymous$11 isc_netaddr_islinklocal(struct isc_netaddr *na)
+enum anonymous_11 isc_netaddr_islinklocal(struct isc_netaddr *na)
 {
-  _Bool tmp_statement_expression$1;
+  _Bool tmp_statement_expression_1;
   switch(na->family)
   {
     case (unsigned int)2:
-      return (enum anonymous$11)isc_boolean_false;
+      return (enum anonymous_11)isc_boolean_false;
     case (unsigned int)10:
     {
       struct in6_addr *__a = (struct in6_addr *)&na->type.in6;
-      unsigned int return_value_htonl$2;
-      return_value_htonl$2=htonl(0xffc00000);
-      unsigned int return_value_htonl$3;
-      return_value_htonl$3=htonl(0xfe800000);
-      tmp_statement_expression$1 = (__a->__in6_u.__u6_addr32[(signed long int)0] & return_value_htonl$2) == return_value_htonl$3;
-      return (enum anonymous$11)(tmp_statement_expression$1 ? isc_boolean_true : isc_boolean_false);
+      unsigned int return_value_htonl_2;
+      return_value_htonl_2=htonl(0xffc00000);
+      unsigned int return_value_htonl_3;
+      return_value_htonl_3=htonl(0xfe800000);
+      tmp_statement_expression_1 = (__a->__in6_u.__u6_addr32[(signed long int)0] & return_value_htonl_2) == return_value_htonl_3;
+      return (enum anonymous_11)(tmp_statement_expression_1 ? isc_boolean_true : isc_boolean_false);
     }
     default:
-      return (enum anonymous$11)isc_boolean_false;
+      return (enum anonymous_11)isc_boolean_false;
   }
 }
 
 // isc_netaddr_ismulticast
 // file ./../lib/isc/netaddr.c line 378
-enum anonymous$11 isc_netaddr_ismulticast(struct isc_netaddr *na)
+enum anonymous_11 isc_netaddr_ismulticast(struct isc_netaddr *na)
 {
-  unsigned int return_value_htonl$1;
-  unsigned int return_value_htonl$2;
+  unsigned int return_value_htonl_1;
+  unsigned int return_value_htonl_2;
   switch(na->family)
   {
     case (unsigned int)2:
     {
-      return_value_htonl$1=htonl((unsigned int)0xf0000000);
-      return_value_htonl$2=htonl((unsigned int)0xe0000000);
-      return (enum anonymous$11)(((unsigned int)na->type.in.s_addr & (unsigned int)return_value_htonl$1) == (unsigned int)return_value_htonl$2 ? isc_boolean_true : isc_boolean_false);
+      return_value_htonl_1=htonl((unsigned int)0xf0000000);
+      return_value_htonl_2=htonl((unsigned int)0xe0000000);
+      return (enum anonymous_11)(((unsigned int)na->type.in.s_addr & (unsigned int)return_value_htonl_1) == (unsigned int)return_value_htonl_2 ? isc_boolean_true : isc_boolean_false);
     }
     case (unsigned int)10:
-      return (enum anonymous$11)((signed int)((const unsigned char *)&na->type.in6)[(signed long int)0] == 0xff ? isc_boolean_true : isc_boolean_false);
+      return (enum anonymous_11)((signed int)((const unsigned char *)&na->type.in6)[(signed long int)0] == 0xff ? isc_boolean_true : isc_boolean_false);
     default:
-      return (enum anonymous$11)isc_boolean_false;
+      return (enum anonymous_11)isc_boolean_false;
   }
 }
 
 // isc_netaddr_issitelocal
 // file ./../lib/isc/netaddr.c line 412
-enum anonymous$11 isc_netaddr_issitelocal(struct isc_netaddr *na)
+enum anonymous_11 isc_netaddr_issitelocal(struct isc_netaddr *na)
 {
-  _Bool tmp_statement_expression$1;
+  _Bool tmp_statement_expression_1;
   switch(na->family)
   {
     case (unsigned int)2:
-      return (enum anonymous$11)isc_boolean_false;
+      return (enum anonymous_11)isc_boolean_false;
     case (unsigned int)10:
     {
       struct in6_addr *__a = (struct in6_addr *)&na->type.in6;
-      unsigned int return_value_htonl$2;
-      return_value_htonl$2=htonl(0xffc00000);
-      unsigned int return_value_htonl$3;
-      return_value_htonl$3=htonl(0xfec00000);
-      tmp_statement_expression$1 = (__a->__in6_u.__u6_addr32[(signed long int)0] & return_value_htonl$2) == return_value_htonl$3;
-      return (enum anonymous$11)(tmp_statement_expression$1 ? isc_boolean_true : isc_boolean_false);
+      unsigned int return_value_htonl_2;
+      return_value_htonl_2=htonl(0xffc00000);
+      unsigned int return_value_htonl_3;
+      return_value_htonl_3=htonl(0xfec00000);
+      tmp_statement_expression_1 = (__a->__in6_u.__u6_addr32[(signed long int)0] & return_value_htonl_2) == return_value_htonl_3;
+      return (enum anonymous_11)(tmp_statement_expression_1 ? isc_boolean_true : isc_boolean_false);
     }
     default:
-      return (enum anonymous$11)isc_boolean_false;
+      return (enum anonymous_11)isc_boolean_false;
   }
 }
 
@@ -21145,10 +21145,10 @@ unsigned int isc_netaddr_prefixok(const struct isc_netaddr *na, unsigned int pre
     nbytes = nbytes + 1u;
   }
 
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   static const unsigned char zeros[16l] = { (const unsigned char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  return_value_memcmp$1=memcmp((const void *)(p + (signed long int)nbytes), (const void *)zeros, (unsigned long int)(ipbytes - nbytes));
-  if(!(return_value_memcmp$1 == 0))
+  return_value_memcmp_1=memcmp((const void *)(p + (signed long int)nbytes), (const void *)zeros, (unsigned long int)(ipbytes - nbytes));
+  if(!(return_value_memcmp_1 == 0))
     return (unsigned int)25;
 
   else
@@ -21164,7 +21164,7 @@ void isc_netaddr_setzone(struct isc_netaddr *netaddr, unsigned int zone)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/netaddr.c", 325, (enum anonymous$45)isc_assertiontype_require, "netaddr->family == 10");
+    isc_assertion_failed("./../lib/isc/netaddr.c", 325, (enum anonymous_45)isc_assertiontype_require, "netaddr->family == 10");
     (_Bool)0;
   }
   netaddr->zone = zone;
@@ -21185,7 +21185,7 @@ unsigned int isc_netaddr_totext(const struct isc_netaddr *netaddr, struct isc_bu
 
   else
   {
-    isc_assertion_failed("./../lib/isc/netaddr.c", 136, (enum anonymous$45)isc_assertiontype_require, "netaddr != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/netaddr.c", 136, (enum anonymous_45)isc_assertiontype_require, "netaddr != ((void *)0)");
     (_Bool)0;
   }
   switch(netaddr->family)
@@ -21209,15 +21209,15 @@ unsigned int isc_netaddr_totext(const struct isc_netaddr *netaddr, struct isc_bu
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(abuf);
-    alen = (unsigned int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(abuf);
+    alen = (unsigned int)return_value_strlen_1;
     if(!((unsigned long int)alen >= sizeof(char [46l]) /*46ul*/ ))
       (_Bool)1;
 
     else
     {
-      isc_assertion_failed("./../lib/isc/netaddr.c", 163, (enum anonymous$45)isc_assertiontype_insist, "alen < sizeof(abuf)");
+      isc_assertion_failed("./../lib/isc/netaddr.c", 163, (enum anonymous_45)isc_assertiontype_insist, "alen < sizeof(abuf)");
       (_Bool)0;
     }
     zlen = 0;
@@ -21234,7 +21234,7 @@ unsigned int isc_netaddr_totext(const struct isc_netaddr *netaddr, struct isc_bu
 
         else
         {
-          isc_assertion_failed("./../lib/isc/netaddr.c", 170, (enum anonymous$45)isc_assertiontype_insist, "(unsigned int)zlen < sizeof(zbuf)");
+          isc_assertion_failed("./../lib/isc/netaddr.c", 170, (enum anonymous_45)isc_assertiontype_insist, "(unsigned int)zlen < sizeof(zbuf)");
           (_Bool)0;
         }
       }
@@ -21262,8 +21262,8 @@ unsigned int isc_netscope_pton(signed int af, char *scopename, void *addr, unsig
   struct in6_addr *in6;
   unsigned int zone;
   unsigned long long int llz;
-  _Bool tmp_statement_expression$1;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_statement_expression_1;
+  _Bool tmp_if_expr_4;
   if(!(af == 10))
     return (unsigned int)25;
 
@@ -21271,20 +21271,20 @@ unsigned int isc_netscope_pton(signed int af, char *scopename, void *addr, unsig
   {
     in6 = (struct in6_addr *)addr;
     struct in6_addr *__a = (struct in6_addr *)in6;
-    unsigned int return_value_htonl$2;
-    return_value_htonl$2=htonl(0xffc00000);
-    unsigned int return_value_htonl$3;
-    return_value_htonl$3=htonl(0xfe800000);
-    tmp_statement_expression$1 = (__a->__in6_u.__u6_addr32[(signed long int)0] & return_value_htonl$2) == return_value_htonl$3;
-    if(tmp_statement_expression$1)
+    unsigned int return_value_htonl_2;
+    return_value_htonl_2=htonl(0xffc00000);
+    unsigned int return_value_htonl_3;
+    return_value_htonl_3=htonl(0xfe800000);
+    tmp_statement_expression_1 = (__a->__in6_u.__u6_addr32[(signed long int)0] & return_value_htonl_2) == return_value_htonl_3;
+    if(tmp_statement_expression_1)
     {
       ifid=if_nametoindex((const char *)scopename);
-      tmp_if_expr$4 = ifid != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = ifid != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       zone = (unsigned int)ifid;
 
     else
@@ -21322,18 +21322,18 @@ void isc_ondestroy_notify(struct isc_ondestroy *ondest, void *sender)
 {
   struct isc_event *eventp;
   struct isc_task *task;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ondest == ((struct isc_ondestroy *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)ondest)->magic == (unsigned int)(68 << 24 | 101 << 16 | 83 << 8 | 116) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)ondest)->magic == (unsigned int)(68 << 24 | 101 << 16 | 83 << 8 | 116) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/ondestroy.c", 70, (enum anonymous$45)isc_assertiontype_require, "(((ondest) != ((void *)0)) && (((const isc__magic_t *)(ondest))->magic == ((('D') << 24 | ('e') << 16 | ('S') << 8 | ('t')))))");
+    isc_assertion_failed("./../lib/isc/ondestroy.c", 70, (enum anonymous_45)isc_assertiontype_require, "(((ondest) != ((void *)0)) && (((const isc__magic_t *)(ondest))->magic == ((('D') << 24 | ('e') << 16 | ('S') << 8 | ('t')))))");
     (_Bool)0;
   }
   eventp = ondest->events.head;
@@ -21354,7 +21354,7 @@ void isc_ondestroy_notify(struct isc_ondestroy *ondest, void *sender)
 
         else
         {
-          isc_assertion_failed("./../lib/isc/ondestroy.c", 74, (enum anonymous$45)isc_assertiontype_insist, "(ondest->events).tail == (eventp)");
+          isc_assertion_failed("./../lib/isc/ondestroy.c", 74, (enum anonymous_45)isc_assertiontype_insist, "(ondest->events).tail == (eventp)");
           (_Bool)0;
         }
         ondest->events.tail = eventp->ev_link.prev;
@@ -21369,7 +21369,7 @@ void isc_ondestroy_notify(struct isc_ondestroy *ondest, void *sender)
 
         else
         {
-          isc_assertion_failed("./../lib/isc/ondestroy.c", 74, (enum anonymous$45)isc_assertiontype_insist, "(ondest->events).head == (eventp)");
+          isc_assertion_failed("./../lib/isc/ondestroy.c", 74, (enum anonymous_45)isc_assertiontype_insist, "(ondest->events).head == (eventp)");
           (_Bool)0;
         }
         ondest->events.head = eventp->ev_link.next;
@@ -21390,18 +21390,18 @@ unsigned int isc_ondestroy_register(struct isc_ondestroy *ondest, struct isc_tas
 {
   struct isc_event *theevent;
   struct isc_task *thetask = (struct isc_task *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ondest == ((struct isc_ondestroy *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)ondest)->magic == (unsigned int)(68 << 24 | 101 << 16 | 83 << 8 | 116) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)ondest)->magic == (unsigned int)(68 << 24 | 101 << 16 | 83 << 8 | 116) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/ondestroy.c", 48, (enum anonymous$45)isc_assertiontype_require, "(((ondest) != ((void *)0)) && (((const isc__magic_t *)(ondest))->magic == ((('D') << 24 | ('e') << 16 | ('S') << 8 | ('t')))))");
+    isc_assertion_failed("./../lib/isc/ondestroy.c", 48, (enum anonymous_45)isc_assertiontype_require, "(((ondest) != ((void *)0)) && (((const isc__magic_t *)(ondest))->magic == ((('D') << 24 | ('e') << 16 | ('S') << 8 | ('t')))))");
     (_Bool)0;
   }
   if(!(task == ((struct isc_task *)NULL)))
@@ -21409,7 +21409,7 @@ unsigned int isc_ondestroy_register(struct isc_ondestroy *ondest, struct isc_tas
 
   else
   {
-    isc_assertion_failed("./../lib/isc/ondestroy.c", 49, (enum anonymous$45)isc_assertiontype_require, "task != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/ondestroy.c", 49, (enum anonymous_45)isc_assertiontype_require, "task != ((void *)0)");
     (_Bool)0;
   }
   if(!(eventp == ((struct isc_event **)NULL)))
@@ -21417,7 +21417,7 @@ unsigned int isc_ondestroy_register(struct isc_ondestroy *ondest, struct isc_tas
 
   else
   {
-    isc_assertion_failed("./../lib/isc/ondestroy.c", 50, (enum anonymous$45)isc_assertiontype_require, "eventp != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/ondestroy.c", 50, (enum anonymous_45)isc_assertiontype_require, "eventp != ((void *)0)");
     (_Bool)0;
   }
   theevent = *eventp;
@@ -21426,7 +21426,7 @@ unsigned int isc_ondestroy_register(struct isc_ondestroy *ondest, struct isc_tas
 
   else
   {
-    isc_assertion_failed("./../lib/isc/ondestroy.c", 54, (enum anonymous$45)isc_assertiontype_require, "theevent != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/ondestroy.c", 54, (enum anonymous_45)isc_assertiontype_require, "theevent != ((void *)0)");
     (_Bool)0;
   }
   isc__task_attach(task, &thetask);
@@ -21458,15 +21458,15 @@ void isc_random_get(unsigned int *val)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/random.c", 78, (enum anonymous$45)isc_assertiontype_require, "val != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/random.c", 78, (enum anonymous_45)isc_assertiontype_require, "val != ((void *)0)");
     (_Bool)0;
   }
-  initialize$link1();
-  signed int return_value_rand$1;
-  return_value_rand$1=rand();
-  signed int return_value_rand$2;
-  return_value_rand$2=rand();
-  *val = (unsigned int)(return_value_rand$1 >> 4 & 0xffff) | (unsigned int)(return_value_rand$2 << 12) & 0xffff0000;
+  initialize_link1();
+  signed int return_value_rand_1;
+  return_value_rand_1=rand();
+  signed int return_value_rand_2;
+  return_value_rand_2=rand();
+  *val = (unsigned int)(return_value_rand_1 >> 4 & 0xffff) | (unsigned int)(return_value_rand_2 << 12) & 0xffff0000;
 }
 
 // isc_random_jitter
@@ -21479,7 +21479,7 @@ unsigned int isc_random_jitter(unsigned int max, unsigned int jitter)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/random.c", 106, (enum anonymous$45)isc_assertiontype_require, "jitter < max || (jitter == 0 && max == 0)");
+    isc_assertion_failed("./../lib/isc/random.c", 106, (enum anonymous_45)isc_assertiontype_require, "jitter < max || (jitter == 0 && max == 0)");
     (_Bool)0;
   }
   if(jitter == 0u)
@@ -21496,7 +21496,7 @@ unsigned int isc_random_jitter(unsigned int max, unsigned int jitter)
 // file ./../lib/isc/random.c line 64
 void isc_random_seed(unsigned int seed)
 {
-  initialize$link1();
+  initialize_link1();
   srand(seed);
 }
 
@@ -21504,10 +21504,10 @@ void isc_random_seed(unsigned int seed)
 // file ./../lib/isc/result.c line 208
 unsigned int isc_result_register(unsigned int base, unsigned int nresults, const char **txt, struct isc_msgcat *msgcat, signed int set)
 {
-  initialize$link2();
-  unsigned int return_value_register_table$1;
-  return_value_register_table$1=register_table(base, nresults, txt, msgcat, set);
-  return return_value_register_table$1;
+  initialize_link2();
+  unsigned int return_value_register_table_1;
+  return_value_register_table_1=register_table(base, nresults, txt, msgcat, set);
+  return return_value_register_table_1;
 }
 
 // isc_result_totext
@@ -21518,12 +21518,12 @@ const char * isc_result_totext(unsigned int result)
   const char *txt;
   const char *default_text;
   signed int idx;
-  initialize$link2();
+  initialize_link2();
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -21553,9 +21553,9 @@ const char * isc_result_totext(unsigned int result)
 
   do
   {
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&lock);
-    if(return_value_pthread_mutex_unlock$2 == 0)
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&lock);
+    if(return_value_pthread_mutex_unlock_2 == 0)
       (_Bool)1;
 
     else
@@ -21570,7 +21570,7 @@ const char * isc_result_totext(unsigned int result)
 
 // isc_sha1_final
 // file ./../lib/isc/sha1.c line 325
-void isc_sha1_final(struct anonymous$62 *context, unsigned char *digest)
+void isc_sha1_final(struct anonymous_62 *context, unsigned char *digest)
 {
   unsigned int i;
   unsigned char finalcount[8l];
@@ -21579,15 +21579,15 @@ void isc_sha1_final(struct anonymous$62 *context, unsigned char *digest)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sha1.c", 329, (enum anonymous$45)isc_assertiontype_insist, "digest != 0");
+    isc_assertion_failed("./../lib/isc/sha1.c", 329, (enum anonymous_45)isc_assertiontype_insist, "digest != 0");
     (_Bool)0;
   }
-  if(!(context == ((struct anonymous$62 *)NULL)))
+  if(!(context == ((struct anonymous_62 *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sha1.c", 330, (enum anonymous$45)isc_assertiontype_insist, "context != 0");
+    isc_assertion_failed("./../lib/isc/sha1.c", 330, (enum anonymous_45)isc_assertiontype_insist, "context != 0");
     (_Bool)0;
   }
   i = (unsigned int)0;
@@ -21604,19 +21604,19 @@ void isc_sha1_final(struct anonymous$62 *context, unsigned char *digest)
       digest[(signed long int)i] = (unsigned char)(context->state[(signed long int)(i >> 2)] >> ((unsigned int)3 - (i & (unsigned int)3)) * (unsigned int)8 & (unsigned int)255);
   }
 
-  memset((void *)context, 0, sizeof(struct anonymous$62) /*92ul*/ );
+  memset((void *)context, 0, sizeof(struct anonymous_62) /*92ul*/ );
 }
 
 // isc_sha1_init
 // file ./../lib/isc/sha1.c line 268
-void isc_sha1_init(struct anonymous$62 *context)
+void isc_sha1_init(struct anonymous_62 *context)
 {
-  if(!(context == ((struct anonymous$62 *)NULL)))
+  if(!(context == ((struct anonymous_62 *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sha1.c", 270, (enum anonymous$45)isc_assertiontype_insist, "context != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/sha1.c", 270, (enum anonymous_45)isc_assertiontype_insist, "context != ((void *)0)");
     (_Bool)0;
   }
   context->state[(signed long int)0] = (unsigned int)0x67452301;
@@ -21630,23 +21630,23 @@ void isc_sha1_init(struct anonymous$62 *context)
 
 // isc_sha1_invalidate
 // file ./../lib/isc/sha1.c line 283
-void isc_sha1_invalidate(struct anonymous$62 *context)
+void isc_sha1_invalidate(struct anonymous_62 *context)
 {
-  memset((void *)context, 0, sizeof(struct anonymous$62) /*92ul*/ );
+  memset((void *)context, 0, sizeof(struct anonymous_62) /*92ul*/ );
 }
 
 // isc_sha1_update
 // file ./../lib/isc/sha1.c line 291
-void isc_sha1_update(struct anonymous$62 *context, const unsigned char *data, unsigned int len)
+void isc_sha1_update(struct anonymous_62 *context, const unsigned char *data, unsigned int len)
 {
   unsigned int i;
   unsigned int j;
-  if(!(context == ((struct anonymous$62 *)NULL)))
+  if(!(context == ((struct anonymous_62 *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sha1.c", 296, (enum anonymous$45)isc_assertiontype_insist, "context != 0");
+    isc_assertion_failed("./../lib/isc/sha1.c", 296, (enum anonymous_45)isc_assertiontype_insist, "context != 0");
     (_Bool)0;
   }
   if(!(data == ((const unsigned char *)NULL)))
@@ -21654,7 +21654,7 @@ void isc_sha1_update(struct anonymous$62 *context, const unsigned char *data, un
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sha1.c", 297, (enum anonymous$45)isc_assertiontype_insist, "data != 0");
+    isc_assertion_failed("./../lib/isc/sha1.c", 297, (enum anonymous_45)isc_assertiontype_insist, "data != 0");
     (_Bool)0;
   }
   j = context->count[(signed long int)0];
@@ -21667,9 +21667,9 @@ void isc_sha1_update(struct anonymous$62 *context, const unsigned char *data, un
   {
     i = (unsigned int)64 - j;
     memcpy((void *)&context->buffer[(signed long int)j], (const void *)data, (unsigned long int)i);
-    transform$link1(context->state, context->buffer);
+    transform_link1(context->state, context->buffer);
     for( ; !(63u + i >= len); i = i + (unsigned int)64)
-      transform$link1(context->state, &data[(signed long int)i]);
+      transform_link1(context->state, &data[(signed long int)i]);
     j = (unsigned int)0;
   }
 
@@ -21730,7 +21730,7 @@ void isc_sockaddr_anyofpf(struct isc_sockaddr *sockaddr, signed int pf)
     }
     default:
     {
-      isc_assertion_failed("./../lib/isc/sockaddr.c", 308, (enum anonymous$45)isc_assertiontype_insist, "0");
+      isc_assertion_failed("./../lib/isc/sockaddr.c", 308, (enum anonymous_45)isc_assertiontype_insist, "0");
       (void)(0 != 0 ? (_Bool)1 : (_Bool)0);
     }
   }
@@ -21738,26 +21738,26 @@ void isc_sockaddr_anyofpf(struct isc_sockaddr *sockaddr, signed int pf)
 
 // isc_sockaddr_compare
 // file ./../lib/isc/sockaddr.c line 50
-enum anonymous$11 isc_sockaddr_compare(const struct isc_sockaddr *a, const struct isc_sockaddr *b, unsigned int flags)
+enum anonymous_11 isc_sockaddr_compare(const struct isc_sockaddr *a, const struct isc_sockaddr *b, unsigned int flags)
 {
   if(!(a == ((const struct isc_sockaddr *)NULL)) && !(b == ((const struct isc_sockaddr *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sockaddr.c", 53, (enum anonymous$45)isc_assertiontype_require, "a != ((void *)0) && b != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/sockaddr.c", 53, (enum anonymous_45)isc_assertiontype_require, "a != ((void *)0) && b != ((void *)0)");
     (_Bool)0;
   }
-  signed int return_value_memcmp$1;
-  signed int return_value_memcmp$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  signed int return_value_memcmp_1;
+  signed int return_value_memcmp_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(!(a->length == b->length))
-    return (enum anonymous$11)isc_boolean_false;
+    return (enum anonymous_11)isc_boolean_false;
 
   else
     if(!(a->type.sa.sa_family == b->type.sa.sa_family))
-      return (enum anonymous$11)isc_boolean_false;
+      return (enum anonymous_11)isc_boolean_false;
 
     else
     {
@@ -21767,16 +21767,16 @@ enum anonymous$11 isc_sockaddr_compare(const struct isc_sockaddr *a, const struc
         {
           if(!((1u & flags) == 0u))
           {
-            return_value_memcmp$1=memcmp((const void *)&a->type.sin.sin_addr, (const void *)&b->type.sin.sin_addr, sizeof(struct in_addr) /*4ul*/ );
-            if(!(return_value_memcmp$1 == 0))
-              return (enum anonymous$11)isc_boolean_false;
+            return_value_memcmp_1=memcmp((const void *)&a->type.sin.sin_addr, (const void *)&b->type.sin.sin_addr, sizeof(struct in_addr) /*4ul*/ );
+            if(!(return_value_memcmp_1 == 0))
+              return (enum anonymous_11)isc_boolean_false;
 
           }
 
           if(!((2u & flags) == 0u))
           {
             if(!(a->type.sin.sin_port == b->type.sin.sin_port))
-              return (enum anonymous$11)isc_boolean_false;
+              return (enum anonymous_11)isc_boolean_false;
 
           }
 
@@ -21786,9 +21786,9 @@ enum anonymous$11 isc_sockaddr_compare(const struct isc_sockaddr *a, const struc
         {
           if(!((1u & flags) == 0u))
           {
-            return_value_memcmp$2=memcmp((const void *)&a->type.sin6.sin6_addr, (const void *)&b->type.sin6.sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
-            if(!(return_value_memcmp$2 == 0))
-              return (enum anonymous$11)isc_boolean_false;
+            return_value_memcmp_2=memcmp((const void *)&a->type.sin6.sin6_addr, (const void *)&b->type.sin6.sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
+            if(!(return_value_memcmp_2 == 0))
+              return (enum anonymous_11)isc_boolean_false;
 
           }
 
@@ -21797,19 +21797,19 @@ enum anonymous$11 isc_sockaddr_compare(const struct isc_sockaddr *a, const struc
             if(!(a->type.sin6.sin6_scope_id == b->type.sin6.sin6_scope_id))
             {
               if((8u & flags) == 0u)
-                tmp_if_expr$4 = (_Bool)1;
+                tmp_if_expr_4 = (_Bool)1;
 
               else
               {
                 if(!(a->type.sin6.sin6_scope_id == 0u))
-                  tmp_if_expr$3 = b->type.sin6.sin6_scope_id != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_3 = b->type.sin6.sin6_scope_id != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$3 = (_Bool)0;
-                tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_3 = (_Bool)0;
+                tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$4)
-                return (enum anonymous$11)isc_boolean_false;
+              if(tmp_if_expr_4)
+                return (enum anonymous_11)isc_boolean_false;
 
             }
 
@@ -21818,7 +21818,7 @@ enum anonymous$11 isc_sockaddr_compare(const struct isc_sockaddr *a, const struc
           if(!((2u & flags) == 0u))
           {
             if(!(a->type.sin6.sin6_port == b->type.sin6.sin6_port))
-              return (enum anonymous$11)isc_boolean_false;
+              return (enum anonymous_11)isc_boolean_false;
 
           }
 
@@ -21826,46 +21826,46 @@ enum anonymous$11 isc_sockaddr_compare(const struct isc_sockaddr *a, const struc
         }
         default:
         {
-          signed int return_value_memcmp$5;
-          return_value_memcmp$5=memcmp((const void *)&a->type, (const void *)&b->type, (unsigned long int)a->length);
-          if(!(return_value_memcmp$5 == 0))
-            return (enum anonymous$11)isc_boolean_false;
+          signed int return_value_memcmp_5;
+          return_value_memcmp_5=memcmp((const void *)&a->type, (const void *)&b->type, (unsigned long int)a->length);
+          if(!(return_value_memcmp_5 == 0))
+            return (enum anonymous_11)isc_boolean_false;
 
         }
       }
-      return (enum anonymous$11)isc_boolean_true;
+      return (enum anonymous_11)isc_boolean_true;
     }
 }
 
 // isc_sockaddr_eqaddr
 // file ./../lib/isc/sockaddr.c line 44
-enum anonymous$11 isc_sockaddr_eqaddr(const struct isc_sockaddr *a, const struct isc_sockaddr *b)
+enum anonymous_11 isc_sockaddr_eqaddr(const struct isc_sockaddr *a, const struct isc_sockaddr *b)
 {
-  enum anonymous$11 return_value_isc_sockaddr_compare$1;
-  return_value_isc_sockaddr_compare$1=isc_sockaddr_compare(a, b, (unsigned int)(0x0001 | 0x0004));
-  return return_value_isc_sockaddr_compare$1;
+  enum anonymous_11 return_value_isc_sockaddr_compare_1;
+  return_value_isc_sockaddr_compare_1=isc_sockaddr_compare(a, b, (unsigned int)(0x0001 | 0x0004));
+  return return_value_isc_sockaddr_compare_1;
 }
 
 // isc_sockaddr_eqaddrprefix
 // file ./../lib/isc/sockaddr.c line 104
-enum anonymous$11 isc_sockaddr_eqaddrprefix(const struct isc_sockaddr *a, const struct isc_sockaddr *b, unsigned int prefixlen)
+enum anonymous_11 isc_sockaddr_eqaddrprefix(const struct isc_sockaddr *a, const struct isc_sockaddr *b, unsigned int prefixlen)
 {
   struct isc_netaddr na;
   struct isc_netaddr nb;
   isc_netaddr_fromsockaddr(&na, a);
   isc_netaddr_fromsockaddr(&nb, b);
-  enum anonymous$11 return_value_isc_netaddr_eqprefix$1;
-  return_value_isc_netaddr_eqprefix$1=isc_netaddr_eqprefix(&na, &nb, prefixlen);
-  return return_value_isc_netaddr_eqprefix$1;
+  enum anonymous_11 return_value_isc_netaddr_eqprefix_1;
+  return_value_isc_netaddr_eqprefix_1=isc_netaddr_eqprefix(&na, &nb, prefixlen);
+  return return_value_isc_netaddr_eqprefix_1;
 }
 
 // isc_sockaddr_equal
 // file ./../lib/isc/sockaddr.c line 37
-enum anonymous$11 isc_sockaddr_equal(const struct isc_sockaddr *a, const struct isc_sockaddr *b)
+enum anonymous_11 isc_sockaddr_equal(const struct isc_sockaddr *a, const struct isc_sockaddr *b)
 {
-  enum anonymous$11 return_value_isc_sockaddr_compare$1;
-  return_value_isc_sockaddr_compare$1=isc_sockaddr_compare(a, b, (unsigned int)(0x0001 | 0x0002 | 0x0004));
-  return return_value_isc_sockaddr_compare$1;
+  enum anonymous_11 return_value_isc_sockaddr_compare_1;
+  return_value_isc_sockaddr_compare_1=isc_sockaddr_compare(a, b, (unsigned int)(0x0001 | 0x0002 | 0x0004));
+  return return_value_isc_sockaddr_compare_1;
 }
 
 // isc_sockaddr_format
@@ -21880,9 +21880,9 @@ void isc_sockaddr_format(const struct isc_sockaddr *sa, char *array, unsigned in
     result=isc_sockaddr_totext(sa, &buf);
     if(!(result == 0u))
     {
-      const char *return_value_isc_msgcat_get$1;
-      return_value_isc_msgcat_get$1=isc_msgcat_get(isc_msgcat, 12, 1001, "unknown address, family");
-      snprintf(array, (unsigned long int)size, "<%s %u>", return_value_isc_msgcat_get$1, sa->type.sa.sa_family);
+      const char *return_value_isc_msgcat_get_1;
+      return_value_isc_msgcat_get_1=isc_msgcat_get(isc_msgcat, 12, 1001, "unknown address, family");
+      snprintf(array, (unsigned long int)size, "<%s %u>", return_value_isc_msgcat_get_1, sa->type.sa.sa_family);
       array[(signed long int)(size - (unsigned int)1)] = (char)0;
     }
 
@@ -21949,7 +21949,7 @@ void isc_sockaddr_fromnetaddr(struct isc_sockaddr *sockaddr, const struct isc_ne
     }
     default:
     {
-      isc_assertion_failed("./../lib/isc/sockaddr.c", 399, (enum anonymous$45)isc_assertiontype_insist, "0");
+      isc_assertion_failed("./../lib/isc/sockaddr.c", 399, (enum anonymous_45)isc_assertiontype_insist, "0");
       (void)(0 != 0 ? (_Bool)1 : (_Bool)0);
     }
   }
@@ -21989,9 +21989,9 @@ unsigned short int isc_sockaddr_getport(const struct isc_sockaddr *sockaddr)
     }
     default:
     {
-      const char *return_value_isc_msgcat_get$1;
-      return_value_isc_msgcat_get$1=isc_msgcat_get(isc_msgcat, 16, 1301, "unknown address family");
-      isc_error_fatal("./../lib/isc/sockaddr.c", 435, "%s: %d", return_value_isc_msgcat_get$1, (signed int)sockaddr->type.sa.sa_family);
+      const char *return_value_isc_msgcat_get_1;
+      return_value_isc_msgcat_get_1=isc_msgcat_get(isc_msgcat, 16, 1301, "unknown address family");
+      isc_error_fatal("./../lib/isc/sockaddr.c", 435, "%s: %d", return_value_isc_msgcat_get_1, (signed int)sockaddr->type.sa.sa_family);
     }
   }
   return port;
@@ -21999,7 +21999,7 @@ unsigned short int isc_sockaddr_getport(const struct isc_sockaddr *sockaddr)
 
 // isc_sockaddr_hash
 // file ./../lib/isc/sockaddr.c line 205
-unsigned int isc_sockaddr_hash(const struct isc_sockaddr *sockaddr, enum anonymous$11 address_only)
+unsigned int isc_sockaddr_hash(const struct isc_sockaddr *sockaddr, enum anonymous_11 address_only)
 {
   unsigned int length = (unsigned int)0;
   const unsigned char *s = (const unsigned char *)(void *)0;
@@ -22012,22 +22012,22 @@ unsigned int isc_sockaddr_hash(const struct isc_sockaddr *sockaddr, enum anonymo
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sockaddr.c", 213, (enum anonymous$45)isc_assertiontype_require, "sockaddr != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/sockaddr.c", 213, (enum anonymous_45)isc_assertiontype_require, "sockaddr != ((void *)0)");
     (_Bool)0;
   }
-  unsigned short int return_value_ntohs$1;
-  _Bool tmp_statement_expression$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_htonl$4;
-  unsigned short int return_value_ntohs$6;
+  unsigned short int return_value_ntohs_1;
+  _Bool tmp_statement_expression_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_htonl_4;
+  unsigned short int return_value_ntohs_6;
   switch((signed int)sockaddr->type.sa.sa_family)
   {
     case 2:
     {
       s = (const unsigned char *)&sockaddr->type.sin.sin_addr;
-      return_value_ntohs$1=ntohs(sockaddr->type.sin.sin_port);
-      p = (unsigned int)return_value_ntohs$1;
+      return_value_ntohs_1=ntohs(sockaddr->type.sin.sin_port);
+      p = (unsigned int)return_value_ntohs_1;
       length = (unsigned int)sizeof(unsigned int) /*4ul*/ ;
       break;
     }
@@ -22036,20 +22036,20 @@ unsigned int isc_sockaddr_hash(const struct isc_sockaddr *sockaddr, enum anonymo
       in6 = &sockaddr->type.sin6.sin6_addr;
       struct in6_addr *__a = (struct in6_addr *)in6;
       if(__a->__in6_u.__u6_addr32[0l] == 0u)
-        tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        return_value_htonl$4=htonl((unsigned int)0xffff);
-        tmp_if_expr$5 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$4 ? (_Bool)1 : (_Bool)0;
+        return_value_htonl_4=htonl((unsigned int)0xffff);
+        tmp_if_expr_5 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      tmp_statement_expression$2 = tmp_if_expr$5;
-      if(tmp_statement_expression$2)
+        tmp_if_expr_5 = (_Bool)0;
+      tmp_statement_expression_2 = tmp_if_expr_5;
+      if(tmp_statement_expression_2)
       {
         s = (const unsigned char *)&in6 + (signed long int)12;
         length = (unsigned int)sizeof(unsigned int) /*4ul*/ ;
@@ -22060,24 +22060,24 @@ unsigned int isc_sockaddr_hash(const struct isc_sockaddr *sockaddr, enum anonymo
         s = (const unsigned char *)in6;
         length = (unsigned int)sizeof(struct in6_addr) /*16ul*/ ;
       }
-      return_value_ntohs$6=ntohs(sockaddr->type.sin6.sin6_port);
-      p = (unsigned int)return_value_ntohs$6;
+      return_value_ntohs_6=ntohs(sockaddr->type.sin6.sin6_port);
+      p = (unsigned int)return_value_ntohs_6;
       break;
     }
     default:
     {
-      const char *return_value_isc_msgcat_get$7;
-      return_value_isc_msgcat_get$7=isc_msgcat_get(isc_msgcat, 16, 1301, "unknown address family");
-      isc_error_unexpected("./../lib/isc/sockaddr.c", 233, "%s: %d", return_value_isc_msgcat_get$7, (signed int)sockaddr->type.sa.sa_family);
+      const char *return_value_isc_msgcat_get_7;
+      return_value_isc_msgcat_get_7=isc_msgcat_get(isc_msgcat, 16, 1301, "unknown address family");
+      isc_error_unexpected("./../lib/isc/sockaddr.c", 233, "%s: %d", return_value_isc_msgcat_get_7, (signed int)sockaddr->type.sa.sa_family);
       s = (const unsigned char *)&sockaddr->type;
       length = sockaddr->length;
       p = (unsigned int)0;
     }
   }
-  h=isc_hash_calc(s, length, (enum anonymous$11)isc_boolean_true);
+  h=isc_hash_calc(s, length, (enum anonymous_11)isc_boolean_true);
   if(address_only == /*enum*/isc_boolean_false)
   {
-    g=isc_hash_calc((const unsigned char *)&p, (unsigned int)sizeof(unsigned int) /*4ul*/ , (enum anonymous$11)isc_boolean_true);
+    g=isc_hash_calc((const unsigned char *)&p, (unsigned int)sizeof(unsigned int) /*4ul*/ , (enum anonymous_11)isc_boolean_true);
     h = h ^ g;
   }
 
@@ -22086,72 +22086,72 @@ unsigned int isc_sockaddr_hash(const struct isc_sockaddr *sockaddr, enum anonymo
 
 // isc_sockaddr_isexperimental
 // file ./../lib/isc/sockaddr.c line 459
-enum anonymous$11 isc_sockaddr_isexperimental(const struct isc_sockaddr *sockaddr)
+enum anonymous_11 isc_sockaddr_isexperimental(const struct isc_sockaddr *sockaddr)
 {
   struct isc_netaddr netaddr;
   if((signed int)sockaddr->type.sa.sa_family == 2)
   {
     isc_netaddr_fromsockaddr(&netaddr, sockaddr);
-    enum anonymous$11 return_value_isc_netaddr_isexperimental$1;
-    return_value_isc_netaddr_isexperimental$1=isc_netaddr_isexperimental(&netaddr);
-    return return_value_isc_netaddr_isexperimental$1;
+    enum anonymous_11 return_value_isc_netaddr_isexperimental_1;
+    return_value_isc_netaddr_isexperimental_1=isc_netaddr_isexperimental(&netaddr);
+    return return_value_isc_netaddr_isexperimental_1;
   }
 
-  return (enum anonymous$11)isc_boolean_false;
+  return (enum anonymous_11)isc_boolean_false;
 }
 
 // isc_sockaddr_islinklocal
 // file ./../lib/isc/sockaddr.c line 481
-enum anonymous$11 isc_sockaddr_islinklocal(const struct isc_sockaddr *sockaddr)
+enum anonymous_11 isc_sockaddr_islinklocal(const struct isc_sockaddr *sockaddr)
 {
   struct isc_netaddr netaddr;
   if((signed int)sockaddr->type.sa.sa_family == 10)
   {
     isc_netaddr_fromsockaddr(&netaddr, sockaddr);
-    enum anonymous$11 return_value_isc_netaddr_islinklocal$1;
-    return_value_isc_netaddr_islinklocal$1=isc_netaddr_islinklocal(&netaddr);
-    return return_value_isc_netaddr_islinklocal$1;
+    enum anonymous_11 return_value_isc_netaddr_islinklocal_1;
+    return_value_isc_netaddr_islinklocal_1=isc_netaddr_islinklocal(&netaddr);
+    return return_value_isc_netaddr_islinklocal_1;
   }
 
-  return (enum anonymous$11)isc_boolean_false;
+  return (enum anonymous_11)isc_boolean_false;
 }
 
 // isc_sockaddr_ismulticast
 // file ./../lib/isc/sockaddr.c line 447
-enum anonymous$11 isc_sockaddr_ismulticast(const struct isc_sockaddr *sockaddr)
+enum anonymous_11 isc_sockaddr_ismulticast(const struct isc_sockaddr *sockaddr)
 {
   struct isc_netaddr netaddr;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)sockaddr->type.sa.sa_family == 2)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)sockaddr->type.sa.sa_family == 10 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)sockaddr->type.sa.sa_family == 10 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     isc_netaddr_fromsockaddr(&netaddr, sockaddr);
-    enum anonymous$11 return_value_isc_netaddr_ismulticast$1;
-    return_value_isc_netaddr_ismulticast$1=isc_netaddr_ismulticast(&netaddr);
-    return return_value_isc_netaddr_ismulticast$1;
+    enum anonymous_11 return_value_isc_netaddr_ismulticast_1;
+    return_value_isc_netaddr_ismulticast_1=isc_netaddr_ismulticast(&netaddr);
+    return return_value_isc_netaddr_ismulticast_1;
   }
 
-  return (enum anonymous$11)isc_boolean_false;
+  return (enum anonymous_11)isc_boolean_false;
 }
 
 // isc_sockaddr_issitelocal
 // file ./../lib/isc/sockaddr.c line 470
-enum anonymous$11 isc_sockaddr_issitelocal(const struct isc_sockaddr *sockaddr)
+enum anonymous_11 isc_sockaddr_issitelocal(const struct isc_sockaddr *sockaddr)
 {
   struct isc_netaddr netaddr;
   if((signed int)sockaddr->type.sa.sa_family == 10)
   {
     isc_netaddr_fromsockaddr(&netaddr, sockaddr);
-    enum anonymous$11 return_value_isc_netaddr_issitelocal$1;
-    return_value_isc_netaddr_issitelocal$1=isc_netaddr_issitelocal(&netaddr);
-    return return_value_isc_netaddr_issitelocal$1;
+    enum anonymous_11 return_value_isc_netaddr_issitelocal_1;
+    return_value_isc_netaddr_issitelocal_1=isc_netaddr_issitelocal(&netaddr);
+    return return_value_isc_netaddr_issitelocal_1;
   }
 
-  return (enum anonymous$11)isc_boolean_false;
+  return (enum anonymous_11)isc_boolean_false;
 }
 
 // isc_sockaddr_pf
@@ -22179,9 +22179,9 @@ void isc_sockaddr_setport(struct isc_sockaddr *sockaddr, unsigned short int port
     }
     default:
     {
-      const char *return_value_isc_msgcat_get$1;
-      return_value_isc_msgcat_get$1=isc_msgcat_get(isc_msgcat, 16, 1301, "unknown address family");
-      isc_error_fatal("./../lib/isc/sockaddr.c", 414, "%s: %d", return_value_isc_msgcat_get$1, (signed int)sockaddr->type.sa.sa_family);
+      const char *return_value_isc_msgcat_get_1;
+      return_value_isc_msgcat_get_1=isc_msgcat_get(isc_msgcat, 16, 1301, "unknown address family");
+      isc_error_fatal("./../lib/isc/sockaddr.c", 414, "%s: %d", return_value_isc_msgcat_get_1, (signed int)sockaddr->type.sa.sa_family);
     }
   }
 }
@@ -22200,37 +22200,37 @@ unsigned int isc_sockaddr_totext(const struct isc_sockaddr *sockaddr, struct isc
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sockaddr.c", 121, (enum anonymous$45)isc_assertiontype_require, "sockaddr != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/sockaddr.c", 121, (enum anonymous_45)isc_assertiontype_require, "sockaddr != ((void *)0)");
     (_Bool)0;
   }
-  unsigned short int return_value_ntohs$1;
-  unsigned short int return_value_ntohs$2;
+  unsigned short int return_value_ntohs_1;
+  unsigned short int return_value_ntohs_2;
   switch((signed int)sockaddr->type.sa.sa_family)
   {
     case 2:
     {
-      return_value_ntohs$1=ntohs(sockaddr->type.sin.sin_port);
-      snprintf(pbuf, sizeof(char [6l]) /*6ul*/ , "%u", return_value_ntohs$1);
+      return_value_ntohs_1=ntohs(sockaddr->type.sin.sin_port);
+      snprintf(pbuf, sizeof(char [6l]) /*6ul*/ , "%u", return_value_ntohs_1);
       break;
     }
     case 10:
     {
-      return_value_ntohs$2=ntohs(sockaddr->type.sin6.sin6_port);
-      snprintf(pbuf, sizeof(char [6l]) /*6ul*/ , "%u", return_value_ntohs$2);
+      return_value_ntohs_2=ntohs(sockaddr->type.sin6.sin6_port);
+      snprintf(pbuf, sizeof(char [6l]) /*6ul*/ , "%u", return_value_ntohs_2);
       break;
     }
     default:
       return (unsigned int)25;
   }
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(pbuf);
-  plen = (unsigned int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(pbuf);
+  plen = (unsigned int)return_value_strlen_3;
   if(!((unsigned long int)plen >= sizeof(char [6l]) /*6ul*/ ))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sockaddr.c", 157, (enum anonymous$45)isc_assertiontype_insist, "plen < sizeof(pbuf)");
+    isc_assertion_failed("./../lib/isc/sockaddr.c", 157, (enum anonymous_45)isc_assertiontype_insist, "plen < sizeof(pbuf)");
     (_Bool)0;
   }
   isc_netaddr_fromsockaddr(&netaddr, sockaddr);
@@ -22252,7 +22252,7 @@ unsigned int isc_sockaddr_totext(const struct isc_sockaddr *sockaddr, struct isc
 
       else
       {
-        isc_assertion_failed("./../lib/isc/sockaddr.c", 174, (enum anonymous$45)isc_assertiontype_insist, "avail.length >= 1");
+        isc_assertion_failed("./../lib/isc/sockaddr.c", 174, (enum anonymous_45)isc_assertiontype_insist, "avail.length >= 1");
         (_Bool)0;
       }
       avail.base[(signed long int)0] = (unsigned char)0;
@@ -22285,16 +22285,16 @@ unsigned int isc_stdio_close(struct _IO_FILE *f)
 {
   signed int r;
   r=fclose(f);
-  signed int *return_value___errno_location$1;
-  unsigned int return_value_isc___errno2result$2;
+  signed int *return_value___errno_location_1;
+  unsigned int return_value_isc___errno2result_2;
   if(r == 0)
     return (unsigned int)0;
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_isc___errno2result$2=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/stdio.c", (unsigned int)49);
-    return return_value_isc___errno2result$2;
+    return_value___errno_location_1=__errno_location();
+    return_value_isc___errno2result_2=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/stdio.c", (unsigned int)49);
+    return return_value_isc___errno2result_2;
   }
 }
 
@@ -22304,16 +22304,16 @@ unsigned int isc_stdio_flush(struct _IO_FILE *f)
 {
   signed int r;
   r=fflush(f);
-  signed int *return_value___errno_location$1;
-  unsigned int return_value_isc___errno2result$2;
+  signed int *return_value___errno_location_1;
+  unsigned int return_value_isc___errno2result_2;
   if(r == 0)
     return (unsigned int)0;
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_isc___errno2result$2=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/stdio.c", (unsigned int)105);
-    return return_value_isc___errno2result$2;
+    return_value___errno_location_1=__errno_location();
+    return_value_isc___errno2result_2=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/stdio.c", (unsigned int)105);
+    return return_value_isc___errno2result_2;
   }
 }
 
@@ -22323,13 +22323,13 @@ unsigned int isc_stdio_open(const char *filename, const char *mode, struct _IO_F
 {
   struct _IO_FILE *f;
   f=fopen(filename, mode);
-  signed int *return_value___errno_location$1;
-  unsigned int return_value_isc___errno2result$2;
+  signed int *return_value___errno_location_1;
+  unsigned int return_value_isc___errno2result_2;
   if(f == ((struct _IO_FILE *)NULL))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_isc___errno2result$2=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/stdio.c", (unsigned int)36);
-    return return_value_isc___errno2result$2;
+    return_value___errno_location_1=__errno_location();
+    return_value_isc___errno2result_2=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/stdio.c", (unsigned int)36);
+    return return_value_isc___errno2result_2;
   }
 
   else
@@ -22347,18 +22347,18 @@ unsigned int isc_stdio_read(void *ptr, unsigned long int size, unsigned long int
   unsigned long int r;
   clearerr(f);
   r=fread(ptr, size, nmemb, f);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(r == nmemb))
   {
-    signed int return_value_feof$2;
-    return_value_feof$2=feof(f);
-    if(!(return_value_feof$2 == 0))
+    signed int return_value_feof_2;
+    return_value_feof_2=feof(f);
+    if(!(return_value_feof_2 == 0))
       result = (unsigned int)14;
 
     else
     {
-      return_value___errno_location$1=__errno_location();
-      result=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/stdio.c", (unsigned int)74);
+      return_value___errno_location_1=__errno_location();
+      result=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/stdio.c", (unsigned int)74);
     }
   }
 
@@ -22374,16 +22374,16 @@ unsigned int isc_stdio_seek(struct _IO_FILE *f, signed long int offset, signed i
 {
   signed int r;
   r=fseek(f, offset, whence);
-  signed int *return_value___errno_location$1;
-  unsigned int return_value_isc___errno2result$2;
+  signed int *return_value___errno_location_1;
+  unsigned int return_value_isc___errno2result_2;
   if(r == 0)
     return (unsigned int)0;
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_isc___errno2result$2=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/stdio.c", (unsigned int)60);
-    return return_value_isc___errno2result$2;
+    return_value___errno_location_1=__errno_location();
+    return_value_isc___errno2result_2=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/stdio.c", (unsigned int)60);
+    return return_value_isc___errno2result_2;
   }
 }
 
@@ -22392,39 +22392,39 @@ unsigned int isc_stdio_seek(struct _IO_FILE *f, signed long int offset, signed i
 unsigned int isc_stdio_sync(struct _IO_FILE *f)
 {
   signed int r;
-  signed int return_value_fileno$1;
-  return_value_fileno$1=fileno(f);
-  r=fsync(return_value_fileno$1);
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  signed int return_value_fileno_1;
+  return_value_fileno_1=fileno(f);
+  r=fsync(return_value_fileno_1);
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(r == 0)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value___errno_location$4=__errno_location();
-    tmp_if_expr$5 = *return_value___errno_location$4 == 22 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_4=__errno_location();
+    tmp_if_expr_5 = *return_value___errno_location_4 == 22 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___errno_location$6=__errno_location();
-    tmp_if_expr$7 = *return_value___errno_location$6 == 95 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_6=__errno_location();
+    tmp_if_expr_7 = *return_value___errno_location_6 == 95 ? (_Bool)1 : (_Bool)0;
   }
-  signed int *return_value___errno_location$2;
-  unsigned int return_value_isc___errno2result$3;
-  if(tmp_if_expr$7)
+  signed int *return_value___errno_location_2;
+  unsigned int return_value_isc___errno2result_3;
+  if(tmp_if_expr_7)
     return (unsigned int)0;
 
   else
   {
-    return_value___errno_location$2=__errno_location();
-    return_value_isc___errno2result$3=isc___errno2result(*return_value___errno_location$2, "./../lib/isc/unix/stdio.c", (unsigned int)127);
-    return return_value_isc___errno2result$3;
+    return_value___errno_location_2=__errno_location();
+    return_value_isc___errno2result_3=isc___errno2result(*return_value___errno_location_2, "./../lib/isc/unix/stdio.c", (unsigned int)127);
+    return return_value_isc___errno2result_3;
   }
 }
 
@@ -22436,11 +22436,11 @@ unsigned int isc_stdio_write(const void *ptr, unsigned long int size, unsigned l
   unsigned long int r;
   clearerr(f);
   r=fwrite(ptr, size, nmemb, f);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(r == nmemb))
   {
-    return_value___errno_location$1=__errno_location();
-    result=isc___errno2result(*return_value___errno_location$1, "./../lib/isc/unix/stdio.c", (unsigned int)91);
+    return_value___errno_location_1=__errno_location();
+    result=isc___errno2result(*return_value___errno_location_1, "./../lib/isc/unix/stdio.c", (unsigned int)91);
   }
 
   if(!(nret == ((unsigned long int *)NULL)))
@@ -22459,12 +22459,12 @@ void isc_stdtime_get(unsigned int *t)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/stdtime.c", 74, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/stdtime.c", 74, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0)");
     (_Bool)0;
   }
-  signed int return_value_gettimeofday$1;
-  return_value_gettimeofday$1=gettimeofday(&tv, (struct timezone *)(void *)0);
-  if(!(return_value_gettimeofday$1 == -1))
+  signed int return_value_gettimeofday_1;
+  return_value_gettimeofday_1=gettimeofday(&tv, (struct timezone *)(void *)0);
+  if(!(return_value_gettimeofday_1 == -1))
     (_Bool)1;
 
   else
@@ -22478,7 +22478,7 @@ void isc_stdtime_get(unsigned int *t)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/stdtime.c", 80, (enum anonymous$45)isc_assertiontype_insist, "tv.tv_usec >= 0");
+    isc_assertion_failed("./../lib/isc/unix/stdtime.c", 80, (enum anonymous_45)isc_assertiontype_insist, "tv.tv_usec >= 0");
     (_Bool)0;
   }
   *t = (unsigned int)tv.tv_sec;
@@ -22486,24 +22486,24 @@ void isc_stdtime_get(unsigned int *t)
 
 // isc_task_exiting
 // file ./../lib/isc/task.c line 1725
-enum anonymous$11 isc_task_exiting(struct isc_task *t)
+enum anonymous_11 isc_task_exiting(struct isc_task *t)
 {
   struct isc__task *task = (struct isc__task *)t;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(task == ((struct isc__task *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)task)->magic == (unsigned int)(84 << 24 | 65 << 16 | 83 << 8 | 75) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 1728, (enum anonymous$45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 1728, (enum anonymous_45)isc_assertiontype_require, "(((task) != ((void *)0)) && (((const isc__magic_t *)(task))->magic == ((('T') << 24 | ('A') << 16 | ('S') << 8 | ('K')))))");
     (_Bool)0;
   }
-  return (enum anonymous$11)((task->flags & (unsigned int)0x01) != (unsigned int)0);
+  return (enum anonymous_11)((task->flags & (unsigned int)0x01) != (unsigned int)0);
 }
 
 // isc_thread_create
@@ -22561,30 +22561,30 @@ unsigned int isc_time_add(const struct isc_time *t, const struct isc_interval *i
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 257, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0) && i != ((void *)0) && result != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 257, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0) && i != ((void *)0) && result != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(t->nanoseconds >= 1000000000u))
-    tmp_if_expr$1 = i->nanoseconds < (unsigned int)1000000000 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = i->nanoseconds < (unsigned int)1000000000 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 258, (enum anonymous$45)isc_assertiontype_insist, "t->nanoseconds < 1000000000 && i->nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 258, (enum anonymous_45)isc_assertiontype_insist, "t->nanoseconds < 1000000000 && i->nanoseconds < 1000000000");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(t->seconds >= 2147483648u)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = i->seconds > (unsigned int)0x7fffffff ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = i->seconds > (unsigned int)0x7fffffff ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     if(!((signed long int)i->seconds + (signed long long int)t->seconds >= 4294967296l))
       goto __CPROVER_DUMP_L11;
@@ -22618,21 +22618,21 @@ signed int isc_time_compare(const struct isc_time *t1, const struct isc_time *t2
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 240, (enum anonymous$45)isc_assertiontype_require, "t1 != ((void *)0) && t2 != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 240, (enum anonymous_45)isc_assertiontype_require, "t1 != ((void *)0) && t2 != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(t1->nanoseconds >= 1000000000u))
-    tmp_if_expr$1 = t2->nanoseconds < (unsigned int)1000000000 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = t2->nanoseconds < (unsigned int)1000000000 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 241, (enum anonymous$45)isc_assertiontype_insist, "t1->nanoseconds < 1000000000 && t2->nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 241, (enum anonymous_45)isc_assertiontype_insist, "t1->nanoseconds < 1000000000 && t2->nanoseconds < 1000000000");
     (_Bool)0;
   }
   if(!(t1->seconds >= t2->seconds))
@@ -22658,28 +22658,28 @@ signed int isc_time_compare(const struct isc_time *t1, const struct isc_time *t2
 // file ./../lib/isc/unix/time.c line 411
 void isc_time_formatISO8601(const struct isc_time *t, char *buf, unsigned int len)
 {
-  signed long int isc_time_formatISO8601$$1$$now;
+  signed long int isc_time_formatISO8601__1__now;
   unsigned int flen;
   if(len >= 1u)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 415, (enum anonymous$45)isc_assertiontype_require, "len > 0");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 415, (enum anonymous_45)isc_assertiontype_require, "len > 0");
     (_Bool)0;
   }
-  isc_time_formatISO8601$$1$$now = (signed long int)t->seconds;
-  struct tm *return_value_gmtime$1;
-  return_value_gmtime$1=gmtime(&isc_time_formatISO8601$$1$$now);
-  unsigned long int return_value_strftime$2;
-  return_value_strftime$2=strftime(buf, (unsigned long int)len, "%Y-%m-%dT%H:%M:%SZ", return_value_gmtime$1);
-  flen = (unsigned int)return_value_strftime$2;
+  isc_time_formatISO8601__1__now = (signed long int)t->seconds;
+  struct tm *return_value_gmtime_1;
+  return_value_gmtime_1=gmtime(&isc_time_formatISO8601__1__now);
+  unsigned long int return_value_strftime_2;
+  return_value_strftime_2=strftime(buf, (unsigned long int)len, "%Y-%m-%dT%H:%M:%SZ", return_value_gmtime_1);
+  flen = (unsigned int)return_value_strftime_2;
   if(!(flen >= len))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 419, (enum anonymous$45)isc_assertiontype_insist, "flen < len");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 419, (enum anonymous_45)isc_assertiontype_insist, "flen < len");
     (_Bool)0;
   }
 }
@@ -22688,28 +22688,28 @@ void isc_time_formatISO8601(const struct isc_time *t, char *buf, unsigned int le
 // file ./../lib/isc/unix/time.c line 399
 void isc_time_formathttptimestamp(const struct isc_time *t, char *buf, unsigned int len)
 {
-  signed long int isc_time_formathttptimestamp$$1$$now;
+  signed long int isc_time_formathttptimestamp__1__now;
   unsigned int flen;
   if(len >= 1u)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 403, (enum anonymous$45)isc_assertiontype_require, "len > 0");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 403, (enum anonymous_45)isc_assertiontype_require, "len > 0");
     (_Bool)0;
   }
-  isc_time_formathttptimestamp$$1$$now = (signed long int)t->seconds;
-  struct tm *return_value_gmtime$1;
-  return_value_gmtime$1=gmtime(&isc_time_formathttptimestamp$$1$$now);
-  unsigned long int return_value_strftime$2;
-  return_value_strftime$2=strftime(buf, (unsigned long int)len, "%a, %d %b %Y %H:%M:%S GMT", return_value_gmtime$1);
-  flen = (unsigned int)return_value_strftime$2;
+  isc_time_formathttptimestamp__1__now = (signed long int)t->seconds;
+  struct tm *return_value_gmtime_1;
+  return_value_gmtime_1=gmtime(&isc_time_formathttptimestamp__1__now);
+  unsigned long int return_value_strftime_2;
+  return_value_strftime_2=strftime(buf, (unsigned long int)len, "%a, %d %b %Y %H:%M:%S GMT", return_value_gmtime_1);
+  flen = (unsigned int)return_value_strftime_2;
   if(!(flen >= len))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 407, (enum anonymous$45)isc_assertiontype_insist, "flen < len");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 407, (enum anonymous_45)isc_assertiontype_insist, "flen < len");
     (_Bool)0;
   }
 }
@@ -22718,28 +22718,28 @@ void isc_time_formathttptimestamp(const struct isc_time *t, char *buf, unsigned 
 // file ../lib/isc/unix/include/isc/time.h line 291
 void isc_time_formattimestamp(const struct isc_time *t, char *buf, unsigned int len)
 {
-  signed long int isc_time_formattimestamp$$1$$now;
+  signed long int isc_time_formattimestamp__1__now;
   unsigned int flen;
   if(len >= 1u)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 386, (enum anonymous$45)isc_assertiontype_require, "len > 0");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 386, (enum anonymous_45)isc_assertiontype_require, "len > 0");
     (_Bool)0;
   }
-  isc_time_formattimestamp$$1$$now = (signed long int)t->seconds;
-  struct tm *return_value_localtime$1;
-  return_value_localtime$1=localtime(&isc_time_formattimestamp$$1$$now);
-  unsigned long int return_value_strftime$2;
-  return_value_strftime$2=strftime(buf, (unsigned long int)len, "%d-%b-%Y %X", return_value_localtime$1);
-  flen = (unsigned int)return_value_strftime$2;
+  isc_time_formattimestamp__1__now = (signed long int)t->seconds;
+  struct tm *return_value_localtime_1;
+  return_value_localtime_1=localtime(&isc_time_formattimestamp__1__now);
+  unsigned long int return_value_strftime_2;
+  return_value_strftime_2=strftime(buf, (unsigned long int)len, "%d-%b-%Y %X", return_value_localtime_1);
+  flen = (unsigned int)return_value_strftime_2;
   if(!(flen >= len))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 390, (enum anonymous$45)isc_assertiontype_insist, "flen < len");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 390, (enum anonymous_45)isc_assertiontype_insist, "flen < len");
     (_Bool)0;
   }
   if(!(flen == 0u))
@@ -22751,14 +22751,14 @@ void isc_time_formattimestamp(const struct isc_time *t, char *buf, unsigned int 
 
 // isc_time_isepoch
 // file ./../lib/isc/unix/time.c line 134
-enum anonymous$11 isc_time_isepoch(const struct isc_time *t)
+enum anonymous_11 isc_time_isepoch(const struct isc_time *t)
 {
   if(!(t == ((const struct isc_time *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 135, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 135, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0)");
     (_Bool)0;
   }
   if(!(t->nanoseconds >= 1000000000u))
@@ -22766,7 +22766,7 @@ enum anonymous$11 isc_time_isepoch(const struct isc_time *t)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 136, (enum anonymous$45)isc_assertiontype_insist, "t->nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 136, (enum anonymous_45)isc_assertiontype_insist, "t->nanoseconds < 1000000000");
     (_Bool)0;
   }
   if(t->seconds == 0u)
@@ -22774,7 +22774,7 @@ enum anonymous$11 isc_time_isepoch(const struct isc_time *t)
     if(!(t->nanoseconds == 0u))
       goto __CPROVER_DUMP_L7;
 
-    return (enum anonymous$11)isc_boolean_true;
+    return (enum anonymous_11)isc_boolean_true;
   }
 
   else
@@ -22782,7 +22782,7 @@ enum anonymous$11 isc_time_isepoch(const struct isc_time *t)
 
   __CPROVER_DUMP_L7:
     ;
-    return (enum anonymous$11)isc_boolean_false;
+    return (enum anonymous_11)isc_boolean_false;
   }
 }
 
@@ -22798,21 +22798,21 @@ unsigned long long int isc_time_microdiff(const struct isc_time *t1, const struc
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 308, (enum anonymous$45)isc_assertiontype_require, "t1 != ((void *)0) && t2 != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 308, (enum anonymous_45)isc_assertiontype_require, "t1 != ((void *)0) && t2 != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(t1->nanoseconds >= 1000000000u))
-    tmp_if_expr$1 = t2->nanoseconds < (unsigned int)1000000000 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = t2->nanoseconds < (unsigned int)1000000000 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 309, (enum anonymous$45)isc_assertiontype_insist, "t1->nanoseconds < 1000000000 && t2->nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 309, (enum anonymous_45)isc_assertiontype_insist, "t1->nanoseconds < 1000000000 && t2->nanoseconds < 1000000000");
     (_Bool)0;
   }
   i1 = (unsigned long long int)t1->seconds * (unsigned long int)1000000000 + (unsigned long int)t1->nanoseconds;
@@ -22837,7 +22837,7 @@ unsigned int isc_time_nanoseconds(const struct isc_time *t)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 374, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 374, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0)");
     (_Bool)0;
   }
   if(!(t->nanoseconds >= 1000000000u))
@@ -22845,7 +22845,7 @@ unsigned int isc_time_nanoseconds(const struct isc_time *t)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 376, (enum anonymous$45)isc_assertiontype_ensure, "t->nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 376, (enum anonymous_45)isc_assertiontype_ensure, "t->nanoseconds < 1000000000");
     (_Bool)0;
   }
   return (unsigned int)t->nanoseconds;
@@ -22862,21 +22862,21 @@ unsigned int isc_time_now(struct isc_time *t)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 150, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 150, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0)");
     (_Bool)0;
   }
-  signed int return_value_gettimeofday$2;
-  return_value_gettimeofday$2=gettimeofday(&tv, (struct timezone *)(void *)0);
-  if(return_value_gettimeofday$2 == -1)
+  signed int return_value_gettimeofday_2;
+  return_value_gettimeofday_2=gettimeofday(&tv, (struct timezone *)(void *)0);
+  if(return_value_gettimeofday_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    isc__strerror(*return_value___errno_location$1, strbuf, sizeof(char [128l]) /*128ul*/ );
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    isc__strerror(*return_value___errno_location_1, strbuf, sizeof(char [128l]) /*128ul*/ );
     isc_error_unexpected("./../lib/isc/unix/time.c", 154, "%s", (const void *)strbuf);
     return (unsigned int)34;
   }
 
-  fix_tv_usec$link1(&tv);
+  fix_tv_usec_link1(&tv);
   if(!(tv.tv_sec >= 0l))
     return (unsigned int)34;
 
@@ -22903,7 +22903,7 @@ unsigned int isc_time_nowplusinterval(struct isc_time *t, const struct isc_inter
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 192, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 192, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0)");
     (_Bool)0;
   }
   if(!(i == ((const struct isc_interval *)NULL)))
@@ -22911,7 +22911,7 @@ unsigned int isc_time_nowplusinterval(struct isc_time *t, const struct isc_inter
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 193, (enum anonymous$45)isc_assertiontype_require, "i != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 193, (enum anonymous_45)isc_assertiontype_require, "i != ((void *)0)");
     (_Bool)0;
   }
   if(!(i->nanoseconds >= 1000000000u))
@@ -22919,33 +22919,33 @@ unsigned int isc_time_nowplusinterval(struct isc_time *t, const struct isc_inter
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 194, (enum anonymous$45)isc_assertiontype_insist, "i->nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 194, (enum anonymous_45)isc_assertiontype_insist, "i->nanoseconds < 1000000000");
     (_Bool)0;
   }
-  signed int return_value_gettimeofday$2;
-  return_value_gettimeofday$2=gettimeofday(&tv, (struct timezone *)(void *)0);
-  if(return_value_gettimeofday$2 == -1)
+  signed int return_value_gettimeofday_2;
+  return_value_gettimeofday_2=gettimeofday(&tv, (struct timezone *)(void *)0);
+  if(return_value_gettimeofday_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    isc__strerror(*return_value___errno_location$1, strbuf, sizeof(char [128l]) /*128ul*/ );
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    isc__strerror(*return_value___errno_location_1, strbuf, sizeof(char [128l]) /*128ul*/ );
     isc_error_unexpected("./../lib/isc/unix/time.c", 198, "%s", (const void *)strbuf);
     return (unsigned int)34;
   }
 
-  fix_tv_usec$link1(&tv);
-  _Bool tmp_if_expr$3;
+  fix_tv_usec_link1(&tv);
+  _Bool tmp_if_expr_3;
   if(!(tv.tv_sec >= 0l))
     return (unsigned int)34;
 
   else
   {
     if(tv.tv_sec >= 2147483648l)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = i->seconds > (unsigned int)0x7fffffff ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = i->seconds > (unsigned int)0x7fffffff ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       if(!(tv.tv_sec + (signed long int)i->seconds >= 4294967296l))
         goto __CPROVER_DUMP_L14;
@@ -22980,7 +22980,7 @@ unsigned int isc_time_seconds(const struct isc_time *t)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 329, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 329, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0)");
     (_Bool)0;
   }
   if(!(t->nanoseconds >= 1000000000u))
@@ -22988,7 +22988,7 @@ unsigned int isc_time_seconds(const struct isc_time *t)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 330, (enum anonymous$45)isc_assertiontype_insist, "t->nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 330, (enum anonymous_45)isc_assertiontype_insist, "t->nanoseconds < 1000000000");
     (_Bool)0;
   }
   return (unsigned int)t->seconds;
@@ -23004,7 +23004,7 @@ unsigned int isc_time_secondsastimet(const struct isc_time *t, signed long int *
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 339, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 339, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0)");
     (_Bool)0;
   }
   if(!(t->nanoseconds >= 1000000000u))
@@ -23012,7 +23012,7 @@ unsigned int isc_time_secondsastimet(const struct isc_time *t, signed long int *
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 340, (enum anonymous$45)isc_assertiontype_insist, "t->nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 340, (enum anonymous_45)isc_assertiontype_insist, "t->nanoseconds < 1000000000");
     (_Bool)0;
   }
   seconds = (signed long int)t->seconds;
@@ -23043,7 +23043,7 @@ void isc_time_set(struct isc_time *t, unsigned int seconds, unsigned int nanosec
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 118, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 118, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0)");
     (_Bool)0;
   }
   if(!(nanoseconds >= 1000000000u))
@@ -23051,7 +23051,7 @@ void isc_time_set(struct isc_time *t, unsigned int seconds, unsigned int nanosec
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 119, (enum anonymous$45)isc_assertiontype_require, "nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 119, (enum anonymous_45)isc_assertiontype_require, "nanoseconds < 1000000000");
     (_Bool)0;
   }
   t->seconds = seconds;
@@ -23067,7 +23067,7 @@ void isc_time_settoepoch(struct isc_time *t)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 127, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 127, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0)");
     (_Bool)0;
   }
   t->seconds = (unsigned int)0;
@@ -23083,38 +23083,38 @@ unsigned int isc_time_subtract(const struct isc_time *t, const struct isc_interv
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 284, (enum anonymous$45)isc_assertiontype_require, "t != ((void *)0) && i != ((void *)0) && result != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 284, (enum anonymous_45)isc_assertiontype_require, "t != ((void *)0) && i != ((void *)0) && result != ((void *)0)");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(t->nanoseconds >= 1000000000u))
-    tmp_if_expr$1 = i->nanoseconds < (unsigned int)1000000000 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = i->nanoseconds < (unsigned int)1000000000 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/unix/time.c", 285, (enum anonymous$45)isc_assertiontype_insist, "t->nanoseconds < 1000000000 && i->nanoseconds < 1000000000");
+    isc_assertion_failed("./../lib/isc/unix/time.c", 285, (enum anonymous_45)isc_assertiontype_insist, "t->nanoseconds < 1000000000 && i->nanoseconds < 1000000000");
     (_Bool)0;
   }
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(!(t->seconds >= i->seconds))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if(t->seconds == i->seconds)
-      tmp_if_expr$2 = t->nanoseconds < i->nanoseconds ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = t->nanoseconds < i->nanoseconds ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     return (unsigned int)41;
 
   else
@@ -23136,41 +23136,41 @@ unsigned int isc_time_subtract(const struct isc_time *t, const struct isc_interv
 // file ntp_calendar.c line 1791
 extern unsigned int isocal_date_to_ntp(struct isodate *id)
 {
-  union anonymous$44 return_value_isocal_date_to_ntp64$1;
-  return_value_isocal_date_to_ntp64$1=isocal_date_to_ntp64(id);
-  return return_value_isocal_date_to_ntp64$1.d_s.lo;
+  union anonymous_44 return_value_isocal_date_to_ntp64_1;
+  return_value_isocal_date_to_ntp64_1=isocal_date_to_ntp64(id);
+  return return_value_isocal_date_to_ntp64_1.d_s.lo;
 }
 
 // isocal_date_to_ntp64
 // file ntp_calendar.c line 1775
-extern union anonymous$44 isocal_date_to_ntp64(struct isodate *id)
+extern union anonymous_44 isocal_date_to_ntp64(struct isodate *id)
 {
   signed int weeks;
   signed int days;
   signed int secs;
-  signed int return_value_isocal_weeks_in_years$1;
-  return_value_isocal_weeks_in_years$1=isocal_weeks_in_years((signed int)id->year - 1);
-  weeks = (return_value_isocal_weeks_in_years$1 + (signed int)id->week) - 1;
+  signed int return_value_isocal_weeks_in_years_1;
+  return_value_isocal_weeks_in_years_1=isocal_weeks_in_years((signed int)id->year - 1);
+  weeks = (return_value_isocal_weeks_in_years_1 + (signed int)id->week) - 1;
   days = weeks * 7 + (signed int)id->weekday;
   secs=ntpcal_etime_to_seconds((signed int)id->hour, (signed int)id->minute, (signed int)id->second);
-  union anonymous$44 return_value_ntpcal_dayjoin$2;
-  return_value_ntpcal_dayjoin$2=ntpcal_dayjoin(days - 693596, secs);
-  return return_value_ntpcal_dayjoin$2;
+  union anonymous_44 return_value_ntpcal_dayjoin_2;
+  return_value_ntpcal_dayjoin_2=ntpcal_dayjoin(days - 693596, secs);
+  return return_value_ntpcal_dayjoin_2;
 }
 
 // isocal_ntp64_to_date
 // file ntp_calendar.c line 1713
-extern signed int isocal_ntp64_to_date(struct isodate *id, const union anonymous$44 *ntp)
+extern signed int isocal_ntp64_to_date(struct isodate *id, const union anonymous_44 *ntp)
 {
-  struct anonymous$61 ds;
+  struct anonymous_61 ds;
   signed int ts[3l];
   unsigned int uw;
   unsigned int ud;
   unsigned int sflag;
   ds=ntpcal_daysplit(ntp);
-  signed int return_value_priv_timesplit$1;
-  return_value_priv_timesplit$1=priv_timesplit(ts, ds.lo);
-  ds.hi = ds.hi + return_value_priv_timesplit$1;
+  signed int return_value_priv_timesplit_1;
+  return_value_priv_timesplit_1=priv_timesplit(ts, ds.lo);
+  ds.hi = ds.hi + return_value_priv_timesplit_1;
   id->hour = (unsigned char)ts[(signed long int)0];
   id->minute = (unsigned char)ts[(signed long int)1];
   id->second = (unsigned char)ts[(signed long int)2];
@@ -23192,18 +23192,18 @@ extern signed int isocal_ntp64_to_date(struct isodate *id, const union anonymous
 // file ntp_calendar.c line 1754
 extern signed int isocal_ntp_to_date(struct isodate *id, unsigned int ntp, const signed long int *piv)
 {
-  union anonymous$44 ntp64;
+  union anonymous_44 ntp64;
   ntp64=ntpcal_ntp_to_ntp(ntp, piv);
-  signed int return_value_isocal_ntp64_to_date$1;
-  return_value_isocal_ntp64_to_date$1=isocal_ntp64_to_date(id, &ntp64);
-  return return_value_isocal_ntp64_to_date$1;
+  signed int return_value_isocal_ntp64_to_date_1;
+  return_value_isocal_ntp64_to_date_1=isocal_ntp64_to_date(id, &ntp64);
+  return return_value_isocal_ntp64_to_date_1;
 }
 
 // isocal_split_eraweeks
 // file ntp_calendar.c line 1661
-extern struct anonymous$61 isocal_split_eraweeks(signed int weeks)
+extern struct anonymous_61 isocal_split_eraweeks(signed int weeks)
 {
-  struct anonymous$61 res;
+  struct anonymous_61 res;
   signed int cc;
   signed int ci;
   unsigned int sw;
@@ -23211,9 +23211,9 @@ extern struct anonymous$61 isocal_split_eraweeks(signed int weeks)
   unsigned int Q;
   unsigned int sflag;
   sflag=int32_sflag(weeks);
-  unsigned int return_value_int32_to_uint32_2cpl$1;
-  return_value_int32_to_uint32_2cpl$1=int32_to_uint32_2cpl(weeks);
-  sw=uint32_saturate(return_value_int32_to_uint32_2cpl$1, sflag);
+  unsigned int return_value_int32_to_uint32_2cpl_1;
+  return_value_int32_to_uint32_2cpl_1=int32_to_uint32_2cpl(weeks);
+  sw=uint32_saturate(return_value_int32_to_uint32_2cpl_1, sflag);
   sw = 4u * sw + (unsigned int)2;
   Q = sflag ^ (sflag ^ sw) / (unsigned int)((4 * (25 * (3 * 365 + 366) - 1) + 1) / 7);
   sw = sw - Q * (unsigned int)((4 * (25 * (3 * 365 + 366) - 1) + 1) / 7);
@@ -23247,18 +23247,18 @@ extern signed int isocal_weeks_in_years(signed int years)
   ci = ci % 4u;
   static const unsigned short int bctab[4l] = { (const unsigned short int)157, (const unsigned short int)449, (const unsigned short int)597, (const unsigned short int)889 };
   cw = (signed int)((yu * 53431u + (unsigned int)bctab[(signed long int)ci]) / 1024u);
-  signed int return_value_uint32_2cpl_to_int32$1;
-  return_value_uint32_2cpl_to_int32$1=uint32_2cpl_to_int32(cc);
-  return return_value_uint32_2cpl_to_int32$1 * 5217 + cs + cw;
+  signed int return_value_uint32_2cpl_to_int32_1;
+  return_value_uint32_2cpl_to_int32_1=uint32_2cpl_to_int32(cc);
+  return return_value_uint32_2cpl_to_int32_1 * 5217 + cs + cw;
 }
 
 // k_st_flags
 // file statestr.c line 422
 extern const char * k_st_flags(unsigned int st)
 {
-  const char *return_value_decode_bitflags$1;
-  return_value_decode_bitflags$1=decode_bitflags((signed int)st, " ", k_st_bits, sizeof(struct codestring [16l]) /*256ul*/  / sizeof(struct codestring) /*16ul*/ );
-  return return_value_decode_bitflags$1;
+  const char *return_value_decode_bitflags_1;
+  return_value_decode_bitflags_1=decode_bitflags((signed int)st, " ", k_st_bits, sizeof(struct codestring [16l]) /*256ul*/  / sizeof(struct codestring) /*16ul*/ );
+  return return_value_decode_bitflags_1;
 }
 
 // keytype_from_text
@@ -23277,30 +23277,30 @@ extern signed int keytype_from_text(const char *text, unsigned long int *pdigest
       ssl_init();
 
   while((_Bool)0);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$1 = lib_nextbuf;
+    tmp_post_1 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    upcased = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+    upcased = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
   strlcpy(upcased, text, (unsigned long int)128);
   pch = upcased;
-  signed int return_value_toupper$2;
+  signed int return_value_toupper_2;
   for( ; !((signed int)*pch == 0); pch = pch + 1l)
   {
-    return_value_toupper$2=toupper((signed int)(unsigned char)*pch);
-    *pch = (char)return_value_toupper$2;
+    return_value_toupper_2=toupper((signed int)(unsigned char)*pch);
+    *pch = (char)return_value_toupper_2;
   }
   key_type=OBJ_sn2nid(upcased);
-  signed int return_value_tolower$3;
+  signed int return_value_tolower_3;
   if(key_type == 0)
   {
-    return_value_tolower$3=tolower((signed int)(unsigned char)text[(signed long int)0]);
-    if(return_value_tolower$3 == 109)
+    return_value_tolower_3=tolower((signed int)(unsigned char)text[(signed long int)0]);
+    if(return_value_tolower_3 == 109)
       key_type = 4;
 
   }
@@ -23312,20 +23312,20 @@ extern signed int keytype_from_text(const char *text, unsigned long int *pdigest
   {
     if(!(pdigest_len == ((unsigned long int *)NULL)))
     {
-      const char *return_value_OBJ_nid2sn$4;
-      return_value_OBJ_nid2sn$4=OBJ_nid2sn(key_type);
-      const struct env_md_st *return_value_EVP_get_digestbyname$5;
-      return_value_EVP_get_digestbyname$5=EVP_get_digestbyname(return_value_OBJ_nid2sn$4);
-      EVP_DigestInit(&ctx, return_value_EVP_get_digestbyname$5);
+      const char *return_value_OBJ_nid2sn_4;
+      return_value_OBJ_nid2sn_4=OBJ_nid2sn(key_type);
+      const struct env_md_st *return_value_EVP_get_digestbyname_5;
+      return_value_EVP_get_digestbyname_5=EVP_get_digestbyname(return_value_OBJ_nid2sn_4);
+      EVP_DigestInit(&ctx, return_value_EVP_get_digestbyname_5);
       EVP_DigestFinal(&ctx, digest, &digest_len);
       if(!(max_digest_len >= (unsigned long int)digest_len))
       {
-        const char *return_value_keytype_name$6;
-        return_value_keytype_name$6=keytype_name(key_type);
-        fprintf(stderr, "key type %s %u octet digests are too big, max %lu\n", return_value_keytype_name$6, digest_len, max_digest_len);
-        const char *return_value_keytype_name$7;
-        return_value_keytype_name$7=keytype_name(key_type);
-        msyslog(3, "key type %s %u octet digests are too big, max %lu", return_value_keytype_name$7, digest_len, max_digest_len);
+        const char *return_value_keytype_name_6;
+        return_value_keytype_name_6=keytype_name(key_type);
+        fprintf(stderr, "key type %s %u octet digests are too big, max %lu\n", return_value_keytype_name_6, digest_len, max_digest_len);
+        const char *return_value_keytype_name_7;
+        return_value_keytype_name_7=keytype_name(key_type);
+        msyslog(3, "key type %s %u octet digests are too big, max %lu", return_value_keytype_name_7, digest_len, max_digest_len);
         return 0;
       }
 
@@ -23365,28 +23365,28 @@ static double latlong(char *str, signed int islat)
   signed int isneg;
   char buf[32l];
   char *colon;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(!(islat == 0))
   {
     if((signed int)*str == 78)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)*str == 110 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)*str == 110 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       isneg = 0;
 
     else
     {
       if((signed int)*str == 83)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)*str == 115 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)*str == 115 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         isneg = 1;
 
       else
@@ -23397,21 +23397,21 @@ static double latlong(char *str, signed int islat)
   else
   {
     if((signed int)*str == 69)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*str == 101 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*str == 101 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       isneg = 0;
 
     else
     {
       if((signed int)*str == 87)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*str == 119 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)*str == 119 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         isneg = 1;
 
       else
@@ -23422,20 +23422,20 @@ static double latlong(char *str, signed int islat)
     str = str + 1l;
 
   colon=strchr(str, 58);
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
-  double return_value_atof$10;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
+  double return_value_atof_10;
   if(!(colon == ((char *)NULL)))
   {
     cp = str;
     bp = buf;
-    for( ; !(cp >= colon); *tmp_post$5 = *tmp_post$6)
+    for( ; !(cp >= colon); *tmp_post_5 = *tmp_post_6)
     {
-      tmp_post$5 = bp;
+      tmp_post_5 = bp;
       bp = bp + 1l;
-      tmp_post$6 = cp;
+      tmp_post_6 = cp;
       cp = cp + 1l;
     }
     *bp = (char)0;
@@ -23446,25 +23446,25 @@ static double latlong(char *str, signed int islat)
     if(!(colon == ((char *)NULL)))
     {
       bp = buf;
-      for( ; !(cp >= colon); *tmp_post$7 = *tmp_post$8)
+      for( ; !(cp >= colon); *tmp_post_7 = *tmp_post_8)
       {
-        tmp_post$7 = bp;
+        tmp_post_7 = bp;
         bp = bp + 1l;
-        tmp_post$8 = cp;
+        tmp_post_8 = cp;
         cp = cp + 1l;
       }
       *bp = (char)0;
       cp = cp + 1l;
-      double return_value_atof$9;
-      return_value_atof$9=atof(buf);
-      arg = arg + return_value_atof$9 / divby;
+      double return_value_atof_9;
+      return_value_atof_9=atof(buf);
+      arg = arg + return_value_atof_9 / divby;
       divby = 3600.0;
     }
 
     if(!((signed int)*cp == 0))
     {
-      return_value_atof$10=atof(cp);
-      arg = arg + return_value_atof$10 / divby;
+      return_value_atof_10=atof(cp);
+      arg = arg + return_value_atof_10 / divby;
     }
 
   }
@@ -23482,10 +23482,10 @@ static double latlong(char *str, signed int islat)
 
 // lfp_stamp_to_tval
 // file ../include/timevalops.h line 422
-static inline struct timeval lfp_stamp_to_tval(struct anonymous$38 x, const signed long int *p)
+static inline struct timeval lfp_stamp_to_tval(struct anonymous_38 x, const signed long int *p)
 {
   struct timeval out;
-  union anonymous$44 sec;
+  union anonymous_44 sec;
   sec=ntpcal_ntp_to_time(x.Ul_i.Xl_ui, p);
   out.tv_usec = (signed long int)(signed int)((unsigned long int)x.l_uf * (unsigned long int)1000000 + (unsigned long int)0x80000000 >> 32);
   out.tv_sec = (signed long int)sec.q_s;
@@ -23527,9 +23527,9 @@ static unsigned int linux_if_inet6_current(struct isc_interfaceiter *iter)
 
       else
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(address);
-        if(!(return_value_strlen$1 == 32ul))
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(address);
+        if(!(return_value_strlen_1 == 32ul))
         {
           isc_log_write(isc_lctx, &isc_categories[(signed long int)1], &isc_modules[(signed long int)2], -4, "/proc/net/if_inet6:strlen(%s) != 32", (const void *)address);
           return (unsigned int)25;
@@ -23545,21 +23545,21 @@ static unsigned int linux_if_inet6_current(struct isc_interfaceiter *iter)
             for( ; !(i >= 16u); i = i + 1u)
             {
               unsigned char byte;
-              char *return_value_strchr$2;
+              char *return_value_strchr_2;
               static const char hex[17l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 0 };
-              return_value_strchr$2=strchr(hex, (signed int)address[(signed long int)(i * (unsigned int)2)]);
-              char *return_value_strchr$3;
-              return_value_strchr$3=strchr(hex, (signed int)address[(signed long int)(i * (unsigned int)2 + (unsigned int)1)]);
-              byte = (unsigned char)(return_value_strchr$2 - hex << 4 | return_value_strchr$3 - hex);
+              return_value_strchr_2=strchr(hex, (signed int)address[(signed long int)(i * (unsigned int)2)]);
+              char *return_value_strchr_3;
+              return_value_strchr_3=strchr(hex, (signed int)address[(signed long int)(i * (unsigned int)2 + (unsigned int)1)]);
+              byte = (unsigned char)(return_value_strchr_2 - hex << 4 | return_value_strchr_3 - hex);
               addr6.__in6_u.__u6_addr8[(signed long int)i] = byte;
             }
             iter->current.af = (unsigned int)10;
             iter->current.flags = 0x00000001U;
             isc_netaddr_fromin6(&iter->current.address, &addr6);
             iter->current.ifindex = ifindex;
-            enum anonymous$11 return_value_isc_netaddr_islinklocal$4;
-            return_value_isc_netaddr_islinklocal$4=isc_netaddr_islinklocal(&iter->current.address);
-            if(!(return_value_isc_netaddr_islinklocal$4 == /*enum*/isc_boolean_false))
+            enum anonymous_11 return_value_isc_netaddr_islinklocal_4;
+            return_value_isc_netaddr_islinklocal_4=isc_netaddr_islinklocal(&iter->current.address);
+            if(!(return_value_isc_netaddr_islinklocal_4 == /*enum*/isc_boolean_false))
               isc_netaddr_setzone(&iter->current.address, (unsigned int)ifindex);
 
             i = (unsigned int)0;
@@ -23601,17 +23601,17 @@ static void linux_if_inet6_first(struct isc_interfaceiter *iter)
 // file ./../lib/isc/unix/interfaceiter.c line 179
 static unsigned int linux_if_inet6_next(struct isc_interfaceiter *iter)
 {
-  _Bool tmp_if_expr$2;
-  char *return_value_fgets$1;
+  _Bool tmp_if_expr_2;
+  char *return_value_fgets_1;
   if(!(iter->proc == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fgets$1=fgets(iter->entry, (signed int)sizeof(char [63l]) /*63ul*/ , iter->proc);
-    tmp_if_expr$2 = return_value_fgets$1 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    return_value_fgets_1=fgets(iter->entry, (signed int)sizeof(char [63l]) /*63ul*/ , iter->proc);
+    tmp_if_expr_2 = return_value_fgets_1 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     iter->valid = (unsigned int)0;
 
   else
@@ -23655,7 +23655,7 @@ signed int main(signed int argc, char **argv)
   double long3;
   init_lib();
   progname = argv[(signed long int)0];
-  double return_value_atof$1;
+  double return_value_atof_1;
   do
   {
     c=ntp_getopt(argc, argv, "dh:CWG");
@@ -23672,8 +23672,8 @@ signed int main(signed int argc, char **argv)
       case 104:
       {
         hflag = hflag + 1;
-        return_value_atof$1=atof(ntp_optarg);
-        height = (signed int)return_value_atof$1;
+        return_value_atof_1=atof(ntp_optarg);
+        height = (signed int)return_value_atof_1;
         if((double)height <= 0.0)
         {
           fprintf(stderr, "height %s unlikely\n", ntp_optarg);
@@ -23793,9 +23793,9 @@ signed int main(signed int argc, char **argv)
 // file socket.c line 128
 extern void make_socket_nonblocking(signed int fd)
 {
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(fd, 4, 04000);
-  if(!(return_value_fcntl$1 >= 0))
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(fd, 4, 04000);
+  if(!(return_value_fcntl_1 >= 0))
   {
     msyslog(3, "fcntl(O_NONBLOCK) fails on fd #%d: %m", fd);
     exit(1);
@@ -23807,21 +23807,21 @@ extern void make_socket_nonblocking(signed int fd)
 // file ntp_intres.c line 1040
 static void manage_dns_retry_interval(signed long int *pscheduled, signed long int *pwhen, signed int *pretry, signed long int *pnext_timeslot)
 {
-  signed long int manage_dns_retry_interval$$1$$now;
+  signed long int manage_dns_retry_interval__1__now;
   signed long int when;
   signed int retry;
-  manage_dns_retry_interval$$1$$now=time((signed long int *)(void *)0);
+  manage_dns_retry_interval__1__now=time((signed long int *)(void *)0);
   retry = *pretry;
-  signed long int tmp_if_expr$1;
-  if(!(*pnext_timeslot >= manage_dns_retry_interval$$1$$now + (signed long int)retry))
-    tmp_if_expr$1 = manage_dns_retry_interval$$1$$now + (signed long int)retry;
+  signed long int tmp_if_expr_1;
+  if(!(*pnext_timeslot >= manage_dns_retry_interval__1__now + (signed long int)retry))
+    tmp_if_expr_1 = manage_dns_retry_interval__1__now + (signed long int)retry;
 
   else
-    tmp_if_expr$1 = *pnext_timeslot;
-  when = tmp_if_expr$1;
+    tmp_if_expr_1 = *pnext_timeslot;
+  when = tmp_if_expr_1;
   *pnext_timeslot = when;
   retry = 64 < retry << 1 ? 64 : retry << 1;
-  *pscheduled = manage_dns_retry_interval$$1$$now;
+  *pscheduled = manage_dns_retry_interval__1__now;
   *pwhen = when;
   *pretry = retry;
 }
@@ -23833,9 +23833,9 @@ static void manager_free(struct isc__taskmgr *manager)
   struct isc_mem *mctx;
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -23845,15 +23845,15 @@ static void manager_free(struct isc__taskmgr *manager)
     }
   }
   while((_Bool)0);
-  signed int return_value_pthread_cond_destroy$2;
-  return_value_pthread_cond_destroy$2=pthread_cond_destroy(&manager->exclusive_granted);
-  (void)(return_value_pthread_cond_destroy$2 == 0 ? 0 : 34);
-  signed int return_value_pthread_cond_destroy$3;
-  return_value_pthread_cond_destroy$3=pthread_cond_destroy(&manager->work_available);
-  (void)(return_value_pthread_cond_destroy$3 == 0 ? 0 : 34);
-  signed int return_value_pthread_cond_destroy$4;
-  return_value_pthread_cond_destroy$4=pthread_cond_destroy(&manager->paused);
-  (void)(return_value_pthread_cond_destroy$4 == 0 ? 0 : 34);
+  signed int return_value_pthread_cond_destroy_2;
+  return_value_pthread_cond_destroy_2=pthread_cond_destroy(&manager->exclusive_granted);
+  (void)(return_value_pthread_cond_destroy_2 == 0 ? 0 : 34);
+  signed int return_value_pthread_cond_destroy_3;
+  return_value_pthread_cond_destroy_3=pthread_cond_destroy(&manager->work_available);
+  (void)(return_value_pthread_cond_destroy_3 == 0 ? 0 : 34);
+  signed int return_value_pthread_cond_destroy_4;
+  return_value_pthread_cond_destroy_4=pthread_cond_destroy(&manager->paused);
+  (void)(return_value_pthread_cond_destroy_4 == 0 ? 0 : 34);
   (void)manager->mctx;
   free((void *)manager->threads);
   manager->common.impmagic = (unsigned int)0;
@@ -23861,9 +23861,9 @@ static void manager_free(struct isc__taskmgr *manager)
   mctx = manager->mctx;
   do
   {
-    signed int return_value_pthread_mutex_unlock$5;
-    return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&manager->lock);
-    if(return_value_pthread_mutex_unlock$5 == 0)
+    signed int return_value_pthread_mutex_unlock_5;
+    return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&manager->lock);
+    if(return_value_pthread_mutex_unlock_5 == 0)
       (_Bool)1;
 
     else
@@ -23873,9 +23873,9 @@ static void manager_free(struct isc__taskmgr *manager)
     }
   }
   while((_Bool)0);
-  signed int return_value_pthread_mutex_destroy$6;
-  return_value_pthread_mutex_destroy$6=pthread_mutex_destroy(&manager->lock);
-  if(return_value_pthread_mutex_destroy$6 == 0)
+  signed int return_value_pthread_mutex_destroy_6;
+  return_value_pthread_mutex_destroy_6=pthread_mutex_destroy(&manager->lock);
+  if(return_value_pthread_mutex_destroy_6 == 0)
     (_Bool)1;
 
   else
@@ -23913,9 +23913,9 @@ extern char * mfptoa(unsigned int fpi, unsigned int fpf, signed short int ndec)
     }
     while((_Bool)0);
 
-  char *return_value_dolfptoa$1;
-  return_value_dolfptoa$1=dolfptoa(fpi, fpf, isneg, ndec, 0);
-  return return_value_dolfptoa$1;
+  char *return_value_dolfptoa_1;
+  return_value_dolfptoa_1=dolfptoa(fpi, fpf, isneg, ndec, 0);
+  return return_value_dolfptoa_1;
 }
 
 // mfptoms
@@ -23931,9 +23931,9 @@ extern char * mfptoms(unsigned int fpi, unsigned int fpf, signed short int ndec)
     }
     while((_Bool)0);
 
-  char *return_value_dolfptoa$1;
-  return_value_dolfptoa$1=dolfptoa(fpi, fpf, isneg, ndec, 1);
-  return return_value_dolfptoa$1;
+  char *return_value_dolfptoa_1;
+  return_value_dolfptoa_1=dolfptoa(fpi, fpf, isneg, ndec, 1);
+  return return_value_dolfptoa_1;
 }
 
 // mixer_name
@@ -23941,12 +23941,12 @@ extern char * mfptoms(unsigned int fpi, unsigned int fpf, signed short int ndec)
 static signed int mixer_name(const char *m_name, signed int m_mask)
 {
   signed int i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(i >= 25); i = i + 1)
     if(!((1 << i & m_mask) == 0))
     {
-      return_value_strcmp$1=strcmp(m_names[(signed long int)i], m_name);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(m_names[(signed long int)i], m_name);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -23959,16 +23959,16 @@ static signed int mixer_name(const char *m_name, signed int m_mask)
 extern const char * modetoa(unsigned long int mode)
 {
   char *bp;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   static const char * const modestrings[9l] = { "unspec", "sym_active", "sym_passive", "client", "server", "broadcast", "control", "private", "bclient" };
   if(mode >= 9ul)
   {
     do
     {
       bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-      tmp_post$1 = lib_nextbuf;
+      tmp_post_1 = lib_nextbuf;
       lib_nextbuf = lib_nextbuf + 1;
-      bp = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+      bp = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
       lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
     }
     while((_Bool)0);
@@ -23990,51 +23990,51 @@ extern signed int move_fd(signed int fd)
 
   else
   {
-    isc_assertion_failed("socket.c", 81, (enum anonymous$45)isc_assertiontype_require, "(int)fd >= 0");
+    isc_assertion_failed("socket.c", 81, (enum anonymous_45)isc_assertiontype_require, "(int)fd >= 0");
     (_Bool)0;
   }
-  signed int tmp_if_expr$3;
-  signed long int return_value_sysconf$2;
-  signed int tmp_if_expr$7;
-  signed long int return_value_sysconf$4;
-  signed int tmp_if_expr$6;
-  signed long int return_value_sysconf$5;
-  signed long int return_value_sysconf$8;
+  signed int tmp_if_expr_3;
+  signed long int return_value_sysconf_2;
+  signed int tmp_if_expr_7;
+  signed long int return_value_sysconf_4;
+  signed int tmp_if_expr_6;
+  signed long int return_value_sysconf_5;
+  signed long int return_value_sysconf_8;
   static signed int socket_boundary = -1;
   if(socket_boundary == -1)
   {
-    signed long int return_value_sysconf$1;
-    return_value_sysconf$1=sysconf(4);
-    if(!((signed int)return_value_sysconf$1 + -10 >= 16))
+    signed long int return_value_sysconf_1;
+    return_value_sysconf_1=sysconf(4);
+    if(!((signed int)return_value_sysconf_1 + -10 >= 16))
     {
-      return_value_sysconf$2=sysconf(4);
-      tmp_if_expr$3 = (signed int)return_value_sysconf$2 - 10;
+      return_value_sysconf_2=sysconf(4);
+      tmp_if_expr_3 = (signed int)return_value_sysconf_2 - 10;
     }
 
     else
-      tmp_if_expr$3 = 16 < 48 ? 16 : 48;
-    if(!(tmp_if_expr$3 >= 0))
-      tmp_if_expr$7 = 0;
+      tmp_if_expr_3 = 16 < 48 ? 16 : 48;
+    if(!(tmp_if_expr_3 >= 0))
+      tmp_if_expr_7 = 0;
 
     else
     {
-      return_value_sysconf$4=sysconf(4);
-      if(!((signed int)return_value_sysconf$4 + -10 >= 16))
+      return_value_sysconf_4=sysconf(4);
+      if(!((signed int)return_value_sysconf_4 + -10 >= 16))
       {
-        return_value_sysconf$5=sysconf(4);
-        tmp_if_expr$6 = (signed int)return_value_sysconf$5 - 10;
+        return_value_sysconf_5=sysconf(4);
+        tmp_if_expr_6 = (signed int)return_value_sysconf_5 - 10;
       }
 
       else
-        tmp_if_expr$6 = 16 < 48 ? 16 : 48;
-      tmp_if_expr$7 = tmp_if_expr$6;
+        tmp_if_expr_6 = 16 < 48 ? 16 : 48;
+      tmp_if_expr_7 = tmp_if_expr_6;
     }
-    socket_boundary = tmp_if_expr$7;
+    socket_boundary = tmp_if_expr_7;
     do
       if(debug >= 1)
       {
-        return_value_sysconf$8=sysconf(4);
-        mprintf("move_fd: estimated max descriptors: %d, initial socket boundary: %d\n", (signed int)return_value_sysconf$8, socket_boundary);
+        return_value_sysconf_8=sysconf(4);
+        mprintf("move_fd: estimated max descriptors: %d, initial socket boundary: %d\n", (signed int)return_value_sysconf_8, socket_boundary);
       }
 
     while((_Bool)0);
@@ -24087,16 +24087,16 @@ extern signed int msnprintf(char *buf, unsigned long int bufsiz, const char *fmt
   void **ap;
   unsigned long int rc;
   ap = (void **)&fmt;
-  signed int return_value_mvsnprintf$1;
-  return_value_mvsnprintf$1=mvsnprintf(buf, bufsiz, fmt, ap);
-  rc = (unsigned long int)return_value_mvsnprintf$1;
+  signed int return_value_mvsnprintf_1;
+  return_value_mvsnprintf_1=mvsnprintf(buf, bufsiz, fmt, ap);
+  rc = (unsigned long int)return_value_mvsnprintf_1;
   ap = ((void **)NULL);
   return (signed int)rc;
 }
 
 // mstolfp
 // file mstolfp.c line 12
-extern signed int mstolfp(const char *str, struct anonymous$38 *lfp)
+extern signed int mstolfp(const char *str, struct anonymous_38 *lfp)
 {
   const char *cp;
   char *bp;
@@ -24104,42 +24104,42 @@ extern signed int mstolfp(const char *str, struct anonymous$38 *lfp)
   char buf[100l];
   bp = buf;
   cp = str;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
       break;
 
     cp = cp + 1l;
   }
   while((_Bool)1);
-  char *tmp_post$2;
+  char *tmp_post_2;
   if((signed int)*cp == 45)
   {
-    tmp_post$2 = bp;
+    tmp_post_2 = bp;
     bp = bp + 1l;
-    *tmp_post$2 = (char)45;
+    *tmp_post_2 = (char)45;
     cp = cp + 1l;
   }
 
-  const unsigned short int **return_value___ctype_b_loc$3;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  char *tmp_post$5;
-  const char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  char *tmp_post$10;
-  const char *tmp_post$11;
-  const unsigned short int **return_value___ctype_b_loc$12;
-  char *tmp_post$13;
-  const char *tmp_post$14;
-  const unsigned short int **return_value___ctype_b_loc$15;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  char *tmp_post_5;
+  const char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  char *tmp_post_10;
+  const char *tmp_post_11;
+  const unsigned short int **return_value___ctype_b_loc_12;
+  char *tmp_post_13;
+  const char *tmp_post_14;
+  const unsigned short int **return_value___ctype_b_loc_15;
   if(!((signed int)*cp == 46))
   {
-    return_value___ctype_b_loc$3=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(unsigned char)*cp]) == 0))
+    return_value___ctype_b_loc_3=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(unsigned char)*cp]) == 0))
       goto __CPROVER_DUMP_L4;
 
     return 0;
@@ -24153,8 +24153,8 @@ extern signed int mstolfp(const char *str, struct anonymous$38 *lfp)
     cpdec = cp;
     do
     {
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(unsigned char)*cpdec]) == 0)
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(unsigned char)*cpdec]) == 0)
         break;
 
       cpdec = cpdec + 1l;
@@ -24163,41 +24163,41 @@ extern signed int mstolfp(const char *str, struct anonymous$38 *lfp)
     if(cpdec - cp >= 4l)
       do
       {
-        tmp_post$5 = bp;
+        tmp_post_5 = bp;
         bp = bp + 1l;
-        tmp_post$6 = cp;
+        tmp_post_6 = cp;
         cp = cp + 1l;
-        *tmp_post$5 = (char)*tmp_post$6;
+        *tmp_post_5 = (char)*tmp_post_6;
       }
       while(cpdec - cp >= 4l);
 
     else
     {
-      tmp_post$7 = bp;
+      tmp_post_7 = bp;
       bp = bp + 1l;
-      *tmp_post$7 = (char)48;
+      *tmp_post_7 = (char)48;
     }
-    tmp_post$8 = bp;
+    tmp_post_8 = bp;
     bp = bp + 1l;
-    *tmp_post$8 = (char)46;
+    *tmp_post_8 = (char)46;
     if(!(cpdec - cp >= 3l))
     {
       signed int i = (signed int)((signed long int)3 - (cpdec - cp));
       do
       {
-        tmp_post$9 = bp;
+        tmp_post_9 = bp;
         bp = bp + 1l;
-        *tmp_post$9 = (char)48;
+        *tmp_post_9 = (char)48;
         i = i - 1;
       }
       while(i >= 1);
     }
 
-    for( ; !(cp >= cpdec); *tmp_post$10 = (char)*tmp_post$11)
+    for( ; !(cp >= cpdec); *tmp_post_10 = (char)*tmp_post_11)
     {
-      tmp_post$10 = bp;
+      tmp_post_10 = bp;
       bp = bp + 1l;
-      tmp_post$11 = cp;
+      tmp_post_11 = cp;
       cp = cp + 1l;
     }
     if((signed int)*cp == 46)
@@ -24205,15 +24205,15 @@ extern signed int mstolfp(const char *str, struct anonymous$38 *lfp)
       cp = cp + 1l;
       do
       {
-        return_value___ctype_b_loc$12=__ctype_b_loc();
-        if((2048 & (signed int)(*return_value___ctype_b_loc$12)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+        return_value___ctype_b_loc_12=__ctype_b_loc();
+        if((2048 & (signed int)(*return_value___ctype_b_loc_12)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
           break;
 
-        tmp_post$13 = bp;
+        tmp_post_13 = bp;
         bp = bp + 1l;
-        tmp_post$14 = cp;
+        tmp_post_14 = cp;
         cp = cp + 1l;
-        *tmp_post$13 = (char)*tmp_post$14;
+        *tmp_post_13 = (char)*tmp_post_14;
       }
       while((_Bool)1);
     }
@@ -24221,8 +24221,8 @@ extern signed int mstolfp(const char *str, struct anonymous$38 *lfp)
     *bp = (char)0;
     if(!((signed int)*cp == 0))
     {
-      return_value___ctype_b_loc$15=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$15)[(signed long int)(signed int)(unsigned char)*cp]) == 0))
+      return_value___ctype_b_loc_15=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_15)[(signed long int)(signed int)(unsigned char)*cp]) == 0))
         goto __CPROVER_DUMP_L16;
 
       return 0;
@@ -24233,9 +24233,9 @@ extern signed int mstolfp(const char *str, struct anonymous$38 *lfp)
 
     __CPROVER_DUMP_L16:
       ;
-      signed int return_value_atolfp$16;
-      return_value_atolfp$16=atolfp(buf, lfp);
-      return return_value_atolfp$16;
+      signed int return_value_atolfp_16;
+      return_value_atolfp_16=atolfp(buf, lfp);
+      return return_value_atolfp_16;
     }
   }
 }
@@ -24257,15 +24257,15 @@ extern signed int mvfprintf(struct _IO_FILE *fp, const char *fmt, void **ap)
 {
   const char *nfmt = fmt;
   signed int errval;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  errval = *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = errval;
-  signed int return_value_vfprintf$3;
-  return_value_vfprintf$3=vfprintf(fp, nfmt, ap);
-  return return_value_vfprintf$3;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  errval = *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = errval;
+  signed int return_value_vfprintf_3;
+  return_value_vfprintf_3=vfprintf(fp, nfmt, ap);
+  return return_value_vfprintf_3;
 }
 
 // mvsnprintf
@@ -24274,15 +24274,15 @@ extern signed int mvsnprintf(char *buf, unsigned long int bufsiz, const char *fm
 {
   const char *nfmt = fmt;
   signed int errval;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  errval = *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = errval;
-  signed int return_value_vsnprintf$3;
-  return_value_vsnprintf$3=vsnprintf(buf, bufsiz, nfmt, ap);
-  return return_value_vsnprintf$3;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  errval = *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = errval;
+  signed int return_value_vsnprintf_3;
+  return_value_vsnprintf_3=vsnprintf(buf, bufsiz, nfmt, ap);
+  return return_value_vsnprintf_3;
 }
 
 // mvsyslog
@@ -24296,14 +24296,14 @@ extern void mvsyslog(signed int level, const char *fmt, void **ap)
 
 // netof
 // file netof.c line 15
-extern union anonymous$47 * netof(union anonymous$47 *hostaddr)
+extern union anonymous_47 * netof(union anonymous_47 *hostaddr)
 {
   unsigned int netnum;
   static signed int next_netofbuf;
-  static union anonymous$47 netofbuf[8l];
-  union anonymous$47 *netaddr = &netofbuf[(signed long int)next_netofbuf];
-  next_netofbuf = (signed int)((unsigned long int)(next_netofbuf + 1) % (sizeof(union anonymous$47 [8l]) /*224ul*/  / sizeof(union anonymous$47) /*28ul*/ ));
-  memcpy((void *)netaddr, (const void *)hostaddr, sizeof(union anonymous$47) /*28ul*/ );
+  static union anonymous_47 netofbuf[8l];
+  union anonymous_47 *netaddr = &netofbuf[(signed long int)next_netofbuf];
+  next_netofbuf = (signed int)((unsigned long int)(next_netofbuf + 1) % (sizeof(union anonymous_47 [8l]) /*224ul*/  / sizeof(union anonymous_47) /*28ul*/ ));
+  memcpy((void *)netaddr, (const void *)hostaddr, sizeof(union anonymous_47) /*28ul*/ );
   if((signed int)netaddr->sa.sa_family == 2)
   {
     netnum=ntohl(netaddr->sa4.sin_addr.s_addr);
@@ -24358,23 +24358,23 @@ __CPROVER_DUMP_L3:
       break;
 
   }
-  _Bool tmp_if_expr$2;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  char *tmp_post_1;
   if(starttok == cp)
     return (char *)(void *)0;
 
   else
   {
     if((signed int)*cp == 32)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)*cp == 9 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)*cp == 9 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      tmp_post$1 = cp;
+      tmp_post_1 = cp;
       cp = cp + 1l;
-      *tmp_post$1 = (char)0;
+      *tmp_post_1 = (char)0;
     }
 
     else
@@ -24388,8 +24388,8 @@ __CPROVER_DUMP_L3:
 // file vint64ops.c line 27
 static inline void * noconst(const void *ptr)
 {
-  /* tag-#anon#lUN[l*{clV}$clV$'cp'||l*{lV}$lV$'vp'|] */
-union anonymous$25
+  /* tag-#anon#lUN[l*{clV}_clV_'cp'||l*{lV}_lV_'vp'|] */
+union anonymous_25
 {
   // cp
   const void *cp;
@@ -24399,7 +24399,7 @@ union anonymous$25
 
 /* */
   ;
-  union anonymous$25 tmp;
+  union anonymous_25 tmp;
   tmp.cp = ptr;
   return tmp.vp;
 }
@@ -24468,36 +24468,36 @@ static inline struct timeval normalize_tval(struct timeval x)
   return x;
 }
 
-// normalize_tval$link1
+// normalize_tval_link1
 // file ../include/timevalops.h line 136
-static inline struct timeval normalize_tval$link1(struct timeval x$link1)
+static inline struct timeval normalize_tval_link1(struct timeval x_link1)
 {
-  signed long int z$link1;
-  if(x$link1.tv_usec >= 3000001l || !(x$link1.tv_usec >= -3000000l))
+  signed long int z_link1;
+  if(x_link1.tv_usec >= 3000001l || !(x_link1.tv_usec >= -3000000l))
   {
-    z$link1 = x$link1.tv_usec / (signed long int)1000000;
-    x$link1.tv_usec = x$link1.tv_usec - z$link1 * (signed long int)1000000;
-    x$link1.tv_sec = x$link1.tv_sec + z$link1;
+    z_link1 = x_link1.tv_usec / (signed long int)1000000;
+    x_link1.tv_usec = x_link1.tv_usec - z_link1 * (signed long int)1000000;
+    x_link1.tv_sec = x_link1.tv_sec + z_link1;
   }
 
-  if(!(x$link1.tv_usec >= 0l))
+  if(!(x_link1.tv_usec >= 0l))
     do
     {
-      x$link1.tv_usec = x$link1.tv_usec + (signed long int)1000000;
-      x$link1.tv_sec = x$link1.tv_sec - 1l;
+      x_link1.tv_usec = x_link1.tv_usec + (signed long int)1000000;
+      x_link1.tv_sec = x_link1.tv_sec - 1l;
     }
-    while(!(x$link1.tv_usec >= 0l));
+    while(!(x_link1.tv_usec >= 0l));
 
   else
-    if(x$link1.tv_usec >= 1000000l)
+    if(x_link1.tv_usec >= 1000000l)
       do
       {
-        x$link1.tv_usec = x$link1.tv_usec - (signed long int)1000000;
-        x$link1.tv_sec = x$link1.tv_sec + 1l;
+        x_link1.tv_usec = x_link1.tv_usec - (signed long int)1000000;
+        x_link1.tv_sec = x_link1.tv_sec + 1l;
       }
-      while(x$link1.tv_usec >= 1000000l);
+      while(x_link1.tv_usec >= 1000000l);
 
-  return x$link1;
+  return x_link1;
 }
 
 // now
@@ -24513,11 +24513,11 @@ static inline signed long int now(void)
 // file prettydate.c line 223
 extern struct tm * ntp2unix_tm(unsigned int ntp, signed int local)
 {
-  union anonymous$44 vl;
+  union anonymous_44 vl;
   vl=ntpcal_ntp_to_time(ntp, (const signed long int *)(void *)0);
-  struct tm *return_value_get_struct_tm$1;
-  return_value_get_struct_tm$1=get_struct_tm(&vl, local);
-  return return_value_get_struct_tm$1;
+  struct tm *return_value_get_struct_tm_1;
+  return_value_get_struct_tm_1=get_struct_tm(&vl, local);
+  return return_value_get_struct_tm_1;
 }
 
 // ntpOptionPrintVersion
@@ -24535,9 +24535,9 @@ extern void ntpOptionPrintVersion(struct options *pOpts, struct opt_desc *pOD)
 // file ntp_libopts.c line 27
 extern signed int ntpOptionProcess(struct options *pOpts, signed int argc, char **argv)
 {
-  signed int return_value_optionProcess$1;
-  return_value_optionProcess$1=optionProcess(pOpts, argc, argv);
-  return return_value_optionProcess$1;
+  signed int return_value_optionProcess_1;
+  return_value_optionProcess_1=optionProcess(pOpts, argc, argv);
+  return return_value_optionProcess_1;
 }
 
 // ntp_crypto_random_buf
@@ -24585,28 +24585,28 @@ extern signed int ntp_getopt(signed int argc, char **argv, const char *optstring
     ntp_optind = ntp_optind + 1;
   }
 
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(scan == ((char *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (signed int)*scan == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$3;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (signed int)*scan == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_3;
+  if(tmp_if_expr_4)
   {
     if(ntp_optind >= argc)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)argv[(signed long int)ntp_optind][(signed long int)0] != 45 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)argv[(signed long int)ntp_optind][(signed long int)0] != 45 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)argv[(signed long int)ntp_optind][(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)argv[(signed long int)ntp_optind][(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -1;
 
     if((signed int)argv[(signed long int)ntp_optind][1l] == 45)
@@ -24619,25 +24619,25 @@ extern signed int ntp_getopt(signed int argc, char **argv, const char *optstring
 
     }
 
-    tmp_post$3 = ntp_optind;
+    tmp_post_3 = ntp_optind;
     ntp_optind = ntp_optind + 1;
-    scan = argv[(signed long int)tmp_post$3] + (signed long int)1;
+    scan = argv[(signed long int)tmp_post_3] + (signed long int)1;
   }
 
-  char *tmp_post$5 = scan;
+  char *tmp_post_5 = scan;
   scan = scan + 1l;
-  c = *tmp_post$5;
+  c = *tmp_post_5;
   ntp_optopt = (signed int)c & 0377;
   place = optstring;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   do
   {
     if(!(place == ((const char *)NULL)))
-      tmp_if_expr$6 = (signed int)*place != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (signed int)*place != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(!tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(!tmp_if_expr_6)
       break;
 
     if(*place == c)
@@ -24646,21 +24646,21 @@ extern signed int ntp_getopt(signed int argc, char **argv, const char *optstring
     place = place + 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   if(place == ((const char *)NULL))
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_8 = (_Bool)1;
 
   else
-    tmp_if_expr$8 = (signed int)*place == 0 ? (_Bool)1 : (_Bool)0;
-  if((signed int)c == 58 || (signed int)c == 63 || tmp_if_expr$8)
+    tmp_if_expr_8 = (signed int)*place == 0 ? (_Bool)1 : (_Bool)0;
+  if((signed int)c == 58 || (signed int)c == 63 || tmp_if_expr_8)
   {
-    signed int return_value_badopt$7;
-    return_value_badopt$7=badopt(": unknown option -", (signed int)c);
-    return return_value_badopt$7;
+    signed int return_value_badopt_7;
+    return_value_badopt_7=badopt(": unknown option -", (signed int)c);
+    return return_value_badopt_7;
   }
 
   place = place + 1l;
-  signed int tmp_post$10;
+  signed int tmp_post_10;
   if((signed int)*place == 58)
   {
     if(!((signed int)*scan == 0))
@@ -24672,16 +24672,16 @@ extern signed int ntp_getopt(signed int argc, char **argv, const char *optstring
     else
       if(ntp_optind >= argc)
       {
-        signed int return_value_badopt$9;
-        return_value_badopt$9=badopt(": option requires argument -", (signed int)c);
-        return return_value_badopt$9;
+        signed int return_value_badopt_9;
+        return_value_badopt_9=badopt(": option requires argument -", (signed int)c);
+        return return_value_badopt_9;
       }
 
       else
       {
-        tmp_post$10 = ntp_optind;
+        tmp_post_10 = ntp_optind;
         ntp_optind = ntp_optind + 1;
-        ntp_optarg = argv[(signed long int)tmp_post$10];
+        ntp_optarg = argv[(signed long int)tmp_post_10];
       }
   }
 
@@ -24706,9 +24706,9 @@ signed long int ntp_random(void)
   if(rand_type == 0l)
   {
     i = (signed long int)state[(signed long int)0];
-    signed long int return_value_good_rand$1;
-    return_value_good_rand$1=good_rand(i);
-    i = return_value_good_rand$1 & (signed long int)0x7fffffff;
+    signed long int return_value_good_rand_1;
+    return_value_good_rand_1=good_rand(i);
+    i = return_value_good_rand_1 & (signed long int)0x7fffffff;
     state[(signed long int)0] = (unsigned long int)i;
   }
 
@@ -24857,13 +24857,13 @@ signed int ntp_set_tod(struct timeval *tvp, void *tzp)
     struct timespec ts;
     ts.tv_sec = tvp->tv_sec;
     ts.tv_nsec = (signed long int)1000 * tvp->tv_usec;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
     rc=clock_settime(0, &ts);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    saved_errno = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    saved_errno = *return_value___errno_location_2;
     do
       if(debug >= 1)
         mprintf("ntp_set_tod: clock_settime: %d %m\n", rc);
@@ -24880,13 +24880,13 @@ signed int ntp_set_tod(struct timeval *tvp, void *tzp)
     adjtv.tv_usec = (signed long int)0;
     adjtv.tv_sec = adjtv.tv_usec;
     adjtime(&adjtv, (struct timeval *)(void *)0);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 0;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 0;
     rc=settimeofday(tvp, (struct timezone *)tzp);
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    saved_errno = *return_value___errno_location$4;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    saved_errno = *return_value___errno_location_4;
     do
       if(debug >= 1)
         mprintf("ntp_set_tod: settimeofday: %d %m\n", rc);
@@ -24900,13 +24900,13 @@ signed int ntp_set_tod(struct timeval *tvp, void *tzp)
   if(!(rc == 0) && (tod == 0 || tod == 3))
   {
     signed long int tp = tvp->tv_sec;
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5 = 0;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5 = 0;
     rc=stime(&tp);
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    saved_errno = *return_value___errno_location$6;
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    saved_errno = *return_value___errno_location_6;
     do
       if(debug >= 1)
         mprintf("ntp_set_tod: stime: %d %m\n", rc);
@@ -24917,9 +24917,9 @@ signed int ntp_set_tod(struct timeval *tvp, void *tzp)
 
   }
 
-  signed int *return_value___errno_location$7;
-  return_value___errno_location$7=__errno_location();
-  *return_value___errno_location$7 = saved_errno;
+  signed int *return_value___errno_location_7;
+  return_value___errno_location_7=__errno_location();
+  *return_value___errno_location_7 = saved_errno;
   do
     if(debug >= 1)
       mprintf("ntp_set_tod: Final result: %s: %d %m\n", set_tod_used[(signed long int)tod], rc);
@@ -24931,11 +24931,11 @@ signed int ntp_set_tod(struct timeval *tvp, void *tzp)
     set_tod_using = (void (*)(const char *))(void *)0;
   }
 
-  signed int *return_value___errno_location$8;
+  signed int *return_value___errno_location_8;
   if(!(rc == 0))
   {
-    return_value___errno_location$8=__errno_location();
-    *return_value___errno_location$8 = saved_errno;
+    return_value___errno_location_8=__errno_location();
+    *return_value___errno_location_8 = saved_errno;
   }
 
   return rc;
@@ -24946,8 +24946,8 @@ signed int ntp_set_tod(struct timeval *tvp, void *tzp)
 void ntp_srandom(unsigned long int x)
 {
   signed long int i;
-  signed long int return_value_good_rand$1;
-  signed long int return_value_ntp_random$2;
+  signed long int return_value_good_rand_1;
+  signed long int return_value_ntp_random_2;
   if(rand_type == 0l)
     state[(signed long int)0] = x;
 
@@ -24957,16 +24957,16 @@ void ntp_srandom(unsigned long int x)
     i = (signed long int)1;
     for( ; !(i >= rand_deg); i = i + 1l)
     {
-      return_value_good_rand$1=good_rand((signed long int)state[i - (signed long int)1]);
-      state[i] = (unsigned long int)return_value_good_rand$1;
+      return_value_good_rand_1=good_rand((signed long int)state[i - (signed long int)1]);
+      state[i] = (unsigned long int)return_value_good_rand_1;
     }
     fptr = &state[rand_sep];
     rptr = &state[(signed long int)0];
     i = (signed long int)0;
     for( ; !(i >= 10l * rand_deg); i = i + 1l)
     {
-      return_value_ntp_random$2=ntp_random();
-      x = (unsigned long int)return_value_ntp_random$2;
+      return_value_ntp_random_2=ntp_random();
+      x = (unsigned long int)return_value_ntp_random_2;
     }
   }
   srand((unsigned int)x);
@@ -24976,8 +24976,8 @@ void ntp_srandom(unsigned long int x)
 // file clocktime.c line 130
 static signed int ntp_to_year(unsigned int ntp)
 {
-  union anonymous$44 t;
-  struct anonymous$61 s;
+  union anonymous_44 t;
+  struct anonymous_61 s;
   t=ntpcal_ntp_to_ntp(ntp, (const signed long int *)(void *)0);
   s=ntpcal_daysplit(&t);
   s=ntpcal_split_eradays((s.hi + 693596) - 1, (signed int *)(void *)0);
@@ -24988,64 +24988,64 @@ static signed int ntp_to_year(unsigned int ntp)
 // file ntp_calendar.c line 1393
 extern signed int ntpcal_date_to_daysec(struct calendar *jd)
 {
-  signed int return_value_ntpcal_etime_to_seconds$1;
-  return_value_ntpcal_etime_to_seconds$1=ntpcal_etime_to_seconds((signed int)jd->hour, (signed int)jd->minute, (signed int)jd->second);
-  return return_value_ntpcal_etime_to_seconds$1;
+  signed int return_value_ntpcal_etime_to_seconds_1;
+  return_value_ntpcal_etime_to_seconds_1=ntpcal_etime_to_seconds((signed int)jd->hour, (signed int)jd->minute, (signed int)jd->second);
+  return return_value_ntpcal_etime_to_seconds_1;
 }
 
 // ntpcal_date_to_ntp
 // file ntp_calendar.c line 1490
 extern unsigned int ntpcal_date_to_ntp(struct calendar *jd)
 {
-  union anonymous$44 return_value_ntpcal_date_to_ntp64$1;
-  return_value_ntpcal_date_to_ntp64$1=ntpcal_date_to_ntp64(jd);
-  return return_value_ntpcal_date_to_ntp64$1.d_s.lo;
+  union anonymous_44 return_value_ntpcal_date_to_ntp64_1;
+  return_value_ntpcal_date_to_ntp64_1=ntpcal_date_to_ntp64(jd);
+  return return_value_ntpcal_date_to_ntp64_1.d_s.lo;
 }
 
 // ntpcal_date_to_ntp64
 // file ntp_calendar.c line 1477
-extern union anonymous$44 ntpcal_date_to_ntp64(struct calendar *jd)
+extern union anonymous_44 ntpcal_date_to_ntp64(struct calendar *jd)
 {
-  signed int return_value_ntpcal_date_to_rd$1;
-  return_value_ntpcal_date_to_rd$1=ntpcal_date_to_rd(jd);
-  signed int return_value_ntpcal_date_to_daysec$2;
-  return_value_ntpcal_date_to_daysec$2=ntpcal_date_to_daysec(jd);
-  union anonymous$44 return_value_ntpcal_dayjoin$3;
-  return_value_ntpcal_dayjoin$3=ntpcal_dayjoin(return_value_ntpcal_date_to_rd$1 - 693596, return_value_ntpcal_date_to_daysec$2);
-  return return_value_ntpcal_dayjoin$3;
+  signed int return_value_ntpcal_date_to_rd_1;
+  return_value_ntpcal_date_to_rd_1=ntpcal_date_to_rd(jd);
+  signed int return_value_ntpcal_date_to_daysec_2;
+  return_value_ntpcal_date_to_daysec_2=ntpcal_date_to_daysec(jd);
+  union anonymous_44 return_value_ntpcal_dayjoin_3;
+  return_value_ntpcal_dayjoin_3=ntpcal_dayjoin(return_value_ntpcal_date_to_rd_1 - 693596, return_value_ntpcal_date_to_daysec_2);
+  return return_value_ntpcal_dayjoin_3;
 }
 
 // ntpcal_date_to_rd
 // file ../include/ntp_calendar.h line 220
 extern signed int ntpcal_date_to_rd(struct calendar *jd)
 {
-  signed int return_value_ntpcal_edate_to_eradays$1;
-  return_value_ntpcal_edate_to_eradays$1=ntpcal_edate_to_eradays((signed int)jd->year - 1, (signed int)jd->month - 1, (signed int)jd->monthday - 1);
-  return return_value_ntpcal_edate_to_eradays$1 + 1;
+  signed int return_value_ntpcal_edate_to_eradays_1;
+  return_value_ntpcal_edate_to_eradays_1=ntpcal_edate_to_eradays((signed int)jd->year - 1, (signed int)jd->month - 1, (signed int)jd->monthday - 1);
+  return return_value_ntpcal_edate_to_eradays_1 + 1;
 }
 
 // ntpcal_date_to_time
 // file ../include/ntp_calendar.h line 334
 extern signed long int ntpcal_date_to_time(struct calendar *jd)
 {
-  union anonymous$44 join;
+  union anonymous_44 join;
   signed int days;
   signed int secs;
-  signed int return_value_ntpcal_date_to_rd$1;
-  return_value_ntpcal_date_to_rd$1=ntpcal_date_to_rd(jd);
-  days = return_value_ntpcal_date_to_rd$1 - 719163;
+  signed int return_value_ntpcal_date_to_rd_1;
+  return_value_ntpcal_date_to_rd_1=ntpcal_date_to_rd(jd);
+  days = return_value_ntpcal_date_to_rd_1 - 719163;
   secs=ntpcal_date_to_daysec(jd);
   join=ntpcal_dayjoin(days, secs);
-  signed long int return_value_vint64_to_time$2;
-  return_value_vint64_to_time$2=vint64_to_time(&join);
-  return return_value_vint64_to_time$2;
+  signed long int return_value_vint64_to_time_2;
+  return_value_vint64_to_time_2=vint64_to_time(&join);
+  return return_value_vint64_to_time_2;
 }
 
 // ntpcal_dayjoin
 // file ../include/ntp_calendar.h line 158
-extern union anonymous$44 ntpcal_dayjoin(signed int days, signed int secs)
+extern union anonymous_44 ntpcal_dayjoin(signed int days, signed int secs)
 {
-  union anonymous$44 res;
+  union anonymous_44 res;
   res.q_s = (signed long int)days;
   res.q_s = res.q_s * (signed long int)(60 * 60 * 24);
   res.q_s = res.q_s + (signed long int)secs;
@@ -25054,9 +25054,9 @@ extern union anonymous$44 ntpcal_dayjoin(signed int days, signed int secs)
 
 // ntpcal_days_in_months
 // file ntp_calendar.c line 1192
-extern struct anonymous$61 ntpcal_days_in_months(signed int m)
+extern struct anonymous_61 ntpcal_days_in_months(signed int m)
 {
-  struct anonymous$61 res;
+  struct anonymous_61 res;
   res.lo = m + 10;
   res.hi = (signed int)(res.lo >= 12);
   if(!(res.hi == 0))
@@ -25070,9 +25070,9 @@ extern struct anonymous$61 ntpcal_days_in_months(signed int m)
     sflag=int32_sflag(res.lo);
     mu=int32_to_uint32_2cpl(res.lo);
     Q = sflag ^ (sflag ^ mu) / 12u;
-    signed int return_value_uint32_2cpl_to_int32$1;
-    return_value_uint32_2cpl_to_int32$1=uint32_2cpl_to_int32(Q);
-    res.hi = res.hi + return_value_uint32_2cpl_to_int32$1;
+    signed int return_value_uint32_2cpl_to_int32_1;
+    return_value_uint32_2cpl_to_int32_1=uint32_2cpl_to_int32(Q);
+    res.hi = res.hi + return_value_uint32_2cpl_to_int32_1;
     res.lo = (signed int)(mu - Q * 12u);
   }
 
@@ -25084,9 +25084,9 @@ extern struct anonymous$61 ntpcal_days_in_months(signed int m)
 // file ../include/ntp_calendar.h line 170
 extern signed int ntpcal_days_in_years(signed int years)
 {
-  signed int return_value_ntpcal_leapyears_in_years$1;
-  return_value_ntpcal_leapyears_in_years$1=ntpcal_leapyears_in_years(years);
-  return years * 365 + return_value_ntpcal_leapyears_in_years$1;
+  signed int return_value_ntpcal_leapyears_in_years_1;
+  return_value_ntpcal_leapyears_in_years_1=ntpcal_leapyears_in_years(years);
+  return years * 365 + return_value_ntpcal_leapyears_in_years_1;
 }
 
 // ntpcal_daysec_to_date
@@ -25117,9 +25117,9 @@ extern signed int ntpcal_daysec_to_tm(struct tm *utm, signed int sec)
 
 // ntpcal_daysplit
 // file ../include/ntp_calendar.h line 151
-extern struct anonymous$61 ntpcal_daysplit(const union anonymous$44 *ts)
+extern struct anonymous_61 ntpcal_daysplit(const union anonymous_44 *ts)
 {
-  struct anonymous$61 res;
+  struct anonymous_61 res;
   unsigned int Q;
   if(!(ts->q_s >= 0l))
     Q = ~((unsigned int)(~ts->Q_s / (unsigned long int)(60 * 60 * 24)));
@@ -25133,40 +25133,40 @@ extern struct anonymous$61 ntpcal_daysplit(const union anonymous$44 *ts)
 
 // ntpcal_daysplit_to_date
 // file ../include/ntp_calendar.h line 306
-extern signed int ntpcal_daysplit_to_date(struct calendar *jd, const struct anonymous$61 *ds, signed int dof)
+extern signed int ntpcal_daysplit_to_date(struct calendar *jd, const struct anonymous_61 *ds, signed int dof)
 {
-  signed int return_value_ntpcal_daysec_to_date$1;
-  return_value_ntpcal_daysec_to_date$1=ntpcal_daysec_to_date(jd, ds->lo);
-  dof = dof + return_value_ntpcal_daysec_to_date$1;
-  signed int return_value_ntpcal_rd_to_date$2;
-  return_value_ntpcal_rd_to_date$2=ntpcal_rd_to_date(jd, ds->hi + dof);
-  return return_value_ntpcal_rd_to_date$2;
+  signed int return_value_ntpcal_daysec_to_date_1;
+  return_value_ntpcal_daysec_to_date_1=ntpcal_daysec_to_date(jd, ds->lo);
+  dof = dof + return_value_ntpcal_daysec_to_date_1;
+  signed int return_value_ntpcal_rd_to_date_2;
+  return_value_ntpcal_rd_to_date_2=ntpcal_rd_to_date(jd, ds->hi + dof);
+  return return_value_ntpcal_rd_to_date_2;
 }
 
 // ntpcal_daysplit_to_tm
 // file ntp_calendar.c line 1023
-extern signed int ntpcal_daysplit_to_tm(struct tm *utm, const struct anonymous$61 *ds, signed int dof)
+extern signed int ntpcal_daysplit_to_tm(struct tm *utm, const struct anonymous_61 *ds, signed int dof)
 {
-  signed int return_value_ntpcal_daysec_to_tm$1;
-  return_value_ntpcal_daysec_to_tm$1=ntpcal_daysec_to_tm(utm, ds->lo);
-  dof = dof + return_value_ntpcal_daysec_to_tm$1;
-  signed int return_value_ntpcal_rd_to_tm$2;
-  return_value_ntpcal_rd_to_tm$2=ntpcal_rd_to_tm(utm, ds->hi + dof);
-  return return_value_ntpcal_rd_to_tm$2;
+  signed int return_value_ntpcal_daysec_to_tm_1;
+  return_value_ntpcal_daysec_to_tm_1=ntpcal_daysec_to_tm(utm, ds->lo);
+  dof = dof + return_value_ntpcal_daysec_to_tm_1;
+  signed int return_value_ntpcal_rd_to_tm_2;
+  return_value_ntpcal_rd_to_tm_2=ntpcal_rd_to_tm(utm, ds->hi + dof);
+  return return_value_ntpcal_rd_to_tm_2;
 }
 
 // ntpcal_edate_to_eradays
 // file ntp_calendar.c line 1230
 extern signed int ntpcal_edate_to_eradays(signed int years, signed int mons, signed int mdays)
 {
-  struct anonymous$61 tmp;
+  struct anonymous_61 tmp;
   signed int res;
   if(!(mons == 0))
   {
     tmp=ntpcal_days_in_months(mons);
-    signed int return_value_ntpcal_days_in_years$1;
-    return_value_ntpcal_days_in_years$1=ntpcal_days_in_years(years + tmp.hi);
-    res = return_value_ntpcal_days_in_years$1 + tmp.lo;
+    signed int return_value_ntpcal_days_in_years_1;
+    return_value_ntpcal_days_in_years_1=ntpcal_days_in_years(years + tmp.hi);
+    res = return_value_ntpcal_days_in_years_1 + tmp.lo;
   }
 
   else
@@ -25179,7 +25179,7 @@ extern signed int ntpcal_edate_to_eradays(signed int years, signed int mons, sig
 // file ntp_calendar.c line 1259
 extern signed int ntpcal_edate_to_yeardays(signed int years, signed int mons, signed int mdays)
 {
-  struct anonymous$61 tmp;
+  struct anonymous_61 tmp;
   if(mons >= 0 && !(mons >= 12))
   {
     years = years + 1;
@@ -25189,11 +25189,11 @@ extern signed int ntpcal_edate_to_yeardays(signed int years, signed int mons, si
   else
   {
     tmp=ntpcal_days_in_months(mons);
-    signed int return_value_ntpcal_days_in_years$1;
-    return_value_ntpcal_days_in_years$1=ntpcal_days_in_years(years + tmp.hi);
-    signed int return_value_ntpcal_days_in_years$2;
-    return_value_ntpcal_days_in_years$2=ntpcal_days_in_years(years);
-    mdays = mdays + ((tmp.lo + return_value_ntpcal_days_in_years$1) - return_value_ntpcal_days_in_years$2);
+    signed int return_value_ntpcal_days_in_years_1;
+    return_value_ntpcal_days_in_years_1=ntpcal_days_in_years(years + tmp.hi);
+    signed int return_value_ntpcal_days_in_years_2;
+    return_value_ntpcal_days_in_years_2=ntpcal_days_in_years(years);
+    mdays = mdays + ((tmp.lo + return_value_ntpcal_days_in_years_1) - return_value_ntpcal_days_in_years_2);
   }
   return mdays;
 }
@@ -25221,10 +25221,10 @@ extern signed int ntpcal_get_build_date(struct calendar *jd)
   jd->year = (unsigned short int)1970;
   jd->month = (unsigned char)1;
   jd->monthday = (unsigned char)1;
-  signed int return_value_sscanf$1;
+  signed int return_value_sscanf_1;
   static const char build[21l] = { '2', '3', ':', '3', '4', ':', '5', '1', '/', 'J', 'a', 'n', ' ', '2', '5', ' ', '2', '0', '1', '6', 0 };
-  return_value_sscanf$1=sscanf(build, "%hu:%hu:%hu/%3s %hu %hu", &hour, &minute, &second, (const void *)monstr, &day, &year);
-  if(return_value_sscanf$1 == 6)
+  return_value_sscanf_1=sscanf(build, "%hu:%hu:%hu/%3s %hu %hu", &hour, &minute, &second, (const void *)monstr, &day, &year);
+  if(return_value_sscanf_1 == 6)
   {
     static const char mlist[37l] = { 'J', 'a', 'n', 'F', 'e', 'b', 'M', 'a', 'r', 'A', 'p', 'r', 'M', 'a', 'y', 'J', 'u', 'n', 'J', 'u', 'l', 'A', 'u', 'g', 'S', 'e', 'p', 'O', 'c', 't', 'N', 'o', 'v', 'D', 'e', 'c', 0 };
     cp=strstr(mlist, monstr);
@@ -25265,52 +25265,52 @@ extern signed int ntpcal_leapyears_in_years(signed int years)
   sum = sum - uyear;
   uyear = uyear / 4u;
   sum = sum + uyear;
-  signed int return_value_uint32_2cpl_to_int32$1;
-  return_value_uint32_2cpl_to_int32$1=uint32_2cpl_to_int32(sflag ^ sum);
-  return return_value_uint32_2cpl_to_int32$1;
+  signed int return_value_uint32_2cpl_to_int32_1;
+  return_value_uint32_2cpl_to_int32_1=uint32_2cpl_to_int32(sflag ^ sum);
+  return return_value_uint32_2cpl_to_int32_1;
 }
 
 // ntpcal_ntp64_to_date
 // file ntp_calendar.c line 1444
-extern signed int ntpcal_ntp64_to_date(struct calendar *jd, const union anonymous$44 *ntp)
+extern signed int ntpcal_ntp64_to_date(struct calendar *jd, const union anonymous_44 *ntp)
 {
-  struct anonymous$61 ds;
+  struct anonymous_61 ds;
   ds=ntpcal_daysplit(ntp);
-  signed int return_value_ntpcal_daysec_to_date$1;
-  return_value_ntpcal_daysec_to_date$1=ntpcal_daysec_to_date(jd, ds.lo);
-  ds.hi = ds.hi + return_value_ntpcal_daysec_to_date$1;
-  signed int return_value_ntpcal_rd_to_date$2;
-  return_value_ntpcal_rd_to_date$2=ntpcal_rd_to_date(jd, ds.hi + 693596);
-  return return_value_ntpcal_rd_to_date$2;
+  signed int return_value_ntpcal_daysec_to_date_1;
+  return_value_ntpcal_daysec_to_date_1=ntpcal_daysec_to_date(jd, ds.lo);
+  ds.hi = ds.hi + return_value_ntpcal_daysec_to_date_1;
+  signed int return_value_ntpcal_rd_to_date_2;
+  return_value_ntpcal_rd_to_date_2=ntpcal_rd_to_date(jd, ds.hi + 693596);
+  return return_value_ntpcal_rd_to_date_2;
 }
 
 // ntpcal_ntp_to_date
 // file ntp_calendar.c line 1458
 extern signed int ntpcal_ntp_to_date(struct calendar *jd, unsigned int ntp, const signed long int *piv)
 {
-  union anonymous$44 ntp64;
+  union anonymous_44 ntp64;
   ntp64=ntpcal_ntp_to_ntp(ntp, piv);
-  signed int return_value_ntpcal_ntp64_to_date$1;
-  return_value_ntpcal_ntp64_to_date$1=ntpcal_ntp64_to_date(jd, &ntp64);
-  return return_value_ntpcal_ntp64_to_date$1;
+  signed int return_value_ntpcal_ntp64_to_date_1;
+  return_value_ntpcal_ntp64_to_date_1=ntpcal_ntp64_to_date(jd, &ntp64);
+  return return_value_ntpcal_ntp64_to_date_1;
 }
 
 // ntpcal_ntp_to_ntp
 // file ../include/ntp_calendar.h line 144
-extern union anonymous$44 ntpcal_ntp_to_ntp(unsigned int ntp, const signed long int *pivot)
+extern union anonymous_44 ntpcal_ntp_to_ntp(unsigned int ntp, const signed long int *pivot)
 {
-  union anonymous$44 res;
-  signed long int tmp_if_expr$2;
-  signed long int return_value_now$1;
+  union anonymous_44 res;
+  signed long int tmp_if_expr_2;
+  signed long int return_value_now_1;
   if(!(pivot == ((const signed long int *)NULL)))
-    tmp_if_expr$2 = *pivot;
+    tmp_if_expr_2 = *pivot;
 
   else
   {
-    return_value_now$1=now();
-    tmp_if_expr$2 = return_value_now$1;
+    return_value_now_1=now();
+    tmp_if_expr_2 = return_value_now_1;
   }
-  res.q_s = tmp_if_expr$2;
+  res.q_s = tmp_if_expr_2;
   res.Q_s = res.Q_s - (unsigned long int)0x80000000;
   res.Q_s = res.Q_s + (unsigned long int)(unsigned int)((unsigned int)(719163 - 693596) * (unsigned int)(60 * 60 * 24));
   ntp = ntp - res.D_s.lo;
@@ -25320,20 +25320,20 @@ extern union anonymous$44 ntpcal_ntp_to_ntp(unsigned int ntp, const signed long 
 
 // ntpcal_ntp_to_time
 // file ../include/ntp_calendar.h line 135
-extern union anonymous$44 ntpcal_ntp_to_time(unsigned int ntp, const signed long int *pivot)
+extern union anonymous_44 ntpcal_ntp_to_time(unsigned int ntp, const signed long int *pivot)
 {
-  union anonymous$44 res;
-  signed long int tmp_if_expr$2;
-  signed long int return_value_now$1;
+  union anonymous_44 res;
+  signed long int tmp_if_expr_2;
+  signed long int return_value_now_1;
   if(!(pivot == ((const signed long int *)NULL)))
-    tmp_if_expr$2 = *pivot;
+    tmp_if_expr_2 = *pivot;
 
   else
   {
-    return_value_now$1=now();
-    tmp_if_expr$2 = return_value_now$1;
+    return_value_now_1=now();
+    tmp_if_expr_2 = return_value_now_1;
   }
-  res.q_s = tmp_if_expr$2;
+  res.q_s = tmp_if_expr_2;
   res.Q_s = res.Q_s - (unsigned long int)0x80000000;
   ntp = ntp - (unsigned int)((unsigned int)(719163 - 693596) * (unsigned int)(60 * 60 * 24));
   ntp = ntp - res.D_s.lo;
@@ -25359,20 +25359,20 @@ extern signed int ntpcal_periodic_extend(signed int pivot, signed int value, sig
   {
     if(value >= pivot)
     {
-      unsigned int return_value_int32_to_uint32_2cpl$1;
-      return_value_int32_to_uint32_2cpl$1=int32_to_uint32_2cpl(value);
-      unsigned int return_value_int32_to_uint32_2cpl$2;
-      return_value_int32_to_uint32_2cpl$2=int32_to_uint32_2cpl(pivot);
-      diff = return_value_int32_to_uint32_2cpl$1 - return_value_int32_to_uint32_2cpl$2;
+      unsigned int return_value_int32_to_uint32_2cpl_1;
+      return_value_int32_to_uint32_2cpl_1=int32_to_uint32_2cpl(value);
+      unsigned int return_value_int32_to_uint32_2cpl_2;
+      return_value_int32_to_uint32_2cpl_2=int32_to_uint32_2cpl(pivot);
+      diff = return_value_int32_to_uint32_2cpl_1 - return_value_int32_to_uint32_2cpl_2;
     }
 
     else
     {
-      unsigned int return_value_int32_to_uint32_2cpl$3;
-      return_value_int32_to_uint32_2cpl$3=int32_to_uint32_2cpl(pivot);
-      unsigned int return_value_int32_to_uint32_2cpl$4;
-      return_value_int32_to_uint32_2cpl$4=int32_to_uint32_2cpl(value);
-      diff = return_value_int32_to_uint32_2cpl$3 - return_value_int32_to_uint32_2cpl$4;
+      unsigned int return_value_int32_to_uint32_2cpl_3;
+      return_value_int32_to_uint32_2cpl_3=int32_to_uint32_2cpl(pivot);
+      unsigned int return_value_int32_to_uint32_2cpl_4;
+      return_value_int32_to_uint32_2cpl_4=int32_to_uint32_2cpl(value);
+      diff = return_value_int32_to_uint32_2cpl_3 - return_value_int32_to_uint32_2cpl_4;
       cpl = cpl ^ (char)1;
     }
     diff = diff % (unsigned int)cycle;
@@ -25384,9 +25384,9 @@ extern signed int ntpcal_periodic_extend(signed int pivot, signed int value, sig
       if(!(neg == 0))
         diff = ~diff + (unsigned int)1;
 
-      signed int return_value_uint32_2cpl_to_int32$5;
-      return_value_uint32_2cpl_to_int32$5=uint32_2cpl_to_int32(diff);
-      pivot = pivot + return_value_uint32_2cpl_to_int32$5;
+      signed int return_value_uint32_2cpl_to_int32_5;
+      return_value_uint32_2cpl_to_int32_5=uint32_2cpl_to_int32(diff);
+      pivot = pivot + return_value_uint32_2cpl_to_int32_5;
     }
 
   }
@@ -25398,7 +25398,7 @@ extern signed int ntpcal_periodic_extend(signed int pivot, signed int value, sig
 // file ntp_calendar.c line 873
 extern signed int ntpcal_rd_to_date(struct calendar *jd, signed int rd)
 {
-  struct anonymous$61 split;
+  struct anonymous_61 split;
   signed int leapy;
   unsigned int ymask;
   jd->weekday = (unsigned char)(rd % 7);
@@ -25420,7 +25420,7 @@ extern signed int ntpcal_rd_to_date(struct calendar *jd, signed int rd)
 // file ../include/ntp_calendar.h line 302
 extern signed int ntpcal_rd_to_mstart(signed int rd)
 {
-  struct anonymous$61 split;
+  struct anonymous_61 split;
   signed int leaps;
   split=ntpcal_split_eradays(rd - 1, &leaps);
   split=ntpcal_split_yeardays(split.lo, leaps);
@@ -25431,7 +25431,7 @@ extern signed int ntpcal_rd_to_mstart(signed int rd)
 // file ntp_calendar.c line 919
 extern signed int ntpcal_rd_to_tm(struct tm *utm, signed int rd)
 {
-  struct anonymous$61 split;
+  struct anonymous_61 split;
   signed int leapy;
   utm->tm_wday = rd % 7;
   if(!(utm->tm_wday >= 0))
@@ -25450,9 +25450,9 @@ extern signed int ntpcal_rd_to_tm(struct tm *utm, signed int rd)
 // file ../include/ntp_calendar.h line 296
 extern signed int ntpcal_rd_to_ystart(signed int rd)
 {
-  struct anonymous$61 return_value_ntpcal_split_eradays$1;
-  return_value_ntpcal_split_eradays$1=ntpcal_split_eradays(rd - 1, (signed int *)(void *)0);
-  return rd - return_value_ntpcal_split_eradays$1.lo;
+  struct anonymous_61 return_value_ntpcal_split_eradays_1;
+  return_value_ntpcal_split_eradays_1=ntpcal_split_eradays(rd - 1, (signed int *)(void *)0);
+  return rd - return_value_ntpcal_split_eradays_1.lo;
 }
 
 // ntpcal_set_timefunc
@@ -25469,18 +25469,18 @@ extern signed long int (*ntpcal_set_timefunc(signed long int (*nfunc)(signed lon
 
 // ntpcal_split_eradays
 // file ../include/ntp_calendar.h line 234
-extern struct anonymous$61 ntpcal_split_eradays(signed int days, signed int *isleapyear)
+extern struct anonymous_61 ntpcal_split_eradays(signed int days, signed int *isleapyear)
 {
-  struct anonymous$61 res;
+  struct anonymous_61 res;
   signed int n100;
   signed int n001;
   unsigned int uday;
   unsigned int Q;
   unsigned int sflag;
   sflag=int32_sflag(days);
-  unsigned int return_value_int32_to_uint32_2cpl$1;
-  return_value_int32_to_uint32_2cpl$1=int32_to_uint32_2cpl(days);
-  uday=uint32_saturate(return_value_int32_to_uint32_2cpl$1, sflag);
+  unsigned int return_value_int32_to_uint32_2cpl_1;
+  return_value_int32_to_uint32_2cpl_1=int32_to_uint32_2cpl(days);
+  uday=uint32_saturate(return_value_int32_to_uint32_2cpl_1, sflag);
   uday = 4u * uday | 3u;
   Q = sflag ^ (sflag ^ uday) / (unsigned int)(4 * (25 * (3 * 365 + 366) - 1) + 1);
   uday = uday - Q * (unsigned int)(4 * (25 * (3 * 365 + 366) - 1) + 1);
@@ -25498,17 +25498,17 @@ extern struct anonymous$61 ntpcal_split_eradays(signed int days, signed int *isl
 
 // ntpcal_split_yeardays
 // file ntp_calendar.c line 844
-extern struct anonymous$61 ntpcal_split_yeardays(signed int eyd, signed int isleapyear)
+extern struct anonymous_61 ntpcal_split_yeardays(signed int eyd, signed int isleapyear)
 {
-  struct anonymous$61 res;
+  struct anonymous_61 res;
   const unsigned short int *lt = real_month_table[(signed long int)(isleapyear != 0)];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(eyd >= 0)
-    tmp_if_expr$1 = eyd < (signed int)lt[(signed long int)12] ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = eyd < (signed int)lt[(signed long int)12] ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     res.hi = eyd >> 5;
     if(eyd >= (signed int)lt[(signed long int)(1 + res.hi)])
@@ -25527,89 +25527,89 @@ extern struct anonymous$61 ntpcal_split_yeardays(signed int eyd, signed int isle
 
 // ntpcal_time_to_date
 // file ntp_calendar.c line 1040
-extern signed int ntpcal_time_to_date(struct calendar *jd, const union anonymous$44 *ts)
+extern signed int ntpcal_time_to_date(struct calendar *jd, const union anonymous_44 *ts)
 {
-  struct anonymous$61 ds;
+  struct anonymous_61 ds;
   ds=ntpcal_daysplit(ts);
-  signed int return_value_ntpcal_daysec_to_date$1;
-  return_value_ntpcal_daysec_to_date$1=ntpcal_daysec_to_date(jd, ds.lo);
-  ds.hi = ds.hi + return_value_ntpcal_daysec_to_date$1;
+  signed int return_value_ntpcal_daysec_to_date_1;
+  return_value_ntpcal_daysec_to_date_1=ntpcal_daysec_to_date(jd, ds.lo);
+  ds.hi = ds.hi + return_value_ntpcal_daysec_to_date_1;
   ds.hi = ds.hi + 719163;
-  signed int return_value_ntpcal_rd_to_date$2;
-  return_value_ntpcal_rd_to_date$2=ntpcal_rd_to_date(jd, ds.hi);
-  return return_value_ntpcal_rd_to_date$2;
+  signed int return_value_ntpcal_rd_to_date_2;
+  return_value_ntpcal_rd_to_date_2=ntpcal_rd_to_date(jd, ds.hi);
+  return return_value_ntpcal_rd_to_date_2;
 }
 
 // ntpcal_tm_to_daysec
 // file ntp_calendar.c line 1407
 extern signed int ntpcal_tm_to_daysec(struct tm *utm)
 {
-  signed int return_value_ntpcal_etime_to_seconds$1;
-  return_value_ntpcal_etime_to_seconds$1=ntpcal_etime_to_seconds(utm->tm_hour, utm->tm_min, utm->tm_sec);
-  return return_value_ntpcal_etime_to_seconds$1;
+  signed int return_value_ntpcal_etime_to_seconds_1;
+  return_value_ntpcal_etime_to_seconds_1=ntpcal_etime_to_seconds(utm->tm_hour, utm->tm_min, utm->tm_sec);
+  return return_value_ntpcal_etime_to_seconds_1;
 }
 
 // ntpcal_tm_to_rd
 // file ntp_calendar.c line 1311
 extern signed int ntpcal_tm_to_rd(struct tm *utm)
 {
-  signed int return_value_ntpcal_edate_to_eradays$1;
-  return_value_ntpcal_edate_to_eradays$1=ntpcal_edate_to_eradays(utm->tm_year + 1899, utm->tm_mon, utm->tm_mday - 1);
-  return return_value_ntpcal_edate_to_eradays$1 + 1;
+  signed int return_value_ntpcal_edate_to_eradays_1;
+  return_value_ntpcal_edate_to_eradays_1=ntpcal_edate_to_eradays(utm->tm_year + 1899, utm->tm_mon, utm->tm_mday - 1);
+  return return_value_ntpcal_edate_to_eradays_1 + 1;
 }
 
 // ntpcal_weekday_close
 // file ntp_calendar.c line 1533
 extern signed int ntpcal_weekday_close(signed int rdn, signed int dow)
 {
-  signed int return_value_ntpcal_periodic_extend$1;
-  return_value_ntpcal_periodic_extend$1=ntpcal_periodic_extend(rdn - 3, dow, 7);
-  return return_value_ntpcal_periodic_extend$1;
+  signed int return_value_ntpcal_periodic_extend_1;
+  return_value_ntpcal_periodic_extend_1=ntpcal_periodic_extend(rdn - 3, dow, 7);
+  return return_value_ntpcal_periodic_extend_1;
 }
 
 // ntpcal_weekday_ge
 // file ntp_calendar.c line 1524
 extern signed int ntpcal_weekday_ge(signed int rdn, signed int dow)
 {
-  signed int return_value_ntpcal_periodic_extend$1;
-  return_value_ntpcal_periodic_extend$1=ntpcal_periodic_extend(rdn, dow, 7);
-  return return_value_ntpcal_periodic_extend$1;
+  signed int return_value_ntpcal_periodic_extend_1;
+  return_value_ntpcal_periodic_extend_1=ntpcal_periodic_extend(rdn, dow, 7);
+  return return_value_ntpcal_periodic_extend_1;
 }
 
 // ntpcal_weekday_gt
 // file ntp_calendar.c line 1515
 extern signed int ntpcal_weekday_gt(signed int rdn, signed int dow)
 {
-  signed int return_value_ntpcal_periodic_extend$1;
-  return_value_ntpcal_periodic_extend$1=ntpcal_periodic_extend(rdn + 1, dow, 7);
-  return return_value_ntpcal_periodic_extend$1;
+  signed int return_value_ntpcal_periodic_extend_1;
+  return_value_ntpcal_periodic_extend_1=ntpcal_periodic_extend(rdn + 1, dow, 7);
+  return return_value_ntpcal_periodic_extend_1;
 }
 
 // ntpcal_weekday_le
 // file ../include/ntp_calendar.h line 380
 extern signed int ntpcal_weekday_le(signed int rdn, signed int dow)
 {
-  signed int return_value_ntpcal_periodic_extend$1;
-  return_value_ntpcal_periodic_extend$1=ntpcal_periodic_extend(rdn, dow, -7);
-  return return_value_ntpcal_periodic_extend$1;
+  signed int return_value_ntpcal_periodic_extend_1;
+  return_value_ntpcal_periodic_extend_1=ntpcal_periodic_extend(rdn, dow, -7);
+  return return_value_ntpcal_periodic_extend_1;
 }
 
 // ntpcal_weekday_lt
 // file ntp_calendar.c line 1551
 extern signed int ntpcal_weekday_lt(signed int rdn, signed int dow)
 {
-  signed int return_value_ntpcal_periodic_extend$1;
-  return_value_ntpcal_periodic_extend$1=ntpcal_periodic_extend(rdn - 1, dow, -7);
-  return return_value_ntpcal_periodic_extend$1;
+  signed int return_value_ntpcal_periodic_extend_1;
+  return_value_ntpcal_periodic_extend_1=ntpcal_periodic_extend(rdn - 1, dow, -7);
+  return return_value_ntpcal_periodic_extend_1;
 }
 
 // ntpcal_year_to_ystart
 // file ../include/ntp_calendar.h line 289
 extern signed int ntpcal_year_to_ystart(signed int year)
 {
-  signed int return_value_ntpcal_days_in_years$1;
-  return_value_ntpcal_days_in_years$1=ntpcal_days_in_years(year - 1);
-  return return_value_ntpcal_days_in_years$1 + 1;
+  signed int return_value_ntpcal_days_in_years_1;
+  return_value_ntpcal_days_in_years_1=ntpcal_days_in_years(year - 1);
+  return return_value_ntpcal_days_in_years_1 + 1;
 }
 
 // numtoa
@@ -25619,13 +25619,13 @@ extern char * numtoa(unsigned int num)
   unsigned int netnum;
   char *buf;
   netnum=ntohl(num);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$1 = lib_nextbuf;
+    tmp_post_1 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    buf = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+    buf = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
@@ -25639,33 +25639,33 @@ extern char * numtohost(unsigned int netnum)
 {
   char *bp;
   struct hostent *hp;
-  unsigned int return_value_ntohl$2;
-  return_value_ntohl$2=ntohl(netnum);
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_ntohl$3;
-  if((0xff000000 & return_value_ntohl$2) == 2130706432u)
+  unsigned int return_value_ntohl_2;
+  return_value_ntohl_2=ntohl(netnum);
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_ntohl_3;
+  if((0xff000000 & return_value_ntohl_2) == 2130706432u)
   {
-    return_value_ntohl$3=ntohl(netnum);
-    tmp_if_expr$4 = return_value_ntohl$3 != (unsigned int)0x7f000001 ? (_Bool)1 : (_Bool)0;
+    return_value_ntohl_3=ntohl(netnum);
+    tmp_if_expr_4 = return_value_ntohl_3 != (unsigned int)0x7f000001 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
     hp=gethostbyaddr((const void *)(char *)&netnum, (unsigned int)sizeof(unsigned int) /*4ul*/ , 2);
-    tmp_if_expr$5 = hp == ((struct hostent *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = hp == ((struct hostent *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  char *return_value_numtoa$1;
-  signed int tmp_post$6;
-  if(tmp_if_expr$5)
+  char *return_value_numtoa_1;
+  signed int tmp_post_6;
+  if(tmp_if_expr_5)
   {
-    return_value_numtoa$1=numtoa(netnum);
-    return return_value_numtoa$1;
+    return_value_numtoa_1=numtoa(netnum);
+    return return_value_numtoa_1;
   }
 
   else
@@ -25673,9 +25673,9 @@ extern char * numtohost(unsigned int netnum)
     do
     {
       bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-      tmp_post$6 = lib_nextbuf;
+      tmp_post_6 = lib_nextbuf;
       lib_nextbuf = lib_nextbuf + 1;
-      bp = &lib_stringbuf[(signed long int)tmp_post$6][(signed long int)0];
+      bp = &lib_stringbuf[(signed long int)tmp_post_6][(signed long int)0];
       lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
     }
     while((_Bool)0);
@@ -25690,9 +25690,9 @@ extern signed int octtoint(const char *str, unsigned long int *ival)
 {
   unsigned long int u;
   const char *cp = str;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  const char *tmp_post$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  const char *tmp_post_4;
   if((signed int)*cp == 0)
     return 0;
 
@@ -25701,28 +25701,28 @@ extern signed int octtoint(const char *str, unsigned long int *ival)
     u = (unsigned long int)0;
     while(!((signed int)*cp == 0))
     {
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
-        tmp_if_expr$2 = (_Bool)1;
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)*cp == 56 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = (signed int)*cp == 56 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*cp == 57 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)*cp == 57 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         return 0;
 
       if(u >= 536870912ul)
         return 0;
 
       u = u << 3;
-      tmp_post$4 = cp;
+      tmp_post_4 = cp;
       cp = cp + 1l;
-      u = u + (unsigned long int)((signed int)*tmp_post$4 - 48);
+      u = u + (unsigned long int)((signed int)*tmp_post_4 - 48);
     }
     *ival = u;
     return 1;
@@ -25746,18 +25746,18 @@ extern void * oreallocarray(void *optr, unsigned long int nmemb, unsigned long i
     exit(1);
   }
 
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz(optr, size * nmemb, (unsigned long int)0, 0);
-  return return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz(optr, size * nmemb, (unsigned long int)0, 0);
+  return return_value_ereallocz_1;
 }
 
 // peer_st_flags
 // file statestr.c line 391
 static const char * peer_st_flags(unsigned char pst)
 {
-  const char *return_value_decode_bitflags$1;
-  return_value_decode_bitflags$1=decode_bitflags((signed int)pst, ", ", peer_st_bits, sizeof(struct codestring [5l]) /*80ul*/  / sizeof(struct codestring) /*16ul*/ );
-  return return_value_decode_bitflags$1;
+  const char *return_value_decode_bitflags_1;
+  return_value_decode_bitflags_1=decode_bitflags((signed int)pst, ", ", peer_st_bits, sizeof(struct codestring [5l]) /*80ul*/  / sizeof(struct codestring) /*16ul*/ );
+  return return_value_decode_bitflags_1;
 }
 
 // pipe_socketpair
@@ -25817,7 +25817,7 @@ static inline struct isc__task * pop_readyq(struct isc__taskmgr *manager)
 
         else
         {
-          isc_assertion_failed("./../lib/isc/task.c", 954, (enum anonymous$45)isc_assertiontype_insist, "(manager->ready_tasks).tail == (task)");
+          isc_assertion_failed("./../lib/isc/task.c", 954, (enum anonymous_45)isc_assertiontype_insist, "(manager->ready_tasks).tail == (task)");
           (_Bool)0;
         }
         manager->ready_tasks.tail = task->ready_link.prev;
@@ -25832,7 +25832,7 @@ static inline struct isc__task * pop_readyq(struct isc__taskmgr *manager)
 
         else
         {
-          isc_assertion_failed("./../lib/isc/task.c", 954, (enum anonymous$45)isc_assertiontype_insist, "(manager->ready_tasks).head == (task)");
+          isc_assertion_failed("./../lib/isc/task.c", 954, (enum anonymous_45)isc_assertiontype_insist, "(manager->ready_tasks).head == (task)");
           (_Bool)0;
         }
         manager->ready_tasks.head = task->ready_link.next;
@@ -25858,7 +25858,7 @@ static inline struct isc__task * pop_readyq(struct isc__taskmgr *manager)
 
           else
           {
-            isc_assertion_failed("./../lib/isc/task.c", 957, (enum anonymous$45)isc_assertiontype_insist, "(manager->ready_priority_tasks).tail == (task)");
+            isc_assertion_failed("./../lib/isc/task.c", 957, (enum anonymous_45)isc_assertiontype_insist, "(manager->ready_priority_tasks).tail == (task)");
             (_Bool)0;
           }
           manager->ready_priority_tasks.tail = task->ready_priority_link.prev;
@@ -25873,7 +25873,7 @@ static inline struct isc__task * pop_readyq(struct isc__taskmgr *manager)
 
           else
           {
-            isc_assertion_failed("./../lib/isc/task.c", 957, (enum anonymous$45)isc_assertiontype_insist, "(manager->ready_priority_tasks).head == (task)");
+            isc_assertion_failed("./../lib/isc/task.c", 957, (enum anonymous_45)isc_assertiontype_insist, "(manager->ready_priority_tasks).head == (task)");
             (_Bool)0;
           }
           manager->ready_priority_tasks.head = task->ready_priority_link.next;
@@ -25894,13 +25894,13 @@ static inline struct isc__task * pop_readyq(struct isc__taskmgr *manager)
 static void prepare_child_sems(struct blocking_child_tag *c)
 {
   unsigned long int octets;
-  if(c->blocking_req_ready == ((union anonymous$65 *)NULL))
+  if(c->blocking_req_ready == ((union anonymous_65 *)NULL))
   {
-    octets = sizeof(union anonymous$65) /*32ul*/ ;
-    octets = octets + sizeof(union anonymous$65) /*32ul*/ ;
-    void *return_value_ereallocz$1;
-    return_value_ereallocz$1=ereallocz((void *)0, octets, (unsigned long int)0, 1);
-    c->blocking_req_ready = (union anonymous$65 *)return_value_ereallocz$1;
+    octets = sizeof(union anonymous_65) /*32ul*/ ;
+    octets = octets + sizeof(union anonymous_65) /*32ul*/ ;
+    void *return_value_ereallocz_1;
+    return_value_ereallocz_1=ereallocz((void *)0, octets, (unsigned long int)0, 1);
+    c->blocking_req_ready = (union anonymous_65 *)return_value_ereallocz_1;
     c->wake_scheduled_sleep = (signed long int)1 + c->blocking_req_ready;
   }
 
@@ -25915,11 +25915,11 @@ static void prepare_child_sems(struct blocking_child_tag *c)
 
 // prettydate
 // file prettydate.c line 205
-extern char * prettydate(struct anonymous$38 *ts)
+extern char * prettydate(struct anonymous_38 *ts)
 {
-  char *return_value_common_prettydate$1;
-  return_value_common_prettydate$1=common_prettydate(ts, 1);
-  return return_value_common_prettydate$1;
+  char *return_value_common_prettydate_1;
+  return_value_common_prettydate_1=common_prettydate(ts, 1);
+  return return_value_common_prettydate_1;
 }
 
 // priv_timesplit
@@ -25942,9 +25942,9 @@ static signed int priv_timesplit(signed int *split, signed int ts)
   split[(signed long int)0] = (signed int)(uh - ud * (unsigned int)24);
   split[(signed long int)1] = (signed int)(um - uh * (unsigned int)60);
   split[(signed long int)2] = (signed int)(us - um * (unsigned int)60);
-  signed int return_value_uint32_2cpl_to_int32$1;
-  return_value_uint32_2cpl_to_int32$1=uint32_2cpl_to_int32(ud);
-  return return_value_uint32_2cpl_to_int32$1;
+  signed int return_value_uint32_2cpl_to_int32_1;
+  return_value_uint32_2cpl_to_int32_1=uint32_2cpl_to_int32(ud);
+  return return_value_uint32_2cpl_to_int32_1;
 }
 
 // process_blocking_resp
@@ -25986,16 +25986,16 @@ static double propdelay(double dg, double h, signed int n)
   double theta;
   double td;
   theta = dg / (6370.0 * (double)(2 * n));
-  double return_value_sin$1;
-  return_value_sin$1=sin(theta);
-  double return_value_tan$2;
-  return_value_tan$2=tan(theta / (double)2);
-  double return_value_atan$3;
-  return_value_atan$3=atan(h / (6370.0 * return_value_sin$1) + return_value_tan$2);
-  phi = 3.1415926536 / 2.0 - return_value_atan$3;
-  double return_value_sin$4;
-  return_value_sin$4=sin(phi);
-  td = dg / (299800.0 * return_value_sin$4);
+  double return_value_sin_1;
+  return_value_sin_1=sin(theta);
+  double return_value_tan_2;
+  return_value_tan_2=tan(theta / (double)2);
+  double return_value_atan_3;
+  return_value_atan_3=atan(h / (6370.0 * return_value_sin_1) + return_value_tan_2);
+  phi = 3.1415926536 / 2.0 - return_value_atan_3;
+  double return_value_sin_4;
+  return_value_sin_4=sin(phi);
+  td = dg / (299800.0 * return_value_sin_4);
   if(debug >= 2)
     printf("propdelay dist %g height %g hops %d time %g\n", dg, h, n, td);
 
@@ -26062,7 +26062,7 @@ __CPROVER_DUMP_L1:
 
       else
       {
-        isc_assertion_failed("recvbuff.c", 283, (enum anonymous$45)isc_assertiontype_insist, "punlinked == rbufp");
+        isc_assertion_failed("recvbuff.c", 283, (enum anonymous_45)isc_assertiontype_insist, "punlinked == rbufp");
         (_Bool)0;
       }
       full_recvbufs = full_recvbufs - 1ul;
@@ -26128,14 +26128,14 @@ extern signed int queue_blocking_request(enum blocking_work_req_tag rtype, void 
   req_hdr.done_func = done_func;
   req_hdr.context = context;
   child_slot = (unsigned int)0x7fffffff * 2U + 1U;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   static unsigned int intres_slot = (unsigned int)0x7fffffff * 2U + 1U;
   if(intres_slot == 1U || !(worker_per_query == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = blocking_children[(signed long int)intres_slot]->reusable != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = blocking_children[(signed long int)intres_slot]->reusable != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     child_slot=available_blocking_child_slot();
 
   if(worker_per_query == 0)
@@ -26156,24 +26156,24 @@ extern signed int queue_blocking_request(enum blocking_work_req_tag rtype, void 
 
   else
   {
-    isc_assertion_failed("ntp_worker.c", 190, (enum anonymous$45)isc_assertiontype_insist, "(0x7fffffff * 2U + 1U) != child_slot");
+    isc_assertion_failed("ntp_worker.c", 190, (enum anonymous_45)isc_assertiontype_insist, "(0x7fffffff * 2U + 1U) != child_slot");
     (_Bool)0;
   }
   c = blocking_children[(signed long int)child_slot];
   if(c == ((struct blocking_child_tag *)NULL))
   {
-    void *return_value_ereallocz$2;
-    return_value_ereallocz$2=ereallocz((void *)0, sizeof(struct blocking_child_tag) /*128ul*/ , (unsigned long int)0, 1);
-    c = (struct blocking_child_tag *)return_value_ereallocz$2;
+    void *return_value_ereallocz_2;
+    return_value_ereallocz_2=ereallocz((void *)0, sizeof(struct blocking_child_tag) /*128ul*/ , (unsigned long int)0, 1);
+    c = (struct blocking_child_tag *)return_value_ereallocz_2;
     c->resp_read_pipe = -1;
     c->resp_write_pipe = -1;
     blocking_children[(signed long int)child_slot] = c;
   }
 
   req_hdr.child_idx = child_slot;
-  signed int return_value_send_blocking_req_internal$3;
-  return_value_send_blocking_req_internal$3=send_blocking_req_internal(c, &req_hdr, req);
-  return return_value_send_blocking_req_internal$3;
+  signed int return_value_send_blocking_req_internal_3;
+  return_value_send_blocking_req_internal_3=send_blocking_req_internal(c, &req_hdr, req);
+  return return_value_send_blocking_req_internal_3;
 }
 
 // queue_blocking_response
@@ -26185,9 +26185,9 @@ extern signed int queue_blocking_response(struct blocking_child_tag *c, struct b
   resp->rtype = req->rtype;
   resp->context = req->context;
   resp->done_func = req->done_func;
-  signed int return_value_send_blocking_resp_internal$1;
-  return_value_send_blocking_resp_internal$1=send_blocking_resp_internal(c, resp);
-  return return_value_send_blocking_resp_internal$1;
+  signed int return_value_send_blocking_resp_internal_1;
+  return_value_send_blocking_resp_internal_1=send_blocking_resp_internal(c, resp);
+  return return_value_send_blocking_resp_internal_1;
 }
 
 // queue_req_pointer
@@ -26206,27 +26206,27 @@ extern struct blocking_pipe_header_tag * receive_blocking_req_internal(struct bl
 {
   struct blocking_pipe_header_tag *req;
   signed int rc;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=wait_for_sem(c->blocking_req_ready, (struct timespec *)(void *)0);
     if(rc == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = 4 == *return_value___errno_location$1 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = 4 == *return_value___errno_location_1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(rc == 0)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("work_thread.c", 267, (enum anonymous$45)isc_assertiontype_insist, "0 == rc");
+    isc_assertion_failed("work_thread.c", 267, (enum anonymous_45)isc_assertiontype_insist, "0 == rc");
     (_Bool)0;
   }
   req = c->workitems[(signed long int)c->next_workeritem];
@@ -26235,7 +26235,7 @@ extern struct blocking_pipe_header_tag * receive_blocking_req_internal(struct bl
 
   else
   {
-    isc_assertion_failed("work_thread.c", 271, (enum anonymous$45)isc_assertiontype_insist, "((void *)0) != req");
+    isc_assertion_failed("work_thread.c", 271, (enum anonymous_45)isc_assertiontype_insist, "((void *)0) != req");
     (_Bool)0;
   }
   c->workitems[(signed long int)c->next_workeritem] = (struct blocking_pipe_header_tag *)(void *)0;
@@ -26256,23 +26256,23 @@ extern struct blocking_pipe_header_tag * receive_blocking_resp_internal(struct b
   struct blocking_pipe_header_tag *removed;
   signed int rc;
   char scratch[32l];
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed long int return_value_read$3;
-    return_value_read$3=read(c->resp_read_pipe, (void *)scratch, sizeof(char [32l]) /*32ul*/ );
-    rc = (signed int)return_value_read$3;
+    signed long int return_value_read_3;
+    return_value_read_3=read(c->resp_read_pipe, (void *)scratch, sizeof(char [32l]) /*32ul*/ );
+    rc = (signed int)return_value_read_3;
     if(rc == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = 4 == *return_value___errno_location$1 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = 4 == *return_value___errno_location_1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   removed = c->responses[(signed long int)c->next_workresp];
   if(!(removed == ((struct blocking_pipe_header_tag *)NULL)))
   {
@@ -26296,14 +26296,14 @@ __CPROVER_DUMP_L4:
 // file numtoa.c line 38
 extern const char * refid_str(unsigned int refid, signed int stratum)
 {
-  char *refid_str$$1$$text;
+  char *refid_str__1__text;
   unsigned long int tlen;
-  char *return_value_numtoa$1;
-  signed int tmp_post$2;
+  char *return_value_numtoa_1;
+  signed int tmp_post_2;
   if(stratum >= 2)
   {
-    return_value_numtoa$1=numtoa(refid);
-    return return_value_numtoa$1;
+    return_value_numtoa_1=numtoa(refid);
+    return return_value_numtoa_1;
   }
 
   else
@@ -26311,45 +26311,45 @@ extern const char * refid_str(unsigned int refid, signed int stratum)
     do
     {
       bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-      tmp_post$2 = lib_nextbuf;
+      tmp_post_2 = lib_nextbuf;
       lib_nextbuf = lib_nextbuf + 1;
-      refid_str$$1$$text = &lib_stringbuf[(signed long int)tmp_post$2][(signed long int)0];
+      refid_str__1__text = &lib_stringbuf[(signed long int)tmp_post_2][(signed long int)0];
       lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
     }
     while((_Bool)0);
-    refid_str$$1$$text[(signed long int)0] = (char)46;
-    memcpy((void *)&refid_str$$1$$text[(signed long int)1], (const void *)&refid, sizeof(unsigned int) /*4ul*/ );
-    refid_str$$1$$text[(signed long int)((unsigned long int)1 + sizeof(unsigned int) /*4ul*/ )] = (char)0;
-    tlen=strlen(refid_str$$1$$text);
-    refid_str$$1$$text[(signed long int)tlen] = (char)46;
-    refid_str$$1$$text[(signed long int)(tlen + (unsigned long int)1)] = (char)0;
-    return refid_str$$1$$text;
+    refid_str__1__text[(signed long int)0] = (char)46;
+    memcpy((void *)&refid_str__1__text[(signed long int)1], (const void *)&refid, sizeof(unsigned int) /*4ul*/ );
+    refid_str__1__text[(signed long int)((unsigned long int)1 + sizeof(unsigned int) /*4ul*/ )] = (char)0;
+    tlen=strlen(refid_str__1__text);
+    refid_str__1__text[(signed long int)tlen] = (char)46;
+    refid_str__1__text[(signed long int)(tlen + (unsigned long int)1)] = (char)0;
+    return refid_str__1__text;
   }
 }
 
 // refnumtoa
 // file refnumtoa.c line 12
-extern const char * refnumtoa(union anonymous$47 *num)
+extern const char * refnumtoa(union anonymous_47 *num)
 {
   unsigned int netnum;
   char *buf;
   const char *rclock;
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_ntohl$2;
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_ntohl_2;
   if((signed int)num->sa.sa_family == 2)
   {
-    return_value_ntohl$2=ntohl(num->sa4.sin_addr.s_addr);
-    tmp_if_expr$3 = (return_value_ntohl$2 & 0xffff0000) == (unsigned int)0x7f7f0000 ? (_Bool)1 : (_Bool)0;
+    return_value_ntohl_2=ntohl(num->sa4.sin_addr.s_addr);
+    tmp_if_expr_3 = (return_value_ntohl_2 & 0xffff0000) == (unsigned int)0x7f7f0000 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  const char *return_value_socktoa$1;
-  signed int tmp_post$4;
-  if(!tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  const char *return_value_socktoa_1;
+  signed int tmp_post_4;
+  if(!tmp_if_expr_3)
   {
-    return_value_socktoa$1=socktoa(num);
-    return return_value_socktoa$1;
+    return_value_socktoa_1=socktoa(num);
+    return return_value_socktoa_1;
   }
 
   else
@@ -26357,9 +26357,9 @@ extern const char * refnumtoa(union anonymous$47 *num)
     do
     {
       bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-      tmp_post$4 = lib_nextbuf;
+      tmp_post_4 = lib_nextbuf;
       lib_nextbuf = lib_nextbuf + 1;
-      buf = &lib_stringbuf[(signed long int)tmp_post$4][(signed long int)0];
+      buf = &lib_stringbuf[(signed long int)tmp_post_4][(signed long int)0];
       lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
     }
     while((_Bool)0);
@@ -26384,7 +26384,7 @@ static unsigned int register_table(unsigned int base, unsigned int nresults, con
 
   else
   {
-    isc_assertion_failed("./../lib/isc/result.c", 121, (enum anonymous$45)isc_assertiontype_require, "base % 65536 == 0");
+    isc_assertion_failed("./../lib/isc/result.c", 121, (enum anonymous_45)isc_assertiontype_require, "base % 65536 == 0");
     (_Bool)0;
   }
   if(!(nresults >= 65537u))
@@ -26392,7 +26392,7 @@ static unsigned int register_table(unsigned int base, unsigned int nresults, con
 
   else
   {
-    isc_assertion_failed("./../lib/isc/result.c", 122, (enum anonymous$45)isc_assertiontype_require, "nresults <= 65536");
+    isc_assertion_failed("./../lib/isc/result.c", 122, (enum anonymous_45)isc_assertiontype_require, "nresults <= 65536");
     (_Bool)0;
   }
   if(!(txt == ((const char **)NULL)))
@@ -26400,12 +26400,12 @@ static unsigned int register_table(unsigned int base, unsigned int nresults, con
 
   else
   {
-    isc_assertion_failed("./../lib/isc/result.c", 123, (enum anonymous$45)isc_assertiontype_require, "txt != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/result.c", 123, (enum anonymous_45)isc_assertiontype_require, "txt != ((void *)0)");
     (_Bool)0;
   }
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct resulttable) /*48ul*/ );
-  table = (struct resulttable *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct resulttable) /*48ul*/ );
+  table = (struct resulttable *)return_value_malloc_1;
   if(table == ((struct resulttable *)NULL))
     return (unsigned int)1;
 
@@ -26424,9 +26424,9 @@ static unsigned int register_table(unsigned int base, unsigned int nresults, con
     while((_Bool)0);
     do
     {
-      signed int return_value_pthread_mutex_lock$2;
-      return_value_pthread_mutex_lock$2=pthread_mutex_lock(&lock);
-      if(return_value_pthread_mutex_lock$2 == 0)
+      signed int return_value_pthread_mutex_lock_2;
+      return_value_pthread_mutex_lock_2=pthread_mutex_lock(&lock);
+      if(return_value_pthread_mutex_lock_2 == 0)
         (_Bool)1;
 
       else
@@ -26453,9 +26453,9 @@ static unsigned int register_table(unsigned int base, unsigned int nresults, con
     while((_Bool)0);
     do
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&lock);
-      if(return_value_pthread_mutex_unlock$3 == 0)
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&lock);
+      if(return_value_pthread_mutex_unlock_3 == 0)
         (_Bool)1;
 
       else
@@ -26491,27 +26491,27 @@ static void reload_resolv_conf(struct dnsworker_ctx_tag *worker_ctx)
 // file ../include/ntp_worker.h line 133
 extern signed int req_child_exit(struct blocking_child_tag *c)
 {
-  signed int return_value_queue_req_pointer$1;
-  return_value_queue_req_pointer$1=queue_req_pointer(c, (struct blocking_pipe_header_tag *)(signed long int)-1);
-  return return_value_queue_req_pointer$1;
+  signed int return_value_queue_req_pointer_1;
+  return_value_queue_req_pointer_1=queue_req_pointer(c, (struct blocking_pipe_header_tag *)(signed long int)-1);
+  return return_value_queue_req_pointer_1;
 }
 
 // res_access_flags
 // file statestr.c line 411
 extern const char * res_access_flags(unsigned short int af)
 {
-  const char *return_value_decode_bitflags$1;
-  return_value_decode_bitflags$1=decode_bitflags((signed int)af, " ", res_access_bits, sizeof(struct codestring [12l]) /*192ul*/  / sizeof(struct codestring) /*16ul*/ );
-  return return_value_decode_bitflags$1;
+  const char *return_value_decode_bitflags_1;
+  return_value_decode_bitflags_1=decode_bitflags((signed int)af, " ", res_access_bits, sizeof(struct codestring [12l]) /*192ul*/  / sizeof(struct codestring) /*16ul*/ );
+  return return_value_decode_bitflags_1;
 }
 
 // res_match_flags
 // file statestr.c line 401
 extern const char * res_match_flags(unsigned short int mf)
 {
-  const char *return_value_decode_bitflags$1;
-  return_value_decode_bitflags$1=decode_bitflags((signed int)mf, " ", res_match_bits, sizeof(struct codestring [3l]) /*48ul*/  / sizeof(struct codestring) /*16ul*/ );
-  return return_value_decode_bitflags$1;
+  const char *return_value_decode_bitflags_1;
+  return_value_decode_bitflags_1=decode_bitflags((signed int)mf, " ", res_match_bits, sizeof(struct codestring [3l]) /*48ul*/  / sizeof(struct codestring) /*16ul*/ );
+  return return_value_decode_bitflags_1;
 }
 
 // reserve_dnschild_ctx
@@ -26530,18 +26530,18 @@ static unsigned int reserve_dnschild_ctx(void)
     for( ; !(c >= dnschild_contexts_alloc); c = c + 1u)
       if(dnschild_contexts[(signed long int)c] == ((struct dnschild_ctx_tag *)NULL))
       {
-        void *return_value_ereallocz$1;
-        return_value_ereallocz$1=ereallocz((void *)0, cs, (unsigned long int)0, 1);
-        dnschild_contexts[(signed long int)c] = (struct dnschild_ctx_tag *)return_value_ereallocz$1;
+        void *return_value_ereallocz_1;
+        return_value_ereallocz_1=ereallocz((void *)0, cs, (unsigned long int)0, 1);
+        dnschild_contexts[(signed long int)c] = (struct dnschild_ctx_tag *)return_value_ereallocz_1;
         return c;
       }
 
     new_alloc = dnschild_contexts_alloc + (unsigned int)20;
     new_octets = (unsigned long int)new_alloc * ps;
     octets = (unsigned long int)dnschild_contexts_alloc * ps;
-    void *return_value_ereallocz$2;
-    return_value_ereallocz$2=ereallocz((void *)dnschild_contexts, new_octets, octets, 1);
-    dnschild_contexts = (struct dnschild_ctx_tag **)return_value_ereallocz$2;
+    void *return_value_ereallocz_2;
+    return_value_ereallocz_2=ereallocz((void *)dnschild_contexts, new_octets, octets, 1);
+    dnschild_contexts = (struct dnschild_ctx_tag **)return_value_ereallocz_2;
     dnschild_contexts_alloc = new_alloc;
   }
 }
@@ -26557,11 +26557,11 @@ static unsigned int roll_log(struct isc_logchannel *channel)
   char new[4097l];
   const char *path;
   unsigned int result;
-  _Bool tmp_if_expr$2;
-  const char *return_value_isc_result_totext$1;
-  const char *return_value_isc_result_totext$3;
-  const char *return_value_isc_result_totext$4;
-  const char *return_value_isc_result_totext$5;
+  _Bool tmp_if_expr_2;
+  const char *return_value_isc_result_totext_1;
+  const char *return_value_isc_result_totext_3;
+  const char *return_value_isc_result_totext_4;
+  const char *return_value_isc_result_totext_5;
   if(channel->destination.file.versions == -2)
     return (unsigned int)0;
 
@@ -26575,11 +26575,11 @@ static unsigned int roll_log(struct isc_logchannel *channel)
     else
     {
       if(channel->destination.file.versions == -1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = channel->destination.file.versions > greatest ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = channel->destination.file.versions > greatest ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_2)
         do
         {
           greatest = greatest - 1;
@@ -26594,8 +26594,8 @@ static unsigned int roll_log(struct isc_logchannel *channel)
             result=isc_file_remove(current);
           if(!(result == 0u) && !(result == 38u))
           {
-            return_value_isc_result_totext$1=isc_result_totext(result);
-            syslog(3, "unable to remove log file '%s.%d': %s", path, greatest, return_value_isc_result_totext$1);
+            return_value_isc_result_totext_1=isc_result_totext(result);
+            syslog(3, "unable to remove log file '%s.%d': %s", path, greatest, return_value_isc_result_totext_1);
           }
 
         }
@@ -26622,8 +26622,8 @@ static unsigned int roll_log(struct isc_logchannel *channel)
 
         if(!(result == 0u) && !(result == 38u))
         {
-          return_value_isc_result_totext$3=isc_result_totext(result);
-          syslog(3, "unable to rename log file '%s.%d' to '%s.%d': %s", path, i - 1, path, i, return_value_isc_result_totext$3);
+          return_value_isc_result_totext_3=isc_result_totext(result);
+          syslog(3, "unable to rename log file '%s.%d' to '%s.%d': %s", path, i - 1, path, i, return_value_isc_result_totext_3);
         }
 
       }
@@ -26637,8 +26637,8 @@ static unsigned int roll_log(struct isc_logchannel *channel)
           result=isc_file_rename(path, new);
         if(!(result == 0u) && !(result == 38u))
         {
-          return_value_isc_result_totext$4=isc_result_totext(result);
-          syslog(3, "unable to rename log file '%s' to '%s.0': %s", path, path, return_value_isc_result_totext$4);
+          return_value_isc_result_totext_4=isc_result_totext(result);
+          syslog(3, "unable to rename log file '%s' to '%s.0': %s", path, path, return_value_isc_result_totext_4);
         }
 
       }
@@ -26648,8 +26648,8 @@ static unsigned int roll_log(struct isc_logchannel *channel)
         result=isc_file_remove(path);
         if(!(result == 0u) && !(result == 38u))
         {
-          return_value_isc_result_totext$5=isc_result_totext(result);
-          syslog(3, "unable to remove log file '%s': %s", path, return_value_isc_result_totext$5);
+          return_value_isc_result_totext_5=isc_result_totext(result);
+          syslog(3, "unable to remove log file '%s': %s", path, return_value_isc_result_totext_5);
         }
 
       }
@@ -26697,12 +26697,12 @@ static double satpropdelay(double dg)
   double theta;
   double td;
   theta = dg / 6370.0;
-  double return_value_sin$1;
-  return_value_sin$1=sin(theta);
-  k1 = 6370.0 * return_value_sin$1;
-  double return_value_cos$2;
-  return_value_cos$2=cos(theta);
-  k2 = 6.6110 * 6378.0 - 6370.0 * return_value_cos$2;
+  double return_value_sin_1;
+  return_value_sin_1=sin(theta);
+  k1 = 6370.0 * return_value_sin_1;
+  double return_value_cos_2;
+  return_value_cos_2=cos(theta);
+  k2 = 6.6110 * 6378.0 - 6370.0 * return_value_cos_2;
   if(debug >= 2)
     printf("Theta %g k1 %g k2 %g\n", theta, k1, k2);
 
@@ -26718,55 +26718,55 @@ static double satpropdelay(double dg)
 // file ntp_intres.c line 997
 static void scheduled_sleep(signed long int scheduled, signed long int earliest, struct dnsworker_ctx_tag *worker_ctx)
 {
-  signed long int scheduled_sleep$$1$$now;
-  const char *return_value_humantime$1;
-  const char *return_value_humantime$2;
-  const char *return_value_humantime$3;
-  const char *return_value_humantime$4;
-  const char *return_value_humantime$5;
-  const char *return_value_humantime$6;
-  const char *return_value_humantime$7;
+  signed long int scheduled_sleep__1__now;
+  const char *return_value_humantime_1;
+  const char *return_value_humantime_2;
+  const char *return_value_humantime_3;
+  const char *return_value_humantime_4;
+  const char *return_value_humantime_5;
+  const char *return_value_humantime_6;
+  const char *return_value_humantime_7;
   if(!(scheduled >= worker_ctx->ignore_scheduled_before))
     do
       if(debug >= 1)
       {
-        return_value_humantime$1=humantime(earliest);
-        return_value_humantime$2=humantime(scheduled);
-        return_value_humantime$3=humantime(worker_ctx->ignore_scheduled_before);
-        mprintf("ignoring sleep until %s scheduled at %s (before %s)\n", return_value_humantime$1, return_value_humantime$2, return_value_humantime$3);
+        return_value_humantime_1=humantime(earliest);
+        return_value_humantime_2=humantime(scheduled);
+        return_value_humantime_3=humantime(worker_ctx->ignore_scheduled_before);
+        mprintf("ignoring sleep until %s scheduled at %s (before %s)\n", return_value_humantime_1, return_value_humantime_2, return_value_humantime_3);
       }
 
     while((_Bool)0);
 
   else
   {
-    scheduled_sleep$$1$$now=time((signed long int *)(void *)0);
-    if(!(scheduled_sleep$$1$$now >= earliest))
+    scheduled_sleep__1__now=time((signed long int *)(void *)0);
+    if(!(scheduled_sleep__1__now >= earliest))
     {
       do
         if(debug >= 1)
         {
-          return_value_humantime$4=humantime(earliest);
-          return_value_humantime$5=humantime(scheduled);
-          return_value_humantime$6=humantime(worker_ctx->ignore_scheduled_before);
-          mprintf("sleep until %s scheduled at %s (>= %s)\n", return_value_humantime$4, return_value_humantime$5, return_value_humantime$6);
+          return_value_humantime_4=humantime(earliest);
+          return_value_humantime_5=humantime(scheduled);
+          return_value_humantime_6=humantime(worker_ctx->ignore_scheduled_before);
+          mprintf("sleep until %s scheduled at %s (>= %s)\n", return_value_humantime_4, return_value_humantime_5, return_value_humantime_6);
         }
 
       while((_Bool)0);
-      signed int return_value_worker_sleep$8;
-      return_value_worker_sleep$8=worker_sleep(worker_ctx->c, earliest - scheduled_sleep$$1$$now);
-      if(return_value_worker_sleep$8 == -1)
+      signed int return_value_worker_sleep_8;
+      return_value_worker_sleep_8=worker_sleep(worker_ctx->c, earliest - scheduled_sleep__1__now);
+      if(return_value_worker_sleep_8 == -1)
       {
-        scheduled_sleep$$1$$now=time((signed long int *)(void *)0);
-        worker_ctx->ignore_scheduled_before = scheduled_sleep$$1$$now;
-        worker_ctx->next_res_init = scheduled_sleep$$1$$now + (signed long int)60;
+        scheduled_sleep__1__now=time((signed long int *)(void *)0);
+        worker_ctx->ignore_scheduled_before = scheduled_sleep__1__now;
+        worker_ctx->next_res_init = scheduled_sleep__1__now + (signed long int)60;
         next_res_init = worker_ctx->next_res_init;
         __res_init();
         do
           if(debug >= 1)
           {
-            return_value_humantime$7=humantime(worker_ctx->ignore_scheduled_before);
-            mprintf("sleep interrupted by daemon, ignoring sleeps scheduled before now (%s)\n", return_value_humantime$7);
+            return_value_humantime_7=humantime(worker_ctx->ignore_scheduled_before);
+            mprintf("sleep interrupted by daemon, ignoring sleeps scheduled before now (%s)\n", return_value_humantime_7);
           }
 
         while((_Bool)0);
@@ -26788,7 +26788,7 @@ extern signed int send_blocking_req_internal(struct blocking_child_tag *c, struc
 
   else
   {
-    isc_assertion_failed("work_thread.c", 218, (enum anonymous$45)isc_assertiontype_require, "hdr != ((void *)0)");
+    isc_assertion_failed("work_thread.c", 218, (enum anonymous_45)isc_assertiontype_require, "hdr != ((void *)0)");
     (_Bool)0;
   }
   if(!(data == NULL))
@@ -26796,7 +26796,7 @@ extern signed int send_blocking_req_internal(struct blocking_child_tag *c, struc
 
   else
   {
-    isc_assertion_failed("work_thread.c", 219, (enum anonymous$45)isc_assertiontype_require, "data != ((void *)0)");
+    isc_assertion_failed("work_thread.c", 219, (enum anonymous_45)isc_assertiontype_require, "data != ((void *)0)");
     (_Bool)0;
   }
 
@@ -26815,14 +26815,14 @@ __CPROVER_DUMP_L6:
       start_blocking_thread(c);
     }
 
-    void *return_value_ereallocz$1;
-    return_value_ereallocz$1=ereallocz((void *)0, hdr->octets, (unsigned long int)0, 0);
-    threadcopy = (struct blocking_pipe_header_tag *)return_value_ereallocz$1;
+    void *return_value_ereallocz_1;
+    return_value_ereallocz_1=ereallocz((void *)0, hdr->octets, (unsigned long int)0, 0);
+    threadcopy = (struct blocking_pipe_header_tag *)return_value_ereallocz_1;
     memcpy((void *)threadcopy, (const void *)hdr, sizeof(struct blocking_pipe_header_tag) /*40ul*/ );
     memcpy((void *)((char *)threadcopy + (signed long int)sizeof(struct blocking_pipe_header_tag) /*40ul*/ ), data, payload_octets);
-    signed int return_value_queue_req_pointer$2;
-    return_value_queue_req_pointer$2=queue_req_pointer(c, threadcopy);
-    return return_value_queue_req_pointer$2;
+    signed int return_value_queue_req_pointer_2;
+    return_value_queue_req_pointer_2=queue_req_pointer(c, threadcopy);
+    return return_value_queue_req_pointer_2;
   }
 }
 
@@ -26866,7 +26866,7 @@ extern void set_sys_fuzz(double fuzz_val)
 
   else
   {
-    isc_assertion_failed("systime.c", 109, (enum anonymous$45)isc_assertiontype_insist, "sys_fuzz >= 0");
+    isc_assertion_failed("systime.c", 109, (enum anonymous_45)isc_assertiontype_insist, "sys_fuzz >= 0");
     (_Bool)0;
   }
   if(sys_fuzz <= 1.0)
@@ -26874,7 +26874,7 @@ extern void set_sys_fuzz(double fuzz_val)
 
   else
   {
-    isc_assertion_failed("systime.c", 110, (enum anonymous$45)isc_assertiontype_insist, "sys_fuzz <= 1.0");
+    isc_assertion_failed("systime.c", 110, (enum anonymous_45)isc_assertiontype_insist, "sys_fuzz <= 1.0");
     (_Bool)0;
   }
   sys_fuzz_nsec = (signed long int)(sys_fuzz * 1e9 + 0.5);
@@ -26886,9 +26886,9 @@ extern void setup_logfile(const char *name)
 {
   if(syslog_fname == ((char *)NULL) && !(name == ((const char *)NULL)))
   {
-    signed int return_value_change_logfile$1;
-    return_value_change_logfile$1=change_logfile(name, 1);
-    if(return_value_change_logfile$1 == -1)
+    signed int return_value_change_logfile_1;
+    return_value_change_logfile_1=change_logfile(name, 1);
+    if(return_value_change_logfile_1 == -1)
       msyslog(3, "Cannot open log file %s, %m", name);
 
     goto __CPROVER_DUMP_L4;
@@ -26896,9 +26896,9 @@ extern void setup_logfile(const char *name)
 
   if(!(syslog_fname == ((char *)NULL)))
   {
-    signed int return_value_change_logfile$2;
-    return_value_change_logfile$2=change_logfile(syslog_fname, 0);
-    if(return_value_change_logfile$2 == -1)
+    signed int return_value_change_logfile_2;
+    return_value_change_logfile_2=change_logfile(syslog_fname, 0);
+    if(return_value_change_logfile_2 == -1)
       msyslog(3, "Cannot reopen log file %s, %m", syslog_fname);
 
   }
@@ -26950,12 +26950,12 @@ static signed int should_retry_dns(signed int rescode, signed int res_errno)
 
 __CPROVER_DUMP_L5:
   ;
-  const char *return_value_gai_strerror$1;
+  const char *return_value_gai_strerror_1;
   do
     if(debug >= 2)
     {
-      return_value_gai_strerror$1=gai_strerror(rescode);
-      mprintf("intres: resolver returned: %s (%d), %sretrying\n", return_value_gai_strerror$1, rescode, again != 0 ? "" : "not ");
+      return_value_gai_strerror_1=gai_strerror(rescode);
+      mprintf("intres: resolver returned: %s (%d), %sretrying\n", return_value_gai_strerror_1, rescode, again != 0 ? "" : "not ");
     }
 
   while((_Bool)0);
@@ -26988,21 +26988,21 @@ extern void signal_no_reset(signed int sig, void (*func)(signed int))
   if(sig == 29)
     vec.sa_flags = 0x10000000;
 
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     n=sigaction(sig, &vec, &ovec);
     if(n == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = 4 == *return_value___errno_location$1 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = 4 == *return_value___errno_location_1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(n == -1)
   {
     perror("sigaction");
@@ -27013,7 +27013,7 @@ extern void signal_no_reset(signed int sig, void (*func)(signed int))
 
 // sock_hash
 // file socktoa.c line 107
-extern unsigned short int sock_hash(const union anonymous$47 *addr)
+extern unsigned short int sock_hash(const union anonymous_47 *addr)
 {
   unsigned int hashVal;
   unsigned int j;
@@ -27047,7 +27047,7 @@ extern unsigned short int sock_hash(const union anonymous$47 *addr)
 
 // sockaddr_masktoprefixlen
 // file socktoa.c line 150
-extern signed int sockaddr_masktoprefixlen(const union anonymous$47 *psa)
+extern signed int sockaddr_masktoprefixlen(const union anonymous_47 *psa)
 {
   struct isc_netaddr isc_na;
   struct isc_sockaddr isc_sa;
@@ -27055,7 +27055,7 @@ extern signed int sockaddr_masktoprefixlen(const union anonymous$47 *psa)
   unsigned int result;
   signed int rc;
   bzero((void *)&isc_sa, sizeof(struct isc_sockaddr) /*48ul*/ );
-  memcpy((void *)&isc_sa.type, (const void *)psa, sizeof(union anonymous$50) /*28ul*/  < sizeof(const union anonymous$47) /*28ul*/  ? sizeof(union anonymous$50) /*28ul*/  : sizeof(const union anonymous$47) /*28ul*/ );
+  memcpy((void *)&isc_sa.type, (const void *)psa, sizeof(union anonymous_50) /*28ul*/  < sizeof(const union anonymous_47) /*28ul*/  ? sizeof(union anonymous_50) /*28ul*/  : sizeof(const union anonymous_47) /*28ul*/ );
   isc_netaddr_fromsockaddr(&isc_na, &isc_sa);
   result=isc_netaddr_masktoprefixlen(&isc_na, &pfxlen);
   rc = (unsigned int)0 == result ? (signed int)pfxlen : -1;
@@ -27064,58 +27064,58 @@ extern signed int sockaddr_masktoprefixlen(const union anonymous$47 *psa)
 
 // sockporttoa
 // file socktoa.c line 81
-extern const char * sockporttoa(const union anonymous$47 *sock)
+extern const char * sockporttoa(const union anonymous_47 *sock)
 {
   signed int saved_errno;
   const char *atext;
   char *buf;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  saved_errno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  saved_errno = *return_value___errno_location_1;
   atext=socktoa(sock);
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$2 = lib_nextbuf;
+    tmp_post_2 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    buf = &lib_stringbuf[(signed long int)tmp_post$2][(signed long int)0];
+    buf = &lib_stringbuf[(signed long int)tmp_post_2][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
-  unsigned short int return_value_ntohs$3;
-  return_value_ntohs$3=ntohs(sock->sa4.sin_port);
-  snprintf(buf, (unsigned long int)128, 10 == (signed int)sock->sa.sa_family ? "[%s]:%hu" : "%s:%hu", atext, return_value_ntohs$3);
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  *return_value___errno_location$4 = saved_errno;
+  unsigned short int return_value_ntohs_3;
+  return_value_ntohs_3=ntohs(sock->sa4.sin_port);
+  snprintf(buf, (unsigned long int)128, 10 == (signed int)sock->sa.sa_family ? "[%s]:%hu" : "%s:%hu", atext, return_value_ntohs_3);
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  *return_value___errno_location_4 = saved_errno;
   return buf;
 }
 
 // socktoa
 // file ../include/ntp_stdlib.h line 158
-extern const char * socktoa(const union anonymous$47 *sock)
+extern const char * socktoa(const union anonymous_47 *sock)
 {
   signed int saved_errno;
   char *res;
   char *addr;
   unsigned long int scope;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  saved_errno = *return_value___errno_location$1;
-  signed int tmp_post$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  saved_errno = *return_value___errno_location_1;
+  signed int tmp_post_2;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$2 = lib_nextbuf;
+    tmp_post_2 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    res = &lib_stringbuf[(signed long int)tmp_post$2][(signed long int)0];
+    res = &lib_stringbuf[(signed long int)tmp_post_2][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
-  char *return_value_strchr$4;
-  signed int tmp_post$3;
-  if(sock == ((const union anonymous$47 *)NULL))
+  char *return_value_strchr_4;
+  signed int tmp_post_3;
+  if(sock == ((const union anonymous_47 *)NULL))
     strlcpy(res, "(null)", (unsigned long int)128);
 
   else
@@ -27134,16 +27134,16 @@ extern const char * socktoa(const union anonymous$47 *sock)
         scope = (unsigned long int)sock->sa6.sin6_scope_id;
         if(!(scope == 0ul))
         {
-          return_value_strchr$4=strchr(res, 37);
-          if(return_value_strchr$4 == ((char *)NULL))
+          return_value_strchr_4=strchr(res, 37);
+          if(return_value_strchr_4 == ((char *)NULL))
           {
             addr = res;
             do
             {
               bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-              tmp_post$3 = lib_nextbuf;
+              tmp_post_3 = lib_nextbuf;
               lib_nextbuf = lib_nextbuf + 1;
-              res = &lib_stringbuf[(signed long int)tmp_post$3][(signed long int)0];
+              res = &lib_stringbuf[(signed long int)tmp_post_3][(signed long int)0];
               lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
             }
             while((_Bool)0);
@@ -27158,15 +27158,15 @@ extern const char * socktoa(const union anonymous$47 *sock)
       default:
         snprintf(res, (unsigned long int)128, "(socktoa unknown family %d)", sock->sa.sa_family);
     }
-  signed int *return_value___errno_location$5;
-  return_value___errno_location$5=__errno_location();
-  *return_value___errno_location$5 = saved_errno;
+  signed int *return_value___errno_location_5;
+  return_value___errno_location_5=__errno_location();
+  *return_value___errno_location_5 = saved_errno;
   return res;
 }
 
 // socktohost
 // file socktohost.c line 25
-extern const char * socktohost(const union anonymous$47 *sock)
+extern const char * socktohost(const union anonymous_47 *sock)
 {
   const char svc[4l] = { 'n', 't', 'p', 0 };
   char *pbuf;
@@ -27175,35 +27175,35 @@ extern const char * socktohost(const union anonymous$47 *sock)
   struct addrinfo hints;
   struct addrinfo *alist;
   struct addrinfo *ai;
-  union anonymous$47 addr;
+  union anonymous_47 addr;
   unsigned long int octets;
   signed int a_info;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$1 = lib_nextbuf;
+    tmp_post_1 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    pbuf = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+    pbuf = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
   gni_flags = 16 | 8;
-  signed int return_value_getnameinfo$3;
-  return_value_getnameinfo$3=getnameinfo(&sock->sa, (unsigned int)(2 == (signed int)sock->sa.sa_family ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ), pbuf, (unsigned int)128, (char *)(void *)0, (unsigned int)0, gni_flags);
-  const char *return_value_socktoa$2;
-  const char *return_value_socktoa$4;
-  unsigned long int tmp_if_expr$5;
-  signed int tmp_if_expr$9;
-  signed int tmp_if_expr$8;
-  signed int return_value_memcmp$6;
-  _Bool tmp_if_expr$7;
-  const char *return_value_gai_strerror$10;
-  signed int tmp_post$11;
-  if(!(return_value_getnameinfo$3 == 0))
+  signed int return_value_getnameinfo_3;
+  return_value_getnameinfo_3=getnameinfo(&sock->sa, (unsigned int)(2 == (signed int)sock->sa.sa_family ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ), pbuf, (unsigned int)128, (char *)(void *)0, (unsigned int)0, gni_flags);
+  const char *return_value_socktoa_2;
+  const char *return_value_socktoa_4;
+  unsigned long int tmp_if_expr_5;
+  signed int tmp_if_expr_9;
+  signed int tmp_if_expr_8;
+  signed int return_value_memcmp_6;
+  _Bool tmp_if_expr_7;
+  const char *return_value_gai_strerror_10;
+  signed int tmp_post_11;
+  if(!(return_value_getnameinfo_3 == 0))
   {
-    return_value_socktoa$2=socktoa(sock);
-    return return_value_socktoa$2;
+    return_value_socktoa_2=socktoa(sock);
+    return return_value_socktoa_2;
   }
 
   else
@@ -27211,8 +27211,8 @@ extern const char * socktohost(const union anonymous$47 *sock)
     do
       if(debug >= 1)
       {
-        return_value_socktoa$4=socktoa(sock);
-        mprintf("%s reversed to %s\n", return_value_socktoa$4, pbuf);
+        return_value_socktoa_4=socktoa(sock);
+        mprintf("%s reversed to %s\n", return_value_socktoa_4, pbuf);
       }
 
     while((_Bool)0);
@@ -27243,41 +27243,41 @@ extern const char * socktohost(const union anonymous$47 *sock)
 
       else
       {
-        isc_assertion_failed("socktohost.c", 82, (enum anonymous$45)isc_assertiontype_insist, "alist != ((void *)0)");
+        isc_assertion_failed("socktohost.c", 82, (enum anonymous_45)isc_assertiontype_insist, "alist != ((void *)0)");
         (_Bool)0;
       }
       ai = alist;
       for( ; !(ai == ((struct addrinfo *)NULL)); ai = ai->ai_next)
       {
-        bzero((void *)&(*(&addr)), sizeof(union anonymous$47) /*28ul*/ );
+        bzero((void *)&(*(&addr)), sizeof(union anonymous_47) /*28ul*/ );
         if((unsigned long int)ai->ai_addrlen >= 29ul)
-          tmp_if_expr$5 = sizeof(union anonymous$47) /*28ul*/ ;
+          tmp_if_expr_5 = sizeof(union anonymous_47) /*28ul*/ ;
 
         else
-          tmp_if_expr$5 = (unsigned long int)ai->ai_addrlen;
-        octets = tmp_if_expr$5;
+          tmp_if_expr_5 = (unsigned long int)ai->ai_addrlen;
+        octets = tmp_if_expr_5;
         memcpy((void *)&addr, (const void *)ai->ai_addr, octets);
         if(!(sock->sa.sa_family == addr.sa.sa_family))
-          tmp_if_expr$9 = 0;
+          tmp_if_expr_9 = 0;
 
         else
         {
           if((signed int)sock->sa.sa_family == 2)
-            tmp_if_expr$8 = (signed int)(sock->sa4.sin_addr.s_addr == (&addr)->sa4.sin_addr.s_addr);
+            tmp_if_expr_8 = (signed int)(sock->sa4.sin_addr.s_addr == (&addr)->sa4.sin_addr.s_addr);
 
           else
           {
-            return_value_memcmp$6=memcmp((const void *)(&sock->sa6.sin6_addr)->__in6_u.__u6_addr8, (const void *)(&(&addr)->sa6.sin6_addr)->__in6_u.__u6_addr8, sizeof(unsigned char [16l]) /*16ul*/ );
-            if(return_value_memcmp$6 == 0)
-              tmp_if_expr$7 = sock->sa6.sin6_scope_id == (&addr)->sa6.sin6_scope_id ? (_Bool)1 : (_Bool)0;
+            return_value_memcmp_6=memcmp((const void *)(&sock->sa6.sin6_addr)->__in6_u.__u6_addr8, (const void *)(&(&addr)->sa6.sin6_addr)->__in6_u.__u6_addr8, sizeof(unsigned char [16l]) /*16ul*/ );
+            if(return_value_memcmp_6 == 0)
+              tmp_if_expr_7 = sock->sa6.sin6_scope_id == (&addr)->sa6.sin6_scope_id ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            tmp_if_expr$8 = (signed int)tmp_if_expr$7;
+              tmp_if_expr_7 = (_Bool)0;
+            tmp_if_expr_8 = (signed int)tmp_if_expr_7;
           }
-          tmp_if_expr$9 = tmp_if_expr$8;
+          tmp_if_expr_9 = tmp_if_expr_8;
         }
-        if(!(tmp_if_expr$9 == 0))
+        if(!(tmp_if_expr_9 == 0))
           break;
 
       }
@@ -27296,23 +27296,23 @@ extern const char * socktohost(const union anonymous$47 *sock)
       do
         if(debug >= 1)
         {
-          return_value_gai_strerror$10=gai_strerror(a_info);
-          mprintf("%s forward check lookup fail: %s\n", pbuf, return_value_gai_strerror$10);
+          return_value_gai_strerror_10=gai_strerror(a_info);
+          mprintf("%s forward check lookup fail: %s\n", pbuf, return_value_gai_strerror_10);
         }
 
       while((_Bool)0);
       do
       {
         bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-        tmp_post$11 = lib_nextbuf;
+        tmp_post_11 = lib_nextbuf;
         lib_nextbuf = lib_nextbuf + 1;
-        pliar = &lib_stringbuf[(signed long int)tmp_post$11][(signed long int)0];
+        pliar = &lib_stringbuf[(signed long int)tmp_post_11][(signed long int)0];
         lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
       }
       while((_Bool)0);
-      const char *return_value_socktoa$12;
-      return_value_socktoa$12=socktoa(sock);
-      snprintf(pliar, (unsigned long int)128, "%s (%s)", return_value_socktoa$12, pbuf);
+      const char *return_value_socktoa_12;
+      return_value_socktoa_12=socktoa(sock);
+      snprintf(pliar, (unsigned long int)128, "%s (%s)", return_value_socktoa_12, pbuf);
       return pliar;
     }
   }
@@ -27366,7 +27366,7 @@ static void start_blocking_thread_internal(struct blocking_child_tag *c)
   signed int is_pipe;
   signed int flags;
   unsigned long int stacksize;
-  struct anonymous$14 saved_sig_mask;
+  struct anonymous_14 saved_sig_mask;
   rc=pipe_socketpair(&pipe_ends[(signed long int)0], &is_pipe);
   if(!(rc == 0))
   {
@@ -27407,21 +27407,21 @@ static void start_blocking_thread_internal(struct blocking_child_tag *c)
 
     }
 
-  void *return_value_ereallocz$1;
-  return_value_ereallocz$1=ereallocz((void *)0, sizeof(unsigned long int) /*8ul*/ , (unsigned long int)0, 1);
-  c->thread_ref = (unsigned long int *)return_value_ereallocz$1;
+  void *return_value_ereallocz_1;
+  return_value_ereallocz_1=ereallocz((void *)0, sizeof(unsigned long int) /*8ul*/ , (unsigned long int)0, 1);
+  c->thread_ref = (unsigned long int *)return_value_ereallocz_1;
   block_thread_signals(&saved_sig_mask);
   rc=pthread_create(c->thread_ref, &thr_attr, blocking_thread, (void *)c);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  saved_errno = *return_value___errno_location$2;
-  pthread_sigmask(2, &saved_sig_mask, (struct anonymous$14 *)(void *)0);
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  saved_errno = *return_value___errno_location_2;
+  pthread_sigmask(2, &saved_sig_mask, (struct anonymous_14 *)(void *)0);
   pthread_attr_destroy(&thr_attr);
   if(!(rc == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = saved_errno;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = saved_errno;
     msyslog(3, "pthread_create() blocking child: %m");
     exit(1);
   }
@@ -27435,60 +27435,60 @@ extern char * statustoa(signed int type, signed int st)
   char *cb;
   char *cc;
   unsigned char pst;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$1 = lib_nextbuf;
+    tmp_post_1 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    cb = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+    cb = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
-  const char *return_value_getcode$2;
-  const char *return_value_getcode$3;
-  const char *return_value_getevents$4;
-  const char *return_value_getcode$5;
-  const char *return_value_peer_st_flags$6;
-  const char *return_value_getcode$7;
-  const char *return_value_getevents$8;
-  const char *return_value_getevents$11;
-  const char *return_value_getcode$12;
+  const char *return_value_getcode_2;
+  const char *return_value_getcode_3;
+  const char *return_value_getevents_4;
+  const char *return_value_getcode_5;
+  const char *return_value_peer_st_flags_6;
+  const char *return_value_getcode_7;
+  const char *return_value_getevents_8;
+  const char *return_value_getevents_11;
+  const char *return_value_getcode_12;
   switch(type)
   {
     case 1:
     {
-      return_value_getcode$2=getcode(st >> 14 & 0x3, leap_codes);
-      return_value_getcode$3=getcode(st >> 8 & 0x3f, sync_codes);
-      return_value_getevents$4=getevents(st >> 4 & 0xf);
-      return_value_getcode$5=getcode(st & 0xf, sys_codes);
-      snprintf(cb, (unsigned long int)128, "%s, %s, %s, %s", return_value_getcode$2, return_value_getcode$3, return_value_getevents$4, return_value_getcode$5);
+      return_value_getcode_2=getcode(st >> 14 & 0x3, leap_codes);
+      return_value_getcode_3=getcode(st >> 8 & 0x3f, sync_codes);
+      return_value_getevents_4=getevents(st >> 4 & 0xf);
+      return_value_getcode_5=getcode(st & 0xf, sys_codes);
+      snprintf(cb, (unsigned long int)128, "%s, %s, %s, %s", return_value_getcode_2, return_value_getcode_3, return_value_getevents_4, return_value_getcode_5);
       break;
     }
     case 2:
     {
       pst = (unsigned char)(st >> 8 & 0xff);
-      return_value_peer_st_flags$6=peer_st_flags(pst);
-      return_value_getcode$7=getcode((signed int)pst & 0x7, select_codes);
-      return_value_getevents$8=getevents(st >> 4 & 0xf);
-      snprintf(cb, (unsigned long int)128, "%s, %s, %s", return_value_peer_st_flags$6, return_value_getcode$7, return_value_getevents$8);
+      return_value_peer_st_flags_6=peer_st_flags(pst);
+      return_value_getcode_7=getcode((signed int)pst & 0x7, select_codes);
+      return_value_getevents_8=getevents(st >> 4 & 0xf);
+      snprintf(cb, (unsigned long int)128, "%s, %s, %s", return_value_peer_st_flags_6, return_value_getcode_7, return_value_getevents_8);
       if(!((0xf & st) == 0))
       {
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen(cb);
-        cc = cb + (signed long int)return_value_strlen$9;
-        const char *return_value_getcode$10;
-        return_value_getcode$10=getcode(st & 0xf, peer_codes);
-        snprintf(cc, (unsigned long int)((signed long int)128 - (cc - cb)), ", %s", return_value_getcode$10);
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen(cb);
+        cc = cb + (signed long int)return_value_strlen_9;
+        const char *return_value_getcode_10;
+        return_value_getcode_10=getcode(st & 0xf, peer_codes);
+        snprintf(cc, (unsigned long int)((signed long int)128 - (cc - cb)), ", %s", return_value_getcode_10);
       }
 
       break;
     }
     case 3:
     {
-      return_value_getevents$11=getevents(st >> 4 & 0xf);
-      return_value_getcode$12=getcode(st & 0xf, clock_codes);
-      snprintf(cb, (unsigned long int)128, "%s, %s", return_value_getevents$11, return_value_getcode$12);
+      return_value_getevents_11=getevents(st >> 4 & 0xf);
+      return_value_getcode_12=getcode(st & 0xf, clock_codes);
+      snprintf(cb, (unsigned long int)128, "%s, %s", return_value_getevents_11, return_value_getcode_12);
     }
   }
   return cb;
@@ -27504,34 +27504,34 @@ extern signed int step_systime(double step)
   struct timeval tvdiff;
   struct timespec timets;
   struct calendar jd;
-  struct anonymous$38 fp_ofs;
-  struct anonymous$38 fp_sys;
+  struct anonymous_38 fp_ofs;
+  struct anonymous_38 fp_sys;
   pivot = (signed long int)0x80000000;
-  signed int return_value_ntpcal_get_build_date$2;
-  return_value_ntpcal_get_build_date$2=ntpcal_get_build_date(&jd);
-  if(!(return_value_ntpcal_get_build_date$2 == 0))
+  signed int return_value_ntpcal_get_build_date_2;
+  return_value_ntpcal_get_build_date_2=ntpcal_get_build_date(&jd);
+  if(!(return_value_ntpcal_get_build_date_2 == 0))
   {
     jd.year = jd.year - (unsigned short int)10;
-    signed long int return_value_ntpcal_date_to_time$1;
-    return_value_ntpcal_date_to_time$1=ntpcal_date_to_time(&jd);
-    pivot = pivot + return_value_ntpcal_date_to_time$1;
+    signed long int return_value_ntpcal_date_to_time_1;
+    return_value_ntpcal_date_to_time_1=ntpcal_date_to_time(&jd);
+    pivot = pivot + return_value_ntpcal_date_to_time_1;
   }
 
   else
     msyslog(3, "step-systime: assume 1970-01-01 as build date");
   do
   {
-    double step_systime$$1$$3$$d_tmp;
+    double step_systime__1__3__d_tmp;
     unsigned long int q_tmp;
     signed int M_isneg;
-    step_systime$$1$$3$$d_tmp = sys_residual;
-    M_isneg = (signed int)(step_systime$$1$$3$$d_tmp < 0.);
+    step_systime__1__3__d_tmp = sys_residual;
+    M_isneg = (signed int)(step_systime__1__3__d_tmp < 0.);
     if(!(M_isneg == 0))
-      step_systime$$1$$3$$d_tmp = -step_systime$$1$$3$$d_tmp;
+      step_systime__1__3__d_tmp = -step_systime__1__3__d_tmp;
 
-    double return_value_ldexp$3;
-    return_value_ldexp$3=ldexp(step_systime$$1$$3$$d_tmp, 32);
-    q_tmp = (unsigned long int)return_value_ldexp$3;
+    double return_value_ldexp_3;
+    return_value_ldexp_3=ldexp(step_systime__1__3__d_tmp, 32);
+    q_tmp = (unsigned long int)return_value_ldexp_3;
     if(!(M_isneg == 0))
       q_tmp = ~q_tmp + (unsigned long int)1;
 
@@ -27542,21 +27542,21 @@ extern signed int step_systime(double step)
   do
   {
     double d_tmp;
-    unsigned long int step_systime$$1$$4$$q_tmp;
-    signed int step_systime$$1$$4$$M_isneg;
+    unsigned long int step_systime__1__4__q_tmp;
+    signed int step_systime__1__4__M_isneg;
     d_tmp = step;
-    step_systime$$1$$4$$M_isneg = (signed int)(d_tmp < 0.);
-    if(!(step_systime$$1$$4$$M_isneg == 0))
+    step_systime__1__4__M_isneg = (signed int)(d_tmp < 0.);
+    if(!(step_systime__1__4__M_isneg == 0))
       d_tmp = -d_tmp;
 
-    double return_value_ldexp$4;
-    return_value_ldexp$4=ldexp(d_tmp, 32);
-    step_systime$$1$$4$$q_tmp = (unsigned long int)return_value_ldexp$4;
-    if(!(step_systime$$1$$4$$M_isneg == 0))
-      step_systime$$1$$4$$q_tmp = ~step_systime$$1$$4$$q_tmp + (unsigned long int)1;
+    double return_value_ldexp_4;
+    return_value_ldexp_4=ldexp(d_tmp, 32);
+    step_systime__1__4__q_tmp = (unsigned long int)return_value_ldexp_4;
+    if(!(step_systime__1__4__M_isneg == 0))
+      step_systime__1__4__q_tmp = ~step_systime__1__4__q_tmp + (unsigned long int)1;
 
-    (&fp_ofs)->l_uf = (unsigned int)step_systime$$1$$4$$q_tmp;
-    (&fp_ofs)->Ul_i.Xl_ui = (unsigned int)(step_systime$$1$$4$$q_tmp >> 32);
+    (&fp_ofs)->l_uf = (unsigned int)step_systime__1__4__q_tmp;
+    (&fp_ofs)->Ul_i.Xl_ui = (unsigned int)(step_systime__1__4__q_tmp >> 32);
   }
   while((_Bool)0);
   do
@@ -27572,15 +27572,15 @@ extern signed int step_systime(double step)
   tvlast.tv_usec = (timets.tv_nsec + (signed long int)500) / (signed long int)1000;
   do
   {
-    unsigned int step_systime$$1$$6$$add_t = (&fp_sys)->l_uf;
+    unsigned int step_systime__1__6__add_t = (&fp_sys)->l_uf;
     (&fp_sys)->l_uf = (&fp_sys)->l_uf + (&fp_ofs)->l_uf;
-    (&fp_sys)->Ul_i.Xl_ui = (&fp_sys)->Ul_i.Xl_ui + (&fp_ofs)->Ul_i.Xl_ui + (unsigned int)((unsigned int)(&fp_sys)->l_uf < step_systime$$1$$6$$add_t);
+    (&fp_sys)->Ul_i.Xl_ui = (&fp_sys)->Ul_i.Xl_ui + (&fp_ofs)->Ul_i.Xl_ui + (unsigned int)((unsigned int)(&fp_sys)->l_uf < step_systime__1__6__add_t);
   }
   while((_Bool)0);
   timetv=lfp_stamp_to_tval(fp_sys, &pivot);
-  signed int return_value_ntp_set_tod$5;
-  return_value_ntp_set_tod$5=ntp_set_tod(&timetv, (void *)0);
-  if(!(return_value_ntp_set_tod$5 == 0))
+  signed int return_value_ntp_set_tod_5;
+  return_value_ntp_set_tod_5=ntp_set_tod(&timetv, (void *)0);
+  if(!(return_value_ntp_set_tod_5 == 0))
   {
     msyslog(3, "step-systime: %m");
     return 0;
@@ -27593,9 +27593,9 @@ extern signed int step_systime(double step)
     if(!(step_callback == ((void (*)(void))NULL)))
       step_callback();
 
-    struct timeval return_value_sub_tval$6;
-    return_value_sub_tval$6=sub_tval(timetv, tvlast);
-    tvdiff=abs_tval(return_value_sub_tval$6);
+    struct timeval return_value_sub_tval_6;
+    return_value_sub_tval_6=sub_tval(timetv, tvlast);
+    tvdiff=abs_tval(return_value_sub_tval_6);
     if(tvdiff.tv_sec >= 1l)
     {
       struct utmp ut;
@@ -27616,12 +27616,12 @@ extern unsigned long int strlcat(char *dst, const char *src, unsigned long int s
   const char *s = src;
   unsigned long int n = siz;
   unsigned long int dlen;
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
     if((signed int)*d == 0)
@@ -27632,12 +27632,12 @@ extern unsigned long int strlcat(char *dst, const char *src, unsigned long int s
   while((_Bool)1);
   dlen = (unsigned long int)(d - dst);
   n = siz - dlen;
-  unsigned long int return_value_strlen$2;
-  char *tmp_post$3;
+  unsigned long int return_value_strlen_2;
+  char *tmp_post_3;
   if(n == 0ul)
   {
-    return_value_strlen$2=strlen(s);
-    return dlen + return_value_strlen$2;
+    return_value_strlen_2=strlen(s);
+    return dlen + return_value_strlen_2;
   }
 
   else
@@ -27645,9 +27645,9 @@ extern unsigned long int strlcat(char *dst, const char *src, unsigned long int s
     for( ; !((signed int)*s == 0); s = s + 1l)
       if(!(n == 1ul))
       {
-        tmp_post$3 = d;
+        tmp_post_3 = d;
         d = d + 1l;
-        *tmp_post$3 = *s;
+        *tmp_post_3 = *s;
         n = n - 1ul;
       }
 
@@ -27663,8 +27663,8 @@ extern unsigned long int strlcpy(char *dst, const char *src, unsigned long int s
   char *d = dst;
   const char *s = src;
   unsigned long int n = siz;
-  char *tmp_post$1;
-  const char *tmp_post$2;
+  char *tmp_post_1;
+  const char *tmp_post_2;
   if(!(n == 0ul))
     do
     {
@@ -27672,18 +27672,18 @@ extern unsigned long int strlcpy(char *dst, const char *src, unsigned long int s
       if(n == 0ul)
         break;
 
-      tmp_post$1 = d;
+      tmp_post_1 = d;
       d = d + 1l;
-      tmp_post$2 = s;
+      tmp_post_2 = s;
       s = s + 1l;
-      *tmp_post$1 = *tmp_post$2;
-      if((signed int)*tmp_post$1 == 0)
+      *tmp_post_1 = *tmp_post_2;
+      if((signed int)*tmp_post_1 == 0)
         break;
 
     }
     while((_Bool)1);
 
-  const char *tmp_post$3;
+  const char *tmp_post_3;
   if(n == 0ul)
   {
     if(!(siz == 0ul))
@@ -27691,9 +27691,9 @@ extern unsigned long int strlcpy(char *dst, const char *src, unsigned long int s
 
     do
     {
-      tmp_post$3 = s;
+      tmp_post_3 = s;
       s = s + 1l;
-      if(*tmp_post$3 == 0)
+      if(*tmp_post_3 == 0)
         break;
 
     }
@@ -27705,9 +27705,9 @@ extern unsigned long int strlcpy(char *dst, const char *src, unsigned long int s
 
 // strtouv64
 // file vint64ops.c line 42
-extern union anonymous$44 strtouv64(const char *begp, char **endp, signed int base)
+extern union anonymous_44 strtouv64(const char *begp, char **endp, signed int base)
 {
-  union anonymous$44 res;
+  union anonymous_44 res;
   unsigned char digit;
   signed int sig;
   signed int num;
@@ -27715,11 +27715,11 @@ extern union anonymous$44 strtouv64(const char *begp, char **endp, signed int ba
   sig = 0;
   num = sig;
   src = (const unsigned char *)begp;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*src]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*src]) == 0)
       break;
 
     src = src + 1l;
@@ -27735,7 +27735,7 @@ extern union anonymous$44 strtouv64(const char *begp, char **endp, signed int ba
     if((signed int)*src == 43)
       src = src + 1l;
 
-  signed int return_value_toupper$3;
+  signed int return_value_toupper_3;
   if(base == 0)
   {
     base = 10;
@@ -27743,9 +27743,9 @@ extern union anonymous$44 strtouv64(const char *begp, char **endp, signed int ba
     {
       base = 8;
       src = src + 1l;
-      signed int return_value_toupper$2;
-      return_value_toupper$2=toupper((signed int)*src);
-      if(return_value_toupper$2 == 88)
+      signed int return_value_toupper_2;
+      return_value_toupper_2=toupper((signed int)*src);
+      if(return_value_toupper_2 == 88)
       {
         src = src + 1l;
         base = 16;
@@ -27760,8 +27760,8 @@ extern union anonymous$44 strtouv64(const char *begp, char **endp, signed int ba
     {
       if((signed int)*src == 48)
       {
-        return_value_toupper$3=toupper((signed int)src[(signed long int)1]);
-        if(return_value_toupper$3 == 88)
+        return_value_toupper_3=toupper((signed int)src[(signed long int)1]);
+        if(return_value_toupper_3 == 88)
           src = src + (signed long int)2;
 
       }
@@ -27771,33 +27771,33 @@ extern union anonymous$44 strtouv64(const char *begp, char **endp, signed int ba
     else
       if(base >= 37 || !(base >= 3))
       {
-        memset((void *)&res, 0xFF, sizeof(union anonymous$44) /*8ul*/ );
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = 34;
+        memset((void *)&res, 0xFF, sizeof(union anonymous_44) /*8ul*/ );
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = 34;
         return res;
       }
 
-  memset((void *)&res, 0, sizeof(union anonymous$44) /*8ul*/ );
-  const unsigned short int **return_value___ctype_b_loc$6;
-  const unsigned short int **return_value___ctype_b_loc$5;
+  memset((void *)&res, 0, sizeof(union anonymous_44) /*8ul*/ );
+  const unsigned short int **return_value___ctype_b_loc_6;
+  const unsigned short int **return_value___ctype_b_loc_5;
   while(!(*src == 0))
   {
-    const unsigned short int **return_value___ctype_b_loc$7;
-    return_value___ctype_b_loc$7=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*src]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_7;
+    return_value___ctype_b_loc_7=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*src]) == 0))
       digit = (unsigned char)((signed int)*src - 48);
 
     else
     {
-      return_value___ctype_b_loc$6=__ctype_b_loc();
-      if(!((256 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)*src]) == 0))
+      return_value___ctype_b_loc_6=__ctype_b_loc();
+      if(!((256 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)*src]) == 0))
         digit = (unsigned char)(((signed int)*src - 65) + 10);
 
       else
       {
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        if(!((512 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*src]) == 0))
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        if(!((512 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*src]) == 0))
           digit = (unsigned char)(((signed int)*src - 97) + 10);
 
         else
@@ -27811,18 +27811,18 @@ extern union anonymous$44 strtouv64(const char *begp, char **endp, signed int ba
     res.Q_s = res.Q_s * (unsigned long int)base + (unsigned long int)digit;
     src = src + 1l;
   }
-  signed int *return_value___errno_location$8;
+  signed int *return_value___errno_location_8;
   if(num == 0)
   {
-    return_value___errno_location$8=__errno_location();
-    *return_value___errno_location$8 = 22;
+    return_value___errno_location_8=__errno_location();
+    *return_value___errno_location_8 = 22;
   }
 
-  void *return_value_noconst$9;
+  void *return_value_noconst_9;
   if(!(endp == ((char **)NULL)))
   {
-    return_value_noconst$9=noconst((const void *)src);
-    *endp = (char *)return_value_noconst$9;
+    return_value_noconst_9=noconst((const void *)src);
+    *endp = (char *)return_value_noconst_9;
   }
 
   if(!(sig == 0))
@@ -27843,9 +27843,9 @@ static inline struct timespec sub_tspec(struct timespec a, struct timespec b)
   struct timespec x = a;
   x.tv_sec = x.tv_sec - b.tv_sec;
   x.tv_nsec = x.tv_nsec - b.tv_nsec;
-  struct timespec return_value_normalize_tspec$1;
-  return_value_normalize_tspec$1=normalize_tspec(x);
-  return return_value_normalize_tspec$1;
+  struct timespec return_value_normalize_tspec_1;
+  return_value_normalize_tspec_1=normalize_tspec(x);
+  return return_value_normalize_tspec_1;
 }
 
 // sub_tval
@@ -27855,34 +27855,34 @@ static inline struct timeval sub_tval(struct timeval a, struct timeval b)
   struct timeval x = a;
   x.tv_sec = x.tv_sec - b.tv_sec;
   x.tv_usec = x.tv_usec - b.tv_usec;
-  struct timeval return_value_normalize_tval$1;
-  return_value_normalize_tval$1=normalize_tval(x);
-  return return_value_normalize_tval$1;
+  struct timeval return_value_normalize_tval_1;
+  return_value_normalize_tval_1=normalize_tval(x);
+  return return_value_normalize_tval_1;
 }
 
 // subv64
 // file vint64ops.c line 194
-extern union anonymous$44 subv64(const union anonymous$44 *lhs, const union anonymous$44 *rhs)
+extern union anonymous_44 subv64(const union anonymous_44 *lhs, const union anonymous_44 *rhs)
 {
-  union anonymous$44 res;
+  union anonymous_44 res;
   res.Q_s = lhs->Q_s - rhs->Q_s;
   return res;
 }
 
 // subv64i32
 // file vint64ops.c line 232
-extern union anonymous$44 subv64i32(const union anonymous$44 *lhs, signed int rhs)
+extern union anonymous_44 subv64i32(const union anonymous_44 *lhs, signed int rhs)
 {
-  union anonymous$44 res = *lhs;
+  union anonymous_44 res = *lhs;
   res.q_s = res.q_s - (signed long int)rhs;
   return res;
 }
 
 // subv64u32
 // file vint64ops.c line 270
-extern union anonymous$44 subv64u32(const union anonymous$44 *lhs, unsigned int rhs)
+extern union anonymous_44 subv64u32(const union anonymous_44 *lhs, unsigned int rhs)
 {
-  union anonymous$44 res = *lhs;
+  union anonymous_44 res = *lhs;
   res.Q_s = res.Q_s - (unsigned long int)rhs;
   return res;
 }
@@ -27921,18 +27921,18 @@ static unsigned int sync_channellist(struct isc_logconfig *lcfg)
   unsigned int bytes;
   struct isc_log *lctx;
   void *lists;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lcfg == ((struct isc_logconfig *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)lcfg)->magic == (unsigned int)(76 << 24 | 99 << 16 | 102 << 8 | 103) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1112, (enum anonymous$45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
+    isc_assertion_failed("./../lib/isc/log.c", 1112, (enum anonymous_45)isc_assertiontype_require, "(((lcfg) != ((void *)0)) && (((const isc__magic_t *)(lcfg))->magic == ((('L') << 24 | ('c') << 16 | ('f') << 8 | ('g')))))");
     (_Bool)0;
   }
   lctx = lcfg->lctx;
@@ -27941,7 +27941,7 @@ static unsigned int sync_channellist(struct isc_logconfig *lcfg)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/log.c", 1116, (enum anonymous$45)isc_assertiontype_require, "lctx->category_count != 0");
+    isc_assertion_failed("./../lib/isc/log.c", 1116, (enum anonymous_45)isc_assertiontype_require, "lctx->category_count != 0");
     (_Bool)0;
   }
   if(lctx->category_count == lcfg->channellist_count)
@@ -27949,8 +27949,8 @@ static unsigned int sync_channellist(struct isc_logconfig *lcfg)
 
   else
   {
-    /* tag-#anon#lST[l*{SYM#tag-isc_logchannellist#}$SYM#tag-isc_logchannellist#$'head'||l*{SYM#tag-isc_logchannellist#}$SYM#tag-isc_logchannellist#$'tail'|] */
-struct anonymous$36
+    /* tag-#anon#lST[l*{SYM#tag-isc_logchannellist#}_SYM#tag-isc_logchannellist#_'head'||l*{SYM#tag-isc_logchannellist#}_SYM#tag-isc_logchannellist#_'tail'|] */
+struct anonymous_36
 {
   // head
   struct isc_logchannellist *head;
@@ -27960,11 +27960,11 @@ struct anonymous$36
 
 /* */
     ;
-    bytes = (unsigned int)((unsigned long int)lctx->category_count * sizeof(struct anonymous$36) /*16ul*/ );
+    bytes = (unsigned int)((unsigned long int)lctx->category_count * sizeof(struct anonymous_36) /*16ul*/ );
     (void)lctx->mctx;
-    void *return_value_ereallocz$2;
-    return_value_ereallocz$2=ereallocz((void *)0, (unsigned long int)bytes, (unsigned long int)0, 0);
-    lists = return_value_ereallocz$2;
+    void *return_value_ereallocz_2;
+    return_value_ereallocz_2=ereallocz((void *)0, (unsigned long int)bytes, (unsigned long int)0, 0);
+    lists = return_value_ereallocz_2;
     if(lists == NULL)
       return (unsigned int)1;
 
@@ -27973,14 +27973,14 @@ struct anonymous$36
       memset(lists, 0, (unsigned long int)bytes);
       if(!(lcfg->channellist_count == 0u))
       {
-        bytes = (unsigned int)((unsigned long int)lcfg->channellist_count * sizeof(struct anonymous$36) /*16ul*/ );
+        bytes = (unsigned int)((unsigned long int)lcfg->channellist_count * sizeof(struct anonymous_36) /*16ul*/ );
         memcpy(lists, (const void *)lcfg->channellists, (unsigned long int)bytes);
         (void)bytes;
         (void)lctx->mctx;
         free((void *)lcfg->channellists);
       }
 
-      lcfg->channellists = (struct anonymous$32 *)lists;
+      lcfg->channellists = (struct anonymous_32 *)lists;
       lcfg->channellist_count = lctx->category_count;
       return (unsigned int)0;
     }
@@ -27989,14 +27989,14 @@ struct anonymous$36
 
 // task_detach
 // file ./../lib/isc/task.c line 476
-static inline enum anonymous$11 task_detach(struct isc__task *task)
+static inline enum anonymous_11 task_detach(struct isc__task *task)
 {
   if(task->references >= 1u)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 482, (enum anonymous$45)isc_assertiontype_require, "task->references > 0");
+    isc_assertion_failed("./../lib/isc/task.c", 482, (enum anonymous_45)isc_assertiontype_require, "task->references > 0");
     (_Bool)0;
   }
   task->references = task->references - 1u;
@@ -28010,11 +28010,11 @@ static inline enum anonymous$11 task_detach(struct isc__task *task)
 
     else
     {
-      isc_assertion_failed("./../lib/isc/task.c", 488, (enum anonymous$45)isc_assertiontype_insist, "(((task->events).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)");
+      isc_assertion_failed("./../lib/isc/task.c", 488, (enum anonymous_45)isc_assertiontype_insist, "(((task->events).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)");
       (_Bool)0;
     }
-    task->state = (enum anonymous$56)task_state_ready;
-    return (enum anonymous$11)isc_boolean_true;
+    task->state = (enum anonymous_56)task_state_ready;
+    return (enum anonymous_11)isc_boolean_true;
   }
 
   else
@@ -28022,7 +28022,7 @@ static inline enum anonymous$11 task_detach(struct isc__task *task)
 
   __CPROVER_DUMP_L7:
     ;
-    return (enum anonymous$11)isc_boolean_false;
+    return (enum anonymous_11)isc_boolean_false;
   }
 }
 
@@ -28036,7 +28036,7 @@ static void task_finished(struct isc__task *task)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 300, (enum anonymous$45)isc_assertiontype_require, "(((task->events).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)");
+    isc_assertion_failed("./../lib/isc/task.c", 300, (enum anonymous_45)isc_assertiontype_require, "(((task->events).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)");
     (_Bool)0;
   }
   if(task->on_shutdown.head == ((struct isc_event *)NULL))
@@ -28044,7 +28044,7 @@ static void task_finished(struct isc__task *task)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 301, (enum anonymous$45)isc_assertiontype_require, "(((task->on_shutdown).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)");
+    isc_assertion_failed("./../lib/isc/task.c", 301, (enum anonymous_45)isc_assertiontype_require, "(((task->on_shutdown).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)");
     (_Bool)0;
   }
   if(task->references == 0u)
@@ -28052,7 +28052,7 @@ static void task_finished(struct isc__task *task)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 302, (enum anonymous$45)isc_assertiontype_require, "task->references == 0");
+    isc_assertion_failed("./../lib/isc/task.c", 302, (enum anonymous_45)isc_assertiontype_require, "task->references == 0");
     (_Bool)0;
   }
   if((signed int)task->state == task_state_done)
@@ -28060,14 +28060,14 @@ static void task_finished(struct isc__task *task)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 303, (enum anonymous$45)isc_assertiontype_require, "task->state == task_state_done");
+    isc_assertion_failed("./../lib/isc/task.c", 303, (enum anonymous_45)isc_assertiontype_require, "task->state == task_state_done");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$1 == 0)
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_1 == 0)
       (_Bool)1;
 
     else
@@ -28092,7 +28092,7 @@ __CPROVER_DUMP_L16:
 
       else
       {
-        isc_assertion_failed("./../lib/isc/task.c", 308, (enum anonymous$45)isc_assertiontype_insist, "(manager->tasks).tail == (task)");
+        isc_assertion_failed("./../lib/isc/task.c", 308, (enum anonymous_45)isc_assertiontype_insist, "(manager->tasks).tail == (task)");
         (_Bool)0;
       }
       manager->tasks.tail = task->link.prev;
@@ -28107,7 +28107,7 @@ __CPROVER_DUMP_L16:
 
       else
       {
-        isc_assertion_failed("./../lib/isc/task.c", 308, (enum anonymous$45)isc_assertiontype_insist, "(manager->tasks).head == (task)");
+        isc_assertion_failed("./../lib/isc/task.c", 308, (enum anonymous_45)isc_assertiontype_insist, "(manager->tasks).head == (task)");
         (_Bool)0;
       }
       manager->tasks.head = task->link.next;
@@ -28121,9 +28121,9 @@ __CPROVER_DUMP_L16:
     if(manager->tasks.head == ((struct isc__task *)NULL))
       do
       {
-        signed int return_value_pthread_cond_broadcast$2;
-        return_value_pthread_cond_broadcast$2=pthread_cond_broadcast(&manager->work_available);
-        if(return_value_pthread_cond_broadcast$2 == 0)
+        signed int return_value_pthread_cond_broadcast_2;
+        return_value_pthread_cond_broadcast_2=pthread_cond_broadcast(&manager->work_available);
+        if(return_value_pthread_cond_broadcast_2 == 0)
           (_Bool)1;
 
         else
@@ -28138,9 +28138,9 @@ __CPROVER_DUMP_L16:
 
   do
   {
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&manager->lock);
-    if(return_value_pthread_mutex_unlock$3 == 0)
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&manager->lock);
+    if(return_value_pthread_mutex_unlock_3 == 0)
       (_Bool)1;
 
     else
@@ -28150,9 +28150,9 @@ __CPROVER_DUMP_L16:
     }
   }
   while((_Bool)0);
-  signed int return_value_pthread_mutex_destroy$4;
-  return_value_pthread_mutex_destroy$4=pthread_mutex_destroy(&task->lock);
-  if(return_value_pthread_mutex_destroy$4 == 0)
+  signed int return_value_pthread_mutex_destroy_4;
+  return_value_pthread_mutex_destroy_4=pthread_mutex_destroy(&task->lock);
+  if(return_value_pthread_mutex_destroy_4 == 0)
     (_Bool)1;
 
   else
@@ -28171,20 +28171,20 @@ __CPROVER_DUMP_L16:
 static inline void task_ready(struct isc__task *task)
 {
   struct isc__taskmgr *manager = task->manager;
-  enum anonymous$11 has_privilege;
+  enum anonymous_11 has_privilege;
   has_privilege=isc__task_privilege((struct isc_task *)task);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(manager == ((struct isc__taskmgr *)NULL)))
-    tmp_if_expr$1 = ((const struct anonymous$30 *)manager)->magic == (unsigned int)(84 << 24 | 83 << 16 | 75 << 8 | 77) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((const struct anonymous_30 *)manager)->magic == (unsigned int)(84 << 24 | 83 << 16 | 75 << 8 | 77) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 461, (enum anonymous$45)isc_assertiontype_require, "(((manager) != ((void *)0)) && (((const isc__magic_t *)(manager))->magic == ((('T') << 24 | ('S') << 16 | ('K') << 8 | ('M')))))");
+    isc_assertion_failed("./../lib/isc/task.c", 461, (enum anonymous_45)isc_assertiontype_require, "(((manager) != ((void *)0)) && (((const isc__magic_t *)(manager))->magic == ((('T') << 24 | ('S') << 16 | ('K') << 8 | ('M')))))");
     (_Bool)0;
   }
   if((signed int)task->state == task_state_ready)
@@ -28192,14 +28192,14 @@ static inline void task_ready(struct isc__task *task)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 462, (enum anonymous$45)isc_assertiontype_require, "task->state == task_state_ready");
+    isc_assertion_failed("./../lib/isc/task.c", 462, (enum anonymous_45)isc_assertiontype_require, "task->state == task_state_ready");
     (_Bool)0;
   }
   do
   {
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&manager->lock);
-    if(return_value_pthread_mutex_lock$2 == 0)
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&manager->lock);
+    if(return_value_pthread_mutex_lock_2 == 0)
       (_Bool)1;
 
     else
@@ -28213,9 +28213,9 @@ static inline void task_ready(struct isc__task *task)
   if((signed int)manager->mode == isc_taskmgrmode_normal || !(has_privilege == /*enum*/isc_boolean_false))
     do
     {
-      signed int return_value_pthread_cond_signal$3;
-      return_value_pthread_cond_signal$3=pthread_cond_signal(&manager->work_available);
-      if(return_value_pthread_cond_signal$3 == 0)
+      signed int return_value_pthread_cond_signal_3;
+      return_value_pthread_cond_signal_3=pthread_cond_signal(&manager->work_available);
+      if(return_value_pthread_cond_signal_3 == 0)
         (_Bool)1;
 
       else
@@ -28228,9 +28228,9 @@ static inline void task_ready(struct isc__task *task)
 
   do
   {
-    signed int return_value_pthread_mutex_unlock$4;
-    return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&manager->lock);
-    if(return_value_pthread_mutex_unlock$4 == 0)
+    signed int return_value_pthread_mutex_unlock_4;
+    return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&manager->lock);
+    if(return_value_pthread_mutex_unlock_4 == 0)
       (_Bool)1;
 
     else
@@ -28244,16 +28244,16 @@ static inline void task_ready(struct isc__task *task)
 
 // task_send
 // file ./../lib/isc/task.c line 530
-static inline enum anonymous$11 task_send(struct isc__task *task, struct isc_event **eventp)
+static inline enum anonymous_11 task_send(struct isc__task *task, struct isc_event **eventp)
 {
-  enum anonymous$11 was_idle = (enum anonymous$11)isc_boolean_false;
+  enum anonymous_11 was_idle = (enum anonymous_11)isc_boolean_false;
   struct isc_event *event;
   if(!(eventp == ((struct isc_event **)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 538, (enum anonymous$45)isc_assertiontype_require, "eventp != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 538, (enum anonymous_45)isc_assertiontype_require, "eventp != ((void *)0)");
     (_Bool)0;
   }
   event = *eventp;
@@ -28262,7 +28262,7 @@ static inline enum anonymous$11 task_send(struct isc__task *task, struct isc_eve
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 540, (enum anonymous$45)isc_assertiontype_require, "event != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/task.c", 540, (enum anonymous_45)isc_assertiontype_require, "event != ((void *)0)");
     (_Bool)0;
   }
   if(event->ev_type >= 1u)
@@ -28270,7 +28270,7 @@ static inline enum anonymous$11 task_send(struct isc__task *task, struct isc_eve
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 541, (enum anonymous$45)isc_assertiontype_require, "event->ev_type > 0");
+    isc_assertion_failed("./../lib/isc/task.c", 541, (enum anonymous_45)isc_assertiontype_require, "event->ev_type > 0");
     (_Bool)0;
   }
   if(!((signed int)task->state == task_state_done))
@@ -28278,35 +28278,35 @@ static inline enum anonymous$11 task_send(struct isc__task *task, struct isc_eve
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 542, (enum anonymous$45)isc_assertiontype_require, "task->state != task_state_done");
+    isc_assertion_failed("./../lib/isc/task.c", 542, (enum anonymous_45)isc_assertiontype_require, "task->state != task_state_done");
     (_Bool)0;
   }
   if((signed int)task->state == task_state_idle)
   {
-    was_idle = (enum anonymous$11)isc_boolean_true;
+    was_idle = (enum anonymous_11)isc_boolean_true;
     if(task->events.head == ((struct isc_event *)NULL))
       (_Bool)1;
 
     else
     {
-      isc_assertion_failed("./../lib/isc/task.c", 548, (enum anonymous$45)isc_assertiontype_insist, "(((task->events).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)");
+      isc_assertion_failed("./../lib/isc/task.c", 548, (enum anonymous_45)isc_assertiontype_insist, "(((task->events).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)");
       (_Bool)0;
     }
-    task->state = (enum anonymous$56)task_state_ready;
+    task->state = (enum anonymous_56)task_state_ready;
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)task->state == task_state_ready)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)task->state == task_state_running ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)task->state == task_state_running ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/task.c", 552, (enum anonymous$45)isc_assertiontype_insist, "task->state == task_state_ready || task->state == task_state_running");
+    isc_assertion_failed("./../lib/isc/task.c", 552, (enum anonymous_45)isc_assertiontype_insist, "task->state == task_state_ready || task->state == task_state_running");
     (_Bool)0;
   }
 
@@ -28330,12 +28330,12 @@ __CPROVER_DUMP_L21:
 
 // task_shutdown
 // file ./../lib/isc/task.c line 412
-static inline enum anonymous$11 task_shutdown(struct isc__task *task)
+static inline enum anonymous_11 task_shutdown(struct isc__task *task)
 {
-  enum anonymous$11 was_idle = (enum anonymous$11)isc_boolean_false;
+  enum anonymous_11 was_idle = (enum anonymous_11)isc_boolean_false;
   struct isc_event *event;
   struct isc_event *prev;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1u & task->flags) == 0u)
   {
     task->flags = task->flags | (unsigned int)0x01;
@@ -28346,24 +28346,24 @@ static inline enum anonymous$11 task_shutdown(struct isc__task *task)
 
       else
       {
-        isc_assertion_failed("./../lib/isc/task.c", 427, (enum anonymous$45)isc_assertiontype_insist, "(((task->events).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)");
+        isc_assertion_failed("./../lib/isc/task.c", 427, (enum anonymous_45)isc_assertiontype_insist, "(((task->events).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)");
         (_Bool)0;
       }
-      task->state = (enum anonymous$56)task_state_ready;
-      was_idle = (enum anonymous$11)isc_boolean_true;
+      task->state = (enum anonymous_56)task_state_ready;
+      was_idle = (enum anonymous_11)isc_boolean_true;
     }
 
     if((signed int)task->state == task_state_ready)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)task->state == task_state_running ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)task->state == task_state_running ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       (_Bool)1;
 
     else
     {
-      isc_assertion_failed("./../lib/isc/task.c", 432, (enum anonymous$45)isc_assertiontype_insist, "task->state == task_state_ready || task->state == task_state_running");
+      isc_assertion_failed("./../lib/isc/task.c", 432, (enum anonymous_45)isc_assertiontype_insist, "task->state == task_state_ready || task->state == task_state_running");
       (_Bool)0;
     }
     event = task->on_shutdown.tail;
@@ -28385,7 +28385,7 @@ static inline enum anonymous$11 task_shutdown(struct isc__task *task)
 
           else
           {
-            isc_assertion_failed("./../lib/isc/task.c", 441, (enum anonymous$45)isc_assertiontype_insist, "(task->on_shutdown).tail == (event)");
+            isc_assertion_failed("./../lib/isc/task.c", 441, (enum anonymous_45)isc_assertiontype_insist, "(task->on_shutdown).tail == (event)");
             (_Bool)0;
           }
           task->on_shutdown.tail = event->ev_link.prev;
@@ -28400,7 +28400,7 @@ static inline enum anonymous$11 task_shutdown(struct isc__task *task)
 
           else
           {
-            isc_assertion_failed("./../lib/isc/task.c", 441, (enum anonymous$45)isc_assertiontype_insist, "(task->on_shutdown).head == (event)");
+            isc_assertion_failed("./../lib/isc/task.c", 441, (enum anonymous_45)isc_assertiontype_insist, "(task->on_shutdown).head == (event)");
             (_Bool)0;
           }
           task->on_shutdown.head = event->ev_link.next;
@@ -28432,9 +28432,9 @@ static inline enum anonymous$11 task_shutdown(struct isc__task *task)
 
 // time_to_vint64
 // file ntp_calendar.c line 240
-extern union anonymous$44 time_to_vint64(const signed long int *ptt)
+extern union anonymous_44 time_to_vint64(const signed long int *ptt)
 {
-  union anonymous$44 res;
+  union anonymous_44 res;
   signed long int tt = *ptt;
   res.q_s = tt;
   return res;
@@ -28593,23 +28593,23 @@ static void transform(unsigned int *buf, const unsigned int *in)
   buf[(signed long int)3] = buf[(signed long int)3] + d;
 }
 
-// transform$link1
+// transform_link1
 // file ./../lib/isc/sha1.c line 203
-static void transform$link1(unsigned int *state, const unsigned char *buffer)
+static void transform_link1(unsigned int *state, const unsigned char *buffer)
 {
-  unsigned int a$link1;
-  unsigned int b$link1;
-  unsigned int c$link1;
-  unsigned int d$link1;
+  unsigned int a_link1;
+  unsigned int b_link1;
+  unsigned int c_link1;
+  unsigned int d_link1;
   unsigned int e;
-  union anonymous$63 *block;
-  union anonymous$63 workspace;
+  union anonymous_63 *block;
+  union anonymous_63 workspace;
   if(!(buffer == ((const unsigned char *)NULL)))
     (_Bool)1;
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sha1.c", 208, (enum anonymous$45)isc_assertiontype_insist, "buffer != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/sha1.c", 208, (enum anonymous_45)isc_assertiontype_insist, "buffer != ((void *)0)");
     (_Bool)0;
   }
   if(!(state == ((unsigned int *)NULL)))
@@ -28617,270 +28617,270 @@ static void transform$link1(unsigned int *state, const unsigned char *buffer)
 
   else
   {
-    isc_assertion_failed("./../lib/isc/sha1.c", 209, (enum anonymous$45)isc_assertiontype_insist, "state != ((void *)0)");
+    isc_assertion_failed("./../lib/isc/sha1.c", 209, (enum anonymous_45)isc_assertiontype_insist, "state != ((void *)0)");
     (_Bool)0;
   }
   block = &workspace;
   memcpy((void *)block, (const void *)buffer, (unsigned long int)64);
-  a$link1 = state[(signed long int)0];
-  b$link1 = state[(signed long int)1];
-  c$link1 = state[(signed long int)2];
-  d$link1 = state[(signed long int)3];
+  a_link1 = state[(signed long int)0];
+  b_link1 = state[(signed long int)1];
+  c_link1 = state[(signed long int)2];
+  d_link1 = state[(signed long int)3];
   e = state[(signed long int)4];
   block->l[(signed long int)0] = (block->l[(signed long int)0] << 24 | block->l[(signed long int)0] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)0] << 8 | block->l[(signed long int)0] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  e = e + (b$link1 & (c$link1 ^ d$link1) ^ d$link1) + block->l[(signed long int)0] + (unsigned int)0x5A827999 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 & (c_link1 ^ d_link1) ^ d_link1) + block->l[(signed long int)0] + (unsigned int)0x5A827999 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)1] = (block->l[(signed long int)1] << 24 | block->l[(signed long int)1] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)1] << 8 | block->l[(signed long int)1] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  d$link1 = d$link1 + (a$link1 & (b$link1 ^ c$link1) ^ c$link1) + block->l[(signed long int)1] + (unsigned int)0x5A827999 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 & (b_link1 ^ c_link1) ^ c_link1) + block->l[(signed long int)1] + (unsigned int)0x5A827999 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)2] = (block->l[(signed long int)2] << 24 | block->l[(signed long int)2] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)2] << 8 | block->l[(signed long int)2] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  c$link1 = c$link1 + (e & (a$link1 ^ b$link1) ^ b$link1) + block->l[(signed long int)2] + (unsigned int)0x5A827999 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e & (a_link1 ^ b_link1) ^ b_link1) + block->l[(signed long int)2] + (unsigned int)0x5A827999 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)3] = (block->l[(signed long int)3] << 24 | block->l[(signed long int)3] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)3] << 8 | block->l[(signed long int)3] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  b$link1 = b$link1 + (d$link1 & (e ^ a$link1) ^ a$link1) + block->l[(signed long int)3] + (unsigned int)0x5A827999 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 & (e ^ a_link1) ^ a_link1) + block->l[(signed long int)3] + (unsigned int)0x5A827999 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)4] = (block->l[(signed long int)4] << 24 | block->l[(signed long int)4] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)4] << 8 | block->l[(signed long int)4] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  a$link1 = a$link1 + (c$link1 & (d$link1 ^ e) ^ e) + block->l[(signed long int)4] + (unsigned int)0x5A827999 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 & (d_link1 ^ e) ^ e) + block->l[(signed long int)4] + (unsigned int)0x5A827999 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)5] = (block->l[(signed long int)5] << 24 | block->l[(signed long int)5] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)5] << 8 | block->l[(signed long int)5] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  e = e + (b$link1 & (c$link1 ^ d$link1) ^ d$link1) + block->l[(signed long int)5] + (unsigned int)0x5A827999 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 & (c_link1 ^ d_link1) ^ d_link1) + block->l[(signed long int)5] + (unsigned int)0x5A827999 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)6] = (block->l[(signed long int)6] << 24 | block->l[(signed long int)6] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)6] << 8 | block->l[(signed long int)6] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  d$link1 = d$link1 + (a$link1 & (b$link1 ^ c$link1) ^ c$link1) + block->l[(signed long int)6] + (unsigned int)0x5A827999 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 & (b_link1 ^ c_link1) ^ c_link1) + block->l[(signed long int)6] + (unsigned int)0x5A827999 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)7] = (block->l[(signed long int)7] << 24 | block->l[(signed long int)7] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)7] << 8 | block->l[(signed long int)7] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  c$link1 = c$link1 + (e & (a$link1 ^ b$link1) ^ b$link1) + block->l[(signed long int)7] + (unsigned int)0x5A827999 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e & (a_link1 ^ b_link1) ^ b_link1) + block->l[(signed long int)7] + (unsigned int)0x5A827999 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)8] = (block->l[(signed long int)8] << 24 | block->l[(signed long int)8] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)8] << 8 | block->l[(signed long int)8] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  b$link1 = b$link1 + (d$link1 & (e ^ a$link1) ^ a$link1) + block->l[(signed long int)8] + (unsigned int)0x5A827999 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 & (e ^ a_link1) ^ a_link1) + block->l[(signed long int)8] + (unsigned int)0x5A827999 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)9] = (block->l[(signed long int)9] << 24 | block->l[(signed long int)9] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)9] << 8 | block->l[(signed long int)9] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  a$link1 = a$link1 + (c$link1 & (d$link1 ^ e) ^ e) + block->l[(signed long int)9] + (unsigned int)0x5A827999 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 & (d_link1 ^ e) ^ e) + block->l[(signed long int)9] + (unsigned int)0x5A827999 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)10] = (block->l[(signed long int)10] << 24 | block->l[(signed long int)10] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)10] << 8 | block->l[(signed long int)10] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  e = e + (b$link1 & (c$link1 ^ d$link1) ^ d$link1) + block->l[(signed long int)10] + (unsigned int)0x5A827999 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 & (c_link1 ^ d_link1) ^ d_link1) + block->l[(signed long int)10] + (unsigned int)0x5A827999 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)11] = (block->l[(signed long int)11] << 24 | block->l[(signed long int)11] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)11] << 8 | block->l[(signed long int)11] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  d$link1 = d$link1 + (a$link1 & (b$link1 ^ c$link1) ^ c$link1) + block->l[(signed long int)11] + (unsigned int)0x5A827999 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 & (b_link1 ^ c_link1) ^ c_link1) + block->l[(signed long int)11] + (unsigned int)0x5A827999 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)12] = (block->l[(signed long int)12] << 24 | block->l[(signed long int)12] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)12] << 8 | block->l[(signed long int)12] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  c$link1 = c$link1 + (e & (a$link1 ^ b$link1) ^ b$link1) + block->l[(signed long int)12] + (unsigned int)0x5A827999 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e & (a_link1 ^ b_link1) ^ b_link1) + block->l[(signed long int)12] + (unsigned int)0x5A827999 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)13] = (block->l[(signed long int)13] << 24 | block->l[(signed long int)13] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)13] << 8 | block->l[(signed long int)13] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  b$link1 = b$link1 + (d$link1 & (e ^ a$link1) ^ a$link1) + block->l[(signed long int)13] + (unsigned int)0x5A827999 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 & (e ^ a_link1) ^ a_link1) + block->l[(signed long int)13] + (unsigned int)0x5A827999 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)14] = (block->l[(signed long int)14] << 24 | block->l[(signed long int)14] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)14] << 8 | block->l[(signed long int)14] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  a$link1 = a$link1 + (c$link1 & (d$link1 ^ e) ^ e) + block->l[(signed long int)14] + (unsigned int)0x5A827999 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 & (d_link1 ^ e) ^ e) + block->l[(signed long int)14] + (unsigned int)0x5A827999 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)15] = (block->l[(signed long int)15] << 24 | block->l[(signed long int)15] >> 32 - 24) & 0xFF00FF00 | (block->l[(signed long int)15] << 8 | block->l[(signed long int)15] >> 32 - 8) & (unsigned int)0x00FF00FF;
-  e = e + (b$link1 & (c$link1 ^ d$link1) ^ d$link1) + block->l[(signed long int)15] + (unsigned int)0x5A827999 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 & (c_link1 ^ d_link1) ^ d_link1) + block->l[(signed long int)15] + (unsigned int)0x5A827999 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(16 & 15)] = (block->l[(signed long int)(16 + 13 & 15)] ^ block->l[(signed long int)(16 + 8 & 15)] ^ block->l[(signed long int)(16 + 2 & 15)] ^ block->l[(signed long int)(16 & 15)]) << 1 | (block->l[(signed long int)(16 + 13 & 15)] ^ block->l[(signed long int)(16 + 8 & 15)] ^ block->l[(signed long int)(16 + 2 & 15)] ^ block->l[(signed long int)(16 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + (a$link1 & (b$link1 ^ c$link1) ^ c$link1) + block->l[(signed long int)(16 & 15)] + (unsigned int)0x5A827999 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 & (b_link1 ^ c_link1) ^ c_link1) + block->l[(signed long int)(16 & 15)] + (unsigned int)0x5A827999 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(17 & 15)] = (block->l[(signed long int)(17 + 13 & 15)] ^ block->l[(signed long int)(17 + 8 & 15)] ^ block->l[(signed long int)(17 + 2 & 15)] ^ block->l[(signed long int)(17 & 15)]) << 1 | (block->l[(signed long int)(17 + 13 & 15)] ^ block->l[(signed long int)(17 + 8 & 15)] ^ block->l[(signed long int)(17 + 2 & 15)] ^ block->l[(signed long int)(17 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + (e & (a$link1 ^ b$link1) ^ b$link1) + block->l[(signed long int)(17 & 15)] + (unsigned int)0x5A827999 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e & (a_link1 ^ b_link1) ^ b_link1) + block->l[(signed long int)(17 & 15)] + (unsigned int)0x5A827999 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(18 & 15)] = (block->l[(signed long int)(18 + 13 & 15)] ^ block->l[(signed long int)(18 + 8 & 15)] ^ block->l[(signed long int)(18 + 2 & 15)] ^ block->l[(signed long int)(18 & 15)]) << 1 | (block->l[(signed long int)(18 + 13 & 15)] ^ block->l[(signed long int)(18 + 8 & 15)] ^ block->l[(signed long int)(18 + 2 & 15)] ^ block->l[(signed long int)(18 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + (d$link1 & (e ^ a$link1) ^ a$link1) + block->l[(signed long int)(18 & 15)] + (unsigned int)0x5A827999 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 & (e ^ a_link1) ^ a_link1) + block->l[(signed long int)(18 & 15)] + (unsigned int)0x5A827999 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(19 & 15)] = (block->l[(signed long int)(19 + 13 & 15)] ^ block->l[(signed long int)(19 + 8 & 15)] ^ block->l[(signed long int)(19 + 2 & 15)] ^ block->l[(signed long int)(19 & 15)]) << 1 | (block->l[(signed long int)(19 + 13 & 15)] ^ block->l[(signed long int)(19 + 8 & 15)] ^ block->l[(signed long int)(19 + 2 & 15)] ^ block->l[(signed long int)(19 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + (c$link1 & (d$link1 ^ e) ^ e) + block->l[(signed long int)(19 & 15)] + (unsigned int)0x5A827999 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 & (d_link1 ^ e) ^ e) + block->l[(signed long int)(19 & 15)] + (unsigned int)0x5A827999 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(20 & 15)] = (block->l[(signed long int)(20 + 13 & 15)] ^ block->l[(signed long int)(20 + 8 & 15)] ^ block->l[(signed long int)(20 + 2 & 15)] ^ block->l[(signed long int)(20 & 15)]) << 1 | (block->l[(signed long int)(20 + 13 & 15)] ^ block->l[(signed long int)(20 + 8 & 15)] ^ block->l[(signed long int)(20 + 2 & 15)] ^ block->l[(signed long int)(20 & 15)]) >> 32 - 1;
-  e = e + (b$link1 ^ c$link1 ^ d$link1) + block->l[(signed long int)(20 & 15)] + (unsigned int)0x6ED9EBA1 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 ^ c_link1 ^ d_link1) + block->l[(signed long int)(20 & 15)] + (unsigned int)0x6ED9EBA1 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(21 & 15)] = (block->l[(signed long int)(21 + 13 & 15)] ^ block->l[(signed long int)(21 + 8 & 15)] ^ block->l[(signed long int)(21 + 2 & 15)] ^ block->l[(signed long int)(21 & 15)]) << 1 | (block->l[(signed long int)(21 + 13 & 15)] ^ block->l[(signed long int)(21 + 8 & 15)] ^ block->l[(signed long int)(21 + 2 & 15)] ^ block->l[(signed long int)(21 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + (a$link1 ^ b$link1 ^ c$link1) + block->l[(signed long int)(21 & 15)] + (unsigned int)0x6ED9EBA1 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 ^ b_link1 ^ c_link1) + block->l[(signed long int)(21 & 15)] + (unsigned int)0x6ED9EBA1 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(22 & 15)] = (block->l[(signed long int)(22 + 13 & 15)] ^ block->l[(signed long int)(22 + 8 & 15)] ^ block->l[(signed long int)(22 + 2 & 15)] ^ block->l[(signed long int)(22 & 15)]) << 1 | (block->l[(signed long int)(22 + 13 & 15)] ^ block->l[(signed long int)(22 + 8 & 15)] ^ block->l[(signed long int)(22 + 2 & 15)] ^ block->l[(signed long int)(22 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + (e ^ a$link1 ^ b$link1) + block->l[(signed long int)(22 & 15)] + (unsigned int)0x6ED9EBA1 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e ^ a_link1 ^ b_link1) + block->l[(signed long int)(22 & 15)] + (unsigned int)0x6ED9EBA1 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(23 & 15)] = (block->l[(signed long int)(23 + 13 & 15)] ^ block->l[(signed long int)(23 + 8 & 15)] ^ block->l[(signed long int)(23 + 2 & 15)] ^ block->l[(signed long int)(23 & 15)]) << 1 | (block->l[(signed long int)(23 + 13 & 15)] ^ block->l[(signed long int)(23 + 8 & 15)] ^ block->l[(signed long int)(23 + 2 & 15)] ^ block->l[(signed long int)(23 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + (d$link1 ^ e ^ a$link1) + block->l[(signed long int)(23 & 15)] + (unsigned int)0x6ED9EBA1 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 ^ e ^ a_link1) + block->l[(signed long int)(23 & 15)] + (unsigned int)0x6ED9EBA1 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(24 & 15)] = (block->l[(signed long int)(24 + 13 & 15)] ^ block->l[(signed long int)(24 + 8 & 15)] ^ block->l[(signed long int)(24 + 2 & 15)] ^ block->l[(signed long int)(24 & 15)]) << 1 | (block->l[(signed long int)(24 + 13 & 15)] ^ block->l[(signed long int)(24 + 8 & 15)] ^ block->l[(signed long int)(24 + 2 & 15)] ^ block->l[(signed long int)(24 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + (c$link1 ^ d$link1 ^ e) + block->l[(signed long int)(24 & 15)] + (unsigned int)0x6ED9EBA1 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 ^ d_link1 ^ e) + block->l[(signed long int)(24 & 15)] + (unsigned int)0x6ED9EBA1 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(25 & 15)] = (block->l[(signed long int)(25 + 13 & 15)] ^ block->l[(signed long int)(25 + 8 & 15)] ^ block->l[(signed long int)(25 + 2 & 15)] ^ block->l[(signed long int)(25 & 15)]) << 1 | (block->l[(signed long int)(25 + 13 & 15)] ^ block->l[(signed long int)(25 + 8 & 15)] ^ block->l[(signed long int)(25 + 2 & 15)] ^ block->l[(signed long int)(25 & 15)]) >> 32 - 1;
-  e = e + (b$link1 ^ c$link1 ^ d$link1) + block->l[(signed long int)(25 & 15)] + (unsigned int)0x6ED9EBA1 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 ^ c_link1 ^ d_link1) + block->l[(signed long int)(25 & 15)] + (unsigned int)0x6ED9EBA1 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(26 & 15)] = (block->l[(signed long int)(26 + 13 & 15)] ^ block->l[(signed long int)(26 + 8 & 15)] ^ block->l[(signed long int)(26 + 2 & 15)] ^ block->l[(signed long int)(26 & 15)]) << 1 | (block->l[(signed long int)(26 + 13 & 15)] ^ block->l[(signed long int)(26 + 8 & 15)] ^ block->l[(signed long int)(26 + 2 & 15)] ^ block->l[(signed long int)(26 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + (a$link1 ^ b$link1 ^ c$link1) + block->l[(signed long int)(26 & 15)] + (unsigned int)0x6ED9EBA1 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 ^ b_link1 ^ c_link1) + block->l[(signed long int)(26 & 15)] + (unsigned int)0x6ED9EBA1 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(27 & 15)] = (block->l[(signed long int)(27 + 13 & 15)] ^ block->l[(signed long int)(27 + 8 & 15)] ^ block->l[(signed long int)(27 + 2 & 15)] ^ block->l[(signed long int)(27 & 15)]) << 1 | (block->l[(signed long int)(27 + 13 & 15)] ^ block->l[(signed long int)(27 + 8 & 15)] ^ block->l[(signed long int)(27 + 2 & 15)] ^ block->l[(signed long int)(27 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + (e ^ a$link1 ^ b$link1) + block->l[(signed long int)(27 & 15)] + (unsigned int)0x6ED9EBA1 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e ^ a_link1 ^ b_link1) + block->l[(signed long int)(27 & 15)] + (unsigned int)0x6ED9EBA1 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(28 & 15)] = (block->l[(signed long int)(28 + 13 & 15)] ^ block->l[(signed long int)(28 + 8 & 15)] ^ block->l[(signed long int)(28 + 2 & 15)] ^ block->l[(signed long int)(28 & 15)]) << 1 | (block->l[(signed long int)(28 + 13 & 15)] ^ block->l[(signed long int)(28 + 8 & 15)] ^ block->l[(signed long int)(28 + 2 & 15)] ^ block->l[(signed long int)(28 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + (d$link1 ^ e ^ a$link1) + block->l[(signed long int)(28 & 15)] + (unsigned int)0x6ED9EBA1 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 ^ e ^ a_link1) + block->l[(signed long int)(28 & 15)] + (unsigned int)0x6ED9EBA1 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(29 & 15)] = (block->l[(signed long int)(29 + 13 & 15)] ^ block->l[(signed long int)(29 + 8 & 15)] ^ block->l[(signed long int)(29 + 2 & 15)] ^ block->l[(signed long int)(29 & 15)]) << 1 | (block->l[(signed long int)(29 + 13 & 15)] ^ block->l[(signed long int)(29 + 8 & 15)] ^ block->l[(signed long int)(29 + 2 & 15)] ^ block->l[(signed long int)(29 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + (c$link1 ^ d$link1 ^ e) + block->l[(signed long int)(29 & 15)] + (unsigned int)0x6ED9EBA1 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 ^ d_link1 ^ e) + block->l[(signed long int)(29 & 15)] + (unsigned int)0x6ED9EBA1 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(30 & 15)] = (block->l[(signed long int)(30 + 13 & 15)] ^ block->l[(signed long int)(30 + 8 & 15)] ^ block->l[(signed long int)(30 + 2 & 15)] ^ block->l[(signed long int)(30 & 15)]) << 1 | (block->l[(signed long int)(30 + 13 & 15)] ^ block->l[(signed long int)(30 + 8 & 15)] ^ block->l[(signed long int)(30 + 2 & 15)] ^ block->l[(signed long int)(30 & 15)]) >> 32 - 1;
-  e = e + (b$link1 ^ c$link1 ^ d$link1) + block->l[(signed long int)(30 & 15)] + (unsigned int)0x6ED9EBA1 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 ^ c_link1 ^ d_link1) + block->l[(signed long int)(30 & 15)] + (unsigned int)0x6ED9EBA1 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(31 & 15)] = (block->l[(signed long int)(31 + 13 & 15)] ^ block->l[(signed long int)(31 + 8 & 15)] ^ block->l[(signed long int)(31 + 2 & 15)] ^ block->l[(signed long int)(31 & 15)]) << 1 | (block->l[(signed long int)(31 + 13 & 15)] ^ block->l[(signed long int)(31 + 8 & 15)] ^ block->l[(signed long int)(31 + 2 & 15)] ^ block->l[(signed long int)(31 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + (a$link1 ^ b$link1 ^ c$link1) + block->l[(signed long int)(31 & 15)] + (unsigned int)0x6ED9EBA1 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 ^ b_link1 ^ c_link1) + block->l[(signed long int)(31 & 15)] + (unsigned int)0x6ED9EBA1 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(32 & 15)] = (block->l[(signed long int)(32 + 13 & 15)] ^ block->l[(signed long int)(32 + 8 & 15)] ^ block->l[(signed long int)(32 + 2 & 15)] ^ block->l[(signed long int)(32 & 15)]) << 1 | (block->l[(signed long int)(32 + 13 & 15)] ^ block->l[(signed long int)(32 + 8 & 15)] ^ block->l[(signed long int)(32 + 2 & 15)] ^ block->l[(signed long int)(32 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + (e ^ a$link1 ^ b$link1) + block->l[(signed long int)(32 & 15)] + (unsigned int)0x6ED9EBA1 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e ^ a_link1 ^ b_link1) + block->l[(signed long int)(32 & 15)] + (unsigned int)0x6ED9EBA1 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(33 & 15)] = (block->l[(signed long int)(33 + 13 & 15)] ^ block->l[(signed long int)(33 + 8 & 15)] ^ block->l[(signed long int)(33 + 2 & 15)] ^ block->l[(signed long int)(33 & 15)]) << 1 | (block->l[(signed long int)(33 + 13 & 15)] ^ block->l[(signed long int)(33 + 8 & 15)] ^ block->l[(signed long int)(33 + 2 & 15)] ^ block->l[(signed long int)(33 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + (d$link1 ^ e ^ a$link1) + block->l[(signed long int)(33 & 15)] + (unsigned int)0x6ED9EBA1 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 ^ e ^ a_link1) + block->l[(signed long int)(33 & 15)] + (unsigned int)0x6ED9EBA1 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(34 & 15)] = (block->l[(signed long int)(34 + 13 & 15)] ^ block->l[(signed long int)(34 + 8 & 15)] ^ block->l[(signed long int)(34 + 2 & 15)] ^ block->l[(signed long int)(34 & 15)]) << 1 | (block->l[(signed long int)(34 + 13 & 15)] ^ block->l[(signed long int)(34 + 8 & 15)] ^ block->l[(signed long int)(34 + 2 & 15)] ^ block->l[(signed long int)(34 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + (c$link1 ^ d$link1 ^ e) + block->l[(signed long int)(34 & 15)] + (unsigned int)0x6ED9EBA1 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 ^ d_link1 ^ e) + block->l[(signed long int)(34 & 15)] + (unsigned int)0x6ED9EBA1 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(35 & 15)] = (block->l[(signed long int)(35 + 13 & 15)] ^ block->l[(signed long int)(35 + 8 & 15)] ^ block->l[(signed long int)(35 + 2 & 15)] ^ block->l[(signed long int)(35 & 15)]) << 1 | (block->l[(signed long int)(35 + 13 & 15)] ^ block->l[(signed long int)(35 + 8 & 15)] ^ block->l[(signed long int)(35 + 2 & 15)] ^ block->l[(signed long int)(35 & 15)]) >> 32 - 1;
-  e = e + (b$link1 ^ c$link1 ^ d$link1) + block->l[(signed long int)(35 & 15)] + (unsigned int)0x6ED9EBA1 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 ^ c_link1 ^ d_link1) + block->l[(signed long int)(35 & 15)] + (unsigned int)0x6ED9EBA1 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(36 & 15)] = (block->l[(signed long int)(36 + 13 & 15)] ^ block->l[(signed long int)(36 + 8 & 15)] ^ block->l[(signed long int)(36 + 2 & 15)] ^ block->l[(signed long int)(36 & 15)]) << 1 | (block->l[(signed long int)(36 + 13 & 15)] ^ block->l[(signed long int)(36 + 8 & 15)] ^ block->l[(signed long int)(36 + 2 & 15)] ^ block->l[(signed long int)(36 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + (a$link1 ^ b$link1 ^ c$link1) + block->l[(signed long int)(36 & 15)] + (unsigned int)0x6ED9EBA1 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 ^ b_link1 ^ c_link1) + block->l[(signed long int)(36 & 15)] + (unsigned int)0x6ED9EBA1 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(37 & 15)] = (block->l[(signed long int)(37 + 13 & 15)] ^ block->l[(signed long int)(37 + 8 & 15)] ^ block->l[(signed long int)(37 + 2 & 15)] ^ block->l[(signed long int)(37 & 15)]) << 1 | (block->l[(signed long int)(37 + 13 & 15)] ^ block->l[(signed long int)(37 + 8 & 15)] ^ block->l[(signed long int)(37 + 2 & 15)] ^ block->l[(signed long int)(37 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + (e ^ a$link1 ^ b$link1) + block->l[(signed long int)(37 & 15)] + (unsigned int)0x6ED9EBA1 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e ^ a_link1 ^ b_link1) + block->l[(signed long int)(37 & 15)] + (unsigned int)0x6ED9EBA1 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(38 & 15)] = (block->l[(signed long int)(38 + 13 & 15)] ^ block->l[(signed long int)(38 + 8 & 15)] ^ block->l[(signed long int)(38 + 2 & 15)] ^ block->l[(signed long int)(38 & 15)]) << 1 | (block->l[(signed long int)(38 + 13 & 15)] ^ block->l[(signed long int)(38 + 8 & 15)] ^ block->l[(signed long int)(38 + 2 & 15)] ^ block->l[(signed long int)(38 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + (d$link1 ^ e ^ a$link1) + block->l[(signed long int)(38 & 15)] + (unsigned int)0x6ED9EBA1 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 ^ e ^ a_link1) + block->l[(signed long int)(38 & 15)] + (unsigned int)0x6ED9EBA1 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(39 & 15)] = (block->l[(signed long int)(39 + 13 & 15)] ^ block->l[(signed long int)(39 + 8 & 15)] ^ block->l[(signed long int)(39 + 2 & 15)] ^ block->l[(signed long int)(39 & 15)]) << 1 | (block->l[(signed long int)(39 + 13 & 15)] ^ block->l[(signed long int)(39 + 8 & 15)] ^ block->l[(signed long int)(39 + 2 & 15)] ^ block->l[(signed long int)(39 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + (c$link1 ^ d$link1 ^ e) + block->l[(signed long int)(39 & 15)] + (unsigned int)0x6ED9EBA1 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 ^ d_link1 ^ e) + block->l[(signed long int)(39 & 15)] + (unsigned int)0x6ED9EBA1 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(40 & 15)] = (block->l[(signed long int)(40 + 13 & 15)] ^ block->l[(signed long int)(40 + 8 & 15)] ^ block->l[(signed long int)(40 + 2 & 15)] ^ block->l[(signed long int)(40 & 15)]) << 1 | (block->l[(signed long int)(40 + 13 & 15)] ^ block->l[(signed long int)(40 + 8 & 15)] ^ block->l[(signed long int)(40 + 2 & 15)] ^ block->l[(signed long int)(40 & 15)]) >> 32 - 1;
-  e = e + ((b$link1 | c$link1) & d$link1 | b$link1 & c$link1) + block->l[(signed long int)(40 & 15)] + 0x8F1BBCDC + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + ((b_link1 | c_link1) & d_link1 | b_link1 & c_link1) + block->l[(signed long int)(40 & 15)] + 0x8F1BBCDC + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(41 & 15)] = (block->l[(signed long int)(41 + 13 & 15)] ^ block->l[(signed long int)(41 + 8 & 15)] ^ block->l[(signed long int)(41 + 2 & 15)] ^ block->l[(signed long int)(41 & 15)]) << 1 | (block->l[(signed long int)(41 + 13 & 15)] ^ block->l[(signed long int)(41 + 8 & 15)] ^ block->l[(signed long int)(41 + 2 & 15)] ^ block->l[(signed long int)(41 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + ((a$link1 | b$link1) & c$link1 | a$link1 & b$link1) + block->l[(signed long int)(41 & 15)] + 0x8F1BBCDC + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + ((a_link1 | b_link1) & c_link1 | a_link1 & b_link1) + block->l[(signed long int)(41 & 15)] + 0x8F1BBCDC + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(42 & 15)] = (block->l[(signed long int)(42 + 13 & 15)] ^ block->l[(signed long int)(42 + 8 & 15)] ^ block->l[(signed long int)(42 + 2 & 15)] ^ block->l[(signed long int)(42 & 15)]) << 1 | (block->l[(signed long int)(42 + 13 & 15)] ^ block->l[(signed long int)(42 + 8 & 15)] ^ block->l[(signed long int)(42 + 2 & 15)] ^ block->l[(signed long int)(42 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + ((e | a$link1) & b$link1 | e & a$link1) + block->l[(signed long int)(42 & 15)] + 0x8F1BBCDC + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + ((e | a_link1) & b_link1 | e & a_link1) + block->l[(signed long int)(42 & 15)] + 0x8F1BBCDC + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(43 & 15)] = (block->l[(signed long int)(43 + 13 & 15)] ^ block->l[(signed long int)(43 + 8 & 15)] ^ block->l[(signed long int)(43 + 2 & 15)] ^ block->l[(signed long int)(43 & 15)]) << 1 | (block->l[(signed long int)(43 + 13 & 15)] ^ block->l[(signed long int)(43 + 8 & 15)] ^ block->l[(signed long int)(43 + 2 & 15)] ^ block->l[(signed long int)(43 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + ((d$link1 | e) & a$link1 | d$link1 & e) + block->l[(signed long int)(43 & 15)] + 0x8F1BBCDC + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + ((d_link1 | e) & a_link1 | d_link1 & e) + block->l[(signed long int)(43 & 15)] + 0x8F1BBCDC + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(44 & 15)] = (block->l[(signed long int)(44 + 13 & 15)] ^ block->l[(signed long int)(44 + 8 & 15)] ^ block->l[(signed long int)(44 + 2 & 15)] ^ block->l[(signed long int)(44 & 15)]) << 1 | (block->l[(signed long int)(44 + 13 & 15)] ^ block->l[(signed long int)(44 + 8 & 15)] ^ block->l[(signed long int)(44 + 2 & 15)] ^ block->l[(signed long int)(44 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + ((c$link1 | d$link1) & e | c$link1 & d$link1) + block->l[(signed long int)(44 & 15)] + 0x8F1BBCDC + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + ((c_link1 | d_link1) & e | c_link1 & d_link1) + block->l[(signed long int)(44 & 15)] + 0x8F1BBCDC + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(45 & 15)] = (block->l[(signed long int)(45 + 13 & 15)] ^ block->l[(signed long int)(45 + 8 & 15)] ^ block->l[(signed long int)(45 + 2 & 15)] ^ block->l[(signed long int)(45 & 15)]) << 1 | (block->l[(signed long int)(45 + 13 & 15)] ^ block->l[(signed long int)(45 + 8 & 15)] ^ block->l[(signed long int)(45 + 2 & 15)] ^ block->l[(signed long int)(45 & 15)]) >> 32 - 1;
-  e = e + ((b$link1 | c$link1) & d$link1 | b$link1 & c$link1) + block->l[(signed long int)(45 & 15)] + 0x8F1BBCDC + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + ((b_link1 | c_link1) & d_link1 | b_link1 & c_link1) + block->l[(signed long int)(45 & 15)] + 0x8F1BBCDC + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(46 & 15)] = (block->l[(signed long int)(46 + 13 & 15)] ^ block->l[(signed long int)(46 + 8 & 15)] ^ block->l[(signed long int)(46 + 2 & 15)] ^ block->l[(signed long int)(46 & 15)]) << 1 | (block->l[(signed long int)(46 + 13 & 15)] ^ block->l[(signed long int)(46 + 8 & 15)] ^ block->l[(signed long int)(46 + 2 & 15)] ^ block->l[(signed long int)(46 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + ((a$link1 | b$link1) & c$link1 | a$link1 & b$link1) + block->l[(signed long int)(46 & 15)] + 0x8F1BBCDC + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + ((a_link1 | b_link1) & c_link1 | a_link1 & b_link1) + block->l[(signed long int)(46 & 15)] + 0x8F1BBCDC + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(47 & 15)] = (block->l[(signed long int)(47 + 13 & 15)] ^ block->l[(signed long int)(47 + 8 & 15)] ^ block->l[(signed long int)(47 + 2 & 15)] ^ block->l[(signed long int)(47 & 15)]) << 1 | (block->l[(signed long int)(47 + 13 & 15)] ^ block->l[(signed long int)(47 + 8 & 15)] ^ block->l[(signed long int)(47 + 2 & 15)] ^ block->l[(signed long int)(47 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + ((e | a$link1) & b$link1 | e & a$link1) + block->l[(signed long int)(47 & 15)] + 0x8F1BBCDC + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + ((e | a_link1) & b_link1 | e & a_link1) + block->l[(signed long int)(47 & 15)] + 0x8F1BBCDC + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(48 & 15)] = (block->l[(signed long int)(48 + 13 & 15)] ^ block->l[(signed long int)(48 + 8 & 15)] ^ block->l[(signed long int)(48 + 2 & 15)] ^ block->l[(signed long int)(48 & 15)]) << 1 | (block->l[(signed long int)(48 + 13 & 15)] ^ block->l[(signed long int)(48 + 8 & 15)] ^ block->l[(signed long int)(48 + 2 & 15)] ^ block->l[(signed long int)(48 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + ((d$link1 | e) & a$link1 | d$link1 & e) + block->l[(signed long int)(48 & 15)] + 0x8F1BBCDC + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + ((d_link1 | e) & a_link1 | d_link1 & e) + block->l[(signed long int)(48 & 15)] + 0x8F1BBCDC + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(49 & 15)] = (block->l[(signed long int)(49 + 13 & 15)] ^ block->l[(signed long int)(49 + 8 & 15)] ^ block->l[(signed long int)(49 + 2 & 15)] ^ block->l[(signed long int)(49 & 15)]) << 1 | (block->l[(signed long int)(49 + 13 & 15)] ^ block->l[(signed long int)(49 + 8 & 15)] ^ block->l[(signed long int)(49 + 2 & 15)] ^ block->l[(signed long int)(49 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + ((c$link1 | d$link1) & e | c$link1 & d$link1) + block->l[(signed long int)(49 & 15)] + 0x8F1BBCDC + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + ((c_link1 | d_link1) & e | c_link1 & d_link1) + block->l[(signed long int)(49 & 15)] + 0x8F1BBCDC + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(50 & 15)] = (block->l[(signed long int)(50 + 13 & 15)] ^ block->l[(signed long int)(50 + 8 & 15)] ^ block->l[(signed long int)(50 + 2 & 15)] ^ block->l[(signed long int)(50 & 15)]) << 1 | (block->l[(signed long int)(50 + 13 & 15)] ^ block->l[(signed long int)(50 + 8 & 15)] ^ block->l[(signed long int)(50 + 2 & 15)] ^ block->l[(signed long int)(50 & 15)]) >> 32 - 1;
-  e = e + ((b$link1 | c$link1) & d$link1 | b$link1 & c$link1) + block->l[(signed long int)(50 & 15)] + 0x8F1BBCDC + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + ((b_link1 | c_link1) & d_link1 | b_link1 & c_link1) + block->l[(signed long int)(50 & 15)] + 0x8F1BBCDC + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(51 & 15)] = (block->l[(signed long int)(51 + 13 & 15)] ^ block->l[(signed long int)(51 + 8 & 15)] ^ block->l[(signed long int)(51 + 2 & 15)] ^ block->l[(signed long int)(51 & 15)]) << 1 | (block->l[(signed long int)(51 + 13 & 15)] ^ block->l[(signed long int)(51 + 8 & 15)] ^ block->l[(signed long int)(51 + 2 & 15)] ^ block->l[(signed long int)(51 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + ((a$link1 | b$link1) & c$link1 | a$link1 & b$link1) + block->l[(signed long int)(51 & 15)] + 0x8F1BBCDC + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + ((a_link1 | b_link1) & c_link1 | a_link1 & b_link1) + block->l[(signed long int)(51 & 15)] + 0x8F1BBCDC + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(52 & 15)] = (block->l[(signed long int)(52 + 13 & 15)] ^ block->l[(signed long int)(52 + 8 & 15)] ^ block->l[(signed long int)(52 + 2 & 15)] ^ block->l[(signed long int)(52 & 15)]) << 1 | (block->l[(signed long int)(52 + 13 & 15)] ^ block->l[(signed long int)(52 + 8 & 15)] ^ block->l[(signed long int)(52 + 2 & 15)] ^ block->l[(signed long int)(52 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + ((e | a$link1) & b$link1 | e & a$link1) + block->l[(signed long int)(52 & 15)] + 0x8F1BBCDC + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + ((e | a_link1) & b_link1 | e & a_link1) + block->l[(signed long int)(52 & 15)] + 0x8F1BBCDC + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(53 & 15)] = (block->l[(signed long int)(53 + 13 & 15)] ^ block->l[(signed long int)(53 + 8 & 15)] ^ block->l[(signed long int)(53 + 2 & 15)] ^ block->l[(signed long int)(53 & 15)]) << 1 | (block->l[(signed long int)(53 + 13 & 15)] ^ block->l[(signed long int)(53 + 8 & 15)] ^ block->l[(signed long int)(53 + 2 & 15)] ^ block->l[(signed long int)(53 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + ((d$link1 | e) & a$link1 | d$link1 & e) + block->l[(signed long int)(53 & 15)] + 0x8F1BBCDC + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + ((d_link1 | e) & a_link1 | d_link1 & e) + block->l[(signed long int)(53 & 15)] + 0x8F1BBCDC + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(54 & 15)] = (block->l[(signed long int)(54 + 13 & 15)] ^ block->l[(signed long int)(54 + 8 & 15)] ^ block->l[(signed long int)(54 + 2 & 15)] ^ block->l[(signed long int)(54 & 15)]) << 1 | (block->l[(signed long int)(54 + 13 & 15)] ^ block->l[(signed long int)(54 + 8 & 15)] ^ block->l[(signed long int)(54 + 2 & 15)] ^ block->l[(signed long int)(54 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + ((c$link1 | d$link1) & e | c$link1 & d$link1) + block->l[(signed long int)(54 & 15)] + 0x8F1BBCDC + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + ((c_link1 | d_link1) & e | c_link1 & d_link1) + block->l[(signed long int)(54 & 15)] + 0x8F1BBCDC + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(55 & 15)] = (block->l[(signed long int)(55 + 13 & 15)] ^ block->l[(signed long int)(55 + 8 & 15)] ^ block->l[(signed long int)(55 + 2 & 15)] ^ block->l[(signed long int)(55 & 15)]) << 1 | (block->l[(signed long int)(55 + 13 & 15)] ^ block->l[(signed long int)(55 + 8 & 15)] ^ block->l[(signed long int)(55 + 2 & 15)] ^ block->l[(signed long int)(55 & 15)]) >> 32 - 1;
-  e = e + ((b$link1 | c$link1) & d$link1 | b$link1 & c$link1) + block->l[(signed long int)(55 & 15)] + 0x8F1BBCDC + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + ((b_link1 | c_link1) & d_link1 | b_link1 & c_link1) + block->l[(signed long int)(55 & 15)] + 0x8F1BBCDC + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(56 & 15)] = (block->l[(signed long int)(56 + 13 & 15)] ^ block->l[(signed long int)(56 + 8 & 15)] ^ block->l[(signed long int)(56 + 2 & 15)] ^ block->l[(signed long int)(56 & 15)]) << 1 | (block->l[(signed long int)(56 + 13 & 15)] ^ block->l[(signed long int)(56 + 8 & 15)] ^ block->l[(signed long int)(56 + 2 & 15)] ^ block->l[(signed long int)(56 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + ((a$link1 | b$link1) & c$link1 | a$link1 & b$link1) + block->l[(signed long int)(56 & 15)] + 0x8F1BBCDC + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + ((a_link1 | b_link1) & c_link1 | a_link1 & b_link1) + block->l[(signed long int)(56 & 15)] + 0x8F1BBCDC + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(57 & 15)] = (block->l[(signed long int)(57 + 13 & 15)] ^ block->l[(signed long int)(57 + 8 & 15)] ^ block->l[(signed long int)(57 + 2 & 15)] ^ block->l[(signed long int)(57 & 15)]) << 1 | (block->l[(signed long int)(57 + 13 & 15)] ^ block->l[(signed long int)(57 + 8 & 15)] ^ block->l[(signed long int)(57 + 2 & 15)] ^ block->l[(signed long int)(57 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + ((e | a$link1) & b$link1 | e & a$link1) + block->l[(signed long int)(57 & 15)] + 0x8F1BBCDC + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + ((e | a_link1) & b_link1 | e & a_link1) + block->l[(signed long int)(57 & 15)] + 0x8F1BBCDC + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(58 & 15)] = (block->l[(signed long int)(58 + 13 & 15)] ^ block->l[(signed long int)(58 + 8 & 15)] ^ block->l[(signed long int)(58 + 2 & 15)] ^ block->l[(signed long int)(58 & 15)]) << 1 | (block->l[(signed long int)(58 + 13 & 15)] ^ block->l[(signed long int)(58 + 8 & 15)] ^ block->l[(signed long int)(58 + 2 & 15)] ^ block->l[(signed long int)(58 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + ((d$link1 | e) & a$link1 | d$link1 & e) + block->l[(signed long int)(58 & 15)] + 0x8F1BBCDC + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + ((d_link1 | e) & a_link1 | d_link1 & e) + block->l[(signed long int)(58 & 15)] + 0x8F1BBCDC + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(59 & 15)] = (block->l[(signed long int)(59 + 13 & 15)] ^ block->l[(signed long int)(59 + 8 & 15)] ^ block->l[(signed long int)(59 + 2 & 15)] ^ block->l[(signed long int)(59 & 15)]) << 1 | (block->l[(signed long int)(59 + 13 & 15)] ^ block->l[(signed long int)(59 + 8 & 15)] ^ block->l[(signed long int)(59 + 2 & 15)] ^ block->l[(signed long int)(59 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + ((c$link1 | d$link1) & e | c$link1 & d$link1) + block->l[(signed long int)(59 & 15)] + 0x8F1BBCDC + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + ((c_link1 | d_link1) & e | c_link1 & d_link1) + block->l[(signed long int)(59 & 15)] + 0x8F1BBCDC + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(60 & 15)] = (block->l[(signed long int)(60 + 13 & 15)] ^ block->l[(signed long int)(60 + 8 & 15)] ^ block->l[(signed long int)(60 + 2 & 15)] ^ block->l[(signed long int)(60 & 15)]) << 1 | (block->l[(signed long int)(60 + 13 & 15)] ^ block->l[(signed long int)(60 + 8 & 15)] ^ block->l[(signed long int)(60 + 2 & 15)] ^ block->l[(signed long int)(60 & 15)]) >> 32 - 1;
-  e = e + (b$link1 ^ c$link1 ^ d$link1) + block->l[(signed long int)(60 & 15)] + 0xCA62C1D6 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 ^ c_link1 ^ d_link1) + block->l[(signed long int)(60 & 15)] + 0xCA62C1D6 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(61 & 15)] = (block->l[(signed long int)(61 + 13 & 15)] ^ block->l[(signed long int)(61 + 8 & 15)] ^ block->l[(signed long int)(61 + 2 & 15)] ^ block->l[(signed long int)(61 & 15)]) << 1 | (block->l[(signed long int)(61 + 13 & 15)] ^ block->l[(signed long int)(61 + 8 & 15)] ^ block->l[(signed long int)(61 + 2 & 15)] ^ block->l[(signed long int)(61 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + (a$link1 ^ b$link1 ^ c$link1) + block->l[(signed long int)(61 & 15)] + 0xCA62C1D6 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 ^ b_link1 ^ c_link1) + block->l[(signed long int)(61 & 15)] + 0xCA62C1D6 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(62 & 15)] = (block->l[(signed long int)(62 + 13 & 15)] ^ block->l[(signed long int)(62 + 8 & 15)] ^ block->l[(signed long int)(62 + 2 & 15)] ^ block->l[(signed long int)(62 & 15)]) << 1 | (block->l[(signed long int)(62 + 13 & 15)] ^ block->l[(signed long int)(62 + 8 & 15)] ^ block->l[(signed long int)(62 + 2 & 15)] ^ block->l[(signed long int)(62 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + (e ^ a$link1 ^ b$link1) + block->l[(signed long int)(62 & 15)] + 0xCA62C1D6 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e ^ a_link1 ^ b_link1) + block->l[(signed long int)(62 & 15)] + 0xCA62C1D6 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(63 & 15)] = (block->l[(signed long int)(63 + 13 & 15)] ^ block->l[(signed long int)(63 + 8 & 15)] ^ block->l[(signed long int)(63 + 2 & 15)] ^ block->l[(signed long int)(63 & 15)]) << 1 | (block->l[(signed long int)(63 + 13 & 15)] ^ block->l[(signed long int)(63 + 8 & 15)] ^ block->l[(signed long int)(63 + 2 & 15)] ^ block->l[(signed long int)(63 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + (d$link1 ^ e ^ a$link1) + block->l[(signed long int)(63 & 15)] + 0xCA62C1D6 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 ^ e ^ a_link1) + block->l[(signed long int)(63 & 15)] + 0xCA62C1D6 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(64 & 15)] = (block->l[(signed long int)(64 + 13 & 15)] ^ block->l[(signed long int)(64 + 8 & 15)] ^ block->l[(signed long int)(64 + 2 & 15)] ^ block->l[(signed long int)(64 & 15)]) << 1 | (block->l[(signed long int)(64 + 13 & 15)] ^ block->l[(signed long int)(64 + 8 & 15)] ^ block->l[(signed long int)(64 + 2 & 15)] ^ block->l[(signed long int)(64 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + (c$link1 ^ d$link1 ^ e) + block->l[(signed long int)(64 & 15)] + 0xCA62C1D6 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 ^ d_link1 ^ e) + block->l[(signed long int)(64 & 15)] + 0xCA62C1D6 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(65 & 15)] = (block->l[(signed long int)(65 + 13 & 15)] ^ block->l[(signed long int)(65 + 8 & 15)] ^ block->l[(signed long int)(65 + 2 & 15)] ^ block->l[(signed long int)(65 & 15)]) << 1 | (block->l[(signed long int)(65 + 13 & 15)] ^ block->l[(signed long int)(65 + 8 & 15)] ^ block->l[(signed long int)(65 + 2 & 15)] ^ block->l[(signed long int)(65 & 15)]) >> 32 - 1;
-  e = e + (b$link1 ^ c$link1 ^ d$link1) + block->l[(signed long int)(65 & 15)] + 0xCA62C1D6 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 ^ c_link1 ^ d_link1) + block->l[(signed long int)(65 & 15)] + 0xCA62C1D6 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(66 & 15)] = (block->l[(signed long int)(66 + 13 & 15)] ^ block->l[(signed long int)(66 + 8 & 15)] ^ block->l[(signed long int)(66 + 2 & 15)] ^ block->l[(signed long int)(66 & 15)]) << 1 | (block->l[(signed long int)(66 + 13 & 15)] ^ block->l[(signed long int)(66 + 8 & 15)] ^ block->l[(signed long int)(66 + 2 & 15)] ^ block->l[(signed long int)(66 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + (a$link1 ^ b$link1 ^ c$link1) + block->l[(signed long int)(66 & 15)] + 0xCA62C1D6 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 ^ b_link1 ^ c_link1) + block->l[(signed long int)(66 & 15)] + 0xCA62C1D6 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(67 & 15)] = (block->l[(signed long int)(67 + 13 & 15)] ^ block->l[(signed long int)(67 + 8 & 15)] ^ block->l[(signed long int)(67 + 2 & 15)] ^ block->l[(signed long int)(67 & 15)]) << 1 | (block->l[(signed long int)(67 + 13 & 15)] ^ block->l[(signed long int)(67 + 8 & 15)] ^ block->l[(signed long int)(67 + 2 & 15)] ^ block->l[(signed long int)(67 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + (e ^ a$link1 ^ b$link1) + block->l[(signed long int)(67 & 15)] + 0xCA62C1D6 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e ^ a_link1 ^ b_link1) + block->l[(signed long int)(67 & 15)] + 0xCA62C1D6 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(68 & 15)] = (block->l[(signed long int)(68 + 13 & 15)] ^ block->l[(signed long int)(68 + 8 & 15)] ^ block->l[(signed long int)(68 + 2 & 15)] ^ block->l[(signed long int)(68 & 15)]) << 1 | (block->l[(signed long int)(68 + 13 & 15)] ^ block->l[(signed long int)(68 + 8 & 15)] ^ block->l[(signed long int)(68 + 2 & 15)] ^ block->l[(signed long int)(68 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + (d$link1 ^ e ^ a$link1) + block->l[(signed long int)(68 & 15)] + 0xCA62C1D6 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 ^ e ^ a_link1) + block->l[(signed long int)(68 & 15)] + 0xCA62C1D6 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(69 & 15)] = (block->l[(signed long int)(69 + 13 & 15)] ^ block->l[(signed long int)(69 + 8 & 15)] ^ block->l[(signed long int)(69 + 2 & 15)] ^ block->l[(signed long int)(69 & 15)]) << 1 | (block->l[(signed long int)(69 + 13 & 15)] ^ block->l[(signed long int)(69 + 8 & 15)] ^ block->l[(signed long int)(69 + 2 & 15)] ^ block->l[(signed long int)(69 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + (c$link1 ^ d$link1 ^ e) + block->l[(signed long int)(69 & 15)] + 0xCA62C1D6 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 ^ d_link1 ^ e) + block->l[(signed long int)(69 & 15)] + 0xCA62C1D6 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(70 & 15)] = (block->l[(signed long int)(70 + 13 & 15)] ^ block->l[(signed long int)(70 + 8 & 15)] ^ block->l[(signed long int)(70 + 2 & 15)] ^ block->l[(signed long int)(70 & 15)]) << 1 | (block->l[(signed long int)(70 + 13 & 15)] ^ block->l[(signed long int)(70 + 8 & 15)] ^ block->l[(signed long int)(70 + 2 & 15)] ^ block->l[(signed long int)(70 & 15)]) >> 32 - 1;
-  e = e + (b$link1 ^ c$link1 ^ d$link1) + block->l[(signed long int)(70 & 15)] + 0xCA62C1D6 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 ^ c_link1 ^ d_link1) + block->l[(signed long int)(70 & 15)] + 0xCA62C1D6 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(71 & 15)] = (block->l[(signed long int)(71 + 13 & 15)] ^ block->l[(signed long int)(71 + 8 & 15)] ^ block->l[(signed long int)(71 + 2 & 15)] ^ block->l[(signed long int)(71 & 15)]) << 1 | (block->l[(signed long int)(71 + 13 & 15)] ^ block->l[(signed long int)(71 + 8 & 15)] ^ block->l[(signed long int)(71 + 2 & 15)] ^ block->l[(signed long int)(71 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + (a$link1 ^ b$link1 ^ c$link1) + block->l[(signed long int)(71 & 15)] + 0xCA62C1D6 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 ^ b_link1 ^ c_link1) + block->l[(signed long int)(71 & 15)] + 0xCA62C1D6 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(72 & 15)] = (block->l[(signed long int)(72 + 13 & 15)] ^ block->l[(signed long int)(72 + 8 & 15)] ^ block->l[(signed long int)(72 + 2 & 15)] ^ block->l[(signed long int)(72 & 15)]) << 1 | (block->l[(signed long int)(72 + 13 & 15)] ^ block->l[(signed long int)(72 + 8 & 15)] ^ block->l[(signed long int)(72 + 2 & 15)] ^ block->l[(signed long int)(72 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + (e ^ a$link1 ^ b$link1) + block->l[(signed long int)(72 & 15)] + 0xCA62C1D6 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e ^ a_link1 ^ b_link1) + block->l[(signed long int)(72 & 15)] + 0xCA62C1D6 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(73 & 15)] = (block->l[(signed long int)(73 + 13 & 15)] ^ block->l[(signed long int)(73 + 8 & 15)] ^ block->l[(signed long int)(73 + 2 & 15)] ^ block->l[(signed long int)(73 & 15)]) << 1 | (block->l[(signed long int)(73 + 13 & 15)] ^ block->l[(signed long int)(73 + 8 & 15)] ^ block->l[(signed long int)(73 + 2 & 15)] ^ block->l[(signed long int)(73 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + (d$link1 ^ e ^ a$link1) + block->l[(signed long int)(73 & 15)] + 0xCA62C1D6 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 ^ e ^ a_link1) + block->l[(signed long int)(73 & 15)] + 0xCA62C1D6 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(74 & 15)] = (block->l[(signed long int)(74 + 13 & 15)] ^ block->l[(signed long int)(74 + 8 & 15)] ^ block->l[(signed long int)(74 + 2 & 15)] ^ block->l[(signed long int)(74 & 15)]) << 1 | (block->l[(signed long int)(74 + 13 & 15)] ^ block->l[(signed long int)(74 + 8 & 15)] ^ block->l[(signed long int)(74 + 2 & 15)] ^ block->l[(signed long int)(74 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + (c$link1 ^ d$link1 ^ e) + block->l[(signed long int)(74 & 15)] + 0xCA62C1D6 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
+  a_link1 = a_link1 + (c_link1 ^ d_link1 ^ e) + block->l[(signed long int)(74 & 15)] + 0xCA62C1D6 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
   block->l[(signed long int)(75 & 15)] = (block->l[(signed long int)(75 + 13 & 15)] ^ block->l[(signed long int)(75 + 8 & 15)] ^ block->l[(signed long int)(75 + 2 & 15)] ^ block->l[(signed long int)(75 & 15)]) << 1 | (block->l[(signed long int)(75 + 13 & 15)] ^ block->l[(signed long int)(75 + 8 & 15)] ^ block->l[(signed long int)(75 + 2 & 15)] ^ block->l[(signed long int)(75 & 15)]) >> 32 - 1;
-  e = e + (b$link1 ^ c$link1 ^ d$link1) + block->l[(signed long int)(75 & 15)] + 0xCA62C1D6 + (a$link1 << 5 | a$link1 >> 32 - 5);
-  b$link1 = b$link1 << 30 | b$link1 >> 32 - 30;
+  e = e + (b_link1 ^ c_link1 ^ d_link1) + block->l[(signed long int)(75 & 15)] + 0xCA62C1D6 + (a_link1 << 5 | a_link1 >> 32 - 5);
+  b_link1 = b_link1 << 30 | b_link1 >> 32 - 30;
   block->l[(signed long int)(76 & 15)] = (block->l[(signed long int)(76 + 13 & 15)] ^ block->l[(signed long int)(76 + 8 & 15)] ^ block->l[(signed long int)(76 + 2 & 15)] ^ block->l[(signed long int)(76 & 15)]) << 1 | (block->l[(signed long int)(76 + 13 & 15)] ^ block->l[(signed long int)(76 + 8 & 15)] ^ block->l[(signed long int)(76 + 2 & 15)] ^ block->l[(signed long int)(76 & 15)]) >> 32 - 1;
-  d$link1 = d$link1 + (a$link1 ^ b$link1 ^ c$link1) + block->l[(signed long int)(76 & 15)] + 0xCA62C1D6 + (e << 5 | e >> 32 - 5);
-  a$link1 = a$link1 << 30 | a$link1 >> 32 - 30;
+  d_link1 = d_link1 + (a_link1 ^ b_link1 ^ c_link1) + block->l[(signed long int)(76 & 15)] + 0xCA62C1D6 + (e << 5 | e >> 32 - 5);
+  a_link1 = a_link1 << 30 | a_link1 >> 32 - 30;
   block->l[(signed long int)(77 & 15)] = (block->l[(signed long int)(77 + 13 & 15)] ^ block->l[(signed long int)(77 + 8 & 15)] ^ block->l[(signed long int)(77 + 2 & 15)] ^ block->l[(signed long int)(77 & 15)]) << 1 | (block->l[(signed long int)(77 + 13 & 15)] ^ block->l[(signed long int)(77 + 8 & 15)] ^ block->l[(signed long int)(77 + 2 & 15)] ^ block->l[(signed long int)(77 & 15)]) >> 32 - 1;
-  c$link1 = c$link1 + (e ^ a$link1 ^ b$link1) + block->l[(signed long int)(77 & 15)] + 0xCA62C1D6 + (d$link1 << 5 | d$link1 >> 32 - 5);
+  c_link1 = c_link1 + (e ^ a_link1 ^ b_link1) + block->l[(signed long int)(77 & 15)] + 0xCA62C1D6 + (d_link1 << 5 | d_link1 >> 32 - 5);
   e = e << 30 | e >> 32 - 30;
   block->l[(signed long int)(78 & 15)] = (block->l[(signed long int)(78 + 13 & 15)] ^ block->l[(signed long int)(78 + 8 & 15)] ^ block->l[(signed long int)(78 + 2 & 15)] ^ block->l[(signed long int)(78 & 15)]) << 1 | (block->l[(signed long int)(78 + 13 & 15)] ^ block->l[(signed long int)(78 + 8 & 15)] ^ block->l[(signed long int)(78 + 2 & 15)] ^ block->l[(signed long int)(78 & 15)]) >> 32 - 1;
-  b$link1 = b$link1 + (d$link1 ^ e ^ a$link1) + block->l[(signed long int)(78 & 15)] + 0xCA62C1D6 + (c$link1 << 5 | c$link1 >> 32 - 5);
-  d$link1 = d$link1 << 30 | d$link1 >> 32 - 30;
+  b_link1 = b_link1 + (d_link1 ^ e ^ a_link1) + block->l[(signed long int)(78 & 15)] + 0xCA62C1D6 + (c_link1 << 5 | c_link1 >> 32 - 5);
+  d_link1 = d_link1 << 30 | d_link1 >> 32 - 30;
   block->l[(signed long int)(79 & 15)] = (block->l[(signed long int)(79 + 13 & 15)] ^ block->l[(signed long int)(79 + 8 & 15)] ^ block->l[(signed long int)(79 + 2 & 15)] ^ block->l[(signed long int)(79 & 15)]) << 1 | (block->l[(signed long int)(79 + 13 & 15)] ^ block->l[(signed long int)(79 + 8 & 15)] ^ block->l[(signed long int)(79 + 2 & 15)] ^ block->l[(signed long int)(79 & 15)]) >> 32 - 1;
-  a$link1 = a$link1 + (c$link1 ^ d$link1 ^ e) + block->l[(signed long int)(79 & 15)] + 0xCA62C1D6 + (b$link1 << 5 | b$link1 >> 32 - 5);
-  c$link1 = c$link1 << 30 | c$link1 >> 32 - 30;
-  state[(signed long int)0] = state[(signed long int)0] + a$link1;
-  state[(signed long int)1] = state[(signed long int)1] + b$link1;
-  state[(signed long int)2] = state[(signed long int)2] + c$link1;
-  state[(signed long int)3] = state[(signed long int)3] + d$link1;
+  a_link1 = a_link1 + (c_link1 ^ d_link1 ^ e) + block->l[(signed long int)(79 & 15)] + 0xCA62C1D6 + (b_link1 << 5 | b_link1 >> 32 - 5);
+  c_link1 = c_link1 << 30 | c_link1 >> 32 - 30;
+  state[(signed long int)0] = state[(signed long int)0] + a_link1;
+  state[(signed long int)1] = state[(signed long int)1] + b_link1;
+  state[(signed long int)2] = state[(signed long int)2] + c_link1;
+  state[(signed long int)3] = state[(signed long int)3] + d_link1;
   state[(signed long int)4] = state[(signed long int)4] + e;
   e = (unsigned int)0;
-  d$link1 = e;
-  c$link1 = d$link1;
-  b$link1 = c$link1;
-  a$link1 = b$link1;
-  (void)a$link1;
-  (void)b$link1;
-  (void)c$link1;
-  (void)d$link1;
+  d_link1 = e;
+  c_link1 = d_link1;
+  b_link1 = c_link1;
+  a_link1 = b_link1;
+  (void)a_link1;
+  (void)b_link1;
+  (void)c_link1;
+  (void)d_link1;
   (void)e;
 }
 
@@ -28893,7 +28893,7 @@ static void try_ipv6only(void)
   char strbuf[128l];
   unsigned int result;
   result=isc_net_probeipv6();
-  signed int return_value_setsockopt$6;
+  signed int return_value_setsockopt_6;
   if(!(result == 0u))
     ipv6only_result = result;
 
@@ -28902,20 +28902,20 @@ static void try_ipv6only(void)
     s=socket(10, 1, 0);
     if(s == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      isc__strerror(*return_value___errno_location$1, strbuf, sizeof(char [128l]) /*128ul*/ );
-      const char *return_value_isc_msgcat_get$2;
-      return_value_isc_msgcat_get$2=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-      isc_error_unexpected("./../lib/isc/unix/net.c", 266, "socket() %s: %s", return_value_isc_msgcat_get$2, (const void *)strbuf);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      isc__strerror(*return_value___errno_location_1, strbuf, sizeof(char [128l]) /*128ul*/ );
+      const char *return_value_isc_msgcat_get_2;
+      return_value_isc_msgcat_get_2=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+      isc_error_unexpected("./../lib/isc/unix/net.c", 266, "socket() %s: %s", return_value_isc_msgcat_get_2, (const void *)strbuf);
       ipv6only_result = (unsigned int)34;
       goto __CPROVER_DUMP_L7;
     }
 
     on = 1;
-    signed int return_value_setsockopt$3;
-    return_value_setsockopt$3=setsockopt(s, 41, 26, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-    if(!(return_value_setsockopt$3 >= 0))
+    signed int return_value_setsockopt_3;
+    return_value_setsockopt_3=setsockopt(s, 41, 26, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+    if(!(return_value_setsockopt_3 >= 0))
       ipv6only_result = (unsigned int)23;
 
     else
@@ -28924,19 +28924,19 @@ static void try_ipv6only(void)
       s=socket(10, 2, 0);
       if(s == -1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        isc__strerror(*return_value___errno_location$4, strbuf, sizeof(char [128l]) /*128ul*/ );
-        const char *return_value_isc_msgcat_get$5;
-        return_value_isc_msgcat_get$5=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-        isc_error_unexpected("./../lib/isc/unix/net.c", 289, "socket() %s: %s", return_value_isc_msgcat_get$5, (const void *)strbuf);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        isc__strerror(*return_value___errno_location_4, strbuf, sizeof(char [128l]) /*128ul*/ );
+        const char *return_value_isc_msgcat_get_5;
+        return_value_isc_msgcat_get_5=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+        isc_error_unexpected("./../lib/isc/unix/net.c", 289, "socket() %s: %s", return_value_isc_msgcat_get_5, (const void *)strbuf);
         ipv6only_result = (unsigned int)34;
         goto __CPROVER_DUMP_L7;
       }
 
       on = 1;
-      return_value_setsockopt$6=setsockopt(s, 41, 26, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_setsockopt$6 >= 0))
+      return_value_setsockopt_6=setsockopt(s, 41, 26, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_setsockopt_6 >= 0))
         ipv6only_result = (unsigned int)23;
 
       else
@@ -28971,21 +28971,21 @@ static void try_ipv6pktinfo(void)
     s=socket(10, 2, 17);
     if(s == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      isc__strerror(*return_value___errno_location$1, strbuf, sizeof(char [128l]) /*128ul*/ );
-      const char *return_value_isc_msgcat_get$2;
-      return_value_isc_msgcat_get$2=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-      isc_error_unexpected("./../lib/isc/unix/net.c", 338, "socket() %s: %s", return_value_isc_msgcat_get$2, (const void *)strbuf);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      isc__strerror(*return_value___errno_location_1, strbuf, sizeof(char [128l]) /*128ul*/ );
+      const char *return_value_isc_msgcat_get_2;
+      return_value_isc_msgcat_get_2=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+      isc_error_unexpected("./../lib/isc/unix/net.c", 338, "socket() %s: %s", return_value_isc_msgcat_get_2, (const void *)strbuf);
       ipv6pktinfo_result = (unsigned int)34;
       goto __CPROVER_DUMP_L5;
     }
 
     optname = 49;
     on = 1;
-    signed int return_value_setsockopt$3;
-    return_value_setsockopt$3=setsockopt(s, 41, optname, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-    if(!(return_value_setsockopt$3 >= 0))
+    signed int return_value_setsockopt_3;
+    return_value_setsockopt_3=setsockopt(s, 41, optname, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+    if(!(return_value_setsockopt_3 >= 0))
       ipv6pktinfo_result = (unsigned int)23;
 
     else
@@ -29011,17 +29011,17 @@ static unsigned int try_proto(signed int domain)
   s=socket(domain, 1, 0);
   if(s == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 22 || *return_value___errno_location$1 == 93 || *return_value___errno_location$1 == 97)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 22 || *return_value___errno_location_1 == 93 || *return_value___errno_location_1 == 97)
       return (unsigned int)23;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    isc__strerror(*return_value___errno_location$2, strbuf, sizeof(char [128l]) /*128ul*/ );
-    const char *return_value_isc_msgcat_get$3;
-    return_value_isc_msgcat_get$3=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
-    isc_error_unexpected("./../lib/isc/unix/net.c", 144, "socket() %s: %s", return_value_isc_msgcat_get$3, (const void *)strbuf);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    isc__strerror(*return_value___errno_location_2, strbuf, sizeof(char [128l]) /*128ul*/ );
+    const char *return_value_isc_msgcat_get_3;
+    return_value_isc_msgcat_get_3=isc_msgcat_get(isc_msgcat, 1, 101, "failed");
+    isc_error_unexpected("./../lib/isc/unix/net.c", 144, "socket() %s: %s", return_value_isc_msgcat_get_3, (const void *)strbuf);
     return (unsigned int)34;
   }
 
@@ -29029,9 +29029,9 @@ static unsigned int try_proto(signed int domain)
   {
     struct sockaddr_in6 sin6;
     unsigned int len = (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ ;
-    signed int return_value_getsockname$4;
-    return_value_getsockname$4=getsockname(s, (struct sockaddr *)&sin6, &len);
-    if(!(return_value_getsockname$4 >= 0))
+    signed int return_value_getsockname_4;
+    return_value_getsockname_4=getsockname(s, (struct sockaddr *)&sin6, &len);
+    if(!(return_value_getsockname_4 >= 0))
     {
       isc_log_write(isc_lctx, &isc_categories[(signed long int)1], &isc_modules[(signed long int)0], -4, "retrieving the address of an IPv6 socket from the kernel failed.");
       isc_log_write(isc_lctx, &isc_categories[(signed long int)1], &isc_modules[(signed long int)0], -4, "IPv6 is not supported.");
@@ -29056,10 +29056,10 @@ static unsigned int try_proto(signed int domain)
 
 // tspec_intv_to_lfp
 // file ../include/timespecops.h line 297
-static inline struct anonymous$38 tspec_intv_to_lfp(struct timespec x)
+static inline struct anonymous_38 tspec_intv_to_lfp(struct timespec x)
 {
   struct timespec v;
-  struct anonymous$38 y;
+  struct anonymous_38 y;
   v=normalize_tspec(x);
   y.l_uf = (unsigned int)((((unsigned long int)v.tv_nsec << 32) + (unsigned long int)(1000000000 / 2)) / (unsigned long int)1000000000);
   y.Ul_i.Xl_i = (signed int)v.tv_sec;
@@ -29068,9 +29068,9 @@ static inline struct anonymous$38 tspec_intv_to_lfp(struct timespec x)
 
 // tspec_stamp_to_lfp
 // file ../include/timespecops.h line 313
-static inline struct anonymous$38 tspec_stamp_to_lfp(struct timespec x)
+static inline struct anonymous_38 tspec_stamp_to_lfp(struct timespec x)
 {
-  struct anonymous$38 y;
+  struct anonymous_38 y;
   y=tspec_intv_to_lfp(x);
   y.Ul_i.Xl_ui = y.Ul_i.Xl_ui + (unsigned int)(719163 - 693596) * (unsigned int)(60 * 60 * 24);
   return y;
@@ -29080,18 +29080,18 @@ static inline struct anonymous$38 tspec_stamp_to_lfp(struct timespec x)
 // file ../include/timespecops.h line 284
 static inline const char * tspectoa(struct timespec x)
 {
-  const char *return_value_format_time_fraction$1;
-  return_value_format_time_fraction$1=format_time_fraction(x.tv_sec, x.tv_nsec, 9);
-  return return_value_format_time_fraction$1;
+  const char *return_value_format_time_fraction_1;
+  return_value_format_time_fraction_1=format_time_fraction(x.tv_sec, x.tv_nsec, 9);
+  return return_value_format_time_fraction_1;
 }
 
 // tval_intv_to_lfp
 // file ../include/timevalops.h line 349
-static inline struct anonymous$38 tval_intv_to_lfp(struct timeval x)
+static inline struct anonymous_38 tval_intv_to_lfp(struct timeval x)
 {
   struct timeval v;
-  struct anonymous$38 y;
-  v=normalize_tval$link1(x);
+  struct anonymous_38 y;
+  v=normalize_tval_link1(x);
   y.l_uf = (unsigned int)((((unsigned long int)v.tv_usec << 32) + (unsigned long int)(1000000 / 2)) / (unsigned long int)1000000);
   y.Ul_i.Xl_i = (signed int)v.tv_sec;
   return y;
@@ -29099,9 +29099,9 @@ static inline struct anonymous$38 tval_intv_to_lfp(struct timeval x)
 
 // tval_stamp_to_lfp
 // file ../include/timevalops.h line 365
-static inline struct anonymous$38 tval_stamp_to_lfp(struct timeval x)
+static inline struct anonymous_38 tval_stamp_to_lfp(struct timeval x)
 {
-  struct anonymous$38 y;
+  struct anonymous_38 y;
   y=tval_intv_to_lfp(x);
   y.Ul_i.Xl_ui = y.Ul_i.Xl_ui + (unsigned int)(719163 - 693596) * (unsigned int)(60 * 60 * 24);
   return y;
@@ -29109,7 +29109,7 @@ static inline struct anonymous$38 tval_stamp_to_lfp(struct timeval x)
 
 // ucmpv64
 // file vint64ops.c line 152
-extern signed int ucmpv64(const union anonymous$44 *lhs, const union anonymous$44 *rhs)
+extern signed int ucmpv64(const union anonymous_44 *lhs, const union anonymous_44 *rhs)
 {
   signed int res = (signed int)(lhs->Q_s > rhs->Q_s) - (signed int)(lhs->Q_s < rhs->Q_s);
   return res;
@@ -29117,7 +29117,7 @@ extern signed int ucmpv64(const union anonymous$44 *lhs, const union anonymous$4
 
 // uglydate
 // file uglydate.c line 15
-extern char * uglydate(struct anonymous$38 *ts)
+extern char * uglydate(struct anonymous_38 *ts)
 {
   char *bp;
   char *timep;
@@ -29126,13 +29126,13 @@ extern char * uglydate(struct anonymous$38 *ts)
   signed long int msec;
   signed int year;
   timep=dolfptoa(ts->Ul_i.Xl_ui, ts->l_uf, 0, (signed short int)6, 0);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     bzero((void *)&lib_stringbuf[(signed long int)lib_nextbuf], sizeof(char [128l]) /*128ul*/ );
-    tmp_post$1 = lib_nextbuf;
+    tmp_post_1 = lib_nextbuf;
     lib_nextbuf = lib_nextbuf + 1;
-    bp = &lib_stringbuf[(signed long int)tmp_post$1][(signed long int)0];
+    bp = &lib_stringbuf[(signed long int)tmp_post_1][(signed long int)0];
     lib_nextbuf = lib_nextbuf % (signed int)(sizeof(char [16l][128l]) /*2048ul*/  / sizeof(char [128l]) /*128ul*/ );
   }
   while((_Bool)0);
@@ -29174,9 +29174,9 @@ static inline unsigned int uint32_saturate(unsigned int vu, unsigned int mu)
   if(!(limit >= (mu ^ vu)))
   {
     vu = mu ^ limit;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 33;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 33;
   }
 
   return vu;
@@ -29184,7 +29184,7 @@ static inline unsigned int uint32_saturate(unsigned int vu, unsigned int mu)
 
 // vint64_to_time
 // file ntp_calendar.c line 286
-extern signed long int vint64_to_time(const union anonymous$44 *tv)
+extern signed long int vint64_to_time(const union anonymous_44 *tv)
 {
   signed long int res = (signed long int)tv->q_s;
   return res;
@@ -29192,7 +29192,7 @@ extern signed long int vint64_to_time(const union anonymous$44 *tv)
 
 // wait_for_sem
 // file work_thread.c line 597
-static signed int wait_for_sem(union anonymous$65 *sem, struct timespec *timeout)
+static signed int wait_for_sem(union anonymous_65 *sem, struct timespec *timeout)
 {
   signed int rc;
   if(timeout == ((struct timespec *)NULL))
@@ -29210,13 +29210,13 @@ static double waveangle(double dg, double h, signed int n)
   double theta;
   double delta;
   theta = dg / (6370.0 * (double)(2 * n));
-  double return_value_sin$1;
-  return_value_sin$1=sin(theta);
-  double return_value_tan$2;
-  return_value_tan$2=tan(theta / (double)2);
-  double return_value_atan$3;
-  return_value_atan$3=atan(h / (6370.0 * return_value_sin$1) + return_value_tan$2);
-  delta = return_value_atan$3 - theta;
+  double return_value_sin_1;
+  return_value_sin_1=sin(theta);
+  double return_value_tan_2;
+  return_value_tan_2=tan(theta / (double)2);
+  double return_value_atan_3;
+  return_value_atan_3=atan(h / (6370.0 * return_value_sin_1) + return_value_tan_2);
+  delta = return_value_atan_3 - theta;
   if(debug >= 2)
     printf("waveangle dist %g height %g hops %d angle %g\n", dg, h, n, delta / (3.1415926536 / 180.0));
 
@@ -29249,12 +29249,12 @@ extern signed int worker_sleep(struct blocking_child_tag *c, signed long int sec
 {
   struct timespec until;
   signed int rc;
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$1=clock_gettime(0, &until);
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$4;
-  if(!(return_value_clock_gettime$1 == 0))
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_1=clock_gettime(0, &until);
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_4;
+  if(!(return_value_clock_gettime_1 == 0))
   {
     msyslog(3, "worker_sleep: clock_gettime() failed: %m");
     return -1;
@@ -29268,22 +29268,22 @@ extern signed int worker_sleep(struct blocking_child_tag *c, signed long int sec
       rc=wait_for_sem(c->wake_scheduled_sleep, &until);
       if(rc == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = 4 == *return_value___errno_location$2 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = 4 == *return_value___errno_location_2 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
     }
-    while(tmp_if_expr$3);
+    while(tmp_if_expr_3);
     if(rc == 0)
       return -1;
 
     else
       if(rc == -1)
       {
-        return_value___errno_location$4=__errno_location();
-        if(!(*return_value___errno_location$4 == 110))
+        return_value___errno_location_4=__errno_location();
+        if(!(*return_value___errno_location_4 == 110))
           goto __CPROVER_DUMP_L6;
 
         return 0;
@@ -29305,9 +29305,9 @@ extern signed int worker_sleep(struct blocking_child_tag *c, signed long int sec
 static unsigned int year_to_ntp(signed int year)
 {
   unsigned int days;
-  signed int return_value_ntpcal_days_in_years$1;
-  return_value_ntpcal_days_in_years$1=ntpcal_days_in_years(year - 1);
-  days = (unsigned int)((return_value_ntpcal_days_in_years$1 - 693596) + 1);
+  signed int return_value_ntpcal_days_in_years_1;
+  return_value_ntpcal_days_in_years_1=ntpcal_days_in_years(year - 1);
+  days = (unsigned int)((return_value_ntpcal_days_in_years_1 - 693596) + 1);
   return days * (unsigned int)(60 * 60 * 24);
 }
 
@@ -29315,8 +29315,8 @@ static unsigned int year_to_ntp(signed int year)
 // file ymd2yd.c line 12
 extern signed int ymd2yd(signed int y, signed int m, signed int d)
 {
-  signed int return_value_ntpcal_edate_to_yeardays$1;
-  return_value_ntpcal_edate_to_yeardays$1=ntpcal_edate_to_yeardays(y - 1, m - 1, d - 1);
-  return return_value_ntpcal_edate_to_yeardays$1 + 1;
+  signed int return_value_ntpcal_edate_to_yeardays_1;
+  return_value_ntpcal_edate_to_yeardays_1=ntpcal_edate_to_yeardays(y - 1, m - 1, d - 1);
+  return return_value_ntpcal_edate_to_yeardays_1 + 1;
 }
 

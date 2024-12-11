@@ -1,132 +1,132 @@
-// #anon_enum$GDK_CAP_NOT_LAST=0$GDK_CAP_BUTT=1$GDK_CAP_ROUND=2$GDK_CAP_PROJECTING=3
+// #anon_enum_GDK_CAP_NOT_LAST=0_GDK_CAP_BUTT=1_GDK_CAP_ROUND=2_GDK_CAP_PROJECTING=3
 // file /usr/include/gtk-2.0/gdk/gdkgc.h line 48
-enum anonymous$29 { GDK_CAP_NOT_LAST=0, GDK_CAP_BUTT=1, GDK_CAP_ROUND=2, GDK_CAP_PROJECTING=3 };
+enum anonymous_29 { GDK_CAP_NOT_LAST=0, GDK_CAP_BUTT=1, GDK_CAP_ROUND=2, GDK_CAP_PROJECTING=3 };
 
-// #anon_enum$GDK_CLIP_BY_CHILDREN=0$GDK_INCLUDE_INFERIORS=1
+// #anon_enum_GDK_CLIP_BY_CHILDREN=0_GDK_INCLUDE_INFERIORS=1
 // file /usr/include/gtk-2.0/gdk/gdkgc.h line 132
-enum anonymous$27 { GDK_CLIP_BY_CHILDREN=0, GDK_INCLUDE_INFERIORS=1 };
+enum anonymous_27 { GDK_CLIP_BY_CHILDREN=0, GDK_INCLUDE_INFERIORS=1 };
 
-// #anon_enum$GDK_COPY=0$GDK_INVERT=1$GDK_XOR=2$GDK_CLEAR=3$GDK_AND=4$GDK_AND_REVERSE=5$GDK_AND_INVERT=6$GDK_NOOP=7$GDK_OR=8$GDK_EQUIV=9$GDK_OR_REVERSE=10$GDK_COPY_INVERT=11$GDK_OR_INVERT=12$GDK_NAND=13$GDK_NOR=14$GDK_SET=15
+// #anon_enum_GDK_COPY=0_GDK_INVERT=1_GDK_XOR=2_GDK_CLEAR=3_GDK_AND=4_GDK_AND_REVERSE=5_GDK_AND_INVERT=6_GDK_NOOP=7_GDK_OR=8_GDK_EQUIV=9_GDK_OR_REVERSE=10_GDK_COPY_INVERT=11_GDK_OR_INVERT=12_GDK_NAND=13_GDK_NOR=14_GDK_SET=15
 // file /usr/include/gtk-2.0/gdk/gdkgc.h line 88
-enum anonymous$25 { GDK_COPY=0, GDK_INVERT=1, GDK_XOR=2, GDK_CLEAR=3, GDK_AND=4, GDK_AND_REVERSE=5, GDK_AND_INVERT=6, GDK_NOOP=7, GDK_OR=8, GDK_EQUIV=9, GDK_OR_REVERSE=10, GDK_COPY_INVERT=11, GDK_OR_INVERT=12, GDK_NAND=13, GDK_NOR=14, GDK_SET=15 };
+enum anonymous_25 { GDK_COPY=0, GDK_INVERT=1, GDK_XOR=2, GDK_CLEAR=3, GDK_AND=4, GDK_AND_REVERSE=5, GDK_AND_INVERT=6, GDK_NOOP=7, GDK_OR=8, GDK_EQUIV=9, GDK_OR_REVERSE=10, GDK_COPY_INVERT=11, GDK_OR_INVERT=12, GDK_NAND=13, GDK_NOR=14, GDK_SET=15 };
 
-// #anon_enum$GDK_FONT_FONT=0$GDK_FONT_FONTSET=1
+// #anon_enum_GDK_FONT_FONT=0_GDK_FONT_FONTSET=1
 // file /usr/include/gtk-2.0/gdk/gdkfont.h line 43
-enum anonymous$20 { GDK_FONT_FONT=0, GDK_FONT_FONTSET=1 };
+enum anonymous_20 { GDK_FONT_FONT=0, GDK_FONT_FONTSET=1 };
 
-// #anon_enum$GDK_JOIN_MITER=0$GDK_JOIN_ROUND=1$GDK_JOIN_BEVEL=2
+// #anon_enum_GDK_JOIN_MITER=0_GDK_JOIN_ROUND=1_GDK_JOIN_BEVEL=2
 // file /usr/include/gtk-2.0/gdk/gdkgc.h line 113
-enum anonymous$30 { GDK_JOIN_MITER=0, GDK_JOIN_ROUND=1, GDK_JOIN_BEVEL=2 };
+enum anonymous_30 { GDK_JOIN_MITER=0, GDK_JOIN_ROUND=1, GDK_JOIN_BEVEL=2 };
 
-// #anon_enum$GDK_LINE_SOLID=0$GDK_LINE_ON_OFF_DASH=1$GDK_LINE_DOUBLE_DASH=2
+// #anon_enum_GDK_LINE_SOLID=0_GDK_LINE_ON_OFF_DASH=1_GDK_LINE_DOUBLE_DASH=2
 // file /usr/include/gtk-2.0/gdk/gdkgc.h line 125
-enum anonymous$28 { GDK_LINE_SOLID=0, GDK_LINE_ON_OFF_DASH=1, GDK_LINE_DOUBLE_DASH=2 };
+enum anonymous_28 { GDK_LINE_SOLID=0, GDK_LINE_ON_OFF_DASH=1, GDK_LINE_DOUBLE_DASH=2 };
 
-// #anon_enum$GDK_LSB_FIRST=0$GDK_MSB_FIRST=1
+// #anon_enum_GDK_LSB_FIRST=0_GDK_MSB_FIRST=1
 // file /usr/include/gtk-2.0/gdk/gdktypes.h line 118
-enum anonymous$19 { GDK_LSB_FIRST=0, GDK_MSB_FIRST=1 };
+enum anonymous_19 { GDK_LSB_FIRST=0, GDK_MSB_FIRST=1 };
 
-// #anon_enum$GDK_NOTHING=-1$GDK_DELETE=0$GDK_DESTROY=1$GDK_EXPOSE=2$GDK_MOTION_NOTIFY=3$GDK_BUTTON_PRESS=4$GDK_2BUTTON_PRESS=5$GDK_3BUTTON_PRESS=6$GDK_BUTTON_RELEASE=7$GDK_KEY_PRESS=8$GDK_KEY_RELEASE=9$GDK_ENTER_NOTIFY=10$GDK_LEAVE_NOTIFY=11$GDK_FOCUS_CHANGE=12$GDK_CONFIGURE=13$GDK_MAP=14$GDK_UNMAP=15$GDK_PROPERTY_NOTIFY=16$GDK_SELECTION_CLEAR=17$GDK_SELECTION_REQUEST=18$GDK_SELECTION_NOTIFY=19$GDK_PROXIMITY_IN=20$GDK_PROXIMITY_OUT=21$GDK_DRAG_ENTER=22$GDK_DRAG_LEAVE=23$GDK_DRAG_MOTION=24$GDK_DRAG_STATUS=25$GDK_DROP_START=26$GDK_DROP_FINISHED=27$GDK_CLIENT_EVENT=28$GDK_VISIBILITY_NOTIFY=29$GDK_NO_EXPOSE=30$GDK_SCROLL=31$GDK_WINDOW_STATE=32$GDK_SETTING=33$GDK_OWNER_CHANGE=34$GDK_GRAB_BROKEN=35$GDK_DAMAGE=36$GDK_EVENT_LAST=37
+// #anon_enum_GDK_NOTHING=-1_GDK_DELETE=0_GDK_DESTROY=1_GDK_EXPOSE=2_GDK_MOTION_NOTIFY=3_GDK_BUTTON_PRESS=4_GDK_2BUTTON_PRESS=5_GDK_3BUTTON_PRESS=6_GDK_BUTTON_RELEASE=7_GDK_KEY_PRESS=8_GDK_KEY_RELEASE=9_GDK_ENTER_NOTIFY=10_GDK_LEAVE_NOTIFY=11_GDK_FOCUS_CHANGE=12_GDK_CONFIGURE=13_GDK_MAP=14_GDK_UNMAP=15_GDK_PROPERTY_NOTIFY=16_GDK_SELECTION_CLEAR=17_GDK_SELECTION_REQUEST=18_GDK_SELECTION_NOTIFY=19_GDK_PROXIMITY_IN=20_GDK_PROXIMITY_OUT=21_GDK_DRAG_ENTER=22_GDK_DRAG_LEAVE=23_GDK_DRAG_MOTION=24_GDK_DRAG_STATUS=25_GDK_DROP_START=26_GDK_DROP_FINISHED=27_GDK_CLIENT_EVENT=28_GDK_VISIBILITY_NOTIFY=29_GDK_NO_EXPOSE=30_GDK_SCROLL=31_GDK_WINDOW_STATE=32_GDK_SETTING=33_GDK_OWNER_CHANGE=34_GDK_GRAB_BROKEN=35_GDK_DAMAGE=36_GDK_EVENT_LAST=37
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 115
-enum anonymous$18 { GDK_NOTHING=-1, GDK_DELETE=0, GDK_DESTROY=1, GDK_EXPOSE=2, GDK_MOTION_NOTIFY=3, GDK_BUTTON_PRESS=4, GDK_2BUTTON_PRESS=5, GDK_3BUTTON_PRESS=6, GDK_BUTTON_RELEASE=7, GDK_KEY_PRESS=8, GDK_KEY_RELEASE=9, GDK_ENTER_NOTIFY=10, GDK_LEAVE_NOTIFY=11, GDK_FOCUS_CHANGE=12, GDK_CONFIGURE=13, GDK_MAP=14, GDK_UNMAP=15, GDK_PROPERTY_NOTIFY=16, GDK_SELECTION_CLEAR=17, GDK_SELECTION_REQUEST=18, GDK_SELECTION_NOTIFY=19, GDK_PROXIMITY_IN=20, GDK_PROXIMITY_OUT=21, GDK_DRAG_ENTER=22, GDK_DRAG_LEAVE=23, GDK_DRAG_MOTION=24, GDK_DRAG_STATUS=25, GDK_DROP_START=26, GDK_DROP_FINISHED=27, GDK_CLIENT_EVENT=28, GDK_VISIBILITY_NOTIFY=29, GDK_NO_EXPOSE=30, GDK_SCROLL=31, GDK_WINDOW_STATE=32, GDK_SETTING=33, GDK_OWNER_CHANGE=34, GDK_GRAB_BROKEN=35, GDK_DAMAGE=36, GDK_EVENT_LAST=37 };
+enum anonymous_18 { GDK_NOTHING=-1, GDK_DELETE=0, GDK_DESTROY=1, GDK_EXPOSE=2, GDK_MOTION_NOTIFY=3, GDK_BUTTON_PRESS=4, GDK_2BUTTON_PRESS=5, GDK_3BUTTON_PRESS=6, GDK_BUTTON_RELEASE=7, GDK_KEY_PRESS=8, GDK_KEY_RELEASE=9, GDK_ENTER_NOTIFY=10, GDK_LEAVE_NOTIFY=11, GDK_FOCUS_CHANGE=12, GDK_CONFIGURE=13, GDK_MAP=14, GDK_UNMAP=15, GDK_PROPERTY_NOTIFY=16, GDK_SELECTION_CLEAR=17, GDK_SELECTION_REQUEST=18, GDK_SELECTION_NOTIFY=19, GDK_PROXIMITY_IN=20, GDK_PROXIMITY_OUT=21, GDK_DRAG_ENTER=22, GDK_DRAG_LEAVE=23, GDK_DRAG_MOTION=24, GDK_DRAG_STATUS=25, GDK_DROP_START=26, GDK_DROP_FINISHED=27, GDK_CLIENT_EVENT=28, GDK_VISIBILITY_NOTIFY=29, GDK_NO_EXPOSE=30, GDK_SCROLL=31, GDK_WINDOW_STATE=32, GDK_SETTING=33, GDK_OWNER_CHANGE=34, GDK_GRAB_BROKEN=35, GDK_DAMAGE=36, GDK_EVENT_LAST=37 };
 
-// #anon_enum$GDK_SHIFT_MASK=1$GDK_LOCK_MASK=2$GDK_CONTROL_MASK=4$GDK_MOD1_MASK=8$GDK_MOD2_MASK=16$GDK_MOD3_MASK=32$GDK_MOD4_MASK=64$GDK_MOD5_MASK=128$GDK_BUTTON1_MASK=256$GDK_BUTTON2_MASK=512$GDK_BUTTON3_MASK=1024$GDK_BUTTON4_MASK=2048$GDK_BUTTON5_MASK=4096$GDK_SUPER_MASK=67108864$GDK_HYPER_MASK=134217728$GDK_META_MASK=268435456$GDK_RELEASE_MASK=1073741824$GDK_MODIFIER_MASK=1543512063
+// #anon_enum_GDK_SHIFT_MASK=1_GDK_LOCK_MASK=2_GDK_CONTROL_MASK=4_GDK_MOD1_MASK=8_GDK_MOD2_MASK=16_GDK_MOD3_MASK=32_GDK_MOD4_MASK=64_GDK_MOD5_MASK=128_GDK_BUTTON1_MASK=256_GDK_BUTTON2_MASK=512_GDK_BUTTON3_MASK=1024_GDK_BUTTON4_MASK=2048_GDK_BUTTON5_MASK=4096_GDK_SUPER_MASK=67108864_GDK_HYPER_MASK=134217728_GDK_META_MASK=268435456_GDK_RELEASE_MASK=1073741824_GDK_MODIFIER_MASK=1543512063
 // file /usr/include/gtk-2.0/gdk/gdktypes.h line 126
-enum anonymous$24 { GDK_SHIFT_MASK=1, GDK_LOCK_MASK=2, GDK_CONTROL_MASK=4, GDK_MOD1_MASK=8, GDK_MOD2_MASK=16, GDK_MOD3_MASK=32, GDK_MOD4_MASK=64, GDK_MOD5_MASK=128, GDK_BUTTON1_MASK=256, GDK_BUTTON2_MASK=512, GDK_BUTTON3_MASK=1024, GDK_BUTTON4_MASK=2048, GDK_BUTTON5_MASK=4096, GDK_SUPER_MASK=67108864, GDK_HYPER_MASK=134217728, GDK_META_MASK=268435456, GDK_RELEASE_MASK=1073741824, GDK_MODIFIER_MASK=1543512063 };
+enum anonymous_24 { GDK_SHIFT_MASK=1, GDK_LOCK_MASK=2, GDK_CONTROL_MASK=4, GDK_MOD1_MASK=8, GDK_MOD2_MASK=16, GDK_MOD3_MASK=32, GDK_MOD4_MASK=64, GDK_MOD5_MASK=128, GDK_BUTTON1_MASK=256, GDK_BUTTON2_MASK=512, GDK_BUTTON3_MASK=1024, GDK_BUTTON4_MASK=2048, GDK_BUTTON5_MASK=4096, GDK_SUPER_MASK=67108864, GDK_HYPER_MASK=134217728, GDK_META_MASK=268435456, GDK_RELEASE_MASK=1073741824, GDK_MODIFIER_MASK=1543512063 };
 
-// #anon_enum$GDK_SOLID=0$GDK_TILED=1$GDK_STIPPLED=2$GDK_OPAQUE_STIPPLED=3
+// #anon_enum_GDK_SOLID=0_GDK_TILED=1_GDK_STIPPLED=2_GDK_OPAQUE_STIPPLED=3
 // file /usr/include/gtk-2.0/gdk/gdkgc.h line 62
-enum anonymous$26 { GDK_SOLID=0, GDK_TILED=1, GDK_STIPPLED=2, GDK_OPAQUE_STIPPLED=3 };
+enum anonymous_26 { GDK_SOLID=0, GDK_TILED=1, GDK_STIPPLED=2, GDK_OPAQUE_STIPPLED=3 };
 
-// #anon_enum$GDK_VISUAL_STATIC_GRAY=0$GDK_VISUAL_GRAYSCALE=1$GDK_VISUAL_STATIC_COLOR=2$GDK_VISUAL_PSEUDO_COLOR=3$GDK_VISUAL_TRUE_COLOR=4$GDK_VISUAL_DIRECT_COLOR=5
+// #anon_enum_GDK_VISUAL_STATIC_GRAY=0_GDK_VISUAL_GRAYSCALE=1_GDK_VISUAL_STATIC_COLOR=2_GDK_VISUAL_PSEUDO_COLOR=3_GDK_VISUAL_TRUE_COLOR=4_GDK_VISUAL_DIRECT_COLOR=5
 // file /usr/include/gtk-2.0/gdk/gdkvisual.h line 55
-enum anonymous$9 { GDK_VISUAL_STATIC_GRAY=0, GDK_VISUAL_GRAYSCALE=1, GDK_VISUAL_STATIC_COLOR=2, GDK_VISUAL_PSEUDO_COLOR=3, GDK_VISUAL_TRUE_COLOR=4, GDK_VISUAL_DIRECT_COLOR=5 };
+enum anonymous_9 { GDK_VISUAL_STATIC_GRAY=0, GDK_VISUAL_GRAYSCALE=1, GDK_VISUAL_STATIC_COLOR=2, GDK_VISUAL_PSEUDO_COLOR=3, GDK_VISUAL_TRUE_COLOR=4, GDK_VISUAL_DIRECT_COLOR=5 };
 
-// #anon_enum$GTK_ACCEL_VISIBLE=1$GTK_ACCEL_LOCKED=2$GTK_ACCEL_MASK=7
+// #anon_enum_GTK_ACCEL_VISIBLE=1_GTK_ACCEL_LOCKED=2_GTK_ACCEL_MASK=7
 // file /usr/include/gtk-2.0/gtk/gtkaccelgroup.h line 51
-enum anonymous$1 { GTK_ACCEL_VISIBLE=1, GTK_ACCEL_LOCKED=2, GTK_ACCEL_MASK=7 };
+enum anonymous_1 { GTK_ACCEL_VISIBLE=1, GTK_ACCEL_LOCKED=2, GTK_ACCEL_MASK=7 };
 
-// #anon_enum$GTK_BUTTONS_NONE=0$GTK_BUTTONS_OK=1$GTK_BUTTONS_CLOSE=2$GTK_BUTTONS_CANCEL=3$GTK_BUTTONS_YES_NO=4$GTK_BUTTONS_OK_CANCEL=5
+// #anon_enum_GTK_BUTTONS_NONE=0_GTK_BUTTONS_OK=1_GTK_BUTTONS_CLOSE=2_GTK_BUTTONS_CANCEL=3_GTK_BUTTONS_YES_NO=4_GTK_BUTTONS_OK_CANCEL=5
 // file /usr/include/gtk-2.0/gtk/gtkmessagedialog.h line 89
-enum anonymous$21 { GTK_BUTTONS_NONE=0, GTK_BUTTONS_OK=1, GTK_BUTTONS_CLOSE=2, GTK_BUTTONS_CANCEL=3, GTK_BUTTONS_YES_NO=4, GTK_BUTTONS_OK_CANCEL=5 };
+enum anonymous_21 { GTK_BUTTONS_NONE=0, GTK_BUTTONS_OK=1, GTK_BUTTONS_CLOSE=2, GTK_BUTTONS_CANCEL=3, GTK_BUTTONS_YES_NO=4, GTK_BUTTONS_OK_CANCEL=5 };
 
-// #anon_enum$GTK_DIALOG_MODAL=1$GTK_DIALOG_DESTROY_WITH_PARENT=2$GTK_DIALOG_NO_SEPARATOR=4
+// #anon_enum_GTK_DIALOG_MODAL=1_GTK_DIALOG_DESTROY_WITH_PARENT=2_GTK_DIALOG_NO_SEPARATOR=4
 // file /usr/include/gtk-2.0/gtk/gtkdialog.h line 41
-enum anonymous$22 { GTK_DIALOG_MODAL=1, GTK_DIALOG_DESTROY_WITH_PARENT=2, GTK_DIALOG_NO_SEPARATOR=4 };
+enum anonymous_22 { GTK_DIALOG_MODAL=1, GTK_DIALOG_DESTROY_WITH_PARENT=2, GTK_DIALOG_NO_SEPARATOR=4 };
 
-// #anon_enum$GTK_FILE_CHOOSER_ACTION_OPEN=0$GTK_FILE_CHOOSER_ACTION_SAVE=1$GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER=2$GTK_FILE_CHOOSER_ACTION_CREATE_FOLDER=3
+// #anon_enum_GTK_FILE_CHOOSER_ACTION_OPEN=0_GTK_FILE_CHOOSER_ACTION_SAVE=1_GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER=2_GTK_FILE_CHOOSER_ACTION_CREATE_FOLDER=3
 // file /usr/include/gtk-2.0/gtk/gtkfilechooser.h line 56
-enum anonymous$7 { GTK_FILE_CHOOSER_ACTION_OPEN=0, GTK_FILE_CHOOSER_ACTION_SAVE=1, GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER=2, GTK_FILE_CHOOSER_ACTION_CREATE_FOLDER=3 };
+enum anonymous_7 { GTK_FILE_CHOOSER_ACTION_OPEN=0, GTK_FILE_CHOOSER_ACTION_SAVE=1, GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER=2, GTK_FILE_CHOOSER_ACTION_CREATE_FOLDER=3 };
 
-// #anon_enum$GTK_MESSAGE_INFO=0$GTK_MESSAGE_WARNING=1$GTK_MESSAGE_QUESTION=2$GTK_MESSAGE_ERROR=3$GTK_MESSAGE_OTHER=4
+// #anon_enum_GTK_MESSAGE_INFO=0_GTK_MESSAGE_WARNING=1_GTK_MESSAGE_QUESTION=2_GTK_MESSAGE_ERROR=3_GTK_MESSAGE_OTHER=4
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 221
-enum anonymous$23 { GTK_MESSAGE_INFO=0, GTK_MESSAGE_WARNING=1, GTK_MESSAGE_QUESTION=2, GTK_MESSAGE_ERROR=3, GTK_MESSAGE_OTHER=4 };
+enum anonymous_23 { GTK_MESSAGE_INFO=0, GTK_MESSAGE_WARNING=1, GTK_MESSAGE_QUESTION=2, GTK_MESSAGE_ERROR=3, GTK_MESSAGE_OTHER=4 };
 
-// #anon_enum$GTK_ORIENTATION_HORIZONTAL=0$GTK_ORIENTATION_VERTICAL=1
+// #anon_enum_GTK_ORIENTATION_HORIZONTAL=0_GTK_ORIENTATION_VERTICAL=1
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 262
-enum anonymous$11 { GTK_ORIENTATION_HORIZONTAL=0, GTK_ORIENTATION_VERTICAL=1 };
+enum anonymous_11 { GTK_ORIENTATION_HORIZONTAL=0, GTK_ORIENTATION_VERTICAL=1 };
 
-// #anon_enum$GTK_POLICY_ALWAYS=0$GTK_POLICY_AUTOMATIC=1$GTK_POLICY_NEVER=2
+// #anon_enum_GTK_POLICY_ALWAYS=0_GTK_POLICY_AUTOMATIC=1_GTK_POLICY_NEVER=2
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 305
-enum anonymous$31 { GTK_POLICY_ALWAYS=0, GTK_POLICY_AUTOMATIC=1, GTK_POLICY_NEVER=2 };
+enum anonymous_31 { GTK_POLICY_ALWAYS=0, GTK_POLICY_AUTOMATIC=1, GTK_POLICY_NEVER=2 };
 
-// #anon_enum$GTK_RC_FG=1$GTK_RC_BG=2$GTK_RC_TEXT=4$GTK_RC_BASE=8
+// #anon_enum_GTK_RC_FG=1_GTK_RC_BG=2_GTK_RC_TEXT=4_GTK_RC_BASE=8
 // file /usr/include/gtk-2.0/gtk/gtkrc.h line 52
-enum anonymous$0 { GTK_RC_FG=1, GTK_RC_BG=2, GTK_RC_TEXT=4, GTK_RC_BASE=8 };
+enum anonymous_0 { GTK_RC_FG=1, GTK_RC_BG=2, GTK_RC_TEXT=4, GTK_RC_BASE=8 };
 
-// #anon_enum$GTK_SELECTION_NONE=0$GTK_SELECTION_SINGLE=1$GTK_SELECTION_BROWSE=2$GTK_SELECTION_MULTIPLE=3$GTK_SELECTION_EXTENDED=3
+// #anon_enum_GTK_SELECTION_NONE=0_GTK_SELECTION_SINGLE=1_GTK_SELECTION_BROWSE=2_GTK_SELECTION_MULTIPLE=3_GTK_SELECTION_EXTENDED=3
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 379
-enum anonymous$6 { GTK_SELECTION_NONE=0, GTK_SELECTION_SINGLE=1, GTK_SELECTION_BROWSE=2, GTK_SELECTION_MULTIPLE=3, GTK_SELECTION_EXTENDED=3 };
+enum anonymous_6 { GTK_SELECTION_NONE=0, GTK_SELECTION_SINGLE=1, GTK_SELECTION_BROWSE=2, GTK_SELECTION_MULTIPLE=3, GTK_SELECTION_EXTENDED=3 };
 
-// #anon_enum$GTK_SORT_ASCENDING=0$GTK_SORT_DESCENDING=1
+// #anon_enum_GTK_SORT_ASCENDING=0_GTK_SORT_DESCENDING=1
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 476
-enum anonymous$5 { GTK_SORT_ASCENDING=0, GTK_SORT_DESCENDING=1 };
+enum anonymous_5 { GTK_SORT_ASCENDING=0, GTK_SORT_DESCENDING=1 };
 
-// #anon_enum$GTK_TREE_VIEW_COLUMN_GROW_ONLY=0$GTK_TREE_VIEW_COLUMN_AUTOSIZE=1$GTK_TREE_VIEW_COLUMN_FIXED=2
+// #anon_enum_GTK_TREE_VIEW_COLUMN_GROW_ONLY=0_GTK_TREE_VIEW_COLUMN_AUTOSIZE=1_GTK_TREE_VIEW_COLUMN_FIXED=2
 // file /usr/include/gtk-2.0/gtk/gtktreeviewcolumn.h line 45
-enum anonymous$8 { GTK_TREE_VIEW_COLUMN_GROW_ONLY=0, GTK_TREE_VIEW_COLUMN_AUTOSIZE=1, GTK_TREE_VIEW_COLUMN_FIXED=2 };
+enum anonymous_8 { GTK_TREE_VIEW_COLUMN_GROW_ONLY=0, GTK_TREE_VIEW_COLUMN_AUTOSIZE=1, GTK_TREE_VIEW_COLUMN_FIXED=2 };
 
-// #anon_enum$GTK_UPDATE_ALWAYS=0$GTK_UPDATE_IF_VALID=1
+// #anon_enum_GTK_UPDATE_ALWAYS=0_GTK_UPDATE_IF_VALID=1
 // file /usr/include/gtk-2.0/gtk/gtkspinbutton.h line 53
-enum anonymous$16 { GTK_UPDATE_ALWAYS=0, GTK_UPDATE_IF_VALID=1 };
+enum anonymous_16 { GTK_UPDATE_ALWAYS=0, GTK_UPDATE_IF_VALID=1 };
 
-// #anon_enum$GTK_UPDATE_CONTINUOUS=0$GTK_UPDATE_DISCONTINUOUS=1$GTK_UPDATE_DELAYED=2
+// #anon_enum_GTK_UPDATE_CONTINUOUS=0_GTK_UPDATE_DISCONTINUOUS=1_GTK_UPDATE_DELAYED=2
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 434
-enum anonymous$12 { GTK_UPDATE_CONTINUOUS=0, GTK_UPDATE_DISCONTINUOUS=1, GTK_UPDATE_DELAYED=2 };
+enum anonymous_12 { GTK_UPDATE_CONTINUOUS=0, GTK_UPDATE_DISCONTINUOUS=1, GTK_UPDATE_DELAYED=2 };
 
-// #anon_enum$G_CONNECT_AFTER=1$G_CONNECT_SWAPPED=2
+// #anon_enum_G_CONNECT_AFTER=1_G_CONNECT_SWAPPED=2
 // file /usr/include/glib-2.0/gobject/gsignal.h line 155
-enum anonymous$17 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
+enum anonymous_17 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
 
-// #anon_enum$PANGO_UNDERLINE_NONE=0$PANGO_UNDERLINE_SINGLE=1$PANGO_UNDERLINE_DOUBLE=2$PANGO_UNDERLINE_LOW=3$PANGO_UNDERLINE_ERROR=4
+// #anon_enum_PANGO_UNDERLINE_NONE=0_PANGO_UNDERLINE_SINGLE=1_PANGO_UNDERLINE_DOUBLE=2_PANGO_UNDERLINE_LOW=3_PANGO_UNDERLINE_ERROR=4
 // file /usr/include/pango-1.0/pango/pango-attributes.h line 201
-enum anonymous$10 { PANGO_UNDERLINE_NONE=0, PANGO_UNDERLINE_SINGLE=1, PANGO_UNDERLINE_DOUBLE=2, PANGO_UNDERLINE_LOW=3, PANGO_UNDERLINE_ERROR=4 };
+enum anonymous_10 { PANGO_UNDERLINE_NONE=0, PANGO_UNDERLINE_SINGLE=1, PANGO_UNDERLINE_DOUBLE=2, PANGO_UNDERLINE_LOW=3, PANGO_UNDERLINE_ERROR=4 };
 
-// tag-#anon#ST[*{V()->V}$V()->V$'f'||*{V}$V$'d'|]
+// tag-#anon#ST[*{V()->V}_V()->V_'f'||*{V}_V_'d'|]
 // file /usr/include/gtk-2.0/gtk/gtktypeutils.h line 165
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}$V$'v_pointer'|]
+// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}_V_'v_pointer'|]
 // file /usr/include/glib-2.0/gobject/gvalue.h line 112
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[S8'char_data'||U8'uchar_data'||S32'bool_data'||S32'int_data'||U32'uint_data'||S64'long_data'||U64'ulong_data'||F32'float_data'||F64'double_data'||*{S8}$S8$'string_data'||*{SYM#tag-_GtkObject#}$SYM#tag-_GtkObject#$'object_data'||*{V}$V$'pointer_data'||SYM#tag-#anon#ST[*{V()->V}$V()->V$'f'||*{V}$V$'d'|]#'signal_data'|]
+// tag-#anon#UN[S8'char_data'||U8'uchar_data'||S32'bool_data'||S32'int_data'||U32'uint_data'||S64'long_data'||U64'ulong_data'||F32'float_data'||F64'double_data'||*{S8}_S8_'string_data'||*{SYM#tag-_GtkObject#}_SYM#tag-_GtkObject#_'object_data'||*{V}_V_'pointer_data'||SYM#tag-#anon#ST[*{V()->V}_V()->V_'f'||*{V}_V_'d'|]#'signal_data'|]
 // file /usr/include/gtk-2.0/gtk/gtktypeutils.h line 149
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -685,7 +685,7 @@ extern void g_object_set_data(struct _GObject *, const char *, void *);
 extern void g_object_unref(void *);
 // g_signal_connect_data
 // file /usr/include/glib-2.0/gobject/gsignal.h line 388
-extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous$17);
+extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous_17);
 // g_signal_emit_by_name
 // file /usr/include/glib-2.0/gobject/gsignal.h line 327
 extern void g_signal_emit_by_name(void *, const char *, ...);
@@ -835,7 +835,7 @@ void gtk_entry_set_text(struct _GtkEntry *, const char *);
 void gtk_file_chooser_add_filter(struct _GtkFileChooser *, struct _GtkFileFilter *);
 // gtk_file_chooser_dialog_new
 // file /usr/include/gtk-2.0/gtk/gtkfilechooserdialog.h line 57
-struct _GtkWidget * gtk_file_chooser_dialog_new(const char *, struct _GtkWindow *, enum anonymous$7, const char *, ...);
+struct _GtkWidget * gtk_file_chooser_dialog_new(const char *, struct _GtkWindow *, enum anonymous_7, const char *, ...);
 // gtk_file_chooser_get_current_folder
 // file /usr/include/gtk-2.0/gtk/gtkfilechooser.h line 175
 char * gtk_file_chooser_get_current_folder(struct _GtkFileChooser *);
@@ -898,7 +898,7 @@ void gtk_main(void);
 void gtk_main_quit(void);
 // gtk_message_dialog_new
 // file /usr/include/gtk-2.0/gtk/gtkmessagedialog.h line 101
-struct _GtkWidget * gtk_message_dialog_new(struct _GtkWindow *, enum anonymous$22, enum anonymous$23, enum anonymous$21, const char *, ...);
+struct _GtkWidget * gtk_message_dialog_new(struct _GtkWindow *, enum anonymous_22, enum anonymous_23, enum anonymous_21, const char *, ...);
 // gtk_object_get_type
 // file /usr/include/gtk-2.0/gtk/gtkobject.h line 146
 unsigned long int gtk_object_get_type(void);
@@ -919,7 +919,7 @@ struct _GtkAdjustment * gtk_scrolled_window_get_hadjustment(struct _GtkScrolledW
 unsigned long int gtk_scrolled_window_get_type(void);
 // gtk_scrolled_window_set_policy
 // file /usr/include/gtk-2.0/gtk/gtkscrolledwindow.h line 113
-void gtk_scrolled_window_set_policy(struct _GtkScrolledWindow *, enum anonymous$31, enum anonymous$31);
+void gtk_scrolled_window_set_policy(struct _GtkScrolledWindow *, enum anonymous_31, enum anonymous_31);
 // gtk_set_locale
 // file /usr/include/gtk-2.0/gtk/gtkmain.h line 132
 char * gtk_set_locale(void);
@@ -979,7 +979,7 @@ signed int gtk_tree_selection_count_selected_rows(struct _GtkTreeSelection *);
 struct _GList * gtk_tree_selection_get_selected_rows(struct _GtkTreeSelection *, struct _GtkTreeModel **);
 // gtk_tree_selection_set_mode
 // file /usr/include/gtk-2.0/gtk/gtktreeselection.h line 78
-void gtk_tree_selection_set_mode(struct _GtkTreeSelection *, enum anonymous$6);
+void gtk_tree_selection_set_mode(struct _GtkTreeSelection *, enum anonymous_6);
 // gtk_tree_store_append
 // file /usr/include/gtk-2.0/gtk/gtktreestore.h line 131
 void gtk_tree_store_append(struct _GtkTreeStore *, struct _GtkTreeIter *, struct _GtkTreeIter *);
@@ -1045,7 +1045,7 @@ struct _GtkWidget * gtk_tree_view_new(void);
 void gtk_tree_view_set_model(struct _GtkTreeView *, struct _GtkTreeModel *);
 // gtk_widget_add_accelerator
 // file /usr/include/gtk-2.0/gtk/gtkwidget.h line 892
-void gtk_widget_add_accelerator(struct _GtkWidget *, const char *, struct _GtkAccelGroup *, unsigned int, enum anonymous$24, enum anonymous$1);
+void gtk_widget_add_accelerator(struct _GtkWidget *, const char *, struct _GtkAccelGroup *, unsigned int, enum anonymous_24, enum anonymous_1);
 // gtk_widget_create_pango_layout
 // file /usr/include/gtk-2.0/gtk/gtkwidget.h line 1189
 struct _PangoLayout * gtk_widget_create_pango_layout(struct _GtkWidget *, const char *);
@@ -1193,9 +1193,9 @@ void lingot_audio_jack_stop(struct _LingotAudioHandler *audio);
 // lingot_audio_new
 // file lingot-audio.c line 35
 struct _LingotAudioHandler * lingot_audio_new(enum audio_system_t audio_system, char *device, signed int sample_rate, void (*process_callback)(double *, signed int, void *), void *process_callback_arg);
-// lingot_audio_new::process_callback$object
+// lingot_audio_new::process_callback_object
 //
-void process_callback$object(double *, signed int, void *);
+void process_callback_object(double *, signed int, void *);
 // lingot_audio_oss_destroy
 // file lingot-audio-oss.h line 29
 void lingot_audio_oss_destroy(struct _LingotAudioHandler *audio);
@@ -1570,10 +1570,10 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$3 *, const union anonymous$4 *);
+extern signed int pthread_cond_init(union anonymous_3 *, const union anonymous_4 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$3 *, union anonymous *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_3 *, union anonymous *, struct timespec *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1585,7 +1585,7 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$4 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -1689,7 +1689,7 @@ extern double tan(double);
 // file /usr/include/libintl.h line 82
 extern char * textdomain(const char *);
 
-struct anonymous$14
+struct anonymous_14
 {
   // f
   void (*f)(void);
@@ -1697,7 +1697,7 @@ struct anonymous$14
   void *d;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -1717,7 +1717,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[4l];
@@ -1725,7 +1725,7 @@ union anonymous$4
   signed int __align;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // v_int
   signed int v_int;
@@ -1747,7 +1747,7 @@ union anonymous$13
   void *v_pointer;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // char_data
   char char_data;
@@ -1774,13 +1774,13 @@ union anonymous$15
   // pointer_data
   void *pointer_data;
   // signal_data
-  struct anonymous$14 signal_data;
+  struct anonymous_14 signal_data;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -1926,7 +1926,7 @@ struct _GValue
   // g_type
   unsigned long int g_type;
   // data
-  union anonymous$13 data[2l];
+  union anonymous_13 data[2l];
 };
 
 struct _GdkColor
@@ -1976,7 +1976,7 @@ struct _GdkRectangle
 struct _GdkEventExpose
 {
   // type
-  enum anonymous$18 type;
+  enum anonymous_18 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -1992,7 +1992,7 @@ struct _GdkEventExpose
 struct _GdkEventKey
 {
   // type
-  enum anonymous$18 type;
+  enum anonymous_18 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2018,7 +2018,7 @@ struct _GdkEventKey
 struct _GdkFont
 {
   // type
-  enum anonymous$20 type;
+  enum anonymous_20 type;
   // ascent
   signed int ascent;
   // descent
@@ -2050,9 +2050,9 @@ struct _GdkGCValues
   // font
   struct _GdkFont *font;
   // function
-  enum anonymous$25 function;
+  enum anonymous_25 function;
   // fill
-  enum anonymous$26 fill;
+  enum anonymous_26 fill;
   // tile
   struct _GdkDrawable *tile;
   // stipple
@@ -2060,7 +2060,7 @@ struct _GdkGCValues
   // clip_mask
   struct _GdkDrawable *clip_mask;
   // subwindow_mode
-  enum anonymous$27 subwindow_mode;
+  enum anonymous_27 subwindow_mode;
   // ts_x_origin
   signed int ts_x_origin;
   // ts_y_origin
@@ -2074,11 +2074,11 @@ struct _GdkGCValues
   // line_width
   signed int line_width;
   // line_style
-  enum anonymous$28 line_style;
+  enum anonymous_28 line_style;
   // cap_style
-  enum anonymous$29 cap_style;
+  enum anonymous_29 cap_style;
   // join_style
-  enum anonymous$30 join_style;
+  enum anonymous_30 join_style;
 };
 
 struct _GdkScreen
@@ -2104,11 +2104,11 @@ struct _GdkVisual
   // parent_instance
   struct _GObject parent_instance;
   // type
-  enum anonymous$9 type;
+  enum anonymous_9 type;
   // depth
   signed int depth;
   // byte_order
-  enum anonymous$19 byte_order;
+  enum anonymous_19 byte_order;
   // colormap_size
   signed int colormap_size;
   // bits_per_rgb
@@ -2150,7 +2150,7 @@ struct _GtkAccelGroup
   // lock_count
   unsigned int lock_count;
   // modifier_mask
-  enum anonymous$24 modifier_mask;
+  enum anonymous_24 modifier_mask;
   // acceleratables
   struct _GSList *acceleratables;
   // n_accels
@@ -2164,7 +2164,7 @@ struct _GtkAccelKey
   // accel_key
   unsigned int accel_key;
   // accel_mods
-  enum anonymous$24 accel_mods;
+  enum anonymous_24 accel_mods;
   // accel_flags
   unsigned int accel_flags : 16;
 };
@@ -2212,7 +2212,7 @@ struct _GtkArg
   // name
   char *name;
   // d
-  union anonymous$15 d;
+  union anonymous_15 d;
 };
 
 struct _GtkRequisition
@@ -2362,7 +2362,7 @@ struct _GtkCellRendererText
   // extra_attrs
   struct _PangoAttrList *extra_attrs;
   // underline_style
-  enum anonymous$10 underline_style;
+  enum anonymous_10 underline_style;
   // rise
   signed int rise;
   // fixed_height_rows
@@ -2532,7 +2532,7 @@ struct _GtkWindow
   // keys_changed_handler
   unsigned int keys_changed_handler;
   // mnemonic_modifier
-  enum anonymous$24 mnemonic_modifier;
+  enum anonymous_24 mnemonic_modifier;
   // screen
   struct _GdkScreen *screen;
 };
@@ -2644,7 +2644,7 @@ struct _GtkRange
   // adjustment
   struct _GtkAdjustment *adjustment;
   // update_policy
-  enum anonymous$12 update_policy;
+  enum anonymous_12 update_policy;
   // inverted
   unsigned int inverted : 1;
   // flippable
@@ -2664,7 +2664,7 @@ struct _GtkRange
   // min_slider_size
   signed int min_slider_size;
   // orientation
-  enum anonymous$11 orientation;
+  enum anonymous_11 orientation;
   // range_rect
   struct _GdkRectangle range_rect;
   // slider_start
@@ -2792,7 +2792,7 @@ struct _GtkListStore
   // sort_column_id
   signed int sort_column_id;
   // order
-  enum anonymous$5 order;
+  enum anonymous_5 order;
   // column_headers
   unsigned long int *column_headers;
   // length
@@ -2818,7 +2818,7 @@ struct _GtkRcStyle
   // font_desc
   struct _PangoFontDescription *font_desc;
   // color_flags
-  enum anonymous$0 color_flags[5l];
+  enum anonymous_0 color_flags[5l];
   // fg
   struct _GdkColor fg[5l];
   // bg
@@ -2880,7 +2880,7 @@ struct _GtkSpinButton
   // timer_step
   double timer_step;
   // update_policy
-  enum anonymous$16 update_policy;
+  enum anonymous_16 update_policy;
   // in_child
   unsigned int in_child : 2;
   // click_child
@@ -2992,7 +2992,7 @@ struct _GtkTreeSelection
   // tree_view
   struct _GtkTreeView *tree_view;
   // type
-  enum anonymous$6 type;
+  enum anonymous_6 type;
   // user_func
   signed int (*user_func)(struct _GtkTreeSelection *, struct _GtkTreeModel *, struct _GtkTreePath *, signed int, void *);
   // user_data
@@ -3018,7 +3018,7 @@ struct _GtkTreeStore
   // sort_list
   struct _GList *sort_list;
   // order
-  enum anonymous$5 order;
+  enum anonymous_5 order;
   // column_headers
   unsigned long int *column_headers;
   // default_sort_func
@@ -3064,7 +3064,7 @@ struct _GtkTreeViewColumn
   // spacing
   signed int spacing;
   // column_type
-  enum anonymous$8 column_type;
+  enum anonymous_8 column_type;
   // requested_width
   signed int requested_width;
   // button_request
@@ -3094,7 +3094,7 @@ struct _GtkTreeViewColumn
   // sort_column_id
   signed int sort_column_id;
   // sort_order
-  enum anonymous$5 sort_order;
+  enum anonymous_5 sort_order;
   // visible
   unsigned int visible : 1;
   // resizable
@@ -3414,7 +3414,7 @@ struct _LingotCore
   // thread_computation_attr
   union pthread_attr_t thread_computation_attr;
   // thread_computation_cond
-  union anonymous$3 thread_computation_cond;
+  union anonymous_3 thread_computation_cond;
   // thread_computation_mutex
   union anonymous thread_computation_mutex;
   // temporal_buffer_mutex
@@ -3549,7 +3549,7 @@ struct timezone
 char CONFIG_FILE_NAME[100l];
 // background2_xpm
 // file lingot-background.xpm line 23
-static char *background2_xpm[175l] = { "160 100 74 1", "  c #000000", ". c #8E8D8E", "X c #9A898B", "o c #9A9294", "O c #9A999B", "+ c #A79699", "@ c #A7989A", "# c #9F9EA0", "$ c #A19FA1", "% c #A7A6A7", "& c #A8A6A8", "* c #A7A8A9", "= c #AAAAAB", "- c #BFBFBF", "; c #CD9A9D", ": c #D09B9F", "> c #DD9EA2", ", c #DDA1A5", "< c #ECA7AC", "1 c #EEAAAE", "2 c #F1A7AE", "3 c #F0AAAE", "4 c #E6B3AE", "5 c #EEADB0", "6 c #F0ADB0", "7 c #EEB6B9", "8 c #E7BDBA", "9 c #ECBCBE", "0 c #F1B4B9", "q c #F1BDBF", "w c #BFC0BF", "e c #B5E5AE", "r c #ABF1AE", "t c #B2F0B3", "y c #B7F1B9", "u c #B8F0BA", "i c #C0E8BA", "p c #EEBDC0", "a c #F0BEC1", "s c #BFEFC1", "d c #C2C2C2", "f c #CDC6C5", "g c #CCCBCD", "h c #CECFD0", "j c #D0CED0", "k c #CFD0D0", "l c #D1D1D1", "z c #DDD6D7", "x c #D7D6D8", "c c #D9D7D9", "v c #DBDADC", "b c #EEC0C2", "n c #F0C0C2", "m c #DDE0DF", "M c #D9EFDA", "N c #DDDFE1", "B c #F0DFE3", "V c #DEE0E1", "C c #E2E2E2", "Z c #EEE2E4", "A c #EEEEEE", "S c #F0E2E4", "D c #F1E7EB", "F c #F0EBEB", "G c #E2F0E3", "H c #E7F1EA", "J c #EDF0EE", "K c #EFEFF0", "L c #F1EFF3", "P c #EEF3F3", "I c #F2F2F2", "U c #F7F8F7", "Y c #F7F8F8", "T c #F9F9F9", "                                                                                                                                                                ",
+static char *background2_xpm[175l] = { "160 100 74 1", "  c #000000", ". c #8E8D8E", "X c #9A898B", "o c #9A9294", "O c #9A999B", "+ c #A79699", "@ c #A7989A", "# c #9F9EA0", "_ c #A19FA1", "% c #A7A6A7", "& c #A8A6A8", "* c #A7A8A9", "= c #AAAAAB", "- c #BFBFBF", "; c #CD9A9D", ": c #D09B9F", "> c #DD9EA2", ", c #DDA1A5", "< c #ECA7AC", "1 c #EEAAAE", "2 c #F1A7AE", "3 c #F0AAAE", "4 c #E6B3AE", "5 c #EEADB0", "6 c #F0ADB0", "7 c #EEB6B9", "8 c #E7BDBA", "9 c #ECBCBE", "0 c #F1B4B9", "q c #F1BDBF", "w c #BFC0BF", "e c #B5E5AE", "r c #ABF1AE", "t c #B2F0B3", "y c #B7F1B9", "u c #B8F0BA", "i c #C0E8BA", "p c #EEBDC0", "a c #F0BEC1", "s c #BFEFC1", "d c #C2C2C2", "f c #CDC6C5", "g c #CCCBCD", "h c #CECFD0", "j c #D0CED0", "k c #CFD0D0", "l c #D1D1D1", "z c #DDD6D7", "x c #D7D6D8", "c c #D9D7D9", "v c #DBDADC", "b c #EEC0C2", "n c #F0C0C2", "m c #DDE0DF", "M c #D9EFDA", "N c #DDDFE1", "B c #F0DFE3", "V c #DEE0E1", "C c #E2E2E2", "Z c #EEE2E4", "A c #EEEEEE", "S c #F0E2E4", "D c #F1E7EB", "F c #F0EBEB", "G c #E2F0E3", "H c #E7F1EA", "J c #EDF0EE", "K c #EFEFF0", "L c #F1EFF3", "P c #EEF3F3", "I c #F2F2F2", "U c #F7F8F7", "Y c #F7F8F8", "T c #F9F9F9", "                                                                                                                                                                ",
     " Oggfddgdfdddddd8-dw-8dd---8dd---8dd---8dd---8dd---8dd---8dd---8ddww-8wwdddddd-ddddd8dddddwd-8wddd-8dd---8dd---8dd---8dd---8dd---8dd---8dd---8dd---8dwddgffdggO ",
     " gTTTTTTTTTYYYYYYYYYYYUUTYYYYYTYYYUUTYYYYYTYYYUUTYYYYYTUYYUUTYYYYYTTTTTTYTTTTTTTTYYYPYYYTTTTTTTYUYYYYYTUYYUUTYYYYYTUUYTUTYYYYYTUUYUTTYYYYYTYYYUUTYYTTTTTTTTTTTk ",
     " fTTTTTTTTTYYYYYYYYYYUUUUYYYYYYYYYYUUYYYYYYYYYYUYYYYYYYYYYYUUYYYYTTTTTTTTTYTTTTTTTTYYYYYTTTTTTTTYYYYYYYYYYUUYYYYYYYYUTUUYYYYYYYYTUTUUYYYYYYYYYYUYYYTTTTTTTTTTTg ",
@@ -3599,14 +3599,14 @@ static char *background2_xpm[175l] = { "160 100 74 1", "  c #000000", ". c #8E8D
     " dTTUUIUIIIjOvIJPPPPPPPPPAb5111115pZPPPPPPPPPPPHPJKJAAAAAAAAAAAAAAAAAAAAKDAAAAKDAAAKKHAAHAAAAAAAHAAAAAAAAAAHJAAAKKPPPPPPPPPPPZp1111115bPPPYPPPPPIIFvOlFUUUUTTTd ",
     " dTTTTTUUAl=lAIPPIPPPPPPPZ7111115pAPPPPPPPHPKKAAAPAAAAAAAAHAAAKKAAAAAHKAAAKADAAAAAAHZAAAAAAAAAAAAAKKAAAKAAAAAAKKKAPAKPPPPPPPPPAp5111118BPPPPPPYPIPPAl=lAUTTTTTd ",
     " dTTTTYUIl&lAIIIIPPPYPPPZp511115pZPPPPPPKPPKPKAPAHAAAAAAAKKKAAHAAAAAAADKAAHAKAAAAAAAAAAAAAAAAAAAAAADAAAKAAAAAAAKAKHPPHKPKPPPPPPZp511111pZPPPPPPPPPIIIl=xITTTTTd ",
-    " dTTYYUIC$gPIIIPPIPPPPPAp511111pZPPPPPPPJPPKAAAAAAAAAAAAADAAAAAAKKACAAAKAAAAHAAAAAAAAAAAAAAAAAAKAAAHAAHDHDAAAADHAKKAAKKKKHPPPPPPZb511111bZPPPPYPIPIIIPh$CUTTTTw ",
+    " dTTYYUIC_gPIIIPPIPPPPPAp511111pZPPPPPPPJPPKAAAAAAAAAAAAADAAAAAAKKACAAAKAAAAHAAAAAAAAAAAAAAAAAAKAAAHAAHDHDAAAADHAKKAAKKKKHPPPPPPZb511111bZPPPPYPIPIIIPh_CUTTTTw ",
     " dTTTYYIlOVIIIIPIPPYPPAb511115pZPPPPPPPPPKKKAAAAAAAAAAAAAAAAAADAKKKKAAAKAAAAKAAAAAAAAAAAAAAAAAADAAAAAAAAAKAAAAAAAAAAAAPKPKPPPPPPPZp511115bAPPPPPPIIIUICOlITTTTf ",
     " dTTTYIx=xAUUIPYYPPYPZp5<5115pHPPPPPPPHPKKAKKAHAAAAAAAAAAHKAKHAAAHAHDKDKAKAAAADKAAAAAAAAAAAAAAAHAAAHAAAAAAAAAAAAAAAAAAAKKPPKPPPPPPKp511155pSPPYPIIUPIUPx=xITTTf ",
-    " fTTTYC$kPIIPIPPPPPPAp511515pAPPPPPPPPKPKAKHAAKAAAAAAAAAAAAAAAAAKDAAKKHAADAAAAAAAAAAAAAAAAAAAAAAAAKDAAAAAAAAAAAAAAAAAAKAHKKPPPPPPPPAp511555pLPPPPPPIIUIIx$CTTTg ",
-    " dTTTUl$VUIYPIPPPPPPp515555pCIPPPPPKKPKPAAAAAAAAAAAAAAAHAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAHDAAAAAAAKKAAKDAAAAAAAKAAAAAAHKKKHKPPPPPPPPZp5555<7ZPIPPPIUUIUIC$xUTTf ",
-    " dTTTC$lPIYIPYYPPYIS7151557ZPPPPPPPPHKAAAAAAAAAAAAAAAAADAKDAAAAKKAAAAAAAAAAKHAAAAAAAAAAAAAAAAAAAAAAAAAKHAAAAAAAKAAAAAAAAKKPPHPPPPPPPPZ75<555pDPYPYPPIIUUIj%CTTd ",
-    " dTTTC$gCIUIPPIPYPA9535131bJPYPPPPPPPAAAAAAAAAAAAKKAAAAAAAAAAAADAAAAAAAAAHAAAKKAAAAAAAAAAAAAAAAAAAAAAAHKDHKAAADHKZAAAAAAKKKKKAPPPPPPPJb413115aSIYPPYPUPPCh%CTTd ",
-    " dTTTIc$OlVPYPYPPPn535355nZPPPPPPHKKJAAAAAAAAAAAHDAAAKAAAAHAKHAAAAAAAAAAKKAAAHAAAAAAAAAAAAAAAAAAHAAAAAKDAAKAAAAAAAAAAAAAAAKHKPPAPPPPPPZb613336nFYYPPYPCl$$xITTg ",
+    " fTTTYC_kPIIPIPPPPPPAp511515pAPPPPPPPPKPKAKHAAKAAAAAAAAAAAAAAAAAKDAAKKHAADAAAAAAAAAAAAAAAAAAAAAAAAKDAAAAAAAAAAAAAAAAAAKAHKKPPPPPPPPAp511555pLPPPPPPIIUIIx_CTTTg ",
+    " dTTTUl_VUIYPIPPPPPPp515555pCIPPPPPKKPKPAAAAAAAAAAAAAAAHAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAHDAAAAAAAKKAAKDAAAAAAAKAAAAAAHKKKHKPPPPPPPPZp5555<7ZPIPPPIUUIUIC_xUTTf ",
+    " dTTTC_lPIYIPYYPPYIS7151557ZPPPPPPPPHKAAAAAAAAAAAAAAAAADAKDAAAAKKAAAAAAAAAAKHAAAAAAAAAAAAAAAAAAAAAAAAAKHAAAAAAAKAAAAAAAAKKPPHPPPPPPPPZ75<555pDPYPYPPIIUUIj%CTTd ",
+    " dTTTC_gCIUIPPIPYPA9535131bJPYPPPPPPPAAAAAAAAAAAAKKAAAAAAAAAAAADAAAAAAAAAHAAAKKAAAAAAAAAAAAAAAAAAAAAAAHKDHKAAADHKZAAAAAAKKKKKAPPPPPPPJb413115aSIYPPYPUPPCh%CTTd ",
+    " dTTTIc_OlVPYPYPPPn535355nZPPPPPPHKKJAAAAAAAAAAAHDAAAKAAAAHAKHAAAAAAAAAAKKAAAHAAAAAAAAAAAAAAAAAAHAAAAAKDAAKAAAAAAAAAAAAAAAKHKPPAPPPPPPZb613336nFYYPPYPCl__xITTg ",
     " dTTYYIVl#OlVPPIIS0133159AIPPPPPPKPKAAAAAAAAKAAAAAAADKAAAADKAAAAAAAAAAAAAAAAAAAAJAAAAAAADAAAAAAADAAAAAAAAAAAAAAAAAAAHAAAAAAKKHAPJPPPPPPAb113330SPPPPVx##jCITTTf ",
     " fTTYYYUIClO#kPPSn333330ZPYPPPPPHPKAAAAAAAAAZAAAAAAAHAAAAAAKAAAAAAAAAAAAAAADAAAAFAAPAAAAAAAHAAAAKKAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAPPPPPYPPS033333qZPPxOOkVIYTTTTd ",
     " dTTTTIUUIPVh=kx9333333nAPPPPPJIPKAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAJFJAAAKAAJLFAAAKAAAAAAAAAAAAAAAAKKAAAAAAAAAAAAAAAAAAKAAPPPPPPPPYJn6333339vk=kVPUUUYYTTf ",
@@ -3690,18 +3690,18 @@ struct _GdkColor grid_color;
 char last_ports[10l][80l];
 // lingotlogo
 // file lingot-logo.xpm line 23
-static const char *lingotlogo[338l] = { "80 80 257 2", "   c black", ".  c #2E4E41EA1FB9", "X  c #2F7542BE2093", "o  c #348B44B92376", "O  c #39E8475526C6", "+  c #3B8D48A42821", "@  c #3E2349B12992", "#  c #42BB4C972CB8", "$  c #47474FF73052", "%  c #48FB503430FF", "&  c #4CD853213414", "*  c #51CB55B43725", "=  c #564F5A4C3B43", "-  c #5A7D5D3C3E4E", ";  c #529657CF388C", ":  c #5C5B603040B4", ">  c #5E896199422C", ",  c #60A75D8440D7", "<  c #63CD64104550", "1  c #674F67624883", "2  c #678169444994", "3  c #6C8E6CCB4D3A", "4  c #68DA665B4854", "5  c #6F0671D250C7", "6  c #70DE6D2F4EF6", "7  c #7EF96D2055C3", "8  c #7D3767F552BA", "9  c #745F74285424", "0  c #7683792557B9", "q  c #7CB1741A57F4", "w  c #7FD8776C59C7", "e  c #7D4B7CD15BF3", "r  c #7D6D82F15F40", "t  c #79BC89195F75", "y  c #75438A075D75", "u  c #71C8929C6045", "i  c #6D1E94FB5F0A", "p  c #6DA59C5264E9", "a  c #70079ECD6897", "s  c #6FD995DC6258", "d  c #7D7F8B87653F", "f  c #7B278AA06300", "g  c #75C694C46609", "h  c #76F297BD6953", "j  c #73D69D906BB3", "k  c #7CA294916B2C", "l  c #7AEA9C466E26", "z  c #7EFA9DE57191", "x  c #67DCA2C865E8", "c  c #69B6A32F677E", "v  c #6D33A3B96AD7", "b  c #7054A9066EC7", "n  c #72F4A3E06ECE", "m  c #74D0A4A771B2", "M  c #7511AB17734D", "N  c #7AEDA601737E", "B  c #7ABCACAF7811", "V  c #7CD4AF197B14", "C  c #7EFCB2657D9F", "Z  c #84436ED0579C", "A  c #864C6FE35915", "S  c #88DA701159DC", "D  c #820F70D157E3", "F  c #85D473A35B19", "G  c #83777C2A5EF3", "H  c #89E8735A5BF1", "J  c #8C4E794E5F9F", "K  c #85587D7B6153", "L  c #8D7577E36092", "P  c #8DA17B94627A", "I  c #8F237F6B6934", "U  c #92DD7D2E6445", "Y  c #93FC7F2569D2", "T  c #812F81225F81", "R  c #838B84A0628D", "E  c #84518AE36654", "W  c #8F4983806686", "Q  c #8D5485E169D9", "!  c #8CD68D956B97", "~  c #87268DA668AF", "^  c #90588ED67342", "/  c #8D9E92D06DDC", "(  c #857791776C44", ")  c #84029CB772D7", "_  c #8DE597117233", "`  c #8EA19A3D75CF", "'  c #91A88511681E", "]  c #93CC86706B43", "[  c #949A8BF56DAD", "{  c #995F833D67AA", "}  c #9A7C850D6B28", "|  c #9D7C8A5F6CA9", " . c #96588B2B71A4", ".. c #9BC98BA5750F", "X. c #9F898E617A67", "o. c #935091BF6FC0", "O. c #93EC961172E4", "+. c #94C29BFD7561", "@. c #97AE9EA37AE0", "#. c #9A9895AD7646", "$. c #9A109B6B7728", "%. c #9B7E9E7579B6", "&. c #98E9958A7AE9", "*. c #8443A8D17B68", "=. c #8120B2D17EA4", "-. c #96F1A2117A1A", ";. c #9BF6A4EE7CEF", ":. c #9CD1A9A97FC5", ">. c #A17D8C156E36", ",. c #A42E8F787241", "<. c #A1E18FC77BA7", "1. c #A6F192E672F6", "2. c #A39793257D69", "3. c #AA4795E2753D", "4. c #AE389A5D78AC", "5. c #B30D9EE07BFF", "6. c #B6C7A3137F4A", "7. c #983F9F0B808C", "8. c #8C8DAE8E8457", "9. c #884BB0A5845A", "0. c #84D2B602836E", "q. c #8943B971878D", "w. c #8D8FBB9A8BDB", "e. c #8BD8B86388AD", "r. c #95C6A3BD82AE", "t. c #9F54ACF182B4", "y. c #9A1DA87E8829", "u. c #9168BDC38FD9", "i. c #9701BC539207", "p. c #A53F960382A8", "a. c #A6DB9A3684C9", "s. c #AC659BE684D9", "d. c #AA7397B180C1", "f. c #A5A4A40A861B", "g. c #A1EDADE18417", "h. c #A988AA688C0F", "j. c #B018ABF193A6", "k. c #A3CEB29F8728", "l. c #A5AAB6FB8A31", "z. c #A757BB5F8D2C", "x. c #A981BF438FFC", "c. c #AA06B6778D5A", "v. c #AA8BC025916C", "b. c #AFF6B2629531", "n. c #B7BAA4C9831B", "m. c #B9FFA681829E", "M. c #BA8AA84D8A3E", "N. c #B95EA8B58C7A", "B. c #BDA2AE1797A2", "V. c #B39EABAF95A1", "C. c #B8B4B69B9CC1", "Z. c #BC91AF6BA17F", "A. c #BE02B505A4AF", "S. c #BD15BCAEA5D5", "D. c #B8A4BEB9A1FC", "F. c #AC4FC5299459", "G. c #AFB7C58C9903", "H. c #AE87CB4B9844", "J. c #AEC8CBF898BB", "K. c #B413C5DE9DB1", "L. c #B26ECE2A9CF0", "P. c #B7B9C894A238", "I. c #B553CFD5A1AE", "U. c #BA0BC89DA479", "Y. c #BB3BCA51A68D", "T. c #BF93CD67AC76", "R. c #BE7BC86BAA3F", "E. c #B6DDD175A3D0", "W. c #BA16D33EA74D", "Q. c #BDD2D5B2AC06", "!. c #C1CBAECD87BC", "~. c #C315AFFE88E3", "^. c #C5D5B3178B8F", "/. c #C9C7B7C88EB1", "(. c #CB2FB8E2903D", "). c #CE7EBC989254", "_. c #C684B6F19D30", "`. c #D224BFD694C3", "'. c #CA84BE10ABD3", "]. c #C5FBB9F1A700", "[. c #D4B0C3559720", "{. c #D7A2C6AC99DF", "}. c #D907C7749A12", "|. c #DD3CCC359DE1", " X c #C1D1CE48AF76", ".X c #C9DBC334AD40", "XX c #C571CE8AB36D", "oX c #CAD0CEDBB923", "OX c #C105D785AFF8", "+X c #C3DFD694B323", "@X c #C548DA3FB579", "#X c #C808DC02B94B", "$X c #CC45D553BC6E", "%X c #CAB8DDA2BCE1", "&X c #C8DDD37DB87C", "*X c #D7D2C9AFAB07", "=X c #D951CCCEB2B0", "-X c #DE22D322BC6C", ";X c #E140D06EA108", ":X c #E5B3D535A487", ">X c #EA6BD9F5A805", ",X c #EE1ADE3FABCD", "<X c #E5C7D89CAE0C", "1X c #E294D538B2DD", "2X c #E830DB8CB90B", "3X c #F37AE3D7AF6B", "4X c #F619E709B22A", "5X c #F752E925B732", "6X c #F72CEA14BC70", "7X c #D000D805C144", "8X c #CEA1DFD7C17B", "9X c #D311D51DC431", "0X c #D29FDA28C4D8", "qX c #D738DD50CAB4", "wX c #DB3CDF0ECF59", "eX c #DB3BD3BCC7E2", "rX c #DDAADE16D202", "tX c #CFCFE188C316", "yX c #D2BAE2E4C6C8", "uX c #D69AE57BCB88", "iX c #D9EBE692CF48", "pX c #DD68E4FCD35D", "aX c #DE08EA70D50C", "sX c #E3B1DB62C8FC", "dX c #E4FEE0ABDAC4", "fX c #E215DE2AD715", "gX c #E5AAE293D5A7", "hX c #E5B0E57EDC9B", "jX c #E140EC3FD8B8", "kX c #E45DEE6ADD4C", "lX c #EC9CE5CAD492", "zX c #F861EBA7C35E", "xX c #F8ACEE49CB05", "cX c #F913EC91C5FE", "vX c #F958EF30CD2D", "bX c #F9F4F083D281", "nX c #F3AFEC22D68B", "mX c #FA66F1D9D5EB", "MX c #FB20F421DC8C", "NX c #EDD8E516CCE0", "BX c #E7CAF0BAE1C9", "VX c #EAD5E7ADE2E7", "CX c #ED07EA54E5DB", "ZX c #E80DF10EE225", "AX c #EA9DF261E5B6", "SX c #EED8F47DEADD", "DX c #F167F044EC18", "FX c #F787F2AFE303", "GX c #F246F639EE99", "HX c #FC03F658E4BE", "JX c #FCE7F857E952", "KX c #FD88F974EA48", "LX c #F4DDF7FFF1DD", "PX c #F76AF9F8F4EF", "IX c #F9B7FB74F7F9", "UX c #FDC7FE48FD59", "YX c None", "YXYXYXYXYXYXYXYXZ S H L Y ..<.p.X.X.X.X.X.X.p.X.X.....X...&...X......... ... ... . . .[  .} [ } [ ] ] ] ] ] ] ] Q ] ' ' ' Q Y Q W W W { H H S S YXYXYXYXYXYXYXYX",
-    "YXYXYXYXYXH H S H ..Z.eXdXVXVXVXVXVXhXhXVXaXrXpXrXrXrXqXqXuX0X0X7X7X7X#X&X$X&XXXXXXXXX XT.T.T.Y.U.U.P.P.K.K.G.G.F.F.F.x.x.x.x.x.F.F.z.:.:.$.W H H H J YXYXYXYXYX",
+static const char *lingotlogo[338l] = { "80 80 257 2", "   c black", ".  c #2E4E41EA1FB9", "X  c #2F7542BE2093", "o  c #348B44B92376", "O  c #39E8475526C6", "+  c #3B8D48A42821", "@  c #3E2349B12992", "#  c #42BB4C972CB8", "_  c #47474FF73052", "%  c #48FB503430FF", "&  c #4CD853213414", "*  c #51CB55B43725", "=  c #564F5A4C3B43", "-  c #5A7D5D3C3E4E", ";  c #529657CF388C", ":  c #5C5B603040B4", ">  c #5E896199422C", ",  c #60A75D8440D7", "<  c #63CD64104550", "1  c #674F67624883", "2  c #678169444994", "3  c #6C8E6CCB4D3A", "4  c #68DA665B4854", "5  c #6F0671D250C7", "6  c #70DE6D2F4EF6", "7  c #7EF96D2055C3", "8  c #7D3767F552BA", "9  c #745F74285424", "0  c #7683792557B9", "q  c #7CB1741A57F4", "w  c #7FD8776C59C7", "e  c #7D4B7CD15BF3", "r  c #7D6D82F15F40", "t  c #79BC89195F75", "y  c #75438A075D75", "u  c #71C8929C6045", "i  c #6D1E94FB5F0A", "p  c #6DA59C5264E9", "a  c #70079ECD6897", "s  c #6FD995DC6258", "d  c #7D7F8B87653F", "f  c #7B278AA06300", "g  c #75C694C46609", "h  c #76F297BD6953", "j  c #73D69D906BB3", "k  c #7CA294916B2C", "l  c #7AEA9C466E26", "z  c #7EFA9DE57191", "x  c #67DCA2C865E8", "c  c #69B6A32F677E", "v  c #6D33A3B96AD7", "b  c #7054A9066EC7", "n  c #72F4A3E06ECE", "m  c #74D0A4A771B2", "M  c #7511AB17734D", "N  c #7AEDA601737E", "B  c #7ABCACAF7811", "V  c #7CD4AF197B14", "C  c #7EFCB2657D9F", "Z  c #84436ED0579C", "A  c #864C6FE35915", "S  c #88DA701159DC", "D  c #820F70D157E3", "F  c #85D473A35B19", "G  c #83777C2A5EF3", "H  c #89E8735A5BF1", "J  c #8C4E794E5F9F", "K  c #85587D7B6153", "L  c #8D7577E36092", "P  c #8DA17B94627A", "I  c #8F237F6B6934", "U  c #92DD7D2E6445", "Y  c #93FC7F2569D2", "T  c #812F81225F81", "R  c #838B84A0628D", "E  c #84518AE36654", "W  c #8F4983806686", "Q  c #8D5485E169D9", "!  c #8CD68D956B97", "~  c #87268DA668AF", "^  c #90588ED67342", "/  c #8D9E92D06DDC", "(  c #857791776C44", ")  c #84029CB772D7", "_  c #8DE597117233", "`  c #8EA19A3D75CF", "'  c #91A88511681E", "]  c #93CC86706B43", "[  c #949A8BF56DAD", "{  c #995F833D67AA", "}  c #9A7C850D6B28", "|  c #9D7C8A5F6CA9", " . c #96588B2B71A4", ".. c #9BC98BA5750F", "X. c #9F898E617A67", "o. c #935091BF6FC0", "O. c #93EC961172E4", "+. c #94C29BFD7561", "@. c #97AE9EA37AE0", "#. c #9A9895AD7646", "_. c #9A109B6B7728", "%. c #9B7E9E7579B6", "&. c #98E9958A7AE9", "*. c #8443A8D17B68", "=. c #8120B2D17EA4", "-. c #96F1A2117A1A", ";. c #9BF6A4EE7CEF", ":. c #9CD1A9A97FC5", ">. c #A17D8C156E36", ",. c #A42E8F787241", "<. c #A1E18FC77BA7", "1. c #A6F192E672F6", "2. c #A39793257D69", "3. c #AA4795E2753D", "4. c #AE389A5D78AC", "5. c #B30D9EE07BFF", "6. c #B6C7A3137F4A", "7. c #983F9F0B808C", "8. c #8C8DAE8E8457", "9. c #884BB0A5845A", "0. c #84D2B602836E", "q. c #8943B971878D", "w. c #8D8FBB9A8BDB", "e. c #8BD8B86388AD", "r. c #95C6A3BD82AE", "t. c #9F54ACF182B4", "y. c #9A1DA87E8829", "u. c #9168BDC38FD9", "i. c #9701BC539207", "p. c #A53F960382A8", "a. c #A6DB9A3684C9", "s. c #AC659BE684D9", "d. c #AA7397B180C1", "f. c #A5A4A40A861B", "g. c #A1EDADE18417", "h. c #A988AA688C0F", "j. c #B018ABF193A6", "k. c #A3CEB29F8728", "l. c #A5AAB6FB8A31", "z. c #A757BB5F8D2C", "x. c #A981BF438FFC", "c. c #AA06B6778D5A", "v. c #AA8BC025916C", "b. c #AFF6B2629531", "n. c #B7BAA4C9831B", "m. c #B9FFA681829E", "M. c #BA8AA84D8A3E", "N. c #B95EA8B58C7A", "B. c #BDA2AE1797A2", "V. c #B39EABAF95A1", "C. c #B8B4B69B9CC1", "Z. c #BC91AF6BA17F", "A. c #BE02B505A4AF", "S. c #BD15BCAEA5D5", "D. c #B8A4BEB9A1FC", "F. c #AC4FC5299459", "G. c #AFB7C58C9903", "H. c #AE87CB4B9844", "J. c #AEC8CBF898BB", "K. c #B413C5DE9DB1", "L. c #B26ECE2A9CF0", "P. c #B7B9C894A238", "I. c #B553CFD5A1AE", "U. c #BA0BC89DA479", "Y. c #BB3BCA51A68D", "T. c #BF93CD67AC76", "R. c #BE7BC86BAA3F", "E. c #B6DDD175A3D0", "W. c #BA16D33EA74D", "Q. c #BDD2D5B2AC06", "!. c #C1CBAECD87BC", "~. c #C315AFFE88E3", "^. c #C5D5B3178B8F", "/. c #C9C7B7C88EB1", "(. c #CB2FB8E2903D", "). c #CE7EBC989254", "_. c #C684B6F19D30", "`. c #D224BFD694C3", "'. c #CA84BE10ABD3", "]. c #C5FBB9F1A700", "[. c #D4B0C3559720", "{. c #D7A2C6AC99DF", "}. c #D907C7749A12", "|. c #DD3CCC359DE1", " X c #C1D1CE48AF76", ".X c #C9DBC334AD40", "XX c #C571CE8AB36D", "oX c #CAD0CEDBB923", "OX c #C105D785AFF8", "+X c #C3DFD694B323", "@X c #C548DA3FB579", "#X c #C808DC02B94B", "_X c #CC45D553BC6E", "%X c #CAB8DDA2BCE1", "&X c #C8DDD37DB87C", "*X c #D7D2C9AFAB07", "=X c #D951CCCEB2B0", "-X c #DE22D322BC6C", ";X c #E140D06EA108", ":X c #E5B3D535A487", ">X c #EA6BD9F5A805", ",X c #EE1ADE3FABCD", "<X c #E5C7D89CAE0C", "1X c #E294D538B2DD", "2X c #E830DB8CB90B", "3X c #F37AE3D7AF6B", "4X c #F619E709B22A", "5X c #F752E925B732", "6X c #F72CEA14BC70", "7X c #D000D805C144", "8X c #CEA1DFD7C17B", "9X c #D311D51DC431", "0X c #D29FDA28C4D8", "qX c #D738DD50CAB4", "wX c #DB3CDF0ECF59", "eX c #DB3BD3BCC7E2", "rX c #DDAADE16D202", "tX c #CFCFE188C316", "yX c #D2BAE2E4C6C8", "uX c #D69AE57BCB88", "iX c #D9EBE692CF48", "pX c #DD68E4FCD35D", "aX c #DE08EA70D50C", "sX c #E3B1DB62C8FC", "dX c #E4FEE0ABDAC4", "fX c #E215DE2AD715", "gX c #E5AAE293D5A7", "hX c #E5B0E57EDC9B", "jX c #E140EC3FD8B8", "kX c #E45DEE6ADD4C", "lX c #EC9CE5CAD492", "zX c #F861EBA7C35E", "xX c #F8ACEE49CB05", "cX c #F913EC91C5FE", "vX c #F958EF30CD2D", "bX c #F9F4F083D281", "nX c #F3AFEC22D68B", "mX c #FA66F1D9D5EB", "MX c #FB20F421DC8C", "NX c #EDD8E516CCE0", "BX c #E7CAF0BAE1C9", "VX c #EAD5E7ADE2E7", "CX c #ED07EA54E5DB", "ZX c #E80DF10EE225", "AX c #EA9DF261E5B6", "SX c #EED8F47DEADD", "DX c #F167F044EC18", "FX c #F787F2AFE303", "GX c #F246F639EE99", "HX c #FC03F658E4BE", "JX c #FCE7F857E952", "KX c #FD88F974EA48", "LX c #F4DDF7FFF1DD", "PX c #F76AF9F8F4EF", "IX c #F9B7FB74F7F9", "UX c #FDC7FE48FD59", "YX c None", "YXYXYXYXYXYXYXYXZ S H L Y ..<.p.X.X.X.X.X.X.p.X.X.....X...&...X......... ... ... . . .[  .} [ } [ ] ] ] ] ] ] ] Q ] ' ' ' Q Y Q W W W { H H S S YXYXYXYXYXYXYXYX",
+    "YXYXYXYXYXH H S H ..Z.eXdXVXVXVXVXVXhXhXVXaXrXpXrXrXrXqXqXuX0X0X7X7X7X#X&X_X&XXXXXXXXX XT.T.T.Y.U.U.P.P.K.K.G.G.F.F.F.x.x.x.x.x.F.F.z.:.:._.W H H H J YXYXYXYXYX",
     "YXYXYXYXYXS H Y ].DXUXUXUXUXUXIXPXPXLXLXGXSXSXAXAXAXkXkXkXjXaXaXiXiXiXiXuXyXtXtXtX%X%X#X#X@XQ.#XQ.Q.W.W.W.E.E.E.J.J.J.J.J.J.J.J.J.J.J.J.J.J.F.%.J H H YXYXYXYXYX",
     "YXYXYXYXS S p.rXUXUXUXUXUXIXIXIXPXLXGXGXSXSXAXBXAXkXkXkXaXjXaXiXiXiXiXyXyXtXtXtX%X%X#X@X@X+XQ.Q.Q.W.Q.E.E.E.L.J.H.H.J.J.J.J.J.J.J.J.J.J.J.J.J.H.k.' H H YXYXYXYX",
     "YXYXYXH S p.CXUXUXUXUXUXIXIXIXLXLXGXGXSXAXAXAXBXkXkXkXkXaXaXiXiXuXuXuXyXyXtX%X%X%X#X@X@X@X+XQ.Q.Q.Q.E.E.E.J.E.J.J.H.J.J.J.J.J.J.J.J.J.J.H.J.H.J.J.x.' H H YXYXYX",
     "YXYXS Z <.VXUXUXUXUXUXUXIXPXLXLXLXSXSXAXAXZXBXBXkXaXkXaXiXpXiXiXuXyXyXyXtXtX%X%X#X@X@X@XQ.Q.Q.Q.W.W.E.I.E.J.J.J.J.J.J.J.J.J.J.J.H.J.H.J.J.J.J.J.J.J.z.{ S H YXYX",
     "YXH Z Y eXUXUXUXUXUXIXIXPXLXLXLXGXSXAXAXAXZXBXkXkXkXaXaXiXiXiXiXyXyXtXtXtX%X%X#X#X@XQ.@XQ.Q.W.W.W.E.I.E.J.J.J.J.H.J.J.J.J.J.J.J.H.J.H.J.J.J.J.J.J.J.J.k.J H H YX",
-    "YXH H ].UXUXUXUXUXUXIXIXLXLXGXDXSXAXAXAXAXkXkXkXaXaXaXaXiXiXuXyXyXyXtX%X%X%X#X@X@X@X@XQ.Q.Q.W.W.E.I.J.J.J.J.J.J.H.J.J.J.J.J.J.J.J.J.J.J.J.H.H.J.J.J.J.H.$.H H YX",
+    "YXH H ].UXUXUXUXUXUXIXIXLXLXGXDXSXAXAXAXAXkXkXkXaXaXaXaXiXiXuXyXyXyXtX%X%X%X#X@X@X@X@XQ.Q.Q.W.W.E.I.J.J.J.J.J.J.H.J.J.J.J.J.J.J.J.J.J.J.J.H.H.J.J.J.J.H._.H H YX",
     "YXA ..CXUXUXUXUXIXIXIXLXLXGXSXSXSXAXAXAXkXkXaXkXaXaXiXiXuXuXuXyXyXtXtX%X%X#X#X@XQ.Q.Q.Q.Q.W.W.E.L.L.L.H.J.J.J.J.J.J.J.J.J.J.H.J.H.J.J.J.J.J.J.J.J.J.J.J.F.W S YX",
-    "A S ].UXUXUXUXIXIXIXLXLXLXSXSXSXAXBXBXkXaXkXaXaXaXiXiXiXuXuXyXyXtXtX%X%X%X#X@X@XQ.@XQ.Q.W.W.E.E.L.L.H.H.H.H.J.H.H.J.H.J.H.J.H.J.J.J.J.H.J.H.H.J.H.J.J.J.F.$.S S ",
+    "A S ].UXUXUXUXIXIXIXLXLXLXSXSXSXAXBXBXkXaXkXaXaXaXiXiXiXuXuXyXyXtXtX%X%X%X#X@X@XQ.@XQ.Q.W.W.E.E.L.L.H.H.H.H.J.H.H.J.H.J.H.J.H.J.J.J.J.H.J.H.H.J.H.J.J.J.F._.S S ",
     "A Y dXUXUXUXIXIXPXLXLXGXSXSXSXAXAXBXkXkXkXaXaXaXaXiXiXuXuXyXtX%X#XR.D.C.b.h.f.f.f.f.k.h.h.c.G.G.L.L.H.H.J.J.H.J.J.J.J.J.H.J.J.J.H.J.H.J.J.J.J.J.J.J.H.J.H.z.W S ",
-    "S p.IXUXUXUXIXIXLXLXLXSXSXAXAXAXBXBXkXkXkXaXaXpXiXiXuX7XXXD.j.X.} ' P P U U { } { ' U U L P P ' [ $.:.F.F.J.H.H.J.H.J.H.J.J.H.J.J.J.J.J.J.H.H.J.H.J.J.J.J.F.{ H ",
+    "S p.IXUXUXUXIXIXLXLXLXSXSXAXAXAXBXBXkXkXkXaXaXpXiXiXuX7XXXD.j.X.} ' P P U U { } { ' U U L P P ' [ _.:.F.F.J.H.H.J.H.J.H.J.J.H.J.J.J.J.J.J.H.H.J.H.J.J.J.J.F.{ H ",
     "S A.UXUXUXIXPXLXLXLXSXSXAXAXAXAXkXkXkXkXjXaXiXpXyXXXj.#.U L U ..s.B.'.*X*X=X2X2X2X=X1X*X{._.M.4.>.U J J ] -.k.F.H.H.J.H.J.H.J.J.J.H.J.J.H.J.J.J.J.H.J.J.J.J.3.H ",
     "S eXUXIXIXPXLXLXSXGXSXAXAXAXBXkXkXkXaXaXaXiX&Xb...P Y X.B.=XsXNXnXMXmXmXmXvXvXvXxXxXvXcXcX6X6X4X,X<X}.m.>.U J { %.c.H.J.J.J.H.J.J.J.J.H.J.J.J.J.J.J.H.J.J.J.:.T ",
     "L fXUXUXPXLXLXLXGXSXAXAXAXBXkXkXkXkXaXiXXXs.U U <._.-XnXMXMXHXMXbXMXbXbXvXbXxXvXxXcXcXcXcXcX6X6X6X6X6X5X,X|.!.1.U J o.l.H.H.J.J.J.H.H.J.J.J.H.J.H.J.J.J.J.J.:.T ",
@@ -3716,17 +3716,17 @@ static const char *lingotlogo[338l] = { "80 80 257 2", "   c black", ".  c #2E4E
     "X.fXAXAXBXBXkXqXp.Y '.FXJXJXHXHXHXHXMXMXMXMXbXbXmXbXbXbXvXvXxXxXcXcXcX6X6XzX6X5X5X5X4X4X4X4X4X4X4X4X>X{ O.=.p e J |.4X3X4X3X4X4X4X4X4X4X3X/.{ W x.J.J.J.J.J.x.{ ",
     "X.rXAXZXkXkXwX7.U '.JXJXHXHXHXHXMXMXMXMXMXmXbXbXmXbXbXxXxXxXcXcXcXcX6X6X6X6X6X5X4X4X4X4X3X4X4X4X4X4X).L -.N d f Z 3.3X3X4X4X4X4X4X4X4X4X4X3X).{ ' F.J.H.H.H.F.' ",
     "X.rXAXkXkXrXa.I '.JXJXJXHXHXHXMXMXMXMXMXMXmXbXbXbXbXvXxXxXxXcXcXcX6X6X6X6X6X6X4X4X4X4X4X4X4X4X4X4X4X6.P 8.f P ( T S [.3X4X3X4X4X4X4X4X4X4X4X3X/.J [ F.H.H.H.F.' ",
-    "..iXZXkXaXj.L ].FXJXJXHXHXHXMXMXMXMXMXbXbXbXbXbXvXvXxXxXcXzXzXzX6XcX6X6X6X5X5X4X4X4X4X4X4X4X4X4X4X>X{ ! m e Z ! u D 1.,X4X4X4X3X4X4X4X4X3X4X4X3X^.J $.H.H.H.x.{ ",
+    "..iXZXkXaXj.L ].FXJXJXHXHXHXMXMXMXMXMXbXbXbXbXbXvXvXxXxXcXzXzXzX6XcX6X6X6X5X5X4X4X4X4X4X4X4X4X4X4X>X{ ! m e Z ! u D 1.,X4X4X4X3X4X4X4X4X3X4X4X3X^.J _.H.H.H.x.{ ",
     "X.qXkXkX'.L V.HXJXJXHXHXHXHXMXMXMXMXMXbXbXbXbXvXvXvXxXcXzXzXzXzX6X6X6X5X5X5X4X3X4X4X4X4X4X4X4X4X5X}.G ` a F Z P ) t H [.4X4X4X4X4X4X3X4X4X4X4X4X4X6.H :.H.H.x.W ",
     "..qXBX9X} <.lXKXJXJXHXHXMXMXMXMXMXbXbXbXbXbXvXvXvXxXcXzXcXzXzXzX6X6X5X5X5X4X4X4X4X4X4X4X4X4X4X4X4Xn.P *.u D 1.P +.u G >.>X4X4X4X4X4X4X4X4X4X4X4X4X:X1.W z.J.F.W ",
     "..qXrXa.U eXHXHXJXHXHXFXMXMXMXMXMXbXbXbXbXbXvXxXxXcXzXzXzXzX6X6X5X6X5X5X4X4X4X4X4X4X4X4X4X3X4X4X,X| W n r J [.| ! *.u H /.4X4X4X3X4X3X4X4X4X4X3X4X4X[.{ | F.F.W ",
     "..0XA.H <.dXHXHXHXHXFXMXMXMXMXMXbXbXbXbXvXvXxXxXcXcXzXzX6X6X6X6X5X5X5X4X4X4X4X3X4X4X4X3X3X4X4X4X}.J ( v e | 3Xm.J :.a T 3.3X4X3X4X4X4X4X3X4X3X4X4X4X;X1.H ;.F.' ",
     "..7XoX7.U ..'.nXFXMXMXMXMXMXbXbXbXbXbXbXvXxXcXxXcXzXzX6X6X6X6X6X6X5X4X4X3X4X4X4X4X4X4X4X4X4X4X3X!.J l g D 6.4X).G r.b T W :X4X4X3X4X4X3X4X4X4X4X>X^.| J o.:.F.W ",
     "X.0XaXuXS.<.L <..XnXMXMXMXmXmXmXmXbXvXxXxXxXxXxX6XzX6X6X6X6X6X6X5X4X4X3X4X4X4X3X3X4X4X4X4X4X4X3X>.W n t Z {.4X|.J +.V d F {.4X4X4X4X4X4X4X4X>X/.>.J ' :.F.J.F.{ ",
-    " .$XiXuXuX%XC. .U <.*XnXmXMXvXmXvXvXxXxXcXcXcXzXzXzX6X6X6X6X4X4X4X4X4X4X4X4X4X4X4X4X4X4X4X4X3X|.U ! v e { :X4X,X'  .8.d S [.4X4X4X4X4X4X>X[.1.J { :.H.J.J.J.x.W ",
-    "..$XiXuXuXuXtX&Xb.] L d.=XxXvXvXvXvXxXxXcXxXzX6X6X6X6X5X5X5X5X4X4X3X4X3X3X4X3X4X4X3X4X4X4X4X4X!.J ) u D 6.3X3X>X{  .9.E Z {.5X4X4X4X3X[.1.J { ;.F.J.H.H.J.J.F.W ",
-    "X.$XuXuXyXtXtXtX#XXXh.U U s.=XvXvXxXcXcXcXcXzX6X6X6X5X5X5X4X4X4X4X4X4X4X4X4X4X4X4X4X3X4X4X4X3X3.T n y A (.4X4X;XH _ 9.d H }.5X4X3X}.3.U W $.F.F.H.H.J.H.J.J.z.W ",
-    " .$XuXyXyXtX%X%X#X#X@XR.2.' U n.1XcXcXzXxX6XzX6X6X6X5X5X4X4X4X4X4X4X4X3X4X3X3X3X3X3X4X4X4X4X:XP ! v r J :X4X3X~.F -.*.r { :X3X|.6.W J %.F.J.J.J.H.H.J.J.J.J.F.T ",
+    " ._XiXuXuX%XC. .U <.*XnXmXMXvXmXvXvXxXxXcXcXcXzXzXzX6X6X6X6X4X4X4X4X4X4X4X4X4X4X4X4X4X4X4X4X3X|.U ! v e { :X4X,X'  .8.d S [.4X4X4X4X4X4X>X[.1.J { :.H.J.J.J.x.W ",
+    ".._XiXuXuXuXtX&Xb.] L d.=XxXvXvXvXvXxXxXcXxXzX6X6X6X6X5X5X5X5X4X4X3X4X3X3X4X3X4X4X3X4X4X4X4X4X!.J ) u D 6.3X3X>X{  .9.E Z {.5X4X4X4X3X[.1.J { ;.F.J.H.H.J.J.F.W ",
+    "X._XuXuXyXtXtXtX#XXXh.U U s.=XvXvXxXcXcXcXcXzX6X6X6X5X5X5X4X4X4X4X4X4X4X4X4X4X4X4X4X3X4X4X4X3X3.T n y A (.4X4X;XH _ 9.d H }.5X4X3X}.3.U W _.F.F.H.H.J.H.J.J.z.W ",
+    " ._XuXyXyXtX%X%X#X#X@XR.2.' U n.1XcXcXzXxX6XzX6X6X6X5X5X4X4X4X4X4X4X4X3X4X3X3X3X3X3X4X4X4X4X:XP ! v r J :X4X3X~.F -.*.r { :X3X|.6.W J %.F.J.J.J.H.H.J.J.J.J.F.T ",
     "..&XyXtXtX%X%X%X%X#X+X@XOXK.%.P ' M.1XzXcX6X6X6X6X6X5X5X4X4X4X4X4X4X3X>X{.^.6.6.6.n.~.[.:X4X/.Z ) p F >.4X4X;XU K *.l F 1.|.6.U J +.l.H.H.J.J.H.H.H.H.J.J.J.F.{ ",
     "| &XyX8XtX%X%X#X#X#X@X+XQ.Q.T.v.#.J } B.<X6X6X5X5X5X6X4X4X4X3X4X3X}.6.{ U J J J F H L P } n.} P n u Z ~.4X|.| Z d N E Z >.{ J o.l.H.H.H.H.H.J.J.H.H.J.J.J.J.F.W ",
     " .&XtX8X%X%X#X@X@XQ.OXQ.Q.Q.Q.W.L.c.[ J | ^.<X6X5X5X4X4X4X4X4X;X6.U J [ o.R J J P J G Q [ H 8 Q j T J |.,X>.Z E l k D Z J o.k.J.J.H.H.H.H.H.H.J.H.H.J.H.J.J.F.W ",
@@ -3748,27 +3748,27 @@ static const char *lingotlogo[338l] = { "80 80 257 2", "   c black", ".  c #2E4E
     "] G.I.J.G.@.O.l.F.J.J.J.J.J.J.J.H.J.J.J.H.J.H.J.J.H.J.H.J.J.J.J.J.J.J.J.F.z.+.o.o.O.y.F.J.J.J.H.J.J.J.J.J.H.J.H.H.J.J.H.J.J.H.J.J.J.J.J.H.J.J.J.J.J.J.J.J.J.F.W ",
     "' F.L.L.-.; # 5 F.H.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.H.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.H.H.J.J.J.J.H.J.F.F.H.J.J.H.H.F.' ",
     "' F.J.J._ # . 1 x.J.J.J.J.J.J.J.J.J.J.J.H.J.H.J.H.J.H.J.J.J.J.J.J.J.J.F.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.H.H.J.H.J.J.J.J.J.J.H.J.J.F.T 3 -.H.L.H.H.z.' ",
-    "' x.J.J.+.& o e F.J.J.J.J.J.J.J.J.J.J.J.J.H.J.J.J.J.J.J.H.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.H.H.J.J.J.J.H.J.H.J.H.H.J.F.+.$ o - +.:.z.H.z.' ",
-    "Q F.J.J.+.$ + T G.F.J.J.J.J.J.J.J.J.J.J.J.J.J.H.J.H.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.F.J.J.J.J.J.J.H.J.J.H.J.J.J.H.H.z.O.r - o X o $ * 3 :.F.' ",
-    "' z.H.J._ $ + ~ F.J.J.J.J.J.F.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.F.F.F.J.J.J.J.J.J.J.J.H.H.J.J.J.H.J.J.J.J.F.0 # o X X X o + + & #.F.' ",
-    "' F.J.J._ # + o.J.J.J.J.J.J.J.J.J.J.J.J.z./ E :.F.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.F.t.T 0 T t.J.J.J.J.J.J.J.H.F.F.F.H.J.H.J.J.J.F.T > > $ . O 2 T ! +.F.z.' ",
-    "U F.J.J._ # + O.J.J.J.J.J.J.J.J.J.J.J.J.+.& O 9 z.J.J.J.H.z.-.l.J.J.F.J.J.J.J.J.J.J.J.-.> O . + 0 F.J.J.J.J.J.x./ 5 2 5 ` z.J.J.J.H.H.F.l.:.1 . $ +.J.J.J.J.x.Q ",
+    "' x.J.J.+.& o e F.J.J.J.J.J.J.J.J.J.J.J.J.H.J.J.J.J.J.J.H.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.H.H.J.J.J.J.H.J.H.J.H.H.J.F.+._ o - +.:.z.H.z.' ",
+    "Q F.J.J.+._ + T G.F.J.J.J.J.J.J.J.J.J.J.J.J.J.H.J.H.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.F.J.J.J.J.J.J.H.J.J.H.J.J.J.H.H.z.O.r - o X o _ * 3 :.F.' ",
+    "' z.H.J._ _ + ~ F.J.J.J.J.J.F.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.F.F.F.J.J.J.J.J.J.J.J.H.H.J.J.J.H.J.J.J.J.F.0 # o X X X o + + & #.F.' ",
+    "' F.J.J._ # + o.J.J.J.J.J.J.J.J.J.J.J.J.z./ E :.F.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.J.F.t.T 0 T t.J.J.J.J.J.J.J.H.F.F.F.H.J.H.J.J.J.F.T > > _ . O 2 T ! +.F.z.' ",
+    "U F.J.J._ # + O.J.J.J.J.J.J.J.J.J.J.J.J.+.& O 9 z.J.J.J.H.z.-.l.J.J.F.J.J.J.J.J.J.J.J.-.> O . + 0 F.J.J.J.J.J.x./ 5 2 5 ` z.J.J.J.H.H.F.l.:.1 . _ +.J.J.J.J.x.Q ",
     "T F.J.J./ # + +.J.J.J.J.J.J.J.J.J.J.J.J.:.6 < / H.J.J.J.z.0 ; e k./ r -.F.J.J.J.J.J.z.5 o @ O o 5 x.J.J.J.J.F.~ & + + o # 0 F.J.J.J.H.H.H.F.> . * :.J.J.H.J.x.Q ",
     "U z.L.H./ # + +.J.J.J.J.J.J.J.H.J.J.J.H.-.< < ;.L.J.J.J.:.* . - < # O ; / J.H.H.J.J.:.- o 7 = X 0 H.J.J.J.J.F.4 X - 0 & X % / F.H.H.J.J.J.:.- X = l.J.J.J.J.z.J ",
     "J l.J.J.! @ # +.J.J.J.J.J.J.J.H.J.H.J.F.9 o # T J.J.J.J.:.* . o X # # X < F.H.H.J.J.:.- O , % X 6 F.J.J.J.J.:.- o T F.! & o = +.J.H.J.J.J.;.& X < z.J.J.J.J.l.H ",
-    "H :.L.H.! + + O.H.H.J.J.J.J.J.H.J.J.J.F.1 X * ;.J.J.J.J.+.$ . . # T G o % $.H.H.J.J.H.9 o X X X - :.J.J.H.H.F.- O r H.J.T O o T F.J.J.J.J.! + o 5 F.J.H.J.J.k.H ",
-    "H $.J.H.T o + 6 T ! +.+.:.k.F.H.J.J.J.:.= X - z.J.J.J.J.! @ . O 9 F.~ o + / H.H.J.J.J.:.6 - - # @ / J.J.H.H.F.9 O > :.:.T O X T F.J.J.J.J.~ O O T F.J.H.J.J.$.H ",
-    "S ! H.l.2 X X o @ # @ # * - e z.J.J.J.;.& o 3 F.H.H.H.H.T # . = :.H./ # # T F.J.J.J.L.J.F.F.:.r O 3 :.H.J.J.H.$.; + > < # o - +.J.H.J.J.F.T O O / H.H.H.J.F.] S ",
+    "H :.L.H.! + + O.H.H.J.J.J.J.J.H.J.J.J.F.1 X * ;.J.J.J.J.+._ . . # T G o % _.H.H.J.J.H.9 o X X X - :.J.J.H.H.F.- O r H.J.T O o T F.J.J.J.J.! + o 5 F.J.H.J.J.k.H ",
+    "H _.J.H.T o + 6 T ! +.+.:.k.F.H.J.J.J.:.= X - z.J.J.J.J.! @ . O 9 F.~ o + / H.H.J.J.J.:.6 - - # @ / J.J.H.H.F.9 O > :.:.T O X T F.J.J.J.J.~ O O T F.J.H.J.J._.H ",
+    "S ! H.l.2 X X o @ # @ # * - e z.J.J.J.;.& o 3 F.H.H.H.H.T # . = :.H./ # # T F.J.J.J.L.J.F.F.:.r O 3 :.H.J.J.H._.; + > < # o - +.J.H.J.J.F.T O O / H.H.H.J.F.] S ",
     "S J l.F.T < < 3 5 5 3 1 - & 4 -.J.J.J.:.1 - _ H.H.H.H.H.-.2 < ! H.H.:.2 * T F.J.H.F.:.H.H.H.J.+.% # / H.J.J.H.H.+.< & & = 3 +.F.J.J.J.J.H.+.3 3 g.J.H.H.J.z.J S ",
     "S H 3.H.F.l.l.F.F.F.H.x.k.-.:.H.J.J.J.H.k.:.H.J.H.H.H.H.F.F.l.H.H.H.H.:.-.F.H.J.H.T < T F.H.H.F.3 o 3 F.J.H.H.H.J.z.-.;.:.F.H.H.J.J.H.J.J.H.:.H.H.H.J.J.J.+.H S ",
     "YXS T F.J.H.H.H.J.J.J.J.J.J.J.J.J.J.J.J.H.H.H.H.J.H.H.H.H.J.J.H.H.H.H.H.H.H.J.J.F.r o & T :.:.:.> o 5 F.J.H.H.H.J.J.J.J.J.J.J.J.J.J.J.J.H.J.J.J.J.J.J.J.x.' H YX",
-    "YXH S $.H.H.H.J.J.J.J.H.J.J.J.J.J.H.J.H.J.J.J.J.J.J.J.J.H.H.J.J.J.J.H.J.H.J.J.J.J.:.3 # + = = * @ - +.H.J.H.J.H.J.H.J.J.J.J.J.J.H.J.H.J.J.J.J.J.J.J.J.H.$.H H YX",
+    "YXH S _.H.H.H.J.J.J.J.H.J.J.J.J.J.H.J.H.J.J.J.J.J.J.J.J.H.H.J.J.J.J.H.J.H.J.J.J.J.:.3 # + = = * @ - +.H.J.H.J.H.J.H.J.J.J.J.J.J.H.J.H.J.J.J.J.J.J.J.J.H._.H H YX",
     "YXH H J k.J.H.H.J.H.J.J.J.J.J.J.J.J.J.J.H.J.H.H.J.H.J.H.J.J.H.J.H.J.J.J.H.J.H.J.J.L.:.~ 9 > 2 3 T :.H.H.J.J.J.J.J.J.H.J.H.J.H.J.J.J.J.J.J.H.H.J.H.J.L.:.P S H YX",
     "YXYXH S Q z.J.J.J.H.J.H.J.J.J.J.H.J.H.J.J.J.J.J.J.J.J.J.H.J.J.J.J.J.J.J.J.H.J.J.J.J.J.J.F.:.F.F.H.H.H.H.H.J.H.H.J.J.J.J.J.J.H.H.J.J.H.J.H.H.H.H.H.H.F.W S H YXYX",
     "YXYXYXH H [ x.J.J.J.J.J.J.J.J.J.J.J.J.J.J.H.H.J.H.J.H.J.J.J.J.H.H.J.J.J.J.J.J.H.J.J.J.J.J.L.H.H.H.H.H.H.J.J.H.H.H.J.H.J.H.J.H.H.H.J.H.J.H.H.H.H.H.F.{ H H YXYXYX",
     "YXYXYXYXH H Q k.H.J.J.J.J.J.J.J.H.J.J.J.H.H.H.H.J.H.H.H.J.J.J.J.J.J.J.J.H.H.H.H.J.J.J.J.H.H.H.H.H.H.H.H.H.H.H.H.J.J.H.H.H.H.H.H.J.J.J.J.J.J.H.H.:./ H H YXYXYXYX",
-    "YXYXYXYXYXH H P %.x.J.J.J.J.J.J.J.J.J.J.H.F.H.H.J.H.H.H.J.J.J.J.J.J.J.J.H.H.H.F.J.J.J.J.H.F.H.H.H.H.H.H.J.J.H.H.J.J.H.F.J.H.H.H.J.J.J.L.J.J.F.$.W H H YXYXYXYXYX",
-    "YXYXYXYXYXH H H J U #.:.z.z.x.x.F.F.F.F.F.F.z.F.F.F.F.l.F.F.F.F.F.z.F.F.F.F.F.F.F.F.F.F.F.F.z.F.F.F.z.F.F.F.F.z.F.F.F.F.F.F.F.z.F.F.z.:.:.$.W H S S S YXYXYXYXYX",
+    "YXYXYXYXYXH H P %.x.J.J.J.J.J.J.J.J.J.J.H.F.H.H.J.H.H.H.J.J.J.J.J.J.J.J.H.H.H.F.J.J.J.J.H.F.H.H.H.H.H.H.J.J.H.H.J.J.H.F.J.H.H.H.J.J.J.L.J.J.F._.W H H YXYXYXYXYX",
+    "YXYXYXYXYXH H H J U #.:.z.z.x.x.F.F.F.F.F.F.z.F.F.F.F.l.F.F.F.F.F.z.F.F.F.F.F.F.F.F.F.F.F.F.z.F.F.F.z.F.F.F.F.z.F.F.F.F.F.F.F.z.F.F.z.:.:._.W H S S S YXYXYXYXYX",
     "YXYXYXYXYXYXYXYXJ S S J J ' ' ' W ' { T W { W W W W W W W W W W W W W ' ' T W { T { W W { W W W W W W W W W W W W W W W W W W W W { W J W H S S YXYXYXYXYXYXYXYX" };
 // message
 // file lingot-msg.c line 31
@@ -3897,16 +3897,16 @@ void lingot_audio_alsa_destroy(struct _LingotAudioHandler *audio)
 struct _LingotAudioSystemProperties * lingot_audio_alsa_get_audio_system_properties(enum audio_system_t audio_system)
 {
   struct _LingotAudioSystemProperties *result;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1 * sizeof(struct _LingotAudioSystemProperties) /*32ul*/ );
-  result = (struct _LingotAudioSystemProperties *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1 * sizeof(struct _LingotAudioSystemProperties) /*32ul*/ );
+  result = (struct _LingotAudioSystemProperties *)return_value_malloc_1;
   result->forced_sample_rate = 0;
   result->n_devices = 0;
   result->devices = (char **)(void *)0;
   result->n_sample_rates = 5;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)result->n_sample_rates * sizeof(signed int) /*4ul*/ );
-  result->sample_rates = (signed int *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)result->n_sample_rates * sizeof(signed int) /*4ul*/ );
+  result->sample_rates = (signed int *)return_value_malloc_2;
   result->sample_rates[(signed long int)0] = 8000;
   result->sample_rates[(signed long int)1] = 11025;
   result->sample_rates[(signed long int)2] = 22050;
@@ -3925,9 +3925,9 @@ struct _LingotAudioHandler * lingot_audio_alsa_new(char *device, signed int samp
   signed int err;
   char error_message[1000l];
   unsigned int channels = (unsigned int)1;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _LingotAudioHandler) /*248ul*/ );
-  audio = (struct _LingotAudioHandler *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _LingotAudioHandler) /*248ul*/ );
+  audio = (struct _LingotAudioHandler *)return_value_malloc_1;
   audio->read_buffer = (signed short int *)(void *)0;
   audio->audio_system = AUDIO_SYSTEM_ALSA;
   audio->read_buffer_size = 128;
@@ -3939,9 +3939,9 @@ struct _LingotAudioHandler * lingot_audio_alsa_new(char *device, signed int samp
     err=snd_pcm_open(&audio->capture_handle, device, (enum _snd_pcm_stream)SND_PCM_STREAM_CAPTURE, 0);
     if(!(err >= 0))
     {
-      const char *return_value_snd_strerror$2;
-      return_value_snd_strerror$2=snd_strerror(err);
-      sprintf(error_message, "Cannot open audio device %s.\n%s.", device, return_value_snd_strerror$2);
+      const char *return_value_snd_strerror_2;
+      return_value_snd_strerror_2=snd_strerror(err);
+      sprintf(error_message, "Cannot open audio device %s.\n%s.", device, return_value_snd_strerror_2);
       exception = error_message;
       break;
     }
@@ -3950,9 +3950,9 @@ struct _LingotAudioHandler * lingot_audio_alsa_new(char *device, signed int samp
     err=snd_pcm_hw_params_malloc(&hw_params);
     if(!(err >= 0))
     {
-      const char *return_value_snd_strerror$3;
-      return_value_snd_strerror$3=snd_strerror(err);
-      sprintf(error_message, "Cannot allocate hardware parameter structure.\n%s.", return_value_snd_strerror$3);
+      const char *return_value_snd_strerror_3;
+      return_value_snd_strerror_3=snd_strerror(err);
+      sprintf(error_message, "Cannot allocate hardware parameter structure.\n%s.", return_value_snd_strerror_3);
       exception = error_message;
       break;
     }
@@ -3960,9 +3960,9 @@ struct _LingotAudioHandler * lingot_audio_alsa_new(char *device, signed int samp
     err=snd_pcm_hw_params_any(audio->capture_handle, hw_params);
     if(!(err >= 0))
     {
-      const char *return_value_snd_strerror$4;
-      return_value_snd_strerror$4=snd_strerror(err);
-      sprintf(error_message, "Cannot initialize hardware parameter structure.\n%s.", return_value_snd_strerror$4);
+      const char *return_value_snd_strerror_4;
+      return_value_snd_strerror_4=snd_strerror(err);
+      sprintf(error_message, "Cannot initialize hardware parameter structure.\n%s.", return_value_snd_strerror_4);
       exception = error_message;
       break;
     }
@@ -3970,9 +3970,9 @@ struct _LingotAudioHandler * lingot_audio_alsa_new(char *device, signed int samp
     err=snd_pcm_hw_params_set_access(audio->capture_handle, hw_params, (enum _snd_pcm_access)SND_PCM_ACCESS_RW_INTERLEAVED);
     if(!(err >= 0))
     {
-      const char *return_value_snd_strerror$5;
-      return_value_snd_strerror$5=snd_strerror(err);
-      sprintf(error_message, "Cannot set access type.\n%s", return_value_snd_strerror$5);
+      const char *return_value_snd_strerror_5;
+      return_value_snd_strerror_5=snd_strerror(err);
+      sprintf(error_message, "Cannot set access type.\n%s", return_value_snd_strerror_5);
       exception = error_message;
       break;
     }
@@ -3980,9 +3980,9 @@ struct _LingotAudioHandler * lingot_audio_alsa_new(char *device, signed int samp
     err=snd_pcm_hw_params_set_format(audio->capture_handle, hw_params, (enum _snd_pcm_format)SND_PCM_FORMAT_S16_LE);
     if(!(err >= 0))
     {
-      const char *return_value_snd_strerror$6;
-      return_value_snd_strerror$6=snd_strerror(err);
-      sprintf(error_message, "Cannot set sample format.\n%s.", return_value_snd_strerror$6);
+      const char *return_value_snd_strerror_6;
+      return_value_snd_strerror_6=snd_strerror(err);
+      sprintf(error_message, "Cannot set sample format.\n%s.", return_value_snd_strerror_6);
       exception = error_message;
       break;
     }
@@ -3991,9 +3991,9 @@ struct _LingotAudioHandler * lingot_audio_alsa_new(char *device, signed int samp
     err=snd_pcm_hw_params_set_rate_near(audio->capture_handle, hw_params, &rate, ((signed int *)NULL));
     if(!(err >= 0))
     {
-      const char *return_value_snd_strerror$7;
-      return_value_snd_strerror$7=snd_strerror(err);
-      sprintf(error_message, "Cannot set sample rate.\n%s.", return_value_snd_strerror$7);
+      const char *return_value_snd_strerror_7;
+      return_value_snd_strerror_7=snd_strerror(err);
+      sprintf(error_message, "Cannot set sample rate.\n%s.", return_value_snd_strerror_7);
       exception = error_message;
       break;
     }
@@ -4002,9 +4002,9 @@ struct _LingotAudioHandler * lingot_audio_alsa_new(char *device, signed int samp
     err=snd_pcm_hw_params_set_channels(audio->capture_handle, hw_params, channels);
     if(!(err >= 0))
     {
-      const char *return_value_snd_strerror$8;
-      return_value_snd_strerror$8=snd_strerror(err);
-      sprintf(error_message, "Cannot set channel count.\n%s.", return_value_snd_strerror$8);
+      const char *return_value_snd_strerror_8;
+      return_value_snd_strerror_8=snd_strerror(err);
+      sprintf(error_message, "Cannot set channel count.\n%s.", return_value_snd_strerror_8);
       exception = error_message;
       break;
     }
@@ -4012,9 +4012,9 @@ struct _LingotAudioHandler * lingot_audio_alsa_new(char *device, signed int samp
     err=snd_pcm_hw_params(audio->capture_handle, hw_params);
     if(!(err >= 0))
     {
-      const char *return_value_snd_strerror$9;
-      return_value_snd_strerror$9=snd_strerror(err);
-      sprintf(error_message, "Cannot set parameters.\n%s.", return_value_snd_strerror$9);
+      const char *return_value_snd_strerror_9;
+      return_value_snd_strerror_9=snd_strerror(err);
+      sprintf(error_message, "Cannot set parameters.\n%s.", return_value_snd_strerror_9);
       exception = error_message;
       break;
     }
@@ -4022,16 +4022,16 @@ struct _LingotAudioHandler * lingot_audio_alsa_new(char *device, signed int samp
     err=snd_pcm_prepare(audio->capture_handle);
     if(!(err >= 0))
     {
-      const char *return_value_snd_strerror$10;
-      return_value_snd_strerror$10=snd_strerror(err);
-      sprintf(error_message, "Cannot prepare audio interface for use.\n%s.", return_value_snd_strerror$10);
+      const char *return_value_snd_strerror_10;
+      return_value_snd_strerror_10=snd_strerror(err);
+      sprintf(error_message, "Cannot prepare audio interface for use.\n%s.", return_value_snd_strerror_10);
       exception = error_message;
       break;
     }
 
-    void *return_value_malloc$11;
-    return_value_malloc$11=malloc((unsigned long int)(channels * (unsigned int)audio->read_buffer_size) * sizeof(signed short int) /*2ul*/ );
-    audio->read_buffer = (signed short int *)return_value_malloc$11;
+    void *return_value_malloc_11;
+    return_value_malloc_11=malloc((unsigned long int)(channels * (unsigned int)audio->read_buffer_size) * sizeof(signed short int) /*2ul*/ );
+    audio->read_buffer = (signed short int *)return_value_malloc_11;
     memset((void *)audio->read_buffer, 0, (unsigned long int)audio->read_buffer_size * sizeof(signed short int) /*2ul*/ );
   }
   while((_Bool)0);
@@ -4057,17 +4057,17 @@ signed int lingot_audio_alsa_read(struct _LingotAudioHandler *audio)
 {
   signed int temp_sret;
   signed int i;
-  signed long int return_value_snd_pcm_readi$1;
-  return_value_snd_pcm_readi$1=snd_pcm_readi(audio->capture_handle, (void *)audio->read_buffer, (unsigned long int)audio->read_buffer_size);
-  temp_sret = (signed int)return_value_snd_pcm_readi$1;
+  signed long int return_value_snd_pcm_readi_1;
+  return_value_snd_pcm_readi_1=snd_pcm_readi(audio->capture_handle, (void *)audio->read_buffer, (unsigned long int)audio->read_buffer_size);
+  temp_sret = (signed int)return_value_snd_pcm_readi_1;
   if(!(temp_sret == audio->read_buffer_size))
   {
     char buff[100l];
-    char *return_value_gettext$2;
-    return_value_gettext$2=gettext("Read from audio interface failed.\n%s.");
-    const char *return_value_snd_strerror$3;
-    return_value_snd_strerror$3=snd_strerror(temp_sret);
-    sprintf(buff, (const char *)return_value_gettext$2, return_value_snd_strerror$3);
+    char *return_value_gettext_2;
+    return_value_gettext_2=gettext("Read from audio interface failed.\n%s.");
+    const char *return_value_snd_strerror_3;
+    return_value_snd_strerror_3=snd_strerror(temp_sret);
+    sprintf(buff, (const char *)return_value_gettext_2, return_value_snd_strerror_3);
     lingot_msg_add_error(buff);
     return -1;
   }
@@ -4173,13 +4173,13 @@ void lingot_audio_jack_destroy(struct _LingotAudioHandler *audio)
 struct _LingotAudioSystemProperties * lingot_audio_jack_get_audio_system_properties(enum audio_system_t audio_system)
 {
   struct _LingotAudioSystemProperties *properties = (struct _LingotAudioSystemProperties *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1 * sizeof(struct _LingotAudioSystemProperties) /*32ul*/ );
-  properties = (struct _LingotAudioSystemProperties *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1 * sizeof(struct _LingotAudioSystemProperties) /*32ul*/ );
+  properties = (struct _LingotAudioSystemProperties *)return_value_malloc_1;
   signed int sample_rate = -1;
   const char *client_name = "lingot-get-sample-rate";
   const char *server_name = (const char *)(void *)0;
-  enum JackOptions lingot_audio_jack_get_audio_system_properties$$1$$options = (enum JackOptions)JackNoStartServer;
+  enum JackOptions lingot_audio_jack_get_audio_system_properties__1__options = (enum JackOptions)JackNoStartServer;
   enum JackStatus status;
   struct _jack_client *jack_client = (struct _jack_client *)(void *)0;
   const char **ports = (const char **)(void *)0;
@@ -4189,20 +4189,20 @@ struct _LingotAudioSystemProperties * lingot_audio_jack_get_audio_system_propert
   do
     if(!(client == ((struct _jack_client *)NULL)))
     {
-      unsigned int return_value_jack_get_sample_rate$2;
-      return_value_jack_get_sample_rate$2=jack_get_sample_rate(client);
-      sample_rate = (signed int)return_value_jack_get_sample_rate$2;
+      unsigned int return_value_jack_get_sample_rate_2;
+      return_value_jack_get_sample_rate_2=jack_get_sample_rate(client);
+      sample_rate = (signed int)return_value_jack_get_sample_rate_2;
       ports=jack_get_ports(client, (const char *)(void *)0, (const char *)(void *)0, flags);
     }
 
     else
     {
-      jack_client=jack_client_open(client_name, lingot_audio_jack_get_audio_system_properties$$1$$options, &status, server_name);
+      jack_client=jack_client_open(client_name, lingot_audio_jack_get_audio_system_properties__1__options, &status, server_name);
       if(jack_client == ((struct _jack_client *)NULL))
       {
-        char *return_value_gettext$3;
-        return_value_gettext$3=gettext("Unable to connect to JACK server");
-        exception = (const char *)return_value_gettext$3;
+        char *return_value_gettext_3;
+        return_value_gettext_3=gettext("Unable to connect to JACK server");
+        exception = (const char *)return_value_gettext_3;
         goto __CPROVER_DUMP_L7;
       }
 
@@ -4215,9 +4215,9 @@ struct _LingotAudioSystemProperties * lingot_audio_jack_get_audio_system_propert
         fprintf(stderr, "unique name `%s' assigned\n", client_name);
       }
 
-      unsigned int return_value_jack_get_sample_rate$4;
-      return_value_jack_get_sample_rate$4=jack_get_sample_rate(jack_client);
-      sample_rate = (signed int)return_value_jack_get_sample_rate$4;
+      unsigned int return_value_jack_get_sample_rate_4;
+      return_value_jack_get_sample_rate_4=jack_get_sample_rate(jack_client);
+      sample_rate = (signed int)return_value_jack_get_sample_rate_4;
       ports=jack_get_ports(jack_client, (const char *)(void *)0, (const char *)(void *)0, flags);
     }
   while((_Bool)0);
@@ -4238,9 +4238,9 @@ __CPROVER_DUMP_L7:
     properties->n_devices = i;
     if(!(properties->n_devices == 0))
     {
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc((unsigned long int)properties->n_devices * sizeof(char *) /*8ul*/ );
-      properties->devices = (char **)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc((unsigned long int)properties->n_devices * sizeof(char *) /*8ul*/ );
+      properties->devices = (char **)return_value_malloc_5;
       i = 0;
       for( ; !(ports[(signed long int)i] == ((const char *)NULL)); i = i + 1)
         properties->devices[(signed long int)i]=strdup(ports[(signed long int)i]);
@@ -4257,9 +4257,9 @@ __CPROVER_DUMP_L7:
   else
   {
     properties->n_sample_rates = 1;
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc((unsigned long int)properties->n_sample_rates * sizeof(signed int) /*4ul*/ );
-    properties->sample_rates = (signed int *)return_value_malloc$6;
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc((unsigned long int)properties->n_sample_rates * sizeof(signed int) /*4ul*/ );
+    properties->sample_rates = (signed int *)return_value_malloc_6;
     properties->sample_rates[(signed long int)0] = sample_rate;
   }
   if(!(ports == ((const char **)NULL)))
@@ -4280,22 +4280,22 @@ struct _LingotAudioHandler * lingot_audio_jack_new(char *device, signed int samp
   const char **ports = (const char **)(void *)0;
   const char *client_name = "lingot";
   const char *server_name = (const char *)(void *)0;
-  enum JackOptions lingot_audio_jack_new$$1$$options = (enum JackOptions)JackNoStartServer;
+  enum JackOptions lingot_audio_jack_new__1__options = (enum JackOptions)JackNoStartServer;
   enum JackStatus status;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _LingotAudioHandler) /*248ul*/ );
-  audio = (struct _LingotAudioHandler *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _LingotAudioHandler) /*248ul*/ );
+  audio = (struct _LingotAudioHandler *)return_value_malloc_1;
   strcpy(audio->device, "");
   audio->audio_system = AUDIO_SYSTEM_JACK;
-  audio->jack_client=jack_client_open(client_name, lingot_audio_jack_new$$1$$options, &status, server_name);
+  audio->jack_client=jack_client_open(client_name, lingot_audio_jack_new__1__options, &status, server_name);
   exception = ((const char *)NULL);
   do
   {
     if(audio->jack_client == ((struct _jack_client *)NULL))
     {
-      char *return_value_gettext$2;
-      return_value_gettext$2=gettext("Unable to connect to JACK server");
-      exception = (const char *)return_value_gettext$2;
+      char *return_value_gettext_2;
+      return_value_gettext_2=gettext("Unable to connect to JACK server");
+      exception = (const char *)return_value_gettext_2;
       goto __CPROVER_DUMP_L6;
     }
 
@@ -4310,15 +4310,15 @@ struct _LingotAudioHandler * lingot_audio_jack_new(char *device, signed int samp
 
     jack_on_shutdown(audio->jack_client, lingot_audio_jack_shutdown, (void *)audio);
     audio->real_sample_rate=jack_get_sample_rate(audio->jack_client);
-    unsigned int return_value_jack_get_buffer_size$3;
-    return_value_jack_get_buffer_size$3=jack_get_buffer_size(audio->jack_client);
-    audio->read_buffer_size = (signed int)return_value_jack_get_buffer_size$3;
+    unsigned int return_value_jack_get_buffer_size_3;
+    return_value_jack_get_buffer_size_3=jack_get_buffer_size(audio->jack_client);
+    audio->read_buffer_size = (signed int)return_value_jack_get_buffer_size_3;
     audio->jack_input_port=jack_port_register(audio->jack_client, "input", "32 bit float mono audio", (unsigned long int)1, (unsigned long int)0);
     if(audio->jack_input_port == ((struct _jack_port *)NULL))
     {
-      char *return_value_gettext$4;
-      return_value_gettext$4=gettext("No more JACK ports available");
-      exception = (const char *)return_value_gettext$4;
+      char *return_value_gettext_4;
+      return_value_gettext_4=gettext("No more JACK ports available");
+      exception = (const char *)return_value_gettext_4;
       break;
     }
 
@@ -4366,9 +4366,9 @@ signed int lingot_audio_jack_read(struct _LingotAudioHandler *audio)
 {
   signed int i;
   float *in;
-  void *return_value_jack_port_get_buffer$1;
-  return_value_jack_port_get_buffer$1=jack_port_get_buffer(audio->jack_input_port, (unsigned int)audio->nframes);
-  in = (float *)return_value_jack_port_get_buffer$1;
+  void *return_value_jack_port_get_buffer_1;
+  return_value_jack_port_get_buffer_1=jack_port_get_buffer(audio->jack_input_port, (unsigned int)audio->nframes);
+  in = (float *)return_value_jack_port_get_buffer_1;
   i = 0;
   for( ; !(i >= audio->nframes); i = i + 1)
     audio->flt_read_buffer[(signed long int)i] = (double)(in[(signed long int)i] * (float)32768);
@@ -4380,9 +4380,9 @@ signed int lingot_audio_jack_read(struct _LingotAudioHandler *audio)
 void lingot_audio_jack_shutdown(void *param)
 {
   struct _LingotAudioHandler *audio = (struct _LingotAudioHandler *)param;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Missing connection with JACK audio server");
-  lingot_msg_add_error((const char *)return_value_gettext$1);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Missing connection with JACK audio server");
+  lingot_msg_add_error((const char *)return_value_gettext_1);
   pthread_mutex_lock(&stop_mutex);
   audio->interrupted = 1;
   pthread_mutex_unlock(&stop_mutex);
@@ -4400,22 +4400,22 @@ signed int lingot_audio_jack_start(struct _LingotAudioHandler *audio)
   exception = ((const char *)NULL);
   do
   {
-    signed int return_value_jack_activate$2;
-    return_value_jack_activate$2=jack_activate(audio->jack_client);
-    if(!(return_value_jack_activate$2 == 0))
+    signed int return_value_jack_activate_2;
+    return_value_jack_activate_2=jack_activate(audio->jack_client);
+    if(!(return_value_jack_activate_2 == 0))
     {
-      char *return_value_gettext$1;
-      return_value_gettext$1=gettext("Cannot activate client");
-      exception = (const char *)return_value_gettext$1;
+      char *return_value_gettext_1;
+      return_value_gettext_1=gettext("Cannot activate client");
+      exception = (const char *)return_value_gettext_1;
       break;
     }
 
     ports=jack_get_ports(audio->jack_client, (const char *)(void *)0, (const char *)(void *)0, (unsigned long int)2);
     if(ports == ((const char **)NULL))
     {
-      char *return_value_gettext$3;
-      return_value_gettext$3=gettext("No active capture ports");
-      exception = (const char *)return_value_gettext$3;
+      char *return_value_gettext_3;
+      return_value_gettext_3=gettext("No active capture ports");
+      exception = (const char *)return_value_gettext_3;
       break;
     }
 
@@ -4427,19 +4427,19 @@ signed int lingot_audio_jack_start(struct _LingotAudioHandler *audio)
       index = 0;
       for( ; !(ports[(signed long int)index] == ((const char *)NULL)); index = index + 1)
       {
-        signed int return_value_strcmp$7;
-        return_value_strcmp$7=strcmp(last_ports[(signed long int)j], ports[(signed long int)index]);
-        if(return_value_strcmp$7 == 0)
+        signed int return_value_strcmp_7;
+        return_value_strcmp_7=strcmp(last_ports[(signed long int)j], ports[(signed long int)index]);
+        if(return_value_strcmp_7 == 0)
         {
-          const char *return_value_jack_port_name$5;
-          return_value_jack_port_name$5=jack_port_name(audio->jack_input_port);
-          signed int return_value_jack_connect$6;
-          return_value_jack_connect$6=jack_connect(audio->jack_client, ports[(signed long int)index], return_value_jack_port_name$5);
-          if(!(return_value_jack_connect$6 == 0))
+          const char *return_value_jack_port_name_5;
+          return_value_jack_port_name_5=jack_port_name(audio->jack_input_port);
+          signed int return_value_jack_connect_6;
+          return_value_jack_connect_6=jack_connect(audio->jack_client, ports[(signed long int)index], return_value_jack_port_name_5);
+          if(!(return_value_jack_connect_6 == 0))
           {
-            char *return_value_gettext$4;
-            return_value_gettext$4=gettext("Cannot connect input ports");
-            exception = (const char *)return_value_gettext$4;
+            char *return_value_gettext_4;
+            return_value_gettext_4=gettext("Cannot connect input ports");
+            exception = (const char *)return_value_gettext_4;
             break;
           }
 
@@ -4455,21 +4455,21 @@ signed int lingot_audio_jack_start(struct _LingotAudioHandler *audio)
       ports=jack_get_ports(audio->jack_client, (const char *)(void *)0, (const char *)(void *)0, (unsigned long int)(4 | 2));
       if(ports == ((const char **)NULL))
       {
-        char *return_value_gettext$8;
-        return_value_gettext$8=gettext("No physical capture ports");
-        exception = (const char *)return_value_gettext$8;
+        char *return_value_gettext_8;
+        return_value_gettext_8=gettext("No physical capture ports");
+        exception = (const char *)return_value_gettext_8;
         break;
       }
 
-      const char *return_value_jack_port_name$10;
-      return_value_jack_port_name$10=jack_port_name(audio->jack_input_port);
-      signed int return_value_jack_connect$11;
-      return_value_jack_connect$11=jack_connect(audio->jack_client, ports[(signed long int)0], return_value_jack_port_name$10);
-      if(!(return_value_jack_connect$11 == 0))
+      const char *return_value_jack_port_name_10;
+      return_value_jack_port_name_10=jack_port_name(audio->jack_input_port);
+      signed int return_value_jack_connect_11;
+      return_value_jack_connect_11=jack_connect(audio->jack_client, ports[(signed long int)0], return_value_jack_port_name_10);
+      if(!(return_value_jack_connect_11 == 0))
       {
-        char *return_value_gettext$9;
-        return_value_gettext$9=gettext("Cannot connect input ports");
-        exception = (const char *)return_value_gettext$9;
+        char *return_value_gettext_9;
+        return_value_gettext_9=gettext("Cannot connect input ports");
+        exception = (const char *)return_value_gettext_9;
         break;
       }
 
@@ -4493,7 +4493,7 @@ void lingot_audio_jack_stop(struct _LingotAudioHandler *audio)
 {
   const char **ports;
   ports=jack_get_ports(audio->jack_client, (const char *)(void *)0, (const char *)(void *)0, (unsigned long int)2);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(ports == ((const char **)NULL)))
   {
     signed int i;
@@ -4504,15 +4504,15 @@ void lingot_audio_jack_stop(struct _LingotAudioHandler *audio)
     i = 0;
     for( ; !(ports[(signed long int)i] == ((const char *)NULL)); i = i + 1)
     {
-      struct _jack_port *return_value_jack_port_by_name$2;
-      return_value_jack_port_by_name$2=jack_port_by_name(audio->jack_client, ports[(signed long int)i]);
-      signed int return_value_jack_port_connected$3;
-      return_value_jack_port_connected$3=jack_port_connected(return_value_jack_port_by_name$2);
-      if(!(return_value_jack_port_connected$3 == 0))
+      struct _jack_port *return_value_jack_port_by_name_2;
+      return_value_jack_port_by_name_2=jack_port_by_name(audio->jack_client, ports[(signed long int)i]);
+      signed int return_value_jack_port_connected_3;
+      return_value_jack_port_connected_3=jack_port_connected(return_value_jack_port_by_name_2);
+      if(!(return_value_jack_port_connected_3 == 0))
       {
-        tmp_post$1 = j;
+        tmp_post_1 = j;
         j = j + 1;
-        strcpy(last_ports[(signed long int)tmp_post$1], ports[(signed long int)i]);
+        strcpy(last_ports[(signed long int)tmp_post_1], ports[(signed long int)i]);
       }
 
     }
@@ -4545,9 +4545,9 @@ struct _LingotAudioHandler * lingot_audio_new(enum audio_system_t audio_system, 
   }
   if(!(result == ((struct _LingotAudioHandler *)NULL)))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)result->read_buffer_size * sizeof(double) /*8ul*/ );
-    result->flt_read_buffer = (double *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)result->read_buffer_size * sizeof(double) /*8ul*/ );
+    result->flt_read_buffer = (double *)return_value_malloc_1;
     memset((void *)result->flt_read_buffer, 0, (unsigned long int)result->read_buffer_size * sizeof(double) /*8ul*/ );
     result->process_callback = process_callback;
     result->process_callback_arg = process_callback_arg;
@@ -4575,16 +4575,16 @@ void lingot_audio_oss_destroy(struct _LingotAudioHandler *audio)
 struct _LingotAudioSystemProperties * lingot_audio_oss_get_audio_system_properties(enum audio_system_t audio_system)
 {
   struct _LingotAudioSystemProperties *result;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1 * sizeof(struct _LingotAudioSystemProperties) /*32ul*/ );
-  result = (struct _LingotAudioSystemProperties *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1 * sizeof(struct _LingotAudioSystemProperties) /*32ul*/ );
+  result = (struct _LingotAudioSystemProperties *)return_value_malloc_1;
   result->forced_sample_rate = 0;
   result->n_devices = 0;
   result->devices = (char **)(void *)0;
   result->n_sample_rates = 5;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)result->n_sample_rates * sizeof(signed int) /*4ul*/ );
-  result->sample_rates = (signed int *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)result->n_sample_rates * sizeof(signed int) /*4ul*/ );
+  result->sample_rates = (signed int *)return_value_malloc_2;
   result->sample_rates[(signed long int)0] = 8000;
   result->sample_rates[(signed long int)1] = 11025;
   result->sample_rates[(signed long int)2] = 22050;
@@ -4602,9 +4602,9 @@ struct _LingotAudioHandler * lingot_audio_oss_new(char *device, signed int sampl
   char error_message[100l];
   const char *exception;
   struct _LingotAudioHandler *audio;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _LingotAudioHandler) /*248ul*/ );
-  audio = (struct _LingotAudioHandler *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _LingotAudioHandler) /*248ul*/ );
+  audio = (struct _LingotAudioHandler *)return_value_malloc_1;
   audio->audio_system = AUDIO_SYSTEM_OSS;
   audio->dsp=open(device, 00);
   audio->read_buffer_size = 128;
@@ -4614,43 +4614,43 @@ struct _LingotAudioHandler * lingot_audio_oss_new(char *device, signed int sampl
   {
     if(!(audio->dsp >= 0))
     {
-      char *return_value_gettext$2;
-      return_value_gettext$2=gettext("Unable to open audio device %s.\n%s.");
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      sprintf(error_message, (const char *)return_value_gettext$2, device, return_value_strerror$4);
+      char *return_value_gettext_2;
+      return_value_gettext_2=gettext("Unable to open audio device %s.\n%s.");
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      sprintf(error_message, (const char *)return_value_gettext_2, device, return_value_strerror_4);
       exception = error_message;
       goto __CPROVER_DUMP_L9;
     }
 
-    signed int return_value_ioctl$8;
-    return_value_ioctl$8=ioctl(audio->dsp, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(6 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &channels);
-    if(!(return_value_ioctl$8 >= 0))
+    signed int return_value_ioctl_8;
+    return_value_ioctl_8=ioctl(audio->dsp, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(6 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &channels);
+    if(!(return_value_ioctl_8 >= 0))
     {
-      char *return_value_gettext$5;
-      return_value_gettext$5=gettext("Error setting number of channels.\n%s.");
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      sprintf(error_message, (const char *)return_value_gettext$5, return_value_strerror$7);
+      char *return_value_gettext_5;
+      return_value_gettext_5=gettext("Error setting number of channels.\n%s.");
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      sprintf(error_message, (const char *)return_value_gettext_5, return_value_strerror_7);
       exception = error_message;
       break;
     }
 
-    signed int return_value_ioctl$12;
-    return_value_ioctl$12=ioctl(audio->dsp, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(5 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &format);
-    if(!(return_value_ioctl$12 >= 0))
+    signed int return_value_ioctl_12;
+    return_value_ioctl_12=ioctl(audio->dsp, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(5 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &format);
+    if(!(return_value_ioctl_12 >= 0))
     {
-      char *return_value_gettext$9;
-      return_value_gettext$9=gettext("Error setting bits per sample.\n%s.");
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      char *return_value_strerror$11;
-      return_value_strerror$11=strerror(*return_value___errno_location$10);
-      sprintf(error_message, (const char *)return_value_gettext$9, return_value_strerror$11);
+      char *return_value_gettext_9;
+      return_value_gettext_9=gettext("Error setting bits per sample.\n%s.");
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      char *return_value_strerror_11;
+      return_value_strerror_11=strerror(*return_value___errno_location_10);
+      sprintf(error_message, (const char *)return_value_gettext_9, return_value_strerror_11);
       exception = error_message;
       break;
     }
@@ -4662,40 +4662,40 @@ struct _LingotAudioHandler * lingot_audio_oss_new(char *device, signed int sampl
     for( ; !(fragment_size >= DMA_buffer_size); param = param + 1)
       fragment_size = fragment_size << 1;
     param = param | 0x00ff0000;
-    signed int return_value_ioctl$16;
-    return_value_ioctl$16=ioctl(audio->dsp, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(10 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &param);
-    if(!(return_value_ioctl$16 >= 0))
+    signed int return_value_ioctl_16;
+    return_value_ioctl_16=ioctl(audio->dsp, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(10 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &param);
+    if(!(return_value_ioctl_16 >= 0))
     {
-      char *return_value_gettext$13;
-      return_value_gettext$13=gettext("Error setting DMA buffer size.\n%s.");
-      signed int *return_value___errno_location$14;
-      return_value___errno_location$14=__errno_location();
-      char *return_value_strerror$15;
-      return_value_strerror$15=strerror(*return_value___errno_location$14);
-      sprintf(error_message, (const char *)return_value_gettext$13, return_value_strerror$15);
+      char *return_value_gettext_13;
+      return_value_gettext_13=gettext("Error setting DMA buffer size.\n%s.");
+      signed int *return_value___errno_location_14;
+      return_value___errno_location_14=__errno_location();
+      char *return_value_strerror_15;
+      return_value_strerror_15=strerror(*return_value___errno_location_14);
+      sprintf(error_message, (const char *)return_value_gettext_13, return_value_strerror_15);
       exception = error_message;
       break;
     }
 
-    signed int return_value_ioctl$20;
-    return_value_ioctl$20=ioctl(audio->dsp, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(2 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &sample_rate);
-    if(!(return_value_ioctl$20 >= 0))
+    signed int return_value_ioctl_20;
+    return_value_ioctl_20=ioctl(audio->dsp, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(2 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &sample_rate);
+    if(!(return_value_ioctl_20 >= 0))
     {
-      char *return_value_gettext$17;
-      return_value_gettext$17=gettext("Error setting sample rate.\n%s.");
-      signed int *return_value___errno_location$18;
-      return_value___errno_location$18=__errno_location();
-      char *return_value_strerror$19;
-      return_value_strerror$19=strerror(*return_value___errno_location$18);
-      sprintf(error_message, (const char *)return_value_gettext$17, return_value_strerror$19);
+      char *return_value_gettext_17;
+      return_value_gettext_17=gettext("Error setting sample rate.\n%s.");
+      signed int *return_value___errno_location_18;
+      return_value___errno_location_18=__errno_location();
+      char *return_value_strerror_19;
+      return_value_strerror_19=strerror(*return_value___errno_location_18);
+      sprintf(error_message, (const char *)return_value_gettext_17, return_value_strerror_19);
       exception = error_message;
       break;
     }
 
     audio->real_sample_rate = (unsigned int)sample_rate;
-    void *return_value_malloc$21;
-    return_value_malloc$21=malloc((unsigned long int)audio->read_buffer_size * sizeof(signed short int) /*2ul*/ );
-    audio->read_buffer = (signed short int *)return_value_malloc$21;
+    void *return_value_malloc_21;
+    return_value_malloc_21=malloc((unsigned long int)audio->read_buffer_size * sizeof(signed short int) /*2ul*/ );
+    audio->read_buffer = (signed short int *)return_value_malloc_21;
     memset((void *)audio->read_buffer, 0, (unsigned long int)audio->read_buffer_size * sizeof(signed short int) /*2ul*/ );
   }
   while((_Bool)0);
@@ -4719,19 +4719,19 @@ signed int lingot_audio_oss_read(struct _LingotAudioHandler *audio)
 {
   signed int i;
   signed int read_size;
-  signed long int return_value_read$1;
-  return_value_read$1=read(audio->dsp, (void *)audio->read_buffer, (unsigned long int)audio->read_buffer_size * sizeof(signed short int) /*2ul*/ );
-  read_size = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(audio->dsp, (void *)audio->read_buffer, (unsigned long int)audio->read_buffer_size * sizeof(signed short int) /*2ul*/ );
+  read_size = (signed int)return_value_read_1;
   if(!((unsigned long int)read_size == sizeof(signed short int) /*2ul*/  * (unsigned long int)audio->read_buffer_size))
   {
     char buff[100l];
-    char *return_value_gettext$2;
-    return_value_gettext$2=gettext("Read from audio interface failed.\n%s.");
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    sprintf(buff, (const char *)return_value_gettext$2, return_value_strerror$4);
+    char *return_value_gettext_2;
+    return_value_gettext_2=gettext("Read from audio interface failed.\n%s.");
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    sprintf(buff, (const char *)return_value_gettext_2, return_value_strerror_4);
     lingot_msg_add_error(buff);
     return -1;
   }
@@ -4924,8 +4924,8 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
   lingot_map_parameters(config, params);
   char char_buffer[100l];
   fp=fopen(filename, "r");
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$14;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_14;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     sprintf(char_buffer, "error opening config file %s, assuming default values ", filename);
@@ -4938,9 +4938,9 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
     do
     {
       line = line + 1;
-      char *return_value_fgets$1;
-      return_value_fgets$1=fgets(char_buffer, 100, fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      char *return_value_fgets_1;
+      return_value_fgets_1=fgets(char_buffer, 100, fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       if(!((signed int)char_buffer[0l] == 35))
@@ -4949,9 +4949,9 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
         char_buffer_pointer=strtok(char_buffer, delim);
         if(!(char_buffer_pointer == ((char *)NULL)))
         {
-          signed int return_value_strcmp$2;
-          return_value_strcmp$2=strcmp(char_buffer_pointer, "SCALE");
-          if(return_value_strcmp$2 == 0)
+          signed int return_value_strcmp_2;
+          return_value_strcmp_2=strcmp(char_buffer_pointer, "SCALE");
+          if(return_value_strcmp_2 == 0)
           {
             reading_scale = 1;
             config->scale=lingot_config_scale_new();
@@ -4962,9 +4962,9 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
           {
             if(!(reading_scale == 0))
             {
-              signed int return_value_strcmp$3;
-              return_value_strcmp$3=strcmp(char_buffer_pointer, "NAME");
-              if(return_value_strcmp$3 == 0)
+              signed int return_value_strcmp_3;
+              return_value_strcmp_3=strcmp(char_buffer_pointer, "NAME");
+              if(return_value_strcmp_3 == 0)
               {
                 char_buffer_pointer = char_buffer_pointer + (signed long int)4;
                 for( ; (_Bool)1; char_buffer_pointer = char_buffer_pointer + 1l)
@@ -4986,18 +4986,18 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
                 continue;
               }
 
-              signed int return_value_strcmp$4;
-              return_value_strcmp$4=strcmp(char_buffer_pointer, "BASE_FREQUENCY");
-              if(return_value_strcmp$4 == 0)
+              signed int return_value_strcmp_4;
+              return_value_strcmp_4=strcmp(char_buffer_pointer, "BASE_FREQUENCY");
+              if(return_value_strcmp_4 == 0)
               {
                 char_buffer_pointer=strtok((char *)(void *)0, delim);
                 sscanf(char_buffer_pointer, "%lg", &config->scale->base_frequency);
                 continue;
               }
 
-              signed int return_value_strcmp$5;
-              return_value_strcmp$5=strcmp(char_buffer_pointer, "NOTE_COUNT");
-              if(return_value_strcmp$5 == 0)
+              signed int return_value_strcmp_5;
+              return_value_strcmp_5=strcmp(char_buffer_pointer, "NOTE_COUNT");
+              if(return_value_strcmp_5 == 0)
               {
                 char_buffer_pointer=strtok((char *)(void *)0, delim);
                 sscanf(char_buffer_pointer, "%hu", &config->scale->notes);
@@ -5005,42 +5005,42 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
                 continue;
               }
 
-              signed int return_value_strcmp$9;
-              return_value_strcmp$9=strcmp(char_buffer_pointer, "NOTES");
-              if(return_value_strcmp$9 == 0)
+              signed int return_value_strcmp_9;
+              return_value_strcmp_9=strcmp(char_buffer_pointer, "NOTES");
+              if(return_value_strcmp_9 == 0)
               {
                 signed int i = 0;
                 i = 0;
                 for( ; !(i >= (signed int)config->scale->notes); i = i + 1)
                 {
                   line = line + 1;
-                  char *return_value_fgets$6;
-                  return_value_fgets$6=fgets(char_buffer, 100, fp);
-                  if(return_value_fgets$6 == ((char *)NULL))
+                  char *return_value_fgets_6;
+                  return_value_fgets_6=fgets(char_buffer, 100, fp);
+                  if(return_value_fgets_6 == ((char *)NULL))
                     break;
 
                   static const char *delim2 = " \t\n";
                   char_buffer_pointer=strtok(char_buffer, delim2);
                   config->scale->note_name[(signed long int)i]=strdup(char_buffer_pointer);
                   char_buffer_pointer=strtok((char *)(void *)0, delim2);
-                  signed int return_value_lingot_config_scale_parse_shift$7;
-                  return_value_lingot_config_scale_parse_shift$7=lingot_config_scale_parse_shift(char_buffer_pointer, &config->scale->offset_cents[(signed long int)i], &config->scale->offset_ratios[(signed long int)0][(signed long int)i], &config->scale->offset_ratios[(signed long int)1][(signed long int)i]);
-                  if(return_value_lingot_config_scale_parse_shift$7 == 0)
+                  signed int return_value_lingot_config_scale_parse_shift_7;
+                  return_value_lingot_config_scale_parse_shift_7=lingot_config_scale_parse_shift(char_buffer_pointer, &config->scale->offset_cents[(signed long int)i], &config->scale->offset_ratios[(signed long int)0][(signed long int)i], &config->scale->offset_ratios[(signed long int)1][(signed long int)i]);
+                  if(return_value_lingot_config_scale_parse_shift_7 == 0)
                     parse_errors = 1;
 
                 }
                 line = line + 1;
-                char *return_value_fgets$8;
-                return_value_fgets$8=fgets(char_buffer, 100, fp);
-                if(return_value_fgets$8 == ((char *)NULL))
+                char *return_value_fgets_8;
+                return_value_fgets_8=fgets(char_buffer, 100, fp);
+                if(return_value_fgets_8 == ((char *)NULL))
                   break;
 
                 continue;
               }
 
-              signed int return_value_strcmp$10;
-              return_value_strcmp$10=strcmp(char_buffer_pointer, "}");
-              if(return_value_strcmp$10 == 0)
+              signed int return_value_strcmp_10;
+              return_value_strcmp_10=strcmp(char_buffer_pointer, "}");
+              if(return_value_strcmp_10 == 0)
               {
                 reading_scale = 0;
                 continue;
@@ -5052,15 +5052,15 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
             option_index = 0;
             for( ; !(options[(signed long int)option_index] == ((char *)NULL)); option_index = option_index + 1)
             {
-              signed int return_value_strcmp$12;
-              return_value_strcmp$12=strcmp(char_buffer_pointer, options[(signed long int)option_index]);
-              if(return_value_strcmp$12 == 0)
+              signed int return_value_strcmp_12;
+              return_value_strcmp_12=strcmp(char_buffer_pointer, options[(signed long int)option_index]);
+              if(return_value_strcmp_12 == 0)
                 break;
 
               else
               {
-                return_value_strcmp$11=strcmp("|", options[(signed long int)option_index]);
-                if(return_value_strcmp$11 == 0)
+                return_value_strcmp_11=strcmp("|", options[(signed long int)option_index]);
+                if(return_value_strcmp_11 == 0)
                   deprecated_option = 1;
 
               }
@@ -5109,8 +5109,8 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
                   }
                   case 109:
                   {
-                    return_value_strcmp$14=strcmp("AUDIO_SYSTEM", option);
-                    if(return_value_strcmp$14 == 0)
+                    return_value_strcmp_14=strcmp("AUDIO_SYSTEM", option);
+                    if(return_value_strcmp_14 == 0)
                     {
                       command_count = command_count + 1;
                       *((enum audio_system_t *)param)=str_to_audio_system_t(char_buffer_pointer);
@@ -5118,9 +5118,9 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
                       {
                         *((enum audio_system_t *)param) = (enum audio_system_t)AUDIO_SYSTEM_ALSA;
                         char buff[1000l];
-                        char *return_value_gettext$13;
-                        return_value_gettext$13=gettext("Error parsing the configuration file, line %i: unrecognized audio system '%s', assuming default audio system.\n");
-                        sprintf(buff, (const char *)return_value_gettext$13, line, char_buffer_pointer);
+                        char *return_value_gettext_13;
+                        return_value_gettext_13=gettext("Error parsing the configuration file, line %i: unrecognized audio system '%s', assuming default audio system.\n");
+                        sprintf(buff, (const char *)return_value_gettext_13, line, char_buffer_pointer);
                         lingot_msg_add_warning(buff);
                         parse_errors = 1;
                       }
@@ -5140,9 +5140,9 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
     fclose(fp);
     if(!(parse_errors == 0))
     {
-      char *return_value_gettext$15;
-      return_value_gettext$15=gettext("The configuration file contains errors, and hence some default values have been chosen. Consider checking the settings and fixing the problem using the configuration dialog.");
-      lingot_msg_add_warning((const char *)return_value_gettext$15);
+      char *return_value_gettext_15;
+      return_value_gettext_15=gettext("The configuration file contains errors, and hence some default values have been chosen. Consider checking the settings and fixing the problem using the configuration dialog.");
+      lingot_msg_add_warning((const char *)return_value_gettext_15);
     }
 
     lingot_config_update_internal_params(config);
@@ -5154,9 +5154,9 @@ void lingot_config_load(struct _LingotConfig *config, char *filename)
 struct _LingotConfig * lingot_config_new()
 {
   struct _LingotConfig *config;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _LingotConfig) /*408ul*/ );
-  config = (struct _LingotConfig *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _LingotConfig) /*408ul*/ );
+  config = (struct _LingotConfig *)return_value_malloc_1;
   config->max_nr_iter = (unsigned int)10;
   config->window_type = (enum window_type_t)HAMMING;
   config->scale=lingot_config_scale_new();
@@ -5209,20 +5209,20 @@ void lingot_config_save(struct _LingotConfig *config, char *filename)
   fp=fopen(filename, "w");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    char lingot_config_save$$1$$1$$buff[100l];
-    sprintf(lingot_config_save$$1$$1$$buff, "error saving config file %s ", filename);
-    perror(lingot_config_save$$1$$1$$buff);
+    char lingot_config_save__1__1__buff[100l];
+    sprintf(lingot_config_save__1__1__buff, "error saving config file %s ", filename);
+    perror(lingot_config_save__1__1__buff);
     goto __CPROVER_DUMP_L14;
   }
 
   fprintf(fp, "# Config file automatically created by lingot %s\n\n", (const void *)"0.9.1");
   i = (unsigned int)0;
-  signed int return_value_strcmp$1;
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_1;
+  signed int return_value_strcmp_3;
   do
   {
-    return_value_strcmp$1=strcmp(options[(signed long int)i], "|");
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(options[(signed long int)i], "|");
+    if(return_value_strcmp_1 == 0)
       break;
 
     option = options[(signed long int)i];
@@ -5246,12 +5246,12 @@ void lingot_config_save(struct _LingotConfig *config, char *filename)
       }
       case 109:
       {
-        return_value_strcmp$3=strcmp("AUDIO_SYSTEM", option);
-        if(return_value_strcmp$3 == 0)
+        return_value_strcmp_3=strcmp("AUDIO_SYSTEM", option);
+        if(return_value_strcmp_3 == 0)
         {
-          const char *return_value_audio_system_t_to_str$2;
-          return_value_audio_system_t_to_str$2=audio_system_t_to_str(*((enum audio_system_t *)param));
-          fprintf(fp, "%s = %s\n", option, return_value_audio_system_t_to_str$2);
+          const char *return_value_audio_system_t_to_str_2;
+          return_value_audio_system_t_to_str_2=audio_system_t_to_str(*((enum audio_system_t *)param));
+          fprintf(fp, "%s = %s\n", option, return_value_audio_system_t_to_str_2);
         }
 
       }
@@ -5290,18 +5290,18 @@ __CPROVER_DUMP_L14:
 void lingot_config_scale_allocate(struct _LingotScale *scale, unsigned short int notes)
 {
   scale->notes = notes;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)notes * sizeof(char *) /*8ul*/ );
-  scale->note_name = (char **)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)notes * sizeof(double) /*8ul*/ );
-  scale->offset_cents = (double *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)notes * sizeof(signed short int) /*2ul*/ );
-  scale->offset_ratios[(signed long int)0] = (signed short int *)return_value_malloc$3;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)notes * sizeof(signed short int) /*2ul*/ );
-  scale->offset_ratios[(signed long int)1] = (signed short int *)return_value_malloc$4;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)notes * sizeof(char *) /*8ul*/ );
+  scale->note_name = (char **)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)notes * sizeof(double) /*8ul*/ );
+  scale->offset_cents = (double *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)notes * sizeof(signed short int) /*2ul*/ );
+  scale->offset_ratios[(signed long int)0] = (signed short int *)return_value_malloc_3;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)notes * sizeof(signed short int) /*2ul*/ );
+  scale->offset_ratios[(signed long int)1] = (signed short int *)return_value_malloc_4;
 }
 
 // lingot_config_scale_copy
@@ -5387,9 +5387,9 @@ signed int lingot_config_scale_load_scl(struct _LingotScale *scale, char *filena
   {
     scale->base_frequency = 261.625565;
     fgets(char_buffer, 1000, fp);
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(char_buffer, 33);
-    if(!(return_value_strchr$1 == char_buffer))
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(char_buffer, 33);
+    if(!(return_value_strchr_1 == char_buffer))
     {
       fclose(fp);
       return 0;
@@ -5441,9 +5441,9 @@ signed int lingot_config_scale_load_scl(struct _LingotScale *scale, char *filena
 struct _LingotScale * lingot_config_scale_new()
 {
   struct _LingotScale *scale;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _LingotScale) /*64ul*/ );
-  scale = (struct _LingotScale *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _LingotScale) /*64ul*/ );
+  scale = (struct _LingotScale *)return_value_malloc_1;
   scale->name = (char *)(void *)0;
   scale->notes = (unsigned short int)0;
   scale->note_name = (char **)(void *)0;
@@ -5495,9 +5495,9 @@ signed int lingot_config_scale_parse_shift(char *char_buffer, double *cents, sig
 
       else
       {
-        double return_value_log2$1;
-        return_value_log2$1=log2((1.0 * (double)num) / (double)den);
-        *cents = 1200.0 * return_value_log2$1;
+        double return_value_log2_1;
+        return_value_log2_1=log2((1.0 * (double)num) / (double)den);
+        *cents = 1200.0 * return_value_log2_1;
         if(!(numerator == ((signed short int *)NULL)))
           *numerator = num;
 
@@ -5545,14 +5545,14 @@ void lingot_config_scale_restore_default_values(struct _LingotScale *scale)
 // file lingot-config.c line 130
 void lingot_config_update_internal_params(struct _LingotConfig *config)
 {
-  double return_value_ceil$1;
-  return_value_ceil$1=ceil((config->temporal_window * (double)config->sample_rate) / (double)config->oversampling);
-  config->temporal_buffer_size = (unsigned int)return_value_ceil$1;
+  double return_value_ceil_1;
+  return_value_ceil_1=ceil((config->temporal_window * (double)config->sample_rate) / (double)config->oversampling);
+  config->temporal_buffer_size = (unsigned int)return_value_ceil_1;
   config->peak_rejection_relation_nu=pow(10.0, config->peak_rejection_relation_db / 10.0);
   config->noise_threshold_nu=pow(10.0, config->noise_threshold_db / 10.0);
   config->gain_nu=pow(10.0, config->gain / 20.0);
   struct _LingotScale *scale = config->scale;
-  double tmp_if_expr$2;
+  double tmp_if_expr_2;
   if((signed int)scale->notes == 1)
     scale->max_offset_rounded = 1200.0;
 
@@ -5564,11 +5564,11 @@ void lingot_config_update_internal_params(struct _LingotConfig *config)
     for( ; !(i >= (signed int)scale->notes); i = i + 1)
     {
       if(max_offset > scale->offset_cents[(signed long int)i] + -scale->offset_cents[(signed long int)(i + -1)])
-        tmp_if_expr$2 = max_offset;
+        tmp_if_expr_2 = max_offset;
 
       else
-        tmp_if_expr$2 = scale->offset_cents[(signed long int)i] - scale->offset_cents[(signed long int)(i - 1)];
-      max_offset = tmp_if_expr$2;
+        tmp_if_expr_2 = scale->offset_cents[(signed long int)i] - scale->offset_cents[(signed long int)(i - 1)];
+      max_offset = tmp_if_expr_2;
     }
     scale->max_offset_rounded = max_offset;
   }
@@ -5597,28 +5597,28 @@ void lingot_core_compute_fundamental_fequency(struct _LingotCore *core)
     memmove((void *)core->windowed_fft_buffer, (const void *)&core->temporal_buffer[(signed long int)(conf->temporal_buffer_size - conf->fft_size)], (unsigned long int)conf->fft_size * sizeof(double) /*8ul*/ );
   lingot_fft_fft(core->windowed_fft_buffer, core->fft_out, (unsigned long int)conf->fft_size);
   i = (unsigned int)0;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   do
   {
     if(conf->fft_size >= 257u)
-      tmp_if_expr$1 = conf->fft_size >> 1;
+      tmp_if_expr_1 = conf->fft_size >> 1;
 
     else
-      tmp_if_expr$1 = (unsigned int)256;
-    if(i >= tmp_if_expr$1)
+      tmp_if_expr_1 = (unsigned int)256;
+    if(i >= tmp_if_expr_1)
       break;
 
     core->spd_fft[(signed long int)i] = ((core->fft_out + (signed long int)i)->r * (core->fft_out + (signed long int)i)->r + (core->fft_out + (signed long int)i)->i * (core->fft_out + (signed long int)i)->i) * _1_N2;
     i = i + 1u;
   }
   while((_Bool)1);
-  unsigned int tmp_if_expr$2;
+  unsigned int tmp_if_expr_2;
   if(conf->fft_size >= 257u)
-    tmp_if_expr$2 = conf->fft_size >> 1;
+    tmp_if_expr_2 = conf->fft_size >> 1;
 
   else
-    tmp_if_expr$2 = (unsigned int)256;
-  memcpy((void *)core->X, (const void *)core->spd_fft, (unsigned long int)tmp_if_expr$2 * sizeof(double) /*8ul*/ );
+    tmp_if_expr_2 = (unsigned int)256;
+  memcpy((void *)core->X, (const void *)core->spd_fft, (unsigned long int)tmp_if_expr_2 * sizeof(double) /*8ul*/ );
   core->diff2_spd_fft[(signed long int)0] = 0.0;
   i = (unsigned int)1;
   for( ; !(i >= (conf->fft_size >> 1) + 4294967295u); i = i + 1u)
@@ -5630,8 +5630,8 @@ void lingot_core_compute_fundamental_fequency(struct _LingotCore *core)
   }
   signed int Mi;
   Mi=lingot_signal_get_fundamental_peak(conf, core->spd_fft, core->diff2_spd_fft, (signed int)(conf->fft_size >> 1));
-  _Bool tmp_if_expr$4;
-  double return_value_fabs$3;
+  _Bool tmp_if_expr_4;
+  double return_value_fabs_3;
   if(Mi == (signed int)(conf->fft_size >> 1))
   {
     core->freq = 0.0;
@@ -5678,13 +5678,13 @@ void lingot_core_compute_fundamental_fequency(struct _LingotCore *core)
     {
       if(!(k >= conf->max_nr_iter))
       {
-        return_value_fabs$3=fabs(wk - wkm1);
-        tmp_if_expr$4 = return_value_fabs$3 > 1.0e-8 ? (_Bool)1 : (_Bool)0;
+        return_value_fabs_3=fabs(wk - wkm1);
+        tmp_if_expr_4 = return_value_fabs_3 > 1.0e-8 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(!tmp_if_expr_4)
         break;
 
       wk = wkm1;
@@ -5740,9 +5740,9 @@ struct _LingotCore * lingot_core_new(struct _LingotConfig *conf)
 {
   char buff[1000l];
   struct _LingotCore *core;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _LingotCore) /*320ul*/ );
-  core = (struct _LingotCore *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _LingotCore) /*320ul*/ );
+  core = (struct _LingotCore *)return_value_malloc_1;
   core->conf = conf;
   core->running = 0;
   core->audio = (struct _LingotAudioHandler *)(void *)0;
@@ -5768,9 +5768,9 @@ struct _LingotCore * lingot_core_new(struct _LingotConfig *conf)
     {
       conf->sample_rate = (signed int)core->audio->real_sample_rate;
       lingot_config_update_internal_params(conf);
-      char *return_value_gettext$2;
-      return_value_gettext$2=gettext("The requested sample rate is not available, the real sample rate has been set to %d Hz");
-      sprintf(buff, (const char *)return_value_gettext$2, core->audio->real_sample_rate);
+      char *return_value_gettext_2;
+      return_value_gettext_2=gettext("The requested sample rate is not available, the real sample rate has been set to %d Hz");
+      sprintf(buff, (const char *)return_value_gettext_2, core->audio->real_sample_rate);
       lingot_msg_add_warning(buff);
     }
 
@@ -5779,81 +5779,81 @@ struct _LingotCore * lingot_core_new(struct _LingotConfig *conf)
       conf->temporal_window = ((double)conf->fft_size * (double)conf->oversampling) / (double)conf->sample_rate;
       conf->temporal_buffer_size = conf->fft_size;
       lingot_config_update_internal_params(conf);
-      char *return_value_gettext$3;
-      return_value_gettext$3=gettext("The temporal buffer is smaller than FFT size. It has been increased to %0.3f seconds");
-      sprintf(buff, (const char *)return_value_gettext$3, conf->temporal_window);
+      char *return_value_gettext_3;
+      return_value_gettext_3=gettext("The temporal buffer is smaller than FFT size. It has been increased to %0.3f seconds");
+      sprintf(buff, (const char *)return_value_gettext_3, conf->temporal_window);
       lingot_msg_add_warning(buff);
     }
 
     if(core->conf->fft_size >= 257u)
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)(core->conf->fft_size >> 1) * sizeof(double) /*8ul*/ );
-      core->spd_fft = (double *)return_value_malloc$4;
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc((unsigned long int)(core->conf->fft_size >> 1) * sizeof(double) /*8ul*/ );
-      core->X = (double *)return_value_malloc$5;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)(core->conf->fft_size >> 1) * sizeof(double) /*8ul*/ );
+      core->spd_fft = (double *)return_value_malloc_4;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc((unsigned long int)(core->conf->fft_size >> 1) * sizeof(double) /*8ul*/ );
+      core->X = (double *)return_value_malloc_5;
       memset((void *)core->spd_fft, 0, (unsigned long int)(core->conf->fft_size >> 1) * sizeof(double) /*8ul*/ );
       memset((void *)core->X, 0, (unsigned long int)(core->conf->fft_size >> 1) * sizeof(double) /*8ul*/ );
     }
 
     else
     {
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc((unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
-      core->spd_fft = (double *)return_value_malloc$6;
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc((unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
-      core->X = (double *)return_value_malloc$7;
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc((unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
+      core->spd_fft = (double *)return_value_malloc_6;
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc((unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
+      core->X = (double *)return_value_malloc_7;
       memset((void *)core->spd_fft, 0, (unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
       memset((void *)core->X, 0, (unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
     }
-    void *return_value_malloc$8;
-    return_value_malloc$8=malloc((unsigned long int)core->conf->dft_size * sizeof(double) /*8ul*/ );
-    core->spd_dft = (double *)return_value_malloc$8;
+    void *return_value_malloc_8;
+    return_value_malloc_8=malloc((unsigned long int)core->conf->dft_size * sizeof(double) /*8ul*/ );
+    core->spd_dft = (double *)return_value_malloc_8;
     memset((void *)core->spd_dft, 0, (unsigned long int)core->conf->dft_size * sizeof(double) /*8ul*/ );
-    void *return_value_malloc$9;
-    return_value_malloc$9=malloc((unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
-    core->diff2_spd_fft = (double *)return_value_malloc$9;
+    void *return_value_malloc_9;
+    return_value_malloc_9=malloc((unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
+    core->diff2_spd_fft = (double *)return_value_malloc_9;
     memset((void *)core->diff2_spd_fft, 0, (unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
     memset((void *)core->spd_dft, 0, (unsigned long int)core->conf->dft_size * sizeof(double) /*8ul*/ );
     lingot_fft_create_phase_factors(conf);
-    void *return_value_malloc$10;
-    return_value_malloc$10=malloc((unsigned long int)core->conf->fft_size * sizeof(struct _LingotComplex) /*16ul*/ );
-    core->fft_out = (struct _LingotComplex *)return_value_malloc$10;
+    void *return_value_malloc_10;
+    return_value_malloc_10=malloc((unsigned long int)core->conf->fft_size * sizeof(struct _LingotComplex) /*16ul*/ );
+    core->fft_out = (struct _LingotComplex *)return_value_malloc_10;
     memset((void *)core->fft_out, 0, (unsigned long int)core->conf->fft_size * sizeof(struct _LingotComplex) /*16ul*/ );
-    void *return_value_malloc$11;
-    return_value_malloc$11=malloc((unsigned long int)core->audio->read_buffer_size * sizeof(double) /*8ul*/ );
-    core->flt_read_buffer = (double *)return_value_malloc$11;
+    void *return_value_malloc_11;
+    return_value_malloc_11=malloc((unsigned long int)core->audio->read_buffer_size * sizeof(double) /*8ul*/ );
+    core->flt_read_buffer = (double *)return_value_malloc_11;
     memset((void *)core->flt_read_buffer, 0, (unsigned long int)core->audio->read_buffer_size * sizeof(double) /*8ul*/ );
-    void *return_value_malloc$12;
-    return_value_malloc$12=malloc((unsigned long int)core->conf->temporal_buffer_size * sizeof(double) /*8ul*/ );
-    core->temporal_buffer = (double *)return_value_malloc$12;
+    void *return_value_malloc_12;
+    return_value_malloc_12=malloc((unsigned long int)core->conf->temporal_buffer_size * sizeof(double) /*8ul*/ );
+    core->temporal_buffer = (double *)return_value_malloc_12;
     memset((void *)core->temporal_buffer, 0, (unsigned long int)core->conf->temporal_buffer_size * sizeof(double) /*8ul*/ );
     core->hamming_window_temporal = (double *)(void *)0;
     core->hamming_window_fft = (double *)(void *)0;
     if(!((signed int)conf->window_type == NONE))
     {
-      void *return_value_malloc$13;
-      return_value_malloc$13=malloc((unsigned long int)core->conf->temporal_buffer_size * sizeof(double) /*8ul*/ );
-      core->hamming_window_temporal = (double *)return_value_malloc$13;
-      void *return_value_malloc$14;
-      return_value_malloc$14=malloc((unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
-      core->hamming_window_fft = (double *)return_value_malloc$14;
+      void *return_value_malloc_13;
+      return_value_malloc_13=malloc((unsigned long int)core->conf->temporal_buffer_size * sizeof(double) /*8ul*/ );
+      core->hamming_window_temporal = (double *)return_value_malloc_13;
+      void *return_value_malloc_14;
+      return_value_malloc_14=malloc((unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
+      core->hamming_window_fft = (double *)return_value_malloc_14;
       lingot_signal_window((signed int)core->conf->temporal_buffer_size, core->hamming_window_temporal, conf->window_type);
       lingot_signal_window((signed int)core->conf->fft_size, core->hamming_window_fft, conf->window_type);
     }
 
-    void *return_value_malloc$15;
-    return_value_malloc$15=malloc((unsigned long int)core->conf->temporal_buffer_size * sizeof(double) /*8ul*/ );
-    core->windowed_temporal_buffer = (double *)return_value_malloc$15;
+    void *return_value_malloc_15;
+    return_value_malloc_15=malloc((unsigned long int)core->conf->temporal_buffer_size * sizeof(double) /*8ul*/ );
+    core->windowed_temporal_buffer = (double *)return_value_malloc_15;
     memset((void *)core->windowed_temporal_buffer, 0, (unsigned long int)core->conf->temporal_buffer_size * sizeof(double) /*8ul*/ );
-    void *return_value_malloc$16;
-    return_value_malloc$16=malloc((unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
-    core->windowed_fft_buffer = (double *)return_value_malloc$16;
+    void *return_value_malloc_16;
+    return_value_malloc_16=malloc((unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
+    core->windowed_fft_buffer = (double *)return_value_malloc_16;
     memset((void *)core->windowed_fft_buffer, 0, (unsigned long int)core->conf->fft_size * sizeof(double) /*8ul*/ );
     core->antialiasing_filter=lingot_filter_cheby_design((unsigned int)8, 0.5, 0.9 / (double)core->conf->oversampling);
-    pthread_mutex_init(&core->temporal_buffer_mutex, (const union anonymous$4 *)(void *)0);
+    pthread_mutex_init(&core->temporal_buffer_mutex, (const union anonymous_4 *)(void *)0);
     core->running = 1;
   }
 
@@ -5915,7 +5915,7 @@ void lingot_core_run_computation_thread(struct _LingotCore *core)
   gettimeofday(&tout, (struct timezone *)(void *)0);
   t.tv_sec = (signed long int)0;
   t.tv_usec = (signed long int)(1e6 / core->conf->calculation_rate);
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   while(!(core->running == 0))
   {
     lingot_core_compute_fundamental_fequency(core);
@@ -5939,11 +5939,11 @@ void lingot_core_run_computation_thread(struct _LingotCore *core)
       if(!(core->audio->interrupted == 0))
       {
         if(core->conf->fft_size >= 257u)
-          tmp_if_expr$1 = core->conf->fft_size >> 1;
+          tmp_if_expr_1 = core->conf->fft_size >> 1;
 
         else
-          tmp_if_expr$1 = core->conf->fft_size;
-        memset((void *)core->X, 0, (unsigned long int)tmp_if_expr$1 * sizeof(double) /*8ul*/ );
+          tmp_if_expr_1 = core->conf->fft_size;
+        memset((void *)core->X, 0, (unsigned long int)tmp_if_expr_1 * sizeof(double) /*8ul*/ );
         core->freq = 0.0;
         core->running = 0;
       }
@@ -5964,8 +5964,8 @@ void lingot_core_start(struct _LingotCore *core)
     audio_status=lingot_audio_start(core->audio);
     if(audio_status == 0)
     {
-      pthread_mutex_init(&core->thread_computation_mutex, (const union anonymous$4 *)(void *)0);
-      pthread_cond_init(&core->thread_computation_cond, (const union anonymous$4 *)(void *)0);
+      pthread_mutex_init(&core->thread_computation_mutex, (const union anonymous_4 *)(void *)0);
+      pthread_cond_init(&core->thread_computation_cond, (const union anonymous_4 *)(void *)0);
       pthread_attr_init(&core->thread_computation_attr);
       pthread_create(&core->thread_computation, &core->thread_computation_attr, (void * (*)(void *))lingot_core_run_computation_thread, (void *)core);
     }
@@ -5980,7 +5980,7 @@ void lingot_core_start(struct _LingotCore *core)
 void lingot_core_stop(struct _LingotCore *core)
 {
   void *thread_result;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(core->running == 1)
   {
     core->running = 0;
@@ -5988,11 +5988,11 @@ void lingot_core_stop(struct _LingotCore *core)
     pthread_join(core->thread_computation, &thread_result);
     pthread_attr_destroy(&core->thread_computation_attr);
     if(core->conf->fft_size >= 257u)
-      tmp_if_expr$1 = core->conf->fft_size >> 1;
+      tmp_if_expr_1 = core->conf->fft_size >> 1;
 
     else
-      tmp_if_expr$1 = core->conf->fft_size;
-    memset((void *)core->X, 0, (unsigned long int)tmp_if_expr$1 * sizeof(double) /*8ul*/ );
+      tmp_if_expr_1 = core->conf->fft_size;
+    memset((void *)core->X, 0, (unsigned long int)tmp_if_expr_1 * sizeof(double) /*8ul*/ );
     core->freq = 0.0;
   }
 
@@ -6007,9 +6007,9 @@ void lingot_fft_create_phase_factors(struct _LingotConfig *conf)
 {
   double alpha;
   unsigned int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(conf->fft_size >> 1) * sizeof(struct _LingotComplex) /*16ul*/ );
-  wn = (struct _LingotComplex *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(conf->fft_size >> 1) * sizeof(struct _LingotComplex) /*16ul*/ );
+  wn = (struct _LingotComplex *)return_value_malloc_1;
   i = (unsigned int)0;
   for( ; !(i >= conf->fft_size >> 1); i = i + 1u)
   {
@@ -6041,7 +6041,7 @@ void lingot_fft_spd(double *in, signed int N1, double wi, double dw, double *out
 {
   double Xr;
   double Xi;
-  double lingot_fft_spd$$1$$wn;
+  double lingot_fft_spd__1__wn;
   double N1_2 = (double)(N1 * N1);
   signed int i;
   signed int n;
@@ -6053,13 +6053,13 @@ void lingot_fft_spd(double *in, signed int N1, double wi, double dw, double *out
     n = 0;
     for( ; !(n >= N1); n = n + 1)
     {
-      lingot_fft_spd$$1$$wn = (wi + dw * (double)i) * (double)n;
-      double return_value_cos$1;
-      return_value_cos$1=cos(lingot_fft_spd$$1$$wn);
-      Xr = Xr + return_value_cos$1 * in[(signed long int)n];
-      double return_value_sin$2;
-      return_value_sin$2=sin(lingot_fft_spd$$1$$wn);
-      Xi = Xi - return_value_sin$2 * in[(signed long int)n];
+      lingot_fft_spd__1__wn = (wi + dw * (double)i) * (double)n;
+      double return_value_cos_1;
+      return_value_cos_1=cos(lingot_fft_spd__1__wn);
+      Xr = Xr + return_value_cos_1 * in[(signed long int)n];
+      double return_value_sin_2;
+      return_value_sin_2=sin(lingot_fft_spd__1__wn);
+      Xi = Xi - return_value_sin_2 * in[(signed long int)n];
     }
     out[(signed long int)i] = (Xr * Xr + Xi * Xi) / N1_2;
   }
@@ -6081,12 +6081,12 @@ void lingot_fft_spd_diffs(double *in, signed int N, double w, double *out_d1, do
   n = 0;
   for( ; !(n >= N); n = n + 1)
   {
-    double return_value_cos$1;
-    return_value_cos$1=cos(w * (double)n);
-    x_cos_wn = in[(signed long int)n] * return_value_cos$1;
-    double return_value_sin$2;
-    return_value_sin$2=sin(w * (double)n);
-    x_sin_wn = in[(signed long int)n] * return_value_sin$2;
+    double return_value_cos_1;
+    return_value_cos_1=cos(w * (double)n);
+    x_cos_wn = in[(signed long int)n] * return_value_cos_1;
+    double return_value_sin_2;
+    return_value_sin_2=sin(w * (double)n);
+    x_sin_wn = in[(signed long int)n] * return_value_sin_2;
     SUM_x_sin_wn = SUM_x_sin_wn + x_sin_wn;
     SUM_x_cos_wn = SUM_x_cos_wn + x_cos_wn;
     SUM_x_n_sin_wn = SUM_x_n_sin_wn + x_sin_wn * (double)n;
@@ -6106,16 +6106,16 @@ struct _LingotFilter * lingot_filter_cheby_design(unsigned int n, double Rp, dou
   signed int i;
   signed int k;
   signed int p;
-  const signed long int p$array_size0 = (signed long int)(n + (unsigned int)1);
-  double a[p$array_size0];
-  const signed long int a$array_size0 = (signed long int)(n + (unsigned int)1);
-  double b[a$array_size0];
-  const signed long int b$array_size0 = (signed long int)(n + (unsigned int)1);
-  double new_a[b$array_size0];
-  const signed long int new_a$array_size0 = (signed long int)(n + (unsigned int)1);
-  double new_b[new_a$array_size0];
-  const signed long int new_b$array_size0 = (signed long int)n;
-  struct _LingotComplex pole[new_b$array_size0];
+  const signed long int p_array_size0 = (signed long int)(n + (unsigned int)1);
+  double a[p_array_size0];
+  const signed long int a_array_size0 = (signed long int)(n + (unsigned int)1);
+  double b[a_array_size0];
+  const signed long int b_array_size0 = (signed long int)(n + (unsigned int)1);
+  double new_a[b_array_size0];
+  const signed long int new_a_array_size0 = (signed long int)(n + (unsigned int)1);
+  double new_b[new_a_array_size0];
+  const signed long int new_b_array_size0 = (signed long int)n;
+  struct _LingotComplex pole[new_b_array_size0];
   i = 0;
   for( ; !((unsigned int)i >= n); i = i + 1)
   {
@@ -6124,17 +6124,17 @@ struct _LingotFilter * lingot_filter_cheby_design(unsigned int n, double Rp, dou
   }
   double T = 2.0;
   double W;
-  double return_value_tan$1;
-  return_value_tan$1=tan((3.14159265358979323846 * wc) / T);
-  W = (2.0 / T) * return_value_tan$1;
+  double return_value_tan_1;
+  return_value_tan_1=tan((3.14159265358979323846 * wc) / T);
+  W = (2.0 / T) * return_value_tan_1;
   double epsilon;
-  double return_value_pow$2;
-  return_value_pow$2=pow(10.0, 0.1 * Rp);
-  epsilon=sqrt(return_value_pow$2 - (double)1);
+  double return_value_pow_2;
+  return_value_pow_2=pow(10.0, 0.1 * Rp);
+  epsilon=sqrt(return_value_pow_2 - (double)1);
   double v0;
-  double return_value_asinh$3;
-  return_value_asinh$3=asinh((double)1 / epsilon);
-  v0 = return_value_asinh$3 / (double)n;
+  double return_value_asinh_3;
+  return_value_asinh_3=asinh((double)1 / epsilon);
+  v0 = return_value_asinh_3 / (double)n;
   double sv0;
   sv0=sinh(v0);
   double cv0;
@@ -6145,12 +6145,12 @@ struct _LingotFilter * lingot_filter_cheby_design(unsigned int n, double Rp, dou
   for( ; !((unsigned int)k >= n); k = k + 1)
   {
     t = (3.14159265358979323846 * (double)i) / (2.0 * (double)n);
-    double return_value_cos$4;
-    return_value_cos$4=cos(t);
-    pole[(signed long int)k].r = -sv0 * return_value_cos$4;
-    double return_value_sin$5;
-    return_value_sin$5=sin(t);
-    pole[(signed long int)k].i = cv0 * return_value_sin$5;
+    double return_value_cos_4;
+    return_value_cos_4=cos(t);
+    pole[(signed long int)k].r = -sv0 * return_value_cos_4;
+    double return_value_sin_5;
+    return_value_sin_5=sin(t);
+    pole[(signed long int)k].i = cv0 * return_value_sin_5;
     i = i + 2;
   }
   struct _LingotComplex gain;
@@ -6163,18 +6163,18 @@ struct _LingotFilter * lingot_filter_cheby_design(unsigned int n, double Rp, dou
     gain.i = gain.i * f;
   }
 
-  double lingot_filter_cheby_design$$1$$f;
-  lingot_filter_cheby_design$$1$$f=pow(W, (double)n);
-  gain.r = gain.r * lingot_filter_cheby_design$$1$$f;
-  gain.i = gain.i * lingot_filter_cheby_design$$1$$f;
+  double lingot_filter_cheby_design__1__f;
+  lingot_filter_cheby_design__1__f=pow(W, (double)n);
+  gain.r = gain.r * lingot_filter_cheby_design__1__f;
+  gain.i = gain.i * lingot_filter_cheby_design__1__f;
   i = 0;
   for( ; !((unsigned int)i >= n); i = i + 1)
   {
     pole[(signed long int)i].r = pole[(signed long int)i].r * W;
     pole[(signed long int)i].i = pole[(signed long int)i].i * W;
   }
-  const signed long int f$array_size0 = (signed long int)n;
-  struct _LingotComplex sp[f$array_size0];
+  const signed long int f_array_size0 = (signed long int)n;
+  struct _LingotComplex sp[f_array_size0];
   i = 0;
   for( ; !((unsigned int)i >= n); i = i + 1)
   {
@@ -6238,9 +6238,9 @@ struct _LingotFilter * lingot_filter_cheby_design(unsigned int n, double Rp, dou
   i = 0;
   for( ; n >= (unsigned int)i; i = i + 1)
     b[(signed long int)i] = b[(signed long int)i] * gain.r;
-  struct _LingotFilter *return_value_lingot_filter_new$6;
-  return_value_lingot_filter_new$6=lingot_filter_new(n, n, a, b);
-  return return_value_lingot_filter_new$6;
+  struct _LingotFilter *return_value_lingot_filter_new_6;
+  return_value_lingot_filter_new_6=lingot_filter_new(n, n, a, b);
+  return return_value_lingot_filter_new_6;
 }
 
 // lingot_filter_destroy
@@ -6294,19 +6294,19 @@ struct _LingotFilter * lingot_filter_new(unsigned int Na, unsigned int Nb, doubl
 {
   unsigned int i;
   struct _LingotFilter *filter;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _LingotFilter) /*32ul*/ );
-  filter = (struct _LingotFilter *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _LingotFilter) /*32ul*/ );
+  filter = (struct _LingotFilter *)return_value_malloc_1;
   filter->N = Na < Nb ? Nb : Na;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(filter->N + (unsigned int)1) * sizeof(double) /*8ul*/ );
-  filter->a = (double *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)(filter->N + (unsigned int)1) * sizeof(double) /*8ul*/ );
-  filter->b = (double *)return_value_malloc$3;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)(filter->N + (unsigned int)1) * sizeof(double) /*8ul*/ );
-  filter->s = (double *)return_value_malloc$4;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(filter->N + (unsigned int)1) * sizeof(double) /*8ul*/ );
+  filter->a = (double *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)(filter->N + (unsigned int)1) * sizeof(double) /*8ul*/ );
+  filter->b = (double *)return_value_malloc_3;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)(filter->N + (unsigned int)1) * sizeof(double) /*8ul*/ );
+  filter->s = (double *)return_value_malloc_4;
   i = (unsigned int)0;
   for( ; !(i >= 1u + filter->N); i = i + 1u)
   {
@@ -6366,9 +6366,9 @@ struct _LingotGauge * lingot_gauge_new(double initial_position)
   double a[3l] = { k + 60.0 * (q + 60.0), -60.0 * (q + 2.0 * 60.0), 60.0 * 60.0 };
   double b[1l] = { k };
   struct _LingotGauge *gauge;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _LingotGauge) /*16ul*/ );
-  gauge = (struct _LingotGauge *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _LingotGauge) /*16ul*/ );
+  gauge = (struct _LingotGauge *)return_value_malloc_1;
   gauge->filter=lingot_filter_new((unsigned int)2, (unsigned int)0, a, b);
   lingot_gauge_compute(gauge, initial_position);
   return gauge;
@@ -6381,88 +6381,88 @@ signed int lingot_gui_config_dialog_apply(struct _LingotConfigDialog *dialog)
   char *text1;
   const char *text2;
   struct _LingotConfig *conf = dialog->conf;
-  signed int return_value_lingot_gui_config_dialog_scale_validate$1;
-  return_value_lingot_gui_config_dialog_scale_validate$1=lingot_gui_config_dialog_scale_validate(dialog, conf->scale);
-  if(return_value_lingot_gui_config_dialog_scale_validate$1 == 0)
+  signed int return_value_lingot_gui_config_dialog_scale_validate_1;
+  return_value_lingot_gui_config_dialog_scale_validate_1=lingot_gui_config_dialog_scale_validate(dialog, conf->scale);
+  if(return_value_lingot_gui_config_dialog_scale_validate_1 == 0)
     return 0;
 
   else
   {
     conf->audio_system=lingot_gui_config_dialog_get_audio_system(dialog->input_system);
-    unsigned long int return_value_gtk_bin_get_type$2;
-    return_value_gtk_bin_get_type$2=gtk_bin_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-    return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_bin_get_type$2);
-    unsigned long int return_value_gtk_entry_get_type$4;
-    return_value_gtk_entry_get_type$4=gtk_entry_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-    return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast$3)->child, return_value_gtk_entry_get_type$4);
-    const char *return_value_gtk_entry_get_text$6;
-    return_value_gtk_entry_get_text$6=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$5);
-    sprintf(conf->audio_dev[(signed long int)conf->audio_system], "%s", return_value_gtk_entry_get_text$6);
+    unsigned long int return_value_gtk_bin_get_type_2;
+    return_value_gtk_bin_get_type_2=gtk_bin_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+    return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_bin_get_type_2);
+    unsigned long int return_value_gtk_entry_get_type_4;
+    return_value_gtk_entry_get_type_4=gtk_entry_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+    return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast_3)->child, return_value_gtk_entry_get_type_4);
+    const char *return_value_gtk_entry_get_text_6;
+    return_value_gtk_entry_get_text_6=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_5);
+    sprintf(conf->audio_dev[(signed long int)conf->audio_system], "%s", return_value_gtk_entry_get_text_6);
     conf->root_frequency_error=gtk_spin_button_get_value(dialog->root_frequency_error);
-    unsigned long int return_value_gtk_range_get_type$7;
-    return_value_gtk_range_get_type$7=gtk_range_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-    return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)dialog->calculation_rate, return_value_gtk_range_get_type$7);
-    conf->calculation_rate=gtk_range_get_value((struct _GtkRange *)return_value_g_type_check_instance_cast$8);
-    unsigned long int return_value_gtk_range_get_type$9;
-    return_value_gtk_range_get_type$9=gtk_range_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-    return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)dialog->visualization_rate, return_value_gtk_range_get_type$9);
-    conf->visualization_rate=gtk_range_get_value((struct _GtkRange *)return_value_g_type_check_instance_cast$10);
+    unsigned long int return_value_gtk_range_get_type_7;
+    return_value_gtk_range_get_type_7=gtk_range_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+    return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)dialog->calculation_rate, return_value_gtk_range_get_type_7);
+    conf->calculation_rate=gtk_range_get_value((struct _GtkRange *)return_value_g_type_check_instance_cast_8);
+    unsigned long int return_value_gtk_range_get_type_9;
+    return_value_gtk_range_get_type_9=gtk_range_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+    return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)dialog->visualization_rate, return_value_gtk_range_get_type_9);
+    conf->visualization_rate=gtk_range_get_value((struct _GtkRange *)return_value_g_type_check_instance_cast_10);
     conf->temporal_window=gtk_spin_button_get_value(dialog->temporal_window);
-    unsigned long int return_value_gtk_range_get_type$11;
-    return_value_gtk_range_get_type$11=gtk_range_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-    return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)dialog->noise_threshold, return_value_gtk_range_get_type$11);
-    conf->noise_threshold_db=gtk_range_get_value((struct _GtkRange *)return_value_g_type_check_instance_cast$12);
-    unsigned long int return_value_gtk_range_get_type$13;
-    return_value_gtk_range_get_type$13=gtk_range_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-    return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)dialog->gain, return_value_gtk_range_get_type$13);
-    conf->gain=gtk_range_get_value((struct _GtkRange *)return_value_g_type_check_instance_cast$14);
-    signed int return_value_gtk_spin_button_get_value_as_int$15;
-    return_value_gtk_spin_button_get_value_as_int$15=gtk_spin_button_get_value_as_int(dialog->oversampling);
-    conf->oversampling = (unsigned int)return_value_gtk_spin_button_get_value_as_int$15;
-    signed int return_value_gtk_spin_button_get_value_as_int$16;
-    return_value_gtk_spin_button_get_value_as_int$16=gtk_spin_button_get_value_as_int(dialog->dft_number);
-    conf->dft_number = (unsigned int)return_value_gtk_spin_button_get_value_as_int$16;
-    unsigned long int return_value_gtk_spin_button_get_type$17;
-    return_value_gtk_spin_button_get_type$17=gtk_spin_button_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-    return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)dialog->dft_size, return_value_gtk_spin_button_get_type$17);
-    signed int return_value_gtk_spin_button_get_value_as_int$19;
-    return_value_gtk_spin_button_get_value_as_int$19=gtk_spin_button_get_value_as_int((struct _GtkSpinButton *)return_value_g_type_check_instance_cast$18);
-    conf->dft_size = (unsigned int)return_value_gtk_spin_button_get_value_as_int$19;
-    signed int return_value_gtk_spin_button_get_value_as_int$20;
-    return_value_gtk_spin_button_get_value_as_int$20=gtk_spin_button_get_value_as_int(dialog->peak_number);
-    conf->peak_number = (unsigned int)return_value_gtk_spin_button_get_value_as_int$20;
-    signed int return_value_gtk_spin_button_get_value_as_int$21;
-    return_value_gtk_spin_button_get_value_as_int$21=gtk_spin_button_get_value_as_int(dialog->peak_halfwidth);
-    conf->peak_half_width = (unsigned int)return_value_gtk_spin_button_get_value_as_int$21;
-    unsigned long int return_value_gtk_range_get_type$22;
-    return_value_gtk_range_get_type$22=gtk_range_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$23;
-    return_value_g_type_check_instance_cast$23=g_type_check_instance_cast((struct _GTypeInstance *)dialog->rejection_peak_relation, return_value_gtk_range_get_type$22);
-    conf->peak_rejection_relation_db=gtk_range_get_value((struct _GtkRange *)return_value_g_type_check_instance_cast$23);
-    signed int return_value_gtk_spin_button_get_value_as_int$24;
-    return_value_gtk_spin_button_get_value_as_int$24=gtk_spin_button_get_value_as_int(dialog->minimum_frequency);
-    conf->min_frequency = (double)return_value_gtk_spin_button_get_value_as_int$24;
+    unsigned long int return_value_gtk_range_get_type_11;
+    return_value_gtk_range_get_type_11=gtk_range_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+    return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)dialog->noise_threshold, return_value_gtk_range_get_type_11);
+    conf->noise_threshold_db=gtk_range_get_value((struct _GtkRange *)return_value_g_type_check_instance_cast_12);
+    unsigned long int return_value_gtk_range_get_type_13;
+    return_value_gtk_range_get_type_13=gtk_range_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+    return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)dialog->gain, return_value_gtk_range_get_type_13);
+    conf->gain=gtk_range_get_value((struct _GtkRange *)return_value_g_type_check_instance_cast_14);
+    signed int return_value_gtk_spin_button_get_value_as_int_15;
+    return_value_gtk_spin_button_get_value_as_int_15=gtk_spin_button_get_value_as_int(dialog->oversampling);
+    conf->oversampling = (unsigned int)return_value_gtk_spin_button_get_value_as_int_15;
+    signed int return_value_gtk_spin_button_get_value_as_int_16;
+    return_value_gtk_spin_button_get_value_as_int_16=gtk_spin_button_get_value_as_int(dialog->dft_number);
+    conf->dft_number = (unsigned int)return_value_gtk_spin_button_get_value_as_int_16;
+    unsigned long int return_value_gtk_spin_button_get_type_17;
+    return_value_gtk_spin_button_get_type_17=gtk_spin_button_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+    return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)dialog->dft_size, return_value_gtk_spin_button_get_type_17);
+    signed int return_value_gtk_spin_button_get_value_as_int_19;
+    return_value_gtk_spin_button_get_value_as_int_19=gtk_spin_button_get_value_as_int((struct _GtkSpinButton *)return_value_g_type_check_instance_cast_18);
+    conf->dft_size = (unsigned int)return_value_gtk_spin_button_get_value_as_int_19;
+    signed int return_value_gtk_spin_button_get_value_as_int_20;
+    return_value_gtk_spin_button_get_value_as_int_20=gtk_spin_button_get_value_as_int(dialog->peak_number);
+    conf->peak_number = (unsigned int)return_value_gtk_spin_button_get_value_as_int_20;
+    signed int return_value_gtk_spin_button_get_value_as_int_21;
+    return_value_gtk_spin_button_get_value_as_int_21=gtk_spin_button_get_value_as_int(dialog->peak_halfwidth);
+    conf->peak_half_width = (unsigned int)return_value_gtk_spin_button_get_value_as_int_21;
+    unsigned long int return_value_gtk_range_get_type_22;
+    return_value_gtk_range_get_type_22=gtk_range_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_23;
+    return_value_g_type_check_instance_cast_23=g_type_check_instance_cast((struct _GTypeInstance *)dialog->rejection_peak_relation, return_value_gtk_range_get_type_22);
+    conf->peak_rejection_relation_db=gtk_range_get_value((struct _GtkRange *)return_value_g_type_check_instance_cast_23);
+    signed int return_value_gtk_spin_button_get_value_as_int_24;
+    return_value_gtk_spin_button_get_value_as_int_24=gtk_spin_button_get_value_as_int(dialog->minimum_frequency);
+    conf->min_frequency = (double)return_value_gtk_spin_button_get_value_as_int_24;
     text1=gtk_combo_box_get_active_text(dialog->fft_size);
-    signed int return_value_atoi$25;
-    return_value_atoi$25=atoi(text1);
-    conf->fft_size = (unsigned int)return_value_atoi$25;
+    signed int return_value_atoi_25;
+    return_value_atoi_25=atoi(text1);
+    conf->fft_size = (unsigned int)return_value_atoi_25;
     g_free((void *)text1);
-    unsigned long int return_value_gtk_bin_get_type$26;
-    return_value_gtk_bin_get_type$26=gtk_bin_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$27;
-    return_value_g_type_check_instance_cast$27=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_bin_get_type$26);
-    unsigned long int return_value_gtk_entry_get_type$28;
-    return_value_gtk_entry_get_type$28=gtk_entry_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$29;
-    return_value_g_type_check_instance_cast$29=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast$27)->child, return_value_gtk_entry_get_type$28);
-    text2=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$29);
+    unsigned long int return_value_gtk_bin_get_type_26;
+    return_value_gtk_bin_get_type_26=gtk_bin_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_27;
+    return_value_g_type_check_instance_cast_27=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_bin_get_type_26);
+    unsigned long int return_value_gtk_entry_get_type_28;
+    return_value_gtk_entry_get_type_28=gtk_entry_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_29;
+    return_value_g_type_check_instance_cast_29=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast_27)->child, return_value_gtk_entry_get_type_28);
+    text2=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_29);
     conf->sample_rate=atoi(text2);
     struct _LingotScale *scale = conf->scale;
     lingot_config_scale_destroy(scale);
@@ -6471,9 +6471,9 @@ signed int lingot_gui_config_dialog_apply(struct _LingotConfigDialog *dialog)
     lingot_gui_mainframe_change_config(dialog->mainframe, conf);
     if(scale->max_offset_rounded > 200.000000)
     {
-      char *return_value_gettext$30;
-      return_value_gettext$30=gettext("The provided scale contains wide gaps in frequency that increase the gauge range and produce a loss of visual accuracy. Consider providing scales with at least 12 tones, or with a maximum distance between adjacent notes below 200 cents.");
-      lingot_msg_add_warning((const char *)return_value_gettext$30);
+      char *return_value_gettext_30;
+      return_value_gettext_30=gettext("The provided scale contains wide gaps in frequency that increase the gauge range and produce a loss of visual accuracy. Consider providing scales with at least 12 tones, or with a maximum distance between adjacent notes below 200 cents.");
+      lingot_msg_add_warning((const char *)return_value_gettext_30);
     }
 
     return 1;
@@ -6484,9 +6484,9 @@ signed int lingot_gui_config_dialog_apply(struct _LingotConfigDialog *dialog)
 // file lingot-gui-config-dialog.c line 66
 void lingot_gui_config_dialog_callback_button_apply(struct _GtkButton *button, struct _LingotConfigDialog *dialog)
 {
-  signed int return_value_lingot_gui_config_dialog_apply$1;
-  return_value_lingot_gui_config_dialog_apply$1=lingot_gui_config_dialog_apply(dialog);
-  if(!(return_value_lingot_gui_config_dialog_apply$1 == 0))
+  signed int return_value_lingot_gui_config_dialog_apply_1;
+  return_value_lingot_gui_config_dialog_apply_1=lingot_gui_config_dialog_apply(dialog);
+  if(!(return_value_lingot_gui_config_dialog_apply_1 == 0))
     lingot_gui_config_dialog_rewrite(dialog);
 
 }
@@ -6510,9 +6510,9 @@ void lingot_gui_config_dialog_callback_button_default(struct _GtkButton *button,
 // file lingot-gui-config-dialog.c line 54
 void lingot_gui_config_dialog_callback_button_ok(struct _GtkButton *button, struct _LingotConfigDialog *dialog)
 {
-  signed int return_value_lingot_gui_config_dialog_apply$1;
-  return_value_lingot_gui_config_dialog_apply$1=lingot_gui_config_dialog_apply(dialog);
-  if(!(return_value_lingot_gui_config_dialog_apply$1 == 0))
+  signed int return_value_lingot_gui_config_dialog_apply_1;
+  return_value_lingot_gui_config_dialog_apply_1=lingot_gui_config_dialog_apply(dialog);
+  if(!(return_value_lingot_gui_config_dialog_apply_1 == 0))
   {
     lingot_config_save(dialog->conf, CONFIG_FILE_NAME);
     lingot_config_copy(dialog->conf_old, dialog->conf);
@@ -6532,11 +6532,11 @@ void lingot_gui_config_dialog_callback_cancel(struct _GtkWidget *widget, struct 
 // file lingot-gui-config-dialog.c line 165
 void lingot_gui_config_dialog_callback_change_deviation(struct _GtkWidget *widget, struct _LingotConfigDialog *dialog)
 {
-  unsigned long int return_value_gtk_widget_get_type$1;
-  return_value_gtk_widget_get_type$1=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)dialog->scale_treeview, return_value_gtk_widget_get_type$1);
-  gtk_widget_queue_draw((struct _GtkWidget *)return_value_g_type_check_instance_cast$2);
+  unsigned long int return_value_gtk_widget_get_type_1;
+  return_value_gtk_widget_get_type_1=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)dialog->scale_treeview, return_value_gtk_widget_get_type_1);
+  gtk_widget_queue_draw((struct _GtkWidget *)return_value_g_type_check_instance_cast_2);
 }
 
 // lingot_gui_config_dialog_callback_change_input_system
@@ -6558,85 +6558,85 @@ void lingot_gui_config_dialog_callback_change_input_system(struct _GtkWidget *wi
       if(properties->n_sample_rates >= 1)
       {
         sprintf(buff, "%d", properties->sample_rates[(signed long int)0]);
-        unsigned long int return_value_gtk_bin_get_type$1;
-        return_value_gtk_bin_get_type$1=gtk_bin_get_type();
-        struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-        return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_bin_get_type$1);
-        unsigned long int return_value_gtk_entry_get_type$3;
-        return_value_gtk_entry_get_type$3=gtk_entry_get_type();
-        struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-        return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast$2)->child, return_value_gtk_entry_get_type$3);
-        gtk_entry_set_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$4, buff);
+        unsigned long int return_value_gtk_bin_get_type_1;
+        return_value_gtk_bin_get_type_1=gtk_bin_get_type();
+        struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+        return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_bin_get_type_1);
+        unsigned long int return_value_gtk_entry_get_type_3;
+        return_value_gtk_entry_get_type_3=gtk_entry_get_type();
+        struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+        return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast_2)->child, return_value_gtk_entry_get_type_3);
+        gtk_entry_set_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_4, buff);
       }
 
     }
 
-    unsigned long int return_value_gtk_widget_get_type$5;
-    return_value_gtk_widget_get_type$5=gtk_widget_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-    return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_widget_get_type$5);
-    gtk_widget_set_sensitive((struct _GtkWidget *)return_value_g_type_check_instance_cast$6, (signed int)!(properties->forced_sample_rate != 0));
+    unsigned long int return_value_gtk_widget_get_type_5;
+    return_value_gtk_widget_get_type_5=gtk_widget_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+    return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_widget_get_type_5);
+    gtk_widget_set_sensitive((struct _GtkWidget *)return_value_g_type_check_instance_cast_6, (signed int)!(properties->forced_sample_rate != 0));
     struct _GtkListStore *model;
-    unsigned long int return_value_gtk_combo_box_get_type$7;
-    return_value_gtk_combo_box_get_type$7=gtk_combo_box_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-    return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_combo_box_get_type$7);
-    struct _GtkTreeModel *return_value_gtk_combo_box_get_model$9;
-    return_value_gtk_combo_box_get_model$9=gtk_combo_box_get_model((struct _GtkComboBox *)return_value_g_type_check_instance_cast$8);
-    unsigned long int return_value_gtk_list_store_get_type$10;
-    return_value_gtk_list_store_get_type$10=gtk_list_store_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$11;
-    return_value_g_type_check_instance_cast$11=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_combo_box_get_model$9, return_value_gtk_list_store_get_type$10);
-    model = (struct _GtkListStore *)return_value_g_type_check_instance_cast$11;
+    unsigned long int return_value_gtk_combo_box_get_type_7;
+    return_value_gtk_combo_box_get_type_7=gtk_combo_box_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+    return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_combo_box_get_type_7);
+    struct _GtkTreeModel *return_value_gtk_combo_box_get_model_9;
+    return_value_gtk_combo_box_get_model_9=gtk_combo_box_get_model((struct _GtkComboBox *)return_value_g_type_check_instance_cast_8);
+    unsigned long int return_value_gtk_list_store_get_type_10;
+    return_value_gtk_list_store_get_type_10=gtk_list_store_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_11;
+    return_value_g_type_check_instance_cast_11=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_combo_box_get_model_9, return_value_gtk_list_store_get_type_10);
+    model = (struct _GtkListStore *)return_value_g_type_check_instance_cast_11;
     gtk_list_store_clear(model);
     signed int i = 0;
     for( ; !(i >= properties->n_sample_rates); i = i + 1)
     {
       sprintf(buff, "%d", properties->sample_rates[(signed long int)i]);
-      unsigned long int return_value_gtk_combo_box_get_type$12;
-      return_value_gtk_combo_box_get_type$12=gtk_combo_box_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$13;
-      return_value_g_type_check_instance_cast$13=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_combo_box_get_type$12);
-      gtk_combo_box_append_text((struct _GtkComboBox *)return_value_g_type_check_instance_cast$13, buff);
+      unsigned long int return_value_gtk_combo_box_get_type_12;
+      return_value_gtk_combo_box_get_type_12=gtk_combo_box_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_13;
+      return_value_g_type_check_instance_cast_13=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_combo_box_get_type_12);
+      gtk_combo_box_append_text((struct _GtkComboBox *)return_value_g_type_check_instance_cast_13, buff);
     }
-    unsigned long int return_value_gtk_bin_get_type$14;
-    return_value_gtk_bin_get_type$14=gtk_bin_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$15;
-    return_value_g_type_check_instance_cast$15=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_bin_get_type$14);
-    unsigned long int return_value_gtk_entry_get_type$16;
-    return_value_gtk_entry_get_type$16=gtk_entry_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$17;
-    return_value_g_type_check_instance_cast$17=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast$15)->child, return_value_gtk_entry_get_type$16);
-    gtk_entry_set_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$17, dialog->conf->audio_dev[(signed long int)audio_system]);
-    unsigned long int return_value_gtk_widget_get_type$18;
-    return_value_gtk_widget_get_type$18=gtk_widget_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$19;
-    return_value_g_type_check_instance_cast$19=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_widget_get_type$18);
-    gtk_widget_set_sensitive((struct _GtkWidget *)return_value_g_type_check_instance_cast$19, (signed int)((signed int)audio_system != AUDIO_SYSTEM_JACK));
+    unsigned long int return_value_gtk_bin_get_type_14;
+    return_value_gtk_bin_get_type_14=gtk_bin_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_15;
+    return_value_g_type_check_instance_cast_15=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_bin_get_type_14);
+    unsigned long int return_value_gtk_entry_get_type_16;
+    return_value_gtk_entry_get_type_16=gtk_entry_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_17;
+    return_value_g_type_check_instance_cast_17=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast_15)->child, return_value_gtk_entry_get_type_16);
+    gtk_entry_set_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_17, dialog->conf->audio_dev[(signed long int)audio_system]);
+    unsigned long int return_value_gtk_widget_get_type_18;
+    return_value_gtk_widget_get_type_18=gtk_widget_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_19;
+    return_value_g_type_check_instance_cast_19=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_widget_get_type_18);
+    gtk_widget_set_sensitive((struct _GtkWidget *)return_value_g_type_check_instance_cast_19, (signed int)((signed int)audio_system != AUDIO_SYSTEM_JACK));
     lingot_audio_audio_system_properties_destroy(properties);
   }
 
   else
   {
-    unsigned long int return_value_gtk_bin_get_type$20;
-    return_value_gtk_bin_get_type$20=gtk_bin_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$21;
-    return_value_g_type_check_instance_cast$21=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_bin_get_type$20);
-    unsigned long int return_value_gtk_entry_get_type$22;
-    return_value_gtk_entry_get_type$22=gtk_entry_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$23;
-    return_value_g_type_check_instance_cast$23=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast$21)->child, return_value_gtk_entry_get_type$22);
-    gtk_entry_set_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$23, "");
-    unsigned long int return_value_gtk_widget_get_type$24;
-    return_value_gtk_widget_get_type$24=gtk_widget_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$25;
-    return_value_g_type_check_instance_cast$25=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_widget_get_type$24);
-    gtk_widget_set_sensitive((struct _GtkWidget *)return_value_g_type_check_instance_cast$25, 0);
-    unsigned long int return_value_gtk_widget_get_type$26;
-    return_value_gtk_widget_get_type$26=gtk_widget_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$27;
-    return_value_g_type_check_instance_cast$27=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_widget_get_type$26);
-    gtk_widget_set_sensitive((struct _GtkWidget *)return_value_g_type_check_instance_cast$27, 0);
+    unsigned long int return_value_gtk_bin_get_type_20;
+    return_value_gtk_bin_get_type_20=gtk_bin_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_21;
+    return_value_g_type_check_instance_cast_21=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_bin_get_type_20);
+    unsigned long int return_value_gtk_entry_get_type_22;
+    return_value_gtk_entry_get_type_22=gtk_entry_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_23;
+    return_value_g_type_check_instance_cast_23=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast_21)->child, return_value_gtk_entry_get_type_22);
+    gtk_entry_set_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_23, "");
+    unsigned long int return_value_gtk_widget_get_type_24;
+    return_value_gtk_widget_get_type_24=gtk_widget_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_25;
+    return_value_g_type_check_instance_cast_25=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_widget_get_type_24);
+    gtk_widget_set_sensitive((struct _GtkWidget *)return_value_g_type_check_instance_cast_25, 0);
+    unsigned long int return_value_gtk_widget_get_type_26;
+    return_value_gtk_widget_get_type_26=gtk_widget_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_27;
+    return_value_g_type_check_instance_cast_27=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_widget_get_type_26);
+    gtk_widget_set_sensitive((struct _GtkWidget *)return_value_g_type_check_instance_cast_27, 0);
   }
 }
 
@@ -6645,15 +6645,15 @@ void lingot_gui_config_dialog_callback_change_input_system(struct _GtkWidget *wi
 void lingot_gui_config_dialog_callback_change_sample_rate(struct _GtkWidget *widget, struct _LingotConfigDialog *dialog)
 {
   const char *text;
-  unsigned long int return_value_gtk_bin_get_type$1;
-  return_value_gtk_bin_get_type$1=gtk_bin_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_bin_get_type$1);
-  unsigned long int return_value_gtk_entry_get_type$3;
-  return_value_gtk_entry_get_type$3=gtk_entry_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast$2)->child, return_value_gtk_entry_get_type$3);
-  text=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$4);
+  unsigned long int return_value_gtk_bin_get_type_1;
+  return_value_gtk_bin_get_type_1=gtk_bin_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_bin_get_type_1);
+  unsigned long int return_value_gtk_entry_get_type_3;
+  return_value_gtk_entry_get_type_3=gtk_entry_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast_2)->child, return_value_gtk_entry_get_type_3);
+  text=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_4);
   signed int sr;
   if(!(text == ((const char *)NULL)))
     sr=atoi(text);
@@ -6664,11 +6664,11 @@ void lingot_gui_config_dialog_callback_change_sample_rate(struct _GtkWidget *wid
   char buff2[20l];
   double srf = (double)sr;
   double os;
-  unsigned long int return_value_gtk_spin_button_get_type$5;
-  return_value_gtk_spin_button_get_type$5=gtk_spin_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)dialog->oversampling, return_value_gtk_spin_button_get_type$5);
-  os=gtk_spin_button_get_value((struct _GtkSpinButton *)return_value_g_type_check_instance_cast$6);
+  unsigned long int return_value_gtk_spin_button_get_type_5;
+  return_value_gtk_spin_button_get_type_5=gtk_spin_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)dialog->oversampling, return_value_gtk_spin_button_get_type_5);
+  os=gtk_spin_button_get_value((struct _GtkSpinButton *)return_value_g_type_check_instance_cast_6);
   sprintf(buff1, "%d", sr);
   sprintf(buff2, " = %0.1f", srf / os);
   gtk_label_set_text(dialog->label_sample_rate1, buff1);
@@ -6697,27 +6697,27 @@ void lingot_gui_config_dialog_close(struct _LingotConfigDialog *dialog)
 void lingot_gui_config_dialog_combo_select_value(struct _GtkWidget *combo, signed int value)
 {
   struct _GtkTreeModel *model;
-  unsigned long int return_value_gtk_combo_box_get_type$1;
-  return_value_gtk_combo_box_get_type$1=gtk_combo_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)combo, return_value_gtk_combo_box_get_type$1);
-  model=gtk_combo_box_get_model((struct _GtkComboBox *)return_value_g_type_check_instance_cast$2);
+  unsigned long int return_value_gtk_combo_box_get_type_1;
+  return_value_gtk_combo_box_get_type_1=gtk_combo_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)combo, return_value_gtk_combo_box_get_type_1);
+  model=gtk_combo_box_get_model((struct _GtkComboBox *)return_value_g_type_check_instance_cast_2);
   struct _GtkTreeIter iter;
   signed int valid;
   valid=gtk_tree_model_get_iter_first(model, &iter);
-  unsigned long int return_value_gtk_combo_box_get_type$3;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
+  unsigned long int return_value_gtk_combo_box_get_type_3;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
   while(!(valid == 0))
   {
     char *str_data;
     gtk_tree_model_get(model, &iter, 0, &str_data, -1);
-    signed int return_value_atoi$5;
-    return_value_atoi$5=atoi(str_data);
-    if(return_value_atoi$5 == value)
+    signed int return_value_atoi_5;
+    return_value_atoi_5=atoi(str_data);
+    if(return_value_atoi_5 == value)
     {
-      return_value_gtk_combo_box_get_type$3=gtk_combo_box_get_type();
-      return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)combo, return_value_gtk_combo_box_get_type$3);
-      gtk_combo_box_set_active_iter((struct _GtkComboBox *)return_value_g_type_check_instance_cast$4, &iter);
+      return_value_gtk_combo_box_get_type_3=gtk_combo_box_get_type();
+      return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)combo, return_value_gtk_combo_box_get_type_3);
+      gtk_combo_box_set_active_iter((struct _GtkComboBox *)return_value_g_type_check_instance_cast_4, &iter);
     }
 
     g_free((void *)str_data);
@@ -6742,9 +6742,9 @@ enum audio_system_t lingot_gui_config_dialog_get_audio_system(struct _GtkComboBo
   char *text;
   text=gtk_combo_box_get_active_text(combo);
   signed int result;
-  enum audio_system_t return_value_str_to_audio_system_t$1;
-  return_value_str_to_audio_system_t$1=str_to_audio_system_t(text);
-  result = (signed int)return_value_str_to_audio_system_t$1;
+  enum audio_system_t return_value_str_to_audio_system_t_1;
+  return_value_str_to_audio_system_t_1=str_to_audio_system_t(text);
+  result = (signed int)return_value_str_to_audio_system_t_1;
   free((void *)text);
   return (enum audio_system_t)result;
 }
@@ -6754,67 +6754,67 @@ enum audio_system_t lingot_gui_config_dialog_get_audio_system(struct _GtkComboBo
 void lingot_gui_config_dialog_import_scl(void *data, struct _LingotConfigDialog *config_dialog)
 {
   struct _GtkWidget *dialog;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Open Scale File");
-  unsigned long int return_value_gtk_window_get_type$2;
-  return_value_gtk_window_get_type$2=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)config_dialog->win, return_value_gtk_window_get_type$2);
-  dialog=gtk_file_chooser_dialog_new((const char *)return_value_gettext$1, (struct _GtkWindow *)return_value_g_type_check_instance_cast$3, (enum anonymous$7)GTK_FILE_CHOOSER_ACTION_OPEN, "gtk-cancel", -6, (const void *)"gtk-open", -3, (void *)0);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Open Scale File");
+  unsigned long int return_value_gtk_window_get_type_2;
+  return_value_gtk_window_get_type_2=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)config_dialog->win, return_value_gtk_window_get_type_2);
+  dialog=gtk_file_chooser_dialog_new((const char *)return_value_gettext_1, (struct _GtkWindow *)return_value_g_type_check_instance_cast_3, (enum anonymous_7)GTK_FILE_CHOOSER_ACTION_OPEN, "gtk-cancel", -6, (const void *)"gtk-open", -3, (void *)0);
   struct _GtkFileFilter *filefilter;
   filefilter=gtk_file_filter_new();
-  char *return_value_gettext$4;
-  return_value_gettext$4=gettext("Scala files");
-  gtk_file_filter_set_name(filefilter, (const char *)return_value_gettext$4);
+  char *return_value_gettext_4;
+  return_value_gettext_4=gettext("Scala files");
+  gtk_file_filter_set_name(filefilter, (const char *)return_value_gettext_4);
   gtk_file_filter_add_pattern(filefilter, "*.scl");
-  unsigned long int return_value_gtk_file_chooser_get_type$5;
-  return_value_gtk_file_chooser_get_type$5=gtk_file_chooser_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$5);
-  gtk_file_chooser_add_filter((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$6, filefilter);
+  unsigned long int return_value_gtk_file_chooser_get_type_5;
+  return_value_gtk_file_chooser_get_type_5=gtk_file_chooser_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_5);
+  gtk_file_chooser_add_filter((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_6, filefilter);
   static char *filechooser_last_folder = (char *)(void *)0;
   if(!(filechooser_last_folder == ((char *)NULL)))
   {
-    unsigned long int return_value_gtk_file_chooser_get_type$7;
-    return_value_gtk_file_chooser_get_type$7=gtk_file_chooser_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-    return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$7);
-    gtk_file_chooser_set_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$8, filechooser_last_folder);
+    unsigned long int return_value_gtk_file_chooser_get_type_7;
+    return_value_gtk_file_chooser_get_type_7=gtk_file_chooser_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+    return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_7);
+    gtk_file_chooser_set_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_8, filechooser_last_folder);
   }
 
-  unsigned long int return_value_gtk_dialog_get_type$16;
-  return_value_gtk_dialog_get_type$16=gtk_dialog_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$17;
-  return_value_g_type_check_instance_cast$17=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type$16);
-  signed int return_value_gtk_dialog_run$18;
-  return_value_gtk_dialog_run$18=gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast$17);
-  if(return_value_gtk_dialog_run$18 == -3)
+  unsigned long int return_value_gtk_dialog_get_type_16;
+  return_value_gtk_dialog_get_type_16=gtk_dialog_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_17;
+  return_value_g_type_check_instance_cast_17=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type_16);
+  signed int return_value_gtk_dialog_run_18;
+  return_value_gtk_dialog_run_18=gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast_17);
+  if(return_value_gtk_dialog_run_18 == -3)
   {
     char *filename;
-    unsigned long int return_value_gtk_file_chooser_get_type$9;
-    return_value_gtk_file_chooser_get_type$9=gtk_file_chooser_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-    return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$9);
-    filename=gtk_file_chooser_get_filename((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$10);
+    unsigned long int return_value_gtk_file_chooser_get_type_9;
+    return_value_gtk_file_chooser_get_type_9=gtk_file_chooser_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+    return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_9);
+    filename=gtk_file_chooser_get_filename((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_10);
     if(!(filechooser_last_folder == ((char *)NULL)))
       free((void *)filechooser_last_folder);
 
-    unsigned long int return_value_gtk_file_chooser_get_type$11;
-    return_value_gtk_file_chooser_get_type$11=gtk_file_chooser_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-    return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$11);
-    char *return_value_gtk_file_chooser_get_current_folder$13;
-    return_value_gtk_file_chooser_get_current_folder$13=gtk_file_chooser_get_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$12);
-    filechooser_last_folder=strdup(return_value_gtk_file_chooser_get_current_folder$13);
+    unsigned long int return_value_gtk_file_chooser_get_type_11;
+    return_value_gtk_file_chooser_get_type_11=gtk_file_chooser_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+    return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_11);
+    char *return_value_gtk_file_chooser_get_current_folder_13;
+    return_value_gtk_file_chooser_get_current_folder_13=gtk_file_chooser_get_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_12);
+    filechooser_last_folder=strdup(return_value_gtk_file_chooser_get_current_folder_13);
     struct _LingotScale *scale;
     scale=lingot_config_scale_new();
-    signed int return_value_lingot_config_scale_load_scl$15;
-    return_value_lingot_config_scale_load_scl$15=lingot_config_scale_load_scl(scale, filename);
-    if(return_value_lingot_config_scale_load_scl$15 == 0)
+    signed int return_value_lingot_config_scale_load_scl_15;
+    return_value_lingot_config_scale_load_scl_15=lingot_config_scale_load_scl(scale, filename);
+    if(return_value_lingot_config_scale_load_scl_15 == 0)
     {
-      char *return_value_gettext$14;
-      return_value_gettext$14=gettext("The scale cannot be imported: file format error");
-      lingot_msg_add_error((const char *)return_value_gettext$14);
+      char *return_value_gettext_14;
+      return_value_gettext_14=gettext("The scale cannot be imported: file format error");
+      lingot_msg_add_error((const char *)return_value_gettext_14);
       lingot_config_scale_destroy(scale);
       free((void *)scale);
     }
@@ -6833,35 +6833,35 @@ void lingot_gui_config_dialog_rewrite(struct _LingotConfigDialog *dialog)
 {
   struct _LingotConfig *conf = dialog->conf;
   lingot_gui_config_dialog_set_audio_system(dialog->input_system, conf->audio_system);
-  unsigned long int return_value_gtk_bin_get_type$1;
-  return_value_gtk_bin_get_type$1=gtk_bin_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_bin_get_type$1);
-  unsigned long int return_value_gtk_entry_get_type$3;
-  return_value_gtk_entry_get_type$3=gtk_entry_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast$2)->child, return_value_gtk_entry_get_type$3);
-  gtk_entry_set_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$4, conf->audio_dev[(signed long int)conf->audio_system]);
-  unsigned long int return_value_gtk_range_get_type$5;
-  return_value_gtk_range_get_type$5=gtk_range_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)dialog->calculation_rate, return_value_gtk_range_get_type$5);
-  gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast$6, conf->calculation_rate);
-  unsigned long int return_value_gtk_range_get_type$7;
-  return_value_gtk_range_get_type$7=gtk_range_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)dialog->visualization_rate, return_value_gtk_range_get_type$7);
-  gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast$8, conf->visualization_rate);
-  unsigned long int return_value_gtk_range_get_type$9;
-  return_value_gtk_range_get_type$9=gtk_range_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)dialog->noise_threshold, return_value_gtk_range_get_type$9);
-  gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast$10, conf->noise_threshold_db);
-  unsigned long int return_value_gtk_range_get_type$11;
-  return_value_gtk_range_get_type$11=gtk_range_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)dialog->gain, return_value_gtk_range_get_type$11);
-  gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast$12, conf->gain);
+  unsigned long int return_value_gtk_bin_get_type_1;
+  return_value_gtk_bin_get_type_1=gtk_bin_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_dev, return_value_gtk_bin_get_type_1);
+  unsigned long int return_value_gtk_entry_get_type_3;
+  return_value_gtk_entry_get_type_3=gtk_entry_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast_2)->child, return_value_gtk_entry_get_type_3);
+  gtk_entry_set_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_4, conf->audio_dev[(signed long int)conf->audio_system]);
+  unsigned long int return_value_gtk_range_get_type_5;
+  return_value_gtk_range_get_type_5=gtk_range_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)dialog->calculation_rate, return_value_gtk_range_get_type_5);
+  gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast_6, conf->calculation_rate);
+  unsigned long int return_value_gtk_range_get_type_7;
+  return_value_gtk_range_get_type_7=gtk_range_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)dialog->visualization_rate, return_value_gtk_range_get_type_7);
+  gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast_8, conf->visualization_rate);
+  unsigned long int return_value_gtk_range_get_type_9;
+  return_value_gtk_range_get_type_9=gtk_range_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)dialog->noise_threshold, return_value_gtk_range_get_type_9);
+  gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast_10, conf->noise_threshold_db);
+  unsigned long int return_value_gtk_range_get_type_11;
+  return_value_gtk_range_get_type_11=gtk_range_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)dialog->gain, return_value_gtk_range_get_type_11);
+  gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast_12, conf->gain);
   gtk_spin_button_set_value(dialog->oversampling, (double)conf->oversampling);
   gtk_spin_button_set_value(dialog->root_frequency_error, conf->root_frequency_error);
   gtk_spin_button_set_value(dialog->temporal_window, conf->temporal_window);
@@ -6870,27 +6870,27 @@ void lingot_gui_config_dialog_rewrite(struct _LingotConfigDialog *dialog)
   gtk_spin_button_set_value(dialog->peak_number, (double)conf->peak_number);
   gtk_spin_button_set_value(dialog->peak_halfwidth, (double)conf->peak_half_width);
   gtk_spin_button_set_value(dialog->minimum_frequency, conf->min_frequency);
-  unsigned long int return_value_gtk_range_get_type$13;
-  return_value_gtk_range_get_type$13=gtk_range_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)dialog->rejection_peak_relation, return_value_gtk_range_get_type$13);
-  gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast$14, conf->peak_rejection_relation_db);
-  unsigned long int return_value_gtk_widget_get_type$15;
-  return_value_gtk_widget_get_type$15=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)dialog->fft_size, return_value_gtk_widget_get_type$15);
-  lingot_gui_config_dialog_combo_select_value((struct _GtkWidget *)return_value_g_type_check_instance_cast$16, (signed int)conf->fft_size);
+  unsigned long int return_value_gtk_range_get_type_13;
+  return_value_gtk_range_get_type_13=gtk_range_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)dialog->rejection_peak_relation, return_value_gtk_range_get_type_13);
+  gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast_14, conf->peak_rejection_relation_db);
+  unsigned long int return_value_gtk_widget_get_type_15;
+  return_value_gtk_widget_get_type_15=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)dialog->fft_size, return_value_gtk_widget_get_type_15);
+  lingot_gui_config_dialog_combo_select_value((struct _GtkWidget *)return_value_g_type_check_instance_cast_16, (signed int)conf->fft_size);
   char buff[10l];
   sprintf(buff, "%d", conf->sample_rate);
-  unsigned long int return_value_gtk_bin_get_type$17;
-  return_value_gtk_bin_get_type$17=gtk_bin_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_bin_get_type$17);
-  unsigned long int return_value_gtk_entry_get_type$19;
-  return_value_gtk_entry_get_type$19=gtk_entry_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-  return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast$18)->child, return_value_gtk_entry_get_type$19);
-  gtk_entry_set_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$20, buff);
+  unsigned long int return_value_gtk_bin_get_type_17;
+  return_value_gtk_bin_get_type_17=gtk_bin_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_bin_get_type_17);
+  unsigned long int return_value_gtk_entry_get_type_19;
+  return_value_gtk_entry_get_type_19=gtk_entry_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+  return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast_18)->child, return_value_gtk_entry_get_type_19);
+  gtk_entry_set_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_20, buff);
   lingot_gui_config_dialog_scale_rewrite(dialog, conf->scale);
 }
 
@@ -6912,12 +6912,12 @@ void lingot_gui_config_dialog_scale_apply(struct _LingotConfigDialog *dialog, st
   rows=gtk_tree_model_iter_n_children(model, (struct _GtkTreeIter *)(void *)0);
   gtk_tree_model_get_iter_first(model, &iter);
   gtk_tree_model_get(model, &iter, 2, &freq, -1);
-  const char *return_value_gtk_entry_get_text$1;
-  return_value_gtk_entry_get_text$1=gtk_entry_get_text(dialog->scale_name);
-  scale->name=strdup(return_value_gtk_entry_get_text$1);
+  const char *return_value_gtk_entry_get_text_1;
+  return_value_gtk_entry_get_text_1=gtk_entry_get_text(dialog->scale_name);
+  scale->name=strdup(return_value_gtk_entry_get_text_1);
   scale->base_frequency = freq;
   lingot_config_scale_allocate(scale, (unsigned short int)rows);
-  signed int return_value_gtk_tree_model_iter_next$2;
+  signed int return_value_gtk_tree_model_iter_next_2;
   do
   {
     gtk_tree_model_get(model, &iter, 0, &name, 1, &shift_char, -1);
@@ -6928,9 +6928,9 @@ void lingot_gui_config_dialog_scale_apply(struct _LingotConfigDialog *dialog, st
     scale->offset_ratios[(signed long int)0][(signed long int)i] = shift_num;
     scale->offset_ratios[(signed long int)1][(signed long int)i] = shift_den;
     i = i + 1;
-    return_value_gtk_tree_model_iter_next$2=gtk_tree_model_iter_next(model, &iter);
+    return_value_gtk_tree_model_iter_next_2=gtk_tree_model_iter_next(model, &iter);
   }
-  while(!(return_value_gtk_tree_model_iter_next$2 == 0));
+  while(!(return_value_gtk_tree_model_iter_next_2 == 0));
 }
 
 // lingot_gui_config_dialog_scale_key_press_cb
@@ -6942,17 +6942,17 @@ signed int lingot_gui_config_dialog_scale_key_press_cb(struct _GtkWidget *widget
   {
     if(kevent->keyval == 65535u)
     {
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$1;
-      return_value_g_type_check_instance_cast$1=g_type_check_instance_cast((struct _GTypeInstance *)dialog->button_scale_del, (unsigned long int)(20 << 2));
-      g_signal_emit_by_name((void *)(struct _GObject *)return_value_g_type_check_instance_cast$1, "clicked", (void *)0);
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_1;
+      return_value_g_type_check_instance_cast_1=g_type_check_instance_cast((struct _GTypeInstance *)dialog->button_scale_del, (unsigned long int)(20 << 2));
+      g_signal_emit_by_name((void *)(struct _GObject *)return_value_g_type_check_instance_cast_1, "clicked", (void *)0);
     }
 
     else
       if(kevent->keyval == 65379u)
       {
-        struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-        return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)dialog->button_scale_add, (unsigned long int)(20 << 2));
-        g_signal_emit_by_name((void *)(struct _GObject *)return_value_g_type_check_instance_cast$2, "clicked", (void *)0);
+        struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+        return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)dialog->button_scale_add, (unsigned long int)(20 << 2));
+        g_signal_emit_by_name((void *)(struct _GObject *)return_value_g_type_check_instance_cast_2, "clicked", (void *)0);
       }
 
   }
@@ -6966,9 +6966,9 @@ void lingot_gui_config_dialog_scale_rewrite(struct _LingotConfigDialog *dialog, 
 {
   gtk_entry_set_text(dialog->scale_name, scale->name);
   struct _GtkTreeStore *store;
-  struct _GtkTreeModel *return_value_gtk_tree_view_get_model$1;
-  return_value_gtk_tree_view_get_model$1=gtk_tree_view_get_model(dialog->scale_treeview);
-  store = (struct _GtkTreeStore *)return_value_gtk_tree_view_get_model$1;
+  struct _GtkTreeModel *return_value_gtk_tree_view_get_model_1;
+  return_value_gtk_tree_view_get_model_1=gtk_tree_view_get_model(dialog->scale_treeview);
+  store = (struct _GtkTreeStore *)return_value_gtk_tree_view_get_model_1;
   gtk_tree_store_clear(store);
   struct _GtkTreeIter iter2;
   char buff[80l];
@@ -6977,9 +6977,9 @@ void lingot_gui_config_dialog_scale_rewrite(struct _LingotConfigDialog *dialog, 
   {
     gtk_tree_store_append(store, &iter2, (struct _GtkTreeIter *)(void *)0);
     double freq;
-    double return_value_pow$2;
-    return_value_pow$2=pow(2.0, scale->offset_cents[(signed long int)i] / 1200.0);
-    freq = scale->base_frequency * return_value_pow$2;
+    double return_value_pow_2;
+    return_value_pow_2=pow(2.0, scale->offset_cents[(signed long int)i] / 1200.0);
+    freq = scale->base_frequency * return_value_pow_2;
     lingot_config_scale_format_shift(buff, scale->offset_cents[(signed long int)i], scale->offset_ratios[(signed long int)0][(signed long int)i], scale->offset_ratios[(signed long int)1][(signed long int)i]);
     gtk_tree_store_set(store, &iter2, 0, scale->note_name[(signed long int)i], 1, (const void *)buff, 2, freq, -1);
   }
@@ -6989,89 +6989,89 @@ void lingot_gui_config_dialog_scale_rewrite(struct _LingotConfigDialog *dialog, 
 // file lingot-gui-config-dialog-scale.h line 33
 void lingot_gui_config_dialog_scale_show(struct _LingotConfigDialog *dialog, struct _GladeXML *_gladeXML)
 {
-  struct _GtkWidget *return_value_glade_xml_get_widget$1;
-  return_value_glade_xml_get_widget$1=glade_xml_get_widget(_gladeXML, "scale_name");
-  unsigned long int return_value_gtk_entry_get_type$2;
-  return_value_gtk_entry_get_type$2=gtk_entry_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$1, return_value_gtk_entry_get_type$2);
-  dialog->scale_name = (struct _GtkEntry *)return_value_g_type_check_instance_cast$3;
+  struct _GtkWidget *return_value_glade_xml_get_widget_1;
+  return_value_glade_xml_get_widget_1=glade_xml_get_widget(_gladeXML, "scale_name");
+  unsigned long int return_value_gtk_entry_get_type_2;
+  return_value_gtk_entry_get_type_2=gtk_entry_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_1, return_value_gtk_entry_get_type_2);
+  dialog->scale_name = (struct _GtkEntry *)return_value_g_type_check_instance_cast_3;
   struct _GtkWidget *scroll;
   scroll=glade_xml_get_widget(_gladeXML, "scrolledwindow1");
   struct _GtkTreeStore *model_store;
   model_store=gtk_tree_store_new(3, (unsigned long int)(16 << 2), (unsigned long int)(16 << 2), (unsigned long int)(15 << 2));
   struct _GtkTreeModel *model;
-  unsigned long int return_value_gtk_tree_model_get_type$4;
-  return_value_gtk_tree_model_get_type$4=gtk_tree_model_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)model_store, return_value_gtk_tree_model_get_type$4);
-  model = (struct _GtkTreeModel *)return_value_g_type_check_instance_cast$5;
-  struct _GtkWidget *return_value_gtk_tree_view_new$6;
-  return_value_gtk_tree_view_new$6=gtk_tree_view_new();
-  unsigned long int return_value_gtk_tree_view_get_type$7;
-  return_value_gtk_tree_view_get_type$7=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_tree_view_new$6, return_value_gtk_tree_view_get_type$7);
-  dialog->scale_treeview = (struct _GtkTreeView *)return_value_g_type_check_instance_cast$8;
+  unsigned long int return_value_gtk_tree_model_get_type_4;
+  return_value_gtk_tree_model_get_type_4=gtk_tree_model_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)model_store, return_value_gtk_tree_model_get_type_4);
+  model = (struct _GtkTreeModel *)return_value_g_type_check_instance_cast_5;
+  struct _GtkWidget *return_value_gtk_tree_view_new_6;
+  return_value_gtk_tree_view_new_6=gtk_tree_view_new();
+  unsigned long int return_value_gtk_tree_view_get_type_7;
+  return_value_gtk_tree_view_get_type_7=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_tree_view_new_6, return_value_gtk_tree_view_get_type_7);
+  dialog->scale_treeview = (struct _GtkTreeView *)return_value_g_type_check_instance_cast_8;
   lingot_gui_config_dialog_scale_tree_add_column(dialog);
   gtk_tree_view_set_model(dialog->scale_treeview, model);
-  struct _GtkTreeSelection *return_value_gtk_tree_view_get_selection$9;
-  return_value_gtk_tree_view_get_selection$9=gtk_tree_view_get_selection(dialog->scale_treeview);
-  gtk_tree_selection_set_mode(return_value_gtk_tree_view_get_selection$9, (enum anonymous$6)GTK_SELECTION_MULTIPLE);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)model, (unsigned long int)(20 << 2));
-  g_object_unref((void *)(struct _GObject *)return_value_g_type_check_instance_cast$10);
-  unsigned long int return_value_gtk_container_get_type$11;
-  return_value_gtk_container_get_type$11=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)scroll, return_value_gtk_container_get_type$11);
-  unsigned long int return_value_gtk_widget_get_type$13;
-  return_value_gtk_widget_get_type$13=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)dialog->scale_treeview, return_value_gtk_widget_get_type$13);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$12, (struct _GtkWidget *)return_value_g_type_check_instance_cast$14);
-  struct _GtkWidget *return_value_glade_xml_get_widget$15;
-  return_value_glade_xml_get_widget$15=glade_xml_get_widget(_gladeXML, "button_scale_del");
-  unsigned long int return_value_gtk_button_get_type$16;
-  return_value_gtk_button_get_type$16=gtk_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$17;
-  return_value_g_type_check_instance_cast$17=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$15, return_value_gtk_button_get_type$16);
-  dialog->button_scale_del = (struct _GtkButton *)return_value_g_type_check_instance_cast$17;
-  struct _GtkWidget *return_value_glade_xml_get_widget$18;
-  return_value_glade_xml_get_widget$18=glade_xml_get_widget(_gladeXML, "button_scale_add");
-  unsigned long int return_value_gtk_button_get_type$19;
-  return_value_gtk_button_get_type$19=gtk_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-  return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$18, return_value_gtk_button_get_type$19);
-  dialog->button_scale_add = (struct _GtkButton *)return_value_g_type_check_instance_cast$20;
+  struct _GtkTreeSelection *return_value_gtk_tree_view_get_selection_9;
+  return_value_gtk_tree_view_get_selection_9=gtk_tree_view_get_selection(dialog->scale_treeview);
+  gtk_tree_selection_set_mode(return_value_gtk_tree_view_get_selection_9, (enum anonymous_6)GTK_SELECTION_MULTIPLE);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)model, (unsigned long int)(20 << 2));
+  g_object_unref((void *)(struct _GObject *)return_value_g_type_check_instance_cast_10);
+  unsigned long int return_value_gtk_container_get_type_11;
+  return_value_gtk_container_get_type_11=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)scroll, return_value_gtk_container_get_type_11);
+  unsigned long int return_value_gtk_widget_get_type_13;
+  return_value_gtk_widget_get_type_13=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)dialog->scale_treeview, return_value_gtk_widget_get_type_13);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_12, (struct _GtkWidget *)return_value_g_type_check_instance_cast_14);
+  struct _GtkWidget *return_value_glade_xml_get_widget_15;
+  return_value_glade_xml_get_widget_15=glade_xml_get_widget(_gladeXML, "button_scale_del");
+  unsigned long int return_value_gtk_button_get_type_16;
+  return_value_gtk_button_get_type_16=gtk_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_17;
+  return_value_g_type_check_instance_cast_17=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_15, return_value_gtk_button_get_type_16);
+  dialog->button_scale_del = (struct _GtkButton *)return_value_g_type_check_instance_cast_17;
+  struct _GtkWidget *return_value_glade_xml_get_widget_18;
+  return_value_glade_xml_get_widget_18=glade_xml_get_widget(_gladeXML, "button_scale_add");
+  unsigned long int return_value_gtk_button_get_type_19;
+  return_value_gtk_button_get_type_19=gtk_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+  return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_18, return_value_gtk_button_get_type_19);
+  dialog->button_scale_add = (struct _GtkButton *)return_value_g_type_check_instance_cast_20;
   struct _GtkButton *button_import;
-  struct _GtkWidget *return_value_glade_xml_get_widget$21;
-  return_value_glade_xml_get_widget$21=glade_xml_get_widget(_gladeXML, "button_scale_import");
-  unsigned long int return_value_gtk_button_get_type$22;
-  return_value_gtk_button_get_type$22=gtk_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$23;
-  return_value_g_type_check_instance_cast$23=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$21, return_value_gtk_button_get_type$22);
-  button_import = (struct _GtkButton *)return_value_g_type_check_instance_cast$23;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$24;
-  return_value_g_type_check_instance_cast$24=g_type_check_instance_cast((struct _GTypeInstance *)dialog->scale_treeview, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$24, "key_press_event", (void (*)(void))lingot_gui_config_dialog_scale_key_press_cb, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$25;
-  return_value_g_type_check_instance_cast$25=g_type_check_instance_cast((struct _GTypeInstance *)dialog->button_scale_add, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$25, "clicked", (void (*)(void))lingot_gui_config_dialog_scale_tree_add_row_tree, (void *)dialog->scale_treeview, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$26;
-  return_value_g_type_check_instance_cast$26=g_type_check_instance_cast((struct _GTypeInstance *)dialog->button_scale_del, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$26, "clicked", (void (*)(void))lingot_gui_config_dialog_scale_tree_remove_selected_items, (void *)dialog->scale_treeview, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$27;
-  return_value_g_type_check_instance_cast$27=g_type_check_instance_cast((struct _GTypeInstance *)button_import, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$27, "clicked", (void (*)(void))lingot_gui_config_dialog_import_scl, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
-  unsigned long int return_value_gtk_widget_get_type$28;
-  return_value_gtk_widget_get_type$28=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$29;
-  return_value_g_type_check_instance_cast$29=g_type_check_instance_cast((struct _GTypeInstance *)dialog->scale_treeview, return_value_gtk_widget_get_type$28);
-  gtk_widget_set_has_tooltip((struct _GtkWidget *)return_value_g_type_check_instance_cast$29, (signed int)!(0 != 0));
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$30;
-  return_value_g_type_check_instance_cast$30=g_type_check_instance_cast((struct _GTypeInstance *)dialog->scale_treeview, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$30, "query-tooltip", (void (*)(void))lingot_gui_config_dialog_scale_table_query_tooltip, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
+  struct _GtkWidget *return_value_glade_xml_get_widget_21;
+  return_value_glade_xml_get_widget_21=glade_xml_get_widget(_gladeXML, "button_scale_import");
+  unsigned long int return_value_gtk_button_get_type_22;
+  return_value_gtk_button_get_type_22=gtk_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_23;
+  return_value_g_type_check_instance_cast_23=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_21, return_value_gtk_button_get_type_22);
+  button_import = (struct _GtkButton *)return_value_g_type_check_instance_cast_23;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_24;
+  return_value_g_type_check_instance_cast_24=g_type_check_instance_cast((struct _GTypeInstance *)dialog->scale_treeview, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_24, "key_press_event", (void (*)(void))lingot_gui_config_dialog_scale_key_press_cb, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_25;
+  return_value_g_type_check_instance_cast_25=g_type_check_instance_cast((struct _GTypeInstance *)dialog->button_scale_add, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_25, "clicked", (void (*)(void))lingot_gui_config_dialog_scale_tree_add_row_tree, (void *)dialog->scale_treeview, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_26;
+  return_value_g_type_check_instance_cast_26=g_type_check_instance_cast((struct _GTypeInstance *)dialog->button_scale_del, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_26, "clicked", (void (*)(void))lingot_gui_config_dialog_scale_tree_remove_selected_items, (void *)dialog->scale_treeview, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_27;
+  return_value_g_type_check_instance_cast_27=g_type_check_instance_cast((struct _GTypeInstance *)button_import, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_27, "clicked", (void (*)(void))lingot_gui_config_dialog_import_scl, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
+  unsigned long int return_value_gtk_widget_get_type_28;
+  return_value_gtk_widget_get_type_28=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_29;
+  return_value_g_type_check_instance_cast_29=g_type_check_instance_cast((struct _GTypeInstance *)dialog->scale_treeview, return_value_gtk_widget_get_type_28);
+  gtk_widget_set_has_tooltip((struct _GtkWidget *)return_value_g_type_check_instance_cast_29, (signed int)!(0 != 0));
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_30;
+  return_value_g_type_check_instance_cast_30=g_type_check_instance_cast((struct _GTypeInstance *)dialog->scale_treeview, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_30, "query-tooltip", (void (*)(void))lingot_gui_config_dialog_scale_table_query_tooltip, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
 }
 
 // lingot_gui_config_dialog_scale_table_query_tooltip
@@ -7085,27 +7085,27 @@ signed int lingot_gui_config_dialog_scale_table_query_tooltip(struct _GtkWidget 
   gtk_tree_view_get_path_at_pos((struct _GtkTreeView *)widget, x, y, &path, &col, &cx, &cy);
   signed int column_index;
   column_index=lingot_gui_config_dialog_scale_tree_view_column_get_index(col);
-  char *return_value_gettext$1;
-  char *return_value_gettext$2;
-  char *return_value_gettext$3;
+  char *return_value_gettext_1;
+  char *return_value_gettext_2;
+  char *return_value_gettext_3;
   switch(column_index)
   {
     case 0:
     {
-      return_value_gettext$1=gettext("Note identifier, free text that will be displayed in the main window when tuning close to the given note. Don't use space characters here.");
-      gtk_tooltip_set_text(tooltip, (const char *)return_value_gettext$1);
+      return_value_gettext_1=gettext("Note identifier, free text that will be displayed in the main window when tuning close to the given note. Don't use space characters here.");
+      gtk_tooltip_set_text(tooltip, (const char *)return_value_gettext_1);
       break;
     }
     case 1:
     {
-      return_value_gettext$2=gettext("Shift. You can define it as a deviation in cents from the reference note (the first one), or as a frequency ratio, like '3/2' or '5/4'. All the values must be between 0 and 1200 cents, or between 1/1 and 2/1 (i.e., all the notes must be in the same octave), and they must be well ordered.");
-      gtk_tooltip_set_text(tooltip, (const char *)return_value_gettext$2);
+      return_value_gettext_2=gettext("Shift. You can define it as a deviation in cents from the reference note (the first one), or as a frequency ratio, like '3/2' or '5/4'. All the values must be between 0 and 1200 cents, or between 1/1 and 2/1 (i.e., all the notes must be in the same octave), and they must be well ordered.");
+      gtk_tooltip_set_text(tooltip, (const char *)return_value_gettext_2);
       break;
     }
     case 2:
     {
-      return_value_gettext$3=gettext("Frequency. You can enter here the absolute frequency for a given note as a reference, and all the other frequencies will shift according to the deviations specified in the 'Shift' column. You can use an absolute numeric value or the keywords 'mid-C' (261.625565 Hz) and 'mid-A' (440 Hz).");
-      gtk_tooltip_set_text(tooltip, (const char *)return_value_gettext$3);
+      return_value_gettext_3=gettext("Frequency. You can enter here the absolute frequency for a given note as a reference, and all the other frequencies will shift according to the deviations specified in the 'Shift' column. You can use an absolute numeric value or the keywords 'mid-C' (261.625565 Hz) and 'mid-A' (440 Hz).");
+      gtk_tooltip_set_text(tooltip, (const char *)return_value_gettext_3);
     }
   }
   return (signed int)!(0 != 0);
@@ -7119,44 +7119,44 @@ void lingot_gui_config_dialog_scale_tree_add_column(struct _LingotConfigDialog *
   struct _GtkTreeViewColumn *column;
   struct _GtkTreeView *treeview = config_dialog->scale_treeview;
   column=gtk_tree_view_column_new();
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Name");
-  gtk_tree_view_column_set_title(column, (const char *)return_value_gettext$1);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Name");
+  gtk_tree_view_column_set_title(column, (const char *)return_value_gettext_1);
   renderer=gtk_cell_renderer_text_new();
   gtk_tree_view_column_pack_start(column, renderer, 0);
   gtk_tree_view_column_set_attributes(column, renderer, (const void *)"text", 0, (void *)0);
   g_object_set((void *)renderer, "editable", !(0 != 0), (void *)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)renderer, (unsigned long int)(20 << 2));
-  g_object_set_data((struct _GObject *)return_value_g_type_check_instance_cast$2, "my_column_num", (void *)(unsigned long int)0);
-  g_signal_connect_data((void *)renderer, "edited", (void (*)(void))lingot_gui_config_dialog_scale_tree_cell_edited_callback, (void *)config_dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)renderer, (unsigned long int)(20 << 2));
+  g_object_set_data((struct _GObject *)return_value_g_type_check_instance_cast_2, "my_column_num", (void *)(unsigned long int)0);
+  g_signal_connect_data((void *)renderer, "edited", (void (*)(void))lingot_gui_config_dialog_scale_tree_cell_edited_callback, (void *)config_dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
   gtk_tree_view_append_column(treeview, column);
   column=gtk_tree_view_column_new();
-  char *return_value_gettext$3;
-  return_value_gettext$3=gettext("Shift");
-  gtk_tree_view_column_set_title(column, (const char *)return_value_gettext$3);
+  char *return_value_gettext_3;
+  return_value_gettext_3=gettext("Shift");
+  gtk_tree_view_column_set_title(column, (const char *)return_value_gettext_3);
   renderer=gtk_cell_renderer_text_new();
   gtk_tree_view_column_pack_start(column, renderer, 0);
   gtk_tree_view_column_set_attributes(column, renderer, (const void *)"text", 1, (void *)0);
   g_object_set((void *)renderer, "editable", !(0 != 0), (void *)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)renderer, (unsigned long int)(20 << 2));
-  g_object_set_data((struct _GObject *)return_value_g_type_check_instance_cast$4, "my_column_num", (void *)(unsigned long int)1);
-  g_signal_connect_data((void *)renderer, "edited", (void (*)(void))lingot_gui_config_dialog_scale_tree_cell_edited_callback, (void *)config_dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)renderer, (unsigned long int)(20 << 2));
+  g_object_set_data((struct _GObject *)return_value_g_type_check_instance_cast_4, "my_column_num", (void *)(unsigned long int)1);
+  g_signal_connect_data((void *)renderer, "edited", (void (*)(void))lingot_gui_config_dialog_scale_tree_cell_edited_callback, (void *)config_dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
   gtk_tree_view_append_column(treeview, column);
   column=gtk_tree_view_column_new();
-  char *return_value_gettext$5;
-  return_value_gettext$5=gettext("Frequency [Hz]");
-  gtk_tree_view_column_set_title(column, (const char *)return_value_gettext$5);
+  char *return_value_gettext_5;
+  return_value_gettext_5=gettext("Frequency [Hz]");
+  gtk_tree_view_column_set_title(column, (const char *)return_value_gettext_5);
   renderer=gtk_cell_renderer_text_new();
   gtk_tree_view_column_pack_start(column, renderer, 0);
   gtk_tree_view_column_set_attributes(column, renderer, (const void *)"text", 2, (void *)0);
   g_object_set((void *)renderer, "editable", !(0 != 0), (void *)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)renderer, (unsigned long int)(20 << 2));
-  g_object_set_data((struct _GObject *)return_value_g_type_check_instance_cast$6, "my_column_num", (void *)(unsigned long int)2);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)renderer, (unsigned long int)(20 << 2));
+  g_object_set_data((struct _GObject *)return_value_g_type_check_instance_cast_6, "my_column_num", (void *)(unsigned long int)2);
   gtk_tree_view_column_set_cell_data_func(column, renderer, lingot_gui_config_dialog_scale_tree_frequency_cell_data_function, (void *)config_dialog, (void (*)(void *))(void *)0);
-  g_signal_connect_data((void *)renderer, "edited", (void (*)(void))lingot_gui_config_dialog_scale_tree_cell_edited_callback, (void *)config_dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
+  g_signal_connect_data((void *)renderer, "edited", (void (*)(void))lingot_gui_config_dialog_scale_tree_cell_edited_callback, (void *)config_dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
   gtk_tree_view_append_column(treeview, column);
 }
 
@@ -7173,9 +7173,9 @@ void lingot_gui_config_dialog_scale_tree_add_row_tree(void *data, struct _GtkTre
   model_store = (struct _GtkTreeStore *)model;
   struct _GtkTreeSelection *selection;
   selection=gtk_tree_view_get_selection(treeview);
-  signed int return_value_gtk_tree_selection_count_selected_rows$4;
-  return_value_gtk_tree_selection_count_selected_rows$4=gtk_tree_selection_count_selected_rows(selection);
-  if(return_value_gtk_tree_selection_count_selected_rows$4 == 0)
+  signed int return_value_gtk_tree_selection_count_selected_rows_4;
+  return_value_gtk_tree_selection_count_selected_rows_4=gtk_tree_selection_count_selected_rows(selection);
+  if(return_value_gtk_tree_selection_count_selected_rows_4 == 0)
     gtk_tree_store_append(model_store, &iter2, (struct _GtkTreeIter *)(void *)0);
 
   else
@@ -7183,9 +7183,9 @@ void lingot_gui_config_dialog_scale_tree_add_row_tree(void *data, struct _GtkTre
     struct _GList *list;
     list=gtk_tree_selection_get_selected_rows(selection, &model);
     signed int ipath;
-    char *return_value_gtk_tree_path_to_string$1;
-    return_value_gtk_tree_path_to_string$1=gtk_tree_path_to_string((struct _GtkTreePath *)list->data);
-    ipath=atoi(return_value_gtk_tree_path_to_string$1);
+    char *return_value_gtk_tree_path_to_string_1;
+    return_value_gtk_tree_path_to_string_1=gtk_tree_path_to_string((struct _GtkTreePath *)list->data);
+    ipath=atoi(return_value_gtk_tree_path_to_string_1);
     struct _GString *fixed_path;
     fixed_path=g_string_new("");
     g_string_printf(fixed_path, "%d", ipath);
@@ -7195,9 +7195,9 @@ void lingot_gui_config_dialog_scale_tree_add_row_tree(void *data, struct _GtkTre
     signed int valid = 0;
     if(!(path == ((struct _GtkTreePath *)NULL)))
     {
-      signed int return_value_gtk_tree_model_get_iter$2;
-      return_value_gtk_tree_model_get_iter$2=gtk_tree_model_get_iter(model, &iter1, path);
-      if(!(return_value_gtk_tree_model_get_iter$2 == 0))
+      signed int return_value_gtk_tree_model_get_iter_2;
+      return_value_gtk_tree_model_get_iter_2=gtk_tree_model_get_iter(model, &iter1, path);
+      if(!(return_value_gtk_tree_model_get_iter_2 == 0))
         valid = (signed int)!(0 != 0);
 
       gtk_tree_path_free(path);
@@ -7210,9 +7210,9 @@ void lingot_gui_config_dialog_scale_tree_add_row_tree(void *data, struct _GtkTre
 
     if(ipath == 0)
     {
-      char *return_value_gettext$3;
-      return_value_gettext$3=gettext("You cannot insert before the reference note.");
-      lingot_msg_add_warning((const char *)return_value_gettext$3);
+      char *return_value_gettext_3;
+      return_value_gettext_3=gettext("You cannot insert before the reference note.");
+      lingot_msg_add_warning((const char *)return_value_gettext_3);
       goto __CPROVER_DUMP_L7;
     }
 
@@ -7253,38 +7253,38 @@ void lingot_gui_config_dialog_scale_tree_cell_edited_callback(struct _GtkCellRen
   struct _LingotConfigDialog *config_dialog = (struct _LingotConfigDialog *)user_data;
   signed int index;
   treeview = config_dialog->scale_treeview;
-  struct _GtkTreeModel *return_value_gtk_tree_view_get_model$1;
-  return_value_gtk_tree_view_get_model$1=gtk_tree_view_get_model(treeview);
-  model_store = (struct _GtkTreeStore *)return_value_gtk_tree_view_get_model$1;
+  struct _GtkTreeModel *return_value_gtk_tree_view_get_model_1;
+  return_value_gtk_tree_view_get_model_1=gtk_tree_view_get_model(treeview);
+  model_store = (struct _GtkTreeStore *)return_value_gtk_tree_view_get_model_1;
   struct _GtkTreeSelection *selection;
   selection=gtk_tree_view_get_selection(treeview);
-  signed int return_value_gtk_tree_selection_count_selected_rows$2;
-  return_value_gtk_tree_selection_count_selected_rows$2=gtk_tree_selection_count_selected_rows(selection);
-  char *return_value_strchr$14;
-  _Bool tmp_if_expr$16;
-  char *return_value_strchr$15;
-  char *return_value_strchr$9;
-  _Bool tmp_if_expr$11;
-  char *return_value_strchr$10;
-  _Bool tmp_if_expr$13;
-  char *return_value_strchr$12;
-  double return_value_fabs$18;
-  signed int return_value___isnan$20;
-  double return_value_pow$21;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcmp$22;
-  double return_value_gtk_spin_button_get_value$24;
-  double return_value_pow$25;
-  double return_value_pow$26;
-  signed int return_value_gtk_tree_model_iter_next$27;
-  if(return_value_gtk_tree_selection_count_selected_rows$2 == 1)
+  signed int return_value_gtk_tree_selection_count_selected_rows_2;
+  return_value_gtk_tree_selection_count_selected_rows_2=gtk_tree_selection_count_selected_rows(selection);
+  char *return_value_strchr_14;
+  _Bool tmp_if_expr_16;
+  char *return_value_strchr_15;
+  char *return_value_strchr_9;
+  _Bool tmp_if_expr_11;
+  char *return_value_strchr_10;
+  _Bool tmp_if_expr_13;
+  char *return_value_strchr_12;
+  double return_value_fabs_18;
+  signed int return_value___isnan_20;
+  double return_value_pow_21;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcmp_22;
+  double return_value_gtk_spin_button_get_value_24;
+  double return_value_pow_25;
+  double return_value_pow_26;
+  signed int return_value_gtk_tree_model_iter_next_27;
+  if(return_value_gtk_tree_selection_count_selected_rows_2 == 1)
   {
     struct _GList *list;
     list=gtk_tree_selection_get_selected_rows(selection, &model);
     signed int ipath;
-    char *return_value_gtk_tree_path_to_string$3;
-    return_value_gtk_tree_path_to_string$3=gtk_tree_path_to_string((struct _GtkTreePath *)list->data);
-    ipath=atoi(return_value_gtk_tree_path_to_string$3);
+    char *return_value_gtk_tree_path_to_string_3;
+    return_value_gtk_tree_path_to_string_3=gtk_tree_path_to_string((struct _GtkTreePath *)list->data);
+    ipath=atoi(return_value_gtk_tree_path_to_string_3);
     struct _GString *fixed_path;
     fixed_path=g_string_new("");
     g_string_printf(fixed_path, "%d", ipath);
@@ -7294,9 +7294,9 @@ void lingot_gui_config_dialog_scale_tree_cell_edited_callback(struct _GtkCellRen
     signed int valid = 0;
     if(!(path == ((struct _GtkTreePath *)NULL)))
     {
-      signed int return_value_gtk_tree_model_get_iter$4;
-      return_value_gtk_tree_model_get_iter$4=gtk_tree_model_get_iter(model, &iter, path);
-      if(!(return_value_gtk_tree_model_get_iter$4 == 0))
+      signed int return_value_gtk_tree_model_get_iter_4;
+      return_value_gtk_tree_model_get_iter_4=gtk_tree_model_get_iter(model, &iter, path);
+      if(!(return_value_gtk_tree_model_get_iter_4 == 0))
         valid = (signed int)!(0 != 0);
 
       gtk_tree_path_free(path);
@@ -7308,55 +7308,55 @@ void lingot_gui_config_dialog_scale_tree_cell_edited_callback(struct _GtkCellRen
     {
       renderer = &cell->parent;
       unsigned int column_number;
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-      return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)renderer, (unsigned long int)(20 << 2));
-      void *return_value_g_object_get_data$6;
-      return_value_g_object_get_data$6=g_object_get_data((struct _GObject *)return_value_g_type_check_instance_cast$5, "my_column_num");
-      column_number = (unsigned int)(unsigned long int)return_value_g_object_get_data$6;
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+      return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)renderer, (unsigned long int)(20 << 2));
+      void *return_value_g_object_get_data_6;
+      return_value_g_object_get_data_6=g_object_get_data((struct _GObject *)return_value_g_type_check_instance_cast_5, "my_column_num");
+      column_number = (unsigned int)(unsigned long int)return_value_g_object_get_data_6;
       switch(column_number)
       {
         case (unsigned int)0:
         {
-          return_value_strchr$14=strchr(new_text, 32);
-          if(!(return_value_strchr$14 == ((char *)NULL)))
-            tmp_if_expr$16 = (_Bool)1;
+          return_value_strchr_14=strchr(new_text, 32);
+          if(!(return_value_strchr_14 == ((char *)NULL)))
+            tmp_if_expr_16 = (_Bool)1;
 
           else
           {
-            return_value_strchr$15=strchr(new_text, 9);
-            tmp_if_expr$16 = return_value_strchr$15 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            return_value_strchr_15=strchr(new_text, 9);
+            tmp_if_expr_16 = return_value_strchr_15 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$16)
+          if(tmp_if_expr_16)
           {
-            char *return_value_gettext$7;
-            return_value_gettext$7=gettext("Do not use space characters for the note names.");
-            lingot_msg_add_warning((const char *)return_value_gettext$7);
+            char *return_value_gettext_7;
+            return_value_gettext_7=gettext("Do not use space characters for the note names.");
+            lingot_msg_add_warning((const char *)return_value_gettext_7);
           }
 
           else
           {
-            return_value_strchr$9=strchr(new_text, 10);
-            if(!(return_value_strchr$9 == ((char *)NULL)))
-              tmp_if_expr$11 = (_Bool)1;
+            return_value_strchr_9=strchr(new_text, 10);
+            if(!(return_value_strchr_9 == ((char *)NULL)))
+              tmp_if_expr_11 = (_Bool)1;
 
             else
             {
-              return_value_strchr$10=strchr(new_text, 123);
-              tmp_if_expr$11 = return_value_strchr$10 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+              return_value_strchr_10=strchr(new_text, 123);
+              tmp_if_expr_11 = return_value_strchr_10 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$11)
-              tmp_if_expr$13 = (_Bool)1;
+            if(tmp_if_expr_11)
+              tmp_if_expr_13 = (_Bool)1;
 
             else
             {
-              return_value_strchr$12=strchr(new_text, 125);
-              tmp_if_expr$13 = return_value_strchr$12 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+              return_value_strchr_12=strchr(new_text, 125);
+              tmp_if_expr_13 = return_value_strchr_12 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$13)
+            if(tmp_if_expr_13)
             {
-              char *return_value_gettext$8;
-              return_value_gettext$8=gettext("The name contains illegal characters.");
-              lingot_msg_add_warning((const char *)return_value_gettext$8);
+              char *return_value_gettext_8;
+              return_value_gettext_8=gettext("The name contains illegal characters.");
+              lingot_msg_add_warning((const char *)return_value_gettext_8);
             }
 
             else
@@ -7372,23 +7372,23 @@ void lingot_gui_config_dialog_scale_tree_cell_edited_callback(struct _GtkCellRen
           lingot_config_scale_parse_shift(new_text, &shift_cents, &shift_numerator, &shift_denominator);
           if(ipath == 0)
           {
-            return_value_fabs$18=fabs(shift_cents - 0.0);
-            if(return_value_fabs$18 > 1e-10)
+            return_value_fabs_18=fabs(shift_cents - 0.0);
+            if(return_value_fabs_18 > 1e-10)
             {
-              char *return_value_gettext$17;
-              return_value_gettext$17=gettext("You cannot change the first shift, it must be 1/1.");
-              lingot_msg_add_warning((const char *)return_value_gettext$17);
+              char *return_value_gettext_17;
+              return_value_gettext_17=gettext("You cannot change the first shift, it must be 1/1.");
+              lingot_msg_add_warning((const char *)return_value_gettext_17);
               break;
             }
 
           }
 
-          return_value___isnan$20=__isnan(shift_cents);
-          if(shift_cents <= -1.000000e-10 || shift_cents > 1200.0 || !(return_value___isnan$20 == 0))
+          return_value___isnan_20=__isnan(shift_cents);
+          if(shift_cents <= -1.000000e-10 || shift_cents > 1200.0 || !(return_value___isnan_20 == 0))
           {
-            char *return_value_gettext$19;
-            return_value_gettext$19=gettext("The shift must be between 0 and 1200 cents, or between 1/1 and 2/1.");
-            lingot_msg_add_warning((const char *)return_value_gettext$19);
+            char *return_value_gettext_19;
+            return_value_gettext_19=gettext("The shift must be between 0 and 1200 cents, or between 1/1 and 2/1.");
+            lingot_msg_add_warning((const char *)return_value_gettext_19);
             break;
           }
 
@@ -7396,20 +7396,20 @@ void lingot_gui_config_dialog_scale_tree_cell_edited_callback(struct _GtkCellRen
           lingot_config_scale_parse_shift(stored_shift_char, &stored_shift, (signed short int *)(void *)0, (signed short int *)(void *)0);
           free((void *)stored_shift_char);
           lingot_config_scale_format_shift(buff, shift_cents, shift_numerator, shift_denominator);
-          return_value_pow$21=pow(2.0, (shift_cents - stored_shift) / 1200.0);
-          gtk_tree_store_set(model_store, &iter, 1, (const void *)buff, 2, stored_freq * return_value_pow$21, -1);
+          return_value_pow_21=pow(2.0, (shift_cents - stored_shift) / 1200.0);
+          gtk_tree_store_set(model_store, &iter, 1, (const void *)buff, 2, stored_freq * return_value_pow_21, -1);
           break;
         }
         case (unsigned int)2:
         {
-          return_value_strcmp$23=strcmp(new_text, "mid-A");
-          if(return_value_strcmp$23 == 0)
+          return_value_strcmp_23=strcmp(new_text, "mid-A");
+          if(return_value_strcmp_23 == 0)
             freq = 440.0;
 
           else
           {
-            return_value_strcmp$22=strcmp(new_text, "mid-C");
-            if(return_value_strcmp$22 == 0)
+            return_value_strcmp_22=strcmp(new_text, "mid-C");
+            if(return_value_strcmp_22 == 0)
               freq = 261.625565;
 
             else
@@ -7418,11 +7418,11 @@ void lingot_gui_config_dialog_scale_tree_cell_edited_callback(struct _GtkCellRen
           gtk_tree_model_get(model, &iter, 1, &shift_char, 2, &stored_freq, -1);
           lingot_config_scale_parse_shift(shift_char, &shift_cents, (signed short int *)(void *)0, (signed short int *)(void *)0);
           free((void *)shift_char);
-          return_value_gtk_spin_button_get_value$24=gtk_spin_button_get_value(config_dialog->root_frequency_error);
-          return_value_pow$25=pow(2.0, -return_value_gtk_spin_button_get_value$24 / 1200.0);
-          freq = freq * return_value_pow$25;
-          return_value_pow$26=pow(2.0, -shift_cents / 1200.0);
-          base_freq = freq * return_value_pow$26;
+          return_value_gtk_spin_button_get_value_24=gtk_spin_button_get_value(config_dialog->root_frequency_error);
+          return_value_pow_25=pow(2.0, -return_value_gtk_spin_button_get_value_24 / 1200.0);
+          freq = freq * return_value_pow_25;
+          return_value_pow_26=pow(2.0, -shift_cents / 1200.0);
+          base_freq = freq * return_value_pow_26;
           gtk_tree_model_get_iter_first(model, &iter2);
           index = 0;
           do
@@ -7430,14 +7430,14 @@ void lingot_gui_config_dialog_scale_tree_cell_edited_callback(struct _GtkCellRen
             gtk_tree_model_get(model, &iter2, 1, &shift_char, -1);
             lingot_config_scale_parse_shift(shift_char, &shiftf2, (signed short int *)(void *)0, (signed short int *)(void *)0);
             free((void *)shift_char);
-            double return_value_pow$28;
-            return_value_pow$28=pow(2.0, shiftf2 / 1200.0);
-            freq2 = base_freq * return_value_pow$28;
+            double return_value_pow_28;
+            return_value_pow_28=pow(2.0, shiftf2 / 1200.0);
+            freq2 = base_freq * return_value_pow_28;
             gtk_tree_store_set(model_store, &iter2, 2, index == ipath ? freq : freq2, -1);
             index = index + 1;
-            return_value_gtk_tree_model_iter_next$27=gtk_tree_model_iter_next(model, &iter2);
+            return_value_gtk_tree_model_iter_next_27=gtk_tree_model_iter_next(model, &iter2);
           }
-          while(!(return_value_gtk_tree_model_iter_next$27 == 0));
+          while(!(return_value_gtk_tree_model_iter_next_27 == 0));
         }
       }
     }
@@ -7454,21 +7454,21 @@ void lingot_gui_config_dialog_scale_tree_frequency_cell_data_function(struct _Gt
   char buf[20l];
   struct _LingotConfigDialog *config_dialog = (struct _LingotConfigDialog *)user_data;
   gtk_tree_model_get(model, iter, 2, &freq, -1);
-  double return_value_gtk_spin_button_get_value$1;
-  return_value_gtk_spin_button_get_value$1=gtk_spin_button_get_value(config_dialog->root_frequency_error);
-  double return_value_pow$2;
-  return_value_pow$2=pow(2.0, return_value_gtk_spin_button_get_value$1 / 1200.0);
-  freq = freq * return_value_pow$2;
-  double return_value_fabs$4;
-  return_value_fabs$4=fabs(freq - 440.0);
-  double return_value_fabs$3;
-  if(return_value_fabs$4 < 1e-3)
+  double return_value_gtk_spin_button_get_value_1;
+  return_value_gtk_spin_button_get_value_1=gtk_spin_button_get_value(config_dialog->root_frequency_error);
+  double return_value_pow_2;
+  return_value_pow_2=pow(2.0, return_value_gtk_spin_button_get_value_1 / 1200.0);
+  freq = freq * return_value_pow_2;
+  double return_value_fabs_4;
+  return_value_fabs_4=fabs(freq - 440.0);
+  double return_value_fabs_3;
+  if(return_value_fabs_4 < 1e-3)
     g_object_set((void *)renderer, "text", (const void *)"mid-A", (void *)0);
 
   else
   {
-    return_value_fabs$3=fabs(freq - 261.625565);
-    if(return_value_fabs$3 < 1e-3)
+    return_value_fabs_3=fabs(freq - 261.625565);
+    if(return_value_fabs_3 < 1e-3)
       g_object_set((void *)renderer, "text", (const void *)"mid-C", (void *)0);
 
     else
@@ -7488,24 +7488,24 @@ void lingot_gui_config_dialog_scale_tree_remove_selected_items(void *data, struc
   struct _GtkTreeIter iter;
   struct _GtkTreeSelection *selection;
   selection=gtk_tree_view_get_selection(treeview);
-  signed int return_value_gtk_tree_selection_count_selected_rows$1;
-  return_value_gtk_tree_selection_count_selected_rows$1=gtk_tree_selection_count_selected_rows(selection);
-  if(!(return_value_gtk_tree_selection_count_selected_rows$1 == 0))
+  signed int return_value_gtk_tree_selection_count_selected_rows_1;
+  return_value_gtk_tree_selection_count_selected_rows_1=gtk_tree_selection_count_selected_rows(selection);
+  if(!(return_value_gtk_tree_selection_count_selected_rows_1 == 0))
   {
     struct _GList *list;
     list=gtk_tree_selection_get_selected_rows(selection, &model);
-    unsigned long int return_value_gtk_tree_store_get_type$2;
-    return_value_gtk_tree_store_get_type$2=gtk_tree_store_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-    return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)model, return_value_gtk_tree_store_get_type$2);
-    store = (struct _GtkTreeStore *)return_value_g_type_check_instance_cast$3;
+    unsigned long int return_value_gtk_tree_store_get_type_2;
+    return_value_gtk_tree_store_get_type_2=gtk_tree_store_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+    return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)model, return_value_gtk_tree_store_get_type_2);
+    store = (struct _GtkTreeStore *)return_value_g_type_check_instance_cast_3;
     signed int nRemoved = 0;
     while(!(list == ((struct _GList *)NULL)))
     {
       signed int ipath;
-      char *return_value_gtk_tree_path_to_string$4;
-      return_value_gtk_tree_path_to_string$4=gtk_tree_path_to_string((struct _GtkTreePath *)list->data);
-      ipath=atoi(return_value_gtk_tree_path_to_string$4);
+      char *return_value_gtk_tree_path_to_string_4;
+      return_value_gtk_tree_path_to_string_4=gtk_tree_path_to_string((struct _GtkTreePath *)list->data);
+      ipath=atoi(return_value_gtk_tree_path_to_string_4);
       ipath = ipath - nRemoved;
       struct _GString *fixed_path;
       fixed_path=g_string_new("");
@@ -7517,9 +7517,9 @@ void lingot_gui_config_dialog_scale_tree_remove_selected_items(void *data, struc
       {
         if(!(ipath == 0))
         {
-          signed int return_value_gtk_tree_model_get_iter$5;
-          return_value_gtk_tree_model_get_iter$5=gtk_tree_model_get_iter(model, &iter, path);
-          if(!(return_value_gtk_tree_model_get_iter$5 == 0))
+          signed int return_value_gtk_tree_model_get_iter_5;
+          return_value_gtk_tree_model_get_iter_5=gtk_tree_model_get_iter(model, &iter, path);
+          if(!(return_value_gtk_tree_model_get_iter_5 == 0))
           {
             gtk_tree_store_remove(store, &iter);
             nRemoved = nRemoved + 1;
@@ -7543,21 +7543,21 @@ void lingot_gui_config_dialog_scale_tree_remove_selected_items(void *data, struc
 signed int lingot_gui_config_dialog_scale_tree_view_column_get_index(struct _GtkTreeViewColumn *column)
 {
   struct _GtkTreeView *tree;
-  unsigned long int return_value_gtk_tree_view_get_type$1;
-  return_value_gtk_tree_view_get_type$1=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)column->tree_view, return_value_gtk_tree_view_get_type$1);
-  tree = (struct _GtkTreeView *)return_value_g_type_check_instance_cast$2;
+  unsigned long int return_value_gtk_tree_view_get_type_1;
+  return_value_gtk_tree_view_get_type_1=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)column->tree_view, return_value_gtk_tree_view_get_type_1);
+  tree = (struct _GtkTreeView *)return_value_g_type_check_instance_cast_2;
   struct _GList *cols;
   cols=gtk_tree_view_get_columns(tree);
   signed int counter = 0;
   while(!(cols == ((struct _GList *)NULL)))
   {
-    unsigned long int return_value_gtk_tree_view_column_get_type$3;
-    return_value_gtk_tree_view_column_get_type$3=gtk_tree_view_column_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-    return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)cols->data, return_value_gtk_tree_view_column_get_type$3);
-    if(column == (struct _GtkTreeViewColumn *)return_value_g_type_check_instance_cast$4)
+    unsigned long int return_value_gtk_tree_view_column_get_type_3;
+    return_value_gtk_tree_view_column_get_type_3=gtk_tree_view_column_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+    return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)cols->data, return_value_gtk_tree_view_column_get_type_3);
+    if(column == (struct _GtkTreeViewColumn *)return_value_g_type_check_instance_cast_4)
     {
       g_list_free(cols);
       return counter;
@@ -7587,27 +7587,27 @@ signed int lingot_gui_config_dialog_scale_validate(struct _LingotConfigDialog *d
   gtk_tree_model_get_iter_first(model, &iter);
   last_shift = -1.0;
   signed int row1 = 0;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$7;
-  signed int return_value_gtk_tree_model_iter_next$5;
-  signed int return_value_gtk_tree_model_iter_next$1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_7;
+  signed int return_value_gtk_tree_model_iter_next_5;
+  signed int return_value_gtk_tree_model_iter_next_1;
   do
   {
     gtk_tree_model_get(model, &iter, 0, &name, 1, &shift_char, -1);
     lingot_config_scale_parse_shift(shift_char, &shift, (signed short int *)(void *)0, (signed short int *)(void *)0);
     free((void *)shift_char);
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(name, "");
-    if(return_value_strcmp$2 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(name, "");
+    if(return_value_strcmp_2 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$3=strcmp(name, "?");
-      tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_3=strcmp(name, "?");
+      tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       empty_names = 1;
 
     gtk_tree_model_get_iter_first(model, &iter2);
@@ -7617,12 +7617,12 @@ signed int lingot_gui_config_dialog_scale_validate(struct _LingotConfigDialog *d
       gtk_tree_model_get(model, &iter2, 0, &name2, -1);
       if(!(row1 == row2))
       {
-        return_value_strcmp$7=strcmp(name, name2);
-        if(return_value_strcmp$7 == 0)
+        return_value_strcmp_7=strcmp(name, name2);
+        if(return_value_strcmp_7 == 0)
         {
-          char *return_value_gettext$6;
-          return_value_gettext$6=gettext("There are notes with the same name");
-          lingot_msg_add_error((const char *)return_value_gettext$6);
+          char *return_value_gettext_6;
+          return_value_gettext_6=gettext("There are notes with the same name");
+          lingot_msg_add_error((const char *)return_value_gettext_6);
           free((void *)name);
           free((void *)name2);
           return 0;
@@ -7632,36 +7632,36 @@ signed int lingot_gui_config_dialog_scale_validate(struct _LingotConfigDialog *d
 
       free((void *)name2);
       row2 = row2 + 1;
-      return_value_gtk_tree_model_iter_next$5=gtk_tree_model_iter_next(model, &iter2);
+      return_value_gtk_tree_model_iter_next_5=gtk_tree_model_iter_next(model, &iter2);
     }
-    while(!(return_value_gtk_tree_model_iter_next$5 == 0));
+    while(!(return_value_gtk_tree_model_iter_next_5 == 0));
     free((void *)name);
     if(shift < last_shift)
     {
-      char *return_value_gettext$8;
-      return_value_gettext$8=gettext("There are invalid values in the scale: the notes should be ordered by frequency / shift");
-      lingot_msg_add_error((const char *)return_value_gettext$8);
+      char *return_value_gettext_8;
+      return_value_gettext_8=gettext("There are invalid values in the scale: the notes should be ordered by frequency / shift");
+      lingot_msg_add_error((const char *)return_value_gettext_8);
       return 0;
     }
 
     if(shift >= 1200.0)
     {
-      char *return_value_gettext$9;
-      return_value_gettext$9=gettext("There are invalid values in the scale: all the notes should be in the same octave");
-      lingot_msg_add_error((const char *)return_value_gettext$9);
+      char *return_value_gettext_9;
+      return_value_gettext_9=gettext("There are invalid values in the scale: all the notes should be in the same octave");
+      lingot_msg_add_error((const char *)return_value_gettext_9);
       return 0;
     }
 
     last_shift = shift;
     row1 = row1 + 1;
-    return_value_gtk_tree_model_iter_next$1=gtk_tree_model_iter_next(model, &iter);
+    return_value_gtk_tree_model_iter_next_1=gtk_tree_model_iter_next(model, &iter);
   }
-  while(!(return_value_gtk_tree_model_iter_next$1 == 0));
+  while(!(return_value_gtk_tree_model_iter_next_1 == 0));
   if(!(empty_names == 0))
   {
-    char *return_value_gettext$10;
-    return_value_gettext$10=gettext("There are notes without name");
-    lingot_msg_add_warning((const char *)return_value_gettext$10);
+    char *return_value_gettext_10;
+    return_value_gettext_10=gettext("There are notes without name");
+    lingot_msg_add_warning((const char *)return_value_gettext_10);
     return 0;
   }
 
@@ -7683,9 +7683,9 @@ void lingot_gui_config_dialog_set_audio_system(struct _GtkComboBox *combo, enum 
   {
     char *str_data;
     gtk_tree_model_get(model, &iter, 0, &str_data, -1);
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(str_data, token);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(str_data, token);
+    if(return_value_strcmp_1 == 0)
       gtk_combo_box_set_active_iter(combo, &iter);
 
     g_free((void *)str_data);
@@ -7698,22 +7698,22 @@ void lingot_gui_config_dialog_set_audio_system(struct _GtkComboBox *combo, enum 
 void lingot_gui_config_dialog_show(struct _LingotMainFrame *frame, struct _LingotConfig *config)
 {
   struct _GladeXML *_gladeXML = (struct _GladeXML *)(void *)0;
-  struct _LingotConfig *tmp_if_expr$2;
+  struct _LingotConfig *tmp_if_expr_2;
   if(frame->config_dialog == ((struct _LingotConfigDialog *)NULL))
   {
     struct _LingotConfigDialog *dialog;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _LingotConfigDialog) /*216ul*/ );
-    dialog = (struct _LingotConfigDialog *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _LingotConfigDialog) /*216ul*/ );
+    dialog = (struct _LingotConfigDialog *)return_value_malloc_1;
     dialog->mainframe = frame;
     dialog->conf=lingot_config_new();
     dialog->conf_old=lingot_config_new();
     if(config == ((struct _LingotConfig *)NULL))
-      tmp_if_expr$2 = frame->conf;
+      tmp_if_expr_2 = frame->conf;
 
     else
-      tmp_if_expr$2 = config;
-    lingot_config_copy(dialog->conf, tmp_if_expr$2);
+      tmp_if_expr_2 = config;
+    lingot_config_copy(dialog->conf, tmp_if_expr_2);
     lingot_config_copy(dialog->conf_old, frame->conf);
     struct _IO_FILE *fd;
     fd=fopen("src/glade/lingot-config-dialog.glade", "r");
@@ -7726,209 +7726,209 @@ void lingot_gui_config_dialog_show(struct _LingotMainFrame *frame, struct _Lingo
     else
       _gladeXML=glade_xml_new("/usr/share/lingot/glade/lingot-config-dialog.glade", "dialog1", (const char *)(void *)0);
     dialog->win=glade_xml_get_widget(_gladeXML, "dialog1");
-    unsigned long int return_value_gtk_window_get_type$3;
-    return_value_gtk_window_get_type$3=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-    return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)dialog->win, return_value_gtk_window_get_type$3);
-    unsigned long int return_value_gtk_window_get_type$5;
-    return_value_gtk_window_get_type$5=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-    return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type$5);
-    struct _GdkPixbuf *return_value_gtk_window_get_icon$7;
-    return_value_gtk_window_get_icon$7=gtk_window_get_icon((struct _GtkWindow *)return_value_g_type_check_instance_cast$6);
-    gtk_window_set_icon((struct _GtkWindow *)return_value_g_type_check_instance_cast$4, return_value_gtk_window_get_icon$7);
+    unsigned long int return_value_gtk_window_get_type_3;
+    return_value_gtk_window_get_type_3=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+    return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)dialog->win, return_value_gtk_window_get_type_3);
+    unsigned long int return_value_gtk_window_get_type_5;
+    return_value_gtk_window_get_type_5=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+    return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type_5);
+    struct _GdkPixbuf *return_value_gtk_window_get_icon_7;
+    return_value_gtk_window_get_icon_7=gtk_window_get_icon((struct _GtkWindow *)return_value_g_type_check_instance_cast_6);
+    gtk_window_set_icon((struct _GtkWindow *)return_value_g_type_check_instance_cast_4, return_value_gtk_window_get_icon_7);
     dialog->mainframe->config_dialog = dialog;
-    struct _GtkWidget *return_value_glade_xml_get_widget$8;
-    return_value_glade_xml_get_widget$8=glade_xml_get_widget(_gladeXML, "input_system");
-    unsigned long int return_value_gtk_combo_box_get_type$9;
-    return_value_gtk_combo_box_get_type$9=gtk_combo_box_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-    return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$8, return_value_gtk_combo_box_get_type$9);
-    dialog->input_system = (struct _GtkComboBox *)return_value_g_type_check_instance_cast$10;
-    struct _GtkWidget *return_value_glade_xml_get_widget$11;
-    return_value_glade_xml_get_widget$11=glade_xml_get_widget(_gladeXML, "input_dev");
-    unsigned long int return_value_gtk_combo_box_entry_get_type$12;
-    return_value_gtk_combo_box_entry_get_type$12=gtk_combo_box_entry_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$13;
-    return_value_g_type_check_instance_cast$13=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$11, return_value_gtk_combo_box_entry_get_type$12);
-    dialog->input_dev = (struct _GtkComboBoxEntry *)return_value_g_type_check_instance_cast$13;
-    struct _GtkWidget *return_value_glade_xml_get_widget$14;
-    return_value_glade_xml_get_widget$14=glade_xml_get_widget(_gladeXML, "sample_rate");
-    unsigned long int return_value_gtk_combo_box_entry_get_type$15;
-    return_value_gtk_combo_box_entry_get_type$15=gtk_combo_box_entry_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-    return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$14, return_value_gtk_combo_box_entry_get_type$15);
-    dialog->sample_rate = (struct _GtkComboBoxEntry *)return_value_g_type_check_instance_cast$16;
-    struct _GtkWidget *return_value_glade_xml_get_widget$17;
-    return_value_glade_xml_get_widget$17=glade_xml_get_widget(_gladeXML, "calculation_rate");
-    unsigned long int return_value_gtk_hscale_get_type$18;
-    return_value_gtk_hscale_get_type$18=gtk_hscale_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$19;
-    return_value_g_type_check_instance_cast$19=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$17, return_value_gtk_hscale_get_type$18);
-    dialog->calculation_rate = (struct _GtkHScale *)return_value_g_type_check_instance_cast$19;
-    struct _GtkWidget *return_value_glade_xml_get_widget$20;
-    return_value_glade_xml_get_widget$20=glade_xml_get_widget(_gladeXML, "visualization_rate");
-    unsigned long int return_value_gtk_hscale_get_type$21;
-    return_value_gtk_hscale_get_type$21=gtk_hscale_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$22;
-    return_value_g_type_check_instance_cast$22=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$20, return_value_gtk_hscale_get_type$21);
-    dialog->visualization_rate = (struct _GtkHScale *)return_value_g_type_check_instance_cast$22;
-    struct _GtkWidget *return_value_glade_xml_get_widget$23;
-    return_value_glade_xml_get_widget$23=glade_xml_get_widget(_gladeXML, "noise_threshold");
-    unsigned long int return_value_gtk_hscale_get_type$24;
-    return_value_gtk_hscale_get_type$24=gtk_hscale_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$25;
-    return_value_g_type_check_instance_cast$25=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$23, return_value_gtk_hscale_get_type$24);
-    dialog->noise_threshold = (struct _GtkHScale *)return_value_g_type_check_instance_cast$25;
-    struct _GtkWidget *return_value_glade_xml_get_widget$26;
-    return_value_glade_xml_get_widget$26=glade_xml_get_widget(_gladeXML, "gain");
-    unsigned long int return_value_gtk_hscale_get_type$27;
-    return_value_gtk_hscale_get_type$27=gtk_hscale_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$28;
-    return_value_g_type_check_instance_cast$28=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$26, return_value_gtk_hscale_get_type$27);
-    dialog->gain = (struct _GtkHScale *)return_value_g_type_check_instance_cast$28;
-    struct _GtkWidget *return_value_glade_xml_get_widget$29;
-    return_value_glade_xml_get_widget$29=glade_xml_get_widget(_gladeXML, "oversampling");
-    unsigned long int return_value_gtk_spin_button_get_type$30;
-    return_value_gtk_spin_button_get_type$30=gtk_spin_button_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$31;
-    return_value_g_type_check_instance_cast$31=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$29, return_value_gtk_spin_button_get_type$30);
-    dialog->oversampling = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast$31;
-    struct _GtkWidget *return_value_glade_xml_get_widget$32;
-    return_value_glade_xml_get_widget$32=glade_xml_get_widget(_gladeXML, "fft_size");
-    unsigned long int return_value_gtk_combo_box_get_type$33;
-    return_value_gtk_combo_box_get_type$33=gtk_combo_box_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$34;
-    return_value_g_type_check_instance_cast$34=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$32, return_value_gtk_combo_box_get_type$33);
-    dialog->fft_size = (struct _GtkComboBox *)return_value_g_type_check_instance_cast$34;
-    struct _GtkWidget *return_value_glade_xml_get_widget$35;
-    return_value_glade_xml_get_widget$35=glade_xml_get_widget(_gladeXML, "temporal_window");
-    unsigned long int return_value_gtk_spin_button_get_type$36;
-    return_value_gtk_spin_button_get_type$36=gtk_spin_button_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$37;
-    return_value_g_type_check_instance_cast$37=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$35, return_value_gtk_spin_button_get_type$36);
-    dialog->temporal_window = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast$37;
-    struct _GtkWidget *return_value_glade_xml_get_widget$38;
-    return_value_glade_xml_get_widget$38=glade_xml_get_widget(_gladeXML, "root_frequency_error");
-    unsigned long int return_value_gtk_spin_button_get_type$39;
-    return_value_gtk_spin_button_get_type$39=gtk_spin_button_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$40;
-    return_value_g_type_check_instance_cast$40=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$38, return_value_gtk_spin_button_get_type$39);
-    dialog->root_frequency_error = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast$40;
-    struct _GtkWidget *return_value_glade_xml_get_widget$41;
-    return_value_glade_xml_get_widget$41=glade_xml_get_widget(_gladeXML, "dft_number");
-    unsigned long int return_value_gtk_spin_button_get_type$42;
-    return_value_gtk_spin_button_get_type$42=gtk_spin_button_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$43;
-    return_value_g_type_check_instance_cast$43=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$41, return_value_gtk_spin_button_get_type$42);
-    dialog->dft_number = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast$43;
-    struct _GtkWidget *return_value_glade_xml_get_widget$44;
-    return_value_glade_xml_get_widget$44=glade_xml_get_widget(_gladeXML, "dft_size");
-    unsigned long int return_value_gtk_spin_button_get_type$45;
-    return_value_gtk_spin_button_get_type$45=gtk_spin_button_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$46;
-    return_value_g_type_check_instance_cast$46=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$44, return_value_gtk_spin_button_get_type$45);
-    dialog->dft_size = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast$46;
-    struct _GtkWidget *return_value_glade_xml_get_widget$47;
-    return_value_glade_xml_get_widget$47=glade_xml_get_widget(_gladeXML, "peak_number");
-    unsigned long int return_value_gtk_spin_button_get_type$48;
-    return_value_gtk_spin_button_get_type$48=gtk_spin_button_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$49;
-    return_value_g_type_check_instance_cast$49=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$47, return_value_gtk_spin_button_get_type$48);
-    dialog->peak_number = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast$49;
-    struct _GtkWidget *return_value_glade_xml_get_widget$50;
-    return_value_glade_xml_get_widget$50=glade_xml_get_widget(_gladeXML, "peak_halfwidth");
-    unsigned long int return_value_gtk_spin_button_get_type$51;
-    return_value_gtk_spin_button_get_type$51=gtk_spin_button_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$52;
-    return_value_g_type_check_instance_cast$52=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$50, return_value_gtk_spin_button_get_type$51);
-    dialog->peak_halfwidth = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast$52;
-    struct _GtkWidget *return_value_glade_xml_get_widget$53;
-    return_value_glade_xml_get_widget$53=glade_xml_get_widget(_gladeXML, "rejection_peak_relation");
-    unsigned long int return_value_gtk_hscale_get_type$54;
-    return_value_gtk_hscale_get_type$54=gtk_hscale_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$55;
-    return_value_g_type_check_instance_cast$55=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$53, return_value_gtk_hscale_get_type$54);
-    dialog->rejection_peak_relation = (struct _GtkHScale *)return_value_g_type_check_instance_cast$55;
-    struct _GtkWidget *return_value_glade_xml_get_widget$56;
-    return_value_glade_xml_get_widget$56=glade_xml_get_widget(_gladeXML, "label_sample_rate1");
-    unsigned long int return_value_gtk_label_get_type$57;
-    return_value_gtk_label_get_type$57=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$58;
-    return_value_g_type_check_instance_cast$58=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$56, return_value_gtk_label_get_type$57);
-    dialog->label_sample_rate1 = (struct _GtkLabel *)return_value_g_type_check_instance_cast$58;
-    struct _GtkWidget *return_value_glade_xml_get_widget$59;
-    return_value_glade_xml_get_widget$59=glade_xml_get_widget(_gladeXML, "label_sample_rate2");
-    unsigned long int return_value_gtk_label_get_type$60;
-    return_value_gtk_label_get_type$60=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$61;
-    return_value_g_type_check_instance_cast$61=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$59, return_value_gtk_label_get_type$60);
-    dialog->label_sample_rate2 = (struct _GtkLabel *)return_value_g_type_check_instance_cast$61;
-    struct _GtkWidget *return_value_glade_xml_get_widget$62;
-    return_value_glade_xml_get_widget$62=glade_xml_get_widget(_gladeXML, "minimum_frequency");
-    unsigned long int return_value_gtk_spin_button_get_type$63;
-    return_value_gtk_spin_button_get_type$63=gtk_spin_button_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$64;
-    return_value_g_type_check_instance_cast$64=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$62, return_value_gtk_spin_button_get_type$63);
-    dialog->minimum_frequency = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast$64;
+    struct _GtkWidget *return_value_glade_xml_get_widget_8;
+    return_value_glade_xml_get_widget_8=glade_xml_get_widget(_gladeXML, "input_system");
+    unsigned long int return_value_gtk_combo_box_get_type_9;
+    return_value_gtk_combo_box_get_type_9=gtk_combo_box_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+    return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_8, return_value_gtk_combo_box_get_type_9);
+    dialog->input_system = (struct _GtkComboBox *)return_value_g_type_check_instance_cast_10;
+    struct _GtkWidget *return_value_glade_xml_get_widget_11;
+    return_value_glade_xml_get_widget_11=glade_xml_get_widget(_gladeXML, "input_dev");
+    unsigned long int return_value_gtk_combo_box_entry_get_type_12;
+    return_value_gtk_combo_box_entry_get_type_12=gtk_combo_box_entry_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_13;
+    return_value_g_type_check_instance_cast_13=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_11, return_value_gtk_combo_box_entry_get_type_12);
+    dialog->input_dev = (struct _GtkComboBoxEntry *)return_value_g_type_check_instance_cast_13;
+    struct _GtkWidget *return_value_glade_xml_get_widget_14;
+    return_value_glade_xml_get_widget_14=glade_xml_get_widget(_gladeXML, "sample_rate");
+    unsigned long int return_value_gtk_combo_box_entry_get_type_15;
+    return_value_gtk_combo_box_entry_get_type_15=gtk_combo_box_entry_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+    return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_14, return_value_gtk_combo_box_entry_get_type_15);
+    dialog->sample_rate = (struct _GtkComboBoxEntry *)return_value_g_type_check_instance_cast_16;
+    struct _GtkWidget *return_value_glade_xml_get_widget_17;
+    return_value_glade_xml_get_widget_17=glade_xml_get_widget(_gladeXML, "calculation_rate");
+    unsigned long int return_value_gtk_hscale_get_type_18;
+    return_value_gtk_hscale_get_type_18=gtk_hscale_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_19;
+    return_value_g_type_check_instance_cast_19=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_17, return_value_gtk_hscale_get_type_18);
+    dialog->calculation_rate = (struct _GtkHScale *)return_value_g_type_check_instance_cast_19;
+    struct _GtkWidget *return_value_glade_xml_get_widget_20;
+    return_value_glade_xml_get_widget_20=glade_xml_get_widget(_gladeXML, "visualization_rate");
+    unsigned long int return_value_gtk_hscale_get_type_21;
+    return_value_gtk_hscale_get_type_21=gtk_hscale_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_22;
+    return_value_g_type_check_instance_cast_22=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_20, return_value_gtk_hscale_get_type_21);
+    dialog->visualization_rate = (struct _GtkHScale *)return_value_g_type_check_instance_cast_22;
+    struct _GtkWidget *return_value_glade_xml_get_widget_23;
+    return_value_glade_xml_get_widget_23=glade_xml_get_widget(_gladeXML, "noise_threshold");
+    unsigned long int return_value_gtk_hscale_get_type_24;
+    return_value_gtk_hscale_get_type_24=gtk_hscale_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_25;
+    return_value_g_type_check_instance_cast_25=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_23, return_value_gtk_hscale_get_type_24);
+    dialog->noise_threshold = (struct _GtkHScale *)return_value_g_type_check_instance_cast_25;
+    struct _GtkWidget *return_value_glade_xml_get_widget_26;
+    return_value_glade_xml_get_widget_26=glade_xml_get_widget(_gladeXML, "gain");
+    unsigned long int return_value_gtk_hscale_get_type_27;
+    return_value_gtk_hscale_get_type_27=gtk_hscale_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_28;
+    return_value_g_type_check_instance_cast_28=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_26, return_value_gtk_hscale_get_type_27);
+    dialog->gain = (struct _GtkHScale *)return_value_g_type_check_instance_cast_28;
+    struct _GtkWidget *return_value_glade_xml_get_widget_29;
+    return_value_glade_xml_get_widget_29=glade_xml_get_widget(_gladeXML, "oversampling");
+    unsigned long int return_value_gtk_spin_button_get_type_30;
+    return_value_gtk_spin_button_get_type_30=gtk_spin_button_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_31;
+    return_value_g_type_check_instance_cast_31=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_29, return_value_gtk_spin_button_get_type_30);
+    dialog->oversampling = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast_31;
+    struct _GtkWidget *return_value_glade_xml_get_widget_32;
+    return_value_glade_xml_get_widget_32=glade_xml_get_widget(_gladeXML, "fft_size");
+    unsigned long int return_value_gtk_combo_box_get_type_33;
+    return_value_gtk_combo_box_get_type_33=gtk_combo_box_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_34;
+    return_value_g_type_check_instance_cast_34=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_32, return_value_gtk_combo_box_get_type_33);
+    dialog->fft_size = (struct _GtkComboBox *)return_value_g_type_check_instance_cast_34;
+    struct _GtkWidget *return_value_glade_xml_get_widget_35;
+    return_value_glade_xml_get_widget_35=glade_xml_get_widget(_gladeXML, "temporal_window");
+    unsigned long int return_value_gtk_spin_button_get_type_36;
+    return_value_gtk_spin_button_get_type_36=gtk_spin_button_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_37;
+    return_value_g_type_check_instance_cast_37=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_35, return_value_gtk_spin_button_get_type_36);
+    dialog->temporal_window = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast_37;
+    struct _GtkWidget *return_value_glade_xml_get_widget_38;
+    return_value_glade_xml_get_widget_38=glade_xml_get_widget(_gladeXML, "root_frequency_error");
+    unsigned long int return_value_gtk_spin_button_get_type_39;
+    return_value_gtk_spin_button_get_type_39=gtk_spin_button_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_40;
+    return_value_g_type_check_instance_cast_40=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_38, return_value_gtk_spin_button_get_type_39);
+    dialog->root_frequency_error = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast_40;
+    struct _GtkWidget *return_value_glade_xml_get_widget_41;
+    return_value_glade_xml_get_widget_41=glade_xml_get_widget(_gladeXML, "dft_number");
+    unsigned long int return_value_gtk_spin_button_get_type_42;
+    return_value_gtk_spin_button_get_type_42=gtk_spin_button_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_43;
+    return_value_g_type_check_instance_cast_43=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_41, return_value_gtk_spin_button_get_type_42);
+    dialog->dft_number = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast_43;
+    struct _GtkWidget *return_value_glade_xml_get_widget_44;
+    return_value_glade_xml_get_widget_44=glade_xml_get_widget(_gladeXML, "dft_size");
+    unsigned long int return_value_gtk_spin_button_get_type_45;
+    return_value_gtk_spin_button_get_type_45=gtk_spin_button_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_46;
+    return_value_g_type_check_instance_cast_46=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_44, return_value_gtk_spin_button_get_type_45);
+    dialog->dft_size = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast_46;
+    struct _GtkWidget *return_value_glade_xml_get_widget_47;
+    return_value_glade_xml_get_widget_47=glade_xml_get_widget(_gladeXML, "peak_number");
+    unsigned long int return_value_gtk_spin_button_get_type_48;
+    return_value_gtk_spin_button_get_type_48=gtk_spin_button_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_49;
+    return_value_g_type_check_instance_cast_49=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_47, return_value_gtk_spin_button_get_type_48);
+    dialog->peak_number = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast_49;
+    struct _GtkWidget *return_value_glade_xml_get_widget_50;
+    return_value_glade_xml_get_widget_50=glade_xml_get_widget(_gladeXML, "peak_halfwidth");
+    unsigned long int return_value_gtk_spin_button_get_type_51;
+    return_value_gtk_spin_button_get_type_51=gtk_spin_button_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_52;
+    return_value_g_type_check_instance_cast_52=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_50, return_value_gtk_spin_button_get_type_51);
+    dialog->peak_halfwidth = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast_52;
+    struct _GtkWidget *return_value_glade_xml_get_widget_53;
+    return_value_glade_xml_get_widget_53=glade_xml_get_widget(_gladeXML, "rejection_peak_relation");
+    unsigned long int return_value_gtk_hscale_get_type_54;
+    return_value_gtk_hscale_get_type_54=gtk_hscale_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_55;
+    return_value_g_type_check_instance_cast_55=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_53, return_value_gtk_hscale_get_type_54);
+    dialog->rejection_peak_relation = (struct _GtkHScale *)return_value_g_type_check_instance_cast_55;
+    struct _GtkWidget *return_value_glade_xml_get_widget_56;
+    return_value_glade_xml_get_widget_56=glade_xml_get_widget(_gladeXML, "label_sample_rate1");
+    unsigned long int return_value_gtk_label_get_type_57;
+    return_value_gtk_label_get_type_57=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_58;
+    return_value_g_type_check_instance_cast_58=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_56, return_value_gtk_label_get_type_57);
+    dialog->label_sample_rate1 = (struct _GtkLabel *)return_value_g_type_check_instance_cast_58;
+    struct _GtkWidget *return_value_glade_xml_get_widget_59;
+    return_value_glade_xml_get_widget_59=glade_xml_get_widget(_gladeXML, "label_sample_rate2");
+    unsigned long int return_value_gtk_label_get_type_60;
+    return_value_gtk_label_get_type_60=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_61;
+    return_value_g_type_check_instance_cast_61=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_59, return_value_gtk_label_get_type_60);
+    dialog->label_sample_rate2 = (struct _GtkLabel *)return_value_g_type_check_instance_cast_61;
+    struct _GtkWidget *return_value_glade_xml_get_widget_62;
+    return_value_glade_xml_get_widget_62=glade_xml_get_widget(_gladeXML, "minimum_frequency");
+    unsigned long int return_value_gtk_spin_button_get_type_63;
+    return_value_gtk_spin_button_get_type_63=gtk_spin_button_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_64;
+    return_value_g_type_check_instance_cast_64=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_62, return_value_gtk_spin_button_get_type_63);
+    dialog->minimum_frequency = (struct _GtkSpinButton *)return_value_g_type_check_instance_cast_64;
     lingot_gui_config_dialog_scale_show(dialog, _gladeXML);
-    unsigned long int return_value_gtk_object_get_type$65;
-    return_value_gtk_object_get_type$65=gtk_object_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$66;
-    return_value_g_type_check_instance_cast$66=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_system, return_value_gtk_object_get_type$65);
-    gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$66, "changed", (void (*)(void))lingot_gui_config_dialog_callback_change_input_system, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)dialog, (void (*)(void *))(void *)0, 0, 0);
-    unsigned long int return_value_gtk_bin_get_type$67;
-    return_value_gtk_bin_get_type$67=gtk_bin_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$68;
-    return_value_g_type_check_instance_cast$68=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_bin_get_type$67);
-    unsigned long int return_value_gtk_object_get_type$69;
-    return_value_gtk_object_get_type$69=gtk_object_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$70;
-    return_value_g_type_check_instance_cast$70=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast$68)->child, return_value_gtk_object_get_type$69);
-    gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$70, "changed", (void (*)(void))lingot_gui_config_dialog_callback_change_sample_rate, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)dialog, (void (*)(void *))(void *)0, 0, 0);
-    unsigned long int return_value_gtk_object_get_type$71;
-    return_value_gtk_object_get_type$71=gtk_object_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$72;
-    return_value_g_type_check_instance_cast$72=g_type_check_instance_cast((struct _GTypeInstance *)dialog->oversampling, return_value_gtk_object_get_type$71);
-    gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$72, "value_changed", (void (*)(void))lingot_gui_config_dialog_callback_change_sample_rate, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)dialog, (void (*)(void *))(void *)0, 0, 0);
-    unsigned long int return_value_gtk_object_get_type$73;
-    return_value_gtk_object_get_type$73=gtk_object_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$74;
-    return_value_g_type_check_instance_cast$74=g_type_check_instance_cast((struct _GTypeInstance *)dialog->root_frequency_error, return_value_gtk_object_get_type$73);
-    gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$74, "value_changed", (void (*)(void))lingot_gui_config_dialog_callback_change_deviation, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)dialog, (void (*)(void *))(void *)0, 0, 0);
-    struct _GtkWidget *return_value_glade_xml_get_widget$75;
-    return_value_glade_xml_get_widget$75=glade_xml_get_widget(_gladeXML, "button_default");
-    unsigned long int return_value_gtk_object_get_type$76;
-    return_value_gtk_object_get_type$76=gtk_object_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$77;
-    return_value_g_type_check_instance_cast$77=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$75, return_value_gtk_object_get_type$76);
-    g_signal_connect_data((void *)(struct _GtkObject *)return_value_g_type_check_instance_cast$77, "clicked", (void (*)(void))lingot_gui_config_dialog_callback_button_default, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
-    struct _GtkWidget *return_value_glade_xml_get_widget$78;
-    return_value_glade_xml_get_widget$78=glade_xml_get_widget(_gladeXML, "button_apply");
-    unsigned long int return_value_gtk_object_get_type$79;
-    return_value_gtk_object_get_type$79=gtk_object_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$80;
-    return_value_g_type_check_instance_cast$80=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$78, return_value_gtk_object_get_type$79);
-    g_signal_connect_data((void *)(struct _GtkObject *)return_value_g_type_check_instance_cast$80, "clicked", (void (*)(void))lingot_gui_config_dialog_callback_button_apply, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
-    struct _GtkWidget *return_value_glade_xml_get_widget$81;
-    return_value_glade_xml_get_widget$81=glade_xml_get_widget(_gladeXML, "button_accept");
-    unsigned long int return_value_gtk_object_get_type$82;
-    return_value_gtk_object_get_type$82=gtk_object_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$83;
-    return_value_g_type_check_instance_cast$83=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$81, return_value_gtk_object_get_type$82);
-    g_signal_connect_data((void *)(struct _GtkObject *)return_value_g_type_check_instance_cast$83, "clicked", (void (*)(void))lingot_gui_config_dialog_callback_button_ok, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
-    struct _GtkWidget *return_value_glade_xml_get_widget$84;
-    return_value_glade_xml_get_widget$84=glade_xml_get_widget(_gladeXML, "button_cancel");
-    unsigned long int return_value_gtk_object_get_type$85;
-    return_value_gtk_object_get_type$85=gtk_object_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$86;
-    return_value_g_type_check_instance_cast$86=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$84, return_value_gtk_object_get_type$85);
-    g_signal_connect_data((void *)(struct _GtkObject *)return_value_g_type_check_instance_cast$86, "clicked", (void (*)(void))lingot_gui_config_dialog_callback_button_cancel, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
-    unsigned long int return_value_gtk_object_get_type$87;
-    return_value_gtk_object_get_type$87=gtk_object_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$88;
-    return_value_g_type_check_instance_cast$88=g_type_check_instance_cast((struct _GTypeInstance *)dialog->win, return_value_gtk_object_get_type$87);
-    g_signal_connect_data((void *)(struct _GtkObject *)return_value_g_type_check_instance_cast$88, "destroy", (void (*)(void))lingot_gui_config_dialog_callback_close, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$17)0);
+    unsigned long int return_value_gtk_object_get_type_65;
+    return_value_gtk_object_get_type_65=gtk_object_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_66;
+    return_value_g_type_check_instance_cast_66=g_type_check_instance_cast((struct _GTypeInstance *)dialog->input_system, return_value_gtk_object_get_type_65);
+    gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_66, "changed", (void (*)(void))lingot_gui_config_dialog_callback_change_input_system, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)dialog, (void (*)(void *))(void *)0, 0, 0);
+    unsigned long int return_value_gtk_bin_get_type_67;
+    return_value_gtk_bin_get_type_67=gtk_bin_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_68;
+    return_value_g_type_check_instance_cast_68=g_type_check_instance_cast((struct _GTypeInstance *)dialog->sample_rate, return_value_gtk_bin_get_type_67);
+    unsigned long int return_value_gtk_object_get_type_69;
+    return_value_gtk_object_get_type_69=gtk_object_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_70;
+    return_value_g_type_check_instance_cast_70=g_type_check_instance_cast((struct _GTypeInstance *)((struct _GtkBin *)return_value_g_type_check_instance_cast_68)->child, return_value_gtk_object_get_type_69);
+    gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_70, "changed", (void (*)(void))lingot_gui_config_dialog_callback_change_sample_rate, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)dialog, (void (*)(void *))(void *)0, 0, 0);
+    unsigned long int return_value_gtk_object_get_type_71;
+    return_value_gtk_object_get_type_71=gtk_object_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_72;
+    return_value_g_type_check_instance_cast_72=g_type_check_instance_cast((struct _GTypeInstance *)dialog->oversampling, return_value_gtk_object_get_type_71);
+    gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_72, "value_changed", (void (*)(void))lingot_gui_config_dialog_callback_change_sample_rate, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)dialog, (void (*)(void *))(void *)0, 0, 0);
+    unsigned long int return_value_gtk_object_get_type_73;
+    return_value_gtk_object_get_type_73=gtk_object_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_74;
+    return_value_g_type_check_instance_cast_74=g_type_check_instance_cast((struct _GTypeInstance *)dialog->root_frequency_error, return_value_gtk_object_get_type_73);
+    gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_74, "value_changed", (void (*)(void))lingot_gui_config_dialog_callback_change_deviation, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)dialog, (void (*)(void *))(void *)0, 0, 0);
+    struct _GtkWidget *return_value_glade_xml_get_widget_75;
+    return_value_glade_xml_get_widget_75=glade_xml_get_widget(_gladeXML, "button_default");
+    unsigned long int return_value_gtk_object_get_type_76;
+    return_value_gtk_object_get_type_76=gtk_object_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_77;
+    return_value_g_type_check_instance_cast_77=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_75, return_value_gtk_object_get_type_76);
+    g_signal_connect_data((void *)(struct _GtkObject *)return_value_g_type_check_instance_cast_77, "clicked", (void (*)(void))lingot_gui_config_dialog_callback_button_default, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
+    struct _GtkWidget *return_value_glade_xml_get_widget_78;
+    return_value_glade_xml_get_widget_78=glade_xml_get_widget(_gladeXML, "button_apply");
+    unsigned long int return_value_gtk_object_get_type_79;
+    return_value_gtk_object_get_type_79=gtk_object_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_80;
+    return_value_g_type_check_instance_cast_80=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_78, return_value_gtk_object_get_type_79);
+    g_signal_connect_data((void *)(struct _GtkObject *)return_value_g_type_check_instance_cast_80, "clicked", (void (*)(void))lingot_gui_config_dialog_callback_button_apply, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
+    struct _GtkWidget *return_value_glade_xml_get_widget_81;
+    return_value_glade_xml_get_widget_81=glade_xml_get_widget(_gladeXML, "button_accept");
+    unsigned long int return_value_gtk_object_get_type_82;
+    return_value_gtk_object_get_type_82=gtk_object_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_83;
+    return_value_g_type_check_instance_cast_83=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_81, return_value_gtk_object_get_type_82);
+    g_signal_connect_data((void *)(struct _GtkObject *)return_value_g_type_check_instance_cast_83, "clicked", (void (*)(void))lingot_gui_config_dialog_callback_button_ok, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
+    struct _GtkWidget *return_value_glade_xml_get_widget_84;
+    return_value_glade_xml_get_widget_84=glade_xml_get_widget(_gladeXML, "button_cancel");
+    unsigned long int return_value_gtk_object_get_type_85;
+    return_value_gtk_object_get_type_85=gtk_object_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_86;
+    return_value_g_type_check_instance_cast_86=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_84, return_value_gtk_object_get_type_85);
+    g_signal_connect_data((void *)(struct _GtkObject *)return_value_g_type_check_instance_cast_86, "clicked", (void (*)(void))lingot_gui_config_dialog_callback_button_cancel, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
+    unsigned long int return_value_gtk_object_get_type_87;
+    return_value_gtk_object_get_type_87=gtk_object_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_88;
+    return_value_g_type_check_instance_cast_88=g_type_check_instance_cast((struct _GTypeInstance *)dialog->win, return_value_gtk_object_get_type_87);
+    g_signal_connect_data((void *)(struct _GtkObject *)return_value_g_type_check_instance_cast_88, "destroy", (void (*)(void))lingot_gui_config_dialog_callback_close, (void *)dialog, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_17)0);
     lingot_gui_config_dialog_rewrite(dialog);
     gtk_widget_show(dialog->win);
     struct _GtkWidget *scroll;
@@ -7945,11 +7945,11 @@ void lingot_gui_config_dialog_show(struct _LingotMainFrame *frame, struct _Lingo
       lingot_gui_config_dialog_rewrite(frame->config_dialog);
     }
 
-    unsigned long int return_value_gtk_window_get_type$89;
-    return_value_gtk_window_get_type$89=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$90;
-    return_value_g_type_check_instance_cast$90=g_type_check_instance_cast((struct _GTypeInstance *)frame->config_dialog->win, return_value_gtk_window_get_type$89);
-    gtk_window_present((struct _GtkWindow *)return_value_g_type_check_instance_cast$90);
+    unsigned long int return_value_gtk_window_get_type_89;
+    return_value_gtk_window_get_type_89=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_90;
+    return_value_g_type_check_instance_cast_90=g_type_check_instance_cast((struct _GTypeInstance *)frame->config_dialog->win, return_value_gtk_window_get_type_89);
+    gtk_window_present((struct _GtkWindow *)return_value_g_type_check_instance_cast_90);
   }
   if(!(config == ((struct _LingotConfig *)NULL)))
     lingot_config_destroy(config);
@@ -7960,15 +7960,15 @@ void lingot_gui_config_dialog_show(struct _LingotMainFrame *frame, struct _Lingo
 // file lingot-gui-mainframe.c line 86
 void lingot_gui_mainframe_callback_about(struct _GtkWidget *w, struct _LingotMainFrame *frame)
 {
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Accurate and easy to use musical instrument tuner");
-  char *return_value_gettext$2;
-  return_value_gettext$2=gettext("translator-credits");
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Accurate and easy to use musical instrument tuner");
+  char *return_value_gettext_2;
+  return_value_gettext_2=gettext("translator-credits");
   static const char *artists[2l] = { "Matthew Blissett (Logo design)", (const char *)(void *)0 };
   static const char *authors[3l] = { "Ibán Cereijo Graña <ibancg@gmail.com>",
     "Jairo Chapela Martínez <jairochapela@gmail.com>",
     (const char *)(void *)0 };
-  gtk_show_about_dialog((struct _GtkWindow *)(void *)0, "name", (const void *)"Lingot", (const void *)"version", (const void *)"0.9.1", (const void *)"copyright", (const void *)"© 2004-2011 Ibán Cereijo Graña\n© 2004-2011 Jairo Chapela Martínez", (const void *)"comments", (const char *)return_value_gettext$1, (const void *)"authors", (const void *)authors, (const void *)"artists", (const void *)artists, (const void *)"website-label", (const void *)"http://lingot.nongnu.org/", (const void *)"website", (const void *)"http://lingot.nongnu.org/", (const void *)"translator-credits", (const char *)return_value_gettext$2, (const void *)"logo-icon-name", (const void *)"lingot-logo", (void *)0);
+  gtk_show_about_dialog((struct _GtkWindow *)(void *)0, "name", (const void *)"Lingot", (const void *)"version", (const void *)"0.9.1", (const void *)"copyright", (const void *)"© 2004-2011 Ibán Cereijo Graña\n© 2004-2011 Jairo Chapela Martínez", (const void *)"comments", (const char *)return_value_gettext_1, (const void *)"authors", (const void *)authors, (const void *)"artists", (const void *)artists, (const void *)"website-label", (const void *)"http://lingot.nongnu.org/", (const void *)"website", (const void *)"http://lingot.nongnu.org/", (const void *)"translator-credits", (const char *)return_value_gettext_2, (const void *)"logo-icon-name", (const void *)"lingot-logo", (void *)0);
 }
 
 // lingot_gui_mainframe_callback_config_dialog
@@ -7996,71 +7996,71 @@ signed int lingot_gui_mainframe_callback_error_dispatcher(void *data)
   struct _GtkWidget *message_dialog;
   struct _LingotMainFrame *frame = (struct _LingotMainFrame *)data;
   char *error_message = (char *)(void *)0;
-  enum message_type_t lingot_gui_mainframe_callback_error_dispatcher$$1$$message_type;
+  enum message_type_t lingot_gui_mainframe_callback_error_dispatcher__1__message_type;
   signed int more_messages;
-  struct _GtkWidget *tmp_if_expr$1;
-  const char *tmp_if_expr$10;
-  char *return_value_gettext$6;
-  const char *tmp_if_expr$9;
-  char *return_value_gettext$7;
-  char *return_value_gettext$8;
+  struct _GtkWidget *tmp_if_expr_1;
+  const char *tmp_if_expr_10;
+  char *return_value_gettext_6;
+  const char *tmp_if_expr_9;
+  char *return_value_gettext_7;
+  char *return_value_gettext_8;
   do
   {
-    more_messages=lingot_msg_get(&error_message, &lingot_gui_mainframe_callback_error_dispatcher$$1$$message_type);
+    more_messages=lingot_msg_get(&error_message, &lingot_gui_mainframe_callback_error_dispatcher__1__message_type);
     if(!(more_messages == 0))
     {
       if(!(frame->config_dialog == ((struct _LingotConfigDialog *)NULL)))
-        tmp_if_expr$1 = frame->config_dialog->win;
+        tmp_if_expr_1 = frame->config_dialog->win;
 
       else
-        tmp_if_expr$1 = frame->win;
-      unsigned long int return_value_gtk_window_get_type$2;
-      return_value_gtk_window_get_type$2=gtk_window_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-      return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)tmp_if_expr$1, return_value_gtk_window_get_type$2);
-      message_dialog=gtk_message_dialog_new((struct _GtkWindow *)return_value_g_type_check_instance_cast$3, (enum anonymous$22)GTK_DIALOG_DESTROY_WITH_PARENT, (enum anonymous$23)((signed int)lingot_gui_mainframe_callback_error_dispatcher$$1$$message_type == ERROR ? GTK_MESSAGE_ERROR : ((signed int)lingot_gui_mainframe_callback_error_dispatcher$$1$$message_type == WARNING ? GTK_MESSAGE_WARNING : GTK_MESSAGE_INFO)), (enum anonymous$21)GTK_BUTTONS_CLOSE, "%s", error_message);
-      unsigned long int return_value_gtk_window_get_type$4;
-      return_value_gtk_window_get_type$4=gtk_window_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-      return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)message_dialog, return_value_gtk_window_get_type$4);
-      if((signed int)lingot_gui_mainframe_callback_error_dispatcher$$1$$message_type == ERROR)
+        tmp_if_expr_1 = frame->win;
+      unsigned long int return_value_gtk_window_get_type_2;
+      return_value_gtk_window_get_type_2=gtk_window_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+      return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)tmp_if_expr_1, return_value_gtk_window_get_type_2);
+      message_dialog=gtk_message_dialog_new((struct _GtkWindow *)return_value_g_type_check_instance_cast_3, (enum anonymous_22)GTK_DIALOG_DESTROY_WITH_PARENT, (enum anonymous_23)((signed int)lingot_gui_mainframe_callback_error_dispatcher__1__message_type == ERROR ? GTK_MESSAGE_ERROR : ((signed int)lingot_gui_mainframe_callback_error_dispatcher__1__message_type == WARNING ? GTK_MESSAGE_WARNING : GTK_MESSAGE_INFO)), (enum anonymous_21)GTK_BUTTONS_CLOSE, "%s", error_message);
+      unsigned long int return_value_gtk_window_get_type_4;
+      return_value_gtk_window_get_type_4=gtk_window_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+      return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)message_dialog, return_value_gtk_window_get_type_4);
+      if((signed int)lingot_gui_mainframe_callback_error_dispatcher__1__message_type == ERROR)
       {
-        return_value_gettext$6=gettext("Error");
-        tmp_if_expr$10 = (const char *)return_value_gettext$6;
+        return_value_gettext_6=gettext("Error");
+        tmp_if_expr_10 = (const char *)return_value_gettext_6;
       }
 
       else
       {
-        if((signed int)lingot_gui_mainframe_callback_error_dispatcher$$1$$message_type == WARNING)
+        if((signed int)lingot_gui_mainframe_callback_error_dispatcher__1__message_type == WARNING)
         {
-          return_value_gettext$7=gettext("Warning");
-          tmp_if_expr$9 = (const char *)return_value_gettext$7;
+          return_value_gettext_7=gettext("Warning");
+          tmp_if_expr_9 = (const char *)return_value_gettext_7;
         }
 
         else
         {
-          return_value_gettext$8=gettext("Info");
-          tmp_if_expr$9 = (const char *)return_value_gettext$8;
+          return_value_gettext_8=gettext("Info");
+          tmp_if_expr_9 = (const char *)return_value_gettext_8;
         }
-        tmp_if_expr$10 = tmp_if_expr$9;
+        tmp_if_expr_10 = tmp_if_expr_9;
       }
-      gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast$5, tmp_if_expr$10);
-      unsigned long int return_value_gtk_window_get_type$11;
-      return_value_gtk_window_get_type$11=gtk_window_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-      return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)message_dialog, return_value_gtk_window_get_type$11);
-      unsigned long int return_value_gtk_window_get_type$13;
-      return_value_gtk_window_get_type$13=gtk_window_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-      return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type$13);
-      struct _GdkPixbuf *return_value_gtk_window_get_icon$15;
-      return_value_gtk_window_get_icon$15=gtk_window_get_icon((struct _GtkWindow *)return_value_g_type_check_instance_cast$14);
-      gtk_window_set_icon((struct _GtkWindow *)return_value_g_type_check_instance_cast$12, return_value_gtk_window_get_icon$15);
-      unsigned long int return_value_gtk_dialog_get_type$16;
-      return_value_gtk_dialog_get_type$16=gtk_dialog_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$17;
-      return_value_g_type_check_instance_cast$17=g_type_check_instance_cast((struct _GTypeInstance *)message_dialog, return_value_gtk_dialog_get_type$16);
-      gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast$17);
+      gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast_5, tmp_if_expr_10);
+      unsigned long int return_value_gtk_window_get_type_11;
+      return_value_gtk_window_get_type_11=gtk_window_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+      return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)message_dialog, return_value_gtk_window_get_type_11);
+      unsigned long int return_value_gtk_window_get_type_13;
+      return_value_gtk_window_get_type_13=gtk_window_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+      return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type_13);
+      struct _GdkPixbuf *return_value_gtk_window_get_icon_15;
+      return_value_gtk_window_get_icon_15=gtk_window_get_icon((struct _GtkWindow *)return_value_g_type_check_instance_cast_14);
+      gtk_window_set_icon((struct _GtkWindow *)return_value_g_type_check_instance_cast_12, return_value_gtk_window_get_icon_15);
+      unsigned long int return_value_gtk_dialog_get_type_16;
+      return_value_gtk_dialog_get_type_16=gtk_dialog_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_17;
+      return_value_g_type_check_instance_cast_17=g_type_check_instance_cast((struct _GTypeInstance *)message_dialog, return_value_gtk_dialog_get_type_16);
+      gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast_17);
       gtk_widget_destroy(message_dialog);
       free((void *)error_message);
     }
@@ -8081,23 +8081,23 @@ signed int lingot_gui_mainframe_callback_gauge_computation(void *data)
   struct _LingotMainFrame *frame = (struct _LingotMainFrame *)data;
   period = (unsigned int)((double)1000 / 60.0);
   frame->gauge_computation_uid=g_timeout_add(period, lingot_gui_mainframe_callback_gauge_computation, (void *)frame);
-  _Bool tmp_if_expr$2;
-  signed int return_value___isnan$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value___isnan_1;
   if(frame->core->running == 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value___isnan$1=__isnan(frame->core->freq);
-    tmp_if_expr$2 = return_value___isnan$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value___isnan_1=__isnan(frame->core->freq);
+    tmp_if_expr_2 = return_value___isnan_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = frame->core->freq < 10.0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = frame->core->freq < 10.0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     lingot_gauge_compute(frame->gauge, frame->conf->gauge_rest_value);
 
   else
@@ -8113,63 +8113,63 @@ signed int lingot_gui_mainframe_callback_gauge_computation(void *data)
 void lingot_gui_mainframe_callback_open_config(void *data, struct _LingotMainFrame *frame)
 {
   struct _GtkWidget *dialog;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Open Configuration File");
-  unsigned long int return_value_gtk_window_get_type$2;
-  return_value_gtk_window_get_type$2=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type$2);
-  dialog=gtk_file_chooser_dialog_new((const char *)return_value_gettext$1, (struct _GtkWindow *)return_value_g_type_check_instance_cast$3, (enum anonymous$7)GTK_FILE_CHOOSER_ACTION_OPEN, "gtk-cancel", -6, (const void *)"gtk-open", -3, (void *)0);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Open Configuration File");
+  unsigned long int return_value_gtk_window_get_type_2;
+  return_value_gtk_window_get_type_2=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type_2);
+  dialog=gtk_file_chooser_dialog_new((const char *)return_value_gettext_1, (struct _GtkWindow *)return_value_g_type_check_instance_cast_3, (enum anonymous_7)GTK_FILE_CHOOSER_ACTION_OPEN, "gtk-cancel", -6, (const void *)"gtk-open", -3, (void *)0);
   struct _GtkFileFilter *filefilter;
   struct _LingotConfig *config = (struct _LingotConfig *)(void *)0;
   filefilter=gtk_file_filter_new();
-  char *return_value_gettext$4;
-  return_value_gettext$4=gettext("Lingot configuration files");
-  gtk_file_filter_set_name(filefilter, (const char *)return_value_gettext$4);
+  char *return_value_gettext_4;
+  return_value_gettext_4=gettext("Lingot configuration files");
+  gtk_file_filter_set_name(filefilter, (const char *)return_value_gettext_4);
   gtk_file_filter_add_pattern(filefilter, "*.conf");
-  unsigned long int return_value_gtk_file_chooser_get_type$5;
-  return_value_gtk_file_chooser_get_type$5=gtk_file_chooser_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$5);
-  gtk_file_chooser_add_filter((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$6, filefilter);
-  unsigned long int return_value_gtk_file_chooser_get_type$7;
-  return_value_gtk_file_chooser_get_type$7=gtk_file_chooser_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$7);
-  gtk_file_chooser_set_show_hidden((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$8, (signed int)!(0 != 0));
+  unsigned long int return_value_gtk_file_chooser_get_type_5;
+  return_value_gtk_file_chooser_get_type_5=gtk_file_chooser_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_5);
+  gtk_file_chooser_add_filter((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_6, filefilter);
+  unsigned long int return_value_gtk_file_chooser_get_type_7;
+  return_value_gtk_file_chooser_get_type_7=gtk_file_chooser_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_7);
+  gtk_file_chooser_set_show_hidden((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_8, (signed int)!(0 != 0));
   if(!(filechooser_config_last_folder == ((char *)NULL)))
   {
-    unsigned long int return_value_gtk_file_chooser_get_type$9;
-    return_value_gtk_file_chooser_get_type$9=gtk_file_chooser_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-    return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$9);
-    gtk_file_chooser_set_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$10, filechooser_config_last_folder);
+    unsigned long int return_value_gtk_file_chooser_get_type_9;
+    return_value_gtk_file_chooser_get_type_9=gtk_file_chooser_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+    return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_9);
+    gtk_file_chooser_set_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_10, filechooser_config_last_folder);
   }
 
-  unsigned long int return_value_gtk_dialog_get_type$16;
-  return_value_gtk_dialog_get_type$16=gtk_dialog_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$17;
-  return_value_g_type_check_instance_cast$17=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type$16);
-  signed int return_value_gtk_dialog_run$18;
-  return_value_gtk_dialog_run$18=gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast$17);
-  if(return_value_gtk_dialog_run$18 == -3)
+  unsigned long int return_value_gtk_dialog_get_type_16;
+  return_value_gtk_dialog_get_type_16=gtk_dialog_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_17;
+  return_value_g_type_check_instance_cast_17=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type_16);
+  signed int return_value_gtk_dialog_run_18;
+  return_value_gtk_dialog_run_18=gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast_17);
+  if(return_value_gtk_dialog_run_18 == -3)
   {
     char *filename;
-    unsigned long int return_value_gtk_file_chooser_get_type$11;
-    return_value_gtk_file_chooser_get_type$11=gtk_file_chooser_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-    return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$11);
-    filename=gtk_file_chooser_get_filename((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$12);
+    unsigned long int return_value_gtk_file_chooser_get_type_11;
+    return_value_gtk_file_chooser_get_type_11=gtk_file_chooser_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+    return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_11);
+    filename=gtk_file_chooser_get_filename((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_12);
     if(!(filechooser_config_last_folder == ((char *)NULL)))
       free((void *)filechooser_config_last_folder);
 
-    unsigned long int return_value_gtk_file_chooser_get_type$13;
-    return_value_gtk_file_chooser_get_type$13=gtk_file_chooser_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-    return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$13);
-    char *return_value_gtk_file_chooser_get_current_folder$15;
-    return_value_gtk_file_chooser_get_current_folder$15=gtk_file_chooser_get_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$14);
-    filechooser_config_last_folder=strdup(return_value_gtk_file_chooser_get_current_folder$15);
+    unsigned long int return_value_gtk_file_chooser_get_type_13;
+    return_value_gtk_file_chooser_get_type_13=gtk_file_chooser_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+    return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_13);
+    char *return_value_gtk_file_chooser_get_current_folder_15;
+    return_value_gtk_file_chooser_get_current_folder_15=gtk_file_chooser_get_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_14);
+    filechooser_config_last_folder=strdup(return_value_gtk_file_chooser_get_current_folder_15);
     config=lingot_config_new();
     lingot_config_load(config, filename);
     g_free((void *)filename);
@@ -8193,72 +8193,72 @@ void lingot_gui_mainframe_callback_redraw(struct _GtkWidget *w, struct _GdkEvent
 void lingot_gui_mainframe_callback_save_config(void *data, struct _LingotMainFrame *frame)
 {
   struct _GtkWidget *dialog;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Save Configuration File");
-  unsigned long int return_value_gtk_window_get_type$2;
-  return_value_gtk_window_get_type$2=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type$2);
-  dialog=gtk_file_chooser_dialog_new((const char *)return_value_gettext$1, (struct _GtkWindow *)return_value_g_type_check_instance_cast$3, (enum anonymous$7)GTK_FILE_CHOOSER_ACTION_SAVE, "gtk-cancel", -6, (const void *)"gtk-save", -3, (void *)0);
-  unsigned long int return_value_gtk_file_chooser_get_type$4;
-  return_value_gtk_file_chooser_get_type$4=gtk_file_chooser_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$4);
-  gtk_file_chooser_set_do_overwrite_confirmation((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$5, (signed int)!(0 != 0));
-  unsigned long int return_value_gtk_file_chooser_get_type$6;
-  return_value_gtk_file_chooser_get_type$6=gtk_file_chooser_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$7;
-  return_value_g_type_check_instance_cast$7=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$6);
-  gtk_file_chooser_set_current_name((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$7, "untitled.conf");
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Save Configuration File");
+  unsigned long int return_value_gtk_window_get_type_2;
+  return_value_gtk_window_get_type_2=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type_2);
+  dialog=gtk_file_chooser_dialog_new((const char *)return_value_gettext_1, (struct _GtkWindow *)return_value_g_type_check_instance_cast_3, (enum anonymous_7)GTK_FILE_CHOOSER_ACTION_SAVE, "gtk-cancel", -6, (const void *)"gtk-save", -3, (void *)0);
+  unsigned long int return_value_gtk_file_chooser_get_type_4;
+  return_value_gtk_file_chooser_get_type_4=gtk_file_chooser_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_4);
+  gtk_file_chooser_set_do_overwrite_confirmation((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_5, (signed int)!(0 != 0));
+  unsigned long int return_value_gtk_file_chooser_get_type_6;
+  return_value_gtk_file_chooser_get_type_6=gtk_file_chooser_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_7;
+  return_value_g_type_check_instance_cast_7=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_6);
+  gtk_file_chooser_set_current_name((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_7, "untitled.conf");
   struct _GtkFileFilter *filefilter;
   filefilter=gtk_file_filter_new();
-  char *return_value_gettext$8;
-  return_value_gettext$8=gettext("Lingot configuration files");
-  gtk_file_filter_set_name(filefilter, (const char *)return_value_gettext$8);
+  char *return_value_gettext_8;
+  return_value_gettext_8=gettext("Lingot configuration files");
+  gtk_file_filter_set_name(filefilter, (const char *)return_value_gettext_8);
   gtk_file_filter_add_pattern(filefilter, "*.conf");
-  unsigned long int return_value_gtk_file_chooser_get_type$9;
-  return_value_gtk_file_chooser_get_type$9=gtk_file_chooser_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$9);
-  gtk_file_chooser_add_filter((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$10, filefilter);
-  unsigned long int return_value_gtk_file_chooser_get_type$11;
-  return_value_gtk_file_chooser_get_type$11=gtk_file_chooser_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$11);
-  gtk_file_chooser_set_show_hidden((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$12, (signed int)!(0 != 0));
+  unsigned long int return_value_gtk_file_chooser_get_type_9;
+  return_value_gtk_file_chooser_get_type_9=gtk_file_chooser_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_9);
+  gtk_file_chooser_add_filter((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_10, filefilter);
+  unsigned long int return_value_gtk_file_chooser_get_type_11;
+  return_value_gtk_file_chooser_get_type_11=gtk_file_chooser_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_11);
+  gtk_file_chooser_set_show_hidden((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_12, (signed int)!(0 != 0));
   if(!(filechooser_config_last_folder == ((char *)NULL)))
   {
-    unsigned long int return_value_gtk_file_chooser_get_type$13;
-    return_value_gtk_file_chooser_get_type$13=gtk_file_chooser_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-    return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$13);
-    gtk_file_chooser_set_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$14, filechooser_config_last_folder);
+    unsigned long int return_value_gtk_file_chooser_get_type_13;
+    return_value_gtk_file_chooser_get_type_13=gtk_file_chooser_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+    return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_13);
+    gtk_file_chooser_set_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_14, filechooser_config_last_folder);
   }
 
-  unsigned long int return_value_gtk_dialog_get_type$20;
-  return_value_gtk_dialog_get_type$20=gtk_dialog_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$21;
-  return_value_g_type_check_instance_cast$21=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type$20);
-  signed int return_value_gtk_dialog_run$22;
-  return_value_gtk_dialog_run$22=gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast$21);
-  if(return_value_gtk_dialog_run$22 == -3)
+  unsigned long int return_value_gtk_dialog_get_type_20;
+  return_value_gtk_dialog_get_type_20=gtk_dialog_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_21;
+  return_value_g_type_check_instance_cast_21=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type_20);
+  signed int return_value_gtk_dialog_run_22;
+  return_value_gtk_dialog_run_22=gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast_21);
+  if(return_value_gtk_dialog_run_22 == -3)
   {
     char *filename;
-    unsigned long int return_value_gtk_file_chooser_get_type$15;
-    return_value_gtk_file_chooser_get_type$15=gtk_file_chooser_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-    return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$15);
-    filename=gtk_file_chooser_get_filename((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$16);
+    unsigned long int return_value_gtk_file_chooser_get_type_15;
+    return_value_gtk_file_chooser_get_type_15=gtk_file_chooser_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+    return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_15);
+    filename=gtk_file_chooser_get_filename((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_16);
     if(!(filechooser_config_last_folder == ((char *)NULL)))
       free((void *)filechooser_config_last_folder);
 
-    unsigned long int return_value_gtk_file_chooser_get_type$17;
-    return_value_gtk_file_chooser_get_type$17=gtk_file_chooser_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-    return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type$17);
-    char *return_value_gtk_file_chooser_get_current_folder$19;
-    return_value_gtk_file_chooser_get_current_folder$19=gtk_file_chooser_get_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$18);
-    filechooser_config_last_folder=strdup(return_value_gtk_file_chooser_get_current_folder$19);
+    unsigned long int return_value_gtk_file_chooser_get_type_17;
+    return_value_gtk_file_chooser_get_type_17=gtk_file_chooser_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+    return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_file_chooser_get_type_17);
+    char *return_value_gtk_file_chooser_get_current_folder_19;
+    return_value_gtk_file_chooser_get_current_folder_19=gtk_file_chooser_get_current_folder((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_18);
+    filechooser_config_last_folder=strdup(return_value_gtk_file_chooser_get_current_folder_19);
     lingot_config_save(frame->conf, filename);
     g_free((void *)filename);
   }
@@ -8294,13 +8294,13 @@ signed int lingot_gui_mainframe_callback_tout_visualization(void *data)
 // file lingot-gui-mainframe.c line 108
 void lingot_gui_mainframe_callback_view_spectrum(struct _GtkWidget *w, struct _LingotMainFrame *frame)
 {
-  unsigned long int return_value_gtk_check_menu_item_get_type$1;
-  return_value_gtk_check_menu_item_get_type$1=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)frame->view_spectrum_item, return_value_gtk_check_menu_item_get_type$1);
-  signed int return_value_gtk_check_menu_item_get_active$3;
-  return_value_gtk_check_menu_item_get_active$3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$2);
-  gtk_widget_set_visible(frame->spectrum_frame, return_value_gtk_check_menu_item_get_active$3);
+  unsigned long int return_value_gtk_check_menu_item_get_type_1;
+  return_value_gtk_check_menu_item_get_type_1=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)frame->view_spectrum_item, return_value_gtk_check_menu_item_get_type_1);
+  signed int return_value_gtk_check_menu_item_get_active_3;
+  return_value_gtk_check_menu_item_get_active_3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_2);
+  gtk_widget_set_visible(frame->spectrum_frame, return_value_gtk_check_menu_item_get_active_3);
 }
 
 // lingot_gui_mainframe_change_config
@@ -8312,26 +8312,26 @@ void lingot_gui_mainframe_change_config(struct _LingotMainFrame *frame, struct _
   lingot_config_copy(frame->conf, conf);
   g_object_unref((void *)frame->pix_spectrum);
   signed int x;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(frame->conf->fft_size >= 257u)
-    tmp_if_expr$1 = frame->conf->fft_size >> 1;
+    tmp_if_expr_1 = frame->conf->fft_size >> 1;
 
   else
-    tmp_if_expr$1 = (unsigned int)256;
-  x = (signed int)(tmp_if_expr$1 + (unsigned int)(2 * spectrum_x_margin));
+    tmp_if_expr_1 = (unsigned int)256;
+  x = (signed int)(tmp_if_expr_1 + (unsigned int)(2 * spectrum_x_margin));
   signed int y = spectrum_size_y + spectrum_top_margin + spectrum_bottom_margin;
-  unsigned long int return_value_gtk_widget_get_type$2;
-  return_value_gtk_widget_get_type$2=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)frame->spectrum_area, return_value_gtk_widget_get_type$2);
-  gtk_widget_set_size_request((struct _GtkWidget *)return_value_g_type_check_instance_cast$3, x, y);
+  unsigned long int return_value_gtk_widget_get_type_2;
+  return_value_gtk_widget_get_type_2=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)frame->spectrum_area, return_value_gtk_widget_get_type_2);
+  gtk_widget_set_size_request((struct _GtkWidget *)return_value_g_type_check_instance_cast_3, x, y);
   frame->pix_spectrum=gdk_pixmap_new(frame->spectrum_area->window, x, y, -1);
-  gtk_scrolled_window_set_policy(frame->spectrum_scroll, (enum anonymous$31)(frame->conf->fft_size > (unsigned int)512 ? GTK_POLICY_ALWAYS : GTK_POLICY_NEVER), (enum anonymous$31)GTK_POLICY_NEVER);
-  unsigned long int return_value_gtk_widget_get_type$4;
-  return_value_gtk_widget_get_type$4=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)frame->spectrum_scroll, return_value_gtk_widget_get_type$4);
-  gtk_widget_set_size_request((struct _GtkWidget *)return_value_g_type_check_instance_cast$5, 260 + 2 * spectrum_x_margin, spectrum_size_y + spectrum_bottom_margin + spectrum_top_margin + 4 + (frame->conf->fft_size > (unsigned int)512 ? 16 : 0));
+  gtk_scrolled_window_set_policy(frame->spectrum_scroll, (enum anonymous_31)(frame->conf->fft_size > (unsigned int)512 ? GTK_POLICY_ALWAYS : GTK_POLICY_NEVER), (enum anonymous_31)GTK_POLICY_NEVER);
+  unsigned long int return_value_gtk_widget_get_type_4;
+  return_value_gtk_widget_get_type_4=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)frame->spectrum_scroll, return_value_gtk_widget_get_type_4);
+  gtk_widget_set_size_request((struct _GtkWidget *)return_value_g_type_check_instance_cast_5, 260 + 2 * spectrum_x_margin, spectrum_size_y + spectrum_bottom_margin + spectrum_top_margin + 4 + (frame->conf->fft_size > (unsigned int)512 ? 16 : 0));
   frame->core=lingot_core_new(frame->conf);
   lingot_core_start(frame->core);
   lingot_config_copy(conf, frame->conf);
@@ -8356,15 +8356,15 @@ void lingot_gui_mainframe_create(signed int argc, char **argv)
   if(filechooser_config_last_folder == ((char *)NULL))
   {
     char buff[1000l];
-    char *return_value_getenv$1;
-    return_value_getenv$1=getenv("HOME");
-    sprintf(buff, "%s/%s", return_value_getenv$1, (const void *)".lingot/");
+    char *return_value_getenv_1;
+    return_value_getenv_1=getenv("HOME");
+    sprintf(buff, "%s/%s", return_value_getenv_1, (const void *)".lingot/");
     filechooser_config_last_folder=strdup(buff);
   }
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct _LingotMainFrame) /*168ul*/ );
-  frame = (struct _LingotMainFrame *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct _LingotMainFrame) /*168ul*/ );
+  frame = (struct _LingotMainFrame *)return_value_malloc_2;
   frame->config_dialog = (struct _LingotConfigDialog *)(void *)0;
   frame->pix_stick = (struct _GdkDrawable *)(void *)0;
   frame->conf=lingot_config_new();
@@ -8390,109 +8390,109 @@ void lingot_gui_mainframe_create(signed int argc, char **argv)
   struct _GdkPixbuf *logo;
   logo=gdk_pixbuf_new_from_xpm_data(lingotlogo);
   gtk_icon_theme_add_builtin_icon("lingot-logo", 64, logo);
-  unsigned long int return_value_gtk_window_get_type$3;
-  return_value_gtk_window_get_type$3=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type$3);
-  gtk_window_set_icon((struct _GtkWindow *)return_value_g_type_check_instance_cast$4, logo);
+  unsigned long int return_value_gtk_window_get_type_3;
+  return_value_gtk_window_get_type_3=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type_3);
+  gtk_window_set_icon((struct _GtkWindow *)return_value_g_type_check_instance_cast_4, logo);
   frame->gauge_area=glade_xml_get_widget(_gladeXML, "gauge_area");
   frame->spectrum_area=glade_xml_get_widget(_gladeXML, "spectrum_area");
   frame->freq_label=glade_xml_get_widget(_gladeXML, "freq_label");
   frame->tone_label=glade_xml_get_widget(_gladeXML, "tone_label");
   frame->error_label=glade_xml_get_widget(_gladeXML, "error_label");
   frame->spectrum_frame=glade_xml_get_widget(_gladeXML, "spectrum_frame");
-  struct _GtkWidget *return_value_glade_xml_get_widget$5;
-  return_value_glade_xml_get_widget$5=glade_xml_get_widget(_gladeXML, "scrolledwindow1");
-  unsigned long int return_value_gtk_scrolled_window_get_type$6;
-  return_value_gtk_scrolled_window_get_type$6=gtk_scrolled_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$7;
-  return_value_g_type_check_instance_cast$7=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$5, return_value_gtk_scrolled_window_get_type$6);
-  frame->spectrum_scroll = (struct _GtkScrolledWindow *)return_value_g_type_check_instance_cast$7;
+  struct _GtkWidget *return_value_glade_xml_get_widget_5;
+  return_value_glade_xml_get_widget_5=glade_xml_get_widget(_gladeXML, "scrolledwindow1");
+  unsigned long int return_value_gtk_scrolled_window_get_type_6;
+  return_value_gtk_scrolled_window_get_type_6=gtk_scrolled_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_7;
+  return_value_g_type_check_instance_cast_7=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_5, return_value_gtk_scrolled_window_get_type_6);
+  frame->spectrum_scroll = (struct _GtkScrolledWindow *)return_value_g_type_check_instance_cast_7;
   frame->view_spectrum_item=glade_xml_get_widget(_gladeXML, "spectrum_item");
-  unsigned long int return_value_gtk_check_menu_item_get_type$8;
-  return_value_gtk_check_menu_item_get_type$8=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$9;
-  return_value_g_type_check_instance_cast$9=g_type_check_instance_cast((struct _GTypeInstance *)frame->view_spectrum_item, return_value_gtk_check_menu_item_get_type$8);
-  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$9, (signed int)!(0 != 0));
+  unsigned long int return_value_gtk_check_menu_item_get_type_8;
+  return_value_gtk_check_menu_item_get_type_8=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_9;
+  return_value_g_type_check_instance_cast_9=g_type_check_instance_cast((struct _GTypeInstance *)frame->view_spectrum_item, return_value_gtk_check_menu_item_get_type_8);
+  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_9, (signed int)!(0 != 0));
   gtk_widget_show_all(frame->win);
   signed int x;
-  unsigned int tmp_if_expr$10;
+  unsigned int tmp_if_expr_10;
   if(conf->fft_size >= 257u)
-    tmp_if_expr$10 = conf->fft_size >> 1;
+    tmp_if_expr_10 = conf->fft_size >> 1;
 
   else
-    tmp_if_expr$10 = (unsigned int)256;
-  x = (signed int)(tmp_if_expr$10 + (unsigned int)(2 * spectrum_x_margin));
+    tmp_if_expr_10 = (unsigned int)256;
+  x = (signed int)(tmp_if_expr_10 + (unsigned int)(2 * spectrum_x_margin));
   signed int y = spectrum_size_y + spectrum_bottom_margin + spectrum_top_margin;
   gdk_pixmap_new(frame->gauge_area->window, gauge_size_x, gauge_size_y, -1);
   frame->pix_spectrum=gdk_pixmap_new(frame->spectrum_area->window, x, y, -1);
-  struct _GtkWidget *return_value_glade_xml_get_widget$11;
-  return_value_glade_xml_get_widget$11=glade_xml_get_widget(_gladeXML, "preferences_item");
-  unsigned long int return_value_gtk_object_get_type$12;
-  return_value_gtk_object_get_type$12=gtk_object_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$13;
-  return_value_g_type_check_instance_cast$13=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$11, return_value_gtk_object_get_type$12);
-  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$13, "activate", (void (*)(void))lingot_gui_mainframe_callback_config_dialog, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
-  struct _GtkWidget *return_value_glade_xml_get_widget$14;
-  return_value_glade_xml_get_widget$14=glade_xml_get_widget(_gladeXML, "quit_item");
-  unsigned long int return_value_gtk_object_get_type$15;
-  return_value_gtk_object_get_type$15=gtk_object_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$14, return_value_gtk_object_get_type$15);
-  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$16, "activate", (void (*)(void))lingot_gui_mainframe_callback_destroy, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
-  struct _GtkWidget *return_value_glade_xml_get_widget$17;
-  return_value_glade_xml_get_widget$17=glade_xml_get_widget(_gladeXML, "about_item");
-  unsigned long int return_value_gtk_object_get_type$18;
-  return_value_gtk_object_get_type$18=gtk_object_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$19;
-  return_value_g_type_check_instance_cast$19=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$17, return_value_gtk_object_get_type$18);
-  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$19, "activate", (void (*)(void))lingot_gui_mainframe_callback_about, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
-  struct _GtkWidget *return_value_glade_xml_get_widget$20;
-  return_value_glade_xml_get_widget$20=glade_xml_get_widget(_gladeXML, "spectrum_item");
-  unsigned long int return_value_gtk_object_get_type$21;
-  return_value_gtk_object_get_type$21=gtk_object_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$22;
-  return_value_g_type_check_instance_cast$22=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$20, return_value_gtk_object_get_type$21);
-  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$22, "activate", (void (*)(void))lingot_gui_mainframe_callback_view_spectrum, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
-  struct _GtkWidget *return_value_glade_xml_get_widget$23;
-  return_value_glade_xml_get_widget$23=glade_xml_get_widget(_gladeXML, "open_config_item");
-  unsigned long int return_value_gtk_object_get_type$24;
-  return_value_gtk_object_get_type$24=gtk_object_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$25;
-  return_value_g_type_check_instance_cast$25=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$23, return_value_gtk_object_get_type$24);
-  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$25, "activate", (void (*)(void))lingot_gui_mainframe_callback_open_config, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
-  struct _GtkWidget *return_value_glade_xml_get_widget$26;
-  return_value_glade_xml_get_widget$26=glade_xml_get_widget(_gladeXML, "save_config_item");
-  unsigned long int return_value_gtk_object_get_type$27;
-  return_value_gtk_object_get_type$27=gtk_object_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$28;
-  return_value_g_type_check_instance_cast$28=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget$26, return_value_gtk_object_get_type$27);
-  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$28, "activate", (void (*)(void))lingot_gui_mainframe_callback_save_config, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
-  unsigned long int return_value_gtk_object_get_type$29;
-  return_value_gtk_object_get_type$29=gtk_object_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$30;
-  return_value_g_type_check_instance_cast$30=g_type_check_instance_cast((struct _GTypeInstance *)frame->gauge_area, return_value_gtk_object_get_type$29);
-  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$30, "expose_event", (void (*)(void))lingot_gui_mainframe_callback_redraw, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
-  unsigned long int return_value_gtk_object_get_type$31;
-  return_value_gtk_object_get_type$31=gtk_object_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$32;
-  return_value_g_type_check_instance_cast$32=g_type_check_instance_cast((struct _GTypeInstance *)frame->spectrum_area, return_value_gtk_object_get_type$31);
-  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$32, "expose_event", (void (*)(void))lingot_gui_mainframe_callback_redraw, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
-  unsigned long int return_value_gtk_object_get_type$33;
-  return_value_gtk_object_get_type$33=gtk_object_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$34;
-  return_value_g_type_check_instance_cast$34=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_object_get_type$33);
-  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast$34, "destroy", (void (*)(void))lingot_gui_mainframe_callback_destroy, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
+  struct _GtkWidget *return_value_glade_xml_get_widget_11;
+  return_value_glade_xml_get_widget_11=glade_xml_get_widget(_gladeXML, "preferences_item");
+  unsigned long int return_value_gtk_object_get_type_12;
+  return_value_gtk_object_get_type_12=gtk_object_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_13;
+  return_value_g_type_check_instance_cast_13=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_11, return_value_gtk_object_get_type_12);
+  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_13, "activate", (void (*)(void))lingot_gui_mainframe_callback_config_dialog, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
+  struct _GtkWidget *return_value_glade_xml_get_widget_14;
+  return_value_glade_xml_get_widget_14=glade_xml_get_widget(_gladeXML, "quit_item");
+  unsigned long int return_value_gtk_object_get_type_15;
+  return_value_gtk_object_get_type_15=gtk_object_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_14, return_value_gtk_object_get_type_15);
+  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_16, "activate", (void (*)(void))lingot_gui_mainframe_callback_destroy, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
+  struct _GtkWidget *return_value_glade_xml_get_widget_17;
+  return_value_glade_xml_get_widget_17=glade_xml_get_widget(_gladeXML, "about_item");
+  unsigned long int return_value_gtk_object_get_type_18;
+  return_value_gtk_object_get_type_18=gtk_object_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_19;
+  return_value_g_type_check_instance_cast_19=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_17, return_value_gtk_object_get_type_18);
+  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_19, "activate", (void (*)(void))lingot_gui_mainframe_callback_about, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
+  struct _GtkWidget *return_value_glade_xml_get_widget_20;
+  return_value_glade_xml_get_widget_20=glade_xml_get_widget(_gladeXML, "spectrum_item");
+  unsigned long int return_value_gtk_object_get_type_21;
+  return_value_gtk_object_get_type_21=gtk_object_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_22;
+  return_value_g_type_check_instance_cast_22=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_20, return_value_gtk_object_get_type_21);
+  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_22, "activate", (void (*)(void))lingot_gui_mainframe_callback_view_spectrum, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
+  struct _GtkWidget *return_value_glade_xml_get_widget_23;
+  return_value_glade_xml_get_widget_23=glade_xml_get_widget(_gladeXML, "open_config_item");
+  unsigned long int return_value_gtk_object_get_type_24;
+  return_value_gtk_object_get_type_24=gtk_object_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_25;
+  return_value_g_type_check_instance_cast_25=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_23, return_value_gtk_object_get_type_24);
+  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_25, "activate", (void (*)(void))lingot_gui_mainframe_callback_open_config, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
+  struct _GtkWidget *return_value_glade_xml_get_widget_26;
+  return_value_glade_xml_get_widget_26=glade_xml_get_widget(_gladeXML, "save_config_item");
+  unsigned long int return_value_gtk_object_get_type_27;
+  return_value_gtk_object_get_type_27=gtk_object_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_28;
+  return_value_g_type_check_instance_cast_28=g_type_check_instance_cast((struct _GTypeInstance *)return_value_glade_xml_get_widget_26, return_value_gtk_object_get_type_27);
+  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_28, "activate", (void (*)(void))lingot_gui_mainframe_callback_save_config, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
+  unsigned long int return_value_gtk_object_get_type_29;
+  return_value_gtk_object_get_type_29=gtk_object_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_30;
+  return_value_g_type_check_instance_cast_30=g_type_check_instance_cast((struct _GTypeInstance *)frame->gauge_area, return_value_gtk_object_get_type_29);
+  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_30, "expose_event", (void (*)(void))lingot_gui_mainframe_callback_redraw, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
+  unsigned long int return_value_gtk_object_get_type_31;
+  return_value_gtk_object_get_type_31=gtk_object_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_32;
+  return_value_g_type_check_instance_cast_32=g_type_check_instance_cast((struct _GTypeInstance *)frame->spectrum_area, return_value_gtk_object_get_type_31);
+  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_32, "expose_event", (void (*)(void))lingot_gui_mainframe_callback_redraw, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
+  unsigned long int return_value_gtk_object_get_type_33;
+  return_value_gtk_object_get_type_33=gtk_object_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_34;
+  return_value_g_type_check_instance_cast_34=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_object_get_type_33);
+  gtk_signal_connect_full((struct _GtkObject *)return_value_g_type_check_instance_cast_34, "destroy", (void (*)(void))lingot_gui_mainframe_callback_destroy, (void (*)(struct _GtkObject *, void *, unsigned int, struct _GtkArg *))(void *)0, (void *)frame, (void (*)(void *))(void *)0, 0, 0);
   struct _GtkAccelGroup *accel_group;
   accel_group=gtk_accel_group_new();
-  struct _GtkWidget *return_value_glade_xml_get_widget$35;
-  return_value_glade_xml_get_widget$35=glade_xml_get_widget(_gladeXML, "preferences_item");
-  gtk_widget_add_accelerator(return_value_glade_xml_get_widget$35, "activate", accel_group, (unsigned int)112, (enum anonymous$24)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
-  unsigned long int return_value_gtk_window_get_type$36;
-  return_value_gtk_window_get_type$36=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$37;
-  return_value_g_type_check_instance_cast$37=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type$36);
-  gtk_window_add_accel_group((struct _GtkWindow *)return_value_g_type_check_instance_cast$37, accel_group);
+  struct _GtkWidget *return_value_glade_xml_get_widget_35;
+  return_value_glade_xml_get_widget_35=glade_xml_get_widget(_gladeXML, "preferences_item");
+  gtk_widget_add_accelerator(return_value_glade_xml_get_widget_35, "activate", accel_group, (unsigned int)112, (enum anonymous_24)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
+  unsigned long int return_value_gtk_window_get_type_36;
+  return_value_gtk_window_get_type_36=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_37;
+  return_value_g_type_check_instance_cast_37=g_type_check_instance_cast((struct _GTypeInstance *)frame->win, return_value_gtk_window_get_type_36);
+  gtk_window_add_accel_group((struct _GtkWindow *)return_value_g_type_check_instance_cast_37, accel_group);
   unsigned int period = (unsigned int)((double)1000 / conf->visualization_rate);
   frame->visualization_timer_uid=g_timeout_add(period, lingot_gui_mainframe_callback_tout_visualization, (void *)frame);
   period = (unsigned int)((double)1000 / conf->calculation_rate);
@@ -8508,30 +8508,30 @@ void lingot_gui_mainframe_create(signed int argc, char **argv)
   lingot_gui_mainframe_color(&grid_color, 0x9000, 0x9000, 0x9000);
   lingot_gui_mainframe_color(&freq_color, 0xFFFF, 0x2222, 0x2222);
   lingot_gui_mainframe_color(&cents_color, 0x3000, 0x3000, 0x3000);
-  struct _GdkColormap *return_value_gdk_colormap_get_system$38;
-  return_value_gdk_colormap_get_system$38=gdk_colormap_get_system();
-  gdk_color_alloc(return_value_gdk_colormap_get_system$38, &gauge_color);
-  struct _GdkColormap *return_value_gdk_colormap_get_system$39;
-  return_value_gdk_colormap_get_system$39=gdk_colormap_get_system();
-  gdk_color_alloc(return_value_gdk_colormap_get_system$39, &spectrum_color);
-  struct _GdkColormap *return_value_gdk_colormap_get_system$40;
-  return_value_gdk_colormap_get_system$40=gdk_colormap_get_system();
-  gdk_color_alloc(return_value_gdk_colormap_get_system$40, &spectrum_background_color);
-  struct _GdkColormap *return_value_gdk_colormap_get_system$41;
-  return_value_gdk_colormap_get_system$41=gdk_colormap_get_system();
-  gdk_color_alloc(return_value_gdk_colormap_get_system$41, &noise_threshold_color);
-  struct _GdkColormap *return_value_gdk_colormap_get_system$42;
-  return_value_gdk_colormap_get_system$42=gdk_colormap_get_system();
-  gdk_color_alloc(return_value_gdk_colormap_get_system$42, &grid_color);
-  struct _GdkColormap *return_value_gdk_colormap_get_system$43;
-  return_value_gdk_colormap_get_system$43=gdk_colormap_get_system();
-  gdk_color_alloc(return_value_gdk_colormap_get_system$43, &freq_color);
-  struct _GdkColormap *return_value_gdk_colormap_get_system$44;
-  return_value_gdk_colormap_get_system$44=gdk_colormap_get_system();
-  gdk_color_black(return_value_gdk_colormap_get_system$44, &black_color);
-  struct _GdkColormap *return_value_gdk_colormap_get_system$45;
-  return_value_gdk_colormap_get_system$45=gdk_colormap_get_system();
-  gdk_color_alloc(return_value_gdk_colormap_get_system$45, &cents_color);
+  struct _GdkColormap *return_value_gdk_colormap_get_system_38;
+  return_value_gdk_colormap_get_system_38=gdk_colormap_get_system();
+  gdk_color_alloc(return_value_gdk_colormap_get_system_38, &gauge_color);
+  struct _GdkColormap *return_value_gdk_colormap_get_system_39;
+  return_value_gdk_colormap_get_system_39=gdk_colormap_get_system();
+  gdk_color_alloc(return_value_gdk_colormap_get_system_39, &spectrum_color);
+  struct _GdkColormap *return_value_gdk_colormap_get_system_40;
+  return_value_gdk_colormap_get_system_40=gdk_colormap_get_system();
+  gdk_color_alloc(return_value_gdk_colormap_get_system_40, &spectrum_background_color);
+  struct _GdkColormap *return_value_gdk_colormap_get_system_41;
+  return_value_gdk_colormap_get_system_41=gdk_colormap_get_system();
+  gdk_color_alloc(return_value_gdk_colormap_get_system_41, &noise_threshold_color);
+  struct _GdkColormap *return_value_gdk_colormap_get_system_42;
+  return_value_gdk_colormap_get_system_42=gdk_colormap_get_system();
+  gdk_color_alloc(return_value_gdk_colormap_get_system_42, &grid_color);
+  struct _GdkColormap *return_value_gdk_colormap_get_system_43;
+  return_value_gdk_colormap_get_system_43=gdk_colormap_get_system();
+  gdk_color_alloc(return_value_gdk_colormap_get_system_43, &freq_color);
+  struct _GdkColormap *return_value_gdk_colormap_get_system_44;
+  return_value_gdk_colormap_get_system_44=gdk_colormap_get_system();
+  gdk_color_black(return_value_gdk_colormap_get_system_44, &black_color);
+  struct _GdkColormap *return_value_gdk_colormap_get_system_45;
+  return_value_gdk_colormap_get_system_45=gdk_colormap_get_system();
+  gdk_color_alloc(return_value_gdk_colormap_get_system_45, &cents_color);
   spectrum_legend_font_desc=pango_font_description_from_string("Helvetica Plain 7");
   gauge_cents_font_desc=pango_font_description_from_string("Helvetica Plain 7");
   frame->core=lingot_core_new(conf);
@@ -8571,16 +8571,16 @@ void lingot_gui_mainframe_draw_gauge(struct _LingotMainFrame *frame)
   gdk_gc_set_foreground(gc, &gauge_color);
   double normalized_error = frame->gauge->position / frame->conf->scale->max_offset_rounded;
   double angle = (normalized_error * 3.14159265358979323846) / (1.5 * max);
-  double return_value_sin$1;
-  return_value_sin$1=sin(angle);
-  double return_value_rint$2;
+  double return_value_sin_1;
+  return_value_sin_1=sin(angle);
+  double return_value_rint_2;
   static double gauge_size = 90.0;
-  return_value_rint$2=rint(gauge_size * return_value_sin$1);
-  double return_value_cos$3;
-  return_value_cos$3=cos(angle);
-  double return_value_rint$4;
-  return_value_rint$4=rint(gauge_size * return_value_cos$3);
-  gdk_draw_line(w, gc, gauge_size_x >> 1, gauge_size_y - 1, (gauge_size_x >> 1) + (signed int)return_value_rint$2, (gauge_size_y - 1) - (signed int)return_value_rint$4);
+  return_value_rint_2=rint(gauge_size * return_value_sin_1);
+  double return_value_cos_3;
+  return_value_cos_3=cos(angle);
+  double return_value_rint_4;
+  return_value_rint_4=rint(gauge_size * return_value_cos_3);
+  gdk_draw_line(w, gc, gauge_size_x >> 1, gauge_size_y - 1, (gauge_size_x >> 1) + (signed int)return_value_rint_2, (gauge_size_y - 1) - (signed int)return_value_rint_4);
   gdk_gc_set_foreground(gc, &cents_color);
   char buff[10l];
   sprintf(buff, frame->conf->scale->max_offset_rounded > 1.0 ? "-%.0f c" : "-%.1f c", 0.5 * frame->conf->scale->max_offset_rounded);
@@ -8606,13 +8606,13 @@ void lingot_gui_mainframe_draw_spectrum_and_labels(struct _LingotMainFrame *fram
   struct _GtkWidget *widget = (struct _GtkWidget *)(void *)0;
   struct _PangoLayout *layout;
   signed int spectrum_size_x;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(frame->conf->fft_size >= 257u)
-    tmp_if_expr$1 = frame->conf->fft_size >> 1;
+    tmp_if_expr_1 = frame->conf->fft_size >> 1;
 
   else
-    tmp_if_expr$1 = (unsigned int)256;
-  spectrum_size_x = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned int)256;
+  spectrum_size_x = (signed int)tmp_if_expr_1;
   unsigned int i;
   signed int j;
   signed int old_j;
@@ -8640,8 +8640,8 @@ void lingot_gui_mainframe_draw_spectrum_and_labels(struct _LingotMainFrame *fram
   char buff[10l];
   double freq = 0.0;
   i = (unsigned int)0;
-  double return_value_floor$3;
-  double return_value_floor$2;
+  double return_value_floor_3;
+  double return_value_floor_2;
   for( ; (unsigned int)spectrum_size_x >= i; i = i + (unsigned int)grid_width)
   {
     gdk_draw_line(pixmap, gc, (signed int)((unsigned int)spectrum_x_margin + i), spectrum_top_margin, (signed int)((unsigned int)spectrum_x_margin + i), spectrum_size_y + spectrum_top_margin + 3);
@@ -8650,14 +8650,14 @@ void lingot_gui_mainframe_draw_spectrum_and_labels(struct _LingotMainFrame *fram
 
     else
     {
-      return_value_floor$3=floor(freq);
-      if(IEEE_FLOAT_EQUAL(return_value_floor$3, freq))
+      return_value_floor_3=floor(freq);
+      if(IEEE_FLOAT_EQUAL(return_value_floor_3, freq))
         sprintf(buff, "%0.0f kHz", freq);
 
       else
       {
-        return_value_floor$2=floor((double)10 * freq);
-        if(IEEE_FLOAT_EQUAL(return_value_floor$2, 10.000000 * freq))
+        return_value_floor_2=floor((double)10 * freq);
+        if(IEEE_FLOAT_EQUAL(return_value_floor_2, 10.000000 * freq))
         {
           if(freq <= 1000.0)
             sprintf(buff, "%0.0f Hz", 1e3 * freq);
@@ -8686,12 +8686,12 @@ void lingot_gui_mainframe_draw_spectrum_and_labels(struct _LingotMainFrame *fram
   gdk_draw_layout(pixmap, gc, spectrum_x_margin - 6, 2, layout);
   g_object_unref((void *)layout);
   signed int grid_height;
-  double return_value_pow$4;
+  double return_value_pow_4;
   static double grid_db_height = (double)25;
-  return_value_pow$4=pow(10.0, grid_db_height / 10.0);
-  double return_value_log10$5;
-  return_value_log10$5=log10(return_value_pow$4);
-  grid_height = (signed int)((double)8 * return_value_log10$5);
+  return_value_pow_4=pow(10.0, grid_db_height / 10.0);
+  double return_value_log10_5;
+  return_value_log10_5=log10(return_value_pow_4);
+  grid_height = (signed int)((double)8 * return_value_log10_5);
   j = 0;
   i = (unsigned int)0;
   for( ; (unsigned int)spectrum_size_y >= i; i = i + (unsigned int)grid_height)
@@ -8711,8 +8711,8 @@ void lingot_gui_mainframe_draw_spectrum_and_labels(struct _LingotMainFrame *fram
   gdk_gc_set_foreground(gc, &noise_threshold_color);
   j = -1;
   i = (unsigned int)0;
-  signed int tmp_if_expr$7;
-  double return_value_log10$6;
+  signed int tmp_if_expr_7;
+  double return_value_log10_6;
   for( ; !(i >= frame->conf->fft_size) && !(i >= (unsigned int)spectrum_size_x); i = i + 1u)
     if(!(i % 10u >= 6u))
     {
@@ -8720,32 +8720,32 @@ void lingot_gui_mainframe_draw_spectrum_and_labels(struct _LingotMainFrame *fram
       old_j = j;
       if(noise > 1.0)
       {
-        return_value_log10$6=log10(noise);
-        tmp_if_expr$7 = (signed int)((double)8 * return_value_log10$6);
+        return_value_log10_6=log10(noise);
+        tmp_if_expr_7 = (signed int)((double)8 * return_value_log10_6);
       }
 
       else
-        tmp_if_expr$7 = 0;
-      j = tmp_if_expr$7;
+        tmp_if_expr_7 = 0;
+      j = tmp_if_expr_7;
       if(j >= 0 && old_j >= 0 && !(j >= spectrum_size_y) && !(old_j >= spectrum_size_y))
         gdk_draw_line(pixmap, gc, (signed int)(((unsigned int)spectrum_x_margin + i) - (unsigned int)1), (spectrum_size_y + spectrum_top_margin) - old_j, (signed int)((unsigned int)spectrum_x_margin + i), (spectrum_size_y + spectrum_top_margin) - j);
 
     }
 
   gdk_gc_set_foreground(gc, &spectrum_color);
-  signed int tmp_if_expr$10;
-  double return_value_log10$9;
-  signed int tmp_if_expr$13;
-  double return_value_log10$12;
+  signed int tmp_if_expr_10;
+  double return_value_log10_9;
+  signed int tmp_if_expr_13;
+  double return_value_log10_12;
   if(!(frame->core->running == 0))
   {
     j = -1;
     struct _GtkAdjustment *adj;
     adj=gtk_scrolled_window_get_hadjustment(frame->spectrum_scroll);
     signed int min;
-    double return_value_gtk_adjustment_get_value$8;
-    return_value_gtk_adjustment_get_value$8=gtk_adjustment_get_value(adj);
-    min = (signed int)(return_value_gtk_adjustment_get_value$8 - (double)spectrum_x_margin);
+    double return_value_gtk_adjustment_get_value_8;
+    return_value_gtk_adjustment_get_value_8=gtk_adjustment_get_value(adj);
+    min = (signed int)(return_value_gtk_adjustment_get_value_8 - (double)spectrum_x_margin);
     signed int max = min + 256 + 3 * spectrum_x_margin;
     if(!(min >= 0))
       min = 0;
@@ -8760,13 +8760,13 @@ void lingot_gui_mainframe_draw_spectrum_and_labels(struct _LingotMainFrame *fram
       {
         if(frame->core->X[(signed long int)i] > 1.0)
         {
-          return_value_log10$9=log10(frame->core->X[(signed long int)i]);
-          tmp_if_expr$10 = (signed int)((double)8 * return_value_log10$9);
+          return_value_log10_9=log10(frame->core->X[(signed long int)i]);
+          tmp_if_expr_10 = (signed int)((double)8 * return_value_log10_9);
         }
 
         else
-          tmp_if_expr$10 = 0;
-        j = tmp_if_expr$10;
+          tmp_if_expr_10 = 0;
+        j = tmp_if_expr_10;
         if(j >= spectrum_size_y)
           j = spectrum_size_y - 1;
 
@@ -8785,22 +8785,22 @@ void lingot_gui_mainframe_draw_spectrum_and_labels(struct _LingotMainFrame *fram
       if(IEEE_FLOAT_NOTEQUAL(frame->core->freq, 0.0))
       {
         gdk_gc_set_foreground(gc, &freq_color);
-        double return_value_rint$11;
-        return_value_rint$11=rint((frame->core->freq * (double)frame->conf->fft_size * (double)frame->conf->oversampling) / (double)frame->conf->sample_rate);
-        i = (unsigned int)(signed int)return_value_rint$11;
+        double return_value_rint_11;
+        return_value_rint_11=rint((frame->core->freq * (double)frame->conf->fft_size * (double)frame->conf->oversampling) / (double)frame->conf->sample_rate);
+        i = (unsigned int)(signed int)return_value_rint_11;
         if(!(i >= frame->conf->fft_size + 4294967295u))
         {
           if(!(i >= 4294967295u + (unsigned int)spectrum_size_x))
           {
             if(frame->core->X[(signed long int)i] > 1.0)
             {
-              return_value_log10$12=log10(frame->core->X[(signed long int)i]);
-              tmp_if_expr$13 = (signed int)((double)8 * return_value_log10$12);
+              return_value_log10_12=log10(frame->core->X[(signed long int)i]);
+              tmp_if_expr_13 = (signed int)((double)8 * return_value_log10_12);
             }
 
             else
-              tmp_if_expr$13 = 0;
-            j = tmp_if_expr$13;
+              tmp_if_expr_13 = 0;
+            j = tmp_if_expr_13;
             if(!(j >= spectrum_size_y + -1))
               gdk_draw_rectangle(pixmap, gc, (signed int)!(0 != 0), (signed int)(((unsigned int)spectrum_x_margin + i) - (unsigned int)1), ((spectrum_size_y + spectrum_top_margin) - j) - 1, 3, 3);
 
@@ -8816,30 +8816,30 @@ void lingot_gui_mainframe_draw_spectrum_and_labels(struct _LingotMainFrame *fram
 
   gdk_gc_set_foreground(gc, &black_color);
   widget = frame->spectrum_area;
-  unsigned long int return_value_gtk_widget_get_type$14;
-  return_value_gtk_widget_get_type$14=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$15;
-  return_value_g_type_check_instance_cast$15=g_type_check_instance_cast((struct _GTypeInstance *)widget, return_value_gtk_widget_get_type$14);
-  gdk_draw_drawable(widget->window, widget->style->fg_gc[(signed long int)((struct _GtkWidget *)return_value_g_type_check_instance_cast$15)->state], pixmap, 0, 0, 0, 0, spectrum_size_x + 2 * spectrum_x_margin, spectrum_size_y + spectrum_bottom_margin + spectrum_top_margin);
-  _Bool tmp_if_expr$18;
-  signed int return_value___isnan$17;
+  unsigned long int return_value_gtk_widget_get_type_14;
+  return_value_gtk_widget_get_type_14=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_15;
+  return_value_g_type_check_instance_cast_15=g_type_check_instance_cast((struct _GTypeInstance *)widget, return_value_gtk_widget_get_type_14);
+  gdk_draw_drawable(widget->window, widget->style->fg_gc[(signed long int)((struct _GtkWidget *)return_value_g_type_check_instance_cast_15)->state], pixmap, 0, 0, 0, 0, spectrum_size_x + 2 * spectrum_x_margin, spectrum_size_y + spectrum_bottom_margin + spectrum_top_margin);
+  _Bool tmp_if_expr_18;
+  signed int return_value___isnan_17;
   if(frame->core->running == 0)
-    tmp_if_expr$18 = (_Bool)1;
+    tmp_if_expr_18 = (_Bool)1;
 
   else
   {
-    return_value___isnan$17=__isnan(frame->core->freq);
-    tmp_if_expr$18 = return_value___isnan$17 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value___isnan_17=__isnan(frame->core->freq);
+    tmp_if_expr_18 = return_value___isnan_17 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  if(tmp_if_expr$18)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  if(tmp_if_expr_18)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
-    tmp_if_expr$19 = frame->core->freq < 10.0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_19 = frame->core->freq < 10.0 ? (_Bool)1 : (_Bool)0;
   static char freq_string[30l];
   static char error_string[30l];
-  if(tmp_if_expr$19)
+  if(tmp_if_expr_19)
   {
     current_tone = "---";
     strcpy(error_string, "e = ---");
@@ -8855,27 +8855,27 @@ void lingot_gui_mainframe_draw_spectrum_and_labels(struct _LingotMainFrame *fram
 
     current_tone = frame->conf->scale->note_name[(signed long int)note_index];
     sprintf(error_string, "e = %+2.0f cents", frame->gauge->position);
-    double return_value_lingot_filter_filter_sample$16;
-    return_value_lingot_filter_filter_sample$16=lingot_filter_filter_sample(frame->freq_filter, frame->core->freq);
-    sprintf(freq_string, "f = %6.2f Hz", return_value_lingot_filter_filter_sample$16);
+    double return_value_lingot_filter_filter_sample_16;
+    return_value_lingot_filter_filter_sample_16=lingot_filter_filter_sample(frame->freq_filter, frame->core->freq);
+    sprintf(freq_string, "f = %6.2f Hz", return_value_lingot_filter_filter_sample_16);
   }
-  unsigned long int return_value_gtk_label_get_type$20;
-  return_value_gtk_label_get_type$20=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$21;
-  return_value_g_type_check_instance_cast$21=g_type_check_instance_cast((struct _GTypeInstance *)frame->freq_label, return_value_gtk_label_get_type$20);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$21, freq_string);
-  unsigned long int return_value_gtk_label_get_type$22;
-  return_value_gtk_label_get_type$22=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$23;
-  return_value_g_type_check_instance_cast$23=g_type_check_instance_cast((struct _GTypeInstance *)frame->error_label, return_value_gtk_label_get_type$22);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$23, error_string);
+  unsigned long int return_value_gtk_label_get_type_20;
+  return_value_gtk_label_get_type_20=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_21;
+  return_value_g_type_check_instance_cast_21=g_type_check_instance_cast((struct _GTypeInstance *)frame->freq_label, return_value_gtk_label_get_type_20);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_21, freq_string);
+  unsigned long int return_value_gtk_label_get_type_22;
+  return_value_gtk_label_get_type_22=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_23;
+  return_value_g_type_check_instance_cast_23=g_type_check_instance_cast((struct _GTypeInstance *)frame->error_label, return_value_gtk_label_get_type_22);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_23, error_string);
   char *markup;
   markup=g_markup_printf_escaped("<span size=\"xx-large\" weight=\"bold\">%s</span>", current_tone);
-  unsigned long int return_value_gtk_label_get_type$24;
-  return_value_gtk_label_get_type$24=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$25;
-  return_value_g_type_check_instance_cast$25=g_type_check_instance_cast((struct _GTypeInstance *)frame->tone_label, return_value_gtk_label_get_type$24);
-  gtk_label_set_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast$25, markup);
+  unsigned long int return_value_gtk_label_get_type_24;
+  return_value_gtk_label_get_type_24=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_25;
+  return_value_g_type_check_instance_cast_25=g_type_check_instance_cast((struct _GTypeInstance *)frame->tone_label, return_value_gtk_label_get_type_24);
+  gtk_label_set_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast_25, markup);
   g_free((void *)markup);
 }
 
@@ -8886,30 +8886,30 @@ unsigned short int lingot_gui_mainframe_get_closest_note_index(double freq, stru
   unsigned short int note_index = (unsigned short int)0;
   unsigned short int index;
   double offset;
-  double return_value_log2$1;
-  return_value_log2$1=log2(freq / scale->base_frequency);
-  offset = 1200.0 * return_value_log2$1 - deviation;
+  double return_value_log2_1;
+  return_value_log2_1=log2(freq / scale->base_frequency);
+  offset = 1200.0 * return_value_log2_1 - deviation;
   offset=fmod(offset, 1200.0);
   if(offset < 0.0)
     offset = offset + 1200.0;
 
-  double return_value_floor$2;
-  return_value_floor$2=floor(((double)scale->notes * offset) / 1200.0);
-  index = (unsigned short int)return_value_floor$2;
+  double return_value_floor_2;
+  return_value_floor_2=floor(((double)scale->notes * offset) / 1200.0);
+  index = (unsigned short int)return_value_floor_2;
   double pitch_inf;
   double pitch_sup;
   signed int n = 0;
-  double tmp_if_expr$3;
+  double tmp_if_expr_3;
   do
   {
     n = n + 1;
     pitch_inf = scale->offset_cents[(signed long int)index];
     if(!(1 + (signed int)index >= (signed int)scale->notes))
-      tmp_if_expr$3 = scale->offset_cents[(signed long int)((signed int)index + 1)];
+      tmp_if_expr_3 = scale->offset_cents[(signed long int)((signed int)index + 1)];
 
     else
-      tmp_if_expr$3 = 1200.0;
-    pitch_sup = tmp_if_expr$3;
+      tmp_if_expr_3 = 1200.0;
+    pitch_sup = tmp_if_expr_3;
     if(offset > pitch_sup)
       index = index + 1;
 
@@ -8921,11 +8921,11 @@ unsigned short int lingot_gui_mainframe_get_closest_note_index(double freq, stru
         break;
   }
   while((_Bool)1);
-  double return_value_fabs$4;
-  return_value_fabs$4=fabs(offset - pitch_inf);
-  double return_value_fabs$5;
-  return_value_fabs$5=fabs(offset - pitch_sup);
-  if(return_value_fabs$4 < return_value_fabs$5)
+  double return_value_fabs_4;
+  return_value_fabs_4=fabs(offset - pitch_inf);
+  double return_value_fabs_5;
+  return_value_fabs_5=fabs(offset - pitch_sup);
+  if(return_value_fabs_4 < return_value_fabs_5)
   {
     note_index = index;
     *error_cents = offset - pitch_inf;
@@ -8973,9 +8973,9 @@ void lingot_msg_add(const char *msg, enum message_type_t type)
     while(!(i == rear))
     {
       i = (i + 1) % 5;
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(message[(signed long int)i], msg);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(message[(signed long int)i], msg);
+      if(return_value_strcmp_1 == 0)
       {
         duplicated = 1;
         printf("duplicated message: %s\n", msg);
@@ -9041,24 +9041,24 @@ signed int lingot_signal_get_fundamental_peak(struct _LingotConfig *conf, double
   unsigned int i;
   unsigned int j;
   unsigned int m;
-  const signed long int m$array_size0 = (signed long int)conf->peak_number;
-  signed int p_index[m$array_size0];
+  const signed long int m_array_size0 = (signed long int)conf->peak_number;
+  signed int p_index[m_array_size0];
   i = (unsigned int)0;
   for( ; !(i >= conf->peak_number); i = i + 1u)
     p_index[(signed long int)i] = -1;
   unsigned int lowest_index;
-  double return_value_ceil$1;
-  return_value_ceil$1=ceil(conf->min_frequency * ((1.0 * (double)conf->oversampling) / (double)conf->sample_rate) * (double)conf->fft_size);
-  lowest_index = (unsigned int)return_value_ceil$1;
+  double return_value_ceil_1;
+  return_value_ceil_1=ceil(conf->min_frequency * ((1.0 * (double)conf->oversampling) / (double)conf->sample_rate) * (double)conf->fft_size);
+  lowest_index = (unsigned int)return_value_ceil_1;
   if(!(lowest_index >= conf->peak_half_width))
     lowest_index = conf->peak_half_width;
 
   i = lowest_index;
-  signed int return_value_lingot_signal_is_peak$2;
+  signed int return_value_lingot_signal_is_peak_2;
   for( ; !(i >= (unsigned int)N + -conf->peak_half_width); i = i + 1u)
   {
-    return_value_lingot_signal_is_peak$2=lingot_signal_is_peak(conf, x, (signed int)i);
-    if(!(return_value_lingot_signal_is_peak$2 == 0))
+    return_value_lingot_signal_is_peak_2=lingot_signal_is_peak(conf, x, (signed int)i);
+    if(!(return_value_lingot_signal_is_peak_2 == 0))
     {
       m = (unsigned int)0;
       j = (unsigned int)0;
@@ -9098,7 +9098,7 @@ signed int lingot_signal_get_fundamental_peak(struct _LingotConfig *conf, double
 
     }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(maximum_index == -1)
     return N;
 
@@ -9108,11 +9108,11 @@ signed int lingot_signal_get_fundamental_peak(struct _LingotConfig *conf, double
     for( ; !(i >= conf->peak_number); i = i + 1u)
     {
       if(p_index[(signed long int)i] == -1)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = conf->peak_rejection_relation_nu * x[(signed long int)p_index[(signed long int)i]] < maximum ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = conf->peak_rejection_relation_nu * x[(signed long int)p_index[(signed long int)i]] < maximum ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         p_index[(signed long int)i] = N;
 
     }
@@ -9147,9 +9147,9 @@ void lingot_signal_get_max(double *x, signed int N, signed int *Mi)
 // file lingot-signal.c line 31
 double lingot_signal_get_noise_threshold(struct _LingotConfig *conf, double w)
 {
-  double return_value_pow$1;
-  return_value_pow$1=pow(10.0, (conf->noise_threshold_db * (1.0 - (0.9 * w) / 3.14159265358979323846)) / 10.0);
-  return return_value_pow$1;
+  double return_value_pow_1;
+  return_value_pow_1=pow(10.0, (conf->noise_threshold_db * (1.0 - (0.9 * w) / 3.14159265358979323846)) / 10.0);
+  return return_value_pow_1;
 }
 
 // lingot_signal_is_peak
@@ -9181,8 +9181,8 @@ signed int lingot_signal_is_peak(struct _LingotConfig *conf, double *x, signed i
 void lingot_signal_window(signed int N, double *out, enum window_type_t window_type)
 {
   signed int i;
-  double return_value_cos$1;
-  double return_value_cos$2;
+  double return_value_cos_1;
+  double return_value_cos_2;
   switch((signed int)window_type)
   {
     case RECTANGULAR:
@@ -9197,8 +9197,8 @@ void lingot_signal_window(signed int N, double *out, enum window_type_t window_t
       i = 0;
       for( ; !(i >= N); i = i + 1)
       {
-        return_value_cos$1=cos((2.0 * 3.14159265358979323846 * (double)i) / (double)(N - 1));
-        out[(signed long int)i] = 0.5 * ((double)1 - return_value_cos$1);
+        return_value_cos_1=cos((2.0 * 3.14159265358979323846 * (double)i) / (double)(N - 1));
+        out[(signed long int)i] = 0.5 * ((double)1 - return_value_cos_1);
       }
       break;
     }
@@ -9207,8 +9207,8 @@ void lingot_signal_window(signed int N, double *out, enum window_type_t window_t
       i = 0;
       for( ; !(i >= N); i = i + 1)
       {
-        return_value_cos$2=cos((2.0 * 3.14159265358979323846 * (double)i) / (double)(N - 1));
-        out[(signed long int)i] = 0.53836 - 0.46164 * return_value_cos$2;
+        return_value_cos_2=cos((2.0 * 3.14159265358979323846 * (double)i) / (double)(N - 1));
+        out[(signed long int)i] = 0.53836 - 0.46164 * return_value_cos_2;
       }
     }
   }
@@ -9221,10 +9221,10 @@ signed int main(signed int argc, char **argv)
   bindtextdomain("lingot", "/usr/share/locale");
   bind_textdomain_codeset("lingot", "UTF-8");
   textdomain("lingot");
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("HOME");
-  sprintf(CONFIG_FILE_NAME, "%s/.lingot/lingot.conf", return_value_getenv$1);
-  char *return_value_getenv$2;
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("HOME");
+  sprintf(CONFIG_FILE_NAME, "%s/.lingot/lingot.conf", return_value_getenv_1);
+  char *return_value_getenv_2;
   if(argc == 2 || argc >= 4)
   {
     printf("\nusage: lingot [-c config]\n\n");
@@ -9249,8 +9249,8 @@ signed int main(signed int argc, char **argv)
         {
           case 99:
           {
-            return_value_getenv$2=getenv("HOME");
-            sprintf(CONFIG_FILE_NAME, "%s/%s%s.conf", return_value_getenv$2, (const void *)".lingot/", optarg);
+            return_value_getenv_2=getenv("HOME");
+            sprintf(CONFIG_FILE_NAME, "%s/%s%s.conf", return_value_getenv_2, (const void *)".lingot/", optarg);
             printf("using config file %s\n", (const void *)CONFIG_FILE_NAME);
             break;
           }
@@ -9267,9 +9267,9 @@ signed int main(signed int argc, char **argv)
   if(fp == ((struct _IO_FILE *)NULL))
   {
     char config_dir[100l];
-    char *return_value_getenv$3;
-    return_value_getenv$3=getenv("HOME");
-    sprintf(config_dir, "%s/.lingot/", return_value_getenv$3);
+    char *return_value_getenv_3;
+    return_value_getenv_3=getenv("HOME");
+    sprintf(config_dir, "%s/.lingot/", return_value_getenv_3);
     printf("creating directory %s ...\n", (const void *)config_dir);
     mkdir(config_dir, (unsigned int)0777);
     printf("creating file %s ...\n", (const void *)CONFIG_FILE_NAME);
@@ -9296,9 +9296,9 @@ enum audio_system_t str_to_audio_system_t(char *audio_system)
   signed int i = 0;
   for( ; !(values[(signed long int)i] == ((const char *)NULL)); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(audio_system, values[(signed long int)i]);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(audio_system, values[(signed long int)i]);
+    if(return_value_strcmp_1 == 0)
     {
       result = (enum audio_system_t)i;
       break;

@@ -1,158 +1,158 @@
-// #anon_enum$APR_LOCAL=0$APR_REMOTE=1
+// #anon_enum_APR_LOCAL=0_APR_REMOTE=1
 // file /usr/include/apr-1.0/apr_network_io.h line 172
-enum anonymous$33 { APR_LOCAL=0, APR_REMOTE=1 };
+enum anonymous_33 { APR_LOCAL=0, APR_REMOTE=1 };
 
-// #anon_enum$ARG_NO=0$ARG_STRING=1$ARG_INT=2
+// #anon_enum_ARG_NO=0_ARG_STRING=1_ARG_INT=2
 // file cmdline.c line 43
-enum anonymous$23 { ARG_NO=0, ARG_STRING=1, ARG_INT=2 };
+enum anonymous_23 { ARG_NO=0, ARG_STRING=1, ARG_INT=2 };
 
-// #anon_enum$GANGLIA_XML_TAG=0$GRID_TAG=1$CLUSTER_TAG=2$HOST_TAG=3$NAME_TAG=4$METRIC_TAG=5$TN_TAG=6$TMAX_TAG=7$DMAX_TAG=8$VAL_TAG=9$TYPE_TAG=10$SLOPE_TAG=11$SOURCE_TAG=12$VERSION_TAG=13$REPORTED_TAG=14$LOCALTIME_TAG=15$OWNER_TAG=16$LATLONG_TAG=17$URL_TAG=18$AUTHORITY_TAG=19$IP_TAG=20$LOCATION_TAG=21$STARTED_TAG=22$UNITS_TAG=23$HOSTS_TAG=24$UP_TAG=25$DOWN_TAG=26$METRICS_TAG=27$SUM_TAG=28$NUM_TAG=29$EXTRA_DATA_TAG=30$EXTRA_ELEMENT_TAG=31$TAGS_TAG=32
+// #anon_enum_GANGLIA_XML_TAG=0_GRID_TAG=1_CLUSTER_TAG=2_HOST_TAG=3_NAME_TAG=4_METRIC_TAG=5_TN_TAG=6_TMAX_TAG=7_DMAX_TAG=8_VAL_TAG=9_TYPE_TAG=10_SLOPE_TAG=11_SOURCE_TAG=12_VERSION_TAG=13_REPORTED_TAG=14_LOCALTIME_TAG=15_OWNER_TAG=16_LATLONG_TAG=17_URL_TAG=18_AUTHORITY_TAG=19_IP_TAG=20_LOCATION_TAG=21_STARTED_TAG=22_UNITS_TAG=23_HOSTS_TAG=24_UP_TAG=25_DOWN_TAG=26_METRICS_TAG=27_SUM_TAG=28_NUM_TAG=29_EXTRA_DATA_TAG=30_EXTRA_ELEMENT_TAG=31_TAGS_TAG=32
 // file gmetad.h line 44
-enum anonymous$34 { GANGLIA_XML_TAG=0, GRID_TAG=1, CLUSTER_TAG=2, HOST_TAG=3, NAME_TAG=4, METRIC_TAG=5, TN_TAG=6, TMAX_TAG=7, DMAX_TAG=8, VAL_TAG=9, TYPE_TAG=10, SLOPE_TAG=11, SOURCE_TAG=12, VERSION_TAG=13, REPORTED_TAG=14, LOCALTIME_TAG=15, OWNER_TAG=16, LATLONG_TAG=17, URL_TAG=18, AUTHORITY_TAG=19, IP_TAG=20, LOCATION_TAG=21, STARTED_TAG=22, UNITS_TAG=23, HOSTS_TAG=24, UP_TAG=25, DOWN_TAG=26, METRICS_TAG=27, SUM_TAG=28, NUM_TAG=29, EXTRA_DATA_TAG=30, EXTRA_ELEMENT_TAG=31, TAGS_TAG=32 };
+enum anonymous_34 { GANGLIA_XML_TAG=0, GRID_TAG=1, CLUSTER_TAG=2, HOST_TAG=3, NAME_TAG=4, METRIC_TAG=5, TN_TAG=6, TMAX_TAG=7, DMAX_TAG=8, VAL_TAG=9, TYPE_TAG=10, SLOPE_TAG=11, SOURCE_TAG=12, VERSION_TAG=13, REPORTED_TAG=14, LOCALTIME_TAG=15, OWNER_TAG=16, LATLONG_TAG=17, URL_TAG=18, AUTHORITY_TAG=19, IP_TAG=20, LOCATION_TAG=21, STARTED_TAG=22, UNITS_TAG=23, HOSTS_TAG=24, UP_TAG=25, DOWN_TAG=26, METRICS_TAG=27, SUM_TAG=28, NUM_TAG=29, EXTRA_DATA_TAG=30, EXTRA_ELEMENT_TAG=31, TAGS_TAG=32 };
 
-// #anon_enum$INT=0$UINT=1$FLOAT=2$TIMESTAMP=3$STRING=4
+// #anon_enum_INT=0_UINT=1_FLOAT=2_TIMESTAMP=3_STRING=4
 // file ./gmetad.h line 23
-enum anonymous$18 { INT=0, UINT=1, FLOAT=2, TIMESTAMP=3, STRING=4 };
+enum anonymous_18 { INT=0, UINT=1, FLOAT=2, TIMESTAMP=3, STRING=4 };
 
-// #anon_enum$NO_FILTER=0$SUMMARY=1
+// #anon_enum_NO_FILTER=0_SUMMARY=1
 // file ./gmetad.h line 94
-enum anonymous$22 { NO_FILTER=0, SUMMARY=1 };
+enum anonymous_22 { NO_FILTER=0, SUMMARY=1 };
 
-// #anon_enum$ROOT_NODE=0$GRID_NODE=1$CLUSTER_NODE=2$HOST_NODE=3$METRIC_NODE=4
+// #anon_enum_ROOT_NODE=0_GRID_NODE=1_CLUSTER_NODE=2_HOST_NODE=3_METRIC_NODE=4
 // file ./gmetad.h line 83
-enum anonymous$15 { ROOT_NODE=0, GRID_NODE=1, CLUSTER_NODE=2, HOST_NODE=3, METRIC_NODE=4 };
+enum anonymous_15 { ROOT_NODE=0, GRID_NODE=1, CLUSTER_NODE=2, HOST_NODE=3, METRIC_NODE=4 };
 
-// #anon_enum$cfg_false=0$cfg_true=1
+// #anon_enum_cfg_false=0_cfg_true=1
 // file /usr/include/confuse.h line 205
-enum anonymous$14 { cfg_false=0, cfg_true=1 };
+enum anonymous_14 { cfg_false=0, cfg_true=1 };
 
-// tag-#anon#ST[*{S8}$S8$'gridname'||S32'xml_port'||S32'interactive_port'||S32'server_threads'||S32'umask'||*{SYM#tag-_llist_entry#}$SYM#tag-_llist_entry#$'trusted_hosts'||*{SYM#tag-_llist_entry#}$SYM#tag-_llist_entry#$'unsummarized_metrics'||S32'debug_level'||S32'should_setuid'||*{S8}$S8$'setuid_username'||*{S8}$S8$'rrd_rootdir'||*{S8}$S8$'carbon_server'||S32'carbon_port'||U32'$pad0'||*{S8}$S8$'carbon_protocol'||S32'carbon_timeout'||U32'$pad1'||*{S8}$S8$'memcached_parameters'||*{S8}$S8$'graphite_prefix'||*{S8}$S8$'graphite_path'||S32'scalable_mode'||S32'write_rrds'||S32'all_trusted'||S32'num_RRAs'||ARR32{*{S8}$S8$}$*{S8}$S8$$'RRAs'||S32'case_sensitive_hostnames'||S32'shortest_step'|]
+// tag-#anon#ST[*{S8}_S8_'gridname'||S32'xml_port'||S32'interactive_port'||S32'server_threads'||S32'umask'||*{SYM#tag-_llist_entry#}_SYM#tag-_llist_entry#_'trusted_hosts'||*{SYM#tag-_llist_entry#}_SYM#tag-_llist_entry#_'unsummarized_metrics'||S32'debug_level'||S32'should_setuid'||*{S8}_S8_'setuid_username'||*{S8}_S8_'rrd_rootdir'||*{S8}_S8_'carbon_server'||S32'carbon_port'||U32'_pad0'||*{S8}_S8_'carbon_protocol'||S32'carbon_timeout'||U32'_pad1'||*{S8}_S8_'memcached_parameters'||*{S8}_S8_'graphite_prefix'||*{S8}_S8_'graphite_path'||S32'scalable_mode'||S32'write_rrds'||S32'all_trusted'||S32'num_RRAs'||ARR32{*{S8}_S8_}_*{S8}_S8__'RRAs'||S32'case_sensitive_hostnames'||S32'shortest_step'|]
 // file ./conf.h line 8
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]
 // file ../lib/net.h line 29
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{S8}$S8$'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$$'sources'||S32'dead'||S32'last_good_index'|]
+// tag-#anon#ST[*{S8}_S8_'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#__'sources'||S32'dead'||S32'last_good_index'|]
 // file ./gmetad.h line 107
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{S8}$S8$'torepl'||*{S8}$S8$'replwith'|]
+// tag-#anon#ST[*{S8}_S8_'torepl'||*{S8}_S8_'replwith'|]
 // file export_helpers.h line 9
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]
+// tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]
 // file ../lib/hash.h line 33
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]
+// tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]
 // file ../lib/hash.h line 18
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[ARR256{S8}$S8$'name'||S64'localtime'||U32'num_hosts'||U32'$pad0'||*{V}$V$'hosts'||U32'num_gexec_hosts'||U32'$pad1'||*{V}$V$'gexec_hosts'||U32'num_dead_hosts'||U32'$pad2'||*{V}$V$'dead_hosts'||S32'malloc_error'||U32'$pad3'||*{SYM#tag-gexec_host_t#}$SYM#tag-gexec_host_t#$'host'||S32'host_up'||S32'start'|]
+// tag-#anon#ST[ARR256{S8}_S8_'name'||S64'localtime'||U32'num_hosts'||U32'_pad0'||*{V}_V_'hosts'||U32'num_gexec_hosts'||U32'_pad1'||*{V}_V_'gexec_hosts'||U32'num_dead_hosts'||U32'_pad2'||*{V}_V_'dead_hosts'||S32'malloc_error'||U32'_pad3'||*{SYM#tag-gexec_host_t#}_SYM#tag-gexec_host_t#_'host'||S32'host_up'||S32'start'|]
 // file ../include/ganglia_gexec.h line 30
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[EN#anon_enum$ROOT_NODE=0$GRID_NODE=1$CLUSTER_NODE=2$HOST_NODE=3$METRIC_NODE=4#{U32}$U32$'id'||U32'$pad0'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_start'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'authority'||S16'authority_ptr'||U48'$pad1'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'metric_summary'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'metric_summary_pending'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'sum_finished'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$$'sources'||S32'dead'||S32'last_good_index'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$$'sources'||S32'dead'||S32'last_good_index'|]#$'ds'||U32'hosts_up'||U32'hosts_down'||U32'localtime'||S16'owner'||S16'latlong'||S16'url'||S16'stringslen'||ARR1572{S8}$S8$'strings'|]
+// tag-#anon#ST[EN#anon_enum_ROOT_NODE=0_GRID_NODE=1_CLUSTER_NODE=2_HOST_NODE=3_METRIC_NODE=4#{U32}_U32_'id'||U32'_pad0'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_start'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'authority'||S16'authority_ptr'||U48'_pad1'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'metric_summary'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'metric_summary_pending'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'sum_finished'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#__'sources'||S32'dead'||S32'last_good_index'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#__'sources'||S32'dead'||S32'last_good_index'|]#_'ds'||U32'hosts_up'||U32'hosts_down'||U32'localtime'||S16'owner'||S16'latlong'||S16'url'||S16'stringslen'||ARR1572{S8}_S8_'strings'|]
 // file ./gmetad.h line 163
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[EN#anon_enum$ROOT_NODE=0$GRID_NODE=1$CLUSTER_NODE=2$HOST_NODE=3$METRIC_NODE=4#{U32}$U32$'id'||U32'$pad0'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_start'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'leaf'||SYM#tag-timeval#'t0'||SYM#tag-#anon#UN[F64'd'||S32'str'|]#'val'||S16'name'||S16'valstr'||S16'precision'||U16'$pad1'||U32'num'||S16'type'||S16'units'||U32'tn'||U32'tmax'||U32'dmax'||S16'slope'||S16'source'||S16'ednameslen'||S16'edvalueslen'||ARR32{S16}$S16$'ednames'||ARR32{S16}$S16$'edvalues'||S16'stringslen'||ARR1572{S8}$S8$'strings'||U48'$pad2'|]
+// tag-#anon#ST[EN#anon_enum_ROOT_NODE=0_GRID_NODE=1_CLUSTER_NODE=2_HOST_NODE=3_METRIC_NODE=4#{U32}_U32_'id'||U32'_pad0'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_start'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'leaf'||SYM#tag-timeval#'t0'||SYM#tag-#anon#UN[F64'd'||S32'str'|]#'val'||S16'name'||S16'valstr'||S16'precision'||U16'_pad1'||U32'num'||S16'type'||S16'units'||U32'tn'||U32'tmax'||U32'dmax'||S16'slope'||S16'source'||S16'ednameslen'||S16'edvalueslen'||ARR32{S16}_S16_'ednames'||ARR32{S16}_S16_'edvalues'||S16'stringslen'||ARR1572{S8}_S8_'strings'||U48'_pad2'|]
 // file ./gmetad.h line 215
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[EN#anon_enum$ROOT_NODE=0$GRID_NODE=1$CLUSTER_NODE=2$HOST_NODE=3$METRIC_NODE=4#{U32}$U32$'id'||U32'$pad0'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_start'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'metrics'||SYM#tag-timeval#'t0'||S16'ip'||U16'$pad1'||U32'tn'||U32'tmax'||U32'dmax'||S16'location'||S16'tags'||U32'reported'||U32'started'||S16'stringslen'||ARR1572{S8}$S8$'strings'||U48'$pad2'|]
+// tag-#anon#ST[EN#anon_enum_ROOT_NODE=0_GRID_NODE=1_CLUSTER_NODE=2_HOST_NODE=3_METRIC_NODE=4#{U32}_U32_'id'||U32'_pad0'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_start'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'metrics'||SYM#tag-timeval#'t0'||S16'ip'||U16'_pad1'||U32'tn'||U32'tmax'||U32'dmax'||S16'location'||S16'tags'||U32'reported'||U32'started'||S16'stringslen'||ARR1572{S8}_S8_'strings'||U48'_pad2'|]
 // file gmetad.h line 187
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]
+// tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]
 // file ./gmetad.h line 133
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'rval'||S32'old'||*{S8}$S8$'sourcename'||*{S8}$S8$'hostname'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$$'sources'||S32'dead'||S32'last_good_index'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$$'sources'||S32'dead'||S32'last_good_index'|]#$'ds'||S32'grid_depth'||S32'host_alive'||SYM#tag-#anon#ST[EN#anon_enum$ROOT_NODE=0$GRID_NODE=1$CLUSTER_NODE=2$HOST_NODE=3$METRIC_NODE=4#{U32}$U32$'id'||U32'$pad0'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_start'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'authority'||S16'authority_ptr'||U48'$pad1'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'metric_summary'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'metric_summary_pending'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'sum_finished'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$$'sources'||S32'dead'||S32'last_good_index'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'$pad0'|]#$$'sources'||S32'dead'||S32'last_good_index'|]#$'ds'||U32'hosts_up'||U32'hosts_down'||U32'localtime'||S16'owner'||S16'latlong'||S16'url'||S16'stringslen'||ARR1572{S8}$S8$'strings'|]#'source'||SYM#tag-#anon#ST[EN#anon_enum$ROOT_NODE=0$GRID_NODE=1$CLUSTER_NODE=2$HOST_NODE=3$METRIC_NODE=4#{U32}$U32$'id'||U32'$pad0'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_start'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'metrics'||SYM#tag-timeval#'t0'||S16'ip'||U16'$pad1'||U32'tn'||U32'tmax'||U32'dmax'||S16'location'||S16'tags'||U32'reported'||U32'started'||S16'stringslen'||ARR1572{S8}$S8$'strings'||U48'$pad2'|]#'host'||SYM#tag-#anon#ST[EN#anon_enum$ROOT_NODE=0$GRID_NODE=1$CLUSTER_NODE=2$HOST_NODE=3$METRIC_NODE=4#{U32}$U32$'id'||U32'$pad0'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'data'||U32'size'||U32'$pad0'|]#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_start'||*{S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-Generic_type#}$SYM#tag-Generic_type#$|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#}$SYM#tag-#anon#ST[S32'fd'||BF{U32}$U32$'valid'||BF{U32}$U32$'http'||BF{U6}$U6$'$bit_field_pad0'||U24'$pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum$NO_FILTER=0$SUMMARY=1#{U32}$U32$'filter'||U32'$pad1'||SYM#tag-timeval#'now'|]#$|*{V}$V$)->S32$'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'leaf'||SYM#tag-timeval#'t0'||SYM#tag-#anon#UN[F64'd'||S32'str'|]#'val'||S16'name'||S16'valstr'||S16'precision'||U16'$pad1'||U32'num'||S16'type'||S16'units'||U32'tn'||U32'tmax'||U32'dmax'||S16'slope'||S16'source'||S16'ednameslen'||S16'edvalueslen'||ARR32{S16}$S16$'ednames'||ARR32{S16}$S16$'edvalues'||S16'stringslen'||ARR1572{S8}$S8$'strings'||U48'$pad2'|]#'metric'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#}$SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]#$'root'||SYM#tag-timeval#'now'|]
+// tag-#anon#ST[S32'rval'||S32'old'||*{S8}_S8_'sourcename'||*{S8}_S8_'hostname'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#__'sources'||S32'dead'||S32'last_good_index'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#__'sources'||S32'dead'||S32'last_good_index'|]#_'ds'||S32'grid_depth'||S32'host_alive'||SYM#tag-#anon#ST[EN#anon_enum_ROOT_NODE=0_GRID_NODE=1_CLUSTER_NODE=2_HOST_NODE=3_METRIC_NODE=4#{U32}_U32_'id'||U32'_pad0'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_start'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'authority'||S16'authority_ptr'||U48'_pad1'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'metric_summary'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'metric_summary_pending'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'sum_finished'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#__'sources'||S32'dead'||S32'last_good_index'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'step'||U32'num_sources'||*{*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||SYM#tag-sockaddr#'sa'||U32'ref_count'||U32'_pad0'|]#__'sources'||S32'dead'||S32'last_good_index'|]#_'ds'||U32'hosts_up'||U32'hosts_down'||U32'localtime'||S16'owner'||S16'latlong'||S16'url'||S16'stringslen'||ARR1572{S8}_S8_'strings'|]#'source'||SYM#tag-#anon#ST[EN#anon_enum_ROOT_NODE=0_GRID_NODE=1_CLUSTER_NODE=2_HOST_NODE=3_METRIC_NODE=4#{U32}_U32_'id'||U32'_pad0'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_start'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'metrics'||SYM#tag-timeval#'t0'||S16'ip'||U16'_pad1'||U32'tn'||U32'tmax'||U32'dmax'||S16'location'||S16'tags'||U32'reported'||U32'started'||S16'stringslen'||ARR1572{S8}_S8_'strings'||U48'_pad2'|]#'host'||SYM#tag-#anon#ST[EN#anon_enum_ROOT_NODE=0_GRID_NODE=1_CLUSTER_NODE=2_HOST_NODE=3_METRIC_NODE=4#{U32}_U32_'id'||U32'_pad0'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'data'||U32'size'||U32'_pad0'|]#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_start'||*{S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-Generic_type#}_SYM#tag-Generic_type#_|*{SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#}_SYM#tag-#anon#ST[S32'fd'||BF{U32}_U32_'valid'||BF{U32}_U32_'http'||BF{U6}_U6_'_bit_field_pad0'||U24'_pad0'||SYM#tag-sockaddr_in#'addr'||EN#anon_enum_NO_FILTER=0_SUMMARY=1#{U32}_U32_'filter'||U32'_pad1'||SYM#tag-timeval#'now'|]#_|*{V}_V_)->S32_'report_end'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'leaf'||SYM#tag-timeval#'t0'||SYM#tag-#anon#UN[F64'd'||S32'str'|]#'val'||S16'name'||S16'valstr'||S16'precision'||U16'_pad1'||U32'num'||S16'type'||S16'units'||U32'tn'||U32'tmax'||U32'dmax'||S16'slope'||S16'source'||S16'ednameslen'||S16'edvalueslen'||ARR32{S16}_S16_'ednames'||ARR32{S16}_S16_'edvalues'||S16'stringslen'||ARR1572{S8}_S8_'strings'||U48'_pad2'|]#'metric'||*{SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#}_SYM#tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]#_'root'||SYM#tag-timeval#'now'|]
 // file process_xml.c line 38
-struct anonymous$35;
+struct anonymous_35;
 
 // tag-#anon#ST[S32'sockfd'||SYM#tag-sockaddr#'sa'||U32'ref_count'|]
 // file ../lib/net.h line 36
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S64'value'||*{S8}$S8$'str'||*{*{S8}$S8$}$*{S8}$S8$$'list'|]
+// tag-#anon#ST[S64'value'||*{S8}_S8_'str'||*{*{S8}_S8_}_*{S8}_S8__'list'|]
 // file ../lib/dotconf.h line 167
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[SYM#tag-timeval#'last_read'||F32'thresh'||U32'$pad0'||*{S8}$S8$'name'||*{S8}$S8$'buffer'||U64'buffersize'|]
+// tag-#anon#ST[SYM#tag-timeval#'last_read'||F32'thresh'||U32'_pad0'||*{S8}_S8_'name'||*{S8}_S8_'buffer'||U64'buffersize'|]
 // file ../include/gm_file.h line 11
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[U32'metadata_len'||U32'$pad0'||*{SYM#tag-Ganglia_extra_data#}$SYM#tag-Ganglia_extra_data#$'metadata_val'|]
+// tag-#anon#ST[U32'metadata_len'||U32'_pad0'||*{SYM#tag-Ganglia_extra_data#}_SYM#tag-Ganglia_extra_data#_'metadata_val'|]
 // file gm_protocol.h line 45
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}$SYM#tag-#anon#ST[*{SYM#tag-bucket#}$SYM#tag-bucket#$'bucket'||SYM#tag-rdwr_var#'rwlock'|]#$$'node'||S32'flags'||U32'$pad0'|]
+// tag-#anon#ST[U64'size'||*{*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#}_SYM#tag-#anon#ST[*{SYM#tag-bucket#}_SYM#tag-bucket#_'bucket'||SYM#tag-rdwr_var#'rwlock'|]#__'node'||S32'flags'||U32'_pad0'|]
 // file ../lib/hash.h line 40
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#UN[*{S8}$S8$'ifcu_buf'||*{SYM#tag-ifreq#}$SYM#tag-ifreq#$'ifcu_req'|]
+// tag-#anon#UN[*{S8}_S8_'ifcu_buf'||*{SYM#tag-ifreq#}_SYM#tag-ifreq#_'ifcu_req'|]
 // file /usr/include/net/if.h line 179
-union anonymous$26;
+union anonymous_26;
 
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/net/if.h line 130
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$28;
+union anonymous_28;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$21;
+union anonymous_21;
 
 // tag-#anon#UN[F64'd'||S32'str'|]
 // file ./gmetad.h line 126
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$13;
+union anonymous_13;
 
 // tag-#anon#UN[SYM#tag-Ganglia_gmetric_ushort#'gu_short'||SYM#tag-Ganglia_gmetric_short#'gs_short'||SYM#tag-Ganglia_gmetric_int#'gs_int'||SYM#tag-Ganglia_gmetric_uint#'gu_int'||SYM#tag-Ganglia_gmetric_string#'gstr'||SYM#tag-Ganglia_gmetric_float#'gf'||SYM#tag-Ganglia_gmetric_double#'gd'|]
 // file gm_protocol.h line 143
-union anonymous$30;
+union anonymous_30;
 
 // tag-#anon#UN[SYM#tag-Ganglia_metadatadef#'gfull'||SYM#tag-Ganglia_metadatareq#'grequest'|]
 // file gm_protocol.h line 134
-union anonymous$29;
+union anonymous_29;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{S8}$S8$'ifru_data'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{S8}_S8_'ifru_data'|]
 // file /usr/include/net/if.h line 135
-union anonymous$25;
+union anonymous_25;
 
 // tag-#anon#UN[SYM#tag-sockaddr_in#'sin'||SYM#tag-sockaddr_in6#'sin6'||SYM#tag-sockaddr_storage#'sas'|]
 // file /usr/include/apr-1.0/apr_network_io.h line 238
-union anonymous$32;
+union anonymous_32;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$19;
+union anonymous_19;
 
 // tag-Ganglia_25metric
 // file gm_protocol.h line 155
@@ -632,7 +632,7 @@ extern void abort(void);
 extern signed int abs(signed int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$19, unsigned int *);
+extern signed int accept(signed int, union anonymous_19, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -641,10 +641,10 @@ extern signed int access(const char *, signed int);
 signed int addstring(char *strings, signed int *edge, const char *s);
 // applicable
 // file server.c line 289
-signed int applicable(enum anonymous$22 filter, struct Generic_type *node);
+signed int applicable(enum anonymous_22 filter, struct Generic_type *node);
 // applyfilter
 // file server.c line 309
-signed int applyfilter(struct anonymous$16 *client, struct Generic_type *node);
+signed int applyfilter(struct anonymous_16 *client, struct Generic_type *node);
 // apr_array_make
 // file /usr/include/apr-1.0/apr_tables.h line 121
 struct apr_array_header_t * apr_array_make(struct apr_pool_t *, signed int, signed int);
@@ -707,7 +707,7 @@ signed int apr_sockaddr_ip_buffer_get(char *addr, signed int len, struct apr_soc
 void apr_sockaddr_vars_set(struct apr_sockaddr_t *, signed int, unsigned short int);
 // apr_socket_addr_get
 // file /usr/include/apr-1.0/apr_network_io.h line 690
-signed int apr_socket_addr_get(struct apr_sockaddr_t **, enum anonymous$33, struct apr_socket_t *);
+signed int apr_socket_addr_get(struct apr_sockaddr_t **, enum anonymous_33, struct apr_socket_t *);
 // apr_socket_bind
 // file /usr/include/apr-1.0/apr_network_io.h line 321
 signed int apr_socket_bind(struct apr_socket_t *, struct apr_sockaddr_t *);
@@ -764,13 +764,13 @@ extern signed int atoi(const char *);
 extern signed long int atol(const char *);
 // authority_mode
 // file process_xml.c line 60
-static signed int authority_mode(struct anonymous$35 *xmldata);
+static signed int authority_mode(struct anonymous_35 *xmldata);
 // become_a_nobody
 // file ../lib/become_a_nobody.h line 4
 void become_a_nobody(const char *username);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$19, unsigned int);
+extern signed int bind(signed int, union anonymous_19, unsigned int);
 // build_default_gmond_configuration
 // file libgmond.c line 204
 void build_default_gmond_configuration(struct Ganglia_pool *p);
@@ -857,7 +857,7 @@ static const char * cb_xml_port(struct command_t *cmd, void *ctx);
 void cfg_error(struct cfg_t *, const char *, ...);
 // cfg_getbool
 // file /usr/include/confuse.h line 704
-enum anonymous$14 cfg_getbool(struct cfg_t *, const char *);
+enum anonymous_14 cfg_getbool(struct cfg_t *, const char *);
 // cfg_getint
 // file /usr/include/confuse.h line 625
 signed long int cfg_getint(struct cfg_t *, const char *);
@@ -893,13 +893,13 @@ extern signed int chdir(const char *);
 signed int check_value(char *type, char *value);
 // cleanup_metric
 // file cleanup.c line 60
-static signed int cleanup_metric(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int cleanup_metric(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // cleanup_node
 // file cleanup.c line 80
-static signed int cleanup_node(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int cleanup_node(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // cleanup_source
 // file cleanup.c line 121
-static signed int cleanup_source(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int cleanup_source(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // cleanup_thread
 // file cleanup.c line 187
 void * cleanup_thread(void *arg);
@@ -962,7 +962,7 @@ static void cmdline_parser_release(struct gengetopt_args_info *args_info);
 signed int cmdline_parser_required(struct gengetopt_args_info *args_info, const char *prog_name);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$19, unsigned int);
+extern signed int connect(signed int, union anonymous_19, unsigned int);
 // copy_word
 // file dotconf.c line 101
 static void copy_word(char **dest, char **src, signed int max, char term);
@@ -998,25 +998,25 @@ void daemon_init(const char *pname, signed int facility, unsigned int rrd_umask)
 void * data_thread(void *arg);
 // datum_dup
 // file hash.c line 30
-static struct anonymous$7 * datum_dup(struct anonymous$7 *src);
+static struct anonymous_7 * datum_dup(struct anonymous_7 *src);
 // datum_free
 // file ../lib/hash.h line 62
-void datum_free(struct anonymous$7 *datum);
+void datum_free(struct anonymous_7 *datum);
 // datum_new
 // file ../lib/hash.h line 61
-struct anonymous$7 * datum_new(void *data, unsigned long int size);
+struct anonymous_7 * datum_new(void *data, unsigned long int size);
 // debug_msg
 // file ../include/gm_msg.h line 16
 void debug_msg(const char *format, ...);
 // do_root_summary
 // file gmetad.c line 192
-static signed int do_root_summary(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int do_root_summary(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // dotconf_callback
 // file dotconf.c line 244
 void dotconf_callback(struct configfile_t *configfile, enum callback_types type, const char * (*callback)(struct command_t *, void *));
-// dotconf_callback::callback$object
+// dotconf_callback::callback_object
 //
-const char * callback$object(struct command_t *, void *);
+const char * callback_object(struct command_t *, void *);
 // dotconf_cb_include
 // file dotconf.c line 1298
 static const char * dotconf_cb_include(struct command_t *cmd, void *ctx);
@@ -1101,9 +1101,9 @@ void dotconf_wild_card_cleanup(char *path, char *pre);
 // end
 // file process_xml.c line 1218
 static void end(void *data, const char *el);
-// end$link1
+// end_link1
 // file ganglia.c line 141
-static void end$link1(void *data$link1, const char *el$link1);
+static void end_link1(void *data_link1, const char *el_link1);
 // endElement_CLUSTER
 // file process_xml.c line 1175
 static signed int endElement_CLUSTER(void *data, const char *el);
@@ -1154,10 +1154,10 @@ extern signed int fflush(struct _IO_FILE *);
 extern char * fgets(char *, signed int, struct _IO_FILE *);
 // fillmetric
 // file process_xml.c line 72
-static void fillmetric(const char **attr, struct anonymous$9 *metric, const char *type);
+static void fillmetric(const char **attr, struct anonymous_9 *metric, const char *type);
 // finish_processing_source
 // file process_xml.c line 1066
-static signed int finish_processing_source(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int finish_processing_source(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // fnmatch
 // file /usr/include/fnmatch.h line 56
 extern signed int fnmatch(const char *, const char *, signed int);
@@ -1190,52 +1190,52 @@ char * g_gethostbyaddr(const char *addr, unsigned long int length, signed int ty
 signed int g_gethostbyname(const char *hostname, struct sockaddr_in *sa, char **nicename);
 // g_inetaddr_delete
 // file inetaddr.c line 156
-void g_inetaddr_delete(struct anonymous$4 *ia);
+void g_inetaddr_delete(struct anonymous_4 *ia);
 // g_inetaddr_get_interface_to
 // file inetaddr.c line 199
-struct anonymous$4 * g_inetaddr_get_interface_to(const struct anonymous$4 *addr);
+struct anonymous_4 * g_inetaddr_get_interface_to(const struct anonymous_4 *addr);
 // g_inetaddr_get_port
 // file inetaddr.c line 163
-signed int g_inetaddr_get_port(const struct anonymous$4 *ia);
+signed int g_inetaddr_get_port(const struct anonymous_4 *ia);
 // g_inetaddr_is_multicast
 // file inetaddr.c line 182
-signed int g_inetaddr_is_multicast(const struct anonymous$4 *inetaddr);
+signed int g_inetaddr_is_multicast(const struct anonymous_4 *inetaddr);
 // g_inetaddr_list_interfaces
 // file inetaddr.c line 239
 struct _llist_entry * g_inetaddr_list_interfaces(void);
 // g_inetaddr_new
 // file ../lib/net.h line 55
-struct anonymous$4 * g_inetaddr_new(const char *name, signed int port);
+struct anonymous_4 * g_inetaddr_new(const char *name, signed int port);
 // g_inetaddr_ref
 // file inetaddr.c line 131
-void g_inetaddr_ref(struct anonymous$4 *ia);
+void g_inetaddr_ref(struct anonymous_4 *ia);
 // g_inetaddr_set_port
 // file inetaddr.c line 172
-void g_inetaddr_set_port(const struct anonymous$4 *ia, unsigned int port);
+void g_inetaddr_set_port(const struct anonymous_4 *ia, unsigned int port);
 // g_inetaddr_unref
 // file inetaddr.c line 140
-void g_inetaddr_unref(struct anonymous$4 *ia);
+void g_inetaddr_unref(struct anonymous_4 *ia);
 // g_tcp_socket_connect
 // file net.h line 101
-struct anonymous$2 * g_tcp_socket_connect(const char *hostname, signed int port);
+struct anonymous_2 * g_tcp_socket_connect(const char *hostname, signed int port);
 // g_tcp_socket_delete
 // file ../lib/net.h line 105
-void g_tcp_socket_delete(struct anonymous$2 *s);
+void g_tcp_socket_delete(struct anonymous_2 *s);
 // g_tcp_socket_new
 // file ../lib/net.h line 103
-struct anonymous$2 * g_tcp_socket_new(const struct anonymous$4 *addr);
+struct anonymous_2 * g_tcp_socket_new(const struct anonymous_4 *addr);
 // g_tcp_socket_server_accept
 // file tcp.c line 207
-struct anonymous$2 * g_tcp_socket_server_accept(struct anonymous$2 *socket);
+struct anonymous_2 * g_tcp_socket_server_accept(struct anonymous_2 *socket);
 // g_tcp_socket_server_new
 // file ../lib/net.h line 107
-struct anonymous$2 * g_tcp_socket_server_new(signed int port);
+struct anonymous_2 * g_tcp_socket_server_new(signed int port);
 // g_tcp_socket_server_new_interface
 // file tcp.c line 134
-struct anonymous$2 * g_tcp_socket_server_new_interface(const struct anonymous$4 *iface);
+struct anonymous_2 * g_tcp_socket_server_new_interface(const struct anonymous_4 *iface);
 // g_tcp_socket_unref
 // file tcp.c line 95
-static void g_tcp_socket_unref(struct anonymous$2 *s);
+static void g_tcp_socket_unref(struct anonymous_2 *s);
 // gengetopt_strdup
 // file cmdline.c line 253
 static char * gengetopt_strdup(const char *s);
@@ -1280,7 +1280,7 @@ extern struct passwd * getpwnam(const char *);
 extern struct passwd * getpwuid(unsigned int);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous$19, unsigned int *);
+extern signed int getsockname(signed int, union anonymous_19, unsigned int *);
 // gettimeofday
 // file /usr/include/x86_64-linux-gnu/sys/time.h line 71
 extern signed int gettimeofday(struct timeval *, struct timezone *);
@@ -1289,61 +1289,61 @@ extern signed int gettimeofday(struct timeval *, struct timezone *);
 extern unsigned int getuid(void);
 // gexec_cluster
 // file ganglia.c line 253
-signed int gexec_cluster(struct anonymous$36 *cluster, char *ip, unsigned short int port);
+signed int gexec_cluster(struct anonymous_36 *cluster, char *ip, unsigned short int port);
 // gexec_cluster_free
 // file ganglia.c line 193
-signed int gexec_cluster_free(struct anonymous$36 *cluster);
+signed int gexec_cluster_free(struct anonymous_36 *cluster);
 // has_wildcard
 // file libgmond.c line 749
 signed int has_wildcard(const char *pattern);
 // hash_create
 // file ../lib/hash.h line 48
-struct anonymous$8 * hash_create(unsigned long int size);
+struct anonymous_8 * hash_create(unsigned long int size);
 // hash_delete
 // file ../lib/hash.h line 55
-struct anonymous$7 * hash_delete(struct anonymous$7 *key, struct anonymous$8 *hash);
+struct anonymous_7 * hash_delete(struct anonymous_7 *key, struct anonymous_8 *hash);
 // hash_destroy
 // file ../lib/hash.h line 49
-void hash_destroy(struct anonymous$8 *hash);
+void hash_destroy(struct anonymous_8 *hash);
 // hash_foreach
 // file ../lib/hash.h line 58
-signed int hash_foreach(struct anonymous$8 *hash, signed int (*func)(struct anonymous$7 *, struct anonymous$7 *, void *), void *arg);
-// hash_foreach::func$object
+signed int hash_foreach(struct anonymous_8 *hash, signed int (*func)(struct anonymous_7 *, struct anonymous_7 *, void *), void *arg);
+// hash_foreach::func_object
 //
-signed int func$object(struct anonymous$7 *, struct anonymous$7 *, void *);
+signed int func_object(struct anonymous_7 *, struct anonymous_7 *, void *);
 // hash_get_flags
 // file hash.c line 175
-signed int hash_get_flags(struct anonymous$8 *hash);
+signed int hash_get_flags(struct anonymous_8 *hash);
 // hash_insert
 // file ../lib/hash.h line 54
-struct anonymous$7 * hash_insert(struct anonymous$7 *key, struct anonymous$7 *val, struct anonymous$8 *hash);
+struct anonymous_7 * hash_insert(struct anonymous_7 *key, struct anonymous_7 *val, struct anonymous_8 *hash);
 // hash_keycmp
 // file hash.c line 213
-signed int hash_keycmp(struct anonymous$8 *hash, struct anonymous$7 *key1, struct anonymous$7 *key2);
+signed int hash_keycmp(struct anonymous_8 *hash, struct anonymous_7 *key1, struct anonymous_7 *key2);
 // hash_lookup
 // file ../lib/hash.h line 57
-struct anonymous$7 * hash_lookup(struct anonymous$7 *key, struct anonymous$8 *hash);
+struct anonymous_7 * hash_lookup(struct anonymous_7 *key, struct anonymous_8 *hash);
 // hash_prime
 // file hash.c line 58
 static unsigned long int hash_prime(unsigned long int size);
 // hash_set_flags
 // file ../lib/hash.h line 52
-void hash_set_flags(struct anonymous$8 *hash, signed int flags);
+void hash_set_flags(struct anonymous_8 *hash, signed int flags);
 // hash_walkfrom
 // file ../lib/hash.h line 59
-signed int hash_walkfrom(struct anonymous$8 *hash, unsigned long int from, signed int (*func)(struct anonymous$7 *, struct anonymous$7 *, void *), void *arg);
-// hash_walkfrom::func$object
+signed int hash_walkfrom(struct anonymous_8 *hash, unsigned long int from, signed int (*func)(struct anonymous_7 *, struct anonymous_7 *, void *), void *arg);
+// hash_walkfrom::func_object
 //
-signed int func$object(struct anonymous$7 *, struct anonymous$7 *, void *);
+signed int func_object(struct anonymous_7 *, struct anonymous_7 *, void *);
 // hashval
 // file ../lib/hash.h line 64
-unsigned long int hashval(struct anonymous$7 *key, struct anonymous$8 *hash);
+unsigned long int hashval(struct anonymous_7 *key, struct anonymous_8 *hash);
 // host_report_end
 // file server.c line 206
-signed int host_report_end(struct Generic_type *self, struct anonymous$16 *client, void *arg);
+signed int host_report_end(struct Generic_type *self, struct anonymous_16 *client, void *arg);
 // host_report_start
 // file server.c line 183
-signed int host_report_start(struct Generic_type *self, struct anonymous$7 *key, struct anonymous$16 *client, void *arg);
+signed int host_report_start(struct Generic_type *self, struct anonymous_7 *key, struct anonymous_16 *client, void *arg);
 // htonl
 // file /usr/include/netinet/in.h line 377
 extern unsigned int htonl(unsigned int);
@@ -1379,7 +1379,7 @@ extern signed int inflateInit2_(struct z_stream_s *, signed int, const char *, s
 static void init_args_info(struct gengetopt_args_info *args_info);
 // init_carbon_udp_socket
 // file export_helpers.h line 23
-struct anonymous$2 * init_carbon_udp_socket(const char *hostname, unsigned short int port);
+struct anonymous_2 * init_carbon_udp_socket(const char *hostname, unsigned short int port);
 // init_sockaddr
 // file export_helpers.c line 63
 void init_sockaddr(struct sockaddr_in *name, const char *hostname, unsigned short int port);
@@ -1407,15 +1407,15 @@ signed int llist_remove(struct _llist_entry **llist, struct _llist_entry *e);
 // llist_search
 // file ../lib/llist.h line 34
 signed int llist_search(struct _llist_entry **llist, void *val, signed int (*compare_function)(const char *, const char *), struct _llist_entry **e);
-// llist_search::compare_function$object
+// llist_search::compare_function_object
 //
-signed int compare_function$object(const char *, const char *);
+signed int compare_function_object(const char *, const char *);
 // llist_sort
 // file llist.h line 37
 signed int llist_sort(struct _llist_entry *llist, signed int (*compare_function)(struct _llist_entry *, struct _llist_entry *));
-// llist_sort::compare_function$object
+// llist_sort::compare_function_object
 //
-signed int compare_function$object(struct _llist_entry *, struct _llist_entry *);
+signed int compare_function_object(struct _llist_entry *, struct _llist_entry *);
 // llist_strncmp
 // file ../lib/llist.h line 32
 signed int llist_strncmp(const char *s1, const char *s2);
@@ -1442,13 +1442,13 @@ extern void * memmove(void *, const void *, unsigned long int);
 extern void * memset(void *, signed int, unsigned long int);
 // metric_report_end
 // file server.c line 176
-signed int metric_report_end(struct Generic_type *self, struct anonymous$16 *client, void *arg);
+signed int metric_report_end(struct Generic_type *self, struct anonymous_16 *client, void *arg);
 // metric_report_start
 // file server.c line 136
-signed int metric_report_start(struct Generic_type *self, struct anonymous$7 *key, struct anonymous$16 *client, void *arg);
+signed int metric_report_start(struct Generic_type *self, struct anonymous_7 *key, struct anonymous_16 *client, void *arg);
 // metric_summary
 // file server.c line 64
-static signed int metric_summary(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int metric_summary(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // mkdir
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 320
 extern signed int mkdir(const char *, unsigned int);
@@ -1481,7 +1481,7 @@ extern void openlog(const char *, signed int, signed int);
 signed int parse_config_file(char *config_file);
 // path_macro_replace
 // file export_helpers.c line 215
-char * path_macro_replace(char *path, struct anonymous$1 *patrn);
+char * path_macro_replace(char *path, struct anonymous_1 *patrn);
 // poll
 // file /usr/include/x86_64-linux-gnu/sys/poll.h line 57
 extern signed int poll(struct pollfd *, unsigned long int, signed int);
@@ -1490,25 +1490,25 @@ extern signed int poll(struct pollfd *, unsigned long int, signed int);
 static void print_help_common(void);
 // print_sources
 // file gmetad.c line 53
-static signed int print_sources(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int print_sources(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // printf
 // file /usr/include/stdio.h line 362
 extern signed int printf(const char *, ...);
 // process_path
 // file server.c line 396
-static signed int process_path(struct anonymous$16 *client, char *path, struct anonymous$7 *myroot, struct anonymous$7 *key);
+static signed int process_path(struct anonymous_16 *client, char *path, struct anonymous_7 *myroot, struct anonymous_7 *key);
 // process_path_adapter
 // file server.c line 496
-static signed int process_path_adapter(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int process_path_adapter(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // process_request
 // file server.c line 507
-static signed int process_request(struct anonymous$16 *client, char *path);
+static signed int process_request(struct anonymous_16 *client, char *path);
 // process_xml
 // file process_xml.c line 1245
-signed int process_xml(struct anonymous$6 *d, char *buf);
+signed int process_xml(struct anonymous_6 *d, char *buf);
 // processfilter
 // file server.c line 340
-signed int processfilter(struct anonymous$16 *client, const char *filter);
+signed int processfilter(struct anonymous_16 *client, const char *filter);
 // pthread_attr_init
 // file /usr/include/pthread.h line 289
 extern signed int pthread_attr_init(union pthread_attr_t *);
@@ -1517,22 +1517,22 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$13 *);
+extern signed int pthread_cond_broadcast(union anonymous_13 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$13 *, const union anonymous$21 *);
+extern signed int pthread_cond_init(union anonymous_13 *, const union anonymous_21 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$13 *);
+extern signed int pthread_cond_signal(union anonymous_13 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$13 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_13 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$21 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_21 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -1580,10 +1580,10 @@ signed int readline(signed int fd, char *buf, signed int maxlen);
 extern void * realloc(void *, unsigned long int);
 // root_report_end
 // file server.c line 281
-signed int root_report_end(struct anonymous$16 *client);
+signed int root_report_end(struct anonymous_16 *client);
 // root_report_start
 // file server.c line 251
-signed int root_report_start(struct anonymous$16 *client);
+signed int root_report_start(struct anonymous_16 *client);
 // rrd_clear_error
 // file /usr/include/rrd.h line 356
 void rrd_clear_error(void);
@@ -1604,10 +1604,10 @@ signed int rrd_update(signed int, char **);
 static void safe_skip_whitespace(char **cp, signed int n, char term);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$31 *, struct anonymous$31 *, struct anonymous$31 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_31 *, struct anonymous_31 *, struct anonymous_31 *, struct timeval *);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous$19, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_19, unsigned int);
 // server_thread
 // file server.c line 598
 void * server_thread(void *arg);
@@ -1616,7 +1616,7 @@ void * server_thread(void *arg);
 void set_debug_msg_level(signed int level);
 // set_defaults
 // file conf.c line 366
-static void set_defaults(struct anonymous$5 *config);
+static void set_defaults(struct anonymous_5 *config);
 // setgid
 // file /usr/include/unistd.h line 717
 extern signed int setgid(unsigned int);
@@ -1652,16 +1652,16 @@ extern signed int snprintf(char *, unsigned long int, const char *, ...);
 extern signed int socket(signed int, signed int, signed int);
 // source_report_end
 // file server.c line 239
-signed int source_report_end(struct Generic_type *self, struct anonymous$16 *client, void *arg);
+signed int source_report_end(struct Generic_type *self, struct anonymous_16 *client, void *arg);
 // source_report_start
 // file server.c line 213
-signed int source_report_start(struct Generic_type *self, struct anonymous$7 *key, struct anonymous$16 *client, void *arg);
+signed int source_report_start(struct Generic_type *self, struct anonymous_7 *key, struct anonymous_16 *client, void *arg);
 // source_summary
 // file server.c line 119
-static signed int source_summary(struct anonymous$11 *source, struct anonymous$16 *client);
+static signed int source_summary(struct anonymous_11 *source, struct anonymous_16 *client);
 // spin_off_the_data_threads
 // file gmetad.c line 71
-static signed int spin_off_the_data_threads(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int spin_off_the_data_threads(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // sprintf
 // file /usr/include/stdio.h line 364
 extern signed int sprintf(char *, const char *, ...);
@@ -1671,9 +1671,9 @@ extern signed int sscanf(const char *, const char *, ...);
 // start
 // file process_xml.c line 1008
 static void start(void *data, const char *el, const char **attr);
-// start$link1
+// start_link1
 // file ganglia.c line 19
-static void start$link1(void *data$link1, const char *el$link1, const char **attr$link1);
+static void start_link1(void *data_link1, const char *el_link1, const char **attr_link1);
 // startElement_CLUSTER
 // file process_xml.c line 270
 static signed int startElement_CLUSTER(void *data, const char *el, const char **attr);
@@ -1760,7 +1760,7 @@ extern signed long int strtol(const char *, char ** restrict , signed int);
 extern unsigned long int strtoul(const char *, char ** restrict , signed int);
 // sum_metrics
 // file gmetad.c line 136
-static signed int sum_metrics(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int sum_metrics(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // syslog
 // file /usr/include/x86_64-linux-gnu/sys/syslog.h line 190
 extern void syslog(signed int, const char *, ...);
@@ -1778,7 +1778,7 @@ extern signed int tolower(signed int);
 extern signed int toupper(signed int);
 // tree_report
 // file server.c line 366
-static signed int tree_report(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int tree_report(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // umask
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 311
 extern unsigned int umask(unsigned int);
@@ -1787,10 +1787,10 @@ extern unsigned int umask(unsigned int);
 extern signed int unlink(const char *);
 // update_arg
 // file cmdline.c line 341
-static signed int update_arg(void *field, char **orig_field, unsigned int *field_given, unsigned int *prev_given, char *value, const char **possible_values, const char *default_value, enum anonymous$23 arg_type, signed int check_ambiguity, signed int override, signed int no_free, signed int multiple_option, const char *long_opt, char short_opt, const char *additional_error);
+static signed int update_arg(void *field, char **orig_field, unsigned int *field_given, unsigned int *prev_given, char *value, const char **possible_values, const char *default_value, enum anonymous_23 arg_type, signed int check_ambiguity, signed int override, signed int no_free, signed int multiple_option, const char *long_opt, char short_opt, const char *additional_error);
 // update_file
 // file file.c line 95
-char * update_file(struct anonymous$37 *tf);
+char * update_file(struct anonymous_37 *tf);
 // update_pidfile
 // file ../lib/update_pidfile.h line 4
 void update_pidfile(char *pidfile);
@@ -1814,7 +1814,7 @@ signed int write_data_to_rrd(const char *source, const char *host, const char *m
 static void write_into_file(struct _IO_FILE *outfile, const char *opt, const char *arg, const char **values);
 // write_root_summary
 // file gmetad.c line 224
-static signed int write_root_summary(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+static signed int write_root_summary(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 // xdr_Ganglia_25metric
 // file gm_protocol_xdr.c line 318
 extern signed int xdr_Ganglia_25metric(struct XDR *xdrs, struct Ganglia_25metric *objp);
@@ -1904,15 +1904,15 @@ extern signed int xdr_u_short(struct XDR *, unsigned short int *);
 extern void xdrmem_create(struct XDR *, char *, unsigned int, enum xdr_op);
 // xml_print
 // file server.c line 32
-static inline signed int xml_print(struct anonymous$16 *client, const char *fmt, ...);
+static inline signed int xml_print(struct anonymous_16 *client, const char *fmt, ...);
 // zError
 // file /usr/include/zlib.h line 1746
 extern const char * zError(signed int);
 // zero_out_summary
 // file gmetad.c line 121
-signed int zero_out_summary(struct anonymous$7 *key, struct anonymous$7 *val, void *arg);
+signed int zero_out_summary(struct anonymous_7 *key, struct anonymous_7 *val, void *arg);
 
-struct anonymous$5
+struct anonymous_5
 {
   // gridname
   char *gridname;
@@ -1974,7 +1974,7 @@ struct sockaddr
   char sa_data[14l];
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // name
   char *name;
@@ -1984,7 +1984,7 @@ struct anonymous$4
   unsigned int ref_count;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // name
   char *name;
@@ -1993,14 +1993,14 @@ struct anonymous$6
   // num_sources
   unsigned int num_sources;
   // sources
-  struct anonymous$4 **sources;
+  struct anonymous_4 **sources;
   // dead
   signed int dead;
   // last_good_index
   signed int last_good_index;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // torepl
   char *torepl;
@@ -2046,7 +2046,7 @@ union anonymous
   signed long int __align;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // __lock
   signed int __lock;
@@ -2066,10 +2066,10 @@ struct anonymous$12
   unsigned int __broadcast_seq;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __data
-  struct anonymous$12 __data;
+  struct anonymous_12 __data;
   // __size
   char __size[48l];
   // __align
@@ -2085,10 +2085,10 @@ struct rdwr_var
   // mutex
   union anonymous mutex;
   // lock_free
-  union anonymous$13 lock_free;
+  union anonymous_13 lock_free;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // bucket
   struct bucket *bucket;
@@ -2096,7 +2096,7 @@ struct anonymous$20
   struct rdwr_var rwlock;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // data
   void *data;
@@ -2104,13 +2104,13 @@ struct anonymous$7
   unsigned int size;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // name
   char name[256l];
@@ -2138,26 +2138,26 @@ struct anonymous$36
   signed int start;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // id
-  enum anonymous$15 id;
+  enum anonymous_15 id;
   // report_start
-  signed int (*report_start)(struct Generic_type *, struct anonymous$7 *, struct anonymous$16 *, void *);
+  signed int (*report_start)(struct Generic_type *, struct anonymous_7 *, struct anonymous_16 *, void *);
   // report_end
-  signed int (*report_end)(struct Generic_type *, struct anonymous$16 *, void *);
+  signed int (*report_end)(struct Generic_type *, struct anonymous_16 *, void *);
   // authority
-  struct anonymous$8 *authority;
+  struct anonymous_8 *authority;
   // authority_ptr
   signed short int authority_ptr;
   // metric_summary
-  struct anonymous$8 *metric_summary;
+  struct anonymous_8 *metric_summary;
   // metric_summary_pending
-  struct anonymous$8 *metric_summary_pending;
+  struct anonymous_8 *metric_summary_pending;
   // sum_finished
   union anonymous *sum_finished;
   // ds
-  struct anonymous$6 *ds;
+  struct anonymous_6 *ds;
   // hosts_up
   unsigned int hosts_up;
   // hosts_down
@@ -2184,7 +2184,7 @@ struct timeval
   signed long int tv_usec;
 };
 
-union anonymous$17
+union anonymous_17
 {
   // d
   double d;
@@ -2192,20 +2192,20 @@ union anonymous$17
   signed int str;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // id
-  enum anonymous$15 id;
+  enum anonymous_15 id;
   // report_start
-  signed int (*report_start)(struct Generic_type *, struct anonymous$7 *, struct anonymous$16 *, void *);
+  signed int (*report_start)(struct Generic_type *, struct anonymous_7 *, struct anonymous_16 *, void *);
   // report_end
-  signed int (*report_end)(struct Generic_type *, struct anonymous$16 *, void *);
+  signed int (*report_end)(struct Generic_type *, struct anonymous_16 *, void *);
   // leaf
-  struct anonymous$8 *leaf;
+  struct anonymous_8 *leaf;
   // t0
   struct timeval t0;
   // val
-  union anonymous$17 val;
+  union anonymous_17 val;
   // name
   signed short int name;
   // valstr
@@ -2242,16 +2242,16 @@ struct anonymous$9
   char strings[1572l];
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // id
-  enum anonymous$15 id;
+  enum anonymous_15 id;
   // report_start
-  signed int (*report_start)(struct Generic_type *, struct anonymous$7 *, struct anonymous$16 *, void *);
+  signed int (*report_start)(struct Generic_type *, struct anonymous_7 *, struct anonymous_16 *, void *);
   // report_end
-  signed int (*report_end)(struct Generic_type *, struct anonymous$16 *, void *);
+  signed int (*report_end)(struct Generic_type *, struct anonymous_16 *, void *);
   // metrics
-  struct anonymous$8 *metrics;
+  struct anonymous_8 *metrics;
   // t0
   struct timeval t0;
   // ip
@@ -2294,7 +2294,7 @@ struct sockaddr_in
   unsigned char sin_zero[8l];
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // fd
   signed int fd;
@@ -2305,12 +2305,12 @@ struct anonymous$16
   // addr
   struct sockaddr_in addr;
   // filter
-  enum anonymous$22 filter;
+  enum anonymous_22 filter;
   // now
   struct timeval now;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // rval
   signed int rval;
@@ -2321,24 +2321,24 @@ struct anonymous$35
   // hostname
   char *hostname;
   // ds
-  struct anonymous$6 *ds;
+  struct anonymous_6 *ds;
   // grid_depth
   signed int grid_depth;
   // host_alive
   signed int host_alive;
   // source
-  struct anonymous$11 source;
+  struct anonymous_11 source;
   // host
-  struct anonymous$10 host;
+  struct anonymous_10 host;
   // metric
-  struct anonymous$9 metric;
+  struct anonymous_9 metric;
   // root
-  struct anonymous$8 *root;
+  struct anonymous_8 *root;
   // now
   struct timeval now;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // sockfd
   signed int sockfd;
@@ -2348,7 +2348,7 @@ struct anonymous$2
   unsigned int ref_count;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // value
   signed long int value;
@@ -2358,7 +2358,7 @@ struct anonymous$3
   char **list;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // last_read
   struct timeval last_read;
@@ -2372,7 +2372,7 @@ struct anonymous$37
   unsigned long int buffersize;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // metadata_len
   unsigned int metadata_len;
@@ -2380,17 +2380,17 @@ struct anonymous$27
   struct Ganglia_extra_data *metadata_val;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // size
   unsigned long int size;
   // node
-  struct anonymous$20 **node;
+  struct anonymous_20 **node;
   // flags
   signed int flags;
 };
 
-union anonymous$26
+union anonymous_26
 {
   // ifcu_buf
   char *ifcu_buf;
@@ -2398,13 +2398,13 @@ union anonymous$26
   struct ifreq *ifcu_req;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // ifrn_name
   char ifrn_name[16l];
 };
 
-union anonymous$28
+union anonymous_28
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2414,7 +2414,7 @@ union anonymous$28
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$21
+union anonymous_21
 {
   // __size
   char __size[4l];
@@ -2502,7 +2502,7 @@ struct Ganglia_gmetric_double
   double d;
 };
 
-union anonymous$30
+union anonymous_30
 {
   // gu_short
   struct Ganglia_gmetric_ushort gu_short;
@@ -2535,7 +2535,7 @@ struct Ganglia_metadata_message
   // dmax
   unsigned int dmax;
   // metadata
-  struct anonymous$27 metadata;
+  struct anonymous_27 metadata;
 };
 
 struct Ganglia_metadatadef
@@ -2552,7 +2552,7 @@ struct Ganglia_metadatareq
   struct Ganglia_metric_id metric_id;
 };
 
-union anonymous$29
+union anonymous_29
 {
   // gfull
   struct Ganglia_metadatadef gfull;
@@ -2576,7 +2576,7 @@ struct ifmap
   unsigned char port;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -2607,7 +2607,7 @@ union anonymous$25
 struct in6_addr
 {
   // __in6_u
-  union anonymous$28 __in6_u;
+  union anonymous_28 __in6_u;
 };
 
 struct sockaddr_in6
@@ -2634,7 +2634,7 @@ struct sockaddr_storage
   char __ss_padding[112l];
 };
 
-union anonymous$32
+union anonymous_32
 {
   // sin
   struct sockaddr_in sin;
@@ -2644,7 +2644,7 @@ union anonymous$32
   struct sockaddr_storage sas;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2674,7 +2674,7 @@ union anonymous$0
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2741,7 +2741,7 @@ struct Ganglia_metadata_msg
   // id
   enum Ganglia_msg_formats id;
   // Ganglia_metadata_msg_u
-  union anonymous$29 Ganglia_metadata_msg_u;
+  union anonymous_29 Ganglia_metadata_msg_u;
 };
 
 struct Ganglia_metric
@@ -2761,19 +2761,19 @@ struct Ganglia_value_msg
   // id
   enum Ganglia_msg_formats id;
   // Ganglia_value_msg_u
-  union anonymous$30 Ganglia_value_msg_u;
+  union anonymous_30 Ganglia_value_msg_u;
 };
 
 struct Generic_type
 {
   // id
-  enum anonymous$15 id;
+  enum anonymous_15 id;
   // report_start
-  signed int (*report_start)(struct Generic_type *, struct anonymous$7 *, struct anonymous$16 *, void *);
+  signed int (*report_start)(struct Generic_type *, struct anonymous_7 *, struct anonymous_16 *, void *);
   // report_end
-  signed int (*report_end)(struct Generic_type *, struct anonymous$16 *, void *);
+  signed int (*report_end)(struct Generic_type *, struct anonymous_16 *, void *);
   // children
-  struct anonymous$8 *children;
+  struct anonymous_8 *children;
   // therest
   char *therest;
 };
@@ -2913,7 +2913,7 @@ struct apr_sockaddr_t
   // next
   struct apr_sockaddr_t *next;
   // sa
-  union anonymous$32 sa;
+  union anonymous_32 sa;
 };
 
 struct apr_socket_t
@@ -2941,9 +2941,9 @@ struct apr_table_entry_t
 struct bucket
 {
   // key
-  struct anonymous$7 *key;
+  struct anonymous_7 *key;
   // val
-  struct anonymous$7 *val;
+  struct anonymous_7 *val;
   // next
   struct bucket *next;
 };
@@ -2955,7 +2955,7 @@ struct cfg_defvalue_t
   // fpnumber
   double fpnumber;
   // boolean
-  enum anonymous$14 boolean;
+  enum anonymous_14 boolean;
   // string
   char *string;
   // parsed
@@ -3017,7 +3017,7 @@ union cfg_value_t
   // fpnumber
   double fpnumber;
   // boolean
-  enum anonymous$14 boolean;
+  enum anonymous_14 boolean;
   // string
   char *string;
   // section
@@ -3031,9 +3031,9 @@ struct cleanup_arg
   // tv
   struct timeval *tv;
   // key
-  struct anonymous$7 *key;
+  struct anonymous_7 *key;
   // val
-  struct anonymous$7 *val;
+  struct anonymous_7 *val;
   // hashval
   unsigned long int hashval;
 };
@@ -3059,7 +3059,7 @@ struct command_t
   // option
   struct configoption_t *option;
   // data
-  struct anonymous$3 data;
+  struct anonymous_3 data;
   // arg_count
   signed int arg_count;
   // configfile
@@ -3219,15 +3219,15 @@ struct ifconf
   // ifc_len
   signed int ifc_len;
   // ifc_ifcu
-  union anonymous$26 ifc_ifcu;
+  union anonymous_26 ifc_ifcu;
 };
 
 struct ifreq
 {
   // ifr_ifrn
-  union anonymous$24 ifr_ifrn;
+  union anonymous_24 ifr_ifrn;
   // ifr_ifru
-  union anonymous$25 ifr_ifru;
+  union anonymous_25 ifr_ifru;
 };
 
 struct internal_state
@@ -3305,7 +3305,7 @@ struct request_context
   // path
   char *path;
   // client
-  struct anonymous$16 *client;
+  struct anonymous_16 *client;
 };
 
 struct sockaddr_un
@@ -3371,7 +3371,7 @@ struct type_tag
   // name
   const char *name;
   // type
-  enum anonymous$18 type;
+  enum anonymous_18 type;
 };
 
 struct xdr_ops
@@ -3403,7 +3403,7 @@ struct xml_tag
   // name
   const char *name;
   // tag
-  enum anonymous$34 tag;
+  enum anonymous_34 tag;
 };
 
 struct z_stream_s
@@ -3443,7 +3443,7 @@ struct z_stream_s
 // file libgmond.c line 75
 static struct cfg_opt_t access_opts[4l] = { { .name="action", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3453,7 +3453,7 @@ static struct cfg_opt_t access_opts[4l] = { { .name="action", .type=(enum cfg_ty
     .freecb=((void (*)(void *))NULL) },
     { .name="ip", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0, .values=((union cfg_value_t **)NULL),
     .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3463,7 +3463,7 @@ static struct cfg_opt_t access_opts[4l] = { { .name="action", .type=(enum cfg_ty
     .freecb=((void (*)(void *))NULL) },
     { .name="mask", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3473,7 +3473,7 @@ static struct cfg_opt_t access_opts[4l] = { { .name="action", .type=(enum cfg_ty
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3488,7 +3488,7 @@ static struct cfg_opt_t acl_opts[3l];
 // file libgmond.c line 82
 static struct cfg_opt_t acl_opts[3l] = { { .name="default", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string="allow",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3498,7 +3498,7 @@ static struct cfg_opt_t acl_opts[3l] = { { .name="default", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name="access", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=1,
-    .subopts=access_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=access_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -3507,7 +3507,7 @@ static struct cfg_opt_t acl_opts[3l] = { { .name="default", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3525,12 +3525,12 @@ union anonymous carbon_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, 
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // carbon_udp_socket
 // file export_helpers.c line 30
-struct anonymous$2 *carbon_udp_socket;
+struct anonymous_2 *carbon_udp_socket;
 // cluster_opts
 // file libgmond.c line 40
 static struct cfg_opt_t cluster_opts[5l] = { { .name="name", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string="unspecified",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3540,7 +3540,7 @@ static struct cfg_opt_t cluster_opts[5l] = { { .name="name", .type=(enum cfg_typ
     .freecb=((void (*)(void *))NULL) },
     { .name="owner", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string="unspecified",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3550,7 +3550,7 @@ static struct cfg_opt_t cluster_opts[5l] = { { .name="name", .type=(enum cfg_typ
     .freecb=((void (*)(void *))NULL) },
     { .name="latlong", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string="unspecified",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3560,7 +3560,7 @@ static struct cfg_opt_t cluster_opts[5l] = { { .name="name", .type=(enum cfg_typ
     .freecb=((void (*)(void *))NULL) },
     { .name="url", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string="unspecified",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3570,7 +3570,7 @@ static struct cfg_opt_t cluster_opts[5l] = { { .name="name", .type=(enum cfg_typ
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3585,7 +3585,7 @@ static struct cfg_opt_t collection_group_opts[5l];
 // file libgmond.c line 122
 static struct cfg_opt_t metric_opts[5l] = { { .name="name", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3595,7 +3595,7 @@ static struct cfg_opt_t metric_opts[5l] = { { .name="name", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name="name_match", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3605,7 +3605,7 @@ static struct cfg_opt_t metric_opts[5l] = { { .name="name", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name="value_threshold", .type=(enum cfg_type_t)2, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)-1, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)-1, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3615,7 +3615,7 @@ static struct cfg_opt_t metric_opts[5l] = { { .name="name", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name="title", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3625,7 +3625,7 @@ static struct cfg_opt_t metric_opts[5l] = { { .name="name", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3637,7 +3637,7 @@ static struct cfg_opt_t metric_opts[5l] = { { .name="name", .type=(enum cfg_type
 // file libgmond.c line 132
 static struct cfg_opt_t collection_group_opts[5l] = { { .name="metric", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=1,
-    .subopts=metric_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=metric_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -3646,7 +3646,7 @@ static struct cfg_opt_t collection_group_opts[5l] = { { .name="metric", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name="collect_once", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -3655,7 +3655,7 @@ static struct cfg_opt_t collection_group_opts[5l] = { { .name="metric", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name="collect_every", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)60, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)60, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3665,7 +3665,7 @@ static struct cfg_opt_t collection_group_opts[5l] = { { .name="metric", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name="time_threshold", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)3600, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)3600, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3675,7 +3675,7 @@ static struct cfg_opt_t collection_group_opts[5l] = { { .name="metric", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3689,9 +3689,9 @@ signed int daemon_proc;
 // debug_level
 // file gmetad.c line 47
 static signed int debug_level;
-// debug_level$link1
+// debug_level_link1
 // file debug_msg.c line 7
-signed int debug_level$link1 = 0;
+signed int debug_level_link1 = 0;
 // default_gmond_configuration
 // file default_conf.h line 4
 char *default_gmond_configuration = (char *)(void *)0;
@@ -3738,7 +3738,7 @@ signed int gexec_errno = 0;
 // file libgmond.c line 53
 static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)1,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)1,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -3747,7 +3747,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="setuid", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)(1 - 0),
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)(1 - 0),
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3757,7 +3757,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="user", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string="nobody",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3767,7 +3767,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="debug_level", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3777,7 +3777,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="max_udp_msg_len", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)1472, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)1472, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3787,7 +3787,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="mute", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -3796,7 +3796,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="deaf", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -3805,7 +3805,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="allow_extra_data", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)1,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)1,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -3814,7 +3814,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="host_dmax", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)86400, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)86400, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3824,7 +3824,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="host_tmax", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)20, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)20, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3834,7 +3834,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="cleanup_threshold", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)300, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)300, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3844,7 +3844,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="gexec", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -3853,7 +3853,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="send_metadata_interval", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3863,7 +3863,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="module_dir", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3873,7 +3873,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="override_hostname", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3883,7 +3883,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="override_ip", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3893,7 +3893,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="tags", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3903,7 +3903,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3913,7 +3913,7 @@ static struct cfg_opt_t globals_opts[18l] = { { .name="daemonize", .type=(enum c
     .freecb=((void (*)(void *))NULL) } };
 // gmetad_config
 // file conf.c line 11
-struct anonymous$5 gmetad_config;
+struct anonymous_5 gmetad_config;
 // gmetad_options
 // file conf.c line 335
 static struct configoption_t gmetad_options[26l];
@@ -3979,7 +3979,7 @@ static struct cfg_opt_t gmond_opts[11l];
 // file libgmond.c line 48
 static struct cfg_opt_t host_opts[2l] = { { .name="location", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string="unspecified",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -3989,7 +3989,7 @@ static struct cfg_opt_t host_opts[2l] = { { .name="location", .type=(enum cfg_ty
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4007,7 +4007,7 @@ static struct cfg_opt_t metric_module_opts[7l];
 // file libgmond.c line 140
 static struct cfg_opt_t metric_module_param[2l] = { { .name="value", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4017,7 +4017,7 @@ static struct cfg_opt_t metric_module_param[2l] = { { .name="value", .type=(enum
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4029,7 +4029,7 @@ static struct cfg_opt_t metric_module_param[2l] = { { .name="value", .type=(enum
 // file libgmond.c line 145
 static struct cfg_opt_t metric_module_opts[7l] = { { .name="name", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4039,7 +4039,7 @@ static struct cfg_opt_t metric_module_opts[7l] = { { .name="name", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="language", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4049,7 +4049,7 @@ static struct cfg_opt_t metric_module_opts[7l] = { { .name="name", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="enabled", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)1,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)1,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4058,7 +4058,7 @@ static struct cfg_opt_t metric_module_opts[7l] = { { .name="name", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="path", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4068,7 +4068,7 @@ static struct cfg_opt_t metric_module_opts[7l] = { { .name="name", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="params", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4078,7 +4078,7 @@ static struct cfg_opt_t metric_module_opts[7l] = { { .name="name", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="param", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=8 | 1,
-    .subopts=metric_module_param, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=metric_module_param, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4088,7 +4088,7 @@ static struct cfg_opt_t metric_module_opts[7l] = { { .name="name", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4100,7 +4100,7 @@ static struct cfg_opt_t metric_module_opts[7l] = { { .name="name", .type=(enum c
 // file libgmond.c line 162
 static struct cfg_opt_t metric_modules_opts[2l] = { { .name="module", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=1,
-    .subopts=metric_module_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=metric_module_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4110,7 +4110,7 @@ static struct cfg_opt_t metric_modules_opts[2l] = { { .name="module", .type=(enu
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4122,7 +4122,7 @@ static struct cfg_opt_t metric_modules_opts[2l] = { { .name="module", .type=(enu
 // file libgmond.c line 168
 static struct cfg_opt_t sflow_opts[9l] = { { .name="udp_port", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)6343, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)6343, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4132,7 +4132,7 @@ static struct cfg_opt_t sflow_opts[9l] = { { .name="udp_port", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="accept_vm_metrics", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)1,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)1,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4141,7 +4141,7 @@ static struct cfg_opt_t sflow_opts[9l] = { { .name="udp_port", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="accept_http_metrics", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)1,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)1,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4150,7 +4150,7 @@ static struct cfg_opt_t sflow_opts[9l] = { { .name="udp_port", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="multiple_http_instances", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4159,7 +4159,7 @@ static struct cfg_opt_t sflow_opts[9l] = { { .name="udp_port", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="accept_memcache_metrics", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)1,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)1,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4168,7 +4168,7 @@ static struct cfg_opt_t sflow_opts[9l] = { { .name="udp_port", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="multiple_memcache_instances", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4177,7 +4177,7 @@ static struct cfg_opt_t sflow_opts[9l] = { { .name="udp_port", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="accept_jvm_metrics", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)1,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)1,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4186,7 +4186,7 @@ static struct cfg_opt_t sflow_opts[9l] = { { .name="udp_port", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="multiple_jvm_instances", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4195,7 +4195,7 @@ static struct cfg_opt_t sflow_opts[9l] = { { .name="udp_port", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4210,7 +4210,7 @@ static struct cfg_opt_t tcp_accept_channel_opts[8l];
 // file libgmond.c line 111
 static struct cfg_opt_t tcp_accept_channel_opts[8l] = { { .name="bind", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4220,7 +4220,7 @@ static struct cfg_opt_t tcp_accept_channel_opts[8l] = { { .name="bind", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name="port", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4230,7 +4230,7 @@ static struct cfg_opt_t tcp_accept_channel_opts[8l] = { { .name="bind", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name="interface", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4240,7 +4240,7 @@ static struct cfg_opt_t tcp_accept_channel_opts[8l] = { { .name="bind", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name="acl", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=acl_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=acl_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4249,7 +4249,7 @@ static struct cfg_opt_t tcp_accept_channel_opts[8l] = { { .name="bind", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name="timeout", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4259,7 +4259,7 @@ static struct cfg_opt_t tcp_accept_channel_opts[8l] = { { .name="bind", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name="family", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string="inet4",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4269,7 +4269,7 @@ static struct cfg_opt_t tcp_accept_channel_opts[8l] = { { .name="bind", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name="gzip_output", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4278,7 +4278,7 @@ static struct cfg_opt_t tcp_accept_channel_opts[8l] = { { .name="bind", .type=(e
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4293,7 +4293,7 @@ static struct cfg_opt_t udp_recv_channel_opts[9l];
 // file libgmond.c line 99
 static struct cfg_opt_t udp_recv_channel_opts[9l] = { { .name="mcast_join", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4303,7 +4303,7 @@ static struct cfg_opt_t udp_recv_channel_opts[9l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="bind", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4313,7 +4313,7 @@ static struct cfg_opt_t udp_recv_channel_opts[9l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="port", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4323,7 +4323,7 @@ static struct cfg_opt_t udp_recv_channel_opts[9l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="mcast_if", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4333,7 +4333,7 @@ static struct cfg_opt_t udp_recv_channel_opts[9l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="acl", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=acl_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=acl_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4342,7 +4342,7 @@ static struct cfg_opt_t udp_recv_channel_opts[9l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="family", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string="inet4",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4352,7 +4352,7 @@ static struct cfg_opt_t udp_recv_channel_opts[9l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="retry_bind", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_true,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_true,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4362,7 +4362,7 @@ static struct cfg_opt_t udp_recv_channel_opts[9l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="buffer", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4372,7 +4372,7 @@ static struct cfg_opt_t udp_recv_channel_opts[9l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4384,7 +4384,7 @@ static struct cfg_opt_t udp_recv_channel_opts[9l] = { { .name="mcast_join", .typ
 // file libgmond.c line 88
 static struct cfg_opt_t udp_send_channel_opts[8l] = { { .name="mcast_join", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4394,7 +4394,7 @@ static struct cfg_opt_t udp_send_channel_opts[8l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="mcast_if", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4404,7 +4404,7 @@ static struct cfg_opt_t udp_send_channel_opts[8l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="host", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4414,7 +4414,7 @@ static struct cfg_opt_t udp_send_channel_opts[8l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="port", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4424,7 +4424,7 @@ static struct cfg_opt_t udp_send_channel_opts[8l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="ttl", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)1, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)1, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4434,7 +4434,7 @@ static struct cfg_opt_t udp_send_channel_opts[8l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="bind", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=(char *)(void *)0,
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4444,7 +4444,7 @@ static struct cfg_opt_t udp_send_channel_opts[8l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name="bind_hostname", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4453,7 +4453,7 @@ static struct cfg_opt_t udp_send_channel_opts[8l] = { { .name="mcast_join", .typ
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4465,7 +4465,7 @@ static struct cfg_opt_t udp_send_channel_opts[8l] = { { .name="mcast_join", .typ
 // file libgmond.c line 181
 static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=cluster_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=cluster_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4474,7 +4474,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="host", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=host_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=host_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4483,7 +4483,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="globals", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=globals_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=globals_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4492,7 +4492,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="udp_send_channel", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=1,
-    .subopts=udp_send_channel_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=udp_send_channel_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4502,7 +4502,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="udp_recv_channel", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=1,
-    .subopts=udp_recv_channel_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=udp_recv_channel_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4512,7 +4512,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="tcp_accept_channel", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=1,
-    .subopts=tcp_accept_channel_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=tcp_accept_channel_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4522,7 +4522,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="collection_group", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=1,
-    .subopts=collection_group_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=collection_group_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4532,7 +4532,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="include", .type=(enum cfg_type_t)6, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=Ganglia_cfg_include,
@@ -4542,7 +4542,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="modules", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=metric_modules_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=metric_modules_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4552,7 +4552,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="sflow", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=sflow_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=sflow_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -4561,7 +4561,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$14)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_14)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -4571,7 +4571,7 @@ static struct cfg_opt_t gmond_opts[11l] = { { .name="cluster", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) } };
 // interactive_socket
 // file gmetad.c line 31
-struct anonymous$2 *interactive_socket;
+struct anonymous_2 *interactive_socket;
 // libgmond_apr_lib_initialized
 // file libgmond.c line 230
 signed int libgmond_apr_lib_initialized = 0;
@@ -4598,7 +4598,7 @@ extern signed int optopt;
 static char *package_name = ((char *)NULL);
 // root
 // file gmetad.c line 28
-struct anonymous$11 root;
+struct anonymous_11 root;
 // rrd_mutex
 // file rrd_helpers.c line 24
 union anonymous rrd_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
@@ -4611,7 +4611,7 @@ union anonymous server_interactive_mutex = { .__data={ .__lock=0, .__count=(unsi
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // server_socket
 // file gmetad.c line 30
-struct anonymous$2 *server_socket;
+struct anonymous_2 *server_socket;
 // server_socket_mutex
 // file gmetad.c line 33
 union anonymous server_socket_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
@@ -4619,7 +4619,7 @@ union anonymous server_socket_mutex = { .__data={ .__lock=0, .__count=(unsigned 
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // sources
 // file gmetad.c line 25
-struct anonymous$8 *sources;
+struct anonymous_8 *sources;
 // stderr
 // file /usr/include/stdio.h line 170
 extern struct _IO_FILE *stderr;
@@ -4635,7 +4635,7 @@ static signed int Ganglia_cfg_include(struct cfg_t *cfg, struct cfg_opt_t *opt, 
   struct stat statbuf;
   struct __dirstream *dir;
   struct dirent *entry;
-  signed int return_value_has_wildcard$7;
+  signed int return_value_has_wildcard_7;
   if(!(argc == 1))
   {
     cfg_error(cfg, "wrong number of arguments to cfg_include()");
@@ -4644,27 +4644,27 @@ static signed int Ganglia_cfg_include(struct cfg_t *cfg, struct cfg_opt_t *opt, 
 
   else
   {
-    signed int return_value_stat$8;
-    return_value_stat$8=stat(fname, &statbuf);
-    if(return_value_stat$8 == 0)
+    signed int return_value_stat_8;
+    return_value_stat_8=stat(fname, &statbuf);
+    if(return_value_stat_8 == 0)
     {
-      signed int return_value_cfg_include$1;
-      return_value_cfg_include$1=cfg_include(cfg, opt, argc, argv);
-      return return_value_cfg_include$1;
+      signed int return_value_cfg_include_1;
+      return_value_cfg_include_1=cfg_include(cfg, opt, argc, argv);
+      return return_value_cfg_include_1;
     }
 
     else
     {
-      return_value_has_wildcard$7=has_wildcard(fname);
-      if(!(return_value_has_wildcard$7 == 0))
+      return_value_has_wildcard_7=has_wildcard(fname);
+      if(!(return_value_has_wildcard_7 == 0))
       {
         signed int ret;
         char *path;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(fname);
-        void *return_value_calloc$3;
-        return_value_calloc$3=calloc(return_value_strlen$2 + (unsigned long int)1, sizeof(char) /*1ul*/ );
-        path = (char *)return_value_calloc$3;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(fname);
+        void *return_value_calloc_3;
+        return_value_calloc_3=calloc(return_value_strlen_2 + (unsigned long int)1, sizeof(char) /*1ul*/ );
+        path = (char *)return_value_calloc_3;
         char *pattern = (char *)(void *)0;
         char *idx;
         idx=strrchr(fname, 47);
@@ -4687,15 +4687,15 @@ static signed int Ganglia_cfg_include(struct cfg_t *cfg, struct cfg_opt_t *opt, 
           pattern = idx + (signed long int)1;
         }
         apr_pool_create_ex(&p, (struct apr_pool_t *)(void *)0, (signed int (*)(signed int))(void *)0, (struct apr_allocator_t *)(void *)0);
-        signed int return_value_apr_temp_dir_get$4;
-        return_value_apr_temp_dir_get$4=apr_temp_dir_get((const char **)&dirname, p);
-        if(!(return_value_apr_temp_dir_get$4 == 0))
+        signed int return_value_apr_temp_dir_get_4;
+        return_value_apr_temp_dir_get_4=apr_temp_dir_get((const char **)&dirname, p);
+        if(!(return_value_apr_temp_dir_get_4 == 0))
           dirname=apr_psprintf(p, "%s", (const void *)"/dev/shm");
 
         dirname=apr_psprintf(p, "%s/%s", dirname, (const void *)tn);
-        signed int return_value_apr_file_mktemp$5;
-        return_value_apr_file_mktemp$5=apr_file_mktemp(&ftemp, dirname, 0x00004 | 0x00001 | 0x00002 | 0x00100, p);
-        if(!(return_value_apr_file_mktemp$5 == 0))
+        signed int return_value_apr_file_mktemp_5;
+        return_value_apr_file_mktemp_5=apr_file_mktemp(&ftemp, dirname, 0x00004 | 0x00001 | 0x00002 | 0x00100, p);
+        if(!(return_value_apr_file_mktemp_5 == 0))
         {
           cfg_error(cfg, "unable to create a temporary file %s", dirname);
           apr_pool_destroy(p);
@@ -4726,9 +4726,9 @@ static signed int Ganglia_cfg_include(struct cfg_t *cfg, struct cfg_opt_t *opt, 
           closedir(dir);
           free((void *)path);
           argv[(signed long int)0] = dirname;
-          signed int return_value_cfg_include$6;
-          return_value_cfg_include$6=cfg_include(cfg, opt, argc, argv);
-          if(!(return_value_cfg_include$6 == 0))
+          signed int return_value_cfg_include_6;
+          return_value_cfg_include_6=cfg_include(cfg, opt, argc, argv);
+          if(!(return_value_cfg_include_6 == 0))
             cfg_error(cfg, "failed to process include file %s", fname);
 
           else
@@ -4765,15 +4765,15 @@ struct Ganglia_gmond_config * Ganglia_gmond_config_create(char *path, signed int
   char *tilde_expanded;
   tilde_expanded=cfg_tilde_expand(path);
   config=cfg_init(gmond_opts, 4);
-  signed int return_value_cfg_parse$1;
-  return_value_cfg_parse$1=cfg_parse(config, tilde_expanded);
-  signed int return_value_cfg_parse_buf$2;
-  if(!(return_value_cfg_parse$1 == -1))
+  signed int return_value_cfg_parse_1;
+  return_value_cfg_parse_1=cfg_parse(config, tilde_expanded);
+  signed int return_value_cfg_parse_buf_2;
+  if(!(return_value_cfg_parse_1 == -1))
   {
-    if(return_value_cfg_parse$1 == 1)
+    if(return_value_cfg_parse_1 == 1)
       goto __CPROVER_DUMP_L4;
 
-    if(return_value_cfg_parse$1 == 0)
+    if(return_value_cfg_parse_1 == 0)
       goto __CPROVER_DUMP_L5;
 
   }
@@ -4784,8 +4784,8 @@ struct Ganglia_gmond_config * Ganglia_gmond_config_create(char *path, signed int
     if(fallback_to_default == 0)
       exit(1);
 
-    return_value_cfg_parse_buf$2=cfg_parse_buf(config, default_gmond_configuration);
-    if(return_value_cfg_parse_buf$2 == 1)
+    return_value_cfg_parse_buf_2=cfg_parse_buf(config, default_gmond_configuration);
+    if(return_value_cfg_parse_buf_2 == 1)
     {
       err_msg("Your default configuration buffer failed to parse. Exiting.\n");
       exit(1);
@@ -4823,9 +4823,9 @@ void Ganglia_metadata_add(struct Ganglia_metric *gmetric, char *name, char *valu
 // file libgmond.c line 443
 signed int Ganglia_metadata_send(struct Ganglia_metric *gmetric, struct Ganglia_udp_send_channels *send_channels)
 {
-  signed int return_value_Ganglia_metadata_send_real$1;
-  return_value_Ganglia_metadata_send_real$1=Ganglia_metadata_send_real(gmetric, send_channels, (char *)(void *)0);
-  return return_value_Ganglia_metadata_send_real$1;
+  signed int return_value_Ganglia_metadata_send_real_1;
+  return_value_Ganglia_metadata_send_real_1=Ganglia_metadata_send_real(gmetric, send_channels, (char *)(void *)0);
+  return return_value_Ganglia_metadata_send_real_1;
 }
 
 // Ganglia_metadata_send_real
@@ -4864,23 +4864,23 @@ signed int Ganglia_metadata_send_real(struct Ganglia_metric *gmetric, struct Gan
   arr=apr_table_elts((const struct apr_table_t *)gmetric->extra);
   elts = (const struct apr_table_entry_t *)arr->elts;
   msg.Ganglia_metadata_msg_u.gfull.metric.metadata.metadata_len = (unsigned int)arr->nelts;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(gm_pool, sizeof(struct Ganglia_extra_data) /*16ul*/  * (unsigned long int)arr->nelts);
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct Ganglia_extra_data) /*16ul*/  * (unsigned long int)arr->nelts);
-  msg.Ganglia_metadata_msg_u.gfull.metric.metadata.metadata_val = (struct Ganglia_extra_data *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(gm_pool, sizeof(struct Ganglia_extra_data) /*16ul*/  * (unsigned long int)arr->nelts);
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct Ganglia_extra_data) /*16ul*/  * (unsigned long int)arr->nelts);
+  msg.Ganglia_metadata_msg_u.gfull.metric.metadata.metadata_val = (struct Ganglia_extra_data *)return_value_memset_2;
   i = 0;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$5;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_5;
   for( ; !(i >= arr->nelts); i = i + 1)
     if(!((elts + (signed long int)i)->key == ((char *)NULL)))
     {
-      signed int return_value_toupper$4;
-      return_value_toupper$4=toupper((signed int)(unsigned char)(elts + (signed long int)i)->key[(signed long int)0]);
-      if(return_value_toupper$4 == (signed int)*spoof)
+      signed int return_value_toupper_4;
+      return_value_toupper_4=toupper((signed int)(unsigned char)(elts + (signed long int)i)->key[(signed long int)0]);
+      if(return_value_toupper_4 == (signed int)*spoof)
       {
-        return_value_strcasecmp$3=strcasecmp("SPOOF_HOST", (elts + (signed long int)i)->key);
-        if(return_value_strcasecmp$3 == 0)
+        return_value_strcasecmp_3=strcasecmp("SPOOF_HOST", (elts + (signed long int)i)->key);
+        if(return_value_strcasecmp_3 == 0)
         {
           msg.Ganglia_metadata_msg_u.gfull.metric_id.host=apr_pstrdup(gm_pool, (elts + (signed long int)i)->val);
           msg.Ganglia_metadata_msg_u.gfull.metric_id.spoof = 1;
@@ -4888,12 +4888,12 @@ signed int Ganglia_metadata_send_real(struct Ganglia_metric *gmetric, struct Gan
 
       }
 
-      signed int return_value_toupper$6;
-      return_value_toupper$6=toupper((signed int)(unsigned char)(elts + (signed long int)i)->key[(signed long int)0]);
-      if(return_value_toupper$6 == (signed int)*spoof)
+      signed int return_value_toupper_6;
+      return_value_toupper_6=toupper((signed int)(unsigned char)(elts + (signed long int)i)->key[(signed long int)0]);
+      if(return_value_toupper_6 == (signed int)*spoof)
       {
-        return_value_strcasecmp$5=strcasecmp("SPOOF_HEARTBEAT", (elts + (signed long int)i)->key);
-        if(return_value_strcasecmp$5 == 0)
+        return_value_strcasecmp_5=strcasecmp("SPOOF_HEARTBEAT", (elts + (signed long int)i)->key);
+        if(return_value_strcasecmp_5 == 0)
         {
           msg.Ganglia_metadata_msg_u.gfull.metric_id.name=apr_pstrdup(gm_pool, "heartbeat");
           msg.Ganglia_metadata_msg_u.gfull.metric.name = msg.Ganglia_metadata_msg_u.gfull.metric_id.name;
@@ -4907,9 +4907,9 @@ signed int Ganglia_metadata_send_real(struct Ganglia_metric *gmetric, struct Gan
     }
 
   xdrmem_create(&x, gmetricmsg, (unsigned int)((1500 - 28) - 8), (enum xdr_op)XDR_ENCODE);
-  signed int return_value_xdr_Ganglia_metadata_msg$7;
-  return_value_xdr_Ganglia_metadata_msg$7=xdr_Ganglia_metadata_msg(&x, &msg);
-  if(return_value_xdr_Ganglia_metadata_msg$7 == 0)
+  signed int return_value_xdr_Ganglia_metadata_msg_7;
+  return_value_xdr_Ganglia_metadata_msg_7=xdr_Ganglia_metadata_msg(&x, &msg);
+  if(return_value_xdr_Ganglia_metadata_msg_7 == 0)
     return 1;
 
   else
@@ -4917,9 +4917,9 @@ signed int Ganglia_metadata_send_real(struct Ganglia_metric *gmetric, struct Gan
     unsigned int return_value;
     return_value=(&x)->x_ops->x_getpostn(&x);
     len = (signed int)return_value;
-    signed int return_value_Ganglia_udp_send_message$8;
-    return_value_Ganglia_udp_send_message$8=Ganglia_udp_send_message(send_channels, gmetricmsg, len);
-    return return_value_Ganglia_udp_send_message$8;
+    signed int return_value_Ganglia_udp_send_message_8;
+    return_value_Ganglia_udp_send_message_8=Ganglia_udp_send_message(send_channels, gmetricmsg, len);
+    return return_value_Ganglia_udp_send_message_8;
   }
 }
 
@@ -4928,20 +4928,20 @@ signed int Ganglia_metadata_send_real(struct Ganglia_metric *gmetric, struct Gan
 struct Ganglia_metric * Ganglia_metric_create(struct Ganglia_pool *parent_pool)
 {
   struct apr_pool_t *pool;
-  struct Ganglia_pool *return_value_Ganglia_pool_create$1;
-  return_value_Ganglia_pool_create$1=Ganglia_pool_create(parent_pool);
-  pool = (struct apr_pool_t *)return_value_Ganglia_pool_create$1;
+  struct Ganglia_pool *return_value_Ganglia_pool_create_1;
+  return_value_Ganglia_pool_create_1=Ganglia_pool_create(parent_pool);
+  pool = (struct apr_pool_t *)return_value_Ganglia_pool_create_1;
   struct Ganglia_metric *gmetric;
   if(pool == ((struct apr_pool_t *)NULL))
     return (struct Ganglia_metric *)(void *)0;
 
   else
   {
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(pool, sizeof(struct Ganglia_metric) /*32ul*/ );
-    void *return_value_memset$3;
-    return_value_memset$3=memset(return_value_apr_palloc$2, 0, sizeof(struct Ganglia_metric) /*32ul*/ );
-    gmetric = (struct Ganglia_metric *)return_value_memset$3;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(pool, sizeof(struct Ganglia_metric) /*32ul*/ );
+    void *return_value_memset_3;
+    return_value_memset_3=memset(return_value_apr_palloc_2, 0, sizeof(struct Ganglia_metric) /*32ul*/ );
+    gmetric = (struct Ganglia_metric *)return_value_memset_3;
     if(gmetric == ((struct Ganglia_metric *)NULL))
     {
       Ganglia_pool_destroy((struct Ganglia_pool *)pool);
@@ -4951,11 +4951,11 @@ struct Ganglia_metric * Ganglia_metric_create(struct Ganglia_pool *parent_pool)
     else
     {
       gmetric->pool = (struct Ganglia_pool *)pool;
-      void *return_value_apr_palloc$4;
-      return_value_apr_palloc$4=apr_palloc(pool, sizeof(struct Ganglia_metadata_message) /*56ul*/ );
-      void *return_value_memset$5;
-      return_value_memset$5=memset(return_value_apr_palloc$4, 0, sizeof(struct Ganglia_metadata_message) /*56ul*/ );
-      gmetric->msg = (struct Ganglia_metadata_message *)return_value_memset$5;
+      void *return_value_apr_palloc_4;
+      return_value_apr_palloc_4=apr_palloc(pool, sizeof(struct Ganglia_metadata_message) /*56ul*/ );
+      void *return_value_memset_5;
+      return_value_memset_5=memset(return_value_apr_palloc_4, 0, sizeof(struct Ganglia_metadata_message) /*56ul*/ );
+      gmetric->msg = (struct Ganglia_metadata_message *)return_value_memset_5;
       if(gmetric->msg == ((struct Ganglia_metadata_message *)NULL))
       {
         Ganglia_pool_destroy((struct Ganglia_pool *)pool);
@@ -4964,9 +4964,9 @@ struct Ganglia_metric * Ganglia_metric_create(struct Ganglia_pool *parent_pool)
 
       else
       {
-        struct apr_table_t *return_value_apr_table_make$6;
-        return_value_apr_table_make$6=apr_table_make(pool, 2);
-        gmetric->extra = (void *)return_value_apr_table_make$6;
+        struct apr_table_t *return_value_apr_table_make_6;
+        return_value_apr_table_make_6=apr_table_make(pool, 2);
+        gmetric->extra = (void *)return_value_apr_table_make_6;
         return gmetric;
       }
     }
@@ -4999,143 +4999,143 @@ signed int Ganglia_metric_send(struct Ganglia_metric *gmetric, struct Ganglia_ud
 signed int Ganglia_metric_set(struct Ganglia_metric *gmetric, char *name, char *value, char *type, char *units, unsigned int slope, unsigned int tmax, unsigned int dmax)
 {
   struct apr_pool_t *gm_pool;
-  _Bool tmp_if_expr$3;
-  char *return_value_strchr$2;
-  _Bool tmp_if_expr$5;
-  char *return_value_strchr$4;
-  _Bool tmp_if_expr$7;
-  char *return_value_strchr$6;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcmp$9;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcmp$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_strcmp$13;
-  _Bool tmp_if_expr$16;
-  signed int return_value_strcmp$15;
-  _Bool tmp_if_expr$18;
-  signed int return_value_strcmp$17;
-  _Bool tmp_if_expr$20;
-  signed int return_value_strcmp$19;
-  _Bool tmp_if_expr$22;
-  signed int return_value_strcmp$21;
-  _Bool tmp_if_expr$24;
-  signed int return_value_strcmp$23;
+  _Bool tmp_if_expr_3;
+  char *return_value_strchr_2;
+  _Bool tmp_if_expr_5;
+  char *return_value_strchr_4;
+  _Bool tmp_if_expr_7;
+  char *return_value_strchr_6;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcmp_9;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcmp_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_strcmp_13;
+  _Bool tmp_if_expr_16;
+  signed int return_value_strcmp_15;
+  _Bool tmp_if_expr_18;
+  signed int return_value_strcmp_17;
+  _Bool tmp_if_expr_20;
+  signed int return_value_strcmp_19;
+  _Bool tmp_if_expr_22;
+  signed int return_value_strcmp_21;
+  _Bool tmp_if_expr_24;
+  signed int return_value_strcmp_23;
   if(name == ((char *)NULL) || type == ((char *)NULL) || units == ((char *)NULL) || value == ((char *)NULL) || gmetric == ((struct Ganglia_metric *)NULL) || slope >= 5u)
     return 1;
 
   else
   {
     gm_pool = (struct apr_pool_t *)gmetric->pool;
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(name, 34);
-    if(!(return_value_strchr$1 == ((char *)NULL)))
-      tmp_if_expr$3 = (_Bool)1;
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(name, 34);
+    if(!(return_value_strchr_1 == ((char *)NULL)))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strchr$2=strchr(value, 34);
-      tmp_if_expr$3 = return_value_strchr$2 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strchr_2=strchr(value, 34);
+      tmp_if_expr_3 = return_value_strchr_2 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strchr$4=strchr(type, 34);
-      tmp_if_expr$5 = return_value_strchr$4 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strchr_4=strchr(type, 34);
+      tmp_if_expr_5 = return_value_strchr_4 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
-      tmp_if_expr$7 = (_Bool)1;
+    if(tmp_if_expr_5)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_strchr$6=strchr(units, 34);
-      tmp_if_expr$7 = return_value_strchr$6 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strchr_6=strchr(units, 34);
+      tmp_if_expr_7 = return_value_strchr_6 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       return 2;
 
     else
     {
-      signed int return_value_strcmp$8;
-      return_value_strcmp$8=strcmp(type, "string");
-      if(return_value_strcmp$8 == 0)
-        tmp_if_expr$10 = (_Bool)1;
+      signed int return_value_strcmp_8;
+      return_value_strcmp_8=strcmp(type, "string");
+      if(return_value_strcmp_8 == 0)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$9=strcmp(type, "int8");
-        tmp_if_expr$10 = !(return_value_strcmp$9 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_9=strcmp(type, "int8");
+        tmp_if_expr_10 = !(return_value_strcmp_9 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
-        tmp_if_expr$12 = (_Bool)1;
+      if(tmp_if_expr_10)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$11=strcmp(type, "uint8");
-        tmp_if_expr$12 = !(return_value_strcmp$11 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_11=strcmp(type, "uint8");
+        tmp_if_expr_12 = !(return_value_strcmp_11 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
-        tmp_if_expr$14 = (_Bool)1;
+      if(tmp_if_expr_12)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$13=strcmp(type, "int16");
-        tmp_if_expr$14 = !(return_value_strcmp$13 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_13=strcmp(type, "int16");
+        tmp_if_expr_14 = !(return_value_strcmp_13 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$14)
-        tmp_if_expr$16 = (_Bool)1;
+      if(tmp_if_expr_14)
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$15=strcmp(type, "uint16");
-        tmp_if_expr$16 = !(return_value_strcmp$15 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_15=strcmp(type, "uint16");
+        tmp_if_expr_16 = !(return_value_strcmp_15 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$16)
-        tmp_if_expr$18 = (_Bool)1;
+      if(tmp_if_expr_16)
+        tmp_if_expr_18 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$17=strcmp(type, "int32");
-        tmp_if_expr$18 = !(return_value_strcmp$17 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_17=strcmp(type, "int32");
+        tmp_if_expr_18 = !(return_value_strcmp_17 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$18)
-        tmp_if_expr$20 = (_Bool)1;
+      if(tmp_if_expr_18)
+        tmp_if_expr_20 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$19=strcmp(type, "uint32");
-        tmp_if_expr$20 = !(return_value_strcmp$19 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_19=strcmp(type, "uint32");
+        tmp_if_expr_20 = !(return_value_strcmp_19 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$20)
-        tmp_if_expr$22 = (_Bool)1;
+      if(tmp_if_expr_20)
+        tmp_if_expr_22 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$21=strcmp(type, "float");
-        tmp_if_expr$22 = !(return_value_strcmp$21 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_21=strcmp(type, "float");
+        tmp_if_expr_22 = !(return_value_strcmp_21 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$22)
-        tmp_if_expr$24 = (_Bool)1;
+      if(tmp_if_expr_22)
+        tmp_if_expr_24 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$23=strcmp(type, "double");
-        tmp_if_expr$24 = !(return_value_strcmp$23 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_23=strcmp(type, "double");
+        tmp_if_expr_24 = !(return_value_strcmp_23 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$24)
+      if(!tmp_if_expr_24)
         return 3;
 
       else
       {
-        signed int return_value_strcmp$26;
-        return_value_strcmp$26=strcmp(type, "string");
-        if(!(return_value_strcmp$26 == 0))
+        signed int return_value_strcmp_26;
+        return_value_strcmp_26=strcmp(type, "string");
+        if(!(return_value_strcmp_26 == 0))
         {
-          signed int return_value_check_value$25;
-          return_value_check_value$25=check_value(type, value);
-          if(!(return_value_check_value$25 == 0))
+          signed int return_value_check_value_25;
+          return_value_check_value_25=check_value(type, value);
+          if(!(return_value_check_value_25 == 0))
             return 4;
 
         }
@@ -5193,9 +5193,9 @@ struct Ganglia_udp_send_channels * Ganglia_udp_send_channels_create(struct Gangl
   struct cfg_t *cfg = (struct cfg_t *)config;
   signed int i;
   signed int num_udp_send_channels;
-  unsigned int return_value_cfg_size$1;
-  return_value_cfg_size$1=cfg_size(cfg, "udp_send_channel");
-  num_udp_send_channels = (signed int)return_value_cfg_size$1;
+  unsigned int return_value_cfg_size_1;
+  return_value_cfg_size_1=cfg_size(cfg, "udp_send_channel");
+  num_udp_send_channels = (signed int)return_value_cfg_size_1;
   struct apr_pool_t *context = (struct apr_pool_t *)p;
   if(!(num_udp_send_channels >= 1))
     return (struct Ganglia_udp_send_channels *)send_channels;
@@ -5213,23 +5213,23 @@ struct Ganglia_udp_send_channels * Ganglia_udp_send_channels_create(struct Gangl
       signed int port;
       signed int ttl;
       signed int bind_hostname;
-      struct apr_socket_t *Ganglia_udp_send_channels_create$$1$$1$$1$$socket = (struct apr_socket_t *)(void *)0;
+      struct apr_socket_t *Ganglia_udp_send_channels_create__1__1__1__socket = (struct apr_socket_t *)(void *)0;
       struct apr_pool_t *pool = (struct apr_pool_t *)(void *)0;
       char *bind_address;
       udp_send_channel=cfg_getnsec(cfg, "udp_send_channel", (unsigned int)i);
       host=cfg_getstr(udp_send_channel, "host");
       mcast_join=cfg_getstr(udp_send_channel, "mcast_join");
       mcast_if=cfg_getstr(udp_send_channel, "mcast_if");
-      signed long int return_value_cfg_getint$2;
-      return_value_cfg_getint$2=cfg_getint(udp_send_channel, "port");
-      port = (signed int)return_value_cfg_getint$2;
-      signed long int return_value_cfg_getint$3;
-      return_value_cfg_getint$3=cfg_getint(udp_send_channel, "ttl");
-      ttl = (signed int)return_value_cfg_getint$3;
+      signed long int return_value_cfg_getint_2;
+      return_value_cfg_getint_2=cfg_getint(udp_send_channel, "port");
+      port = (signed int)return_value_cfg_getint_2;
+      signed long int return_value_cfg_getint_3;
+      return_value_cfg_getint_3=cfg_getint(udp_send_channel, "ttl");
+      ttl = (signed int)return_value_cfg_getint_3;
       bind_address=cfg_getstr(udp_send_channel, "bind");
-      enum anonymous$14 return_value_cfg_getbool$4;
-      return_value_cfg_getbool$4=cfg_getbool(udp_send_channel, "bind_hostname");
-      bind_hostname = (signed int)return_value_cfg_getbool$4;
+      enum anonymous_14 return_value_cfg_getbool_4;
+      return_value_cfg_getbool_4=cfg_getbool(udp_send_channel, "bind_hostname");
+      bind_hostname = (signed int)return_value_cfg_getbool_4;
       debug_msg("udp_send_channel mcast_join=%s mcast_if=%s host=%s port=%d\n", mcast_join != ((char *)NULL) ? mcast_join : "NULL", mcast_if != ((char *)NULL) ? mcast_if : "NULL", host != ((char *)NULL) ? host : "NULL", port);
       if(bind_hostname == cfg_true && !(bind_address == ((char *)NULL)))
       {
@@ -5240,8 +5240,8 @@ struct Ganglia_udp_send_channels * Ganglia_udp_send_channels_create(struct Gangl
       apr_pool_create_ex(&pool, context, (signed int (*)(signed int))(void *)0, (struct apr_allocator_t *)(void *)0);
       if(!(mcast_join == ((char *)NULL)))
       {
-        Ganglia_udp_send_channels_create$$1$$1$$1$$socket=create_mcast_client(pool, mcast_join, (unsigned short int)port, ttl, mcast_if, bind_address, bind_hostname);
-        if(Ganglia_udp_send_channels_create$$1$$1$$1$$socket == ((struct apr_socket_t *)NULL))
+        Ganglia_udp_send_channels_create__1__1__1__socket=create_mcast_client(pool, mcast_join, (unsigned short int)port, ttl, mcast_if, bind_address, bind_hostname);
+        if(Ganglia_udp_send_channels_create__1__1__1__socket == ((struct apr_socket_t *)NULL))
         {
           err_msg("Unable to join multicast channel %s:%d. Exiting\n", mcast_join, port);
           exit(1);
@@ -5251,17 +5251,17 @@ struct Ganglia_udp_send_channels * Ganglia_udp_send_channels_create(struct Gangl
 
       else
       {
-        Ganglia_udp_send_channels_create$$1$$1$$1$$socket=create_udp_client(pool, host, (unsigned short int)port, mcast_if, bind_address, bind_hostname);
-        if(Ganglia_udp_send_channels_create$$1$$1$$1$$socket == ((struct apr_socket_t *)NULL))
+        Ganglia_udp_send_channels_create__1__1__1__socket=create_udp_client(pool, host, (unsigned short int)port, mcast_if, bind_address, bind_hostname);
+        if(Ganglia_udp_send_channels_create__1__1__1__socket == ((struct apr_socket_t *)NULL))
         {
           err_msg("Unable to create UDP client for %s:%d. Exiting.\n", host != ((char *)NULL) ? host : "NULL", port);
           exit(1);
         }
 
       }
-      void *return_value_apr_array_push$5;
-      return_value_apr_array_push$5=apr_array_push(send_channels);
-      *((struct apr_socket_t **)return_value_apr_array_push$5) = Ganglia_udp_send_channels_create$$1$$1$$1$$socket;
+      void *return_value_apr_array_push_5;
+      return_value_apr_array_push_5=apr_array_push(send_channels);
+      *((struct apr_socket_t **)return_value_apr_array_push_5) = Ganglia_udp_send_channels_create__1__1__1__socket;
     }
     return (struct Ganglia_udp_send_channels *)send_channels;
   }
@@ -5284,9 +5284,9 @@ signed int Ganglia_udp_send_message(struct Ganglia_udp_send_channels *channels, 
     i = 0;
     for( ; !(i >= chnls->nelts); i = i + 1)
     {
-      struct apr_socket_t *Ganglia_udp_send_message$$1$$1$$1$$socket = ((struct apr_socket_t **)chnls->elts)[(signed long int)i];
+      struct apr_socket_t *Ganglia_udp_send_message__1__1__1__socket = ((struct apr_socket_t **)chnls->elts)[(signed long int)i];
       size = (unsigned long int)len;
-      status=apr_socket_send(Ganglia_udp_send_message$$1$$1$$1$$socket, buf, &size);
+      status=apr_socket_send(Ganglia_udp_send_message__1__1__1__socket, buf, &size);
       if(!(status == 0))
         num_errors = num_errors + 1;
 
@@ -5299,9 +5299,9 @@ signed int Ganglia_udp_send_message(struct Ganglia_udp_send_channels *channels, 
 // file libgmond.c line 584
 signed int Ganglia_value_send(struct Ganglia_metric *gmetric, struct Ganglia_udp_send_channels *send_channels)
 {
-  signed int return_value_Ganglia_value_send_real$1;
-  return_value_Ganglia_value_send_real$1=Ganglia_value_send_real(gmetric, send_channels, (char *)(void *)0);
-  return return_value_Ganglia_value_send_real$1;
+  signed int return_value_Ganglia_value_send_real_1;
+  return_value_Ganglia_value_send_real_1=Ganglia_value_send_real(gmetric, send_channels, (char *)(void *)0);
+  return return_value_Ganglia_value_send_real_1;
 }
 
 // Ganglia_value_send_real
@@ -5338,17 +5338,17 @@ signed int Ganglia_value_send_real(struct Ganglia_metric *gmetric, struct Gangli
   arr=apr_table_elts((const struct apr_table_t *)gmetric->extra);
   elts = (const struct apr_table_entry_t *)arr->elts;
   i = 0;
-  signed int return_value_strcasecmp$1;
-  signed int return_value_strcasecmp$3;
+  signed int return_value_strcasecmp_1;
+  signed int return_value_strcasecmp_3;
   for( ; !(i >= arr->nelts); i = i + 1)
     if(!((elts + (signed long int)i)->key == ((char *)NULL)))
     {
-      signed int return_value_toupper$2;
-      return_value_toupper$2=toupper((signed int)(unsigned char)(elts + (signed long int)i)->key[(signed long int)0]);
-      if(return_value_toupper$2 == (signed int)*spoof)
+      signed int return_value_toupper_2;
+      return_value_toupper_2=toupper((signed int)(unsigned char)(elts + (signed long int)i)->key[(signed long int)0]);
+      if(return_value_toupper_2 == (signed int)*spoof)
       {
-        return_value_strcasecmp$1=strcasecmp("SPOOF_HOST", (elts + (signed long int)i)->key);
-        if(return_value_strcasecmp$1 == 0)
+        return_value_strcasecmp_1=strcasecmp("SPOOF_HOST", (elts + (signed long int)i)->key);
+        if(return_value_strcasecmp_1 == 0)
         {
           msg.Ganglia_value_msg_u.gstr.metric_id.host=apr_pstrdup(gm_pool, (elts + (signed long int)i)->val);
           msg.Ganglia_value_msg_u.gstr.metric_id.spoof = 1;
@@ -5356,12 +5356,12 @@ signed int Ganglia_value_send_real(struct Ganglia_metric *gmetric, struct Gangli
 
       }
 
-      signed int return_value_toupper$4;
-      return_value_toupper$4=toupper((signed int)(unsigned char)(elts + (signed long int)i)->key[(signed long int)0]);
-      if(return_value_toupper$4 == (signed int)*spoof)
+      signed int return_value_toupper_4;
+      return_value_toupper_4=toupper((signed int)(unsigned char)(elts + (signed long int)i)->key[(signed long int)0]);
+      if(return_value_toupper_4 == (signed int)*spoof)
       {
-        return_value_strcasecmp$3=strcasecmp("SPOOF_HEARTBEAT", (elts + (signed long int)i)->key);
-        if(return_value_strcasecmp$3 == 0)
+        return_value_strcasecmp_3=strcasecmp("SPOOF_HEARTBEAT", (elts + (signed long int)i)->key);
+        if(return_value_strcasecmp_3 == 0)
         {
           msg.Ganglia_value_msg_u.gstr.metric_id.name=apr_pstrdup(gm_pool, "heartbeat");
           msg.Ganglia_value_msg_u.gstr.metric_id.spoof = 1;
@@ -5372,9 +5372,9 @@ signed int Ganglia_value_send_real(struct Ganglia_metric *gmetric, struct Gangli
     }
 
   xdrmem_create(&x, gmetricmsg, (unsigned int)((1500 - 28) - 8), (enum xdr_op)XDR_ENCODE);
-  signed int return_value_xdr_Ganglia_value_msg$5;
-  return_value_xdr_Ganglia_value_msg$5=xdr_Ganglia_value_msg(&x, &msg);
-  if(return_value_xdr_Ganglia_value_msg$5 == 0)
+  signed int return_value_xdr_Ganglia_value_msg_5;
+  return_value_xdr_Ganglia_value_msg_5=xdr_Ganglia_value_msg(&x, &msg);
+  if(return_value_xdr_Ganglia_value_msg_5 == 0)
     return 1;
 
   else
@@ -5382,9 +5382,9 @@ signed int Ganglia_value_send_real(struct Ganglia_metric *gmetric, struct Gangli
     unsigned int return_value;
     return_value=(&x)->x_ops->x_getpostn(&x);
     len = (signed int)return_value;
-    signed int return_value_Ganglia_udp_send_message$6;
-    return_value_Ganglia_udp_send_message$6=Ganglia_udp_send_message(send_channels, gmetricmsg, len);
-    return return_value_Ganglia_udp_send_message$6;
+    signed int return_value_Ganglia_udp_send_message_6;
+    return_value_Ganglia_udp_send_message_6=Ganglia_udp_send_message(send_channels, gmetricmsg, len);
+    return return_value_Ganglia_udp_send_message_6;
   }
 }
 
@@ -5397,21 +5397,21 @@ static signed int RRD_create(char *rrd, signed int summary, unsigned int step, u
   signed int argc = 0;
   signed int heartbeat;
   char s[16l];
-  char RRD_create$$1$$start[64l];
+  char RRD_create__1__start[64l];
   char sum[64l];
   char num[64l];
   signed int i;
   heartbeat = (signed int)((unsigned int)8 * step);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$9;
-  signed int return_value_rrd_test_error$11;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
+  signed int return_value_rrd_test_error_11;
   switch((signed int)slope)
   {
     case GANGLIA_SLOPE_POSITIVE:
@@ -5437,56 +5437,56 @@ static signed int RRD_create(char *rrd, signed int summary, unsigned int step, u
 
     __CPROVER_DUMP_L4:
       ;
-      tmp_post$1 = argc;
+      tmp_post_1 = argc;
       argc = argc + 1;
-      argv[(signed long int)tmp_post$1] = "dummy";
-      tmp_post$2 = argc;
+      argv[(signed long int)tmp_post_1] = "dummy";
+      tmp_post_2 = argc;
       argc = argc + 1;
-      argv[(signed long int)tmp_post$2] = rrd;
-      tmp_post$3 = argc;
+      argv[(signed long int)tmp_post_2] = rrd;
+      tmp_post_3 = argc;
       argc = argc + 1;
-      argv[(signed long int)tmp_post$3] = "--step";
+      argv[(signed long int)tmp_post_3] = "--step";
       sprintf(s, "%u", step);
-      tmp_post$4 = argc;
+      tmp_post_4 = argc;
       argc = argc + 1;
-      argv[(signed long int)tmp_post$4] = s;
-      tmp_post$5 = argc;
+      argv[(signed long int)tmp_post_4] = s;
+      tmp_post_5 = argc;
       argc = argc + 1;
-      argv[(signed long int)tmp_post$5] = "--start";
-      sprintf(RRD_create$$1$$start, "%u", process_time - (unsigned int)1);
-      tmp_post$6 = argc;
+      argv[(signed long int)tmp_post_5] = "--start";
+      sprintf(RRD_create__1__start, "%u", process_time - (unsigned int)1);
+      tmp_post_6 = argc;
       argc = argc + 1;
-      argv[(signed long int)tmp_post$6] = RRD_create$$1$$start;
+      argv[(signed long int)tmp_post_6] = RRD_create__1__start;
       sprintf(sum, "DS:sum:%s:%d:U:U", data_source_type, heartbeat);
-      tmp_post$7 = argc;
+      tmp_post_7 = argc;
       argc = argc + 1;
-      argv[(signed long int)tmp_post$7] = sum;
+      argv[(signed long int)tmp_post_7] = sum;
       if(!(summary == 0))
       {
         sprintf(num, "DS:num:%s:%d:U:U", data_source_type, heartbeat);
-        tmp_post$8 = argc;
+        tmp_post_8 = argc;
         argc = argc + 1;
-        argv[(signed long int)tmp_post$8] = num;
+        argv[(signed long int)tmp_post_8] = num;
       }
 
       i = 0;
       for( ; !(i >= gmetad_config.num_RRAs); i = i + 1)
       {
-        tmp_post$9 = argc;
+        tmp_post_9 = argc;
         argc = argc + 1;
-        argv[(signed long int)tmp_post$9] = gmetad_config.RRAs[(signed long int)i];
+        argv[(signed long int)tmp_post_9] = gmetad_config.RRAs[(signed long int)i];
       }
       pthread_mutex_lock(&rrd_mutex);
       optind = 0;
       opterr = 0;
       rrd_clear_error();
       rrd_create(argc, argv);
-      return_value_rrd_test_error$11=rrd_test_error();
-      if(!(return_value_rrd_test_error$11 == 0))
+      return_value_rrd_test_error_11=rrd_test_error();
+      if(!(return_value_rrd_test_error_11 == 0))
       {
-        char *return_value_rrd_get_error$10;
-        return_value_rrd_get_error$10=rrd_get_error();
-        err_msg("RRD_create: %s", return_value_rrd_get_error$10);
+        char *return_value_rrd_get_error_10;
+        return_value_rrd_get_error_10=rrd_get_error();
+        err_msg("RRD_create: %s", return_value_rrd_get_error_10);
         pthread_mutex_unlock(&rrd_mutex);
         return 1;
       }
@@ -5518,13 +5518,13 @@ static signed int RRD_update(char *rrd, const char *sum, const char *num, unsign
   opterr = 0;
   rrd_clear_error();
   rrd_update(argc, argv);
-  signed int return_value_rrd_test_error$2;
-  return_value_rrd_test_error$2=rrd_test_error();
-  if(!(return_value_rrd_test_error$2 == 0))
+  signed int return_value_rrd_test_error_2;
+  return_value_rrd_test_error_2=rrd_test_error();
+  if(!(return_value_rrd_test_error_2 == 0))
   {
-    char *return_value_rrd_get_error$1;
-    return_value_rrd_get_error$1=rrd_get_error();
-    err_msg("RRD_update (%s): %s", rrd, return_value_rrd_get_error$1);
+    char *return_value_rrd_get_error_1;
+    return_value_rrd_get_error_1=rrd_get_error();
+    err_msg("RRD_update (%s): %s", rrd, return_value_rrd_get_error_1);
     pthread_mutex_unlock(&rrd_mutex);
     return 0;
   }
@@ -5538,11 +5538,11 @@ static signed int RRD_update(char *rrd, const char *sum, const char *num, unsign
 signed int addstring(char *strings, signed int *edge, const char *s)
 {
   signed int e = *edge;
-  signed int addstring$$1$$end;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  addstring$$1$$end = (signed int)((unsigned long int)e + return_value_strlen$1 + (unsigned long int)1);
-  if(e >= 1573 || addstring$$1$$end >= 1573)
+  signed int addstring__1__end;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  addstring__1__end = (signed int)((unsigned long int)e + return_value_strlen_1 + (unsigned long int)1);
+  if(e >= 1573 || addstring__1__end >= 1573)
   {
     err_msg("Field is too big!!");
     return -1;
@@ -5551,17 +5551,17 @@ signed int addstring(char *strings, signed int *edge, const char *s)
   else
   {
     strcpy(strings + (signed long int)e, s);
-    *edge = addstring$$1$$end;
+    *edge = addstring__1__end;
     return e;
   }
 }
 
 // applicable
 // file server.c line 289
-signed int applicable(enum anonymous$22 filter, struct Generic_type *node)
+signed int applicable(enum anonymous_22 filter, struct Generic_type *node)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   switch((signed int)filter)
   {
     case NO_FILTER:
@@ -5569,16 +5569,16 @@ signed int applicable(enum anonymous$22 filter, struct Generic_type *node)
     case SUMMARY:
     {
       if((signed int)node->id == ROOT_NODE)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)node->id == CLUSTER_NODE ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_1 = (signed int)node->id == CLUSTER_NODE ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)node->id == GRID_NODE ? (_Bool)1 : (_Bool)0;
-      return (signed int)tmp_if_expr$2;
+        tmp_if_expr_2 = (signed int)node->id == GRID_NODE ? (_Bool)1 : (_Bool)0;
+      return (signed int)tmp_if_expr_2;
     }
     default:
       return 0;
@@ -5587,16 +5587,16 @@ signed int applicable(enum anonymous$22 filter, struct Generic_type *node)
 
 // applyfilter
 // file server.c line 309
-signed int applyfilter(struct anonymous$16 *client, struct Generic_type *node)
+signed int applyfilter(struct anonymous_16 *client, struct Generic_type *node)
 {
-  enum anonymous$22 f = client->filter;
+  enum anonymous_22 f = client->filter;
   if((signed int)node->id == GRID_NODE)
-    f = (enum anonymous$22)SUMMARY;
+    f = (enum anonymous_22)SUMMARY;
 
-  signed int return_value_applicable$1;
-  return_value_applicable$1=applicable(f, node);
-  signed int return_value_source_summary$2;
-  if(return_value_applicable$1 == 0)
+  signed int return_value_applicable_1;
+  return_value_applicable_1=applicable(f, node);
+  signed int return_value_source_summary_2;
+  if(return_value_applicable_1 == 0)
     return 1;
 
   else
@@ -5606,8 +5606,8 @@ signed int applyfilter(struct anonymous$16 *client, struct Generic_type *node)
         return 0;
       case SUMMARY:
       {
-        return_value_source_summary$2=source_summary((struct anonymous$11 *)node, client);
-        return return_value_source_summary$2;
+        return_value_source_summary_2=source_summary((struct anonymous_11 *)node, client);
+        return return_value_source_summary_2;
       }
       default:
         return 0;
@@ -5618,17 +5618,17 @@ signed int applyfilter(struct anonymous$16 *client, struct Generic_type *node)
 // file apr_net.c line 46
 signed int apr_sockaddr_ip_buffer_get(char *addr, signed int len, struct apr_sockaddr_t *sockaddr)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(addr == ((char *)NULL) || sockaddr == ((struct apr_sockaddr_t *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = len < sockaddr->addr_str_len ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_statement_expression$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_htonl$5;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = len < sockaddr->addr_str_len ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_statement_expression_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_htonl_5;
+  if(tmp_if_expr_1)
     return 22;
 
   else
@@ -5638,24 +5638,24 @@ signed int apr_sockaddr_ip_buffer_get(char *addr, signed int len, struct apr_soc
     {
       struct in6_addr *__a = (struct in6_addr *)sockaddr->ipaddr_ptr;
       if(__a->__in6_u.__u6_addr32[0l] == 0u)
-        tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
-        return_value_htonl$5=htonl((unsigned int)0xffff);
-        tmp_if_expr$6 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$5 ? (_Bool)1 : (_Bool)0;
+        return_value_htonl_5=htonl((unsigned int)0xffff);
+        tmp_if_expr_6 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_5 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      tmp_statement_expression$3 = tmp_if_expr$6;
-      if(tmp_statement_expression$3)
+        tmp_if_expr_6 = (_Bool)0;
+      tmp_statement_expression_3 = tmp_if_expr_6;
+      if(tmp_statement_expression_3)
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(addr + (signed long int)7);
-        memmove((void *)addr, (const void *)(addr + (signed long int)7), return_value_strlen$2 + (unsigned long int)1);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(addr + (signed long int)7);
+        memmove((void *)addr, (const void *)(addr + (signed long int)7), return_value_strlen_2 + (unsigned long int)1);
       }
 
     }
@@ -5666,7 +5666,7 @@ signed int apr_sockaddr_ip_buffer_get(char *addr, signed int len, struct apr_soc
 
 // authority_mode
 // file process_xml.c line 60
-static signed int authority_mode(struct anonymous$35 *xmldata)
+static signed int authority_mode(struct anonymous_35 *xmldata)
 {
   return (signed int)(xmldata->grid_depth == 0);
 }
@@ -5681,9 +5681,9 @@ void become_a_nobody(const char *username)
   if(pw == ((struct passwd *)NULL))
     err_quit("user '%s' does not exist\n\n", username);
 
-  unsigned int return_value_getuid$1;
-  return_value_getuid$1=getuid();
-  rval = (signed int)return_value_getuid$1;
+  unsigned int return_value_getuid_1;
+  return_value_getuid_1=getuid();
+  rval = (signed int)return_value_getuid_1;
   if(!((unsigned int)rval == pw->pw_uid))
   {
     if(!(rval == 0))
@@ -5720,7 +5720,7 @@ void build_default_gmond_configuration(struct Ganglia_pool *p)
 static const char * cb_RRAs(struct command_t *cmd, void *ctx)
 {
   signed int i;
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   c->num_RRAs = cmd->arg_count;
   i = 0;
   for( ; !(i >= c->num_RRAs); i = i + 1)
@@ -5732,7 +5732,7 @@ static const char * cb_RRAs(struct command_t *cmd, void *ctx)
 // file conf.c line 33
 static const char * cb_all_trusted(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("All hosts are trusted!");
   c->all_trusted = 1;
   return (const char *)(void *)0;
@@ -5745,9 +5745,9 @@ static const char * cb_authority(struct command_t *cmd, void *ctx)
   debug_msg("Grid authority %s", cmd->data.str);
   root.authority_ptr = (signed short int)0;
   strcpy(root.strings, cmd->data.str);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(root.strings);
-  root.stringslen = root.stringslen + (signed short int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(root.strings);
+  root.stringslen = root.stringslen + (signed short int)(return_value_strlen_1 + (unsigned long int)1);
   return (const char *)(void *)0;
 }
 
@@ -5755,7 +5755,7 @@ static const char * cb_authority(struct command_t *cmd, void *ctx)
 // file conf.c line 265
 static const char * cb_carbon_port(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting carbon port to %ld", cmd->data.value);
   c->carbon_port = (signed int)cmd->data.value;
   return (const char *)(void *)0;
@@ -5765,7 +5765,7 @@ static const char * cb_carbon_port(struct command_t *cmd, void *ctx)
 // file conf.c line 273
 static const char * cb_carbon_protocol(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting carbon protocol to %s", cmd->data.str);
   c->carbon_protocol=strdup(cmd->data.str);
   return (const char *)(void *)0;
@@ -5775,7 +5775,7 @@ static const char * cb_carbon_protocol(struct command_t *cmd, void *ctx)
 // file conf.c line 257
 static const char * cb_carbon_server(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Enabling Graphite proxy to %s", cmd->data.str);
   c->carbon_server=strdup(cmd->data.str);
   return (const char *)(void *)0;
@@ -5785,7 +5785,7 @@ static const char * cb_carbon_server(struct command_t *cmd, void *ctx)
 // file conf.c line 281
 static const char * cb_carbon_timeout(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting carbon timeout to %ld", cmd->data.value);
   c->carbon_timeout = (signed int)cmd->data.value;
   return (const char *)(void *)0;
@@ -5795,7 +5795,7 @@ static const char * cb_carbon_timeout(struct command_t *cmd, void *ctx)
 // file conf.c line 250
 static const char * cb_case_sensitive_hostnames(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   c->case_sensitive_hostnames = (signed int)cmd->data.value;
   return (const char *)(void *)0;
 }
@@ -5805,10 +5805,10 @@ static const char * cb_case_sensitive_hostnames(struct command_t *cmd, void *ctx
 static const char * cb_data_source(struct command_t *cmd, void *ctx)
 {
   unsigned int i;
-  struct anonymous$6 *dslist;
-  struct anonymous$7 key;
-  struct anonymous$7 val;
-  struct anonymous$7 *find;
+  struct anonymous_6 *dslist;
+  struct anonymous_7 key;
+  struct anonymous_7 val;
+  struct anonymous_7 *find;
   signed int port;
   signed int rv = 0;
   unsigned long int step;
@@ -5817,25 +5817,25 @@ static const char * cb_data_source(struct command_t *cmd, void *ctx)
   char *str;
   char *endptr;
   struct sockaddr_in sa;
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   source_index = source_index + 1u;
   debug_msg("Datasource = [%s]", cmd->data.list[(signed long int)0]);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$6) /*32ul*/ );
-  dslist = (struct anonymous$6 *)return_value_malloc$1;
-  if(dslist == ((struct anonymous$6 *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_6) /*32ul*/ );
+  dslist = (struct anonymous_6 *)return_value_malloc_1;
+  if(dslist == ((struct anonymous_6 *)NULL))
     err_quit("Unable to malloc data source list");
 
   dslist->name=strdup(cmd->data.list[(signed long int)0]);
   i = (unsigned int)1;
   step=strtoul(cmd->data.list[(signed long int)i], &endptr, 10);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(step == 0ul))
-    tmp_if_expr$2 = (signed int)*endptr == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (signed int)*endptr == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
     dslist->step = (unsigned int)step;
     i = i + 1u;
@@ -5845,10 +5845,10 @@ static const char * cb_data_source(struct command_t *cmd, void *ctx)
     dslist->step = (unsigned int)15;
   debug_msg("Polling interval for %s is %u sec.", dslist->name, dslist->step);
   c->shortest_step = (signed int)dslist->step;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)((unsigned int)cmd->arg_count - i) * sizeof(struct anonymous$4 *) /*8ul*/ );
-  dslist->sources = (struct anonymous$4 **)return_value_malloc$3;
-  if(dslist->sources == ((struct anonymous$4 **)NULL))
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)((unsigned int)cmd->arg_count - i) * sizeof(struct anonymous_4 *) /*8ul*/ );
+  dslist->sources = (struct anonymous_4 **)return_value_malloc_3;
+  if(dslist->sources == ((struct anonymous_4 **)NULL))
     err_quit("Unable to malloc sources array");
 
   dslist->num_sources = (unsigned int)0;
@@ -5871,15 +5871,15 @@ static const char * cb_data_source(struct command_t *cmd, void *ctx)
 
     else
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)128);
-      str = (char *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)128);
+      str = (char *)return_value_malloc_4;
       my_inet_ntop(2, (void *)&sa.sin_addr, str, (unsigned long int)128);
       debug_msg("Trying to connect to %s:%d for [%s]", str, port, dslist->name);
-      struct anonymous$4 *return_value_g_inetaddr_new$5;
-      return_value_g_inetaddr_new$5=g_inetaddr_new(str, port);
-      dslist->sources[(signed long int)dslist->num_sources] = (struct anonymous$4 *)return_value_g_inetaddr_new$5;
-      if(dslist->sources[(signed long int)dslist->num_sources] == ((struct anonymous$4 *)NULL))
+      struct anonymous_4 *return_value_g_inetaddr_new_5;
+      return_value_g_inetaddr_new_5=g_inetaddr_new(str, port);
+      dslist->sources[(signed long int)dslist->num_sources] = (struct anonymous_4 *)return_value_g_inetaddr_new_5;
+      if(dslist->sources[(signed long int)dslist->num_sources] == ((struct anonymous_4 *)NULL))
         err_quit("Unable to create inetaddr [%s:%d] and save it to [%s]", str, port, dslist->name);
 
       else
@@ -5888,13 +5888,13 @@ static const char * cb_data_source(struct command_t *cmd, void *ctx)
     }
   }
   key.data = (void *)cmd->data.list[(signed long int)0];
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen((const char *)key.data);
-  key.size = (unsigned int)(return_value_strlen$6 + (unsigned long int)1);
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen((const char *)key.data);
+  key.size = (unsigned int)(return_value_strlen_6 + (unsigned long int)1);
   val.data = (void *)&dslist;
-  val.size = (unsigned int)sizeof(struct anonymous$6 *) /*8ul*/ ;
+  val.size = (unsigned int)sizeof(struct anonymous_6 *) /*8ul*/ ;
   find=hash_insert(&key, &val, sources);
-  if(find == ((struct anonymous$7 *)NULL))
+  if(find == ((struct anonymous_7 *)NULL))
     err_quit("Unable to insert list pointer into source hash\n");
 
   debug_msg("Data inserted for [%s] into sources hash", (const char *)key.data);
@@ -5905,7 +5905,7 @@ static const char * cb_data_source(struct command_t *cmd, void *ctx)
 // file conf.c line 169
 static const char * cb_debug_level(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   c->debug_level = (signed int)cmd->data.value;
   debug_msg("Setting the debug level to %ld", cmd->data.value);
   return (const char *)(void *)0;
@@ -5915,7 +5915,7 @@ static const char * cb_debug_level(struct command_t *cmd, void *ctx)
 // file conf.c line 305
 static const char * cb_graphite_path(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting Graphite path to %s", cmd->data.str);
   c->graphite_path=strdup(cmd->data.str);
   return (const char *)(void *)0;
@@ -5925,7 +5925,7 @@ static const char * cb_graphite_path(struct command_t *cmd, void *ctx)
 // file conf.c line 297
 static const char * cb_graphite_prefix(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Enabling Graphite proxy to %s", cmd->data.str);
   c->graphite_prefix=strdup(cmd->data.str);
   return (const char *)(void *)0;
@@ -5935,7 +5935,7 @@ static const char * cb_graphite_prefix(struct command_t *cmd, void *ctx)
 // file conf.c line 15
 static const char * cb_gridname(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Grid name %s", cmd->data.str);
   c->gridname=strdup(cmd->data.str);
   return (const char *)(void *)0;
@@ -5945,7 +5945,7 @@ static const char * cb_gridname(struct command_t *cmd, void *ctx)
 // file conf.c line 185
 static const char * cb_interactive_port(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting interactive port to %ld", cmd->data.value);
   c->interactive_port = (signed int)cmd->data.value;
   return (const char *)(void *)0;
@@ -5955,7 +5955,7 @@ static const char * cb_interactive_port(struct command_t *cmd, void *ctx)
 // file conf.c line 289
 static const char * cb_memcached_parameters(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Enabling memcached parameters to %s", cmd->data.str);
   c->memcached_parameters=strdup(cmd->data.str);
   return (const char *)(void *)0;
@@ -5965,7 +5965,7 @@ static const char * cb_memcached_parameters(struct command_t *cmd, void *ctx)
 // file conf.c line 209
 static const char * cb_rrd_rootdir(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting the RRD Rootdir to %s", cmd->data.str);
   c->rrd_rootdir=strdup(cmd->data.str);
   return (const char *)(void *)0;
@@ -5975,11 +5975,11 @@ static const char * cb_rrd_rootdir(struct command_t *cmd, void *ctx)
 // file conf.c line 232
 static const char * cb_scalable(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting scalable = %s", cmd->data.str);
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(cmd->data.str, "off");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(cmd->data.str, "off");
+  if(return_value_strcmp_1 == 0)
     c->scalable_mode = 0;
 
   return (const char *)(void *)0;
@@ -5989,7 +5989,7 @@ static const char * cb_scalable(struct command_t *cmd, void *ctx)
 // file conf.c line 193
 static const char * cb_server_threads(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting number of xml server threads to %ld", cmd->data.value);
   c->server_threads = (signed int)cmd->data.value;
   return (const char *)(void *)0;
@@ -5999,7 +5999,7 @@ static const char * cb_server_threads(struct command_t *cmd, void *ctx)
 // file conf.c line 225
 static const char * cb_setuid(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   c->should_setuid = (signed int)cmd->data.value;
   return (const char *)(void *)0;
 }
@@ -6008,7 +6008,7 @@ static const char * cb_setuid(struct command_t *cmd, void *ctx)
 // file conf.c line 217
 static const char * cb_setuid_username(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting setuid username to %s", cmd->data.str);
   c->setuid_username=strdup(cmd->data.str);
   return (const char *)(void *)0;
@@ -6022,22 +6022,22 @@ static const char * cb_trusted_hosts(struct command_t *cmd, void *ctx)
   signed int rv;
   struct _llist_entry *le;
   struct sockaddr_in sa;
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   i = 0;
   for( ; !(i >= cmd->arg_count); i = i + 1)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _llist_entry) /*24ul*/ );
-    le = (struct _llist_entry *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _llist_entry) /*24ul*/ );
+    le = (struct _llist_entry *)return_value_malloc_1;
     rv=g_gethostbyname(cmd->data.list[(signed long int)i], &sa, (char **)(void *)0);
     if(rv == 0)
       err_msg("Warning: we failed to resolve trusted host name %s", cmd->data.list[(signed long int)i]);
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)128);
-      le->val = (void *)(char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)128);
+      le->val = (void *)(char *)return_value_malloc_2;
       my_inet_ntop(2, (void *)&sa.sin_addr, (char *)le->val, (unsigned long int)128);
       llist_add(&c->trusted_hosts, le);
     }
@@ -6049,7 +6049,7 @@ static const char * cb_trusted_hosts(struct command_t *cmd, void *ctx)
 // file conf.c line 201
 static const char * cb_umask(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting umask to %.5lo & 07077", cmd->data.value);
   c->umask = (signed int)(cmd->data.value & (signed long int)07077);
   return (const char *)(void *)0;
@@ -6061,16 +6061,16 @@ static const char * cb_unsummarized_metrics(struct command_t *cmd, void *ctx)
 {
   signed int i;
   struct _llist_entry *le;
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   i = 0;
   for( ; !(i >= cmd->arg_count); i = i + 1)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _llist_entry) /*24ul*/ );
-    le = (struct _llist_entry *)return_value_malloc$1;
-    char *return_value_strdup$2;
-    return_value_strdup$2=strdup(cmd->data.list[(signed long int)i]);
-    le->val = (void *)return_value_strdup$2;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _llist_entry) /*24ul*/ );
+    le = (struct _llist_entry *)return_value_malloc_1;
+    char *return_value_strdup_2;
+    return_value_strdup_2=strdup(cmd->data.list[(signed long int)i]);
+    le->val = (void *)return_value_strdup_2;
     llist_add(&c->unsummarized_metrics, le);
     debug_msg("Adding %s to unsummarized_metrics", (const char *)le->val);
   }
@@ -6081,11 +6081,11 @@ static const char * cb_unsummarized_metrics(struct command_t *cmd, void *ctx)
 // file conf.c line 241
 static const char * cb_write_rrds(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting write_rrds = %s", cmd->data.str);
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(cmd->data.str, "off");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(cmd->data.str, "off");
+  if(return_value_strcmp_1 == 0)
     c->write_rrds = (signed int)cmd->data.value;
 
   return (const char *)(void *)0;
@@ -6095,7 +6095,7 @@ static const char * cb_write_rrds(struct command_t *cmd, void *ctx)
 // file conf.c line 177
 static const char * cb_xml_port(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$5 *c = (struct anonymous$5 *)cmd->option->info;
+  struct anonymous_5 *c = (struct anonymous_5 *)cmd->option->info;
   debug_msg("Setting xml port to %ld", cmd->data.value);
   c->xml_port = (signed int)cmd->data.value;
   return (const char *)(void *)0;
@@ -6109,26 +6109,26 @@ signed int check_value(char *type, char *value)
   signed int ret = 1;
   double d;
   signed long int l;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(type, "float");
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  if(!(return_value_strcmp$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(type, "float");
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  if(!(return_value_strcmp_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$2=strcmp(type, "double");
-    tmp_if_expr$3 = return_value_strcmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_2=strcmp(type, "double");
+    tmp_if_expr_3 = return_value_strcmp_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     d=strtod(value, &tail);
 
   else
     l=strtol(value, &tail, 10);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(tail);
-  if(return_value_strlen$4 == 0ul)
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(tail);
+  if(return_value_strlen_4 == 0ul)
     ret = 0;
 
   return ret;
@@ -6136,11 +6136,11 @@ signed int check_value(char *type, char *value)
 
 // cleanup_metric
 // file cleanup.c line 60
-static signed int cleanup_metric(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int cleanup_metric(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
   struct cleanup_arg *cleanup = (struct cleanup_arg *)arg;
   struct timeval *tv = cleanup->tv;
-  struct anonymous$9 *metric = (struct anonymous$9 *)val->data;
+  struct anonymous_9 *metric = (struct anonymous_9 *)val->data;
   unsigned int born = (unsigned int)metric->t0.tv_sec;
   if(!(metric->dmax == 0u))
   {
@@ -6162,15 +6162,15 @@ static signed int cleanup_metric(struct anonymous$7 *key, struct anonymous$7 *va
 
 // cleanup_node
 // file cleanup.c line 80
-static signed int cleanup_node(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int cleanup_node(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
   struct cleanup_arg *nodecleanup = (struct cleanup_arg *)arg;
   struct cleanup_arg cleanup;
   struct timeval *tv = (struct timeval *)nodecleanup->tv;
-  struct anonymous$10 *node = (struct anonymous$10 *)val->data;
-  struct anonymous$7 *rv;
+  struct anonymous_10 *node = (struct anonymous_10 *)val->data;
+  struct anonymous_7 *rv;
   unsigned int born = (unsigned int)node->t0.tv_sec;
-  signed int return_value_hash_walkfrom$1;
+  signed int return_value_hash_walkfrom_1;
   if(!(node->dmax == 0u))
   {
     if((signed long int)node->dmax >= tv->tv_sec + -((signed long int)born))
@@ -6187,22 +6187,22 @@ static signed int cleanup_node(struct anonymous$7 *key, struct anonymous$7 *val,
   __CPROVER_DUMP_L1:
     ;
     cleanup.tv = tv;
-    cleanup.key = ((struct anonymous$7 *)NULL);
+    cleanup.key = ((struct anonymous_7 *)NULL);
     cleanup.hashval = (unsigned long int)0;
     do
     {
-      return_value_hash_walkfrom$1=hash_walkfrom(node->metrics, cleanup.hashval, cleanup_metric, (void *)&cleanup);
-      if(return_value_hash_walkfrom$1 == 0)
+      return_value_hash_walkfrom_1=hash_walkfrom(node->metrics, cleanup.hashval, cleanup_metric, (void *)&cleanup);
+      if(return_value_hash_walkfrom_1 == 0)
         break;
 
-      if(!(cleanup.key == ((struct anonymous$7 *)NULL)))
+      if(!(cleanup.key == ((struct anonymous_7 *)NULL)))
       {
         cleanup.hashval=hashval(cleanup.key, node->metrics);
         rv=hash_delete(cleanup.key, node->metrics);
-        if(!(rv == ((struct anonymous$7 *)NULL)))
+        if(!(rv == ((struct anonymous_7 *)NULL)))
           datum_free(rv);
 
-        cleanup.key = ((struct anonymous$7 *)NULL);
+        cleanup.key = ((struct anonymous_7 *)NULL);
       }
 
       else
@@ -6215,66 +6215,66 @@ static signed int cleanup_node(struct anonymous$7 *key, struct anonymous$7 *val,
 
 // cleanup_source
 // file cleanup.c line 121
-static signed int cleanup_source(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int cleanup_source(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
   struct cleanup_arg *nodecleanup = (struct cleanup_arg *)arg;
   struct cleanup_arg cleanup;
   struct timeval *tv = (struct timeval *)nodecleanup->tv;
-  struct anonymous$11 *source = (struct anonymous$11 *)val->data;
-  struct anonymous$7 *rv;
-  struct anonymous$10 *node;
-  struct anonymous$8 *cleanup_source$$1$$metric_summary;
+  struct anonymous_11 *source = (struct anonymous_11 *)val->data;
+  struct anonymous_7 *rv;
+  struct anonymous_10 *node;
+  struct anonymous_8 *cleanup_source__1__metric_summary;
   cleanup.tv = tv;
-  cleanup.key = ((struct anonymous$7 *)NULL);
+  cleanup.key = ((struct anonymous_7 *)NULL);
   cleanup.hashval = (unsigned long int)0;
-  cleanup_source$$1$$metric_summary = source->metric_summary;
-  signed int return_value_hash_walkfrom$1;
+  cleanup_source__1__metric_summary = source->metric_summary;
+  signed int return_value_hash_walkfrom_1;
   do
   {
-    return_value_hash_walkfrom$1=hash_walkfrom(cleanup_source$$1$$metric_summary, cleanup.hashval, cleanup_metric, (void *)&cleanup);
-    if(return_value_hash_walkfrom$1 == 0)
+    return_value_hash_walkfrom_1=hash_walkfrom(cleanup_source__1__metric_summary, cleanup.hashval, cleanup_metric, (void *)&cleanup);
+    if(return_value_hash_walkfrom_1 == 0)
       break;
 
-    if(!(cleanup.key == ((struct anonymous$7 *)NULL)))
+    if(!(cleanup.key == ((struct anonymous_7 *)NULL)))
     {
-      cleanup.hashval=hashval(cleanup.key, cleanup_source$$1$$metric_summary);
-      rv=hash_delete(cleanup.key, cleanup_source$$1$$metric_summary);
-      if(!(rv == ((struct anonymous$7 *)NULL)))
+      cleanup.hashval=hashval(cleanup.key, cleanup_source__1__metric_summary);
+      rv=hash_delete(cleanup.key, cleanup_source__1__metric_summary);
+      if(!(rv == ((struct anonymous_7 *)NULL)))
         datum_free(rv);
 
-      cleanup.key = ((struct anonymous$7 *)NULL);
+      cleanup.key = ((struct anonymous_7 *)NULL);
     }
 
     else
       break;
   }
   while((_Bool)1);
-  signed int return_value_hash_walkfrom$2;
-  if(source->authority == ((struct anonymous$8 *)NULL))
+  signed int return_value_hash_walkfrom_2;
+  if(source->authority == ((struct anonymous_8 *)NULL))
     return 0;
 
   else
   {
     cleanup.tv = tv;
-    cleanup.key = ((struct anonymous$7 *)NULL);
+    cleanup.key = ((struct anonymous_7 *)NULL);
     cleanup.hashval = (unsigned long int)0;
     do
     {
-      return_value_hash_walkfrom$2=hash_walkfrom(source->authority, cleanup.hashval, cleanup_node, (void *)&cleanup);
-      if(return_value_hash_walkfrom$2 == 0)
+      return_value_hash_walkfrom_2=hash_walkfrom(source->authority, cleanup.hashval, cleanup_node, (void *)&cleanup);
+      if(return_value_hash_walkfrom_2 == 0)
         break;
 
-      if(!(cleanup.key == ((struct anonymous$7 *)NULL)))
+      if(!(cleanup.key == ((struct anonymous_7 *)NULL)))
       {
         debug_msg("Cleanup deleting host \"%s\"", (char *)cleanup.key->data);
-        node = (struct anonymous$10 *)cleanup.val->data;
+        node = (struct anonymous_10 *)cleanup.val->data;
         hash_destroy(node->metrics);
         cleanup.hashval=hashval(cleanup.key, source->authority);
         rv=hash_delete(cleanup.key, source->authority);
-        if(!(rv == ((struct anonymous$7 *)NULL)))
+        if(!(rv == ((struct anonymous_7 *)NULL)))
           datum_free(rv);
 
-        cleanup.key = ((struct anonymous$7 *)NULL);
+        cleanup.key = ((struct anonymous_7 *)NULL);
       }
 
       else
@@ -6291,38 +6291,38 @@ void * cleanup_thread(void *arg)
 {
   struct timeval tv;
   struct cleanup_arg cleanup;
-  struct anonymous$7 *rv;
-  struct anonymous$11 *source;
-  signed int return_value_hash_walkfrom$1;
+  struct anonymous_7 *rv;
+  struct anonymous_11 *source;
+  signed int return_value_hash_walkfrom_1;
   do
   {
     apr_sleep((signed long int)180 * 1000000L);
     debug_msg("Cleanup thread running...");
     gettimeofday(&tv, (struct timezone *)(void *)0);
     cleanup.tv = &tv;
-    cleanup.key = ((struct anonymous$7 *)NULL);
-    cleanup.val = ((struct anonymous$7 *)NULL);
+    cleanup.key = ((struct anonymous_7 *)NULL);
+    cleanup.val = ((struct anonymous_7 *)NULL);
     cleanup.hashval = (unsigned long int)0;
     do
     {
-      return_value_hash_walkfrom$1=hash_walkfrom(root.authority, cleanup.hashval, cleanup_source, (void *)&cleanup);
-      if(return_value_hash_walkfrom$1 == 0)
+      return_value_hash_walkfrom_1=hash_walkfrom(root.authority, cleanup.hashval, cleanup_source, (void *)&cleanup);
+      if(return_value_hash_walkfrom_1 == 0)
         break;
 
-      if(!(cleanup.key == ((struct anonymous$7 *)NULL)))
+      if(!(cleanup.key == ((struct anonymous_7 *)NULL)))
       {
         debug_msg("Cleanup deleting source \"%s\"", (char *)cleanup.key->data);
-        source = (struct anonymous$11 *)cleanup.val->data;
+        source = (struct anonymous_11 *)cleanup.val->data;
         hash_destroy(source->metric_summary);
-        if(!(source->authority == ((struct anonymous$8 *)NULL)))
+        if(!(source->authority == ((struct anonymous_8 *)NULL)))
           hash_destroy(source->authority);
 
         cleanup.hashval=hashval(cleanup.key, root.authority);
         rv=hash_delete(cleanup.key, root.authority);
-        if(!(rv == ((struct anonymous$7 *)NULL)))
+        if(!(rv == ((struct anonymous_7 *)NULL)))
           datum_free(rv);
 
-        cleanup.key = ((struct anonymous$7 *)NULL);
+        cleanup.key = ((struct anonymous_7 *)NULL);
       }
 
       else
@@ -6376,9 +6376,9 @@ static signed int cluster_dead_hosts_sort(struct _llist_entry *a, struct _llist_
 // file ./cmdline.h line 84
 signed int cmdline_parser(signed int argc, char **argv, struct gengetopt_args_info *args_info)
 {
-  signed int return_value_cmdline_parser2$1;
-  return_value_cmdline_parser2$1=cmdline_parser2(argc, argv, args_info, 0, 1, 1);
-  return return_value_cmdline_parser2$1;
+  signed int return_value_cmdline_parser2_1;
+  return_value_cmdline_parser2_1=cmdline_parser2(argc, argv, args_info, 0, 1, 1);
+  return return_value_cmdline_parser2_1;
 }
 
 // cmdline_parser2
@@ -6511,9 +6511,9 @@ static signed int cmdline_parser_internal(signed int argc, char **argv, struct g
   optind = 0;
   opterr = params->print_errors;
   optopt = 63;
-  signed int return_value_update_arg$1;
-  signed int return_value_update_arg$2;
-  signed int return_value_update_arg$3;
+  signed int return_value_update_arg_1;
+  signed int return_value_update_arg_2;
+  signed int return_value_update_arg_3;
   while((_Bool)1)
   {
     signed int option_index = 0;
@@ -6544,24 +6544,24 @@ static signed int cmdline_parser_internal(signed int argc, char **argv, struct g
       }
       case 99:
       {
-        return_value_update_arg$1=update_arg((void *)&args_info->conf_arg, &args_info->conf_orig, &args_info->conf_given, &local_args_info.conf_given, optarg, ((const char **)NULL), "/etc/ganglia/gmetad.conf", (enum anonymous$23)ARG_STRING, check_ambiguity, override, 0, 0, "conf", (char)99, additional_error);
-        if(!(return_value_update_arg$1 == 0))
+        return_value_update_arg_1=update_arg((void *)&args_info->conf_arg, &args_info->conf_orig, &args_info->conf_given, &local_args_info.conf_given, optarg, ((const char **)NULL), "/etc/ganglia/gmetad.conf", (enum anonymous_23)ARG_STRING, check_ambiguity, override, 0, 0, "conf", (char)99, additional_error);
+        if(!(return_value_update_arg_1 == 0))
           goto failure;
 
         break;
       }
       case 100:
       {
-        return_value_update_arg$2=update_arg((void *)&args_info->debug_arg, &args_info->debug_orig, &args_info->debug_given, &local_args_info.debug_given, optarg, ((const char **)NULL), "0", (enum anonymous$23)ARG_INT, check_ambiguity, override, 0, 0, "debug", (char)100, additional_error);
-        if(!(return_value_update_arg$2 == 0))
+        return_value_update_arg_2=update_arg((void *)&args_info->debug_arg, &args_info->debug_orig, &args_info->debug_given, &local_args_info.debug_given, optarg, ((const char **)NULL), "0", (enum anonymous_23)ARG_INT, check_ambiguity, override, 0, 0, "debug", (char)100, additional_error);
+        if(!(return_value_update_arg_2 == 0))
           goto failure;
 
         break;
       }
       case 112:
       {
-        return_value_update_arg$3=update_arg((void *)&args_info->pid_file_arg, &args_info->pid_file_orig, &args_info->pid_file_given, &local_args_info.pid_file_given, optarg, ((const char **)NULL), ((const char *)NULL), (enum anonymous$23)ARG_STRING, check_ambiguity, override, 0, 0, "pid-file", (char)112, additional_error);
-        if(!(return_value_update_arg$3 == 0))
+        return_value_update_arg_3=update_arg((void *)&args_info->pid_file_arg, &args_info->pid_file_orig, &args_info->pid_file_given, &local_args_info.pid_file_given, optarg, ((const char **)NULL), ((const char *)NULL), (enum anonymous_23)ARG_STRING, check_ambiguity, override, 0, 0, "pid-file", (char)112, additional_error);
+        if(!(return_value_update_arg_3 == 0))
           goto failure;
 
         break;
@@ -6597,9 +6597,9 @@ static signed int cmdline_parser_internal(signed int argc, char **argv, struct g
 struct cmdline_parser_params * cmdline_parser_params_create(void)
 {
   struct cmdline_parser_params *params;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct cmdline_parser_params) /*20ul*/ );
-  params = (struct cmdline_parser_params *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct cmdline_parser_params) /*20ul*/ );
+  params = (struct cmdline_parser_params *)return_value_malloc_1;
   cmdline_parser_params_init(params);
   return params;
 }
@@ -6625,12 +6625,12 @@ void cmdline_parser_print_help(void)
 {
   signed int i = 0;
   print_help_common();
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   while(!(gengetopt_args_info_help[(signed long int)i] == ((const char *)NULL)))
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    printf("%s\n", gengetopt_args_info_help[(signed long int)tmp_post$1]);
+    printf("%s\n", gengetopt_args_info_help[(signed long int)tmp_post_1]);
   }
 }
 
@@ -6638,9 +6638,9 @@ void cmdline_parser_print_help(void)
 // file cmdline.c line 98
 void cmdline_parser_print_version(void)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen("gmetad");
-  printf("%s %s\n", return_value_strlen$1 != 0ul ? "gmetad" : "gmetad", (const void *)"3.6.0");
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen("gmetad");
+  printf("%s %s\n", return_value_strlen_1 != 0ul ? "gmetad" : "gmetad", (const void *)"3.6.0");
 }
 
 // cmdline_parser_release
@@ -6670,29 +6670,29 @@ static void copy_word(char **dest, char **src, signed int max, char term)
 {
   char *cp1 = *src;
   char *cp2 = *dest;
-  signed int tmp_post$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  signed int tmp_post_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   do
   {
-    tmp_post$1 = max;
+    tmp_post_1 = max;
     max = max - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*cp1]) == 0))
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*cp1]) == 0))
       break;
 
     if(*cp1 == term)
       break;
 
-    tmp_post$3 = cp2;
+    tmp_post_3 = cp2;
     cp2 = cp2 + 1l;
-    tmp_post$4 = cp1;
+    tmp_post_4 = cp1;
     cp1 = cp1 + 1l;
-    *tmp_post$3 = *tmp_post$4;
+    *tmp_post_3 = *tmp_post_4;
   }
   while((_Bool)1);
   *cp2 = (char)0;
@@ -6704,16 +6704,16 @@ static void copy_word(char **dest, char **src, signed int max, char term)
 // file apr_net.c line 441
 struct apr_socket_t * create_mcast_client(struct apr_pool_t *context, char *mcast_ip, unsigned short int port, signed int ttl, const char *interface, char *bind_address, signed int bind_hostname)
 {
-  struct apr_socket_t *create_mcast_client$$1$$socket;
-  create_mcast_client$$1$$socket=create_udp_client(context, mcast_ip, port, interface, bind_address, bind_hostname);
-  if(create_mcast_client$$1$$socket == ((struct apr_socket_t *)NULL))
+  struct apr_socket_t *create_mcast_client__1__socket;
+  create_mcast_client__1__socket=create_udp_client(context, mcast_ip, port, interface, bind_address, bind_hostname);
+  if(create_mcast_client__1__socket == ((struct apr_socket_t *)NULL))
     return (struct apr_socket_t *)(void *)0;
 
   else
   {
-    apr_mcast_hops(create_mcast_client$$1$$socket, (unsigned char)ttl);
-    mcast_emit_on_if(context, create_mcast_client$$1$$socket, mcast_ip, port, interface);
-    return create_mcast_client$$1$$socket;
+    apr_mcast_hops(create_mcast_client__1__socket, (unsigned char)ttl);
+    mcast_emit_on_if(context, create_mcast_client__1__socket, mcast_ip, port, interface);
+    return create_mcast_client__1__socket;
   }
 }
 
@@ -6722,27 +6722,27 @@ struct apr_socket_t * create_mcast_client(struct apr_pool_t *context, char *mcas
 struct apr_socket_t * create_mcast_server(struct apr_pool_t *context, signed int family, char *mcast_ip, unsigned short int port, char *bind_addr, char *interface)
 {
   signed int status = 0;
-  struct apr_socket_t *create_mcast_server$$1$$socket;
-  create_mcast_server$$1$$socket=create_udp_server(context, family, port, bind_addr);
-  _Bool tmp_if_expr$2;
-  signed int return_value_apr_strnatcasecmp$1;
-  if(create_mcast_server$$1$$socket == ((struct apr_socket_t *)NULL))
+  struct apr_socket_t *create_mcast_server__1__socket;
+  create_mcast_server__1__socket=create_udp_server(context, family, port, bind_addr);
+  _Bool tmp_if_expr_2;
+  signed int return_value_apr_strnatcasecmp_1;
+  if(create_mcast_server__1__socket == ((struct apr_socket_t *)NULL))
     return (struct apr_socket_t *)(void *)0;
 
   else
   {
     if(!(interface == ((char *)NULL)))
     {
-      return_value_apr_strnatcasecmp$1=apr_strnatcasecmp(interface, "ALL");
-      tmp_if_expr$2 = !(return_value_apr_strnatcasecmp$1 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_apr_strnatcasecmp_1=apr_strnatcasecmp(interface, "ALL");
+      tmp_if_expr_2 = !(return_value_apr_strnatcasecmp_1 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
-      status=join_mcast(context, create_mcast_server$$1$$socket, mcast_ip, port, interface);
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
+      status=join_mcast(context, create_mcast_server__1__socket, mcast_ip, port, interface);
 
-    return status == 0 ? create_mcast_server$$1$$socket : (struct apr_socket_t *)(void *)0;
+    return status == 0 ? create_mcast_server__1__socket : (struct apr_socket_t *)(void *)0;
   }
 }
 
@@ -6833,26 +6833,26 @@ static struct apr_socket_t * create_net_server(struct apr_pool_t *context, signe
 {
   struct apr_sockaddr_t *localsa = (struct apr_sockaddr_t *)(void *)0;
   struct apr_socket_t *sock = (struct apr_socket_t *)(void *)0;
-  signed int create_net_server$$1$$stat;
+  signed int create_net_server__1__stat;
   signed int family = ofamily;
   if(!(bind_addr == ((char *)NULL)))
   {
-    create_net_server$$1$$stat=apr_sockaddr_info_get(&localsa, bind_addr, 0, port, 0, context);
-    if(!(create_net_server$$1$$stat == 0))
+    create_net_server__1__stat=apr_sockaddr_info_get(&localsa, bind_addr, 0, port, 0, context);
+    if(!(create_net_server__1__stat == 0))
       return (struct apr_socket_t *)(void *)0;
 
     family = (signed int)localsa->sa.sin.sin_family;
   }
 
-  create_net_server$$1$$stat=apr_socket_create(&sock, family, type, 0, context);
-  if(!(create_net_server$$1$$stat == 0))
+  create_net_server__1__stat=apr_socket_create(&sock, family, type, 0, context);
+  if(!(create_net_server__1__stat == 0))
     return (struct apr_socket_t *)(void *)0;
 
   else
     if(blocking == 0)
     {
-      create_net_server$$1$$stat=apr_socket_opt_set(sock, 8, 1);
-      if(create_net_server$$1$$stat == 0)
+      create_net_server__1__stat=apr_socket_opt_set(sock, 8, 1);
+      if(create_net_server__1__stat == 0)
         goto __CPROVER_DUMP_L4;
 
       apr_socket_close(sock);
@@ -6864,8 +6864,8 @@ static struct apr_socket_t * create_net_server(struct apr_pool_t *context, signe
 
     __CPROVER_DUMP_L4:
       ;
-      create_net_server$$1$$stat=apr_socket_opt_set(sock, 16, 1);
-      if(!(create_net_server$$1$$stat == 0))
+      create_net_server__1__stat=apr_socket_opt_set(sock, 16, 1);
+      if(!(create_net_server__1__stat == 0))
       {
         apr_socket_close(sock);
         return (struct apr_socket_t *)(void *)0;
@@ -6875,15 +6875,15 @@ static struct apr_socket_t * create_net_server(struct apr_pool_t *context, signe
       {
         if(localsa == ((struct apr_sockaddr_t *)NULL))
         {
-          apr_socket_addr_get(&localsa, (enum anonymous$33)APR_LOCAL, sock);
+          apr_socket_addr_get(&localsa, (enum anonymous_33)APR_LOCAL, sock);
           apr_sockaddr_vars_set(localsa, localsa->family, port);
         }
 
         if(localsa->family == 10)
         {
           signed int one = 1;
-          create_net_server$$1$$stat=apr_socket_opt_set(sock, 16384, one);
-          if(create_net_server$$1$$stat == 23)
+          create_net_server__1__stat=apr_socket_opt_set(sock, 16384, one);
+          if(create_net_server__1__stat == 23)
           {
             err_msg("Warning: your operating system does not support IPV6_V6ONLY!\n");
             err_msg("This means that you are also listening to IPv4 traffic on port %d\n", port);
@@ -6892,8 +6892,8 @@ static struct apr_socket_t * create_net_server(struct apr_pool_t *context, signe
 
         }
 
-        create_net_server$$1$$stat=apr_socket_bind(sock, localsa);
-        if(!(create_net_server$$1$$stat == 0))
+        create_net_server__1__stat=apr_socket_bind(sock, localsa);
+        if(!(create_net_server__1__stat == 0))
         {
           apr_socket_close(sock);
           return (struct apr_socket_t *)(void *)0;
@@ -6916,9 +6916,9 @@ struct apr_socket_t * create_tcp_server(struct apr_pool_t *context, signed int f
 
   else
   {
-    signed int return_value_apr_socket_listen$1;
-    return_value_apr_socket_listen$1=apr_socket_listen(sock, 5);
-    if(!(return_value_apr_socket_listen$1 == 0))
+    signed int return_value_apr_socket_listen_1;
+    return_value_apr_socket_listen_1=apr_socket_listen(sock, 5);
+    if(!(return_value_apr_socket_listen_1 == 0))
       return (struct apr_socket_t *)(void *)0;
 
     else
@@ -6930,18 +6930,18 @@ struct apr_socket_t * create_tcp_server(struct apr_pool_t *context, signed int f
 // file apr_net.c line 158
 struct apr_socket_t * create_udp_client(struct apr_pool_t *context, char *host, unsigned short int port, const char *interface, char *bind_address, signed int bind_hostname)
 {
-  struct apr_socket_t *return_value_create_net_client$1;
-  return_value_create_net_client$1=create_net_client(context, 2, host, port, interface, bind_address, bind_hostname);
-  return return_value_create_net_client$1;
+  struct apr_socket_t *return_value_create_net_client_1;
+  return_value_create_net_client_1=create_net_client(context, 2, host, port, interface, bind_address, bind_hostname);
+  return return_value_create_net_client_1;
 }
 
 // create_udp_server
 // file apr_net.c line 239
 struct apr_socket_t * create_udp_server(struct apr_pool_t *context, signed int family, unsigned short int port, char *bind_addr)
 {
-  struct apr_socket_t *return_value_create_net_server$1;
-  return_value_create_net_server$1=create_net_server(context, family, 2, port, bind_addr, 0);
-  return return_value_create_net_server$1;
+  struct apr_socket_t *return_value_create_net_server_1;
+  return_value_create_net_server_1=create_net_server(context, family, 2, port, bind_addr, 0);
+  return return_value_create_net_server_1;
 }
 
 // cstr_to_slope
@@ -6953,37 +6953,37 @@ enum ganglia_slope cstr_to_slope(const char *str)
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(str, "zero");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(str, "zero");
+    if(return_value_strcmp_1 == 0)
       return (enum ganglia_slope)GANGLIA_SLOPE_ZERO;
 
     else
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(str, "positive");
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(str, "positive");
+      if(return_value_strcmp_2 == 0)
         return (enum ganglia_slope)GANGLIA_SLOPE_POSITIVE;
 
       else
       {
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(str, "negative");
-        if(return_value_strcmp$3 == 0)
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(str, "negative");
+        if(return_value_strcmp_3 == 0)
           return (enum ganglia_slope)GANGLIA_SLOPE_NEGATIVE;
 
         else
         {
-          signed int return_value_strcmp$4;
-          return_value_strcmp$4=strcmp(str, "both");
-          if(return_value_strcmp$4 == 0)
+          signed int return_value_strcmp_4;
+          return_value_strcmp_4=strcmp(str, "both");
+          if(return_value_strcmp_4 == 0)
             return (enum ganglia_slope)GANGLIA_SLOPE_BOTH;
 
           else
           {
-            signed int return_value_strcmp$5;
-            return_value_strcmp$5=strcmp(str, "derivative");
-            if(return_value_strcmp$5 == 0)
+            signed int return_value_strcmp_5;
+            return_value_strcmp_5=strcmp(str, "derivative");
+            if(return_value_strcmp_5 == 0)
               return (enum ganglia_slope)GANGLIA_SLOPE_DERIVATIVE;
 
             else
@@ -7027,40 +7027,40 @@ void * data_thread(void *arg)
   signed int i;
   signed int bytes_read;
   signed int rval;
-  struct anonymous$6 *d = (struct anonymous$6 *)arg;
-  struct anonymous$4 *addr;
-  struct anonymous$2 *sock = ((struct anonymous$2 *)NULL);
-  struct anonymous$7 key;
+  struct anonymous_6 *d = (struct anonymous_6 *)arg;
+  struct anonymous_4 *addr;
+  struct anonymous_2 *sock = ((struct anonymous_2 *)NULL);
+  struct anonymous_7 key;
   char *buf;
   unsigned int buf_size = (unsigned int)1024;
   unsigned int read_index;
   unsigned int read_available;
   struct pollfd struct_poll;
-  signed long int data_thread$$1$$start;
-  signed long int data_thread$$1$$end;
+  signed long int data_thread__1__start;
+  signed long int data_thread__1__end;
   signed long int sleep_time;
   signed long int elapsed;
   double random_factor;
   unsigned int rand_seed;
-  signed long int return_value_apr_time_now$1;
-  return_value_apr_time_now$1=apr_time_now();
-  unsigned long int return_value_pthread_self$2;
-  return_value_pthread_self$2=pthread_self();
-  rand_seed = (unsigned int)(return_value_apr_time_now$1 * (signed long int)(signed int)return_value_pthread_self$2);
+  signed long int return_value_apr_time_now_1;
+  return_value_apr_time_now_1=apr_time_now();
+  unsigned long int return_value_pthread_self_2;
+  return_value_pthread_self_2=pthread_self();
+  rand_seed = (unsigned int)(return_value_apr_time_now_1 * (signed long int)(signed int)return_value_pthread_self_2);
   i = 0;
-  signed int tmp_post$3;
-  for( ; !((signed int)d->name[(signed long int)i] == 0); rand_seed = rand_seed * (unsigned int)d->name[(signed long int)tmp_post$3])
+  signed int tmp_post_3;
+  for( ; !((signed int)d->name[(signed long int)i] == 0); rand_seed = rand_seed * (unsigned int)d->name[(signed long int)tmp_post_3])
   {
-    tmp_post$3 = i;
+    tmp_post_3 = i;
     i = i + 1;
   }
-  signed int return_value_get_debug_msg_level$5;
-  return_value_get_debug_msg_level$5=get_debug_msg_level();
-  if(!(return_value_get_debug_msg_level$5 == 0))
+  signed int return_value_get_debug_msg_level_5;
+  return_value_get_debug_msg_level_5=get_debug_msg_level();
+  if(!(return_value_get_debug_msg_level_5 == 0))
   {
-    unsigned long int return_value_pthread_self$4;
-    return_value_pthread_self$4=pthread_self();
-    fprintf(stderr, "Data thread %lu is monitoring [%s] data source\n", (unsigned long int)return_value_pthread_self$4, d->name);
+    unsigned long int return_value_pthread_self_4;
+    return_value_pthread_self_4=pthread_self();
+    fprintf(stderr, "Data thread %lu is monitoring [%s] data source\n", (unsigned long int)return_value_pthread_self_4, d->name);
     i = 0;
     for( ; !((unsigned int)i >= d->num_sources); i = i + 1)
     {
@@ -7070,30 +7070,30 @@ void * data_thread(void *arg)
   }
 
   key.data = (void *)d->name;
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen((const char *)key.data);
-  key.size = (unsigned int)(return_value_strlen$6 + (unsigned long int)1);
-  void *return_value_malloc$7;
-  return_value_malloc$7=malloc((unsigned long int)buf_size);
-  buf = (char *)return_value_malloc$7;
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen((const char *)key.data);
+  key.size = (unsigned int)(return_value_strlen_6 + (unsigned long int)1);
+  void *return_value_malloc_7;
+  return_value_malloc_7=malloc((unsigned long int)buf_size);
+  buf = (char *)return_value_malloc_7;
   if(buf == ((char *)NULL))
     err_quit("data_thread() unable to malloc initial buffer for [%s] data source\n", d->name);
 
   d->dead = 0;
   do
   {
-    data_thread$$1$$start=apr_time_now();
-    sock = (struct anonymous$2 *)(void *)0;
+    data_thread__1__start=apr_time_now();
+    sock = (struct anonymous_2 *)(void *)0;
     if(!(d->last_good_index == -1))
       sock=g_tcp_socket_new(d->sources[(signed long int)d->last_good_index]);
 
-    if(sock == ((struct anonymous$2 *)NULL))
+    if(sock == ((struct anonymous_2 *)NULL))
     {
       i = 0;
       for( ; !((unsigned int)i >= d->num_sources); i = i + 1)
       {
         sock=g_tcp_socket_new(d->sources[(signed long int)i]);
-        if(!(sock == ((struct anonymous$2 *)NULL)))
+        if(!(sock == ((struct anonymous_2 *)NULL)))
         {
           d->last_good_index = i;
           break;
@@ -7104,7 +7104,7 @@ void * data_thread(void *arg)
       }
     }
 
-    if(sock == ((struct anonymous$2 *)NULL))
+    if(sock == ((struct anonymous_2 *)NULL))
     {
       err_msg("data_thread() got no answer from any [%s] datasource", d->name);
       d->dead = 1;
@@ -7149,18 +7149,18 @@ void * data_thread(void *arg)
             {
               if(!(buf_size >= 1024u + read_index))
               {
-                void *return_value_realloc$8;
-                return_value_realloc$8=realloc((void *)buf, (unsigned long int)(buf_size + (unsigned int)1024));
-                buf = (char *)return_value_realloc$8;
+                void *return_value_realloc_8;
+                return_value_realloc_8=realloc((void *)buf, (unsigned long int)(buf_size + (unsigned int)1024));
+                buf = (char *)return_value_realloc_8;
                 if(buf == ((char *)NULL))
                   err_quit("data_thread() unable to malloc enough room for [%s] XML", d->name);
 
                 buf_size = buf_size + (unsigned int)1024;
               }
 
-              signed int return_value_ioctl$9;
-              return_value_ioctl$9=ioctl(sock->sockfd, (unsigned long int)0x541B, &read_available);
-              if(return_value_ioctl$9 == -1)
+              signed int return_value_ioctl_9;
+              return_value_ioctl_9=ioctl(sock->sockfd, (unsigned long int)0x541B, &read_available);
+              if(return_value_ioctl_9 == -1)
               {
                 err_msg("data_thread() unable to ioctl(FIONREAD) socket for [%s] data source", d->name);
                 d->last_good_index = -1;
@@ -7169,9 +7169,9 @@ void * data_thread(void *arg)
               }
 
               read_available = read_available > (unsigned int)1023 ? (unsigned int)1023 : read_available;
-              signed long int return_value_read$10;
-              return_value_read$10=read(sock->sockfd, (void *)(buf + (signed long int)read_index), (unsigned long int)read_available);
-              bytes_read = (signed int)return_value_read$10;
+              signed long int return_value_read_10;
+              return_value_read_10=read(sock->sockfd, (void *)(buf + (signed long int)read_index), (unsigned long int)read_available);
+              bytes_read = (signed int)return_value_read_10;
               if(!(bytes_read >= 0))
               {
                 err_msg("data_thread() unable to read() socket for [%s] data source", d->name);
@@ -7224,14 +7224,14 @@ void * data_thread(void *arg)
             struct z_stream_s strm;
             char *uncompressed;
             unsigned int write_index = (unsigned int)0;
-            signed int return_value_get_debug_msg_level$11;
-            return_value_get_debug_msg_level$11=get_debug_msg_level();
-            if(return_value_get_debug_msg_level$11 >= 2)
+            signed int return_value_get_debug_msg_level_11;
+            return_value_get_debug_msg_level_11=get_debug_msg_level();
+            if(return_value_get_debug_msg_level_11 >= 2)
               err_msg("GZIP compressed data for [%s] data source, %d bytes", d->name, read_index);
 
-            void *return_value_malloc$12;
-            return_value_malloc$12=malloc((unsigned long int)buf_size);
-            uncompressed = (char *)return_value_malloc$12;
+            void *return_value_malloc_12;
+            return_value_malloc_12=malloc((unsigned long int)buf_size);
+            uncompressed = (char *)return_value_malloc_12;
             if(uncompressed == ((char *)NULL))
               err_quit("data_thread() unable to malloc enough room for [%s] GZIP", d->name);
 
@@ -7255,9 +7255,9 @@ void * data_thread(void *arg)
               if(!(buf_size >= 2048u + write_index))
               {
                 buf_size = buf_size + (unsigned int)2048;
-                void *return_value_realloc$13;
-                return_value_realloc$13=realloc((void *)uncompressed, (unsigned long int)buf_size);
-                uncompressed = (char *)return_value_realloc$13;
+                void *return_value_realloc_13;
+                return_value_realloc_13=realloc((void *)uncompressed, (unsigned long int)buf_size);
+                uncompressed = (char *)return_value_realloc_13;
                 if(uncompressed == ((char *)NULL))
                   err_quit("data_thread() unable to realloc enough room for [%s] GZIP", d->name);
 
@@ -7276,9 +7276,9 @@ void * data_thread(void *arg)
                   free((void *)buf);
                   buf = uncompressed;
                   read_index = write_index;
-                  signed int return_value_get_debug_msg_level$14;
-                  return_value_get_debug_msg_level$14=get_debug_msg_level();
-                  if(return_value_get_debug_msg_level$14 >= 2)
+                  signed int return_value_get_debug_msg_level_14;
+                  return_value_get_debug_msg_level_14=get_debug_msg_level();
+                  if(return_value_get_debug_msg_level_14 >= 2)
                     err_msg("Uncompressed to %d bytes", read_index);
 
                   break;
@@ -7287,9 +7287,9 @@ void * data_thread(void *arg)
                 else
                 {
                   inflateEnd(&strm);
-                  const char *return_value_zError$15;
-                  return_value_zError$15=zError(ret);
-                  err_msg("InflateError! for [%s] data source, failed to call inflate (%s)", d->name, return_value_zError$15);
+                  const char *return_value_zError_15;
+                  return_value_zError_15=zError(ret);
+                  err_msg("InflateError! for [%s] data source, failed to call inflate (%s)", d->name, return_value_zError_15);
                   d->dead = 1;
                   free((void *)buf);
                   buf = uncompressed;
@@ -7313,11 +7313,11 @@ void * data_thread(void *arg)
   take_a_break:
     ;
     g_tcp_socket_delete(sock);
-    data_thread$$1$$end=apr_time_now();
-    signed int return_value_rand_r$16;
-    return_value_rand_r$16=rand_r(&rand_seed);
-    random_factor = (double)1 + (5.0 / 50.0) * (double)((float)(return_value_rand_r$16 - 2147483647 / 2) / (float)2147483647);
-    elapsed = data_thread$$1$$end - data_thread$$1$$start;
+    data_thread__1__end=apr_time_now();
+    signed int return_value_rand_r_16;
+    return_value_rand_r_16=rand_r(&rand_seed);
+    random_factor = (double)1 + (5.0 / 50.0) * (double)((float)(return_value_rand_r_16 - 2147483647 / 2) / (float)2147483647);
+    elapsed = data_thread__1__end - data_thread__1__start;
     sleep_time = (signed long int)((double)((signed long int)d->step * 1000000L) * random_factor - (double)elapsed);
     if(sleep_time >= 1l)
       apr_sleep(sleep_time);
@@ -7329,14 +7329,14 @@ void * data_thread(void *arg)
 
 // datum_dup
 // file hash.c line 30
-static struct anonymous$7 * datum_dup(struct anonymous$7 *src)
+static struct anonymous_7 * datum_dup(struct anonymous_7 *src)
 {
-  struct anonymous$7 *dest;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$7) /*16ul*/ );
-  dest = (struct anonymous$7 *)return_value_malloc$1;
-  if(dest == ((struct anonymous$7 *)NULL))
-    return (struct anonymous$7 *)(void *)0;
+  struct anonymous_7 *dest;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_7) /*16ul*/ );
+  dest = (struct anonymous_7 *)return_value_malloc_1;
+  if(dest == ((struct anonymous_7 *)NULL))
+    return (struct anonymous_7 *)(void *)0;
 
   else
   {
@@ -7344,7 +7344,7 @@ static struct anonymous$7 * datum_dup(struct anonymous$7 *src)
     if(dest->data == NULL)
     {
       free((void *)dest);
-      return (struct anonymous$7 *)(void *)0;
+      return (struct anonymous_7 *)(void *)0;
     }
 
     else
@@ -7358,7 +7358,7 @@ static struct anonymous$7 * datum_dup(struct anonymous$7 *src)
 
 // datum_free
 // file ../lib/hash.h line 62
-void datum_free(struct anonymous$7 *datum)
+void datum_free(struct anonymous_7 *datum)
 {
   free(datum->data);
   free((void *)datum);
@@ -7366,14 +7366,14 @@ void datum_free(struct anonymous$7 *datum)
 
 // datum_new
 // file ../lib/hash.h line 61
-struct anonymous$7 * datum_new(void *data, unsigned long int size)
+struct anonymous_7 * datum_new(void *data, unsigned long int size)
 {
-  struct anonymous$7 *datum;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$7) /*16ul*/ );
-  datum = (struct anonymous$7 *)return_value_malloc$1;
-  if(datum == ((struct anonymous$7 *)NULL))
-    return (struct anonymous$7 *)(void *)0;
+  struct anonymous_7 *datum;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_7) /*16ul*/ );
+  datum = (struct anonymous_7 *)return_value_malloc_1;
+  if(datum == ((struct anonymous_7 *)NULL))
+    return (struct anonymous_7 *)(void *)0;
 
   else
   {
@@ -7381,7 +7381,7 @@ struct anonymous$7 * datum_new(void *data, unsigned long int size)
     if(datum->data == NULL)
     {
       free((void *)datum);
-      return (struct anonymous$7 *)(void *)0;
+      return (struct anonymous_7 *)(void *)0;
     }
 
     else
@@ -7397,7 +7397,7 @@ struct anonymous$7 * datum_new(void *data, unsigned long int size)
 // file ../include/gm_msg.h line 16
 void debug_msg(const char *format, ...)
 {
-  if(debug_level$link1 >= 2 && !(format == ((const char *)NULL)))
+  if(debug_level_link1 >= 2 && !(format == ((const char *)NULL)))
   {
     void **ap = (void **)&format;
     vfprintf(stderr, format, ap);
@@ -7409,9 +7409,9 @@ void debug_msg(const char *format, ...)
 
 // do_root_summary
 // file gmetad.c line 192
-static signed int do_root_summary(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int do_root_summary(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
-  struct anonymous$11 *source = (struct anonymous$11 *)val->data;
+  struct anonymous_11 *source = (struct anonymous_11 *)val->data;
   signed int rc;
   struct _llist_entry *le;
   if(!(source->ds->dead == 0))
@@ -7419,9 +7419,9 @@ static signed int do_root_summary(struct anonymous$7 *key, struct anonymous$7 *v
 
   else
   {
-    signed int return_value_llist_search$1;
-    return_value_llist_search$1=llist_search(&gmetad_config.unsummarized_metrics, (void *)key->data, llist_strncmp, &le);
-    if(return_value_llist_search$1 == 0)
+    signed int return_value_llist_search_1;
+    return_value_llist_search_1=llist_search(&gmetad_config.unsummarized_metrics, (void *)key->data, llist_strncmp, &le);
+    if(return_value_llist_search_1 == 0)
       return 0;
 
     else
@@ -7462,29 +7462,29 @@ static const char * dotconf_cb_include(struct command_t *cmd, void *ctx)
   char *path = ((char *)NULL);
   char *pre = ((char *)NULL);
   char *ext = ((char *)NULL);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(cmd->configfile->includepath == ((char *)NULL)))
-    tmp_if_expr$4 = (signed int)cmd->data.str[(signed long int)0] != 47 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = (signed int)cmd->data.str[(signed long int)0] != 47 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (signed int)cmd->configfile->includepath[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (signed int)cmd->configfile->includepath[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  if(tmp_if_expr_5)
   {
     signed int len;
     signed int inclen;
     char *sl;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(cmd->configfile->includepath);
-    inclen = (signed int)return_value_strlen$1;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(cmd->data.str);
-    len = (signed int)(return_value_strlen$2 + (unsigned long int)inclen + (unsigned long int)1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(cmd->configfile->includepath);
+    inclen = (signed int)return_value_strlen_1;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(cmd->data.str);
+    len = (signed int)(return_value_strlen_2 + (unsigned long int)inclen + (unsigned long int)1);
     if(len == 256)
     {
       dotconf_warning(cmd->configfile, 4, (unsigned long int)0x0004, "Absolute filename too long (>%d)", 256);
@@ -7499,21 +7499,21 @@ static const char * dotconf_cb_include(struct command_t *cmd, void *ctx)
       sl = "/";
       len = len + 1;
     }
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)len);
-    filename = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)len);
+    filename = (char *)return_value_malloc_3;
     snprintf(filename, (unsigned long int)len, "%s%s%s", cmd->configfile->includepath, sl, cmd->data.str);
   }
 
   else
     filename=strdup(cmd->data.str);
-  signed int return_value_dotconf_find_wild_card$7;
-  return_value_dotconf_find_wild_card$7=dotconf_find_wild_card(filename, &wild_card, &path, &pre, &ext);
-  if(return_value_dotconf_find_wild_card$7 >= 0)
+  signed int return_value_dotconf_find_wild_card_7;
+  return_value_dotconf_find_wild_card_7=dotconf_find_wild_card(filename, &wild_card, &path, &pre, &ext);
+  if(return_value_dotconf_find_wild_card_7 >= 0)
   {
-    signed int return_value_dotconf_handle_wild_card$6;
-    return_value_dotconf_handle_wild_card$6=dotconf_handle_wild_card(cmd, wild_card, path, pre, ext);
-    if(!(return_value_dotconf_handle_wild_card$6 >= 0))
+    signed int return_value_dotconf_handle_wild_card_6;
+    return_value_dotconf_handle_wild_card_6=dotconf_handle_wild_card(cmd, wild_card, path, pre, ext);
+    if(!(return_value_dotconf_handle_wild_card_6 >= 0))
       dotconf_warning(cmd->configfile, 4, (unsigned long int)0x0004, "Error occured while attempting to process %s for inclusion.\nIncludePath is '%s'\n", filename, cmd->configfile->includepath);
 
     dotconf_wild_card_cleanup(path, pre);
@@ -7521,9 +7521,9 @@ static const char * dotconf_cb_include(struct command_t *cmd, void *ctx)
     return (const char *)(void *)0;
   }
 
-  signed int return_value_access$8;
-  return_value_access$8=access(filename, 4);
-  if(!(return_value_access$8 == 0))
+  signed int return_value_access_8;
+  return_value_access_8=access(filename, 4);
+  if(!(return_value_access_8 == 0))
   {
     dotconf_warning(cmd->configfile, 4, (unsigned long int)0x0004, "Cannot open %s for inclusion.\nIncludePath is '%s'\n", filename, cmd->configfile->includepath);
     free((void *)filename);
@@ -7582,20 +7582,20 @@ void dotconf_cleanup(struct configfile_t *configfile)
 signed int dotconf_command_loop(struct configfile_t *configfile)
 {
   char buffer[4096l];
-  signed int return_value_dotconf_get_next_line$1;
+  signed int return_value_dotconf_get_next_line_1;
   do
   {
-    return_value_dotconf_get_next_line$1=dotconf_get_next_line(buffer, (unsigned long int)4096, configfile);
-    if(!(return_value_dotconf_get_next_line$1 == 0))
+    return_value_dotconf_get_next_line_1=dotconf_get_next_line(buffer, (unsigned long int)4096, configfile);
+    if(!(return_value_dotconf_get_next_line_1 == 0))
       break;
 
     const char *error;
     error=dotconf_handle_command(configfile, buffer);
     if(!(error == ((const char *)NULL)))
     {
-      signed int return_value_dotconf_warning$2;
-      return_value_dotconf_warning$2=dotconf_warning(configfile, 3, (unsigned long int)0, error);
-      if(!(return_value_dotconf_warning$2 == 0))
+      signed int return_value_dotconf_warning_2;
+      return_value_dotconf_warning_2=dotconf_warning(configfile, 3, (unsigned long int)0, error);
+      if(!(return_value_dotconf_warning_2 == 0))
         return 0;
 
     }
@@ -7610,11 +7610,11 @@ signed int dotconf_command_loop(struct configfile_t *configfile)
 const char * dotconf_command_loop_until_error(struct configfile_t *configfile)
 {
   char buffer[4096l];
-  signed int return_value_dotconf_get_next_line$1;
+  signed int return_value_dotconf_get_next_line_1;
   do
   {
-    return_value_dotconf_get_next_line$1=dotconf_get_next_line(buffer, (unsigned long int)4096, configfile);
-    if(!(return_value_dotconf_get_next_line$1 == 0))
+    return_value_dotconf_get_next_line_1=dotconf_get_next_line(buffer, (unsigned long int)4096, configfile);
+    if(!(return_value_dotconf_get_next_line_1 == 0))
       break;
 
     const char *error;
@@ -7632,16 +7632,16 @@ const char * dotconf_command_loop_until_error(struct configfile_t *configfile)
 signed int dotconf_continue_line(char *buffer, unsigned long int length)
 {
   char *cp1 = (buffer + (signed long int)length) - (signed long int)1;
-  char *tmp_post$1;
-  char *tmp_post$2;
+  char *tmp_post_1;
+  char *tmp_post_2;
   if(!(length >= 2ul))
     return 0;
 
   else
   {
-    tmp_post$1 = cp1;
+    tmp_post_1 = cp1;
     cp1 = cp1 - 1l;
-    if(!((signed int)*tmp_post$1 == 10))
+    if(!((signed int)*tmp_post_1 == 10))
       return 0;
 
     else
@@ -7649,9 +7649,9 @@ signed int dotconf_continue_line(char *buffer, unsigned long int length)
       if((signed int)*cp1 == 13)
         cp1 = cp1 - 1l;
 
-      tmp_post$2 = cp1;
+      tmp_post_2 = cp1;
       cp1 = cp1 - 1l;
-      if(!((signed int)*tmp_post$2 == 92))
+      if(!((signed int)*tmp_post_2 == 92))
         return 0;
 
       else
@@ -7669,9 +7669,9 @@ struct configfile_t * dotconf_create(char *fname, const struct configoption_t *o
 {
   struct configfile_t *new = ((struct configfile_t *)NULL);
   char *dc_env;
-  signed int return_value_access$1;
-  return_value_access$1=access(fname, 4);
-  if(!(return_value_access$1 == 0))
+  signed int return_value_access_1;
+  return_value_access_1=access(fname, 4);
+  if(!(return_value_access_1 == 0))
   {
     fprintf(stderr, "Error opening configuration file '%s'\n", fname);
     return (struct configfile_t *)(void *)0;
@@ -7679,9 +7679,9 @@ struct configfile_t * dotconf_create(char *fname, const struct configoption_t *o
 
   else
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct configfile_t) /*104ul*/ );
-    new = (struct configfile_t *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct configfile_t) /*104ul*/ );
+    new = (struct configfile_t *)return_value_calloc_2;
     new->stream=fopen(fname, "r");
     if(new->stream == ((struct _IO_FILE *)NULL))
     {
@@ -7694,9 +7694,9 @@ struct configfile_t * dotconf_create(char *fname, const struct configoption_t *o
     {
       new->flags = flags;
       new->filename=strdup(fname);
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)256);
-      new->includepath = (char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)256);
+      new->includepath = (char *)return_value_malloc_3;
       new->includepath[(signed long int)0] = (char)0x00;
       dc_env=getenv("DC_INCLUDEPATH");
       if(!(dc_env == ((char *)NULL)))
@@ -7743,19 +7743,19 @@ struct configoption_t * dotconf_find_command(struct configfile_t *configfile, co
     }
 
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(option == ((struct configoption_t *)NULL)))
-    tmp_if_expr$1 = (signed int)option->name[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)option->name[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (configfile->config_options[(signed long int)(mod - 1)] + (signed long int)i)->type == 4 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (configfile->config_options[(signed long int)(mod - 1)] + (signed long int)i)->type == 4 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     option = (struct configoption_t *)&configfile->config_options[(signed long int)(mod - 1)][(signed long int)i];
 
   return option;
@@ -7771,15 +7771,15 @@ signed int dotconf_find_wild_card(char *filename, char *wildcard, char **path, c
   char *tmp = ((char *)NULL);
   signed int found_path = 0;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(filename);
-  len = (signed int)return_value_strlen$1;
-  void *return_value_malloc$4;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(filename);
+  len = (signed int)return_value_strlen_1;
+  void *return_value_malloc_4;
   if(len >= 1 && !(ext == ((char **)NULL)) && !(path == ((char **)NULL)) && !(pre == ((char **)NULL)) && !(wildcard == ((char *)NULL)))
   {
-    unsigned long int return_value_strcspn$2;
-    return_value_strcspn$2=strcspn(filename, "*?");
-    prefix_len = (signed int)return_value_strcspn$2;
+    unsigned long int return_value_strcspn_2;
+    return_value_strcspn_2=strcspn(filename, "*?");
+    prefix_len = (signed int)return_value_strcspn_2;
     if(!(prefix_len >= len))
     {
       tmp = filename + (signed long int)prefix_len;
@@ -7793,20 +7793,20 @@ signed int dotconf_find_wild_card(char *filename, char *wildcard, char **path, c
       }
       if((signed int)*tmp == 47)
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc((unsigned long int)(tmp_count + 1));
-        *path = (char *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc((unsigned long int)(tmp_count + 1));
+        *path = (char *)return_value_malloc_3;
         found_path = 1;
       }
 
       else
       {
-        return_value_malloc$4=malloc((unsigned long int)1);
-        *path = (char *)return_value_malloc$4;
+        return_value_malloc_4=malloc((unsigned long int)1);
+        *path = (char *)return_value_malloc_4;
       }
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc((unsigned long int)((prefix_len - (tmp_count - (found_path != 0 ? 0 : 1))) + 1));
-      *pre = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc((unsigned long int)((prefix_len - (tmp_count - (found_path != 0 ? 0 : 1))) + 1));
+      *pre = (char *)return_value_malloc_5;
       if(!(*path == ((char *)NULL)))
       {
         if(!(*pre == ((char *)NULL)))
@@ -7859,9 +7859,9 @@ char * dotconf_get_here_document(struct configfile_t *configfile, const char *de
   signed int offset = 0;
   if(!(configfile->size >= 1ul))
   {
-    signed int return_value_stat$1;
-    return_value_stat$1=stat(configfile->filename, &finfo);
-    if(!(return_value_stat$1 == 0))
+    signed int return_value_stat_1;
+    return_value_stat_1=stat(configfile->filename, &finfo);
+    if(!(return_value_stat_1 == 0))
     {
       dotconf_warning(configfile, 0, (unsigned long int)0x0005, "[emerg] could not stat currently read file (%s)\n", configfile->filename);
       return (char *)(void *)0;
@@ -7870,41 +7870,41 @@ char * dotconf_get_here_document(struct configfile_t *configfile, const char *de
     configfile->size = (unsigned long int)finfo.st_size;
   }
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(configfile->size);
-  here_doc = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(configfile->size);
+  here_doc = (char *)return_value_malloc_2;
   memset((void *)here_doc, 0, configfile->size);
   here_string = (char)1;
-  signed int return_value_snprintf$3;
-  return_value_snprintf$3=snprintf(here_limit, (unsigned long int)9, "%s", delimit);
-  limit_len = (unsigned int)return_value_snprintf$3;
-  signed int return_value_dotconf_get_next_line$4;
+  signed int return_value_snprintf_3;
+  return_value_snprintf_3=snprintf(here_limit, (unsigned long int)9, "%s", delimit);
+  limit_len = (unsigned int)return_value_snprintf_3;
+  signed int return_value_dotconf_get_next_line_4;
   do
   {
-    return_value_dotconf_get_next_line$4=dotconf_get_next_line(buffer, (unsigned long int)4096, configfile);
-    if(!(return_value_dotconf_get_next_line$4 == 0))
+    return_value_dotconf_get_next_line_4=dotconf_get_next_line(buffer, (unsigned long int)4096, configfile);
+    if(!(return_value_dotconf_get_next_line_4 == 0))
       break;
 
-    signed int return_value_strncmp$5;
-    return_value_strncmp$5=strncmp(here_limit, buffer, (unsigned long int)(limit_len - (unsigned int)1));
-    if(return_value_strncmp$5 == 0)
+    signed int return_value_strncmp_5;
+    return_value_strncmp_5=strncmp(here_limit, buffer, (unsigned long int)(limit_len - (unsigned int)1));
+    if(return_value_strncmp_5 == 0)
     {
       here_string = (char)0;
       break;
     }
 
-    signed int return_value_snprintf$6;
-    return_value_snprintf$6=snprintf(here_doc + (signed long int)offset, (configfile->size - (unsigned long int)offset) - (unsigned long int)1, "%s", (const void *)buffer);
-    offset = offset + return_value_snprintf$6;
+    signed int return_value_snprintf_6;
+    return_value_snprintf_6=snprintf(here_doc + (signed long int)offset, (configfile->size - (unsigned long int)offset) - (unsigned long int)1, "%s", (const void *)buffer);
+    offset = offset + return_value_snprintf_6;
   }
   while((_Bool)1);
   if(!(here_string == 0))
     dotconf_warning(configfile, 4, (unsigned long int)0x0001, "Unterminated here-document!");
 
   here_doc[(signed long int)(offset - 1)] = (char)0;
-  void *return_value_realloc$7;
-  return_value_realloc$7=realloc((void *)here_doc, (unsigned long int)offset);
-  return (char *)return_value_realloc$7;
+  void *return_value_realloc_7;
+  return_value_realloc_7=realloc((void *)here_doc, (unsigned long int)offset);
+  return (char *)return_value_realloc_7;
 }
 
 // dotconf_get_next_line
@@ -7915,7 +7915,7 @@ signed int dotconf_get_next_line(char *buffer, unsigned long int bufsize, struct
   char *cp2;
   char buf2[4096l];
   signed int length;
-  signed int return_value_dotconf_continue_line$2;
+  signed int return_value_dotconf_continue_line_2;
   if(!(configfile->eof == 0))
     return 1;
 
@@ -7931,13 +7931,13 @@ signed int dotconf_get_next_line(char *buffer, unsigned long int bufsize, struct
     else
     {
       configfile->line = configfile->line + 1ul;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(cp1);
-      length = (signed int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(cp1);
+      length = (signed int)return_value_strlen_1;
       do
       {
-        return_value_dotconf_continue_line$2=dotconf_continue_line(cp1, (unsigned long int)length);
-        if(return_value_dotconf_continue_line$2 == 0)
+        return_value_dotconf_continue_line_2=dotconf_continue_line(cp1, (unsigned long int)length);
+        if(return_value_dotconf_continue_line_2 == 0)
           break;
 
         cp2=fgets(buf2, 4096, configfile->stream);
@@ -7950,9 +7950,9 @@ signed int dotconf_get_next_line(char *buffer, unsigned long int bufsize, struct
 
         configfile->line = configfile->line + 1ul;
         strcpy((cp1 + (signed long int)length) - (signed long int)2, cp2);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(cp1);
-        length = (signed int)return_value_strlen$3;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(cp1);
+        length = (signed int)return_value_strlen_3;
       }
       while((_Bool)1);
       return 0;
@@ -7977,37 +7977,37 @@ const char * dotconf_handle_command(struct configfile_t *configfile, char *buffe
   error = ((const char *)NULL);
   context_error = ((const char *)NULL);
   cp1 = buffer;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(cp1);
-  eob = cp1 + (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(cp1);
+  eob = cp1 + (signed long int)return_value_strlen_1;
   safe_skip_whitespace(&cp1, (signed int)((signed long int)eob - (signed long int)cp1), (char)0);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(cp1 == ((char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*cp1 != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = !(*cp1 != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)*cp1 == 35 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = (signed int)*cp1 == 35 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (signed int)*cp1 == 10 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = (signed int)*cp1 == 10 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = *cp1 == (char)-1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = *cp1 == (char)-1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_5)
     return (const char *)(void *)0;
 
   else
@@ -8046,11 +8046,11 @@ const char * dotconf_handle_command(struct configfile_t *configfile, char *buffe
           option=get_argname_fallback(configfile->config_options[(signed long int)1]);
 
         if(option == ((const struct configoption_t *)NULL))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = !(option->callback != ((const char * (*)(struct command_t *, void *))NULL)) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = !(option->callback != ((const char * (*)(struct command_t *, void *))NULL)) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
         {
           if(!(error == ((const char *)NULL)))
             return error;
@@ -8072,11 +8072,11 @@ const char * dotconf_handle_command(struct configfile_t *configfile, char *buffe
 
         dotconf_free_command(&command);
         if(context_error == ((const char *)NULL))
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = !((configfile->flags & (unsigned long int)(1 << 3)) != 0ul) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = !((configfile->flags & (unsigned long int)(1 << 3)) != 0ul) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
           break;
 
       }
@@ -8104,9 +8104,9 @@ signed int dotconf_handle_question_mark(struct command_t *cmd, char *path, char 
   signed int name_len = 0;
   signed int alloced = 0;
   signed int match_state = 0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(pre);
-  pre_len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(pre);
+  pre_len = (signed int)return_value_strlen_1;
   dh=opendir(path);
   if(!(dh == ((struct __dirstream *)NULL)))
   {
@@ -8119,19 +8119,19 @@ signed int dotconf_handle_question_mark(struct command_t *cmd, char *path, char 
       match_state=dotconf_question_mark_match(dirptr->d_name, pre, ext);
       if(match_state >= 0)
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(dirptr->d_name);
-        name_len = (signed int)return_value_strlen$2;
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(path);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(ext);
-        new_path_len = (signed int)(return_value_strlen$3 + (unsigned long int)name_len + return_value_strlen$4 + (unsigned long int)1);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(dirptr->d_name);
+        name_len = (signed int)return_value_strlen_2;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(path);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(ext);
+        new_path_len = (signed int)(return_value_strlen_3 + (unsigned long int)name_len + return_value_strlen_4 + (unsigned long int)1);
         if(alloced == 0)
         {
-          void *return_value_malloc$5;
-          return_value_malloc$5=malloc((unsigned long int)new_path_len);
-          new_path = (char *)return_value_malloc$5;
+          void *return_value_malloc_5;
+          return_value_malloc_5=malloc((unsigned long int)new_path_len);
+          new_path = (char *)return_value_malloc_5;
           if(new_path == ((char *)NULL))
             return -1;
 
@@ -8141,9 +8141,9 @@ signed int dotconf_handle_question_mark(struct command_t *cmd, char *path, char 
         else
           if(!(alloced >= new_path_len))
           {
-            void *return_value_realloc$6;
-            return_value_realloc$6=realloc((void *)new_path, (unsigned long int)new_path_len);
-            if(return_value_realloc$6 == NULL)
+            void *return_value_realloc_6;
+            return_value_realloc_6=realloc((void *)new_path, (unsigned long int)new_path_len);
+            if(return_value_realloc_6 == NULL)
             {
               free((void *)new_path);
               return -1;
@@ -8156,20 +8156,20 @@ signed int dotconf_handle_question_mark(struct command_t *cmd, char *path, char 
           strncpy(new_pre, dirptr->d_name, (unsigned long int)(name_len > pre_len ? pre_len + 1 : pre_len));
           new_pre[(signed long int)(name_len > pre_len ? pre_len + 1 : pre_len)] = (char)0;
           snprintf(new_path, (unsigned long int)new_path_len, "%s%s%s", path, (const void *)new_pre, ext);
-          signed int return_value_strcmp$7;
-          return_value_strcmp$7=strcmp(new_path, already_matched);
-          if(return_value_strcmp$7 == 0)
+          signed int return_value_strcmp_7;
+          return_value_strcmp_7=strcmp(new_path, already_matched);
+          if(return_value_strcmp_7 == 0)
             continue;
 
           else
             strcpy(already_matched, new_path);
-          signed int return_value_dotconf_find_wild_card$9;
-          return_value_dotconf_find_wild_card$9=dotconf_find_wild_card(new_path, &wc, &wc_path, &wc_pre, &wc_ext);
-          if(return_value_dotconf_find_wild_card$9 >= 0)
+          signed int return_value_dotconf_find_wild_card_9;
+          return_value_dotconf_find_wild_card_9=dotconf_find_wild_card(new_path, &wc, &wc_path, &wc_pre, &wc_ext);
+          if(return_value_dotconf_find_wild_card_9 >= 0)
           {
-            signed int return_value_dotconf_handle_wild_card$8;
-            return_value_dotconf_handle_wild_card$8=dotconf_handle_wild_card(cmd, wc, wc_path, wc_pre, wc_ext);
-            if(!(return_value_dotconf_handle_wild_card$8 >= 0))
+            signed int return_value_dotconf_handle_wild_card_8;
+            return_value_dotconf_handle_wild_card_8=dotconf_handle_wild_card(cmd, wc, wc_path, wc_pre, wc_ext);
+            if(!(return_value_dotconf_handle_wild_card_8 >= 0))
             {
               dotconf_warning(cmd->configfile, 4, (unsigned long int)0x0004, "Error occured while processing wildcard %c\nFilename is '%s'\n", wc, new_path);
               free((void *)new_path);
@@ -8184,9 +8184,9 @@ signed int dotconf_handle_question_mark(struct command_t *cmd, char *path, char 
         }
 
         snprintf(new_path, (unsigned long int)new_path_len, "%s%s", path, (const void *)dirptr->d_name);
-        signed int return_value_access$10;
-        return_value_access$10=access(new_path, 4);
-        if(!(return_value_access$10 == 0))
+        signed int return_value_access_10;
+        return_value_access_10=access(new_path, 4);
+        if(!(return_value_access_10 == 0))
         {
           dotconf_warning(cmd->configfile, 4, (unsigned long int)0x0004, "Cannot open %s for inclusion.\nIncludePath is '%s'\n", new_path, cmd->configfile->includepath);
           return -1;
@@ -8240,27 +8240,27 @@ signed int dotconf_handle_star(struct command_t *cmd, char *path, char *pre, cha
   signed int match_state = 0;
   signed int t_ext_count = 0;
   signed int sub_count = 0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(pre);
-  pre_len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(pre);
+  pre_len = (signed int)return_value_strlen_1;
   memset((void *)already_matched, 0, (unsigned long int)256);
   s_ext = ext;
-  signed int return_value_dotconf_is_wild_card$2;
+  signed int return_value_dotconf_is_wild_card_2;
   do
   {
-    return_value_dotconf_is_wild_card$2=dotconf_is_wild_card(*s_ext);
-    if(return_value_dotconf_is_wild_card$2 == 0)
+    return_value_dotconf_is_wild_card_2=dotconf_is_wild_card(*s_ext);
+    if(return_value_dotconf_is_wild_card_2 == 0)
       break;
 
     s_ext = s_ext + 1l;
   }
   while((_Bool)1);
   t_ext = s_ext;
-  signed int return_value_dotconf_is_wild_card$3;
+  signed int return_value_dotconf_is_wild_card_3;
   for( ; !(t_ext == ((char *)NULL)); t_ext_count = t_ext_count + 1)
   {
-    return_value_dotconf_is_wild_card$3=dotconf_is_wild_card(*t_ext);
-    if(!(return_value_dotconf_is_wild_card$3 == 0))
+    return_value_dotconf_is_wild_card_3=dotconf_is_wild_card(*t_ext);
+    if(!(return_value_dotconf_is_wild_card_3 == 0))
       break;
 
     if((signed int)*t_ext == 0)
@@ -8284,19 +8284,19 @@ signed int dotconf_handle_star(struct command_t *cmd, char *path, char *pre, cha
       match_state=dotconf_star_match(dirptr->d_name, pre, s_ext);
       if(match_state >= 0)
       {
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(dirptr->d_name);
-        name_len = (signed int)return_value_strlen$4;
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(path);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(s_ext);
-        new_path_len = (signed int)(return_value_strlen$5 + (unsigned long int)name_len + return_value_strlen$6 + (unsigned long int)1);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(dirptr->d_name);
+        name_len = (signed int)return_value_strlen_4;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(path);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(s_ext);
+        new_path_len = (signed int)(return_value_strlen_5 + (unsigned long int)name_len + return_value_strlen_6 + (unsigned long int)1);
         if(alloced == 0)
         {
-          void *return_value_malloc$7;
-          return_value_malloc$7=malloc((unsigned long int)new_path_len);
-          new_path = (char *)return_value_malloc$7;
+          void *return_value_malloc_7;
+          return_value_malloc_7=malloc((unsigned long int)new_path_len);
+          new_path = (char *)return_value_malloc_7;
           if(new_path == ((char *)NULL))
             return -1;
 
@@ -8306,9 +8306,9 @@ signed int dotconf_handle_star(struct command_t *cmd, char *path, char *pre, cha
         else
           if(!(alloced >= new_path_len))
           {
-            void *return_value_realloc$8;
-            return_value_realloc$8=realloc((void *)new_path, (unsigned long int)new_path_len);
-            if(return_value_realloc$8 == NULL)
+            void *return_value_realloc_8;
+            return_value_realloc_8=realloc((void *)new_path, (unsigned long int)new_path_len);
+            if(return_value_realloc_8 == NULL)
             {
               free((void *)new_path);
               return -1;
@@ -8331,20 +8331,20 @@ signed int dotconf_handle_star(struct command_t *cmd, char *path, char *pre, cha
           new_pre[(signed long int)(sub_count + t_ext_count)] = (char)0;
           strcat(new_pre, new_ext);
           snprintf(new_path, (unsigned long int)new_path_len, "%s%s%s", path, (const void *)new_pre, t_ext);
-          signed int return_value_strcmp$9;
-          return_value_strcmp$9=strcmp(new_path, already_matched);
-          if(return_value_strcmp$9 == 0)
+          signed int return_value_strcmp_9;
+          return_value_strcmp_9=strcmp(new_path, already_matched);
+          if(return_value_strcmp_9 == 0)
             continue;
 
           else
             strcpy(already_matched, new_path);
-          signed int return_value_dotconf_find_wild_card$11;
-          return_value_dotconf_find_wild_card$11=dotconf_find_wild_card(new_path, &wc, &wc_path, &wc_pre, &wc_ext);
-          if(return_value_dotconf_find_wild_card$11 >= 0)
+          signed int return_value_dotconf_find_wild_card_11;
+          return_value_dotconf_find_wild_card_11=dotconf_find_wild_card(new_path, &wc, &wc_path, &wc_pre, &wc_ext);
+          if(return_value_dotconf_find_wild_card_11 >= 0)
           {
-            signed int return_value_dotconf_handle_wild_card$10;
-            return_value_dotconf_handle_wild_card$10=dotconf_handle_wild_card(cmd, wc, wc_path, wc_pre, wc_ext);
-            if(!(return_value_dotconf_handle_wild_card$10 >= 0))
+            signed int return_value_dotconf_handle_wild_card_10;
+            return_value_dotconf_handle_wild_card_10=dotconf_handle_wild_card(cmd, wc, wc_path, wc_pre, wc_ext);
+            if(!(return_value_dotconf_handle_wild_card_10 >= 0))
             {
               dotconf_warning(cmd->configfile, 4, (unsigned long int)0x0004, "Error occured while processing wildcard %c\nFilename is '%s'\n", wc, new_path);
               free((void *)new_path);
@@ -8359,9 +8359,9 @@ signed int dotconf_handle_star(struct command_t *cmd, char *path, char *pre, cha
         }
 
         snprintf(new_path, (unsigned long int)new_path_len, "%s%s", path, (const void *)dirptr->d_name);
-        signed int return_value_access$12;
-        return_value_access$12=access(new_path, 4);
-        if(!(return_value_access$12 == 0))
+        signed int return_value_access_12;
+        return_value_access_12=access(new_path, 4);
+        if(!(return_value_access_12 == 0))
         {
           dotconf_warning(cmd->configfile, 4, (unsigned long int)0x0004, "Cannot open %s for inclusion.\nIncludePath is '%s'\n", new_path, cmd->configfile->includepath);
           return -1;
@@ -8426,9 +8426,9 @@ signed int dotconf_is_wild_card(char value)
   signed int retval = 0;
   signed int i;
   signed int wildcards_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen("*?");
-  wildcards_len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen("*?");
+  wildcards_len = (signed int)return_value_strlen_1;
   i = 0;
   for( ; !(i >= wildcards_len); i = i + 1)
     if(value == "*?"[(signed long int)i])
@@ -8446,68 +8446,68 @@ signed int dotconf_question_mark_match(char *dir_name, char *pre, char *ext)
 {
   signed int retval = -1;
   signed int dir_name_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(dir_name);
-  dir_name_len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(dir_name);
+  dir_name_len = (signed int)return_value_strlen_1;
   signed int pre_len;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(pre);
-  pre_len = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(pre);
+  pre_len = (signed int)return_value_strlen_2;
   signed int ext_len;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(ext);
-  ext_len = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(ext);
+  ext_len = (signed int)return_value_strlen_3;
   signed int w_card_check;
-  unsigned long int return_value_strcspn$4;
-  return_value_strcspn$4=strcspn(ext, "*?");
-  w_card_check = (signed int)return_value_strcspn$4;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strncmp$8;
+  unsigned long int return_value_strcspn_4;
+  return_value_strcspn_4=strcspn(ext, "*?");
+  w_card_check = (signed int)return_value_strcspn_4;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strncmp_8;
   if(!(w_card_check >= ext_len))
   {
-    return_value_strncmp$8=strncmp(dir_name, pre, (unsigned long int)pre_len);
-    tmp_if_expr$9 = return_value_strncmp$8 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strncmp_8=strncmp(dir_name, pre, (unsigned long int)pre_len);
+    tmp_if_expr_9 = return_value_strncmp_8 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  _Bool tmp_if_expr$11;
-  signed int return_value_strcmp$10;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (_Bool)0;
+  _Bool tmp_if_expr_11;
+  signed int return_value_strcmp_10;
+  if(tmp_if_expr_9)
   {
-    return_value_strcmp$10=strcmp(dir_name, ".");
-    tmp_if_expr$11 = return_value_strcmp$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_10=strcmp(dir_name, ".");
+    tmp_if_expr_11 = return_value_strcmp_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  _Bool tmp_if_expr$13;
-  signed int return_value_strcmp$12;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (_Bool)0;
+  _Bool tmp_if_expr_13;
+  signed int return_value_strcmp_12;
+  if(tmp_if_expr_11)
   {
-    return_value_strcmp$12=strcmp(dir_name, "..");
-    tmp_if_expr$13 = return_value_strcmp$12 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_12=strcmp(dir_name, "..");
+    tmp_if_expr_13 = return_value_strcmp_12 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$13 = (_Bool)0;
-  signed int return_value_strncmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  if(tmp_if_expr$13)
+    tmp_if_expr_13 = (_Bool)0;
+  signed int return_value_strncmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  if(tmp_if_expr_13)
     retval = 1;
 
   else
     if(dir_name_len >= pre_len)
     {
-      return_value_strncmp$7=strncmp(dir_name, pre, (unsigned long int)pre_len);
-      if(return_value_strncmp$7 == 0)
+      return_value_strncmp_7=strncmp(dir_name, pre, (unsigned long int)pre_len);
+      if(return_value_strncmp_7 == 0)
       {
-        return_value_strcmp$6=strcmp(dir_name, ".");
-        if(!(return_value_strcmp$6 == 0))
+        return_value_strcmp_6=strcmp(dir_name, ".");
+        if(!(return_value_strcmp_6 == 0))
         {
-          return_value_strcmp$5=strcmp(dir_name, "..");
-          if(!(return_value_strcmp$5 == 0))
+          return_value_strcmp_5=strcmp(dir_name, "..");
+          if(!(return_value_strcmp_5 == 0))
             retval = 0;
 
         }
@@ -8534,28 +8534,28 @@ char * dotconf_read_arg(struct configfile_t *configfile, char **line)
   done = 0;
   cp2 = buf;
   eos = (cp2 + (signed long int)4064) - (signed long int)1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)*cp1 == 35)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*cp1 != 0) ? (_Bool)1 : (_Bool)0;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$11;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  char *tmp_post$3;
-  char *tmp_if_expr$14;
-  char *return_value_strdup$13;
-  char *tmp_if_expr$17;
-  char *return_value_strdup$15;
-  char *return_value_dotconf_substitute_env$16;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*cp1 != 0) ? (_Bool)1 : (_Bool)0;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_11;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  char *tmp_post_3;
+  char *tmp_if_expr_14;
+  char *return_value_strdup_13;
+  char *tmp_if_expr_17;
+  char *return_value_strdup_15;
+  char *return_value_dotconf_substitute_env_16;
+  if(tmp_if_expr_1)
     return (char *)(void *)0;
 
   else
@@ -8602,10 +8602,10 @@ char * dotconf_read_arg(struct configfile_t *configfile, char **line)
         case 92:
           if(!(cp1[1l] == 0))
           {
-            tmp_post$2 = cp2;
+            tmp_post_2 = cp2;
             cp2 = cp2 + 1l;
             cp1 = cp1 + 1l;
-            *tmp_post$2 = *cp1;
+            *tmp_post_2 = *cp1;
             cp1 = cp1 + 1l;
             break;
           }
@@ -8615,9 +8615,9 @@ char * dotconf_read_arg(struct configfile_t *configfile, char **line)
 
         __CPROVER_DUMP_L12:
           ;
-          const unsigned short int **return_value___ctype_b_loc$12;
-          return_value___ctype_b_loc$12=__ctype_b_loc();
-          if(dq == 0 && sq == 0 && !((8192 & (signed int)(*return_value___ctype_b_loc$12)[(signed long int)(signed int)*cp1]) == 0))
+          const unsigned short int **return_value___ctype_b_loc_12;
+          return_value___ctype_b_loc_12=__ctype_b_loc();
+          if(dq == 0 && sq == 0 && !((8192 & (signed int)(*return_value___ctype_b_loc_12)[(signed long int)(signed int)*cp1]) == 0))
           {
             *cp2 = (char)0;
             goto __CPROVER_DUMP_L31;
@@ -8626,11 +8626,11 @@ char * dotconf_read_arg(struct configfile_t *configfile, char **line)
           else
           {
             if(dq == 0 && sq == 0 && (signed int)*cp1 == 35)
-              tmp_if_expr$11 = !((configfile->flags & (unsigned long int)(1 << 2)) != 0ul) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_11 = !((configfile->flags & (unsigned long int)(1 << 2)) != 0ul) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$11 = (_Bool)0;
-            if(tmp_if_expr$11)
+              tmp_if_expr_11 = (_Bool)0;
+            if(tmp_if_expr_11)
             {
               *cp2 = (char)0;
               *cp1 = (char)0;
@@ -8640,46 +8640,46 @@ char * dotconf_read_arg(struct configfile_t *configfile, char **line)
 
             else
             {
-              return_value___ctype_b_loc$4=__ctype_b_loc();
-              if((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*cp1]) == 0 && dq == 0 && sq == 0)
-                tmp_if_expr$5 = (signed int)*cp1 != 34 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_4=__ctype_b_loc();
+              if((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*cp1]) == 0 && dq == 0 && sq == 0)
+                tmp_if_expr_5 = (signed int)*cp1 != 34 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$5 = (_Bool)0;
-              if(tmp_if_expr$5)
-                tmp_if_expr$6 = (signed int)*cp1 != 39 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = (_Bool)0;
+              if(tmp_if_expr_5)
+                tmp_if_expr_6 = (signed int)*cp1 != 39 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$6 = (_Bool)0;
-              if(tmp_if_expr$6)
-                tmp_if_expr$8 = (_Bool)1;
+                tmp_if_expr_6 = (_Bool)0;
+              if(tmp_if_expr_6)
+                tmp_if_expr_8 = (_Bool)1;
 
               else
               {
                 if(!(dq == 0))
-                  tmp_if_expr$7 = (signed int)*cp1 != 34 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_7 = (signed int)*cp1 != 34 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$7 = (_Bool)0;
-                tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_7 = (_Bool)0;
+                tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$8)
-                tmp_if_expr$10 = (_Bool)1;
+              if(tmp_if_expr_8)
+                tmp_if_expr_10 = (_Bool)1;
 
               else
               {
                 if(!(sq == 0))
-                  tmp_if_expr$9 = (signed int)*cp1 != 39 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_9 = (signed int)*cp1 != 39 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$9 = (_Bool)0;
-                tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_9 = (_Bool)0;
+                tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$10)
+              if(tmp_if_expr_10)
               {
-                tmp_post$3 = cp2;
+                tmp_post_3 = cp2;
                 cp2 = cp2 + 1l;
-                *tmp_post$3 = *cp1;
+                *tmp_post_3 = *cp1;
               }
 
             }
@@ -8696,27 +8696,27 @@ char * dotconf_read_arg(struct configfile_t *configfile, char **line)
     {
       if(!(buf[0l] == 0))
       {
-        return_value_strdup$13=strdup(buf);
-        tmp_if_expr$14 = return_value_strdup$13;
+        return_value_strdup_13=strdup(buf);
+        tmp_if_expr_14 = return_value_strdup_13;
       }
 
       else
-        tmp_if_expr$14 = (char *)(void *)0;
-      return tmp_if_expr$14;
+        tmp_if_expr_14 = (char *)(void *)0;
+      return tmp_if_expr_14;
     }
 
     else
     {
       if(!(buf[0l] == 0))
       {
-        return_value_strdup$15=strdup(buf);
-        return_value_dotconf_substitute_env$16=dotconf_substitute_env(configfile, return_value_strdup$15);
-        tmp_if_expr$17 = return_value_dotconf_substitute_env$16;
+        return_value_strdup_15=strdup(buf);
+        return_value_dotconf_substitute_env_16=dotconf_substitute_env(configfile, return_value_strdup_15);
+        tmp_if_expr_17 = return_value_dotconf_substitute_env_16;
       }
 
       else
-        tmp_if_expr$17 = (char *)(void *)0;
-      return tmp_if_expr$17;
+        tmp_if_expr_17 = (char *)(void *)0;
+      return tmp_if_expr_17;
     }
   }
 }
@@ -8726,19 +8726,19 @@ char * dotconf_read_arg(struct configfile_t *configfile, char **line)
 void dotconf_register_options(struct configfile_t *configfile, const struct configoption_t *options)
 {
   signed int num = configfile->config_option_count;
-  void *return_value_malloc$1;
-  void *return_value_realloc$2;
+  void *return_value_malloc_1;
+  void *return_value_realloc_2;
   if(configfile->config_options == ((const struct configoption_t **)NULL))
   {
-    return_value_malloc$1=malloc(sizeof(void *) /*8ul*/  * (unsigned long int)(10 + 1));
-    configfile->config_options = (const struct configoption_t **)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(void *) /*8ul*/  * (unsigned long int)(10 + 1));
+    configfile->config_options = (const struct configoption_t **)return_value_malloc_1;
   }
 
   else
     if(num % 10 == 0)
     {
-      return_value_realloc$2=realloc((void *)configfile->config_options, sizeof(void *) /*8ul*/  * (unsigned long int)(num + 10 + 1));
-      configfile->config_options = (const struct configoption_t **)return_value_realloc$2;
+      return_value_realloc_2=realloc((void *)configfile->config_options, sizeof(void *) /*8ul*/  * (unsigned long int)(num + 10 + 1));
+      configfile->config_options = (const struct configoption_t **)return_value_realloc_2;
     }
 
   configfile->config_options[(signed long int)configfile->config_option_count] = options;
@@ -8751,22 +8751,22 @@ void dotconf_register_options(struct configfile_t *configfile, const struct conf
 void dotconf_set_command(struct configfile_t *configfile, const struct configoption_t *option, char *args, struct command_t *cmd)
 {
   char *eob = ((char *)NULL);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(args);
-  eob = args + (signed long int)return_value_strlen$1;
-  char *tmp_if_expr$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(args);
+  eob = args + (signed long int)return_value_strlen_1;
+  char *tmp_if_expr_2;
   if(option->type == 4)
-    tmp_if_expr$2 = name;
+    tmp_if_expr_2 = name;
 
   else
-    tmp_if_expr$2 = option->name;
-  cmd->name = tmp_if_expr$2;
+    tmp_if_expr_2 = option->name;
+  cmd->name = tmp_if_expr_2;
   cmd->option = (struct configoption_t *)option;
   cmd->context = configfile->context;
   cmd->configfile = configfile;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)16, sizeof(char *) /*8ul*/ );
-  cmd->data.list = (char **)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)16, sizeof(char *) /*8ul*/ );
+  cmd->data.list = (char **)return_value_calloc_3;
   cmd->data.str = ((char *)NULL);
   if(option->type == 5)
     cmd->data.str=strdup(args);
@@ -8776,9 +8776,9 @@ void dotconf_set_command(struct configfile_t *configfile, const struct configopt
     {
       char *cp = args;
       safe_skip_whitespace(&cp, (signed int)((signed long int)eob - (signed long int)cp), (char)0);
-      signed int return_value_strncmp$4;
-      return_value_strncmp$4=strncmp("<<", cp, (unsigned long int)2);
-      if(return_value_strncmp$4 == 0)
+      signed int return_value_strncmp_4;
+      return_value_strncmp_4=strncmp("<<", cp, (unsigned long int)2);
+      if(return_value_strncmp_4 == 0)
       {
         cmd->data.str=dotconf_get_here_document(configfile, cp + (signed long int)2);
         cmd->arg_count = 1;
@@ -8786,22 +8786,22 @@ void dotconf_set_command(struct configfile_t *configfile, const struct configopt
 
     }
 
-  _Bool tmp_if_expr$14;
+  _Bool tmp_if_expr_14;
   if(option->type == 2)
-    tmp_if_expr$14 = cmd->data.str != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_14 = cmd->data.str != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$14 = (_Bool)0;
-  signed int tmp_post$5;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  if(!tmp_if_expr$14)
+    tmp_if_expr_14 = (_Bool)0;
+  signed int tmp_post_5;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  if(!tmp_if_expr_14)
   {
     safe_skip_whitespace(&args, (signed int)(eob - args), (char)0);
     cmd->arg_count = 0;
@@ -8819,9 +8819,9 @@ void dotconf_set_command(struct configfile_t *configfile, const struct configopt
       {
         if(!(*args == 0))
         {
-          tmp_post$5 = cmd->arg_count;
+          tmp_post_5 = cmd->arg_count;
           cmd->arg_count = cmd->arg_count + 1;
-          cmd->data.list[(signed long int)tmp_post$5]=strdup(args);
+          cmd->data.list[(signed long int)tmp_post_5]=strdup(args);
         }
 
       }
@@ -8829,16 +8829,16 @@ void dotconf_set_command(struct configfile_t *configfile, const struct configopt
     }
 
     if(!(option->name == ((const char *)NULL)))
-      tmp_if_expr$12 = (signed int)option->name[(signed long int)0] > 32 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_12 = (signed int)option->name[(signed long int)0] > 32 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
-      tmp_if_expr$13 = (_Bool)1;
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
+      tmp_if_expr_13 = (_Bool)1;
 
     else
-      tmp_if_expr$13 = option->type == 4 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$13)
+      tmp_if_expr_13 = option->type == 4 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_13)
       switch(option->type)
       {
         case 0:
@@ -8850,40 +8850,40 @@ void dotconf_set_command(struct configfile_t *configfile, const struct configopt
           }
 
           if((signed int)*(*cmd->data.list) == 89)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (signed int)cmd->data.list[(signed long int)0][(signed long int)0] == 121 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_6 = (signed int)cmd->data.list[(signed long int)0][(signed long int)0] == 121 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = (signed int)cmd->data.list[(signed long int)0][(signed long int)0] == 49 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$7)
-            tmp_if_expr$11 = (_Bool)1;
+            tmp_if_expr_7 = (signed int)cmd->data.list[(signed long int)0][(signed long int)0] == 49 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_7)
+            tmp_if_expr_11 = (_Bool)1;
 
           else
           {
             if((signed int)*(*cmd->data.list) == 111)
-              tmp_if_expr$8 = (_Bool)1;
+              tmp_if_expr_8 = (_Bool)1;
 
             else
-              tmp_if_expr$8 = (signed int)cmd->data.list[(signed long int)0][(signed long int)0] == 79 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$8)
+              tmp_if_expr_8 = (signed int)cmd->data.list[(signed long int)0][(signed long int)0] == 79 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_8)
             {
               if((signed int)(*cmd->data.list)[1l] == 110)
-                tmp_if_expr$9 = (_Bool)1;
+                tmp_if_expr_9 = (_Bool)1;
 
               else
-                tmp_if_expr$9 = (signed int)cmd->data.list[(signed long int)0][(signed long int)1] == 78 ? (_Bool)1 : (_Bool)0;
-              tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_9 = (signed int)cmd->data.list[(signed long int)0][(signed long int)1] == 78 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$10 = (_Bool)0;
-            tmp_if_expr$11 = tmp_if_expr$10 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_10 = (_Bool)0;
+            tmp_if_expr_11 = tmp_if_expr_10 ? (_Bool)1 : (_Bool)0;
           }
-          cmd->data.value = (signed long int)tmp_if_expr$11;
+          cmd->data.value = (signed long int)tmp_if_expr_11;
           break;
         }
         case 1:
@@ -8932,72 +8932,72 @@ signed int dotconf_star_match(char *dir_name, char *pre, char *ext)
 {
   signed int retval = -1;
   signed int dir_name_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(dir_name);
-  dir_name_len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(dir_name);
+  dir_name_len = (signed int)return_value_strlen_1;
   signed int pre_len;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(pre);
-  pre_len = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(pre);
+  pre_len = (signed int)return_value_strlen_2;
   signed int ext_len;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(ext);
-  ext_len = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(ext);
+  ext_len = (signed int)return_value_strlen_3;
   signed int w_card_check;
-  unsigned long int return_value_strcspn$4;
-  return_value_strcspn$4=strcspn(ext, "*?");
-  w_card_check = (signed int)return_value_strcspn$4;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strncmp$9;
+  unsigned long int return_value_strcspn_4;
+  return_value_strcspn_4=strcspn(ext, "*?");
+  w_card_check = (signed int)return_value_strcspn_4;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strncmp_9;
   if(!(w_card_check >= ext_len))
   {
-    return_value_strncmp$9=strncmp(dir_name, pre, (unsigned long int)pre_len);
-    tmp_if_expr$10 = return_value_strncmp$9 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strncmp_9=strncmp(dir_name, pre, (unsigned long int)pre_len);
+    tmp_if_expr_10 = return_value_strncmp_9 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$10 = (_Bool)0;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcmp$11;
-  if(tmp_if_expr$10)
+    tmp_if_expr_10 = (_Bool)0;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcmp_11;
+  if(tmp_if_expr_10)
   {
-    return_value_strcmp$11=strcmp(dir_name, ".");
-    tmp_if_expr$12 = return_value_strcmp$11 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_11=strcmp(dir_name, ".");
+    tmp_if_expr_12 = return_value_strcmp_11 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$12 = (_Bool)0;
-  _Bool tmp_if_expr$14;
-  signed int return_value_strcmp$13;
-  if(tmp_if_expr$12)
+    tmp_if_expr_12 = (_Bool)0;
+  _Bool tmp_if_expr_14;
+  signed int return_value_strcmp_13;
+  if(tmp_if_expr_12)
   {
-    return_value_strcmp$13=strcmp(dir_name, "..");
-    tmp_if_expr$14 = return_value_strcmp$13 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_13=strcmp(dir_name, "..");
+    tmp_if_expr_14 = return_value_strcmp_13 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$14 = (_Bool)0;
-  signed int return_value_dotconf_strcmp_from_back$8;
-  signed int return_value_strncmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  if(tmp_if_expr$14)
+    tmp_if_expr_14 = (_Bool)0;
+  signed int return_value_dotconf_strcmp_from_back_8;
+  signed int return_value_strncmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  if(tmp_if_expr_14)
     retval = 1;
 
   else
     if(dir_name_len >= ext_len + pre_len)
     {
-      return_value_dotconf_strcmp_from_back$8=dotconf_strcmp_from_back(dir_name, ext);
-      if(return_value_dotconf_strcmp_from_back$8 == 0)
+      return_value_dotconf_strcmp_from_back_8=dotconf_strcmp_from_back(dir_name, ext);
+      if(return_value_dotconf_strcmp_from_back_8 == 0)
       {
-        return_value_strncmp$7=strncmp(dir_name, pre, (unsigned long int)pre_len);
-        if(return_value_strncmp$7 == 0)
+        return_value_strncmp_7=strncmp(dir_name, pre, (unsigned long int)pre_len);
+        if(return_value_strncmp_7 == 0)
         {
-          return_value_strcmp$6=strcmp(dir_name, ".");
-          if(!(return_value_strcmp$6 == 0))
+          return_value_strcmp_6=strcmp(dir_name, ".");
+          if(!(return_value_strcmp_6 == 0))
           {
-            return_value_strcmp$5=strcmp(dir_name, "..");
-            if(!(return_value_strcmp$5 == 0))
+            return_value_strcmp_5=strcmp(dir_name, "..");
+            if(!(return_value_strcmp_5 == 0))
               retval = 0;
 
           }
@@ -9019,13 +9019,13 @@ signed int dotconf_strcmp_from_back(const char *s1, const char *s2)
   signed int i;
   signed int j;
   signed int len_1;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s1);
-  len_1 = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s1);
+  len_1 = (signed int)return_value_strlen_1;
   signed int len_2;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(s2);
-  len_2 = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(s2);
+  len_2 = (signed int)return_value_strlen_2;
   i = len_1;
   j = len_2;
   for( ; i >= 0 && j >= 0; j = j - 1)
@@ -9058,19 +9058,19 @@ char * dotconf_substitute_env(struct configfile_t *configfile, char *str)
   memset((void *)env_default, 0, (unsigned long int)(4064 + 1));
   memset((void *)tmp_value, 0, (unsigned long int)(4064 + 1));
   cp1 = str;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  eob = cp1 + (signed long int)return_value_strlen$1 + (signed long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  eob = cp1 + (signed long int)return_value_strlen_1 + (signed long int)1;
   cp2 = tmp_value;
   eos = cp2 + (signed long int)4064 + (signed long int)1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  _Bool tmp_if_expr$6;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$9;
-  char *tmp_post$10;
-  for( ; !(cp1 >= eob); *tmp_post$9 = *tmp_post$10)
+  char *tmp_post_2;
+  char *tmp_post_3;
+  _Bool tmp_if_expr_6;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_9;
+  char *tmp_post_10;
+  for( ; !(cp1 >= eob); *tmp_post_9 = *tmp_post_10)
   {
     if(cp2 >= eos)
       break;
@@ -9084,7 +9084,7 @@ char * dotconf_substitute_env(struct configfile_t *configfile, char *str)
       {
         cp1 = cp1 + (signed long int)2;
         cp3 = env_name;
-        for( ; !(cp1 >= eob); *tmp_post$2 = *tmp_post$3)
+        for( ; !(cp1 >= eob); *tmp_post_2 = *tmp_post_3)
         {
           if((signed int)*cp1 == 125)
             break;
@@ -9092,29 +9092,29 @@ char * dotconf_substitute_env(struct configfile_t *configfile, char *str)
           if((signed int)*cp1 == 58)
             break;
 
-          tmp_post$2 = cp3;
+          tmp_post_2 = cp3;
           cp3 = cp3 + 1l;
-          tmp_post$3 = cp1;
+          tmp_post_3 = cp1;
           cp1 = cp1 + 1l;
         }
         *cp3 = (char)0;
         if((signed int)*cp1 == 58)
-          tmp_if_expr$6 = (signed int)cp1[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (signed int)cp1[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
           cp1 = cp1 + (signed long int)2;
           cp3 = env_default;
-          for( ; !(cp1 >= eob); *tmp_post$4 = *tmp_post$5)
+          for( ; !(cp1 >= eob); *tmp_post_4 = *tmp_post_5)
           {
             if((signed int)*cp1 == 125)
               break;
 
-            tmp_post$4 = cp3;
+            tmp_post_4 = cp3;
             cp3 = cp3 + 1l;
-            tmp_post$5 = cp1;
+            tmp_post_5 = cp1;
             cp1 = cp1 + 1l;
           }
           *cp3 = (char)0;
@@ -9135,33 +9135,33 @@ char * dotconf_substitute_env(struct configfile_t *configfile, char *str)
           if(!(env_value == ((char *)NULL)))
           {
             strncat(cp2, env_value, (unsigned long int)(eos - cp2));
-            unsigned long int return_value_strlen$7;
-            return_value_strlen$7=strlen(env_value);
-            cp2 = cp2 + (signed long int)return_value_strlen$7;
+            unsigned long int return_value_strlen_7;
+            return_value_strlen_7=strlen(env_value);
+            cp2 = cp2 + (signed long int)return_value_strlen_7;
           }
 
           else
           {
             strncat(cp2, env_default, (unsigned long int)(eos - cp2));
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen(env_default);
-            cp2 = cp2 + (signed long int)return_value_strlen$8;
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen(env_default);
+            cp2 = cp2 + (signed long int)return_value_strlen_8;
           }
         }
       }
 
     }
 
-    tmp_post$9 = cp2;
+    tmp_post_9 = cp2;
     cp2 = cp2 + 1l;
-    tmp_post$10 = cp1;
+    tmp_post_10 = cp1;
     cp1 = cp1 + 1l;
   }
   *cp2 = (char)0;
   free((void *)str);
-  char *return_value_strdup$11;
-  return_value_strdup$11=strdup(tmp_value);
-  return return_value_strdup$11;
+  char *return_value_strdup_11;
+  return_value_strdup_11=strdup(tmp_value);
+  return return_value_strdup_11;
 }
 
 // dotconf_warning
@@ -9207,9 +9207,9 @@ static void end(void *data, const char *el)
 {
   struct xml_tag *xt;
   signed int rc;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(el);
-  xt=in_xml_list((char *)el, (unsigned int)return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(el);
+  xt=in_xml_list((char *)el, (unsigned int)return_value_strlen_1);
   if(!(xt == ((struct xml_tag *)NULL)))
   {
     switch((signed int)xt->tag)
@@ -9230,20 +9230,20 @@ __CPROVER_DUMP_L5:
   ;
 }
 
-// end$link1
+// end_link1
 // file ganglia.c line 141
-static void end$link1(void *data$link1, const char *el$link1)
+static void end_link1(void *data_link1, const char *el_link1)
 {
-  struct anonymous$36 *cluster = (struct anonymous$36 *)data$link1;
+  struct anonymous_36 *cluster = (struct anonymous_36 *)data_link1;
   struct _llist_entry *e;
   struct _llist_entry *e2;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp("HOST", el$link1);
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp("HOST", el_link1);
+  if(return_value_strcmp_1 == 0)
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct _llist_entry) /*24ul*/ );
-    e = (struct _llist_entry *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct _llist_entry) /*24ul*/ );
+    e = (struct _llist_entry *)return_value_malloc_2;
     if(e == ((struct _llist_entry *)NULL))
     {
       if(!(cluster->host == ((struct gexec_host_t *)NULL)))
@@ -9254,9 +9254,9 @@ static void end$link1(void *data$link1, const char *el$link1)
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct _llist_entry) /*24ul*/ );
-      e2 = (struct _llist_entry *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct _llist_entry) /*24ul*/ );
+      e2 = (struct _llist_entry *)return_value_malloc_3;
       if(e == ((struct _llist_entry *)NULL))
       {
         if(!(cluster->host == ((struct gexec_host_t *)NULL)))
@@ -9299,15 +9299,15 @@ static void end$link1(void *data$link1, const char *el$link1)
 // file process_xml.c line 1175
 static signed int endElement_CLUSTER(void *data, const char *el)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)data;
-  struct anonymous$7 hashkey;
-  struct anonymous$7 endElement_CLUSTER$$1$$hashval;
-  struct anonymous$7 *rdatum;
-  struct anonymous$8 *summary;
-  struct anonymous$11 *source;
-  signed int return_value_authority_mode$2;
-  return_value_authority_mode$2=authority_mode(xmldata);
-  if(!(return_value_authority_mode$2 == 0))
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)data;
+  struct anonymous_7 hashkey;
+  struct anonymous_7 endElement_CLUSTER__1__hashval;
+  struct anonymous_7 *rdatum;
+  struct anonymous_8 *summary;
+  struct anonymous_11 *source;
+  signed int return_value_authority_mode_2;
+  return_value_authority_mode_2=authority_mode(xmldata);
+  if(!(return_value_authority_mode_2 == 0))
   {
     source = &xmldata->source;
     pthread_mutex_lock(source->sum_finished);
@@ -9316,13 +9316,13 @@ static signed int endElement_CLUSTER(void *data, const char *el)
     xmldata->source.metric_summary = summary;
     pthread_mutex_unlock(source->sum_finished);
     hashkey.data = (void *)xmldata->sourcename;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(xmldata->sourcename);
-    hashkey.size = (unsigned int)(return_value_strlen$1 + (unsigned long int)1);
-    endElement_CLUSTER$$1$$hashval.data = (void *)source;
-    endElement_CLUSTER$$1$$hashval.size = (unsigned int)((sizeof(struct anonymous$11) /*1664ul*/  - (unsigned long int)1572) + (unsigned long int)source->stringslen);
-    rdatum=hash_insert(&hashkey, &endElement_CLUSTER$$1$$hashval, xmldata->root);
-    if(rdatum == ((struct anonymous$7 *)NULL))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(xmldata->sourcename);
+    hashkey.size = (unsigned int)(return_value_strlen_1 + (unsigned long int)1);
+    endElement_CLUSTER__1__hashval.data = (void *)source;
+    endElement_CLUSTER__1__hashval.size = (unsigned int)((sizeof(struct anonymous_11) /*1664ul*/  - (unsigned long int)1572) + (unsigned long int)source->stringslen);
+    rdatum=hash_insert(&hashkey, &endElement_CLUSTER__1__hashval, xmldata->root);
+    if(rdatum == ((struct anonymous_7 *)NULL))
     {
       err_msg("Could not insert source %s", xmldata->sourcename);
       return 1;
@@ -9338,7 +9338,7 @@ static signed int endElement_CLUSTER(void *data, const char *el)
 // file process_xml.c line 1124
 static signed int endElement_GRID(void *data, const char *el)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)data;
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)data;
   if(gmetad_config.scalable_mode == 0)
     return 0;
 
@@ -9346,14 +9346,14 @@ static signed int endElement_GRID(void *data, const char *el)
   {
     xmldata->grid_depth = xmldata->grid_depth - 1;
     debug_msg("Found a </GRID>, depth is now %d", xmldata->grid_depth);
-    struct anonymous$7 hashkey;
-    struct anonymous$7 endElement_GRID$$1$$hashval;
-    struct anonymous$7 *rdatum;
-    struct anonymous$8 *summary;
-    struct anonymous$11 *source;
-    signed int return_value_authority_mode$2;
-    return_value_authority_mode$2=authority_mode(xmldata);
-    if(!(return_value_authority_mode$2 == 0))
+    struct anonymous_7 hashkey;
+    struct anonymous_7 endElement_GRID__1__hashval;
+    struct anonymous_7 *rdatum;
+    struct anonymous_8 *summary;
+    struct anonymous_11 *source;
+    signed int return_value_authority_mode_2;
+    return_value_authority_mode_2=authority_mode(xmldata);
+    if(!(return_value_authority_mode_2 == 0))
     {
       source = &xmldata->source;
       pthread_mutex_lock(source->sum_finished);
@@ -9362,13 +9362,13 @@ static signed int endElement_GRID(void *data, const char *el)
       xmldata->source.metric_summary = summary;
       pthread_mutex_unlock(source->sum_finished);
       hashkey.data = (void *)xmldata->sourcename;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(xmldata->sourcename);
-      hashkey.size = (unsigned int)(return_value_strlen$1 + (unsigned long int)1);
-      endElement_GRID$$1$$hashval.data = (void *)source;
-      endElement_GRID$$1$$hashval.size = (unsigned int)((sizeof(struct anonymous$11) /*1664ul*/  - (unsigned long int)1572) + (unsigned long int)source->stringslen);
-      rdatum=hash_insert(&hashkey, &endElement_GRID$$1$$hashval, xmldata->root);
-      if(rdatum == ((struct anonymous$7 *)NULL))
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(xmldata->sourcename);
+      hashkey.size = (unsigned int)(return_value_strlen_1 + (unsigned long int)1);
+      endElement_GRID__1__hashval.data = (void *)source;
+      endElement_GRID__1__hashval.size = (unsigned int)((sizeof(struct anonymous_11) /*1664ul*/  - (unsigned long int)1572) + (unsigned long int)source->stringslen);
+      rdatum=hash_insert(&hashkey, &endElement_GRID__1__hashval, xmldata->root);
+      if(rdatum == ((struct anonymous_7 *)NULL))
       {
         err_msg("Could not insert source %s", xmldata->sourcename);
         return 1;
@@ -9388,20 +9388,20 @@ static void err_doit(signed int errnoflag, signed int level, const char *fmt, vo
   signed int errno_save;
   signed int n;
   char buf[4097l];
-  char *return_value_strerror$3;
+  char *return_value_strerror_3;
   if(ganglia_quiet_errors == 0)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    errno_save = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    errno_save = *return_value___errno_location_1;
     vsnprintf(buf, (unsigned long int)4096, fmt, ap);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(buf);
-    n = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(buf);
+    n = (signed int)return_value_strlen_2;
     if(!(errnoflag == 0))
     {
-      return_value_strerror$3=strerror(errno_save);
-      snprintf(buf + (signed long int)n, (unsigned long int)(4096 - n), ": %s", return_value_strerror$3);
+      return_value_strerror_3=strerror(errno_save);
+      snprintf(buf + (signed long int)n, (unsigned long int)(4096 - n), ": %s", return_value_strerror_3);
     }
 
     strcat(buf, "\n");
@@ -9503,7 +9503,7 @@ static signed int errorhandler(struct configfile_t *configfile, signed int type,
 
 // fillmetric
 // file process_xml.c line 72
-static void fillmetric(const char **attr, struct anonymous$9 *metric, const char *type)
+static void fillmetric(const char **attr, struct anonymous_9 *metric, const char *type)
 {
   signed int i;
   signed int edge = 0;
@@ -9513,23 +9513,23 @@ static void fillmetric(const char **attr, struct anonymous$9 *metric, const char
   char *p;
   metric->slope = (signed short int)-1;
   i = 0;
-  unsigned long int return_value_strlen$2;
-  double return_value_strtod$3;
-  unsigned long int return_value_strlen$4;
-  signed int return_value_addstring$5;
-  signed int return_value_addstring$6;
-  signed int return_value_addstring$7;
-  signed int return_value_atoi$8;
-  signed int return_value_atoi$9;
-  signed int return_value_atoi$10;
-  signed int return_value_addstring$11;
-  signed int return_value_addstring$12;
-  signed int return_value_atoi$13;
+  unsigned long int return_value_strlen_2;
+  double return_value_strtod_3;
+  unsigned long int return_value_strlen_4;
+  signed int return_value_addstring_5;
+  signed int return_value_addstring_6;
+  signed int return_value_addstring_7;
+  signed int return_value_atoi_8;
+  signed int return_value_atoi_9;
+  signed int return_value_atoi_10;
+  signed int return_value_addstring_11;
+  signed int return_value_addstring_12;
+  signed int return_value_atoi_13;
   for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(attr[(signed long int)i]);
-    xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(attr[(signed long int)i]);
+    xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_1);
     if(!(xt == ((struct xml_tag *)NULL)))
       switch((signed int)xt->tag)
       {
@@ -9538,8 +9538,8 @@ static void fillmetric(const char **attr, struct anonymous$9 *metric, const char
         case VAL_TAG:
         {
           metricval = (char *)attr[(signed long int)(i + 1)];
-          return_value_strlen$2=strlen(type);
-          tt=in_type_list(type, (unsigned int)return_value_strlen$2);
+          return_value_strlen_2=strlen(type);
+          tt=in_type_list(type, (unsigned int)return_value_strlen_2);
           if(tt == ((struct type_tag *)NULL))
             goto __CPROVER_DUMP_L21;
 
@@ -9553,13 +9553,13 @@ static void fillmetric(const char **attr, struct anonymous$9 *metric, const char
 
             case FLOAT:
             {
-              return_value_strtod$3=strtod(metricval, (char **)(void *)0);
-              metric->val.d = (double)return_value_strtod$3;
+              return_value_strtod_3=strtod(metricval, (char **)(void *)0);
+              metric->val.d = (double)return_value_strtod_3;
               p=strrchr(metricval, 46);
               if(!(p == ((char *)NULL)))
               {
-                return_value_strlen$4=strlen(p + (signed long int)1);
-                metric->precision = (signed short int)return_value_strlen$4;
+                return_value_strlen_4=strlen(p + (signed long int)1);
+                metric->precision = (signed short int)return_value_strlen_4;
               }
 
               break;
@@ -9567,56 +9567,56 @@ static void fillmetric(const char **attr, struct anonymous$9 *metric, const char
             case STRING:
               ;
           }
-          return_value_addstring$5=addstring(metric->strings, &edge, metricval);
-          metric->valstr = (signed short int)return_value_addstring$5;
+          return_value_addstring_5=addstring(metric->strings, &edge, metricval);
+          metric->valstr = (signed short int)return_value_addstring_5;
           break;
         }
         case TYPE_TAG:
         {
-          return_value_addstring$6=addstring(metric->strings, &edge, attr[(signed long int)(i + 1)]);
-          metric->type = (signed short int)return_value_addstring$6;
+          return_value_addstring_6=addstring(metric->strings, &edge, attr[(signed long int)(i + 1)]);
+          metric->type = (signed short int)return_value_addstring_6;
           break;
         }
         case UNITS_TAG:
         {
-          return_value_addstring$7=addstring(metric->strings, &edge, attr[(signed long int)(i + 1)]);
-          metric->units = (signed short int)return_value_addstring$7;
+          return_value_addstring_7=addstring(metric->strings, &edge, attr[(signed long int)(i + 1)]);
+          metric->units = (signed short int)return_value_addstring_7;
           break;
         }
         case TN_TAG:
         {
-          return_value_atoi$8=atoi(attr[(signed long int)(i + 1)]);
-          metric->tn = (unsigned int)return_value_atoi$8;
+          return_value_atoi_8=atoi(attr[(signed long int)(i + 1)]);
+          metric->tn = (unsigned int)return_value_atoi_8;
           break;
         }
         case TMAX_TAG:
         {
-          return_value_atoi$9=atoi(attr[(signed long int)(i + 1)]);
-          metric->tmax = (unsigned int)return_value_atoi$9;
+          return_value_atoi_9=atoi(attr[(signed long int)(i + 1)]);
+          metric->tmax = (unsigned int)return_value_atoi_9;
           break;
         }
         case DMAX_TAG:
         {
-          return_value_atoi$10=atoi(attr[(signed long int)(i + 1)]);
-          metric->dmax = (unsigned int)return_value_atoi$10;
+          return_value_atoi_10=atoi(attr[(signed long int)(i + 1)]);
+          metric->dmax = (unsigned int)return_value_atoi_10;
           break;
         }
         case SLOPE_TAG:
         {
-          return_value_addstring$11=addstring(metric->strings, &edge, attr[(signed long int)(i + 1)]);
-          metric->slope = (signed short int)return_value_addstring$11;
+          return_value_addstring_11=addstring(metric->strings, &edge, attr[(signed long int)(i + 1)]);
+          metric->slope = (signed short int)return_value_addstring_11;
           break;
         }
         case SOURCE_TAG:
         {
-          return_value_addstring$12=addstring(metric->strings, &edge, attr[(signed long int)(i + 1)]);
-          metric->source = (signed short int)return_value_addstring$12;
+          return_value_addstring_12=addstring(metric->strings, &edge, attr[(signed long int)(i + 1)]);
+          metric->source = (signed short int)return_value_addstring_12;
           break;
         }
         case NUM_TAG:
         {
-          return_value_atoi$13=atoi(attr[(signed long int)(i + 1)]);
-          metric->num = (unsigned int)return_value_atoi$13;
+          return_value_atoi_13=atoi(attr[(signed long int)(i + 1)]);
+          metric->num = (unsigned int)return_value_atoi_13;
           break;
         }
         default:
@@ -9632,35 +9632,35 @@ __CPROVER_DUMP_L21:
 
 // finish_processing_source
 // file process_xml.c line 1066
-static signed int finish_processing_source(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int finish_processing_source(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)arg;
-  char *finish_processing_source$$1$$name;
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)arg;
+  char *finish_processing_source__1__name;
   char *type;
   char sum[512l];
   char num[256l];
-  struct anonymous$9 *metric;
+  struct anonymous_9 *metric;
   struct type_tag *tt;
   struct _llist_entry *le;
-  finish_processing_source$$1$$name = (char *)key->data;
-  metric = (struct anonymous$9 *)val->data;
+  finish_processing_source__1__name = (char *)key->data;
+  metric = (struct anonymous_9 *)val->data;
   type=getfield(metric->strings, metric->type);
   if(!(xmldata->ds->dead == 0) || !(gmetad_config.write_rrds == 1))
     return 1;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(type);
-    tt=in_type_list(type, (unsigned int)return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(type);
+    tt=in_type_list(type, (unsigned int)return_value_strlen_1);
     if(tt == ((struct type_tag *)NULL))
       return 0;
 
     else
     {
-      signed int return_value_llist_search$2;
-      return_value_llist_search$2=llist_search(&gmetad_config.unsummarized_metrics, (void *)finish_processing_source$$1$$name, llist_strncmp, &le);
-      if(return_value_llist_search$2 == 0)
+      signed int return_value_llist_search_2;
+      return_value_llist_search_2=llist_search(&gmetad_config.unsummarized_metrics, (void *)finish_processing_source__1__name, llist_strncmp, &le);
+      if(return_value_llist_search_2 == 0)
         return 0;
 
       else
@@ -9682,12 +9682,12 @@ static signed int finish_processing_source(struct anonymous$7 *key, struct anony
         {
           if(xmldata->rval == 0)
           {
-            debug_msg("Writing Summary data for source %s, metric %s", xmldata->sourcename, finish_processing_source$$1$$name);
-            char *return_value_getfield$3;
-            return_value_getfield$3=getfield(metric->strings, metric->slope);
-            enum ganglia_slope return_value_cstr_to_slope$4;
-            return_value_cstr_to_slope$4=cstr_to_slope(return_value_getfield$3);
-            xmldata->rval=write_data_to_rrd(xmldata->sourcename, (const char *)(void *)0, finish_processing_source$$1$$name, sum, num, xmldata->ds->step, xmldata->source.localtime, return_value_cstr_to_slope$4);
+            debug_msg("Writing Summary data for source %s, metric %s", xmldata->sourcename, finish_processing_source__1__name);
+            char *return_value_getfield_3;
+            return_value_getfield_3=getfield(metric->strings, metric->slope);
+            enum ganglia_slope return_value_cstr_to_slope_4;
+            return_value_cstr_to_slope_4=cstr_to_slope(return_value_getfield_3);
+            xmldata->rval=write_data_to_rrd(xmldata->sourcename, (const char *)(void *)0, finish_processing_source__1__name, sum, num, xmldata->ds->step, xmldata->source.localtime, return_value_cstr_to_slope_4);
           }
 
         }
@@ -9718,13 +9718,13 @@ char * g_gethostbyaddr(const char *addr, unsigned long int length, signed int ty
   struct hostent *he;
   pthread_mutex_lock(&gethostbyname_mutex);
   he=gethostbyaddr((const void *)addr, (unsigned int)length, type);
-  char *return_value_strdup$1;
+  char *return_value_strdup_1;
   if(!(he == ((struct hostent *)NULL)))
   {
     if(!(he->h_name == ((char *)NULL)))
     {
-      return_value_strdup$1=strdup(he->h_name);
-      rv = (char *)return_value_strdup$1;
+      return_value_strdup_1=strdup(he->h_name);
+      rv = (char *)return_value_strdup_1;
     }
 
   }
@@ -9740,27 +9740,27 @@ signed int g_gethostbyname(const char *hostname, struct sockaddr_in *sa, char **
   signed int rv = 0;
   struct in_addr inaddr;
   struct hostent *he;
-  signed int return_value_inet_aton$2;
-  return_value_inet_aton$2=inet_aton(hostname, &inaddr);
-  char *return_value_strdup$1;
-  if(!(return_value_inet_aton$2 == 0))
+  signed int return_value_inet_aton_2;
+  return_value_inet_aton_2=inet_aton(hostname, &inaddr);
+  char *return_value_strdup_1;
+  if(!(return_value_inet_aton_2 == 0))
   {
     sa->sin_family = (unsigned short int)2;
     memcpy((void *)&sa->sin_addr, (const void *)(char *)&inaddr, sizeof(struct in_addr) /*4ul*/ );
     if(!(nicename == ((char **)NULL)))
     {
-      return_value_strdup$1=strdup(hostname);
-      *nicename = (char *)return_value_strdup$1;
+      return_value_strdup_1=strdup(hostname);
+      *nicename = (char *)return_value_strdup_1;
     }
 
     return 1;
   }
 
   pthread_mutex_lock(&gethostbyname_mutex);
-  struct hostent *return_value_gethostbyname$3;
-  return_value_gethostbyname$3=gethostbyname(hostname);
-  he = (struct hostent *)return_value_gethostbyname$3;
-  char *return_value_strdup$4;
+  struct hostent *return_value_gethostbyname_3;
+  return_value_gethostbyname_3=gethostbyname(hostname);
+  he = (struct hostent *)return_value_gethostbyname_3;
+  char *return_value_strdup_4;
   if(!(he == ((struct hostent *)NULL)))
   {
     if(he->h_addrtype == 2)
@@ -9777,8 +9777,8 @@ signed int g_gethostbyname(const char *hostname, struct sockaddr_in *sa, char **
         {
           if(!(he->h_name == ((char *)NULL)))
           {
-            return_value_strdup$4=strdup(he->h_name);
-            *nicename = (char *)return_value_strdup$4;
+            return_value_strdup_4=strdup(he->h_name);
+            *nicename = (char *)return_value_strdup_4;
           }
 
         }
@@ -9796,60 +9796,60 @@ signed int g_gethostbyname(const char *hostname, struct sockaddr_in *sa, char **
 
 // g_inetaddr_delete
 // file inetaddr.c line 156
-void g_inetaddr_delete(struct anonymous$4 *ia)
+void g_inetaddr_delete(struct anonymous_4 *ia)
 {
-  if(!(ia == ((struct anonymous$4 *)NULL)))
+  if(!(ia == ((struct anonymous_4 *)NULL)))
     g_inetaddr_unref(ia);
 
 }
 
 // g_inetaddr_get_interface_to
 // file inetaddr.c line 199
-struct anonymous$4 * g_inetaddr_get_interface_to(const struct anonymous$4 *addr)
+struct anonymous_4 * g_inetaddr_get_interface_to(const struct anonymous_4 *addr)
 {
   signed int sockfd;
   struct sockaddr_in myaddr;
   unsigned int len;
-  struct anonymous$4 *iface;
-  if(addr == ((const struct anonymous$4 *)NULL))
-    return (struct anonymous$4 *)(void *)0;
+  struct anonymous_4 *iface;
+  if(addr == ((const struct anonymous_4 *)NULL))
+    return (struct anonymous_4 *)(void *)0;
 
   else
   {
     sockfd=socket(2, 2, 0);
     if(sockfd == -1)
-      return (struct anonymous$4 *)(void *)0;
+      return (struct anonymous_4 *)(void *)0;
 
     else
     {
-      signed int return_value_connect$1;
-      return_value_connect$1=connect(sockfd, &addr->sa, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
-      if(return_value_connect$1 == -1)
+      signed int return_value_connect_1;
+      return_value_connect_1=connect(sockfd, &addr->sa, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
+      if(return_value_connect_1 == -1)
       {
         close(sockfd);
-        return (struct anonymous$4 *)(void *)0;
+        return (struct anonymous_4 *)(void *)0;
       }
 
       else
       {
         len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-        signed int return_value_getsockname$2;
-        return_value_getsockname$2=getsockname(sockfd, (struct sockaddr *)&myaddr, &len);
-        if(!(return_value_getsockname$2 == 0))
+        signed int return_value_getsockname_2;
+        return_value_getsockname_2=getsockname(sockfd, (struct sockaddr *)&myaddr, &len);
+        if(!(return_value_getsockname_2 == 0))
         {
           close(sockfd);
-          return (struct anonymous$4 *)(void *)0;
+          return (struct anonymous_4 *)(void *)0;
         }
 
         else
         {
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc(sizeof(struct anonymous$4) /*32ul*/ );
-          iface = (struct anonymous$4 *)return_value_malloc$3;
-          if(iface == ((struct anonymous$4 *)NULL))
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc(sizeof(struct anonymous_4) /*32ul*/ );
+          iface = (struct anonymous_4 *)return_value_malloc_3;
+          if(iface == ((struct anonymous_4 *)NULL))
           {
             close(sockfd);
-            return (struct anonymous$4 *)(void *)0;
+            return (struct anonymous_4 *)(void *)0;
           }
 
           else
@@ -9866,25 +9866,25 @@ struct anonymous$4 * g_inetaddr_get_interface_to(const struct anonymous$4 *addr)
 
 // g_inetaddr_get_port
 // file inetaddr.c line 163
-signed int g_inetaddr_get_port(const struct anonymous$4 *ia)
+signed int g_inetaddr_get_port(const struct anonymous_4 *ia)
 {
-  if(ia == ((const struct anonymous$4 *)NULL))
+  if(ia == ((const struct anonymous_4 *)NULL))
     return -1;
 
   else
   {
-    unsigned short int return_value_ntohs$1;
-    return_value_ntohs$1=ntohs(((struct sockaddr_in *)&ia->sa)->sin_port);
-    return (signed int)return_value_ntohs$1;
+    unsigned short int return_value_ntohs_1;
+    return_value_ntohs_1=ntohs(((struct sockaddr_in *)&ia->sa)->sin_port);
+    return (signed int)return_value_ntohs_1;
   }
 }
 
 // g_inetaddr_is_multicast
 // file inetaddr.c line 182
-signed int g_inetaddr_is_multicast(const struct anonymous$4 *inetaddr)
+signed int g_inetaddr_is_multicast(const struct anonymous_4 *inetaddr)
 {
   unsigned int addr;
-  if(inetaddr == ((const struct anonymous$4 *)NULL))
+  if(inetaddr == ((const struct anonymous_4 *)NULL))
     return 0;
 
   else
@@ -9912,7 +9912,7 @@ struct _llist_entry * g_inetaddr_list_interfaces(void)
   signed int sockfd;
   struct ifconf ifc;
   sockfd=socket(2, 2, 0);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(sockfd == -1)
     return (struct _llist_entry *)(void *)0;
 
@@ -9922,19 +9922,19 @@ struct _llist_entry * g_inetaddr_list_interfaces(void)
     lastlen = 0;
     while((_Bool)1)
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)len);
-      buf = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)len);
+      buf = (char *)return_value_malloc_1;
       memset((void *)buf, 0, (unsigned long int)len);
       ifc.ifc_len = len;
       ifc.ifc_ifcu.ifcu_buf = buf;
-      signed int return_value_ioctl$3;
-      return_value_ioctl$3=ioctl(sockfd, (unsigned long int)0x8912, &ifc);
-      if(!(return_value_ioctl$3 >= 0))
+      signed int return_value_ioctl_3;
+      return_value_ioctl_3=ioctl(sockfd, (unsigned long int)0x8912, &ifc);
+      if(!(return_value_ioctl_3 >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 22) || !(lastlen == 0))
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 22) || !(lastlen == 0))
         {
           free((void *)buf);
           return (struct _llist_entry *)(void *)0;
@@ -9957,28 +9957,28 @@ struct _llist_entry * g_inetaddr_list_interfaces(void)
     {
       struct ifreq *ifr = (struct ifreq *)ptr;
       struct sockaddr addr;
-      struct anonymous$4 *ia;
+      struct anonymous_4 *ia;
       ptr = ptr + (signed long int)sizeof(struct ifreq) /*40ul*/ ;
       if((signed int)ifr->ifr_ifru.ifru_addr.sa_family == 2)
       {
         memcpy((void *)&addr, (const void *)&ifr->ifr_ifru.ifru_addr, sizeof(struct sockaddr) /*16ul*/ );
         ioctl(sockfd, (unsigned long int)0x8913, ifr);
         if((1 & (signed int)ifr->ifr_ifru.ifru_flags) == 0)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = ((signed int)ifr->ifr_ifru.ifru_flags & 8) != 0 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = ((signed int)ifr->ifr_ifru.ifru_flags & 8) != 0 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_4)
         {
-          void *return_value_malloc$5;
-          return_value_malloc$5=malloc(sizeof(struct anonymous$4) /*32ul*/ );
-          ia = (struct anonymous$4 *)return_value_malloc$5;
-          memset((void *)ia, 0, sizeof(struct anonymous$4) /*32ul*/ );
+          void *return_value_malloc_5;
+          return_value_malloc_5=malloc(sizeof(struct anonymous_4) /*32ul*/ );
+          ia = (struct anonymous_4 *)return_value_malloc_5;
+          memset((void *)ia, 0, sizeof(struct anonymous_4) /*32ul*/ );
           ia->ref_count = (unsigned int)1;
           memcpy((void *)&ia->sa, (const void *)&addr, sizeof(struct sockaddr) /*16ul*/ );
-          void *return_value_malloc$6;
-          return_value_malloc$6=malloc(sizeof(struct _llist_entry) /*24ul*/ );
-          e = (struct _llist_entry *)return_value_malloc$6;
+          void *return_value_malloc_6;
+          return_value_malloc_6=malloc(sizeof(struct _llist_entry) /*24ul*/ );
+          e = (struct _llist_entry *)return_value_malloc_6;
           if(e == ((struct _llist_entry *)NULL))
           {
             free((void *)ia);
@@ -10000,32 +10000,32 @@ struct _llist_entry * g_inetaddr_list_interfaces(void)
 
 // g_inetaddr_new
 // file ../lib/net.h line 55
-struct anonymous$4 * g_inetaddr_new(const char *name, signed int port)
+struct anonymous_4 * g_inetaddr_new(const char *name, signed int port)
 {
   struct sockaddr_in *sa_in;
   struct in_addr inaddr;
-  struct anonymous$4 *ia = (struct anonymous$4 *)(void *)0;
+  struct anonymous_4 *ia = (struct anonymous_4 *)(void *)0;
   if(name == ((const char *)NULL))
-    return (struct anonymous$4 *)(void *)0;
+    return (struct anonymous_4 *)(void *)0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct anonymous$4) /*32ul*/ );
-    ia = (struct anonymous$4 *)return_value_malloc$1;
-    if(ia == ((struct anonymous$4 *)NULL))
-      return (struct anonymous$4 *)(void *)0;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct anonymous_4) /*32ul*/ );
+    ia = (struct anonymous_4 *)return_value_malloc_1;
+    if(ia == ((struct anonymous_4 *)NULL))
+      return (struct anonymous_4 *)(void *)0;
 
     else
     {
-      memset((void *)ia, 0, sizeof(struct anonymous$4) /*32ul*/ );
-      char *return_value_strdup$2;
-      return_value_strdup$2=strdup(name);
-      ia->name = (char *)return_value_strdup$2;
+      memset((void *)ia, 0, sizeof(struct anonymous_4) /*32ul*/ );
+      char *return_value_strdup_2;
+      return_value_strdup_2=strdup(name);
+      ia->name = (char *)return_value_strdup_2;
       ia->ref_count = (unsigned int)1;
-      signed int return_value_inet_aton$4;
-      return_value_inet_aton$4=inet_aton(name, &inaddr);
-      if(!(return_value_inet_aton$4 == 0))
+      signed int return_value_inet_aton_4;
+      return_value_inet_aton_4=inet_aton(name, &inaddr);
+      if(!(return_value_inet_aton_4 == 0))
       {
         sa_in = (struct sockaddr_in *)&ia->sa;
         sa_in->sin_family = (unsigned short int)2;
@@ -10036,9 +10036,9 @@ struct anonymous$4 * g_inetaddr_new(const char *name, signed int port)
       else
       {
         struct sockaddr_in sa;
-        signed int return_value_g_gethostbyname$3;
-        return_value_g_gethostbyname$3=g_gethostbyname(name, &sa, (char **)(void *)0);
-        if(!(return_value_g_gethostbyname$3 == 0))
+        signed int return_value_g_gethostbyname_3;
+        return_value_g_gethostbyname_3=g_gethostbyname(name, &sa, (char **)(void *)0);
+        if(!(return_value_g_gethostbyname_3 == 0))
         {
           sa_in = (struct sockaddr_in *)&ia->sa;
           sa_in->sin_family = (unsigned short int)2;
@@ -10054,27 +10054,27 @@ struct anonymous$4 * g_inetaddr_new(const char *name, signed int port)
 
 // g_inetaddr_ref
 // file inetaddr.c line 131
-void g_inetaddr_ref(struct anonymous$4 *ia)
+void g_inetaddr_ref(struct anonymous_4 *ia)
 {
-  if(!(ia == ((struct anonymous$4 *)NULL)))
+  if(!(ia == ((struct anonymous_4 *)NULL)))
     ia->ref_count = ia->ref_count + 1u;
 
 }
 
 // g_inetaddr_set_port
 // file inetaddr.c line 172
-void g_inetaddr_set_port(const struct anonymous$4 *ia, unsigned int port)
+void g_inetaddr_set_port(const struct anonymous_4 *ia, unsigned int port)
 {
-  if(!(ia == ((const struct anonymous$4 *)NULL)))
+  if(!(ia == ((const struct anonymous_4 *)NULL)))
     ((struct sockaddr_in *)&ia->sa)->sin_port=htons((unsigned short int)port);
 
 }
 
 // g_inetaddr_unref
 // file inetaddr.c line 140
-void g_inetaddr_unref(struct anonymous$4 *ia)
+void g_inetaddr_unref(struct anonymous_4 *ia)
 {
-  if(!(ia == ((struct anonymous$4 *)NULL)))
+  if(!(ia == ((struct anonymous_4 *)NULL)))
   {
     ia->ref_count = ia->ref_count - 1u;
     if(ia->ref_count == 0u)
@@ -10091,54 +10091,54 @@ void g_inetaddr_unref(struct anonymous$4 *ia)
 
 // g_tcp_socket_connect
 // file net.h line 101
-struct anonymous$2 * g_tcp_socket_connect(const char *hostname, signed int port)
+struct anonymous_2 * g_tcp_socket_connect(const char *hostname, signed int port)
 {
-  struct anonymous$4 *ia;
-  struct anonymous$2 *g_tcp_socket_connect$$1$$socket;
+  struct anonymous_4 *ia;
+  struct anonymous_2 *g_tcp_socket_connect__1__socket;
   ia=g_inetaddr_new(hostname, port);
-  if(ia == ((struct anonymous$4 *)NULL))
-    return (struct anonymous$2 *)(void *)0;
+  if(ia == ((struct anonymous_4 *)NULL))
+    return (struct anonymous_2 *)(void *)0;
 
   else
   {
-    g_tcp_socket_connect$$1$$socket=g_tcp_socket_new(ia);
+    g_tcp_socket_connect__1__socket=g_tcp_socket_new(ia);
     g_inetaddr_delete(ia);
-    return g_tcp_socket_connect$$1$$socket;
+    return g_tcp_socket_connect__1__socket;
   }
 }
 
 // g_tcp_socket_delete
 // file ../lib/net.h line 105
-void g_tcp_socket_delete(struct anonymous$2 *s)
+void g_tcp_socket_delete(struct anonymous_2 *s)
 {
-  if(!(s == ((struct anonymous$2 *)NULL)))
+  if(!(s == ((struct anonymous_2 *)NULL)))
     g_tcp_socket_unref(s);
 
 }
 
 // g_tcp_socket_new
 // file ../lib/net.h line 103
-struct anonymous$2 * g_tcp_socket_new(const struct anonymous$4 *addr)
+struct anonymous_2 * g_tcp_socket_new(const struct anonymous_4 *addr)
 {
   signed int sockfd;
-  struct anonymous$2 *s;
+  struct anonymous_2 *s;
   struct sockaddr_in *sa_in;
   signed int rv;
-  if(addr == ((const struct anonymous$4 *)NULL))
-    return (struct anonymous$2 *)(void *)0;
+  if(addr == ((const struct anonymous_4 *)NULL))
+    return (struct anonymous_2 *)(void *)0;
 
   else
   {
     sockfd=socket(2, 1, 0);
     if(!(sockfd >= 0))
-      return (struct anonymous$2 *)(void *)0;
+      return (struct anonymous_2 *)(void *)0;
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct anonymous$2) /*24ul*/ );
-      s = (struct anonymous$2 *)return_value_malloc$1;
-      memset((void *)s, 0, sizeof(struct anonymous$2) /*24ul*/ );
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct anonymous_2) /*24ul*/ );
+      s = (struct anonymous_2 *)return_value_malloc_1;
+      memset((void *)s, 0, sizeof(struct anonymous_2) /*24ul*/ );
       s->sockfd = sockfd;
       s->ref_count = (unsigned int)1;
       memcpy((void *)&s->sa, (const void *)&addr->sa, sizeof(struct sockaddr) /*16ul*/ );
@@ -10149,7 +10149,7 @@ struct anonymous$2 * g_tcp_socket_new(const struct anonymous$4 *addr)
       {
         close(sockfd);
         free((void *)s);
-        return (struct anonymous$2 *)(void *)0;
+        return (struct anonymous_2 *)(void *)0;
       }
 
       else
@@ -10160,23 +10160,23 @@ struct anonymous$2 * g_tcp_socket_new(const struct anonymous$4 *addr)
 
 // g_tcp_socket_server_accept
 // file tcp.c line 207
-struct anonymous$2 * g_tcp_socket_server_accept(struct anonymous$2 *socket)
+struct anonymous_2 * g_tcp_socket_server_accept(struct anonymous_2 *socket)
 {
   signed int sockfd;
   struct sockaddr sa;
   unsigned int n;
-  struct anonymous$31 fdset;
-  struct anonymous$2 *s;
-  signed int return_value_select$2;
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$9;
-  signed int *return_value___errno_location$8;
-  if(socket == ((struct anonymous$2 *)NULL))
-    return (struct anonymous$2 *)(void *)0;
+  struct anonymous_31 fdset;
+  struct anonymous_2 *s;
+  signed int return_value_select_2;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_9;
+  signed int *return_value___errno_location_8;
+  if(socket == ((struct anonymous_2 *)NULL))
+    return (struct anonymous_2 *)(void *)0;
 
   else
   {
@@ -10187,17 +10187,17 @@ struct anonymous$2 * g_tcp_socket_server_accept(struct anonymous$2 *socket)
       ;
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$31) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fdset)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_31) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fdset)->fds_bits[(signed long int)0]) : "memory");
       (&fdset)->fds_bits[(signed long int)(socket->sockfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fdset)->fds_bits[(signed long int)(socket->sockfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << socket->sockfd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-      return_value_select$2=select(socket->sockfd + 1, &fdset, (struct anonymous$31 *)(void *)0, (struct anonymous$31 *)(void *)0, (struct timeval *)(void *)0);
-      if(return_value_select$2 == -1)
+      return_value_select_2=select(socket->sockfd + 1, &fdset, (struct anonymous_31 *)(void *)0, (struct anonymous_31 *)(void *)0, (struct timeval *)(void *)0);
+      if(return_value_select_2 == -1)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        if(*return_value___errno_location$1 == 4)
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        if(*return_value___errno_location_1 == 4)
           goto try_again;
 
-        return (struct anonymous$2 *)(void *)0;
+        return (struct anonymous_2 *)(void *)0;
       }
 
       n = (unsigned int)sizeof(struct sockaddr) /*16ul*/ ;
@@ -10205,41 +10205,41 @@ struct anonymous$2 * g_tcp_socket_server_accept(struct anonymous$2 *socket)
       if(!(sockfd == -1))
         goto __CPROVER_DUMP_L9;
 
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 11)
-        tmp_if_expr$5 = (_Bool)1;
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 11)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$4=__errno_location();
-        tmp_if_expr$5 = *return_value___errno_location$4 == 103 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_4=__errno_location();
+        tmp_if_expr_5 = *return_value___errno_location_4 == 103 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
-        tmp_if_expr$7 = (_Bool)1;
+      if(tmp_if_expr_5)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$6=__errno_location();
-        tmp_if_expr$7 = *return_value___errno_location$6 == 71 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_6=__errno_location();
+        tmp_if_expr_7 = *return_value___errno_location_6 == 71 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
-        tmp_if_expr$9 = (_Bool)1;
+      if(tmp_if_expr_7)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$8=__errno_location();
-        tmp_if_expr$9 = *return_value___errno_location$8 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_8=__errno_location();
+        tmp_if_expr_9 = *return_value___errno_location_8 == 4 ? (_Bool)1 : (_Bool)0;
       }
     }
-    while(tmp_if_expr$9);
-    return (struct anonymous$2 *)(void *)0;
+    while(tmp_if_expr_9);
+    return (struct anonymous_2 *)(void *)0;
 
   __CPROVER_DUMP_L9:
     ;
-    void *return_value_malloc$10;
-    return_value_malloc$10=malloc(sizeof(struct anonymous$2) /*24ul*/ );
-    s = (struct anonymous$2 *)return_value_malloc$10;
-    memset((void *)s, 0, sizeof(struct anonymous$2) /*24ul*/ );
+    void *return_value_malloc_10;
+    return_value_malloc_10=malloc(sizeof(struct anonymous_2) /*24ul*/ );
+    s = (struct anonymous_2 *)return_value_malloc_10;
+    memset((void *)s, 0, sizeof(struct anonymous_2) /*24ul*/ );
     s->ref_count = (unsigned int)1;
     s->sockfd = sockfd;
     memcpy((void *)&s->sa, (const void *)&sa, sizeof(struct sockaddr) /*16ul*/ );
@@ -10249,43 +10249,43 @@ struct anonymous$2 * g_tcp_socket_server_accept(struct anonymous$2 *socket)
 
 // g_tcp_socket_server_new
 // file ../lib/net.h line 107
-struct anonymous$2 * g_tcp_socket_server_new(signed int port)
+struct anonymous_2 * g_tcp_socket_server_new(signed int port)
 {
-  struct anonymous$4 iface;
+  struct anonymous_4 iface;
   struct sockaddr_in *sa_in;
-  memset((void *)&iface, 0, sizeof(struct anonymous$4) /*32ul*/ );
+  memset((void *)&iface, 0, sizeof(struct anonymous_4) /*32ul*/ );
   sa_in = (struct sockaddr_in *)&iface.sa;
   sa_in->sin_family = (unsigned short int)2;
   sa_in->sin_addr.s_addr=htonl((unsigned int)0x00000000);
   sa_in->sin_port=htons((unsigned short int)port);
-  struct anonymous$2 *return_value_g_tcp_socket_server_new_interface$1;
-  return_value_g_tcp_socket_server_new_interface$1=g_tcp_socket_server_new_interface(&iface);
-  return return_value_g_tcp_socket_server_new_interface$1;
+  struct anonymous_2 *return_value_g_tcp_socket_server_new_interface_1;
+  return_value_g_tcp_socket_server_new_interface_1=g_tcp_socket_server_new_interface(&iface);
+  return return_value_g_tcp_socket_server_new_interface_1;
 }
 
 // g_tcp_socket_server_new_interface
 // file tcp.c line 134
-struct anonymous$2 * g_tcp_socket_server_new_interface(const struct anonymous$4 *iface)
+struct anonymous_2 * g_tcp_socket_server_new_interface(const struct anonymous_4 *iface)
 {
-  struct anonymous$2 *s;
+  struct anonymous_2 *s;
   struct sockaddr_in *sa_in;
   unsigned int socklen;
   signed int rval;
   const signed int on = 1;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$2) /*24ul*/ );
-  s = (struct anonymous$2 *)return_value_malloc$1;
-  memset((void *)s, 0, sizeof(struct anonymous$2) /*24ul*/ );
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_2) /*24ul*/ );
+  s = (struct anonymous_2 *)return_value_malloc_1;
+  memset((void *)s, 0, sizeof(struct anonymous_2) /*24ul*/ );
   s->ref_count = (unsigned int)1;
   s->sockfd=socket(2, 1, 0);
-  signed int return_value_bind$2;
-  signed int return_value_getsockname$3;
-  signed int return_value_listen$4;
+  signed int return_value_bind_2;
+  signed int return_value_getsockname_3;
+  signed int return_value_listen_4;
   if(s->sockfd >= 0)
   {
     sa_in = (struct sockaddr_in *)&s->sa;
     sa_in->sin_family = (unsigned short int)2;
-    if(!(iface == ((const struct anonymous$4 *)NULL)))
+    if(!(iface == ((const struct anonymous_4 *)NULL)))
     {
       sa_in->sin_addr.s_addr = ((struct sockaddr_in *)&iface->sa)->sin_addr.s_addr;
       sa_in->sin_port = ((struct sockaddr_in *)&iface->sa)->sin_port;
@@ -10317,17 +10317,17 @@ struct anonymous$2 * g_tcp_socket_server_new_interface(const struct anonymous$4 
       goto error;
     }
 
-    return_value_bind$2=bind(s->sockfd, &s->sa, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
-    if(!(return_value_bind$2 == 0))
+    return_value_bind_2=bind(s->sockfd, &s->sa, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
+    if(!(return_value_bind_2 == 0))
       goto error;
 
     socklen = (unsigned int)sizeof(struct sockaddr) /*16ul*/ ;
-    return_value_getsockname$3=getsockname(s->sockfd, &s->sa, &socklen);
-    if(!(return_value_getsockname$3 == 0))
+    return_value_getsockname_3=getsockname(s->sockfd, &s->sa, &socklen);
+    if(!(return_value_getsockname_3 == 0))
       goto error;
 
-    return_value_listen$4=listen(s->sockfd, 10);
-    if(!(return_value_listen$4 == 0))
+    return_value_listen_4=listen(s->sockfd, 10);
+    if(!(return_value_listen_4 == 0))
       goto error;
 
     return s;
@@ -10338,18 +10338,18 @@ struct anonymous$2 * g_tcp_socket_server_new_interface(const struct anonymous$4 
 
   error:
     ;
-    if(!(s == ((struct anonymous$2 *)NULL)))
+    if(!(s == ((struct anonymous_2 *)NULL)))
       free((void *)s);
 
-    return (struct anonymous$2 *)(void *)0;
+    return (struct anonymous_2 *)(void *)0;
   }
 }
 
 // g_tcp_socket_unref
 // file tcp.c line 95
-static void g_tcp_socket_unref(struct anonymous$2 *s)
+static void g_tcp_socket_unref(struct anonymous_2 *s)
 {
-  if(!(s == ((struct anonymous$2 *)NULL)))
+  if(!(s == ((struct anonymous_2 *)NULL)))
   {
     s->ref_count = s->ref_count - 1u;
     if(s->ref_count == 0u)
@@ -10372,11 +10372,11 @@ static char * gengetopt_strdup(const char *s)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(s);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-    result = (char *)return_value_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(s);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+    result = (char *)return_value_malloc_2;
     if(result == ((char *)NULL))
       return (char *)0;
 
@@ -10400,15 +10400,15 @@ signed int get_apr_os_socket(struct apr_socket_t *socket)
 static const struct configoption_t * get_argname_fallback(const struct configoption_t *options)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!((options + (signed long int)i)->name == ((const char *)NULL)))
-      tmp_if_expr$1 = (options + (signed long int)i)->name[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (options + (signed long int)i)->name[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     i = i + 1;
@@ -10435,7 +10435,7 @@ static const struct configoption_t * get_argname_fallback(const struct configopt
 // file ../include/gm_msg.h line 18
 signed int get_debug_msg_level()
 {
-  return debug_level$link1;
+  return debug_level_link1;
 }
 
 // getfield
@@ -10451,13 +10451,13 @@ char * getfield(char *buf, signed short int index)
 
 // gexec_cluster
 // file ganglia.c line 253
-signed int gexec_cluster(struct anonymous$36 *cluster, char *ip, unsigned short int port)
+signed int gexec_cluster(struct anonymous_36 *cluster, char *ip, unsigned short int port)
 {
   struct XML_ParserStruct *xml_parser;
-  struct anonymous$2 *gmond_socket;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
-  if(cluster == ((struct anonymous$36 *)NULL))
+  struct anonymous_2 *gmond_socket;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
+  if(cluster == ((struct anonymous_36 *)NULL))
   {
     gexec_errno = 2;
     return gexec_errno;
@@ -10466,7 +10466,7 @@ signed int gexec_cluster(struct anonymous$36 *cluster, char *ip, unsigned short 
   else
   {
     gmond_socket=g_tcp_socket_connect(ip, (signed int)port);
-    if(gmond_socket == ((struct anonymous$2 *)NULL))
+    if(gmond_socket == ((struct anonymous_2 *)NULL))
     {
       gexec_errno = 3;
       return gexec_errno;
@@ -10485,9 +10485,9 @@ signed int gexec_cluster(struct anonymous$36 *cluster, char *ip, unsigned short 
       else
       {
         debug_msg("Created the XML Parser");
-        memset((void *)cluster, 0, sizeof(struct anonymous$36) /*336ul*/ );
+        memset((void *)cluster, 0, sizeof(struct anonymous_36) /*336ul*/ );
         cluster->localtime=time((signed long int *)(void *)0);
-        XML_SetElementHandler(xml_parser, start$link1, end$link1);
+        XML_SetElementHandler(xml_parser, start_link1, end_link1);
         XML_SetUserData(xml_parser, (void *)cluster);
         do
         {
@@ -10503,19 +10503,19 @@ signed int gexec_cluster(struct anonymous$36 *cluster, char *ip, unsigned short 
           debug_msg("Got the XML Buffer");
           do
           {
-            signed long int return_value_read$3;
-            return_value_read$3=read(gmond_socket->sockfd, buff, (unsigned long int)8192);
-            bytes_read = (signed int)return_value_read$3;
+            signed long int return_value_read_3;
+            return_value_read_3=read(gmond_socket->sockfd, buff, (unsigned long int)8192);
+            bytes_read = (signed int)return_value_read_3;
             if(!(bytes_read >= 0))
             {
-              return_value___errno_location$1=__errno_location();
-              tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+              return_value___errno_location_1=__errno_location();
+              tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$2 = (_Bool)0;
+              tmp_if_expr_2 = (_Bool)0;
           }
-          while(tmp_if_expr$2);
+          while(tmp_if_expr_2);
           if(!(bytes_read >= 0))
           {
             gexec_errno = 6;
@@ -10523,18 +10523,18 @@ signed int gexec_cluster(struct anonymous$36 *cluster, char *ip, unsigned short 
           }
 
           debug_msg("Read %d bytes of data", bytes_read);
-          enum XML_Status return_value_XML_ParseBuffer$7;
-          return_value_XML_ParseBuffer$7=XML_ParseBuffer(xml_parser, bytes_read, (signed int)(bytes_read == 0));
-          if(return_value_XML_ParseBuffer$7 == /*enum*/XML_STATUS_ERROR)
+          enum XML_Status return_value_XML_ParseBuffer_7;
+          return_value_XML_ParseBuffer_7=XML_ParseBuffer(xml_parser, bytes_read, (signed int)(bytes_read == 0));
+          if(return_value_XML_ParseBuffer_7 == /*enum*/XML_STATUS_ERROR)
           {
             gexec_errno = 7;
-            unsigned long int return_value_XML_GetCurrentLineNumber$4;
-            return_value_XML_GetCurrentLineNumber$4=XML_GetCurrentLineNumber(xml_parser);
-            enum XML_Error return_value_XML_GetErrorCode$5;
-            return_value_XML_GetErrorCode$5=XML_GetErrorCode(xml_parser);
-            const char *return_value_XML_ErrorString$6;
-            return_value_XML_ErrorString$6=XML_ErrorString(return_value_XML_GetErrorCode$5);
-            err_msg("gexec_cluster() XML_ParseBuffer() error at line %d:\n%s\n", (signed int)return_value_XML_GetCurrentLineNumber$4, return_value_XML_ErrorString$6);
+            unsigned long int return_value_XML_GetCurrentLineNumber_4;
+            return_value_XML_GetCurrentLineNumber_4=XML_GetCurrentLineNumber(xml_parser);
+            enum XML_Error return_value_XML_GetErrorCode_5;
+            return_value_XML_GetErrorCode_5=XML_GetErrorCode(xml_parser);
+            const char *return_value_XML_ErrorString_6;
+            return_value_XML_ErrorString_6=XML_ErrorString(return_value_XML_GetErrorCode_5);
+            err_msg("gexec_cluster() XML_ParseBuffer() error at line %d:\n%s\n", (signed int)return_value_XML_GetCurrentLineNumber_4, return_value_XML_ErrorString_6);
             goto error;
           }
 
@@ -10560,11 +10560,11 @@ signed int gexec_cluster(struct anonymous$36 *cluster, char *ip, unsigned short 
 
 // gexec_cluster_free
 // file ganglia.c line 193
-signed int gexec_cluster_free(struct anonymous$36 *cluster)
+signed int gexec_cluster_free(struct anonymous_36 *cluster)
 {
   struct _llist_entry *ei;
   struct _llist_entry *next;
-  if(cluster == ((struct anonymous$36 *)NULL))
+  if(cluster == ((struct anonymous_36 *)NULL))
   {
     gexec_errno = 2;
     return gexec_errno;
@@ -10606,7 +10606,7 @@ signed int gexec_cluster_free(struct anonymous$36 *cluster)
 signed int has_wildcard(const char *pattern)
 {
   signed int nesting = 0;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   while(!(*pattern == 0))
     switch((signed int)*pattern)
     {
@@ -10616,9 +10616,9 @@ signed int has_wildcard(const char *pattern)
         return 1;
       case 92:
       {
-        tmp_post$1 = pattern;
+        tmp_post_1 = pattern;
         pattern = pattern + 1l;
-        if((signed int)*tmp_post$1 == 0)
+        if((signed int)*tmp_post_1 == 0)
           return 0;
 
         goto __CPROVER_DUMP_L7;
@@ -10645,32 +10645,32 @@ signed int has_wildcard(const char *pattern)
 
 // hash_create
 // file ../lib/hash.h line 48
-struct anonymous$8 * hash_create(unsigned long int size)
+struct anonymous_8 * hash_create(unsigned long int size)
 {
   unsigned long int i;
-  struct anonymous$8 *hash;
+  struct anonymous_8 *hash;
   debug_msg("hash_create size = %zd", size);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$8) /*24ul*/ );
-  hash = (struct anonymous$8 *)return_value_malloc$1;
-  if(hash == ((struct anonymous$8 *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_8) /*24ul*/ );
+  hash = (struct anonymous_8 *)return_value_malloc_1;
+  if(hash == ((struct anonymous_8 *)NULL))
   {
     debug_msg("hash malloc error in hash_create()");
-    return (struct anonymous$8 *)(void *)0;
+    return (struct anonymous_8 *)(void *)0;
   }
 
   else
   {
     hash->size=hash_prime(size);
     debug_msg("hash->size is %zd", hash->size);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct anonymous$20 *) /*8ul*/  * hash->size);
-    hash->node = (struct anonymous$20 **)return_value_malloc$2;
-    if(hash->node == ((struct anonymous$20 **)NULL))
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct anonymous_20 *) /*8ul*/  * hash->size);
+    hash->node = (struct anonymous_20 **)return_value_malloc_2;
+    if(hash->node == ((struct anonymous_20 **)NULL))
     {
       debug_msg("hash->node malloc error. freeing hash.");
       free((void *)hash);
-      return (struct anonymous$8 *)(void *)0;
+      return (struct anonymous_8 *)(void *)0;
     }
 
     else
@@ -10678,10 +10678,10 @@ struct anonymous$8 * hash_create(unsigned long int size)
       i = (unsigned long int)0;
       for( ; !(i >= hash->size); i = i + 1ul)
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct anonymous$20) /*104ul*/ );
-        hash->node[(signed long int)i] = (struct anonymous$20 *)return_value_malloc$3;
-        if(hash->node[(signed long int)i] == ((struct anonymous$20 *)NULL))
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct anonymous_20) /*104ul*/ );
+        hash->node[(signed long int)i] = (struct anonymous_20 *)return_value_malloc_3;
+        if(hash->node[(signed long int)i] == ((struct anonymous_20 *)NULL))
           break;
 
         hash->node[(signed long int)i]->bucket = (struct bucket *)(void *)0;
@@ -10694,7 +10694,7 @@ struct anonymous$8 * hash_create(unsigned long int size)
         for( ; (_Bool)1; hash->size = hash->size - 1ul)
           free((void *)hash->node[(signed long int)hash->size]);
         free((void *)hash);
-        return (struct anonymous$8 *)(void *)0;
+        return (struct anonymous_8 *)(void *)0;
       }
 
       else
@@ -10705,19 +10705,19 @@ struct anonymous$8 * hash_create(unsigned long int size)
 
 // hash_delete
 // file ../lib/hash.h line 55
-struct anonymous$7 * hash_delete(struct anonymous$7 *key, struct anonymous$8 *hash)
+struct anonymous_7 * hash_delete(struct anonymous_7 *key, struct anonymous_8 *hash)
 {
   unsigned long int i;
-  struct anonymous$7 *val;
+  struct anonymous_7 *val;
   struct bucket *bucket;
   struct bucket *last = (struct bucket *)(void *)0;
   i=hashval(key, hash);
   pthread_rdwr_wlock_np(&hash->node[(signed long int)i]->rwlock);
-  signed int return_value_hash_keycmp$1;
+  signed int return_value_hash_keycmp_1;
   if(hash->node[(signed long int)i]->bucket == ((struct bucket *)NULL))
   {
     pthread_rdwr_wunlock_np(&hash->node[(signed long int)i]->rwlock);
-    return (struct anonymous$7 *)(void *)0;
+    return (struct anonymous_7 *)(void *)0;
   }
 
   else
@@ -10728,8 +10728,8 @@ struct anonymous$7 * hash_delete(struct anonymous$7 *key, struct anonymous$8 *ha
     {
       if(bucket->key->size == key->size)
       {
-        return_value_hash_keycmp$1=hash_keycmp(hash, key, bucket->key);
-        if(return_value_hash_keycmp$1 == 0)
+        return_value_hash_keycmp_1=hash_keycmp(hash, key, bucket->key);
+        if(return_value_hash_keycmp_1 == 0)
         {
           if(!(last == ((struct bucket *)NULL)))
           {
@@ -10757,18 +10757,18 @@ struct anonymous$7 * hash_delete(struct anonymous$7 *key, struct anonymous$8 *ha
       last = bucket;
     }
     pthread_rdwr_wunlock_np(&hash->node[(signed long int)i]->rwlock);
-    return (struct anonymous$7 *)(void *)0;
+    return (struct anonymous_7 *)(void *)0;
   }
 }
 
 // hash_destroy
 // file ../lib/hash.h line 49
-void hash_destroy(struct anonymous$8 *hash)
+void hash_destroy(struct anonymous_8 *hash)
 {
   unsigned long int i;
   struct bucket *bucket;
   struct bucket *next;
-  struct anonymous$7 *val;
+  struct anonymous_7 *val;
   i = (unsigned long int)0;
   for( ; !(i >= hash->size); i = i + 1ul)
   {
@@ -10787,7 +10787,7 @@ void hash_destroy(struct anonymous$8 *hash)
 
 // hash_foreach
 // file ../lib/hash.h line 58
-signed int hash_foreach(struct anonymous$8 *hash, signed int (*func)(struct anonymous$7 *, struct anonymous$7 *, void *), void *arg)
+signed int hash_foreach(struct anonymous_8 *hash, signed int (*func)(struct anonymous_7 *, struct anonymous_7 *, void *), void *arg)
 {
   signed int stop = 0;
   unsigned long int i;
@@ -10812,14 +10812,14 @@ signed int hash_foreach(struct anonymous$8 *hash, signed int (*func)(struct anon
 
 // hash_get_flags
 // file hash.c line 175
-signed int hash_get_flags(struct anonymous$8 *hash)
+signed int hash_get_flags(struct anonymous_8 *hash)
 {
   return hash->flags;
 }
 
 // hash_insert
 // file ../lib/hash.h line 54
-struct anonymous$7 * hash_insert(struct anonymous$7 *key, struct anonymous$7 *val, struct anonymous$8 *hash)
+struct anonymous_7 * hash_insert(struct anonymous_7 *key, struct anonymous_7 *val, struct anonymous_8 *hash)
 {
   unsigned long int i;
   struct bucket *bucket;
@@ -10828,32 +10828,32 @@ struct anonymous$7 * hash_insert(struct anonymous$7 *key, struct anonymous$7 *va
   bucket = hash->node[(signed long int)i]->bucket;
   if(bucket == ((struct bucket *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct bucket) /*24ul*/ );
-    bucket = (struct bucket *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct bucket) /*24ul*/ );
+    bucket = (struct bucket *)return_value_malloc_1;
     if(bucket == ((struct bucket *)NULL))
     {
       pthread_rdwr_wunlock_np(&hash->node[(signed long int)i]->rwlock);
-      return (struct anonymous$7 *)(void *)0;
+      return (struct anonymous_7 *)(void *)0;
     }
 
     bucket->next = (struct bucket *)(void *)0;
     bucket->key=datum_dup(key);
-    if(bucket->key == ((struct anonymous$7 *)NULL))
+    if(bucket->key == ((struct anonymous_7 *)NULL))
     {
       free((void *)bucket);
       bucket = (struct bucket *)(void *)0;
       pthread_rdwr_wunlock_np(&hash->node[(signed long int)i]->rwlock);
-      return (struct anonymous$7 *)(void *)0;
+      return (struct anonymous_7 *)(void *)0;
     }
 
     bucket->val=datum_dup(val);
-    if(bucket->val == ((struct anonymous$7 *)NULL))
+    if(bucket->val == ((struct anonymous_7 *)NULL))
     {
       free((void *)bucket);
       bucket = (struct bucket *)(void *)0;
       pthread_rdwr_wunlock_np(&hash->node[(signed long int)i]->rwlock);
-      return (struct anonymous$7 *)(void *)0;
+      return (struct anonymous_7 *)(void *)0;
     }
 
     hash->node[(signed long int)i]->bucket = bucket;
@@ -10865,9 +10865,9 @@ struct anonymous$7 * hash_insert(struct anonymous$7 *key, struct anonymous$7 *va
   for( ; !(bucket == ((struct bucket *)NULL)); bucket = bucket->next)
     if(bucket->key->size == key->size)
     {
-      signed int return_value_hash_keycmp$2;
-      return_value_hash_keycmp$2=hash_keycmp(hash, bucket->key, key);
-      if(return_value_hash_keycmp$2 == 0)
+      signed int return_value_hash_keycmp_2;
+      return_value_hash_keycmp_2=hash_keycmp(hash, bucket->key, key);
+      if(return_value_hash_keycmp_2 == 0)
       {
         if(!(bucket->val->size == val->size))
         {
@@ -10875,7 +10875,7 @@ struct anonymous$7 * hash_insert(struct anonymous$7 *key, struct anonymous$7 *va
           if(bucket->val->data == NULL)
           {
             pthread_rdwr_wunlock_np(&hash->node[(signed long int)i]->rwlock);
-            return (struct anonymous$7 *)(void *)0;
+            return (struct anonymous_7 *)(void *)0;
           }
 
           bucket->val->size = val->size;
@@ -10888,34 +10888,34 @@ struct anonymous$7 * hash_insert(struct anonymous$7 *key, struct anonymous$7 *va
 
     }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct bucket) /*24ul*/ );
-  bucket = (struct bucket *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct bucket) /*24ul*/ );
+  bucket = (struct bucket *)return_value_malloc_3;
   if(bucket == ((struct bucket *)NULL))
   {
     pthread_rdwr_wunlock_np(&hash->node[(signed long int)i]->rwlock);
-    return (struct anonymous$7 *)(void *)0;
+    return (struct anonymous_7 *)(void *)0;
   }
 
   else
   {
     bucket->key=datum_dup(key);
-    if(bucket->key == ((struct anonymous$7 *)NULL))
+    if(bucket->key == ((struct anonymous_7 *)NULL))
     {
       free((void *)bucket);
       pthread_rdwr_wunlock_np(&hash->node[(signed long int)i]->rwlock);
-      return (struct anonymous$7 *)(void *)0;
+      return (struct anonymous_7 *)(void *)0;
     }
 
     else
     {
       bucket->val=datum_dup(val);
-      if(bucket->val == ((struct anonymous$7 *)NULL))
+      if(bucket->val == ((struct anonymous_7 *)NULL))
       {
         datum_free(bucket->key);
         free((void *)bucket);
         pthread_rdwr_wunlock_np(&hash->node[(signed long int)i]->rwlock);
-        return (struct anonymous$7 *)(void *)0;
+        return (struct anonymous_7 *)(void *)0;
       }
 
       else
@@ -10931,29 +10931,29 @@ struct anonymous$7 * hash_insert(struct anonymous$7 *key, struct anonymous$7 *va
 
 // hash_keycmp
 // file hash.c line 213
-signed int hash_keycmp(struct anonymous$8 *hash, struct anonymous$7 *key1, struct anonymous$7 *key2)
+signed int hash_keycmp(struct anonymous_8 *hash, struct anonymous_7 *key1, struct anonymous_7 *key2)
 {
   if(!((1 & hash->flags) == 0))
   {
-    signed int return_value_strncasecmp$1;
-    return_value_strncasecmp$1=strncasecmp((const char *)key1->data, (const char *)key2->data, (unsigned long int)key1->size);
-    return return_value_strncasecmp$1;
+    signed int return_value_strncasecmp_1;
+    return_value_strncasecmp_1=strncasecmp((const char *)key1->data, (const char *)key2->data, (unsigned long int)key1->size);
+    return return_value_strncasecmp_1;
   }
 
   else
   {
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp((const char *)key1->data, (const char *)key2->data, (unsigned long int)key1->size);
-    return return_value_strncmp$2;
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp((const char *)key1->data, (const char *)key2->data, (unsigned long int)key1->size);
+    return return_value_strncmp_2;
   }
 }
 
 // hash_lookup
 // file ../lib/hash.h line 57
-struct anonymous$7 * hash_lookup(struct anonymous$7 *key, struct anonymous$8 *hash)
+struct anonymous_7 * hash_lookup(struct anonymous_7 *key, struct anonymous_8 *hash)
 {
   unsigned long int i;
-  struct anonymous$7 *val;
+  struct anonymous_7 *val;
   struct bucket *bucket;
   i=hashval(key, hash);
   pthread_rdwr_rlock_np(&hash->node[(signed long int)i]->rwlock);
@@ -10961,7 +10961,7 @@ struct anonymous$7 * hash_lookup(struct anonymous$7 *key, struct anonymous$8 *ha
   if(bucket == ((struct bucket *)NULL))
   {
     pthread_rdwr_runlock_np(&hash->node[(signed long int)i]->rwlock);
-    return (struct anonymous$7 *)(void *)0;
+    return (struct anonymous_7 *)(void *)0;
   }
 
   else
@@ -10969,9 +10969,9 @@ struct anonymous$7 * hash_lookup(struct anonymous$7 *key, struct anonymous$8 *ha
     for( ; !(bucket == ((struct bucket *)NULL)); bucket = bucket->next)
       if(key->size == bucket->key->size)
       {
-        signed int return_value_hash_keycmp$1;
-        return_value_hash_keycmp$1=hash_keycmp(hash, key, bucket->key);
-        if(return_value_hash_keycmp$1 == 0)
+        signed int return_value_hash_keycmp_1;
+        return_value_hash_keycmp_1=hash_keycmp(hash, key, bucket->key);
+        if(return_value_hash_keycmp_1 == 0)
         {
           val=datum_dup(bucket->val);
           pthread_rdwr_runlock_np(&hash->node[(signed long int)i]->rwlock);
@@ -10981,7 +10981,7 @@ struct anonymous$7 * hash_lookup(struct anonymous$7 *key, struct anonymous$8 *ha
       }
 
     pthread_rdwr_runlock_np(&hash->node[(signed long int)i]->rwlock);
-    return (struct anonymous$7 *)(void *)0;
+    return (struct anonymous_7 *)(void *)0;
   }
 }
 
@@ -11003,14 +11003,14 @@ static unsigned long int hash_prime(unsigned long int size)
 
 // hash_set_flags
 // file ../lib/hash.h line 52
-void hash_set_flags(struct anonymous$8 *hash, signed int flags)
+void hash_set_flags(struct anonymous_8 *hash, signed int flags)
 {
   hash->flags = flags;
 }
 
 // hash_walkfrom
 // file ../lib/hash.h line 59
-signed int hash_walkfrom(struct anonymous$8 *hash, unsigned long int from, signed int (*func)(struct anonymous$7 *, struct anonymous$7 *, void *), void *arg)
+signed int hash_walkfrom(struct anonymous_8 *hash, unsigned long int from, signed int (*func)(struct anonymous_7 *, struct anonymous_7 *, void *), void *arg)
 {
   signed int stop = 0;
   unsigned long int i;
@@ -11035,24 +11035,24 @@ signed int hash_walkfrom(struct anonymous$8 *hash, unsigned long int from, signe
 
 // hashval
 // file ../lib/hash.h line 64
-unsigned long int hashval(struct anonymous$7 *key, struct anonymous$8 *hash)
+unsigned long int hashval(struct anonymous_7 *key, struct anonymous_8 *hash)
 {
   signed int i;
   signed int hash_val;
-  _Bool tmp_if_expr$1;
-  if(key == ((struct anonymous$7 *)NULL) || hash == ((struct anonymous$8 *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+  _Bool tmp_if_expr_1;
+  if(key == ((struct anonymous_7 *)NULL) || hash == ((struct anonymous_8 *)NULL))
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = key->data == (void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = key->data == (void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = key->size <= (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_tolower$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = key->size <= (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_tolower_3;
+  if(tmp_if_expr_2)
     return (unsigned long int)0;
 
   else
@@ -11063,8 +11063,8 @@ unsigned long int hashval(struct anonymous$7 *key, struct anonymous$8 *hash)
       i = 0;
       for( ; !((unsigned int)i >= key->size); i = i + 1)
       {
-        return_value_tolower$3=tolower((signed int)((unsigned char *)key->data)[(signed long int)i]);
-        hash_val = (signed int)((unsigned long int)(hash_val * 32 + return_value_tolower$3) % hash->size);
+        return_value_tolower_3=tolower((signed int)((unsigned char *)key->data)[(signed long int)i]);
+        hash_val = (signed int)((unsigned long int)(hash_val * 32 + return_value_tolower_3) % hash->size);
       }
     }
 
@@ -11081,32 +11081,32 @@ unsigned long int hashval(struct anonymous$7 *key, struct anonymous$8 *hash)
 
 // host_report_end
 // file server.c line 206
-signed int host_report_end(struct Generic_type *self, struct anonymous$16 *client, void *arg)
+signed int host_report_end(struct Generic_type *self, struct anonymous_16 *client, void *arg)
 {
-  signed int return_value_xml_print$1;
-  return_value_xml_print$1=xml_print(client, "</HOST>\n");
-  return return_value_xml_print$1;
+  signed int return_value_xml_print_1;
+  return_value_xml_print_1=xml_print(client, "</HOST>\n");
+  return return_value_xml_print_1;
 }
 
 // host_report_start
 // file server.c line 183
-signed int host_report_start(struct Generic_type *self, struct anonymous$7 *key, struct anonymous$16 *client, void *arg)
+signed int host_report_start(struct Generic_type *self, struct anonymous_7 *key, struct anonymous_16 *client, void *arg)
 {
   signed int rc;
-  char *host_report_start$$1$$name = (char *)key->data;
-  struct anonymous$10 *host = (struct anonymous$10 *)self;
+  char *host_report_start__1__name = (char *)key->data;
+  struct anonymous_10 *host = (struct anonymous_10 *)self;
   signed long int tn = (signed long int)0;
   tn = client->now.tv_sec - host->t0.tv_sec;
   if(!(tn >= 0l))
     tn = (signed long int)0;
 
-  char *return_value_getfield$1;
-  return_value_getfield$1=getfield(host->strings, host->ip);
-  char *return_value_getfield$2;
-  return_value_getfield$2=getfield(host->strings, host->location);
-  char *return_value_getfield$3;
-  return_value_getfield$3=getfield(host->strings, host->tags);
-  rc=xml_print(client, "<HOST NAME=\"%s\" IP=\"%s\" REPORTED=\"%u\" TN=\"%u\" TMAX=\"%u\" DMAX=\"%u\" LOCATION=\"%s\" GMOND_STARTED=\"%u\" TAGS=\"%s\">\n", host_report_start$$1$$name, return_value_getfield$1, host->reported, (unsigned int)tn, host->tmax, host->dmax, return_value_getfield$2, host->started, return_value_getfield$3);
+  char *return_value_getfield_1;
+  return_value_getfield_1=getfield(host->strings, host->ip);
+  char *return_value_getfield_2;
+  return_value_getfield_2=getfield(host->strings, host->location);
+  char *return_value_getfield_3;
+  return_value_getfield_3=getfield(host->strings, host->tags);
+  rc=xml_print(client, "<HOST NAME=\"%s\" IP=\"%s\" REPORTED=\"%u\" TN=\"%u\" TMAX=\"%u\" DMAX=\"%u\" LOCATION=\"%s\" GMOND_STARTED=\"%u\" TAGS=\"%s\">\n", host_report_start__1__name, return_value_getfield_1, host->reported, (unsigned int)tn, host->tmax, host->dmax, return_value_getfield_2, host->started, return_value_getfield_3);
   return rc;
 }
 
@@ -11123,27 +11123,27 @@ static void init_args_info(struct gengetopt_args_info *args_info)
 
 // init_carbon_udp_socket
 // file export_helpers.h line 23
-struct anonymous$2 * init_carbon_udp_socket(const char *hostname, unsigned short int port)
+struct anonymous_2 * init_carbon_udp_socket(const char *hostname, unsigned short int port)
 {
   signed int sockfd;
-  struct anonymous$2 *s;
+  struct anonymous_2 *s;
   struct sockaddr_in *sa_in;
   struct hostent *hostinfo;
   sockfd=socket(2, 2, 0);
   if(!(sockfd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    err_msg("create socket (client): %s", return_value_strerror$2);
-    return (struct anonymous$2 *)(void *)0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    err_msg("create socket (client): %s", return_value_strerror_2);
+    return (struct anonymous_2 *)(void *)0;
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct anonymous$2) /*24ul*/ );
-  s = (struct anonymous$2 *)return_value_malloc$3;
-  memset((void *)s, 0, sizeof(struct anonymous$2) /*24ul*/ );
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct anonymous_2) /*24ul*/ );
+  s = (struct anonymous_2 *)return_value_malloc_3;
+  memset((void *)s, 0, sizeof(struct anonymous_2) /*24ul*/ );
   s->sockfd = sockfd;
   s->ref_count = (unsigned int)1;
   sa_in = (struct sockaddr_in *)&s->sa;
@@ -11183,9 +11183,9 @@ signed int join_mcast(struct apr_pool_t *context, struct apr_socket_t *sock, cha
   status=apr_pool_create_ex(&pool, context, (signed int (*)(signed int))(void *)0, (struct apr_allocator_t *)(void *)0);
   struct ip_mreq mreq[1l];
   struct ifreq ifreq[1l];
-  struct ipv6_mreq join_mcast$$1$$3$$2$$mreq[1l];
-  struct ifreq join_mcast$$1$$3$$2$$ifreq[1l];
-  signed int return_value_ioctl$2;
+  struct ipv6_mreq join_mcast__1__3__2__mreq[1l];
+  struct ifreq join_mcast__1__3__2__ifreq[1l];
+  signed int return_value_ioctl_2;
   if(!(status == 0))
     return status;
 
@@ -11211,9 +11211,9 @@ signed int join_mcast(struct apr_pool_t *context, struct apr_socket_t *sock, cha
           {
             memset((void *)ifreq, 0, sizeof(struct ifreq) /*40ul*/ );
             strncpy(ifreq[0l].ifr_ifrn.ifrn_name, ifname, (unsigned long int)16);
-            signed int return_value_ioctl$1;
-            return_value_ioctl$1=ioctl(s, (unsigned long int)0x8915, (const void *)ifreq);
-            if(return_value_ioctl$1 == -1)
+            signed int return_value_ioctl_1;
+            return_value_ioctl_1=ioctl(s, (unsigned long int)0x8915, (const void *)ifreq);
+            if(return_value_ioctl_1 == -1)
             {
               apr_pool_destroy(pool);
               return 20000 + 14;
@@ -11235,19 +11235,19 @@ signed int join_mcast(struct apr_pool_t *context, struct apr_socket_t *sock, cha
         }
         case 10:
         {
-          memcpy((void *)&join_mcast$$1$$3$$2$$mreq[0l].ipv6mr_multiaddr, (const void *)&sa->sa.sin6.sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
-          memset((void *)&join_mcast$$1$$3$$2$$ifreq, 0, sizeof(struct ifreq [1l]) /*40ul*/ );
+          memcpy((void *)&join_mcast__1__3__2__mreq[0l].ipv6mr_multiaddr, (const void *)&sa->sa.sin6.sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
+          memset((void *)&join_mcast__1__3__2__ifreq, 0, sizeof(struct ifreq [1l]) /*40ul*/ );
           if(!(ifname == ((char *)NULL)))
-            strncpy(join_mcast$$1$$3$$2$$ifreq[0l].ifr_ifrn.ifrn_name, ifname, (unsigned long int)16);
+            strncpy(join_mcast__1__3__2__ifreq[0l].ifr_ifrn.ifrn_name, ifname, (unsigned long int)16);
 
-          return_value_ioctl$2=ioctl(s, (unsigned long int)0x8915, (const void *)join_mcast$$1$$3$$2$$ifreq);
-          if(return_value_ioctl$2 == -1)
+          return_value_ioctl_2=ioctl(s, (unsigned long int)0x8915, (const void *)join_mcast__1__3__2__ifreq);
+          if(return_value_ioctl_2 == -1)
           {
             apr_pool_destroy(pool);
             return -1;
           }
 
-          rval=setsockopt(s, 41, 20, (const void *)join_mcast$$1$$3$$2$$mreq, (unsigned int)sizeof(struct ipv6_mreq [1l]) /*20ul*/ );
+          rval=setsockopt(s, 41, 20, (const void *)join_mcast__1__3__2__mreq, (unsigned int)sizeof(struct ipv6_mreq [1l]) /*20ul*/ );
           break;
         }
         default:
@@ -11297,27 +11297,27 @@ signed int llist_print(struct _llist_entry **llist)
 signed int llist_remove(struct _llist_entry **llist, struct _llist_entry *e)
 {
   struct _llist_entry *ei = *llist;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   for( ; !(ei == ((struct _llist_entry *)NULL)); ei = ei->next)
     if(ei == e)
     {
       if(e == *llist)
-        tmp_if_expr$2 = e->next == (struct _llist_entry *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = e->next == (struct _llist_entry *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         *llist = (struct _llist_entry *)(void *)0;
 
       else
       {
         if(e == *llist)
-          tmp_if_expr$1 = e->next != (struct _llist_entry *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = e->next != (struct _llist_entry *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
         {
           e->next->prev = (struct _llist_entry *)(void *)0;
           *llist = e->next;
@@ -11395,9 +11395,9 @@ signed int llist_strncmp(const char *s1, const char *s2)
 {
   signed int len;
   signed int rv;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s1);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s1);
+  len = (signed int)return_value_strlen_1;
   rv=strncmp(s1, s2, (unsigned long int)len);
   return rv;
 }
@@ -11431,33 +11431,33 @@ signed int main(signed int argc, char **argv)
   char *gmetad_username;
   struct passwd *pw;
   char hostname[64l];
-  struct anonymous$5 *c = &gmetad_config;
+  struct anonymous_5 *c = &gmetad_config;
   signed long int sleep_time;
   signed long int last_metadata;
   double random_sleep_factor;
   unsigned int rand_seed;
   signal(13, (void (*)(signed int))1);
-  signed int return_value_cmdline_parser$1;
-  return_value_cmdline_parser$1=cmdline_parser(argc, argv, &args_info);
-  if(!(return_value_cmdline_parser$1 == 0))
+  signed int return_value_cmdline_parser_1;
+  return_value_cmdline_parser_1=cmdline_parser(argc, argv, &args_info);
+  if(!(return_value_cmdline_parser_1 == 0))
     err_quit("command-line parser error");
 
   num_sources=number_of_datasources(args_info.conf_arg);
   if(num_sources == 0)
     err_quit("%s doesn't have any data sources specified", args_info.conf_arg);
 
-  memset((void *)&root, 0, sizeof(struct anonymous$11) /*1664ul*/ );
-  root.id = (enum anonymous$15)ROOT_NODE;
+  memset((void *)&root, 0, sizeof(struct anonymous_11) /*1664ul*/ );
+  root.id = (enum anonymous_15)ROOT_NODE;
   sources=hash_create((unsigned long int)(num_sources + 10));
-  if(sources == ((struct anonymous$8 *)NULL))
+  if(sources == ((struct anonymous_8 *)NULL))
     err_quit("Unable to create sources hash\n");
 
   root.authority=hash_create((unsigned long int)(num_sources + 10));
-  if(root.authority == ((struct anonymous$8 *)NULL))
+  if(root.authority == ((struct anonymous_8 *)NULL))
     err_quit("Unable to create root authority (our grids and clusters) hash\n");
 
   root.metric_summary=hash_create((unsigned long int)50);
-  if(root.metric_summary == ((struct anonymous$8 *)NULL))
+  if(root.metric_summary == ((struct anonymous_8 *)NULL))
     err_quit("Unable to create root summary hash");
 
   parse_config_file(args_info.conf_arg);
@@ -11471,21 +11471,21 @@ signed int main(signed int argc, char **argv)
     gethostname(hostname, (unsigned long int)64);
     root.authority_ptr = (signed short int)0;
     sprintf(root.strings, "http://%s/ganglia/", (const void *)hostname);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(root.strings);
-    root.stringslen = root.stringslen + (signed short int)(return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(root.strings);
+    root.stringslen = root.stringslen + (signed short int)(return_value_strlen_2 + (unsigned long int)1);
   }
 
-  signed long int return_value_apr_time_now$3;
-  return_value_apr_time_now$3=apr_time_now();
-  unsigned long int return_value_pthread_self$4;
-  return_value_pthread_self$4=pthread_self();
-  rand_seed = (unsigned int)(return_value_apr_time_now$3 * (signed long int)(signed int)return_value_pthread_self$4);
+  signed long int return_value_apr_time_now_3;
+  return_value_apr_time_now_3=apr_time_now();
+  unsigned long int return_value_pthread_self_4;
+  return_value_pthread_self_4=pthread_self();
+  rand_seed = (unsigned int)(return_value_apr_time_now_3 * (signed long int)(signed int)return_value_pthread_self_4);
   i = 0;
-  signed int tmp_post$5;
-  for( ; !(i >= (signed int)root.stringslen); rand_seed = rand_seed * (unsigned int)root.strings[(signed long int)tmp_post$5])
+  signed int tmp_post_5;
+  for( ; !(i >= (signed int)root.stringslen); rand_seed = rand_seed * (unsigned int)root.strings[(signed long int)tmp_post_5])
   {
-    tmp_post$5 = i;
+    tmp_post_5 = i;
     i = i + 1;
   }
   if(debug_level == 0)
@@ -11522,9 +11522,9 @@ signed int main(signed int argc, char **argv)
 
   if(!(c->write_rrds == 0))
   {
-    signed int return_value_stat$6;
-    return_value_stat$6=stat(c->rrd_rootdir, &struct_stat);
-    if(!(return_value_stat$6 == 0))
+    signed int return_value_stat_6;
+    return_value_stat_6=stat(c->rrd_rootdir, &struct_stat);
+    if(!(return_value_stat_6 == 0))
       err_sys("Please make sure that %s exists", c->rrd_rootdir);
 
     if(!(struct_stat.st_uid == gmetad_uid))
@@ -11542,23 +11542,23 @@ signed int main(signed int argc, char **argv)
   }
 
   server_socket=g_tcp_socket_server_new(c->xml_port);
-  if(server_socket == ((struct anonymous$2 *)NULL))
+  if(server_socket == ((struct anonymous_2 *)NULL))
     err_quit("tcp_listen() on xml_port failed");
 
   debug_msg("xml listening on port %d", c->xml_port);
   interactive_socket=g_tcp_socket_server_new(c->interactive_port);
-  if(interactive_socket == ((struct anonymous$2 *)NULL))
+  if(interactive_socket == ((struct anonymous_2 *)NULL))
     err_quit("tcp_listen() on interactive_port failed");
 
   debug_msg("interactive xml listening on port %d", c->interactive_port);
   if(!(c->carbon_server == ((char *)NULL)))
   {
-    signed int return_value_strcmp$7;
-    return_value_strcmp$7=strcmp(c->carbon_protocol, "udp");
-    if(return_value_strcmp$7 == 0)
+    signed int return_value_strcmp_7;
+    return_value_strcmp_7=strcmp(c->carbon_protocol, "udp");
+    if(return_value_strcmp_7 == 0)
     {
       carbon_udp_socket=init_carbon_udp_socket(c->carbon_server, (unsigned short int)c->carbon_port);
-      if(carbon_udp_socket == ((struct anonymous$2 *)NULL))
+      if(carbon_udp_socket == ((struct anonymous_2 *)NULL))
         err_quit("carbon %s socket failed for %s:%d", c->carbon_protocol, c->carbon_server, c->carbon_port);
 
     }
@@ -11566,10 +11566,10 @@ signed int main(signed int argc, char **argv)
     debug_msg("carbon forwarding ready to send via %s to %s:%d", c->carbon_protocol, c->carbon_server, c->carbon_port);
   }
 
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(sizeof(union anonymous) /*40ul*/ );
-  root.sum_finished = (union anonymous *)return_value_malloc$8;
-  pthread_mutex_init(root.sum_finished, (const union anonymous$21 *)(void *)0);
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(sizeof(union anonymous) /*40ul*/ );
+  root.sum_finished = (union anonymous *)return_value_malloc_8;
+  pthread_mutex_init(root.sum_finished, (const union anonymous_21 *)(void *)0);
   pthread_attr_init(&attr);
   pthread_attr_setdetachstate(&attr, 1);
   i = 0;
@@ -11584,15 +11584,15 @@ signed int main(signed int argc, char **argv)
   last_metadata = (signed long int)0;
   do
   {
-    signed int return_value_rand_r$9;
-    return_value_rand_r$9=rand_r(&rand_seed);
-    random_sleep_factor = (double)1 + (5.0 / 50.0) * (double)((float)(return_value_rand_r$9 - 2147483647 / 2) / (float)2147483647);
+    signed int return_value_rand_r_9;
+    return_value_rand_r_9=rand_r(&rand_seed);
+    random_sleep_factor = (double)1 + (5.0 / 50.0) * (double)((float)(return_value_rand_r_9 - 2147483647 / 2) / (float)2147483647);
     sleep_time = (signed long int)((random_sleep_factor * (double)((signed long int)c->shortest_step * 1000000L)) / (double)2);
-    signed long int return_value_apr_time_now$10;
-    return_value_apr_time_now$10=apr_time_now();
-    signed long int return_value_apr_time_now$11;
-    return_value_apr_time_now$11=apr_time_now();
-    if(!((return_value_apr_time_now$10 + sleep_time) / 1000000L >= return_value_apr_time_now$11 / 1000000L + 1l))
+    signed long int return_value_apr_time_now_10;
+    return_value_apr_time_now_10=apr_time_now();
+    signed long int return_value_apr_time_now_11;
+    return_value_apr_time_now_11=apr_time_now();
+    if(!((return_value_apr_time_now_10 + sleep_time) / 1000000L >= return_value_apr_time_now_11 / 1000000L + 1l))
       sleep_time = sleep_time + (signed long int)1 * 1000000L;
 
     apr_sleep(sleep_time);
@@ -11618,9 +11618,9 @@ static signed int mcast_emit_on_if(struct apr_pool_t *context, struct apr_socket
   struct apr_sockaddr_t *sa;
   status=apr_sockaddr_info_get(&sa, mcast_channel, 0, port, 0, context);
   struct ifreq ifreq[1l];
-  signed int return_value_get_apr_os_socket$3;
+  signed int return_value_get_apr_os_socket_3;
   unsigned int if_index;
-  signed int return_value_get_apr_os_socket$4;
+  signed int return_value_get_apr_os_socket_4;
   if(!(status == 0))
     return status;
 
@@ -11634,19 +11634,19 @@ static signed int mcast_emit_on_if(struct apr_pool_t *context, struct apr_socket
         if(!(ifname == ((const char *)NULL)))
         {
           strncpy(ifreq[0l].ifr_ifrn.ifrn_name, ifname, (unsigned long int)16);
-          signed int return_value_get_apr_os_socket$1;
-          return_value_get_apr_os_socket$1=get_apr_os_socket(sock);
-          signed int return_value_ioctl$2;
-          return_value_ioctl$2=ioctl(return_value_get_apr_os_socket$1, (unsigned long int)0x8915, (const void *)ifreq);
-          if(return_value_ioctl$2 == -1)
+          signed int return_value_get_apr_os_socket_1;
+          return_value_get_apr_os_socket_1=get_apr_os_socket(sock);
+          signed int return_value_ioctl_2;
+          return_value_ioctl_2=ioctl(return_value_get_apr_os_socket_1, (unsigned long int)0x8915, (const void *)ifreq);
+          if(return_value_ioctl_2 == -1)
             return 20000 + 14;
 
         }
 
         else
           ((struct sockaddr_in *)&ifreq[0l].ifr_ifru.ifru_addr)->sin_addr.s_addr=htonl((unsigned int)0x00000000);
-        return_value_get_apr_os_socket$3=get_apr_os_socket(sock);
-        rval=setsockopt(return_value_get_apr_os_socket$3, 0, 32, (const void *)&((struct sockaddr_in *)&ifreq[0l].ifr_ifru.ifru_addr)->sin_addr, (unsigned int)sizeof(struct in_addr) /*4ul*/ );
+        return_value_get_apr_os_socket_3=get_apr_os_socket(sock);
+        rval=setsockopt(return_value_get_apr_os_socket_3, 0, 32, (const void *)&((struct sockaddr_in *)&ifreq[0l].ifr_ifru.ifru_addr)->sin_addr, (unsigned int)sizeof(struct in_addr) /*4ul*/ );
         if(!(rval >= 0))
           return 20000 + 14;
 
@@ -11658,8 +11658,8 @@ static signed int mcast_emit_on_if(struct apr_pool_t *context, struct apr_socket
         if(!(ifname == ((const char *)NULL)))
           if_index=if_nametoindex(ifname);
 
-        return_value_get_apr_os_socket$4=get_apr_os_socket(sock);
-        rval=setsockopt(return_value_get_apr_os_socket$4, 41, 17, (const void *)&if_index, (unsigned int)sizeof(unsigned int) /*4ul*/ );
+        return_value_get_apr_os_socket_4=get_apr_os_socket(sock);
+        rval=setsockopt(return_value_get_apr_os_socket_4, 41, 17, (const void *)&if_index, (unsigned int)sizeof(unsigned int) /*4ul*/ );
         break;
       }
       default:
@@ -11671,25 +11671,25 @@ static signed int mcast_emit_on_if(struct apr_pool_t *context, struct apr_socket
 
 // metric_report_end
 // file server.c line 176
-signed int metric_report_end(struct Generic_type *self, struct anonymous$16 *client, void *arg)
+signed int metric_report_end(struct Generic_type *self, struct anonymous_16 *client, void *arg)
 {
   return 0;
 }
 
 // metric_report_start
 // file server.c line 136
-signed int metric_report_start(struct Generic_type *self, struct anonymous$7 *key, struct anonymous$16 *client, void *arg)
+signed int metric_report_start(struct Generic_type *self, struct anonymous_7 *key, struct anonymous_16 *client, void *arg)
 {
   signed int rc;
   signed int i;
-  char *metric_report_start$$1$$name = (char *)key->data;
-  struct anonymous$9 *metric = (struct anonymous$9 *)self;
+  char *metric_report_start__1__name = (char *)key->data;
+  struct anonymous_9 *metric = (struct anonymous_9 *)self;
   signed long int tn = (signed long int)0;
   tn = client->now.tv_sec - metric->t0.tv_sec;
   if(!(tn >= 0l))
     tn = (signed long int)0;
 
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(!(metric->dmax == 0u))
   {
     if((signed long int)metric->dmax >= tn)
@@ -11703,34 +11703,34 @@ signed int metric_report_start(struct Generic_type *self, struct anonymous$7 *ke
 
   __CPROVER_DUMP_L2:
     ;
-    char *return_value_getfield$1;
-    return_value_getfield$1=getfield(metric->strings, metric->valstr);
-    char *return_value_getfield$2;
-    return_value_getfield$2=getfield(metric->strings, metric->type);
-    char *return_value_getfield$3;
-    return_value_getfield$3=getfield(metric->strings, metric->units);
-    char *return_value_getfield$4;
-    return_value_getfield$4=getfield(metric->strings, metric->slope);
-    char *return_value_getfield$5;
-    return_value_getfield$5=getfield(metric->strings, metric->source);
-    rc=xml_print(client, "<METRIC NAME=\"%s\" VAL=\"%s\" TYPE=\"%s\" UNITS=\"%s\" TN=\"%u\" TMAX=\"%u\" DMAX=\"%u\" SLOPE=\"%s\" SOURCE=\"%s\">\n", metric_report_start$$1$$name, return_value_getfield$1, return_value_getfield$2, return_value_getfield$3, (unsigned int)tn, metric->tmax, metric->dmax, return_value_getfield$4, return_value_getfield$5);
+    char *return_value_getfield_1;
+    return_value_getfield_1=getfield(metric->strings, metric->valstr);
+    char *return_value_getfield_2;
+    return_value_getfield_2=getfield(metric->strings, metric->type);
+    char *return_value_getfield_3;
+    return_value_getfield_3=getfield(metric->strings, metric->units);
+    char *return_value_getfield_4;
+    return_value_getfield_4=getfield(metric->strings, metric->slope);
+    char *return_value_getfield_5;
+    return_value_getfield_5=getfield(metric->strings, metric->source);
+    rc=xml_print(client, "<METRIC NAME=\"%s\" VAL=\"%s\" TYPE=\"%s\" UNITS=\"%s\" TN=\"%u\" TMAX=\"%u\" DMAX=\"%u\" SLOPE=\"%s\" SOURCE=\"%s\">\n", metric_report_start__1__name, return_value_getfield_1, return_value_getfield_2, return_value_getfield_3, (unsigned int)tn, metric->tmax, metric->dmax, return_value_getfield_4, return_value_getfield_5);
     rc=xml_print(client, "<EXTRA_DATA>\n");
     i = 0;
     do
     {
       if(rc == 0)
-        tmp_if_expr$6 = i < (signed int)metric->ednameslen ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = i < (signed int)metric->ednameslen ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(!tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(!tmp_if_expr_6)
         break;
 
-      char *return_value_getfield$7;
-      return_value_getfield$7=getfield(metric->strings, metric->ednames[(signed long int)i]);
-      char *return_value_getfield$8;
-      return_value_getfield$8=getfield(metric->strings, metric->edvalues[(signed long int)i]);
-      rc=xml_print(client, "<EXTRA_ELEMENT NAME=\"%s\" VAL=\"%s\"/>\n", return_value_getfield$7, return_value_getfield$8);
+      char *return_value_getfield_7;
+      return_value_getfield_7=getfield(metric->strings, metric->ednames[(signed long int)i]);
+      char *return_value_getfield_8;
+      return_value_getfield_8=getfield(metric->strings, metric->edvalues[(signed long int)i]);
+      rc=xml_print(client, "<EXTRA_ELEMENT NAME=\"%s\" VAL=\"%s\"/>\n", return_value_getfield_7, return_value_getfield_8);
       i = i + 1;
     }
     while((_Bool)1);
@@ -11742,21 +11742,21 @@ signed int metric_report_start(struct Generic_type *self, struct anonymous$7 *ke
 
 // metric_summary
 // file server.c line 64
-static signed int metric_summary(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int metric_summary(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
-  struct anonymous$16 *client = (struct anonymous$16 *)arg;
-  char *metric_summary$$1$$name = (char *)key->data;
+  struct anonymous_16 *client = (struct anonymous_16 *)arg;
+  char *metric_summary__1__name = (char *)key->data;
   char *type;
   char sum[256l];
-  struct anonymous$9 *metric = (struct anonymous$9 *)val->data;
+  struct anonymous_9 *metric = (struct anonymous_9 *)val->data;
   struct type_tag *tt;
   signed int rc;
   signed int i;
   type=getfield(metric->strings, metric->type);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(type);
-  tt=in_type_list(type, (unsigned int)return_value_strlen$1);
-  _Bool tmp_if_expr$5;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(type);
+  tt=in_type_list(type, (unsigned int)return_value_strlen_1);
+  _Bool tmp_if_expr_5;
   if(tt == ((struct type_tag *)NULL))
     return 0;
 
@@ -11774,30 +11774,30 @@ static signed int metric_summary(struct anonymous$7 *key, struct anonymous$7 *va
       case FLOAT:
         sprintf(sum, "%.*f", (signed int)metric->precision, metric->val.d);
     }
-    char *return_value_getfield$2;
-    return_value_getfield$2=getfield(metric->strings, metric->units);
-    char *return_value_getfield$3;
-    return_value_getfield$3=getfield(metric->strings, metric->slope);
-    char *return_value_getfield$4;
-    return_value_getfield$4=getfield(metric->strings, metric->source);
-    rc=xml_print(client, "<METRICS NAME=\"%s\" SUM=\"%s\" NUM=\"%u\" TYPE=\"%s\" UNITS=\"%s\" SLOPE=\"%s\" SOURCE=\"%s\">\n", metric_summary$$1$$name, (const void *)sum, metric->num, (const void *)"double", return_value_getfield$2, return_value_getfield$3, return_value_getfield$4);
+    char *return_value_getfield_2;
+    return_value_getfield_2=getfield(metric->strings, metric->units);
+    char *return_value_getfield_3;
+    return_value_getfield_3=getfield(metric->strings, metric->slope);
+    char *return_value_getfield_4;
+    return_value_getfield_4=getfield(metric->strings, metric->source);
+    rc=xml_print(client, "<METRICS NAME=\"%s\" SUM=\"%s\" NUM=\"%u\" TYPE=\"%s\" UNITS=\"%s\" SLOPE=\"%s\" SOURCE=\"%s\">\n", metric_summary__1__name, (const void *)sum, metric->num, (const void *)"double", return_value_getfield_2, return_value_getfield_3, return_value_getfield_4);
     rc=xml_print(client, "<EXTRA_DATA>\n");
     i = 0;
     do
     {
       if(rc == 0)
-        tmp_if_expr$5 = i < (signed int)metric->ednameslen ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = i < (signed int)metric->ednameslen ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(!tmp_if_expr_5)
         break;
 
-      char *return_value_getfield$6;
-      return_value_getfield$6=getfield(metric->strings, metric->ednames[(signed long int)i]);
-      char *return_value_getfield$7;
-      return_value_getfield$7=getfield(metric->strings, metric->edvalues[(signed long int)i]);
-      rc=xml_print(client, "<EXTRA_ELEMENT NAME=\"%s\" VAL=\"%s\"/>\n", return_value_getfield$6, return_value_getfield$7);
+      char *return_value_getfield_6;
+      return_value_getfield_6=getfield(metric->strings, metric->ednames[(signed long int)i]);
+      char *return_value_getfield_7;
+      return_value_getfield_7=getfield(metric->strings, metric->edvalues[(signed long int)i]);
+      rc=xml_print(client, "<EXTRA_ELEMENT NAME=\"%s\" VAL=\"%s\"/>\n", return_value_getfield_6, return_value_getfield_7);
       i = i + 1;
     }
     while((_Bool)1);
@@ -11811,9 +11811,9 @@ static signed int metric_summary(struct anonymous$7 *key, struct anonymous$7 *va
 // file ../lib/my_inet_ntop.h line 3
 const char * my_inet_ntop(signed int af, void *src, char *dst, unsigned long int cnt)
 {
-  const char *return_value_inet_ntop$1;
-  return_value_inet_ntop$1=inet_ntop(af, src, dst, (unsigned int)cnt);
-  return return_value_inet_ntop$1;
+  const char *return_value_inet_ntop_1;
+  return_value_inet_ntop_1=inet_ntop(af, src, dst, (unsigned int)cnt);
+  return return_value_inet_ntop_1;
 }
 
 // my_mkdir
@@ -11821,13 +11821,13 @@ const char * my_inet_ntop(signed int af, void *src, char *dst, unsigned long int
 static inline void my_mkdir(const char *dir)
 {
   pthread_mutex_lock(&rrd_mutex);
-  signed int return_value_mkdir$2;
-  return_value_mkdir$2=mkdir(dir, (unsigned int)0755);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_mkdir$2 >= 0))
+  signed int return_value_mkdir_2;
+  return_value_mkdir_2=mkdir(dir, (unsigned int)0755);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_mkdir_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 17))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 17))
     {
       pthread_mutex_unlock(&rrd_mutex);
       err_sys("Unable to mkdir(%s)", dir);
@@ -11849,16 +11849,16 @@ signed int number_of_datasources(char *config_file)
   if(configfile == ((struct configfile_t *)NULL))
     err_quit("Unable to open config file: %s\n", config_file);
 
-  signed int return_value_dotconf_get_next_line$1;
+  signed int return_value_dotconf_get_next_line_1;
   do
   {
-    return_value_dotconf_get_next_line$1=dotconf_get_next_line(buf, (unsigned long int)1024, configfile);
-    if(!(return_value_dotconf_get_next_line$1 == 0))
+    return_value_dotconf_get_next_line_1=dotconf_get_next_line(buf, (unsigned long int)1024, configfile);
+    if(!(return_value_dotconf_get_next_line_1 == 0))
       break;
 
-    char *return_value_strstr$2;
-    return_value_strstr$2=strstr(buf, "data_source");
-    if(!(return_value_strstr$2 == ((char *)NULL)))
+    char *return_value_strstr_2;
+    return_value_strstr_2=strstr(buf, "data_source");
+    if(!(return_value_strstr_2 == ((char *)NULL)))
     {
       if(!((signed int)buf[0l] == 35))
         number_of_sources = number_of_sources + 1;
@@ -11882,9 +11882,9 @@ signed int parse_config_file(char *config_file)
     err_quit("Unable to open config file: %s\n", config_file);
 
   configfile->errorhandler = (signed int (*)(struct configfile_t *, signed int, unsigned long int, const char *))errorhandler;
-  signed int return_value_dotconf_command_loop$1;
-  return_value_dotconf_command_loop$1=dotconf_command_loop(configfile);
-  if(return_value_dotconf_command_loop$1 == 0)
+  signed int return_value_dotconf_command_loop_1;
+  return_value_dotconf_command_loop_1=dotconf_command_loop(configfile);
+  if(return_value_dotconf_command_loop_1 == 0)
   {
     dotconf_cleanup(configfile);
     err_quit("dotconf_command_loop error");
@@ -11895,12 +11895,12 @@ signed int parse_config_file(char *config_file)
 
 // path_macro_replace
 // file export_helpers.c line 215
-char * path_macro_replace(char *path, struct anonymous$1 *patrn)
+char * path_macro_replace(char *path, struct anonymous_1 *patrn)
 {
   char *final;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)4096);
-  final = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)4096);
+  final = (char *)return_value_malloc_1;
   char path_cp[4096l];
   char *prefix;
   char *suffix;
@@ -11916,9 +11916,9 @@ char * path_macro_replace(char *path, struct anonymous$1 *patrn)
         break;
 
       prefix = path_cp;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen((patrn + (signed long int)i)->torepl);
-      suffix = offset + (signed long int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen((patrn + (signed long int)i)->torepl);
+      suffix = offset + (signed long int)return_value_strlen_2;
       *offset = (char)0;
       snprintf(final, (unsigned long int)4096, "%s%s%s", prefix, (patrn + (signed long int)i)->replwith, suffix);
       strncpy(path_cp, final, (unsigned long int)4096);
@@ -11932,31 +11932,31 @@ char * path_macro_replace(char *path, struct anonymous$1 *patrn)
 static void print_help_common(void)
 {
   cmdline_parser_print_version();
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(gengetopt_args_info_purpose);
-  if(return_value_strlen$1 >= 1ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(gengetopt_args_info_purpose);
+  if(return_value_strlen_1 >= 1ul)
     printf("\n%s\n", gengetopt_args_info_purpose);
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(gengetopt_args_info_usage);
-  if(return_value_strlen$2 >= 1ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(gengetopt_args_info_usage);
+  if(return_value_strlen_2 >= 1ul)
     printf("\n%s\n", gengetopt_args_info_usage);
 
   printf("\n");
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(gengetopt_args_info_description);
-  if(return_value_strlen$3 >= 1ul)
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(gengetopt_args_info_description);
+  if(return_value_strlen_3 >= 1ul)
     printf("%s\n\n", gengetopt_args_info_description);
 
 }
 
 // print_sources
 // file gmetad.c line 53
-static signed int print_sources(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int print_sources(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
   signed int i;
-  struct anonymous$6 *d = *((struct anonymous$6 **)val->data);
-  struct anonymous$4 *addr;
+  struct anonymous_6 *d = *((struct anonymous_6 **)val->data);
+  struct anonymous_4 *addr;
   fprintf(stderr, "Source: [%s, step %d] has %d sources\n", (char *)key->data, d->step, d->num_sources);
   i = 0;
   for( ; !((unsigned int)i >= d->num_sources); i = i + 1)
@@ -11969,7 +11969,7 @@ static signed int print_sources(struct anonymous$7 *key, struct anonymous$7 *val
 
 // process_path
 // file server.c line 396
-static signed int process_path(struct anonymous$16 *client, char *path, struct anonymous$7 *myroot, struct anonymous$7 *key)
+static signed int process_path(struct anonymous_16 *client, char *path, struct anonymous_7 *myroot, struct anonymous_7 *key)
 {
   char *p;
   char *q;
@@ -11977,21 +11977,21 @@ static signed int process_path(struct anonymous$16 *client, char *path, struct a
   char *element;
   signed int rc;
   signed int len;
-  struct anonymous$7 *found;
-  struct anonymous$7 findkey;
+  struct anonymous_7 *found;
+  struct anonymous_7 findkey;
   struct Generic_type *node = (struct Generic_type *)myroot->data;
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_3;
   if(path == ((char *)NULL))
   {
     applyfilter(client, node);
-    if(!(node->children == ((struct anonymous$8 *)NULL)))
+    if(!(node->children == ((struct anonymous_8 *)NULL)))
       hash_foreach(node->children, tree_report, (void *)client);
 
     return 0;
   }
 
   else
-    if(!(node->report_start == ((signed int (*)(struct Generic_type *, struct anonymous$7 *, struct anonymous$16 *, void *))NULL)))
+    if(!(node->report_start == ((signed int (*)(struct Generic_type *, struct anonymous_7 *, struct anonymous_16 *, void *))NULL)))
     {
       rc=node->report_start(node, key, client, (void *)0);
       return 1;
@@ -11999,12 +11999,12 @@ static signed int process_path(struct anonymous$16 *client, char *path, struct a
 
     else
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(path);
-      pathend = path + (signed long int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(path);
+      pathend = path + (signed long int)return_value_strlen_1;
       p = path + (signed long int)1;
-      if(node->children == ((struct anonymous$8 *)NULL) || p >= pathend)
-        rc=process_path(client, ((char *)NULL), myroot, (struct anonymous$7 *)(void *)0);
+      if(node->children == ((struct anonymous_8 *)NULL) || p >= pathend)
+        rc=process_path(client, ((char *)NULL), myroot, (struct anonymous_7 *)(void *)0);
 
       else
       {
@@ -12013,9 +12013,9 @@ static signed int process_path(struct anonymous$16 *client, char *path, struct a
           q = pathend;
 
         len = (signed int)(q - p);
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((unsigned long int)(len + 1));
-        element = (char *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((unsigned long int)(len + 1));
+        element = (char *)return_value_malloc_2;
         if(element == ((char *)NULL))
           return 1;
 
@@ -12024,7 +12024,7 @@ static signed int process_path(struct anonymous$16 *client, char *path, struct a
         findkey.data = (void *)element;
         findkey.size = (unsigned int)(len + 1);
         found=hash_lookup(&findkey, node->children);
-        if(!(found == ((struct anonymous$7 *)NULL)))
+        if(!(found == ((struct anonymous_7 *)NULL)))
         {
           rc=process_path(client, q, found, &findkey);
           datum_free(found);
@@ -12032,12 +12032,12 @@ static signed int process_path(struct anonymous$16 *client, char *path, struct a
 
         else
           if(client->http == 0u)
-            rc=process_path(client, ((char *)NULL), myroot, (struct anonymous$7 *)(void *)0);
+            rc=process_path(client, ((char *)NULL), myroot, (struct anonymous_7 *)(void *)0);
 
           else
           {
-            return_value_strcmp$3=strcmp(element, "*");
-            if(return_value_strcmp$3 == 0)
+            return_value_strcmp_3=strcmp(element, "*");
+            if(return_value_strcmp_3 == 0)
             {
               struct request_context ctxt;
               ctxt.path = q;
@@ -12055,7 +12055,7 @@ static signed int process_path(struct anonymous$16 *client, char *path, struct a
 
       else
       {
-        if(!(node->report_end == ((signed int (*)(struct Generic_type *, struct anonymous$16 *, void *))NULL)))
+        if(!(node->report_end == ((signed int (*)(struct Generic_type *, struct anonymous_16 *, void *))NULL)))
           rc=node->report_end(node, client, (void *)0);
 
         return rc;
@@ -12065,26 +12065,26 @@ static signed int process_path(struct anonymous$16 *client, char *path, struct a
 
 // process_path_adapter
 // file server.c line 496
-static signed int process_path_adapter(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int process_path_adapter(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
   struct request_context *ctxt = (struct request_context *)arg;
-  signed int return_value_process_path$1;
-  return_value_process_path$1=process_path(ctxt->client, ctxt->path, val, key);
-  return return_value_process_path$1;
+  signed int return_value_process_path_1;
+  return_value_process_path_1=process_path(ctxt->client, ctxt->path, val, key);
+  return return_value_process_path_1;
 }
 
 // process_request
 // file server.c line 507
-static signed int process_request(struct anonymous$16 *client, char *path)
+static signed int process_request(struct anonymous_16 *client, char *path)
 {
   char *p;
   signed int rc;
   signed int pathlen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  pathlen = (signed int)return_value_strlen$1;
-  signed int return_value_memcmp$5;
-  signed int return_value_memcmp$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  pathlen = (signed int)return_value_strlen_1;
+  signed int return_value_memcmp_5;
+  signed int return_value_memcmp_2;
   if(pathlen == 0)
     return 1;
 
@@ -12092,24 +12092,24 @@ static signed int process_request(struct anonymous$16 *client, char *path)
   {
     if(pathlen >= 12)
     {
-      return_value_memcmp$5=memcmp((const void *)path, (const void *)"GET ", (unsigned long int)4);
-      if(return_value_memcmp$5 == 0)
+      return_value_memcmp_5=memcmp((const void *)path, (const void *)"GET ", (unsigned long int)4);
+      if(return_value_memcmp_5 == 0)
       {
         char *http_p = (path + (signed long int)pathlen) - (signed long int)9;
-        signed int return_value_memcmp$3;
-        return_value_memcmp$3=memcmp((const void *)http_p, (const void *)" HTTP/1.0", (unsigned long int)9);
-        if(!(return_value_memcmp$3 == 0))
+        signed int return_value_memcmp_3;
+        return_value_memcmp_3=memcmp((const void *)http_p, (const void *)" HTTP/1.0", (unsigned long int)9);
+        if(!(return_value_memcmp_3 == 0))
         {
-          return_value_memcmp$2=memcmp((const void *)http_p, (const void *)" HTTP/1.1", (unsigned long int)9);
-          if(!(return_value_memcmp$2 == 0))
+          return_value_memcmp_2=memcmp((const void *)http_p, (const void *)" HTTP/1.1", (unsigned long int)9);
+          if(!(return_value_memcmp_2 == 0))
             return 1;
 
         }
 
         *http_p = (char)0;
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(path + (signed long int)4);
-        pathlen = (signed int)return_value_strlen$4;
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(path + (signed long int)4);
+        pathlen = (signed int)return_value_strlen_4;
         memmove((void *)path, (const void *)(path + (signed long int)4), (unsigned long int)(pathlen + 1));
         client->http = (unsigned int)1;
       }
@@ -12121,9 +12121,9 @@ static signed int process_request(struct anonymous$16 *client, char *path)
 
     else
     {
-      unsigned long int return_value_strcspn$6;
-      return_value_strcspn$6=strcspn(path, ">!@#$%`;|\"\\'<");
-      if(!(return_value_strcspn$6 >= (unsigned long int)pathlen))
+      unsigned long int return_value_strcspn_6;
+      return_value_strcspn_6=strcspn(path, ">!@#_%`;|\"\\'<");
+      if(!(return_value_strcspn_6 >= (unsigned long int)pathlen))
         return 1;
 
       else
@@ -12154,12 +12154,12 @@ static signed int process_request(struct anonymous$16 *client, char *path)
 
 // process_xml
 // file process_xml.c line 1245
-signed int process_xml(struct anonymous$6 *d, char *buf)
+signed int process_xml(struct anonymous_6 *d, char *buf)
 {
   signed int rval;
   struct XML_ParserStruct *xml_parser;
-  struct anonymous$35 xmldata;
-  memset((void *)&xmldata, 0, sizeof(struct anonymous$35) /*5184ul*/ );
+  struct anonymous_35 xmldata;
+  memset((void *)&xmldata, 0, sizeof(struct anonymous_35) /*5184ul*/ );
   xmldata.ds = d;
   xmldata.root = root.authority;
   gettimeofday(&xmldata.now, (struct timezone *)(void *)0);
@@ -12174,20 +12174,20 @@ signed int process_xml(struct anonymous$6 *d, char *buf)
   {
     XML_SetElementHandler(xml_parser, start, end);
     XML_SetUserData(xml_parser, (void *)&xmldata);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(buf);
-    enum XML_Status return_value_XML_Parse$2;
-    return_value_XML_Parse$2=XML_Parse(xml_parser, buf, (signed int)return_value_strlen$1, 1);
-    rval = (signed int)return_value_XML_Parse$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(buf);
+    enum XML_Status return_value_XML_Parse_2;
+    return_value_XML_Parse_2=XML_Parse(xml_parser, buf, (signed int)return_value_strlen_1, 1);
+    rval = (signed int)return_value_XML_Parse_2;
     if(rval == 0)
     {
-      unsigned long int return_value_XML_GetCurrentLineNumber$3;
-      return_value_XML_GetCurrentLineNumber$3=XML_GetCurrentLineNumber(xml_parser);
-      enum XML_Error return_value_XML_GetErrorCode$4;
-      return_value_XML_GetErrorCode$4=XML_GetErrorCode(xml_parser);
-      const char *return_value_XML_ErrorString$5;
-      return_value_XML_ErrorString$5=XML_ErrorString(return_value_XML_GetErrorCode$4);
-      err_msg("Process XML (%s): XML_ParseBuffer() error at line %d:\n%s\n", d->name, (signed int)return_value_XML_GetCurrentLineNumber$3, return_value_XML_ErrorString$5);
+      unsigned long int return_value_XML_GetCurrentLineNumber_3;
+      return_value_XML_GetCurrentLineNumber_3=XML_GetCurrentLineNumber(xml_parser);
+      enum XML_Error return_value_XML_GetErrorCode_4;
+      return_value_XML_GetErrorCode_4=XML_GetErrorCode(xml_parser);
+      const char *return_value_XML_ErrorString_5;
+      return_value_XML_ErrorString_5=XML_ErrorString(return_value_XML_GetErrorCode_4);
+      err_msg("Process XML (%s): XML_ParseBuffer() error at line %d:\n%s\n", d->name, (signed int)return_value_XML_GetCurrentLineNumber_3, return_value_XML_ErrorString_5);
       xmldata.rval = 1;
     }
 
@@ -12204,10 +12204,10 @@ signed int process_xml(struct anonymous$6 *d, char *buf)
 
 // processfilter
 // file server.c line 340
-signed int processfilter(struct anonymous$16 *client, const char *filter)
+signed int processfilter(struct anonymous_16 *client, const char *filter)
 {
   const char *p = filter;
-  client->filter = (enum anonymous$22)NO_FILTER;
+  client->filter = (enum anonymous_22)NO_FILTER;
   p=strchr(p, 61);
   if(p == ((const char *)NULL))
     return 1;
@@ -12215,10 +12215,10 @@ signed int processfilter(struct anonymous$16 *client, const char *filter)
   else
   {
     p = p + 1l;
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(p, "summary");
-    if(return_value_strcmp$1 == 0)
-      client->filter = (enum anonymous$22)SUMMARY;
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(p, "summary");
+    if(return_value_strcmp_1 == 0)
+      client->filter = (enum anonymous_22)SUMMARY;
 
     else
       err_msg("Got unknown filter %s", filter);
@@ -12232,8 +12232,8 @@ signed int pthread_rdwr_init_np(struct rdwr_var *rdwrp)
 {
   rdwrp->readers_reading = 0;
   rdwrp->writer_writing = 0;
-  pthread_mutex_init(&rdwrp->mutex, (const union anonymous$21 *)(void *)0);
-  pthread_cond_init(&rdwrp->lock_free, (const union anonymous$21 *)(void *)0);
+  pthread_mutex_init(&rdwrp->mutex, (const union anonymous_21 *)(void *)0);
+  pthread_cond_init(&rdwrp->lock_free, (const union anonymous_21 *)(void *)0);
   return 0;
 }
 
@@ -12319,9 +12319,9 @@ signed int pthread_rdwr_wunlock_np(struct rdwr_var *rdwrp)
 // file export_helpers.c line 79
 static signed int push_data_to_carbon(char *graphite_msg)
 {
-  signed int return_value_strcmp$12;
-  return_value_strcmp$12=strcmp(gmetad_config.carbon_protocol, "tcp");
-  if(return_value_strcmp$12 == 0)
+  signed int return_value_strcmp_12;
+  return_value_strcmp_12=strcmp(gmetad_config.carbon_protocol, "tcp");
+  if(return_value_strcmp_12 == 0)
   {
     signed int port;
     signed int carbon_socket;
@@ -12345,11 +12345,11 @@ static signed int push_data_to_carbon(char *graphite_msg)
     carbon_socket=socket(2, 1, 0);
     if(!(carbon_socket >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      err_msg("socket (client): %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      err_msg("socket (client): %s", return_value_strerror_2);
       close(carbon_socket);
       return 1;
     }
@@ -12372,18 +12372,18 @@ static signed int push_data_to_carbon(char *graphite_msg)
         if(!((0x004 & (signed int)carbon_struct_poll.revents) == 0))
         {
           debug_msg("carbon proxy:: %s is ready to receive", gmetad_config.carbon_server);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(graphite_msg);
-          signed long int return_value_write$4;
-          return_value_write$4=write(carbon_socket, (const void *)graphite_msg, return_value_strlen$3 + (unsigned long int)1);
-          nbytes = (signed int)return_value_write$4;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(graphite_msg);
+          signed long int return_value_write_4;
+          return_value_write_4=write(carbon_socket, (const void *)graphite_msg, return_value_strlen_3 + (unsigned long int)1);
+          nbytes = (signed int)return_value_write_4;
           if(!(nbytes >= 0))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            char *return_value_strerror$6;
-            return_value_strerror$6=strerror(*return_value___errno_location$5);
-            err_msg("write: %s", return_value_strerror$6);
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            char *return_value_strerror_6;
+            return_value_strerror_6=strerror(*return_value___errno_location_5);
+            err_msg("write: %s", return_value_strerror_6);
             close(carbon_socket);
             return 1;
           }
@@ -12412,23 +12412,23 @@ static signed int push_data_to_carbon(char *graphite_msg)
 
   else
   {
-    signed int push_data_to_carbon$$1$$2$$nbytes;
+    signed int push_data_to_carbon__1__2__nbytes;
     pthread_mutex_lock(&carbon_mutex);
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(graphite_msg);
-    signed long int return_value_sendto$8;
-    return_value_sendto$8=sendto(carbon_udp_socket->sockfd, (const void *)graphite_msg, return_value_strlen$7, 0, (struct sockaddr_in *)&carbon_udp_socket->sa, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    push_data_to_carbon$$1$$2$$nbytes = (signed int)return_value_sendto$8;
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(graphite_msg);
+    signed long int return_value_sendto_8;
+    return_value_sendto_8=sendto(carbon_udp_socket->sockfd, (const void *)graphite_msg, return_value_strlen_7, 0, (struct sockaddr_in *)&carbon_udp_socket->sa, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    push_data_to_carbon__1__2__nbytes = (signed int)return_value_sendto_8;
     pthread_mutex_unlock(&carbon_mutex);
-    unsigned long int return_value_strlen$11;
-    return_value_strlen$11=strlen(graphite_msg);
-    if(!((unsigned long int)push_data_to_carbon$$1$$2$$nbytes == return_value_strlen$11))
+    unsigned long int return_value_strlen_11;
+    return_value_strlen_11=strlen(graphite_msg);
+    if(!((unsigned long int)push_data_to_carbon__1__2__nbytes == return_value_strlen_11))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      char *return_value_strerror$10;
-      return_value_strerror$10=strerror(*return_value___errno_location$9);
-      err_msg("sendto socket (client): %s", return_value_strerror$10);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      char *return_value_strerror_10;
+      return_value_strerror_10=strerror(*return_value___errno_location_9);
+      err_msg("sendto socket (client): %s", return_value_strerror_10);
       return 1;
     }
 
@@ -12443,11 +12443,11 @@ static signed int push_data_to_rrd(char *rrd, const char *sum, const char *num, 
   signed int rval;
   signed int summary;
   struct stat st;
-  signed long int return_value_time$1;
+  signed long int return_value_time_1;
   if(process_time == 0u)
   {
-    return_value_time$1=time(((signed long int *)NULL));
-    process_time = (unsigned int)return_value_time$1;
+    return_value_time_1=time(((signed long int *)NULL));
+    process_time = (unsigned int)return_value_time_1;
   }
 
   if(!(num == ((const char *)NULL)))
@@ -12455,9 +12455,9 @@ static signed int push_data_to_rrd(char *rrd, const char *sum, const char *num, 
 
   else
     summary = 0;
-  signed int return_value_stat$2;
-  return_value_stat$2=stat(rrd, &st);
-  if(!(return_value_stat$2 == 0))
+  signed int return_value_stat_2;
+  return_value_stat_2=stat(rrd, &st);
+  if(!(return_value_stat_2 == 0))
   {
     rval=RRD_create(rrd, summary, step, process_time, slope);
     if(rval == 0)
@@ -12471,9 +12471,9 @@ static signed int push_data_to_rrd(char *rrd, const char *sum, const char *num, 
 
   __CPROVER_DUMP_L4:
     ;
-    signed int return_value_RRD_update$3;
-    return_value_RRD_update$3=RRD_update(rrd, sum, num, process_time);
-    return return_value_RRD_update$3;
+    signed int return_value_RRD_update_3;
+    return_value_RRD_update_3=RRD_update(rrd, sum, num, process_time);
+    return return_value_RRD_update_3;
   }
 }
 
@@ -12492,14 +12492,14 @@ signed int readline(signed int fd, char *buf, signed int maxlen)
   nleft = maxlen;
   while(stop == 0 && nleft >= 1)
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)ptr, (unsigned long int)nleft);
-    justread = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)ptr, (unsigned long int)nleft);
+    justread = (signed int)return_value_read_1;
     if(!(justread >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 4)
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 4)
         justread = 0;
 
       else
@@ -12535,16 +12535,16 @@ signed int readline(signed int fd, char *buf, signed int maxlen)
 
 // root_report_end
 // file server.c line 281
-signed int root_report_end(struct anonymous$16 *client)
+signed int root_report_end(struct anonymous_16 *client)
 {
-  signed int return_value_xml_print$1;
-  return_value_xml_print$1=xml_print(client, "</GRID>\n</GANGLIA_XML>\n");
-  return return_value_xml_print$1;
+  signed int return_value_xml_print_1;
+  return_value_xml_print_1=xml_print(client, "</GRID>\n</GANGLIA_XML>\n");
+  return return_value_xml_print_1;
 }
 
 // root_report_start
 // file server.c line 251
-signed int root_report_start(struct anonymous$16 *client)
+signed int root_report_start(struct anonymous_16 *client)
 {
   signed int rc;
   if(!(client->http == 0u))
@@ -12568,11 +12568,11 @@ signed int root_report_start(struct anonymous$16 *client)
     else
     {
       rc=xml_print(client, "<GANGLIA_XML VERSION=\"%s\" SOURCE=\"gmetad\">\n", (const void *)"3.6.0");
-      char *return_value_getfield$1;
-      return_value_getfield$1=getfield(root.strings, root.authority_ptr);
-      signed long int return_value_time$2;
-      return_value_time$2=time(((signed long int *)NULL));
-      rc=xml_print(client, "<GRID NAME=\"%s\" AUTHORITY=\"%s\" LOCALTIME=\"%u\">\n", gmetad_config.gridname, return_value_getfield$1, (unsigned int)return_value_time$2);
+      char *return_value_getfield_1;
+      return_value_getfield_1=getfield(root.strings, root.authority_ptr);
+      signed long int return_value_time_2;
+      return_value_time_2=time(((signed long int *)NULL));
+      rc=xml_print(client, "<GRID NAME=\"%s\" AUTHORITY=\"%s\" LOCALTIME=\"%u\">\n", gmetad_config.gridname, return_value_getfield_1, (unsigned int)return_value_time_2);
       return rc;
     }
   }
@@ -12583,20 +12583,20 @@ signed int root_report_start(struct anonymous$16 *client)
 static void safe_skip_whitespace(char **cp, signed int n, char term)
 {
   char *cp1 = *cp;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  signed int tmp_post$2;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  signed int tmp_post_2;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*cp1]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*cp1]) == 0)
       break;
 
     if(*cp1 == term)
       break;
 
-    tmp_post$2 = n;
+    tmp_post_2 = n;
     n = n - 1;
-    if(tmp_post$2 == 0)
+    if(tmp_post_2 == 0)
       break;
 
     cp1 = cp1 + 1l;
@@ -12612,17 +12612,17 @@ void * server_thread(void *arg)
   signed int interactive = (signed int)(arg != (void *)0);
   unsigned int len;
   signed int request_len;
-  struct anonymous$16 client;
+  struct anonymous_16 client;
   char remote_ip[16l];
   char request[2049l];
   struct _llist_entry *le;
-  struct anonymous$7 rootdatum;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$9;
-  signed int return_value_llist_search$8;
+  struct anonymous_7 rootdatum;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_9;
+  signed int return_value_llist_search_8;
   do
   {
     client.valid = (unsigned int)0;
@@ -12635,14 +12635,14 @@ void * server_thread(void *arg)
         client.fd=accept(interactive_socket->sockfd, (struct sockaddr *)&client.addr, &len);
         if(!(client.fd >= 0))
         {
-          return_value___errno_location$1=__errno_location();
-          tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_1=__errno_location();
+          tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$2 = (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
       }
-      while(tmp_if_expr$2);
+      while(tmp_if_expr_2);
       pthread_mutex_unlock(&server_interactive_mutex);
     }
 
@@ -12654,39 +12654,39 @@ void * server_thread(void *arg)
         client.fd=accept(server_socket->sockfd, (struct sockaddr *)&client.addr, &len);
         if(!(client.fd >= 0))
         {
-          return_value___errno_location$3=__errno_location();
-          tmp_if_expr$4 = *return_value___errno_location$3 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_3=__errno_location();
+          tmp_if_expr_4 = *return_value___errno_location_3 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
       }
-      while(tmp_if_expr$4);
+      while(tmp_if_expr_4);
       pthread_mutex_unlock(&server_socket_mutex);
     }
     if(!(client.fd >= 0))
     {
       err_ret("server_thread() error");
-      unsigned long int return_value_pthread_self$5;
-      return_value_pthread_self$5=pthread_self();
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      debug_msg("server_thread() %lx clientfd = %d errno=%d\n", (unsigned long int)return_value_pthread_self$5, client.fd, *return_value___errno_location$6);
+      unsigned long int return_value_pthread_self_5;
+      return_value_pthread_self_5=pthread_self();
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      debug_msg("server_thread() %lx clientfd = %d errno=%d\n", (unsigned long int)return_value_pthread_self_5, client.fd, *return_value___errno_location_6);
       continue;
     }
 
     my_inet_ntop(2, (void *)&client.addr.sin_addr, remote_ip, (unsigned long int)16);
-    signed int return_value_strcmp$7;
-    return_value_strcmp$7=strcmp(remote_ip, "127.0.0.1");
-    if(return_value_strcmp$7 == 0 || !(gmetad_config.all_trusted == 0))
-      tmp_if_expr$9 = (_Bool)1;
+    signed int return_value_strcmp_7;
+    return_value_strcmp_7=strcmp(remote_ip, "127.0.0.1");
+    if(return_value_strcmp_7 == 0 || !(gmetad_config.all_trusted == 0))
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_llist_search$8=llist_search(&gmetad_config.trusted_hosts, (void *)remote_ip, strcmp, &le);
-      tmp_if_expr$9 = return_value_llist_search$8 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_llist_search_8=llist_search(&gmetad_config.trusted_hosts, (void *)remote_ip, strcmp, &le);
+      tmp_if_expr_9 = return_value_llist_search_8 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
       client.valid = (unsigned int)1;
 
     if(client.valid == 0u)
@@ -12697,7 +12697,7 @@ void * server_thread(void *arg)
 
     else
     {
-      client.filter = (enum anonymous$22)0;
+      client.filter = (enum anonymous_22)0;
       client.http = (unsigned int)0;
       gettimeofday(&client.now, (struct timezone *)(void *)0);
       if(!(interactive == 0))
@@ -12711,9 +12711,9 @@ void * server_thread(void *arg)
         }
 
         debug_msg("server_thread() received request \"%s\" from %s", (const void *)request, (const void *)remote_ip);
-        signed int return_value_process_request$10;
-        return_value_process_request$10=process_request(&client, request);
-        if(!(return_value_process_request$10 == 0))
+        signed int return_value_process_request_10;
+        return_value_process_request_10=process_request(&client, request);
+        if(!(return_value_process_request_10 == 0))
         {
           err_msg("Got a malformed path request from %s", (const void *)remote_ip);
           close(client.fd);
@@ -12724,37 +12724,37 @@ void * server_thread(void *arg)
 
       else
         strcpy(request, "/");
-      signed int return_value_root_report_start$12;
-      return_value_root_report_start$12=root_report_start(&client);
-      if(!(return_value_root_report_start$12 == 0))
+      signed int return_value_root_report_start_12;
+      return_value_root_report_start_12=root_report_start(&client);
+      if(!(return_value_root_report_start_12 == 0))
       {
-        unsigned long int return_value_pthread_self$11;
-        return_value_pthread_self$11=pthread_self();
-        err_msg("server_thread() %lx unable to write root preamble (DTD, etc)", (unsigned long int)return_value_pthread_self$11);
+        unsigned long int return_value_pthread_self_11;
+        return_value_pthread_self_11=pthread_self();
+        err_msg("server_thread() %lx unable to write root preamble (DTD, etc)", (unsigned long int)return_value_pthread_self_11);
         close(client.fd);
         continue;
       }
 
       rootdatum.data = (void *)&root;
-      rootdatum.size = (unsigned int)sizeof(struct anonymous$11) /*1664ul*/ ;
-      signed int return_value_process_path$14;
-      return_value_process_path$14=process_path(&client, request, &rootdatum, (struct anonymous$7 *)(void *)0);
-      if(!(return_value_process_path$14 == 0))
+      rootdatum.size = (unsigned int)sizeof(struct anonymous_11) /*1664ul*/ ;
+      signed int return_value_process_path_14;
+      return_value_process_path_14=process_path(&client, request, &rootdatum, (struct anonymous_7 *)(void *)0);
+      if(!(return_value_process_path_14 == 0))
       {
-        unsigned long int return_value_pthread_self$13;
-        return_value_pthread_self$13=pthread_self();
-        err_msg("server_thread() %lx unable to write XML tree info", (unsigned long int)return_value_pthread_self$13);
+        unsigned long int return_value_pthread_self_13;
+        return_value_pthread_self_13=pthread_self();
+        err_msg("server_thread() %lx unable to write XML tree info", (unsigned long int)return_value_pthread_self_13);
         close(client.fd);
         continue;
       }
 
-      signed int return_value_root_report_end$16;
-      return_value_root_report_end$16=root_report_end(&client);
-      if(!(return_value_root_report_end$16 == 0))
+      signed int return_value_root_report_end_16;
+      return_value_root_report_end_16=root_report_end(&client);
+      if(!(return_value_root_report_end_16 == 0))
       {
-        unsigned long int return_value_pthread_self$15;
-        return_value_pthread_self$15=pthread_self();
-        err_msg("server_thread() %lx unable to write root epilog", (unsigned long int)return_value_pthread_self$15);
+        unsigned long int return_value_pthread_self_15;
+        return_value_pthread_self_15=pthread_self();
+        err_msg("server_thread() %lx unable to write root epilog", (unsigned long int)return_value_pthread_self_15);
       }
 
       close(client.fd);
@@ -12767,12 +12767,12 @@ void * server_thread(void *arg)
 // file ../include/gm_msg.h line 17
 void set_debug_msg_level(signed int level)
 {
-  debug_level$link1 = level;
+  debug_level_link1 = level;
 }
 
 // set_defaults
 // file conf.c line 366
-static void set_defaults(struct anonymous$5 *config)
+static void set_defaults(struct anonymous_5 *config)
 {
   config->gridname = "unspecified";
   config->xml_port = 8651;
@@ -12802,21 +12802,21 @@ static void set_defaults(struct anonymous$5 *config)
 // file file.c line 128
 char * skip_token(const char *p)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
       break;
 
     p = p + 1l;
   }
   while((_Bool)1);
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   for( ; !(*p == 0); p = p + 1l)
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*p]) == 0))
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*p]) == 0))
       break;
 
   }
@@ -12827,11 +12827,11 @@ char * skip_token(const char *p)
 // file file.c line 121
 char * skip_whitespace(const char *p)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
       break;
 
     p = p + 1l;
@@ -12873,8 +12873,8 @@ signed int slurpfile(char *filename, char **buffer, signed int buflen)
   signed int sl = 0;
   char *db;
   fd=open(filename, 00);
-  signed long int return_value_read$2;
-  void *return_value_realloc$4;
+  signed long int return_value_read_2;
+  void *return_value_realloc_4;
   if(!(fd >= 0))
   {
     err_ret("slurpfile() open() error on file %s", filename);
@@ -12885,9 +12885,9 @@ signed int slurpfile(char *filename, char **buffer, signed int buflen)
   {
     if(*buffer == ((char *)NULL))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)buflen);
-      db = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)buflen);
+      db = (char *)return_value_malloc_1;
       dynamic = buflen;
       *buffer = db;
     }
@@ -12899,13 +12899,13 @@ signed int slurpfile(char *filename, char **buffer, signed int buflen)
 
     read:
       ;
-      return_value_read$2=read(fd, (void *)db, (unsigned long int)buflen);
-      read_len = (signed int)return_value_read$2;
+      return_value_read_2=read(fd, (void *)db, (unsigned long int)buflen);
+      read_len = (signed int)return_value_read_2;
       if(!(read_len >= 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 4)
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 4)
           goto read;
 
         err_ret("slurpfile() read() error on file %s", filename);
@@ -12922,8 +12922,8 @@ signed int slurpfile(char *filename, char **buffer, signed int buflen)
         break;
 
       dynamic = dynamic + buflen;
-      return_value_realloc$4=realloc((void *)*buffer, (unsigned long int)dynamic);
-      db = (char *)return_value_realloc$4;
+      return_value_realloc_4=realloc((void *)*buffer, (unsigned long int)dynamic);
+      db = (char *)return_value_realloc_4;
       *buffer = db;
       db = (*buffer + (signed long int)dynamic) - (signed long int)buflen;
     }
@@ -12941,53 +12941,53 @@ signed int slurpfile(char *filename, char **buffer, signed int buflen)
 
 // source_report_end
 // file server.c line 239
-signed int source_report_end(struct Generic_type *self, struct anonymous$16 *client, void *arg)
+signed int source_report_end(struct Generic_type *self, struct anonymous_16 *client, void *arg)
 {
-  signed int return_value_xml_print$1;
-  signed int return_value_xml_print$2;
+  signed int return_value_xml_print_1;
+  signed int return_value_xml_print_2;
   if((signed int)self->id == CLUSTER_NODE)
   {
-    return_value_xml_print$1=xml_print(client, "</CLUSTER>\n");
-    return return_value_xml_print$1;
+    return_value_xml_print_1=xml_print(client, "</CLUSTER>\n");
+    return return_value_xml_print_1;
   }
 
   else
   {
-    return_value_xml_print$2=xml_print(client, "</GRID>\n");
-    return return_value_xml_print$2;
+    return_value_xml_print_2=xml_print(client, "</GRID>\n");
+    return return_value_xml_print_2;
   }
 }
 
 // source_report_start
 // file server.c line 213
-signed int source_report_start(struct Generic_type *self, struct anonymous$7 *key, struct anonymous$16 *client, void *arg)
+signed int source_report_start(struct Generic_type *self, struct anonymous_7 *key, struct anonymous_16 *client, void *arg)
 {
   signed int rc;
-  char *source_report_start$$1$$name = (char *)key->data;
-  struct anonymous$11 *source = (struct anonymous$11 *)self;
+  char *source_report_start__1__name = (char *)key->data;
+  struct anonymous_11 *source = (struct anonymous_11 *)self;
   if((signed int)self->id == CLUSTER_NODE)
   {
-    char *return_value_getfield$1;
-    return_value_getfield$1=getfield(source->strings, source->owner);
-    char *return_value_getfield$2;
-    return_value_getfield$2=getfield(source->strings, source->latlong);
-    char *return_value_getfield$3;
-    return_value_getfield$3=getfield(source->strings, source->url);
-    rc=xml_print(client, "<CLUSTER NAME=\"%s\" LOCALTIME=\"%u\" OWNER=\"%s\" LATLONG=\"%s\" URL=\"%s\">\n", source_report_start$$1$$name, source->localtime, return_value_getfield$1, return_value_getfield$2, return_value_getfield$3);
+    char *return_value_getfield_1;
+    return_value_getfield_1=getfield(source->strings, source->owner);
+    char *return_value_getfield_2;
+    return_value_getfield_2=getfield(source->strings, source->latlong);
+    char *return_value_getfield_3;
+    return_value_getfield_3=getfield(source->strings, source->url);
+    rc=xml_print(client, "<CLUSTER NAME=\"%s\" LOCALTIME=\"%u\" OWNER=\"%s\" LATLONG=\"%s\" URL=\"%s\">\n", source_report_start__1__name, source->localtime, return_value_getfield_1, return_value_getfield_2, return_value_getfield_3);
   }
 
   else
   {
-    char *return_value_getfield$4;
-    return_value_getfield$4=getfield(source->strings, source->authority_ptr);
-    rc=xml_print(client, "<GRID NAME=\"%s\" AUTHORITY=\"%s\" LOCALTIME=\"%u\">\n", source_report_start$$1$$name, return_value_getfield$4, source->localtime);
+    char *return_value_getfield_4;
+    return_value_getfield_4=getfield(source->strings, source->authority_ptr);
+    rc=xml_print(client, "<GRID NAME=\"%s\" AUTHORITY=\"%s\" LOCALTIME=\"%u\">\n", source_report_start__1__name, return_value_getfield_4, source->localtime);
   }
   return rc;
 }
 
 // source_summary
 // file server.c line 119
-static signed int source_summary(struct anonymous$11 *source, struct anonymous$16 *client)
+static signed int source_summary(struct anonymous_11 *source, struct anonymous_16 *client)
 {
   signed int rc;
   rc=xml_print(client, "<HOSTS UP=\"%u\" DOWN=\"%u\" SOURCE=\"gmetad\"/>\n", source->hosts_up, source->hosts_down);
@@ -13005,9 +13005,9 @@ static signed int source_summary(struct anonymous$11 *source, struct anonymous$1
 
 // spin_off_the_data_threads
 // file gmetad.c line 71
-static signed int spin_off_the_data_threads(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int spin_off_the_data_threads(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
-  struct anonymous$6 *d = *((struct anonymous$6 **)val->data);
+  struct anonymous_6 *d = *((struct anonymous_6 **)val->data);
   unsigned long int pid;
   union pthread_attr_t attr;
   pthread_attr_init(&attr);
@@ -13022,9 +13022,9 @@ static void start(void *data, const char *el, const char **attr)
 {
   struct xml_tag *xt;
   signed int rc;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(el);
-  xt=in_xml_list((char *)el, (unsigned int)return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(el);
+  xt=in_xml_list((char *)el, (unsigned int)return_value_strlen_1);
   if(!(xt == ((struct xml_tag *)NULL)))
   {
     switch((signed int)xt->tag)
@@ -13080,61 +13080,61 @@ __CPROVER_DUMP_L12:
   ;
 }
 
-// start$link1
+// start_link1
 // file ganglia.c line 19
-static void start$link1(void *data$link1, const char *el$link1, const char **attr$link1)
+static void start_link1(void *data_link1, const char *el_link1, const char **attr_link1)
 {
   signed int n;
-  struct anonymous$36 *cluster = (struct anonymous$36 *)data$link1;
+  struct anonymous_36 *cluster = (struct anonymous_36 *)data_link1;
   char *p;
-  signed int return_value_strcmp$24;
-  return_value_strcmp$24=strcmp("CLUSTER", el$link1);
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcmp$22;
-  signed int return_value_strcmp$20;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  if(return_value_strcmp$24 == 0)
+  signed int return_value_strcmp_24;
+  return_value_strcmp_24=strcmp("CLUSTER", el_link1);
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcmp_22;
+  signed int return_value_strcmp_20;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  if(return_value_strcmp_24 == 0)
   {
-    strncpy(cluster->name, attr$link1[(signed long int)1], (unsigned long int)256);
+    strncpy(cluster->name, attr_link1[(signed long int)1], (unsigned long int)256);
     n = 0;
     do
     {
-      if(!(attr$link1[(signed long int)n] == ((const char *)NULL)))
+      if(!(attr_link1[(signed long int)n] == ((const char *)NULL)))
       {
-        return_value_strcmp$1=strcmp(attr$link1[(signed long int)n], "LOCALTIME");
-        tmp_if_expr$2 = return_value_strcmp$1 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_1=strcmp(attr_link1[(signed long int)n], "LOCALTIME");
+        tmp_if_expr_2 = return_value_strcmp_1 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       n = n + 2;
     }
     while((_Bool)1);
-    cluster->localtime=atol(attr$link1[(signed long int)(n + 1)]);
+    cluster->localtime=atol(attr_link1[(signed long int)(n + 1)]);
   }
 
   else
   {
-    return_value_strcmp$23=strcmp("HOST", el$link1);
-    if(return_value_strcmp$23 == 0)
+    return_value_strcmp_23=strcmp("HOST", el_link1);
+    if(return_value_strcmp_23 == 0)
     {
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct gexec_host_t) /*672ul*/ );
-      cluster->host = (struct gexec_host_t *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct gexec_host_t) /*672ul*/ );
+      cluster->host = (struct gexec_host_t *)return_value_calloc_3;
       if(cluster->host == ((struct gexec_host_t *)NULL))
       {
         cluster->malloc_error = 1;
@@ -13142,23 +13142,23 @@ static void start$link1(void *data$link1, const char *el$link1, const char **att
         goto __CPROVER_DUMP_L28;
       }
 
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp(attr$link1[(signed long int)1], attr$link1[(signed long int)3]);
-      if(return_value_strcmp$4 == 0)
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp(attr_link1[(signed long int)1], attr_link1[(signed long int)3]);
+      if(return_value_strcmp_4 == 0)
       {
         cluster->host->name_resolved = 0;
-        strcpy(cluster->host->name, attr$link1[(signed long int)1]);
+        strcpy(cluster->host->name, attr_link1[(signed long int)1]);
         strcpy(cluster->host->domain, "unresolved");
       }
 
       else
       {
         cluster->host->name_resolved = 1;
-        p=strchr(attr$link1[(signed long int)1], 46);
+        p=strchr(attr_link1[(signed long int)1], 46);
         if(!(p == ((char *)NULL)))
         {
-          n = (signed int)(p - attr$link1[(signed long int)1]);
-          strncpy(cluster->host->name, attr$link1[(signed long int)1], (unsigned long int)n);
+          n = (signed int)(p - attr_link1[(signed long int)1]);
+          strncpy(cluster->host->name, attr_link1[(signed long int)1], (unsigned long int)n);
           cluster->host->name[(signed long int)n] = (char)0;
           p = p + 1l;
           strncpy(cluster->host->domain, p, (unsigned long int)256);
@@ -13166,15 +13166,15 @@ static void start$link1(void *data$link1, const char *el$link1, const char **att
 
         else
         {
-          strncpy(cluster->host->name, attr$link1[(signed long int)1], (unsigned long int)256);
+          strncpy(cluster->host->name, attr_link1[(signed long int)1], (unsigned long int)256);
           strcpy(cluster->host->domain, "unspecified");
         }
       }
-      strcpy(cluster->host->ip, attr$link1[(signed long int)3]);
-      cluster->host->last_reported=atol(attr$link1[(signed long int)7]);
-      signed int return_value_abs$5;
-      return_value_abs$5=abs((signed int)(cluster->localtime - cluster->host->last_reported));
-      if(!(return_value_abs$5 >= 60))
+      strcpy(cluster->host->ip, attr_link1[(signed long int)3]);
+      cluster->host->last_reported=atol(attr_link1[(signed long int)7]);
+      signed int return_value_abs_5;
+      return_value_abs_5=abs((signed int)(cluster->localtime - cluster->host->last_reported));
+      if(!(return_value_abs_5 >= 60))
         cluster->host_up = 1;
 
       else
@@ -13183,97 +13183,97 @@ static void start$link1(void *data$link1, const char *el$link1, const char **att
 
     else
     {
-      return_value_strcmp$22=strcmp("METRIC", el$link1);
-      if(return_value_strcmp$22 == 0)
+      return_value_strcmp_22=strcmp("METRIC", el_link1);
+      if(return_value_strcmp_22 == 0)
       {
         if(!(cluster->malloc_error == 0))
           goto __CPROVER_DUMP_L28;
 
-        signed int return_value_strcmp$21;
-        return_value_strcmp$21=strcmp(attr$link1[(signed long int)1], "cpu_num");
-        if(return_value_strcmp$21 == 0)
+        signed int return_value_strcmp_21;
+        return_value_strcmp_21=strcmp(attr_link1[(signed long int)1], "cpu_num");
+        if(return_value_strcmp_21 == 0)
         {
-          signed int return_value_atoi$6;
-          return_value_atoi$6=atoi(attr$link1[(signed long int)3]);
-          cluster->host->cpu_num = (unsigned int)return_value_atoi$6;
+          signed int return_value_atoi_6;
+          return_value_atoi_6=atoi(attr_link1[(signed long int)3]);
+          cluster->host->cpu_num = (unsigned int)return_value_atoi_6;
         }
 
         else
         {
-          return_value_strcmp$20=strcmp(attr$link1[(signed long int)1], "load_one");
-          if(return_value_strcmp$20 == 0)
-            cluster->host->load_one=atof(attr$link1[(signed long int)3]);
+          return_value_strcmp_20=strcmp(attr_link1[(signed long int)1], "load_one");
+          if(return_value_strcmp_20 == 0)
+            cluster->host->load_one=atof(attr_link1[(signed long int)3]);
 
           else
           {
-            return_value_strcmp$19=strcmp(attr$link1[(signed long int)1], "load_five");
-            if(return_value_strcmp$19 == 0)
-              cluster->host->load_five=atof(attr$link1[(signed long int)3]);
+            return_value_strcmp_19=strcmp(attr_link1[(signed long int)1], "load_five");
+            if(return_value_strcmp_19 == 0)
+              cluster->host->load_five=atof(attr_link1[(signed long int)3]);
 
             else
             {
-              return_value_strcmp$18=strcmp(attr$link1[(signed long int)1], "load_fifteen");
-              if(return_value_strcmp$18 == 0)
-                cluster->host->load_fifteen=atof(attr$link1[(signed long int)3]);
+              return_value_strcmp_18=strcmp(attr_link1[(signed long int)1], "load_fifteen");
+              if(return_value_strcmp_18 == 0)
+                cluster->host->load_fifteen=atof(attr_link1[(signed long int)3]);
 
               else
               {
-                return_value_strcmp$17=strcmp(attr$link1[(signed long int)1], "proc_run");
-                if(return_value_strcmp$17 == 0)
+                return_value_strcmp_17=strcmp(attr_link1[(signed long int)1], "proc_run");
+                if(return_value_strcmp_17 == 0)
                 {
-                  signed int return_value_atoi$7;
-                  return_value_atoi$7=atoi(attr$link1[(signed long int)3]);
-                  cluster->host->proc_run = (unsigned int)return_value_atoi$7;
+                  signed int return_value_atoi_7;
+                  return_value_atoi_7=atoi(attr_link1[(signed long int)3]);
+                  cluster->host->proc_run = (unsigned int)return_value_atoi_7;
                 }
 
                 else
                 {
-                  return_value_strcmp$16=strcmp(attr$link1[(signed long int)1], "proc_total");
-                  if(return_value_strcmp$16 == 0)
+                  return_value_strcmp_16=strcmp(attr_link1[(signed long int)1], "proc_total");
+                  if(return_value_strcmp_16 == 0)
                   {
-                    signed int return_value_atoi$8;
-                    return_value_atoi$8=atoi(attr$link1[(signed long int)3]);
-                    cluster->host->proc_total = (unsigned int)return_value_atoi$8;
+                    signed int return_value_atoi_8;
+                    return_value_atoi_8=atoi(attr_link1[(signed long int)3]);
+                    cluster->host->proc_total = (unsigned int)return_value_atoi_8;
                   }
 
                   else
                   {
-                    return_value_strcmp$15=strcmp(attr$link1[(signed long int)1], "cpu_user");
-                    if(return_value_strcmp$15 == 0)
-                      cluster->host->cpu_user=atof(attr$link1[(signed long int)3]);
+                    return_value_strcmp_15=strcmp(attr_link1[(signed long int)1], "cpu_user");
+                    if(return_value_strcmp_15 == 0)
+                      cluster->host->cpu_user=atof(attr_link1[(signed long int)3]);
 
                     else
                     {
-                      return_value_strcmp$14=strcmp(attr$link1[(signed long int)1], "cpu_nice");
-                      if(return_value_strcmp$14 == 0)
-                        cluster->host->cpu_nice=atof(attr$link1[(signed long int)3]);
+                      return_value_strcmp_14=strcmp(attr_link1[(signed long int)1], "cpu_nice");
+                      if(return_value_strcmp_14 == 0)
+                        cluster->host->cpu_nice=atof(attr_link1[(signed long int)3]);
 
                       else
                       {
-                        return_value_strcmp$13=strcmp(attr$link1[(signed long int)1], "cpu_system");
-                        if(return_value_strcmp$13 == 0)
-                          cluster->host->cpu_system=atof(attr$link1[(signed long int)3]);
+                        return_value_strcmp_13=strcmp(attr_link1[(signed long int)1], "cpu_system");
+                        if(return_value_strcmp_13 == 0)
+                          cluster->host->cpu_system=atof(attr_link1[(signed long int)3]);
 
                         else
                         {
-                          return_value_strcmp$12=strcmp(attr$link1[(signed long int)1], "cpu_idle");
-                          if(return_value_strcmp$12 == 0)
-                            cluster->host->cpu_idle=atof(attr$link1[(signed long int)3]);
+                          return_value_strcmp_12=strcmp(attr_link1[(signed long int)1], "cpu_idle");
+                          if(return_value_strcmp_12 == 0)
+                            cluster->host->cpu_idle=atof(attr_link1[(signed long int)3]);
 
                           else
                           {
-                            return_value_strcmp$11=strcmp(attr$link1[(signed long int)1], "cpu_wio");
-                            if(return_value_strcmp$11 == 0)
-                              cluster->host->cpu_wio=atof(attr$link1[(signed long int)3]);
+                            return_value_strcmp_11=strcmp(attr_link1[(signed long int)1], "cpu_wio");
+                            if(return_value_strcmp_11 == 0)
+                              cluster->host->cpu_wio=atof(attr_link1[(signed long int)3]);
 
                             else
                             {
-                              return_value_strcmp$10=strcmp(attr$link1[(signed long int)1], "gexec");
-                              if(return_value_strcmp$10 == 0)
+                              return_value_strcmp_10=strcmp(attr_link1[(signed long int)1], "gexec");
+                              if(return_value_strcmp_10 == 0)
                               {
-                                signed int return_value_strcmp$9;
-                                return_value_strcmp$9=strcmp(attr$link1[(signed long int)3], "ON");
-                                if(return_value_strcmp$9 == 0)
+                                signed int return_value_strcmp_9;
+                                return_value_strcmp_9=strcmp(attr_link1[(signed long int)3], "ON");
+                                if(return_value_strcmp_9 == 0)
                                   cluster->host->gexec_on = 1;
 
                               }
@@ -13302,61 +13302,61 @@ __CPROVER_DUMP_L28:
 // file process_xml.c line 270
 static signed int startElement_CLUSTER(void *data, const char *el, const char **attr)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)data;
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)data;
   struct xml_tag *xt;
-  struct anonymous$7 *hash_datum = (struct anonymous$7 *)(void *)0;
-  struct anonymous$7 hashkey;
-  const char *startElement_CLUSTER$$1$$name = (const char *)(void *)0;
+  struct anonymous_7 *hash_datum = (struct anonymous_7 *)(void *)0;
+  struct anonymous_7 hashkey;
+  const char *startElement_CLUSTER__1__name = (const char *)(void *)0;
   signed int edge;
   signed int i;
-  struct anonymous$11 *source;
+  struct anonymous_11 *source;
   i = 0;
   for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(attr[(signed long int)i]);
-    xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(attr[(signed long int)i]);
+    xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_1);
     if(!(xt == ((struct xml_tag *)NULL)))
     {
       if((signed int)xt->tag == NAME_TAG)
-        startElement_CLUSTER$$1$$name = attr[(signed long int)(i + 1)];
+        startElement_CLUSTER__1__name = attr[(signed long int)(i + 1)];
 
     }
 
   }
-  signed int return_value_authority_mode$2;
-  return_value_authority_mode$2=authority_mode(xmldata);
-  signed int return_value_addstring$8;
-  signed int return_value_addstring$9;
-  signed int return_value_addstring$10;
-  unsigned long int return_value_strtoul$11;
-  if(return_value_authority_mode$2 == 0)
+  signed int return_value_authority_mode_2;
+  return_value_authority_mode_2=authority_mode(xmldata);
+  signed int return_value_addstring_8;
+  signed int return_value_addstring_9;
+  signed int return_value_addstring_10;
+  unsigned long int return_value_strtoul_11;
+  if(return_value_authority_mode_2 == 0)
     return 0;
 
   else
   {
     source = &xmldata->source;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(startElement_CLUSTER$$1$$name);
-    void *return_value_realloc$4;
-    return_value_realloc$4=realloc((void *)xmldata->sourcename, return_value_strlen$3 + (unsigned long int)1);
-    xmldata->sourcename = (char *)return_value_realloc$4;
-    strcpy(xmldata->sourcename, startElement_CLUSTER$$1$$name);
-    hashkey.data = (void *)startElement_CLUSTER$$1$$name;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(startElement_CLUSTER$$1$$name);
-    hashkey.size = (unsigned int)(return_value_strlen$5 + (unsigned long int)1);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(startElement_CLUSTER__1__name);
+    void *return_value_realloc_4;
+    return_value_realloc_4=realloc((void *)xmldata->sourcename, return_value_strlen_3 + (unsigned long int)1);
+    xmldata->sourcename = (char *)return_value_realloc_4;
+    strcpy(xmldata->sourcename, startElement_CLUSTER__1__name);
+    hashkey.data = (void *)startElement_CLUSTER__1__name;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(startElement_CLUSTER__1__name);
+    hashkey.size = (unsigned int)(return_value_strlen_5 + (unsigned long int)1);
     hash_datum=hash_lookup(&hashkey, xmldata->root);
-    if(hash_datum == ((struct anonymous$7 *)NULL))
+    if(hash_datum == ((struct anonymous_7 *)NULL))
     {
-      memset((void *)source, 0, sizeof(struct anonymous$11) /*1664ul*/ );
-      source->id = (enum anonymous$15)CLUSTER_NODE;
+      memset((void *)source, 0, sizeof(struct anonymous_11) /*1664ul*/ );
+      source->id = (enum anonymous_15)CLUSTER_NODE;
       source->report_start = source_report_start;
       source->report_end = source_report_end;
       source->authority=hash_create((unsigned long int)1024);
-      if(source->authority == ((struct anonymous$8 *)NULL))
+      if(source->authority == ((struct anonymous_8 *)NULL))
       {
-        err_msg("Could not create hash table for cluster %s", startElement_CLUSTER$$1$$name);
+        err_msg("Could not create hash table for cluster %s", startElement_CLUSTER__1__name);
         return 1;
       }
 
@@ -13364,24 +13364,24 @@ static signed int startElement_CLUSTER(void *data, const char *el, const char **
         hash_set_flags(source->authority, 1);
 
       source->metric_summary=hash_create((unsigned long int)50);
-      if(source->metric_summary == ((struct anonymous$8 *)NULL))
+      if(source->metric_summary == ((struct anonymous_8 *)NULL))
       {
-        err_msg("Could not create summary hash for cluster %s", startElement_CLUSTER$$1$$name);
+        err_msg("Could not create summary hash for cluster %s", startElement_CLUSTER__1__name);
         return 1;
       }
 
       source->metric_summary_pending=hash_create((unsigned long int)50);
-      if(source->metric_summary_pending == ((struct anonymous$8 *)NULL))
+      if(source->metric_summary_pending == ((struct anonymous_8 *)NULL))
       {
-        err_msg("Could not create pending summary hash for cluster %s", startElement_CLUSTER$$1$$name);
+        err_msg("Could not create pending summary hash for cluster %s", startElement_CLUSTER__1__name);
         return 1;
       }
 
       source->ds = xmldata->ds;
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc(sizeof(union anonymous) /*40ul*/ );
-      source->sum_finished = (union anonymous *)return_value_malloc$6;
-      pthread_mutex_init(source->sum_finished, (const union anonymous$21 *)(void *)0);
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc(sizeof(union anonymous) /*40ul*/ );
+      source->sum_finished = (union anonymous *)return_value_malloc_6;
+      pthread_mutex_init(source->sum_finished, (const union anonymous_21 *)(void *)0);
     }
 
     else
@@ -13399,34 +13399,34 @@ static signed int startElement_CLUSTER(void *data, const char *el, const char **
     i = 0;
     for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
     {
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(attr[(signed long int)i]);
-      xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$7);
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(attr[(signed long int)i]);
+      xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_7);
       if(!(xt == ((struct xml_tag *)NULL)))
         switch((signed int)xt->tag)
         {
           case OWNER_TAG:
           {
-            return_value_addstring$8=addstring(source->strings, &edge, attr[(signed long int)(i + 1)]);
-            source->owner = (signed short int)return_value_addstring$8;
+            return_value_addstring_8=addstring(source->strings, &edge, attr[(signed long int)(i + 1)]);
+            source->owner = (signed short int)return_value_addstring_8;
             break;
           }
           case LATLONG_TAG:
           {
-            return_value_addstring$9=addstring(source->strings, &edge, attr[(signed long int)(i + 1)]);
-            source->latlong = (signed short int)return_value_addstring$9;
+            return_value_addstring_9=addstring(source->strings, &edge, attr[(signed long int)(i + 1)]);
+            source->latlong = (signed short int)return_value_addstring_9;
             break;
           }
           case URL_TAG:
           {
-            return_value_addstring$10=addstring(source->strings, &edge, attr[(signed long int)(i + 1)]);
-            source->url = (signed short int)return_value_addstring$10;
+            return_value_addstring_10=addstring(source->strings, &edge, attr[(signed long int)(i + 1)]);
+            source->url = (signed short int)return_value_addstring_10;
             break;
           }
           case LOCALTIME_TAG:
           {
-            return_value_strtoul$11=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
-            source->localtime = (unsigned int)return_value_strtoul$11;
+            return_value_strtoul_11=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
+            source->localtime = (unsigned int)return_value_strtoul_11;
             break;
           }
           default:
@@ -13450,43 +13450,43 @@ static signed int startElement_EXTRA_DATA(void *data, const char *el, const char
 // file process_xml.c line 744
 static signed int startElement_EXTRA_ELEMENT(void *data, const char *el, const char **attr)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)data;
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)data;
   signed int edge;
   struct xml_tag *xt;
   signed int i;
   signed int name_off;
   signed int value_off;
-  struct anonymous$9 metric;
-  char *startElement_EXTRA_ELEMENT$$1$$name;
-  startElement_EXTRA_ELEMENT$$1$$name=getfield(xmldata->metric.strings, xmldata->metric.name);
-  struct anonymous$7 *rdatum;
-  struct anonymous$7 hashkey;
-  struct anonymous$7 startElement_EXTRA_ELEMENT$$1$$hashval;
-  struct anonymous$7 *hash_datum = (struct anonymous$7 *)(void *)0;
-  signed short int tmp_post$4;
-  signed short int tmp_post$6;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$11;
-  signed short int tmp_post$13;
-  signed short int tmp_post$15;
+  struct anonymous_9 metric;
+  char *startElement_EXTRA_ELEMENT__1__name;
+  startElement_EXTRA_ELEMENT__1__name=getfield(xmldata->metric.strings, xmldata->metric.name);
+  struct anonymous_7 *rdatum;
+  struct anonymous_7 hashkey;
+  struct anonymous_7 startElement_EXTRA_ELEMENT__1__hashval;
+  struct anonymous_7 *hash_datum = (struct anonymous_7 *)(void *)0;
+  signed short int tmp_post_4;
+  signed short int tmp_post_6;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_11;
+  signed short int tmp_post_13;
+  signed short int tmp_post_15;
   if(xmldata->host_alive == 0)
     return 0;
 
   else
   {
-    signed int return_value_authority_mode$1;
-    return_value_authority_mode$1=authority_mode(xmldata);
-    if(return_value_authority_mode$1 == 0)
+    signed int return_value_authority_mode_1;
+    return_value_authority_mode_1=authority_mode(xmldata);
+    if(return_value_authority_mode_1 == 0)
       return 0;
 
     else
     {
-      hashkey.data = (void *)startElement_EXTRA_ELEMENT$$1$$name;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(startElement_EXTRA_ELEMENT$$1$$name);
-      hashkey.size = (unsigned int)(return_value_strlen$2 + (unsigned long int)1);
+      hashkey.data = (void *)startElement_EXTRA_ELEMENT__1__name;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(startElement_EXTRA_ELEMENT__1__name);
+      hashkey.size = (unsigned int)(return_value_strlen_2 + (unsigned long int)1);
       hash_datum=hash_lookup(&hashkey, xmldata->host.metrics);
-      if(hash_datum == ((struct anonymous$7 *)NULL))
+      if(hash_datum == ((struct anonymous_7 *)NULL))
         return 0;
 
       else
@@ -13495,7 +13495,7 @@ static signed int startElement_EXTRA_ELEMENT(void *data, const char *el, const c
         datum_free(hash_datum);
         if((signed int)metric.ednameslen >= 32)
         {
-          debug_msg("Can not add more extra elements for [%s].  Capacity of %d reached.", startElement_EXTRA_ELEMENT$$1$$name, 32);
+          debug_msg("Can not add more extra elements for [%s].  Capacity of %d reached.", startElement_EXTRA_ELEMENT__1__name, 32);
           return 0;
         }
 
@@ -13507,9 +13507,9 @@ static signed int startElement_EXTRA_ELEMENT(void *data, const char *el, const c
           i = 0;
           for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
           {
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(attr[(signed long int)i]);
-            xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$3);
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(attr[(signed long int)i]);
+            xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_3);
             if(!(xt == ((struct xml_tag *)NULL)))
               switch((signed int)xt->tag)
               {
@@ -13527,43 +13527,43 @@ static signed int startElement_EXTRA_ELEMENT(void *data, const char *el, const c
           {
             const char *new_name = attr[(signed long int)(name_off + 1)];
             const char *new_value = attr[(signed long int)(value_off + 1)];
-            tmp_post$4 = metric.ednameslen;
+            tmp_post_4 = metric.ednameslen;
             metric.ednameslen = metric.ednameslen + 1;
-            signed int return_value_addstring$5;
-            return_value_addstring$5=addstring(metric.strings, &edge, new_name);
-            metric.ednames[(signed long int)tmp_post$4] = (signed short int)return_value_addstring$5;
-            tmp_post$6 = metric.edvalueslen;
+            signed int return_value_addstring_5;
+            return_value_addstring_5=addstring(metric.strings, &edge, new_name);
+            metric.ednames[(signed long int)tmp_post_4] = (signed short int)return_value_addstring_5;
+            tmp_post_6 = metric.edvalueslen;
             metric.edvalueslen = metric.edvalueslen + 1;
-            signed int return_value_addstring$7;
-            return_value_addstring$7=addstring(metric.strings, &edge, new_value);
-            metric.edvalues[(signed long int)tmp_post$6] = (signed short int)return_value_addstring$7;
+            signed int return_value_addstring_7;
+            return_value_addstring_7=addstring(metric.strings, &edge, new_value);
+            metric.edvalues[(signed long int)tmp_post_6] = (signed short int)return_value_addstring_7;
             metric.stringslen = (signed short int)edge;
-            hashkey.data = (void *)startElement_EXTRA_ELEMENT$$1$$name;
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen(startElement_EXTRA_ELEMENT$$1$$name);
-            hashkey.size = (unsigned int)(return_value_strlen$8 + (unsigned long int)1);
-            startElement_EXTRA_ELEMENT$$1$$hashval.size = (unsigned int)((sizeof(struct anonymous$9) /*1800ul*/  - (unsigned long int)1572) + (unsigned long int)metric.stringslen);
-            startElement_EXTRA_ELEMENT$$1$$hashval.data = (void *)&metric;
-            rdatum=hash_insert(&hashkey, &startElement_EXTRA_ELEMENT$$1$$hashval, xmldata->host.metrics);
-            if(rdatum == ((struct anonymous$7 *)NULL))
-              err_msg("Could not insert %s metric", startElement_EXTRA_ELEMENT$$1$$name);
+            hashkey.data = (void *)startElement_EXTRA_ELEMENT__1__name;
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen(startElement_EXTRA_ELEMENT__1__name);
+            hashkey.size = (unsigned int)(return_value_strlen_8 + (unsigned long int)1);
+            startElement_EXTRA_ELEMENT__1__hashval.size = (unsigned int)((sizeof(struct anonymous_9) /*1800ul*/  - (unsigned long int)1572) + (unsigned long int)metric.stringslen);
+            startElement_EXTRA_ELEMENT__1__hashval.data = (void *)&metric;
+            rdatum=hash_insert(&hashkey, &startElement_EXTRA_ELEMENT__1__hashval, xmldata->host.metrics);
+            if(rdatum == ((struct anonymous_7 *)NULL))
+              err_msg("Could not insert %s metric", startElement_EXTRA_ELEMENT__1__name);
 
             else
             {
-              struct anonymous$8 *summary = xmldata->source.metric_summary;
-              struct anonymous$9 sum_metric;
-              unsigned long int return_value_strlen$10;
-              return_value_strlen$10=strlen(new_name);
-              if(return_value_strlen$10 == 10ul)
+              struct anonymous_8 *summary = xmldata->source.metric_summary;
+              struct anonymous_9 sum_metric;
+              unsigned long int return_value_strlen_10;
+              return_value_strlen_10=strlen(new_name);
+              if(return_value_strlen_10 == 10ul)
               {
-                return_value_strcasecmp$9=strcasecmp(new_name, "SPOOF_HOST");
-                if(return_value_strcasecmp$9 == 0)
+                return_value_strcasecmp_9=strcasecmp(new_name, "SPOOF_HOST");
+                if(return_value_strcasecmp_9 == 0)
                   return 0;
 
               }
 
               hash_datum=hash_lookup(&hashkey, summary);
-              if(!(hash_datum == ((struct anonymous$7 *)NULL)))
+              if(!(hash_datum == ((struct anonymous_7 *)NULL)))
               {
                 signed int found = 0;
                 memcpy((void *)&sum_metric, hash_datum->data, (unsigned long int)hash_datum->size);
@@ -13575,12 +13575,12 @@ static signed int startElement_EXTRA_ELEMENT(void *data, const char *el, const c
                   chk_name=getfield(sum_metric.strings, sum_metric.ednames[(signed long int)i]);
                   char *chk_value;
                   chk_value=getfield(sum_metric.strings, sum_metric.edvalues[(signed long int)i]);
-                  signed int return_value_strcasecmp$12;
-                  return_value_strcasecmp$12=strcasecmp(chk_name, new_name);
-                  if(return_value_strcasecmp$12 == 0)
+                  signed int return_value_strcasecmp_12;
+                  return_value_strcasecmp_12=strcasecmp(chk_name, new_name);
+                  if(return_value_strcasecmp_12 == 0)
                   {
-                    return_value_strcasecmp$11=strcasecmp(chk_value, new_value);
-                    if(return_value_strcasecmp$11 == 0)
+                    return_value_strcasecmp_11=strcasecmp(chk_value, new_value);
+                    if(return_value_strcasecmp_11 == 0)
                     {
                       found = 1;
                       break;
@@ -13592,24 +13592,24 @@ static signed int startElement_EXTRA_ELEMENT(void *data, const char *el, const c
                 if(found == 0)
                 {
                   edge = (signed int)sum_metric.stringslen;
-                  tmp_post$13 = sum_metric.ednameslen;
+                  tmp_post_13 = sum_metric.ednameslen;
                   sum_metric.ednameslen = sum_metric.ednameslen + 1;
-                  signed int return_value_addstring$14;
-                  return_value_addstring$14=addstring(sum_metric.strings, &edge, new_name);
-                  sum_metric.ednames[(signed long int)tmp_post$13] = (signed short int)return_value_addstring$14;
-                  tmp_post$15 = sum_metric.edvalueslen;
+                  signed int return_value_addstring_14;
+                  return_value_addstring_14=addstring(sum_metric.strings, &edge, new_name);
+                  sum_metric.ednames[(signed long int)tmp_post_13] = (signed short int)return_value_addstring_14;
+                  tmp_post_15 = sum_metric.edvalueslen;
                   sum_metric.edvalueslen = sum_metric.edvalueslen + 1;
-                  signed int return_value_addstring$16;
-                  return_value_addstring$16=addstring(sum_metric.strings, &edge, new_value);
-                  sum_metric.edvalues[(signed long int)tmp_post$15] = (signed short int)return_value_addstring$16;
+                  signed int return_value_addstring_16;
+                  return_value_addstring_16=addstring(sum_metric.strings, &edge, new_value);
+                  sum_metric.edvalues[(signed long int)tmp_post_15] = (signed short int)return_value_addstring_16;
                   sum_metric.stringslen = (signed short int)edge;
                 }
 
-                startElement_EXTRA_ELEMENT$$1$$hashval.size = (unsigned int)((sizeof(struct anonymous$9) /*1800ul*/  - (unsigned long int)1572) + (unsigned long int)sum_metric.stringslen);
-                startElement_EXTRA_ELEMENT$$1$$hashval.data = (void *)&sum_metric;
-                rdatum=hash_insert(&hashkey, &startElement_EXTRA_ELEMENT$$1$$hashval, summary);
-                if(rdatum == ((struct anonymous$7 *)NULL))
-                  err_msg("Could not insert summary %s metric", startElement_EXTRA_ELEMENT$$1$$name);
+                startElement_EXTRA_ELEMENT__1__hashval.size = (unsigned int)((sizeof(struct anonymous_9) /*1800ul*/  - (unsigned long int)1572) + (unsigned long int)sum_metric.stringslen);
+                startElement_EXTRA_ELEMENT__1__hashval.data = (void *)&sum_metric;
+                rdatum=hash_insert(&hashkey, &startElement_EXTRA_ELEMENT__1__hashval, summary);
+                if(rdatum == ((struct anonymous_7 *)NULL))
+                  err_msg("Could not insert summary %s metric", startElement_EXTRA_ELEMENT__1__name);
 
               }
 
@@ -13627,21 +13627,21 @@ static signed int startElement_EXTRA_ELEMENT(void *data, const char *el, const c
 // file process_xml.c line 972
 static signed int startElement_GANGLIA_XML(void *data, const char *el, const char **attr)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)data;
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)data;
   struct xml_tag *xt;
   signed int i = 0;
   for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(attr[(signed long int)i]);
-    xt=in_xml_list((char *)attr[(signed long int)i], (unsigned int)return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(attr[(signed long int)i]);
+    xt=in_xml_list((char *)attr[(signed long int)i], (unsigned int)return_value_strlen_1);
     if(!(xt == ((struct xml_tag *)NULL)))
     {
       if((signed int)xt->tag == VERSION_TAG)
       {
-        signed int return_value_strncmp$2;
-        return_value_strncmp$2=strncmp(attr[(signed long int)(i + 1)], "2.5", (unsigned long int)3);
-        if(!(return_value_strncmp$2 >= 0))
+        signed int return_value_strncmp_2;
+        return_value_strncmp_2=strncmp(attr[(signed long int)(i + 1)], "2.5", (unsigned long int)3);
+        if(!(return_value_strncmp_2 >= 0))
         {
           debug_msg("[%s] is a pre-2.5 data stream", xmldata->ds->name);
           xmldata->old = 1;
@@ -13664,46 +13664,46 @@ static signed int startElement_GANGLIA_XML(void *data, const char *el, const cha
 // file process_xml.c line 153
 static signed int startElement_GRID(void *data, const char *el, const char **attr)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)data;
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)data;
   struct xml_tag *xt;
-  struct anonymous$7 *hash_datum = (struct anonymous$7 *)(void *)0;
-  struct anonymous$7 hashkey;
-  const char *startElement_GRID$$1$$name = (const char *)(void *)0;
+  struct anonymous_7 *hash_datum = (struct anonymous_7 *)(void *)0;
+  struct anonymous_7 hashkey;
+  const char *startElement_GRID__1__name = (const char *)(void *)0;
   signed int edge;
   signed int i;
-  struct anonymous$11 *source;
-  signed int return_value_addstring$7;
-  unsigned long int return_value_strtoul$8;
+  struct anonymous_11 *source;
+  signed int return_value_addstring_7;
+  unsigned long int return_value_strtoul_8;
   if(gmetad_config.scalable_mode == 0)
     return 0;
 
   else
   {
-    signed int return_value_authority_mode$9;
-    return_value_authority_mode$9=authority_mode(xmldata);
-    if(!(return_value_authority_mode$9 == 0))
+    signed int return_value_authority_mode_9;
+    return_value_authority_mode_9=authority_mode(xmldata);
+    if(!(return_value_authority_mode_9 == 0))
     {
       i = 0;
       for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(attr[(signed long int)i]);
-        xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$1);
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(attr[(signed long int)i]);
+        xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_1);
         if(!(xt == ((struct xml_tag *)NULL)))
         {
           if((signed int)xt->tag == NAME_TAG)
           {
-            startElement_GRID$$1$$name = attr[(signed long int)(i + 1)];
-            unsigned long int return_value_strlen$2;
-            return_value_strlen$2=strlen(startElement_GRID$$1$$name);
-            void *return_value_realloc$3;
-            return_value_realloc$3=realloc((void *)xmldata->sourcename, return_value_strlen$2 + (unsigned long int)1);
-            xmldata->sourcename = (char *)return_value_realloc$3;
-            strcpy(xmldata->sourcename, startElement_GRID$$1$$name);
-            hashkey.data = (void *)startElement_GRID$$1$$name;
-            unsigned long int return_value_strlen$4;
-            return_value_strlen$4=strlen(startElement_GRID$$1$$name);
-            hashkey.size = (unsigned int)(return_value_strlen$4 + (unsigned long int)1);
+            startElement_GRID__1__name = attr[(signed long int)(i + 1)];
+            unsigned long int return_value_strlen_2;
+            return_value_strlen_2=strlen(startElement_GRID__1__name);
+            void *return_value_realloc_3;
+            return_value_realloc_3=realloc((void *)xmldata->sourcename, return_value_strlen_2 + (unsigned long int)1);
+            xmldata->sourcename = (char *)return_value_realloc_3;
+            strcpy(xmldata->sourcename, startElement_GRID__1__name);
+            hashkey.data = (void *)startElement_GRID__1__name;
+            unsigned long int return_value_strlen_4;
+            return_value_strlen_4=strlen(startElement_GRID__1__name);
+            hashkey.size = (unsigned int)(return_value_strlen_4 + (unsigned long int)1);
           }
 
         }
@@ -13711,31 +13711,31 @@ static signed int startElement_GRID(void *data, const char *el, const char **att
       }
       source = &xmldata->source;
       hash_datum=hash_lookup(&hashkey, xmldata->root);
-      if(hash_datum == ((struct anonymous$7 *)NULL))
+      if(hash_datum == ((struct anonymous_7 *)NULL))
       {
-        memset((void *)source, 0, sizeof(struct anonymous$11) /*1664ul*/ );
-        source->id = (enum anonymous$15)GRID_NODE;
+        memset((void *)source, 0, sizeof(struct anonymous_11) /*1664ul*/ );
+        source->id = (enum anonymous_15)GRID_NODE;
         source->report_start = source_report_start;
         source->report_end = source_report_end;
         source->metric_summary=hash_create((unsigned long int)50);
-        if(source->metric_summary == ((struct anonymous$8 *)NULL))
+        if(source->metric_summary == ((struct anonymous_8 *)NULL))
         {
-          err_msg("Could not create summary hash for cluster %s", startElement_GRID$$1$$name);
+          err_msg("Could not create summary hash for cluster %s", startElement_GRID__1__name);
           return 1;
         }
 
         source->metric_summary_pending=hash_create((unsigned long int)50);
-        if(source->metric_summary_pending == ((struct anonymous$8 *)NULL))
+        if(source->metric_summary_pending == ((struct anonymous_8 *)NULL))
         {
-          err_msg("Could not create pending summary hash for cluster %s", startElement_GRID$$1$$name);
+          err_msg("Could not create pending summary hash for cluster %s", startElement_GRID__1__name);
           return 1;
         }
 
         source->ds = xmldata->ds;
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc(sizeof(union anonymous) /*40ul*/ );
-        source->sum_finished = (union anonymous *)return_value_malloc$5;
-        pthread_mutex_init(source->sum_finished, (const union anonymous$21 *)(void *)0);
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc(sizeof(union anonymous) /*40ul*/ );
+        source->sum_finished = (union anonymous *)return_value_malloc_5;
+        pthread_mutex_init(source->sum_finished, (const union anonymous_21 *)(void *)0);
       }
 
       else
@@ -13750,22 +13750,22 @@ static signed int startElement_GRID(void *data, const char *el, const char **att
       i = 0;
       for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
       {
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(attr[(signed long int)i]);
-        xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$6);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(attr[(signed long int)i]);
+        xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_6);
         if(!(xt == ((struct xml_tag *)NULL)))
           switch((signed int)xt->tag)
           {
             case AUTHORITY_TAG:
             {
-              return_value_addstring$7=addstring(source->strings, &edge, attr[(signed long int)(i + 1)]);
-              source->authority_ptr = (signed short int)return_value_addstring$7;
+              return_value_addstring_7=addstring(source->strings, &edge, attr[(signed long int)(i + 1)]);
+              source->authority_ptr = (signed short int)return_value_addstring_7;
               break;
             }
             case LOCALTIME_TAG:
             {
-              return_value_strtoul$8=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
-              source->localtime = (unsigned int)return_value_strtoul$8;
+              return_value_strtoul_8=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
+              source->localtime = (unsigned int)return_value_strtoul_8;
               break;
             }
             default:
@@ -13786,109 +13786,109 @@ static signed int startElement_GRID(void *data, const char *el, const char **att
 // file process_xml.c line 392
 static signed int startElement_HOST(void *data, const char *el, const char **attr)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)data;
-  struct anonymous$7 *hash_datum = (struct anonymous$7 *)(void *)0;
-  struct anonymous$7 *rdatum;
-  struct anonymous$7 hashkey;
-  struct anonymous$7 startElement_HOST$$1$$hashval;
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)data;
+  struct anonymous_7 *hash_datum = (struct anonymous_7 *)(void *)0;
+  struct anonymous_7 *rdatum;
+  struct anonymous_7 hashkey;
+  struct anonymous_7 startElement_HOST__1__hashval;
   struct xml_tag *xt;
   unsigned int tn = (unsigned int)0;
   unsigned int tmax = (unsigned int)0;
   unsigned int reported = (unsigned int)0;
-  const char *startElement_HOST$$1$$name = (const char *)(void *)0;
+  const char *startElement_HOST__1__name = (const char *)(void *)0;
   signed int edge;
   signed int i;
-  struct anonymous$10 *host;
-  struct anonymous$8 *hosts;
+  struct anonymous_10 *host;
+  struct anonymous_8 *hosts;
   i = 0;
-  unsigned long int return_value_strtoul$2;
-  signed int return_value_atoi$3;
-  signed int return_value_atoi$4;
+  unsigned long int return_value_strtoul_2;
+  signed int return_value_atoi_3;
+  signed int return_value_atoi_4;
   for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(attr[(signed long int)i]);
-    xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(attr[(signed long int)i]);
+    xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_1);
     if(!(xt == ((struct xml_tag *)NULL)))
     {
       if((signed int)xt->tag == REPORTED_TAG)
       {
-        return_value_strtoul$2=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
-        reported = (unsigned int)return_value_strtoul$2;
+        return_value_strtoul_2=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
+        reported = (unsigned int)return_value_strtoul_2;
       }
 
       else
         if((signed int)xt->tag == TN_TAG)
         {
-          return_value_atoi$3=atoi(attr[(signed long int)(i + 1)]);
-          tn = (unsigned int)return_value_atoi$3;
+          return_value_atoi_3=atoi(attr[(signed long int)(i + 1)]);
+          tn = (unsigned int)return_value_atoi_3;
         }
 
         else
           if((signed int)xt->tag == TMAX_TAG)
           {
-            return_value_atoi$4=atoi(attr[(signed long int)(i + 1)]);
-            tmax = (unsigned int)return_value_atoi$4;
+            return_value_atoi_4=atoi(attr[(signed long int)(i + 1)]);
+            tmax = (unsigned int)return_value_atoi_4;
           }
 
           else
             if((signed int)xt->tag == NAME_TAG)
-              startElement_HOST$$1$$name = attr[(signed long int)(i + 1)];
+              startElement_HOST__1__name = attr[(signed long int)(i + 1)];
 
     }
 
   }
-  signed int tmp_if_expr$6;
-  signed int return_value_abs$5;
+  signed int tmp_if_expr_6;
+  signed int return_value_abs_5;
   if(tmax == 0u || !(xmldata->old == 0))
   {
-    return_value_abs$5=abs((signed int)(xmldata->source.localtime - reported));
-    tmp_if_expr$6 = (signed int)(return_value_abs$5 < 60);
+    return_value_abs_5=abs((signed int)(xmldata->source.localtime - reported));
+    tmp_if_expr_6 = (signed int)(return_value_abs_5 < 60);
   }
 
   else
-    tmp_if_expr$6 = (signed int)(tn < tmax * (unsigned int)4);
-  xmldata->host_alive = tmp_if_expr$6;
+    tmp_if_expr_6 = (signed int)(tn < tmax * (unsigned int)4);
+  xmldata->host_alive = tmp_if_expr_6;
   if(!(xmldata->host_alive == 0))
     xmldata->source.hosts_up = xmldata->source.hosts_up + 1u;
 
   else
     xmldata->source.hosts_down = xmldata->source.hosts_down + 1u;
-  signed int return_value_authority_mode$7;
-  return_value_authority_mode$7=authority_mode(xmldata);
-  signed int return_value_addstring$12;
-  unsigned long int return_value_strtoul$13;
-  signed int return_value_addstring$14;
-  signed int return_value_addstring$15;
-  unsigned long int return_value_strtoul$16;
-  if(return_value_authority_mode$7 == 0)
+  signed int return_value_authority_mode_7;
+  return_value_authority_mode_7=authority_mode(xmldata);
+  signed int return_value_addstring_12;
+  unsigned long int return_value_strtoul_13;
+  signed int return_value_addstring_14;
+  signed int return_value_addstring_15;
+  unsigned long int return_value_strtoul_16;
+  if(return_value_authority_mode_7 == 0)
     return 0;
 
   else
   {
     host = &xmldata->host;
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(startElement_HOST$$1$$name);
-    void *return_value_realloc$9;
-    return_value_realloc$9=realloc((void *)xmldata->hostname, return_value_strlen$8 + (unsigned long int)1);
-    xmldata->hostname = (char *)return_value_realloc$9;
-    strcpy(xmldata->hostname, startElement_HOST$$1$$name);
-    hashkey.data = (void *)startElement_HOST$$1$$name;
-    unsigned long int return_value_strlen$10;
-    return_value_strlen$10=strlen(startElement_HOST$$1$$name);
-    hashkey.size = (unsigned int)(return_value_strlen$10 + (unsigned long int)1);
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(startElement_HOST__1__name);
+    void *return_value_realloc_9;
+    return_value_realloc_9=realloc((void *)xmldata->hostname, return_value_strlen_8 + (unsigned long int)1);
+    xmldata->hostname = (char *)return_value_realloc_9;
+    strcpy(xmldata->hostname, startElement_HOST__1__name);
+    hashkey.data = (void *)startElement_HOST__1__name;
+    unsigned long int return_value_strlen_10;
+    return_value_strlen_10=strlen(startElement_HOST__1__name);
+    hashkey.size = (unsigned int)(return_value_strlen_10 + (unsigned long int)1);
     hosts = xmldata->source.authority;
     hash_datum=hash_lookup(&hashkey, hosts);
-    if(hash_datum == ((struct anonymous$7 *)NULL))
+    if(hash_datum == ((struct anonymous_7 *)NULL))
     {
-      memset((void *)host, 0, sizeof(struct anonymous$10) /*1656ul*/ );
-      host->id = (enum anonymous$15)HOST_NODE;
+      memset((void *)host, 0, sizeof(struct anonymous_10) /*1656ul*/ );
+      host->id = (enum anonymous_15)HOST_NODE;
       host->report_start = host_report_start;
       host->report_end = host_report_end;
       host->metrics=hash_create((unsigned long int)50);
-      if(host->metrics == ((struct anonymous$8 *)NULL))
+      if(host->metrics == ((struct anonymous_8 *)NULL))
       {
-        err_msg("Could not create metric hash for host %s", startElement_HOST$$1$$name);
+        err_msg("Could not create metric hash for host %s", startElement_HOST__1__name);
         return 1;
       }
 
@@ -13910,40 +13910,40 @@ static signed int startElement_HOST(void *data, const char *el, const char **att
     i = 0;
     for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
     {
-      unsigned long int return_value_strlen$11;
-      return_value_strlen$11=strlen(attr[(signed long int)i]);
-      xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$11);
+      unsigned long int return_value_strlen_11;
+      return_value_strlen_11=strlen(attr[(signed long int)i]);
+      xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_11);
       if(!(xt == ((struct xml_tag *)NULL)))
         switch((signed int)xt->tag)
         {
           case IP_TAG:
           {
-            return_value_addstring$12=addstring(host->strings, &edge, attr[(signed long int)(i + 1)]);
-            host->ip = (signed short int)return_value_addstring$12;
+            return_value_addstring_12=addstring(host->strings, &edge, attr[(signed long int)(i + 1)]);
+            host->ip = (signed short int)return_value_addstring_12;
             break;
           }
           case DMAX_TAG:
           {
-            return_value_strtoul$13=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
-            host->dmax = (unsigned int)return_value_strtoul$13;
+            return_value_strtoul_13=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
+            host->dmax = (unsigned int)return_value_strtoul_13;
             break;
           }
           case LOCATION_TAG:
           {
-            return_value_addstring$14=addstring(host->strings, &edge, attr[(signed long int)(i + 1)]);
-            host->location = (signed short int)return_value_addstring$14;
+            return_value_addstring_14=addstring(host->strings, &edge, attr[(signed long int)(i + 1)]);
+            host->location = (signed short int)return_value_addstring_14;
             break;
           }
           case TAGS_TAG:
           {
-            return_value_addstring$15=addstring(host->strings, &edge, attr[(signed long int)(i + 1)]);
-            host->tags = (signed short int)return_value_addstring$15;
+            return_value_addstring_15=addstring(host->strings, &edge, attr[(signed long int)(i + 1)]);
+            host->tags = (signed short int)return_value_addstring_15;
             break;
           }
           case STARTED_TAG:
           {
-            return_value_strtoul$16=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
-            host->started = (unsigned int)return_value_strtoul$16;
+            return_value_strtoul_16=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
+            host->started = (unsigned int)return_value_strtoul_16;
             break;
           }
           default:
@@ -13952,12 +13952,12 @@ static signed int startElement_HOST(void *data, const char *el, const char **att
 
     }
     host->stringslen = (signed short int)edge;
-    startElement_HOST$$1$$hashval.size = (unsigned int)((sizeof(struct anonymous$10) /*1656ul*/  - (unsigned long int)1572) + (unsigned long int)host->stringslen);
-    startElement_HOST$$1$$hashval.data = (void *)host;
-    rdatum=hash_insert(&hashkey, &startElement_HOST$$1$$hashval, hosts);
-    if(rdatum == ((struct anonymous$7 *)NULL))
+    startElement_HOST__1__hashval.size = (unsigned int)((sizeof(struct anonymous_10) /*1656ul*/  - (unsigned long int)1572) + (unsigned long int)host->stringslen);
+    startElement_HOST__1__hashval.data = (void *)host;
+    rdatum=hash_insert(&hashkey, &startElement_HOST__1__hashval, hosts);
+    if(rdatum == ((struct anonymous_7 *)NULL))
     {
-      err_msg("Could not insert host %s", startElement_HOST$$1$$name);
+      err_msg("Could not insert host %s", startElement_HOST__1__name);
       return 1;
     }
 
@@ -13970,11 +13970,11 @@ static signed int startElement_HOST(void *data, const char *el, const char **att
 // file process_xml.c line 542
 static signed int startElement_HOSTS(void *data, const char *el, const char **attr)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)data;
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)data;
   signed int i;
   struct xml_tag *xt;
-  unsigned long int return_value_strtoul$2;
-  unsigned long int return_value_strtoul$3;
+  unsigned long int return_value_strtoul_2;
+  unsigned long int return_value_strtoul_3;
   if(gmetad_config.scalable_mode == 0)
     return 0;
 
@@ -13983,22 +13983,22 @@ static signed int startElement_HOSTS(void *data, const char *el, const char **at
     i = 0;
     for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(attr[(signed long int)i]);
-      xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$1);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(attr[(signed long int)i]);
+      xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_1);
       if(!(xt == ((struct xml_tag *)NULL)))
         switch((signed int)xt->tag)
         {
           case UP_TAG:
           {
-            return_value_strtoul$2=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
-            xmldata->source.hosts_up = xmldata->source.hosts_up + (unsigned int)return_value_strtoul$2;
+            return_value_strtoul_2=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
+            xmldata->source.hosts_up = xmldata->source.hosts_up + (unsigned int)return_value_strtoul_2;
             break;
           }
           case DOWN_TAG:
           {
-            return_value_strtoul$3=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
-            xmldata->source.hosts_down = xmldata->source.hosts_down + (unsigned int)return_value_strtoul$3;
+            return_value_strtoul_3=strtoul(attr[(signed long int)(i + 1)], (char **)(void *)0, 10);
+            xmldata->source.hosts_down = xmldata->source.hosts_down + (unsigned int)return_value_strtoul_3;
             break;
           }
           default:
@@ -14014,27 +14014,27 @@ static signed int startElement_HOSTS(void *data, const char *el, const char **at
 // file process_xml.c line 577
 static signed int startElement_METRIC(void *data, const char *el, const char **attr)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)data;
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)data;
   enum ganglia_slope slope = (enum ganglia_slope)GANGLIA_SLOPE_UNSPECIFIED;
   struct xml_tag *xt;
   struct type_tag *tt;
-  struct anonymous$7 *hash_datum = (struct anonymous$7 *)(void *)0;
-  struct anonymous$7 *rdatum;
-  struct anonymous$7 hashkey;
-  struct anonymous$7 startElement_METRIC$$1$$hashval;
-  const char *startElement_METRIC$$1$$name = (const char *)(void *)0;
+  struct anonymous_7 *hash_datum = (struct anonymous_7 *)(void *)0;
+  struct anonymous_7 *rdatum;
+  struct anonymous_7 hashkey;
+  struct anonymous_7 startElement_METRIC__1__hashval;
+  const char *startElement_METRIC__1__name = (const char *)(void *)0;
   const char *metricval = (const char *)(void *)0;
   const char *type = (const char *)(void *)0;
   signed int do_summary;
   signed int i;
   signed int edge;
   signed int carbon_ret;
-  struct anonymous$8 *summary;
-  struct anonymous$9 *metric;
-  unsigned long int return_value_strlen$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  double return_value_strtod$9;
+  struct anonymous_8 *summary;
+  struct anonymous_9 *metric;
+  unsigned long int return_value_strlen_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  double return_value_strtod_9;
   if(xmldata->host_alive == 0)
     return 0;
 
@@ -14043,18 +14043,18 @@ static signed int startElement_METRIC(void *data, const char *el, const char **a
     i = 0;
     for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(attr[(signed long int)i]);
-      xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$1);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(attr[(signed long int)i]);
+      xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_1);
       if(!(xt == ((struct xml_tag *)NULL)))
         switch((signed int)xt->tag)
         {
           case NAME_TAG:
           {
-            startElement_METRIC$$1$$name = attr[(signed long int)(i + 1)];
-            hashkey.data = (void *)startElement_METRIC$$1$$name;
-            return_value_strlen$2=strlen(startElement_METRIC$$1$$name);
-            hashkey.size = (unsigned int)(return_value_strlen$2 + (unsigned long int)1);
+            startElement_METRIC__1__name = attr[(signed long int)(i + 1)];
+            hashkey.data = (void *)startElement_METRIC__1__name;
+            return_value_strlen_2=strlen(startElement_METRIC__1__name);
+            hashkey.size = (unsigned int)(return_value_strlen_2 + (unsigned long int)1);
             break;
           }
           case VAL_TAG:
@@ -14075,32 +14075,32 @@ static signed int startElement_METRIC(void *data, const char *el, const char **a
 
     }
     metric = &xmldata->metric;
-    memset((void *)metric, 0, sizeof(struct anonymous$9) /*1800ul*/ );
+    memset((void *)metric, 0, sizeof(struct anonymous_9) /*1800ul*/ );
     do_summary = 0;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(type);
-    tt=in_type_list(type, (unsigned int)return_value_strlen$3);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(type);
+    tt=in_type_list(type, (unsigned int)return_value_strlen_3);
     if(tt == ((struct type_tag *)NULL))
       return 0;
 
     else
     {
       if((signed int)tt->type == INT)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)tt->type == UINT ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = (signed int)tt->type == UINT ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)tt->type == FLOAT ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)tt->type == FLOAT ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
         do_summary = 1;
 
-      signed int return_value_authority_mode$7;
-      return_value_authority_mode$7=authority_mode(xmldata);
-      if(!(return_value_authority_mode$7 == 0))
+      signed int return_value_authority_mode_7;
+      return_value_authority_mode_7=authority_mode(xmldata);
+      if(!(return_value_authority_mode_7 == 0))
       {
         fillmetric(attr, metric, type);
         if(!(metric->dmax == 0u))
@@ -14116,12 +14116,12 @@ static signed int startElement_METRIC(void *data, const char *el, const char **a
           {
             if(xmldata->rval == 0)
             {
-              debug_msg("Updating host %s, metric %s", xmldata->hostname, startElement_METRIC$$1$$name);
+              debug_msg("Updating host %s, metric %s", xmldata->hostname, startElement_METRIC__1__name);
               if(gmetad_config.write_rrds == 1)
-                xmldata->rval=write_data_to_rrd(xmldata->sourcename, xmldata->hostname, startElement_METRIC$$1$$name, metricval, (const char *)(void *)0, xmldata->ds->step, xmldata->source.localtime, slope);
+                xmldata->rval=write_data_to_rrd(xmldata->sourcename, xmldata->hostname, startElement_METRIC__1__name, metricval, (const char *)(void *)0, xmldata->ds->step, xmldata->source.localtime, slope);
 
               if(!(gmetad_config.carbon_server == ((char *)NULL)))
-                carbon_ret=write_data_to_carbon(xmldata->sourcename, xmldata->hostname, startElement_METRIC$$1$$name, metricval, xmldata->source.localtime);
+                carbon_ret=write_data_to_carbon(xmldata->sourcename, xmldata->hostname, startElement_METRIC__1__name, metricval, xmldata->source.localtime);
 
             }
 
@@ -14129,21 +14129,21 @@ static signed int startElement_METRIC(void *data, const char *el, const char **a
 
         }
 
-        metric->id = (enum anonymous$15)METRIC_NODE;
+        metric->id = (enum anonymous_15)METRIC_NODE;
         metric->report_start = metric_report_start;
         metric->report_end = metric_report_end;
         edge = (signed int)metric->stringslen;
-        signed int return_value_addstring$6;
-        return_value_addstring$6=addstring(metric->strings, &edge, startElement_METRIC$$1$$name);
-        metric->name = (signed short int)return_value_addstring$6;
+        signed int return_value_addstring_6;
+        return_value_addstring_6=addstring(metric->strings, &edge, startElement_METRIC__1__name);
+        metric->name = (signed short int)return_value_addstring_6;
         metric->stringslen = (signed short int)edge;
         metric->t0 = xmldata->now;
         metric->t0.tv_sec = metric->t0.tv_sec - (signed long int)metric->tn;
-        startElement_METRIC$$1$$hashval.size = (unsigned int)((sizeof(struct anonymous$9) /*1800ul*/  - (unsigned long int)1572) + (unsigned long int)metric->stringslen);
-        startElement_METRIC$$1$$hashval.data = (void *)metric;
-        rdatum=hash_insert(&hashkey, &startElement_METRIC$$1$$hashval, xmldata->host.metrics);
-        if(rdatum == ((struct anonymous$7 *)NULL))
-          err_msg("Could not insert %s metric", startElement_METRIC$$1$$name);
+        startElement_METRIC__1__hashval.size = (unsigned int)((sizeof(struct anonymous_9) /*1800ul*/  - (unsigned long int)1572) + (unsigned long int)metric->stringslen);
+        startElement_METRIC__1__hashval.data = (void *)metric;
+        rdatum=hash_insert(&hashkey, &startElement_METRIC__1__hashval, xmldata->host.metrics);
+        if(rdatum == ((struct anonymous_7 *)NULL))
+          err_msg("Could not insert %s metric", startElement_METRIC__1__name);
 
       }
 
@@ -14151,14 +14151,14 @@ static signed int startElement_METRIC(void *data, const char *el, const char **a
       {
         summary = xmldata->source.metric_summary_pending;
         hash_datum=hash_lookup(&hashkey, summary);
-        if(hash_datum == ((struct anonymous$7 *)NULL))
+        if(hash_datum == ((struct anonymous_7 *)NULL))
         {
-          signed int return_value_authority_mode$8;
-          return_value_authority_mode$8=authority_mode(xmldata);
-          if(return_value_authority_mode$8 == 0)
+          signed int return_value_authority_mode_8;
+          return_value_authority_mode_8=authority_mode(xmldata);
+          if(return_value_authority_mode_8 == 0)
           {
             metric = &xmldata->metric;
-            memset((void *)metric, 0, sizeof(struct anonymous$9) /*1800ul*/ );
+            memset((void *)metric, 0, sizeof(struct anonymous_9) /*1800ul*/ );
             fillmetric(attr, metric, type);
           }
 
@@ -14171,8 +14171,8 @@ static signed int startElement_METRIC(void *data, const char *el, const char **a
           metric = &xmldata->metric;
           if((signed int)tt->type == INT || (signed int)tt->type == UINT || (signed int)tt->type == FLOAT)
           {
-            return_value_strtod$9=strtod(metricval, (char **)(void *)0);
-            metric->val.d = metric->val.d + (double)return_value_strtod$9;
+            return_value_strtod_9=strtod(metricval, (char **)(void *)0);
+            metric->val.d = metric->val.d + (double)return_value_strtod_9;
             goto __CPROVER_DUMP_L27;
           }
 
@@ -14183,11 +14183,11 @@ static signed int startElement_METRIC(void *data, const char *el, const char **a
         ;
         metric->num = metric->num + 1u;
         metric->t0 = xmldata->now;
-        startElement_METRIC$$1$$hashval.size = (unsigned int)((sizeof(struct anonymous$9) /*1800ul*/  - (unsigned long int)1572) + (unsigned long int)metric->stringslen);
-        startElement_METRIC$$1$$hashval.data = (void *)metric;
-        rdatum=hash_insert(&hashkey, &startElement_METRIC$$1$$hashval, summary);
-        if(rdatum == ((struct anonymous$7 *)NULL))
-          err_msg("Could not insert %s metric", startElement_METRIC$$1$$name);
+        startElement_METRIC__1__hashval.size = (unsigned int)((sizeof(struct anonymous_9) /*1800ul*/  - (unsigned long int)1572) + (unsigned long int)metric->stringslen);
+        startElement_METRIC__1__hashval.data = (void *)metric;
+        rdatum=hash_insert(&hashkey, &startElement_METRIC__1__hashval, summary);
+        if(rdatum == ((struct anonymous_7 *)NULL))
+          err_msg("Could not insert %s metric", startElement_METRIC__1__name);
 
       }
 
@@ -14200,22 +14200,22 @@ static signed int startElement_METRIC(void *data, const char *el, const char **a
 // file process_xml.c line 882
 static signed int startElement_METRICS(void *data, const char *el, const char **attr)
 {
-  struct anonymous$35 *xmldata = (struct anonymous$35 *)data;
+  struct anonymous_35 *xmldata = (struct anonymous_35 *)data;
   struct xml_tag *xt;
   struct type_tag *tt;
-  struct anonymous$7 *hash_datum = (struct anonymous$7 *)(void *)0;
-  struct anonymous$7 *rdatum;
-  struct anonymous$7 hashkey;
-  struct anonymous$7 startElement_METRICS$$1$$hashval;
-  const char *startElement_METRICS$$1$$name = (const char *)(void *)0;
+  struct anonymous_7 *hash_datum = (struct anonymous_7 *)(void *)0;
+  struct anonymous_7 *rdatum;
+  struct anonymous_7 hashkey;
+  struct anonymous_7 startElement_METRICS__1__hashval;
+  const char *startElement_METRICS__1__name = (const char *)(void *)0;
   const char *metricval = (const char *)(void *)0;
   const char *metricnum = (const char *)(void *)0;
   const char *type = (const char *)(void *)0;
   signed int i;
-  struct anonymous$8 *summary;
-  struct anonymous$9 *metric;
-  unsigned long int return_value_strlen$2;
-  double return_value_strtod$4;
+  struct anonymous_8 *summary;
+  struct anonymous_9 *metric;
+  unsigned long int return_value_strlen_2;
+  double return_value_strtod_4;
   if(gmetad_config.scalable_mode == 0)
     return 0;
 
@@ -14224,18 +14224,18 @@ static signed int startElement_METRICS(void *data, const char *el, const char **
     i = 0;
     for( ; !(attr[(signed long int)i] == ((const char *)NULL)); i = i + 2)
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(attr[(signed long int)i]);
-      xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen$1);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(attr[(signed long int)i]);
+      xt=in_xml_list(attr[(signed long int)i], (unsigned int)return_value_strlen_1);
       if(!(xt == ((struct xml_tag *)NULL)))
         switch((signed int)xt->tag)
         {
           case NAME_TAG:
           {
-            startElement_METRICS$$1$$name = attr[(signed long int)(i + 1)];
-            hashkey.data = (void *)startElement_METRICS$$1$$name;
-            return_value_strlen$2=strlen(startElement_METRICS$$1$$name);
-            hashkey.size = (unsigned int)(return_value_strlen$2 + (unsigned long int)1);
+            startElement_METRICS__1__name = attr[(signed long int)(i + 1)];
+            hashkey.data = (void *)startElement_METRICS__1__name;
+            return_value_strlen_2=strlen(startElement_METRICS__1__name);
+            hashkey.size = (unsigned int)(return_value_strlen_2 + (unsigned long int)1);
             break;
           }
           case TYPE_TAG:
@@ -14257,10 +14257,10 @@ static signed int startElement_METRICS(void *data, const char *el, const char **
     }
     summary = xmldata->source.metric_summary_pending;
     hash_datum=hash_lookup(&hashkey, summary);
-    if(hash_datum == ((struct anonymous$7 *)NULL))
+    if(hash_datum == ((struct anonymous_7 *)NULL))
     {
       metric = &xmldata->metric;
-      memset((void *)metric, 0, sizeof(struct anonymous$9) /*1800ul*/ );
+      memset((void *)metric, 0, sizeof(struct anonymous_9) /*1800ul*/ );
       fillmetric(attr, metric, type);
     }
 
@@ -14269,16 +14269,16 @@ static signed int startElement_METRICS(void *data, const char *el, const char **
       memcpy((void *)&xmldata->metric, hash_datum->data, (unsigned long int)hash_datum->size);
       datum_free(hash_datum);
       metric = &xmldata->metric;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(type);
-      tt=in_type_list(type, (unsigned int)return_value_strlen$3);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(type);
+      tt=in_type_list(type, (unsigned int)return_value_strlen_3);
       if(tt == ((struct type_tag *)NULL))
         return 0;
 
       if((signed int)tt->type == INT || (signed int)tt->type == UINT || (signed int)tt->type == FLOAT)
       {
-        return_value_strtod$4=strtod(metricval, (char **)(void *)0);
-        metric->val.d = metric->val.d + (double)return_value_strtod$4;
+        return_value_strtod_4=strtod(metricval, (char **)(void *)0);
+        metric->val.d = metric->val.d + (double)return_value_strtod_4;
         goto __CPROVER_DUMP_L16;
       }
 
@@ -14286,17 +14286,17 @@ static signed int startElement_METRICS(void *data, const char *el, const char **
 
     __CPROVER_DUMP_L16:
       ;
-      signed int return_value_atoi$5;
-      return_value_atoi$5=atoi(metricnum);
-      metric->num = metric->num + (unsigned int)return_value_atoi$5;
+      signed int return_value_atoi_5;
+      return_value_atoi_5=atoi(metricnum);
+      metric->num = metric->num + (unsigned int)return_value_atoi_5;
     }
-    startElement_METRICS$$1$$hashval.size = (unsigned int)((sizeof(struct anonymous$9) /*1800ul*/  - (unsigned long int)1572) + (unsigned long int)metric->stringslen);
-    startElement_METRICS$$1$$hashval.data = (void *)metric;
+    startElement_METRICS__1__hashval.size = (unsigned int)((sizeof(struct anonymous_9) /*1800ul*/  - (unsigned long int)1572) + (unsigned long int)metric->stringslen);
+    startElement_METRICS__1__hashval.data = (void *)metric;
     summary = xmldata->source.metric_summary;
-    rdatum=hash_insert(&hashkey, &startElement_METRICS$$1$$hashval, summary);
-    if(rdatum == ((struct anonymous$7 *)NULL))
+    rdatum=hash_insert(&hashkey, &startElement_METRICS__1__hashval, summary);
+    if(rdatum == ((struct anonymous_7 *)NULL))
     {
-      err_msg("Could not insert %s metric", startElement_METRICS$$1$$name);
+      err_msg("Could not insert %s metric", startElement_METRICS__1__name);
       return 1;
     }
 
@@ -14307,30 +14307,30 @@ static signed int startElement_METRICS(void *data, const char *el, const char **
 
 // sum_metrics
 // file gmetad.c line 136
-static signed int sum_metrics(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int sum_metrics(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
-  struct anonymous$7 *hash_datum;
-  struct anonymous$7 *rdatum;
-  struct anonymous$9 *rootmetric;
-  struct anonymous$9 *metric;
+  struct anonymous_7 *hash_datum;
+  struct anonymous_7 *rdatum;
+  struct anonymous_9 *rootmetric;
+  struct anonymous_9 *metric;
   char *type;
   struct type_tag *tt;
   signed int do_sum = 1;
-  metric = (struct anonymous$9 *)val->data;
+  metric = (struct anonymous_9 *)val->data;
   type=getfield(metric->strings, metric->type);
   hash_datum=hash_lookup(key, root.metric_summary);
-  if(hash_datum == ((struct anonymous$7 *)NULL))
+  if(hash_datum == ((struct anonymous_7 *)NULL))
   {
     hash_datum=datum_new((void *)(char *)metric, (unsigned long int)val->size);
     do_sum = 0;
   }
 
-  rootmetric = (struct anonymous$9 *)hash_datum->data;
+  rootmetric = (struct anonymous_9 *)hash_datum->data;
   if(!(do_sum == 0))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(type);
-    tt=in_type_list(type, (unsigned int)return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(type);
+    tt=in_type_list(type, (unsigned int)return_value_strlen_1);
     if(tt == ((struct type_tag *)NULL))
     {
       datum_free(hash_datum);
@@ -14345,7 +14345,7 @@ static signed int sum_metrics(struct anonymous$7 *key, struct anonymous$7 *val, 
 
   rdatum=hash_insert(key, hash_datum, root.metric_summary);
   datum_free(hash_datum);
-  if(rdatum == ((struct anonymous$7 *)NULL))
+  if(rdatum == ((struct anonymous_7 *)NULL))
     return 1;
 
   else
@@ -14362,16 +14362,16 @@ float timediff(struct timeval *thistime, struct timeval *lasttime)
 
 // tree_report
 // file server.c line 366
-static signed int tree_report(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int tree_report(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
-  struct anonymous$16 *client = (struct anonymous$16 *)arg;
+  struct anonymous_16 *client = (struct anonymous_16 *)arg;
   struct Generic_type *node = (struct Generic_type *)val->data;
   signed int rc = 0;
-  signed int return_value_applicable$1;
+  signed int return_value_applicable_1;
   if(!(client->filter == /*enum*/NO_FILTER))
   {
-    return_value_applicable$1=applicable(client->filter, node);
-    if(!(return_value_applicable$1 == 0))
+    return_value_applicable_1=applicable(client->filter, node);
+    if(!(return_value_applicable_1 == 0))
       goto __CPROVER_DUMP_L1;
 
     return 1;
@@ -14389,7 +14389,7 @@ static signed int tree_report(struct anonymous$7 *key, struct anonymous$7 *val, 
     else
     {
       applyfilter(client, node);
-      if(!(node->children == ((struct anonymous$8 *)NULL)))
+      if(!(node->children == ((struct anonymous_8 *)NULL)))
         hash_foreach(node->children, tree_report, arg);
 
       rc=node->report_end(node, client, (void *)0);
@@ -14400,7 +14400,7 @@ static signed int tree_report(struct anonymous$7 *key, struct anonymous$7 *val, 
 
 // update_arg
 // file cmdline.c line 341
-static signed int update_arg(void *field, char **orig_field, unsigned int *field_given, unsigned int *prev_given, char *value, const char **possible_values, const char *default_value, enum anonymous$23 arg_type, signed int check_ambiguity, signed int override, signed int no_free, signed int multiple_option, const char *long_opt, char short_opt, const char *additional_error)
+static signed int update_arg(void *field, char **orig_field, unsigned int *field_given, unsigned int *prev_given, char *value, const char **possible_values, const char *default_value, enum anonymous_23 arg_type, signed int check_ambiguity, signed int override, signed int no_free, signed int multiple_option, const char *long_opt, char short_opt, const char *additional_error)
 {
   char *stop_char = ((char *)NULL);
   const char *val = value;
@@ -14409,25 +14409,25 @@ static signed int update_arg(void *field, char **orig_field, unsigned int *field
   (void)field;
   stop_char = ((char *)NULL);
   found = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  signed long int return_value_strtol$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  signed long int return_value_strtol_3;
+  _Bool tmp_if_expr_4;
   if(multiple_option == 0 && !(prev_given == ((unsigned int *)NULL)))
   {
     if(!(*prev_given == 0u))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       if(!(check_ambiguity == 0))
-        tmp_if_expr$1 = *field_given != 0u ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = *field_given != 0u ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$2)
+    if(!tmp_if_expr_2)
       goto __CPROVER_DUMP_L7;
 
     if(!((signed int)short_opt == 45))
@@ -14475,8 +14475,8 @@ static signed int update_arg(void *field, char **orig_field, unsigned int *field
         {
           if(!(val == ((const char *)NULL)))
           {
-            return_value_strtol$3=strtol(val, &stop_char, 0);
-            *((signed int *)field) = (signed int)return_value_strtol$3;
+            return_value_strtol_3=strtol(val, &stop_char, 0);
+            *((signed int *)field) = (signed int)return_value_strtol_3;
           }
 
           break;
@@ -14506,11 +14506,11 @@ static signed int update_arg(void *field, char **orig_field, unsigned int *field
         if(!(val == ((const char *)NULL)))
         {
           if(!(stop_char == ((char *)NULL)))
-            tmp_if_expr$4 = (signed int)*stop_char == 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (signed int)*stop_char == 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(!tmp_if_expr_4)
           {
             fprintf(stderr, "%s: invalid numeric value: %s\n", package_name, val);
             return 1;
@@ -14547,15 +14547,15 @@ static signed int update_arg(void *field, char **orig_field, unsigned int *field
 
 // update_file
 // file file.c line 95
-char * update_file(struct anonymous$37 *tf)
+char * update_file(struct anonymous_37 *tf)
 {
   signed int rval;
   struct timeval now;
   char *bp;
   gettimeofday(&now, (struct timezone *)(void *)0);
-  float return_value_timediff$1;
-  return_value_timediff$1=timediff(&now, &tf->last_read);
-  if(return_value_timediff$1 > tf->thresh)
+  float return_value_timediff_1;
+  return_value_timediff_1=timediff(&now, &tf->last_read);
+  if(return_value_timediff_1 > tf->thresh)
   {
     bp = tf->buffer;
     rval=slurpfile(tf->name, &bp, (signed int)tf->buffersize);
@@ -14588,18 +14588,18 @@ void update_pidfile(char *pidfile)
   unsigned int prev_umask;
   struct _IO_FILE *file;
   file=fopen(pidfile, "r");
-  signed int return_value_getpgid$1;
+  signed int return_value_getpgid_1;
   if(!(file == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_fscanf$2;
-    return_value_fscanf$2=fscanf(file, "%ld", &p);
-    if(return_value_fscanf$2 == 1)
+    signed int return_value_fscanf_2;
+    return_value_fscanf_2=fscanf(file, "%ld", &p);
+    if(return_value_fscanf_2 == 1)
     {
       pid = (signed int)p;
       if(!(pid == 0))
       {
-        return_value_getpgid$1=getpgid(pid);
-        if(return_value_getpgid$1 >= 0)
+        return_value_getpgid_1=getpgid(pid);
+        if(return_value_getpgid_1 >= 0)
         {
           err_msg("daemon already running: %s pid %ld\n", pidfile, p);
           exit(1);
@@ -14617,17 +14617,17 @@ void update_pidfile(char *pidfile)
   file=fopen(pidfile, "w");
   if(file == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    err_msg("Error writing pidfile '%s' -- %s\n", pidfile, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    err_msg("Error writing pidfile '%s' -- %s\n", pidfile, return_value_strerror_4);
     exit(1);
   }
 
-  signed int return_value_getpid$5;
-  return_value_getpid$5=getpid();
-  fprintf(file, "%ld\n", (signed long int)return_value_getpid$5);
+  signed int return_value_getpid_5;
+  return_value_getpid_5=getpid();
+  fprintf(file, "%ld\n", (signed long int)return_value_getpid_5);
   fclose(file);
   umask(prev_umask);
 }
@@ -14637,39 +14637,39 @@ void update_pidfile(char *pidfile)
 signed int write_data_to_carbon(const char *source, const char *host, const char *metric, const char *sum, unsigned int process_time)
 {
   signed int hostlen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(host);
-  hostlen = (signed int)return_value_strlen$1;
-  const signed long int hostlen$array_size0 = (signed long int)(hostlen + 1);
-  char hostcp[hostlen$array_size0];
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(host);
+  hostlen = (signed int)return_value_strlen_1;
+  const signed long int hostlen_array_size0 = (signed long int)(hostlen + 1);
+  char hostcp[hostlen_array_size0];
   signed int sourcelen;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(source);
-  sourcelen = (signed int)return_value_strlen$2;
-  const signed long int sourcelen$array_size0 = (signed long int)(sourcelen + 1);
-  char sourcecp[sourcelen$array_size0];
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(source);
+  sourcelen = (signed int)return_value_strlen_2;
+  const signed long int sourcelen_array_size0 = (signed long int)(sourcelen + 1);
+  char sourcecp[sourcelen_array_size0];
   signed int metriclen;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(metric);
-  metriclen = (signed int)return_value_strlen$3;
-  const signed long int metriclen$array_size0 = (signed long int)(metriclen + 1);
-  char metriccp[metriclen$array_size0];
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(metric);
+  metriclen = (signed int)return_value_strlen_3;
+  const signed long int metriclen_array_size0 = (signed long int)(metriclen + 1);
+  char metriccp[metriclen_array_size0];
   char s_process_time[15l];
   char graphite_msg[4097l];
   signed int i;
-  signed long int return_value_time$4;
+  signed long int return_value_time_4;
   if(process_time == 0u)
   {
-    return_value_time$4=time(((signed long int *)NULL));
-    process_time = (unsigned int)return_value_time$4;
+    return_value_time_4=time(((signed long int *)NULL));
+    process_time = (unsigned int)return_value_time_4;
   }
 
   sprintf(s_process_time, "%u", process_time);
-  unsigned long int return_value_strlen$5;
+  unsigned long int return_value_strlen_5;
   if(!(gmetad_config.graphite_prefix == ((char *)NULL)))
   {
-    return_value_strlen$5=strlen(gmetad_config.graphite_prefix);
-    if(return_value_strlen$5 >= 2ul)
+    return_value_strlen_5=strlen(gmetad_config.graphite_prefix);
+    if(return_value_strlen_5 >= 2ul)
       strncpy(graphite_msg, gmetad_config.graphite_prefix, (unsigned long int)4096);
 
   }
@@ -14686,7 +14686,7 @@ signed int write_data_to_carbon(const char *source, const char *host, const char
     sourcecp[(signed long int)(i + 1)] = (char)0;
   }
 
-  signed int return_value_tolower$7;
+  signed int return_value_tolower_7;
   if(!(host == ((const char *)NULL)))
   {
     i = 0;
@@ -14697,35 +14697,35 @@ signed int write_data_to_carbon(const char *source, const char *host, const char
       else
         hostcp[(signed long int)i] = host[(signed long int)i];
     hostcp[(signed long int)(i + 1)] = (char)0;
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(graphite_msg);
-    i = (signed int)return_value_strlen$6;
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(graphite_msg);
+    i = (signed int)return_value_strlen_6;
     if(gmetad_config.case_sensitive_hostnames == 0)
       for( ; !((signed int)graphite_msg[(signed long int)i] == 0); i = i + 1)
       {
-        return_value_tolower$7=tolower((signed int)graphite_msg[(signed long int)i]);
-        graphite_msg[(signed long int)i] = (char)return_value_tolower$7;
+        return_value_tolower_7=tolower((signed int)graphite_msg[(signed long int)i]);
+        graphite_msg[(signed long int)i] = (char)return_value_tolower_7;
       }
 
   }
 
-  _Bool tmp_if_expr$21;
-  unsigned long int return_value_strlen$20;
+  _Bool tmp_if_expr_21;
+  unsigned long int return_value_strlen_20;
   if(!(gmetad_config.graphite_path == ((char *)NULL)))
   {
-    return_value_strlen$20=strlen(gmetad_config.graphite_path);
-    tmp_if_expr$21 = return_value_strlen$20 > (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_20=strlen(gmetad_config.graphite_path);
+    tmp_if_expr_21 = return_value_strlen_20 > (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$21 = (_Bool)0;
-  _Bool tmp_if_expr$11;
-  unsigned long int return_value_strlen$10;
-  _Bool tmp_if_expr$15;
-  unsigned long int return_value_strlen$14;
-  if(tmp_if_expr$21)
+    tmp_if_expr_21 = (_Bool)0;
+  _Bool tmp_if_expr_11;
+  unsigned long int return_value_strlen_10;
+  _Bool tmp_if_expr_15;
+  unsigned long int return_value_strlen_14;
+  if(tmp_if_expr_21)
   {
-    struct anonymous$1 patrn[4l];
+    struct anonymous_1 patrn[4l];
     char graphite_path_cp[4097l];
     char *graphite_path_ptr;
     strncpy(graphite_path_cp, gmetad_config.graphite_path, (unsigned long int)4096);
@@ -14741,20 +14741,20 @@ signed int write_data_to_carbon(const char *source, const char *host, const char
     free((void *)graphite_path_ptr);
     if(!(gmetad_config.graphite_prefix == ((char *)NULL)))
     {
-      return_value_strlen$10=strlen(gmetad_config.graphite_prefix);
-      tmp_if_expr$11 = return_value_strlen$10 > (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_10=strlen(gmetad_config.graphite_prefix);
+      tmp_if_expr_11 = return_value_strlen_10 > (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$11 = (_Bool)0;
-    if(tmp_if_expr$11)
+      tmp_if_expr_11 = (_Bool)0;
+    if(tmp_if_expr_11)
     {
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(graphite_msg);
-      strncat(graphite_msg, ".", (unsigned long int)4096 - return_value_strlen$8);
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(graphite_msg);
-      strncat(graphite_msg, graphite_path_cp, (unsigned long int)4096 - return_value_strlen$9);
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(graphite_msg);
+      strncat(graphite_msg, ".", (unsigned long int)4096 - return_value_strlen_8);
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(graphite_msg);
+      strncat(graphite_msg, graphite_path_cp, (unsigned long int)4096 - return_value_strlen_9);
     }
 
     else
@@ -14765,58 +14765,58 @@ signed int write_data_to_carbon(const char *source, const char *host, const char
   {
     if(!(gmetad_config.graphite_prefix == ((char *)NULL)))
     {
-      return_value_strlen$14=strlen(gmetad_config.graphite_prefix);
-      tmp_if_expr$15 = return_value_strlen$14 > (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_14=strlen(gmetad_config.graphite_prefix);
+      tmp_if_expr_15 = return_value_strlen_14 > (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$15 = (_Bool)0;
-    if(tmp_if_expr$15)
+      tmp_if_expr_15 = (_Bool)0;
+    if(tmp_if_expr_15)
     {
-      unsigned long int return_value_strlen$12;
-      return_value_strlen$12=strlen(graphite_msg);
-      strncat(graphite_msg, ".", (unsigned long int)4096 - return_value_strlen$12);
-      unsigned long int return_value_strlen$13;
-      return_value_strlen$13=strlen(graphite_msg);
-      strncat(graphite_msg, sourcecp, (unsigned long int)4096 - return_value_strlen$13);
+      unsigned long int return_value_strlen_12;
+      return_value_strlen_12=strlen(graphite_msg);
+      strncat(graphite_msg, ".", (unsigned long int)4096 - return_value_strlen_12);
+      unsigned long int return_value_strlen_13;
+      return_value_strlen_13=strlen(graphite_msg);
+      strncat(graphite_msg, sourcecp, (unsigned long int)4096 - return_value_strlen_13);
     }
 
     else
       strncpy(graphite_msg, sourcecp, (unsigned long int)4096);
-    unsigned long int return_value_strlen$16;
-    return_value_strlen$16=strlen(graphite_msg);
-    strncat(graphite_msg, ".", (unsigned long int)4096 - return_value_strlen$16);
-    unsigned long int return_value_strlen$17;
-    return_value_strlen$17=strlen(graphite_msg);
-    strncat(graphite_msg, hostcp, (unsigned long int)4096 - return_value_strlen$17);
-    unsigned long int return_value_strlen$18;
-    return_value_strlen$18=strlen(graphite_msg);
-    strncat(graphite_msg, ".", (unsigned long int)4096 - return_value_strlen$18);
-    unsigned long int return_value_strlen$19;
-    return_value_strlen$19=strlen(graphite_msg);
-    strncat(graphite_msg, metric, (unsigned long int)4096 - return_value_strlen$19);
+    unsigned long int return_value_strlen_16;
+    return_value_strlen_16=strlen(graphite_msg);
+    strncat(graphite_msg, ".", (unsigned long int)4096 - return_value_strlen_16);
+    unsigned long int return_value_strlen_17;
+    return_value_strlen_17=strlen(graphite_msg);
+    strncat(graphite_msg, hostcp, (unsigned long int)4096 - return_value_strlen_17);
+    unsigned long int return_value_strlen_18;
+    return_value_strlen_18=strlen(graphite_msg);
+    strncat(graphite_msg, ".", (unsigned long int)4096 - return_value_strlen_18);
+    unsigned long int return_value_strlen_19;
+    return_value_strlen_19=strlen(graphite_msg);
+    strncat(graphite_msg, metric, (unsigned long int)4096 - return_value_strlen_19);
   }
-  unsigned long int return_value_strlen$22;
-  return_value_strlen$22=strlen(graphite_msg);
-  strncat(graphite_msg, " ", (unsigned long int)4096 - return_value_strlen$22);
-  unsigned long int return_value_strlen$23;
-  return_value_strlen$23=strlen(graphite_msg);
-  strncat(graphite_msg, sum, (unsigned long int)4096 - return_value_strlen$23);
-  unsigned long int return_value_strlen$24;
-  return_value_strlen$24=strlen(graphite_msg);
-  strncat(graphite_msg, " ", (unsigned long int)4096 - return_value_strlen$24);
-  unsigned long int return_value_strlen$25;
-  return_value_strlen$25=strlen(graphite_msg);
-  strncat(graphite_msg, s_process_time, (unsigned long int)4096 - return_value_strlen$25);
-  unsigned long int return_value_strlen$26;
-  return_value_strlen$26=strlen(graphite_msg);
-  strncat(graphite_msg, "\n", (unsigned long int)4096 - return_value_strlen$26);
-  unsigned long int return_value_strlen$27;
-  return_value_strlen$27=strlen(graphite_msg);
-  graphite_msg[(signed long int)(return_value_strlen$27 + (unsigned long int)1)] = (char)0;
-  signed int return_value_push_data_to_carbon$28;
-  return_value_push_data_to_carbon$28=push_data_to_carbon(graphite_msg);
-  return return_value_push_data_to_carbon$28;
+  unsigned long int return_value_strlen_22;
+  return_value_strlen_22=strlen(graphite_msg);
+  strncat(graphite_msg, " ", (unsigned long int)4096 - return_value_strlen_22);
+  unsigned long int return_value_strlen_23;
+  return_value_strlen_23=strlen(graphite_msg);
+  strncat(graphite_msg, sum, (unsigned long int)4096 - return_value_strlen_23);
+  unsigned long int return_value_strlen_24;
+  return_value_strlen_24=strlen(graphite_msg);
+  strncat(graphite_msg, " ", (unsigned long int)4096 - return_value_strlen_24);
+  unsigned long int return_value_strlen_25;
+  return_value_strlen_25=strlen(graphite_msg);
+  strncat(graphite_msg, s_process_time, (unsigned long int)4096 - return_value_strlen_25);
+  unsigned long int return_value_strlen_26;
+  return_value_strlen_26=strlen(graphite_msg);
+  strncat(graphite_msg, "\n", (unsigned long int)4096 - return_value_strlen_26);
+  unsigned long int return_value_strlen_27;
+  return_value_strlen_27=strlen(graphite_msg);
+  graphite_msg[(signed long int)(return_value_strlen_27 + (unsigned long int)1)] = (char)0;
+  signed int return_value_push_data_to_carbon_28;
+  return_value_push_data_to_carbon_28=push_data_to_carbon(graphite_msg);
+  return return_value_push_data_to_carbon_28;
 }
 
 // write_data_to_rrd
@@ -14829,32 +14829,32 @@ signed int write_data_to_rrd(const char *source, const char *host, const char *m
   strncpy(rrd, gmetad_config.rrd_rootdir, (unsigned long int)4096);
   if(!(source == ((const char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(rrd);
-    strncat(rrd, "/", (unsigned long int)4096 - return_value_strlen$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(rrd);
-    strncat(rrd, source, (unsigned long int)4096 - return_value_strlen$2);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(rrd);
+    strncat(rrd, "/", (unsigned long int)4096 - return_value_strlen_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(rrd);
+    strncat(rrd, source, (unsigned long int)4096 - return_value_strlen_2);
     my_mkdir(rrd);
   }
 
-  signed int return_value_tolower$6;
+  signed int return_value_tolower_6;
   if(!(host == ((const char *)NULL)))
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(rrd);
-    strncat(rrd, "/", (unsigned long int)4096 - return_value_strlen$3);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(rrd);
-    i = (signed int)return_value_strlen$4;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(rrd);
-    strncat(rrd, host, (unsigned long int)4096 - return_value_strlen$5);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(rrd);
+    strncat(rrd, "/", (unsigned long int)4096 - return_value_strlen_3);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(rrd);
+    i = (signed int)return_value_strlen_4;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(rrd);
+    strncat(rrd, host, (unsigned long int)4096 - return_value_strlen_5);
     if(gmetad_config.case_sensitive_hostnames == 0)
       for( ; !((signed int)rrd[(signed long int)i] == 0); i = i + 1)
       {
-        return_value_tolower$6=tolower((signed int)rrd[(signed long int)i]);
-        rrd[(signed long int)i] = (char)return_value_tolower$6;
+        return_value_tolower_6=tolower((signed int)rrd[(signed long int)i]);
+        rrd[(signed long int)i] = (char)return_value_tolower_6;
       }
 
     my_mkdir(rrd);
@@ -14862,26 +14862,26 @@ signed int write_data_to_rrd(const char *source, const char *host, const char *m
 
   else
   {
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(rrd);
-    strncat(rrd, "/", (unsigned long int)4096 - return_value_strlen$7);
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(rrd);
-    strncat(rrd, summary_dir, (unsigned long int)4096 - return_value_strlen$8);
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(rrd);
+    strncat(rrd, "/", (unsigned long int)4096 - return_value_strlen_7);
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(rrd);
+    strncat(rrd, summary_dir, (unsigned long int)4096 - return_value_strlen_8);
     my_mkdir(rrd);
   }
-  unsigned long int return_value_strlen$9;
-  return_value_strlen$9=strlen(rrd);
-  strncat(rrd, "/", (unsigned long int)4096 - return_value_strlen$9);
-  unsigned long int return_value_strlen$10;
-  return_value_strlen$10=strlen(rrd);
-  strncat(rrd, metric, (unsigned long int)4096 - return_value_strlen$10);
-  unsigned long int return_value_strlen$11;
-  return_value_strlen$11=strlen(rrd);
-  strncat(rrd, ".rrd", (unsigned long int)4096 - return_value_strlen$11);
-  signed int return_value_push_data_to_rrd$12;
-  return_value_push_data_to_rrd$12=push_data_to_rrd(rrd, sum, num, step, process_time, slope);
-  return return_value_push_data_to_rrd$12;
+  unsigned long int return_value_strlen_9;
+  return_value_strlen_9=strlen(rrd);
+  strncat(rrd, "/", (unsigned long int)4096 - return_value_strlen_9);
+  unsigned long int return_value_strlen_10;
+  return_value_strlen_10=strlen(rrd);
+  strncat(rrd, metric, (unsigned long int)4096 - return_value_strlen_10);
+  unsigned long int return_value_strlen_11;
+  return_value_strlen_11=strlen(rrd);
+  strncat(rrd, ".rrd", (unsigned long int)4096 - return_value_strlen_11);
+  signed int return_value_push_data_to_rrd_12;
+  return_value_push_data_to_rrd_12=push_data_to_rrd(rrd, sum, num, step, process_time, slope);
+  return return_value_push_data_to_rrd_12;
 }
 
 // write_into_file
@@ -14898,36 +14898,36 @@ static void write_into_file(struct _IO_FILE *outfile, const char *opt, const cha
 
 // write_root_summary
 // file gmetad.c line 224
-static signed int write_root_summary(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+static signed int write_root_summary(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
-  char *write_root_summary$$1$$name;
+  char *write_root_summary__1__name;
   char *type;
   char sum[256l];
   char num[256l];
-  struct anonymous$9 *metric;
+  struct anonymous_9 *metric;
   signed int rc;
   struct type_tag *tt;
   struct _llist_entry *le;
-  write_root_summary$$1$$name = (char *)key->data;
-  metric = (struct anonymous$9 *)val->data;
+  write_root_summary__1__name = (char *)key->data;
+  metric = (struct anonymous_9 *)val->data;
   type=getfield(metric->strings, metric->type);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(type);
-  tt=in_type_list(type, (unsigned int)return_value_strlen$1);
-  _Bool tmp_if_expr$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(type);
+  tt=in_type_list(type, (unsigned int)return_value_strlen_1);
+  _Bool tmp_if_expr_2;
   if(tt == ((struct type_tag *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)tt->type == STRING ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)tt->type == STRING ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 0;
 
   else
   {
-    signed int return_value_llist_search$3;
-    return_value_llist_search$3=llist_search(&gmetad_config.unsummarized_metrics, (void *)key->data, llist_strncmp, &le);
-    if(return_value_llist_search$3 == 0)
+    signed int return_value_llist_search_3;
+    return_value_llist_search_3=llist_search(&gmetad_config.unsummarized_metrics, (void *)key->data, llist_strncmp, &le);
+    if(return_value_llist_search_3 == 0)
       return 0;
 
     else
@@ -14939,10 +14939,10 @@ static signed int write_root_summary(struct anonymous$7 *key, struct anonymous$7
 
       else
       {
-        debug_msg("Writing Root Summary data for metric %s", write_root_summary$$1$$name);
-        rc=write_data_to_rrd((const char *)(void *)0, (const char *)(void *)0, write_root_summary$$1$$name, sum, num, (unsigned int)15, (unsigned int)0, (enum ganglia_slope)metric->slope);
+        debug_msg("Writing Root Summary data for metric %s", write_root_summary__1__name);
+        rc=write_data_to_rrd((const char *)(void *)0, (const char *)(void *)0, write_root_summary__1__name, sum, num, (unsigned int)15, (unsigned int)0, (enum ganglia_slope)metric->slope);
         if(!(rc == 0))
-          err_msg("Unable to write meta data for metric %s to RRD", write_root_summary$$1$$name);
+          err_msg("Unable to write meta data for metric %s to RRD", write_root_summary__1__name);
 
         return 0;
       }
@@ -14955,72 +14955,72 @@ static signed int write_root_summary(struct anonymous$7 *key, struct anonymous$7
 extern signed int xdr_Ganglia_25metric(struct XDR *xdrs, struct Ganglia_25metric *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_int$1;
-  return_value_xdr_int$1=xdr_int(xdrs, &objp->key);
-  if(return_value_xdr_int$1 == 0)
+  signed int return_value_xdr_int_1;
+  return_value_xdr_int_1=xdr_int(xdrs, &objp->key);
+  if(return_value_xdr_int_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->name, (unsigned int)16);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->name, (unsigned int)16);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_int$3;
-      return_value_xdr_int$3=xdr_int(xdrs, &objp->tmax);
-      if(return_value_xdr_int$3 == 0)
+      signed int return_value_xdr_int_3;
+      return_value_xdr_int_3=xdr_int(xdrs, &objp->tmax);
+      if(return_value_xdr_int_3 == 0)
         return 0;
 
       else
       {
-        signed int return_value_xdr_Ganglia_value_types$4;
-        return_value_xdr_Ganglia_value_types$4=xdr_Ganglia_value_types(xdrs, &objp->type);
-        if(return_value_xdr_Ganglia_value_types$4 == 0)
+        signed int return_value_xdr_Ganglia_value_types_4;
+        return_value_xdr_Ganglia_value_types_4=xdr_Ganglia_value_types(xdrs, &objp->type);
+        if(return_value_xdr_Ganglia_value_types_4 == 0)
           return 0;
 
         else
         {
-          signed int return_value_xdr_string$5;
-          return_value_xdr_string$5=xdr_string(xdrs, &objp->units, (unsigned int)32);
-          if(return_value_xdr_string$5 == 0)
+          signed int return_value_xdr_string_5;
+          return_value_xdr_string_5=xdr_string(xdrs, &objp->units, (unsigned int)32);
+          if(return_value_xdr_string_5 == 0)
             return 0;
 
           else
           {
-            signed int return_value_xdr_string$6;
-            return_value_xdr_string$6=xdr_string(xdrs, &objp->slope, (unsigned int)32);
-            if(return_value_xdr_string$6 == 0)
+            signed int return_value_xdr_string_6;
+            return_value_xdr_string_6=xdr_string(xdrs, &objp->slope, (unsigned int)32);
+            if(return_value_xdr_string_6 == 0)
               return 0;
 
             else
             {
-              signed int return_value_xdr_string$7;
-              return_value_xdr_string$7=xdr_string(xdrs, &objp->fmt, (unsigned int)32);
-              if(return_value_xdr_string$7 == 0)
+              signed int return_value_xdr_string_7;
+              return_value_xdr_string_7=xdr_string(xdrs, &objp->fmt, (unsigned int)32);
+              if(return_value_xdr_string_7 == 0)
                 return 0;
 
               else
               {
-                signed int return_value_xdr_int$8;
-                return_value_xdr_int$8=xdr_int(xdrs, &objp->msg_size);
-                if(return_value_xdr_int$8 == 0)
+                signed int return_value_xdr_int_8;
+                return_value_xdr_int_8=xdr_int(xdrs, &objp->msg_size);
+                if(return_value_xdr_int_8 == 0)
                   return 0;
 
                 else
                 {
-                  signed int return_value_xdr_string$9;
-                  return_value_xdr_string$9=xdr_string(xdrs, &objp->desc, (unsigned int)128);
-                  if(return_value_xdr_string$9 == 0)
+                  signed int return_value_xdr_string_9;
+                  return_value_xdr_string_9=xdr_string(xdrs, &objp->desc, (unsigned int)128);
+                  if(return_value_xdr_string_9 == 0)
                     return 0;
 
                   else
                   {
-                    signed int return_value_xdr_pointer$10;
-                    return_value_xdr_pointer$10=xdr_pointer(xdrs, (char **)&objp->metadata, (unsigned int)sizeof(signed int) /*4ul*/ , (signed int (*)(struct XDR *, void *, ...))xdr_int);
-                    if(return_value_xdr_pointer$10 == 0)
+                    signed int return_value_xdr_pointer_10;
+                    return_value_xdr_pointer_10=xdr_pointer(xdrs, (char **)&objp->metadata, (unsigned int)sizeof(signed int) /*4ul*/ , (signed int (*)(struct XDR *, void *, ...))xdr_int);
+                    if(return_value_xdr_pointer_10 == 0)
                       return 0;
 
                     else
@@ -15041,16 +15041,16 @@ extern signed int xdr_Ganglia_25metric(struct XDR *xdrs, struct Ganglia_25metric
 extern signed int xdr_Ganglia_extra_data(struct XDR *xdrs, struct Ganglia_extra_data *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_string$1;
-  return_value_xdr_string$1=xdr_string(xdrs, &objp->name, (unsigned int)~0);
-  if(return_value_xdr_string$1 == 0)
+  signed int return_value_xdr_string_1;
+  return_value_xdr_string_1=xdr_string(xdrs, &objp->name, (unsigned int)~0);
+  if(return_value_xdr_string_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->data, (unsigned int)~0);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->data, (unsigned int)~0);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
     else
@@ -15063,23 +15063,23 @@ extern signed int xdr_Ganglia_extra_data(struct XDR *xdrs, struct Ganglia_extra_
 extern signed int xdr_Ganglia_gmetric_double(struct XDR *xdrs, struct Ganglia_gmetric_double *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_metric_id$1;
-  return_value_xdr_Ganglia_metric_id$1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
-  if(return_value_xdr_Ganglia_metric_id$1 == 0)
+  signed int return_value_xdr_Ganglia_metric_id_1;
+  return_value_xdr_Ganglia_metric_id_1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
+  if(return_value_xdr_Ganglia_metric_id_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_double$3;
-      return_value_xdr_double$3=xdr_double(xdrs, &objp->d);
-      if(return_value_xdr_double$3 == 0)
+      signed int return_value_xdr_double_3;
+      return_value_xdr_double_3=xdr_double(xdrs, &objp->d);
+      if(return_value_xdr_double_3 == 0)
         return 0;
 
       else
@@ -15093,23 +15093,23 @@ extern signed int xdr_Ganglia_gmetric_double(struct XDR *xdrs, struct Ganglia_gm
 extern signed int xdr_Ganglia_gmetric_float(struct XDR *xdrs, struct Ganglia_gmetric_float *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_metric_id$1;
-  return_value_xdr_Ganglia_metric_id$1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
-  if(return_value_xdr_Ganglia_metric_id$1 == 0)
+  signed int return_value_xdr_Ganglia_metric_id_1;
+  return_value_xdr_Ganglia_metric_id_1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
+  if(return_value_xdr_Ganglia_metric_id_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_float$3;
-      return_value_xdr_float$3=xdr_float(xdrs, &objp->f);
-      if(return_value_xdr_float$3 == 0)
+      signed int return_value_xdr_float_3;
+      return_value_xdr_float_3=xdr_float(xdrs, &objp->f);
+      if(return_value_xdr_float_3 == 0)
         return 0;
 
       else
@@ -15123,23 +15123,23 @@ extern signed int xdr_Ganglia_gmetric_float(struct XDR *xdrs, struct Ganglia_gme
 extern signed int xdr_Ganglia_gmetric_int(struct XDR *xdrs, struct Ganglia_gmetric_int *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_metric_id$1;
-  return_value_xdr_Ganglia_metric_id$1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
-  if(return_value_xdr_Ganglia_metric_id$1 == 0)
+  signed int return_value_xdr_Ganglia_metric_id_1;
+  return_value_xdr_Ganglia_metric_id_1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
+  if(return_value_xdr_Ganglia_metric_id_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_int$3;
-      return_value_xdr_int$3=xdr_int(xdrs, &objp->si);
-      if(return_value_xdr_int$3 == 0)
+      signed int return_value_xdr_int_3;
+      return_value_xdr_int_3=xdr_int(xdrs, &objp->si);
+      if(return_value_xdr_int_3 == 0)
         return 0;
 
       else
@@ -15153,23 +15153,23 @@ extern signed int xdr_Ganglia_gmetric_int(struct XDR *xdrs, struct Ganglia_gmetr
 extern signed int xdr_Ganglia_gmetric_short(struct XDR *xdrs, struct Ganglia_gmetric_short *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_metric_id$1;
-  return_value_xdr_Ganglia_metric_id$1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
-  if(return_value_xdr_Ganglia_metric_id$1 == 0)
+  signed int return_value_xdr_Ganglia_metric_id_1;
+  return_value_xdr_Ganglia_metric_id_1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
+  if(return_value_xdr_Ganglia_metric_id_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_short$3;
-      return_value_xdr_short$3=xdr_short(xdrs, &objp->ss);
-      if(return_value_xdr_short$3 == 0)
+      signed int return_value_xdr_short_3;
+      return_value_xdr_short_3=xdr_short(xdrs, &objp->ss);
+      if(return_value_xdr_short_3 == 0)
         return 0;
 
       else
@@ -15183,23 +15183,23 @@ extern signed int xdr_Ganglia_gmetric_short(struct XDR *xdrs, struct Ganglia_gme
 extern signed int xdr_Ganglia_gmetric_string(struct XDR *xdrs, struct Ganglia_gmetric_string *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_metric_id$1;
-  return_value_xdr_Ganglia_metric_id$1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
-  if(return_value_xdr_Ganglia_metric_id$1 == 0)
+  signed int return_value_xdr_Ganglia_metric_id_1;
+  return_value_xdr_Ganglia_metric_id_1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
+  if(return_value_xdr_Ganglia_metric_id_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_string$3;
-      return_value_xdr_string$3=xdr_string(xdrs, &objp->str, (unsigned int)~0);
-      if(return_value_xdr_string$3 == 0)
+      signed int return_value_xdr_string_3;
+      return_value_xdr_string_3=xdr_string(xdrs, &objp->str, (unsigned int)~0);
+      if(return_value_xdr_string_3 == 0)
         return 0;
 
       else
@@ -15213,23 +15213,23 @@ extern signed int xdr_Ganglia_gmetric_string(struct XDR *xdrs, struct Ganglia_gm
 extern signed int xdr_Ganglia_gmetric_uint(struct XDR *xdrs, struct Ganglia_gmetric_uint *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_metric_id$1;
-  return_value_xdr_Ganglia_metric_id$1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
-  if(return_value_xdr_Ganglia_metric_id$1 == 0)
+  signed int return_value_xdr_Ganglia_metric_id_1;
+  return_value_xdr_Ganglia_metric_id_1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
+  if(return_value_xdr_Ganglia_metric_id_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_u_int$3;
-      return_value_xdr_u_int$3=xdr_u_int(xdrs, &objp->ui);
-      if(return_value_xdr_u_int$3 == 0)
+      signed int return_value_xdr_u_int_3;
+      return_value_xdr_u_int_3=xdr_u_int(xdrs, &objp->ui);
+      if(return_value_xdr_u_int_3 == 0)
         return 0;
 
       else
@@ -15243,23 +15243,23 @@ extern signed int xdr_Ganglia_gmetric_uint(struct XDR *xdrs, struct Ganglia_gmet
 extern signed int xdr_Ganglia_gmetric_ushort(struct XDR *xdrs, struct Ganglia_gmetric_ushort *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_metric_id$1;
-  return_value_xdr_Ganglia_metric_id$1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
-  if(return_value_xdr_Ganglia_metric_id$1 == 0)
+  signed int return_value_xdr_Ganglia_metric_id_1;
+  return_value_xdr_Ganglia_metric_id_1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
+  if(return_value_xdr_Ganglia_metric_id_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->fmt, (unsigned int)~0);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_u_short$3;
-      return_value_xdr_u_short$3=xdr_u_short(xdrs, &objp->us);
-      if(return_value_xdr_u_short$3 == 0)
+      signed int return_value_xdr_u_short_3;
+      return_value_xdr_u_short_3=xdr_u_short(xdrs, &objp->us);
+      if(return_value_xdr_u_short_3 == 0)
         return 0;
 
       else
@@ -15273,70 +15273,70 @@ extern signed int xdr_Ganglia_gmetric_ushort(struct XDR *xdrs, struct Ganglia_gm
 extern signed int xdr_Ganglia_metadata_message(struct XDR *xdrs, struct Ganglia_metadata_message *objp)
 {
   signed int *buf;
-  signed int *tmp_post$7;
-  signed int *tmp_post$9;
-  signed int *tmp_post$11;
-  signed int *tmp_post$20;
-  signed int *tmp_post$22;
-  signed int *tmp_post$24;
+  signed int *tmp_post_7;
+  signed int *tmp_post_9;
+  signed int *tmp_post_11;
+  signed int *tmp_post_20;
+  signed int *tmp_post_22;
+  signed int *tmp_post_24;
   if((signed int)xdrs->x_op == XDR_ENCODE)
   {
-    signed int return_value_xdr_string$1;
-    return_value_xdr_string$1=xdr_string(xdrs, &objp->type, (unsigned int)~0);
-    if(return_value_xdr_string$1 == 0)
+    signed int return_value_xdr_string_1;
+    return_value_xdr_string_1=xdr_string(xdrs, &objp->type, (unsigned int)~0);
+    if(return_value_xdr_string_1 == 0)
       return 0;
 
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->name, (unsigned int)~0);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->name, (unsigned int)~0);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
-    signed int return_value_xdr_string$3;
-    return_value_xdr_string$3=xdr_string(xdrs, &objp->units, (unsigned int)~0);
-    if(return_value_xdr_string$3 == 0)
+    signed int return_value_xdr_string_3;
+    return_value_xdr_string_3=xdr_string(xdrs, &objp->units, (unsigned int)~0);
+    if(return_value_xdr_string_3 == 0)
       return 0;
 
     buf=xdrs->x_ops->x_inline(xdrs, (unsigned int)(3 * 4));
     if(buf == ((signed int *)NULL))
     {
-      signed int return_value_xdr_u_int$4;
-      return_value_xdr_u_int$4=xdr_u_int(xdrs, &objp->slope);
-      if(return_value_xdr_u_int$4 == 0)
+      signed int return_value_xdr_u_int_4;
+      return_value_xdr_u_int_4=xdr_u_int(xdrs, &objp->slope);
+      if(return_value_xdr_u_int_4 == 0)
         return 0;
 
-      signed int return_value_xdr_u_int$5;
-      return_value_xdr_u_int$5=xdr_u_int(xdrs, &objp->tmax);
-      if(return_value_xdr_u_int$5 == 0)
+      signed int return_value_xdr_u_int_5;
+      return_value_xdr_u_int_5=xdr_u_int(xdrs, &objp->tmax);
+      if(return_value_xdr_u_int_5 == 0)
         return 0;
 
-      signed int return_value_xdr_u_int$6;
-      return_value_xdr_u_int$6=xdr_u_int(xdrs, &objp->dmax);
-      if(return_value_xdr_u_int$6 == 0)
+      signed int return_value_xdr_u_int_6;
+      return_value_xdr_u_int_6=xdr_u_int(xdrs, &objp->dmax);
+      if(return_value_xdr_u_int_6 == 0)
         return 0;
 
     }
 
     else
     {
-      tmp_post$7 = buf;
+      tmp_post_7 = buf;
       buf = buf + 1l;
-      unsigned int return_value_htonl$8;
-      return_value_htonl$8=htonl((unsigned int)(signed long int)objp->slope);
-      *tmp_post$7 = (signed int)return_value_htonl$8;
-      tmp_post$9 = buf;
+      unsigned int return_value_htonl_8;
+      return_value_htonl_8=htonl((unsigned int)(signed long int)objp->slope);
+      *tmp_post_7 = (signed int)return_value_htonl_8;
+      tmp_post_9 = buf;
       buf = buf + 1l;
-      unsigned int return_value_htonl$10;
-      return_value_htonl$10=htonl((unsigned int)(signed long int)objp->tmax);
-      *tmp_post$9 = (signed int)return_value_htonl$10;
-      tmp_post$11 = buf;
+      unsigned int return_value_htonl_10;
+      return_value_htonl_10=htonl((unsigned int)(signed long int)objp->tmax);
+      *tmp_post_9 = (signed int)return_value_htonl_10;
+      tmp_post_11 = buf;
       buf = buf + 1l;
-      unsigned int return_value_htonl$12;
-      return_value_htonl$12=htonl((unsigned int)(signed long int)objp->dmax);
-      *tmp_post$11 = (signed int)return_value_htonl$12;
+      unsigned int return_value_htonl_12;
+      return_value_htonl_12=htonl((unsigned int)(signed long int)objp->dmax);
+      *tmp_post_11 = (signed int)return_value_htonl_12;
     }
-    signed int return_value_xdr_array$13;
-    return_value_xdr_array$13=xdr_array(xdrs, (char **)&objp->metadata.metadata_val, (unsigned int *)&objp->metadata.metadata_len, (unsigned int)~0, (unsigned int)sizeof(struct Ganglia_extra_data) /*16ul*/ , (signed int (*)(struct XDR *, void *, ...))xdr_Ganglia_extra_data);
-    if(return_value_xdr_array$13 == 0)
+    signed int return_value_xdr_array_13;
+    return_value_xdr_array_13=xdr_array(xdrs, (char **)&objp->metadata.metadata_val, (unsigned int *)&objp->metadata.metadata_len, (unsigned int)~0, (unsigned int)sizeof(struct Ganglia_extra_data) /*16ul*/ , (signed int (*)(struct XDR *, void *, ...))xdr_Ganglia_extra_data);
+    if(return_value_xdr_array_13 == 0)
       return 0;
 
     return 1;
@@ -15345,112 +15345,112 @@ extern signed int xdr_Ganglia_metadata_message(struct XDR *xdrs, struct Ganglia_
   else
     if((signed int)xdrs->x_op == XDR_DECODE)
     {
-      signed int return_value_xdr_string$14;
-      return_value_xdr_string$14=xdr_string(xdrs, &objp->type, (unsigned int)~0);
-      if(return_value_xdr_string$14 == 0)
+      signed int return_value_xdr_string_14;
+      return_value_xdr_string_14=xdr_string(xdrs, &objp->type, (unsigned int)~0);
+      if(return_value_xdr_string_14 == 0)
         return 0;
 
-      signed int return_value_xdr_string$15;
-      return_value_xdr_string$15=xdr_string(xdrs, &objp->name, (unsigned int)~0);
-      if(return_value_xdr_string$15 == 0)
+      signed int return_value_xdr_string_15;
+      return_value_xdr_string_15=xdr_string(xdrs, &objp->name, (unsigned int)~0);
+      if(return_value_xdr_string_15 == 0)
         return 0;
 
-      signed int return_value_xdr_string$16;
-      return_value_xdr_string$16=xdr_string(xdrs, &objp->units, (unsigned int)~0);
-      if(return_value_xdr_string$16 == 0)
+      signed int return_value_xdr_string_16;
+      return_value_xdr_string_16=xdr_string(xdrs, &objp->units, (unsigned int)~0);
+      if(return_value_xdr_string_16 == 0)
         return 0;
 
       buf=xdrs->x_ops->x_inline(xdrs, (unsigned int)(3 * 4));
       if(buf == ((signed int *)NULL))
       {
-        signed int return_value_xdr_u_int$17;
-        return_value_xdr_u_int$17=xdr_u_int(xdrs, &objp->slope);
-        if(return_value_xdr_u_int$17 == 0)
+        signed int return_value_xdr_u_int_17;
+        return_value_xdr_u_int_17=xdr_u_int(xdrs, &objp->slope);
+        if(return_value_xdr_u_int_17 == 0)
           return 0;
 
-        signed int return_value_xdr_u_int$18;
-        return_value_xdr_u_int$18=xdr_u_int(xdrs, &objp->tmax);
-        if(return_value_xdr_u_int$18 == 0)
+        signed int return_value_xdr_u_int_18;
+        return_value_xdr_u_int_18=xdr_u_int(xdrs, &objp->tmax);
+        if(return_value_xdr_u_int_18 == 0)
           return 0;
 
-        signed int return_value_xdr_u_int$19;
-        return_value_xdr_u_int$19=xdr_u_int(xdrs, &objp->dmax);
-        if(return_value_xdr_u_int$19 == 0)
+        signed int return_value_xdr_u_int_19;
+        return_value_xdr_u_int_19=xdr_u_int(xdrs, &objp->dmax);
+        if(return_value_xdr_u_int_19 == 0)
           return 0;
 
       }
 
       else
       {
-        tmp_post$20 = buf;
+        tmp_post_20 = buf;
         buf = buf + 1l;
-        unsigned int return_value_ntohl$21;
-        return_value_ntohl$21=ntohl((unsigned int)*tmp_post$20);
-        objp->slope = (unsigned int)(unsigned long int)(signed long int)(unsigned int)(signed int)return_value_ntohl$21;
-        tmp_post$22 = buf;
+        unsigned int return_value_ntohl_21;
+        return_value_ntohl_21=ntohl((unsigned int)*tmp_post_20);
+        objp->slope = (unsigned int)(unsigned long int)(signed long int)(unsigned int)(signed int)return_value_ntohl_21;
+        tmp_post_22 = buf;
         buf = buf + 1l;
-        unsigned int return_value_ntohl$23;
-        return_value_ntohl$23=ntohl((unsigned int)*tmp_post$22);
-        objp->tmax = (unsigned int)(unsigned long int)(signed long int)(unsigned int)(signed int)return_value_ntohl$23;
-        tmp_post$24 = buf;
+        unsigned int return_value_ntohl_23;
+        return_value_ntohl_23=ntohl((unsigned int)*tmp_post_22);
+        objp->tmax = (unsigned int)(unsigned long int)(signed long int)(unsigned int)(signed int)return_value_ntohl_23;
+        tmp_post_24 = buf;
         buf = buf + 1l;
-        unsigned int return_value_ntohl$25;
-        return_value_ntohl$25=ntohl((unsigned int)*tmp_post$24);
-        objp->dmax = (unsigned int)(unsigned long int)(signed long int)(unsigned int)(signed int)return_value_ntohl$25;
+        unsigned int return_value_ntohl_25;
+        return_value_ntohl_25=ntohl((unsigned int)*tmp_post_24);
+        objp->dmax = (unsigned int)(unsigned long int)(signed long int)(unsigned int)(signed int)return_value_ntohl_25;
       }
-      signed int return_value_xdr_array$26;
-      return_value_xdr_array$26=xdr_array(xdrs, (char **)&objp->metadata.metadata_val, (unsigned int *)&objp->metadata.metadata_len, (unsigned int)~0, (unsigned int)sizeof(struct Ganglia_extra_data) /*16ul*/ , (signed int (*)(struct XDR *, void *, ...))xdr_Ganglia_extra_data);
-      if(return_value_xdr_array$26 == 0)
+      signed int return_value_xdr_array_26;
+      return_value_xdr_array_26=xdr_array(xdrs, (char **)&objp->metadata.metadata_val, (unsigned int *)&objp->metadata.metadata_len, (unsigned int)~0, (unsigned int)sizeof(struct Ganglia_extra_data) /*16ul*/ , (signed int (*)(struct XDR *, void *, ...))xdr_Ganglia_extra_data);
+      if(return_value_xdr_array_26 == 0)
         return 0;
 
       return 1;
     }
 
-  signed int return_value_xdr_string$27;
-  return_value_xdr_string$27=xdr_string(xdrs, &objp->type, (unsigned int)~0);
-  if(return_value_xdr_string$27 == 0)
+  signed int return_value_xdr_string_27;
+  return_value_xdr_string_27=xdr_string(xdrs, &objp->type, (unsigned int)~0);
+  if(return_value_xdr_string_27 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$28;
-    return_value_xdr_string$28=xdr_string(xdrs, &objp->name, (unsigned int)~0);
-    if(return_value_xdr_string$28 == 0)
+    signed int return_value_xdr_string_28;
+    return_value_xdr_string_28=xdr_string(xdrs, &objp->name, (unsigned int)~0);
+    if(return_value_xdr_string_28 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_string$29;
-      return_value_xdr_string$29=xdr_string(xdrs, &objp->units, (unsigned int)~0);
-      if(return_value_xdr_string$29 == 0)
+      signed int return_value_xdr_string_29;
+      return_value_xdr_string_29=xdr_string(xdrs, &objp->units, (unsigned int)~0);
+      if(return_value_xdr_string_29 == 0)
         return 0;
 
       else
       {
-        signed int return_value_xdr_u_int$30;
-        return_value_xdr_u_int$30=xdr_u_int(xdrs, &objp->slope);
-        if(return_value_xdr_u_int$30 == 0)
+        signed int return_value_xdr_u_int_30;
+        return_value_xdr_u_int_30=xdr_u_int(xdrs, &objp->slope);
+        if(return_value_xdr_u_int_30 == 0)
           return 0;
 
         else
         {
-          signed int return_value_xdr_u_int$31;
-          return_value_xdr_u_int$31=xdr_u_int(xdrs, &objp->tmax);
-          if(return_value_xdr_u_int$31 == 0)
+          signed int return_value_xdr_u_int_31;
+          return_value_xdr_u_int_31=xdr_u_int(xdrs, &objp->tmax);
+          if(return_value_xdr_u_int_31 == 0)
             return 0;
 
           else
           {
-            signed int return_value_xdr_u_int$32;
-            return_value_xdr_u_int$32=xdr_u_int(xdrs, &objp->dmax);
-            if(return_value_xdr_u_int$32 == 0)
+            signed int return_value_xdr_u_int_32;
+            return_value_xdr_u_int_32=xdr_u_int(xdrs, &objp->dmax);
+            if(return_value_xdr_u_int_32 == 0)
               return 0;
 
             else
             {
-              signed int return_value_xdr_array$33;
-              return_value_xdr_array$33=xdr_array(xdrs, (char **)&objp->metadata.metadata_val, (unsigned int *)&objp->metadata.metadata_len, (unsigned int)~0, (unsigned int)sizeof(struct Ganglia_extra_data) /*16ul*/ , (signed int (*)(struct XDR *, void *, ...))xdr_Ganglia_extra_data);
-              if(return_value_xdr_array$33 == 0)
+              signed int return_value_xdr_array_33;
+              return_value_xdr_array_33=xdr_array(xdrs, (char **)&objp->metadata.metadata_val, (unsigned int *)&objp->metadata.metadata_len, (unsigned int)~0, (unsigned int)sizeof(struct Ganglia_extra_data) /*16ul*/ , (signed int (*)(struct XDR *, void *, ...))xdr_Ganglia_extra_data);
+              if(return_value_xdr_array_33 == 0)
                 return 0;
 
               else
@@ -15468,11 +15468,11 @@ extern signed int xdr_Ganglia_metadata_message(struct XDR *xdrs, struct Ganglia_
 extern signed int xdr_Ganglia_metadata_msg(struct XDR *xdrs, struct Ganglia_metadata_msg *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_msg_formats$1;
-  return_value_xdr_Ganglia_msg_formats$1=xdr_Ganglia_msg_formats(xdrs, &objp->id);
-  signed int return_value_xdr_Ganglia_metadatadef$2;
-  signed int return_value_xdr_Ganglia_metadatareq$3;
-  if(return_value_xdr_Ganglia_msg_formats$1 == 0)
+  signed int return_value_xdr_Ganglia_msg_formats_1;
+  return_value_xdr_Ganglia_msg_formats_1=xdr_Ganglia_msg_formats(xdrs, &objp->id);
+  signed int return_value_xdr_Ganglia_metadatadef_2;
+  signed int return_value_xdr_Ganglia_metadatareq_3;
+  if(return_value_xdr_Ganglia_msg_formats_1 == 0)
     return 0;
 
   else
@@ -15481,16 +15481,16 @@ extern signed int xdr_Ganglia_metadata_msg(struct XDR *xdrs, struct Ganglia_meta
     {
       case gmetadata_full:
       {
-        return_value_xdr_Ganglia_metadatadef$2=xdr_Ganglia_metadatadef(xdrs, &objp->Ganglia_metadata_msg_u.gfull);
-        if(return_value_xdr_Ganglia_metadatadef$2 == 0)
+        return_value_xdr_Ganglia_metadatadef_2=xdr_Ganglia_metadatadef(xdrs, &objp->Ganglia_metadata_msg_u.gfull);
+        if(return_value_xdr_Ganglia_metadatadef_2 == 0)
           return 0;
 
         break;
       }
       case gmetadata_request:
       {
-        return_value_xdr_Ganglia_metadatareq$3=xdr_Ganglia_metadatareq(xdrs, &objp->Ganglia_metadata_msg_u.grequest);
-        if(return_value_xdr_Ganglia_metadatareq$3 == 0)
+        return_value_xdr_Ganglia_metadatareq_3=xdr_Ganglia_metadatareq(xdrs, &objp->Ganglia_metadata_msg_u.grequest);
+        if(return_value_xdr_Ganglia_metadatareq_3 == 0)
           return 0;
 
         break;
@@ -15507,16 +15507,16 @@ extern signed int xdr_Ganglia_metadata_msg(struct XDR *xdrs, struct Ganglia_meta
 extern signed int xdr_Ganglia_metadatadef(struct XDR *xdrs, struct Ganglia_metadatadef *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_metric_id$1;
-  return_value_xdr_Ganglia_metric_id$1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
-  if(return_value_xdr_Ganglia_metric_id$1 == 0)
+  signed int return_value_xdr_Ganglia_metric_id_1;
+  return_value_xdr_Ganglia_metric_id_1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
+  if(return_value_xdr_Ganglia_metric_id_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_Ganglia_metadata_message$2;
-    return_value_xdr_Ganglia_metadata_message$2=xdr_Ganglia_metadata_message(xdrs, &objp->metric);
-    if(return_value_xdr_Ganglia_metadata_message$2 == 0)
+    signed int return_value_xdr_Ganglia_metadata_message_2;
+    return_value_xdr_Ganglia_metadata_message_2=xdr_Ganglia_metadata_message(xdrs, &objp->metric);
+    if(return_value_xdr_Ganglia_metadata_message_2 == 0)
       return 0;
 
     else
@@ -15529,9 +15529,9 @@ extern signed int xdr_Ganglia_metadatadef(struct XDR *xdrs, struct Ganglia_metad
 extern signed int xdr_Ganglia_metadatareq(struct XDR *xdrs, struct Ganglia_metadatareq *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_metric_id$1;
-  return_value_xdr_Ganglia_metric_id$1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
-  if(return_value_xdr_Ganglia_metric_id$1 == 0)
+  signed int return_value_xdr_Ganglia_metric_id_1;
+  return_value_xdr_Ganglia_metric_id_1=xdr_Ganglia_metric_id(xdrs, &objp->metric_id);
+  if(return_value_xdr_Ganglia_metric_id_1 == 0)
     return 0;
 
   else
@@ -15543,23 +15543,23 @@ extern signed int xdr_Ganglia_metadatareq(struct XDR *xdrs, struct Ganglia_metad
 extern signed int xdr_Ganglia_metric_id(struct XDR *xdrs, struct Ganglia_metric_id *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_string$1;
-  return_value_xdr_string$1=xdr_string(xdrs, &objp->host, (unsigned int)~0);
-  if(return_value_xdr_string$1 == 0)
+  signed int return_value_xdr_string_1;
+  return_value_xdr_string_1=xdr_string(xdrs, &objp->host, (unsigned int)~0);
+  if(return_value_xdr_string_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_string$2;
-    return_value_xdr_string$2=xdr_string(xdrs, &objp->name, (unsigned int)~0);
-    if(return_value_xdr_string$2 == 0)
+    signed int return_value_xdr_string_2;
+    return_value_xdr_string_2=xdr_string(xdrs, &objp->name, (unsigned int)~0);
+    if(return_value_xdr_string_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_bool$3;
-      return_value_xdr_bool$3=xdr_bool(xdrs, &objp->spoof);
-      if(return_value_xdr_bool$3 == 0)
+      signed int return_value_xdr_bool_3;
+      return_value_xdr_bool_3=xdr_bool(xdrs, &objp->spoof);
+      if(return_value_xdr_bool_3 == 0)
         return 0;
 
       else
@@ -15573,9 +15573,9 @@ extern signed int xdr_Ganglia_metric_id(struct XDR *xdrs, struct Ganglia_metric_
 extern signed int xdr_Ganglia_msg_formats(struct XDR *xdrs, enum Ganglia_msg_formats *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_enum$1;
-  return_value_xdr_enum$1=xdr_enum(xdrs, (signed int *)objp);
-  if(return_value_xdr_enum$1 == 0)
+  signed int return_value_xdr_enum_1;
+  return_value_xdr_enum_1=xdr_enum(xdrs, (signed int *)objp);
+  if(return_value_xdr_enum_1 == 0)
     return 0;
 
   else
@@ -15587,16 +15587,16 @@ extern signed int xdr_Ganglia_msg_formats(struct XDR *xdrs, enum Ganglia_msg_for
 extern signed int xdr_Ganglia_value_msg(struct XDR *xdrs, struct Ganglia_value_msg *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_Ganglia_msg_formats$1;
-  return_value_xdr_Ganglia_msg_formats$1=xdr_Ganglia_msg_formats(xdrs, &objp->id);
-  signed int return_value_xdr_Ganglia_gmetric_ushort$2;
-  signed int return_value_xdr_Ganglia_gmetric_short$3;
-  signed int return_value_xdr_Ganglia_gmetric_int$4;
-  signed int return_value_xdr_Ganglia_gmetric_uint$5;
-  signed int return_value_xdr_Ganglia_gmetric_string$6;
-  signed int return_value_xdr_Ganglia_gmetric_float$7;
-  signed int return_value_xdr_Ganglia_gmetric_double$8;
-  if(return_value_xdr_Ganglia_msg_formats$1 == 0)
+  signed int return_value_xdr_Ganglia_msg_formats_1;
+  return_value_xdr_Ganglia_msg_formats_1=xdr_Ganglia_msg_formats(xdrs, &objp->id);
+  signed int return_value_xdr_Ganglia_gmetric_ushort_2;
+  signed int return_value_xdr_Ganglia_gmetric_short_3;
+  signed int return_value_xdr_Ganglia_gmetric_int_4;
+  signed int return_value_xdr_Ganglia_gmetric_uint_5;
+  signed int return_value_xdr_Ganglia_gmetric_string_6;
+  signed int return_value_xdr_Ganglia_gmetric_float_7;
+  signed int return_value_xdr_Ganglia_gmetric_double_8;
+  if(return_value_xdr_Ganglia_msg_formats_1 == 0)
     return 0;
 
   else
@@ -15605,56 +15605,56 @@ extern signed int xdr_Ganglia_value_msg(struct XDR *xdrs, struct Ganglia_value_m
     {
       case gmetric_ushort:
       {
-        return_value_xdr_Ganglia_gmetric_ushort$2=xdr_Ganglia_gmetric_ushort(xdrs, &objp->Ganglia_value_msg_u.gu_short);
-        if(return_value_xdr_Ganglia_gmetric_ushort$2 == 0)
+        return_value_xdr_Ganglia_gmetric_ushort_2=xdr_Ganglia_gmetric_ushort(xdrs, &objp->Ganglia_value_msg_u.gu_short);
+        if(return_value_xdr_Ganglia_gmetric_ushort_2 == 0)
           return 0;
 
         break;
       }
       case gmetric_short:
       {
-        return_value_xdr_Ganglia_gmetric_short$3=xdr_Ganglia_gmetric_short(xdrs, &objp->Ganglia_value_msg_u.gs_short);
-        if(return_value_xdr_Ganglia_gmetric_short$3 == 0)
+        return_value_xdr_Ganglia_gmetric_short_3=xdr_Ganglia_gmetric_short(xdrs, &objp->Ganglia_value_msg_u.gs_short);
+        if(return_value_xdr_Ganglia_gmetric_short_3 == 0)
           return 0;
 
         break;
       }
       case gmetric_int:
       {
-        return_value_xdr_Ganglia_gmetric_int$4=xdr_Ganglia_gmetric_int(xdrs, &objp->Ganglia_value_msg_u.gs_int);
-        if(return_value_xdr_Ganglia_gmetric_int$4 == 0)
+        return_value_xdr_Ganglia_gmetric_int_4=xdr_Ganglia_gmetric_int(xdrs, &objp->Ganglia_value_msg_u.gs_int);
+        if(return_value_xdr_Ganglia_gmetric_int_4 == 0)
           return 0;
 
         break;
       }
       case gmetric_uint:
       {
-        return_value_xdr_Ganglia_gmetric_uint$5=xdr_Ganglia_gmetric_uint(xdrs, &objp->Ganglia_value_msg_u.gu_int);
-        if(return_value_xdr_Ganglia_gmetric_uint$5 == 0)
+        return_value_xdr_Ganglia_gmetric_uint_5=xdr_Ganglia_gmetric_uint(xdrs, &objp->Ganglia_value_msg_u.gu_int);
+        if(return_value_xdr_Ganglia_gmetric_uint_5 == 0)
           return 0;
 
         break;
       }
       case gmetric_string:
       {
-        return_value_xdr_Ganglia_gmetric_string$6=xdr_Ganglia_gmetric_string(xdrs, &objp->Ganglia_value_msg_u.gstr);
-        if(return_value_xdr_Ganglia_gmetric_string$6 == 0)
+        return_value_xdr_Ganglia_gmetric_string_6=xdr_Ganglia_gmetric_string(xdrs, &objp->Ganglia_value_msg_u.gstr);
+        if(return_value_xdr_Ganglia_gmetric_string_6 == 0)
           return 0;
 
         break;
       }
       case gmetric_float:
       {
-        return_value_xdr_Ganglia_gmetric_float$7=xdr_Ganglia_gmetric_float(xdrs, &objp->Ganglia_value_msg_u.gf);
-        if(return_value_xdr_Ganglia_gmetric_float$7 == 0)
+        return_value_xdr_Ganglia_gmetric_float_7=xdr_Ganglia_gmetric_float(xdrs, &objp->Ganglia_value_msg_u.gf);
+        if(return_value_xdr_Ganglia_gmetric_float_7 == 0)
           return 0;
 
         break;
       }
       case gmetric_double:
       {
-        return_value_xdr_Ganglia_gmetric_double$8=xdr_Ganglia_gmetric_double(xdrs, &objp->Ganglia_value_msg_u.gd);
-        if(return_value_xdr_Ganglia_gmetric_double$8 == 0)
+        return_value_xdr_Ganglia_gmetric_double_8=xdr_Ganglia_gmetric_double(xdrs, &objp->Ganglia_value_msg_u.gd);
+        if(return_value_xdr_Ganglia_gmetric_double_8 == 0)
           return 0;
 
         break;
@@ -15671,9 +15671,9 @@ extern signed int xdr_Ganglia_value_msg(struct XDR *xdrs, struct Ganglia_value_m
 extern signed int xdr_Ganglia_value_types(struct XDR *xdrs, enum Ganglia_value_types *objp)
 {
   signed int *buf;
-  signed int return_value_xdr_enum$1;
-  return_value_xdr_enum$1=xdr_enum(xdrs, (signed int *)objp);
-  if(return_value_xdr_enum$1 == 0)
+  signed int return_value_xdr_enum_1;
+  return_value_xdr_enum_1=xdr_enum(xdrs, (signed int *)objp);
+  if(return_value_xdr_enum_1 == 0)
     return 0;
 
   else
@@ -15682,15 +15682,15 @@ extern signed int xdr_Ganglia_value_types(struct XDR *xdrs, enum Ganglia_value_t
 
 // xml_print
 // file server.c line 32
-static inline signed int xml_print(struct anonymous$16 *client, const char *fmt, ...)
+static inline signed int xml_print(struct anonymous_16 *client, const char *fmt, ...)
 {
   signed int rval;
   signed int len;
   void **ap;
   char buf[4096l];
   ap = (void **)&fmt;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   if(client->valid == 0u)
   {
     ap = ((void **)NULL);
@@ -15700,24 +15700,24 @@ static inline signed int xml_print(struct anonymous$16 *client, const char *fmt,
   else
   {
     vsnprintf(buf, sizeof(char [4096l]) /*4096ul*/ , fmt, ap);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(buf);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(buf);
+    len = (signed int)return_value_strlen_1;
     do
     {
-      signed long int return_value_write$4;
-      return_value_write$4=write(client->fd, (const void *)buf, (unsigned long int)len);
-      rval = (signed int)return_value_write$4;
+      signed long int return_value_write_4;
+      return_value_write_4=write(client->fd, (const void *)buf, (unsigned long int)len);
+      rval = (signed int)return_value_write_4;
       if(!(rval >= 0))
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
     }
-    while(tmp_if_expr$3);
+    while(tmp_if_expr_3);
     if(!(rval == len) && !(rval >= 0))
     {
       ap = ((void **)NULL);
@@ -15735,10 +15735,10 @@ static inline signed int xml_print(struct anonymous$16 *client, const char *fmt,
 
 // zero_out_summary
 // file gmetad.c line 121
-signed int zero_out_summary(struct anonymous$7 *key, struct anonymous$7 *val, void *arg)
+signed int zero_out_summary(struct anonymous_7 *key, struct anonymous_7 *val, void *arg)
 {
-  struct anonymous$9 *metric = (struct anonymous$9 *)val->data;
-  memset((void *)&metric->val, 0, sizeof(union anonymous$17) /*8ul*/ );
+  struct anonymous_9 *metric = (struct anonymous_9 *)val->data;
+  memset((void *)&metric->val, 0, sizeof(union anonymous_17) /*8ul*/ );
   metric->num = (unsigned int)0;
   return 0;
 }

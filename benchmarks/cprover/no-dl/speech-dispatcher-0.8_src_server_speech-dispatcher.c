@@ -1,126 +1,126 @@
-// #anon_enum$G_FILE_TEST_IS_REGULAR=1$G_FILE_TEST_IS_SYMLINK=2$G_FILE_TEST_IS_DIR=4$G_FILE_TEST_IS_EXECUTABLE=8$G_FILE_TEST_EXISTS=16
+// #anon_enum_G_FILE_TEST_IS_REGULAR=1_G_FILE_TEST_IS_SYMLINK=2_G_FILE_TEST_IS_DIR=4_G_FILE_TEST_IS_EXECUTABLE=8_G_FILE_TEST_EXISTS=16
 // file /usr/include/glib-2.0/glib/gfileutils.h line 66
-enum anonymous$15 { G_FILE_TEST_IS_REGULAR=1, G_FILE_TEST_IS_SYMLINK=2, G_FILE_TEST_IS_DIR=4, G_FILE_TEST_IS_EXECUTABLE=8, G_FILE_TEST_EXISTS=16 };
+enum anonymous_15 { G_FILE_TEST_IS_REGULAR=1, G_FILE_TEST_IS_SYMLINK=2, G_FILE_TEST_IS_DIR=4, G_FILE_TEST_IS_EXECUTABLE=8, G_FILE_TEST_EXISTS=16 };
 
-// #anon_enum$G_REGEX_CASELESS=1$G_REGEX_MULTILINE=2$G_REGEX_DOTALL=4$G_REGEX_EXTENDED=8$G_REGEX_ANCHORED=16$G_REGEX_DOLLAR_ENDONLY=32$G_REGEX_UNGREEDY=512$G_REGEX_RAW=2048$G_REGEX_NO_AUTO_CAPTURE=4096$G_REGEX_OPTIMIZE=8192$G_REGEX_FIRSTLINE=262144$G_REGEX_DUPNAMES=524288$G_REGEX_NEWLINE_CR=1048576$G_REGEX_NEWLINE_LF=2097152$G_REGEX_NEWLINE_CRLF=3145728$G_REGEX_NEWLINE_ANYCRLF=5242880$G_REGEX_BSR_ANYCRLF=8388608$G_REGEX_JAVASCRIPT_COMPAT=33554432
+// #anon_enum_G_REGEX_CASELESS=1_G_REGEX_MULTILINE=2_G_REGEX_DOTALL=4_G_REGEX_EXTENDED=8_G_REGEX_ANCHORED=16_G_REGEX_DOLLAR_ENDONLY=32_G_REGEX_UNGREEDY=512_G_REGEX_RAW=2048_G_REGEX_NO_AUTO_CAPTURE=4096_G_REGEX_OPTIMIZE=8192_G_REGEX_FIRSTLINE=262144_G_REGEX_DUPNAMES=524288_G_REGEX_NEWLINE_CR=1048576_G_REGEX_NEWLINE_LF=2097152_G_REGEX_NEWLINE_CRLF=3145728_G_REGEX_NEWLINE_ANYCRLF=5242880_G_REGEX_BSR_ANYCRLF=8388608_G_REGEX_JAVASCRIPT_COMPAT=33554432
 // file /usr/include/glib-2.0/glib/gregex.h line 297
-enum anonymous$19 { G_REGEX_CASELESS=1, G_REGEX_MULTILINE=2, G_REGEX_DOTALL=4, G_REGEX_EXTENDED=8, G_REGEX_ANCHORED=16, G_REGEX_DOLLAR_ENDONLY=32, G_REGEX_UNGREEDY=512, G_REGEX_RAW=2048, G_REGEX_NO_AUTO_CAPTURE=4096, G_REGEX_OPTIMIZE=8192, G_REGEX_FIRSTLINE=262144, G_REGEX_DUPNAMES=524288, G_REGEX_NEWLINE_CR=1048576, G_REGEX_NEWLINE_LF=2097152, G_REGEX_NEWLINE_CRLF=3145728, G_REGEX_NEWLINE_ANYCRLF=5242880, G_REGEX_BSR_ANYCRLF=8388608, G_REGEX_JAVASCRIPT_COMPAT=33554432 };
+enum anonymous_19 { G_REGEX_CASELESS=1, G_REGEX_MULTILINE=2, G_REGEX_DOTALL=4, G_REGEX_EXTENDED=8, G_REGEX_ANCHORED=16, G_REGEX_DOLLAR_ENDONLY=32, G_REGEX_UNGREEDY=512, G_REGEX_RAW=2048, G_REGEX_NO_AUTO_CAPTURE=4096, G_REGEX_OPTIMIZE=8192, G_REGEX_FIRSTLINE=262144, G_REGEX_DUPNAMES=524288, G_REGEX_NEWLINE_CR=1048576, G_REGEX_NEWLINE_LF=2097152, G_REGEX_NEWLINE_CRLF=3145728, G_REGEX_NEWLINE_ANYCRLF=5242880, G_REGEX_BSR_ANYCRLF=8388608, G_REGEX_JAVASCRIPT_COMPAT=33554432 };
 
-// #anon_enum$G_REGEX_MATCH_ANCHORED=16$G_REGEX_MATCH_NOTBOL=128$G_REGEX_MATCH_NOTEOL=256$G_REGEX_MATCH_NOTEMPTY=1024$G_REGEX_MATCH_PARTIAL=32768$G_REGEX_MATCH_NEWLINE_CR=1048576$G_REGEX_MATCH_NEWLINE_LF=2097152$G_REGEX_MATCH_NEWLINE_CRLF=3145728$G_REGEX_MATCH_NEWLINE_ANY=4194304$G_REGEX_MATCH_NEWLINE_ANYCRLF=5242880$G_REGEX_MATCH_BSR_ANYCRLF=8388608$G_REGEX_MATCH_BSR_ANY=16777216$G_REGEX_MATCH_PARTIAL_SOFT=32768$G_REGEX_MATCH_PARTIAL_HARD=134217728$G_REGEX_MATCH_NOTEMPTY_ATSTART=268435456
+// #anon_enum_G_REGEX_MATCH_ANCHORED=16_G_REGEX_MATCH_NOTBOL=128_G_REGEX_MATCH_NOTEOL=256_G_REGEX_MATCH_NOTEMPTY=1024_G_REGEX_MATCH_PARTIAL=32768_G_REGEX_MATCH_NEWLINE_CR=1048576_G_REGEX_MATCH_NEWLINE_LF=2097152_G_REGEX_MATCH_NEWLINE_CRLF=3145728_G_REGEX_MATCH_NEWLINE_ANY=4194304_G_REGEX_MATCH_NEWLINE_ANYCRLF=5242880_G_REGEX_MATCH_BSR_ANYCRLF=8388608_G_REGEX_MATCH_BSR_ANY=16777216_G_REGEX_MATCH_PARTIAL_SOFT=32768_G_REGEX_MATCH_PARTIAL_HARD=134217728_G_REGEX_MATCH_NOTEMPTY_ATSTART=268435456
 // file /usr/include/glib-2.0/glib/gregex.h line 387
-enum anonymous$20 { G_REGEX_MATCH_ANCHORED=16, G_REGEX_MATCH_NOTBOL=128, G_REGEX_MATCH_NOTEOL=256, G_REGEX_MATCH_NOTEMPTY=1024, G_REGEX_MATCH_PARTIAL=32768, G_REGEX_MATCH_NEWLINE_CR=1048576, G_REGEX_MATCH_NEWLINE_LF=2097152, G_REGEX_MATCH_NEWLINE_CRLF=3145728, G_REGEX_MATCH_NEWLINE_ANY=4194304, G_REGEX_MATCH_NEWLINE_ANYCRLF=5242880, G_REGEX_MATCH_BSR_ANYCRLF=8388608, G_REGEX_MATCH_BSR_ANY=16777216, G_REGEX_MATCH_PARTIAL_SOFT=32768, G_REGEX_MATCH_PARTIAL_HARD=134217728, G_REGEX_MATCH_NOTEMPTY_ATSTART=268435456 };
+enum anonymous_20 { G_REGEX_MATCH_ANCHORED=16, G_REGEX_MATCH_NOTBOL=128, G_REGEX_MATCH_NOTEOL=256, G_REGEX_MATCH_NOTEMPTY=1024, G_REGEX_MATCH_PARTIAL=32768, G_REGEX_MATCH_NEWLINE_CR=1048576, G_REGEX_MATCH_NEWLINE_LF=2097152, G_REGEX_MATCH_NEWLINE_CRLF=3145728, G_REGEX_MATCH_NEWLINE_ANY=4194304, G_REGEX_MATCH_NEWLINE_ANYCRLF=5242880, G_REGEX_MATCH_BSR_ANYCRLF=8388608, G_REGEX_MATCH_BSR_ANY=16777216, G_REGEX_MATCH_PARTIAL_SOFT=32768, G_REGEX_MATCH_PARTIAL_HARD=134217728, G_REGEX_MATCH_NOTEMPTY_ATSTART=268435456 };
 
-// #anon_enum$SORT_BY_TIME=0$SORT_BY_ALPHABET=1
+// #anon_enum_SORT_BY_TIME=0_SORT_BY_ALPHABET=1
 // file ../../include/speechd_types.h line 93
-enum anonymous$18 { SORT_BY_TIME=0, SORT_BY_ALPHABET=1 };
+enum anonymous_18 { SORT_BY_TIME=0, SORT_BY_ALPHABET=1 };
 
-// #anon_enum$SPD_BEGIN=1$SPD_END=2$SPD_INDEX_MARKS=4$SPD_CANCEL=8$SPD_PAUSE=16$SPD_RESUME=32$SPD_ALL=63
+// #anon_enum_SPD_BEGIN=1_SPD_END=2_SPD_INDEX_MARKS=4_SPD_CANCEL=8_SPD_PAUSE=16_SPD_RESUME=32_SPD_ALL=63
 // file ../../include/speechd_types.h line 73
-enum anonymous$17 { SPD_BEGIN=1, SPD_END=2, SPD_INDEX_MARKS=4, SPD_CANCEL=8, SPD_PAUSE=16, SPD_RESUME=32, SPD_ALL=63 };
+enum anonymous_17 { SPD_BEGIN=1, SPD_END=2, SPD_INDEX_MARKS=4, SPD_CANCEL=8, SPD_PAUSE=16, SPD_RESUME=32, SPD_ALL=63 };
 
-// #anon_enum$SPD_CAP_NONE=0$SPD_CAP_SPELL=1$SPD_CAP_ICON=2
+// #anon_enum_SPD_CAP_NONE=0_SPD_CAP_SPELL=1_SPD_CAP_ICON=2
 // file ../../include/speechd_types.h line 32
-enum anonymous$4 { SPD_CAP_NONE=0, SPD_CAP_SPELL=1, SPD_CAP_ICON=2 };
+enum anonymous_4 { SPD_CAP_NONE=0, SPD_CAP_SPELL=1, SPD_CAP_ICON=2 };
 
-// #anon_enum$SPD_DATA_TEXT=0$SPD_DATA_SSML=1
+// #anon_enum_SPD_DATA_TEXT=0_SPD_DATA_SSML=1
 // file ../../include/speechd_types.h line 60
-enum anonymous$5 { SPD_DATA_TEXT=0, SPD_DATA_SSML=1 };
+enum anonymous_5 { SPD_DATA_TEXT=0, SPD_DATA_SSML=1 };
 
-// #anon_enum$SPD_IMPORTANT=1$SPD_MESSAGE=2$SPD_TEXT=3$SPD_NOTIFICATION=4$SPD_PROGRESS=5
+// #anon_enum_SPD_IMPORTANT=1_SPD_MESSAGE=2_SPD_TEXT=3_SPD_NOTIFICATION=4_SPD_PROGRESS=5
 // file ../../include/speechd_types.h line 65
-enum anonymous$9 { SPD_IMPORTANT=1, SPD_MESSAGE=2, SPD_TEXT=3, SPD_NOTIFICATION=4, SPD_PROGRESS=5 };
+enum anonymous_9 { SPD_IMPORTANT=1, SPD_MESSAGE=2, SPD_TEXT=3, SPD_NOTIFICATION=4, SPD_PROGRESS=5 };
 
-// #anon_enum$SPD_MALE1=1$SPD_MALE2=2$SPD_MALE3=3$SPD_FEMALE1=4$SPD_FEMALE2=5$SPD_FEMALE3=6$SPD_CHILD_MALE=7$SPD_CHILD_FEMALE=8
+// #anon_enum_SPD_MALE1=1_SPD_MALE2=2_SPD_MALE3=3_SPD_FEMALE1=4_SPD_FEMALE2=5_SPD_FEMALE3=6_SPD_CHILD_MALE=7_SPD_CHILD_FEMALE=8
 // file ../../include/speechd_types.h line 43
-enum anonymous$27 { SPD_MALE1=1, SPD_MALE2=2, SPD_MALE3=3, SPD_FEMALE1=4, SPD_FEMALE2=5, SPD_FEMALE3=6, SPD_CHILD_MALE=7, SPD_CHILD_FEMALE=8 };
+enum anonymous_27 { SPD_MALE1=1, SPD_MALE2=2, SPD_MALE3=3, SPD_FEMALE1=4, SPD_FEMALE2=5, SPD_FEMALE3=6, SPD_CHILD_MALE=7, SPD_CHILD_FEMALE=8 };
 
-// #anon_enum$SPD_MODE_DAEMON=0$SPD_MODE_SINGLE=1
+// #anon_enum_SPD_MODE_DAEMON=0_SPD_MODE_SINGLE=1
 // file speechd.h line 120
-enum anonymous$25 { SPD_MODE_DAEMON=0, SPD_MODE_SINGLE=1 };
+enum anonymous_25 { SPD_MODE_DAEMON=0, SPD_MODE_SINGLE=1 };
 
-// #anon_enum$SPD_MSGTYPE_TEXT=0$SPD_MSGTYPE_SOUND_ICON=1$SPD_MSGTYPE_CHAR=2$SPD_MSGTYPE_KEY=3$SPD_MSGTYPE_SPELL=99
+// #anon_enum_SPD_MSGTYPE_TEXT=0_SPD_MSGTYPE_SOUND_ICON=1_SPD_MSGTYPE_CHAR=2_SPD_MSGTYPE_KEY=3_SPD_MSGTYPE_SPELL=99
 // file ../../include/speechd_types.h line 98
-enum anonymous$8 { SPD_MSGTYPE_TEXT=0, SPD_MSGTYPE_SOUND_ICON=1, SPD_MSGTYPE_CHAR=2, SPD_MSGTYPE_KEY=3, SPD_MSGTYPE_SPELL=99 };
+enum anonymous_8 { SPD_MSGTYPE_TEXT=0, SPD_MSGTYPE_SOUND_ICON=1, SPD_MSGTYPE_CHAR=2, SPD_MSGTYPE_KEY=3, SPD_MSGTYPE_SPELL=99 };
 
-// #anon_enum$SPD_PUNCT_ALL=0$SPD_PUNCT_NONE=1$SPD_PUNCT_SOME=2
+// #anon_enum_SPD_PUNCT_ALL=0_SPD_PUNCT_NONE=1_SPD_PUNCT_SOME=2
 // file ../../include/speechd_types.h line 26
-enum anonymous$2 { SPD_PUNCT_ALL=0, SPD_PUNCT_NONE=1, SPD_PUNCT_SOME=2 };
+enum anonymous_2 { SPD_PUNCT_ALL=0, SPD_PUNCT_NONE=1, SPD_PUNCT_SOME=2 };
 
-// #anon_enum$SPD_SPELL_OFF=0$SPD_SPELL_ON=1
+// #anon_enum_SPD_SPELL_OFF=0_SPD_SPELL_ON=1
 // file ../../include/speechd_types.h line 38
-enum anonymous$1 { SPD_SPELL_OFF=0, SPD_SPELL_ON=1 };
+enum anonymous_1 { SPD_SPELL_OFF=0, SPD_SPELL_ON=1 };
 
-// tag-#anon#ST[*{S8}$S8$'communication_method'||S32'communication_method_set'||U32'$pad0'||*{S8}$S8$'socket_path'||S32'socket_path_set'||S32'port'||S32'port_set'||S32'localhost_access_only'||S32'localhost_access_only_set'||S32'log_level'||S32'log_level_set'||U32'$pad1'||*{S8}$S8$'pid_file'||*{S8}$S8$'conf_file'||*{S8}$S8$'conf_dir'||*{S8}$S8$'runtime_speechd_dir'||*{S8}$S8$'log_dir'||S32'log_dir_set'||S32'spawn'||S32'debug'||U32'$pad2'||*{S8}$S8$'debug_destination'||*{S8}$S8$'debug_logfile'||S32'max_history_messages'||U32'$pad3'|]
+// tag-#anon#ST[*{S8}_S8_'communication_method'||S32'communication_method_set'||U32'_pad0'||*{S8}_S8_'socket_path'||S32'socket_path_set'||S32'port'||S32'port_set'||S32'localhost_access_only'||S32'localhost_access_only_set'||S32'log_level'||S32'log_level_set'||U32'_pad1'||*{S8}_S8_'pid_file'||*{S8}_S8_'conf_file'||*{S8}_S8_'conf_dir'||*{S8}_S8_'runtime_speechd_dir'||*{S8}_S8_'log_dir'||S32'log_dir_set'||S32'spawn'||S32'debug'||U32'_pad2'||*{S8}_S8_'debug_destination'||*{S8}_S8_'debug_logfile'||S32'max_history_messages'||U32'_pad3'|]
 // file speechd.h line 150
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'filename'||*{S8}$S8$'configfilename'||*{S8}$S8$'debugfilename'||ARR2{S32}$S32$'pipe_in'||ARR2{S32}$S32$'pipe_out'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'stream_out'||S32'stderr_redirect'||S32'pid'||S32'working'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'filename'||*{S8}_S8_'configfilename'||*{S8}_S8_'debugfilename'||ARR2{S32}_S32_'pipe_in'||ARR2{S32}_S32_'pipe_out'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'stream_out'||S32'stderr_redirect'||S32'pid'||S32'working'||U32'_pad0'|]
 // file module.h line 31
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'language'||*{S8}$S8$'variant'|]
+// tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'language'||*{S8}_S8_'variant'|]
 // file ../../include/speechd_types.h line 54
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{S8}$S8$'pattern'||SYM#tag-#anon#ST[U32'uid'||S32'fd'||S32'active'||S32'paused'||S32'paused_while_speaking'||EN#anon_enum$SPD_MSGTYPE_TEXT=0$SPD_MSGTYPE_SOUND_ICON=1$SPD_MSGTYPE_CHAR=2$SPD_MSGTYPE_KEY=3$SPD_MSGTYPE_SPELL=99#{U32}$U32$'type'||EN#anon_enum$SPD_DATA_TEXT=0$SPD_DATA_SSML=1#{U32}$U32$'ssml_mode'||EN#anon_enum$SPD_IMPORTANT=1$SPD_MESSAGE=2$SPD_TEXT=3$SPD_NOTIFICATION=4$SPD_PROGRESS=5#{U32}$U32$'priority'||SYM#tag-#anon#ST[S32'rate'||S32'pitch'||S32'volume'||EN#anon_enum$SPD_PUNCT_ALL=0$SPD_PUNCT_NONE=1$SPD_PUNCT_SOME=2#{U32}$U32$'punctuation_mode'||EN#anon_enum$SPD_SPELL_OFF=0$SPD_SPELL_ON=1#{U32}$U32$'spelling_mode'||EN#anon_enum$SPD_CAP_NONE=0$SPD_CAP_SPELL=1$SPD_CAP_ICON=2#{U32}$U32$'cap_let_recogn'||EN#anon_enum$SPD_MALE1=1$SPD_MALE2=2$SPD_MALE3=3$SPD_FEMALE1=4$SPD_FEMALE2=5$SPD_FEMALE3=6$SPD_CHILD_MALE=7$SPD_CHILD_FEMALE=8#{U32}$U32$'voice_type'||U32'$pad0'||SYM#tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'language'||*{S8}$S8$'variant'|]#'voice'|]#'msg_settings'||*{S8}$S8$'client_name'||*{S8}$S8$'output_module'||EN#anon_enum$SPD_BEGIN=1$SPD_END=2$SPD_INDEX_MARKS=4$SPD_CANCEL=8$SPD_PAUSE=16$SPD_RESUME=32$SPD_ALL=63#{U32}$U32$'notification'||S32'reparted'||U32'min_delay_progress'||S32'pause_context'||*{S8}$S8$'index_mark'||*{S8}$S8$'audio_output_method'||*{S8}$S8$'audio_oss_device'||*{S8}$S8$'audio_alsa_device'||*{S8}$S8$'audio_nas_server'||*{S8}$S8$'audio_pulse_server'||S32'audio_pulse_min_length'||S32'log_level'||U32'hist_cur_uid'||S32'hist_cur_pos'||EN#anon_enum$SORT_BY_TIME=0$SORT_BY_ALPHABET=1#{U32}$U32$'hist_sorted'||U32'$pad0'|]#'val'|]
+// tag-#anon#ST[*{S8}_S8_'pattern'||SYM#tag-#anon#ST[U32'uid'||S32'fd'||S32'active'||S32'paused'||S32'paused_while_speaking'||EN#anon_enum_SPD_MSGTYPE_TEXT=0_SPD_MSGTYPE_SOUND_ICON=1_SPD_MSGTYPE_CHAR=2_SPD_MSGTYPE_KEY=3_SPD_MSGTYPE_SPELL=99#{U32}_U32_'type'||EN#anon_enum_SPD_DATA_TEXT=0_SPD_DATA_SSML=1#{U32}_U32_'ssml_mode'||EN#anon_enum_SPD_IMPORTANT=1_SPD_MESSAGE=2_SPD_TEXT=3_SPD_NOTIFICATION=4_SPD_PROGRESS=5#{U32}_U32_'priority'||SYM#tag-#anon#ST[S32'rate'||S32'pitch'||S32'volume'||EN#anon_enum_SPD_PUNCT_ALL=0_SPD_PUNCT_NONE=1_SPD_PUNCT_SOME=2#{U32}_U32_'punctuation_mode'||EN#anon_enum_SPD_SPELL_OFF=0_SPD_SPELL_ON=1#{U32}_U32_'spelling_mode'||EN#anon_enum_SPD_CAP_NONE=0_SPD_CAP_SPELL=1_SPD_CAP_ICON=2#{U32}_U32_'cap_let_recogn'||EN#anon_enum_SPD_MALE1=1_SPD_MALE2=2_SPD_MALE3=3_SPD_FEMALE1=4_SPD_FEMALE2=5_SPD_FEMALE3=6_SPD_CHILD_MALE=7_SPD_CHILD_FEMALE=8#{U32}_U32_'voice_type'||U32'_pad0'||SYM#tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'language'||*{S8}_S8_'variant'|]#'voice'|]#'msg_settings'||*{S8}_S8_'client_name'||*{S8}_S8_'output_module'||EN#anon_enum_SPD_BEGIN=1_SPD_END=2_SPD_INDEX_MARKS=4_SPD_CANCEL=8_SPD_PAUSE=16_SPD_RESUME=32_SPD_ALL=63#{U32}_U32_'notification'||S32'reparted'||U32'min_delay_progress'||S32'pause_context'||*{S8}_S8_'index_mark'||*{S8}_S8_'audio_output_method'||*{S8}_S8_'audio_oss_device'||*{S8}_S8_'audio_alsa_device'||*{S8}_S8_'audio_nas_server'||*{S8}_S8_'audio_pulse_server'||S32'audio_pulse_min_length'||S32'log_level'||U32'hist_cur_uid'||S32'hist_cur_pos'||EN#anon_enum_SORT_BY_TIME=0_SORT_BY_ALPHABET=1#{U32}_U32_'hist_sorted'||U32'_pad0'|]#'val'|]
 // file speechd.h line 111
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[*{SYM#tag-_GList#}$SYM#tag-_GList#$'p1'||*{SYM#tag-_GList#}$SYM#tag-_GList#$'p2'||*{SYM#tag-_GList#}$SYM#tag-_GList#$'p3'||*{SYM#tag-_GList#}$SYM#tag-_GList#$'p4'||*{SYM#tag-_GList#}$SYM#tag-_GList#$'p5'|]
+// tag-#anon#ST[*{SYM#tag-_GList#}_SYM#tag-_GList#_'p1'||*{SYM#tag-_GList#}_SYM#tag-_GList#_'p2'||*{SYM#tag-_GList#}_SYM#tag-_GList#_'p3'||*{SYM#tag-_GList#}_SYM#tag-_GList#_'p4'||*{SYM#tag-_GList#}_SYM#tag-_GList#_'p5'|]
 // file speechd.h line 128
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S32'awaiting_data'||S32'inside_block'||U64'o_bytes'||*{SYM#tag-_GString#}$SYM#tag-_GString#$'o_buf'|]
+// tag-#anon#ST[S32'awaiting_data'||S32'inside_block'||U64'o_bytes'||*{SYM#tag-_GString#}_SYM#tag-_GString#_'o_buf'|]
 // file speechd.h line 221
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[S32'max_uid'||S32'max_gid'||S32'max_fd'|]
 // file speechd.h line 171
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[S32'rate'||S32'pitch'||S32'volume'||EN#anon_enum$SPD_PUNCT_ALL=0$SPD_PUNCT_NONE=1$SPD_PUNCT_SOME=2#{U32}$U32$'punctuation_mode'||EN#anon_enum$SPD_SPELL_OFF=0$SPD_SPELL_ON=1#{U32}$U32$'spelling_mode'||EN#anon_enum$SPD_CAP_NONE=0$SPD_CAP_SPELL=1$SPD_CAP_ICON=2#{U32}$U32$'cap_let_recogn'||EN#anon_enum$SPD_MALE1=1$SPD_MALE2=2$SPD_MALE3=3$SPD_FEMALE1=4$SPD_FEMALE2=5$SPD_FEMALE3=6$SPD_CHILD_MALE=7$SPD_CHILD_FEMALE=8#{U32}$U32$'voice_type'||U32'$pad0'||SYM#tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'language'||*{S8}$S8$'variant'|]#'voice'|]
+// tag-#anon#ST[S32'rate'||S32'pitch'||S32'volume'||EN#anon_enum_SPD_PUNCT_ALL=0_SPD_PUNCT_NONE=1_SPD_PUNCT_SOME=2#{U32}_U32_'punctuation_mode'||EN#anon_enum_SPD_SPELL_OFF=0_SPD_SPELL_ON=1#{U32}_U32_'spelling_mode'||EN#anon_enum_SPD_CAP_NONE=0_SPD_CAP_SPELL=1_SPD_CAP_ICON=2#{U32}_U32_'cap_let_recogn'||EN#anon_enum_SPD_MALE1=1_SPD_MALE2=2_SPD_MALE3=3_SPD_FEMALE1=4_SPD_FEMALE2=5_SPD_FEMALE3=6_SPD_CHILD_MALE=7_SPD_CHILD_FEMALE=8#{U32}_U32_'voice_type'||U32'_pad0'||SYM#tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'language'||*{S8}_S8_'variant'|]#'voice'|]
 // file ../../include/speechd_types.h line 106
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S64'value'||*{S8}$S8$'str'||*{*{S8}$S8$}$*{S8}$S8$$'list'||F64'dvalue'|]
+// tag-#anon#ST[S64'value'||*{S8}_S8_'str'||*{*{S8}_S8_}_*{S8}_S8__'list'||F64'dvalue'|]
 // file /usr/include/dotconf.h line 170
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[U32'id'||U32'$pad0'||S64'time'||*{S8}$S8$'buf'||S32'bytes'||U32'$pad1'||SYM#tag-#anon#ST[U32'uid'||S32'fd'||S32'active'||S32'paused'||S32'paused_while_speaking'||EN#anon_enum$SPD_MSGTYPE_TEXT=0$SPD_MSGTYPE_SOUND_ICON=1$SPD_MSGTYPE_CHAR=2$SPD_MSGTYPE_KEY=3$SPD_MSGTYPE_SPELL=99#{U32}$U32$'type'||EN#anon_enum$SPD_DATA_TEXT=0$SPD_DATA_SSML=1#{U32}$U32$'ssml_mode'||EN#anon_enum$SPD_IMPORTANT=1$SPD_MESSAGE=2$SPD_TEXT=3$SPD_NOTIFICATION=4$SPD_PROGRESS=5#{U32}$U32$'priority'||SYM#tag-#anon#ST[S32'rate'||S32'pitch'||S32'volume'||EN#anon_enum$SPD_PUNCT_ALL=0$SPD_PUNCT_NONE=1$SPD_PUNCT_SOME=2#{U32}$U32$'punctuation_mode'||EN#anon_enum$SPD_SPELL_OFF=0$SPD_SPELL_ON=1#{U32}$U32$'spelling_mode'||EN#anon_enum$SPD_CAP_NONE=0$SPD_CAP_SPELL=1$SPD_CAP_ICON=2#{U32}$U32$'cap_let_recogn'||EN#anon_enum$SPD_MALE1=1$SPD_MALE2=2$SPD_MALE3=3$SPD_FEMALE1=4$SPD_FEMALE2=5$SPD_FEMALE3=6$SPD_CHILD_MALE=7$SPD_CHILD_FEMALE=8#{U32}$U32$'voice_type'||U32'$pad0'||SYM#tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'language'||*{S8}$S8$'variant'|]#'voice'|]#'msg_settings'||*{S8}$S8$'client_name'||*{S8}$S8$'output_module'||EN#anon_enum$SPD_BEGIN=1$SPD_END=2$SPD_INDEX_MARKS=4$SPD_CANCEL=8$SPD_PAUSE=16$SPD_RESUME=32$SPD_ALL=63#{U32}$U32$'notification'||S32'reparted'||U32'min_delay_progress'||S32'pause_context'||*{S8}$S8$'index_mark'||*{S8}$S8$'audio_output_method'||*{S8}$S8$'audio_oss_device'||*{S8}$S8$'audio_alsa_device'||*{S8}$S8$'audio_nas_server'||*{S8}$S8$'audio_pulse_server'||S32'audio_pulse_min_length'||S32'log_level'||U32'hist_cur_uid'||S32'hist_cur_pos'||EN#anon_enum$SORT_BY_TIME=0$SORT_BY_ALPHABET=1#{U32}$U32$'hist_sorted'||U32'$pad0'|]#'settings'|]
+// tag-#anon#ST[U32'id'||U32'_pad0'||S64'time'||*{S8}_S8_'buf'||S32'bytes'||U32'_pad1'||SYM#tag-#anon#ST[U32'uid'||S32'fd'||S32'active'||S32'paused'||S32'paused_while_speaking'||EN#anon_enum_SPD_MSGTYPE_TEXT=0_SPD_MSGTYPE_SOUND_ICON=1_SPD_MSGTYPE_CHAR=2_SPD_MSGTYPE_KEY=3_SPD_MSGTYPE_SPELL=99#{U32}_U32_'type'||EN#anon_enum_SPD_DATA_TEXT=0_SPD_DATA_SSML=1#{U32}_U32_'ssml_mode'||EN#anon_enum_SPD_IMPORTANT=1_SPD_MESSAGE=2_SPD_TEXT=3_SPD_NOTIFICATION=4_SPD_PROGRESS=5#{U32}_U32_'priority'||SYM#tag-#anon#ST[S32'rate'||S32'pitch'||S32'volume'||EN#anon_enum_SPD_PUNCT_ALL=0_SPD_PUNCT_NONE=1_SPD_PUNCT_SOME=2#{U32}_U32_'punctuation_mode'||EN#anon_enum_SPD_SPELL_OFF=0_SPD_SPELL_ON=1#{U32}_U32_'spelling_mode'||EN#anon_enum_SPD_CAP_NONE=0_SPD_CAP_SPELL=1_SPD_CAP_ICON=2#{U32}_U32_'cap_let_recogn'||EN#anon_enum_SPD_MALE1=1_SPD_MALE2=2_SPD_MALE3=3_SPD_FEMALE1=4_SPD_FEMALE2=5_SPD_FEMALE3=6_SPD_CHILD_MALE=7_SPD_CHILD_FEMALE=8#{U32}_U32_'voice_type'||U32'_pad0'||SYM#tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'language'||*{S8}_S8_'variant'|]#'voice'|]#'msg_settings'||*{S8}_S8_'client_name'||*{S8}_S8_'output_module'||EN#anon_enum_SPD_BEGIN=1_SPD_END=2_SPD_INDEX_MARKS=4_SPD_CANCEL=8_SPD_PAUSE=16_SPD_RESUME=32_SPD_ALL=63#{U32}_U32_'notification'||S32'reparted'||U32'min_delay_progress'||S32'pause_context'||*{S8}_S8_'index_mark'||*{S8}_S8_'audio_output_method'||*{S8}_S8_'audio_oss_device'||*{S8}_S8_'audio_alsa_device'||*{S8}_S8_'audio_nas_server'||*{S8}_S8_'audio_pulse_server'||S32'audio_pulse_min_length'||S32'log_level'||U32'hist_cur_uid'||S32'hist_cur_pos'||EN#anon_enum_SORT_BY_TIME=0_SORT_BY_ALPHABET=1#{U32}_U32_'hist_sorted'||U32'_pad0'|]#'settings'|]
 // file speechd.h line 139
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[U32'uid'||S32'fd'||S32'active'||S32'paused'||S32'paused_while_speaking'||EN#anon_enum$SPD_MSGTYPE_TEXT=0$SPD_MSGTYPE_SOUND_ICON=1$SPD_MSGTYPE_CHAR=2$SPD_MSGTYPE_KEY=3$SPD_MSGTYPE_SPELL=99#{U32}$U32$'type'||EN#anon_enum$SPD_DATA_TEXT=0$SPD_DATA_SSML=1#{U32}$U32$'ssml_mode'||EN#anon_enum$SPD_IMPORTANT=1$SPD_MESSAGE=2$SPD_TEXT=3$SPD_NOTIFICATION=4$SPD_PROGRESS=5#{U32}$U32$'priority'||SYM#tag-#anon#ST[S32'rate'||S32'pitch'||S32'volume'||EN#anon_enum$SPD_PUNCT_ALL=0$SPD_PUNCT_NONE=1$SPD_PUNCT_SOME=2#{U32}$U32$'punctuation_mode'||EN#anon_enum$SPD_SPELL_OFF=0$SPD_SPELL_ON=1#{U32}$U32$'spelling_mode'||EN#anon_enum$SPD_CAP_NONE=0$SPD_CAP_SPELL=1$SPD_CAP_ICON=2#{U32}$U32$'cap_let_recogn'||EN#anon_enum$SPD_MALE1=1$SPD_MALE2=2$SPD_MALE3=3$SPD_FEMALE1=4$SPD_FEMALE2=5$SPD_FEMALE3=6$SPD_CHILD_MALE=7$SPD_CHILD_FEMALE=8#{U32}$U32$'voice_type'||U32'$pad0'||SYM#tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'language'||*{S8}$S8$'variant'|]#'voice'|]#'msg_settings'||*{S8}$S8$'client_name'||*{S8}$S8$'output_module'||EN#anon_enum$SPD_BEGIN=1$SPD_END=2$SPD_INDEX_MARKS=4$SPD_CANCEL=8$SPD_PAUSE=16$SPD_RESUME=32$SPD_ALL=63#{U32}$U32$'notification'||S32'reparted'||U32'min_delay_progress'||S32'pause_context'||*{S8}$S8$'index_mark'||*{S8}$S8$'audio_output_method'||*{S8}$S8$'audio_oss_device'||*{S8}$S8$'audio_alsa_device'||*{S8}$S8$'audio_nas_server'||*{S8}$S8$'audio_pulse_server'||S32'audio_pulse_min_length'||S32'log_level'||U32'hist_cur_uid'||S32'hist_cur_pos'||EN#anon_enum$SORT_BY_TIME=0$SORT_BY_ALPHABET=1#{U32}$U32$'hist_sorted'||U32'$pad0'|]
+// tag-#anon#ST[U32'uid'||S32'fd'||S32'active'||S32'paused'||S32'paused_while_speaking'||EN#anon_enum_SPD_MSGTYPE_TEXT=0_SPD_MSGTYPE_SOUND_ICON=1_SPD_MSGTYPE_CHAR=2_SPD_MSGTYPE_KEY=3_SPD_MSGTYPE_SPELL=99#{U32}_U32_'type'||EN#anon_enum_SPD_DATA_TEXT=0_SPD_DATA_SSML=1#{U32}_U32_'ssml_mode'||EN#anon_enum_SPD_IMPORTANT=1_SPD_MESSAGE=2_SPD_TEXT=3_SPD_NOTIFICATION=4_SPD_PROGRESS=5#{U32}_U32_'priority'||SYM#tag-#anon#ST[S32'rate'||S32'pitch'||S32'volume'||EN#anon_enum_SPD_PUNCT_ALL=0_SPD_PUNCT_NONE=1_SPD_PUNCT_SOME=2#{U32}_U32_'punctuation_mode'||EN#anon_enum_SPD_SPELL_OFF=0_SPD_SPELL_ON=1#{U32}_U32_'spelling_mode'||EN#anon_enum_SPD_CAP_NONE=0_SPD_CAP_SPELL=1_SPD_CAP_ICON=2#{U32}_U32_'cap_let_recogn'||EN#anon_enum_SPD_MALE1=1_SPD_MALE2=2_SPD_MALE3=3_SPD_FEMALE1=4_SPD_FEMALE2=5_SPD_FEMALE3=6_SPD_CHILD_MALE=7_SPD_CHILD_FEMALE=8#{U32}_U32_'voice_type'||U32'_pad0'||SYM#tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'language'||*{S8}_S8_'variant'|]#'voice'|]#'msg_settings'||*{S8}_S8_'client_name'||*{S8}_S8_'output_module'||EN#anon_enum_SPD_BEGIN=1_SPD_END=2_SPD_INDEX_MARKS=4_SPD_CANCEL=8_SPD_PAUSE=16_SPD_RESUME=32_SPD_ALL=63#{U32}_U32_'notification'||S32'reparted'||U32'min_delay_progress'||S32'pause_context'||*{S8}_S8_'index_mark'||*{S8}_S8_'audio_output_method'||*{S8}_S8_'audio_oss_device'||*{S8}_S8_'audio_alsa_device'||*{S8}_S8_'audio_nas_server'||*{S8}_S8_'audio_pulse_server'||S32'audio_pulse_min_length'||S32'log_level'||U32'hist_cur_uid'||S32'hist_cur_pos'||EN#anon_enum_SORT_BY_TIME=0_SORT_BY_ALPHABET=1#{U32}_U32_'hist_sorted'||U32'_pad0'|]
 // file speechd.h line 75
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_GError
 // file /usr/include/glib-2.0/glib/gerror.h line 42
@@ -282,16 +282,16 @@ struct timezone;
 
 // ECapLetRecogn2str
 // file ../../include/fdsetconv.h line 20
-char * ECapLetRecogn2str(enum anonymous$4 recogn);
+char * ECapLetRecogn2str(enum anonymous_4 recogn);
 // EPunctMode2str
 // file ../../include/fdsetconv.h line 12
-char * EPunctMode2str(enum anonymous$2 punct);
+char * EPunctMode2str(enum anonymous_2 punct);
 // ESpellMode2str
 // file ../../include/fdsetconv.h line 16
-char * ESpellMode2str(enum anonymous$1 spell);
+char * ESpellMode2str(enum anonymous_1 spell);
 // EVoice2str
 // file ../../include/fdsetconv.h line 8
-char * EVoice2str(enum anonymous$27 voice);
+char * EVoice2str(enum anonymous_27 voice);
 // MSG
 // file speechd.c line 214
 void MSG(signed int level, char *format, ...);
@@ -312,19 +312,19 @@ extern const unsigned short int ** __ctype_b_loc(void);
 extern signed int * __errno_location(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$3, unsigned int *);
+extern signed int accept(signed int, union anonymous_3, unsigned int *);
 // add_config_option
 // file configuration.h line 39
 struct configoption_t * add_config_option(struct configoption_t *options, signed int *num_config_options, char *name, signed int type, const char * (*callback)(struct command_t *, void *), void *info, unsigned long int context);
-// add_config_option::callback$object
+// add_config_option::callback_object
 //
-const char * callback$object(struct command_t *, void *);
+const char * callback_object(struct command_t *, void *);
 // atoi
 // file /usr/include/stdlib.h line 147
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$3, unsigned int);
+extern signed int bind(signed int, union anonymous_3, unsigned int);
 // bindtextdomain
 // file /usr/include/libintl.h line 86
 extern char * bindtextdomain(const char *, const char *);
@@ -429,7 +429,7 @@ const char * cb_SocketPath(struct command_t *cmd, void *ctx);
 const char * cb_unknown(struct command_t *cmd, void *ctx);
 // check_locked
 // file speechd.c line 1240
-void check_locked(union anonymous$12 *lock);
+void check_locked(union anonymous_12 *lock);
 // client_has_messages
 // file speaking.c line 1056
 signed int client_has_messages(signed int uid);
@@ -459,10 +459,10 @@ extern signed int daemon(signed int, signed int);
 char * deescape_dot(const char *orig_text, unsigned long int orig_len);
 // default_fd_set
 // file set.h line 93
-struct anonymous$11 * default_fd_set(void);
+struct anonymous_11 * default_fd_set(void);
 // destroy_module
 // file module.c line 42
-void destroy_module(struct anonymous$10 *module);
+void destroy_module(struct anonymous_10 *module);
 // destroy_pid_file
 // file speechd.c line 808
 void destroy_pid_file(void);
@@ -519,7 +519,7 @@ extern signed int fflush(struct _IO_FILE *);
 extern signed int fileno(struct _IO_FILE *);
 // find_index_mark
 // file index_marking.h line 40
-char * find_index_mark(struct anonymous$7 *msg, signed int mark);
+char * find_index_mark(struct anonymous_7 *msg, signed int mark);
 // fnmatch
 // file /usr/include/fnmatch.h line 56
 extern signed int fnmatch(const char *, const char *, signed int);
@@ -546,7 +546,7 @@ extern char * g_build_filename(const char *, ...);
 extern signed int g_file_get_contents(const char *, char **, unsigned long int *, struct _GError **);
 // g_file_test
 // file /usr/include/glib-2.0/glib/gfileutils.h line 82
-extern signed int g_file_test(const char *, enum anonymous$15);
+extern signed int g_file_test(const char *, enum anonymous_15);
 // g_free
 // file /usr/include/glib-2.0/glib/gmem.h line 71
 extern void g_free(void *);
@@ -654,10 +654,10 @@ extern char * g_path_get_dirname(const char *);
 extern void * g_realloc(void *, unsigned long int);
 // g_regex_match
 // file /usr/include/glib-2.0/glib/gregex.h line 488
-extern signed int g_regex_match(const struct _GRegex *, const char *, enum anonymous$20, struct _GMatchInfo **);
+extern signed int g_regex_match(const struct _GRegex *, const char *, enum anonymous_20, struct _GMatchInfo **);
 // g_regex_new
 // file /usr/include/glib-2.0/glib/gregex.h line 448
-extern struct _GRegex * g_regex_new(const char *, enum anonymous$19, enum anonymous$20, struct _GError **);
+extern struct _GRegex * g_regex_new(const char *, enum anonymous_19, enum anonymous_20, struct _GError **);
 // g_regex_unref
 // file /usr/include/glib-2.0/glib/gregex.h line 455
 extern void g_regex_unref(struct _GRegex *);
@@ -723,25 +723,25 @@ extern unsigned int g_utf8_get_char(const char *);
 extern signed int g_utf8_validate(const char *, signed long int, const char **);
 // get_client_settings_by_fd
 // file set.h line 32
-struct anonymous$11 * get_client_settings_by_fd(signed int fd);
+struct anonymous_11 * get_client_settings_by_fd(signed int fd);
 // get_client_settings_by_uid
 // file set.h line 31
-struct anonymous$11 * get_client_settings_by_uid(signed int uid);
+struct anonymous_11 * get_client_settings_by_uid(signed int uid);
 // get_client_uid_by_fd
 // file set.h line 34
 signed int get_client_uid_by_fd(signed int fd);
 // get_message_from_queues
 // file speaking.c line 1014
-struct anonymous$7 * get_message_from_queues();
+struct anonymous_7 * get_message_from_queues();
 // get_messages_by_client
 // file history.c line 350
 struct _GList * get_messages_by_client(signed int uid);
 // get_output_module
 // file output.h line 27
-struct anonymous$10 * get_output_module(const struct anonymous$7 *message);
+struct anonymous_10 * get_output_module(const struct anonymous_7 *message);
 // get_output_module_by_name
 // file output.c line 83
-struct anonymous$10 * get_output_module_by_name(char *name);
+struct anonymous_10 * get_output_module_by_name(char *name);
 // get_param
 // file parse.c line 1084
 char * get_param(const char *buf, const signed int n, const signed int bytes, const signed int lower_case);
@@ -765,7 +765,7 @@ extern char * gettext(const char *);
 extern signed int gettimeofday(struct timeval *, struct timezone *);
 // history_add_message
 // file history.h line 44
-signed int history_add_message(struct anonymous$7 *msg);
+signed int history_add_message(struct anonymous_7 *msg);
 // history_cursor_backward
 // file history.c line 262
 char * history_cursor_backward(signed int fd);
@@ -813,7 +813,7 @@ extern unsigned short int htons(unsigned short int);
 void i18n_init(void);
 // insert_index_marks
 // file index_marking.h line 36
-void insert_index_marks(struct anonymous$7 *msg, enum anonymous$5 ssml_mode);
+void insert_index_marks(struct anonymous_7 *msg, enum anonymous_5 ssml_mode);
 // ioctl
 // file /usr/include/x86_64-linux-gnu/sys/ioctl.h line 41
 extern signed int ioctl(signed int, unsigned long int, ...);
@@ -837,7 +837,7 @@ struct configoption_t * load_config_options(signed int *num_options);
 void load_default_global_set_options();
 // load_output_module
 // file module.c line 122
-struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *mod_cfgfile, char *mod_dbgfile);
+struct anonymous_10 * load_output_module(char *mod_name, char *mod_prog, char *mod_cfgfile, char *mod_dbgfile);
 // logging_init
 // file speechd.c line 813
 void logging_init(void);
@@ -849,10 +849,10 @@ signed int make_inet_socket(const signed int port);
 signed int make_local_socket(const char *filename);
 // mem_free_fdset
 // file alloc.h line 14
-void mem_free_fdset(struct anonymous$11 *fdset);
+void mem_free_fdset(struct anonymous_11 *fdset);
 // mem_free_message
 // file alloc.h line 11
-void mem_free_message(struct anonymous$7 *msg);
+void mem_free_message(struct anonymous_7 *msg);
 // memcpy
 // file /usr/include/string.h line 46
 extern void * memcpy(void *, const void *, unsigned long int);
@@ -894,121 +894,121 @@ void options_print_help(char **argv);
 void options_print_version(void);
 // output_check_module
 // file output.h line 35
-signed int output_check_module(struct anonymous$10 *output);
+signed int output_check_module(struct anonymous_10 *output);
 // output_close
 // file output.h line 49
-signed int output_close(struct anonymous$10 *module);
+signed int output_close(struct anonymous_10 *module);
 // output_get_voices
 // file output.c line 286
-static struct anonymous$6 ** output_get_voices(struct anonymous$10 *module);
+static struct anonymous_6 ** output_get_voices(struct anonymous_10 *module);
 // output_is_speaking
 // file output.h line 32
 signed int output_is_speaking(char **index_mark);
 // output_list_voices
 // file output.h line 50
-struct anonymous$6 ** output_list_voices(char *module_name);
+struct anonymous_6 ** output_list_voices(char *module_name);
 // output_lock
 // file output.c line 162
 static void output_lock(void);
 // output_module_debug
 // file module.h line 49
-signed int output_module_debug(struct anonymous$10 *module);
+signed int output_module_debug(struct anonymous_10 *module);
 // output_module_is_speaking
 // file output.c line 608
-signed int output_module_is_speaking(struct anonymous$10 *output, char **index_mark);
+signed int output_module_is_speaking(struct anonymous_10 *output, char **index_mark);
 // output_module_nodebug
 // file module.h line 50
-signed int output_module_nodebug(struct anonymous$10 *module);
+signed int output_module_nodebug(struct anonymous_10 *module);
 // output_pause
 // file output.h line 31
 unsigned long int output_pause();
 // output_read_reply
 // file output.c line 178
-struct _GString * output_read_reply(struct anonymous$10 *output);
+struct _GString * output_read_reply(struct anonymous_10 *output);
 // output_read_reply2
 // file output.c line 217
-char * output_read_reply2(struct anonymous$10 *output);
+char * output_read_reply2(struct anonymous_10 *output);
 // output_send_audio_settings
 // file output.h line 44
-signed int output_send_audio_settings(struct anonymous$10 *output);
+signed int output_send_audio_settings(struct anonymous_10 *output);
 // output_send_data
 // file output.h line 42
-signed int output_send_data(char *cmd, struct anonymous$10 *output, signed int wfr);
+signed int output_send_data(char *cmd, struct anonymous_10 *output, signed int wfr);
 // output_send_debug
 // file output.h line 33
-signed int output_send_debug(struct anonymous$10 *output, signed int flag, char *log_path);
+signed int output_send_debug(struct anonymous_10 *output, signed int flag, char *log_path);
 // output_send_loglevel_setting
 // file output.h line 45
-signed int output_send_loglevel_setting(struct anonymous$10 *output);
+signed int output_send_loglevel_setting(struct anonymous_10 *output);
 // output_send_settings
 // file output.c line 398
-signed int output_send_settings(struct anonymous$7 *msg, struct anonymous$10 *output);
+signed int output_send_settings(struct anonymous_7 *msg, struct anonymous_10 *output);
 // output_set_speaking_monitor
 // file output.c line 74
-void output_set_speaking_monitor(struct anonymous$7 *msg, struct anonymous$10 *output);
+void output_set_speaking_monitor(struct anonymous_7 *msg, struct anonymous_10 *output);
 // output_speak
 // file output.h line 29
-signed int output_speak(struct anonymous$7 *msg);
+signed int output_speak(struct anonymous_7 *msg);
 // output_stop
 // file output.h line 30
 signed int output_stop();
 // output_unlock
 // file output.c line 168
 static void output_unlock(void);
-// p_msg_comp_id$object
+// p_msg_comp_id_object
 //
-signed int p_msg_comp_id$object();
-// p_msg_lc$object
+signed int p_msg_comp_id_object();
+// p_msg_lc_object
 //
-signed int p_msg_lc$object();
-// p_msg_uid_lc$object
+signed int p_msg_lc_object();
+// p_msg_uid_lc_object
 //
-signed int p_msg_uid_lc$object();
+signed int p_msg_uid_lc_object();
 // parse
 // file parse.h line 5
 char * parse(const char *buf, const signed int bytes, const signed int fd);
 // parse_block
 // file parse.c line 975
-char * parse_block(const char *buf, const signed int bytes, const signed int fd, struct anonymous$0 *speechd_socket);
+char * parse_block(const char *buf, const signed int bytes, const signed int fd, struct anonymous_0 *speechd_socket);
 // parse_cancel
 // file parse.c line 650
-char * parse_cancel(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_cancel(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_char
 // file parse.c line 800
-char * parse_char(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_char(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_general_event
 // file parse.c line 755
-char * parse_general_event(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket, enum anonymous$8 type);
+char * parse_general_event(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket, enum anonymous_8 type);
 // parse_get
 // file parse.c line 888
-char * parse_get(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_get(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_help
 // file parse.c line 953
-char * parse_help(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_help(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_history
 // file parse.c line 260
-char * parse_history(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_history(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_key
 // file parse.c line 806
-char * parse_key(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_key(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_list
 // file parse.c line 812
-char * parse_list(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_list(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_pause
 // file parse.c line 682
-char * parse_pause(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_pause(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_resume
 // file parse.c line 724
-char * parse_resume(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_resume(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_set
 // file parse.c line 388
-char * parse_set(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_set(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_snd_icon
 // file parse.c line 794
-char * parse_snd_icon(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_snd_icon(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // parse_stop
 // file parse.c line 612
-char * parse_stop(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket);
+char * parse_stop(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket);
 // perror
 // file /usr/include/stdio.h line 846
 extern void perror(const char *);
@@ -1032,16 +1032,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$12 *, const union anonymous$13 *);
+extern signed int pthread_mutex_init(union anonymous_12 *, const union anonymous_13 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$12 *);
+extern signed int pthread_mutex_lock(union anonymous_12 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$12 *);
+extern signed int pthread_mutex_trylock(union anonymous_12 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$12 *);
+extern signed int pthread_mutex_unlock(union anonymous_12 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -1050,10 +1050,10 @@ extern signed int pthread_setcancelstate(signed int, signed int *);
 extern signed int pthread_setcanceltype(signed int, signed int *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$30 *, struct anonymous$30 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_30 *, struct anonymous_30 *);
 // queue_message
 // file server.c line 68
-signed int queue_message(struct anonymous$7 *new, signed int fd, signed int history_flag, enum anonymous$8 type, signed int reparted);
+signed int queue_message(struct anonymous_7 *new, signed int fd, signed int history_flag, enum anonymous_8 type, signed int reparted);
 // queue_remove_message
 // file speaking.c line 762
 struct _GList * queue_remove_message(struct _GList *queue, struct _GList *gl);
@@ -1065,37 +1065,37 @@ extern signed long int read(signed int, void *, unsigned long int);
 extern struct dirent * readdir(struct __dirstream *);
 // reload_message
 // file speaking.c line 304
-signed int reload_message(struct anonymous$7 *msg);
+signed int reload_message(struct anonymous_7 *msg);
 // reload_output_module
 // file module.h line 48
-signed int reload_output_module(struct anonymous$10 *old_module);
+signed int reload_output_module(struct anonymous_10 *old_module);
 // remove_client_settings_by_uid
 // file set.c line 556
 void remove_client_settings_by_uid(signed int uid);
 // report_begin
 // file speaking.c line 655
-signed int report_begin(struct anonymous$7 *msg);
+signed int report_begin(struct anonymous_7 *msg);
 // report_cancel
 // file speaking.c line 659
-signed int report_cancel(struct anonymous$7 *msg);
+signed int report_cancel(struct anonymous_7 *msg);
 // report_end
 // file speaking.c line 656
-signed int report_end(struct anonymous$7 *msg);
+signed int report_end(struct anonymous_7 *msg);
 // report_index_mark
 // file speaking.c line 619
-signed int report_index_mark(struct anonymous$7 *msg, char *index_mark);
+signed int report_index_mark(struct anonymous_7 *msg, char *index_mark);
 // report_pause
 // file speaking.c line 657
-signed int report_pause(struct anonymous$7 *msg);
+signed int report_pause(struct anonymous_7 *msg);
 // report_resume
 // file speaking.c line 658
-signed int report_resume(struct anonymous$7 *msg);
+signed int report_resume(struct anonymous_7 *msg);
 // resolve_priorities
 // file speaking.h line 82
-void resolve_priorities(enum anonymous$9 priority);
+void resolve_priorities(enum anonymous_9 priority);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$23 *, struct anonymous$23 *, struct anonymous$23 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_23 *, struct anonymous_23 *, struct anonymous_23 *, struct timeval *);
 // serve
 // file server.h line 29
 signed int serve(signed int fd);
@@ -1107,13 +1107,13 @@ void server_data_off(signed int fd);
 signed int server_data_on(signed int fd);
 // set_capital_letter_recognition_all
 // file set.h line 87
-signed int set_capital_letter_recognition_all(enum anonymous$4 capital_letter_recognition);
+signed int set_capital_letter_recognition_all(enum anonymous_4 capital_letter_recognition);
 // set_capital_letter_recognition_self
 // file set.h line 68
-signed int set_capital_letter_recognition_self(signed int fd, enum anonymous$4 capital_letter_recognition);
+signed int set_capital_letter_recognition_self(signed int fd, enum anonymous_4 capital_letter_recognition);
 // set_capital_letter_recognition_uid
 // file set.h line 48
-signed int set_capital_letter_recognition_uid(signed int uid, enum anonymous$4 recogn);
+signed int set_capital_letter_recognition_uid(signed int uid, enum anonymous_4 recogn);
 // set_client_name_self
 // file set.h line 64
 signed int set_client_name_self(signed int fd, char *client_name);
@@ -1170,19 +1170,19 @@ signed int set_pitch_self(signed int fd, signed int pitch);
 signed int set_pitch_uid(signed int uid, signed int pitch);
 // set_priority_self
 // file set.h line 55
-signed int set_priority_self(signed int fd, enum anonymous$9 priority);
+signed int set_priority_self(signed int fd, enum anonymous_9 priority);
 // set_priority_uid
 // file set.c line 53
-signed int set_priority_uid(signed int uid, enum anonymous$9 priority);
+signed int set_priority_uid(signed int uid, enum anonymous_9 priority);
 // set_punctuation_mode_all
 // file set.h line 86
-signed int set_punctuation_mode_all(enum anonymous$2 punctuation_mode);
+signed int set_punctuation_mode_all(enum anonymous_2 punctuation_mode);
 // set_punctuation_mode_self
 // file set.h line 67
-signed int set_punctuation_mode_self(signed int fd, enum anonymous$2 punctuation_mode);
+signed int set_punctuation_mode_self(signed int fd, enum anonymous_2 punctuation_mode);
 // set_punctuation_mode_uid
 // file set.h line 47
-signed int set_punctuation_mode_uid(signed int uid, enum anonymous$2 punctuation);
+signed int set_punctuation_mode_uid(signed int uid, enum anonymous_2 punctuation);
 // set_rate_all
 // file set.h line 77
 signed int set_rate_all(signed int rate);
@@ -1197,22 +1197,22 @@ signed int set_rate_uid(signed int uid, signed int rate);
 void set_speak_thread_attributes();
 // set_spelling_all
 // file set.h line 82
-signed int set_spelling_all(enum anonymous$1 spelling);
+signed int set_spelling_all(enum anonymous_1 spelling);
 // set_spelling_self
 // file set.h line 62
-signed int set_spelling_self(signed int fd, enum anonymous$1 spelling);
+signed int set_spelling_self(signed int fd, enum anonymous_1 spelling);
 // set_spelling_uid
 // file set.h line 43
-signed int set_spelling_uid(signed int uid, enum anonymous$1 spelling);
+signed int set_spelling_uid(signed int uid, enum anonymous_1 spelling);
 // set_ssml_mode_all
 // file set.h line 88
-signed int set_ssml_mode_all(enum anonymous$5 ssml_mode);
+signed int set_ssml_mode_all(enum anonymous_5 ssml_mode);
 // set_ssml_mode_self
 // file set.h line 69
-signed int set_ssml_mode_self(signed int fd, enum anonymous$5 ssml_mode);
+signed int set_ssml_mode_self(signed int fd, enum anonymous_5 ssml_mode);
 // set_ssml_mode_uid
 // file set.h line 50
-signed int set_ssml_mode_uid(signed int uid, enum anonymous$5 ssml_mode);
+signed int set_ssml_mode_uid(signed int uid, enum anonymous_5 ssml_mode);
 // set_synthesis_voice_all
 // file set.h line 85
 signed int set_synthesis_voice_all(char *synthesis_voice);
@@ -1251,7 +1251,7 @@ extern signed int setsockopt(signed int, signed int, signed int, const void *, u
 extern signed int setvbuf(struct _IO_FILE *, char *, signed int, unsigned long int);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$30 *);
+extern signed int sigfillset(struct anonymous_30 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -1266,7 +1266,7 @@ signed int socket_send_msg(signed int fd, char *msg);
 signed int sortbyuid(const void *a, const void *b);
 // spd_fdset_copy
 // file alloc.c line 8
-struct anonymous$11 spd_fdset_copy(struct anonymous$11 old);
+struct anonymous_11 spd_fdset_copy(struct anonymous_11 old);
 // spd_get_path
 // file speechd.c line 102
 char * spd_get_path(char *filename, char *startdir);
@@ -1275,7 +1275,7 @@ char * spd_get_path(char *filename, char *startdir);
 signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FILE *f);
 // spd_message_copy
 // file alloc.h line 8
-struct anonymous$7 * spd_message_copy(struct anonymous$7 *old);
+struct anonymous_7 * spd_message_copy(struct anonymous_7 *old);
 // spd_str_compare
 // file set.c line 35
 signed int spd_str_compare(const void *a, const void *b);
@@ -1293,7 +1293,7 @@ void speaking_cancel(signed int uid);
 void speaking_cancel_all();
 // speaking_get_queue
 // file speaking.c line 1074
-struct _GList * speaking_get_queue(enum anonymous$9 priority);
+struct _GList * speaking_get_queue(enum anonymous_9 priority);
 // speaking_pause
 // file speaking.c line 522
 signed int speaking_pause(signed int fd, signed int uid);
@@ -1311,7 +1311,7 @@ signed int speaking_resume_all();
 void speaking_semaphore_post(void);
 // speaking_set_queue
 // file speaking.c line 1102
-void speaking_set_queue(enum anonymous$9 priority, struct _GList *queue);
+void speaking_set_queue(enum anonymous_9 priority, struct _GList *queue);
 // speaking_stop
 // file speaking.h line 51
 void speaking_stop(signed int uid);
@@ -1362,10 +1362,10 @@ void speechd_quit(signed int sig);
 void speechd_reload_dead_modules(signed int sig);
 // speechd_socket_free
 // file speechd.c line 313
-void speechd_socket_free(struct anonymous$0 *speechd_socket);
+void speechd_socket_free(struct anonymous_0 *speechd_socket);
 // speechd_socket_get_by_fd
 // file speechd.c line 327
-struct anonymous$0 * speechd_socket_get_by_fd(signed int fd);
+struct anonymous_0 * speechd_socket_get_by_fd(signed int fd);
 // speechd_socket_register
 // file speechd.c line 297
 signed int speechd_socket_register(signed int fd);
@@ -1386,31 +1386,31 @@ extern signed int stat(const char *, struct stat *);
 void stop_from_uid(const signed int uid);
 // stop_priority
 // file speaking.c line 812
-signed int stop_priority(enum anonymous$9 priority);
+signed int stop_priority(enum anonymous_9 priority);
 // stop_priority_except_first
 // file speaking.c line 912
-void stop_priority_except_first(enum anonymous$9 priority);
+void stop_priority_except_first(enum anonymous_9 priority);
 // stop_priority_from_uid
 // file speaking.c line 846
 struct _GList * stop_priority_from_uid(struct _GList *queue, const signed int uid);
 // stop_priority_older_than
 // file speaking.c line 829
-signed int stop_priority_older_than(enum anonymous$9 priority, unsigned int uid);
+signed int stop_priority_older_than(enum anonymous_9 priority, unsigned int uid);
 // str2ECapLetRecogn
 // file ../../include/fdsetconv.h line 22
-enum anonymous$4 str2ECapLetRecogn(char *str);
+enum anonymous_4 str2ECapLetRecogn(char *str);
 // str2EPunctMode
 // file ../../include/fdsetconv.h line 14
-enum anonymous$2 str2EPunctMode(char *str);
+enum anonymous_2 str2EPunctMode(char *str);
 // str2ESpellMode
 // file fdsetconv.c line 149
-enum anonymous$1 str2ESpellMode(char *str);
+enum anonymous_1 str2ESpellMode(char *str);
 // str2EVoice
 // file ../../include/fdsetconv.h line 10
-enum anonymous$27 str2EVoice(char *str);
+enum anonymous_27 str2EVoice(char *str);
 // str2intpriority
 // file ../../include/fdsetconv.h line 24
-enum anonymous$9 str2intpriority(char *str);
+enum anonymous_9 str2intpriority(char *str);
 // strchr
 // file /usr/include/string.h line 235
 extern char * strchr(const char *, signed int);
@@ -1425,7 +1425,7 @@ extern char * strcpy(char *, const char *);
 extern char * strerror(signed int);
 // strip_index_marks
 // file index_marking.h line 44
-char * strip_index_marks(char *buf, enum anonymous$5 ssml_mode);
+char * strip_index_marks(char *buf, enum anonymous_5 ssml_mode);
 // strlen
 // file /usr/include/string.h line 398
 extern unsigned long int strlen(const char *);
@@ -1461,7 +1461,7 @@ extern signed int ungetc(signed int, struct _IO_FILE *);
 extern signed int unlink(const char *);
 // unload_output_module
 // file module.h line 47
-signed int unload_output_module(struct anonymous$10 *module);
+signed int unload_output_module(struct anonymous_10 *module);
 // update_cl_settings
 // file set.c line 275
 void update_cl_settings(void *data, void *user_data);
@@ -1481,7 +1481,7 @@ signed int waitpid_with_timeout(signed int pid, signed int *status_ptr, signed i
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$24
+struct anonymous_24
 {
   // communication_method
   char *communication_method;
@@ -1527,7 +1527,7 @@ struct anonymous$24
   signed int max_history_messages;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // name
   char *name;
@@ -1551,7 +1551,7 @@ struct anonymous$10
   signed int working;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // name
   char *name;
@@ -1561,7 +1561,7 @@ struct anonymous$6
   char *variant;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // rate
   signed int rate;
@@ -1570,18 +1570,18 @@ struct anonymous$16
   // volume
   signed int volume;
   // punctuation_mode
-  enum anonymous$2 punctuation_mode;
+  enum anonymous_2 punctuation_mode;
   // spelling_mode
-  enum anonymous$1 spelling_mode;
+  enum anonymous_1 spelling_mode;
   // cap_let_recogn
-  enum anonymous$4 cap_let_recogn;
+  enum anonymous_4 cap_let_recogn;
   // voice_type
-  enum anonymous$27 voice_type;
+  enum anonymous_27 voice_type;
   // voice
-  struct anonymous$6 voice;
+  struct anonymous_6 voice;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // uid
   unsigned int uid;
@@ -1594,19 +1594,19 @@ struct anonymous$11
   // paused_while_speaking
   signed int paused_while_speaking;
   // type
-  enum anonymous$8 type;
+  enum anonymous_8 type;
   // ssml_mode
-  enum anonymous$5 ssml_mode;
+  enum anonymous_5 ssml_mode;
   // priority
-  enum anonymous$9 priority;
+  enum anonymous_9 priority;
   // msg_settings
-  struct anonymous$16 msg_settings;
+  struct anonymous_16 msg_settings;
   // client_name
   char *client_name;
   // output_module
   char *output_module;
   // notification
-  enum anonymous$17 notification;
+  enum anonymous_17 notification;
   // reparted
   signed int reparted;
   // min_delay_progress
@@ -1634,18 +1634,18 @@ struct anonymous$11
   // hist_cur_pos
   signed int hist_cur_pos;
   // hist_sorted
-  enum anonymous$18 hist_sorted;
+  enum anonymous_18 hist_sorted;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // pattern
   char *pattern;
   // val
-  struct anonymous$11 val;
+  struct anonymous_11 val;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // p1
   struct _GList *p1;
@@ -1659,19 +1659,19 @@ struct anonymous$29
   struct _GList *p5;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // awaiting_data
   signed int awaiting_data;
@@ -1683,7 +1683,7 @@ struct anonymous$0
   struct _GString *o_buf;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // max_uid
   signed int max_uid;
@@ -1693,7 +1693,7 @@ struct anonymous$28
   signed int max_fd;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // value
   signed long int value;
@@ -1705,7 +1705,7 @@ struct anonymous$14
   double dvalue;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // id
   unsigned int id;
@@ -1716,10 +1716,10 @@ struct anonymous$7
   // bytes
   signed int bytes;
   // settings
-  struct anonymous$11 settings;
+  struct anonymous_11 settings;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1729,7 +1729,7 @@ union anonymous$22
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __size
   char __size[4l];
@@ -1765,7 +1765,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1775,7 +1775,7 @@ union anonymous$12
   signed long int __align;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1805,7 +1805,7 @@ union anonymous$21
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1950,7 +1950,7 @@ struct command_t
   // arg_count
   signed int arg_count;
   // data
-  struct anonymous$14 data;
+  struct anonymous_14 data;
 };
 
 struct configfile_t
@@ -2028,7 +2028,7 @@ struct flock
 struct in6_addr
 {
   // __in6_u
-  union anonymous$22 __in6_u;
+  union anonymous_22 __in6_u;
 };
 
 struct in_addr
@@ -2170,31 +2170,31 @@ struct timezone
 
 // GlobalFDSet
 // file speechd.h line 211
-struct anonymous$11 GlobalFDSet;
+struct anonymous_11 GlobalFDSet;
 // MessagePausedList
 // file speechd.h line 202
 struct _GList *MessagePausedList;
 // MessageQueue
 // file speechd.h line 200
-struct anonymous$29 *MessageQueue;
+struct anonymous_29 *MessageQueue;
 // SPEAKING
 // file speaking.c line 46
 signed int SPEAKING = 0;
 // SpeechdOptions
 // file speechd.h line 169
-struct anonymous$24 SpeechdOptions;
+struct anonymous_24 SpeechdOptions;
 // SpeechdStatus
 // file speechd.h line 175
-struct anonymous$28 SpeechdStatus;
+struct anonymous_28 SpeechdStatus;
 // cl_spec_section
 // file configuration.c line 37
-static struct anonymous$26 *cl_spec_section;
+static struct anonymous_26 *cl_spec_section;
 // client_specific_settings
 // file speechd.h line 205
 struct _GList *client_specific_settings;
 // current_message
 // file speaking.c line 43
-struct anonymous$7 *current_message = (struct anonymous$7 *)(void *)0;
+struct anonymous_7 *current_message = (struct anonymous_7 *)(void *)0;
 // custom_log_kind
 // file speechd.h line 243
 char *custom_log_kind;
@@ -2206,7 +2206,7 @@ struct _IO_FILE *custom_logfile;
 struct _IO_FILE *debug_logfile;
 // element_free_mutex
 // file speechd.h line 180
-union anonymous$12 element_free_mutex;
+union anonymous_12 element_free_mutex;
 // fd_settings
 // file speechd.h line 193
 struct _GHashTable *fd_settings;
@@ -2215,7 +2215,7 @@ struct _GHashTable *fd_settings;
 struct _GHashTable *fd_uid;
 // highest_priority
 // file speaking.c line 44
-static enum anonymous$9 highest_priority = (enum anonymous$9)0;
+static enum anonymous_9 highest_priority = (enum anonymous_9)0;
 // language_default_modules
 // file speechd.h line 195
 struct _GHashTable *language_default_modules;
@@ -2230,7 +2230,7 @@ struct _GList *last_p5_block;
 struct _IO_FILE *logfile;
 // logging_mutex
 // file speechd.h line 179
-union anonymous$12 logging_mutex;
+union anonymous_12 logging_mutex;
 // message_history
 // file history.c line 37
 static struct _GList *message_history;
@@ -2239,7 +2239,7 @@ static struct _GList *message_history;
 extern char *optarg;
 // output_layer_mutex
 // file speechd.h line 181
-union anonymous$12 output_layer_mutex;
+union anonymous_12 output_layer_mutex;
 // output_modules
 // file speechd.c line 52
 struct _GList *output_modules;
@@ -2275,7 +2275,7 @@ signed int pause_requested_uid;
 signed int poll_count;
 // readfds
 // file speechd.h line 214
-struct anonymous$23 readfds;
+struct anonymous_23 readfds;
 // requested_modules
 // file module.c line 427
 static struct _GList *requested_modules = (struct _GList *)(void *)0;
@@ -2287,7 +2287,7 @@ signed int resume_requested;
 signed int server_socket;
 // socket_com_mutex
 // file speechd.h line 182
-union anonymous$12 socket_com_mutex;
+union anonymous_12 socket_com_mutex;
 // spd_long_options
 // file options.c line 39
 static struct option spd_long_options[14l] = { { .name="run-daemon", .has_arg=0, .flag=((signed int *)NULL), .val=100 },
@@ -2308,7 +2308,7 @@ static struct option spd_long_options[14l] = { { .name="run-daemon", .has_arg=0,
     .val=0 } };
 // spd_mode
 // file speechd.h line 125
-enum anonymous$25 spd_mode;
+enum anonymous_25 spd_mode;
 // spd_num_options
 // file configuration.h line 35
 signed int spd_num_options;
@@ -2326,7 +2326,7 @@ unsigned long int speak_thread;
 signed int speaking_gid;
 // speaking_module
 // file speaking.h line 31
-struct anonymous$10 *speaking_module;
+struct anonymous_10 *speaking_module;
 // speaking_pipe
 // file speechd.h line 217
 signed int speaking_pipe[2l];
@@ -2351,7 +2351,7 @@ extern struct _IO_FILE *stdout;
 
 // ECapLetRecogn2str
 // file ../../include/fdsetconv.h line 20
-char * ECapLetRecogn2str(enum anonymous$4 recogn)
+char * ECapLetRecogn2str(enum anonymous_4 recogn)
 {
   char *str;
   switch((signed int)recogn)
@@ -2379,7 +2379,7 @@ char * ECapLetRecogn2str(enum anonymous$4 recogn)
 
 // EPunctMode2str
 // file ../../include/fdsetconv.h line 12
-char * EPunctMode2str(enum anonymous$2 punct)
+char * EPunctMode2str(enum anonymous_2 punct)
 {
   char *str;
   switch((signed int)punct)
@@ -2407,7 +2407,7 @@ char * EPunctMode2str(enum anonymous$2 punct)
 
 // ESpellMode2str
 // file ../../include/fdsetconv.h line 16
-char * ESpellMode2str(enum anonymous$1 spell)
+char * ESpellMode2str(enum anonymous_1 spell)
 {
   char *str;
   switch((signed int)spell)
@@ -2430,7 +2430,7 @@ char * ESpellMode2str(enum anonymous$1 spell)
 
 // EVoice2str
 // file ../../include/fdsetconv.h line 8
-char * EVoice2str(enum anonymous$27 voice)
+char * EVoice2str(enum anonymous_27 voice)
 {
   char *str;
   switch((signed int)voice)
@@ -2494,21 +2494,21 @@ void MSG(signed int level, char *format, ...)
     char *tstr;
     struct timeval tv;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&t);
-    tstr=g_strdup(return_value_ctime$1);
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&t);
+    tstr=g_strdup(return_value_ctime_1);
     gettimeofday(&tv, (struct timezone *)(void *)0);
     /* assertion tstr */
     assert(tstr != ((char *)NULL));
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tstr);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tstr);
     /* assertion strlen(tstr) > 1 */
-    assert(return_value_strlen$2 > (unsigned long int)1);
+    assert(return_value_strlen_2 > (unsigned long int)1);
     /* assertion (level >= -1) && (level <= 5) */
     assert(level >= -1 && level <= 5);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
     if(SpeechdOptions.log_level >= level)
       fprintf(logfile, "[%s : %d] speechd: ", tstr, (signed int)tv.tv_usec);
 
@@ -2557,17 +2557,17 @@ void MSG2(signed int level, char *kind, char *format, ...)
 {
   signed int std_log = (signed int)(level <= SpeechdOptions.log_level);
   signed int custom_log;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(!(kind == ((char *)NULL)) && !(custom_log_kind == ((char *)NULL)))
   {
-    return_value_strcmp$1=strcmp(kind, custom_log_kind);
-    tmp_if_expr$2 = !(return_value_strcmp$1 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_1=strcmp(kind, custom_log_kind);
+    tmp_if_expr_2 = !(return_value_strcmp_1 != 0) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  custom_log = (signed int)(tmp_if_expr$2 ? (custom_logfile != (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0) : (_Bool)0);
+    tmp_if_expr_2 = (_Bool)0;
+  custom_log = (signed int)(tmp_if_expr_2 ? (custom_logfile != (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0) : (_Bool)0);
   if(!(custom_log == 0) || !(std_log == 0))
   {
     void **args;
@@ -2577,19 +2577,19 @@ void MSG2(signed int level, char *kind, char *format, ...)
     char *tstr;
     struct timeval tv;
     t=time((signed long int *)(void *)0);
-    char *return_value_ctime$3;
-    return_value_ctime$3=ctime(&t);
-    tstr=g_strdup(return_value_ctime$3);
+    char *return_value_ctime_3;
+    return_value_ctime_3=ctime(&t);
+    tstr=g_strdup(return_value_ctime_3);
     gettimeofday(&tv, (struct timezone *)(void *)0);
     /* assertion tstr */
     assert(tstr != ((char *)NULL));
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(tstr);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(tstr);
     /* assertion strlen(tstr) > 1 */
-    assert(return_value_strlen$4 > (unsigned long int)1);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(tstr);
-    tstr[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
+    assert(return_value_strlen_4 > (unsigned long int)1);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(tstr);
+    tstr[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
     if(!(std_log == 0))
       fprintf(logfile, "[%s : %d] speechd: ", tstr, (signed int)tv.tv_usec);
 
@@ -2648,9 +2648,9 @@ struct configoption_t * add_config_option(struct configoption_t *options, signed
 {
   struct configoption_t *opts;
   *num_config_options = *num_config_options + 1;
-  void *return_value_g_realloc$1;
-  return_value_g_realloc$1=g_realloc((void *)options, (unsigned long int)*num_config_options * sizeof(struct configoption_t) /*40ul*/ );
-  opts = (struct configoption_t *)return_value_g_realloc$1;
+  void *return_value_g_realloc_1;
+  return_value_g_realloc_1=g_realloc((void *)options, (unsigned long int)*num_config_options * sizeof(struct configoption_t) /*40ul*/ );
+  opts = (struct configoption_t *)return_value_g_realloc_1;
   (opts + (signed long int)(*num_config_options - 1))->name=g_strdup(name);
   (opts + (signed long int)(*num_config_options - 1))->type = type;
   (opts + (signed long int)(*num_config_options - 1))->callback = callback;
@@ -2671,15 +2671,15 @@ const char * cb_AddModule(struct command_t *cmd, void *ctx)
 
   else
   {
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup(cmd->data.list[(signed long int)0]);
-    char *return_value_g_strdup$2;
-    return_value_g_strdup$2=g_strdup(cmd->data.list[(signed long int)1]);
-    char *return_value_g_strdup$3;
-    return_value_g_strdup$3=g_strdup(cmd->data.list[(signed long int)2]);
-    char *return_value_g_strdup_printf$4;
-    return_value_g_strdup_printf$4=g_strdup_printf("%s/%s.log", SpeechdOptions.log_dir, cmd->data.list[(signed long int)0]);
-    module_add_load_request(return_value_g_strdup$1, return_value_g_strdup$2, return_value_g_strdup$3, return_value_g_strdup_printf$4);
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup(cmd->data.list[(signed long int)0]);
+    char *return_value_g_strdup_2;
+    return_value_g_strdup_2=g_strdup(cmd->data.list[(signed long int)1]);
+    char *return_value_g_strdup_3;
+    return_value_g_strdup_3=g_strdup(cmd->data.list[(signed long int)2]);
+    char *return_value_g_strdup_printf_4;
+    return_value_g_strdup_printf_4=g_strdup_printf("%s/%s.log", SpeechdOptions.log_dir, cmd->data.list[(signed long int)0]);
+    module_add_load_request(return_value_g_strdup_1, return_value_g_strdup_2, return_value_g_strdup_3, return_value_g_strdup_printf_4);
     return (const char *)(void *)0;
   }
 }
@@ -2690,7 +2690,7 @@ const char * cb_AudioALSADevice(struct command_t *cmd, void *ctx)
 {
   /* assertion cmd->data.str != ((void *)0) */
   assert(cmd->data.str != (char *)(void *)0);
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.audio_alsa_device=g_strdup(cmd->data.str);
 
   else
@@ -2704,7 +2704,7 @@ const char * cb_AudioNASServer(struct command_t *cmd, void *ctx)
 {
   /* assertion cmd->data.str != ((void *)0) */
   assert(cmd->data.str != (char *)(void *)0);
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.audio_nas_server=g_strdup(cmd->data.str);
 
   else
@@ -2718,7 +2718,7 @@ const char * cb_AudioOSSDevice(struct command_t *cmd, void *ctx)
 {
   /* assertion cmd->data.str != ((void *)0) */
   assert(cmd->data.str != (char *)(void *)0);
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.audio_oss_device=g_strdup(cmd->data.str);
 
   else
@@ -2732,7 +2732,7 @@ const char * cb_AudioOutputMethod(struct command_t *cmd, void *ctx)
 {
   /* assertion cmd->data.str != ((void *)0) */
   assert(cmd->data.str != (char *)(void *)0);
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.audio_output_method=g_strdup(cmd->data.str);
 
   else
@@ -2745,7 +2745,7 @@ const char * cb_AudioOutputMethod(struct command_t *cmd, void *ctx)
 const char * cb_AudioPulseMinLength(struct command_t *cmd, void *ctx)
 {
   signed int val = (signed int)cmd->data.value;
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.audio_pulse_min_length = val;
 
   else
@@ -2759,7 +2759,7 @@ const char * cb_AudioPulseServer(struct command_t *cmd, void *ctx)
 {
   /* assertion cmd->data.str != ((void *)0) */
   assert(cmd->data.str != (char *)(void *)0);
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.audio_pulse_server=g_strdup(cmd->data.str);
 
   else
@@ -2771,8 +2771,8 @@ const char * cb_AudioPulseServer(struct command_t *cmd, void *ctx)
 // file configuration.c line 318
 const char * cb_BeginClient(struct command_t *cmd, void *ctx)
 {
-  struct anonymous$26 *cl_spec;
-  if(!(cl_spec_section == ((struct anonymous$26 *)NULL)))
+  struct anonymous_26 *cl_spec;
+  if(!(cl_spec_section == ((struct anonymous_26 *)NULL)))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Configuration: Already in client specific section, can't open a new one!", (const void *)"configuration.c", 324);
@@ -2786,21 +2786,21 @@ const char * cb_BeginClient(struct command_t *cmd, void *ctx)
     exit(1);
   }
 
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc(sizeof(struct anonymous$26) /*200ul*/ );
-  cl_spec = (struct anonymous$26 *)return_value_g_malloc$1;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc(sizeof(struct anonymous_26) /*200ul*/ );
+  cl_spec = (struct anonymous_26 *)return_value_g_malloc_1;
   cl_spec->pattern=g_strdup(cmd->data.str);
   cl_spec_section = cl_spec;
   MSG(4, "Reading configuration for pattern %s", cl_spec->pattern);
   cl_spec->val.msg_settings.rate = -101;
   cl_spec->val.msg_settings.pitch = -101;
   cl_spec->val.msg_settings.volume = -101;
-  cl_spec->val.msg_settings.punctuation_mode = (enum anonymous$2)-1;
-  cl_spec->val.msg_settings.spelling_mode = (enum anonymous$1)-1;
-  cl_spec->val.msg_settings.voice_type = (enum anonymous$27)-1;
-  cl_spec->val.msg_settings.cap_let_recogn = (enum anonymous$4)-1;
+  cl_spec->val.msg_settings.punctuation_mode = (enum anonymous_2)-1;
+  cl_spec->val.msg_settings.spelling_mode = (enum anonymous_1)-1;
+  cl_spec->val.msg_settings.voice_type = (enum anonymous_27)-1;
+  cl_spec->val.msg_settings.cap_let_recogn = (enum anonymous_4)-1;
   cl_spec->val.pause_context = -1;
-  cl_spec->val.ssml_mode = (enum anonymous$5)-1;
+  cl_spec->val.ssml_mode = (enum anonymous_5)-1;
   cl_spec->val.msg_settings.voice.language = (char *)(void *)0;
   cl_spec->val.output_module = (char *)(void *)0;
   return (const char *)(void *)0;
@@ -2810,7 +2810,7 @@ const char * cb_BeginClient(struct command_t *cmd, void *ctx)
 // file configuration.c line 209
 const char * cb_CommunicationMethod(struct command_t *cmd, void *ctx)
 {
-  if(!(cl_spec_section == ((struct anonymous$26 *)NULL)))
+  if(!(cl_spec_section == ((struct anonymous_26 *)NULL)))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:This command isn't allowed in a client specific section!", (const void *)"configuration.c", 209);
@@ -2850,9 +2850,9 @@ const char * cb_CustomLogFile(struct command_t *cmd, void *ctx)
   /* assertion file != ((void *)0) */
   assert(file != (char *)(void *)0);
   custom_log_kind = kind;
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(file, "stdout", (unsigned long int)6);
-  if(return_value_strncmp$1 == 0)
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(file, "stdout", (unsigned long int)6);
+  if(return_value_strncmp_1 == 0)
   {
     custom_logfile = stdout;
     return (const char *)(void *)0;
@@ -2860,9 +2860,9 @@ const char * cb_CustomLogFile(struct command_t *cmd, void *ctx)
 
   else
   {
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(file, "stderr", (unsigned long int)6);
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(file, "stderr", (unsigned long int)6);
+    if(return_value_strncmp_2 == 0)
     {
       custom_logfile = stderr;
       return (const char *)(void *)0;
@@ -2888,10 +2888,10 @@ const char * cb_CustomLogFile(struct command_t *cmd, void *ctx)
 const char * cb_DefaultCapLetRecognition(struct command_t *cmd, void *ctx)
 {
   char *val_str;
-  enum anonymous$4 val;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(cmd->data.str);
-  val_str=g_ascii_strdown(cmd->data.str, (signed long int)return_value_strlen$1);
+  enum anonymous_4 val;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(cmd->data.str);
+  val_str=g_ascii_strdown(cmd->data.str, (signed long int)return_value_strlen_1);
   if(val_str == ((char *)NULL))
   {
     fatal_error();
@@ -2908,7 +2908,7 @@ const char * cb_DefaultCapLetRecognition(struct command_t *cmd, void *ctx)
     exit(1);
   }
 
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.msg_settings.cap_let_recogn = val;
 
   else
@@ -2922,7 +2922,7 @@ const char * cb_DefaultClientName(struct command_t *cmd, void *ctx)
 {
   /* assertion cmd->data.str != ((void *)0) */
   assert(cmd->data.str != (char *)(void *)0);
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.client_name=g_strdup(cmd->data.str);
 
   else
@@ -2936,7 +2936,7 @@ const char * cb_DefaultLanguage(struct command_t *cmd, void *ctx)
 {
   /* assertion cmd->data.str != ((void *)0) */
   assert(cmd->data.str != (char *)(void *)0);
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.msg_settings.voice.language=g_strdup(cmd->data.str);
 
   else
@@ -2950,7 +2950,7 @@ const char * cb_DefaultModule(struct command_t *cmd, void *ctx)
 {
   /* assertion cmd->data.str != ((void *)0) */
   assert(cmd->data.str != (char *)(void *)0);
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.output_module=g_strdup(cmd->data.str);
 
   else
@@ -2963,7 +2963,7 @@ const char * cb_DefaultModule(struct command_t *cmd, void *ctx)
 const char * cb_DefaultPauseContext(struct command_t *cmd, void *ctx)
 {
   signed int val = (signed int)cmd->data.value;
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.pause_context = val;
 
   else
@@ -2983,7 +2983,7 @@ const char * cb_DefaultPitch(struct command_t *cmd, void *ctx)
     exit(1);
   }
 
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.msg_settings.pitch = val;
 
   else
@@ -2996,10 +2996,10 @@ const char * cb_DefaultPitch(struct command_t *cmd, void *ctx)
 const char * cb_DefaultPriority(struct command_t *cmd, void *ctx)
 {
   char *val_str;
-  enum anonymous$9 val;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(cmd->data.str);
-  val_str=g_ascii_strdown(cmd->data.str, (signed long int)return_value_strlen$1);
+  enum anonymous_9 val;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(cmd->data.str);
+  val_str=g_ascii_strdown(cmd->data.str, (signed long int)return_value_strlen_1);
   if(val_str == ((char *)NULL))
   {
     fatal_error();
@@ -3016,7 +3016,7 @@ const char * cb_DefaultPriority(struct command_t *cmd, void *ctx)
     exit(1);
   }
 
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.priority = val;
 
   else
@@ -3029,10 +3029,10 @@ const char * cb_DefaultPriority(struct command_t *cmd, void *ctx)
 const char * cb_DefaultPunctuationMode(struct command_t *cmd, void *ctx)
 {
   char *val_str;
-  enum anonymous$2 val;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(cmd->data.str);
-  val_str=g_ascii_strdown(cmd->data.str, (signed long int)return_value_strlen$1);
+  enum anonymous_2 val;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(cmd->data.str);
+  val_str=g_ascii_strdown(cmd->data.str, (signed long int)return_value_strlen_1);
   if(val_str == ((char *)NULL))
   {
     fatal_error();
@@ -3049,7 +3049,7 @@ const char * cb_DefaultPunctuationMode(struct command_t *cmd, void *ctx)
     exit(1);
   }
 
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.msg_settings.punctuation_mode = val;
 
   else
@@ -3069,7 +3069,7 @@ const char * cb_DefaultRate(struct command_t *cmd, void *ctx)
     exit(1);
   }
 
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.msg_settings.rate = val;
 
   else
@@ -3082,11 +3082,11 @@ const char * cb_DefaultRate(struct command_t *cmd, void *ctx)
 const char * cb_DefaultSpelling(struct command_t *cmd, void *ctx)
 {
   signed int val = (signed int)cmd->data.value;
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
-    GlobalFDSet.msg_settings.spelling_mode = (enum anonymous$1)val;
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
+    GlobalFDSet.msg_settings.spelling_mode = (enum anonymous_1)val;
 
   else
-    cl_spec_section->val.msg_settings.spelling_mode = (enum anonymous$1)val;
+    cl_spec_section->val.msg_settings.spelling_mode = (enum anonymous_1)val;
   return (const char *)(void *)0;
 }
 
@@ -3095,10 +3095,10 @@ const char * cb_DefaultSpelling(struct command_t *cmd, void *ctx)
 const char * cb_DefaultVoiceType(struct command_t *cmd, void *ctx)
 {
   char *val_str;
-  enum anonymous$27 val;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(cmd->data.str);
-  val_str=g_ascii_strdown(cmd->data.str, (signed long int)return_value_strlen$1);
+  enum anonymous_27 val;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(cmd->data.str);
+  val_str=g_ascii_strdown(cmd->data.str, (signed long int)return_value_strlen_1);
   if(val_str == ((char *)NULL))
   {
     fatal_error();
@@ -3115,7 +3115,7 @@ const char * cb_DefaultVoiceType(struct command_t *cmd, void *ctx)
     exit(1);
   }
 
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.msg_settings.voice_type = val;
 
   else
@@ -3135,7 +3135,7 @@ const char * cb_DefaultVolume(struct command_t *cmd, void *ctx)
     exit(1);
   }
 
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
     GlobalFDSet.msg_settings.volume = val;
 
   else
@@ -3154,7 +3154,7 @@ const char * cb_DisableAutoSpawn(struct command_t *cmd, void *ctx)
 // file configuration.c line 356
 const char * cb_EndClient(struct command_t *cmd, void *ctx)
 {
-  if(cl_spec_section == ((struct anonymous$26 *)NULL))
+  if(cl_spec_section == ((struct anonymous_26 *)NULL))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Configuration: Already outside the client specific section!", (const void *)"configuration.c", 360);
@@ -3162,7 +3162,7 @@ const char * cb_EndClient(struct command_t *cmd, void *ctx)
   }
 
   client_specific_settings=g_list_append(client_specific_settings, (void *)cl_spec_section);
-  cl_spec_section = (struct anonymous$26 *)(void *)0;
+  cl_spec_section = (struct anonymous_26 *)(void *)0;
   return (const char *)(void *)0;
 }
 
@@ -3197,7 +3197,7 @@ const char * cb_LanguageDefaultModule(struct command_t *cmd, void *ctx)
 const char * cb_LocalhostAccessOnly(struct command_t *cmd, void *ctx)
 {
   signed int val = (signed int)cmd->data.value;
-  if(!(cl_spec_section == ((struct anonymous$26 *)NULL)))
+  if(!(cl_spec_section == ((struct anonymous_26 *)NULL)))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:This command isn't allowed in a client specific section!", (const void *)"configuration.c", 213);
@@ -3223,9 +3223,9 @@ const char * cb_LogDir(struct command_t *cmd, void *ctx)
 {
   /* assertion cmd->data.str != ((void *)0) */
   assert(cmd->data.str != (char *)(void *)0);
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(cmd->data.str, "default");
-  if(!(return_value_strcmp$1 == 0))
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(cmd->data.str, "default");
+  if(!(return_value_strcmp_1 == 0))
   {
     if(SpeechdOptions.log_dir_set == 0)
       SpeechdOptions.log_dir=g_strdup(cmd->data.str);
@@ -3253,7 +3253,7 @@ const char * cb_LogFile(struct command_t *cmd, void *ctx)
 const char * cb_LogLevel(struct command_t *cmd, void *ctx)
 {
   signed int val = (signed int)cmd->data.value;
-  if(!(cl_spec_section == ((struct anonymous$26 *)NULL)))
+  if(!(cl_spec_section == ((struct anonymous_26 *)NULL)))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:This command isn't allowed in a client specific section!", (const void *)"configuration.c", 215);
@@ -3281,7 +3281,7 @@ const char * cb_LogLevel(struct command_t *cmd, void *ctx)
 const char * cb_MaxHistoryMessages(struct command_t *cmd, void *ctx)
 {
   signed int val = (signed int)cmd->data.value;
-  if(!(cl_spec_section == ((struct anonymous$26 *)NULL)))
+  if(!(cl_spec_section == ((struct anonymous_26 *)NULL)))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:This command isn't allowed in a client specific section!", (const void *)"configuration.c", 217);
@@ -3304,7 +3304,7 @@ const char * cb_MaxHistoryMessages(struct command_t *cmd, void *ctx)
 const char * cb_Port(struct command_t *cmd, void *ctx)
 {
   signed int val = (signed int)cmd->data.value;
-  if(!(cl_spec_section == ((struct anonymous$26 *)NULL)))
+  if(!(cl_spec_section == ((struct anonymous_26 *)NULL)))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:This command isn't allowed in a client specific section!", (const void *)"configuration.c", 211);
@@ -3328,7 +3328,7 @@ const char * cb_Port(struct command_t *cmd, void *ctx)
 // file configuration.c line 210
 const char * cb_SocketPath(struct command_t *cmd, void *ctx)
 {
-  if(!(cl_spec_section == ((struct anonymous$26 *)NULL)))
+  if(!(cl_spec_section == ((struct anonymous_26 *)NULL)))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:This command isn't allowed in a client specific section!", (const void *)"configuration.c", 210);
@@ -3351,11 +3351,11 @@ const char * cb_unknown(struct command_t *cmd, void *ctx)
 
 // check_locked
 // file speechd.c line 1240
-void check_locked(union anonymous$12 *lock)
+void check_locked(union anonymous_12 *lock)
 {
-  signed int return_value_pthread_mutex_trylock$1;
-  return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(lock);
-  if(return_value_pthread_mutex_trylock$1 == 0)
+  signed int return_value_pthread_mutex_trylock_1;
+  return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(lock);
+  if(return_value_pthread_mutex_trylock_1 == 0)
   {
     MSG(1, "CRITICAL ERROR: Not locked but accessing structure data!");
     fprintf(stderr, "WARNING! WARNING! MUTEX CHECK FAILED!\n");
@@ -3369,49 +3369,49 @@ void check_locked(union anonymous$12 *lock)
 // file speaking.c line 1056
 signed int client_has_messages(signed int uid)
 {
-  struct _GList *return_value_g_list_find_custom$1;
-  return_value_g_list_find_custom$1=g_list_find_custom(MessageQueue->p5, (const void *)&uid, message_has_uid);
-  _Bool tmp_if_expr$3;
-  struct _GList *return_value_g_list_find_custom$2;
-  if(!(return_value_g_list_find_custom$1 == ((struct _GList *)NULL)))
-    tmp_if_expr$3 = (_Bool)1;
+  struct _GList *return_value_g_list_find_custom_1;
+  return_value_g_list_find_custom_1=g_list_find_custom(MessageQueue->p5, (const void *)&uid, message_has_uid);
+  _Bool tmp_if_expr_3;
+  struct _GList *return_value_g_list_find_custom_2;
+  if(!(return_value_g_list_find_custom_1 == ((struct _GList *)NULL)))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_g_list_find_custom$2=g_list_find_custom(MessageQueue->p4, (const void *)&uid, message_has_uid);
-    tmp_if_expr$3 = return_value_g_list_find_custom$2 != ((struct _GList *)NULL) ? (_Bool)1 : (_Bool)0;
+    return_value_g_list_find_custom_2=g_list_find_custom(MessageQueue->p4, (const void *)&uid, message_has_uid);
+    tmp_if_expr_3 = return_value_g_list_find_custom_2 != ((struct _GList *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  struct _GList *return_value_g_list_find_custom$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  struct _GList *return_value_g_list_find_custom_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_g_list_find_custom$4=g_list_find_custom(MessageQueue->p3, (const void *)&uid, message_has_uid);
-    tmp_if_expr$5 = return_value_g_list_find_custom$4 != ((struct _GList *)NULL) ? (_Bool)1 : (_Bool)0;
+    return_value_g_list_find_custom_4=g_list_find_custom(MessageQueue->p3, (const void *)&uid, message_has_uid);
+    tmp_if_expr_5 = return_value_g_list_find_custom_4 != ((struct _GList *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  struct _GList *return_value_g_list_find_custom$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  struct _GList *return_value_g_list_find_custom_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_g_list_find_custom$6=g_list_find_custom(MessageQueue->p2, (const void *)&uid, message_has_uid);
-    tmp_if_expr$7 = return_value_g_list_find_custom$6 != ((struct _GList *)NULL) ? (_Bool)1 : (_Bool)0;
+    return_value_g_list_find_custom_6=g_list_find_custom(MessageQueue->p2, (const void *)&uid, message_has_uid);
+    tmp_if_expr_7 = return_value_g_list_find_custom_6 != ((struct _GList *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  struct _GList *return_value_g_list_find_custom$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  struct _GList *return_value_g_list_find_custom_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_g_list_find_custom$8=g_list_find_custom(MessageQueue->p1, (const void *)&uid, message_has_uid);
-    tmp_if_expr$9 = return_value_g_list_find_custom$8 != ((struct _GList *)NULL) ? (_Bool)1 : (_Bool)0;
+    return_value_g_list_find_custom_8=g_list_find_custom(MessageQueue->p1, (const void *)&uid, message_has_uid);
+    tmp_if_expr_9 = return_value_g_list_find_custom_8 != ((struct _GList *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$9)
+  if(tmp_if_expr_9)
     return 1;
 
   else
@@ -3423,11 +3423,11 @@ signed int client_has_messages(signed int uid)
 signed int compare_message_fd(const void *element, const void *value, void *x)
 {
   signed int *fd_val;
-  struct anonymous$7 *message;
+  struct anonymous_7 *message;
   fd_val = (signed int *)value;
-  message = (struct anonymous$7 *)element;
+  message = (struct anonymous_7 *)element;
   /* assertion message != ((void *)0) */
-  assert(message != (struct anonymous$7 *)(void *)0);
+  assert(message != (struct anonymous_7 *)(void *)0);
   /* assertion message->settings.fd != 0 */
   assert(message->settings.fd != 0);
   return message->settings.fd - *fd_val;
@@ -3438,11 +3438,11 @@ signed int compare_message_fd(const void *element, const void *value, void *x)
 signed int compare_message_uid(const void *element, const void *value, void *x)
 {
   signed int *uid_val;
-  struct anonymous$7 *message;
+  struct anonymous_7 *message;
   uid_val = (signed int *)value;
-  message = (struct anonymous$7 *)element;
+  message = (struct anonymous_7 *)element;
   /* assertion message != ((void *)0) */
-  assert(message != (struct anonymous$7 *)(void *)0);
+  assert(message != (struct anonymous_7 *)(void *)0);
   return (signed int)(message->settings.uid - (unsigned int)*uid_val);
 }
 
@@ -3488,9 +3488,9 @@ signed int create_pid_file(void)
 
   else
   {
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    fprintf(pid_file, "%d\n", return_value_getpid$1);
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    fprintf(pid_file, "%d\n", return_value_getpid_1);
     fflush(pid_file);
     pid_fd=fileno(pid_file);
     lock.l_type = (signed short int)1;
@@ -3516,20 +3516,20 @@ char * deescape_dot(const char *orig_text, unsigned long int orig_len)
   char *out_text = (char *)(void *)0;
   char *out_ptr;
   const char *orig_end = orig_text + (signed long int)orig_len;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  char *tmp_post$3;
-  const char *tmp_post$4;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  char *tmp_post_3;
+  const char *tmp_post_4;
   if(orig_text == ((const char *)NULL))
     return (char *)(void *)0;
 
   else
   {
-    void *return_value_g_malloc$1;
-    return_value_g_malloc$1=g_malloc(orig_len + (unsigned long int)1);
-    out_text = (char *)return_value_g_malloc$1;
+    void *return_value_g_malloc_1;
+    return_value_g_malloc_1=g_malloc(orig_len + (unsigned long int)1);
+    out_text = (char *)return_value_g_malloc_1;
     out_ptr = out_text;
     if(orig_len >= 2ul)
     {
@@ -3537,9 +3537,9 @@ char * deescape_dot(const char *orig_text, unsigned long int orig_len)
       {
         if((signed int)orig_text[1l] == 46)
         {
-          tmp_post$2 = out_ptr;
+          tmp_post_2 = out_ptr;
           out_ptr = out_ptr + 1l;
-          *tmp_post$2 = (char)46;
+          *tmp_post_2 = (char)46;
           orig_text = orig_text + (signed long int)2;
         }
 
@@ -3550,21 +3550,21 @@ char * deescape_dot(const char *orig_text, unsigned long int orig_len)
     while(!(orig_text >= orig_end))
     {
       if((signed int)*orig_text == 13)
-        tmp_if_expr$5 = (signed int)orig_text[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (signed int)orig_text[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (signed int)orig_text[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (signed int)orig_text[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (signed int)orig_text[(signed long int)3] == 46 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (signed int)orig_text[(signed long int)3] == 46 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
       {
         static const unsigned long int DOTLINELEN = (const unsigned long int)3;
         static const char *DOTLINE = "\r\n.";
@@ -3576,11 +3576,11 @@ char * deescape_dot(const char *orig_text, unsigned long int orig_len)
 
       else
       {
-        tmp_post$3 = out_ptr;
+        tmp_post_3 = out_ptr;
         out_ptr = out_ptr + 1l;
-        tmp_post$4 = orig_text;
+        tmp_post_4 = orig_text;
         orig_text = orig_text + 1l;
-        *tmp_post$3 = *tmp_post$4;
+        *tmp_post_3 = *tmp_post_4;
       }
     }
     *out_ptr = (char)0;
@@ -3590,12 +3590,12 @@ char * deescape_dot(const char *orig_text, unsigned long int orig_len)
 
 // default_fd_set
 // file set.h line 93
-struct anonymous$11 * default_fd_set(void)
+struct anonymous_11 * default_fd_set(void)
 {
-  struct anonymous$11 *new;
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc(sizeof(struct anonymous$11) /*192ul*/ );
-  new = (struct anonymous$11 *)return_value_g_malloc$1;
+  struct anonymous_11 *new;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc(sizeof(struct anonymous_11) /*192ul*/ );
+  new = (struct anonymous_11 *)return_value_g_malloc_1;
   new->paused = 0;
   new->priority = GlobalFDSet.priority;
   new->msg_settings.punctuation_mode = GlobalFDSet.msg_settings.punctuation_mode;
@@ -3621,7 +3621,7 @@ struct anonymous$11 * default_fd_set(void)
   new->active = 1;
   new->hist_cur_uid = (unsigned int)-1;
   new->hist_cur_pos = -1;
-  new->hist_sorted = (enum anonymous$18)0;
+  new->hist_sorted = (enum anonymous_18)0;
   new->index_mark = (char *)(void *)0;
   new->paused_while_speaking = 0;
   return new;
@@ -3629,7 +3629,7 @@ struct anonymous$11 * default_fd_set(void)
 
 // destroy_module
 // file module.c line 42
-void destroy_module(struct anonymous$10 *module)
+void destroy_module(struct anonymous_10 *module)
 {
   g_free((void *)module->name);
   g_free((void *)module->filename);
@@ -3658,34 +3658,34 @@ struct _GList * detect_output_modules(char *dirname)
   signed int sys_ret;
   if(module_dir == ((struct __dirstream *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    MSG(3, "couldn't open directory %s because of error %s\n", dirname, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    MSG(3, "couldn't open directory %s because of error %s\n", dirname, return_value_strerror_2);
     return (struct _GList *)(void *)0;
   }
 
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
+  _Bool tmp_if_expr_7;
   do
   {
     entry=readdir(module_dir);
     if(entry == ((struct dirent *)NULL))
       break;
 
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(entry->d_name, ".");
-    if(return_value_strcmp$3 == 0)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(entry->d_name, ".");
+    if(return_value_strcmp_3 == 0)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$4=strcmp(entry->d_name, "..");
-      tmp_if_expr$5 = !(return_value_strcmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_4=strcmp(entry->d_name, "..");
+      tmp_if_expr_5 = !(return_value_strcmp_4 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$5)
+    if(!tmp_if_expr_5)
     {
       full_path=spd_get_path(entry->d_name, dirname);
       sys_ret=stat(full_path, &fileinfo);
@@ -3699,22 +3699,22 @@ struct _GList * detect_output_modules(char *dirname)
 
         else
         {
-          signed int return_value_strncmp$6;
+          signed int return_value_strncmp_6;
           static const signed int FNAME_PREFIX_LENGTH = 3;
-          return_value_strncmp$6=strncmp(entry->d_name, "sd_", (unsigned long int)FNAME_PREFIX_LENGTH);
-          if(!(return_value_strncmp$6 == 0))
-            tmp_if_expr$7 = (_Bool)1;
+          return_value_strncmp_6=strncmp(entry->d_name, "sd_", (unsigned long int)FNAME_PREFIX_LENGTH);
+          if(!(return_value_strncmp_6 == 0))
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = (signed int)entry->d_name[(signed long int)FNAME_PREFIX_LENGTH] == 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (signed int)entry->d_name[(signed long int)FNAME_PREFIX_LENGTH] == 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_7)
             MSG(1, "Module discovery ignoring %s: malformed filename.", (const void *)entry->d_name);
 
           else
           {
-            void *return_value_g_malloc$8;
-            return_value_g_malloc$8=g_malloc((unsigned long int)4 * sizeof(char *) /*8ul*/ );
-            module_parameters = (char **)return_value_g_malloc$8;
+            void *return_value_g_malloc_8;
+            return_value_g_malloc_8=g_malloc((unsigned long int)4 * sizeof(char *) /*8ul*/ );
+            module_parameters = (char **)return_value_g_malloc_8;
             module_parameters[(signed long int)0]=g_strdup(entry->d_name + (signed long int)FNAME_PREFIX_LENGTH);
             module_parameters[(signed long int)1]=g_strdup(entry->d_name);
             module_parameters[(signed long int)2]=g_strdup_printf("%s.conf", module_parameters[(signed long int)0]);
@@ -3738,9 +3738,9 @@ struct _GList * empty_queue(struct _GList *queue)
   signed int num;
   signed int i;
   struct _GList *gl;
-  unsigned int return_value_g_list_length$1;
-  return_value_g_list_length$1=g_list_length(queue);
-  num = (signed int)return_value_g_list_length$1;
+  unsigned int return_value_g_list_length_1;
+  return_value_g_list_length_1=g_list_length(queue);
+  num = (signed int)return_value_g_list_length_1;
   i = 0;
   for( ; num + -1 >= i; i = i + 1)
   {
@@ -3758,27 +3758,27 @@ struct _GList * empty_queue_by_time(struct _GList *queue, unsigned int uid)
   signed int i;
   struct _GList *gl;
   struct _GList *gln;
-  struct anonymous$7 *msg;
-  unsigned int return_value_g_list_length$1;
-  return_value_g_list_length$1=g_list_length(queue);
-  num = (signed int)return_value_g_list_length$1;
+  struct anonymous_7 *msg;
+  unsigned int return_value_g_list_length_1;
+  return_value_g_list_length_1=g_list_length(queue);
+  num = (signed int)return_value_g_list_length_1;
   gl=g_list_first(queue);
   i = 0;
-  struct _GList *tmp_if_expr$2;
+  struct _GList *tmp_if_expr_2;
   for( ; num + -1 >= i; i = i + 1)
   {
     if(!(gl == ((struct _GList *)NULL)))
-      tmp_if_expr$2 = ((struct _GList *)gl)->next;
+      tmp_if_expr_2 = ((struct _GList *)gl)->next;
 
     else
-      tmp_if_expr$2 = (struct _GList *)(void *)0;
-    gln = tmp_if_expr$2;
+      tmp_if_expr_2 = (struct _GList *)(void *)0;
+    gln = tmp_if_expr_2;
     if(gl == ((struct _GList *)NULL))
       break;
 
     /* assertion gl->data != ((void *)0) */
     assert(gl->data != (void *)0);
-    msg = (struct anonymous$7 *)gl->data;
+    msg = (struct anonymous_7 *)gl->data;
     if(!(msg->id >= uid))
       queue=queue_remove_message(queue, gl);
 
@@ -3804,13 +3804,13 @@ char * escape_dot(char *otext)
     MSG2(5, "escaping", "Incoming text: |%s|", otext);
     ootext = otext;
     ntext=g_string_new("");
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(otext);
-    if(return_value_strlen$2 == 1ul)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(otext);
+    if(return_value_strlen_2 == 1ul)
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(otext, ".");
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(otext, ".");
+      if(return_value_strcmp_1 == 0)
       {
         g_string_append(ntext, "..");
         otext = otext + (signed long int)1;
@@ -3818,9 +3818,9 @@ char * escape_dot(char *otext)
 
     }
 
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(otext);
-    if(return_value_strlen$3 >= 2ul)
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(otext);
+    if(return_value_strlen_3 >= 2ul)
     {
       if((signed int)*otext == 46)
       {
@@ -3848,9 +3848,9 @@ char * escape_dot(char *otext)
     }
     while((_Bool)1);
     MSG2(6, "escaping", "Altering text (II): |%s|", ntext->str);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(otext);
-    len = (signed int)return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(otext);
+    len = (signed int)return_value_strlen_4;
     if(len >= 2)
     {
       if((signed int)otext[(signed long int)(len + -2)] == 10)
@@ -3895,7 +3895,7 @@ void fatal_error(void)
 
 // find_index_mark
 // file index_marking.h line 40
-char * find_index_mark(struct anonymous$7 *msg, signed int mark)
+char * find_index_mark(struct anonymous_7 *msg, signed int mark)
 {
   char str_mark[64l];
   char *pos;
@@ -3908,9 +3908,9 @@ char * find_index_mark(struct anonymous$7 *msg, signed int mark)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(str_mark);
-    pos = p + (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(str_mark);
+    pos = p + (signed long int)return_value_strlen_1;
     MSG(5, "Search for index mark sucessfull");
     return pos;
   }
@@ -3935,36 +3935,36 @@ void free_config_options(struct configoption_t *opts, signed int *num)
 
 // get_client_settings_by_fd
 // file set.h line 32
-struct anonymous$11 * get_client_settings_by_fd(signed int fd)
+struct anonymous_11 * get_client_settings_by_fd(signed int fd)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   signed int uid;
   uid=get_client_uid_by_fd(fd);
   if(uid == 0)
-    return (struct anonymous$11 *)(void *)0;
+    return (struct anonymous_11 *)(void *)0;
 
   else
   {
-    void *return_value_g_hash_table_lookup$1;
-    return_value_g_hash_table_lookup$1=g_hash_table_lookup(fd_settings, (const void *)&uid);
-    settings = (struct anonymous$11 *)return_value_g_hash_table_lookup$1;
+    void *return_value_g_hash_table_lookup_1;
+    return_value_g_hash_table_lookup_1=g_hash_table_lookup(fd_settings, (const void *)&uid);
+    settings = (struct anonymous_11 *)return_value_g_hash_table_lookup_1;
     return settings;
   }
 }
 
 // get_client_settings_by_uid
 // file set.h line 31
-struct anonymous$11 * get_client_settings_by_uid(signed int uid)
+struct anonymous_11 * get_client_settings_by_uid(signed int uid)
 {
-  struct anonymous$11 *element;
+  struct anonymous_11 *element;
   if(!(uid >= 0))
-    return (struct anonymous$11 *)(void *)0;
+    return (struct anonymous_11 *)(void *)0;
 
   else
   {
-    void *return_value_g_hash_table_lookup$1;
-    return_value_g_hash_table_lookup$1=g_hash_table_lookup(fd_settings, (const void *)&uid);
-    element = (struct anonymous$11 *)return_value_g_hash_table_lookup$1;
+    void *return_value_g_hash_table_lookup_1;
+    return_value_g_hash_table_lookup_1=g_hash_table_lookup(fd_settings, (const void *)&uid);
+    element = (struct anonymous_11 *)return_value_g_hash_table_lookup_1;
     return element;
   }
 }
@@ -3979,9 +3979,9 @@ signed int get_client_uid_by_fd(signed int fd)
 
   else
   {
-    void *return_value_g_hash_table_lookup$1;
-    return_value_g_hash_table_lookup$1=g_hash_table_lookup(fd_uid, (const void *)&fd);
-    uid = (signed int *)return_value_g_hash_table_lookup$1;
+    void *return_value_g_hash_table_lookup_1;
+    return_value_g_hash_table_lookup_1=g_hash_table_lookup(fd_uid, (const void *)&fd);
+    uid = (signed int *)return_value_g_hash_table_lookup_1;
     if(uid == ((signed int *)NULL))
       return 0;
 
@@ -3992,14 +3992,14 @@ signed int get_client_uid_by_fd(signed int fd)
 
 // get_message_from_queues
 // file speaking.c line 1014
-struct anonymous$7 * get_message_from_queues()
+struct anonymous_7 * get_message_from_queues()
 {
   struct _GList *gl;
-  enum anonymous$9 prio;
-  struct anonymous$7 *message;
-  prio = (enum anonymous$9)SPD_IMPORTANT;
-  struct _GList *tmp_if_expr$1;
-  for( ; !((signed int)prio >= 6); prio = (enum anonymous$9)((signed int)prio + 1))
+  enum anonymous_9 prio;
+  struct anonymous_7 *message;
+  prio = (enum anonymous_9)SPD_IMPORTANT;
+  struct _GList *tmp_if_expr_1;
+  for( ; !((signed int)prio >= 6); prio = (enum anonymous_9)((signed int)prio + 1))
   {
     struct _GList *current_queue;
     current_queue=speaking_get_queue(prio);
@@ -4007,31 +4007,31 @@ struct anonymous$7 * get_message_from_queues()
     gl=g_list_first(current_queue);
     while(!(gl == ((struct _GList *)NULL)))
     {
-      signed int return_value_message_nto_speak$2;
-      return_value_message_nto_speak$2=message_nto_speak((const void *)(struct anonymous$7 *)gl->data, (void *)0);
-      if(!(return_value_message_nto_speak$2 == 0))
+      signed int return_value_message_nto_speak_2;
+      return_value_message_nto_speak_2=message_nto_speak((const void *)(struct anonymous_7 *)gl->data, (void *)0);
+      if(!(return_value_message_nto_speak_2 == 0))
       {
         if(!(gl == ((struct _GList *)NULL)))
-          tmp_if_expr$1 = ((struct _GList *)gl)->next;
+          tmp_if_expr_1 = ((struct _GList *)gl)->next;
 
         else
-          tmp_if_expr$1 = (struct _GList *)(void *)0;
-        gl = tmp_if_expr$1;
+          tmp_if_expr_1 = (struct _GList *)(void *)0;
+        gl = tmp_if_expr_1;
       }
 
       else
       {
-        struct _GList *return_value_g_list_remove_link$3;
-        return_value_g_list_remove_link$3=g_list_remove_link(current_queue, gl);
-        speaking_set_queue(prio, return_value_g_list_remove_link$3);
+        struct _GList *return_value_g_list_remove_link_3;
+        return_value_g_list_remove_link_3=g_list_remove_link(current_queue, gl);
+        speaking_set_queue(prio, return_value_g_list_remove_link_3);
         highest_priority = prio;
-        message = (struct anonymous$7 *)gl->data;
+        message = (struct anonymous_7 *)gl->data;
         g_list_free(gl);
-        return (struct anonymous$7 *)message;
+        return (struct anonymous_7 *)message;
       }
     }
   }
-  return (struct anonymous$7 *)(void *)0;
+  return (struct anonymous_7 *)(void *)0;
 }
 
 // get_messages_by_client
@@ -4040,7 +4040,7 @@ struct _GList * get_messages_by_client(signed int uid)
 {
   struct _GList *list = (struct _GList *)(void *)0;
   struct _GList *gl;
-  struct anonymous$7 *msg;
+  struct anonymous_7 *msg;
   unsigned int i;
   unsigned int history_length;
   history_length=g_list_length(message_history);
@@ -4050,7 +4050,7 @@ struct _GList * get_messages_by_client(signed int uid)
     gl=g_list_nth(message_history, i);
     /* assertion gl != ((void *)0) */
     assert(gl != (struct _GList *)(void *)0);
-    msg = (struct anonymous$7 *)gl->data;
+    msg = (struct anonymous_7 *)gl->data;
     if(msg->settings.uid == (unsigned int)uid)
       list=g_list_append(list, (void *)msg);
 
@@ -4060,17 +4060,17 @@ struct _GList * get_messages_by_client(signed int uid)
 
 // get_output_module
 // file output.h line 27
-struct anonymous$10 * get_output_module(const struct anonymous$7 *message)
+struct anonymous_10 * get_output_module(const struct anonymous_7 *message)
 {
-  struct anonymous$10 *output = (struct anonymous$10 *)(void *)0;
+  struct anonymous_10 *output = (struct anonymous_10 *)(void *)0;
   signed int i;
   signed int len;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(message->settings.output_module == ((char *)NULL)))
   {
     MSG(5, "Desired output module is %s", message->settings.output_module);
     output=get_output_module_by_name(message->settings.output_module);
-    if(output == ((struct anonymous$10 *)NULL))
+    if(output == ((struct anonymous_10 *)NULL))
       goto __CPROVER_DUMP_L1;
 
     if(output->working == 0)
@@ -4088,7 +4088,7 @@ struct anonymous$10 * get_output_module(const struct anonymous$7 *message)
     if(!(GlobalFDSet.output_module == ((char *)NULL)))
       output=get_output_module_by_name(GlobalFDSet.output_module);
 
-    if(!(output == ((struct anonymous$10 *)NULL)))
+    if(!(output == ((struct anonymous_10 *)NULL)))
     {
       if(output->working == 0)
         goto __CPROVER_DUMP_L3;
@@ -4102,18 +4102,18 @@ struct anonymous$10 * get_output_module(const struct anonymous$7 *message)
     __CPROVER_DUMP_L3:
       ;
       MSG(3, "Couldn't load default output module, trying other modules");
-      unsigned int return_value_g_list_length$1;
-      return_value_g_list_length$1=g_list_length(output_modules);
-      len = (signed int)return_value_g_list_length$1;
+      unsigned int return_value_g_list_length_1;
+      return_value_g_list_length_1=g_list_length(output_modules);
+      len = (signed int)return_value_g_list_length_1;
       i = 0;
       for( ; !(i >= len); i = i + 1)
       {
-        void *return_value_g_list_nth_data$2;
-        return_value_g_list_nth_data$2=g_list_nth_data(output_modules, (unsigned int)i);
-        output = (struct anonymous$10 *)return_value_g_list_nth_data$2;
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(output->name, "dummy");
-        if(!(return_value_strcmp$3 == 0))
+        void *return_value_g_list_nth_data_2;
+        return_value_g_list_nth_data_2=g_list_nth_data(output_modules, (unsigned int)i);
+        output = (struct anonymous_10 *)return_value_g_list_nth_data_2;
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(output->name, "dummy");
+        if(!(return_value_strcmp_3 == 0))
         {
           if(!(output->working == 0))
           {
@@ -4124,15 +4124,15 @@ struct anonymous$10 * get_output_module(const struct anonymous$7 *message)
         }
 
       }
-      if(output == ((struct anonymous$10 *)NULL))
-        tmp_if_expr$4 = (_Bool)1;
+      if(output == ((struct anonymous_10 *)NULL))
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = !(output->working != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = !(output->working != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         output=get_output_module_by_name("dummy");
 
-      if(output == ((struct anonymous$10 *)NULL))
+      if(output == ((struct anonymous_10 *)NULL))
         MSG(1, "Error: No output module working, not even dummy, no sound produced!\n");
 
       return output;
@@ -4142,35 +4142,35 @@ struct anonymous$10 * get_output_module(const struct anonymous$7 *message)
 
 // get_output_module_by_name
 // file output.c line 83
-struct anonymous$10 * get_output_module_by_name(char *name)
+struct anonymous_10 * get_output_module_by_name(char *name)
 {
-  struct anonymous$10 *output;
+  struct anonymous_10 *output;
   signed int i = 0;
-  unsigned int return_value_g_list_length$1;
+  unsigned int return_value_g_list_length_1;
   do
   {
-    return_value_g_list_length$1=g_list_length(output_modules);
-    if((unsigned int)i >= return_value_g_list_length$1)
+    return_value_g_list_length_1=g_list_length(output_modules);
+    if((unsigned int)i >= return_value_g_list_length_1)
       break;
 
-    void *return_value_g_list_nth_data$2;
-    return_value_g_list_nth_data$2=g_list_nth_data(output_modules, (unsigned int)i);
-    output = (struct anonymous$10 *)return_value_g_list_nth_data$2;
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(output->name, name);
-    if(return_value_strcmp$3 == 0)
+    void *return_value_g_list_nth_data_2;
+    return_value_g_list_nth_data_2=g_list_nth_data(output_modules, (unsigned int)i);
+    output = (struct anonymous_10 *)return_value_g_list_nth_data_2;
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(output->name, name);
+    if(return_value_strcmp_3 == 0)
     {
       if(!(output->working == 0))
         return output;
 
       else
-        return (struct anonymous$10 *)(void *)0;
+        return (struct anonymous_10 *)(void *)0;
     }
 
     i = i + 1;
   }
   while((_Bool)1);
-  return (struct anonymous$10 *)(void *)0;
+  return (struct anonymous_10 *)(void *)0;
 }
 
 // get_param
@@ -4184,9 +4184,9 @@ char * get_param(const char *buf, const signed int n, const signed int bytes, co
   signed int z = 0;
   /* assertion bytes != 0 */
   assert(bytes != 0);
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc((unsigned long int)bytes);
-  param = (char *)return_value_g_malloc$1;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc((unsigned long int)bytes);
+  param = (char *)return_value_g_malloc_1;
   /* assertion param != ((void *)0) */
   assert(param != (char *)(void *)0);
   strcpy(param, "");
@@ -4220,9 +4220,9 @@ char * get_param(const char *buf, const signed int n, const signed int bytes, co
       param[(signed long int)z] = (char)0;
     if(!(lower_case == 0))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(param);
-      par=g_ascii_strdown(param, (signed long int)return_value_strlen$2);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(param);
+      par=g_ascii_strdown(param, (signed long int)return_value_strlen_2);
       g_free((void *)param);
     }
 
@@ -4254,20 +4254,20 @@ signed int get_speaking_client_uid(void)
 
 // history_add_message
 // file history.h line 44
-signed int history_add_message(struct anonymous$7 *msg)
+signed int history_add_message(struct anonymous_7 *msg)
 {
-  struct anonymous$7 *hist_msg;
-  struct anonymous$7 *return_value_spd_message_copy$1;
-  return_value_spd_message_copy$1=spd_message_copy(msg);
-  hist_msg = (struct anonymous$7 *)return_value_spd_message_copy$1;
-  if(hist_msg == ((struct anonymous$7 *)NULL))
+  struct anonymous_7 *hist_msg;
+  struct anonymous_7 *return_value_spd_message_copy_1;
+  return_value_spd_message_copy_1=spd_message_copy(msg);
+  hist_msg = (struct anonymous_7 *)return_value_spd_message_copy_1;
+  if(hist_msg == ((struct anonymous_7 *)NULL))
     return -1;
 
   else
   {
-    unsigned int return_value_g_list_length$2;
-    return_value_g_list_length$2=g_list_length(message_history);
-    if(return_value_g_list_length$2 >= (unsigned int)SpeechdOptions.max_history_messages)
+    unsigned int return_value_g_list_length_2;
+    return_value_g_list_length_2=g_list_length(message_history);
+    if(return_value_g_list_length_2 >= (unsigned int)SpeechdOptions.max_history_messages)
     {
       struct _GList *gl;
       MSG(5, "Discarding older history message, limit reached");
@@ -4276,7 +4276,7 @@ signed int history_add_message(struct anonymous$7 *msg)
       {
         message_history=g_list_remove_link(message_history, gl);
         if(!(gl->data == NULL))
-          mem_free_message((struct anonymous$7 *)gl->data);
+          mem_free_message((struct anonymous_7 *)gl->data);
 
       }
 
@@ -4291,28 +4291,28 @@ signed int history_add_message(struct anonymous$7 *msg)
 // file history.c line 262
 char * history_cursor_backward(signed int fd)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_fd(fd);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Couldn't find settings for active client", (const void *)"history.c", 268);
     exit(1);
   }
 
-  char *return_value_g_strdup$1;
+  char *return_value_g_strdup_1;
   if(!(settings->hist_cur_pos + -1 >= 0))
   {
-    return_value_g_strdup$1=g_strdup("404 ERR POSITION TOO LOW\r\n");
-    return return_value_g_strdup$1;
+    return_value_g_strdup_1=g_strdup("404 ERR POSITION TOO LOW\r\n");
+    return return_value_g_strdup_1;
   }
 
   else
   {
     settings->hist_cur_pos = settings->hist_cur_pos - 1;
-    char *return_value_g_strdup$2;
-    return_value_g_strdup$2=g_strdup("224 OK CURSOR MOVED BACKWARD\r\n");
-    return return_value_g_strdup$2;
+    char *return_value_g_strdup_2;
+    return_value_g_strdup_2=g_strdup("224 OK CURSOR MOVED BACKWARD\r\n");
+    return return_value_g_strdup_2;
   }
 }
 
@@ -4320,10 +4320,10 @@ char * history_cursor_backward(signed int fd)
 // file history.c line 245
 char * history_cursor_forward(signed int fd)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   struct _GList *client_msgs;
   settings=get_client_settings_by_fd(fd);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Couldn't find settings for active client", (const void *)"history.c", 252);
@@ -4331,21 +4331,21 @@ char * history_cursor_forward(signed int fd)
   }
 
   client_msgs=get_messages_by_client((signed int)settings->hist_cur_uid);
-  unsigned int return_value_g_list_length$2;
-  return_value_g_list_length$2=g_list_length(client_msgs);
-  char *return_value_g_strdup$1;
-  if(!(return_value_g_list_length$2 + 4294967295u >= 1u + (unsigned int)settings->hist_cur_pos))
+  unsigned int return_value_g_list_length_2;
+  return_value_g_list_length_2=g_list_length(client_msgs);
+  char *return_value_g_strdup_1;
+  if(!(return_value_g_list_length_2 + 4294967295u >= 1u + (unsigned int)settings->hist_cur_pos))
   {
-    return_value_g_strdup$1=g_strdup("405 ERR POSITION TOO HIGH\r\n");
-    return return_value_g_strdup$1;
+    return_value_g_strdup_1=g_strdup("405 ERR POSITION TOO HIGH\r\n");
+    return return_value_g_strdup_1;
   }
 
   else
   {
     settings->hist_cur_pos = settings->hist_cur_pos + 1;
-    char *return_value_g_strdup$3;
-    return_value_g_strdup$3=g_strdup("223 OK CURSOR MOVED FORWARD\r\n");
-    return return_value_g_strdup$3;
+    char *return_value_g_strdup_3;
+    return_value_g_strdup_3=g_strdup("223 OK CURSOR MOVED FORWARD\r\n");
+    return return_value_g_strdup_3;
   }
 }
 
@@ -4353,14 +4353,14 @@ char * history_cursor_forward(signed int fd)
 // file history.c line 277
 char * history_cursor_get(signed int fd)
 {
-  struct anonymous$11 *settings;
-  struct anonymous$7 *new;
+  struct anonymous_11 *settings;
+  struct anonymous_7 *new;
   struct _GString *reply;
   struct _GList *gl;
   struct _GList *client_msgs;
   reply=g_string_new("");
   settings=get_client_settings_by_fd(fd);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Couldn't find settings for active client", (const void *)"history.c", 288);
@@ -4369,16 +4369,16 @@ char * history_cursor_get(signed int fd)
 
   client_msgs=get_messages_by_client((signed int)settings->hist_cur_uid);
   gl=g_list_nth(client_msgs, (unsigned int)(signed int)settings->hist_cur_pos);
-  char *return_value_g_strdup$1;
+  char *return_value_g_strdup_1;
   if(gl == ((struct _GList *)NULL))
   {
-    return_value_g_strdup$1=g_strdup("403 ERR NO MESSAGE\r\n");
-    return return_value_g_strdup$1;
+    return_value_g_strdup_1=g_strdup("403 ERR NO MESSAGE\r\n");
+    return return_value_g_strdup_1;
   }
 
   else
   {
-    new = (struct anonymous$7 *)gl->data;
+    new = (struct anonymous_7 *)gl->data;
     g_string_printf(reply, "243-%d\r\n243 OK CURSOR POSITION RETURNED\r\n", new->id);
     return reply->str;
   }
@@ -4388,9 +4388,9 @@ char * history_cursor_get(signed int fd)
 // file history.c line 210
 char * history_cursor_set_first(signed int fd, unsigned int client_id)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_fd(fd);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Couldn't find settings for active client", (const void *)"history.c", 216);
@@ -4399,9 +4399,9 @@ char * history_cursor_set_first(signed int fd, unsigned int client_id)
 
   settings->hist_cur_pos = 0;
   settings->hist_cur_uid = client_id;
-  char *return_value_g_strdup$1;
-  return_value_g_strdup$1=g_strdup("220 OK CURSOR SET FIRST\r\n");
-  return return_value_g_strdup$1;
+  char *return_value_g_strdup_1;
+  return_value_g_strdup_1=g_strdup("220 OK CURSOR SET FIRST\r\n");
+  return return_value_g_strdup_1;
 }
 
 // history_cursor_set_last
@@ -4409,9 +4409,9 @@ char * history_cursor_set_first(signed int fd, unsigned int client_id)
 char * history_cursor_set_last(signed int fd, unsigned int client_id)
 {
   struct _GList *client_msgs;
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_fd(fd);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Couldn't find settings for active client", (const void *)"history.c", 201);
@@ -4419,44 +4419,44 @@ char * history_cursor_set_last(signed int fd, unsigned int client_id)
   }
 
   client_msgs=get_messages_by_client((signed int)client_id);
-  unsigned int return_value_g_list_length$1;
-  return_value_g_list_length$1=g_list_length(client_msgs);
-  settings->hist_cur_pos = (signed int)(return_value_g_list_length$1 - (unsigned int)1);
+  unsigned int return_value_g_list_length_1;
+  return_value_g_list_length_1=g_list_length(client_msgs);
+  settings->hist_cur_pos = (signed int)(return_value_g_list_length_1 - (unsigned int)1);
   settings->hist_cur_uid = client_id;
-  char *return_value_g_strdup$2;
-  return_value_g_strdup$2=g_strdup("221 OK CURSOR SET LAST\r\n");
-  return return_value_g_strdup$2;
+  char *return_value_g_strdup_2;
+  return_value_g_strdup_2=g_strdup("221 OK CURSOR SET LAST\r\n");
+  return return_value_g_strdup_2;
 }
 
 // history_cursor_set_pos
 // file history.c line 223
 char * history_cursor_set_pos(signed int fd, unsigned int client_id, signed int pos)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   struct _GList *client_msgs;
-  char *return_value_g_strdup$1;
-  char *return_value_g_strdup$2;
+  char *return_value_g_strdup_1;
+  char *return_value_g_strdup_2;
   if(!(pos >= 0))
   {
-    return_value_g_strdup$1=g_strdup("404 ERR POSITION TOO LOW\r\n");
-    return return_value_g_strdup$1;
+    return_value_g_strdup_1=g_strdup("404 ERR POSITION TOO LOW\r\n");
+    return return_value_g_strdup_1;
   }
 
   else
   {
     client_msgs=get_messages_by_client((signed int)client_id);
-    unsigned int return_value_g_list_length$3;
-    return_value_g_list_length$3=g_list_length(client_msgs);
-    if(!(return_value_g_list_length$3 + 4294967295u >= (unsigned int)pos))
+    unsigned int return_value_g_list_length_3;
+    return_value_g_list_length_3=g_list_length(client_msgs);
+    if(!(return_value_g_list_length_3 + 4294967295u >= (unsigned int)pos))
     {
-      return_value_g_strdup$2=g_strdup("405 ERR POSITION TOO HIGH\r\n");
-      return return_value_g_strdup$2;
+      return_value_g_strdup_2=g_strdup("405 ERR POSITION TOO HIGH\r\n");
+      return return_value_g_strdup_2;
     }
 
     else
     {
       settings=get_client_settings_by_fd(fd);
-      if(settings == ((struct anonymous$11 *)NULL))
+      if(settings == ((struct anonymous_11 *)NULL))
       {
         fatal_error();
         MSG(-1, "Fatal error [%s:%d]:Couldn't find settings for active client", (const void *)"history.c", 237);
@@ -4466,9 +4466,9 @@ char * history_cursor_set_pos(signed int fd, unsigned int client_id, signed int 
       settings->hist_cur_pos = pos;
       settings->hist_cur_uid = client_id;
       MSG(4, "cursor pos:%d\n", settings->hist_cur_pos);
-      char *return_value_g_strdup$4;
-      return_value_g_strdup$4=g_strdup("222 OK CURSOR SET TO POSITION\r\n");
-      return return_value_g_strdup$4;
+      char *return_value_g_strdup_4;
+      return_value_g_strdup_4=g_strdup("222 OK CURSOR SET TO POSITION\r\n");
+      return return_value_g_strdup_4;
     }
   }
 }
@@ -4481,11 +4481,11 @@ char * history_get_client_id(signed int fd)
   signed int uid;
   cid=g_string_new("");
   uid=get_client_uid_by_fd(fd);
-  char *return_value_g_strdup$1;
+  char *return_value_g_strdup_1;
   if(uid == 0)
   {
-    return_value_g_strdup$1=g_strdup("300 ERR INTERNAL\r\n");
-    return return_value_g_strdup$1;
+    return_value_g_strdup_1=g_strdup("300 ERR INTERNAL\r\n");
+    return return_value_g_strdup_1;
   }
 
   else
@@ -4500,7 +4500,7 @@ char * history_get_client_id(signed int fd)
 // file history.c line 50
 char * history_get_client_list()
 {
-  struct anonymous$11 *client;
+  struct anonymous_11 *client;
   struct _GString *clist;
   signed int i;
   clist=g_string_new("");
@@ -4510,7 +4510,7 @@ char * history_get_client_list()
     MSG(4, "Getting settings for client %d of %d", i, SpeechdStatus.max_uid - 1);
     client=get_client_settings_by_uid(i);
     /* assertion client != ((void *)0) */
-    assert(client != (struct anonymous$11 *)(void *)0);
+    assert(client != (struct anonymous_11 *)(void *)0);
     g_string_append_printf(clist, "240-");
     g_string_append_printf(clist, "%d ", client->uid);
     g_string_append(clist, client->client_name);
@@ -4525,21 +4525,21 @@ char * history_get_client_list()
 // file history.c line 176
 char * history_get_last(signed int fd)
 {
-  struct anonymous$7 *message;
+  struct anonymous_7 *message;
   struct _GString *lastm;
   struct _GList *gl;
   lastm=g_string_new("");
   gl=g_list_last(message_history);
-  char *return_value_g_strdup$1;
+  char *return_value_g_strdup_1;
   if(gl == ((struct _GList *)NULL))
   {
-    return_value_g_strdup$1=g_strdup("403 ERR NO MESSAGE\r\n");
-    return return_value_g_strdup$1;
+    return_value_g_strdup_1=g_strdup("403 ERR NO MESSAGE\r\n");
+    return return_value_g_strdup_1;
   }
 
   else
   {
-    message = (struct anonymous$7 *)gl->data;
+    message = (struct anonymous_7 *)gl->data;
     g_string_append_printf(lastm, "242-%d\r\n", message->id);
     g_string_append_printf(lastm, "242 OK LAST MSG SAID\r\n");
     return lastm->str;
@@ -4550,29 +4550,29 @@ char * history_get_last(signed int fd)
 // file history.c line 91
 char * history_get_message(signed int uid)
 {
-  char *return_value_g_strdup$1;
-  return_value_g_strdup$1=g_strdup("380 ERR NOT YET IMPLEMENTED\r\n");
-  return return_value_g_strdup$1;
+  char *return_value_g_strdup_1;
+  return_value_g_strdup_1=g_strdup("380 ERR NOT YET IMPLEMENTED\r\n");
+  return return_value_g_strdup_1;
 }
 
 // history_get_message_list
 // file history.c line 133
 char * history_get_message_list(unsigned int client_id, signed int from, signed int num)
 {
-  struct anonymous$7 *message;
+  struct anonymous_7 *message;
   struct _GString *mlist;
   struct _GList *gl;
-  struct anonymous$11 *client_settings;
+  struct anonymous_11 *client_settings;
   struct _GList *client_msgs;
   signed int i;
   MSG(4, "message_list: from %d num %d, client %d\n", from, num, client_id);
   mlist=g_string_new("");
   client_settings=get_client_settings_by_uid((signed int)client_id);
-  char *return_value_g_strdup$1;
-  if(client_settings == ((struct anonymous$11 *)NULL))
+  char *return_value_g_strdup_1;
+  if(client_settings == ((struct anonymous_11 *)NULL))
   {
-    return_value_g_strdup$1=g_strdup("402 ERR NO SUCH CLIENT\r\n");
-    return return_value_g_strdup$1;
+    return_value_g_strdup_1=g_strdup("402 ERR NO SUCH CLIENT\r\n");
+    return return_value_g_strdup_1;
   }
 
   else
@@ -4588,12 +4588,12 @@ char * history_get_message_list(unsigned int client_id, signed int from, signed 
         return mlist->str;
       }
 
-      message = (struct anonymous$7 *)gl->data;
-      if(message == ((struct anonymous$7 *)NULL))
+      message = (struct anonymous_7 *)gl->data;
+      if(message == ((struct anonymous_7 *)NULL))
       {
-        char *return_value_g_strdup$2;
-        return_value_g_strdup$2=g_strdup("300 ERR INTERNAL\r\n");
-        return return_value_g_strdup$2;
+        char *return_value_g_strdup_2;
+        return_value_g_strdup_2=g_strdup("300 ERR INTERNAL\r\n");
+        return return_value_g_strdup_2;
       }
 
       g_string_append_printf(mlist, "241-");
@@ -4608,36 +4608,36 @@ char * history_get_message_list(unsigned int client_id, signed int from, signed 
 // file history.c line 300
 char * history_say_id(signed int fd, signed int id)
 {
-  struct anonymous$7 *msg;
-  struct anonymous$7 *new;
+  struct anonymous_7 *msg;
+  struct anonymous_7 *new;
   struct _GList *gl;
   gl=g_list_find_custom(message_history, (const void *)&id, (signed int (*)(const void *, const void *))p_msg_comp_id);
-  char *return_value_g_strdup$1;
-  char *return_value_g_strdup$2;
+  char *return_value_g_strdup_1;
+  char *return_value_g_strdup_2;
   if(gl == ((struct _GList *)NULL))
   {
-    return_value_g_strdup$1=g_strdup("406 ERR ID DOESNT EXIST\r\n");
-    return return_value_g_strdup$1;
+    return_value_g_strdup_1=g_strdup("406 ERR ID DOESNT EXIST\r\n");
+    return return_value_g_strdup_1;
   }
 
   else
   {
-    msg = (struct anonymous$7 *)gl->data;
-    if(msg == ((struct anonymous$7 *)NULL))
+    msg = (struct anonymous_7 *)gl->data;
+    if(msg == ((struct anonymous_7 *)NULL))
     {
-      return_value_g_strdup$2=g_strdup("300 ERR INTERNAL\r\n");
-      return return_value_g_strdup$2;
+      return_value_g_strdup_2=g_strdup("300 ERR INTERNAL\r\n");
+      return return_value_g_strdup_2;
     }
 
     else
     {
       MSG(4, "putting history message into queue\n");
-      struct anonymous$7 *return_value_spd_message_copy$3;
-      return_value_spd_message_copy$3=spd_message_copy(msg);
-      new = (struct anonymous$7 *)return_value_spd_message_copy$3;
-      char *return_value_g_strdup$4;
-      return_value_g_strdup$4=g_strdup("225 OK MESSAGE QUEUED\r\n");
-      return return_value_g_strdup$4;
+      struct anonymous_7 *return_value_spd_message_copy_3;
+      return_value_spd_message_copy_3=spd_message_copy(msg);
+      new = (struct anonymous_7 *)return_value_spd_message_copy_3;
+      char *return_value_g_strdup_4;
+      return_value_g_strdup_4=g_strdup("225 OK MESSAGE QUEUED\r\n");
+      return return_value_g_strdup_4;
     }
   }
 }
@@ -4646,25 +4646,25 @@ char * history_say_id(signed int fd, signed int id)
 // file ../../include/i18n.h line 38
 void i18n_init(void)
 {
-  char *return_value_setlocale$1;
-  return_value_setlocale$1=setlocale(6, "");
-  if(return_value_setlocale$1 == ((char *)NULL))
+  char *return_value_setlocale_1;
+  return_value_setlocale_1=setlocale(6, "");
+  if(return_value_setlocale_1 == ((char *)NULL))
   {
     perror("setlocale");
     exit(1);
   }
 
-  char *return_value_bindtextdomain$2;
-  return_value_bindtextdomain$2=bindtextdomain("speech-dispatcher", "/usr/share/locale");
-  if(return_value_bindtextdomain$2 == ((char *)NULL))
+  char *return_value_bindtextdomain_2;
+  return_value_bindtextdomain_2=bindtextdomain("speech-dispatcher", "/usr/share/locale");
+  if(return_value_bindtextdomain_2 == ((char *)NULL))
   {
     perror("bindtextdomain");
     exit(1);
   }
 
-  char *return_value_textdomain$3;
-  return_value_textdomain$3=textdomain("speech-dispatcher");
-  if(return_value_textdomain$3 == ((char *)NULL))
+  char *return_value_textdomain_3;
+  return_value_textdomain_3=textdomain("speech-dispatcher");
+  if(return_value_textdomain_3 == ((char *)NULL))
   {
     perror("textdomain");
     exit(1);
@@ -4674,7 +4674,7 @@ void i18n_init(void)
 
 // insert_index_marks
 // file index_marking.h line 36
-void insert_index_marks(struct anonymous$7 *msg, enum anonymous$5 ssml_mode)
+void insert_index_marks(struct anonymous_7 *msg, enum anonymous_5 ssml_mode)
 {
   struct _GString *marked_text;
   char *pos;
@@ -4686,7 +4686,7 @@ void insert_index_marks(struct anonymous$7 *msg, enum anonymous$5 ssml_mode)
   signed int inside_tag = 0;
   marked_text=g_string_new("");
   /* assertion msg != ((void *)0) */
-  assert(msg != (struct anonymous$7 *)(void *)0);
+  assert(msg != (struct anonymous_7 *)(void *)0);
   /* assertion msg->buf != ((void *)0) */
   assert(msg->buf != (char *)(void *)0);
   MSG2(5, "index_marking", "MSG before index marking: |%s|, ssml_mode=%d", msg->buf, ssml_mode);
@@ -4694,22 +4694,22 @@ void insert_index_marks(struct anonymous$7 *msg, enum anonymous$5 ssml_mode)
     g_string_printf(marked_text, "<speak>");
 
   pos = msg->buf;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$3;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_3;
   while(!(pos == ((char *)NULL)))
   {
     ret=spd_utf8_read_char(pos, character);
     if(ret == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_strlen$1=strlen(character);
-      tmp_if_expr$2 = return_value_strlen$1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_1=strlen(character);
+      tmp_if_expr_2 = return_value_strlen_1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       break;
 
     u_char=g_utf8_get_char(character);
@@ -4756,14 +4756,14 @@ void insert_index_marks(struct anonymous$7 *msg, enum anonymous$5 ssml_mode)
             pos=g_utf8_find_next_char(pos, (const char *)(void *)0);
             ret=spd_utf8_read_char(pos, character2);
             if(ret == 0)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
             {
-              return_value_strlen$3=strlen(character2);
-              tmp_if_expr$4 = return_value_strlen$3 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              return_value_strlen_3=strlen(character2);
+              tmp_if_expr_4 = return_value_strlen_3 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$4)
+            if(tmp_if_expr_4)
             {
               g_string_append_printf(marked_text, "%s", (const void *)character);
               MSG2(6, "index_marking", "MSG altering 1: |%s|", marked_text->str);
@@ -4771,9 +4771,9 @@ void insert_index_marks(struct anonymous$7 *msg, enum anonymous$5 ssml_mode)
             }
 
             u_char=g_utf8_get_char(character2);
-            signed int return_value_g_unichar_isspace$5;
-            return_value_g_unichar_isspace$5=g_unichar_isspace(u_char);
-            if(u_char == 38u || u_char == 60u || !(return_value_g_unichar_isspace$5 == 0))
+            signed int return_value_g_unichar_isspace_5;
+            return_value_g_unichar_isspace_5=g_unichar_isspace(u_char);
+            if(u_char == 38u || u_char == 60u || !(return_value_g_unichar_isspace_5 == 0))
             {
               g_string_append_printf(marked_text, "%s<mark name=\"__spd_%d\"/>", (const void *)character, n);
               n = n + 1;
@@ -4808,14 +4808,14 @@ signed int is_sb_speaking(void)
 {
   signed int ret;
   char *index_mark;
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   MSG(5, "is_sb_speaking(), SPEAKING=%d", SPEAKING);
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  if(!(speaking_module == ((struct anonymous$10 *)NULL)))
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  if(!(speaking_module == ((struct anonymous_10 *)NULL)))
   {
-    if(current_message == ((struct anonymous$7 *)NULL))
+    if(current_message == ((struct anonymous_7 *)NULL))
     {
       MSG(1, "Error: Current message is NULL in is_sb_speaking()");
       return -1;
@@ -4829,18 +4829,18 @@ signed int is_sb_speaking(void)
       return SPEAKING;
     }
 
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(index_mark, "no");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(index_mark, "no");
+    if(return_value_strcmp_1 == 0)
     {
       g_free((void *)index_mark);
       return SPEAKING;
     }
 
     MSG(5, "INDEX MARK: %s", index_mark);
-    signed int return_value_strcmp$6;
-    return_value_strcmp$6=strcmp(index_mark, "__spd_begin");
-    if(return_value_strcmp$6 == 0)
+    signed int return_value_strcmp_6;
+    return_value_strcmp_6=strcmp(index_mark, "__spd_begin");
+    if(return_value_strcmp_6 == 0)
     {
       SPEAKING = 1;
       if(settings->paused_while_speaking == 0)
@@ -4861,8 +4861,8 @@ signed int is_sb_speaking(void)
 
     else
     {
-      return_value_strcmp$5=strcmp(index_mark, "__spd_end");
-      if(return_value_strcmp$5 == 0)
+      return_value_strcmp_5=strcmp(index_mark, "__spd_end");
+      if(return_value_strcmp_5 == 0)
       {
         SPEAKING = 0;
         poll_count = 1;
@@ -4874,21 +4874,21 @@ signed int is_sb_speaking(void)
 
       else
       {
-        return_value_strcmp$4=strcmp(index_mark, "__spd_paused");
-        if(return_value_strcmp$4 == 0)
+        return_value_strcmp_4=strcmp(index_mark, "__spd_paused");
+        if(return_value_strcmp_4 == 0)
         {
           SPEAKING = 0;
           poll_count = 1;
           if(!((SPD_PAUSE & (signed int)settings->notification) == 0))
             report_pause(current_message);
 
-          current_message = (struct anonymous$7 *)(void *)0;
+          current_message = (struct anonymous_7 *)(void *)0;
         }
 
         else
         {
-          return_value_strcmp$3=strcmp(index_mark, "__spd_stopped");
-          if(return_value_strcmp$3 == 0)
+          return_value_strcmp_3=strcmp(index_mark, "__spd_stopped");
+          if(return_value_strcmp_3 == 0)
           {
             SPEAKING = 0;
             poll_count = 1;
@@ -4901,9 +4901,9 @@ signed int is_sb_speaking(void)
           else
             if(!(index_mark == ((char *)NULL)))
             {
-              signed int return_value_strncmp$2;
-              return_value_strncmp$2=strncmp(index_mark, "__spd_", (unsigned long int)6);
-              if(!(return_value_strncmp$2 == 0))
+              signed int return_value_strncmp_2;
+              return_value_strncmp_2=strncmp(index_mark, "__spd_", (unsigned long int)6);
+              if(!(return_value_strncmp_2 == 0))
               {
                 if(!((SPD_INDEX_MARKS & (signed int)settings->notification) == 0))
                   report_index_mark(current_message, index_mark);
@@ -4932,7 +4932,7 @@ signed int is_sb_speaking(void)
     SPEAKING = 0;
   }
   if(SPEAKING == 0)
-    speaking_module = (struct anonymous$10 *)(void *)0;
+    speaking_module = (struct anonymous_10 *)(void *)0;
 
   return SPEAKING;
 }
@@ -4942,18 +4942,18 @@ signed int is_sb_speaking(void)
 signed int isanum(const char *str)
 {
   signed int i;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  return_value___ctype_b_loc$2=__ctype_b_loc();
-  _Bool tmp_if_expr$1;
-  unsigned long int return_value_strlen$3;
-  if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*str]) == 0)
+  const unsigned short int **return_value___ctype_b_loc_2;
+  return_value___ctype_b_loc_2=__ctype_b_loc();
+  _Bool tmp_if_expr_1;
+  unsigned long int return_value_strlen_3;
+  if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*str]) == 0)
   {
     if((signed int)*str == 43)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)str[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)str[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       goto __CPROVER_DUMP_L3;
 
     return 0;
@@ -4967,13 +4967,13 @@ signed int isanum(const char *str)
     i = 1;
     do
     {
-      return_value_strlen$3=strlen(str);
-      if(!(return_value_strlen$3 + 18446744073709551615ul >= (unsigned long int)i))
+      return_value_strlen_3=strlen(str);
+      if(!(return_value_strlen_3 + 18446744073709551615ul >= (unsigned long int)i))
         break;
 
-      const unsigned short int **return_value___ctype_b_loc$4;
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)str[(signed long int)i]]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_4;
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)str[(signed long int)i]]) == 0)
         return 0;
 
       i = i + 1;
@@ -4988,7 +4988,7 @@ signed int isanum(const char *str)
 struct configoption_t * load_config_options(signed int *num_options)
 {
   struct configoption_t *options = (struct configoption_t *)(void *)0;
-  cl_spec_section = (struct anonymous$26 *)(void *)0;
+  cl_spec_section = (struct anonymous_26 *)(void *)0;
   options=add_config_option(options, num_options, "CommunicationMethod", 2, cb_CommunicationMethod, NULL, (unsigned long int)0);
   options=add_config_option(options, num_options, "SocketPath", 2, cb_SocketPath, NULL, (unsigned long int)0);
   options=add_config_option(options, num_options, "Port", 1, cb_Port, NULL, (unsigned long int)0);
@@ -5028,21 +5028,21 @@ struct configoption_t * load_config_options(signed int *num_options)
 // file configuration.h line 44
 void load_default_global_set_options()
 {
-  GlobalFDSet.priority = (enum anonymous$9)SPD_MESSAGE;
-  GlobalFDSet.msg_settings.punctuation_mode = (enum anonymous$2)SPD_PUNCT_NONE;
-  GlobalFDSet.msg_settings.spelling_mode = (enum anonymous$1)0;
+  GlobalFDSet.priority = (enum anonymous_9)SPD_MESSAGE;
+  GlobalFDSet.msg_settings.punctuation_mode = (enum anonymous_2)SPD_PUNCT_NONE;
+  GlobalFDSet.msg_settings.spelling_mode = (enum anonymous_1)0;
   GlobalFDSet.msg_settings.rate = 0;
   GlobalFDSet.msg_settings.pitch = 0;
   GlobalFDSet.msg_settings.volume = 0;
   GlobalFDSet.client_name=g_strdup("unknown:unknown:unknown");
   GlobalFDSet.msg_settings.voice.language=g_strdup("en");
   GlobalFDSet.output_module = (char *)(void *)0;
-  GlobalFDSet.msg_settings.voice_type = (enum anonymous$27)SPD_MALE1;
-  GlobalFDSet.msg_settings.cap_let_recogn = (enum anonymous$4)SPD_CAP_NONE;
+  GlobalFDSet.msg_settings.voice_type = (enum anonymous_27)SPD_MALE1;
+  GlobalFDSet.msg_settings.cap_let_recogn = (enum anonymous_4)SPD_CAP_NONE;
   GlobalFDSet.min_delay_progress = (unsigned int)2000;
   GlobalFDSet.pause_context = 0;
-  GlobalFDSet.ssml_mode = (enum anonymous$5)SPD_DATA_TEXT;
-  GlobalFDSet.notification = (enum anonymous$17)0;
+  GlobalFDSet.ssml_mode = (enum anonymous_5)SPD_DATA_TEXT;
+  GlobalFDSet.notification = (enum anonymous_17)0;
   GlobalFDSet.audio_output_method=g_strdup("pulse");
   GlobalFDSet.audio_oss_device=g_strdup("/dev/dsp");
   GlobalFDSet.audio_alsa_device=g_strdup("default");
@@ -5071,9 +5071,9 @@ void load_default_global_set_options()
 
 // load_output_module
 // file module.c line 122
-struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *mod_cfgfile, char *mod_dbgfile)
+struct anonymous_10 * load_output_module(char *mod_name, char *mod_prog, char *mod_cfgfile, char *mod_dbgfile)
 {
-  struct anonymous$10 *module;
+  struct anonymous_10 *module;
   signed int fr;
   char *argv[3l] = { ((char *)NULL), ((char *)NULL), ((char *)NULL) };
   signed int ret;
@@ -5083,38 +5083,38 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
   unsigned long int n = (unsigned long int)0;
   char s;
   struct _GString *reply;
-  _Bool tmp_if_expr$8;
-  signed int return_value_pipe$7;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
-  char *tmp_if_expr$11;
+  _Bool tmp_if_expr_8;
+  signed int return_value_pipe_7;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
+  char *tmp_if_expr_11;
   if(mod_name == ((char *)NULL))
-    return (struct anonymous$10 *)(void *)0;
+    return (struct anonymous_10 *)(void *)0;
 
   else
   {
-    void *return_value_g_malloc$1;
-    return_value_g_malloc$1=g_malloc(sizeof(struct anonymous$10) /*72ul*/ );
-    module = (struct anonymous$10 *)return_value_g_malloc$1;
-    char *return_value_g_strdup$2;
-    return_value_g_strdup$2=g_strdup(mod_name);
-    module->name = (char *)return_value_g_strdup$2;
-    char *return_value_spd_get_path$3;
-    return_value_spd_get_path$3=spd_get_path(mod_prog, "/usr/lib/speech-dispatcher-modules");
-    module->filename = (char *)return_value_spd_get_path$3;
+    void *return_value_g_malloc_1;
+    return_value_g_malloc_1=g_malloc(sizeof(struct anonymous_10) /*72ul*/ );
+    module = (struct anonymous_10 *)return_value_g_malloc_1;
+    char *return_value_g_strdup_2;
+    return_value_g_strdup_2=g_strdup(mod_name);
+    module->name = (char *)return_value_g_strdup_2;
+    char *return_value_spd_get_path_3;
+    return_value_spd_get_path_3=spd_get_path(mod_prog, "/usr/lib/speech-dispatcher-modules");
+    module->filename = (char *)return_value_spd_get_path_3;
     module_conf_dir=g_strdup_printf("%s/modules", SpeechdOptions.conf_dir);
-    char *return_value_spd_get_path$4;
-    return_value_spd_get_path$4=spd_get_path(mod_cfgfile, module_conf_dir);
-    module->configfilename = (char *)return_value_spd_get_path$4;
+    char *return_value_spd_get_path_4;
+    return_value_spd_get_path_4=spd_get_path(mod_cfgfile, module_conf_dir);
+    module->configfilename = (char *)return_value_spd_get_path_4;
     g_free((void *)module_conf_dir);
     if(!(mod_dbgfile == ((char *)NULL)))
       module->debugfilename=g_strdup(mod_dbgfile);
 
     else
       module->debugfilename = (char *)(void *)0;
-    signed int return_value_strcmp$5;
-    return_value_strcmp$5=strcmp(mod_name, "testing");
-    if(return_value_strcmp$5 == 0)
+    signed int return_value_strcmp_5;
+    return_value_strcmp_5=strcmp(mod_name, "testing");
+    if(return_value_strcmp_5 == 0)
     {
       module->pipe_in[(signed long int)1] = 1;
       module->pipe_out[(signed long int)0] = 0;
@@ -5123,20 +5123,20 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
 
     else
     {
-      signed int return_value_pipe$6;
-      return_value_pipe$6=pipe(module->pipe_in);
-      if(!(return_value_pipe$6 == 0))
-        tmp_if_expr$8 = (_Bool)1;
+      signed int return_value_pipe_6;
+      return_value_pipe_6=pipe(module->pipe_in);
+      if(!(return_value_pipe_6 == 0))
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
-        return_value_pipe$7=pipe(module->pipe_out);
-        tmp_if_expr$8 = return_value_pipe$7 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_pipe_7=pipe(module->pipe_out);
+        tmp_if_expr_8 = return_value_pipe_7 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$8)
+      if(tmp_if_expr_8)
       {
         MSG(3, "Can't open pipe! Module not loaded.");
-        return (struct anonymous$10 *)(void *)0;
+        return (struct anonymous_10 *)(void *)0;
       }
 
       else
@@ -5150,9 +5150,9 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
           module->stderr_redirect=open(module->debugfilename, 01 | 0100 | 01000, 0400 | 0200);
           if(module->stderr_redirect == -1)
           {
-            return_value___errno_location$9=__errno_location();
-            return_value_strerror$10=strerror(*return_value___errno_location$9);
-            MSG(1, "ERROR: Openning debug file for %s failed: (error=%d) %s", module->name, module->stderr_redirect, return_value_strerror$10);
+            return_value___errno_location_9=__errno_location();
+            return_value_strerror_10=strerror(*return_value___errno_location_9);
+            MSG(1, "ERROR: Openning debug file for %s failed: (error=%d) %s", module->name, module->stderr_redirect, return_value_strerror_10);
           }
 
         }
@@ -5169,7 +5169,7 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
         if(fr == -1)
         {
           printf("Can't fork, error! Module not loaded.");
-          return (struct anonymous$10 *)(void *)0;
+          return (struct anonymous_10 *)(void *)0;
         }
 
         else
@@ -5187,17 +5187,17 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
 
             execvp(argv[(signed long int)0], argv);
             if(!(argv[1l] == ((char *)NULL)))
-              tmp_if_expr$11 = argv[(signed long int)1];
+              tmp_if_expr_11 = argv[(signed long int)1];
 
             else
-              tmp_if_expr$11 = "<none>";
-            signed int *return_value___errno_location$12;
-            return_value___errno_location$12=__errno_location();
-            signed int *return_value___errno_location$13;
-            return_value___errno_location$13=__errno_location();
-            char *return_value_strerror$14;
-            return_value_strerror$14=strerror(*return_value___errno_location$13);
-            MSG(1, "Exec of module \"%s\" with config \"%s\" failed with error %d: %s", argv[(signed long int)0], tmp_if_expr$11, *return_value___errno_location$12, return_value_strerror$14);
+              tmp_if_expr_11 = "<none>";
+            signed int *return_value___errno_location_12;
+            return_value___errno_location_12=__errno_location();
+            signed int *return_value___errno_location_13;
+            return_value___errno_location_13=__errno_location();
+            char *return_value_strerror_14;
+            return_value_strerror_14=strerror(*return_value___errno_location_13);
+            MSG(1, "Exec of module \"%s\" with config \"%s\" failed with error %d: %s", argv[(signed long int)0], tmp_if_expr_11, *return_value___errno_location_12, return_value_strerror_14);
             exit(1);
           }
 
@@ -5210,7 +5210,7 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
           {
             MSG(2, "ERROR: Can't load output module %s with binary %s. Bad filename in configuration?", module->name, module->filename);
             destroy_module(module);
-            return (struct anonymous$10 *)(void *)0;
+            return (struct anonymous_10 *)(void *)0;
           }
 
           else
@@ -5234,33 +5234,33 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
             }
 
             MSG(4, "Trying to initialize %s.", module->name);
-            signed int return_value_output_send_data$15;
-            return_value_output_send_data$15=output_send_data("INIT\n", module, 0);
-            if(!(return_value_output_send_data$15 == 0))
+            signed int return_value_output_send_data_15;
+            return_value_output_send_data_15=output_send_data("INIT\n", module, 0);
+            if(!(return_value_output_send_data_15 == 0))
             {
               MSG(1, "ERROR: Something wrong with %s, can't initialize", module->name);
               output_close(module);
-              return (struct anonymous$10 *)(void *)0;
+              return (struct anonymous_10 *)(void *)0;
             }
 
             else
             {
               reply=g_string_new("\n---------------\n");
-              signed int return_value_dup$16;
-              return_value_dup$16=dup(module->pipe_out[(signed long int)0]);
-              f=fdopen(return_value_dup$16, "r");
+              signed int return_value_dup_16;
+              return_value_dup_16=dup(module->pipe_out[(signed long int)0]);
+              f=fdopen(return_value_dup_16, "r");
               while((_Bool)1)
               {
-                signed long int return_value_spd_getline$17;
-                return_value_spd_getline$17=spd_getline(&rep_line, &n, f);
-                ret = (signed int)return_value_spd_getline$17;
+                signed long int return_value_spd_getline_17;
+                return_value_spd_getline_17=spd_getline(&rep_line, &n, f);
+                ret = (signed int)return_value_spd_getline_17;
                 if(!(ret >= 1))
                 {
                   MSG(1, "ERROR: Bad syntax from output module %s 1", module->name);
                   if(!(rep_line == ((char *)NULL)))
                     g_free((void *)rep_line);
 
-                  return (struct anonymous$10 *)(void *)0;
+                  return (struct anonymous_10 *)(void *)0;
                 }
 
                 /* assertion rep_line != ((void *)0) */
@@ -5270,7 +5270,7 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
                 {
                   MSG(1, "ERROR: Bad syntax from output module %s 2", module->name);
                   g_free((void *)rep_line);
-                  return (struct anonymous$10 *)(void *)0;
+                  return (struct anonymous_10 *)(void *)0;
                 }
 
                 if(!((signed int)rep_line[3l] == 45))
@@ -5292,7 +5292,7 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
                 waitpid(module->pid, (signed int *)(void *)0, 1);
                 destroy_module(module);
                 g_string_free(reply, (signed int)!(0 != 0));
-                return (struct anonymous$10 *)(void *)0;
+                return (struct anonymous_10 *)(void *)0;
               }
 
               else
@@ -5315,7 +5315,7 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
                   kill(module->pid, 9);
                   waitpid(module->pid, (signed int *)(void *)0, 1);
                   destroy_module(module);
-                  return (struct anonymous$10 *)(void *)0;
+                  return (struct anonymous_10 *)(void *)0;
                 }
 
                 else
@@ -5328,7 +5328,7 @@ struct anonymous$10 * load_output_module(char *mod_name, char *mod_prog, char *m
                     kill(module->pid, 9);
                     waitpid(module->pid, (signed int *)(void *)0, 1);
                     destroy_module(module);
-                    return (struct anonymous$10 *)(void *)0;
+                    return (struct anonymous_10 *)(void *)0;
                   }
 
                   else
@@ -5351,16 +5351,16 @@ void logging_init(void)
   file_name=g_strdup_printf("%s/speech-dispatcher.log", SpeechdOptions.log_dir);
   /* assertion file_name != ((void *)0) */
   assert(file_name != (char *)(void *)0);
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(file_name, "stdout", (unsigned long int)6);
-  signed int return_value_strncmp$1;
-  if(return_value_strncmp$2 == 0)
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(file_name, "stdout", (unsigned long int)6);
+  signed int return_value_strncmp_1;
+  if(return_value_strncmp_2 == 0)
     logfile = stdout;
 
   else
   {
-    return_value_strncmp$1=strncmp(file_name, "stderr", (unsigned long int)6);
-    if(return_value_strncmp$1 == 0)
+    return_value_strncmp_1=strncmp(file_name, "stderr", (unsigned long int)6);
+    if(return_value_strncmp_1 == 0)
       logfile = stderr;
 
     else
@@ -5390,7 +5390,7 @@ __CPROVER_DUMP_L6:
 // file speechd.c line 920
 signed int main(signed int argc, char **argv)
 {
-  struct anonymous$23 testfds;
+  struct anonymous_23 testfds;
   signed int fd;
   signed int ret;
   char *spawn_communication_method = (char *)(void *)0;
@@ -5441,21 +5441,21 @@ signed int main(signed int argc, char **argv)
   if(SpeechdOptions.pid_file == ((char *)NULL))
   {
     SpeechdOptions.pid_file=g_strdup_printf("%s/pid/speech-dispatcher.pid", SpeechdOptions.runtime_speechd_dir);
-    char *return_value_g_path_get_dirname$1;
-    return_value_g_path_get_dirname$1=g_path_get_dirname(SpeechdOptions.pid_file);
-    mkdir(return_value_g_path_get_dirname$1, (unsigned int)(0400 | 0200 | 0100));
+    char *return_value_g_path_get_dirname_1;
+    return_value_g_path_get_dirname_1=g_path_get_dirname(SpeechdOptions.pid_file);
+    mkdir(return_value_g_path_get_dirname_1, (unsigned int)(0400 | 0200 | 0100));
   }
 
   if(SpeechdOptions.conf_dir == ((char *)NULL))
   {
     SpeechdOptions.conf_dir=g_build_filename(user_config_dir, (const void *)"speech-dispatcher", (void *)0);
-    signed int return_value_g_file_test$3;
-    return_value_g_file_test$3=g_file_test(SpeechdOptions.conf_dir, (enum anonymous$15)G_FILE_TEST_IS_DIR);
-    if(return_value_g_file_test$3 == 0)
+    signed int return_value_g_file_test_3;
+    return_value_g_file_test_3=g_file_test(SpeechdOptions.conf_dir, (enum anonymous_15)G_FILE_TEST_IS_DIR);
+    if(return_value_g_file_test_3 == 0)
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp("/etc/speech-dispatcher", "");
-      if(!(return_value_strcmp$2 == 0))
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp("/etc/speech-dispatcher", "");
+      if(!(return_value_strcmp_2 == 0))
         SpeechdOptions.conf_dir=g_strdup("/etc/speech-dispatcher");
 
       else
@@ -5465,9 +5465,9 @@ signed int main(signed int argc, char **argv)
   }
 
   SpeechdOptions.conf_file=g_strdup_printf("%s/speechd.conf", SpeechdOptions.conf_dir);
-  signed int return_value_create_pid_file$4;
-  return_value_create_pid_file$4=create_pid_file();
-  if(!(return_value_create_pid_file$4 == 0))
+  signed int return_value_create_pid_file_4;
+  return_value_create_pid_file_4=create_pid_file();
+  if(!(return_value_create_pid_file_4 == 0))
     exit(1);
 
   if(!(SpeechdOptions.spawn == 0))
@@ -5485,8 +5485,8 @@ signed int main(signed int argc, char **argv)
       exit(1);
     }
 
-    regexp=g_regex_new("^[ ]*DisableAutoSpawn", (enum anonymous$19)G_REGEX_MULTILINE, (enum anonymous$20)0, (struct _GError **)(void *)0);
-    result=g_regex_match(regexp, config_contents, (enum anonymous$20)0, (struct _GMatchInfo **)(void *)0);
+    regexp=g_regex_new("^[ ]*DisableAutoSpawn", (enum anonymous_19)G_REGEX_MULTILINE, (enum anonymous_20)0, (struct _GError **)(void *)0);
+    result=g_regex_match(regexp, config_contents, (enum anonymous_20)0, (struct _GMatchInfo **)(void *)0);
     if(!(result == 0))
     {
       MSG(-1, "Autospawn requested but disabled in configuration");
@@ -5498,7 +5498,7 @@ signed int main(signed int argc, char **argv)
     MSG(2, "Starting Speech Dispatcher due to auto-spawn");
   }
 
-  ret=pthread_mutex_init(&logging_mutex, (const union anonymous$13 *)(void *)0);
+  ret=pthread_mutex_init(&logging_mutex, (const union anonymous_13 *)(void *)0);
   if(!(ret == 0))
   {
     fprintf(stderr, "Mutex initialization failed");
@@ -5510,9 +5510,9 @@ signed int main(signed int argc, char **argv)
   signal(13, (void (*)(signed int))1);
   signal(10, speechd_reload_dead_modules);
   speechd_init();
-  signed int return_value_strcmp$5;
-  return_value_strcmp$5=strcmp(SpeechdOptions.socket_path, "default");
-  if(return_value_strcmp$5 == 0)
+  signed int return_value_strcmp_5;
+  return_value_strcmp_5=strcmp(SpeechdOptions.socket_path, "default");
+  if(return_value_strcmp_5 == 0)
   {
     struct _GString *socket_filename;
     socket_filename=g_string_new("");
@@ -5530,15 +5530,15 @@ signed int main(signed int argc, char **argv)
     g_string_free(socket_filename, 1);
   }
 
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
   if(!(SpeechdOptions.spawn == 0))
   {
     if(!(spawn_communication_method == ((char *)NULL)))
     {
-      signed int return_value_strcmp$9;
-      return_value_strcmp$9=strcmp(spawn_communication_method, SpeechdOptions.communication_method);
-      if(!(return_value_strcmp$9 == 0))
+      signed int return_value_strcmp_9;
+      return_value_strcmp_9=strcmp(spawn_communication_method, SpeechdOptions.communication_method);
+      if(!(return_value_strcmp_9 == 0))
       {
         MSG(-1, "Autospawn failed: Mismatch in communication methods. Client requests %s, most probably due to its configuration or the value of the SPEECHD_ADDRESS environment variable, but the server is configured to provide the %s method.", spawn_communication_method, SpeechdOptions.communication_method);
         exit(1);
@@ -5546,9 +5546,9 @@ signed int main(signed int argc, char **argv)
 
       else
       {
-        signed int return_value_strcmp$8;
-        return_value_strcmp$8=strcmp(SpeechdOptions.communication_method, "inet_socket");
-        if(return_value_strcmp$8 == 0)
+        signed int return_value_strcmp_8;
+        return_value_strcmp_8=strcmp(SpeechdOptions.communication_method, "inet_socket");
+        if(return_value_strcmp_8 == 0)
         {
           if(!(spawn_port == 0))
           {
@@ -5564,13 +5564,13 @@ signed int main(signed int argc, char **argv)
 
         else
         {
-          return_value_strcmp$7=strcmp(SpeechdOptions.communication_method, "unix_socket");
-          if(return_value_strcmp$7 == 0)
+          return_value_strcmp_7=strcmp(SpeechdOptions.communication_method, "unix_socket");
+          if(return_value_strcmp_7 == 0)
           {
             if(!(spawn_socket_path == ((char *)NULL)))
             {
-              return_value_strcmp$6=strcmp(spawn_socket_path, SpeechdOptions.socket_path);
-              if(!(return_value_strcmp$6 == 0))
+              return_value_strcmp_6=strcmp(spawn_socket_path, SpeechdOptions.socket_path);
+              if(!(return_value_strcmp_6 == 0))
               {
                 MSG(-1, "Autospawn failed: Mismatch in socket names. The server is configured to provide a socket interface in %s, but the client requests a different path: %s. This is most probably due to the client application configuration or the value of the SPEECHD_ADDRESS environment variable.", SpeechdOptions.socket_path, spawn_socket_path);
                 exit(1);
@@ -5591,11 +5591,11 @@ signed int main(signed int argc, char **argv)
     g_free((void *)spawn_socket_path);
   }
 
-  signed int return_value_strcmp$13;
-  return_value_strcmp$13=strcmp(SpeechdOptions.communication_method, "inet_socket");
-  signed int return_value_strcmp$12;
-  signed int return_value_g_unlink$10;
-  if(return_value_strcmp$13 == 0)
+  signed int return_value_strcmp_13;
+  return_value_strcmp_13=strcmp(SpeechdOptions.communication_method, "inet_socket");
+  signed int return_value_strcmp_12;
+  signed int return_value_g_unlink_10;
+  if(return_value_strcmp_13 == 0)
   {
     MSG(4, "Speech Dispatcher will use inet port %d", SpeechdOptions.port);
     server_socket=make_inet_socket(SpeechdOptions.port);
@@ -5603,16 +5603,16 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    return_value_strcmp$12=strcmp(SpeechdOptions.communication_method, "unix_socket");
-    if(return_value_strcmp$12 == 0)
+    return_value_strcmp_12=strcmp(SpeechdOptions.communication_method, "unix_socket");
+    if(return_value_strcmp_12 == 0)
     {
       MSG(4, "Speech Dispatcher will use local unix socket: %s", SpeechdOptions.socket_path);
-      signed int return_value_g_file_test$11;
-      return_value_g_file_test$11=g_file_test(SpeechdOptions.socket_path, (enum anonymous$15)G_FILE_TEST_EXISTS);
-      if(!(return_value_g_file_test$11 == 0))
+      signed int return_value_g_file_test_11;
+      return_value_g_file_test_11=g_file_test(SpeechdOptions.socket_path, (enum anonymous_15)G_FILE_TEST_EXISTS);
+      if(!(return_value_g_file_test_11 == 0))
       {
-        return_value_g_unlink$10=g_unlink(SpeechdOptions.socket_path);
-        if(return_value_g_unlink$10 == -1)
+        return_value_g_unlink_10=g_unlink(SpeechdOptions.socket_path);
+        if(return_value_g_unlink_10 == -1)
         {
           fatal_error();
           MSG(-1, "Fatal error [%s:%d]:Local socket file exists but impossible to delete. Wrong permissions?", (const void *)"speechd.c", 1156);
@@ -5633,9 +5633,9 @@ signed int main(signed int argc, char **argv)
   }
   if((signed int)spd_mode == SPD_MODE_DAEMON)
   {
-    signed int return_value_daemon$14;
-    return_value_daemon$14=daemon(0, 0);
-    if(!(return_value_daemon$14 == 0))
+    signed int return_value_daemon_14;
+    return_value_daemon_14=daemon(0, 0);
+    if(!(return_value_daemon_14 == 0))
     {
       fatal_error();
       MSG(-1, "Fatal error [%s:%d]:Can't fork child process", (const void *)"speechd.c", 1166);
@@ -5643,9 +5643,9 @@ signed int main(signed int argc, char **argv)
     }
 
     unlink(SpeechdOptions.pid_file);
-    signed int return_value_create_pid_file$15;
-    return_value_create_pid_file$15=create_pid_file();
-    if(return_value_create_pid_file$15 == -1)
+    signed int return_value_create_pid_file_15;
+    return_value_create_pid_file_15=create_pid_file();
+    if(return_value_create_pid_file_15 == -1)
       return -1;
 
   }
@@ -5663,7 +5663,7 @@ signed int main(signed int argc, char **argv)
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$23) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_23) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&readfds)->fds_bits[(signed long int)(server_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->fds_bits[(signed long int)(server_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << server_socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -5672,9 +5672,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)1)
   {
     testfds = readfds;
-    signed int return_value_select$17;
-    return_value_select$17=select(1024, &testfds, (struct anonymous$23 *)0, (struct anonymous$23 *)0, (struct timeval *)(void *)0);
-    if(return_value_select$17 >= 1)
+    signed int return_value_select_17;
+    return_value_select_17=select(1024, &testfds, (struct anonymous_23 *)0, (struct anonymous_23 *)0, (struct timeval *)(void *)0);
+    if(return_value_select_17 >= 1)
     {
       fd = 0;
       for( ; SpeechdStatus.max_fd >= fd && !(fd >= 1024); fd = fd + 1)
@@ -5703,9 +5703,9 @@ signed int main(signed int argc, char **argv)
 
             else
             {
-              signed int return_value_serve$16;
-              return_value_serve$16=serve(fd);
-              if(return_value_serve$16 == -1)
+              signed int return_value_serve_16;
+              return_value_serve_16=serve(fd);
+              if(return_value_serve_16 == -1)
                 MSG(2, "Error: Failed to serve client on fd %d!", fd);
 
             }
@@ -5722,9 +5722,9 @@ signed int main(signed int argc, char **argv)
 signed int make_inet_socket(const signed int port)
 {
   struct sockaddr_in server_address;
-  signed int make_inet_socket$$1$$server_socket;
-  make_inet_socket$$1$$server_socket=socket(2, 1, 0);
-  if(!(make_inet_socket$$1$$server_socket >= 0))
+  signed int make_inet_socket__1__server_socket;
+  make_inet_socket__1__server_socket=socket(2, 1, 0);
+  if(!(make_inet_socket__1__server_socket >= 0))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Can't create inet socket", (const void *)"speechd.c", 882);
@@ -5732,9 +5732,9 @@ signed int make_inet_socket(const signed int port)
   }
 
   const signed int flag = 1;
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(make_inet_socket$$1$$server_socket, 1, 2, (const void *)&flag, (unsigned int)sizeof(signed int) /*4ul*/ );
-  if(!(return_value_setsockopt$1 == 0))
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(make_inet_socket__1__server_socket, 1, 2, (const void *)&flag, (unsigned int)sizeof(signed int) /*4ul*/ );
+  if(!(return_value_setsockopt_1 == 0))
     MSG(2, "Error: Setting socket option failed!");
 
   server_address.sin_family = (unsigned short int)2;
@@ -5745,35 +5745,35 @@ signed int make_inet_socket(const signed int port)
     server_address.sin_addr.s_addr=htonl((unsigned int)0x00000000);
   server_address.sin_port=htons((unsigned short int)port);
   MSG(4, "Openning inet socket connection");
-  signed int return_value_bind$4;
-  return_value_bind$4=bind(make_inet_socket$$1$$server_socket, (struct sockaddr *)&server_address, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(return_value_bind$4 == -1)
+  signed int return_value_bind_4;
+  return_value_bind_4=bind(make_inet_socket__1__server_socket, (struct sockaddr *)&server_address, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(return_value_bind_4 == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    MSG(-1, "bind() failed: %s", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    MSG(-1, "bind() failed: %s", return_value_strerror_3);
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Couldn't open inet socket, try a few minutes later.", (const void *)"speechd.c", 906);
     exit(1);
   }
 
-  signed int return_value_listen$7;
-  return_value_listen$7=listen(make_inet_socket$$1$$server_socket, 50);
-  if(return_value_listen$7 == -1)
+  signed int return_value_listen_7;
+  return_value_listen_7=listen(make_inet_socket__1__server_socket, 50);
+  if(return_value_listen_7 == -1)
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    MSG(2, "ERRNO:%s", return_value_strerror$6);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    MSG(2, "ERRNO:%s", return_value_strerror_6);
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:listen() failed for inet socket, another Speech Dispatcher running?", (const void *)"speechd.c", 912);
     exit(1);
   }
 
-  return make_inet_socket$$1$$server_socket;
+  return make_inet_socket__1__server_socket;
 }
 
 // make_local_socket
@@ -5794,27 +5794,27 @@ signed int make_local_socket(const char *filename)
   name.sun_family = (unsigned short int)1;
   strncpy(name.sun_path, filename, sizeof(char [108l]) /*108ul*/ );
   name.sun_path[(signed long int)(sizeof(char [108l]) /*108ul*/  - (unsigned long int)1)] = (char)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((&name)->sun_path);
-  size = (unsigned long int)((struct sockaddr_un *)0)->sun_path + return_value_strlen$1;
-  signed int return_value_bind$2;
-  return_value_bind$2=bind(sock, (struct sockaddr *)&name, (unsigned int)size);
-  if(!(return_value_bind$2 >= 0))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((&name)->sun_path);
+  size = (unsigned long int)((struct sockaddr_un *)0)->sun_path + return_value_strlen_1;
+  signed int return_value_bind_2;
+  return_value_bind_2=bind(sock, (struct sockaddr *)&name, (unsigned int)size);
+  if(!(return_value_bind_2 >= 0))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Can't bind local socket", (const void *)"speechd.c", 863);
     exit(1);
   }
 
-  signed int return_value_listen$5;
-  return_value_listen$5=listen(sock, 50);
-  if(return_value_listen$5 == -1)
+  signed int return_value_listen_5;
+  return_value_listen_5=listen(sock, 50);
+  if(return_value_listen_5 == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    MSG(2, "listen failed: ERRNO:%s", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    MSG(2, "listen failed: ERRNO:%s", return_value_strerror_4);
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:listen() failed for local socket", (const void *)"speechd.c", 868);
     exit(1);
@@ -5825,7 +5825,7 @@ signed int make_local_socket(const char *filename)
 
 // mem_free_fdset
 // file alloc.h line 14
-void mem_free_fdset(struct anonymous$11 *fdset)
+void mem_free_fdset(struct anonymous_11 *fdset)
 {
   g_free((void *)fdset->client_name);
   g_free((void *)fdset->msg_settings.voice.language);
@@ -5841,9 +5841,9 @@ void mem_free_fdset(struct anonymous$11 *fdset)
 
 // mem_free_message
 // file alloc.h line 11
-void mem_free_message(struct anonymous$7 *msg)
+void mem_free_message(struct anonymous_7 *msg)
 {
-  if(!(msg == ((struct anonymous$7 *)NULL)))
+  if(!(msg == ((struct anonymous_7 *)NULL)))
   {
     g_free((void *)msg->buf);
     mem_free_fdset(&msg->settings);
@@ -5856,7 +5856,7 @@ void mem_free_message(struct anonymous$7 *msg)
 // file history.c line 41
 signed int message_compare_id(const void *element, const void *value)
 {
-  signed int ret = (signed int)(((struct anonymous$7 *)element)->id - (unsigned int)*((signed int *)value));
+  signed int ret = (signed int)(((struct anonymous_7 *)element)->id - (unsigned int)*((signed int *)value));
   return ret;
 }
 
@@ -5864,7 +5864,7 @@ signed int message_compare_id(const void *element, const void *value)
 // file speaking.c line 1046
 signed int message_has_uid(const void *msg, const void *uid)
 {
-  if(((struct anonymous$7 *)msg)->settings.uid == (unsigned int)*((signed int *)uid))
+  if(((struct anonymous_7 *)msg)->settings.uid == (unsigned int)*((signed int *)uid))
     return 0;
 
   else
@@ -5875,15 +5875,15 @@ signed int message_has_uid(const void *msg, const void *uid)
 // file speaking.c line 872
 signed int message_nto_speak(const void *data, const void *nothing)
 {
-  struct anonymous$11 *global_settings;
-  struct anonymous$7 *message = (struct anonymous$7 *)data;
-  if(message == ((struct anonymous$7 *)NULL))
+  struct anonymous_11 *global_settings;
+  struct anonymous_7 *message = (struct anonymous_7 *)data;
+  if(message == ((struct anonymous_7 *)NULL))
     return 0;
 
   else
   {
     global_settings=get_client_settings_by_fd(message->settings.fd);
-    if(global_settings == ((struct anonymous$11 *)NULL))
+    if(global_settings == ((struct anonymous_11 *)NULL))
       return 0;
 
     else
@@ -5900,9 +5900,9 @@ signed int message_nto_speak(const void *data, const void *nothing)
 void module_add_load_request(char *module_name, char *module_cmd, char *module_cfgfile, char *module_dbgfile)
 {
   char **module_params = (char **)(void *)0;
-  signed int return_value_module_already_requested$1;
-  return_value_module_already_requested$1=module_already_requested(module_name, module_cmd, module_cfgfile);
-  if(!(return_value_module_already_requested$1 == 0))
+  signed int return_value_module_already_requested_1;
+  return_value_module_already_requested_1=module_already_requested(module_name, module_cmd, module_cfgfile);
+  if(!(return_value_module_already_requested_1 == 0))
   {
     MSG(1, "Load request for module %s with command %s and configuration file %s was previously received; ignoring the second one.", module_name, module_cmd, module_cfgfile);
     g_free((void *)module_name);
@@ -5913,9 +5913,9 @@ void module_add_load_request(char *module_name, char *module_cmd, char *module_c
 
   else
   {
-    void *return_value_g_malloc$2;
-    return_value_g_malloc$2=g_malloc((unsigned long int)4 * sizeof(char *) /*8ul*/ );
-    module_params = (char **)return_value_g_malloc$2;
+    void *return_value_g_malloc_2;
+    return_value_g_malloc_2=g_malloc((unsigned long int)4 * sizeof(char *) /*8ul*/ );
+    module_params = (char **)return_value_g_malloc_2;
     module_params[(signed long int)0] = module_name;
     module_params[(signed long int)1] = module_cmd;
     module_params[(signed long int)2] = module_cfgfile;
@@ -5930,32 +5930,32 @@ void module_add_load_request(char *module_name, char *module_cmd, char *module_c
 signed int module_already_requested(char *module_name, char *module_cmd, char *module_cfgfile)
 {
   struct _GList *lp = requested_modules;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
   for( ; !(lp == ((struct _GList *)NULL)); lp = lp->next)
   {
     char **params = (char **)lp->data;
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(module_name, params[(signed long int)0]);
-    if(return_value_strcmp$1 == 0)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(module_name, params[(signed long int)0]);
+    if(return_value_strcmp_1 == 0)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$2=strcmp(module_cmd, params[(signed long int)1]);
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(module_cmd, params[(signed long int)1]);
+      if(return_value_strcmp_2 == 0)
       {
-        return_value_strcmp$3=strcmp(module_cfgfile, params[(signed long int)2]);
-        tmp_if_expr$4 = return_value_strcmp$3 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_3=strcmp(module_cfgfile, params[(signed long int)2]);
+        tmp_if_expr_4 = return_value_strcmp_3 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return (signed int)!(0 != 0);
 
   }
@@ -5968,10 +5968,10 @@ void module_load_requested_modules(void)
 {
   while(!(requested_modules == ((struct _GList *)NULL)))
   {
-    struct anonymous$10 *new_module;
+    struct anonymous_10 *new_module;
     char **module_params = (char **)requested_modules->data;
     new_module=load_output_module(module_params[(signed long int)0], module_params[(signed long int)1], module_params[(signed long int)2], module_params[(signed long int)3]);
-    if(!(new_module == ((struct anonymous$10 *)NULL)))
+    if(!(new_module == ((struct anonymous_10 *)NULL)))
       output_modules=g_list_append(output_modules, (void *)new_module);
 
     g_free((void *)module_params[(signed long int)0]);
@@ -5998,9 +5998,9 @@ void options_parse(signed int argc, char **argv)
   assert(argc > 0);
   /* assertion argv */
   assert(argv != ((char **)NULL));
-  signed long int return_value_strtol$1;
-  signed long int return_value_strtol$2;
-  char *return_value_getenv$3;
+  signed long int return_value_strtol_1;
+  signed long int return_value_strtol_2;
+  char *return_value_getenv_3;
   while((_Bool)1)
   {
     option_index = 0;
@@ -6012,18 +6012,18 @@ void options_parse(signed int argc, char **argv)
     {
       case 100:
       {
-        spd_mode = (enum anonymous$25)SPD_MODE_DAEMON;
+        spd_mode = (enum anonymous_25)SPD_MODE_DAEMON;
         break;
       }
       case 115:
       {
-        spd_mode = (enum anonymous$25)SPD_MODE_SINGLE;
+        spd_mode = (enum anonymous_25)SPD_MODE_SINGLE;
         break;
       }
       case 108:
       {
-        return_value_strtol$1=strtol(optarg, &tail_ptr, 10);
-        val = (signed int)return_value_strtol$1;
+        return_value_strtol_1=strtol(optarg, &tail_ptr, 10);
+        val = (signed int)return_value_strtol_1;
         if(!(tail_ptr == optarg))
         {
           SpeechdOptions.log_level_set = 1;
@@ -6052,8 +6052,8 @@ void options_parse(signed int argc, char **argv)
       }
       case 112:
       {
-        return_value_strtol$2=strtol(optarg, &tail_ptr, 10);
-        val = (signed int)return_value_strtol$2;
+        return_value_strtol_2=strtol(optarg, &tail_ptr, 10);
+        val = (signed int)return_value_strtol_2;
         if(!(tail_ptr == optarg))
         {
           SpeechdOptions.port_set = 1;
@@ -6085,8 +6085,8 @@ void options_parse(signed int argc, char **argv)
       }
       case 68:
       {
-        return_value_getenv$3=getenv("TMPDIR");
-        tmpdir=g_strdup(return_value_getenv$3);
+        return_value_getenv_3=getenv("TMPDIR");
+        tmpdir=g_strdup(return_value_getenv_3);
         if(tmpdir == ((char *)NULL))
           tmpdir=g_strdup("/tmp");
 
@@ -6095,16 +6095,16 @@ void options_parse(signed int argc, char **argv)
         ret=mkdir(SpeechdOptions.debug_destination, (unsigned int)(0400 | 0200 | 0100));
         if(!(ret == 0))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          char *return_value_strerror$6;
-          return_value_strerror$6=strerror(*return_value___errno_location$5);
-          MSG(1, "Can't create additional debug destination in %s, reason %d-%s", SpeechdOptions.debug_destination, *return_value___errno_location$4, return_value_strerror$6);
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          if(*return_value___errno_location$7 == 17)
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          char *return_value_strerror_6;
+          return_value_strerror_6=strerror(*return_value___errno_location_5);
+          MSG(1, "Can't create additional debug destination in %s, reason %d-%s", SpeechdOptions.debug_destination, *return_value___errno_location_4, return_value_strerror_6);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          if(*return_value___errno_location_7 == 17)
             MSG(1, "Debugging directory %s already exists, please delete it first", SpeechdOptions.debug_destination);
 
           exit(1);
@@ -6115,13 +6115,13 @@ void options_parse(signed int argc, char **argv)
         g_free((void *)debug_logfile_path);
         if(debug_logfile == ((struct _IO_FILE *)NULL))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          char *return_value_strerror$10;
-          return_value_strerror$10=strerror(*return_value___errno_location$9);
-          MSG(1, "Error: can't open additional debug logging file %s [%d-%s]!\n", debug_logfile_path, *return_value___errno_location$8, return_value_strerror$10);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          char *return_value_strerror_10;
+          return_value_strerror_10=strerror(*return_value___errno_location_9);
+          MSG(1, "Error: can't open additional debug logging file %s [%d-%s]!\n", debug_logfile_path, *return_value___errno_location_8, return_value_strerror_10);
           exit(1);
         }
 
@@ -6152,69 +6152,69 @@ void options_print_help(char **argv)
   assert(argv != ((char **)NULL));
   /* assertion argv[0] */
   assert(argv[(signed long int)0] != ((char *)NULL));
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Usage: ");
-  printf(return_value_gettext$1);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Usage: ");
+  printf(return_value_gettext_1);
   printf("%s [-{d|s}] [-l {1|2|3|4|5}] [-c com_method] [-S socket_path] [-p port] | [-v] | [-h]\n", argv[(signed long int)0]);
-  char *return_value_gettext$2;
-  return_value_gettext$2=gettext("%s -- Common interface for Speech Synthesis %s\n\n");
-  printf(return_value_gettext$2, (const void *)"Speech Dispatcher", (const void *)"(GNU GPL)");
+  char *return_value_gettext_2;
+  return_value_gettext_2=gettext("%s -- Common interface for Speech Synthesis %s\n\n");
+  printf(return_value_gettext_2, (const void *)"Speech Dispatcher", (const void *)"(GNU GPL)");
   printf("-d, --run-daemon\t");
-  char *return_value_gettext$3;
-  return_value_gettext$3=gettext("Run as a daemon\n");
-  printf(return_value_gettext$3);
+  char *return_value_gettext_3;
+  return_value_gettext_3=gettext("Run as a daemon\n");
+  printf(return_value_gettext_3);
   printf("-s, --run-single\t");
-  char *return_value_gettext$4;
-  return_value_gettext$4=gettext("Run as single application\n");
-  printf(return_value_gettext$4);
+  char *return_value_gettext_4;
+  return_value_gettext_4=gettext("Run as single application\n");
+  printf(return_value_gettext_4);
   printf("-a, --spawn\t\t");
-  char *return_value_gettext$5;
-  return_value_gettext$5=gettext("Start only if autospawn is not disabled\n");
-  printf(return_value_gettext$5);
+  char *return_value_gettext_5;
+  return_value_gettext_5=gettext("Start only if autospawn is not disabled\n");
+  printf(return_value_gettext_5);
   printf("-l, --log-level\t\t");
-  char *return_value_gettext$6;
-  return_value_gettext$6=gettext("Set log level (between %d and %d)\n");
-  printf(return_value_gettext$6, 1, 5);
+  char *return_value_gettext_6;
+  return_value_gettext_6=gettext("Set log level (between %d and %d)\n");
+  printf(return_value_gettext_6, 1, 5);
   printf("-L, --log-dir\t\t");
-  char *return_value_gettext$7;
-  return_value_gettext$7=gettext("Set path to logging\n");
-  printf(return_value_gettext$7);
+  char *return_value_gettext_7;
+  return_value_gettext_7=gettext("Set path to logging\n");
+  printf(return_value_gettext_7);
   printf("-c, --communication-method\t");
-  char *return_value_gettext$8;
-  return_value_gettext$8=gettext("Communication method to use ('%s' or '%s')\n");
-  printf(return_value_gettext$8, (const void *)"unix_socket", (const void *)"inet_socket");
+  char *return_value_gettext_8;
+  return_value_gettext_8=gettext("Communication method to use ('%s' or '%s')\n");
+  printf(return_value_gettext_8, (const void *)"unix_socket", (const void *)"inet_socket");
   printf("-S, --socket-path\t");
-  char *return_value_gettext$9;
-  return_value_gettext$9=gettext("Socket path to use for '%s' method (filesystem path or '%s')\n");
-  printf(return_value_gettext$9, (const void *)"unix_socket", (const void *)"default");
+  char *return_value_gettext_9;
+  return_value_gettext_9=gettext("Socket path to use for '%s' method (filesystem path or '%s')\n");
+  printf(return_value_gettext_9, (const void *)"unix_socket", (const void *)"default");
   printf("-p, --port\t\t");
-  char *return_value_gettext$10;
-  return_value_gettext$10=gettext("Specify a port number for '%s' method\n");
-  printf(return_value_gettext$10, (const void *)"inet_socket");
+  char *return_value_gettext_10;
+  return_value_gettext_10=gettext("Specify a port number for '%s' method\n");
+  printf(return_value_gettext_10, (const void *)"inet_socket");
   printf("-P, --pid-file\t\t");
-  char *return_value_gettext$11;
-  return_value_gettext$11=gettext("Set path to pid file\n");
-  printf(return_value_gettext$11);
+  char *return_value_gettext_11;
+  return_value_gettext_11=gettext("Set path to pid file\n");
+  printf(return_value_gettext_11);
   printf("-C, --config-dir\t");
-  char *return_value_gettext$12;
-  return_value_gettext$12=gettext("Set path to configuration\n");
-  printf(return_value_gettext$12);
+  char *return_value_gettext_12;
+  return_value_gettext_12=gettext("Set path to configuration\n");
+  printf(return_value_gettext_12);
   printf("-v, --version\t\t");
-  char *return_value_gettext$13;
-  return_value_gettext$13=gettext("Report version of this program\n");
-  printf(return_value_gettext$13);
+  char *return_value_gettext_13;
+  return_value_gettext_13=gettext("Report version of this program\n");
+  printf(return_value_gettext_13);
   printf("-D, --debug\t\t");
-  char *return_value_gettext$14;
-  return_value_gettext$14=gettext("Output debugging information into %s\n");
-  printf(return_value_gettext$14, (const void *)"/tmp/.speech-dispatcher");
+  char *return_value_gettext_14;
+  return_value_gettext_14=gettext("Output debugging information into %s\n");
+  printf(return_value_gettext_14, (const void *)"/tmp/.speech-dispatcher");
   printf("-h, --help\t\t");
-  char *return_value_gettext$15;
-  return_value_gettext$15=gettext("Print this info\n");
-  printf(return_value_gettext$15);
+  char *return_value_gettext_15;
+  return_value_gettext_15=gettext("Print this info\n");
+  printf(return_value_gettext_15);
   printf("\n");
-  char *return_value_gettext$16;
-  return_value_gettext$16=gettext("Copyright (C) %d-%d Brailcom, o.p.s.\nThis is free software; you can redistribute it and/or modify it\nunder the terms of the GNU General Public License as published by\nthe Free Software Foundation; either version 2, or (at your option)\nany later version. Please see COPYING for more details.\n\nPlease report bugs to %s\n\n");
-  printf(return_value_gettext$16, 2002, 2012, (const void *)"speechd@lists.freebsoft.org");
+  char *return_value_gettext_16;
+  return_value_gettext_16=gettext("Copyright (C) %d-%d Brailcom, o.p.s.\nThis is free software; you can redistribute it and/or modify it\nunder the terms of the GNU General Public License as published by\nthe Free Software Foundation; either version 2, or (at your option)\nany later version. Please see COPYING for more details.\n\nPlease report bugs to %s\n\n");
+  printf(return_value_gettext_16, 2002, 2012, (const void *)"speechd@lists.freebsoft.org");
 }
 
 // options_print_version
@@ -6222,19 +6222,19 @@ void options_print_help(char **argv)
 void options_print_version(void)
 {
   printf("%s %s\n", (const void *)"speech-dispatcher", (const void *)"0.8");
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Copyright (C) %d-%d Brailcom, o.p.s.\n%s comes with ABSOLUTELY NO WARRANTY.\nYou may redistribute copies of this program\nunder the terms of the GNU General Public License.\nFor more information about these matters, see the file named COPYING.\n");
-  printf(return_value_gettext$1, 2002, 2012, (const void *)"Speech Dispatcher");
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Copyright (C) %d-%d Brailcom, o.p.s.\n%s comes with ABSOLUTELY NO WARRANTY.\nYou may redistribute copies of this program\nunder the terms of the GNU General Public License.\nFor more information about these matters, see the file named COPYING.\n");
+  printf(return_value_gettext_1, 2002, 2012, (const void *)"Speech Dispatcher");
 }
 
 // output_check_module
 // file output.h line 35
-signed int output_check_module(struct anonymous$10 *output)
+signed int output_check_module(struct anonymous_10 *output)
 {
   signed int ret;
   signed int err;
   signed int status;
-  if(output == ((struct anonymous$10 *)NULL))
+  if(output == ((struct anonymous_10 *)NULL))
     return -1;
 
   else
@@ -6270,12 +6270,12 @@ union anonymous
 
 // output_close
 // file output.h line 49
-signed int output_close(struct anonymous$10 *module)
+signed int output_close(struct anonymous_10 *module)
 {
   signed int err;
   signed int ret;
-  struct anonymous$10 *output = module;
-  if(output == ((struct anonymous$10 *)NULL))
+  struct anonymous_10 *output = module;
+  if(output == ((struct anonymous_10 *)NULL))
     return -1;
 
   else
@@ -6333,9 +6333,9 @@ signed int output_close(struct anonymous$10 *module)
 
 // output_get_voices
 // file output.c line 286
-static struct anonymous$6 ** output_get_voices(struct anonymous$10 *module)
+static struct anonymous_6 ** output_get_voices(struct anonymous_10 *module)
 {
-  struct anonymous$6 **voice_dscr;
+  struct anonymous_6 **voice_dscr;
   struct _GString *reply;
   char **lines;
   char **atoms;
@@ -6343,14 +6343,14 @@ static struct anonymous$6 ** output_get_voices(struct anonymous$10 *module)
   signed int ret = 0;
   signed int errors = 0;
   output_lock();
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  if(module == ((struct anonymous$10 *)NULL))
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  if(module == ((struct anonymous_10 *)NULL))
   {
     MSG(1, "ERROR: Can't list voices for broken output module");
     output_unlock();
-    return (struct anonymous$6 **)(void *)0;
+    return (struct anonymous_6 **)(void *)0;
   }
 
   else
@@ -6360,31 +6360,31 @@ static struct anonymous$6 ** output_get_voices(struct anonymous$10 *module)
     if(reply == ((struct _GString *)NULL))
     {
       output_unlock();
-      return (struct anonymous$6 **)(void *)0;
+      return (struct anonymous_6 **)(void *)0;
     }
 
     else
     {
       lines=g_strsplit(reply->str, "\n", 256);
       g_string_free(reply, (signed int)!(0 != 0));
-      void *return_value_g_malloc$1;
-      return_value_g_malloc$1=g_malloc((unsigned long int)256 * sizeof(struct anonymous$6 *) /*8ul*/ );
-      voice_dscr = (struct anonymous$6 **)return_value_g_malloc$1;
+      void *return_value_g_malloc_1;
+      return_value_g_malloc_1=g_malloc((unsigned long int)256 * sizeof(struct anonymous_6 *) /*8ul*/ );
+      voice_dscr = (struct anonymous_6 **)return_value_g_malloc_1;
       i = 0;
       do
       {
         if(errors == 0)
-          tmp_if_expr$2 = lines[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = lines[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         MSG(1, "LINE here:|%s|", lines[(signed long int)i]);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(lines[(signed long int)i]);
-        if(!(return_value_strlen$6 >= 5ul))
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(lines[(signed long int)i]);
+        if(!(return_value_strlen_6 >= 5ul))
         {
           MSG(1, "ERROR: Bad communication from driver in synth_voices");
           ret = -1;
@@ -6400,16 +6400,16 @@ static struct anonymous$6 ** output_get_voices(struct anonymous$10 *module)
             {
               atoms=g_strsplit(&lines[(signed long int)i][(signed long int)4], " ", 0);
               if(*atoms == ((char *)NULL))
-                tmp_if_expr$4 = (_Bool)1;
+                tmp_if_expr_4 = (_Bool)1;
 
               else
-                tmp_if_expr$4 = atoms[(signed long int)1] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$4)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_4 = atoms[(signed long int)1] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_4)
+                tmp_if_expr_5 = (_Bool)1;
 
               else
-                tmp_if_expr$5 = atoms[(signed long int)2] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$5)
+                tmp_if_expr_5 = atoms[(signed long int)2] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_5)
               {
                 ret = -1;
                 errors = (signed int)!(0 != 0);
@@ -6417,9 +6417,9 @@ static struct anonymous$6 ** output_get_voices(struct anonymous$10 *module)
 
               else
               {
-                void *return_value_g_malloc$3;
-                return_value_g_malloc$3=g_malloc(sizeof(struct anonymous$6) /*24ul*/ );
-                voice_dscr[(signed long int)i] = (struct anonymous$6 *)return_value_g_malloc$3;
+                void *return_value_g_malloc_3;
+                return_value_g_malloc_3=g_malloc(sizeof(struct anonymous_6) /*24ul*/ );
+                voice_dscr[(signed long int)i] = (struct anonymous_6 *)return_value_g_malloc_3;
                 voice_dscr[(signed long int)i]->name=g_strdup(atoms[(signed long int)0]);
                 voice_dscr[(signed long int)i]->language=g_strdup(atoms[(signed long int)1]);
                 voice_dscr[(signed long int)i]->variant=g_strdup(atoms[(signed long int)2]);
@@ -6432,7 +6432,7 @@ static struct anonymous$6 ** output_get_voices(struct anonymous$10 *module)
         i = i + 1;
       }
       while((_Bool)1);
-      voice_dscr[(signed long int)i] = (struct anonymous$6 *)(void *)0;
+      voice_dscr[(signed long int)i] = (struct anonymous_6 *)(void *)0;
       g_strfreev(lines);
       output_unlock();
       return voice_dscr;
@@ -6445,7 +6445,7 @@ static struct anonymous$6 ** output_get_voices(struct anonymous$10 *module)
 signed int output_is_speaking(char **index_mark)
 {
   signed int err;
-  struct anonymous$10 *output = speaking_module;
+  struct anonymous_10 *output = speaking_module;
   err=output_module_is_speaking(output, index_mark);
   if(!(err >= 0))
     *index_mark = (char *)(void *)0;
@@ -6455,26 +6455,26 @@ signed int output_is_speaking(char **index_mark)
 
 // output_list_voices
 // file output.h line 50
-struct anonymous$6 ** output_list_voices(char *module_name)
+struct anonymous_6 ** output_list_voices(char *module_name)
 {
-  struct anonymous$10 *module;
+  struct anonymous_10 *module;
   if(module_name == ((char *)NULL))
-    return (struct anonymous$6 **)(void *)0;
+    return (struct anonymous_6 **)(void *)0;
 
   else
   {
     module=get_output_module_by_name(module_name);
-    if(module == ((struct anonymous$10 *)NULL))
+    if(module == ((struct anonymous_10 *)NULL))
     {
       MSG(1, "ERROR: Can't list voices for module %s", module_name);
-      return (struct anonymous$6 **)(void *)0;
+      return (struct anonymous_6 **)(void *)0;
     }
 
     else
     {
-      struct anonymous$6 **return_value_output_get_voices$1;
-      return_value_output_get_voices$1=output_get_voices(module);
-      return return_value_output_get_voices$1;
+      struct anonymous_6 **return_value_output_get_voices_1;
+      return_value_output_get_voices_1=output_get_voices(module);
+      return return_value_output_get_voices_1;
     }
   }
 }
@@ -6488,11 +6488,11 @@ static void output_lock(void)
 
 // output_module_debug
 // file module.h line 49
-signed int output_module_debug(struct anonymous$10 *module)
+signed int output_module_debug(struct anonymous_10 *module)
 {
   char *new_log_path;
   /* assertion module != ((void *)0) */
-  assert(module != (struct anonymous$10 *)(void *)0);
+  assert(module != (struct anonymous_10 *)(void *)0);
   /* assertion module->name != ((void *)0) */
   assert(module->name != (char *)(void *)0);
   if(module->working == 0)
@@ -6509,22 +6509,22 @@ signed int output_module_debug(struct anonymous$10 *module)
 
 // output_module_is_speaking
 // file output.c line 608
-signed int output_module_is_speaking(struct anonymous$10 *output, char **index_mark)
+signed int output_module_is_speaking(struct anonymous_10 *output, char **index_mark)
 {
   struct _GString *response;
   signed int retcode = -1;
   output_lock();
   MSG(5, "output_module_is_speaking()");
-  signed int return_value_strncmp$11;
-  char *return_value_g_strdup$2;
-  signed int return_value_strncmp$10;
-  char *return_value_g_strdup$3;
-  signed int return_value_strncmp$9;
-  char *return_value_g_strdup$4;
-  signed int return_value_strncmp$8;
-  char *return_value_g_strdup$5;
-  signed int return_value_strncmp$7;
-  if(output == ((struct anonymous$10 *)NULL))
+  signed int return_value_strncmp_11;
+  char *return_value_g_strdup_2;
+  signed int return_value_strncmp_10;
+  char *return_value_g_strdup_3;
+  signed int return_value_strncmp_9;
+  char *return_value_g_strdup_4;
+  signed int return_value_strncmp_8;
+  char *return_value_g_strdup_5;
+  signed int return_value_strncmp_7;
+  if(output == ((struct anonymous_10 *)NULL))
   {
     MSG(5, "output==NULL in output_module_is_speaking()");
     output_unlock();
@@ -6577,9 +6577,9 @@ signed int output_module_is_speaking(struct anonymous$10 *output, char **index_m
               {
                 char *p;
                 p=strchr(response->str, 10);
-                char *return_value_strndup$1;
-                return_value_strndup$1=strndup(response->str + (signed long int)4, (unsigned long int)((p - response->str) - (signed long int)4));
-                *index_mark = (char *)return_value_strndup$1;
+                char *return_value_strndup_1;
+                return_value_strndup_1=strndup(response->str + (signed long int)4, (unsigned long int)((p - response->str) - (signed long int)4));
+                *index_mark = (char *)return_value_strndup_1;
                 MSG2(5, "output_module", "Detected INDEX MARK: %s", *index_mark);
               }
 
@@ -6596,51 +6596,51 @@ signed int output_module_is_speaking(struct anonymous$10 *output, char **index_m
           {
             retcode = 0;
             MSG2(5, "output_module", "Received event:\n %s", response->str);
-            return_value_strncmp$11=strncmp(response->str, "701", (unsigned long int)3);
-            if(return_value_strncmp$11 == 0)
+            return_value_strncmp_11=strncmp(response->str, "701", (unsigned long int)3);
+            if(return_value_strncmp_11 == 0)
             {
-              return_value_g_strdup$2=g_strdup("__spd_begin");
-              *index_mark = (char *)return_value_g_strdup$2;
+              return_value_g_strdup_2=g_strdup("__spd_begin");
+              *index_mark = (char *)return_value_g_strdup_2;
             }
 
             else
             {
-              return_value_strncmp$10=strncmp(response->str, "702", (unsigned long int)3);
-              if(return_value_strncmp$10 == 0)
+              return_value_strncmp_10=strncmp(response->str, "702", (unsigned long int)3);
+              if(return_value_strncmp_10 == 0)
               {
-                return_value_g_strdup$3=g_strdup("__spd_end");
-                *index_mark = (char *)return_value_g_strdup$3;
+                return_value_g_strdup_3=g_strdup("__spd_end");
+                *index_mark = (char *)return_value_g_strdup_3;
               }
 
               else
               {
-                return_value_strncmp$9=strncmp(response->str, "703", (unsigned long int)3);
-                if(return_value_strncmp$9 == 0)
+                return_value_strncmp_9=strncmp(response->str, "703", (unsigned long int)3);
+                if(return_value_strncmp_9 == 0)
                 {
-                  return_value_g_strdup$4=g_strdup("__spd_stopped");
-                  *index_mark = (char *)return_value_g_strdup$4;
+                  return_value_g_strdup_4=g_strdup("__spd_stopped");
+                  *index_mark = (char *)return_value_g_strdup_4;
                 }
 
                 else
                 {
-                  return_value_strncmp$8=strncmp(response->str, "704", (unsigned long int)3);
-                  if(return_value_strncmp$8 == 0)
+                  return_value_strncmp_8=strncmp(response->str, "704", (unsigned long int)3);
+                  if(return_value_strncmp_8 == 0)
                   {
-                    return_value_g_strdup$5=g_strdup("__spd_paused");
-                    *index_mark = (char *)return_value_g_strdup$5;
+                    return_value_g_strdup_5=g_strdup("__spd_paused");
+                    *index_mark = (char *)return_value_g_strdup_5;
                   }
 
                   else
                   {
-                    return_value_strncmp$7=strncmp(response->str, "700", (unsigned long int)3);
-                    if(return_value_strncmp$7 == 0)
+                    return_value_strncmp_7=strncmp(response->str, "700", (unsigned long int)3);
+                    if(return_value_strncmp_7 == 0)
                     {
-                      char *output_module_is_speaking$$1$$4$$2$$p;
-                      output_module_is_speaking$$1$$4$$2$$p=strchr(response->str, 10);
-                      MSG2(5, "output_module", "response:|%s|\n p:|%s|", response->str, output_module_is_speaking$$1$$4$$2$$p);
-                      char *return_value_strndup$6;
-                      return_value_strndup$6=strndup(response->str + (signed long int)4, (unsigned long int)((output_module_is_speaking$$1$$4$$2$$p - response->str) - (signed long int)4));
-                      *index_mark = (char *)return_value_strndup$6;
+                      char *output_module_is_speaking__1__4__2__p;
+                      output_module_is_speaking__1__4__2__p=strchr(response->str, 10);
+                      MSG2(5, "output_module", "response:|%s|\n p:|%s|", response->str, output_module_is_speaking__1__4__2__p);
+                      char *return_value_strndup_6;
+                      return_value_strndup_6=strndup(response->str + (signed long int)4, (unsigned long int)((output_module_is_speaking__1__4__2__p - response->str) - (signed long int)4));
+                      *index_mark = (char *)return_value_strndup_6;
                       MSG2(5, "output_module", "Detected INDEX MARK: %s", *index_mark);
                     }
 
@@ -6671,10 +6671,10 @@ signed int output_module_is_speaking(struct anonymous$10 *output, char **index_m
 
 // output_module_nodebug
 // file module.h line 50
-signed int output_module_nodebug(struct anonymous$10 *module)
+signed int output_module_nodebug(struct anonymous_10 *module)
 {
   /* assertion module != ((void *)0) */
-  assert(module != (struct anonymous$10 *)(void *)0);
+  assert(module != (struct anonymous_10 *)(void *)0);
   /* assertion module->name != ((void *)0) */
   assert(module->name != (char *)(void *)0);
   if(module->working == 0)
@@ -6693,8 +6693,8 @@ signed int output_module_nodebug(struct anonymous$10 *module)
 unsigned long int output_pause()
 {
   output_lock();
-  static struct anonymous$10 *output;
-  if(speaking_module == ((struct anonymous$10 *)NULL))
+  static struct anonymous_10 *output;
+  if(speaking_module == ((struct anonymous_10 *)NULL))
   {
     output_unlock();
     return (unsigned long int)0;
@@ -6720,7 +6720,7 @@ unsigned long int output_pause()
 
 // output_read_reply
 // file output.c line 178
-struct _GString * output_read_reply(struct anonymous$10 *output)
+struct _GString * output_read_reply(struct anonymous_10 *output)
 {
   struct _GString *rstr;
   signed int bytes;
@@ -6728,19 +6728,19 @@ struct _GString * output_read_reply(struct anonymous$10 *output)
   unsigned long int N = (unsigned long int)0;
   signed int errors = 0;
   rstr=g_string_new("");
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_1;
+  _Bool tmp_if_expr_2;
   do
   {
-    signed long int return_value_spd_getline$4;
-    return_value_spd_getline$4=spd_getline(&line, &N, output->stream_out);
-    bytes = (signed int)return_value_spd_getline$4;
+    signed long int return_value_spd_getline_4;
+    return_value_spd_getline_4=spd_getline(&line, &N, output->stream_out);
+    bytes = (signed int)return_value_spd_getline_4;
     if(bytes == -1)
     {
       MSG(2, "Error: Broken pipe to module.");
       output->working = 0;
-      speaking_module = (struct anonymous$10 *)(void *)0;
+      speaking_module = (struct anonymous_10 *)(void *)0;
       output_check_module(output);
       errors = (signed int)!(0 != 0);
     }
@@ -6752,19 +6752,19 @@ struct _GString * output_read_reply(struct anonymous$10 *output)
     }
     if(errors == 0)
     {
-      return_value_strlen$1=strlen(line);
-      if(!(return_value_strlen$1 >= 4ul))
-        tmp_if_expr$2 = (_Bool)1;
+      return_value_strlen_1=strlen(line);
+      if(!(return_value_strlen_1 >= 4ul))
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)line[(signed long int)3] == 32 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$3 = !tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)line[(signed long int)3] == 32 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = !tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
   if(!(line == ((char *)NULL)))
     g_free((void *)line);
 
@@ -6779,16 +6779,16 @@ struct _GString * output_read_reply(struct anonymous$10 *output)
 
 // output_read_reply2
 // file output.c line 217
-char * output_read_reply2(struct anonymous$10 *output)
+char * output_read_reply2(struct anonymous_10 *output)
 {
   signed int bytes;
   char *reply;
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
-  reply = (char *)return_value_g_malloc$1;
-  signed long int return_value_read$2;
-  return_value_read$2=read(output->pipe_out[(signed long int)0], (void *)reply, (unsigned long int)1024);
-  bytes = (signed int)return_value_read$2;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
+  reply = (char *)return_value_g_malloc_1;
+  signed long int return_value_read_2;
+  return_value_read_2=read(output->pipe_out[(signed long int)0], (void *)reply, (unsigned long int)1024);
+  bytes = (signed int)return_value_read_2;
   reply[(signed long int)bytes] = (char)0;
   MSG2(1, "output_module", "2Read: %d bytes: <%s>", bytes, reply);
   return reply;
@@ -6796,7 +6796,7 @@ char * output_read_reply2(struct anonymous$10 *output)
 
 // output_send_audio_settings
 // file output.h line 44
-signed int output_send_audio_settings(struct anonymous$10 *output)
+signed int output_send_audio_settings(struct anonymous_10 *output)
 {
   struct _GString *set_str;
   signed int err;
@@ -6855,16 +6855,16 @@ signed int output_send_audio_settings(struct anonymous$10 *output)
 
 // output_send_data
 // file output.h line 42
-signed int output_send_data(char *cmd, struct anonymous$10 *output, signed int wfr)
+signed int output_send_data(char *cmd, struct anonymous_10 *output, signed int wfr)
 {
-  signed int output_send_data$$1$$ret;
+  signed int output_send_data__1__ret;
   struct _GString *response;
-  signed long int tmp_statement_expression$1;
-  unsigned long int return_value_strlen$4;
-  signed long int return_value_write$5;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  if(output == ((struct anonymous$10 *)NULL))
+  signed long int tmp_statement_expression_1;
+  unsigned long int return_value_strlen_4;
+  signed long int return_value_write_5;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  if(output == ((struct anonymous_10 *)NULL))
     return -1;
 
   else
@@ -6876,27 +6876,27 @@ signed int output_send_data(char *cmd, struct anonymous$10 *output, signed int w
       signed long int __result;
       do
       {
-        return_value_strlen$4=strlen(cmd);
-        return_value_write$5=write(output->pipe_in[(signed long int)1], (const void *)cmd, return_value_strlen$4);
-        __result = (signed long int)return_value_write$5;
+        return_value_strlen_4=strlen(cmd);
+        return_value_write_5=write(output->pipe_in[(signed long int)1], (const void *)cmd, return_value_strlen_4);
+        __result = (signed long int)return_value_write_5;
         if(__result == -1l)
         {
-          return_value___errno_location$2=__errno_location();
-          tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_2=__errno_location();
+          tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
       }
-      while(tmp_if_expr$3);
-      tmp_statement_expression$1 = __result;
-      output_send_data$$1$$ret = (signed int)tmp_statement_expression$1;
+      while(tmp_if_expr_3);
+      tmp_statement_expression_1 = __result;
+      output_send_data__1__ret = (signed int)tmp_statement_expression_1;
       fflush((struct _IO_FILE *)(void *)0);
-      if(output_send_data$$1$$ret == -1)
+      if(output_send_data__1__ret == -1)
       {
         MSG(2, "Error: Broken pipe to module.");
         output->working = 0;
-        speaking_module = (struct anonymous$10 *)(void *)0;
+        speaking_module = (struct anonymous_10 *)(void *)0;
         output_check_module(output);
         return -1;
       }
@@ -6948,7 +6948,7 @@ signed int output_send_data(char *cmd, struct anonymous$10 *output, signed int w
 
 // output_send_debug
 // file output.h line 33
-signed int output_send_debug(struct anonymous$10 *output, signed int flag, char *log_path)
+signed int output_send_debug(struct anonymous_10 *output, signed int flag, char *log_path)
 {
   char *cmd_str;
   signed int err;
@@ -6985,7 +6985,7 @@ signed int output_send_debug(struct anonymous$10 *output, signed int flag, char 
 
 // output_send_loglevel_setting
 // file output.h line 45
-signed int output_send_loglevel_setting(struct anonymous$10 *output)
+signed int output_send_loglevel_setting(struct anonymous_10 *output)
 {
   struct _GString *set_str;
   signed int err;
@@ -7019,7 +7019,7 @@ signed int output_send_loglevel_setting(struct anonymous$10 *output)
 
 // output_send_settings
 // file output.c line 398
-signed int output_send_settings(struct anonymous$7 *msg, struct anonymous$10 *output)
+signed int output_send_settings(struct anonymous_7 *msg, struct anonymous_10 *output)
 {
   struct _GString *set_str;
   char *val;
@@ -7086,7 +7086,7 @@ signed int output_send_settings(struct anonymous$7 *msg, struct anonymous$10 *ou
 
 // output_set_speaking_monitor
 // file output.c line 74
-void output_set_speaking_monitor(struct anonymous$7 *msg, struct anonymous$10 *output)
+void output_set_speaking_monitor(struct anonymous_7 *msg, struct anonymous_10 *output)
 {
   speaking_module = output;
   speaking_uid = (signed int)msg->settings.uid;
@@ -7095,19 +7095,19 @@ void output_set_speaking_monitor(struct anonymous$7 *msg, struct anonymous$10 *o
 
 // output_speak
 // file output.h line 29
-signed int output_speak(struct anonymous$7 *msg)
+signed int output_speak(struct anonymous_7 *msg)
 {
-  struct anonymous$10 *output;
+  struct anonymous_10 *output;
   signed int err;
   signed int ret;
-  if(msg == ((struct anonymous$7 *)NULL))
+  if(msg == ((struct anonymous_7 *)NULL))
     return -1;
 
   else
   {
     output_lock();
     output=get_output_module(msg);
-    if(output == ((struct anonymous$10 *)NULL))
+    if(output == ((struct anonymous_10 *)NULL))
     {
       MSG(3, "Output module doesn't work...");
       output_unlock();
@@ -7210,9 +7210,9 @@ signed int output_speak(struct anonymous$7 *msg)
 signed int output_stop()
 {
   signed int err;
-  struct anonymous$10 *output;
+  struct anonymous_10 *output;
   output_lock();
-  if(speaking_module == ((struct anonymous$10 *)NULL))
+  if(speaking_module == ((struct anonymous_10 *)NULL))
   {
     output_unlock();
     return 0;
@@ -7246,7 +7246,7 @@ static void output_unlock(void)
 // file parse.h line 5
 char * parse(const char *buf, const signed int bytes, const signed int fd)
 {
-  struct anonymous$7 *new;
+  struct anonymous_7 *new;
   char *command;
   signed int r;
   signed int end_data;
@@ -7255,283 +7255,283 @@ char * parse(const char *buf, const signed int bytes, const signed int fd)
   signed int msg_uid;
   struct _GString *ok_queued_reply;
   char *reply;
-  struct anonymous$0 *speechd_socket;
+  struct anonymous_0 *speechd_socket;
   speechd_socket=speechd_socket_get_by_fd(fd);
   /* assertion speechd_socket */
-  assert(speechd_socket != ((struct anonymous$0 *)NULL));
+  assert(speechd_socket != ((struct anonymous_0 *)NULL));
   end_data = 0;
   if(buf == ((const char *)NULL) || bytes == 0)
   {
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("300 ERR INTERNAL\r\n");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("300 ERR INTERNAL\r\n");
+    return return_value_g_strdup_1;
   }
 
-  char *return_value_g_strdup$3;
-  char *return_value_g_strdup$6;
-  char *return_value_g_strdup$9;
-  char *return_value_g_strdup$12;
-  char *return_value_g_strdup$15;
-  char *return_value_g_strdup$18;
-  char *return_value_g_strdup$21;
-  char *return_value_g_strdup$24;
-  char *return_value_g_strdup$27;
-  char *return_value_g_strdup$30;
-  char *return_value_g_strdup$33;
-  char *return_value_g_strdup$36;
-  char *return_value_g_strdup$39;
-  _Bool tmp_if_expr$49;
-  signed int return_value_strcmp$48;
-  _Bool tmp_if_expr$60;
-  signed int return_value_strncmp$59;
-  _Bool tmp_if_expr$63;
-  _Bool tmp_if_expr$62;
-  signed int return_value_strncmp$61;
-  char *return_value_g_strdup$54;
+  char *return_value_g_strdup_3;
+  char *return_value_g_strdup_6;
+  char *return_value_g_strdup_9;
+  char *return_value_g_strdup_12;
+  char *return_value_g_strdup_15;
+  char *return_value_g_strdup_18;
+  char *return_value_g_strdup_21;
+  char *return_value_g_strdup_24;
+  char *return_value_g_strdup_27;
+  char *return_value_g_strdup_30;
+  char *return_value_g_strdup_33;
+  char *return_value_g_strdup_36;
+  char *return_value_g_strdup_39;
+  _Bool tmp_if_expr_49;
+  signed int return_value_strcmp_48;
+  _Bool tmp_if_expr_60;
+  signed int return_value_strncmp_59;
+  _Bool tmp_if_expr_63;
+  _Bool tmp_if_expr_62;
+  signed int return_value_strncmp_61;
+  char *return_value_g_strdup_54;
   if(speechd_socket->awaiting_data == 0)
   {
     command=get_param(buf, 0, bytes, 1);
     MSG(5, "Command caught: \"%s\"", command);
     if(command == ((char *)NULL))
     {
-      char *return_value_g_strdup$2;
-      return_value_g_strdup$2=g_strdup("300 ERR INTERNAL\r\n");
-      return return_value_g_strdup$2;
+      char *return_value_g_strdup_2;
+      return_value_g_strdup_2=g_strdup("300 ERR INTERNAL\r\n");
+      return return_value_g_strdup_2;
     }
 
-    signed int return_value_strcmp$5;
-    return_value_strcmp$5=strcmp(command, "set");
-    if(return_value_strcmp$5 == 0)
+    signed int return_value_strcmp_5;
+    return_value_strcmp_5=strcmp(command, "set");
+    if(return_value_strcmp_5 == 0)
     {
       g_free((void *)command);
-      char *return_value_parse_set$4;
-      return_value_parse_set$4=parse_set(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_set$4;
+      char *return_value_parse_set_4;
+      return_value_parse_set_4=parse_set(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_set_4;
     }
 
-    signed int return_value_strcmp$8;
-    return_value_strcmp$8=strcmp(command, "history");
-    if(return_value_strcmp$8 == 0)
-    {
-      g_free((void *)command);
-      if(!(speechd_socket->inside_block == 0))
-      {
-        return_value_g_strdup$6=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-        return return_value_g_strdup$6;
-      }
-
-      char *return_value_parse_history$7;
-      return_value_parse_history$7=parse_history(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_history$7;
-    }
-
-    signed int return_value_strcmp$11;
-    return_value_strcmp$11=strcmp(command, "stop");
-    if(return_value_strcmp$11 == 0)
+    signed int return_value_strcmp_8;
+    return_value_strcmp_8=strcmp(command, "history");
+    if(return_value_strcmp_8 == 0)
     {
       g_free((void *)command);
       if(!(speechd_socket->inside_block == 0))
       {
-        return_value_g_strdup$9=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-        return return_value_g_strdup$9;
+        return_value_g_strdup_6=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+        return return_value_g_strdup_6;
       }
 
-      char *return_value_parse_stop$10;
-      return_value_parse_stop$10=parse_stop(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_stop$10;
+      char *return_value_parse_history_7;
+      return_value_parse_history_7=parse_history(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_history_7;
     }
 
-    signed int return_value_strcmp$14;
-    return_value_strcmp$14=strcmp(command, "cancel");
-    if(return_value_strcmp$14 == 0)
+    signed int return_value_strcmp_11;
+    return_value_strcmp_11=strcmp(command, "stop");
+    if(return_value_strcmp_11 == 0)
     {
       g_free((void *)command);
       if(!(speechd_socket->inside_block == 0))
       {
-        return_value_g_strdup$12=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-        return return_value_g_strdup$12;
+        return_value_g_strdup_9=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+        return return_value_g_strdup_9;
       }
 
-      char *return_value_parse_cancel$13;
-      return_value_parse_cancel$13=parse_cancel(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_cancel$13;
+      char *return_value_parse_stop_10;
+      return_value_parse_stop_10=parse_stop(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_stop_10;
     }
 
-    signed int return_value_strcmp$17;
-    return_value_strcmp$17=strcmp(command, "pause");
-    if(return_value_strcmp$17 == 0)
+    signed int return_value_strcmp_14;
+    return_value_strcmp_14=strcmp(command, "cancel");
+    if(return_value_strcmp_14 == 0)
     {
       g_free((void *)command);
       if(!(speechd_socket->inside_block == 0))
       {
-        return_value_g_strdup$15=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-        return return_value_g_strdup$15;
+        return_value_g_strdup_12=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+        return return_value_g_strdup_12;
       }
 
-      char *return_value_parse_pause$16;
-      return_value_parse_pause$16=parse_pause(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_pause$16;
+      char *return_value_parse_cancel_13;
+      return_value_parse_cancel_13=parse_cancel(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_cancel_13;
     }
 
-    signed int return_value_strcmp$20;
-    return_value_strcmp$20=strcmp(command, "resume");
-    if(return_value_strcmp$20 == 0)
+    signed int return_value_strcmp_17;
+    return_value_strcmp_17=strcmp(command, "pause");
+    if(return_value_strcmp_17 == 0)
     {
       g_free((void *)command);
       if(!(speechd_socket->inside_block == 0))
       {
-        return_value_g_strdup$18=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-        return return_value_g_strdup$18;
+        return_value_g_strdup_15=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+        return return_value_g_strdup_15;
       }
 
-      char *return_value_parse_resume$19;
-      return_value_parse_resume$19=parse_resume(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_resume$19;
+      char *return_value_parse_pause_16;
+      return_value_parse_pause_16=parse_pause(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_pause_16;
     }
 
-    signed int return_value_strcmp$23;
-    return_value_strcmp$23=strcmp(command, "sound_icon");
-    if(return_value_strcmp$23 == 0)
-    {
-      g_free((void *)command);
-      char *return_value_parse_snd_icon$22;
-      return_value_parse_snd_icon$22=parse_snd_icon(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_snd_icon$22;
-    }
-
-    signed int return_value_strcmp$26;
-    return_value_strcmp$26=strcmp(command, "char");
-    if(return_value_strcmp$26 == 0)
-    {
-      g_free((void *)command);
-      char *return_value_parse_char$25;
-      return_value_parse_char$25=parse_char(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_char$25;
-    }
-
-    signed int return_value_strcmp$29;
-    return_value_strcmp$29=strcmp(command, "key");
-    if(return_value_strcmp$29 == 0)
-    {
-      g_free((void *)command);
-      char *return_value_parse_key$28;
-      return_value_parse_key$28=parse_key(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_key$28;
-    }
-
-    signed int return_value_strcmp$32;
-    return_value_strcmp$32=strcmp(command, "list");
-    if(return_value_strcmp$32 == 0)
+    signed int return_value_strcmp_20;
+    return_value_strcmp_20=strcmp(command, "resume");
+    if(return_value_strcmp_20 == 0)
     {
       g_free((void *)command);
       if(!(speechd_socket->inside_block == 0))
       {
-        return_value_g_strdup$30=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-        return return_value_g_strdup$30;
+        return_value_g_strdup_18=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+        return return_value_g_strdup_18;
       }
 
-      char *return_value_parse_list$31;
-      return_value_parse_list$31=parse_list(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_list$31;
+      char *return_value_parse_resume_19;
+      return_value_parse_resume_19=parse_resume(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_resume_19;
     }
 
-    signed int return_value_strcmp$35;
-    return_value_strcmp$35=strcmp(command, "get");
-    if(return_value_strcmp$35 == 0)
+    signed int return_value_strcmp_23;
+    return_value_strcmp_23=strcmp(command, "sound_icon");
+    if(return_value_strcmp_23 == 0)
+    {
+      g_free((void *)command);
+      char *return_value_parse_snd_icon_22;
+      return_value_parse_snd_icon_22=parse_snd_icon(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_snd_icon_22;
+    }
+
+    signed int return_value_strcmp_26;
+    return_value_strcmp_26=strcmp(command, "char");
+    if(return_value_strcmp_26 == 0)
+    {
+      g_free((void *)command);
+      char *return_value_parse_char_25;
+      return_value_parse_char_25=parse_char(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_char_25;
+    }
+
+    signed int return_value_strcmp_29;
+    return_value_strcmp_29=strcmp(command, "key");
+    if(return_value_strcmp_29 == 0)
+    {
+      g_free((void *)command);
+      char *return_value_parse_key_28;
+      return_value_parse_key_28=parse_key(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_key_28;
+    }
+
+    signed int return_value_strcmp_32;
+    return_value_strcmp_32=strcmp(command, "list");
+    if(return_value_strcmp_32 == 0)
     {
       g_free((void *)command);
       if(!(speechd_socket->inside_block == 0))
       {
-        return_value_g_strdup$33=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-        return return_value_g_strdup$33;
+        return_value_g_strdup_30=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+        return return_value_g_strdup_30;
       }
 
-      char *return_value_parse_get$34;
-      return_value_parse_get$34=parse_get(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_get$34;
+      char *return_value_parse_list_31;
+      return_value_parse_list_31=parse_list(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_list_31;
     }
 
-    signed int return_value_strcmp$38;
-    return_value_strcmp$38=strcmp(command, "help");
-    if(return_value_strcmp$38 == 0)
+    signed int return_value_strcmp_35;
+    return_value_strcmp_35=strcmp(command, "get");
+    if(return_value_strcmp_35 == 0)
     {
       g_free((void *)command);
       if(!(speechd_socket->inside_block == 0))
       {
-        return_value_g_strdup$36=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-        return return_value_g_strdup$36;
+        return_value_g_strdup_33=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+        return return_value_g_strdup_33;
       }
 
-      char *return_value_parse_help$37;
-      return_value_parse_help$37=parse_help(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_help$37;
+      char *return_value_parse_get_34;
+      return_value_parse_get_34=parse_get(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_get_34;
     }
 
-    signed int return_value_strcmp$41;
-    return_value_strcmp$41=strcmp(command, "block");
-    if(return_value_strcmp$41 == 0)
+    signed int return_value_strcmp_38;
+    return_value_strcmp_38=strcmp(command, "help");
+    if(return_value_strcmp_38 == 0)
     {
       g_free((void *)command);
-      char *return_value_parse_block$40;
-      return_value_parse_block$40=parse_block(buf, bytes, fd, speechd_socket);
-      return (char *)return_value_parse_block$40;
+      if(!(speechd_socket->inside_block == 0))
+      {
+        return_value_g_strdup_36=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+        return return_value_g_strdup_36;
+      }
+
+      char *return_value_parse_help_37;
+      return_value_parse_help_37=parse_help(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_help_37;
     }
 
-    signed int return_value_strcmp$47;
-    return_value_strcmp$47=strcmp(command, "bye");
-    if(return_value_strcmp$47 == 0)
-      tmp_if_expr$49 = (_Bool)1;
+    signed int return_value_strcmp_41;
+    return_value_strcmp_41=strcmp(command, "block");
+    if(return_value_strcmp_41 == 0)
+    {
+      g_free((void *)command);
+      char *return_value_parse_block_40;
+      return_value_parse_block_40=parse_block(buf, bytes, fd, speechd_socket);
+      return (char *)return_value_parse_block_40;
+    }
+
+    signed int return_value_strcmp_47;
+    return_value_strcmp_47=strcmp(command, "bye");
+    if(return_value_strcmp_47 == 0)
+      tmp_if_expr_49 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$48=strcmp(command, "quit");
-      tmp_if_expr$49 = !(return_value_strcmp$48 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_48=strcmp(command, "quit");
+      tmp_if_expr_49 = !(return_value_strcmp_48 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$49)
+    if(tmp_if_expr_49)
     {
       MSG(4, "Bye received.");
-      unsigned long int return_value_strlen$44;
-      return_value_strlen$44=strlen("231 HAPPY HACKING\r\n");
-      signed long int return_value_write$45;
-      return_value_write$45=write(fd, (const void *)"231 HAPPY HACKING\r\n", return_value_strlen$44);
-      if(!(return_value_write$45 == 0l))
+      unsigned long int return_value_strlen_44;
+      return_value_strlen_44=strlen("231 HAPPY HACKING\r\n");
+      signed long int return_value_write_45;
+      return_value_write_45=write(fd, (const void *)"231 HAPPY HACKING\r\n", return_value_strlen_44);
+      if(!(return_value_write_45 == 0l))
       {
-        signed int *return_value___errno_location$42;
-        return_value___errno_location$42=__errno_location();
-        char *return_value_strerror$43;
-        return_value_strerror$43=strerror(*return_value___errno_location$42);
-        MSG(2, "ERROR: Can't write OK_BYE message to client socket: %s", return_value_strerror$43);
+        signed int *return_value___errno_location_42;
+        return_value___errno_location_42=__errno_location();
+        char *return_value_strerror_43;
+        return_value_strerror_43=strerror(*return_value___errno_location_42);
+        MSG(2, "ERROR: Can't write OK_BYE message to client socket: %s", return_value_strerror_43);
       }
 
       speechd_connection_destroy(fd);
       g_free((void *)command);
-      char *return_value_g_strdup$46;
-      return_value_g_strdup$46=g_strdup("999 CLIENT GONE");
-      return return_value_g_strdup$46;
+      char *return_value_g_strdup_46;
+      return_value_g_strdup_46=g_strdup("999 CLIENT GONE");
+      return return_value_g_strdup_46;
     }
 
-    signed int return_value_strcmp$52;
-    return_value_strcmp$52=strcmp(command, "speak");
-    if(return_value_strcmp$52 == 0)
+    signed int return_value_strcmp_52;
+    return_value_strcmp_52=strcmp(command, "speak");
+    if(return_value_strcmp_52 == 0)
     {
       g_free((void *)command);
       r=server_data_on(fd);
       if(!(r == 0))
       {
-        char *return_value_g_strdup$50;
-        return_value_g_strdup$50=g_strdup("300 ERR INTERNAL\r\n");
-        return return_value_g_strdup$50;
+        char *return_value_g_strdup_50;
+        return_value_g_strdup_50=g_strdup("300 ERR INTERNAL\r\n");
+        return return_value_g_strdup_50;
       }
 
-      char *return_value_g_strdup$51;
-      return_value_g_strdup$51=g_strdup("230 OK RECEIVING DATA\r\n");
-      return return_value_g_strdup$51;
+      char *return_value_g_strdup_51;
+      return_value_g_strdup_51=g_strdup("230 OK RECEIVING DATA\r\n");
+      return return_value_g_strdup_51;
     }
 
     g_free((void *)command);
-    char *return_value_g_strdup$53;
-    return_value_g_strdup$53=g_strdup("500 ERR INVALID COMMAND\r\n");
-    return return_value_g_strdup$53;
+    char *return_value_g_strdup_53;
+    return_value_g_strdup_53=g_strdup("500 ERR INVALID COMMAND\r\n");
+    return return_value_g_strdup_53;
   }
 
   else
@@ -7542,28 +7542,28 @@ char * parse(const char *buf, const signed int bytes, const signed int fd)
     MSG(5, "Buffer: |%s| bytes:", buf, bytes);
     if(bytes >= 5)
     {
-      return_value_strncmp$59=strncmp(buf, "\r\n.\r\n", (unsigned long int)bytes);
-      tmp_if_expr$60 = !(return_value_strncmp$59 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_59=strncmp(buf, "\r\n.\r\n", (unsigned long int)bytes);
+      tmp_if_expr_60 = !(return_value_strncmp_59 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$60 = (_Bool)0;
-    if(end_data == 1 || tmp_if_expr$60)
-      tmp_if_expr$63 = (_Bool)1;
+      tmp_if_expr_60 = (_Bool)0;
+    if(end_data == 1 || tmp_if_expr_60)
+      tmp_if_expr_63 = (_Bool)1;
 
     else
     {
       if(bytes == 3)
       {
-        return_value_strncmp$61=strncmp(buf, ".\r\n", (unsigned long int)bytes);
-        tmp_if_expr$62 = !(return_value_strncmp$61 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strncmp_61=strncmp(buf, ".\r\n", (unsigned long int)bytes);
+        tmp_if_expr_62 = !(return_value_strncmp_61 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$62 = (_Bool)0;
-      tmp_if_expr$63 = tmp_if_expr$62 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_62 = (_Bool)0;
+      tmp_if_expr_63 = tmp_if_expr_62 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$63)
+    if(tmp_if_expr_63)
     {
       MSG(5, "Finishing data");
       end_data = 0;
@@ -7578,38 +7578,38 @@ char * parse(const char *buf, const signed int bytes, const signed int fd)
 
       if(speechd_socket->o_bytes == 0ul)
       {
-        return_value_g_strdup$54=g_strdup("227 OK MESSAGE CANCELED\r\n");
-        return return_value_g_strdup$54;
+        return_value_g_strdup_54=g_strdup("227 OK MESSAGE CANCELED\r\n");
+        return return_value_g_strdup_54;
       }
 
-      signed int return_value_g_utf8_validate$56;
-      return_value_g_utf8_validate$56=g_utf8_validate(speechd_socket->o_buf->str, (signed long int)speechd_socket->o_bytes, (const char **)(void *)0);
-      if(return_value_g_utf8_validate$56 == 0)
+      signed int return_value_g_utf8_validate_56;
+      return_value_g_utf8_validate_56=g_utf8_validate(speechd_socket->o_buf->str, (signed long int)speechd_socket->o_bytes, (const char **)(void *)0);
+      if(return_value_g_utf8_validate_56 == 0)
       {
         MSG(4, "ERROR: Invalid character encoding on input (failed UTF-8 validation)");
         MSG(4, "Rejecting this message.");
-        char *return_value_g_strdup$55;
-        return_value_g_strdup$55=g_strdup("501 ERR INVALID ENCODING\r\n");
-        return return_value_g_strdup$55;
+        char *return_value_g_strdup_55;
+        return_value_g_strdup_55=g_strdup("501 ERR INVALID ENCODING\r\n");
+        return return_value_g_strdup_55;
       }
 
-      void *return_value_g_malloc$57;
-      return_value_g_malloc$57=g_malloc(sizeof(struct anonymous$7) /*224ul*/ );
-      new = (struct anonymous$7 *)return_value_g_malloc$57;
+      void *return_value_g_malloc_57;
+      return_value_g_malloc_57=g_malloc(sizeof(struct anonymous_7) /*224ul*/ );
+      new = (struct anonymous_7 *)return_value_g_malloc_57;
       new->bytes = (signed int)speechd_socket->o_bytes;
       /* assertion speechd_socket->o_buf != ((void *)0) */
       assert(speechd_socket->o_buf != (struct _GString *)(void *)0);
       new->buf=deescape_dot(speechd_socket->o_buf->str, (unsigned long int)new->bytes);
       reparted = speechd_socket->inside_block;
       MSG(5, "New buf is now: |%s|", new->buf);
-      msg_uid=queue_message(new, fd, 1, (enum anonymous$8)SPD_MSGTYPE_TEXT, reparted);
+      msg_uid=queue_message(new, fd, 1, (enum anonymous_8)SPD_MSGTYPE_TEXT, reparted);
       if(msg_uid == 0)
       {
         g_free((void *)new->buf);
         g_free((void *)new);
-        char *return_value_g_strdup$58;
-        return_value_g_strdup$58=g_strdup("300 ERR INTERNAL\r\n");
-        return return_value_g_strdup$58;
+        char *return_value_g_strdup_58;
+        return_value_g_strdup_58=g_strdup("300 ERR INTERNAL\r\n");
+        return return_value_g_strdup_58;
       }
 
       server_data_off(fd);
@@ -7643,39 +7643,39 @@ char * parse(const char *buf, const signed int bytes, const signed int fd)
   if(end_data == 1)
     goto enddata;
 
-  char *return_value_g_strdup$64;
-  return_value_g_strdup$64=g_strdup("999 DATA");
-  return return_value_g_strdup$64;
+  char *return_value_g_strdup_64;
+  return_value_g_strdup_64=g_strdup("999 DATA");
+  return return_value_g_strdup_64;
 }
 
 // parse_block
 // file parse.c line 975
-char * parse_block(const char *buf, const signed int bytes, const signed int fd, struct anonymous$0 *speechd_socket)
+char * parse_block(const char *buf, const signed int bytes, const signed int fd, struct anonymous_0 *speechd_socket)
 {
   char *cmd_main;
   cmd_main=get_param(buf, 1, bytes, 1);
   if(cmd_main == ((char *)NULL))
   {
     MSG(4, "Missing parameter from client");
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_1;
   }
 
-  signed int return_value_strcmp$9;
-  return_value_strcmp$9=strcmp(cmd_main, "begin");
-  signed int tmp_if_expr$10;
-  if(return_value_strcmp$9 == 0)
+  signed int return_value_strcmp_9;
+  return_value_strcmp_9=strcmp(cmd_main, "begin");
+  signed int tmp_if_expr_10;
+  if(return_value_strcmp_9 == 0)
   {
     g_free((void *)cmd_main);
-    tmp_if_expr$10 = 1;
+    tmp_if_expr_10 = 1;
   }
 
   else
-    tmp_if_expr$10 = 0;
-  signed int return_value_strcmp$7;
-  signed int tmp_if_expr$8;
-  if(!(tmp_if_expr$10 == 0))
+    tmp_if_expr_10 = 0;
+  signed int return_value_strcmp_7;
+  signed int tmp_if_expr_8;
+  if(!(tmp_if_expr_10 == 0))
   {
     /* assertion speechd_socket->inside_block >= 0 */
     assert(speechd_socket->inside_block >= 0);
@@ -7683,63 +7683,63 @@ char * parse_block(const char *buf, const signed int bytes, const signed int fd,
     {
       SpeechdStatus.max_gid = SpeechdStatus.max_gid + 1;
       speechd_socket->inside_block = SpeechdStatus.max_gid;
-      char *return_value_g_strdup$2;
-      return_value_g_strdup$2=g_strdup("260 OK INSIDE BLOCK\r\n");
-      return return_value_g_strdup$2;
+      char *return_value_g_strdup_2;
+      return_value_g_strdup_2=g_strdup("260 OK INSIDE BLOCK\r\n");
+      return return_value_g_strdup_2;
     }
 
     else
     {
-      char *return_value_g_strdup$3;
-      return_value_g_strdup$3=g_strdup("330 ERR ALREADY INSIDE BLOCK\r\n");
-      return return_value_g_strdup$3;
+      char *return_value_g_strdup_3;
+      return_value_g_strdup_3=g_strdup("330 ERR ALREADY INSIDE BLOCK\r\n");
+      return return_value_g_strdup_3;
     }
   }
 
   else
   {
-    return_value_strcmp$7=strcmp(cmd_main, "end");
-    if(return_value_strcmp$7 == 0)
+    return_value_strcmp_7=strcmp(cmd_main, "end");
+    if(return_value_strcmp_7 == 0)
     {
       g_free((void *)cmd_main);
-      tmp_if_expr$8 = 1;
+      tmp_if_expr_8 = 1;
     }
 
     else
-      tmp_if_expr$8 = 0;
-    if(!(tmp_if_expr$8 == 0))
+      tmp_if_expr_8 = 0;
+    if(!(tmp_if_expr_8 == 0))
     {
       /* assertion speechd_socket->inside_block >= 0 */
       assert(speechd_socket->inside_block >= 0);
       if(speechd_socket->inside_block >= 1)
       {
         speechd_socket->inside_block = 0;
-        char *return_value_g_strdup$4;
-        return_value_g_strdup$4=g_strdup("261 OK OUTSIDE BLOCK\r\n");
-        return return_value_g_strdup$4;
+        char *return_value_g_strdup_4;
+        return_value_g_strdup_4=g_strdup("261 OK OUTSIDE BLOCK\r\n");
+        return return_value_g_strdup_4;
       }
 
       else
       {
-        char *return_value_g_strdup$5;
-        return_value_g_strdup$5=g_strdup("331 ERR ALREADY OUTSIDE BLOCK\r\n");
-        return return_value_g_strdup$5;
+        char *return_value_g_strdup_5;
+        return_value_g_strdup_5=g_strdup("331 ERR ALREADY OUTSIDE BLOCK\r\n");
+        return return_value_g_strdup_5;
       }
     }
 
     else
     {
       g_free((void *)cmd_main);
-      char *return_value_g_strdup$6;
-      return_value_g_strdup$6=g_strdup("514 ERR PARAMETER INVALID\r\n");
-      return return_value_g_strdup$6;
+      char *return_value_g_strdup_6;
+      return_value_g_strdup_6=g_strdup("514 ERR PARAMETER INVALID\r\n");
+      return return_value_g_strdup_6;
     }
   }
 }
 
 // parse_cancel
 // file parse.c line 650
-char * parse_cancel(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_cancel(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
   signed int uid = 0;
   char *who_s;
@@ -7748,48 +7748,48 @@ char * parse_cancel(const char *buf, const signed int bytes, const signed int fd
   if(who_s == ((char *)NULL))
   {
     MSG(4, "Missing parameter from client");
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_1;
   }
 
-  signed int return_value_strcmp$8;
-  return_value_strcmp$8=strcmp(who_s, "all");
-  signed int tmp_if_expr$9;
-  if(return_value_strcmp$8 == 0)
+  signed int return_value_strcmp_8;
+  return_value_strcmp_8=strcmp(who_s, "all");
+  signed int tmp_if_expr_9;
+  if(return_value_strcmp_8 == 0)
   {
     g_free((void *)who_s);
-    tmp_if_expr$9 = 1;
+    tmp_if_expr_9 = 1;
   }
 
   else
-    tmp_if_expr$9 = 0;
-  signed int return_value_strcmp$6;
-  signed int tmp_if_expr$7;
-  char *return_value_g_strdup$2;
-  signed int return_value_isanum$5;
-  char *return_value_g_strdup$3;
-  if(!(tmp_if_expr$9 == 0))
+    tmp_if_expr_9 = 0;
+  signed int return_value_strcmp_6;
+  signed int tmp_if_expr_7;
+  char *return_value_g_strdup_2;
+  signed int return_value_isanum_5;
+  char *return_value_g_strdup_3;
+  if(!(tmp_if_expr_9 == 0))
     speaking_cancel_all();
 
   else
   {
-    return_value_strcmp$6=strcmp(who_s, "self");
-    if(return_value_strcmp$6 == 0)
+    return_value_strcmp_6=strcmp(who_s, "self");
+    if(return_value_strcmp_6 == 0)
     {
       g_free((void *)who_s);
-      tmp_if_expr$7 = 1;
+      tmp_if_expr_7 = 1;
     }
 
     else
-      tmp_if_expr$7 = 0;
-    if(!(tmp_if_expr$7 == 0))
+      tmp_if_expr_7 = 0;
+    if(!(tmp_if_expr_7 == 0))
     {
       uid=get_client_uid_by_fd(fd);
       if(uid == 0)
       {
-        return_value_g_strdup$2=g_strdup("300 ERR INTERNAL\r\n");
-        return return_value_g_strdup$2;
+        return_value_g_strdup_2=g_strdup("300 ERR INTERNAL\r\n");
+        return return_value_g_strdup_2;
       }
 
       speaking_cancel(uid);
@@ -7797,15 +7797,15 @@ char * parse_cancel(const char *buf, const signed int bytes, const signed int fd
 
     else
     {
-      return_value_isanum$5=isanum(who_s);
-      if(!(return_value_isanum$5 == 0))
+      return_value_isanum_5=isanum(who_s);
+      if(!(return_value_isanum_5 == 0))
       {
         uid=atoi(who_s);
         g_free((void *)who_s);
         if(!(uid >= 1))
         {
-          return_value_g_strdup$3=g_strdup("406 ERR ID DOESNT EXIST\r\n");
-          return return_value_g_strdup$3;
+          return_value_g_strdup_3=g_strdup("406 ERR ID DOESNT EXIST\r\n");
+          return return_value_g_strdup_3;
         }
 
         speaking_cancel(uid);
@@ -7814,46 +7814,46 @@ char * parse_cancel(const char *buf, const signed int bytes, const signed int fd
       else
       {
         g_free((void *)who_s);
-        char *return_value_g_strdup$4;
-        return_value_g_strdup$4=g_strdup("514 ERR PARAMETER INVALID\r\n");
-        return return_value_g_strdup$4;
+        char *return_value_g_strdup_4;
+        return_value_g_strdup_4=g_strdup("514 ERR PARAMETER INVALID\r\n");
+        return return_value_g_strdup_4;
       }
     }
   }
-  char *return_value_g_strdup$10;
-  return_value_g_strdup$10=g_strdup("213 OK CANCELED\r\n");
-  return return_value_g_strdup$10;
+  char *return_value_g_strdup_10;
+  return_value_g_strdup_10=g_strdup("213 OK CANCELED\r\n");
+  return return_value_g_strdup_10;
 }
 
 // parse_char
 // file parse.c line 800
-char * parse_char(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_char(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
-  char *return_value_parse_general_event$1;
-  return_value_parse_general_event$1=parse_general_event(buf, bytes, fd, speechd_socket, (enum anonymous$8)SPD_MSGTYPE_CHAR);
-  return return_value_parse_general_event$1;
+  char *return_value_parse_general_event_1;
+  return_value_parse_general_event_1=parse_general_event(buf, bytes, fd, speechd_socket, (enum anonymous_8)SPD_MSGTYPE_CHAR);
+  return return_value_parse_general_event_1;
 }
 
 // parse_general_event
 // file parse.c line 755
-char * parse_general_event(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket, enum anonymous$8 type)
+char * parse_general_event(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket, enum anonymous_8 type)
 {
   char *param;
-  struct anonymous$7 *msg;
+  struct anonymous_7 *msg;
   param=get_param(buf, 1, bytes, 0);
   if(param == ((char *)NULL))
   {
     MSG(4, "Missing parameter from client");
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_1;
   }
 
-  char *return_value_g_strdup$2;
+  char *return_value_g_strdup_2;
   if(param == ((char *)NULL))
   {
-    return_value_g_strdup$2=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$2;
+    return_value_g_strdup_2=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_2;
   }
 
   else
@@ -7861,58 +7861,58 @@ char * parse_general_event(const char *buf, const signed int bytes, const signed
     if((signed int)*param == 0)
     {
       g_free((void *)param);
-      char *return_value_g_strdup$3;
-      return_value_g_strdup$3=g_strdup("510 ERR MISSING PARAMETER\r\n");
-      return return_value_g_strdup$3;
+      char *return_value_g_strdup_3;
+      return_value_g_strdup_3=g_strdup("510 ERR MISSING PARAMETER\r\n");
+      return return_value_g_strdup_3;
     }
 
-    signed int return_value_g_utf8_validate$5;
-    return_value_g_utf8_validate$5=g_utf8_validate(buf, (signed long int)bytes, (const char **)(void *)0);
-    if(return_value_g_utf8_validate$5 == 0)
+    signed int return_value_g_utf8_validate_5;
+    return_value_g_utf8_validate_5=g_utf8_validate(buf, (signed long int)bytes, (const char **)(void *)0);
+    if(return_value_g_utf8_validate_5 == 0)
     {
       MSG(4, "ERROR: Invalid character encoding on event input (failed UTF-8 validation)");
       MSG(4, "Rejecting this event (char/key/sound_icon).");
-      char *return_value_g_strdup$4;
-      return_value_g_strdup$4=g_strdup("501 ERR INVALID ENCODING\r\n");
-      return return_value_g_strdup$4;
+      char *return_value_g_strdup_4;
+      return_value_g_strdup_4=g_strdup("501 ERR INVALID ENCODING\r\n");
+      return return_value_g_strdup_4;
     }
 
-    void *return_value_g_malloc$6;
-    return_value_g_malloc$6=g_malloc(sizeof(struct anonymous$7) /*224ul*/ );
-    msg = (struct anonymous$7 *)return_value_g_malloc$6;
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(param);
-    msg->bytes = (signed int)return_value_strlen$7;
+    void *return_value_g_malloc_6;
+    return_value_g_malloc_6=g_malloc(sizeof(struct anonymous_7) /*224ul*/ );
+    msg = (struct anonymous_7 *)return_value_g_malloc_6;
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(param);
+    msg->bytes = (signed int)return_value_strlen_7;
     msg->buf=g_strdup(param);
-    signed int return_value_queue_message$8;
-    return_value_queue_message$8=queue_message(msg, fd, 1, type, speechd_socket->inside_block);
-    if(return_value_queue_message$8 == 0)
+    signed int return_value_queue_message_8;
+    return_value_queue_message_8=queue_message(msg, fd, 1, type, speechd_socket->inside_block);
+    if(return_value_queue_message_8 == 0)
       MSG(2, "Error: Couldn't queue message!\n");
 
     g_free((void *)param);
-    char *return_value_g_strdup$9;
-    return_value_g_strdup$9=g_strdup("225 OK MESSAGE QUEUED\r\n");
-    return return_value_g_strdup$9;
+    char *return_value_g_strdup_9;
+    return_value_g_strdup_9=g_strdup("225 OK MESSAGE QUEUED\r\n");
+    return return_value_g_strdup_9;
   }
 }
 
 // parse_get
 // file parse.c line 888
-char * parse_get(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_get(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
   char *get_type;
   struct _GString *result;
   char *helper;
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_fd(fd);
-  char *return_value_g_strdup$1;
-  signed int tmp_if_expr$7;
-  signed int return_value_strcmp$4;
-  signed int tmp_if_expr$5;
-  if(settings == ((struct anonymous$11 *)NULL))
+  char *return_value_g_strdup_1;
+  signed int tmp_if_expr_7;
+  signed int return_value_strcmp_4;
+  signed int tmp_if_expr_5;
+  if(settings == ((struct anonymous_11 *)NULL))
   {
-    return_value_g_strdup$1=g_strdup("300 ERR INTERNAL\r\n");
-    return return_value_g_strdup$1;
+    return_value_g_strdup_1=g_strdup("300 ERR INTERNAL\r\n");
+    return return_value_g_strdup_1;
   }
 
   else
@@ -7921,22 +7921,22 @@ char * parse_get(const char *buf, const signed int bytes, const signed int fd, c
     if(get_type == ((char *)NULL))
     {
       MSG(4, "Missing parameter from client");
-      char *return_value_g_strdup$2;
-      return_value_g_strdup$2=g_strdup("510 ERR MISSING PARAMETER\r\n");
-      return return_value_g_strdup$2;
+      char *return_value_g_strdup_2;
+      return_value_g_strdup_2=g_strdup("510 ERR MISSING PARAMETER\r\n");
+      return return_value_g_strdup_2;
     }
 
-    signed int return_value_strcmp$6;
-    return_value_strcmp$6=strcmp(get_type, "voice");
-    if(return_value_strcmp$6 == 0)
+    signed int return_value_strcmp_6;
+    return_value_strcmp_6=strcmp(get_type, "voice");
+    if(return_value_strcmp_6 == 0)
     {
       g_free((void *)get_type);
-      tmp_if_expr$7 = 1;
+      tmp_if_expr_7 = 1;
     }
 
     else
-      tmp_if_expr$7 = 0;
-    if(!(tmp_if_expr$7 == 0))
+      tmp_if_expr_7 = 0;
+    if(!(tmp_if_expr_7 == 0))
     {
       result=g_string_new("");
       switch((signed int)settings->msg_settings.voice_type)
@@ -7991,16 +7991,16 @@ char * parse_get(const char *buf, const signed int bytes, const signed int fd, c
 
     else
     {
-      return_value_strcmp$4=strcmp(get_type, "output_module");
-      if(return_value_strcmp$4 == 0)
+      return_value_strcmp_4=strcmp(get_type, "output_module");
+      if(return_value_strcmp_4 == 0)
       {
         g_free((void *)get_type);
-        tmp_if_expr$5 = 1;
+        tmp_if_expr_5 = 1;
       }
 
       else
-        tmp_if_expr$5 = 0;
-      if(!(tmp_if_expr$5 == 0))
+        tmp_if_expr_5 = 0;
+      if(!(tmp_if_expr_5 == 0))
       {
         result=g_string_new("");
         g_string_append_printf(result, "251-%s\r\n", settings->output_module);
@@ -8012,9 +8012,9 @@ char * parse_get(const char *buf, const signed int bytes, const signed int fd, c
       else
       {
         g_free((void *)get_type);
-        char *return_value_g_strdup$3;
-        return_value_g_strdup$3=g_strdup("514 ERR PARAMETER INVALID\r\n");
-        return return_value_g_strdup$3;
+        char *return_value_g_strdup_3;
+        return_value_g_strdup_3=g_strdup("514 ERR PARAMETER INVALID\r\n");
+        return return_value_g_strdup_3;
       }
     }
   }
@@ -8022,130 +8022,130 @@ char * parse_get(const char *buf, const signed int bytes, const signed int fd, c
 
 // parse_help
 // file parse.c line 953
-char * parse_help(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_help(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
   char *help;
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
-  help = (char *)return_value_g_malloc$1;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
+  help = (char *)return_value_g_malloc_1;
   sprintf(help, "248-  SPEAK           -- say text \r\n248-  KEY             -- say a combination of keys \r\n248-  CHAR            -- say a character \r\n248-  SOUND_ICON      -- execute a sound icon \r\n248-  SET             -- set a parameter \r\n248-  GET             -- get a current parameter \r\n248-  LIST            -- list available arguments \r\n248-  HISTORY         -- commands related to history \r\n248-  QUIT            -- close the connection \r\n248 OK HELP SENT\r\n");
   return help;
 }
 
 // parse_history
 // file parse.c line 260
-char * parse_history(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_history(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
   char *cmd_main;
   cmd_main=get_param(buf, 1, bytes, 1);
   if(cmd_main == ((char *)NULL))
   {
     MSG(4, "Missing parameter from client");
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_1;
   }
 
-  signed int return_value_strcmp$77;
-  return_value_strcmp$77=strcmp(cmd_main, "get");
-  signed int tmp_if_expr$78;
-  if(return_value_strcmp$77 == 0)
+  signed int return_value_strcmp_77;
+  return_value_strcmp_77=strcmp(cmd_main, "get");
+  signed int tmp_if_expr_78;
+  if(return_value_strcmp_77 == 0)
   {
     g_free((void *)cmd_main);
-    tmp_if_expr$78 = 1;
+    tmp_if_expr_78 = 1;
   }
 
   else
-    tmp_if_expr$78 = 0;
-  signed int tmp_if_expr$34;
-  signed int return_value_strcmp$31;
-  signed int tmp_if_expr$32;
-  signed int return_value_strcmp$29;
-  signed int tmp_if_expr$30;
-  char *return_value_g_strdup$6;
-  char *return_value_g_strdup$8;
-  char *return_value_g_strdup$10;
-  signed int return_value_strcmp$27;
-  signed int tmp_if_expr$28;
-  signed int return_value_strcmp$25;
-  signed int tmp_if_expr$26;
-  signed int return_value_strcmp$75;
-  signed int tmp_if_expr$76;
-  signed int tmp_if_expr$64;
-  signed int tmp_if_expr$52;
-  signed int return_value_strcmp$49;
-  signed int tmp_if_expr$50;
-  signed int return_value_strcmp$47;
-  signed int tmp_if_expr$48;
-  signed int return_value_strcmp$61;
-  signed int tmp_if_expr$62;
-  signed int return_value_strcmp$59;
-  signed int tmp_if_expr$60;
-  signed int return_value_strcmp$57;
-  signed int tmp_if_expr$58;
-  signed int return_value_strcmp$73;
-  signed int tmp_if_expr$74;
-  signed int return_value_strcmp$71;
-  signed int tmp_if_expr$72;
-  if(!(tmp_if_expr$78 == 0))
+    tmp_if_expr_78 = 0;
+  signed int tmp_if_expr_34;
+  signed int return_value_strcmp_31;
+  signed int tmp_if_expr_32;
+  signed int return_value_strcmp_29;
+  signed int tmp_if_expr_30;
+  char *return_value_g_strdup_6;
+  char *return_value_g_strdup_8;
+  char *return_value_g_strdup_10;
+  signed int return_value_strcmp_27;
+  signed int tmp_if_expr_28;
+  signed int return_value_strcmp_25;
+  signed int tmp_if_expr_26;
+  signed int return_value_strcmp_75;
+  signed int tmp_if_expr_76;
+  signed int tmp_if_expr_64;
+  signed int tmp_if_expr_52;
+  signed int return_value_strcmp_49;
+  signed int tmp_if_expr_50;
+  signed int return_value_strcmp_47;
+  signed int tmp_if_expr_48;
+  signed int return_value_strcmp_61;
+  signed int tmp_if_expr_62;
+  signed int return_value_strcmp_59;
+  signed int tmp_if_expr_60;
+  signed int return_value_strcmp_57;
+  signed int tmp_if_expr_58;
+  signed int return_value_strcmp_73;
+  signed int tmp_if_expr_74;
+  signed int return_value_strcmp_71;
+  signed int tmp_if_expr_72;
+  if(!(tmp_if_expr_78 == 0))
   {
     char *hist_get_sub;
     hist_get_sub=get_param(buf, 2, bytes, 1);
     if(hist_get_sub == ((char *)NULL))
     {
       MSG(4, "Missing parameter from client");
-      char *return_value_g_strdup$2;
-      return_value_g_strdup$2=g_strdup("510 ERR MISSING PARAMETER\r\n");
-      return return_value_g_strdup$2;
+      char *return_value_g_strdup_2;
+      return_value_g_strdup_2=g_strdup("510 ERR MISSING PARAMETER\r\n");
+      return return_value_g_strdup_2;
     }
 
-    signed int return_value_strcmp$33;
-    return_value_strcmp$33=strcmp(hist_get_sub, "client_list");
-    if(return_value_strcmp$33 == 0)
+    signed int return_value_strcmp_33;
+    return_value_strcmp_33=strcmp(hist_get_sub, "client_list");
+    if(return_value_strcmp_33 == 0)
     {
       g_free((void *)hist_get_sub);
-      tmp_if_expr$34 = 1;
+      tmp_if_expr_34 = 1;
     }
 
     else
-      tmp_if_expr$34 = 0;
-    if(!(tmp_if_expr$34 == 0))
+      tmp_if_expr_34 = 0;
+    if(!(tmp_if_expr_34 == 0))
     {
-      char *return_value_history_get_client_list$3;
-      return_value_history_get_client_list$3=history_get_client_list();
-      return (char *)return_value_history_get_client_list$3;
+      char *return_value_history_get_client_list_3;
+      return_value_history_get_client_list_3=history_get_client_list();
+      return (char *)return_value_history_get_client_list_3;
     }
 
     else
     {
-      return_value_strcmp$31=strcmp(hist_get_sub, "client_id");
-      if(return_value_strcmp$31 == 0)
+      return_value_strcmp_31=strcmp(hist_get_sub, "client_id");
+      if(return_value_strcmp_31 == 0)
       {
         g_free((void *)hist_get_sub);
-        tmp_if_expr$32 = 1;
+        tmp_if_expr_32 = 1;
       }
 
       else
-        tmp_if_expr$32 = 0;
-      if(!(tmp_if_expr$32 == 0))
+        tmp_if_expr_32 = 0;
+      if(!(tmp_if_expr_32 == 0))
       {
-        char *return_value_history_get_client_id$4;
-        return_value_history_get_client_id$4=history_get_client_id(fd);
-        return (char *)return_value_history_get_client_id$4;
+        char *return_value_history_get_client_id_4;
+        return_value_history_get_client_id_4=history_get_client_id(fd);
+        return (char *)return_value_history_get_client_id_4;
       }
 
       else
       {
-        return_value_strcmp$29=strcmp(hist_get_sub, "client_messages");
-        if(return_value_strcmp$29 == 0)
+        return_value_strcmp_29=strcmp(hist_get_sub, "client_messages");
+        if(return_value_strcmp_29 == 0)
         {
           g_free((void *)hist_get_sub);
-          tmp_if_expr$30 = 1;
+          tmp_if_expr_30 = 1;
         }
 
         else
-          tmp_if_expr$30 = 0;
-        if(!(tmp_if_expr$30 == 0))
+          tmp_if_expr_30 = 0;
+        if(!(tmp_if_expr_30 == 0))
         {
           signed int start;
           signed int num;
@@ -8155,33 +8155,33 @@ char * parse_history(const char *buf, const signed int bytes, const signed int f
           if(who == ((char *)NULL))
           {
             MSG(4, "Missing parameter from client");
-            char *return_value_g_strdup$5;
-            return_value_g_strdup$5=g_strdup("510 ERR MISSING PARAMETER\r\n");
-            return return_value_g_strdup$5;
+            char *return_value_g_strdup_5;
+            return_value_g_strdup_5=g_strdup("510 ERR MISSING PARAMETER\r\n");
+            return return_value_g_strdup_5;
           }
 
-          signed int return_value_strcmp$7;
-          return_value_strcmp$7=strcmp(who, "self");
-          if(return_value_strcmp$7 == 0)
+          signed int return_value_strcmp_7;
+          return_value_strcmp_7=strcmp(who, "self");
+          if(return_value_strcmp_7 == 0)
           {
-            return_value_g_strdup$6=g_strdup("380 ERR NOT YET IMPLEMENTED\r\n");
-            return return_value_g_strdup$6;
+            return_value_g_strdup_6=g_strdup("380 ERR NOT YET IMPLEMENTED\r\n");
+            return return_value_g_strdup_6;
           }
 
-          signed int return_value_strcmp$9;
-          return_value_strcmp$9=strcmp(who, "all");
-          if(return_value_strcmp$9 == 0)
+          signed int return_value_strcmp_9;
+          return_value_strcmp_9=strcmp(who, "all");
+          if(return_value_strcmp_9 == 0)
           {
-            return_value_g_strdup$8=g_strdup("380 ERR NOT YET IMPLEMENTED\r\n");
-            return return_value_g_strdup$8;
+            return_value_g_strdup_8=g_strdup("380 ERR NOT YET IMPLEMENTED\r\n");
+            return return_value_g_strdup_8;
           }
 
-          signed int return_value_isanum$11;
-          return_value_isanum$11=isanum(who);
-          if(return_value_isanum$11 == 0)
+          signed int return_value_isanum_11;
+          return_value_isanum_11=isanum(who);
+          if(return_value_isanum_11 == 0)
           {
-            return_value_g_strdup$10=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-            return return_value_g_strdup$10;
+            return_value_g_strdup_10=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+            return return_value_g_strdup_10;
           }
 
           who_id=atoi(who);
@@ -8191,114 +8191,114 @@ char * parse_history(const char *buf, const signed int bytes, const signed int f
           if(helper == ((char *)NULL))
           {
             MSG(4, "Missing parameter from client");
-            char *return_value_g_strdup$12;
-            return_value_g_strdup$12=g_strdup("510 ERR MISSING PARAMETER\r\n");
-            return return_value_g_strdup$12;
+            char *return_value_g_strdup_12;
+            return_value_g_strdup_12=g_strdup("510 ERR MISSING PARAMETER\r\n");
+            return return_value_g_strdup_12;
           }
 
-          signed int return_value_isanum$14;
-          return_value_isanum$14=isanum(helper);
-          if(return_value_isanum$14 == 0)
+          signed int return_value_isanum_14;
+          return_value_isanum_14=isanum(helper);
+          if(return_value_isanum_14 == 0)
           {
             g_free((void *)helper);
-            char *return_value_g_strdup$13;
-            return_value_g_strdup$13=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-            return return_value_g_strdup$13;
+            char *return_value_g_strdup_13;
+            return_value_g_strdup_13=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+            return return_value_g_strdup_13;
           }
 
           start=atoi(helper);
           g_free((void *)helper);
-          char *parse_history$$1$$2$$4$$3$$helper;
-          parse_history$$1$$2$$4$$3$$helper=get_param(buf, 5, bytes, 0);
-          if(parse_history$$1$$2$$4$$3$$helper == ((char *)NULL))
+          char *parse_history__1__2__4__3__helper;
+          parse_history__1__2__4__3__helper=get_param(buf, 5, bytes, 0);
+          if(parse_history__1__2__4__3__helper == ((char *)NULL))
           {
             MSG(4, "Missing parameter from client");
-            char *return_value_g_strdup$15;
-            return_value_g_strdup$15=g_strdup("510 ERR MISSING PARAMETER\r\n");
-            return return_value_g_strdup$15;
+            char *return_value_g_strdup_15;
+            return_value_g_strdup_15=g_strdup("510 ERR MISSING PARAMETER\r\n");
+            return return_value_g_strdup_15;
           }
 
-          signed int return_value_isanum$17;
-          return_value_isanum$17=isanum(parse_history$$1$$2$$4$$3$$helper);
-          if(return_value_isanum$17 == 0)
+          signed int return_value_isanum_17;
+          return_value_isanum_17=isanum(parse_history__1__2__4__3__helper);
+          if(return_value_isanum_17 == 0)
           {
-            g_free((void *)parse_history$$1$$2$$4$$3$$helper);
-            char *return_value_g_strdup$16;
-            return_value_g_strdup$16=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-            return return_value_g_strdup$16;
+            g_free((void *)parse_history__1__2__4__3__helper);
+            char *return_value_g_strdup_16;
+            return_value_g_strdup_16=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+            return return_value_g_strdup_16;
           }
 
-          num=atoi(parse_history$$1$$2$$4$$3$$helper);
-          g_free((void *)parse_history$$1$$2$$4$$3$$helper);
-          char *return_value_history_get_message_list$18;
-          return_value_history_get_message_list$18=history_get_message_list((unsigned int)who_id, start, num);
-          return (char *)return_value_history_get_message_list$18;
+          num=atoi(parse_history__1__2__4__3__helper);
+          g_free((void *)parse_history__1__2__4__3__helper);
+          char *return_value_history_get_message_list_18;
+          return_value_history_get_message_list_18=history_get_message_list((unsigned int)who_id, start, num);
+          return (char *)return_value_history_get_message_list_18;
         }
 
         else
         {
-          return_value_strcmp$27=strcmp(hist_get_sub, "last");
-          if(return_value_strcmp$27 == 0)
+          return_value_strcmp_27=strcmp(hist_get_sub, "last");
+          if(return_value_strcmp_27 == 0)
           {
             g_free((void *)hist_get_sub);
-            tmp_if_expr$28 = 1;
+            tmp_if_expr_28 = 1;
           }
 
           else
-            tmp_if_expr$28 = 0;
-          if(!(tmp_if_expr$28 == 0))
+            tmp_if_expr_28 = 0;
+          if(!(tmp_if_expr_28 == 0))
           {
-            char *return_value_history_get_last$19;
-            return_value_history_get_last$19=history_get_last(fd);
-            return (char *)return_value_history_get_last$19;
+            char *return_value_history_get_last_19;
+            return_value_history_get_last_19=history_get_last(fd);
+            return (char *)return_value_history_get_last_19;
           }
 
           else
           {
-            return_value_strcmp$25=strcmp(hist_get_sub, "message");
-            if(return_value_strcmp$25 == 0)
+            return_value_strcmp_25=strcmp(hist_get_sub, "message");
+            if(return_value_strcmp_25 == 0)
             {
               g_free((void *)hist_get_sub);
-              tmp_if_expr$26 = 1;
+              tmp_if_expr_26 = 1;
             }
 
             else
-              tmp_if_expr$26 = 0;
-            if(!(tmp_if_expr$26 == 0))
+              tmp_if_expr_26 = 0;
+            if(!(tmp_if_expr_26 == 0))
             {
               signed int msg_id;
-              char *parse_history$$1$$2$$6$$1$$helper;
-              parse_history$$1$$2$$6$$1$$helper=get_param(buf, 3, bytes, 0);
-              if(parse_history$$1$$2$$6$$1$$helper == ((char *)NULL))
+              char *parse_history__1__2__6__1__helper;
+              parse_history__1__2__6__1__helper=get_param(buf, 3, bytes, 0);
+              if(parse_history__1__2__6__1__helper == ((char *)NULL))
               {
                 MSG(4, "Missing parameter from client");
-                char *return_value_g_strdup$20;
-                return_value_g_strdup$20=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                return return_value_g_strdup$20;
+                char *return_value_g_strdup_20;
+                return_value_g_strdup_20=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                return return_value_g_strdup_20;
               }
 
-              signed int return_value_isanum$22;
-              return_value_isanum$22=isanum(parse_history$$1$$2$$6$$1$$helper);
-              if(return_value_isanum$22 == 0)
+              signed int return_value_isanum_22;
+              return_value_isanum_22=isanum(parse_history__1__2__6__1__helper);
+              if(return_value_isanum_22 == 0)
               {
-                g_free((void *)parse_history$$1$$2$$6$$1$$helper);
-                char *return_value_g_strdup$21;
-                return_value_g_strdup$21=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-                return return_value_g_strdup$21;
+                g_free((void *)parse_history__1__2__6__1__helper);
+                char *return_value_g_strdup_21;
+                return_value_g_strdup_21=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+                return return_value_g_strdup_21;
               }
 
-              msg_id=atoi(parse_history$$1$$2$$6$$1$$helper);
-              g_free((void *)parse_history$$1$$2$$6$$1$$helper);
-              char *return_value_history_get_message$23;
-              return_value_history_get_message$23=history_get_message(msg_id);
-              return (char *)return_value_history_get_message$23;
+              msg_id=atoi(parse_history__1__2__6__1__helper);
+              g_free((void *)parse_history__1__2__6__1__helper);
+              char *return_value_history_get_message_23;
+              return_value_history_get_message_23=history_get_message(msg_id);
+              return (char *)return_value_history_get_message_23;
             }
 
             else
             {
-              char *return_value_g_strdup$24;
-              return_value_g_strdup$24=g_strdup("510 ERR MISSING PARAMETER\r\n");
-              return return_value_g_strdup$24;
+              char *return_value_g_strdup_24;
+              return_value_g_strdup_24=g_strdup("510 ERR MISSING PARAMETER\r\n");
+              return return_value_g_strdup_24;
             }
           }
         }
@@ -8308,154 +8308,154 @@ char * parse_history(const char *buf, const signed int bytes, const signed int f
 
   else
   {
-    return_value_strcmp$75=strcmp(cmd_main, "cursor");
-    if(return_value_strcmp$75 == 0)
+    return_value_strcmp_75=strcmp(cmd_main, "cursor");
+    if(return_value_strcmp_75 == 0)
     {
       g_free((void *)cmd_main);
-      tmp_if_expr$76 = 1;
+      tmp_if_expr_76 = 1;
     }
 
     else
-      tmp_if_expr$76 = 0;
-    if(!(tmp_if_expr$76 == 0))
+      tmp_if_expr_76 = 0;
+    if(!(tmp_if_expr_76 == 0))
     {
       char *hist_cur_sub;
       hist_cur_sub=get_param(buf, 2, bytes, 1);
       if(hist_cur_sub == ((char *)NULL))
       {
         MSG(4, "Missing parameter from client");
-        char *return_value_g_strdup$35;
-        return_value_g_strdup$35=g_strdup("510 ERR MISSING PARAMETER\r\n");
-        return return_value_g_strdup$35;
+        char *return_value_g_strdup_35;
+        return_value_g_strdup_35=g_strdup("510 ERR MISSING PARAMETER\r\n");
+        return return_value_g_strdup_35;
       }
 
-      signed int return_value_strcmp$63;
-      return_value_strcmp$63=strcmp(hist_cur_sub, "set");
-      if(return_value_strcmp$63 == 0)
+      signed int return_value_strcmp_63;
+      return_value_strcmp_63=strcmp(hist_cur_sub, "set");
+      if(return_value_strcmp_63 == 0)
       {
         g_free((void *)hist_cur_sub);
-        tmp_if_expr$64 = 1;
+        tmp_if_expr_64 = 1;
       }
 
       else
-        tmp_if_expr$64 = 0;
-      if(!(tmp_if_expr$64 == 0))
+        tmp_if_expr_64 = 0;
+      if(!(tmp_if_expr_64 == 0))
       {
-        signed int parse_history$$1$$3$$2$$who;
+        signed int parse_history__1__3__2__who;
         char *location;
-        char *parse_history$$1$$3$$2$$1$$helper;
-        parse_history$$1$$3$$2$$1$$helper=get_param(buf, 3, bytes, 0);
-        if(parse_history$$1$$3$$2$$1$$helper == ((char *)NULL))
+        char *parse_history__1__3__2__1__helper;
+        parse_history__1__3__2__1__helper=get_param(buf, 3, bytes, 0);
+        if(parse_history__1__3__2__1__helper == ((char *)NULL))
         {
           MSG(4, "Missing parameter from client");
-          char *return_value_g_strdup$36;
-          return_value_g_strdup$36=g_strdup("510 ERR MISSING PARAMETER\r\n");
-          return return_value_g_strdup$36;
+          char *return_value_g_strdup_36;
+          return_value_g_strdup_36=g_strdup("510 ERR MISSING PARAMETER\r\n");
+          return return_value_g_strdup_36;
         }
 
-        signed int return_value_isanum$38;
-        return_value_isanum$38=isanum(parse_history$$1$$3$$2$$1$$helper);
-        if(return_value_isanum$38 == 0)
+        signed int return_value_isanum_38;
+        return_value_isanum_38=isanum(parse_history__1__3__2__1__helper);
+        if(return_value_isanum_38 == 0)
         {
-          g_free((void *)parse_history$$1$$3$$2$$1$$helper);
-          char *return_value_g_strdup$37;
-          return_value_g_strdup$37=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-          return return_value_g_strdup$37;
+          g_free((void *)parse_history__1__3__2__1__helper);
+          char *return_value_g_strdup_37;
+          return_value_g_strdup_37=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+          return return_value_g_strdup_37;
         }
 
-        parse_history$$1$$3$$2$$who=atoi(parse_history$$1$$3$$2$$1$$helper);
-        g_free((void *)parse_history$$1$$3$$2$$1$$helper);
+        parse_history__1__3__2__who=atoi(parse_history__1__3__2__1__helper);
+        g_free((void *)parse_history__1__3__2__1__helper);
         location=get_param(buf, 4, bytes, 1);
         if(location == ((char *)NULL))
         {
           MSG(4, "Missing parameter from client");
-          char *return_value_g_strdup$39;
-          return_value_g_strdup$39=g_strdup("510 ERR MISSING PARAMETER\r\n");
-          return return_value_g_strdup$39;
+          char *return_value_g_strdup_39;
+          return_value_g_strdup_39=g_strdup("510 ERR MISSING PARAMETER\r\n");
+          return return_value_g_strdup_39;
         }
 
-        signed int return_value_strcmp$51;
-        return_value_strcmp$51=strcmp(location, "last");
-        if(return_value_strcmp$51 == 0)
+        signed int return_value_strcmp_51;
+        return_value_strcmp_51=strcmp(location, "last");
+        if(return_value_strcmp_51 == 0)
         {
           g_free((void *)location);
-          tmp_if_expr$52 = 1;
+          tmp_if_expr_52 = 1;
         }
 
         else
-          tmp_if_expr$52 = 0;
-        if(!(tmp_if_expr$52 == 0))
+          tmp_if_expr_52 = 0;
+        if(!(tmp_if_expr_52 == 0))
         {
-          char *return_value_history_cursor_set_last$40;
-          return_value_history_cursor_set_last$40=history_cursor_set_last(fd, (unsigned int)parse_history$$1$$3$$2$$who);
-          return (char *)return_value_history_cursor_set_last$40;
+          char *return_value_history_cursor_set_last_40;
+          return_value_history_cursor_set_last_40=history_cursor_set_last(fd, (unsigned int)parse_history__1__3__2__who);
+          return (char *)return_value_history_cursor_set_last_40;
         }
 
         else
         {
-          return_value_strcmp$49=strcmp(location, "first");
-          if(return_value_strcmp$49 == 0)
+          return_value_strcmp_49=strcmp(location, "first");
+          if(return_value_strcmp_49 == 0)
           {
             g_free((void *)location);
-            tmp_if_expr$50 = 1;
+            tmp_if_expr_50 = 1;
           }
 
           else
-            tmp_if_expr$50 = 0;
-          if(!(tmp_if_expr$50 == 0))
+            tmp_if_expr_50 = 0;
+          if(!(tmp_if_expr_50 == 0))
           {
-            char *return_value_history_cursor_set_first$41;
-            return_value_history_cursor_set_first$41=history_cursor_set_first(fd, (unsigned int)parse_history$$1$$3$$2$$who);
-            return (char *)return_value_history_cursor_set_first$41;
+            char *return_value_history_cursor_set_first_41;
+            return_value_history_cursor_set_first_41=history_cursor_set_first(fd, (unsigned int)parse_history__1__3__2__who);
+            return (char *)return_value_history_cursor_set_first_41;
           }
 
           else
           {
-            return_value_strcmp$47=strcmp(location, "pos");
-            if(return_value_strcmp$47 == 0)
+            return_value_strcmp_47=strcmp(location, "pos");
+            if(return_value_strcmp_47 == 0)
             {
               g_free((void *)location);
-              tmp_if_expr$48 = 1;
+              tmp_if_expr_48 = 1;
             }
 
             else
-              tmp_if_expr$48 = 0;
-            if(!(tmp_if_expr$48 == 0))
+              tmp_if_expr_48 = 0;
+            if(!(tmp_if_expr_48 == 0))
             {
               signed int pos;
-              char *parse_history$$1$$3$$2$$5$$1$$helper;
-              parse_history$$1$$3$$2$$5$$1$$helper=get_param(buf, 5, bytes, 0);
-              if(parse_history$$1$$3$$2$$5$$1$$helper == ((char *)NULL))
+              char *parse_history__1__3__2__5__1__helper;
+              parse_history__1__3__2__5__1__helper=get_param(buf, 5, bytes, 0);
+              if(parse_history__1__3__2__5__1__helper == ((char *)NULL))
               {
                 MSG(4, "Missing parameter from client");
-                char *return_value_g_strdup$42;
-                return_value_g_strdup$42=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                return return_value_g_strdup$42;
+                char *return_value_g_strdup_42;
+                return_value_g_strdup_42=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                return return_value_g_strdup_42;
               }
 
-              signed int return_value_isanum$44;
-              return_value_isanum$44=isanum(parse_history$$1$$3$$2$$5$$1$$helper);
-              if(return_value_isanum$44 == 0)
+              signed int return_value_isanum_44;
+              return_value_isanum_44=isanum(parse_history__1__3__2__5__1__helper);
+              if(return_value_isanum_44 == 0)
               {
-                g_free((void *)parse_history$$1$$3$$2$$5$$1$$helper);
-                char *return_value_g_strdup$43;
-                return_value_g_strdup$43=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-                return return_value_g_strdup$43;
+                g_free((void *)parse_history__1__3__2__5__1__helper);
+                char *return_value_g_strdup_43;
+                return_value_g_strdup_43=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+                return return_value_g_strdup_43;
               }
 
-              pos=atoi(parse_history$$1$$3$$2$$5$$1$$helper);
-              g_free((void *)parse_history$$1$$3$$2$$5$$1$$helper);
-              char *return_value_history_cursor_set_pos$45;
-              return_value_history_cursor_set_pos$45=history_cursor_set_pos(fd, (unsigned int)parse_history$$1$$3$$2$$who, pos);
-              return (char *)return_value_history_cursor_set_pos$45;
+              pos=atoi(parse_history__1__3__2__5__1__helper);
+              g_free((void *)parse_history__1__3__2__5__1__helper);
+              char *return_value_history_cursor_set_pos_45;
+              return_value_history_cursor_set_pos_45=history_cursor_set_pos(fd, (unsigned int)parse_history__1__3__2__who, pos);
+              return (char *)return_value_history_cursor_set_pos_45;
             }
 
             else
             {
               g_free((void *)location);
-              char *return_value_g_strdup$46;
-              return_value_g_strdup$46=g_strdup("510 ERR MISSING PARAMETER\r\n");
-              return return_value_g_strdup$46;
+              char *return_value_g_strdup_46;
+              return_value_g_strdup_46=g_strdup("510 ERR MISSING PARAMETER\r\n");
+              return return_value_g_strdup_46;
             }
           }
         }
@@ -8463,64 +8463,64 @@ char * parse_history(const char *buf, const signed int bytes, const signed int f
 
       else
       {
-        return_value_strcmp$61=strcmp(hist_cur_sub, "forward");
-        if(return_value_strcmp$61 == 0)
+        return_value_strcmp_61=strcmp(hist_cur_sub, "forward");
+        if(return_value_strcmp_61 == 0)
         {
           g_free((void *)hist_cur_sub);
-          tmp_if_expr$62 = 1;
+          tmp_if_expr_62 = 1;
         }
 
         else
-          tmp_if_expr$62 = 0;
-        if(!(tmp_if_expr$62 == 0))
+          tmp_if_expr_62 = 0;
+        if(!(tmp_if_expr_62 == 0))
         {
-          char *return_value_history_cursor_forward$53;
-          return_value_history_cursor_forward$53=history_cursor_forward(fd);
-          return (char *)return_value_history_cursor_forward$53;
+          char *return_value_history_cursor_forward_53;
+          return_value_history_cursor_forward_53=history_cursor_forward(fd);
+          return (char *)return_value_history_cursor_forward_53;
         }
 
         else
         {
-          return_value_strcmp$59=strcmp(hist_cur_sub, "backward");
-          if(return_value_strcmp$59 == 0)
+          return_value_strcmp_59=strcmp(hist_cur_sub, "backward");
+          if(return_value_strcmp_59 == 0)
           {
             g_free((void *)hist_cur_sub);
-            tmp_if_expr$60 = 1;
+            tmp_if_expr_60 = 1;
           }
 
           else
-            tmp_if_expr$60 = 0;
-          if(!(tmp_if_expr$60 == 0))
+            tmp_if_expr_60 = 0;
+          if(!(tmp_if_expr_60 == 0))
           {
-            char *return_value_history_cursor_backward$54;
-            return_value_history_cursor_backward$54=history_cursor_backward(fd);
-            return (char *)return_value_history_cursor_backward$54;
+            char *return_value_history_cursor_backward_54;
+            return_value_history_cursor_backward_54=history_cursor_backward(fd);
+            return (char *)return_value_history_cursor_backward_54;
           }
 
           else
           {
-            return_value_strcmp$57=strcmp(hist_cur_sub, "get");
-            if(return_value_strcmp$57 == 0)
+            return_value_strcmp_57=strcmp(hist_cur_sub, "get");
+            if(return_value_strcmp_57 == 0)
             {
               g_free((void *)hist_cur_sub);
-              tmp_if_expr$58 = 1;
+              tmp_if_expr_58 = 1;
             }
 
             else
-              tmp_if_expr$58 = 0;
-            if(!(tmp_if_expr$58 == 0))
+              tmp_if_expr_58 = 0;
+            if(!(tmp_if_expr_58 == 0))
             {
-              char *return_value_history_cursor_get$55;
-              return_value_history_cursor_get$55=history_cursor_get(fd);
-              return (char *)return_value_history_cursor_get$55;
+              char *return_value_history_cursor_get_55;
+              return_value_history_cursor_get_55=history_cursor_get(fd);
+              return (char *)return_value_history_cursor_get_55;
             }
 
             else
             {
               g_free((void *)hist_cur_sub);
-              char *return_value_g_strdup$56;
-              return_value_g_strdup$56=g_strdup("510 ERR MISSING PARAMETER\r\n");
-              return return_value_g_strdup$56;
+              char *return_value_g_strdup_56;
+              return_value_g_strdup_56=g_strdup("510 ERR MISSING PARAMETER\r\n");
+              return return_value_g_strdup_56;
             }
           }
         }
@@ -8529,90 +8529,90 @@ char * parse_history(const char *buf, const signed int bytes, const signed int f
 
     else
     {
-      return_value_strcmp$73=strcmp(cmd_main, "say");
-      if(return_value_strcmp$73 == 0)
+      return_value_strcmp_73=strcmp(cmd_main, "say");
+      if(return_value_strcmp_73 == 0)
       {
         g_free((void *)cmd_main);
-        tmp_if_expr$74 = 1;
+        tmp_if_expr_74 = 1;
       }
 
       else
-        tmp_if_expr$74 = 0;
-      if(!(tmp_if_expr$74 == 0))
+        tmp_if_expr_74 = 0;
+      if(!(tmp_if_expr_74 == 0))
       {
-        signed int parse_history$$1$$4$$msg_id;
-        char *parse_history$$1$$4$$1$$helper;
-        parse_history$$1$$4$$1$$helper=get_param(buf, 2, bytes, 0);
-        if(parse_history$$1$$4$$1$$helper == ((char *)NULL))
+        signed int parse_history__1__4__msg_id;
+        char *parse_history__1__4__1__helper;
+        parse_history__1__4__1__helper=get_param(buf, 2, bytes, 0);
+        if(parse_history__1__4__1__helper == ((char *)NULL))
         {
           MSG(4, "Missing parameter from client");
-          char *return_value_g_strdup$65;
-          return_value_g_strdup$65=g_strdup("510 ERR MISSING PARAMETER\r\n");
-          return return_value_g_strdup$65;
+          char *return_value_g_strdup_65;
+          return_value_g_strdup_65=g_strdup("510 ERR MISSING PARAMETER\r\n");
+          return return_value_g_strdup_65;
         }
 
-        signed int return_value_isanum$67;
-        return_value_isanum$67=isanum(parse_history$$1$$4$$1$$helper);
-        if(return_value_isanum$67 == 0)
+        signed int return_value_isanum_67;
+        return_value_isanum_67=isanum(parse_history__1__4__1__helper);
+        if(return_value_isanum_67 == 0)
         {
-          g_free((void *)parse_history$$1$$4$$1$$helper);
-          char *return_value_g_strdup$66;
-          return_value_g_strdup$66=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-          return return_value_g_strdup$66;
+          g_free((void *)parse_history__1__4__1__helper);
+          char *return_value_g_strdup_66;
+          return_value_g_strdup_66=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+          return return_value_g_strdup_66;
         }
 
-        parse_history$$1$$4$$msg_id=atoi(parse_history$$1$$4$$1$$helper);
-        g_free((void *)parse_history$$1$$4$$1$$helper);
-        char *return_value_history_say_id$68;
-        return_value_history_say_id$68=history_say_id(fd, parse_history$$1$$4$$msg_id);
-        return (char *)return_value_history_say_id$68;
+        parse_history__1__4__msg_id=atoi(parse_history__1__4__1__helper);
+        g_free((void *)parse_history__1__4__1__helper);
+        char *return_value_history_say_id_68;
+        return_value_history_say_id_68=history_say_id(fd, parse_history__1__4__msg_id);
+        return (char *)return_value_history_say_id_68;
       }
 
       else
       {
-        return_value_strcmp$71=strcmp(cmd_main, "sort");
-        if(return_value_strcmp$71 == 0)
+        return_value_strcmp_71=strcmp(cmd_main, "sort");
+        if(return_value_strcmp_71 == 0)
         {
           g_free((void *)cmd_main);
-          tmp_if_expr$72 = 1;
+          tmp_if_expr_72 = 1;
         }
 
         else
-          tmp_if_expr$72 = 0;
-        if(!(tmp_if_expr$72 == 0))
+          tmp_if_expr_72 = 0;
+        if(!(tmp_if_expr_72 == 0))
         {
-          char *return_value_g_strdup$69;
-          return_value_g_strdup$69=g_strdup("380 ERR NOT YET IMPLEMENTED\r\n");
-          return return_value_g_strdup$69;
+          char *return_value_g_strdup_69;
+          return_value_g_strdup_69=g_strdup("380 ERR NOT YET IMPLEMENTED\r\n");
+          return return_value_g_strdup_69;
         }
 
         else
         {
           g_free((void *)cmd_main);
-          char *return_value_g_strdup$70;
-          return_value_g_strdup$70=g_strdup("510 ERR MISSING PARAMETER\r\n");
-          return return_value_g_strdup$70;
+          char *return_value_g_strdup_70;
+          return_value_g_strdup_70=g_strdup("510 ERR MISSING PARAMETER\r\n");
+          return return_value_g_strdup_70;
         }
       }
     }
   }
-  char *return_value_g_strdup$79;
-  return_value_g_strdup$79=g_strdup("500 ERR INVALID COMMAND\r\n");
-  return return_value_g_strdup$79;
+  char *return_value_g_strdup_79;
+  return_value_g_strdup_79=g_strdup("500 ERR INVALID COMMAND\r\n");
+  return return_value_g_strdup_79;
 }
 
 // parse_key
 // file parse.c line 806
-char * parse_key(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_key(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
-  char *return_value_parse_general_event$1;
-  return_value_parse_general_event$1=parse_general_event(buf, bytes, fd, speechd_socket, (enum anonymous$8)SPD_MSGTYPE_KEY);
-  return return_value_parse_general_event$1;
+  char *return_value_parse_general_event_1;
+  return_value_parse_general_event_1=parse_general_event(buf, bytes, fd, speechd_socket, (enum anonymous_8)SPD_MSGTYPE_KEY);
+  return return_value_parse_general_event_1;
 }
 
 // parse_list
 // file parse.c line 812
-char * parse_list(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_list(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
   char *list_type;
   char *voice_list;
@@ -8620,119 +8620,119 @@ char * parse_list(const char *buf, const signed int bytes, const signed int fd, 
   if(list_type == ((char *)NULL))
   {
     MSG(4, "Missing parameter from client");
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_1;
   }
 
-  signed int return_value_strcmp$13;
-  return_value_strcmp$13=strcmp(list_type, "voices");
-  signed int tmp_if_expr$14;
-  if(return_value_strcmp$13 == 0)
+  signed int return_value_strcmp_13;
+  return_value_strcmp_13=strcmp(list_type, "voices");
+  signed int tmp_if_expr_14;
+  if(return_value_strcmp_13 == 0)
   {
     g_free((void *)list_type);
-    tmp_if_expr$14 = 1;
+    tmp_if_expr_14 = 1;
   }
 
   else
-    tmp_if_expr$14 = 0;
-  signed int return_value_strcmp$11;
-  signed int tmp_if_expr$12;
-  signed int return_value_strcmp$9;
-  signed int tmp_if_expr$10;
-  char *return_value_g_strdup$5;
-  char *return_value_g_strdup$6;
-  char *return_value_g_strdup$7;
-  if(!(tmp_if_expr$14 == 0))
+    tmp_if_expr_14 = 0;
+  signed int return_value_strcmp_11;
+  signed int tmp_if_expr_12;
+  signed int return_value_strcmp_9;
+  signed int tmp_if_expr_10;
+  char *return_value_g_strdup_5;
+  char *return_value_g_strdup_6;
+  char *return_value_g_strdup_7;
+  if(!(tmp_if_expr_14 == 0))
   {
-    void *return_value_g_malloc$2;
-    return_value_g_malloc$2=g_malloc((unsigned long int)1024);
-    voice_list = (char *)return_value_g_malloc$2;
+    void *return_value_g_malloc_2;
+    return_value_g_malloc_2=g_malloc((unsigned long int)1024);
+    voice_list = (char *)return_value_g_malloc_2;
     sprintf(voice_list, "249-MALE1\r\n249-MALE2\r\n249-MALE3\r\n249-FEMALE1\r\n249-FEMALE2\r\n249-FEMALE3\r\n249-CHILD_MALE\r\n249-CHILD_FEMALE\r\n249 OK VOICE LIST SENT\r\n");
     return voice_list;
   }
 
   else
   {
-    return_value_strcmp$11=strcmp(list_type, "output_modules");
-    if(return_value_strcmp$11 == 0)
+    return_value_strcmp_11=strcmp(list_type, "output_modules");
+    if(return_value_strcmp_11 == 0)
     {
       g_free((void *)list_type);
-      tmp_if_expr$12 = 1;
+      tmp_if_expr_12 = 1;
     }
 
     else
-      tmp_if_expr$12 = 0;
-    if(!(tmp_if_expr$12 == 0))
+      tmp_if_expr_12 = 0;
+    if(!(tmp_if_expr_12 == 0))
     {
-      struct _GString *parse_list$$1$$3$$result;
-      parse_list$$1$$3$$result=g_string_new("");
-      char *parse_list$$1$$3$$helper;
-      struct anonymous$10 *mod;
-      signed int parse_list$$1$$3$$i;
+      struct _GString *parse_list__1__3__result;
+      parse_list__1__3__result=g_string_new("");
+      char *parse_list__1__3__helper;
+      struct anonymous_10 *mod;
+      signed int parse_list__1__3__i;
       signed int len;
-      unsigned int return_value_g_list_length$3;
-      return_value_g_list_length$3=g_list_length(output_modules);
-      len = (signed int)return_value_g_list_length$3;
-      parse_list$$1$$3$$i = 0;
-      for( ; !(parse_list$$1$$3$$i >= len); parse_list$$1$$3$$i = parse_list$$1$$3$$i + 1)
+      unsigned int return_value_g_list_length_3;
+      return_value_g_list_length_3=g_list_length(output_modules);
+      len = (signed int)return_value_g_list_length_3;
+      parse_list__1__3__i = 0;
+      for( ; !(parse_list__1__3__i >= len); parse_list__1__3__i = parse_list__1__3__i + 1)
       {
-        void *return_value_g_list_nth_data$4;
-        return_value_g_list_nth_data$4=g_list_nth_data(output_modules, (unsigned int)parse_list$$1$$3$$i);
-        mod = (struct anonymous$10 *)return_value_g_list_nth_data$4;
-        g_string_append_printf(parse_list$$1$$3$$result, "250-%s\r\n", mod->name);
+        void *return_value_g_list_nth_data_4;
+        return_value_g_list_nth_data_4=g_list_nth_data(output_modules, (unsigned int)parse_list__1__3__i);
+        mod = (struct anonymous_10 *)return_value_g_list_nth_data_4;
+        g_string_append_printf(parse_list__1__3__result, "250-%s\r\n", mod->name);
       }
-      g_string_append(parse_list$$1$$3$$result, "250 OK VOICE LIST SENT\r\n");
-      parse_list$$1$$3$$helper = parse_list$$1$$3$$result->str;
-      g_string_free(parse_list$$1$$3$$result, 0);
-      return parse_list$$1$$3$$helper;
+      g_string_append(parse_list__1__3__result, "250 OK VOICE LIST SENT\r\n");
+      parse_list__1__3__helper = parse_list__1__3__result->str;
+      g_string_free(parse_list__1__3__result, 0);
+      return parse_list__1__3__helper;
     }
 
     else
     {
-      return_value_strcmp$9=strcmp(list_type, "synthesis_voices");
-      if(return_value_strcmp$9 == 0)
+      return_value_strcmp_9=strcmp(list_type, "synthesis_voices");
+      if(return_value_strcmp_9 == 0)
       {
         g_free((void *)list_type);
-        tmp_if_expr$10 = 1;
+        tmp_if_expr_10 = 1;
       }
 
       else
-        tmp_if_expr$10 = 0;
-      if(!(tmp_if_expr$10 == 0))
+        tmp_if_expr_10 = 0;
+      if(!(tmp_if_expr_10 == 0))
       {
         char *module_name;
         signed int uid;
-        struct anonymous$11 *settings;
-        struct anonymous$6 **voices;
+        struct anonymous_11 *settings;
+        struct anonymous_6 **voices;
         struct _GString *result;
         signed int i;
         char *helper;
         uid=get_client_uid_by_fd(fd);
         settings=get_client_settings_by_uid(uid);
-        if(settings == ((struct anonymous$11 *)NULL))
+        if(settings == ((struct anonymous_11 *)NULL))
         {
-          return_value_g_strdup$5=g_strdup("300 ERR INTERNAL\r\n");
-          return return_value_g_strdup$5;
+          return_value_g_strdup_5=g_strdup("300 ERR INTERNAL\r\n");
+          return return_value_g_strdup_5;
         }
 
         module_name = settings->output_module;
         if(module_name == ((char *)NULL))
         {
-          return_value_g_strdup$6=g_strdup("321 ERR NO OUTPUT MODULE LOADED\r\n");
-          return return_value_g_strdup$6;
+          return_value_g_strdup_6=g_strdup("321 ERR NO OUTPUT MODULE LOADED\r\n");
+          return return_value_g_strdup_6;
         }
 
         voices=output_list_voices(module_name);
-        if(voices == ((struct anonymous$6 **)NULL))
+        if(voices == ((struct anonymous_6 **)NULL))
         {
-          return_value_g_strdup$7=g_strdup("321 ERR MODULE CANT REPORT VOICES\r\n");
-          return return_value_g_strdup$7;
+          return_value_g_strdup_7=g_strdup("321 ERR MODULE CANT REPORT VOICES\r\n");
+          return return_value_g_strdup_7;
         }
 
         result=g_string_new("");
         i = 0;
-        for( ; !(voices[(signed long int)i] == ((struct anonymous$6 *)NULL)); i = i + 1)
+        for( ; !(voices[(signed long int)i] == ((struct anonymous_6 *)NULL)); i = i + 1)
         {
           g_string_append_printf(result, "249-%s %s %s\r\n", voices[(signed long int)i]->name, voices[(signed long int)i]->language, voices[(signed long int)i]->variant);
           g_free((void *)voices[(signed long int)i]->name);
@@ -8750,9 +8750,9 @@ char * parse_list(const char *buf, const signed int bytes, const signed int fd, 
       else
       {
         g_free((void *)list_type);
-        char *return_value_g_strdup$8;
-        return_value_g_strdup$8=g_strdup("514 ERR PARAMETER INVALID\r\n");
-        return return_value_g_strdup$8;
+        char *return_value_g_strdup_8;
+        return_value_g_strdup_8=g_strdup("514 ERR PARAMETER INVALID\r\n");
+        return return_value_g_strdup_8;
       }
     }
   }
@@ -8760,7 +8760,7 @@ char * parse_list(const char *buf, const signed int bytes, const signed int fd, 
 
 // parse_pause
 // file parse.c line 682
-char * parse_pause(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_pause(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
   signed int uid = 0;
   char *who_s;
@@ -8769,28 +8769,28 @@ char * parse_pause(const char *buf, const signed int bytes, const signed int fd,
   if(who_s == ((char *)NULL))
   {
     MSG(4, "Missing parameter from client");
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_1;
   }
 
-  signed int return_value_strcmp$8;
-  return_value_strcmp$8=strcmp(who_s, "all");
-  signed int tmp_if_expr$9;
-  if(return_value_strcmp$8 == 0)
+  signed int return_value_strcmp_8;
+  return_value_strcmp_8=strcmp(who_s, "all");
+  signed int tmp_if_expr_9;
+  if(return_value_strcmp_8 == 0)
   {
     g_free((void *)who_s);
-    tmp_if_expr$9 = 1;
+    tmp_if_expr_9 = 1;
   }
 
   else
-    tmp_if_expr$9 = 0;
-  signed int return_value_strcmp$6;
-  signed int tmp_if_expr$7;
-  char *return_value_g_strdup$2;
-  signed int return_value_isanum$5;
-  char *return_value_g_strdup$3;
-  if(!(tmp_if_expr$9 == 0))
+    tmp_if_expr_9 = 0;
+  signed int return_value_strcmp_6;
+  signed int tmp_if_expr_7;
+  char *return_value_g_strdup_2;
+  signed int return_value_isanum_5;
+  char *return_value_g_strdup_3;
+  if(!(tmp_if_expr_9 == 0))
   {
     pause_requested = 1;
     pause_requested_fd = fd;
@@ -8799,22 +8799,22 @@ char * parse_pause(const char *buf, const signed int bytes, const signed int fd,
 
   else
   {
-    return_value_strcmp$6=strcmp(who_s, "self");
-    if(return_value_strcmp$6 == 0)
+    return_value_strcmp_6=strcmp(who_s, "self");
+    if(return_value_strcmp_6 == 0)
     {
       g_free((void *)who_s);
-      tmp_if_expr$7 = 1;
+      tmp_if_expr_7 = 1;
     }
 
     else
-      tmp_if_expr$7 = 0;
-    if(!(tmp_if_expr$7 == 0))
+      tmp_if_expr_7 = 0;
+    if(!(tmp_if_expr_7 == 0))
     {
       uid=get_client_uid_by_fd(fd);
       if(uid == 0)
       {
-        return_value_g_strdup$2=g_strdup("300 ERR INTERNAL\r\n");
-        return return_value_g_strdup$2;
+        return_value_g_strdup_2=g_strdup("300 ERR INTERNAL\r\n");
+        return return_value_g_strdup_2;
       }
 
       pause_requested = 2;
@@ -8825,15 +8825,15 @@ char * parse_pause(const char *buf, const signed int bytes, const signed int fd,
 
     else
     {
-      return_value_isanum$5=isanum(who_s);
-      if(!(return_value_isanum$5 == 0))
+      return_value_isanum_5=isanum(who_s);
+      if(!(return_value_isanum_5 == 0))
       {
         uid=atoi(who_s);
         g_free((void *)who_s);
         if(!(uid >= 1))
         {
-          return_value_g_strdup$3=g_strdup("406 ERR ID DOESNT EXIST\r\n");
-          return return_value_g_strdup$3;
+          return_value_g_strdup_3=g_strdup("406 ERR ID DOESNT EXIST\r\n");
+          return return_value_g_strdup_3;
         }
 
         pause_requested = 2;
@@ -8845,20 +8845,20 @@ char * parse_pause(const char *buf, const signed int bytes, const signed int fd,
       else
       {
         g_free((void *)who_s);
-        char *return_value_g_strdup$4;
-        return_value_g_strdup$4=g_strdup("514 ERR PARAMETER INVALID\r\n");
-        return return_value_g_strdup$4;
+        char *return_value_g_strdup_4;
+        return_value_g_strdup_4=g_strdup("514 ERR PARAMETER INVALID\r\n");
+        return return_value_g_strdup_4;
       }
     }
   }
-  char *return_value_g_strdup$10;
-  return_value_g_strdup$10=g_strdup("211 OK PAUSED\r\n");
-  return return_value_g_strdup$10;
+  char *return_value_g_strdup_10;
+  return_value_g_strdup_10=g_strdup("211 OK PAUSED\r\n");
+  return return_value_g_strdup_10;
 }
 
 // parse_resume
 // file parse.c line 724
-char * parse_resume(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_resume(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
   signed int uid = 0;
   char *who_s;
@@ -8867,48 +8867,48 @@ char * parse_resume(const char *buf, const signed int bytes, const signed int fd
   if(who_s == ((char *)NULL))
   {
     MSG(4, "Missing parameter from client");
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_1;
   }
 
-  signed int return_value_strcmp$8;
-  return_value_strcmp$8=strcmp(who_s, "all");
-  signed int tmp_if_expr$9;
-  if(return_value_strcmp$8 == 0)
+  signed int return_value_strcmp_8;
+  return_value_strcmp_8=strcmp(who_s, "all");
+  signed int tmp_if_expr_9;
+  if(return_value_strcmp_8 == 0)
   {
     g_free((void *)who_s);
-    tmp_if_expr$9 = 1;
+    tmp_if_expr_9 = 1;
   }
 
   else
-    tmp_if_expr$9 = 0;
-  signed int return_value_strcmp$6;
-  signed int tmp_if_expr$7;
-  char *return_value_g_strdup$2;
-  signed int return_value_isanum$5;
-  char *return_value_g_strdup$3;
-  if(!(tmp_if_expr$9 == 0))
+    tmp_if_expr_9 = 0;
+  signed int return_value_strcmp_6;
+  signed int tmp_if_expr_7;
+  char *return_value_g_strdup_2;
+  signed int return_value_isanum_5;
+  char *return_value_g_strdup_3;
+  if(!(tmp_if_expr_9 == 0))
     speaking_resume_all();
 
   else
   {
-    return_value_strcmp$6=strcmp(who_s, "self");
-    if(return_value_strcmp$6 == 0)
+    return_value_strcmp_6=strcmp(who_s, "self");
+    if(return_value_strcmp_6 == 0)
     {
       g_free((void *)who_s);
-      tmp_if_expr$7 = 1;
+      tmp_if_expr_7 = 1;
     }
 
     else
-      tmp_if_expr$7 = 0;
-    if(!(tmp_if_expr$7 == 0))
+      tmp_if_expr_7 = 0;
+    if(!(tmp_if_expr_7 == 0))
     {
       uid=get_client_uid_by_fd(fd);
       if(uid == 0)
       {
-        return_value_g_strdup$2=g_strdup("300 ERR INTERNAL\r\n");
-        return return_value_g_strdup$2;
+        return_value_g_strdup_2=g_strdup("300 ERR INTERNAL\r\n");
+        return return_value_g_strdup_2;
       }
 
       speaking_resume(uid);
@@ -8916,15 +8916,15 @@ char * parse_resume(const char *buf, const signed int bytes, const signed int fd
 
     else
     {
-      return_value_isanum$5=isanum(who_s);
-      if(!(return_value_isanum$5 == 0))
+      return_value_isanum_5=isanum(who_s);
+      if(!(return_value_isanum_5 == 0))
       {
         uid=atoi(who_s);
         g_free((void *)who_s);
         if(!(uid >= 1))
         {
-          return_value_g_strdup$3=g_strdup("406 ERR ID DOESNT EXIST\r\n");
-          return return_value_g_strdup$3;
+          return_value_g_strdup_3=g_strdup("406 ERR ID DOESNT EXIST\r\n");
+          return return_value_g_strdup_3;
         }
 
         speaking_resume(uid);
@@ -8933,20 +8933,20 @@ char * parse_resume(const char *buf, const signed int bytes, const signed int fd
       else
       {
         g_free((void *)who_s);
-        char *return_value_g_strdup$4;
-        return_value_g_strdup$4=g_strdup("514 ERR PARAMETER INVALID\r\n");
-        return return_value_g_strdup$4;
+        char *return_value_g_strdup_4;
+        return_value_g_strdup_4=g_strdup("514 ERR PARAMETER INVALID\r\n");
+        return return_value_g_strdup_4;
       }
     }
   }
-  char *return_value_g_strdup$10;
-  return_value_g_strdup$10=g_strdup("212 OK RESUMED\r\n");
-  return return_value_g_strdup$10;
+  char *return_value_g_strdup_10;
+  return_value_g_strdup_10=g_strdup("212 OK RESUMED\r\n");
+  return return_value_g_strdup_10;
 }
 
 // parse_set
 // file parse.c line 388
-char * parse_set(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_set(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
   signed int who;
   signed int uid = -1;
@@ -8957,46 +8957,46 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
   if(who_s == ((char *)NULL))
   {
     MSG(4, "Missing parameter from client");
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_1;
   }
 
-  signed int return_value_strcmp$6;
-  return_value_strcmp$6=strcmp(who_s, "self");
-  signed int tmp_if_expr$7;
-  if(return_value_strcmp$6 == 0)
+  signed int return_value_strcmp_6;
+  return_value_strcmp_6=strcmp(who_s, "self");
+  signed int tmp_if_expr_7;
+  if(return_value_strcmp_6 == 0)
   {
     g_free((void *)who_s);
-    tmp_if_expr$7 = 1;
+    tmp_if_expr_7 = 1;
   }
 
   else
-    tmp_if_expr$7 = 0;
-  signed int return_value_strcmp$4;
-  signed int tmp_if_expr$5;
-  signed int return_value_isanum$3;
-  if(!(tmp_if_expr$7 == 0))
+    tmp_if_expr_7 = 0;
+  signed int return_value_strcmp_4;
+  signed int tmp_if_expr_5;
+  signed int return_value_isanum_3;
+  if(!(tmp_if_expr_7 == 0))
     who = 0;
 
   else
   {
-    return_value_strcmp$4=strcmp(who_s, "all");
-    if(return_value_strcmp$4 == 0)
+    return_value_strcmp_4=strcmp(who_s, "all");
+    if(return_value_strcmp_4 == 0)
     {
       g_free((void *)who_s);
-      tmp_if_expr$5 = 1;
+      tmp_if_expr_5 = 1;
     }
 
     else
-      tmp_if_expr$5 = 0;
-    if(!(tmp_if_expr$5 == 0))
+      tmp_if_expr_5 = 0;
+    if(!(tmp_if_expr_5 == 0))
       who = 2;
 
     else
     {
-      return_value_isanum$3=isanum(who_s);
-      if(!(return_value_isanum$3 == 0))
+      return_value_isanum_3=isanum(who_s);
+      if(!(return_value_isanum_3 == 0))
       {
         who = 1;
         uid=atoi(who_s);
@@ -9006,9 +9006,9 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
       else
       {
         g_free((void *)who_s);
-        char *return_value_g_strdup$2;
-        return_value_g_strdup$2=g_strdup("514 ERR PARAMETER INVALID\r\n");
-        return return_value_g_strdup$2;
+        char *return_value_g_strdup_2;
+        return_value_g_strdup_2=g_strdup("514 ERR PARAMETER INVALID\r\n");
+        return return_value_g_strdup_2;
       }
     }
   }
@@ -9016,209 +9016,209 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
   if(set_sub == ((char *)NULL))
   {
     MSG(4, "Missing parameter from client");
-    char *return_value_g_strdup$8;
-    return_value_g_strdup$8=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$8;
+    char *return_value_g_strdup_8;
+    return_value_g_strdup_8=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_8;
   }
 
-  signed int return_value_strcmp$153;
-  return_value_strcmp$153=strcmp(set_sub, "priority");
-  signed int tmp_if_expr$154;
-  if(return_value_strcmp$153 == 0)
+  signed int return_value_strcmp_153;
+  return_value_strcmp_153=strcmp(set_sub, "priority");
+  signed int tmp_if_expr_154;
+  if(return_value_strcmp_153 == 0)
   {
     g_free((void *)set_sub);
-    tmp_if_expr$154 = 1;
+    tmp_if_expr_154 = 1;
   }
 
   else
-    tmp_if_expr$154 = 0;
-  char *return_value_g_strdup$9;
-  char *return_value_g_strdup$10;
-  signed int tmp_if_expr$22;
-  signed int return_value_strcmp$19;
-  signed int tmp_if_expr$20;
-  signed int return_value_strcmp$17;
-  signed int tmp_if_expr$18;
-  signed int return_value_strcmp$15;
-  signed int tmp_if_expr$16;
-  signed int return_value_strcmp$13;
-  signed int tmp_if_expr$14;
-  char *return_value_g_strdup$23;
-  signed int return_value_strcmp$151;
-  signed int tmp_if_expr$152;
-  char *return_value_g_strdup$26;
-  signed int return_value_strcmp$149;
-  signed int tmp_if_expr$150;
-  char *return_value_g_strdup$29;
-  signed int return_value_strcmp$147;
-  signed int tmp_if_expr$148;
-  char *return_value_g_strdup$31;
-  char *return_value_g_strdup$32;
-  char *return_value_g_strdup$34;
-  signed int return_value_strcmp$145;
-  signed int tmp_if_expr$146;
-  char *return_value_g_strdup$39;
-  char *return_value_g_strdup$40;
-  char *return_value_g_strdup$41;
-  signed int return_value_strcmp$143;
-  signed int tmp_if_expr$144;
-  char *return_value_g_strdup$46;
-  char *return_value_g_strdup$47;
-  char *return_value_g_strdup$48;
-  signed int return_value_strcmp$141;
-  signed int tmp_if_expr$142;
-  char *return_value_g_strdup$53;
-  char *return_value_g_strdup$54;
-  char *return_value_g_strdup$55;
-  signed int return_value_strcmp$139;
-  signed int tmp_if_expr$140;
-  char *return_value_g_strdup$58;
-  signed int return_value_strcmp$137;
-  signed int tmp_if_expr$138;
-  signed int tmp_if_expr$67;
-  signed int return_value_strcmp$64;
-  signed int tmp_if_expr$65;
-  signed int return_value_strcmp$62;
-  signed int tmp_if_expr$63;
-  char *return_value_g_strdup$68;
-  signed int return_value_strcmp$135;
-  signed int tmp_if_expr$136;
-  char *return_value_g_strdup$70;
-  char *return_value_g_strdup$72;
-  signed int return_value_strcmp$133;
-  signed int tmp_if_expr$134;
-  signed int tmp_if_expr$81;
-  signed int return_value_strcmp$78;
-  signed int tmp_if_expr$79;
-  signed int return_value_strcmp$76;
-  signed int tmp_if_expr$77;
-  char *return_value_g_strdup$82;
-  signed int return_value_strcmp$131;
-  signed int tmp_if_expr$132;
-  char *return_value_g_strdup$87;
-  signed int return_value_strcmp$130;
-  char *return_value_g_strdup$89;
-  signed int tmp_if_expr$95;
-  signed int return_value_strcmp$92;
-  signed int tmp_if_expr$93;
-  char *return_value_g_strdup$96;
-  signed int return_value_strcmp$129;
-  signed int tmp_if_expr$103;
-  signed int return_value_strcmp$100;
-  signed int tmp_if_expr$101;
-  char *return_value_g_strdup$104;
-  signed int return_value_strcmp$128;
-  signed int tmp_if_expr$111;
-  signed int return_value_strcmp$108;
-  signed int tmp_if_expr$109;
-  char *return_value_g_strdup$112;
-  signed int return_value_strcmp$126;
-  signed int tmp_if_expr$127;
-  char *return_value_g_strdup$115;
-  signed int tmp_if_expr$122;
-  signed int return_value_strcmp$119;
-  signed int tmp_if_expr$120;
-  char *return_value_g_strdup$123;
-  if(!(tmp_if_expr$154 == 0))
+    tmp_if_expr_154 = 0;
+  char *return_value_g_strdup_9;
+  char *return_value_g_strdup_10;
+  signed int tmp_if_expr_22;
+  signed int return_value_strcmp_19;
+  signed int tmp_if_expr_20;
+  signed int return_value_strcmp_17;
+  signed int tmp_if_expr_18;
+  signed int return_value_strcmp_15;
+  signed int tmp_if_expr_16;
+  signed int return_value_strcmp_13;
+  signed int tmp_if_expr_14;
+  char *return_value_g_strdup_23;
+  signed int return_value_strcmp_151;
+  signed int tmp_if_expr_152;
+  char *return_value_g_strdup_26;
+  signed int return_value_strcmp_149;
+  signed int tmp_if_expr_150;
+  char *return_value_g_strdup_29;
+  signed int return_value_strcmp_147;
+  signed int tmp_if_expr_148;
+  char *return_value_g_strdup_31;
+  char *return_value_g_strdup_32;
+  char *return_value_g_strdup_34;
+  signed int return_value_strcmp_145;
+  signed int tmp_if_expr_146;
+  char *return_value_g_strdup_39;
+  char *return_value_g_strdup_40;
+  char *return_value_g_strdup_41;
+  signed int return_value_strcmp_143;
+  signed int tmp_if_expr_144;
+  char *return_value_g_strdup_46;
+  char *return_value_g_strdup_47;
+  char *return_value_g_strdup_48;
+  signed int return_value_strcmp_141;
+  signed int tmp_if_expr_142;
+  char *return_value_g_strdup_53;
+  char *return_value_g_strdup_54;
+  char *return_value_g_strdup_55;
+  signed int return_value_strcmp_139;
+  signed int tmp_if_expr_140;
+  char *return_value_g_strdup_58;
+  signed int return_value_strcmp_137;
+  signed int tmp_if_expr_138;
+  signed int tmp_if_expr_67;
+  signed int return_value_strcmp_64;
+  signed int tmp_if_expr_65;
+  signed int return_value_strcmp_62;
+  signed int tmp_if_expr_63;
+  char *return_value_g_strdup_68;
+  signed int return_value_strcmp_135;
+  signed int tmp_if_expr_136;
+  char *return_value_g_strdup_70;
+  char *return_value_g_strdup_72;
+  signed int return_value_strcmp_133;
+  signed int tmp_if_expr_134;
+  signed int tmp_if_expr_81;
+  signed int return_value_strcmp_78;
+  signed int tmp_if_expr_79;
+  signed int return_value_strcmp_76;
+  signed int tmp_if_expr_77;
+  char *return_value_g_strdup_82;
+  signed int return_value_strcmp_131;
+  signed int tmp_if_expr_132;
+  char *return_value_g_strdup_87;
+  signed int return_value_strcmp_130;
+  char *return_value_g_strdup_89;
+  signed int tmp_if_expr_95;
+  signed int return_value_strcmp_92;
+  signed int tmp_if_expr_93;
+  char *return_value_g_strdup_96;
+  signed int return_value_strcmp_129;
+  signed int tmp_if_expr_103;
+  signed int return_value_strcmp_100;
+  signed int tmp_if_expr_101;
+  char *return_value_g_strdup_104;
+  signed int return_value_strcmp_128;
+  signed int tmp_if_expr_111;
+  signed int return_value_strcmp_108;
+  signed int tmp_if_expr_109;
+  char *return_value_g_strdup_112;
+  signed int return_value_strcmp_126;
+  signed int tmp_if_expr_127;
+  char *return_value_g_strdup_115;
+  signed int tmp_if_expr_122;
+  signed int return_value_strcmp_119;
+  signed int tmp_if_expr_120;
+  char *return_value_g_strdup_123;
+  if(!(tmp_if_expr_154 == 0))
   {
     char *priority_s;
-    enum anonymous$9 priority;
+    enum anonymous_9 priority;
     if(speechd_socket->inside_block >= 1)
     {
-      return_value_g_strdup$9=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-      return return_value_g_strdup$9;
+      return_value_g_strdup_9=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+      return return_value_g_strdup_9;
     }
 
     if(!(who == 0))
     {
-      return_value_g_strdup$10=g_strdup("301 ERR COULDNT SET PRIORITY\r\n");
-      return return_value_g_strdup$10;
+      return_value_g_strdup_10=g_strdup("301 ERR COULDNT SET PRIORITY\r\n");
+      return return_value_g_strdup_10;
     }
 
     priority_s=get_param(buf, 3, bytes, 1);
     if(priority_s == ((char *)NULL))
     {
       MSG(4, "Missing parameter from client");
-      char *return_value_g_strdup$11;
-      return_value_g_strdup$11=g_strdup("510 ERR MISSING PARAMETER\r\n");
-      return return_value_g_strdup$11;
+      char *return_value_g_strdup_11;
+      return_value_g_strdup_11=g_strdup("510 ERR MISSING PARAMETER\r\n");
+      return return_value_g_strdup_11;
     }
 
-    signed int return_value_strcmp$21;
-    return_value_strcmp$21=strcmp(priority_s, "important");
-    if(return_value_strcmp$21 == 0)
+    signed int return_value_strcmp_21;
+    return_value_strcmp_21=strcmp(priority_s, "important");
+    if(return_value_strcmp_21 == 0)
     {
       g_free((void *)priority_s);
-      tmp_if_expr$22 = 1;
+      tmp_if_expr_22 = 1;
     }
 
     else
-      tmp_if_expr$22 = 0;
-    if(!(tmp_if_expr$22 == 0))
-      priority = (enum anonymous$9)SPD_IMPORTANT;
+      tmp_if_expr_22 = 0;
+    if(!(tmp_if_expr_22 == 0))
+      priority = (enum anonymous_9)SPD_IMPORTANT;
 
     else
     {
-      return_value_strcmp$19=strcmp(priority_s, "message");
-      if(return_value_strcmp$19 == 0)
+      return_value_strcmp_19=strcmp(priority_s, "message");
+      if(return_value_strcmp_19 == 0)
       {
         g_free((void *)priority_s);
-        tmp_if_expr$20 = 1;
+        tmp_if_expr_20 = 1;
       }
 
       else
-        tmp_if_expr$20 = 0;
-      if(!(tmp_if_expr$20 == 0))
-        priority = (enum anonymous$9)SPD_MESSAGE;
+        tmp_if_expr_20 = 0;
+      if(!(tmp_if_expr_20 == 0))
+        priority = (enum anonymous_9)SPD_MESSAGE;
 
       else
       {
-        return_value_strcmp$17=strcmp(priority_s, "text");
-        if(return_value_strcmp$17 == 0)
+        return_value_strcmp_17=strcmp(priority_s, "text");
+        if(return_value_strcmp_17 == 0)
         {
           g_free((void *)priority_s);
-          tmp_if_expr$18 = 1;
+          tmp_if_expr_18 = 1;
         }
 
         else
-          tmp_if_expr$18 = 0;
-        if(!(tmp_if_expr$18 == 0))
-          priority = (enum anonymous$9)SPD_TEXT;
+          tmp_if_expr_18 = 0;
+        if(!(tmp_if_expr_18 == 0))
+          priority = (enum anonymous_9)SPD_TEXT;
 
         else
         {
-          return_value_strcmp$15=strcmp(priority_s, "notification");
-          if(return_value_strcmp$15 == 0)
+          return_value_strcmp_15=strcmp(priority_s, "notification");
+          if(return_value_strcmp_15 == 0)
           {
             g_free((void *)priority_s);
-            tmp_if_expr$16 = 1;
+            tmp_if_expr_16 = 1;
           }
 
           else
-            tmp_if_expr$16 = 0;
-          if(!(tmp_if_expr$16 == 0))
-            priority = (enum anonymous$9)SPD_NOTIFICATION;
+            tmp_if_expr_16 = 0;
+          if(!(tmp_if_expr_16 == 0))
+            priority = (enum anonymous_9)SPD_NOTIFICATION;
 
           else
           {
-            return_value_strcmp$13=strcmp(priority_s, "progress");
-            if(return_value_strcmp$13 == 0)
+            return_value_strcmp_13=strcmp(priority_s, "progress");
+            if(return_value_strcmp_13 == 0)
             {
               g_free((void *)priority_s);
-              tmp_if_expr$14 = 1;
+              tmp_if_expr_14 = 1;
             }
 
             else
-              tmp_if_expr$14 = 0;
-            if(!(tmp_if_expr$14 == 0))
-              priority = (enum anonymous$9)SPD_PROGRESS;
+              tmp_if_expr_14 = 0;
+            if(!(tmp_if_expr_14 == 0))
+              priority = (enum anonymous_9)SPD_PROGRESS;
 
             else
             {
               g_free((void *)priority_s);
-              char *return_value_g_strdup$12;
-              return_value_g_strdup$12=g_strdup("408 ERR UNKNOWN PRIORITY\r\n");
-              return return_value_g_strdup$12;
+              char *return_value_g_strdup_12;
+              return_value_g_strdup_12=g_strdup("408 ERR UNKNOWN PRIORITY\r\n");
+              return return_value_g_strdup_12;
             }
           }
         }
@@ -9227,36 +9227,36 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
     ret=set_priority_self(fd, priority);
     if(!(ret == 0))
     {
-      return_value_g_strdup$23=g_strdup("301 ERR COULDNT SET PRIORITY\r\n");
-      return return_value_g_strdup$23;
+      return_value_g_strdup_23=g_strdup("301 ERR COULDNT SET PRIORITY\r\n");
+      return return_value_g_strdup_23;
     }
 
-    char *return_value_g_strdup$24;
-    return_value_g_strdup$24=g_strdup("202 OK PRIORITY SET\r\n");
-    return return_value_g_strdup$24;
+    char *return_value_g_strdup_24;
+    return_value_g_strdup_24=g_strdup("202 OK PRIORITY SET\r\n");
+    return return_value_g_strdup_24;
   }
 
   else
   {
-    return_value_strcmp$151=strcmp(set_sub, "language");
-    if(return_value_strcmp$151 == 0)
+    return_value_strcmp_151=strcmp(set_sub, "language");
+    if(return_value_strcmp_151 == 0)
     {
       g_free((void *)set_sub);
-      tmp_if_expr$152 = 1;
+      tmp_if_expr_152 = 1;
     }
 
     else
-      tmp_if_expr$152 = 0;
-    if(!(tmp_if_expr$152 == 0))
+      tmp_if_expr_152 = 0;
+    if(!(tmp_if_expr_152 == 0))
     {
       char *language;
       language=get_param(buf, 3, bytes, 1);
       if(language == ((char *)NULL))
       {
         MSG(4, "Missing parameter from client");
-        char *return_value_g_strdup$25;
-        return_value_g_strdup$25=g_strdup("510 ERR MISSING PARAMETER\r\n");
-        return return_value_g_strdup$25;
+        char *return_value_g_strdup_25;
+        return_value_g_strdup_25=g_strdup("510 ERR MISSING PARAMETER\r\n");
+        return return_value_g_strdup_25;
       }
 
       if(who == 0)
@@ -9273,36 +9273,36 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
       g_free((void *)language);
       if(!(ret == 0))
       {
-        return_value_g_strdup$26=g_strdup("302 ERR COULDNT SET LANGUAGE\r\n");
-        return return_value_g_strdup$26;
+        return_value_g_strdup_26=g_strdup("302 ERR COULDNT SET LANGUAGE\r\n");
+        return return_value_g_strdup_26;
       }
 
-      char *return_value_g_strdup$27;
-      return_value_g_strdup$27=g_strdup("201 OK LANGUAGE SET\r\n");
-      return return_value_g_strdup$27;
+      char *return_value_g_strdup_27;
+      return_value_g_strdup_27=g_strdup("201 OK LANGUAGE SET\r\n");
+      return return_value_g_strdup_27;
     }
 
     else
     {
-      return_value_strcmp$149=strcmp(set_sub, "synthesis_voice");
-      if(return_value_strcmp$149 == 0)
+      return_value_strcmp_149=strcmp(set_sub, "synthesis_voice");
+      if(return_value_strcmp_149 == 0)
       {
         g_free((void *)set_sub);
-        tmp_if_expr$150 = 1;
+        tmp_if_expr_150 = 1;
       }
 
       else
-        tmp_if_expr$150 = 0;
-      if(!(tmp_if_expr$150 == 0))
+        tmp_if_expr_150 = 0;
+      if(!(tmp_if_expr_150 == 0))
       {
         char *synthesis_voice;
         synthesis_voice=get_param(buf, 3, bytes, 1);
         if(synthesis_voice == ((char *)NULL))
         {
           MSG(4, "Missing parameter from client");
-          char *return_value_g_strdup$28;
-          return_value_g_strdup$28=g_strdup("510 ERR MISSING PARAMETER\r\n");
-          return return_value_g_strdup$28;
+          char *return_value_g_strdup_28;
+          return_value_g_strdup_28=g_strdup("510 ERR MISSING PARAMETER\r\n");
+          return return_value_g_strdup_28;
         }
 
         if(who == 0)
@@ -9319,75 +9319,75 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
         g_free((void *)synthesis_voice);
         if(!(ret == 0))
         {
-          return_value_g_strdup$29=g_strdup("309 ERR COULDNT SET VOICE\r\n");
-          return return_value_g_strdup$29;
+          return_value_g_strdup_29=g_strdup("309 ERR COULDNT SET VOICE\r\n");
+          return return_value_g_strdup_29;
         }
 
-        char *return_value_g_strdup$30;
-        return_value_g_strdup$30=g_strdup("209 OK VOICE SET\r\n");
-        return return_value_g_strdup$30;
+        char *return_value_g_strdup_30;
+        return_value_g_strdup_30=g_strdup("209 OK VOICE SET\r\n");
+        return return_value_g_strdup_30;
       }
 
       else
       {
-        return_value_strcmp$147=strcmp(set_sub, "client_name");
-        if(return_value_strcmp$147 == 0)
+        return_value_strcmp_147=strcmp(set_sub, "client_name");
+        if(return_value_strcmp_147 == 0)
         {
           g_free((void *)set_sub);
-          tmp_if_expr$148 = 1;
+          tmp_if_expr_148 = 1;
         }
 
         else
-          tmp_if_expr$148 = 0;
-        if(!(tmp_if_expr$148 == 0))
+          tmp_if_expr_148 = 0;
+        if(!(tmp_if_expr_148 == 0))
         {
           char *client_name;
           if(speechd_socket->inside_block >= 1)
           {
-            return_value_g_strdup$31=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-            return return_value_g_strdup$31;
+            return_value_g_strdup_31=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+            return return_value_g_strdup_31;
           }
 
           if(!(who == 0))
           {
-            return_value_g_strdup$32=g_strdup("514 ERR PARAMETER INVALID\r\n");
-            return return_value_g_strdup$32;
+            return_value_g_strdup_32=g_strdup("514 ERR PARAMETER INVALID\r\n");
+            return return_value_g_strdup_32;
           }
 
           client_name=get_param(buf, 3, bytes, 1);
           if(client_name == ((char *)NULL))
           {
             MSG(4, "Missing parameter from client");
-            char *return_value_g_strdup$33;
-            return_value_g_strdup$33=g_strdup("510 ERR MISSING PARAMETER\r\n");
-            return return_value_g_strdup$33;
+            char *return_value_g_strdup_33;
+            return_value_g_strdup_33=g_strdup("510 ERR MISSING PARAMETER\r\n");
+            return return_value_g_strdup_33;
           }
 
           ret=set_client_name_self(fd, client_name);
           g_free((void *)client_name);
           if(!(ret == 0))
           {
-            return_value_g_strdup$34=g_strdup("311 ERR COULDNT SET CLIENT_NAME\r\n");
-            return return_value_g_strdup$34;
+            return_value_g_strdup_34=g_strdup("311 ERR COULDNT SET CLIENT_NAME\r\n");
+            return return_value_g_strdup_34;
           }
 
-          char *return_value_g_strdup$35;
-          return_value_g_strdup$35=g_strdup("208 OK CLIENT NAME SET\r\n");
-          return return_value_g_strdup$35;
+          char *return_value_g_strdup_35;
+          return_value_g_strdup_35=g_strdup("208 OK CLIENT NAME SET\r\n");
+          return return_value_g_strdup_35;
         }
 
         else
         {
-          return_value_strcmp$145=strcmp(set_sub, "rate");
-          if(return_value_strcmp$145 == 0)
+          return_value_strcmp_145=strcmp(set_sub, "rate");
+          if(return_value_strcmp_145 == 0)
           {
             g_free((void *)set_sub);
-            tmp_if_expr$146 = 1;
+            tmp_if_expr_146 = 1;
           }
 
           else
-            tmp_if_expr$146 = 0;
-          if(!(tmp_if_expr$146 == 0))
+            tmp_if_expr_146 = 0;
+          if(!(tmp_if_expr_146 == 0))
           {
             signed int rate;
             char *helper;
@@ -9395,33 +9395,33 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
             if(helper == ((char *)NULL))
             {
               MSG(4, "Missing parameter from client");
-              char *return_value_g_strdup$36;
-              return_value_g_strdup$36=g_strdup("510 ERR MISSING PARAMETER\r\n");
-              return return_value_g_strdup$36;
+              char *return_value_g_strdup_36;
+              return_value_g_strdup_36=g_strdup("510 ERR MISSING PARAMETER\r\n");
+              return return_value_g_strdup_36;
             }
 
-            signed int return_value_isanum$38;
-            return_value_isanum$38=isanum(helper);
-            if(return_value_isanum$38 == 0)
+            signed int return_value_isanum_38;
+            return_value_isanum_38=isanum(helper);
+            if(return_value_isanum_38 == 0)
             {
               g_free((void *)helper);
-              char *return_value_g_strdup$37;
-              return_value_g_strdup$37=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-              return return_value_g_strdup$37;
+              char *return_value_g_strdup_37;
+              return_value_g_strdup_37=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+              return return_value_g_strdup_37;
             }
 
             rate=atoi(helper);
             g_free((void *)helper);
             if(!(rate >= -100))
             {
-              return_value_g_strdup$39=g_strdup("410 ERR RATE TOO LOW\r\n");
-              return return_value_g_strdup$39;
+              return_value_g_strdup_39=g_strdup("410 ERR RATE TOO LOW\r\n");
+              return return_value_g_strdup_39;
             }
 
             if(rate >= 101)
             {
-              return_value_g_strdup$40=g_strdup("409 ERR RATE TOO HIGH\r\n");
-              return return_value_g_strdup$40;
+              return_value_g_strdup_40=g_strdup("409 ERR RATE TOO HIGH\r\n");
+              return return_value_g_strdup_40;
             }
 
             if(who == 0)
@@ -9437,61 +9437,61 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
 
             if(!(ret == 0))
             {
-              return_value_g_strdup$41=g_strdup("303 ERR COULDNT SET RATE\r\n");
-              return return_value_g_strdup$41;
+              return_value_g_strdup_41=g_strdup("303 ERR COULDNT SET RATE\r\n");
+              return return_value_g_strdup_41;
             }
 
-            char *return_value_g_strdup$42;
-            return_value_g_strdup$42=g_strdup("203 OK RATE SET\r\n");
-            return return_value_g_strdup$42;
+            char *return_value_g_strdup_42;
+            return_value_g_strdup_42=g_strdup("203 OK RATE SET\r\n");
+            return return_value_g_strdup_42;
           }
 
           else
           {
-            return_value_strcmp$143=strcmp(set_sub, "pitch");
-            if(return_value_strcmp$143 == 0)
+            return_value_strcmp_143=strcmp(set_sub, "pitch");
+            if(return_value_strcmp_143 == 0)
             {
               g_free((void *)set_sub);
-              tmp_if_expr$144 = 1;
+              tmp_if_expr_144 = 1;
             }
 
             else
-              tmp_if_expr$144 = 0;
-            if(!(tmp_if_expr$144 == 0))
+              tmp_if_expr_144 = 0;
+            if(!(tmp_if_expr_144 == 0))
             {
               signed int pitch;
-              char *parse_set$$1$$10$$1$$helper;
-              parse_set$$1$$10$$1$$helper=get_param(buf, 3, bytes, 0);
-              if(parse_set$$1$$10$$1$$helper == ((char *)NULL))
+              char *parse_set__1__10__1__helper;
+              parse_set__1__10__1__helper=get_param(buf, 3, bytes, 0);
+              if(parse_set__1__10__1__helper == ((char *)NULL))
               {
                 MSG(4, "Missing parameter from client");
-                char *return_value_g_strdup$43;
-                return_value_g_strdup$43=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                return return_value_g_strdup$43;
+                char *return_value_g_strdup_43;
+                return_value_g_strdup_43=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                return return_value_g_strdup_43;
               }
 
-              signed int return_value_isanum$45;
-              return_value_isanum$45=isanum(parse_set$$1$$10$$1$$helper);
-              if(return_value_isanum$45 == 0)
+              signed int return_value_isanum_45;
+              return_value_isanum_45=isanum(parse_set__1__10__1__helper);
+              if(return_value_isanum_45 == 0)
               {
-                g_free((void *)parse_set$$1$$10$$1$$helper);
-                char *return_value_g_strdup$44;
-                return_value_g_strdup$44=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-                return return_value_g_strdup$44;
+                g_free((void *)parse_set__1__10__1__helper);
+                char *return_value_g_strdup_44;
+                return_value_g_strdup_44=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+                return return_value_g_strdup_44;
               }
 
-              pitch=atoi(parse_set$$1$$10$$1$$helper);
-              g_free((void *)parse_set$$1$$10$$1$$helper);
+              pitch=atoi(parse_set__1__10__1__helper);
+              g_free((void *)parse_set__1__10__1__helper);
               if(!(pitch >= -100))
               {
-                return_value_g_strdup$46=g_strdup("412 ERR PITCH TOO LOW\r\n");
-                return return_value_g_strdup$46;
+                return_value_g_strdup_46=g_strdup("412 ERR PITCH TOO LOW\r\n");
+                return return_value_g_strdup_46;
               }
 
               if(pitch >= 101)
               {
-                return_value_g_strdup$47=g_strdup("411 ERR PITCH TOO HIGH\r\n");
-                return return_value_g_strdup$47;
+                return_value_g_strdup_47=g_strdup("411 ERR PITCH TOO HIGH\r\n");
+                return return_value_g_strdup_47;
               }
 
               if(who == 0)
@@ -9507,61 +9507,61 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
 
               if(!(ret == 0))
               {
-                return_value_g_strdup$48=g_strdup("304 ERR COULDNT SET PITCH\r\n");
-                return return_value_g_strdup$48;
+                return_value_g_strdup_48=g_strdup("304 ERR COULDNT SET PITCH\r\n");
+                return return_value_g_strdup_48;
               }
 
-              char *return_value_g_strdup$49;
-              return_value_g_strdup$49=g_strdup("204 OK PITCH SET\r\n");
-              return return_value_g_strdup$49;
+              char *return_value_g_strdup_49;
+              return_value_g_strdup_49=g_strdup("204 OK PITCH SET\r\n");
+              return return_value_g_strdup_49;
             }
 
             else
             {
-              return_value_strcmp$141=strcmp(set_sub, "volume");
-              if(return_value_strcmp$141 == 0)
+              return_value_strcmp_141=strcmp(set_sub, "volume");
+              if(return_value_strcmp_141 == 0)
               {
                 g_free((void *)set_sub);
-                tmp_if_expr$142 = 1;
+                tmp_if_expr_142 = 1;
               }
 
               else
-                tmp_if_expr$142 = 0;
-              if(!(tmp_if_expr$142 == 0))
+                tmp_if_expr_142 = 0;
+              if(!(tmp_if_expr_142 == 0))
               {
                 signed int volume;
-                char *parse_set$$1$$11$$1$$helper;
-                parse_set$$1$$11$$1$$helper=get_param(buf, 3, bytes, 0);
-                if(parse_set$$1$$11$$1$$helper == ((char *)NULL))
+                char *parse_set__1__11__1__helper;
+                parse_set__1__11__1__helper=get_param(buf, 3, bytes, 0);
+                if(parse_set__1__11__1__helper == ((char *)NULL))
                 {
                   MSG(4, "Missing parameter from client");
-                  char *return_value_g_strdup$50;
-                  return_value_g_strdup$50=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                  return return_value_g_strdup$50;
+                  char *return_value_g_strdup_50;
+                  return_value_g_strdup_50=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                  return return_value_g_strdup_50;
                 }
 
-                signed int return_value_isanum$52;
-                return_value_isanum$52=isanum(parse_set$$1$$11$$1$$helper);
-                if(return_value_isanum$52 == 0)
+                signed int return_value_isanum_52;
+                return_value_isanum_52=isanum(parse_set__1__11__1__helper);
+                if(return_value_isanum_52 == 0)
                 {
-                  g_free((void *)parse_set$$1$$11$$1$$helper);
-                  char *return_value_g_strdup$51;
-                  return_value_g_strdup$51=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-                  return return_value_g_strdup$51;
+                  g_free((void *)parse_set__1__11__1__helper);
+                  char *return_value_g_strdup_51;
+                  return_value_g_strdup_51=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+                  return return_value_g_strdup_51;
                 }
 
-                volume=atoi(parse_set$$1$$11$$1$$helper);
-                g_free((void *)parse_set$$1$$11$$1$$helper);
+                volume=atoi(parse_set__1__11__1__helper);
+                g_free((void *)parse_set__1__11__1__helper);
                 if(!(volume >= -100))
                 {
-                  return_value_g_strdup$53=g_strdup("414 ERR PITCH TOO LOW\r\n");
-                  return return_value_g_strdup$53;
+                  return_value_g_strdup_53=g_strdup("414 ERR PITCH TOO LOW\r\n");
+                  return return_value_g_strdup_53;
                 }
 
                 if(volume >= 101)
                 {
-                  return_value_g_strdup$54=g_strdup("413 ERR PITCH TOO HIGH\r\n");
-                  return return_value_g_strdup$54;
+                  return_value_g_strdup_54=g_strdup("413 ERR PITCH TOO HIGH\r\n");
+                  return return_value_g_strdup_54;
                 }
 
                 if(who == 0)
@@ -9577,36 +9577,36 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
 
                 if(!(ret == 0))
                 {
-                  return_value_g_strdup$55=g_strdup("314 ERR COULDNT SET VOLUME\r\n");
-                  return return_value_g_strdup$55;
+                  return_value_g_strdup_55=g_strdup("314 ERR COULDNT SET VOLUME\r\n");
+                  return return_value_g_strdup_55;
                 }
 
-                char *return_value_g_strdup$56;
-                return_value_g_strdup$56=g_strdup("218 OK VOLUME SET\r\n");
-                return return_value_g_strdup$56;
+                char *return_value_g_strdup_56;
+                return_value_g_strdup_56=g_strdup("218 OK VOLUME SET\r\n");
+                return return_value_g_strdup_56;
               }
 
               else
               {
-                return_value_strcmp$139=strcmp(set_sub, "voice");
-                if(return_value_strcmp$139 == 0)
+                return_value_strcmp_139=strcmp(set_sub, "voice");
+                if(return_value_strcmp_139 == 0)
                 {
                   g_free((void *)set_sub);
-                  tmp_if_expr$140 = 1;
+                  tmp_if_expr_140 = 1;
                 }
 
                 else
-                  tmp_if_expr$140 = 0;
-                if(!(tmp_if_expr$140 == 0))
+                  tmp_if_expr_140 = 0;
+                if(!(tmp_if_expr_140 == 0))
                 {
                   char *voice;
                   voice=get_param(buf, 3, bytes, 1);
                   if(voice == ((char *)NULL))
                   {
                     MSG(4, "Missing parameter from client");
-                    char *return_value_g_strdup$57;
-                    return_value_g_strdup$57=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                    return return_value_g_strdup$57;
+                    char *return_value_g_strdup_57;
+                    return_value_g_strdup_57=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                    return return_value_g_strdup_57;
                   }
 
                   if(who == 0)
@@ -9623,86 +9623,86 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
                   g_free((void *)voice);
                   if(!(ret == 0))
                   {
-                    return_value_g_strdup$58=g_strdup("309 ERR COULDNT SET VOICE\r\n");
-                    return return_value_g_strdup$58;
+                    return_value_g_strdup_58=g_strdup("309 ERR COULDNT SET VOICE\r\n");
+                    return return_value_g_strdup_58;
                   }
 
-                  char *return_value_g_strdup$59;
-                  return_value_g_strdup$59=g_strdup("209 OK VOICE SET\r\n");
-                  return return_value_g_strdup$59;
+                  char *return_value_g_strdup_59;
+                  return_value_g_strdup_59=g_strdup("209 OK VOICE SET\r\n");
+                  return return_value_g_strdup_59;
                 }
 
                 else
                 {
-                  return_value_strcmp$137=strcmp(set_sub, "punctuation");
-                  if(return_value_strcmp$137 == 0)
+                  return_value_strcmp_137=strcmp(set_sub, "punctuation");
+                  if(return_value_strcmp_137 == 0)
                   {
                     g_free((void *)set_sub);
-                    tmp_if_expr$138 = 1;
+                    tmp_if_expr_138 = 1;
                   }
 
                   else
-                    tmp_if_expr$138 = 0;
-                  if(!(tmp_if_expr$138 == 0))
+                    tmp_if_expr_138 = 0;
+                  if(!(tmp_if_expr_138 == 0))
                   {
                     char *punct_s;
-                    enum anonymous$2 punctuation_mode;
+                    enum anonymous_2 punctuation_mode;
                     punct_s=get_param(buf, 3, bytes, 1);
                     if(punct_s == ((char *)NULL))
                     {
                       MSG(4, "Missing parameter from client");
-                      char *return_value_g_strdup$60;
-                      return_value_g_strdup$60=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                      return return_value_g_strdup$60;
+                      char *return_value_g_strdup_60;
+                      return_value_g_strdup_60=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                      return return_value_g_strdup_60;
                     }
 
-                    signed int return_value_strcmp$66;
-                    return_value_strcmp$66=strcmp(punct_s, "all");
-                    if(return_value_strcmp$66 == 0)
+                    signed int return_value_strcmp_66;
+                    return_value_strcmp_66=strcmp(punct_s, "all");
+                    if(return_value_strcmp_66 == 0)
                     {
                       g_free((void *)punct_s);
-                      tmp_if_expr$67 = 1;
+                      tmp_if_expr_67 = 1;
                     }
 
                     else
-                      tmp_if_expr$67 = 0;
-                    if(!(tmp_if_expr$67 == 0))
-                      punctuation_mode = (enum anonymous$2)SPD_PUNCT_ALL;
+                      tmp_if_expr_67 = 0;
+                    if(!(tmp_if_expr_67 == 0))
+                      punctuation_mode = (enum anonymous_2)SPD_PUNCT_ALL;
 
                     else
                     {
-                      return_value_strcmp$64=strcmp(punct_s, "some");
-                      if(return_value_strcmp$64 == 0)
+                      return_value_strcmp_64=strcmp(punct_s, "some");
+                      if(return_value_strcmp_64 == 0)
                       {
                         g_free((void *)punct_s);
-                        tmp_if_expr$65 = 1;
+                        tmp_if_expr_65 = 1;
                       }
 
                       else
-                        tmp_if_expr$65 = 0;
-                      if(!(tmp_if_expr$65 == 0))
-                        punctuation_mode = (enum anonymous$2)SPD_PUNCT_SOME;
+                        tmp_if_expr_65 = 0;
+                      if(!(tmp_if_expr_65 == 0))
+                        punctuation_mode = (enum anonymous_2)SPD_PUNCT_SOME;
 
                       else
                       {
-                        return_value_strcmp$62=strcmp(punct_s, "none");
-                        if(return_value_strcmp$62 == 0)
+                        return_value_strcmp_62=strcmp(punct_s, "none");
+                        if(return_value_strcmp_62 == 0)
                         {
                           g_free((void *)punct_s);
-                          tmp_if_expr$63 = 1;
+                          tmp_if_expr_63 = 1;
                         }
 
                         else
-                          tmp_if_expr$63 = 0;
-                        if(!(tmp_if_expr$63 == 0))
-                          punctuation_mode = (enum anonymous$2)SPD_PUNCT_NONE;
+                          tmp_if_expr_63 = 0;
+                        if(!(tmp_if_expr_63 == 0))
+                          punctuation_mode = (enum anonymous_2)SPD_PUNCT_NONE;
 
                         else
                         {
                           g_free((void *)punct_s);
-                          char *return_value_g_strdup$61;
-                          return_value_g_strdup$61=g_strdup("514 ERR PARAMETER INVALID\r\n");
-                          return return_value_g_strdup$61;
+                          char *return_value_g_strdup_61;
+                          return_value_g_strdup_61=g_strdup("514 ERR PARAMETER INVALID\r\n");
+                          return return_value_g_strdup_61;
                         }
                       }
                     }
@@ -9719,42 +9719,42 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
 
                     if(!(ret == 0))
                     {
-                      return_value_g_strdup$68=g_strdup("305 ERR COULDNT SET PUNCT MODE\r\n");
-                      return return_value_g_strdup$68;
+                      return_value_g_strdup_68=g_strdup("305 ERR COULDNT SET PUNCT MODE\r\n");
+                      return return_value_g_strdup_68;
                     }
 
-                    char *return_value_g_strdup$69;
-                    return_value_g_strdup$69=g_strdup("205 OK PUNCTUATION SET\r\n");
-                    return return_value_g_strdup$69;
+                    char *return_value_g_strdup_69;
+                    return_value_g_strdup_69=g_strdup("205 OK PUNCTUATION SET\r\n");
+                    return return_value_g_strdup_69;
                   }
 
                   else
                   {
-                    return_value_strcmp$135=strcmp(set_sub, "output_module");
-                    if(return_value_strcmp$135 == 0)
+                    return_value_strcmp_135=strcmp(set_sub, "output_module");
+                    if(return_value_strcmp_135 == 0)
                     {
                       g_free((void *)set_sub);
-                      tmp_if_expr$136 = 1;
+                      tmp_if_expr_136 = 1;
                     }
 
                     else
-                      tmp_if_expr$136 = 0;
-                    if(!(tmp_if_expr$136 == 0))
+                      tmp_if_expr_136 = 0;
+                    if(!(tmp_if_expr_136 == 0))
                     {
                       char *output_module;
                       if(speechd_socket->inside_block >= 1)
                       {
-                        return_value_g_strdup$70=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-                        return return_value_g_strdup$70;
+                        return_value_g_strdup_70=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+                        return return_value_g_strdup_70;
                       }
 
                       output_module=get_param(buf, 3, bytes, 1);
                       if(output_module == ((char *)NULL))
                       {
                         MSG(4, "Missing parameter from client");
-                        char *return_value_g_strdup$71;
-                        return_value_g_strdup$71=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                        return return_value_g_strdup$71;
+                        char *return_value_g_strdup_71;
+                        return_value_g_strdup_71=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                        return return_value_g_strdup_71;
                       }
 
                       if(who == 0)
@@ -9771,27 +9771,27 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
                       g_free((void *)output_module);
                       if(!(ret == 0))
                       {
-                        return_value_g_strdup$72=g_strdup("312 ERR COULDNT SET OUTPUT MODULE\r\n");
-                        return return_value_g_strdup$72;
+                        return_value_g_strdup_72=g_strdup("312 ERR COULDNT SET OUTPUT MODULE\r\n");
+                        return return_value_g_strdup_72;
                       }
 
-                      char *return_value_g_strdup$73;
-                      return_value_g_strdup$73=g_strdup("216 OK OUTPUT MODULE SET\r\n");
-                      return return_value_g_strdup$73;
+                      char *return_value_g_strdup_73;
+                      return_value_g_strdup_73=g_strdup("216 OK OUTPUT MODULE SET\r\n");
+                      return return_value_g_strdup_73;
                     }
 
                     else
                     {
-                      return_value_strcmp$133=strcmp(set_sub, "cap_let_recogn");
-                      if(return_value_strcmp$133 == 0)
+                      return_value_strcmp_133=strcmp(set_sub, "cap_let_recogn");
+                      if(return_value_strcmp_133 == 0)
                       {
                         g_free((void *)set_sub);
-                        tmp_if_expr$134 = 1;
+                        tmp_if_expr_134 = 1;
                       }
 
                       else
-                        tmp_if_expr$134 = 0;
-                      if(!(tmp_if_expr$134 == 0))
+                        tmp_if_expr_134 = 0;
+                      if(!(tmp_if_expr_134 == 0))
                       {
                         signed int capital_letter_recognition;
                         char *recognition;
@@ -9799,119 +9799,119 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
                         if(recognition == ((char *)NULL))
                         {
                           MSG(4, "Missing parameter from client");
-                          char *return_value_g_strdup$74;
-                          return_value_g_strdup$74=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                          return return_value_g_strdup$74;
+                          char *return_value_g_strdup_74;
+                          return_value_g_strdup_74=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                          return return_value_g_strdup_74;
                         }
 
-                        signed int return_value_strcmp$80;
-                        return_value_strcmp$80=strcmp(recognition, "none");
-                        if(return_value_strcmp$80 == 0)
+                        signed int return_value_strcmp_80;
+                        return_value_strcmp_80=strcmp(recognition, "none");
+                        if(return_value_strcmp_80 == 0)
                         {
                           g_free((void *)recognition);
-                          tmp_if_expr$81 = 1;
+                          tmp_if_expr_81 = 1;
                         }
 
                         else
-                          tmp_if_expr$81 = 0;
-                        if(!(tmp_if_expr$81 == 0))
+                          tmp_if_expr_81 = 0;
+                        if(!(tmp_if_expr_81 == 0))
                           capital_letter_recognition = SPD_CAP_NONE;
 
                         else
                         {
-                          return_value_strcmp$78=strcmp(recognition, "spell");
-                          if(return_value_strcmp$78 == 0)
+                          return_value_strcmp_78=strcmp(recognition, "spell");
+                          if(return_value_strcmp_78 == 0)
                           {
                             g_free((void *)recognition);
-                            tmp_if_expr$79 = 1;
+                            tmp_if_expr_79 = 1;
                           }
 
                           else
-                            tmp_if_expr$79 = 0;
-                          if(!(tmp_if_expr$79 == 0))
+                            tmp_if_expr_79 = 0;
+                          if(!(tmp_if_expr_79 == 0))
                             capital_letter_recognition = SPD_CAP_SPELL;
 
                           else
                           {
-                            return_value_strcmp$76=strcmp(recognition, "icon");
-                            if(return_value_strcmp$76 == 0)
+                            return_value_strcmp_76=strcmp(recognition, "icon");
+                            if(return_value_strcmp_76 == 0)
                             {
                               g_free((void *)recognition);
-                              tmp_if_expr$77 = 1;
+                              tmp_if_expr_77 = 1;
                             }
 
                             else
-                              tmp_if_expr$77 = 0;
-                            if(!(tmp_if_expr$77 == 0))
+                              tmp_if_expr_77 = 0;
+                            if(!(tmp_if_expr_77 == 0))
                               capital_letter_recognition = SPD_CAP_ICON;
 
                             else
                             {
                               g_free((void *)recognition);
-                              char *return_value_g_strdup$75;
-                              return_value_g_strdup$75=g_strdup("514 ERR PARAMETER INVALID\r\n");
-                              return return_value_g_strdup$75;
+                              char *return_value_g_strdup_75;
+                              return_value_g_strdup_75=g_strdup("514 ERR PARAMETER INVALID\r\n");
+                              return return_value_g_strdup_75;
                             }
                           }
                         }
                         if(who == 0)
-                          ret=set_capital_letter_recognition_self(fd, (enum anonymous$4)capital_letter_recognition);
+                          ret=set_capital_letter_recognition_self(fd, (enum anonymous_4)capital_letter_recognition);
 
                         else
                           if(who == 1)
-                            ret=set_capital_letter_recognition_uid(uid, (enum anonymous$4)capital_letter_recognition);
+                            ret=set_capital_letter_recognition_uid(uid, (enum anonymous_4)capital_letter_recognition);
 
                           else
                             if(who == 2)
-                              ret=set_capital_letter_recognition_all((enum anonymous$4)capital_letter_recognition);
+                              ret=set_capital_letter_recognition_all((enum anonymous_4)capital_letter_recognition);
 
                         if(!(ret == 0))
                         {
-                          return_value_g_strdup$82=g_strdup("306 ERR COULDNT SET CAP LET RECOGNITION\r\n");
-                          return return_value_g_strdup$82;
+                          return_value_g_strdup_82=g_strdup("306 ERR COULDNT SET CAP LET RECOGNITION\r\n");
+                          return return_value_g_strdup_82;
                         }
 
-                        char *return_value_g_strdup$83;
-                        return_value_g_strdup$83=g_strdup("206 OK CAP LET RECOGNITION SET\r\n");
-                        return return_value_g_strdup$83;
+                        char *return_value_g_strdup_83;
+                        return_value_g_strdup_83=g_strdup("206 OK CAP LET RECOGNITION SET\r\n");
+                        return return_value_g_strdup_83;
                       }
 
                       else
                       {
-                        return_value_strcmp$131=strcmp(set_sub, "pause_context");
-                        if(return_value_strcmp$131 == 0)
+                        return_value_strcmp_131=strcmp(set_sub, "pause_context");
+                        if(return_value_strcmp_131 == 0)
                         {
                           g_free((void *)set_sub);
-                          tmp_if_expr$132 = 1;
+                          tmp_if_expr_132 = 1;
                         }
 
                         else
-                          tmp_if_expr$132 = 0;
-                        if(!(tmp_if_expr$132 == 0))
+                          tmp_if_expr_132 = 0;
+                        if(!(tmp_if_expr_132 == 0))
                         {
                           signed int pause_context;
-                          char *parse_set$$1$$16$$1$$helper;
-                          parse_set$$1$$16$$1$$helper=get_param(buf, 3, bytes, 0);
-                          if(parse_set$$1$$16$$1$$helper == ((char *)NULL))
+                          char *parse_set__1__16__1__helper;
+                          parse_set__1__16__1__helper=get_param(buf, 3, bytes, 0);
+                          if(parse_set__1__16__1__helper == ((char *)NULL))
                           {
                             MSG(4, "Missing parameter from client");
-                            char *return_value_g_strdup$84;
-                            return_value_g_strdup$84=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                            return return_value_g_strdup$84;
+                            char *return_value_g_strdup_84;
+                            return_value_g_strdup_84=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                            return return_value_g_strdup_84;
                           }
 
-                          signed int return_value_isanum$86;
-                          return_value_isanum$86=isanum(parse_set$$1$$16$$1$$helper);
-                          if(return_value_isanum$86 == 0)
+                          signed int return_value_isanum_86;
+                          return_value_isanum_86=isanum(parse_set__1__16__1__helper);
+                          if(return_value_isanum_86 == 0)
                           {
-                            g_free((void *)parse_set$$1$$16$$1$$helper);
-                            char *return_value_g_strdup$85;
-                            return_value_g_strdup$85=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
-                            return return_value_g_strdup$85;
+                            g_free((void *)parse_set__1__16__1__helper);
+                            char *return_value_g_strdup_85;
+                            return_value_g_strdup_85=g_strdup("511 ERR PARAMETER NOT A NUMBER\r\n");
+                            return return_value_g_strdup_85;
                           }
 
-                          pause_context=atoi(parse_set$$1$$16$$1$$helper);
-                          g_free((void *)parse_set$$1$$16$$1$$helper);
+                          pause_context=atoi(parse_set__1__16__1__helper);
+                          g_free((void *)parse_set__1__16__1__helper);
                           if(who == 0)
                             ret=set_pause_context_self(fd, pause_context);
 
@@ -9925,216 +9925,216 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
 
                           if(!(ret == 0))
                           {
-                            return_value_g_strdup$87=g_strdup("313 ERR COULDNT SET PAUSE CONTEXT\r\n");
-                            return return_value_g_strdup$87;
+                            return_value_g_strdup_87=g_strdup("313 ERR COULDNT SET PAUSE CONTEXT\r\n");
+                            return return_value_g_strdup_87;
                           }
 
-                          char *return_value_g_strdup$88;
-                          return_value_g_strdup$88=g_strdup("217 OK PAUSE CONTEXT SET\r\n");
-                          return return_value_g_strdup$88;
+                          char *return_value_g_strdup_88;
+                          return_value_g_strdup_88=g_strdup("217 OK PAUSE CONTEXT SET\r\n");
+                          return return_value_g_strdup_88;
                         }
 
                         else
                         {
-                          return_value_strcmp$130=strcmp(set_sub, "spelling");
-                          if(return_value_strcmp$130 == 0)
+                          return_value_strcmp_130=strcmp(set_sub, "spelling");
+                          if(return_value_strcmp_130 == 0)
                           {
                             char *helper_s;
                             signed int spelling;
                             if(speechd_socket->inside_block >= 1)
                             {
-                              return_value_g_strdup$89=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
-                              return return_value_g_strdup$89;
+                              return_value_g_strdup_89=g_strdup("332 ERR NOT ALLOWED INSIDE BLOCK\r\n");
+                              return return_value_g_strdup_89;
                             }
 
                             helper_s=get_param(buf, 3, bytes, 1);
                             if(helper_s == ((char *)NULL))
                             {
                               MSG(4, "Missing parameter from client");
-                              char *return_value_g_strdup$90;
-                              return_value_g_strdup$90=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                              return return_value_g_strdup$90;
+                              char *return_value_g_strdup_90;
+                              return_value_g_strdup_90=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                              return return_value_g_strdup_90;
                             }
 
-                            signed int return_value_strcmp$94;
-                            return_value_strcmp$94=strcmp(helper_s, "on");
-                            if(return_value_strcmp$94 == 0)
+                            signed int return_value_strcmp_94;
+                            return_value_strcmp_94=strcmp(helper_s, "on");
+                            if(return_value_strcmp_94 == 0)
                             {
                               g_free((void *)helper_s);
-                              tmp_if_expr$95 = 1;
+                              tmp_if_expr_95 = 1;
                             }
 
                             else
-                              tmp_if_expr$95 = 0;
-                            if(!(tmp_if_expr$95 == 0))
+                              tmp_if_expr_95 = 0;
+                            if(!(tmp_if_expr_95 == 0))
                               spelling = 1;
 
                             else
                             {
-                              return_value_strcmp$92=strcmp(helper_s, "off");
-                              if(return_value_strcmp$92 == 0)
+                              return_value_strcmp_92=strcmp(helper_s, "off");
+                              if(return_value_strcmp_92 == 0)
                               {
                                 g_free((void *)helper_s);
-                                tmp_if_expr$93 = 1;
+                                tmp_if_expr_93 = 1;
                               }
 
                               else
-                                tmp_if_expr$93 = 0;
-                              if(!(tmp_if_expr$93 == 0))
+                                tmp_if_expr_93 = 0;
+                              if(!(tmp_if_expr_93 == 0))
                                 spelling = 0;
 
                               else
                               {
                                 g_free((void *)helper_s);
-                                char *return_value_g_strdup$91;
-                                return_value_g_strdup$91=g_strdup("513 ERR PARAMETER NOT ON OR OFF\r\n");
-                                return return_value_g_strdup$91;
+                                char *return_value_g_strdup_91;
+                                return_value_g_strdup_91=g_strdup("513 ERR PARAMETER NOT ON OR OFF\r\n");
+                                return return_value_g_strdup_91;
                               }
                             }
                             if(who == 0)
-                              ret=set_spelling_self(fd, (enum anonymous$1)spelling);
+                              ret=set_spelling_self(fd, (enum anonymous_1)spelling);
 
                             else
                               if(who == 1)
-                                ret=set_spelling_uid(uid, (enum anonymous$1)spelling);
+                                ret=set_spelling_uid(uid, (enum anonymous_1)spelling);
 
                               else
                                 if(who == 2)
-                                  ret=set_spelling_all((enum anonymous$1)spelling);
+                                  ret=set_spelling_all((enum anonymous_1)spelling);
 
                             if(!(ret == 0))
                             {
-                              return_value_g_strdup$96=g_strdup("308 ERR COULDNT SET SPELLING\r\n");
-                              return return_value_g_strdup$96;
+                              return_value_g_strdup_96=g_strdup("308 ERR COULDNT SET SPELLING\r\n");
+                              return return_value_g_strdup_96;
                             }
 
-                            char *return_value_g_strdup$97;
-                            return_value_g_strdup$97=g_strdup("207 OK SPELLING SET\r\n");
-                            return return_value_g_strdup$97;
+                            char *return_value_g_strdup_97;
+                            return_value_g_strdup_97=g_strdup("207 OK SPELLING SET\r\n");
+                            return return_value_g_strdup_97;
                           }
 
                           else
                           {
-                            return_value_strcmp$129=strcmp(set_sub, "ssml_mode");
-                            if(return_value_strcmp$129 == 0)
+                            return_value_strcmp_129=strcmp(set_sub, "ssml_mode");
+                            if(return_value_strcmp_129 == 0)
                             {
-                              char *parse_set$$1$$18$$helper_s;
+                              char *parse_set__1__18__helper_s;
                               signed int ssml_mode;
-                              parse_set$$1$$18$$helper_s=get_param(buf, 3, bytes, 1);
-                              if(parse_set$$1$$18$$helper_s == ((char *)NULL))
+                              parse_set__1__18__helper_s=get_param(buf, 3, bytes, 1);
+                              if(parse_set__1__18__helper_s == ((char *)NULL))
                               {
                                 MSG(4, "Missing parameter from client");
-                                char *return_value_g_strdup$98;
-                                return_value_g_strdup$98=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                                return return_value_g_strdup$98;
+                                char *return_value_g_strdup_98;
+                                return_value_g_strdup_98=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                                return return_value_g_strdup_98;
                               }
 
-                              signed int return_value_strcmp$102;
-                              return_value_strcmp$102=strcmp(parse_set$$1$$18$$helper_s, "on");
-                              if(return_value_strcmp$102 == 0)
+                              signed int return_value_strcmp_102;
+                              return_value_strcmp_102=strcmp(parse_set__1__18__helper_s, "on");
+                              if(return_value_strcmp_102 == 0)
                               {
-                                g_free((void *)parse_set$$1$$18$$helper_s);
-                                tmp_if_expr$103 = 1;
+                                g_free((void *)parse_set__1__18__helper_s);
+                                tmp_if_expr_103 = 1;
                               }
 
                               else
-                                tmp_if_expr$103 = 0;
-                              if(!(tmp_if_expr$103 == 0))
+                                tmp_if_expr_103 = 0;
+                              if(!(tmp_if_expr_103 == 0))
                                 ssml_mode = 1;
 
                               else
                               {
-                                return_value_strcmp$100=strcmp(parse_set$$1$$18$$helper_s, "off");
-                                if(return_value_strcmp$100 == 0)
+                                return_value_strcmp_100=strcmp(parse_set__1__18__helper_s, "off");
+                                if(return_value_strcmp_100 == 0)
                                 {
-                                  g_free((void *)parse_set$$1$$18$$helper_s);
-                                  tmp_if_expr$101 = 1;
+                                  g_free((void *)parse_set__1__18__helper_s);
+                                  tmp_if_expr_101 = 1;
                                 }
 
                                 else
-                                  tmp_if_expr$101 = 0;
-                                if(!(tmp_if_expr$101 == 0))
+                                  tmp_if_expr_101 = 0;
+                                if(!(tmp_if_expr_101 == 0))
                                   ssml_mode = 0;
 
                                 else
                                 {
-                                  g_free((void *)parse_set$$1$$18$$helper_s);
-                                  char *return_value_g_strdup$99;
-                                  return_value_g_strdup$99=g_strdup("513 ERR PARAMETER NOT ON OR OFF\r\n");
-                                  return return_value_g_strdup$99;
+                                  g_free((void *)parse_set__1__18__helper_s);
+                                  char *return_value_g_strdup_99;
+                                  return_value_g_strdup_99=g_strdup("513 ERR PARAMETER NOT ON OR OFF\r\n");
+                                  return return_value_g_strdup_99;
                                 }
                               }
                               if(who == 0)
-                                ret=set_ssml_mode_self(fd, (enum anonymous$5)ssml_mode);
+                                ret=set_ssml_mode_self(fd, (enum anonymous_5)ssml_mode);
 
                               else
                                 if(who == 1)
-                                  ret=set_ssml_mode_uid(uid, (enum anonymous$5)ssml_mode);
+                                  ret=set_ssml_mode_uid(uid, (enum anonymous_5)ssml_mode);
 
                                 else
                                   if(who == 2)
-                                    ret=set_ssml_mode_all((enum anonymous$5)ssml_mode);
+                                    ret=set_ssml_mode_all((enum anonymous_5)ssml_mode);
 
                               if(!(ret == 0))
                               {
-                                return_value_g_strdup$104=g_strdup("315 ERR COULDNT SET SSML MODE\r\n");
-                                return return_value_g_strdup$104;
+                                return_value_g_strdup_104=g_strdup("315 ERR COULDNT SET SSML MODE\r\n");
+                                return return_value_g_strdup_104;
                               }
 
-                              char *return_value_g_strdup$105;
-                              return_value_g_strdup$105=g_strdup("219 OK SSML MODE SET\r\n");
-                              return return_value_g_strdup$105;
+                              char *return_value_g_strdup_105;
+                              return_value_g_strdup_105=g_strdup("219 OK SSML MODE SET\r\n");
+                              return return_value_g_strdup_105;
                             }
 
                             else
                             {
-                              return_value_strcmp$128=strcmp(set_sub, "debug");
-                              if(return_value_strcmp$128 == 0)
+                              return_value_strcmp_128=strcmp(set_sub, "debug");
+                              if(return_value_strcmp_128 == 0)
                               {
-                                char *parse_set$$1$$19$$helper_s;
+                                char *parse_set__1__19__helper_s;
                                 signed int debug;
-                                parse_set$$1$$19$$helper_s=get_param(buf, 3, bytes, 1);
-                                if(parse_set$$1$$19$$helper_s == ((char *)NULL))
+                                parse_set__1__19__helper_s=get_param(buf, 3, bytes, 1);
+                                if(parse_set__1__19__helper_s == ((char *)NULL))
                                 {
                                   MSG(4, "Missing parameter from client");
-                                  char *return_value_g_strdup$106;
-                                  return_value_g_strdup$106=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                                  return return_value_g_strdup$106;
+                                  char *return_value_g_strdup_106;
+                                  return_value_g_strdup_106=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                                  return return_value_g_strdup_106;
                                 }
 
-                                signed int return_value_strcmp$110;
-                                return_value_strcmp$110=strcmp(parse_set$$1$$19$$helper_s, "on");
-                                if(return_value_strcmp$110 == 0)
+                                signed int return_value_strcmp_110;
+                                return_value_strcmp_110=strcmp(parse_set__1__19__helper_s, "on");
+                                if(return_value_strcmp_110 == 0)
                                 {
-                                  g_free((void *)parse_set$$1$$19$$helper_s);
-                                  tmp_if_expr$111 = 1;
+                                  g_free((void *)parse_set__1__19__helper_s);
+                                  tmp_if_expr_111 = 1;
                                 }
 
                                 else
-                                  tmp_if_expr$111 = 0;
-                                if(!(tmp_if_expr$111 == 0))
+                                  tmp_if_expr_111 = 0;
+                                if(!(tmp_if_expr_111 == 0))
                                   debug = 1;
 
                                 else
                                 {
-                                  return_value_strcmp$108=strcmp(parse_set$$1$$19$$helper_s, "off");
-                                  if(return_value_strcmp$108 == 0)
+                                  return_value_strcmp_108=strcmp(parse_set__1__19__helper_s, "off");
+                                  if(return_value_strcmp_108 == 0)
                                   {
-                                    g_free((void *)parse_set$$1$$19$$helper_s);
-                                    tmp_if_expr$109 = 1;
+                                    g_free((void *)parse_set__1__19__helper_s);
+                                    tmp_if_expr_109 = 1;
                                   }
 
                                   else
-                                    tmp_if_expr$109 = 0;
-                                  if(!(tmp_if_expr$109 == 0))
+                                    tmp_if_expr_109 = 0;
+                                  if(!(tmp_if_expr_109 == 0))
                                     debug = 0;
 
                                   else
                                   {
-                                    g_free((void *)parse_set$$1$$19$$helper_s);
-                                    char *return_value_g_strdup$107;
-                                    return_value_g_strdup$107=g_strdup("513 ERR PARAMETER NOT ON OR OFF\r\n");
-                                    return return_value_g_strdup$107;
+                                    g_free((void *)parse_set__1__19__helper_s);
+                                    char *return_value_g_strdup_107;
+                                    return_value_g_strdup_107=g_strdup("513 ERR PARAMETER NOT ON OR OFF\r\n");
+                                    return return_value_g_strdup_107;
                                   }
                                 }
                                 if(who == 0)
@@ -10150,111 +10150,111 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
 
                                 if(!(ret == 0))
                                 {
-                                  return_value_g_strdup$112=g_strdup("317 ERR COULDNT SET DEBUGGING\r\n");
-                                  return return_value_g_strdup$112;
+                                  return_value_g_strdup_112=g_strdup("317 ERR COULDNT SET DEBUGGING\r\n");
+                                  return return_value_g_strdup_112;
                                 }
 
-                                char *return_value_g_strdup_printf$113;
-                                return_value_g_strdup_printf$113=g_strdup_printf("262-%s\r\n262 OK DEBUGGING SET\r\n", SpeechdOptions.debug_destination);
-                                char *return_value_g_strdup$114;
-                                return_value_g_strdup$114=g_strdup(return_value_g_strdup_printf$113);
-                                return return_value_g_strdup$114;
+                                char *return_value_g_strdup_printf_113;
+                                return_value_g_strdup_printf_113=g_strdup_printf("262-%s\r\n262 OK DEBUGGING SET\r\n", SpeechdOptions.debug_destination);
+                                char *return_value_g_strdup_114;
+                                return_value_g_strdup_114=g_strdup(return_value_g_strdup_printf_113);
+                                return return_value_g_strdup_114;
                               }
 
                               else
                               {
-                                return_value_strcmp$126=strcmp(set_sub, "notification");
-                                if(return_value_strcmp$126 == 0)
+                                return_value_strcmp_126=strcmp(set_sub, "notification");
+                                if(return_value_strcmp_126 == 0)
                                 {
                                   g_free((void *)set_sub);
-                                  tmp_if_expr$127 = 1;
+                                  tmp_if_expr_127 = 1;
                                 }
 
                                 else
-                                  tmp_if_expr$127 = 0;
-                                if(!(tmp_if_expr$127 == 0))
+                                  tmp_if_expr_127 = 0;
+                                if(!(tmp_if_expr_127 == 0))
                                 {
                                   char *scope;
                                   char *par_s;
                                   signed int par;
                                   if(!(who == 0))
                                   {
-                                    return_value_g_strdup$115=g_strdup("514 ERR PARAMETER INVALID\r\n");
-                                    return return_value_g_strdup$115;
+                                    return_value_g_strdup_115=g_strdup("514 ERR PARAMETER INVALID\r\n");
+                                    return return_value_g_strdup_115;
                                   }
 
                                   scope=get_param(buf, 3, bytes, 1);
                                   if(scope == ((char *)NULL))
                                   {
                                     MSG(4, "Missing parameter from client");
-                                    char *return_value_g_strdup$116;
-                                    return_value_g_strdup$116=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                                    return return_value_g_strdup$116;
+                                    char *return_value_g_strdup_116;
+                                    return_value_g_strdup_116=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                                    return return_value_g_strdup_116;
                                   }
 
                                   par_s=get_param(buf, 4, bytes, 1);
                                   if(par_s == ((char *)NULL))
                                   {
                                     MSG(4, "Missing parameter from client");
-                                    char *return_value_g_strdup$117;
-                                    return_value_g_strdup$117=g_strdup("510 ERR MISSING PARAMETER\r\n");
-                                    return return_value_g_strdup$117;
+                                    char *return_value_g_strdup_117;
+                                    return_value_g_strdup_117=g_strdup("510 ERR MISSING PARAMETER\r\n");
+                                    return return_value_g_strdup_117;
                                   }
 
-                                  signed int return_value_strcmp$121;
-                                  return_value_strcmp$121=strcmp(par_s, "on");
-                                  if(return_value_strcmp$121 == 0)
+                                  signed int return_value_strcmp_121;
+                                  return_value_strcmp_121=strcmp(par_s, "on");
+                                  if(return_value_strcmp_121 == 0)
                                   {
                                     g_free((void *)par_s);
-                                    tmp_if_expr$122 = 1;
+                                    tmp_if_expr_122 = 1;
                                   }
 
                                   else
-                                    tmp_if_expr$122 = 0;
-                                  if(!(tmp_if_expr$122 == 0))
+                                    tmp_if_expr_122 = 0;
+                                  if(!(tmp_if_expr_122 == 0))
                                     par = 1;
 
                                   else
                                   {
-                                    return_value_strcmp$119=strcmp(par_s, "off");
-                                    if(return_value_strcmp$119 == 0)
+                                    return_value_strcmp_119=strcmp(par_s, "off");
+                                    if(return_value_strcmp_119 == 0)
                                     {
                                       g_free((void *)par_s);
-                                      tmp_if_expr$120 = 1;
+                                      tmp_if_expr_120 = 1;
                                     }
 
                                     else
-                                      tmp_if_expr$120 = 0;
-                                    if(!(tmp_if_expr$120 == 0))
+                                      tmp_if_expr_120 = 0;
+                                    if(!(tmp_if_expr_120 == 0))
                                       par = 0;
 
                                     else
                                     {
                                       g_free((void *)par_s);
-                                      char *return_value_g_strdup$118;
-                                      return_value_g_strdup$118=g_strdup("514 ERR PARAMETER INVALID\r\n");
-                                      return return_value_g_strdup$118;
+                                      char *return_value_g_strdup_118;
+                                      return_value_g_strdup_118=g_strdup("514 ERR PARAMETER INVALID\r\n");
+                                      return return_value_g_strdup_118;
                                     }
                                   }
                                   ret=set_notification_self(fd, scope, par);
                                   g_free((void *)scope);
                                   if(!(ret == 0))
                                   {
-                                    return_value_g_strdup$123=g_strdup("316 ERR COULDNT SET NOTIFICATION\r\n");
-                                    return return_value_g_strdup$123;
+                                    return_value_g_strdup_123=g_strdup("316 ERR COULDNT SET NOTIFICATION\r\n");
+                                    return return_value_g_strdup_123;
                                   }
 
-                                  char *return_value_g_strdup$124;
-                                  return_value_g_strdup$124=g_strdup("220 OK NOTIFICATION SET\r\n");
-                                  return return_value_g_strdup$124;
+                                  char *return_value_g_strdup_124;
+                                  return_value_g_strdup_124=g_strdup("220 OK NOTIFICATION SET\r\n");
+                                  return return_value_g_strdup_124;
                                 }
 
                                 else
                                 {
                                   g_free((void *)set_sub);
-                                  char *return_value_g_strdup$125;
-                                  return_value_g_strdup$125=g_strdup("514 ERR PARAMETER INVALID\r\n");
-                                  return return_value_g_strdup$125;
+                                  char *return_value_g_strdup_125;
+                                  return_value_g_strdup_125=g_strdup("514 ERR PARAMETER INVALID\r\n");
+                                  return return_value_g_strdup_125;
                                 }
                               }
                             }
@@ -10271,23 +10271,23 @@ char * parse_set(const char *buf, const signed int bytes, const signed int fd, c
       }
     }
   }
-  char *return_value_g_strdup$155;
-  return_value_g_strdup$155=g_strdup("500 ERR INVALID COMMAND\r\n");
-  return return_value_g_strdup$155;
+  char *return_value_g_strdup_155;
+  return_value_g_strdup_155=g_strdup("500 ERR INVALID COMMAND\r\n");
+  return return_value_g_strdup_155;
 }
 
 // parse_snd_icon
 // file parse.c line 794
-char * parse_snd_icon(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_snd_icon(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
-  char *return_value_parse_general_event$1;
-  return_value_parse_general_event$1=parse_general_event(buf, bytes, fd, speechd_socket, (enum anonymous$8)SPD_MSGTYPE_SOUND_ICON);
-  return return_value_parse_general_event$1;
+  char *return_value_parse_general_event_1;
+  return_value_parse_general_event_1=parse_general_event(buf, bytes, fd, speechd_socket, (enum anonymous_8)SPD_MSGTYPE_SOUND_ICON);
+  return return_value_parse_general_event_1;
 }
 
 // parse_stop
 // file parse.c line 612
-char * parse_stop(const char *buf, const signed int bytes, const signed int fd, const struct anonymous$0 *speechd_socket)
+char * parse_stop(const char *buf, const signed int bytes, const signed int fd, const struct anonymous_0 *speechd_socket)
 {
   signed int uid = 0;
   char *who_s;
@@ -10296,28 +10296,28 @@ char * parse_stop(const char *buf, const signed int bytes, const signed int fd, 
   if(who_s == ((char *)NULL))
   {
     MSG(4, "Missing parameter from client");
-    char *return_value_g_strdup$1;
-    return_value_g_strdup$1=g_strdup("510 ERR MISSING PARAMETER\r\n");
-    return return_value_g_strdup$1;
+    char *return_value_g_strdup_1;
+    return_value_g_strdup_1=g_strdup("510 ERR MISSING PARAMETER\r\n");
+    return return_value_g_strdup_1;
   }
 
-  signed int return_value_strcmp$8;
-  return_value_strcmp$8=strcmp(who_s, "all");
-  signed int tmp_if_expr$9;
-  if(return_value_strcmp$8 == 0)
+  signed int return_value_strcmp_8;
+  return_value_strcmp_8=strcmp(who_s, "all");
+  signed int tmp_if_expr_9;
+  if(return_value_strcmp_8 == 0)
   {
     g_free((void *)who_s);
-    tmp_if_expr$9 = 1;
+    tmp_if_expr_9 = 1;
   }
 
   else
-    tmp_if_expr$9 = 0;
-  signed int return_value_strcmp$6;
-  signed int tmp_if_expr$7;
-  char *return_value_g_strdup$2;
-  signed int return_value_isanum$5;
-  char *return_value_g_strdup$3;
-  if(!(tmp_if_expr$9 == 0))
+    tmp_if_expr_9 = 0;
+  signed int return_value_strcmp_6;
+  signed int tmp_if_expr_7;
+  char *return_value_g_strdup_2;
+  signed int return_value_isanum_5;
+  char *return_value_g_strdup_3;
+  if(!(tmp_if_expr_9 == 0))
   {
     pthread_mutex_lock(&element_free_mutex);
     speaking_stop_all();
@@ -10326,22 +10326,22 @@ char * parse_stop(const char *buf, const signed int bytes, const signed int fd, 
 
   else
   {
-    return_value_strcmp$6=strcmp(who_s, "self");
-    if(return_value_strcmp$6 == 0)
+    return_value_strcmp_6=strcmp(who_s, "self");
+    if(return_value_strcmp_6 == 0)
     {
       g_free((void *)who_s);
-      tmp_if_expr$7 = 1;
+      tmp_if_expr_7 = 1;
     }
 
     else
-      tmp_if_expr$7 = 0;
-    if(!(tmp_if_expr$7 == 0))
+      tmp_if_expr_7 = 0;
+    if(!(tmp_if_expr_7 == 0))
     {
       uid=get_client_uid_by_fd(fd);
       if(uid == 0)
       {
-        return_value_g_strdup$2=g_strdup("300 ERR INTERNAL\r\n");
-        return return_value_g_strdup$2;
+        return_value_g_strdup_2=g_strdup("300 ERR INTERNAL\r\n");
+        return return_value_g_strdup_2;
       }
 
       pthread_mutex_lock(&element_free_mutex);
@@ -10351,15 +10351,15 @@ char * parse_stop(const char *buf, const signed int bytes, const signed int fd, 
 
     else
     {
-      return_value_isanum$5=isanum(who_s);
-      if(!(return_value_isanum$5 == 0))
+      return_value_isanum_5=isanum(who_s);
+      if(!(return_value_isanum_5 == 0))
       {
         uid=atoi(who_s);
         g_free((void *)who_s);
         if(!(uid >= 1))
         {
-          return_value_g_strdup$3=g_strdup("406 ERR ID DOESNT EXIST\r\n");
-          return return_value_g_strdup$3;
+          return_value_g_strdup_3=g_strdup("406 ERR ID DOESNT EXIST\r\n");
+          return return_value_g_strdup_3;
         }
 
         pthread_mutex_lock(&element_free_mutex);
@@ -10370,28 +10370,28 @@ char * parse_stop(const char *buf, const signed int bytes, const signed int fd, 
       else
       {
         g_free((void *)who_s);
-        char *return_value_g_strdup$4;
-        return_value_g_strdup$4=g_strdup("514 ERR PARAMETER INVALID\r\n");
-        return return_value_g_strdup$4;
+        char *return_value_g_strdup_4;
+        return_value_g_strdup_4=g_strdup("514 ERR PARAMETER INVALID\r\n");
+        return return_value_g_strdup_4;
       }
     }
   }
-  char *return_value_g_strdup$10;
-  return_value_g_strdup$10=g_strdup("210 OK STOPPED\r\n");
-  return return_value_g_strdup$10;
+  char *return_value_g_strdup_10;
+  return_value_g_strdup_10=g_strdup("210 OK STOPPED\r\n");
+  return return_value_g_strdup_10;
 }
 
 // queue_message
 // file server.c line 68
-signed int queue_message(struct anonymous$7 *new, signed int fd, signed int history_flag, enum anonymous$8 type, signed int reparted)
+signed int queue_message(struct anonymous_7 *new, signed int fd, signed int history_flag, enum anonymous_8 type, signed int reparted)
 {
-  struct anonymous$11 *settings;
-  struct anonymous$7 *message_copy;
+  struct anonymous_11 *settings;
+  struct anonymous_7 *message_copy;
   signed int id;
   struct _GList *element;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  if(new == ((struct anonymous$7 *)NULL))
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  if(new == ((struct anonymous_7 *)NULL))
     return -1;
 
   else
@@ -10400,9 +10400,9 @@ signed int queue_message(struct anonymous$7 *new, signed int fd, signed int hist
 
     else
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(new->buf);
-      if(!(return_value_strlen$1 >= 1ul))
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(new->buf);
+      if(!(return_value_strlen_1 >= 1ul))
         return -1;
 
       else
@@ -10410,7 +10410,7 @@ signed int queue_message(struct anonymous$7 *new, signed int fd, signed int hist
         if(fd >= 1)
         {
           settings=get_client_settings_by_fd(fd);
-          if(settings == ((struct anonymous$11 *)NULL))
+          if(settings == ((struct anonymous_11 *)NULL))
           {
             fatal_error();
             MSG(-1, "Fatal error [%s:%d]:Couldn't find settings for active client, internal error.", (const void *)"server.c", 89);
@@ -10431,36 +10431,36 @@ signed int queue_message(struct anonymous$7 *new, signed int fd, signed int hist
           new->settings = *settings;
           new->settings.type = type;
           new->settings.index_mark = (char *)(void *)0;
-          char *return_value_g_strdup$2;
-          return_value_g_strdup$2=g_strdup(settings->client_name);
-          new->settings.client_name = (char *)return_value_g_strdup$2;
-          char *return_value_g_strdup$3;
-          return_value_g_strdup$3=g_strdup(settings->output_module);
-          new->settings.output_module = (char *)return_value_g_strdup$3;
-          char *return_value_g_strdup$4;
-          return_value_g_strdup$4=g_strdup(settings->msg_settings.voice.language);
-          new->settings.msg_settings.voice.language = (char *)return_value_g_strdup$4;
-          char *return_value_g_strdup$5;
-          return_value_g_strdup$5=g_strdup(settings->msg_settings.voice.name);
-          new->settings.msg_settings.voice.name = (char *)return_value_g_strdup$5;
-          char *return_value_g_strdup$6;
-          return_value_g_strdup$6=g_strdup(settings->index_mark);
-          new->settings.index_mark = (char *)return_value_g_strdup$6;
-          char *return_value_g_strdup$7;
-          return_value_g_strdup$7=g_strdup(settings->audio_output_method);
-          new->settings.audio_output_method = (char *)return_value_g_strdup$7;
-          char *return_value_g_strdup$8;
-          return_value_g_strdup$8=g_strdup(settings->audio_oss_device);
-          new->settings.audio_oss_device = (char *)return_value_g_strdup$8;
-          char *return_value_g_strdup$9;
-          return_value_g_strdup$9=g_strdup(settings->audio_alsa_device);
-          new->settings.audio_alsa_device = (char *)return_value_g_strdup$9;
-          char *return_value_g_strdup$10;
-          return_value_g_strdup$10=g_strdup(settings->audio_nas_server);
-          new->settings.audio_nas_server = (char *)return_value_g_strdup$10;
-          char *return_value_g_strdup$11;
-          return_value_g_strdup$11=g_strdup(settings->audio_pulse_server);
-          new->settings.audio_pulse_server = (char *)return_value_g_strdup$11;
+          char *return_value_g_strdup_2;
+          return_value_g_strdup_2=g_strdup(settings->client_name);
+          new->settings.client_name = (char *)return_value_g_strdup_2;
+          char *return_value_g_strdup_3;
+          return_value_g_strdup_3=g_strdup(settings->output_module);
+          new->settings.output_module = (char *)return_value_g_strdup_3;
+          char *return_value_g_strdup_4;
+          return_value_g_strdup_4=g_strdup(settings->msg_settings.voice.language);
+          new->settings.msg_settings.voice.language = (char *)return_value_g_strdup_4;
+          char *return_value_g_strdup_5;
+          return_value_g_strdup_5=g_strdup(settings->msg_settings.voice.name);
+          new->settings.msg_settings.voice.name = (char *)return_value_g_strdup_5;
+          char *return_value_g_strdup_6;
+          return_value_g_strdup_6=g_strdup(settings->index_mark);
+          new->settings.index_mark = (char *)return_value_g_strdup_6;
+          char *return_value_g_strdup_7;
+          return_value_g_strdup_7=g_strdup(settings->audio_output_method);
+          new->settings.audio_output_method = (char *)return_value_g_strdup_7;
+          char *return_value_g_strdup_8;
+          return_value_g_strdup_8=g_strdup(settings->audio_oss_device);
+          new->settings.audio_oss_device = (char *)return_value_g_strdup_8;
+          char *return_value_g_strdup_9;
+          return_value_g_strdup_9=g_strdup(settings->audio_alsa_device);
+          new->settings.audio_alsa_device = (char *)return_value_g_strdup_9;
+          char *return_value_g_strdup_10;
+          return_value_g_strdup_10=g_strdup(settings->audio_nas_server);
+          new->settings.audio_nas_server = (char *)return_value_g_strdup_10;
+          char *return_value_g_strdup_11;
+          return_value_g_strdup_11=g_strdup(settings->audio_pulse_server);
+          new->settings.audio_pulse_server = (char *)return_value_g_strdup_11;
           last_message_id = last_message_id + 1;
           new->id = (unsigned int)last_message_id;
           new->time=time((signed long int *)(void *)0);
@@ -10499,16 +10499,16 @@ signed int queue_message(struct anonymous$7 *new, signed int fd, signed int hist
             MessageQueue->p5=g_list_append(MessageQueue->p5, (void *)new);
             element=g_list_last(last_p5_block);
             if(element == ((struct _GList *)NULL))
-              tmp_if_expr$12 = (_Bool)1;
+              tmp_if_expr_12 = (_Bool)1;
 
             else
-              tmp_if_expr$12 = !(element->data != NULL) ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$12)
-              tmp_if_expr$13 = (_Bool)1;
+              tmp_if_expr_12 = !(element->data != NULL) ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_12)
+              tmp_if_expr_13 = (_Bool)1;
 
             else
-              tmp_if_expr$13 = ((struct anonymous$7 *)element->data)->settings.reparted != new->settings.reparted ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$13)
+              tmp_if_expr_13 = ((struct anonymous_7 *)element->data)->settings.reparted != new->settings.reparted ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_13)
             {
               g_list_foreach(last_p5_block, (void (*)(void *, void *))mem_free_message, (void *)0);
               g_list_free(last_p5_block);
@@ -10516,7 +10516,7 @@ signed int queue_message(struct anonymous$7 *new, signed int fd, signed int hist
             }
 
             message_copy=spd_message_copy(new);
-            if(!(message_copy == ((struct anonymous$7 *)NULL)))
+            if(!(message_copy == ((struct anonymous_7 *)NULL)))
               last_p5_block=g_list_append(last_p5_block, (void *)message_copy);
 
             break;
@@ -10541,30 +10541,30 @@ signed int queue_message(struct anonymous$7 *new, signed int fd, signed int hist
 // file speaking.c line 762
 struct _GList * queue_remove_message(struct _GList *queue, struct _GList *gl)
 {
-  struct anonymous$7 *msg;
+  struct anonymous_7 *msg;
   /* assertion gl != ((void *)0) */
   assert(gl != (struct _GList *)(void *)0);
   /* assertion gl->data != ((void *)0) */
   assert(gl->data != (void *)0);
-  msg = (struct anonymous$7 *)gl->data;
+  msg = (struct anonymous_7 *)gl->data;
   if(!((SPD_CANCEL & (signed int)msg->settings.notification) == 0))
     report_cancel(msg);
 
-  mem_free_message((struct anonymous$7 *)gl->data);
+  mem_free_message((struct anonymous_7 *)gl->data);
   queue=g_list_delete_link(queue, gl);
   return queue;
 }
 
 // reload_message
 // file speaking.c line 304
-signed int reload_message(struct anonymous$7 *msg)
+signed int reload_message(struct anonymous_7 *msg)
 {
-  struct anonymous$11 *client_settings;
+  struct anonymous_11 *client_settings;
   signed int im;
   char *pos;
   char *newtext;
   char *tptr;
-  if(msg == ((struct anonymous$7 *)NULL))
+  if(msg == ((struct anonymous_7 *)NULL))
   {
     MSG(4, "Warning: msg == NULL in reload_message()");
     return -1;
@@ -10577,9 +10577,9 @@ signed int reload_message(struct anonymous$7 *msg)
       MSG(5, "Recovering index mark %s", msg->settings.index_mark);
       client_settings=get_client_settings_by_uid((signed int)msg->settings.uid);
       MSG(5, "Recovering index mark (number)");
-      signed long int return_value_strtol$1;
-      return_value_strtol$1=strtol(msg->settings.index_mark + (signed long int)6, &tptr, 10);
-      im = (signed int)return_value_strtol$1;
+      signed long int return_value_strtol_1;
+      return_value_strtol_1=strtol(msg->settings.index_mark + (signed long int)6, &tptr, 10);
+      im = (signed int)return_value_strtol_1;
       MSG(5, "Recovering index mark (comparing tptr)");
       if(msg->settings.index_mark + 6l == tptr)
       {
@@ -10609,12 +10609,12 @@ signed int reload_message(struct anonymous$7 *msg)
         return -1;
 
       msg->buf = newtext;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(msg->buf);
-      msg->bytes = (signed int)return_value_strlen$2;
-      signed int return_value_queue_message$3;
-      return_value_queue_message$3=queue_message(msg, (signed int)-msg->settings.uid, 0, (enum anonymous$8)SPD_MSGTYPE_TEXT, 0);
-      if(return_value_queue_message$3 == 0)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(msg->buf);
+      msg->bytes = (signed int)return_value_strlen_2;
+      signed int return_value_queue_message_3;
+      return_value_queue_message_3=queue_message(msg, (signed int)-msg->settings.uid, 0, (enum anonymous_8)SPD_MSGTYPE_TEXT, 0);
+      if(return_value_queue_message_3 == 0)
       {
         g_free((void *)msg->buf);
         g_free((void *)msg);
@@ -10627,9 +10627,9 @@ signed int reload_message(struct anonymous$7 *msg)
     else
     {
       MSG(5, "Index mark unknown, inserting the whole message.");
-      signed int return_value_queue_message$4;
-      return_value_queue_message$4=queue_message(msg, (signed int)-msg->settings.uid, 0, (enum anonymous$8)SPD_MSGTYPE_TEXT, 0);
-      if(return_value_queue_message$4 == 0)
+      signed int return_value_queue_message_4;
+      return_value_queue_message_4=queue_message(msg, (signed int)-msg->settings.uid, 0, (enum anonymous_8)SPD_MSGTYPE_TEXT, 0);
+      if(return_value_queue_message_4 == 0)
       {
         g_free((void *)msg->buf);
         g_free((void *)msg);
@@ -10644,12 +10644,12 @@ signed int reload_message(struct anonymous$7 *msg)
 
 // reload_output_module
 // file module.h line 48
-signed int reload_output_module(struct anonymous$10 *old_module)
+signed int reload_output_module(struct anonymous_10 *old_module)
 {
-  struct anonymous$10 *new_module;
+  struct anonymous_10 *new_module;
   signed int pos;
   /* assertion old_module != ((void *)0) */
-  assert(old_module != (struct anonymous$10 *)(void *)0);
+  assert(old_module != (struct anonymous_10 *)(void *)0);
   /* assertion old_module->name != ((void *)0) */
   assert(old_module->name != (char *)(void *)0);
   if(!(old_module->working == 0))
@@ -10662,7 +10662,7 @@ signed int reload_output_module(struct anonymous$10 *old_module)
     close(old_module->pipe_in[(signed long int)1]);
     close(old_module->pipe_out[(signed long int)0]);
     new_module=load_output_module(old_module->name, old_module->filename, old_module->configfilename, old_module->debugfilename);
-    if(new_module == ((struct anonymous$10 *)NULL))
+    if(new_module == ((struct anonymous_10 *)NULL))
     {
       MSG(3, "Can't load module %s while reloading modules.", old_module->name);
       return -1;
@@ -10683,13 +10683,13 @@ signed int reload_output_module(struct anonymous$10 *old_module)
 // file set.c line 556
 void remove_client_settings_by_uid(signed int uid)
 {
-  struct anonymous$11 *element;
+  struct anonymous_11 *element;
   /* assertion uid > 0 */
   assert(uid > 0);
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(fd_settings, (const void *)&uid);
-  element = (struct anonymous$11 *)return_value_g_hash_table_lookup$1;
-  if(!(element == ((struct anonymous$11 *)NULL)))
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(fd_settings, (const void *)&uid);
+  element = (struct anonymous_11 *)return_value_g_hash_table_lookup_1;
+  if(!(element == ((struct anonymous_11 *)NULL)))
   {
     mem_free_fdset(element);
     g_hash_table_remove(fd_settings, (const void *)&uid);
@@ -10702,7 +10702,7 @@ void remove_client_settings_by_uid(signed int uid)
 
 // report_begin
 // file speaking.c line 655
-signed int report_begin(struct anonymous$7 *msg)
+signed int report_begin(struct anonymous_7 *msg)
 {
   char *cmd;
   signed int ret;
@@ -10723,7 +10723,7 @@ signed int report_begin(struct anonymous$7 *msg)
 
 // report_cancel
 // file speaking.c line 659
-signed int report_cancel(struct anonymous$7 *msg)
+signed int report_cancel(struct anonymous_7 *msg)
 {
   char *cmd;
   signed int ret;
@@ -10744,7 +10744,7 @@ signed int report_cancel(struct anonymous$7 *msg)
 
 // report_end
 // file speaking.c line 656
-signed int report_end(struct anonymous$7 *msg)
+signed int report_end(struct anonymous_7 *msg)
 {
   char *cmd;
   signed int ret;
@@ -10765,7 +10765,7 @@ signed int report_end(struct anonymous$7 *msg)
 
 // report_index_mark
 // file speaking.c line 619
-signed int report_index_mark(struct anonymous$7 *msg, char *index_mark)
+signed int report_index_mark(struct anonymous_7 *msg, char *index_mark)
 {
   char *cmd;
   signed int ret;
@@ -10786,7 +10786,7 @@ signed int report_index_mark(struct anonymous$7 *msg, char *index_mark)
 
 // report_pause
 // file speaking.c line 657
-signed int report_pause(struct anonymous$7 *msg)
+signed int report_pause(struct anonymous_7 *msg)
 {
   char *cmd;
   signed int ret;
@@ -10807,7 +10807,7 @@ signed int report_pause(struct anonymous$7 *msg)
 
 // report_resume
 // file speaking.c line 658
-signed int report_resume(struct anonymous$7 *msg)
+signed int report_resume(struct anonymous_7 *msg)
 {
   char *cmd;
   signed int ret;
@@ -10828,15 +10828,15 @@ signed int report_resume(struct anonymous$7 *msg)
 
 // resolve_priorities
 // file speaking.h line 82
-void resolve_priorities(enum anonymous$9 priority)
+void resolve_priorities(enum anonymous_9 priority)
 {
   if((signed int)priority == SPD_IMPORTANT)
   {
     if(!(SPEAKING == 0) && !((signed int)highest_priority == SPD_IMPORTANT))
       output_stop();
 
-    stop_priority((enum anonymous$9)SPD_NOTIFICATION);
-    stop_priority((enum anonymous$9)SPD_PROGRESS);
+    stop_priority((enum anonymous_9)SPD_NOTIFICATION);
+    stop_priority((enum anonymous_9)SPD_PROGRESS);
   }
 
   if((signed int)priority == SPD_MESSAGE)
@@ -10844,29 +10844,29 @@ void resolve_priorities(enum anonymous$9 priority)
     if(!(SPEAKING == 0) && !((signed int)highest_priority == SPD_IMPORTANT) && !((signed int)highest_priority == SPD_MESSAGE))
       output_stop();
 
-    stop_priority((enum anonymous$9)SPD_TEXT);
-    stop_priority((enum anonymous$9)SPD_NOTIFICATION);
-    stop_priority((enum anonymous$9)SPD_PROGRESS);
+    stop_priority((enum anonymous_9)SPD_TEXT);
+    stop_priority((enum anonymous_9)SPD_NOTIFICATION);
+    stop_priority((enum anonymous_9)SPD_PROGRESS);
   }
 
   if((signed int)priority == SPD_TEXT)
   {
-    stop_priority_except_first((enum anonymous$9)SPD_TEXT);
-    stop_priority((enum anonymous$9)SPD_NOTIFICATION);
-    stop_priority((enum anonymous$9)SPD_PROGRESS);
+    stop_priority_except_first((enum anonymous_9)SPD_TEXT);
+    stop_priority((enum anonymous_9)SPD_NOTIFICATION);
+    stop_priority((enum anonymous_9)SPD_PROGRESS);
   }
 
   if((signed int)priority == SPD_NOTIFICATION)
   {
-    stop_priority_except_first((enum anonymous$9)SPD_NOTIFICATION);
+    stop_priority_except_first((enum anonymous_9)SPD_NOTIFICATION);
     if(!(SPEAKING == 0) && !((signed int)highest_priority == SPD_NOTIFICATION))
-      stop_priority((enum anonymous$9)SPD_NOTIFICATION);
+      stop_priority((enum anonymous_9)SPD_NOTIFICATION);
 
   }
 
   if((signed int)priority == SPD_PROGRESS)
   {
-    stop_priority((enum anonymous$9)SPD_NOTIFICATION);
+    stop_priority((enum anonymous_9)SPD_NOTIFICATION);
     if(!(SPEAKING == 0))
     {
       struct _GList *gl;
@@ -10898,15 +10898,15 @@ signed int serve(signed int fd)
   unsigned long int bytes = (unsigned long int)0;
   signed int buflen = 128;
   char *buf;
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc((unsigned long int)(buflen + 1));
-  buf = (char *)return_value_g_malloc$1;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc((unsigned long int)(buflen + 1));
+  buf = (char *)return_value_g_malloc_1;
   while((_Bool)1)
   {
     signed int n;
-    signed long int return_value_read$2;
-    return_value_read$2=read(fd, (void *)(buf + (signed long int)bytes), (unsigned long int)1);
-    n = (signed int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read(fd, (void *)(buf + (signed long int)bytes), (unsigned long int)1);
+    n = (signed int)return_value_read_2;
     if(!(n >= 1))
     {
       g_free((void *)buf);
@@ -10935,9 +10935,9 @@ signed int serve(signed int fd)
     if(bytes == (unsigned long int)buflen)
     {
       buflen = buflen * 2;
-      void *return_value_g_realloc$3;
-      return_value_g_realloc$3=g_realloc((void *)buf, (unsigned long int)(buflen + 1));
-      buf = (char *)return_value_g_realloc$3;
+      void *return_value_g_realloc_3;
+      return_value_g_realloc_3=g_realloc((void *)buf, (unsigned long int)(buflen + 1));
+      buf = (char *)return_value_g_realloc_3;
     }
 
   }
@@ -10951,9 +10951,9 @@ signed int serve(signed int fd)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(reply);
-  if(return_value_strlen$4 == 0ul)
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(reply);
+  if(return_value_strlen_4 == 0ul)
   {
     g_free((void *)reply);
     return 0;
@@ -10965,20 +10965,20 @@ signed int serve(signed int fd)
     {
       pthread_mutex_lock(&socket_com_mutex);
       MSG2(5, "protocol", "%d:REPLY:|%s|", fd, reply);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(reply);
-      signed long int return_value_write$6;
-      return_value_write$6=write(fd, (const void *)reply, return_value_strlen$5);
-      ret = (signed int)return_value_write$6;
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(reply);
+      signed long int return_value_write_6;
+      return_value_write_6=write(fd, (const void *)reply, return_value_strlen_5);
+      ret = (signed int)return_value_write_6;
       g_free((void *)reply);
       pthread_mutex_unlock(&socket_com_mutex);
       if(ret == -1)
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        MSG(5, "write() error: %s", return_value_strerror$8);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        MSG(5, "write() error: %s", return_value_strerror_8);
         return -1;
       }
 
@@ -10994,10 +10994,10 @@ signed int serve(signed int fd)
 // file server.c line 216
 void server_data_off(signed int fd)
 {
-  struct anonymous$0 *speechd_socket;
+  struct anonymous_0 *speechd_socket;
   speechd_socket=speechd_socket_get_by_fd(fd);
   /* assertion speechd_socket */
-  assert(speechd_socket != ((struct anonymous$0 *)NULL));
+  assert(speechd_socket != ((struct anonymous_0 *)NULL));
   /* assertion speechd_socket->o_buf */
   assert(speechd_socket->o_buf != ((struct _GString *)NULL));
   speechd_socket->o_bytes = (unsigned long int)0;
@@ -11009,10 +11009,10 @@ void server_data_off(signed int fd)
 // file server.c line 203
 signed int server_data_on(signed int fd)
 {
-  struct anonymous$0 *speechd_socket;
+  struct anonymous_0 *speechd_socket;
   speechd_socket=speechd_socket_get_by_fd(fd);
   /* assertion speechd_socket */
-  assert(speechd_socket != ((struct anonymous$0 *)NULL));
+  assert(speechd_socket != ((struct anonymous_0 *)NULL));
   speechd_socket->awaiting_data = 1;
   speechd_socket->o_buf=g_string_new("");
   MSG(4, "Switching to data mode...");
@@ -11021,7 +11021,7 @@ signed int server_data_on(signed int fd)
 
 // set_capital_letter_recognition_all
 // file set.h line 87
-signed int set_capital_letter_recognition_all(enum anonymous$4 capital_letter_recognition)
+signed int set_capital_letter_recognition_all(enum anonymous_4 capital_letter_recognition)
 {
   signed int i;
   signed int uid;
@@ -11032,9 +11032,9 @@ signed int set_capital_letter_recognition_all(enum anonymous$4 capital_letter_re
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_capital_letter_recognition_uid$1;
-      return_value_set_capital_letter_recognition_uid$1=set_capital_letter_recognition_uid(uid, capital_letter_recognition);
-      err = err + return_value_set_capital_letter_recognition_uid$1;
+      signed int return_value_set_capital_letter_recognition_uid_1;
+      return_value_set_capital_letter_recognition_uid_1=set_capital_letter_recognition_uid(uid, capital_letter_recognition);
+      err = err + return_value_set_capital_letter_recognition_uid_1;
     }
 
   }
@@ -11047,7 +11047,7 @@ signed int set_capital_letter_recognition_all(enum anonymous$4 capital_letter_re
 
 // set_capital_letter_recognition_self
 // file set.h line 68
-signed int set_capital_letter_recognition_self(signed int fd, enum anonymous$4 capital_letter_recognition)
+signed int set_capital_letter_recognition_self(signed int fd, enum anonymous_4 capital_letter_recognition)
 {
   signed int uid;
   uid=get_client_uid_by_fd(fd);
@@ -11056,19 +11056,19 @@ signed int set_capital_letter_recognition_self(signed int fd, enum anonymous$4 c
 
   else
   {
-    signed int return_value_set_capital_letter_recognition_uid$1;
-    return_value_set_capital_letter_recognition_uid$1=set_capital_letter_recognition_uid(uid, capital_letter_recognition);
-    return return_value_set_capital_letter_recognition_uid$1;
+    signed int return_value_set_capital_letter_recognition_uid_1;
+    return_value_set_capital_letter_recognition_uid_1=set_capital_letter_recognition_uid(uid, capital_letter_recognition);
+    return return_value_set_capital_letter_recognition_uid_1;
   }
 }
 
 // set_capital_letter_recognition_uid
 // file set.h line 48
-signed int set_capital_letter_recognition_uid(signed int uid, enum anonymous$4 recogn)
+signed int set_capital_letter_recognition_uid(signed int uid, enum anonymous_4 recogn)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_uid(uid);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
@@ -11082,14 +11082,14 @@ signed int set_capital_letter_recognition_uid(signed int uid, enum anonymous$4 r
 // file set.h line 64
 signed int set_client_name_self(signed int fd, char *client_name)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   signed int dividers = 0;
   signed int i;
   /* assertion client_name != ((void *)0) */
   assert(client_name != (char *)(void *)0);
   settings=get_client_settings_by_fd(fd);
-  unsigned long int return_value_strlen$1;
-  if(settings == ((struct anonymous$11 *)NULL))
+  unsigned long int return_value_strlen_1;
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
@@ -11097,8 +11097,8 @@ signed int set_client_name_self(signed int fd, char *client_name)
     i = 0;
     do
     {
-      return_value_strlen$1=strlen(client_name);
-      if(!(return_value_strlen$1 + 18446744073709551615ul >= (unsigned long int)i))
+      return_value_strlen_1=strlen(client_name);
+      if(!(return_value_strlen_1 + 18446744073709551615ul >= (unsigned long int)i))
         break;
 
       if((signed int)client_name[(signed long int)i] == 58)
@@ -11132,9 +11132,9 @@ signed int set_debug_all(signed int debug)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_debug_uid$1;
-      return_value_set_debug_uid$1=set_debug_uid(uid, debug);
-      err = err + return_value_set_debug_uid$1;
+      signed int return_value_set_debug_uid_1;
+      return_value_set_debug_uid_1=set_debug_uid(uid, debug);
+      err = err + return_value_set_debug_uid_1;
     }
 
   }
@@ -11156,9 +11156,9 @@ signed int set_debug_self(signed int fd, signed int debug)
 
   else
   {
-    signed int return_value_set_debug_uid$1;
-    return_value_set_debug_uid$1=set_debug_uid(uid, debug);
-    return return_value_set_debug_uid$1;
+    signed int return_value_set_debug_uid_1;
+    return_value_set_debug_uid_1=set_debug_uid(uid, debug);
+    return return_value_set_debug_uid_1;
   }
 }
 
@@ -11214,9 +11214,9 @@ signed int set_language_all(char *language)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_language_uid$1;
-      return_value_set_language_uid$1=set_language_uid(uid, language);
-      err = err + return_value_set_language_uid$1;
+      signed int return_value_set_language_uid_1;
+      return_value_set_language_uid_1=set_language_uid(uid, language);
+      err = err + return_value_set_language_uid_1;
     }
 
   }
@@ -11238,9 +11238,9 @@ signed int set_language_self(signed int fd, char *language)
 
   else
   {
-    signed int return_value_set_language_uid$1;
-    return_value_set_language_uid$1=set_language_uid(uid, language);
-    return return_value_set_language_uid$1;
+    signed int return_value_set_language_uid_1;
+    return_value_set_language_uid_1=set_language_uid(uid, language);
+    return return_value_set_language_uid_1;
   }
 }
 
@@ -11248,18 +11248,18 @@ signed int set_language_self(signed int fd, char *language)
 // file set.h line 37
 signed int set_language_uid(signed int uid, char *language)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   char *output_module;
   settings=get_client_settings_by_uid(uid);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
   {
     settings->msg_settings.voice.language=set_param_str(settings->msg_settings.voice.language, language);
-    void *return_value_g_hash_table_lookup$1;
-    return_value_g_hash_table_lookup$1=g_hash_table_lookup(language_default_modules, (const void *)language);
-    output_module = (char *)return_value_g_hash_table_lookup$1;
+    void *return_value_g_hash_table_lookup_1;
+    return_value_g_hash_table_lookup_1=g_hash_table_lookup(language_default_modules, (const void *)language);
+    output_module = (char *)return_value_g_hash_table_lookup_1;
     if(!(output_module == ((char *)NULL)))
       set_output_module_uid(uid, output_module);
 
@@ -11271,132 +11271,132 @@ signed int set_language_uid(signed int uid, char *language)
 // file set.h line 70
 signed int set_notification_self(signed int fd, char *type, signed int val)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   signed int uid;
   uid=get_client_uid_by_fd(fd);
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
   if(uid == 0)
     return 1;
 
   else
   {
     settings=get_client_settings_by_uid(uid);
-    if(settings == ((struct anonymous$11 *)NULL))
+    if(settings == ((struct anonymous_11 *)NULL))
       return 1;
 
     else
     {
-      signed int return_value_strcmp$7;
-      return_value_strcmp$7=strcmp(type, "begin");
-      if(return_value_strcmp$7 == 0)
+      signed int return_value_strcmp_7;
+      return_value_strcmp_7=strcmp(type, "begin");
+      if(return_value_strcmp_7 == 0)
       {
         if(!(val == 0))
-          settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_BEGIN);
+          settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_BEGIN);
 
         else
-          settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_BEGIN != 0));
+          settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_BEGIN != 0));
       }
 
       else
       {
-        return_value_strcmp$6=strcmp(type, "end");
-        if(return_value_strcmp$6 == 0)
+        return_value_strcmp_6=strcmp(type, "end");
+        if(return_value_strcmp_6 == 0)
         {
           if(!(val == 0))
-            settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_END);
+            settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_END);
 
           else
-            settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_END != 0));
+            settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_END != 0));
         }
 
         else
         {
-          return_value_strcmp$5=strcmp(type, "index_marks");
-          if(return_value_strcmp$5 == 0)
+          return_value_strcmp_5=strcmp(type, "index_marks");
+          if(return_value_strcmp_5 == 0)
           {
             if(!(val == 0))
-              settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_INDEX_MARKS);
+              settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_INDEX_MARKS);
 
             else
-              settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_INDEX_MARKS != 0));
+              settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_INDEX_MARKS != 0));
           }
 
           else
           {
-            return_value_strcmp$4=strcmp(type, "pause");
-            if(return_value_strcmp$4 == 0)
+            return_value_strcmp_4=strcmp(type, "pause");
+            if(return_value_strcmp_4 == 0)
             {
               if(!(val == 0))
-                settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_PAUSE);
+                settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_PAUSE);
 
               else
-                settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_PAUSE != 0));
+                settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_PAUSE != 0));
             }
 
             else
             {
-              return_value_strcmp$3=strcmp(type, "resume");
-              if(return_value_strcmp$3 == 0)
+              return_value_strcmp_3=strcmp(type, "resume");
+              if(return_value_strcmp_3 == 0)
               {
                 if(!(val == 0))
-                  settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_RESUME);
+                  settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_RESUME);
 
                 else
-                  settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_RESUME != 0));
+                  settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_RESUME != 0));
               }
 
               else
               {
-                return_value_strcmp$2=strcmp(type, "cancel");
-                if(return_value_strcmp$2 == 0)
+                return_value_strcmp_2=strcmp(type, "cancel");
+                if(return_value_strcmp_2 == 0)
                 {
                   if(!(val == 0))
-                    settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_CANCEL);
+                    settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_CANCEL);
 
                   else
-                    settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_CANCEL != 0));
+                    settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_CANCEL != 0));
                 }
 
                 else
                 {
-                  return_value_strcmp$1=strcmp(type, "all");
-                  if(return_value_strcmp$1 == 0)
+                  return_value_strcmp_1=strcmp(type, "all");
+                  if(return_value_strcmp_1 == 0)
                   {
                     if(!(val == 0))
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_END);
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_END);
 
                     else
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_END != 0));
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_END != 0));
                     if(!(val == 0))
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_BEGIN);
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_BEGIN);
 
                     else
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_BEGIN != 0));
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_BEGIN != 0));
                     if(!(val == 0))
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_INDEX_MARKS);
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_INDEX_MARKS);
 
                     else
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_INDEX_MARKS != 0));
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_INDEX_MARKS != 0));
                     if(!(val == 0))
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_CANCEL);
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_CANCEL);
 
                     else
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_CANCEL != 0));
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_CANCEL != 0));
                     if(!(val == 0))
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_PAUSE);
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_PAUSE);
 
                     else
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_PAUSE != 0));
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_PAUSE != 0));
                     if(!(val == 0))
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification | SPD_RESUME);
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification | SPD_RESUME);
 
                     else
-                      settings->notification = (enum anonymous$17)((signed int)settings->notification & (signed int)!(SPD_RESUME != 0));
+                      settings->notification = (enum anonymous_17)((signed int)settings->notification & (signed int)!(SPD_RESUME != 0));
                   }
 
                   else
@@ -11425,9 +11425,9 @@ signed int set_output_module_all(char *output_module)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_output_module_uid$1;
-      return_value_set_output_module_uid$1=set_output_module_uid(uid, output_module);
-      err = err + return_value_set_output_module_uid$1;
+      signed int return_value_set_output_module_uid_1;
+      return_value_set_output_module_uid_1=set_output_module_uid(uid, output_module);
+      err = err + return_value_set_output_module_uid_1;
     }
 
   }
@@ -11449,9 +11449,9 @@ signed int set_output_module_self(signed int fd, char *output_module)
 
   else
   {
-    signed int return_value_set_output_module_uid$1;
-    return_value_set_output_module_uid$1=set_output_module_uid(uid, output_module);
-    return return_value_set_output_module_uid$1;
+    signed int return_value_set_output_module_uid_1;
+    return_value_set_output_module_uid_1=set_output_module_uid(uid, output_module);
+    return return_value_set_output_module_uid_1;
   }
 }
 
@@ -11459,9 +11459,9 @@ signed int set_output_module_self(signed int fd, char *output_module)
 // file set.h line 49
 signed int set_output_module_uid(signed int uid, char *output_module)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_uid(uid);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
@@ -11496,11 +11496,11 @@ char * set_param_str(char *parameter, char *value)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(value);
-    void *return_value_g_realloc$2;
-    return_value_g_realloc$2=g_realloc((void *)parameter, (return_value_strlen$1 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
-    new = (char *)return_value_g_realloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(value);
+    void *return_value_g_realloc_2;
+    return_value_g_realloc_2=g_realloc((void *)parameter, (return_value_strlen_1 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+    new = (char *)return_value_g_realloc_2;
     strcpy(new, value);
     return new;
   }
@@ -11519,9 +11519,9 @@ signed int set_pause_context_all(signed int pause_context)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_pause_context_uid$1;
-      return_value_set_pause_context_uid$1=set_pause_context_uid(uid, pause_context);
-      err = err + return_value_set_pause_context_uid$1;
+      signed int return_value_set_pause_context_uid_1;
+      return_value_set_pause_context_uid_1=set_pause_context_uid(uid, pause_context);
+      err = err + return_value_set_pause_context_uid_1;
     }
 
   }
@@ -11543,9 +11543,9 @@ signed int set_pause_context_self(signed int fd, signed int pause_context)
 
   else
   {
-    signed int return_value_set_pause_context_uid$1;
-    return_value_set_pause_context_uid$1=set_pause_context_uid(uid, pause_context);
-    return return_value_set_pause_context_uid$1;
+    signed int return_value_set_pause_context_uid_1;
+    return_value_set_pause_context_uid_1=set_pause_context_uid(uid, pause_context);
+    return return_value_set_pause_context_uid_1;
   }
 }
 
@@ -11553,9 +11553,9 @@ signed int set_pause_context_self(signed int fd, signed int pause_context)
 // file set.h line 51
 signed int set_pause_context_uid(signed int uid, signed int pause_context)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_uid(uid);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
@@ -11578,9 +11578,9 @@ signed int set_pitch_all(signed int pitch)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_pitch_uid$1;
-      return_value_set_pitch_uid$1=set_pitch_uid(uid, pitch);
-      err = err + return_value_set_pitch_uid$1;
+      signed int return_value_set_pitch_uid_1;
+      return_value_set_pitch_uid_1=set_pitch_uid(uid, pitch);
+      err = err + return_value_set_pitch_uid_1;
     }
 
   }
@@ -11602,9 +11602,9 @@ signed int set_pitch_self(signed int fd, signed int pitch)
 
   else
   {
-    signed int return_value_set_pitch_uid$1;
-    return_value_set_pitch_uid$1=set_pitch_uid(uid, pitch);
-    return return_value_set_pitch_uid$1;
+    signed int return_value_set_pitch_uid_1;
+    return_value_set_pitch_uid_1=set_pitch_uid(uid, pitch);
+    return return_value_set_pitch_uid_1;
   }
 }
 
@@ -11612,14 +11612,14 @@ signed int set_pitch_self(signed int fd, signed int pitch)
 // file set.h line 39
 signed int set_pitch_uid(signed int uid, signed int pitch)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   if(pitch >= 101 || !(pitch >= -100))
     return 1;
 
   else
   {
     settings=get_client_settings_by_uid(uid);
-    if(settings == ((struct anonymous$11 *)NULL))
+    if(settings == ((struct anonymous_11 *)NULL))
       return 1;
 
     else
@@ -11632,7 +11632,7 @@ signed int set_pitch_uid(signed int uid, signed int pitch)
 
 // set_priority_self
 // file set.h line 55
-signed int set_priority_self(signed int fd, enum anonymous$9 priority)
+signed int set_priority_self(signed int fd, enum anonymous_9 priority)
 {
   signed int uid;
   signed int ret;
@@ -11649,16 +11649,16 @@ signed int set_priority_self(signed int fd, enum anonymous$9 priority)
 
 // set_priority_uid
 // file set.c line 53
-signed int set_priority_uid(signed int uid, enum anonymous$9 priority)
+signed int set_priority_uid(signed int uid, enum anonymous_9 priority)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   if((signed int)priority >= 6 || !((signed int)priority >= SPD_IMPORTANT))
     return 1;
 
   else
   {
     settings=get_client_settings_by_uid(uid);
-    if(settings == ((struct anonymous$11 *)NULL))
+    if(settings == ((struct anonymous_11 *)NULL))
       return 1;
 
     else
@@ -11671,7 +11671,7 @@ signed int set_priority_uid(signed int uid, enum anonymous$9 priority)
 
 // set_punctuation_mode_all
 // file set.h line 86
-signed int set_punctuation_mode_all(enum anonymous$2 punctuation_mode)
+signed int set_punctuation_mode_all(enum anonymous_2 punctuation_mode)
 {
   signed int i;
   signed int uid;
@@ -11682,9 +11682,9 @@ signed int set_punctuation_mode_all(enum anonymous$2 punctuation_mode)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_punctuation_mode_uid$1;
-      return_value_set_punctuation_mode_uid$1=set_punctuation_mode_uid(uid, punctuation_mode);
-      err = err + return_value_set_punctuation_mode_uid$1;
+      signed int return_value_set_punctuation_mode_uid_1;
+      return_value_set_punctuation_mode_uid_1=set_punctuation_mode_uid(uid, punctuation_mode);
+      err = err + return_value_set_punctuation_mode_uid_1;
     }
 
   }
@@ -11697,7 +11697,7 @@ signed int set_punctuation_mode_all(enum anonymous$2 punctuation_mode)
 
 // set_punctuation_mode_self
 // file set.h line 67
-signed int set_punctuation_mode_self(signed int fd, enum anonymous$2 punctuation_mode)
+signed int set_punctuation_mode_self(signed int fd, enum anonymous_2 punctuation_mode)
 {
   signed int uid;
   uid=get_client_uid_by_fd(fd);
@@ -11706,19 +11706,19 @@ signed int set_punctuation_mode_self(signed int fd, enum anonymous$2 punctuation
 
   else
   {
-    signed int return_value_set_punctuation_mode_uid$1;
-    return_value_set_punctuation_mode_uid$1=set_punctuation_mode_uid(uid, punctuation_mode);
-    return return_value_set_punctuation_mode_uid$1;
+    signed int return_value_set_punctuation_mode_uid_1;
+    return_value_set_punctuation_mode_uid_1=set_punctuation_mode_uid(uid, punctuation_mode);
+    return return_value_set_punctuation_mode_uid_1;
   }
 }
 
 // set_punctuation_mode_uid
 // file set.h line 47
-signed int set_punctuation_mode_uid(signed int uid, enum anonymous$2 punctuation)
+signed int set_punctuation_mode_uid(signed int uid, enum anonymous_2 punctuation)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_uid(uid);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
@@ -11741,9 +11741,9 @@ signed int set_rate_all(signed int rate)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_rate_uid$1;
-      return_value_set_rate_uid$1=set_rate_uid(uid, rate);
-      err = err + return_value_set_rate_uid$1;
+      signed int return_value_set_rate_uid_1;
+      return_value_set_rate_uid_1=set_rate_uid(uid, rate);
+      err = err + return_value_set_rate_uid_1;
     }
 
   }
@@ -11765,9 +11765,9 @@ signed int set_rate_self(signed int fd, signed int rate)
 
   else
   {
-    signed int return_value_set_rate_uid$1;
-    return_value_set_rate_uid$1=set_rate_uid(uid, rate);
-    return return_value_set_rate_uid$1;
+    signed int return_value_set_rate_uid_1;
+    return_value_set_rate_uid_1=set_rate_uid(uid, rate);
+    return return_value_set_rate_uid_1;
   }
 }
 
@@ -11775,14 +11775,14 @@ signed int set_rate_self(signed int fd, signed int rate)
 // file set.h line 38
 signed int set_rate_uid(signed int uid, signed int rate)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   if(rate >= 101 || !(rate >= -100))
     return 1;
 
   else
   {
     settings=get_client_settings_by_uid(uid);
-    if(settings == ((struct anonymous$11 *)NULL))
+    if(settings == ((struct anonymous_11 *)NULL))
       return 1;
 
     else
@@ -11798,11 +11798,11 @@ signed int set_rate_uid(signed int uid, signed int rate)
 void set_speak_thread_attributes()
 {
   signed int ret;
-  struct anonymous$30 all_signals;
+  struct anonymous_30 all_signals;
   ret=sigfillset(&all_signals);
   if(ret == 0)
   {
-    ret=pthread_sigmask(0, &all_signals, (struct anonymous$30 *)(void *)0);
+    ret=pthread_sigmask(0, &all_signals, (struct anonymous_30 *)(void *)0);
     if(!(ret == 0))
       MSG(1, "Can't set signal set, expect problems when terminating!");
 
@@ -11816,7 +11816,7 @@ void set_speak_thread_attributes()
 
 // set_spelling_all
 // file set.h line 82
-signed int set_spelling_all(enum anonymous$1 spelling)
+signed int set_spelling_all(enum anonymous_1 spelling)
 {
   signed int i;
   signed int uid;
@@ -11827,9 +11827,9 @@ signed int set_spelling_all(enum anonymous$1 spelling)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_spelling_uid$1;
-      return_value_set_spelling_uid$1=set_spelling_uid(uid, spelling);
-      err = err + return_value_set_spelling_uid$1;
+      signed int return_value_set_spelling_uid_1;
+      return_value_set_spelling_uid_1=set_spelling_uid(uid, spelling);
+      err = err + return_value_set_spelling_uid_1;
     }
 
   }
@@ -11842,7 +11842,7 @@ signed int set_spelling_all(enum anonymous$1 spelling)
 
 // set_spelling_self
 // file set.h line 62
-signed int set_spelling_self(signed int fd, enum anonymous$1 spelling)
+signed int set_spelling_self(signed int fd, enum anonymous_1 spelling)
 {
   signed int uid;
   uid=get_client_uid_by_fd(fd);
@@ -11851,21 +11851,21 @@ signed int set_spelling_self(signed int fd, enum anonymous$1 spelling)
 
   else
   {
-    signed int return_value_set_spelling_uid$1;
-    return_value_set_spelling_uid$1=set_spelling_uid(uid, spelling);
-    return return_value_set_spelling_uid$1;
+    signed int return_value_set_spelling_uid_1;
+    return_value_set_spelling_uid_1=set_spelling_uid(uid, spelling);
+    return return_value_set_spelling_uid_1;
   }
 }
 
 // set_spelling_uid
 // file set.h line 43
-signed int set_spelling_uid(signed int uid, enum anonymous$1 spelling)
+signed int set_spelling_uid(signed int uid, enum anonymous_1 spelling)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   /* assertion (spelling == 0) || (spelling == 1) */
   assert((signed int)spelling == 0 || (signed int)spelling == 1);
   settings=get_client_settings_by_uid(uid);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
@@ -11877,7 +11877,7 @@ signed int set_spelling_uid(signed int uid, enum anonymous$1 spelling)
 
 // set_ssml_mode_all
 // file set.h line 88
-signed int set_ssml_mode_all(enum anonymous$5 ssml_mode)
+signed int set_ssml_mode_all(enum anonymous_5 ssml_mode)
 {
   signed int i;
   signed int uid;
@@ -11888,9 +11888,9 @@ signed int set_ssml_mode_all(enum anonymous$5 ssml_mode)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_ssml_mode_uid$1;
-      return_value_set_ssml_mode_uid$1=set_ssml_mode_uid(uid, ssml_mode);
-      err = err + return_value_set_ssml_mode_uid$1;
+      signed int return_value_set_ssml_mode_uid_1;
+      return_value_set_ssml_mode_uid_1=set_ssml_mode_uid(uid, ssml_mode);
+      err = err + return_value_set_ssml_mode_uid_1;
     }
 
   }
@@ -11903,7 +11903,7 @@ signed int set_ssml_mode_all(enum anonymous$5 ssml_mode)
 
 // set_ssml_mode_self
 // file set.h line 69
-signed int set_ssml_mode_self(signed int fd, enum anonymous$5 ssml_mode)
+signed int set_ssml_mode_self(signed int fd, enum anonymous_5 ssml_mode)
 {
   signed int uid;
   uid=get_client_uid_by_fd(fd);
@@ -11912,19 +11912,19 @@ signed int set_ssml_mode_self(signed int fd, enum anonymous$5 ssml_mode)
 
   else
   {
-    signed int return_value_set_ssml_mode_uid$1;
-    return_value_set_ssml_mode_uid$1=set_ssml_mode_uid(uid, ssml_mode);
-    return return_value_set_ssml_mode_uid$1;
+    signed int return_value_set_ssml_mode_uid_1;
+    return_value_set_ssml_mode_uid_1=set_ssml_mode_uid(uid, ssml_mode);
+    return return_value_set_ssml_mode_uid_1;
   }
 }
 
 // set_ssml_mode_uid
 // file set.h line 50
-signed int set_ssml_mode_uid(signed int uid, enum anonymous$5 ssml_mode)
+signed int set_ssml_mode_uid(signed int uid, enum anonymous_5 ssml_mode)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_uid(uid);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
@@ -11947,9 +11947,9 @@ signed int set_synthesis_voice_all(char *synthesis_voice)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_synthesis_voice_uid$1;
-      return_value_set_synthesis_voice_uid$1=set_synthesis_voice_uid(uid, synthesis_voice);
-      err = err + return_value_set_synthesis_voice_uid$1;
+      signed int return_value_set_synthesis_voice_uid_1;
+      return_value_set_synthesis_voice_uid_1=set_synthesis_voice_uid(uid, synthesis_voice);
+      err = err + return_value_set_synthesis_voice_uid_1;
     }
 
   }
@@ -11971,9 +11971,9 @@ signed int set_synthesis_voice_self(signed int fd, char *synthesis_voice)
 
   else
   {
-    signed int return_value_set_synthesis_voice_uid$1;
-    return_value_set_synthesis_voice_uid$1=set_synthesis_voice_uid(uid, synthesis_voice);
-    return return_value_set_synthesis_voice_uid$1;
+    signed int return_value_set_synthesis_voice_uid_1;
+    return_value_set_synthesis_voice_uid_1=set_synthesis_voice_uid(uid, synthesis_voice);
+    return return_value_set_synthesis_voice_uid_1;
   }
 }
 
@@ -11981,15 +11981,15 @@ signed int set_synthesis_voice_self(signed int fd, char *synthesis_voice)
 // file set.h line 46
 signed int set_synthesis_voice_uid(signed int uid, char *synthesis_voice)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_uid(uid);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
   {
     settings->msg_settings.voice.name=set_param_str(settings->msg_settings.voice.name, synthesis_voice);
-    settings->msg_settings.voice_type = (enum anonymous$27)-1;
+    settings->msg_settings.voice_type = (enum anonymous_27)-1;
     return 0;
   }
 }
@@ -12007,9 +12007,9 @@ signed int set_voice_all(char *voice)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_voice_uid$1;
-      return_value_set_voice_uid$1=set_voice_uid(uid, voice);
-      err = err + return_value_set_voice_uid$1;
+      signed int return_value_set_voice_uid_1;
+      return_value_set_voice_uid_1=set_voice_uid(uid, voice);
+      err = err + return_value_set_voice_uid_1;
     }
 
   }
@@ -12031,9 +12031,9 @@ signed int set_voice_self(signed int fd, char *voice)
 
   else
   {
-    signed int return_value_set_voice_uid$1;
-    return_value_set_voice_uid$1=set_voice_uid(uid, voice);
-    return return_value_set_voice_uid$1;
+    signed int return_value_set_voice_uid_1;
+    return_value_set_voice_uid_1=set_voice_uid(uid, voice);
+    return return_value_set_voice_uid_1;
   }
 }
 
@@ -12041,66 +12041,66 @@ signed int set_voice_self(signed int fd, char *voice)
 // file set.h line 45
 signed int set_voice_uid(signed int uid, char *voice)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_uid(uid);
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(settings == ((struct anonymous$11 *)NULL))
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
   {
-    signed int return_value_strcmp$8;
-    return_value_strcmp$8=strcmp(voice, "male1");
-    if(return_value_strcmp$8 == 0)
-      settings->msg_settings.voice_type = (enum anonymous$27)SPD_MALE1;
+    signed int return_value_strcmp_8;
+    return_value_strcmp_8=strcmp(voice, "male1");
+    if(return_value_strcmp_8 == 0)
+      settings->msg_settings.voice_type = (enum anonymous_27)SPD_MALE1;
 
     else
     {
-      return_value_strcmp$7=strcmp(voice, "male2");
-      if(return_value_strcmp$7 == 0)
-        settings->msg_settings.voice_type = (enum anonymous$27)SPD_MALE2;
+      return_value_strcmp_7=strcmp(voice, "male2");
+      if(return_value_strcmp_7 == 0)
+        settings->msg_settings.voice_type = (enum anonymous_27)SPD_MALE2;
 
       else
       {
-        return_value_strcmp$6=strcmp(voice, "male3");
-        if(return_value_strcmp$6 == 0)
-          settings->msg_settings.voice_type = (enum anonymous$27)SPD_MALE3;
+        return_value_strcmp_6=strcmp(voice, "male3");
+        if(return_value_strcmp_6 == 0)
+          settings->msg_settings.voice_type = (enum anonymous_27)SPD_MALE3;
 
         else
         {
-          return_value_strcmp$5=strcmp(voice, "female1");
-          if(return_value_strcmp$5 == 0)
-            settings->msg_settings.voice_type = (enum anonymous$27)SPD_FEMALE1;
+          return_value_strcmp_5=strcmp(voice, "female1");
+          if(return_value_strcmp_5 == 0)
+            settings->msg_settings.voice_type = (enum anonymous_27)SPD_FEMALE1;
 
           else
           {
-            return_value_strcmp$4=strcmp(voice, "female2");
-            if(return_value_strcmp$4 == 0)
-              settings->msg_settings.voice_type = (enum anonymous$27)SPD_FEMALE2;
+            return_value_strcmp_4=strcmp(voice, "female2");
+            if(return_value_strcmp_4 == 0)
+              settings->msg_settings.voice_type = (enum anonymous_27)SPD_FEMALE2;
 
             else
             {
-              return_value_strcmp$3=strcmp(voice, "female3");
-              if(return_value_strcmp$3 == 0)
-                settings->msg_settings.voice_type = (enum anonymous$27)SPD_FEMALE3;
+              return_value_strcmp_3=strcmp(voice, "female3");
+              if(return_value_strcmp_3 == 0)
+                settings->msg_settings.voice_type = (enum anonymous_27)SPD_FEMALE3;
 
               else
               {
-                return_value_strcmp$2=strcmp(voice, "child_male");
-                if(return_value_strcmp$2 == 0)
-                  settings->msg_settings.voice_type = (enum anonymous$27)SPD_CHILD_MALE;
+                return_value_strcmp_2=strcmp(voice, "child_male");
+                if(return_value_strcmp_2 == 0)
+                  settings->msg_settings.voice_type = (enum anonymous_27)SPD_CHILD_MALE;
 
                 else
                 {
-                  return_value_strcmp$1=strcmp(voice, "child_female");
-                  if(return_value_strcmp$1 == 0)
-                    settings->msg_settings.voice_type = (enum anonymous$27)SPD_CHILD_FEMALE;
+                  return_value_strcmp_1=strcmp(voice, "child_female");
+                  if(return_value_strcmp_1 == 0)
+                    settings->msg_settings.voice_type = (enum anonymous_27)SPD_CHILD_FEMALE;
 
                   else
                     return 1;
@@ -12134,9 +12134,9 @@ signed int set_volume_all(signed int volume)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_set_volume_uid$1;
-      return_value_set_volume_uid$1=set_volume_uid(uid, volume);
-      err = err + return_value_set_volume_uid$1;
+      signed int return_value_set_volume_uid_1;
+      return_value_set_volume_uid_1=set_volume_uid(uid, volume);
+      err = err + return_value_set_volume_uid_1;
     }
 
   }
@@ -12158,9 +12158,9 @@ signed int set_volume_self(signed int fd, signed int volume)
 
   else
   {
-    signed int return_value_set_volume_uid$1;
-    return_value_set_volume_uid$1=set_volume_uid(uid, volume);
-    return return_value_set_volume_uid$1;
+    signed int return_value_set_volume_uid_1;
+    return_value_set_volume_uid_1=set_volume_uid(uid, volume);
+    return return_value_set_volume_uid_1;
   }
 }
 
@@ -12168,14 +12168,14 @@ signed int set_volume_self(signed int fd, signed int volume)
 // file set.h line 40
 signed int set_volume_uid(signed int uid, signed int volume)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   if(volume >= 101 || !(volume >= -100))
     return 1;
 
   else
   {
     settings=get_client_settings_by_uid(uid);
-    if(settings == ((struct anonymous$11 *)NULL))
+    if(settings == ((struct anonymous_11 *)NULL))
       return 1;
 
     else
@@ -12195,19 +12195,19 @@ signed int socket_send_msg(signed int fd, char *msg)
   assert(msg != (char *)(void *)0);
   pthread_mutex_lock(&socket_com_mutex);
   MSG2(5, "protocol", "%d:REPLY:|%s|", fd, msg);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(msg);
-  signed long int return_value_write$2;
-  return_value_write$2=write(fd, (const void *)msg, return_value_strlen$1);
-  ret = (signed int)return_value_write$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(msg);
+  signed long int return_value_write_2;
+  return_value_write_2=write(fd, (const void *)msg, return_value_strlen_1);
+  ret = (signed int)return_value_write_2;
   pthread_mutex_unlock(&socket_com_mutex);
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    MSG(1, "write() error: %s", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    MSG(1, "write() error: %s", return_value_strerror_4);
     return -1;
   }
 
@@ -12218,17 +12218,17 @@ signed int socket_send_msg(signed int fd, char *msg)
 // file speaking.c line 1126
 signed int sortbyuid(const void *a, const void *b)
 {
-  const struct anonymous$7 *msg1 = (const struct anonymous$7 *)a;
-  const struct anonymous$7 *msg2 = (const struct anonymous$7 *)b;
-  if(msg1 == ((const struct anonymous$7 *)NULL) && !(msg2 == ((const struct anonymous$7 *)NULL)))
+  const struct anonymous_7 *msg1 = (const struct anonymous_7 *)a;
+  const struct anonymous_7 *msg2 = (const struct anonymous_7 *)b;
+  if(msg1 == ((const struct anonymous_7 *)NULL) && !(msg2 == ((const struct anonymous_7 *)NULL)))
     return -1;
 
   else
-    if(msg2 == ((const struct anonymous$7 *)NULL) && !(msg1 == ((const struct anonymous$7 *)NULL)))
+    if(msg2 == ((const struct anonymous_7 *)NULL) && !(msg1 == ((const struct anonymous_7 *)NULL)))
       return +1;
 
     else
-      if(msg1 == ((const struct anonymous$7 *)NULL) && msg2 == ((const struct anonymous$7 *)NULL))
+      if(msg1 == ((const struct anonymous_7 *)NULL) && msg2 == ((const struct anonymous_7 *)NULL))
         return 0;
 
       else
@@ -12237,9 +12237,9 @@ signed int sortbyuid(const void *a, const void *b)
 
 // spd_fdset_copy
 // file alloc.c line 8
-struct anonymous$11 spd_fdset_copy(struct anonymous$11 old)
+struct anonymous_11 spd_fdset_copy(struct anonymous_11 old)
 {
-  struct anonymous$11 new = old;
+  struct anonymous_11 new = old;
   new.msg_settings.voice.language=g_strdup(old.msg_settings.voice.language);
   new.msg_settings.voice.name=g_strdup(old.msg_settings.voice.name);
   new.client_name=g_strdup(old.client_name);
@@ -12289,33 +12289,33 @@ signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FIL
   char *temp;
   if(lineptr == ((char **)NULL) || f == ((struct _IO_FILE *)NULL) || n == ((unsigned long int *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (signed long int)-1;
   }
 
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  signed int *return_value___errno_location$2;
-  if(!(*return_value___errno_location$3 == 0))
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  signed int *return_value___errno_location_2;
+  if(!(*return_value___errno_location_3 == 0))
   {
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 0;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 0;
   }
 
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(*lineptr == ((char *)NULL))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = *n == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = *n == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
     *n = (unsigned long int)120;
-    void *return_value_g_malloc$4;
-    return_value_g_malloc$4=g_malloc(*n * sizeof(char) /*1ul*/ );
-    *lineptr = (char *)return_value_g_malloc$4;
+    void *return_value_g_malloc_4;
+    return_value_g_malloc_4=g_malloc(*n * sizeof(char) /*1ul*/ );
+    *lineptr = (char *)return_value_g_malloc_4;
     if(*lineptr == ((char *)NULL))
     {
       *n = (unsigned long int)0;
@@ -12324,18 +12324,18 @@ signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FIL
 
   }
 
-  signed int return_value__IO_getc$6;
-  signed long int tmp_post$10;
+  signed int return_value__IO_getc_6;
+  signed long int tmp_post_10;
   do
   {
-    return_value__IO_getc$6=_IO_getc(f);
-    ch = (char)return_value__IO_getc$6;
+    return_value__IO_getc_6=_IO_getc(f);
+    ch = (char)return_value__IO_getc_6;
     if((signed int)ch == -1)
       break;
 
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    if(!(*return_value___errno_location$7 == 0))
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    if(!(*return_value___errno_location_7 == 0))
       return (signed long int)-1;
 
     if(!(*n >= (unsigned long int)needed))
@@ -12343,16 +12343,16 @@ signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FIL
       new_length = *n * (unsigned long int)2;
       if(*n >= new_length)
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        *return_value___errno_location$8 = 12;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        *return_value___errno_location_8 = 12;
         ungetc((signed int)ch, f);
         return (signed long int)-1;
       }
 
-      void *return_value_g_realloc$9;
-      return_value_g_realloc$9=g_realloc((void *)*lineptr, new_length * sizeof(char) /*1ul*/ );
-      temp = (char *)return_value_g_realloc$9;
+      void *return_value_g_realloc_9;
+      return_value_g_realloc_9=g_realloc((void *)*lineptr, new_length * sizeof(char) /*1ul*/ );
+      temp = (char *)return_value_g_realloc_9;
       if(temp == ((char *)NULL))
       {
         ungetc((signed int)ch, f);
@@ -12363,17 +12363,17 @@ signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FIL
       *lineptr = temp;
     }
 
-    tmp_post$10 = buf_pos;
+    tmp_post_10 = buf_pos;
     buf_pos = buf_pos + 1l;
-    (*lineptr)[tmp_post$10] = ch;
+    (*lineptr)[tmp_post_10] = ch;
     if((signed int)ch == 10)
       break;
 
     if(needed == 0x7fffffffffffffffL)
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      *return_value___errno_location$11 = 12;
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      *return_value___errno_location_11 = 12;
       return (signed long int)-1;
     }
 
@@ -12389,21 +12389,21 @@ signed long int spd_getline(char **lineptr, unsigned long int *n, struct _IO_FIL
 
 // spd_message_copy
 // file alloc.h line 8
-struct anonymous$7 * spd_message_copy(struct anonymous$7 *old)
+struct anonymous_7 * spd_message_copy(struct anonymous_7 *old)
 {
-  struct anonymous$7 *new = (struct anonymous$7 *)(void *)0;
-  if(old == ((struct anonymous$7 *)NULL))
-    return (struct anonymous$7 *)(void *)0;
+  struct anonymous_7 *new = (struct anonymous_7 *)(void *)0;
+  if(old == ((struct anonymous_7 *)NULL))
+    return (struct anonymous_7 *)(void *)0;
 
   else
   {
-    void *return_value_g_malloc$1;
-    return_value_g_malloc$1=g_malloc(sizeof(struct anonymous$7) /*224ul*/ );
-    new = (struct anonymous$7 *)return_value_g_malloc$1;
+    void *return_value_g_malloc_1;
+    return_value_g_malloc_1=g_malloc(sizeof(struct anonymous_7) /*224ul*/ );
+    new = (struct anonymous_7 *)return_value_g_malloc_1;
     *new = *old;
-    void *return_value_g_malloc$2;
-    return_value_g_malloc$2=g_malloc((unsigned long int)(old->bytes + 1) * sizeof(char) /*1ul*/ );
-    new->buf = (char *)return_value_g_malloc$2;
+    void *return_value_g_malloc_2;
+    return_value_g_malloc_2=g_malloc((unsigned long int)(old->bytes + 1) * sizeof(char) /*1ul*/ );
+    new->buf = (char *)return_value_g_malloc_2;
     memcpy((void *)new->buf, (const void *)old->buf, (unsigned long int)old->bytes);
     new->buf[(signed long int)new->bytes] = (char)0;
     new->settings=spd_fdset_copy(old->settings);
@@ -12415,9 +12415,9 @@ struct anonymous$7 * spd_message_copy(struct anonymous$7 *old)
 // file set.c line 35
 signed int spd_str_compare(const void *a, const void *b)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp((char *)a, (char *)b);
-  return return_value_strcmp$1;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp((char *)a, (char *)b);
+  return return_value_strcmp_1;
 }
 
 // spd_utf8_read_char
@@ -12436,16 +12436,16 @@ signed int spd_utf8_read_char(char *pointer, char *character)
 // file speaking.h line 45
 void * speak(void *data)
 {
-  struct anonymous$7 *message = (struct anonymous$7 *)(void *)0;
+  struct anonymous_7 *message = (struct anonymous_7 *)(void *)0;
   signed int ret;
   struct pollfd *poll_fds;
   struct pollfd main_pfd;
   struct pollfd helper_pfd;
   signed int revents;
   set_speak_thread_attributes();
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc((unsigned long int)2 * sizeof(struct pollfd) /*8ul*/ );
-  poll_fds = (struct pollfd *)return_value_g_malloc$1;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc((unsigned long int)2 * sizeof(struct pollfd) /*8ul*/ );
+  poll_fds = (struct pollfd *)return_value_g_malloc_1;
   main_pfd.fd = speaking_pipe[(signed long int)0];
   main_pfd.events = (signed short int)0x001;
   main_pfd.revents = (signed short int)0;
@@ -12455,14 +12455,14 @@ void * speak(void *data)
   poll_fds[(signed long int)0] = main_pfd;
   poll_fds[(signed long int)1] = helper_pfd;
   poll_count = 1;
-  signed long int tmp_statement_expression$2;
-  signed long int return_value_read$5;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_g_list_length$10;
-  unsigned int return_value_g_list_length$8;
+  signed long int tmp_statement_expression_2;
+  signed long int return_value_read_5;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_g_list_length_10;
+  unsigned int return_value_g_list_length_8;
   while((_Bool)1)
   {
     ret=poll(poll_fds, (unsigned long int)poll_count, -1);
@@ -12478,20 +12478,20 @@ void * speak(void *data)
         signed long int __result;
         do
         {
-          return_value_read$5=read((poll_fds + (signed long int)0)->fd, (void *)buf, (unsigned long int)1);
-          __result = (signed long int)return_value_read$5;
+          return_value_read_5=read((poll_fds + (signed long int)0)->fd, (void *)buf, (unsigned long int)1);
+          __result = (signed long int)return_value_read_5;
           if(__result == -1l)
           {
-            return_value___errno_location$3=__errno_location();
-            tmp_if_expr$4 = *return_value___errno_location$3 == 4 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_3=__errno_location();
+            tmp_if_expr_4 = *return_value___errno_location_3 == 4 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
+            tmp_if_expr_4 = (_Bool)0;
         }
-        while(tmp_if_expr$4);
-        tmp_statement_expression$2 = __result;
-        rd_bytes = tmp_statement_expression$2;
+        while(tmp_if_expr_4);
+        tmp_statement_expression_2 = __result;
+        rd_bytes = tmp_statement_expression_2;
         if(!(rd_bytes == 1l))
         {
           fatal_error();
@@ -12544,9 +12544,9 @@ void * speak(void *data)
         {
           struct _GList *gl;
           MSG(5, "Resume requested");
-          unsigned int return_value_g_list_length$7;
-          return_value_g_list_length$7=g_list_length(MessagePausedList);
-          if(!(return_value_g_list_length$7 == 0u))
+          unsigned int return_value_g_list_length_7;
+          return_value_g_list_length_7=g_list_length(MessagePausedList);
+          if(!(return_value_g_list_length_7 == 0u))
             while((_Bool)1)
             {
               pthread_mutex_lock(&element_free_mutex);
@@ -12555,16 +12555,16 @@ void * speak(void *data)
               MessagePausedList=g_list_remove_link(MessagePausedList, gl);
               pthread_mutex_unlock(&element_free_mutex);
               if(!(gl == ((struct _GList *)NULL)))
-                tmp_if_expr$6 = gl->data != (void *)0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_6 = gl->data != (void *)0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$6 = (_Bool)0;
-              if(tmp_if_expr$6)
+                tmp_if_expr_6 = (_Bool)0;
+              if(tmp_if_expr_6)
               {
                 MSG(5, "Reloading message");
-                reload_message((struct anonymous$7 *)gl->data);
-                if(current_message == (struct anonymous$7 *)gl->data)
-                  current_message = (struct anonymous$7 *)(void *)0;
+                reload_message((struct anonymous_7 *)gl->data);
+                if(current_message == (struct anonymous_7 *)gl->data)
+                  current_message = (struct anonymous_7 *)(void *)0;
 
               }
 
@@ -12579,27 +12579,27 @@ void * speak(void *data)
         MSG(5, "Locking element_free_mutex in speak()");
         pthread_mutex_lock(&element_free_mutex);
         check_locked(&element_free_mutex);
-        unsigned int return_value_g_list_length$9;
-        return_value_g_list_length$9=g_list_length(last_p5_block);
-        if(!(return_value_g_list_length$9 == 0u))
+        unsigned int return_value_g_list_length_9;
+        return_value_g_list_length_9=g_list_length(last_p5_block);
+        if(!(return_value_g_list_length_9 == 0u))
         {
-          return_value_g_list_length$10=g_list_length(MessageQueue->p5);
-          tmp_if_expr$11 = return_value_g_list_length$10 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+          return_value_g_list_length_10=g_list_length(MessageQueue->p5);
+          tmp_if_expr_11 = return_value_g_list_length_10 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        if(tmp_if_expr$11)
+          tmp_if_expr_11 = (_Bool)0;
+        if(tmp_if_expr_11)
         {
           do
           {
-            return_value_g_list_length$8=g_list_length(last_p5_block);
-            if(return_value_g_list_length$8 == 0u)
+            return_value_g_list_length_8=g_list_length(last_p5_block);
+            if(return_value_g_list_length_8 == 0u)
               break;
 
             struct _GList *item;
             item=g_list_first(last_p5_block);
-            message = (struct anonymous$7 *)item->data;
+            message = (struct anonymous_7 *)item->data;
             check_locked(&element_free_mutex);
             MessageQueue->p2=g_list_insert_sorted(MessageQueue->p2, (void *)message, sortbyuid);
             last_p5_block=g_list_remove_link(last_p5_block, item);
@@ -12607,11 +12607,11 @@ void * speak(void *data)
           }
           while((_Bool)1);
           /* assertion message != ((void *)0) */
-          assert(message != (struct anonymous$7 *)(void *)0);
-          highest_priority = (enum anonymous$9)SPD_MESSAGE;
-          stop_priority_older_than((enum anonymous$9)SPD_TEXT, message->id);
-          stop_priority((enum anonymous$9)SPD_NOTIFICATION);
-          stop_priority((enum anonymous$9)SPD_PROGRESS);
+          assert(message != (struct anonymous_7 *)(void *)0);
+          highest_priority = (enum anonymous_9)SPD_MESSAGE;
+          stop_priority_older_than((enum anonymous_9)SPD_TEXT, message->id);
+          stop_priority((enum anonymous_9)SPD_NOTIFICATION);
+          stop_priority((enum anonymous_9)SPD_PROGRESS);
           check_locked(&element_free_mutex);
           pthread_mutex_unlock(&element_free_mutex);
           speaking_semaphore_post();
@@ -12621,7 +12621,7 @@ void * speak(void *data)
         else
         {
           message=get_message_from_queues();
-          if(message == ((struct anonymous$7 *)NULL))
+          if(message == ((struct anonymous_7 *)NULL))
           {
             pthread_mutex_unlock(&element_free_mutex);
             MSG(5, "No message in the queue");
@@ -12629,9 +12629,9 @@ void * speak(void *data)
           }
 
         }
-        signed int return_value_message_nto_speak$12;
-        return_value_message_nto_speak$12=message_nto_speak((const void *)message, (void *)0);
-        if(!(return_value_message_nto_speak$12 == 0))
+        signed int return_value_message_nto_speak_12;
+        return_value_message_nto_speak_12=message_nto_speak((const void *)message, (void *)0);
+        if(!(return_value_message_nto_speak_12 == 0))
         {
           MSG(4, "Inserting message to paused list...");
           MessagePausedList=g_list_append(MessagePausedList, (void *)message);
@@ -12648,9 +12648,9 @@ void * speak(void *data)
           if(ret == -1)
           {
             MSG(2, "Error: Output module failed");
-            struct anonymous$10 *return_value_get_output_module$13;
-            return_value_get_output_module$13=get_output_module(message);
-            output_check_module(return_value_get_output_module$13);
+            struct anonymous_10 *return_value_get_output_module_13;
+            return_value_get_output_module_13=get_output_module(message);
+            output_check_module(return_value_get_output_module_13);
             pthread_mutex_unlock(&element_free_mutex);
             continue;
           }
@@ -12664,7 +12664,7 @@ void * speak(void *data)
           else
           {
             SPEAKING = 1;
-            if(!(speaking_module == ((struct anonymous$10 *)NULL)))
+            if(!(speaking_module == ((struct anonymous_10 *)NULL)))
             {
               poll_count = 2;
               helper_pfd.fd = speaking_module->pipe_out[(signed long int)0];
@@ -12672,17 +12672,17 @@ void * speak(void *data)
             }
 
             speaking_uid = (signed int)message->settings.uid;
-            if(!(current_message == ((struct anonymous$7 *)NULL)))
+            if(!(current_message == ((struct anonymous_7 *)NULL)))
             {
               if(current_message->settings.paused_while_speaking == 0)
               {
-                struct anonymous$11 *return_value_get_client_settings_by_uid$15;
-                return_value_get_client_settings_by_uid$15=get_client_settings_by_uid((signed int)current_message->settings.uid);
-                if(return_value_get_client_settings_by_uid$15->active == 0)
+                struct anonymous_11 *return_value_get_client_settings_by_uid_15;
+                return_value_get_client_settings_by_uid_15=get_client_settings_by_uid((signed int)current_message->settings.uid);
+                if(return_value_get_client_settings_by_uid_15->active == 0)
                 {
-                  signed int return_value_client_has_messages$14;
-                  return_value_client_has_messages$14=client_has_messages((signed int)current_message->settings.uid);
-                  if(return_value_client_has_messages$14 == 0)
+                  signed int return_value_client_has_messages_14;
+                  return_value_client_has_messages_14=client_has_messages((signed int)current_message->settings.uid);
+                  if(return_value_client_has_messages_14 == 0)
                   {
                     if(!(current_message->settings.uid == message->settings.uid))
                     {
@@ -12703,11 +12703,11 @@ void * speak(void *data)
             if(!(last_p5_block == ((struct _GList *)NULL)))
             {
               struct _GList *elem;
-              struct anonymous$7 *p5_message;
+              struct anonymous_7 *p5_message;
               elem=g_list_last(last_p5_block);
               if(!(elem == ((struct _GList *)NULL)))
               {
-                p5_message = (struct anonymous$7 *)elem->data;
+                p5_message = (struct anonymous_7 *)elem->data;
                 if(p5_message->settings.reparted == message->settings.reparted)
                 {
                   g_list_foreach(last_p5_block, (void (*)(void *, void *))mem_free_message, (void *)0);
@@ -12742,17 +12742,17 @@ void speaking_cancel_all()
 {
   output_stop();
   pthread_mutex_lock(&element_free_mutex);
-  stop_priority((enum anonymous$9)SPD_IMPORTANT);
-  stop_priority((enum anonymous$9)SPD_MESSAGE);
-  stop_priority((enum anonymous$9)SPD_TEXT);
-  stop_priority((enum anonymous$9)SPD_NOTIFICATION);
-  stop_priority((enum anonymous$9)SPD_PROGRESS);
+  stop_priority((enum anonymous_9)SPD_IMPORTANT);
+  stop_priority((enum anonymous_9)SPD_MESSAGE);
+  stop_priority((enum anonymous_9)SPD_TEXT);
+  stop_priority((enum anonymous_9)SPD_NOTIFICATION);
+  stop_priority((enum anonymous_9)SPD_PROGRESS);
   pthread_mutex_unlock(&element_free_mutex);
 }
 
 // speaking_get_queue
 // file speaking.c line 1074
-struct _GList * speaking_get_queue(enum anonymous$9 priority)
+struct _GList * speaking_get_queue(enum anonymous_9 priority)
 {
   struct _GList *queue = (struct _GList *)(void *)0;
   /* assertion priority >= SPD_IMPORTANT && priority <= SPD_PROGRESS */
@@ -12790,11 +12790,11 @@ struct _GList * speaking_get_queue(enum anonymous$9 priority)
 // file speaking.c line 522
 signed int speaking_pause(signed int fd, signed int uid)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   signed int ret;
   MSG(4, "Pause");
   settings=get_client_settings_by_uid(uid);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
   {
     MSG(4, "ERROR: Can't get settings of active client in speaking_pause()!");
     return 1;
@@ -12813,15 +12813,15 @@ signed int speaking_pause(signed int fd, signed int uid)
     {
       if(!(SPEAKING == 0))
       {
-        if(current_message == ((struct anonymous$7 *)NULL))
+        if(current_message == ((struct anonymous_7 *)NULL))
         {
           MSG(5, "current_message is null");
           return 0;
         }
 
-        unsigned long int return_value_output_pause$1;
-        return_value_output_pause$1=output_pause();
-        ret = (signed int)return_value_output_pause$1;
+        unsigned long int return_value_output_pause_1;
+        return_value_output_pause_1=output_pause();
+        ret = (signed int)return_value_output_pause_1;
         if(!(ret >= 0))
         {
           MSG(5, "output_pause returned %d", ret);
@@ -12831,9 +12831,9 @@ signed int speaking_pause(signed int fd, signed int uid)
         MSG(5, "Including current message into the message paused list");
         current_message->settings.paused = 2;
         current_message->settings.paused_while_speaking = 1;
-        struct _GList *return_value_g_list_find$2;
-        return_value_g_list_find$2=g_list_find(MessagePausedList, (const void *)current_message);
-        if(return_value_g_list_find$2 == ((struct _GList *)NULL))
+        struct _GList *return_value_g_list_find_2;
+        return_value_g_list_find_2=g_list_find(MessagePausedList, (const void *)current_message);
+        if(return_value_g_list_find_2 == ((struct _GList *)NULL))
           MessagePausedList=g_list_append(MessagePausedList, (void *)current_message);
 
       }
@@ -12856,9 +12856,9 @@ signed int speaking_pause_all(signed int fd)
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_speaking_pause$1;
-      return_value_speaking_pause$1=speaking_pause(i, uid);
-      err = err + return_value_speaking_pause$1;
+      signed int return_value_speaking_pause_1;
+      return_value_speaking_pause_1=speaking_pause(i, uid);
+      err = err + return_value_speaking_pause_1;
     }
 
   }
@@ -12873,9 +12873,9 @@ signed int speaking_pause_all(signed int fd)
 // file speaking.h line 60
 signed int speaking_resume(signed int uid)
 {
-  struct anonymous$11 *settings;
+  struct anonymous_11 *settings;
   settings=get_client_settings_by_uid(uid);
-  if(settings == ((struct anonymous$11 *)NULL))
+  if(settings == ((struct anonymous_11 *)NULL))
     return 1;
 
   else
@@ -12900,9 +12900,9 @@ signed int speaking_resume_all()
     uid=get_client_uid_by_fd(i);
     if(!(uid == 0))
     {
-      signed int return_value_speaking_resume$1;
-      return_value_speaking_resume$1=speaking_resume(uid);
-      err = err + return_value_speaking_resume$1;
+      signed int return_value_speaking_resume_1;
+      return_value_speaking_resume_1=speaking_resume(uid);
+      err = err + return_value_speaking_resume_1;
     }
 
   }
@@ -12920,27 +12920,27 @@ void speaking_semaphore_post(void)
   char buf[1l];
   buf[(signed long int)0] = (char)42;
   signed long int wr_bytes;
-  signed long int tmp_statement_expression$1;
+  signed long int tmp_statement_expression_1;
   signed long int __result;
-  signed long int return_value_write$4;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed long int return_value_write_4;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
-    return_value_write$4=write(speaking_pipe[(signed long int)1], (const void *)buf, (unsigned long int)1);
-    __result = (signed long int)return_value_write$4;
+    return_value_write_4=write(speaking_pipe[(signed long int)1], (const void *)buf, (unsigned long int)1);
+    __result = (signed long int)return_value_write_4;
     if(__result == -1l)
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
   }
-  while(tmp_if_expr$3);
-  tmp_statement_expression$1 = __result;
-  wr_bytes = tmp_statement_expression$1;
+  while(tmp_if_expr_3);
+  tmp_statement_expression_1 = __result;
+  wr_bytes = tmp_statement_expression_1;
   if(!(wr_bytes == 1l))
   {
     fatal_error();
@@ -12952,7 +12952,7 @@ void speaking_semaphore_post(void)
 
 // speaking_set_queue
 // file speaking.c line 1102
-void speaking_set_queue(enum anonymous$9 priority, struct _GList *queue)
+void speaking_set_queue(enum anonymous_9 priority, struct _GList *queue)
 {
   /* assertion priority >= SPD_IMPORTANT && priority <= SPD_PROGRESS */
   assert((signed int)priority >= SPD_IMPORTANT && (signed int)priority <= SPD_PROGRESS);
@@ -12988,15 +12988,15 @@ void speaking_set_queue(enum anonymous$9 priority, struct _GList *queue)
 // file speaking.h line 51
 void speaking_stop(signed int uid)
 {
-  struct anonymous$7 *msg;
+  struct anonymous_7 *msg;
   struct _GList *gl;
   struct _GList *queue;
   signed int gid = -1;
-  signed int return_value_get_speaking_client_uid$3;
-  return_value_get_speaking_client_uid$3=get_speaking_client_uid();
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  if(return_value_get_speaking_client_uid$3 == uid)
+  signed int return_value_get_speaking_client_uid_3;
+  return_value_get_speaking_client_uid_3=get_speaking_client_uid();
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  if(return_value_get_speaking_client_uid_3 == uid)
   {
     output_stop();
     queue=speaking_get_queue(highest_priority);
@@ -13010,13 +13010,13 @@ void speaking_stop(signed int uid)
     if(gl->data == NULL)
       goto __CPROVER_DUMP_L15;
 
-    msg = (struct anonymous$7 *)gl->data;
+    msg = (struct anonymous_7 *)gl->data;
     if(!(msg->settings.reparted == 0))
-      tmp_if_expr$1 = msg->settings.uid == (unsigned int)uid ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = msg->settings.uid == (unsigned int)uid ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       gid = msg->settings.reparted;
 
     else
@@ -13033,18 +13033,18 @@ void speaking_stop(signed int uid)
       if(gl->data == NULL)
         goto __CPROVER_DUMP_L15;
 
-      msg = (struct anonymous$7 *)gl->data;
+      msg = (struct anonymous_7 *)gl->data;
       if(msg->settings.reparted == gid)
-        tmp_if_expr$2 = msg->settings.uid == (unsigned int)uid ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = msg->settings.uid == (unsigned int)uid ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         queue=g_list_remove_link(queue, gl);
         /* assertion gl->data != ((void *)0) */
         assert(gl->data != (void *)0);
-        mem_free_message((struct anonymous$7 *)gl->data);
+        mem_free_message((struct anonymous_7 *)gl->data);
       }
 
       else
@@ -13064,7 +13064,7 @@ __CPROVER_DUMP_L15:
 // file speaking.h line 52
 void speaking_stop_all()
 {
-  struct anonymous$7 *msg;
+  struct anonymous_7 *msg;
   struct _GList *gl;
   struct _GList *queue;
   signed int gid = -1;
@@ -13077,7 +13077,7 @@ void speaking_stop_all()
     {
       /* assertion gl->data != ((void *)0) */
       assert(gl->data != (void *)0);
-      msg = (struct anonymous$7 *)gl->data;
+      msg = (struct anonymous_7 *)gl->data;
       if(!(msg->settings.reparted == 0))
         gid = msg->settings.reparted;
 
@@ -13092,13 +13092,13 @@ void speaking_stop_all()
           goto __CPROVER_DUMP_L10;
         }
 
-        msg = (struct anonymous$7 *)gl->data;
+        msg = (struct anonymous_7 *)gl->data;
         if(msg->settings.reparted == 1)
         {
           queue=g_list_remove_link(queue, gl);
           /* assertion gl->data != ((void *)0) */
           assert(gl->data != (void *)0);
-          mem_free_message((struct anonymous$7 *)gl->data);
+          mem_free_message((struct anonymous_7 *)gl->data);
         }
 
         else
@@ -13120,8 +13120,8 @@ __CPROVER_DUMP_L10:
 // file speechd.c line 425
 signed int speechd_client_terminate(void *key, void *value, void *user)
 {
-  struct anonymous$11 *set = (struct anonymous$11 *)value;
-  if(set == ((struct anonymous$11 *)NULL))
+  struct anonymous_11 *set = (struct anonymous_11 *)value;
+  if(set == ((struct anonymous_11 *)NULL))
   {
     MSG(2, "Error: Empty connection, internal error");
     return (signed int)!(0 != 0);
@@ -13145,11 +13145,11 @@ signed int speechd_client_terminate(void *key, void *value, void *user)
 // file speechd.c line 385
 signed int speechd_connection_destroy(signed int fd)
 {
-  struct anonymous$11 *fdset_element;
+  struct anonymous_11 *fdset_element;
   MSG(4, "Removing client on fd %d", fd);
   MSG(4, "Tagging client as inactive in settings");
   fdset_element=get_client_settings_by_fd(fd);
-  if(!(fdset_element == ((struct anonymous$11 *)NULL)))
+  if(!(fdset_element == ((struct anonymous_11 *)NULL)))
   {
     fdset_element->fd = -1;
     fdset_element->active = 0;
@@ -13159,8 +13159,8 @@ signed int speechd_connection_destroy(signed int fd)
   g_hash_table_remove(fd_uid, (const void *)&fd);
   speechd_socket_unregister(fd);
   MSG(4, "Closing clients file descriptor %d", fd);
-  signed int return_value_close$1;
-  return_value_close$1=close(fd);
+  signed int return_value_close_1;
+  return_value_close_1=close(fd);
   (&readfds)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
   if(fd == SpeechdStatus.max_fd)
     SpeechdStatus.max_fd = SpeechdStatus.max_fd - 1;
@@ -13173,7 +13173,7 @@ signed int speechd_connection_destroy(signed int fd)
 // file speechd.c line 333
 signed int speechd_connection_new(signed int server_socket)
 {
-  struct anonymous$11 *new_fd_set;
+  struct anonymous_11 *new_fd_set;
   struct sockaddr_in client_address;
   unsigned int client_len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
   signed int client_socket;
@@ -13195,10 +13195,10 @@ signed int speechd_connection_new(signed int server_socket)
 
     MSG(4, "Adding client on fd %d", client_socket);
     speechd_socket_register(client_socket);
-    struct anonymous$11 *return_value_default_fd_set$1;
-    return_value_default_fd_set$1=default_fd_set();
-    new_fd_set = (struct anonymous$11 *)return_value_default_fd_set$1;
-    if(new_fd_set == ((struct anonymous$11 *)NULL))
+    struct anonymous_11 *return_value_default_fd_set_1;
+    return_value_default_fd_set_1=default_fd_set();
+    new_fd_set = (struct anonymous_11 *)return_value_default_fd_set_1;
+    if(new_fd_set == ((struct anonymous_11 *)NULL))
     {
       MSG(2, "Error: Failed to create a record in fd_settings for the new client");
       if(SpeechdStatus.max_fd == client_socket)
@@ -13213,15 +13213,15 @@ signed int speechd_connection_new(signed int server_socket)
       new_fd_set->fd = client_socket;
       SpeechdStatus.max_uid = SpeechdStatus.max_uid + 1;
       new_fd_set->uid = (unsigned int)SpeechdStatus.max_uid;
-      void *return_value_g_malloc$2;
-      return_value_g_malloc$2=g_malloc(sizeof(signed int) /*4ul*/ );
-      p_client_socket = (signed int *)return_value_g_malloc$2;
-      void *return_value_g_malloc$3;
-      return_value_g_malloc$3=g_malloc(sizeof(signed int) /*4ul*/ );
-      p_client_uid = (signed int *)return_value_g_malloc$3;
-      void *return_value_g_malloc$4;
-      return_value_g_malloc$4=g_malloc(sizeof(signed int) /*4ul*/ );
-      p_client_uid2 = (signed int *)return_value_g_malloc$4;
+      void *return_value_g_malloc_2;
+      return_value_g_malloc_2=g_malloc(sizeof(signed int) /*4ul*/ );
+      p_client_socket = (signed int *)return_value_g_malloc_2;
+      void *return_value_g_malloc_3;
+      return_value_g_malloc_3=g_malloc(sizeof(signed int) /*4ul*/ );
+      p_client_uid = (signed int *)return_value_g_malloc_3;
+      void *return_value_g_malloc_4;
+      return_value_g_malloc_4=g_malloc(sizeof(signed int) /*4ul*/ );
+      p_client_uid2 = (signed int *)return_value_g_malloc_4;
       *p_client_socket = client_socket;
       *p_client_uid = SpeechdStatus.max_uid;
       *p_client_uid2 = SpeechdStatus.max_uid;
@@ -13240,24 +13240,24 @@ void speechd_init(void)
   signed int ret;
   SpeechdStatus.max_uid = 0;
   SpeechdStatus.max_gid = 0;
-  signed int return_value_pipe$3;
-  return_value_pipe$3=pipe(speaking_pipe);
-  if(!(return_value_pipe$3 == 0))
+  signed int return_value_pipe_3;
+  return_value_pipe_3=pipe(speaking_pipe);
+  if(!(return_value_pipe_3 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    MSG(1, "Speaking pipe creation failed (%s)", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    MSG(1, "Speaking pipe creation failed (%s)", return_value_strerror_2);
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Can't create pipe", (const void *)"speechd.c", 560);
     exit(1);
   }
 
-  void *return_value_g_malloc0$4;
-  return_value_g_malloc0$4=g_malloc0(sizeof(struct anonymous$29) /*40ul*/ );
-  MessageQueue = (struct anonymous$29 *)return_value_g_malloc0$4;
-  if(MessageQueue == ((struct anonymous$29 *)NULL))
+  void *return_value_g_malloc0_4;
+  return_value_g_malloc0_4=g_malloc0(sizeof(struct anonymous_29) /*40ul*/ );
+  MessageQueue = (struct anonymous_29 *)return_value_g_malloc0_4;
+  if(MessageQueue == ((struct anonymous_29 *)NULL))
   {
     fatal_error();
     MSG(-1, "Fatal error [%s:%d]:Couldn't alocate memmory for MessageQueue.", (const void *)"speechd.c", 566);
@@ -13277,9 +13277,9 @@ void speechd_init(void)
   speechd_sockets_status_init();
   pause_requested = 0;
   resume_requested = 0;
-  signed int return_value_g_module_supported$5;
-  return_value_g_module_supported$5=g_module_supported();
-  if(return_value_g_module_supported$5 == 0)
+  signed int return_value_g_module_supported_5;
+  return_value_g_module_supported_5=g_module_supported();
+  if(return_value_g_module_supported_5 == 0)
   {
     MSG(0, "Error [%s:%d]:Loadable modules not supported by current platform.\n", (const void *)"speechd.c", 591);
     exit(1);
@@ -13287,21 +13287,21 @@ void speechd_init(void)
 
   GlobalFDSet.min_delay_progress = (unsigned int)2000;
   client_specific_settings = (struct _GList *)(void *)0;
-  ret=pthread_mutex_init(&element_free_mutex, (const union anonymous$13 *)(void *)0);
+  ret=pthread_mutex_init(&element_free_mutex, (const union anonymous_13 *)(void *)0);
   if(!(ret == 0))
   {
     MSG(0, "Error [%s:%d]:Mutex initialization failed", (const void *)"speechd.c", 605);
     exit(1);
   }
 
-  ret=pthread_mutex_init(&output_layer_mutex, (const union anonymous$13 *)(void *)0);
+  ret=pthread_mutex_init(&output_layer_mutex, (const union anonymous_13 *)(void *)0);
   if(!(ret == 0))
   {
     MSG(0, "Error [%s:%d]:Mutex initialization failed", (const void *)"speechd.c", 609);
     exit(1);
   }
 
-  ret=pthread_mutex_init(&socket_com_mutex, (const union anonymous$13 *)(void *)0);
+  ret=pthread_mutex_init(&socket_com_mutex, (const union anonymous_13 *)(void *)0);
   if(!(ret == 0))
   {
     MSG(0, "Error [%s:%d]:Mutex initialization failed", (const void *)"speechd.c", 613);
@@ -13323,9 +13323,9 @@ void speechd_init(void)
   MSG(4, "Reading Speech Dispatcher configuration from %s", SpeechdOptions.conf_file);
   speechd_load_configuration(0);
   logging_init();
-  unsigned int return_value_g_list_length$8;
-  return_value_g_list_length$8=g_list_length(output_modules);
-  if(return_value_g_list_length$8 == 0u)
+  unsigned int return_value_g_list_length_8;
+  return_value_g_list_length_8=g_list_length(output_modules);
+  if(return_value_g_list_length_8 == 0u)
   {
     MSG(0, "Error [%s:%d]:No speech output modules were loaded - aborting...", (const void *)"speechd.c", 636);
     exit(1);
@@ -13333,11 +13333,11 @@ void speechd_init(void)
 
   else
   {
-    unsigned int return_value_g_list_length$6;
-    return_value_g_list_length$6=g_list_length(output_modules);
-    unsigned int return_value_g_list_length$7;
-    return_value_g_list_length$7=g_list_length(output_modules);
-    MSG(3, "Speech Dispatcher started with %d output module%s", return_value_g_list_length$6, return_value_g_list_length$7 > (unsigned int)1 ? "s" : "");
+    unsigned int return_value_g_list_length_6;
+    return_value_g_list_length_6=g_list_length(output_modules);
+    unsigned int return_value_g_list_length_7;
+    return_value_g_list_length_7=g_list_length(output_modules);
+    MSG(3, "Speech Dispatcher started with %d output module%s", return_value_g_list_length_6, return_value_g_list_length_7 > (unsigned int)1 ? "s" : "");
   }
   last_p5_block = (struct _GList *)(void *)0;
 }
@@ -13355,11 +13355,11 @@ void speechd_load_configuration(signed int sig)
     output_modules = (struct _GList *)(void *)0;
   }
 
-  signed int return_value_waitpid$1;
+  signed int return_value_waitpid_1;
   do
   {
-    return_value_waitpid$1=waitpid(-1, (signed int *)(void *)0, 1);
-    if(!(return_value_waitpid$1 >= 1))
+    return_value_waitpid_1=waitpid(-1, (signed int *)(void *)0, 1);
+    if(!(return_value_waitpid_1 >= 1))
       break;
 
   }
@@ -13373,9 +13373,9 @@ void speechd_load_configuration(signed int sig)
   {
     configfile->includepath=g_strdup(SpeechdOptions.conf_dir);
     MSG(5, "Config file include path is: %s", configfile->includepath);
-    signed int return_value_dotconf_command_loop$2;
-    return_value_dotconf_command_loop$2=dotconf_command_loop(configfile);
-    if(return_value_dotconf_command_loop$2 == 0)
+    signed int return_value_dotconf_command_loop_2;
+    return_value_dotconf_command_loop_2=dotconf_command_loop(configfile);
+    if(return_value_dotconf_command_loop_2 == 0)
     {
       MSG(0, "Error [%s:%d]:Error reading config file\n", (const void *)"speechd.c", 679);
       exit(1);
@@ -13404,8 +13404,8 @@ void speechd_load_configuration(signed int sig)
 // file speechd.c line 477
 void speechd_module_debug(void *data, void *user_data)
 {
-  struct anonymous$10 *module = (struct anonymous$10 *)data;
-  if(module == ((struct anonymous$10 *)NULL))
+  struct anonymous_10 *module = (struct anonymous_10 *)data;
+  if(module == ((struct anonymous_10 *)NULL))
     MSG(2, "Empty module, internal error");
 
   else
@@ -13422,8 +13422,8 @@ __CPROVER_DUMP_L2:
 // file speechd.c line 492
 void speechd_module_nodebug(void *data, void *user_data)
 {
-  struct anonymous$10 *module = (struct anonymous$10 *)data;
-  if(module == ((struct anonymous$10 *)NULL))
+  struct anonymous_10 *module = (struct anonymous_10 *)data;
+  if(module == ((struct anonymous_10 *)NULL))
     MSG(2, "Empty module, internal error");
 
   else
@@ -13454,8 +13454,8 @@ void speechd_modules_nodebug(void)
 // file speechd.c line 462
 void speechd_modules_reload(void *data, void *user_data)
 {
-  struct anonymous$10 *module = (struct anonymous$10 *)data;
-  if(module == ((struct anonymous$10 *)NULL))
+  struct anonymous_10 *module = (struct anonymous_10 *)data;
+  if(module == ((struct anonymous_10 *)NULL))
     MSG(2, "Empty module, internal error");
 
   else
@@ -13472,8 +13472,8 @@ __CPROVER_DUMP_L2:
 // file speechd.c line 448
 void speechd_modules_terminate(void *data, void *user_data)
 {
-  struct anonymous$10 *module = (struct anonymous$10 *)data;
-  if(module == ((struct anonymous$10 *)NULL))
+  struct anonymous_10 *module = (struct anonymous_10 *)data;
+  if(module == ((struct anonymous_10 *)NULL))
     MSG(2, "Error: Empty module, internal error");
 
   else
@@ -13504,7 +13504,7 @@ void speechd_options_init(void)
   SpeechdOptions.debug = 0;
   SpeechdOptions.debug_destination = (char *)(void *)0;
   debug_logfile = (struct _IO_FILE *)(void *)0;
-  spd_mode = (enum anonymous$25)SPD_MODE_DAEMON;
+  spd_mode = (enum anonymous_25)SPD_MODE_DAEMON;
 }
 
 // speechd_quit
@@ -13537,15 +13537,15 @@ void speechd_quit(signed int sig)
   g_list_foreach(output_modules, speechd_modules_terminate, (void *)0);
   g_list_free(output_modules);
   MSG(2, "Closing server connection...");
-  signed int return_value_close$3;
-  return_value_close$3=close(server_socket);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_close$3 == -1)
+  signed int return_value_close_3;
+  return_value_close_3=close(server_socket);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_close_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    MSG(2, "close() failed: %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    MSG(2, "close() failed: %s", return_value_strerror_2);
   }
 
   (&readfds)->fds_bits[(signed long int)(server_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->fds_bits[(signed long int)(server_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << server_socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
@@ -13561,11 +13561,11 @@ void speechd_quit(signed int sig)
 void speechd_reload_dead_modules(signed int sig)
 {
   g_list_foreach(output_modules, speechd_modules_reload, (void *)0);
-  signed int return_value_waitpid$1;
+  signed int return_value_waitpid_1;
   do
   {
-    return_value_waitpid$1=waitpid(-1, (signed int *)(void *)0, 1);
-    if(!(return_value_waitpid$1 >= 1))
+    return_value_waitpid_1=waitpid(-1, (signed int *)(void *)0, 1);
+    if(!(return_value_waitpid_1 >= 1))
       break;
 
   }
@@ -13574,7 +13574,7 @@ void speechd_reload_dead_modules(signed int sig)
 
 // speechd_socket_free
 // file speechd.c line 313
-void speechd_socket_free(struct anonymous$0 *speechd_socket)
+void speechd_socket_free(struct anonymous_0 *speechd_socket)
 {
   if(!(speechd_socket->o_buf == ((struct _GString *)NULL)))
     g_string_free(speechd_socket->o_buf, 1);
@@ -13584,11 +13584,11 @@ void speechd_socket_free(struct anonymous$0 *speechd_socket)
 
 // speechd_socket_get_by_fd
 // file speechd.c line 327
-struct anonymous$0 * speechd_socket_get_by_fd(signed int fd)
+struct anonymous_0 * speechd_socket_get_by_fd(signed int fd)
 {
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(speechd_sockets_status, (const void *)&fd);
-  return (struct anonymous$0 *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(speechd_sockets_status, (const void *)&fd);
+  return (struct anonymous_0 *)return_value_g_hash_table_lookup_1;
 }
 
 // speechd_socket_register
@@ -13596,17 +13596,17 @@ struct anonymous$0 * speechd_socket_get_by_fd(signed int fd)
 signed int speechd_socket_register(signed int fd)
 {
   signed int *fd_key;
-  struct anonymous$0 *speechd_socket;
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc(sizeof(struct anonymous$0) /*24ul*/ );
-  speechd_socket = (struct anonymous$0 *)return_value_g_malloc$1;
+  struct anonymous_0 *speechd_socket;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc(sizeof(struct anonymous_0) /*24ul*/ );
+  speechd_socket = (struct anonymous_0 *)return_value_g_malloc_1;
   speechd_socket->o_buf = (struct _GString *)(void *)0;
   speechd_socket->o_bytes = (unsigned long int)0;
   speechd_socket->awaiting_data = 0;
   speechd_socket->inside_block = 0;
-  void *return_value_g_malloc$2;
-  return_value_g_malloc$2=g_malloc(sizeof(signed int) /*4ul*/ );
-  fd_key = (signed int *)return_value_g_malloc$2;
+  void *return_value_g_malloc_2;
+  return_value_g_malloc_2=g_malloc(sizeof(signed int) /*4ul*/ );
+  fd_key = (signed int *)return_value_g_malloc_2;
   *fd_key = fd;
   g_hash_table_insert(speechd_sockets_status, (void *)fd_key, (void *)speechd_socket);
   return 0;
@@ -13616,9 +13616,9 @@ signed int speechd_socket_register(signed int fd)
 // file speechd.c line 321
 signed int speechd_socket_unregister(signed int fd)
 {
-  signed int return_value_g_hash_table_remove$1;
-  return_value_g_hash_table_remove$1=g_hash_table_remove(speechd_sockets_status, (const void *)&fd);
-  return (signed int)!(return_value_g_hash_table_remove$1 != 0);
+  signed int return_value_g_hash_table_remove_1;
+  return_value_g_hash_table_remove_1=g_hash_table_remove(speechd_sockets_status, (const void *)&fd);
+  return (signed int)!(return_value_g_hash_table_remove_1 != 0);
 }
 
 // speechd_sockets_status_init
@@ -13647,7 +13647,7 @@ void stop_from_uid(const signed int uid)
 
 // stop_priority
 // file speaking.c line 812
-signed int stop_priority(enum anonymous$9 priority)
+signed int stop_priority(enum anonymous_9 priority)
 {
   struct _GList *queue;
   queue=speaking_get_queue(priority);
@@ -13661,21 +13661,21 @@ signed int stop_priority(enum anonymous$9 priority)
 
 // stop_priority_except_first
 // file speaking.c line 912
-void stop_priority_except_first(enum anonymous$9 priority)
+void stop_priority_except_first(enum anonymous_9 priority)
 {
   struct _GList *queue;
   struct _GList *gl;
-  struct anonymous$7 *msg;
+  struct anonymous_7 *msg;
   struct _GList *gl_next;
   signed int gid;
   queue=speaking_get_queue(priority);
   gl=g_list_last(queue);
-  struct _GList *tmp_if_expr$1;
+  struct _GList *tmp_if_expr_1;
   if(!(gl == ((struct _GList *)NULL)))
   {
     if(!(gl->data == NULL))
     {
-      msg = (struct anonymous$7 *)gl->data;
+      msg = (struct anonymous_7 *)gl->data;
       if(!(msg->settings.reparted >= 1))
       {
         queue=g_list_remove_link(queue, gl);
@@ -13694,14 +13694,14 @@ void stop_priority_except_first(enum anonymous$9 priority)
         for( ; !(gl == ((struct _GList *)NULL)); gl = gl_next)
         {
           if(!(gl == ((struct _GList *)NULL)))
-            tmp_if_expr$1 = ((struct _GList *)gl)->next;
+            tmp_if_expr_1 = ((struct _GList *)gl)->next;
 
           else
-            tmp_if_expr$1 = (struct _GList *)(void *)0;
-          gl_next = tmp_if_expr$1;
+            tmp_if_expr_1 = (struct _GList *)(void *)0;
+          gl_next = tmp_if_expr_1;
           if(!(gl->data == NULL))
           {
-            struct anonymous$7 *msgg = (struct anonymous$7 *)gl->data;
+            struct anonymous_7 *msgg = (struct anonymous_7 *)gl->data;
             if(!(msgg->settings.reparted == gid))
             {
               queue=g_list_remove_link(queue, gl);
@@ -13743,7 +13743,7 @@ struct _GList * stop_priority_from_uid(struct _GList *queue, const signed int ui
 
 // stop_priority_older_than
 // file speaking.c line 829
-signed int stop_priority_older_than(enum anonymous$9 priority, unsigned int uid)
+signed int stop_priority_older_than(enum anonymous_9 priority, unsigned int uid)
 {
   struct _GList *queue;
   queue=speaking_get_queue(priority);
@@ -13757,30 +13757,30 @@ signed int stop_priority_older_than(enum anonymous$9 priority, unsigned int uid)
 
 // str2ECapLetRecogn
 // file ../../include/fdsetconv.h line 22
-enum anonymous$4 str2ECapLetRecogn(char *str)
+enum anonymous_4 str2ECapLetRecogn(char *str)
 {
-  enum anonymous$4 recogn;
-  signed int return_value_strcmp$3;
-  return_value_strcmp$3=strcmp(str, "none");
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$3 == 0)
-    recogn = (enum anonymous$4)SPD_CAP_NONE;
+  enum anonymous_4 recogn;
+  signed int return_value_strcmp_3;
+  return_value_strcmp_3=strcmp(str, "none");
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_3 == 0)
+    recogn = (enum anonymous_4)SPD_CAP_NONE;
 
   else
   {
-    return_value_strcmp$2=strcmp(str, "spell");
-    if(return_value_strcmp$2 == 0)
-      recogn = (enum anonymous$4)SPD_CAP_SPELL;
+    return_value_strcmp_2=strcmp(str, "spell");
+    if(return_value_strcmp_2 == 0)
+      recogn = (enum anonymous_4)SPD_CAP_SPELL;
 
     else
     {
-      return_value_strcmp$1=strcmp(str, "icon");
-      if(return_value_strcmp$1 == 0)
-        recogn = (enum anonymous$4)SPD_CAP_ICON;
+      return_value_strcmp_1=strcmp(str, "icon");
+      if(return_value_strcmp_1 == 0)
+        recogn = (enum anonymous_4)SPD_CAP_ICON;
 
       else
-        recogn = (enum anonymous$4)-1;
+        recogn = (enum anonymous_4)-1;
     }
   }
   return recogn;
@@ -13788,30 +13788,30 @@ enum anonymous$4 str2ECapLetRecogn(char *str)
 
 // str2EPunctMode
 // file ../../include/fdsetconv.h line 14
-enum anonymous$2 str2EPunctMode(char *str)
+enum anonymous_2 str2EPunctMode(char *str)
 {
-  enum anonymous$2 punct;
-  signed int return_value_strcmp$3;
-  return_value_strcmp$3=strcmp(str, "none");
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$3 == 0)
-    punct = (enum anonymous$2)SPD_PUNCT_NONE;
+  enum anonymous_2 punct;
+  signed int return_value_strcmp_3;
+  return_value_strcmp_3=strcmp(str, "none");
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_3 == 0)
+    punct = (enum anonymous_2)SPD_PUNCT_NONE;
 
   else
   {
-    return_value_strcmp$2=strcmp(str, "all");
-    if(return_value_strcmp$2 == 0)
-      punct = (enum anonymous$2)SPD_PUNCT_ALL;
+    return_value_strcmp_2=strcmp(str, "all");
+    if(return_value_strcmp_2 == 0)
+      punct = (enum anonymous_2)SPD_PUNCT_ALL;
 
     else
     {
-      return_value_strcmp$1=strcmp(str, "some");
-      if(return_value_strcmp$1 == 0)
-        punct = (enum anonymous$2)SPD_PUNCT_SOME;
+      return_value_strcmp_1=strcmp(str, "some");
+      if(return_value_strcmp_1 == 0)
+        punct = (enum anonymous_2)SPD_PUNCT_SOME;
 
       else
-        punct = (enum anonymous$2)-1;
+        punct = (enum anonymous_2)-1;
     }
   }
   return punct;
@@ -13819,88 +13819,88 @@ enum anonymous$2 str2EPunctMode(char *str)
 
 // str2ESpellMode
 // file fdsetconv.c line 149
-enum anonymous$1 str2ESpellMode(char *str)
+enum anonymous_1 str2ESpellMode(char *str)
 {
-  enum anonymous$1 spell;
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp(str, "on");
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$2 == 0)
-    spell = (enum anonymous$1)SPD_SPELL_ON;
+  enum anonymous_1 spell;
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp(str, "on");
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_2 == 0)
+    spell = (enum anonymous_1)SPD_SPELL_ON;
 
   else
   {
-    return_value_strcmp$1=strcmp(str, "off");
-    if(return_value_strcmp$1 == 0)
-      spell = (enum anonymous$1)SPD_SPELL_OFF;
+    return_value_strcmp_1=strcmp(str, "off");
+    if(return_value_strcmp_1 == 0)
+      spell = (enum anonymous_1)SPD_SPELL_OFF;
 
     else
-      spell = (enum anonymous$1)-1;
+      spell = (enum anonymous_1)-1;
   }
   return spell;
 }
 
 // str2EVoice
 // file ../../include/fdsetconv.h line 10
-enum anonymous$27 str2EVoice(char *str)
+enum anonymous_27 str2EVoice(char *str)
 {
-  enum anonymous$27 voice;
-  signed int return_value_strcmp$8;
-  return_value_strcmp$8=strcmp(str, "male1");
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$8 == 0)
-    voice = (enum anonymous$27)SPD_MALE1;
+  enum anonymous_27 voice;
+  signed int return_value_strcmp_8;
+  return_value_strcmp_8=strcmp(str, "male1");
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_8 == 0)
+    voice = (enum anonymous_27)SPD_MALE1;
 
   else
   {
-    return_value_strcmp$7=strcmp(str, "male2");
-    if(return_value_strcmp$7 == 0)
-      voice = (enum anonymous$27)SPD_MALE2;
+    return_value_strcmp_7=strcmp(str, "male2");
+    if(return_value_strcmp_7 == 0)
+      voice = (enum anonymous_27)SPD_MALE2;
 
     else
     {
-      return_value_strcmp$6=strcmp(str, "male3");
-      if(return_value_strcmp$6 == 0)
-        voice = (enum anonymous$27)SPD_MALE3;
+      return_value_strcmp_6=strcmp(str, "male3");
+      if(return_value_strcmp_6 == 0)
+        voice = (enum anonymous_27)SPD_MALE3;
 
       else
       {
-        return_value_strcmp$5=strcmp(str, "female1");
-        if(return_value_strcmp$5 == 0)
-          voice = (enum anonymous$27)SPD_FEMALE1;
+        return_value_strcmp_5=strcmp(str, "female1");
+        if(return_value_strcmp_5 == 0)
+          voice = (enum anonymous_27)SPD_FEMALE1;
 
         else
         {
-          return_value_strcmp$4=strcmp(str, "female2");
-          if(return_value_strcmp$4 == 0)
-            voice = (enum anonymous$27)SPD_FEMALE2;
+          return_value_strcmp_4=strcmp(str, "female2");
+          if(return_value_strcmp_4 == 0)
+            voice = (enum anonymous_27)SPD_FEMALE2;
 
           else
           {
-            return_value_strcmp$3=strcmp(str, "female3");
-            if(return_value_strcmp$3 == 0)
-              voice = (enum anonymous$27)SPD_FEMALE3;
+            return_value_strcmp_3=strcmp(str, "female3");
+            if(return_value_strcmp_3 == 0)
+              voice = (enum anonymous_27)SPD_FEMALE3;
 
             else
             {
-              return_value_strcmp$2=strcmp(str, "child_male");
-              if(return_value_strcmp$2 == 0)
-                voice = (enum anonymous$27)SPD_CHILD_MALE;
+              return_value_strcmp_2=strcmp(str, "child_male");
+              if(return_value_strcmp_2 == 0)
+                voice = (enum anonymous_27)SPD_CHILD_MALE;
 
               else
               {
-                return_value_strcmp$1=strcmp(str, "child_female");
-                if(return_value_strcmp$1 == 0)
-                  voice = (enum anonymous$27)SPD_CHILD_FEMALE;
+                return_value_strcmp_1=strcmp(str, "child_female");
+                if(return_value_strcmp_1 == 0)
+                  voice = (enum anonymous_27)SPD_CHILD_FEMALE;
 
                 else
-                  voice = (enum anonymous$27)-1;
+                  voice = (enum anonymous_27)-1;
               }
             }
           }
@@ -13913,44 +13913,44 @@ enum anonymous$27 str2EVoice(char *str)
 
 // str2intpriority
 // file ../../include/fdsetconv.h line 24
-enum anonymous$9 str2intpriority(char *str)
+enum anonymous_9 str2intpriority(char *str)
 {
-  enum anonymous$9 priority;
-  signed int return_value_strcmp$5;
-  return_value_strcmp$5=strcmp(str, "important");
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$5 == 0)
-    priority = (enum anonymous$9)SPD_IMPORTANT;
+  enum anonymous_9 priority;
+  signed int return_value_strcmp_5;
+  return_value_strcmp_5=strcmp(str, "important");
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_5 == 0)
+    priority = (enum anonymous_9)SPD_IMPORTANT;
 
   else
   {
-    return_value_strcmp$4=strcmp(str, "message");
-    if(return_value_strcmp$4 == 0)
-      priority = (enum anonymous$9)SPD_MESSAGE;
+    return_value_strcmp_4=strcmp(str, "message");
+    if(return_value_strcmp_4 == 0)
+      priority = (enum anonymous_9)SPD_MESSAGE;
 
     else
     {
-      return_value_strcmp$3=strcmp(str, "text");
-      if(return_value_strcmp$3 == 0)
-        priority = (enum anonymous$9)SPD_TEXT;
+      return_value_strcmp_3=strcmp(str, "text");
+      if(return_value_strcmp_3 == 0)
+        priority = (enum anonymous_9)SPD_TEXT;
 
       else
       {
-        return_value_strcmp$2=strcmp(str, "notification");
-        if(return_value_strcmp$2 == 0)
-          priority = (enum anonymous$9)SPD_NOTIFICATION;
+        return_value_strcmp_2=strcmp(str, "notification");
+        if(return_value_strcmp_2 == 0)
+          priority = (enum anonymous_9)SPD_NOTIFICATION;
 
         else
         {
-          return_value_strcmp$1=strcmp(str, "progress");
-          if(return_value_strcmp$1 == 0)
-            priority = (enum anonymous$9)SPD_PROGRESS;
+          return_value_strcmp_1=strcmp(str, "progress");
+          if(return_value_strcmp_1 == 0)
+            priority = (enum anonymous_9)SPD_PROGRESS;
 
           else
-            priority = (enum anonymous$9)-1;
+            priority = (enum anonymous_9)-1;
         }
       }
     }
@@ -13960,7 +13960,7 @@ enum anonymous$9 str2intpriority(char *str)
 
 // strip_index_marks
 // file index_marking.h line 44
-char * strip_index_marks(char *buf, enum anonymous$5 ssml_mode)
+char * strip_index_marks(char *buf, enum anonymous_5 ssml_mode)
 {
   struct _GString *str;
   char *strret;
@@ -13974,7 +13974,7 @@ char * strip_index_marks(char *buf, enum anonymous$5 ssml_mode)
     str=g_string_new("");
   MSG2(5, "index_marking", "Message before stripping index marks: |%s|", buf);
   p = buf;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while((_Bool)1)
   {
     if((signed int)*p == 0)
@@ -13994,12 +13994,12 @@ char * strip_index_marks(char *buf, enum anonymous$5 ssml_mode)
     {
       p = p + 1l;
       if(!((signed int)*p == 62))
-        tmp_if_expr$1 = (signed int)*p != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)*p != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
     }
-    while(tmp_if_expr$1);
+    while(tmp_if_expr_1);
     if((signed int)*p == 62)
       p = p + 1l;
 
@@ -14020,10 +14020,10 @@ char * strip_index_marks(char *buf, enum anonymous$5 ssml_mode)
 
 // unload_output_module
 // file module.h line 47
-signed int unload_output_module(struct anonymous$10 *module)
+signed int unload_output_module(struct anonymous_10 *module)
 {
   /* assertion module != ((void *)0) */
-  assert(module != (struct anonymous$10 *)(void *)0);
+  assert(module != (struct anonymous_10 *)(void *)0);
   MSG(3, "Unloading module name=%s", module->name);
   output_close(module);
   close(module->pipe_in[(signed long int)1]);
@@ -14036,12 +14036,12 @@ signed int unload_output_module(struct anonymous$10 *module)
 // file set.c line 275
 void update_cl_settings(void *data, void *user_data)
 {
-  struct anonymous$26 *cl_set = (struct anonymous$26 *)data;
-  struct anonymous$11 *set = (struct anonymous$11 *)user_data;
+  struct anonymous_26 *cl_set = (struct anonymous_26 *)data;
+  struct anonymous_11 *set = (struct anonymous_11 *)user_data;
   MSG(4, "Updating client specific settings %s against %s", set->client_name, cl_set->pattern);
-  signed int return_value_fnmatch$1;
-  return_value_fnmatch$1=fnmatch(cl_set->pattern, set->client_name, 0);
-  if(return_value_fnmatch$1 == 0)
+  signed int return_value_fnmatch_1;
+  return_value_fnmatch_1=fnmatch(cl_set->pattern, set->client_name, 0);
+  if(return_value_fnmatch_1 == 0)
   {
     if(!(cl_set->val.msg_settings.rate == -101))
     {

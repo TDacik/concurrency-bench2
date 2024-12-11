@@ -1,54 +1,54 @@
-// tag-#anon#ST[ARR128{U8}$U8$'cert_verify_md'||ARR128{U8}$U8$'finish_md'||S32'finish_md_len'||ARR128{U8}$U8$'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'$pad0'||*{cSYM#tag-ssl_cipher_st#}$cSYM#tag-ssl_cipher_st#$'new_cipher'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}$S8$'ctype'||U56'$pad1'||*{SYM#tag-stack_st_X509_NAME#}$SYM#tag-stack_st_X509_NAME#$'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}$U8$'key_block'||*{cSYM#tag-evp_cipher_st#}$cSYM#tag-evp_cipher_st#$'new_sym_enc'||*{cSYM#tag-env_md_st#}$cSYM#tag-env_md_st#$'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}$cSYM#tag-ssl_comp_st#$'new_compression'||S32'cert_request'||U32'$pad2'|]
+// tag-#anon#ST[ARR128{U8}_U8_'cert_verify_md'||ARR128{U8}_U8_'finish_md'||S32'finish_md_len'||ARR128{U8}_U8_'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'_pad0'||*{cSYM#tag-ssl_cipher_st#}_cSYM#tag-ssl_cipher_st#_'new_cipher'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}_S8_'ctype'||U56'_pad1'||*{SYM#tag-stack_st_X509_NAME#}_SYM#tag-stack_st_X509_NAME#_'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}_U8_'key_block'||*{cSYM#tag-evp_cipher_st#}_cSYM#tag-evp_cipher_st#_'new_sym_enc'||*{cSYM#tag-env_md_st#}_cSYM#tag-env_md_st#_'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}_cSYM#tag-ssl_comp_st#_'new_compression'||S32'cert_request'||U32'_pad2'|]
 // file /usr/include/openssl/ssl3.h line 553
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[S32'sess_connect'||S32'sess_connect_renegotiate'||S32'sess_connect_good'||S32'sess_accept'||S32'sess_accept_renegotiate'||S32'sess_accept_good'||S32'sess_miss'||S32'sess_timeout'||S32'sess_cache_full'||S32'sess_hit'||S32'sess_cb_hit'|]
 // file /usr/include/openssl/ssl.h line 964
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}$U8$'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
+// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}_U8_'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
 // file /usr/include/openssl/ssl2.h line 203
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$7;
+union anonymous_7;
 
 // tag-#anon#UN[SYM#tag-in_addr#'in'||SYM#tag-in6_addr#'in6'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.h line 30
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
 union anonymous;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-ASIdentifiers_st
 // file /usr/include/openssl/x509.h line 293
@@ -817,7 +817,7 @@ extern char * __strdup(const char *);
 extern char * __strndup(const char *, unsigned long int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$3, unsigned int *);
+extern signed int accept(signed int, union anonymous_3, unsigned int *);
 // add
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/tools/uhub-passwd.c line 249
 static signed int add(unsigned long int argc, const char **argv);
@@ -844,7 +844,7 @@ extern void base32_decode(const char *src, unsigned char *dst, unsigned long int
 extern void base32_encode(const unsigned char *buffer, unsigned long int len, char *result);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$3, unsigned int);
+extern signed int bind(signed int, union anonymous_3, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -925,7 +925,7 @@ extern signed int close(signed int);
 extern void closelog(void);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$3, unsigned int);
+extern signed int connect(signed int, union anonymous_3, unsigned int);
 // create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/tools/uhub-passwd.c line 202
 static signed int create(unsigned long int argc, const char **argv);
@@ -968,9 +968,9 @@ static signed int file_read_line_handler(char *line, signed int count, void *ptr
 // file_read_lines
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.c line 229
 extern signed int file_read_lines(const char *file, void *data, signed int (*handler)(char *, signed int, void *));
-// file_read_lines::handler$object
+// file_read_lines::handler_object
 //
-signed int handler$object(char *, signed int, void *);
+signed int handler_object(char *, signed int, void *);
 // find_and_remove_job
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 273
 static struct net_dns_job * find_and_remove_job(struct net_dns_job *job);
@@ -1015,13 +1015,13 @@ extern signed int getaddrinfo(const char *, const char *, struct addrinfo *, str
 extern char * getenv(const char *);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous$3, unsigned int *);
+extern signed int getpeername(signed int, union anonymous_3, unsigned int *);
 // getrlimit
 // file /usr/include/x86_64-linux-gnu/sys/resource.h line 54
 extern signed int getrlimit(enum __rlimit_resource, struct rlimit *);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous$3, unsigned int *);
+extern signed int getsockname(signed int, union anonymous_3, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -1133,9 +1133,9 @@ extern void list_append(struct linked_list *list, void *data_ptr);
 // list_clear
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/list.h line 40
 extern void list_clear(struct linked_list *list, void (*free_handle)(void *));
-// list_clear::free_handle$object
+// list_clear::free_handle_object
 //
-void free_handle$object(void *);
+void free_handle_object(void *);
 // list_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/list.h line 38
 extern struct linked_list * list_create();
@@ -1235,9 +1235,9 @@ void net_backend_process_select(struct net_backend *data, signed int res);
 // net_backend_set_handlers
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/select.c line 170
 static void net_backend_set_handlers(struct net_backend_handler *handler);
-// net_backend_set_handlers$link1
+// net_backend_set_handlers_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/epoll.c line 174
-static void net_backend_set_handlers$link1(struct net_backend_handler *handler$link1);
+static void net_backend_set_handlers_link1(struct net_backend_handler *handler_link1);
 // net_backend_shutdown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.h line 71
 extern void net_backend_shutdown();
@@ -1313,21 +1313,21 @@ extern signed int net_con_get_sd(struct net_connection *con);
 // net_con_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 164
 extern void net_con_initialize(struct net_connection *con, signed int sd, void (*callback)(struct net_connection *, signed int, void *), const void *ptr, signed int events);
-// net_con_initialize::callback$object
+// net_con_initialize::callback_object
 //
-void callback$object(struct net_connection *, signed int, void *);
+void callback_object(struct net_connection *, signed int, void *);
 // net_con_initialize_epoll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/epoll.c line 84
 void net_con_initialize_epoll(struct net_backend *data, struct net_connection *con_, signed int sd, void (*callback)(struct net_connection *, signed int, void *), const void *ptr);
-// net_con_initialize_epoll::callback$object
+// net_con_initialize_epoll::callback_object
 //
-void callback$object(struct net_connection *, signed int, void *);
+void callback_object(struct net_connection *, signed int, void *);
 // net_con_initialize_select
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/select.c line 119
 void net_con_initialize_select(struct net_backend *data, struct net_connection *con_, signed int sd, void (*callback)(struct net_connection *, signed int, void *), const void *ptr);
-// net_con_initialize_select::callback$object
+// net_con_initialize_select::callback_object
 //
-void callback$object(struct net_connection *, signed int, void *);
+void callback_object(struct net_connection *, signed int, void *);
 // net_con_is_ssl
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.c line 103
 extern signed int net_con_is_ssl(struct net_connection *con);
@@ -1340,9 +1340,9 @@ extern signed long int net_con_recv(struct net_connection *con, void *buf, unsig
 // net_con_reinitialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 105
 extern void net_con_reinitialize(struct net_connection *con, void (*callback)(struct net_connection *, signed int, void *), const void *ptr, signed int events);
-// net_con_reinitialize::callback$object
+// net_con_reinitialize::callback_object
 //
-void callback$object(struct net_connection *, signed int, void *);
+void callback_object(struct net_connection *, signed int, void *);
 // net_con_send
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.c line 35
 extern signed long int net_con_send(struct net_connection *con, const void *buf, unsigned long int len);
@@ -1373,15 +1373,15 @@ void net_dns_destroy();
 // net_dns_gethostbyaddr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 255
 extern struct net_dns_job * net_dns_gethostbyaddr(struct ip_addr_encap *ipaddr, signed int (*callback)(struct net_dns_job *, struct net_dns_result *), void *ptr);
-// net_dns_gethostbyaddr::callback$object
+// net_dns_gethostbyaddr::callback_object
 //
-signed int callback$object(struct net_dns_job *, struct net_dns_result *);
+signed int callback_object(struct net_dns_job *, struct net_dns_result *);
 // net_dns_gethostbyname
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 224
 extern struct net_dns_job * net_dns_gethostbyname(const char *host, signed int af, signed int (*callback)(struct net_dns_job *, struct net_dns_result *), void *ptr);
-// net_dns_gethostbyname::callback$object
+// net_dns_gethostbyname::callback_object
 //
-signed int callback$object(struct net_dns_job *, struct net_dns_result *);
+signed int callback_object(struct net_dns_job *, struct net_dns_result *);
 // net_dns_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 83
 void net_dns_initialize();
@@ -1591,19 +1591,19 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$7 *);
+extern signed int pthread_mutex_destroy(union anonymous_7 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$7 *, const union anonymous$8 *);
+extern signed int pthread_mutex_init(union anonymous_7 *, const union anonymous_8 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$7 *);
+extern signed int pthread_mutex_lock(union anonymous_7 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$7 *);
+extern signed int pthread_mutex_trylock(union anonymous_7 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$7 *);
+extern signed int pthread_mutex_unlock(union anonymous_7 *);
 // push
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 302
 static void push(struct rb_tree *tree, struct rb_node *n);
@@ -1616,15 +1616,15 @@ static struct rb_node * rb_it_set(struct rb_tree *tree, struct rb_node *n);
 // rb_tree_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 158
 extern struct rb_tree * rb_tree_create(signed int (*compare)(const void *, const void *), void * (*a)(unsigned long int), void (*f)(void *));
-// rb_tree_create::a$object
+// rb_tree_create::a_object
 //
-void * a$object(unsigned long int);
-// rb_tree_create::compare$object
+void * a_object(unsigned long int);
+// rb_tree_create::compare_object
 //
-signed int compare$object(const void *, const void *);
-// rb_tree_create::f$object
+signed int compare_object(const void *, const void *);
+// rb_tree_create::f_object
 //
-void f$object(void *);
+void f_object(void *);
 // rb_tree_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 172
 extern void rb_tree_destroy(struct rb_tree *tree);
@@ -1652,9 +1652,9 @@ extern signed int rb_tree_remove(struct rb_tree *tree, const void *key);
 // rb_tree_remove_node
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 200
 extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, void (*freecb)(struct rb_node *));
-// rb_tree_remove_node::freecb$object
+// rb_tree_remove_node::freecb_object
 //
-void freecb$object(struct rb_node *);
+void freecb_object(struct rb_node *);
 // rb_tree_rotate_double
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 112
 static struct rb_node * rb_tree_rotate_double(struct rb_node *node, signed int dir);
@@ -1678,7 +1678,7 @@ extern void * realloc(void *, unsigned long int);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$9 *, struct anonymous$9 *, struct anonymous$9 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_9 *, struct anonymous_9 *, struct anonymous_9 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -1754,9 +1754,9 @@ extern unsigned long int strftime(char *, unsigned long int, const char *, struc
 // string_split
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.c line 176
 extern signed int string_split(const char *string, const char *split, void *data, signed int (*handler)(char *, signed int, void *));
-// string_split::handler$object
+// string_split::handler_object
 //
-signed int handler$object(char *, signed int, void *);
+signed int handler_object(char *, signed int, void *);
 // string_to_boolean
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.c line 472
 extern signed int string_to_boolean(const char *str, signed int *boolean);
@@ -1799,9 +1799,9 @@ static void timeout_callback(struct timeout_evt *evt);
 // timeout_evt_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timeout.c line 22
 void timeout_evt_initialize(struct timeout_evt *t, void (*cb)(struct timeout_evt *), void *ptr);
-// timeout_evt_initialize::cb$object
+// timeout_evt_initialize::cb_object
 //
-void cb$object(struct timeout_evt *);
+void cb_object(struct timeout_evt *);
 // timeout_evt_is_scheduled
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timeout.c line 36
 signed int timeout_evt_is_scheduled(struct timeout_evt *t);
@@ -1840,28 +1840,28 @@ extern signed int uhub_atoi(const char *value);
 extern const char * uhub_itoa(signed int val);
 // uhub_mutex_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 34
-extern void uhub_mutex_destroy(union anonymous$7 *mutex);
+extern void uhub_mutex_destroy(union anonymous_7 *mutex);
 // uhub_mutex_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 29
-extern void uhub_mutex_init(union anonymous$7 *mutex);
+extern void uhub_mutex_init(union anonymous_7 *mutex);
 // uhub_mutex_lock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 39
-extern void uhub_mutex_lock(union anonymous$7 *mutex);
+extern void uhub_mutex_lock(union anonymous_7 *mutex);
 // uhub_mutex_trylock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 49
-extern signed int uhub_mutex_trylock(union anonymous$7 *mutex);
+extern signed int uhub_mutex_trylock(union anonymous_7 *mutex);
 // uhub_mutex_unlock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 44
-extern void uhub_mutex_unlock(union anonymous$7 *mutex);
+extern void uhub_mutex_unlock(union anonymous_7 *mutex);
 // uhub_thread_cancel
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 67
 void uhub_thread_cancel(struct pthread_data *thread);
 // uhub_thread_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 55
 struct pthread_data * uhub_thread_create(void * (*start)(void *), void *arg);
-// uhub_thread_create::start$object
+// uhub_thread_create::start_object
 //
-void * start$object(void *);
+void * start_object(void *);
 // uhub_thread_join
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 72
 void * uhub_thread_join(struct pthread_data *thread);
@@ -1881,7 +1881,7 @@ static const char * validate_username(const char *username);
 // file /usr/include/stdio.h line 390
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 
-struct anonymous$2
+struct anonymous_2
 {
   // cert_verify_md
   unsigned char cert_verify_md[128l];
@@ -1935,13 +1935,13 @@ struct anonymous$2
   signed int cert_request;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // sess_connect
   signed int sess_connect;
@@ -1967,7 +1967,7 @@ struct anonymous$0
   signed int sess_cb_hit;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // conn_id_length
   unsigned int conn_id_length;
@@ -1993,7 +1993,7 @@ struct anonymous$1
   unsigned int rlen;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // ptr
   char *ptr;
@@ -2007,7 +2007,7 @@ union anonymous$6
   struct ec_key_st *ec;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // ptr
   char *ptr;
@@ -2053,7 +2053,7 @@ union anonymous$5
   struct ASN1_VALUE_st *asn1_value;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // cb_1
   void (*cb_1)(signed int, signed int, void *);
@@ -2061,7 +2061,7 @@ union anonymous$4
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2071,7 +2071,7 @@ union anonymous$10
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __size
   char __size[4l];
@@ -2107,7 +2107,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2126,10 +2126,10 @@ struct in_addr
 struct in6_addr
 {
   // __in6_u
-  union anonymous$10 __in6_u;
+  union anonymous_10 __in6_u;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // in
   struct in_addr in;
@@ -2167,7 +2167,7 @@ union anonymous
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2456,7 +2456,7 @@ struct asn1_type_st
   // type
   signed int type;
   // value
-  union anonymous$5 value;
+  union anonymous_5 value;
 };
 
 struct bignum_st
@@ -2546,7 +2546,7 @@ struct bn_gencb_st
   // arg
   void *arg;
   // cb
-  union anonymous$4 cb;
+  union anonymous_4 cb;
 };
 
 struct bn_mont_ctx_st
@@ -3052,7 +3052,7 @@ struct evp_pkey_st
   // engine
   struct engine_st *engine;
   // pkey
-  union anonymous$6 pkey;
+  union anonymous_6 pkey;
   // save_parameters
   signed int save_parameters;
   // attributes
@@ -3096,7 +3096,7 @@ struct ip_addr_encap
   // af
   signed int af;
   // internal_ip_data
-  union anonymous$11 internal_ip_data;
+  union anonymous_11 internal_ip_data;
 };
 
 struct ip_range
@@ -3198,11 +3198,11 @@ struct net_backend_select
   // conns
   struct net_connection_select **conns;
   // rfds
-  struct anonymous$9 rfds;
+  struct anonymous_9 rfds;
   // wfds
-  struct anonymous$9 wfds;
+  struct anonymous_9 wfds;
   // xfds
-  struct anonymous$9 xfds;
+  struct anonymous_9 xfds;
   // maxfd
   signed int maxfd;
   // common
@@ -3306,7 +3306,7 @@ struct net_dns_subsystem
   // results
   struct linked_list *results;
   // mutex
-  union anonymous$7 mutex;
+  union anonymous_7 mutex;
 };
 
 struct net_ssl_openssl
@@ -3644,7 +3644,7 @@ struct ssl2_state_st
   // write_sequence
   unsigned long int write_sequence;
   // tmp
-  struct anonymous$1 tmp;
+  struct anonymous_1 tmp;
 };
 
 struct ssl3_buffer_st
@@ -3764,7 +3764,7 @@ struct ssl3_state_st
   // server_opaque_prf_input_len
   unsigned long int server_opaque_prf_input_len;
   // tmp
-  struct anonymous$2 tmp;
+  struct anonymous_2 tmp;
   // previous_client_finished
   unsigned char previous_client_finished[64l];
   // previous_client_finished_len
@@ -3852,7 +3852,7 @@ struct ssl_ctx_st
   // get_session_cb
   struct ssl_session_st * (*get_session_cb)(struct ssl_st *, unsigned char *, signed int, signed int *);
   // stats
-  struct anonymous$0 stats;
+  struct anonymous_0 stats;
   // references
   signed int references;
   // app_verify_callback
@@ -4734,28 +4734,28 @@ static signed int verbosity = 4;
 static signed int add(unsigned long int argc, const char **argv)
 {
   char *user = (char *)(void *)0;
-  char *add$$1$$pass = (char *)(void *)0;
+  char *add__1__pass = (char *)(void *)0;
   const char *cred = (const char *)(void *)0;
   signed int rc;
   if(!(argc >= 2ul))
     print_usage("username password [credentials = user]");
 
-  const char *return_value_validate_username$1;
-  return_value_validate_username$1=validate_username(argv[(signed long int)0]);
-  user=sql_escape_string(return_value_validate_username$1);
-  const char *return_value_validate_password$2;
-  return_value_validate_password$2=validate_password(argv[(signed long int)1]);
-  add$$1$$pass=sql_escape_string(return_value_validate_password$2);
-  const char *tmp_if_expr$3;
+  const char *return_value_validate_username_1;
+  return_value_validate_username_1=validate_username(argv[(signed long int)0]);
+  user=sql_escape_string(return_value_validate_username_1);
+  const char *return_value_validate_password_2;
+  return_value_validate_password_2=validate_password(argv[(signed long int)1]);
+  add__1__pass=sql_escape_string(return_value_validate_password_2);
+  const char *tmp_if_expr_3;
   if(!(argv[2l] == ((const char *)NULL)))
-    tmp_if_expr$3 = argv[(signed long int)2];
+    tmp_if_expr_3 = argv[(signed long int)2];
 
   else
-    tmp_if_expr$3 = "user";
-  cred=validate_cred(tmp_if_expr$3);
-  rc=sql_execute("INSERT INTO users (nickname, password, credentials) VALUES('%s', '%s', '%s');", user, add$$1$$pass, cred);
+    tmp_if_expr_3 = "user";
+  cred=validate_cred(tmp_if_expr_3);
+  rc=sql_execute("INSERT INTO users (nickname, password, credentials) VALUES('%s', '%s', '%s');", user, add__1__pass, cred);
   free((void *)user);
-  free((void *)add$$1$$pass);
+  free((void *)add__1__pass);
   if(!(rc == 1))
   {
     fprintf(stderr, "Unable to add user \"%s\"\n", argv[(signed long int)0]);
@@ -4835,35 +4835,35 @@ const char * auth_cred_to_string(enum auth_credentials cred)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/credentials.c line 78
 signed int auth_string_to_cred(const char *str, enum auth_credentials *out)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*str != 0) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$12;
-  if(out == ((enum auth_credentials *)NULL) || tmp_if_expr$1)
+    tmp_if_expr_1 = !(*str != 0) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_12;
+  if(out == ((enum auth_credentials *)NULL) || tmp_if_expr_1)
     return 0;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(str);
-    switch(return_value_strlen$2)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(str);
+    switch(return_value_strlen_2)
     {
       case (unsigned long int)2:
       {
-        return_value_strcasecmp$3=strcasecmp(str, "op");
-        if(return_value_strcasecmp$3 == 0)
+        return_value_strcasecmp_3=strcasecmp(str, "op");
+        if(return_value_strcasecmp_3 == 0)
         {
           *out = (enum auth_credentials)auth_cred_operator;
           return 1;
@@ -4873,15 +4873,15 @@ signed int auth_string_to_cred(const char *str, enum auth_credentials *out)
       }
       case (unsigned long int)3:
       {
-        return_value_strcasecmp$4=strcasecmp(str, "bot");
-        if(return_value_strcasecmp$4 == 0)
+        return_value_strcasecmp_4=strcasecmp(str, "bot");
+        if(return_value_strcasecmp_4 == 0)
         {
           *out = (enum auth_credentials)auth_cred_bot;
           return 1;
         }
 
-        return_value_strcasecmp$5=strcasecmp(str, "reg");
-        if(return_value_strcasecmp$5 == 0)
+        return_value_strcasecmp_5=strcasecmp(str, "reg");
+        if(return_value_strcasecmp_5 == 0)
         {
           *out = (enum auth_credentials)auth_cred_user;
           return 1;
@@ -4891,22 +4891,22 @@ signed int auth_string_to_cred(const char *str, enum auth_credentials *out)
       }
       case (unsigned long int)4:
       {
-        return_value_strcasecmp$6=strcasecmp(str, "none");
-        if(return_value_strcasecmp$6 == 0)
+        return_value_strcasecmp_6=strcasecmp(str, "none");
+        if(return_value_strcasecmp_6 == 0)
         {
           *out = (enum auth_credentials)auth_cred_none;
           return 1;
         }
 
-        return_value_strcasecmp$7=strcasecmp(str, "user");
-        if(return_value_strcasecmp$7 == 0)
+        return_value_strcasecmp_7=strcasecmp(str, "user");
+        if(return_value_strcasecmp_7 == 0)
         {
           *out = (enum auth_credentials)auth_cred_user;
           return 1;
         }
 
-        return_value_strcasecmp$8=strcasecmp(str, "link");
-        if(return_value_strcasecmp$8 == 0)
+        return_value_strcasecmp_8=strcasecmp(str, "link");
+        if(return_value_strcasecmp_8 == 0)
         {
           *out = (enum auth_credentials)auth_cred_link;
           return 1;
@@ -4916,22 +4916,22 @@ signed int auth_string_to_cred(const char *str, enum auth_credentials *out)
       }
       case (unsigned long int)5:
       {
-        return_value_strcasecmp$9=strcasecmp(str, "admin");
-        if(return_value_strcasecmp$9 == 0)
+        return_value_strcasecmp_9=strcasecmp(str, "admin");
+        if(return_value_strcasecmp_9 == 0)
         {
           *out = (enum auth_credentials)auth_cred_admin;
           return 1;
         }
 
-        return_value_strcasecmp$10=strcasecmp(str, "super");
-        if(return_value_strcasecmp$10 == 0)
+        return_value_strcasecmp_10=strcasecmp(str, "super");
+        if(return_value_strcasecmp_10 == 0)
         {
           *out = (enum auth_credentials)auth_cred_super;
           return 1;
         }
 
-        return_value_strcasecmp$11=strcasecmp(str, "guest");
-        if(return_value_strcasecmp$11 == 0)
+        return_value_strcasecmp_11=strcasecmp(str, "guest");
+        if(return_value_strcasecmp_11 == 0)
         {
           *out = (enum auth_credentials)auth_cred_guest;
           return 1;
@@ -4941,8 +4941,8 @@ signed int auth_string_to_cred(const char *str, enum auth_credentials *out)
       }
       case (unsigned long int)8:
       {
-        return_value_strcasecmp$12=strcasecmp(str, "operator");
-        if(return_value_strcasecmp$12 == 0)
+        return_value_strcasecmp_12=strcasecmp(str, "operator");
+        if(return_value_strcasecmp_12 == 0)
         {
           *out = (enum auth_credentials)auth_cred_operator;
           return 1;
@@ -4965,8 +4965,8 @@ extern void base32_decode(const char *src, unsigned char *dst, unsigned long int
   unsigned long int i = (unsigned long int)0;
   memset((void *)dst, 0, len);
   i = (unsigned long int)0;
-  unsigned long int tmp_post$1;
-  unsigned long int tmp_post$2;
+  unsigned long int tmp_post_1;
+  unsigned long int tmp_post_2;
   for( ; !(src[(signed long int)i] == 0); i = i + 1ul)
   {
     unsigned char n = (unsigned char)0;
@@ -4981,9 +4981,9 @@ extern void base32_decode(const char *src, unsigned char *dst, unsigned long int
         index = (index + (unsigned long int)5) % (unsigned long int)8;
         if(index == 0ul)
         {
-          tmp_post$1 = offset;
+          tmp_post_1 = offset;
           offset = offset + 1ul;
-          dst[(signed long int)tmp_post$1] = dst[(signed long int)tmp_post$1] | n;
+          dst[(signed long int)tmp_post_1] = dst[(signed long int)tmp_post_1] | n;
           if(offset == len)
             break;
 
@@ -4996,9 +4996,9 @@ extern void base32_decode(const char *src, unsigned char *dst, unsigned long int
       else
       {
         index = (index + (unsigned long int)5) % (unsigned long int)8;
-        tmp_post$2 = offset;
+        tmp_post_2 = offset;
         offset = offset + 1ul;
-        dst[(signed long int)tmp_post$2] = dst[(signed long int)tmp_post$2] | (unsigned char)((signed int)n >> index);
+        dst[(signed long int)tmp_post_2] = dst[(signed long int)tmp_post_2] | (unsigned char)((signed int)n >> index);
         if(offset == len)
           break;
 
@@ -5017,8 +5017,8 @@ extern void base32_encode(const unsigned char *buffer, unsigned long int len, ch
   unsigned long int n = (unsigned long int)0;
   unsigned long int i = (unsigned long int)0;
   unsigned long int index = (unsigned long int)0;
-  unsigned long int tmp_post$1;
-  for( ; !(i >= len); result[(signed long int)tmp_post$1] = BASE32_ALPHABET[(signed long int)word])
+  unsigned long int tmp_post_1;
+  for( ; !(i >= len); result[(signed long int)tmp_post_1] = BASE32_ALPHABET[(signed long int)word])
   {
     if(index >= 4ul)
     {
@@ -5039,7 +5039,7 @@ extern void base32_encode(const unsigned char *buffer, unsigned long int len, ch
         i = i + 1ul;
 
     }
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n + 1ul;
   }
   result[(signed long int)n] = (char)0;
@@ -5084,10 +5084,10 @@ extern void cbuf_append_format(struct cbuffer *buf, const char *format, ...)
 extern void cbuf_append_strftime(struct cbuffer *buf, const char *format, struct tm *tm)
 {
   signed int bytes;
-  unsigned long int return_value_strftime$1;
+  unsigned long int return_value_strftime_1;
   static char tmp[1024l];
-  return_value_strftime$1=strftime(tmp, sizeof(char [1024l]) /*1024ul*/ , format, tm);
-  bytes = (signed int)return_value_strftime$1;
+  return_value_strftime_1=strftime(tmp, sizeof(char [1024l]) /*1024ul*/ , format, tm);
+  bytes = (signed int)return_value_strftime_1;
   cbuf_append_bytes(buf, tmp, (unsigned long int)bytes);
 }
 
@@ -5096,15 +5096,15 @@ extern void cbuf_append_strftime(struct cbuffer *buf, const char *format, struct
 extern struct cbuffer * cbuf_create(unsigned long int capacity)
 {
   struct cbuffer *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct cbuffer) /*32ul*/ );
-  buf = (struct cbuffer *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct cbuffer) /*32ul*/ );
+  buf = (struct cbuffer *)return_value_malloc_1;
   buf->capacity = capacity;
   buf->size = (unsigned long int)0;
   buf->flags = (unsigned long int)0;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(capacity + (unsigned long int)1);
-  buf->buf = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(capacity + (unsigned long int)1);
+  buf->buf = (char *)return_value_malloc_2;
   buf->buf[(signed long int)0] = (char)0;
   return buf;
 }
@@ -5114,9 +5114,9 @@ extern struct cbuffer * cbuf_create(unsigned long int capacity)
 extern struct cbuffer * cbuf_create_const(const char *buffer)
 {
   struct cbuffer *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct cbuffer) /*32ul*/ );
-  buf = (struct cbuffer *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct cbuffer) /*32ul*/ );
+  buf = (struct cbuffer *)return_value_malloc_1;
   buf->capacity = (unsigned long int)0;
   buf->size=strlen(buffer);
   buf->flags = (unsigned long int)0x01;
@@ -5146,9 +5146,9 @@ extern const char * cbuf_get(struct cbuffer *buf)
 extern void cbuf_resize(struct cbuffer *buf, unsigned long int capacity)
 {
   buf->capacity = capacity;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)buf->buf, capacity + (unsigned long int)1);
-  buf->buf = (char *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)buf->buf, capacity + (unsigned long int)1);
+  buf->buf = (char *)return_value_realloc_1;
 }
 
 // cbuf_size
@@ -5192,92 +5192,92 @@ struct cfg_settings * cfg_settings_split(const char *line)
   struct cfg_settings *s = (struct cfg_settings *)(void *)0;
   struct cfg_tokens *tok = (struct cfg_tokens *)(void *)0;
   char *pos = (char *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(line == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*line != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  char *return_value___builtin_strchr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
-
-  else
-  {
-    return_value___builtin_strchr$2=__builtin_strchr(line, 61);
-    pos = (char *)return_value___builtin_strchr$2;
-    tmp_if_expr$3 = pos == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  }
-  _Bool tmp_if_expr$5;
-  void *return_value_hub_malloc_zero$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_1 = !(*line != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  char *return_value___builtin_strchr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_hub_malloc_zero$4=hub_malloc_zero(sizeof(struct cfg_settings) /*16ul*/ );
-    s = (struct cfg_settings *)return_value_hub_malloc_zero$4;
-    tmp_if_expr$5 = s == (struct cfg_settings *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    return_value___builtin_strchr_2=__builtin_strchr(line, 61);
+    pos = (char *)return_value___builtin_strchr_2;
+    tmp_if_expr_3 = pos == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  void *return_value_hub_malloc_zero_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
+
+  else
+  {
+    return_value_hub_malloc_zero_4=hub_malloc_zero(sizeof(struct cfg_settings) /*16ul*/ );
+    s = (struct cfg_settings *)return_value_hub_malloc_zero_4;
+    tmp_if_expr_5 = s == (struct cfg_settings *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  }
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
     tok=cfg_tokenize(line);
-    tmp_if_expr$6 = tok == (struct cfg_tokens *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_6 = tok == (struct cfg_tokens *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$8;
-  unsigned long int return_value_cfg_token_count$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$8 = (_Bool)1;
+  _Bool tmp_if_expr_8;
+  unsigned long int return_value_cfg_token_count_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_cfg_token_count$7=cfg_token_count(tok);
-    tmp_if_expr$8 = return_value_cfg_token_count$7 < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+    return_value_cfg_token_count_7=cfg_token_count(tok);
+    tmp_if_expr_8 = return_value_cfg_token_count_7 < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_cfg_token_count$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$10 = (_Bool)1;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_cfg_token_count_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
-    return_value_cfg_token_count$9=cfg_token_count(tok);
-    tmp_if_expr$10 = return_value_cfg_token_count$9 > (unsigned long int)3 ? (_Bool)1 : (_Bool)0;
+    return_value_cfg_token_count_9=cfg_token_count(tok);
+    tmp_if_expr_10 = return_value_cfg_token_count_9 > (unsigned long int)3 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$16;
-  unsigned long int return_value_cfg_token_count$11;
-  _Bool tmp_if_expr$15;
-  signed int tmp_statement_expression$12;
-  if(tmp_if_expr$10)
-    tmp_if_expr$16 = (_Bool)1;
+  _Bool tmp_if_expr_16;
+  unsigned long int return_value_cfg_token_count_11;
+  _Bool tmp_if_expr_15;
+  signed int tmp_statement_expression_12;
+  if(tmp_if_expr_10)
+    tmp_if_expr_16 = (_Bool)1;
 
   else
   {
-    return_value_cfg_token_count$11=cfg_token_count(tok);
-    if(return_value_cfg_token_count$11 == 3ul)
+    return_value_cfg_token_count_11=cfg_token_count(tok);
+    if(return_value_cfg_token_count_11 == 3ul)
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      char *return_value_cfg_token_get$13;
-      return_value_cfg_token_get$13=cfg_token_get(tok, (unsigned long int)1);
-      signed int return_value___builtin_strcmp$14;
-      return_value___builtin_strcmp$14=__builtin_strcmp(return_value_cfg_token_get$13, "=");
-      tmp_statement_expression$12 = return_value___builtin_strcmp$14;
-      tmp_if_expr$15 = tmp_statement_expression$12 != 0 ? (_Bool)1 : (_Bool)0;
+      char *return_value_cfg_token_get_13;
+      return_value_cfg_token_get_13=cfg_token_get(tok, (unsigned long int)1);
+      signed int return_value___builtin_strcmp_14;
+      return_value___builtin_strcmp_14=__builtin_strcmp(return_value_cfg_token_get_13, "=");
+      tmp_statement_expression_12 = return_value___builtin_strcmp_14;
+      tmp_if_expr_15 = tmp_statement_expression_12 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$15 = (_Bool)0;
-    tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_15 = (_Bool)0;
+    tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int return_value_cfg_token_count$31;
-  char *return_value___builtin_strchr$21;
-  if(tmp_if_expr$16)
+  unsigned long int return_value_cfg_token_count_31;
+  char *return_value___builtin_strchr_21;
+  if(tmp_if_expr_16)
   {
     cfg_tokens_free(tok);
     cfg_settings_free(s);
@@ -5286,15 +5286,15 @@ struct cfg_settings * cfg_settings_split(const char *line)
 
   else
   {
-    unsigned long int return_value_cfg_token_count$32;
-    return_value_cfg_token_count$32=cfg_token_count(tok);
-    if(return_value_cfg_token_count$32 == 1ul)
+    unsigned long int return_value_cfg_token_count_32;
+    return_value_cfg_token_count_32=cfg_token_count(tok);
+    if(return_value_cfg_token_count_32 == 1ul)
     {
       char *key;
       key=cfg_token_get_first(tok);
-      char *return_value___builtin_strchr$17;
-      return_value___builtin_strchr$17=__builtin_strchr(key, 61);
-      pos = return_value___builtin_strchr$17;
+      char *return_value___builtin_strchr_17;
+      return_value___builtin_strchr_17=__builtin_strchr(key, 61);
+      pos = return_value___builtin_strchr_17;
       if(pos == ((char *)NULL))
       {
         cfg_tokens_free(tok);
@@ -5311,38 +5311,38 @@ struct cfg_settings * cfg_settings_split(const char *line)
         return (struct cfg_settings *)(void *)0;
       }
 
-      char *return_value___strdup$18;
-      return_value___strdup$18=__strdup(key);
-      s->key = return_value___strdup$18;
-      char *return_value_strip_white_space$19;
-      return_value_strip_white_space$19=strip_white_space(pos + (signed long int)1);
-      char *return_value___strdup$20;
-      return_value___strdup$20=__strdup(return_value_strip_white_space$19);
-      s->value = return_value___strdup$20;
+      char *return_value___strdup_18;
+      return_value___strdup_18=__strdup(key);
+      s->key = return_value___strdup_18;
+      char *return_value_strip_white_space_19;
+      return_value_strip_white_space_19=strip_white_space(pos + (signed long int)1);
+      char *return_value___strdup_20;
+      return_value___strdup_20=__strdup(return_value_strip_white_space_19);
+      s->value = return_value___strdup_20;
     }
 
     else
     {
-      return_value_cfg_token_count$31=cfg_token_count(tok);
-      if(return_value_cfg_token_count$31 == 2ul)
+      return_value_cfg_token_count_31=cfg_token_count(tok);
+      if(return_value_cfg_token_count_31 == 2ul)
       {
-        char *cfg_settings_split$$1$$4$$key;
-        cfg_settings_split$$1$$4$$key=cfg_token_get_first(tok);
+        char *cfg_settings_split__1__4__key;
+        cfg_settings_split__1__4__key=cfg_token_get_first(tok);
         char *val;
         val=cfg_token_get_next(tok);
-        char *return_value___builtin_strchr$22;
-        return_value___builtin_strchr$22=__builtin_strchr(cfg_settings_split$$1$$4$$key, 61);
-        pos = return_value___builtin_strchr$22;
+        char *return_value___builtin_strchr_22;
+        return_value___builtin_strchr_22=__builtin_strchr(cfg_settings_split__1__4__key, 61);
+        pos = return_value___builtin_strchr_22;
         if(!(pos == ((char *)NULL)))
         {
           pos[(signed long int)0] = (char)0;
-          cfg_settings_split$$1$$4$$key=strip_white_space(cfg_settings_split$$1$$4$$key);
+          cfg_settings_split__1__4__key=strip_white_space(cfg_settings_split__1__4__key);
         }
 
         else
         {
-          return_value___builtin_strchr$21=__builtin_strchr(val, 61);
-          pos = return_value___builtin_strchr$21;
+          return_value___builtin_strchr_21=__builtin_strchr(val, 61);
+          pos = return_value___builtin_strchr_21;
           if(!(pos == ((char *)NULL)))
             val=strip_white_space(pos + (signed long int)1);
 
@@ -5353,37 +5353,37 @@ struct cfg_settings * cfg_settings_split(const char *line)
             return (struct cfg_settings *)(void *)0;
           }
         }
-        if(*cfg_settings_split$$1$$4$$key == 0)
+        if(*cfg_settings_split__1__4__key == 0)
         {
           cfg_tokens_free(tok);
           cfg_settings_free(s);
           return (struct cfg_settings *)(void *)0;
         }
 
-        char *return_value___strdup$23;
-        return_value___strdup$23=__strdup(cfg_settings_split$$1$$4$$key);
-        s->key = return_value___strdup$23;
-        char *return_value___strdup$24;
-        return_value___strdup$24=__strdup(val);
-        s->value = return_value___strdup$24;
+        char *return_value___strdup_23;
+        return_value___strdup_23=__strdup(cfg_settings_split__1__4__key);
+        s->key = return_value___strdup_23;
+        char *return_value___strdup_24;
+        return_value___strdup_24=__strdup(val);
+        s->value = return_value___strdup_24;
       }
 
       else
       {
-        char *return_value_cfg_token_get$25;
-        return_value_cfg_token_get$25=cfg_token_get(tok, (unsigned long int)0);
-        char *return_value_strip_white_space$26;
-        return_value_strip_white_space$26=strip_white_space(return_value_cfg_token_get$25);
-        char *return_value___strdup$27;
-        return_value___strdup$27=__strdup(return_value_strip_white_space$26);
-        s->key = return_value___strdup$27;
-        char *return_value_cfg_token_get$28;
-        return_value_cfg_token_get$28=cfg_token_get(tok, (unsigned long int)2);
-        char *return_value_strip_white_space$29;
-        return_value_strip_white_space$29=strip_white_space(return_value_cfg_token_get$28);
-        char *return_value___strdup$30;
-        return_value___strdup$30=__strdup(return_value_strip_white_space$29);
-        s->value = return_value___strdup$30;
+        char *return_value_cfg_token_get_25;
+        return_value_cfg_token_get_25=cfg_token_get(tok, (unsigned long int)0);
+        char *return_value_strip_white_space_26;
+        return_value_strip_white_space_26=strip_white_space(return_value_cfg_token_get_25);
+        char *return_value___strdup_27;
+        return_value___strdup_27=__strdup(return_value_strip_white_space_26);
+        s->key = return_value___strdup_27;
+        char *return_value_cfg_token_get_28;
+        return_value_cfg_token_get_28=cfg_token_get(tok, (unsigned long int)2);
+        char *return_value_strip_white_space_29;
+        return_value_strip_white_space_29=strip_white_space(return_value_cfg_token_get_28);
+        char *return_value___strdup_30;
+        return_value___strdup_30=__strdup(return_value_strip_white_space_29);
+        s->value = return_value___strdup_30;
       }
     }
     cfg_tokens_free(tok);
@@ -5397,9 +5397,9 @@ signed int cfg_token_add(struct cfg_tokens *tokens, char *new_token)
 {
   if(!(*new_token == 0))
   {
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(new_token);
-    list_append(tokens->list, (void *)return_value___strdup$1);
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(new_token);
+    list_append(tokens->list, (void *)return_value___strdup_1);
     return 1;
   }
 
@@ -5410,36 +5410,36 @@ signed int cfg_token_add(struct cfg_tokens *tokens, char *new_token)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/config_token.c line 143
 unsigned long int cfg_token_count(struct cfg_tokens *tokens)
 {
-  unsigned long int return_value_list_size$1;
-  return_value_list_size$1=list_size(tokens->list);
-  return return_value_list_size$1;
+  unsigned long int return_value_list_size_1;
+  return_value_list_size_1=list_size(tokens->list);
+  return return_value_list_size_1;
 }
 
 // cfg_token_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/config_token.c line 148
 char * cfg_token_get(struct cfg_tokens *tokens, unsigned long int offset)
 {
-  void *return_value_list_get_index$1;
-  return_value_list_get_index$1=list_get_index(tokens->list, offset);
-  return (char *)return_value_list_get_index$1;
+  void *return_value_list_get_index_1;
+  return_value_list_get_index_1=list_get_index(tokens->list, offset);
+  return (char *)return_value_list_get_index_1;
 }
 
 // cfg_token_get_first
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/config_token.c line 153
 char * cfg_token_get_first(struct cfg_tokens *tokens)
 {
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(tokens->list);
-  return (char *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(tokens->list);
+  return (char *)return_value_list_get_first_1;
 }
 
 // cfg_token_get_next
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/config_token.c line 158
 char * cfg_token_get_next(struct cfg_tokens *tokens)
 {
-  void *return_value_list_get_next$1;
-  return_value_list_get_next$1=list_get_next(tokens->list);
-  return (char *)return_value_list_get_next$1;
+  void *return_value_list_get_next_1;
+  return_value_list_get_next_1=list_get_next(tokens->list);
+  return (char *)return_value_list_get_next_1;
 }
 
 // cfg_tokenize
@@ -5447,15 +5447,15 @@ char * cfg_token_get_next(struct cfg_tokens *tokens)
 struct cfg_tokens * cfg_tokenize(const char *line)
 {
   struct cfg_tokens *tokens;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct cfg_tokens) /*8ul*/ );
-  tokens = (struct cfg_tokens *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct cfg_tokens) /*8ul*/ );
+  tokens = (struct cfg_tokens *)return_value_hub_malloc_zero_1;
   char *buffer;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(line);
-  void *return_value_hub_malloc_zero$3;
-  return_value_hub_malloc_zero$3=hub_malloc_zero(return_value_strlen$2 + (unsigned long int)1);
-  buffer = (char *)return_value_hub_malloc_zero$3;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(line);
+  void *return_value_hub_malloc_zero_3;
+  return_value_hub_malloc_zero_3=hub_malloc_zero(return_value_strlen_2 + (unsigned long int)1);
+  buffer = (char *)return_value_hub_malloc_zero_3;
   char *out = buffer;
   const char *p = line;
   signed int backslash = 0;
@@ -5519,9 +5519,9 @@ struct cfg_tokens * cfg_tokenize(const char *line)
               out = out + 1l;
               token_size = token_size + 1ul;
               out = buffer;
-              signed int return_value_cfg_token_add$4;
-              return_value_cfg_token_add$4=cfg_token_add(tokens, out);
-              if(!(return_value_cfg_token_add$4 == 0))
+              signed int return_value_cfg_token_add_4;
+              return_value_cfg_token_add_4=cfg_token_add(tokens, out);
+              if(!(return_value_cfg_token_add_4 == 0))
                 token_count = token_count + 1ul;
 
               token_size = (unsigned long int)0;
@@ -5593,9 +5593,9 @@ struct cfg_tokens * cfg_tokenize(const char *line)
               out = out + 1l;
               token_size = token_size + 1ul;
               out = buffer;
-              signed int return_value_cfg_token_add$5;
-              return_value_cfg_token_add$5=cfg_token_add(tokens, out);
-              if(!(return_value_cfg_token_add$5 == 0))
+              signed int return_value_cfg_token_add_5;
+              return_value_cfg_token_add_5=cfg_token_add(tokens, out);
+              if(!(return_value_cfg_token_add_5 == 0))
                 token_count = token_count + 1ul;
 
               token_size = (unsigned long int)0;
@@ -5622,9 +5622,9 @@ struct cfg_tokens * cfg_tokenize(const char *line)
     out = out + 1l;
     token_size = token_size + 1ul;
     out = buffer;
-    signed int return_value_cfg_token_add$6;
-    return_value_cfg_token_add$6=cfg_token_add(tokens, out);
-    if(!(return_value_cfg_token_add$6 == 0))
+    signed int return_value_cfg_token_add_6;
+    return_value_cfg_token_add_6=cfg_token_add(tokens, out);
+    if(!(return_value_cfg_token_add_6 == 0))
       token_count = token_count + 1ul;
 
     token_size = (unsigned long int)0;
@@ -5652,19 +5652,19 @@ void cfg_tokens_free(struct cfg_tokens *tokens)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.c line 413
 static signed int check_ip_mask(const char *text_addr, signed int bits, struct ip_range *range)
 {
-  signed int return_value_ip_is_valid_ipv4$1;
-  return_value_ip_is_valid_ipv4$1=ip_is_valid_ipv4(text_addr);
-  _Bool tmp_if_expr$3;
-  signed int return_value_ip_is_valid_ipv6$2;
-  if(!(return_value_ip_is_valid_ipv4$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_ip_is_valid_ipv4_1;
+  return_value_ip_is_valid_ipv4_1=ip_is_valid_ipv4(text_addr);
+  _Bool tmp_if_expr_3;
+  signed int return_value_ip_is_valid_ipv6_2;
+  if(!(return_value_ip_is_valid_ipv4_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_ip_is_valid_ipv6$2=ip_is_valid_ipv6(text_addr);
-    tmp_if_expr$3 = return_value_ip_is_valid_ipv6$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ip_is_valid_ipv6_2=ip_is_valid_ipv6(text_addr);
+    tmp_if_expr_3 = return_value_ip_is_valid_ipv6_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     struct ip_addr_encap addr;
     struct ip_addr_encap mask1;
@@ -5689,39 +5689,39 @@ static signed int check_ip_range(const char *lo, const char *hi, struct ip_range
 {
   signed int ret1;
   signed int ret2;
-  signed int return_value_ip_is_valid_ipv4$1;
-  return_value_ip_is_valid_ipv4$1=ip_is_valid_ipv4(lo);
-  _Bool tmp_if_expr$3;
-  signed int return_value_ip_is_valid_ipv4$2;
-  if(!(return_value_ip_is_valid_ipv4$1 == 0))
+  signed int return_value_ip_is_valid_ipv4_1;
+  return_value_ip_is_valid_ipv4_1=ip_is_valid_ipv4(lo);
+  _Bool tmp_if_expr_3;
+  signed int return_value_ip_is_valid_ipv4_2;
+  if(!(return_value_ip_is_valid_ipv4_1 == 0))
   {
-    return_value_ip_is_valid_ipv4$2=ip_is_valid_ipv4(hi);
-    tmp_if_expr$3 = return_value_ip_is_valid_ipv4$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ip_is_valid_ipv4_2=ip_is_valid_ipv4(hi);
+    tmp_if_expr_3 = return_value_ip_is_valid_ipv4_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$7;
-  signed int return_value_ip_is_valid_ipv6$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_ip_is_valid_ipv6$5;
-  if(tmp_if_expr$3)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_7;
+  signed int return_value_ip_is_valid_ipv6_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_ip_is_valid_ipv6_5;
+  if(tmp_if_expr_3)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_ip_is_valid_ipv6$4=ip_is_valid_ipv6(lo);
-    if(!(return_value_ip_is_valid_ipv6$4 == 0))
+    return_value_ip_is_valid_ipv6_4=ip_is_valid_ipv6(lo);
+    if(!(return_value_ip_is_valid_ipv6_4 == 0))
     {
-      return_value_ip_is_valid_ipv6$5=ip_is_valid_ipv6(hi);
-      tmp_if_expr$6 = return_value_ip_is_valid_ipv6$5 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_ip_is_valid_ipv6_5=ip_is_valid_ipv6(hi);
+      tmp_if_expr_6 = return_value_ip_is_valid_ipv6_5 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (_Bool)0;
+    tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
   {
     ret1=ip_convert_to_binary(lo, &range->lo);
     ret2=ip_convert_to_binary(hi, &range->hi);
@@ -5821,11 +5821,11 @@ __CPROVER_DUMP_L1:
   fd=open(file, 0);
   if(fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    hub_log(1, "Unable to open file %s: %s", file, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    hub_log(1, "Unable to open file %s: %s", file, return_value_strerror_2);
     return -2;
   }
 
@@ -5833,11 +5833,11 @@ __CPROVER_DUMP_L1:
   close(fd);
   if(!(ret >= 0l))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    hub_log(1, "Unable to read from file %s: %s", file, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    hub_log(1, "Unable to read from file %s: %s", file, return_value_strerror_4);
     return -1;
   }
 
@@ -5851,9 +5851,9 @@ __CPROVER_DUMP_L1:
   buf[ret] = (char)0;
   split_data.handler = handler;
   split_data.data = data;
-  signed int return_value_string_split$5;
-  return_value_string_split$5=string_split(buf, "\n", (void *)&split_data, file_read_line_handler);
-  return return_value_string_split$5;
+  signed int return_value_string_split_5;
+  return_value_string_split_5=string_split(buf, "\n", (void *)&split_data, file_read_line_handler);
+  return return_value_string_split_5;
 }
 
 // find_and_remove_job
@@ -5861,11 +5861,11 @@ __CPROVER_DUMP_L1:
 static struct net_dns_job * find_and_remove_job(struct net_dns_job *job)
 {
   struct net_dns_job *it;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(g_dns->jobs);
-  it = (struct net_dns_job *)return_value_list_get_first$1;
-  void *return_value_list_get_next$2;
-  for( ; !(it == ((struct net_dns_job *)NULL)); it = (struct net_dns_job *)return_value_list_get_next$2)
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(g_dns->jobs);
+  it = (struct net_dns_job *)return_value_list_get_first_1;
+  void *return_value_list_get_next_2;
+  for( ; !(it == ((struct net_dns_job *)NULL)); it = (struct net_dns_job *)return_value_list_get_next_2)
   {
     if(it == job)
     {
@@ -5873,7 +5873,7 @@ static struct net_dns_job * find_and_remove_job(struct net_dns_job *job)
       return job;
     }
 
-    return_value_list_get_next$2=list_get_next(g_dns->jobs);
+    return_value_list_get_next_2=list_get_next(g_dns->jobs);
   }
   return (struct net_dns_job *)(void *)0;
 }
@@ -5883,11 +5883,11 @@ static struct net_dns_job * find_and_remove_job(struct net_dns_job *job)
 static struct net_dns_result * find_and_remove_result(struct net_dns_job *job)
 {
   struct net_dns_result *it;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(g_dns->results);
-  it = (struct net_dns_result *)return_value_list_get_first$1;
-  void *return_value_list_get_next$2;
-  for( ; !(it == ((struct net_dns_result *)NULL)); it = (struct net_dns_result *)return_value_list_get_next$2)
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(g_dns->results);
+  it = (struct net_dns_result *)return_value_list_get_first_1;
+  void *return_value_list_get_next_2;
+  for( ; !(it == ((struct net_dns_result *)NULL)); it = (struct net_dns_result *)return_value_list_get_next_2)
   {
     if(it->job == job)
     {
@@ -5895,7 +5895,7 @@ static struct net_dns_result * find_and_remove_result(struct net_dns_job *job)
       return it;
     }
 
-    return_value_list_get_next$2=list_get_next(g_dns->results);
+    return_value_list_get_next_2=list_get_next(g_dns->results);
   }
   return (struct net_dns_result *)(void *)0;
 }
@@ -6214,14 +6214,14 @@ extern signed int ip_convert_address(const char *text_address, signed int port, 
   const char *taddr = ((const char *)NULL);
   signed int ipv6sup;
   ipv6sup=net_is_ipv6_supported();
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_3;
   unsigned long int __s1_len;
-  unsigned long int ip_convert_address$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$4;
-  return_value___builtin_strcmp$4=__builtin_strcmp(text_address, "any");
-  tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-  signed int tmp_statement_expression$1;
-  if(tmp_statement_expression$3 == 0)
+  unsigned long int ip_convert_address__1__1____s2_len;
+  signed int return_value___builtin_strcmp_4;
+  return_value___builtin_strcmp_4=__builtin_strcmp(text_address, "any");
+  tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+  signed int tmp_statement_expression_1;
+  if(tmp_statement_expression_3 == 0)
   {
     if(!(ipv6sup == 0))
       taddr = "::";
@@ -6232,12 +6232,12 @@ extern signed int ip_convert_address(const char *text_address, signed int port, 
 
   else
   {
-    unsigned long int ip_convert_address$$1$$3$$__s1_len;
+    unsigned long int ip_convert_address__1__3____s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(text_address, "loopback");
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(text_address, "loopback");
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
     {
       if(!(ipv6sup == 0))
         taddr = "::1";
@@ -6249,24 +6249,24 @@ extern signed int ip_convert_address(const char *text_address, signed int port, 
     else
       taddr = text_address;
   }
-  signed int return_value_ip_is_valid_ipv6$10;
-  return_value_ip_is_valid_ipv6$10=ip_is_valid_ipv6(taddr);
-  unsigned short int tmp_statement_expression$5;
-  signed int return_value_ip_is_valid_ipv4$9;
-  unsigned short int tmp_statement_expression$7;
-  if(!(return_value_ip_is_valid_ipv6$10 == 0) && !(ipv6sup == 0))
+  signed int return_value_ip_is_valid_ipv6_10;
+  return_value_ip_is_valid_ipv6_10=ip_is_valid_ipv6(taddr);
+  unsigned short int tmp_statement_expression_5;
+  signed int return_value_ip_is_valid_ipv4_9;
+  unsigned short int tmp_statement_expression_7;
+  if(!(return_value_ip_is_valid_ipv6_10 == 0) && !(ipv6sup == 0))
   {
     sockaddr_size = sizeof(struct sockaddr_in6) /*28ul*/ ;
     memset((void *)&addr6, 0, sockaddr_size);
     addr6.sin6_family = (unsigned short int)10;
-    unsigned short int ip_convert_address$$1$$6$$1$$__v;
-    unsigned short int ip_convert_address$$1$$6$$1$$__x = (unsigned short int)port;
-    asm("rorw $8, %w0" : "=r"(ip_convert_address$$1$$6$$1$$__v) : "0"(ip_convert_address$$1$$6$$1$$__x) : "cc");
-    tmp_statement_expression$5 = ip_convert_address$$1$$6$$1$$__v;
-    addr6.sin6_port = tmp_statement_expression$5;
-    signed int return_value_net_string_to_address$6;
-    return_value_net_string_to_address$6=net_string_to_address(10, taddr, (void *)&addr6.sin6_addr);
-    if(!(return_value_net_string_to_address$6 >= 1))
+    unsigned short int ip_convert_address__1__6__1____v;
+    unsigned short int ip_convert_address__1__6__1____x = (unsigned short int)port;
+    asm("rorw _8, %w0" : "=r"(ip_convert_address__1__6__1____v) : "0"(ip_convert_address__1__6__1____x) : "cc");
+    tmp_statement_expression_5 = ip_convert_address__1__6__1____v;
+    addr6.sin6_port = tmp_statement_expression_5;
+    signed int return_value_net_string_to_address_6;
+    return_value_net_string_to_address_6=net_string_to_address(10, taddr, (void *)&addr6.sin6_addr);
+    if(!(return_value_net_string_to_address_6 >= 1))
     {
       hub_log(1, "Unable to convert socket address (ipv6)");
       return 0;
@@ -6278,20 +6278,20 @@ extern signed int ip_convert_address(const char *text_address, signed int port, 
 
   else
   {
-    return_value_ip_is_valid_ipv4$9=ip_is_valid_ipv4(taddr);
-    if(!(return_value_ip_is_valid_ipv4$9 == 0))
+    return_value_ip_is_valid_ipv4_9=ip_is_valid_ipv4(taddr);
+    if(!(return_value_ip_is_valid_ipv4_9 == 0))
     {
       sockaddr_size = sizeof(struct sockaddr_in) /*16ul*/ ;
       memset((void *)&addr4, 0, sockaddr_size);
       addr4.sin_family = (unsigned short int)2;
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$7 = __v;
-      addr4.sin_port = tmp_statement_expression$7;
-      signed int return_value_net_string_to_address$8;
-      return_value_net_string_to_address$8=net_string_to_address(2, taddr, (void *)&addr4.sin_addr);
-      if(!(return_value_net_string_to_address$8 >= 1))
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_7 = __v;
+      addr4.sin_port = tmp_statement_expression_7;
+      signed int return_value_net_string_to_address_8;
+      return_value_net_string_to_address_8=net_string_to_address(2, taddr, (void *)&addr4.sin_addr);
+      if(!(return_value_net_string_to_address_8 >= 1))
       {
         hub_log(1, "Unable to convert socket address (ipv4)");
         return 0;
@@ -6318,8 +6318,8 @@ extern signed int ip_convert_address_to_range(const char *address, struct ip_ran
   signed int ret = 0;
   char *addr = ((char *)NULL);
   const char *split;
-  _Bool tmp_if_expr$6;
-  signed int return_value_ip_is_valid_ipv6$5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_ip_is_valid_ipv6_5;
   if(address == ((const char *)NULL) || range == ((struct ip_range *)NULL))
     return 0;
 
@@ -6337,9 +6337,9 @@ extern signed int ip_convert_address_to_range(const char *address, struct ip_ran
 
       }
 
-      char *return_value___strndup$1;
-      return_value___strndup$1=__strndup(address, (unsigned long int)(split - address));
-      addr = return_value___strndup$1;
+      char *return_value___strndup_1;
+      return_value___strndup_1=__strndup(address, (unsigned long int)(split - address));
+      addr = return_value___strndup_1;
       ret=check_ip_mask(addr, mask, range);
       free((void *)addr);
       return ret;
@@ -6348,29 +6348,29 @@ extern signed int ip_convert_address_to_range(const char *address, struct ip_ran
     split=strrchr(address, 45);
     if(!(split == ((const char *)NULL)))
     {
-      char *return_value___strndup$2;
-      return_value___strndup$2=__strndup(address, (unsigned long int)(split - address));
-      addr = return_value___strndup$2;
+      char *return_value___strndup_2;
+      return_value___strndup_2=__strndup(address, (unsigned long int)(split - address));
+      addr = return_value___strndup_2;
       ret=check_ip_range(addr, split + (signed long int)1, range);
       free((void *)addr);
       return ret;
     }
 
-    signed int return_value_ip_is_valid_ipv4$4;
-    return_value_ip_is_valid_ipv4$4=ip_is_valid_ipv4(address);
-    if(!(return_value_ip_is_valid_ipv4$4 == 0))
-      tmp_if_expr$6 = (_Bool)1;
+    signed int return_value_ip_is_valid_ipv4_4;
+    return_value_ip_is_valid_ipv4_4=ip_is_valid_ipv4(address);
+    if(!(return_value_ip_is_valid_ipv4_4 == 0))
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_ip_is_valid_ipv6$5=ip_is_valid_ipv6(address);
-      tmp_if_expr$6 = return_value_ip_is_valid_ipv6$5 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_ip_is_valid_ipv6_5=ip_is_valid_ipv6(address);
+      tmp_if_expr_6 = return_value_ip_is_valid_ipv6_5 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
-      signed int return_value_ip_convert_to_binary$3;
-      return_value_ip_convert_to_binary$3=ip_convert_to_binary(address, &range->lo);
-      if(return_value_ip_convert_to_binary$3 == -1)
+      signed int return_value_ip_convert_to_binary_3;
+      return_value_ip_convert_to_binary_3=ip_convert_to_binary(address, &range->lo);
+      if(return_value_ip_convert_to_binary_3 == -1)
         return 0;
 
       memcpy((void *)&range->hi, (const void *)&range->lo, sizeof(struct ip_addr_encap) /*20ul*/ );
@@ -6385,14 +6385,14 @@ extern signed int ip_convert_address_to_range(const char *address, struct ip_ran
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.c line 68
 extern signed int ip_convert_to_binary(const char *taddr, struct ip_addr_encap *raw)
 {
-  signed int return_value_ip_is_valid_ipv6$4;
-  return_value_ip_is_valid_ipv6$4=ip_is_valid_ipv6(taddr);
-  signed int return_value_ip_is_valid_ipv4$3;
-  if(!(return_value_ip_is_valid_ipv6$4 == 0))
+  signed int return_value_ip_is_valid_ipv6_4;
+  return_value_ip_is_valid_ipv6_4=ip_is_valid_ipv6(taddr);
+  signed int return_value_ip_is_valid_ipv4_3;
+  if(!(return_value_ip_is_valid_ipv6_4 == 0))
   {
-    signed int return_value_net_string_to_address$1;
-    return_value_net_string_to_address$1=net_string_to_address(10, taddr, (void *)&raw->internal_ip_data.in6);
-    if(!(return_value_net_string_to_address$1 >= 1))
+    signed int return_value_net_string_to_address_1;
+    return_value_net_string_to_address_1=net_string_to_address(10, taddr, (void *)&raw->internal_ip_data.in6);
+    if(!(return_value_net_string_to_address_1 >= 1))
       return -1;
 
     raw->af = 10;
@@ -6401,12 +6401,12 @@ extern signed int ip_convert_to_binary(const char *taddr, struct ip_addr_encap *
 
   else
   {
-    return_value_ip_is_valid_ipv4$3=ip_is_valid_ipv4(taddr);
-    if(!(return_value_ip_is_valid_ipv4$3 == 0))
+    return_value_ip_is_valid_ipv4_3=ip_is_valid_ipv4(taddr);
+    if(!(return_value_ip_is_valid_ipv4_3 == 0))
     {
-      signed int return_value_net_string_to_address$2;
-      return_value_net_string_to_address$2=net_string_to_address(2, taddr, (void *)&raw->internal_ip_data.in);
-      if(!(return_value_net_string_to_address$2 >= 1))
+      signed int return_value_net_string_to_address_2;
+      return_value_net_string_to_address_2=net_string_to_address(2, taddr, (void *)&raw->internal_ip_data.in);
+      if(!(return_value_net_string_to_address_2 >= 1))
         return -1;
 
       raw->af = 2;
@@ -6424,9 +6424,9 @@ extern const char * ip_convert_to_string(struct ip_addr_encap *raw)
   static char address[47l];
   memset((void *)address, 0, (unsigned long int)46);
   net_address_to_string(raw->af, (void *)&raw->internal_ip_data, address, (unsigned int)(46 + 1));
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(address, "::ffff:", (unsigned long int)7);
-  if(return_value_strncmp$1 == 0)
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(address, "::ffff:", (unsigned long int)7);
+  if(return_value_strncmp_1 == 0)
     return &address[(signed long int)7];
 
   else
@@ -6437,27 +6437,27 @@ extern const char * ip_convert_to_string(struct ip_addr_encap *raw)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.c line 487
 extern signed int ip_in_range(struct ip_addr_encap *addr, struct ip_range *range)
 {
-  _Bool tmp_if_expr$2;
-  signed int return_value_ip_compare$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_ip_compare_1;
   if(addr->af == range->lo.af)
   {
-    return_value_ip_compare$1=ip_compare(&range->lo, addr);
-    tmp_if_expr$2 = return_value_ip_compare$1 <= 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ip_compare_1=ip_compare(&range->lo, addr);
+    tmp_if_expr_2 = return_value_ip_compare_1 <= 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  signed int return_value_ip_compare$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  signed int return_value_ip_compare_3;
+  if(tmp_if_expr_2)
   {
-    return_value_ip_compare$3=ip_compare(addr, &range->hi);
-    tmp_if_expr$4 = return_value_ip_compare$3 <= 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ip_compare_3=ip_compare(addr, &range->hi);
+    tmp_if_expr_4 = return_value_ip_compare_3 <= 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  return (signed int)tmp_if_expr$4;
+    tmp_if_expr_4 = (_Bool)0;
+  return (signed int)tmp_if_expr_4;
 }
 
 // ip_is_valid_ipv4
@@ -6468,41 +6468,41 @@ extern signed int ip_is_valid_ipv4(const char *address)
   signed int o = 0;
   signed int n = 0;
   signed int d = 0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(address == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(address);
-    tmp_if_expr$2 = return_value_strlen$1 > (unsigned long int)15 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(address);
+    tmp_if_expr_2 = return_value_strlen_1 > (unsigned long int)15 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_strlen$3=strlen(address);
-    tmp_if_expr$4 = return_value_strlen$3 < (unsigned long int)7 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_3=strlen(address);
+    tmp_if_expr_4 = return_value_strlen_3 < (unsigned long int)7 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int return_value_strlen$5;
-  if(tmp_if_expr$4)
+  unsigned long int return_value_strlen_5;
+  if(tmp_if_expr_4)
     return 0;
 
   else
   {
     do
     {
-      return_value_strlen$5=strlen(address);
-      if(i >= return_value_strlen$5)
+      return_value_strlen_5=strlen(address);
+      if(i >= return_value_strlen_5)
         break;
 
-      signed int return_value_is_num$6;
-      return_value_is_num$6=is_num(address[(signed long int)i]);
-      if(!(return_value_is_num$6 == 0))
+      signed int return_value_is_num_6;
+      return_value_is_num_6=is_num(address[(signed long int)i]);
+      if(!(return_value_is_num_6 == 0))
       {
         n = n + 1;
         o = o * 10;
@@ -6736,13 +6736,13 @@ extern signed int is_num(char c)
 extern signed int is_number(const char *value, signed int *num)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(value);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(value);
+  len = (signed int)return_value_strlen_1;
   signed int offset = (signed int)value[(signed long int)0] == 45 ? 1 : 0;
   signed int val = 0;
   signed int i = offset;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(value[(signed long int)offset] == 0)
     return 0;
 
@@ -6751,11 +6751,11 @@ extern signed int is_number(const char *value, signed int *num)
     for( ; !(i >= len); i = i + 1)
     {
       if((signed int)value[(signed long int)i] >= 58)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)value[(signed long int)i] < 48 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)value[(signed long int)i] < 48 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         return 0;
 
     }
@@ -6790,28 +6790,28 @@ extern signed int is_printable_utf8(const char *string, unsigned long int length
   pos = (unsigned long int)0;
   for( ; !(pos >= length); pos = pos + 1ul)
   {
-    signed int return_value_is_printable$1;
-    return_value_is_printable$1=is_printable((unsigned char)string[(signed long int)pos]);
-    if(return_value_is_printable$1 == 0)
+    signed int return_value_is_printable_1;
+    return_value_is_printable_1=is_printable((unsigned char)string[(signed long int)pos]);
+    if(return_value_is_printable_1 == 0)
       return 0;
 
   }
-  signed int return_value_is_valid_utf8_str$2;
-  return_value_is_valid_utf8_str$2=is_valid_utf8_str(string, length);
-  return return_value_is_valid_utf8_str$2;
+  signed int return_value_is_valid_utf8_str_2;
+  return_value_is_valid_utf8_str_2=is_valid_utf8_str(string, length);
+  return return_value_is_valid_utf8_str_2;
 }
 
 // is_red
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 49
 static signed int is_red(struct rb_node *node)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(node == ((struct rb_node *)NULL)))
-    tmp_if_expr$1 = node->red != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = node->red != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // is_space
@@ -6840,11 +6840,11 @@ extern signed int is_valid_base32_char(char c)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.h line 30
 extern signed int is_valid_utf8(const char *string)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  signed int return_value_is_valid_utf8_str$2;
-  return_value_is_valid_utf8_str$2=is_valid_utf8_str(string, return_value_strlen$1);
-  return return_value_is_valid_utf8_str$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  signed int return_value_is_valid_utf8_str_2;
+  return_value_is_valid_utf8_str_2=is_valid_utf8_str(string, return_value_strlen_1);
+  return return_value_is_valid_utf8_str_2;
 }
 
 // is_valid_utf8_str
@@ -6924,9 +6924,9 @@ static void * job_thread_resolve_name(void *ptr)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct net_dns_result) /*16ul*/ );
-    dns_results = (struct net_dns_result *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct net_dns_result) /*16ul*/ );
+    dns_results = (struct net_dns_result *)return_value_malloc_1;
     dns_results->addr_list=list_create();
     dns_results->job = job;
     if(!(ret == -2))
@@ -6935,9 +6935,9 @@ static void * job_thread_resolve_name(void *ptr)
       for( ; !(it == ((struct addrinfo *)NULL)); it = it->ai_next)
       {
         struct ip_addr_encap *ipaddr;
-        void *return_value_hub_malloc_zero$2;
-        return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct ip_addr_encap) /*20ul*/ );
-        ipaddr = (struct ip_addr_encap *)return_value_hub_malloc_zero$2;
+        void *return_value_hub_malloc_zero_2;
+        return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct ip_addr_encap) /*20ul*/ );
+        ipaddr = (struct ip_addr_encap *)return_value_hub_malloc_zero_2;
         ipaddr->af = it->ai_family;
         if(it->ai_family == 2)
         {
@@ -7003,9 +7003,9 @@ static signed int list(unsigned long int argc, const char **argv)
 extern void list_append(struct linked_list *list, void *data_ptr)
 {
   struct node *new_node;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct node) /*24ul*/ );
-  new_node = (struct node *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct node) /*24ul*/ );
+  new_node = (struct node *)return_value_hub_malloc_zero_1;
   if(new_node == ((struct node *)NULL))
     hub_log(0, "Unable to allocate memory");
 
@@ -7046,15 +7046,15 @@ extern void list_clear(struct linked_list *list, void (*free_handle)(void *))
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/list.h line 38
 extern struct linked_list * list_create()
 {
-  struct linked_list *list_create$$1$$list = (struct linked_list *)(void *)0;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct linked_list) /*32ul*/ );
-  list_create$$1$$list = (struct linked_list *)return_value_hub_malloc_zero$1;
-  if(list_create$$1$$list == ((struct linked_list *)NULL))
+  struct linked_list *list_create__1__list = (struct linked_list *)(void *)0;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct linked_list) /*32ul*/ );
+  list_create__1__list = (struct linked_list *)return_value_hub_malloc_zero_1;
+  if(list_create__1__list == ((struct linked_list *)NULL))
     return (struct linked_list *)(void *)0;
 
   else
-    return list_create$$1$$list;
+    return list_create__1__list;
 }
 
 // list_destroy
@@ -7211,7 +7211,7 @@ signed int main(signed int argc, char **argv)
   binary = argv[(signed long int)0];
   filename = argv[(signed long int)1];
   command = argv[(signed long int)2];
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   signed int return_value;
   if(!(argc >= 3))
   {
@@ -7225,10 +7225,10 @@ signed int main(signed int argc, char **argv)
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(command, COMMANDS[(signed long int)n].command);
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(command, COMMANDS[(signed long int)n].command);
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
       {
         return_value=COMMANDS[(signed long int)n].handle((unsigned long int)(argc - 3), (const char **)&argv[(signed long int)3]);
         return return_value;
@@ -7285,12 +7285,12 @@ extern signed int net_accept(signed int fd, struct ip_addr_encap *ipaddr)
   addr4 = (struct sockaddr_in *)&addr;
   addr6 = (struct sockaddr_in6 *)&addr;
   ret=accept(fd, (struct sockaddr *)&addr, &addr_size);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(ret == -1)
   {
-    signed int return_value_net_error$1;
-    return_value_net_error$1=net_error();
-    switch(return_value_net_error$1)
+    signed int return_value_net_error_1;
+    return_value_net_error_1=net_error();
+    switch(return_value_net_error_1)
     {
       case 100:
 
@@ -7306,8 +7306,8 @@ extern signed int net_accept(signed int fd, struct ip_addr_encap *ipaddr)
 
       case 95:
       {
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 11;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 11;
       }
       case 11:
         break;
@@ -7331,9 +7331,9 @@ extern signed int net_accept(signed int fd, struct ip_addr_encap *ipaddr)
       {
         char address[47l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
         net_address_to_string(10, (void *)&addr6->sin6_addr, address, (unsigned int)(46 + 1));
-        char *return_value___builtin_strchr$3;
-        return_value___builtin_strchr$3=__builtin_strchr(address, 46);
-        if(!(return_value___builtin_strchr$3 == ((char *)NULL)))
+        char *return_value___builtin_strchr_3;
+        return_value___builtin_strchr_3=__builtin_strchr(address, 46);
+        if(!(return_value___builtin_strchr_3 == ((char *)NULL)))
         {
           ipaddr->af = 2;
           net_string_to_address(2, address, (void *)&ipaddr->internal_ip_data.in);
@@ -7355,15 +7355,15 @@ extern signed int net_accept(signed int fd, struct ip_addr_encap *ipaddr)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 501
 extern const char * net_address_to_string(signed int af, const void *src, char *dst, unsigned int cnt)
 {
-  const char *return_value_inet_ntop$2;
-  return_value_inet_ntop$2=inet_ntop(af, src, dst, cnt);
-  signed int return_value_strncmp$1;
-  if(!(return_value_inet_ntop$2 == ((const char *)NULL)))
+  const char *return_value_inet_ntop_2;
+  return_value_inet_ntop_2=inet_ntop(af, src, dst, cnt);
+  signed int return_value_strncmp_1;
+  if(!(return_value_inet_ntop_2 == ((const char *)NULL)))
   {
     if(af == 10)
     {
-      return_value_strncmp$1=strncmp(dst, "::ffff:", (unsigned long int)7);
-      if(return_value_strncmp$1 == 0)
+      return_value_strncmp_1=strncmp(dst, "::ffff:", (unsigned long int)7);
+      if(return_value_strncmp_1 == 0)
         memmove((void *)dst, (const void *)(dst + (signed long int)7), (unsigned long int)(cnt - (unsigned int)7));
 
     }
@@ -7390,9 +7390,9 @@ extern struct timeout_queue * net_backend_get_timeout_queue()
 extern signed int net_backend_init()
 {
   unsigned long int n;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_backend) /*136ul*/ );
-  g_backend = (struct net_backend *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_backend) /*136ul*/ );
+  g_backend = (struct net_backend *)return_value_hub_malloc_zero_1;
   g_backend->common.num = (unsigned long int)0;
   g_backend->common.max=net_get_max_sockets();
   g_backend->now=time(((signed long int *)NULL));
@@ -7417,16 +7417,16 @@ extern signed int net_backend_init()
 struct net_backend * net_backend_init_epoll(struct net_backend_handler *handler, struct net_backend_common *common)
 {
   struct net_backend_epoll *backend;
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("EVENT_NOEPOLL");
-  if(!(return_value_getenv$1 == ((char *)NULL)))
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("EVENT_NOEPOLL");
+  if(!(return_value_getenv_1 == ((char *)NULL)))
     return ((struct net_backend *)NULL);
 
   else
   {
-    void *return_value_hub_malloc_zero$2;
-    return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct net_backend_epoll) /*6168ul*/ );
-    backend = (struct net_backend_epoll *)return_value_hub_malloc_zero$2;
+    void *return_value_hub_malloc_zero_2;
+    return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct net_backend_epoll) /*6168ul*/ );
+    backend = (struct net_backend_epoll *)return_value_hub_malloc_zero_2;
     backend->epfd=epoll_create((signed int)common->max);
     if(backend->epfd == -1)
     {
@@ -7437,11 +7437,11 @@ struct net_backend * net_backend_init_epoll(struct net_backend_handler *handler,
 
     else
     {
-      void *return_value_hub_malloc_zero$3;
-      return_value_hub_malloc_zero$3=hub_malloc_zero(sizeof(struct net_connection_epoll *) /*8ul*/  * common->max);
-      backend->conns = (struct net_connection_epoll **)return_value_hub_malloc_zero$3;
+      void *return_value_hub_malloc_zero_3;
+      return_value_hub_malloc_zero_3=hub_malloc_zero(sizeof(struct net_connection_epoll *) /*8ul*/  * common->max);
+      backend->conns = (struct net_connection_epoll **)return_value_hub_malloc_zero_3;
       backend->common = common;
-      net_backend_set_handlers$link1(handler);
+      net_backend_set_handlers_link1(handler);
       return (struct net_backend *)backend;
     }
   }
@@ -7452,33 +7452,33 @@ struct net_backend * net_backend_init_epoll(struct net_backend_handler *handler,
 struct net_backend * net_backend_init_select(struct net_backend_handler *handler, struct net_backend_common *common)
 {
   struct net_backend_select *backend;
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("EVENT_NOSELECT");
-  if(!(return_value_getenv$1 == ((char *)NULL)))
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("EVENT_NOSELECT");
+  if(!(return_value_getenv_1 == ((char *)NULL)))
     return ((struct net_backend *)NULL);
 
   else
   {
-    void *return_value_hub_malloc_zero$2;
-    return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct net_backend_select) /*408ul*/ );
-    backend = (struct net_backend_select *)return_value_hub_malloc_zero$2;
+    void *return_value_hub_malloc_zero_2;
+    return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct net_backend_select) /*408ul*/ );
+    backend = (struct net_backend_select *)return_value_hub_malloc_zero_2;
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->rfds)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->rfds)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
-      signed int net_backend_init_select$$1$$2$$__d0;
-      signed int net_backend_init_select$$1$$2$$__d1;
-      asm("cld; rep; stosq" : "=c"(net_backend_init_select$$1$$2$$__d0), "=D"(net_backend_init_select$$1$$2$$__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->wfds)->fds_bits[(signed long int)0]) : "memory");
+      signed int net_backend_init_select__1__2____d0;
+      signed int net_backend_init_select__1__2____d1;
+      asm("cld; rep; stosq" : "=c"(net_backend_init_select__1__2____d0), "=D"(net_backend_init_select__1__2____d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->wfds)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
-    void *return_value_hub_malloc_zero$3;
-    return_value_hub_malloc_zero$3=hub_malloc_zero(sizeof(struct net_connection_select *) /*8ul*/  * common->max);
-    backend->conns = (struct net_connection_select **)return_value_hub_malloc_zero$3;
+    void *return_value_hub_malloc_zero_3;
+    return_value_hub_malloc_zero_3=hub_malloc_zero(sizeof(struct net_connection_select *) /*8ul*/  * common->max);
+    backend->conns = (struct net_connection_select **)return_value_hub_malloc_zero_3;
     backend->common = common;
     net_backend_set_handlers(handler);
     return (struct net_backend *)backend;
@@ -7505,18 +7505,18 @@ signed int net_backend_poll_epoll(struct net_backend *data, signed int ms)
 {
   struct net_backend_epoll *backend = (struct net_backend_epoll *)data;
   signed int res;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(backend->common->num >= 512ul))
-    tmp_if_expr$1 = backend->common->num;
+    tmp_if_expr_1 = backend->common->num;
 
   else
-    tmp_if_expr$1 = (unsigned long int)512;
-  res=epoll_wait(backend->epfd, backend->events, (signed int)tmp_if_expr$1, ms);
-  signed int *return_value___errno_location$2;
+    tmp_if_expr_1 = (unsigned long int)512;
+  res=epoll_wait(backend->epfd, backend->events, (signed int)tmp_if_expr_1, ms);
+  signed int *return_value___errno_location_2;
   if(res == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 4))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 4))
       goto __CPROVER_DUMP_L3;
 
     return 0;
@@ -7544,37 +7544,37 @@ signed int net_backend_poll_select(struct net_backend *data, signed int ms)
   tval.tv_usec = (signed long int)((ms % 1000) * 1000);
   do
   {
-    signed int net_backend_poll_select$$1$$1$$__d0;
-    signed int net_backend_poll_select$$1$$1$$__d1;
-    asm("cld; rep; stosq" : "=c"(net_backend_poll_select$$1$$1$$__d0), "=D"(net_backend_poll_select$$1$$1$$__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->rfds)->fds_bits[(signed long int)0]) : "memory");
+    signed int net_backend_poll_select__1__1____d0;
+    signed int net_backend_poll_select__1__1____d1;
+    asm("cld; rep; stosq" : "=c"(net_backend_poll_select__1__1____d0), "=D"(net_backend_poll_select__1__1____d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->rfds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   do
   {
-    signed int net_backend_poll_select$$1$$2$$__d0;
+    signed int net_backend_poll_select__1__2____d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(net_backend_poll_select$$1$$2$$__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->wfds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(net_backend_poll_select__1__2____d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->wfds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   do
   {
     signed int __d0;
-    signed int net_backend_poll_select$$1$$3$$__d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(net_backend_poll_select$$1$$3$$__d1) : "a"(0), "0"(sizeof(struct anonymous$9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->xfds)->fds_bits[(signed long int)0]) : "memory");
+    signed int net_backend_poll_select__1__3____d1;
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(net_backend_poll_select__1__3____d1) : "a"(0), "0"(sizeof(struct anonymous_9) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->xfds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   backend->maxfd = -1;
   n = (unsigned long int)0;
   found = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(found >= backend->common->num))
-      tmp_if_expr$1 = n < backend->common->max ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = n < backend->common->max ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     struct net_connection_select *con = backend->conns[(signed long int)n];
@@ -7597,14 +7597,14 @@ signed int net_backend_poll_select(struct net_backend *data, signed int ms)
   res=select(backend->maxfd, &backend->rfds, &backend->wfds, &backend->xfds, &tval);
   if(res == -1)
   {
-    signed int return_value_net_error$2;
-    return_value_net_error$2=net_error();
-    if(return_value_net_error$2 == 4)
+    signed int return_value_net_error_2;
+    return_value_net_error_2=net_error();
+    if(return_value_net_error_2 == 4)
       return 0;
 
-    signed int return_value_net_error$3;
-    return_value_net_error$3=net_error();
-    printf("Error: %d\n", return_value_net_error$3);
+    signed int return_value_net_error_3;
+    return_value_net_error_3=net_error();
+    printf("Error: %d\n", return_value_net_error_3);
   }
 
   return res;
@@ -7670,15 +7670,15 @@ void net_backend_process_select(struct net_backend *data, signed int res)
   struct net_backend_select *backend = (struct net_backend_select *)data;
   n = 0;
   found = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(found >= res))
-      tmp_if_expr$1 = n < backend->maxfd ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = n < backend->maxfd ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     struct net_connection_select *con = backend->conns[(signed long int)n];
@@ -7719,19 +7719,19 @@ static void net_backend_set_handlers(struct net_backend_handler *handler)
   handler->con_del = net_con_backend_del_select;
 }
 
-// net_backend_set_handlers$link1
+// net_backend_set_handlers_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/epoll.c line 174
-static void net_backend_set_handlers$link1(struct net_backend_handler *handler$link1)
+static void net_backend_set_handlers_link1(struct net_backend_handler *handler_link1)
 {
-  handler$link1->backend_name = net_backend_name_epoll;
-  handler$link1->backend_poll = net_backend_poll_epoll;
-  handler$link1->backend_process = net_backend_process_epoll;
-  handler$link1->backend_shutdown = net_backend_shutdown_epoll;
-  handler$link1->con_create = net_con_create_epoll;
-  handler$link1->con_init = net_con_initialize_epoll;
-  handler$link1->con_add = net_con_backend_add_epoll;
-  handler$link1->con_mod = net_con_backend_mod_epoll;
-  handler$link1->con_del = net_con_backend_del_epoll;
+  handler_link1->backend_name = net_backend_name_epoll;
+  handler_link1->backend_poll = net_backend_poll_epoll;
+  handler_link1->backend_process = net_backend_process_epoll;
+  handler_link1->backend_shutdown = net_backend_shutdown_epoll;
+  handler_link1->con_create = net_con_create_epoll;
+  handler_link1->con_init = net_con_initialize_epoll;
+  handler_link1->con_add = net_con_backend_add_epoll;
+  handler_link1->con_mod = net_con_backend_mod_epoll;
+  handler_link1->con_del = net_con_backend_del_epoll;
 }
 
 // net_backend_shutdown
@@ -7783,9 +7783,9 @@ extern signed int net_bind(signed int fd, struct sockaddr *my_addr, unsigned int
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 212
 void net_cleanup_delayed_free(struct net_cleanup_handler *handler, struct net_connection *con)
 {
-  unsigned long int tmp_post$1 = handler->num;
+  unsigned long int tmp_post_1 = handler->num;
   handler->num = handler->num + 1ul;
-  handler->queue[(signed long int)tmp_post$1] = con;
+  handler->queue[(signed long int)tmp_post_1] = con;
   con->flags = con->flags | (unsigned int)0x8000;
 }
 
@@ -7794,14 +7794,14 @@ void net_cleanup_delayed_free(struct net_cleanup_handler *handler, struct net_co
 struct net_cleanup_handler * net_cleanup_initialize(unsigned long int max)
 {
   struct net_cleanup_handler *handler;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct net_cleanup_handler) /*24ul*/ );
-  handler = (struct net_cleanup_handler *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct net_cleanup_handler) /*24ul*/ );
+  handler = (struct net_cleanup_handler *)return_value_malloc_1;
   handler->num = (unsigned long int)0;
   handler->max = max;
-  void *return_value_hub_malloc_zero$2;
-  return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct net_connection *) /*8ul*/  * max);
-  handler->queue = (struct net_connection **)return_value_hub_malloc_zero$2;
+  void *return_value_hub_malloc_zero_2;
+  return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct net_connection *) /*8ul*/  * max);
+  handler->queue = (struct net_connection **)return_value_hub_malloc_zero_2;
   return handler;
 }
 
@@ -7859,9 +7859,9 @@ void net_con_backend_add_epoll(struct net_backend *data, struct net_connection *
   if(!((0x0004 & events) == 0))
     con->ev.events = con->ev.events | (unsigned int)4;
 
-  signed int return_value_epoll_ctl$1;
-  return_value_epoll_ctl$1=epoll_ctl(backend->epfd, 1, con->sd, &con->ev);
-  if(return_value_epoll_ctl$1 == -1)
+  signed int return_value_epoll_ctl_1;
+  return_value_epoll_ctl_1=epoll_ctl(backend->epfd, 1, con->sd, &con->ev);
+  if(return_value_epoll_ctl_1 == -1)
 
     __CPROVER_DUMP_L3:
       ;
@@ -7884,9 +7884,9 @@ void net_con_backend_del_epoll(struct net_backend *data, struct net_connection *
   struct net_backend_epoll *backend = (struct net_backend_epoll *)data;
   struct net_connection_epoll *con = (struct net_connection_epoll *)con_;
   backend->conns[(signed long int)con->sd] = ((struct net_connection_epoll *)NULL);
-  signed int return_value_epoll_ctl$1;
-  return_value_epoll_ctl$1=epoll_ctl(backend->epfd, 2, con->sd, &con->ev);
-  if(return_value_epoll_ctl$1 == -1)
+  signed int return_value_epoll_ctl_1;
+  return_value_epoll_ctl_1=epoll_ctl(backend->epfd, 2, con->sd, &con->ev);
+  if(return_value_epoll_ctl_1 == -1)
     hub_log(2, "epoll_ctl() delete failed.");
 
 }
@@ -7915,9 +7915,9 @@ void net_con_backend_mod_epoll(struct net_backend *data, struct net_connection *
   if(!((unsigned int)newev == con->ev.events))
   {
     con->ev.events = (unsigned int)newev;
-    signed int return_value_epoll_ctl$1;
-    return_value_epoll_ctl$1=epoll_ctl(backend->epfd, 3, con->sd, &con->ev);
-    if(return_value_epoll_ctl$1 == -1)
+    signed int return_value_epoll_ctl_1;
+    return_value_epoll_ctl_1=epoll_ctl(backend->epfd, 3, con->sd, &con->ev);
+    if(return_value_epoll_ctl_1 == -1)
 
       __CPROVER_DUMP_L4:
         ;
@@ -7961,15 +7961,15 @@ extern void net_con_callback(struct net_connection *con, signed int events)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timer.c line 42
 extern void net_con_clear_timeout(struct net_connection *con)
 {
-  signed int return_value_timeout_evt_is_scheduled$2;
+  signed int return_value_timeout_evt_is_scheduled_2;
   if(!(con->timeout == ((struct timeout_evt *)NULL)))
   {
-    return_value_timeout_evt_is_scheduled$2=timeout_evt_is_scheduled(con->timeout);
-    if(!(return_value_timeout_evt_is_scheduled$2 == 0))
+    return_value_timeout_evt_is_scheduled_2=timeout_evt_is_scheduled(con->timeout);
+    if(!(return_value_timeout_evt_is_scheduled_2 == 0))
     {
-      struct timeout_queue *return_value_net_backend_get_timeout_queue$1;
-      return_value_net_backend_get_timeout_queue$1=net_backend_get_timeout_queue();
-      timeout_queue_remove(return_value_net_backend_get_timeout_queue$1, con->timeout);
+      struct timeout_queue *return_value_net_backend_get_timeout_queue_1;
+      return_value_net_backend_get_timeout_queue_1=net_backend_get_timeout_queue();
+      timeout_queue_remove(return_value_net_backend_get_timeout_queue_1, con->timeout);
       free((void *)con->timeout);
       con->timeout = ((struct timeout_evt *)NULL);
     }
@@ -8011,9 +8011,9 @@ extern struct net_connection * net_con_create()
 struct net_connection * net_con_create_epoll(struct net_backend *data)
 {
   struct net_connection *con;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_connection_epoll) /*56ul*/ );
-  con = (struct net_connection *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_connection_epoll) /*56ul*/ );
+  con = (struct net_connection *)return_value_hub_malloc_zero_1;
   con->sd = -1;
   return con;
 }
@@ -8023,9 +8023,9 @@ struct net_connection * net_con_create_epoll(struct net_backend *data)
 struct net_connection * net_con_create_select(struct net_backend *data)
 {
   struct net_connection *con;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_connection_select) /*40ul*/ );
-  con = (struct net_connection *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_connection_select) /*40ul*/ );
+  con = (struct net_connection *)return_value_hub_malloc_zero_1;
   con->sd = -1;
   return con;
 }
@@ -8101,19 +8101,19 @@ extern signed int net_con_is_ssl(struct net_connection *con)
 extern signed long int net_con_peek(struct net_connection *con, void *buf, unsigned long int len)
 {
   signed int ret;
-  signed long int return_value_net_recv$1;
-  return_value_net_recv$1=net_recv(con->sd, buf, len, 2);
-  ret = (signed int)return_value_net_recv$1;
+  signed long int return_value_net_recv_1;
+  return_value_net_recv_1=net_recv(con->sd, buf, len, 2);
+  ret = (signed int)return_value_net_recv_1;
   if(ret == -1)
   {
-    signed int return_value_is_blocked_or_interrupted$2;
-    return_value_is_blocked_or_interrupted$2=is_blocked_or_interrupted();
-    if(!(return_value_is_blocked_or_interrupted$2 == 0))
+    signed int return_value_is_blocked_or_interrupted_2;
+    return_value_is_blocked_or_interrupted_2=is_blocked_or_interrupted();
+    if(!(return_value_is_blocked_or_interrupted_2 == 0))
       return (signed long int)0;
 
-    signed int return_value_net_error$3;
-    return_value_net_error$3=net_error();
-    return (signed long int)-return_value_net_error$3;
+    signed int return_value_net_error_3;
+    return_value_net_error_3=net_error();
+    return (signed long int)-return_value_net_error_3;
   }
 
   else
@@ -8130,19 +8130,19 @@ extern signed long int net_con_recv(struct net_connection *con, void *buf, unsig
   signed int ret;
   if(con->ssl == ((struct ssl_handle *)NULL))
   {
-    signed long int return_value_net_recv$1;
-    return_value_net_recv$1=net_recv(con->sd, buf, len, 0);
-    ret = (signed int)return_value_net_recv$1;
+    signed long int return_value_net_recv_1;
+    return_value_net_recv_1=net_recv(con->sd, buf, len, 0);
+    ret = (signed int)return_value_net_recv_1;
     if(ret == -1)
     {
-      signed int return_value_is_blocked_or_interrupted$2;
-      return_value_is_blocked_or_interrupted$2=is_blocked_or_interrupted();
-      if(!(return_value_is_blocked_or_interrupted$2 == 0))
+      signed int return_value_is_blocked_or_interrupted_2;
+      return_value_is_blocked_or_interrupted_2=is_blocked_or_interrupted();
+      if(!(return_value_is_blocked_or_interrupted_2 == 0))
         return (signed long int)0;
 
-      signed int return_value_net_error$3;
-      return_value_net_error$3=net_error();
-      return (signed long int)-return_value_net_error$3;
+      signed int return_value_net_error_3;
+      return_value_net_error_3=net_error();
+      return (signed long int)-return_value_net_error_3;
     }
 
     else
@@ -8153,9 +8153,9 @@ extern signed long int net_con_recv(struct net_connection *con, void *buf, unsig
 
   else
   {
-    signed long int return_value_net_ssl_recv$4;
-    return_value_net_ssl_recv$4=net_ssl_recv(con, buf, len);
-    ret = (signed int)return_value_net_ssl_recv$4;
+    signed long int return_value_net_ssl_recv_4;
+    return_value_net_ssl_recv_4=net_ssl_recv(con, buf, len);
+    ret = (signed int)return_value_net_ssl_recv_4;
   }
   return (signed long int)ret;
 }
@@ -8176,14 +8176,14 @@ extern signed long int net_con_send(struct net_connection *con, const void *buf,
   signed int ret;
   if(con->ssl == ((struct ssl_handle *)NULL))
   {
-    signed long int return_value_net_send$1;
-    return_value_net_send$1=net_send(con->sd, buf, len, 16384);
-    ret = (signed int)return_value_net_send$1;
+    signed long int return_value_net_send_1;
+    return_value_net_send_1=net_send(con->sd, buf, len, 16384);
+    ret = (signed int)return_value_net_send_1;
     if(ret == -1)
     {
-      signed int return_value_is_blocked_or_interrupted$2;
-      return_value_is_blocked_or_interrupted$2=is_blocked_or_interrupted();
-      if(!(return_value_is_blocked_or_interrupted$2 == 0))
+      signed int return_value_is_blocked_or_interrupted_2;
+      return_value_is_blocked_or_interrupted_2=is_blocked_or_interrupted();
+      if(!(return_value_is_blocked_or_interrupted_2 == 0))
         return (signed long int)0;
 
       return (signed long int)-1;
@@ -8193,9 +8193,9 @@ extern signed long int net_con_send(struct net_connection *con, const void *buf,
 
   else
   {
-    signed long int return_value_net_ssl_send$3;
-    return_value_net_ssl_send$3=net_ssl_send(con, buf, len);
-    ret = (signed int)return_value_net_ssl_send$3;
+    signed long int return_value_net_ssl_send_3;
+    return_value_net_ssl_send_3=net_ssl_send(con, buf, len);
+    ret = (signed int)return_value_net_ssl_send_3;
   }
   return (signed long int)ret;
 }
@@ -8206,20 +8206,20 @@ extern void net_con_set_timeout(struct net_connection *con, signed int seconds)
 {
   if(con->timeout == ((struct timeout_evt *)NULL))
   {
-    void *return_value_hub_malloc_zero$1;
-    return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct timeout_evt) /*40ul*/ );
-    con->timeout = (struct timeout_evt *)return_value_hub_malloc_zero$1;
+    void *return_value_hub_malloc_zero_1;
+    return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct timeout_evt) /*40ul*/ );
+    con->timeout = (struct timeout_evt *)return_value_hub_malloc_zero_1;
     timeout_evt_initialize(con->timeout, timeout_callback, (void *)con);
-    struct timeout_queue *return_value_net_backend_get_timeout_queue$2;
-    return_value_net_backend_get_timeout_queue$2=net_backend_get_timeout_queue();
-    timeout_queue_insert(return_value_net_backend_get_timeout_queue$2, con->timeout, (unsigned long int)seconds);
+    struct timeout_queue *return_value_net_backend_get_timeout_queue_2;
+    return_value_net_backend_get_timeout_queue_2=net_backend_get_timeout_queue();
+    timeout_queue_insert(return_value_net_backend_get_timeout_queue_2, con->timeout, (unsigned long int)seconds);
   }
 
   else
   {
-    struct timeout_queue *return_value_net_backend_get_timeout_queue$3;
-    return_value_net_backend_get_timeout_queue$3=net_backend_get_timeout_queue();
-    timeout_queue_reschedule(return_value_net_backend_get_timeout_queue$3, con->timeout, (unsigned long int)seconds);
+    struct timeout_queue *return_value_net_backend_get_timeout_queue_3;
+    return_value_net_backend_get_timeout_queue_3=net_backend_get_timeout_queue();
+    timeout_queue_reschedule(return_value_net_backend_get_timeout_queue_3, con->timeout, (unsigned long int)seconds);
   }
 }
 
@@ -8231,9 +8231,9 @@ extern signed long int net_con_ssl_accept(struct net_connection *con)
   handle=get_handle(con);
   handle->state = (enum ssl_state)tls_st_accepting;
   signed long int ret;
-  signed int return_value_SSL_accept$1;
-  return_value_SSL_accept$1=SSL_accept(handle->ssl);
-  ret = (signed long int)return_value_SSL_accept$1;
+  signed int return_value_SSL_accept_1;
+  return_value_SSL_accept_1=SSL_accept(handle->ssl);
+  ret = (signed long int)return_value_SSL_accept_1;
 
 __CPROVER_DUMP_L1:
   ;
@@ -8246,9 +8246,9 @@ __CPROVER_DUMP_L1:
 
   else
   {
-    signed int return_value_handle_openssl_error$2;
-    return_value_handle_openssl_error$2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_accepting);
-    return (signed long int)return_value_handle_openssl_error$2;
+    signed int return_value_handle_openssl_error_2;
+    return_value_handle_openssl_error_2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_accepting);
+    return (signed long int)return_value_handle_openssl_error_2;
   }
 }
 
@@ -8260,9 +8260,9 @@ extern signed long int net_con_ssl_connect(struct net_connection *con)
   handle=get_handle(con);
   signed long int ret;
   handle->state = (enum ssl_state)tls_st_connecting;
-  signed int return_value_SSL_connect$1;
-  return_value_SSL_connect$1=SSL_connect(handle->ssl);
-  ret = (signed long int)return_value_SSL_connect$1;
+  signed int return_value_SSL_connect_1;
+  return_value_SSL_connect_1=SSL_connect(handle->ssl);
+  ret = (signed long int)return_value_SSL_connect_1;
 
 __CPROVER_DUMP_L1:
   ;
@@ -8275,9 +8275,9 @@ __CPROVER_DUMP_L1:
 
   else
   {
-    signed int return_value_handle_openssl_error$2;
-    return_value_handle_openssl_error$2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_connecting);
-    return (signed long int)return_value_handle_openssl_error$2;
+    signed int return_value_handle_openssl_error_2;
+    return_value_handle_openssl_error_2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_connecting);
+    return (signed long int)return_value_handle_openssl_error_2;
   }
 }
 
@@ -8287,9 +8287,9 @@ extern signed long int net_con_ssl_handshake(struct net_connection *con, enum ne
 {
   struct net_context_openssl *ctx = (struct net_context_openssl *)ssl_ctx;
   struct net_ssl_openssl *handle;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_ssl_openssl) /*40ul*/ );
-  handle = (struct net_ssl_openssl *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_ssl_openssl) /*40ul*/ );
+  handle = (struct net_ssl_openssl *)return_value_hub_malloc_zero_1;
   if((signed int)ssl_mode == net_con_ssl_mode_server)
   {
     handle->ssl=SSL_new(ctx->ssl_ctx);
@@ -8302,24 +8302,24 @@ extern signed long int net_con_ssl_handshake(struct net_connection *con, enum ne
     SSL_set_fd(handle->ssl, con->sd);
     handle->bio=SSL_get_rbio(handle->ssl);
     con->ssl = (struct ssl_handle *)handle;
-    signed long int return_value_net_con_ssl_accept$2;
-    return_value_net_con_ssl_accept$2=net_con_ssl_accept(con);
-    return return_value_net_con_ssl_accept$2;
+    signed long int return_value_net_con_ssl_accept_2;
+    return_value_net_con_ssl_accept_2=net_con_ssl_accept(con);
+    return return_value_net_con_ssl_accept_2;
   }
 
   else
   {
-    const struct ssl_method_st *return_value_TLSv1_method$3;
-    return_value_TLSv1_method$3=TLSv1_method();
-    struct ssl_ctx_st *return_value_SSL_CTX_new$4;
-    return_value_SSL_CTX_new$4=SSL_CTX_new(return_value_TLSv1_method$3);
-    handle->ssl=SSL_new(return_value_SSL_CTX_new$4);
+    const struct ssl_method_st *return_value_TLSv1_method_3;
+    return_value_TLSv1_method_3=TLSv1_method();
+    struct ssl_ctx_st *return_value_SSL_CTX_new_4;
+    return_value_SSL_CTX_new_4=SSL_CTX_new(return_value_TLSv1_method_3);
+    handle->ssl=SSL_new(return_value_SSL_CTX_new_4);
     SSL_set_fd(handle->ssl, con->sd);
     handle->bio=SSL_get_rbio(handle->ssl);
     con->ssl = (struct ssl_handle *)handle;
-    signed long int return_value_net_con_ssl_connect$5;
-    return_value_net_con_ssl_connect$5=net_con_ssl_connect(con);
-    return return_value_net_con_ssl_connect$5;
+    signed long int return_value_net_con_ssl_connect_5;
+    return_value_net_con_ssl_connect_5=net_con_ssl_connect(con);
+    return return_value_net_con_ssl_connect_5;
   }
 }
 
@@ -8338,9 +8338,9 @@ extern signed int net_connect(signed int fd, struct sockaddr *serv_addr, unsigne
   ret=connect(fd, serv_addr, addrlen);
   if(ret == -1)
   {
-    signed int return_value_net_error$1;
-    return_value_net_error$1=net_error();
-    if(!(return_value_net_error$1 == 115))
+    signed int return_value_net_error_1;
+    return_value_net_error_1=net_error();
+    if(!(return_value_net_error_1 == 115))
     {
       net_error_out(fd, "net_connect");
       net_stats_add_error();
@@ -8399,9 +8399,9 @@ __CPROVER_DUMP_L2:
 extern struct net_dns_job * net_dns_gethostbyaddr(struct ip_addr_encap *ipaddr, signed int (*callback)(struct net_dns_job *, struct net_dns_result *), void *ptr)
 {
   struct net_dns_job *job;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_dns_job) /*40ul*/ );
-  job = (struct net_dns_job *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_dns_job) /*40ul*/ );
+  job = (struct net_dns_job *)return_value_hub_malloc_zero_1;
   job->af = ipaddr->af;
   job->callback = callback;
   job->ptr = ptr;
@@ -8413,12 +8413,12 @@ extern struct net_dns_job * net_dns_gethostbyaddr(struct ip_addr_encap *ipaddr, 
 extern struct net_dns_job * net_dns_gethostbyname(const char *host, signed int af, signed int (*callback)(struct net_dns_job *, struct net_dns_result *), void *ptr)
 {
   struct net_dns_job *job;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_dns_job) /*40ul*/ );
-  job = (struct net_dns_job *)return_value_hub_malloc_zero$1;
-  char *return_value___strdup$2;
-  return_value___strdup$2=__strdup(host);
-  job->host = return_value___strdup$2;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_dns_job) /*40ul*/ );
+  job = (struct net_dns_job *)return_value_hub_malloc_zero_1;
+  char *return_value___strdup_2;
+  return_value___strdup_2=__strdup(host);
+  job->host = return_value___strdup_2;
   job->af = af;
   job->callback = callback;
   job->ptr = ptr;
@@ -8444,9 +8444,9 @@ void net_dns_initialize()
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_dns_subsystem) /*56ul*/ );
-  g_dns = (struct net_dns_subsystem *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_dns_subsystem) /*56ul*/ );
+  g_dns = (struct net_dns_subsystem *)return_value_hub_malloc_zero_1;
   g_dns->jobs=list_create();
   g_dns->results=list_create();
   uhub_mutex_init(&g_dns->mutex);
@@ -8462,9 +8462,9 @@ extern signed int net_dns_job_cancel(struct net_dns_job *job)
 __CPROVER_DUMP_L1:
   ;
   uhub_mutex_lock(&g_dns->mutex);
-  struct net_dns_job *return_value_find_and_remove_job$1;
-  return_value_find_and_remove_job$1=find_and_remove_job(job);
-  if(!(return_value_find_and_remove_job$1 == ((struct net_dns_job *)NULL)))
+  struct net_dns_job *return_value_find_and_remove_job_1;
+  return_value_find_and_remove_job_1=find_and_remove_job(job);
+  if(!(return_value_find_and_remove_job_1 == ((struct net_dns_job *)NULL)))
   {
     uhub_thread_cancel(job->thread_handle);
     uhub_thread_join(job->thread_handle);
@@ -8516,10 +8516,10 @@ void net_dns_process()
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(g_dns->results);
-  result = (struct net_dns_result *)return_value_list_get_first$1;
-  void *return_value_list_get_next$2;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(g_dns->results);
+  result = (struct net_dns_result *)return_value_list_get_first_1;
+  void *return_value_list_get_next_2;
   if(!(result == ((struct net_dns_result *)NULL)))
   {
     struct net_dns_job *job = result->job;
@@ -8534,8 +8534,8 @@ __CPROVER_DUMP_L1:
       result->job = (struct net_dns_job *)(void *)0;
       free_job(job);
     }
-    return_value_list_get_next$2=list_get_next(g_dns->results);
-    result = (struct net_dns_result *)return_value_list_get_next$2;
+    return_value_list_get_next_2=list_get_next(g_dns->results);
+    result = (struct net_dns_result *)return_value_list_get_next_2;
   }
 
   list_clear(g_dns->results, dummy_free);
@@ -8547,9 +8547,9 @@ __CPROVER_DUMP_L1:
 extern struct ip_addr_encap * net_dns_result_first(struct net_dns_result *res)
 {
   struct ip_addr_encap *ipaddr;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(res->addr_list);
-  ipaddr = (struct ip_addr_encap *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(res->addr_list);
+  ipaddr = (struct ip_addr_encap *)return_value_list_get_first_1;
 
 __CPROVER_DUMP_L1:
   ;
@@ -8571,9 +8571,9 @@ extern void net_dns_result_free(struct net_dns_result *res)
 extern struct ip_addr_encap * net_dns_result_next(struct net_dns_result *res)
 {
   struct ip_addr_encap *ipaddr;
-  void *return_value_list_get_next$1;
-  return_value_list_get_next$1=list_get_next(res->addr_list);
-  ipaddr = (struct ip_addr_encap *)return_value_list_get_next$1;
+  void *return_value_list_get_next_1;
+  return_value_list_get_next_1=list_get_next(res->addr_list);
+  ipaddr = (struct ip_addr_encap *)return_value_list_get_next_1;
 
 __CPROVER_DUMP_L1:
   ;
@@ -8584,18 +8584,18 @@ __CPROVER_DUMP_L1:
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 361
 extern unsigned long int net_dns_result_size(struct net_dns_result *res)
 {
-  unsigned long int return_value_list_size$1;
-  return_value_list_size$1=list_size(res->addr_list);
-  return return_value_list_size$1;
+  unsigned long int return_value_list_size_1;
+  return_value_list_size_1=list_size(res->addr_list);
+  return return_value_list_size_1;
 }
 
 // net_error
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.h line 74
 extern signed int net_error()
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  return *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  return *return_value___errno_location_1;
 }
 
 // net_error_out
@@ -8604,18 +8604,18 @@ static void net_error_out(signed int fd, const char *func)
 {
   signed int err;
   err=net_error();
-  const char *return_value_net_error_string$1;
-  return_value_net_error_string$1=net_error_string(err);
-  hub_log(1, "%s, fd=%d: %s (%d)", func, fd, return_value_net_error_string$1, err);
+  const char *return_value_net_error_string_1;
+  return_value_net_error_string_1=net_error_string(err);
+  hub_log(1, "%s, fd=%d: %s (%d)", func, fd, return_value_net_error_string_1, err);
 }
 
 // net_error_string
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 133
 extern const char * net_error_string(signed int code)
 {
-  char *return_value_strerror$1;
-  return_value_strerror$1=strerror(code);
-  return return_value_strerror$1;
+  char *return_value_strerror_1;
+  return_value_strerror_1=strerror(code);
+  return return_value_strerror_1;
 }
 
 // net_get_local_address
@@ -8634,9 +8634,9 @@ extern const char * net_get_local_address(signed int fd)
   name6 = (struct sockaddr_in6 *)&storage;
   name4 = (struct sockaddr_in *)&storage;
   name = (struct sockaddr *)&storage;
-  signed int return_value_getsockname$1;
-  return_value_getsockname$1=getsockname(fd, (struct sockaddr *)name, &namelen);
-  if(!(return_value_getsockname$1 == -1))
+  signed int return_value_getsockname_1;
+  return_value_getsockname_1=getsockname(fd, (struct sockaddr *)name, &namelen);
+  if(!(return_value_getsockname_1 == -1))
   {
     signed int af = (signed int)storage.ss_family;
     if(af == 10)
@@ -8660,9 +8660,9 @@ extern const char * net_get_local_address(signed int fd)
 extern unsigned long int net_get_max_sockets()
 {
   struct rlimit limits;
-  signed int return_value_getrlimit$1;
-  return_value_getrlimit$1=getrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &limits);
-  if(return_value_getrlimit$1 == 0)
+  signed int return_value_getrlimit_1;
+  return_value_getrlimit_1=getrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &limits);
+  if(return_value_getrlimit_1 == 0)
     return limits.rlim_max < (unsigned long int)65536 ? limits.rlim_max : (unsigned long int)65536;
 
   else
@@ -8688,9 +8688,9 @@ extern const char * net_get_peer_address(signed int fd)
   name6 = (struct sockaddr_in6 *)&storage;
   name4 = (struct sockaddr_in *)&storage;
   name = (struct sockaddr *)&storage;
-  signed int return_value_getpeername$1;
-  return_value_getpeername$1=getpeername(fd, (struct sockaddr *)name, &namelen);
-  if(!(return_value_getpeername$1 == -1))
+  signed int return_value_getpeername_1;
+  return_value_getpeername_1=getpeername(fd, (struct sockaddr *)name, &namelen);
+  if(!(return_value_getpeername_1 == -1))
   {
     signed int af = (signed int)storage.ss_family;
     if(af == 10)
@@ -8714,9 +8714,9 @@ extern const char * net_get_peer_address(signed int fd)
 extern signed int net_get_recvbuf_size(signed int fd, unsigned long int *size)
 {
   unsigned int sz = (unsigned int)sizeof(unsigned long int) /*8ul*/ ;
-  signed int return_value_net_getsockopt$1;
-  return_value_net_getsockopt$1=net_getsockopt(fd, 1, 8, (void *)size, &sz);
-  return return_value_net_getsockopt$1;
+  signed int return_value_net_getsockopt_1;
+  return_value_net_getsockopt_1=net_getsockopt(fd, 1, 8, (void *)size, &sz);
+  return return_value_net_getsockopt_1;
 }
 
 // net_get_sendbuf_size
@@ -8724,9 +8724,9 @@ extern signed int net_get_recvbuf_size(signed int fd, unsigned long int *size)
 extern signed int net_get_sendbuf_size(signed int fd, unsigned long int *size)
 {
   unsigned int sz = (unsigned int)sizeof(unsigned long int) /*8ul*/ ;
-  signed int return_value_net_getsockopt$1;
-  return_value_net_getsockopt$1=net_getsockopt(fd, 1, 7, (void *)size, &sz);
-  return return_value_net_getsockopt$1;
+  signed int return_value_net_getsockopt_1;
+  return_value_net_getsockopt_1=net_getsockopt(fd, 1, 7, (void *)size, &sz);
+  return return_value_net_getsockopt_1;
 }
 
 // net_get_time
@@ -8752,24 +8752,24 @@ static signed int net_getsockopt(signed int fd, signed int level, signed int opt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 35
 extern signed int net_initialize()
 {
-  _Bool tmp_if_expr$3;
-  signed int return_value_net_ssl_library_init$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_net_ssl_library_init_2;
   if(net_initialized == 0)
   {
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_net_backend_init$1;
-    return_value_net_backend_init$1=net_backend_init();
-    if(return_value_net_backend_init$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_net_backend_init_1;
+    return_value_net_backend_init_1=net_backend_init();
+    if(return_value_net_backend_init_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_net_ssl_library_init$2=net_ssl_library_init();
-      tmp_if_expr$3 = !(return_value_net_ssl_library_init$2 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_net_ssl_library_init_2=net_ssl_library_init();
+      tmp_if_expr_3 = !(return_value_net_ssl_library_init_2 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return -1;
 
     net_dns_initialize();
@@ -8791,9 +8791,9 @@ extern signed int net_is_ipv6_supported()
     ret=socket(10, 2, 17);
     if(ret == -1)
     {
-      signed int return_value_net_error$1;
-      return_value_net_error$1=net_error();
-      if(return_value_net_error$1 == 97)
+      signed int return_value_net_error_1;
+      return_value_net_error_1=net_error();
+      if(return_value_net_error_1 == 97)
       {
 
       __CPROVER_DUMP_L1:
@@ -8808,9 +8808,9 @@ extern signed int net_is_ipv6_supported()
     else
     {
       signed int off = 0;
-      signed int return_value_net_setsockopt$2;
-      return_value_net_setsockopt$2=net_setsockopt(ret, 41, 26, (const void *)(char *)&off, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_net_setsockopt$2 >= 0))
+      signed int return_value_net_setsockopt_2;
+      return_value_net_setsockopt_2=net_setsockopt(ret, 41, 26, (const void *)(char *)&off, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_net_setsockopt_2 >= 0))
       {
         hub_log(1, "net_socket_create(): Dual stack IPv6/IPv4 is not supported.");
         is_ipv6_supported = 0;
@@ -8851,9 +8851,9 @@ extern signed long int net_recv(signed int fd, void *buf, unsigned long int len,
 
   else
   {
-    signed int return_value_net_error$1;
-    return_value_net_error$1=net_error();
-    if(!(return_value_net_error$1 == 11))
+    signed int return_value_net_error_1;
+    return_value_net_error_1=net_error();
+    if(!(return_value_net_error_1 == 11))
       net_stats_add_error();
 
   }
@@ -8871,9 +8871,9 @@ extern signed long int net_send(signed int fd, const void *buf, unsigned long in
 
   else
   {
-    signed int return_value_net_error$1;
-    return_value_net_error$1=net_error();
-    if(!(return_value_net_error$1 == 11))
+    signed int return_value_net_error_1;
+    return_value_net_error_1=net_error();
+    if(!(return_value_net_error_1 == 11))
       net_stats_add_error();
 
   }
@@ -8884,9 +8884,9 @@ extern signed long int net_send(signed int fd, const void *buf, unsigned long in
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 220
 extern signed int net_set_close_on_exec(signed int fd, signed int toggle)
 {
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(fd, 2, toggle);
-  return return_value_fcntl$1;
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(fd, 2, toggle);
+  return return_value_fcntl_1;
 }
 
 // net_set_keepalive
@@ -8937,9 +8937,9 @@ extern signed int net_set_nosigpipe(signed int fd, signed int toggle)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 274
 extern signed int net_set_recvbuf_size(signed int fd, unsigned long int size)
 {
-  signed int return_value_net_setsockopt$1;
-  return_value_net_setsockopt$1=net_setsockopt(fd, 1, 8, (const void *)&size, (unsigned int)sizeof(unsigned long int) /*8ul*/ );
-  return return_value_net_setsockopt$1;
+  signed int return_value_net_setsockopt_1;
+  return_value_net_setsockopt_1=net_setsockopt(fd, 1, 8, (const void *)&size, (unsigned int)sizeof(unsigned long int) /*8ul*/ );
+  return return_value_net_setsockopt_1;
 }
 
 // net_set_reuseaddress
@@ -8958,9 +8958,9 @@ extern signed int net_set_reuseaddress(signed int fd, signed int toggle)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 263
 extern signed int net_set_sendbuf_size(signed int fd, unsigned long int size)
 {
-  signed int return_value_net_setsockopt$1;
-  return_value_net_setsockopt$1=net_setsockopt(fd, 1, 7, (const void *)&size, (unsigned int)sizeof(unsigned long int) /*8ul*/ );
-  return return_value_net_setsockopt$1;
+  signed int return_value_net_setsockopt_1;
+  return_value_net_setsockopt_1=net_setsockopt(fd, 1, 7, (const void *)&size, (unsigned int)sizeof(unsigned long int) /*8ul*/ );
+  return return_value_net_setsockopt_1;
 }
 
 // net_setsockopt
@@ -8979,27 +8979,27 @@ static signed int net_setsockopt(signed int fd, signed int level, signed int opt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 309
 extern signed int net_shutdown_r(signed int fd)
 {
-  signed int return_value_shutdown$1;
-  return_value_shutdown$1=shutdown(fd, 0);
-  return return_value_shutdown$1;
+  signed int return_value_shutdown_1;
+  return_value_shutdown_1=shutdown(fd, 0);
+  return return_value_shutdown_1;
 }
 
 // net_shutdown_rw
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 327
 extern signed int net_shutdown_rw(signed int fd)
 {
-  signed int return_value_shutdown$1;
-  return_value_shutdown$1=shutdown(fd, 2);
-  return return_value_shutdown$1;
+  signed int return_value_shutdown_1;
+  return_value_shutdown_1=shutdown(fd, 2);
+  return return_value_shutdown_1;
 }
 
 // net_shutdown_w
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 318
 extern signed int net_shutdown_w(signed int fd)
 {
-  signed int return_value_shutdown$1;
-  return_value_shutdown$1=shutdown(fd, 1);
-  return return_value_shutdown$1;
+  signed int return_value_shutdown_1;
+  return_value_shutdown_1=shutdown(fd, 1);
+  return return_value_shutdown_1;
 }
 
 // net_socket_create
@@ -9019,17 +9019,17 @@ extern signed int net_socket_create(signed int af, signed int type, signed int p
     if(af == 10)
     {
       signed int off = 0;
-      signed int return_value_net_setsockopt$4;
-      return_value_net_setsockopt$4=net_setsockopt(sd, 41, 26, (const void *)(char *)&off, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_net_setsockopt$4 >= 0))
+      signed int return_value_net_setsockopt_4;
+      return_value_net_setsockopt_4=net_setsockopt(sd, 41, 26, (const void *)(char *)&off, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_net_setsockopt_4 >= 0))
       {
-        signed int return_value_net_error$1;
-        return_value_net_error$1=net_error();
-        signed int return_value_net_error$2;
-        return_value_net_error$2=net_error();
-        const char *return_value_net_error_string$3;
-        return_value_net_error_string$3=net_error_string(return_value_net_error$2);
-        hub_log(1, "net_socket_create():  Cannot set socket to dual stack mode IPv6/IPv4 (%d - %s).", return_value_net_error$1, return_value_net_error_string$3);
+        signed int return_value_net_error_1;
+        return_value_net_error_1=net_error();
+        signed int return_value_net_error_2;
+        return_value_net_error_2=net_error();
+        const char *return_value_net_error_string_3;
+        return_value_net_error_string_3=net_error_string(return_value_net_error_2);
+        hub_log(1, "net_socket_create():  Cannot set socket to dual stack mode IPv6/IPv4 (%d - %s).", return_value_net_error_1, return_value_net_error_string_3);
       }
 
     }
@@ -9044,8 +9044,8 @@ extern void net_ssl_callback(struct net_connection *con, signed int events)
 {
   struct net_ssl_openssl *handle;
   handle=get_handle(con);
-  signed long int return_value_net_con_ssl_accept$1;
-  signed long int return_value_net_con_ssl_connect$2;
+  signed long int return_value_net_con_ssl_accept_1;
+  signed long int return_value_net_con_ssl_connect_2;
   switch((signed int)handle->state)
   {
     case tls_st_none:
@@ -9054,16 +9054,16 @@ extern void net_ssl_callback(struct net_connection *con, signed int events)
       con->callback(con, 0x0002, con->ptr);
     case tls_st_accepting:
     {
-      return_value_net_con_ssl_accept$1=net_con_ssl_accept(con);
-      if(!(return_value_net_con_ssl_accept$1 == 0l))
+      return_value_net_con_ssl_accept_1=net_con_ssl_accept(con);
+      if(!(return_value_net_con_ssl_accept_1 == 0l))
         con->callback(con, 0x0002, con->ptr);
 
       goto __CPROVER_DUMP_L11;
     }
     case tls_st_connecting:
     {
-      return_value_net_con_ssl_connect$2=net_con_ssl_connect(con);
-      if(!(return_value_net_con_ssl_connect$2 == 0l))
+      return_value_net_con_ssl_connect_2=net_con_ssl_connect(con);
+      if(!(return_value_net_con_ssl_connect_2 == 0l))
         con->callback(con, 0x0002, con->ptr);
 
       goto __CPROVER_DUMP_L11;
@@ -9088,12 +9088,12 @@ extern void net_ssl_callback(struct net_connection *con, signed int events)
 extern struct ssl_context_handle * net_ssl_context_create()
 {
   struct net_context_openssl *ctx;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_context_openssl) /*16ul*/ );
-  ctx = (struct net_context_openssl *)return_value_hub_malloc_zero$1;
-  const struct ssl_method_st *return_value_SSLv23_method$2;
-  return_value_SSLv23_method$2=SSLv23_method();
-  ctx->ssl_method = (struct ssl_method_st *)return_value_SSLv23_method$2;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_context_openssl) /*16ul*/ );
+  ctx = (struct net_context_openssl *)return_value_hub_malloc_zero_1;
+  const struct ssl_method_st *return_value_SSLv23_method_2;
+  return_value_SSLv23_method_2=SSLv23_method();
+  ctx->ssl_method = (struct ssl_method_st *)return_value_SSLv23_method_2;
   ctx->ssl_ctx=SSL_CTX_new(ctx->ssl_method);
   SSL_CTX_ctrl(ctx->ssl_ctx, 32, 0x01000000L, (void *)0);
 
@@ -9168,9 +9168,9 @@ extern signed long int net_ssl_recv(struct net_connection *con, void *buf, unsig
   else
   {
     ERR_clear_error();
-    signed int return_value_SSL_read$1;
-    return_value_SSL_read$1=SSL_read(handle->ssl, buf, (signed int)len);
-    ret = (signed long int)return_value_SSL_read$1;
+    signed int return_value_SSL_read_1;
+    return_value_SSL_read_1=SSL_read(handle->ssl, buf, (signed int)len);
+    ret = (signed long int)return_value_SSL_read_1;
     add_io_stats(handle);
 
   __CPROVER_DUMP_L2:
@@ -9183,9 +9183,9 @@ extern signed long int net_ssl_recv(struct net_connection *con, void *buf, unsig
 
     else
     {
-      signed int return_value_handle_openssl_error$2;
-      return_value_handle_openssl_error$2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_need_read);
-      return (signed long int)return_value_handle_openssl_error$2;
+      signed int return_value_handle_openssl_error_2;
+      return_value_handle_openssl_error_2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_need_read);
+      return (signed long int)return_value_handle_openssl_error_2;
     }
   }
 }
@@ -9198,9 +9198,9 @@ extern signed long int net_ssl_send(struct net_connection *con, const void *buf,
   handle=get_handle(con);
   ERR_clear_error();
   signed long int ret;
-  signed int return_value_SSL_write$1;
-  return_value_SSL_write$1=SSL_write(handle->ssl, buf, (signed int)len);
-  ret = (signed long int)return_value_SSL_write$1;
+  signed int return_value_SSL_write_1;
+  return_value_SSL_write_1=SSL_write(handle->ssl, buf, (signed int)len);
+  ret = (signed long int)return_value_SSL_write_1;
   add_io_stats(handle);
 
 __CPROVER_DUMP_L1:
@@ -9213,9 +9213,9 @@ __CPROVER_DUMP_L1:
 
   else
   {
-    signed int return_value_handle_openssl_error$2;
-    return_value_handle_openssl_error$2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_need_write);
-    return (signed long int)return_value_handle_openssl_error$2;
+    signed int return_value_handle_openssl_error_2;
+    return_value_handle_openssl_error_2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_need_write);
+    return (signed long int)return_value_handle_openssl_error_2;
   }
 }
 
@@ -9299,20 +9299,20 @@ extern void net_stats_reset()
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 778
 extern signed int net_stats_timeout()
 {
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  double return_value_difftime$2;
-  return_value_difftime$2=difftime(return_value_time$1, stats.timestamp);
-  return return_value_difftime$2 > (double)10 ? 1 : 0;
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  double return_value_difftime_2;
+  return_value_difftime_2=difftime(return_value_time_1, stats.timestamp);
+  return return_value_difftime_2 > (double)10 ? 1 : 0;
 }
 
 // net_string_to_address
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 554
 extern signed int net_string_to_address(signed int af, const char *src, void *dst)
 {
-  signed int return_value_inet_pton$1;
-  return_value_inet_pton$1=inet_pton(af, src, dst);
-  return return_value_inet_pton$1;
+  signed int return_value_inet_pton_1;
+  return_value_inet_pton_1=inet_pton(af, src, dst);
+  return return_value_inet_pton_1;
 }
 
 // null_free
@@ -9348,18 +9348,18 @@ static void open_database()
 static signed int pass(unsigned long int argc, const char **argv)
 {
   char *user = (char *)(void *)0;
-  char *pass$$1$$pass = (char *)(void *)0;
+  char *pass__1__pass = (char *)(void *)0;
   signed int rc;
   if(!(argc >= 2ul))
     print_usage("username password");
 
   user=sql_escape_string(argv[(signed long int)0]);
-  const char *return_value_validate_password$1;
-  return_value_validate_password$1=validate_password(argv[(signed long int)1]);
-  pass$$1$$pass=sql_escape_string(return_value_validate_password$1);
-  rc=sql_execute("UPDATE users SET password = '%s' WHERE nickname = '%s';", pass$$1$$pass, user);
+  const char *return_value_validate_password_1;
+  return_value_validate_password_1=validate_password(argv[(signed long int)1]);
+  pass__1__pass=sql_escape_string(return_value_validate_password_1);
+  rc=sql_execute("UPDATE users SET password = '%s' WHERE nickname = '%s';", pass__1__pass, user);
   free((void *)user);
-  free((void *)pass$$1$$pass);
+  free((void *)pass__1__pass);
   if(!(rc == 1))
   {
     fprintf(stderr, "Unable to change password for user \"%s\"\n", argv[(signed long int)0]);
@@ -9375,9 +9375,9 @@ static signed int pass(unsigned long int argc, const char **argv)
 static struct rb_node * pop(struct rb_tree *tree)
 {
   struct rb_node *n;
-  void *return_value_list_get_last$1;
-  return_value_list_get_last$1=list_get_last(tree->iterator.stack);
-  n = (struct rb_node *)return_value_list_get_last$1;
+  void *return_value_list_get_last_1;
+  return_value_list_get_last_1=list_get_last(tree->iterator.stack);
+  n = (struct rb_node *)return_value_list_get_last_1;
   if(!(n == ((struct rb_node *)NULL)))
     list_remove(tree->iterator.stack, (void *)n);
 
@@ -9441,9 +9441,9 @@ extern struct rb_node * rb_tree_first(struct rb_tree *tree)
   list_clear(tree->iterator.stack, null_free);
   for( ; !(n->link[0l] == ((struct rb_node *)NULL)); n = n->link[(signed long int)0])
     push(tree, n);
-  struct rb_node *return_value_rb_it_set$1;
-  return_value_rb_it_set$1=rb_it_set(tree, n);
-  return return_value_rb_it_set$1;
+  struct rb_node *return_value_rb_it_set_1;
+  return_value_rb_it_set_1=rb_it_set(tree, n);
+  return return_value_rb_it_set_1;
 }
 
 // rb_tree_get
@@ -9464,9 +9464,9 @@ extern void * rb_tree_get(struct rb_tree *tree, const void *key)
 extern signed int rb_tree_insert(struct rb_tree *tree, const void *key, const void *value)
 {
   struct rb_node *node;
-  struct rb_node *return_value_tree_search$1;
-  return_value_tree_search$1=tree_search(tree, key);
-  if(!(return_value_tree_search$1 == ((struct rb_node *)NULL)))
+  struct rb_node *return_value_tree_search_1;
+  return_value_tree_search_1=tree_search(tree, key);
+  if(!(return_value_tree_search_1 == ((struct rb_node *)NULL)))
     return 0;
 
   else
@@ -9484,12 +9484,12 @@ extern signed int rb_tree_insert(struct rb_tree *tree, const void *key, const vo
 static struct rb_node * rb_tree_insert_r(struct rb_tree *tree, struct rb_node *node, const void *key, const void *value)
 {
   signed int res;
-  struct rb_node *return_value_create_node$1;
-  signed int return_value_is_red$2;
+  struct rb_node *return_value_create_node_1;
+  signed int return_value_is_red_2;
   if(node == ((struct rb_node *)NULL))
   {
-    return_value_create_node$1=create_node(tree, key, value);
-    return return_value_create_node$1;
+    return_value_create_node_1=create_node(tree, key, value);
+    return return_value_create_node_1;
   }
 
   else
@@ -9505,13 +9505,13 @@ static struct rb_node * rb_tree_insert_r(struct rb_tree *tree, struct rb_node *n
     {
       signed int dir = (signed int)(res < 0);
       node->link[(signed long int)dir]=rb_tree_insert_r(tree, node->link[(signed long int)dir], key, value);
-      signed int return_value_is_red$5;
-      return_value_is_red$5=is_red(node->link[(signed long int)dir]);
-      if(!(return_value_is_red$5 == 0))
+      signed int return_value_is_red_5;
+      return_value_is_red_5=is_red(node->link[(signed long int)dir]);
+      if(!(return_value_is_red_5 == 0))
       {
-        signed int return_value_is_red$4;
-        return_value_is_red$4=is_red(node->link[(signed long int)!(dir != 0)]);
-        if(!(return_value_is_red$4 == 0))
+        signed int return_value_is_red_4;
+        return_value_is_red_4=is_red(node->link[(signed long int)!(dir != 0)]);
+        if(!(return_value_is_red_4 == 0))
         {
           node->red = 1;
           node->link[(signed long int)0]->red = 0;
@@ -9520,15 +9520,15 @@ static struct rb_node * rb_tree_insert_r(struct rb_tree *tree, struct rb_node *n
 
         else
         {
-          signed int return_value_is_red$3;
-          return_value_is_red$3=is_red(node->link[(signed long int)dir]->link[(signed long int)dir]);
-          if(!(return_value_is_red$3 == 0))
+          signed int return_value_is_red_3;
+          return_value_is_red_3=is_red(node->link[(signed long int)dir]->link[(signed long int)dir]);
+          if(!(return_value_is_red_3 == 0))
             node=rb_tree_rotate_single(node, (signed int)!(dir != 0));
 
           else
           {
-            return_value_is_red$2=is_red(node->link[(signed long int)dir]->link[(signed long int)!(dir != 0)]);
-            if(!(return_value_is_red$2 == 0))
+            return_value_is_red_2=is_red(node->link[(signed long int)dir]->link[(signed long int)!(dir != 0)]);
+            if(!(return_value_is_red_2 == 0))
               node=rb_tree_rotate_double(node, (signed int)!(dir != 0));
 
           }
@@ -9544,27 +9544,27 @@ static struct rb_node * rb_tree_insert_r(struct rb_tree *tree, struct rb_node *n
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 374
 extern struct rb_node * rb_tree_next(struct rb_tree *tree)
 {
-  struct rb_node *return_value_rb_tree_traverse$1;
-  return_value_rb_tree_traverse$1=rb_tree_traverse(tree, 1);
-  return return_value_rb_tree_traverse$1;
+  struct rb_node *return_value_rb_tree_traverse_1;
+  return_value_rb_tree_traverse_1=rb_tree_traverse(tree, 1);
+  return return_value_rb_tree_traverse_1;
 }
 
 // rb_tree_prev
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 379
 extern struct rb_node * rb_tree_prev(struct rb_tree *tree)
 {
-  struct rb_node *return_value_rb_tree_traverse$1;
-  return_value_rb_tree_traverse$1=rb_tree_traverse(tree, 0);
-  return return_value_rb_tree_traverse$1;
+  struct rb_node *return_value_rb_tree_traverse_1;
+  return_value_rb_tree_traverse_1=rb_tree_traverse(tree, 0);
+  return return_value_rb_tree_traverse_1;
 }
 
 // rb_tree_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 195
 extern signed int rb_tree_remove(struct rb_tree *tree, const void *key)
 {
-  signed int return_value_rb_tree_remove_node$1;
-  return_value_rb_tree_remove_node$1=rb_tree_remove_node(tree, key, null_node_free);
-  return return_value_rb_tree_remove_node$1;
+  signed int return_value_rb_tree_remove_node_1;
+  return_value_rb_tree_remove_node_1=rb_tree_remove_node(tree, key, null_node_free);
+  return return_value_rb_tree_remove_node_1;
 }
 
 // rb_tree_remove_node
@@ -9577,11 +9577,11 @@ extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, voi
   struct rb_node *g;
   struct rb_node *f = (struct rb_node *)(void *)0;
   signed int dir = 1;
-  signed int return_value_is_red$8;
-  signed int return_value_is_red$6;
-  _Bool tmp_if_expr$5;
-  signed int return_value_is_red$4;
-  signed int return_value_is_red$1;
+  signed int return_value_is_red_8;
+  signed int return_value_is_red_6;
+  _Bool tmp_if_expr_5;
+  signed int return_value_is_red_4;
+  signed int return_value_is_red_1;
   if(tree->root == ((struct rb_node *)NULL))
     return 0;
 
@@ -9603,16 +9603,16 @@ extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, voi
       if(res == 0)
         f = q;
 
-      signed int return_value_is_red$9;
-      return_value_is_red$9=is_red(q);
-      if(return_value_is_red$9 == 0)
+      signed int return_value_is_red_9;
+      return_value_is_red_9=is_red(q);
+      if(return_value_is_red_9 == 0)
       {
-        return_value_is_red$8=is_red(q->link[(signed long int)dir]);
-        if(return_value_is_red$8 == 0)
+        return_value_is_red_8=is_red(q->link[(signed long int)dir]);
+        if(return_value_is_red_8 == 0)
         {
-          signed int return_value_is_red$7;
-          return_value_is_red$7=is_red(q->link[(signed long int)!(dir != 0)]);
-          if(!(return_value_is_red$7 == 0))
+          signed int return_value_is_red_7;
+          return_value_is_red_7=is_red(q->link[(signed long int)!(dir != 0)]);
+          if(!(return_value_is_red_7 == 0))
           {
             p->link[(signed long int)last]=rb_tree_rotate_single(q, dir);
             p = p->link[(signed long int)last];
@@ -9620,23 +9620,23 @@ extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, voi
 
           else
           {
-            return_value_is_red$6=is_red(q->link[(signed long int)!(dir != 0)]);
-            if(return_value_is_red$6 == 0)
+            return_value_is_red_6=is_red(q->link[(signed long int)!(dir != 0)]);
+            if(return_value_is_red_6 == 0)
             {
               struct rb_node *s = p->link[(signed long int)!(last != 0)];
               if(!(s == ((struct rb_node *)NULL)))
               {
-                signed int return_value_is_red$3;
-                return_value_is_red$3=is_red(s->link[(signed long int)!(last != 0)]);
-                if(return_value_is_red$3 == 0)
+                signed int return_value_is_red_3;
+                return_value_is_red_3=is_red(s->link[(signed long int)!(last != 0)]);
+                if(return_value_is_red_3 == 0)
                 {
-                  return_value_is_red$4=is_red(s->link[(signed long int)last]);
-                  tmp_if_expr$5 = !(return_value_is_red$4 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_is_red_4=is_red(s->link[(signed long int)last]);
+                  tmp_if_expr_5 = !(return_value_is_red_4 != 0) ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
-                if(tmp_if_expr$5)
+                  tmp_if_expr_5 = (_Bool)0;
+                if(tmp_if_expr_5)
                 {
                   p->red = 0;
                   s->red = 1;
@@ -9646,15 +9646,15 @@ extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, voi
                 else
                 {
                   signed int dir2 = (signed int)(g->link[(signed long int)1] == p);
-                  signed int return_value_is_red$2;
-                  return_value_is_red$2=is_red(s->link[(signed long int)last]);
-                  if(!(return_value_is_red$2 == 0))
+                  signed int return_value_is_red_2;
+                  return_value_is_red_2=is_red(s->link[(signed long int)last]);
+                  if(!(return_value_is_red_2 == 0))
                     g->link[(signed long int)dir2]=rb_tree_rotate_double(p, last);
 
                   else
                   {
-                    return_value_is_red$1=is_red(s->link[(signed long int)!(last != 0)]);
-                    if(!(return_value_is_red$1 == 0))
+                    return_value_is_red_1=is_red(s->link[(signed long int)!(last != 0)]);
+                    if(!(return_value_is_red_1 == 0))
                       g->link[(signed long int)dir2]=rb_tree_rotate_single(p, last);
 
                   }
@@ -9697,9 +9697,9 @@ extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, voi
 static struct rb_node * rb_tree_rotate_double(struct rb_node *node, signed int dir)
 {
   node->link[(signed long int)!(dir != 0)]=rb_tree_rotate_single(node->link[(signed long int)!(dir != 0)], (signed int)!(dir != 0));
-  struct rb_node *return_value_rb_tree_rotate_single$1;
-  return_value_rb_tree_rotate_single$1=rb_tree_rotate_single(node, dir);
-  return return_value_rb_tree_rotate_single$1;
+  struct rb_node *return_value_rb_tree_rotate_single_1;
+  return_value_rb_tree_rotate_single_1=rb_tree_rotate_single(node, dir);
+  return return_value_rb_tree_rotate_single_1;
 }
 
 // rb_tree_rotate_single
@@ -9733,20 +9733,20 @@ static struct rb_node * rb_tree_traverse(struct rb_tree *tree, signed int dir)
     n = n->link[(signed long int)dir];
     for( ; !(n->link[(signed long int)(dir == 0)] == ((struct rb_node *)NULL)); n = n->link[(signed long int)!(dir != 0)])
       list_append(tree->iterator.stack, (void *)n);
-    struct rb_node *return_value_rb_it_set$1;
-    return_value_rb_it_set$1=rb_it_set(tree, n);
-    return return_value_rb_it_set$1;
+    struct rb_node *return_value_rb_it_set_1;
+    return_value_rb_it_set_1=rb_it_set(tree, n);
+    return return_value_rb_it_set_1;
   }
 
   p=pop(tree);
-  struct rb_node *return_value_rb_it_set$2;
-  struct rb_node *return_value_rb_it_set$3;
+  struct rb_node *return_value_rb_it_set_2;
+  struct rb_node *return_value_rb_it_set_3;
   if(!(p == ((struct rb_node *)NULL)))
   {
     if(p->link[(signed long int)(dir == 0)] == n)
     {
-      return_value_rb_it_set$2=rb_it_set(tree, p);
-      return return_value_rb_it_set$2;
+      return_value_rb_it_set_2=rb_it_set(tree, p);
+      return return_value_rb_it_set_2;
     }
 
     while(p->link[(signed long int)dir] == n)
@@ -9755,19 +9755,19 @@ static struct rb_node * rb_tree_traverse(struct rb_tree *tree, signed int dir)
       p=pop(tree);
       if(p == ((struct rb_node *)NULL))
       {
-        return_value_rb_it_set$3=rb_it_set(tree, (struct rb_node *)(void *)0);
-        return return_value_rb_it_set$3;
+        return_value_rb_it_set_3=rb_it_set(tree, (struct rb_node *)(void *)0);
+        return return_value_rb_it_set_3;
       }
 
     }
-    struct rb_node *return_value_rb_it_set$4;
-    return_value_rb_it_set$4=rb_it_set(tree, p);
-    return return_value_rb_it_set$4;
+    struct rb_node *return_value_rb_it_set_4;
+    return_value_rb_it_set_4=rb_it_set(tree, p);
+    return return_value_rb_it_set_4;
   }
 
-  struct rb_node *return_value_rb_it_set$5;
-  return_value_rb_it_set$5=rb_it_set(tree, (struct rb_node *)(void *)0);
-  return return_value_rb_it_set$5;
+  struct rb_node *return_value_rb_it_set_5;
+  return_value_rb_it_set_5=rb_it_set(tree, (struct rb_node *)(void *)0);
+  return return_value_rb_it_set_5;
 }
 
 // shutdown_free_jobs
@@ -9796,21 +9796,21 @@ extern signed int split_string(const char *string, const char *split, struct lin
   char *tmp1;
   char *tmp2;
   signed int n = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(string == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*string != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(split == ((const char *)NULL) || tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = !(*string != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(split == ((const char *)NULL) || tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*split != 0) ? (_Bool)1 : (_Bool)0;
-  char *return_value___strndup$3;
-  char *return_value___strdup$4;
-  if(list == ((struct linked_list *)NULL) || tmp_if_expr$2)
+    tmp_if_expr_2 = !(*split != 0) ? (_Bool)1 : (_Bool)0;
+  char *return_value___strndup_3;
+  char *return_value___strdup_4;
+  if(list == ((struct linked_list *)NULL) || tmp_if_expr_2)
     return -1;
 
   else
@@ -9820,14 +9820,14 @@ extern signed int split_string(const char *string, const char *split, struct lin
       tmp1=strstr(string, split);
       if(!(tmp1 == ((char *)NULL)))
       {
-        return_value___strndup$3=__strndup(string, (unsigned long int)(tmp1 - string));
-        tmp2 = return_value___strndup$3;
+        return_value___strndup_3=__strndup(string, (unsigned long int)(tmp1 - string));
+        tmp2 = return_value___strndup_3;
       }
 
       else
       {
-        return_value___strdup$4=__strdup(string);
-        tmp2 = return_value___strdup$4;
+        return_value___strdup_4=__strdup(string);
+        tmp2 = return_value___strdup_4;
       }
       if(tmp2 == ((char *)NULL))
       {
@@ -9847,9 +9847,9 @@ extern signed int split_string(const char *string, const char *split, struct lin
         break;
 
       string = tmp1;
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(split);
-      string = string + (signed long int)return_value_strlen$5;
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(split);
+      string = string + (signed long int)return_value_strlen_5;
     }
     while((_Bool)1);
     return n;
@@ -9883,11 +9883,11 @@ static char * sql_escape_string(const char *str)
   char *buf;
   n = (unsigned long int)0;
   size=strlen(str);
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   do
   {
-    return_value_strlen$1=strlen(str);
-    if(n >= return_value_strlen$1)
+    return_value_strlen_1=strlen(str);
+    if(n >= return_value_strlen_1)
       break;
 
     if((signed int)str[(signed long int)n] == 39)
@@ -9896,36 +9896,36 @@ static char * sql_escape_string(const char *str)
     n = n + 1ul;
   }
   while((_Bool)1);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(size + (unsigned long int)1);
-  buf = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(size + (unsigned long int)1);
+  buf = (char *)return_value_malloc_2;
   n = (unsigned long int)0;
   i = (unsigned long int)0;
-  unsigned long int return_value_strlen$3;
-  unsigned long int tmp_post$4;
-  unsigned long int tmp_post$5;
+  unsigned long int return_value_strlen_3;
+  unsigned long int tmp_post_4;
+  unsigned long int tmp_post_5;
   do
   {
-    return_value_strlen$3=strlen(str);
-    if(n >= return_value_strlen$3)
+    return_value_strlen_3=strlen(str);
+    if(n >= return_value_strlen_3)
       break;
 
     if((signed int)str[(signed long int)n] == 39)
     {
-      tmp_post$4 = i;
+      tmp_post_4 = i;
       i = i + 1ul;
-      buf[(signed long int)tmp_post$4] = (char)39;
+      buf[(signed long int)tmp_post_4] = (char)39;
     }
 
-    tmp_post$5 = i;
+    tmp_post_5 = i;
     i = i + 1ul;
-    buf[(signed long int)tmp_post$5] = str[(signed long int)n];
+    buf[(signed long int)tmp_post_5] = str[(signed long int)n];
     n = n + 1ul;
   }
   while((_Bool)1);
-  unsigned long int tmp_post$6 = i;
+  unsigned long int tmp_post_6 = i;
   i = i + 1ul;
-  buf[(signed long int)tmp_post$6] = (char)0;
+  buf[(signed long int)tmp_post_6] = (char)0;
   return buf;
 }
 
@@ -9957,15 +9957,15 @@ static signed int sql_execute(const char *sql, ...)
 extern signed int ssl_check_private_key(struct ssl_context_handle *ctx_)
 {
   struct net_context_openssl *ctx = (struct net_context_openssl *)ctx_;
-  signed int return_value_SSL_CTX_check_private_key$3;
-  return_value_SSL_CTX_check_private_key$3=SSL_CTX_check_private_key(ctx->ssl_ctx);
-  if(!(return_value_SSL_CTX_check_private_key$3 == 1))
+  signed int return_value_SSL_CTX_check_private_key_3;
+  return_value_SSL_CTX_check_private_key_3=SSL_CTX_check_private_key(ctx->ssl_ctx);
+  if(!(return_value_SSL_CTX_check_private_key_3 == 1))
   {
-    unsigned long int return_value_ERR_get_error$1;
-    return_value_ERR_get_error$1=ERR_get_error();
-    char *return_value_ERR_error_string$2;
-    return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-    hub_log(0, "SSL_CTX_check_private_key: Private key does not match the certificate public key: %s", return_value_ERR_error_string$2);
+    unsigned long int return_value_ERR_get_error_1;
+    return_value_ERR_get_error_1=ERR_get_error();
+    char *return_value_ERR_error_string_2;
+    return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+    hub_log(0, "SSL_CTX_check_private_key: Private key does not match the certificate public key: %s", return_value_ERR_error_string_2);
     return 0;
   }
 
@@ -9977,15 +9977,15 @@ extern signed int ssl_check_private_key(struct ssl_context_handle *ctx_)
 extern signed int ssl_load_certificate(struct ssl_context_handle *ctx_, const char *pem_file)
 {
   struct net_context_openssl *ctx = (struct net_context_openssl *)ctx_;
-  signed int return_value_SSL_CTX_use_certificate_file$3;
-  return_value_SSL_CTX_use_certificate_file$3=SSL_CTX_use_certificate_file(ctx->ssl_ctx, pem_file, 1);
-  if(!(return_value_SSL_CTX_use_certificate_file$3 >= 0))
+  signed int return_value_SSL_CTX_use_certificate_file_3;
+  return_value_SSL_CTX_use_certificate_file_3=SSL_CTX_use_certificate_file(ctx->ssl_ctx, pem_file, 1);
+  if(!(return_value_SSL_CTX_use_certificate_file_3 >= 0))
   {
-    unsigned long int return_value_ERR_get_error$1;
-    return_value_ERR_get_error$1=ERR_get_error();
-    char *return_value_ERR_error_string$2;
-    return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-    hub_log(1, "SSL_CTX_use_certificate_file: %s", return_value_ERR_error_string$2);
+    unsigned long int return_value_ERR_get_error_1;
+    return_value_ERR_get_error_1=ERR_get_error();
+    char *return_value_ERR_error_string_2;
+    return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+    hub_log(1, "SSL_CTX_use_certificate_file: %s", return_value_ERR_error_string_2);
     return 0;
   }
 
@@ -9997,15 +9997,15 @@ extern signed int ssl_load_certificate(struct ssl_context_handle *ctx_, const ch
 extern signed int ssl_load_private_key(struct ssl_context_handle *ctx_, const char *pem_file)
 {
   struct net_context_openssl *ctx = (struct net_context_openssl *)ctx_;
-  signed int return_value_SSL_CTX_use_PrivateKey_file$3;
-  return_value_SSL_CTX_use_PrivateKey_file$3=SSL_CTX_use_PrivateKey_file(ctx->ssl_ctx, pem_file, 1);
-  if(!(return_value_SSL_CTX_use_PrivateKey_file$3 >= 0))
+  signed int return_value_SSL_CTX_use_PrivateKey_file_3;
+  return_value_SSL_CTX_use_PrivateKey_file_3=SSL_CTX_use_PrivateKey_file(ctx->ssl_ctx, pem_file, 1);
+  if(!(return_value_SSL_CTX_use_PrivateKey_file_3 >= 0))
   {
-    unsigned long int return_value_ERR_get_error$1;
-    return_value_ERR_get_error$1=ERR_get_error();
-    char *return_value_ERR_error_string$2;
-    return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-    hub_log(1, "SSL_CTX_use_PrivateKey_file: %s", return_value_ERR_error_string$2);
+    unsigned long int return_value_ERR_get_error_1;
+    return_value_ERR_get_error_1=ERR_get_error();
+    char *return_value_ERR_error_string_2;
+    return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+    hub_log(1, "SSL_CTX_use_PrivateKey_file: %s", return_value_ERR_error_string_2);
     return 0;
   }
 
@@ -10017,9 +10017,9 @@ extern signed int ssl_load_private_key(struct ssl_context_handle *ctx_, const ch
 extern signed int string_split(const char *string, const char *split, void *data, signed int (*handler)(char *, signed int, void *))
 {
   char *buf;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(string);
-  buf = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(string);
+  buf = return_value___strdup_1;
   char *start;
   char *pos;
   signed int count = 0;
@@ -10069,26 +10069,26 @@ extern signed int string_split(const char *string, const char *split, void *data
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.c line 472
 extern signed int string_to_boolean(const char *str, signed int *boolean)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*str != 0) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$8;
-  if(boolean == ((signed int *)NULL) || tmp_if_expr$1)
+    tmp_if_expr_1 = !(*str != 0) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_8;
+  if(boolean == ((signed int *)NULL) || tmp_if_expr_1)
     return 0;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(str);
-    switch(return_value_strlen$2)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(str);
+    switch(return_value_strlen_2)
     {
       case (unsigned long int)1:
       {
@@ -10109,15 +10109,15 @@ extern signed int string_to_boolean(const char *str, signed int *boolean)
       }
       case (unsigned long int)2:
       {
-        return_value_strcasecmp$3=strcasecmp(str, "on");
-        if(return_value_strcasecmp$3 == 0)
+        return_value_strcasecmp_3=strcasecmp(str, "on");
+        if(return_value_strcasecmp_3 == 0)
         {
           *boolean = 1;
           return 1;
         }
 
-        return_value_strcasecmp$4=strcasecmp(str, "no");
-        if(return_value_strcasecmp$4 == 0)
+        return_value_strcasecmp_4=strcasecmp(str, "no");
+        if(return_value_strcasecmp_4 == 0)
         {
           *boolean = 0;
           return 1;
@@ -10127,15 +10127,15 @@ extern signed int string_to_boolean(const char *str, signed int *boolean)
       }
       case (unsigned long int)3:
       {
-        return_value_strcasecmp$5=strcasecmp(str, "yes");
-        if(return_value_strcasecmp$5 == 0)
+        return_value_strcasecmp_5=strcasecmp(str, "yes");
+        if(return_value_strcasecmp_5 == 0)
         {
           *boolean = 1;
           return 1;
         }
 
-        return_value_strcasecmp$6=strcasecmp(str, "off");
-        if(return_value_strcasecmp$6 == 0)
+        return_value_strcasecmp_6=strcasecmp(str, "off");
+        if(return_value_strcasecmp_6 == 0)
         {
           *boolean = 0;
           return 1;
@@ -10145,8 +10145,8 @@ extern signed int string_to_boolean(const char *str, signed int *boolean)
       }
       case (unsigned long int)4:
       {
-        return_value_strcasecmp$7=strcasecmp(str, "true");
-        if(return_value_strcasecmp$7 == 0)
+        return_value_strcasecmp_7=strcasecmp(str, "true");
+        if(return_value_strcasecmp_7 == 0)
         {
           *boolean = 1;
           return 1;
@@ -10156,8 +10156,8 @@ extern signed int string_to_boolean(const char *str, signed int *boolean)
       }
       case (unsigned long int)5:
       {
-        return_value_strcasecmp$8=strcasecmp(str, "false");
-        if(return_value_strcasecmp$8 == 0)
+        return_value_strcasecmp_8=strcasecmp(str, "false");
+        if(return_value_strcasecmp_8 == 0)
         {
           *boolean = 0;
           return 1;
@@ -10178,8 +10178,8 @@ extern void strip_off_ini_line_comments(char *line, signed int line_count)
   char *p = line;
   char *out = line;
   signed int backslash = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(*line == 0))
   {
     for( ; !(*p == 0); p = p + 1l)
@@ -10206,16 +10206,16 @@ extern void strip_off_ini_line_comments(char *line, signed int line_count)
       else
       {
         if((signed int)*p == 92)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)*p == 35 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_1 = (signed int)*p == 35 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)*p == 34 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)*p == 34 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           *out = *p;
           out = out + 1l;
@@ -10239,9 +10239,9 @@ extern void strip_off_ini_line_comments(char *line, signed int line_count)
 extern char * strip_off_quotes(char *line)
 {
   unsigned long int len;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(*line == 0)
     return line;
 
@@ -10254,23 +10254,23 @@ extern char * strip_off_quotes(char *line)
     else
     {
       if((signed int)*line == 34)
-        tmp_if_expr$1 = (signed int)line[(signed long int)(len - (unsigned long int)1)] == 34 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)line[(signed long int)(len - (unsigned long int)1)] == 34 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if((signed int)*line == 39)
-          tmp_if_expr$2 = (signed int)line[(signed long int)(len - (unsigned long int)1)] == 39 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)line[(signed long int)(len - (unsigned long int)1)] == 39 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
       {
         line[(signed long int)(len - (unsigned long int)1)] = (char)0;
         return line + (signed long int)1;
@@ -10287,8 +10287,8 @@ extern char * strip_off_quotes(char *line)
 extern char * strip_white_space(char *string)
 {
   char *pos;
-  signed int return_value_is_white_space$1;
-  signed int return_value_is_white_space$3;
+  signed int return_value_is_white_space_1;
+  signed int return_value_is_white_space_3;
   if(string == ((char *)NULL))
     return "";
 
@@ -10296,8 +10296,8 @@ extern char * strip_white_space(char *string)
   {
     for( ; !(*string == 0); string = string + 1l)
     {
-      return_value_is_white_space$1=is_white_space(string[(signed long int)0]);
-      if(return_value_is_white_space$1 == 0)
+      return_value_is_white_space_1=is_white_space(string[(signed long int)0]);
+      if(return_value_is_white_space_1 == 0)
         break;
 
     }
@@ -10306,13 +10306,13 @@ extern char * strip_white_space(char *string)
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(string);
-      pos = &string[(signed long int)(return_value_strlen$2 - (unsigned long int)1)];
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(string);
+      pos = &string[(signed long int)(return_value_strlen_2 - (unsigned long int)1)];
       for( ; !(string >= pos); pos = pos - 1l)
       {
-        return_value_is_white_space$3=is_white_space(pos[(signed long int)0]);
-        if(return_value_is_white_space$3 == 0)
+        return_value_is_white_space_3=is_white_space(pos[(signed long int)0]);
+        if(return_value_is_white_space_3 == 0)
           break;
 
         pos[(signed long int)0] = (char)0;
@@ -10341,9 +10341,9 @@ extern void tiger(unsigned long int *str, unsigned long int length, unsigned lon
   j = (unsigned long int)0;
   for( ; !(j >= i); j = j + 1ul)
     temp[(signed long int)j] = ((unsigned char *)str)[(signed long int)j];
-  unsigned long int tmp_post$1 = j;
+  unsigned long int tmp_post_1 = j;
   j = j + 1ul;
-  temp[(signed long int)tmp_post$1] = (unsigned char)0x01;
+  temp[(signed long int)tmp_post_1] = (unsigned char)0x01;
   for( ; !((7ul & j) == 0ul); j = j + 1ul)
     temp[(signed long int)j] = (unsigned char)0;
   if(j >= 57ul)
@@ -10582,9 +10582,9 @@ void timeout_queue_initialize(struct timeout_queue *t, signed long int now, unsi
 {
   t->last = now;
   t->max = max;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(max * sizeof(struct timeout_evt *) /*8ul*/ );
-  t->events = (struct timeout_evt **)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(max * sizeof(struct timeout_evt *) /*8ul*/ );
+  t->events = (struct timeout_evt **)return_value_hub_malloc_zero_1;
 }
 
 // timeout_queue_insert
@@ -10639,13 +10639,13 @@ void timeout_queue_remove(struct timeout_queue *t, struct timeout_evt *evt)
 {
   unsigned long int pos = (unsigned long int)evt->timestamp % t->max;
   struct timeout_evt *first = t->events[(signed long int)pos];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(first == ((struct timeout_evt *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(evt->prev != ((struct timeout_evt *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(evt->prev != ((struct timeout_evt *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     if(first == evt)
     {
@@ -10680,9 +10680,9 @@ void timeout_queue_remove(struct timeout_queue *t, struct timeout_evt *evt)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timeout.c line 143
 void timeout_queue_reschedule(struct timeout_queue *t, struct timeout_evt *evt, unsigned long int seconds)
 {
-  signed int return_value_timeout_evt_is_scheduled$1;
-  return_value_timeout_evt_is_scheduled$1=timeout_evt_is_scheduled(evt);
-  if(!(return_value_timeout_evt_is_scheduled$1 == 0))
+  signed int return_value_timeout_evt_is_scheduled_1;
+  return_value_timeout_evt_is_scheduled_1=timeout_evt_is_scheduled(evt);
+  if(!(return_value_timeout_evt_is_scheduled_1 == 0))
     timeout_queue_remove(t, evt);
 
   timeout_queue_insert(t, evt, seconds);
@@ -10719,21 +10719,21 @@ static struct rb_node * tree_search(struct rb_tree *tree, const void *key)
 extern signed int uhub_atoi(const char *value)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(value);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(value);
+  len = (signed int)return_value_strlen_1;
   signed int offset = 0;
   signed int val = 0;
   signed int i = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   for( ; !(i >= len); i = i + 1)
   {
     if((signed int)value[(signed long int)i] >= 58)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)value[(signed long int)i] < 48 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)value[(signed long int)i] < 48 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       offset = offset + 1;
 
   }
@@ -10747,42 +10747,42 @@ extern signed int uhub_atoi(const char *value)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.c line 329
 extern const char * uhub_itoa(signed int val)
 {
-  signed int return_value_snprintf$1;
+  signed int return_value_snprintf_1;
   static char buf[22l];
-  return_value_snprintf$1=snprintf(buf, sizeof(char [22l]) /*22ul*/ , "%d", val);
-  char *tmp_if_expr$2;
-  if(!(return_value_snprintf$1 >= 0))
-    tmp_if_expr$2 = (char *)(void *)0;
+  return_value_snprintf_1=snprintf(buf, sizeof(char [22l]) /*22ul*/ , "%d", val);
+  char *tmp_if_expr_2;
+  if(!(return_value_snprintf_1 >= 0))
+    tmp_if_expr_2 = (char *)(void *)0;
 
   else
-    tmp_if_expr$2 = buf;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = buf;
+  return tmp_if_expr_2;
 }
 
 // uhub_mutex_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 34
-extern void uhub_mutex_destroy(union anonymous$7 *mutex)
+extern void uhub_mutex_destroy(union anonymous_7 *mutex)
 {
   pthread_mutex_destroy(mutex);
 }
 
 // uhub_mutex_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 29
-extern void uhub_mutex_init(union anonymous$7 *mutex)
+extern void uhub_mutex_init(union anonymous_7 *mutex)
 {
-  pthread_mutex_init(mutex, (const union anonymous$8 *)(void *)0);
+  pthread_mutex_init(mutex, (const union anonymous_8 *)(void *)0);
 }
 
 // uhub_mutex_lock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 39
-extern void uhub_mutex_lock(union anonymous$7 *mutex)
+extern void uhub_mutex_lock(union anonymous_7 *mutex)
 {
   pthread_mutex_lock(mutex);
 }
 
 // uhub_mutex_trylock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 49
-extern signed int uhub_mutex_trylock(union anonymous$7 *mutex)
+extern signed int uhub_mutex_trylock(union anonymous_7 *mutex)
 {
   signed int ret;
   ret=pthread_mutex_trylock(mutex);
@@ -10791,7 +10791,7 @@ extern signed int uhub_mutex_trylock(union anonymous$7 *mutex)
 
 // uhub_mutex_unlock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 44
-extern void uhub_mutex_unlock(union anonymous$7 *mutex)
+extern void uhub_mutex_unlock(union anonymous_7 *mutex)
 {
   pthread_mutex_unlock(mutex);
 }
@@ -10808,9 +10808,9 @@ void uhub_thread_cancel(struct pthread_data *thread)
 struct pthread_data * uhub_thread_create(void * (*start)(void *), void *arg)
 {
   struct pthread_data *thread;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct pthread_data) /*8ul*/ );
-  thread = (struct pthread_data *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct pthread_data) /*8ul*/ );
+  thread = (struct pthread_data *)return_value_hub_malloc_zero_1;
   signed int ret;
   ret=pthread_create(&thread->handle, (const union pthread_attr_t *)(void *)0, start, arg);
   if(!(ret == 0))
@@ -10836,62 +10836,62 @@ void * uhub_thread_join(struct pthread_data *thread)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.c line 337
 extern const char * uhub_ulltoa(unsigned long int val)
 {
-  signed int return_value_snprintf$1;
+  signed int return_value_snprintf_1;
   static char buf[22l];
-  return_value_snprintf$1=snprintf(buf, sizeof(char [22l]) /*22ul*/ , "%lu", val);
-  char *tmp_if_expr$2;
-  if(!(return_value_snprintf$1 >= 0))
-    tmp_if_expr$2 = (char *)(void *)0;
+  return_value_snprintf_1=snprintf(buf, sizeof(char [22l]) /*22ul*/ , "%lu", val);
+  char *tmp_if_expr_2;
+  if(!(return_value_snprintf_1 >= 0))
+    tmp_if_expr_2 = (char *)(void *)0;
 
   else
-    tmp_if_expr$2 = buf;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = buf;
+  return tmp_if_expr_2;
 }
 
 // validate_cred
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/tools/uhub-passwd.c line 90
 static const char * validate_cred(const char *cred_str)
 {
-  signed int tmp_statement_expression$1;
-  unsigned long int validate_cred$$1$$1$$__s1_len;
-  unsigned long int validate_cred$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(cred_str, "admin");
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$7;
-  if(tmp_statement_expression$1 == 0)
+  signed int tmp_statement_expression_1;
+  unsigned long int validate_cred__1__1____s1_len;
+  unsigned long int validate_cred__1__1____s2_len;
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(cred_str, "admin");
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_7;
+  if(tmp_statement_expression_1 == 0)
     return "admin";
 
   else
   {
-    unsigned long int validate_cred$$1$$2$$__s1_len;
-    unsigned long int validate_cred$$1$$2$$__s2_len;
-    signed int return_value___builtin_strcmp$4;
-    return_value___builtin_strcmp$4=__builtin_strcmp(cred_str, "super");
-    tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-    if(tmp_statement_expression$3 == 0)
+    unsigned long int validate_cred__1__2____s1_len;
+    unsigned long int validate_cred__1__2____s2_len;
+    signed int return_value___builtin_strcmp_4;
+    return_value___builtin_strcmp_4=__builtin_strcmp(cred_str, "super");
+    tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+    if(tmp_statement_expression_3 == 0)
       return "super";
 
     else
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$6;
-      return_value___builtin_strcmp$6=__builtin_strcmp(cred_str, "op");
-      tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-      if(tmp_statement_expression$5 == 0)
+      signed int return_value___builtin_strcmp_6;
+      return_value___builtin_strcmp_6=__builtin_strcmp(cred_str, "op");
+      tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+      if(tmp_statement_expression_5 == 0)
         return "op";
 
       else
       {
-        unsigned long int validate_cred$$1$$4$$__s1_len;
-        unsigned long int validate_cred$$1$$4$$__s2_len;
-        signed int return_value___builtin_strcmp$8;
-        return_value___builtin_strcmp$8=__builtin_strcmp(cred_str, "user");
-        tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-        if(tmp_statement_expression$7 == 0)
+        unsigned long int validate_cred__1__4____s1_len;
+        unsigned long int validate_cred__1__4____s2_len;
+        signed int return_value___builtin_strcmp_8;
+        return_value___builtin_strcmp_8=__builtin_strcmp(cred_str, "user");
+        tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+        if(tmp_statement_expression_7 == 0)
           return "user";
 
         else
@@ -10908,17 +10908,17 @@ static const char * validate_cred(const char *cred_str)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/tools/uhub-passwd.c line 144
 static const char * validate_password(const char *password)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(password);
-  if(return_value_strlen$1 >= 65ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(password);
+  if(return_value_strlen_1 >= 65ul)
   {
     fprintf(stderr, "Password is too long.\n");
     exit(1);
   }
 
-  signed int return_value_is_valid_utf8$2;
-  return_value_is_valid_utf8$2=is_valid_utf8(password);
-  if(return_value_is_valid_utf8$2 == 0)
+  signed int return_value_is_valid_utf8_2;
+  return_value_is_valid_utf8_2=is_valid_utf8(password);
+  if(return_value_is_valid_utf8_2 == 0)
   {
     fprintf(stderr, "Password must be utf-8 encoded.\n");
     exit(1);
@@ -10932,17 +10932,17 @@ static const char * validate_password(const char *password)
 static const char * validate_username(const char *username)
 {
   const char *tmp;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(username);
-  if(return_value_strlen$1 >= 65ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(username);
+  if(return_value_strlen_1 >= 65ul)
   {
     fprintf(stderr, "User name is too long.\n");
     exit(1);
   }
 
-  signed int return_value_is_white_space$2;
-  return_value_is_white_space$2=is_white_space(username[(signed long int)0]);
-  if(!(return_value_is_white_space$2 == 0))
+  signed int return_value_is_white_space_2;
+  return_value_is_white_space_2=is_white_space(username[(signed long int)0]);
+  if(!(return_value_is_white_space_2 == 0))
   {
     fprintf(stderr, "User name cannot start with white space.\n");
     exit(1);
@@ -10960,9 +10960,9 @@ static const char * validate_username(const char *username)
 
     }
 
-  signed int return_value_is_valid_utf8$3;
-  return_value_is_valid_utf8$3=is_valid_utf8(username);
-  if(return_value_is_valid_utf8$3 == 0)
+  signed int return_value_is_valid_utf8_3;
+  return_value_is_valid_utf8_3=is_valid_utf8(username);
+  if(return_value_is_valid_utf8_3 == 0)
   {
     fprintf(stderr, "User name must be utf-8 encoded.\n");
     exit(1);

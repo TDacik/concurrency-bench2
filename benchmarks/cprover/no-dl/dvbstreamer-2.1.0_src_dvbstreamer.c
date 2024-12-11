@@ -1,282 +1,282 @@
-// #anon_enum$EPGChannelMessageType_Event=0$EPGChannelMessageType_Detail=1$EPGChannelMessageType_Rating=2
+// #anon_enum_EPGChannelMessageType_Event=0_EPGChannelMessageType_Detail=1_EPGChannelMessageType_Rating=2
 // file ../include/epgchannel.h line 34
-enum anonymous$19 { EPGChannelMessageType_Event=0, EPGChannelMessageType_Detail=1, EPGChannelMessageType_Rating=2 };
+enum anonymous_19 { EPGChannelMessageType_Event=0, EPGChannelMessageType_Detail=1, EPGChannelMessageType_Rating=2 };
 
-// #anon_enum$ServiceType_TV=0$ServiceType_Radio=1$ServiceType_Data=2$ServiceType_Unknown=3
+// #anon_enum_ServiceType_TV=0_ServiceType_Radio=1_ServiceType_Data=2_ServiceType_Unknown=3
 // file ../include/services.h line 62
 enum anonymous { ServiceType_TV=0, ServiceType_Radio=1, ServiceType_Data=2, ServiceType_Unknown=3 };
 
-// tag-#anon#ST[*{ENtag-yaml_emitter_state_e#{U32}$U32$}$ENtag-yaml_emitter_state_e#{U32}$U32$$'start'||*{ENtag-yaml_emitter_state_e#{U32}$U32$}$ENtag-yaml_emitter_state_e#{U32}$U32$$'end'||*{ENtag-yaml_emitter_state_e#{U32}$U32$}$ENtag-yaml_emitter_state_e#{U32}$U32$$'top'|]
+// tag-#anon#ST[*{ENtag-yaml_emitter_state_e#{U32}_U32_}_ENtag-yaml_emitter_state_e#{U32}_U32__'start'||*{ENtag-yaml_emitter_state_e#{U32}_U32_}_ENtag-yaml_emitter_state_e#{U32}_U32__'end'||*{ENtag-yaml_emitter_state_e#{U32}_U32_}_ENtag-yaml_emitter_state_e#{U32}_U32__'top'|]
 // file /usr/include/yaml.h line 1616
-struct anonymous$53;
+struct anonymous_53;
 
-// tag-#anon#ST[*{ENtag-yaml_parser_state_e#{U32}$U32$}$ENtag-yaml_parser_state_e#{U32}$U32$$'start'||*{ENtag-yaml_parser_state_e#{U32}$U32$}$ENtag-yaml_parser_state_e#{U32}$U32$$'end'||*{ENtag-yaml_parser_state_e#{U32}$U32$}$ENtag-yaml_parser_state_e#{U32}$U32$$'top'|]
+// tag-#anon#ST[*{ENtag-yaml_parser_state_e#{U32}_U32_}_ENtag-yaml_parser_state_e#{U32}_U32__'start'||*{ENtag-yaml_parser_state_e#{U32}_U32_}_ENtag-yaml_parser_state_e#{U32}_U32__'end'||*{ENtag-yaml_parser_state_e#{U32}_U32_}_ENtag-yaml_parser_state_e#{U32}_U32__'top'|]
 // file /usr/include/yaml.h line 1245
-struct anonymous$61;
+struct anonymous_61;
 
-// tag-#anon#ST[*{S32(*{V}$V$|*{SYM#tag-PropertyValue_s#}$SYM#tag-PropertyValue_s#$)->S32}$S32(*{V}$V$|*{SYM#tag-PropertyValue_s#}$SYM#tag-PropertyValue_s#$)->S32$'set'||*{S32(*{V}$V$|*{SYM#tag-PropertyValue_s#}$SYM#tag-PropertyValue_s#$)->S32}$S32(*{V}$V$|*{SYM#tag-PropertyValue_s#}$SYM#tag-PropertyValue_s#$)->S32$'get'|]
+// tag-#anon#ST[*{S32(*{V}_V_|*{SYM#tag-PropertyValue_s#}_SYM#tag-PropertyValue_s#_)->S32}_S32(*{V}_V_|*{SYM#tag-PropertyValue_s#}_SYM#tag-PropertyValue_s#_)->S32_'set'||*{S32(*{V}_V_|*{SYM#tag-PropertyValue_s#}_SYM#tag-PropertyValue_s#_)->S32}_S32(*{V}_V_|*{SYM#tag-PropertyValue_s#}_SYM#tag-PropertyValue_s#_)->S32_'get'|]
 // file properties.c line 53
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[*{S32}$S32$'start'||*{S32}$S32$'end'||*{S32}$S32$'top'|]
+// tag-#anon#ST[*{S32}_S32_'start'||*{S32}_S32_'end'||*{S32}_S32_'top'|]
 // file /usr/include/yaml.h line 741
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[*{SYM#tag-Multiplex_s#}$SYM#tag-Multiplex_s#$'multiplex'||S32'networkId'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-Multiplex_s#}_SYM#tag-Multiplex_s#_'multiplex'||S32'networkId'||U32'_pad0'|]
 // file cache.c line 93
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[*{SYM#tag-Multiplex_s#}$SYM#tag-Multiplex_s#$'multiplex'||S32'tsId'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-Multiplex_s#}_SYM#tag-Multiplex_s#_'multiplex'||S32'tsId'||U32'_pad0'|]
 // file cache.c line 87
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'|]
+// tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'|]
 // file cache.c line 155
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||*{S8}$S8$'defaultAuthority'|]
+// tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||*{S8}_S8_'defaultAuthority'|]
 // file cache.c line 141
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||*{S8}$S8$'name'|]
+// tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||*{S8}_S8_'name'|]
 // file cache.c line 111
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||*{S8}$S8$'provider'|]
+// tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||*{S8}_S8_'provider'|]
 // file cache.c line 135
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||*{SYM#tag-ProgramInfo_s#}$SYM#tag-ProgramInfo_s#$'info'|]
+// tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||*{SYM#tag-ProgramInfo_s#}_SYM#tag-ProgramInfo_s#_'info'|]
 // file cache.c line 105
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||B'ca'||U56'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||B'ca'||U56'_pad0'|]
 // file cache.c line 123
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||EN#anon_enum$ServiceType_TV=0$ServiceType_Radio=1$ServiceType_Data=2$ServiceType_Unknown=3#{U32}$U32$'type'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||EN#anon_enum_ServiceType_TV=0_ServiceType_Radio=1_ServiceType_Data=2_ServiceType_Unknown=3#{U32}_U32_'type'||U32'_pad0'|]
 // file cache.c line 129
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||S32'pmtPid'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||S32'pmtPid'||U32'_pad0'|]
 // file cache.c line 99
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||U16'source'||U48'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||U16'source'||U48'_pad0'|]
 // file cache.c line 117
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{SYM#tag-yaml_alias_data_s#}$SYM#tag-yaml_alias_data_s#$'start'||*{SYM#tag-yaml_alias_data_s#}$SYM#tag-yaml_alias_data_s#$'end'||*{SYM#tag-yaml_alias_data_s#}$SYM#tag-yaml_alias_data_s#$'top'|]
+// tag-#anon#ST[*{SYM#tag-yaml_alias_data_s#}_SYM#tag-yaml_alias_data_s#_'start'||*{SYM#tag-yaml_alias_data_s#}_SYM#tag-yaml_alias_data_s#_'end'||*{SYM#tag-yaml_alias_data_s#}_SYM#tag-yaml_alias_data_s#_'top'|]
 // file /usr/include/yaml.h line 1287
-struct anonymous$63;
+struct anonymous_63;
 
-// tag-#anon#ST[*{SYM#tag-yaml_event_s#}$SYM#tag-yaml_event_s#$'start'||*{SYM#tag-yaml_event_s#}$SYM#tag-yaml_event_s#$'end'||*{SYM#tag-yaml_event_s#}$SYM#tag-yaml_event_s#$'head'||*{SYM#tag-yaml_event_s#}$SYM#tag-yaml_event_s#$'tail'|]
+// tag-#anon#ST[*{SYM#tag-yaml_event_s#}_SYM#tag-yaml_event_s#_'start'||*{SYM#tag-yaml_event_s#}_SYM#tag-yaml_event_s#_'end'||*{SYM#tag-yaml_event_s#}_SYM#tag-yaml_event_s#_'head'||*{SYM#tag-yaml_event_s#}_SYM#tag-yaml_event_s#_'tail'|]
 // file /usr/include/yaml.h line 1629
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[*{SYM#tag-yaml_mark_s#}$SYM#tag-yaml_mark_s#$'start'||*{SYM#tag-yaml_mark_s#}$SYM#tag-yaml_mark_s#$'end'||*{SYM#tag-yaml_mark_s#}$SYM#tag-yaml_mark_s#$'top'|]
+// tag-#anon#ST[*{SYM#tag-yaml_mark_s#}_SYM#tag-yaml_mark_s#_'start'||*{SYM#tag-yaml_mark_s#}_SYM#tag-yaml_mark_s#_'end'||*{SYM#tag-yaml_mark_s#}_SYM#tag-yaml_mark_s#_'top'|]
 // file /usr/include/yaml.h line 1258
-struct anonymous$62;
+struct anonymous_62;
 
-// tag-#anon#ST[*{SYM#tag-yaml_node_pair_s#}$SYM#tag-yaml_node_pair_s#$'start'||*{SYM#tag-yaml_node_pair_s#}$SYM#tag-yaml_node_pair_s#$'end'||*{SYM#tag-yaml_node_pair_s#}$SYM#tag-yaml_node_pair_s#$'top'|]
+// tag-#anon#ST[*{SYM#tag-yaml_node_pair_s#}_SYM#tag-yaml_node_pair_s#_'start'||*{SYM#tag-yaml_node_pair_s#}_SYM#tag-yaml_node_pair_s#_'end'||*{SYM#tag-yaml_node_pair_s#}_SYM#tag-yaml_node_pair_s#_'top'|]
 // file /usr/include/yaml.h line 756
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[*{SYM#tag-yaml_node_s#}$SYM#tag-yaml_node_s#$'start'||*{SYM#tag-yaml_node_s#}$SYM#tag-yaml_node_s#$'end'||*{SYM#tag-yaml_node_s#}$SYM#tag-yaml_node_s#$'top'|]
+// tag-#anon#ST[*{SYM#tag-yaml_node_s#}_SYM#tag-yaml_node_s#_'start'||*{SYM#tag-yaml_node_s#}_SYM#tag-yaml_node_s#_'end'||*{SYM#tag-yaml_node_s#}_SYM#tag-yaml_node_s#_'top'|]
 // file /usr/include/yaml.h line 781
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{SYM#tag-yaml_simple_key_s#}$SYM#tag-yaml_simple_key_s#$'start'||*{SYM#tag-yaml_simple_key_s#}$SYM#tag-yaml_simple_key_s#$'end'||*{SYM#tag-yaml_simple_key_s#}$SYM#tag-yaml_simple_key_s#$'top'|]
+// tag-#anon#ST[*{SYM#tag-yaml_simple_key_s#}_SYM#tag-yaml_simple_key_s#_'start'||*{SYM#tag-yaml_simple_key_s#}_SYM#tag-yaml_simple_key_s#_'end'||*{SYM#tag-yaml_simple_key_s#}_SYM#tag-yaml_simple_key_s#_'top'|]
 // file /usr/include/yaml.h line 1226
-struct anonymous$60;
+struct anonymous_60;
 
-// tag-#anon#ST[*{SYM#tag-yaml_tag_directive_s#}$SYM#tag-yaml_tag_directive_s#$'start'||*{SYM#tag-yaml_tag_directive_s#}$SYM#tag-yaml_tag_directive_s#$'end'|]
+// tag-#anon#ST[*{SYM#tag-yaml_tag_directive_s#}_SYM#tag-yaml_tag_directive_s#_'start'||*{SYM#tag-yaml_tag_directive_s#}_SYM#tag-yaml_tag_directive_s#_'end'|]
 // file /usr/include/yaml.h line 404
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{SYM#tag-yaml_tag_directive_s#}$SYM#tag-yaml_tag_directive_s#$'start'||*{SYM#tag-yaml_tag_directive_s#}$SYM#tag-yaml_tag_directive_s#$'end'||*{SYM#tag-yaml_tag_directive_s#}$SYM#tag-yaml_tag_directive_s#$'top'|]
+// tag-#anon#ST[*{SYM#tag-yaml_tag_directive_s#}_SYM#tag-yaml_tag_directive_s#_'start'||*{SYM#tag-yaml_tag_directive_s#}_SYM#tag-yaml_tag_directive_s#_'end'||*{SYM#tag-yaml_tag_directive_s#}_SYM#tag-yaml_tag_directive_s#_'top'|]
 // file /usr/include/yaml.h line 1268
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[*{SYM#tag-yaml_token_s#}$SYM#tag-yaml_token_s#$'start'||*{SYM#tag-yaml_token_s#}$SYM#tag-yaml_token_s#$'end'||*{SYM#tag-yaml_token_s#}$SYM#tag-yaml_token_s#$'head'||*{SYM#tag-yaml_token_s#}$SYM#tag-yaml_token_s#$'tail'|]
+// tag-#anon#ST[*{SYM#tag-yaml_token_s#}_SYM#tag-yaml_token_s#_'start'||*{SYM#tag-yaml_token_s#}_SYM#tag-yaml_token_s#_'end'||*{SYM#tag-yaml_token_s#}_SYM#tag-yaml_token_s#_'head'||*{SYM#tag-yaml_token_s#}_SYM#tag-yaml_token_s#_'tail'|]
 // file /usr/include/yaml.h line 1192
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[*{SYM#tag-yaml_version_directive_s#}$SYM#tag-yaml_version_directive_s#$'version_directive'||SYM#tag-#anon#ST[*{SYM#tag-yaml_tag_directive_s#}$SYM#tag-yaml_tag_directive_s#$'start'||*{SYM#tag-yaml_tag_directive_s#}$SYM#tag-yaml_tag_directive_s#$'end'|]#'tag_directives'||S32'implicit'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-yaml_version_directive_s#}_SYM#tag-yaml_version_directive_s#_'version_directive'||SYM#tag-#anon#ST[*{SYM#tag-yaml_tag_directive_s#}_SYM#tag-yaml_tag_directive_s#_'start'||*{SYM#tag-yaml_tag_directive_s#}_SYM#tag-yaml_tag_directive_s#_'end'|]#'tag_directives'||S32'implicit'||U32'_pad0'|]
 // file /usr/include/yaml.h line 399
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[*{U8}$U8$'anchor'|]
+// tag-#anon#ST[*{U8}_U8_'anchor'|]
 // file /usr/include/yaml.h line 422
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[*{U8}$U8$'anchor'||*{U8}$U8$'tag'||*{U8}$U8$'value'||U64'length'||S32'plain_implicit'||S32'quoted_implicit'||ENtag-yaml_scalar_style_e#{U32}$U32$'style'||U32'$pad0'|]
+// tag-#anon#ST[*{U8}_U8_'anchor'||*{U8}_U8_'tag'||*{U8}_U8_'value'||U64'length'||S32'plain_implicit'||S32'quoted_implicit'||ENtag-yaml_scalar_style_e#{U32}_U32_'style'||U32'_pad0'|]
 // file /usr/include/yaml.h line 428
-struct anonymous$40;
+struct anonymous_40;
 
-// tag-#anon#ST[*{U8}$U8$'anchor'||*{U8}$U8$'tag'||S32'implicit'||ENtag-yaml_mapping_style_e#{U32}$U32$'style'|]
+// tag-#anon#ST[*{U8}_U8_'anchor'||*{U8}_U8_'tag'||S32'implicit'||ENtag-yaml_mapping_style_e#{U32}_U32_'style'|]
 // file /usr/include/yaml.h line 458
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[*{U8}$U8$'anchor'||*{U8}$U8$'tag'||S32'implicit'||ENtag-yaml_sequence_style_e#{U32}$U32$'style'|]
+// tag-#anon#ST[*{U8}_U8_'anchor'||*{U8}_U8_'tag'||S32'implicit'||ENtag-yaml_sequence_style_e#{U32}_U32_'style'|]
 // file /usr/include/yaml.h line 446
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[*{U8}$U8$'anchor'||U64'anchor_length'||S32'alias'||U32'$pad0'|]
+// tag-#anon#ST[*{U8}_U8_'anchor'||U64'anchor_length'||S32'alias'||U32'_pad0'|]
 // file /usr/include/yaml.h line 1687
-struct anonymous$56;
+struct anonymous_56;
 
-// tag-#anon#ST[*{U8}$U8$'buffer'||U64'size'||*{U64}$U64$'size_written'|]
+// tag-#anon#ST[*{U8}_U8_'buffer'||U64'size'||*{U64}_U64_'size_written'|]
 // file /usr/include/yaml.h line 1555
-struct anonymous$64;
+struct anonymous_64;
 
-// tag-#anon#ST[*{U8}$U8$'handle'||*{U8}$U8$'prefix'|]
+// tag-#anon#ST[*{U8}_U8_'handle'||*{U8}_U8_'prefix'|]
 // file /usr/include/yaml.h line 320
-struct anonymous$68;
+struct anonymous_68;
 
-// tag-#anon#ST[*{U8}$U8$'handle'||*{U8}$U8$'suffix'|]
+// tag-#anon#ST[*{U8}_U8_'handle'||*{U8}_U8_'suffix'|]
 // file /usr/include/yaml.h line 294
-struct anonymous$66;
+struct anonymous_66;
 
-// tag-#anon#ST[*{U8}$U8$'handle'||U64'handle_length'||*{U8}$U8$'suffix'||U64'suffix_length'|]
+// tag-#anon#ST[*{U8}_U8_'handle'||U64'handle_length'||*{U8}_U8_'suffix'||U64'suffix_length'|]
 // file /usr/include/yaml.h line 1697
-struct anonymous$57;
+struct anonymous_57;
 
-// tag-#anon#ST[*{U8}$U8$'start'||*{U8}$U8$'end'||*{U8}$U8$'pointer'||*{U8}$U8$'last'|]
+// tag-#anon#ST[*{U8}_U8_'start'||*{U8}_U8_'end'||*{U8}_U8_'pointer'||*{U8}_U8_'last'|]
 // file /usr/include/yaml.h line 1138
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[*{U8}$U8$'value'|]
+// tag-#anon#ST[*{U8}_U8_'value'|]
 // file /usr/include/yaml.h line 282
-struct anonymous$65;
+struct anonymous_65;
 
-// tag-#anon#ST[*{U8}$U8$'value'||U64'length'||ENtag-yaml_scalar_style_e#{U32}$U32$'style'||U32'$pad0'|]
+// tag-#anon#ST[*{U8}_U8_'value'||U64'length'||ENtag-yaml_scalar_style_e#{U32}_U32_'style'||U32'_pad0'|]
 // file /usr/include/yaml.h line 302
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{U8}$U8$'value'||U64'length'||S32'multiline'||S32'flow_plain_allowed'||S32'block_plain_allowed'||S32'single_quoted_allowed'||S32'block_allowed'||ENtag-yaml_scalar_style_e#{U32}$U32$'style'|]
+// tag-#anon#ST[*{U8}_U8_'value'||U64'length'||S32'multiline'||S32'flow_plain_allowed'||S32'block_plain_allowed'||S32'single_quoted_allowed'||S32'block_allowed'||ENtag-yaml_scalar_style_e#{U32}_U32_'style'|]
 // file /usr/include/yaml.h line 1709
-struct anonymous$58;
+struct anonymous_58;
 
-// tag-#anon#ST[*{cU8}$cU8$'start'||*{cU8}$cU8$'end'||*{cU8}$cU8$'current'|]
+// tag-#anon#ST[*{cU8}_cU8_'start'||*{cU8}_cU8_'end'||*{cU8}_cU8_'current'|]
 // file /usr/include/yaml.h line 1121
-struct anonymous$47;
+struct anonymous_47;
 
-// tag-#anon#ST[ARR32{U8}$U8$'data'||U32'len'||ARR3{U32}$U32$'reserved1'||*{V}$V$'reserved2'|]
+// tag-#anon#ST[ARR32{U8}_U8_'data'||U32'len'||ARR3{U32}_U32_'reserved1'||*{V}_V_'reserved2'|]
 // file /usr/include/linux/dvb/frontend.h line 469
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[ENtag-yaml_encoding_e#{U32}$U32$'encoding'|]
+// tag-#anon#ST[ENtag-yaml_encoding_e#{U32}_U32_'encoding'|]
 // file /usr/include/yaml.h line 276
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S32'id'||S32'source'||S32'multiplexUID'||U32'$pad0'||*{S8}$S8$'name'|]
+// tag-#anon#ST[S32'id'||S32'source'||S32'multiplexUID'||U32'_pad0'||*{S8}_S8_'name'|]
 // file cache.c line 147
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[S32'implicit'|]
 // file /usr/include/yaml.h line 416
-struct anonymous$45;
+struct anonymous_45;
 
 // tag-#anon#ST[S32'major'||S32'minor'|]
 // file /usr/include/yaml.h line 312
-struct anonymous$67;
+struct anonymous_67;
 
 // tag-#anon#ST[S32'references'||S32'anchor'||S32'serialized'|]
 // file /usr/include/yaml.h line 1743
-struct anonymous$59;
+struct anonymous_59;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[*{S32}$S32$'start'||*{S32}$S32$'end'||*{S32}$S32$'top'|]#'items'||ENtag-yaml_sequence_style_e#{U32}$U32$'style'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[*{S32}_S32_'start'||*{S32}_S32_'end'||*{S32}_S32_'top'|]#'items'||ENtag-yaml_sequence_style_e#{U32}_U32_'style'||U32'_pad0'|]
 // file /usr/include/yaml.h line 739
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[*{SYM#tag-yaml_node_pair_s#}$SYM#tag-yaml_node_pair_s#$'start'||*{SYM#tag-yaml_node_pair_s#}$SYM#tag-yaml_node_pair_s#$'end'||*{SYM#tag-yaml_node_pair_s#}$SYM#tag-yaml_node_pair_s#$'top'|]#'pairs'||ENtag-yaml_mapping_style_e#{U32}$U32$'style'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[*{SYM#tag-yaml_node_pair_s#}_SYM#tag-yaml_node_pair_s#_'start'||*{SYM#tag-yaml_node_pair_s#}_SYM#tag-yaml_node_pair_s#_'end'||*{SYM#tag-yaml_node_pair_s#}_SYM#tag-yaml_node_pair_s#_'top'|]#'pairs'||ENtag-yaml_mapping_style_e#{U32}_U32_'style'||U32'_pad0'|]
 // file /usr/include/yaml.h line 754
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$25;
+union anonymous_25;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$38;
+union anonymous_38;
 
-// tag-#anon#UN[S32'integer'||F64'fp'||B'boolean'||*{S8}$S8$'string'||S8'ch'||U16'pid'|]
+// tag-#anon#UN[S32'integer'||F64'fp'||B'boolean'||*{S8}_S8_'string'||S8'ch'||U16'pid'|]
 // file ../include/properties.h line 51
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[*{S32(*{V}$V$|*{SYM#tag-PropertyValue_s#}$SYM#tag-PropertyValue_s#$)->S32}$S32(*{V}$V$|*{SYM#tag-PropertyValue_s#}$SYM#tag-PropertyValue_s#$)->S32$'set'||*{S32(*{V}$V$|*{SYM#tag-PropertyValue_s#}$SYM#tag-PropertyValue_s#$)->S32}$S32(*{V}$V$|*{SYM#tag-PropertyValue_s#}$SYM#tag-PropertyValue_s#$)->S32$'get'|]#'simple'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[*{S32(*{V}_V_|*{SYM#tag-PropertyValue_s#}_SYM#tag-PropertyValue_s#_)->S32}_S32(*{V}_V_|*{SYM#tag-PropertyValue_s#}_SYM#tag-PropertyValue_s#_)->S32_'set'||*{S32(*{V}_V_|*{SYM#tag-PropertyValue_s#}_SYM#tag-PropertyValue_s#_)->S32}_S32(*{V}_V_|*{SYM#tag-PropertyValue_s#}_SYM#tag-PropertyValue_s#_)->S32_'get'|]#'simple'|]
 // file properties.c line 52
-union anonymous$36;
+union anonymous_36;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[*{SYM#tag-Multiplex_s#}$SYM#tag-Multiplex_s#$'multiplex'||S32'tsId'||U32'$pad0'|]#'multiplexTSId'||SYM#tag-#anon#ST[*{SYM#tag-Multiplex_s#}$SYM#tag-Multiplex_s#$'multiplex'||S32'networkId'||U32'$pad0'|]#'multiplexNetworkId'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||S32'pmtPid'||U32'$pad0'|]#'servicePMTPID'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||*{SYM#tag-ProgramInfo_s#}$SYM#tag-ProgramInfo_s#$'info'|]#'servicePIDs'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||*{S8}$S8$'name'|]#'serviceName'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||U16'source'||U48'$pad0'|]#'serviceSource'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||B'ca'||U56'$pad0'|]#'serviceCA'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||EN#anon_enum$ServiceType_TV=0$ServiceType_Radio=1$ServiceType_Data=2$ServiceType_Unknown=3#{U32}$U32$'type'||U32'$pad0'|]#'serviceType'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||*{S8}$S8$'provider'|]#'serviceProvider'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'||*{S8}$S8$'defaultAuthority'|]#'serviceDefaultAuthority'||SYM#tag-#anon#ST[S32'id'||S32'source'||S32'multiplexUID'||U32'$pad0'||*{S8}$S8$'name'|]#'serviceAdd'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}$SYM#tag-Service_t#$'service'|]#'serviceDelete'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[*{SYM#tag-Multiplex_s#}_SYM#tag-Multiplex_s#_'multiplex'||S32'tsId'||U32'_pad0'|]#'multiplexTSId'||SYM#tag-#anon#ST[*{SYM#tag-Multiplex_s#}_SYM#tag-Multiplex_s#_'multiplex'||S32'networkId'||U32'_pad0'|]#'multiplexNetworkId'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||S32'pmtPid'||U32'_pad0'|]#'servicePMTPID'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||*{SYM#tag-ProgramInfo_s#}_SYM#tag-ProgramInfo_s#_'info'|]#'servicePIDs'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||*{S8}_S8_'name'|]#'serviceName'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||U16'source'||U48'_pad0'|]#'serviceSource'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||B'ca'||U56'_pad0'|]#'serviceCA'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||EN#anon_enum_ServiceType_TV=0_ServiceType_Radio=1_ServiceType_Data=2_ServiceType_Unknown=3#{U32}_U32_'type'||U32'_pad0'|]#'serviceType'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||*{S8}_S8_'provider'|]#'serviceProvider'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'||*{S8}_S8_'defaultAuthority'|]#'serviceDefaultAuthority'||SYM#tag-#anon#ST[S32'id'||S32'source'||S32'multiplexUID'||U32'_pad0'||*{S8}_S8_'name'|]#'serviceAdd'||SYM#tag-#anon#ST[*{SYM#tag-Service_t#}_SYM#tag-Service_t#_'service'|]#'serviceDelete'|]
 // file cache.c line 85
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[*{U8}$U8$'buffer'||U64'size'||*{U64}$U64$'size_written'|]#'string'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'file'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[*{U8}_U8_'buffer'||U64'size'||*{U64}_U64_'size_written'|]#'string'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'file'|]
 // file /usr/include/yaml.h line 1553
-union anonymous$52;
+union anonymous_52;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[*{U8}$U8$'value'||U64'length'||ENtag-yaml_scalar_style_e#{U32}$U32$'style'||U32'$pad0'|]#'scalar'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[*{S32}$S32$'start'||*{S32}$S32$'end'||*{S32}$S32$'top'|]#'items'||ENtag-yaml_sequence_style_e#{U32}$U32$'style'||U32'$pad0'|]#'sequence'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[*{SYM#tag-yaml_node_pair_s#}$SYM#tag-yaml_node_pair_s#$'start'||*{SYM#tag-yaml_node_pair_s#}$SYM#tag-yaml_node_pair_s#$'end'||*{SYM#tag-yaml_node_pair_s#}$SYM#tag-yaml_node_pair_s#$'top'|]#'pairs'||ENtag-yaml_mapping_style_e#{U32}$U32$'style'||U32'$pad0'|]#'mapping'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[*{U8}_U8_'value'||U64'length'||ENtag-yaml_scalar_style_e#{U32}_U32_'style'||U32'_pad0'|]#'scalar'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[*{S32}_S32_'start'||*{S32}_S32_'end'||*{S32}_S32_'top'|]#'items'||ENtag-yaml_sequence_style_e#{U32}_U32_'style'||U32'_pad0'|]#'sequence'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[*{SYM#tag-yaml_node_pair_s#}_SYM#tag-yaml_node_pair_s#_'start'||*{SYM#tag-yaml_node_pair_s#}_SYM#tag-yaml_node_pair_s#_'end'||*{SYM#tag-yaml_node_pair_s#}_SYM#tag-yaml_node_pair_s#_'top'|]#'pairs'||ENtag-yaml_mapping_style_e#{U32}_U32_'style'||U32'_pad0'|]#'mapping'|]
 // file /usr/include/yaml.h line 726
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[*{cU8}$cU8$'start'||*{cU8}$cU8$'end'||*{cU8}$cU8$'current'|]#'string'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'file'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[*{cU8}_cU8_'start'||*{cU8}_cU8_'end'||*{cU8}_cU8_'current'|]#'string'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'file'|]
 // file /usr/include/yaml.h line 1119
-union anonymous$48;
+union anonymous_48;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[ENtag-yaml_encoding_e#{U32}$U32$'encoding'|]#'stream_start'||SYM#tag-#anon#ST[*{SYM#tag-yaml_version_directive_s#}$SYM#tag-yaml_version_directive_s#$'version_directive'||SYM#tag-#anon#ST[*{SYM#tag-yaml_tag_directive_s#}$SYM#tag-yaml_tag_directive_s#$'start'||*{SYM#tag-yaml_tag_directive_s#}$SYM#tag-yaml_tag_directive_s#$'end'|]#'tag_directives'||S32'implicit'||U32'$pad0'|]#'document_start'||SYM#tag-#anon#ST[S32'implicit'|]#'document_end'||SYM#tag-#anon#ST[*{U8}$U8$'anchor'|]#'alias'||SYM#tag-#anon#ST[*{U8}$U8$'anchor'||*{U8}$U8$'tag'||*{U8}$U8$'value'||U64'length'||S32'plain_implicit'||S32'quoted_implicit'||ENtag-yaml_scalar_style_e#{U32}$U32$'style'||U32'$pad0'|]#'scalar'||SYM#tag-#anon#ST[*{U8}$U8$'anchor'||*{U8}$U8$'tag'||S32'implicit'||ENtag-yaml_sequence_style_e#{U32}$U32$'style'|]#'sequence_start'||SYM#tag-#anon#ST[*{U8}$U8$'anchor'||*{U8}$U8$'tag'||S32'implicit'||ENtag-yaml_mapping_style_e#{U32}$U32$'style'|]#'mapping_start'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[ENtag-yaml_encoding_e#{U32}_U32_'encoding'|]#'stream_start'||SYM#tag-#anon#ST[*{SYM#tag-yaml_version_directive_s#}_SYM#tag-yaml_version_directive_s#_'version_directive'||SYM#tag-#anon#ST[*{SYM#tag-yaml_tag_directive_s#}_SYM#tag-yaml_tag_directive_s#_'start'||*{SYM#tag-yaml_tag_directive_s#}_SYM#tag-yaml_tag_directive_s#_'end'|]#'tag_directives'||S32'implicit'||U32'_pad0'|]#'document_start'||SYM#tag-#anon#ST[S32'implicit'|]#'document_end'||SYM#tag-#anon#ST[*{U8}_U8_'anchor'|]#'alias'||SYM#tag-#anon#ST[*{U8}_U8_'anchor'||*{U8}_U8_'tag'||*{U8}_U8_'value'||U64'length'||S32'plain_implicit'||S32'quoted_implicit'||ENtag-yaml_scalar_style_e#{U32}_U32_'style'||U32'_pad0'|]#'scalar'||SYM#tag-#anon#ST[*{U8}_U8_'anchor'||*{U8}_U8_'tag'||S32'implicit'||ENtag-yaml_sequence_style_e#{U32}_U32_'style'|]#'sequence_start'||SYM#tag-#anon#ST[*{U8}_U8_'anchor'||*{U8}_U8_'tag'||S32'implicit'||ENtag-yaml_mapping_style_e#{U32}_U32_'style'|]#'mapping_start'|]
 // file /usr/include/yaml.h line 390
-union anonymous$46;
+union anonymous_46;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[ENtag-yaml_encoding_e#{U32}$U32$'encoding'|]#'stream_start'||SYM#tag-#anon#ST[*{U8}$U8$'value'|]#'alias'||SYM#tag-#anon#ST[*{U8}$U8$'value'|]#'anchor'||SYM#tag-#anon#ST[*{U8}$U8$'handle'||*{U8}$U8$'suffix'|]#'tag'||SYM#tag-#anon#ST[*{U8}$U8$'value'||U64'length'||ENtag-yaml_scalar_style_e#{U32}$U32$'style'||U32'$pad0'|]#'scalar'||SYM#tag-#anon#ST[S32'major'||S32'minor'|]#'version_directive'||SYM#tag-#anon#ST[*{U8}$U8$'handle'||*{U8}$U8$'prefix'|]#'tag_directive'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[ENtag-yaml_encoding_e#{U32}_U32_'encoding'|]#'stream_start'||SYM#tag-#anon#ST[*{U8}_U8_'value'|]#'alias'||SYM#tag-#anon#ST[*{U8}_U8_'value'|]#'anchor'||SYM#tag-#anon#ST[*{U8}_U8_'handle'||*{U8}_U8_'suffix'|]#'tag'||SYM#tag-#anon#ST[*{U8}_U8_'value'||U64'length'||ENtag-yaml_scalar_style_e#{U32}_U32_'style'||U32'_pad0'|]#'scalar'||SYM#tag-#anon#ST[S32'major'||S32'minor'|]#'version_directive'||SYM#tag-#anon#ST[*{U8}_U8_'handle'||*{U8}_U8_'prefix'|]#'tag_directive'|]
 // file /usr/include/yaml.h line 273
-union anonymous$50;
+union anonymous_50;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$21;
+union anonymous_21;
 
 // tag-#anon#UN[SYM#tag-EPGEvent_s#'event'||SYM#tag-EPGEventDetail_s#'detail'||SYM#tag-EPGEventRating_s#'rating'|]
 // file ../include/epgchannel.h line 43
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[SYM#tag-PluginEventListenerDetails_s#'eventDetails'||SYM#tag-DeliveryMethodHandler_t#'dmHandler'||*{V(*{SYM#tag-dvbpsi_pmt_s#}$SYM#tag-dvbpsi_pmt_s#$)->V}$V(*{SYM#tag-dvbpsi_pmt_s#}$SYM#tag-dvbpsi_pmt_s#$)->V$'patCB'||*{V(*{SYM#tag-dvbpsi_pmt_s#}$SYM#tag-dvbpsi_pmt_s#$)->V}$V(*{SYM#tag-dvbpsi_pmt_s#}$SYM#tag-dvbpsi_pmt_s#$)->V$'pmtCB'||*{V(*{SYM#tag-dvbpsi_sdt_s#}$SYM#tag-dvbpsi_sdt_s#$)->V}$V(*{SYM#tag-dvbpsi_sdt_s#}$SYM#tag-dvbpsi_sdt_s#$)->V$'sdtCB'||*{V(*{SYM#tag-dvbpsi_nit_s#}$SYM#tag-dvbpsi_nit_s#$)->V}$V(*{SYM#tag-dvbpsi_nit_s#}$SYM#tag-dvbpsi_nit_s#$)->V$'nitCB'||*{V(*{SYM#tag-dvbpsi_tdt_tot_s#}$SYM#tag-dvbpsi_tdt_tot_s#$)->V}$V(*{SYM#tag-dvbpsi_tdt_tot_s#}$SYM#tag-dvbpsi_tdt_tot_s#$)->V$'tdtCB'||*{V(*{SYM#tag-dvbpsi_atsc_mgt_s#}$SYM#tag-dvbpsi_atsc_mgt_s#$)->V}$V(*{SYM#tag-dvbpsi_atsc_mgt_s#}$SYM#tag-dvbpsi_atsc_mgt_s#$)->V$'mgtCB'||*{V(*{SYM#tag-dvbpsi_atsc_stt_s#}$SYM#tag-dvbpsi_atsc_stt_s#$)->V}$V(*{SYM#tag-dvbpsi_atsc_stt_s#}$SYM#tag-dvbpsi_atsc_stt_s#$)->V$'sttCB'||*{V(*{SYM#tag-dvbpsi_atsc_vct_s#}$SYM#tag-dvbpsi_atsc_vct_s#$)->V}$V(*{SYM#tag-dvbpsi_atsc_vct_s#}$SYM#tag-dvbpsi_atsc_vct_s#$)->V$'vctCB'||*{V(*{SYM#tag-Multiplex_s#}$SYM#tag-Multiplex_s#$|*{SYM#tag-Service_t#}$SYM#tag-Service_t#$)->V}$V(*{SYM#tag-Multiplex_s#}$SYM#tag-Multiplex_s#$|*{SYM#tag-Service_t#}$SYM#tag-Service_t#$)->V$'channelChangeCB'||*{V(B)->V}$V(B)->V$'installCB'|]
+// tag-#anon#UN[SYM#tag-PluginEventListenerDetails_s#'eventDetails'||SYM#tag-DeliveryMethodHandler_t#'dmHandler'||*{V(*{SYM#tag-dvbpsi_pmt_s#}_SYM#tag-dvbpsi_pmt_s#_)->V}_V(*{SYM#tag-dvbpsi_pmt_s#}_SYM#tag-dvbpsi_pmt_s#_)->V_'patCB'||*{V(*{SYM#tag-dvbpsi_pmt_s#}_SYM#tag-dvbpsi_pmt_s#_)->V}_V(*{SYM#tag-dvbpsi_pmt_s#}_SYM#tag-dvbpsi_pmt_s#_)->V_'pmtCB'||*{V(*{SYM#tag-dvbpsi_sdt_s#}_SYM#tag-dvbpsi_sdt_s#_)->V}_V(*{SYM#tag-dvbpsi_sdt_s#}_SYM#tag-dvbpsi_sdt_s#_)->V_'sdtCB'||*{V(*{SYM#tag-dvbpsi_nit_s#}_SYM#tag-dvbpsi_nit_s#_)->V}_V(*{SYM#tag-dvbpsi_nit_s#}_SYM#tag-dvbpsi_nit_s#_)->V_'nitCB'||*{V(*{SYM#tag-dvbpsi_tdt_tot_s#}_SYM#tag-dvbpsi_tdt_tot_s#_)->V}_V(*{SYM#tag-dvbpsi_tdt_tot_s#}_SYM#tag-dvbpsi_tdt_tot_s#_)->V_'tdtCB'||*{V(*{SYM#tag-dvbpsi_atsc_mgt_s#}_SYM#tag-dvbpsi_atsc_mgt_s#_)->V}_V(*{SYM#tag-dvbpsi_atsc_mgt_s#}_SYM#tag-dvbpsi_atsc_mgt_s#_)->V_'mgtCB'||*{V(*{SYM#tag-dvbpsi_atsc_stt_s#}_SYM#tag-dvbpsi_atsc_stt_s#_)->V}_V(*{SYM#tag-dvbpsi_atsc_stt_s#}_SYM#tag-dvbpsi_atsc_stt_s#_)->V_'sttCB'||*{V(*{SYM#tag-dvbpsi_atsc_vct_s#}_SYM#tag-dvbpsi_atsc_vct_s#_)->V}_V(*{SYM#tag-dvbpsi_atsc_vct_s#}_SYM#tag-dvbpsi_atsc_vct_s#_)->V_'vctCB'||*{V(*{SYM#tag-Multiplex_s#}_SYM#tag-Multiplex_s#_|*{SYM#tag-Service_t#}_SYM#tag-Service_t#_)->V}_V(*{SYM#tag-Multiplex_s#}_SYM#tag-Multiplex_s#_|*{SYM#tag-Service_t#}_SYM#tag-Service_t#_)->V_'channelChangeCB'||*{V(B)->V}_V(B)->V_'installCB'|]
 // file ../include/plugin.h line 200
-union anonymous$31;
+union anonymous_31;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$14;
+union anonymous_14;
 
 // tag-#anon#UN[SYM#tag-dvb_qpsk_parameters#'qpsk'||SYM#tag-dvb_qam_parameters#'qam'||SYM#tag-dvb_ofdm_parameters#'ofdm'||SYM#tag-dvb_vsb_parameters#'vsb'|]
 // file /usr/include/linux/dvb/frontend.h line 551
-union anonymous$32;
+union anonymous_32;
 
-// tag-#anon#UN[U32'data'||SYM#tag-dtv_fe_stats#'st'||SYM#tag-#anon#ST[ARR32{U8}$U8$'data'||U32'len'||ARR3{U32}$U32$'reserved1'||*{V}$V$'reserved2'|]#'buffer'|]
+// tag-#anon#UN[U32'data'||SYM#tag-dtv_fe_stats#'st'||SYM#tag-#anon#ST[ARR32{U8}_U8_'data'||U32'len'||ARR3{U32}_U32_'reserved1'||*{V}_V_'reserved2'|]#'buffer'|]
 // file /usr/include/linux/dvb/frontend.h line 466
-union anonymous$30;
+union anonymous_30;
 
-// tag-#anon#UN[U32'nrofEntries'||*{V}$V$'__forceAlignment'|]
+// tag-#anon#UN[U32'nrofEntries'||*{V}_V_'__forceAlignment'|]
 // file ../include/objects.h line 42
-union anonymous$35;
+union anonymous_35;
 
 // tag-#anon#UN[U64'uvalue'||S64'svalue'|]
 // file /usr/include/linux/dvb/frontend.h line 449
-union anonymous$28;
+union anonymous_28;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$27;
+union anonymous_27;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-ATSCMultipleStrings_s
 // file ../include/atsctext.h line 45
@@ -1339,9 +1339,9 @@ static unsigned int ConvertStringToUInt32(const char *str, unsigned int defaultV
 // ConvertYamlNode
 // file dvbadapter.c line 1606
 static unsigned int ConvertYamlNode(struct yaml_document_s *document, const char *key, unsigned int (*convert)(const char *, unsigned int), unsigned int defaultValue);
-// ConvertYamlNode::convert$object
+// ConvertYamlNode::convert_object
 //
-unsigned int convert$object(const char *, unsigned int);
+unsigned int convert_object(const char *, unsigned int);
 // ConvertYamlToDTVProperties
 // file dvbadapter.c line 1717
 static void ConvertYamlToDTVProperties(enum DVBDeliverySystem_e delSys, struct yaml_document_s *doc, struct DVBAdapter_s *adapter);
@@ -1531,9 +1531,9 @@ static void DeInitDaemon(void);
 // DeferredProcessingAddJob
 // file ../include/deferredproc.h line 61
 void DeferredProcessingAddJob(void (*processor)(void *), void *arg);
-// DeferredProcessingAddJob::processor$object
+// DeferredProcessingAddJob::processor_object
 //
-void processor$object(void *);
+void processor_object(void *);
 // DeferredProcessingDeinit
 // file ../include/deferredproc.h line 49
 void DeferredProcessingDeinit(void);
@@ -1681,66 +1681,66 @@ signed int EventsInit(void);
 // EventsRegisterEvent
 // file ../include/events.h line 178
 struct Event_s * EventsRegisterEvent(struct EventSource_s *source, char *name, signed int (*toString)(struct yaml_document_s *, struct Event_s *, void *));
-// EventsRegisterEvent::toString$object
+// EventsRegisterEvent::toString_object
 //
-signed int toString$object(struct yaml_document_s *, struct Event_s *, void *);
+signed int toString_object(struct yaml_document_s *, struct Event_s *, void *);
 // EventsRegisterEventListener
 // file ../include/events.h line 212
 void EventsRegisterEventListener(struct Event_s *event, void (*listener)(void *, struct Event_s *, void *), void *arg);
-// EventsRegisterEventListener::listener$object
+// EventsRegisterEventListener::listener_object
 //
-void listener$object(void *, struct Event_s *, void *);
+void listener_object(void *, struct Event_s *, void *);
 // EventsRegisterListener
 // file events.c line 177
 void EventsRegisterListener(void (*listener)(void *, struct Event_s *, void *), void *arg);
-// EventsRegisterListener::listener$object
+// EventsRegisterListener::listener_object
 //
-void listener$object(void *, struct Event_s *, void *);
+void listener_object(void *, struct Event_s *, void *);
 // EventsRegisterListenerByName
 // file ../include/events.h line 108
 void EventsRegisterListenerByName(const char *event, void (*listener)(void *, struct Event_s *, void *), void *arg);
-// EventsRegisterListenerByName::listener$object
+// EventsRegisterListenerByName::listener_object
 //
-void listener$object(void *, struct Event_s *, void *);
+void listener_object(void *, struct Event_s *, void *);
 // EventsRegisterSource
 // file ../include/events.h line 137
 struct EventSource_s * EventsRegisterSource(char *name);
 // EventsRegisterSourceListener
 // file events.c line 236
 void EventsRegisterSourceListener(struct EventSource_s *source, void (*listener)(void *, struct Event_s *, void *), void *arg);
-// EventsRegisterSourceListener::listener$object
+// EventsRegisterSourceListener::listener_object
 //
-void listener$object(void *, struct Event_s *, void *);
+void listener_object(void *, struct Event_s *, void *);
 // EventsUnregisterEvent
 // file ../include/events.h line 184
 void EventsUnregisterEvent(struct Event_s *event);
 // EventsUnregisterEventListener
 // file ../include/events.h line 220
 void EventsUnregisterEventListener(struct Event_s *event, void (*listener)(void *, struct Event_s *, void *), void *arg);
-// EventsUnregisterEventListener::listener$object
+// EventsUnregisterEventListener::listener_object
 //
-void listener$object(void *, struct Event_s *, void *);
+void listener_object(void *, struct Event_s *, void *);
 // EventsUnregisterListener
 // file events.c line 184
 void EventsUnregisterListener(void (*listener)(void *, struct Event_s *, void *), void *arg);
-// EventsUnregisterListener::listener$object
+// EventsUnregisterListener::listener_object
 //
-void listener$object(void *, struct Event_s *, void *);
+void listener_object(void *, struct Event_s *, void *);
 // EventsUnregisterListenerByName
 // file ../include/events.h line 116
 void EventsUnregisterListenerByName(const char *event, void (*listener)(void *, struct Event_s *, void *), void *arg);
-// EventsUnregisterListenerByName::listener$object
+// EventsUnregisterListenerByName::listener_object
 //
-void listener$object(void *, struct Event_s *, void *);
+void listener_object(void *, struct Event_s *, void *);
 // EventsUnregisterSource
 // file ../include/events.h line 144
 void EventsUnregisterSource(struct EventSource_s *source);
 // EventsUnregisterSourceListener
 // file events.c line 246
 void EventsUnregisterSourceListener(struct EventSource_s *source, void (*listener)(void *, struct Event_s *, void *), void *arg);
-// EventsUnregisterSourceListener::listener$object
+// EventsUnregisterSourceListener::listener_object
 //
-void listener$object(void *, struct Event_s *, void *);
+void listener_object(void *, struct Event_s *, void *);
 // FELockedEventListener
 // file commands/cmd_scanning.c line 1428
 static void FELockedEventListener(void *arg, struct Event_s *event, void *payload);
@@ -1819,9 +1819,9 @@ void ListDump(struct List_s *list);
 // ListFree
 // file ../include/list.h line 136
 void ListFree(struct List_s *list, void (*destructor)(void *));
-// ListFree::destructor$object
+// ListFree::destructor_object
 //
-void destructor$object(void *);
+void destructor_object(void *);
 // ListFreeObject
 // file ../include/list.h line 149
 void ListFreeObject(void *ptr);
@@ -2071,21 +2071,21 @@ void ObjectRefIncImpl(void *ptr, char *file, signed int line);
 // ObjectRegisterClass
 // file ../include/objects.h line 74
 signed int ObjectRegisterClass(char *classname, unsigned int size, void (*destructor)(void *));
-// ObjectRegisterClass::destructor$object
+// ObjectRegisterClass::destructor_object
 //
-void destructor$object(void *);
+void destructor_object(void *);
 // ObjectRegisterClassType
 // file objects.c line 180
 static signed int ObjectRegisterClassType(char *name, enum ClassType_e type, unsigned int size, void (*destructor)(void *));
-// ObjectRegisterClassType::destructor$object
+// ObjectRegisterClassType::destructor_object
 //
-void destructor$object(void *);
+void destructor_object(void *);
 // ObjectRegisterCollection
 // file ../include/objects.h line 86
 signed int ObjectRegisterCollection(char *name, unsigned int entrysize, void (*destructor)(void *));
-// ObjectRegisterCollection::destructor$object
+// ObjectRegisterCollection::destructor_object
 //
-void destructor$object(void *);
+void destructor_object(void *);
 // PATEventListener
 // file commands/cmd_scanning.c line 1167
 static void PATEventListener(void *arg, struct Event_s *event, void *payload);
@@ -2137,9 +2137,9 @@ static void PSIPProcessorFilterEventCallback(void *userArg, struct TSFilterGroup
 // PacketFilterListAddFilter
 // file ts.c line 544
 static struct TSPacketFilter_t * PacketFilterListAddFilter(struct TSReader_t *reader, struct TSFilterGroup_t *group, unsigned short int pid, void (*callback)(void *, struct TSFilterGroup_t *, struct TSPacket_t *), void *userArg);
-// PacketFilterListAddFilter::callback$object
+// PacketFilterListAddFilter::callback_object
 //
-void callback$object(void *, struct TSFilterGroup_t *, struct TSPacket_t *);
+void callback_object(void *, struct TSFilterGroup_t *, struct TSPacket_t *);
 // PacketFilterListRemoveFilter
 // file ts.c line 615
 static void PacketFilterListRemoveFilter(struct TSReader_t *reader, struct TSPacketFilter_t *packetFilter);
@@ -2218,12 +2218,12 @@ static void PromiscusModeEnable(struct TSReader_t *reader, _Bool enable);
 // PropertiesAddProperty
 // file ../include/properties.h line 95
 signed int PropertiesAddProperty(const char *path, const char *name, const char *desc, enum PropertyType_e type, void *userArg, signed int (*get)(void *, struct PropertyValue_s *), signed int (*set)(void *, struct PropertyValue_s *));
-// PropertiesAddProperty::get$object
+// PropertiesAddProperty::get_object
 //
-signed int get$object(void *, struct PropertyValue_s *);
-// PropertiesAddProperty::set$object
+signed int get_object(void *, struct PropertyValue_s *);
+// PropertiesAddProperty::set_object
 //
-signed int set$object(void *, struct PropertyValue_s *);
+signed int set_object(void *, struct PropertyValue_s *);
 // PropertiesCreateNode
 // file properties.c line 543
 static struct PropertyNode_s * PropertiesCreateNode(struct PropertyNode_s *parentNode, const char *newProp);
@@ -2287,9 +2287,9 @@ static struct PropertyPathElements_s * PropertyPathSplitElements(const char *pat
 // RegisterEventListener
 // file events.c line 421
 static void RegisterEventListener(struct List_s *listenerList, void (*callback)(void *, struct Event_s *, void *), void *arg);
-// RegisterEventListener::callback$object
+// RegisterEventListener::callback_object
 //
-void callback$object(void *, struct Event_s *, void *);
+void callback_object(void *, struct Event_s *, void *);
 // RemoteInterfaceAcceptCallback
 // file remoteintf.c line 272
 static void RemoteInterfaceAcceptCallback(struct ev_loop *loop, struct ev_io *w, signed int revents);
@@ -2602,12 +2602,12 @@ static void StreamInfoListDestructor(void *ptr);
 // SubTableHandler
 // file standard/atsc/psipprocessor.c line 155
 static void SubTableHandler(void *arg, struct dvbpsi_decoder_s *demuxHandle, unsigned char tableId, unsigned short int extension);
-// SubTableHandler$link1
+// SubTableHandler_link1
 // file standard/dvb/sdtprocessor.c line 131
-static void SubTableHandler$link1(void *arg$link1, struct dvbpsi_decoder_s *demuxHandle$link1, unsigned char tableId$link1, unsigned short int extension$link1);
-// SubTableHandler$link2
+static void SubTableHandler_link1(void *arg_link1, struct dvbpsi_decoder_s *demuxHandle_link1, unsigned char tableId_link1, unsigned short int extension_link1);
+// SubTableHandler_link2
 // file standard/dvb/nitprocessor.c line 120
-static void SubTableHandler$link2(void *arg$link2, struct dvbpsi_decoder_s *demuxHandle$link2, unsigned char tableId$link2, unsigned short int extension$link2);
+static void SubTableHandler_link2(void *arg_link2, struct dvbpsi_decoder_s *demuxHandle_link2, unsigned char tableId_link2, unsigned short int extension_link2);
 // SysPropertyGetUptime
 // file main.c line 588
 static signed int SysPropertyGetUptime(void *userArg, struct PropertyValue_s *value);
@@ -2629,9 +2629,9 @@ static void TDTProcessorFilterEventCallback(void *userArg, struct TSFilterGroup_
 // TSFilterGroupAddPacketFilter
 // file ts.c line 394
 _Bool TSFilterGroupAddPacketFilter(struct TSFilterGroup_t *group, unsigned short int pid, void (*callback)(void *, struct TSFilterGroup_t *, struct TSPacket_t *), void *userArg);
-// TSFilterGroupAddPacketFilter::callback$object
+// TSFilterGroupAddPacketFilter::callback_object
 //
-void callback$object(void *, struct TSFilterGroup_t *, struct TSPacket_t *);
+void callback_object(void *, struct TSFilterGroup_t *, struct TSPacket_t *);
 // TSFilterGroupAddSectionFilter
 // file ts.c line 345
 void TSFilterGroupAddSectionFilter(struct TSFilterGroup_t *group, unsigned short int pid, signed int priority, struct dvbpsi_decoder_s *handle);
@@ -2659,9 +2659,9 @@ struct TSReader_t * TSReaderCreate(struct DVBAdapter_s *adapter);
 // TSReaderCreateFilterGroup
 // file ts.c line 264
 struct TSFilterGroup_t * TSReaderCreateFilterGroup(struct TSReader_t *reader, const char *name, const char *type, void (*callback)(void *, struct TSFilterGroup_t *, enum TSFilterEventType_e, void *), void *userArg);
-// TSReaderCreateFilterGroup::callback$object
+// TSReaderCreateFilterGroup::callback_object
 //
-void callback$object(void *, struct TSFilterGroup_t *, enum TSFilterEventType_e, void *);
+void callback_object(void *, struct TSFilterGroup_t *, enum TSFilterEventType_e, void *);
 // TSReaderDVRCallback
 // file ts.c line 875
 static void TSReaderDVRCallback(struct ev_loop *loop, struct ev_io *w, signed int revents);
@@ -2698,9 +2698,9 @@ void TSReaderZeroStats(struct TSReader_t *reader);
 // TableEventCallback
 // file pluginmgr.c line 487
 static void TableEventCallback(void *arg, struct Event_s *event, void *details);
-// TableEventCallback::1::callback$object
+// TableEventCallback::1::callback_object
 //
-void callback$object(void *);
+void callback_object(void *);
 // TimeoutWatcher
 // file commands/cmd_scanning.c line 1571
 static void TimeoutWatcher(struct ev_loop *loop, struct ev_timer *w, signed int revents);
@@ -2809,9 +2809,9 @@ signed int UTF8_wc_toutf8(char *dest, unsigned int ch);
 // UnRegisterEventListener
 // file events.c line 432
 static void UnRegisterEventListener(struct List_s *listenerList, void (*callback)(void *, struct Event_s *, void *), void *arg);
-// UnRegisterEventListener::callback$object
+// UnRegisterEventListener::callback_object
 //
-void callback$object(void *, struct Event_s *, void *);
+void callback_object(void *, struct Event_s *, void *);
 // UnRollDescriptors
 // file pids.c line 262
 static struct dvbpsi_descriptor_s * UnRollDescriptors(unsigned char *descriptors, signed int size);
@@ -2850,7 +2850,7 @@ extern const unsigned short int ** __ctype_b_loc(void);
 extern signed int * __errno_location(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$0, unsigned int *);
+extern signed int accept(signed int, union anonymous_0, unsigned int *);
 // add_history
 // file /usr/include/readline/history.h line 84
 extern void add_history(const char *);
@@ -2862,7 +2862,7 @@ extern signed int asprintf(char ** restrict , const char *, ...);
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$0, unsigned int);
+extern signed int bind(signed int, union anonymous_0, unsigned int);
 // bzero
 // file /usr/include/string.h line 458
 extern void bzero(void *, unsigned long int);
@@ -3189,22 +3189,22 @@ extern signed int poll(struct pollfd *, unsigned long int, signed int);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$21 *);
+extern signed int pthread_cond_broadcast(union anonymous_21 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$21 *);
+extern signed int pthread_cond_destroy(union anonymous_21 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$21 *, const union anonymous$38 *);
+extern signed int pthread_cond_init(union anonymous_21 *, const union anonymous_38 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$21 *);
+extern signed int pthread_cond_signal(union anonymous_21 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$21 *, union anonymous$14 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_21 *, union anonymous_14 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$21 *, union anonymous$14 *);
+extern signed int pthread_cond_wait(union anonymous_21 *, union anonymous_14 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -3222,25 +3222,25 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_key_create(unsigned int *, void (*)(void *));
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$14 *);
+extern signed int pthread_mutex_destroy(union anonymous_14 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$14 *, const union anonymous$38 *);
+extern signed int pthread_mutex_init(union anonymous_14 *, const union anonymous_38 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$14 *);
+extern signed int pthread_mutex_lock(union anonymous_14 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$14 *);
+extern signed int pthread_mutex_unlock(union anonymous_14 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$38 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_38 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$38 *);
+extern signed int pthread_mutexattr_init(union anonymous_38 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$38 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_38 *, signed int);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -3259,9 +3259,9 @@ extern signed long int readlink(const char *, char *, unsigned long int);
 // removeControlCodes
 // file standard/dvb/sdtprocessor.c line 289
 static void removeControlCodes(char *str);
-// rl_attempted_completion_function$object
+// rl_attempted_completion_function_object
 //
-char ** rl_attempted_completion_function$object(const char *, signed int, signed int);
+char ** rl_attempted_completion_function_object(const char *, signed int, signed int);
 // rl_cleanup_after_signal
 // file /usr/include/readline/readline.h line 428
 extern void rl_cleanup_after_signal(void);
@@ -3461,7 +3461,7 @@ signed int yaml_parser_load(struct yaml_parser_s *, struct yaml_document_s *);
 // file /usr/include/yaml.h line 1341
 void yaml_parser_set_input_string(struct yaml_parser_s *, const unsigned char *, unsigned long int);
 
-struct anonymous$53
+struct anonymous_53
 {
   // start
   enum yaml_emitter_state_e *start;
@@ -3471,7 +3471,7 @@ struct anonymous$53
   enum yaml_emitter_state_e *top;
 };
 
-struct anonymous$61
+struct anonymous_61
 {
   // start
   enum yaml_parser_state_e *start;
@@ -3481,7 +3481,7 @@ struct anonymous$61
   enum yaml_parser_state_e *top;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // set
   signed int (*set)(void *, struct PropertyValue_s *);
@@ -3489,7 +3489,7 @@ struct anonymous$37
   signed int (*get)(void *, struct PropertyValue_s *);
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // start
   signed int *start;
@@ -3499,7 +3499,7 @@ struct anonymous$33
   signed int *top;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // multiplex
   struct Multiplex_s *multiplex;
@@ -3507,7 +3507,7 @@ struct anonymous$2
   signed int networkId;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // multiplex
   struct Multiplex_s *multiplex;
@@ -3515,13 +3515,13 @@ struct anonymous$1
   signed int tsId;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // service
   struct Service_t *service;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // service
   struct Service_t *service;
@@ -3529,7 +3529,7 @@ struct anonymous$10
   char *defaultAuthority;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // service
   struct Service_t *service;
@@ -3537,7 +3537,7 @@ struct anonymous$5
   char *name;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // service
   struct Service_t *service;
@@ -3545,7 +3545,7 @@ struct anonymous$9
   char *provider;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // service
   struct Service_t *service;
@@ -3553,7 +3553,7 @@ struct anonymous$4
   struct ProgramInfo_s *info;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // service
   struct Service_t *service;
@@ -3561,7 +3561,7 @@ struct anonymous$7
   _Bool ca;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // service
   struct Service_t *service;
@@ -3569,7 +3569,7 @@ struct anonymous$8
   enum anonymous type;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // service
   struct Service_t *service;
@@ -3577,7 +3577,7 @@ struct anonymous$3
   signed int pmtPid;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // service
   struct Service_t *service;
@@ -3585,7 +3585,7 @@ struct anonymous$6
   unsigned short int source;
 };
 
-struct anonymous$63
+struct anonymous_63
 {
   // start
   struct yaml_alias_data_s *start;
@@ -3595,7 +3595,7 @@ struct anonymous$63
   struct yaml_alias_data_s *top;
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // start
   struct yaml_event_s *start;
@@ -3607,7 +3607,7 @@ struct anonymous$54
   struct yaml_event_s *tail;
 };
 
-struct anonymous$62
+struct anonymous_62
 {
   // start
   struct yaml_mark_s *start;
@@ -3617,7 +3617,7 @@ struct anonymous$62
   struct yaml_mark_s *top;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // start
   struct yaml_node_pair_s *start;
@@ -3627,7 +3627,7 @@ struct anonymous$34
   struct yaml_node_pair_s *top;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // start
   struct yaml_node_s *start;
@@ -3637,7 +3637,7 @@ struct anonymous$16
   struct yaml_node_s *top;
 };
 
-struct anonymous$60
+struct anonymous_60
 {
   // start
   struct yaml_simple_key_s *start;
@@ -3647,7 +3647,7 @@ struct anonymous$60
   struct yaml_simple_key_s *top;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // start
   struct yaml_tag_directive_s *start;
@@ -3655,7 +3655,7 @@ struct anonymous$17
   struct yaml_tag_directive_s *end;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // start
   struct yaml_tag_directive_s *start;
@@ -3665,7 +3665,7 @@ struct anonymous$55
   struct yaml_tag_directive_s *top;
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // start
   struct yaml_token_s *start;
@@ -3677,23 +3677,23 @@ struct anonymous$51
   struct yaml_token_s *tail;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // version_directive
   struct yaml_version_directive_s *version_directive;
   // tag_directives
-  struct anonymous$17 tag_directives;
+  struct anonymous_17 tag_directives;
   // implicit
   signed int implicit;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // anchor
   unsigned char *anchor;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // anchor
   unsigned char *anchor;
@@ -3711,7 +3711,7 @@ struct anonymous$40
   enum yaml_scalar_style_e style;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // anchor
   unsigned char *anchor;
@@ -3723,7 +3723,7 @@ struct anonymous$42
   enum yaml_mapping_style_e style;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // anchor
   unsigned char *anchor;
@@ -3735,7 +3735,7 @@ struct anonymous$41
   enum yaml_sequence_style_e style;
 };
 
-struct anonymous$56
+struct anonymous_56
 {
   // anchor
   unsigned char *anchor;
@@ -3745,7 +3745,7 @@ struct anonymous$56
   signed int alias;
 };
 
-struct anonymous$64
+struct anonymous_64
 {
   // buffer
   unsigned char *buffer;
@@ -3755,7 +3755,7 @@ struct anonymous$64
   unsigned long int *size_written;
 };
 
-struct anonymous$68
+struct anonymous_68
 {
   // handle
   unsigned char *handle;
@@ -3763,7 +3763,7 @@ struct anonymous$68
   unsigned char *prefix;
 };
 
-struct anonymous$66
+struct anonymous_66
 {
   // handle
   unsigned char *handle;
@@ -3771,7 +3771,7 @@ struct anonymous$66
   unsigned char *suffix;
 };
 
-struct anonymous$57
+struct anonymous_57
 {
   // handle
   unsigned char *handle;
@@ -3783,7 +3783,7 @@ struct anonymous$57
   unsigned long int suffix_length;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // start
   unsigned char *start;
@@ -3795,13 +3795,13 @@ struct anonymous$49
   unsigned char *last;
 };
 
-struct anonymous$65
+struct anonymous_65
 {
   // value
   unsigned char *value;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // value
   unsigned char *value;
@@ -3811,7 +3811,7 @@ struct anonymous$22
   enum yaml_scalar_style_e style;
 };
 
-struct anonymous$58
+struct anonymous_58
 {
   // value
   unsigned char *value;
@@ -3831,7 +3831,7 @@ struct anonymous$58
   enum yaml_scalar_style_e style;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // start
   const unsigned char *start;
@@ -3841,7 +3841,7 @@ struct anonymous$47
   const unsigned char *current;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // data
   unsigned char data[32l];
@@ -3853,13 +3853,13 @@ struct anonymous$29
   void *reserved2;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // encoding
   enum yaml_encoding_e encoding;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // __lock
   signed int __lock;
@@ -3879,7 +3879,7 @@ struct anonymous$26
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // id
   signed int id;
@@ -3891,13 +3891,13 @@ struct anonymous$11
   char *name;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // implicit
   signed int implicit;
 };
 
-struct anonymous$67
+struct anonymous_67
 {
   // major
   signed int major;
@@ -3905,7 +3905,7 @@ struct anonymous$67
   signed int minor;
 };
 
-struct anonymous$59
+struct anonymous_59
 {
   // references
   signed int references;
@@ -3915,23 +3915,23 @@ struct anonymous$59
   signed int serialized;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // items
-  struct anonymous$33 items;
+  struct anonymous_33 items;
   // style
   enum yaml_sequence_style_e style;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // pairs
-  struct anonymous$34 pairs;
+  struct anonymous_34 pairs;
   // style
   enum yaml_mapping_style_e style;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -3941,7 +3941,7 @@ union anonymous$25
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$38
+union anonymous_38
 {
   // __size
   char __size[4l];
@@ -3949,7 +3949,7 @@ union anonymous$38
   signed int __align;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // integer
   signed int integer;
@@ -3965,106 +3965,106 @@ union anonymous$15
   unsigned short int pid;
 };
 
-union anonymous$36
+union anonymous_36
 {
   // simple
-  struct anonymous$37 simple;
+  struct anonymous_37 simple;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // multiplexTSId
-  struct anonymous$1 multiplexTSId;
+  struct anonymous_1 multiplexTSId;
   // multiplexNetworkId
-  struct anonymous$2 multiplexNetworkId;
+  struct anonymous_2 multiplexNetworkId;
   // servicePMTPID
-  struct anonymous$3 servicePMTPID;
+  struct anonymous_3 servicePMTPID;
   // servicePIDs
-  struct anonymous$4 servicePIDs;
+  struct anonymous_4 servicePIDs;
   // serviceName
-  struct anonymous$5 serviceName;
+  struct anonymous_5 serviceName;
   // serviceSource
-  struct anonymous$6 serviceSource;
+  struct anonymous_6 serviceSource;
   // serviceCA
-  struct anonymous$7 serviceCA;
+  struct anonymous_7 serviceCA;
   // serviceType
-  struct anonymous$8 serviceType;
+  struct anonymous_8 serviceType;
   // serviceProvider
-  struct anonymous$9 serviceProvider;
+  struct anonymous_9 serviceProvider;
   // serviceDefaultAuthority
-  struct anonymous$10 serviceDefaultAuthority;
+  struct anonymous_10 serviceDefaultAuthority;
   // serviceAdd
-  struct anonymous$11 serviceAdd;
+  struct anonymous_11 serviceAdd;
   // serviceDelete
-  struct anonymous$12 serviceDelete;
+  struct anonymous_12 serviceDelete;
 };
 
-union anonymous$52
+union anonymous_52
 {
   // string
-  struct anonymous$64 string;
+  struct anonymous_64 string;
   // file
   struct _IO_FILE *file;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // scalar
-  struct anonymous$22 scalar;
+  struct anonymous_22 scalar;
   // sequence
-  struct anonymous$23 sequence;
+  struct anonymous_23 sequence;
   // mapping
-  struct anonymous$24 mapping;
+  struct anonymous_24 mapping;
 };
 
-union anonymous$48
+union anonymous_48
 {
   // string
-  struct anonymous$47 string;
+  struct anonymous_47 string;
   // file
   struct _IO_FILE *file;
 };
 
-union anonymous$46
+union anonymous_46
 {
   // stream_start
-  struct anonymous$43 stream_start;
+  struct anonymous_43 stream_start;
   // document_start
-  struct anonymous$44 document_start;
+  struct anonymous_44 document_start;
   // document_end
-  struct anonymous$45 document_end;
+  struct anonymous_45 document_end;
   // alias
-  struct anonymous$39 alias;
+  struct anonymous_39 alias;
   // scalar
-  struct anonymous$40 scalar;
+  struct anonymous_40 scalar;
   // sequence_start
-  struct anonymous$41 sequence_start;
+  struct anonymous_41 sequence_start;
   // mapping_start
-  struct anonymous$42 mapping_start;
+  struct anonymous_42 mapping_start;
 };
 
-union anonymous$50
+union anonymous_50
 {
   // stream_start
-  struct anonymous$43 stream_start;
+  struct anonymous_43 stream_start;
   // alias
-  struct anonymous$65 alias;
+  struct anonymous_65 alias;
   // anchor
-  struct anonymous$65 anchor;
+  struct anonymous_65 anchor;
   // tag
-  struct anonymous$66 tag;
+  struct anonymous_66 tag;
   // scalar
-  struct anonymous$22 scalar;
+  struct anonymous_22 scalar;
   // version_directive
-  struct anonymous$67 version_directive;
+  struct anonymous_67 version_directive;
   // tag_directive
-  struct anonymous$68 tag_directive;
+  struct anonymous_68 tag_directive;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // __data
-  struct anonymous$26 __data;
+  struct anonymous_26 __data;
   // __size
   char __size[48l];
   // __align
@@ -4125,7 +4125,7 @@ struct EPGEventRating_s
   char *rating;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // event
   struct EPGEvent_s event;
@@ -4153,7 +4153,7 @@ struct DeliveryMethodHandler_t
   struct DeliveryMethodInstance_t * (*CreateInstance)(char *);
 };
 
-union anonymous$31
+union anonymous_31
 {
   // eventDetails
   struct PluginEventListenerDetails_s eventDetails;
@@ -4209,7 +4209,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -4261,7 +4261,7 @@ struct dvb_vsb_parameters
   enum fe_modulation modulation;
 };
 
-union anonymous$32
+union anonymous_32
 {
   // qpsk
   struct dvb_qpsk_parameters qpsk;
@@ -4273,7 +4273,7 @@ union anonymous$32
   struct dvb_vsb_parameters vsb;
 };
 
-union anonymous$28
+union anonymous_28
 {
   // uvalue
   unsigned long long int uvalue;
@@ -4285,8 +4285,8 @@ struct dtv_stats
 {
   // scale
   unsigned char scale;
-  // $anon0
-  union anonymous$28 $anon0;
+  // _anon0
+  union anonymous_28 _anon0;
 } __attribute__ ((__packed__));
 
 struct dtv_fe_stats
@@ -4297,17 +4297,17 @@ struct dtv_fe_stats
   struct dtv_stats stat[4l];
 } __attribute__ ((__packed__));
 
-union anonymous$30
+union anonymous_30
 {
   // data
   unsigned int data;
   // st
   struct dtv_fe_stats st;
   // buffer
-  struct anonymous$29 buffer;
+  struct anonymous_29 buffer;
 };
 
-union anonymous$35
+union anonymous_35
 {
   // nrofEntries
   unsigned int nrofEntries;
@@ -4315,7 +4315,7 @@ union anonymous$35
   void *__forceAlignment;
 };
 
-union anonymous$27
+union anonymous_27
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -4345,7 +4345,7 @@ union anonymous$27
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -4396,7 +4396,7 @@ struct CacheUpdateMessage_s
   // type
   enum CacheUpdateType type;
   // details
-  union anonymous$13 details;
+  union anonymous_13 details;
 };
 
 struct Class_s
@@ -4518,7 +4518,7 @@ struct dtv_property
   // reserved
   unsigned int reserved[3l];
   // u
-  union anonymous$30 u;
+  union anonymous_30 u;
   // result
   signed int result;
 } __attribute__ ((__packed__));
@@ -4580,7 +4580,7 @@ struct dvb_frontend_parameters
   // inversion
   enum fe_spectral_inversion inversion;
   // u
-  union anonymous$32 u;
+  union anonymous_32 u;
 };
 
 struct DVBAdapter_s
@@ -4700,11 +4700,11 @@ struct EPGEventRef_s
 struct EPGChannelMessage_s
 {
   // type
-  enum anonymous$19 type;
+  enum anonymous_19 type;
   // eventRef
   struct EPGEventRef_s eventRef;
   // data
-  union anonymous$20 data;
+  union anonymous_20 data;
 };
 
 struct EventListenerDetails_s
@@ -4768,9 +4768,9 @@ struct List_s
 struct MessageQ_s
 {
   // mutex
-  union anonymous$14 mutex;
+  union anonymous_14 mutex;
   // availableCond
-  union anonymous$21 availableCond;
+  union anonymous_21 availableCond;
   // quit
   _Bool quit;
   // messages
@@ -4839,8 +4839,8 @@ struct NITProcessor_s
 
 struct ObjectCollection_s
 {
-  // $anon0
-  union anonymous$35 $anon0;
+  // _anon0
+  union anonymous_35 _anon0;
 };
 
 struct Object_s
@@ -4964,7 +4964,7 @@ struct PluginFeature_t
   // type
   signed int type;
   // details
-  union anonymous$31 details;
+  union anonymous_31 details;
 };
 
 struct Plugin_t
@@ -5028,7 +5028,7 @@ struct PropertyNode_s
   // userArg
   void *userArg;
   // accessors
-  union anonymous$36 accessors;
+  union anonymous_36 accessors;
   // childNodes
   struct PropertyNode_s *childNodes;
 };
@@ -5046,7 +5046,7 @@ struct PropertyValue_s
   // type
   enum PropertyType_e type;
   // u
-  union anonymous$15 u;
+  union anonymous_15 u;
 };
 
 struct SDTProcessor_s
@@ -5310,7 +5310,7 @@ struct TSReader_t
   // enabled
   _Bool enabled;
   // mutex
-  union anonymous$14 mutex;
+  union anonymous_14 mutex;
   // multiplexChanged
   _Bool multiplexChanged;
   // multiplex
@@ -5940,7 +5940,7 @@ struct ev_watcher_time
 struct in6_addr
 {
   // __in6_u
-  union anonymous$25 __in6_u;
+  union anonymous_25 __in6_u;
 };
 
 struct in_addr
@@ -6032,11 +6032,11 @@ struct yaml_alias_data_s
 struct yaml_document_s
 {
   // nodes
-  struct anonymous$16 nodes;
+  struct anonymous_16 nodes;
   // version_directive
   struct yaml_version_directive_s *version_directive;
   // tag_directives
-  struct anonymous$17 tag_directives;
+  struct anonymous_17 tag_directives;
   // start_implicit
   signed int start_implicit;
   // end_implicit
@@ -6058,11 +6058,11 @@ struct yaml_emitter_s
   // write_handler_data
   void *write_handler_data;
   // output
-  union anonymous$52 output;
+  union anonymous_52 output;
   // buffer
-  struct anonymous$49 buffer;
+  struct anonymous_49 buffer;
   // raw_buffer
-  struct anonymous$49 raw_buffer;
+  struct anonymous_49 raw_buffer;
   // encoding
   enum yaml_encoding_e encoding;
   // canonical
@@ -6076,15 +6076,15 @@ struct yaml_emitter_s
   // line_break
   enum yaml_break_e line_break;
   // states
-  struct anonymous$53 states;
+  struct anonymous_53 states;
   // state
   enum yaml_emitter_state_e state;
   // events
-  struct anonymous$54 events;
+  struct anonymous_54 events;
   // indents
-  struct anonymous$33 indents;
+  struct anonymous_33 indents;
   // tag_directives
-  struct anonymous$55 tag_directives;
+  struct anonymous_55 tag_directives;
   // indent
   signed int indent;
   // flow_level
@@ -6108,17 +6108,17 @@ struct yaml_emitter_s
   // open_ended
   signed int open_ended;
   // anchor_data
-  struct anonymous$56 anchor_data;
+  struct anonymous_56 anchor_data;
   // tag_data
-  struct anonymous$57 tag_data;
+  struct anonymous_57 tag_data;
   // scalar_data
-  struct anonymous$58 scalar_data;
+  struct anonymous_58 scalar_data;
   // opened
   signed int opened;
   // closed
   signed int closed;
   // anchors
-  struct anonymous$59 *anchors;
+  struct anonymous_59 *anchors;
   // last_anchor_id
   signed int last_anchor_id;
   // document
@@ -6130,7 +6130,7 @@ struct yaml_event_s
   // type
   enum yaml_event_type_e type;
   // data
-  union anonymous$46 data;
+  union anonymous_46 data;
   // start_mark
   struct yaml_mark_s start_mark;
   // end_mark
@@ -6152,7 +6152,7 @@ struct yaml_node_s
   // tag
   unsigned char *tag;
   // data
-  union anonymous$18 data;
+  union anonymous_18 data;
   // start_mark
   struct yaml_mark_s start_mark;
   // end_mark
@@ -6180,15 +6180,15 @@ struct yaml_parser_s
   // read_handler_data
   void *read_handler_data;
   // input
-  union anonymous$48 input;
+  union anonymous_48 input;
   // eof
   signed int eof;
   // buffer
-  struct anonymous$49 buffer;
+  struct anonymous_49 buffer;
   // unread
   unsigned long int unread;
   // raw_buffer
-  struct anonymous$49 raw_buffer;
+  struct anonymous_49 raw_buffer;
   // encoding
   enum yaml_encoding_e encoding;
   // offset
@@ -6202,29 +6202,29 @@ struct yaml_parser_s
   // flow_level
   signed int flow_level;
   // tokens
-  struct anonymous$51 tokens;
+  struct anonymous_51 tokens;
   // tokens_parsed
   unsigned long int tokens_parsed;
   // token_available
   signed int token_available;
   // indents
-  struct anonymous$33 indents;
+  struct anonymous_33 indents;
   // indent
   signed int indent;
   // simple_key_allowed
   signed int simple_key_allowed;
   // simple_keys
-  struct anonymous$60 simple_keys;
+  struct anonymous_60 simple_keys;
   // states
-  struct anonymous$61 states;
+  struct anonymous_61 states;
   // state
   enum yaml_parser_state_e state;
   // marks
-  struct anonymous$62 marks;
+  struct anonymous_62 marks;
   // tag_directives
-  struct anonymous$55 tag_directives;
+  struct anonymous_55 tag_directives;
   // aliases
-  struct anonymous$63 aliases;
+  struct anonymous_63 aliases;
   // document
   struct yaml_document_s *document;
 };
@@ -6254,7 +6254,7 @@ struct yaml_token_s
   // type
   enum yaml_token_type_e type;
   // data
-  union anonymous$50 data;
+  union anonymous_50 data;
   // start_mark
   struct yaml_mark_s start_mark;
   // end_mark
@@ -6429,7 +6429,7 @@ struct Command_t CommandEPGInfo[2l] = { { .command="epgdata", .minArgs=0, .maxAr
     .commandfunc=(void (*)(signed int, char **))(void *)0 } };
 // CommandMutex
 // file commands.c line 118
-static union anonymous$14 CommandMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 CommandMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // CommandsList
@@ -6523,7 +6523,7 @@ static const char EPGCHANNEL[12l] = { 'E', 'P', 'G', 'D', 'C', 'h', 'a', 'n', 'n
 static struct List_s *EPGChannelListeners;
 // EPGChannelMutex
 // file epgchannel.c line 66
-static union anonymous$14 EPGChannelMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 EPGChannelMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // EVENTS
@@ -6684,7 +6684,7 @@ static struct Command_t RemoteInterfaceCommands[2l] = { { .command="who", .minAr
 static char ResultBuffer[1536l];
 // ResultBufferMutex
 // file standard/dvb/dvbtext.c line 57
-static union anonymous$14 ResultBufferMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 ResultBufferMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // SCANNING
@@ -6708,9 +6708,9 @@ static struct List_s *ServiceFilterList;
 // StartTime
 // file main.c line 134
 static signed long int StartTime;
-// StartTime$link1
+// StartTime_link1
 // file commands/cmd_info.c line 228
-static signed long int StartTime$link1;
+static signed long int StartTime_link1;
 // TAG_BANDWIDTH
 // file dvbadapter.c line 273
 static const char TAG_BANDWIDTH[10l] = { 'B', 'a', 'n', 'd', 'w', 'i', 'd', 't', 'h', 0 };
@@ -6820,7 +6820,7 @@ static char *bandwidthTable[8l] = { "8000000", "7000000", "6000000", "AUTO", "AU
 static enum CacheFlags cacheFlags[256l];
 // cacheUpdateMutex
 // file cache.c line 177
-static union anonymous$14 cacheUpdateMutex;
+static union anonymous_14 cacheUpdateMutex;
 // cachedPIDs
 // file cache.c line 180
 static struct ProgramInfo_s *cachedPIDs[256l];
@@ -6850,7 +6850,7 @@ static unsigned int classesCount = (unsigned int)0;
 static unsigned int commandContextKey;
 // connectionCondVar
 // file remoteintf.c line 121
-static union anonymous$21 connectionCondVar = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_21 connectionCondVar = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -6859,7 +6859,7 @@ static union anonymous$21 connectionCondVar = { .__data={ .__lock=0, .__futex=(u
 static struct List_s *connectionsList;
 // connectionsMutex
 // file remoteintf.c line 120
-static union anonymous$14 connectionsMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 connectionsMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // coreCommands
@@ -6899,15 +6899,15 @@ static struct EventSource_s *dvbSource = (struct EventSource_s *)(void *)0;
 // eventSource
 // file servicefilter.c line 120
 static struct EventSource_s *eventSource;
-// eventSource$link1
+// eventSource_link1
 // file cache.c line 172
-static struct EventSource_s *eventSource$link1;
+static struct EventSource_s *eventSource_link1;
 // eventUnregistered
 // file events.c line 84
 static struct Event_s *eventUnregistered;
 // eventsMutex
 // file events.c line 80
-static union anonymous$14 eventsMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 eventsMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=1, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // eventsSource
@@ -6985,7 +6985,7 @@ static struct MessageQ_s *jobQ = (struct MessageQ_s *)(void *)0;
 static const char lnbPropertyParent[12l] = { 'a', 'd', 'a', 'p', 't', 'e', 'r', '.', 'l', 'n', 'b', 0 };
 // lockMutex
 // file tuning.c line 49
-static union anonymous$14 lockMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 lockMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // lockTimeoutC
@@ -7050,12 +7050,12 @@ static struct Event_s *multiplexRemovedEvent;
 static struct EventSource_s *multiplexSource;
 // mutex
 // file logging.c line 75
-static union anonymous$14 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
-// mutex$link1
+// mutex_link1
 // file standard/atsc/atsctext.c line 331
-static union anonymous$14 mutex$link1 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 mutex_link1 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // nitEvent
@@ -7074,7 +7074,7 @@ static struct DeliveryMethodInstanceOps_t nullInstanceOps = { .OutputPacket=(voi
     .ReserveHeaderSpace=(void (*)(struct DeliveryMethodInstance_t *, signed int))(void *)0, .SetHeader=(void (*)(struct DeliveryMethodInstance_t *, struct TSPacket_t *, signed int))(void *)0 };
 // objectMutex
 // file objects.c line 96
-static union anonymous$14 objectMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 objectMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=1, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // ofdmCodeRateTable
@@ -7150,9 +7150,9 @@ static unsigned long int processingThread;
 // propertyParent
 // file dvbadapter.c line 258
 static const char propertyParent[8l] = { 'a', 'd', 'a', 'p', 't', 'e', 'r', 0 };
-// propertyParent$link1
+// propertyParent_link1
 // file commands/cmd_scanning.c line 240
-static char propertyParent$link1[14l] = { 'c', 'o', 'm', 'm', 'a', 'n', 'd', 's', '.', 's', 'c', 'a', 'n', 0 };
+static char propertyParent_link1[14l] = { 'c', 'o', 'm', 'm', 'a', 'n', 'd', 's', '.', 's', 'c', 'a', 'n', 0 };
 // psipProcessor
 // file standard/atsc/atsc.c line 40
 static struct PSIPProcessor_s *psipProcessor;
@@ -7225,7 +7225,7 @@ static struct Event_s *scanTryingMuxEvent;
 static enum ScanType_e scanType = (enum ScanType_e)0;
 // scanningmutex
 // file commands/cmd_scanning.c line 267
-static union anonymous$14 scanningmutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 scanningmutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // sdtEvent
@@ -7252,9 +7252,9 @@ static struct Event_s *serviceAllDeletedEvent;
 // serviceChangedEvent
 // file tuning.c line 46
 static struct Event_s *serviceChangedEvent;
-// serviceChangedEvent$link1
+// serviceChangedEvent_link1
 // file servicefilter.c line 123
-static struct Event_s *serviceChangedEvent$link1;
+static struct Event_s *serviceChangedEvent_link1;
 // serviceDeletedEvent
 // file services.c line 65
 static struct Event_s *serviceDeletedEvent;
@@ -7352,14 +7352,14 @@ struct ATSCMultipleStrings_s * ATSCMultipleStringsConvert(unsigned char *data, u
   struct ATSCMultipleStrings_s *result;
   signed int stringIndex;
   unsigned char *pos = data + (signed long int)1;
-  pthread_mutex_lock(&mutex$link1);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("ATSCMultipleStrings_t", "standard/atsc/atsctext.c", 374);
-  result = (struct ATSCMultipleStrings_s *)return_value_ObjectCreateImpl$1;
+  pthread_mutex_lock(&mutex_link1);
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("ATSCMultipleStrings_t", "standard/atsc/atsctext.c", 374);
+  result = (struct ATSCMultipleStrings_s *)return_value_ObjectCreateImpl_1;
   result->number_of_strings = (signed int)data[(signed long int)0];
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)result->number_of_strings, sizeof(struct ATSCString_s) /*16ul*/ );
-  result->strings = (struct ATSCString_s *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)result->number_of_strings, sizeof(struct ATSCString_s) /*16ul*/ );
+  result->strings = (struct ATSCString_s *)return_value_calloc_2;
   LogModule(4, ATSCTEXT, "Start of conversion: Number of strings = %d\n", data[(signed long int)0]);
   stringIndex = 0;
   for( ; !(stringIndex >= result->number_of_strings); stringIndex = stringIndex + 1)
@@ -7386,7 +7386,7 @@ struct ATSCMultipleStrings_s * ATSCMultipleStringsConvert(unsigned char *data, u
       (result->strings + (signed long int)stringIndex)->text = (char *)(void *)0;
   }
   LogModule(4, ATSCTEXT, "End of conversion\n");
-  pthread_mutex_unlock(&mutex$link1);
+  pthread_mutex_unlock(&mutex_link1);
   return result;
 }
 
@@ -7414,25 +7414,25 @@ static void ATSCMultipleStringsDestructor(struct ATSCMultipleStrings_s *strings)
 signed int ATSCMultipleStringsInit(void)
 {
   ObjectRegisterClass("ATSCMultipleStrings_t", (unsigned int)sizeof(struct ATSCMultipleStrings_s) /*16ul*/ , (void (*)(void *))ATSCMultipleStringsDestructor);
-  void *return_value_iconv_open$1;
-  return_value_iconv_open$1=iconv_open("UTF-8", "UTF-16BE");
-  Utf16ToUtf8CD = (void **)return_value_iconv_open$1;
+  void *return_value_iconv_open_1;
+  return_value_iconv_open_1=iconv_open("UTF-8", "UTF-16BE");
+  Utf16ToUtf8CD = (void **)return_value_iconv_open_1;
   if((signed long int)Utf16ToUtf8CD == -1l)
     return 1;
 
   else
   {
-    void *return_value_iconv_open$2;
-    return_value_iconv_open$2=iconv_open("UTF-8", "UCS-2BE");
-    Ucs2ToUtf8CD = (void **)return_value_iconv_open$2;
+    void *return_value_iconv_open_2;
+    return_value_iconv_open_2=iconv_open("UTF-8", "UCS-2BE");
+    Ucs2ToUtf8CD = (void **)return_value_iconv_open_2;
     if((signed long int)Ucs2ToUtf8CD == -1l)
       return 1;
 
     else
     {
-      void *return_value_iconv_open$3;
-      return_value_iconv_open$3=iconv_open("ASCII", "UCS-2BE");
-      AsciiToUtf8CD = (void **)return_value_iconv_open$3;
+      void *return_value_iconv_open_3;
+      return_value_iconv_open_3=iconv_open("ASCII", "UCS-2BE");
+      AsciiToUtf8CD = (void **)return_value_iconv_open_3;
       if((signed long int)AsciiToUtf8CD == -1l)
         return 1;
 
@@ -7459,16 +7459,16 @@ signed int ATSCStandardInit(struct TSReader_t *reader)
   if(ATSCEventSource == ((struct EventSource_s *)NULL))
     ATSCEventSource=EventsRegisterSource(ATSCFilterType);
 
-  signed int return_value_ATSCMultipleStringsInit$1;
-  return_value_ATSCMultipleStringsInit$1=ATSCMultipleStringsInit();
-  if(!(return_value_ATSCMultipleStringsInit$1 == 0))
+  signed int return_value_ATSCMultipleStringsInit_1;
+  return_value_ATSCMultipleStringsInit_1=ATSCMultipleStringsInit();
+  if(!(return_value_ATSCMultipleStringsInit_1 == 0))
     return -1;
 
   else
   {
-    signed int return_value_MPEG2StandardInit$2;
-    return_value_MPEG2StandardInit$2=MPEG2StandardInit(reader);
-    if(!(return_value_MPEG2StandardInit$2 == 0))
+    signed int return_value_MPEG2StandardInit_2;
+    return_value_MPEG2StandardInit_2=MPEG2StandardInit(reader);
+    if(!(return_value_MPEG2StandardInit_2 == 0))
       return -1;
 
     else
@@ -7493,9 +7493,9 @@ static void AddConnection(signed int socketfd, struct sockaddr_storage *clientAd
   char connectionStr[48l];
   struct _IO_FILE *fp;
   struct Connection_t *connection;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("Connection_t", "remoteintf.c", 291);
-  connection = (struct Connection_t *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("Connection_t", "remoteintf.c", 291);
+  connection = (struct Connection_t *)return_value_ObjectCreateImpl_1;
   GetConnectionString(clientAddress, connectionStr);
   fp=fdopen(socketfd, "r+");
   if(!(connection == ((struct Connection_t *)NULL)))
@@ -7652,13 +7652,13 @@ void CacheDeInit()
 // file ../include/cache.h line 48
 signed int CacheInit()
 {
-  union anonymous$38 mutexAttr;
+  union anonymous_38 mutexAttr;
   pthread_mutexattr_init(&mutexAttr);
   pthread_mutexattr_settype(&mutexAttr, 1);
   pthread_mutex_init(&cacheUpdateMutex, &mutexAttr);
   pthread_mutexattr_destroy(&mutexAttr);
-  eventSource$link1=EventsRegisterSource("Cache");
-  pidsUpdatedEvent=EventsRegisterEvent(eventSource$link1, "PIDsUpdated", (signed int (*)(struct yaml_document_s *, struct Event_s *, void *))(void *)0);
+  eventSource_link1=EventsRegisterSource("Cache");
+  pidsUpdatedEvent=EventsRegisterEvent(eventSource_link1, "PIDsUpdated", (signed int (*)(struct yaml_document_s *, struct Event_s *, void *))(void *)0);
   ObjectRegisterClass("CacheUpdateMessage_t", (unsigned int)sizeof(struct CacheUpdateMessage_s) /*32ul*/ , (void (*)(void *))(void *)0);
   return 0;
 }
@@ -7675,7 +7675,7 @@ signed int CacheLoad(struct Multiplex_s *multiplex)
   list=ServiceListForMultiplex(multiplex);
   LogModule(3, CACHE, "Loading %d services for %d\n", list->count, multiplex->uid);
   cachedServicesCount = list->count;
-  struct ListEntry_s *tmp_if_expr$1;
+  struct ListEntry_s *tmp_if_expr_1;
   if(list->count >= 1)
   {
     struct ListIterator_s iterator;
@@ -7689,11 +7689,11 @@ signed int CacheLoad(struct Multiplex_s *multiplex)
       cachedPIDs[(signed long int)i]=ProgramInfoGet(cachedServices[(signed long int)i]);
       cacheFlags[(signed long int)i] = (enum CacheFlags)CacheFlag_Clean;
       if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$1 = iterator.current->next;
+        tmp_if_expr_1 = iterator.current->next;
 
       else
-        tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
-      iterator.current = tmp_if_expr$1;
+        tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
+      iterator.current = tmp_if_expr_1;
     }
     ListFree(list, (void (*)(void *))(void *)0);
   }
@@ -7880,17 +7880,17 @@ struct Service_t * CacheServiceAdd(signed int id, signed int source)
 {
   struct CacheUpdateMessage_s *msg;
   struct Service_t *result;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("Service_t", "cache.c", 690);
-  result = (struct Service_t *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("Service_t", "cache.c", 690);
+  result = (struct Service_t *)return_value_ObjectCreateImpl_1;
   if(!(result == ((struct Service_t *)NULL)))
   {
     result->id = id;
     result->source = source;
     result->pmtPID = 8191;
-    signed int return_value_asprintf$2;
-    return_value_asprintf$2=asprintf(&result->name, "%04x", id);
-    if(return_value_asprintf$2 == -1)
+    signed int return_value_asprintf_2;
+    return_value_asprintf_2=asprintf(&result->name, "%04x", id);
+    if(return_value_asprintf_2 == -1)
     {
       LogModule(0, CACHE, "Failed to allocate memory for default service name (0x%04x).\n", result->id);
       result->name = (char *)(void *)0;
@@ -7908,9 +7908,9 @@ struct Service_t * CacheServiceAdd(signed int id, signed int source)
     cachedPIDs[(signed long int)cachedServicesCount] = (struct ProgramInfo_s *)(void *)0;
     cacheFlags[(signed long int)cachedServicesCount] = (enum CacheFlags)CacheFlag_Clean;
     cachedServicesCount = cachedServicesCount + 1;
-    void *return_value_ObjectCreateImpl$3;
-    return_value_ObjectCreateImpl$3=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 712);
-    msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$3;
+    void *return_value_ObjectCreateImpl_3;
+    return_value_ObjectCreateImpl_3=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 712);
+    msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_3;
     if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
     {
       msg->type = (enum CacheUpdateType)CacheUpdate_Service_Added;
@@ -7967,9 +7967,9 @@ void CacheServiceDelete(struct Service_t *service)
       cachedServices[(signed long int)i] = cachedServices[(signed long int)(i + 1)];
       cacheFlags[(signed long int)i] = cacheFlags[(signed long int)(i + 1)];
     }
-    void *return_value_ObjectCreateImpl$1;
-    return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 804);
-    msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+    void *return_value_ObjectCreateImpl_1;
+    return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 804);
+    msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
     if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
     {
       msg->type = (enum CacheUpdateType)CacheUpdate_Service_Deleted;
@@ -7995,9 +7995,9 @@ struct Service_t * CacheServiceFind(char *name)
   result=CacheServiceFindName(name);
   if(result == ((struct Service_t *)NULL))
   {
-    signed int return_value_sscanf$1;
-    return_value_sscanf$1=sscanf(name, "%x.%x.%x", &netId, &tsId, &serviceId);
-    if(return_value_sscanf$1 == 3)
+    signed int return_value_sscanf_1;
+    return_value_sscanf_1=sscanf(name, "%x.%x.%x", &netId, &tsId, &serviceId);
+    if(return_value_sscanf_1 == 3)
     {
       if(cachedServicesMultiplex->networkId == netId)
       {
@@ -8045,9 +8045,9 @@ struct Service_t * CacheServiceFindName(char *name)
   for( ; !(i >= cachedServicesCount); i = i + 1)
   {
     LogModule(4, CACHE, "cachedServices[%d]->name = %s\n", i, cachedServices[(signed long int)i]->name);
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(cachedServices[(signed long int)i]->name, name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(cachedServices[(signed long int)i]->name, name);
+    if(return_value_strcmp_1 == 0)
     {
       result = cachedServices[(signed long int)i];
       do
@@ -8088,7 +8088,7 @@ _Bool CacheServiceSeen(struct Service_t *service, _Bool seen, _Bool pat)
 
     }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(seenIndex == -1))
   {
     signed int flag = pat != (_Bool)0 ? CacheFlag_Not_Seen_In_PAT : CacheFlag_Not_Seen_In_SDT;
@@ -8098,11 +8098,11 @@ _Bool CacheServiceSeen(struct Service_t *service, _Bool seen, _Bool pat)
     else
       cacheFlags[(signed long int)seenIndex] = cacheFlags[(signed long int)seenIndex] | (enum CacheFlags)flag;
     if(!((CacheFlag_Not_Seen_In_PAT & (signed int)cacheFlags[(signed long int)seenIndex]) == 0))
-      tmp_if_expr$1 = ((signed int)cacheFlags[(signed long int)seenIndex] & CacheFlag_Not_Seen_In_SDT) != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((signed int)cacheFlags[(signed long int)seenIndex] & CacheFlag_Not_Seen_In_SDT) != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       exists = (_Bool)0;
 
     else
@@ -8177,9 +8177,9 @@ void CacheUpdateMultiplex(struct Multiplex_s *multiplex, signed int patversion, 
       i = 0;
       for( ; !(i >= cachedServicesCount); i = i + 1)
         cachedServices[(signed long int)i]->tsId = tsid;
-      void *return_value_ObjectCreateImpl$1;
-      return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 370);
-      msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+      void *return_value_ObjectCreateImpl_1;
+      return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 370);
+      msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
       if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
       {
         msg->type = (enum CacheUpdateType)CacheUpdate_Multiplex_TS_id;
@@ -8212,9 +8212,9 @@ void CacheUpdateNetworkId(struct Multiplex_s *multiplex, signed int netid)
       i = 0;
       for( ; !(i >= cachedServicesCount); i = i + 1)
         cachedServices[(signed long int)i]->networkId = netid;
-      void *return_value_ObjectCreateImpl$1;
-      return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 398);
-      msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+      void *return_value_ObjectCreateImpl_1;
+      return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 398);
+      msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
       if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
       {
         msg->type = (enum CacheUpdateType)CacheUpdate_Multiplex_Network_id;
@@ -8251,9 +8251,9 @@ void CacheUpdateProgramInfo(struct Service_t *service, struct ProgramInfo_s *inf
             ObjectRefDecImpl((void *)cachedPIDs[(signed long int)i], "cache.c", 663);
 
           cachedPIDs[(signed long int)i] = info;
-          void *return_value_ObjectCreateImpl$1;
-          return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 668);
-          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+          void *return_value_ObjectCreateImpl_1;
+          return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 668);
+          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
           if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
           {
             msg->type = (enum CacheUpdateType)CacheUpdate_Service_PIDs;
@@ -8292,9 +8292,9 @@ void CacheUpdateServiceConditionalAccess(struct Service_t *service, _Bool ca)
         if(service->id == cachedServices[(signed long int)i]->id)
         {
           cachedServices[(signed long int)i]->conditionalAccess = ca;
-          void *return_value_ObjectCreateImpl$1;
-          return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 606);
-          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+          void *return_value_ObjectCreateImpl_1;
+          return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 606);
+          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
           if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
           {
             msg->type = (enum CacheUpdateType)CacheUpdate_Service_CA;
@@ -8338,9 +8338,9 @@ void CacheUpdateServiceDefaultAuthority(struct Service_t *service, char *default
 
           else
             cachedServices[(signed long int)i]->defaultAuthority = (char *)(void *)0;
-          void *return_value_ObjectCreateImpl$1;
-          return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 547);
-          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+          void *return_value_ObjectCreateImpl_1;
+          return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 547);
+          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
           if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
           {
             msg->type = (enum CacheUpdateType)CacheUpdate_Service_Default_Auth;
@@ -8386,9 +8386,9 @@ void CacheUpdateServiceName(struct Service_t *service, char *name)
 
           else
             cachedServices[(signed long int)i]->name = (char *)(void *)0;
-          void *return_value_ObjectCreateImpl$1;
-          return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 463);
-          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+          void *return_value_ObjectCreateImpl_1;
+          return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 463);
+          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
           if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
           {
             msg->type = (enum CacheUpdateType)CacheUpdate_Service_Name;
@@ -8427,9 +8427,9 @@ void CacheUpdateServicePMTPID(struct Service_t *service, signed int pmtpid)
         if(service->id == cachedServices[(signed long int)i]->id)
         {
           cachedServices[(signed long int)i]->pmtPID = pmtpid;
-          void *return_value_ObjectCreateImpl$1;
-          return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 424);
-          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+          void *return_value_ObjectCreateImpl_1;
+          return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 424);
+          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
           if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
           {
             msg->type = (enum CacheUpdateType)CacheUpdate_Service_PMT_PID;
@@ -8473,9 +8473,9 @@ void CacheUpdateServiceProvider(struct Service_t *service, char *provider)
 
           else
             cachedServices[(signed long int)i]->provider = (char *)(void *)0;
-          void *return_value_ObjectCreateImpl$1;
-          return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 505);
-          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+          void *return_value_ObjectCreateImpl_1;
+          return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 505);
+          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
           if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
           {
             msg->type = (enum CacheUpdateType)CacheUpdate_Service_Provider;
@@ -8514,9 +8514,9 @@ void CacheUpdateServiceSource(struct Service_t *service, unsigned short int sour
         if(service->id == cachedServices[(signed long int)i]->id)
         {
           cachedServices[(signed long int)i]->source = (signed int)source;
-          void *return_value_ObjectCreateImpl$1;
-          return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 578);
-          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+          void *return_value_ObjectCreateImpl_1;
+          return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 578);
+          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
           if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
           {
             msg->type = (enum CacheUpdateType)CacheUpdate_Service_Source;
@@ -8553,9 +8553,9 @@ void CacheUpdateServiceType(struct Service_t *service, enum anonymous type)
         if(service->id == cachedServices[(signed long int)i]->id)
         {
           cachedServices[(signed long int)i]->type = type;
-          void *return_value_ObjectCreateImpl$1;
-          return_value_ObjectCreateImpl$1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 634);
-          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl$1;
+          void *return_value_ObjectCreateImpl_1;
+          return_value_ObjectCreateImpl_1=ObjectCreateImpl("CacheUpdateMessage_t", "cache.c", 634);
+          msg = (struct CacheUpdateMessage_s *)return_value_ObjectCreateImpl_1;
           if(!(msg == ((struct CacheUpdateMessage_s *)NULL)))
           {
             msg->type = (enum CacheUpdateType)CacheUpdate_Service_Type;
@@ -8614,10 +8614,10 @@ static void CommandAddSF(signed int argc, char **argv)
     {
       do
       {
-        struct CommandContext_t *CommandAddSF$$1$$1$$1$$1$$context;
-        CommandAddSF$$1$$1$$1$$1$$context=CommandContextGet();
-        CommandAddSF$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0004;
-        snprintf(CommandAddSF$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Not authenticated!");
+        struct CommandContext_t *CommandAddSF__1__1__1__1__context;
+        CommandAddSF__1__1__1__1__context=CommandContextGet();
+        CommandAddSF__1__1__1__1__context->errorNumber = (unsigned short int)0x0004;
+        snprintf(CommandAddSF__1__1__1__1__context->errorMessage, (unsigned long int)256, "Not authenticated!");
       }
       while((_Bool)0);
       goto __CPROVER_DUMP_L8;
@@ -8629,19 +8629,19 @@ static void CommandAddSF(signed int argc, char **argv)
   if(!(filter == ((struct ServiceFilter_s *)NULL)))
     do
     {
-      struct CommandContext_t *CommandAddSF$$1$$2$$1$$context;
-      CommandAddSF$$1$$2$$1$$context=CommandContextGet();
-      CommandAddSF$$1$$2$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandAddSF$$1$$2$$1$$context->errorMessage, (unsigned long int)256, "Service Filter of that name already exists!");
+      struct CommandContext_t *CommandAddSF__1__2__1__context;
+      CommandAddSF__1__2__1__context=CommandContextGet();
+      CommandAddSF__1__2__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandAddSF__1__2__1__context->errorMessage, (unsigned long int)256, "Service Filter of that name already exists!");
     }
     while((_Bool)0);
 
   else
   {
     struct DeliveryMethodInstance_t *instance;
-    char *return_value_strdup$1;
-    return_value_strdup$1=strdup(argv[(signed long int)0]);
-    filter=ServiceFilterCreate(tsReader, return_value_strdup$1);
+    char *return_value_strdup_1;
+    return_value_strdup_1=strdup(argv[(signed long int)0]);
+    filter=ServiceFilterCreate(tsReader, return_value_strdup_1);
     instance=DeliveryMethodCreate(argv[(signed long int)1]);
     if(instance == ((struct DeliveryMethodInstance_t *)NULL))
       instance=DeliveryMethodCreate("null://");
@@ -8657,9 +8657,9 @@ __CPROVER_DUMP_L8:
 // file commands.c line 171
 struct CommandContext_t * CommandContextGet(void)
 {
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(commandContextKey);
-  return (struct CommandContext_t *)return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(commandContextKey);
+  return (struct CommandContext_t *)return_value_pthread_getspecific_1;
 }
 
 // CommandContextSet
@@ -8738,60 +8738,60 @@ static void CommandDumpTSReader(signed int argc, char **argv)
   CommandPrintf("Section filters - Active (%d)\n", reader->activeSectionFilters->count);
   iterator.current = reader->activeSectionFilters->head;
   iterator.list = reader->activeSectionFilters;
-  struct ListEntry_s *tmp_if_expr$2;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_2;
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
-    struct ListIterator_s CommandDumpTSReader$$1$$3$$1$$iterator_sf;
+    struct ListIterator_s CommandDumpTSReader__1__3__1__iterator_sf;
     struct TSSectionFilterList_t *sfList = (struct TSSectionFilterList_t *)iterator.current->data;
     struct TSSectionFilter_t *sf;
     CommandPrintf("    0x%04x\n", sfList->pid);
-    CommandDumpTSReader$$1$$3$$1$$iterator_sf.current = sfList->filters->head;
-    CommandDumpTSReader$$1$$3$$1$$iterator_sf.list = sfList->filters;
-    for( ; !(CommandDumpTSReader$$1$$3$$1$$iterator_sf.current == ((struct ListEntry_s *)NULL)); CommandDumpTSReader$$1$$3$$1$$iterator_sf.current = tmp_if_expr$2)
+    CommandDumpTSReader__1__3__1__iterator_sf.current = sfList->filters->head;
+    CommandDumpTSReader__1__3__1__iterator_sf.list = sfList->filters;
+    for( ; !(CommandDumpTSReader__1__3__1__iterator_sf.current == ((struct ListEntry_s *)NULL)); CommandDumpTSReader__1__3__1__iterator_sf.current = tmp_if_expr_2)
     {
-      sf = (struct TSSectionFilter_t *)CommandDumpTSReader$$1$$3$$1$$iterator_sf.current->data;
+      sf = (struct TSSectionFilter_t *)CommandDumpTSReader__1__3__1__iterator_sf.current->data;
       CommandPrintf("        %s\n", sf->group->name);
-      if(!(CommandDumpTSReader$$1$$3$$1$$iterator_sf.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$2 = CommandDumpTSReader$$1$$3$$1$$iterator_sf.current->next;
+      if(!(CommandDumpTSReader__1__3__1__iterator_sf.current == ((struct ListEntry_s *)NULL)))
+        tmp_if_expr_2 = CommandDumpTSReader__1__3__1__iterator_sf.current->next;
 
       else
-        tmp_if_expr$2 = (struct ListEntry_s *)(void *)0;
+        tmp_if_expr_2 = (struct ListEntry_s *)(void *)0;
     }
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   CommandPrintf("Section filters - Awaiting scheduling (%d)\n", reader->sectionFilters->count);
   iterator.current = reader->sectionFilters->head;
   iterator.list = reader->sectionFilters;
-  struct ListEntry_s *tmp_if_expr$4;
-  struct ListEntry_s *tmp_if_expr$3;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$3)
+  struct ListEntry_s *tmp_if_expr_4;
+  struct ListEntry_s *tmp_if_expr_3;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_3)
   {
     struct ListIterator_s iterator_sf;
-    struct TSSectionFilterList_t *CommandDumpTSReader$$1$$4$$1$$sfList = (struct TSSectionFilterList_t *)iterator.current->data;
-    struct TSSectionFilter_t *CommandDumpTSReader$$1$$4$$1$$sf;
-    CommandPrintf("    0x%04x\n", CommandDumpTSReader$$1$$4$$1$$sfList->pid);
-    iterator_sf.current = CommandDumpTSReader$$1$$4$$1$$sfList->filters->head;
-    iterator_sf.list = CommandDumpTSReader$$1$$4$$1$$sfList->filters;
-    for( ; !(iterator_sf.current == ((struct ListEntry_s *)NULL)); iterator_sf.current = tmp_if_expr$4)
+    struct TSSectionFilterList_t *CommandDumpTSReader__1__4__1__sfList = (struct TSSectionFilterList_t *)iterator.current->data;
+    struct TSSectionFilter_t *CommandDumpTSReader__1__4__1__sf;
+    CommandPrintf("    0x%04x\n", CommandDumpTSReader__1__4__1__sfList->pid);
+    iterator_sf.current = CommandDumpTSReader__1__4__1__sfList->filters->head;
+    iterator_sf.list = CommandDumpTSReader__1__4__1__sfList->filters;
+    for( ; !(iterator_sf.current == ((struct ListEntry_s *)NULL)); iterator_sf.current = tmp_if_expr_4)
     {
-      CommandDumpTSReader$$1$$4$$1$$sf = (struct TSSectionFilter_t *)iterator_sf.current->data;
-      CommandPrintf("        %s\n", CommandDumpTSReader$$1$$4$$1$$sf->group->name);
+      CommandDumpTSReader__1__4__1__sf = (struct TSSectionFilter_t *)iterator_sf.current->data;
+      CommandPrintf("        %s\n", CommandDumpTSReader__1__4__1__sf->group->name);
       if(!(iterator_sf.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$4 = iterator_sf.current->next;
+        tmp_if_expr_4 = iterator_sf.current->next;
 
       else
-        tmp_if_expr$4 = (struct ListEntry_s *)(void *)0;
+        tmp_if_expr_4 = (struct ListEntry_s *)(void *)0;
     }
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$3 = iterator.current->next;
+      tmp_if_expr_3 = iterator.current->next;
 
     else
-      tmp_if_expr$3 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_3 = (struct ListEntry_s *)(void *)0;
   }
   pthread_mutex_unlock(&reader->mutex);
 }
@@ -8809,25 +8809,25 @@ static void CommandEPGData(signed int argc, char **argv)
   EPGChannelRegisterListener(msgQ);
   CommandPrintf("<epg>\n");
   fflush(cmdContext->outfp);
-  signed int return_value_ferror$1;
-  _Bool return_value_MessageQIsQuitSet$2;
+  signed int return_value_ferror_1;
+  _Bool return_value_MessageQIsQuitSet_2;
   do
   {
-    return_value_ferror$1=ferror(cmdContext->outfp);
-    if(!(return_value_ferror$1 == 0))
+    return_value_ferror_1=ferror(cmdContext->outfp);
+    if(!(return_value_ferror_1 == 0))
       break;
 
-    return_value_MessageQIsQuitSet$2=MessageQIsQuitSet(msgQ);
-    if(return_value_MessageQIsQuitSet$2 != (_Bool)0)
+    return_value_MessageQIsQuitSet_2=MessageQIsQuitSet(msgQ);
+    if(return_value_MessageQIsQuitSet_2 != (_Bool)0)
       break;
 
     if(ExitProgram != (_Bool)0)
       break;
 
     struct EPGChannelMessage_s *msg;
-    void *return_value_MessageQReceiveTimed$3;
-    return_value_MessageQReceiveTimed$3=MessageQReceiveTimed(msgQ, (unsigned long int)400);
-    msg = (struct EPGChannelMessage_s *)return_value_MessageQReceiveTimed$3;
+    void *return_value_MessageQReceiveTimed_3;
+    return_value_MessageQReceiveTimed_3=MessageQReceiveTimed(msgQ, (unsigned long int)400);
+    msg = (struct EPGChannelMessage_s *)return_value_MessageQReceiveTimed_3;
     if(!(msg == ((struct EPGChannelMessage_s *)NULL)))
     {
       CommandPrintf("<event net=\"0x%04x\" ts=\"0x%04x\" source=\"0x%04x\" event=\"0x%08x\">\n", msg->eventRef.serviceRef.netId, msg->eventRef.serviceRef.tsId, msg->eventRef.serviceRef.serviceId, msg->eventRef.eventId);
@@ -8871,18 +8871,18 @@ _Bool CommandExecute(struct CommandContext_t *context, char *line)
   CommandContextSet(context);
   do
   {
-    struct CommandContext_t *CommandExecute$$1$$1$$context;
-    CommandExecute$$1$$1$$context=CommandContextGet();
-    CommandExecute$$1$$1$$context->errorNumber = (unsigned short int)0x0000;
-    snprintf(CommandExecute$$1$$1$$context->errorMessage, (unsigned long int)256, "OK");
+    struct CommandContext_t *CommandExecute__1__1__context;
+    CommandExecute__1__1__context=CommandContextGet();
+    CommandExecute__1__1__context->errorNumber = (unsigned short int)0x0000;
+    snprintf(CommandExecute__1__1__context->errorMessage, (unsigned long int)256, "OK");
   }
   while((_Bool)0);
   ParseLine(line, &command, &argument);
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(command == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(command);
-    if(return_value_strlen$1 >= 1ul)
+    return_value_strlen_1=strlen(command);
+    if(return_value_strlen_1 >= 1ul)
     {
       commandFound=ProcessCommand(context, command, argument);
       free((void *)command);
@@ -8892,10 +8892,10 @@ _Bool CommandExecute(struct CommandContext_t *context, char *line)
       if(commandFound == (_Bool)0)
         do
         {
-          struct CommandContext_t *CommandExecute$$1$$2$$2$$1$$context;
-          CommandExecute$$1$$2$$2$$1$$context=CommandContextGet();
-          CommandExecute$$1$$2$$2$$1$$context->errorNumber = (unsigned short int)0x0002;
-          snprintf(CommandExecute$$1$$2$$2$$1$$context->errorMessage, (unsigned long int)256, "Unknown command");
+          struct CommandContext_t *CommandExecute__1__2__2__1__context;
+          CommandExecute__1__2__2__1__context=CommandContextGet();
+          CommandExecute__1__2__2__1__context->errorNumber = (unsigned short int)0x0002;
+          snprintf(CommandExecute__1__2__2__1__context->errorMessage, (unsigned long int)256, "Unknown command");
         }
         while((_Bool)0);
 
@@ -8912,9 +8912,9 @@ _Bool CommandExecute(struct CommandContext_t *context, char *line)
 _Bool CommandExecuteConsole(char *line)
 {
   _Bool found = (_Bool)0;
-  _Bool return_value_CommandExecute$1;
-  return_value_CommandExecute$1=CommandExecute(&ConsoleCommandContext, line);
-  if(!(return_value_CommandExecute$1 == (_Bool)0))
+  _Bool return_value_CommandExecute_1;
+  return_value_CommandExecute_1=CommandExecute(&ConsoleCommandContext, line);
+  if(!(return_value_CommandExecute_1 == (_Bool)0))
   {
     add_history(line);
     found = (_Bool)1;
@@ -8949,11 +8949,11 @@ static void CommandFEStatus(signed int argc, char **argv)
   unsigned int strength;
   unsigned int snr;
   unsigned int ucblocks;
-  struct DVBAdapter_s *return_value_MainDVBAdapterGet$1;
-  return_value_MainDVBAdapterGet$1=MainDVBAdapterGet();
-  signed int return_value_DVBFrontEndStatus$2;
-  return_value_DVBFrontEndStatus$2=DVBFrontEndStatus(return_value_MainDVBAdapterGet$1, &status, &ber, &strength, &snr, &ucblocks);
-  if(!(return_value_DVBFrontEndStatus$2 == 0))
+  struct DVBAdapter_s *return_value_MainDVBAdapterGet_1;
+  return_value_MainDVBAdapterGet_1=MainDVBAdapterGet();
+  signed int return_value_DVBFrontEndStatus_2;
+  return_value_DVBFrontEndStatus_2=DVBFrontEndStatus(return_value_MainDVBAdapterGet_1, &status, &ber, &strength, &snr, &ucblocks);
+  if(!(return_value_DVBFrontEndStatus_2 == 0))
     CommandPrintf("Failed to get frontend status!\n");
 
   else
@@ -8977,9 +8977,9 @@ static void CommandGetMRL(signed int argc, char **argv)
 static void CommandGetProperty(signed int argc, char **argv)
 {
   struct PropertyValue_s value;
-  signed int return_value_PropertiesGet$1;
-  return_value_PropertiesGet$1=PropertiesGet(argv[(signed long int)0], &value);
-  if(return_value_PropertiesGet$1 == 0)
+  signed int return_value_PropertiesGet_1;
+  return_value_PropertiesGet_1=PropertiesGet(argv[(signed long int)0], &value);
+  if(return_value_PropertiesGet_1 == 0)
     switch((signed int)value.type)
     {
       case PropertyType_Int:
@@ -9033,10 +9033,10 @@ static void CommandGetSFAVSOnly(signed int argc, char **argv)
     {
       do
       {
-        struct CommandContext_t *CommandGetSFAVSOnly$$1$$1$$1$$1$$context;
-        CommandGetSFAVSOnly$$1$$1$$1$$1$$context=CommandContextGet();
-        CommandGetSFAVSOnly$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0004;
-        snprintf(CommandGetSFAVSOnly$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Not authenticated!");
+        struct CommandContext_t *CommandGetSFAVSOnly__1__1__1__1__context;
+        CommandGetSFAVSOnly__1__1__1__1__context=CommandContextGet();
+        CommandGetSFAVSOnly__1__1__1__1__context->errorNumber = (unsigned short int)0x0004;
+        snprintf(CommandGetSFAVSOnly__1__1__1__1__context->errorMessage, (unsigned long int)256, "Not authenticated!");
       }
       while((_Bool)0);
       goto __CPROVER_DUMP_L6;
@@ -9050,10 +9050,10 @@ static void CommandGetSFAVSOnly(signed int argc, char **argv)
   if(filter == ((struct ServiceFilter_s *)NULL))
     do
     {
-      struct CommandContext_t *CommandGetSFAVSOnly$$1$$2$$1$$1$$context;
-      CommandGetSFAVSOnly$$1$$2$$1$$1$$context=CommandContextGet();
-      CommandGetSFAVSOnly$$1$$2$$1$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandGetSFAVSOnly$$1$$2$$1$$1$$context->errorMessage, (unsigned long int)256, "Service filter not found!");
+      struct CommandContext_t *CommandGetSFAVSOnly__1__2__1__1__context;
+      CommandGetSFAVSOnly__1__2__1__1__context=CommandContextGet();
+      CommandGetSFAVSOnly__1__2__1__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandGetSFAVSOnly__1__2__1__1__context->errorMessage, (unsigned long int)256, "Service filter not found!");
     }
     while((_Bool)0);
 
@@ -9080,10 +9080,10 @@ static void CommandGetSFMRL(signed int argc, char **argv)
     {
       do
       {
-        struct CommandContext_t *CommandGetSFMRL$$1$$1$$1$$1$$context;
-        CommandGetSFMRL$$1$$1$$1$$1$$context=CommandContextGet();
-        CommandGetSFMRL$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0004;
-        snprintf(CommandGetSFMRL$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Not authenticated!");
+        struct CommandContext_t *CommandGetSFMRL__1__1__1__1__context;
+        CommandGetSFMRL__1__1__1__1__context=CommandContextGet();
+        CommandGetSFMRL__1__1__1__1__context->errorNumber = (unsigned short int)0x0004;
+        snprintf(CommandGetSFMRL__1__1__1__1__context->errorMessage, (unsigned long int)256, "Not authenticated!");
       }
       while((_Bool)0);
       goto __CPROVER_DUMP_L6;
@@ -9097,20 +9097,20 @@ static void CommandGetSFMRL(signed int argc, char **argv)
   if(filter == ((struct ServiceFilter_s *)NULL))
     do
     {
-      struct CommandContext_t *CommandGetSFMRL$$1$$2$$1$$1$$context;
-      CommandGetSFMRL$$1$$2$$1$$1$$context=CommandContextGet();
-      CommandGetSFMRL$$1$$2$$1$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandGetSFMRL$$1$$2$$1$$1$$context->errorMessage, (unsigned long int)256, "Service filter not found!");
+      struct CommandContext_t *CommandGetSFMRL__1__2__1__1__context;
+      CommandGetSFMRL__1__2__1__1__context=CommandContextGet();
+      CommandGetSFMRL__1__2__1__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandGetSFMRL__1__2__1__1__context->errorMessage, (unsigned long int)256, "Service filter not found!");
     }
     while((_Bool)0);
 
   else
   {
-    struct DeliveryMethodInstance_t *return_value_ServiceFilterDeliveryMethodGet$1;
-    return_value_ServiceFilterDeliveryMethodGet$1=ServiceFilterDeliveryMethodGet(filter);
-    char *return_value_DeliveryMethodGetMRL$2;
-    return_value_DeliveryMethodGetMRL$2=DeliveryMethodGetMRL(return_value_ServiceFilterDeliveryMethodGet$1);
-    CommandPrintf("%s\n", return_value_DeliveryMethodGetMRL$2);
+    struct DeliveryMethodInstance_t *return_value_ServiceFilterDeliveryMethodGet_1;
+    return_value_ServiceFilterDeliveryMethodGet_1=ServiceFilterDeliveryMethodGet(filter);
+    char *return_value_DeliveryMethodGetMRL_2;
+    return_value_DeliveryMethodGetMRL_2=DeliveryMethodGetMRL(return_value_ServiceFilterDeliveryMethodGet_1);
+    CommandPrintf("%s\n", return_value_DeliveryMethodGetMRL_2);
   }
 
 __CPROVER_DUMP_L6:
@@ -9156,9 +9156,9 @@ char * CommandGets(char *buffer, signed int len)
 {
   struct CommandContext_t *context;
   context=CommandContextGet();
-  char *return_value_fgets$1;
-  return_value_fgets$1=fgets(buffer, len, context->infp);
-  return return_value_fgets$1;
+  char *return_value_fgets_1;
+  return_value_fgets_1=fgets(buffer, len, context->infp);
+  return return_value_fgets_1;
 }
 
 // CommandHelp
@@ -9169,8 +9169,8 @@ static void CommandHelp(signed int argc, char **argv)
   struct ListIterator_s iterator;
   struct CommandContext_t *context;
   context=CommandContextGet();
-  struct ListEntry_s *tmp_if_expr$1;
-  struct ListEntry_s *tmp_if_expr$2;
+  struct ListEntry_s *tmp_if_expr_1;
+  struct ListEntry_s *tmp_if_expr_2;
   if(!(argc == 0))
   {
     struct Command_t *requestedcmd = (struct Command_t *)(void *)0;
@@ -9181,7 +9181,7 @@ static void CommandHelp(signed int argc, char **argv)
     {
       iterator.current = CommandsList->head;
       iterator.list = CommandsList;
-      for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+      for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
       {
         struct Command_t *commands = (struct Command_t *)iterator.current->data;
         requestedcmd=FindCommand(commands, argv[(signed long int)0]);
@@ -9189,10 +9189,10 @@ static void CommandHelp(signed int argc, char **argv)
           break;
 
         if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-          tmp_if_expr$1 = iterator.current->next;
+          tmp_if_expr_1 = iterator.current->next;
 
         else
-          tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+          tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
       }
     }
 
@@ -9202,10 +9202,10 @@ static void CommandHelp(signed int argc, char **argv)
     else
       do
       {
-        struct CommandContext_t *CommandHelp$$1$$1$$4$$1$$context;
-        CommandHelp$$1$$1$$4$$1$$context=CommandContextGet();
-        CommandHelp$$1$$1$$4$$1$$context->errorNumber = (unsigned short int)0xffff;
-        snprintf(CommandHelp$$1$$1$$4$$1$$context->errorMessage, (unsigned long int)256, "No help for unknown command!");
+        struct CommandContext_t *CommandHelp__1__1__4__1__context;
+        CommandHelp__1__1__4__1__context=CommandContextGet();
+        CommandHelp__1__1__4__1__context->errorNumber = (unsigned short int)0xffff;
+        snprintf(CommandHelp__1__1__4__1__context->errorMessage, (unsigned long int)256, "No help for unknown command!");
       }
       while((_Bool)0);
   }
@@ -9214,17 +9214,17 @@ static void CommandHelp(signed int argc, char **argv)
   {
     iterator.current = CommandsList->head;
     iterator.list = CommandsList;
-    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$2)
+    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_2)
     {
-      struct Command_t *CommandHelp$$1$$2$$1$$1$$commands = (struct Command_t *)iterator.current->data;
+      struct Command_t *CommandHelp__1__2__1__1__commands = (struct Command_t *)iterator.current->data;
       i = 0;
-      for( ; !((CommandHelp$$1$$2$$1$$1$$commands + (signed long int)i)->command == ((char *)NULL)); i = i + 1)
-        CommandPrintf("%12s - %s\n", (CommandHelp$$1$$2$$1$$1$$commands + (signed long int)i)->command, (CommandHelp$$1$$2$$1$$1$$commands + (signed long int)i)->shortHelp);
+      for( ; !((CommandHelp__1__2__1__1__commands + (signed long int)i)->command == ((char *)NULL)); i = i + 1)
+        CommandPrintf("%12s - %s\n", (CommandHelp__1__2__1__1__commands + (signed long int)i)->command, (CommandHelp__1__2__1__1__commands + (signed long int)i)->shortHelp);
       if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$2 = iterator.current->next;
+        tmp_if_expr_2 = iterator.current->next;
 
       else
-        tmp_if_expr$2 = (struct ListEntry_s *)(void *)0;
+        tmp_if_expr_2 = (struct ListEntry_s *)(void *)0;
     }
     if(!(context->commands == ((struct Command_t *)NULL)))
     {
@@ -9271,7 +9271,7 @@ void CommandInstallEPG(void)
 void CommandInstallInfo(void)
 {
   CommandRegisterCommands(CommandDetailsInfo);
-  StartTime$link1=time((signed long int *)(void *)0);
+  StartTime_link1=time((signed long int *)(void *)0);
 }
 
 // CommandInstallScanning
@@ -9324,52 +9324,52 @@ void CommandInstallScanning(void)
   }
   while((_Bool)0);
   ev_async_start(loop, &scanStartAsync);
-  _Bool return_value_MainIsDVB$3;
-  return_value_MainIsDVB$3=MainIsDVB();
-  if(!(return_value_MainIsDVB$3 == (_Bool)0))
+  _Bool return_value_MainIsDVB_3;
+  return_value_MainIsDVB_3=MainIsDVB();
+  if(!(return_value_MainIsDVB_3 == (_Bool)0))
   {
-    struct Event_s *return_value_EventsFindEvent$1;
-    return_value_EventsFindEvent$1=EventsFindEvent("DVB.SDT");
-    EventsRegisterEventListener(return_value_EventsFindEvent$1, SDTEventListener, (void *)0);
-    struct Event_s *return_value_EventsFindEvent$2;
-    return_value_EventsFindEvent$2=EventsFindEvent("DVB.NIT");
-    EventsRegisterEventListener(return_value_EventsFindEvent$2, NITEventListener, (void *)0);
+    struct Event_s *return_value_EventsFindEvent_1;
+    return_value_EventsFindEvent_1=EventsFindEvent("DVB.SDT");
+    EventsRegisterEventListener(return_value_EventsFindEvent_1, SDTEventListener, (void *)0);
+    struct Event_s *return_value_EventsFindEvent_2;
+    return_value_EventsFindEvent_2=EventsFindEvent("DVB.NIT");
+    EventsRegisterEventListener(return_value_EventsFindEvent_2, NITEventListener, (void *)0);
   }
 
-  _Bool return_value_MainIsATSC$5;
-  return_value_MainIsATSC$5=MainIsATSC();
-  if(!(return_value_MainIsATSC$5 == (_Bool)0))
+  _Bool return_value_MainIsATSC_5;
+  return_value_MainIsATSC_5=MainIsATSC();
+  if(!(return_value_MainIsATSC_5 == (_Bool)0))
   {
-    struct Event_s *return_value_EventsFindEvent$4;
-    return_value_EventsFindEvent$4=EventsFindEvent("ATSC.VCT");
-    EventsRegisterEventListener(return_value_EventsFindEvent$4, VCTEventListener, (void *)0);
+    struct Event_s *return_value_EventsFindEvent_4;
+    return_value_EventsFindEvent_4=EventsFindEvent("ATSC.VCT");
+    EventsRegisterEventListener(return_value_EventsFindEvent_4, VCTEventListener, (void *)0);
   }
 
-  struct Event_s *return_value_EventsFindEvent$6;
-  return_value_EventsFindEvent$6=EventsFindEvent("MPEG2.PAT");
-  EventsRegisterEventListener(return_value_EventsFindEvent$6, PATEventListener, (void *)0);
-  struct Event_s *return_value_EventsFindEvent$7;
-  return_value_EventsFindEvent$7=EventsFindEvent("MPEG2.PMT");
-  EventsRegisterEventListener(return_value_EventsFindEvent$7, PMTEventListener, (void *)0);
+  struct Event_s *return_value_EventsFindEvent_6;
+  return_value_EventsFindEvent_6=EventsFindEvent("MPEG2.PAT");
+  EventsRegisterEventListener(return_value_EventsFindEvent_6, PATEventListener, (void *)0);
+  struct Event_s *return_value_EventsFindEvent_7;
+  return_value_EventsFindEvent_7=EventsFindEvent("MPEG2.PMT");
+  EventsRegisterEventListener(return_value_EventsFindEvent_7, PMTEventListener, (void *)0);
   LogModule(3, SCANNING, "Finding fe locked event.\n");
   feLockedEvent=EventsFindEvent("DVBAdapter.Locked");
   EventsRegisterEventListener(feLockedEvent, FELockedEventListener, (void *)0);
-  PropertiesAddProperty(propertyParent$link1, "inprogress", "Whether an scan is currently in progress", (enum PropertyType_e)PropertyType_Boolean, (void *)0, ScanningInProgressGet, (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
-  PropertiesAddProperty(propertyParent$link1, "state", "Get the current state id of the scanning state machine.", (enum PropertyType_e)PropertyType_Int, (void *)&currentScanState, (1 & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, (1 & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
-  PropertiesAddProperty(propertyParent$link1, "position", "Get the current position within the list of frequencies to scan.", (enum PropertyType_e)PropertyType_Int, (void *)&toScan.pos, (1 & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, (1 & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
-  PropertiesAddProperty(propertyParent$link1, "total", "Get the total number of frequencies to scan.", (enum PropertyType_e)PropertyType_Int, (void *)&toScan.count, (1 & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, (1 & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
-  PropertiesAddProperty(propertyParent$link1, "removefailed", "Whether frequencies currently in the database that fail to lock should be removed.", (enum PropertyType_e)PropertyType_Boolean, (void *)&removeFailedFreqs, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
-  sprintf(propertyName, "%s.locktimeout", (const void *)propertyParent$link1);
+  PropertiesAddProperty(propertyParent_link1, "inprogress", "Whether an scan is currently in progress", (enum PropertyType_e)PropertyType_Boolean, (void *)0, ScanningInProgressGet, (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
+  PropertiesAddProperty(propertyParent_link1, "state", "Get the current state id of the scanning state machine.", (enum PropertyType_e)PropertyType_Int, (void *)&currentScanState, (1 & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, (1 & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
+  PropertiesAddProperty(propertyParent_link1, "position", "Get the current position within the list of frequencies to scan.", (enum PropertyType_e)PropertyType_Int, (void *)&toScan.pos, (1 & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, (1 & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
+  PropertiesAddProperty(propertyParent_link1, "total", "Get the total number of frequencies to scan.", (enum PropertyType_e)PropertyType_Int, (void *)&toScan.count, (1 & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, (1 & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
+  PropertiesAddProperty(propertyParent_link1, "removefailed", "Whether frequencies currently in the database that fail to lock should be removed.", (enum PropertyType_e)PropertyType_Boolean, (void *)&removeFailedFreqs, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
+  sprintf(propertyName, "%s.locktimeout", (const void *)propertyParent_link1);
   PropertiesAddProperty(propertyName, "terrestrial", "Number of seconds to wait for the frontent to lock (DVB-T and ATSC).", (enum PropertyType_e)PropertyType_Int, (void *)&lockTimeoutT, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
   PropertiesAddProperty(propertyName, "satellite", "Number of seconds to wait for the frontent to lock (DVB-S/S2).", (enum PropertyType_e)PropertyType_Int, (void *)&lockTimeoutS, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
   PropertiesAddProperty(propertyName, "satellite", "Number of seconds to wait for the frontent to lock (DVB-C).", (enum PropertyType_e)PropertyType_Int, (void *)&lockTimeoutC, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
-  PropertiesAddProperty(propertyParent$link1, "tablestimeout", "Number of seconds to wait for the required tables.", (enum PropertyType_e)PropertyType_Int, (void *)&tablesTimeout, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
-  sprintf(propertyName, "%s.dvb.t", (const void *)propertyParent$link1);
+  PropertiesAddProperty(propertyParent_link1, "tablestimeout", "Number of seconds to wait for the required tables.", (enum PropertyType_e)PropertyType_Int, (void *)&tablesTimeout, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
+  sprintf(propertyName, "%s.dvb.t", (const void *)propertyParent_link1);
   PropertiesAddProperty(propertyName, "scanvhf", "Whether VHF channels should be scanned when doing a full spectrum scan", (enum PropertyType_e)PropertyType_Boolean, (void *)&DVBTScanVHF, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
   PropertiesAddProperty(propertyName, "scanuhf", "Whether UHF channels should be scanned when doing a full spectrum scan", (enum PropertyType_e)PropertyType_Boolean, (void *)&DVBTScanUHF, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
-  sprintf(propertyName, "%s.dvb.s", (const void *)propertyParent$link1);
+  sprintf(propertyName, "%s.dvb.s", (const void *)propertyParent_link1);
   PropertiesAddProperty(propertyName, "scansatnumber", "The switch position/satellite number to scan.", (enum PropertyType_e)PropertyType_Int, (void *)&DVBSSatNumber, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
-  sprintf(propertyName, "%s.atsc", (const void *)propertyParent$link1);
+  sprintf(propertyName, "%s.atsc", (const void *)propertyParent_link1);
   PropertiesAddProperty(propertyName, "scanota", "Whether OTA ATSC signals should be scanned for.", (enum PropertyType_e)PropertyType_Boolean, (void *)&ATSCScanOTA, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
   PropertiesAddProperty(propertyName, "scancable", "Whether ATSC cable signals should be scanned for.", (enum PropertyType_e)PropertyType_Boolean, (void *)&ATSCScanOTA, ((1 | 2) & 1) != 0 ? PropertiesSimplePropertyGet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0, ((1 | 2) & 2) != 0 ? PropertiesSimplePropertySet : (signed int (*)(void *, struct PropertyValue_s *))(void *)0);
   CommandRegisterCommands(CommandDetailsScanning);
@@ -9414,11 +9414,11 @@ static void CommandListMuxes(signed int argc, char **argv)
   struct MultiplexList_s *list;
   struct Multiplex_s *multiplex = (struct Multiplex_s *)(void *)0;
   _Bool ids = (_Bool)0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(argc == 1)
   {
-    return_value_strcmp$1=strcmp(argv[(signed long int)0], "-id");
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(argv[(signed long int)0], "-id");
+    if(return_value_strcmp_1 == 0)
       ids = (_Bool)1;
 
   }
@@ -9443,7 +9443,7 @@ static void CommandListPids(signed int argc, char **argv)
 {
   struct Service_t *service;
   service=ServiceFind(argv[(signed long int)0]);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(service == ((struct Service_t *)NULL)))
   {
     _Bool cached = (_Bool)1;
@@ -9452,8 +9452,8 @@ static void CommandListPids(signed int argc, char **argv)
     _Bool numericOutput = (_Bool)0;
     if(argc == 2)
     {
-      return_value_strcmp$1=strcmp(argv[(signed long int)1], "-n");
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(argv[(signed long int)1], "-n");
+      if(return_value_strcmp_1 == 0)
         numericOutput = (_Bool)1;
 
     }
@@ -9480,9 +9480,9 @@ static void CommandListPids(signed int argc, char **argv)
 
         else
         {
-          char *return_value_GetStreamTypeString$2;
-          return_value_GetStreamTypeString$2=GetStreamTypeString(info->streamInfoList->streams[(signed long int)i].type);
-          CommandPrintf("%4d: { type: \"%s\" }\n", info->streamInfoList->streams[(signed long int)i].pid, return_value_GetStreamTypeString$2);
+          char *return_value_GetStreamTypeString_2;
+          return_value_GetStreamTypeString_2=GetStreamTypeString(info->streamInfoList->streams[(signed long int)i].type);
+          CommandPrintf("%4d: { type: \"%s\" }\n", info->streamInfoList->streams[(signed long int)i].pid, return_value_GetStreamTypeString_2);
         }
       }
       if(pcrPresent == (_Bool)0)
@@ -9530,9 +9530,9 @@ static void CommandListProperties(signed int argc, char **argv)
   i = 0;
   for( ; !(i >= argc); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp("-l", argv[(signed long int)i]);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp("-l", argv[(signed long int)i]);
+    if(return_value_strcmp_1 == 0)
       list = (_Bool)1;
 
     else
@@ -9540,9 +9540,9 @@ static void CommandListProperties(signed int argc, char **argv)
         path = argv[(signed long int)i];
 
   }
-  signed int return_value_PropertiesEnumerate$2;
-  return_value_PropertiesEnumerate$2=PropertiesEnumerate(path, &pos);
-  if(return_value_PropertiesEnumerate$2 == 0)
+  signed int return_value_PropertiesEnumerate_2;
+  return_value_PropertiesEnumerate_2=PropertiesEnumerate(path, &pos);
+  if(return_value_PropertiesEnumerate_2 == 0)
   {
     if(!(pos == NULL))
       while(!(pos == NULL))
@@ -9573,10 +9573,10 @@ static void CommandListProperties(signed int argc, char **argv)
   else
     do
     {
-      struct CommandContext_t *CommandListProperties$$1$$3$$1$$context;
-      CommandListProperties$$1$$3$$1$$context=CommandContextGet();
-      CommandListProperties$$1$$3$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandListProperties$$1$$3$$1$$context->errorMessage, (unsigned long int)256, "Couldn't find property \"%s\"", path);
+      struct CommandContext_t *CommandListProperties__1__3__1__context;
+      CommandListProperties__1__3__1__context=CommandContextGet();
+      CommandListProperties__1__3__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandListProperties__1__3__1__context->errorMessage, (unsigned long int)256, "Couldn't find property \"%s\"", path);
     }
     while((_Bool)0);
 }
@@ -9591,22 +9591,22 @@ static void CommandListSF(signed int argc, char **argv)
   _Bool fullListing = (_Bool)0;
   if(argc == 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp("-l", argv[(signed long int)0]);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp("-l", argv[(signed long int)0]);
+    if(return_value_strcmp_1 == 0)
       fullListing = (_Bool)1;
 
   }
 
   iterator.current = reader->groups->head;
   iterator.list = reader->groups;
-  struct ListEntry_s *tmp_if_expr$2;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$2)
+  struct ListEntry_s *tmp_if_expr_2;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_2)
   {
     struct TSFilterGroup_t *group = (struct TSFilterGroup_t *)iterator.current->data;
-    signed int return_value_strcmp$4;
-    return_value_strcmp$4=strcmp(group->type, ServiceFilterGroupType);
-    if(return_value_strcmp$4 == 0)
+    signed int return_value_strcmp_4;
+    return_value_strcmp_4=strcmp(group->type, ServiceFilterGroupType);
+    if(return_value_strcmp_4 == 0)
     {
       struct ServiceFilter_s *filter = (struct ServiceFilter_s *)group->userArg;
       char *name;
@@ -9621,9 +9621,9 @@ static void CommandListSF(signed int argc, char **argv)
 
         struct DeliveryMethodInstance_t *dmInstance;
         dmInstance=ServiceFilterDeliveryMethodGet(filter);
-        char *return_value_DeliveryMethodGetMRL$3;
-        return_value_DeliveryMethodGetMRL$3=DeliveryMethodGetMRL(dmInstance);
-        CommandPrintf("%-10s : { mrl: \"%s\", service: { %s } }\n", name, return_value_DeliveryMethodGetMRL$3, serviceIdName != ((char *)NULL) ? serviceIdName : "");
+        char *return_value_DeliveryMethodGetMRL_3;
+        return_value_DeliveryMethodGetMRL_3=DeliveryMethodGetMRL(dmInstance);
+        CommandPrintf("%-10s : { mrl: \"%s\", service: { %s } }\n", name, return_value_DeliveryMethodGetMRL_3, serviceIdName != ((char *)NULL) ? serviceIdName : "");
         if(!(serviceIdName == ((char *)NULL)))
           free((void *)serviceIdName);
 
@@ -9634,10 +9634,10 @@ static void CommandListSF(signed int argc, char **argv)
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$2 = iterator.current->next;
+      tmp_if_expr_2 = iterator.current->next;
 
     else
-      tmp_if_expr$2 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_2 = (struct ListEntry_s *)(void *)0;
   }
 }
 
@@ -9657,27 +9657,27 @@ static void CommandListServices(signed int argc, char **argv)
   char *providerStr = "provider=";
   UpdateDatabase();
   i = 0;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  unsigned long int return_value_strlen$2;
-  signed int return_value_strncmp$3;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  unsigned long int return_value_strlen_2;
+  signed int return_value_strncmp_3;
   for( ; !(i >= argc); i = i + 1)
   {
-    signed int return_value_strcmp$12;
-    return_value_strcmp$12=strcmp(argv[(signed long int)i], "-id");
-    if(return_value_strcmp$12 == 0)
+    signed int return_value_strcmp_12;
+    return_value_strcmp_12=strcmp(argv[(signed long int)i], "-id");
+    if(return_value_strcmp_12 == 0)
       dvbIds = (_Bool)1;
 
     else
     {
-      return_value_strcmp$11=strcmp(argv[(signed long int)i], "-q");
-      if(return_value_strcmp$11 == 0)
+      return_value_strcmp_11=strcmp(argv[(signed long int)i], "-q");
+      if(return_value_strcmp_11 == 0)
       {
         if(!(multiplex == ((struct Multiplex_s *)NULL)))
         {
@@ -9696,10 +9696,10 @@ static void CommandListServices(signed int argc, char **argv)
         {
           do
           {
-            struct CommandContext_t *CommandListServices$$1$$1$$1$$2$$2$$1$$context;
-            CommandListServices$$1$$1$$1$$2$$2$$1$$context=CommandContextGet();
-            CommandListServices$$1$$1$$1$$2$$2$$1$$context->errorNumber = (unsigned short int)0xffff;
-            snprintf(CommandListServices$$1$$1$$1$$2$$2$$1$$context->errorMessage, (unsigned long int)256, "Missing query string");
+            struct CommandContext_t *CommandListServices__1__1__1__2__2__1__context;
+            CommandListServices__1__1__1__2__2__1__context=CommandContextGet();
+            CommandListServices__1__1__1__2__2__1__context->errorNumber = (unsigned short int)0xffff;
+            snprintf(CommandListServices__1__1__1__2__2__1__context->errorMessage, (unsigned long int)256, "Missing query string");
           }
           while((_Bool)0);
           goto __CPROVER_DUMP_L41;
@@ -9711,17 +9711,17 @@ static void CommandListServices(signed int argc, char **argv)
 
       else
       {
-        return_value_strcmp$10=strcmp(argv[(signed long int)i], "mux");
-        if(return_value_strcmp$10 == 0)
+        return_value_strcmp_10=strcmp(argv[(signed long int)i], "mux");
+        if(return_value_strcmp_10 == 0)
         {
           if(!(query == ((char *)NULL)))
           {
             do
             {
-              struct CommandContext_t *CommandListServices$$1$$1$$1$$3$$1$$1$$context;
-              CommandListServices$$1$$1$$1$$3$$1$$1$$context=CommandContextGet();
-              CommandListServices$$1$$1$$1$$3$$1$$1$$context->errorNumber = (unsigned short int)0xffff;
-              snprintf(CommandListServices$$1$$1$$1$$3$$1$$1$$context->errorMessage, (unsigned long int)256, "Cannot specify a multiplex and a query string!");
+              struct CommandContext_t *CommandListServices__1__1__1__3__1__1__context;
+              CommandListServices__1__1__1__3__1__1__context=CommandContextGet();
+              CommandListServices__1__1__1__3__1__1__context->errorNumber = (unsigned short int)0xffff;
+              snprintf(CommandListServices__1__1__1__3__1__1__context->errorMessage, (unsigned long int)256, "Cannot specify a multiplex and a query string!");
             }
             while((_Bool)0);
             goto __CPROVER_DUMP_L41;
@@ -9739,10 +9739,10 @@ static void CommandListServices(signed int argc, char **argv)
           {
             do
             {
-              struct CommandContext_t *CommandListServices$$1$$1$$1$$3$$3$$1$$context;
-              CommandListServices$$1$$1$$1$$3$$3$$1$$context=CommandContextGet();
-              CommandListServices$$1$$1$$1$$3$$3$$1$$context->errorNumber = (unsigned short int)0xffff;
-              snprintf(CommandListServices$$1$$1$$1$$3$$3$$1$$context->errorMessage, (unsigned long int)256, "No multiplex currently selected!");
+              struct CommandContext_t *CommandListServices__1__1__1__3__3__1__context;
+              CommandListServices__1__1__1__3__3__1__context=CommandContextGet();
+              CommandListServices__1__1__1__3__3__1__context->errorNumber = (unsigned short int)0xffff;
+              snprintf(CommandListServices__1__1__1__3__3__1__context->errorMessage, (unsigned long int)256, "No multiplex currently selected!");
             }
             while((_Bool)0);
             goto __CPROVER_DUMP_L41;
@@ -9752,49 +9752,49 @@ static void CommandListServices(signed int argc, char **argv)
 
         else
         {
-          return_value_strcmp$9=strcmp(argv[(signed long int)i], "tv");
-          if(return_value_strcmp$9 == 0)
+          return_value_strcmp_9=strcmp(argv[(signed long int)i], "tv");
+          if(return_value_strcmp_9 == 0)
             filterByType = filterByType | (unsigned int)1;
 
           else
           {
-            return_value_strcmp$8=strcmp(argv[(signed long int)i], "radio");
-            if(return_value_strcmp$8 == 0)
+            return_value_strcmp_8=strcmp(argv[(signed long int)i], "radio");
+            if(return_value_strcmp_8 == 0)
               filterByType = filterByType | (unsigned int)2;
 
             else
             {
-              return_value_strcmp$7=strcmp(argv[(signed long int)i], "data");
-              if(return_value_strcmp$7 == 0)
+              return_value_strcmp_7=strcmp(argv[(signed long int)i], "data");
+              if(return_value_strcmp_7 == 0)
                 filterByType = filterByType | (unsigned int)4;
 
               else
               {
-                return_value_strcmp$6=strcmp(argv[(signed long int)i], "unknown");
-                if(return_value_strcmp$6 == 0)
+                return_value_strcmp_6=strcmp(argv[(signed long int)i], "unknown");
+                if(return_value_strcmp_6 == 0)
                   filterByType = filterByType | (unsigned int)8;
 
                 else
                 {
-                  return_value_strcmp$5=strcmp(argv[(signed long int)i], "fta");
-                  if(return_value_strcmp$5 == 0)
+                  return_value_strcmp_5=strcmp(argv[(signed long int)i], "fta");
+                  if(return_value_strcmp_5 == 0)
                     filterByAccess = filterByAccess | (unsigned int)1;
 
                   else
                   {
-                    return_value_strcmp$4=strcmp(argv[(signed long int)i], "ca");
-                    if(return_value_strcmp$4 == 0)
+                    return_value_strcmp_4=strcmp(argv[(signed long int)i], "ca");
+                    if(return_value_strcmp_4 == 0)
                       filterByAccess = filterByAccess | (unsigned int)2;
 
                     else
                     {
-                      return_value_strlen$2=strlen(providerStr);
-                      return_value_strncmp$3=strncmp(argv[(signed long int)i], providerStr, return_value_strlen$2);
-                      if(return_value_strncmp$3 == 0)
+                      return_value_strlen_2=strlen(providerStr);
+                      return_value_strncmp_3=strncmp(argv[(signed long int)i], providerStr, return_value_strlen_2);
+                      if(return_value_strncmp_3 == 0)
                       {
-                        unsigned long int return_value_strlen$1;
-                        return_value_strlen$1=strlen(providerStr);
-                        provider = argv[(signed long int)i] + (signed long int)return_value_strlen$1;
+                        unsigned long int return_value_strlen_1;
+                        return_value_strlen_1=strlen(providerStr);
+                        provider = argv[(signed long int)i] + (signed long int)return_value_strlen_1;
                       }
 
                       else
@@ -9811,10 +9811,10 @@ static void CommandListServices(signed int argc, char **argv)
                         {
                           do
                           {
-                            struct CommandContext_t *CommandListServices$$1$$1$$1$$11$$2$$1$$context;
-                            CommandListServices$$1$$1$$1$$11$$2$$1$$context=CommandContextGet();
-                            CommandListServices$$1$$1$$1$$11$$2$$1$$context->errorNumber = (unsigned short int)0xffff;
-                            snprintf(CommandListServices$$1$$1$$1$$11$$2$$1$$context->errorMessage, (unsigned long int)256, "Failed to find multiplex \"%s\"\n", argv[(signed long int)i]);
+                            struct CommandContext_t *CommandListServices__1__1__1__11__2__1__context;
+                            CommandListServices__1__1__1__11__2__1__context=CommandContextGet();
+                            CommandListServices__1__1__1__11__2__1__context->errorNumber = (unsigned short int)0xffff;
+                            snprintf(CommandListServices__1__1__1__11__2__1__context->errorMessage, (unsigned long int)256, "Failed to find multiplex \"%s\"\n", argv[(signed long int)i]);
                           }
                           while((_Bool)0);
                           goto __CPROVER_DUMP_L41;
@@ -9847,18 +9847,18 @@ static void CommandListServices(signed int argc, char **argv)
 
     else
       list=ServiceListAll();
-  struct ListEntry_s *tmp_if_expr$13;
+  struct ListEntry_s *tmp_if_expr_13;
   if(!(list == ((struct List_s *)NULL)))
   {
     struct ListIterator_s iterator;
     iterator.current = list->head;
     iterator.list = list;
-    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$13)
+    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_13)
     {
       service = (struct Service_t *)iterator.current->data;
-      _Bool return_value_FilterService$14;
-      return_value_FilterService$14=FilterService(service, filterByType, filterByAccess, provider);
-      if(!(return_value_FilterService$14 == (_Bool)0))
+      _Bool return_value_FilterService_14;
+      return_value_FilterService_14=FilterService(service, filterByType, filterByAccess, provider);
+      if(!(return_value_FilterService_14 == (_Bool)0))
       {
         if(!(dvbIds == (_Bool)0))
         {
@@ -9873,10 +9873,10 @@ static void CommandListServices(signed int argc, char **argv)
       }
 
       if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$13 = iterator.current->next;
+        tmp_if_expr_13 = iterator.current->next;
 
       else
-        tmp_if_expr$13 = (struct ListEntry_s *)(void *)0;
+        tmp_if_expr_13 = (struct ListEntry_s *)(void *)0;
     }
     ListFree(list, ListFreeObject);
   }
@@ -9976,7 +9976,7 @@ signed int CommandProcessFile(char *file)
   char line[256l];
   char *nl;
   fp=fopen(file, "r");
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   if(fp == ((struct _IO_FILE *)NULL))
     return 1;
 
@@ -9985,16 +9985,16 @@ signed int CommandProcessFile(char *file)
     quit = (_Bool)0;
     do
     {
-      return_value_feof$1=feof(fp);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(fp);
+      if(!(return_value_feof_1 == 0))
         break;
 
       if(quit != (_Bool)0)
         break;
 
-      char *return_value_fgets$3;
-      return_value_fgets$3=fgets(line, (signed int)sizeof(char [256l]) /*256ul*/ , fp);
-      if(!(return_value_fgets$3 == ((char *)NULL)))
+      char *return_value_fgets_3;
+      return_value_fgets_3=fgets(line, (signed int)sizeof(char [256l]) /*256ul*/ , fp);
+      if(!(return_value_fgets_3 == ((char *)NULL)))
       {
         nl=strchr(line, 10);
         if(!(nl == ((char *)NULL)))
@@ -10005,9 +10005,9 @@ signed int CommandProcessFile(char *file)
           *nl = (char)0;
 
         lineno = lineno + 1;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(line);
-        if(return_value_strlen$2 >= 1ul)
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(line);
+        if(return_value_strlen_2 >= 1ul)
         {
           CommandExecute(&ConsoleCommandContext, line);
           if(!((signed int)ConsoleCommandContext.errorNumber == 0x0000))
@@ -10035,13 +10035,13 @@ signed int CommandProcessFile(char *file)
 static void CommandPropertyInfo(signed int argc, char **argv)
 {
   struct PropertyInfo_s propInfo;
-  signed int return_value_PropertiesGetInfo$2;
-  return_value_PropertiesGetInfo$2=PropertiesGetInfo(argv[(signed long int)0], &propInfo);
-  if(return_value_PropertiesGetInfo$2 == 0)
+  signed int return_value_PropertiesGetInfo_2;
+  return_value_PropertiesGetInfo_2=PropertiesGetInfo(argv[(signed long int)0], &propInfo);
+  if(return_value_PropertiesGetInfo_2 == 0)
   {
-    char *return_value_GetPropertyTypeString$1;
-    return_value_GetPropertyTypeString$1=GetPropertyTypeString(propInfo.type);
-    CommandPrintf("Type         : %s\n", return_value_GetPropertyTypeString$1);
+    char *return_value_GetPropertyTypeString_1;
+    return_value_GetPropertyTypeString_1=GetPropertyTypeString(propInfo.type);
+    CommandPrintf("Type         : %s\n", return_value_GetPropertyTypeString_1);
     CommandPrintf("Readable     : %s\n", (signed int)propInfo.readable == 1 ? "Yes" : "No");
     CommandPrintf("Writeable    : %s\n", (signed int)propInfo.writeable == 1 ? "Yes" : "No");
     CommandPrintf("Has Children : %s\n", (signed int)propInfo.hasChildren == 1 ? "Yes" : "No");
@@ -10068,10 +10068,10 @@ static void CommandQuit(signed int argc, char **argv)
   if(!(context->remote == (_Bool)0))
     do
     {
-      struct CommandContext_t *CommandQuit$$1$$1$$1$$context;
-      CommandQuit$$1$$1$$1$$context=CommandContextGet();
-      CommandQuit$$1$$1$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandQuit$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Only console sessions can do that!");
+      struct CommandContext_t *CommandQuit__1__1__1__context;
+      CommandQuit__1__1__1__context=CommandContextGet();
+      CommandQuit__1__1__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandQuit__1__1__1__context->errorMessage, (unsigned long int)256, "Only console sessions can do that!");
     }
     while((_Bool)0);
 
@@ -10101,10 +10101,10 @@ static void CommandRemoveSF(signed int argc, char **argv)
     {
       do
       {
-        struct CommandContext_t *CommandRemoveSF$$1$$1$$1$$1$$context;
-        CommandRemoveSF$$1$$1$$1$$1$$context=CommandContextGet();
-        CommandRemoveSF$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0004;
-        snprintf(CommandRemoveSF$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Not authenticated!");
+        struct CommandContext_t *CommandRemoveSF__1__1__1__1__context;
+        CommandRemoveSF__1__1__1__1__context=CommandContextGet();
+        CommandRemoveSF__1__1__1__1__context->errorNumber = (unsigned short int)0x0004;
+        snprintf(CommandRemoveSF__1__1__1__1__context->errorMessage, (unsigned long int)256, "Not authenticated!");
       }
       while((_Bool)0);
       goto __CPROVER_DUMP_L8;
@@ -10112,15 +10112,15 @@ static void CommandRemoveSF(signed int argc, char **argv)
 
   }
   while((_Bool)0);
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(argv[(signed long int)0], PrimaryService);
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(argv[(signed long int)0], PrimaryService);
+  if(return_value_strcmp_1 == 0)
     do
     {
-      struct CommandContext_t *CommandRemoveSF$$1$$2$$1$$context;
-      CommandRemoveSF$$1$$2$$1$$context=CommandContextGet();
-      CommandRemoveSF$$1$$2$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandRemoveSF$$1$$2$$1$$context->errorMessage, (unsigned long int)256, "You cannot remove the primary service!");
+      struct CommandContext_t *CommandRemoveSF__1__2__1__context;
+      CommandRemoveSF__1__2__1__context=CommandContextGet();
+      CommandRemoveSF__1__2__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandRemoveSF__1__2__1__context->errorMessage, (unsigned long int)256, "You cannot remove the primary service!");
     }
     while((_Bool)0);
 
@@ -10132,10 +10132,10 @@ static void CommandRemoveSF(signed int argc, char **argv)
     if(filter == ((struct ServiceFilter_s *)NULL))
       do
       {
-        struct CommandContext_t *CommandRemoveSF$$1$$3$$1$$1$$context;
-        CommandRemoveSF$$1$$3$$1$$1$$context=CommandContextGet();
-        CommandRemoveSF$$1$$3$$1$$1$$context->errorNumber = (unsigned short int)0xffff;
-        snprintf(CommandRemoveSF$$1$$3$$1$$1$$context->errorMessage, (unsigned long int)256, "Service filter not found!");
+        struct CommandContext_t *CommandRemoveSF__1__3__1__1__context;
+        CommandRemoveSF__1__3__1__1__context=CommandContextGet();
+        CommandRemoveSF__1__3__1__1__context->errorNumber = (unsigned short int)0xffff;
+        snprintf(CommandRemoveSF__1__3__1__1__context->errorMessage, (unsigned long int)256, "Service filter not found!");
       }
       while((_Bool)0);
 
@@ -10157,16 +10157,16 @@ static void CommandScan(signed int argc, char **argv)
   struct DVBSupportedDeliverySys_s *supportedDelSys;
   do
   {
-    struct CommandContext_t *CommandScan$$1$$1$$context;
-    CommandScan$$1$$1$$context=CommandContextGet();
-    if(CommandScan$$1$$1$$context->authenticated == (_Bool)0)
+    struct CommandContext_t *CommandScan__1__1__context;
+    CommandScan__1__1__context=CommandContextGet();
+    if(CommandScan__1__1__context->authenticated == (_Bool)0)
     {
       do
       {
-        struct CommandContext_t *CommandScan$$1$$1$$1$$1$$context;
-        CommandScan$$1$$1$$1$$1$$context=CommandContextGet();
-        CommandScan$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0004;
-        snprintf(CommandScan$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Not authenticated!");
+        struct CommandContext_t *CommandScan__1__1__1__1__context;
+        CommandScan__1__1__1__1__context=CommandContextGet();
+        CommandScan__1__1__1__1__context->errorNumber = (unsigned short int)0x0004;
+        snprintf(CommandScan__1__1__1__1__context->errorMessage, (unsigned long int)256, "Not authenticated!");
       }
       while((_Bool)0);
       goto __CPROVER_DUMP_L23;
@@ -10175,23 +10175,23 @@ static void CommandScan(signed int argc, char **argv)
   }
   while((_Bool)0);
   pthread_mutex_lock(&scanningmutex);
-  _Bool return_value_TuningCurrentServiceIsLocked$4;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
+  _Bool return_value_TuningCurrentServiceIsLocked_4;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
   if(!((signed int)currentScanState == ScanState_Stopped))
     do
     {
-      struct CommandContext_t *CommandScan$$1$$2$$1$$context;
-      CommandScan$$1$$2$$1$$context=CommandContextGet();
-      CommandScan$$1$$2$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandScan$$1$$2$$1$$context->errorMessage, (unsigned long int)256, "Scan in progress!");
+      struct CommandContext_t *CommandScan__1__2__1__context;
+      CommandScan__1__2__1__context=CommandContextGet();
+      CommandScan__1__2__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandScan__1__2__1__context->errorMessage, (unsigned long int)256, "Scan in progress!");
     }
     while((_Bool)0);
 
   else
   {
-    return_value_TuningCurrentServiceIsLocked$4=TuningCurrentServiceIsLocked();
-    if(!(return_value_TuningCurrentServiceIsLocked$4 == (_Bool)0))
+    return_value_TuningCurrentServiceIsLocked_4=TuningCurrentServiceIsLocked();
+    if(!(return_value_TuningCurrentServiceIsLocked_4 == (_Bool)0))
       do
       {
         struct CommandContext_t *context;
@@ -10203,15 +10203,15 @@ static void CommandScan(signed int argc, char **argv)
 
     else
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(argv[(signed long int)0], "all");
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(argv[(signed long int)0], "all");
+      if(return_value_strcmp_3 == 0)
         ScanCurrentMultiplexes();
 
       else
       {
-        return_value_strcmp$2=strcmp(argv[(signed long int)0], "full");
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(argv[(signed long int)0], "full");
+        if(return_value_strcmp_2 == 0)
         {
           adapter=MainDVBAdapterGet();
           supportedDelSys=DVBFrontEndGetDeliverySystems(adapter);
@@ -10237,10 +10237,10 @@ static void CommandScan(signed int argc, char **argv)
               default:
                 do
                 {
-                  struct CommandContext_t *CommandScan$$1$$4$$2$$1$$1$$1$$1$$context;
-                  CommandScan$$1$$4$$2$$1$$1$$1$$1$$context=CommandContextGet();
-                  CommandScan$$1$$4$$2$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0xffff;
-                  snprintf(CommandScan$$1$$4$$2$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Frontend type doesn't support a full spectrum scan mode!");
+                  struct CommandContext_t *CommandScan__1__4__2__1__1__1__1__context;
+                  CommandScan__1__4__2__1__1__1__1__context=CommandContextGet();
+                  CommandScan__1__4__2__1__1__1__1__context->errorNumber = (unsigned short int)0xffff;
+                  snprintf(CommandScan__1__4__2__1__1__1__1__context->errorMessage, (unsigned long int)256, "Frontend type doesn't support a full spectrum scan mode!");
                 }
                 while((_Bool)0);
             }
@@ -10249,8 +10249,8 @@ static void CommandScan(signed int argc, char **argv)
 
         else
         {
-          return_value_strcmp$1=strcmp(argv[(signed long int)0], "net");
-          if(return_value_strcmp$1 == 0)
+          return_value_strcmp_1=strcmp(argv[(signed long int)0], "net");
+          if(return_value_strcmp_1 == 0)
           {
             if(argc == 2)
               ScanNetwork(argv[(signed long int)1]);
@@ -10258,10 +10258,10 @@ static void CommandScan(signed int argc, char **argv)
             else
               do
               {
-                struct CommandContext_t *CommandScan$$1$$4$$3$$2$$1$$context;
-                CommandScan$$1$$4$$3$$2$$1$$context=CommandContextGet();
-                CommandScan$$1$$4$$3$$2$$1$$context->errorNumber = (unsigned short int)0x0003;
-                snprintf(CommandScan$$1$$4$$3$$2$$1$$context->errorMessage, (unsigned long int)256, "Expected quoted initial tuning data!");
+                struct CommandContext_t *CommandScan__1__4__3__2__1__context;
+                CommandScan__1__4__3__2__1__context=CommandContextGet();
+                CommandScan__1__4__3__2__1__context->errorNumber = (unsigned short int)0x0003;
+                snprintf(CommandScan__1__4__3__2__1__context->errorMessage, (unsigned long int)256, "Expected quoted initial tuning data!");
               }
               while((_Bool)0);
           }
@@ -10279,10 +10279,10 @@ static void CommandScan(signed int argc, char **argv)
             else
               do
               {
-                struct CommandContext_t *CommandScan$$1$$4$$4$$2$$1$$context;
-                CommandScan$$1$$4$$4$$2$$1$$context=CommandContextGet();
-                CommandScan$$1$$4$$4$$2$$1$$context->errorNumber = (unsigned short int)0xffff;
-                snprintf(CommandScan$$1$$4$$4$$2$$1$$context->errorMessage, (unsigned long int)256, "Failed to find multiplex to scan!");
+                struct CommandContext_t *CommandScan__1__4__4__2__1__context;
+                CommandScan__1__4__4__2__1__context=CommandContextGet();
+                CommandScan__1__4__4__2__1__context->errorNumber = (unsigned short int)0xffff;
+                snprintf(CommandScan__1__4__4__2__1__context->errorMessage, (unsigned long int)256, "Failed to find multiplex to scan!");
               }
               while((_Bool)0);
           }
@@ -10316,10 +10316,10 @@ static void CommandSelect(signed int argc, char **argv)
     {
       do
       {
-        struct CommandContext_t *CommandSelect$$1$$1$$1$$1$$context;
-        CommandSelect$$1$$1$$1$$1$$context=CommandContextGet();
-        CommandSelect$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0004;
-        snprintf(CommandSelect$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Not authenticated!");
+        struct CommandContext_t *CommandSelect__1__1__1__1__context;
+        CommandSelect__1__1__1__1__context=CommandContextGet();
+        CommandSelect__1__1__1__1__context->errorNumber = (unsigned short int)0x0004;
+        snprintf(CommandSelect__1__1__1__1__context->errorMessage, (unsigned long int)256, "Not authenticated!");
       }
       while((_Bool)0);
       goto __CPROVER_DUMP_L8;
@@ -10346,10 +10346,10 @@ static void CommandSelect(signed int argc, char **argv)
   else
     do
     {
-      struct CommandContext_t *CommandSelect$$1$$3$$1$$context;
-      CommandSelect$$1$$3$$1$$context=CommandContextGet();
-      CommandSelect$$1$$3$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandSelect$$1$$3$$1$$context->errorMessage, (unsigned long int)256, "Service not found!");
+      struct CommandContext_t *CommandSelect__1__3__1__context;
+      CommandSelect__1__3__1__context=CommandContextGet();
+      CommandSelect__1__3__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandSelect__1__3__1__context->errorMessage, (unsigned long int)256, "Service not found!");
     }
     while((_Bool)0);
 
@@ -10416,10 +10416,10 @@ static void CommandSetProperty(signed int argc, char **argv)
     {
       do
       {
-        struct CommandContext_t *CommandSetProperty$$1$$1$$1$$1$$context;
-        CommandSetProperty$$1$$1$$1$$1$$context=CommandContextGet();
-        CommandSetProperty$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0004;
-        snprintf(CommandSetProperty$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Not authenticated!");
+        struct CommandContext_t *CommandSetProperty__1__1__1__1__context;
+        CommandSetProperty__1__1__1__1__context=CommandContextGet();
+        CommandSetProperty__1__1__1__1__context->errorNumber = (unsigned short int)0x0004;
+        snprintf(CommandSetProperty__1__1__1__1__context->errorMessage, (unsigned long int)256, "Not authenticated!");
       }
       while((_Bool)0);
       goto __CPROVER_DUMP_L6;
@@ -10427,15 +10427,15 @@ static void CommandSetProperty(signed int argc, char **argv)
 
   }
   while((_Bool)0);
-  signed int return_value_PropertiesSetStr$1;
-  return_value_PropertiesSetStr$1=PropertiesSetStr(argv[(signed long int)0], argv[(signed long int)1]);
-  if(!(return_value_PropertiesSetStr$1 == 0))
+  signed int return_value_PropertiesSetStr_1;
+  return_value_PropertiesSetStr_1=PropertiesSetStr(argv[(signed long int)0], argv[(signed long int)1]);
+  if(!(return_value_PropertiesSetStr_1 == 0))
     do
     {
-      struct CommandContext_t *CommandSetProperty$$1$$2$$1$$context;
-      CommandSetProperty$$1$$2$$1$$context=CommandContextGet();
-      CommandSetProperty$$1$$2$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandSetProperty$$1$$2$$1$$context->errorMessage, (unsigned long int)256, "Failed to set property \"%s\"", argv[(signed long int)0]);
+      struct CommandContext_t *CommandSetProperty__1__2__1__context;
+      CommandSetProperty__1__2__1__context=CommandContextGet();
+      CommandSetProperty__1__2__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandSetProperty__1__2__1__context->errorMessage, (unsigned long int)256, "Failed to set property \"%s\"", argv[(signed long int)0]);
     }
     while((_Bool)0);
 
@@ -10457,10 +10457,10 @@ static void CommandSetSFAVSOnly(signed int argc, char **argv)
     {
       do
       {
-        struct CommandContext_t *CommandSetSFAVSOnly$$1$$1$$1$$1$$context;
-        CommandSetSFAVSOnly$$1$$1$$1$$1$$context=CommandContextGet();
-        CommandSetSFAVSOnly$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0004;
-        snprintf(CommandSetSFAVSOnly$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Not authenticated!");
+        struct CommandContext_t *CommandSetSFAVSOnly__1__1__1__1__context;
+        CommandSetSFAVSOnly__1__1__1__1__context=CommandContextGet();
+        CommandSetSFAVSOnly__1__1__1__1__context->errorNumber = (unsigned short int)0x0004;
+        snprintf(CommandSetSFAVSOnly__1__1__1__1__context->errorMessage, (unsigned long int)256, "Not authenticated!");
       }
       while((_Bool)0);
       goto __CPROVER_DUMP_L9;
@@ -10471,37 +10471,37 @@ static void CommandSetSFAVSOnly(signed int argc, char **argv)
   struct TSReader_t *reader;
   reader=MainTSReaderGet();
   filter=ServiceFilterFindFilter(reader, argv[(signed long int)0]);
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(filter == ((struct ServiceFilter_s *)NULL))
     do
     {
-      struct CommandContext_t *CommandSetSFAVSOnly$$1$$2$$1$$1$$context;
-      CommandSetSFAVSOnly$$1$$2$$1$$1$$context=CommandContextGet();
-      CommandSetSFAVSOnly$$1$$2$$1$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandSetSFAVSOnly$$1$$2$$1$$1$$context->errorMessage, (unsigned long int)256, "Service filter not found!");
+      struct CommandContext_t *CommandSetSFAVSOnly__1__2__1__1__context;
+      CommandSetSFAVSOnly__1__2__1__1__context=CommandContextGet();
+      CommandSetSFAVSOnly__1__2__1__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandSetSFAVSOnly__1__2__1__1__context->errorMessage, (unsigned long int)256, "Service filter not found!");
     }
     while((_Bool)0);
 
   else
   {
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp(argv[(signed long int)1], "on");
-    if(return_value_strcasecmp$2 == 0)
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp(argv[(signed long int)1], "on");
+    if(return_value_strcasecmp_2 == 0)
       ServiceFilterAVSOnlySet(filter, (_Bool)1);
 
     else
     {
-      return_value_strcasecmp$1=strcasecmp(argv[(signed long int)1], "off");
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(argv[(signed long int)1], "off");
+      if(return_value_strcasecmp_1 == 0)
         ServiceFilterAVSOnlySet(filter, (_Bool)0);
 
       else
         do
         {
-          struct CommandContext_t *CommandSetSFAVSOnly$$1$$5$$1$$context;
-          CommandSetSFAVSOnly$$1$$5$$1$$context=CommandContextGet();
-          CommandSetSFAVSOnly$$1$$5$$1$$context->errorNumber = (unsigned short int)0x0003;
-          snprintf(CommandSetSFAVSOnly$$1$$5$$1$$context->errorMessage, (unsigned long int)256, "Need to specify on or off.\n");
+          struct CommandContext_t *CommandSetSFAVSOnly__1__5__1__context;
+          CommandSetSFAVSOnly__1__5__1__context=CommandContextGet();
+          CommandSetSFAVSOnly__1__5__1__context->errorNumber = (unsigned short int)0x0003;
+          snprintf(CommandSetSFAVSOnly__1__5__1__context->errorMessage, (unsigned long int)256, "Need to specify on or off.\n");
         }
         while((_Bool)0);
     }
@@ -10525,10 +10525,10 @@ static void CommandSetSFMRL(signed int argc, char **argv)
     {
       do
       {
-        struct CommandContext_t *CommandSetSFMRL$$1$$1$$1$$1$$context;
-        CommandSetSFMRL$$1$$1$$1$$1$$context=CommandContextGet();
-        CommandSetSFMRL$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0004;
-        snprintf(CommandSetSFMRL$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Not authenticated!");
+        struct CommandContext_t *CommandSetSFMRL__1__1__1__1__context;
+        CommandSetSFMRL__1__1__1__1__context=CommandContextGet();
+        CommandSetSFMRL__1__1__1__1__context->errorNumber = (unsigned short int)0x0004;
+        snprintf(CommandSetSFMRL__1__1__1__1__context->errorMessage, (unsigned long int)256, "Not authenticated!");
       }
       while((_Bool)0);
       goto __CPROVER_DUMP_L8;
@@ -10542,10 +10542,10 @@ static void CommandSetSFMRL(signed int argc, char **argv)
   if(filter == ((struct ServiceFilter_s *)NULL))
     do
     {
-      struct CommandContext_t *CommandSetSFMRL$$1$$2$$1$$1$$context;
-      CommandSetSFMRL$$1$$2$$1$$1$$context=CommandContextGet();
-      CommandSetSFMRL$$1$$2$$1$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandSetSFMRL$$1$$2$$1$$1$$context->errorMessage, (unsigned long int)256, "Service filter not found!");
+      struct CommandContext_t *CommandSetSFMRL__1__2__1__1__context;
+      CommandSetSFMRL__1__2__1__1__context=CommandContextGet();
+      CommandSetSFMRL__1__2__1__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandSetSFMRL__1__2__1__1__context->errorMessage, (unsigned long int)256, "Service filter not found!");
     }
     while((_Bool)0);
 
@@ -10555,20 +10555,20 @@ static void CommandSetSFMRL(signed int argc, char **argv)
     if(!(instance == ((struct DeliveryMethodInstance_t *)NULL)))
     {
       ServiceFilterDeliveryMethodSet(filter, instance);
-      struct DeliveryMethodInstance_t *return_value_ServiceFilterDeliveryMethodGet$1;
-      return_value_ServiceFilterDeliveryMethodGet$1=ServiceFilterDeliveryMethodGet(filter);
-      char *return_value_DeliveryMethodGetMRL$2;
-      return_value_DeliveryMethodGetMRL$2=DeliveryMethodGetMRL(return_value_ServiceFilterDeliveryMethodGet$1);
-      CommandPrintf("MRL set to \"%s\" for %s\n", return_value_DeliveryMethodGetMRL$2, argv[(signed long int)0]);
+      struct DeliveryMethodInstance_t *return_value_ServiceFilterDeliveryMethodGet_1;
+      return_value_ServiceFilterDeliveryMethodGet_1=ServiceFilterDeliveryMethodGet(filter);
+      char *return_value_DeliveryMethodGetMRL_2;
+      return_value_DeliveryMethodGetMRL_2=DeliveryMethodGetMRL(return_value_ServiceFilterDeliveryMethodGet_1);
+      CommandPrintf("MRL set to \"%s\" for %s\n", return_value_DeliveryMethodGetMRL_2, argv[(signed long int)0]);
     }
 
     else
       do
       {
-        struct CommandContext_t *CommandSetSFMRL$$1$$4$$1$$context;
-        CommandSetSFMRL$$1$$4$$1$$context=CommandContextGet();
-        CommandSetSFMRL$$1$$4$$1$$context->errorNumber = (unsigned short int)0xffff;
-        snprintf(CommandSetSFMRL$$1$$4$$1$$context->errorMessage, (unsigned long int)256, "Failed to set MRL!");
+        struct CommandContext_t *CommandSetSFMRL__1__4__1__context;
+        CommandSetSFMRL__1__4__1__context=CommandContextGet();
+        CommandSetSFMRL__1__4__1__context->errorNumber = (unsigned short int)0xffff;
+        snprintf(CommandSetSFMRL__1__4__1__context->errorMessage, (unsigned long int)256, "Failed to set MRL!");
       }
       while((_Bool)0);
   }
@@ -10594,10 +10594,10 @@ static void CommandSetSFService(signed int argc, char **argv)
     {
       do
       {
-        struct CommandContext_t *CommandSetSFService$$1$$1$$1$$1$$context;
-        CommandSetSFService$$1$$1$$1$$1$$context=CommandContextGet();
-        CommandSetSFService$$1$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0004;
-        snprintf(CommandSetSFService$$1$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Not authenticated!");
+        struct CommandContext_t *CommandSetSFService__1__1__1__1__context;
+        CommandSetSFService__1__1__1__1__context=CommandContextGet();
+        CommandSetSFService__1__1__1__1__context->errorNumber = (unsigned short int)0x0004;
+        snprintf(CommandSetSFService__1__1__1__1__context->errorMessage, (unsigned long int)256, "Not authenticated!");
       }
       while((_Bool)0);
       goto __CPROVER_DUMP_L13;
@@ -10605,15 +10605,15 @@ static void CommandSetSFService(signed int argc, char **argv)
 
   }
   while((_Bool)0);
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(outputName, PrimaryService);
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(outputName, PrimaryService);
+  if(return_value_strcmp_1 == 0)
     do
     {
-      struct CommandContext_t *CommandSetSFService$$1$$2$$1$$context;
-      CommandSetSFService$$1$$2$$1$$context=CommandContextGet();
-      CommandSetSFService$$1$$2$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(CommandSetSFService$$1$$2$$1$$context->errorMessage, (unsigned long int)256, "Use 'select' to change the primary service!");
+      struct CommandContext_t *CommandSetSFService__1__2__1__context;
+      CommandSetSFService__1__2__1__context=CommandContextGet();
+      CommandSetSFService__1__2__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(CommandSetSFService__1__2__1__context->errorMessage, (unsigned long int)256, "Use 'select' to change the primary service!");
     }
     while((_Bool)0);
 
@@ -10625,10 +10625,10 @@ static void CommandSetSFService(signed int argc, char **argv)
     if(filter == ((struct ServiceFilter_s *)NULL))
       do
       {
-        struct CommandContext_t *CommandSetSFService$$1$$3$$1$$1$$context;
-        CommandSetSFService$$1$$3$$1$$1$$context=CommandContextGet();
-        CommandSetSFService$$1$$3$$1$$1$$context->errorNumber = (unsigned short int)0xffff;
-        snprintf(CommandSetSFService$$1$$3$$1$$1$$context->errorMessage, (unsigned long int)256, "Service filter not found!");
+        struct CommandContext_t *CommandSetSFService__1__3__1__1__context;
+        CommandSetSFService__1__3__1__1__context=CommandContextGet();
+        CommandSetSFService__1__3__1__1__context->errorNumber = (unsigned short int)0xffff;
+        snprintf(CommandSetSFService__1__3__1__1__context->errorMessage, (unsigned long int)256, "Service filter not found!");
       }
       while((_Bool)0);
 
@@ -10641,10 +10641,10 @@ static void CommandSetSFService(signed int argc, char **argv)
       if(service == ((struct Service_t *)NULL))
         do
         {
-          struct CommandContext_t *CommandSetSFService$$1$$5$$1$$context;
-          CommandSetSFService$$1$$5$$1$$context=CommandContextGet();
-          CommandSetSFService$$1$$5$$1$$context->errorNumber = (unsigned short int)0xffff;
-          snprintf(CommandSetSFService$$1$$5$$1$$context->errorMessage, (unsigned long int)256, "Service not found!");
+          struct CommandContext_t *CommandSetSFService__1__5__1__context;
+          CommandSetSFService__1__5__1__context=CommandContextGet();
+          CommandSetSFService__1__5__1__context->errorNumber = (unsigned short int)0xffff;
+          snprintf(CommandSetSFService__1__5__1__context->errorMessage, (unsigned long int)256, "Service not found!");
         }
         while((_Bool)0);
 
@@ -10712,35 +10712,35 @@ void CommandUnInstallScanning(void)
   loop=DispatchersGetInput();
   ev_async_stop(loop, &scanStartAsync);
   CommandUnRegisterCommands(CommandDetailsScanning);
-  PropertiesRemoveAllProperties(propertyParent$link1);
-  struct Event_s *return_value_EventsFindEvent$1;
-  return_value_EventsFindEvent$1=EventsFindEvent("DVBAdapter.Locked");
-  EventsUnregisterEventListener(return_value_EventsFindEvent$1, FELockedEventListener, (void *)0);
-  struct Event_s *return_value_EventsFindEvent$2;
-  return_value_EventsFindEvent$2=EventsFindEvent("MPEG2.PAT");
-  EventsUnregisterEventListener(return_value_EventsFindEvent$2, PATEventListener, (void *)0);
-  struct Event_s *return_value_EventsFindEvent$3;
-  return_value_EventsFindEvent$3=EventsFindEvent("MPEG2.PMT");
-  EventsUnregisterEventListener(return_value_EventsFindEvent$3, PMTEventListener, (void *)0);
-  _Bool return_value_MainIsDVB$6;
-  return_value_MainIsDVB$6=MainIsDVB();
-  if(!(return_value_MainIsDVB$6 == (_Bool)0))
+  PropertiesRemoveAllProperties(propertyParent_link1);
+  struct Event_s *return_value_EventsFindEvent_1;
+  return_value_EventsFindEvent_1=EventsFindEvent("DVBAdapter.Locked");
+  EventsUnregisterEventListener(return_value_EventsFindEvent_1, FELockedEventListener, (void *)0);
+  struct Event_s *return_value_EventsFindEvent_2;
+  return_value_EventsFindEvent_2=EventsFindEvent("MPEG2.PAT");
+  EventsUnregisterEventListener(return_value_EventsFindEvent_2, PATEventListener, (void *)0);
+  struct Event_s *return_value_EventsFindEvent_3;
+  return_value_EventsFindEvent_3=EventsFindEvent("MPEG2.PMT");
+  EventsUnregisterEventListener(return_value_EventsFindEvent_3, PMTEventListener, (void *)0);
+  _Bool return_value_MainIsDVB_6;
+  return_value_MainIsDVB_6=MainIsDVB();
+  if(!(return_value_MainIsDVB_6 == (_Bool)0))
   {
-    struct Event_s *return_value_EventsFindEvent$4;
-    return_value_EventsFindEvent$4=EventsFindEvent("DVB.SDT");
-    EventsUnregisterEventListener(return_value_EventsFindEvent$4, SDTEventListener, (void *)0);
-    struct Event_s *return_value_EventsFindEvent$5;
-    return_value_EventsFindEvent$5=EventsFindEvent("DVB.NIT");
-    EventsUnregisterEventListener(return_value_EventsFindEvent$5, NITEventListener, (void *)0);
+    struct Event_s *return_value_EventsFindEvent_4;
+    return_value_EventsFindEvent_4=EventsFindEvent("DVB.SDT");
+    EventsUnregisterEventListener(return_value_EventsFindEvent_4, SDTEventListener, (void *)0);
+    struct Event_s *return_value_EventsFindEvent_5;
+    return_value_EventsFindEvent_5=EventsFindEvent("DVB.NIT");
+    EventsUnregisterEventListener(return_value_EventsFindEvent_5, NITEventListener, (void *)0);
   }
 
-  _Bool return_value_MainIsATSC$8;
-  return_value_MainIsATSC$8=MainIsATSC();
-  if(!(return_value_MainIsATSC$8 == (_Bool)0))
+  _Bool return_value_MainIsATSC_8;
+  return_value_MainIsATSC_8=MainIsATSC();
+  if(!(return_value_MainIsATSC_8 == (_Bool)0))
   {
-    struct Event_s *return_value_EventsFindEvent$7;
-    return_value_EventsFindEvent$7=EventsFindEvent("ATSC.VCT");
-    EventsUnregisterEventListener(return_value_EventsFindEvent$7, VCTEventListener, (void *)0);
+    struct Event_s *return_value_EventsFindEvent_7;
+    return_value_EventsFindEvent_7=EventsFindEvent("ATSC.VCT");
+    EventsUnregisterEventListener(return_value_EventsFindEvent_7, VCTEventListener, (void *)0);
   }
 
 }
@@ -10772,37 +10772,37 @@ static char * CompleteCommand(const char *text, signed int state)
   if(state == 0)
   {
     lastIndex = -1;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(text);
-    textlen = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(text);
+    textlen = (signed int)return_value_strlen_1;
     iterator.current = CommandsList->head;
     iterator.list = CommandsList;
   }
 
-  struct ListEntry_s *tmp_if_expr$4;
+  struct ListEntry_s *tmp_if_expr_4;
   while(!(iterator.current == ((struct ListEntry_s *)NULL)))
   {
     struct Command_t *commands = (struct Command_t *)iterator.current->data;
     i = lastIndex + 1;
     for( ; !((commands + (signed long int)i)->command == ((char *)NULL)); i = i + 1)
     {
-      signed int return_value_strncasecmp$3;
-      return_value_strncasecmp$3=strncasecmp(text, (commands + (signed long int)i)->command, (unsigned long int)textlen);
-      if(return_value_strncasecmp$3 == 0)
+      signed int return_value_strncasecmp_3;
+      return_value_strncasecmp_3=strncasecmp(text, (commands + (signed long int)i)->command, (unsigned long int)textlen);
+      if(return_value_strncasecmp_3 == 0)
       {
         lastIndex = i;
-        char *return_value_strdup$2;
-        return_value_strdup$2=strdup((commands + (signed long int)i)->command);
-        return return_value_strdup$2;
+        char *return_value_strdup_2;
+        return_value_strdup_2=strdup((commands + (signed long int)i)->command);
+        return return_value_strdup_2;
       }
 
     }
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$4 = iterator.current->next;
+      tmp_if_expr_4 = iterator.current->next;
 
     else
-      tmp_if_expr$4 = (struct ListEntry_s *)(void *)0;
-    iterator.current = tmp_if_expr$4;
+      tmp_if_expr_4 = (struct ListEntry_s *)(void *)0;
+    iterator.current = tmp_if_expr_4;
     lastIndex = -1;
   }
   return (char *)(void *)0;
@@ -10815,101 +10815,101 @@ static void ConvertDTVPropertiesToYaml(enum DVBDeliverySystem_e delSys, struct d
   char temp[25l];
   sprintf(temp, "%u", (feparams->props + (signed long int)1)->u.data);
   YamlUtils_MappingAdd(doc, 1, TAG_FREQUENCY, temp);
-  char *return_value_MapValueToString$1;
-  return_value_MapValueToString$1=MapValueToString(inversionMapping, (feparams->props + (signed long int)2)->u.data, "AUTO");
-  YamlUtils_MappingAdd(doc, 1, TAG_INVERSION, return_value_MapValueToString$1);
-  char *return_value_MapValueToString$2;
-  char *return_value_MapValueToString$3;
-  char *return_value_MapValueToString$4;
-  char *return_value_MapValueToString$5;
-  char *return_value_MapValueToString$6;
-  char *return_value_MapValueToString$7;
-  char *return_value_MapValueToString$8;
-  char *return_value_MapValueToString$9;
-  char *return_value_MapValueToString$10;
-  char *return_value_MapValueToString$11;
-  char *return_value_MapValueToString$12;
-  char *return_value_MapValueToString$13;
-  char *return_value_MapValueToString$14;
-  char *return_value_MapValueToString$15;
-  char *return_value_MapValueToString$16;
-  char *return_value_MapValueToString$17;
-  char *return_value_MapValueToString$18;
-  char *return_value_MapValueToString$19;
+  char *return_value_MapValueToString_1;
+  return_value_MapValueToString_1=MapValueToString(inversionMapping, (feparams->props + (signed long int)2)->u.data, "AUTO");
+  YamlUtils_MappingAdd(doc, 1, TAG_INVERSION, return_value_MapValueToString_1);
+  char *return_value_MapValueToString_2;
+  char *return_value_MapValueToString_3;
+  char *return_value_MapValueToString_4;
+  char *return_value_MapValueToString_5;
+  char *return_value_MapValueToString_6;
+  char *return_value_MapValueToString_7;
+  char *return_value_MapValueToString_8;
+  char *return_value_MapValueToString_9;
+  char *return_value_MapValueToString_10;
+  char *return_value_MapValueToString_11;
+  char *return_value_MapValueToString_12;
+  char *return_value_MapValueToString_13;
+  char *return_value_MapValueToString_14;
+  char *return_value_MapValueToString_15;
+  char *return_value_MapValueToString_16;
+  char *return_value_MapValueToString_17;
+  char *return_value_MapValueToString_18;
+  char *return_value_MapValueToString_19;
   switch((signed int)delSys)
   {
     case DELSYS_DVBS:
     {
-      return_value_MapValueToString$2=MapValueToString(fecMapping, (feparams->props + (signed long int)3)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_FEC, return_value_MapValueToString$2);
+      return_value_MapValueToString_2=MapValueToString(fecMapping, (feparams->props + (signed long int)3)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_FEC, return_value_MapValueToString_2);
       sprintf(temp, "%u", (feparams->props + (signed long int)4)->u.data);
       YamlUtils_MappingAdd(doc, 1, TAG_SYMBOL_RATE, temp);
-      return_value_MapValueToString$3=MapValueToString(polarisationMapping, (unsigned int)satSettings->polarisation, "Horizontal");
-      YamlUtils_MappingAdd(doc, 1, TAG_POLARISATION, return_value_MapValueToString$3);
+      return_value_MapValueToString_3=MapValueToString(polarisationMapping, (unsigned int)satSettings->polarisation, "Horizontal");
+      YamlUtils_MappingAdd(doc, 1, TAG_POLARISATION, return_value_MapValueToString_3);
       sprintf(temp, "%u", satSettings->satellite_number);
       YamlUtils_MappingAdd(doc, 1, TAG_SATELLITE_NUMBER, temp);
       break;
     }
     case DELSYS_DVBS2:
     {
-      return_value_MapValueToString$4=MapValueToString(modulationMapping, (feparams->props + (signed long int)5)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_MODULATION, return_value_MapValueToString$4);
-      return_value_MapValueToString$5=MapValueToString(fecMapping, (feparams->props + (signed long int)3)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_FEC, return_value_MapValueToString$5);
+      return_value_MapValueToString_4=MapValueToString(modulationMapping, (feparams->props + (signed long int)5)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_MODULATION, return_value_MapValueToString_4);
+      return_value_MapValueToString_5=MapValueToString(fecMapping, (feparams->props + (signed long int)3)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_FEC, return_value_MapValueToString_5);
       sprintf(temp, "%u", (feparams->props + (signed long int)4)->u.data);
       YamlUtils_MappingAdd(doc, 1, TAG_SYMBOL_RATE, temp);
-      return_value_MapValueToString$6=MapValueToString(pilotMapping, (feparams->props + (signed long int)6)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_PILOT, return_value_MapValueToString$6);
-      return_value_MapValueToString$7=MapValueToString(rollOffMapping, (feparams->props + (signed long int)7)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_ROLL_OFF, return_value_MapValueToString$7);
-      return_value_MapValueToString$8=MapValueToString(polarisationMapping, (unsigned int)satSettings->polarisation, "Horizontal");
-      YamlUtils_MappingAdd(doc, 1, TAG_POLARISATION, return_value_MapValueToString$8);
+      return_value_MapValueToString_6=MapValueToString(pilotMapping, (feparams->props + (signed long int)6)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_PILOT, return_value_MapValueToString_6);
+      return_value_MapValueToString_7=MapValueToString(rollOffMapping, (feparams->props + (signed long int)7)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_ROLL_OFF, return_value_MapValueToString_7);
+      return_value_MapValueToString_8=MapValueToString(polarisationMapping, (unsigned int)satSettings->polarisation, "Horizontal");
+      YamlUtils_MappingAdd(doc, 1, TAG_POLARISATION, return_value_MapValueToString_8);
       sprintf(temp, "%u", satSettings->satellite_number);
       YamlUtils_MappingAdd(doc, 1, TAG_SATELLITE_NUMBER, temp);
       break;
     }
     case DELSYS_DVBC:
     {
-      return_value_MapValueToString$9=MapValueToString(fecMapping, (feparams->props + (signed long int)3)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_FEC, return_value_MapValueToString$9);
+      return_value_MapValueToString_9=MapValueToString(fecMapping, (feparams->props + (signed long int)3)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_FEC, return_value_MapValueToString_9);
       sprintf(temp, "%u", (feparams->props + (signed long int)4)->u.data);
       YamlUtils_MappingAdd(doc, 1, TAG_SYMBOL_RATE, temp);
-      return_value_MapValueToString$10=MapValueToString(modulationMapping, (feparams->props + (signed long int)5)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_MODULATION, return_value_MapValueToString$10);
+      return_value_MapValueToString_10=MapValueToString(modulationMapping, (feparams->props + (signed long int)5)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_MODULATION, return_value_MapValueToString_10);
       break;
     }
     case DELSYS_DVBT:
     {
       sprintf(temp, "%u", (feparams->props + (signed long int)3)->u.data);
       YamlUtils_MappingAdd(doc, 1, TAG_BANDWIDTH, temp);
-      return_value_MapValueToString$11=MapValueToString(fecMapping, (feparams->props + (signed long int)4)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_FEC_HP, return_value_MapValueToString$11);
-      return_value_MapValueToString$12=MapValueToString(fecMapping, (feparams->props + (signed long int)5)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_FEC_LP, return_value_MapValueToString$12);
-      return_value_MapValueToString$13=MapValueToString(modulationMapping, (feparams->props + (signed long int)6)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_CONSTELLATION, return_value_MapValueToString$13);
-      return_value_MapValueToString$14=MapValueToString(guardIntervalMapping, (feparams->props + (signed long int)7)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_GUARD_INTERVAL, return_value_MapValueToString$14);
-      return_value_MapValueToString$15=MapValueToString(transmissonModeMapping, (feparams->props + (signed long int)8)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_TRANSMISSION_MODE, return_value_MapValueToString$15);
-      return_value_MapValueToString$16=MapValueToString(hierarchyMapping, (feparams->props + (signed long int)9)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_HIERARCHY, return_value_MapValueToString$16);
+      return_value_MapValueToString_11=MapValueToString(fecMapping, (feparams->props + (signed long int)4)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_FEC_HP, return_value_MapValueToString_11);
+      return_value_MapValueToString_12=MapValueToString(fecMapping, (feparams->props + (signed long int)5)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_FEC_LP, return_value_MapValueToString_12);
+      return_value_MapValueToString_13=MapValueToString(modulationMapping, (feparams->props + (signed long int)6)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_CONSTELLATION, return_value_MapValueToString_13);
+      return_value_MapValueToString_14=MapValueToString(guardIntervalMapping, (feparams->props + (signed long int)7)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_GUARD_INTERVAL, return_value_MapValueToString_14);
+      return_value_MapValueToString_15=MapValueToString(transmissonModeMapping, (feparams->props + (signed long int)8)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_TRANSMISSION_MODE, return_value_MapValueToString_15);
+      return_value_MapValueToString_16=MapValueToString(hierarchyMapping, (feparams->props + (signed long int)9)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_HIERARCHY, return_value_MapValueToString_16);
       break;
     }
     case DELSYS_ATSC:
     {
-      return_value_MapValueToString$17=MapValueToString(modulationMapping, (feparams->props + (signed long int)3)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_MODULATION, return_value_MapValueToString$17);
+      return_value_MapValueToString_17=MapValueToString(modulationMapping, (feparams->props + (signed long int)3)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_MODULATION, return_value_MapValueToString_17);
       break;
     }
     case DELSYS_ISDBT:
     {
       sprintf(temp, "%u", (feparams->props + (signed long int)3)->u.data);
       YamlUtils_MappingAdd(doc, 1, TAG_BANDWIDTH, temp);
-      return_value_MapValueToString$18=MapValueToString(guardIntervalMapping, (feparams->props + (signed long int)7)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_GUARD_INTERVAL, return_value_MapValueToString$18);
-      return_value_MapValueToString$19=MapValueToString(transmissonModeMapping, (feparams->props + (signed long int)8)->u.data, "AUTO");
-      YamlUtils_MappingAdd(doc, 1, TAG_TRANSMISSION_MODE, return_value_MapValueToString$19);
+      return_value_MapValueToString_18=MapValueToString(guardIntervalMapping, (feparams->props + (signed long int)7)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_GUARD_INTERVAL, return_value_MapValueToString_18);
+      return_value_MapValueToString_19=MapValueToString(transmissonModeMapping, (feparams->props + (signed long int)8)->u.data, "AUTO");
+      YamlUtils_MappingAdd(doc, 1, TAG_TRANSMISSION_MODE, return_value_MapValueToString_19);
       break;
     }
     default:
@@ -10956,18 +10956,18 @@ static unsigned int ConvertStringToBandwith(const char *str, unsigned int defaul
 {
   char *suffix;
   unsigned int result;
-  unsigned long int return_value_strtoul$1;
-  return_value_strtoul$1=strtoul(str, &suffix, 10);
-  result = (unsigned int)return_value_strtoul$1;
+  unsigned long int return_value_strtoul_1;
+  return_value_strtoul_1=strtoul(str, &suffix, 10);
+  result = (unsigned int)return_value_strtoul_1;
   if(suffix == str)
     result = defaultValue;
 
   else
     if(!(*suffix == 0))
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(suffix, "Mhz");
-      if(return_value_strcasecmp$2 == 0)
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(suffix, "Mhz");
+      if(return_value_strcasecmp_2 == 0)
         result = result * (unsigned int)1000000;
 
       else
@@ -10983,9 +10983,9 @@ static unsigned int ConvertStringToUInt32(const char *str, unsigned int defaultV
 {
   char *suffix;
   unsigned int result;
-  unsigned long int return_value_strtoul$1;
-  return_value_strtoul$1=strtoul(str, &suffix, 10);
-  result = (unsigned int)return_value_strtoul$1;
+  unsigned long int return_value_strtoul_1;
+  return_value_strtoul_1=strtoul(str, &suffix, 10);
+  result = (unsigned int)return_value_strtoul_1;
   if(suffix == str)
     result = defaultValue;
 
@@ -10997,9 +10997,9 @@ static unsigned int ConvertStringToUInt32(const char *str, unsigned int defaultV
 static unsigned int ConvertYamlNode(struct yaml_document_s *document, const char *key, unsigned int (*convert)(const char *, unsigned int), unsigned int defaultValue)
 {
   struct yaml_node_s *node;
-  struct yaml_node_s *return_value_yaml_document_get_root_node$1;
-  return_value_yaml_document_get_root_node$1=yaml_document_get_root_node(document);
-  node=YamlUtils_MappingFind(document, return_value_yaml_document_get_root_node$1, key);
+  struct yaml_node_s *return_value_yaml_document_get_root_node_1;
+  return_value_yaml_document_get_root_node_1=yaml_document_get_root_node(document);
+  node=YamlUtils_MappingFind(document, return_value_yaml_document_get_root_node_1, key);
   if(!(node == ((struct yaml_node_s *)NULL)))
   {
     if((signed int)node->type == YAML_SCALAR_NODE)
@@ -11031,16 +11031,16 @@ static void ConvertYamlToDTVProperties(enum DVBDeliverySystem_e delSys, struct y
     adapter->frontEndPropertyArray[(signed long int)2].u.data=MapYamlNode(doc, TAG_INVERSION, inversionMapping, (unsigned int)INVERSION_AUTO);
   }
   while((_Bool)0);
-  unsigned int return_value_MapYamlNode$1;
-  unsigned int return_value_MapYamlNode$2;
-  unsigned int return_value_MapYamlNode$3;
-  unsigned int return_value_MapYamlNode$4;
-  unsigned int return_value_MapYamlNode$5;
-  unsigned int return_value_MapYamlNode$6;
-  unsigned int return_value_MapYamlNode$7;
-  unsigned int return_value_MapYamlNode$8;
-  unsigned int return_value_MapYamlNode$9;
-  unsigned int return_value_MapYamlNode$10;
+  unsigned int return_value_MapYamlNode_1;
+  unsigned int return_value_MapYamlNode_2;
+  unsigned int return_value_MapYamlNode_3;
+  unsigned int return_value_MapYamlNode_4;
+  unsigned int return_value_MapYamlNode_5;
+  unsigned int return_value_MapYamlNode_6;
+  unsigned int return_value_MapYamlNode_7;
+  unsigned int return_value_MapYamlNode_8;
+  unsigned int return_value_MapYamlNode_9;
+  unsigned int return_value_MapYamlNode_10;
   switch((signed int)delSys)
   {
     case DELSYS_DVBS:
@@ -11064,8 +11064,8 @@ static void ConvertYamlToDTVProperties(enum DVBDeliverySystem_e delSys, struct y
       }
       while((_Bool)0);
       adapter->frontEndProperties.num = (unsigned int)5;
-      return_value_MapYamlNode$1=MapYamlNode(doc, TAG_POLARISATION, polarisationMapping, (unsigned int)POL_HORIZONTAL);
-      adapter->satelliteSettings.polarisation = (enum Polarisation_e)return_value_MapYamlNode$1;
+      return_value_MapYamlNode_1=MapYamlNode(doc, TAG_POLARISATION, polarisationMapping, (unsigned int)POL_HORIZONTAL);
+      adapter->satelliteSettings.polarisation = (enum Polarisation_e)return_value_MapYamlNode_1;
       adapter->satelliteSettings.satellite_number=ConvertYamlNode(doc, TAG_SATELLITE_NUMBER, ConvertStringToUInt32, (unsigned int)0);
       break;
     }
@@ -11108,8 +11108,8 @@ static void ConvertYamlToDTVProperties(enum DVBDeliverySystem_e delSys, struct y
       }
       while((_Bool)0);
       adapter->frontEndProperties.num = (unsigned int)8;
-      return_value_MapYamlNode$2=MapYamlNode(doc, TAG_POLARISATION, polarisationMapping, (unsigned int)POL_HORIZONTAL);
-      adapter->satelliteSettings.polarisation = (enum Polarisation_e)return_value_MapYamlNode$2;
+      return_value_MapYamlNode_2=MapYamlNode(doc, TAG_POLARISATION, polarisationMapping, (unsigned int)POL_HORIZONTAL);
+      adapter->satelliteSettings.polarisation = (enum Polarisation_e)return_value_MapYamlNode_2;
       adapter->satelliteSettings.satellite_number=ConvertYamlNode(doc, TAG_SATELLITE_NUMBER, ConvertStringToUInt32, (unsigned int)0);
       break;
     }
@@ -11240,22 +11240,22 @@ static void ConvertYamlToDTVProperties(enum DVBDeliverySystem_e delSys, struct y
       while((_Bool)0);
       adapter->frontEndProperties.num = (unsigned int)6;
       adapter->isdbFEParams.frequency=ConvertYamlNode(doc, TAG_FREQUENCY, ConvertStringToUInt32, (unsigned int)0);
-      return_value_MapYamlNode$3=MapYamlNode(doc, TAG_INVERSION, inversionMapping, (unsigned int)INVERSION_AUTO);
-      adapter->isdbFEParams.inversion = (enum fe_spectral_inversion)return_value_MapYamlNode$3;
-      return_value_MapYamlNode$4=MapYamlNode(doc, TAG_BANDWIDTH, bandwidthMapping, (unsigned int)BANDWIDTH_AUTO);
-      adapter->isdbFEParams.u.ofdm.bandwidth = (enum fe_bandwidth)return_value_MapYamlNode$4;
-      return_value_MapYamlNode$5=MapYamlNode(doc, TAG_FEC_HP, fecMapping, (unsigned int)FEC_AUTO);
-      adapter->isdbFEParams.u.ofdm.code_rate_HP = (enum fe_code_rate)return_value_MapYamlNode$5;
-      return_value_MapYamlNode$6=MapYamlNode(doc, TAG_FEC_LP, fecMapping, (unsigned int)FEC_AUTO);
-      adapter->isdbFEParams.u.ofdm.code_rate_LP = (enum fe_code_rate)return_value_MapYamlNode$6;
-      return_value_MapYamlNode$7=MapYamlNode(doc, TAG_CONSTELLATION, modulationMapping, (unsigned int)QAM_AUTO);
-      adapter->isdbFEParams.u.ofdm.constellation = (enum fe_modulation)return_value_MapYamlNode$7;
-      return_value_MapYamlNode$8=MapYamlNode(doc, TAG_GUARD_INTERVAL, guardIntervalMapping, (unsigned int)GUARD_INTERVAL_AUTO);
-      adapter->isdbFEParams.u.ofdm.guard_interval = (enum fe_guard_interval)return_value_MapYamlNode$8;
-      return_value_MapYamlNode$9=MapYamlNode(doc, TAG_TRANSMISSION_MODE, transmissonModeMapping, (unsigned int)TRANSMISSION_MODE_AUTO);
-      adapter->isdbFEParams.u.ofdm.transmission_mode = (enum fe_transmit_mode)return_value_MapYamlNode$9;
-      return_value_MapYamlNode$10=MapYamlNode(doc, TAG_HIERARCHY, hierarchyMapping, (unsigned int)HIERARCHY_AUTO);
-      adapter->isdbFEParams.u.ofdm.hierarchy_information = (enum fe_hierarchy)return_value_MapYamlNode$10;
+      return_value_MapYamlNode_3=MapYamlNode(doc, TAG_INVERSION, inversionMapping, (unsigned int)INVERSION_AUTO);
+      adapter->isdbFEParams.inversion = (enum fe_spectral_inversion)return_value_MapYamlNode_3;
+      return_value_MapYamlNode_4=MapYamlNode(doc, TAG_BANDWIDTH, bandwidthMapping, (unsigned int)BANDWIDTH_AUTO);
+      adapter->isdbFEParams.u.ofdm.bandwidth = (enum fe_bandwidth)return_value_MapYamlNode_4;
+      return_value_MapYamlNode_5=MapYamlNode(doc, TAG_FEC_HP, fecMapping, (unsigned int)FEC_AUTO);
+      adapter->isdbFEParams.u.ofdm.code_rate_HP = (enum fe_code_rate)return_value_MapYamlNode_5;
+      return_value_MapYamlNode_6=MapYamlNode(doc, TAG_FEC_LP, fecMapping, (unsigned int)FEC_AUTO);
+      adapter->isdbFEParams.u.ofdm.code_rate_LP = (enum fe_code_rate)return_value_MapYamlNode_6;
+      return_value_MapYamlNode_7=MapYamlNode(doc, TAG_CONSTELLATION, modulationMapping, (unsigned int)QAM_AUTO);
+      adapter->isdbFEParams.u.ofdm.constellation = (enum fe_modulation)return_value_MapYamlNode_7;
+      return_value_MapYamlNode_8=MapYamlNode(doc, TAG_GUARD_INTERVAL, guardIntervalMapping, (unsigned int)GUARD_INTERVAL_AUTO);
+      adapter->isdbFEParams.u.ofdm.guard_interval = (enum fe_guard_interval)return_value_MapYamlNode_8;
+      return_value_MapYamlNode_9=MapYamlNode(doc, TAG_TRANSMISSION_MODE, transmissonModeMapping, (unsigned int)TRANSMISSION_MODE_AUTO);
+      adapter->isdbFEParams.u.ofdm.transmission_mode = (enum fe_transmit_mode)return_value_MapYamlNode_9;
+      return_value_MapYamlNode_10=MapYamlNode(doc, TAG_HIERARCHY, hierarchyMapping, (unsigned int)HIERARCHY_AUTO);
+      adapter->isdbFEParams.u.ofdm.hierarchy_information = (enum fe_hierarchy)return_value_MapYamlNode_10;
     }
     default:
       ;
@@ -11269,8 +11269,8 @@ static void ConvertYamlToDTVProperties(enum DVBDeliverySystem_e delSys, struct y
 static signed int DBaseCheckVersion()
 {
   signed int rc;
-  double DBaseCheckVersion$$1$$version;
-  rc=DBaseMetadataGetDouble("dbase_version", &DBaseCheckVersion$$1$$version);
+  double DBaseCheckVersion__1__version;
+  rc=DBaseMetadataGetDouble("dbase_version", &DBaseCheckVersion__1__version);
   if(!(rc == 0))
   {
     LogModule(3, DBASE, "Failed to get version from Metadata table (%d)\n", rc);
@@ -11279,16 +11279,16 @@ static signed int DBaseCheckVersion()
 
   else
   {
-    LogModule(3, DBASE, "Current version of database is %f\n", DBaseCheckVersion$$1$$version);
-    if(DBaseCheckVersion$$1$$version < 2.0)
+    LogModule(3, DBASE, "Current version of database is %f\n", DBaseCheckVersion__1__version);
+    if(DBaseCheckVersion__1__version < 2.0)
     {
       signed int pid;
       char path[4096l];
       char *filename;
       signed long int len;
-      signed int return_value_getpid$1;
-      return_value_getpid$1=getpid();
-      sprintf(path, "/proc/%d/exe", return_value_getpid$1);
+      signed int return_value_getpid_1;
+      return_value_getpid_1=getpid();
+      sprintf(path, "/proc/%d/exe", return_value_getpid_1);
       len=readlink(path, path, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
       path[len] = (char)0;
       filename=strrchr(path, 47);
@@ -11313,18 +11313,18 @@ static signed int DBaseCheckVersion()
 struct sqlite3 * DBaseConnectionGet(void)
 {
   struct sqlite3 *connection;
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(dbaseKey);
-  connection = (struct sqlite3 *)return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(dbaseKey);
+  connection = (struct sqlite3 *)return_value_pthread_getspecific_1;
   if(connection == ((struct sqlite3 *)NULL))
   {
     signed int rc;
     rc=sqlite3_open(dbaseFile, &connection);
     if(!(rc == 0))
     {
-      const char *return_value_sqlite3_errmsg$2;
-      return_value_sqlite3_errmsg$2=sqlite3_errmsg(connection);
-      LogModule(0, DBASE, "Can't open database: %s\n", return_value_sqlite3_errmsg$2);
+      const char *return_value_sqlite3_errmsg_2;
+      return_value_sqlite3_errmsg_2=sqlite3_errmsg(connection);
+      LogModule(0, DBASE, "Can't open database: %s\n", return_value_sqlite3_errmsg_2);
       sqlite3_close(connection);
       connection = (struct sqlite3 *)(void *)0;
     }
@@ -11354,9 +11354,9 @@ signed int DBaseCount(char *table, char *where)
       sqlstring=sqlite3_mprintf("SELECT count() FROM %s;", table);
       if(!(sqlstring == ((char *)NULL)))
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$1;
-        return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-        rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+        struct sqlite3 *return_value_DBaseConnectionGet_1;
+        return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+        rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
         sqlite3_free((void *)sqlstring);
       }
 
@@ -11368,14 +11368,14 @@ signed int DBaseCount(char *table, char *where)
   else
     do
     {
-      char *DBaseCount$$1$$2$$1$$sqlstring;
-      DBaseCount$$1$$2$$1$$sqlstring=sqlite3_mprintf("SELECT count() FROM %s WHERE %s;", table, where);
-      if(!(DBaseCount$$1$$2$$1$$sqlstring == ((char *)NULL)))
+      char *DBaseCount__1__2__1__sqlstring;
+      DBaseCount__1__2__1__sqlstring=sqlite3_mprintf("SELECT count() FROM %s WHERE %s;", table, where);
+      if(!(DBaseCount__1__2__1__sqlstring == ((char *)NULL)))
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        rc=sqlite3_prepare(return_value_DBaseConnectionGet$2, DBaseCount$$1$$2$$1$$sqlstring, -1, &stmt, (const char **)(void *)0);
-        sqlite3_free((void *)DBaseCount$$1$$2$$1$$sqlstring);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        rc=sqlite3_prepare(return_value_DBaseConnectionGet_2, DBaseCount__1__2__1__sqlstring, -1, &stmt, (const char **)(void *)0);
+        sqlite3_free((void *)DBaseCount__1__2__1__sqlstring);
       }
 
       else
@@ -11387,11 +11387,11 @@ signed int DBaseCount(char *table, char *where)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$3;
-        return_value_DBaseConnectionGet$3=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$4;
-        return_value_sqlite3_errmsg$4=sqlite3_errmsg(return_value_DBaseConnectionGet$3);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseCount", 136, rc, return_value_sqlite3_errmsg$4);
+        struct sqlite3 *return_value_DBaseConnectionGet_3;
+        return_value_DBaseConnectionGet_3=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_4;
+        return_value_sqlite3_errmsg_4=sqlite3_errmsg(return_value_DBaseConnectionGet_3);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseCount", 136, rc, return_value_sqlite3_errmsg_4);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11422,36 +11422,36 @@ static signed int DBaseCreateTables(void)
   rc=sqlite3_exec(DBaseInstance, "CREATE TABLE Metadata ( name PRIMARY KEY,value);", (signed int (*)(void *, signed int, char **, char **))(void *)0, (void *)0, (char **)(void *)0);
   if(!(rc == 0))
   {
-    const char *return_value_sqlite3_errmsg$1;
-    return_value_sqlite3_errmsg$1=sqlite3_errmsg(DBaseInstance);
-    LogModule(0, DBASE, "Failed to create Metadata table: %s\n", return_value_sqlite3_errmsg$1);
+    const char *return_value_sqlite3_errmsg_1;
+    return_value_sqlite3_errmsg_1=sqlite3_errmsg(DBaseInstance);
+    LogModule(0, DBASE, "Failed to create Metadata table: %s\n", return_value_sqlite3_errmsg_1);
     return rc;
   }
 
   rc=sqlite3_exec(DBaseInstance, "CREATE TABLE Services ( mplexuid,id,source,ca,type,name,pmtpid DEFAULT -1,provider,defauthority,PRIMARY KEY ( mplexuid,id));", (signed int (*)(void *, signed int, char **, char **))(void *)0, (void *)0, (char **)(void *)0);
   if(!(rc == 0))
   {
-    const char *return_value_sqlite3_errmsg$2;
-    return_value_sqlite3_errmsg$2=sqlite3_errmsg(DBaseInstance);
-    LogModule(0, DBASE, "Failed to create Services table: %s\n", return_value_sqlite3_errmsg$2);
+    const char *return_value_sqlite3_errmsg_2;
+    return_value_sqlite3_errmsg_2=sqlite3_errmsg(DBaseInstance);
+    LogModule(0, DBASE, "Failed to create Services table: %s\n", return_value_sqlite3_errmsg_2);
     return rc;
   }
 
   rc=sqlite3_exec(DBaseInstance, "CREATE TABLE Multiplexes ( uid INTEGER PRIMARY KEY,type,tsid DEFAULT -1,netid DEFAULT -1,tuningparams);", (signed int (*)(void *, signed int, char **, char **))(void *)0, (void *)0, (char **)(void *)0);
   if(!(rc == 0))
   {
-    const char *return_value_sqlite3_errmsg$3;
-    return_value_sqlite3_errmsg$3=sqlite3_errmsg(DBaseInstance);
-    LogModule(0, DBASE, "Failed to create Multiplexes table: %s\n", return_value_sqlite3_errmsg$3);
+    const char *return_value_sqlite3_errmsg_3;
+    return_value_sqlite3_errmsg_3=sqlite3_errmsg(DBaseInstance);
+    LogModule(0, DBASE, "Failed to create Multiplexes table: %s\n", return_value_sqlite3_errmsg_3);
     return rc;
   }
 
   rc=sqlite3_exec(DBaseInstance, "CREATE TABLE PIDs ( mplexuid,serviceid,pid,type,descriptors DEFAULT NULL,PRIMARY KEY(mplexuid,serviceid,pid));", (signed int (*)(void *, signed int, char **, char **))(void *)0, (void *)0, (char **)(void *)0);
   if(!(rc == 0))
   {
-    const char *return_value_sqlite3_errmsg$4;
-    return_value_sqlite3_errmsg$4=sqlite3_errmsg(DBaseInstance);
-    LogModule(0, DBASE, "Failed to create PIDs table: %s\n", return_value_sqlite3_errmsg$4);
+    const char *return_value_sqlite3_errmsg_4;
+    return_value_sqlite3_errmsg_4=sqlite3_errmsg(DBaseInstance);
+    LogModule(0, DBASE, "Failed to create PIDs table: %s\n", return_value_sqlite3_errmsg_4);
     return rc;
   }
 
@@ -11478,9 +11478,9 @@ signed int DBaseInit(signed int adapter)
   rc=sqlite3_open(dbaseFile, &DBaseInstance);
   if(!(rc == 0))
   {
-    const char *return_value_sqlite3_errmsg$1;
-    return_value_sqlite3_errmsg$1=sqlite3_errmsg(DBaseInstance);
-    LogModule(0, DBASE, "Can't open database: %s\n", return_value_sqlite3_errmsg$1);
+    const char *return_value_sqlite3_errmsg_1;
+    return_value_sqlite3_errmsg_1=sqlite3_errmsg(DBaseInstance);
+    LogModule(0, DBASE, "Can't open database: %s\n", return_value_sqlite3_errmsg_1);
     sqlite3_close(DBaseInstance);
   }
 
@@ -11505,9 +11505,9 @@ signed int DBaseMetadataDelete(char *name)
     sqlstring=sqlite3_mprintf("DELETE FROM Metadata WHERE name='%q';", name);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -11520,11 +11520,11 @@ signed int DBaseMetadataDelete(char *name)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataDelete", 370, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataDelete", 370, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11540,11 +11540,11 @@ signed int DBaseMetadataDelete(char *name)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$4;
-        return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$5;
-        return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataDelete", 373, rc, return_value_sqlite3_errmsg$5);
+        struct sqlite3 *return_value_DBaseConnectionGet_4;
+        return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_5;
+        return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataDelete", 373, rc, return_value_sqlite3_errmsg_5);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11571,9 +11571,9 @@ signed int DBaseMetadataGet(char *name, char **value)
     sqlstring=sqlite3_mprintf("SELECT value FROM Metadata WHERE name='%q';", name);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -11586,11 +11586,11 @@ signed int DBaseMetadataGet(char *name, char **value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGet", 270, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGet", 270, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11606,11 +11606,11 @@ signed int DBaseMetadataGet(char *name, char **value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$4;
-        return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$5;
-        return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGet", 273, rc, return_value_sqlite3_errmsg$5);
+        struct sqlite3 *return_value_DBaseConnectionGet_4;
+        return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_5;
+        return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGet", 273, rc, return_value_sqlite3_errmsg_5);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11622,9 +11622,9 @@ signed int DBaseMetadataGet(char *name, char **value)
   while((_Bool)0);
   if(rc == 100)
   {
-    const unsigned char *return_value_sqlite3_column_text$6;
-    return_value_sqlite3_column_text$6=sqlite3_column_text(stmt, 0);
-    *value=strdup((char *)return_value_sqlite3_column_text$6);
+    const unsigned char *return_value_sqlite3_column_text_6;
+    return_value_sqlite3_column_text_6=sqlite3_column_text(stmt, 0);
+    *value=strdup((char *)return_value_sqlite3_column_text_6);
     result = 0;
   }
 
@@ -11645,9 +11645,9 @@ signed int DBaseMetadataGetDouble(char *name, double *value)
     sqlstring=sqlite3_mprintf("SELECT value FROM Metadata WHERE name='%q';", name);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -11660,11 +11660,11 @@ signed int DBaseMetadataGetDouble(char *name, double *value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGetDouble", 338, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGetDouble", 338, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11680,11 +11680,11 @@ signed int DBaseMetadataGetDouble(char *name, double *value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$4;
-        return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$5;
-        return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGetDouble", 341, rc, return_value_sqlite3_errmsg$5);
+        struct sqlite3 *return_value_DBaseConnectionGet_4;
+        return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_5;
+        return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGetDouble", 341, rc, return_value_sqlite3_errmsg_5);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11717,9 +11717,9 @@ signed int DBaseMetadataGetInt(char *name, signed int *value)
     sqlstring=sqlite3_mprintf("SELECT value FROM Metadata WHERE name='%q';", name);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -11732,11 +11732,11 @@ signed int DBaseMetadataGetInt(char *name, signed int *value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGetInt", 305, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGetInt", 305, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11752,11 +11752,11 @@ signed int DBaseMetadataGetInt(char *name, signed int *value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$4;
-        return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$5;
-        return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGetInt", 308, rc, return_value_sqlite3_errmsg$5);
+        struct sqlite3 *return_value_DBaseConnectionGet_4;
+        return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_5;
+        return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataGetInt", 308, rc, return_value_sqlite3_errmsg_5);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11788,9 +11788,9 @@ signed int DBaseMetadataSet(char *name, char *value)
     sqlstring=sqlite3_mprintf("INSERT OR REPLACE INTO Metadata (name,value) VALUES('%q','%q');", name, value);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -11803,11 +11803,11 @@ signed int DBaseMetadataSet(char *name, char *value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSet", 289, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSet", 289, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11823,11 +11823,11 @@ signed int DBaseMetadataSet(char *name, char *value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$4;
-        return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$5;
-        return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSet", 292, rc, return_value_sqlite3_errmsg$5);
+        struct sqlite3 *return_value_DBaseConnectionGet_4;
+        return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_5;
+        return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSet", 292, rc, return_value_sqlite3_errmsg_5);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11853,9 +11853,9 @@ signed int DBaseMetadataSetDouble(char *name, double value)
     sqlstring=sqlite3_mprintf("INSERT OR REPLACE INTO Metadata (name,value) VALUES('%q',%e);", name, value);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -11868,11 +11868,11 @@ signed int DBaseMetadataSetDouble(char *name, double value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSetDouble", 357, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSetDouble", 357, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11888,11 +11888,11 @@ signed int DBaseMetadataSetDouble(char *name, double value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$4;
-        return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$5;
-        return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSetDouble", 360, rc, return_value_sqlite3_errmsg$5);
+        struct sqlite3 *return_value_DBaseConnectionGet_4;
+        return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_5;
+        return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSetDouble", 360, rc, return_value_sqlite3_errmsg_5);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11918,9 +11918,9 @@ signed int DBaseMetadataSetInt(char *name, signed int value)
     sqlstring=sqlite3_mprintf("INSERT OR REPLACE INTO Metadata (name,value) VALUES('%q',%d);", name, value);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -11933,11 +11933,11 @@ signed int DBaseMetadataSetInt(char *name, signed int value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSetInt", 323, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSetInt", 323, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11953,11 +11953,11 @@ signed int DBaseMetadataSetInt(char *name, signed int value)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$4;
-        return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$5;
-        return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSetInt", 326, rc, return_value_sqlite3_errmsg$5);
+        struct sqlite3 *return_value_DBaseConnectionGet_4;
+        return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_5;
+        return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"DBaseMetadataSetInt", 326, rc, return_value_sqlite3_errmsg_5);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -11977,9 +11977,9 @@ signed int DBaseTransactionBegin(void)
 {
   struct sqlite3 *connection;
   connection=DBaseConnectionGet();
-  signed int return_value_sqlite3_exec$1;
-  return_value_sqlite3_exec$1=sqlite3_exec(connection, "BEGIN TRANSACTION;", (signed int (*)(void *, signed int, char **, char **))(void *)0, (void *)0, (char **)(void *)0);
-  return return_value_sqlite3_exec$1;
+  signed int return_value_sqlite3_exec_1;
+  return_value_sqlite3_exec_1=sqlite3_exec(connection, "BEGIN TRANSACTION;", (signed int (*)(void *, signed int, char **, char **))(void *)0, (void *)0, (char **)(void *)0);
+  return return_value_sqlite3_exec_1;
 }
 
 // DBaseTransactionCommit
@@ -11988,9 +11988,9 @@ signed int DBaseTransactionCommit(void)
 {
   struct sqlite3 *connection;
   connection=DBaseConnectionGet();
-  signed int return_value_sqlite3_exec$1;
-  return_value_sqlite3_exec$1=sqlite3_exec(connection, "COMMIT TRANSACTION;", (signed int (*)(void *, signed int, char **, char **))(void *)0, (void *)0, (char **)(void *)0);
-  return return_value_sqlite3_exec$1;
+  signed int return_value_sqlite3_exec_1;
+  return_value_sqlite3_exec_1=sqlite3_exec(connection, "COMMIT TRANSACTION;", (signed int (*)(void *, signed int, char **, char **))(void *)0, (void *)0, (char **)(void *)0);
+  return return_value_sqlite3_exec_1;
 }
 
 // DVBCommandCallback
@@ -12001,10 +12001,10 @@ static void DVBCommandCallback(struct ev_loop *loop, struct ev_io *w, signed int
   char cmd;
   _Bool retune = (_Bool)0;
   ev_io_start(loop, w);
-  signed long int return_value_read$13;
-  return_value_read$13=read(adapter->cmdRecvFd, (void *)&cmd, (unsigned long int)1);
-  _Bool tmp_if_expr$9;
-  if(return_value_read$13 == 1l)
+  signed long int return_value_read_13;
+  return_value_read_13=read(adapter->cmdRecvFd, (void *)&cmd, (unsigned long int)1);
+  _Bool tmp_if_expr_9;
+  if(return_value_read_13 == 1l)
   {
     switch((signed int)cmd)
     {
@@ -12022,11 +12022,11 @@ static void DVBCommandCallback(struct ev_loop *loop, struct ev_io *w, signed int
           adapter->frontEndFd=open(adapter->frontEndPath, 02);
           if(adapter->frontEndFd == -1)
           {
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            char *return_value_strerror$2;
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            LogModule(0, DVBADAPTER, "Failed to open %s : %s\n", (const void *)adapter->frontEndPath, return_value_strerror$2);
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            char *return_value_strerror_2;
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            LogModule(0, DVBADAPTER, "Failed to open %s : %s\n", (const void *)adapter->frontEndPath, return_value_strerror_2);
             goto __CPROVER_DUMP_L16;
           }
 
@@ -12062,15 +12062,15 @@ static void DVBCommandCallback(struct ev_loop *loop, struct ev_io *w, signed int
         {
           adapter->isdbFEParams.frequency = adapter->frontEndRequestedFreq;
           LogModule(3, DVBADAPTER, "ISDB Tuning to %d", adapter->frontEndRequestedFreq);
-          signed int return_value_ioctl$5;
-          return_value_ioctl$5=ioctl(adapter->frontEndFd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(76 << 0)) | sizeof(struct dvb_frontend_parameters) /*36ul*/  << 0 + 8 + 8, &adapter->isdbFEParams);
-          if(!(return_value_ioctl$5 >= 0))
+          signed int return_value_ioctl_5;
+          return_value_ioctl_5=ioctl(adapter->frontEndFd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(76 << 0)) | sizeof(struct dvb_frontend_parameters) /*36ul*/  << 0 + 8 + 8, &adapter->isdbFEParams);
+          if(!(return_value_ioctl_5 >= 0))
           {
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            char *return_value_strerror$4;
-            return_value_strerror$4=strerror(*return_value___errno_location$3);
-            LogModule(0, DVBADAPTER, "FE_SET_FRONTEND: %s\n", return_value_strerror$4);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            char *return_value_strerror_4;
+            return_value_strerror_4=strerror(*return_value___errno_location_3);
+            LogModule(0, DVBADAPTER, "FE_SET_FRONTEND: %s\n", return_value_strerror_4);
           }
 
         }
@@ -12078,35 +12078,35 @@ static void DVBCommandCallback(struct ev_loop *loop, struct ev_io *w, signed int
         else
         {
           adapter->frontEndPropertyArray[(signed long int)1].u.data = adapter->frontEndRequestedFreq;
-          signed int return_value_ioctl$8;
-          return_value_ioctl$8=ioctl(adapter->frontEndFd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(82 << 0)) | sizeof(struct dtv_properties) /*16ul*/  << 0 + 8 + 8, &ClearFrontEndProperties);
-          if(!(return_value_ioctl$8 >= 0))
+          signed int return_value_ioctl_8;
+          return_value_ioctl_8=ioctl(adapter->frontEndFd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(82 << 0)) | sizeof(struct dtv_properties) /*16ul*/  << 0 + 8 + 8, &ClearFrontEndProperties);
+          if(!(return_value_ioctl_8 >= 0))
           {
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            char *return_value_strerror$7;
-            return_value_strerror$7=strerror(*return_value___errno_location$6);
-            LogModule(0, DVBADAPTER, "Clear FE_SET_PROPERTY: %s\n", return_value_strerror$7);
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            char *return_value_strerror_7;
+            return_value_strerror_7=strerror(*return_value___errno_location_6);
+            LogModule(0, DVBADAPTER, "Clear FE_SET_PROPERTY: %s\n", return_value_strerror_7);
           }
 
           LogModule(3, DVBADAPTER, "Tuning to %d", adapter->frontEndRequestedFreq);
           if((signed int)adapter->currentDeliverySystem == DELSYS_DVBS)
-            tmp_if_expr$9 = (_Bool)1;
+            tmp_if_expr_9 = (_Bool)1;
 
           else
-            tmp_if_expr$9 = (signed int)adapter->currentDeliverySystem == DELSYS_DVBS2 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = (signed int)adapter->currentDeliverySystem == DELSYS_DVBS2 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_9)
             DVBFrontEndSatelliteSetup(adapter);
 
-          signed int return_value_ioctl$12;
-          return_value_ioctl$12=ioctl(adapter->frontEndFd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(82 << 0)) | sizeof(struct dtv_properties) /*16ul*/  << 0 + 8 + 8, &adapter->frontEndProperties);
-          if(!(return_value_ioctl$12 >= 0))
+          signed int return_value_ioctl_12;
+          return_value_ioctl_12=ioctl(adapter->frontEndFd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(82 << 0)) | sizeof(struct dtv_properties) /*16ul*/  << 0 + 8 + 8, &adapter->frontEndProperties);
+          if(!(return_value_ioctl_12 >= 0))
           {
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            char *return_value_strerror$11;
-            return_value_strerror$11=strerror(*return_value___errno_location$10);
-            LogModule(0, DVBADAPTER, "Tune FE_SET_PROPERTY: %s\n", return_value_strerror$11);
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            char *return_value_strerror_11;
+            return_value_strerror_11=strerror(*return_value___errno_location_10);
+            LogModule(0, DVBADAPTER, "Tune FE_SET_PROPERTY: %s\n", return_value_strerror_11);
           }
 
         }
@@ -12125,9 +12125,9 @@ __CPROVER_DUMP_L16:
 // file dvbadapter.c line 1261
 static void DVBCommandSend(struct DVBAdapter_s *adapter, char cmd)
 {
-  signed long int return_value_write$1;
-  return_value_write$1=write(adapter->cmdSendFd, (const void *)&cmd, (unsigned long int)1);
-  if(!(return_value_write$1 == 1l))
+  signed long int return_value_write_1;
+  return_value_write_1=write(adapter->cmdSendFd, (const void *)&cmd, (unsigned long int)1);
+  if(!(return_value_write_1 == 1l))
     LogModule(0, DVBADAPTER, "Failed to write to monitor pipe!");
 
 }
@@ -12159,18 +12159,18 @@ signed int DVBDemuxAllocateFilter(struct DVBAdapter_s *adapter, unsigned short i
         break;
       }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(idxToUse == -1))
   {
     LogModule(3, DVBADAPTER, "Allocation filter for pid 0x%x\n", pid);
     adapter->filters[(signed long int)idxToUse].demuxFd=open(adapter->demuxPath, 02);
     if(adapter->filters[(signed long int)idxToUse].demuxFd == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      LogModule(0, DVBADAPTER, "Failed to open %s : %s when attempting to allocate filter for PID 0x%x\n", (const void *)adapter->demuxPath, return_value_strerror$2, pid);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      LogModule(0, DVBADAPTER, "Failed to open %s : %s when attempting to allocate filter for PID 0x%x\n", (const void *)adapter->demuxPath, return_value_strerror_2, pid);
     }
 
     else
@@ -12184,11 +12184,11 @@ signed int DVBDemuxAllocateFilter(struct DVBAdapter_s *adapter, unsigned short i
       pesFilterParam.output = (enum dmx_output)DMX_OUT_TS_TAP;
       pesFilterParam.pes_type = (enum dmx_ts_pes)DMX_PES_OTHER;
       if(!(adapter->frontEndLocked == (_Bool)0))
-        tmp_if_expr$3 = !(adapter->tuning != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = !(adapter->tuning != (_Bool)0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
         LogModule(3, DVBADAPTER, "Starting pid filter immediately!\n");
         pesFilterParam.flags = (unsigned int)4;
@@ -12196,15 +12196,15 @@ signed int DVBDemuxAllocateFilter(struct DVBAdapter_s *adapter, unsigned short i
 
       else
         pesFilterParam.flags = (unsigned int)0;
-      signed int return_value_ioctl$6;
-      return_value_ioctl$6=ioctl(adapter->filters[(signed long int)idxToUse].demuxFd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(44 << 0)) | sizeof(struct dmx_pes_filter_params) /*20ul*/  << 0 + 8 + 8, &pesFilterParam);
-      if(!(return_value_ioctl$6 >= 0))
+      signed int return_value_ioctl_6;
+      return_value_ioctl_6=ioctl(adapter->filters[(signed long int)idxToUse].demuxFd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(44 << 0)) | sizeof(struct dmx_pes_filter_params) /*20ul*/  << 0 + 8 + 8, &pesFilterParam);
+      if(!(return_value_ioctl_6 >= 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        LogModule(0, DVBADAPTER, "set_pid: %s\n", return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        LogModule(0, DVBADAPTER, "set_pid: %s\n", return_value_strerror_5);
       }
 
       else
@@ -12298,39 +12298,39 @@ signed int DVBDemuxSetBufferSize(struct DVBAdapter_s *adapter, unsigned long int
     signed int demuxFd = adapter->filters[(signed long int)0].demuxFd;
     if(!(demuxFd == -1))
     {
-      signed int return_value_ioctl$3;
-      return_value_ioctl$3=ioctl(demuxFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(42 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 0);
-      if(!(return_value_ioctl$3 >= 0))
+      signed int return_value_ioctl_3;
+      return_value_ioctl_3=ioctl(demuxFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(42 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 0);
+      if(!(return_value_ioctl_3 >= 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        LogModule(0, DVBADAPTER, "DMX_STOP: %s\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        LogModule(0, DVBADAPTER, "DMX_STOP: %s\n", return_value_strerror_2);
         return -1;
       }
 
-      signed int return_value_ioctl$6;
-      return_value_ioctl$6=ioctl(demuxFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(45 << 0) | (unsigned int)(0 << 0 + 8 + 8)), size);
-      if(!(return_value_ioctl$6 >= 0))
+      signed int return_value_ioctl_6;
+      return_value_ioctl_6=ioctl(demuxFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(45 << 0) | (unsigned int)(0 << 0 + 8 + 8)), size);
+      if(!(return_value_ioctl_6 >= 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        LogModule(0, DVBADAPTER, "DMX_SET_BUFFER_SIZE: %s\n", return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        LogModule(0, DVBADAPTER, "DMX_SET_BUFFER_SIZE: %s\n", return_value_strerror_5);
         return -1;
       }
 
-      signed int return_value_ioctl$9;
-      return_value_ioctl$9=ioctl(demuxFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(41 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 0);
-      if(!(return_value_ioctl$9 >= 0))
+      signed int return_value_ioctl_9;
+      return_value_ioctl_9=ioctl(demuxFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(41 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 0);
+      if(!(return_value_ioctl_9 >= 0))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        LogModule(0, DVBADAPTER, "DMX_STOP: %s\n", return_value_strerror$8);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        LogModule(0, DVBADAPTER, "DMX_STOP: %s\n", return_value_strerror_8);
         return -1;
       }
 
@@ -12359,15 +12359,15 @@ static signed int DVBDemuxStartFilter(struct DVBAdapter_s *adapter, struct DVBAd
   signed int result = 0;
   (void)adapter;
   LogModule(3, DVBADAPTER, "Starting filter %d\n", filter->pid);
-  signed int return_value_ioctl$3;
-  return_value_ioctl$3=ioctl(filter->demuxFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(41 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
-  if(!(return_value_ioctl$3 >= 0))
+  signed int return_value_ioctl_3;
+  return_value_ioctl_3=ioctl(filter->demuxFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(41 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
+  if(!(return_value_ioctl_3 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    LogModule(0, DVBADAPTER, "filter(fd %d) start: %s\n", filter->demuxFd, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    LogModule(0, DVBADAPTER, "filter(fd %d) start: %s\n", filter->demuxFd, return_value_strerror_2);
     result = -1;
   }
 
@@ -12393,15 +12393,15 @@ static signed int DVBDemuxStopFilter(struct DVBAdapter_s *adapter, struct DVBAda
   signed int result = 0;
   (void)adapter;
   LogModule(3, DVBADAPTER, "Stopping filter %d\n", filter->pid);
-  signed int return_value_ioctl$3;
-  return_value_ioctl$3=ioctl(filter->demuxFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(42 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
-  if(!(return_value_ioctl$3 >= 0))
+  signed int return_value_ioctl_3;
+  return_value_ioctl_3=ioctl(filter->demuxFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(42 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
+  if(!(return_value_ioctl_3 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    LogModule(0, DVBADAPTER, "filter(fd %d) stop: %s\n", filter->demuxFd, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    LogModule(0, DVBADAPTER, "filter(fd %d) stop: %s\n", filter->demuxFd, return_value_strerror_2);
     result = -1;
   }
 
@@ -12496,215 +12496,215 @@ void DVBFrontEndLNBInfoSet(struct DVBAdapter_s *adapter, struct LNBInfo_s *lnbIn
 // file dvbadapter.c line 741
 _Bool DVBFrontEndParameterSupported(struct DVBAdapter_s *adapter, enum DVBDeliverySystem_e system, char *param, char *value)
 {
-  char *DVBFrontEndParameterSupported$$1$$AUTO = "AUTO";
-  _Bool return_value_DVBFrontEndDeliverySystemSupported$67;
-  return_value_DVBFrontEndDeliverySystemSupported$67=DVBFrontEndDeliverySystemSupported(adapter, system);
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcmp$61;
-  _Bool tmp_if_expr$63;
-  signed int return_value_strcmp$62;
-  _Bool tmp_if_expr$65;
-  signed int return_value_strcmp$64;
-  signed int return_value_strcmp$60;
-  _Bool tmp_if_expr$17;
-  signed int return_value_strcmp$16;
-  _Bool tmp_if_expr$19;
-  signed int return_value_strcmp$18;
-  _Bool tmp_if_expr$21;
-  signed int return_value_strcmp$20;
-  signed int return_value_strcmp$59;
-  _Bool tmp_if_expr$25;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$58;
-  signed int return_value_strcmp$57;
-  _Bool tmp_if_expr$30;
-  signed int return_value_strcmp$29;
-  _Bool tmp_if_expr$32;
-  signed int return_value_strcmp$31;
-  _Bool tmp_if_expr$34;
-  signed int return_value_strcmp$33;
-  signed int return_value_strcmp$54;
-  _Bool tmp_if_expr$56;
-  signed int return_value_strcmp$55;
-  _Bool tmp_if_expr$38;
-  signed int return_value_strcasecmp$37;
-  _Bool tmp_if_expr$41;
-  signed int return_value_strcasecmp$40;
-  _Bool tmp_if_expr$44;
-  signed int return_value_strcasecmp$43;
-  _Bool tmp_if_expr$47;
-  signed int return_value_strcasecmp$46;
-  _Bool tmp_if_expr$50;
-  signed int return_value_strcasecmp$49;
-  if(!(return_value_DVBFrontEndDeliverySystemSupported$67 == (_Bool)0))
+  char *DVBFrontEndParameterSupported__1__AUTO = "AUTO";
+  _Bool return_value_DVBFrontEndDeliverySystemSupported_67;
+  return_value_DVBFrontEndDeliverySystemSupported_67=DVBFrontEndDeliverySystemSupported(adapter, system);
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcmp_61;
+  _Bool tmp_if_expr_63;
+  signed int return_value_strcmp_62;
+  _Bool tmp_if_expr_65;
+  signed int return_value_strcmp_64;
+  signed int return_value_strcmp_60;
+  _Bool tmp_if_expr_17;
+  signed int return_value_strcmp_16;
+  _Bool tmp_if_expr_19;
+  signed int return_value_strcmp_18;
+  _Bool tmp_if_expr_21;
+  signed int return_value_strcmp_20;
+  signed int return_value_strcmp_59;
+  _Bool tmp_if_expr_25;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_58;
+  signed int return_value_strcmp_57;
+  _Bool tmp_if_expr_30;
+  signed int return_value_strcmp_29;
+  _Bool tmp_if_expr_32;
+  signed int return_value_strcmp_31;
+  _Bool tmp_if_expr_34;
+  signed int return_value_strcmp_33;
+  signed int return_value_strcmp_54;
+  _Bool tmp_if_expr_56;
+  signed int return_value_strcmp_55;
+  _Bool tmp_if_expr_38;
+  signed int return_value_strcasecmp_37;
+  _Bool tmp_if_expr_41;
+  signed int return_value_strcasecmp_40;
+  _Bool tmp_if_expr_44;
+  signed int return_value_strcasecmp_43;
+  _Bool tmp_if_expr_47;
+  signed int return_value_strcasecmp_46;
+  _Bool tmp_if_expr_50;
+  signed int return_value_strcasecmp_49;
+  if(!(return_value_DVBFrontEndDeliverySystemSupported_67 == (_Bool)0))
   {
-    signed int return_value_strcmp$66;
-    return_value_strcmp$66=strcmp(param, "Inversion");
-    if(return_value_strcmp$66 == 0)
+    signed int return_value_strcmp_66;
+    return_value_strcmp_66=strcmp(param, "Inversion");
+    if(return_value_strcmp_66 == 0)
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(value, DVBFrontEndParameterSupported$$1$$AUTO);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(value, DVBFrontEndParameterSupported__1__AUTO);
+      if(return_value_strcasecmp_1 == 0)
         return (_Bool)((signed int)adapter->info.caps & FE_CAN_INVERSION_AUTO);
 
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(value, "ON");
-      if(return_value_strcasecmp$2 == 0)
-        tmp_if_expr$4 = (_Bool)1;
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(value, "ON");
+      if(return_value_strcasecmp_2 == 0)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$3=strcasecmp(value, "OFF");
-        tmp_if_expr$4 = return_value_strcasecmp$3 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_3=strcasecmp(value, "OFF");
+        tmp_if_expr_4 = return_value_strcasecmp_3 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
         return (_Bool)1;
 
     }
 
     else
     {
-      return_value_strcmp$61=strcmp(param, "FEC");
-      if(return_value_strcmp$61 == 0)
-        tmp_if_expr$63 = (_Bool)1;
+      return_value_strcmp_61=strcmp(param, "FEC");
+      if(return_value_strcmp_61 == 0)
+        tmp_if_expr_63 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$62=strcmp(param, "FEC HP");
-        tmp_if_expr$63 = return_value_strcmp$62 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_62=strcmp(param, "FEC HP");
+        tmp_if_expr_63 = return_value_strcmp_62 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$63)
-        tmp_if_expr$65 = (_Bool)1;
+      if(tmp_if_expr_63)
+        tmp_if_expr_65 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$64=strcmp(param, "FEC LP");
-        tmp_if_expr$65 = return_value_strcmp$64 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_64=strcmp(param, "FEC LP");
+        tmp_if_expr_65 = return_value_strcmp_64 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$65)
+      if(tmp_if_expr_65)
       {
-        signed int return_value_strcasecmp$5;
-        return_value_strcasecmp$5=strcasecmp(value, DVBFrontEndParameterSupported$$1$$AUTO);
-        if(return_value_strcasecmp$5 == 0)
+        signed int return_value_strcasecmp_5;
+        return_value_strcasecmp_5=strcasecmp(value, DVBFrontEndParameterSupported__1__AUTO);
+        if(return_value_strcasecmp_5 == 0)
           return (_Bool)((signed int)adapter->info.caps & FE_CAN_FEC_AUTO);
 
-        signed int return_value_strcmp$6;
-        return_value_strcmp$6=strcmp(value, "1/2");
-        if(return_value_strcmp$6 == 0)
+        signed int return_value_strcmp_6;
+        return_value_strcmp_6=strcmp(value, "1/2");
+        if(return_value_strcmp_6 == 0)
           return (_Bool)((signed int)adapter->info.caps & FE_CAN_FEC_1_2);
 
-        signed int return_value_strcmp$7;
-        return_value_strcmp$7=strcmp(value, "2/3");
-        if(return_value_strcmp$7 == 0)
+        signed int return_value_strcmp_7;
+        return_value_strcmp_7=strcmp(value, "2/3");
+        if(return_value_strcmp_7 == 0)
           return (_Bool)((signed int)adapter->info.caps & FE_CAN_FEC_2_3);
 
-        signed int return_value_strcmp$8;
-        return_value_strcmp$8=strcmp(value, "3/4");
-        if(return_value_strcmp$8 == 0)
+        signed int return_value_strcmp_8;
+        return_value_strcmp_8=strcmp(value, "3/4");
+        if(return_value_strcmp_8 == 0)
           return (_Bool)((signed int)adapter->info.caps & FE_CAN_FEC_3_4);
 
-        signed int return_value_strcmp$9;
-        return_value_strcmp$9=strcmp(value, "4/5");
-        if(return_value_strcmp$9 == 0)
+        signed int return_value_strcmp_9;
+        return_value_strcmp_9=strcmp(value, "4/5");
+        if(return_value_strcmp_9 == 0)
           return (_Bool)((signed int)adapter->info.caps & FE_CAN_FEC_4_5);
 
-        signed int return_value_strcmp$10;
-        return_value_strcmp$10=strcmp(value, "5/6");
-        if(return_value_strcmp$10 == 0)
+        signed int return_value_strcmp_10;
+        return_value_strcmp_10=strcmp(value, "5/6");
+        if(return_value_strcmp_10 == 0)
           return (_Bool)((signed int)adapter->info.caps & FE_CAN_FEC_5_6);
 
-        signed int return_value_strcmp$11;
-        return_value_strcmp$11=strcmp(value, "6/7");
-        if(return_value_strcmp$11 == 0)
+        signed int return_value_strcmp_11;
+        return_value_strcmp_11=strcmp(value, "6/7");
+        if(return_value_strcmp_11 == 0)
           return (_Bool)((signed int)adapter->info.caps & FE_CAN_FEC_6_7);
 
-        signed int return_value_strcmp$12;
-        return_value_strcmp$12=strcmp(value, "7/8");
-        if(return_value_strcmp$12 == 0)
+        signed int return_value_strcmp_12;
+        return_value_strcmp_12=strcmp(value, "7/8");
+        if(return_value_strcmp_12 == 0)
           return (_Bool)((signed int)adapter->info.caps & FE_CAN_FEC_7_8);
 
-        signed int return_value_strcmp$13;
-        return_value_strcmp$13=strcmp(value, "8/9");
-        if(return_value_strcmp$13 == 0)
+        signed int return_value_strcmp_13;
+        return_value_strcmp_13=strcmp(value, "8/9");
+        if(return_value_strcmp_13 == 0)
           return (_Bool)((signed int)adapter->info.caps & FE_CAN_FEC_8_9);
 
       }
 
       else
       {
-        return_value_strcmp$60=strcmp(param, "Guard Interval");
-        if(return_value_strcmp$60 == 0)
+        return_value_strcmp_60=strcmp(param, "Guard Interval");
+        if(return_value_strcmp_60 == 0)
         {
-          signed int return_value_strcmp$14;
-          return_value_strcmp$14=strcmp(value, DVBFrontEndParameterSupported$$1$$AUTO);
-          if(return_value_strcmp$14 == 0)
+          signed int return_value_strcmp_14;
+          return_value_strcmp_14=strcmp(value, DVBFrontEndParameterSupported__1__AUTO);
+          if(return_value_strcmp_14 == 0)
             return (_Bool)((signed int)adapter->info.caps & FE_CAN_GUARD_INTERVAL_AUTO);
 
-          signed int return_value_strcmp$15;
-          return_value_strcmp$15=strcmp(value, "1/32");
-          if(return_value_strcmp$15 == 0)
-            tmp_if_expr$17 = (_Bool)1;
+          signed int return_value_strcmp_15;
+          return_value_strcmp_15=strcmp(value, "1/32");
+          if(return_value_strcmp_15 == 0)
+            tmp_if_expr_17 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$16=strcmp(value, "1/16");
-            tmp_if_expr$17 = return_value_strcmp$16 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_16=strcmp(value, "1/16");
+            tmp_if_expr_17 = return_value_strcmp_16 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$17)
-            tmp_if_expr$19 = (_Bool)1;
+          if(tmp_if_expr_17)
+            tmp_if_expr_19 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$18=strcmp(value, "1/8");
-            tmp_if_expr$19 = return_value_strcmp$18 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_18=strcmp(value, "1/8");
+            tmp_if_expr_19 = return_value_strcmp_18 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$19)
-            tmp_if_expr$21 = (_Bool)1;
+          if(tmp_if_expr_19)
+            tmp_if_expr_21 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$20=strcmp(value, "1/4");
-            tmp_if_expr$21 = return_value_strcmp$20 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_20=strcmp(value, "1/4");
+            tmp_if_expr_21 = return_value_strcmp_20 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$21)
+          if(tmp_if_expr_21)
             return (_Bool)1;
 
         }
 
         else
         {
-          return_value_strcmp$59=strcmp(param, "Transmission Mode");
-          if(return_value_strcmp$59 == 0)
+          return_value_strcmp_59=strcmp(param, "Transmission Mode");
+          if(return_value_strcmp_59 == 0)
           {
-            signed int return_value_strcmp$22;
-            return_value_strcmp$22=strcmp(value, DVBFrontEndParameterSupported$$1$$AUTO);
-            if(return_value_strcmp$22 == 0)
+            signed int return_value_strcmp_22;
+            return_value_strcmp_22=strcmp(value, DVBFrontEndParameterSupported__1__AUTO);
+            if(return_value_strcmp_22 == 0)
               return (_Bool)((signed int)adapter->info.caps & FE_CAN_TRANSMISSION_MODE_AUTO);
 
-            signed int return_value_strcmp$23;
-            return_value_strcmp$23=strcmp(value, "4000");
-            if(return_value_strcmp$23 == 0)
-              tmp_if_expr$25 = (_Bool)1;
+            signed int return_value_strcmp_23;
+            return_value_strcmp_23=strcmp(value, "4000");
+            if(return_value_strcmp_23 == 0)
+              tmp_if_expr_25 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$24=strcmp(value, "2000");
-              tmp_if_expr$25 = return_value_strcmp$24 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_24=strcmp(value, "2000");
+              tmp_if_expr_25 = return_value_strcmp_24 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$25)
+            if(tmp_if_expr_25)
               return (_Bool)1;
 
           }
 
           else
           {
-            return_value_strcmp$58=strcmp(param, "Bandwidth");
-            if(return_value_strcmp$58 == 0)
+            return_value_strcmp_58=strcmp(param, "Bandwidth");
+            if(return_value_strcmp_58 == 0)
             {
-              signed int return_value_strcasecmp$26;
-              return_value_strcasecmp$26=strcasecmp(value, DVBFrontEndParameterSupported$$1$$AUTO);
-              if(return_value_strcasecmp$26 == 0)
+              signed int return_value_strcasecmp_26;
+              return_value_strcasecmp_26=strcasecmp(value, DVBFrontEndParameterSupported__1__AUTO);
+              if(return_value_strcasecmp_26 == 0)
                 return (_Bool)((signed int)adapter->info.caps & FE_CAN_BANDWIDTH_AUTO);
 
               return (_Bool)1;
@@ -12712,41 +12712,41 @@ _Bool DVBFrontEndParameterSupported(struct DVBAdapter_s *adapter, enum DVBDelive
 
             else
             {
-              return_value_strcmp$57=strcmp(param, "Hierarchy");
-              if(return_value_strcmp$57 == 0)
+              return_value_strcmp_57=strcmp(param, "Hierarchy");
+              if(return_value_strcmp_57 == 0)
               {
-                signed int return_value_strcasecmp$27;
-                return_value_strcasecmp$27=strcasecmp(value, DVBFrontEndParameterSupported$$1$$AUTO);
-                if(return_value_strcasecmp$27 == 0)
+                signed int return_value_strcasecmp_27;
+                return_value_strcasecmp_27=strcasecmp(value, DVBFrontEndParameterSupported__1__AUTO);
+                if(return_value_strcasecmp_27 == 0)
                   return (_Bool)((signed int)adapter->info.caps & FE_CAN_HIERARCHY_AUTO);
 
-                signed int return_value_strcasecmp$28;
-                return_value_strcasecmp$28=strcasecmp(value, "NONE");
-                if(return_value_strcasecmp$28 == 0)
-                  tmp_if_expr$30 = (_Bool)1;
+                signed int return_value_strcasecmp_28;
+                return_value_strcasecmp_28=strcasecmp(value, "NONE");
+                if(return_value_strcasecmp_28 == 0)
+                  tmp_if_expr_30 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$29=strcmp(value, "1");
-                  tmp_if_expr$30 = return_value_strcmp$29 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_29=strcmp(value, "1");
+                  tmp_if_expr_30 = return_value_strcmp_29 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$30)
-                  tmp_if_expr$32 = (_Bool)1;
+                if(tmp_if_expr_30)
+                  tmp_if_expr_32 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$31=strcmp(value, "2");
-                  tmp_if_expr$32 = return_value_strcmp$31 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_31=strcmp(value, "2");
+                  tmp_if_expr_32 = return_value_strcmp_31 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$32)
-                  tmp_if_expr$34 = (_Bool)1;
+                if(tmp_if_expr_32)
+                  tmp_if_expr_34 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$33=strcmp(value, "4");
-                  tmp_if_expr$34 = return_value_strcmp$33 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_33=strcmp(value, "4");
+                  tmp_if_expr_34 = return_value_strcmp_33 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$34)
+                if(tmp_if_expr_34)
                   return (_Bool)1;
 
                 return (_Bool)1;
@@ -12754,100 +12754,100 @@ _Bool DVBFrontEndParameterSupported(struct DVBAdapter_s *adapter, enum DVBDelive
 
               else
               {
-                return_value_strcmp$54=strcmp(param, "Modulation");
-                if(return_value_strcmp$54 == 0)
-                  tmp_if_expr$56 = (_Bool)1;
+                return_value_strcmp_54=strcmp(param, "Modulation");
+                if(return_value_strcmp_54 == 0)
+                  tmp_if_expr_56 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$55=strcmp(param, "Constellation");
-                  tmp_if_expr$56 = return_value_strcmp$55 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_55=strcmp(param, "Constellation");
+                  tmp_if_expr_56 = return_value_strcmp_55 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$56)
+                if(tmp_if_expr_56)
                 {
-                  signed int return_value_strcasecmp$35;
-                  return_value_strcasecmp$35=strcasecmp(value, "QPSK");
-                  if(return_value_strcasecmp$35 == 0)
+                  signed int return_value_strcasecmp_35;
+                  return_value_strcasecmp_35=strcasecmp(value, "QPSK");
+                  if(return_value_strcasecmp_35 == 0)
                     return (_Bool)((signed int)adapter->info.caps & FE_CAN_QPSK);
 
-                  signed int return_value_strcasecmp$36;
-                  return_value_strcasecmp$36=strcasecmp(value, "16QAM");
-                  if(return_value_strcasecmp$36 == 0)
-                    tmp_if_expr$38 = (_Bool)1;
+                  signed int return_value_strcasecmp_36;
+                  return_value_strcasecmp_36=strcasecmp(value, "16QAM");
+                  if(return_value_strcasecmp_36 == 0)
+                    tmp_if_expr_38 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcasecmp$37=strcasecmp(value, "QAM16");
-                    tmp_if_expr$38 = return_value_strcasecmp$37 == 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcasecmp_37=strcasecmp(value, "QAM16");
+                    tmp_if_expr_38 = return_value_strcasecmp_37 == 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$38)
+                  if(tmp_if_expr_38)
                     return (_Bool)((signed int)adapter->info.caps & FE_CAN_QAM_16);
 
-                  signed int return_value_strcasecmp$39;
-                  return_value_strcasecmp$39=strcasecmp(value, "32QAM");
-                  if(return_value_strcasecmp$39 == 0)
-                    tmp_if_expr$41 = (_Bool)1;
+                  signed int return_value_strcasecmp_39;
+                  return_value_strcasecmp_39=strcasecmp(value, "32QAM");
+                  if(return_value_strcasecmp_39 == 0)
+                    tmp_if_expr_41 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcasecmp$40=strcasecmp(value, "QAM32");
-                    tmp_if_expr$41 = return_value_strcasecmp$40 == 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcasecmp_40=strcasecmp(value, "QAM32");
+                    tmp_if_expr_41 = return_value_strcasecmp_40 == 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$41)
+                  if(tmp_if_expr_41)
                     return (_Bool)((signed int)adapter->info.caps & FE_CAN_QAM_32);
 
-                  signed int return_value_strcasecmp$42;
-                  return_value_strcasecmp$42=strcasecmp(value, "64QAM");
-                  if(return_value_strcasecmp$42 == 0)
-                    tmp_if_expr$44 = (_Bool)1;
+                  signed int return_value_strcasecmp_42;
+                  return_value_strcasecmp_42=strcasecmp(value, "64QAM");
+                  if(return_value_strcasecmp_42 == 0)
+                    tmp_if_expr_44 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcasecmp$43=strcasecmp(value, "QAM64");
-                    tmp_if_expr$44 = return_value_strcasecmp$43 == 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcasecmp_43=strcasecmp(value, "QAM64");
+                    tmp_if_expr_44 = return_value_strcasecmp_43 == 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$44)
+                  if(tmp_if_expr_44)
                     return (_Bool)((signed int)adapter->info.caps & FE_CAN_QAM_64);
 
-                  signed int return_value_strcasecmp$45;
-                  return_value_strcasecmp$45=strcasecmp(value, "128QAM");
-                  if(return_value_strcasecmp$45 == 0)
-                    tmp_if_expr$47 = (_Bool)1;
+                  signed int return_value_strcasecmp_45;
+                  return_value_strcasecmp_45=strcasecmp(value, "128QAM");
+                  if(return_value_strcasecmp_45 == 0)
+                    tmp_if_expr_47 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcasecmp$46=strcasecmp(value, "QAM128");
-                    tmp_if_expr$47 = return_value_strcasecmp$46 == 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcasecmp_46=strcasecmp(value, "QAM128");
+                    tmp_if_expr_47 = return_value_strcasecmp_46 == 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$47)
+                  if(tmp_if_expr_47)
                     return (_Bool)((signed int)adapter->info.caps & FE_CAN_QAM_128);
 
-                  signed int return_value_strcasecmp$48;
-                  return_value_strcasecmp$48=strcasecmp(value, "256QAM");
-                  if(return_value_strcasecmp$48 == 0)
-                    tmp_if_expr$50 = (_Bool)1;
+                  signed int return_value_strcasecmp_48;
+                  return_value_strcasecmp_48=strcasecmp(value, "256QAM");
+                  if(return_value_strcasecmp_48 == 0)
+                    tmp_if_expr_50 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcasecmp$49=strcasecmp(value, "QAM256");
-                    tmp_if_expr$50 = return_value_strcasecmp$49 == 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcasecmp_49=strcasecmp(value, "QAM256");
+                    tmp_if_expr_50 = return_value_strcasecmp_49 == 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$50)
+                  if(tmp_if_expr_50)
                     return (_Bool)((signed int)adapter->info.caps & FE_CAN_QAM_256);
 
-                  signed int return_value_strcasecmp$51;
-                  return_value_strcasecmp$51=strcasecmp(value, "AUTO");
-                  if(return_value_strcasecmp$51 == 0)
+                  signed int return_value_strcasecmp_51;
+                  return_value_strcasecmp_51=strcasecmp(value, "AUTO");
+                  if(return_value_strcasecmp_51 == 0)
                     return (_Bool)((signed int)adapter->info.caps & FE_CAN_QAM_AUTO);
 
-                  signed int return_value_strcasecmp$52;
-                  return_value_strcasecmp$52=strcasecmp(value, "8VSB");
-                  if(return_value_strcasecmp$52 == 0)
+                  signed int return_value_strcasecmp_52;
+                  return_value_strcasecmp_52=strcasecmp(value, "8VSB");
+                  if(return_value_strcasecmp_52 == 0)
                     return (_Bool)((signed int)adapter->info.caps & FE_CAN_8VSB);
 
-                  signed int return_value_strcasecmp$53;
-                  return_value_strcasecmp$53=strcasecmp(value, "16VSB");
-                  if(return_value_strcasecmp$53 == 0)
+                  signed int return_value_strcasecmp_53;
+                  return_value_strcasecmp_53=strcasecmp(value, "16VSB");
+                  if(return_value_strcasecmp_53 == 0)
                     return (_Bool)((signed int)adapter->info.caps & FE_CAN_16VSB);
 
                 }
@@ -12889,18 +12889,18 @@ static signed int DVBFrontEndSatelliteSetup(struct DVBAdapter_s *adapter)
 {
   _Bool tone = (_Bool)0;
   struct dvb_diseqc_master_cmd cmd = { .msg={ (unsigned char)0xe0, (unsigned char)0x10, (unsigned char)0x38, (unsigned char)0xf0, (unsigned char)0x00, (unsigned char)0x00 }, .msg_len=(unsigned char)4 };
-  unsigned long int return_value_LNBTransponderToIntermediateFreq$1;
-  return_value_LNBTransponderToIntermediateFreq$1=LNBTransponderToIntermediateFreq(&adapter->lnbInfo, (unsigned long int)adapter->frontEndPropertyArray[(signed long int)1].u.data, &tone);
-  adapter->frontEndPropertyArray[(signed long int)1].u.data = (unsigned int)return_value_LNBTransponderToIntermediateFreq$1;
-  _Bool tmp_if_expr$2;
+  unsigned long int return_value_LNBTransponderToIntermediateFreq_1;
+  return_value_LNBTransponderToIntermediateFreq_1=LNBTransponderToIntermediateFreq(&adapter->lnbInfo, (unsigned long int)adapter->frontEndPropertyArray[(signed long int)1].u.data, &tone);
+  adapter->frontEndPropertyArray[(signed long int)1].u.data = (unsigned int)return_value_LNBTransponderToIntermediateFreq_1;
+  _Bool tmp_if_expr_2;
   do
   {
     if(!(adapter->frontEndPropertyArray[1l].u.data >= adapter->info.frequency_min))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = adapter->frontEndPropertyArray[(signed long int)1].u.data > adapter->info.frequency_max ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = adapter->frontEndPropertyArray[(signed long int)1].u.data > adapter->info.frequency_max ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       LogModule(0, DVBADAPTER, "IFreq (%lu) outside of adapters range (%lu ... %lu), wrong LNB settings?", adapter->frontEndPropertyArray[(signed long int)1].u.data, adapter->info.frequency_min, adapter->info.frequency_max);
 
   }
@@ -12908,33 +12908,33 @@ static signed int DVBFrontEndSatelliteSetup(struct DVBAdapter_s *adapter)
   if(adapter->lnbSharing == (_Bool)0)
   {
     cmd.msg[(signed long int)3] = (unsigned char)((unsigned int)0xf0 | adapter->satelliteSettings.satellite_number * (unsigned int)4 & (unsigned int)0x0f | (unsigned int)(tone != (_Bool)0 ? 1 : 0) | (unsigned int)(adapter->satelliteSettings.polarisation != (enum Polarisation_e)0 ? 0 : 2));
-    signed int return_value_ioctl$3;
-    return_value_ioctl$3=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(66 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 1);
-    if(!(return_value_ioctl$3 >= 0))
+    signed int return_value_ioctl_3;
+    return_value_ioctl_3=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(66 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 1);
+    if(!(return_value_ioctl_3 >= 0))
       return -1;
 
     usleep((unsigned int)15000);
-    signed int return_value_ioctl$4;
-    return_value_ioctl$4=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(67 << 0) | (unsigned int)(0 << 0 + 8 + 8)), adapter->satelliteSettings.polarisation != (enum Polarisation_e)0 ? 0 : 1);
-    if(!(return_value_ioctl$4 >= 0))
+    signed int return_value_ioctl_4;
+    return_value_ioctl_4=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(67 << 0) | (unsigned int)(0 << 0 + 8 + 8)), adapter->satelliteSettings.polarisation != (enum Polarisation_e)0 ? 0 : 1);
+    if(!(return_value_ioctl_4 >= 0))
       return -1;
 
     usleep((unsigned int)15000);
-    signed int return_value_ioctl$5;
-    return_value_ioctl$5=ioctl(adapter->frontEndFd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(63 << 0)) | sizeof(struct dvb_diseqc_master_cmd) /*7ul*/  << 0 + 8 + 8, &cmd);
-    if(!(return_value_ioctl$5 >= 0))
+    signed int return_value_ioctl_5;
+    return_value_ioctl_5=ioctl(adapter->frontEndFd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(63 << 0)) | sizeof(struct dvb_diseqc_master_cmd) /*7ul*/  << 0 + 8 + 8, &cmd);
+    if(!(return_value_ioctl_5 >= 0))
       return -1;
 
     usleep((unsigned int)15000);
-    signed int return_value_ioctl$6;
-    return_value_ioctl$6=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(65 << 0) | (unsigned int)(0 << 0 + 8 + 8)), adapter->satelliteSettings.satellite_number % (unsigned int)2 != 0u ? 1 : 0);
-    if(!(return_value_ioctl$6 >= 0))
+    signed int return_value_ioctl_6;
+    return_value_ioctl_6=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(65 << 0) | (unsigned int)(0 << 0 + 8 + 8)), adapter->satelliteSettings.satellite_number % (unsigned int)2 != 0u ? 1 : 0);
+    if(!(return_value_ioctl_6 >= 0))
       return -1;
 
     usleep((unsigned int)15000);
-    signed int return_value_ioctl$7;
-    return_value_ioctl$7=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(66 << 0) | (unsigned int)(0 << 0 + 8 + 8)), tone != (_Bool)0 ? 0 : 1);
-    if(!(return_value_ioctl$7 >= 0))
+    signed int return_value_ioctl_7;
+    return_value_ioctl_7=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(66 << 0) | (unsigned int)(0 << 0 + 8 + 8)), tone != (_Bool)0 ? 0 : 1);
+    if(!(return_value_ioctl_7 >= 0))
       return -1;
 
     usleep((unsigned int)15000);
@@ -12959,15 +12959,15 @@ signed int DVBFrontEndStatus(struct DVBAdapter_s *adapter, enum DVBFrontEndStatu
   unsigned short int tempU16;
   if(!(status == ((enum DVBFrontEndStatus_e *)NULL)))
   {
-    signed int return_value_ioctl$3;
-    return_value_ioctl$3=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(69 << 0)) | sizeof(enum fe_status) /*4ul*/  << 0 + 8 + 8, (enum fe_status *)status);
-    if(!(return_value_ioctl$3 >= 0))
+    signed int return_value_ioctl_3;
+    return_value_ioctl_3=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(69 << 0)) | sizeof(enum fe_status) /*4ul*/  << 0 + 8 + 8, (enum fe_status *)status);
+    if(!(return_value_ioctl_3 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      LogModule(0, DVBADAPTER, "FE_READ_STATUS: %s\n", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      LogModule(0, DVBADAPTER, "FE_READ_STATUS: %s\n", return_value_strerror_2);
       return -1;
     }
 
@@ -12975,15 +12975,15 @@ signed int DVBFrontEndStatus(struct DVBAdapter_s *adapter, enum DVBFrontEndStatu
 
   if(!(ber == ((unsigned int *)NULL)))
   {
-    signed int return_value_ioctl$6;
-    return_value_ioctl$6=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(70 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &tempU32);
-    if(!(return_value_ioctl$6 >= 0))
+    signed int return_value_ioctl_6;
+    return_value_ioctl_6=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(70 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &tempU32);
+    if(!(return_value_ioctl_6 >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      LogModule(1, DVBADAPTER, "FE_READ_BER: %s\n", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      LogModule(1, DVBADAPTER, "FE_READ_BER: %s\n", return_value_strerror_5);
       *ber = 0xffffffff;
     }
 
@@ -12993,15 +12993,15 @@ signed int DVBFrontEndStatus(struct DVBAdapter_s *adapter, enum DVBFrontEndStatu
 
   if(!(strength == ((unsigned int *)NULL)))
   {
-    signed int return_value_ioctl$9;
-    return_value_ioctl$9=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(71 << 0)) | sizeof(unsigned short int) /*2ul*/  << 0 + 8 + 8, &tempU16);
-    if(!(return_value_ioctl$9 >= 0))
+    signed int return_value_ioctl_9;
+    return_value_ioctl_9=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(71 << 0)) | sizeof(unsigned short int) /*2ul*/  << 0 + 8 + 8, &tempU16);
+    if(!(return_value_ioctl_9 >= 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      LogModule(1, DVBADAPTER, "FE_READ_SIGNAL_STRENGTH: %s\n", return_value_strerror$8);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      LogModule(1, DVBADAPTER, "FE_READ_SIGNAL_STRENGTH: %s\n", return_value_strerror_8);
       *strength = (unsigned int)0xffff;
     }
 
@@ -13011,15 +13011,15 @@ signed int DVBFrontEndStatus(struct DVBAdapter_s *adapter, enum DVBFrontEndStatu
 
   if(!(snr == ((unsigned int *)NULL)))
   {
-    signed int return_value_ioctl$12;
-    return_value_ioctl$12=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(72 << 0)) | sizeof(unsigned short int) /*2ul*/  << 0 + 8 + 8, &tempU16);
-    if(!(return_value_ioctl$12 >= 0))
+    signed int return_value_ioctl_12;
+    return_value_ioctl_12=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(72 << 0)) | sizeof(unsigned short int) /*2ul*/  << 0 + 8 + 8, &tempU16);
+    if(!(return_value_ioctl_12 >= 0))
     {
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      char *return_value_strerror$11;
-      return_value_strerror$11=strerror(*return_value___errno_location$10);
-      LogModule(1, DVBADAPTER, "FE_READ_SNR: %s\n", return_value_strerror$11);
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      char *return_value_strerror_11;
+      return_value_strerror_11=strerror(*return_value___errno_location_10);
+      LogModule(1, DVBADAPTER, "FE_READ_SNR: %s\n", return_value_strerror_11);
       *snr = (unsigned int)0xffff;
     }
 
@@ -13029,15 +13029,15 @@ signed int DVBFrontEndStatus(struct DVBAdapter_s *adapter, enum DVBFrontEndStatu
 
   if(!(ucblock == ((unsigned int *)NULL)))
   {
-    signed int return_value_ioctl$15;
-    return_value_ioctl$15=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(73 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &tempU32);
-    if(!(return_value_ioctl$15 >= 0))
+    signed int return_value_ioctl_15;
+    return_value_ioctl_15=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(73 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &tempU32);
+    if(!(return_value_ioctl_15 >= 0))
     {
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      char *return_value_strerror$14;
-      return_value_strerror$14=strerror(*return_value___errno_location$13);
-      LogModule(1, DVBADAPTER, "FE_READ_UNCORRECTED_BLOCKS: %s\n", return_value_strerror$14);
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      char *return_value_strerror_14;
+      return_value_strerror_14=strerror(*return_value___errno_location_13);
+      LogModule(1, DVBADAPTER, "FE_READ_UNCORRECTED_BLOCKS: %s\n", return_value_strerror_14);
       *ucblock = 0xffffffff;
     }
 
@@ -13054,9 +13054,9 @@ signed int DVBFrontEndTune(struct DVBAdapter_s *adapter, enum DVBDeliverySystem_
 {
   struct yaml_document_s document;
   memset((void *)&document, 0, sizeof(struct yaml_document_s) /*104ul*/ );
-  signed int return_value_YamlUtils_Parse$1;
-  return_value_YamlUtils_Parse$1=YamlUtils_Parse(params, &document);
-  if(!(return_value_YamlUtils_Parse$1 == 0))
+  signed int return_value_YamlUtils_Parse_1;
+  return_value_YamlUtils_Parse_1=YamlUtils_Parse(params, &document);
+  if(!(return_value_YamlUtils_Parse_1 == 0))
   {
     adapter->currentDeliverySystem = system;
     ConvertYamlToDTVProperties(system, &document, adapter);
@@ -13076,9 +13076,9 @@ static void DVBFrontendCallback(struct ev_loop *loop, struct ev_io *w, signed in
   struct dvb_frontend_event event;
   _Bool feLocked = adapter->frontEndLocked;
   ev_io_start(loop, w);
-  signed int return_value_ioctl$5;
-  return_value_ioctl$5=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(78 << 0)) | sizeof(struct dvb_frontend_event) /*40ul*/  << 0 + 8 + 8, &event);
-  if(return_value_ioctl$5 == 0)
+  signed int return_value_ioctl_5;
+  return_value_ioctl_5=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(78 << 0)) | sizeof(struct dvb_frontend_event) /*40ul*/  << 0 + 8 + 8, &event);
+  if(return_value_ioctl_5 == 0)
   {
     if(!((FE_HAS_LOCK & (signed int)event.status) == 0))
       feLocked = (_Bool)1;
@@ -13093,18 +13093,18 @@ static void DVBFrontendCallback(struct ev_loop *loop, struct ev_io *w, signed in
         adapter->tuning = (_Bool)0;
         DVBDemuxStartAllFilters(adapter);
         adapter->frontEndProperties.num = adapter->frontEndProperties.num - 1u;
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
-        signed int return_value_ioctl$4;
-        return_value_ioctl$4=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(83 << 0)) | sizeof(struct dtv_properties) /*16ul*/  << 0 + 8 + 8, &adapter->frontEndProperties);
-        if(!(return_value_ioctl$4 == 0))
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
+        signed int return_value_ioctl_4;
+        return_value_ioctl_4=ioctl(adapter->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(83 << 0)) | sizeof(struct dtv_properties) /*16ul*/  << 0 + 8 + 8, &adapter->frontEndProperties);
+        if(!(return_value_ioctl_4 == 0))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          LogModule(0, DVBADAPTER, "FE_GET_PROPERTY: %s\n", return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          LogModule(0, DVBADAPTER, "FE_GET_PROPERTY: %s\n", return_value_strerror_3);
         }
 
         adapter->frontEndProperties.num = adapter->frontEndProperties.num + 1u;
@@ -13145,11 +13145,11 @@ struct DVBAdapter_s * DVBInit(signed int adapter, _Bool hwRestricted, _Bool forc
 
   ObjectRegisterClass("DVBAdapter_t", (unsigned int)sizeof(struct DVBAdapter_s) /*7424ul*/ , (void (*)(void *))(void *)0);
   ObjectRegisterCollection("DVBSupportedDeliverySys_t", (unsigned int)sizeof(enum DVBDeliverySystem_e) /*4ul*/ , (void (*)(void *))(void *)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("DVBAdapter_t", "dvbadapter.c", 418);
-  result = (struct DVBAdapter_s *)return_value_ObjectCreateImpl$1;
-  struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$10;
-  struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$13;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("DVBAdapter_t", "dvbadapter.c", 418);
+  result = (struct DVBAdapter_s *)return_value_ObjectCreateImpl_1;
+  struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_10;
+  struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_13;
   if(!(result == ((struct DVBAdapter_s *)NULL)))
   {
     signed int i;
@@ -13182,24 +13182,24 @@ struct DVBAdapter_s * DVBInit(signed int adapter, _Bool hwRestricted, _Bool forc
     result->frontEndFd=open(result->frontEndPath, 02);
     if(result->frontEndFd == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      LogModule(0, DVBADAPTER, "Failed to open %s : %s\n", (const void *)result->frontEndPath, return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      LogModule(0, DVBADAPTER, "Failed to open %s : %s\n", (const void *)result->frontEndPath, return_value_strerror_3);
       ObjectRefDecImpl((void *)result, "dvbadapter.c", 459);
       return (struct DVBAdapter_s *)(void *)0;
     }
 
-    signed int return_value_ioctl$6;
-    return_value_ioctl$6=ioctl(result->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(61 << 0)) | sizeof(struct dvb_frontend_info) /*168ul*/  << 0 + 8 + 8, &result->info);
-    if(!(return_value_ioctl$6 >= 0))
+    signed int return_value_ioctl_6;
+    return_value_ioctl_6=ioctl(result->frontEndFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(61 << 0)) | sizeof(struct dvb_frontend_info) /*168ul*/  << 0 + 8 + 8, &result->info);
+    if(!(return_value_ioctl_6 >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      LogModule(0, DVBADAPTER, "Failed to get front end info: %s\n", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      LogModule(0, DVBADAPTER, "Failed to get front end info: %s\n", return_value_strerror_5);
       ObjectRefDecImpl((void *)result, "dvbadapter.c", 467);
       return (struct DVBAdapter_s *)(void *)0;
     }
@@ -13208,9 +13208,9 @@ struct DVBAdapter_s * DVBInit(signed int adapter, _Bool hwRestricted, _Bool forc
     LogModule(1, DVBADAPTER, "Caps 0x%08x", result->info.caps);
     if(!(forceISDB == (_Bool)0))
     {
-      struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$7;
-      return_value_ObjectCollectionCreateImpl$7=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)1, "dvbadapter.c", 474);
-      result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl$7;
+      struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_7;
+      return_value_ObjectCollectionCreateImpl_7=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)1, "dvbadapter.c", 474);
+      result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl_7;
       result->supportedDelSystems->systems[(signed long int)0] = (enum DVBDeliverySystem_e)DELSYS_ISDBT;
       result->forcedISDB = forceISDB;
     }
@@ -13222,18 +13222,18 @@ struct DVBAdapter_s * DVBInit(signed int adapter, _Bool hwRestricted, _Bool forc
         {
           if(!((FE_CAN_2G_MODULATION & (signed int)result->info.caps) == 0))
           {
-            struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$8;
-            return_value_ObjectCollectionCreateImpl$8=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)2, "dvbadapter.c", 486);
-            result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl$8;
+            struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_8;
+            return_value_ObjectCollectionCreateImpl_8=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)2, "dvbadapter.c", 486);
+            result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl_8;
             result->supportedDelSystems->systems[(signed long int)0] = (enum DVBDeliverySystem_e)DELSYS_DVBS;
             result->supportedDelSystems->systems[(signed long int)1] = (enum DVBDeliverySystem_e)DELSYS_DVBS2;
           }
 
           else
           {
-            struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$9;
-            return_value_ObjectCollectionCreateImpl$9=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)1, "dvbadapter.c", 493);
-            result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl$9;
+            struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_9;
+            return_value_ObjectCollectionCreateImpl_9=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)1, "dvbadapter.c", 493);
+            result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl_9;
             result->supportedDelSystems->systems[(signed long int)0] = (enum DVBDeliverySystem_e)DELSYS_DVBS;
           }
           lnbInput = (_Bool)1;
@@ -13241,8 +13241,8 @@ struct DVBAdapter_s * DVBInit(signed int adapter, _Bool hwRestricted, _Bool forc
         }
         case FE_QAM:
         {
-          return_value_ObjectCollectionCreateImpl$10=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)1, "dvbadapter.c", 499);
-          result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl$10;
+          return_value_ObjectCollectionCreateImpl_10=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)1, "dvbadapter.c", 499);
+          result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl_10;
           result->supportedDelSystems->systems[(signed long int)0] = (enum DVBDeliverySystem_e)DELSYS_DVBC;
           break;
         }
@@ -13250,52 +13250,52 @@ struct DVBAdapter_s * DVBInit(signed int adapter, _Bool hwRestricted, _Bool forc
         {
           if(!((FE_CAN_2G_MODULATION & (signed int)result->info.caps) == 0))
           {
-            struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$11;
-            return_value_ObjectCollectionCreateImpl$11=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)2, "dvbadapter.c", 506);
-            result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl$11;
+            struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_11;
+            return_value_ObjectCollectionCreateImpl_11=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)2, "dvbadapter.c", 506);
+            result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl_11;
             result->supportedDelSystems->systems[(signed long int)0] = (enum DVBDeliverySystem_e)DELSYS_DVBT;
             result->supportedDelSystems->systems[(signed long int)1] = (enum DVBDeliverySystem_e)DELSYS_DVBT2;
           }
 
           else
           {
-            struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$12;
-            return_value_ObjectCollectionCreateImpl$12=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)1, "dvbadapter.c", 513);
-            result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl$12;
+            struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_12;
+            return_value_ObjectCollectionCreateImpl_12=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)1, "dvbadapter.c", 513);
+            result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl_12;
             result->supportedDelSystems->systems[(signed long int)0] = (enum DVBDeliverySystem_e)DELSYS_DVBT;
           }
           break;
         }
         case FE_ATSC:
         {
-          return_value_ObjectCollectionCreateImpl$13=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)1, "dvbadapter.c", 518);
-          result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl$13;
+          return_value_ObjectCollectionCreateImpl_13=ObjectCollectionCreateImpl("DVBSupportedDeliverySys_t", (unsigned int)1, "dvbadapter.c", 518);
+          result->supportedDelSystems = (struct DVBSupportedDeliverySys_s *)return_value_ObjectCollectionCreateImpl_13;
           result->supportedDelSystems->systems[(signed long int)0] = (enum DVBDeliverySystem_e)DELSYS_ATSC;
         }
       }
     result->dvrFd=open(result->dvrPath, 00 | 04000);
     if(result->dvrFd == -1)
     {
-      signed int *return_value___errno_location$14;
-      return_value___errno_location$14=__errno_location();
-      char *return_value_strerror$15;
-      return_value_strerror$15=strerror(*return_value___errno_location$14);
-      LogModule(0, DVBADAPTER, "Failed to open %s : %s\n", (const void *)result->dvrPath, return_value_strerror$15);
+      signed int *return_value___errno_location_14;
+      return_value___errno_location_14=__errno_location();
+      char *return_value_strerror_15;
+      return_value_strerror_15=strerror(*return_value___errno_location_14);
+      LogModule(0, DVBADAPTER, "Failed to open %s : %s\n", (const void *)result->dvrPath, return_value_strerror_15);
       ObjectRefDecImpl((void *)result->supportedDelSystems, "dvbadapter.c", 528);
       close(result->frontEndFd);
       ObjectRefDecImpl((void *)result, "dvbadapter.c", 530);
       return (struct DVBAdapter_s *)(void *)0;
     }
 
-    signed int return_value_pipe$18;
-    return_value_pipe$18=pipe(monitorFds);
-    if(return_value_pipe$18 == -1)
+    signed int return_value_pipe_18;
+    return_value_pipe_18=pipe(monitorFds);
+    if(return_value_pipe_18 == -1)
     {
-      signed int *return_value___errno_location$16;
-      return_value___errno_location$16=__errno_location();
-      char *return_value_strerror$17;
-      return_value_strerror$17=strerror(*return_value___errno_location$16);
-      LogModule(0, DVBADAPTER, "Failed to create pipe : %s\n", return_value_strerror$17);
+      signed int *return_value___errno_location_16;
+      return_value___errno_location_16=__errno_location();
+      char *return_value_strerror_17;
+      return_value_strerror_17=strerror(*return_value___errno_location_16);
+      LogModule(0, DVBADAPTER, "Failed to create pipe : %s\n", return_value_strerror_17);
       ObjectRefDecImpl((void *)result->supportedDelSystems, "dvbadapter.c", 537);
       close(result->dvrFd);
       close(result->frontEndFd);
@@ -13315,9 +13315,9 @@ struct DVBAdapter_s * DVBInit(signed int adapter, _Bool hwRestricted, _Bool forc
       fp=fopen(sysPath, "r");
       if(!(fp == ((struct _IO_FILE *)NULL)))
       {
-        signed int return_value_fscanf$19;
-        return_value_fscanf$19=fscanf(fp, "%d", &speed);
-        if(!(return_value_fscanf$19 == 0))
+        signed int return_value_fscanf_19;
+        return_value_fscanf_19=fscanf(fp, "%d", &speed);
+        if(!(return_value_fscanf_19 == 0))
         {
           LogModule(1, DVBADAPTER, "Bus speed = %d!\n", speed);
           if(!(speed >= 13))
@@ -13428,9 +13428,9 @@ static signed int DVBPropertyActiveGet(void *userArg, struct PropertyValue_s *va
 static signed int DVBPropertyActiveSet(void *userArg, struct PropertyValue_s *value)
 {
   struct DVBAdapter_s *adapter = (struct DVBAdapter_s *)userArg;
-  signed int return_value_DVBFrontEndSetActive$1;
-  return_value_DVBFrontEndSetActive$1=DVBFrontEndSetActive(adapter, value->u.boolean);
-  return return_value_DVBFrontEndSetActive$1;
+  signed int return_value_DVBFrontEndSetActive_1;
+  return_value_DVBFrontEndSetActive_1=DVBFrontEndSetActive(adapter, value->u.boolean);
+  return return_value_DVBFrontEndSetActive_1;
 }
 
 // DVBPropertyDeliverySystemsGet
@@ -13443,20 +13443,20 @@ static signed int DVBPropertyDeliverySystemsGet(void *userArg, struct PropertyVa
   i = 0;
   for( ; !(i >= adapter->supportedDelSystems->nrofSystems); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(DVBDeliverySystemStr[(signed long int)adapter->supportedDelSystems->systems[(signed long int)i]]);
-    size = size + (signed int)((unsigned long int)2 + return_value_strlen$1 + (unsigned long int)1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(DVBDeliverySystemStr[(signed long int)adapter->supportedDelSystems->systems[(signed long int)i]]);
+    size = size + (signed int)((unsigned long int)2 + return_value_strlen_1 + (unsigned long int)1);
   }
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(size + 1));
-  value->u.string = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(size + 1));
+  value->u.string = (char *)return_value_malloc_2;
   value->u.string[(signed long int)0] = (char)0;
   i = 0;
   for( ; !(i >= adapter->supportedDelSystems->nrofSystems); i = i + 1)
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(value->u.string);
-    sprintf(value->u.string + (signed long int)return_value_strlen$3, "- %s\n", DVBDeliverySystemStr[(signed long int)adapter->supportedDelSystems->systems[(signed long int)i]]);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(value->u.string);
+    sprintf(value->u.string + (signed long int)return_value_strlen_3, "- %s\n", DVBDeliverySystemStr[(signed long int)adapter->supportedDelSystems->systems[(signed long int)i]]);
   }
   return 0;
 }
@@ -13518,9 +13518,9 @@ static signed int DVBPropertyLNBNameSet(void *userArg, struct PropertyValue_s *v
 {
   struct DVBAdapter_s *adapter = (struct DVBAdapter_s *)userArg;
   struct LNBInfo_s newInfo;
-  signed int return_value_LNBDecode$1;
-  return_value_LNBDecode$1=LNBDecode(value->u.string, &newInfo);
-  if(!(return_value_LNBDecode$1 == 0))
+  signed int return_value_LNBDecode_1;
+  return_value_LNBDecode_1=LNBDecode(value->u.string, &newInfo);
+  if(!(return_value_LNBDecode_1 == 0))
     return -1;
 
   else
@@ -13547,14 +13547,14 @@ static signed int DVBPropertyLNBSharingSet(void *userArg, struct PropertyValue_s
   adapter->lnbSharing = value->u.boolean;
   if(!(adapter->lnbSharing == (_Bool)0))
   {
-    signed int return_value_ioctl$1;
-    return_value_ioctl$1=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(66 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 1);
-    if(!(return_value_ioctl$1 >= 0))
+    signed int return_value_ioctl_1;
+    return_value_ioctl_1=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(66 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 1);
+    if(!(return_value_ioctl_1 >= 0))
       LogModule(0, DVBADAPTER, "Failed to set tone off");
 
-    signed int return_value_ioctl$2;
-    return_value_ioctl$2=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(67 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 2);
-    if(!(return_value_ioctl$2 >= 0))
+    signed int return_value_ioctl_2;
+    return_value_ioctl_2=ioctl(adapter->frontEndFd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(67 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 2);
+    if(!(return_value_ioctl_2 >= 0))
       LogModule(0, DVBADAPTER, "Failed to set voltage off");
 
   }
@@ -13599,9 +13599,9 @@ signed int DVBStandardInit(struct TSReader_t *reader)
   if(DVBEventSource == ((struct EventSource_s *)NULL))
     DVBEventSource=EventsRegisterSource(DVBFilterType);
 
-  signed int return_value_MPEG2StandardInit$1;
-  return_value_MPEG2StandardInit$1=MPEG2StandardInit(reader);
-  if(!(return_value_MPEG2StandardInit$1 == 0))
+  signed int return_value_MPEG2StandardInit_1;
+  return_value_MPEG2StandardInit_1=MPEG2StandardInit(reader);
+  if(!(return_value_MPEG2StandardInit_1 == 0))
     return -1;
 
   else
@@ -13834,9 +13834,9 @@ void DeferredProcessingAddJob(void (*processor)(void *), void *arg)
   if(!(jobQ == ((struct MessageQ_s *)NULL)))
   {
     struct DeferredJob_s *job;
-    void *return_value_ObjectCreateImpl$1;
-    return_value_ObjectCreateImpl$1=ObjectCreateImpl("DeferredJob_t", "threading/deferredproc.c", 85);
-    job = (struct DeferredJob_s *)return_value_ObjectCreateImpl$1;
+    void *return_value_ObjectCreateImpl_1;
+    return_value_ObjectCreateImpl_1=ObjectCreateImpl("DeferredJob_t", "threading/deferredproc.c", 85);
+    job = (struct DeferredJob_s *)return_value_ObjectCreateImpl_1;
     LogModule(4, DEFERREDPROC, "Adding job %p (processor:%p, arg:%p)\n", job, processor, arg);
     job->processor = processor;
     job->arg = arg;
@@ -13875,16 +13875,16 @@ static void * DeferredProcessingThread(void *arg)
   struct DeferredJob_s *job;
   LogRegisterThread(processingThread, DEFERREDPROC);
   LogModule(3, DEFERREDPROC, "Deferred processing thread started\n");
-  _Bool return_value_MessageQIsQuitSet$1;
+  _Bool return_value_MessageQIsQuitSet_1;
   do
   {
-    return_value_MessageQIsQuitSet$1=MessageQIsQuitSet(jobQ);
-    if(return_value_MessageQIsQuitSet$1 != (_Bool)0)
+    return_value_MessageQIsQuitSet_1=MessageQIsQuitSet(jobQ);
+    if(return_value_MessageQIsQuitSet_1 != (_Bool)0)
       break;
 
-    void *return_value_MessageQReceive$2;
-    return_value_MessageQReceive$2=MessageQReceive(jobQ);
-    job = (struct DeferredJob_s *)return_value_MessageQReceive$2;
+    void *return_value_MessageQReceive_2;
+    return_value_MessageQReceive_2=MessageQReceive(jobQ);
+    job = (struct DeferredJob_s *)return_value_MessageQReceive_2;
     if(!(job == ((struct DeferredJob_s *)NULL)))
     {
       LogModule(4, DEFERREDPROC, "Running job %p (processor:%p, arg:%p)\n", job, job->processor, job->arg);
@@ -13896,19 +13896,19 @@ static void * DeferredProcessingThread(void *arg)
   }
   while((_Bool)1);
   MessageQResetQuit(jobQ);
-  signed int return_value_MessageQAvailable$3;
-  return_value_MessageQAvailable$3=MessageQAvailable(jobQ);
-  LogModule(3, DEFERREDPROC, "Discarding %d jobs\n", return_value_MessageQAvailable$3);
-  signed int return_value_MessageQAvailable$4;
+  signed int return_value_MessageQAvailable_3;
+  return_value_MessageQAvailable_3=MessageQAvailable(jobQ);
+  LogModule(3, DEFERREDPROC, "Discarding %d jobs\n", return_value_MessageQAvailable_3);
+  signed int return_value_MessageQAvailable_4;
   do
   {
-    return_value_MessageQAvailable$4=MessageQAvailable(jobQ);
-    if(return_value_MessageQAvailable$4 == 0)
+    return_value_MessageQAvailable_4=MessageQAvailable(jobQ);
+    if(return_value_MessageQAvailable_4 == 0)
       break;
 
-    void *return_value_MessageQReceive$5;
-    return_value_MessageQReceive$5=MessageQReceive(jobQ);
-    job = (struct DeferredJob_s *)return_value_MessageQReceive$5;
+    void *return_value_MessageQReceive_5;
+    return_value_MessageQReceive_5=MessageQReceive(jobQ);
+    job = (struct DeferredJob_s *)return_value_MessageQReceive_5;
     if(!(job == ((struct DeferredJob_s *)NULL)))
     {
       ObjectRefDecImpl(job->arg, "threading/deferredproc.c", 122);
@@ -13930,7 +13930,7 @@ struct DeliveryMethodInstance_t * DeliveryMethodCreate(char *mrl)
   LogModule(3, DELIVERYMETHOD, "Looking for handler for %s", mrl);
   iterator.current = DeliveryMethodsList->head;
   iterator.list = DeliveryMethodsList;
-  struct ListEntry_s *tmp_if_expr$1;
+  struct ListEntry_s *tmp_if_expr_1;
   if(!(iterator.current == ((struct ListEntry_s *)NULL)))
   {
     struct DeliveryMethodHandler_t *handler = (struct DeliveryMethodHandler_t *)iterator.current->data;
@@ -13950,11 +13950,11 @@ struct DeliveryMethodInstance_t * DeliveryMethodCreate(char *mrl)
     else
     {
       if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$1 = iterator.current->next;
+        tmp_if_expr_1 = iterator.current->next;
 
       else
-        tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
-      iterator.current = tmp_if_expr$1;
+        tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
+      iterator.current = tmp_if_expr_1;
     }
   }
 
@@ -13977,16 +13977,16 @@ void DeliveryMethodDestroyAll()
   struct ListIterator_s iterator;
   iterator.current = InstancesList->head;
   iterator.list = InstancesList;
-  struct ListEntry_s *tmp_if_expr$1;
+  struct ListEntry_s *tmp_if_expr_1;
   while(!(iterator.current == ((struct ListEntry_s *)NULL)))
   {
     struct DeliveryMethodInstance_t *instance = (struct DeliveryMethodInstance_t *)iterator.current->data;
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
-    iterator.current = tmp_if_expr$1;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
+    iterator.current = tmp_if_expr_1;
     DeliveryMethodDestroy(instance);
   }
 }
@@ -14127,9 +14127,9 @@ struct ev_loop * DispatchersGetUserInput(void)
 // file ../include/dispatchers.h line 27
 signed int DispatchersInit(void)
 {
-  signed int return_value_pipe$1;
-  return_value_pipe$1=pipe(exitPipe);
-  if(!(return_value_pipe$1 == 0))
+  signed int return_value_pipe_1;
+  return_value_pipe_1=pipe(exitPipe);
+  if(!(return_value_pipe_1 == 0))
     return -1;
 
   else
@@ -14219,9 +14219,9 @@ static void DumpDescriptor(char *prefix, struct dvbpsi_descriptor_s *descriptor)
       line[(signed long int)0] = (char)0;
     }
 
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(line);
-    sprintf(line + (signed long int)return_value_strlen$1, "%02x ", descriptor->p_data[(signed long int)i]);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(line);
+    sprintf(line + (signed long int)return_value_strlen_1, "%02x ", descriptor->p_data[(signed long int)i]);
   }
   if(!(line[0l] == 0))
     LogModule(3, PSIPPROCESSOR, "%s%s\n", prefix, (const void *)line);
@@ -14288,10 +14288,10 @@ signed int EPGChannelNewDetail(struct EPGEventRef_s *eventRef, char *lang, char 
 
   }
   while((_Bool)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("EPGChannelMessage_t", "epgchannel.c", 142);
-  msg = (struct EPGChannelMessage_s *)return_value_ObjectCreateImpl$1;
-  msg->type = (enum anonymous$19)EPGChannelMessageType_Detail;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("EPGChannelMessage_t", "epgchannel.c", 142);
+  msg = (struct EPGChannelMessage_s *)return_value_ObjectCreateImpl_1;
+  msg->type = (enum anonymous_19)EPGChannelMessageType_Detail;
   msg->eventRef = *eventRef;
   memcpy((void *)msg->data.detail.lang, (const void *)lang, sizeof(char [4l]) /*4ul*/ );
   msg->data.detail.name=strdup(name);
@@ -14319,10 +14319,10 @@ signed int EPGChannelNewEvent(struct EPGEventRef_s *eventRef, struct tm *startTi
 
   }
   while((_Bool)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("EPGChannelMessage_t", "epgchannel.c", 109);
-  msg = (struct EPGChannelMessage_s *)return_value_ObjectCreateImpl$1;
-  msg->type = (enum anonymous$19)EPGChannelMessageType_Event;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("EPGChannelMessage_t", "epgchannel.c", 109);
+  msg = (struct EPGChannelMessage_s *)return_value_ObjectCreateImpl_1;
+  msg->type = (enum anonymous_19)EPGChannelMessageType_Event;
   msg->eventRef = *eventRef;
   msg->data.event.startTime = *startTime;
   msg->data.event.endTime = *endTime;
@@ -14350,10 +14350,10 @@ signed int EPGChannelNewRating(struct EPGEventRef_s *eventRef, char *system, cha
 
   }
   while((_Bool)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("EPGChannelMessage_t", "epgchannel.c", 126);
-  msg = (struct EPGChannelMessage_s *)return_value_ObjectCreateImpl$1;
-  msg->type = (enum anonymous$19)EPGChannelMessageType_Rating;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("EPGChannelMessage_t", "epgchannel.c", 126);
+  msg = (struct EPGChannelMessage_s *)return_value_ObjectCreateImpl_1;
+  msg->type = (enum anonymous_19)EPGChannelMessageType_Rating;
   msg->eventRef = *eventRef;
   msg->data.rating.system=strdup(system);
   msg->data.rating.rating=strdup(rating);
@@ -14379,16 +14379,16 @@ static void EPGChannelSendMessage(struct EPGChannelMessage_s *msg)
   pthread_mutex_lock(&EPGChannelMutex);
   iterator.current = EPGChannelListeners->head;
   iterator.list = EPGChannelListeners;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct MessageQ_s *msgQ = (struct MessageQ_s *)iterator.current->data;
     MessageQSend(msgQ, (void *)msg);
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   pthread_mutex_unlock(&EPGChannelMutex);
   ObjectRefDecImpl((void *)msg, "epgchannel.c", 166);
@@ -14476,9 +14476,9 @@ static signed int EventUnregisteredToString(struct yaml_document_s *document, st
   signed int node;
   char *eventName;
   asprintf(&eventName, "%s.%s", unregEvent->source->name, unregEvent->name);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(eventName);
-  node=yaml_document_add_scalar(document, (unsigned char *)"tag:yaml.org,2002:str", (unsigned char *)eventName, (signed int)return_value_strlen$1, (enum yaml_scalar_style_e)YAML_ANY_SCALAR_STYLE);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(eventName);
+  node=yaml_document_add_scalar(document, (unsigned char *)"tag:yaml.org,2002:str", (unsigned char *)eventName, (signed int)return_value_strlen_1, (enum yaml_scalar_style_e)YAML_ANY_SCALAR_STYLE);
   free((void *)eventName);
   return node;
 }
@@ -14531,9 +14531,9 @@ char * EventsEventToString(struct Event_s *event, void *payload)
       {
         char *key = "Details";
         signed int keyId;
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(key);
-        keyId=yaml_document_add_scalar(&document, (unsigned char *)"tag:yaml.org,2002:str", (unsigned char *)key, (signed int)return_value_strlen$1, (enum yaml_scalar_style_e)YAML_ANY_SCALAR_STYLE);
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(key);
+        keyId=yaml_document_add_scalar(&document, (unsigned char *)"tag:yaml.org,2002:str", (unsigned char *)key, (signed int)return_value_strlen_1, (enum yaml_scalar_style_e)YAML_ANY_SCALAR_STYLE);
         yaml_document_append_mapping_pair(&document, 1, keyId, valueId);
       }
 
@@ -14558,10 +14558,10 @@ struct Event_s * EventsFindEvent(const char *name)
     if((signed int)name[(signed long int)sourceNameLen] == 46)
       break;
 
-  void *return_value_ObjectAllocImpl$1;
-  return_value_ObjectAllocImpl$1=ObjectAllocImpl(sourceNameLen + 1, "events.c", 297);
-  sourceName = (char *)return_value_ObjectAllocImpl$1;
-  struct ListEntry_s *tmp_if_expr$2;
+  void *return_value_ObjectAllocImpl_1;
+  return_value_ObjectAllocImpl_1=ObjectAllocImpl(sourceNameLen + 1, "events.c", 297);
+  sourceName = (char *)return_value_ObjectAllocImpl_1;
+  struct ListEntry_s *tmp_if_expr_2;
   if(!(sourceName == ((char *)NULL)))
   {
     memcpy((void *)sourceName, (const void *)name, (unsigned long int)sourceNameLen);
@@ -14572,22 +14572,22 @@ struct Event_s * EventsFindEvent(const char *name)
       struct ListIterator_s iterator;
       iterator.current = source->events->head;
       iterator.list = source->events;
-      for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$2)
+      for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_2)
       {
         struct Event_s *event = (struct Event_s *)iterator.current->data;
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(event->name, &name[(signed long int)(sourceNameLen + 1)]);
-        if(return_value_strcmp$3 == 0)
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(event->name, &name[(signed long int)(sourceNameLen + 1)]);
+        if(return_value_strcmp_3 == 0)
         {
           result = event;
           break;
         }
 
         if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-          tmp_if_expr$2 = iterator.current->next;
+          tmp_if_expr_2 = iterator.current->next;
 
         else
-          tmp_if_expr$2 = (struct ListEntry_s *)(void *)0;
+          tmp_if_expr_2 = (struct ListEntry_s *)(void *)0;
       }
     }
 
@@ -14607,23 +14607,23 @@ struct EventSource_s * EventsFindSource(const char *name)
   pthread_mutex_lock(&eventsMutex);
   iterator.current = sourcesList->head;
   iterator.list = sourcesList;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct EventSource_s *source = (struct EventSource_s *)iterator.current->data;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(source->name, name);
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(source->name, name);
+    if(return_value_strcmp_2 == 0)
     {
       result = source;
       break;
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   pthread_mutex_unlock(&eventsMutex);
   return result;
@@ -14661,9 +14661,9 @@ struct Event_s * EventsRegisterEvent(struct EventSource_s *source, char *name, s
 {
   struct Event_s *result = (struct Event_s *)(void *)0;
   pthread_mutex_lock(&eventsMutex);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("Event_t", "events.c", 260);
-  result = (struct Event_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("Event_t", "events.c", 260);
+  result = (struct Event_s *)return_value_ObjectCreateImpl_1;
   if(!(result == ((struct Event_s *)NULL)))
   {
     result->name=strdup(name);
@@ -14704,14 +14704,14 @@ void EventsRegisterListener(void (*listener)(void *, struct Event_s *, void *), 
 // file ../include/events.h line 108
 void EventsRegisterListenerByName(const char *event, void (*listener)(void *, struct Event_s *, void *), void *arg)
 {
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   if((signed int)*event == 0)
     EventsRegisterListener(listener, arg);
 
   else
   {
-    return_value_strchr$1=strchr(event, 46);
-    if(return_value_strchr$1 == ((char *)NULL))
+    return_value_strchr_1=strchr(event, 46);
+    if(return_value_strchr_1 == ((char *)NULL))
     {
       struct EventSource_s *src;
       src=EventsFindSource(event);
@@ -14741,9 +14741,9 @@ struct EventSource_s * EventsRegisterSource(char *name)
 {
   struct EventSource_s *result = (struct EventSource_s *)(void *)0;
   pthread_mutex_lock(&eventsMutex);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("EventSource_t", "events.c", 195);
-  result = (struct EventSource_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("EventSource_t", "events.c", 195);
+  result = (struct EventSource_s *)return_value_ObjectCreateImpl_1;
   if(!(result == ((struct EventSource_s *)NULL)))
   {
     result->name=strdup(name);
@@ -14807,14 +14807,14 @@ void EventsUnregisterListener(void (*listener)(void *, struct Event_s *, void *)
 // file ../include/events.h line 116
 void EventsUnregisterListenerByName(const char *event, void (*listener)(void *, struct Event_s *, void *), void *arg)
 {
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   if((signed int)*event == 0)
     EventsUnregisterListener(listener, arg);
 
   else
   {
-    return_value_strchr$1=strchr(event, 46);
-    if(return_value_strchr$1 == ((char *)NULL))
+    return_value_strchr_1=strchr(event, 46);
+    if(return_value_strchr_1 == ((char *)NULL))
     {
       struct EventSource_s *src;
       src=EventsFindSource(event);
@@ -14932,19 +14932,19 @@ static _Bool FilterService(struct Service_t *service, unsigned int filterByType,
 
   else
     filterByAccessResult = (_Bool)1;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(!(provider == ((char *)NULL)))
   {
     if(!(service->provider == ((char *)NULL)))
     {
-      return_value_strcmp$1=strcmp(provider, service->provider);
-      tmp_if_expr$2 = return_value_strcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_1=strcmp(provider, service->provider);
+      tmp_if_expr_2 = return_value_strcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    filterByProviderResult = tmp_if_expr$2;
+      tmp_if_expr_2 = (_Bool)0;
+    filterByProviderResult = tmp_if_expr_2;
   }
 
   else
@@ -14959,9 +14959,9 @@ static struct Class_s * FindClass(char *classname)
   struct Class_s *clazz = classes;
   for( ; !(clazz == ((struct Class_s *)NULL)); clazz = clazz->next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(classname, clazz->name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(classname, clazz->name);
+    if(return_value_strcmp_1 == 0)
       return clazz;
 
   }
@@ -14975,9 +14975,9 @@ static struct Command_t * FindCommand(struct Command_t *commands, char *command)
   signed int i = 0;
   for( ; !((commands + (signed long int)i)->command == ((char *)NULL)); i = i + 1)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(command, (commands + (signed long int)i)->command);
-    if(return_value_strcasecmp$1 == 0)
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(command, (commands + (signed long int)i)->command);
+    if(return_value_strcasecmp_1 == 0)
       return &commands[(signed long int)i];
 
   }
@@ -14989,7 +14989,7 @@ static struct Command_t * FindCommand(struct Command_t *commands, char *command)
 static struct Multiplex_s * FindMultiplexFrequency(struct MultiplexList_s *muxList, struct MuxFrequencies_s *muxFreqList, unsigned long int freq, signed int range, char *polarisation, signed int satNumber)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   for( ; !(i >= muxList->nrofMultiplexes); i = i + 1)
     if((unsigned long int)muxFreqList->frequencies[(signed long int)i].frequency >= freq + -((unsigned long int)range))
     {
@@ -14998,14 +14998,14 @@ static struct Multiplex_s * FindMultiplexFrequency(struct MultiplexList_s *muxLi
         _Bool found = (_Bool)1;
         if(!(polarisation == ((char *)NULL)))
         {
-          signed int return_value_strcmp$1;
-          return_value_strcmp$1=strcmp(polarisation, muxFreqList->frequencies[(signed long int)i].polarisation);
-          if(return_value_strcmp$1 == 0)
-            tmp_if_expr$2 = muxFreqList->frequencies[(signed long int)i].satNumber == satNumber ? (_Bool)1 : (_Bool)0;
+          signed int return_value_strcmp_1;
+          return_value_strcmp_1=strcmp(polarisation, muxFreqList->frequencies[(signed long int)i].polarisation);
+          if(return_value_strcmp_1 == 0)
+            tmp_if_expr_2 = muxFreqList->frequencies[(signed long int)i].satNumber == satNumber ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          found = tmp_if_expr$2;
+            tmp_if_expr_2 = (_Bool)0;
+          found = tmp_if_expr_2;
         }
 
         if(!(found == (_Bool)0))
@@ -15040,9 +15040,9 @@ static _Bool FindTransponder(signed int freq, char *polarisation)
   struct ListIterator_s iterator;
   iterator.current = transponderList->head;
   iterator.list = transponderList;
-  signed int return_value_strcmp$2;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  signed int return_value_strcmp_2;
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct TransponderEntry_s *entry = (struct TransponderEntry_s *)iterator.current->data;
     if(entry->frequency == (unsigned int)freq)
@@ -15051,8 +15051,8 @@ static _Bool FindTransponder(signed int freq, char *polarisation)
       {
         if(!(entry->polarisation == ((char *)NULL)))
         {
-          return_value_strcmp$2=strcmp(entry->polarisation, polarisation);
-          if(return_value_strcmp$2 == 0)
+          return_value_strcmp_2=strcmp(entry->polarisation, polarisation);
+          if(return_value_strcmp_2 == 0)
             return (_Bool)1;
 
         }
@@ -15062,10 +15062,10 @@ static _Bool FindTransponder(signed int freq, char *polarisation)
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   return (_Bool)0;
 }
@@ -15077,17 +15077,17 @@ static void FireEventListeners(struct List_s *listenerList, struct Event_s *even
   struct ListIterator_s iterator;
   iterator.current = listenerList->head;
   iterator.list = listenerList;
-  struct ListEntry_s *tmp_if_expr$1;
+  struct ListEntry_s *tmp_if_expr_1;
   if(!(iterator.current == ((struct ListEntry_s *)NULL)))
   {
     struct EventListenerDetails_s *details = (struct EventListenerDetails_s *)iterator.current->data;
     details->callback(details->arg, event, payload);
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
-    iterator.current = tmp_if_expr$1;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
+    iterator.current = tmp_if_expr_1;
   }
 
 }
@@ -15099,9 +15099,9 @@ static void GetConnectionString(struct sockaddr_storage *connAddr, char *output)
   if((signed int)connAddr->ss_family == 2)
   {
     inet_ntop((signed int)connAddr->ss_family, (const void *)&((struct sockaddr_in *)connAddr)->sin_addr, output, (unsigned int)16);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(output);
-    sprintf(output + (signed long int)return_value_strlen$1, ":%d", ((struct sockaddr_in *)connAddr)->sin_port);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(output);
+    sprintf(output + (signed long int)return_value_strlen_1, ":%d", ((struct sockaddr_in *)connAddr)->sin_port);
   }
 
   else
@@ -15109,9 +15109,9 @@ static void GetConnectionString(struct sockaddr_storage *connAddr, char *output)
     {
       *output = (char)91;
       inet_ntop((signed int)connAddr->ss_family, (const void *)&((struct sockaddr_in *)connAddr)->sin_addr, output + (signed long int)1, (unsigned int)46);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(output);
-      sprintf(output + (signed long int)return_value_strlen$2, "]:%d", ((struct sockaddr_in *)connAddr)->sin_port);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(output);
+      sprintf(output + (signed long int)return_value_strlen_2, "]:%d", ((struct sockaddr_in *)connAddr)->sin_port);
     }
 
     else
@@ -15362,9 +15362,9 @@ static void HandleConnection(struct Connection_t *connection)
     if(!((0x001 & (signed int)pfd[0l].revents) == 0))
     {
       char *nl;
-      char *return_value_fgets$1;
-      return_value_fgets$1=fgets(line, 256, fp);
-      if(!(return_value_fgets$1 == ((char *)NULL)))
+      char *return_value_fgets_1;
+      return_value_fgets_1=fgets(line, 256, fp);
+      if(!(return_value_fgets_1 == ((char *)NULL)))
       {
         nl=strchr(line, 10);
         if(!(nl == ((char *)NULL)))
@@ -15390,9 +15390,9 @@ static void HandleConnection(struct Connection_t *connection)
   fclose(fp);
   connection->connected = (_Bool)0;
   LogModule(3, REMOTEINTERFACE, "Connection thread exiting.\n");
-  unsigned long int return_value_pthread_self$2;
-  return_value_pthread_self$2=pthread_self();
-  LogUnregisterThread(return_value_pthread_self$2);
+  unsigned long int return_value_pthread_self_2;
+  return_value_pthread_self_2=pthread_self();
+  LogUnregisterThread(return_value_pthread_self_2);
   pthread_detach(connection->thread);
   RemoveConnection(connection);
 }
@@ -15491,18 +15491,18 @@ static void InformMultiplexChanged(struct TSReader_t *reader)
   struct ListIterator_s iterator;
   iterator.current = reader->groups->head;
   iterator.list = reader->groups;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct TSFilterGroup_t *group = (struct TSFilterGroup_t *)iterator.current->data;
     if(!(group->eventCallback == ((void (*)(void *, struct TSFilterGroup_t *, enum TSFilterEventType_e, void *))NULL)))
       group->eventCallback(group->userArg, group, (enum TSFilterEventType_e)TSFilterEventType_MuxChanged, (void *)reader->multiplex);
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
 }
 
@@ -15513,18 +15513,18 @@ static void InformTSStructureChanged(struct TSReader_t *reader)
   struct ListIterator_s iterator;
   iterator.current = reader->groups->head;
   iterator.list = reader->groups;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct TSFilterGroup_t *group = (struct TSFilterGroup_t *)iterator.current->data;
     if(!(group->eventCallback == ((void (*)(void *, struct TSFilterGroup_t *, enum TSFilterEventType_e, void *))NULL)))
       group->eventCallback(group->userArg, group, (enum TSFilterEventType_e)TSFilterEventType_StructureChanged, (void *)0);
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
 }
 
@@ -15551,17 +15551,17 @@ static void InitDaemon(signed int adapter)
     exit(1);
   }
 
-  signed int return_value_chdir$1;
-  return_value_chdir$1=chdir("/");
-  if(!(return_value_chdir$1 >= 0))
+  signed int return_value_chdir_1;
+  return_value_chdir_1=chdir("/");
+  if(!(return_value_chdir_1 >= 0))
   {
     LogModule(0, MAIN, "chdir failed while going into daemon mode");
     exit(1);
   }
 
-  struct _IO_FILE *return_value_freopen$2;
-  return_value_freopen$2=freopen("/dev/null", "r", stdin);
-  if(return_value_freopen$2 == ((struct _IO_FILE *)NULL))
+  struct _IO_FILE *return_value_freopen_2;
+  return_value_freopen_2=freopen("/dev/null", "r", stdin);
+  if(return_value_freopen_2 == ((struct _IO_FILE *)NULL))
     LogModule(0, MAIN, "Failed to redirect stdin to /dev/null!");
 
   LoggingRedirectStdErrStdOut();
@@ -15599,9 +15599,9 @@ static void InitDaemon(signed int adapter)
 // file dispatchers.c line 135
 static void * InputDispatcher(void *arg)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  LogRegisterThread(return_value_pthread_self$1, "InputDispatcher");
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  LogRegisterThread(return_value_pthread_self_1, "InputDispatcher");
   LogModule(2, DISPATCHERS, "Input dispatcher started");
   ev_loop(InputEventLoop, 0);
   LogModule(2, DISPATCHERS, "Input dispatcher finished");
@@ -15635,28 +15635,28 @@ signed int LNBDecode(char *str, struct LNBInfo_s *lnb)
   char *np;
   memset((void *)lnb, 0, sizeof(struct LNBInfo_s) /*40ul*/ );
   cp = str;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   for( ; !(*cp == 0); cp = cp + 1l)
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*cp]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*cp]) == 0)
       break;
 
   }
-  const unsigned short int **return_value___ctype_b_loc$3;
-  return_value___ctype_b_loc$3=__ctype_b_loc();
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  const unsigned short int **return_value___ctype_b_loc$6;
-  const unsigned short int **return_value___ctype_b_loc$8;
-  if(!((1024 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*cp]) == 0))
+  const unsigned short int **return_value___ctype_b_loc_3;
+  return_value___ctype_b_loc_3=__ctype_b_loc();
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  const unsigned short int **return_value___ctype_b_loc_8;
+  if(!((1024 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*cp]) == 0))
   {
     i = 0;
     for( ; !(i >= 5); i = i + 1)
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(LNBs[(signed long int)i].name, cp);
-      if(return_value_strcasecmp$2 == 0)
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(LNBs[(signed long int)i].name, cp);
+      if(return_value_strcasecmp_2 == 0)
       {
         *lnb = LNBs[(signed long int)i];
         return 0;
@@ -15669,14 +15669,14 @@ signed int LNBDecode(char *str, struct LNBInfo_s *lnb)
   else
   {
     if((signed int)*cp == 0)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      tmp_if_expr$5 = !(((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*cp] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      tmp_if_expr_5 = !(((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*cp] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return 0;
 
     else
@@ -15690,8 +15690,8 @@ signed int LNBDecode(char *str, struct LNBInfo_s *lnb)
         cp = np;
         for( ; !(*cp == 0); cp = cp + 1l)
         {
-          return_value___ctype_b_loc$6=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)*cp]) == 0)
+          return_value___ctype_b_loc_6=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)*cp]) == 0)
           {
             if(!((signed int)*cp == 44))
               break;
@@ -15704,9 +15704,9 @@ signed int LNBDecode(char *str, struct LNBInfo_s *lnb)
 
         else
         {
-          const unsigned short int **return_value___ctype_b_loc$7;
-          return_value___ctype_b_loc$7=__ctype_b_loc();
-          if((2048 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*cp]) == 0)
+          const unsigned short int **return_value___ctype_b_loc_7;
+          return_value___ctype_b_loc_7=__ctype_b_loc();
+          if((2048 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*cp]) == 0)
             return 1;
 
           else
@@ -15715,8 +15715,8 @@ signed int LNBDecode(char *str, struct LNBInfo_s *lnb)
             cp = np;
             for( ; !(*cp == 0); cp = cp + 1l)
             {
-              return_value___ctype_b_loc$8=__ctype_b_loc();
-              if((8192 & (signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)*cp]) == 0)
+              return_value___ctype_b_loc_8=__ctype_b_loc();
+              if((8192 & (signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)*cp]) == 0)
               {
                 if(!((signed int)*cp == 44))
                   break;
@@ -15729,9 +15729,9 @@ signed int LNBDecode(char *str, struct LNBInfo_s *lnb)
 
             else
             {
-              const unsigned short int **return_value___ctype_b_loc$9;
-              return_value___ctype_b_loc$9=__ctype_b_loc();
-              if((2048 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)*cp]) == 0)
+              const unsigned short int **return_value___ctype_b_loc_9;
+              return_value___ctype_b_loc_9=__ctype_b_loc();
+              if((2048 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)*cp]) == 0)
                 return 1;
 
               else
@@ -15799,9 +15799,9 @@ unsigned long int LNBTransponderToIntermediateFreq(struct LNBInfo_s *info, unsig
 _Bool ListAdd(struct List_s *list, void *data)
 {
   struct ListIterator_s iterator = { .list=list, .current=list->tail };
-  _Bool return_value_ListInsertAfterCurrent$1;
-  return_value_ListInsertAfterCurrent$1=ListInsertAfterCurrent(&iterator, data);
-  return return_value_ListInsertAfterCurrent$1;
+  _Bool return_value_ListInsertAfterCurrent_1;
+  return_value_ListInsertAfterCurrent_1=ListInsertAfterCurrent(&iterator, data);
+  return return_value_ListInsertAfterCurrent_1;
 }
 
 // ListCreate
@@ -15809,9 +15809,9 @@ _Bool ListAdd(struct List_s *list, void *data)
 struct List_s * ListCreate()
 {
   ObjectRegisterClass("List_t", (unsigned int)sizeof(struct List_s) /*24ul*/ , (void (*)(void *))(void *)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("List_t", "list.c", 40);
-  return (struct List_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("List_t", "list.c", 40);
+  return (struct List_s *)return_value_ObjectCreateImpl_1;
 }
 
 // ListDump
@@ -15822,15 +15822,15 @@ void ListDump(struct List_s *list)
   LogModule(3, LIST, "Dumping list %p (%d entries)\n", list, list->count);
   iterator.current = list->head;
   iterator.list = list;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     LogModule(3, LIST, "Current = %010p prev = %010p  next = %010p data = %010p\n", iterator.current, iterator.current->prev, iterator.current->next, iterator.current->data);
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   LogModule(3, LIST, "End of dump\n");
 }
@@ -15891,9 +15891,9 @@ _Bool ListGet(struct List_s *list, signed int index, void **data)
 _Bool ListInsertAfterCurrent(struct ListIterator_s *iterator, void *data)
 {
   struct ListEntry_s *entry;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct ListEntry_s) /*24ul*/ );
-  entry = (struct ListEntry_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct ListEntry_s) /*24ul*/ );
+  entry = (struct ListEntry_s *)return_value_calloc_1;
   if(entry == ((struct ListEntry_s *)NULL))
     return (_Bool)0;
 
@@ -15934,9 +15934,9 @@ _Bool ListInsertAfterCurrent(struct ListIterator_s *iterator, void *data)
 _Bool ListInsertBeforeCurrent(struct ListIterator_s *iterator, void *data)
 {
   struct ListEntry_s *entry;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct ListEntry_s) /*24ul*/ );
-  entry = (struct ListEntry_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct ListEntry_s) /*24ul*/ );
+  entry = (struct ListEntry_s *)return_value_calloc_1;
   if(entry == ((struct ListEntry_s *)NULL))
     return (_Bool)0;
 
@@ -15973,8 +15973,8 @@ _Bool ListRemove(struct List_s *list, void *data)
   struct ListIterator_s iterator;
   iterator.current = list->head;
   iterator.list = list;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     if(data == iterator.current->data)
     {
@@ -15983,10 +15983,10 @@ _Bool ListRemove(struct List_s *list, void *data)
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   return (_Bool)0;
 }
@@ -16021,8 +16021,8 @@ _Bool ListReplace(struct List_s *list, void *oldData, void *newData)
   struct ListIterator_s iterator;
   iterator.current = list->head;
   iterator.list = list;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     if(oldData == iterator.current->data)
     {
@@ -16031,10 +16031,10 @@ _Bool ListReplace(struct List_s *list, void *oldData, void *newData)
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   return (_Bool)0;
 }
@@ -16047,9 +16047,9 @@ static signed int LogGetModuleLevel(const char *module, signed int level)
   struct ModuleLevel_s *modLevel = moduleLevels;
   for( ; !(modLevel == ((struct ModuleLevel_s *)NULL)); modLevel = modLevel->next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(modLevel->module, module);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(modLevel->module, module);
+    if(return_value_strcmp_1 == 0)
     {
       if(!(level >= modLevel->level))
         result = verbosity + 1;
@@ -16087,29 +16087,29 @@ static void LogImpl(signed int level, const char *module, const char *format, vo
   curtime=time((signed long int *)(void *)0);
   loctime=localtime(&curtime);
   strftime(timeBuffer, sizeof(char [24l]) /*24ul*/ , "%F %T", loctime);
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  thread=LogGetThreadName(return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  thread=LogGetThreadName(return_value_pthread_self_1);
   fprintf(logFP, "%-19s | %-15s | %2d | %-15s | ", (const void *)timeBuffer, module != ((const char *)NULL) ? module : "<Unknown>", level, thread);
   vfprintf(logFP, format, valist);
-  char *return_value_strchr$2;
-  return_value_strchr$2=strchr(format, 10);
-  if(return_value_strchr$2 == ((char *)NULL))
+  char *return_value_strchr_2;
+  return_value_strchr_2=strchr(format, 10);
+  if(return_value_strchr_2 == ((char *)NULL))
     fprintf(logFP, "\n");
 
-  signed int *return_value___errno_location$6;
+  signed int *return_value___errno_location_6;
   if(level == 0)
   {
-    return_value___errno_location$6=__errno_location();
-    if(!(*return_value___errno_location$6 == 0))
+    return_value___errno_location_6=__errno_location();
+    if(!(*return_value___errno_location_6 == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      fprintf(logFP, "%-19s | %-15s | %2d | %-15s | errno = %d (%s)\n", (const void *)timeBuffer, module != ((const char *)NULL) ? module : "<Unknown>", level, thread, *return_value___errno_location$3, return_value_strerror$5);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      fprintf(logFP, "%-19s | %-15s | %2d | %-15s | errno = %d (%s)\n", (const void *)timeBuffer, module != ((const char *)NULL) ? module : "<Unknown>", level, thread, *return_value___errno_location_3, return_value_strerror_5);
     }
 
   }
@@ -16161,27 +16161,27 @@ void LogLoadModuleLevels(const char *path)
   char module[128l];
   signed int level;
   fp=fopen(path, "r");
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   if(!(fp == ((struct _IO_FILE *)NULL)))
     do
     {
-      return_value_feof$1=feof(fp);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(fp);
+      if(!(return_value_feof_1 == 0))
         break;
 
-      char *return_value_fgets$4;
-      return_value_fgets$4=fgets(line, (signed int)(sizeof(char [256l]) /*256ul*/  - (unsigned long int)1), fp);
-      if(!(return_value_fgets$4 == ((char *)NULL)))
+      char *return_value_fgets_4;
+      return_value_fgets_4=fgets(line, (signed int)(sizeof(char [256l]) /*256ul*/  - (unsigned long int)1), fp);
+      if(!(return_value_fgets_4 == ((char *)NULL)))
       {
         printf("Module Level Line: %s", (const void *)line);
-        signed int return_value_sscanf$3;
-        return_value_sscanf$3=sscanf(line, "%s %d\n", (const void *)module, &level);
-        if(return_value_sscanf$3 == 2)
+        signed int return_value_sscanf_3;
+        return_value_sscanf_3=sscanf(line, "%s %d\n", (const void *)module, &level);
+        if(return_value_sscanf_3 == 2)
         {
           struct ModuleLevel_s *modLevel;
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc(sizeof(struct ModuleLevel_s) /*24ul*/ );
-          modLevel = (struct ModuleLevel_s *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc(sizeof(struct ModuleLevel_s) /*24ul*/ );
+          modLevel = (struct ModuleLevel_s *)return_value_malloc_2;
           printf("Module : %s Level %d\n", (const void *)module, level);
           modLevel->module=strdup(module);
           modLevel->level = level;
@@ -16206,16 +16206,16 @@ extern void LogModule(signed int level, const char *module, char *format, ...)
     valist = (void **)&format;
     vfprintf(stderr, format, valist);
     valist = ((void **)NULL);
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(format, 10);
-    if(return_value_strchr$1 == ((char *)NULL))
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(format, 10);
+    if(return_value_strchr_1 == ((char *)NULL))
       fprintf(stderr, "\n");
 
   }
 
-  signed int return_value_LogGetModuleLevel$2;
-  return_value_LogGetModuleLevel$2=LogGetModuleLevel(module, level);
-  if(verbosity >= return_value_LogGetModuleLevel$2)
+  signed int return_value_LogGetModuleLevel_2;
+  return_value_LogGetModuleLevel_2=LogGetModuleLevel(module, level);
+  if(verbosity >= return_value_LogGetModuleLevel_2)
   {
     valist = (void **)&format;
     LogImpl(level, module, format, valist);
@@ -16272,9 +16272,9 @@ void LoggingDeInit(void)
 signed int LoggingInit(char *filename, signed int logLevel)
 {
   char *logFile;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)4096, (unsigned long int)1);
-  logFile = (char *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)4096, (unsigned long int)1);
+  logFile = (char *)return_value_calloc_1;
   sprintf(logFile, "/var/log/%s", filename);
   logFP=fopen(logFile, "a");
   if(logFP == ((struct _IO_FILE *)NULL))
@@ -16309,9 +16309,9 @@ static void LoggingInitCommon(signed int logLevel)
 // file ../include/logging.h line 78
 signed int LoggingInitFile(char *filepath, signed int logLevel)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(filepath, "-");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(filepath, "-");
+  if(return_value_strcmp_1 == 0)
     logFP = stderr;
 
   else
@@ -16330,12 +16330,12 @@ signed int LoggingInitFile(char *filepath, signed int logLevel)
 // file ../include/logging.h line 85
 void LoggingRedirectStdErrStdOut(void)
 {
-  signed int return_value_fileno$1;
-  return_value_fileno$1=fileno(logFP);
-  dup2(return_value_fileno$1, 1);
-  signed int return_value_fileno$2;
-  return_value_fileno$2=fileno(logFP);
-  dup2(return_value_fileno$2, 2);
+  signed int return_value_fileno_1;
+  return_value_fileno_1=fileno(logFP);
+  dup2(return_value_fileno_1, 1);
+  signed int return_value_fileno_2;
+  return_value_fileno_2=fileno(logFP);
+  dup2(return_value_fileno_2, 2);
 }
 
 // MPEG2StandardDeinit
@@ -16403,21 +16403,21 @@ _Bool MainIsDVB()
   struct DVBSupportedDeliverySys_s *supportedSystems;
   supportedSystems=DVBFrontEndGetDeliverySystems(DVBAdapter);
   i = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   for( ; !(i >= supportedSystems->nrofSystems); i = i + 1)
   {
     if((signed int)supportedSystems->systems[(signed long int)i] == DELSYS_DVBS)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)supportedSystems->systems[(signed long int)i] == DELSYS_DVBC ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)supportedSystems->systems[(signed long int)i] == DELSYS_DVBC ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)supportedSystems->systems[(signed long int)i] == DELSYS_DVBT ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)supportedSystems->systems[(signed long int)i] == DELSYS_DVBT ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return (_Bool)1;
 
   }
@@ -16460,9 +16460,9 @@ static unsigned int MapStringToValue(struct StringToParamMapping_s *mapping, con
   signed int i = 0;
   for( ; !((mapping + (signed long int)i)->str == ((char *)NULL)); i = i + 1)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp((mapping + (signed long int)i)->str, str);
-    if(return_value_strcasecmp$1 == 0)
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp((mapping + (signed long int)i)->str, str);
+    if(return_value_strcasecmp_1 == 0)
       return (mapping + (signed long int)i)->param;
 
   }
@@ -16486,16 +16486,16 @@ static char * MapValueToString(struct StringToParamMapping_s *mapping, unsigned 
 static unsigned int MapYamlNode(struct yaml_document_s *document, const char *key, struct StringToParamMapping_s *mapping, unsigned int defaultValue)
 {
   struct yaml_node_s *node;
-  struct yaml_node_s *return_value_yaml_document_get_root_node$1;
-  return_value_yaml_document_get_root_node$1=yaml_document_get_root_node(document);
-  node=YamlUtils_MappingFind(document, return_value_yaml_document_get_root_node$1, key);
+  struct yaml_node_s *return_value_yaml_document_get_root_node_1;
+  return_value_yaml_document_get_root_node_1=yaml_document_get_root_node(document);
+  node=YamlUtils_MappingFind(document, return_value_yaml_document_get_root_node_1, key);
   if(!(node == ((struct yaml_node_s *)NULL)))
   {
     if((signed int)node->type == YAML_SCALAR_NODE)
     {
-      unsigned int return_value_MapStringToValue$2;
-      return_value_MapStringToValue$2=MapStringToValue(mapping, (const char *)node->data.scalar.value, defaultValue);
-      return return_value_MapStringToValue$2;
+      unsigned int return_value_MapStringToValue_2;
+      return_value_MapStringToValue_2=MapStringToValue(mapping, (const char *)node->data.scalar.value, defaultValue);
+      return return_value_MapStringToValue_2;
     }
 
   }
@@ -16520,16 +16520,16 @@ struct MessageQ_s * MessageQCreate()
 {
   struct MessageQ_s *result;
   ObjectRegisterClass(MessageQClass, (unsigned int)sizeof(struct MessageQ_s) /*104ul*/ , (void (*)(void *))(void *)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl(MessageQClass, "threading/messageq.c", 60);
-  result = (struct MessageQ_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl(MessageQClass, "threading/messageq.c", 60);
+  result = (struct MessageQ_s *)return_value_ObjectCreateImpl_1;
   if(!(result == ((struct MessageQ_s *)NULL)))
   {
     result->messages=ListCreate();
     if(!(result->messages == ((struct List_s *)NULL)))
     {
-      pthread_mutex_init(&result->mutex, (const union anonymous$38 *)(void *)0);
-      pthread_cond_init(&result->availableCond, (const union anonymous$38 *)(void *)0);
+      pthread_mutex_init(&result->mutex, (const union anonymous_38 *)(void *)0);
+      pthread_cond_init(&result->availableCond, (const union anonymous_38 *)(void *)0);
       LogModule(3, MESSAGEQ, "Create messageq %p\n", result);
     }
 
@@ -16553,16 +16553,16 @@ void MessageQDestroy(struct MessageQ_s *msgQ)
   pthread_mutex_lock(&msgQ->mutex);
   iterator.current = msgQ->messages->head;
   iterator.list = msgQ->messages;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     void *object = iterator.current->data;
     ObjectRefDecImpl(object, "threading/messageq.c", 88);
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   ListFree(msgQ->messages, (void (*)(void *))(void *)0);
   pthread_mutex_unlock(&msgQ->mutex);
@@ -16691,9 +16691,9 @@ signed int MultiplexAdd(enum DVBDeliverySystem_e delSys, char *tuningParams, str
     sqlstring=sqlite3_mprintf("INSERT INTO Multiplexes(uid,type,tuningparams)VALUES (%d, %d, %Q);", uidSeed, delSys, tuningParams);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -16706,11 +16706,11 @@ signed int MultiplexAdd(enum DVBDeliverySystem_e delSys, char *tuningParams, str
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexAdd", 206, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexAdd", 206, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -16722,9 +16722,9 @@ signed int MultiplexAdd(enum DVBDeliverySystem_e delSys, char *tuningParams, str
   while((_Bool)0);
   rc=sqlite3_step(stmt);
   rc=sqlite3_finalize(stmt);
-  void *return_value_ObjectCreateImpl$4;
-  return_value_ObjectCreateImpl$4=ObjectCreateImpl("Multiplex_t", "multiplexes.c", 212);
-  multiplex = (struct Multiplex_s *)return_value_ObjectCreateImpl$4;
+  void *return_value_ObjectCreateImpl_4;
+  return_value_ObjectCreateImpl_4=ObjectCreateImpl("Multiplex_t", "multiplexes.c", 212);
+  multiplex = (struct Multiplex_s *)return_value_ObjectCreateImpl_4;
   multiplex->uid = uidSeed;
   uidSeed = uidSeed + 1;
   multiplex->tsId = 0;
@@ -16756,9 +16756,9 @@ signed int MultiplexDelete(struct Multiplex_s *multiplex)
     sqlstring=sqlite3_mprintf("DELETE FROM Multiplexes WHERE uid=%d;", multiplex->uid);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -16771,11 +16771,11 @@ signed int MultiplexDelete(struct Multiplex_s *multiplex)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexDelete", 232, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexDelete", 232, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -16817,19 +16817,19 @@ void * MultiplexEnumeratorGet()
 {
   signed int rc;
   struct sqlite3_stmt *stmt = (struct sqlite3_stmt *)(void *)0;
-  struct sqlite3 *return_value_DBaseConnectionGet$1;
-  return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-  rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, "SELECT Multiplexes.uid,Multiplexes.tsid,Multiplexes.netid,Multiplexes.type,Multiplexes.tuningparams FROM Multiplexes;", -1, &stmt, (const char **)(void *)0);
+  struct sqlite3 *return_value_DBaseConnectionGet_1;
+  return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+  rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, "SELECT Multiplexes.uid,Multiplexes.tsid,Multiplexes.netid,Multiplexes.type,Multiplexes.tuningparams FROM Multiplexes;", -1, &stmt, (const char **)(void *)0);
   do
     if(!(rc == 0) && !(rc == 100) && !(rc == 101))
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexEnumeratorGet", 132, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexEnumeratorGet", 132, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -16864,9 +16864,9 @@ struct Multiplex_s * MultiplexFind(char *mux)
   struct Multiplex_s *result = (struct Multiplex_s *)(void *)0;
   signed int netId;
   signed int tsId;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(mux, "%x.%x", &netId, &tsId);
-  if(return_value_sscanf$1 == 2)
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(mux, "%x.%x", &netId, &tsId);
+  if(return_value_sscanf_1 == 2)
     result=MultiplexFindId(netId, tsId);
 
   else
@@ -16891,9 +16891,9 @@ struct Multiplex_s * MultiplexFindId(signed int netid, signed int tsid)
     sqlstring=sqlite3_mprintf("SELECT Multiplexes.uid,Multiplexes.tsid,Multiplexes.netid,Multiplexes.type,Multiplexes.tuningparams FROM Multiplexes WHERE netid=%d AND tsid=%d;", netid, tsid);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -16906,11 +16906,11 @@ struct Multiplex_s * MultiplexFindId(signed int netid, signed int tsid)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexFindId", 119, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexFindId", 119, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -16938,9 +16938,9 @@ struct Multiplex_s * MultiplexFindUID(signed int uid)
     sqlstring=sqlite3_mprintf("SELECT Multiplexes.uid,Multiplexes.tsid,Multiplexes.netid,Multiplexes.type,Multiplexes.tuningparams FROM Multiplexes WHERE uid=%d;", uid);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -16953,11 +16953,11 @@ struct Multiplex_s * MultiplexFindUID(signed int uid)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexFindUID", 102, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexFindUID", 102, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -16982,19 +16982,19 @@ struct MultiplexList_s * MultiplexGetAll(void)
   signed int count;
   struct MultiplexList_s *list;
   count=DBaseCount("Multiplexes", (char *)(void *)0);
-  struct sqlite3 *return_value_DBaseConnectionGet$1;
-  return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-  rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, "SELECT Multiplexes.uid,Multiplexes.tsid,Multiplexes.netid,Multiplexes.type,Multiplexes.tuningparams FROM Multiplexes;", -1, &stmt, (const char **)(void *)0);
+  struct sqlite3 *return_value_DBaseConnectionGet_1;
+  return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+  rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, "SELECT Multiplexes.uid,Multiplexes.tsid,Multiplexes.netid,Multiplexes.type,Multiplexes.tuningparams FROM Multiplexes;", -1, &stmt, (const char **)(void *)0);
   do
     if(!(rc == 0) && !(rc == 100) && !(rc == 101))
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexGetAll", 185, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexGetAll", 185, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -17004,9 +17004,9 @@ struct MultiplexList_s * MultiplexGetAll(void)
     }
 
   while((_Bool)0);
-  struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$4;
-  return_value_ObjectCollectionCreateImpl$4=ObjectCollectionCreateImpl("MultiplexList_t", (unsigned int)count, "multiplexes.c", 187);
-  list = (struct MultiplexList_s *)return_value_ObjectCollectionCreateImpl$4;
+  struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_4;
+  return_value_ObjectCollectionCreateImpl_4=ObjectCollectionCreateImpl("MultiplexList_t", (unsigned int)count, "multiplexes.c", 187);
+  list = (struct MultiplexList_s *)return_value_ObjectCollectionCreateImpl_4;
   i = 0;
   for( ; !(i >= count); i = i + 1)
     list->multiplexes[(signed long int)i]=MultiplexGetNext((void *)stmt);
@@ -17025,23 +17025,23 @@ struct Multiplex_s * MultiplexGetNext(void *enumerator)
   if(rc == 100)
   {
     struct Multiplex_s *multiplex;
-    void *return_value_ObjectCreateImpl$1;
-    return_value_ObjectCreateImpl$1=ObjectCreateImpl("Multiplex_t", "multiplexes.c", 153);
-    multiplex = (struct Multiplex_s *)return_value_ObjectCreateImpl$1;
+    void *return_value_ObjectCreateImpl_1;
+    return_value_ObjectCreateImpl_1=ObjectCreateImpl("Multiplex_t", "multiplexes.c", 153);
+    multiplex = (struct Multiplex_s *)return_value_ObjectCreateImpl_1;
     multiplex->uid=sqlite3_column_int(stmt, 0);
-    signed int return_value_sqlite3_column_int$2;
-    return_value_sqlite3_column_int$2=sqlite3_column_int(stmt, 1);
-    multiplex->tsId = return_value_sqlite3_column_int$2 & 0xffff;
-    signed int return_value_sqlite3_column_int$3;
-    return_value_sqlite3_column_int$3=sqlite3_column_int(stmt, 2);
-    multiplex->networkId = return_value_sqlite3_column_int$3 & 0xffff;
-    signed int return_value_sqlite3_column_int$4;
-    return_value_sqlite3_column_int$4=sqlite3_column_int(stmt, 3);
-    multiplex->deliverySystem = (enum DVBDeliverySystem_e)return_value_sqlite3_column_int$4;
+    signed int return_value_sqlite3_column_int_2;
+    return_value_sqlite3_column_int_2=sqlite3_column_int(stmt, 1);
+    multiplex->tsId = return_value_sqlite3_column_int_2 & 0xffff;
+    signed int return_value_sqlite3_column_int_3;
+    return_value_sqlite3_column_int_3=sqlite3_column_int(stmt, 2);
+    multiplex->networkId = return_value_sqlite3_column_int_3 & 0xffff;
+    signed int return_value_sqlite3_column_int_4;
+    return_value_sqlite3_column_int_4=sqlite3_column_int(stmt, 3);
+    multiplex->deliverySystem = (enum DVBDeliverySystem_e)return_value_sqlite3_column_int_4;
     multiplex->patVersion = -1;
-    const unsigned char *return_value_sqlite3_column_text$5;
-    return_value_sqlite3_column_text$5=sqlite3_column_text(stmt, 4);
-    tmp = (char *)return_value_sqlite3_column_text$5;
+    const unsigned char *return_value_sqlite3_column_text_5;
+    return_value_sqlite3_column_text_5=sqlite3_column_text(stmt, 4);
+    tmp = (char *)return_value_sqlite3_column_text_5;
     if(!(tmp == ((char *)NULL)))
       multiplex->tuningParams=strdup(tmp);
 
@@ -17051,11 +17051,11 @@ struct Multiplex_s * MultiplexGetNext(void *enumerator)
   if(!(rc == 101))
     do
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$6;
-      return_value_DBaseConnectionGet$6=DBaseConnectionGet();
-      const char *return_value_sqlite3_errmsg$7;
-      return_value_sqlite3_errmsg$7=sqlite3_errmsg(return_value_DBaseConnectionGet$6);
-      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexGetNext", 169, rc, return_value_sqlite3_errmsg$7);
+      struct sqlite3 *return_value_DBaseConnectionGet_6;
+      return_value_DBaseConnectionGet_6=DBaseConnectionGet();
+      const char *return_value_sqlite3_errmsg_7;
+      return_value_sqlite3_errmsg_7=sqlite3_errmsg(return_value_DBaseConnectionGet_6);
+      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexGetNext", 169, rc, return_value_sqlite3_errmsg_7);
     }
     while((_Bool)0);
 
@@ -17066,16 +17066,16 @@ struct Multiplex_s * MultiplexGetNext(void *enumerator)
 // file ../include/multiplexes.h line 78
 signed int MultiplexInit(void)
 {
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  uidSeed = (signed int)return_value_time$1;
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  uidSeed = (signed int)return_value_time_1;
   multiplexSource=EventsRegisterSource("Multiplexes");
   multiplexAddedEvent=EventsRegisterEvent(multiplexSource, "Added", MultiplexEventToString);
   multiplexRemovedEvent=EventsRegisterEvent(multiplexSource, "Removed", MultiplexEventToString);
   ObjectRegisterCollection("MultiplexList_t", (unsigned int)sizeof(struct Multiplex_s *) /*8ul*/ , MultiplexListDestructor);
-  signed int return_value_ObjectRegisterClass$2;
-  return_value_ObjectRegisterClass$2=ObjectRegisterClass("Multiplex_t", (unsigned int)sizeof(struct Multiplex_s) /*32ul*/ , MultiplexDestructor);
-  return return_value_ObjectRegisterClass$2;
+  signed int return_value_ObjectRegisterClass_2;
+  return_value_ObjectRegisterClass_2=ObjectRegisterClass("Multiplex_t", (unsigned int)sizeof(struct Multiplex_s) /*32ul*/ , MultiplexDestructor);
+  return return_value_ObjectRegisterClass_2;
 }
 
 // MultiplexListDestructor
@@ -17100,9 +17100,9 @@ signed int MultiplexNetworkIdSet(struct Multiplex_s *multiplex, signed int netid
     sqlstring=sqlite3_mprintf("UPDATE Multiplexes SET netid=%d WHERE uid=%d;", netid, multiplex->uid);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -17116,11 +17116,11 @@ signed int MultiplexNetworkIdSet(struct Multiplex_s *multiplex, signed int netid
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexNetworkIdSet", 267, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexNetworkIdSet", 267, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -17147,9 +17147,9 @@ signed int MultiplexTSIdSet(struct Multiplex_s *multiplex, signed int tsid)
     sqlstring=sqlite3_mprintf("UPDATE Multiplexes SET tsid=%d WHERE uid=%d;", tsid, multiplex->uid);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -17163,11 +17163,11 @@ signed int MultiplexTSIdSet(struct Multiplex_s *multiplex, signed int tsid)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexTSIdSet", 252, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"MultiplexTSIdSet", 252, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -17200,9 +17200,9 @@ static void NITEventListener(void *arg, struct Event_s *event, void *payload)
   tparams[(signed long int)0] = (char)0;
   sparams[(signed long int)0] = (char)0;
   struct dvbpsi_sat_deliv_sys_dr_s *satDelSysDr;
-  _Bool return_value_DVBFrontEndDeliverySystemSupported$3;
-  _Bool return_value_DVBFrontEndDeliverySystemSupported$6;
-  _Bool return_value_DVBFrontEndDeliverySystemSupported$9;
+  _Bool return_value_DVBFrontEndDeliverySystemSupported_3;
+  _Bool return_value_DVBFrontEndDeliverySystemSupported_6;
+  _Bool return_value_DVBFrontEndDeliverySystemSupported_9;
   if((signed int)scanType == ScanType_Network && !(transponderList == ((struct List_s *)NULL)) && ((signed int)currentScanState == ScanState_WaitingForTables || (signed int)currentScanState == ScanState_WaitingForNIT))
   {
     transport = newnit->p_first_transport;
@@ -17217,8 +17217,8 @@ static void NITEventListener(void *arg, struct Event_s *event, void *payload)
             sparams[(signed long int)0] = (char)0;
             satDelSysDr=dvbpsi_DecodeSatDelivSysDr(descriptor);
             polarisation = polarisationTable[(signed long int)satDelSysDr->i_polarization];
-            return_value_DVBFrontEndDeliverySystemSupported$3=DVBFrontEndDeliverySystemSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBS);
-            if(!(return_value_DVBFrontEndDeliverySystemSupported$3 == (_Bool)0))
+            return_value_DVBFrontEndDeliverySystemSupported_3=DVBFrontEndDeliverySystemSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBS);
+            if(!(return_value_DVBFrontEndDeliverySystemSupported_3 == (_Bool)0))
             {
               if(!((signed int)satDelSysDr->i_modulation_system == 1))
               {
@@ -17231,13 +17231,13 @@ static void NITEventListener(void *arg, struct Event_s *event, void *payload)
                 delSys = (enum DVBDeliverySystem_e)DELSYS_DVBS;
                 do
                 {
-                  _Bool return_value_FindTransponder$2;
-                  return_value_FindTransponder$2=FindTransponder((signed int)frequency, polarisation);
-                  if(return_value_FindTransponder$2 == (_Bool)0)
+                  _Bool return_value_FindTransponder_2;
+                  return_value_FindTransponder_2=FindTransponder((signed int)frequency, polarisation);
+                  if(return_value_FindTransponder_2 == (_Bool)0)
                   {
-                    void *return_value_ObjectCreateImpl$1;
-                    return_value_ObjectCreateImpl$1=ObjectCreateImpl("TransponderEntry_t", "commands/cmd_scanning.c", 1287);
-                    tpEntry = (struct TransponderEntry_s *)return_value_ObjectCreateImpl$1;
+                    void *return_value_ObjectCreateImpl_1;
+                    return_value_ObjectCreateImpl_1=ObjectCreateImpl("TransponderEntry_t", "commands/cmd_scanning.c", 1287);
+                    tpEntry = (struct TransponderEntry_s *)return_value_ObjectCreateImpl_1;
                     if(!(tpEntry == ((struct TransponderEntry_s *)NULL)))
                     {
                       tpEntry->delSys = delSys;
@@ -17256,27 +17256,27 @@ static void NITEventListener(void *arg, struct Event_s *event, void *payload)
 
             }
 
-            return_value_DVBFrontEndDeliverySystemSupported$6=DVBFrontEndDeliverySystemSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBS2);
-            if(!(return_value_DVBFrontEndDeliverySystemSupported$6 == (_Bool)0))
+            return_value_DVBFrontEndDeliverySystemSupported_6=DVBFrontEndDeliverySystemSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBS2);
+            if(!(return_value_DVBFrontEndDeliverySystemSupported_6 == (_Bool)0))
             {
               if((signed int)satDelSysDr->i_modulation_system == 1)
               {
-                double NITEventListener$$1$$1$$1$$1$$1$$1$$1$$2$$freq;
-                NITEventListener$$1$$1$$1$$1$$1$$1$$1$$2$$freq=BCDFixedPoint3_7ToDouble(satDelSysDr->i_frequency);
-                double NITEventListener$$1$$1$$1$$1$$1$$1$$1$$2$$symbolRate;
-                NITEventListener$$1$$1$$1$$1$$1$$1$$1$$2$$symbolRate=BCDFixedPoint3_7ToDouble(satDelSysDr->i_symbol_rate << 4);
-                frequency = (unsigned int)(NITEventListener$$1$$1$$1$$1$$1$$1$$1$$2$$freq * 1000000.0);
-                sprintf(tparams, "Inversion: AUTO\nFEC: %s\nSymbol Rate: %u\nRoll Off: %s\nPolarisation: %s\nSatellite Number: %d\n", fecInnerTable[(signed long int)satDelSysDr->i_fec_inner], (unsigned int)(NITEventListener$$1$$1$$1$$1$$1$$1$$1$$2$$symbolRate * 1000000.0), rollOffTable[(signed long int)satDelSysDr->i_roll_off], polarisationTable[(signed long int)satDelSysDr->i_polarization], DVBSSatNumber);
+                double NITEventListener__1__1__1__1__1__1__1__2__freq;
+                NITEventListener__1__1__1__1__1__1__1__2__freq=BCDFixedPoint3_7ToDouble(satDelSysDr->i_frequency);
+                double NITEventListener__1__1__1__1__1__1__1__2__symbolRate;
+                NITEventListener__1__1__1__1__1__1__1__2__symbolRate=BCDFixedPoint3_7ToDouble(satDelSysDr->i_symbol_rate << 4);
+                frequency = (unsigned int)(NITEventListener__1__1__1__1__1__1__1__2__freq * 1000000.0);
+                sprintf(tparams, "Inversion: AUTO\nFEC: %s\nSymbol Rate: %u\nRoll Off: %s\nPolarisation: %s\nSatellite Number: %d\n", fecInnerTable[(signed long int)satDelSysDr->i_fec_inner], (unsigned int)(NITEventListener__1__1__1__1__1__1__1__2__symbolRate * 1000000.0), rollOffTable[(signed long int)satDelSysDr->i_roll_off], polarisationTable[(signed long int)satDelSysDr->i_polarization], DVBSSatNumber);
                 delSys = (enum DVBDeliverySystem_e)DELSYS_DVBS2;
                 do
                 {
-                  _Bool return_value_FindTransponder$5;
-                  return_value_FindTransponder$5=FindTransponder((signed int)frequency, polarisation);
-                  if(return_value_FindTransponder$5 == (_Bool)0)
+                  _Bool return_value_FindTransponder_5;
+                  return_value_FindTransponder_5=FindTransponder((signed int)frequency, polarisation);
+                  if(return_value_FindTransponder_5 == (_Bool)0)
                   {
-                    void *return_value_ObjectCreateImpl$4;
-                    return_value_ObjectCreateImpl$4=ObjectCreateImpl("TransponderEntry_t", "commands/cmd_scanning.c", 1309);
-                    tpEntry = (struct TransponderEntry_s *)return_value_ObjectCreateImpl$4;
+                    void *return_value_ObjectCreateImpl_4;
+                    return_value_ObjectCreateImpl_4=ObjectCreateImpl("TransponderEntry_t", "commands/cmd_scanning.c", 1309);
+                    tpEntry = (struct TransponderEntry_s *)return_value_ObjectCreateImpl_4;
                     if(!(tpEntry == ((struct TransponderEntry_s *)NULL)))
                     {
                       tpEntry->delSys = delSys;
@@ -17301,8 +17301,8 @@ static void NITEventListener(void *arg, struct Event_s *event, void *payload)
           {
             polarisation = (char *)(void *)0;
             tparams[(signed long int)0] = (char)0;
-            return_value_DVBFrontEndDeliverySystemSupported$9=DVBFrontEndDeliverySystemSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT);
-            if(!(return_value_DVBFrontEndDeliverySystemSupported$9 == (_Bool)0))
+            return_value_DVBFrontEndDeliverySystemSupported_9=DVBFrontEndDeliverySystemSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT);
+            if(!(return_value_DVBFrontEndDeliverySystemSupported_9 == (_Bool)0))
             {
               struct dvbpsi_terr_deliv_sys_dr_s *terrDelSysDr;
               terrDelSysDr=dvbpsi_DecodeTerrDelivSysDr(descriptor);
@@ -17313,13 +17313,13 @@ static void NITEventListener(void *arg, struct Event_s *event, void *payload)
                 delSys = (enum DVBDeliverySystem_e)DELSYS_DVBT;
                 do
                 {
-                  _Bool return_value_FindTransponder$8;
-                  return_value_FindTransponder$8=FindTransponder((signed int)frequency, polarisation);
-                  if(return_value_FindTransponder$8 == (_Bool)0)
+                  _Bool return_value_FindTransponder_8;
+                  return_value_FindTransponder_8=FindTransponder((signed int)frequency, polarisation);
+                  if(return_value_FindTransponder_8 == (_Bool)0)
                   {
-                    void *return_value_ObjectCreateImpl$7;
-                    return_value_ObjectCreateImpl$7=ObjectCreateImpl("TransponderEntry_t", "commands/cmd_scanning.c", 1338);
-                    tpEntry = (struct TransponderEntry_s *)return_value_ObjectCreateImpl$7;
+                    void *return_value_ObjectCreateImpl_7;
+                    return_value_ObjectCreateImpl_7=ObjectCreateImpl("TransponderEntry_t", "commands/cmd_scanning.c", 1338);
+                    tpEntry = (struct TransponderEntry_s *)return_value_ObjectCreateImpl_7;
                     if(!(tpEntry == ((struct TransponderEntry_s *)NULL)))
                     {
                       tpEntry->delSys = delSys;
@@ -17356,18 +17356,18 @@ static void NITEventListener(void *arg, struct Event_s *event, void *payload)
                   i = 0;
                   for( ; !(i >= (signed int)freqListDr->i_number_of_frequencies); i = i + 1)
                   {
-                    double NITEventListener$$1$$1$$1$$1$$1$$1$$1$$4$$1$$1$$1$$1$$freq;
-                    NITEventListener$$1$$1$$1$$1$$1$$1$$1$$4$$1$$1$$1$$1$$freq=BCDFixedPoint3_7ToDouble(freqListDr->p_center_frequencies[(signed long int)i]);
-                    frequency = (unsigned int)(NITEventListener$$1$$1$$1$$1$$1$$1$$1$$4$$1$$1$$1$$1$$freq * 1000000.0);
+                    double NITEventListener__1__1__1__1__1__1__1__4__1__1__1__1__freq;
+                    NITEventListener__1__1__1__1__1__1__1__4__1__1__1__1__freq=BCDFixedPoint3_7ToDouble(freqListDr->p_center_frequencies[(signed long int)i]);
+                    frequency = (unsigned int)(NITEventListener__1__1__1__1__1__1__1__4__1__1__1__1__freq * 1000000.0);
                     do
                     {
-                      _Bool return_value_FindTransponder$11;
-                      return_value_FindTransponder$11=FindTransponder((signed int)frequency, polarisation);
-                      if(return_value_FindTransponder$11 == (_Bool)0)
+                      _Bool return_value_FindTransponder_11;
+                      return_value_FindTransponder_11=FindTransponder((signed int)frequency, polarisation);
+                      if(return_value_FindTransponder_11 == (_Bool)0)
                       {
-                        void *return_value_ObjectCreateImpl$10;
-                        return_value_ObjectCreateImpl$10=ObjectCreateImpl("TransponderEntry_t", "commands/cmd_scanning.c", 1359);
-                        tpEntry = (struct TransponderEntry_s *)return_value_ObjectCreateImpl$10;
+                        void *return_value_ObjectCreateImpl_10;
+                        return_value_ObjectCreateImpl_10=ObjectCreateImpl("TransponderEntry_t", "commands/cmd_scanning.c", 1359);
+                        tpEntry = (struct TransponderEntry_s *)return_value_ObjectCreateImpl_10;
                         if(!(tpEntry == ((struct TransponderEntry_s *)NULL)))
                         {
                           tpEntry->delSys = delSys;
@@ -17398,13 +17398,13 @@ static void NITEventListener(void *arg, struct Event_s *event, void *payload)
                     frequency = freqListDr->p_center_frequencies[(signed long int)i] * (unsigned int)10;
                     do
                     {
-                      _Bool return_value_FindTransponder$13;
-                      return_value_FindTransponder$13=FindTransponder((signed int)frequency, polarisation);
-                      if(return_value_FindTransponder$13 == (_Bool)0)
+                      _Bool return_value_FindTransponder_13;
+                      return_value_FindTransponder_13=FindTransponder((signed int)frequency, polarisation);
+                      if(return_value_FindTransponder_13 == (_Bool)0)
                       {
-                        void *return_value_ObjectCreateImpl$12;
-                        return_value_ObjectCreateImpl$12=ObjectCreateImpl("TransponderEntry_t", "commands/cmd_scanning.c", 1371);
-                        tpEntry = (struct TransponderEntry_s *)return_value_ObjectCreateImpl$12;
+                        void *return_value_ObjectCreateImpl_12;
+                        return_value_ObjectCreateImpl_12=ObjectCreateImpl("TransponderEntry_t", "commands/cmd_scanning.c", 1371);
+                        tpEntry = (struct TransponderEntry_s *)return_value_ObjectCreateImpl_12;
                         if(!(tpEntry == ((struct TransponderEntry_s *)NULL)))
                         {
                           tpEntry->delSys = delSys;
@@ -17451,9 +17451,9 @@ struct NITProcessor_s * NITProcessorCreate(struct TSReader_t *reader)
     nitEvent=EventsRegisterEvent(DVBEventSource, "NIT", (signed int (*)(struct yaml_document_s *, struct Event_s *, void *))(void *)0);
 
   ObjectRegisterClass("NITProcessor_t", (unsigned int)sizeof(struct NITProcessor_s) /*16ul*/ , (void (*)(void *))(void *)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("NITProcessor_t", "standard/dvb/nitprocessor.c", 74);
-  result = (struct NITProcessor_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("NITProcessor_t", "standard/dvb/nitprocessor.c", 74);
+  result = (struct NITProcessor_s *)return_value_ObjectCreateImpl_1;
   if(!(result == ((struct NITProcessor_s *)NULL)))
     result->tsgroup=TSReaderCreateFilterGroup(reader, NITPROCESSOR, "DVB", NITProcessorFilterEventCallback, (void *)result);
 
@@ -17486,7 +17486,7 @@ static void NITProcessorFilterEventCallback(void *userArg, struct TSFilterGroup_
 
     if(!(details == NULL))
     {
-      state->demux=dvbpsi_AttachDemux(SubTableHandler$link2, (void *)state);
+      state->demux=dvbpsi_AttachDemux(SubTableHandler_link2, (void *)state);
       TSFilterGroupAddSectionFilter(state->tsgroup, (unsigned short int)0x0010, 1, state->demux);
     }
 
@@ -17507,9 +17507,9 @@ static void NetUserExit(struct ev_loop *loop, struct ev_io *w, signed int revent
 // file deliverymethod.c line 193
 _Bool NullOutputCanHandle(char *mrl)
 {
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(NullPrefix, mrl, sizeof(const char [8l]) /*8ul*/  - (unsigned long int)1);
-  return return_value_strncmp$1 == 0;
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(NullPrefix, mrl, sizeof(const char [8l]) /*8ul*/  - (unsigned long int)1);
+  return return_value_strncmp_1 == 0;
 }
 
 // NullOutputCreate
@@ -17545,9 +17545,9 @@ void * ObjectAllocImpl(signed int size, char *file, signed int line)
 static void * ObjectAllocInstance(signed int size, struct Class_s *clazz)
 {
   struct Object_s *result = (struct Object_s *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)size + sizeof(struct Object_s) /*24ul*/ );
-  result = (struct Object_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)size + sizeof(struct Object_s) /*24ul*/ );
+  result = (struct Object_s *)return_value_malloc_1;
   if(result == ((struct Object_s *)NULL))
     return (void *)0;
 
@@ -17579,12 +17579,12 @@ struct ObjectCollection_s * ObjectCollectionCreateImpl(char *name, unsigned int 
 
   else
   {
-    void *return_value_ObjectAllocInstance$1;
-    return_value_ObjectAllocInstance$1=ObjectAllocInstance((signed int)(sizeof(struct ObjectCollection_s) /*8ul*/  + (unsigned long int)(clazz->size * entries)), clazz);
-    result = (struct ObjectCollection_s *)return_value_ObjectAllocInstance$1;
+    void *return_value_ObjectAllocInstance_1;
+    return_value_ObjectAllocInstance_1=ObjectAllocInstance((signed int)(sizeof(struct ObjectCollection_s) /*8ul*/  + (unsigned long int)(clazz->size * entries)), clazz);
+    result = (struct ObjectCollection_s *)return_value_ObjectAllocInstance_1;
     if(!(result == ((struct ObjectCollection_s *)NULL)))
     {
-      result->$anon0.nrofEntries = entries;
+      result->_anon0.nrofEntries = entries;
       LogModule(4, OBJECT, "(%p) Created collection of class \"%s\" entries %d app ptr %p (%s:%d)\n", (struct Object_s *)((char *)result - (signed long int)sizeof(struct Object_s) /*24ul*/ ), name, entries, result, file, line);
     }
 
@@ -17649,15 +17649,15 @@ signed int ObjectDeinit(void)
   if(classesCount >= 1u)
   {
     struct Class_s *clazz;
-    struct Class_s *ObjectDeinit$$1$$2$$next = (struct Class_s *)(void *)0;
+    struct Class_s *ObjectDeinit__1__2__next = (struct Class_s *)(void *)0;
     LogModule(3, OBJECT, "%u Registered Classes:\n", classesCount);
     LogModule(3, OBJECT, "\tClass Name                       | Size       | Count      |Destructor?\n");
     LogModule(3, OBJECT, "\t---------------------------------|------------|------------|------------\n");
     clazz = classes;
-    for( ; !(clazz == ((struct Class_s *)NULL)); clazz = ObjectDeinit$$1$$2$$next)
+    for( ; !(clazz == ((struct Class_s *)NULL)); clazz = ObjectDeinit__1__2__next)
     {
       LogModule(3, OBJECT, "\t%-32s | %10d | %10d | %s\n", clazz->name, clazz->size, clazz->allocatedCount, clazz->destructor != ((void (*)(void *))NULL) ? "Yes" : "No");
-      ObjectDeinit$$1$$2$$next = clazz->next;
+      ObjectDeinit__1__2__next = clazz->next;
       free((void *)clazz->name);
       free((void *)clazz);
     }
@@ -17850,9 +17850,9 @@ static signed int ObjectRegisterClassType(char *name, enum ClassType_e type, uns
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct Class_s) /*40ul*/ );
-    clazz = (struct Class_s *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct Class_s) /*40ul*/ );
+    clazz = (struct Class_s *)return_value_malloc_1;
     if(clazz == ((struct Class_s *)NULL))
     {
       LogModule(0, OBJECT, "No space to register class %s", name);
@@ -17984,9 +17984,9 @@ static void PATHandler(void *arg, struct dvbpsi_pat_s *newpat)
     if(found == (_Bool)0)
     {
       LogModule(3, PATPROCESSOR, "Service not found in PAT while checking cache, deleting 0x%04x (%s)\n", services[(signed long int)i]->id, services[(signed long int)i]->name);
-      _Bool return_value_CacheServiceSeen$1;
-      return_value_CacheServiceSeen$1=CacheServiceSeen(services[(signed long int)i], (_Bool)0, (_Bool)1);
-      if(return_value_CacheServiceSeen$1 == (_Bool)0)
+      _Bool return_value_CacheServiceSeen_1;
+      return_value_CacheServiceSeen_1=CacheServiceSeen(services[(signed long int)i], (_Bool)0, (_Bool)1);
+      if(return_value_CacheServiceSeen_1 == (_Bool)0)
       {
         CacheServicesRelease();
         CacheServiceDelete(services[(signed long int)i]);
@@ -18013,9 +18013,9 @@ struct PATProcessor_s * PATProcessorCreate(struct TSReader_t *reader)
     patEvent=EventsRegisterEvent(MPEG2EventSource, "PAT", (signed int (*)(struct yaml_document_s *, struct Event_s *, void *))(void *)0);
 
   ObjectRegisterClass("PATProcessor_t", (unsigned int)sizeof(struct PATProcessor_s) /*24ul*/ , (void (*)(void *))(void *)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("PATProcessor_t", "standard/mpeg2/patprocessor.c", 76);
-  state = (struct PATProcessor_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("PATProcessor_t", "standard/mpeg2/patprocessor.c", 76);
+  state = (struct PATProcessor_s *)return_value_ObjectCreateImpl_1;
   if(!(state == ((struct PATProcessor_s *)NULL)))
     state->tsgroup=TSReaderCreateFilterGroup(reader, PATPROCESSOR, MPEG2FilterType, PATProcessorFilterEventCallback, (void *)state);
 
@@ -18088,9 +18088,9 @@ static signed int PIDAdd(struct Service_t *service, struct StreamInfo_t *pid)
     sqlstring=sqlite3_mprintf("INSERT INTO PIDs (mplexuid,serviceid,pid,type,descriptors) VALUES (%d,%d,%d,%d,?);", service->multiplexUID, service->id, pid->pid, pid->type);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -18103,11 +18103,11 @@ static signed int PIDAdd(struct Service_t *service, struct StreamInfo_t *pid)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"PIDAdd", 213, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"PIDAdd", 213, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -18137,9 +18137,9 @@ static signed int PIDListCount(struct Service_t *service)
     sqlstring=sqlite3_mprintf("SELECT count () FROM PIDs WHERE mplexuid=%d AND serviceid=%d AND pid<8192;", service->multiplexUID, service->id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -18152,11 +18152,11 @@ static signed int PIDListCount(struct Service_t *service)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"PIDListCount", 187, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"PIDListCount", 187, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -18244,9 +18244,9 @@ struct PMTProcessor_s * PMTProcessorCreate(struct TSReader_t *reader)
     pmtEvent=EventsRegisterEvent(MPEG2EventSource, "PMT", (signed int (*)(struct yaml_document_s *, struct Event_s *, void *))(void *)0);
 
   ObjectRegisterClass("PMTProcessor_t", (unsigned int)sizeof(struct PMTProcessor_s) /*4616ul*/ , (void (*)(void *))(void *)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("PMTProcessor_t", "standard/mpeg2/pmtprocessor.c", 86);
-  state = (struct PMTProcessor_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("PMTProcessor_t", "standard/mpeg2/pmtprocessor.c", 86);
+  state = (struct PMTProcessor_s *)return_value_ObjectCreateImpl_1;
   if(!(state == ((struct PMTProcessor_s *)NULL)))
     state->tsgroup=TSReaderCreateFilterGroup(reader, PMTPROCESSOR, MPEG2FilterType, PMTProcessorFilterEventCallback, (void *)state);
 
@@ -18379,9 +18379,9 @@ struct PSIPProcessor_s * PSIPProcessorCreate(struct TSReader_t *reader)
     }
 
     ObjectRegisterClass("PSIPProcessor_t", (unsigned int)sizeof(struct PSIPProcessor_s) /*16ul*/ , (void (*)(void *))(void *)0);
-    void *return_value_ObjectCreateImpl$1;
-    return_value_ObjectCreateImpl$1=ObjectCreateImpl("PSIPProcessor_t", "standard/atsc/psipprocessor.c", 116);
-    result = (struct PSIPProcessor_s *)return_value_ObjectCreateImpl$1;
+    void *return_value_ObjectCreateImpl_1;
+    return_value_ObjectCreateImpl_1=ObjectCreateImpl("PSIPProcessor_t", "standard/atsc/psipprocessor.c", 116);
+    result = (struct PSIPProcessor_s *)return_value_ObjectCreateImpl_1;
     if(!(result == ((struct PSIPProcessor_s *)NULL)))
       result->tsgroup=TSReaderCreateFilterGroup(reader, PSIPPROCESSOR, ATSCFilterType, PSIPProcessorFilterEventCallback, (void *)result);
 
@@ -18436,22 +18436,22 @@ static struct TSPacketFilter_t * PacketFilterListAddFilter(struct TSReader_t *re
         p = 0;
         for( ; !(p >= 8193); p = p + 1)
           pidCount = pidCount + (reader->packetFilters[(signed long int)p] != (struct TSPacketFilter_t *)(void *)0 ? 1 : 0);
-        signed int return_value_DVBDemuxGetMaxFilters$1;
-        return_value_DVBDemuxGetMaxFilters$1=DVBDemuxGetMaxFilters(reader->adapter);
-        freePIDCount = return_value_DVBDemuxGetMaxFilters$1 - pidCount;
+        signed int return_value_DVBDemuxGetMaxFilters_1;
+        return_value_DVBDemuxGetMaxFilters_1=DVBDemuxGetMaxFilters(reader->adapter);
+        freePIDCount = return_value_DVBDemuxGetMaxFilters_1 - pidCount;
         if(!(reader->activeSectionFilters->count >= 4))
           freePIDCount = freePIDCount - (4 - reader->activeSectionFilters->count);
 
         if(!(group == ((struct TSFilterGroup_t *)NULL)) && !(freePIDCount >= 1))
           return (struct TSPacketFilter_t *)(void *)0;
 
-        signed int return_value_DVBDemuxAllocateFilter$4;
-        return_value_DVBDemuxAllocateFilter$4=DVBDemuxAllocateFilter(reader->adapter, pid);
-        if(!(return_value_DVBDemuxAllocateFilter$4 == 0))
+        signed int return_value_DVBDemuxAllocateFilter_4;
+        return_value_DVBDemuxAllocateFilter_4=DVBDemuxAllocateFilter(reader->adapter, pid);
+        if(!(return_value_DVBDemuxAllocateFilter_4 == 0))
         {
-          _Bool return_value_DVBDemuxIsHardwareRestricted$3;
-          return_value_DVBDemuxIsHardwareRestricted$3=DVBDemuxIsHardwareRestricted(reader->adapter);
-          if(!(return_value_DVBDemuxIsHardwareRestricted$3 == (_Bool)0))
+          _Bool return_value_DVBDemuxIsHardwareRestricted_3;
+          return_value_DVBDemuxIsHardwareRestricted_3=DVBDemuxIsHardwareRestricted(reader->adapter);
+          if(!(return_value_DVBDemuxIsHardwareRestricted_3 == (_Bool)0))
           {
             if(group == ((struct TSFilterGroup_t *)NULL))
               return (struct TSPacketFilter_t *)(void *)0;
@@ -18463,9 +18463,9 @@ static struct TSPacketFilter_t * PacketFilterListAddFilter(struct TSReader_t *re
 
             }
 
-            signed int return_value_DVBDemuxAllocateFilter$2;
-            return_value_DVBDemuxAllocateFilter$2=DVBDemuxAllocateFilter(reader->adapter, pid);
-            if(!(return_value_DVBDemuxAllocateFilter$2 == 0))
+            signed int return_value_DVBDemuxAllocateFilter_2;
+            return_value_DVBDemuxAllocateFilter_2=DVBDemuxAllocateFilter(reader->adapter, pid);
+            if(!(return_value_DVBDemuxAllocateFilter_2 == 0))
             {
               LogModule(1, TSREADER, "Failed to allocate filter for 0x%04x", pid);
               return (struct TSPacketFilter_t *)(void *)0;
@@ -18481,9 +18481,9 @@ static struct TSPacketFilter_t * PacketFilterListAddFilter(struct TSReader_t *re
 
     }
 
-    _Bool return_value_DVBDemuxIsHardwareRestricted$5;
-    return_value_DVBDemuxIsHardwareRestricted$5=DVBDemuxIsHardwareRestricted(reader->adapter);
-    if(return_value_DVBDemuxIsHardwareRestricted$5 == (_Bool)0)
+    _Bool return_value_DVBDemuxIsHardwareRestricted_5;
+    return_value_DVBDemuxIsHardwareRestricted_5=DVBDemuxIsHardwareRestricted(reader->adapter);
+    if(return_value_DVBDemuxIsHardwareRestricted_5 == (_Bool)0)
     {
       if(reader->promiscuousMode == (_Bool)0)
       {
@@ -18496,9 +18496,9 @@ static struct TSPacketFilter_t * PacketFilterListAddFilter(struct TSReader_t *re
 
   }
 
-  void *return_value_ObjectCreateImpl$6;
-  return_value_ObjectCreateImpl$6=ObjectCreateImpl("TSPacketFilter_t", "ts.c", 605);
-  packetFilter = (struct TSPacketFilter_t *)return_value_ObjectCreateImpl$6;
+  void *return_value_ObjectCreateImpl_6;
+  return_value_ObjectCreateImpl_6=ObjectCreateImpl("TSPacketFilter_t", "ts.c", 605);
+  packetFilter = (struct TSPacketFilter_t *)return_value_ObjectCreateImpl_6;
   packetFilter->pid = pid;
   packetFilter->group = group;
   packetFilter->callback = callback;
@@ -18563,40 +18563,40 @@ static void ParseLine(char *line, char **command, char **argument)
   signed long int eoc = (signed long int)0;
   char *resultCmd = (char *)(void *)0;
   char *resultArg = (char *)(void *)0;
-  _Bool tmp_if_expr$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  _Bool tmp_if_expr_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
     if(!(*line == 0))
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      tmp_if_expr$2 = ((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*line] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      tmp_if_expr_2 = ((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*line] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     line = line + 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$6;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  _Bool tmp_if_expr$8;
-  const unsigned short int **return_value___ctype_b_loc$7;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_6;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  _Bool tmp_if_expr_8;
+  const unsigned short int **return_value___ctype_b_loc_7;
   if(!((signed int)*line == 35))
   {
     eol = (signed long int)0;
     do
     {
       if(!(line[eol] == 0))
-        tmp_if_expr$3 = (signed int)line[eol] != 35 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)line[eol] != 35 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
       eol = eol + 1l;
@@ -18605,9 +18605,9 @@ static void ParseLine(char *line, char **command, char **argument)
     eoc = (signed long int)0;
     for( ; !(line[eoc] == 0) && !(eoc >= eol); eoc = eoc + 1l)
     {
-      const unsigned short int **return_value___ctype_b_loc$4;
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)line[eoc]]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_4;
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)line[eoc]]) == 0))
         break;
 
     }
@@ -18621,13 +18621,13 @@ static void ParseLine(char *line, char **command, char **argument)
       {
         if(!(argStart >= eol))
         {
-          return_value___ctype_b_loc$5=__ctype_b_loc();
-          tmp_if_expr$6 = ((signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)line[argStart]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_5=__ctype_b_loc();
+          tmp_if_expr_6 = ((signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)line[argStart]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(!tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(!tmp_if_expr_6)
           break;
 
         argStart = argStart + 1l;
@@ -18638,13 +18638,13 @@ static void ParseLine(char *line, char **command, char **argument)
       {
         if(!(argStart >= argEnd))
         {
-          return_value___ctype_b_loc$7=__ctype_b_loc();
-          tmp_if_expr$8 = ((signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)line[argEnd]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_7=__ctype_b_loc();
+          tmp_if_expr_8 = ((signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)line[argEnd]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(!tmp_if_expr$8)
+          tmp_if_expr_8 = (_Bool)0;
+        if(!tmp_if_expr_8)
           break;
 
         argEnd = argEnd - 1l;
@@ -18653,9 +18653,9 @@ static void ParseLine(char *line, char **command, char **argument)
       argLen = (argEnd - argStart) + (signed long int)1;
       if(argLen >= 1l)
       {
-        void *return_value_malloc$9;
-        return_value_malloc$9=malloc((unsigned long int)(argLen + (signed long int)1));
-        resultArg = (char *)return_value_malloc$9;
+        void *return_value_malloc_9;
+        return_value_malloc_9=malloc((unsigned long int)(argLen + (signed long int)1));
+        resultArg = (char *)return_value_malloc_9;
         if(!(resultArg == ((char *)NULL)))
         {
           strncpy(resultArg, line + argStart, (unsigned long int)argLen);
@@ -18668,9 +18668,9 @@ static void ParseLine(char *line, char **command, char **argument)
 
     if(!(eoc == 0l))
     {
-      void *return_value_malloc$10;
-      return_value_malloc$10=malloc((unsigned long int)(eoc + (signed long int)1));
-      resultCmd = (char *)return_value_malloc$10;
+      void *return_value_malloc_10;
+      return_value_malloc_10=malloc((unsigned long int)(eoc + (signed long int)1));
+      resultCmd = (char *)return_value_malloc_10;
       if(!(resultCmd == ((char *)NULL)))
       {
         strncpy(resultCmd, line, (unsigned long int)eoc);
@@ -18691,10 +18691,10 @@ static struct MuxFrequencies_s * ParseMuxListFrequencies(struct MultiplexList_s 
 {
   signed int i;
   struct MuxFrequencies_s *result;
-  struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$1;
-  return_value_ObjectCollectionCreateImpl$1=ObjectCollectionCreateImpl("MuxFrequencies_t", (unsigned int)muxList->nrofMultiplexes, "commands/cmd_scanning.c", 1439);
-  result = (struct MuxFrequencies_s *)return_value_ObjectCollectionCreateImpl$1;
-  _Bool tmp_if_expr$6;
+  struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_1;
+  return_value_ObjectCollectionCreateImpl_1=ObjectCollectionCreateImpl("MuxFrequencies_t", (unsigned int)muxList->nrofMultiplexes, "commands/cmd_scanning.c", 1439);
+  result = (struct MuxFrequencies_s *)return_value_ObjectCollectionCreateImpl_1;
+  _Bool tmp_if_expr_6;
   if(!(result == ((struct MuxFrequencies_s *)NULL)))
   {
     i = 0;
@@ -18702,35 +18702,35 @@ static struct MuxFrequencies_s * ParseMuxListFrequencies(struct MultiplexList_s 
     {
       struct yaml_document_s document;
       memset((void *)&document, 0, sizeof(struct yaml_document_s) /*104ul*/ );
-      signed int return_value_YamlUtils_Parse$7;
-      return_value_YamlUtils_Parse$7=YamlUtils_Parse(muxList->multiplexes[(signed long int)i]->tuningParams, &document);
-      if(!(return_value_YamlUtils_Parse$7 == 0))
+      signed int return_value_YamlUtils_Parse_7;
+      return_value_YamlUtils_Parse_7=YamlUtils_Parse(muxList->multiplexes[(signed long int)i]->tuningParams, &document);
+      if(!(return_value_YamlUtils_Parse_7 == 0))
       {
         struct yaml_node_s *node;
-        struct yaml_node_s *return_value_yaml_document_get_root_node$2;
-        return_value_yaml_document_get_root_node$2=yaml_document_get_root_node(&document);
-        node=YamlUtils_MappingFind(&document, return_value_yaml_document_get_root_node$2, "Frequency");
+        struct yaml_node_s *return_value_yaml_document_get_root_node_2;
+        return_value_yaml_document_get_root_node_2=yaml_document_get_root_node(&document);
+        node=YamlUtils_MappingFind(&document, return_value_yaml_document_get_root_node_2, "Frequency");
         if(!(node == ((struct yaml_node_s *)NULL)))
         {
           if((signed int)node->type == YAML_SCALAR_NODE)
           {
-            unsigned long int return_value_strtoul$3;
-            return_value_strtoul$3=strtoul((const char *)node->data.scalar.value, (char ** restrict )(void *)0, 10);
-            result->frequencies[(signed long int)i].frequency = (unsigned int)return_value_strtoul$3;
+            unsigned long int return_value_strtoul_3;
+            return_value_strtoul_3=strtoul((const char *)node->data.scalar.value, (char ** restrict )(void *)0, 10);
+            result->frequencies[(signed long int)i].frequency = (unsigned int)return_value_strtoul_3;
           }
 
         }
 
         if((signed int)muxList->multiplexes[(signed long int)i]->deliverySystem == DELSYS_DVBS)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = (signed int)muxList->multiplexes[(signed long int)i]->deliverySystem == DELSYS_DVBS2 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (signed int)muxList->multiplexes[(signed long int)i]->deliverySystem == DELSYS_DVBS2 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
         {
-          struct yaml_node_s *return_value_yaml_document_get_root_node$4;
-          return_value_yaml_document_get_root_node$4=yaml_document_get_root_node(&document);
-          node=YamlUtils_MappingFind(&document, return_value_yaml_document_get_root_node$4, "Polarisation");
+          struct yaml_node_s *return_value_yaml_document_get_root_node_4;
+          return_value_yaml_document_get_root_node_4=yaml_document_get_root_node(&document);
+          node=YamlUtils_MappingFind(&document, return_value_yaml_document_get_root_node_4, "Polarisation");
           if(!(node == ((struct yaml_node_s *)NULL)))
           {
             if((signed int)node->type == YAML_SCALAR_NODE)
@@ -18738,9 +18738,9 @@ static struct MuxFrequencies_s * ParseMuxListFrequencies(struct MultiplexList_s 
 
           }
 
-          struct yaml_node_s *return_value_yaml_document_get_root_node$5;
-          return_value_yaml_document_get_root_node$5=yaml_document_get_root_node(&document);
-          node=YamlUtils_MappingFind(&document, return_value_yaml_document_get_root_node$5, "Satellite Number");
+          struct yaml_node_s *return_value_yaml_document_get_root_node_5;
+          return_value_yaml_document_get_root_node_5=yaml_document_get_root_node(&document);
+          node=YamlUtils_MappingFind(&document, return_value_yaml_document_get_root_node_5, "Satellite Number");
           if(!(node == ((struct yaml_node_s *)NULL)))
           {
             if((signed int)node->type == YAML_SCALAR_NODE)
@@ -18781,12 +18781,12 @@ signed int PluginManagerInit(void)
   LogModule(3, PLUGINMANAGER, "Plugin Manager Initialising...\n");
   lt_dlsetsearchpath("/usr/lib/dvbstreamer/plugins");
   lt_dlforeachfile("/usr/lib/dvbstreamer/plugins", PluginManagerLoadPlugin, (void *)0);
-  _Bool return_value_MainIsDVB$1;
-  return_value_MainIsDVB$1=MainIsDVB();
-  isSuitableMask = (unsigned char)(return_value_MainIsDVB$1 != (_Bool)0 ? 0x01 : 0x02);
+  _Bool return_value_MainIsDVB_1;
+  return_value_MainIsDVB_1=MainIsDVB();
+  isSuitableMask = (unsigned char)(return_value_MainIsDVB_1 != (_Bool)0 ? 0x01 : 0x02);
   iterator.current = PluginsList->head;
   iterator.list = PluginsList;
-  struct ListEntry_s *tmp_if_expr$2;
+  struct ListEntry_s *tmp_if_expr_2;
   while(!(iterator.current == ((struct ListEntry_s *)NULL)))
   {
     struct PluginEntry_t *entry = (struct PluginEntry_t *)iterator.current->data;
@@ -18795,11 +18795,11 @@ signed int PluginManagerInit(void)
       LogModule(3, PLUGINMANAGER, "Installing %s\n", entry->pluginInterface->name);
       PluginManagerInstallPlugin(entry->pluginInterface);
       if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$2 = iterator.current->next;
+        tmp_if_expr_2 = iterator.current->next;
 
       else
-        tmp_if_expr$2 = (struct ListEntry_s *)(void *)0;
-      iterator.current = tmp_if_expr$2;
+        tmp_if_expr_2 = (struct ListEntry_s *)(void *)0;
+      iterator.current = tmp_if_expr_2;
     }
 
     else
@@ -18906,13 +18906,13 @@ static signed int PluginManagerLoadPlugin(const char *filename, void *userarg)
   struct lt__handle *handle;
   handle=lt_dlopenext(filename);
   LogModule(4, PLUGINMANAGER, "Attempting to load %s\n", filename);
-  struct ListEntry_s *tmp_if_expr$2;
+  struct ListEntry_s *tmp_if_expr_2;
   if(!(handle == ((struct lt__handle *)NULL)))
   {
     struct Plugin_t *pluginInterface;
-    void *return_value_lt_dlsym$1;
-    return_value_lt_dlsym$1=lt_dlsym(handle, "PluginInterface");
-    pluginInterface = (struct Plugin_t *)return_value_lt_dlsym$1;
+    void *return_value_lt_dlsym_1;
+    return_value_lt_dlsym_1=lt_dlsym(handle, "PluginInterface");
+    pluginInterface = (struct Plugin_t *)return_value_lt_dlsym_1;
     if(!(pluginInterface == ((struct Plugin_t *)NULL)))
     {
       struct ListIterator_s iterator;
@@ -18925,12 +18925,12 @@ static signed int PluginManagerLoadPlugin(const char *filename, void *userarg)
       {
         iterator.current = PluginsList->head;
         iterator.list = PluginsList;
-        for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$2)
+        for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_2)
         {
-          struct PluginEntry_t *PluginManagerLoadPlugin$$1$$1$$1$$2$$1$$1$$entry = (struct PluginEntry_t *)iterator.current->data;
-          signed int return_value_strcmp$3;
-          return_value_strcmp$3=strcmp(pluginInterface->name, PluginManagerLoadPlugin$$1$$1$$1$$2$$1$$1$$entry->pluginInterface->name);
-          if(return_value_strcmp$3 == 0)
+          struct PluginEntry_t *PluginManagerLoadPlugin__1__1__1__2__1__1__entry = (struct PluginEntry_t *)iterator.current->data;
+          signed int return_value_strcmp_3;
+          return_value_strcmp_3=strcmp(pluginInterface->name, PluginManagerLoadPlugin__1__1__1__2__1__1__entry->pluginInterface->name);
+          if(return_value_strcmp_3 == 0)
           {
             LogModule(4, PLUGINMANAGER, "Plugin already loaded, igoring this instance.\n");
             addPlugin = (_Bool)0;
@@ -18938,25 +18938,25 @@ static signed int PluginManagerLoadPlugin(const char *filename, void *userarg)
           }
 
           if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-            tmp_if_expr$2 = iterator.current->next;
+            tmp_if_expr_2 = iterator.current->next;
 
           else
-            tmp_if_expr$2 = (struct ListEntry_s *)(void *)0;
+            tmp_if_expr_2 = (struct ListEntry_s *)(void *)0;
         }
       }
 
       if(!(addPlugin == (_Bool)0))
       {
-        void *return_value_calloc$4;
-        return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct PluginEntry_t) /*16ul*/ );
-        entry = (struct PluginEntry_t *)return_value_calloc$4;
+        void *return_value_calloc_4;
+        return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct PluginEntry_t) /*16ul*/ );
+        entry = (struct PluginEntry_t *)return_value_calloc_4;
         if(!(entry == ((struct PluginEntry_t *)NULL)))
         {
           entry->pluginInterface = pluginInterface;
           entry->handle = handle;
-          _Bool return_value_ListAdd$5;
-          return_value_ListAdd$5=ListAdd(PluginsList, (void *)entry);
-          if(!(return_value_ListAdd$5 == (_Bool)0))
+          _Bool return_value_ListAdd_5;
+          return_value_ListAdd_5=ListAdd(PluginsList, (void *)entry);
+          if(!(return_value_ListAdd_5 == (_Bool)0))
           {
             LogModule(2, PLUGINMANAGER, "Loaded plugin %s\n", pluginInterface->name);
             return 0;
@@ -18976,9 +18976,9 @@ static signed int PluginManagerLoadPlugin(const char *filename, void *userarg)
 
   else
   {
-    const char *return_value_lt_dlerror$6;
-    return_value_lt_dlerror$6=lt_dlerror();
-    LogModule(4, PLUGINMANAGER, "Failed to open plugin %s - reason %s\n", filename, return_value_lt_dlerror$6);
+    const char *return_value_lt_dlerror_6;
+    return_value_lt_dlerror_6=lt_dlerror();
+    LogModule(4, PLUGINMANAGER, "Failed to open plugin %s - reason %s\n", filename, return_value_lt_dlerror_6);
   }
   return 0;
 }
@@ -18990,16 +18990,16 @@ static void PluginManagerLsPlugins(signed int argc, char **argv)
   struct ListIterator_s iterator;
   iterator.current = PluginsList->head;
   iterator.list = PluginsList;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct PluginEntry_t *entry = (struct PluginEntry_t *)iterator.current->data;
     CommandPrintf("%s\n", entry->pluginInterface->name);
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
 }
 
@@ -19011,23 +19011,23 @@ static void PluginManagerPluginInfo(signed int argc, char **argv)
   struct Plugin_t *pluginInterface = (struct Plugin_t *)(void *)0;
   iterator.current = PluginsList->head;
   iterator.list = PluginsList;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct PluginEntry_t *entry = (struct PluginEntry_t *)iterator.current->data;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(entry->pluginInterface->name, argv[(signed long int)0]);
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(entry->pluginInterface->name, argv[(signed long int)0]);
+    if(return_value_strcmp_2 == 0)
     {
       pluginInterface = entry->pluginInterface;
       break;
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   if(!(pluginInterface == ((struct Plugin_t *)NULL)))
   {
@@ -19200,9 +19200,9 @@ static void PrintXmlified(char *text)
   signed int i;
   signed int utf8CharLen;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(text);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(text);
+  len = (signed int)return_value_strlen_1;
   buffer[(signed long int)0] = (char)0;
   i = 0;
   while(!(i >= len))
@@ -19244,9 +19244,9 @@ static void PrintXmlified(char *text)
         temp[(signed long int)utf8CharLen] = (char)0;
       }
     }
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(temp);
-    if(return_value_strlen$2 + (unsigned long int)bufferIndex >= 255ul)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(temp);
+    if(return_value_strlen_2 + (unsigned long int)bufferIndex >= 255ul)
     {
       CommandPrintf("%s", (const void *)buffer);
       bufferIndex = 0;
@@ -19254,9 +19254,9 @@ static void PrintXmlified(char *text)
     }
 
     strcat(buffer, temp);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(temp);
-    bufferIndex = bufferIndex + (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(temp);
+    bufferIndex = bufferIndex + (signed int)return_value_strlen_3;
   }
   if(!(bufferIndex == 0))
     CommandPrintf("%s", (const void *)buffer);
@@ -19276,12 +19276,12 @@ static _Bool ProcessCommand(struct CommandContext_t *context, char *command, cha
   if(!(context->commands == ((struct Command_t *)NULL)))
     commandInfo=FindCommand(context->commands, command);
 
-  struct ListEntry_s *tmp_if_expr$1;
+  struct ListEntry_s *tmp_if_expr_1;
   if(commandInfo == ((struct Command_t *)NULL))
   {
     iterator.current = CommandsList->head;
     iterator.list = CommandsList;
-    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
     {
       struct Command_t *commands = (struct Command_t *)iterator.current->data;
       commandInfo=FindCommand(commands, command);
@@ -19289,15 +19289,15 @@ static _Bool ProcessCommand(struct CommandContext_t *context, char *command, cha
         break;
 
       if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$1 = iterator.current->next;
+        tmp_if_expr_1 = iterator.current->next;
 
       else
-        tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+        tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
     }
   }
 
   pthread_mutex_unlock(&CommandMutex);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(commandInfo == ((struct Command_t *)NULL)))
   {
     if(!(argument == ((char *)NULL)))
@@ -19306,26 +19306,26 @@ static _Bool ProcessCommand(struct CommandContext_t *context, char *command, cha
     else
     {
       argc = 0;
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc(sizeof(char *) /*8ul*/ , (unsigned long int)1);
-      argv = (char **)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc(sizeof(char *) /*8ul*/ , (unsigned long int)1);
+      argv = (char **)return_value_calloc_2;
       argv[(signed long int)0] = (char *)(void *)0;
     }
     if(argc >= commandInfo->minArgs)
-      tmp_if_expr$3 = argc <= commandInfo->maxArgs ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = argc <= commandInfo->maxArgs ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
       commandInfo->commandfunc(argc, argv);
 
     else
       do
       {
-        struct CommandContext_t *ProcessCommand$$1$$3$$4$$1$$context;
-        ProcessCommand$$1$$3$$4$$1$$context=CommandContextGet();
-        ProcessCommand$$1$$3$$4$$1$$context->errorNumber = (unsigned short int)0x0003;
-        snprintf(ProcessCommand$$1$$3$$4$$1$$context->errorMessage, (unsigned long int)256, "Incorrect number of arguments!");
+        struct CommandContext_t *ProcessCommand__1__3__4__1__context;
+        ProcessCommand__1__3__4__1__context=CommandContextGet();
+        ProcessCommand__1__3__4__1__context->errorNumber = (unsigned short int)0x0003;
+        snprintf(ProcessCommand__1__3__4__1__context->errorMessage, (unsigned long int)256, "Incorrect number of arguments!");
       }
       while((_Bool)0);
     for( ; argc >= 1; argc = argc - 1)
@@ -19401,12 +19401,12 @@ static void ProcessTransponderList(void)
   muxList=MultiplexGetAll();
   struct MuxFrequencies_s *muxFreqList;
   muxFreqList=ParseMuxListFrequencies(muxList);
-  struct ListEntry_s *tmp_if_expr$1;
+  struct ListEntry_s *tmp_if_expr_1;
   if(transponderList->count >= 1)
   {
     iterator.current = transponderList->head;
     iterator.list = transponderList;
-    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
     {
       struct TransponderEntry_s *entry = (struct TransponderEntry_s *)iterator.current->data;
       mux=MultiplexFindId(entry->netId, entry->tsId);
@@ -19426,19 +19426,19 @@ static void ProcessTransponderList(void)
         else
         {
           struct TuningParamDocs_s *docs;
-          struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$2;
-          return_value_ObjectCollectionCreateImpl$2=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)1, "commands/cmd_scanning.c", 1532);
-          docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl$2;
+          struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_2;
+          return_value_ObjectCollectionCreateImpl_2=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)1, "commands/cmd_scanning.c", 1532);
+          docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl_2;
           docs->docs[(signed long int)0] = entry->tuningParams;
           entry->tuningParams = (char *)(void *)0;
           ScanListAddEntry(entry->delSys, (struct Multiplex_s *)(void *)0, docs);
         }
       }
       if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$1 = iterator.current->next;
+        tmp_if_expr_1 = iterator.current->next;
 
       else
-        tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+        tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
     }
   }
 
@@ -19469,13 +19469,13 @@ static void ProcessVCT(void *arg, struct dvbpsi_atsc_vct_s *newVCT)
     sprintf(serviceName, "%d-%d ", channel->i_major_number, channel->i_minor_number);
     inbuf = (char *)channel->i_short_name;
     inbytes = (unsigned long int)14;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(serviceName);
-    outbuf = serviceName + (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(serviceName);
+    outbuf = serviceName + (signed long int)return_value_strlen_1;
     outbytes = sizeof(char [53l]) /*53ul*/  - (unsigned long int)10;
-    unsigned long int return_value_iconv$2;
-    return_value_iconv$2=iconv(utf16ToUtf8CD, (char **)&inbuf, &inbytes, &outbuf, &outbytes);
-    ret = (signed int)return_value_iconv$2;
+    unsigned long int return_value_iconv_2;
+    return_value_iconv_2=iconv(utf16ToUtf8CD, (char **)&inbuf, &inbytes, &outbuf, &outbytes);
+    ret = (signed int)return_value_iconv_2;
     if(ret == -1)
       LogModule(0, PSIPPROCESSOR, "Failed to convert service name\n");
 
@@ -19492,9 +19492,9 @@ static void ProcessVCT(void *arg, struct dvbpsi_atsc_vct_s *newVCT)
       if(!(service->source == (signed int)channel->i_source_id))
         CacheUpdateServiceSource(service, channel->i_source_id);
 
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(service->name, serviceName);
-      if(!(return_value_strcmp$3 == 0))
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(service->name, serviceName);
+      if(!(return_value_strcmp_3 == 0))
         CacheUpdateServiceName(service, serviceName);
 
       LogModule(3, PSIPPROCESSOR, "\t%s\n", (const void *)serviceName);
@@ -19546,9 +19546,9 @@ static void ProcessVCT(void *arg, struct dvbpsi_atsc_vct_s *newVCT)
     if(found == (_Bool)0)
     {
       LogModule(3, PSIPPROCESSOR, "Channel not found in VCT while checking cache, deleting 0x%04x (%s)\n", services[(signed long int)i]->id, services[(signed long int)i]->name);
-      _Bool return_value_CacheServiceSeen$4;
-      return_value_CacheServiceSeen$4=CacheServiceSeen(services[(signed long int)i], (_Bool)0, (_Bool)0);
-      if(return_value_CacheServiceSeen$4 == (_Bool)0)
+      _Bool return_value_CacheServiceSeen_4;
+      return_value_CacheServiceSeen_4=CacheServiceSeen(services[(signed long int)i], (_Bool)0, (_Bool)0);
+      if(return_value_CacheServiceSeen_4 == (_Bool)0)
       {
         CacheServicesRelease();
         CacheServiceDelete(services[(signed long int)i]);
@@ -19597,9 +19597,9 @@ struct ProgramInfo_s * ProgramInfoGet(struct Service_t *service)
         sqlstring=sqlite3_mprintf("SELECT pid,type,descriptors FROM PIDs WHERE mplexuid=%d AND serviceid=%d AND pid<8192;", service->multiplexUID, service->id);
         if(!(sqlstring == ((char *)NULL)))
         {
-          struct sqlite3 *return_value_DBaseConnectionGet$1;
-          return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-          rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+          struct sqlite3 *return_value_DBaseConnectionGet_1;
+          return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+          rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
           sqlite3_free((void *)sqlstring);
         }
 
@@ -19617,11 +19617,11 @@ struct ProgramInfo_s * ProgramInfoGet(struct Service_t *service)
           {
             result->streamInfoList->streams[(signed long int)i].pid=sqlite3_column_int(stmt, 0);
             result->streamInfoList->streams[(signed long int)i].type=sqlite3_column_int(stmt, 1);
-            const void *return_value_sqlite3_column_blob$2;
-            return_value_sqlite3_column_blob$2=sqlite3_column_blob(stmt, 2);
-            signed int return_value_sqlite3_column_bytes$3;
-            return_value_sqlite3_column_bytes$3=sqlite3_column_bytes(stmt, 2);
-            result->streamInfoList->streams[(signed long int)i].descriptors=UnRollDescriptors((unsigned char *)return_value_sqlite3_column_blob$2, return_value_sqlite3_column_bytes$3);
+            const void *return_value_sqlite3_column_blob_2;
+            return_value_sqlite3_column_blob_2=sqlite3_column_blob(stmt, 2);
+            signed int return_value_sqlite3_column_bytes_3;
+            return_value_sqlite3_column_bytes_3=sqlite3_column_bytes(stmt, 2);
+            result->streamInfoList->streams[(signed long int)i].descriptors=UnRollDescriptors((unsigned char *)return_value_sqlite3_column_blob_2, return_value_sqlite3_column_bytes_3);
           }
 
           else
@@ -19630,14 +19630,14 @@ struct ProgramInfo_s * ProgramInfoGet(struct Service_t *service)
         rc=sqlite3_finalize(stmt);
         do
         {
-          char *ProgramInfoGet$$1$$1$$1$$2$$2$$sqlstring;
-          ProgramInfoGet$$1$$1$$1$$2$$2$$sqlstring=sqlite3_mprintf("SELECT pid,descriptors FROM PIDs WHERE mplexuid=%d AND serviceid=%d AND pid>%d;", service->multiplexUID, service->id, 0x8000);
-          if(!(ProgramInfoGet$$1$$1$$1$$2$$2$$sqlstring == ((char *)NULL)))
+          char *ProgramInfoGet__1__1__1__2__2__sqlstring;
+          ProgramInfoGet__1__1__1__2__2__sqlstring=sqlite3_mprintf("SELECT pid,descriptors FROM PIDs WHERE mplexuid=%d AND serviceid=%d AND pid>%d;", service->multiplexUID, service->id, 0x8000);
+          if(!(ProgramInfoGet__1__1__1__2__2__sqlstring == ((char *)NULL)))
           {
-            struct sqlite3 *return_value_DBaseConnectionGet$4;
-            return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-            rc=sqlite3_prepare(return_value_DBaseConnectionGet$4, ProgramInfoGet$$1$$1$$1$$2$$2$$sqlstring, -1, &stmt, (const char **)(void *)0);
-            sqlite3_free((void *)ProgramInfoGet$$1$$1$$1$$2$$2$$sqlstring);
+            struct sqlite3 *return_value_DBaseConnectionGet_4;
+            return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+            rc=sqlite3_prepare(return_value_DBaseConnectionGet_4, ProgramInfoGet__1__1__1__2__2__sqlstring, -1, &stmt, (const char **)(void *)0);
+            sqlite3_free((void *)ProgramInfoGet__1__1__1__2__2__sqlstring);
           }
 
           else
@@ -19649,14 +19649,14 @@ struct ProgramInfo_s * ProgramInfoGet(struct Service_t *service)
           rc=sqlite3_step(stmt);
           if(rc == 100)
           {
-            signed int return_value_sqlite3_column_int$5;
-            return_value_sqlite3_column_int$5=sqlite3_column_int(stmt, 0);
-            result->pcrPID = return_value_sqlite3_column_int$5 & 0x1fff;
-            const void *return_value_sqlite3_column_blob$6;
-            return_value_sqlite3_column_blob$6=sqlite3_column_blob(stmt, 1);
-            signed int return_value_sqlite3_column_bytes$7;
-            return_value_sqlite3_column_bytes$7=sqlite3_column_bytes(stmt, 1);
-            result->descriptors=UnRollDescriptors((unsigned char *)return_value_sqlite3_column_blob$6, return_value_sqlite3_column_bytes$7);
+            signed int return_value_sqlite3_column_int_5;
+            return_value_sqlite3_column_int_5=sqlite3_column_int(stmt, 0);
+            result->pcrPID = return_value_sqlite3_column_int_5 & 0x1fff;
+            const void *return_value_sqlite3_column_blob_6;
+            return_value_sqlite3_column_blob_6=sqlite3_column_blob(stmt, 1);
+            signed int return_value_sqlite3_column_bytes_7;
+            return_value_sqlite3_column_bytes_7=sqlite3_column_bytes(stmt, 1);
+            result->descriptors=UnRollDescriptors((unsigned char *)return_value_sqlite3_column_blob_6, return_value_sqlite3_column_bytes_7);
           }
 
           rc=sqlite3_finalize(stmt);
@@ -19688,14 +19688,14 @@ struct ProgramInfo_s * ProgramInfoNew(signed int nrofStreams)
     typeInited = (_Bool)1;
   }
 
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("ProgramInfo_t", "pids.c", 63);
-  info = (struct ProgramInfo_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("ProgramInfo_t", "pids.c", 63);
+  info = (struct ProgramInfo_s *)return_value_ObjectCreateImpl_1;
   if(!(info == ((struct ProgramInfo_s *)NULL)))
   {
-    struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$2;
-    return_value_ObjectCollectionCreateImpl$2=ObjectCollectionCreateImpl("StreamInfoList_t", (unsigned int)nrofStreams, "pids.c", 66);
-    info->streamInfoList = (struct StreamInfoList_t *)return_value_ObjectCollectionCreateImpl$2;
+    struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_2;
+    return_value_ObjectCollectionCreateImpl_2=ObjectCollectionCreateImpl("StreamInfoList_t", (unsigned int)nrofStreams, "pids.c", 66);
+    info->streamInfoList = (struct StreamInfoList_t *)return_value_ObjectCollectionCreateImpl_2;
   }
 
   return info;
@@ -19713,9 +19713,9 @@ signed int ProgramInfoRemove(struct Service_t *service)
     sqlstring=sqlite3_mprintf("DELETE FROM PIDs WHERE mplexuid=%d AND serviceid=%d;", service->multiplexUID, service->id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -19728,11 +19728,11 @@ signed int ProgramInfoRemove(struct Service_t *service)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ProgramInfoRemove", 168, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ProgramInfoRemove", 168, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -19821,9 +19821,9 @@ signed int PropertiesAddProperty(const char *path, const char *name, const char 
 static struct PropertyNode_s * PropertiesCreateNode(struct PropertyNode_s *parentNode, const char *newProp)
 {
   struct PropertyNode_s *childNode = (struct PropertyNode_s *)(void *)0;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("PropertyNode_t", "properties.c", 547);
-  childNode = (struct PropertyNode_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("PropertyNode_t", "properties.c", 547);
+  childNode = (struct PropertyNode_s *)return_value_ObjectCreateImpl_1;
   childNode->name=strdup(newProp);
   childNode->type = (enum PropertyType_e)PropertyType_None;
   childNode->desc = (const char *)(void *)0;
@@ -19835,9 +19835,9 @@ static struct PropertyNode_s * PropertiesCreateNode(struct PropertyNode_s *paren
     node = parentNode->childNodes;
     for( ; !(node == ((struct PropertyNode_s *)NULL)); node = node->next)
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(node->name, newProp);
-      if(return_value_strcmp$2 >= 1)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(node->name, newProp);
+      if(return_value_strcmp_2 >= 1)
         break;
 
       prevNode = node;
@@ -19934,13 +19934,13 @@ signed int PropertiesEnumerate(char *path, void **pos)
   signed int leftOver = -1;
   struct PropertyPathElements_s *pathElements = (struct PropertyPathElements_s *)(void *)0;
   struct PropertyNode_s *node = (struct PropertyNode_s *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(path == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)path[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)path[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     node = &rootProperty;
 
   else
@@ -19978,9 +19978,9 @@ static struct PropertyNode_s * PropertiesFindNode(struct PropertyPathElements_s 
     childNode = currentNode->childNodes;
     for( ; !(childNode == ((struct PropertyNode_s *)NULL)); childNode = childNode->next)
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(childNode->name, pathElements->elements[(signed long int)i]);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(childNode->name, pathElements->elements[(signed long int)i]);
+      if(return_value_strcmp_1 == 0)
       {
         currentNode = childNode;
         nodeFound = (_Bool)1;
@@ -20156,9 +20156,9 @@ signed int PropertiesRemoveProperty(const char *path, const char *name)
     struct PropertyNode_s *currentNode = parentNode->childNodes;
     for( ; !(currentNode == ((struct PropertyNode_s *)NULL)); currentNode = currentNode->next)
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(name, currentNode->name);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(name, currentNode->name);
+      if(return_value_strcmp_1 == 0)
         break;
 
       prevNode = currentNode;
@@ -20195,15 +20195,15 @@ signed int PropertiesSet(char *path, struct PropertyValue_s *value)
   pathElements=PropertyPathSplitElements(path);
   struct PropertyNode_s *node;
   node=PropertiesFindNode(pathElements, &leftOver, (struct PropertyNode_s **)(void *)0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(leftOver == -1 && !(node == ((struct PropertyNode_s *)NULL)))
   {
     if(node->type == value->type)
-      tmp_if_expr$1 = node->accessors.simple.set != (signed int (*)(void *, struct PropertyValue_s *))(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = node->accessors.simple.set != (signed int (*)(void *, struct PropertyValue_s *))(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       result=node->accessors.simple.set(node->userArg, value);
 
     else
@@ -20225,7 +20225,7 @@ signed int PropertiesSetStr(char *path, char *value)
   pathElements=PropertyPathSplitElements(path);
   struct PropertyNode_s *node;
   node=PropertiesFindNode(pathElements, &leftOver, (struct PropertyNode_s **)(void *)0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(node == ((struct PropertyNode_s *)NULL) || !(leftOver == -1))
     result = -1;
 
@@ -20233,11 +20233,11 @@ signed int PropertiesSetStr(char *path, char *value)
   {
     PropertiesStrToValue(value, node->type, &newValue);
     if(node->type == newValue.type)
-      tmp_if_expr$1 = node->accessors.simple.set != (signed int (*)(void *, struct PropertyValue_s *))(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = node->accessors.simple.set != (signed int (*)(void *, struct PropertyValue_s *))(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       result=node->accessors.simple.set(node->userArg, &newValue);
 
     else
@@ -20352,33 +20352,33 @@ static signed int PropertiesStrToValue(char *input, enum PropertyType_e toType, 
 {
   unsigned int pid;
   output->type = (enum PropertyType_e)PropertyType_None;
-  signed int return_value_sscanf$1;
-  signed int return_value_sscanf$2;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_sscanf$5;
+  signed int return_value_sscanf_1;
+  signed int return_value_sscanf_2;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_sscanf_5;
   switch((signed int)toType)
   {
     case PropertyType_Int:
     {
-      return_value_sscanf$1=sscanf(input, "%d", &output->u.integer);
-      if(return_value_sscanf$1 == 1)
+      return_value_sscanf_1=sscanf(input, "%d", &output->u.integer);
+      if(return_value_sscanf_1 == 1)
         output->type = (enum PropertyType_e)PropertyType_Int;
 
       break;
     }
     case PropertyType_Float:
     {
-      return_value_sscanf$2=sscanf(input, "%lf", &output->u.fp);
-      if(return_value_sscanf$2 == 1)
+      return_value_sscanf_2=sscanf(input, "%lf", &output->u.fp);
+      if(return_value_sscanf_2 == 1)
         output->type = (enum PropertyType_e)PropertyType_Float;
 
       break;
     }
     case PropertyType_Boolean:
     {
-      return_value_strcasecmp$4=strcasecmp(input, "true");
-      if(return_value_strcasecmp$4 == 0)
+      return_value_strcasecmp_4=strcasecmp(input, "true");
+      if(return_value_strcasecmp_4 == 0)
       {
         output->type = (enum PropertyType_e)PropertyType_Boolean;
         output->u.boolean = (_Bool)1;
@@ -20386,8 +20386,8 @@ static signed int PropertiesStrToValue(char *input, enum PropertyType_e toType, 
 
       else
       {
-        return_value_strcasecmp$3=strcasecmp(input, "false");
-        if(return_value_strcasecmp$3 == 0)
+        return_value_strcasecmp_3=strcasecmp(input, "false");
+        if(return_value_strcasecmp_3 == 0)
         {
           output->type = (enum PropertyType_e)PropertyType_Boolean;
           output->u.boolean = (_Bool)0;
@@ -20410,8 +20410,8 @@ static signed int PropertiesStrToValue(char *input, enum PropertyType_e toType, 
     }
     case PropertyType_PID:
     {
-      return_value_sscanf$5=sscanf(input, "%u", &pid);
-      if(return_value_sscanf$5 == 0)
+      return_value_sscanf_5=sscanf(input, "%u", &pid);
+      if(return_value_sscanf_5 == 0)
       {
         if(!(pid >= 8193u))
         {
@@ -20454,9 +20454,9 @@ static void PropertyPathElementsDestructor(void *ptr)
 static struct PropertyPathElements_s * PropertyPathSplitElements(const char *path)
 {
   struct PropertyPathElements_s *pathElements;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("PropertyPathElements_t", "properties.c", 635);
-  pathElements = (struct PropertyPathElements_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("PropertyPathElements_t", "properties.c", 635);
+  pathElements = (struct PropertyPathElements_s *)return_value_ObjectCreateImpl_1;
   char *elementStart = (char *)path;
   char *elementEnd = (char *)(void *)0;
   char nodeName[255l];
@@ -20486,9 +20486,9 @@ static struct PropertyPathElements_s * PropertyPathSplitElements(const char *pat
 static void RegisterEventListener(struct List_s *listenerList, void (*callback)(void *, struct Event_s *, void *), void *arg)
 {
   struct EventListenerDetails_s *details;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("EventListenerDetails_t", "events.c", 423);
-  details = (struct EventListenerDetails_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("EventListenerDetails_t", "events.c", 423);
+  details = (struct EventListenerDetails_s *)return_value_ObjectCreateImpl_1;
   if(!(details == ((struct EventListenerDetails_s *)NULL)))
   {
     details->callback = callback;
@@ -20517,27 +20517,27 @@ static void RemoteInterfaceAuthenticate(signed int argc, char **argv)
 {
   struct CommandContext_t *context;
   context=CommandContextGet();
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(argv[(signed long int)0], authUsername);
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(argv[(signed long int)0], authUsername);
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  if(return_value_strcmp_1 == 0)
   {
-    return_value_strcmp$2=strcmp(argv[(signed long int)1], authPassword);
-    tmp_if_expr$3 = return_value_strcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_2=strcmp(argv[(signed long int)1], authPassword);
+    tmp_if_expr_3 = return_value_strcmp_2 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     context->authenticated = (_Bool)1;
     do
     {
-      struct CommandContext_t *RemoteInterfaceAuthenticate$$1$$1$$1$$context;
-      RemoteInterfaceAuthenticate$$1$$1$$1$$context=CommandContextGet();
-      RemoteInterfaceAuthenticate$$1$$1$$1$$context->errorNumber = (unsigned short int)0x0000;
-      snprintf(RemoteInterfaceAuthenticate$$1$$1$$1$$context->errorMessage, (unsigned long int)256, "Authenticated.");
+      struct CommandContext_t *RemoteInterfaceAuthenticate__1__1__1__context;
+      RemoteInterfaceAuthenticate__1__1__1__context=CommandContextGet();
+      RemoteInterfaceAuthenticate__1__1__1__context->errorNumber = (unsigned short int)0x0000;
+      snprintf(RemoteInterfaceAuthenticate__1__1__1__context->errorMessage, (unsigned long int)256, "Authenticated.");
     }
     while((_Bool)0);
   }
@@ -20547,10 +20547,10 @@ static void RemoteInterfaceAuthenticate(signed int argc, char **argv)
     context->authenticated = (_Bool)0;
     do
     {
-      struct CommandContext_t *RemoteInterfaceAuthenticate$$1$$2$$1$$context;
-      RemoteInterfaceAuthenticate$$1$$2$$1$$context=CommandContextGet();
-      RemoteInterfaceAuthenticate$$1$$2$$1$$context->errorNumber = (unsigned short int)0x0004;
-      snprintf(RemoteInterfaceAuthenticate$$1$$2$$1$$context->errorMessage, (unsigned long int)256, "Authentication failed!");
+      struct CommandContext_t *RemoteInterfaceAuthenticate__1__2__1__context;
+      RemoteInterfaceAuthenticate__1__2__1__context=CommandContextGet();
+      RemoteInterfaceAuthenticate__1__2__1__context->errorNumber = (unsigned short int)0x0004;
+      snprintf(RemoteInterfaceAuthenticate__1__2__1__context->errorMessage, (unsigned long int)256, "Authentication failed!");
     }
     while((_Bool)0);
   }
@@ -20561,27 +20561,27 @@ static void RemoteInterfaceAuthenticate(signed int argc, char **argv)
 void RemoteInterfaceDeInit(void)
 {
   struct ListIterator_s iterator;
-  struct ev_loop *return_value_DispatchersGetNetwork$1;
-  return_value_DispatchersGetNetwork$1=DispatchersGetNetwork();
-  ev_io_start(return_value_DispatchersGetNetwork$1, &serverSocketWatcher);
+  struct ev_loop *return_value_DispatchersGetNetwork_1;
+  return_value_DispatchersGetNetwork_1=DispatchersGetNetwork();
+  ev_io_start(return_value_DispatchersGetNetwork_1, &serverSocketWatcher);
   CommandUnRegisterCommands(RemoteInterfaceCommands);
   remoteIntfExit = (_Bool)1;
   close(serverSocket);
   pthread_mutex_lock(&connectionsMutex);
-  struct ListEntry_s *tmp_if_expr$2;
+  struct ListEntry_s *tmp_if_expr_2;
   if(connectionsList->count >= 1)
   {
     iterator.current = connectionsList->head;
     iterator.list = connectionsList;
-    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$2)
+    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_2)
     {
       struct Connection_t *connection = (struct Connection_t *)iterator.current->data;
       close(connection->socketfd);
       if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$2 = iterator.current->next;
+        tmp_if_expr_2 = iterator.current->next;
 
       else
-        tmp_if_expr$2 = (struct ListEntry_s *)(void *)0;
+        tmp_if_expr_2 = (struct ListEntry_s *)(void *)0;
     }
     pthread_cond_wait(&connectionCondVar, &connectionsMutex);
   }
@@ -20608,9 +20608,9 @@ signed int RemoteInterfaceInit(signed int adapter, char *streamerName, char *bin
   memset((void *)&hints, 0, sizeof(struct addrinfo) /*48ul*/ );
   hints.ai_socktype = 1;
   hints.ai_flags = 0x0020 | 0x0001;
-  signed int return_value_getaddrinfo$1;
-  return_value_getaddrinfo$1=getaddrinfo(bindAddress, portnumber, &hints, &addrinfo);
-  if(addrinfo == ((struct addrinfo *)NULL) || !(return_value_getaddrinfo$1 == 0))
+  signed int return_value_getaddrinfo_1;
+  return_value_getaddrinfo_1=getaddrinfo(bindAddress, portnumber, &hints, &addrinfo);
+  if(addrinfo == ((struct addrinfo *)NULL) || !(return_value_getaddrinfo_1 == 0))
   {
     LogModule(3, REMOTEINTERFACE, "Failed to set bind address\n");
     return 1;
@@ -20638,9 +20638,9 @@ signed int RemoteInterfaceInit(signed int adapter, char *streamerName, char *bin
 
       else
       {
-        signed int return_value_bind$2;
-        return_value_bind$2=bind(serverSocket, (struct sockaddr *)&address, address_len);
-        if(!(return_value_bind$2 >= 0))
+        signed int return_value_bind_2;
+        return_value_bind_2=bind(serverSocket, (struct sockaddr *)&address, address_len);
+        if(!(return_value_bind_2 >= 0))
         {
           LogModule(0, REMOTEINTERFACE, "Failed to bind server to port %d\n", 54197 + adapter);
           close(serverSocket);
@@ -20656,9 +20656,9 @@ signed int RemoteInterfaceInit(signed int adapter, char *streamerName, char *bin
           authUsername=strdup(username);
           authPassword=strdup(password);
           time(&serverStartTime);
-          char *return_value_ctime$3;
-          return_value_ctime$3=ctime(&serverStartTime);
-          LogModule(1, REMOTEINTERFACE, "Server created %s", return_value_ctime$3);
+          char *return_value_ctime_3;
+          return_value_ctime_3=ctime(&serverStartTime);
+          LogModule(1, REMOTEINTERFACE, "Server created %s", return_value_ctime_3);
           LogModule(3, REMOTEINTERFACE, "Username    : %s\n", authUsername);
           LogModule(3, REMOTEINTERFACE, "Password    : %s\n", authPassword);
           LogModule(3, REMOTEINTERFACE, "Server Name : %s\n", infoStreamerName);
@@ -20695,11 +20695,11 @@ signed int RemoteInterfaceInit(signed int adapter, char *streamerName, char *bin
 // file remoteintf.c line 452
 static void RemoteInterfaceLogout(signed int argc, char **argv)
 {
-  struct CommandContext_t *RemoteInterfaceLogout$$1$$context;
-  RemoteInterfaceLogout$$1$$context=CommandContextGet();
-  if(!(RemoteInterfaceLogout$$1$$context->remote == (_Bool)0))
+  struct CommandContext_t *RemoteInterfaceLogout__1__context;
+  RemoteInterfaceLogout__1__context=CommandContextGet();
+  if(!(RemoteInterfaceLogout__1__context->remote == (_Bool)0))
   {
-    struct Connection_t *connection = (struct Connection_t *)RemoteInterfaceLogout$$1$$context->privateArg;
+    struct Connection_t *connection = (struct Connection_t *)RemoteInterfaceLogout__1__context->privateArg;
     connection->connected = (_Bool)0;
     do
     {
@@ -20714,10 +20714,10 @@ static void RemoteInterfaceLogout(signed int argc, char **argv)
   else
     do
     {
-      struct CommandContext_t *RemoteInterfaceLogout$$1$$2$$1$$context;
-      RemoteInterfaceLogout$$1$$2$$1$$context=CommandContextGet();
-      RemoteInterfaceLogout$$1$$2$$1$$context->errorNumber = (unsigned short int)0xffff;
-      snprintf(RemoteInterfaceLogout$$1$$2$$1$$context->errorMessage, (unsigned long int)256, "Not a remote connection!");
+      struct CommandContext_t *RemoteInterfaceLogout__1__2__1__context;
+      RemoteInterfaceLogout__1__2__1__context=CommandContextGet();
+      RemoteInterfaceLogout__1__2__1__context->errorNumber = (unsigned short int)0xffff;
+      snprintf(RemoteInterfaceLogout__1__2__1__context->errorMessage, (unsigned long int)256, "Not a remote connection!");
     }
     while((_Bool)0);
 }
@@ -20730,8 +20730,8 @@ static void RemoteInterfaceWho(signed int argc, char **argv)
   struct ListIterator_s iterator;
   iterator.current = connectionsList->head;
   iterator.list = connectionsList;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct Connection_t *connection = (struct Connection_t *)iterator.current->data;
     if(!(connection->connected == (_Bool)0))
@@ -20741,10 +20741,10 @@ static void RemoteInterfaceWho(signed int argc, char **argv)
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
 }
 
@@ -20805,9 +20805,9 @@ static void * RollUpDescriptors(struct dvbpsi_descriptor_s *descriptors, signed 
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)size);
-    result = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)size);
+    result = (unsigned char *)return_value_malloc_1;
     if(result == ((unsigned char *)NULL))
     {
       LogModule(0, "PIDS", "Failed to allocate memory to roll up descriptors! (size %d)\n", size);
@@ -20851,10 +20851,10 @@ static void SDTHandler(void *arg, struct dvbpsi_sdt_s *newSDT)
   struct Service_t **services;
   struct Multiplex_s *mux;
   LogModule(3, SDTPROCESSOR, "SDT recieved, version %d\n", newSDT->i_version);
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   while(!(sdtservice == ((struct dvbpsi_sdt_service_s *)NULL)))
   {
     struct dvbpsi_descriptor_s *descriptor = sdtservice->p_first_descriptor;
@@ -20881,9 +20881,9 @@ static void SDTHandler(void *arg, struct dvbpsi_sdt_s *newSDT)
           if(!(name == ((char *)NULL)))
           {
             removeControlCodes(name);
-            signed int return_value_strcmp$1;
-            return_value_strcmp$1=strcmp(name, service->name);
-            if(!(return_value_strcmp$1 == 0))
+            signed int return_value_strcmp_1;
+            return_value_strcmp_1=strcmp(name, service->name);
+            if(!(return_value_strcmp_1 == 0))
             {
               LogModule(3, SDTPROCESSOR, "Updating service 0x%04x = %s\n", sdtservice->i_service_id, name);
               CacheUpdateServiceName(service, name);
@@ -20896,14 +20896,14 @@ static void SDTHandler(void *arg, struct dvbpsi_sdt_s *newSDT)
           if(!(name == ((char *)NULL)))
           {
             if(service->provider == ((char *)NULL))
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_3 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$2=strcmp(name, service->provider);
-              tmp_if_expr$3 = return_value_strcmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_2=strcmp(name, service->provider);
+              tmp_if_expr_3 = return_value_strcmp_2 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$3)
+            if(tmp_if_expr_3)
             {
               LogModule(3, SDTPROCESSOR, "Updating service provider 0x%04x = %s\n", sdtservice->i_service_id, name);
               CacheUpdateServiceProvider(service, name);
@@ -20926,14 +20926,14 @@ static void SDTHandler(void *arg, struct dvbpsi_sdt_s *newSDT)
         if(!(defAuthDesc == ((struct dvbpsi_default_authority_dr_s *)NULL)))
         {
           if(service->defaultAuthority == ((char *)NULL))
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$4=strcmp((char *)defAuthDesc->authority, service->defaultAuthority);
-            tmp_if_expr$5 = return_value_strcmp$4 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_4=strcmp((char *)defAuthDesc->authority, service->defaultAuthority);
+            tmp_if_expr_5 = return_value_strcmp_4 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$5)
+          if(tmp_if_expr_5)
           {
             LogModule(3, SDTPROCESSOR, "Updating service default authority 0x%04x = %s\n", sdtservice->i_service_id, (const void *)defAuthDesc->authority);
             CacheUpdateServiceDefaultAuthority(service, (char *)defAuthDesc->authority);
@@ -20971,9 +20971,9 @@ static void SDTHandler(void *arg, struct dvbpsi_sdt_s *newSDT)
     if(found == (_Bool)0)
     {
       LogModule(3, SDTPROCESSOR, "Service not found in SDT while checking cache, deleting 0x%04x (%s)\n", services[(signed long int)i]->id, services[(signed long int)i]->name);
-      _Bool return_value_CacheServiceSeen$6;
-      return_value_CacheServiceSeen$6=CacheServiceSeen(services[(signed long int)i], (_Bool)0, (_Bool)0);
-      if(return_value_CacheServiceSeen$6 == (_Bool)0)
+      _Bool return_value_CacheServiceSeen_6;
+      return_value_CacheServiceSeen_6=CacheServiceSeen(services[(signed long int)i], (_Bool)0, (_Bool)0);
+      if(return_value_CacheServiceSeen_6 == (_Bool)0)
       {
         CacheServicesRelease();
         CacheServiceDelete(services[(signed long int)i]);
@@ -21008,9 +21008,9 @@ struct SDTProcessor_s * SDTProcessorCreate(struct TSReader_t *reader)
     sdtEvent=EventsRegisterEvent(DVBEventSource, "SDT", (signed int (*)(struct yaml_document_s *, struct Event_s *, void *))(void *)0);
 
   ObjectRegisterClass("SDTProcessor_t", (unsigned int)sizeof(struct SDTProcessor_s) /*16ul*/ , (void (*)(void *))(void *)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("SDTProcessor_t", "standard/dvb/sdtprocessor.c", 97);
-  state = (struct SDTProcessor_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("SDTProcessor_t", "standard/dvb/sdtprocessor.c", 97);
+  state = (struct SDTProcessor_s *)return_value_ObjectCreateImpl_1;
   if(!(state == ((struct SDTProcessor_s *)NULL)))
     state->tsgroup=TSReaderCreateFilterGroup(reader, SDTPROCESSOR, "DVB", SDTProcessorFilterEventCallback, (void *)state);
 
@@ -21039,7 +21039,7 @@ static void SDTProcessorFilterEventCallback(void *userArg, struct TSFilterGroup_
     dvbpsi_DetachDemux(state->demux);
   }
 
-  state->demux=dvbpsi_AttachDemux(SubTableHandler$link1, (void *)state);
+  state->demux=dvbpsi_AttachDemux(SubTableHandler_link1, (void *)state);
   TSFilterGroupAddSectionFilter(state->tsgroup, (unsigned short int)0x11, 1, state->demux);
 }
 
@@ -21130,9 +21130,9 @@ static void ScanFullATSC(void)
       else
       {
         struct TuningParamDocs_s *docs;
-        struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$1;
-        return_value_ObjectCollectionCreateImpl$1=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)1, "commands/cmd_scanning.c", 885);
-        docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl$1;
+        struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_1;
+        return_value_ObjectCollectionCreateImpl_1=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)1, "commands/cmd_scanning.c", 885);
+        docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl_1;
         asprintf(&docs->docs[(signed long int)0], "Frequency: %u\nInversion: AUTO\nModulation: 8VSB\n", freq);
         ScanListAddEntry((enum DVBDeliverySystem_e)DELSYS_ATSC, (struct Multiplex_s *)(void *)0, docs);
       }
@@ -21192,12 +21192,12 @@ static void ScanFullATSC(void)
 
       else
       {
-        struct TuningParamDocs_s *ScanFullATSC$$1$$2$$1$$1$$2$$docs;
-        struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$2;
-        return_value_ObjectCollectionCreateImpl$2=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)1, "commands/cmd_scanning.c", 930);
-        ScanFullATSC$$1$$2$$1$$1$$2$$docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl$2;
-        asprintf(&ScanFullATSC$$1$$2$$1$$1$$2$$docs->docs[(signed long int)0], "Frequency: %u\nInversion: AUTO\nModulation: QAM256\n", freq);
-        ScanListAddEntry((enum DVBDeliverySystem_e)DELSYS_ATSC, (struct Multiplex_s *)(void *)0, ScanFullATSC$$1$$2$$1$$1$$2$$docs);
+        struct TuningParamDocs_s *ScanFullATSC__1__2__1__1__2__docs;
+        struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_2;
+        return_value_ObjectCollectionCreateImpl_2=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)1, "commands/cmd_scanning.c", 930);
+        ScanFullATSC__1__2__1__1__2__docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl_2;
+        asprintf(&ScanFullATSC__1__2__1__1__2__docs->docs[(signed long int)0], "Frequency: %u\nInversion: AUTO\nModulation: QAM256\n", freq);
+        ScanListAddEntry((enum DVBDeliverySystem_e)DELSYS_ATSC, (struct Multiplex_s *)(void *)0, ScanFullATSC__1__2__1__1__2__docs);
       }
     }
   }
@@ -21223,9 +21223,9 @@ static void ScanFullDVBC(void)
   muxList=MultiplexGetAll();
   struct MuxFrequencies_s *muxFreqList;
   muxFreqList=ParseMuxListFrequencies(muxList);
-  _Bool return_value_DVBFrontEndParameterSupported$1;
-  return_value_DVBFrontEndParameterSupported$1=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBC, "Inversion", AUTO);
-  if(!(return_value_DVBFrontEndParameterSupported$1 == (_Bool)0))
+  _Bool return_value_DVBFrontEndParameterSupported_1;
+  return_value_DVBFrontEndParameterSupported_1=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBC, "Inversion", AUTO);
+  if(!(return_value_DVBFrontEndParameterSupported_1 == (_Bool)0))
     inversion = AUTO;
 
   else
@@ -21233,9 +21233,9 @@ static void ScanFullDVBC(void)
     LogModule(1, SCANNING, "INVERSION_AUTO not supported, trying INVERSION_OFF.\n");
     inversion = "OFF";
   }
-  _Bool return_value_DVBFrontEndParameterSupported$2;
-  return_value_DVBFrontEndParameterSupported$2=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBC, "Modulation", AUTO);
-  if(!(return_value_DVBFrontEndParameterSupported$2 == (_Bool)0))
+  _Bool return_value_DVBFrontEndParameterSupported_2;
+  return_value_DVBFrontEndParameterSupported_2=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBC, "Modulation", AUTO);
+  if(!(return_value_DVBFrontEndParameterSupported_2 == (_Bool)0))
   {
     modulations[(signed long int)0] = AUTO;
     nrofModulations = 1;
@@ -21249,9 +21249,9 @@ static void ScanFullDVBC(void)
     modulations[(signed long int)2] = "QAM256";
     nrofModulations = 3;
   }
-  _Bool return_value_DVBFrontEndParameterSupported$3;
-  return_value_DVBFrontEndParameterSupported$3=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBC, "FEC", AUTO);
-  if(!(return_value_DVBFrontEndParameterSupported$3 == (_Bool)0))
+  _Bool return_value_DVBFrontEndParameterSupported_3;
+  return_value_DVBFrontEndParameterSupported_3=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBC, "FEC", AUTO);
+  if(!(return_value_DVBFrontEndParameterSupported_3 == (_Bool)0))
     code_rate = AUTO;
 
   else
@@ -21301,9 +21301,9 @@ static void ScanFullDVBT(void)
   signed int offsetIndex = 0;
   unsigned int frequency;
   unsigned int offsets[3l] = { (unsigned int)-166670, (unsigned int)0, (unsigned int)166670 };
-  _Bool return_value_DVBFrontEndParameterSupported$1;
-  return_value_DVBFrontEndParameterSupported$1=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "Inversion", AUTO);
-  if(!(return_value_DVBFrontEndParameterSupported$1 == (_Bool)0))
+  _Bool return_value_DVBFrontEndParameterSupported_1;
+  return_value_DVBFrontEndParameterSupported_1=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "Inversion", AUTO);
+  if(!(return_value_DVBFrontEndParameterSupported_1 == (_Bool)0))
     inversion = AUTO;
 
   else
@@ -21311,9 +21311,9 @@ static void ScanFullDVBT(void)
     LogModule(1, SCANNING, "INVERSION_AUTO not supported, trying INVERSION_OFF.\n");
     inversion = "OFF";
   }
-  _Bool return_value_DVBFrontEndParameterSupported$2;
-  return_value_DVBFrontEndParameterSupported$2=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "Modulation", AUTO);
-  if(!(return_value_DVBFrontEndParameterSupported$2 == (_Bool)0))
+  _Bool return_value_DVBFrontEndParameterSupported_2;
+  return_value_DVBFrontEndParameterSupported_2=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "Modulation", AUTO);
+  if(!(return_value_DVBFrontEndParameterSupported_2 == (_Bool)0))
     constellation = AUTO;
 
   else
@@ -21321,9 +21321,9 @@ static void ScanFullDVBT(void)
     LogModule(1, SCANNING, "QAM_AUTO not supported, trying QAM_64.\n");
     constellation = "QAM64";
   }
-  _Bool return_value_DVBFrontEndParameterSupported$3;
-  return_value_DVBFrontEndParameterSupported$3=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "Transmission Mode", AUTO);
-  if(!(return_value_DVBFrontEndParameterSupported$3 == (_Bool)0))
+  _Bool return_value_DVBFrontEndParameterSupported_3;
+  return_value_DVBFrontEndParameterSupported_3=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "Transmission Mode", AUTO);
+  if(!(return_value_DVBFrontEndParameterSupported_3 == (_Bool)0))
     transmit_mode = AUTO;
 
   else
@@ -21331,9 +21331,9 @@ static void ScanFullDVBT(void)
     LogModule(1, SCANNING, "TRANSMISSION_MODE not supported, trying TRANSMISSION_MODE_8K.\n");
     transmit_mode = "8K";
   }
-  _Bool return_value_DVBFrontEndParameterSupported$4;
-  return_value_DVBFrontEndParameterSupported$4=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "Guard Interval", AUTO);
-  if(!(return_value_DVBFrontEndParameterSupported$4 == (_Bool)0))
+  _Bool return_value_DVBFrontEndParameterSupported_4;
+  return_value_DVBFrontEndParameterSupported_4=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "Guard Interval", AUTO);
+  if(!(return_value_DVBFrontEndParameterSupported_4 == (_Bool)0))
     guard_interval = AUTO;
 
   else
@@ -21341,9 +21341,9 @@ static void ScanFullDVBT(void)
     LogModule(1, SCANNING, "GUARD_INTERVAL_AUTO not supported, trying GUARD_INTERVAL_1_8.\n");
     guard_interval = "1/8";
   }
-  _Bool return_value_DVBFrontEndParameterSupported$5;
-  return_value_DVBFrontEndParameterSupported$5=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "Hierarchy", AUTO);
-  if(!(return_value_DVBFrontEndParameterSupported$5 == (_Bool)0))
+  _Bool return_value_DVBFrontEndParameterSupported_5;
+  return_value_DVBFrontEndParameterSupported_5=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "Hierarchy", AUTO);
+  if(!(return_value_DVBFrontEndParameterSupported_5 == (_Bool)0))
     hierarchy = AUTO;
 
   else
@@ -21351,9 +21351,9 @@ static void ScanFullDVBT(void)
     LogModule(1, SCANNING, "HIERARCHY_AUTO not supported, trying HIERARCHY_NONE.\n");
     hierarchy = NONE;
   }
-  _Bool return_value_DVBFrontEndParameterSupported$6;
-  return_value_DVBFrontEndParameterSupported$6=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "FEC", AUTO);
-  if(!(return_value_DVBFrontEndParameterSupported$6 == (_Bool)0))
+  _Bool return_value_DVBFrontEndParameterSupported_6;
+  return_value_DVBFrontEndParameterSupported_6=DVBFrontEndParameterSupported(adapter, (enum DVBDeliverySystem_e)DELSYS_DVBT, "FEC", AUTO);
+  if(!(return_value_DVBFrontEndParameterSupported_6 == (_Bool)0))
     code_rate = AUTO;
 
   else
@@ -21389,9 +21389,9 @@ static void ScanFullDVBT(void)
       else
       {
         struct TuningParamDocs_s *docs;
-        struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$7;
-        return_value_ObjectCollectionCreateImpl$7=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)3, "commands/cmd_scanning.c", 653);
-        docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl$7;
+        struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_7;
+        return_value_ObjectCollectionCreateImpl_7=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)3, "commands/cmd_scanning.c", 653);
+        docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl_7;
         offsetIndex = 0;
         for( ; !(offsetIndex >= 3); offsetIndex = offsetIndex + 1)
           asprintf(&docs->docs[(signed long int)offsetIndex], "Frequency: %d\nInversion: %s\nBandwidth: 7Mhz\nFEC LP: %s\nFEC HP: %s\nConstellation: %s\nTransmission Mode: %s\nGuard Interval: %s\nHierarchy: %s\n", frequency + offsets[(signed long int)offsetIndex], inversion, code_rate, code_rate, constellation, transmit_mode, guard_interval, hierarchy);
@@ -21420,14 +21420,14 @@ static void ScanFullDVBT(void)
 
       else
       {
-        struct TuningParamDocs_s *ScanFullDVBT$$1$$16$$1$$1$$3$$docs;
-        struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$8;
-        return_value_ObjectCollectionCreateImpl$8=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)3, "commands/cmd_scanning.c", 700);
-        ScanFullDVBT$$1$$16$$1$$1$$3$$docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl$8;
+        struct TuningParamDocs_s *ScanFullDVBT__1__16__1__1__3__docs;
+        struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_8;
+        return_value_ObjectCollectionCreateImpl_8=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)3, "commands/cmd_scanning.c", 700);
+        ScanFullDVBT__1__16__1__1__3__docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl_8;
         offsetIndex = 0;
         for( ; !(offsetIndex >= 3); offsetIndex = offsetIndex + 1)
-          asprintf(&ScanFullDVBT$$1$$16$$1$$1$$3$$docs->docs[(signed long int)offsetIndex], "Frequency: %d\nInversion: %s\nBandwidth: 8Mhz\nFEC LP: %s\nFEC HP: %s\nConstellation: %s\nTransmission Mode: %s\nGuard Interval: %s\nHierarchy: %s\n", frequency + offsets[(signed long int)offsetIndex], inversion, code_rate, code_rate, constellation, transmit_mode, guard_interval, hierarchy);
-        ScanListAddEntry((enum DVBDeliverySystem_e)DELSYS_DVBT, (struct Multiplex_s *)(void *)0, ScanFullDVBT$$1$$16$$1$$1$$3$$docs);
+          asprintf(&ScanFullDVBT__1__16__1__1__3__docs->docs[(signed long int)offsetIndex], "Frequency: %d\nInversion: %s\nBandwidth: 8Mhz\nFEC LP: %s\nFEC HP: %s\nConstellation: %s\nTransmission Mode: %s\nGuard Interval: %s\nHierarchy: %s\n", frequency + offsets[(signed long int)offsetIndex], inversion, code_rate, code_rate, constellation, transmit_mode, guard_interval, hierarchy);
+        ScanListAddEntry((enum DVBDeliverySystem_e)DELSYS_DVBT, (struct Multiplex_s *)(void *)0, ScanFullDVBT__1__16__1__1__3__docs);
       }
     }
   }
@@ -21441,9 +21441,9 @@ static void ScanFullDVBT(void)
 static void ScanListAddEntry(enum DVBDeliverySystem_e delSys, struct Multiplex_s *mux, struct TuningParamDocs_s *docs)
 {
   struct ScanEntry_s *entry;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("ScanEntry_t", "commands/cmd_scanning.c", 1833);
-  entry = (struct ScanEntry_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("ScanEntry_t", "commands/cmd_scanning.c", 1833);
+  entry = (struct ScanEntry_s *)return_value_ObjectCreateImpl_1;
   entry->system = delSys;
   entry->mux = mux;
   entry->params = docs;
@@ -21535,13 +21535,13 @@ static void ScanNetwork(char *initialdata)
     case 65:
       delSys = (enum DVBDeliverySystem_e)DELSYS_ATSC;
   }
-  _Bool return_value_DVBFrontEndDeliverySystemSupported$1;
-  return_value_DVBFrontEndDeliverySystemSupported$1=DVBFrontEndDeliverySystemSupported(adapter, delSys);
-  signed int return_value_sscanf$3;
-  signed int return_value_sscanf$4;
-  signed int return_value_sscanf$5;
-  signed int return_value_sscanf$6;
-  if(return_value_DVBFrontEndDeliverySystemSupported$1 == (_Bool)0)
+  _Bool return_value_DVBFrontEndDeliverySystemSupported_1;
+  return_value_DVBFrontEndDeliverySystemSupported_1=DVBFrontEndDeliverySystemSupported(adapter, delSys);
+  signed int return_value_sscanf_3;
+  signed int return_value_sscanf_4;
+  signed int return_value_sscanf_5;
+  signed int return_value_sscanf_6;
+  if(return_value_DVBFrontEndDeliverySystemSupported_1 == (_Bool)0)
     do
     {
       struct CommandContext_t *context;
@@ -21553,9 +21553,9 @@ static void ScanNetwork(char *initialdata)
 
   else
   {
-    _Bool return_value_DVBFrontEndParameterSupported$2;
-    return_value_DVBFrontEndParameterSupported$2=DVBFrontEndParameterSupported(adapter, delSys, "Inversion", AUTO);
-    if(!(return_value_DVBFrontEndParameterSupported$2 == (_Bool)0))
+    _Bool return_value_DVBFrontEndParameterSupported_2;
+    return_value_DVBFrontEndParameterSupported_2=DVBFrontEndParameterSupported(adapter, delSys, "Inversion", AUTO);
+    if(!(return_value_DVBFrontEndParameterSupported_2 == (_Bool)0))
       inversion = AUTO;
 
     else
@@ -21567,8 +21567,8 @@ static void ScanNetwork(char *initialdata)
     {
       case DELSYS_DVBT:
       {
-        return_value_sscanf$3=sscanf(initialdata, "T %u %4s %4s %4s %6s %4s %4s %4s", &frequency, (const void *)bwStr, (const void *)fecHiStr, (const void *)fecLoStr, (const void *)modStr, (const void *)transModeStr, (const void *)guardIntStr, (const void *)hierarchyStr);
-        if(return_value_sscanf$3 == 8)
+        return_value_sscanf_3=sscanf(initialdata, "T %u %4s %4s %4s %6s %4s %4s %4s", &frequency, (const void *)bwStr, (const void *)fecHiStr, (const void *)fecLoStr, (const void *)modStr, (const void *)transModeStr, (const void *)guardIntStr, (const void *)hierarchyStr);
+        if(return_value_sscanf_3 == 8)
         {
           sprintf(params, "Frequency: %u\nInversion: %s\nBandwidth: %s\nFEC HP: %s\nFEC LP: %s\nConstellation: %s\nTransmission Mode: %s\nGuard Interval: %s\nHierarchy: %s\n", frequency, inversion, (const void *)bwStr, (const void *)fecHiStr, (const void *)fecLoStr, (const void *)modStr, (const void *)transModeStr, (const void *)guardIntStr, (const void *)hierarchyStr);
           muxFindRange = 166670;
@@ -21579,8 +21579,8 @@ static void ScanNetwork(char *initialdata)
       }
       case DELSYS_DVBC:
       {
-        return_value_sscanf$4=sscanf(initialdata, "C %u %u %4s %6s", &frequency, &symbolRate, (const void *)fecHiStr, (const void *)modStr);
-        if(return_value_sscanf$4 == 4)
+        return_value_sscanf_4=sscanf(initialdata, "C %u %u %4s %6s", &frequency, &symbolRate, (const void *)fecHiStr, (const void *)modStr);
+        if(return_value_sscanf_4 == 4)
         {
           sprintf(params, "Frequency: %u\nInversion: %s\nSymbol Rate: %u\nFEC: %s\nModulation: %s\n", frequency, inversion, symbolRate, (const void *)fecHiStr, (const void *)modStr);
           muxFindRange = 0;
@@ -21591,8 +21591,8 @@ static void ScanNetwork(char *initialdata)
       }
       case DELSYS_DVBS:
       {
-        return_value_sscanf$5=sscanf(initialdata, "S %u %1[HVLR] %u %4s\n", &frequency, (const void *)polarisationStr, &symbolRate, (const void *)fecHiStr);
-        if(return_value_sscanf$5 == 4)
+        return_value_sscanf_5=sscanf(initialdata, "S %u %1[HVLR] %u %4s\n", &frequency, (const void *)polarisationStr, &symbolRate, (const void *)fecHiStr);
+        if(return_value_sscanf_5 == 4)
         {
           switch((signed int)polarisationStr[(signed long int)0])
           {
@@ -21625,8 +21625,8 @@ static void ScanNetwork(char *initialdata)
       }
       case DELSYS_ATSC:
       {
-        return_value_sscanf$6=sscanf(initialdata, "A %u %7s\n", &frequency, (const void *)modStr);
-        if(return_value_sscanf$6 == 2)
+        return_value_sscanf_6=sscanf(initialdata, "A %u %7s\n", &frequency, (const void *)modStr);
+        if(return_value_sscanf_6 == 2)
         {
           sprintf(params, "Frequency: %u\nInversion: %s\nModulation: %s\n", frequency, inversion, (const void *)modStr);
           muxFindRange = 28615;
@@ -21648,9 +21648,9 @@ static void ScanNetwork(char *initialdata)
       else
       {
         struct TuningParamDocs_s *docs;
-        struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$7;
-        return_value_ObjectCollectionCreateImpl$7=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)1, "commands/cmd_scanning.c", 1112);
-        docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl$7;
+        struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_7;
+        return_value_ObjectCollectionCreateImpl_7=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)1, "commands/cmd_scanning.c", 1112);
+        docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl_7;
         docs->docs[(signed long int)0]=strdup(params);
         ScanListAddEntry(delSys, (struct Multiplex_s *)(void *)0, docs);
       }
@@ -21660,10 +21660,10 @@ static void ScanNetwork(char *initialdata)
     else
       do
       {
-        struct CommandContext_t *ScanNetwork$$1$$7$$1$$context;
-        ScanNetwork$$1$$7$$1$$context=CommandContextGet();
-        ScanNetwork$$1$$7$$1$$context->errorNumber = (unsigned short int)0xffff;
-        snprintf(ScanNetwork$$1$$7$$1$$context->errorMessage, (unsigned long int)256, "Failed to parse initial tuning data!");
+        struct CommandContext_t *ScanNetwork__1__7__1__context;
+        ScanNetwork__1__7__1__context=CommandContextGet();
+        ScanNetwork__1__7__1__context->errorNumber = (unsigned short int)0xffff;
+        snprintf(ScanNetwork__1__7__1__context->errorMessage, (unsigned long int)256, "Failed to parse initial tuning data!");
       }
       while((_Bool)0);
   }
@@ -21675,9 +21675,9 @@ static void ScanStart(enum ScanType_e type)
 {
   scanType = type;
   cancelScan = (_Bool)0;
-  struct ev_loop *return_value_DispatchersGetInput$1;
-  return_value_DispatchersGetInput$1=DispatchersGetInput();
-  ev_async_send(return_value_DispatchersGetInput$1, &scanStartAsync);
+  struct ev_loop *return_value_DispatchersGetInput_1;
+  return_value_DispatchersGetInput_1=DispatchersGetInput();
+  ev_async_send(return_value_DispatchersGetInput_1, &scanStartAsync);
 }
 
 // ScanStartStopWatcher
@@ -21703,8 +21703,8 @@ static void ScanStateMachine(enum ScanEvent_e event)
   enum DVBDeliverySystem_e delSys;
   char *tuningParams;
   LogModule(2, SCANNING, "ScanStateMachine: event = %d", event);
-  _Bool tmp_if_expr$3;
-  _Bool return_value_MainIsDVB$2;
+  _Bool tmp_if_expr_3;
+  _Bool return_value_MainIsDVB_2;
   for( ; !((signed int)event == ScanEvent_NoEvent); event = nextEvent)
   {
     nextEvent = (enum ScanEvent_e)ScanEvent_NoEvent;
@@ -21716,9 +21716,9 @@ static void ScanStateMachine(enum ScanEvent_e event)
         if((signed int)event == ScanEvent_StateEntered)
         {
           EventsFireEventListeners(scanStartEvent, (void *)0);
-          struct ev_loop *return_value_DispatchersGetInput$1;
-          return_value_DispatchersGetInput$1=DispatchersGetInput();
-          ev_timer_start(return_value_DispatchersGetInput$1, &timeoutTimer);
+          struct ev_loop *return_value_DispatchersGetInput_1;
+          return_value_DispatchersGetInput_1=DispatchersGetInput();
+          ev_timer_start(return_value_DispatchersGetInput_1, &timeoutTimer);
           currentService=TuningCurrentServiceGet();
           TuningCurrentServiceLock();
           PMTCount = 253;
@@ -21805,13 +21805,13 @@ static void ScanStateMachine(enum ScanEvent_e event)
           {
             if(currentEntry->mux == ((struct Multiplex_s *)NULL))
             {
-              struct DVBAdapter_s *ScanStateMachine$$1$$1$$1$$1$$2$$8$$adapter;
-              ScanStateMachine$$1$$1$$1$$1$$2$$8$$adapter=MainDVBAdapterGet();
-              enum DVBDeliverySystem_e ScanStateMachine$$1$$1$$1$$1$$2$$8$$delSys;
-              char *ScanStateMachine$$1$$1$$1$$1$$2$$8$$tuningParams;
-              ScanStateMachine$$1$$1$$1$$1$$2$$8$$tuningParams=DVBFrontEndParametersGet(ScanStateMachine$$1$$1$$1$$1$$2$$8$$adapter, &ScanStateMachine$$1$$1$$1$$1$$2$$8$$delSys);
-              MultiplexAdd(ScanStateMachine$$1$$1$$1$$1$$2$$8$$delSys, ScanStateMachine$$1$$1$$1$$1$$2$$8$$tuningParams, &currentEntry->mux);
-              free((void *)ScanStateMachine$$1$$1$$1$$1$$2$$8$$tuningParams);
+              struct DVBAdapter_s *ScanStateMachine__1__1__1__1__2__8__adapter;
+              ScanStateMachine__1__1__1__1__2__8__adapter=MainDVBAdapterGet();
+              enum DVBDeliverySystem_e ScanStateMachine__1__1__1__1__2__8__delSys;
+              char *ScanStateMachine__1__1__1__1__2__8__tuningParams;
+              ScanStateMachine__1__1__1__1__2__8__tuningParams=DVBFrontEndParametersGet(ScanStateMachine__1__1__1__1__2__8__adapter, &ScanStateMachine__1__1__1__1__2__8__delSys);
+              MultiplexAdd(ScanStateMachine__1__1__1__1__2__8__delSys, ScanStateMachine__1__1__1__1__2__8__tuningParams, &currentEntry->mux);
+              free((void *)ScanStateMachine__1__1__1__1__2__8__tuningParams);
               EventsFireEventListeners(scanMuxAddedEvent, (void *)0);
             }
 
@@ -21880,13 +21880,13 @@ static void ScanStateMachine(enum ScanEvent_e event)
         {
           if((signed int)scanType == ScanType_Network)
           {
-            return_value_MainIsDVB$2=MainIsDVB();
-            tmp_if_expr$3 = return_value_MainIsDVB$2 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+            return_value_MainIsDVB_2=MainIsDVB();
+            tmp_if_expr_3 = return_value_MainIsDVB_2 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
             currentScanState = (enum ScanState_e)ScanState_WaitingForNIT;
 
           else
@@ -21940,9 +21940,9 @@ static void ScanStateMachine(enum ScanEvent_e event)
           }
 
           ScanListReset();
-          struct ev_loop *return_value_DispatchersGetInput$4;
-          return_value_DispatchersGetInput$4=DispatchersGetInput();
-          ev_timer_stop(return_value_DispatchersGetInput$4, &timeoutTimer);
+          struct ev_loop *return_value_DispatchersGetInput_4;
+          return_value_DispatchersGetInput_4=DispatchersGetInput();
+          ev_timer_stop(return_value_DispatchersGetInput_4, &timeoutTimer);
           currentScanState = (enum ScanState_e)ScanState_Stopped;
         }
 
@@ -21975,9 +21975,9 @@ static void ScanStateMachine(enum ScanEvent_e event)
 static void ScanStop(void)
 {
   cancelScan = (_Bool)1;
-  struct ev_loop *return_value_DispatchersGetInput$1;
-  return_value_DispatchersGetInput$1=DispatchersGetInput();
-  ev_async_send(return_value_DispatchersGetInput$1, &scanStartAsync);
+  struct ev_loop *return_value_DispatchersGetInput_1;
+  return_value_DispatchersGetInput_1=DispatchersGetInput();
+  ev_async_send(return_value_DispatchersGetInput_1, &scanStartAsync);
 }
 
 // ScanningInProgressGet
@@ -22019,9 +22019,9 @@ static void SectionFilterListAddFilter(struct TSReader_t *reader, struct TSSecti
 static struct TSSectionFilterList_t * SectionFilterListCreate(struct TSReader_t *reader, unsigned short int pid)
 {
   struct TSSectionFilterList_t *sfList;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("TSSectionFilterList_t", "ts.c", 658);
-  sfList = (struct TSSectionFilterList_t *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("TSSectionFilterList_t", "ts.c", 658);
+  sfList = (struct TSSectionFilterList_t *)return_value_ObjectCreateImpl_1;
   sfList->pid = pid;
   sfList->filters=ListCreate();
   sfList->tsReader = reader;
@@ -22057,9 +22057,9 @@ static void SectionFilterListDescheduleOneFilter(struct TSReader_t *reader)
   LogModule(3, TSREADER, "Descheduling one section filter");
   iterator.current = reader->activeSectionFilters->head;
   iterator.list = reader->activeSectionFilters;
-  _Bool tmp_if_expr$2;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  _Bool tmp_if_expr_2;
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct TSSectionFilterList_t *sfList = (struct TSSectionFilterList_t *)iterator.current->data;
     if(reader->packetFilters[(signed long int)sfList->pid] == sfList->packetFilter)
@@ -22067,11 +22067,11 @@ static void SectionFilterListDescheduleOneFilter(struct TSReader_t *reader)
       if(sfList->packetFilter->flNext == ((struct TSPacketFilter_t *)NULL))
       {
         if(toDeschedule == ((struct TSSectionFilterList_t *)NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = toDeschedule->priority < sfList->priority ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = toDeschedule->priority < sfList->priority ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           toDeschedule = sfList;
 
       }
@@ -22079,10 +22079,10 @@ static void SectionFilterListDescheduleOneFilter(struct TSReader_t *reader)
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   if(!(toDeschedule == ((struct TSSectionFilterList_t *)NULL)))
   {
@@ -22099,9 +22099,9 @@ static void SectionFilterListDescheduleOneFilter(struct TSReader_t *reader)
 // file ts.c line 667
 static void SectionFilterListDestroy(struct TSReader_t *reader, struct TSSectionFilterList_t *sfList)
 {
-  _Bool return_value_ListRemove$1;
-  return_value_ListRemove$1=ListRemove(reader->activeSectionFilters, (void *)sfList);
-  if(!(return_value_ListRemove$1 == (_Bool)0))
+  _Bool return_value_ListRemove_1;
+  return_value_ListRemove_1=ListRemove(reader->activeSectionFilters, (void *)sfList);
+  if(!(return_value_ListRemove_1 == (_Bool)0))
   {
     LogModule(3, TSREADER, "Removed active section filter %p", sfList);
     PacketFilterListRemoveFilter(reader, sfList->packetFilter);
@@ -22124,33 +22124,33 @@ static struct TSSectionFilterList_t * SectionFilterListFind(struct TSReader_t *r
   struct ListIterator_s iterator;
   iterator.current = reader->activeSectionFilters->head;
   iterator.list = reader->activeSectionFilters;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct TSSectionFilterList_t *sfList = (struct TSSectionFilterList_t *)iterator.current->data;
     if(sfList->pid == pid)
       return sfList;
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   iterator.current = reader->sectionFilters->head;
   iterator.list = reader->sectionFilters;
-  struct ListEntry_s *tmp_if_expr$2;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$2)
+  struct ListEntry_s *tmp_if_expr_2;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_2)
   {
-    struct TSSectionFilterList_t *SectionFilterListFind$$1$$2$$1$$sfList = (struct TSSectionFilterList_t *)iterator.current->data;
-    if(SectionFilterListFind$$1$$2$$1$$sfList->pid == pid)
-      return SectionFilterListFind$$1$$2$$1$$sfList;
+    struct TSSectionFilterList_t *SectionFilterListFind__1__2__1__sfList = (struct TSSectionFilterList_t *)iterator.current->data;
+    if(SectionFilterListFind__1__2__1__sfList->pid == pid)
+      return SectionFilterListFind__1__2__1__sfList;
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$2 = iterator.current->next;
+      tmp_if_expr_2 = iterator.current->next;
 
     else
-      tmp_if_expr$2 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_2 = (struct ListEntry_s *)(void *)0;
   }
   return (struct TSSectionFilterList_t *)(void *)0;
 }
@@ -22183,8 +22183,8 @@ static void SectionFilterListPushSection(void *userArg, struct dvbpsi_decoder_s 
   struct dvbpsi_psi_section_s *cloned;
   iterator.current = sfList->filters->head;
   iterator.list = sfList->filters;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct TSSectionFilter_t *filter = (struct TSSectionFilter_t *)iterator.current->data;
     cloned=dvbpsi_ClonePSISection(filter->sectionHandle, section);
@@ -22193,10 +22193,10 @@ static void SectionFilterListPushSection(void *userArg, struct dvbpsi_decoder_s 
 
     dvbpsi_PushSection(filter->sectionHandle, cloned);
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   dvbpsi_ReleasePSISections(sfList->sectionHandle, section);
   if(!(sfList->packetFilter == ((struct TSPacketFilter_t *)NULL)))
@@ -22259,12 +22259,12 @@ static void SectionFilterListUpdatePriority(struct TSSectionFilterList_t *sfList
   struct ListIterator_s iterator;
   _Bool first = (_Bool)1;
   signed int currentPriority = 0;
-  struct ListEntry_s *tmp_if_expr$1;
+  struct ListEntry_s *tmp_if_expr_1;
   if((2u & sfList->flags) == 0u)
   {
     iterator.current = sfList->filters->head;
     iterator.list = sfList->filters;
-    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+    for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
     {
       struct TSSectionFilter_t *filter = (struct TSSectionFilter_t *)iterator.current->data;
       if(!(first == (_Bool)0))
@@ -22278,10 +22278,10 @@ static void SectionFilterListUpdatePriority(struct TSSectionFilterList_t *sfList
           currentPriority = filter->priority;
 
       if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-        tmp_if_expr$1 = iterator.current->next;
+        tmp_if_expr_1 = iterator.current->next;
 
       else
-        tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+        tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
     }
     sfList->priority = currentPriority;
   }
@@ -22356,9 +22356,9 @@ signed int ServiceAdd(signed int uid, char *name, signed int id, signed int sour
     sqlstring=sqlite3_mprintf("INSERT INTO Services(mplexuid,id,source,ca,type,pmtpid,name)VALUES (%d,%d,%d,%d,%d,%d,'%q');", uid, id, source, 0, ServiceType_Unknown, 8191, name);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -22371,11 +22371,11 @@ signed int ServiceAdd(signed int uid, char *name, signed int id, signed int sour
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceAdd", 148, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceAdd", 148, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -22391,11 +22391,11 @@ signed int ServiceAdd(signed int uid, char *name, signed int id, signed int sour
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$4;
-        return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$5;
-        return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceAdd", 151, rc, return_value_sqlite3_errmsg$5);
+        struct sqlite3 *return_value_DBaseConnectionGet_4;
+        return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_5;
+        return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceAdd", 151, rc, return_value_sqlite3_errmsg_5);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -22406,9 +22406,9 @@ signed int ServiceAdd(signed int uid, char *name, signed int id, signed int sour
 
   while((_Bool)0);
   rc=sqlite3_finalize(stmt);
-  void *return_value_ObjectCreateImpl$6;
-  return_value_ObjectCreateImpl$6=ObjectCreateImpl("Service_t", "services.c", 156);
-  service = (struct Service_t *)return_value_ObjectCreateImpl$6;
+  void *return_value_ObjectCreateImpl_6;
+  return_value_ObjectCreateImpl_6=ObjectCreateImpl("Service_t", "services.c", 156);
+  service = (struct Service_t *)return_value_ObjectCreateImpl_6;
   service->multiplexUID = uid;
   service->id = id;
   service->name=strdup(name);
@@ -22437,9 +22437,9 @@ signed int ServiceConditionalAccessSet(struct Service_t *service, _Bool ca)
     sqlstring=sqlite3_mprintf("UPDATE Services SET ca=%d WHERE mplexuid=%d AND id=%d;", ca, service->multiplexUID, service->id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -22452,11 +22452,11 @@ signed int ServiceConditionalAccessSet(struct Service_t *service, _Bool ca)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceConditionalAccessSet", 257, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceConditionalAccessSet", 257, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -22476,11 +22476,11 @@ signed int ServiceConditionalAccessSet(struct Service_t *service, _Bool ca)
   else
     do
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$4;
-      return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-      const char *return_value_sqlite3_errmsg$5;
-      return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceConditionalAccessSet", 267, rc, return_value_sqlite3_errmsg$5);
+      struct sqlite3 *return_value_DBaseConnectionGet_4;
+      return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+      const char *return_value_sqlite3_errmsg_5;
+      return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceConditionalAccessSet", 267, rc, return_value_sqlite3_errmsg_5);
     }
     while((_Bool)0);
   rc=sqlite3_finalize(stmt);
@@ -22526,9 +22526,9 @@ signed int ServiceDefaultAuthoritySet(struct Service_t *service, char *defaultAu
     sqlstring=sqlite3_mprintf("UPDATE Services SET defauthority='%q' WHERE mplexuid=%d AND id=%d;", defaultAuthority, service->multiplexUID, service->id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -22541,11 +22541,11 @@ signed int ServiceDefaultAuthoritySet(struct Service_t *service, char *defaultAu
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceDefaultAuthoritySet", 336, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceDefaultAuthoritySet", 336, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -22556,19 +22556,19 @@ signed int ServiceDefaultAuthoritySet(struct Service_t *service, char *defaultAu
 
   while((_Bool)0);
   rc=sqlite3_step(stmt);
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   if(rc == 101)
   {
     if(service->defaultAuthority == ((char *)NULL))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$4=strcmp(defaultAuthority, service->defaultAuthority);
-      tmp_if_expr$5 = return_value_strcmp$4 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_4=strcmp(defaultAuthority, service->defaultAuthority);
+      tmp_if_expr_5 = return_value_strcmp_4 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
       if(!(service->defaultAuthority == ((char *)NULL)))
         free((void *)service->defaultAuthority);
@@ -22582,11 +22582,11 @@ signed int ServiceDefaultAuthoritySet(struct Service_t *service, char *defaultAu
   else
     do
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$6;
-      return_value_DBaseConnectionGet$6=DBaseConnectionGet();
-      const char *return_value_sqlite3_errmsg$7;
-      return_value_sqlite3_errmsg$7=sqlite3_errmsg(return_value_DBaseConnectionGet$6);
-      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceDefaultAuthoritySet", 353, rc, return_value_sqlite3_errmsg$7);
+      struct sqlite3 *return_value_DBaseConnectionGet_6;
+      return_value_DBaseConnectionGet_6=DBaseConnectionGet();
+      const char *return_value_sqlite3_errmsg_7;
+      return_value_sqlite3_errmsg_7=sqlite3_errmsg(return_value_DBaseConnectionGet_6);
+      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceDefaultAuthoritySet", 353, rc, return_value_sqlite3_errmsg_7);
     }
     while((_Bool)0);
   rc=sqlite3_finalize(stmt);
@@ -22605,9 +22605,9 @@ signed int ServiceDelete(struct Service_t *service)
     sqlstring=sqlite3_mprintf("DELETE FROM Services WHERE mplexuid=%d AND id=%d;", service->multiplexUID, service->id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -22620,11 +22620,11 @@ signed int ServiceDelete(struct Service_t *service)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceDelete", 105, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceDelete", 105, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -22652,9 +22652,9 @@ signed int ServiceDeleteAll(struct Multiplex_s *mux)
     sqlstring=sqlite3_mprintf("DELETE FROM Services WHERE mplexuid=%d;", mux->uid);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -22667,11 +22667,11 @@ signed int ServiceDeleteAll(struct Multiplex_s *mux)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceDeleteAll", 122, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceDeleteAll", 122, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -22724,9 +22724,9 @@ void * ServiceEnumeratorForMultiplex(struct Multiplex_s *multiplex)
     sqlstring=sqlite3_mprintf("SELECT Services.mplexuid,Services.id,Services.source,Services.ca,Services.type,Services.name,Services.pmtpid,Services.provider,Services.defauthority,Multiplexes.netid,Multiplexes.tsid FROM Services,Multiplexes WHERE Services.mplexuid=Multiplexes.uid AND Services.mplexuid=%d;", multiplex->uid);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -22739,11 +22739,11 @@ void * ServiceEnumeratorForMultiplex(struct Multiplex_s *multiplex)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceEnumeratorForMultiplex", 466, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceEnumeratorForMultiplex", 466, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -22762,19 +22762,19 @@ void * ServiceEnumeratorGet()
 {
   signed int rc;
   struct sqlite3_stmt *stmt = (struct sqlite3_stmt *)(void *)0;
-  struct sqlite3 *return_value_DBaseConnectionGet$1;
-  return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-  rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, "SELECT Services.mplexuid,Services.id,Services.source,Services.ca,Services.type,Services.name,Services.pmtpid,Services.provider,Services.defauthority,Multiplexes.netid,Multiplexes.tsid FROM Services,Multiplexes WHERE Services.mplexuid=Multiplexes.uid;", -1, &stmt, (const char **)(void *)0);
+  struct sqlite3 *return_value_DBaseConnectionGet_1;
+  return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+  rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, "SELECT Services.mplexuid,Services.id,Services.source,Services.ca,Services.type,Services.name,Services.pmtpid,Services.provider,Services.defauthority,Multiplexes.netid,Multiplexes.tsid FROM Services,Multiplexes WHERE Services.mplexuid=Multiplexes.uid;", -1, &stmt, (const char **)(void *)0);
   do
     if(!(rc == 0) && !(rc == 100) && !(rc == 101))
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceEnumeratorGet", 443, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceEnumeratorGet", 443, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -22841,7 +22841,7 @@ static void ServiceFilterAllocateFilters(struct ServiceFilter_s *filter)
   signed int muxUID;
   struct Multiplex_s *mux;
   mux=TuningCurrentMultiplexGet();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(mux == ((struct Multiplex_s *)NULL)))
   {
     muxUID = mux->uid;
@@ -22851,11 +22851,11 @@ static void ServiceFilterAllocateFilters(struct ServiceFilter_s *filter)
 
     while((_Bool)0);
     if(filter->service == ((struct Service_t *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = filter->service->multiplexUID != muxUID ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = filter->service->multiplexUID != muxUID ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       pthread_mutex_lock(&filter->tsgroup->tsReader->mutex);
       TSFilterGroupAddPacketFilter(filter->tsgroup, (unsigned short int)0x00, ServiceFilterProcessPacket, (void *)filter);
@@ -22918,9 +22918,9 @@ struct ServiceFilter_s * ServiceFilterCreate(struct TSReader_t *reader, char *na
 {
   struct ServiceFilter_s *result;
   struct Event_s *cachePIDSUpdatedEvent;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("ServiceFilter_t", "servicefilter.c", 154);
-  result = (struct ServiceFilter_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("ServiceFilter_t", "servicefilter.c", 154);
+  result = (struct ServiceFilter_s *)return_value_ObjectCreateImpl_1;
   if(!(result == ((struct ServiceFilter_s *)NULL)))
   {
     result->name=strdup(name);
@@ -22943,7 +22943,7 @@ signed int ServiceFilterDeInit(void)
 {
   EventsUnregisterEvent(filterAddedEvent);
   EventsUnregisterEvent(filterRemovedEvent);
-  EventsUnregisterEvent(serviceChangedEvent$link1);
+  EventsUnregisterEvent(serviceChangedEvent_link1);
   EventsUnregisterSource(eventSource);
   ListFree(ServiceFilterList, (void (*)(void *))(void *)0);
   return 0;
@@ -23007,16 +23007,16 @@ void ServiceFilterDestroyAll(struct TSReader_t *reader)
   pthread_mutex_lock(&reader->mutex);
   iterator.current = ServiceFilterList->head;
   iterator.list = ServiceFilterList;
-  struct ListEntry_s *tmp_if_expr$1;
+  struct ListEntry_s *tmp_if_expr_1;
   while(!(iterator.current == ((struct ListEntry_s *)NULL)))
   {
     struct ServiceFilter_s *filter = (struct ServiceFilter_s *)iterator.current->data;
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
-    iterator.current = tmp_if_expr$1;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
+    iterator.current = tmp_if_expr_1;
     ServiceFilterDestroy(filter);
   }
   pthread_mutex_unlock(&reader->mutex);
@@ -23030,7 +23030,7 @@ static signed int ServiceFilterEventToString(struct yaml_document_s *document, s
   signed int mappingId;
   mappingId=yaml_document_add_mapping(document, (unsigned char *)"tag:yaml.org,2002:map", (enum yaml_mapping_style_e)YAML_ANY_MAPPING_STYLE);
   YamlUtils_MappingAdd(document, mappingId, "Filter Name", filter->name);
-  if(event == serviceChangedEvent$link1)
+  if(event == serviceChangedEvent_link1)
   {
     char serviceId[16l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     char *serviceName = "";
@@ -23077,27 +23077,27 @@ struct ServiceFilter_s * ServiceFilterFindFilter(struct TSReader_t *reader, cons
   struct ListIterator_s iterator;
   iterator.current = reader->groups->head;
   iterator.list = reader->groups;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct TSFilterGroup_t *group = (struct TSFilterGroup_t *)iterator.current->data;
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(group->type, ServiceFilterGroupType);
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(group->type, ServiceFilterGroupType);
+    if(return_value_strcmp_3 == 0)
     {
       struct ServiceFilter_s *filter = (struct ServiceFilter_s *)group->userArg;
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(filter->name, name);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(filter->name, name);
+      if(return_value_strcmp_2 == 0)
         return filter;
 
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   return (struct ServiceFilter_s *)(void *)0;
 }
@@ -23107,9 +23107,9 @@ struct ServiceFilter_s * ServiceFilterFindFilter(struct TSReader_t *reader, cons
 struct ListIterator_s * ServiceFilterGetListIterator(void)
 {
   struct ListIterator_s *iterator;
-  void *return_value_ObjectAllocImpl$1;
-  return_value_ObjectAllocImpl$1=ObjectAllocImpl((signed int)sizeof(struct ListIterator_s) /*16ul*/ , "servicefilter.c", 219);
-  iterator = (struct ListIterator_s *)return_value_ObjectAllocImpl$1;
+  void *return_value_ObjectAllocImpl_1;
+  return_value_ObjectAllocImpl_1=ObjectAllocImpl((signed int)sizeof(struct ListIterator_s) /*16ul*/ , "servicefilter.c", 219);
+  iterator = (struct ListIterator_s *)return_value_ObjectAllocImpl_1;
   iterator->current = ServiceFilterList->head;
   iterator->list = ServiceFilterList;
   return iterator;
@@ -23124,7 +23124,7 @@ signed int ServiceFilterInit(void)
   eventSource=EventsRegisterSource("ServiceFilter");
   filterAddedEvent=EventsRegisterEvent(eventSource, "Added", ServiceFilterEventToString);
   filterRemovedEvent=EventsRegisterEvent(eventSource, "Removed", ServiceFilterEventToString);
-  serviceChangedEvent$link1=EventsRegisterEvent(eventSource, "ServiceChanged", ServiceFilterEventToString);
+  serviceChangedEvent_link1=EventsRegisterEvent(eventSource, "ServiceChanged", ServiceFilterEventToString);
   return 0;
 }
 
@@ -23219,9 +23219,9 @@ static void ServiceFilterPMTRewrite(struct ServiceFilter_s *state)
   LogModule(3, SERVICEFILTER, "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
   LogModule(3, SERVICEFILTER, "Rewriting PMT on PID %x\n", state->service->pmtPID);
   info=CacheProgramInfoGet(state->service);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(!(info == ((struct ProgramInfo_s *)NULL)))
   {
     state->pcrPID = (unsigned short int)info->pcrPID;
@@ -23233,11 +23233,11 @@ static void ServiceFilterPMTRewrite(struct ServiceFilter_s *state)
       if(vfound == (_Bool)0)
       {
         if(info->streamInfoList->streams[(signed long int)i].type == 1)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = info->streamInfoList->streams[(signed long int)i].type == 2 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = info->streamInfoList->streams[(signed long int)i].type == 2 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           vfound = (_Bool)1;
           state->videoPID = (unsigned short int)info->streamInfoList->streams[(signed long int)i].pid;
@@ -23249,16 +23249,16 @@ static void ServiceFilterPMTRewrite(struct ServiceFilter_s *state)
       if(afound == (_Bool)0)
       {
         if(info->streamInfoList->streams[(signed long int)i].type == 3)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = info->streamInfoList->streams[(signed long int)i].type == 4 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = info->streamInfoList->streams[(signed long int)i].type == 4 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = info->streamInfoList->streams[(signed long int)i].type == 0x81 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = info->streamInfoList->streams[(signed long int)i].type == 0x81 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
         {
           afound = (_Bool)1;
           state->audioPID = (unsigned short int)info->streamInfoList->streams[(signed long int)i].pid;
@@ -23327,23 +23327,23 @@ static void ServiceFilterProcessPacket(void *arg, struct TSFilterGroup_t *group,
 {
   struct ServiceFilter_s *filter = (struct ServiceFilter_s *)arg;
   unsigned short int pid = (unsigned short int)(((signed int)packet->header[(signed long int)1] & 0x1f) << 8 | (signed int)packet->header[(signed long int)2] & 0xff);
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if((signed int)pid == 0)
   {
-    tmp_post$1 = filter->patPacketCounter;
+    tmp_post_1 = filter->patPacketCounter;
     filter->patPacketCounter = filter->patPacketCounter + 1;
-    filter->packets[(signed long int)0].header[(signed long int)3] = (unsigned char)((signed int)filter->packets[(signed long int)0].header[(signed long int)3] & 0xf0 | (signed int)tmp_post$1 & 0x0f);
+    filter->packets[(signed long int)0].header[(signed long int)3] = (unsigned char)((signed int)filter->packets[(signed long int)0].header[(signed long int)3] & 0xf0 | (signed int)tmp_post_1 & 0x0f);
     packet = &filter->packets[(signed long int)0];
   }
 
-  unsigned char tmp_post$2;
+  unsigned char tmp_post_2;
   if((signed int)pid == filter->service->pmtPID)
   {
     if(!(filter->avsOnly == (_Bool)0))
     {
-      tmp_post$2 = filter->pmtPacketCounter;
+      tmp_post_2 = filter->pmtPacketCounter;
       filter->pmtPacketCounter = filter->pmtPacketCounter + 1;
-      filter->packets[(signed long int)1].header[(signed long int)3] = (unsigned char)((signed int)filter->packets[(signed long int)1].header[(signed long int)3] & 0xf0 | (signed int)tmp_post$2 & 0x0f);
+      filter->packets[(signed long int)1].header[(signed long int)3] = (unsigned char)((signed int)filter->packets[(signed long int)1].header[(signed long int)3] & 0xf0 | (signed int)tmp_post_2 & 0x0f);
       packet = &filter->packets[(signed long int)1];
     }
 
@@ -23460,7 +23460,7 @@ void ServiceFilterServiceSet(struct ServiceFilter_s *filter, struct Service_t *s
 
   else
     filter->multiplex = (struct Multiplex_s *)(void *)0;
-  EventsFireEventListeners(serviceChangedEvent$link1, (void *)filter);
+  EventsFireEventListeners(serviceChangedEvent_link1, (void *)filter);
 }
 
 // ServiceFind
@@ -23488,9 +23488,9 @@ struct Service_t * ServiceFindFQID(unsigned short int networkId, unsigned short 
     sqlstring=sqlite3_mprintf("SELECT Services.mplexuid,Services.id,Services.source,Services.ca,Services.type,Services.name,Services.pmtpid,Services.provider,Services.defauthority,Multiplexes.netid,Multiplexes.tsid FROM Services,Multiplexes WHERE Multiplexes.netid=%d AND Multiplexes.tsid=%d AND Services.mplexuid=Multiplexes.uid AND id=%d;", networkId, tsId, serviceId);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -23503,11 +23503,11 @@ struct Service_t * ServiceFindFQID(unsigned short int networkId, unsigned short 
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceFindFQID", 415, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceFindFQID", 415, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -23530,9 +23530,9 @@ struct Service_t * ServiceFindFQIDStr(char *FQIdStr)
   unsigned short int tsId = (unsigned short int)0;
   unsigned short int serviceId = (unsigned short int)0;
   struct Service_t *service = (struct Service_t *)(void *)0;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(FQIdStr, "%hx.%hx.%hx", &networkId, &tsId, &serviceId);
-  if(return_value_sscanf$1 == 3)
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(FQIdStr, "%hx.%hx.%hx", &networkId, &tsId, &serviceId);
+  if(return_value_sscanf_1 == 3)
     service=ServiceFindFQID(networkId, tsId, serviceId);
 
   return service;
@@ -23551,9 +23551,9 @@ struct Service_t * ServiceFindId(struct Multiplex_s *multiplex, signed int id)
     sqlstring=sqlite3_mprintf("SELECT Services.mplexuid,Services.id,Services.source,Services.ca,Services.type,Services.name,Services.pmtpid,Services.provider,Services.defauthority,Multiplexes.netid,Multiplexes.tsid FROM Services,Multiplexes WHERE Services.mplexuid=%d AND Services.id=%d AND Multiplexes.uid=Services.mplexuid;", multiplex->uid, id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -23566,11 +23566,11 @@ struct Service_t * ServiceFindId(struct Multiplex_s *multiplex, signed int id)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceFindId", 396, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceFindId", 396, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -23598,9 +23598,9 @@ struct Service_t * ServiceFindName(char *name)
     sqlstring=sqlite3_mprintf("SELECT Services.mplexuid,Services.id,Services.source,Services.ca,Services.type,Services.name,Services.pmtpid,Services.provider,Services.defauthority,Multiplexes.netid,Multiplexes.tsid FROM Services,Multiplexes WHERE Services.name='%q' AND Multiplexes.uid=Services.mplexuid;", name);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -23613,11 +23613,11 @@ struct Service_t * ServiceFindName(char *name)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceFindName", 378, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceFindName", 378, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -23636,9 +23636,9 @@ struct Service_t * ServiceFindName(char *name)
 // file services.c line 452
 struct ServiceList_s * ServiceGetAll()
 {
-  struct ServiceList_s *return_value_ServiceGetList$1;
-  return_value_ServiceGetList$1=ServiceGetList((char *)(void *)0);
-  return return_value_ServiceGetList$1;
+  struct ServiceList_s *return_value_ServiceGetList_1;
+  return_value_ServiceGetList_1=ServiceGetList((char *)(void *)0);
+  return return_value_ServiceGetList_1;
 }
 
 // ServiceGetIDNameStr
@@ -23647,11 +23647,11 @@ char * ServiceGetIDNameStr(struct Service_t *service, char *buffer)
 {
   if(buffer == ((char *)NULL))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(service->name);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(4 + 1 + 4 + 1 + 4 + 1 + 5) + return_value_strlen$1);
-    buffer = (char *)return_value_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(service->name);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(4 + 1 + 4 + 1 + 4 + 1 + 5) + return_value_strlen_1);
+    buffer = (char *)return_value_malloc_2;
   }
 
   if(!(buffer == ((char *)NULL)))
@@ -23670,9 +23670,9 @@ char * ServiceGetIDStr(struct Service_t *service, char *buffer)
 {
   if(buffer == ((char *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)(4 + 1 + 4 + 1 + 4 + 1));
-    buffer = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)(4 + 1 + 4 + 1 + 4 + 1));
+    buffer = (char *)return_value_malloc_1;
   }
 
   if(!(buffer == ((char *)NULL)))
@@ -23702,9 +23702,9 @@ static struct ServiceList_s * ServiceGetList(char *where)
       sqlstring=sqlite3_mprintf("SELECT Services.mplexuid,Services.id,Services.source,Services.ca,Services.type,Services.name,Services.pmtpid,Services.provider,Services.defauthority,Multiplexes.netid,Multiplexes.tsid FROM Services,Multiplexes WHERE Services.mplexuid=Multiplexes.uid AND %s;", where);
       if(!(sqlstring == ((char *)NULL)))
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$1;
-        return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-        rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+        struct sqlite3 *return_value_DBaseConnectionGet_1;
+        return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+        rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
         sqlite3_free((void *)sqlstring);
       }
 
@@ -23715,13 +23715,13 @@ static struct ServiceList_s * ServiceGetList(char *where)
 
   else
   {
-    struct sqlite3 *return_value_DBaseConnectionGet$2;
-    return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-    rc=sqlite3_prepare(return_value_DBaseConnectionGet$2, "SELECT Services.mplexuid,Services.id,Services.source,Services.ca,Services.type,Services.name,Services.pmtpid,Services.provider,Services.defauthority,Multiplexes.netid,Multiplexes.tsid FROM Services,Multiplexes WHERE Services.mplexuid=Multiplexes.uid;", -1, &stmt, (const char **)(void *)0);
+    struct sqlite3 *return_value_DBaseConnectionGet_2;
+    return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+    rc=sqlite3_prepare(return_value_DBaseConnectionGet_2, "SELECT Services.mplexuid,Services.id,Services.source,Services.ca,Services.type,Services.name,Services.pmtpid,Services.provider,Services.defauthority,Multiplexes.netid,Multiplexes.tsid FROM Services,Multiplexes WHERE Services.mplexuid=Multiplexes.uid;", -1, &stmt, (const char **)(void *)0);
   }
-  struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$3;
-  return_value_ObjectCollectionCreateImpl$3=ObjectCollectionCreateImpl("ServiceList_t", (unsigned int)count, "services.c", 634);
-  list = (struct ServiceList_s *)return_value_ObjectCollectionCreateImpl$3;
+  struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_3;
+  return_value_ObjectCollectionCreateImpl_3=ObjectCollectionCreateImpl("ServiceList_t", (unsigned int)count, "services.c", 634);
+  list = (struct ServiceList_s *)return_value_ObjectCollectionCreateImpl_3;
   if(!(list == ((struct ServiceList_s *)NULL)))
   {
     i = 0;
@@ -23739,9 +23739,9 @@ struct ServiceList_s * ServiceGetListForMultiplex(struct Multiplex_s *multiplex)
 {
   char where[50l];
   sprintf(where, "Services.mplexuid=%d", multiplex->uid);
-  struct ServiceList_s *return_value_ServiceGetList$1;
-  return_value_ServiceGetList$1=ServiceGetList(where);
-  return return_value_ServiceGetList$1;
+  struct ServiceList_s *return_value_ServiceGetList_1;
+  return_value_ServiceGetList_1=ServiceGetList(where);
+  return return_value_ServiceGetList_1;
 }
 
 // ServiceGetListForNameLike
@@ -23767,58 +23767,58 @@ struct Service_t * ServiceGetNext(void *enumerator)
   {
     struct Service_t *service = (struct Service_t *)(void *)0;
     char *name;
-    void *return_value_ObjectCreateImpl$1;
-    return_value_ObjectCreateImpl$1=ObjectCreateImpl("Service_t", "services.c", 531);
-    service = (struct Service_t *)return_value_ObjectCreateImpl$1;
+    void *return_value_ObjectCreateImpl_1;
+    return_value_ObjectCreateImpl_1=ObjectCreateImpl("Service_t", "services.c", 531);
+    service = (struct Service_t *)return_value_ObjectCreateImpl_1;
     service->multiplexUID=sqlite3_column_int(stmt, 0);
-    signed int return_value_sqlite3_column_int$2;
-    return_value_sqlite3_column_int$2=sqlite3_column_int(stmt, 1);
-    service->id = return_value_sqlite3_column_int$2 & 0xffff;
+    signed int return_value_sqlite3_column_int_2;
+    return_value_sqlite3_column_int_2=sqlite3_column_int(stmt, 1);
+    service->id = return_value_sqlite3_column_int_2 & 0xffff;
     service->source=sqlite3_column_int(stmt, 2);
-    signed int return_value_sqlite3_column_int$3;
-    return_value_sqlite3_column_int$3=sqlite3_column_int(stmt, 3);
-    service->conditionalAccess = (_Bool)(return_value_sqlite3_column_int$3 != 0 ? 1 : 0);
-    signed int return_value_sqlite3_column_int$4;
-    return_value_sqlite3_column_int$4=sqlite3_column_int(stmt, 4);
-    service->type = (enum anonymous)return_value_sqlite3_column_int$4;
-    const unsigned char *return_value_sqlite3_column_text$5;
-    return_value_sqlite3_column_text$5=sqlite3_column_text(stmt, 5);
-    name = (char *)return_value_sqlite3_column_text$5;
+    signed int return_value_sqlite3_column_int_3;
+    return_value_sqlite3_column_int_3=sqlite3_column_int(stmt, 3);
+    service->conditionalAccess = (_Bool)(return_value_sqlite3_column_int_3 != 0 ? 1 : 0);
+    signed int return_value_sqlite3_column_int_4;
+    return_value_sqlite3_column_int_4=sqlite3_column_int(stmt, 4);
+    service->type = (enum anonymous)return_value_sqlite3_column_int_4;
+    const unsigned char *return_value_sqlite3_column_text_5;
+    return_value_sqlite3_column_text_5=sqlite3_column_text(stmt, 5);
+    name = (char *)return_value_sqlite3_column_text_5;
     if(!(name == ((char *)NULL)))
       service->name=strdup(name);
 
-    signed int return_value_sqlite3_column_int$6;
-    return_value_sqlite3_column_int$6=sqlite3_column_int(stmt, 6);
-    service->pmtPID = return_value_sqlite3_column_int$6 & 0xffff;
-    const unsigned char *return_value_sqlite3_column_text$7;
-    return_value_sqlite3_column_text$7=sqlite3_column_text(stmt, 7);
-    name = (char *)return_value_sqlite3_column_text$7;
+    signed int return_value_sqlite3_column_int_6;
+    return_value_sqlite3_column_int_6=sqlite3_column_int(stmt, 6);
+    service->pmtPID = return_value_sqlite3_column_int_6 & 0xffff;
+    const unsigned char *return_value_sqlite3_column_text_7;
+    return_value_sqlite3_column_text_7=sqlite3_column_text(stmt, 7);
+    name = (char *)return_value_sqlite3_column_text_7;
     if(!(name == ((char *)NULL)))
       service->provider=strdup(name);
 
-    const unsigned char *return_value_sqlite3_column_text$8;
-    return_value_sqlite3_column_text$8=sqlite3_column_text(stmt, 8);
-    name = (char *)return_value_sqlite3_column_text$8;
+    const unsigned char *return_value_sqlite3_column_text_8;
+    return_value_sqlite3_column_text_8=sqlite3_column_text(stmt, 8);
+    name = (char *)return_value_sqlite3_column_text_8;
     if(!(name == ((char *)NULL)))
       service->defaultAuthority=strdup(name);
 
-    signed int return_value_sqlite3_column_int$9;
-    return_value_sqlite3_column_int$9=sqlite3_column_int(stmt, 9);
-    service->networkId = return_value_sqlite3_column_int$9 & 0xffff;
-    signed int return_value_sqlite3_column_int$10;
-    return_value_sqlite3_column_int$10=sqlite3_column_int(stmt, 10);
-    service->tsId = return_value_sqlite3_column_int$10 & 0xffff;
+    signed int return_value_sqlite3_column_int_9;
+    return_value_sqlite3_column_int_9=sqlite3_column_int(stmt, 9);
+    service->networkId = return_value_sqlite3_column_int_9 & 0xffff;
+    signed int return_value_sqlite3_column_int_10;
+    return_value_sqlite3_column_int_10=sqlite3_column_int(stmt, 10);
+    service->tsId = return_value_sqlite3_column_int_10 & 0xffff;
     return service;
   }
 
   if(!(rc == 101))
     do
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$11;
-      return_value_DBaseConnectionGet$11=DBaseConnectionGet();
-      const char *return_value_sqlite3_errmsg$12;
-      return_value_sqlite3_errmsg$12=sqlite3_errmsg(return_value_DBaseConnectionGet$11);
-      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceGetNext", 560, rc, return_value_sqlite3_errmsg$12);
+      struct sqlite3 *return_value_DBaseConnectionGet_11;
+      return_value_DBaseConnectionGet_11=DBaseConnectionGet();
+      const char *return_value_sqlite3_errmsg_12;
+      return_value_sqlite3_errmsg_12=sqlite3_errmsg(return_value_DBaseConnectionGet_11);
+      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceGetNext", 560, rc, return_value_sqlite3_errmsg_12);
     }
     while((_Bool)0);
 
@@ -23849,11 +23849,11 @@ signed int ServiceInit(void)
 // file services.c line 447
 struct List_s * ServiceListAll()
 {
-  void *return_value_ServiceEnumeratorGet$1;
-  return_value_ServiceEnumeratorGet$1=ServiceEnumeratorGet();
-  struct List_s *return_value_ServiceCreateList$2;
-  return_value_ServiceCreateList$2=ServiceCreateList(return_value_ServiceEnumeratorGet$1);
-  return return_value_ServiceCreateList$2;
+  void *return_value_ServiceEnumeratorGet_1;
+  return_value_ServiceEnumeratorGet_1=ServiceEnumeratorGet();
+  struct List_s *return_value_ServiceCreateList_2;
+  return_value_ServiceCreateList_2=ServiceCreateList(return_value_ServiceEnumeratorGet_1);
+  return return_value_ServiceCreateList_2;
 }
 
 // ServiceListDestructor
@@ -23870,22 +23870,22 @@ static void ServiceListDestructor(void *arg)
 // file services.c line 471
 struct List_s * ServiceListForMultiplex(struct Multiplex_s *multiplex)
 {
-  void *return_value_ServiceEnumeratorForMultiplex$1;
-  return_value_ServiceEnumeratorForMultiplex$1=ServiceEnumeratorForMultiplex(multiplex);
-  struct List_s *return_value_ServiceCreateList$2;
-  return_value_ServiceCreateList$2=ServiceCreateList(return_value_ServiceEnumeratorForMultiplex$1);
-  return return_value_ServiceCreateList$2;
+  void *return_value_ServiceEnumeratorForMultiplex_1;
+  return_value_ServiceEnumeratorForMultiplex_1=ServiceEnumeratorForMultiplex(multiplex);
+  struct List_s *return_value_ServiceCreateList_2;
+  return_value_ServiceCreateList_2=ServiceCreateList(return_value_ServiceEnumeratorForMultiplex_1);
+  return return_value_ServiceCreateList_2;
 }
 
 // ServiceListForNameLike
 // file services.c line 498
 struct List_s * ServiceListForNameLike(char *query)
 {
-  void *return_value_ServiceQueryNameLike$1;
-  return_value_ServiceQueryNameLike$1=ServiceQueryNameLike(query);
-  struct List_s *return_value_ServiceCreateList$2;
-  return_value_ServiceCreateList$2=ServiceCreateList(return_value_ServiceQueryNameLike$1);
-  return return_value_ServiceCreateList$2;
+  void *return_value_ServiceQueryNameLike_1;
+  return_value_ServiceQueryNameLike_1=ServiceQueryNameLike(query);
+  struct List_s *return_value_ServiceCreateList_2;
+  return_value_ServiceCreateList_2=ServiceCreateList(return_value_ServiceQueryNameLike_1);
+  return return_value_ServiceCreateList_2;
 }
 
 // ServiceNameSet
@@ -23900,9 +23900,9 @@ signed int ServiceNameSet(struct Service_t *service, char *name)
     sqlstring=sqlite3_mprintf("UPDATE Services SET name='%q' WHERE mplexuid=%d AND id=%d;", name, service->multiplexUID, service->id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -23915,11 +23915,11 @@ signed int ServiceNameSet(struct Service_t *service, char *name)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceNameSet", 202, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceNameSet", 202, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -23930,19 +23930,19 @@ signed int ServiceNameSet(struct Service_t *service, char *name)
 
   while((_Bool)0);
   rc=sqlite3_step(stmt);
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   if(rc == 101)
   {
     if(service->name == ((char *)NULL))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$4=strcmp(name, service->name);
-      tmp_if_expr$5 = return_value_strcmp$4 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_4=strcmp(name, service->name);
+      tmp_if_expr_5 = return_value_strcmp_4 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
       if(!(service->name == ((char *)NULL)))
         free((void *)service->name);
@@ -23956,11 +23956,11 @@ signed int ServiceNameSet(struct Service_t *service, char *name)
   else
     do
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$6;
-      return_value_DBaseConnectionGet$6=DBaseConnectionGet();
-      const char *return_value_sqlite3_errmsg$7;
-      return_value_sqlite3_errmsg$7=sqlite3_errmsg(return_value_DBaseConnectionGet$6);
-      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceNameSet", 219, rc, return_value_sqlite3_errmsg$7);
+      struct sqlite3 *return_value_DBaseConnectionGet_6;
+      return_value_DBaseConnectionGet_6=DBaseConnectionGet();
+      const char *return_value_sqlite3_errmsg_7;
+      return_value_sqlite3_errmsg_7=sqlite3_errmsg(return_value_DBaseConnectionGet_6);
+      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceNameSet", 219, rc, return_value_sqlite3_errmsg_7);
     }
     while((_Bool)0);
   rc=sqlite3_finalize(stmt);
@@ -23979,9 +23979,9 @@ signed int ServicePMTPIDSet(struct Service_t *service, signed int pmtpid)
     sqlstring=sqlite3_mprintf("UPDATE Services SET pmtpid=%d WHERE mplexuid=%d AND id=%d;", pmtpid, service->multiplexUID, service->id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -23994,11 +23994,11 @@ signed int ServicePMTPIDSet(struct Service_t *service, signed int pmtpid)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServicePMTPIDSet", 178, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServicePMTPIDSet", 178, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -24018,11 +24018,11 @@ signed int ServicePMTPIDSet(struct Service_t *service, signed int pmtpid)
   else
     do
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$4;
-      return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-      const char *return_value_sqlite3_errmsg$5;
-      return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServicePMTPIDSet", 188, rc, return_value_sqlite3_errmsg$5);
+      struct sqlite3 *return_value_DBaseConnectionGet_4;
+      return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+      const char *return_value_sqlite3_errmsg_5;
+      return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServicePMTPIDSet", 188, rc, return_value_sqlite3_errmsg_5);
     }
     while((_Bool)0);
   rc=sqlite3_finalize(stmt);
@@ -24041,9 +24041,9 @@ signed int ServiceProviderSet(struct Service_t *service, char *provider)
     sqlstring=sqlite3_mprintf("UPDATE Services SET provider='%q' WHERE mplexuid=%d AND id=%d;", provider, service->multiplexUID, service->id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -24056,11 +24056,11 @@ signed int ServiceProviderSet(struct Service_t *service, char *provider)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceProviderSet", 305, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceProviderSet", 305, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -24071,19 +24071,19 @@ signed int ServiceProviderSet(struct Service_t *service, char *provider)
 
   while((_Bool)0);
   rc=sqlite3_step(stmt);
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   if(rc == 101)
   {
     if(service->provider == ((char *)NULL))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$4=strcmp(provider, service->provider);
-      tmp_if_expr$5 = return_value_strcmp$4 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_4=strcmp(provider, service->provider);
+      tmp_if_expr_5 = return_value_strcmp_4 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
       if(!(service->provider == ((char *)NULL)))
         free((void *)service->provider);
@@ -24097,11 +24097,11 @@ signed int ServiceProviderSet(struct Service_t *service, char *provider)
   else
     do
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$6;
-      return_value_DBaseConnectionGet$6=DBaseConnectionGet();
-      const char *return_value_sqlite3_errmsg$7;
-      return_value_sqlite3_errmsg$7=sqlite3_errmsg(return_value_DBaseConnectionGet$6);
-      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceProviderSet", 322, rc, return_value_sqlite3_errmsg$7);
+      struct sqlite3 *return_value_DBaseConnectionGet_6;
+      return_value_DBaseConnectionGet_6=DBaseConnectionGet();
+      const char *return_value_sqlite3_errmsg_7;
+      return_value_sqlite3_errmsg_7=sqlite3_errmsg(return_value_DBaseConnectionGet_6);
+      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceProviderSet", 322, rc, return_value_sqlite3_errmsg_7);
     }
     while((_Bool)0);
   rc=sqlite3_finalize(stmt);
@@ -24120,9 +24120,9 @@ void * ServiceQueryNameLike(char *query)
     sqlstring=sqlite3_mprintf("SELECT Services.mplexuid,Services.id,Services.source,Services.ca,Services.type,Services.name,Services.pmtpid,Services.provider,Services.defauthority,Multiplexes.netid,Multiplexes.tsid FROM Services,Multiplexes WHERE Services.mplexuid=Multiplexes.uid AND Services.name LIKE %Q;", query);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -24135,11 +24135,11 @@ void * ServiceQueryNameLike(char *query)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceQueryNameLike", 493, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceQueryNameLike", 493, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -24164,9 +24164,9 @@ signed int ServiceSourceSet(struct Service_t *service, signed int source)
     sqlstring=sqlite3_mprintf("UPDATE Services SET source=%d WHERE mplexuid=%d AND id=%d;", source, service->multiplexUID, service->id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -24179,11 +24179,11 @@ signed int ServiceSourceSet(struct Service_t *service, signed int source)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceSourceSet", 233, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceSourceSet", 233, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -24203,11 +24203,11 @@ signed int ServiceSourceSet(struct Service_t *service, signed int source)
   else
     do
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$4;
-      return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-      const char *return_value_sqlite3_errmsg$5;
-      return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceSourceSet", 243, rc, return_value_sqlite3_errmsg$5);
+      struct sqlite3 *return_value_DBaseConnectionGet_4;
+      return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+      const char *return_value_sqlite3_errmsg_5;
+      return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceSourceSet", 243, rc, return_value_sqlite3_errmsg_5);
     }
     while((_Bool)0);
   rc=sqlite3_finalize(stmt);
@@ -24226,9 +24226,9 @@ signed int ServiceTypeSet(struct Service_t *service, enum anonymous type)
     sqlstring=sqlite3_mprintf("UPDATE Services SET type=%d WHERE mplexuid=%d AND id=%d;", type, service->multiplexUID, service->id);
     if(!(sqlstring == ((char *)NULL)))
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$1;
-      return_value_DBaseConnectionGet$1=DBaseConnectionGet();
-      rc=sqlite3_prepare(return_value_DBaseConnectionGet$1, sqlstring, -1, &stmt, (const char **)(void *)0);
+      struct sqlite3 *return_value_DBaseConnectionGet_1;
+      return_value_DBaseConnectionGet_1=DBaseConnectionGet();
+      rc=sqlite3_prepare(return_value_DBaseConnectionGet_1, sqlstring, -1, &stmt, (const char **)(void *)0);
       sqlite3_free((void *)sqlstring);
     }
 
@@ -24241,11 +24241,11 @@ signed int ServiceTypeSet(struct Service_t *service, enum anonymous type)
     {
       do
       {
-        struct sqlite3 *return_value_DBaseConnectionGet$2;
-        return_value_DBaseConnectionGet$2=DBaseConnectionGet();
-        const char *return_value_sqlite3_errmsg$3;
-        return_value_sqlite3_errmsg$3=sqlite3_errmsg(return_value_DBaseConnectionGet$2);
-        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceTypeSet", 281, rc, return_value_sqlite3_errmsg$3);
+        struct sqlite3 *return_value_DBaseConnectionGet_2;
+        return_value_DBaseConnectionGet_2=DBaseConnectionGet();
+        const char *return_value_sqlite3_errmsg_3;
+        return_value_sqlite3_errmsg_3=sqlite3_errmsg(return_value_DBaseConnectionGet_2);
+        LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceTypeSet", 281, rc, return_value_sqlite3_errmsg_3);
       }
       while((_Bool)0);
       if(!(stmt == ((struct sqlite3_stmt *)NULL)))
@@ -24265,11 +24265,11 @@ signed int ServiceTypeSet(struct Service_t *service, enum anonymous type)
   else
     do
     {
-      struct sqlite3 *return_value_DBaseConnectionGet$4;
-      return_value_DBaseConnectionGet$4=DBaseConnectionGet();
-      const char *return_value_sqlite3_errmsg$5;
-      return_value_sqlite3_errmsg$5=sqlite3_errmsg(return_value_DBaseConnectionGet$4);
-      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceTypeSet", 291, rc, return_value_sqlite3_errmsg$5);
+      struct sqlite3 *return_value_DBaseConnectionGet_4;
+      return_value_DBaseConnectionGet_4=DBaseConnectionGet();
+      const char *return_value_sqlite3_errmsg_5;
+      return_value_sqlite3_errmsg_5=sqlite3_errmsg(return_value_DBaseConnectionGet_4);
+      LogModule(3, "dbase", "%s(%d): Failed with error code 0x%x=%s\n", (const void *)"ServiceTypeSet", 291, rc, return_value_sqlite3_errmsg_5);
     }
     while((_Bool)0);
   rc=sqlite3_finalize(stmt);
@@ -24283,17 +24283,17 @@ static void StatsAddFilterGroupStats(struct TSReaderStats_t *stats, const char *
   struct TSFilterGroupTypeStats_t *typeStats = stats->types;
   for( ; !(typeStats == ((struct TSFilterGroupTypeStats_t *)NULL)); typeStats = typeStats->next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(typeStats->type, type);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(typeStats->type, type);
+    if(return_value_strcmp_1 == 0)
       break;
 
   }
   if(typeStats == ((struct TSFilterGroupTypeStats_t *)NULL))
   {
-    void *return_value_ObjectCreateImpl$2;
-    return_value_ObjectCreateImpl$2=ObjectCreateImpl("TSFilterGroupTypeStats_t", "ts.c", 498);
-    typeStats = (struct TSFilterGroupTypeStats_t *)return_value_ObjectCreateImpl$2;
+    void *return_value_ObjectCreateImpl_2;
+    return_value_ObjectCreateImpl_2=ObjectCreateImpl("TSFilterGroupTypeStats_t", "ts.c", 498);
+    typeStats = (struct TSFilterGroupTypeStats_t *)return_value_ObjectCreateImpl_2;
     typeStats->type = (char *)type;
     typeStats->next = stats->types;
     stats->types = typeStats;
@@ -24349,21 +24349,21 @@ static void SubTableHandler(void *arg, struct dvbpsi_decoder_s *demuxHandle, uns
   }
 }
 
-// SubTableHandler$link1
+// SubTableHandler_link1
 // file standard/dvb/sdtprocessor.c line 131
-static void SubTableHandler$link1(void *arg$link1, struct dvbpsi_decoder_s *demuxHandle$link1, unsigned char tableId$link1, unsigned short int extension$link1)
+static void SubTableHandler_link1(void *arg_link1, struct dvbpsi_decoder_s *demuxHandle_link1, unsigned char tableId_link1, unsigned short int extension_link1)
 {
-  if((signed int)tableId$link1 == 0x42)
-    dvbpsi_AttachSDT(demuxHandle$link1, tableId$link1, extension$link1, SDTHandler, arg$link1);
+  if((signed int)tableId_link1 == 0x42)
+    dvbpsi_AttachSDT(demuxHandle_link1, tableId_link1, extension_link1, SDTHandler, arg_link1);
 
 }
 
-// SubTableHandler$link2
+// SubTableHandler_link2
 // file standard/dvb/nitprocessor.c line 120
-static void SubTableHandler$link2(void *arg$link2, struct dvbpsi_decoder_s *demuxHandle$link2, unsigned char tableId$link2, unsigned short int extension$link2)
+static void SubTableHandler_link2(void *arg_link2, struct dvbpsi_decoder_s *demuxHandle_link2, unsigned char tableId_link2, unsigned short int extension_link2)
 {
-  if((signed int)tableId$link2 == 0x40 || (signed int)tableId$link2 == 0x41)
-    dvbpsi_AttachNIT(demuxHandle$link2, tableId$link2, extension$link2, NITHandler, arg$link2);
+  if((signed int)tableId_link2 == 0x40 || (signed int)tableId_link2 == 0x41)
+    dvbpsi_AttachNIT(demuxHandle_link2, tableId_link2, extension_link2, NITHandler, arg_link2);
 
 }
 
@@ -24379,16 +24379,16 @@ static signed int SysPropertyGetUptime(void *userArg, struct PropertyValue_s *va
   signed int m;
   signed int s;
   time(&now);
-  double return_value_difftime$1;
-  return_value_difftime$1=difftime(now, StartTime);
-  seconds = (signed int)return_value_difftime$1;
+  double return_value_difftime_1;
+  return_value_difftime_1=difftime(now, StartTime);
+  seconds = (signed int)return_value_difftime_1;
   d = seconds / (24 * 60 * 60);
   h = (seconds - d * 24 * 60 * 60) / (60 * 60);
   m = (seconds - (d * 24 * 60 * 60 + h * 60 * 60)) / 60;
   s = seconds - (d * 24 * 60 * 60 + h * 60 * 60 + m * 60);
-  signed int return_value_asprintf$2;
-  return_value_asprintf$2=asprintf(&uptimeStr, "%d Days %d Hours %d Minutes %d seconds", d, h, m, s);
-  if(return_value_asprintf$2 == -1)
+  signed int return_value_asprintf_2;
+  return_value_asprintf_2=asprintf(&uptimeStr, "%d Days %d Hours %d Minutes %d seconds", d, h, m, s);
+  if(return_value_asprintf_2 == -1)
     LogModule(1, MAIN, "Failed to allocate memory for uptime string.\n");
 
   value->u.string = uptimeStr;
@@ -24401,9 +24401,9 @@ static signed int SysPropertyGetUptimeSecs(void *userArg, struct PropertyValue_s
 {
   signed long int now;
   time(&now);
-  double return_value_difftime$1;
-  return_value_difftime$1=difftime(now, StartTime);
-  value->u.integer = (signed int)return_value_difftime$1;
+  double return_value_difftime_1;
+  return_value_difftime_1=difftime(now, StartTime);
+  value->u.integer = (signed int)return_value_difftime_1;
   return 0;
 }
 
@@ -24424,9 +24424,9 @@ struct TDTProcessor_s * TDTProcessorCreate(struct TSReader_t *reader)
     tdtEvent=EventsRegisterEvent(DVBEventSource, "TDT", (signed int (*)(struct yaml_document_s *, struct Event_s *, void *))(void *)0);
 
   ObjectRegisterClass("TDTProcessor_t", (unsigned int)sizeof(struct TDTProcessor_s) /*16ul*/ , (void (*)(void *))(void *)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("TDTProcessor_t", "standard/dvb/tdtprocessor.c", 81);
-  state = (struct TDTProcessor_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("TDTProcessor_t", "standard/dvb/tdtprocessor.c", 81);
+  state = (struct TDTProcessor_s *)return_value_ObjectCreateImpl_1;
   if(!(state == ((struct TDTProcessor_s *)NULL)))
     state->tsgroup=TSReaderCreateFilterGroup(reader, TDTPROCESSOR, "DVB", TDTProcessorFilterEventCallback, (void *)state);
 
@@ -24525,9 +24525,9 @@ void TSFilterGroupAddSectionFilter(struct TSFilterGroup_t *group, unsigned short
     }
 
   while((_Bool)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("TSSectionFilter_t", "ts.c", 351);
-  sectionFilter = (struct TSSectionFilter_t *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("TSSectionFilter_t", "ts.c", 351);
+  sectionFilter = (struct TSSectionFilter_t *)return_value_ObjectCreateImpl_1;
   sectionFilter->pid = pid;
   sectionFilter->priority = priority;
   sectionFilter->sectionHandle = handle;
@@ -24695,12 +24695,12 @@ struct TSReader_t * TSReaderCreate(struct DVBAdapter_s *adapter)
   ObjectRegisterClass("TSReaderStats_t", (unsigned int)sizeof(struct TSReaderStats_t) /*24ul*/ , TSReaderStatsDestructor);
   ObjectRegisterClass("TSFilterGroupTypeStats_t", (unsigned int)sizeof(struct TSFilterGroupTypeStats_t) /*24ul*/ , (void (*)(void *))(void *)0);
   ObjectRegisterClass("TSFilterGroupStats_t", (unsigned int)sizeof(struct TSFilterGroupStats_t) /*32ul*/ , (void (*)(void *))(void *)0);
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("TSReader_t", "ts.c", 116);
-  result = (struct TSReader_t *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("TSReader_t", "ts.c", 116);
+  result = (struct TSReader_t *)return_value_ObjectCreateImpl_1;
   if(!(result == ((struct TSReader_t *)NULL)))
   {
-    union anonymous$38 mutexAttr;
+    union anonymous_38 mutexAttr;
     result->adapter = adapter;
     DVBDemuxSetBufferSize(adapter, (unsigned long int)(20 * 188));
     result->groups=ListCreate();
@@ -24776,9 +24776,9 @@ struct TSReader_t * TSReaderCreate(struct DVBAdapter_s *adapter)
 struct TSFilterGroup_t * TSReaderCreateFilterGroup(struct TSReader_t *reader, const char *name, const char *type, void (*callback)(void *, struct TSFilterGroup_t *, enum TSFilterEventType_e, void *), void *userArg)
 {
   struct TSFilterGroup_t *group;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("TSFilterGroup_t", "ts.c", 266);
-  group = (struct TSFilterGroup_t *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("TSFilterGroup_t", "ts.c", 266);
+  group = (struct TSFilterGroup_t *)return_value_ObjectCreateImpl_1;
   if(!(group == ((struct TSFilterGroup_t *)NULL)))
   {
     group->name = (char *)name;
@@ -24802,32 +24802,32 @@ static void TSReaderDVRCallback(struct ev_loop *loop, struct ev_io *w, signed in
   struct DVBAdapter_s *adapter = reader->adapter;
   signed int count;
   signed int p;
-  signed int return_value_DVBDVRGetFD$1;
-  return_value_DVBDVRGetFD$1=DVBDVRGetFD(adapter);
-  signed long int return_value_read$2;
-  return_value_read$2=read(return_value_DVBDVRGetFD$1, (void *)(char *)reader->buffer, sizeof(struct TSPacket_t [20l]) /*3760ul*/ );
-  count = (signed int)return_value_read$2;
-  _Bool return_value_DVBFrontEndIsLocked$3;
-  return_value_DVBFrontEndIsLocked$3=DVBFrontEndIsLocked(adapter);
-  _Bool tmp_if_expr$4;
-  if(return_value_DVBFrontEndIsLocked$3 == (_Bool)0)
-    tmp_if_expr$4 = (_Bool)1;
+  signed int return_value_DVBDVRGetFD_1;
+  return_value_DVBDVRGetFD_1=DVBDVRGetFD(adapter);
+  signed long int return_value_read_2;
+  return_value_read_2=read(return_value_DVBDVRGetFD_1, (void *)(char *)reader->buffer, sizeof(struct TSPacket_t [20l]) /*3760ul*/ );
+  count = (signed int)return_value_read_2;
+  _Bool return_value_DVBFrontEndIsLocked_3;
+  return_value_DVBFrontEndIsLocked_3=DVBFrontEndIsLocked(adapter);
+  _Bool tmp_if_expr_4;
+  if(return_value_DVBFrontEndIsLocked_3 == (_Bool)0)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = !(reader->enabled != (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(!tmp_if_expr$4)
+    tmp_if_expr_4 = !(reader->enabled != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(!tmp_if_expr_4)
   {
     pthread_mutex_lock(&reader->mutex);
     p = 0;
     do
     {
       if(!(p >= count / 188))
-        tmp_if_expr$5 = reader->enabled != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = reader->enabled != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(!tmp_if_expr_5)
         break;
 
       if((0x80 & (signed int)reader->buffer[(signed long int)p].header[1l]) == 0x00)
@@ -24898,31 +24898,31 @@ struct TSReaderStats_t * TSReaderExtractStats(struct TSReader_t *reader)
 {
   struct ListIterator_s iterator;
   struct TSReaderStats_t *stats;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("TSReaderStats_t", "ts.c", 189);
-  stats = (struct TSReaderStats_t *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("TSReaderStats_t", "ts.c", 189);
+  stats = (struct TSReaderStats_t *)return_value_ObjectCreateImpl_1;
   pthread_mutex_lock(&reader->mutex);
   stats->totalPackets = reader->totalPackets;
   stats->bitrate = reader->bitrate;
   iterator.current = reader->groups->head;
   iterator.list = reader->groups;
-  struct ListEntry_s *tmp_if_expr$2;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$2)
+  struct ListEntry_s *tmp_if_expr_2;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_2)
   {
     struct TSFilterGroup_t *group = (struct TSFilterGroup_t *)iterator.current->data;
     struct TSFilterGroupStats_t *filterGroupStats;
-    void *return_value_ObjectCreateImpl$3;
-    return_value_ObjectCreateImpl$3=ObjectCreateImpl("TSFilterGroupStats_t", "ts.c", 200);
-    filterGroupStats = (struct TSFilterGroupStats_t *)return_value_ObjectCreateImpl$3;
+    void *return_value_ObjectCreateImpl_3;
+    return_value_ObjectCreateImpl_3=ObjectCreateImpl("TSFilterGroupStats_t", "ts.c", 200);
+    filterGroupStats = (struct TSFilterGroupStats_t *)return_value_ObjectCreateImpl_3;
     filterGroupStats->name = group->name;
     filterGroupStats->packetsProcessed = group->packetsProcessed;
     filterGroupStats->sectionsProcessed = group->sectionsProcessed;
     StatsAddFilterGroupStats(stats, group->type, filterGroupStats);
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$2 = iterator.current->next;
+      tmp_if_expr_2 = iterator.current->next;
 
     else
-      tmp_if_expr$2 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_2 = (struct ListEntry_s *)(void *)0;
   }
   pthread_mutex_unlock(&reader->mutex);
   return stats;
@@ -24937,17 +24937,17 @@ struct TSFilterGroup_t * TSReaderFindFilterGroup(struct TSReader_t *reader, cons
   pthread_mutex_lock(&reader->mutex);
   iterator.current = reader->groups->head;
   iterator.list = reader->groups;
-  signed int return_value_strcmp$2;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  signed int return_value_strcmp_2;
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct TSFilterGroup_t *group = (struct TSFilterGroup_t *)iterator.current->data;
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(group->name, name);
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(group->name, name);
+    if(return_value_strcmp_3 == 0)
     {
-      return_value_strcmp$2=strcmp(group->type, type);
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(group->type, type);
+      if(return_value_strcmp_2 == 0)
       {
         result = group;
         break;
@@ -24956,10 +24956,10 @@ struct TSFilterGroup_t * TSReaderFindFilterGroup(struct TSReader_t *reader, cons
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   pthread_mutex_unlock(&reader->mutex);
   return result;
@@ -25056,17 +25056,17 @@ void TSReaderZeroStats(struct TSReader_t *reader)
   reader->bitrate = (volatile unsigned long int)0;
   iterator.current = reader->groups->head;
   iterator.list = reader->groups;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct TSFilterGroup_t *group = (struct TSFilterGroup_t *)iterator.current->data;
     group->packetsProcessed = (volatile unsigned long long int)0;
     group->sectionsProcessed = (volatile unsigned long long int)0;
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
   pthread_mutex_unlock(&reader->mutex);
 }
@@ -25096,12 +25096,12 @@ static char ** Tokenise(char *arguments, signed int *argc)
   char *end;
   char t;
   char **args;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(char *) /*8ul*/ , (unsigned long int)10);
-  args = (char **)return_value_calloc$1;
-  _Bool tmp_if_expr$3;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$4;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(char *) /*8ul*/ , (unsigned long int)10);
+  args = (char **)return_value_calloc_1;
+  _Bool tmp_if_expr_3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_4;
   while(!(*start == 0))
   {
     _Bool doubleQuotesOpen = (_Bool)0;
@@ -25110,13 +25110,13 @@ static char ** Tokenise(char *arguments, signed int *argc)
     {
       if(!(*start == 0))
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        tmp_if_expr$3 = ((signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*start] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        tmp_if_expr_3 = ((signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*start] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
       start = start + 1l;
@@ -25153,8 +25153,8 @@ static char ** Tokenise(char *arguments, signed int *argc)
 
         else
         {
-          return_value___ctype_b_loc$4=__ctype_b_loc();
-          if(!((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*end]) == 0))
+          return_value___ctype_b_loc_4=__ctype_b_loc();
+          if(!((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*end]) == 0))
             break;
 
         }
@@ -25199,9 +25199,9 @@ static void TryTuneDVBC(struct MultiplexList_s *muxList, struct MuxFrequencies_s
 
   else
   {
-    struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl$1;
-    return_value_ObjectCollectionCreateImpl$1=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)(nrofSymbolRates * nrofModulations), "commands/cmd_scanning.c", 819);
-    docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl$1;
+    struct ObjectCollection_s *return_value_ObjectCollectionCreateImpl_1;
+    return_value_ObjectCollectionCreateImpl_1=ObjectCollectionCreateImpl("TuningParamDocs_t", (unsigned int)(nrofSymbolRates * nrofModulations), "commands/cmd_scanning.c", 819);
+    docs = (struct TuningParamDocs_s *)return_value_ObjectCollectionCreateImpl_1;
     s = 0;
     for( ; !(s >= nrofSymbolRates); s = s + 1)
     {
@@ -25237,9 +25237,9 @@ static void TuneMultiplex(struct Multiplex_s *multiplex)
   while((_Bool)0);
   CurrentMultiplex = multiplex;
   LogModule(4, TUNING, "Tuning\n");
-  signed int return_value_DVBFrontEndTune$1;
-  return_value_DVBFrontEndTune$1=DVBFrontEndTune(dvbAdapter, multiplex->deliverySystem, multiplex->tuningParams);
-  if(!(return_value_DVBFrontEndTune$1 == 0))
+  signed int return_value_DVBFrontEndTune_1;
+  return_value_DVBFrontEndTune_1=DVBFrontEndTune(dvbAdapter, multiplex->deliverySystem, multiplex->tuningParams);
+  if(!(return_value_DVBFrontEndTune_1 == 0))
     LogModule(0, TUNING, "Tuning failed!\n");
 
   LogModule(4, TUNING, "Informing TSReader multiplex has changed!\n");
@@ -25324,18 +25324,18 @@ void TuningCurrentServiceRetune(void)
   struct Multiplex_s *multiplex;
   struct TSReader_t *reader;
   reader=MainTSReaderGet();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(CurrentService == ((struct Service_t *)NULL)))
   {
     LogModule(4, TUNING, "Disabling filters\n");
     TSReaderEnable(reader, (_Bool)0);
     multiplex=MultiplexFindUID(CurrentService->multiplexUID);
     if(!(CurrentMultiplex == ((struct Multiplex_s *)NULL)))
-      tmp_if_expr$1 = multiplex->uid == CurrentMultiplex->uid ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = multiplex->uid == CurrentMultiplex->uid ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       LogModule(4, TUNING, "Same multiplex\n");
       ObjectRefDecImpl((void *)multiplex, "tuning.c", 187);
@@ -25367,44 +25367,44 @@ _Bool TuningCurrentServiceSet(struct Service_t *service)
   reader=MainTSReaderGet();
   struct ServiceFilter_s *primaryServiceFilter;
   primaryServiceFilter=MainServiceFilterGetPrimary();
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(service == ((struct Service_t *)NULL))
     return (_Bool)0;
 
   else
   {
-    _Bool return_value_TuningCurrentServiceIsLocked$1;
-    return_value_TuningCurrentServiceIsLocked$1=TuningCurrentServiceIsLocked();
-    if(!(return_value_TuningCurrentServiceIsLocked$1 == (_Bool)0))
+    _Bool return_value_TuningCurrentServiceIsLocked_1;
+    return_value_TuningCurrentServiceIsLocked_1=TuningCurrentServiceIsLocked();
+    if(!(return_value_TuningCurrentServiceIsLocked_1 == (_Bool)0))
       return (_Bool)0;
 
     else
     {
       if(CurrentService == ((struct Service_t *)NULL))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         if(service->multiplexUID == CurrentService->multiplexUID)
-          tmp_if_expr$3 = service->id == CurrentService->id ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = service->id == CurrentService->id ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = !tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = !tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
         LogModule(4, TUNING, "Disabling filters\n");
         TSReaderEnable(reader, (_Bool)0);
         multiplex=MultiplexFindUID(service->multiplexUID);
         if(!(CurrentMultiplex == ((struct Multiplex_s *)NULL)))
-          tmp_if_expr$2 = multiplex->uid == CurrentMultiplex->uid ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = multiplex->uid == CurrentMultiplex->uid ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
           LogModule(4, TUNING, "Same multiplex\n");
 
         else
@@ -25492,8 +25492,8 @@ signed int UTF8_charnum(char *s, signed int offset)
 {
   signed int charnum = 0;
   signed int offs = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   for( ; !(offs >= offset); charnum = charnum + 1)
   {
     if(s[(signed long int)offs] == 0)
@@ -25501,22 +25501,22 @@ signed int UTF8_charnum(char *s, signed int offset)
 
     offs = offs + 1;
     if(!((0xC0 & (signed int)s[(signed long int)offs]) == 0x80))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
     {
       offs = offs + 1;
-      tmp_if_expr$1 = ((signed int)s[(signed long int)offs] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((signed int)s[(signed long int)offs] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       offs = offs + 1;
-      tmp_if_expr$2 = ((signed int)s[(signed long int)offs] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = ((signed int)s[(signed long int)offs] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       (_Bool)1;
 
     else
@@ -25537,25 +25537,25 @@ signed int UTF8_charnum(char *s, signed int offset)
 void UTF8_dec(char *s, signed int *i)
 {
   *i = *i - 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((0xC0 & (signed int)s[(signed long int)*i]) == 0x80))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     *i = *i - 1;
-    tmp_if_expr$1 = ((signed int)s[(signed long int)*i] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)s[(signed long int)*i] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     *i = *i - 1;
-    tmp_if_expr$2 = ((signed int)s[(signed long int)*i] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = ((signed int)s[(signed long int)*i] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
@@ -25576,18 +25576,18 @@ signed int UTF8_escape(char *buf, signed int sz, char *src, signed int escape_qu
   signed int c = 0;
   signed int i = 0;
   signed int amt;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   for( ; !(src[(signed long int)i] == 0); buf = buf + (signed long int)amt)
   {
     if(c >= sz)
       break;
 
     if(!(escape_quotes == 0))
-      tmp_if_expr$2 = (signed int)src[(signed long int)i] == 34 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)src[(signed long int)i] == 34 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       amt=snprintf(buf, (unsigned long int)(sz - c), "\\\"");
       i = i + 1;
@@ -25595,9 +25595,9 @@ signed int UTF8_escape(char *buf, signed int sz, char *src, signed int escape_qu
 
     else
     {
-      unsigned int return_value_UTF8_nextchar$1;
-      return_value_UTF8_nextchar$1=UTF8_nextchar(src, &i);
-      amt=UTF8_escape_wchar(buf, sz - c, return_value_UTF8_nextchar$1);
+      unsigned int return_value_UTF8_nextchar_1;
+      return_value_UTF8_nextchar_1=UTF8_nextchar(src, &i);
+      amt=UTF8_escape_wchar(buf, sz - c, return_value_UTF8_nextchar_1);
     }
     c = c + amt;
   }
@@ -25611,96 +25611,96 @@ signed int UTF8_escape(char *buf, signed int sz, char *src, signed int escape_qu
 // file utf8.c line 341
 signed int UTF8_escape_wchar(char *buf, signed int sz, unsigned int ch)
 {
-  signed int return_value_snprintf$1;
-  signed int return_value_snprintf$2;
-  signed int return_value_snprintf$3;
-  signed int return_value_snprintf$4;
-  signed int return_value_snprintf$5;
-  signed int return_value_snprintf$6;
-  signed int return_value_snprintf$7;
-  signed int return_value_snprintf$8;
-  signed int return_value_snprintf$9;
-  signed int return_value_snprintf$10;
-  signed int return_value_snprintf$11;
+  signed int return_value_snprintf_1;
+  signed int return_value_snprintf_2;
+  signed int return_value_snprintf_3;
+  signed int return_value_snprintf_4;
+  signed int return_value_snprintf_5;
+  signed int return_value_snprintf_6;
+  signed int return_value_snprintf_7;
+  signed int return_value_snprintf_8;
+  signed int return_value_snprintf_9;
+  signed int return_value_snprintf_10;
+  signed int return_value_snprintf_11;
   if(ch == 10u)
   {
-    return_value_snprintf$1=snprintf(buf, (unsigned long int)sz, "\\n");
-    return return_value_snprintf$1;
+    return_value_snprintf_1=snprintf(buf, (unsigned long int)sz, "\\n");
+    return return_value_snprintf_1;
   }
 
   else
     if(ch == 9u)
     {
-      return_value_snprintf$2=snprintf(buf, (unsigned long int)sz, "\\t");
-      return return_value_snprintf$2;
+      return_value_snprintf_2=snprintf(buf, (unsigned long int)sz, "\\t");
+      return return_value_snprintf_2;
     }
 
     else
       if(ch == 13u)
       {
-        return_value_snprintf$3=snprintf(buf, (unsigned long int)sz, "\\r");
-        return return_value_snprintf$3;
+        return_value_snprintf_3=snprintf(buf, (unsigned long int)sz, "\\r");
+        return return_value_snprintf_3;
       }
 
       else
         if(ch == 8u)
         {
-          return_value_snprintf$4=snprintf(buf, (unsigned long int)sz, "\\b");
-          return return_value_snprintf$4;
+          return_value_snprintf_4=snprintf(buf, (unsigned long int)sz, "\\b");
+          return return_value_snprintf_4;
         }
 
         else
           if(ch == 12u)
           {
-            return_value_snprintf$5=snprintf(buf, (unsigned long int)sz, "\\f");
-            return return_value_snprintf$5;
+            return_value_snprintf_5=snprintf(buf, (unsigned long int)sz, "\\f");
+            return return_value_snprintf_5;
           }
 
           else
             if(ch == 11u)
             {
-              return_value_snprintf$6=snprintf(buf, (unsigned long int)sz, "\\v");
-              return return_value_snprintf$6;
+              return_value_snprintf_6=snprintf(buf, (unsigned long int)sz, "\\v");
+              return return_value_snprintf_6;
             }
 
             else
               if(ch == 7u)
               {
-                return_value_snprintf$7=snprintf(buf, (unsigned long int)sz, "\\a");
-                return return_value_snprintf$7;
+                return_value_snprintf_7=snprintf(buf, (unsigned long int)sz, "\\a");
+                return return_value_snprintf_7;
               }
 
               else
                 if(ch == 92u)
                 {
-                  return_value_snprintf$8=snprintf(buf, (unsigned long int)sz, "\\\\");
-                  return return_value_snprintf$8;
+                  return_value_snprintf_8=snprintf(buf, (unsigned long int)sz, "\\\\");
+                  return return_value_snprintf_8;
                 }
 
                 else
                   if(ch == 127u || !(ch >= 32u))
                   {
-                    return_value_snprintf$9=snprintf(buf, (unsigned long int)sz, "\\x%hhX", (unsigned char)ch);
-                    return return_value_snprintf$9;
+                    return_value_snprintf_9=snprintf(buf, (unsigned long int)sz, "\\x%hhX", (unsigned char)ch);
+                    return return_value_snprintf_9;
                   }
 
                   else
                     if(ch >= 65536u)
                     {
-                      return_value_snprintf$10=snprintf(buf, (unsigned long int)sz, "\\U%.8X", (unsigned int)ch);
-                      return return_value_snprintf$10;
+                      return_value_snprintf_10=snprintf(buf, (unsigned long int)sz, "\\U%.8X", (unsigned int)ch);
+                      return return_value_snprintf_10;
                     }
 
                     else
                       if(ch >= 128u && !(ch >= 65536u))
                       {
-                        return_value_snprintf$11=snprintf(buf, (unsigned long int)sz, "\\u%.4hX", (unsigned short int)ch);
-                        return return_value_snprintf$11;
+                        return_value_snprintf_11=snprintf(buf, (unsigned long int)sz, "\\u%.4hX", (unsigned short int)ch);
+                        return return_value_snprintf_11;
                       }
 
-  signed int return_value_snprintf$12;
-  return_value_snprintf$12=snprintf(buf, (unsigned long int)sz, "%c", (char)ch);
-  return return_value_snprintf$12;
+  signed int return_value_snprintf_12;
+  return_value_snprintf_12=snprintf(buf, (unsigned long int)sz, "%c", (char)ch);
+  return return_value_snprintf_12;
 }
 
 // UTF8_inc
@@ -25708,25 +25708,25 @@ signed int UTF8_escape_wchar(char *buf, signed int sz, unsigned int ch)
 void UTF8_inc(char *s, signed int *i)
 {
   *i = *i + 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((0xC0 & (signed int)s[(signed long int)*i]) == 0x80))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     *i = *i + 1;
-    tmp_if_expr$1 = ((signed int)s[(signed long int)*i] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)s[(signed long int)*i] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     *i = *i + 1;
-    tmp_if_expr$2 = ((signed int)s[(signed long int)*i] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = ((signed int)s[(signed long int)*i] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     (_Bool)1;
 
   else
@@ -25745,35 +25745,35 @@ void UTF8_inc(char *s, signed int *i)
 signed int UTF8_is_locale_utf8(char *locale)
 {
   const char *cp = locale;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strncmp$7;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strncmp$9;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strncmp_7;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strncmp_9;
   do
   {
     if(!((signed int)*cp == 0))
-      tmp_if_expr$1 = (signed int)*cp != 64 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*cp != 64 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (signed int)*cp != 43 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (signed int)*cp != 43 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (signed int)*cp != 44 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (signed int)*cp != 44 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(!tmp_if_expr_3)
       break;
 
     if((signed int)*cp == 46)
@@ -25784,21 +25784,21 @@ signed int UTF8_is_locale_utf8(char *locale)
       do
       {
         if(!((signed int)*cp == 0))
-          tmp_if_expr$4 = (signed int)*cp != 64 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)*cp != 64 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (signed int)*cp != 43 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (signed int)*cp != 43 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (signed int)*cp != 44 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (signed int)*cp != 44 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(!tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(!tmp_if_expr_6)
           break;
 
         cp = cp + 1l;
@@ -25806,28 +25806,28 @@ signed int UTF8_is_locale_utf8(char *locale)
       while((_Bool)1);
       if(cp - encoding == 5l)
       {
-        return_value_strncmp$7=strncmp(encoding, "UTF-8", (unsigned long int)5);
-        tmp_if_expr$8 = !(return_value_strncmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strncmp_7=strncmp(encoding, "UTF-8", (unsigned long int)5);
+        tmp_if_expr_8 = !(return_value_strncmp_7 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_11 = (_Bool)1;
 
       else
       {
         if(cp - encoding == 4l)
         {
-          return_value_strncmp$9=strncmp(encoding, "utf8", (unsigned long int)4);
-          tmp_if_expr$10 = !(return_value_strncmp$9 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_9=strncmp(encoding, "utf8", (unsigned long int)4);
+          tmp_if_expr_10 = !(return_value_strncmp_9 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        tmp_if_expr$11 = tmp_if_expr$10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = (_Bool)0;
+        tmp_if_expr_11 = tmp_if_expr_10 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$11)
+      if(tmp_if_expr_11)
         return 1;
 
       break;
@@ -25848,8 +25848,8 @@ char * UTF8_memchr(char *s, unsigned int ch, unsigned long int sz, signed int *c
   unsigned int c;
   signed int csz;
   *charn = 0;
-  signed int tmp_post$2;
-  _Bool tmp_if_expr$1;
+  signed int tmp_post_2;
+  _Bool tmp_if_expr_1;
   for( ; !((unsigned long int)i >= sz); *charn = *charn + 1)
   {
     csz = 0;
@@ -25857,17 +25857,17 @@ char * UTF8_memchr(char *s, unsigned int ch, unsigned long int sz, signed int *c
     do
     {
       c = c << 6;
-      tmp_post$2 = i;
+      tmp_post_2 = i;
       i = i + 1;
-      c = c + (unsigned int)(unsigned char)s[(signed long int)tmp_post$2];
+      c = c + (unsigned int)(unsigned char)s[(signed long int)tmp_post_2];
       csz = csz + 1;
       if(!((unsigned long int)i >= sz))
-        tmp_if_expr$1 = !(((signed int)s[(signed long int)i] & 0xC0) != 0x80) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = !(((signed int)s[(signed long int)i] & 0xC0) != 0x80) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
     }
-    while(tmp_if_expr$1);
+    while(tmp_if_expr_1);
     c = c - offsetsFromUTF8[(signed long int)(csz - 1)];
     if(c == ch)
       return &s[(signed long int)lasti];
@@ -25883,22 +25883,22 @@ unsigned int UTF8_nextchar(char *s, signed int *i)
 {
   unsigned int ch = (unsigned int)0;
   signed int sz = 0;
-  signed int tmp_post$2;
-  _Bool tmp_if_expr$1;
+  signed int tmp_post_2;
+  _Bool tmp_if_expr_1;
   do
   {
     ch = ch << 6;
-    tmp_post$2 = *i;
+    tmp_post_2 = *i;
     *i = *i + 1;
-    ch = ch + (unsigned int)(unsigned char)s[(signed long int)tmp_post$2];
+    ch = ch + (unsigned int)(unsigned char)s[(signed long int)tmp_post_2];
     sz = sz + 1;
     if(!(s[(signed long int)*i] == 0))
-      tmp_if_expr$1 = !(((signed int)s[(signed long int)*i] & 0xC0) != 0x80) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = !(((signed int)s[(signed long int)*i] & 0xC0) != 0x80) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
   }
-  while(tmp_if_expr$1);
+  while(tmp_if_expr_1);
   ch = ch - offsetsFromUTF8[(signed long int)(sz - 1)];
   return ch;
 }
@@ -25908,8 +25908,8 @@ unsigned int UTF8_nextchar(char *s, signed int *i)
 signed int UTF8_offset(char *str, signed int charnum)
 {
   signed int offs = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   for( ; charnum >= 1; charnum = charnum - 1)
   {
     if(str[(signed long int)offs] == 0)
@@ -25917,22 +25917,22 @@ signed int UTF8_offset(char *str, signed int charnum)
 
     offs = offs + 1;
     if(!((0xC0 & (signed int)str[(signed long int)offs]) == 0x80))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
     {
       offs = offs + 1;
-      tmp_if_expr$1 = ((signed int)str[(signed long int)offs] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((signed int)str[(signed long int)offs] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       offs = offs + 1;
-      tmp_if_expr$2 = ((signed int)str[(signed long int)offs] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = ((signed int)str[(signed long int)offs] & 0xC0) != 0x80 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       (_Bool)1;
 
     else
@@ -25968,22 +25968,22 @@ signed int UTF8_read_escape_sequence(char *str, unsigned int *dest)
   signed int dno = 0;
   signed int i = 1;
   ch = (unsigned int)str[(signed long int)0];
-  signed int return_value_octal_digit$17;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int return_value_octal_digit$1;
-  signed int return_value_hex_digit$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed long int return_value_strtol$8;
-  signed int return_value_hex_digit$9;
-  signed int tmp_post$10;
-  signed int tmp_post$11;
-  signed long int return_value_strtol$12;
-  signed int return_value_hex_digit$13;
-  signed int tmp_post$14;
-  signed int tmp_post$15;
-  signed long int return_value_strtol$16;
+  signed int return_value_octal_digit_17;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int return_value_octal_digit_1;
+  signed int return_value_hex_digit_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed long int return_value_strtol_8;
+  signed int return_value_hex_digit_9;
+  signed int tmp_post_10;
+  signed int tmp_post_11;
+  signed long int return_value_strtol_12;
+  signed int return_value_hex_digit_13;
+  signed int tmp_post_14;
+  signed int tmp_post_15;
+  signed long int return_value_strtol_16;
   if((signed int)*str == 110)
     ch = (unsigned int)10;
 
@@ -26013,23 +26013,23 @@ signed int UTF8_read_escape_sequence(char *str, unsigned int *dest)
 
               else
               {
-                return_value_octal_digit$17=octal_digit(str[(signed long int)0]);
-                if(!(return_value_octal_digit$17 == 0))
+                return_value_octal_digit_17=octal_digit(str[(signed long int)0]);
+                if(!(return_value_octal_digit_17 == 0))
                 {
                   i = 0;
                   do
                   {
-                    tmp_post$2 = dno;
+                    tmp_post_2 = dno;
                     dno = dno + 1;
-                    tmp_post$3 = i;
+                    tmp_post_3 = i;
                     i = i + 1;
-                    digs[(signed long int)tmp_post$2] = str[(signed long int)tmp_post$3];
-                    return_value_octal_digit$1=octal_digit(str[(signed long int)i]);
+                    digs[(signed long int)tmp_post_2] = str[(signed long int)tmp_post_3];
+                    return_value_octal_digit_1=octal_digit(str[(signed long int)i]);
                   }
-                  while(!(return_value_octal_digit$1 == 0) && !(dno >= 3));
-                  signed long int return_value_strtol$4;
-                  return_value_strtol$4=strtol(digs, (char ** restrict )(void *)0, 8);
-                  ch = (unsigned int)return_value_strtol$4;
+                  while(!(return_value_octal_digit_1 == 0) && !(dno >= 3));
+                  signed long int return_value_strtol_4;
+                  return_value_strtol_4=strtol(digs, (char ** restrict )(void *)0, 8);
+                  ch = (unsigned int)return_value_strtol_4;
                 }
 
                 else
@@ -26037,24 +26037,24 @@ signed int UTF8_read_escape_sequence(char *str, unsigned int *dest)
                   {
                     do
                     {
-                      return_value_hex_digit$5=hex_digit(str[(signed long int)i]);
-                      if(return_value_hex_digit$5 == 0)
+                      return_value_hex_digit_5=hex_digit(str[(signed long int)i]);
+                      if(return_value_hex_digit_5 == 0)
                         break;
 
                       if(dno >= 2)
                         break;
 
-                      tmp_post$6 = dno;
+                      tmp_post_6 = dno;
                       dno = dno + 1;
-                      tmp_post$7 = i;
+                      tmp_post_7 = i;
                       i = i + 1;
-                      digs[(signed long int)tmp_post$6] = str[(signed long int)tmp_post$7];
+                      digs[(signed long int)tmp_post_6] = str[(signed long int)tmp_post_7];
                     }
                     while((_Bool)1);
                     if(dno >= 1)
                     {
-                      return_value_strtol$8=strtol(digs, (char ** restrict )(void *)0, 16);
-                      ch = (unsigned int)return_value_strtol$8;
+                      return_value_strtol_8=strtol(digs, (char ** restrict )(void *)0, 16);
+                      ch = (unsigned int)return_value_strtol_8;
                     }
 
                   }
@@ -26064,24 +26064,24 @@ signed int UTF8_read_escape_sequence(char *str, unsigned int *dest)
                     {
                       do
                       {
-                        return_value_hex_digit$9=hex_digit(str[(signed long int)i]);
-                        if(return_value_hex_digit$9 == 0)
+                        return_value_hex_digit_9=hex_digit(str[(signed long int)i]);
+                        if(return_value_hex_digit_9 == 0)
                           break;
 
                         if(dno >= 4)
                           break;
 
-                        tmp_post$10 = dno;
+                        tmp_post_10 = dno;
                         dno = dno + 1;
-                        tmp_post$11 = i;
+                        tmp_post_11 = i;
                         i = i + 1;
-                        digs[(signed long int)tmp_post$10] = str[(signed long int)tmp_post$11];
+                        digs[(signed long int)tmp_post_10] = str[(signed long int)tmp_post_11];
                       }
                       while((_Bool)1);
                       if(dno >= 1)
                       {
-                        return_value_strtol$12=strtol(digs, (char ** restrict )(void *)0, 16);
-                        ch = (unsigned int)return_value_strtol$12;
+                        return_value_strtol_12=strtol(digs, (char ** restrict )(void *)0, 16);
+                        ch = (unsigned int)return_value_strtol_12;
                       }
 
                     }
@@ -26091,24 +26091,24 @@ signed int UTF8_read_escape_sequence(char *str, unsigned int *dest)
                       {
                         do
                         {
-                          return_value_hex_digit$13=hex_digit(str[(signed long int)i]);
-                          if(return_value_hex_digit$13 == 0)
+                          return_value_hex_digit_13=hex_digit(str[(signed long int)i]);
+                          if(return_value_hex_digit_13 == 0)
                             break;
 
                           if(dno >= 8)
                             break;
 
-                          tmp_post$14 = dno;
+                          tmp_post_14 = dno;
                           dno = dno + 1;
-                          tmp_post$15 = i;
+                          tmp_post_15 = i;
                           i = i + 1;
-                          digs[(signed long int)tmp_post$14] = str[(signed long int)tmp_post$15];
+                          digs[(signed long int)tmp_post_14] = str[(signed long int)tmp_post_15];
                         }
                         while((_Bool)1);
                         if(dno >= 1)
                         {
-                          return_value_strtol$16=strtol(digs, (char ** restrict )(void *)0, 16);
-                          ch = (unsigned int)return_value_strtol$16;
+                          return_value_strtol_16=strtol(digs, (char ** restrict )(void *)0, 16);
+                          ch = (unsigned int)return_value_strtol_16;
                         }
 
                       }
@@ -26150,11 +26150,11 @@ signed int UTF8_strlen(char *s)
 {
   signed int count = 0;
   signed int i = 0;
-  unsigned int return_value_UTF8_nextchar$1;
+  unsigned int return_value_UTF8_nextchar_1;
   do
   {
-    return_value_UTF8_nextchar$1=UTF8_nextchar(s, &i);
-    if(return_value_UTF8_nextchar$1 == 0u)
+    return_value_UTF8_nextchar_1=UTF8_nextchar(s, &i);
+    if(return_value_UTF8_nextchar_1 == 0u)
       break;
 
     count = count + 1;
@@ -26171,12 +26171,12 @@ signed int UTF8_toucs(unsigned int *dest, signed int sz, char *src, signed int s
   char *src_end = src + (signed long int)srcsz;
   signed int nb;
   signed int i = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  signed int tmp_post$5;
-  for( ; !(i >= sz + -1); dest[(signed long int)tmp_post$5] = ch)
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  signed int tmp_post_5;
+  for( ; !(i >= sz + -1); dest[(signed long int)tmp_post_5] = ch)
   {
     nb = (signed int)trailingBytesForUTF8[(signed long int)(unsigned char)*src];
     if(srcsz == -1)
@@ -26195,34 +26195,34 @@ signed int UTF8_toucs(unsigned int *dest, signed int sz, char *src, signed int s
     {
       case 3:
       {
-        tmp_post$1 = src;
+        tmp_post_1 = src;
         src = src + 1l;
-        ch = ch + (unsigned int)(unsigned char)*tmp_post$1;
+        ch = ch + (unsigned int)(unsigned char)*tmp_post_1;
         ch = ch << 6;
       }
       case 2:
       {
-        tmp_post$2 = src;
+        tmp_post_2 = src;
         src = src + 1l;
-        ch = ch + (unsigned int)(unsigned char)*tmp_post$2;
+        ch = ch + (unsigned int)(unsigned char)*tmp_post_2;
         ch = ch << 6;
       }
       case 1:
       {
-        tmp_post$3 = src;
+        tmp_post_3 = src;
         src = src + 1l;
-        ch = ch + (unsigned int)(unsigned char)*tmp_post$3;
+        ch = ch + (unsigned int)(unsigned char)*tmp_post_3;
         ch = ch << 6;
       }
       case 0:
       {
-        tmp_post$4 = src;
+        tmp_post_4 = src;
         src = src + 1l;
-        ch = ch + (unsigned int)(unsigned char)*tmp_post$4;
+        ch = ch + (unsigned int)(unsigned char)*tmp_post_4;
       }
     }
     ch = ch - offsetsFromUTF8[(signed long int)nb];
-    tmp_post$5 = i;
+    tmp_post_5 = i;
     i = i + 1;
   }
 
@@ -26239,25 +26239,25 @@ signed int UTF8_toutf8(char *dest, signed int sz, unsigned int *src, signed int 
   unsigned int ch;
   signed int i = 0;
   char *dest_end = dest + (signed long int)sz;
-  signed int tmp_if_expr$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  char *tmp_post$10;
-  char *tmp_post$11;
+  signed int tmp_if_expr_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  char *tmp_post_10;
+  char *tmp_post_11;
   do
   {
     if(!(srcsz >= 0))
-      tmp_if_expr$1 = (signed int)(src[(signed long int)i] != (unsigned int)0);
+      tmp_if_expr_1 = (signed int)(src[(signed long int)i] != (unsigned int)0);
 
     else
-      tmp_if_expr$1 = (signed int)(i < srcsz);
-    if(tmp_if_expr$1 == 0)
+      tmp_if_expr_1 = (signed int)(i < srcsz);
+    if(tmp_if_expr_1 == 0)
       break;
 
     ch = src[(signed long int)i];
@@ -26266,9 +26266,9 @@ signed int UTF8_toutf8(char *dest, signed int sz, unsigned int *src, signed int 
       if(dest >= dest_end)
         return i;
 
-      tmp_post$2 = dest;
+      tmp_post_2 = dest;
       dest = dest + 1l;
-      *tmp_post$2 = (char)ch;
+      *tmp_post_2 = (char)ch;
     }
 
     else
@@ -26277,12 +26277,12 @@ signed int UTF8_toutf8(char *dest, signed int sz, unsigned int *src, signed int 
         if(dest >= dest_end + -1l)
           return i;
 
-        tmp_post$3 = dest;
+        tmp_post_3 = dest;
         dest = dest + 1l;
-        *tmp_post$3 = (char)(ch >> 6 | (unsigned int)0xC0);
-        tmp_post$4 = dest;
+        *tmp_post_3 = (char)(ch >> 6 | (unsigned int)0xC0);
+        tmp_post_4 = dest;
         dest = dest + 1l;
-        *tmp_post$4 = (char)(ch & (unsigned int)0x3F | (unsigned int)0x80);
+        *tmp_post_4 = (char)(ch & (unsigned int)0x3F | (unsigned int)0x80);
       }
 
       else
@@ -26291,15 +26291,15 @@ signed int UTF8_toutf8(char *dest, signed int sz, unsigned int *src, signed int 
           if(dest >= dest_end + -2l)
             return i;
 
-          tmp_post$5 = dest;
+          tmp_post_5 = dest;
           dest = dest + 1l;
-          *tmp_post$5 = (char)(ch >> 12 | (unsigned int)0xE0);
-          tmp_post$6 = dest;
+          *tmp_post_5 = (char)(ch >> 12 | (unsigned int)0xE0);
+          tmp_post_6 = dest;
           dest = dest + 1l;
-          *tmp_post$6 = (char)(ch >> 6 & (unsigned int)0x3F | (unsigned int)0x80);
-          tmp_post$7 = dest;
+          *tmp_post_6 = (char)(ch >> 6 & (unsigned int)0x3F | (unsigned int)0x80);
+          tmp_post_7 = dest;
           dest = dest + 1l;
-          *tmp_post$7 = (char)(ch & (unsigned int)0x3F | (unsigned int)0x80);
+          *tmp_post_7 = (char)(ch & (unsigned int)0x3F | (unsigned int)0x80);
         }
 
         else
@@ -26308,18 +26308,18 @@ signed int UTF8_toutf8(char *dest, signed int sz, unsigned int *src, signed int 
             if(dest >= dest_end + -3l)
               return i;
 
-            tmp_post$8 = dest;
+            tmp_post_8 = dest;
             dest = dest + 1l;
-            *tmp_post$8 = (char)(ch >> 18 | (unsigned int)0xF0);
-            tmp_post$9 = dest;
+            *tmp_post_8 = (char)(ch >> 18 | (unsigned int)0xF0);
+            tmp_post_9 = dest;
             dest = dest + 1l;
-            *tmp_post$9 = (char)(ch >> 12 & (unsigned int)0x3F | (unsigned int)0x80);
-            tmp_post$10 = dest;
+            *tmp_post_9 = (char)(ch >> 12 & (unsigned int)0x3F | (unsigned int)0x80);
+            tmp_post_10 = dest;
             dest = dest + 1l;
-            *tmp_post$10 = (char)(ch >> 6 & (unsigned int)0x3F | (unsigned int)0x80);
-            tmp_post$11 = dest;
+            *tmp_post_10 = (char)(ch >> 6 & (unsigned int)0x3F | (unsigned int)0x80);
+            tmp_post_11 = dest;
             dest = dest + 1l;
-            *tmp_post$11 = (char)(ch & (unsigned int)0x3F | (unsigned int)0x80);
+            *tmp_post_11 = (char)(ch & (unsigned int)0x3F | (unsigned int)0x80);
           }
 
     i = i + 1;
@@ -26377,10 +26377,10 @@ signed int UTF8_vprintf(char *fmt, void **ap)
   char *buf;
   unsigned int *wcs;
   sz = 512;
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca((unsigned long int)sz);
-  buf = (char *)return_value___builtin_alloca$1;
-  void *return_value___builtin_alloca$2;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca((unsigned long int)sz);
+  buf = (char *)return_value___builtin_alloca_1;
+  void *return_value___builtin_alloca_2;
   do
   {
 
@@ -26390,14 +26390,14 @@ signed int UTF8_vprintf(char *fmt, void **ap)
     if(!(cnt >= sz))
       break;
 
-    return_value___builtin_alloca$2=__builtin_alloca((unsigned long int)((cnt - sz) + 1));
-    buf = (char *)return_value___builtin_alloca$2;
+    return_value___builtin_alloca_2=__builtin_alloca((unsigned long int)((cnt - sz) + 1));
+    buf = (char *)return_value___builtin_alloca_2;
     sz = cnt + 1;
   }
   while((_Bool)1);
-  void *return_value___builtin_alloca$3;
-  return_value___builtin_alloca$3=__builtin_alloca((unsigned long int)(cnt + 1) * sizeof(unsigned int) /*4ul*/ );
-  wcs = (unsigned int *)return_value___builtin_alloca$3;
+  void *return_value___builtin_alloca_3;
+  return_value___builtin_alloca_3=__builtin_alloca((unsigned long int)(cnt + 1) * sizeof(unsigned int) /*4ul*/ );
+  wcs = (unsigned int *)return_value___builtin_alloca_3;
   cnt=UTF8_toucs(wcs, cnt + 1, buf, cnt);
   printf("%ls", (signed int *)wcs);
   return cnt;
@@ -26451,8 +26451,8 @@ static void UnRegisterEventListener(struct List_s *listenerList, void (*callback
   struct ListIterator_s iterator;
   iterator.current = listenerList->head;
   iterator.list = listenerList;
-  struct ListEntry_s *tmp_if_expr$1;
-  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr$1)
+  struct ListEntry_s *tmp_if_expr_1;
+  for( ; !(iterator.current == ((struct ListEntry_s *)NULL)); iterator.current = tmp_if_expr_1)
   {
     struct EventListenerDetails_s *details = (struct EventListenerDetails_s *)iterator.current->data;
     if(details->callback == callback)
@@ -26467,10 +26467,10 @@ static void UnRegisterEventListener(struct List_s *listenerList, void (*callback
     }
 
     if(!(iterator.current == ((struct ListEntry_s *)NULL)))
-      tmp_if_expr$1 = iterator.current->next;
+      tmp_if_expr_1 = iterator.current->next;
 
     else
-      tmp_if_expr$1 = (struct ListEntry_s *)(void *)0;
+      tmp_if_expr_1 = (struct ListEntry_s *)(void *)0;
   }
 }
 
@@ -26520,9 +26520,9 @@ void UpdateDatabase()
 // file dispatchers.c line 144
 static void * UserNetDispatcher(void *arg)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  LogRegisterThread(return_value_pthread_self$1, "NetDispatcher");
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  LogRegisterThread(return_value_pthread_self_1, "NetDispatcher");
   LogModule(2, DISPATCHERS, "Network dispatcher started");
   ev_loop(UserNetEventLoop, 0);
   LogModule(2, DISPATCHERS, "Network dispatcher finished");
@@ -26543,9 +26543,9 @@ static void VCTEventListener(void *arg, struct Event_s *event, void *payload)
 static void YamlUtils_AddStringSection(struct StringOutput_s *output)
 {
   struct YUStringSection_s *result;
-  void *return_value_ObjectCreateImpl$1;
-  return_value_ObjectCreateImpl$1=ObjectCreateImpl("YUStringSection_t", "yamlutils.c", 188);
-  result = (struct YUStringSection_s *)return_value_ObjectCreateImpl$1;
+  void *return_value_ObjectCreateImpl_1;
+  return_value_ObjectCreateImpl_1=ObjectCreateImpl("YUStringSection_t", "yamlutils.c", 188);
+  result = (struct YUStringSection_s *)return_value_ObjectCreateImpl_1;
   if(output->sections == ((struct YUStringSection_s *)NULL))
     output->sections = result;
 
@@ -26579,9 +26579,9 @@ signed int YamlUtils_DocumentToString(struct yaml_document_s *document, _Bool re
     offset = 4;
   }
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(output.written + (unsigned long int)1);
-  *outputStr = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(output.written + (unsigned long int)1);
+  *outputStr = (char *)return_value_malloc_1;
   current = *outputStr;
   section = output.sections;
   left = output.written;
@@ -26613,15 +26613,15 @@ signed int YamlUtils_MappingAdd(struct yaml_document_s *document, signed int map
 {
   signed int keyId;
   signed int valueId;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(key);
-  keyId=yaml_document_add_scalar(document, (unsigned char *)"tag:yaml.org,2002:str", (unsigned char *)key, (signed int)return_value_strlen$1, (enum yaml_scalar_style_e)YAML_ANY_SCALAR_STYLE);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(value);
-  valueId=yaml_document_add_scalar(document, (unsigned char *)"tag:yaml.org,2002:str", (unsigned char *)value, (signed int)return_value_strlen$2, (enum yaml_scalar_style_e)YAML_ANY_SCALAR_STYLE);
-  signed int return_value_yaml_document_append_mapping_pair$3;
-  return_value_yaml_document_append_mapping_pair$3=yaml_document_append_mapping_pair(document, mapping, keyId, valueId);
-  return return_value_yaml_document_append_mapping_pair$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(key);
+  keyId=yaml_document_add_scalar(document, (unsigned char *)"tag:yaml.org,2002:str", (unsigned char *)key, (signed int)return_value_strlen_1, (enum yaml_scalar_style_e)YAML_ANY_SCALAR_STYLE);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(value);
+  valueId=yaml_document_add_scalar(document, (unsigned char *)"tag:yaml.org,2002:str", (unsigned char *)value, (signed int)return_value_strlen_2, (enum yaml_scalar_style_e)YAML_ANY_SCALAR_STYLE);
+  signed int return_value_yaml_document_append_mapping_pair_3;
+  return_value_yaml_document_append_mapping_pair_3=yaml_document_append_mapping_pair(document, mapping, keyId, valueId);
+  return return_value_yaml_document_append_mapping_pair_3;
 }
 
 // YamlUtils_MappingFind
@@ -26630,7 +26630,7 @@ struct yaml_node_s * YamlUtils_MappingFind(struct yaml_document_s *document, str
 {
   struct yaml_node_pair_s *pair;
   struct yaml_node_s *keyNode;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)node->type == YAML_MAPPING_NODE))
   {
     LogModule(0, YAMLUTILS, "Node was not a mapping node!");
@@ -26643,23 +26643,23 @@ struct yaml_node_s * YamlUtils_MappingFind(struct yaml_document_s *document, str
     do
     {
       if(!(pair == ((struct yaml_node_pair_s *)NULL)))
-        tmp_if_expr$1 = pair != node->data.mapping.pairs.top ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = pair != node->data.mapping.pairs.top ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       keyNode=yaml_document_get_node(document, pair->key);
       if(!(keyNode == ((struct yaml_node_s *)NULL)))
       {
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp((char *)keyNode->data.scalar.value, key);
-        if(return_value_strcmp$3 == 0)
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp((char *)keyNode->data.scalar.value, key);
+        if(return_value_strcmp_3 == 0)
         {
-          struct yaml_node_s *return_value_yaml_document_get_node$2;
-          return_value_yaml_document_get_node$2=yaml_document_get_node(document, pair->value);
-          return return_value_yaml_document_get_node$2;
+          struct yaml_node_s *return_value_yaml_document_get_node_2;
+          return_value_yaml_document_get_node_2=yaml_document_get_node(document, pair->value);
+          return return_value_yaml_document_get_node_2;
         }
 
       }
@@ -26707,9 +26707,9 @@ signed int YamlUtils_Parse(char *str, struct yaml_document_s *document)
   signed int r;
   struct yaml_parser_s parser;
   yaml_parser_initialize(&parser);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  yaml_parser_set_input_string(&parser, (const unsigned char *)str, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  yaml_parser_set_input_string(&parser, (const unsigned char *)str, return_value_strlen_1);
   r=yaml_parser_load(&parser, document);
   yaml_parser_delete(&parser);
   return r;
@@ -26767,9 +26767,9 @@ signed int main(signed int argc, char **argv)
   struct LNBInfo_s lnbInfo;
   struct DeliveryMethodInstance_t *dmInstance;
   char logFilename[4096l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("HOME");
-  sprintf(DataDirectory, "%s/.dvbstreamer", return_value_getenv$1);
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("HOME");
+  sprintf(DataDirectory, "%s/.dvbstreamer", return_value_getenv_1);
   mkdir(DataDirectory, (unsigned int)(0400 | 0200 | 0100));
   installsighandler();
   while(ExitProgram == (_Bool)0)
@@ -26868,13 +26868,13 @@ signed int main(signed int argc, char **argv)
   if(!(ExitProgram == (_Bool)0))
     exit(1);
 
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   if(!(logFilename[0l] == 0))
   {
     if(!(DaemonMode == (_Bool)0))
     {
-      return_value_strcmp$2=strcmp(logFilename, "-");
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(logFilename, "-");
+      if(return_value_strcmp_2 == 0)
       {
         fprintf(stderr, "Cannot use STDERR for logging when running as a daemon!");
         exit(1);
@@ -26882,9 +26882,9 @@ signed int main(signed int argc, char **argv)
 
     }
 
-    signed int return_value_LoggingInitFile$3;
-    return_value_LoggingInitFile$3=LoggingInitFile(logFilename, logLevel);
-    if(!(return_value_LoggingInitFile$3 == 0))
+    signed int return_value_LoggingInitFile_3;
+    return_value_LoggingInitFile_3=LoggingInitFile(logFilename, logLevel);
+    if(!(return_value_LoggingInitFile_3 == 0))
     {
       perror("Could not open user specified log file:");
       exit(1);
@@ -26895,9 +26895,9 @@ signed int main(signed int argc, char **argv)
   else
   {
     sprintf(logFilename, "dvbstreamer-%d.log", adapterNumber);
-    signed int return_value_LoggingInit$4;
-    return_value_LoggingInit$4=LoggingInit(logFilename, logLevel);
-    if(!(return_value_LoggingInit$4 == 0))
+    signed int return_value_LoggingInit_4;
+    return_value_LoggingInit_4=LoggingInit(logFilename, logLevel);
+    if(!(return_value_LoggingInit_4 == 0))
     {
       perror("Couldn't initialising logging module:");
       exit(1);
@@ -26914,9 +26914,9 @@ signed int main(signed int argc, char **argv)
       {
         char *cwd;
         cwd=getcwd((char *)(void *)0, (unsigned long int)0);
-        signed int return_value_asprintf$5;
-        return_value_asprintf$5=asprintf(&startupFile, "%s/%s", cwd, startupFile);
-        if(return_value_asprintf$5 == -1)
+        signed int return_value_asprintf_5;
+        return_value_asprintf_5=asprintf(&startupFile, "%s/%s", cwd, startupFile);
+        if(return_value_asprintf_5 == -1)
           LogModule(0, MAIN, "Failed to allocate memory for startup file path!\n");
 
         free((void *)cwd);
@@ -26928,9 +26928,9 @@ signed int main(signed int argc, char **argv)
   }
 
   StartTime=time((signed long int *)(void *)0);
-  unsigned long int return_value_pthread_self$6;
-  return_value_pthread_self$6=pthread_self();
-  LogRegisterThread(return_value_pthread_self$6, "Main");
+  unsigned long int return_value_pthread_self_6;
+  return_value_pthread_self_6=pthread_self();
+  LogRegisterThread(return_value_pthread_self_6, "Main");
   LogModule(1, MAIN, "DVBStreamer starting");
   LogModule(2, MAIN, "Using adapter %d\n", adapterNumber);
   if(!(startupFile == ((char *)NULL)))
@@ -26945,9 +26945,9 @@ signed int main(signed int argc, char **argv)
 
   do
   {
-    signed int return_value_ObjectInit$7;
-    return_value_ObjectInit$7=ObjectInit();
-    if(!(return_value_ObjectInit$7 == 0))
+    signed int return_value_ObjectInit_7;
+    return_value_ObjectInit_7=ObjectInit();
+    if(!(return_value_ObjectInit_7 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"objects");
       if(!(DaemonMode == (_Bool)0))
@@ -26961,9 +26961,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_EventsInit$8;
-    return_value_EventsInit$8=EventsInit();
-    if(!(return_value_EventsInit$8 == 0))
+    signed int return_value_EventsInit_8;
+    return_value_EventsInit_8=EventsInit();
+    if(!(return_value_EventsInit_8 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"events");
       if(!(DaemonMode == (_Bool)0))
@@ -26977,9 +26977,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_PropertiesInit$9;
-    return_value_PropertiesInit$9=PropertiesInit();
-    if(!(return_value_PropertiesInit$9 == 0))
+    signed int return_value_PropertiesInit_9;
+    return_value_PropertiesInit_9=PropertiesInit();
+    if(!(return_value_PropertiesInit_9 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"properties");
       if(!(DaemonMode == (_Bool)0))
@@ -26993,9 +26993,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_DBaseInit$10;
-    return_value_DBaseInit$10=DBaseInit(adapterNumber);
-    if(!(return_value_DBaseInit$10 == 0))
+    signed int return_value_DBaseInit_10;
+    return_value_DBaseInit_10=DBaseInit(adapterNumber);
+    if(!(return_value_DBaseInit_10 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"database");
       if(!(DaemonMode == (_Bool)0))
@@ -27009,9 +27009,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_EPGTypesInit$11;
-    return_value_EPGTypesInit$11=EPGTypesInit();
-    if(!(return_value_EPGTypesInit$11 == 0))
+    signed int return_value_EPGTypesInit_11;
+    return_value_EPGTypesInit_11=EPGTypesInit();
+    if(!(return_value_EPGTypesInit_11 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"EPG types");
       if(!(DaemonMode == (_Bool)0))
@@ -27025,9 +27025,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_EPGChannelInit$12;
-    return_value_EPGChannelInit$12=EPGChannelInit();
-    if(!(return_value_EPGChannelInit$12 == 0))
+    signed int return_value_EPGChannelInit_12;
+    return_value_EPGChannelInit_12=EPGChannelInit();
+    if(!(return_value_EPGChannelInit_12 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"EPG channel");
       if(!(DaemonMode == (_Bool)0))
@@ -27041,9 +27041,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_MultiplexInit$13;
-    return_value_MultiplexInit$13=MultiplexInit();
-    if(!(return_value_MultiplexInit$13 == 0))
+    signed int return_value_MultiplexInit_13;
+    return_value_MultiplexInit_13=MultiplexInit();
+    if(!(return_value_MultiplexInit_13 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"multiplex");
       if(!(DaemonMode == (_Bool)0))
@@ -27057,9 +27057,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_ServiceInit$14;
-    return_value_ServiceInit$14=ServiceInit();
-    if(!(return_value_ServiceInit$14 == 0))
+    signed int return_value_ServiceInit_14;
+    return_value_ServiceInit_14=ServiceInit();
+    if(!(return_value_ServiceInit_14 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"service");
       if(!(DaemonMode == (_Bool)0))
@@ -27073,9 +27073,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_DispatchersInit$15;
-    return_value_DispatchersInit$15=DispatchersInit();
-    if(!(return_value_DispatchersInit$15 == 0))
+    signed int return_value_DispatchersInit_15;
+    return_value_DispatchersInit_15=DispatchersInit();
+    if(!(return_value_DispatchersInit_15 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"dispatchers");
       if(!(DaemonMode == (_Bool)0))
@@ -27089,9 +27089,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_CacheInit$16;
-    return_value_CacheInit$16=CacheInit();
-    if(!(return_value_CacheInit$16 == 0))
+    signed int return_value_CacheInit_16;
+    return_value_CacheInit_16=CacheInit();
+    if(!(return_value_CacheInit_16 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"cache");
       if(!(DaemonMode == (_Bool)0))
@@ -27105,9 +27105,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_DeliveryMethodManagerInit$17;
-    return_value_DeliveryMethodManagerInit$17=DeliveryMethodManagerInit();
-    if(!(return_value_DeliveryMethodManagerInit$17 == 0))
+    signed int return_value_DeliveryMethodManagerInit_17;
+    return_value_DeliveryMethodManagerInit_17=DeliveryMethodManagerInit();
+    if(!(return_value_DeliveryMethodManagerInit_17 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"delivery method manager");
       if(!(DaemonMode == (_Bool)0))
@@ -27121,9 +27121,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_DeferredProcessingInit$18;
-    return_value_DeferredProcessingInit$18=DeferredProcessingInit();
-    if(!(return_value_DeferredProcessingInit$18 == 0))
+    signed int return_value_DeferredProcessingInit_18;
+    return_value_DeferredProcessingInit_18=DeferredProcessingInit();
+    if(!(return_value_DeferredProcessingInit_18 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"deferred processing");
       if(!(DaemonMode == (_Bool)0))
@@ -27135,11 +27135,11 @@ signed int main(signed int argc, char **argv)
     LogModule(4, MAIN, "Initialised %s.\n", (const void *)"deferred processing");
   }
   while((_Bool)0);
-  signed int return_value_DBaseCount$19;
-  return_value_DBaseCount$19=DBaseCount("Services", (char *)(void *)0);
-  signed int return_value_DBaseCount$20;
-  return_value_DBaseCount$20=DBaseCount("Multiplexes", (char *)(void *)0);
-  LogModule(1, MAIN, "%d Services available on %d Multiplexes\n", return_value_DBaseCount$19, return_value_DBaseCount$20);
+  signed int return_value_DBaseCount_19;
+  return_value_DBaseCount_19=DBaseCount("Services", (char *)(void *)0);
+  signed int return_value_DBaseCount_20;
+  return_value_DBaseCount_20=DBaseCount("Multiplexes", (char *)(void *)0);
+  LogModule(1, MAIN, "%d Services available on %d Multiplexes\n", return_value_DBaseCount_19, return_value_DBaseCount_20);
   DVBAdapter=DVBInit(adapterNumber, hwRestricted, forceISDB);
   if(DVBAdapter == ((struct DVBAdapter_s *)NULL))
   {
@@ -27151,20 +27151,20 @@ signed int main(signed int argc, char **argv)
   struct DVBSupportedDeliverySys_s *supportedSystems;
   supportedSystems=DVBFrontEndGetDeliverySystems(DVBAdapter);
   i = 0;
-  _Bool tmp_if_expr$22;
+  _Bool tmp_if_expr_22;
   for( ; !(i >= supportedSystems->nrofSystems); i = i + 1)
   {
     if((signed int)supportedSystems->systems[(signed long int)i] == DELSYS_DVBS)
-      tmp_if_expr$22 = (_Bool)1;
+      tmp_if_expr_22 = (_Bool)1;
 
     else
-      tmp_if_expr$22 = (signed int)supportedSystems->systems[(signed long int)i] == DELSYS_DVBS2 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$22)
+      tmp_if_expr_22 = (signed int)supportedSystems->systems[(signed long int)i] == DELSYS_DVBS2 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_22)
     {
       char *lnb;
-      signed int return_value_DBaseMetadataGet$21;
-      return_value_DBaseMetadataGet$21=DBaseMetadataGet("lnb", &lnb);
-      if(!(return_value_DBaseMetadataGet$21 == 0))
+      signed int return_value_DBaseMetadataGet_21;
+      return_value_DBaseMetadataGet_21=DBaseMetadataGet("lnb", &lnb);
+      if(!(return_value_DBaseMetadataGet_21 == 0))
       {
         memset((void *)&lnbInfo, 0, sizeof(struct LNBInfo_s) /*40ul*/ );
         DBaseMetadataGetInt("lnb.lowfreq", (signed int *)&lnbInfo.lowFrequency);
@@ -27197,16 +27197,16 @@ signed int main(signed int argc, char **argv)
     LogModule(4, MAIN, "Initialised %s.\n", (const void *)"TS reader");
   }
   while((_Bool)0);
-  _Bool return_value_MainIsDVB$24;
-  return_value_MainIsDVB$24=MainIsDVB();
-  if(!(return_value_MainIsDVB$24 == (_Bool)0))
+  _Bool return_value_MainIsDVB_24;
+  return_value_MainIsDVB_24=MainIsDVB();
+  if(!(return_value_MainIsDVB_24 == (_Bool)0))
   {
     LogModule(1, MAIN, "Starting DVB filters\n");
     do
     {
-      signed int return_value_DVBStandardInit$23;
-      return_value_DVBStandardInit$23=DVBStandardInit(TSReader);
-      if(!(return_value_DVBStandardInit$23 == 0))
+      signed int return_value_DVBStandardInit_23;
+      return_value_DVBStandardInit_23=DVBStandardInit(TSReader);
+      if(!(return_value_DVBStandardInit_23 == 0))
       {
         LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"DVB Filters");
         if(!(DaemonMode == (_Bool)0))
@@ -27220,16 +27220,16 @@ signed int main(signed int argc, char **argv)
     while((_Bool)0);
   }
 
-  _Bool return_value_MainIsATSC$26;
-  return_value_MainIsATSC$26=MainIsATSC();
-  if(!(return_value_MainIsATSC$26 == (_Bool)0))
+  _Bool return_value_MainIsATSC_26;
+  return_value_MainIsATSC_26=MainIsATSC();
+  if(!(return_value_MainIsATSC_26 == (_Bool)0))
   {
     LogModule(1, MAIN, "Starting ATSC filters\n");
     do
     {
-      signed int return_value_ATSCStandardInit$25;
-      return_value_ATSCStandardInit$25=ATSCStandardInit(TSReader);
-      if(!(return_value_ATSCStandardInit$25 == 0))
+      signed int return_value_ATSCStandardInit_25;
+      return_value_ATSCStandardInit_25=ATSCStandardInit(TSReader);
+      if(!(return_value_ATSCStandardInit_25 == 0))
       {
         LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"ATSC Filters");
         if(!(DaemonMode == (_Bool)0))
@@ -27243,16 +27243,16 @@ signed int main(signed int argc, char **argv)
     while((_Bool)0);
   }
 
-  _Bool return_value_MainIsISDB$28;
-  return_value_MainIsISDB$28=MainIsISDB();
-  if(!(return_value_MainIsISDB$28 == (_Bool)0))
+  _Bool return_value_MainIsISDB_28;
+  return_value_MainIsISDB_28=MainIsISDB();
+  if(!(return_value_MainIsISDB_28 == (_Bool)0))
   {
     LogModule(1, MAIN, "Starting ISDB filters\n");
     do
     {
-      signed int return_value_MPEG2StandardInit$27;
-      return_value_MPEG2StandardInit$27=MPEG2StandardInit(TSReader);
-      if(!(return_value_MPEG2StandardInit$27 == 0))
+      signed int return_value_MPEG2StandardInit_27;
+      return_value_MPEG2StandardInit_27=MPEG2StandardInit(TSReader);
+      if(!(return_value_MPEG2StandardInit_27 == 0))
       {
         LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"ISDB Filters");
         if(!(DaemonMode == (_Bool)0))
@@ -27268,9 +27268,9 @@ signed int main(signed int argc, char **argv)
 
   do
   {
-    signed int return_value_ServiceFilterInit$29;
-    return_value_ServiceFilterInit$29=ServiceFilterInit();
-    if(!(return_value_ServiceFilterInit$29 == 0))
+    signed int return_value_ServiceFilterInit_29;
+    return_value_ServiceFilterInit_29=ServiceFilterInit();
+    if(!(return_value_ServiceFilterInit_29 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"service filter");
       if(!(DaemonMode == (_Bool)0))
@@ -27284,9 +27284,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)0);
   do
   {
-    signed int return_value_CommandInit$30;
-    return_value_CommandInit$30=CommandInit();
-    if(!(return_value_CommandInit$30 == 0))
+    signed int return_value_CommandInit_30;
+    return_value_CommandInit_30=CommandInit();
+    if(!(return_value_CommandInit_30 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"commands");
       if(!(DaemonMode == (_Bool)0))
@@ -27304,9 +27304,9 @@ signed int main(signed int argc, char **argv)
   CommandInstallEPG();
   do
   {
-    signed int return_value_TuningInit$31;
-    return_value_TuningInit$31=TuningInit();
-    if(!(return_value_TuningInit$31 == 0))
+    signed int return_value_TuningInit_31;
+    return_value_TuningInit_31=TuningInit();
+    if(!(return_value_TuningInit_31 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"tuning");
       if(!(DaemonMode == (_Bool)0))
@@ -27321,9 +27321,9 @@ signed int main(signed int argc, char **argv)
   InstallSysProperties();
   do
   {
-    signed int return_value_PluginManagerInit$32;
-    return_value_PluginManagerInit$32=PluginManagerInit();
-    if(!(return_value_PluginManagerInit$32 == 0))
+    signed int return_value_PluginManagerInit_32;
+    return_value_PluginManagerInit_32=PluginManagerInit();
+    if(!(return_value_PluginManagerInit_32 == 0))
     {
       LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"plugin manager");
       if(!(DaemonMode == (_Bool)0))
@@ -27345,9 +27345,9 @@ signed int main(signed int argc, char **argv)
   dmInstance=DeliveryMethodCreate(primaryMRL);
   if(dmInstance == ((struct DeliveryMethodInstance_t *)NULL))
   {
-    signed int return_value_strcmp$33;
-    return_value_strcmp$33=strcmp(primaryMRL, "null://");
-    if(!(return_value_strcmp$33 == 0))
+    signed int return_value_strcmp_33;
+    return_value_strcmp_33=strcmp(primaryMRL, "null://");
+    if(!(return_value_strcmp_33 == 0))
     {
       printf("Failed to create delivery method for mrl (%s) falling back to null://\n", primaryMRL);
       dmInstance=DeliveryMethodCreate("null://");
@@ -27373,9 +27373,9 @@ signed int main(signed int argc, char **argv)
 
     do
     {
-      signed int return_value_RemoteInterfaceInit$34;
-      return_value_RemoteInterfaceInit$34=RemoteInterfaceInit(adapterNumber, serverName, bindAddress, username, password);
-      if(!(return_value_RemoteInterfaceInit$34 == 0))
+      signed int return_value_RemoteInterfaceInit_34;
+      return_value_RemoteInterfaceInit_34=RemoteInterfaceInit(adapterNumber, serverName, bindAddress, username, password);
+      if(!(return_value_RemoteInterfaceInit_34 == 0))
       {
         LogModule(0, MAIN, "Failed to initialise %s.\n", (const void *)"remote interface");
         if(!(DaemonMode == (_Bool)0))
@@ -27391,24 +27391,24 @@ signed int main(signed int argc, char **argv)
 
   if(!(startupFile == ((char *)NULL)))
   {
-    signed int return_value_CommandProcessFile$35;
-    return_value_CommandProcessFile$35=CommandProcessFile(startupFile);
-    if(!(return_value_CommandProcessFile$35 == 0))
+    signed int return_value_CommandProcessFile_35;
+    return_value_CommandProcessFile_35=CommandProcessFile(startupFile);
+    if(!(return_value_CommandProcessFile_35 == 0))
       LogModule(0, MAIN, "%s not found!\n", startupFile);
 
     LogModule(4, MAIN, "Startup file processed\n");
   }
 
-  signed int return_value_DBaseMetadataGetInt$37;
-  return_value_DBaseMetadataGetInt$37=DBaseMetadataGetInt("scan.all", &scanAll);
-  if(return_value_DBaseMetadataGetInt$37 == 0)
+  signed int return_value_DBaseMetadataGetInt_37;
+  return_value_DBaseMetadataGetInt_37=DBaseMetadataGetInt("scan.all", &scanAll);
+  if(return_value_DBaseMetadataGetInt_37 == 0)
   {
     if(forceISDB == (_Bool)0 && !(scanAll == 0))
     {
       printf("New setup, performing initial scan to fill in missing details.\n");
-      _Bool return_value_CommandExecuteConsole$36;
-      return_value_CommandExecuteConsole$36=CommandExecuteConsole("scan all");
-      if(return_value_CommandExecuteConsole$36 == (_Bool)0)
+      _Bool return_value_CommandExecuteConsole_36;
+      return_value_CommandExecuteConsole_36=CommandExecuteConsole("scan all");
+      if(return_value_CommandExecuteConsole_36 == (_Bool)0)
         printf("Failed to find scan command\n");
 
       printf("Initial scan finished.\n");
@@ -27485,19 +27485,19 @@ signed int main(signed int argc, char **argv)
     LogModule(4, MAIN, "Deinitialised %s\n", (const void *)"service filter");
   }
   while((_Bool)0);
-  _Bool return_value_MainIsDVB$38;
-  return_value_MainIsDVB$38=MainIsDVB();
-  if(!(return_value_MainIsDVB$38 == (_Bool)0))
+  _Bool return_value_MainIsDVB_38;
+  return_value_MainIsDVB_38=MainIsDVB();
+  if(!(return_value_MainIsDVB_38 == (_Bool)0))
     DVBStandardDeinit(TSReader);
 
-  _Bool return_value_MainIsATSC$39;
-  return_value_MainIsATSC$39=MainIsATSC();
-  if(!(return_value_MainIsATSC$39 == (_Bool)0))
+  _Bool return_value_MainIsATSC_39;
+  return_value_MainIsATSC_39=MainIsATSC();
+  if(!(return_value_MainIsATSC_39 == (_Bool)0))
     ATSCStandardDeinit(TSReader);
 
-  _Bool return_value_MainIsISDB$40;
-  return_value_MainIsISDB$40=MainIsISDB();
-  if(!(return_value_MainIsISDB$40 == (_Bool)0))
+  _Bool return_value_MainIsISDB_40;
+  return_value_MainIsISDB_40=MainIsISDB();
+  if(!(return_value_MainIsISDB_40 == (_Bool)0))
     MPEG2StandardDeinit(TSReader);
 
   LogModule(4, MAIN, "Processors destroyed\n");
@@ -27604,17 +27604,17 @@ static signed int octal_digit(char c)
 static void removeControlCodes(char *str)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  len = (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  len = (signed int)(return_value_strlen_1 + (unsigned long int)1);
   signed int i = 0;
   signed int prev_i = 0;
   unsigned int ch;
   do
   {
-    signed int return_value_UTF8_nextchar$2;
-    return_value_UTF8_nextchar$2=UTF8_nextchar(str, &i);
-    ch = (unsigned int)return_value_UTF8_nextchar$2;
+    signed int return_value_UTF8_nextchar_2;
+    return_value_UTF8_nextchar_2=UTF8_nextchar(str, &i);
+    ch = (unsigned int)return_value_UTF8_nextchar_2;
     if(ch >= 128u && !(ch >= 160u))
     {
       memmove((void *)&str[(signed long int)prev_i], (const void *)&str[(signed long int)i], (unsigned long int)(len - i));

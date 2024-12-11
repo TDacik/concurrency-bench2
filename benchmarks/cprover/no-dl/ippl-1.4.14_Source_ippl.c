@@ -1,62 +1,62 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S64'protocol'||SYM#tag-loginfo_union#'loginfoval'|]
 // file ippl.y line 90
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[SYM#tag-hostdesc_struct#'fromval'||SYM#tag-hostdesc_struct#'toval'|]
 // file ippl.y line 94
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[U16'__glibc_reserved'||U16'mtu'|]
 // file /usr/include/netinet/ip_icmp.h line 39
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[U16'id'||U16'sequence'|]
 // file /usr/include/netinet/ip_icmp.h line 33
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]
 // file /usr/include/netinet/udp.h line 67
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}$U16$'res1'||BF{U16}$U16$'doff'||BF{U16}$U16$'fin'||BF{U16}$U16$'syn'||BF{U16}$U16$'rst'||BF{U16}$U16$'psh'||BF{U16}$U16$'ack'||BF{U16}$U16$'urg'||BF{U16}$U16$'res2'||U16'window'||U16'check'||U16'urg_ptr'|]
+// tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}_U16_'res1'||BF{U16}_U16_'doff'||BF{U16}_U16_'fin'||BF{U16}_U16_'syn'||BF{U16}_U16_'rst'||BF{U16}_U16_'psh'||BF{U16}_U16_'ack'||BF{U16}_U16_'urg'||BF{U16}_U16_'res2'||U16'window'||U16'check'||U16'urg_ptr'|]
 // file /usr/include/netinet/tcp.h line 103
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}$U8$'th_x2'||BF{U8}$U8$'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]
+// tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}_U8_'th_x2'||BF{U8}_U8_'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]
 // file /usr/include/netinet/tcp.h line 78
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]
 // file /usr/include/netinet/udp.h line 60
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
 // tag-#anon#UN[SYM#tag-#anon#ST[U16'id'||U16'sequence'|]#'echo'||U32'gateway'||SYM#tag-#anon#ST[U16'__glibc_reserved'||U16'mtu'|]#'frag'|]
 // file /usr/include/netinet/ip_icmp.h line 31
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}$U8$'th_x2'||BF{U8}$U8$'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]#'$anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}$U16$'res1'||BF{U16}$U16$'doff'||BF{U16}$U16$'fin'||BF{U16}$U16$'syn'||BF{U16}$U16$'rst'||BF{U16}$U16$'psh'||BF{U16}$U16$'ack'||BF{U16}$U16$'urg'||BF{U16}$U16$'res2'||U16'window'||U16'check'||U16'urg_ptr'|]#'$anon1'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}_U8_'th_x2'||BF{U8}_U8_'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]#'_anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}_U16_'res1'||BF{U16}_U16_'doff'||BF{U16}_U16_'fin'||BF{U16}_U16_'syn'||BF{U16}_U16_'rst'||BF{U16}_U16_'psh'||BF{U16}_U16_'ack'||BF{U16}_U16_'urg'||BF{U16}_U16_'res2'||U16'window'||U16'check'||U16'urg_ptr'|]#'_anon1'|]
 // file /usr/include/netinet/tcp.h line 76
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]#'$anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]#'$anon1'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]#'_anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]#'_anon1'|]
 // file /usr/include/netinet/udp.h line 58
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-YYSTYPE
 // file y.tab.c line 263
@@ -459,19 +459,19 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$1 *);
+extern signed int pthread_cond_signal(union anonymous_1 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$1 *, union anonymous$2 *);
+extern signed int pthread_cond_wait(union anonymous_1 *, union anonymous_2 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -480,7 +480,7 @@ extern signed int pthread_setcancelstate(signed int, signed int *);
 extern signed int pthread_setcanceltype(signed int, signed int *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$7 *, struct anonymous$7 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_7 *, struct anonymous_7 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -505,9 +505,9 @@ void remove_reader(void);
 // run_thread
 // file main.c line 95
 void run_thread(unsigned long int *t, void * (*function)(void *), void *param);
-// run_thread::function$object
+// run_thread::function_object
 //
-void * function$object(void *);
+void * function_object(void *);
 // service_lookup
 // file netutils.h line 56
 void service_lookup(char *proto, char *service, unsigned short int port, signed int portresolve);
@@ -528,13 +528,13 @@ extern void sethostent(signed int);
 extern signed int setuid(unsigned int);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$7 *, signed int);
+extern signed int sigaddset(struct anonymous_7 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$7 *);
+extern signed int sigemptyset(struct anonymous_7 *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$7 *);
+extern signed int sigfillset(struct anonymous_7 *);
 // sighup
 // file main.c line 372
 void sighup(signed int sig);
@@ -731,13 +731,13 @@ void yyset_out(struct _IO_FILE *out_str);
 // file ippl.l line 161
 extern signed int yywrap(void);
 
-struct anonymous$7
+struct anonymous_7
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // __lock
   signed int __lock;
@@ -781,7 +781,7 @@ union loginfo_union
   struct portranges_struct portranges;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // protocol
   signed long int protocol;
@@ -801,7 +801,7 @@ struct hostdesc_struct
   char *hostname;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // fromval
   struct hostdesc_struct fromval;
@@ -809,7 +809,7 @@ struct anonymous$9
   struct hostdesc_struct toval;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __glibc_reserved
   unsigned short int __glibc_reserved;
@@ -817,7 +817,7 @@ struct anonymous$13
   unsigned short int mtu;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // id
   unsigned short int id;
@@ -825,7 +825,7 @@ struct anonymous$12
   unsigned short int sequence;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // source
   unsigned short int source;
@@ -837,7 +837,7 @@ struct anonymous$4
   unsigned short int check;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // source
   unsigned short int source;
@@ -873,7 +873,7 @@ struct anonymous$0
   unsigned short int urg_ptr;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // th_sport
   unsigned short int th_sport;
@@ -897,7 +897,7 @@ struct anonymous$10
   unsigned short int th_urp;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // uh_sport
   unsigned short int uh_sport;
@@ -909,10 +909,10 @@ struct anonymous$3
   unsigned short int uh_sum;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$6 __data;
+  struct anonymous_6 __data;
   // __size
   char __size[48l];
   // __align
@@ -922,27 +922,27 @@ union anonymous$1
 union anonymous
 {
   // echo
-  struct anonymous$12 echo;
+  struct anonymous_12 echo;
   // gateway
   unsigned int gateway;
   // frag
-  struct anonymous$13 frag;
+  struct anonymous_13 frag;
 };
 
-union anonymous$11
+union anonymous_11
 {
-  // $anon0
-  struct anonymous$10 $anon0;
-  // $anon1
-  struct anonymous$0 $anon1;
+  // _anon0
+  struct anonymous_10 _anon0;
+  // _anon1
+  struct anonymous_0 _anon1;
 };
 
-union anonymous$5
+union anonymous_5
 {
-  // $anon0
-  struct anonymous$3 $anon0;
-  // $anon1
-  struct anonymous$4 $anon1;
+  // _anon0
+  struct anonymous_3 _anon0;
+  // _anon1
+  struct anonymous_4 _anon1;
 };
 
 struct __pthread_internal_list
@@ -973,7 +973,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -998,9 +998,9 @@ union YYSTYPE
   // entryval
   struct filter_entry *entryval;
   // protocolval
-  struct anonymous$8 protocolval;
+  struct anonymous_8 protocolval;
   // fromtoval
-  struct anonymous$9 fromtoval;
+  struct anonymous_9 fromtoval;
   // hostdesc
   struct hostdesc_struct hostdesc;
 };
@@ -1084,7 +1084,7 @@ struct __jmp_buf_tag
   // __mask_was_saved
   signed int __mask_was_saved;
   // __saved_mask
-  struct anonymous$7 __saved_mask;
+  struct anonymous_7 __saved_mask;
 };
 
 struct filter_entry
@@ -1283,8 +1283,8 @@ struct sockaddr_in
 
 struct tcphdr
 {
-  // $anon0
-  union anonymous$11 $anon0;
+  // _anon0
+  union anonymous_11 _anon0;
 };
 
 struct tm
@@ -1315,8 +1315,8 @@ struct tm
 
 struct udphdr
 {
-  // $anon0
-  union anonymous$5 $anon0;
+  // _anon0
+  union anonymous_5 _anon0;
 };
 
 struct yy_buffer_state
@@ -1364,7 +1364,7 @@ char *configuration_file = (char *)(void *)0;
 unsigned int dns_expire;
 // dns_mutex
 // file netutils.c line 41
-union anonymous$2 dns_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_2 dns_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // filter
@@ -1402,7 +1402,7 @@ struct loginfo log;
 unsigned short int log_closing;
 // log_mutex
 // file log.c line 38
-union anonymous$2 log_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_2 log_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // log_protocols
@@ -1422,7 +1422,7 @@ unsigned short int portresolve_protocols;
 const char *proto;
 // r_mux
 // file filter.c line 56
-union anonymous$2 r_mux = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_2 r_mux = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // readers
@@ -1436,7 +1436,7 @@ unsigned int repeats = (unsigned int)0;
 unsigned short int resolve_protocols;
 // service_mutex
 // file netutils.c line 40
-union anonymous$2 service_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_2 service_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // stderr
@@ -1486,13 +1486,13 @@ unsigned short int use_ident;
 char *used_user = (char *)(void *)0;
 // w_cond
 // file filter.c line 58
-union anonymous$1 w_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_1 w_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // w_mux
 // file filter.c line 57
-union anonymous$2 w_mux = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_2 w_mux = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // yy_accept
@@ -1643,13 +1643,13 @@ signed int check_name(unsigned int address, const char *pattern)
   char remote_host[512l];
   remote_host[0l] = (char)0;
   host_lookup(remote_host, address);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(pattern == ((const char *)NULL)))
-    tmp_if_expr$1 = *pattern != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *pattern != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return 1;
 
   else
@@ -1658,9 +1658,9 @@ signed int check_name(unsigned int address, const char *pattern)
 
     else
     {
-      signed int return_value_fnmatch$2;
-      return_value_fnmatch$2=fnmatch(pattern, remote_host, 1 << 1);
-      if(return_value_fnmatch$2 == 0)
+      signed int return_value_fnmatch_2;
+      return_value_fnmatch_2=fnmatch(pattern, remote_host, 1 << 1);
+      if(return_value_fnmatch_2 == 0)
         return 1;
 
       else
@@ -1674,28 +1674,28 @@ signed int check_pid(char *pidfile)
 {
   signed int pid;
   pid=read_pid(pidfile);
-  _Bool tmp_if_expr$2;
-  signed int return_value_getpid$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_getpid_1;
   if(pid == 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_getpid$1=getpid();
-    tmp_if_expr$2 = pid == return_value_getpid$1 ? (_Bool)1 : (_Bool)0;
+    return_value_getpid_1=getpid();
+    tmp_if_expr_2 = pid == return_value_getpid_1 ? (_Bool)1 : (_Bool)0;
   }
-  signed int *return_value___errno_location$3;
-  if(tmp_if_expr$2)
+  signed int *return_value___errno_location_3;
+  if(tmp_if_expr_2)
     return 0;
 
   else
   {
-    signed int return_value_kill$4;
-    return_value_kill$4=kill(pid, 0);
-    if(!(return_value_kill$4 == 0))
+    signed int return_value_kill_4;
+    return_value_kill_4=kill(pid, 0);
+    if(!(return_value_kill_4 == 0))
     {
-      return_value___errno_location$3=__errno_location();
-      if(!(*return_value___errno_location$3 == 3))
+      return_value___errno_location_3=__errno_location();
+      if(!(*return_value___errno_location_3 == 3))
         goto __CPROVER_DUMP_L4;
 
       return 0;
@@ -1830,78 +1830,78 @@ struct log_info do_log(const unsigned int from, const unsigned int to, const uns
   add_reader();
   pthread_mutex_unlock(&w_mux);
   p = filter;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  signed int return_value_check_range$10;
-  signed int return_value_check_address$9;
-  _Bool tmp_if_expr$8;
-  signed int return_value_check_name$7;
-  signed int return_value_check_address$6;
-  _Bool tmp_if_expr$16;
-  signed int return_value_check_address$15;
-  _Bool tmp_if_expr$14;
-  signed int return_value_check_name$13;
-  signed int return_value_check_address$12;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  signed int return_value_check_range_10;
+  signed int return_value_check_address_9;
+  _Bool tmp_if_expr_8;
+  signed int return_value_check_name_7;
+  signed int return_value_check_address_6;
+  _Bool tmp_if_expr_16;
+  signed int return_value_check_address_15;
+  _Bool tmp_if_expr_14;
+  signed int return_value_check_name_13;
+  signed int return_value_check_address_12;
   for( ; !(p == ((struct filter_entry *)NULL)); p = p->next)
   {
     if((signed int)protocol == 1)
-      tmp_if_expr$1 = !(((signed int)p->protocol & 1 << 0) != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = !(((signed int)p->protocol & 1 << 0) != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if((signed int)protocol == 6)
-        tmp_if_expr$2 = !(((signed int)p->protocol & 1 << 1) != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = !(((signed int)p->protocol & 1 << 1) != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
       if((signed int)protocol == 17)
-        tmp_if_expr$4 = !(((signed int)p->protocol & 1 << 2) != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = !(((signed int)p->protocol & 1 << 2) != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$5)
+    if(!tmp_if_expr_5)
     {
       if(!((signed int)protocol == 1))
       {
-        signed int return_value_check_range$11;
-        return_value_check_range$11=check_range(type, (const signed long int)p->loginfo.portranges.dst.range_min, (const signed long int)p->loginfo.portranges.dst.range_max, protocol);
-        if(!(return_value_check_range$11 == 0))
+        signed int return_value_check_range_11;
+        return_value_check_range_11=check_range(type, (const signed long int)p->loginfo.portranges.dst.range_min, (const signed long int)p->loginfo.portranges.dst.range_max, protocol);
+        if(!(return_value_check_range_11 == 0))
         {
-          return_value_check_range$10=check_range(srctype, (const signed long int)p->loginfo.portranges.src.range_min, (const signed long int)p->loginfo.portranges.src.range_max, protocol);
-          if(!(return_value_check_range$10 == 0))
+          return_value_check_range_10=check_range(srctype, (const signed long int)p->loginfo.portranges.src.range_min, (const signed long int)p->loginfo.portranges.src.range_max, protocol);
+          if(!(return_value_check_range_10 == 0))
           {
-            return_value_check_address$9=check_address(from, p->fromdesc.address, p->fromdesc.mask, p->fromdesc.hostname);
-            if(!(return_value_check_address$9 == 0))
+            return_value_check_address_9=check_address(from, p->fromdesc.address, p->fromdesc.mask, p->fromdesc.hostname);
+            if(!(return_value_check_address_9 == 0))
             {
               if(p->fromdesc.hostmask == ((char *)NULL))
-                tmp_if_expr$8 = (_Bool)1;
+                tmp_if_expr_8 = (_Bool)1;
 
               else
               {
-                return_value_check_name$7=check_name(from, p->fromdesc.hostmask);
-                tmp_if_expr$8 = return_value_check_name$7 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_check_name_7=check_name(from, p->fromdesc.hostmask);
+                tmp_if_expr_8 = return_value_check_name_7 != 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$8)
+              if(tmp_if_expr_8)
               {
-                return_value_check_address$6=check_address(to, p->todesc.address, p->todesc.mask, p->todesc.hostname);
-                if(!(return_value_check_address$6 == 0))
+                return_value_check_address_6=check_address(to, p->todesc.address, p->todesc.mask, p->todesc.hostname);
+                if(!(return_value_check_address_6 == 0))
                 {
                   remove_reader();
                   info.log = p->log;
@@ -1927,27 +1927,27 @@ struct log_info do_log(const unsigned int from, const unsigned int to, const uns
       else
       {
         if((signed int)p->loginfo.icmptype == 0xff)
-          tmp_if_expr$16 = (_Bool)1;
+          tmp_if_expr_16 = (_Bool)1;
 
         else
-          tmp_if_expr$16 = (signed int)type == (signed int)p->loginfo.icmptype ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$16)
+          tmp_if_expr_16 = (signed int)type == (signed int)p->loginfo.icmptype ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_16)
         {
-          return_value_check_address$15=check_address(from, p->fromdesc.address, p->fromdesc.mask, p->fromdesc.hostname);
-          if(!(return_value_check_address$15 == 0))
+          return_value_check_address_15=check_address(from, p->fromdesc.address, p->fromdesc.mask, p->fromdesc.hostname);
+          if(!(return_value_check_address_15 == 0))
           {
             if(p->fromdesc.hostmask == ((char *)NULL))
-              tmp_if_expr$14 = (_Bool)1;
+              tmp_if_expr_14 = (_Bool)1;
 
             else
             {
-              return_value_check_name$13=check_name(from, p->fromdesc.hostmask);
-              tmp_if_expr$14 = return_value_check_name$13 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_check_name_13=check_name(from, p->fromdesc.hostmask);
+              tmp_if_expr_14 = return_value_check_name_13 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$14)
+            if(tmp_if_expr_14)
             {
-              return_value_check_address$12=check_address(to, p->todesc.address, p->todesc.mask, p->todesc.hostname);
-              if(!(return_value_check_address$12 == 0))
+              return_value_check_address_12=check_address(to, p->todesc.address, p->todesc.mask, p->todesc.hostname);
+              if(!(return_value_check_address_12 == 0))
               {
                 remove_reader();
                 info.log = p->log;
@@ -2032,28 +2032,28 @@ void get_details(char *details, const unsigned int src_addr, const unsigned shor
   i.s_addr = src_addr;
   if((signed int)dst_port == 0 && (signed int)src_port == 0)
   {
-    char *return_value_inet_ntoa$1;
-    return_value_inet_ntoa$1=inet_ntoa(i);
-    sz=snprintf(details, (unsigned long int)50, " (%s->", return_value_inet_ntoa$1);
+    char *return_value_inet_ntoa_1;
+    return_value_inet_ntoa_1=inet_ntoa(i);
+    sz=snprintf(details, (unsigned long int)50, " (%s->", return_value_inet_ntoa_1);
     i.s_addr = dst_addr;
-    char *return_value_inet_ntoa$2;
-    return_value_inet_ntoa$2=inet_ntoa(i);
-    snprintf(details + (signed long int)sz, (unsigned long int)(50 - sz), "%s)", return_value_inet_ntoa$2);
+    char *return_value_inet_ntoa_2;
+    return_value_inet_ntoa_2=inet_ntoa(i);
+    snprintf(details + (signed long int)sz, (unsigned long int)(50 - sz), "%s)", return_value_inet_ntoa_2);
   }
 
   else
   {
-    char *return_value_inet_ntoa$3;
-    return_value_inet_ntoa$3=inet_ntoa(i);
-    unsigned short int return_value_ntohs$4;
-    return_value_ntohs$4=ntohs(src_port);
-    sz=snprintf(details, (unsigned long int)50, " (%s:%d->", return_value_inet_ntoa$3, return_value_ntohs$4);
+    char *return_value_inet_ntoa_3;
+    return_value_inet_ntoa_3=inet_ntoa(i);
+    unsigned short int return_value_ntohs_4;
+    return_value_ntohs_4=ntohs(src_port);
+    sz=snprintf(details, (unsigned long int)50, " (%s:%d->", return_value_inet_ntoa_3, return_value_ntohs_4);
     i.s_addr = dst_addr;
-    char *return_value_inet_ntoa$5;
-    return_value_inet_ntoa$5=inet_ntoa(i);
-    unsigned short int return_value_ntohs$6;
-    return_value_ntohs$6=ntohs(dst_port);
-    snprintf(details + (signed long int)sz, (unsigned long int)(50 - sz), "%s:%d)", return_value_inet_ntoa$5, return_value_ntohs$6);
+    char *return_value_inet_ntoa_5;
+    return_value_inet_ntoa_5=inet_ntoa(i);
+    unsigned short int return_value_ntohs_6;
+    return_value_ntohs_6=ntohs(dst_port);
+    snprintf(details + (signed long int)sz, (unsigned long int)(50 - sz), "%s:%d)", return_value_inet_ntoa_5, return_value_ntohs_6);
   }
 }
 
@@ -2072,68 +2072,68 @@ char * get_ident_info(unsigned short int local_port, unsigned short int remote_p
   char user[64l];
   signal(14, timeout_alarm);
   s=socket(2, 1, 0);
-  signed int return_value___sigsetjmp$1;
-  signed int return_value_bind$2;
-  signed int return_value_connect$3;
-  unsigned short int return_value_ntohs$4;
-  unsigned short int return_value_ntohs$5;
-  unsigned long int return_value_strlen$6;
-  _Bool tmp_if_expr$10;
-  signed int *return_value___errno_location$9;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$13;
-  signed int *return_value___errno_location$12;
-  signed int return_value_sscanf$15;
-  _Bool tmp_if_expr$17;
-  unsigned short int return_value_ntohs$16;
-  _Bool tmp_if_expr$19;
-  unsigned short int return_value_ntohs$18;
-  char *return_value_strdup$20;
+  signed int return_value___sigsetjmp_1;
+  signed int return_value_bind_2;
+  signed int return_value_connect_3;
+  unsigned short int return_value_ntohs_4;
+  unsigned short int return_value_ntohs_5;
+  unsigned long int return_value_strlen_6;
+  _Bool tmp_if_expr_10;
+  signed int *return_value___errno_location_9;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_13;
+  signed int *return_value___errno_location_12;
+  signed int return_value_sscanf_15;
+  _Bool tmp_if_expr_17;
+  unsigned short int return_value_ntohs_16;
+  _Bool tmp_if_expr_19;
+  unsigned short int return_value_ntohs_18;
+  char *return_value_strdup_20;
   if(s >= 0)
   {
-    return_value___sigsetjmp$1=__sigsetjmp(ident_alarm, 1);
-    if(!(return_value___sigsetjmp$1 == 0))
+    return_value___sigsetjmp_1=__sigsetjmp(ident_alarm, 1);
+    if(!(return_value___sigsetjmp_1 == 0))
       goto unknown;
 
     alarm((unsigned int)5);
     sin.sin_family = (unsigned short int)2;
     sin.sin_addr.s_addr = local_addr;
     sin.sin_port = (unsigned short int)(unsigned int)0x00000000;
-    return_value_bind$2=bind(s, (struct sockaddr *)&sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_bind$2 >= 0))
+    return_value_bind_2=bind(s, (struct sockaddr *)&sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_bind_2 >= 0))
       goto unknown;
 
     sin.sin_family = (unsigned short int)2;
     sin.sin_addr.s_addr = remote_addr;
     sin.sin_port=htons((unsigned short int)113);
-    return_value_connect$3=connect(s, (struct sockaddr *)&sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_connect$3 >= 0))
+    return_value_connect_3=connect(s, (struct sockaddr *)&sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_connect_3 >= 0))
       goto unknown;
 
-    return_value_ntohs$4=ntohs(remote_port);
-    return_value_ntohs$5=ntohs(local_port);
-    sprintf(buffer, "%u,%u\r\n", return_value_ntohs$4, return_value_ntohs$5);
+    return_value_ntohs_4=ntohs(remote_port);
+    return_value_ntohs_5=ntohs(local_port);
+    sprintf(buffer, "%u,%u\r\n", return_value_ntohs_4, return_value_ntohs_5);
     i = 0;
     do
     {
-      return_value_strlen$6=strlen(buffer);
-      if((unsigned long int)i >= return_value_strlen$6)
+      return_value_strlen_6=strlen(buffer);
+      if((unsigned long int)i >= return_value_strlen_6)
         break;
 
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(buffer + (signed long int)i);
-      signed long int return_value_write$8;
-      return_value_write$8=write(s, (const void *)(buffer + (signed long int)i), return_value_strlen$7);
-      j = (signed int)return_value_write$8;
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(buffer + (signed long int)i);
+      signed long int return_value_write_8;
+      return_value_write_8=write(s, (const void *)(buffer + (signed long int)i), return_value_strlen_7);
+      j = (signed int)return_value_write_8;
       if(!(j >= 0))
       {
-        return_value___errno_location$9=__errno_location();
-        tmp_if_expr$10 = *return_value___errno_location$9 != 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_9=__errno_location();
+        tmp_if_expr_10 = *return_value___errno_location_9 != 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$10 = (_Bool)0;
-      if(tmp_if_expr$10)
+        tmp_if_expr_10 = (_Bool)0;
+      if(tmp_if_expr_10)
         goto unknown;
 
       else
@@ -2153,25 +2153,25 @@ char * get_ident_info(unsigned short int local_port, unsigned short int remote_p
       if((unsigned long int)i >= 1023ul)
         break;
 
-      signed long int return_value_read$11;
-      return_value_read$11=read(s, (void *)(buffer + (signed long int)i), (sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1) - (unsigned long int)i);
-      j = (signed int)return_value_read$11;
+      signed long int return_value_read_11;
+      return_value_read_11=read(s, (void *)(buffer + (signed long int)i), (sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1) - (unsigned long int)i);
+      j = (signed int)return_value_read_11;
       if(j == 0)
-        tmp_if_expr$14 = (_Bool)1;
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
         if(!(j >= 0))
         {
-          return_value___errno_location$12=__errno_location();
-          tmp_if_expr$13 = *return_value___errno_location$12 != 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_12=__errno_location();
+          tmp_if_expr_13 = *return_value___errno_location_12 != 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        tmp_if_expr$14 = tmp_if_expr$13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (_Bool)0;
+        tmp_if_expr_14 = tmp_if_expr_13 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$14)
+      if(tmp_if_expr_14)
         goto unknown;
 
       else
@@ -2180,24 +2180,24 @@ char * get_ident_info(unsigned short int local_port, unsigned short int remote_p
 
     }
     while((_Bool)1);
-    return_value_sscanf$15=sscanf(buffer, "%u , %u : USERID :%*[^:]:%64s", &remote, &local, (const void *)user);
-    if(!(return_value_sscanf$15 == 3))
-      tmp_if_expr$17 = (_Bool)1;
+    return_value_sscanf_15=sscanf(buffer, "%u , %u : USERID :%*[^:]:%64s", &remote, &local, (const void *)user);
+    if(!(return_value_sscanf_15 == 3))
+      tmp_if_expr_17 = (_Bool)1;
 
     else
     {
-      return_value_ntohs$16=ntohs(remote_port);
-      tmp_if_expr$17 = (unsigned int)return_value_ntohs$16 != remote ? (_Bool)1 : (_Bool)0;
+      return_value_ntohs_16=ntohs(remote_port);
+      tmp_if_expr_17 = (unsigned int)return_value_ntohs_16 != remote ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$17)
-      tmp_if_expr$19 = (_Bool)1;
+    if(tmp_if_expr_17)
+      tmp_if_expr_19 = (_Bool)1;
 
     else
     {
-      return_value_ntohs$18=ntohs(local_port);
-      tmp_if_expr$19 = (unsigned int)return_value_ntohs$18 != local ? (_Bool)1 : (_Bool)0;
+      return_value_ntohs_18=ntohs(local_port);
+      tmp_if_expr_19 = (unsigned int)return_value_ntohs_18 != local ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$19)
+    if(tmp_if_expr_19)
       goto unknown;
 
     c=strchr(user, 13);
@@ -2206,8 +2206,8 @@ char * get_ident_info(unsigned short int local_port, unsigned short int remote_p
 
     alarm((unsigned int)0);
     close(s);
-    return_value_strdup$20=strdup(user);
-    return return_value_strdup$20;
+    return_value_strdup_20=strdup(user);
+    return return_value_strdup_20;
   }
 
   else
@@ -2219,9 +2219,9 @@ char * get_ident_info(unsigned short int local_port, unsigned short int remote_p
       close(s);
 
     alarm((unsigned int)0);
-    char *return_value_strdup$21;
-    return_value_strdup$21=strdup("unknown");
-    return return_value_strdup$21;
+    char *return_value_strdup_21;
+    return_value_strdup_21=strdup("unknown");
+    return return_value_strdup_21;
   }
 }
 
@@ -2229,17 +2229,17 @@ char * get_ident_info(unsigned short int local_port, unsigned short int remote_p
 // file main.c line 307
 void go_background()
 {
-  signed int return_value_check_pid$1;
-  return_value_check_pid$1=check_pid("/var/run/ippl/ippl.pid");
-  if(!(return_value_check_pid$1 == 0))
+  signed int return_value_check_pid_1;
+  return_value_check_pid_1=check_pid("/var/run/ippl/ippl.pid");
+  if(!(return_value_check_pid_1 == 0))
   {
     log.log(log.level_or_fd, "Already running. Exiting...");
     exit(1);
   }
 
-  signed int return_value_getppid$2;
-  return_value_getppid$2=getppid();
-  if(!(return_value_getppid$2 == 1))
+  signed int return_value_getppid_2;
+  return_value_getppid_2=getppid();
+  if(!(return_value_getppid_2 == 1))
   {
     signal(22, (void (*)(signed int))1);
     signal(21, (void (*)(signed int))1);
@@ -2248,9 +2248,9 @@ void go_background()
 
   daemon(0, 0);
   umask((unsigned int)027);
-  signed int return_value_write_pid$3;
-  return_value_write_pid$3=write_pid("/var/run/ippl/ippl.pid");
-  if(return_value_write_pid$3 == 0)
+  signed int return_value_write_pid_3;
+  return_value_write_pid_3=write_pid("/var/run/ippl/ippl.pid");
+  if(return_value_write_pid_3 == 0)
   {
     log.log(log.level_or_fd, "Can't write pid.\n");
     exit(1);
@@ -2343,28 +2343,28 @@ void host_print(char *hostname, unsigned int in, signed int resolve)
   struct in_addr i;
   i.s_addr = in;
   remote_hostname[0l] = (char)0;
-  _Bool tmp_if_expr$4;
-  signed int return_value_host_lookup$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_host_lookup_3;
   if(!(resolve == 0))
   {
-    return_value_host_lookup$3=host_lookup(remote_hostname, in);
-    tmp_if_expr$4 = return_value_host_lookup$3 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_host_lookup_3=host_lookup(remote_hostname, in);
+    tmp_if_expr_4 = return_value_host_lookup_3 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  if(tmp_if_expr_4)
   {
-    char *return_value_inet_ntoa$1;
-    return_value_inet_ntoa$1=inet_ntoa(i);
-    snprintf(hostname, (unsigned long int)512, "%s [%.20s]", (const void *)remote_hostname, return_value_inet_ntoa$1);
+    char *return_value_inet_ntoa_1;
+    return_value_inet_ntoa_1=inet_ntoa(i);
+    snprintf(hostname, (unsigned long int)512, "%s [%.20s]", (const void *)remote_hostname, return_value_inet_ntoa_1);
   }
 
   else
   {
-    char *return_value_inet_ntoa$2;
-    return_value_inet_ntoa$2=inet_ntoa(i);
-    snprintf(hostname, (unsigned long int)21, "%.20s", return_value_inet_ntoa$2);
+    char *return_value_inet_ntoa_2;
+    return_value_inet_ntoa_2=inet_ntoa(i);
+    snprintf(hostname, (unsigned long int)21, "%.20s", return_value_inet_ntoa_2);
   }
 }
 
@@ -2615,14 +2615,14 @@ void log_entry(signed int fd, char *entry)
   current=time((signed long int *)(void *)0);
   char date[27l];
   char repeat_message[40l];
-  unsigned long int tmp_if_expr$11;
-  unsigned long int return_value_strlen$10;
+  unsigned long int tmp_if_expr_11;
+  unsigned long int return_value_strlen_10;
   if(!(fd == 0))
   {
     pthread_mutex_lock(&log_mutex);
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(last_message, entry, (unsigned long int)1024);
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(last_message, entry, (unsigned long int)1024);
+    if(return_value_strncmp_1 == 0)
     {
       repeats = repeats + 1u;
       last_repeat = current;
@@ -2633,42 +2633,42 @@ void log_entry(signed int fd, char *entry)
     {
       if(repeats >= 1u)
       {
-        struct tm *return_value_localtime$2;
-        return_value_localtime$2=localtime(&last_repeat);
-        char *return_value_asctime$3;
-        return_value_asctime$3=asctime(return_value_localtime$2);
-        snprintf(date, (unsigned long int)27, "%s", return_value_asctime$3);
+        struct tm *return_value_localtime_2;
+        return_value_localtime_2=localtime(&last_repeat);
+        char *return_value_asctime_3;
+        return_value_asctime_3=asctime(return_value_localtime_2);
+        snprintf(date, (unsigned long int)27, "%s", return_value_asctime_3);
         snprintf(repeat_message, (unsigned long int)40, "last message repeated %d time(s)\n", repeats);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(date);
-        write(fd, (const void *)(date + (signed long int)4), return_value_strlen$4 - (unsigned long int)10);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(date);
+        write(fd, (const void *)(date + (signed long int)4), return_value_strlen_4 - (unsigned long int)10);
         write(fd, (const void *)" ", (unsigned long int)1);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(repeat_message);
-        write(fd, (const void *)repeat_message, return_value_strlen$5);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(repeat_message);
+        write(fd, (const void *)repeat_message, return_value_strlen_5);
         repeats = (unsigned int)0;
       }
 
-      struct tm *return_value_localtime$6;
-      return_value_localtime$6=localtime(&current);
-      char *return_value_asctime$7;
-      return_value_asctime$7=asctime(return_value_localtime$6);
-      snprintf(date, (unsigned long int)27, "%s", return_value_asctime$7);
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(date);
-      write(fd, (const void *)(date + (signed long int)4), return_value_strlen$8 - (unsigned long int)10);
+      struct tm *return_value_localtime_6;
+      return_value_localtime_6=localtime(&current);
+      char *return_value_asctime_7;
+      return_value_asctime_7=asctime(return_value_localtime_6);
+      snprintf(date, (unsigned long int)27, "%s", return_value_asctime_7);
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(date);
+      write(fd, (const void *)(date + (signed long int)4), return_value_strlen_8 - (unsigned long int)10);
       write(fd, (const void *)" ", (unsigned long int)1);
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(entry);
-      if(!(return_value_strlen$9 >= 1023ul))
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(entry);
+      if(!(return_value_strlen_9 >= 1023ul))
       {
-        return_value_strlen$10=strlen(entry);
-        tmp_if_expr$11 = return_value_strlen$10;
+        return_value_strlen_10=strlen(entry);
+        tmp_if_expr_11 = return_value_strlen_10;
       }
 
       else
-        tmp_if_expr$11 = (unsigned long int)1023;
-      write(fd, (const void *)entry, tmp_if_expr$11);
+        tmp_if_expr_11 = (unsigned long int)1023;
+      write(fd, (const void *)entry, tmp_if_expr_11);
       write(fd, (const void *)"\n", (unsigned long int)1);
       strncpy(last_message, entry, (unsigned long int)1024);
       pthread_mutex_unlock(&log_mutex);
@@ -2688,20 +2688,20 @@ void * log_icmp(void *nobody)
   if(!(icmp_socket >= 1))
   {
     signed int error;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    error = *return_value___errno_location$1;
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(error);
-    log.log(log.level_or_fd, "FATAL: Unable to open icmp raw socket\nERROR No: %d\nERROR : %s", error, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    error = *return_value___errno_location_1;
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(error);
+    log.log(log.level_or_fd, "FATAL: Unable to open icmp raw socket\nERROR No: %d\nERROR : %s", error, return_value_strerror_2);
     exit(1);
   }
 
   do
   {
-    signed long int return_value_read$3;
-    return_value_read$3=read(icmp_socket, (void *)(unsigned char *)&pkt, (unsigned long int)((1 << 4) - 1 << 2) + sizeof(struct icmphdr) /*8ul*/ );
-    if(return_value_read$3 == -1l)
+    signed long int return_value_read_3;
+    return_value_read_3=read(icmp_socket, (void *)(unsigned char *)&pkt, (unsigned long int)((1 << 4) - 1 << 2) + sizeof(struct icmphdr) /*8ul*/ );
+    if(return_value_read_3 == -1l)
     {
       log.log(log.level_or_fd, "FATAL: Unable to read icmp raw socket");
       exit(1);
@@ -2770,41 +2770,41 @@ void log_in_file(struct loginfo *li, char *filename)
 // file tcp.h line 24
 void * log_tcp(void *nobody)
 {
-  struct anonymous$7 newmask;
+  struct anonymous_7 newmask;
   unsigned char pkt[(signed long int)(sizeof(struct tcphdr) * 4) /*80l*/ ];
   unsigned char *tcppkt = (unsigned char *)(void *)0;
   sigemptyset(&newmask);
   sigaddset(&newmask, 14);
-  pthread_sigmask(1, &newmask, (struct anonymous$7 *)(void *)0);
+  pthread_sigmask(1, &newmask, (struct anonymous_7 *)(void *)0);
   pthread_setcancelstate(0, (signed int *)(void *)0);
   pthread_setcanceltype(1, (signed int *)(void *)0);
   tcp_socket=socket(2, 3, 6);
   if(!(tcp_socket >= 1))
   {
     signed int error;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    error = *return_value___errno_location$1;
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(error);
-    log.log(log.level_or_fd, "FATAL: Unable to open tcp raw socket\nERROR No: %d\nERROR : %s", error, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    error = *return_value___errno_location_1;
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(error);
+    log.log(log.level_or_fd, "FATAL: Unable to open tcp raw socket\nERROR No: %d\nERROR : %s", error, return_value_strerror_2);
     exit(1);
   }
 
   do
   {
-    signed long int return_value_read$3;
-    return_value_read$3=read(tcp_socket, (void *)(unsigned char *)&pkt, (unsigned long int)((1 << 4) - 1 << 2) + sizeof(struct tcphdr) /*20ul*/ );
-    if(return_value_read$3 == -1l)
+    signed long int return_value_read_3;
+    return_value_read_3=read(tcp_socket, (void *)(unsigned char *)&pkt, (unsigned long int)((1 << 4) - 1 << 2) + sizeof(struct tcphdr) /*20ul*/ );
+    if(return_value_read_3 == -1l)
     {
       log.log(log.level_or_fd, "FATAL: Unable to read tcp raw socket");
       exit(1);
     }
 
     tcppkt = (unsigned char *)&pkt + (signed long int)((signed int)((struct iphdr *)&pkt)->ihl << 2);
-    if((signed int)((struct tcphdr *)tcppkt)->$anon0.$anon1.syn == 1)
+    if((signed int)((struct tcphdr *)tcppkt)->_anon0._anon1.syn == 1)
     {
-      if(!((signed int)((struct tcphdr *)tcppkt)->$anon0.$anon1.ack == 0))
+      if(!((signed int)((struct tcphdr *)tcppkt)->_anon0._anon1.ack == 0))
         goto __CPROVER_DUMP_L3;
 
       log_tcp_open(pkt, tcppkt);
@@ -2815,7 +2815,7 @@ void * log_tcp(void *nobody)
 
     __CPROVER_DUMP_L3:
       ;
-      if((signed int)((struct tcphdr *)tcppkt)->$anon0.$anon1.fin == 1)
+      if((signed int)((struct tcphdr *)tcppkt)->_anon0._anon1.fin == 1)
         log_tcp_close(pkt, tcppkt);
 
     }
@@ -2830,16 +2830,16 @@ void * log_tcp_close(unsigned char *pkt, unsigned char *tcppkt)
 {
   char service[512l];
   struct log_info info;
-  info=do_log(((struct iphdr *)pkt)->saddr, ((struct iphdr *)pkt)->daddr, ((struct tcphdr *)tcppkt)->$anon0.$anon1.dest, ((struct tcphdr *)tcppkt)->$anon0.$anon1.source, (const signed short int)6);
+  info=do_log(((struct iphdr *)pkt)->saddr, ((struct iphdr *)pkt)->daddr, ((struct tcphdr *)tcppkt)->_anon0._anon1.dest, ((struct tcphdr *)tcppkt)->_anon0._anon1.source, (const signed short int)6);
   if(!(info.log == 0) && !(info.logclosing == 0))
   {
     char details[50l];
     char remote_host[512l];
     details[0l] = (char)0;
     host_print(remote_host, ((struct iphdr *)pkt)->saddr, (signed int)info.resolve);
-    service_lookup("tcp", service, ((struct tcphdr *)tcppkt)->$anon0.$anon1.dest, (signed int)info.portresolve);
+    service_lookup("tcp", service, ((struct tcphdr *)tcppkt)->_anon0._anon1.dest, (signed int)info.portresolve);
     if((signed int)info.logformat == 3)
-      get_details(details, ((struct iphdr *)pkt)->saddr, ((struct tcphdr *)tcppkt)->$anon0.$anon1.source, ((struct iphdr *)pkt)->daddr, ((struct tcphdr *)tcppkt)->$anon0.$anon1.dest);
+      get_details(details, ((struct iphdr *)pkt)->saddr, ((struct tcphdr *)tcppkt)->_anon0._anon1.source, ((struct iphdr *)pkt)->daddr, ((struct tcphdr *)tcppkt)->_anon0._anon1.dest);
 
     switch((signed int)info.logformat)
     {
@@ -2861,14 +2861,14 @@ void * log_tcp_open(unsigned char *pkt, unsigned char *tcppkt)
 {
   char service[512l];
   struct log_info info;
-  info=do_log(((struct iphdr *)pkt)->saddr, ((struct iphdr *)pkt)->daddr, ((struct tcphdr *)tcppkt)->$anon0.$anon1.dest, ((struct tcphdr *)tcppkt)->$anon0.$anon1.source, (const signed short int)6);
-  unsigned short int return_value_htons$1;
-  _Bool tmp_if_expr$3;
-  unsigned short int return_value_htons$2;
-  _Bool tmp_if_expr$5;
-  unsigned short int return_value_htons$4;
-  _Bool tmp_if_expr$7;
-  unsigned short int return_value_htons$6;
+  info=do_log(((struct iphdr *)pkt)->saddr, ((struct iphdr *)pkt)->daddr, ((struct tcphdr *)tcppkt)->_anon0._anon1.dest, ((struct tcphdr *)tcppkt)->_anon0._anon1.source, (const signed short int)6);
+  unsigned short int return_value_htons_1;
+  _Bool tmp_if_expr_3;
+  unsigned short int return_value_htons_2;
+  _Bool tmp_if_expr_5;
+  unsigned short int return_value_htons_4;
+  _Bool tmp_if_expr_7;
+  unsigned short int return_value_htons_6;
   if(!(info.log == 0))
   {
     char details[50l];
@@ -2876,15 +2876,15 @@ void * log_tcp_open(unsigned char *pkt, unsigned char *tcppkt)
     char *username = ((char *)NULL);
     details[0l] = (char)0;
     host_print(remote_host, ((struct iphdr *)pkt)->saddr, (signed int)info.resolve);
-    service_lookup("tcp", service, ((struct tcphdr *)tcppkt)->$anon0.$anon1.dest, (signed int)info.portresolve);
+    service_lookup("tcp", service, ((struct tcphdr *)tcppkt)->_anon0._anon1.dest, (signed int)info.portresolve);
     if((signed int)info.logformat == 3)
-      get_details(details, ((struct iphdr *)pkt)->saddr, ((struct tcphdr *)tcppkt)->$anon0.$anon1.source, ((struct iphdr *)pkt)->daddr, ((struct tcphdr *)tcppkt)->$anon0.$anon1.dest);
+      get_details(details, ((struct iphdr *)pkt)->saddr, ((struct tcphdr *)tcppkt)->_anon0._anon1.source, ((struct iphdr *)pkt)->daddr, ((struct tcphdr *)tcppkt)->_anon0._anon1.dest);
 
     if(!(info.ident == 0))
     {
-      return_value_htons$1=htons((unsigned short int)113);
-      if(!(((struct tcphdr *)tcppkt)->$anon0.$anon1.dest == return_value_htons$1))
-        username=get_ident_info(((struct tcphdr *)tcppkt)->$anon0.$anon1.dest, ((struct tcphdr *)tcppkt)->$anon0.$anon1.source, ((struct iphdr *)pkt)->daddr, ((struct iphdr *)pkt)->saddr);
+      return_value_htons_1=htons((unsigned short int)113);
+      if(!(((struct tcphdr *)tcppkt)->_anon0._anon1.dest == return_value_htons_1))
+        username=get_ident_info(((struct tcphdr *)tcppkt)->_anon0._anon1.dest, ((struct tcphdr *)tcppkt)->_anon0._anon1.source, ((struct iphdr *)pkt)->daddr, ((struct iphdr *)pkt)->saddr);
 
     }
 
@@ -2894,13 +2894,13 @@ void * log_tcp_open(unsigned char *pkt, unsigned char *tcppkt)
       {
         if(!(info.ident == 0))
         {
-          return_value_htons$2=htons((unsigned short int)113);
-          tmp_if_expr$3 = ((struct tcphdr *)tcppkt)->$anon0.$anon1.dest != return_value_htons$2 ? (_Bool)1 : (_Bool)0;
+          return_value_htons_2=htons((unsigned short int)113);
+          tmp_if_expr_3 = ((struct tcphdr *)tcppkt)->_anon0._anon1.dest != return_value_htons_2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
           tcp_log.log(tcp_log.level_or_fd, "TCP %s%s - %s@%s", (const void *)service, (signed int)((struct iphdr *)pkt)->ihl == 5 ? "" : " (IP opts)", username, (const void *)remote_host);
           free((void *)username);
@@ -2913,13 +2913,13 @@ void * log_tcp_open(unsigned char *pkt, unsigned char *tcppkt)
       {
         if(!(info.ident == 0))
         {
-          return_value_htons$4=htons((unsigned short int)113);
-          tmp_if_expr$5 = ((struct tcphdr *)tcppkt)->$anon0.$anon1.dest != return_value_htons$4 ? (_Bool)1 : (_Bool)0;
+          return_value_htons_4=htons((unsigned short int)113);
+          tmp_if_expr_5 = ((struct tcphdr *)tcppkt)->_anon0._anon1.dest != return_value_htons_4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
           tcp_log.log(tcp_log.level_or_fd, "%s connection attempt%s from %s@%s", (const void *)service, (signed int)((struct iphdr *)pkt)->ihl == 5 ? "" : " (IP opts)", username, (const void *)remote_host);
           free((void *)username);
@@ -2932,13 +2932,13 @@ void * log_tcp_open(unsigned char *pkt, unsigned char *tcppkt)
       {
         if(!(info.ident == 0))
         {
-          return_value_htons$6=htons((unsigned short int)113);
-          tmp_if_expr$7 = ((struct tcphdr *)tcppkt)->$anon0.$anon1.dest != return_value_htons$6 ? (_Bool)1 : (_Bool)0;
+          return_value_htons_6=htons((unsigned short int)113);
+          tmp_if_expr_7 = ((struct tcphdr *)tcppkt)->_anon0._anon1.dest != return_value_htons_6 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
         {
           tcp_log.log(tcp_log.level_or_fd, "%s connection attempt%s from %s@%s%s", (const void *)service, (signed int)((struct iphdr *)pkt)->ihl == 5 ? "" : " (IP opts)", username, (const void *)remote_host, (const void *)details);
           free((void *)username);
@@ -2964,20 +2964,20 @@ void * log_udp(void *nobody)
   if(!(udp_socket >= 1))
   {
     signed int error;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    error = *return_value___errno_location$1;
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(error);
-    log.log(log.level_or_fd, "FATAL: Unable to open udp raw socket\nERROR No: %d\nERROR : %s", error, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    error = *return_value___errno_location_1;
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(error);
+    log.log(log.level_or_fd, "FATAL: Unable to open udp raw socket\nERROR No: %d\nERROR : %s", error, return_value_strerror_2);
     exit(1);
   }
 
   do
   {
-    signed long int return_value_read$3;
-    return_value_read$3=read(udp_socket, (void *)(unsigned char *)&pkt, (unsigned long int)((1 << 4) - 1 << 2) + sizeof(struct udphdr) /*8ul*/ );
-    if(return_value_read$3 == -1l)
+    signed long int return_value_read_3;
+    return_value_read_3=read(udp_socket, (void *)(unsigned char *)&pkt, (unsigned long int)((1 << 4) - 1 << 2) + sizeof(struct udphdr) /*8ul*/ );
+    if(return_value_read_3 == -1l)
     {
       log.log(log.level_or_fd, "FATAL: Unable to read udp raw socket");
       exit(1);
@@ -2996,16 +2996,16 @@ void * log_udppacket(unsigned char *pkt)
   char service[512l];
   struct log_info info;
   unsigned char *udppkt = pkt + (signed long int)((signed int)((struct iphdr *)pkt)->ihl << 2);
-  info=do_log(((struct iphdr *)pkt)->saddr, ((struct iphdr *)pkt)->daddr, ((struct udphdr *)udppkt)->$anon0.$anon1.dest, ((struct udphdr *)udppkt)->$anon0.$anon1.source, (const signed short int)17);
+  info=do_log(((struct iphdr *)pkt)->saddr, ((struct iphdr *)pkt)->daddr, ((struct udphdr *)udppkt)->_anon0._anon1.dest, ((struct udphdr *)udppkt)->_anon0._anon1.source, (const signed short int)17);
   if((signed int)info.log == 1)
   {
     char details[50l];
     char remote_host[512l];
     details[0l] = (char)0;
     host_print(remote_host, ((struct iphdr *)pkt)->saddr, (signed int)info.resolve);
-    service_lookup("udp", service, ((struct udphdr *)udppkt)->$anon0.$anon1.dest, (signed int)info.portresolve);
+    service_lookup("udp", service, ((struct udphdr *)udppkt)->_anon0._anon1.dest, (signed int)info.portresolve);
     if((signed int)info.logformat == 3)
-      get_details(details, ((struct iphdr *)pkt)->saddr, ((struct udphdr *)udppkt)->$anon0.$anon1.source, ((struct iphdr *)pkt)->daddr, ((struct udphdr *)udppkt)->$anon0.$anon1.dest);
+      get_details(details, ((struct iphdr *)pkt)->saddr, ((struct udphdr *)udppkt)->_anon0._anon1.source, ((struct iphdr *)pkt)->daddr, ((struct udphdr *)udppkt)->_anon0._anon1.dest);
 
     switch((signed int)info.logformat)
     {
@@ -3027,9 +3027,9 @@ signed int main(signed int argc, char **argv)
 {
   parse_arguments(argc, argv);
   setuid((unsigned int)0);
-  unsigned int return_value_geteuid$1;
-  return_value_geteuid$1=geteuid();
-  if(!(return_value_geteuid$1 == 0u))
+  unsigned int return_value_geteuid_1;
+  return_value_geteuid_1=geteuid();
+  if(!(return_value_geteuid_1 == 0u))
   {
     printf("You must be root to run this program.\n");
     exit(1);
@@ -3271,9 +3271,9 @@ void reload_configuration_DEPRECATED()
 // file pidfile.h line 50
 signed int remove_pid(char *pidfile)
 {
-  signed int return_value_unlink$1;
-  return_value_unlink$1=unlink(pidfile);
-  return return_value_unlink$1;
+  signed int return_value_unlink_1;
+  return_value_unlink_1=unlink(pidfile);
+  return return_value_unlink_1;
 }
 
 // remove_reader
@@ -3293,8 +3293,8 @@ void remove_reader(void)
 void run_thread(unsigned long int *t, void * (*function)(void *), void *param)
 {
   union pthread_attr_t attr_t;
-  struct anonymous$7 newset;
-  struct anonymous$7 oldset;
+  struct anonymous_7 newset;
+  struct anonymous_7 oldset;
   sigfillset(&newset);
   pthread_sigmask(0, &newset, &oldset);
   pthread_attr_init(&attr_t);
@@ -3310,14 +3310,14 @@ void service_lookup(char *proto, char *service, unsigned short int port, signed 
 {
   struct servent *se;
   pthread_mutex_lock(&service_mutex);
-  unsigned short int return_value_ntohs$1;
+  unsigned short int return_value_ntohs_1;
   if(!(portresolve == 0))
   {
     se=getservbyport((signed int)port, proto);
     if(se == ((struct servent *)NULL))
     {
-      return_value_ntohs$1=ntohs(port);
-      snprintf(service, (unsigned long int)512, "port %d", return_value_ntohs$1);
+      return_value_ntohs_1=ntohs(port);
+      snprintf(service, (unsigned long int)512, "port %d", return_value_ntohs_1);
     }
 
     else
@@ -3326,9 +3326,9 @@ void service_lookup(char *proto, char *service, unsigned short int port, signed 
 
   else
   {
-    unsigned short int return_value_ntohs$2;
-    return_value_ntohs$2=ntohs(port);
-    snprintf(service, (unsigned long int)512, "port %d", return_value_ntohs$2);
+    unsigned short int return_value_ntohs_2;
+    return_value_ntohs_2=ntohs(port);
+    snprintf(service, (unsigned long int)512, "port %d", return_value_ntohs_2);
   }
   pthread_mutex_unlock(&service_mutex);
 }
@@ -3434,9 +3434,9 @@ void start_all_threads()
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(used_user, "root");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(used_user, "root");
+    if(return_value_strcmp_1 == 0)
       log.log(log.level_or_fd, "WARNING: Using root account to run threads!");
 
     if((signed int)log_protocols == 0)
@@ -3507,16 +3507,16 @@ signed int write_pid(char *pidfile)
   signed int fd;
   signed int pid;
   fd=open(pidfile, 02 | 0100, 0644);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(fd == -1)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     f=fdopen(fd, "r+");
-    tmp_if_expr$1 = f == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = f == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
   {
     fprintf(stderr, "Can't open or create %s.\n", pidfile);
     return 0;
@@ -3524,9 +3524,9 @@ signed int write_pid(char *pidfile)
 
   else
   {
-    signed int return_value_flock$2;
-    return_value_flock$2=flock(fd, 2 | 4);
-    if(return_value_flock$2 == -1)
+    signed int return_value_flock_2;
+    return_value_flock_2=flock(fd, 2 | 4);
+    if(return_value_flock_2 == -1)
     {
       fscanf(f, "%d", &pid);
       fclose(f);
@@ -3537,29 +3537,29 @@ signed int write_pid(char *pidfile)
     else
     {
       pid=getpid();
-      signed int return_value_fprintf$5;
-      return_value_fprintf$5=fprintf(f, "%d\n", pid);
-      if(return_value_fprintf$5 == 0)
+      signed int return_value_fprintf_5;
+      return_value_fprintf_5=fprintf(f, "%d\n", pid);
+      if(return_value_fprintf_5 == 0)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        printf("Can't write pid , %s.\n", return_value_strerror$4);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        printf("Can't write pid , %s.\n", return_value_strerror_4);
         close(fd);
         return 0;
       }
 
       fflush(f);
-      signed int return_value_flock$8;
-      return_value_flock$8=flock(fd, 8);
-      if(return_value_flock$8 == -1)
+      signed int return_value_flock_8;
+      return_value_flock_8=flock(fd, 8);
+      if(return_value_flock_8 == -1)
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        printf("Can't unlock pidfile %s, %s.\n", pidfile, return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        printf("Can't unlock pidfile %s, %s.\n", pidfile, return_value_strerror_7);
         close(fd);
         return 0;
       }
@@ -3575,16 +3575,16 @@ signed int write_pid(char *pidfile)
 struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size)
 {
   struct yy_buffer_state *b;
-  void *return_value_yyalloc$1;
-  return_value_yyalloc$1=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
-  b = (struct yy_buffer_state *)return_value_yyalloc$1;
+  void *return_value_yyalloc_1;
+  return_value_yyalloc_1=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
+  b = (struct yy_buffer_state *)return_value_yyalloc_1;
   if(b == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()");
 
   b->yy_buf_size = (unsigned long int)size;
-  void *return_value_yyalloc$2;
-  return_value_yyalloc$2=yyalloc(b->yy_buf_size + (unsigned long int)2);
-  b->yy_ch_buf = (char *)return_value_yyalloc$2;
+  void *return_value_yyalloc_2;
+  return_value_yyalloc_2=yyalloc(b->yy_buf_size + (unsigned long int)2);
+  b->yy_ch_buf = (char *)return_value_yyalloc_2;
   if(b->yy_ch_buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()");
 
@@ -3597,15 +3597,15 @@ struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size
 // file lex.yy.c line 2110
 void yy_delete_buffer(struct yy_buffer_state *b)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)0;
 
     if(!(b->yy_is_our_buffer == 0))
@@ -3628,7 +3628,7 @@ static void yy_fatal_error(const char *msg)
 // file lex.yy.c line 2157
 void yy_flush_buffer(struct yy_buffer_state *b)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     b->yy_n_chars = (unsigned long int)0;
@@ -3638,11 +3638,11 @@ void yy_flush_buffer(struct yy_buffer_state *b)
     b->yy_at_bol = 1;
     b->yy_buffer_status = 0;
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yy_load_buffer_state();
 
   }
@@ -3661,12 +3661,12 @@ static signed int yy_get_next_buffer(void)
   if(!(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf + 1l + (signed long int)yy_n_chars >= yy_c_buf_p))
     yy_fatal_error("fatal flex scanner internal error--end of buffer missed");
 
-  char *tmp_post$1;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$4;
-  unsigned long int tmp_post$5;
-  signed int return_value_ferror$6;
-  signed int return_value_ferror$8;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_4;
+  unsigned long int tmp_post_5;
+  signed int return_value_ferror_6;
+  signed int return_value_ferror_8;
   if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_fill_buffer == 0)
   {
     if(yy_c_buf_p - yytext == 1l)
@@ -3681,11 +3681,11 @@ static signed int yy_get_next_buffer(void)
     i = 0;
     for( ; !(i >= number_to_move); i = i + 1)
     {
-      tmp_post$1 = dest;
+      tmp_post_1 = dest;
       dest = dest + 1l;
-      tmp_post$2 = source;
+      tmp_post_2 = source;
       source = source + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
     if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buffer_status == 2)
     {
@@ -3702,15 +3702,15 @@ static signed int yy_get_next_buffer(void)
         signed int yy_c_buf_p_offset = (signed int)(yy_c_buf_p - b->yy_ch_buf);
         if(!(b->yy_is_our_buffer == 0))
         {
-          unsigned long int yy_get_next_buffer$$1$$3$$1$$1$$new_size = b->yy_buf_size * (unsigned long int)2;
-          if(!(yy_get_next_buffer$$1$$3$$1$$1$$new_size >= 1ul))
+          unsigned long int yy_get_next_buffer__1__3__1__1__new_size = b->yy_buf_size * (unsigned long int)2;
+          if(!(yy_get_next_buffer__1__3__1__1__new_size >= 1ul))
             b->yy_buf_size = b->yy_buf_size + b->yy_buf_size / (unsigned long int)8;
 
           else
             b->yy_buf_size = b->yy_buf_size * (unsigned long int)2;
-          void *return_value_yyrealloc$3;
-          return_value_yyrealloc$3=yyrealloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned long int)2);
-          b->yy_ch_buf = (char *)return_value_yyrealloc$3;
+          void *return_value_yyrealloc_3;
+          return_value_yyrealloc_3=yyrealloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned long int)2);
+          b->yy_ch_buf = (char *)return_value_yyrealloc_3;
         }
 
         else
@@ -3733,12 +3733,12 @@ static signed int yy_get_next_buffer(void)
           if(!(n >= num_to_read))
           {
             c=_IO_getc(yyin);
-            tmp_if_expr$4 = c != -1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = c != -1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(c == 10 || !tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(c == 10 || !tmp_if_expr_4)
             break;
 
           (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)n] = (char)c;
@@ -3747,15 +3747,15 @@ static signed int yy_get_next_buffer(void)
         while((_Bool)1);
         if(c == 10)
         {
-          tmp_post$5 = n;
+          tmp_post_5 = n;
           n = n + 1ul;
-          (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)tmp_post$5] = (char)c;
+          (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)tmp_post_5] = (char)c;
         }
 
         if(c == -1)
         {
-          return_value_ferror$6=ferror(yyin);
-          if(!(return_value_ferror$6 == 0))
+          return_value_ferror_6=ferror(yyin);
+          if(!(return_value_ferror_6 == 0))
             yy_fatal_error("input in flex scanner failed");
 
         }
@@ -3765,30 +3765,30 @@ static signed int yy_get_next_buffer(void)
 
       else
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7 = 0;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7 = 0;
         do
         {
           yy_n_chars=fread((void *)&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move], (unsigned long int)1, num_to_read, yyin);
           if(!(yy_n_chars == 0ul))
             break;
 
-          return_value_ferror$8=ferror(yyin);
-          if(return_value_ferror$8 == 0)
+          return_value_ferror_8=ferror(yyin);
+          if(return_value_ferror_8 == 0)
             break;
 
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          if(!(*return_value___errno_location$9 == 4))
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          if(!(*return_value___errno_location_9 == 4))
           {
             yy_fatal_error("input in flex scanner failed");
             break;
           }
 
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          *return_value___errno_location$10 = 0;
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          *return_value___errno_location_10 = 0;
           clearerr(yyin);
         }
         while((_Bool)1);
@@ -3815,9 +3815,9 @@ static signed int yy_get_next_buffer(void)
     if(!(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_size >= yy_n_chars + (unsigned long int)number_to_move))
     {
       unsigned long int new_size = yy_n_chars + (unsigned long int)number_to_move + (yy_n_chars >> 1);
-      void *return_value_yyrealloc$11;
-      return_value_yyrealloc$11=yyrealloc((void *)yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf, new_size);
-      yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_yyrealloc$11;
+      void *return_value_yyrealloc_11;
+      return_value_yyrealloc_11=yyrealloc((void *)yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf, new_size);
+      yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_yyrealloc_11;
       if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf == ((char *)NULL))
         yy_fatal_error("out of dynamic memory in yy_get_next_buffer()");
 
@@ -3839,16 +3839,16 @@ static signed int yy_get_previous_state(void)
   char *yy_cp;
   yy_current_state = yy_start;
   yy_cp = yytext + (signed long int)0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(yy_cp >= yy_c_buf_p); yy_cp = yy_cp + 1l)
   {
     unsigned char yy_c;
     if(!(*yy_cp == 0))
-      tmp_if_expr$1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
+      tmp_if_expr_1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
 
     else
-      tmp_if_expr$1 = 1;
-    yy_c = (unsigned char)tmp_if_expr$1;
+      tmp_if_expr_1 = 1;
+    yy_c = (unsigned char)tmp_if_expr_1;
     if(!(yy_accept[(signed long int)yy_current_state] == 0))
     {
       yy_last_accepting_state = yy_current_state;
@@ -3872,40 +3872,40 @@ static signed int yy_get_previous_state(void)
 static void yy_init_buffer(struct yy_buffer_state *b, struct _IO_FILE *file)
 {
   signed int oerrno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  oerrno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  oerrno = *return_value___errno_location_1;
   yy_flush_buffer(b);
   b->yy_input_file = file;
   b->yy_fill_buffer = 1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  if(!(b == tmp_if_expr$2))
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  if(!(b == tmp_if_expr_2))
   {
     b->yy_bs_lineno = 1;
     b->yy_bs_column = 0;
   }
 
-  signed int tmp_if_expr$5;
-  signed int return_value_fileno$3;
-  signed int return_value_isatty$4;
+  signed int tmp_if_expr_5;
+  signed int return_value_fileno_3;
+  signed int return_value_isatty_4;
   if(!(file == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fileno$3=fileno(file);
-    return_value_isatty$4=isatty(return_value_fileno$3);
-    tmp_if_expr$5 = (signed int)(return_value_isatty$4 > 0);
+    return_value_fileno_3=fileno(file);
+    return_value_isatty_4=isatty(return_value_fileno_3);
+    tmp_if_expr_5 = (signed int)(return_value_isatty_4 > 0);
   }
 
   else
-    tmp_if_expr$5 = 0;
-  b->yy_is_interactive = tmp_if_expr$5;
-  signed int *return_value___errno_location$6;
-  return_value___errno_location$6=__errno_location();
-  *return_value___errno_location$6 = oerrno;
+    tmp_if_expr_5 = 0;
+  b->yy_is_interactive = tmp_if_expr_5;
+  signed int *return_value___errno_location_6;
+  return_value___errno_location_6=__errno_location();
+  *return_value___errno_location_6 = oerrno;
 }
 
 // yy_init_globals
@@ -3939,26 +3939,26 @@ static void yy_load_buffer_state(void)
 struct yy_buffer_state * yy_scan_buffer(char *base, unsigned long int size)
 {
   struct yy_buffer_state *b;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(size >= 2ul))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return ((struct yy_buffer_state *)NULL);
 
   else
   {
-    void *return_value_yyalloc$3;
-    return_value_yyalloc$3=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
-    b = (struct yy_buffer_state *)return_value_yyalloc$3;
+    void *return_value_yyalloc_3;
+    return_value_yyalloc_3=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
+    b = (struct yy_buffer_state *)return_value_yyalloc_3;
     if(b == ((struct yy_buffer_state *)NULL))
       yy_fatal_error("out of dynamic memory in yy_scan_buffer()");
 
@@ -3986,9 +3986,9 @@ struct yy_buffer_state * yy_scan_bytes(const char *yybytes, unsigned long int _y
   unsigned long int n;
   unsigned long int i;
   n = _yybytes_len + (unsigned long int)2;
-  void *return_value_yyalloc$1;
-  return_value_yyalloc$1=yyalloc(n);
-  buf = (char *)return_value_yyalloc$1;
+  void *return_value_yyalloc_1;
+  return_value_yyalloc_1=yyalloc(n);
+  buf = (char *)return_value_yyalloc_1;
   if(buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_scan_bytes()");
 
@@ -4009,11 +4009,11 @@ struct yy_buffer_state * yy_scan_bytes(const char *yybytes, unsigned long int _y
 // file lex.yy.c line 2321
 struct yy_buffer_state * yy_scan_string(const char *yystr)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(yystr);
-  struct yy_buffer_state *return_value_yy_scan_bytes$2;
-  return_value_yy_scan_bytes$2=yy_scan_bytes(yystr, return_value_strlen$1);
-  return return_value_yy_scan_bytes$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(yystr);
+  struct yy_buffer_state *return_value_yy_scan_bytes_2;
+  return_value_yy_scan_bytes_2=yy_scan_bytes(yystr, return_value_strlen_1);
+  return return_value_yy_scan_bytes_2;
 }
 
 // yy_switch_to_buffer
@@ -4021,21 +4021,21 @@ struct yy_buffer_state * yy_scan_string(const char *yystr)
 void yy_switch_to_buffer(struct yy_buffer_state *new_buffer)
 {
   yyensure_buffer_stack();
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  if(!(tmp_if_expr$1 == new_buffer))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  if(!(tmp_if_expr_1 == new_buffer))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
     {
       *yy_c_buf_p = yy_hold_char;
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_pos = yy_c_buf_p;
@@ -4078,9 +4078,9 @@ static signed int yy_try_NUL_trans(signed int yy_current_state)
 // file lex.yy.c line 2545
 void * yyalloc(unsigned long int size)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size);
-  return (void *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size);
+  return (void *)return_value_malloc_1;
 }
 
 // yydestruct
@@ -4102,9 +4102,9 @@ static void yyensure_buffer_stack(void)
   if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
   {
     num_to_alloc = (unsigned long int)1;
-    void *return_value_yyalloc$1;
-    return_value_yyalloc$1=yyalloc(num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
-    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyalloc$1;
+    void *return_value_yyalloc_1;
+    return_value_yyalloc_1=yyalloc(num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
+    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyalloc_1;
     if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
       yy_fatal_error("out of dynamic memory in yyensure_buffer_stack()");
 
@@ -4118,9 +4118,9 @@ static void yyensure_buffer_stack(void)
   {
     signed int grow_size = 8;
     num_to_alloc = yy_buffer_stack_max + (unsigned long int)grow_size;
-    void *return_value_yyrealloc$2;
-    return_value_yyrealloc$2=yyrealloc((void *)yy_buffer_stack, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
-    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyrealloc$2;
+    void *return_value_yyrealloc_2;
+    return_value_yyrealloc_2=yyrealloc((void *)yy_buffer_stack, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
+    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyrealloc_2;
     if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
       yy_fatal_error("out of dynamic memory in yyensure_buffer_stack()");
 
@@ -4197,7 +4197,7 @@ signed int yylex(void)
   char *yy_cp;
   char *yy_bp;
   signed int yy_act;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(yy_init == 0)
   {
     yy_init = 1;
@@ -4211,11 +4211,11 @@ signed int yylex(void)
       yyout = stdout;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     {
       yyensure_buffer_stack();
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]=yy_create_buffer(yyin, 16384);
@@ -4224,10 +4224,10 @@ signed int yylex(void)
     yy_load_buffer_state();
   }
 
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   signed int yy_amount_of_matched_text;
-  signed int return_value_yy_get_next_buffer$5;
-  signed int return_value_yywrap$6;
+  signed int return_value_yy_get_next_buffer_5;
+  signed int return_value_yywrap_6;
   while((_Bool)1)
   {
     yy_cp = yy_c_buf_p;
@@ -4707,12 +4707,12 @@ signed int yylex(void)
 
       __CPROVER_DUMP_L69:
         ;
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(yytext);
-        if((signed int)yytext[-1l + (signed long int)return_value_strlen$3] == 46)
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(yytext);
+        if((signed int)yytext[-1l + (signed long int)return_value_strlen_3] == 46)
         {
-          return_value_strlen$2=strlen(yytext);
-          yytext[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+          return_value_strlen_2=strlen(yytext);
+          yytext[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
         }
 
         yylval.stringval=strdup(yytext);
@@ -4732,8 +4732,8 @@ signed int yylex(void)
 
         __CPROVER_DUMP_L73:
           ;
-          unsigned long int return_value_fwrite$4;
-          return_value_fwrite$4=fwrite((const void *)yytext, yyleng, (unsigned long int)1, yyout);
+          unsigned long int return_value_fwrite_4;
+          return_value_fwrite_4=fwrite((const void *)yytext, yyleng, (unsigned long int)1, yyout);
         }
         while((_Bool)0);
         goto __CPROVER_DUMP_L87;
@@ -4775,21 +4775,21 @@ signed int yylex(void)
           }
         }
 
-        return_value_yy_get_next_buffer$5=yy_get_next_buffer();
-        if(!(return_value_yy_get_next_buffer$5 == 1))
+        return_value_yy_get_next_buffer_5=yy_get_next_buffer();
+        if(!(return_value_yy_get_next_buffer_5 == 1))
         {
-          if(return_value_yy_get_next_buffer$5 == 0)
+          if(return_value_yy_get_next_buffer_5 == 0)
             goto __CPROVER_DUMP_L83;
 
-          if(return_value_yy_get_next_buffer$5 == 2)
+          if(return_value_yy_get_next_buffer_5 == 2)
             goto __CPROVER_DUMP_L84;
 
           goto __CPROVER_DUMP_L85;
         }
 
         yy_did_buffer_switch_on_eof = 0;
-        return_value_yywrap$6=yywrap();
-        if(return_value_yywrap$6 == 0)
+        return_value_yywrap_6=yywrap();
+        if(return_value_yywrap_6 == 0)
           break;
 
         yy_c_buf_p = yytext + (signed long int)0;
@@ -4833,24 +4833,24 @@ signed int yylex(void)
 // file lex.yy.c line 2500
 signed int yylex_destroy(void)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   do
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
       break;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    yy_delete_buffer(tmp_if_expr$2);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    yy_delete_buffer(tmp_if_expr_2);
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     yypop_buffer_state();
   }
@@ -4909,9 +4909,9 @@ yysetstate:
 
     signed short int *yyss1 = yyss;
     union yyalloc *yyptr;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union YYSTYPE) /*48ul*/ ) + (sizeof(union yyalloc) /*48ul*/  - (unsigned long int)1));
-    yyptr = (union yyalloc *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union YYSTYPE) /*48ul*/ ) + (sizeof(union yyalloc) /*48ul*/  - (unsigned long int)1));
+    yyptr = (union yyalloc *)return_value_malloc_1;
     if(yyptr == ((union yyalloc *)NULL))
       goto yyexhaustedlab;
 
@@ -4926,11 +4926,11 @@ yysetstate:
     while((_Bool)0);
     do
     {
-      unsigned long int yyparse$$1$$1$$1$$2$$yynewbytes;
+      unsigned long int yyparse__1__1__1__2__yynewbytes;
       __builtin_memcpy((void *)&yyptr->yyvs_alloc, (const void *)yyvs, yysize * sizeof(union YYSTYPE) /*48ul*/ );
       yyvs = &yyptr->yyvs_alloc;
-      yyparse$$1$$1$$1$$2$$yynewbytes = yystacksize * sizeof(union YYSTYPE) /*48ul*/  + (sizeof(union yyalloc) /*48ul*/  - (unsigned long int)1);
-      yyptr = yyptr + (signed long int)(yyparse$$1$$1$$1$$2$$yynewbytes / sizeof(union yyalloc) /*48ul*/ );
+      yyparse__1__1__1__2__yynewbytes = yystacksize * sizeof(union YYSTYPE) /*48ul*/  + (sizeof(union yyalloc) /*48ul*/  - (unsigned long int)1);
+      yyptr = yyptr + (signed long int)(yyparse__1__1__1__2__yynewbytes / sizeof(union yyalloc) /*48ul*/ );
     }
     while((_Bool)0);
     if(!(yyss1 == yyssa))
@@ -4943,11 +4943,11 @@ yysetstate:
 
   }
 
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$7;
-  signed int tmp_if_expr$9;
-  signed int tmp_if_expr$8;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_7;
+  signed int tmp_if_expr_9;
+  signed int tmp_if_expr_8;
   if(!(yystate == 2))
   {
 
@@ -4968,19 +4968,19 @@ yysetstate:
       else
       {
         if(!((unsigned int)yychar >= 295u))
-          tmp_if_expr$2 = (signed int)yytranslate[(signed long int)yychar];
+          tmp_if_expr_2 = (signed int)yytranslate[(signed long int)yychar];
 
         else
-          tmp_if_expr$2 = 2;
-        yytoken = tmp_if_expr$2;
+          tmp_if_expr_2 = 2;
+        yytoken = tmp_if_expr_2;
       }
       yyn = yyn + yytoken;
       if(yyn >= 144 || !(yyn >= 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)yycheck[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)yycheck[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_3)
       {
         yyn = (signed int)yytable[(signed long int)yyn];
         if(!(yyn >= 1))
@@ -5228,9 +5228,9 @@ yysetstate:
         }
         case 38:
         {
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc(sizeof(struct filter_entry) /*80ul*/ );
-          yyval.entryval = (struct filter_entry *)return_value_malloc$4;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc(sizeof(struct filter_entry) /*80ul*/ );
+          yyval.entryval = (struct filter_entry *)return_value_malloc_4;
           yyval.entryval->log = (signed short int)(yyvsp + (signed long int)-4)->longval;
           yyval.entryval->ident = switches.ident;
           yyval.entryval->logclosing = switches.logclosing;
@@ -5484,9 +5484,9 @@ yysetstate:
         }
         case 81:
         {
-          struct in_addr yyparse$$1$$6$$71$$inp;
-          inet_aton((yyvsp + (signed long int)0)->stringval, &yyparse$$1$$6$$71$$inp);
-          yyval.hostdesc.address = yyparse$$1$$6$$71$$inp.s_addr;
+          struct in_addr yyparse__1__6__71__inp;
+          inet_aton((yyvsp + (signed long int)0)->stringval, &yyparse__1__6__71__inp);
+          yyval.hostdesc.address = yyparse__1__6__71__inp.s_addr;
           yyval.hostdesc.mask = 0xffffffff;
           yyval.hostdesc.hostname = (char *)(void *)0;
           yyval.hostdesc.hostmask = (char *)(void *)0;
@@ -5495,11 +5495,11 @@ yysetstate:
         }
         case 82:
         {
-          struct in_addr yyparse$$1$$6$$72$$inp;
-          inet_aton((yyvsp + (signed long int)-2)->stringval, &yyparse$$1$$6$$72$$inp);
-          yyval.hostdesc.address = yyparse$$1$$6$$72$$inp.s_addr;
-          inet_aton((yyvsp + (signed long int)0)->stringval, &yyparse$$1$$6$$72$$inp);
-          yyval.hostdesc.mask = yyparse$$1$$6$$72$$inp.s_addr;
+          struct in_addr yyparse__1__6__72__inp;
+          inet_aton((yyvsp + (signed long int)-2)->stringval, &yyparse__1__6__72__inp);
+          yyval.hostdesc.address = yyparse__1__6__72__inp.s_addr;
+          inet_aton((yyvsp + (signed long int)0)->stringval, &yyparse__1__6__72__inp);
+          yyval.hostdesc.mask = yyparse__1__6__72__inp.s_addr;
           yyval.hostdesc.hostname = (char *)(void *)0;
           yyval.hostdesc.hostmask = (char *)(void *)0;
           free((void *)(yyvsp + (signed long int)-2)->stringval);
@@ -5519,9 +5519,9 @@ yysetstate:
         }
         case 84:
         {
-          char *return_value_strchr$5;
-          return_value_strchr$5=strchr((yyvsp + (signed long int)0)->stringval, 42);
-          if(!(return_value_strchr$5 == ((char *)NULL)))
+          char *return_value_strchr_5;
+          return_value_strchr_5=strchr((yyvsp + (signed long int)0)->stringval, 42);
+          if(!(return_value_strchr_5 == ((char *)NULL)))
           {
             yyval.hostdesc.hostmask = (yyvsp + (signed long int)0)->stringval;
             yyval.hostdesc.hostname = (char *)(void *)0;
@@ -5552,9 +5552,9 @@ yysetstate:
         }
         case 85:
         {
-          struct hostent *yyparse$$1$$6$$75$$host;
-          yyparse$$1$$6$$75$$host=gethostbyname((const char *)(yyvsp + (signed long int)0)->stringval);
-          if(yyparse$$1$$6$$75$$host == ((struct hostent *)NULL))
+          struct hostent *yyparse__1__6__75__host;
+          yyparse__1__6__75__host=gethostbyname((const char *)(yyvsp + (signed long int)0)->stringval);
+          if(yyparse__1__6__75__host == ((struct hostent *)NULL))
           {
             yyval.hostdesc.address = (unsigned int)0;
             yyval.hostdesc.mask = (unsigned int)0;
@@ -5563,7 +5563,7 @@ yysetstate:
 
           else
           {
-            memcpy((void *)&yyval.hostdesc.address, (const void *)yyparse$$1$$6$$75$$host->h_addr_list[(signed long int)0], (unsigned long int)yyparse$$1$$6$$75$$host->h_length);
+            memcpy((void *)&yyval.hostdesc.address, (const void *)yyparse__1__6__75__host->h_addr_list[(signed long int)0], (unsigned long int)yyparse__1__6__75__host->h_length);
             yyval.hostdesc.mask = 0xffffffff;
           }
           yyval.hostdesc.hostname = (yyvsp + (signed long int)0)->stringval;
@@ -5572,9 +5572,9 @@ yysetstate:
         }
         case 86:
         {
-          struct in_addr yyparse$$1$$6$$76$$inp;
-          inet_aton((yyvsp + (signed long int)0)->stringval, &yyparse$$1$$6$$76$$inp);
-          yyval.hostdesc.address = yyparse$$1$$6$$76$$inp.s_addr;
+          struct in_addr yyparse__1__6__76__inp;
+          inet_aton((yyvsp + (signed long int)0)->stringval, &yyparse__1__6__76__inp);
+          yyval.hostdesc.address = yyparse__1__6__76__inp.s_addr;
           yyval.hostdesc.mask = 0xffffffff;
           yyval.hostdesc.hostname = (char *)(void *)0;
           yyval.hostdesc.hostmask = (char *)(void *)0;
@@ -5583,9 +5583,9 @@ yysetstate:
         }
         case 87:
         {
-          char *return_value_strchr$6;
-          return_value_strchr$6=strchr((yyvsp + (signed long int)0)->stringval, 42);
-          if(!(return_value_strchr$6 == ((char *)NULL)))
+          char *return_value_strchr_6;
+          return_value_strchr_6=strchr((yyvsp + (signed long int)0)->stringval, 42);
+          if(!(return_value_strchr_6 == ((char *)NULL)))
           {
             yyval.hostdesc.mask = (unsigned int)0;
             yyval.hostdesc.address = yyval.hostdesc.mask;
@@ -5594,9 +5594,9 @@ yysetstate:
 
           else
           {
-            struct hostent *yyparse$$1$$6$$77$$2$$host;
-            yyparse$$1$$6$$77$$2$$host=gethostbyname((const char *)(yyvsp + (signed long int)0)->stringval);
-            if(yyparse$$1$$6$$77$$2$$host == ((struct hostent *)NULL))
+            struct hostent *yyparse__1__6__77__2__host;
+            yyparse__1__6__77__2__host=gethostbyname((const char *)(yyvsp + (signed long int)0)->stringval);
+            if(yyparse__1__6__77__2__host == ((struct hostent *)NULL))
             {
               yyval.hostdesc.address = (unsigned int)0;
               yyval.hostdesc.mask = (unsigned int)0;
@@ -5605,7 +5605,7 @@ yysetstate:
 
             else
             {
-              memcpy((void *)&yyval.hostdesc.address, (const void *)yyparse$$1$$6$$77$$2$$host->h_addr_list[(signed long int)0], (unsigned long int)yyparse$$1$$6$$77$$2$$host->h_length);
+              memcpy((void *)&yyval.hostdesc.address, (const void *)yyparse__1__6__77__2__host->h_addr_list[(signed long int)0], (unsigned long int)yyparse__1__6__77__2__host->h_length);
               yyval.hostdesc.mask = 0xffffffff;
             }
             yyval.hostdesc.hostname = (yyvsp + (signed long int)0)->stringval;
@@ -5615,9 +5615,9 @@ yysetstate:
         }
         case 88:
         {
-          struct hostent *yyparse$$1$$6$$78$$host;
-          yyparse$$1$$6$$78$$host=gethostbyname((const char *)(yyvsp + (signed long int)0)->stringval);
-          if(yyparse$$1$$6$$78$$host == ((struct hostent *)NULL))
+          struct hostent *yyparse__1__6__78__host;
+          yyparse__1__6__78__host=gethostbyname((const char *)(yyvsp + (signed long int)0)->stringval);
+          if(yyparse__1__6__78__host == ((struct hostent *)NULL))
           {
             yyval.hostdesc.mask = (unsigned int)0;
             yyval.hostdesc.address = yyval.hostdesc.mask;
@@ -5626,7 +5626,7 @@ yysetstate:
 
           else
           {
-            memcpy((void *)&yyval.hostdesc.address, (const void *)yyparse$$1$$6$$78$$host->h_addr_list[(signed long int)0], (unsigned long int)yyparse$$1$$6$$78$$host->h_length);
+            memcpy((void *)&yyval.hostdesc.address, (const void *)yyparse__1__6__78__host->h_addr_list[(signed long int)0], (unsigned long int)yyparse__1__6__78__host->h_length);
             yyval.hostdesc.mask = 0xffffffff;
           }
           yyval.hostdesc.hostname = (yyvsp + (signed long int)0)->stringval;
@@ -5641,11 +5641,11 @@ yysetstate:
       yyn = (signed int)yyr1[(signed long int)yyn];
       yystate = (signed int)yypgoto[(signed long int)(yyn - 40)] + (signed int)*yyssp;
       if(yystate >= 0 && !(yystate >= 144))
-        tmp_if_expr$7 = (signed int)yycheck[(signed long int)yystate] == (signed int)*yyssp ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (signed int)yycheck[(signed long int)yystate] == (signed int)*yyssp ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
         yystate = (signed int)yytable[(signed long int)yystate];
 
       else
@@ -5657,18 +5657,18 @@ yysetstate:
   yyerrlab:
     ;
     if(yychar == -2)
-      tmp_if_expr$9 = -2;
+      tmp_if_expr_9 = -2;
 
     else
     {
       if(!((unsigned int)yychar >= 295u))
-        tmp_if_expr$8 = (signed int)yytranslate[(signed long int)yychar];
+        tmp_if_expr_8 = (signed int)yytranslate[(signed long int)yychar];
 
       else
-        tmp_if_expr$8 = 2;
-      tmp_if_expr$9 = tmp_if_expr$8;
+        tmp_if_expr_8 = 2;
+      tmp_if_expr_9 = tmp_if_expr_8;
     }
-    yytoken = tmp_if_expr$9;
+    yytoken = tmp_if_expr_9;
     if(yyerrstatus == 0)
     {
       yynerrs = yynerrs + 1;
@@ -5756,15 +5756,15 @@ yyexhaustedlab:
 
 yyreturn:
   ;
-  signed int tmp_if_expr$10;
+  signed int tmp_if_expr_10;
   if(!(yychar == -2))
   {
     if(!((unsigned int)yychar >= 295u))
-      tmp_if_expr$10 = (signed int)yytranslate[(signed long int)yychar];
+      tmp_if_expr_10 = (signed int)yytranslate[(signed long int)yychar];
 
     else
-      tmp_if_expr$10 = 2;
-    yytoken = tmp_if_expr$10;
+      tmp_if_expr_10 = 2;
+    yytoken = tmp_if_expr_10;
     yydestruct("Cleanup: discarding lookahead", yytoken, &yylval);
   }
 
@@ -5785,32 +5785,32 @@ yyreturn:
 // file lex.yy.c line 2216
 void yypop_buffer_state(void)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  struct yy_buffer_state *tmp_if_expr$3;
-  if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  struct yy_buffer_state *tmp_if_expr_3;
+  if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    yy_delete_buffer(tmp_if_expr$2);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    yy_delete_buffer(tmp_if_expr_2);
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     if(yy_buffer_stack_top >= 1ul)
       yy_buffer_stack_top = yy_buffer_stack_top - 1ul;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$3 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_3 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$3 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$3 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_3 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_3 == ((struct yy_buffer_state *)NULL)))
     {
       yy_load_buffer_state();
       yy_did_buffer_switch_on_eof = 1;
@@ -5824,17 +5824,17 @@ void yypop_buffer_state(void)
 // file lex.yy.c line 2186
 void yypush_buffer_state(struct yy_buffer_state *new_buffer)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(new_buffer == ((struct yy_buffer_state *)NULL)))
   {
     yyensure_buffer_stack();
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
     {
       *yy_c_buf_p = yy_hold_char;
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_pos = yy_c_buf_p;
@@ -5842,11 +5842,11 @@ void yypush_buffer_state(struct yy_buffer_state *new_buffer)
     }
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
       yy_buffer_stack_top = yy_buffer_stack_top + 1ul;
 
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = new_buffer;
@@ -5860,34 +5860,34 @@ void yypush_buffer_state(struct yy_buffer_state *new_buffer)
 // file lex.yy.c line 2550
 void * yyrealloc(void *ptr, unsigned long int size)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)(char *)ptr, size);
-  return (void *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)(char *)ptr, size);
+  return (void *)return_value_realloc_1;
 }
 
 // yyrestart
 // file lex.yy.c line 2020
 void yyrestart(struct _IO_FILE *input_file)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
   {
     yyensure_buffer_stack();
     yy_buffer_stack[(signed long int)yy_buffer_stack_top]=yy_create_buffer(yyin, 16384);
   }
 
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  yy_init_buffer(tmp_if_expr$2, input_file);
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  yy_init_buffer(tmp_if_expr_2, input_file);
   yy_load_buffer_state();
 }
 

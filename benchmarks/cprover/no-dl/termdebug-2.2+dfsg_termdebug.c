@@ -1,114 +1,114 @@
-// #anon_enum$ACTION_NONE=0$ACTION_ATTR_OFF=1$ACTION_ATTR_ON=2$ACTION_CLEAR=3$ACTION_CR=4$ACTION_CUP_OFF=5$ACTION_CUP_ON=6$ACTION_CURSOR_INVIS=7$ACTION_CURSOR_NORMAL=8$ACTION_CURSOR_VVIS=9$ACTION_HOME=10$ACTION_RESTORE_CURSOR=11$ACTION_SAVE_CURSOR=12$ACTION_SCROLL_BCK=13$ACTION_SCROLL_FWD=14$ACTION_TAB=15
+// #anon_enum_ACTION_NONE=0_ACTION_ATTR_OFF=1_ACTION_ATTR_ON=2_ACTION_CLEAR=3_ACTION_CR=4_ACTION_CUP_OFF=5_ACTION_CUP_ON=6_ACTION_CURSOR_INVIS=7_ACTION_CURSOR_NORMAL=8_ACTION_CURSOR_VVIS=9_ACTION_HOME=10_ACTION_RESTORE_CURSOR=11_ACTION_SAVE_CURSOR=12_ACTION_SCROLL_BCK=13_ACTION_SCROLL_FWD=14_ACTION_TAB=15
 // file src/write_stringlist.c line 25
-enum anonymous$16 { ACTION_NONE=0, ACTION_ATTR_OFF=1, ACTION_ATTR_ON=2, ACTION_CLEAR=3, ACTION_CR=4, ACTION_CUP_OFF=5, ACTION_CUP_ON=6, ACTION_CURSOR_INVIS=7, ACTION_CURSOR_NORMAL=8, ACTION_CURSOR_VVIS=9, ACTION_HOME=10, ACTION_RESTORE_CURSOR=11, ACTION_SAVE_CURSOR=12, ACTION_SCROLL_BCK=13, ACTION_SCROLL_FWD=14, ACTION_TAB=15 };
+enum anonymous_16 { ACTION_NONE=0, ACTION_ATTR_OFF=1, ACTION_ATTR_ON=2, ACTION_CLEAR=3, ACTION_CR=4, ACTION_CUP_OFF=5, ACTION_CUP_ON=6, ACTION_CURSOR_INVIS=7, ACTION_CURSOR_NORMAL=8, ACTION_CURSOR_VVIS=9, ACTION_HOME=10, ACTION_RESTORE_CURSOR=11, ACTION_SAVE_CURSOR=12, ACTION_SCROLL_BCK=13, ACTION_SCROLL_FWD=14, ACTION_TAB=15 };
 
-// #anon_enum$CURSOR_NORM=0$CURSOR_INVIS=1$CURSOR_VVIS=2
+// #anon_enum_CURSOR_NORM=0_CURSOR_INVIS=1_CURSOR_VVIS=2
 // file src/window.h line 134
-enum anonymous$15 { CURSOR_NORM=0, CURSOR_INVIS=1, CURSOR_VVIS=2 };
+enum anonymous_15 { CURSOR_NORM=0, CURSOR_INVIS=1, CURSOR_VVIS=2 };
 
-// #anon_enum$EXP_START=0$EXP_ENV=1$EXP_WINDOW_SIZE=2$EXP_EXPECT=3$EXP_SEND=4$EXP_EXPECT_EXIT=5$EXP_INTERACT=6$EXP_EXPECT_SUSPEND=7$EXP_REQUIRE_VERSION=8
+// #anon_enum_EXP_START=0_EXP_ENV=1_EXP_WINDOW_SIZE=2_EXP_EXPECT=3_EXP_SEND=4_EXP_EXPECT_EXIT=5_EXP_INTERACT=6_EXP_EXPECT_SUSPEND=7_EXP_REQUIRE_VERSION=8
 // file src/replay.h line 18
-enum anonymous$27 { EXP_START=0, EXP_ENV=1, EXP_WINDOW_SIZE=2, EXP_EXPECT=3, EXP_SEND=4, EXP_EXPECT_EXIT=5, EXP_INTERACT=6, EXP_EXPECT_SUSPEND=7, EXP_REQUIRE_VERSION=8 };
+enum anonymous_27 { EXP_START=0, EXP_ENV=1, EXP_WINDOW_SIZE=2, EXP_EXPECT=3, EXP_SEND=4, EXP_EXPECT_EXIT=5, EXP_INTERACT=6, EXP_EXPECT_SUSPEND=7, EXP_REQUIRE_VERSION=8 };
 
-// #anon_enum$ON_ERROR_ABORT=0$ON_ERROR_INTERACT=1$ON_ERROR_CONTINUE=2
+// #anon_enum_ON_ERROR_ABORT=0_ON_ERROR_INTERACT=1_ON_ERROR_CONTINUE=2
 // file src/replay.c line 64
-enum anonymous$13 { ON_ERROR_ABORT=0, ON_ERROR_INTERACT=1, ON_ERROR_CONTINUE=2 };
+enum anonymous_13 { ON_ERROR_ABORT=0, ON_ERROR_INTERACT=1, ON_ERROR_CONTINUE=2 };
 
-// #anon_enum$PANGO_WEIGHT_THIN=100$PANGO_WEIGHT_ULTRALIGHT=200$PANGO_WEIGHT_LIGHT=300$PANGO_WEIGHT_SEMILIGHT=350$PANGO_WEIGHT_BOOK=380$PANGO_WEIGHT_NORMAL=400$PANGO_WEIGHT_MEDIUM=500$PANGO_WEIGHT_SEMIBOLD=600$PANGO_WEIGHT_BOLD=700$PANGO_WEIGHT_ULTRABOLD=800$PANGO_WEIGHT_HEAVY=900$PANGO_WEIGHT_ULTRAHEAVY=1000
+// #anon_enum_PANGO_WEIGHT_THIN=100_PANGO_WEIGHT_ULTRALIGHT=200_PANGO_WEIGHT_LIGHT=300_PANGO_WEIGHT_SEMILIGHT=350_PANGO_WEIGHT_BOOK=380_PANGO_WEIGHT_NORMAL=400_PANGO_WEIGHT_MEDIUM=500_PANGO_WEIGHT_SEMIBOLD=600_PANGO_WEIGHT_BOLD=700_PANGO_WEIGHT_ULTRABOLD=800_PANGO_WEIGHT_HEAVY=900_PANGO_WEIGHT_ULTRAHEAVY=1000
 // file /usr/include/pango-1.0/pango/pango-font.h line 97
-enum anonymous$4 { PANGO_WEIGHT_THIN=100, PANGO_WEIGHT_ULTRALIGHT=200, PANGO_WEIGHT_LIGHT=300, PANGO_WEIGHT_SEMILIGHT=350, PANGO_WEIGHT_BOOK=380, PANGO_WEIGHT_NORMAL=400, PANGO_WEIGHT_MEDIUM=500, PANGO_WEIGHT_SEMIBOLD=600, PANGO_WEIGHT_BOLD=700, PANGO_WEIGHT_ULTRABOLD=800, PANGO_WEIGHT_HEAVY=900, PANGO_WEIGHT_ULTRAHEAVY=1000 };
+enum anonymous_4 { PANGO_WEIGHT_THIN=100, PANGO_WEIGHT_ULTRALIGHT=200, PANGO_WEIGHT_LIGHT=300, PANGO_WEIGHT_SEMILIGHT=350, PANGO_WEIGHT_BOOK=380, PANGO_WEIGHT_NORMAL=400, PANGO_WEIGHT_MEDIUM=500, PANGO_WEIGHT_SEMIBOLD=600, PANGO_WEIGHT_BOLD=700, PANGO_WEIGHT_ULTRABOLD=800, PANGO_WEIGHT_HEAVY=900, PANGO_WEIGHT_ULTRAHEAVY=1000 };
 
-// #anon_enum$SHORT=0$LONG=1
+// #anon_enum_SHORT=0_LONG=1
 // file src/optionMacros.h line 305
-enum anonymous$9 { SHORT=0, LONG=1 };
+enum anonymous_9 { SHORT=0, LONG=1 };
 
-// #anon_enum$TYPE_NONE=0$TYPE_INPUT=1$TYPE_OUTPUT=2
+// #anon_enum_TYPE_NONE=0_TYPE_INPUT=1_TYPE_OUTPUT=2
 // file src/common.h line 85
-enum anonymous$3 { TYPE_NONE=0, TYPE_INPUT=1, TYPE_OUTPUT=2 };
+enum anonymous_3 { TYPE_NONE=0, TYPE_INPUT=1, TYPE_OUTPUT=2 };
 
-// #anon_enum$td_false=0$td_true=1
+// #anon_enum_td_false=0_td_true=1
 // file src/common.h line 36
-enum anonymous$10 { td_false=0, td_true=1 };
+enum anonymous_10 { td_false=0, td_true=1 };
 
-// tag-#anon#ST[*{S8}$S8$'data'||S32'width'||S32'length'||S32'allocated'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'data'||S32'width'||S32'length'||S32'allocated'||U32'_pad0'|]
 // file src/window.h line 127
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{cS8}$cS8$'name'||*{S8}$S8$'str'||EN#anon_enum$ACTION_NONE=0$ACTION_ATTR_OFF=1$ACTION_ATTR_ON=2$ACTION_CLEAR=3$ACTION_CR=4$ACTION_CUP_OFF=5$ACTION_CUP_ON=6$ACTION_CURSOR_INVIS=7$ACTION_CURSOR_NORMAL=8$ACTION_CURSOR_VVIS=9$ACTION_HOME=10$ACTION_RESTORE_CURSOR=11$ACTION_SAVE_CURSOR=12$ACTION_SCROLL_BCK=13$ACTION_SCROLL_FWD=14$ACTION_TAB=15#{U32}$U32$'action'||S32'attr'|]
+// tag-#anon#ST[*{cS8}_cS8_'name'||*{S8}_S8_'str'||EN#anon_enum_ACTION_NONE=0_ACTION_ATTR_OFF=1_ACTION_ATTR_ON=2_ACTION_CLEAR=3_ACTION_CR=4_ACTION_CUP_OFF=5_ACTION_CUP_ON=6_ACTION_CURSOR_INVIS=7_ACTION_CURSOR_NORMAL=8_ACTION_CURSOR_VVIS=9_ACTION_HOME=10_ACTION_RESTORE_CURSOR=11_ACTION_SAVE_CURSOR=12_ACTION_SCROLL_BCK=13_ACTION_SCROLL_FWD=14_ACTION_TAB=15#{U32}_U32_'action'||S32'attr'|]
 // file src/write_stringlist.c line 44
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[S32'columns'||S32'rows'||S32'delay'||S32'min_delay'|]
 // file src/replay.h line 46
 struct anonymous;
 
-// tag-#anon#ST[S32'paint_x'||S32'paint_y'||S32'width'||S32'height'||S32'default_attrs'||U32'$pad0'||*{SYM#tag-#anon#ST[*{S8}$S8$'data'||S32'width'||S32'length'||S32'allocated'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'data'||S32'width'||S32'length'||S32'allocated'||U32'$pad0'|]#$'lines'||S32'saved_cursor_x'||S32'saved_cursor_y'||S32'cached_pos_line'||S32'cached_pos'||S32'cached_pos_width'||EN#anon_enum$CURSOR_NORM=0$CURSOR_INVIS=1$CURSOR_VVIS=2#{U32}$U32$'cursor_state'||EN#anon_enum$td_false=0$td_true=1#{U32}$U32$'cup_active'||U32'$pad1'||SYM#tag-#anon#ST[*{S8}$S8$'data'||S32'width'||S32'length'||S32'allocated'||U32'$pad0'|]#'output_buffer'|]
+// tag-#anon#ST[S32'paint_x'||S32'paint_y'||S32'width'||S32'height'||S32'default_attrs'||U32'_pad0'||*{SYM#tag-#anon#ST[*{S8}_S8_'data'||S32'width'||S32'length'||S32'allocated'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'data'||S32'width'||S32'length'||S32'allocated'||U32'_pad0'|]#_'lines'||S32'saved_cursor_x'||S32'saved_cursor_y'||S32'cached_pos_line'||S32'cached_pos'||S32'cached_pos_width'||EN#anon_enum_CURSOR_NORM=0_CURSOR_INVIS=1_CURSOR_VVIS=2#{U32}_U32_'cursor_state'||EN#anon_enum_td_false=0_td_true=1#{U32}_U32_'cup_active'||U32'_pad1'||SYM#tag-#anon#ST[*{S8}_S8_'data'||S32'width'||S32'length'||S32'allocated'||U32'_pad0'|]#'output_buffer'|]
 // file src/window.h line 140
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$26;
+struct anonymous_26;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[cS8'idx'||U56'$pad0'||*{cS8}$cS8$'utf8'||*{cS8}$cS8$'alt'|]
+// tag-#anon#ST[cS8'idx'||U56'_pad0'||*{cS8}_cS8_'utf8'||*{cS8}_cS8_'alt'|]
 // file src/write_image.c line 26
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[*{SYM#tag-StringListNode#}$SYM#tag-StringListNode#$'args'||SYM#tag-#anon#ST[S32'columns'||S32'rows'||S32'delay'||S32'min_delay'|]#'size'||S32'number'|]
+// tag-#anon#UN[*{SYM#tag-StringListNode#}_SYM#tag-StringListNode#_'args'||SYM#tag-#anon#ST[S32'columns'||S32'rows'||S32'delay'||S32'min_delay'|]#'size'||S32'number'|]
 // file src/replay.h line 43
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$25;
+union anonymous_25;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$7;
+union anonymous_7;
 
 // tag-ExpNode
 // file src/replay.h line 38
@@ -269,16 +269,16 @@ extern char * __xpg_basename(char *);
 unsigned long int _put_value(unsigned int c, char *dst);
 // _win_add_zerowidth
 // file src/window.c line 691
-static enum anonymous$10 _win_add_zerowidth(struct anonymous$12 *win, const char *str, unsigned long int n);
+static enum anonymous_10 _win_add_zerowidth(struct anonymous_12 *win, const char *str, unsigned long int n);
 // _win_write_blocks
 // file src/window.c line 777
-static enum anonymous$10 _win_write_blocks(struct anonymous$12 *win, const char *blocks, unsigned long int n);
+static enum anonymous_10 _win_write_blocks(struct anonymous_12 *win, const char *blocks, unsigned long int n);
 // adjust_lines
 // file src/window.c line 1068
-static void adjust_lines(struct anonymous$12 *win);
+static void adjust_lines(struct anonymous_12 *win);
 // advance_script
 // file src/compare.c line 161
-static enum anonymous$10 advance_script(struct ExpNode **script, struct anonymous$12 *win);
+static enum anonymous_10 advance_script(struct ExpNode **script, struct anonymous_12 *win);
 // atexit
 // file /usr/include/stdlib.h line 519
 extern signed int atexit(void (*)(void));
@@ -347,7 +347,7 @@ void call_setupterm(const char *name);
 extern void * calloc(unsigned long int, unsigned long int);
 // check_fmt
 // file src/common.c line 749
-enum anonymous$10 check_fmt(const char *str);
+enum anonymous_10 check_fmt(const char *str);
 // check_script
 // file src/common.c line 553
 void check_script(const char *file_name, struct ExpNode *script);
@@ -368,16 +368,16 @@ static void compare_expects(void);
 void copy_attrs_to_terminal(signed int from);
 // copy_fd
 // file src/common.c line 291
-void copy_fd(signed int from, signed int to, enum anonymous$3 dir, struct _IO_FILE *output);
+void copy_fd(signed int from, signed int to, enum anonymous_3 dir, struct _IO_FILE *output);
 // create_space_block
 // file src/window.c line 667
 static unsigned long int create_space_block(signed int attr, char *out);
 // detect_resize_capable
 // file src/common.c line 457
-enum anonymous$10 detect_resize_capable(void);
+enum anonymous_10 detect_resize_capable(void);
 // do_action
 // file src/write_stringlist.c line 113
-static void do_action(struct anonymous$12 *win, enum anonymous$16 action, signed int attr);
+static void do_action(struct anonymous_12 *win, enum anonymous_16 action, signed int attr);
 // do_delay
 // file src/view.c line 92
 static void do_delay(signed int delay);
@@ -389,10 +389,10 @@ static void do_visual_compare(void);
 static void end_client(void);
 // enqueue_pictures
 // file src/picture_queue.c line 34
-void enqueue_pictures(struct anonymous$12 *winA, struct anonymous$12 *winB, const char *name);
+void enqueue_pictures(struct anonymous_12 *winA, struct anonymous_12 *winB, const char *name);
 // ensure_space
 // file src/window.c line 341
-enum anonymous$10 ensure_space(struct anonymous$14 *line, unsigned long int n);
+enum anonymous_10 ensure_space(struct anonymous_14 *line, unsigned long int n);
 // execvp
 // file /usr/include/unistd.h line 578
 extern signed int execvp(const char *, char * const *);
@@ -470,7 +470,7 @@ signed int get_elapsed(void);
 static signed int get_next_delay(struct ExpNode *exp, signed int *min_delay);
 // get_param
 // file src/write_stringlist.c line 94
-static const char * get_param(const char *str, signed int *param, enum anonymous$10 *more);
+static const char * get_param(const char *str, signed int *param, enum anonymous_10 *more);
 // get_script_env
 // file src/common.c line 739
 const char * get_script_env(const struct ExpNode *script, const char *name);
@@ -500,7 +500,7 @@ extern signed int gettimeofday(struct timeval *, struct timezone *);
 static void handle_client_output(struct ExpNode *exp, const char *activity);
 // handle_escape
 // file src/write_stringlist.c line 175
-static signed int handle_escape(char *str, signed int len, struct anonymous$12 *win);
+static signed int handle_escape(char *str, signed int len, struct anonymous_12 *win);
 // handle_exit
 // file src/replay.c line 769
 static void handle_exit(struct ExpNode *exit_data);
@@ -522,9 +522,9 @@ void init_timestamp(void);
 // install_signal_handler
 // file src/common.c line 187
 void install_signal_handler(signed int sig, void (*handler)(signed int), const char *descr);
-// install_signal_handler::handler$object
+// install_signal_handler::handler_object
 //
-void handler$object(signed int);
+void handler_object(signed int);
 // interact
 // file src/replay.c line 829
 static void interact(void);
@@ -596,7 +596,7 @@ void pango_font_description_set_absolute_size(struct _PangoFontDescription *, do
 void pango_font_description_set_family(struct _PangoFontDescription *, const char *);
 // pango_font_description_set_weight
 // file /usr/include/pango-1.0/pango/pango-font.h line 239
-void pango_font_description_set_weight(struct _PangoFontDescription *, enum anonymous$4);
+void pango_font_description_set_weight(struct _PangoFontDescription *, enum anonymous_4);
 // pango_layout_get_unknown_glyphs_count
 // file /usr/include/pango-1.0/pango/pango-layout.h line 209
 signed int pango_layout_get_unknown_glyphs_count(struct _PangoLayout *);
@@ -615,21 +615,21 @@ static unsigned long int parseEscapes(char *string);
 // parse_options
 // file src/replay.c line 131
 static void parse_options(signed int argc, char **argv);
-// parse_options$link1
+// parse_options_link1
 // file src/view.c line 48
-static void parse_options$link1(signed int argc$link1, char **argv$link1);
-// parse_options$link2
+static void parse_options_link1(signed int argc_link1, char **argv_link1);
+// parse_options_link2
 // file src/rerecord.c line 49
-static void parse_options$link2(signed int argc$link2, char **argv$link2);
-// parse_options$link3
+static void parse_options_link2(signed int argc_link2, char **argv_link2);
+// parse_options_link3
 // file src/compare.c line 68
-static void parse_options$link3(signed int argc$link3, char **argv$link3);
-// parse_options$link4
+static void parse_options_link3(signed int argc_link3, char **argv_link3);
+// parse_options_link4
 // file src/record.c line 53
-static void parse_options$link4(signed int argc$link4, char **argv$link4);
+static void parse_options_link4(signed int argc_link4, char **argv_link4);
 // parse_output_buffer
 // file src/write_stringlist.c line 421
-static void parse_output_buffer(struct anonymous$12 *win);
+static void parse_output_buffer(struct anonymous_12 *win);
 // picture_writer_thead
 // file src/picture_queue.c line 64
 static void * picture_writer_thead(void *arg);
@@ -642,18 +642,18 @@ extern signed int poll(struct pollfd *, unsigned long int, signed int);
 // printUsage
 // file src/replay.c line 104
 static void printUsage(void);
-// printUsage$link1
+// printUsage_link1
 // file src/view.c line 41
-static void printUsage$link1(void);
-// printUsage$link2
+static void printUsage_link1(void);
+// printUsage_link2
 // file src/rerecord.c line 39
-static void printUsage$link2(void);
-// printUsage$link3
+static void printUsage_link2(void);
+// printUsage_link3
 // file src/compare.c line 46
-static void printUsage$link3(void);
-// printUsage$link4
+static void printUsage_link3(void);
+// printUsage_link4
 // file src/record.c line 41
-static void printUsage$link4(void);
+static void printUsage_link4(void);
 // print_string_list
 // file src/view.c line 87
 static void print_string_list(struct StringListNode *string);
@@ -662,10 +662,10 @@ static void print_string_list(struct StringListNode *string);
 extern signed int printf(const char *, ...);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$6 *);
+extern signed int pthread_cond_signal(union anonymous_6 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$6 *, union anonymous$7 *);
+extern signed int pthread_cond_wait(union anonymous_6 *, union anonymous_7 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -674,10 +674,10 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$7 *);
+extern signed int pthread_mutex_lock(union anonymous_7 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$7 *);
+extern signed int pthread_mutex_unlock(union anonymous_7 *);
 // putp
 // file /usr/include/curses.h line 855
 extern signed int putp(const char *);
@@ -717,24 +717,24 @@ void save_tty(void);
 // send_keys
 // file src/replay.c line 709
 static void send_keys(struct ExpNode *keys);
-// send_keys$link1
+// send_keys_link1
 // file src/rerecord.c line 113
-static void send_keys$link1(struct ExpNode *keys$link1);
+static void send_keys_link1(struct ExpNode *keys_link1);
 // set_context_from_attr_idx
 // file src/write_image.c line 102
 static void set_context_from_attr_idx(struct _cairo *cr, struct _PangoLayout *layout, struct _PangoFontDescription *normal, struct _PangoFontDescription *bold, signed int attr);
 // set_non_block
 // file src/common.c line 139
-void set_non_block(signed int fd, const char *descr, enum anonymous$10 value);
+void set_non_block(signed int fd, const char *descr, enum anonymous_10 value);
 // set_window_size
 // file src/replay.c line 396
 static void set_window_size(struct ExpNode *size);
-// set_window_size$link1
+// set_window_size_link1
 // file src/view.c line 112
-static void set_window_size$link1(struct ExpNode *size$link1);
-// set_window_size$link2
+static void set_window_size_link1(struct ExpNode *size_link1);
+// set_window_size_link2
 // file src/rerecord.c line 84
-static void set_window_size$link2(struct ExpNode *size$link2);
+static void set_window_size_link2(struct ExpNode *size_link2);
 // set_window_size_internal
 // file src/replay.c line 376
 static void set_window_size_internal(struct ExpNode *size);
@@ -752,16 +752,16 @@ extern signed int setupterm(const char *, signed int, signed int *);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$2 *, signed int);
+extern signed int sigaddset(struct anonymous_2 *, signed int);
 // sigchld_handler
 // file src/common.c line 217
 void sigchld_handler(signed int param);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$2 *);
+extern signed int sigemptyset(struct anonymous_2 *);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$2 *, struct anonymous$2 *);
+extern signed int sigprocmask(signed int, const struct anonymous_2 *, struct anonymous_2 *);
 // sigwinch_handler
 // file src/common.c line 211
 void sigwinch_handler(signed int param);
@@ -887,85 +887,85 @@ static void visual_expect(struct ExpNode *exp);
 extern signed int waitpid(signed int, signed int *, signed int);
 // win_addnstr
 // file src/window.c line 949
-signed int win_addnstr(struct anonymous$12 *win, const char *str, unsigned long int n);
+signed int win_addnstr(struct anonymous_12 *win, const char *str, unsigned long int n);
 // win_clrtobol
 // file src/window.c line 1018
-void win_clrtobol(struct anonymous$12 *win);
+void win_clrtobol(struct anonymous_12 *win);
 // win_clrtobot
 // file src/window.h line 188
-void win_clrtobot(struct anonymous$12 *win);
+void win_clrtobot(struct anonymous_12 *win);
 // win_clrtoeol
 // file src/window.c line 997
-void win_clrtoeol(struct anonymous$12 *win);
+void win_clrtoeol(struct anonymous_12 *win);
 // win_clrtotop
 // file src/window.c line 1053
-void win_clrtotop(struct anonymous$12 *win);
+void win_clrtotop(struct anonymous_12 *win);
 // win_compare
 // file src/window.h line 179
-enum anonymous$10 win_compare(struct anonymous$12 *winA, struct anonymous$12 *winB, struct _IO_FILE *descr_out);
+enum anonymous_10 win_compare(struct anonymous_12 *winA, struct anonymous_12 *winB, struct _IO_FILE *descr_out);
 // win_copy
 // file src/window.c line 142
-struct anonymous$12 * win_copy(struct anonymous$12 *win);
+struct anonymous_12 * win_copy(struct anonymous_12 *win);
 // win_del
 // file src/window.c line 127
-void win_del(struct anonymous$12 *win);
+void win_del(struct anonymous_12 *win);
 // win_get_cup
 // file src/window.c line 1136
-enum anonymous$10 win_get_cup(struct anonymous$12 *win);
+enum anonymous_10 win_get_cup(struct anonymous_12 *win);
 // win_get_default_attrs
 // file src/window.c line 430
-signed int win_get_default_attrs(struct anonymous$12 *win);
+signed int win_get_default_attrs(struct anonymous_12 *win);
 // win_get_height
 // file src/window.c line 301
-signed int win_get_height(struct anonymous$12 *win);
+signed int win_get_height(struct anonymous_12 *win);
 // win_get_paint_x
 // file src/window.c line 293
-signed int win_get_paint_x(struct anonymous$12 *win);
+signed int win_get_paint_x(struct anonymous_12 *win);
 // win_get_paint_y
 // file src/window.c line 297
-signed int win_get_paint_y(struct anonymous$12 *win);
+signed int win_get_paint_y(struct anonymous_12 *win);
 // win_get_width
 // file src/window.c line 305
-signed int win_get_width(struct anonymous$12 *win);
+signed int win_get_width(struct anonymous_12 *win);
 // win_new
 // file src/window.h line 167
-struct anonymous$12 * win_new(signed int height, signed int width);
+struct anonymous_12 * win_new(signed int height, signed int width);
 // win_resize
 // file src/window.h line 173
-enum anonymous$10 win_resize(struct anonymous$12 *win, signed int height, signed int width);
+enum anonymous_10 win_resize(struct anonymous_12 *win, signed int height, signed int width);
 // win_restore_cursor
 // file src/window.c line 1127
-void win_restore_cursor(struct anonymous$12 *win);
+void win_restore_cursor(struct anonymous_12 *win);
 // win_save_cursor
 // file src/window.c line 1122
-void win_save_cursor(struct anonymous$12 *win);
+void win_save_cursor(struct anonymous_12 *win);
 // win_scroll
 // file src/window.c line 309
-void win_scroll(struct anonymous$12 *win);
+void win_scroll(struct anonymous_12 *win);
 // win_scroll_back
 // file src/window.c line 321
-void win_scroll_back(struct anonymous$12 *win);
+void win_scroll_back(struct anonymous_12 *win);
 // win_set_cup
 // file src/window.c line 1132
-void win_set_cup(struct anonymous$12 *win, enum anonymous$10 cup_active);
+void win_set_cup(struct anonymous_12 *win, enum anonymous_10 cup_active);
 // win_set_cursor
 // file src/window.c line 1118
-void win_set_cursor(struct anonymous$12 *win, enum anonymous$15 cursor_state);
+void win_set_cursor(struct anonymous_12 *win, enum anonymous_15 cursor_state);
 // win_set_default_attrs
 // file src/window.c line 426
-void win_set_default_attrs(struct anonymous$12 *win, signed int attrs);
+void win_set_default_attrs(struct anonymous_12 *win, signed int attrs);
 // win_set_paint
 // file src/window.h line 174
-void win_set_paint(struct anonymous$12 *win, signed int y, signed int x);
+void win_set_paint(struct anonymous_12 *win, signed int y, signed int x);
 // win_write_data
 // file src/write_stringlist.h line 20
-void win_write_data(struct anonymous$12 *win, char *data, unsigned long int length);
+void win_write_data(struct anonymous_12 *win, char *data, unsigned long int length);
 // win_write_image
 // file src/window.h line 201
-void win_write_image(struct anonymous$12 *winA, struct anonymous$12 *winB, const char *name);
+void win_write_image(struct anonymous_12 *winA, struct anonymous_12 *winB, const char *name);
 // win_write_stringlist
 // file src/write_stringlist.h line 21
-void win_write_stringlist(struct anonymous$12 *win, struct StringListNode *string);
+void win_write_stringlist(struct anonymous_12 *win, struct StringListNode *string);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
@@ -980,13 +980,13 @@ void write_echo(const unsigned char *buffer, unsigned long int size);
 void write_escaped_string(struct _IO_FILE *out, const char *string, unsigned long int length);
 // write_record
 // file src/common.c line 252
-void write_record(struct _IO_FILE *output, enum anonymous$3 dir, signed int delay, signed int min_delay, unsigned char *buffer, signed long int length);
+void write_record(struct _IO_FILE *output, enum anonymous_3 dir, signed int delay, signed int min_delay, unsigned char *buffer, signed long int length);
 // write_single_image
 // file src/write_image.c line 154
-static void write_single_image(struct anonymous$12 *win, signed int offset, struct _cairo *cr, struct _PangoLayout *layout, struct _PangoFontDescription *font_description, struct _PangoFontDescription *bold_font_description);
+static void write_single_image(struct anonymous_12 *win, signed int offset, struct _cairo *cr, struct _PangoLayout *layout, struct _PangoFontDescription *font_description, struct _PangoFontDescription *bold_font_description);
 // write_text
 // file src/write_stringlist.c line 377
-static signed int write_text(struct anonymous$12 *win, signed int start, signed int end, enum anonymous$10 force);
+static signed int write_text(struct anonymous_12 *win, signed int start, signed int end, enum anonymous_10 force);
 // yy_create_buffer
 // file .objects/input_lex.c line 1361
 struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size);
@@ -1087,7 +1087,7 @@ void yyset_lineno(signed int line_number);
 // file .objects/input_lex.c line 1739
 void yyset_out(struct _IO_FILE *out_str);
 
-struct anonymous$14
+struct anonymous_14
 {
   // data
   char *data;
@@ -1099,7 +1099,7 @@ struct anonymous$14
   signed int allocated;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // _call_addr
   void *_call_addr;
@@ -1109,7 +1109,7 @@ struct anonymous$24
   unsigned int _arch;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // si_addr
   void *si_addr;
@@ -1117,25 +1117,25 @@ struct anonymous$22
   signed short int si_addr_lsb;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // name
   const char *name;
   // str
   char *str;
   // action
-  enum anonymous$16 action;
+  enum anonymous_16 action;
   // attr
   signed int attr;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __lock
   signed int __lock;
@@ -1167,7 +1167,7 @@ struct anonymous
   signed int min_delay;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // paint_x
   signed int paint_x;
@@ -1180,7 +1180,7 @@ struct anonymous$12
   // default_attrs
   signed int default_attrs;
   // lines
-  struct anonymous$14 *lines;
+  struct anonymous_14 *lines;
   // saved_cursor_x
   signed int saved_cursor_x;
   // saved_cursor_y
@@ -1192,14 +1192,14 @@ struct anonymous$12
   // cached_pos_width
   signed int cached_pos_width;
   // cursor_state
-  enum anonymous$15 cursor_state;
+  enum anonymous_15 cursor_state;
   // cup_active
-  enum anonymous$10 cup_active;
+  enum anonymous_10 cup_active;
   // output_buffer
-  struct anonymous$14 output_buffer;
+  struct anonymous_14 output_buffer;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_pid
   signed int si_pid;
@@ -1207,7 +1207,7 @@ struct anonymous$18
   unsigned int si_uid;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // si_pid
   signed int si_pid;
@@ -1229,7 +1229,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // si_pid
   signed int si_pid;
@@ -1239,7 +1239,7 @@ struct anonymous$20
   union sigval si_sigval;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_tid
   signed int si_tid;
@@ -1249,7 +1249,7 @@ struct anonymous$19
   union sigval si_sigval;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // si_band
   signed long int si_band;
@@ -1257,27 +1257,27 @@ struct anonymous$23
   signed int si_fd;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$18 _kill;
+  struct anonymous_18 _kill;
   // _timer
-  struct anonymous$19 _timer;
+  struct anonymous_19 _timer;
   // _rt
-  struct anonymous$20 _rt;
+  struct anonymous_20 _rt;
   // _sigchld
-  struct anonymous$21 _sigchld;
+  struct anonymous_21 _sigchld;
   // _sigfault
-  struct anonymous$22 _sigfault;
+  struct anonymous_22 _sigfault;
   // _sigpoll
-  struct anonymous$23 _sigpoll;
+  struct anonymous_23 _sigpoll;
   // _sigsys
-  struct anonymous$24 _sigsys;
+  struct anonymous_24 _sigsys;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // si_signo
   signed int si_signo;
@@ -1286,10 +1286,10 @@ struct anonymous$26
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$25 _sifields;
+  union anonymous_25 _sifields;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // idx
   const char idx;
@@ -1299,7 +1299,7 @@ struct anonymous$1
   const char *alt;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // args
   struct StringListNode *args;
@@ -1309,18 +1309,18 @@ union anonymous$11
   signed int number;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$26 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_26 *, void *);
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
-  struct anonymous$5 __data;
+  struct anonymous_5 __data;
   // __size
   char __size[48l];
   // __align
@@ -1355,7 +1355,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1368,13 +1368,13 @@ union anonymous$7
 struct ExpNode
 {
   // type
-  enum anonymous$27 type;
+  enum anonymous_27 type;
   // next
   struct ExpNode *next;
   // line
   signed int line;
   // un
-  union anonymous$11 un;
+  union anonymous_11 un;
 };
 
 struct StringListNode
@@ -1474,9 +1474,9 @@ struct attr_map_t
 struct picture_queue_t
 {
   // winA
-  struct anonymous$12 *winA;
+  struct anonymous_12 *winA;
   // winB
-  struct anonymous$12 *winB;
+  struct anonymous_12 *winB;
   // name
   char *name;
   // next
@@ -1504,9 +1504,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$0 __sigaction_handler;
+  union anonymous_0 __sigaction_handler;
   // sa_mask
-  struct anonymous$2 sa_mask;
+  struct anonymous_2 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1644,13 +1644,13 @@ static const char LLsets[9l] = { (const char)-2, (const char)12, (const char)0, 
 signed int LLsymb;
 // LLsymbolTable
 // file src/input.c line 94
-static const char *LLsymbolTable[269l] = { "<EOF>", "<EOF>", "<SOH>", "<STX>", "<ETX>", "<EOT>", "<ENQ>", "<ACK>", "<BEL>", "<BS>", "<TAB>", "<NL>", "<VT>", "<FF>", "<CR>", "<SO>", "<SI>", "<DLE>", "<DC1>", "<DC2>", "<DC3>", "<DC4>", "<NAK>", "<SYN>", "<ETB>", "<CAN>", "<EM>", "<SUB>", "<ESC>", "<FS>", "<GS>", "<RS>", "<US>", "<SP>", "'!'", "'\"'", "'#'", "'$'", "'%'", "'&'", "'''", "'('", "')'", "'*'", "'+'", "','", "'-'", "'.'", "'/'", "'0'", "'1'", "'2'", "'3'", "'4'", "'5'", "'6'", "'7'", "'8'", "'9'", "':'", "';'", "'<'", "'='", "'>'", "'?'", "'@'", "'A'", "'B'", "'C'", "'D'", "'E'", "'F'", "'G'", "'H'", "'I'", "'J'", "'K'", "'L'", "'M'", "'N'", "'O'", "'P'", "'Q'", "'R'", "'S'", "'T'", "'U'", "'V'", "'W'", "'X'", "'Y'", "'Z'", "'['", "'\\'", "']'", "'^'", "'_'", "'`'", "'a'", "'b'", "'c'", "'d'", "'e'", "'f'", "'g'", "'h'", "'i'", "'j'", "'k'", "'l'", "'m'", "'n'", "'o'", "'p'", "'q'", "'r'", "'s'", "'t'", "'u'", "'v'", "'w'", "'x'", "'y'", "'z'", "'{'", "'|'", "'}'", "'~'", "<DEL>", "'Ä'", "'Å'", "'Ç'", "'É'", "'Ñ'", "'Ö'", "'Ü'", "'á'", "'à'", "'â'", "'ä'", "'ã'", "'å'", "'ç'", "'é'", "'è'", "'ê'", "'ë'", "'í'", "'ì'", "'î'", "'ï'", "'ñ'", "'ó'", "'ò'", "'ô'", "'ö'", "'õ'", "'ú'", "'ù'", "'û'", "'ü'", "'†'", "'°'", "'¢'", "'£'", "'§'", "'•'", "'¶'", "'ß'", "'®'", "'©'", "'™'", "'´'", "'¨'", "'≠'", "'Æ'", "'Ø'", "'∞'", "'±'", "'≤'", "'≥'", "'¥'", "'µ'", "'∂'", "'∑'", "'∏'", "'π'", "'∫'", "'ª'", "'º'", "'Ω'", "'æ'", "'ø'", "'¿'", "'¡'", "'¬'", "'√'", "'ƒ'", "'≈'", "'∆'", "'«'", "'»'", "'…'", "' '", "'À'", "'Ã'", "'Õ'", "'Œ'", "'œ'", "'–'", "'—'", "'“'", "'”'", "'‘'", "'’'", "'÷'", "'◊'", "'ÿ'", "'Ÿ'", "'⁄'", "'€'", "'‹'", "'›'", "'ﬁ'", "'ﬂ'", "'‡'", "'·'", "'‚'", "'„'", "'‰'", "'Â'", "'Ê'", "'Á'", "'Ë'", "'È'", "'Í'", "'Î'", "'Ï'", "'Ì'", "'Ó'", "'Ô'", "''", "'Ò'", "'Ú'", "'Û'", "'Ù'", "'ı'", "'ˆ'", "'˜'", "'¯'", "'˘'", "'˙'", "'˚'", "'¸'", "'˝'", "'˛'", "'ˇ'", "<EOF>", "env", "start", "window_size", "expect", "send", "expect_exit", "interact", "number", "string", "expect_suspend", "require_version" };
+static const char *LLsymbolTable[269l] = { "<EOF>", "<EOF>", "<SOH>", "<STX>", "<ETX>", "<EOT>", "<ENQ>", "<ACK>", "<BEL>", "<BS>", "<TAB>", "<NL>", "<VT>", "<FF>", "<CR>", "<SO>", "<SI>", "<DLE>", "<DC1>", "<DC2>", "<DC3>", "<DC4>", "<NAK>", "<SYN>", "<ETB>", "<CAN>", "<EM>", "<SUB>", "<ESC>", "<FS>", "<GS>", "<RS>", "<US>", "<SP>", "'!'", "'\"'", "'#'", "'_'", "'%'", "'&'", "'''", "'('", "')'", "'*'", "'+'", "','", "'-'", "'.'", "'/'", "'0'", "'1'", "'2'", "'3'", "'4'", "'5'", "'6'", "'7'", "'8'", "'9'", "':'", "';'", "'<'", "'='", "'>'", "'?'", "'@'", "'A'", "'B'", "'C'", "'D'", "'E'", "'F'", "'G'", "'H'", "'I'", "'J'", "'K'", "'L'", "'M'", "'N'", "'O'", "'P'", "'Q'", "'R'", "'S'", "'T'", "'U'", "'V'", "'W'", "'X'", "'Y'", "'Z'", "'['", "'\\'", "']'", "'^'", "'_'", "'`'", "'a'", "'b'", "'c'", "'d'", "'e'", "'f'", "'g'", "'h'", "'i'", "'j'", "'k'", "'l'", "'m'", "'n'", "'o'", "'p'", "'q'", "'r'", "'s'", "'t'", "'u'", "'v'", "'w'", "'x'", "'y'", "'z'", "'{'", "'|'", "'}'", "'~'", "<DEL>", "'Ä'", "'Å'", "'Ç'", "'É'", "'Ñ'", "'Ö'", "'Ü'", "'á'", "'à'", "'â'", "'ä'", "'ã'", "'å'", "'ç'", "'é'", "'è'", "'ê'", "'ë'", "'í'", "'ì'", "'î'", "'ï'", "'ñ'", "'ó'", "'ò'", "'ô'", "'ö'", "'õ'", "'ú'", "'ù'", "'û'", "'ü'", "'†'", "'°'", "'¢'", "'£'", "'§'", "'•'", "'¶'", "'ß'", "'®'", "'©'", "'™'", "'´'", "'¨'", "'≠'", "'Æ'", "'Ø'", "'∞'", "'±'", "'≤'", "'≥'", "'¥'", "'µ'", "'∂'", "'∑'", "'∏'", "'π'", "'∫'", "'ª'", "'º'", "'Ω'", "'æ'", "'ø'", "'¿'", "'¡'", "'¬'", "'√'", "'ƒ'", "'≈'", "'∆'", "'«'", "'»'", "'…'", "' '", "'À'", "'Ã'", "'Õ'", "'Œ'", "'œ'", "'–'", "'—'", "'“'", "'”'", "'‘'", "'’'", "'÷'", "'◊'", "'ÿ'", "'Ÿ'", "'⁄'", "'€'", "'‹'", "'›'", "'ﬁ'", "'ﬂ'", "'‡'", "'·'", "'‚'", "'„'", "'‰'", "'Â'", "'Ê'", "'Á'", "'Ë'", "'È'", "'Í'", "'Î'", "'Ï'", "'Ì'", "'Ó'", "'Ô'", "''", "'Ò'", "'Ú'", "'Û'", "'Ù'", "'ı'", "'ˆ'", "'˜'", "'¯'", "'˘'", "'˙'", "'˚'", "'¸'", "'˝'", "'˛'", "'ˇ'", "<EOF>", "env", "start", "window_size", "expect", "send", "expect_exit", "interact", "number", "string", "expect_suspend", "require_version" };
 // LLtcnt
 // file src/input.c line 7
 static signed int LLtcnt[13l];
 // acs_map
 // file src/write_image.c line 31
-static struct anonymous$1 acs_map[32l] = { { .idx=(const char)125, .utf8="¬£", .alt="f" },
+static struct anonymous_1 acs_map[32l] = { { .idx=(const char)125, .utf8="¬£", .alt="f" },
     { .idx=(const char)46, .utf8="‚ñº", .alt="v" },
     { .idx=(const char)44, .utf8="‚óÄ", .alt="<" },
     { .idx=(const char)43, .utf8="‚ñ∂", .alt=">" },
@@ -1714,28 +1714,28 @@ signed int cell_width = 8;
 static const char controlMap[33l] = { '@', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '[', '\', ']', '_', '^', 0 };
 // describe
 // file src/replay.c line 81
-static enum anonymous$10 describe;
-// describe$link1
+static enum anonymous_10 describe;
+// describe_link1
 // file src/compare.c line 35
-static enum anonymous$10 describe$link1;
+static enum anonymous_10 describe_link1;
 // directory
 // file src/rerecord.c line 33
 static const char *directory;
-// directory$link1
+// directory_link1
 // file src/record.c line 36
-static const char *directory$link1;
+static const char *directory_link1;
 // display
 // file src/replay.c line 75
-static enum anonymous$10 display;
+static enum anonymous_10 display;
 // environment
 // file src/record.c line 35
 static char *environment;
 // exited
 // file src/replay.c line 91
-static enum anonymous$10 exited;
+static enum anonymous_10 exited;
 // expectWin
 // file src/replay.c line 101
-static struct anonymous$12 *expectWin;
+static struct anonymous_12 *expectWin;
 // fdset
 // file src/replay.c line 98
 static struct pollfd fdset[2l];
@@ -1744,22 +1744,22 @@ static struct pollfd fdset[2l];
 const char *file_name;
 // finished
 // file src/picture_queue.c line 32
-static enum anonymous$10 finished;
+static enum anonymous_10 finished;
 // first_directive
 // file input.g line 26
-static enum anonymous$10 first_directive;
+static enum anonymous_10 first_directive;
 // iconv_handle
 // file src/write_stringlist.c line 51
 static void *iconv_handle;
 // input
 // file src/replay.c line 71
 static char *input;
-// input$link1
+// input_link1
 // file src/view.c line 38
-static const char *input$link1;
-// input$link2
+static const char *input_link1;
+// input_link2
 // file src/rerecord.c line 36
-static char *input$link2;
+static char *input_link2;
 // inputA
 // file src/compare.c line 31
 static const char *inputA;
@@ -1769,18 +1769,18 @@ static const char *inputB;
 // key_delay
 // file src/replay.c line 74
 static double key_delay;
-// key_delay$link1
+// key_delay_link1
 // file src/view.c line 36
-static signed int key_delay$link1;
+static signed int key_delay_link1;
 // key_delay_scale
 // file src/replay.c line 73
 static double key_delay_scale = 1.0;
-// key_delay_scale$link1
+// key_delay_scale_link1
 // file src/view.c line 37
-static double key_delay_scale$link1 = 1.0;
+static double key_delay_scale_link1 = 1.0;
 // last_type
 // file src/common.c line 45
-static enum anonymous$3 last_type = (enum anonymous$3)TYPE_NONE;
+static enum anonymous_3 last_type = (enum anonymous_3)TYPE_NONE;
 // line_number
 // file input_lex.l line 23
 signed int line_number;
@@ -1793,39 +1793,39 @@ static const char *log_name;
 // master
 // file src/replay.c line 94
 static signed int master;
-// master$link1
+// master_link1
 // file src/rerecord.c line 30
-static signed int master$link1;
+static signed int master_link1;
 // no_resize
 // file src/replay.c line 77
-static enum anonymous$10 no_resize;
+static enum anonymous_10 no_resize;
 // on_error
 // file src/replay.c line 76
-static enum anonymous$13 on_error = (enum anonymous$13)ON_ERROR_ABORT;
+static enum anonymous_13 on_error = (enum anonymous_13)ON_ERROR_ABORT;
 // option_font
 // file src/write_image.c line 24
 const char *option_font = "DejaVu Sans Mono";
 // output
 // file src/rerecord.c line 34
 static char *output;
-// output$link1
+// output_link1
 // file src/record.c line 35
-static char *output$link1;
+static char *output_link1;
 // output_file
 // file src/rerecord.c line 35
 static struct _IO_FILE *output_file;
-// output_file$link1
+// output_file_link1
 // file src/record.c line 38
-static struct _IO_FILE *output_file$link1;
+static struct _IO_FILE *output_file_link1;
 // picture_name
 // file src/replay.c line 83
 static const char *picture_name;
-// picture_name$link1
+// picture_name_link1
 // file src/compare.c line 39
-static const char *picture_name$link1;
+static const char *picture_name_link1;
 // picture_queue_cond
 // file src/picture_queue.c line 31
-static union anonymous$6 picture_queue_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_6 picture_queue_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1834,7 +1834,7 @@ static union anonymous$6 picture_queue_cond = { .__data={ .__lock=0, .__futex=(u
 static struct picture_queue_t *picture_queue_head;
 // picture_queue_lock
 // file src/picture_queue.c line 30
-static union anonymous$7 picture_queue_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_7 picture_queue_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // picture_queue_tail
@@ -1849,24 +1849,24 @@ static unsigned long int picture_thread;
 // pid
 // file src/replay.c line 95
 static signed int pid;
-// pid$link1
+// pid_link1
 // file src/rerecord.c line 31
-static signed int pid$link1;
+static signed int pid_link1;
 // prog_start_index
 // file src/record.c line 37
 static signed int prog_start_index = -1;
 // realWin
 // file src/replay.c line 101
-static struct anonymous$12 *realWin;
+static struct anonymous_12 *realWin;
 // resize_capable
 // file src/replay.c line 90
-static enum anonymous$10 resize_capable;
-// resize_capable$link1
+static enum anonymous_10 resize_capable;
+// resize_capable_link1
 // file src/view.c line 39
-static enum anonymous$10 resize_capable$link1;
-// resize_capable$link2
+static enum anonymous_10 resize_capable_link1;
+// resize_capable_link2
 // file src/rerecord.c line 32
-static enum anonymous$10 resize_capable$link2;
+static enum anonymous_10 resize_capable_link2;
 // saved
 // file src/common.c line 43
 static struct termios saved;
@@ -1884,7 +1884,7 @@ static struct ExpNode *scriptB;
 signed int signal_pipe[2l];
 // start_parsed
 // file input.g line 25
-static enum anonymous$10 start_parsed;
+static enum anonymous_10 start_parsed;
 // status
 // file src/replay.c line 92
 static signed int status;
@@ -1899,74 +1899,74 @@ extern struct _IO_FILE *stdin;
 extern struct _IO_FILE *stdout;
 // stop_on_difference
 // file src/compare.c line 33
-static enum anonymous$10 stop_on_difference;
+static enum anonymous_10 stop_on_difference;
 // strip_location_reports
 // file src/rerecord.c line 37
-static enum anonymous$10 strip_location_reports = (enum anonymous$10)td_true;
+static enum anonymous_10 strip_location_reports = (enum anonymous_10)td_true;
 // terminfo_mappings
 // file src/write_stringlist.c line 53
-static struct anonymous$17 terminfo_mappings[31l] = { { .name="blink", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_ON,
+static struct anonymous_17 terminfo_mappings[31l] = { { .name="blink", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_ON,
     .attr=(signed int)(1L << 4) },
-    { .name="bold", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_ON, .attr=(signed int)(1L << 2) },
-    { .name="civis", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_CURSOR_INVIS,
+    { .name="bold", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_ON, .attr=(signed int)(1L << 2) },
+    { .name="civis", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_CURSOR_INVIS,
     .attr=0 },
-    { .name="clear", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_CLEAR,
+    { .name="clear", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_CLEAR,
     .attr=0 },
-    { .name="cnorm", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_CURSOR_NORMAL,
+    { .name="cnorm", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_CURSOR_NORMAL,
     .attr=0 },
-    { .name="cr", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_CR, .attr=0 },
-    { .name="cvvis", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_CURSOR_VVIS,
+    { .name="cr", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_CR, .attr=0 },
+    { .name="cvvis", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_CURSOR_VVIS,
     .attr=0 },
-    { .name="home", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_HOME, .attr=0 },
-    { .name="ht", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_TAB, .attr=0 },
-    { .name="hts", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_NONE, .attr=0 },
-    { .name="ind", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_SCROLL_FWD, .attr=0 },
-    { .name="invis", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_ON,
+    { .name="home", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_HOME, .attr=0 },
+    { .name="ht", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_TAB, .attr=0 },
+    { .name="hts", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_NONE, .attr=0 },
+    { .name="ind", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_SCROLL_FWD, .attr=0 },
+    { .name="invis", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_ON,
     .attr=(signed int)(1L << 0) },
-    { .name="op", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_OFF, .attr=0x1ff << 8 | 0x1ff << 8 + 9 },
-    { .name="rc", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_RESTORE_CURSOR, .attr=0 },
-    { .name="rev", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_ON, .attr=(signed int)(1L << 3) },
-    { .name="ri", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_SCROLL_BCK, .attr=0 },
-    { .name="rmacs", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_OFF,
+    { .name="op", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_OFF, .attr=0x1ff << 8 | 0x1ff << 8 + 9 },
+    { .name="rc", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_RESTORE_CURSOR, .attr=0 },
+    { .name="rev", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_ON, .attr=(signed int)(1L << 3) },
+    { .name="ri", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_SCROLL_BCK, .attr=0 },
+    { .name="rmacs", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_OFF,
     .attr=(signed int)(1L << 6) },
-    { .name="rmam", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_NONE, .attr=0 },
-    { .name="rmcup", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_CUP_OFF,
+    { .name="rmam", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_NONE, .attr=0 },
+    { .name="rmcup", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_CUP_OFF,
     .attr=0 },
-    { .name="rmir", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_NONE, .attr=0 },
-    { .name="rmkx", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_NONE, .attr=0 },
-    { .name="rmso", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_OFF, .attr=(signed int)(1L << 7) },
-    { .name="rmul", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_OFF, .attr=(signed int)(1L << 1) },
-    { .name="sc", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_SAVE_CURSOR, .attr=0 },
-    { .name="smacs", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_ON,
+    { .name="rmir", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_NONE, .attr=0 },
+    { .name="rmkx", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_NONE, .attr=0 },
+    { .name="rmso", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_OFF, .attr=(signed int)(1L << 7) },
+    { .name="rmul", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_OFF, .attr=(signed int)(1L << 1) },
+    { .name="sc", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_SAVE_CURSOR, .attr=0 },
+    { .name="smacs", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_ON,
     .attr=(signed int)(1L << 6) },
-    { .name="smam", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_NONE, .attr=0 },
-    { .name="smcup", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_CUP_ON,
+    { .name="smam", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_NONE, .attr=0 },
+    { .name="smcup", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_CUP_ON,
     .attr=0 },
-    { .name="smir", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_NONE, .attr=0 },
-    { .name="smkx", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_NONE, .attr=0 },
-    { .name="smso", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_ON, .attr=(signed int)(1L << 7) },
-    { .name="smul", .str=(char *)(void *)0, .action=(enum anonymous$16)ACTION_ATTR_ON, .attr=(signed int)(1L << 1) } };
+    { .name="smir", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_NONE, .attr=0 },
+    { .name="smkx", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_NONE, .attr=0 },
+    { .name="smso", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_ON, .attr=(signed int)(1L << 7) },
+    { .name="smul", .str=(char *)(void *)0, .action=(enum anonymous_16)ACTION_ATTR_ON, .attr=(signed int)(1L << 1) } };
 // timestamp
 // file src/common.c line 44
 static struct timeval timestamp;
-// timestamp$link1
+// timestamp_link1
 // file src/replay.c line 93
-static struct timeval timestamp$link1;
+static struct timeval timestamp_link1;
 // visual_compare
 // file src/replay.c line 80
-static enum anonymous$10 visual_compare;
-// visual_compare$link1
+static enum anonymous_10 visual_compare;
+// visual_compare_link1
 // file src/compare.c line 36
-static enum anonymous$10 visual_compare$link1;
+static enum anonymous_10 visual_compare_link1;
 // winA
 // file src/compare.c line 37
-static struct anonymous$12 *winA;
+static struct anonymous_12 *winA;
 // winB
 // file src/compare.c line 37
-static struct anonymous$12 *winB;
+static struct anonymous_12 *winB;
 // win_bce
 // file src/window.c line 64
-enum anonymous$10 win_bce;
+enum anonymous_10 win_bce;
 // yy_accept
 // file .objects/input_lex.c line 384
 static const signed short int yy_accept[79l] = { (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)18, (const signed short int)16, (const signed short int)1, (const signed short int)2, (const signed short int)16, (const signed short int)3, (const signed short int)13, (const signed short int)15, (const signed short int)16, (const signed short int)16, (const signed short int)16, (const signed short int)16, (const signed short int)16, (const signed short int)0, (const signed short int)14, (const signed short int)0, (const signed short int)3, (const signed short int)13, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)4, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)8, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)5, (const signed short int)0, (const signed short int)7, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)11, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)9, (const signed short int)0, (const signed short int)0, (const signed short int)6, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)10, (const signed short int)0, (const signed short int)12, (const signed short int)0 };
@@ -2047,8 +2047,8 @@ static void LL0_input(void)
   struct ExpNode *command;
   memset((void *)&command, 0, sizeof(struct ExpNode *) /*8ul*/ );
   struct ExpNode **current = &script;
-  start_parsed = (enum anonymous$10)td_false;
-  first_directive = (enum anonymous$10)td_true;
+  start_parsed = (enum anonymous_10)td_false;
+  first_directive = (enum anonymous_10)td_true;
   LLscnt[(signed long int)0] = LLscnt[(signed long int)0] + 1;
   if(LLcsymb == 1 || LLcsymb == 2 || LLcsymb == 3 || LLcsymb == 4 || LLcsymb == 5 || LLcsymb == 6 || LLcsymb == 7 || LLcsymb == 10 || LLcsymb == 11)
     goto __CPROVER_DUMP_L3;
@@ -2063,7 +2063,7 @@ __CPROVER_DUMP_L3:
 
 LL_1:
   ;
-  signed int return_value_LLskip$1;
+  signed int return_value_LLskip_1;
   while((_Bool)1)
   {
     if(LLcsymb == 0)
@@ -2072,8 +2072,8 @@ LL_1:
     if(LLcsymb == 1 || LLcsymb == 2 || LLcsymb == 3 || LLcsymb == 4 || LLcsymb == 5 || LLcsymb == 6 || LLcsymb == 7 || LLcsymb == 10 || LLcsymb == 11)
       goto LL_0;
 
-    return_value_LLskip$1=LLskip();
-    if(return_value_LLskip$1 == 0)
+    return_value_LLskip_1=LLskip();
+    if(return_value_LLskip_1 == 0)
       break;
 
   }
@@ -2089,7 +2089,7 @@ LL_0:
   command=LL1_command();
   *current = command;
   current = &(*current)->next;
-  first_directive = (enum anonymous$10)td_false;
+  first_directive = (enum anonymous_10)td_false;
   goto __CPROVER_DUMP_L8;
 
 __CPROVER_DUMP_L7:
@@ -2113,20 +2113,20 @@ static struct ExpNode * LL1_command(void)
   struct ExpNode *LLretval;
   memset((void *)&LLretval, 0, sizeof(struct ExpNode *) /*8ul*/ );
   struct StringListNode **next;
-  void *return_value_safe_calloc$1;
-  return_value_safe_calloc$1=safe_calloc(sizeof(struct ExpNode) /*40ul*/ );
-  LLretval = (struct ExpNode *)return_value_safe_calloc$1;
+  void *return_value_safe_calloc_1;
+  return_value_safe_calloc_1=safe_calloc(sizeof(struct ExpNode) /*40ul*/ );
+  LLretval = (struct ExpNode *)return_value_safe_calloc_1;
   next = &LLretval->un.args;
 
 LL_0:
   ;
-  signed int return_value_LLskip$5;
-  signed int return_value_LLskip$8;
-  signed int return_value_LLskip$9;
-  signed int return_value_LLskip$10;
-  signed int return_value_LLskip$13;
-  signed int return_value_LLskip$15;
-  signed int return_value_LLskip$17;
+  signed int return_value_LLskip_5;
+  signed int return_value_LLskip_8;
+  signed int return_value_LLskip_9;
+  signed int return_value_LLskip_10;
+  signed int return_value_LLskip_13;
+  signed int return_value_LLskip_15;
+  signed int return_value_LLskip_17;
   while((_Bool)1)
   {
     if(!(LLcsymb == 1))
@@ -2173,11 +2173,11 @@ LL_0:
       if(!(start_parsed == /*enum*/td_false))
         fatal("%s:%d: env directive after start directive\n", file_name, line_number);
 
-      LLretval->type = (enum anonymous$27)EXP_ENV;
+      LLretval->type = (enum anonymous_27)EXP_ENV;
       LLretval->line = line_number;
-      void *return_value_safe_calloc$2;
-      return_value_safe_calloc$2=safe_calloc(sizeof(struct StringListNode) /*32ul*/ );
-      *next = (struct StringListNode *)return_value_safe_calloc$2;
+      void *return_value_safe_calloc_2;
+      return_value_safe_calloc_2=safe_calloc(sizeof(struct StringListNode) /*32ul*/ );
+      *next = (struct StringListNode *)return_value_safe_calloc_2;
       (*next)->string=safe_strdup_remove_quotes(yytext);
       next = &(*next)->next;
       LLread();
@@ -2185,13 +2185,13 @@ LL_0:
       if(!(LLsymb == 265))
         LLerror(265);
 
-      void *return_value_safe_calloc$3;
-      return_value_safe_calloc$3=safe_calloc(sizeof(struct StringListNode) /*32ul*/ );
-      *next = (struct StringListNode *)return_value_safe_calloc$3;
+      void *return_value_safe_calloc_3;
+      return_value_safe_calloc_3=safe_calloc(sizeof(struct StringListNode) /*32ul*/ );
+      *next = (struct StringListNode *)return_value_safe_calloc_3;
       (*next)->string=safe_strdup_remove_quotes(yytext);
-      unsigned long int return_value_parseEscapes$4;
-      return_value_parseEscapes$4=parseEscapes((*next)->string);
-      (*next)->length = (signed int)return_value_parseEscapes$4;
+      unsigned long int return_value_parseEscapes_4;
+      return_value_parseEscapes_4=parseEscapes((*next)->string);
+      (*next)->length = (signed int)return_value_parseEscapes_4;
       LLread();
       goto __CPROVER_DUMP_L86;
 
@@ -2210,7 +2210,7 @@ LL_0:
       if(first_directive == /*enum*/td_false)
         fatal("%s:%d: require_version directive should be the first directive in the recording\n", file_name, line_number);
 
-      LLretval->type = (enum anonymous$27)EXP_REQUIRE_VERSION;
+      LLretval->type = (enum anonymous_27)EXP_REQUIRE_VERSION;
       LLretval->line = line_number;
       LLretval->un.number=atoi(yytext);
       if(!(LLretval->un.number >= 1))
@@ -2229,8 +2229,8 @@ LL_0:
       if(!(start_parsed == /*enum*/td_false))
         fatal("%s:%d: Multiple start directives specified\n", file_name, line_number);
 
-      start_parsed = (enum anonymous$10)td_true;
-      LLretval->type = (enum anonymous$27)EXP_START;
+      start_parsed = (enum anonymous_10)td_true;
+      LLretval->type = (enum anonymous_27)EXP_START;
       LLretval->line = line_number;
       LLread();
       if(LLcsymb == 9)
@@ -2254,8 +2254,8 @@ LL_0:
         if(LLcsymb == 9)
           goto LL_1;
 
-        return_value_LLskip$5=LLskip();
-        if(return_value_LLskip$5 == 0)
+        return_value_LLskip_5=LLskip();
+        if(return_value_LLskip_5 == 0)
           break;
 
       }
@@ -2270,13 +2270,13 @@ LL_0:
       if(!(LLsymb == 265))
         LLerror(265);
 
-      void *return_value_safe_calloc$6;
-      return_value_safe_calloc$6=safe_calloc(sizeof(struct StringListNode) /*32ul*/ );
-      *next = (struct StringListNode *)return_value_safe_calloc$6;
+      void *return_value_safe_calloc_6;
+      return_value_safe_calloc_6=safe_calloc(sizeof(struct StringListNode) /*32ul*/ );
+      *next = (struct StringListNode *)return_value_safe_calloc_6;
       (*next)->string=safe_strdup_remove_quotes(yytext);
-      unsigned long int return_value_parseEscapes$7;
-      return_value_parseEscapes$7=parseEscapes((*next)->string);
-      (*next)->length = (signed int)return_value_parseEscapes$7;
+      unsigned long int return_value_parseEscapes_7;
+      return_value_parseEscapes_7=parseEscapes((*next)->string);
+      (*next)->length = (signed int)return_value_parseEscapes_7;
       next = &(*next)->next;
       LLread();
       goto __CPROVER_DUMP_L23;
@@ -2308,7 +2308,7 @@ LL_0:
       if(!(LLsymb == 264))
         LLerror(264);
 
-      LLretval->type = (enum anonymous$27)EXP_WINDOW_SIZE;
+      LLretval->type = (enum anonymous_27)EXP_WINDOW_SIZE;
       LLretval->line = line_number;
       LLretval->un.size.columns=atoi(yytext);
       LLread();
@@ -2329,8 +2329,8 @@ LL_0:
         if(LLcsymb == 8)
           goto __CPROVER_DUMP_L31;
 
-        return_value_LLskip$8=LLskip();
-        if(return_value_LLskip$8 == 0)
+        return_value_LLskip_8=LLskip();
+        if(return_value_LLskip_8 == 0)
           break;
 
       }
@@ -2362,8 +2362,8 @@ LL_0:
         if(LLcsymb == 12)
           goto __CPROVER_DUMP_L35;
 
-        return_value_LLskip$9=LLskip();
-        if(return_value_LLskip$9 == 0)
+        return_value_LLskip_9=LLskip();
+        if(return_value_LLskip_9 == 0)
           break;
 
       }
@@ -2410,7 +2410,7 @@ LL_0:
       if(start_parsed == /*enum*/td_false)
         fatal("%s:%d: expect directive before start directive\n", file_name, line_number);
 
-      LLretval->type = (enum anonymous$27)EXP_EXPECT;
+      LLretval->type = (enum anonymous_27)EXP_EXPECT;
       LLretval->line = line_number;
       LLread();
       if(LLcsymb == 9)
@@ -2434,8 +2434,8 @@ LL_0:
         if(LLcsymb == 9)
           goto LL_5;
 
-        return_value_LLskip$10=LLskip();
-        if(return_value_LLskip$10 == 0)
+        return_value_LLskip_10=LLskip();
+        if(return_value_LLskip_10 == 0)
           break;
 
       }
@@ -2450,13 +2450,13 @@ LL_0:
       if(!(LLsymb == 265))
         LLerror(265);
 
-      void *return_value_safe_calloc$11;
-      return_value_safe_calloc$11=safe_calloc(sizeof(struct StringListNode) /*32ul*/ );
-      *next = (struct StringListNode *)return_value_safe_calloc$11;
+      void *return_value_safe_calloc_11;
+      return_value_safe_calloc_11=safe_calloc(sizeof(struct StringListNode) /*32ul*/ );
+      *next = (struct StringListNode *)return_value_safe_calloc_11;
       (*next)->string=safe_strdup_remove_quotes(yytext);
-      unsigned long int return_value_parseEscapes$12;
-      return_value_parseEscapes$12=parseEscapes((*next)->string);
-      (*next)->length = (signed int)return_value_parseEscapes$12;
+      unsigned long int return_value_parseEscapes_12;
+      return_value_parseEscapes_12=parseEscapes((*next)->string);
+      (*next)->length = (signed int)return_value_parseEscapes_12;
       next = &(*next)->next;
       LLread();
       goto __CPROVER_DUMP_L52;
@@ -2484,7 +2484,7 @@ LL_0:
       if(start_parsed == /*enum*/td_false)
         fatal("%s:%d: send directive before start directive\n", file_name, line_number);
 
-      LLretval->type = (enum anonymous$27)EXP_SEND;
+      LLretval->type = (enum anonymous_27)EXP_SEND;
       LLretval->line = line_number;
       LLread();
       if(LLcsymb == 8)
@@ -2508,8 +2508,8 @@ LL_0:
         if(LLcsymb == 8)
           goto LL_7;
 
-        return_value_LLskip$13=LLskip();
-        if(return_value_LLskip$13 == 0)
+        return_value_LLskip_13=LLskip();
+        if(return_value_LLskip_13 == 0)
           break;
 
       }
@@ -2526,9 +2526,9 @@ LL_0:
       if(!(LLsymb == 264))
         LLerror(264);
 
-      void *return_value_safe_calloc$14;
-      return_value_safe_calloc$14=safe_calloc(sizeof(struct StringListNode) /*32ul*/ );
-      *next = (struct StringListNode *)return_value_safe_calloc$14;
+      void *return_value_safe_calloc_14;
+      return_value_safe_calloc_14=safe_calloc(sizeof(struct StringListNode) /*32ul*/ );
+      *next = (struct StringListNode *)return_value_safe_calloc_14;
       (*next)->delay=atoi(yytext);
       LLread();
 
@@ -2542,8 +2542,8 @@ LL_0:
         if(LLcsymb == 12)
           goto __CPROVER_DUMP_L66;
 
-        return_value_LLskip$15=LLskip();
-        if(return_value_LLskip$15 == 0)
+        return_value_LLskip_15=LLskip();
+        if(return_value_LLskip_15 == 0)
           break;
 
       }
@@ -2580,9 +2580,9 @@ LL_0:
         LLerror(265);
 
       (*next)->string=safe_strdup_remove_quotes(yytext);
-      unsigned long int return_value_parseEscapes$16;
-      return_value_parseEscapes$16=parseEscapes((*next)->string);
-      (*next)->length = (signed int)return_value_parseEscapes$16;
+      unsigned long int return_value_parseEscapes_16;
+      return_value_parseEscapes_16=parseEscapes((*next)->string);
+      (*next)->length = (signed int)return_value_parseEscapes_16;
       next = &(*next)->next;
       LLread();
       goto __CPROVER_DUMP_L73;
@@ -2615,14 +2615,14 @@ LL_0:
       if(start_parsed == /*enum*/td_false)
         fatal("%s:%d: expect_exit directive before start directive\n", file_name, line_number);
 
-      LLretval->type = (enum anonymous$27)EXP_EXPECT_EXIT;
+      LLretval->type = (enum anonymous_27)EXP_EXPECT_EXIT;
       LLretval->line = line_number;
       LLretval->un.number=atoi(yytext);
       LLread();
       goto __CPROVER_DUMP_L86;
     }
-    return_value_LLskip$17=LLskip();
-    if(return_value_LLskip$17 == 0)
+    return_value_LLskip_17=LLskip();
+    if(return_value_LLskip_17 == 0)
       break;
 
   }
@@ -2636,7 +2636,7 @@ __CPROVER_DUMP_L80:
   if(start_parsed == /*enum*/td_false)
     fatal("%s:%d: expect_suspend directive before start directive\n", file_name, line_number);
 
-  LLretval->type = (enum anonymous$27)EXP_EXPECT_SUSPEND;
+  LLretval->type = (enum anonymous_27)EXP_EXPECT_SUSPEND;
   LLretval->line = line_number;
   LLread();
   goto __CPROVER_DUMP_L86;
@@ -2650,7 +2650,7 @@ __CPROVER_DUMP_L83:
   if(start_parsed == /*enum*/td_false)
     fatal("%s:%d: interact directive before start directive\n", file_name, line_number);
 
-  LLretval->type = (enum anonymous$27)EXP_INTERACT;
+  LLretval->type = (enum anonymous_27)EXP_INTERACT;
   LLretval->line = line_number;
   LLread();
   goto __CPROVER_DUMP_L86;
@@ -2708,9 +2708,9 @@ static signed int LLlexerWrapper(void)
 {
   if(LLreissue == -2)
   {
-    signed int return_value_yylex$1;
-    return_value_yylex$1=yylex();
-    return return_value_yylex$1;
+    signed int return_value_yylex_1;
+    return_value_yylex_1=yylex();
+    return return_value_yylex_1;
   }
 
   else
@@ -2725,8 +2725,8 @@ static signed int LLlexerWrapper(void)
 // file input.g line 33
 void LLmessage(signed int class)
 {
-  const char *return_value_LLgetSymbol$1;
-  const char *return_value_LLgetSymbol$2;
+  const char *return_value_LLgetSymbol_1;
+  const char *return_value_LLgetSymbol_2;
   if(!(class == -1))
   {
     if(class == 0)
@@ -2736,19 +2736,19 @@ void LLmessage(signed int class)
 
   else
   {
-    return_value_LLgetSymbol$1=LLgetSymbol(LLsymb);
-    fatal("%s:%d: Unexpected %s at end of file\n", file_name, line_number, return_value_LLgetSymbol$1);
+    return_value_LLgetSymbol_1=LLgetSymbol(LLsymb);
+    fatal("%s:%d: Unexpected %s at end of file\n", file_name, line_number, return_value_LLgetSymbol_1);
 
   __CPROVER_DUMP_L2:
     ;
-    return_value_LLgetSymbol$2=LLgetSymbol(LLsymb);
-    fatal("%s:%d: Unexpected %s\n", file_name, line_number, return_value_LLgetSymbol$2);
+    return_value_LLgetSymbol_2=LLgetSymbol(LLsymb);
+    fatal("%s:%d: Unexpected %s\n", file_name, line_number, return_value_LLgetSymbol_2);
   }
-  const char *return_value_LLgetSymbol$3;
-  return_value_LLgetSymbol$3=LLgetSymbol(class);
-  const char *return_value_LLgetSymbol$4;
-  return_value_LLgetSymbol$4=LLgetSymbol(LLsymb);
-  fatal("%s:%d: Expected %s before %s\n", file_name, line_number, return_value_LLgetSymbol$3, return_value_LLgetSymbol$4);
+  const char *return_value_LLgetSymbol_3;
+  return_value_LLgetSymbol_3=LLgetSymbol(class);
+  const char *return_value_LLgetSymbol_4;
+  return_value_LLgetSymbol_4=LLgetSymbol(LLsymb);
+  fatal("%s:%d: Expected %s before %s\n", file_name, line_number, return_value_LLgetSymbol_3, return_value_LLgetSymbol_4);
 }
 
 // LLread
@@ -2871,7 +2871,7 @@ unsigned long int _put_value(unsigned int c, char *dst)
 
 // _win_add_zerowidth
 // file src/window.c line 691
-static enum anonymous$10 _win_add_zerowidth(struct anonymous$12 *win, const char *str, unsigned long int n)
+static enum anonymous_10 _win_add_zerowidth(struct anonymous_12 *win, const char *str, unsigned long int n)
 {
   unsigned int block_size;
   unsigned int new_block_size;
@@ -2880,28 +2880,28 @@ static enum anonymous$10 _win_add_zerowidth(struct anonymous$12 *win, const char
   char new_block_size_str[6l];
   signed int pos_width;
   signed int i;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  if(win->lines == ((struct anonymous$14 *)NULL))
-    return (enum anonymous$10)td_false;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  if(win->lines == ((struct anonymous_14 *)NULL))
+    return (enum anonymous_10)td_false;
 
   else
     if(win->paint_y >= win->height)
-      return (enum anonymous$10)td_true;
+      return (enum anonymous_10)td_true;
 
     else
       if(!(win->width >= win->paint_x))
-        return (enum anonymous$10)td_true;
+        return (enum anonymous_10)td_true;
 
       else
       {
         if(!(win->cached_pos_line == win->paint_y))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = win->cached_pos_width >= win->paint_x ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = win->cached_pos_width >= win->paint_x ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           win->cached_pos_line = win->paint_y;
           win->cached_pos = 0;
@@ -2909,24 +2909,24 @@ static enum anonymous$10 _win_add_zerowidth(struct anonymous$12 *win, const char
         }
 
         if((win->lines + (signed long int)win->paint_y)->length == 0)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = win->paint_x == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = win->paint_x == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = win->paint_x > (win->lines + (signed long int)win->paint_y)->width ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          return (enum anonymous$10)td_true;
+          tmp_if_expr_3 = win->paint_x > (win->lines + (signed long int)win->paint_y)->width ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          return (enum anonymous_10)td_true;
 
         else
         {
-          enum anonymous$10 return_value_ensure_space$4;
-          return_value_ensure_space$4=ensure_space(win->lines + (signed long int)win->paint_y, n + (unsigned long int)1);
-          if(return_value_ensure_space$4 == /*enum*/td_false)
-            return (enum anonymous$10)td_false;
+          enum anonymous_10 return_value_ensure_space_4;
+          return_value_ensure_space_4=ensure_space(win->lines + (signed long int)win->paint_y, n + (unsigned long int)1);
+          if(return_value_ensure_space_4 == /*enum*/td_false)
+            return (enum anonymous_10)td_false;
 
           else
           {
@@ -2942,7 +2942,7 @@ static enum anonymous$10 _win_add_zerowidth(struct anonymous$12 *win, const char
 
             }
             if(!(win->paint_x >= pos_width))
-              return (enum anonymous$10)td_true;
+              return (enum anonymous_10)td_true;
 
             else
             {
@@ -2957,7 +2957,7 @@ static enum anonymous$10 _win_add_zerowidth(struct anonymous$12 *win, const char
 
               memcpy((void *)((win->lines + (signed long int)win->paint_y)->data + (signed long int)i), (const void *)new_block_size_str, new_block_size_bytes);
               (win->lines + (signed long int)win->paint_y)->length = (win->lines + (signed long int)win->paint_y)->length + (signed int)(n + (new_block_size_bytes - block_size_bytes));
-              return (enum anonymous$10)td_true;
+              return (enum anonymous_10)td_true;
             }
           }
         }
@@ -2966,7 +2966,7 @@ static enum anonymous$10 _win_add_zerowidth(struct anonymous$12 *win, const char
 
 // _win_write_blocks
 // file src/window.c line 777
-static enum anonymous$10 _win_write_blocks(struct anonymous$12 *win, const char *blocks, unsigned long int n)
+static enum anonymous_10 _win_write_blocks(struct anonymous_12 *win, const char *blocks, unsigned long int n)
 {
   unsigned int block_size;
   unsigned long int block_size_bytes;
@@ -2975,24 +2975,24 @@ static enum anonymous$10 _win_write_blocks(struct anonymous$12 *win, const char 
   signed int width = 0;
   signed int extra_spaces = 0;
   unsigned int extra_spaces_attr;
-  enum anonymous$10 result = (enum anonymous$10)td_true;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$7;
-  enum anonymous$10 return_value_ensure_space$8;
-  enum anonymous$10 return_value__win_write_blocks$9;
-  if(win->lines == ((struct anonymous$14 *)NULL))
-    return (enum anonymous$10)td_false;
+  enum anonymous_10 result = (enum anonymous_10)td_true;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_7;
+  enum anonymous_10 return_value_ensure_space_8;
+  enum anonymous_10 return_value__win_write_blocks_9;
+  if(win->lines == ((struct anonymous_14 *)NULL))
+    return (enum anonymous_10)td_false;
 
   else
   {
     if(win->paint_y >= win->height)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = win->paint_x >= win->width ? (_Bool)1 : (_Bool)0;
-    if(n == 0ul || tmp_if_expr$1)
-      return (enum anonymous$10)td_true;
+      tmp_if_expr_1 = win->paint_x >= win->width ? (_Bool)1 : (_Bool)0;
+    if(n == 0ul || tmp_if_expr_1)
+      return (enum anonymous_10)td_true;
 
     else
     {
@@ -3013,11 +3013,11 @@ static enum anonymous$10 _win_write_blocks(struct anonymous$12 *win, const char 
 
       n = k;
       if(!(win->cached_pos_line == win->paint_y))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = win->cached_pos_width > win->paint_x ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = win->cached_pos_width > win->paint_x ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         win->cached_pos_line = win->paint_y;
         win->cached_pos = 0;
@@ -3029,13 +3029,13 @@ static enum anonymous$10 _win_write_blocks(struct anonymous$12 *win, const char 
         char default_attr_str[8l];
         unsigned long int default_attr_size;
         signed int diff = win->paint_x - (win->lines + (signed long int)win->paint_y)->width;
-        signed int return_value_map_attr$3;
-        return_value_map_attr$3=map_attr(win->default_attrs);
-        default_attr_size=create_space_block(return_value_map_attr$3, default_attr_str);
-        enum anonymous$10 return_value_ensure_space$4;
-        return_value_ensure_space$4=ensure_space(win->lines + (signed long int)win->paint_y, n + (unsigned long int)diff * default_attr_size);
-        if(return_value_ensure_space$4 == /*enum*/td_false)
-          return (enum anonymous$10)td_false;
+        signed int return_value_map_attr_3;
+        return_value_map_attr_3=map_attr(win->default_attrs);
+        default_attr_size=create_space_block(return_value_map_attr_3, default_attr_str);
+        enum anonymous_10 return_value_ensure_space_4;
+        return_value_ensure_space_4=ensure_space(win->lines + (signed long int)win->paint_y, n + (unsigned long int)diff * default_attr_size);
+        if(return_value_ensure_space_4 == /*enum*/td_false)
+          return (enum anonymous_10)td_false;
 
         i = diff;
         for( ; i >= 1; i = i - 1)
@@ -3075,9 +3075,9 @@ static enum anonymous$10 _win_write_blocks(struct anonymous$12 *win, const char 
         win->cached_pos = i;
         win->cached_pos_width = pos_width;
         start_replace = (unsigned long int)i;
-        unsigned int return_value_get_block_attr$5;
-        return_value_get_block_attr$5=get_block_attr((win->lines + (signed long int)win->paint_y)->data + (signed long int)start_replace);
-        start_space_attr = (unsigned long int)return_value_get_block_attr$5;
+        unsigned int return_value_get_block_attr_5;
+        return_value_get_block_attr_5=get_block_attr((win->lines + (signed long int)win->paint_y)->data + (signed long int)start_replace);
+        start_space_attr = (unsigned long int)return_value_get_block_attr_5;
         start_spaces = (unsigned long int)(win->paint_x - pos_width);
         pos_width = pos_width + (signed int)((block_size & (unsigned int)1) + (unsigned int)1);
         i = i + (signed int)((unsigned long int)(block_size >> 1) + block_size_bytes);
@@ -3097,25 +3097,25 @@ static enum anonymous$10 _win_write_blocks(struct anonymous$12 *win, const char 
               break;
 
           }
-          unsigned int return_value_get_block_attr$6;
-          return_value_get_block_attr$6=get_block_attr((win->lines + (signed long int)win->paint_y)->data + (signed long int)i);
-          end_space_attr = (unsigned long int)return_value_get_block_attr$6;
+          unsigned int return_value_get_block_attr_6;
+          return_value_get_block_attr_6=get_block_attr((win->lines + (signed long int)win->paint_y)->data + (signed long int)i);
+          end_space_attr = (unsigned long int)return_value_get_block_attr_6;
           end_replace = (unsigned long int)(i < (win->lines + (signed long int)win->paint_y)->length ? (signed int)((unsigned long int)((unsigned int)i + (block_size >> 1)) + block_size_bytes) : i);
         }
         if(!(win->paint_x + width >= pos_width))
-          tmp_if_expr$7 = (pos_width - win->paint_x) - width;
+          tmp_if_expr_7 = (pos_width - win->paint_x) - width;
 
         else
-          tmp_if_expr$7 = 0;
-        end_spaces = (unsigned long int)tmp_if_expr$7;
+          tmp_if_expr_7 = 0;
+        end_spaces = (unsigned long int)tmp_if_expr_7;
         start_space_bytes=create_space_block((signed int)start_space_attr, start_space_str);
         end_space_bytes=create_space_block((signed int)end_space_attr, end_space_str);
         sdiff = (signed int)((n + end_spaces * end_space_bytes + start_spaces * start_space_bytes) - (end_replace - start_replace));
         if(sdiff >= 1)
         {
-          return_value_ensure_space$8=ensure_space(win->lines + (signed long int)win->paint_y, (unsigned long int)sdiff);
-          if(return_value_ensure_space$8 == /*enum*/td_false)
-            return (enum anonymous$10)td_false;
+          return_value_ensure_space_8=ensure_space(win->lines + (signed long int)win->paint_y, (unsigned long int)sdiff);
+          if(return_value_ensure_space_8 == /*enum*/td_false)
+            return (enum anonymous_10)td_false;
 
         }
 
@@ -3147,8 +3147,8 @@ static enum anonymous$10 _win_write_blocks(struct anonymous$12 *win, const char 
         i = 0;
         for( ; !(i >= extra_spaces); i = i + 1)
         {
-          return_value__win_write_blocks$9=_win_write_blocks(win, extra_space_str, extra_space_bytes);
-          result = result & return_value__win_write_blocks$9;
+          return_value__win_write_blocks_9=_win_write_blocks(win, extra_space_str, extra_space_bytes);
+          result = result & return_value__win_write_blocks_9;
         }
       }
 
@@ -3159,26 +3159,26 @@ static enum anonymous$10 _win_write_blocks(struct anonymous$12 *win, const char 
 
 // adjust_lines
 // file src/window.c line 1068
-static void adjust_lines(struct anonymous$12 *win)
+static void adjust_lines(struct anonymous_12 *win)
 {
-  char adjust_lines$$1$$space_str[8l];
+  char adjust_lines__1__space_str[8l];
   unsigned long int space_str_bytes;
   signed int saved_paint_x = win->paint_x;
   signed int saved_paint_y = win->paint_y;
   signed int line;
-  signed int return_value_map_attr$1;
-  return_value_map_attr$1=map_attr(win->default_attrs);
-  space_str_bytes=create_space_block(return_value_map_attr$1, adjust_lines$$1$$space_str);
+  signed int return_value_map_attr_1;
+  return_value_map_attr_1=map_attr(win->default_attrs);
+  space_str_bytes=create_space_block(return_value_map_attr_1, adjust_lines__1__space_str);
   line = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  enum anonymous$10 return_value_ensure_space$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  enum anonymous_10 return_value_ensure_space_4;
   for( ; !(line >= win->height); line = line + 1)
     if(!((win->lines + (signed long int)line)->width >= win->width))
     {
       win->paint_y = line;
       win->paint_x = win->width - 1;
-      _win_write_blocks(win, adjust_lines$$1$$space_str, space_str_bytes);
+      _win_write_blocks(win, adjust_lines__1__space_str, space_str_bytes);
     }
 
     else
@@ -3193,11 +3193,11 @@ static void adjust_lines(struct anonymous$12 *win)
         do
         {
           if(!(i >= (win->lines + (signed long int)line)->length))
-            tmp_if_expr$2 = sumwidth + (signed int)((block_size & (unsigned int)1) + (unsigned int)1) <= win->width ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = sumwidth + (signed int)((block_size & (unsigned int)1) + (unsigned int)1) <= win->width ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(!tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(!tmp_if_expr_2)
             break;
 
           sumwidth = sumwidth + (signed int)((block_size & (unsigned int)1) + (unsigned int)1);
@@ -3209,23 +3209,23 @@ static void adjust_lines(struct anonymous$12 *win)
         {
           signed int spaces = win->width - sumwidth;
           char space_str[8l];
-          unsigned long int adjust_lines$$1$$1$$1$$2$$2$$space_str_bytes;
-          signed int return_value_map_attr$3;
-          return_value_map_attr$3=map_attr(0);
-          adjust_lines$$1$$1$$1$$2$$2$$space_str_bytes=create_space_block(return_value_map_attr$3, space_str);
-          if(!((signed int)adjust_lines$$1$$1$$1$$2$$2$$space_str_bytes * (signed int)(unsigned long int)spaces >= (win->lines + (signed long int)line)->length + -i))
-            tmp_if_expr$5 = (_Bool)1;
+          unsigned long int adjust_lines__1__1__1__2__2__space_str_bytes;
+          signed int return_value_map_attr_3;
+          return_value_map_attr_3=map_attr(0);
+          adjust_lines__1__1__1__2__2__space_str_bytes=create_space_block(return_value_map_attr_3, space_str);
+          if(!((signed int)adjust_lines__1__1__1__2__2__space_str_bytes * (signed int)(unsigned long int)spaces >= (win->lines + (signed long int)line)->length + -i))
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
-            return_value_ensure_space$4=ensure_space(win->lines + (signed long int)line, ((unsigned long int)spaces * adjust_lines$$1$$1$$1$$2$$2$$space_str_bytes - (unsigned long int)(win->lines + (signed long int)line)->length) + (unsigned long int)i);
-            tmp_if_expr$5 = return_value_ensure_space$4 != (enum anonymous$10)0 ? (_Bool)1 : (_Bool)0;
+            return_value_ensure_space_4=ensure_space(win->lines + (signed long int)line, ((unsigned long int)spaces * adjust_lines__1__1__1__2__2__space_str_bytes - (unsigned long int)(win->lines + (signed long int)line)->length) + (unsigned long int)i);
+            tmp_if_expr_5 = return_value_ensure_space_4 != (enum anonymous_10)0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$5)
+          if(tmp_if_expr_5)
           {
             win->paint_x = sumwidth;
             for( ; spaces >= 1; spaces = spaces - 1)
-              _win_write_blocks(win, space_str, adjust_lines$$1$$1$$1$$2$$2$$space_str_bytes);
+              _win_write_blocks(win, space_str, adjust_lines__1__1__1__2__2__space_str_bytes);
           }
 
         }
@@ -3240,7 +3240,7 @@ static void adjust_lines(struct anonymous$12 *win)
 
 // advance_script
 // file src/compare.c line 161
-static enum anonymous$10 advance_script(struct ExpNode **script, struct anonymous$12 *win)
+static enum anonymous_10 advance_script(struct ExpNode **script, struct anonymous_12 *win)
 {
   for( ; !(*script == ((struct ExpNode *)NULL)); *script = (*script)->next)
     switch((signed int)(*script)->type)
@@ -3259,31 +3259,31 @@ static enum anonymous$10 advance_script(struct ExpNode **script, struct anonymou
       case EXP_SEND:
       {
         *script = (*script)->next;
-        return (enum anonymous$10)td_true;
+        return (enum anonymous_10)td_true;
       }
       case EXP_EXPECT_EXIT:
       {
         *script = (*script)->next;
-        return (enum anonymous$10)td_true;
+        return (enum anonymous_10)td_true;
       }
       case EXP_WINDOW_SIZE:
       {
         win_resize(win, (*script)->un.size.rows, (*script)->un.size.columns);
         *script = (*script)->next;
-        return (enum anonymous$10)td_true;
+        return (enum anonymous_10)td_true;
       }
       case EXP_EXPECT_SUSPEND:
       {
         win_set_paint(win, 0, 0);
         win_clrtobot(win);
-        return (enum anonymous$10)td_true;
+        return (enum anonymous_10)td_true;
       }
       case EXP_REQUIRE_VERSION:
         break;
       default:
         fatal("Internal error\n");
     }
-  return (enum anonymous$10)td_false;
+  return (enum anonymous_10)td_false;
 }
 
 // call_setupterm
@@ -3295,17 +3295,17 @@ void call_setupterm(const char *name)
 
 // check_fmt
 // file src/common.c line 749
-enum anonymous$10 check_fmt(const char *str)
+enum anonymous_10 check_fmt(const char *str)
 {
-  enum anonymous$10 percent_seen = (enum anonymous$10)td_false;
-  enum anonymous$10 conversion_seen = (enum anonymous$10)td_false;
-  _Bool tmp_if_expr$1;
+  enum anonymous_10 percent_seen = (enum anonymous_10)td_false;
+  enum anonymous_10 conversion_seen = (enum anonymous_10)td_false;
+  _Bool tmp_if_expr_1;
   for( ; !((signed int)*str == 0); str = str + 1l)
   {
     if((signed int)*str == 37)
     {
       if(!(percent_seen == /*enum*/td_false))
-        return (enum anonymous$10)td_false;
+        return (enum anonymous_10)td_false;
 
       if((signed int)str[1l] == 37)
       {
@@ -3313,7 +3313,7 @@ enum anonymous$10 check_fmt(const char *str)
         goto __CPROVER_DUMP_L9;
       }
 
-      percent_seen = (enum anonymous$10)td_true;
+      percent_seen = (enum anonymous_10)td_true;
     }
 
     else
@@ -3321,22 +3321,22 @@ enum anonymous$10 check_fmt(const char *str)
       {
         if((signed int)*str == 100)
         {
-          percent_seen = (enum anonymous$10)td_false;
+          percent_seen = (enum anonymous_10)td_false;
           if(!(conversion_seen == /*enum*/td_false))
-            return (enum anonymous$10)td_false;
+            return (enum anonymous_10)td_false;
 
-          conversion_seen = (enum anonymous$10)td_true;
+          conversion_seen = (enum anonymous_10)td_true;
         }
 
         else
         {
           if(!((signed int)*str >= 48))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = (signed int)*str > 57 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
-            return (enum anonymous$10)td_false;
+            tmp_if_expr_1 = (signed int)*str > 57 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
+            return (enum anonymous_10)td_false;
 
         }
       }
@@ -3345,7 +3345,7 @@ enum anonymous$10 check_fmt(const char *str)
   __CPROVER_DUMP_L9:
     ;
   }
-  return (enum anonymous$10)(!(percent_seen != (enum anonymous$10)0) && conversion_seen != (enum anonymous$10)0);
+  return (enum anonymous_10)(!(percent_seen != (enum anonymous_10)0) && conversion_seen != (enum anonymous_10)0);
 }
 
 // check_script
@@ -3408,9 +3408,9 @@ void check_script(const char *file_name, struct ExpNode *script)
 // file src/write_image.c line 70
 static void color2rgb(signed int color, signed int *red, signed int *green, signed int *blue)
 {
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
   if(!(color >= 16))
   {
     signed int color_map[16l][3l] = { { 0, 0, 0 }, { 205, 0, 0 }, { 0, 205, 0 }, { 205, 205, 0 }, { 0, 0, 238 }, { 205, 0, 205 }, { 0, 205, 205 }, { 229, 229, 229 }, { 127, 127, 127 }, { 255, 0, 0 }, { 0, 255, 0 }, { 255, 255, 0 }, { 92, 92, 255 }, { 255, 0, 255 }, { 0, 255, 255 }, { 255, 255, 255 } };
@@ -3426,26 +3426,26 @@ static void color2rgb(signed int color, signed int *red, signed int *green, sign
       *red = color / 36;
       color = color - 36 * *red;
       if(*red == 0)
-        tmp_if_expr$1 = 0;
+        tmp_if_expr_1 = 0;
 
       else
-        tmp_if_expr$1 = 55 + 40 * *red;
-      *red = tmp_if_expr$1;
+        tmp_if_expr_1 = 55 + 40 * *red;
+      *red = tmp_if_expr_1;
       *green = color / 6;
       color = color - 6 * *green;
       if(*green == 0)
-        tmp_if_expr$2 = 0;
+        tmp_if_expr_2 = 0;
 
       else
-        tmp_if_expr$2 = 55 + 40 * *green;
-      *green = tmp_if_expr$2;
+        tmp_if_expr_2 = 55 + 40 * *green;
+      *green = tmp_if_expr_2;
       *blue = color;
       if(*blue == 0)
-        tmp_if_expr$3 = 0;
+        tmp_if_expr_3 = 0;
 
       else
-        tmp_if_expr$3 = 55 + 40 * *blue;
-      *blue = tmp_if_expr$3;
+        tmp_if_expr_3 = 55 + 40 * *blue;
+      *blue = tmp_if_expr_3;
     }
 
     else
@@ -3487,7 +3487,7 @@ static void compare(void)
   if(scriptB == ((struct ExpNode *)NULL))
     fatal("Recording '%s' does not have a start directive\n", inputB);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(scriptA == ((struct ExpNode *)NULL)) && !(scriptB == ((struct ExpNode *)NULL)); scriptB = scriptB->next)
   {
     static const char *exp2string[9l] = { "start", "env", "window_size", "expect", "send", "expect_exit", "interact", "expect_suspend", "require_version" };
@@ -3510,11 +3510,11 @@ static void compare(void)
       case EXP_WINDOW_SIZE:
       {
         if(!(scriptA->un.size.columns == scriptB->un.size.columns))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = scriptA->un.size.rows != scriptB->un.size.rows ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = scriptA->un.size.rows != scriptB->un.size.rows ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           fatal("Recordings set different window size (%dx%d/%dx%d) at line %d/%d\n", scriptA->un.size.columns, scriptA->un.size.rows, scriptB->un.size.columns, scriptB->un.size.rows, scriptA->line, scriptB->line);
 
         break;
@@ -3544,18 +3544,18 @@ static void compare_expects(void)
   signed int stringA_offset = 0;
   signed int stringB_offset = 0;
   signed int min_length;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   while((_Bool)1)
   {
     if(!(stringA->length + -stringA_offset >= stringB->length + -stringB_offset))
-      tmp_if_expr$1 = stringA->length - stringA_offset;
+      tmp_if_expr_1 = stringA->length - stringA_offset;
 
     else
-      tmp_if_expr$1 = stringB->length - stringB_offset;
-    min_length = tmp_if_expr$1;
-    signed int return_value_memcmp$2;
-    return_value_memcmp$2=memcmp((const void *)(stringA->string + (signed long int)stringA_offset), (const void *)(stringB->string + (signed long int)stringB_offset), (unsigned long int)min_length);
-    if(!(return_value_memcmp$2 == 0))
+      tmp_if_expr_1 = stringB->length - stringB_offset;
+    min_length = tmp_if_expr_1;
+    signed int return_value_memcmp_2;
+    return_value_memcmp_2=memcmp((const void *)(stringA->string + (signed long int)stringA_offset), (const void *)(stringB->string + (signed long int)stringB_offset), (unsigned long int)min_length);
+    if(!(return_value_memcmp_2 == 0))
       fatal("Different strings expected at %d/%d\n", scriptA->line, scriptB->line);
 
     stringA_offset = stringA_offset + min_length;
@@ -3608,9 +3608,9 @@ __CPROVER_DUMP_L13:
 void copy_attrs_to_terminal(signed int from)
 {
   struct termios attrs;
-  signed int return_value_tcgetattr$1;
-  return_value_tcgetattr$1=tcgetattr(from, &attrs);
-  if(return_value_tcgetattr$1 >= 0)
+  signed int return_value_tcgetattr_1;
+  return_value_tcgetattr_1=tcgetattr(from, &attrs);
+  if(return_value_tcgetattr_1 >= 0)
   {
     attrs.c_lflag = attrs.c_lflag & (unsigned int)~(0000002 | 0000010);
     tcsetattr(0, 1, &attrs);
@@ -3620,18 +3620,18 @@ void copy_attrs_to_terminal(signed int from)
 
 // copy_fd
 // file src/common.c line 291
-void copy_fd(signed int from, signed int to, enum anonymous$3 dir, struct _IO_FILE *output)
+void copy_fd(signed int from, signed int to, enum anonymous_3 dir, struct _IO_FILE *output)
 {
   unsigned char buffer[1024l];
   signed long int result;
   struct termios backup;
-  enum anonymous$10 restore = (enum anonymous$10)td_true;
+  enum anonymous_10 restore = (enum anonymous_10)td_true;
   if((signed int)dir == TYPE_INPUT)
   {
-    signed int return_value_tcgetattr$1;
-    return_value_tcgetattr$1=tcgetattr(to, &backup);
-    if((8u & backup.c_lflag) == 0u || !(return_value_tcgetattr$1 >= 0))
-      restore = (enum anonymous$10)td_false;
+    signed int return_value_tcgetattr_1;
+    return_value_tcgetattr_1=tcgetattr(to, &backup);
+    if((8u & backup.c_lflag) == 0u || !(return_value_tcgetattr_1 >= 0))
+      restore = (enum anonymous_10)td_false;
 
     else
     {
@@ -3641,9 +3641,9 @@ void copy_fd(signed int from, signed int to, enum anonymous$3 dir, struct _IO_FI
     }
   }
 
-  signed int tmp_if_expr$3;
-  signed int return_value_get_elapsed$2;
-  signed int *return_value___errno_location$7;
+  signed int tmp_if_expr_3;
+  signed int return_value_get_elapsed_2;
+  signed int *return_value___errno_location_7;
   do
   {
 
@@ -3656,13 +3656,13 @@ void copy_fd(signed int from, signed int to, enum anonymous$3 dir, struct _IO_FI
       {
         if((signed int)dir == TYPE_INPUT)
         {
-          return_value_get_elapsed$2=get_elapsed();
-          tmp_if_expr$3 = return_value_get_elapsed$2;
+          return_value_get_elapsed_2=get_elapsed();
+          tmp_if_expr_3 = return_value_get_elapsed_2;
         }
 
         else
-          tmp_if_expr$3 = 0;
-        write_record(output, dir, tmp_if_expr$3, 0, buffer, result);
+          tmp_if_expr_3 = 0;
+        write_record(output, dir, tmp_if_expr_3, 0, buffer, result);
       }
 
       if((signed int)dir == TYPE_INPUT && !(restore == /*enum*/td_false))
@@ -3675,23 +3675,23 @@ void copy_fd(signed int from, signed int to, enum anonymous$3 dir, struct _IO_FI
     if(result >= 0l)
       goto __CPROVER_DUMP_L12;
 
-    return_value___errno_location$7=__errno_location();
-    if(!(*return_value___errno_location$7 == 4))
+    return_value___errno_location_7=__errno_location();
+    if(!(*return_value___errno_location_7 == 4))
       break;
 
   }
   while((_Bool)1);
-  signed int *return_value___errno_location$6;
-  return_value___errno_location$6=__errno_location();
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  if(!(*return_value___errno_location$6 == 11))
+  signed int *return_value___errno_location_6;
+  return_value___errno_location_6=__errno_location();
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  if(!(*return_value___errno_location_6 == 11))
   {
     if((signed int)dir == TYPE_INPUT)
     {
-      return_value___errno_location$4=__errno_location();
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      fatal("Error reading data from terminal or pty: %s\n", return_value_strerror$5);
+      return_value___errno_location_4=__errno_location();
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      fatal("Error reading data from terminal or pty: %s\n", return_value_strerror_5);
     }
 
   }
@@ -3719,62 +3719,62 @@ static unsigned long int create_space_block(signed int attr, char *out)
 
 // detect_resize_capable
 // file src/common.c line 457
-enum anonymous$10 detect_resize_capable(void)
+enum anonymous_10 detect_resize_capable(void)
 {
   const char *term;
   term=getenv("TERM");
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   if(term == ((const char *)NULL))
-    return (enum anonymous$10)td_false;
+    return (enum anonymous_10)td_false;
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(term, "xterm");
-    if(return_value_strcmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(term, "xterm");
+    if(return_value_strcmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$2=strcmp(term, "rxvt");
-      tmp_if_expr$3 = return_value_strcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_2=strcmp(term, "rxvt");
+      tmp_if_expr_3 = return_value_strcmp_2 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$4=strcmp(term, "Eterm");
-      tmp_if_expr$5 = return_value_strcmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_4=strcmp(term, "Eterm");
+      tmp_if_expr_5 = return_value_strcmp_4 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    return (enum anonymous$10)tmp_if_expr$5;
+    return (enum anonymous_10)tmp_if_expr_5;
   }
 }
 
 // do_action
 // file src/write_stringlist.c line 113
-static void do_action(struct anonymous$12 *win, enum anonymous$16 action, signed int attr)
+static void do_action(struct anonymous_12 *win, enum anonymous_16 action, signed int attr)
 {
-  signed int return_value_win_get_default_attrs$1;
-  signed int return_value_win_get_default_attrs$2;
-  signed int return_value_win_get_paint_y$3;
+  signed int return_value_win_get_default_attrs_1;
+  signed int return_value_win_get_default_attrs_2;
+  signed int return_value_win_get_paint_y_3;
   signed int paint_x;
-  signed int return_value_win_get_width$6;
+  signed int return_value_win_get_width_6;
   switch((signed int)action)
   {
     case ACTION_ATTR_OFF:
     {
-      return_value_win_get_default_attrs$1=win_get_default_attrs(win);
-      win_set_default_attrs(win, return_value_win_get_default_attrs$1 & ~attr);
+      return_value_win_get_default_attrs_1=win_get_default_attrs(win);
+      win_set_default_attrs(win, return_value_win_get_default_attrs_1 & ~attr);
       break;
     }
     case ACTION_ATTR_ON:
     {
-      return_value_win_get_default_attrs$2=win_get_default_attrs(win);
-      win_set_default_attrs(win, return_value_win_get_default_attrs$2 | attr);
+      return_value_win_get_default_attrs_2=win_get_default_attrs(win);
+      win_set_default_attrs(win, return_value_win_get_default_attrs_2 | attr);
       break;
     }
     case ACTION_CLEAR:
@@ -3785,33 +3785,33 @@ static void do_action(struct anonymous$12 *win, enum anonymous$16 action, signed
     }
     case ACTION_CR:
     {
-      return_value_win_get_paint_y$3=win_get_paint_y(win);
-      win_set_paint(win, return_value_win_get_paint_y$3, 0);
+      return_value_win_get_paint_y_3=win_get_paint_y(win);
+      win_set_paint(win, return_value_win_get_paint_y_3, 0);
       break;
     }
     case ACTION_CUP_OFF:
     {
-      win_set_cup(win, (enum anonymous$10)td_false);
+      win_set_cup(win, (enum anonymous_10)td_false);
       break;
     }
     case ACTION_CUP_ON:
     {
-      win_set_cup(win, (enum anonymous$10)td_true);
+      win_set_cup(win, (enum anonymous_10)td_true);
       break;
     }
     case ACTION_CURSOR_INVIS:
     {
-      win_set_cursor(win, (enum anonymous$15)CURSOR_INVIS);
+      win_set_cursor(win, (enum anonymous_15)CURSOR_INVIS);
       break;
     }
     case ACTION_CURSOR_NORMAL:
     {
-      win_set_cursor(win, (enum anonymous$15)CURSOR_NORM);
+      win_set_cursor(win, (enum anonymous_15)CURSOR_NORM);
       break;
     }
     case ACTION_CURSOR_VVIS:
     {
-      win_set_cursor(win, (enum anonymous$15)CURSOR_VVIS);
+      win_set_cursor(win, (enum anonymous_15)CURSOR_VVIS);
       break;
     }
     case ACTION_HOME:
@@ -3845,23 +3845,23 @@ static void do_action(struct anonymous$12 *win, enum anonymous$16 action, signed
     {
       paint_x=win_get_paint_x(win);
       paint_x = ((paint_x & ~0x7) + 8) - (paint_x & 0x7);
-      return_value_win_get_width$6=win_get_width(win);
-      if(paint_x >= return_value_win_get_width$6)
+      return_value_win_get_width_6=win_get_width(win);
+      if(paint_x >= return_value_win_get_width_6)
       {
         signed int paint_y;
         paint_y=win_get_paint_y(win);
-        signed int return_value_win_get_height$4;
-        return_value_win_get_height$4=win_get_height(win);
-        if(!(1 + paint_y >= return_value_win_get_height$4))
+        signed int return_value_win_get_height_4;
+        return_value_win_get_height_4=win_get_height(win);
+        if(!(1 + paint_y >= return_value_win_get_height_4))
           win_set_paint(win, paint_y + 1, 0);
 
       }
 
       else
       {
-        signed int return_value_win_get_paint_y$5;
-        return_value_win_get_paint_y$5=win_get_paint_y(win);
-        win_set_paint(win, return_value_win_get_paint_y$5, paint_x);
+        signed int return_value_win_get_paint_y_5;
+        return_value_win_get_paint_y_5=win_get_paint_y(win);
+        win_set_paint(win, return_value_win_get_paint_y_5, paint_x);
       }
     }
   }
@@ -3876,29 +3876,29 @@ static void do_delay(signed int delay)
     goto __CPROVER_DUMP_L7;
 
   else
-    if(!(key_delay$link1 == 0))
-      delay = key_delay$link1;
+    if(!(key_delay_link1 == 0))
+      delay = key_delay_link1;
 
     else
-      delay = (signed int)((double)delay / key_delay_scale$link1);
+      delay = (signed int)((double)delay / key_delay_scale_link1);
   delay_spec.tv_nsec = (signed long int)(delay % 1000) * (signed long int)1000000;
   delay_spec.tv_sec = (signed long int)(delay / 1000);
-  signed int return_value_nanosleep$1;
+  signed int return_value_nanosleep_1;
   do
   {
-    return_value_nanosleep$1=nanosleep(&delay_spec, &delay_spec);
-    if(return_value_nanosleep$1 >= 0)
+    return_value_nanosleep_1=nanosleep(&delay_spec, &delay_spec);
+    if(return_value_nanosleep_1 >= 0)
       break;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 4))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 4))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      fatal("Error sleeping: %s\n", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      fatal("Error sleeping: %s\n", return_value_strerror_4);
     }
 
   }
@@ -3912,17 +3912,17 @@ __CPROVER_DUMP_L7:
 // file src/compare.c line 196
 static void do_visual_compare(void)
 {
-  enum anonymous$10 difference_reported = (enum anonymous$10)td_false;
+  enum anonymous_10 difference_reported = (enum anonymous_10)td_false;
   const char *winAterm;
   const char *winBterm;
   signed int step_count = 0;
   init_attr_map();
   winA=win_new(24, 80);
-  if(winA == ((struct anonymous$12 *)NULL))
+  if(winA == ((struct anonymous_12 *)NULL))
     fatal("Out of memory\n");
 
   winB=win_new(24, 80);
-  if(winB == ((struct anonymous$12 *)NULL))
+  if(winB == ((struct anonymous_12 *)NULL))
     fatal("Out of memory\n");
 
   winAterm=get_script_env(scriptA, "TERM");
@@ -3933,24 +3933,24 @@ static void do_visual_compare(void)
   if(winBterm == ((const char *)NULL))
     fatal("Recording %s does not contain a TERM environment variable\n", inputB);
 
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(winAterm, winBterm);
-  if(!(return_value_strcmp$1 == 0))
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(winAterm, winBterm);
+  if(!(return_value_strcmp_1 == 0))
     fatal("Recordings have a different TERM environment variable\n");
 
-  const char *return_value_get_script_env$2;
-  return_value_get_script_env$2=get_script_env(scriptA, "LANG");
-  setup_ti_strings(winAterm, return_value_get_script_env$2);
+  const char *return_value_get_script_env_2;
+  return_value_get_script_env_2=get_script_env(scriptA, "LANG");
+  setup_ti_strings(winAterm, return_value_get_script_env_2);
   while((_Bool)1)
   {
-    enum anonymous$10 return_value_advance_script$3;
-    return_value_advance_script$3=advance_script(&scriptA, winA);
-    if(return_value_advance_script$3 == /*enum*/td_false)
+    enum anonymous_10 return_value_advance_script_3;
+    return_value_advance_script_3=advance_script(&scriptA, winA);
+    if(return_value_advance_script_3 == /*enum*/td_false)
       break;
 
-    enum anonymous$10 return_value_advance_script$4;
-    return_value_advance_script$4=advance_script(&scriptB, winB);
-    if(return_value_advance_script$4 == /*enum*/td_false)
+    enum anonymous_10 return_value_advance_script_4;
+    return_value_advance_script_4=advance_script(&scriptB, winB);
+    if(return_value_advance_script_4 == /*enum*/td_false)
       break;
 
     if(!(picture_series == ((const char *)NULL)))
@@ -3960,26 +3960,26 @@ static void do_visual_compare(void)
       win_write_image(winA, winB, output_name_buffer);
     }
 
-    enum anonymous$10 return_value_win_compare$5;
-    return_value_win_compare$5=win_compare(winA, winB, describe$link1 != (enum anonymous$10)0 ? stderr : (struct _IO_FILE *)(void *)0);
-    if(return_value_win_compare$5 == /*enum*/td_false)
+    enum anonymous_10 return_value_win_compare_5;
+    return_value_win_compare_5=win_compare(winA, winB, describe_link1 != (enum anonymous_10)0 ? stderr : (struct _IO_FILE *)(void *)0);
+    if(return_value_win_compare_5 == /*enum*/td_false)
     {
-      if(!(picture_name$link1 == ((const char *)NULL)))
+      if(!(picture_name_link1 == ((const char *)NULL)))
       {
-        win_write_image(winA, winB, picture_name$link1);
-        picture_name$link1 = (const char *)(void *)0;
+        win_write_image(winA, winB, picture_name_link1);
+        picture_name_link1 = (const char *)(void *)0;
       }
 
       if(difference_reported == /*enum*/td_false)
       {
         fprintf(stderr, "Recordings have different results\n");
-        difference_reported = (enum anonymous$10)td_true;
+        difference_reported = (enum anonymous_10)td_true;
       }
 
       if(!(stop_on_difference == /*enum*/td_false))
         exit(1);
 
-      describe$link1 = (enum anonymous$10)td_false;
+      describe_link1 = (enum anonymous_10)td_false;
     }
 
     step_count = step_count + 1;
@@ -3995,28 +3995,28 @@ static void do_visual_compare(void)
 static void end_client(void)
 {
   kill(pid, 15);
-  signed int return_value_poll$1;
+  signed int return_value_poll_1;
   do
   {
-    return_value_poll$1=poll(fdset + (signed long int)1, (unsigned long int)1, 2000);
-    if(return_value_poll$1 >= 0)
+    return_value_poll_1=poll(fdset + (signed long int)1, (unsigned long int)1, 2000);
+    if(return_value_poll_1 >= 0)
       break;
 
   }
   while((_Bool)1);
   char signal_byte;
-  signed long int return_value_safe_read$2;
-  signed int return_value_waitpid$3;
+  signed long int return_value_safe_read_2;
+  signed int return_value_waitpid_3;
   do
   {
-    return_value_safe_read$2=safe_read(signal_pipe[(signed long int)0], &signal_byte, (unsigned long int)1);
-    if(!(return_value_safe_read$2 == 1l))
+    return_value_safe_read_2=safe_read(signal_pipe[(signed long int)0], &signal_byte, (unsigned long int)1);
+    if(!(return_value_safe_read_2 == 1l))
       break;
 
     if((signed int)signal_byte == 0)
     {
-      return_value_waitpid$3=waitpid(pid, &status, 1);
-      if(return_value_waitpid$3 == pid)
+      return_value_waitpid_3=waitpid(pid, &status, 1);
+      if(return_value_waitpid_3 == pid)
         goto __CPROVER_DUMP_L9;
 
       continue;
@@ -4033,31 +4033,31 @@ __CPROVER_DUMP_L9:
 
 // enqueue_pictures
 // file src/picture_queue.c line 34
-void enqueue_pictures(struct anonymous$12 *winA, struct anonymous$12 *winB, const char *name)
+void enqueue_pictures(struct anonymous_12 *winA, struct anonymous_12 *winB, const char *name)
 {
   struct picture_queue_t *item;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct picture_queue_t) /*32ul*/ );
-  item = (struct picture_queue_t *)return_value_malloc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct picture_queue_t) /*32ul*/ );
+  item = (struct picture_queue_t *)return_value_malloc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(!(item == ((struct picture_queue_t *)NULL)))
   {
     item->winA=win_copy(winA);
     item->winB=win_copy(winB);
     item->name=strdup(name);
     item->next = (struct picture_queue_t *)(void *)0;
-    if(item->winA == ((struct anonymous$12 *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+    if(item->winA == ((struct anonymous_12 *)NULL))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = item->winB == (struct anonymous$12 *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = item->winB == (struct anonymous_12 *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = item->name == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = item->name == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       win_del(item->winA);
       win_del(item->winB);
@@ -4088,22 +4088,22 @@ void enqueue_pictures(struct anonymous$12 *winA, struct anonymous$12 *winB, cons
 
 // ensure_space
 // file src/window.c line 341
-enum anonymous$10 ensure_space(struct anonymous$14 *line, unsigned long int n)
+enum anonymous_10 ensure_space(struct anonymous_14 *line, unsigned long int n)
 {
   signed int newsize;
   char *resized;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(n >= 2147483648ul)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = 0x7fffffff - (signed int)n < line->length ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
-    return (enum anonymous$10)td_false;
+    tmp_if_expr_1 = 0x7fffffff - (signed int)n < line->length ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
+    return (enum anonymous_10)td_false;
 
   else
     if(!(line->length + (signed int)n >= line->allocated))
-      return (enum anonymous$10)td_true;
+      return (enum anonymous_10)td_true;
 
     else
     {
@@ -4119,17 +4119,17 @@ enum anonymous$10 ensure_space(struct anonymous$14 *line, unsigned long int n)
           break;
 
       }
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)line->data, sizeof(signed int) /*4ul*/  * (unsigned long int)newsize);
-      resized = (char *)return_value_realloc$2;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)line->data, sizeof(signed int) /*4ul*/  * (unsigned long int)newsize);
+      resized = (char *)return_value_realloc_2;
       if(resized == ((char *)NULL))
-        return (enum anonymous$10)td_false;
+        return (enum anonymous_10)td_false;
 
       else
       {
         line->data = resized;
         line->allocated = newsize;
-        return (enum anonymous$10)td_true;
+        return (enum anonymous_10)td_true;
       }
     }
 }
@@ -4177,27 +4177,27 @@ static void expect(struct ExpNode *exp)
     timeout = min_delay;
 
   remaining_timeout = timeout;
-  static enum anonymous$10 first_expect = (enum anonymous$10)td_true;
+  static enum anonymous_10 first_expect = (enum anonymous_10)td_true;
   if(!(first_expect == /*enum*/td_false))
     remaining_timeout = 1000;
 
   gettimeofday(&start, (struct timezone *)(void *)0);
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   while(remaining_timeout >= 1 && !(current == ((struct StringListNode *)NULL)))
   {
-    signed int return_value_poll$1;
-    return_value_poll$1=poll(fdset, (unsigned long int)2, remaining_timeout);
-    result = (signed long int)return_value_poll$1;
+    signed int return_value_poll_1;
+    return_value_poll_1=poll(fdset, (unsigned long int)2, remaining_timeout);
+    result = (signed long int)return_value_poll_1;
     if(result == -1l)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 4))
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 4))
       {
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fatal("Error during poll: %s\n", return_value_strerror$3);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fatal("Error during poll: %s\n", return_value_strerror_3);
       }
 
       continue;
@@ -4205,7 +4205,7 @@ static void expect(struct ExpNode *exp)
 
     if(!(first_expect == /*enum*/td_false))
     {
-      first_expect = (enum anonymous$10)td_false;
+      first_expect = (enum anonymous_10)td_false;
       gettimeofday(&start, (struct timezone *)(void *)0);
     }
 
@@ -4229,9 +4229,9 @@ static void expect(struct ExpNode *exp)
         if(!(display == /*enum*/td_false))
           safe_write(1, (const void *)buffer, (unsigned long int)result);
 
-        signed int return_value_memcmp$5;
-        return_value_memcmp$5=memcmp((const void *)buffer, (const void *)((current->string + (signed long int)current->length) - (signed long int)todo), (unsigned long int)result);
-        if(return_value_memcmp$5 == 0)
+        signed int return_value_memcmp_5;
+        return_value_memcmp_5=memcmp((const void *)buffer, (const void *)((current->string + (signed long int)current->length) - (signed long int)todo), (unsigned long int)result);
+        if(return_value_memcmp_5 == 0)
         {
           todo = todo - (signed int)result;
           while(todo == 0 && !(current == ((struct StringListNode *)NULL)))
@@ -4271,9 +4271,9 @@ static void expect(struct ExpNode *exp)
       }
 
     gettimeofday(&now, (struct timezone *)(void *)0);
-    signed int return_value_timevaldiff$6;
-    return_value_timevaldiff$6=timevaldiff(start, now);
-    remaining_timeout = timeout - return_value_timevaldiff$6;
+    signed int return_value_timevaldiff_6;
+    return_value_timevaldiff_6=timevaldiff(start, now);
+    remaining_timeout = timeout - return_value_timevaldiff_6;
   }
   if(!(current == ((struct StringListNode *)NULL)))
   {
@@ -4301,24 +4301,24 @@ static void expect_signal(struct ExpNode *signal_data)
   if(!(log_file == ((struct _IO_FILE *)NULL)))
     fprintf(log_file, "Waiting for exit\n");
 
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  signed long int return_value_safe_read$5;
-  signed int return_value_waitpid$6;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  signed long int return_value_safe_read_5;
+  signed int return_value_waitpid_6;
   while((_Bool)1)
   {
-    signed int return_value_poll$1;
-    return_value_poll$1=poll(fdset, (unsigned long int)2, -1);
-    result = (signed long int)return_value_poll$1;
+    signed int return_value_poll_1;
+    return_value_poll_1=poll(fdset, (unsigned long int)2, -1);
+    result = (signed long int)return_value_poll_1;
     if(result == -1l)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 4))
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 4))
       {
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fatal("Error during poll: %s\n", return_value_strerror$3);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fatal("Error during poll: %s\n", return_value_strerror_3);
       }
 
     }
@@ -4328,14 +4328,14 @@ static void expect_signal(struct ExpNode *signal_data)
       char signal_byte;
       do
       {
-        return_value_safe_read$5=safe_read(signal_pipe[(signed long int)0], &signal_byte, (unsigned long int)1);
-        if(!(return_value_safe_read$5 == 1l))
+        return_value_safe_read_5=safe_read(signal_pipe[(signed long int)0], &signal_byte, (unsigned long int)1);
+        if(!(return_value_safe_read_5 == 1l))
           break;
 
         if((signed int)signal_byte == 0)
         {
-          return_value_waitpid$6=waitpid(pid, &status, 1 | 2);
-          if(return_value_waitpid$6 == pid)
+          return_value_waitpid_6=waitpid(pid, &status, 1 | 2);
+          if(return_value_waitpid_6 == pid)
           {
             if((0xff & status) == 0x7f)
             {
@@ -4393,15 +4393,15 @@ void fatal(const char *fmt, ...)
 // file src/compare.c line 258
 static struct ExpNode * find_start(struct ExpNode *script)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(script == ((struct ExpNode *)NULL)))
-      tmp_if_expr$1 = (signed int)script->type != EXP_START ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)script->type != EXP_START ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     script = script->next;
@@ -4440,9 +4440,9 @@ static unsigned int get_block_attr(const char *block)
   block = block + 1l;
   for( ; (0xc0 & (signed int)*block) == 0x80; block = block + 1l)
     ;
-  unsigned int return_value_get_value$1;
-  return_value_get_value$1=get_value(block, &discard);
-  return return_value_get_value$1;
+  unsigned int return_value_get_value_1;
+  return_value_get_value_1=get_value(block, &discard);
+  return return_value_get_value_1;
 }
 
 // get_elapsed
@@ -4480,29 +4480,29 @@ static signed int get_next_delay(struct ExpNode *exp, signed int *min_delay)
 
 // get_param
 // file src/write_stringlist.c line 94
-static const char * get_param(const char *str, signed int *param, enum anonymous$10 *more)
+static const char * get_param(const char *str, signed int *param, enum anonymous_10 *more)
 {
   char *endptr;
   signed long int result;
   result=strtol(str, &endptr, 10);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)*endptr == 59)
   {
     endptr = endptr + 1l;
-    *more = (enum anonymous$10)td_true;
+    *more = (enum anonymous_10)td_true;
   }
 
   else
   {
     if((signed int)*endptr >= 64)
-      tmp_if_expr$1 = (signed int)*endptr <= 126 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*endptr <= 126 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       endptr = endptr + 1l;
-      *more = (enum anonymous$10)td_false;
+      *more = (enum anonymous_10)td_false;
     }
 
     else
@@ -4522,12 +4522,12 @@ static const char * get_param(const char *str, signed int *param, enum anonymous
 // file src/common.c line 739
 const char * get_script_env(const struct ExpNode *script, const char *name)
 {
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(script == ((const struct ExpNode *)NULL)); script = script->next)
     if((signed int)script->type == EXP_ENV)
     {
-      return_value_strcmp$1=strcmp(script->un.args->string, name);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(script->un.args->string, name);
+      if(return_value_strcmp_1 == 0)
         return script->un.args->next->string;
 
     }
@@ -4539,9 +4539,9 @@ const char * get_script_env(const struct ExpNode *script, const char *name)
 // file src/curses_handling.c line 38
 signed int get_ti_bool(const char *name)
 {
-  signed int return_value_tigetflag$1;
-  return_value_tigetflag$1=tigetflag(name);
-  return return_value_tigetflag$1;
+  signed int return_value_tigetflag_1;
+  return_value_tigetflag_1=tigetflag(name);
+  return return_value_tigetflag_1;
 }
 
 // get_ti_string
@@ -4555,9 +4555,9 @@ char * get_ti_string(const char *name)
 
   else
   {
-    char *return_value_strdup$1;
-    return_value_strdup$1=strdup(result);
-    return return_value_strdup$1;
+    char *return_value_strdup_1;
+    return_value_strdup_1=strdup(result);
+    return return_value_strdup_1;
   }
 }
 
@@ -4973,12 +4973,12 @@ unsigned int get_value(const char *src, unsigned long int *size)
   }
   *size = (unsigned long int)(bytes_left + 1);
   src = src + 1l;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   for( ; bytes_left >= 1; bytes_left = bytes_left - 1)
   {
-    tmp_post$1 = src;
+    tmp_post_1 = src;
     src = src + 1l;
-    retval = retval << 6 | (unsigned int)((signed int)tmp_post$1[(signed long int)0] & 0x3f);
+    retval = retval << 6 | (unsigned int)((signed int)tmp_post_1[(signed long int)0] & 0x3f);
   }
   return retval;
 }
@@ -4990,17 +4990,17 @@ char * getcwd_wrapper(void)
   unsigned long int cwdBufferLength = (unsigned long int)1024;
   char *cwdBuffer;
   char *retval;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(cwdBufferLength);
-  cwdBuffer = (char *)return_value_malloc$2;
-  char *return_value_strdup$1;
-  signed int *return_value___errno_location$6;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(cwdBufferLength);
+  cwdBuffer = (char *)return_value_malloc_2;
+  char *return_value_strdup_1;
+  signed int *return_value___errno_location_6;
   char *newCwdBuffer;
-  void *return_value_realloc$4;
+  void *return_value_realloc_4;
   if(cwdBuffer == ((char *)NULL))
   {
-    return_value_strdup$1=strdup("<memory allocation error on retrieving current working directory>");
-    return return_value_strdup$1;
+    return_value_strdup_1=strdup("<memory allocation error on retrieving current working directory>");
+    return return_value_strdup_1;
   }
 
   else
@@ -5014,35 +5014,35 @@ char * getcwd_wrapper(void)
       if(!(retval == ((char *)NULL)))
         return retval;
 
-      return_value___errno_location$6=__errno_location();
-      if(!(*return_value___errno_location$6 == 34))
+      return_value___errno_location_6=__errno_location();
+      if(!(*return_value___errno_location_6 == 34))
         break;
 
       if(!(cwdBufferLength >= 9223372036854775807ul))
       {
         free((void *)cwdBuffer);
-        char *return_value_strdup$3;
-        return_value_strdup$3=strdup("<memory allocation error on retrieving current working directory>");
-        return return_value_strdup$3;
+        char *return_value_strdup_3;
+        return_value_strdup_3=strdup("<memory allocation error on retrieving current working directory>");
+        return return_value_strdup_3;
       }
 
       cwdBufferLength = cwdBufferLength << 1;
-      return_value_realloc$4=realloc((void *)cwdBuffer, cwdBufferLength);
-      newCwdBuffer = (char *)return_value_realloc$4;
+      return_value_realloc_4=realloc((void *)cwdBuffer, cwdBufferLength);
+      newCwdBuffer = (char *)return_value_realloc_4;
       if(newCwdBuffer == ((char *)NULL))
       {
         free((void *)cwdBuffer);
-        char *return_value_strdup$5;
-        return_value_strdup$5=strdup("<memory allocation error on retrieving current working directory>");
-        return return_value_strdup$5;
+        char *return_value_strdup_5;
+        return_value_strdup_5=strdup("<memory allocation error on retrieving current working directory>");
+        return return_value_strdup_5;
       }
 
     }
     while((_Bool)1);
     free((void *)cwdBuffer);
-    char *return_value_strdup$7;
-    return_value_strdup$7=strdup("<error on retrieving current working directory>");
-    return return_value_strdup$7;
+    char *return_value_strdup_7;
+    return_value_strdup_7=strdup("<error on retrieving current working directory>");
+    return return_value_strdup_7;
   }
 }
 
@@ -5069,50 +5069,50 @@ static void handle_client_output(struct ExpNode *exp, const char *activity)
 
 // handle_escape
 // file src/write_stringlist.c line 175
-static signed int handle_escape(char *str, signed int len, struct anonymous$12 *win)
+static signed int handle_escape(char *str, signed int len, struct anonymous_12 *win)
 {
   signed int i;
-  signed int return_value_memcmp$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  const char *return_value_get_param$5;
-  signed int return_value_win_get_paint_y$6;
-  signed int return_value_win_get_paint_x$7;
-  const char *return_value_get_param$8;
-  signed int return_value_win_get_paint_y$9;
-  signed int return_value_win_get_paint_x$10;
-  const char *return_value_get_param$11;
-  signed int return_value_win_get_paint_y$12;
-  signed int return_value_win_get_paint_x$13;
-  const char *return_value_get_param$14;
-  signed int return_value_win_get_paint_y$15;
-  signed int return_value_win_get_paint_x$16;
-  const char *return_value_get_param$17;
-  signed int return_value_win_get_paint_y$18;
-  const char *return_value_get_param$19;
-  signed int return_value_win_get_paint_y$20;
-  _Bool tmp_if_expr$22;
-  const char *return_value_get_param$21;
-  signed int return_value_win_get_paint_y$23;
+  signed int return_value_memcmp_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  const char *return_value_get_param_5;
+  signed int return_value_win_get_paint_y_6;
+  signed int return_value_win_get_paint_x_7;
+  const char *return_value_get_param_8;
+  signed int return_value_win_get_paint_y_9;
+  signed int return_value_win_get_paint_x_10;
+  const char *return_value_get_param_11;
+  signed int return_value_win_get_paint_y_12;
+  signed int return_value_win_get_paint_x_13;
+  const char *return_value_get_param_14;
+  signed int return_value_win_get_paint_y_15;
+  signed int return_value_win_get_paint_x_16;
+  const char *return_value_get_param_17;
+  signed int return_value_win_get_paint_y_18;
+  const char *return_value_get_param_19;
+  signed int return_value_win_get_paint_y_20;
+  _Bool tmp_if_expr_22;
+  const char *return_value_get_param_21;
+  signed int return_value_win_get_paint_y_23;
   const char *new_str;
   signed int param2;
-  enum anonymous$10 return_value_win_get_cup$24;
-  _Bool tmp_if_expr$26;
-  const char *return_value_get_param$25;
-  const char *return_value_get_param$27;
-  const char *return_value_get_param$28;
-  const char *return_value_get_param$29;
-  _Bool tmp_if_expr$31;
-  const char *return_value_get_param$30;
-  signed int return_value_win_get_paint_x$32;
-  const char *return_value_get_param$33;
-  _Bool tmp_if_expr$50;
-  const char *return_value_get_param$49;
-  signed int return_value_win_get_default_attrs$51;
-  _Bool tmp_if_expr$56;
-  const char *return_value_get_param$55;
-  signed int return_value_win_get_default_attrs$57;
+  enum anonymous_10 return_value_win_get_cup_24;
+  _Bool tmp_if_expr_26;
+  const char *return_value_get_param_25;
+  const char *return_value_get_param_27;
+  const char *return_value_get_param_28;
+  const char *return_value_get_param_29;
+  _Bool tmp_if_expr_31;
+  const char *return_value_get_param_30;
+  signed int return_value_win_get_paint_x_32;
+  const char *return_value_get_param_33;
+  _Bool tmp_if_expr_50;
+  const char *return_value_get_param_49;
+  signed int return_value_win_get_default_attrs_51;
+  _Bool tmp_if_expr_56;
+  const char *return_value_get_param_55;
+  signed int return_value_win_get_default_attrs_57;
   if(len == 0)
     return 0;
 
@@ -5129,8 +5129,8 @@ static signed int handle_escape(char *str, signed int len, struct anonymous$12 *
           ti_len=strlen(terminfo_mappings[(signed long int)i].str + (signed long int)1);
           if((unsigned long int)len >= ti_len)
           {
-            return_value_memcmp$1=memcmp((const void *)(terminfo_mappings[(signed long int)i].str + (signed long int)1), (const void *)str, ti_len);
-            if(return_value_memcmp$1 == 0)
+            return_value_memcmp_1=memcmp((const void *)(terminfo_mappings[(signed long int)i].str + (signed long int)1), (const void *)str, ti_len);
+            if(return_value_memcmp_1 == 0)
             {
               do_action(win, terminfo_mappings[(signed long int)i].action, terminfo_mappings[(signed long int)i].attr);
               return (signed int)ti_len;
@@ -5146,28 +5146,28 @@ static signed int handle_escape(char *str, signed int len, struct anonymous$12 *
     if((signed int)*str == 91)
     {
       signed int param = 1;
-      enum anonymous$10 more;
+      enum anonymous_10 more;
       i = 1;
       do
       {
         if(!(i >= len))
         {
           if(!((signed int)str[(signed long int)i] >= 64))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = (signed int)str[(signed long int)i] > 126 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (signed int)str[(signed long int)i] > 126 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (signed int)str[(signed long int)i] != 27 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (signed int)str[(signed long int)i] != 27 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         i = i + 1;
@@ -5180,103 +5180,103 @@ static signed int handle_escape(char *str, signed int len, struct anonymous$12 *
       {
         case 65:
         {
-          return_value_get_param$5=get_param(str + (signed long int)1, &param, &more);
-          if(return_value_get_param$5 == ((const char *)NULL) || more != /*enum*/td_false)
+          return_value_get_param_5=get_param(str + (signed long int)1, &param, &more);
+          if(return_value_get_param_5 == ((const char *)NULL) || more != /*enum*/td_false)
             break;
 
-          return_value_win_get_paint_y$6=win_get_paint_y(win);
-          return_value_win_get_paint_x$7=win_get_paint_x(win);
-          win_set_paint(win, return_value_win_get_paint_y$6 - param, return_value_win_get_paint_x$7);
+          return_value_win_get_paint_y_6=win_get_paint_y(win);
+          return_value_win_get_paint_x_7=win_get_paint_x(win);
+          win_set_paint(win, return_value_win_get_paint_y_6 - param, return_value_win_get_paint_x_7);
           break;
         }
         case 66:
         {
-          return_value_get_param$8=get_param(str + (signed long int)1, &param, &more);
-          if(return_value_get_param$8 == ((const char *)NULL) || !(more == /*enum*/td_false))
+          return_value_get_param_8=get_param(str + (signed long int)1, &param, &more);
+          if(return_value_get_param_8 == ((const char *)NULL) || !(more == /*enum*/td_false))
             break;
 
-          return_value_win_get_paint_y$9=win_get_paint_y(win);
-          return_value_win_get_paint_x$10=win_get_paint_x(win);
-          win_set_paint(win, return_value_win_get_paint_y$9 + param, return_value_win_get_paint_x$10);
+          return_value_win_get_paint_y_9=win_get_paint_y(win);
+          return_value_win_get_paint_x_10=win_get_paint_x(win);
+          win_set_paint(win, return_value_win_get_paint_y_9 + param, return_value_win_get_paint_x_10);
           break;
         }
         case 67:
         {
-          return_value_get_param$11=get_param(str + (signed long int)1, &param, &more);
-          if(return_value_get_param$11 == ((const char *)NULL) || !(more == /*enum*/td_false))
+          return_value_get_param_11=get_param(str + (signed long int)1, &param, &more);
+          if(return_value_get_param_11 == ((const char *)NULL) || !(more == /*enum*/td_false))
             break;
 
-          return_value_win_get_paint_y$12=win_get_paint_y(win);
-          return_value_win_get_paint_x$13=win_get_paint_x(win);
-          win_set_paint(win, return_value_win_get_paint_y$12, return_value_win_get_paint_x$13 + param);
+          return_value_win_get_paint_y_12=win_get_paint_y(win);
+          return_value_win_get_paint_x_13=win_get_paint_x(win);
+          win_set_paint(win, return_value_win_get_paint_y_12, return_value_win_get_paint_x_13 + param);
           break;
         }
         case 68:
         {
-          return_value_get_param$14=get_param(str + (signed long int)1, &param, &more);
-          if(return_value_get_param$14 == ((const char *)NULL) || !(more == /*enum*/td_false))
+          return_value_get_param_14=get_param(str + (signed long int)1, &param, &more);
+          if(return_value_get_param_14 == ((const char *)NULL) || !(more == /*enum*/td_false))
             break;
 
-          return_value_win_get_paint_y$15=win_get_paint_y(win);
-          return_value_win_get_paint_x$16=win_get_paint_x(win);
-          win_set_paint(win, return_value_win_get_paint_y$15, return_value_win_get_paint_x$16 - param);
+          return_value_win_get_paint_y_15=win_get_paint_y(win);
+          return_value_win_get_paint_x_16=win_get_paint_x(win);
+          win_set_paint(win, return_value_win_get_paint_y_15, return_value_win_get_paint_x_16 - param);
           break;
         }
         case 69:
         {
-          return_value_get_param$17=get_param(str + (signed long int)1, &param, &more);
-          if(return_value_get_param$17 == ((const char *)NULL) || !(more == /*enum*/td_false))
+          return_value_get_param_17=get_param(str + (signed long int)1, &param, &more);
+          if(return_value_get_param_17 == ((const char *)NULL) || !(more == /*enum*/td_false))
             break;
 
-          return_value_win_get_paint_y$18=win_get_paint_y(win);
-          win_set_paint(win, return_value_win_get_paint_y$18 + param, 0);
+          return_value_win_get_paint_y_18=win_get_paint_y(win);
+          win_set_paint(win, return_value_win_get_paint_y_18 + param, 0);
           break;
         }
         case 70:
         {
-          return_value_get_param$19=get_param(str + (signed long int)1, &param, &more);
-          if(return_value_get_param$19 == ((const char *)NULL) || !(more == /*enum*/td_false))
+          return_value_get_param_19=get_param(str + (signed long int)1, &param, &more);
+          if(return_value_get_param_19 == ((const char *)NULL) || !(more == /*enum*/td_false))
             break;
 
-          return_value_win_get_paint_y$20=win_get_paint_y(win);
-          win_set_paint(win, return_value_win_get_paint_y$20 - param, 0);
+          return_value_win_get_paint_y_20=win_get_paint_y(win);
+          win_set_paint(win, return_value_win_get_paint_y_20 - param, 0);
           break;
         }
         case 71:
         {
           if(i == 2)
-            tmp_if_expr$22 = (_Bool)1;
+            tmp_if_expr_22 = (_Bool)1;
 
           else
           {
-            return_value_get_param$21=get_param(str + (signed long int)1, &param, &more);
-            tmp_if_expr$22 = return_value_get_param$21 == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            return_value_get_param_21=get_param(str + (signed long int)1, &param, &more);
+            tmp_if_expr_22 = return_value_get_param_21 == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
           }
-          if(!(more == /*enum*/td_false) || tmp_if_expr$22)
+          if(!(more == /*enum*/td_false) || tmp_if_expr_22)
             break;
 
-          return_value_win_get_paint_y$23=win_get_paint_y(win);
-          win_set_paint(win, return_value_win_get_paint_y$23, param - 1);
+          return_value_win_get_paint_y_23=win_get_paint_y(win);
+          win_set_paint(win, return_value_win_get_paint_y_23, param - 1);
           break;
         }
         case 102:
 
         case 72:
         {
-          return_value_win_get_cup$24=win_get_cup(win);
-          if(return_value_win_get_cup$24 == /*enum*/td_false)
+          return_value_win_get_cup_24=win_get_cup(win);
+          if(return_value_win_get_cup_24 == /*enum*/td_false)
             break;
 
           new_str=get_param(str + (signed long int)1, &param, &more);
           if(more == /*enum*/td_false || new_str == ((const char *)NULL))
-            tmp_if_expr$26 = (_Bool)1;
+            tmp_if_expr_26 = (_Bool)1;
 
           else
           {
-            return_value_get_param$25=get_param(new_str, &param2, &more);
-            tmp_if_expr$26 = return_value_get_param$25 == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            return_value_get_param_25=get_param(new_str, &param2, &more);
+            tmp_if_expr_26 = return_value_get_param_25 == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
           }
-          if(!(more == /*enum*/td_false) || tmp_if_expr$26)
+          if(!(more == /*enum*/td_false) || tmp_if_expr_26)
             break;
 
           win_set_paint(win, param - 1, param2 - 1);
@@ -5303,8 +5303,8 @@ static signed int handle_escape(char *str, signed int len, struct anonymous$12 *
         case 75:
         {
           param = 0;
-          return_value_get_param$27=get_param(str + (signed long int)1, &param, &more);
-          if(return_value_get_param$27 == ((const char *)NULL) || !(more == /*enum*/td_false))
+          return_value_get_param_27=get_param(str + (signed long int)1, &param, &more);
+          if(return_value_get_param_27 == ((const char *)NULL) || !(more == /*enum*/td_false))
             break;
 
           if(param == 0)
@@ -5325,8 +5325,8 @@ static signed int handle_escape(char *str, signed int len, struct anonymous$12 *
         }
         case 83:
         {
-          return_value_get_param$28=get_param(str + (signed long int)1, &param, &more);
-          if(return_value_get_param$28 == ((const char *)NULL) || !(more == /*enum*/td_false))
+          return_value_get_param_28=get_param(str + (signed long int)1, &param, &more);
+          if(return_value_get_param_28 == ((const char *)NULL) || !(more == /*enum*/td_false))
             break;
 
           for( ; param >= 1; param = param - 1)
@@ -5335,8 +5335,8 @@ static signed int handle_escape(char *str, signed int len, struct anonymous$12 *
         }
         case 84:
         {
-          return_value_get_param$29=get_param(str + (signed long int)1, &param, &more);
-          if(return_value_get_param$29 == ((const char *)NULL) || more != /*enum*/td_false)
+          return_value_get_param_29=get_param(str + (signed long int)1, &param, &more);
+          if(return_value_get_param_29 == ((const char *)NULL) || more != /*enum*/td_false)
             break;
 
           for( ; param >= 1; param = param - 1)
@@ -5346,18 +5346,18 @@ static signed int handle_escape(char *str, signed int len, struct anonymous$12 *
         case 100:
         {
           if(i == 2)
-            tmp_if_expr$31 = (_Bool)1;
+            tmp_if_expr_31 = (_Bool)1;
 
           else
           {
-            return_value_get_param$30=get_param(str + (signed long int)1, &param, &more);
-            tmp_if_expr$31 = return_value_get_param$30 == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            return_value_get_param_30=get_param(str + (signed long int)1, &param, &more);
+            tmp_if_expr_31 = return_value_get_param_30 == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
           }
-          if(more != /*enum*/td_false || tmp_if_expr$31)
+          if(more != /*enum*/td_false || tmp_if_expr_31)
             break;
 
-          return_value_win_get_paint_x$32=win_get_paint_x(win);
-          win_set_paint(win, param - 1, return_value_win_get_paint_x$32);
+          return_value_win_get_paint_x_32=win_get_paint_x(win);
+          win_set_paint(win, param - 1, return_value_win_get_paint_x_32);
           break;
         }
         case 109:
@@ -5366,149 +5366,149 @@ static signed int handle_escape(char *str, signed int len, struct anonymous$12 *
           str = str + 1l;
           do
           {
-            return_value_get_param$33=get_param(str, &param, &more);
-            str = (char *)return_value_get_param$33;
+            return_value_get_param_33=get_param(str, &param, &more);
+            str = (char *)return_value_get_param_33;
             if(str == ((char *)NULL))
               break;
 
             if(param == 0)
             {
-              signed int return_value_win_get_default_attrs$34;
-              return_value_win_get_default_attrs$34=win_get_default_attrs(win);
-              win_set_default_attrs(win, return_value_win_get_default_attrs$34 & (signed int)(1L << 6));
+              signed int return_value_win_get_default_attrs_34;
+              return_value_win_get_default_attrs_34=win_get_default_attrs(win);
+              win_set_default_attrs(win, return_value_win_get_default_attrs_34 & (signed int)(1L << 6));
             }
 
             else
               if(param == 1)
               {
-                signed int return_value_win_get_default_attrs$35;
-                return_value_win_get_default_attrs$35=win_get_default_attrs(win);
-                win_set_default_attrs(win, return_value_win_get_default_attrs$35 | (signed int)(1L << 2));
+                signed int return_value_win_get_default_attrs_35;
+                return_value_win_get_default_attrs_35=win_get_default_attrs(win);
+                win_set_default_attrs(win, return_value_win_get_default_attrs_35 | (signed int)(1L << 2));
               }
 
               else
                 if(param == 2)
                 {
-                  signed int return_value_win_get_default_attrs$36;
-                  return_value_win_get_default_attrs$36=win_get_default_attrs(win);
-                  win_set_default_attrs(win, return_value_win_get_default_attrs$36 | (signed int)(1L << 5));
+                  signed int return_value_win_get_default_attrs_36;
+                  return_value_win_get_default_attrs_36=win_get_default_attrs(win);
+                  win_set_default_attrs(win, return_value_win_get_default_attrs_36 | (signed int)(1L << 5));
                 }
 
                 else
                   if(param == 4)
                   {
-                    signed int return_value_win_get_default_attrs$37;
-                    return_value_win_get_default_attrs$37=win_get_default_attrs(win);
-                    win_set_default_attrs(win, return_value_win_get_default_attrs$37 | (signed int)(1L << 1));
+                    signed int return_value_win_get_default_attrs_37;
+                    return_value_win_get_default_attrs_37=win_get_default_attrs(win);
+                    win_set_default_attrs(win, return_value_win_get_default_attrs_37 | (signed int)(1L << 1));
                   }
 
                   else
                     if(param == 5)
                     {
-                      signed int return_value_win_get_default_attrs$38;
-                      return_value_win_get_default_attrs$38=win_get_default_attrs(win);
-                      win_set_default_attrs(win, return_value_win_get_default_attrs$38 | (signed int)(1L << 4));
+                      signed int return_value_win_get_default_attrs_38;
+                      return_value_win_get_default_attrs_38=win_get_default_attrs(win);
+                      win_set_default_attrs(win, return_value_win_get_default_attrs_38 | (signed int)(1L << 4));
                     }
 
                     else
                       if(param == 7)
                       {
-                        signed int return_value_win_get_default_attrs$39;
-                        return_value_win_get_default_attrs$39=win_get_default_attrs(win);
-                        win_set_default_attrs(win, return_value_win_get_default_attrs$39 | (signed int)(1L << 3));
+                        signed int return_value_win_get_default_attrs_39;
+                        return_value_win_get_default_attrs_39=win_get_default_attrs(win);
+                        win_set_default_attrs(win, return_value_win_get_default_attrs_39 | (signed int)(1L << 3));
                       }
 
                       else
                         if(param == 8)
                         {
-                          signed int return_value_win_get_default_attrs$40;
-                          return_value_win_get_default_attrs$40=win_get_default_attrs(win);
-                          win_set_default_attrs(win, return_value_win_get_default_attrs$40 | (signed int)(1L << 0));
+                          signed int return_value_win_get_default_attrs_40;
+                          return_value_win_get_default_attrs_40=win_get_default_attrs(win);
+                          win_set_default_attrs(win, return_value_win_get_default_attrs_40 | (signed int)(1L << 0));
                         }
 
                         else
                           if(param == 21)
                           {
-                            signed int return_value_win_get_default_attrs$41;
-                            return_value_win_get_default_attrs$41=win_get_default_attrs(win);
-                            win_set_default_attrs(win, return_value_win_get_default_attrs$41 & ~((signed int)(1L << 2)));
+                            signed int return_value_win_get_default_attrs_41;
+                            return_value_win_get_default_attrs_41=win_get_default_attrs(win);
+                            win_set_default_attrs(win, return_value_win_get_default_attrs_41 & ~((signed int)(1L << 2)));
                           }
 
                           else
                             if(param == 22)
                             {
-                              signed int return_value_win_get_default_attrs$42;
-                              return_value_win_get_default_attrs$42=win_get_default_attrs(win);
-                              win_set_default_attrs(win, return_value_win_get_default_attrs$42 & ~((signed int)(1L << 2) | (signed int)(1L << 5)));
+                              signed int return_value_win_get_default_attrs_42;
+                              return_value_win_get_default_attrs_42=win_get_default_attrs(win);
+                              win_set_default_attrs(win, return_value_win_get_default_attrs_42 & ~((signed int)(1L << 2) | (signed int)(1L << 5)));
                             }
 
                             else
                               if(param == 24)
                               {
-                                signed int return_value_win_get_default_attrs$43;
-                                return_value_win_get_default_attrs$43=win_get_default_attrs(win);
-                                win_set_default_attrs(win, return_value_win_get_default_attrs$43 & ~((signed int)(1L << 1)));
+                                signed int return_value_win_get_default_attrs_43;
+                                return_value_win_get_default_attrs_43=win_get_default_attrs(win);
+                                win_set_default_attrs(win, return_value_win_get_default_attrs_43 & ~((signed int)(1L << 1)));
                               }
 
                               else
                                 if(param == 25)
                                 {
-                                  signed int return_value_win_get_default_attrs$44;
-                                  return_value_win_get_default_attrs$44=win_get_default_attrs(win);
-                                  win_set_default_attrs(win, return_value_win_get_default_attrs$44 & ~((signed int)(1L << 4)));
+                                  signed int return_value_win_get_default_attrs_44;
+                                  return_value_win_get_default_attrs_44=win_get_default_attrs(win);
+                                  win_set_default_attrs(win, return_value_win_get_default_attrs_44 & ~((signed int)(1L << 4)));
                                 }
 
                                 else
                                   if(param == 27)
                                   {
-                                    signed int return_value_win_get_default_attrs$45;
-                                    return_value_win_get_default_attrs$45=win_get_default_attrs(win);
-                                    win_set_default_attrs(win, return_value_win_get_default_attrs$45 & ~((signed int)(1L << 3)));
+                                    signed int return_value_win_get_default_attrs_45;
+                                    return_value_win_get_default_attrs_45=win_get_default_attrs(win);
+                                    win_set_default_attrs(win, return_value_win_get_default_attrs_45 & ~((signed int)(1L << 3)));
                                   }
 
                                   else
                                     if(param == 28)
                                     {
-                                      signed int return_value_win_get_default_attrs$46;
-                                      return_value_win_get_default_attrs$46=win_get_default_attrs(win);
-                                      win_set_default_attrs(win, return_value_win_get_default_attrs$46 & ~((signed int)(1L << 0)));
+                                      signed int return_value_win_get_default_attrs_46;
+                                      return_value_win_get_default_attrs_46=win_get_default_attrs(win);
+                                      win_set_default_attrs(win, return_value_win_get_default_attrs_46 & ~((signed int)(1L << 0)));
                                     }
 
                                     else
                                       if(param >= 30 && !(param >= 38))
                                       {
-                                        signed int return_value_win_get_default_attrs$47;
-                                        return_value_win_get_default_attrs$47=win_get_default_attrs(win);
-                                        win_set_default_attrs(win, return_value_win_get_default_attrs$47 & ~(0x1ff << 8) | ((signed int)(param - 30) & 0xff) + 1 << 8);
+                                        signed int return_value_win_get_default_attrs_47;
+                                        return_value_win_get_default_attrs_47=win_get_default_attrs(win);
+                                        win_set_default_attrs(win, return_value_win_get_default_attrs_47 & ~(0x1ff << 8) | ((signed int)(param - 30) & 0xff) + 1 << 8);
                                       }
 
                                       else
                                         if(param == 38)
                                         {
-                                          const char *return_value_get_param$48;
-                                          return_value_get_param$48=get_param(str, &param, &more);
-                                          str = (char *)return_value_get_param$48;
+                                          const char *return_value_get_param_48;
+                                          return_value_get_param_48=get_param(str, &param, &more);
+                                          str = (char *)return_value_get_param_48;
                                           if(str == ((char *)NULL))
                                             break;
 
                                           if(param == 5)
                                           {
                                             if(more == /*enum*/td_false)
-                                              tmp_if_expr$50 = (_Bool)1;
+                                              tmp_if_expr_50 = (_Bool)1;
 
                                             else
                                             {
-                                              return_value_get_param$49=get_param(str, &param, &more);
-                                              str = (char *)return_value_get_param$49;
-                                              tmp_if_expr$50 = str == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                                              return_value_get_param_49=get_param(str, &param, &more);
+                                              str = (char *)return_value_get_param_49;
+                                              tmp_if_expr_50 = str == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
                                             }
-                                            if(tmp_if_expr$50)
+                                            if(tmp_if_expr_50)
                                               break;
 
                                             if(!(param >= 256))
                                             {
-                                              return_value_win_get_default_attrs$51=win_get_default_attrs(win);
-                                              win_set_default_attrs(win, return_value_win_get_default_attrs$51 & ~(0x1ff << 8) | ((signed int)param & 0xff) + 1 << 8);
+                                              return_value_win_get_default_attrs_51=win_get_default_attrs(win);
+                                              win_set_default_attrs(win, return_value_win_get_default_attrs_51 & ~(0x1ff << 8) | ((signed int)param & 0xff) + 1 << 8);
                                             }
 
                                           }
@@ -5518,46 +5518,46 @@ static signed int handle_escape(char *str, signed int len, struct anonymous$12 *
                                         else
                                           if(param == 39)
                                           {
-                                            signed int return_value_win_get_default_attrs$52;
-                                            return_value_win_get_default_attrs$52=win_get_default_attrs(win);
-                                            win_set_default_attrs(win, return_value_win_get_default_attrs$52 & ~(0x1ff << 8));
+                                            signed int return_value_win_get_default_attrs_52;
+                                            return_value_win_get_default_attrs_52=win_get_default_attrs(win);
+                                            win_set_default_attrs(win, return_value_win_get_default_attrs_52 & ~(0x1ff << 8));
                                           }
 
                                           else
                                             if(param >= 40 && !(param >= 48))
                                             {
-                                              signed int return_value_win_get_default_attrs$53;
-                                              return_value_win_get_default_attrs$53=win_get_default_attrs(win);
-                                              win_set_default_attrs(win, return_value_win_get_default_attrs$53 & ~(0x1ff << 8 + 9) | ((signed int)(param - 40) & 0xff) + 1 << 8 + 9);
+                                              signed int return_value_win_get_default_attrs_53;
+                                              return_value_win_get_default_attrs_53=win_get_default_attrs(win);
+                                              win_set_default_attrs(win, return_value_win_get_default_attrs_53 & ~(0x1ff << 8 + 9) | ((signed int)(param - 40) & 0xff) + 1 << 8 + 9);
                                             }
 
                                             else
                                               if(param == 48)
                                               {
-                                                const char *return_value_get_param$54;
-                                                return_value_get_param$54=get_param(str, &param, &more);
-                                                str = (char *)return_value_get_param$54;
+                                                const char *return_value_get_param_54;
+                                                return_value_get_param_54=get_param(str, &param, &more);
+                                                str = (char *)return_value_get_param_54;
                                                 if(str == ((char *)NULL))
                                                   break;
 
                                                 if(param == 5)
                                                 {
                                                   if(more == /*enum*/td_false)
-                                                    tmp_if_expr$56 = (_Bool)1;
+                                                    tmp_if_expr_56 = (_Bool)1;
 
                                                   else
                                                   {
-                                                    return_value_get_param$55=get_param(str, &param, &more);
-                                                    str = (char *)return_value_get_param$55;
-                                                    tmp_if_expr$56 = str == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                                                    return_value_get_param_55=get_param(str, &param, &more);
+                                                    str = (char *)return_value_get_param_55;
+                                                    tmp_if_expr_56 = str == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
                                                   }
-                                                  if(tmp_if_expr$56)
+                                                  if(tmp_if_expr_56)
                                                     break;
 
                                                   if(!(param >= 256))
                                                   {
-                                                    return_value_win_get_default_attrs$57=win_get_default_attrs(win);
-                                                    win_set_default_attrs(win, return_value_win_get_default_attrs$57 & ~(0x1ff << 8 + 9) | ((signed int)param & 0xff) + 1 << 8 + 9);
+                                                    return_value_win_get_default_attrs_57=win_get_default_attrs(win);
+                                                    win_set_default_attrs(win, return_value_win_get_default_attrs_57 & ~(0x1ff << 8 + 9) | ((signed int)param & 0xff) + 1 << 8 + 9);
                                                   }
 
                                                 }
@@ -5567,9 +5567,9 @@ static signed int handle_escape(char *str, signed int len, struct anonymous$12 *
                                               else
                                                 if(param == 49)
                                                 {
-                                                  signed int return_value_win_get_default_attrs$58;
-                                                  return_value_win_get_default_attrs$58=win_get_default_attrs(win);
-                                                  win_set_default_attrs(win, return_value_win_get_default_attrs$58 & ~(0x1ff << 8 + 9));
+                                                  signed int return_value_win_get_default_attrs_58;
+                                                  return_value_win_get_default_attrs_58=win_get_default_attrs(win);
+                                                  win_set_default_attrs(win, return_value_win_get_default_attrs_58 & ~(0x1ff << 8 + 9));
                                                 }
 
             param = 0;
@@ -5632,7 +5632,7 @@ static void handle_exit(struct ExpNode *exit_data)
       while((_Bool)0);
 
     /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$8
+union anonymous_8
 {
   // __in
   signed int __in;
@@ -5643,7 +5643,7 @@ union anonymous$8
 /* */
     ;
     if(!(log_file == ((struct _IO_FILE *)NULL)))
-      fprintf(log_file, "!! Program ended with different status: %d iso %d\n", (((union anonymous$8){ .__in=status }).__i & 0xff00) >> 8, exit_data->un.number);
+      fprintf(log_file, "!! Program ended with different status: %d iso %d\n", (((union anonymous_8){ .__in=status }).__i & 0xff00) >> 8, exit_data->un.number);
 
     exit(1);
   }
@@ -5658,21 +5658,21 @@ union anonymous$8
 // file src/replay.c line 341
 static void handle_signals(struct ExpNode *exp, const char *activity)
 {
-  signed long int return_value_safe_read$1;
-  signed int return_value_waitpid$2;
+  signed long int return_value_safe_read_1;
+  signed int return_value_waitpid_2;
   if(!((0x001 & (signed int)fdset[1l].revents) == 0))
   {
     char signal_byte;
     do
     {
-      return_value_safe_read$1=safe_read(signal_pipe[(signed long int)0], &signal_byte, (unsigned long int)1);
-      if(!(return_value_safe_read$1 == 1l))
+      return_value_safe_read_1=safe_read(signal_pipe[(signed long int)0], &signal_byte, (unsigned long int)1);
+      if(!(return_value_safe_read_1 == 1l))
         break;
 
       if((signed int)signal_byte == 0)
       {
-        return_value_waitpid$2=waitpid(pid, &status, 1 | 2);
-        if(return_value_waitpid$2 == pid)
+        return_value_waitpid_2=waitpid(pid, &status, 1 | 2);
+        if(return_value_waitpid_2 == pid)
         {
           unexpected("Process stopped unexpectedly while waiting %s", (const char *)(void *)0, (unsigned long int)0, exp->line, activity);
           if((0xff & status) == 0x7f)
@@ -5720,49 +5720,49 @@ void init_timestamp(void)
 void install_signal_handler(signed int sig, void (*handler)(signed int), const char *descr)
 {
   struct sigaction sa;
-  struct anonymous$2 sigs;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  static enum anonymous$10 pipe_initialised = (enum anonymous$10)td_false;
+  struct anonymous_2 sigs;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  static enum anonymous_10 pipe_initialised = (enum anonymous_10)td_false;
   if(pipe_initialised == /*enum*/td_false)
   {
-    signed int return_value_pipe$3;
-    return_value_pipe$3=pipe(signal_pipe);
-    if(!(return_value_pipe$3 >= 0))
+    signed int return_value_pipe_3;
+    return_value_pipe_3=pipe(signal_pipe);
+    if(!(return_value_pipe_3 >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fatal("Could not open pipe: %s\n", return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fatal("Could not open pipe: %s\n", return_value_strerror_2);
     }
 
-    pipe_initialised = (enum anonymous$10)td_true;
+    pipe_initialised = (enum anonymous_10)td_true;
   }
 
   sa.__sigaction_handler.sa_handler = handler;
   sigemptyset(&sa.sa_mask);
   sa.sa_flags = 0;
-  signed int return_value_sigaction$6;
-  return_value_sigaction$6=sigaction(sig, &sa, (struct sigaction *)(void *)0);
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  if(!(return_value_sigaction$6 >= 0))
+  signed int return_value_sigaction_6;
+  return_value_sigaction_6=sigaction(sig, &sa, (struct sigaction *)(void *)0);
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  if(!(return_value_sigaction_6 >= 0))
   {
-    return_value___errno_location$4=__errno_location();
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    fatal("Could not set signal handler for %s: %s\n", descr, return_value_strerror$5);
+    return_value___errno_location_4=__errno_location();
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    fatal("Could not set signal handler for %s: %s\n", descr, return_value_strerror_5);
   }
 
   sigemptyset(&sigs);
   sigaddset(&sigs, sig);
-  signed int return_value_sigprocmask$9;
-  return_value_sigprocmask$9=sigprocmask(1, &sigs, (struct anonymous$2 *)(void *)0);
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
-  if(!(return_value_sigprocmask$9 >= 0))
+  signed int return_value_sigprocmask_9;
+  return_value_sigprocmask_9=sigprocmask(1, &sigs, (struct anonymous_2 *)(void *)0);
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
+  if(!(return_value_sigprocmask_9 >= 0))
   {
-    return_value___errno_location$7=__errno_location();
-    return_value_strerror$8=strerror(*return_value___errno_location$7);
-    fatal("Could not block %s: %s\n", descr, return_value_strerror$8);
+    return_value___errno_location_7=__errno_location();
+    return_value_strerror_8=strerror(*return_value___errno_location_7);
+    fatal("Could not block %s: %s\n", descr, return_value_strerror_8);
   }
 
 }
@@ -5780,44 +5780,44 @@ static void interact(void)
 // file src/common.c line 340
 signed int interact_loop(signed int master, signed int pid, struct _IO_FILE *output, signed int timeout)
 {
-  struct pollfd interact_loop$$1$$fdset[3l];
+  struct pollfd interact_loop__1__fdset[3l];
   struct winsize wsz;
-  signed int interact_loop$$1$$status;
+  signed int interact_loop__1__status;
   signed int remaining_timeout = timeout;
   struct timeval start;
-  interact_loop$$1$$fdset[(signed long int)0].fd = 0;
-  interact_loop$$1$$fdset[(signed long int)0].events = (signed short int)0x001;
-  interact_loop$$1$$fdset[(signed long int)1].fd = master;
-  interact_loop$$1$$fdset[(signed long int)1].events = (signed short int)0x001;
-  interact_loop$$1$$fdset[(signed long int)2].fd = signal_pipe[(signed long int)0];
-  interact_loop$$1$$fdset[(signed long int)2].events = (signed short int)0x001;
+  interact_loop__1__fdset[(signed long int)0].fd = 0;
+  interact_loop__1__fdset[(signed long int)0].events = (signed short int)0x001;
+  interact_loop__1__fdset[(signed long int)1].fd = master;
+  interact_loop__1__fdset[(signed long int)1].events = (signed short int)0x001;
+  interact_loop__1__fdset[(signed long int)2].fd = signal_pipe[(signed long int)0];
+  interact_loop__1__fdset[(signed long int)2].events = (signed short int)0x001;
   copy_attrs_to_terminal(0);
   if(timeout >= 0)
     gettimeofday(&start, (struct timezone *)(void *)0);
 
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed long int return_value_safe_read$4;
-  signed int return_value_waitpid$5;
-  signed int return_value_ioctl$8;
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  signed int return_value_ioctl$12;
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed long int return_value_safe_read_4;
+  signed int return_value_waitpid_5;
+  signed int return_value_ioctl_8;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  signed int return_value_ioctl_12;
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
   while((_Bool)1)
   {
     signed int result;
-    result=poll(interact_loop$$1$$fdset, (unsigned long int)3, remaining_timeout);
+    result=poll(interact_loop__1__fdset, (unsigned long int)3, remaining_timeout);
     if(result == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(!(*return_value___errno_location$3 == 4))
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(!(*return_value___errno_location_3 == 4))
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fatal("Error during poll: %s\n", return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fatal("Error during poll: %s\n", return_value_strerror_2);
       }
 
     }
@@ -5826,30 +5826,30 @@ signed int interact_loop(signed int master, signed int pid, struct _IO_FILE *out
       return -1;
 
     copy_attrs_to_terminal(master);
-    if(!((0x001 & (signed int)interact_loop$$1$$fdset[1l].revents) == 0))
-      copy_fd(master, 1, (enum anonymous$3)TYPE_OUTPUT, output);
+    if(!((0x001 & (signed int)interact_loop__1__fdset[1l].revents) == 0))
+      copy_fd(master, 1, (enum anonymous_3)TYPE_OUTPUT, output);
 
     copy_attrs_to_terminal(master);
-    if(!((0x001 & (signed int)interact_loop$$1$$fdset[0l].revents) == 0))
-      copy_fd(0, master, (enum anonymous$3)TYPE_INPUT, output);
+    if(!((0x001 & (signed int)interact_loop__1__fdset[0l].revents) == 0))
+      copy_fd(0, master, (enum anonymous_3)TYPE_INPUT, output);
 
-    if(!((0x001 & (signed int)interact_loop$$1$$fdset[2l].revents) == 0))
+    if(!((0x001 & (signed int)interact_loop__1__fdset[2l].revents) == 0))
     {
       char signal_byte;
       do
       {
-        return_value_safe_read$4=safe_read(signal_pipe[(signed long int)0], &signal_byte, (unsigned long int)1);
-        if(!(return_value_safe_read$4 == 1l))
+        return_value_safe_read_4=safe_read(signal_pipe[(signed long int)0], &signal_byte, (unsigned long int)1);
+        if(!(return_value_safe_read_4 == 1l))
           break;
 
         switch((signed int)signal_byte)
         {
           case 0:
           {
-            return_value_waitpid$5=waitpid(pid, &interact_loop$$1$$status, 1 | 2);
-            if(return_value_waitpid$5 == pid)
+            return_value_waitpid_5=waitpid(pid, &interact_loop__1__status, 1 | 2);
+            if(return_value_waitpid_5 == pid)
             {
-              if((0xff & interact_loop$$1$$status) == 0x7f)
+              if((0xff & interact_loop__1__status) == 0x7f)
               {
                 if(!(output == ((struct _IO_FILE *)NULL)))
                 {
@@ -5857,7 +5857,7 @@ signed int interact_loop(signed int master, signed int pid, struct _IO_FILE *out
                     fputs("\"\n", output);
 
                   fprintf(output, "expect_suspend\n");
-                  last_type = (enum anonymous$3)TYPE_NONE;
+                  last_type = (enum anonymous_3)TYPE_NONE;
                 }
 
                 printf("Process has stopped. Will send continue signal in 3 seconds\n");
@@ -5876,12 +5876,12 @@ signed int interact_loop(signed int master, signed int pid, struct _IO_FILE *out
           }
           case 1:
           {
-            return_value_ioctl$8=ioctl(0, (unsigned long int)0x5413, &wsz);
-            if(!(return_value_ioctl$8 >= 0))
+            return_value_ioctl_8=ioctl(0, (unsigned long int)0x5413, &wsz);
+            if(!(return_value_ioctl_8 >= 0))
             {
-              return_value___errno_location$6=__errno_location();
-              return_value_strerror$7=strerror(*return_value___errno_location$6);
-              fatal("Error obtaining window size: %s\n", return_value_strerror$7);
+              return_value___errno_location_6=__errno_location();
+              return_value_strerror_7=strerror(*return_value___errno_location_6);
+              fatal("Error obtaining window size: %s\n", return_value_strerror_7);
             }
 
             if(!(output == ((struct _IO_FILE *)NULL)))
@@ -5889,18 +5889,18 @@ signed int interact_loop(signed int master, signed int pid, struct _IO_FILE *out
               if((signed int)last_type == TYPE_OUTPUT)
                 fputs("\"\n", output);
 
-              signed int return_value_get_elapsed$9;
-              return_value_get_elapsed$9=get_elapsed();
-              fprintf(output, "window_size %d %d %d\n", wsz.ws_col, wsz.ws_row, return_value_get_elapsed$9);
-              last_type = (enum anonymous$3)TYPE_NONE;
+              signed int return_value_get_elapsed_9;
+              return_value_get_elapsed_9=get_elapsed();
+              fprintf(output, "window_size %d %d %d\n", wsz.ws_col, wsz.ws_row, return_value_get_elapsed_9);
+              last_type = (enum anonymous_3)TYPE_NONE;
             }
 
-            return_value_ioctl$12=ioctl(master, (unsigned long int)0x5414, &wsz);
-            if(!(return_value_ioctl$12 >= 0))
+            return_value_ioctl_12=ioctl(master, (unsigned long int)0x5414, &wsz);
+            if(!(return_value_ioctl_12 >= 0))
             {
-              return_value___errno_location$10=__errno_location();
-              return_value_strerror$11=strerror(*return_value___errno_location$10);
-              fatal("Error setting window size: %s\n", return_value_strerror$11);
+              return_value___errno_location_10=__errno_location();
+              return_value_strerror_11=strerror(*return_value___errno_location_10);
+              fatal("Error setting window size: %s\n", return_value_strerror_11);
             }
 
             break;
@@ -5916,9 +5916,9 @@ signed int interact_loop(signed int master, signed int pid, struct _IO_FILE *out
     {
       struct timeval now;
       gettimeofday(&now, (struct timezone *)(void *)0);
-      signed int return_value_timevaldiff$13;
-      return_value_timevaldiff$13=timevaldiff(start, now);
-      remaining_timeout = timeout - return_value_timevaldiff$13;
+      signed int return_value_timevaldiff_13;
+      return_value_timevaldiff_13=timevaldiff(start, now);
+      remaining_timeout = timeout - return_value_timevaldiff_13;
       if(!(remaining_timeout >= 1))
         return -1;
 
@@ -5929,14 +5929,14 @@ signed int interact_loop(signed int master, signed int pid, struct _IO_FILE *out
 end:
   ;
   copy_attrs_to_terminal(master);
-  copy_fd(master, 1, (enum anonymous$3)TYPE_OUTPUT, output);
+  copy_fd(master, 1, (enum anonymous_3)TYPE_OUTPUT, output);
   if(!(output == ((struct _IO_FILE *)NULL)))
   {
     if((signed int)last_type == TYPE_OUTPUT)
       fputs("\"\n", output);
 
     /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$8
+union anonymous_8
 {
   // __in
   signed int __in;
@@ -5946,10 +5946,10 @@ union anonymous$8
 
 /* */
     ;
-    fprintf(output, "expect_exit %d\n", (((union anonymous$8){ .__in=interact_loop$$1$$status }).__i & 0xff00) >> 8);
+    fprintf(output, "expect_exit %d\n", (((union anonymous_8){ .__in=interact_loop__1__status }).__i & 0xff00) >> 8);
   }
 
-  return interact_loop$$1$$status;
+  return interact_loop__1__status;
 }
 
 // join_picture_thread
@@ -5958,7 +5958,7 @@ static void join_picture_thread(void)
 {
   void *retval;
   pthread_mutex_lock(&picture_queue_lock);
-  finished = (enum anonymous$10)td_true;
+  finished = (enum anonymous_10)td_true;
   pthread_cond_signal(&picture_queue_cond);
   pthread_mutex_unlock(&picture_queue_lock);
   pthread_join(picture_thread, &retval);
@@ -5970,57 +5970,57 @@ signed int main(signed int argc, char **argv)
 {
   char *name;
   name=__xpg_basename(argv[(signed long int)0]);
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp(name, "tdrecord");
-  signed int return_value_tdrecord_main$1;
-  signed int return_value_tdreplay_main$3;
-  signed int return_value_tdrerecord_main$5;
-  signed int return_value_tdview_main$7;
-  signed int return_value_tdcompare_main$9;
-  if(return_value_strcmp$2 == 0)
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp(name, "tdrecord");
+  signed int return_value_tdrecord_main_1;
+  signed int return_value_tdreplay_main_3;
+  signed int return_value_tdrerecord_main_5;
+  signed int return_value_tdview_main_7;
+  signed int return_value_tdcompare_main_9;
+  if(return_value_strcmp_2 == 0)
   {
-    return_value_tdrecord_main$1=tdrecord_main(argc, argv);
-    return return_value_tdrecord_main$1;
+    return_value_tdrecord_main_1=tdrecord_main(argc, argv);
+    return return_value_tdrecord_main_1;
   }
 
   else
   {
-    signed int return_value_strcmp$4;
-    return_value_strcmp$4=strcmp(name, "tdreplay");
-    if(return_value_strcmp$4 == 0)
+    signed int return_value_strcmp_4;
+    return_value_strcmp_4=strcmp(name, "tdreplay");
+    if(return_value_strcmp_4 == 0)
     {
-      return_value_tdreplay_main$3=tdreplay_main(argc, argv);
-      return return_value_tdreplay_main$3;
+      return_value_tdreplay_main_3=tdreplay_main(argc, argv);
+      return return_value_tdreplay_main_3;
     }
 
     else
     {
-      signed int return_value_strcmp$6;
-      return_value_strcmp$6=strcmp(name, "tdrerecord");
-      if(return_value_strcmp$6 == 0)
+      signed int return_value_strcmp_6;
+      return_value_strcmp_6=strcmp(name, "tdrerecord");
+      if(return_value_strcmp_6 == 0)
       {
-        return_value_tdrerecord_main$5=tdrerecord_main(argc, argv);
-        return return_value_tdrerecord_main$5;
+        return_value_tdrerecord_main_5=tdrerecord_main(argc, argv);
+        return return_value_tdrerecord_main_5;
       }
 
       else
       {
-        signed int return_value_strcmp$8;
-        return_value_strcmp$8=strcmp(name, "tdview");
-        if(return_value_strcmp$8 == 0)
+        signed int return_value_strcmp_8;
+        return_value_strcmp_8=strcmp(name, "tdview");
+        if(return_value_strcmp_8 == 0)
         {
-          return_value_tdview_main$7=tdview_main(argc, argv);
-          return return_value_tdview_main$7;
+          return_value_tdview_main_7=tdview_main(argc, argv);
+          return return_value_tdview_main_7;
         }
 
         else
         {
-          signed int return_value_strcmp$10;
-          return_value_strcmp$10=strcmp(name, "tdcompare");
-          if(return_value_strcmp$10 == 0)
+          signed int return_value_strcmp_10;
+          return_value_strcmp_10=strcmp(name, "tdcompare");
+          if(return_value_strcmp_10 == 0)
           {
-            return_value_tdcompare_main$9=tdcompare_main(argc, argv);
-            return return_value_tdcompare_main$9;
+            return_value_tdcompare_main_9=tdcompare_main(argc, argv);
+            return return_value_tdcompare_main_9;
           }
 
           else
@@ -6039,21 +6039,21 @@ signed int main(signed int argc, char **argv)
 signed int map_attr(signed int attr)
 {
   signed int ptr = attr_hash_map[(signed long int)(attr % 337)];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(ptr == -1))
-      tmp_if_expr$1 = (attr_map + (signed long int)ptr)->attr != attr ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (attr_map + (signed long int)ptr)->attr != attr ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     ptr = (attr_map + (signed long int)ptr)->next;
   }
   while((_Bool)1);
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   if(!(ptr == -1))
     return ptr;
 
@@ -6063,9 +6063,9 @@ signed int map_attr(signed int attr)
     {
       signed int new_allocation = attr_map_allocated == 0 ? 32 : attr_map_allocated * 2;
       struct attr_map_t *new_map;
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)attr_map, (unsigned long int)new_allocation * sizeof(struct attr_map_t) /*8ul*/ );
-      new_map = (struct attr_map_t *)return_value_realloc$2;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)attr_map, (unsigned long int)new_allocation * sizeof(struct attr_map_t) /*8ul*/ );
+      new_map = (struct attr_map_t *)return_value_realloc_2;
       if(new_map == ((struct attr_map_t *)NULL))
         fatal("Out of memory\n");
 
@@ -6076,9 +6076,9 @@ signed int map_attr(signed int attr)
     (attr_map + (signed long int)attr_map_fill)->attr = attr;
     (attr_map + (signed long int)attr_map_fill)->next = attr_hash_map[(signed long int)(attr % 337)];
     attr_hash_map[(signed long int)(attr % 337)] = attr_map_fill;
-    tmp_post$3 = attr_map_fill;
+    tmp_post_3 = attr_map_fill;
     attr_map_fill = attr_map_fill + 1;
-    return tmp_post$3;
+    return tmp_post_3;
   }
 }
 
@@ -6117,13 +6117,13 @@ struct _IO_FILE * open_output(char **name, const char *directory)
 
   oldUmask=umask((unsigned int)0077);
   retval=fopen(*name, "w");
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(retval == ((struct _IO_FILE *)NULL))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("Could not open output %s: %s\n", *name, return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("Could not open output %s: %s\n", *name, return_value_strerror_2);
   }
 
   umask(oldUmask);
@@ -6155,31 +6155,31 @@ static unsigned long int parseEscapes(char *string)
   unsigned long int readPosition = (unsigned long int)0;
   unsigned long int writePosition = (unsigned long int)0;
   unsigned long int i;
-  unsigned long int tmp_post$1;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$4;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$6;
-  unsigned long int tmp_post$7;
-  unsigned long int tmp_post$8;
-  unsigned long int tmp_post$9;
-  unsigned long int tmp_post$10;
-  unsigned long int tmp_post$11;
-  unsigned long int tmp_post$12;
+  unsigned long int tmp_post_1;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_4;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_6;
+  unsigned long int tmp_post_7;
+  unsigned long int tmp_post_8;
+  unsigned long int tmp_post_9;
+  unsigned long int tmp_post_10;
+  unsigned long int tmp_post_11;
+  unsigned long int tmp_post_12;
   unsigned int value;
-  _Bool tmp_if_expr$14;
-  const unsigned short int **return_value___ctype_b_loc$13;
-  signed int return_value_tolower$15;
-  unsigned long int tmp_post$17;
-  signed int parseEscapes$$1$$1$$1$$1$$2$$value;
+  _Bool tmp_if_expr_14;
+  const unsigned short int **return_value___ctype_b_loc_13;
+  signed int return_value_tolower_15;
+  unsigned long int tmp_post_17;
+  signed int parseEscapes__1__1__1__1__2__value;
   unsigned long int maxIdx;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  unsigned long int tmp_post$20;
-  unsigned long int tmp_post$21;
-  unsigned long int tmp_post$22;
-  unsigned long int tmp_post$23;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  unsigned long int tmp_post_20;
+  unsigned long int tmp_post_21;
+  unsigned long int tmp_post_22;
+  unsigned long int tmp_post_23;
   while(!(readPosition >= maxReadPosition))
     if((signed int)string[(signed long int)readPosition] == 92)
     {
@@ -6187,85 +6187,85 @@ static unsigned long int parseEscapes(char *string)
       if(readPosition == maxReadPosition)
         fatal("Interal error\n");
 
-      tmp_post$1 = readPosition;
+      tmp_post_1 = readPosition;
       readPosition = readPosition + 1ul;
-      switch((signed int)string[(signed long int)tmp_post$1])
+      switch((signed int)string[(signed long int)tmp_post_1])
       {
         case 110:
         {
-          tmp_post$2 = writePosition;
+          tmp_post_2 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$2] = (char)10;
+          string[(signed long int)tmp_post_2] = (char)10;
           break;
         }
         case 114:
         {
-          tmp_post$3 = writePosition;
+          tmp_post_3 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$3] = (char)13;
+          string[(signed long int)tmp_post_3] = (char)13;
           break;
         }
         case 39:
         {
-          tmp_post$4 = writePosition;
+          tmp_post_4 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$4] = (char)39;
+          string[(signed long int)tmp_post_4] = (char)39;
           break;
         }
         case 92:
         {
-          tmp_post$5 = writePosition;
+          tmp_post_5 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$5] = (char)92;
+          string[(signed long int)tmp_post_5] = (char)92;
           break;
         }
         case 116:
         {
-          tmp_post$6 = writePosition;
+          tmp_post_6 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$6] = (char)9;
+          string[(signed long int)tmp_post_6] = (char)9;
           break;
         }
         case 98:
         {
-          tmp_post$7 = writePosition;
+          tmp_post_7 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$7] = (char)8;
+          string[(signed long int)tmp_post_7] = (char)8;
           break;
         }
         case 102:
         {
-          tmp_post$8 = writePosition;
+          tmp_post_8 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$8] = (char)12;
+          string[(signed long int)tmp_post_8] = (char)12;
           break;
         }
         case 97:
         {
-          tmp_post$9 = writePosition;
+          tmp_post_9 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$9] = (char)7;
+          string[(signed long int)tmp_post_9] = (char)7;
           break;
         }
         case 118:
         {
-          tmp_post$10 = writePosition;
+          tmp_post_10 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$10] = (char)11;
+          string[(signed long int)tmp_post_10] = (char)11;
           break;
         }
         case 63:
         {
-          tmp_post$11 = writePosition;
+          tmp_post_11 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$11] = (char)63;
+          string[(signed long int)tmp_post_11] = (char)63;
           break;
         }
         case 34:
         {
-          tmp_post$12 = writePosition;
+          tmp_post_12 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$12] = (char)34;
+          string[(signed long int)tmp_post_12] = (char)34;
           break;
         }
         case 120:
@@ -6276,25 +6276,25 @@ static unsigned long int parseEscapes(char *string)
           {
             if(!(i + readPosition >= maxReadPosition) && !(i >= 2ul))
             {
-              return_value___ctype_b_loc$13=__ctype_b_loc();
-              tmp_if_expr$14 = ((signed int)(*return_value___ctype_b_loc$13)[(signed long int)(signed int)string[(signed long int)(readPosition + i)]] & (signed int)(unsigned short int)4096) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_13=__ctype_b_loc();
+              tmp_if_expr_14 = ((signed int)(*return_value___ctype_b_loc_13)[(signed long int)(signed int)string[(signed long int)(readPosition + i)]] & (signed int)(unsigned short int)4096) != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$14 = (_Bool)0;
-            if(!tmp_if_expr$14)
+              tmp_if_expr_14 = (_Bool)0;
+            if(!tmp_if_expr_14)
               break;
 
             value = value << 4;
-            const unsigned short int **return_value___ctype_b_loc$16;
-            return_value___ctype_b_loc$16=__ctype_b_loc();
-            if(!((2048 & (signed int)(*return_value___ctype_b_loc$16)[(signed long int)(signed int)string[(signed long int)i + (signed long int)readPosition]]) == 0))
+            const unsigned short int **return_value___ctype_b_loc_16;
+            return_value___ctype_b_loc_16=__ctype_b_loc();
+            if(!((2048 & (signed int)(*return_value___ctype_b_loc_16)[(signed long int)(signed int)string[(signed long int)i + (signed long int)readPosition]]) == 0))
               value = value + (unsigned int)(signed int)((signed int)string[(signed long int)(readPosition + i)] - 48);
 
             else
             {
-              return_value_tolower$15=tolower((signed int)string[(signed long int)(readPosition + i)]);
-              value = value + (unsigned int)((signed int)(return_value_tolower$15 - 97) + 10);
+              return_value_tolower_15=tolower((signed int)string[(signed long int)(readPosition + i)]);
+              value = value + (unsigned int)((signed int)(return_value_tolower_15 - 97) + 10);
             }
             if(value >= 256u)
               fatal("%s:%d: Invalid hexadecimal escape sequence\n", file_name, line_number);
@@ -6306,9 +6306,9 @@ static unsigned long int parseEscapes(char *string)
           if(i == 0ul)
             fatal("%s:%d: Invalid hexadecimal escape sequence\n", file_name, line_number);
 
-          tmp_post$17 = writePosition;
+          tmp_post_17 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$17] = (char)value;
+          string[(signed long int)tmp_post_17] = (char)value;
           break;
         }
         case 48:
@@ -6327,50 +6327,50 @@ static unsigned long int parseEscapes(char *string)
 
         case 55:
         {
-          parseEscapes$$1$$1$$1$$1$$2$$value = (signed int)((signed int)string[(signed long int)(readPosition - (unsigned long int)1)] - 48);
+          parseEscapes__1__1__1__1__2__value = (signed int)((signed int)string[(signed long int)(readPosition - (unsigned long int)1)] - 48);
           maxIdx = (unsigned long int)((signed int)string[(signed long int)(readPosition - (unsigned long int)1)] < 52 ? 2 : 1);
           i = (unsigned long int)0;
           do
           {
             if(!(i + readPosition >= maxReadPosition) && !(i >= maxIdx))
-              tmp_if_expr$18 = (signed int)string[(signed long int)(readPosition + i)] >= 48 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_18 = (signed int)string[(signed long int)(readPosition + i)] >= 48 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$18 = (_Bool)0;
-            if(tmp_if_expr$18)
-              tmp_if_expr$19 = (signed int)string[(signed long int)(readPosition + i)] <= 55 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_18 = (_Bool)0;
+            if(tmp_if_expr_18)
+              tmp_if_expr_19 = (signed int)string[(signed long int)(readPosition + i)] <= 55 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$19 = (_Bool)0;
-            if(!tmp_if_expr$19)
+              tmp_if_expr_19 = (_Bool)0;
+            if(!tmp_if_expr_19)
               break;
 
-            parseEscapes$$1$$1$$1$$1$$2$$value = parseEscapes$$1$$1$$1$$1$$2$$value * 8 + (signed int)((signed int)string[(signed long int)(readPosition + i)] - 48);
+            parseEscapes__1__1__1__1__2__value = parseEscapes__1__1__1__1__2__value * 8 + (signed int)((signed int)string[(signed long int)(readPosition + i)] - 48);
             i = i + 1ul;
           }
           while((_Bool)1);
           readPosition = readPosition + i;
-          tmp_post$20 = writePosition;
+          tmp_post_20 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$20] = (char)parseEscapes$$1$$1$$1$$1$$2$$value;
+          string[(signed long int)tmp_post_20] = (char)parseEscapes__1__1__1__1__2__value;
           break;
         }
         default:
         {
-          tmp_post$21 = writePosition;
+          tmp_post_21 = writePosition;
           writePosition = writePosition + 1ul;
-          string[(signed long int)tmp_post$21] = string[(signed long int)(readPosition - (unsigned long int)1)];
+          string[(signed long int)tmp_post_21] = string[(signed long int)(readPosition - (unsigned long int)1)];
         }
       }
     }
 
     else
     {
-      tmp_post$22 = writePosition;
+      tmp_post_22 = writePosition;
       writePosition = writePosition + 1ul;
-      tmp_post$23 = readPosition;
+      tmp_post_23 = readPosition;
       readPosition = readPosition + 1ul;
-      string[(signed long int)tmp_post$22] = string[(signed long int)tmp_post$23];
+      string[(signed long int)tmp_post_22] = string[(signed long int)tmp_post_23];
     }
   string[(signed long int)writePosition] = (char)0;
   return writePosition;
@@ -6384,103 +6384,103 @@ static void parse_options(signed int argc, char **argv)
   signed int optargind;
   signed int optnomore = 0;
   optargind = 1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$3;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strncmp$5;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_strlen$9;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strncmp$11;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$19;
-  unsigned long int return_value_strlen$18;
-  _Bool tmp_if_expr$21;
-  signed int return_value_strncmp$20;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  _Bool tmp_if_expr$29;
-  _Bool tmp_if_expr$34;
-  _Bool tmp_if_expr$31;
-  unsigned long int return_value_strlen$30;
-  _Bool tmp_if_expr$33;
-  signed int return_value_strncmp$32;
-  const unsigned short int **return_value___ctype_b_loc$23;
-  const unsigned short int **return_value___ctype_b_loc$28;
-  _Bool tmp_if_expr$35;
-  _Bool tmp_if_expr$40;
-  _Bool tmp_if_expr$37;
-  unsigned long int return_value_strlen$36;
-  _Bool tmp_if_expr$39;
-  signed int return_value_strncmp$38;
-  _Bool tmp_if_expr$41;
-  _Bool tmp_if_expr$46;
-  _Bool tmp_if_expr$43;
-  unsigned long int return_value_strlen$42;
-  _Bool tmp_if_expr$45;
-  signed int return_value_strncmp$44;
-  _Bool tmp_if_expr$47;
-  _Bool tmp_if_expr$52;
-  _Bool tmp_if_expr$49;
-  unsigned long int return_value_strlen$48;
-  _Bool tmp_if_expr$51;
-  signed int return_value_strncmp$50;
-  _Bool tmp_if_expr$53;
-  _Bool tmp_if_expr$58;
-  _Bool tmp_if_expr$55;
-  unsigned long int return_value_strlen$54;
-  _Bool tmp_if_expr$57;
-  signed int return_value_strncmp$56;
-  _Bool tmp_if_expr$59;
-  _Bool tmp_if_expr$64;
-  _Bool tmp_if_expr$61;
-  unsigned long int return_value_strlen$60;
-  _Bool tmp_if_expr$63;
-  signed int return_value_strncmp$62;
-  _Bool tmp_if_expr$67;
-  _Bool tmp_if_expr$72;
-  _Bool tmp_if_expr$69;
-  unsigned long int return_value_strlen$68;
-  _Bool tmp_if_expr$71;
-  signed int return_value_strncmp$70;
-  _Bool tmp_if_expr$75;
-  _Bool tmp_if_expr$80;
-  _Bool tmp_if_expr$77;
-  unsigned long int return_value_strlen$76;
-  _Bool tmp_if_expr$79;
-  signed int return_value_strncmp$78;
-  _Bool tmp_if_expr$81;
-  _Bool tmp_if_expr$86;
-  _Bool tmp_if_expr$83;
-  unsigned long int return_value_strlen$82;
-  _Bool tmp_if_expr$85;
-  signed int return_value_strncmp$84;
-  _Bool tmp_if_expr$87;
-  _Bool tmp_if_expr$92;
-  _Bool tmp_if_expr$89;
-  unsigned long int return_value_strlen$88;
-  _Bool tmp_if_expr$91;
-  signed int return_value_strncmp$90;
-  _Bool tmp_if_expr$93;
-  _Bool tmp_if_expr$98;
-  _Bool tmp_if_expr$95;
-  unsigned long int return_value_strlen$94;
-  _Bool tmp_if_expr$97;
-  signed int return_value_strncmp$96;
-  _Bool tmp_if_expr$99;
-  _Bool tmp_if_expr$104;
-  _Bool tmp_if_expr$101;
-  unsigned long int return_value_strlen$100;
-  _Bool tmp_if_expr$103;
-  signed int return_value_strncmp$102;
-  unsigned long int return_value_strlen$106;
-  signed int return_value_strncmp$105;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_3;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strncmp_5;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_strlen_9;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strncmp_11;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_19;
+  unsigned long int return_value_strlen_18;
+  _Bool tmp_if_expr_21;
+  signed int return_value_strncmp_20;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  _Bool tmp_if_expr_29;
+  _Bool tmp_if_expr_34;
+  _Bool tmp_if_expr_31;
+  unsigned long int return_value_strlen_30;
+  _Bool tmp_if_expr_33;
+  signed int return_value_strncmp_32;
+  const unsigned short int **return_value___ctype_b_loc_23;
+  const unsigned short int **return_value___ctype_b_loc_28;
+  _Bool tmp_if_expr_35;
+  _Bool tmp_if_expr_40;
+  _Bool tmp_if_expr_37;
+  unsigned long int return_value_strlen_36;
+  _Bool tmp_if_expr_39;
+  signed int return_value_strncmp_38;
+  _Bool tmp_if_expr_41;
+  _Bool tmp_if_expr_46;
+  _Bool tmp_if_expr_43;
+  unsigned long int return_value_strlen_42;
+  _Bool tmp_if_expr_45;
+  signed int return_value_strncmp_44;
+  _Bool tmp_if_expr_47;
+  _Bool tmp_if_expr_52;
+  _Bool tmp_if_expr_49;
+  unsigned long int return_value_strlen_48;
+  _Bool tmp_if_expr_51;
+  signed int return_value_strncmp_50;
+  _Bool tmp_if_expr_53;
+  _Bool tmp_if_expr_58;
+  _Bool tmp_if_expr_55;
+  unsigned long int return_value_strlen_54;
+  _Bool tmp_if_expr_57;
+  signed int return_value_strncmp_56;
+  _Bool tmp_if_expr_59;
+  _Bool tmp_if_expr_64;
+  _Bool tmp_if_expr_61;
+  unsigned long int return_value_strlen_60;
+  _Bool tmp_if_expr_63;
+  signed int return_value_strncmp_62;
+  _Bool tmp_if_expr_67;
+  _Bool tmp_if_expr_72;
+  _Bool tmp_if_expr_69;
+  unsigned long int return_value_strlen_68;
+  _Bool tmp_if_expr_71;
+  signed int return_value_strncmp_70;
+  _Bool tmp_if_expr_75;
+  _Bool tmp_if_expr_80;
+  _Bool tmp_if_expr_77;
+  unsigned long int return_value_strlen_76;
+  _Bool tmp_if_expr_79;
+  signed int return_value_strncmp_78;
+  _Bool tmp_if_expr_81;
+  _Bool tmp_if_expr_86;
+  _Bool tmp_if_expr_83;
+  unsigned long int return_value_strlen_82;
+  _Bool tmp_if_expr_85;
+  signed int return_value_strncmp_84;
+  _Bool tmp_if_expr_87;
+  _Bool tmp_if_expr_92;
+  _Bool tmp_if_expr_89;
+  unsigned long int return_value_strlen_88;
+  _Bool tmp_if_expr_91;
+  signed int return_value_strncmp_90;
+  _Bool tmp_if_expr_93;
+  _Bool tmp_if_expr_98;
+  _Bool tmp_if_expr_95;
+  unsigned long int return_value_strlen_94;
+  _Bool tmp_if_expr_97;
+  signed int return_value_strncmp_96;
+  _Bool tmp_if_expr_99;
+  _Bool tmp_if_expr_104;
+  _Bool tmp_if_expr_101;
+  unsigned long int return_value_strlen_100;
+  _Bool tmp_if_expr_103;
+  signed int return_value_strncmp_102;
+  unsigned long int return_value_strlen_106;
+  signed int return_value_strncmp_105;
   for( ; !(optargind >= argc); optargind = optargind + 1)
   {
     char optcontrol = (char)0;
@@ -6490,7 +6490,7 @@ static void parse_options(signed int argc, char **argv)
     if(optnomore == 0 && (signed int)*optcurrent == 45)
     {
       unsigned long int optlength;
-      enum anonymous$9 opttype;
+      enum anonymous_9 opttype;
       if((signed int)optcurrent[1l] == 45)
       {
         optArg=strchr(optcurrent, 61);
@@ -6502,23 +6502,23 @@ static void parse_options(signed int argc, char **argv)
           optlength = (unsigned long int)(optArg - optcurrent);
           optArg = optArg + 1l;
         }
-        opttype = (enum anonymous$9)LONG;
+        opttype = (enum anonymous_9)LONG;
       }
 
       else
       {
         optlength = (unsigned long int)2;
         if(!((signed int)optcurrent[1l] == 0))
-          tmp_if_expr$1 = (signed int)optcurrent[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)optcurrent[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
           optArg = optcurrent + (signed long int)2;
 
         else
           optArg = (char *)(void *)0;
-        opttype = (enum anonymous$9)SHORT;
+        opttype = (enum anonymous_9)SHORT;
       }
       if(optlength >= 2147483648ul)
         optlength = (unsigned long int)0x7fffffff;
@@ -6527,34 +6527,34 @@ static void parse_options(signed int argc, char **argv)
     next_opt:
       ;
       if((signed int)opttype == SHORT)
-        tmp_if_expr$2 = (signed int)optcurrent[(signed long int)1] == 97 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)optcurrent[(signed long int)1] == 97 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$3=strlen("alert");
-          tmp_if_expr$4 = return_value_strlen$3 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_3=strlen("alert");
+          tmp_if_expr_4 = return_value_strlen_3 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
         {
-          return_value_strncmp$5=strncmp(optcurrent + (signed long int)2, "alert", optlength - (unsigned long int)2);
-          tmp_if_expr$6 = return_value_strncmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_5=strncmp(optcurrent + (signed long int)2, "alert", optlength - (unsigned long int)2);
+          tmp_if_expr_6 = return_value_strncmp_5 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
       {
         switch(2)
         {
@@ -6592,34 +6592,34 @@ static void parse_options(signed int argc, char **argv)
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$8 = (signed int)optcurrent[(signed long int)1] == 100 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = (signed int)optcurrent[(signed long int)1] == 100 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_13 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$9=strlen("display");
-          tmp_if_expr$10 = return_value_strlen$9 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_9=strlen("display");
+          tmp_if_expr_10 = return_value_strlen_9 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
         {
-          return_value_strncmp$11=strncmp(optcurrent + (signed long int)2, "display", optlength - (unsigned long int)2);
-          tmp_if_expr$12 = return_value_strncmp$11 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_11=strncmp(optcurrent + (signed long int)2, "display", optlength - (unsigned long int)2);
+          tmp_if_expr_12 = return_value_strncmp_11 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_12 = (_Bool)0;
+        tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13)
+      if(tmp_if_expr_13)
       {
         switch(0)
         {
@@ -6652,39 +6652,39 @@ static void parse_options(signed int argc, char **argv)
 
           }
         }
-        display = (enum anonymous$10)td_true;
+        display = (enum anonymous_10)td_true;
         goto check_next;
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$17 = (signed int)optcurrent[(signed long int)1] == 101 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_17 = (signed int)optcurrent[(signed long int)1] == 101 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$17 = (_Bool)0;
-      if(tmp_if_expr$17)
-        tmp_if_expr$22 = (_Bool)1;
+        tmp_if_expr_17 = (_Bool)0;
+      if(tmp_if_expr_17)
+        tmp_if_expr_22 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$18=strlen("on-error");
-          tmp_if_expr$19 = return_value_strlen$18 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_18=strlen("on-error");
+          tmp_if_expr_19 = return_value_strlen_18 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$19 = (_Bool)0;
-        if(tmp_if_expr$19)
+          tmp_if_expr_19 = (_Bool)0;
+        if(tmp_if_expr_19)
         {
-          return_value_strncmp$20=strncmp(optcurrent + (signed long int)2, "on-error", optlength - (unsigned long int)2);
-          tmp_if_expr$21 = return_value_strncmp$20 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_20=strncmp(optcurrent + (signed long int)2, "on-error", optlength - (unsigned long int)2);
+          tmp_if_expr_21 = return_value_strncmp_20 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$21 = (_Bool)0;
-        tmp_if_expr$22 = tmp_if_expr$21 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_21 = (_Bool)0;
+        tmp_if_expr_22 = tmp_if_expr_21 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$22)
+      if(tmp_if_expr_22)
       {
         switch(2)
         {
@@ -6717,22 +6717,22 @@ static void parse_options(signed int argc, char **argv)
 
           }
         }
-        signed int return_value_strcmp$16;
-        return_value_strcmp$16=strcmp(optArg, "interact");
-        if(return_value_strcmp$16 == 0)
-          on_error = (enum anonymous$13)ON_ERROR_INTERACT;
+        signed int return_value_strcmp_16;
+        return_value_strcmp_16=strcmp(optArg, "interact");
+        if(return_value_strcmp_16 == 0)
+          on_error = (enum anonymous_13)ON_ERROR_INTERACT;
 
         else
         {
-          return_value_strcmp$15=strcmp(optArg, "continue");
-          if(return_value_strcmp$15 == 0)
-            on_error = (enum anonymous$13)ON_ERROR_CONTINUE;
+          return_value_strcmp_15=strcmp(optArg, "continue");
+          if(return_value_strcmp_15 == 0)
+            on_error = (enum anonymous_13)ON_ERROR_CONTINUE;
 
           else
           {
-            return_value_strcmp$14=strcmp(optArg, "abort");
-            if(return_value_strcmp$14 == 0)
-              on_error = (enum anonymous$13)ON_ERROR_ABORT;
+            return_value_strcmp_14=strcmp(optArg, "abort");
+            if(return_value_strcmp_14 == 0)
+              on_error = (enum anonymous_13)ON_ERROR_ABORT;
 
             else
               fatal("Invalid argument for on-error option: %s\n", optArg);
@@ -6742,34 +6742,34 @@ static void parse_options(signed int argc, char **argv)
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$29 = (signed int)optcurrent[(signed long int)1] == 107 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_29 = (signed int)optcurrent[(signed long int)1] == 107 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$29 = (_Bool)0;
-      if(tmp_if_expr$29)
-        tmp_if_expr$34 = (_Bool)1;
+        tmp_if_expr_29 = (_Bool)0;
+      if(tmp_if_expr_29)
+        tmp_if_expr_34 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$30=strlen("key-delay");
-          tmp_if_expr$31 = return_value_strlen$30 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_30=strlen("key-delay");
+          tmp_if_expr_31 = return_value_strlen_30 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$31 = (_Bool)0;
-        if(tmp_if_expr$31)
+          tmp_if_expr_31 = (_Bool)0;
+        if(tmp_if_expr_31)
         {
-          return_value_strncmp$32=strncmp(optcurrent + (signed long int)2, "key-delay", optlength - (unsigned long int)2);
-          tmp_if_expr$33 = return_value_strncmp$32 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_32=strncmp(optcurrent + (signed long int)2, "key-delay", optlength - (unsigned long int)2);
+          tmp_if_expr_33 = return_value_strncmp_32 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$33 = (_Bool)0;
-        tmp_if_expr$34 = tmp_if_expr$33 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_33 = (_Bool)0;
+        tmp_if_expr_34 = tmp_if_expr_33 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$34)
+      if(tmp_if_expr_34)
       {
         switch(2)
         {
@@ -6804,8 +6804,8 @@ static void parse_options(signed int argc, char **argv)
         }
         for( ; !(*optArg == 0); optArg = optArg + 1l)
         {
-          return_value___ctype_b_loc$23=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$23)[(signed long int)(signed int)*optArg]) == 0)
+          return_value___ctype_b_loc_23=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_23)[(signed long int)(signed int)*optArg]) == 0)
             break;
 
         }
@@ -6816,16 +6816,16 @@ static void parse_options(signed int argc, char **argv)
           {
             char *endptr;
             double value;
-            signed int *return_value___errno_location$24;
-            return_value___errno_location$24=__errno_location();
-            *return_value___errno_location$24 = 0;
+            signed int *return_value___errno_location_24;
+            return_value___errno_location_24=__errno_location();
+            *return_value___errno_location_24 = 0;
             value=strtod(optArg, &endptr);
             if(!((signed int)*endptr == 0))
               fatal("Garbage after value for %.*s option\n", (signed int)optlength, optcurrent);
 
-            signed int *return_value___errno_location$25;
-            return_value___errno_location$25=__errno_location();
-            if(value < 2.225074e-308 || value > 1.797693e+308 || !(*return_value___errno_location$25 == 0))
+            signed int *return_value___errno_location_25;
+            return_value___errno_location_25=__errno_location();
+            if(value < 2.225074e-308 || value > 1.797693e+308 || !(*return_value___errno_location_25 == 0))
               fatal("Value for %.*s option (%f) is out of range\n", (signed int)optlength, optcurrent, value);
 
             key_delay_scale = value;
@@ -6836,26 +6836,26 @@ static void parse_options(signed int argc, char **argv)
 
         else
         {
-          return_value___ctype_b_loc$28=__ctype_b_loc();
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$28)[(signed long int)(signed int)*optArg]) == 0))
+          return_value___ctype_b_loc_28=__ctype_b_loc();
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_28)[(signed long int)(signed int)*optArg]) == 0))
           {
             do
             {
-              char *parse_options$$1$$1$$1$$1$$6$$2$$2$$1$$endptr;
-              signed long int parse_options$$1$$1$$1$$1$$6$$2$$2$$1$$value;
-              signed int *return_value___errno_location$26;
-              return_value___errno_location$26=__errno_location();
-              *return_value___errno_location$26 = 0;
-              parse_options$$1$$1$$1$$1$$6$$2$$2$$1$$value=strtol(optArg, &parse_options$$1$$1$$1$$1$$6$$2$$2$$1$$endptr, 10);
-              if(!((signed int)*parse_options$$1$$1$$1$$1$$6$$2$$2$$1$$endptr == 0))
+              char *parse_options__1__1__1__1__6__2__2__1__endptr;
+              signed long int parse_options__1__1__1__1__6__2__2__1__value;
+              signed int *return_value___errno_location_26;
+              return_value___errno_location_26=__errno_location();
+              *return_value___errno_location_26 = 0;
+              parse_options__1__1__1__1__6__2__2__1__value=strtol(optArg, &parse_options__1__1__1__1__6__2__2__1__endptr, 10);
+              if(!((signed int)*parse_options__1__1__1__1__6__2__2__1__endptr == 0))
                 fatal("Garbage after value for %.*s option\n", (signed int)optlength, optcurrent);
 
-              signed int *return_value___errno_location$27;
-              return_value___errno_location$27=__errno_location();
-              if(parse_options$$1$$1$$1$$1$$6$$2$$2$$1$$value >= 2147483648l || !(*return_value___errno_location$27 == 0) || !(parse_options$$1$$1$$1$$1$$6$$2$$2$$1$$value >= 1l))
-                fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength, optcurrent, parse_options$$1$$1$$1$$1$$6$$2$$2$$1$$value);
+              signed int *return_value___errno_location_27;
+              return_value___errno_location_27=__errno_location();
+              if(parse_options__1__1__1__1__6__2__2__1__value >= 2147483648l || !(*return_value___errno_location_27 == 0) || !(parse_options__1__1__1__1__6__2__2__1__value >= 1l))
+                fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength, optcurrent, parse_options__1__1__1__1__6__2__2__1__value);
 
-              key_delay = (double)(signed int)parse_options$$1$$1$$1$$1$$6$$2$$2$$1$$value;
+              key_delay = (double)(signed int)parse_options__1__1__1__1__6__2__2__1__value;
             }
             while((_Bool)0);
             key_delay_scale = 1.0;
@@ -6868,34 +6868,34 @@ static void parse_options(signed int argc, char **argv)
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$35 = (signed int)optcurrent[(signed long int)1] == 108 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_35 = (signed int)optcurrent[(signed long int)1] == 108 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$35 = (_Bool)0;
-      if(tmp_if_expr$35)
-        tmp_if_expr$40 = (_Bool)1;
+        tmp_if_expr_35 = (_Bool)0;
+      if(tmp_if_expr_35)
+        tmp_if_expr_40 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$36=strlen("log");
-          tmp_if_expr$37 = return_value_strlen$36 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_36=strlen("log");
+          tmp_if_expr_37 = return_value_strlen_36 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$37 = (_Bool)0;
-        if(tmp_if_expr$37)
+          tmp_if_expr_37 = (_Bool)0;
+        if(tmp_if_expr_37)
         {
-          return_value_strncmp$38=strncmp(optcurrent + (signed long int)2, "log", optlength - (unsigned long int)2);
-          tmp_if_expr$39 = return_value_strncmp$38 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_38=strncmp(optcurrent + (signed long int)2, "log", optlength - (unsigned long int)2);
+          tmp_if_expr_39 = return_value_strncmp_38 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$39 = (_Bool)0;
-        tmp_if_expr$40 = tmp_if_expr$39 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_39 = (_Bool)0;
+        tmp_if_expr_40 = tmp_if_expr_39 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$40)
+      if(tmp_if_expr_40)
       {
         switch(2)
         {
@@ -6933,34 +6933,34 @@ static void parse_options(signed int argc, char **argv)
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$41 = (signed int)optcurrent[(signed long int)1] == 82 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_41 = (signed int)optcurrent[(signed long int)1] == 82 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$41 = (_Bool)0;
-      if(tmp_if_expr$41)
-        tmp_if_expr$46 = (_Bool)1;
+        tmp_if_expr_41 = (_Bool)0;
+      if(tmp_if_expr_41)
+        tmp_if_expr_46 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$42=strlen("no-resize");
-          tmp_if_expr$43 = return_value_strlen$42 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_42=strlen("no-resize");
+          tmp_if_expr_43 = return_value_strlen_42 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$43 = (_Bool)0;
-        if(tmp_if_expr$43)
+          tmp_if_expr_43 = (_Bool)0;
+        if(tmp_if_expr_43)
         {
-          return_value_strncmp$44=strncmp(optcurrent + (signed long int)2, "no-resize", optlength - (unsigned long int)2);
-          tmp_if_expr$45 = return_value_strncmp$44 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_44=strncmp(optcurrent + (signed long int)2, "no-resize", optlength - (unsigned long int)2);
+          tmp_if_expr_45 = return_value_strncmp_44 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$45 = (_Bool)0;
-        tmp_if_expr$46 = tmp_if_expr$45 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_45 = (_Bool)0;
+        tmp_if_expr_46 = tmp_if_expr_45 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$46)
+      if(tmp_if_expr_46)
       {
         switch(0)
         {
@@ -6993,39 +6993,39 @@ static void parse_options(signed int argc, char **argv)
 
           }
         }
-        no_resize = (enum anonymous$10)td_true;
+        no_resize = (enum anonymous_10)td_true;
         goto check_next;
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$47 = (signed int)optcurrent[(signed long int)1] == 118 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_47 = (signed int)optcurrent[(signed long int)1] == 118 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$47 = (_Bool)0;
-      if(tmp_if_expr$47)
-        tmp_if_expr$52 = (_Bool)1;
+        tmp_if_expr_47 = (_Bool)0;
+      if(tmp_if_expr_47)
+        tmp_if_expr_52 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$48=strlen("visual-compare");
-          tmp_if_expr$49 = return_value_strlen$48 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_48=strlen("visual-compare");
+          tmp_if_expr_49 = return_value_strlen_48 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$49 = (_Bool)0;
-        if(tmp_if_expr$49)
+          tmp_if_expr_49 = (_Bool)0;
+        if(tmp_if_expr_49)
         {
-          return_value_strncmp$50=strncmp(optcurrent + (signed long int)2, "visual-compare", optlength - (unsigned long int)2);
-          tmp_if_expr$51 = return_value_strncmp$50 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_50=strncmp(optcurrent + (signed long int)2, "visual-compare", optlength - (unsigned long int)2);
+          tmp_if_expr_51 = return_value_strncmp_50 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$51 = (_Bool)0;
-        tmp_if_expr$52 = tmp_if_expr$51 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_51 = (_Bool)0;
+        tmp_if_expr_52 = tmp_if_expr_51 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$52)
+      if(tmp_if_expr_52)
       {
         switch(0)
         {
@@ -7058,39 +7058,39 @@ static void parse_options(signed int argc, char **argv)
 
           }
         }
-        visual_compare = (enum anonymous$10)td_true;
+        visual_compare = (enum anonymous_10)td_true;
         goto check_next;
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$53 = (signed int)optcurrent[(signed long int)1] == 112 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_53 = (signed int)optcurrent[(signed long int)1] == 112 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$53 = (_Bool)0;
-      if(tmp_if_expr$53)
-        tmp_if_expr$58 = (_Bool)1;
+        tmp_if_expr_53 = (_Bool)0;
+      if(tmp_if_expr_53)
+        tmp_if_expr_58 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$54=strlen("picture");
-          tmp_if_expr$55 = return_value_strlen$54 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_54=strlen("picture");
+          tmp_if_expr_55 = return_value_strlen_54 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$55 = (_Bool)0;
-        if(tmp_if_expr$55)
+          tmp_if_expr_55 = (_Bool)0;
+        if(tmp_if_expr_55)
         {
-          return_value_strncmp$56=strncmp(optcurrent + (signed long int)2, "picture", optlength - (unsigned long int)2);
-          tmp_if_expr$57 = return_value_strncmp$56 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_56=strncmp(optcurrent + (signed long int)2, "picture", optlength - (unsigned long int)2);
+          tmp_if_expr_57 = return_value_strncmp_56 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$57 = (_Bool)0;
-        tmp_if_expr$58 = tmp_if_expr$57 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_57 = (_Bool)0;
+        tmp_if_expr_58 = tmp_if_expr_57 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$58)
+      if(tmp_if_expr_58)
       {
         switch(2)
         {
@@ -7131,34 +7131,34 @@ static void parse_options(signed int argc, char **argv)
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$59 = (signed int)optcurrent[(signed long int)1] == 102 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_59 = (signed int)optcurrent[(signed long int)1] == 102 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$59 = (_Bool)0;
-      if(tmp_if_expr$59)
-        tmp_if_expr$64 = (_Bool)1;
+        tmp_if_expr_59 = (_Bool)0;
+      if(tmp_if_expr_59)
+        tmp_if_expr_64 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$60=strlen("font");
-          tmp_if_expr$61 = return_value_strlen$60 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_60=strlen("font");
+          tmp_if_expr_61 = return_value_strlen_60 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$61 = (_Bool)0;
-        if(tmp_if_expr$61)
+          tmp_if_expr_61 = (_Bool)0;
+        if(tmp_if_expr_61)
         {
-          return_value_strncmp$62=strncmp(optcurrent + (signed long int)2, "font", optlength - (unsigned long int)2);
-          tmp_if_expr$63 = return_value_strncmp$62 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_62=strncmp(optcurrent + (signed long int)2, "font", optlength - (unsigned long int)2);
+          tmp_if_expr_63 = return_value_strncmp_62 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$63 = (_Bool)0;
-        tmp_if_expr$64 = tmp_if_expr$63 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_63 = (_Bool)0;
+        tmp_if_expr_64 = tmp_if_expr_63 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$64)
+      if(tmp_if_expr_64)
       {
         switch(2)
         {
@@ -7196,34 +7196,34 @@ static void parse_options(signed int argc, char **argv)
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$67 = (signed int)optcurrent[(signed long int)1] == 87 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_67 = (signed int)optcurrent[(signed long int)1] == 87 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$67 = (_Bool)0;
-      if(tmp_if_expr$67)
-        tmp_if_expr$72 = (_Bool)1;
+        tmp_if_expr_67 = (_Bool)0;
+      if(tmp_if_expr_67)
+        tmp_if_expr_72 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$68=strlen("cell-width");
-          tmp_if_expr$69 = return_value_strlen$68 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_68=strlen("cell-width");
+          tmp_if_expr_69 = return_value_strlen_68 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$69 = (_Bool)0;
-        if(tmp_if_expr$69)
+          tmp_if_expr_69 = (_Bool)0;
+        if(tmp_if_expr_69)
         {
-          return_value_strncmp$70=strncmp(optcurrent + (signed long int)2, "cell-width", optlength - (unsigned long int)2);
-          tmp_if_expr$71 = return_value_strncmp$70 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_70=strncmp(optcurrent + (signed long int)2, "cell-width", optlength - (unsigned long int)2);
+          tmp_if_expr_71 = return_value_strncmp_70 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$71 = (_Bool)0;
-        tmp_if_expr$72 = tmp_if_expr$71 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_71 = (_Bool)0;
+        tmp_if_expr_72 = tmp_if_expr_71 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$72)
+      if(tmp_if_expr_72)
       {
         switch(2)
         {
@@ -7258,55 +7258,55 @@ static void parse_options(signed int argc, char **argv)
         }
         do
         {
-          char *parse_options$$1$$1$$1$$1$$12$$2$$1$$endptr;
-          signed long int parse_options$$1$$1$$1$$1$$12$$2$$1$$value;
-          signed int *return_value___errno_location$65;
-          return_value___errno_location$65=__errno_location();
-          *return_value___errno_location$65 = 0;
-          parse_options$$1$$1$$1$$1$$12$$2$$1$$value=strtol(optArg, &parse_options$$1$$1$$1$$1$$12$$2$$1$$endptr, 10);
-          if(!((signed int)*parse_options$$1$$1$$1$$1$$12$$2$$1$$endptr == 0))
+          char *parse_options__1__1__1__1__12__2__1__endptr;
+          signed long int parse_options__1__1__1__1__12__2__1__value;
+          signed int *return_value___errno_location_65;
+          return_value___errno_location_65=__errno_location();
+          *return_value___errno_location_65 = 0;
+          parse_options__1__1__1__1__12__2__1__value=strtol(optArg, &parse_options__1__1__1__1__12__2__1__endptr, 10);
+          if(!((signed int)*parse_options__1__1__1__1__12__2__1__endptr == 0))
             fatal("Garbage after value for %.*s option\n", (signed int)optlength, optcurrent);
 
-          signed int *return_value___errno_location$66;
-          return_value___errno_location$66=__errno_location();
-          if(parse_options$$1$$1$$1$$1$$12$$2$$1$$value >= 17l || !(*return_value___errno_location$66 == 0) || !(parse_options$$1$$1$$1$$1$$12$$2$$1$$value >= 6l))
-            fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength, optcurrent, parse_options$$1$$1$$1$$1$$12$$2$$1$$value);
+          signed int *return_value___errno_location_66;
+          return_value___errno_location_66=__errno_location();
+          if(parse_options__1__1__1__1__12__2__1__value >= 17l || !(*return_value___errno_location_66 == 0) || !(parse_options__1__1__1__1__12__2__1__value >= 6l))
+            fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength, optcurrent, parse_options__1__1__1__1__12__2__1__value);
 
-          cell_width = (signed int)parse_options$$1$$1$$1$$1$$12$$2$$1$$value;
+          cell_width = (signed int)parse_options__1__1__1__1__12__2__1__value;
         }
         while((_Bool)0);
         goto check_next;
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$75 = (signed int)optcurrent[(signed long int)1] == 72 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_75 = (signed int)optcurrent[(signed long int)1] == 72 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$75 = (_Bool)0;
-      if(tmp_if_expr$75)
-        tmp_if_expr$80 = (_Bool)1;
+        tmp_if_expr_75 = (_Bool)0;
+      if(tmp_if_expr_75)
+        tmp_if_expr_80 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$76=strlen("cell-heigth");
-          tmp_if_expr$77 = return_value_strlen$76 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_76=strlen("cell-heigth");
+          tmp_if_expr_77 = return_value_strlen_76 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$77 = (_Bool)0;
-        if(tmp_if_expr$77)
+          tmp_if_expr_77 = (_Bool)0;
+        if(tmp_if_expr_77)
         {
-          return_value_strncmp$78=strncmp(optcurrent + (signed long int)2, "cell-heigth", optlength - (unsigned long int)2);
-          tmp_if_expr$79 = return_value_strncmp$78 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_78=strncmp(optcurrent + (signed long int)2, "cell-heigth", optlength - (unsigned long int)2);
+          tmp_if_expr_79 = return_value_strncmp_78 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$79 = (_Bool)0;
-        tmp_if_expr$80 = tmp_if_expr$79 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_79 = (_Bool)0;
+        tmp_if_expr_80 = tmp_if_expr_79 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$80)
+      if(tmp_if_expr_80)
       {
         switch(2)
         {
@@ -7341,55 +7341,55 @@ static void parse_options(signed int argc, char **argv)
         }
         do
         {
-          char *parse_options$$1$$1$$1$$1$$13$$2$$1$$endptr;
-          signed long int parse_options$$1$$1$$1$$1$$13$$2$$1$$value;
-          signed int *return_value___errno_location$73;
-          return_value___errno_location$73=__errno_location();
-          *return_value___errno_location$73 = 0;
-          parse_options$$1$$1$$1$$1$$13$$2$$1$$value=strtol(optArg, &parse_options$$1$$1$$1$$1$$13$$2$$1$$endptr, 10);
-          if(!((signed int)*parse_options$$1$$1$$1$$1$$13$$2$$1$$endptr == 0))
+          char *parse_options__1__1__1__1__13__2__1__endptr;
+          signed long int parse_options__1__1__1__1__13__2__1__value;
+          signed int *return_value___errno_location_73;
+          return_value___errno_location_73=__errno_location();
+          *return_value___errno_location_73 = 0;
+          parse_options__1__1__1__1__13__2__1__value=strtol(optArg, &parse_options__1__1__1__1__13__2__1__endptr, 10);
+          if(!((signed int)*parse_options__1__1__1__1__13__2__1__endptr == 0))
             fatal("Garbage after value for %.*s option\n", (signed int)optlength, optcurrent);
 
-          signed int *return_value___errno_location$74;
-          return_value___errno_location$74=__errno_location();
-          if(parse_options$$1$$1$$1$$1$$13$$2$$1$$value >= 25l || !(*return_value___errno_location$74 == 0) || !(parse_options$$1$$1$$1$$1$$13$$2$$1$$value >= 6l))
-            fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength, optcurrent, parse_options$$1$$1$$1$$1$$13$$2$$1$$value);
+          signed int *return_value___errno_location_74;
+          return_value___errno_location_74=__errno_location();
+          if(parse_options__1__1__1__1__13__2__1__value >= 25l || !(*return_value___errno_location_74 == 0) || !(parse_options__1__1__1__1__13__2__1__value >= 6l))
+            fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength, optcurrent, parse_options__1__1__1__1__13__2__1__value);
 
-          cell_width = (signed int)parse_options$$1$$1$$1$$1$$13$$2$$1$$value;
+          cell_width = (signed int)parse_options__1__1__1__1__13__2__1__value;
         }
         while((_Bool)0);
         goto check_next;
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$81 = (signed int)optcurrent[(signed long int)1] == 80 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_81 = (signed int)optcurrent[(signed long int)1] == 80 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$81 = (_Bool)0;
-      if(tmp_if_expr$81)
-        tmp_if_expr$86 = (_Bool)1;
+        tmp_if_expr_81 = (_Bool)0;
+      if(tmp_if_expr_81)
+        tmp_if_expr_86 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$82=strlen("picture-series");
-          tmp_if_expr$83 = return_value_strlen$82 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_82=strlen("picture-series");
+          tmp_if_expr_83 = return_value_strlen_82 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$83 = (_Bool)0;
-        if(tmp_if_expr$83)
+          tmp_if_expr_83 = (_Bool)0;
+        if(tmp_if_expr_83)
         {
-          return_value_strncmp$84=strncmp(optcurrent + (signed long int)2, "picture-series", optlength - (unsigned long int)2);
-          tmp_if_expr$85 = return_value_strncmp$84 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_84=strncmp(optcurrent + (signed long int)2, "picture-series", optlength - (unsigned long int)2);
+          tmp_if_expr_85 = return_value_strncmp_84 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$85 = (_Bool)0;
-        tmp_if_expr$86 = tmp_if_expr$85 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_85 = (_Bool)0;
+        tmp_if_expr_86 = tmp_if_expr_85 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$86)
+      if(tmp_if_expr_86)
       {
         switch(2)
         {
@@ -7427,34 +7427,34 @@ static void parse_options(signed int argc, char **argv)
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$87 = (signed int)optcurrent[(signed long int)1] == 68 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_87 = (signed int)optcurrent[(signed long int)1] == 68 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$87 = (_Bool)0;
-      if(tmp_if_expr$87)
-        tmp_if_expr$92 = (_Bool)1;
+        tmp_if_expr_87 = (_Bool)0;
+      if(tmp_if_expr_87)
+        tmp_if_expr_92 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$88=strlen("describe");
-          tmp_if_expr$89 = return_value_strlen$88 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_88=strlen("describe");
+          tmp_if_expr_89 = return_value_strlen_88 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$89 = (_Bool)0;
-        if(tmp_if_expr$89)
+          tmp_if_expr_89 = (_Bool)0;
+        if(tmp_if_expr_89)
         {
-          return_value_strncmp$90=strncmp(optcurrent + (signed long int)2, "describe", optlength - (unsigned long int)2);
-          tmp_if_expr$91 = return_value_strncmp$90 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_90=strncmp(optcurrent + (signed long int)2, "describe", optlength - (unsigned long int)2);
+          tmp_if_expr_91 = return_value_strncmp_90 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$91 = (_Bool)0;
-        tmp_if_expr$92 = tmp_if_expr$91 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_91 = (_Bool)0;
+        tmp_if_expr_92 = tmp_if_expr_91 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$92)
+      if(tmp_if_expr_92)
       {
         switch(0)
         {
@@ -7487,39 +7487,39 @@ static void parse_options(signed int argc, char **argv)
 
           }
         }
-        describe = (enum anonymous$10)td_true;
+        describe = (enum anonymous_10)td_true;
         goto check_next;
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$93 = (signed int)optcurrent[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_93 = (signed int)optcurrent[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$93 = (_Bool)0;
-      if(tmp_if_expr$93)
-        tmp_if_expr$98 = (_Bool)1;
+        tmp_if_expr_93 = (_Bool)0;
+      if(tmp_if_expr_93)
+        tmp_if_expr_98 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$94=strlen("help");
-          tmp_if_expr$95 = return_value_strlen$94 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_94=strlen("help");
+          tmp_if_expr_95 = return_value_strlen_94 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$95 = (_Bool)0;
-        if(tmp_if_expr$95)
+          tmp_if_expr_95 = (_Bool)0;
+        if(tmp_if_expr_95)
         {
-          return_value_strncmp$96=strncmp(optcurrent + (signed long int)2, "help", optlength - (unsigned long int)2);
-          tmp_if_expr$97 = return_value_strncmp$96 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_96=strncmp(optcurrent + (signed long int)2, "help", optlength - (unsigned long int)2);
+          tmp_if_expr_97 = return_value_strncmp_96 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$97 = (_Bool)0;
-        tmp_if_expr$98 = tmp_if_expr$97 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_97 = (_Bool)0;
+        tmp_if_expr_98 = tmp_if_expr_97 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$98)
+      if(tmp_if_expr_98)
       {
         switch(0)
         {
@@ -7557,34 +7557,34 @@ static void parse_options(signed int argc, char **argv)
       }
 
       if((signed int)opttype == SHORT)
-        tmp_if_expr$99 = (signed int)optcurrent[(signed long int)1] == 86 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_99 = (signed int)optcurrent[(signed long int)1] == 86 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$99 = (_Bool)0;
-      if(tmp_if_expr$99)
-        tmp_if_expr$104 = (_Bool)1;
+        tmp_if_expr_99 = (_Bool)0;
+      if(tmp_if_expr_99)
+        tmp_if_expr_104 = (_Bool)1;
 
       else
       {
         if((signed int)opttype == LONG)
         {
-          return_value_strlen$100=strlen("version");
-          tmp_if_expr$101 = return_value_strlen$100 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_100=strlen("version");
+          tmp_if_expr_101 = return_value_strlen_100 == optlength - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$101 = (_Bool)0;
-        if(tmp_if_expr$101)
+          tmp_if_expr_101 = (_Bool)0;
+        if(tmp_if_expr_101)
         {
-          return_value_strncmp$102=strncmp(optcurrent + (signed long int)2, "version", optlength - (unsigned long int)2);
-          tmp_if_expr$103 = return_value_strncmp$102 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_102=strncmp(optcurrent + (signed long int)2, "version", optlength - (unsigned long int)2);
+          tmp_if_expr_103 = return_value_strncmp_102 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$103 = (_Bool)0;
-        tmp_if_expr$104 = tmp_if_expr$103 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_103 = (_Bool)0;
+        tmp_if_expr_104 = tmp_if_expr_103 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$104)
+      if(tmp_if_expr_104)
       {
         switch(0)
         {
@@ -7624,11 +7624,11 @@ static void parse_options(signed int argc, char **argv)
 
       if((signed int)opttype == LONG)
       {
-        return_value_strlen$106=strlen("");
-        if(return_value_strlen$106 == optlength + 18446744073709551614ul)
+        return_value_strlen_106=strlen("");
+        if(return_value_strlen_106 == optlength + 18446744073709551614ul)
         {
-          return_value_strncmp$105=strncmp(optcurrent + (signed long int)2, "", optlength - (unsigned long int)2);
-          if(return_value_strncmp$105 == 0)
+          return_value_strncmp_105=strncmp(optcurrent + (signed long int)2, "", optlength - (unsigned long int)2);
+          if(return_value_strncmp_105 == 0)
           {
             switch(0)
             {
@@ -7712,330 +7712,330 @@ stop_opt_parse:
 
 }
 
-// parse_options$link1
+// parse_options_link1
 // file src/view.c line 48
-static void parse_options$link1(signed int argc$link1, char **argv$link1)
+static void parse_options_link1(signed int argc_link1, char **argv_link1)
 {
-  char *optArg$link1;
-  signed int optargind$link1;
-  signed int optnomore$link1 = 0;
-  optargind$link1 = 1;
-  _Bool tmp_if_expr$1$link1;
-  _Bool tmp_if_expr$8$link1;
-  _Bool tmp_if_expr$13$link1;
-  _Bool tmp_if_expr$10$link1;
-  unsigned long int return_value_strlen$9$link1;
-  _Bool tmp_if_expr$12$link1;
-  signed int return_value_strncmp$11$link1;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$19$link1;
-  _Bool tmp_if_expr$16;
-  unsigned long int return_value_strlen$15;
-  _Bool tmp_if_expr$18;
-  signed int return_value_strncmp$17;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$22$link1;
-  unsigned long int return_value_strlen$21;
-  _Bool tmp_if_expr$24;
-  signed int return_value_strncmp$23;
-  unsigned long int return_value_strlen$27;
-  signed int return_value_strncmp$26;
-  for( ; !(optargind$link1 >= argc$link1); optargind$link1 = optargind$link1 + 1)
+  char *optArg_link1;
+  signed int optargind_link1;
+  signed int optnomore_link1 = 0;
+  optargind_link1 = 1;
+  _Bool tmp_if_expr_1_link1;
+  _Bool tmp_if_expr_8_link1;
+  _Bool tmp_if_expr_13_link1;
+  _Bool tmp_if_expr_10_link1;
+  unsigned long int return_value_strlen_9_link1;
+  _Bool tmp_if_expr_12_link1;
+  signed int return_value_strncmp_11_link1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_19_link1;
+  _Bool tmp_if_expr_16;
+  unsigned long int return_value_strlen_15;
+  _Bool tmp_if_expr_18;
+  signed int return_value_strncmp_17;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_22_link1;
+  unsigned long int return_value_strlen_21;
+  _Bool tmp_if_expr_24;
+  signed int return_value_strncmp_23;
+  unsigned long int return_value_strlen_27;
+  signed int return_value_strncmp_26;
+  for( ; !(optargind_link1 >= argc_link1); optargind_link1 = optargind_link1 + 1)
   {
-    char optcontrol$link1 = (char)0;
-    char *optcurrent$link1;
-    char *optptr$link1;
-    optcurrent$link1 = argv$link1[(signed long int)optargind$link1];
-    if(optnomore$link1 == 0 && (signed int)*optcurrent$link1 == 45)
+    char optcontrol_link1 = (char)0;
+    char *optcurrent_link1;
+    char *optptr_link1;
+    optcurrent_link1 = argv_link1[(signed long int)optargind_link1];
+    if(optnomore_link1 == 0 && (signed int)*optcurrent_link1 == 45)
     {
-      unsigned long int optlength$link1;
-      enum anonymous$9 opttype$link1;
-      if((signed int)optcurrent$link1[1l] == 45)
+      unsigned long int optlength_link1;
+      enum anonymous_9 opttype_link1;
+      if((signed int)optcurrent_link1[1l] == 45)
       {
-        optArg$link1=strchr(optcurrent$link1, 61);
-        if(optArg$link1 == ((char *)NULL))
-          optlength$link1=strlen(optcurrent$link1);
+        optArg_link1=strchr(optcurrent_link1, 61);
+        if(optArg_link1 == ((char *)NULL))
+          optlength_link1=strlen(optcurrent_link1);
 
         else
         {
-          optlength$link1 = (unsigned long int)(optArg$link1 - optcurrent$link1);
-          optArg$link1 = optArg$link1 + 1l;
+          optlength_link1 = (unsigned long int)(optArg_link1 - optcurrent_link1);
+          optArg_link1 = optArg_link1 + 1l;
         }
-        opttype$link1 = (enum anonymous$9)LONG;
+        opttype_link1 = (enum anonymous_9)LONG;
       }
 
       else
       {
-        optlength$link1 = (unsigned long int)2;
-        if(!((signed int)optcurrent$link1[1l] == 0))
-          tmp_if_expr$1$link1 = (signed int)optcurrent$link1[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+        optlength_link1 = (unsigned long int)2;
+        if(!((signed int)optcurrent_link1[1l] == 0))
+          tmp_if_expr_1_link1 = (signed int)optcurrent_link1[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1$link1 = (_Bool)0;
-        if(tmp_if_expr$1$link1)
-          optArg$link1 = optcurrent$link1 + (signed long int)2;
+          tmp_if_expr_1_link1 = (_Bool)0;
+        if(tmp_if_expr_1_link1)
+          optArg_link1 = optcurrent_link1 + (signed long int)2;
 
         else
-          optArg$link1 = (char *)(void *)0;
-        opttype$link1 = (enum anonymous$9)SHORT;
+          optArg_link1 = (char *)(void *)0;
+        opttype_link1 = (enum anonymous_9)SHORT;
       }
-      if(optlength$link1 >= 2147483648ul)
-        optlength$link1 = (unsigned long int)0x7fffffff;
+      if(optlength_link1 >= 2147483648ul)
+        optlength_link1 = (unsigned long int)0x7fffffff;
 
 
     next_opt:
       ;
-      if((signed int)opttype$link1 == SHORT)
-        tmp_if_expr$8$link1 = (signed int)optcurrent$link1[(signed long int)1] == 107 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link1 == SHORT)
+        tmp_if_expr_8_link1 = (signed int)optcurrent_link1[(signed long int)1] == 107 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8$link1 = (_Bool)0;
-      if(tmp_if_expr$8$link1)
-        tmp_if_expr$13$link1 = (_Bool)1;
+        tmp_if_expr_8_link1 = (_Bool)0;
+      if(tmp_if_expr_8_link1)
+        tmp_if_expr_13_link1 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link1 == LONG)
+        if((signed int)opttype_link1 == LONG)
         {
-          return_value_strlen$9$link1=strlen("key-delay");
-          tmp_if_expr$10$link1 = return_value_strlen$9$link1 == optlength$link1 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_9_link1=strlen("key-delay");
+          tmp_if_expr_10_link1 = return_value_strlen_9_link1 == optlength_link1 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$10$link1 = (_Bool)0;
-        if(tmp_if_expr$10$link1)
+          tmp_if_expr_10_link1 = (_Bool)0;
+        if(tmp_if_expr_10_link1)
         {
-          return_value_strncmp$11$link1=strncmp(optcurrent$link1 + (signed long int)2, "key-delay", optlength$link1 - (unsigned long int)2);
-          tmp_if_expr$12$link1 = return_value_strncmp$11$link1 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_11_link1=strncmp(optcurrent_link1 + (signed long int)2, "key-delay", optlength_link1 - (unsigned long int)2);
+          tmp_if_expr_12_link1 = return_value_strncmp_11_link1 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12$link1 = (_Bool)0;
-        tmp_if_expr$13$link1 = tmp_if_expr$12$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_12_link1 = (_Bool)0;
+        tmp_if_expr_13_link1 = tmp_if_expr_12_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13$link1)
+      if(tmp_if_expr_13_link1)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link1 == ((char *)NULL)))
+            if(!(optArg_link1 == ((char *)NULL)))
             {
-              if((signed int)opttype$link1 == SHORT)
+              if((signed int)opttype_link1 == SHORT)
               {
-                optcontrol$link1 = optcontrol$link1 + 1;
-                optArg$link1 = (char *)(void *)0;
+                optcontrol_link1 = optcontrol_link1 + 1;
+                optArg_link1 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link1, optcurrent$link1);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link1, optcurrent_link1);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link1 == ((char *)NULL) && 1 + optargind$link1 >= argc$link1)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link1, optcurrent$link1);
+            if(optArg_link1 == ((char *)NULL) && 1 + optargind_link1 >= argc_link1)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link1, optcurrent_link1);
 
-            if(optArg$link1 == ((char *)NULL))
+            if(optArg_link1 == ((char *)NULL))
             {
-              optargind$link1 = optargind$link1 + 1;
-              optArg$link1 = argv$link1[(signed long int)optargind$link1];
+              optargind_link1 = optargind_link1 + 1;
+              optArg_link1 = argv_link1[(signed long int)optargind_link1];
             }
 
           }
         }
-        for( ; !(*optArg$link1 == 0); optArg$link1 = optArg$link1 + 1l)
+        for( ; !(*optArg_link1 == 0); optArg_link1 = optArg_link1 + 1l)
         {
-          return_value___ctype_b_loc$2=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*optArg$link1]) == 0)
+          return_value___ctype_b_loc_2=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*optArg_link1]) == 0)
             break;
 
         }
-        if((signed int)*optArg$link1 == 47)
+        if((signed int)*optArg_link1 == 47)
         {
-          optArg$link1 = optArg$link1 + 1l;
+          optArg_link1 = optArg_link1 + 1l;
           do
           {
             char *endptr;
             double value;
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            *return_value___errno_location$3 = 0;
-            value=strtod(optArg$link1, &endptr);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            *return_value___errno_location_3 = 0;
+            value=strtod(optArg_link1, &endptr);
             if(!((signed int)*endptr == 0))
-              fatal("Garbage after value for %.*s option\n", (signed int)optlength$link1, optcurrent$link1);
+              fatal("Garbage after value for %.*s option\n", (signed int)optlength_link1, optcurrent_link1);
 
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            if(value < 2.225074e-308 || value > 1.797693e+308 || !(*return_value___errno_location$4 == 0))
-              fatal("Value for %.*s option (%f) is out of range\n", (signed int)optlength$link1, optcurrent$link1, value);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            if(value < 2.225074e-308 || value > 1.797693e+308 || !(*return_value___errno_location_4 == 0))
+              fatal("Value for %.*s option (%f) is out of range\n", (signed int)optlength_link1, optcurrent_link1, value);
 
-            key_delay_scale$link1 = value;
+            key_delay_scale_link1 = value;
           }
           while((_Bool)0);
-          key_delay$link1 = 0;
+          key_delay_link1 = 0;
         }
 
         else
         {
-          return_value___ctype_b_loc$7=__ctype_b_loc();
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*optArg$link1]) == 0))
+          return_value___ctype_b_loc_7=__ctype_b_loc();
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*optArg_link1]) == 0))
           {
             do
             {
-              char *parse_options$$1$$1$$1$$1$$3$$2$$2$$1$$endptr;
-              signed long int parse_options$$1$$1$$1$$1$$3$$2$$2$$1$$value;
-              signed int *return_value___errno_location$5;
-              return_value___errno_location$5=__errno_location();
-              *return_value___errno_location$5 = 0;
-              parse_options$$1$$1$$1$$1$$3$$2$$2$$1$$value=strtol(optArg$link1, &parse_options$$1$$1$$1$$1$$3$$2$$2$$1$$endptr, 10);
-              if(!((signed int)*parse_options$$1$$1$$1$$1$$3$$2$$2$$1$$endptr == 0))
-                fatal("Garbage after value for %.*s option\n", (signed int)optlength$link1, optcurrent$link1);
+              char *parse_options__1__1__1__1__3__2__2__1__endptr;
+              signed long int parse_options__1__1__1__1__3__2__2__1__value;
+              signed int *return_value___errno_location_5;
+              return_value___errno_location_5=__errno_location();
+              *return_value___errno_location_5 = 0;
+              parse_options__1__1__1__1__3__2__2__1__value=strtol(optArg_link1, &parse_options__1__1__1__1__3__2__2__1__endptr, 10);
+              if(!((signed int)*parse_options__1__1__1__1__3__2__2__1__endptr == 0))
+                fatal("Garbage after value for %.*s option\n", (signed int)optlength_link1, optcurrent_link1);
 
-              signed int *return_value___errno_location$6;
-              return_value___errno_location$6=__errno_location();
-              if(parse_options$$1$$1$$1$$1$$3$$2$$2$$1$$value >= 2147483648l || !(*return_value___errno_location$6 == 0) || !(parse_options$$1$$1$$1$$1$$3$$2$$2$$1$$value >= 1l))
-                fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength$link1, optcurrent$link1, parse_options$$1$$1$$1$$1$$3$$2$$2$$1$$value);
+              signed int *return_value___errno_location_6;
+              return_value___errno_location_6=__errno_location();
+              if(parse_options__1__1__1__1__3__2__2__1__value >= 2147483648l || !(*return_value___errno_location_6 == 0) || !(parse_options__1__1__1__1__3__2__2__1__value >= 1l))
+                fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength_link1, optcurrent_link1, parse_options__1__1__1__1__3__2__2__1__value);
 
-              key_delay$link1 = (signed int)parse_options$$1$$1$$1$$1$$3$$2$$2$$1$$value;
+              key_delay_link1 = (signed int)parse_options__1__1__1__1__3__2__2__1__value;
             }
             while((_Bool)0);
-            key_delay_scale$link1 = 1.0;
+            key_delay_scale_link1 = 1.0;
           }
 
           else
-            fatal("Invalid argument for key-delay option: %s\n", optArg$link1);
+            fatal("Invalid argument for key-delay option: %s\n", optArg_link1);
         }
         goto check_next;
       }
 
-      if((signed int)opttype$link1 == SHORT)
-        tmp_if_expr$14 = (signed int)optcurrent$link1[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link1 == SHORT)
+        tmp_if_expr_14 = (signed int)optcurrent_link1[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$14 = (_Bool)0;
-      if(tmp_if_expr$14)
-        tmp_if_expr$19$link1 = (_Bool)1;
+        tmp_if_expr_14 = (_Bool)0;
+      if(tmp_if_expr_14)
+        tmp_if_expr_19_link1 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link1 == LONG)
+        if((signed int)opttype_link1 == LONG)
         {
-          return_value_strlen$15=strlen("help");
-          tmp_if_expr$16 = return_value_strlen$15 == optlength$link1 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_15=strlen("help");
+          tmp_if_expr_16 = return_value_strlen_15 == optlength_link1 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$16 = (_Bool)0;
-        if(tmp_if_expr$16)
+          tmp_if_expr_16 = (_Bool)0;
+        if(tmp_if_expr_16)
         {
-          return_value_strncmp$17=strncmp(optcurrent$link1 + (signed long int)2, "help", optlength$link1 - (unsigned long int)2);
-          tmp_if_expr$18 = return_value_strncmp$17 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_17=strncmp(optcurrent_link1 + (signed long int)2, "help", optlength_link1 - (unsigned long int)2);
+          tmp_if_expr_18 = return_value_strncmp_17 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        tmp_if_expr$19$link1 = tmp_if_expr$18 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_18 = (_Bool)0;
+        tmp_if_expr_19_link1 = tmp_if_expr_18 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$19$link1)
+      if(tmp_if_expr_19_link1)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link1 == ((char *)NULL)))
+            if(!(optArg_link1 == ((char *)NULL)))
             {
-              if((signed int)opttype$link1 == SHORT)
+              if((signed int)opttype_link1 == SHORT)
               {
-                optcontrol$link1 = optcontrol$link1 + 1;
-                optArg$link1 = (char *)(void *)0;
+                optcontrol_link1 = optcontrol_link1 + 1;
+                optArg_link1 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link1, optcurrent$link1);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link1, optcurrent_link1);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link1 == ((char *)NULL) && 1 + optargind$link1 >= argc$link1)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link1, optcurrent$link1);
+            if(optArg_link1 == ((char *)NULL) && 1 + optargind_link1 >= argc_link1)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link1, optcurrent_link1);
 
-            if(optArg$link1 == ((char *)NULL))
+            if(optArg_link1 == ((char *)NULL))
             {
-              optargind$link1 = optargind$link1 + 1;
-              optArg$link1 = argv$link1[(signed long int)optargind$link1];
+              optargind_link1 = optargind_link1 + 1;
+              optArg_link1 = argv_link1[(signed long int)optargind_link1];
             }
 
           }
         }
-        printUsage$link1();
+        printUsage_link1();
         goto check_next;
       }
 
-      if((signed int)opttype$link1 == SHORT)
-        tmp_if_expr$20 = (signed int)optcurrent$link1[(signed long int)1] == 86 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link1 == SHORT)
+        tmp_if_expr_20 = (signed int)optcurrent_link1[(signed long int)1] == 86 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$20 = (_Bool)0;
-      if(tmp_if_expr$20)
-        tmp_if_expr$25 = (_Bool)1;
+        tmp_if_expr_20 = (_Bool)0;
+      if(tmp_if_expr_20)
+        tmp_if_expr_25 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link1 == LONG)
+        if((signed int)opttype_link1 == LONG)
         {
-          return_value_strlen$21=strlen("version");
-          tmp_if_expr$22$link1 = return_value_strlen$21 == optlength$link1 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_21=strlen("version");
+          tmp_if_expr_22_link1 = return_value_strlen_21 == optlength_link1 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$22$link1 = (_Bool)0;
-        if(tmp_if_expr$22$link1)
+          tmp_if_expr_22_link1 = (_Bool)0;
+        if(tmp_if_expr_22_link1)
         {
-          return_value_strncmp$23=strncmp(optcurrent$link1 + (signed long int)2, "version", optlength$link1 - (unsigned long int)2);
-          tmp_if_expr$24 = return_value_strncmp$23 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_23=strncmp(optcurrent_link1 + (signed long int)2, "version", optlength_link1 - (unsigned long int)2);
+          tmp_if_expr_24 = return_value_strncmp_23 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$24 = (_Bool)0;
-        tmp_if_expr$25 = tmp_if_expr$24 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_24 = (_Bool)0;
+        tmp_if_expr_25 = tmp_if_expr_24 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$25)
+      if(tmp_if_expr_25)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link1 == ((char *)NULL)))
+            if(!(optArg_link1 == ((char *)NULL)))
             {
-              if((signed int)opttype$link1 == SHORT)
+              if((signed int)opttype_link1 == SHORT)
               {
-                optcontrol$link1 = optcontrol$link1 + 1;
-                optArg$link1 = (char *)(void *)0;
+                optcontrol_link1 = optcontrol_link1 + 1;
+                optArg_link1 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link1, optcurrent$link1);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link1, optcurrent_link1);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link1 == ((char *)NULL) && 1 + optargind$link1 >= argc$link1)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link1, optcurrent$link1);
+            if(optArg_link1 == ((char *)NULL) && 1 + optargind_link1 >= argc_link1)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link1, optcurrent_link1);
 
-            if(optArg$link1 == ((char *)NULL))
+            if(optArg_link1 == ((char *)NULL))
             {
-              optargind$link1 = optargind$link1 + 1;
-              optArg$link1 = argv$link1[(signed long int)optargind$link1];
+              optargind_link1 = optargind_link1 + 1;
+              optArg_link1 = argv_link1[(signed long int)optargind_link1];
             }
 
           }
@@ -8045,47 +8045,47 @@ static void parse_options$link1(signed int argc$link1, char **argv$link1)
         goto check_next;
       }
 
-      if((signed int)opttype$link1 == LONG)
+      if((signed int)opttype_link1 == LONG)
       {
-        return_value_strlen$27=strlen("");
-        if(return_value_strlen$27 == optlength$link1 + 18446744073709551614ul)
+        return_value_strlen_27=strlen("");
+        if(return_value_strlen_27 == optlength_link1 + 18446744073709551614ul)
         {
-          return_value_strncmp$26=strncmp(optcurrent$link1 + (signed long int)2, "", optlength$link1 - (unsigned long int)2);
-          if(return_value_strncmp$26 == 0)
+          return_value_strncmp_26=strncmp(optcurrent_link1 + (signed long int)2, "", optlength_link1 - (unsigned long int)2);
+          if(return_value_strncmp_26 == 0)
           {
             switch(0)
             {
               case 0:
               {
-                if(!(optArg$link1 == ((char *)NULL)))
+                if(!(optArg_link1 == ((char *)NULL)))
                 {
-                  if((signed int)opttype$link1 == SHORT)
+                  if((signed int)opttype_link1 == SHORT)
                   {
-                    optcontrol$link1 = optcontrol$link1 + 1;
-                    optArg$link1 = (char *)(void *)0;
+                    optcontrol_link1 = optcontrol_link1 + 1;
+                    optArg_link1 = (char *)(void *)0;
                   }
 
                   else
-                    fatal("Option %.*s does not take an argument\n", (signed int)optlength$link1, optcurrent$link1);
+                    fatal("Option %.*s does not take an argument\n", (signed int)optlength_link1, optcurrent_link1);
                 }
 
                 break;
               }
               case 2:
               {
-                if(optArg$link1 == ((char *)NULL) && 1 + optargind$link1 >= argc$link1)
-                  fatal("Option %.*s requires an argument\n", (signed int)optlength$link1, optcurrent$link1);
+                if(optArg_link1 == ((char *)NULL) && 1 + optargind_link1 >= argc_link1)
+                  fatal("Option %.*s requires an argument\n", (signed int)optlength_link1, optcurrent_link1);
 
-                if(optArg$link1 == ((char *)NULL))
+                if(optArg_link1 == ((char *)NULL))
                 {
-                  optargind$link1 = optargind$link1 + 1;
-                  optArg$link1 = argv$link1[(signed long int)optargind$link1];
+                  optargind_link1 = optargind_link1 + 1;
+                  optArg_link1 = argv_link1[(signed long int)optargind_link1];
                 }
 
               }
             }
             do
-              optnomore$link1 = 1;
+              optnomore_link1 = 1;
             while((_Bool)0);
             goto check_next;
           }
@@ -8094,385 +8094,385 @@ static void parse_options$link1(signed int argc$link1, char **argv$link1)
 
       }
 
-      fatal("Unknown option %.*s\n", (signed int)optlength$link1, optcurrent$link1);
+      fatal("Unknown option %.*s\n", (signed int)optlength_link1, optcurrent_link1);
     }
 
     else
     {
-      if(!(input$link1 == ((const char *)NULL)))
+      if(!(input_link1 == ((const char *)NULL)))
         fatal("More than one recording specified\n");
 
-      input$link1 = optcurrent$link1;
+      input_link1 = optcurrent_link1;
 
     check_next:
       ;
-      if((signed int)optcontrol$link1 == 1 || (signed int)optcontrol$link1 == 3)
+      if((signed int)optcontrol_link1 == 1 || (signed int)optcontrol_link1 == 3)
       {
-        if((signed int)optcontrol$link1 == 1)
+        if((signed int)optcontrol_link1 == 1)
         {
-          optcurrent$link1 = optcurrent$link1;
-          optptr$link1 = optcurrent$link1;
+          optcurrent_link1 = optcurrent_link1;
+          optptr_link1 = optcurrent_link1;
         }
 
-        optcontrol$link1 = (char)2;
-        optcurrent$link1 = optcurrent$link1 + 1l;
-        optcurrent$link1[(signed long int)0] = (char)45;
-        optArg$link1 = (signed int)optcurrent$link1[(signed long int)2] != 0 ? optcurrent$link1 + (signed long int)2 : (char *)(void *)0;
+        optcontrol_link1 = (char)2;
+        optcurrent_link1 = optcurrent_link1 + 1l;
+        optcurrent_link1[(signed long int)0] = (char)45;
+        optArg_link1 = (signed int)optcurrent_link1[(signed long int)2] != 0 ? optcurrent_link1 + (signed long int)2 : (char *)(void *)0;
         goto next_opt;
       }
 
       else
-        if((signed int)optcontrol$link1 == 2)
-          (void)optptr$link1;
+        if((signed int)optcontrol_link1 == 2)
+          (void)optptr_link1;
 
     }
   }
 
 stop_opt_parse:
   ;
-  if(input$link1 == ((const char *)NULL))
+  if(input_link1 == ((const char *)NULL))
     fatal("No recording specified\n");
 
 }
 
-// parse_options$link2
+// parse_options_link2
 // file src/rerecord.c line 49
-static void parse_options$link2(signed int argc$link2, char **argv$link2)
+static void parse_options_link2(signed int argc_link2, char **argv_link2)
 {
-  char *optArg$link2;
-  signed int optargind$link2;
-  signed int optnomore$link2 = 0;
-  optargind$link2 = 1;
-  _Bool tmp_if_expr$1$link2;
-  _Bool tmp_if_expr$2$link1;
-  _Bool tmp_if_expr$7$link1;
-  _Bool tmp_if_expr$4$link1;
-  unsigned long int return_value_strlen$3$link1;
-  _Bool tmp_if_expr$6$link1;
-  signed int return_value_strncmp$5$link1;
-  _Bool tmp_if_expr$8$link2;
-  _Bool tmp_if_expr$13$link2;
-  _Bool tmp_if_expr$10$link2;
-  unsigned long int return_value_strlen$9$link2;
-  _Bool tmp_if_expr$12$link2;
-  signed int return_value_strncmp$11$link2;
-  _Bool tmp_if_expr$14$link1;
-  _Bool tmp_if_expr$19$link2;
-  _Bool tmp_if_expr$16$link1;
-  unsigned long int return_value_strlen$15$link1;
-  _Bool tmp_if_expr$18$link1;
-  signed int return_value_strncmp$17$link1;
-  _Bool tmp_if_expr$20$link1;
-  _Bool tmp_if_expr$25$link1;
-  _Bool tmp_if_expr$22$link2;
-  unsigned long int return_value_strlen$21$link1;
-  _Bool tmp_if_expr$24$link1;
-  signed int return_value_strncmp$23$link1;
-  _Bool tmp_if_expr$26;
-  _Bool tmp_if_expr$31$link1;
-  _Bool tmp_if_expr$28;
-  unsigned long int return_value_strlen$27$link1;
-  _Bool tmp_if_expr$30;
-  signed int return_value_strncmp$29;
-  unsigned long int return_value_strlen$33;
-  signed int return_value_strncmp$32$link1;
-  for( ; !(optargind$link2 >= argc$link2); optargind$link2 = optargind$link2 + 1)
+  char *optArg_link2;
+  signed int optargind_link2;
+  signed int optnomore_link2 = 0;
+  optargind_link2 = 1;
+  _Bool tmp_if_expr_1_link2;
+  _Bool tmp_if_expr_2_link1;
+  _Bool tmp_if_expr_7_link1;
+  _Bool tmp_if_expr_4_link1;
+  unsigned long int return_value_strlen_3_link1;
+  _Bool tmp_if_expr_6_link1;
+  signed int return_value_strncmp_5_link1;
+  _Bool tmp_if_expr_8_link2;
+  _Bool tmp_if_expr_13_link2;
+  _Bool tmp_if_expr_10_link2;
+  unsigned long int return_value_strlen_9_link2;
+  _Bool tmp_if_expr_12_link2;
+  signed int return_value_strncmp_11_link2;
+  _Bool tmp_if_expr_14_link1;
+  _Bool tmp_if_expr_19_link2;
+  _Bool tmp_if_expr_16_link1;
+  unsigned long int return_value_strlen_15_link1;
+  _Bool tmp_if_expr_18_link1;
+  signed int return_value_strncmp_17_link1;
+  _Bool tmp_if_expr_20_link1;
+  _Bool tmp_if_expr_25_link1;
+  _Bool tmp_if_expr_22_link2;
+  unsigned long int return_value_strlen_21_link1;
+  _Bool tmp_if_expr_24_link1;
+  signed int return_value_strncmp_23_link1;
+  _Bool tmp_if_expr_26;
+  _Bool tmp_if_expr_31_link1;
+  _Bool tmp_if_expr_28;
+  unsigned long int return_value_strlen_27_link1;
+  _Bool tmp_if_expr_30;
+  signed int return_value_strncmp_29;
+  unsigned long int return_value_strlen_33;
+  signed int return_value_strncmp_32_link1;
+  for( ; !(optargind_link2 >= argc_link2); optargind_link2 = optargind_link2 + 1)
   {
-    char optcontrol$link2 = (char)0;
-    char *optcurrent$link2;
-    char *optptr$link2;
-    optcurrent$link2 = argv$link2[(signed long int)optargind$link2];
-    if(optnomore$link2 == 0 && (signed int)*optcurrent$link2 == 45)
+    char optcontrol_link2 = (char)0;
+    char *optcurrent_link2;
+    char *optptr_link2;
+    optcurrent_link2 = argv_link2[(signed long int)optargind_link2];
+    if(optnomore_link2 == 0 && (signed int)*optcurrent_link2 == 45)
     {
-      unsigned long int optlength$link2;
-      enum anonymous$9 opttype$link2;
-      if((signed int)optcurrent$link2[1l] == 45)
+      unsigned long int optlength_link2;
+      enum anonymous_9 opttype_link2;
+      if((signed int)optcurrent_link2[1l] == 45)
       {
-        optArg$link2=strchr(optcurrent$link2, 61);
-        if(optArg$link2 == ((char *)NULL))
-          optlength$link2=strlen(optcurrent$link2);
+        optArg_link2=strchr(optcurrent_link2, 61);
+        if(optArg_link2 == ((char *)NULL))
+          optlength_link2=strlen(optcurrent_link2);
 
         else
         {
-          optlength$link2 = (unsigned long int)(optArg$link2 - optcurrent$link2);
-          optArg$link2 = optArg$link2 + 1l;
+          optlength_link2 = (unsigned long int)(optArg_link2 - optcurrent_link2);
+          optArg_link2 = optArg_link2 + 1l;
         }
-        opttype$link2 = (enum anonymous$9)LONG;
+        opttype_link2 = (enum anonymous_9)LONG;
       }
 
       else
       {
-        optlength$link2 = (unsigned long int)2;
-        if(!((signed int)optcurrent$link2[1l] == 0))
-          tmp_if_expr$1$link2 = (signed int)optcurrent$link2[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+        optlength_link2 = (unsigned long int)2;
+        if(!((signed int)optcurrent_link2[1l] == 0))
+          tmp_if_expr_1_link2 = (signed int)optcurrent_link2[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1$link2 = (_Bool)0;
-        if(tmp_if_expr$1$link2)
-          optArg$link2 = optcurrent$link2 + (signed long int)2;
+          tmp_if_expr_1_link2 = (_Bool)0;
+        if(tmp_if_expr_1_link2)
+          optArg_link2 = optcurrent_link2 + (signed long int)2;
 
         else
-          optArg$link2 = (char *)(void *)0;
-        opttype$link2 = (enum anonymous$9)SHORT;
+          optArg_link2 = (char *)(void *)0;
+        opttype_link2 = (enum anonymous_9)SHORT;
       }
-      if(optlength$link2 >= 2147483648ul)
-        optlength$link2 = (unsigned long int)0x7fffffff;
+      if(optlength_link2 >= 2147483648ul)
+        optlength_link2 = (unsigned long int)0x7fffffff;
 
 
     next_opt:
       ;
-      if((signed int)opttype$link2 == SHORT)
-        tmp_if_expr$2$link1 = (signed int)optcurrent$link2[(signed long int)1] == 111 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link2 == SHORT)
+        tmp_if_expr_2_link1 = (signed int)optcurrent_link2[(signed long int)1] == 111 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2$link1 = (_Bool)0;
-      if(tmp_if_expr$2$link1)
-        tmp_if_expr$7$link1 = (_Bool)1;
+        tmp_if_expr_2_link1 = (_Bool)0;
+      if(tmp_if_expr_2_link1)
+        tmp_if_expr_7_link1 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link2 == LONG)
+        if((signed int)opttype_link2 == LONG)
         {
-          return_value_strlen$3$link1=strlen("output");
-          tmp_if_expr$4$link1 = return_value_strlen$3$link1 == optlength$link2 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_3_link1=strlen("output");
+          tmp_if_expr_4_link1 = return_value_strlen_3_link1 == optlength_link2 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4$link1 = (_Bool)0;
-        if(tmp_if_expr$4$link1)
+          tmp_if_expr_4_link1 = (_Bool)0;
+        if(tmp_if_expr_4_link1)
         {
-          return_value_strncmp$5$link1=strncmp(optcurrent$link2 + (signed long int)2, "output", optlength$link2 - (unsigned long int)2);
-          tmp_if_expr$6$link1 = return_value_strncmp$5$link1 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_5_link1=strncmp(optcurrent_link2 + (signed long int)2, "output", optlength_link2 - (unsigned long int)2);
+          tmp_if_expr_6_link1 = return_value_strncmp_5_link1 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6$link1 = (_Bool)0;
-        tmp_if_expr$7$link1 = tmp_if_expr$6$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6_link1 = (_Bool)0;
+        tmp_if_expr_7_link1 = tmp_if_expr_6_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7$link1)
+      if(tmp_if_expr_7_link1)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link2 == ((char *)NULL)))
+            if(!(optArg_link2 == ((char *)NULL)))
             {
-              if((signed int)opttype$link2 == SHORT)
+              if((signed int)opttype_link2 == SHORT)
               {
-                optcontrol$link2 = optcontrol$link2 + 1;
-                optArg$link2 = (char *)(void *)0;
+                optcontrol_link2 = optcontrol_link2 + 1;
+                optArg_link2 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link2, optcurrent$link2);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link2, optcurrent_link2);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link2 == ((char *)NULL) && 1 + optargind$link2 >= argc$link2)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link2, optcurrent$link2);
+            if(optArg_link2 == ((char *)NULL) && 1 + optargind_link2 >= argc_link2)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link2, optcurrent_link2);
 
-            if(optArg$link2 == ((char *)NULL))
+            if(optArg_link2 == ((char *)NULL))
             {
-              optargind$link2 = optargind$link2 + 1;
-              optArg$link2 = argv$link2[(signed long int)optargind$link2];
+              optargind_link2 = optargind_link2 + 1;
+              optArg_link2 = argv_link2[(signed long int)optargind_link2];
             }
 
           }
         }
-        output = optArg$link2;
+        output = optArg_link2;
         goto check_next;
       }
 
-      if((signed int)opttype$link2 == SHORT)
-        tmp_if_expr$8$link2 = (signed int)optcurrent$link2[(signed long int)1] == 100 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link2 == SHORT)
+        tmp_if_expr_8_link2 = (signed int)optcurrent_link2[(signed long int)1] == 100 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8$link2 = (_Bool)0;
-      if(tmp_if_expr$8$link2)
-        tmp_if_expr$13$link2 = (_Bool)1;
+        tmp_if_expr_8_link2 = (_Bool)0;
+      if(tmp_if_expr_8_link2)
+        tmp_if_expr_13_link2 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link2 == LONG)
+        if((signed int)opttype_link2 == LONG)
         {
-          return_value_strlen$9$link2=strlen("directory");
-          tmp_if_expr$10$link2 = return_value_strlen$9$link2 == optlength$link2 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_9_link2=strlen("directory");
+          tmp_if_expr_10_link2 = return_value_strlen_9_link2 == optlength_link2 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$10$link2 = (_Bool)0;
-        if(tmp_if_expr$10$link2)
+          tmp_if_expr_10_link2 = (_Bool)0;
+        if(tmp_if_expr_10_link2)
         {
-          return_value_strncmp$11$link2=strncmp(optcurrent$link2 + (signed long int)2, "directory", optlength$link2 - (unsigned long int)2);
-          tmp_if_expr$12$link2 = return_value_strncmp$11$link2 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_11_link2=strncmp(optcurrent_link2 + (signed long int)2, "directory", optlength_link2 - (unsigned long int)2);
+          tmp_if_expr_12_link2 = return_value_strncmp_11_link2 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12$link2 = (_Bool)0;
-        tmp_if_expr$13$link2 = tmp_if_expr$12$link2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_12_link2 = (_Bool)0;
+        tmp_if_expr_13_link2 = tmp_if_expr_12_link2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13$link2)
+      if(tmp_if_expr_13_link2)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link2 == ((char *)NULL)))
+            if(!(optArg_link2 == ((char *)NULL)))
             {
-              if((signed int)opttype$link2 == SHORT)
+              if((signed int)opttype_link2 == SHORT)
               {
-                optcontrol$link2 = optcontrol$link2 + 1;
-                optArg$link2 = (char *)(void *)0;
+                optcontrol_link2 = optcontrol_link2 + 1;
+                optArg_link2 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link2, optcurrent$link2);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link2, optcurrent_link2);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link2 == ((char *)NULL) && 1 + optargind$link2 >= argc$link2)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link2, optcurrent$link2);
+            if(optArg_link2 == ((char *)NULL) && 1 + optargind_link2 >= argc_link2)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link2, optcurrent_link2);
 
-            if(optArg$link2 == ((char *)NULL))
+            if(optArg_link2 == ((char *)NULL))
             {
-              optargind$link2 = optargind$link2 + 1;
-              optArg$link2 = argv$link2[(signed long int)optargind$link2];
+              optargind_link2 = optargind_link2 + 1;
+              optArg_link2 = argv_link2[(signed long int)optargind_link2];
             }
 
           }
         }
-        directory = optArg$link2;
+        directory = optArg_link2;
         goto check_next;
       }
 
-      if((signed int)opttype$link2 == SHORT)
-        tmp_if_expr$14$link1 = (signed int)optcurrent$link2[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link2 == SHORT)
+        tmp_if_expr_14_link1 = (signed int)optcurrent_link2[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$14$link1 = (_Bool)0;
-      if(tmp_if_expr$14$link1)
-        tmp_if_expr$19$link2 = (_Bool)1;
+        tmp_if_expr_14_link1 = (_Bool)0;
+      if(tmp_if_expr_14_link1)
+        tmp_if_expr_19_link2 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link2 == LONG)
+        if((signed int)opttype_link2 == LONG)
         {
-          return_value_strlen$15$link1=strlen("help");
-          tmp_if_expr$16$link1 = return_value_strlen$15$link1 == optlength$link2 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_15_link1=strlen("help");
+          tmp_if_expr_16_link1 = return_value_strlen_15_link1 == optlength_link2 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$16$link1 = (_Bool)0;
-        if(tmp_if_expr$16$link1)
+          tmp_if_expr_16_link1 = (_Bool)0;
+        if(tmp_if_expr_16_link1)
         {
-          return_value_strncmp$17$link1=strncmp(optcurrent$link2 + (signed long int)2, "help", optlength$link2 - (unsigned long int)2);
-          tmp_if_expr$18$link1 = return_value_strncmp$17$link1 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_17_link1=strncmp(optcurrent_link2 + (signed long int)2, "help", optlength_link2 - (unsigned long int)2);
+          tmp_if_expr_18_link1 = return_value_strncmp_17_link1 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$18$link1 = (_Bool)0;
-        tmp_if_expr$19$link2 = tmp_if_expr$18$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_18_link1 = (_Bool)0;
+        tmp_if_expr_19_link2 = tmp_if_expr_18_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$19$link2)
+      if(tmp_if_expr_19_link2)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link2 == ((char *)NULL)))
+            if(!(optArg_link2 == ((char *)NULL)))
             {
-              if((signed int)opttype$link2 == SHORT)
+              if((signed int)opttype_link2 == SHORT)
               {
-                optcontrol$link2 = optcontrol$link2 + 1;
-                optArg$link2 = (char *)(void *)0;
+                optcontrol_link2 = optcontrol_link2 + 1;
+                optArg_link2 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link2, optcurrent$link2);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link2, optcurrent_link2);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link2 == ((char *)NULL) && 1 + optargind$link2 >= argc$link2)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link2, optcurrent$link2);
+            if(optArg_link2 == ((char *)NULL) && 1 + optargind_link2 >= argc_link2)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link2, optcurrent_link2);
 
-            if(optArg$link2 == ((char *)NULL))
+            if(optArg_link2 == ((char *)NULL))
             {
-              optargind$link2 = optargind$link2 + 1;
-              optArg$link2 = argv$link2[(signed long int)optargind$link2];
+              optargind_link2 = optargind_link2 + 1;
+              optArg_link2 = argv_link2[(signed long int)optargind_link2];
             }
 
           }
         }
-        printUsage$link2();
+        printUsage_link2();
         goto check_next;
       }
 
-      if((signed int)opttype$link2 == SHORT)
-        tmp_if_expr$20$link1 = (signed int)optcurrent$link2[(signed long int)1] == 86 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link2 == SHORT)
+        tmp_if_expr_20_link1 = (signed int)optcurrent_link2[(signed long int)1] == 86 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$20$link1 = (_Bool)0;
-      if(tmp_if_expr$20$link1)
-        tmp_if_expr$25$link1 = (_Bool)1;
+        tmp_if_expr_20_link1 = (_Bool)0;
+      if(tmp_if_expr_20_link1)
+        tmp_if_expr_25_link1 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link2 == LONG)
+        if((signed int)opttype_link2 == LONG)
         {
-          return_value_strlen$21$link1=strlen("version");
-          tmp_if_expr$22$link2 = return_value_strlen$21$link1 == optlength$link2 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_21_link1=strlen("version");
+          tmp_if_expr_22_link2 = return_value_strlen_21_link1 == optlength_link2 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$22$link2 = (_Bool)0;
-        if(tmp_if_expr$22$link2)
+          tmp_if_expr_22_link2 = (_Bool)0;
+        if(tmp_if_expr_22_link2)
         {
-          return_value_strncmp$23$link1=strncmp(optcurrent$link2 + (signed long int)2, "version", optlength$link2 - (unsigned long int)2);
-          tmp_if_expr$24$link1 = return_value_strncmp$23$link1 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_23_link1=strncmp(optcurrent_link2 + (signed long int)2, "version", optlength_link2 - (unsigned long int)2);
+          tmp_if_expr_24_link1 = return_value_strncmp_23_link1 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$24$link1 = (_Bool)0;
-        tmp_if_expr$25$link1 = tmp_if_expr$24$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_24_link1 = (_Bool)0;
+        tmp_if_expr_25_link1 = tmp_if_expr_24_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$25$link1)
+      if(tmp_if_expr_25_link1)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link2 == ((char *)NULL)))
+            if(!(optArg_link2 == ((char *)NULL)))
             {
-              if((signed int)opttype$link2 == SHORT)
+              if((signed int)opttype_link2 == SHORT)
               {
-                optcontrol$link2 = optcontrol$link2 + 1;
-                optArg$link2 = (char *)(void *)0;
+                optcontrol_link2 = optcontrol_link2 + 1;
+                optArg_link2 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link2, optcurrent$link2);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link2, optcurrent_link2);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link2 == ((char *)NULL) && 1 + optargind$link2 >= argc$link2)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link2, optcurrent$link2);
+            if(optArg_link2 == ((char *)NULL) && 1 + optargind_link2 >= argc_link2)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link2, optcurrent_link2);
 
-            if(optArg$link2 == ((char *)NULL))
+            if(optArg_link2 == ((char *)NULL))
             {
-              optargind$link2 = optargind$link2 + 1;
-              optArg$link2 = argv$link2[(signed long int)optargind$link2];
+              optargind_link2 = optargind_link2 + 1;
+              optArg_link2 = argv_link2[(signed long int)optargind_link2];
             }
 
           }
@@ -8482,112 +8482,112 @@ static void parse_options$link2(signed int argc$link2, char **argv$link2)
         goto check_next;
       }
 
-      if((signed int)opttype$link2 == SHORT)
-        tmp_if_expr$26 = (signed int)optcurrent$link2[(signed long int)1] == 108 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link2 == SHORT)
+        tmp_if_expr_26 = (signed int)optcurrent_link2[(signed long int)1] == 108 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$26 = (_Bool)0;
-      if(tmp_if_expr$26)
-        tmp_if_expr$31$link1 = (_Bool)1;
+        tmp_if_expr_26 = (_Bool)0;
+      if(tmp_if_expr_26)
+        tmp_if_expr_31_link1 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link2 == LONG)
+        if((signed int)opttype_link2 == LONG)
         {
-          return_value_strlen$27$link1=strlen("no-strip-location-reports");
-          tmp_if_expr$28 = return_value_strlen$27$link1 == optlength$link2 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_27_link1=strlen("no-strip-location-reports");
+          tmp_if_expr_28 = return_value_strlen_27_link1 == optlength_link2 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$28 = (_Bool)0;
-        if(tmp_if_expr$28)
+          tmp_if_expr_28 = (_Bool)0;
+        if(tmp_if_expr_28)
         {
-          return_value_strncmp$29=strncmp(optcurrent$link2 + (signed long int)2, "no-strip-location-reports", optlength$link2 - (unsigned long int)2);
-          tmp_if_expr$30 = return_value_strncmp$29 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_29=strncmp(optcurrent_link2 + (signed long int)2, "no-strip-location-reports", optlength_link2 - (unsigned long int)2);
+          tmp_if_expr_30 = return_value_strncmp_29 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$30 = (_Bool)0;
-        tmp_if_expr$31$link1 = tmp_if_expr$30 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_30 = (_Bool)0;
+        tmp_if_expr_31_link1 = tmp_if_expr_30 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$31$link1)
+      if(tmp_if_expr_31_link1)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link2 == ((char *)NULL)))
+            if(!(optArg_link2 == ((char *)NULL)))
             {
-              if((signed int)opttype$link2 == SHORT)
+              if((signed int)opttype_link2 == SHORT)
               {
-                optcontrol$link2 = optcontrol$link2 + 1;
-                optArg$link2 = (char *)(void *)0;
+                optcontrol_link2 = optcontrol_link2 + 1;
+                optArg_link2 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link2, optcurrent$link2);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link2, optcurrent_link2);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link2 == ((char *)NULL) && 1 + optargind$link2 >= argc$link2)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link2, optcurrent$link2);
+            if(optArg_link2 == ((char *)NULL) && 1 + optargind_link2 >= argc_link2)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link2, optcurrent_link2);
 
-            if(optArg$link2 == ((char *)NULL))
+            if(optArg_link2 == ((char *)NULL))
             {
-              optargind$link2 = optargind$link2 + 1;
-              optArg$link2 = argv$link2[(signed long int)optargind$link2];
+              optargind_link2 = optargind_link2 + 1;
+              optArg_link2 = argv_link2[(signed long int)optargind_link2];
             }
 
           }
         }
-        strip_location_reports = (enum anonymous$10)td_false;
+        strip_location_reports = (enum anonymous_10)td_false;
         goto check_next;
       }
 
-      if((signed int)opttype$link2 == LONG)
+      if((signed int)opttype_link2 == LONG)
       {
-        return_value_strlen$33=strlen("");
-        if(return_value_strlen$33 == optlength$link2 + 18446744073709551614ul)
+        return_value_strlen_33=strlen("");
+        if(return_value_strlen_33 == optlength_link2 + 18446744073709551614ul)
         {
-          return_value_strncmp$32$link1=strncmp(optcurrent$link2 + (signed long int)2, "", optlength$link2 - (unsigned long int)2);
-          if(return_value_strncmp$32$link1 == 0)
+          return_value_strncmp_32_link1=strncmp(optcurrent_link2 + (signed long int)2, "", optlength_link2 - (unsigned long int)2);
+          if(return_value_strncmp_32_link1 == 0)
           {
             switch(0)
             {
               case 0:
               {
-                if(!(optArg$link2 == ((char *)NULL)))
+                if(!(optArg_link2 == ((char *)NULL)))
                 {
-                  if((signed int)opttype$link2 == SHORT)
+                  if((signed int)opttype_link2 == SHORT)
                   {
-                    optcontrol$link2 = optcontrol$link2 + 1;
-                    optArg$link2 = (char *)(void *)0;
+                    optcontrol_link2 = optcontrol_link2 + 1;
+                    optArg_link2 = (char *)(void *)0;
                   }
 
                   else
-                    fatal("Option %.*s does not take an argument\n", (signed int)optlength$link2, optcurrent$link2);
+                    fatal("Option %.*s does not take an argument\n", (signed int)optlength_link2, optcurrent_link2);
                 }
 
                 break;
               }
               case 2:
               {
-                if(optArg$link2 == ((char *)NULL) && 1 + optargind$link2 >= argc$link2)
-                  fatal("Option %.*s requires an argument\n", (signed int)optlength$link2, optcurrent$link2);
+                if(optArg_link2 == ((char *)NULL) && 1 + optargind_link2 >= argc_link2)
+                  fatal("Option %.*s requires an argument\n", (signed int)optlength_link2, optcurrent_link2);
 
-                if(optArg$link2 == ((char *)NULL))
+                if(optArg_link2 == ((char *)NULL))
                 {
-                  optargind$link2 = optargind$link2 + 1;
-                  optArg$link2 = argv$link2[(signed long int)optargind$link2];
+                  optargind_link2 = optargind_link2 + 1;
+                  optArg_link2 = argv_link2[(signed long int)optargind_link2];
                 }
 
               }
             }
             do
-              optnomore$link2 = 1;
+              optnomore_link2 = 1;
             while((_Bool)0);
             goto check_next;
           }
@@ -8596,43 +8596,43 @@ static void parse_options$link2(signed int argc$link2, char **argv$link2)
 
       }
 
-      fatal("Unknown option %.*s\n", (signed int)optlength$link2, optcurrent$link2);
+      fatal("Unknown option %.*s\n", (signed int)optlength_link2, optcurrent_link2);
     }
 
     else
     {
-      if(!(input$link2 == ((char *)NULL)))
+      if(!(input_link2 == ((char *)NULL)))
         fatal("More than one replay specified\n");
 
-      input$link2 = optcurrent$link2;
+      input_link2 = optcurrent_link2;
 
     check_next:
       ;
-      if((signed int)optcontrol$link2 == 1 || (signed int)optcontrol$link2 == 3)
+      if((signed int)optcontrol_link2 == 1 || (signed int)optcontrol_link2 == 3)
       {
-        if((signed int)optcontrol$link2 == 1)
+        if((signed int)optcontrol_link2 == 1)
         {
-          optcurrent$link2 = optcurrent$link2;
-          optptr$link2 = optcurrent$link2;
+          optcurrent_link2 = optcurrent_link2;
+          optptr_link2 = optcurrent_link2;
         }
 
-        optcontrol$link2 = (char)2;
-        optcurrent$link2 = optcurrent$link2 + 1l;
-        optcurrent$link2[(signed long int)0] = (char)45;
-        optArg$link2 = (signed int)optcurrent$link2[(signed long int)2] != 0 ? optcurrent$link2 + (signed long int)2 : (char *)(void *)0;
+        optcontrol_link2 = (char)2;
+        optcurrent_link2 = optcurrent_link2 + 1l;
+        optcurrent_link2[(signed long int)0] = (char)45;
+        optArg_link2 = (signed int)optcurrent_link2[(signed long int)2] != 0 ? optcurrent_link2 + (signed long int)2 : (char *)(void *)0;
         goto next_opt;
       }
 
       else
-        if((signed int)optcontrol$link2 == 2)
-          (void)optptr$link2;
+        if((signed int)optcontrol_link2 == 2)
+          (void)optptr_link2;
 
     }
   }
 
 stop_opt_parse:
   ;
-  if(input$link2 == ((char *)NULL))
+  if(input_link2 == ((char *)NULL))
     fatal("No replay specified\n");
 
   if(!(directory == ((const char *)NULL)) && !(output == ((char *)NULL)))
@@ -8640,244 +8640,244 @@ stop_opt_parse:
 
 }
 
-// parse_options$link3
+// parse_options_link3
 // file src/compare.c line 68
-static void parse_options$link3(signed int argc$link3, char **argv$link3)
+static void parse_options_link3(signed int argc_link3, char **argv_link3)
 {
-  char *optArg$link3;
-  signed int optargind$link3;
-  signed int optnomore$link3 = 0;
-  optargind$link3 = 1;
-  _Bool tmp_if_expr$1$link3;
-  _Bool tmp_if_expr$2$link2;
-  _Bool tmp_if_expr$7$link2;
-  _Bool tmp_if_expr$4$link2;
-  unsigned long int return_value_strlen$3$link2;
-  _Bool tmp_if_expr$6$link2;
-  signed int return_value_strncmp$5$link2;
-  _Bool tmp_if_expr$8$link3;
-  _Bool tmp_if_expr$13$link3;
-  _Bool tmp_if_expr$10$link3;
-  unsigned long int return_value_strlen$9$link3;
-  _Bool tmp_if_expr$12$link3;
-  signed int return_value_strncmp$11$link3;
-  _Bool tmp_if_expr$14$link2;
-  _Bool tmp_if_expr$19$link3;
-  _Bool tmp_if_expr$16$link2;
-  unsigned long int return_value_strlen$15$link2;
-  _Bool tmp_if_expr$18$link2;
-  signed int return_value_strncmp$17$link2;
-  _Bool tmp_if_expr$20$link2;
-  _Bool tmp_if_expr$25$link2;
-  _Bool tmp_if_expr$22$link3;
-  unsigned long int return_value_strlen$21$link2;
-  _Bool tmp_if_expr$24$link2;
-  signed int return_value_strncmp$23$link2;
-  _Bool tmp_if_expr$26$link1;
-  _Bool tmp_if_expr$31$link2;
-  _Bool tmp_if_expr$28$link1;
-  unsigned long int return_value_strlen$27$link2;
-  _Bool tmp_if_expr$30$link1;
-  signed int return_value_strncmp$29$link1;
-  _Bool tmp_if_expr$32;
-  _Bool tmp_if_expr$37$link1;
-  _Bool tmp_if_expr$34$link1;
-  unsigned long int return_value_strlen$33$link1;
-  _Bool tmp_if_expr$36;
-  signed int return_value_strncmp$35;
-  _Bool tmp_if_expr$40$link1;
-  _Bool tmp_if_expr$45$link1;
-  _Bool tmp_if_expr$42;
-  unsigned long int return_value_strlen$41;
-  _Bool tmp_if_expr$44;
-  signed int return_value_strncmp$43;
-  _Bool tmp_if_expr$48;
-  _Bool tmp_if_expr$53$link1;
-  _Bool tmp_if_expr$50;
-  unsigned long int return_value_strlen$49;
-  _Bool tmp_if_expr$52$link1;
-  signed int return_value_strncmp$51;
-  _Bool tmp_if_expr$55$link1;
-  _Bool tmp_if_expr$60;
-  _Bool tmp_if_expr$57$link1;
-  unsigned long int return_value_strlen$56;
-  _Bool tmp_if_expr$59$link1;
-  signed int return_value_strncmp$58;
-  _Bool tmp_if_expr$61$link1;
-  _Bool tmp_if_expr$66;
-  _Bool tmp_if_expr$63$link1;
-  unsigned long int return_value_strlen$62;
-  _Bool tmp_if_expr$65;
-  signed int return_value_strncmp$64;
-  unsigned long int return_value_strlen$68$link1;
-  signed int return_value_strncmp$67;
-  for( ; !(optargind$link3 >= argc$link3); optargind$link3 = optargind$link3 + 1)
+  char *optArg_link3;
+  signed int optargind_link3;
+  signed int optnomore_link3 = 0;
+  optargind_link3 = 1;
+  _Bool tmp_if_expr_1_link3;
+  _Bool tmp_if_expr_2_link2;
+  _Bool tmp_if_expr_7_link2;
+  _Bool tmp_if_expr_4_link2;
+  unsigned long int return_value_strlen_3_link2;
+  _Bool tmp_if_expr_6_link2;
+  signed int return_value_strncmp_5_link2;
+  _Bool tmp_if_expr_8_link3;
+  _Bool tmp_if_expr_13_link3;
+  _Bool tmp_if_expr_10_link3;
+  unsigned long int return_value_strlen_9_link3;
+  _Bool tmp_if_expr_12_link3;
+  signed int return_value_strncmp_11_link3;
+  _Bool tmp_if_expr_14_link2;
+  _Bool tmp_if_expr_19_link3;
+  _Bool tmp_if_expr_16_link2;
+  unsigned long int return_value_strlen_15_link2;
+  _Bool tmp_if_expr_18_link2;
+  signed int return_value_strncmp_17_link2;
+  _Bool tmp_if_expr_20_link2;
+  _Bool tmp_if_expr_25_link2;
+  _Bool tmp_if_expr_22_link3;
+  unsigned long int return_value_strlen_21_link2;
+  _Bool tmp_if_expr_24_link2;
+  signed int return_value_strncmp_23_link2;
+  _Bool tmp_if_expr_26_link1;
+  _Bool tmp_if_expr_31_link2;
+  _Bool tmp_if_expr_28_link1;
+  unsigned long int return_value_strlen_27_link2;
+  _Bool tmp_if_expr_30_link1;
+  signed int return_value_strncmp_29_link1;
+  _Bool tmp_if_expr_32;
+  _Bool tmp_if_expr_37_link1;
+  _Bool tmp_if_expr_34_link1;
+  unsigned long int return_value_strlen_33_link1;
+  _Bool tmp_if_expr_36;
+  signed int return_value_strncmp_35;
+  _Bool tmp_if_expr_40_link1;
+  _Bool tmp_if_expr_45_link1;
+  _Bool tmp_if_expr_42;
+  unsigned long int return_value_strlen_41;
+  _Bool tmp_if_expr_44;
+  signed int return_value_strncmp_43;
+  _Bool tmp_if_expr_48;
+  _Bool tmp_if_expr_53_link1;
+  _Bool tmp_if_expr_50;
+  unsigned long int return_value_strlen_49;
+  _Bool tmp_if_expr_52_link1;
+  signed int return_value_strncmp_51;
+  _Bool tmp_if_expr_55_link1;
+  _Bool tmp_if_expr_60;
+  _Bool tmp_if_expr_57_link1;
+  unsigned long int return_value_strlen_56;
+  _Bool tmp_if_expr_59_link1;
+  signed int return_value_strncmp_58;
+  _Bool tmp_if_expr_61_link1;
+  _Bool tmp_if_expr_66;
+  _Bool tmp_if_expr_63_link1;
+  unsigned long int return_value_strlen_62;
+  _Bool tmp_if_expr_65;
+  signed int return_value_strncmp_64;
+  unsigned long int return_value_strlen_68_link1;
+  signed int return_value_strncmp_67;
+  for( ; !(optargind_link3 >= argc_link3); optargind_link3 = optargind_link3 + 1)
   {
-    char optcontrol$link3 = (char)0;
-    char *optcurrent$link3;
-    char *optptr$link3;
-    optcurrent$link3 = argv$link3[(signed long int)optargind$link3];
-    if(optnomore$link3 == 0 && (signed int)*optcurrent$link3 == 45)
+    char optcontrol_link3 = (char)0;
+    char *optcurrent_link3;
+    char *optptr_link3;
+    optcurrent_link3 = argv_link3[(signed long int)optargind_link3];
+    if(optnomore_link3 == 0 && (signed int)*optcurrent_link3 == 45)
     {
-      unsigned long int optlength$link3;
-      enum anonymous$9 opttype$link3;
-      if((signed int)optcurrent$link3[1l] == 45)
+      unsigned long int optlength_link3;
+      enum anonymous_9 opttype_link3;
+      if((signed int)optcurrent_link3[1l] == 45)
       {
-        optArg$link3=strchr(optcurrent$link3, 61);
-        if(optArg$link3 == ((char *)NULL))
-          optlength$link3=strlen(optcurrent$link3);
+        optArg_link3=strchr(optcurrent_link3, 61);
+        if(optArg_link3 == ((char *)NULL))
+          optlength_link3=strlen(optcurrent_link3);
 
         else
         {
-          optlength$link3 = (unsigned long int)(optArg$link3 - optcurrent$link3);
-          optArg$link3 = optArg$link3 + 1l;
+          optlength_link3 = (unsigned long int)(optArg_link3 - optcurrent_link3);
+          optArg_link3 = optArg_link3 + 1l;
         }
-        opttype$link3 = (enum anonymous$9)LONG;
+        opttype_link3 = (enum anonymous_9)LONG;
       }
 
       else
       {
-        optlength$link3 = (unsigned long int)2;
-        if(!((signed int)optcurrent$link3[1l] == 0))
-          tmp_if_expr$1$link3 = (signed int)optcurrent$link3[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+        optlength_link3 = (unsigned long int)2;
+        if(!((signed int)optcurrent_link3[1l] == 0))
+          tmp_if_expr_1_link3 = (signed int)optcurrent_link3[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1$link3 = (_Bool)0;
-        if(tmp_if_expr$1$link3)
-          optArg$link3 = optcurrent$link3 + (signed long int)2;
+          tmp_if_expr_1_link3 = (_Bool)0;
+        if(tmp_if_expr_1_link3)
+          optArg_link3 = optcurrent_link3 + (signed long int)2;
 
         else
-          optArg$link3 = (char *)(void *)0;
-        opttype$link3 = (enum anonymous$9)SHORT;
+          optArg_link3 = (char *)(void *)0;
+        opttype_link3 = (enum anonymous_9)SHORT;
       }
-      if(optlength$link3 >= 2147483648ul)
-        optlength$link3 = (unsigned long int)0x7fffffff;
+      if(optlength_link3 >= 2147483648ul)
+        optlength_link3 = (unsigned long int)0x7fffffff;
 
 
     next_opt:
       ;
-      if((signed int)opttype$link3 == SHORT)
-        tmp_if_expr$2$link2 = (signed int)optcurrent$link3[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link3 == SHORT)
+        tmp_if_expr_2_link2 = (signed int)optcurrent_link3[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2$link2 = (_Bool)0;
-      if(tmp_if_expr$2$link2)
-        tmp_if_expr$7$link2 = (_Bool)1;
+        tmp_if_expr_2_link2 = (_Bool)0;
+      if(tmp_if_expr_2_link2)
+        tmp_if_expr_7_link2 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link3 == LONG)
+        if((signed int)opttype_link3 == LONG)
         {
-          return_value_strlen$3$link2=strlen("help");
-          tmp_if_expr$4$link2 = return_value_strlen$3$link2 == optlength$link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_3_link2=strlen("help");
+          tmp_if_expr_4_link2 = return_value_strlen_3_link2 == optlength_link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4$link2 = (_Bool)0;
-        if(tmp_if_expr$4$link2)
+          tmp_if_expr_4_link2 = (_Bool)0;
+        if(tmp_if_expr_4_link2)
         {
-          return_value_strncmp$5$link2=strncmp(optcurrent$link3 + (signed long int)2, "help", optlength$link3 - (unsigned long int)2);
-          tmp_if_expr$6$link2 = return_value_strncmp$5$link2 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_5_link2=strncmp(optcurrent_link3 + (signed long int)2, "help", optlength_link3 - (unsigned long int)2);
+          tmp_if_expr_6_link2 = return_value_strncmp_5_link2 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6$link2 = (_Bool)0;
-        tmp_if_expr$7$link2 = tmp_if_expr$6$link2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6_link2 = (_Bool)0;
+        tmp_if_expr_7_link2 = tmp_if_expr_6_link2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7$link2)
+      if(tmp_if_expr_7_link2)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link3 == ((char *)NULL)))
+            if(!(optArg_link3 == ((char *)NULL)))
             {
-              if((signed int)opttype$link3 == SHORT)
+              if((signed int)opttype_link3 == SHORT)
               {
-                optcontrol$link3 = optcontrol$link3 + 1;
-                optArg$link3 = (char *)(void *)0;
+                optcontrol_link3 = optcontrol_link3 + 1;
+                optArg_link3 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+            if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-            if(optArg$link3 == ((char *)NULL))
+            if(optArg_link3 == ((char *)NULL))
             {
-              optargind$link3 = optargind$link3 + 1;
-              optArg$link3 = argv$link3[(signed long int)optargind$link3];
+              optargind_link3 = optargind_link3 + 1;
+              optArg_link3 = argv_link3[(signed long int)optargind_link3];
             }
 
           }
         }
-        printUsage$link3();
+        printUsage_link3();
         goto check_next;
       }
 
-      if((signed int)opttype$link3 == SHORT)
-        tmp_if_expr$8$link3 = (signed int)optcurrent$link3[(signed long int)1] == 86 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link3 == SHORT)
+        tmp_if_expr_8_link3 = (signed int)optcurrent_link3[(signed long int)1] == 86 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8$link3 = (_Bool)0;
-      if(tmp_if_expr$8$link3)
-        tmp_if_expr$13$link3 = (_Bool)1;
+        tmp_if_expr_8_link3 = (_Bool)0;
+      if(tmp_if_expr_8_link3)
+        tmp_if_expr_13_link3 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link3 == LONG)
+        if((signed int)opttype_link3 == LONG)
         {
-          return_value_strlen$9$link3=strlen("version");
-          tmp_if_expr$10$link3 = return_value_strlen$9$link3 == optlength$link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_9_link3=strlen("version");
+          tmp_if_expr_10_link3 = return_value_strlen_9_link3 == optlength_link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$10$link3 = (_Bool)0;
-        if(tmp_if_expr$10$link3)
+          tmp_if_expr_10_link3 = (_Bool)0;
+        if(tmp_if_expr_10_link3)
         {
-          return_value_strncmp$11$link3=strncmp(optcurrent$link3 + (signed long int)2, "version", optlength$link3 - (unsigned long int)2);
-          tmp_if_expr$12$link3 = return_value_strncmp$11$link3 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_11_link3=strncmp(optcurrent_link3 + (signed long int)2, "version", optlength_link3 - (unsigned long int)2);
+          tmp_if_expr_12_link3 = return_value_strncmp_11_link3 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12$link3 = (_Bool)0;
-        tmp_if_expr$13$link3 = tmp_if_expr$12$link3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_12_link3 = (_Bool)0;
+        tmp_if_expr_13_link3 = tmp_if_expr_12_link3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13$link3)
+      if(tmp_if_expr_13_link3)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link3 == ((char *)NULL)))
+            if(!(optArg_link3 == ((char *)NULL)))
             {
-              if((signed int)opttype$link3 == SHORT)
+              if((signed int)opttype_link3 == SHORT)
               {
-                optcontrol$link3 = optcontrol$link3 + 1;
-                optArg$link3 = (char *)(void *)0;
+                optcontrol_link3 = optcontrol_link3 + 1;
+                optArg_link3 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+            if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-            if(optArg$link3 == ((char *)NULL))
+            if(optArg_link3 == ((char *)NULL))
             {
-              optargind$link3 = optargind$link3 + 1;
-              optArg$link3 = argv$link3[(signed long int)optargind$link3];
+              optargind_link3 = optargind_link3 + 1;
+              optArg_link3 = argv_link3[(signed long int)optargind_link3];
             }
 
           }
@@ -8887,323 +8887,323 @@ static void parse_options$link3(signed int argc$link3, char **argv$link3)
         goto check_next;
       }
 
-      if((signed int)opttype$link3 == SHORT)
-        tmp_if_expr$14$link2 = (signed int)optcurrent$link3[(signed long int)1] == 118 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link3 == SHORT)
+        tmp_if_expr_14_link2 = (signed int)optcurrent_link3[(signed long int)1] == 118 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$14$link2 = (_Bool)0;
-      if(tmp_if_expr$14$link2)
-        tmp_if_expr$19$link3 = (_Bool)1;
+        tmp_if_expr_14_link2 = (_Bool)0;
+      if(tmp_if_expr_14_link2)
+        tmp_if_expr_19_link3 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link3 == LONG)
+        if((signed int)opttype_link3 == LONG)
         {
-          return_value_strlen$15$link2=strlen("visual-compare");
-          tmp_if_expr$16$link2 = return_value_strlen$15$link2 == optlength$link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_15_link2=strlen("visual-compare");
+          tmp_if_expr_16_link2 = return_value_strlen_15_link2 == optlength_link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$16$link2 = (_Bool)0;
-        if(tmp_if_expr$16$link2)
+          tmp_if_expr_16_link2 = (_Bool)0;
+        if(tmp_if_expr_16_link2)
         {
-          return_value_strncmp$17$link2=strncmp(optcurrent$link3 + (signed long int)2, "visual-compare", optlength$link3 - (unsigned long int)2);
-          tmp_if_expr$18$link2 = return_value_strncmp$17$link2 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_17_link2=strncmp(optcurrent_link3 + (signed long int)2, "visual-compare", optlength_link3 - (unsigned long int)2);
+          tmp_if_expr_18_link2 = return_value_strncmp_17_link2 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$18$link2 = (_Bool)0;
-        tmp_if_expr$19$link3 = tmp_if_expr$18$link2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_18_link2 = (_Bool)0;
+        tmp_if_expr_19_link3 = tmp_if_expr_18_link2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$19$link3)
+      if(tmp_if_expr_19_link3)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link3 == ((char *)NULL)))
+            if(!(optArg_link3 == ((char *)NULL)))
             {
-              if((signed int)opttype$link3 == SHORT)
+              if((signed int)opttype_link3 == SHORT)
               {
-                optcontrol$link3 = optcontrol$link3 + 1;
-                optArg$link3 = (char *)(void *)0;
+                optcontrol_link3 = optcontrol_link3 + 1;
+                optArg_link3 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+            if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-            if(optArg$link3 == ((char *)NULL))
+            if(optArg_link3 == ((char *)NULL))
             {
-              optargind$link3 = optargind$link3 + 1;
-              optArg$link3 = argv$link3[(signed long int)optargind$link3];
+              optargind_link3 = optargind_link3 + 1;
+              optArg_link3 = argv_link3[(signed long int)optargind_link3];
             }
 
           }
         }
-        visual_compare$link1 = (enum anonymous$10)td_true;
+        visual_compare_link1 = (enum anonymous_10)td_true;
         goto check_next;
       }
 
-      if((signed int)opttype$link3 == SHORT)
-        tmp_if_expr$20$link2 = (signed int)optcurrent$link3[(signed long int)1] == 68 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link3 == SHORT)
+        tmp_if_expr_20_link2 = (signed int)optcurrent_link3[(signed long int)1] == 68 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$20$link2 = (_Bool)0;
-      if(tmp_if_expr$20$link2)
-        tmp_if_expr$25$link2 = (_Bool)1;
+        tmp_if_expr_20_link2 = (_Bool)0;
+      if(tmp_if_expr_20_link2)
+        tmp_if_expr_25_link2 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link3 == LONG)
+        if((signed int)opttype_link3 == LONG)
         {
-          return_value_strlen$21$link2=strlen("describe");
-          tmp_if_expr$22$link3 = return_value_strlen$21$link2 == optlength$link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_21_link2=strlen("describe");
+          tmp_if_expr_22_link3 = return_value_strlen_21_link2 == optlength_link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$22$link3 = (_Bool)0;
-        if(tmp_if_expr$22$link3)
+          tmp_if_expr_22_link3 = (_Bool)0;
+        if(tmp_if_expr_22_link3)
         {
-          return_value_strncmp$23$link2=strncmp(optcurrent$link3 + (signed long int)2, "describe", optlength$link3 - (unsigned long int)2);
-          tmp_if_expr$24$link2 = return_value_strncmp$23$link2 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_23_link2=strncmp(optcurrent_link3 + (signed long int)2, "describe", optlength_link3 - (unsigned long int)2);
+          tmp_if_expr_24_link2 = return_value_strncmp_23_link2 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$24$link2 = (_Bool)0;
-        tmp_if_expr$25$link2 = tmp_if_expr$24$link2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_24_link2 = (_Bool)0;
+        tmp_if_expr_25_link2 = tmp_if_expr_24_link2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$25$link2)
+      if(tmp_if_expr_25_link2)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link3 == ((char *)NULL)))
+            if(!(optArg_link3 == ((char *)NULL)))
             {
-              if((signed int)opttype$link3 == SHORT)
+              if((signed int)opttype_link3 == SHORT)
               {
-                optcontrol$link3 = optcontrol$link3 + 1;
-                optArg$link3 = (char *)(void *)0;
+                optcontrol_link3 = optcontrol_link3 + 1;
+                optArg_link3 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+            if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-            if(optArg$link3 == ((char *)NULL))
+            if(optArg_link3 == ((char *)NULL))
             {
-              optargind$link3 = optargind$link3 + 1;
-              optArg$link3 = argv$link3[(signed long int)optargind$link3];
+              optargind_link3 = optargind_link3 + 1;
+              optArg_link3 = argv_link3[(signed long int)optargind_link3];
             }
 
           }
         }
-        describe$link1 = (enum anonymous$10)td_true;
+        describe_link1 = (enum anonymous_10)td_true;
         goto check_next;
       }
 
-      if((signed int)opttype$link3 == SHORT)
-        tmp_if_expr$26$link1 = (signed int)optcurrent$link3[(signed long int)1] == 112 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link3 == SHORT)
+        tmp_if_expr_26_link1 = (signed int)optcurrent_link3[(signed long int)1] == 112 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$26$link1 = (_Bool)0;
-      if(tmp_if_expr$26$link1)
-        tmp_if_expr$31$link2 = (_Bool)1;
+        tmp_if_expr_26_link1 = (_Bool)0;
+      if(tmp_if_expr_26_link1)
+        tmp_if_expr_31_link2 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link3 == LONG)
+        if((signed int)opttype_link3 == LONG)
         {
-          return_value_strlen$27$link2=strlen("picture");
-          tmp_if_expr$28$link1 = return_value_strlen$27$link2 == optlength$link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_27_link2=strlen("picture");
+          tmp_if_expr_28_link1 = return_value_strlen_27_link2 == optlength_link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$28$link1 = (_Bool)0;
-        if(tmp_if_expr$28$link1)
+          tmp_if_expr_28_link1 = (_Bool)0;
+        if(tmp_if_expr_28_link1)
         {
-          return_value_strncmp$29$link1=strncmp(optcurrent$link3 + (signed long int)2, "picture", optlength$link3 - (unsigned long int)2);
-          tmp_if_expr$30$link1 = return_value_strncmp$29$link1 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_29_link1=strncmp(optcurrent_link3 + (signed long int)2, "picture", optlength_link3 - (unsigned long int)2);
+          tmp_if_expr_30_link1 = return_value_strncmp_29_link1 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$30$link1 = (_Bool)0;
-        tmp_if_expr$31$link2 = tmp_if_expr$30$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_30_link1 = (_Bool)0;
+        tmp_if_expr_31_link2 = tmp_if_expr_30_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$31$link2)
+      if(tmp_if_expr_31_link2)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link3 == ((char *)NULL)))
+            if(!(optArg_link3 == ((char *)NULL)))
             {
-              if((signed int)opttype$link3 == SHORT)
+              if((signed int)opttype_link3 == SHORT)
               {
-                optcontrol$link3 = optcontrol$link3 + 1;
-                optArg$link3 = (char *)(void *)0;
+                optcontrol_link3 = optcontrol_link3 + 1;
+                optArg_link3 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+            if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-            if(optArg$link3 == ((char *)NULL))
+            if(optArg_link3 == ((char *)NULL))
             {
-              optargind$link3 = optargind$link3 + 1;
-              optArg$link3 = argv$link3[(signed long int)optargind$link3];
+              optargind_link3 = optargind_link3 + 1;
+              optArg_link3 = argv_link3[(signed long int)optargind_link3];
             }
 
           }
         }
-        picture_name$link1 = optArg$link3;
+        picture_name_link1 = optArg_link3;
         goto check_next;
       }
 
-      if((signed int)opttype$link3 == SHORT)
-        tmp_if_expr$32 = (signed int)optcurrent$link3[(signed long int)1] == 102 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link3 == SHORT)
+        tmp_if_expr_32 = (signed int)optcurrent_link3[(signed long int)1] == 102 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$32 = (_Bool)0;
-      if(tmp_if_expr$32)
-        tmp_if_expr$37$link1 = (_Bool)1;
+        tmp_if_expr_32 = (_Bool)0;
+      if(tmp_if_expr_32)
+        tmp_if_expr_37_link1 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link3 == LONG)
+        if((signed int)opttype_link3 == LONG)
         {
-          return_value_strlen$33$link1=strlen("font");
-          tmp_if_expr$34$link1 = return_value_strlen$33$link1 == optlength$link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_33_link1=strlen("font");
+          tmp_if_expr_34_link1 = return_value_strlen_33_link1 == optlength_link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$34$link1 = (_Bool)0;
-        if(tmp_if_expr$34$link1)
+          tmp_if_expr_34_link1 = (_Bool)0;
+        if(tmp_if_expr_34_link1)
         {
-          return_value_strncmp$35=strncmp(optcurrent$link3 + (signed long int)2, "font", optlength$link3 - (unsigned long int)2);
-          tmp_if_expr$36 = return_value_strncmp$35 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_35=strncmp(optcurrent_link3 + (signed long int)2, "font", optlength_link3 - (unsigned long int)2);
+          tmp_if_expr_36 = return_value_strncmp_35 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$36 = (_Bool)0;
-        tmp_if_expr$37$link1 = tmp_if_expr$36 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_36 = (_Bool)0;
+        tmp_if_expr_37_link1 = tmp_if_expr_36 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$37$link1)
+      if(tmp_if_expr_37_link1)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link3 == ((char *)NULL)))
+            if(!(optArg_link3 == ((char *)NULL)))
             {
-              if((signed int)opttype$link3 == SHORT)
+              if((signed int)opttype_link3 == SHORT)
               {
-                optcontrol$link3 = optcontrol$link3 + 1;
-                optArg$link3 = (char *)(void *)0;
+                optcontrol_link3 = optcontrol_link3 + 1;
+                optArg_link3 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+            if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-            if(optArg$link3 == ((char *)NULL))
+            if(optArg_link3 == ((char *)NULL))
             {
-              optargind$link3 = optargind$link3 + 1;
-              optArg$link3 = argv$link3[(signed long int)optargind$link3];
+              optargind_link3 = optargind_link3 + 1;
+              optArg_link3 = argv_link3[(signed long int)optargind_link3];
             }
 
           }
         }
-        option_font = optArg$link3;
+        option_font = optArg_link3;
         goto check_next;
       }
 
-      if((signed int)opttype$link3 == SHORT)
-        tmp_if_expr$40$link1 = (signed int)optcurrent$link3[(signed long int)1] == 87 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link3 == SHORT)
+        tmp_if_expr_40_link1 = (signed int)optcurrent_link3[(signed long int)1] == 87 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$40$link1 = (_Bool)0;
-      if(tmp_if_expr$40$link1)
-        tmp_if_expr$45$link1 = (_Bool)1;
+        tmp_if_expr_40_link1 = (_Bool)0;
+      if(tmp_if_expr_40_link1)
+        tmp_if_expr_45_link1 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link3 == LONG)
+        if((signed int)opttype_link3 == LONG)
         {
-          return_value_strlen$41=strlen("cell-width");
-          tmp_if_expr$42 = return_value_strlen$41 == optlength$link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_41=strlen("cell-width");
+          tmp_if_expr_42 = return_value_strlen_41 == optlength_link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$42 = (_Bool)0;
-        if(tmp_if_expr$42)
+          tmp_if_expr_42 = (_Bool)0;
+        if(tmp_if_expr_42)
         {
-          return_value_strncmp$43=strncmp(optcurrent$link3 + (signed long int)2, "cell-width", optlength$link3 - (unsigned long int)2);
-          tmp_if_expr$44 = return_value_strncmp$43 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_43=strncmp(optcurrent_link3 + (signed long int)2, "cell-width", optlength_link3 - (unsigned long int)2);
+          tmp_if_expr_44 = return_value_strncmp_43 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$44 = (_Bool)0;
-        tmp_if_expr$45$link1 = tmp_if_expr$44 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_44 = (_Bool)0;
+        tmp_if_expr_45_link1 = tmp_if_expr_44 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$45$link1)
+      if(tmp_if_expr_45_link1)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link3 == ((char *)NULL)))
+            if(!(optArg_link3 == ((char *)NULL)))
             {
-              if((signed int)opttype$link3 == SHORT)
+              if((signed int)opttype_link3 == SHORT)
               {
-                optcontrol$link3 = optcontrol$link3 + 1;
-                optArg$link3 = (char *)(void *)0;
+                optcontrol_link3 = optcontrol_link3 + 1;
+                optArg_link3 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+            if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-            if(optArg$link3 == ((char *)NULL))
+            if(optArg_link3 == ((char *)NULL))
             {
-              optargind$link3 = optargind$link3 + 1;
-              optArg$link3 = argv$link3[(signed long int)optargind$link3];
+              optargind_link3 = optargind_link3 + 1;
+              optArg_link3 = argv_link3[(signed long int)optargind_link3];
             }
 
           }
@@ -9212,17 +9212,17 @@ static void parse_options$link3(signed int argc$link3, char **argv$link3)
         {
           char *endptr;
           signed long int value;
-          signed int *return_value___errno_location$38;
-          return_value___errno_location$38=__errno_location();
-          *return_value___errno_location$38 = 0;
-          value=strtol(optArg$link3, &endptr, 10);
+          signed int *return_value___errno_location_38;
+          return_value___errno_location_38=__errno_location();
+          *return_value___errno_location_38 = 0;
+          value=strtol(optArg_link3, &endptr, 10);
           if(!((signed int)*endptr == 0))
-            fatal("Garbage after value for %.*s option\n", (signed int)optlength$link3, optcurrent$link3);
+            fatal("Garbage after value for %.*s option\n", (signed int)optlength_link3, optcurrent_link3);
 
-          signed int *return_value___errno_location$39;
-          return_value___errno_location$39=__errno_location();
-          if(value >= 17l || !(*return_value___errno_location$39 == 0) || !(value >= 6l))
-            fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength$link3, optcurrent$link3, value);
+          signed int *return_value___errno_location_39;
+          return_value___errno_location_39=__errno_location();
+          if(value >= 17l || !(*return_value___errno_location_39 == 0) || !(value >= 6l))
+            fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength_link3, optcurrent_link3, value);
 
           cell_width = (signed int)value;
         }
@@ -9230,265 +9230,265 @@ static void parse_options$link3(signed int argc$link3, char **argv$link3)
         goto check_next;
       }
 
-      if((signed int)opttype$link3 == SHORT)
-        tmp_if_expr$48 = (signed int)optcurrent$link3[(signed long int)1] == 72 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link3 == SHORT)
+        tmp_if_expr_48 = (signed int)optcurrent_link3[(signed long int)1] == 72 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$48 = (_Bool)0;
-      if(tmp_if_expr$48)
-        tmp_if_expr$53$link1 = (_Bool)1;
+        tmp_if_expr_48 = (_Bool)0;
+      if(tmp_if_expr_48)
+        tmp_if_expr_53_link1 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link3 == LONG)
+        if((signed int)opttype_link3 == LONG)
         {
-          return_value_strlen$49=strlen("cell-heigth");
-          tmp_if_expr$50 = return_value_strlen$49 == optlength$link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_49=strlen("cell-heigth");
+          tmp_if_expr_50 = return_value_strlen_49 == optlength_link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$50 = (_Bool)0;
-        if(tmp_if_expr$50)
+          tmp_if_expr_50 = (_Bool)0;
+        if(tmp_if_expr_50)
         {
-          return_value_strncmp$51=strncmp(optcurrent$link3 + (signed long int)2, "cell-heigth", optlength$link3 - (unsigned long int)2);
-          tmp_if_expr$52$link1 = return_value_strncmp$51 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_51=strncmp(optcurrent_link3 + (signed long int)2, "cell-heigth", optlength_link3 - (unsigned long int)2);
+          tmp_if_expr_52_link1 = return_value_strncmp_51 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$52$link1 = (_Bool)0;
-        tmp_if_expr$53$link1 = tmp_if_expr$52$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_52_link1 = (_Bool)0;
+        tmp_if_expr_53_link1 = tmp_if_expr_52_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$53$link1)
+      if(tmp_if_expr_53_link1)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link3 == ((char *)NULL)))
+            if(!(optArg_link3 == ((char *)NULL)))
             {
-              if((signed int)opttype$link3 == SHORT)
+              if((signed int)opttype_link3 == SHORT)
               {
-                optcontrol$link3 = optcontrol$link3 + 1;
-                optArg$link3 = (char *)(void *)0;
+                optcontrol_link3 = optcontrol_link3 + 1;
+                optArg_link3 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+            if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-            if(optArg$link3 == ((char *)NULL))
+            if(optArg_link3 == ((char *)NULL))
             {
-              optargind$link3 = optargind$link3 + 1;
-              optArg$link3 = argv$link3[(signed long int)optargind$link3];
+              optargind_link3 = optargind_link3 + 1;
+              optArg_link3 = argv_link3[(signed long int)optargind_link3];
             }
 
           }
         }
         do
         {
-          char *parse_options$$1$$1$$1$$1$$10$$2$$1$$endptr;
-          signed long int parse_options$$1$$1$$1$$1$$10$$2$$1$$value;
-          signed int *return_value___errno_location$46;
-          return_value___errno_location$46=__errno_location();
-          *return_value___errno_location$46 = 0;
-          parse_options$$1$$1$$1$$1$$10$$2$$1$$value=strtol(optArg$link3, &parse_options$$1$$1$$1$$1$$10$$2$$1$$endptr, 10);
-          if(!((signed int)*parse_options$$1$$1$$1$$1$$10$$2$$1$$endptr == 0))
-            fatal("Garbage after value for %.*s option\n", (signed int)optlength$link3, optcurrent$link3);
+          char *parse_options__1__1__1__1__10__2__1__endptr;
+          signed long int parse_options__1__1__1__1__10__2__1__value;
+          signed int *return_value___errno_location_46;
+          return_value___errno_location_46=__errno_location();
+          *return_value___errno_location_46 = 0;
+          parse_options__1__1__1__1__10__2__1__value=strtol(optArg_link3, &parse_options__1__1__1__1__10__2__1__endptr, 10);
+          if(!((signed int)*parse_options__1__1__1__1__10__2__1__endptr == 0))
+            fatal("Garbage after value for %.*s option\n", (signed int)optlength_link3, optcurrent_link3);
 
-          signed int *return_value___errno_location$47;
-          return_value___errno_location$47=__errno_location();
-          if(parse_options$$1$$1$$1$$1$$10$$2$$1$$value >= 25l || !(*return_value___errno_location$47 == 0) || !(parse_options$$1$$1$$1$$1$$10$$2$$1$$value >= 6l))
-            fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength$link3, optcurrent$link3, parse_options$$1$$1$$1$$1$$10$$2$$1$$value);
+          signed int *return_value___errno_location_47;
+          return_value___errno_location_47=__errno_location();
+          if(parse_options__1__1__1__1__10__2__1__value >= 25l || !(*return_value___errno_location_47 == 0) || !(parse_options__1__1__1__1__10__2__1__value >= 6l))
+            fatal("Value for %.*s option (%ld) is out of range\n", (signed int)optlength_link3, optcurrent_link3, parse_options__1__1__1__1__10__2__1__value);
 
-          cell_width = (signed int)parse_options$$1$$1$$1$$1$$10$$2$$1$$value;
+          cell_width = (signed int)parse_options__1__1__1__1__10__2__1__value;
         }
         while((_Bool)0);
         goto check_next;
       }
 
-      if((signed int)opttype$link3 == SHORT)
-        tmp_if_expr$55$link1 = (signed int)optcurrent$link3[(signed long int)1] == 80 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link3 == SHORT)
+        tmp_if_expr_55_link1 = (signed int)optcurrent_link3[(signed long int)1] == 80 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$55$link1 = (_Bool)0;
-      if(tmp_if_expr$55$link1)
-        tmp_if_expr$60 = (_Bool)1;
+        tmp_if_expr_55_link1 = (_Bool)0;
+      if(tmp_if_expr_55_link1)
+        tmp_if_expr_60 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link3 == LONG)
+        if((signed int)opttype_link3 == LONG)
         {
-          return_value_strlen$56=strlen("picture-series");
-          tmp_if_expr$57$link1 = return_value_strlen$56 == optlength$link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_56=strlen("picture-series");
+          tmp_if_expr_57_link1 = return_value_strlen_56 == optlength_link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$57$link1 = (_Bool)0;
-        if(tmp_if_expr$57$link1)
+          tmp_if_expr_57_link1 = (_Bool)0;
+        if(tmp_if_expr_57_link1)
         {
-          return_value_strncmp$58=strncmp(optcurrent$link3 + (signed long int)2, "picture-series", optlength$link3 - (unsigned long int)2);
-          tmp_if_expr$59$link1 = return_value_strncmp$58 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_58=strncmp(optcurrent_link3 + (signed long int)2, "picture-series", optlength_link3 - (unsigned long int)2);
+          tmp_if_expr_59_link1 = return_value_strncmp_58 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$59$link1 = (_Bool)0;
-        tmp_if_expr$60 = tmp_if_expr$59$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_59_link1 = (_Bool)0;
+        tmp_if_expr_60 = tmp_if_expr_59_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$60)
+      if(tmp_if_expr_60)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link3 == ((char *)NULL)))
+            if(!(optArg_link3 == ((char *)NULL)))
             {
-              if((signed int)opttype$link3 == SHORT)
+              if((signed int)opttype_link3 == SHORT)
               {
-                optcontrol$link3 = optcontrol$link3 + 1;
-                optArg$link3 = (char *)(void *)0;
+                optcontrol_link3 = optcontrol_link3 + 1;
+                optArg_link3 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+            if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-            if(optArg$link3 == ((char *)NULL))
+            if(optArg_link3 == ((char *)NULL))
             {
-              optargind$link3 = optargind$link3 + 1;
-              optArg$link3 = argv$link3[(signed long int)optargind$link3];
+              optargind_link3 = optargind_link3 + 1;
+              optArg_link3 = argv_link3[(signed long int)optargind_link3];
             }
 
           }
         }
-        enum anonymous$10 return_value_check_fmt$54;
-        return_value_check_fmt$54=check_fmt(optArg$link3);
-        if(return_value_check_fmt$54 == /*enum*/td_false)
-          fatal("%.*s argument must have exactly one d-type printf conversion\n", (signed int)optlength$link3, optcurrent$link3);
+        enum anonymous_10 return_value_check_fmt_54;
+        return_value_check_fmt_54=check_fmt(optArg_link3);
+        if(return_value_check_fmt_54 == /*enum*/td_false)
+          fatal("%.*s argument must have exactly one d-type printf conversion\n", (signed int)optlength_link3, optcurrent_link3);
 
-        picture_series = optArg$link3;
+        picture_series = optArg_link3;
         goto check_next;
       }
 
-      if((signed int)opttype$link3 == SHORT)
-        tmp_if_expr$61$link1 = (signed int)optcurrent$link3[(signed long int)1] == 115 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link3 == SHORT)
+        tmp_if_expr_61_link1 = (signed int)optcurrent_link3[(signed long int)1] == 115 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$61$link1 = (_Bool)0;
-      if(tmp_if_expr$61$link1)
-        tmp_if_expr$66 = (_Bool)1;
+        tmp_if_expr_61_link1 = (_Bool)0;
+      if(tmp_if_expr_61_link1)
+        tmp_if_expr_66 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link3 == LONG)
+        if((signed int)opttype_link3 == LONG)
         {
-          return_value_strlen$62=strlen("stop-on-difference");
-          tmp_if_expr$63$link1 = return_value_strlen$62 == optlength$link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_62=strlen("stop-on-difference");
+          tmp_if_expr_63_link1 = return_value_strlen_62 == optlength_link3 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$63$link1 = (_Bool)0;
-        if(tmp_if_expr$63$link1)
+          tmp_if_expr_63_link1 = (_Bool)0;
+        if(tmp_if_expr_63_link1)
         {
-          return_value_strncmp$64=strncmp(optcurrent$link3 + (signed long int)2, "stop-on-difference", optlength$link3 - (unsigned long int)2);
-          tmp_if_expr$65 = return_value_strncmp$64 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_64=strncmp(optcurrent_link3 + (signed long int)2, "stop-on-difference", optlength_link3 - (unsigned long int)2);
+          tmp_if_expr_65 = return_value_strncmp_64 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$65 = (_Bool)0;
-        tmp_if_expr$66 = tmp_if_expr$65 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_65 = (_Bool)0;
+        tmp_if_expr_66 = tmp_if_expr_65 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$66)
+      if(tmp_if_expr_66)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link3 == ((char *)NULL)))
+            if(!(optArg_link3 == ((char *)NULL)))
             {
-              if((signed int)opttype$link3 == SHORT)
+              if((signed int)opttype_link3 == SHORT)
               {
-                optcontrol$link3 = optcontrol$link3 + 1;
-                optArg$link3 = (char *)(void *)0;
+                optcontrol_link3 = optcontrol_link3 + 1;
+                optArg_link3 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+            if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-            if(optArg$link3 == ((char *)NULL))
+            if(optArg_link3 == ((char *)NULL))
             {
-              optargind$link3 = optargind$link3 + 1;
-              optArg$link3 = argv$link3[(signed long int)optargind$link3];
+              optargind_link3 = optargind_link3 + 1;
+              optArg_link3 = argv_link3[(signed long int)optargind_link3];
             }
 
           }
         }
-        stop_on_difference = (enum anonymous$10)td_true;
+        stop_on_difference = (enum anonymous_10)td_true;
         goto check_next;
       }
 
-      if((signed int)opttype$link3 == LONG)
+      if((signed int)opttype_link3 == LONG)
       {
-        return_value_strlen$68$link1=strlen("");
-        if(return_value_strlen$68$link1 == optlength$link3 + 18446744073709551614ul)
+        return_value_strlen_68_link1=strlen("");
+        if(return_value_strlen_68_link1 == optlength_link3 + 18446744073709551614ul)
         {
-          return_value_strncmp$67=strncmp(optcurrent$link3 + (signed long int)2, "", optlength$link3 - (unsigned long int)2);
-          if(return_value_strncmp$67 == 0)
+          return_value_strncmp_67=strncmp(optcurrent_link3 + (signed long int)2, "", optlength_link3 - (unsigned long int)2);
+          if(return_value_strncmp_67 == 0)
           {
             switch(0)
             {
               case 0:
               {
-                if(!(optArg$link3 == ((char *)NULL)))
+                if(!(optArg_link3 == ((char *)NULL)))
                 {
-                  if((signed int)opttype$link3 == SHORT)
+                  if((signed int)opttype_link3 == SHORT)
                   {
-                    optcontrol$link3 = optcontrol$link3 + 1;
-                    optArg$link3 = (char *)(void *)0;
+                    optcontrol_link3 = optcontrol_link3 + 1;
+                    optArg_link3 = (char *)(void *)0;
                   }
 
                   else
-                    fatal("Option %.*s does not take an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                    fatal("Option %.*s does not take an argument\n", (signed int)optlength_link3, optcurrent_link3);
                 }
 
                 break;
               }
               case 2:
               {
-                if(optArg$link3 == ((char *)NULL) && 1 + optargind$link3 >= argc$link3)
-                  fatal("Option %.*s requires an argument\n", (signed int)optlength$link3, optcurrent$link3);
+                if(optArg_link3 == ((char *)NULL) && 1 + optargind_link3 >= argc_link3)
+                  fatal("Option %.*s requires an argument\n", (signed int)optlength_link3, optcurrent_link3);
 
-                if(optArg$link3 == ((char *)NULL))
+                if(optArg_link3 == ((char *)NULL))
                 {
-                  optargind$link3 = optargind$link3 + 1;
-                  optArg$link3 = argv$link3[(signed long int)optargind$link3];
+                  optargind_link3 = optargind_link3 + 1;
+                  optArg_link3 = argv_link3[(signed long int)optargind_link3];
                 }
 
               }
             }
             do
-              optnomore$link3 = 1;
+              optnomore_link3 = 1;
             while((_Bool)0);
             goto check_next;
           }
@@ -9497,7 +9497,7 @@ static void parse_options$link3(signed int argc$link3, char **argv$link3)
 
       }
 
-      fatal("Unknown option %.*s\n", (signed int)optlength$link3, optcurrent$link3);
+      fatal("Unknown option %.*s\n", (signed int)optlength_link3, optcurrent_link3);
     }
 
     else
@@ -9507,32 +9507,32 @@ static void parse_options$link3(signed int argc$link3, char **argv$link3)
         if(!(inputB == ((const char *)NULL)))
           fatal("More than two recordings specified\n");
 
-        inputB = optcurrent$link3;
+        inputB = optcurrent_link3;
       }
 
       else
-        inputA = optcurrent$link3;
+        inputA = optcurrent_link3;
 
     check_next:
       ;
-      if((signed int)optcontrol$link3 == 1 || (signed int)optcontrol$link3 == 3)
+      if((signed int)optcontrol_link3 == 1 || (signed int)optcontrol_link3 == 3)
       {
-        if((signed int)optcontrol$link3 == 1)
+        if((signed int)optcontrol_link3 == 1)
         {
-          optcurrent$link3 = optcurrent$link3;
-          optptr$link3 = optcurrent$link3;
+          optcurrent_link3 = optcurrent_link3;
+          optptr_link3 = optcurrent_link3;
         }
 
-        optcontrol$link3 = (char)2;
-        optcurrent$link3 = optcurrent$link3 + 1l;
-        optcurrent$link3[(signed long int)0] = (char)45;
-        optArg$link3 = (signed int)optcurrent$link3[(signed long int)2] != 0 ? optcurrent$link3 + (signed long int)2 : (char *)(void *)0;
+        optcontrol_link3 = (char)2;
+        optcurrent_link3 = optcurrent_link3 + 1l;
+        optcurrent_link3[(signed long int)0] = (char)45;
+        optArg_link3 = (signed int)optcurrent_link3[(signed long int)2] != 0 ? optcurrent_link3 + (signed long int)2 : (char *)(void *)0;
         goto next_opt;
       }
 
       else
-        if((signed int)optcontrol$link3 == 2)
-          (void)optptr$link3;
+        if((signed int)optcontrol_link3 == 2)
+          (void)optptr_link3;
 
     }
   }
@@ -9543,419 +9543,419 @@ stop_opt_parse:
     fatal("Two recordings should be specified\n");
 
   if(picture_series == ((const char *)NULL))
-    stop_on_difference = (enum anonymous$10)td_true;
+    stop_on_difference = (enum anonymous_10)td_true;
 
 }
 
-// parse_options$link4
+// parse_options_link4
 // file src/record.c line 53
-static void parse_options$link4(signed int argc$link4, char **argv$link4)
+static void parse_options_link4(signed int argc_link4, char **argv_link4)
 {
-  char *optArg$link4;
-  signed int optargind$link4;
-  signed int optnomore$link4 = 0;
-  optargind$link4 = 1;
-  _Bool tmp_if_expr$1$link4;
-  _Bool tmp_if_expr$2$link3;
-  _Bool tmp_if_expr$7$link3;
-  _Bool tmp_if_expr$4$link3;
-  unsigned long int return_value_strlen$3$link3;
-  _Bool tmp_if_expr$6$link3;
-  signed int return_value_strncmp$5$link3;
-  _Bool tmp_if_expr$8$link4;
-  _Bool tmp_if_expr$13$link4;
-  _Bool tmp_if_expr$10$link4;
-  unsigned long int return_value_strlen$9$link4;
-  _Bool tmp_if_expr$12$link4;
-  signed int return_value_strncmp$11$link4;
-  _Bool tmp_if_expr$14$link3;
-  _Bool tmp_if_expr$19$link4;
-  _Bool tmp_if_expr$16$link3;
-  unsigned long int return_value_strlen$15$link3;
-  _Bool tmp_if_expr$18$link3;
-  signed int return_value_strncmp$17$link3;
-  _Bool tmp_if_expr$20$link3;
-  _Bool tmp_if_expr$25$link3;
-  _Bool tmp_if_expr$22$link4;
-  unsigned long int return_value_strlen$21$link3;
-  _Bool tmp_if_expr$24$link3;
-  signed int return_value_strncmp$23$link3;
-  _Bool tmp_if_expr$26$link2;
-  _Bool tmp_if_expr$31$link3;
-  _Bool tmp_if_expr$28$link2;
-  unsigned long int return_value_strlen$27$link3;
-  _Bool tmp_if_expr$30$link2;
-  signed int return_value_strncmp$29$link2;
-  _Bool tmp_if_expr$32$link1;
-  _Bool tmp_if_expr$37$link2;
-  _Bool tmp_if_expr$34$link2;
-  unsigned long int return_value_strlen$33$link2;
-  _Bool tmp_if_expr$36$link1;
-  signed int return_value_strncmp$35$link1;
-  unsigned long int return_value_strlen$39;
-  signed int return_value_strncmp$38$link1;
-  for( ; !(optargind$link4 >= argc$link4); optargind$link4 = optargind$link4 + 1)
+  char *optArg_link4;
+  signed int optargind_link4;
+  signed int optnomore_link4 = 0;
+  optargind_link4 = 1;
+  _Bool tmp_if_expr_1_link4;
+  _Bool tmp_if_expr_2_link3;
+  _Bool tmp_if_expr_7_link3;
+  _Bool tmp_if_expr_4_link3;
+  unsigned long int return_value_strlen_3_link3;
+  _Bool tmp_if_expr_6_link3;
+  signed int return_value_strncmp_5_link3;
+  _Bool tmp_if_expr_8_link4;
+  _Bool tmp_if_expr_13_link4;
+  _Bool tmp_if_expr_10_link4;
+  unsigned long int return_value_strlen_9_link4;
+  _Bool tmp_if_expr_12_link4;
+  signed int return_value_strncmp_11_link4;
+  _Bool tmp_if_expr_14_link3;
+  _Bool tmp_if_expr_19_link4;
+  _Bool tmp_if_expr_16_link3;
+  unsigned long int return_value_strlen_15_link3;
+  _Bool tmp_if_expr_18_link3;
+  signed int return_value_strncmp_17_link3;
+  _Bool tmp_if_expr_20_link3;
+  _Bool tmp_if_expr_25_link3;
+  _Bool tmp_if_expr_22_link4;
+  unsigned long int return_value_strlen_21_link3;
+  _Bool tmp_if_expr_24_link3;
+  signed int return_value_strncmp_23_link3;
+  _Bool tmp_if_expr_26_link2;
+  _Bool tmp_if_expr_31_link3;
+  _Bool tmp_if_expr_28_link2;
+  unsigned long int return_value_strlen_27_link3;
+  _Bool tmp_if_expr_30_link2;
+  signed int return_value_strncmp_29_link2;
+  _Bool tmp_if_expr_32_link1;
+  _Bool tmp_if_expr_37_link2;
+  _Bool tmp_if_expr_34_link2;
+  unsigned long int return_value_strlen_33_link2;
+  _Bool tmp_if_expr_36_link1;
+  signed int return_value_strncmp_35_link1;
+  unsigned long int return_value_strlen_39;
+  signed int return_value_strncmp_38_link1;
+  for( ; !(optargind_link4 >= argc_link4); optargind_link4 = optargind_link4 + 1)
   {
-    char optcontrol$link4 = (char)0;
-    char *optcurrent$link4;
-    char *optptr$link4;
-    optcurrent$link4 = argv$link4[(signed long int)optargind$link4];
-    if(optnomore$link4 == 0 && (signed int)*optcurrent$link4 == 45)
+    char optcontrol_link4 = (char)0;
+    char *optcurrent_link4;
+    char *optptr_link4;
+    optcurrent_link4 = argv_link4[(signed long int)optargind_link4];
+    if(optnomore_link4 == 0 && (signed int)*optcurrent_link4 == 45)
     {
-      unsigned long int optlength$link4;
-      enum anonymous$9 opttype$link4;
-      if((signed int)optcurrent$link4[1l] == 45)
+      unsigned long int optlength_link4;
+      enum anonymous_9 opttype_link4;
+      if((signed int)optcurrent_link4[1l] == 45)
       {
-        optArg$link4=strchr(optcurrent$link4, 61);
-        if(optArg$link4 == ((char *)NULL))
-          optlength$link4=strlen(optcurrent$link4);
+        optArg_link4=strchr(optcurrent_link4, 61);
+        if(optArg_link4 == ((char *)NULL))
+          optlength_link4=strlen(optcurrent_link4);
 
         else
         {
-          optlength$link4 = (unsigned long int)(optArg$link4 - optcurrent$link4);
-          optArg$link4 = optArg$link4 + 1l;
+          optlength_link4 = (unsigned long int)(optArg_link4 - optcurrent_link4);
+          optArg_link4 = optArg_link4 + 1l;
         }
-        opttype$link4 = (enum anonymous$9)LONG;
+        opttype_link4 = (enum anonymous_9)LONG;
       }
 
       else
       {
-        optlength$link4 = (unsigned long int)2;
-        if(!((signed int)optcurrent$link4[1l] == 0))
-          tmp_if_expr$1$link4 = (signed int)optcurrent$link4[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+        optlength_link4 = (unsigned long int)2;
+        if(!((signed int)optcurrent_link4[1l] == 0))
+          tmp_if_expr_1_link4 = (signed int)optcurrent_link4[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1$link4 = (_Bool)0;
-        if(tmp_if_expr$1$link4)
-          optArg$link4 = optcurrent$link4 + (signed long int)2;
+          tmp_if_expr_1_link4 = (_Bool)0;
+        if(tmp_if_expr_1_link4)
+          optArg_link4 = optcurrent_link4 + (signed long int)2;
 
         else
-          optArg$link4 = (char *)(void *)0;
-        opttype$link4 = (enum anonymous$9)SHORT;
+          optArg_link4 = (char *)(void *)0;
+        opttype_link4 = (enum anonymous_9)SHORT;
       }
-      if(optlength$link4 >= 2147483648ul)
-        optlength$link4 = (unsigned long int)0x7fffffff;
+      if(optlength_link4 >= 2147483648ul)
+        optlength_link4 = (unsigned long int)0x7fffffff;
 
 
     next_opt:
       ;
-      if((signed int)opttype$link4 == SHORT)
-        tmp_if_expr$2$link3 = (signed int)optcurrent$link4[(signed long int)1] == 100 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link4 == SHORT)
+        tmp_if_expr_2_link3 = (signed int)optcurrent_link4[(signed long int)1] == 100 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2$link3 = (_Bool)0;
-      if(tmp_if_expr$2$link3)
-        tmp_if_expr$7$link3 = (_Bool)1;
+        tmp_if_expr_2_link3 = (_Bool)0;
+      if(tmp_if_expr_2_link3)
+        tmp_if_expr_7_link3 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link4 == LONG)
+        if((signed int)opttype_link4 == LONG)
         {
-          return_value_strlen$3$link3=strlen("directory");
-          tmp_if_expr$4$link3 = return_value_strlen$3$link3 == optlength$link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_3_link3=strlen("directory");
+          tmp_if_expr_4_link3 = return_value_strlen_3_link3 == optlength_link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4$link3 = (_Bool)0;
-        if(tmp_if_expr$4$link3)
+          tmp_if_expr_4_link3 = (_Bool)0;
+        if(tmp_if_expr_4_link3)
         {
-          return_value_strncmp$5$link3=strncmp(optcurrent$link4 + (signed long int)2, "directory", optlength$link4 - (unsigned long int)2);
-          tmp_if_expr$6$link3 = return_value_strncmp$5$link3 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_5_link3=strncmp(optcurrent_link4 + (signed long int)2, "directory", optlength_link4 - (unsigned long int)2);
+          tmp_if_expr_6_link3 = return_value_strncmp_5_link3 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6$link3 = (_Bool)0;
-        tmp_if_expr$7$link3 = tmp_if_expr$6$link3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6_link3 = (_Bool)0;
+        tmp_if_expr_7_link3 = tmp_if_expr_6_link3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7$link3)
+      if(tmp_if_expr_7_link3)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link4 == ((char *)NULL)))
+            if(!(optArg_link4 == ((char *)NULL)))
             {
-              if((signed int)opttype$link4 == SHORT)
+              if((signed int)opttype_link4 == SHORT)
               {
-                optcontrol$link4 = optcontrol$link4 + 1;
-                optArg$link4 = (char *)(void *)0;
+                optcontrol_link4 = optcontrol_link4 + 1;
+                optArg_link4 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link4, optcurrent$link4);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link4, optcurrent_link4);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link4 == ((char *)NULL) && 1 + optargind$link4 >= argc$link4)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link4, optcurrent$link4);
+            if(optArg_link4 == ((char *)NULL) && 1 + optargind_link4 >= argc_link4)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link4, optcurrent_link4);
 
-            if(optArg$link4 == ((char *)NULL))
+            if(optArg_link4 == ((char *)NULL))
             {
-              optargind$link4 = optargind$link4 + 1;
-              optArg$link4 = argv$link4[(signed long int)optargind$link4];
+              optargind_link4 = optargind_link4 + 1;
+              optArg_link4 = argv_link4[(signed long int)optargind_link4];
             }
 
           }
         }
-        directory$link1 = optArg$link4;
+        directory_link1 = optArg_link4;
         goto check_next;
       }
 
-      if((signed int)opttype$link4 == SHORT)
-        tmp_if_expr$8$link4 = (signed int)optcurrent$link4[(signed long int)1] == 101 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link4 == SHORT)
+        tmp_if_expr_8_link4 = (signed int)optcurrent_link4[(signed long int)1] == 101 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8$link4 = (_Bool)0;
-      if(tmp_if_expr$8$link4)
-        tmp_if_expr$13$link4 = (_Bool)1;
+        tmp_if_expr_8_link4 = (_Bool)0;
+      if(tmp_if_expr_8_link4)
+        tmp_if_expr_13_link4 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link4 == LONG)
+        if((signed int)opttype_link4 == LONG)
         {
-          return_value_strlen$9$link4=strlen("environment");
-          tmp_if_expr$10$link4 = return_value_strlen$9$link4 == optlength$link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_9_link4=strlen("environment");
+          tmp_if_expr_10_link4 = return_value_strlen_9_link4 == optlength_link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$10$link4 = (_Bool)0;
-        if(tmp_if_expr$10$link4)
+          tmp_if_expr_10_link4 = (_Bool)0;
+        if(tmp_if_expr_10_link4)
         {
-          return_value_strncmp$11$link4=strncmp(optcurrent$link4 + (signed long int)2, "environment", optlength$link4 - (unsigned long int)2);
-          tmp_if_expr$12$link4 = return_value_strncmp$11$link4 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_11_link4=strncmp(optcurrent_link4 + (signed long int)2, "environment", optlength_link4 - (unsigned long int)2);
+          tmp_if_expr_12_link4 = return_value_strncmp_11_link4 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12$link4 = (_Bool)0;
-        tmp_if_expr$13$link4 = tmp_if_expr$12$link4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_12_link4 = (_Bool)0;
+        tmp_if_expr_13_link4 = tmp_if_expr_12_link4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13$link4)
+      if(tmp_if_expr_13_link4)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link4 == ((char *)NULL)))
+            if(!(optArg_link4 == ((char *)NULL)))
             {
-              if((signed int)opttype$link4 == SHORT)
+              if((signed int)opttype_link4 == SHORT)
               {
-                optcontrol$link4 = optcontrol$link4 + 1;
-                optArg$link4 = (char *)(void *)0;
+                optcontrol_link4 = optcontrol_link4 + 1;
+                optArg_link4 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link4, optcurrent$link4);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link4, optcurrent_link4);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link4 == ((char *)NULL) && 1 + optargind$link4 >= argc$link4)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link4, optcurrent$link4);
+            if(optArg_link4 == ((char *)NULL) && 1 + optargind_link4 >= argc_link4)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link4, optcurrent_link4);
 
-            if(optArg$link4 == ((char *)NULL))
+            if(optArg_link4 == ((char *)NULL))
             {
-              optargind$link4 = optargind$link4 + 1;
-              optArg$link4 = argv$link4[(signed long int)optargind$link4];
+              optargind_link4 = optargind_link4 + 1;
+              optArg_link4 = argv_link4[(signed long int)optargind_link4];
             }
 
           }
         }
-        environment = optArg$link4;
+        environment = optArg_link4;
         goto check_next;
       }
 
-      if((signed int)opttype$link4 == SHORT)
-        tmp_if_expr$14$link3 = (signed int)optcurrent$link4[(signed long int)1] == 111 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link4 == SHORT)
+        tmp_if_expr_14_link3 = (signed int)optcurrent_link4[(signed long int)1] == 111 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$14$link3 = (_Bool)0;
-      if(tmp_if_expr$14$link3)
-        tmp_if_expr$19$link4 = (_Bool)1;
+        tmp_if_expr_14_link3 = (_Bool)0;
+      if(tmp_if_expr_14_link3)
+        tmp_if_expr_19_link4 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link4 == LONG)
+        if((signed int)opttype_link4 == LONG)
         {
-          return_value_strlen$15$link3=strlen("output");
-          tmp_if_expr$16$link3 = return_value_strlen$15$link3 == optlength$link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_15_link3=strlen("output");
+          tmp_if_expr_16_link3 = return_value_strlen_15_link3 == optlength_link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$16$link3 = (_Bool)0;
-        if(tmp_if_expr$16$link3)
+          tmp_if_expr_16_link3 = (_Bool)0;
+        if(tmp_if_expr_16_link3)
         {
-          return_value_strncmp$17$link3=strncmp(optcurrent$link4 + (signed long int)2, "output", optlength$link4 - (unsigned long int)2);
-          tmp_if_expr$18$link3 = return_value_strncmp$17$link3 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_17_link3=strncmp(optcurrent_link4 + (signed long int)2, "output", optlength_link4 - (unsigned long int)2);
+          tmp_if_expr_18_link3 = return_value_strncmp_17_link3 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$18$link3 = (_Bool)0;
-        tmp_if_expr$19$link4 = tmp_if_expr$18$link3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_18_link3 = (_Bool)0;
+        tmp_if_expr_19_link4 = tmp_if_expr_18_link3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$19$link4)
+      if(tmp_if_expr_19_link4)
       {
         switch(2)
         {
           case 0:
           {
-            if(!(optArg$link4 == ((char *)NULL)))
+            if(!(optArg_link4 == ((char *)NULL)))
             {
-              if((signed int)opttype$link4 == SHORT)
+              if((signed int)opttype_link4 == SHORT)
               {
-                optcontrol$link4 = optcontrol$link4 + 1;
-                optArg$link4 = (char *)(void *)0;
+                optcontrol_link4 = optcontrol_link4 + 1;
+                optArg_link4 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link4, optcurrent$link4);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link4, optcurrent_link4);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link4 == ((char *)NULL) && 1 + optargind$link4 >= argc$link4)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link4, optcurrent$link4);
+            if(optArg_link4 == ((char *)NULL) && 1 + optargind_link4 >= argc_link4)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link4, optcurrent_link4);
 
-            if(optArg$link4 == ((char *)NULL))
+            if(optArg_link4 == ((char *)NULL))
             {
-              optargind$link4 = optargind$link4 + 1;
-              optArg$link4 = argv$link4[(signed long int)optargind$link4];
+              optargind_link4 = optargind_link4 + 1;
+              optArg_link4 = argv_link4[(signed long int)optargind_link4];
             }
 
           }
         }
-        output$link1 = optArg$link4;
+        output_link1 = optArg_link4;
         goto check_next;
       }
 
-      if((signed int)opttype$link4 == SHORT)
-        tmp_if_expr$20$link3 = (signed int)optcurrent$link4[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link4 == SHORT)
+        tmp_if_expr_20_link3 = (signed int)optcurrent_link4[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$20$link3 = (_Bool)0;
-      if(tmp_if_expr$20$link3)
-        tmp_if_expr$25$link3 = (_Bool)1;
+        tmp_if_expr_20_link3 = (_Bool)0;
+      if(tmp_if_expr_20_link3)
+        tmp_if_expr_25_link3 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link4 == LONG)
+        if((signed int)opttype_link4 == LONG)
         {
-          return_value_strlen$21$link3=strlen("help");
-          tmp_if_expr$22$link4 = return_value_strlen$21$link3 == optlength$link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_21_link3=strlen("help");
+          tmp_if_expr_22_link4 = return_value_strlen_21_link3 == optlength_link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$22$link4 = (_Bool)0;
-        if(tmp_if_expr$22$link4)
+          tmp_if_expr_22_link4 = (_Bool)0;
+        if(tmp_if_expr_22_link4)
         {
-          return_value_strncmp$23$link3=strncmp(optcurrent$link4 + (signed long int)2, "help", optlength$link4 - (unsigned long int)2);
-          tmp_if_expr$24$link3 = return_value_strncmp$23$link3 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_23_link3=strncmp(optcurrent_link4 + (signed long int)2, "help", optlength_link4 - (unsigned long int)2);
+          tmp_if_expr_24_link3 = return_value_strncmp_23_link3 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$24$link3 = (_Bool)0;
-        tmp_if_expr$25$link3 = tmp_if_expr$24$link3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_24_link3 = (_Bool)0;
+        tmp_if_expr_25_link3 = tmp_if_expr_24_link3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$25$link3)
+      if(tmp_if_expr_25_link3)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link4 == ((char *)NULL)))
+            if(!(optArg_link4 == ((char *)NULL)))
             {
-              if((signed int)opttype$link4 == SHORT)
+              if((signed int)opttype_link4 == SHORT)
               {
-                optcontrol$link4 = optcontrol$link4 + 1;
-                optArg$link4 = (char *)(void *)0;
+                optcontrol_link4 = optcontrol_link4 + 1;
+                optArg_link4 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link4, optcurrent$link4);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link4, optcurrent_link4);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link4 == ((char *)NULL) && 1 + optargind$link4 >= argc$link4)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link4, optcurrent$link4);
+            if(optArg_link4 == ((char *)NULL) && 1 + optargind_link4 >= argc_link4)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link4, optcurrent_link4);
 
-            if(optArg$link4 == ((char *)NULL))
+            if(optArg_link4 == ((char *)NULL))
             {
-              optargind$link4 = optargind$link4 + 1;
-              optArg$link4 = argv$link4[(signed long int)optargind$link4];
+              optargind_link4 = optargind_link4 + 1;
+              optArg_link4 = argv_link4[(signed long int)optargind_link4];
             }
 
           }
         }
-        printUsage$link4();
+        printUsage_link4();
         goto check_next;
       }
 
-      if((signed int)opttype$link4 == SHORT)
-        tmp_if_expr$26$link2 = (signed int)optcurrent$link4[(signed long int)1] == 86 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link4 == SHORT)
+        tmp_if_expr_26_link2 = (signed int)optcurrent_link4[(signed long int)1] == 86 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$26$link2 = (_Bool)0;
-      if(tmp_if_expr$26$link2)
-        tmp_if_expr$31$link3 = (_Bool)1;
+        tmp_if_expr_26_link2 = (_Bool)0;
+      if(tmp_if_expr_26_link2)
+        tmp_if_expr_31_link3 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link4 == LONG)
+        if((signed int)opttype_link4 == LONG)
         {
-          return_value_strlen$27$link3=strlen("version");
-          tmp_if_expr$28$link2 = return_value_strlen$27$link3 == optlength$link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_27_link3=strlen("version");
+          tmp_if_expr_28_link2 = return_value_strlen_27_link3 == optlength_link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$28$link2 = (_Bool)0;
-        if(tmp_if_expr$28$link2)
+          tmp_if_expr_28_link2 = (_Bool)0;
+        if(tmp_if_expr_28_link2)
         {
-          return_value_strncmp$29$link2=strncmp(optcurrent$link4 + (signed long int)2, "version", optlength$link4 - (unsigned long int)2);
-          tmp_if_expr$30$link2 = return_value_strncmp$29$link2 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_29_link2=strncmp(optcurrent_link4 + (signed long int)2, "version", optlength_link4 - (unsigned long int)2);
+          tmp_if_expr_30_link2 = return_value_strncmp_29_link2 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$30$link2 = (_Bool)0;
-        tmp_if_expr$31$link3 = tmp_if_expr$30$link2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_30_link2 = (_Bool)0;
+        tmp_if_expr_31_link3 = tmp_if_expr_30_link2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$31$link3)
+      if(tmp_if_expr_31_link3)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link4 == ((char *)NULL)))
+            if(!(optArg_link4 == ((char *)NULL)))
             {
-              if((signed int)opttype$link4 == SHORT)
+              if((signed int)opttype_link4 == SHORT)
               {
-                optcontrol$link4 = optcontrol$link4 + 1;
-                optArg$link4 = (char *)(void *)0;
+                optcontrol_link4 = optcontrol_link4 + 1;
+                optArg_link4 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link4, optcurrent$link4);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link4, optcurrent_link4);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link4 == ((char *)NULL) && 1 + optargind$link4 >= argc$link4)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link4, optcurrent$link4);
+            if(optArg_link4 == ((char *)NULL) && 1 + optargind_link4 >= argc_link4)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link4, optcurrent_link4);
 
-            if(optArg$link4 == ((char *)NULL))
+            if(optArg_link4 == ((char *)NULL))
             {
-              optargind$link4 = optargind$link4 + 1;
-              optArg$link4 = argv$link4[(signed long int)optargind$link4];
+              optargind_link4 = optargind_link4 + 1;
+              optArg_link4 = argv_link4[(signed long int)optargind_link4];
             }
 
           }
@@ -9965,63 +9965,63 @@ static void parse_options$link4(signed int argc$link4, char **argv$link4)
         goto check_next;
       }
 
-      if((signed int)opttype$link4 == SHORT)
-        tmp_if_expr$32$link1 = (signed int)optcurrent$link4[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
+      if((signed int)opttype_link4 == SHORT)
+        tmp_if_expr_32_link1 = (signed int)optcurrent_link4[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$32$link1 = (_Bool)0;
-      if(tmp_if_expr$32$link1)
-        tmp_if_expr$37$link2 = (_Bool)1;
+        tmp_if_expr_32_link1 = (_Bool)0;
+      if(tmp_if_expr_32_link1)
+        tmp_if_expr_37_link2 = (_Bool)1;
 
       else
       {
-        if((signed int)opttype$link4 == LONG)
+        if((signed int)opttype_link4 == LONG)
         {
-          return_value_strlen$33$link2=strlen("allow-x11");
-          tmp_if_expr$34$link2 = return_value_strlen$33$link2 == optlength$link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_33_link2=strlen("allow-x11");
+          tmp_if_expr_34_link2 = return_value_strlen_33_link2 == optlength_link4 - (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$34$link2 = (_Bool)0;
-        if(tmp_if_expr$34$link2)
+          tmp_if_expr_34_link2 = (_Bool)0;
+        if(tmp_if_expr_34_link2)
         {
-          return_value_strncmp$35$link1=strncmp(optcurrent$link4 + (signed long int)2, "allow-x11", optlength$link4 - (unsigned long int)2);
-          tmp_if_expr$36$link1 = return_value_strncmp$35$link1 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_35_link1=strncmp(optcurrent_link4 + (signed long int)2, "allow-x11", optlength_link4 - (unsigned long int)2);
+          tmp_if_expr_36_link1 = return_value_strncmp_35_link1 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$36$link1 = (_Bool)0;
-        tmp_if_expr$37$link2 = tmp_if_expr$36$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_36_link1 = (_Bool)0;
+        tmp_if_expr_37_link2 = tmp_if_expr_36_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$37$link2)
+      if(tmp_if_expr_37_link2)
       {
         switch(0)
         {
           case 0:
           {
-            if(!(optArg$link4 == ((char *)NULL)))
+            if(!(optArg_link4 == ((char *)NULL)))
             {
-              if((signed int)opttype$link4 == SHORT)
+              if((signed int)opttype_link4 == SHORT)
               {
-                optcontrol$link4 = optcontrol$link4 + 1;
-                optArg$link4 = (char *)(void *)0;
+                optcontrol_link4 = optcontrol_link4 + 1;
+                optArg_link4 = (char *)(void *)0;
               }
 
               else
-                fatal("Option %.*s does not take an argument\n", (signed int)optlength$link4, optcurrent$link4);
+                fatal("Option %.*s does not take an argument\n", (signed int)optlength_link4, optcurrent_link4);
             }
 
             break;
           }
           case 2:
           {
-            if(optArg$link4 == ((char *)NULL) && 1 + optargind$link4 >= argc$link4)
-              fatal("Option %.*s requires an argument\n", (signed int)optlength$link4, optcurrent$link4);
+            if(optArg_link4 == ((char *)NULL) && 1 + optargind_link4 >= argc_link4)
+              fatal("Option %.*s requires an argument\n", (signed int)optlength_link4, optcurrent_link4);
 
-            if(optArg$link4 == ((char *)NULL))
+            if(optArg_link4 == ((char *)NULL))
             {
-              optargind$link4 = optargind$link4 + 1;
-              optArg$link4 = argv$link4[(signed long int)optargind$link4];
+              optargind_link4 = optargind_link4 + 1;
+              optArg_link4 = argv_link4[(signed long int)optargind_link4];
             }
 
           }
@@ -10030,47 +10030,47 @@ static void parse_options$link4(signed int argc$link4, char **argv$link4)
         goto check_next;
       }
 
-      if((signed int)opttype$link4 == LONG)
+      if((signed int)opttype_link4 == LONG)
       {
-        return_value_strlen$39=strlen("");
-        if(return_value_strlen$39 == optlength$link4 + 18446744073709551614ul)
+        return_value_strlen_39=strlen("");
+        if(return_value_strlen_39 == optlength_link4 + 18446744073709551614ul)
         {
-          return_value_strncmp$38$link1=strncmp(optcurrent$link4 + (signed long int)2, "", optlength$link4 - (unsigned long int)2);
-          if(return_value_strncmp$38$link1 == 0)
+          return_value_strncmp_38_link1=strncmp(optcurrent_link4 + (signed long int)2, "", optlength_link4 - (unsigned long int)2);
+          if(return_value_strncmp_38_link1 == 0)
           {
             switch(0)
             {
               case 0:
               {
-                if(!(optArg$link4 == ((char *)NULL)))
+                if(!(optArg_link4 == ((char *)NULL)))
                 {
-                  if((signed int)opttype$link4 == SHORT)
+                  if((signed int)opttype_link4 == SHORT)
                   {
-                    optcontrol$link4 = optcontrol$link4 + 1;
-                    optArg$link4 = (char *)(void *)0;
+                    optcontrol_link4 = optcontrol_link4 + 1;
+                    optArg_link4 = (char *)(void *)0;
                   }
 
                   else
-                    fatal("Option %.*s does not take an argument\n", (signed int)optlength$link4, optcurrent$link4);
+                    fatal("Option %.*s does not take an argument\n", (signed int)optlength_link4, optcurrent_link4);
                 }
 
                 break;
               }
               case 2:
               {
-                if(optArg$link4 == ((char *)NULL) && 1 + optargind$link4 >= argc$link4)
-                  fatal("Option %.*s requires an argument\n", (signed int)optlength$link4, optcurrent$link4);
+                if(optArg_link4 == ((char *)NULL) && 1 + optargind_link4 >= argc_link4)
+                  fatal("Option %.*s requires an argument\n", (signed int)optlength_link4, optcurrent_link4);
 
-                if(optArg$link4 == ((char *)NULL))
+                if(optArg_link4 == ((char *)NULL))
                 {
-                  optargind$link4 = optargind$link4 + 1;
-                  optArg$link4 = argv$link4[(signed long int)optargind$link4];
+                  optargind_link4 = optargind_link4 + 1;
+                  optArg_link4 = argv_link4[(signed long int)optargind_link4];
                 }
 
               }
             }
             do
-              optnomore$link4 = 1;
+              optnomore_link4 = 1;
             while((_Bool)0);
             goto check_next;
           }
@@ -10079,38 +10079,38 @@ static void parse_options$link4(signed int argc$link4, char **argv$link4)
 
       }
 
-      fatal("Unknown option %.*s\n", (signed int)optlength$link4, optcurrent$link4);
+      fatal("Unknown option %.*s\n", (signed int)optlength_link4, optcurrent_link4);
     }
 
     else
     {
       do
-        optnomore$link4 = 1;
+        optnomore_link4 = 1;
       while((_Bool)0);
       if(!(prog_start_index >= 0))
-        prog_start_index = optargind$link4;
+        prog_start_index = optargind_link4;
 
 
     check_next:
       ;
-      if((signed int)optcontrol$link4 == 1 || (signed int)optcontrol$link4 == 3)
+      if((signed int)optcontrol_link4 == 1 || (signed int)optcontrol_link4 == 3)
       {
-        if((signed int)optcontrol$link4 == 1)
+        if((signed int)optcontrol_link4 == 1)
         {
-          optcurrent$link4 = optcurrent$link4;
-          optptr$link4 = optcurrent$link4;
+          optcurrent_link4 = optcurrent_link4;
+          optptr_link4 = optcurrent_link4;
         }
 
-        optcontrol$link4 = (char)2;
-        optcurrent$link4 = optcurrent$link4 + 1l;
-        optcurrent$link4[(signed long int)0] = (char)45;
-        optArg$link4 = (signed int)optcurrent$link4[(signed long int)2] != 0 ? optcurrent$link4 + (signed long int)2 : (char *)(void *)0;
+        optcontrol_link4 = (char)2;
+        optcurrent_link4 = optcurrent_link4 + 1l;
+        optcurrent_link4[(signed long int)0] = (char)45;
+        optArg_link4 = (signed int)optcurrent_link4[(signed long int)2] != 0 ? optcurrent_link4 + (signed long int)2 : (char *)(void *)0;
         goto next_opt;
       }
 
       else
-        if((signed int)optcontrol$link4 == 2)
-          (void)optptr$link4;
+        if((signed int)optcontrol_link4 == 2)
+          (void)optptr_link4;
 
     }
   }
@@ -10121,7 +10121,7 @@ stop_opt_parse:
 
 // parse_output_buffer
 // file src/write_stringlist.c line 421
-static void parse_output_buffer(struct anonymous$12 *win)
+static void parse_output_buffer(struct anonymous_12 *win)
 {
   signed int i;
   signed int j;
@@ -10129,19 +10129,19 @@ static void parse_output_buffer(struct anonymous$12 *win)
   signed int handled;
   start_normal = 0;
   i = 0;
-  signed int return_value_win_get_paint_y$1;
-  signed int return_value_win_get_paint_x$2;
-  signed int return_value_win_get_paint_y$5;
-  signed int return_value_win_get_height$6;
-  signed int return_value_win_get_paint_y$3;
-  signed int return_value_win_get_paint_x$4;
+  signed int return_value_win_get_paint_y_1;
+  signed int return_value_win_get_paint_x_2;
+  signed int return_value_win_get_paint_y_5;
+  signed int return_value_win_get_height_6;
+  signed int return_value_win_get_paint_y_3;
+  signed int return_value_win_get_paint_x_4;
   for( ; !(i >= win->output_buffer.length); i = i + 1)
     if(!((signed int)win->output_buffer.data[(signed long int)i] >= 32))
     {
       if((signed int)win->output_buffer.data[(signed long int)i] >= 0)
       {
         if(!(i == start_normal))
-          write_text(win, start_normal, i, (enum anonymous$10)td_true);
+          write_text(win, start_normal, i, (enum anonymous_10)td_true);
 
         if((signed int)win->output_buffer.data[(signed long int)i] == 27)
         {
@@ -10179,34 +10179,34 @@ static void parse_output_buffer(struct anonymous$12 *win)
             {
               case 8:
               {
-                return_value_win_get_paint_y$1=win_get_paint_y(win);
-                return_value_win_get_paint_x$2=win_get_paint_x(win);
-                win_set_paint(win, return_value_win_get_paint_y$1, return_value_win_get_paint_x$2 - 1);
+                return_value_win_get_paint_y_1=win_get_paint_y(win);
+                return_value_win_get_paint_x_2=win_get_paint_x(win);
+                win_set_paint(win, return_value_win_get_paint_y_1, return_value_win_get_paint_x_2 - 1);
                 break;
               }
               case 9:
               {
-                do_action(win, (enum anonymous$16)ACTION_TAB, 0);
+                do_action(win, (enum anonymous_16)ACTION_TAB, 0);
                 break;
               }
               case 10:
               {
-                return_value_win_get_paint_y$5=win_get_paint_y(win);
-                return_value_win_get_height$6=win_get_height(win);
-                if(return_value_win_get_paint_y$5 == return_value_win_get_height$6 + -1)
+                return_value_win_get_paint_y_5=win_get_paint_y(win);
+                return_value_win_get_height_6=win_get_height(win);
+                if(return_value_win_get_paint_y_5 == return_value_win_get_height_6 + -1)
                   win_scroll(win);
 
                 else
                 {
-                  return_value_win_get_paint_y$3=win_get_paint_y(win);
-                  return_value_win_get_paint_x$4=win_get_paint_x(win);
-                  win_set_paint(win, return_value_win_get_paint_y$3 + 1, return_value_win_get_paint_x$4);
+                  return_value_win_get_paint_y_3=win_get_paint_y(win);
+                  return_value_win_get_paint_x_4=win_get_paint_x(win);
+                  win_set_paint(win, return_value_win_get_paint_y_3 + 1, return_value_win_get_paint_x_4);
                 }
                 break;
               }
               case 13:
               {
-                do_action(win, (enum anonymous$16)ACTION_CR, 0);
+                do_action(win, (enum anonymous_16)ACTION_CR, 0);
                 break;
               }
               default:
@@ -10222,7 +10222,7 @@ static void parse_output_buffer(struct anonymous$12 *win)
   if(!(start_normal == i))
   {
     signed int to_save;
-    to_save=write_text(win, start_normal, win->output_buffer.length, (enum anonymous$10)td_false);
+    to_save=write_text(win, start_normal, win->output_buffer.length, (enum anonymous_10)td_false);
     memmove((void *)win->output_buffer.data, (const void *)((win->output_buffer.data + (signed long int)win->output_buffer.length) - (signed long int)to_save), (unsigned long int)to_save);
     win->output_buffer.length = to_save;
   }
@@ -10290,9 +10290,9 @@ static void printUsage(void)
   exit(0);
 }
 
-// printUsage$link1
+// printUsage_link1
 // file src/view.c line 41
-static void printUsage$link1(void)
+static void printUsage_link1(void)
 {
   printf("Usage: tdview [OPTIONS] <recording>\n");
   printf("  -k<delay>, --key-delay=<delay>      Set key delay\n");
@@ -10300,9 +10300,9 @@ static void printUsage$link1(void)
   exit(0);
 }
 
-// printUsage$link2
+// printUsage_link2
 // file src/rerecord.c line 39
-static void printUsage$link2(void)
+static void printUsage_link2(void)
 {
   printf("Usage: tdrerecord [OPTIONS] <recording>\n");
   printf("  -d<dir>,--directory=<dir>           Save recording in directory <dir>\n");
@@ -10312,9 +10312,9 @@ static void printUsage$link2(void)
   exit(0);
 }
 
-// printUsage$link3
+// printUsage_link3
 // file src/compare.c line 46
-static void printUsage$link3(void)
+static void printUsage_link3(void)
 {
   printf("Usage: tdcompare [OPTIONS] <recording A> <recording B>\n");
   printf("  -v, --visual-compare                Check for visual equality\n");
@@ -10329,9 +10329,9 @@ static void printUsage$link3(void)
   exit(0);
 }
 
-// printUsage$link4
+// printUsage_link4
 // file src/record.c line 41
-static void printUsage$link4(void)
+static void printUsage_link4(void)
 {
   printf("Usage: tdrecord [OPTIONS] <client> [<client options>]\n");
   printf("  -d<dir>,--directory=<dir>      Save recording in directory <dir>\n");
@@ -10358,16 +10358,16 @@ void reset_lexer(const char *new_file_name)
   if(!(yyin == ((struct _IO_FILE *)NULL)))
     fclose(yyin);
 
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(new_file_name == ((const char *)NULL)))
   {
     yyin=fopen(new_file_name, "r");
     if(yyin == ((struct _IO_FILE *)NULL))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fatal("Can't open input %s: %s\n", new_file_name, return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fatal("Can't open input %s: %s\n", new_file_name, return_value_strerror_2);
     }
 
     file_name = new_file_name;
@@ -10381,7 +10381,7 @@ void reset_lexer(const char *new_file_name)
 void reset_tty(void)
 {
   tcsetattr(0, 2, &saved);
-  set_non_block(0, "terminal", (enum anonymous$10)td_false);
+  set_non_block(0, "terminal", (enum anonymous_10)td_false);
 }
 
 // safe_calloc
@@ -10401,30 +10401,30 @@ void * safe_calloc(unsigned long int size)
 signed long int safe_read(signed int fd, char *buffer, unsigned long int size)
 {
   unsigned long int todo = size;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   while(!(todo == 0ul))
   {
     signed long int result;
     result=read(fd, (void *)buffer, todo);
     if(!(result >= 0l))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 4)
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 4)
         continue;
 
       else
       {
-        return_value___errno_location$1=__errno_location();
-        if(*return_value___errno_location$1 == 11)
+        return_value___errno_location_1=__errno_location();
+        if(*return_value___errno_location_1 == 11)
           return (signed long int)(size - todo);
 
       }
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      fatal("Error reading data: %s\n", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      fatal("Error reading data: %s\n", return_value_strerror_4);
     }
 
     buffer = buffer + result;
@@ -10454,32 +10454,32 @@ char * safe_strdup_remove_quotes(const char *string)
 // file src/common.c line 72
 void safe_write(signed int fd, const void *buffer, unsigned long int size)
 {
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   while(!(size == 0ul))
   {
     signed long int result;
     result=write(fd, buffer, size);
     if(!(result >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
-        tmp_if_expr$3 = (_Bool)1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         continue;
 
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      fatal("Error writing data: %s\n", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      fatal("Error writing data: %s\n", return_value_strerror_5);
     }
 
     buffer = buffer + result;
@@ -10493,9 +10493,9 @@ void sanitize_term(void)
 {
   char *tistr;
   signed int errret;
-  signed int return_value_setupterm$1;
-  return_value_setupterm$1=setupterm((const char *)(void *)0, 1, &errret);
-  if(!(return_value_setupterm$1 == -1))
+  signed int return_value_setupterm_1;
+  return_value_setupterm_1=setupterm((const char *)(void *)0, 1, &errret);
+  if(!(return_value_setupterm_1 == -1))
   {
     tistr=get_ti_string("rmcup");
     if(!(tistr == ((char *)NULL)))
@@ -10521,11 +10521,11 @@ static void save_env(const char *var)
   value=getenv(var);
   if(!(value == ((const char *)NULL)))
   {
-    fprintf(output_file$link1, "env \"%s\" ", var);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(value);
-    write_escaped_string(output_file$link1, value, return_value_strlen$1);
-    fputc(10, output_file$link1);
+    fprintf(output_file_link1, "env \"%s\" ", var);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(value);
+    write_escaped_string(output_file_link1, value, return_value_strlen_1);
+    fputc(10, output_file_link1);
   }
 
 }
@@ -10534,15 +10534,15 @@ static void save_env(const char *var)
 // file src/common.c line 224
 void save_tty(void)
 {
-  signed int return_value_tcgetattr$3;
-  return_value_tcgetattr$3=tcgetattr(0, &saved);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(!(return_value_tcgetattr$3 >= 0))
+  signed int return_value_tcgetattr_3;
+  return_value_tcgetattr_3=tcgetattr(0, &saved);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(!(return_value_tcgetattr_3 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("Could not get terminal settings: %s\n", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("Could not get terminal settings: %s\n", return_value_strerror_2);
   }
 
   atexit(reset_tty);
@@ -10554,8 +10554,8 @@ static void send_keys(struct ExpNode *keys)
 {
   struct StringListNode *current = keys->un.args;
   signed long int result;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   while(!(current == ((struct StringListNode *)NULL)))
   {
     signed int delay;
@@ -10587,18 +10587,18 @@ static void send_keys(struct ExpNode *keys)
       delay = current->min_delay - already_waited;
 
     already_waited = 0;
-    signed int return_value_poll$1;
-    return_value_poll$1=poll(fdset, (unsigned long int)2, delay);
-    result = (signed long int)return_value_poll$1;
+    signed int return_value_poll_1;
+    return_value_poll_1=poll(fdset, (unsigned long int)2, delay);
+    result = (signed long int)return_value_poll_1;
     if(result == -1l)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 4))
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 4))
       {
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fatal("Error during poll: %s\n", return_value_strerror$3);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fatal("Error during poll: %s\n", return_value_strerror_3);
       }
 
     }
@@ -10625,27 +10625,27 @@ static void send_keys(struct ExpNode *keys)
   }
 }
 
-// send_keys$link1
+// send_keys_link1
 // file src/rerecord.c line 113
-static void send_keys$link1(struct ExpNode *keys$link1)
+static void send_keys_link1(struct ExpNode *keys_link1)
 {
-  struct StringListNode *current$link1 = keys$link1->un.args;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  for( ; !(current$link1 == ((struct StringListNode *)NULL)); current$link1 = current$link1->next)
+  struct StringListNode *current_link1 = keys_link1->un.args;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  for( ; !(current_link1 == ((struct StringListNode *)NULL)); current_link1 = current_link1->next)
   {
-    if(current$link1->delay >= 5)
+    if(current_link1->delay >= 5)
     {
-      signed int send_keys$$1$$1$$1$$1$$status;
-      send_keys$$1$$1$$1$$1$$status=interact_loop(master$link1, pid$link1, output_file, current$link1->delay);
-      if(!(send_keys$$1$$1$$1$$1$$status == -1))
+      signed int send_keys__1__1__1__1__status;
+      send_keys__1__1__1__1__status=interact_loop(master_link1, pid_link1, output_file, current_link1->delay);
+      if(!(send_keys__1__1__1__1__status == -1))
       {
         fclose(output_file);
         reset_tty();
         fprintf(stderr, "-- recording is saved in %s --\n", output);
         /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$8
+union anonymous_8
 {
   // __in
   signed int __in;
@@ -10655,7 +10655,7 @@ union anonymous$8
 
 /* */
         ;
-        exit((((union anonymous$8){ .__in=send_keys$$1$$1$$1$$1$$status }).__i & 0xff00) >> 8);
+        exit((((union anonymous_8){ .__in=send_keys__1__1__1__1__status }).__i & 0xff00) >> 8);
       }
 
     }
@@ -10665,45 +10665,45 @@ union anonymous$8
       signed int i;
       signed int j;
       i = 0;
-      for( ; !(i >= current$link1->length); i = i + 1)
-        if((signed int)current$link1->string[(signed long int)i] == 27)
+      for( ; !(i >= current_link1->length); i = i + 1)
+        if((signed int)current_link1->string[(signed long int)i] == 27)
         {
-          if(!(1 + i >= current$link1->length))
+          if(!(1 + i >= current_link1->length))
           {
-            if((signed int)current$link1->string[(signed long int)(1 + i)] == 91)
+            if((signed int)current_link1->string[(signed long int)(1 + i)] == 91)
             {
               j = i + 2;
               do
               {
-                if(!(j >= current$link1->length))
+                if(!(j >= current_link1->length))
                 {
-                  if((signed int)current$link1->string[(signed long int)j] >= 48)
-                    tmp_if_expr$1 = (signed int)current$link1->string[(signed long int)j] <= 57 ? (_Bool)1 : (_Bool)0;
+                  if((signed int)current_link1->string[(signed long int)j] >= 48)
+                    tmp_if_expr_1 = (signed int)current_link1->string[(signed long int)j] <= 57 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$1 = (_Bool)0;
-                  if(tmp_if_expr$1)
-                    tmp_if_expr$2 = (_Bool)1;
+                    tmp_if_expr_1 = (_Bool)0;
+                  if(tmp_if_expr_1)
+                    tmp_if_expr_2 = (_Bool)1;
 
                   else
-                    tmp_if_expr$2 = (signed int)current$link1->string[(signed long int)j] == 59 ? (_Bool)1 : (_Bool)0;
-                  tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_2 = (signed int)current_link1->string[(signed long int)j] == 59 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$3 = (_Bool)0;
-                if(!tmp_if_expr$3)
+                  tmp_if_expr_3 = (_Bool)0;
+                if(!tmp_if_expr_3)
                   break;
 
                 j = j + 1;
               }
               while((_Bool)1);
-              if(!(j >= current$link1->length))
+              if(!(j >= current_link1->length))
               {
-                if((signed int)current$link1->string[(signed long int)j] == 82)
+                if((signed int)current_link1->string[(signed long int)j] == 82)
                 {
-                  memmove((void *)(current$link1->string + (signed long int)i), (const void *)(current$link1->string + (signed long int)j + (signed long int)1), (unsigned long int)((current$link1->length - j) - 1));
-                  current$link1->length = current$link1->length - ((j + 1) - i);
+                  memmove((void *)(current_link1->string + (signed long int)i), (const void *)(current_link1->string + (signed long int)j + (signed long int)1), (unsigned long int)((current_link1->length - j) - 1));
+                  current_link1->length = current_link1->length - ((j + 1) - i);
                   i = i - 1;
                 }
 
@@ -10717,12 +10717,12 @@ union anonymous$8
 
     }
 
-    if(!(current$link1->length == 0))
+    if(!(current_link1->length == 0))
     {
-      write_record(output_file, (enum anonymous$3)TYPE_INPUT, current$link1->delay, current$link1->min_delay, (unsigned char *)current$link1->string, (signed long int)current$link1->length);
+      write_record(output_file, (enum anonymous_3)TYPE_INPUT, current_link1->delay, current_link1->min_delay, (unsigned char *)current_link1->string, (signed long int)current_link1->length);
       init_timestamp();
-      copy_attrs_to_terminal(master$link1);
-      safe_write(master$link1, (const void *)current$link1->string, (unsigned long int)current$link1->length);
+      copy_attrs_to_terminal(master_link1);
+      safe_write(master_link1, (const void *)current_link1->string, (unsigned long int)current_link1->length);
     }
 
   }
@@ -10766,7 +10766,7 @@ static void set_context_from_attr_idx(struct _cairo *cr, struct _PangoLayout *la
 
 // set_non_block
 // file src/common.c line 139
-void set_non_block(signed int fd, const char *descr, enum anonymous$10 value)
+void set_non_block(signed int fd, const char *descr, enum anonymous_10 value)
 {
   signed int flags;
   flags=fcntl(fd, 3);
@@ -10778,9 +10778,9 @@ void set_non_block(signed int fd, const char *descr, enum anonymous$10 value)
 
   else
     flags = flags & ~04000;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(fd, 4, flags);
-  if(!(return_value_fcntl$1 >= 0))
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(fd, 4, flags);
+  if(!(return_value_fcntl_1 >= 0))
     fatal("Could not set flags for %s\n", descr);
 
 }
@@ -10802,8 +10802,8 @@ static void set_window_size(struct ExpNode *size)
 
     else
       delay = (signed int)((double)size->un.size.delay / key_delay_scale);
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(!(delay >= 0) || !(delay >= already_waited))
   {
     set_window_size_internal(size);
@@ -10815,18 +10815,18 @@ static void set_window_size(struct ExpNode *size)
     gettimeofday(&start, (struct timezone *)(void *)0);
     while((_Bool)1)
     {
-      signed int return_value_poll$1;
-      return_value_poll$1=poll(fdset, (unsigned long int)2, delay - already_waited);
-      result = (signed long int)return_value_poll$1;
+      signed int return_value_poll_1;
+      return_value_poll_1=poll(fdset, (unsigned long int)2, delay - already_waited);
+      result = (signed long int)return_value_poll_1;
       if(result == -1l)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(!(*return_value___errno_location$4 == 4))
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(!(*return_value___errno_location_4 == 4))
         {
-          return_value___errno_location$2=__errno_location();
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          fatal("Error during poll: %s\n", return_value_strerror$3);
+          return_value___errno_location_2=__errno_location();
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          fatal("Error during poll: %s\n", return_value_strerror_3);
         }
 
       }
@@ -10836,9 +10836,9 @@ static void set_window_size(struct ExpNode *size)
         copy_attrs_to_terminal(master);
 
       gettimeofday(&now, (struct timezone *)(void *)0);
-      signed int return_value_timevaldiff$5;
-      return_value_timevaldiff$5=timevaldiff(start, now);
-      already_waited = already_waited + return_value_timevaldiff$5;
+      signed int return_value_timevaldiff_5;
+      return_value_timevaldiff_5=timevaldiff(start, now);
+      already_waited = already_waited + return_value_timevaldiff_5;
       if(result == 0l || already_waited >= delay)
       {
         set_window_size_internal(size);
@@ -10855,61 +10855,61 @@ __CPROVER_DUMP_L12:
   ;
 }
 
-// set_window_size$link1
+// set_window_size_link1
 // file src/view.c line 112
-static void set_window_size$link1(struct ExpNode *size$link1)
+static void set_window_size_link1(struct ExpNode *size_link1)
 {
-  if(!(resize_capable$link1 == /*enum*/td_false))
+  if(!(resize_capable_link1 == /*enum*/td_false))
   {
     char buffer[64l];
     unsigned long int result;
-    signed int return_value_sprintf$1;
-    return_value_sprintf$1=sprintf(buffer, "\033[8;%d;%dt", size$link1->un.size.rows, size$link1->un.size.columns);
-    result = (unsigned long int)return_value_sprintf$1;
+    signed int return_value_sprintf_1;
+    return_value_sprintf_1=sprintf(buffer, "\033[8;%d;%dt", size_link1->un.size.rows, size_link1->un.size.columns);
+    result = (unsigned long int)return_value_sprintf_1;
     safe_write(1, (const void *)buffer, result);
   }
 
 }
 
-// set_window_size$link2
+// set_window_size_link2
 // file src/rerecord.c line 84
-static void set_window_size$link2(struct ExpNode *size$link2)
+static void set_window_size_link2(struct ExpNode *size_link2)
 {
   struct winsize wsz;
   memset((void *)&wsz, 0, sizeof(struct winsize) /*8ul*/ );
-  interact_loop(master$link1, pid$link1, output_file, size$link2->un.size.delay);
-  fprintf(output_file, "window_size %d %d", size$link2->un.size.columns, size$link2->un.size.rows);
-  if(size$link2->un.size.delay >= 1)
+  interact_loop(master_link1, pid_link1, output_file, size_link2->un.size.delay);
+  fprintf(output_file, "window_size %d %d", size_link2->un.size.columns, size_link2->un.size.rows);
+  if(size_link2->un.size.delay >= 1)
   {
-    fprintf(output_file, " %d", size$link2->un.size.delay);
-    if(!(size$link2->un.size.min_delay == 0))
-      fprintf(output_file, " >%d", size$link2->un.size.min_delay);
+    fprintf(output_file, " %d", size_link2->un.size.delay);
+    if(!(size_link2->un.size.min_delay == 0))
+      fprintf(output_file, " >%d", size_link2->un.size.min_delay);
 
   }
 
   fputc(10, output_file);
   init_timestamp();
-  if(!(resize_capable$link2 == /*enum*/td_false))
+  if(!(resize_capable_link2 == /*enum*/td_false))
   {
     char buffer[64l];
     unsigned long int result;
-    signed int return_value_sprintf$1$link1;
-    return_value_sprintf$1$link1=sprintf(buffer, "\033[8;%d;%dt", size$link2->un.size.rows, size$link2->un.size.columns);
-    result = (unsigned long int)return_value_sprintf$1$link1;
+    signed int return_value_sprintf_1_link1;
+    return_value_sprintf_1_link1=sprintf(buffer, "\033[8;%d;%dt", size_link2->un.size.rows, size_link2->un.size.columns);
+    result = (unsigned long int)return_value_sprintf_1_link1;
     safe_write(1, (const void *)buffer, result);
   }
 
-  wsz.ws_col = (unsigned short int)size$link2->un.size.columns;
-  wsz.ws_row = (unsigned short int)size$link2->un.size.rows;
-  signed int return_value_ioctl$4;
-  return_value_ioctl$4=ioctl(master$link1, (unsigned long int)0x5414, &wsz);
-  signed int *return_value___errno_location$2$link1;
-  char *return_value_strerror$3$link1;
-  if(!(return_value_ioctl$4 == 0))
+  wsz.ws_col = (unsigned short int)size_link2->un.size.columns;
+  wsz.ws_row = (unsigned short int)size_link2->un.size.rows;
+  signed int return_value_ioctl_4;
+  return_value_ioctl_4=ioctl(master_link1, (unsigned long int)0x5414, &wsz);
+  signed int *return_value___errno_location_2_link1;
+  char *return_value_strerror_3_link1;
+  if(!(return_value_ioctl_4 == 0))
   {
-    return_value___errno_location$2$link1=__errno_location();
-    return_value_strerror$3$link1=strerror(*return_value___errno_location$2$link1);
-    fatal("Error setting window size: %s\n", return_value_strerror$3$link1);
+    return_value___errno_location_2_link1=__errno_location();
+    return_value_strerror_3_link1=strerror(*return_value___errno_location_2_link1);
+    fatal("Error setting window size: %s\n", return_value_strerror_3_link1);
   }
 
 }
@@ -10927,23 +10927,23 @@ static void set_window_size_internal(struct ExpNode *size)
   {
     char buffer[64l];
     unsigned long int result;
-    signed int return_value_sprintf$1;
-    return_value_sprintf$1=sprintf(buffer, "\033[8;%d;%dt", size->un.size.rows, size->un.size.columns);
-    result = (unsigned long int)return_value_sprintf$1;
+    signed int return_value_sprintf_1;
+    return_value_sprintf_1=sprintf(buffer, "\033[8;%d;%dt", size->un.size.rows, size->un.size.columns);
+    result = (unsigned long int)return_value_sprintf_1;
     safe_write(1, (const void *)buffer, result);
   }
 
   wsz.ws_col = (unsigned short int)size->un.size.columns;
   wsz.ws_row = (unsigned short int)size->un.size.rows;
-  signed int return_value_ioctl$4;
-  return_value_ioctl$4=ioctl(master, (unsigned long int)0x5414, &wsz);
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  if(!(return_value_ioctl$4 == 0))
+  signed int return_value_ioctl_4;
+  return_value_ioctl_4=ioctl(master, (unsigned long int)0x5414, &wsz);
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  if(!(return_value_ioctl_4 == 0))
   {
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fatal("Error setting window size: %s\n", return_value_strerror$3);
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fatal("Error setting window size: %s\n", return_value_strerror_3);
   }
 
 }
@@ -10958,9 +10958,9 @@ void setup_ti_strings(const char *term, const char *lang)
   i = (unsigned long int)0;
   for( ; !(i >= 31ul); i = i + 1ul)
     terminfo_mappings[(signed long int)i].str=get_ti_string(terminfo_mappings[(signed long int)i].name);
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(terminfo_mappings[(signed long int)14].str, terminfo_mappings[(signed long int)29].str);
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(terminfo_mappings[(signed long int)14].str, terminfo_mappings[(signed long int)29].str);
+  if(return_value_strcmp_1 == 0)
   {
     free((void *)terminfo_mappings[(signed long int)29].str);
     free((void *)terminfo_mappings[(signed long int)21].str);
@@ -10968,12 +10968,12 @@ void setup_ti_strings(const char *term, const char *lang)
     terminfo_mappings[(signed long int)21].str = (char *)(void *)0;
   }
 
-  signed int return_value_get_ti_bool$2;
-  return_value_get_ti_bool$2=get_ti_bool("bce");
-  win_bce = (enum anonymous$10)(return_value_get_ti_bool$2 != 0);
-  signed int return_value_strcmp$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  signed int return_value_get_ti_bool_2;
+  return_value_get_ti_bool_2=get_ti_bool("bce");
+  win_bce = (enum anonymous_10)(return_value_get_ti_bool_2 != 0);
+  signed int return_value_strcmp_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   if(lang == ((const char *)NULL))
     iconv_handle = (void *)-1;
 
@@ -10985,16 +10985,16 @@ void setup_ti_strings(const char *term, const char *lang)
 
     else
     {
-      return_value_strcmp$3=strcmp(lang, "C");
-      if(return_value_strcmp$3 == 0)
-        tmp_if_expr$5 = (_Bool)1;
+      return_value_strcmp_3=strcmp(lang, "C");
+      if(return_value_strcmp_3 == 0)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$4=strcmp(lang, "POSIX");
-        tmp_if_expr$5 = return_value_strcmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_4=strcmp(lang, "POSIX");
+        tmp_if_expr_5 = return_value_strcmp_4 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         iconv_handle=iconv_open("UTF-8", "ANSI_X3.4-1968");
 
       else
@@ -11040,62 +11040,62 @@ signed int start_client(struct ExpNode *client, signed int fd, struct _IO_FILE *
   }
 
   result=fork();
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(result >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("Error executing fork: %s\n", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("Error executing fork: %s\n", return_value_strerror_2);
   }
 
   else
     if(!(result == 0))
       return result;
 
-  signed int return_value_login_tty$5;
-  return_value_login_tty$5=login_tty(fd);
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  if(!(return_value_login_tty$5 >= 0))
+  signed int return_value_login_tty_5;
+  return_value_login_tty_5=login_tty(fd);
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  if(!(return_value_login_tty_5 >= 0))
   {
-    return_value___errno_location$3=__errno_location();
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fatal("Error executing login_tty: %s\n", return_value_strerror$4);
+    return_value___errno_location_3=__errno_location();
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fatal("Error executing login_tty: %s\n", return_value_strerror_4);
   }
 
   ptr = client->un.args;
   for( ; !(ptr == ((struct StringListNode *)NULL)); ptr = ptr->next)
     argc = argc + 1;
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(argc + 1));
-  argv = (char **)return_value_malloc$8;
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(argc + 1));
+  argv = (char **)return_value_malloc_8;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
   if(argv == ((char **)NULL))
   {
-    return_value___errno_location$6=__errno_location();
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    fatal("Could not allocate client argument array: %s\n", return_value_strerror$7);
+    return_value___errno_location_6=__errno_location();
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    fatal("Could not allocate client argument array: %s\n", return_value_strerror_7);
   }
 
   ptr = client->un.args;
   argc = 0;
-  signed int tmp_post$9;
+  signed int tmp_post_9;
   for( ; !(ptr == ((struct StringListNode *)NULL)); ptr = ptr->next)
   {
-    tmp_post$9 = argc;
+    tmp_post_9 = argc;
     argc = argc + 1;
-    argv[(signed long int)tmp_post$9] = ptr->string;
+    argv[(signed long int)tmp_post_9] = ptr->string;
   }
   argv[(signed long int)argc] = (char *)(void *)0;
   unsetenv("DISPLAY");
   execvp(argv[(signed long int)0], argv);
-  signed int *return_value___errno_location$10;
-  return_value___errno_location$10=__errno_location();
-  char *return_value_strerror$11;
-  return_value_strerror$11=strerror(*return_value___errno_location$10);
-  fatal("execvp failed: %s\n", return_value_strerror$11);
+  signed int *return_value___errno_location_10;
+  return_value___errno_location_10=__errno_location();
+  char *return_value_strerror_11;
+  return_value_strerror_11=strerror(*return_value___errno_location_10);
+  fatal("execvp failed: %s\n", return_value_strerror_11);
   return 0;
 }
 
@@ -11114,7 +11114,7 @@ void start_picture_writer_thread(void)
 // file src/common.c line 779
 signed int tdcompare_main(signed int argc, char **argv)
 {
-  parse_options$link3(argc, argv);
+  parse_options_link3(argc, argv);
   reset_lexer(inputA);
   parse();
   scriptA = script;
@@ -11122,7 +11122,7 @@ signed int tdcompare_main(signed int argc, char **argv)
   reset_lexer(inputB);
   parse();
   scriptB = script;
-  if(!(visual_compare$link1 == /*enum*/td_false))
+  if(!(visual_compare_link1 == /*enum*/td_false))
     do_visual_compare();
 
   else
@@ -11136,23 +11136,23 @@ signed int tdrecord_main(signed int argc, char **argv)
 {
   struct winsize wsz;
   struct winsize *wsz_setting;
-  signed int tdrecord_main$$1$$master;
-  signed int tdrecord_main$$1$$status;
+  signed int tdrecord_main__1__master;
+  signed int tdrecord_main__1__status;
   signed int i;
   char *cwd_buffer;
-  signed int tdrecord_main$$1$$pid;
-  signed int return_value_isatty$1;
-  return_value_isatty$1=isatty(0);
-  if(return_value_isatty$1 == 0)
+  signed int tdrecord_main__1__pid;
+  signed int return_value_isatty_1;
+  return_value_isatty_1=isatty(0);
+  if(return_value_isatty_1 == 0)
     fatal("Can only record from terminal devices\n");
 
-  parse_options$link4(argc, argv);
+  parse_options_link4(argc, argv);
   if(!(prog_start_index >= 0))
     fatal("No program specified\n");
 
-  output_file$link1=open_output(&output$link1, directory$link1);
+  output_file_link1=open_output(&output_link1, directory_link1);
   cwd_buffer=getcwd_wrapper();
-  fprintf(output_file$link1, "# Recorded with working directory %s\n", cwd_buffer);
+  fprintf(output_file_link1, "# Recorded with working directory %s\n", cwd_buffer);
   free((void *)cwd_buffer);
   save_env("TERM");
   save_env("LINES");
@@ -11173,67 +11173,67 @@ signed int tdrecord_main(signed int argc, char **argv)
   init_timestamp();
   install_signal_handler(28, sigwinch_handler, "SIGWINCH");
   install_signal_handler(17, sigchld_handler, "SIGCHLD");
-  signed int return_value_ioctl$4;
-  return_value_ioctl$4=ioctl(0, (unsigned long int)0x5413, &wsz);
-  if(!(return_value_ioctl$4 >= 0))
+  signed int return_value_ioctl_4;
+  return_value_ioctl_4=ioctl(0, (unsigned long int)0x5413, &wsz);
+  if(!(return_value_ioctl_4 >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fprintf(stderr, "Warning: could not obtain window size: %s\n", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fprintf(stderr, "Warning: could not obtain window size: %s\n", return_value_strerror_3);
     wsz_setting = (struct winsize *)(void *)0;
   }
 
   else
   {
-    fprintf(output_file$link1, "window_size %d %d\n", wsz.ws_col, wsz.ws_row);
+    fprintf(output_file_link1, "window_size %d %d\n", wsz.ws_col, wsz.ws_row);
     wsz_setting = &wsz;
   }
-  fputs("start", output_file$link1);
+  fputs("start", output_file_link1);
   i = prog_start_index;
   for( ; !(i >= argc); i = i + 1)
   {
-    fputc(32, output_file$link1);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(argv[(signed long int)i]);
-    write_escaped_string(output_file$link1, argv[(signed long int)i], return_value_strlen$5);
+    fputc(32, output_file_link1);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(argv[(signed long int)i]);
+    write_escaped_string(output_file_link1, argv[(signed long int)i], return_value_strlen_5);
   }
-  fputc(10, output_file$link1);
-  tdrecord_main$$1$$pid=forkpty(&tdrecord_main$$1$$master, (char *)(void *)0, (struct termios *)(void *)0, wsz_setting);
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  if(!(tdrecord_main$$1$$pid >= 0))
+  fputc(10, output_file_link1);
+  tdrecord_main__1__pid=forkpty(&tdrecord_main__1__master, (char *)(void *)0, (struct termios *)(void *)0, wsz_setting);
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  if(!(tdrecord_main__1__pid >= 0))
   {
-    return_value___errno_location$6=__errno_location();
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    fatal("forkpty failed: %s\n", return_value_strerror$7);
+    return_value___errno_location_6=__errno_location();
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    fatal("forkpty failed: %s\n", return_value_strerror_7);
   }
 
-  if(tdrecord_main$$1$$pid == 0)
+  if(tdrecord_main__1__pid == 0)
   {
     if(allow_x11 == 0)
       unsetenv("DISPLAY");
 
     execvp(argv[(signed long int)prog_start_index], argv + (signed long int)prog_start_index);
-    unlink(output$link1);
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    char *return_value_strerror$9;
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    fatal("Error executing process: %s\n", return_value_strerror$9);
+    unlink(output_link1);
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    char *return_value_strerror_9;
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    fatal("Error executing process: %s\n", return_value_strerror_9);
   }
 
   save_tty();
-  set_non_block(tdrecord_main$$1$$master, "pty", (enum anonymous$10)td_true);
-  set_non_block(0, "terminal", (enum anonymous$10)td_true);
-  set_non_block(signal_pipe[(signed long int)0], "pipe", (enum anonymous$10)td_true);
-  tdrecord_main$$1$$status=interact_loop(tdrecord_main$$1$$master, tdrecord_main$$1$$pid, output_file$link1, -1);
-  fclose(output_file$link1);
+  set_non_block(tdrecord_main__1__master, "pty", (enum anonymous_10)td_true);
+  set_non_block(0, "terminal", (enum anonymous_10)td_true);
+  set_non_block(signal_pipe[(signed long int)0], "pipe", (enum anonymous_10)td_true);
+  tdrecord_main__1__status=interact_loop(tdrecord_main__1__master, tdrecord_main__1__pid, output_file_link1, -1);
+  fclose(output_file_link1);
   reset_tty();
-  fprintf(stderr, "-- recording is saved in %s --\n", output$link1);
+  fprintf(stderr, "-- recording is saved in %s --\n", output_link1);
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$8
+union anonymous_8
 {
   // __in
   signed int __in;
@@ -11243,7 +11243,7 @@ union anonymous$8
 
 /* */
   ;
-  exit((((union anonymous$8){ .__in=tdrecord_main$$1$$status }).__i & 0xff00) >> 8);
+  exit((((union anonymous_8){ .__in=tdrecord_main__1__status }).__i & 0xff00) >> 8);
 }
 
 // tdreplay_main
@@ -11253,32 +11253,32 @@ signed int tdreplay_main(signed int argc, char **argv)
   struct winsize wsz;
   signed int slave;
   parse_options(argc, argv);
-  signed int return_value_isatty$1;
+  signed int return_value_isatty_1;
   if(!(display == /*enum*/td_false))
   {
-    return_value_isatty$1=isatty(0);
-    if(return_value_isatty$1 == 0)
+    return_value_isatty_1=isatty(0);
+    if(return_value_isatty_1 == 0)
       fatal("Can only replay to a terminal devices\n");
 
   }
 
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(!(log_name == ((const char *)NULL)))
   {
     log_file=fopen(log_name, "w");
     if(log_file == ((struct _IO_FILE *)NULL))
     {
-      return_value___errno_location$2=__errno_location();
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fatal("Can't open log: %s\n", return_value_strerror$3);
+      return_value___errno_location_2=__errno_location();
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fatal("Can't open log: %s\n", return_value_strerror_3);
     }
 
   }
 
   reset_lexer(input);
   parse();
-  gettimeofday(&timestamp$link1, (struct timezone *)(void *)0);
+  gettimeofday(&timestamp_link1, (struct timezone *)(void *)0);
   if(!(display == /*enum*/td_false))
   {
     resize_capable=detect_resize_capable();
@@ -11292,20 +11292,20 @@ signed int tdreplay_main(signed int argc, char **argv)
   unsetenv("COLUMS");
   unsetenv("LANG");
   unsetenv("LC_CTYPE");
-  signed int return_value_openpty$6;
-  return_value_openpty$6=openpty(&master, &slave, (char *)(void *)0, (struct termios *)(void *)0, (struct winsize *)(void *)0);
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  if(!(return_value_openpty$6 >= 0))
+  signed int return_value_openpty_6;
+  return_value_openpty_6=openpty(&master, &slave, (char *)(void *)0, (struct termios *)(void *)0, (struct winsize *)(void *)0);
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  if(!(return_value_openpty_6 >= 0))
   {
-    return_value___errno_location$4=__errno_location();
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    fatal("Error opening pty: %s\n", return_value_strerror$5);
+    return_value___errno_location_4=__errno_location();
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    fatal("Error opening pty: %s\n", return_value_strerror_5);
   }
 
-  set_non_block(0, "terminal", (enum anonymous$10)td_true);
-  set_non_block(master, "pty", (enum anonymous$10)td_true);
-  set_non_block(signal_pipe[(signed long int)0], "pipe", (enum anonymous$10)td_true);
+  set_non_block(0, "terminal", (enum anonymous_10)td_true);
+  set_non_block(master, "pty", (enum anonymous_10)td_true);
+  set_non_block(signal_pipe[(signed long int)0], "pipe", (enum anonymous_10)td_true);
   fdset[(signed long int)0].fd = master;
   fdset[(signed long int)0].events = (signed short int)0x001;
   fdset[(signed long int)1].fd = signal_pipe[(signed long int)0];
@@ -11318,28 +11318,28 @@ signed int tdreplay_main(signed int argc, char **argv)
     if(term == ((const char *)NULL))
       fatal("Recording does not contain a TERM environment variable\n");
 
-    const char *return_value_get_script_env$7;
-    return_value_get_script_env$7=get_script_env(script, "LANG");
-    setup_ti_strings(term, return_value_get_script_env$7);
-    signed int return_value_ioctl$10;
-    return_value_ioctl$10=ioctl(0, (unsigned long int)0x5413, &wsz);
-    if((signed int)wsz.ws_col == 0 || (signed int)wsz.ws_row == 0 || !(return_value_ioctl$10 >= 0))
+    const char *return_value_get_script_env_7;
+    return_value_get_script_env_7=get_script_env(script, "LANG");
+    setup_ti_strings(term, return_value_get_script_env_7);
+    signed int return_value_ioctl_10;
+    return_value_ioctl_10=ioctl(0, (unsigned long int)0x5413, &wsz);
+    if((signed int)wsz.ws_col == 0 || (signed int)wsz.ws_row == 0 || !(return_value_ioctl_10 >= 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      char *return_value_strerror$9;
-      return_value_strerror$9=strerror(*return_value___errno_location$8);
-      fprintf(stderr, "Warning: could not obtain window size: %s\n", return_value_strerror$9);
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      char *return_value_strerror_9;
+      return_value_strerror_9=strerror(*return_value___errno_location_8);
+      fprintf(stderr, "Warning: could not obtain window size: %s\n", return_value_strerror_9);
       wsz.ws_col = (unsigned short int)80;
       wsz.ws_row = (unsigned short int)24;
     }
 
     realWin=win_new((signed int)wsz.ws_row, (signed int)wsz.ws_col);
-    if(realWin == ((struct anonymous$12 *)NULL))
+    if(realWin == ((struct anonymous_12 *)NULL))
       fatal("Out of memory\n");
 
     expectWin=win_new((signed int)wsz.ws_row, (signed int)wsz.ws_col);
-    if(expectWin == ((struct anonymous$12 *)NULL))
+    if(expectWin == ((struct anonymous_12 *)NULL))
       fatal("Out of memory\n");
 
   }
@@ -11422,21 +11422,21 @@ signed int tdreplay_main(signed int argc, char **argv)
 signed int tdrerecord_main(signed int argc, char **argv)
 {
   signed int slave;
-  signed int tdrerecord_main$$1$$status;
+  signed int tdrerecord_main__1__status;
   char *cwd_buffer;
-  parse_options$link2(argc, argv);
-  signed int return_value_isatty$1;
-  return_value_isatty$1=isatty(0);
-  if(return_value_isatty$1 == 0)
+  parse_options_link2(argc, argv);
+  signed int return_value_isatty_1;
+  return_value_isatty_1=isatty(0);
+  if(return_value_isatty_1 == 0)
     fatal("Can only rerecord from a terminal devices\n");
 
-  reset_lexer(input$link2);
+  reset_lexer(input_link2);
   parse();
   output_file=open_output(&output, directory);
   cwd_buffer=getcwd_wrapper();
   fprintf(output_file, "# Recorded with working directory %s\n", cwd_buffer);
   free((void *)cwd_buffer);
-  resize_capable$link2=detect_resize_capable();
+  resize_capable_link2=detect_resize_capable();
   init_timestamp();
   install_signal_handler(28, sigwinch_handler, "SIGWINCH");
   save_tty();
@@ -11446,22 +11446,22 @@ signed int tdrerecord_main(signed int argc, char **argv)
   unsetenv("COLUMS");
   unsetenv("LANG");
   unsetenv("LC_CTYPE");
-  signed int return_value_openpty$4;
-  return_value_openpty$4=openpty(&master$link1, &slave, (char *)(void *)0, (struct termios *)(void *)0, (struct winsize *)(void *)0);
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  if(!(return_value_openpty$4 >= 0))
+  signed int return_value_openpty_4;
+  return_value_openpty_4=openpty(&master_link1, &slave, (char *)(void *)0, (struct termios *)(void *)0, (struct winsize *)(void *)0);
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  if(!(return_value_openpty_4 >= 0))
   {
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fatal("Error opening pty: %s\n", return_value_strerror$3);
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fatal("Error opening pty: %s\n", return_value_strerror_3);
   }
 
-  set_non_block(0, "terminal", (enum anonymous$10)td_true);
-  set_non_block(master$link1, "pty", (enum anonymous$10)td_true);
-  set_non_block(signal_pipe[(signed long int)0], "pipe", (enum anonymous$10)td_true);
+  set_non_block(0, "terminal", (enum anonymous_10)td_true);
+  set_non_block(master_link1, "pty", (enum anonymous_10)td_true);
+  set_non_block(signal_pipe[(signed long int)0], "pipe", (enum anonymous_10)td_true);
   struct StringListNode *ptr;
-  unsigned long int return_value_strlen$6;
+  unsigned long int return_value_strlen_6;
   for( ; !(script == ((struct ExpNode *)NULL)); script = script->next)
     switch((signed int)script->type)
     {
@@ -11472,13 +11472,13 @@ signed int tdrerecord_main(signed int argc, char **argv)
         while(!(ptr == ((struct StringListNode *)NULL)))
         {
           fputc(32, output_file);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(ptr->string);
-          write_escaped_string(output_file, ptr->string, return_value_strlen$5);
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(ptr->string);
+          write_escaped_string(output_file, ptr->string, return_value_strlen_5);
           ptr = ptr->next;
         }
         fprintf(output_file, "\n");
-        pid$link1=start_client(script, slave, (struct _IO_FILE *)(void *)0);
+        pid_link1=start_client(script, slave, (struct _IO_FILE *)(void *)0);
         break;
       }
       case EXP_EXPECT:
@@ -11487,20 +11487,20 @@ signed int tdrerecord_main(signed int argc, char **argv)
         break;
       case EXP_SEND:
       {
-        send_keys$link1(script);
+        send_keys_link1(script);
         break;
       }
       case EXP_EXPECT_EXIT:
 
       case EXP_INTERACT:
       {
-        copy_attrs_to_terminal(master$link1);
-        tdrerecord_main$$1$$status=interact_loop(master$link1, pid$link1, output_file, -1);
+        copy_attrs_to_terminal(master_link1);
+        tdrerecord_main__1__status=interact_loop(master_link1, pid_link1, output_file, -1);
         fclose(output_file);
         reset_tty();
         fprintf(stderr, "-- recording is saved in %s --\n", output);
         /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$8
+union anonymous_8
 {
   // __in
   signed int __in;
@@ -11510,19 +11510,19 @@ union anonymous$8
 
 /* */
         ;
-        exit((((union anonymous$8){ .__in=tdrerecord_main$$1$$status }).__i & 0xff00) >> 8);
+        exit((((union anonymous_8){ .__in=tdrerecord_main__1__status }).__i & 0xff00) >> 8);
         break;
       }
       case EXP_WINDOW_SIZE:
       {
-        set_window_size$link2(script);
+        set_window_size_link2(script);
         break;
       }
       case EXP_ENV:
       {
         fprintf(output_file, "env \"%s\" ", script->un.args->string);
-        return_value_strlen$6=strlen(script->un.args->next->string);
-        write_escaped_string(output_file, script->un.args->next->string, return_value_strlen$6);
+        return_value_strlen_6=strlen(script->un.args->next->string);
+        write_escaped_string(output_file, script->un.args->next->string, return_value_strlen_6);
         fputc(10, output_file);
         setenv(script->un.args->string, script->un.args->next->string, 0);
         break;
@@ -11542,14 +11542,14 @@ union anonymous$8
 // file src/common.c line 778
 signed int tdview_main(signed int argc, char **argv)
 {
-  parse_options$link1(argc, argv);
-  signed int return_value_isatty$1;
-  return_value_isatty$1=isatty(0);
-  if(return_value_isatty$1 == 0)
+  parse_options_link1(argc, argv);
+  signed int return_value_isatty_1;
+  return_value_isatty_1=isatty(0);
+  if(return_value_isatty_1 == 0)
     fatal("Can only replay to a terminal devices\n");
 
-  resize_capable$link1=detect_resize_capable();
-  reset_lexer(input$link1);
+  resize_capable_link1=detect_resize_capable();
+  reset_lexer(input_link1);
   parse();
   save_tty();
   copy_attrs_to_terminal(0);
@@ -11583,7 +11583,7 @@ signed int tdview_main(signed int argc, char **argv)
       case EXP_WINDOW_SIZE:
       {
         do_delay(script->un.size.delay);
-        set_window_size$link1(script);
+        set_window_size_link1(script);
         break;
       }
       case EXP_EXPECT_SUSPEND:
@@ -11646,7 +11646,7 @@ static void unexpected(const char *reason, const char *received, unsigned long i
   {
     case ON_ERROR_ABORT:
     {
-      void **unexpected$$1$$3$$1$$args;
+      void **unexpected__1__3__1__args;
       end_client();
       if(!(display == /*enum*/td_false))
       {
@@ -11656,9 +11656,9 @@ static void unexpected(const char *reason, const char *received, unsigned long i
       }
 
       fprintf(stderr, "Different behaviour from client at line %d: ", line);
-      unexpected$$1$$3$$1$$args = (void **)&line;
-      vfprintf(stderr, reason, unexpected$$1$$3$$1$$args);
-      unexpected$$1$$3$$1$$args = ((void **)NULL);
+      unexpected__1__3__1__args = (void **)&line;
+      vfprintf(stderr, reason, unexpected__1__3__1__args);
+      unexpected__1__3__1__args = ((void **)NULL);
       exit(1);
     }
     case ON_ERROR_INTERACT:
@@ -11687,7 +11687,7 @@ static void unexpected_death(void)
     while((_Bool)0);
 
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$8
+union anonymous_8
 {
   // __in
   signed int __in;
@@ -11698,12 +11698,12 @@ union anonymous$8
 /* */
   ;
   if(!(log_file == ((struct _IO_FILE *)NULL)))
-    fprintf(log_file, "!! Client stopped unexpectedly with status: %d\n", (((union anonymous$8){ .__in=status }).__i & 0xff00) >> 8);
+    fprintf(log_file, "!! Client stopped unexpectedly with status: %d\n", (((union anonymous_8){ .__in=status }).__i & 0xff00) >> 8);
 
   if(!(display == /*enum*/td_false))
     reset_tty();
 
-  fprintf(stderr, "Client stopped unexpectedly with status: %d\n", (((union anonymous$8){ .__in=status }).__i & 0xff00) >> 8);
+  fprintf(stderr, "Client stopped unexpectedly with status: %d\n", (((union anonymous_8){ .__in=status }).__i & 0xff00) >> 8);
   exit(1);
 }
 
@@ -11716,13 +11716,13 @@ unsigned int utf8_get(const char *src, unsigned long int *size)
   signed int bytes_left;
   unsigned int retval;
   unsigned int least;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(size == ((unsigned long int *)NULL))
-    tmp_if_expr$1 = (unsigned long int)4;
+    tmp_if_expr_1 = (unsigned long int)4;
 
   else
-    tmp_if_expr$1 = *size;
-  max_size = tmp_if_expr$1;
+    tmp_if_expr_1 = *size;
+  max_size = tmp_if_expr_1;
   _size = (unsigned long int)1;
   switch((signed int)(unsigned char)src[(signed long int)0])
   {
@@ -12322,10 +12322,10 @@ signed int utf8_wcwidth(unsigned int c)
 
     else
     {
-      signed int return_value_uc_width$1;
+      signed int return_value_uc_width_1;
       static char nul;
-      return_value_uc_width$1=uc_width(c, &nul);
-      return return_value_uc_width$1;
+      return_value_uc_width_1=uc_width(c, &nul);
+      return return_value_uc_width_1;
     }
 }
 
@@ -12340,7 +12340,7 @@ static void visual_expect(struct ExpNode *exp)
   signed int remaining_timeout;
   signed int timeout;
   signed int min_delay;
-  enum anonymous$10 do_handle_signals = (enum anonymous$10)td_true;
+  enum anonymous_10 do_handle_signals = (enum anonymous_10)td_true;
   win_write_stringlist(expectWin, exp->un.args);
   if(!(log_file == ((struct _IO_FILE *)NULL)))
   {
@@ -12374,7 +12374,7 @@ static void visual_expect(struct ExpNode *exp)
   {
     timeout=get_next_delay(exp, &min_delay);
     if(timeout == -1)
-      do_handle_signals = (enum anonymous$10)td_false;
+      do_handle_signals = (enum anonymous_10)td_false;
 
     if(key_delay < (double)timeout || !(timeout >= 0))
       timeout = (signed int)key_delay;
@@ -12388,7 +12388,7 @@ static void visual_expect(struct ExpNode *exp)
   {
     timeout=get_next_delay(exp, &min_delay);
     if(timeout == -1)
-      do_handle_signals = (enum anonymous$10)td_false;
+      do_handle_signals = (enum anonymous_10)td_false;
 
     timeout = timeout / (signed int)key_delay_scale;
     if(!(timeout >= 10))
@@ -12399,33 +12399,33 @@ static void visual_expect(struct ExpNode *exp)
     timeout = min_delay;
 
   remaining_timeout = timeout;
-  static enum anonymous$10 first_expect = (enum anonymous$10)td_true;
+  static enum anonymous_10 first_expect = (enum anonymous_10)td_true;
   if(!(first_expect == /*enum*/td_false))
     remaining_timeout = 1000;
 
   gettimeofday(&start, (struct timezone *)(void *)0);
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   while(remaining_timeout >= 1)
   {
-    signed int return_value_poll$1;
-    return_value_poll$1=poll(fdset, (unsigned long int)2, remaining_timeout);
-    result = (signed long int)return_value_poll$1;
+    signed int return_value_poll_1;
+    return_value_poll_1=poll(fdset, (unsigned long int)2, remaining_timeout);
+    result = (signed long int)return_value_poll_1;
     if(!(first_expect == /*enum*/td_false))
     {
-      first_expect = (enum anonymous$10)td_false;
+      first_expect = (enum anonymous_10)td_false;
       gettimeofday(&start, (struct timezone *)(void *)0);
     }
 
     if(result == -1l)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 4))
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 4))
       {
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fatal("Error during poll: %s\n", return_value_strerror$3);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fatal("Error during poll: %s\n", return_value_strerror_3);
       }
 
       continue;
@@ -12462,19 +12462,19 @@ static void visual_expect(struct ExpNode *exp)
     }
 
     gettimeofday(&now, (struct timezone *)(void *)0);
-    signed int return_value_timevaldiff$5;
-    return_value_timevaldiff$5=timevaldiff(start, now);
-    remaining_timeout = timeout - return_value_timevaldiff$5;
+    signed int return_value_timevaldiff_5;
+    return_value_timevaldiff_5=timevaldiff(start, now);
+    remaining_timeout = timeout - return_value_timevaldiff_5;
   }
-  enum anonymous$10 return_value_win_compare$6;
-  return_value_win_compare$6=win_compare(expectWin, realWin, describe != (enum anonymous$10)0 ? stderr : (struct _IO_FILE *)(void *)0);
-  if(return_value_win_compare$6 == /*enum*/td_false)
+  enum anonymous_10 return_value_win_compare_6;
+  return_value_win_compare_6=win_compare(expectWin, realWin, describe != (enum anonymous_10)0 ? stderr : (struct _IO_FILE *)(void *)0);
+  if(return_value_win_compare_6 == /*enum*/td_false)
   {
     if(!(picture_name == ((const char *)NULL)))
       win_write_image(expectWin, realWin, picture_name);
 
     unexpected("Visual differences after timeout", (const char *)(void *)0, (unsigned long int)0, exp->line);
-    describe = (enum anonymous$10)td_false;
+    describe = (enum anonymous_10)td_false;
   }
 
   already_waited=timevaldiff(start, now);
@@ -12482,7 +12482,7 @@ static void visual_expect(struct ExpNode *exp)
 
 // win_addnstr
 // file src/window.c line 949
-signed int win_addnstr(struct anonymous$12 *win, const char *str, unsigned long int n)
+signed int win_addnstr(struct anonymous_12 *win, const char *str, unsigned long int n)
 {
   unsigned long int bytes_read;
   char block[11l];
@@ -12490,22 +12490,22 @@ signed int win_addnstr(struct anonymous$12 *win, const char *str, unsigned long 
   signed int retval = 0;
   signed int width;
   unsigned long int block_bytes;
-  _Bool tmp_if_expr$2;
-  _Bool return_value_uc_is_general_category_withtable$1;
+  _Bool tmp_if_expr_2;
+  _Bool return_value_uc_is_general_category_withtable_1;
   for( ; n >= 1ul; str = str + (signed long int)bytes_read)
   {
     bytes_read = n;
     c=utf8_get(str, &bytes_read);
     width=utf8_wcwidth(c);
     if(!(width >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_uc_is_general_category_withtable$1=uc_is_general_category_withtable(c, (unsigned int)(134217728 | 67108864 | 268435456 | 33554432 | 8388608 | 16777216));
-      tmp_if_expr$2 = return_value_uc_is_general_category_withtable$1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_uc_is_general_category_withtable_1=uc_is_general_category_withtable(c, (unsigned int)(134217728 | 67108864 | 268435456 | 33554432 | 8388608 | 16777216));
+      tmp_if_expr_2 = return_value_uc_is_general_category_withtable_1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
     {
       retval = -2;
       goto __CPROVER_DUMP_L9;
@@ -12523,9 +12523,9 @@ signed int win_addnstr(struct anonymous$12 *win, const char *str, unsigned long 
     block_bytes = block_bytes + bytes_read;
     _put_value((unsigned int)((block_bytes << 1) + (unsigned long int)(width == 2 ? 1 : 0)), block);
     block_bytes = block_bytes + 1ul;
-    enum anonymous$10 return_value__win_write_blocks$3;
-    return_value__win_write_blocks$3=_win_write_blocks(win, block, block_bytes);
-    if(return_value__win_write_blocks$3 == /*enum*/td_false)
+    enum anonymous_10 return_value__win_write_blocks_3;
+    return_value__win_write_blocks_3=_win_write_blocks(win, block, block_bytes);
+    if(return_value__win_write_blocks_3 == /*enum*/td_false)
       return -3;
 
     if(win->paint_x >= win->width)
@@ -12556,30 +12556,30 @@ signed int win_addnstr(struct anonymous$12 *win, const char *str, unsigned long 
 
 // win_clrtobol
 // file src/window.c line 1018
-void win_clrtobol(struct anonymous$12 *win)
+void win_clrtobol(struct anonymous_12 *win)
 {
   char space_str[8l];
   unsigned long int space_str_bytes;
   signed int saved_paint_x;
   signed int saved_paint_y;
   signed int spaces;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(win->paint_y >= win->height)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = win->paint_x >= win->width ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = win->paint_x >= win->width ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     if(!(win_bce == /*enum*/td_false))
-      tmp_if_expr$2 = win->default_attrs;
+      tmp_if_expr_2 = win->default_attrs;
 
     else
-      tmp_if_expr$2 = 0;
-    signed int return_value_map_attr$3;
-    return_value_map_attr$3=map_attr(tmp_if_expr$2);
-    space_str_bytes=create_space_block(return_value_map_attr$3, space_str);
+      tmp_if_expr_2 = 0;
+    signed int return_value_map_attr_3;
+    return_value_map_attr_3=map_attr(tmp_if_expr_2);
+    space_str_bytes=create_space_block(return_value_map_attr_3, space_str);
     saved_paint_x = win->paint_x;
     saved_paint_y = win->paint_y;
     win->paint_x = 0;
@@ -12594,7 +12594,7 @@ void win_clrtobol(struct anonymous$12 *win)
 
 // win_clrtobot
 // file src/window.h line 188
-void win_clrtobot(struct anonymous$12 *win)
+void win_clrtobot(struct anonymous_12 *win)
 {
   signed int saved_paint_x;
   signed int saved_paint_y;
@@ -12610,30 +12610,30 @@ void win_clrtobot(struct anonymous$12 *win)
 
 // win_clrtoeol
 // file src/window.c line 997
-void win_clrtoeol(struct anonymous$12 *win)
+void win_clrtoeol(struct anonymous_12 *win)
 {
   char space_str[8l];
   unsigned long int space_str_bytes;
   signed int saved_paint_x;
   signed int saved_paint_y;
   signed int spaces;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(win->paint_y >= win->height)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = win->paint_x >= win->width ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = win->paint_x >= win->width ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     if(!(win_bce == /*enum*/td_false))
-      tmp_if_expr$2 = win->default_attrs;
+      tmp_if_expr_2 = win->default_attrs;
 
     else
-      tmp_if_expr$2 = 0;
-    signed int return_value_map_attr$3;
-    return_value_map_attr$3=map_attr(tmp_if_expr$2);
-    space_str_bytes=create_space_block(return_value_map_attr$3, space_str);
+      tmp_if_expr_2 = 0;
+    signed int return_value_map_attr_3;
+    return_value_map_attr_3=map_attr(tmp_if_expr_2);
+    space_str_bytes=create_space_block(return_value_map_attr_3, space_str);
     saved_paint_x = win->paint_x;
     saved_paint_y = win->paint_y;
     spaces = win->width - win->paint_x;
@@ -12647,7 +12647,7 @@ void win_clrtoeol(struct anonymous$12 *win)
 
 // win_clrtotop
 // file src/window.c line 1053
-void win_clrtotop(struct anonymous$12 *win)
+void win_clrtotop(struct anonymous_12 *win)
 {
   signed int saved_paint_x;
   signed int saved_paint_y;
@@ -12666,57 +12666,57 @@ void win_clrtotop(struct anonymous$12 *win)
 
 // win_compare
 // file src/window.h line 179
-enum anonymous$10 win_compare(struct anonymous$12 *winA, struct anonymous$12 *winB, struct _IO_FILE *descr_out)
+enum anonymous_10 win_compare(struct anonymous_12 *winA, struct anonymous_12 *winB, struct _IO_FILE *descr_out)
 {
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(winA->height == winB->height))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = winA->width != winB->width ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$8;
-  signed int return_value_memcmp$7;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = winA->width != winB->width ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_8;
+  signed int return_value_memcmp_7;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_1)
   {
     if(!(descr_out == ((struct _IO_FILE *)NULL)))
       fprintf(descr_out, "Terminals have different size: %dx%d vs. %dx%d\n", winA->width, winA->height, winB->width, winB->height);
 
-    return (enum anonymous$10)td_false;
+    return (enum anonymous_10)td_false;
   }
 
   else
   {
     if(!(winA->cursor_state == winB->cursor_state))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if(!((signed int)winA->cursor_state == CURSOR_INVIS))
       {
         if(!(winA->paint_x == winB->paint_x))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = winA->paint_y != winB->paint_y ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = winA->paint_y != winB->paint_y ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       static const char *cursor_state_strings[3l] = { "visible", "invisible", "highly visible" };
       if(!(descr_out == ((struct _IO_FILE *)NULL)))
         fprintf(descr_out, "Cursor state is different: %s at %d,%d vs. %s at %d,%d\n", cursor_state_strings[(signed long int)winA->cursor_state], winA->paint_x + 1, winA->paint_y + 1, cursor_state_strings[(signed long int)winB->cursor_state], winB->paint_x + 1, winB->paint_y + 1);
 
-      return (enum anonymous$10)td_false;
+      return (enum anonymous_10)td_false;
     }
 
     else
@@ -12728,14 +12728,14 @@ enum anonymous$10 win_compare(struct anonymous$12 *winA, struct anonymous$12 *wi
           fatal("Internal error in tracking window contents.\n");
 
         if(!((winA->lines + (signed long int)i)->length == (winB->lines + (signed long int)i)->length))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_memcmp$7=memcmp((const void *)(winA->lines + (signed long int)i)->data, (const void *)(winB->lines + (signed long int)i)->data, (unsigned long int)(winA->lines + (signed long int)i)->length);
-          tmp_if_expr$8 = return_value_memcmp$7 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_memcmp_7=memcmp((const void *)(winA->lines + (signed long int)i)->data, (const void *)(winB->lines + (signed long int)i)->data, (unsigned long int)(winA->lines + (signed long int)i)->length);
+          tmp_if_expr_8 = return_value_memcmp_7 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
         {
           if(!(descr_out == ((struct _IO_FILE *)NULL)))
           {
@@ -12749,11 +12749,11 @@ enum anonymous$10 win_compare(struct anonymous$12 *winA, struct anonymous$12 *wi
             do
             {
               if(!(offset >= (winA->lines + (signed long int)i)->length))
-                tmp_if_expr$5 = offset < (winB->lines + (signed long int)i)->length ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = offset < (winB->lines + (signed long int)i)->length ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$5 = (_Bool)0;
-              if(!tmp_if_expr$5)
+                tmp_if_expr_5 = (_Bool)0;
+              if(!tmp_if_expr_5)
                 break;
 
               block_sizeA=get_value((winA->lines + (signed long int)i)->data + (signed long int)offset, &block_size_bytesA);
@@ -12762,9 +12762,9 @@ enum anonymous$10 win_compare(struct anonymous$12 *winA, struct anonymous$12 *wi
                 break;
 
               offset = offset + (signed int)block_size_bytesA;
-              signed int return_value_memcmp$6;
-              return_value_memcmp$6=memcmp((const void *)((winA->lines + (signed long int)i)->data + (signed long int)offset), (const void *)((winB->lines + (signed long int)i)->data + (signed long int)offset), (unsigned long int)(block_sizeA >> 1));
-              if(!(return_value_memcmp$6 == 0))
+              signed int return_value_memcmp_6;
+              return_value_memcmp_6=memcmp((const void *)((winA->lines + (signed long int)i)->data + (signed long int)offset), (const void *)((winB->lines + (signed long int)i)->data + (signed long int)offset), (unsigned long int)(block_sizeA >> 1));
+              if(!(return_value_memcmp_6 == 0))
                 break;
 
               offset = offset + (signed int)(block_sizeA >> 1);
@@ -12774,31 +12774,31 @@ enum anonymous$10 win_compare(struct anonymous$12 *winA, struct anonymous$12 *wi
             fprintf(descr_out, "First difference encountered at position %d,%d\n", column + 1, i + 1);
           }
 
-          return (enum anonymous$10)td_false;
+          return (enum anonymous_10)td_false;
         }
 
       }
-      return (enum anonymous$10)td_true;
+      return (enum anonymous_10)td_true;
     }
   }
 }
 
 // win_copy
 // file src/window.c line 142
-struct anonymous$12 * win_copy(struct anonymous$12 *win)
+struct anonymous_12 * win_copy(struct anonymous_12 *win)
 {
-  struct anonymous$12 *retval;
+  struct anonymous_12 *retval;
   signed int i;
-  if(win == ((struct anonymous$12 *)NULL))
-    return (struct anonymous$12 *)(void *)0;
+  if(win == ((struct anonymous_12 *)NULL))
+    return (struct anonymous_12 *)(void *)0;
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$12) /*88ul*/ );
-    retval = (struct anonymous$12 *)return_value_calloc$1;
-    if(retval == ((struct anonymous$12 *)NULL))
-      return (struct anonymous$12 *)(void *)0;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_12) /*88ul*/ );
+    retval = (struct anonymous_12 *)return_value_calloc_1;
+    if(retval == ((struct anonymous_12 *)NULL))
+      return (struct anonymous_12 *)(void *)0;
 
     else
     {
@@ -12807,13 +12807,13 @@ struct anonymous$12 * win_copy(struct anonymous$12 *win)
       retval->cursor_state = win->cursor_state;
       retval->paint_x = win->paint_x;
       retval->paint_y = win->paint_y;
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct anonymous$14) /*24ul*/  * (unsigned long int)retval->height);
-      retval->lines = (struct anonymous$14 *)return_value_calloc$2;
-      if(retval->lines == ((struct anonymous$14 *)NULL))
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct anonymous_14) /*24ul*/  * (unsigned long int)retval->height);
+      retval->lines = (struct anonymous_14 *)return_value_calloc_2;
+      if(retval->lines == ((struct anonymous_14 *)NULL))
       {
         win_del(retval);
-        return (struct anonymous$12 *)(void *)0;
+        return (struct anonymous_12 *)(void *)0;
       }
 
       else
@@ -12823,24 +12823,24 @@ struct anonymous$12 * win_copy(struct anonymous$12 *win)
         {
           (retval->lines + (signed long int)i)->length = (win->lines + (signed long int)i)->length;
           (retval->lines + (signed long int)i)->allocated = (win->lines + (signed long int)i)->length;
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc((unsigned long int)(retval->lines + (signed long int)i)->allocated);
-          (retval->lines + (signed long int)i)->data = (char *)return_value_malloc$3;
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc((unsigned long int)(retval->lines + (signed long int)i)->allocated);
+          (retval->lines + (signed long int)i)->data = (char *)return_value_malloc_3;
           if((retval->lines + (signed long int)i)->data == ((char *)NULL))
           {
             win_del(retval);
-            return (struct anonymous$12 *)(void *)0;
+            return (struct anonymous_12 *)(void *)0;
           }
 
           memcpy((void *)(retval->lines + (signed long int)i)->data, (const void *)(win->lines + (signed long int)i)->data, (unsigned long int)(win->lines + (signed long int)i)->length);
         }
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc((unsigned long int)80);
-        retval->output_buffer.data = (char *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc((unsigned long int)80);
+        retval->output_buffer.data = (char *)return_value_malloc_4;
         if(retval->output_buffer.data == ((char *)NULL))
         {
           win_del(retval);
-          return (struct anonymous$12 *)(void *)0;
+          return (struct anonymous_12 *)(void *)0;
         }
 
         else
@@ -12855,12 +12855,12 @@ struct anonymous$12 * win_copy(struct anonymous$12 *win)
 
 // win_del
 // file src/window.c line 127
-void win_del(struct anonymous$12 *win)
+void win_del(struct anonymous_12 *win)
 {
   signed int i;
-  if(!(win == ((struct anonymous$12 *)NULL)))
+  if(!(win == ((struct anonymous_12 *)NULL)))
   {
-    if(!(win->lines == ((struct anonymous$14 *)NULL)))
+    if(!(win->lines == ((struct anonymous_14 *)NULL)))
     {
       i = 0;
       for( ; !(i >= win->height); i = i + 1)
@@ -12876,77 +12876,77 @@ void win_del(struct anonymous$12 *win)
 
 // win_get_cup
 // file src/window.c line 1136
-enum anonymous$10 win_get_cup(struct anonymous$12 *win)
+enum anonymous_10 win_get_cup(struct anonymous_12 *win)
 {
   return win->cup_active;
 }
 
 // win_get_default_attrs
 // file src/window.c line 430
-signed int win_get_default_attrs(struct anonymous$12 *win)
+signed int win_get_default_attrs(struct anonymous_12 *win)
 {
-  signed int return_value_get_attr$1;
-  return_value_get_attr$1=get_attr(win->default_attrs);
-  return return_value_get_attr$1;
+  signed int return_value_get_attr_1;
+  return_value_get_attr_1=get_attr(win->default_attrs);
+  return return_value_get_attr_1;
 }
 
 // win_get_height
 // file src/window.c line 301
-signed int win_get_height(struct anonymous$12 *win)
+signed int win_get_height(struct anonymous_12 *win)
 {
   return win->height;
 }
 
 // win_get_paint_x
 // file src/window.c line 293
-signed int win_get_paint_x(struct anonymous$12 *win)
+signed int win_get_paint_x(struct anonymous_12 *win)
 {
   return win->paint_x;
 }
 
 // win_get_paint_y
 // file src/window.c line 297
-signed int win_get_paint_y(struct anonymous$12 *win)
+signed int win_get_paint_y(struct anonymous_12 *win)
 {
   return win->paint_y;
 }
 
 // win_get_width
 // file src/window.c line 305
-signed int win_get_width(struct anonymous$12 *win)
+signed int win_get_width(struct anonymous_12 *win)
 {
   return win->width;
 }
 
 // win_new
 // file src/window.h line 167
-struct anonymous$12 * win_new(signed int height, signed int width)
+struct anonymous_12 * win_new(signed int height, signed int width)
 {
-  struct anonymous$12 *retval;
+  struct anonymous_12 *retval;
   signed int i;
   if(!(height >= 1) || !(width >= 1))
-    return (struct anonymous$12 *)(void *)0;
+    return (struct anonymous_12 *)(void *)0;
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$12) /*88ul*/ );
-    retval = (struct anonymous$12 *)return_value_calloc$1;
-    if(retval == ((struct anonymous$12 *)NULL))
-      return (struct anonymous$12 *)(void *)0;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_12) /*88ul*/ );
+    retval = (struct anonymous_12 *)return_value_calloc_1;
+    if(retval == ((struct anonymous_12 *)NULL))
+      return (struct anonymous_12 *)(void *)0;
 
     else
     {
       retval->width = width;
       retval->height = height;
-      retval->cursor_state = (enum anonymous$15)CURSOR_NORM;
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct anonymous$14) /*24ul*/  * (unsigned long int)height);
-      retval->lines = (struct anonymous$14 *)return_value_calloc$2;
-      if(retval->lines == ((struct anonymous$14 *)NULL))
+      retval->cursor_state = (enum anonymous_15)CURSOR_NORM;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct anonymous_14) /*24ul*/  * (unsigned long int)height);
+      retval->lines = (struct anonymous_14 *)return_value_calloc_2;
+      if(retval->lines == ((struct anonymous_14 *)NULL))
       {
         win_del(retval);
-        return (struct anonymous$12 *)(void *)0;
+        return (struct anonymous_12 *)(void *)0;
       }
 
       else
@@ -12955,24 +12955,24 @@ struct anonymous$12 * win_new(signed int height, signed int width)
         for( ; !(i >= height); i = i + 1)
         {
           (retval->lines + (signed long int)i)->allocated = width > 80 ? 80 : width;
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc((unsigned long int)(retval->lines + (signed long int)i)->allocated);
-          (retval->lines + (signed long int)i)->data = (char *)return_value_malloc$3;
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc((unsigned long int)(retval->lines + (signed long int)i)->allocated);
+          (retval->lines + (signed long int)i)->data = (char *)return_value_malloc_3;
           if((retval->lines + (signed long int)i)->data == ((char *)NULL))
           {
             win_del(retval);
-            return (struct anonymous$12 *)(void *)0;
+            return (struct anonymous_12 *)(void *)0;
           }
 
         }
         adjust_lines(retval);
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc((unsigned long int)80);
-        retval->output_buffer.data = (char *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc((unsigned long int)80);
+        retval->output_buffer.data = (char *)return_value_malloc_4;
         if(retval->output_buffer.data == ((char *)NULL))
         {
           win_del(retval);
-          return (struct anonymous$12 *)(void *)0;
+          return (struct anonymous_12 *)(void *)0;
         }
 
         else
@@ -12987,19 +12987,19 @@ struct anonymous$12 * win_new(signed int height, signed int width)
 
 // win_resize
 // file src/window.h line 173
-enum anonymous$10 win_resize(struct anonymous$12 *win, signed int height, signed int width)
+enum anonymous_10 win_resize(struct anonymous_12 *win, signed int height, signed int width)
 {
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(height >= 1) || !(width >= 1))
-    return (enum anonymous$10)td_false;
+    return (enum anonymous_10)td_false;
 
   else
-    if(win->lines == ((struct anonymous$14 *)NULL))
+    if(win->lines == ((struct anonymous_14 *)NULL))
     {
       win->height = height;
       win->width = width;
-      return (enum anonymous$10)td_true;
+      return (enum anonymous_10)td_true;
     }
 
     else
@@ -13007,36 +13007,36 @@ enum anonymous$10 win_resize(struct anonymous$12 *win, signed int height, signed
       if(!(win->height >= height))
       {
         void *result;
-        result=realloc((void *)win->lines, (unsigned long int)height * sizeof(struct anonymous$14) /*24ul*/ );
+        result=realloc((void *)win->lines, (unsigned long int)height * sizeof(struct anonymous_14) /*24ul*/ );
         if(result == NULL)
-          return (enum anonymous$10)td_false;
+          return (enum anonymous_10)td_false;
 
-        win->lines = (struct anonymous$14 *)result;
-        memset((void *)(win->lines + (signed long int)win->height), 0, sizeof(struct anonymous$14) /*24ul*/  * (unsigned long int)(height - win->height));
+        win->lines = (struct anonymous_14 *)result;
+        memset((void *)(win->lines + (signed long int)win->height), 0, sizeof(struct anonymous_14) /*24ul*/  * (unsigned long int)(height - win->height));
         i = win->height;
         for( ; !(i >= height); i = i + 1)
         {
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc((unsigned long int)80);
-          (win->lines + (signed long int)i)->data = (char *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc((unsigned long int)80);
+          (win->lines + (signed long int)i)->data = (char *)return_value_malloc_2;
           if((win->lines + (signed long int)i)->data == ((char *)NULL))
           {
             i = win->height;
             do
             {
               if(!(i >= height))
-                tmp_if_expr$1 = (win->lines + (signed long int)i)->data != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_1 = (win->lines + (signed long int)i)->data != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$1 = (_Bool)0;
-              if(!tmp_if_expr$1)
+                tmp_if_expr_1 = (_Bool)0;
+              if(!tmp_if_expr_1)
                 break;
 
               free((void *)(win->lines + (signed long int)i)->data);
               i = i + 1;
             }
             while((_Bool)1);
-            return (enum anonymous$10)td_false;
+            return (enum anonymous_10)td_false;
           }
 
           (win->lines + (signed long int)i)->allocated = 80;
@@ -13049,19 +13049,19 @@ enum anonymous$10 win_resize(struct anonymous$12 *win, signed int height, signed
           i = height;
           for( ; !(i >= win->height); i = i + 1)
             free((void *)(win->lines + (signed long int)i)->data);
-          memset((void *)(win->lines + (signed long int)height), 0, sizeof(struct anonymous$14) /*24ul*/  * (unsigned long int)(win->height - height));
+          memset((void *)(win->lines + (signed long int)height), 0, sizeof(struct anonymous_14) /*24ul*/  * (unsigned long int)(win->height - height));
         }
 
       adjust_lines(win);
       win->height = height;
       win->width = width;
-      return (enum anonymous$10)td_true;
+      return (enum anonymous_10)td_true;
     }
 }
 
 // win_restore_cursor
 // file src/window.c line 1127
-void win_restore_cursor(struct anonymous$12 *win)
+void win_restore_cursor(struct anonymous_12 *win)
 {
   win->paint_x = win->saved_cursor_x;
   win->paint_y = win->saved_cursor_y;
@@ -13069,7 +13069,7 @@ void win_restore_cursor(struct anonymous$12 *win)
 
 // win_save_cursor
 // file src/window.c line 1122
-void win_save_cursor(struct anonymous$12 *win)
+void win_save_cursor(struct anonymous_12 *win)
 {
   win->saved_cursor_x = win->paint_x;
   win->saved_cursor_y = win->paint_y;
@@ -13077,9 +13077,9 @@ void win_save_cursor(struct anonymous$12 *win)
 
 // win_scroll
 // file src/window.c line 309
-void win_scroll(struct anonymous$12 *win)
+void win_scroll(struct anonymous_12 *win)
 {
-  struct anonymous$14 first_line = win->lines[(signed long int)0];
+  struct anonymous_14 first_line = win->lines[(signed long int)0];
   signed int i = 1;
   for( ; !(i >= win->height); i = i + 1)
     win->lines[(signed long int)(i - 1)] = win->lines[(signed long int)i];
@@ -13091,9 +13091,9 @@ void win_scroll(struct anonymous$12 *win)
 
 // win_scroll_back
 // file src/window.c line 321
-void win_scroll_back(struct anonymous$12 *win)
+void win_scroll_back(struct anonymous_12 *win)
 {
-  struct anonymous$14 last_line = win->lines[(signed long int)(win->height - 1)];
+  struct anonymous_14 last_line = win->lines[(signed long int)(win->height - 1)];
   signed int i = win->height - 1;
   for( ; i >= 1; i = i - 1)
     win->lines[(signed long int)i] = win->lines[(signed long int)(i - 1)];
@@ -13105,68 +13105,68 @@ void win_scroll_back(struct anonymous$12 *win)
 
 // win_set_cup
 // file src/window.c line 1132
-void win_set_cup(struct anonymous$12 *win, enum anonymous$10 cup_active)
+void win_set_cup(struct anonymous_12 *win, enum anonymous_10 cup_active)
 {
   win->cup_active = cup_active;
 }
 
 // win_set_cursor
 // file src/window.c line 1118
-void win_set_cursor(struct anonymous$12 *win, enum anonymous$15 cursor_state)
+void win_set_cursor(struct anonymous_12 *win, enum anonymous_15 cursor_state)
 {
   win->cursor_state = cursor_state;
 }
 
 // win_set_default_attrs
 // file src/window.c line 426
-void win_set_default_attrs(struct anonymous$12 *win, signed int attrs)
+void win_set_default_attrs(struct anonymous_12 *win, signed int attrs)
 {
   win->default_attrs=map_attr(attrs);
 }
 
 // win_set_paint
 // file src/window.h line 174
-void win_set_paint(struct anonymous$12 *win, signed int y, signed int x)
+void win_set_paint(struct anonymous_12 *win, signed int y, signed int x)
 {
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   if(!(x >= 0))
-    tmp_if_expr$2 = 0;
+    tmp_if_expr_2 = 0;
 
   else
   {
     if(!(x >= win->width))
-      tmp_if_expr$1 = x;
+      tmp_if_expr_1 = x;
 
     else
-      tmp_if_expr$1 = win->width - 1;
-    tmp_if_expr$2 = tmp_if_expr$1;
+      tmp_if_expr_1 = win->width - 1;
+    tmp_if_expr_2 = tmp_if_expr_1;
   }
-  win->paint_x = tmp_if_expr$2;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$3;
+  win->paint_x = tmp_if_expr_2;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_3;
   if(!(y >= 0))
-    tmp_if_expr$4 = 0;
+    tmp_if_expr_4 = 0;
 
   else
   {
     if(!(y >= win->height))
-      tmp_if_expr$3 = y;
+      tmp_if_expr_3 = y;
 
     else
-      tmp_if_expr$3 = win->height - 1;
-    tmp_if_expr$4 = tmp_if_expr$3;
+      tmp_if_expr_3 = win->height - 1;
+    tmp_if_expr_4 = tmp_if_expr_3;
   }
-  win->paint_y = tmp_if_expr$4;
+  win->paint_y = tmp_if_expr_4;
 }
 
 // win_write_data
 // file src/write_stringlist.h line 20
-void win_write_data(struct anonymous$12 *win, char *data, unsigned long int length)
+void win_write_data(struct anonymous_12 *win, char *data, unsigned long int length)
 {
-  enum anonymous$10 return_value_ensure_space$1;
-  return_value_ensure_space$1=ensure_space(&win->output_buffer, length);
-  if(return_value_ensure_space$1 == /*enum*/td_false)
+  enum anonymous_10 return_value_ensure_space_1;
+  return_value_ensure_space_1=ensure_space(&win->output_buffer, length);
+  if(return_value_ensure_space_1 == /*enum*/td_false)
     fatal("Out of memory\n");
 
   memcpy((void *)(win->output_buffer.data + (signed long int)win->output_buffer.length), (const void *)data, length);
@@ -13176,16 +13176,16 @@ void win_write_data(struct anonymous$12 *win, char *data, unsigned long int leng
 
 // win_write_image
 // file src/window.h line 201
-void win_write_image(struct anonymous$12 *winA, struct anonymous$12 *winB, const char *name)
+void win_write_image(struct anonymous_12 *winA, struct anonymous_12 *winB, const char *name)
 {
   struct _cairo_surface *surface;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(winB->height >= winA->height))
-    tmp_if_expr$1 = winA->height;
+    tmp_if_expr_1 = winA->height;
 
   else
-    tmp_if_expr$1 = winB->height;
-  surface=cairo_image_surface_create((enum _cairo_format)CAIRO_FORMAT_ARGB32, winA->width * cell_width + winB->width * cell_width + 4, tmp_if_expr$1 * cell_height);
+    tmp_if_expr_1 = winB->height;
+  surface=cairo_image_surface_create((enum _cairo_format)CAIRO_FORMAT_ARGB32, winA->width * cell_width + winB->width * cell_width + 4, tmp_if_expr_1 * cell_height);
   struct _cairo *cr;
   cr=cairo_create(surface);
   struct _cairo_surface *mask_surface;
@@ -13202,7 +13202,7 @@ void win_write_image(struct anonymous$12 *winA, struct anonymous$12 *winB, const
   bold_font_description=pango_font_description_new();
   pango_font_description_set_absolute_size(font_description, (double)(cell_height * 1024) * 0.75);
   pango_font_description_set_family(bold_font_description, option_font);
-  pango_font_description_set_weight(bold_font_description, (enum anonymous$4)PANGO_WEIGHT_BOLD);
+  pango_font_description_set_weight(bold_font_description, (enum anonymous_4)PANGO_WEIGHT_BOLD);
   pango_font_description_set_absolute_size(bold_font_description, (double)(cell_height * 1024) * 0.75);
   layout=pango_cairo_create_layout(cr);
   pango_layout_set_font_description(layout, font_description);
@@ -13223,7 +13223,7 @@ __CPROVER_DUMP_L3:
 
 // win_write_stringlist
 // file src/write_stringlist.h line 21
-void win_write_stringlist(struct anonymous$12 *win, struct StringListNode *string)
+void win_write_stringlist(struct anonymous_12 *win, struct StringListNode *string)
 {
   for( ; !(string == ((struct StringListNode *)NULL)); string = string->next)
     win_write_data(win, string->string, (unsigned long int)string->length);
@@ -13290,22 +13290,22 @@ void write_escaped_string(struct _IO_FILE *out, const char *string, unsigned lon
   unsigned long int i;
   fputc(34, out);
   i = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= length); string = string + 1l)
   {
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((16384 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*string]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((16384 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*string]) == 0)
       fprintf(out, "\\%03o", (unsigned char)*string);
 
     else
     {
       if((signed int)*string == 92)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)*string == 34 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)*string == 34 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         fputc(92, out);
         fputc((signed int)*string, out);
@@ -13321,7 +13321,7 @@ void write_escaped_string(struct _IO_FILE *out, const char *string, unsigned lon
 
 // write_record
 // file src/common.c line 252
-void write_record(struct _IO_FILE *output, enum anonymous$3 dir, signed int delay, signed int min_delay, unsigned char *buffer, signed long int length)
+void write_record(struct _IO_FILE *output, enum anonymous_3 dir, signed int delay, signed int min_delay, unsigned char *buffer, signed long int length)
 {
   signed int i;
   if(!(last_type == dir))
@@ -13349,26 +13349,26 @@ void write_record(struct _IO_FILE *output, enum anonymous$3 dir, signed int dela
   }
 
   i = 0;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  _Bool tmp_if_expr$1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  _Bool tmp_if_expr_1;
   for( ; !((signed long int)i >= length); i = i + 1)
     if((signed int)buffer[(signed long int)i] == 13 && (signed int)dir == TYPE_OUTPUT)
       fputs("\\r\"\n\t\"", output);
 
     else
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((16384 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)buffer[(signed long int)i]]) == 0)
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((16384 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)buffer[(signed long int)i]]) == 0)
         fprintf(output, "\\%03o", buffer[(signed long int)i]);
 
       else
       {
         if((signed int)buffer[(signed long int)i] == 34)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)buffer[(signed long int)i] == 92 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)buffer[(signed long int)i] == 92 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           fputc(92, output);
           fputc((signed int)buffer[(signed long int)i], output);
@@ -13385,13 +13385,13 @@ void write_record(struct _IO_FILE *output, enum anonymous$3 dir, signed int dela
 
 // write_single_image
 // file src/write_image.c line 154
-static void write_single_image(struct anonymous$12 *win, signed int offset, struct _cairo *cr, struct _PangoLayout *layout, struct _PangoFontDescription *font_description, struct _PangoFontDescription *bold_font_description)
+static void write_single_image(struct anonymous_12 *win, signed int offset, struct _cairo *cr, struct _PangoLayout *layout, struct _PangoFontDescription *font_description, struct _PangoFontDescription *bold_font_description)
 {
   signed int i;
   signed int j;
   i = 0;
-  _Bool tmp_if_expr$1;
-  unsigned long int return_value_strlen$4;
+  _Bool tmp_if_expr_1;
+  unsigned long int return_value_strlen_4;
   for( ; !(i >= win->height); i = i + 1)
   {
     signed int idx;
@@ -13400,29 +13400,29 @@ static void write_single_image(struct anonymous$12 *win, signed int offset, stru
     do
     {
       if(!(j >= win->width))
-        tmp_if_expr$1 = idx < (win->lines + (signed long int)i)->length ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = idx < (win->lines + (signed long int)i)->length ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       unsigned int block_size;
       signed int attr;
       unsigned long int bytes;
-      enum anonymous$10 fullwidth = (enum anonymous$10)td_false;
+      enum anonymous_10 fullwidth = (enum anonymous_10)td_false;
       block_size=get_value((win->lines + (signed long int)i)->data + (signed long int)idx, &bytes);
       if((1 & (signed int)block_size) == 1)
-        fullwidth = (enum anonymous$10)td_true;
+        fullwidth = (enum anonymous_10)td_true;
 
-      cairo_rectangle(cr, (double)(j * cell_width + offset), (double)(i * cell_height), (double)(fullwidth != (enum anonymous$10)0 ? cell_width * 2 : cell_width), (double)cell_height);
+      cairo_rectangle(cr, (double)(j * cell_width + offset), (double)(i * cell_height), (double)(fullwidth != (enum anonymous_10)0 ? cell_width * 2 : cell_width), (double)cell_height);
       cairo_clip(cr);
-      cairo_rectangle(cr, (double)(j * cell_width + offset), (double)(i * cell_height), (double)(fullwidth != (enum anonymous$10)0 ? cell_width * 2 : cell_width), (double)cell_height);
+      cairo_rectangle(cr, (double)(j * cell_width + offset), (double)(i * cell_height), (double)(fullwidth != (enum anonymous_10)0 ? cell_width * 2 : cell_width), (double)cell_height);
       block_size = block_size >> 1;
       idx = idx + (signed int)bytes;
-      unsigned int return_value_get_value$2;
-      return_value_get_value$2=get_value((win->lines + (signed long int)i)->data + (signed long int)idx, &bytes);
-      attr=get_attr((signed int)return_value_get_value$2);
+      unsigned int return_value_get_value_2;
+      return_value_get_value_2=get_value((win->lines + (signed long int)i)->data + (signed long int)idx, &bytes);
+      attr=get_attr((signed int)return_value_get_value_2);
       idx = idx + (signed int)bytes;
       block_size = block_size - (unsigned int)bytes;
       set_context_from_attr_idx(cr, layout, font_description, bold_font_description, attr);
@@ -13435,15 +13435,15 @@ static void write_single_image(struct anonymous$12 *win, signed int offset, stru
           for( ; !(k >= 32ul); k = k + 1ul)
             if(acs_map[(signed long int)k].idx == (win->lines + (signed long int)i)->data[(signed long int)idx])
             {
-              unsigned long int return_value_strlen$3;
-              return_value_strlen$3=strlen(acs_map[(signed long int)k].utf8);
-              pango_layout_set_text(layout, acs_map[(signed long int)k].utf8, (signed int)return_value_strlen$3);
-              signed int return_value_pango_layout_get_unknown_glyphs_count$5;
-              return_value_pango_layout_get_unknown_glyphs_count$5=pango_layout_get_unknown_glyphs_count(layout);
-              if(return_value_pango_layout_get_unknown_glyphs_count$5 >= 1)
+              unsigned long int return_value_strlen_3;
+              return_value_strlen_3=strlen(acs_map[(signed long int)k].utf8);
+              pango_layout_set_text(layout, acs_map[(signed long int)k].utf8, (signed int)return_value_strlen_3);
+              signed int return_value_pango_layout_get_unknown_glyphs_count_5;
+              return_value_pango_layout_get_unknown_glyphs_count_5=pango_layout_get_unknown_glyphs_count(layout);
+              if(return_value_pango_layout_get_unknown_glyphs_count_5 >= 1)
               {
-                return_value_strlen$4=strlen(acs_map[(signed long int)k].alt);
-                pango_layout_set_text(layout, acs_map[(signed long int)k].alt, (signed int)return_value_strlen$4);
+                return_value_strlen_4=strlen(acs_map[(signed long int)k].alt);
+                pango_layout_set_text(layout, acs_map[(signed long int)k].alt, (signed int)return_value_strlen_4);
               }
 
               pango_cairo_show_layout(cr, layout);
@@ -13497,9 +13497,9 @@ static void write_single_image(struct anonymous$12 *win, signed int offset, stru
 
 // write_text
 // file src/write_stringlist.c line 377
-static signed int write_text(struct anonymous$12 *win, signed int start, signed int end, enum anonymous$10 force)
+static signed int write_text(struct anonymous_12 *win, signed int start, signed int end, enum anonymous_10 force)
 {
-  char write_text$$1$$output[1024l];
+  char write_text__1__output[1024l];
   char *output_ptr;
   char *input_ptr = win->output_buffer.data + (signed long int)start;
   unsigned long int inbytes_left = (unsigned long int)(end - start);
@@ -13515,14 +13515,14 @@ static signed int write_text(struct anonymous$12 *win, signed int start, signed 
   else
     while((_Bool)1)
     {
-      output_ptr = write_text$$1$$output;
+      output_ptr = write_text__1__output;
       outbytes_left = sizeof(char [1024l]) /*1024ul*/ ;
       result=iconv(iconv_handle, &input_ptr, &inbytes_left, &output_ptr, &outbytes_left);
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      saved_errno = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      saved_errno = *return_value___errno_location_1;
       if(!(outbytes_left == sizeof(char [1024l]) /*1024ul*/ ))
-        win_addnstr(win, write_text$$1$$output, sizeof(char [1024l]) /*1024ul*/  - outbytes_left);
+        win_addnstr(win, write_text__1__output, sizeof(char [1024l]) /*1024ul*/  - outbytes_left);
 
       if(result == 18446744073709551615ul)
       {
@@ -13565,16 +13565,16 @@ static signed int write_text(struct anonymous$12 *win, signed int start, signed 
 struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size)
 {
   struct yy_buffer_state *b;
-  void *return_value_yyalloc$1;
-  return_value_yyalloc$1=yyalloc(sizeof(struct yy_buffer_state) /*64ul*/ );
-  b = (struct yy_buffer_state *)return_value_yyalloc$1;
+  void *return_value_yyalloc_1;
+  return_value_yyalloc_1=yyalloc(sizeof(struct yy_buffer_state) /*64ul*/ );
+  b = (struct yy_buffer_state *)return_value_yyalloc_1;
   if(b == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()");
 
   b->yy_buf_size = (unsigned long int)size;
-  void *return_value_yyalloc$2;
-  return_value_yyalloc$2=yyalloc(b->yy_buf_size + (unsigned long int)2);
-  b->yy_ch_buf = (char *)return_value_yyalloc$2;
+  void *return_value_yyalloc_2;
+  return_value_yyalloc_2=yyalloc(b->yy_buf_size + (unsigned long int)2);
+  b->yy_ch_buf = (char *)return_value_yyalloc_2;
   if(b->yy_ch_buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()");
 
@@ -13587,15 +13587,15 @@ struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size
 // file .objects/input_lex.c line 1389
 void yy_delete_buffer(struct yy_buffer_state *b)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)0;
 
     if(!(b->yy_is_our_buffer == 0))
@@ -13618,7 +13618,7 @@ static void yy_fatal_error(const char *msg)
 // file .objects/input_lex.c line 1440
 void yy_flush_buffer(struct yy_buffer_state *b)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     b->yy_n_chars = 0;
@@ -13628,11 +13628,11 @@ void yy_flush_buffer(struct yy_buffer_state *b)
     b->yy_at_bol = 1;
     b->yy_buffer_status = 0;
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yy_load_buffer_state();
 
   }
@@ -13651,14 +13651,14 @@ static signed int yy_get_next_buffer(void)
   if(!(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf + (signed long int)(1 + yy_n_chars) >= yy_c_buf_p))
     yy_fatal_error("fatal flex scanner internal error--end of buffer missed");
 
-  char *tmp_post$1;
-  char *tmp_post$2;
-  struct yy_buffer_state *tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  unsigned long int tmp_post$6;
-  signed int return_value_ferror$7;
-  unsigned long int return_value_fread$9;
-  signed int return_value_ferror$10;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  struct yy_buffer_state *tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  unsigned long int tmp_post_6;
+  signed int return_value_ferror_7;
+  unsigned long int return_value_fread_9;
+  signed int return_value_ferror_10;
   if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_fill_buffer == 0)
   {
     if(yy_c_buf_p - yytext == 1l)
@@ -13673,11 +13673,11 @@ static signed int yy_get_next_buffer(void)
     i = 0;
     for( ; !(i >= number_to_move); i = i + 1)
     {
-      tmp_post$1 = dest;
+      tmp_post_1 = dest;
       dest = dest + 1l;
-      tmp_post$2 = source;
+      tmp_post_2 = source;
       source = source + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
     if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buffer_status == 2)
     {
@@ -13692,11 +13692,11 @@ static signed int yy_get_next_buffer(void)
       {
         struct yy_buffer_state *b;
         if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-          tmp_if_expr$3 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+          tmp_if_expr_3 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
         else
-          tmp_if_expr$3 = (struct yy_buffer_state *)(void *)0;
-        b = tmp_if_expr$3;
+          tmp_if_expr_3 = (struct yy_buffer_state *)(void *)0;
+        b = tmp_if_expr_3;
         signed int yy_c_buf_p_offset = (signed int)(yy_c_buf_p - b->yy_ch_buf);
         if(!(b->yy_is_our_buffer == 0))
         {
@@ -13706,9 +13706,9 @@ static signed int yy_get_next_buffer(void)
 
           else
             b->yy_buf_size = b->yy_buf_size * (unsigned long int)2;
-          void *return_value_yyrealloc$4;
-          return_value_yyrealloc$4=yyrealloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned long int)2);
-          b->yy_ch_buf = (char *)return_value_yyrealloc$4;
+          void *return_value_yyrealloc_4;
+          return_value_yyrealloc_4=yyrealloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned long int)2);
+          b->yy_ch_buf = (char *)return_value_yyrealloc_4;
         }
 
         else
@@ -13731,12 +13731,12 @@ static signed int yy_get_next_buffer(void)
           if(!(n >= (unsigned long int)num_to_read))
           {
             c=_IO_getc(yyin);
-            tmp_if_expr$5 = c != -1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = c != -1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(c == 10 || !tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(c == 10 || !tmp_if_expr_5)
             break;
 
           (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)n] = (char)c;
@@ -13745,15 +13745,15 @@ static signed int yy_get_next_buffer(void)
         while((_Bool)1);
         if(c == 10)
         {
-          tmp_post$6 = n;
+          tmp_post_6 = n;
           n = n + 1ul;
-          (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)tmp_post$6] = (char)c;
+          (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)tmp_post_6] = (char)c;
         }
 
         if(c == -1)
         {
-          return_value_ferror$7=ferror(yyin);
-          if(!(return_value_ferror$7 == 0))
+          return_value_ferror_7=ferror(yyin);
+          if(!(return_value_ferror_7 == 0))
             yy_fatal_error("input in flex scanner failed");
 
         }
@@ -13763,31 +13763,31 @@ static signed int yy_get_next_buffer(void)
 
       else
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        *return_value___errno_location$8 = 0;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        *return_value___errno_location_8 = 0;
         do
         {
-          return_value_fread$9=fread((void *)&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move], (unsigned long int)1, (unsigned long int)num_to_read, yyin);
-          yy_n_chars = (signed int)return_value_fread$9;
+          return_value_fread_9=fread((void *)&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move], (unsigned long int)1, (unsigned long int)num_to_read, yyin);
+          yy_n_chars = (signed int)return_value_fread_9;
           if(!(yy_n_chars == 0))
             break;
 
-          return_value_ferror$10=ferror(yyin);
-          if(return_value_ferror$10 == 0)
+          return_value_ferror_10=ferror(yyin);
+          if(return_value_ferror_10 == 0)
             break;
 
-          signed int *return_value___errno_location$11;
-          return_value___errno_location$11=__errno_location();
-          if(!(*return_value___errno_location$11 == 4))
+          signed int *return_value___errno_location_11;
+          return_value___errno_location_11=__errno_location();
+          if(!(*return_value___errno_location_11 == 4))
           {
             yy_fatal_error("input in flex scanner failed");
             break;
           }
 
-          signed int *return_value___errno_location$12;
-          return_value___errno_location$12=__errno_location();
-          *return_value___errno_location$12 = 0;
+          signed int *return_value___errno_location_12;
+          return_value___errno_location_12=__errno_location();
+          *return_value___errno_location_12 = 0;
           clearerr(yyin);
         }
         while((_Bool)1);
@@ -13813,10 +13813,10 @@ static signed int yy_get_next_buffer(void)
       ret_val = 0;
     if(!(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_size >= (unsigned long int)(number_to_move + yy_n_chars)))
     {
-      unsigned long int yy_get_next_buffer$$1$$5$$new_size = (unsigned long int)(yy_n_chars + number_to_move + (yy_n_chars >> 1));
-      void *return_value_yyrealloc$13;
-      return_value_yyrealloc$13=yyrealloc((void *)yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf, yy_get_next_buffer$$1$$5$$new_size);
-      yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_yyrealloc$13;
+      unsigned long int yy_get_next_buffer__1__5__new_size = (unsigned long int)(yy_n_chars + number_to_move + (yy_n_chars >> 1));
+      void *return_value_yyrealloc_13;
+      return_value_yyrealloc_13=yyrealloc((void *)yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf, yy_get_next_buffer__1__5__new_size);
+      yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_yyrealloc_13;
       if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf == ((char *)NULL))
         yy_fatal_error("out of dynamic memory in yy_get_next_buffer()");
 
@@ -13838,16 +13838,16 @@ static signed int yy_get_previous_state(void)
   char *yy_cp;
   yy_current_state = yy_start;
   yy_cp = yytext + (signed long int)0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(yy_cp >= yy_c_buf_p); yy_cp = yy_cp + 1l)
   {
     unsigned char yy_c;
     if(!(*yy_cp == 0))
-      tmp_if_expr$1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
+      tmp_if_expr_1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
 
     else
-      tmp_if_expr$1 = 1;
-    yy_c = (unsigned char)tmp_if_expr$1;
+      tmp_if_expr_1 = 1;
+    yy_c = (unsigned char)tmp_if_expr_1;
     if(!(yy_accept[(signed long int)yy_current_state] == 0))
     {
       yy_last_accepting_state = yy_current_state;
@@ -13871,40 +13871,40 @@ static signed int yy_get_previous_state(void)
 static void yy_init_buffer(struct yy_buffer_state *b, struct _IO_FILE *file)
 {
   signed int oerrno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  oerrno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  oerrno = *return_value___errno_location_1;
   yy_flush_buffer(b);
   b->yy_input_file = file;
   b->yy_fill_buffer = 1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  if(!(b == tmp_if_expr$2))
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  if(!(b == tmp_if_expr_2))
   {
     b->yy_bs_lineno = 1;
     b->yy_bs_column = 0;
   }
 
-  signed int tmp_if_expr$5;
-  signed int return_value_fileno$3;
-  signed int return_value_isatty$4;
+  signed int tmp_if_expr_5;
+  signed int return_value_fileno_3;
+  signed int return_value_isatty_4;
   if(!(file == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fileno$3=fileno(file);
-    return_value_isatty$4=isatty(return_value_fileno$3);
-    tmp_if_expr$5 = (signed int)(return_value_isatty$4 > 0);
+    return_value_fileno_3=fileno(file);
+    return_value_isatty_4=isatty(return_value_fileno_3);
+    tmp_if_expr_5 = (signed int)(return_value_isatty_4 > 0);
   }
 
   else
-    tmp_if_expr$5 = 0;
-  b->yy_is_interactive = tmp_if_expr$5;
-  signed int *return_value___errno_location$6;
-  return_value___errno_location$6=__errno_location();
-  *return_value___errno_location$6 = oerrno;
+    tmp_if_expr_5 = 0;
+  b->yy_is_interactive = tmp_if_expr_5;
+  signed int *return_value___errno_location_6;
+  return_value___errno_location_6=__errno_location();
+  *return_value___errno_location_6 = oerrno;
 }
 
 // yy_init_globals
@@ -13938,26 +13938,26 @@ static void yy_load_buffer_state(void)
 struct yy_buffer_state * yy_scan_buffer(char *base, unsigned long int size)
 {
   struct yy_buffer_state *b;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(size >= 2ul))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return ((struct yy_buffer_state *)NULL);
 
   else
   {
-    void *return_value_yyalloc$3;
-    return_value_yyalloc$3=yyalloc(sizeof(struct yy_buffer_state) /*64ul*/ );
-    b = (struct yy_buffer_state *)return_value_yyalloc$3;
+    void *return_value_yyalloc_3;
+    return_value_yyalloc_3=yyalloc(sizeof(struct yy_buffer_state) /*64ul*/ );
+    b = (struct yy_buffer_state *)return_value_yyalloc_3;
     if(b == ((struct yy_buffer_state *)NULL))
       yy_fatal_error("out of dynamic memory in yy_scan_buffer()");
 
@@ -13985,9 +13985,9 @@ struct yy_buffer_state * yy_scan_bytes(const char *yybytes, signed int _yybytes_
   unsigned long int n;
   signed int i;
   n = (unsigned long int)(_yybytes_len + 2);
-  void *return_value_yyalloc$1;
-  return_value_yyalloc$1=yyalloc(n);
-  buf = (char *)return_value_yyalloc$1;
+  void *return_value_yyalloc_1;
+  return_value_yyalloc_1=yyalloc(n);
+  buf = (char *)return_value_yyalloc_1;
   if(buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_scan_bytes()");
 
@@ -14008,11 +14008,11 @@ struct yy_buffer_state * yy_scan_bytes(const char *yybytes, signed int _yybytes_
 // file .objects/input_lex.c line 1604
 struct yy_buffer_state * yy_scan_string(const char *yystr)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(yystr);
-  struct yy_buffer_state *return_value_yy_scan_bytes$2;
-  return_value_yy_scan_bytes$2=yy_scan_bytes(yystr, (signed int)return_value_strlen$1);
-  return return_value_yy_scan_bytes$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(yystr);
+  struct yy_buffer_state *return_value_yy_scan_bytes_2;
+  return_value_yy_scan_bytes_2=yy_scan_bytes(yystr, (signed int)return_value_strlen_1);
+  return return_value_yy_scan_bytes_2;
 }
 
 // yy_switch_to_buffer
@@ -14020,21 +14020,21 @@ struct yy_buffer_state * yy_scan_string(const char *yystr)
 void yy_switch_to_buffer(struct yy_buffer_state *new_buffer)
 {
   yyensure_buffer_stack();
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  if(!(tmp_if_expr$1 == new_buffer))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  if(!(tmp_if_expr_1 == new_buffer))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
     {
       *yy_c_buf_p = yy_hold_char;
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_pos = yy_c_buf_p;
@@ -14077,9 +14077,9 @@ static signed int yy_try_NUL_trans(signed int yy_current_state)
 // file .objects/input_lex.c line 1828
 void * yyalloc(unsigned long int size)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size);
-  return (void *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size);
+  return (void *)return_value_malloc_1;
 }
 
 // yyensure_buffer_stack
@@ -14090,9 +14090,9 @@ static void yyensure_buffer_stack(void)
   if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
   {
     num_to_alloc = 1;
-    void *return_value_yyalloc$1;
-    return_value_yyalloc$1=yyalloc((unsigned long int)num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
-    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyalloc$1;
+    void *return_value_yyalloc_1;
+    return_value_yyalloc_1=yyalloc((unsigned long int)num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
+    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyalloc_1;
     if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
       yy_fatal_error("out of dynamic memory in yyensure_buffer_stack()");
 
@@ -14106,9 +14106,9 @@ static void yyensure_buffer_stack(void)
   {
     signed int grow_size = 8;
     num_to_alloc = (signed int)(yy_buffer_stack_max + (unsigned long int)grow_size);
-    void *return_value_yyrealloc$2;
-    return_value_yyrealloc$2=yyrealloc((void *)yy_buffer_stack, (unsigned long int)num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
-    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyrealloc$2;
+    void *return_value_yyrealloc_2;
+    return_value_yyrealloc_2=yyrealloc((void *)yy_buffer_stack, (unsigned long int)num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
+    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyrealloc_2;
     if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
       yy_fatal_error("out of dynamic memory in yyensure_buffer_stack()");
 
@@ -14178,7 +14178,7 @@ signed int yylex(void)
   char *yy_cp;
   char *yy_bp;
   signed int yy_act;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(yy_init == 0)
   {
     yy_init = 1;
@@ -14192,11 +14192,11 @@ signed int yylex(void)
       yyout = stdout;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     {
       yyensure_buffer_stack();
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]=yy_create_buffer(yyin, 16384);
@@ -14206,7 +14206,7 @@ signed int yylex(void)
   }
 
   signed int yy_amount_of_matched_text;
-  signed int return_value_yy_get_next_buffer$2;
+  signed int return_value_yy_get_next_buffer_2;
   while((_Bool)1)
   {
     yy_cp = yy_c_buf_p;
@@ -14438,13 +14438,13 @@ signed int yylex(void)
           }
         }
 
-        return_value_yy_get_next_buffer$2=yy_get_next_buffer();
-        if(!(return_value_yy_get_next_buffer$2 == 1))
+        return_value_yy_get_next_buffer_2=yy_get_next_buffer();
+        if(!(return_value_yy_get_next_buffer_2 == 1))
         {
-          if(return_value_yy_get_next_buffer$2 == 0)
+          if(return_value_yy_get_next_buffer_2 == 0)
             goto __CPROVER_DUMP_L45;
 
-          if(return_value_yy_get_next_buffer$2 == 2)
+          if(return_value_yy_get_next_buffer_2 == 2)
             goto __CPROVER_DUMP_L46;
 
           goto __CPROVER_DUMP_L47;
@@ -14492,24 +14492,24 @@ signed int yylex(void)
 // file .objects/input_lex.c line 1783
 signed int yylex_destroy(void)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   do
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
       break;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    yy_delete_buffer(tmp_if_expr$2);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    yy_delete_buffer(tmp_if_expr_2);
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     yypop_buffer_state();
   }
@@ -14524,32 +14524,32 @@ signed int yylex_destroy(void)
 // file .objects/input_lex.c line 1499
 void yypop_buffer_state(void)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  struct yy_buffer_state *tmp_if_expr$3;
-  if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  struct yy_buffer_state *tmp_if_expr_3;
+  if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    yy_delete_buffer(tmp_if_expr$2);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    yy_delete_buffer(tmp_if_expr_2);
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     if(yy_buffer_stack_top >= 1ul)
       yy_buffer_stack_top = yy_buffer_stack_top - 1ul;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$3 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_3 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$3 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$3 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_3 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_3 == ((struct yy_buffer_state *)NULL)))
     {
       yy_load_buffer_state();
       yy_did_buffer_switch_on_eof = 1;
@@ -14563,17 +14563,17 @@ void yypop_buffer_state(void)
 // file .objects/input_lex.c line 1469
 void yypush_buffer_state(struct yy_buffer_state *new_buffer)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(new_buffer == ((struct yy_buffer_state *)NULL)))
   {
     yyensure_buffer_stack();
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
     {
       *yy_c_buf_p = yy_hold_char;
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_pos = yy_c_buf_p;
@@ -14581,11 +14581,11 @@ void yypush_buffer_state(struct yy_buffer_state *new_buffer)
     }
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
       yy_buffer_stack_top = yy_buffer_stack_top + 1ul;
 
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = new_buffer;
@@ -14599,34 +14599,34 @@ void yypush_buffer_state(struct yy_buffer_state *new_buffer)
 // file .objects/input_lex.c line 1833
 void * yyrealloc(void *ptr, unsigned long int size)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)(char *)ptr, size);
-  return (void *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)(char *)ptr, size);
+  return (void *)return_value_realloc_1;
 }
 
 // yyrestart
 // file .objects/input_lex.c line 1299
 void yyrestart(struct _IO_FILE *input_file)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
   {
     yyensure_buffer_stack();
     yy_buffer_stack[(signed long int)yy_buffer_stack_top]=yy_create_buffer(yyin, 16384);
   }
 
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  yy_init_buffer(tmp_if_expr$2, input_file);
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  yy_init_buffer(tmp_if_expr_2, input_file);
   yy_load_buffer_state();
 }
 

@@ -1,20 +1,20 @@
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -269,10 +269,10 @@ static inline void print_addr_single(unsigned int x);
 extern signed int printf(const char *, ...);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$1 *);
+extern signed int pthread_cond_signal(union anonymous_1 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$1 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_1 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -287,10 +287,10 @@ extern signed int pthread_mutex_lock(union anonymous *);
 extern signed int pthread_mutex_unlock(union anonymous *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$3 *);
+extern signed int pthread_rwlock_unlock(union anonymous_3 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$3 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_3 *);
 // qsort
 // file /usr/include/stdlib.h line 764
 extern void qsort(void *, unsigned long int, unsigned long int, signed int (*)(const void *, const void *));
@@ -346,7 +346,7 @@ static void usage(const char *me);
 // file iprange.c line 2380
 static void version();
 
-struct anonymous$0
+struct anonymous_0
 {
   // __lock
   signed int __lock;
@@ -366,7 +366,7 @@ struct anonymous$0
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -394,20 +394,20 @@ struct anonymous$2
   unsigned int __flags;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$0 __data;
+  struct anonymous_0 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[56l];
   // __align
@@ -645,7 +645,7 @@ static signed int debug;
 static signed int default_prefix = 32;
 // dns_cond
 // file iprange.c line 1259
-static union anonymous$1 dns_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_1 dns_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -668,7 +668,7 @@ static unsigned long int dns_replies_failed;
 static unsigned long int dns_replies_found;
 // dns_replies_rwlock
 // file iprange.c line 1261
-static union anonymous$3 dns_replies_rwlock = { .__data={ .__lock=0, .__nr_readers=(unsigned int)0, .__readers_wakeup=(unsigned int)0,
+static union anonymous_3 dns_replies_rwlock = { .__data={ .__lock=0, .__nr_readers=(unsigned int)0, .__readers_wakeup=(unsigned int)0,
     .__writer_wakeup=(unsigned int)0, .__nr_readers_queued=(unsigned int)0,
     .__nr_writers_queued=(unsigned int)0,
     .__writer=0,
@@ -692,7 +692,7 @@ static unsigned long int dns_requests_pending;
 static unsigned long int dns_requests_retries;
 // dns_requests_rwlock
 // file iprange.c line 1260
-static union anonymous$3 dns_requests_rwlock = { .__data={ .__lock=0, .__nr_readers=(unsigned int)0, .__readers_wakeup=(unsigned int)0,
+static union anonymous_3 dns_requests_rwlock = { .__data={ .__lock=0, .__nr_readers=(unsigned int)0, .__readers_wakeup=(unsigned int)0,
     .__writer_wakeup=(unsigned int)0, .__nr_readers_queued=(unsigned int)0,
     .__nr_writers_queued=(unsigned int)0,
     .__writer=0,
@@ -747,32 +747,32 @@ extern struct _IO_FILE *stdout;
 static inline unsigned int a_to_hl(char *ipstr, signed int *err)
 {
   struct in_addr in;
-  signed int return_value_inet_aton$2;
-  return_value_inet_aton$2=inet_aton(ipstr, &in);
-  if(return_value_inet_aton$2 == 0)
+  signed int return_value_inet_aton_2;
+  return_value_inet_aton_2=inet_aton(ipstr, &in);
+  if(return_value_inet_aton_2 == 0)
   {
     fprintf(stderr, "%s: Invalid address %s.\n", PROG, ipstr);
     in.s_addr = (unsigned int)0;
     if(!(err == ((signed int *)NULL)))
       *err = *err + 1;
 
-    unsigned int return_value_ntohl$1;
-    return_value_ntohl$1=ntohl(in.s_addr);
-    return return_value_ntohl$1;
+    unsigned int return_value_ntohl_1;
+    return_value_ntohl_1=ntohl(in.s_addr);
+    return return_value_ntohl_1;
   }
 
-  unsigned int return_value_ntohl$3;
-  return_value_ntohl$3=ntohl(in.s_addr);
-  return return_value_ntohl$3;
+  unsigned int return_value_ntohl_3;
+  return_value_ntohl_3=ntohl(in.s_addr);
+  return return_value_ntohl_3;
 }
 
 // broadcast
 // file iprange.c line 83
 static inline unsigned int broadcast(unsigned int addr, signed int prefix)
 {
-  unsigned int return_value_netmask$1;
-  return_value_netmask$1=netmask(prefix);
-  return addr | ~return_value_netmask$1;
+  unsigned int return_value_netmask_1;
+  return_value_netmask_1=netmask(prefix);
+  return addr | ~return_value_netmask_1;
 }
 
 // compar_netaddr
@@ -894,11 +894,11 @@ static void dns_request(struct ipset *ips, char *hostname)
 {
   struct dnsreq *d;
   dns_process_replies(ips);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(hostname);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct dnsreq) /*16ul*/  + return_value_strlen$1 + (unsigned long int)1);
-  d = (struct dnsreq *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(hostname);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct dnsreq) /*16ul*/  + return_value_strlen_1 + (unsigned long int)1);
+  d = (struct dnsreq *)return_value_malloc_2;
   if(!(d == ((struct dnsreq *)NULL)))
   {
     strcpy(d->hostname, hostname);
@@ -927,16 +927,16 @@ static void dns_request_add(struct dnsreq *d)
   dns_requests_made = dns_requests_made + 1ul;
   pending = dns_requests_pending;
   dns_unlock_requests();
-  signed int return_value_pthread_detach$1;
+  signed int return_value_pthread_detach_1;
   if(!(dns_threads >= dns_threads_max) && !((unsigned long int)dns_threads >= pending))
   {
     unsigned long int thread;
     if(!(debug == 0))
       fprintf(stderr, "%s: Creating new DNS thread\n", PROG);
 
-    signed int return_value_pthread_create$2;
-    return_value_pthread_create$2=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, dns_thread_resolve, (void *)0);
-    if(!(return_value_pthread_create$2 == 0))
+    signed int return_value_pthread_create_2;
+    return_value_pthread_create_2=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, dns_thread_resolve, (void *)0);
+    if(!(return_value_pthread_create_2 == 0))
     {
       fprintf(stderr, "%s: Cannot create DNS thread.\n", PROG);
       goto __CPROVER_DUMP_L5;
@@ -944,8 +944,8 @@ static void dns_request_add(struct dnsreq *d)
 
     else
     {
-      return_value_pthread_detach$1=pthread_detach(thread);
-      if(!(return_value_pthread_detach$1 == 0))
+      return_value_pthread_detach_1=pthread_detach(thread);
+      if(!(return_value_pthread_detach_1 == 0))
       {
         fprintf(stderr, "%s: Cannot detach DNS thread.\n", PROG);
         goto __CPROVER_DUMP_L5;
@@ -981,10 +981,10 @@ static void dns_request_done(struct dnsreq *d, signed int added)
 // file iprange.c line 1353
 static void dns_request_failed(struct dnsreq *d, signed int added, signed int gai_error)
 {
-  const char *return_value_gai_strerror$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  const char *return_value_gai_strerror$4;
+  const char *return_value_gai_strerror_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  const char *return_value_gai_strerror_4;
   if(!(gai_error == -3))
   {
     if(gai_error == -11)
@@ -1004,8 +1004,8 @@ static void dns_request_failed(struct dnsreq *d, signed int added, signed int ga
     {
       if(dns_silent == 0)
       {
-        return_value_gai_strerror$1=gai_strerror(gai_error);
-        fprintf(stderr, "%s: DNS: '%s' will be retried: %s\n", PROG, (const void *)d->hostname, return_value_gai_strerror$1);
+        return_value_gai_strerror_1=gai_strerror(gai_error);
+        fprintf(stderr, "%s: DNS: '%s' will be retried: %s\n", PROG, (const void *)d->hostname, return_value_gai_strerror_1);
       }
 
       d->tries = d->tries - 1;
@@ -1023,27 +1023,27 @@ static void dns_request_failed(struct dnsreq *d, signed int added, signed int ga
 
   __CPROVER_DUMP_L4:
     ;
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fprintf(stderr, "%s: DNS: '%s' system error: %s\n", PROG, (const void *)d->hostname, return_value_strerror$3);
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fprintf(stderr, "%s: DNS: '%s' system error: %s\n", PROG, (const void *)d->hostname, return_value_strerror_3);
     dns_request_done(d, added);
     goto __CPROVER_DUMP_L8;
 
   __CPROVER_DUMP_L5:
     ;
-    return_value_gai_strerror$4=gai_strerror(gai_error);
-    fprintf(stderr, "%s: DNS: '%s' error: %s\n", PROG, (const void *)d->hostname, return_value_gai_strerror$4);
+    return_value_gai_strerror_4=gai_strerror(gai_error);
+    fprintf(stderr, "%s: DNS: '%s' error: %s\n", PROG, (const void *)d->hostname, return_value_gai_strerror_4);
     dns_request_done(d, added);
     goto __CPROVER_DUMP_L8;
   }
 
 __CPROVER_DUMP_L6:
   ;
-  const char *return_value_gai_strerror$5;
+  const char *return_value_gai_strerror_5;
   if(dns_silent == 0)
   {
-    return_value_gai_strerror$5=gai_strerror(gai_error);
-    fprintf(stderr, "%s: DNS: '%s' failed permanently: %s\n", PROG, (const void *)d->hostname, return_value_gai_strerror$5);
+    return_value_gai_strerror_5=gai_strerror(gai_error);
+    fprintf(stderr, "%s: DNS: '%s' failed permanently: %s\n", PROG, (const void *)d->hostname, return_value_gai_strerror_5);
   }
 
   dns_request_done(d, added);
@@ -1098,7 +1098,7 @@ static void dns_signal_threats(void)
 static void * dns_thread_resolve(void *ptr)
 {
   struct dnsreq *d;
-  char *return_value_ip2str$4;
+  char *return_value_ip2str_4;
   do
   {
     d=dns_request_get();
@@ -1130,24 +1130,24 @@ static void * dns_thread_resolve(void *ptr)
         r=getnameinfo(rp->ai_addr, rp->ai_addrlen, host, (unsigned int)sizeof(char [256l]) /*256ul*/ , (char *)(void *)0, (unsigned int)0, 1);
         if(!(r == 0))
         {
-          const char *return_value_gai_strerror$1;
-          return_value_gai_strerror$1=gai_strerror(r);
-          fprintf(stderr, "%s: DNS: '%s' failed to get IP string: %s\n", PROG, (const void *)d->hostname, return_value_gai_strerror$1);
+          const char *return_value_gai_strerror_1;
+          return_value_gai_strerror_1=gai_strerror(r);
+          fprintf(stderr, "%s: DNS: '%s' failed to get IP string: %s\n", PROG, (const void *)d->hostname, return_value_gai_strerror_1);
           goto __CPROVER_DUMP_L8;
         }
 
         net=str_to_netaddr(host, &err);
         if(!(err == 0))
         {
-          const char *return_value_gai_strerror$2;
-          return_value_gai_strerror$2=gai_strerror(r);
-          fprintf(stderr, "%s: DNS: '%s' cannot parse the IP '%s': %s\n", PROG, (const void *)d->hostname, (const void *)host, return_value_gai_strerror$2);
+          const char *return_value_gai_strerror_2;
+          return_value_gai_strerror_2=gai_strerror(r);
+          fprintf(stderr, "%s: DNS: '%s' cannot parse the IP '%s': %s\n", PROG, (const void *)d->hostname, (const void *)host, return_value_gai_strerror_2);
           goto __CPROVER_DUMP_L8;
         }
 
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dnsrep) /*16ul*/ );
-        p = (struct dnsrep *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dnsrep) /*16ul*/ );
+        p = (struct dnsrep *)return_value_malloc_3;
         if(p == ((struct dnsrep *)NULL))
           fprintf(stderr, "%s: DNS: out of memory while resolving host '%s'\n", PROG, (const void *)d->hostname);
 
@@ -1155,8 +1155,8 @@ static void * dns_thread_resolve(void *ptr)
         {
           if(!(debug == 0))
           {
-            return_value_ip2str$4=ip2str(net.addr);
-            fprintf(stderr, "%s: DNS: '%s' = %s\n", PROG, (const void *)d->hostname, return_value_ip2str$4);
+            return_value_ip2str_4=ip2str(net.addr);
+            fprintf(stderr, "%s: DNS: '%s' = %s\n", PROG, (const void *)d->hostname, return_value_ip2str_4);
           }
 
           p->ip = net.addr;
@@ -1201,35 +1201,35 @@ static inline char * ip2str(unsigned int IP)
   char c0;
   char c1;
   i = 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   static char buf[10l];
   for( ; !(i >= 4); i = i + 1)
   {
     c0 = (char)(((IP & (unsigned int)(0xff << (3 - i) * 8)) >> (3 - i) * 8) / (unsigned int)100 + (unsigned int)0x30);
     if(!((signed int)c0 == 48))
     {
-      tmp_post$1 = k;
+      tmp_post_1 = k;
       k = k + 1;
-      buf[(signed long int)tmp_post$1] = c0;
+      buf[(signed long int)tmp_post_1] = c0;
     }
 
     c1 = (char)((((IP & (unsigned int)(0xff << (3 - i) * 8)) >> (3 - i) * 8) % (unsigned int)100) / (unsigned int)10 + (unsigned int)0x30);
     if(!((signed int)c0 == 48) || !((signed int)c1 == 48))
     {
-      tmp_post$2 = k;
+      tmp_post_2 = k;
       k = k + 1;
-      buf[(signed long int)tmp_post$2] = c1;
+      buf[(signed long int)tmp_post_2] = c1;
     }
 
     buf[(signed long int)k] = (char)(((IP & (unsigned int)(0xff << (3 - i) * 8)) >> (3 - i) * 8) % (unsigned int)10 + (unsigned int)0x30);
     k = k + 1;
     if(!(i >= 3))
     {
-      tmp_post$3 = k;
+      tmp_post_3 = k;
       k = k + 1;
-      buf[(signed long int)tmp_post$3] = (char)46;
+      buf[(signed long int)tmp_post_3] = (char)46;
     }
 
   }
@@ -1288,18 +1288,18 @@ static inline void ipset_added_entry(struct ipset *ips)
       unsigned int new_to = (ips->netaddrs + (signed long int)ips->entries)->broadcast;
       unsigned int last_from = (ips->netaddrs + (signed long int)(ips->entries - (unsigned long int)1))->addr;
       unsigned int last_to = (ips->netaddrs + (signed long int)(ips->entries - (unsigned long int)1))->broadcast;
-      char *return_value_ip2str$1;
-      return_value_ip2str$1=ip2str(last_from);
-      fprintf(stderr, "%s: NON-OPTIMIZED %s at line %lu, entry %lu, last was %s (%u) - ", PROG, (const void *)ips->filename, ips->lines, ips->entries, return_value_ip2str$1, last_from);
-      char *return_value_ip2str$2;
-      return_value_ip2str$2=ip2str(last_to);
-      fprintf(stderr, "%s (%u), new is ", return_value_ip2str$2, last_to);
-      char *return_value_ip2str$3;
-      return_value_ip2str$3=ip2str(new_from);
-      fprintf(stderr, "%s (%u) - ", return_value_ip2str$3, new_from);
-      char *return_value_ip2str$4;
-      return_value_ip2str$4=ip2str(new_to);
-      fprintf(stderr, "%s (%u)\n", return_value_ip2str$4, new_to);
+      char *return_value_ip2str_1;
+      return_value_ip2str_1=ip2str(last_from);
+      fprintf(stderr, "%s: NON-OPTIMIZED %s at line %lu, entry %lu, last was %s (%u) - ", PROG, (const void *)ips->filename, ips->lines, ips->entries, return_value_ip2str_1, last_from);
+      char *return_value_ip2str_2;
+      return_value_ip2str_2=ip2str(last_to);
+      fprintf(stderr, "%s (%u), new is ", return_value_ip2str_2, last_to);
+      char *return_value_ip2str_3;
+      return_value_ip2str_3=ip2str(new_from);
+      fprintf(stderr, "%s (%u) - ", return_value_ip2str_3, new_from);
+      char *return_value_ip2str_4;
+      return_value_ip2str_4=ip2str(new_to);
+      fprintf(stderr, "%s (%u)\n", return_value_ip2str_4, new_to);
     }
 
   }
@@ -1413,10 +1413,10 @@ static inline struct ipset * ipset_common(struct ipset *ips1, struct ipset *ips2
 static inline struct ipset * ipset_create(const char *filename, signed int entries)
 {
   struct ipset *ips;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ipset) /*4168ul*/ );
-  ips = (struct ipset *)return_value_malloc$1;
-  _Bool tmp_if_expr$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ipset) /*4168ul*/ );
+  ips = (struct ipset *)return_value_malloc_1;
+  _Bool tmp_if_expr_3;
   if(ips == ((struct ipset *)NULL))
     return (struct ipset *)(void *)0;
 
@@ -1425,9 +1425,9 @@ static inline struct ipset * ipset_create(const char *filename, signed int entri
     if(!(entries >= 1024))
       entries = 1024;
 
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)entries * sizeof(struct network_addr) /*8ul*/ );
-    ips->netaddrs = (struct network_addr *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)entries * sizeof(struct network_addr) /*8ul*/ );
+    ips->netaddrs = (struct network_addr *)return_value_malloc_2;
     if(ips->netaddrs == ((struct network_addr *)NULL))
     {
       free((void *)ips);
@@ -1444,11 +1444,11 @@ static inline struct ipset * ipset_create(const char *filename, signed int entri
       ips->prev = (struct ipset *)(void *)0;
       ips->flags = (unsigned int)0;
       if(!(filename == ((const char *)NULL)))
-        tmp_if_expr$3 = *filename != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = *filename != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      strncpy(ips->filename, tmp_if_expr$3 ? filename : "stdin", (unsigned long int)4096);
+        tmp_if_expr_3 = (_Bool)0;
+      strncpy(ips->filename, tmp_if_expr_3 ? filename : "stdin", (unsigned long int)4096);
       ips->filename[(signed long int)4096] = (char)0;
       return ips;
     }
@@ -1729,19 +1729,19 @@ static inline void ipset_expand(struct ipset *ips, unsigned long int free_entrie
   if(free_entries_needed == 0ul)
     free_entries_needed = (unsigned long int)1;
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(ips == ((struct ipset *)NULL)))
-    tmp_if_expr$2 = ips->entries_max - ips->entries < free_entries_needed ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = ips->entries_max - ips->entries < free_entries_needed ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
     struct network_addr *n;
     ips->entries_max = ips->entries_max + (free_entries_needed < (unsigned long int)1024 ? (unsigned long int)1024 : free_entries_needed);
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)ips->netaddrs, ips->entries_max * sizeof(struct network_addr) /*8ul*/ );
-    n = (struct network_addr *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)ips->netaddrs, ips->entries_max * sizeof(struct network_addr) /*8ul*/ );
+    n = (struct network_addr *)return_value_realloc_1;
     if(n == ((struct network_addr *)NULL))
     {
       fprintf(stderr, "%s: Cannot re-allocate memory (%ld bytes)\n", PROG, ips->entries_max * sizeof(struct network_addr) /*8ul*/ );
@@ -1777,37 +1777,37 @@ static struct ipset * ipset_load(const char *filename)
   char ipstr[256l];
   char ipstr2[256l];
   struct ipset *ips;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(filename == ((const char *)NULL)))
-    tmp_if_expr$1 = *filename != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *filename != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  ips=ipset_create(tmp_if_expr$1 ? filename : "stdin", 0);
-  _Bool tmp_if_expr$4;
-  signed int return_value_ipset_add_ipstr$11;
-  _Bool tmp_if_expr$9;
-  char *return_value_fgets$8;
+    tmp_if_expr_1 = (_Bool)0;
+  ips=ipset_create(tmp_if_expr_1 ? filename : "stdin", 0);
+  _Bool tmp_if_expr_4;
+  signed int return_value_ipset_add_ipstr_11;
+  _Bool tmp_if_expr_9;
+  char *return_value_fgets_8;
   if(ips == ((struct ipset *)NULL))
     return (struct ipset *)(void *)0;
 
   else
   {
     if(!(filename == ((const char *)NULL)))
-      tmp_if_expr$4 = *filename != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = *filename != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       fp=fopen(filename, "r");
       if(fp == ((struct _IO_FILE *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fprintf(stderr, "%s: %s - %s\n", PROG, filename, return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fprintf(stderr, "%s: %s - %s\n", PROG, filename, return_value_strerror_3);
         return (struct ipset *)(void *)0;
       }
 
@@ -1817,20 +1817,20 @@ static struct ipset * ipset_load(const char *filename)
       fprintf(stderr, "%s: Loading from %s\n", PROG, (const void *)ips->filename);
 
     ips->flags = ips->flags | (unsigned int)0x00000001;
-    char *return_value_fgets$5;
-    return_value_fgets$5=fgets(line, 1024, fp);
-    if(return_value_fgets$5 == ((char *)NULL))
+    char *return_value_fgets_5;
+    return_value_fgets_5=fgets(line, 1024, fp);
+    if(return_value_fgets_5 == ((char *)NULL))
       return ips;
 
     else
     {
-      signed int return_value_strcmp$7;
-      return_value_strcmp$7=strcmp(line, "iprange binary format v1.0\n");
-      if(return_value_strcmp$7 == 0)
+      signed int return_value_strcmp_7;
+      return_value_strcmp_7=strcmp(line, "iprange binary format v1.0\n");
+      if(return_value_strcmp_7 == 0)
       {
-        signed int return_value_ipset_load_binary_v10$6;
-        return_value_ipset_load_binary_v10$6=ipset_load_binary_v10(fp, ips, 1);
-        if(!(return_value_ipset_load_binary_v10$6 == 0))
+        signed int return_value_ipset_load_binary_v10_6;
+        return_value_ipset_load_binary_v10_6=ipset_load_binary_v10(fp, ips, 1);
+        if(!(return_value_ipset_load_binary_v10_6 == 0))
         {
           fprintf(stderr, "%s: Cannot fast load %s\n", PROG, filename);
           ipset_free(ips);
@@ -1853,20 +1853,20 @@ static struct ipset * ipset_load(const char *filename)
       do
       {
         lineid = lineid + 1;
-        signed int return_value_parse_line$10;
-        return_value_parse_line$10=parse_line(line, lineid, ipstr, ipstr2, 255);
-        if(!(return_value_parse_line$10 == -1))
+        signed int return_value_parse_line_10;
+        return_value_parse_line_10=parse_line(line, lineid, ipstr, ipstr2, 255);
+        if(!(return_value_parse_line_10 == -1))
         {
-          if(return_value_parse_line$10 == 0)
+          if(return_value_parse_line_10 == 0)
             goto __CPROVER_DUMP_L14;
 
-          if(return_value_parse_line$10 == 1)
+          if(return_value_parse_line_10 == 1)
             goto __CPROVER_DUMP_L15;
 
-          if(return_value_parse_line$10 == 2)
+          if(return_value_parse_line_10 == 2)
             goto __CPROVER_DUMP_L17;
 
-          if(return_value_parse_line$10 == 3)
+          if(return_value_parse_line_10 == 3)
             goto __CPROVER_DUMP_L20;
 
         }
@@ -1882,8 +1882,8 @@ static struct ipset * ipset_load(const char *filename)
 
         __CPROVER_DUMP_L15:
           ;
-          return_value_ipset_add_ipstr$11=ipset_add_ipstr(ips, ipstr);
-          if(return_value_ipset_add_ipstr$11 == 0)
+          return_value_ipset_add_ipstr_11=ipset_add_ipstr(ips, ipstr);
+          if(return_value_ipset_add_ipstr_11 == 0)
             fprintf(stderr, "%s: Cannot understand line No %d from %s: %s\n", PROG, lineid, (const void *)ips->filename, (const void *)line);
 
           goto __CPROVER_DUMP_L23;
@@ -1928,14 +1928,14 @@ static struct ipset * ipset_load(const char *filename)
         ;
         if(!(ips == ((struct ipset *)NULL)))
         {
-          return_value_fgets$8=fgets(line, 1024, fp);
-          tmp_if_expr$9 = return_value_fgets$8 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          return_value_fgets_8=fgets(line, 1024, fp);
+          tmp_if_expr_9 = return_value_fgets_8 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$9 = (_Bool)0;
+          tmp_if_expr_9 = (_Bool)0;
       }
-      while(tmp_if_expr$9);
+      while(tmp_if_expr_9);
       if(!(fp == stdin))
         fclose(fp);
 
@@ -1966,21 +1966,21 @@ static signed int ipset_load_binary_v10(struct _IO_FILE *fp, struct ipset *ips, 
   unsigned long int unique_ips;
   unsigned int endian;
   unsigned long int loaded;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(first_line_missing == 0)
   {
     s=fgets(buffer, 1024, fp);
     buffer[(signed long int)1024] = (char)0;
     if(s == ((char *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$1=strcmp(s, "iprange binary format v1.0\n");
-      tmp_if_expr$2 = return_value_strcmp$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_1=strcmp(s, "iprange binary format v1.0\n");
+      tmp_if_expr_2 = return_value_strcmp_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
     {
       fprintf(stderr, "%s: %s expecting binary header but found '%s'.\n", PROG, (const void *)ips->filename, s != ((char *)NULL) ? s : "");
       return 1;
@@ -1990,37 +1990,37 @@ static signed int ipset_load_binary_v10(struct _IO_FILE *fp, struct ipset *ips, 
 
   s=fgets(buffer, 1024, fp);
   buffer[(signed long int)1024] = (char)0;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcmp$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcmp_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   if(s == ((char *)NULL))
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$3=strcmp(s, "optimized\n");
-    if(!(return_value_strcmp$3 == 0))
+    return_value_strcmp_3=strcmp(s, "optimized\n");
+    if(!(return_value_strcmp_3 == 0))
     {
-      return_value_strcmp$4=strcmp(s, "non-optimized\n");
-      tmp_if_expr$5 = return_value_strcmp$4 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_4=strcmp(s, "non-optimized\n");
+      tmp_if_expr_5 = return_value_strcmp_4 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_strncmp$8;
-  _Bool tmp_if_expr$13;
-  signed int return_value_strncmp$12;
-  _Bool tmp_if_expr$15;
-  signed int return_value_strncmp$14;
-  _Bool tmp_if_expr$17;
-  signed int return_value_strncmp$16;
-  _Bool tmp_if_expr$19;
-  signed int return_value_strncmp$18;
-  if(tmp_if_expr$6)
+  _Bool tmp_if_expr_9;
+  signed int return_value_strncmp_8;
+  _Bool tmp_if_expr_13;
+  signed int return_value_strncmp_12;
+  _Bool tmp_if_expr_15;
+  signed int return_value_strncmp_14;
+  _Bool tmp_if_expr_17;
+  signed int return_value_strncmp_16;
+  _Bool tmp_if_expr_19;
+  signed int return_value_strncmp_18;
+  if(tmp_if_expr_6)
   {
     fprintf(stderr, "%s: %s 2nd line should be the optimized flag, but found '%s'.\n", PROG, (const void *)ips->filename, s != ((char *)NULL) ? s : "");
     return 1;
@@ -2028,9 +2028,9 @@ static signed int ipset_load_binary_v10(struct _IO_FILE *fp, struct ipset *ips, 
 
   else
   {
-    signed int return_value_strcmp$7;
-    return_value_strcmp$7=strcmp(s, "optimized\n");
-    if(return_value_strcmp$7 == 0)
+    signed int return_value_strcmp_7;
+    return_value_strcmp_7=strcmp(s, "optimized\n");
+    if(return_value_strcmp_7 == 0)
       ips->flags = ips->flags | (unsigned int)0x00000001;
 
     else
@@ -2040,14 +2040,14 @@ static signed int ipset_load_binary_v10(struct _IO_FILE *fp, struct ipset *ips, 
     s=fgets(buffer, 1024, fp);
     buffer[(signed long int)1024] = (char)0;
     if(s == ((char *)NULL))
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$8=strncmp(s, "record size ", (unsigned long int)12);
-      tmp_if_expr$9 = return_value_strncmp$8 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_8=strncmp(s, "record size ", (unsigned long int)12);
+      tmp_if_expr_9 = return_value_strncmp_8 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
     {
       fprintf(stderr, "%s: %s 3rd line should be the record size, but found '%s'.\n", PROG, (const void *)ips->filename, s != ((char *)NULL) ? s : "");
       return 1;
@@ -2055,27 +2055,27 @@ static signed int ipset_load_binary_v10(struct _IO_FILE *fp, struct ipset *ips, 
 
     else
     {
-      signed long int return_value_atol$11;
-      return_value_atol$11=atol(&s[(signed long int)12]);
-      if(!((unsigned long int)return_value_atol$11 == sizeof(struct network_addr) /*8ul*/ ))
+      signed long int return_value_atol_11;
+      return_value_atol_11=atol(&s[(signed long int)12]);
+      if(!((unsigned long int)return_value_atol_11 == sizeof(struct network_addr) /*8ul*/ ))
       {
-        signed long int return_value_atol$10;
-        return_value_atol$10=atol(&s[(signed long int)12]);
-        fprintf(stderr, "%s: %s: invalid record size %lu (expected %lu)\n", PROG, (const void *)ips->filename, return_value_atol$10, (unsigned long int)sizeof(struct network_addr) /*8ul*/ );
+        signed long int return_value_atol_10;
+        return_value_atol_10=atol(&s[(signed long int)12]);
+        fprintf(stderr, "%s: %s: invalid record size %lu (expected %lu)\n", PROG, (const void *)ips->filename, return_value_atol_10, (unsigned long int)sizeof(struct network_addr) /*8ul*/ );
         return 1;
       }
 
       s=fgets(buffer, 1024, fp);
       buffer[(signed long int)1024] = (char)0;
       if(s == ((char *)NULL))
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_13 = (_Bool)1;
 
       else
       {
-        return_value_strncmp$12=strncmp(s, "records ", (unsigned long int)8);
-        tmp_if_expr$13 = return_value_strncmp$12 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strncmp_12=strncmp(s, "records ", (unsigned long int)8);
+        tmp_if_expr_13 = return_value_strncmp_12 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13)
+      if(tmp_if_expr_13)
       {
         fprintf(stderr, "%s: %s 4th line should be the number of records, but found '%s'.\n", PROG, (const void *)ips->filename, s != ((char *)NULL) ? s : "");
         return 1;
@@ -2087,14 +2087,14 @@ static signed int ipset_load_binary_v10(struct _IO_FILE *fp, struct ipset *ips, 
         s=fgets(buffer, 1024, fp);
         buffer[(signed long int)1024] = (char)0;
         if(s == ((char *)NULL))
-          tmp_if_expr$15 = (_Bool)1;
+          tmp_if_expr_15 = (_Bool)1;
 
         else
         {
-          return_value_strncmp$14=strncmp(s, "bytes ", (unsigned long int)6);
-          tmp_if_expr$15 = return_value_strncmp$14 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_14=strncmp(s, "bytes ", (unsigned long int)6);
+          tmp_if_expr_15 = return_value_strncmp_14 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$15)
+        if(tmp_if_expr_15)
         {
           fprintf(stderr, "%s: %s 5th line should be the number of bytes, but found '%s'.\n", PROG, (const void *)ips->filename, s != ((char *)NULL) ? s : "");
           return 1;
@@ -2106,14 +2106,14 @@ static signed int ipset_load_binary_v10(struct _IO_FILE *fp, struct ipset *ips, 
           s=fgets(buffer, 1024, fp);
           buffer[(signed long int)1024] = (char)0;
           if(s == ((char *)NULL))
-            tmp_if_expr$17 = (_Bool)1;
+            tmp_if_expr_17 = (_Bool)1;
 
           else
           {
-            return_value_strncmp$16=strncmp(s, "lines ", (unsigned long int)6);
-            tmp_if_expr$17 = return_value_strncmp$16 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strncmp_16=strncmp(s, "lines ", (unsigned long int)6);
+            tmp_if_expr_17 = return_value_strncmp_16 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$17)
+          if(tmp_if_expr_17)
           {
             fprintf(stderr, "%s: %s 6th line should be the number of lines read, but found '%s'.\n", PROG, (const void *)ips->filename, s != ((char *)NULL) ? s : "");
             return 1;
@@ -2125,14 +2125,14 @@ static signed int ipset_load_binary_v10(struct _IO_FILE *fp, struct ipset *ips, 
             s=fgets(buffer, 1024, fp);
             buffer[(signed long int)1024] = (char)0;
             if(s == ((char *)NULL))
-              tmp_if_expr$19 = (_Bool)1;
+              tmp_if_expr_19 = (_Bool)1;
 
             else
             {
-              return_value_strncmp$18=strncmp(s, "unique ips ", (unsigned long int)11);
-              tmp_if_expr$19 = return_value_strncmp$18 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strncmp_18=strncmp(s, "unique ips ", (unsigned long int)11);
+              tmp_if_expr_19 = return_value_strncmp_18 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$19)
+            if(tmp_if_expr_19)
             {
               fprintf(stderr, "%s: %s 7th line should be the number of unique IPs, but found '%s'.\n", PROG, (const void *)ips->filename, s != ((char *)NULL) ? s : "");
               return 1;
@@ -2233,9 +2233,9 @@ static inline void ipset_optimize(struct ipset *ips)
       fprintf(stderr, "%s: Optimizing %s\n", PROG, (const void *)ips->filename);
 
     qsort((void *)ips->netaddrs, ips->entries, sizeof(struct network_addr) /*8ul*/ , compar_netaddr);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(ips->entries * sizeof(struct network_addr) /*8ul*/ );
-    naddrs = (struct network_addr *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(ips->entries * sizeof(struct network_addr) /*8ul*/ );
+    naddrs = (struct network_addr *)return_value_malloc_1;
     if(naddrs == ((struct network_addr *)NULL))
     {
       ipset_free(ips);
@@ -2313,9 +2313,9 @@ static void ipset_print(struct ipset *ips, signed int print)
         i = 0;
         for( ; !(i >= n); i = i + 1)
         {
-          signed int return_value_split_range$1;
-          return_value_split_range$1=split_range((unsigned int)0, 0, (ips->netaddrs + (signed long int)i)->addr, (ips->netaddrs + (signed long int)i)->broadcast);
-          total = total + (unsigned long int)return_value_split_range$1;
+          signed int return_value_split_range_1;
+          return_value_split_range_1=split_range((unsigned int)0, 0, (ips->netaddrs + (signed long int)i)->addr, (ips->netaddrs + (signed long int)i)->broadcast);
+          total = total + (unsigned long int)return_value_split_range_1;
         }
         break;
       }
@@ -2330,12 +2330,12 @@ static void ipset_print(struct ipset *ips, signed int print)
           unsigned int end = (ips->netaddrs + (signed long int)i)->broadcast;
           if(!(end >= start))
           {
-            char *return_value_ip2str$2;
-            return_value_ip2str$2=ip2str(start);
-            fprintf(stderr, "%s: WARNING: invalid range reversed start=%s", PROG, return_value_ip2str$2);
-            char *return_value_ip2str$3;
-            return_value_ip2str$3=ip2str(end);
-            fprintf(stderr, " end=%s\n", return_value_ip2str$3);
+            char *return_value_ip2str_2;
+            return_value_ip2str_2=ip2str(start);
+            fprintf(stderr, "%s: WARNING: invalid range reversed start=%s", PROG, return_value_ip2str_2);
+            char *return_value_ip2str_3;
+            return_value_ip2str_3=ip2str(end);
+            fprintf(stderr, " end=%s\n", return_value_ip2str_3);
             x = end;
             end = start;
             start = x;
@@ -2343,12 +2343,12 @@ static void ipset_print(struct ipset *ips, signed int print)
 
           if(end + -start >= 16777217u)
           {
-            char *return_value_ip2str$4;
-            return_value_ip2str$4=ip2str(start);
-            fprintf(stderr, "%s: too big range eliminated start=%s", PROG, return_value_ip2str$4);
-            char *return_value_ip2str$5;
-            return_value_ip2str$5=ip2str(end);
-            fprintf(stderr, " end=%s gives %lu IPs\n", return_value_ip2str$5, (unsigned long int)(end - start));
+            char *return_value_ip2str_4;
+            return_value_ip2str_4=ip2str(start);
+            fprintf(stderr, "%s: too big range eliminated start=%s", PROG, return_value_ip2str_4);
+            char *return_value_ip2str_5;
+            return_value_ip2str_5=ip2str(end);
+            fprintf(stderr, " end=%s gives %lu IPs\n", return_value_ip2str_5, (unsigned long int)(end - start));
             goto __CPROVER_DUMP_L15;
           }
 
@@ -2464,7 +2464,7 @@ static void ipset_reduce(struct ipset *ips, signed int acceptable_increase, sign
   if(!(debug == 0))
     fprintf(stderr, "Acceptable is to reach %d entries by reducing prefixes\n", acceptable);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(total >= acceptable))
   {
     signed int min = -1;
@@ -2479,11 +2479,11 @@ static void ipset_reduce(struct ipset *ips, signed int acceptable_increase, sign
     for( ; !(i >= 32); i = i + 1)
     {
       if(prefix_counters[(signed long int)i] == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = !(prefix_enabled[(signed long int)i] != 0) ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = !(prefix_enabled[(signed long int)i] != 0) ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_1)
       {
         j = i + 1;
         multiplier = 2;
@@ -2615,103 +2615,103 @@ signed int main(signed int argc, char **argv)
   else
     PROG = argv[(signed long int)0];
   i = 1;
-  _Bool tmp_if_expr$89;
-  signed int return_value_strcmp$88;
-  _Bool tmp_if_expr$87;
-  signed int return_value_strcmp$86;
-  _Bool tmp_if_expr$85;
-  signed int return_value_strcmp$84;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$83;
-  signed int return_value_strcmp$80;
-  _Bool tmp_if_expr$82;
-  signed int return_value_strcmp$81;
-  _Bool tmp_if_expr$79;
-  signed int return_value_strcmp$76;
-  _Bool tmp_if_expr$78;
-  signed int return_value_strcmp$77;
-  _Bool tmp_if_expr$75;
-  signed int return_value_strcmp$72;
-  _Bool tmp_if_expr$74;
-  signed int return_value_strcmp$73;
-  signed int return_value_strcmp$61;
-  _Bool tmp_if_expr$63;
-  signed int return_value_strcmp$62;
-  _Bool tmp_if_expr$65;
-  signed int return_value_strcmp$64;
-  _Bool tmp_if_expr$67;
-  signed int return_value_strcmp$66;
-  _Bool tmp_if_expr$69;
-  signed int return_value_strcmp$68;
-  _Bool tmp_if_expr$71;
-  signed int return_value_strcmp$70;
-  signed int return_value_strcmp$56;
-  _Bool tmp_if_expr$58;
-  signed int return_value_strcmp$57;
-  _Bool tmp_if_expr$60;
-  signed int return_value_strcmp$59;
-  signed int return_value_strcmp$49;
-  _Bool tmp_if_expr$51;
-  signed int return_value_strcmp$50;
-  _Bool tmp_if_expr$53;
-  signed int return_value_strcmp$52;
-  _Bool tmp_if_expr$55;
-  signed int return_value_strcmp$54;
-  signed int return_value_strcmp$46;
-  _Bool tmp_if_expr$48;
-  signed int return_value_strcmp$47;
-  signed int return_value_strcmp$45;
-  signed int return_value_strcmp$44;
-  signed int return_value_strcmp$43;
-  signed int return_value_strcmp$40;
-  _Bool tmp_if_expr$42;
-  signed int return_value_strcmp$41;
-  signed int return_value_strcmp$39;
-  signed int return_value_strcmp$38;
-  signed int return_value_strcmp$35;
-  _Bool tmp_if_expr$37;
-  signed int return_value_strcmp$36;
-  signed int return_value_strcmp$34;
-  signed int return_value_strcmp$31;
-  _Bool tmp_if_expr$33;
-  signed int return_value_strcmp$32;
-  signed int return_value_strcmp$30;
-  signed int return_value_strcmp$27;
-  _Bool tmp_if_expr$29;
-  signed int return_value_strcmp$28;
-  _Bool tmp_if_expr$26;
-  signed int return_value_strcmp$25;
-  _Bool tmp_if_expr$24;
-  signed int return_value_strcmp$23;
-  _Bool tmp_if_expr$22;
-  signed int return_value_strcmp$21;
-  _Bool tmp_if_expr$20;
-  signed int return_value_strcmp$19;
-  _Bool tmp_if_expr$18;
-  signed int return_value_strcmp$17;
-  _Bool tmp_if_expr$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  _Bool tmp_if_expr$11;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$6;
+  _Bool tmp_if_expr_89;
+  signed int return_value_strcmp_88;
+  _Bool tmp_if_expr_87;
+  signed int return_value_strcmp_86;
+  _Bool tmp_if_expr_85;
+  signed int return_value_strcmp_84;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_83;
+  signed int return_value_strcmp_80;
+  _Bool tmp_if_expr_82;
+  signed int return_value_strcmp_81;
+  _Bool tmp_if_expr_79;
+  signed int return_value_strcmp_76;
+  _Bool tmp_if_expr_78;
+  signed int return_value_strcmp_77;
+  _Bool tmp_if_expr_75;
+  signed int return_value_strcmp_72;
+  _Bool tmp_if_expr_74;
+  signed int return_value_strcmp_73;
+  signed int return_value_strcmp_61;
+  _Bool tmp_if_expr_63;
+  signed int return_value_strcmp_62;
+  _Bool tmp_if_expr_65;
+  signed int return_value_strcmp_64;
+  _Bool tmp_if_expr_67;
+  signed int return_value_strcmp_66;
+  _Bool tmp_if_expr_69;
+  signed int return_value_strcmp_68;
+  _Bool tmp_if_expr_71;
+  signed int return_value_strcmp_70;
+  signed int return_value_strcmp_56;
+  _Bool tmp_if_expr_58;
+  signed int return_value_strcmp_57;
+  _Bool tmp_if_expr_60;
+  signed int return_value_strcmp_59;
+  signed int return_value_strcmp_49;
+  _Bool tmp_if_expr_51;
+  signed int return_value_strcmp_50;
+  _Bool tmp_if_expr_53;
+  signed int return_value_strcmp_52;
+  _Bool tmp_if_expr_55;
+  signed int return_value_strcmp_54;
+  signed int return_value_strcmp_46;
+  _Bool tmp_if_expr_48;
+  signed int return_value_strcmp_47;
+  signed int return_value_strcmp_45;
+  signed int return_value_strcmp_44;
+  signed int return_value_strcmp_43;
+  signed int return_value_strcmp_40;
+  _Bool tmp_if_expr_42;
+  signed int return_value_strcmp_41;
+  signed int return_value_strcmp_39;
+  signed int return_value_strcmp_38;
+  signed int return_value_strcmp_35;
+  _Bool tmp_if_expr_37;
+  signed int return_value_strcmp_36;
+  signed int return_value_strcmp_34;
+  signed int return_value_strcmp_31;
+  _Bool tmp_if_expr_33;
+  signed int return_value_strcmp_32;
+  signed int return_value_strcmp_30;
+  signed int return_value_strcmp_27;
+  _Bool tmp_if_expr_29;
+  signed int return_value_strcmp_28;
+  _Bool tmp_if_expr_26;
+  signed int return_value_strcmp_25;
+  _Bool tmp_if_expr_24;
+  signed int return_value_strcmp_23;
+  _Bool tmp_if_expr_22;
+  signed int return_value_strcmp_21;
+  _Bool tmp_if_expr_20;
+  signed int return_value_strcmp_19;
+  _Bool tmp_if_expr_18;
+  signed int return_value_strcmp_17;
+  _Bool tmp_if_expr_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  _Bool tmp_if_expr_11;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_6;
   for( ; !(i >= argc); i = i + 1)
   {
     if(!(1 + i >= argc))
     {
-      return_value_strcmp$88=strcmp(argv[(signed long int)i], "as");
-      tmp_if_expr$89 = !(return_value_strcmp$88 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_88=strcmp(argv[(signed long int)i], "as");
+      tmp_if_expr_89 = !(return_value_strcmp_88 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$89 = (_Bool)0;
-    if(tmp_if_expr$89)
+      tmp_if_expr_89 = (_Bool)0;
+    if(tmp_if_expr_89)
     {
       if(read_second == 0)
       {
@@ -2738,13 +2738,13 @@ signed int main(signed int argc, char **argv)
     {
       if(!(1 + i >= argc))
       {
-        return_value_strcmp$86=strcmp(argv[(signed long int)i], "--min-prefix");
-        tmp_if_expr$87 = !(return_value_strcmp$86 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_86=strcmp(argv[(signed long int)i], "--min-prefix");
+        tmp_if_expr_87 = !(return_value_strcmp_86 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$87 = (_Bool)0;
-      if(tmp_if_expr$87)
+        tmp_if_expr_87 = (_Bool)0;
+      if(tmp_if_expr_87)
       {
         signed int j;
         signed int min_prefix;
@@ -2765,21 +2765,21 @@ signed int main(signed int argc, char **argv)
       {
         if(!(1 + i >= argc))
         {
-          return_value_strcmp$84=strcmp(argv[(signed long int)i], "--prefixes");
-          tmp_if_expr$85 = !(return_value_strcmp$84 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_84=strcmp(argv[(signed long int)i], "--prefixes");
+          tmp_if_expr_85 = !(return_value_strcmp_84 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$85 = (_Bool)0;
-        if(tmp_if_expr$85)
+          tmp_if_expr_85 = (_Bool)0;
+        if(tmp_if_expr_85)
         {
           char *s = (char *)(void *)0;
           char *e;
           i = i + 1;
           e = argv[(signed long int)i];
-          signed int main$$1$$1$$1$$3$$j = 0;
-          for( ; !(main$$1$$1$$1$$3$$j >= 32); main$$1$$1$$1$$3$$j = main$$1$$1$$1$$3$$j + 1)
-            prefix_enabled[(signed long int)main$$1$$1$$1$$3$$j] = 0;
+          signed int main__1__1__1__3__j = 0;
+          for( ; !(main__1__1__1__3__j >= 32); main__1__1__1__3__j = main__1__1__1__3__j + 1)
+            prefix_enabled[(signed long int)main__1__1__1__3__j] = 0;
           while(!(e == ((char *)NULL)))
           {
             if(*e == 0)
@@ -2789,25 +2789,25 @@ signed int main(signed int argc, char **argv)
               break;
 
             s = e;
-            signed long int return_value_strtol$1;
-            return_value_strtol$1=strtol(s, &e, 10);
-            main$$1$$1$$1$$3$$j = (signed int)return_value_strtol$1;
-            if(main$$1$$1$$1$$3$$j >= 33 || !(main$$1$$1$$1$$3$$j >= 1))
+            signed long int return_value_strtol_1;
+            return_value_strtol_1=strtol(s, &e, 10);
+            main__1__1__1__3__j = (signed int)return_value_strtol_1;
+            if(main__1__1__1__3__j >= 33 || !(main__1__1__1__3__j >= 1))
             {
-              fprintf(stderr, "%s: Only prefixes from 1 to 32 can be set (32 is always enabled). %d is invalid.\n", PROG, main$$1$$1$$1$$3$$j);
+              fprintf(stderr, "%s: Only prefixes from 1 to 32 can be set (32 is always enabled). %d is invalid.\n", PROG, main__1__1__1__3__j);
               exit(1);
             }
 
             if(!(debug == 0))
-              fprintf(stderr, "Enabling prefix %d\n", main$$1$$1$$1$$3$$j);
+              fprintf(stderr, "Enabling prefix %d\n", main__1__1__1__3__j);
 
-            prefix_enabled[(signed long int)main$$1$$1$$1$$3$$j] = 1;
+            prefix_enabled[(signed long int)main__1__1__1__3__j] = 1;
             if((signed int)*e == 44)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = (signed int)*e == 32 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = (signed int)*e == 32 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
               e = e + 1l;
 
           }
@@ -2827,21 +2827,21 @@ signed int main(signed int argc, char **argv)
         {
           if(!(1 + i >= argc))
           {
-            return_value_strcmp$80=strcmp(argv[(signed long int)i], "--default-prefix");
-            if(return_value_strcmp$80 == 0)
-              tmp_if_expr$82 = (_Bool)1;
+            return_value_strcmp_80=strcmp(argv[(signed long int)i], "--default-prefix");
+            if(return_value_strcmp_80 == 0)
+              tmp_if_expr_82 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$81=strcmp(argv[(signed long int)i], "-p");
-              tmp_if_expr$82 = !(return_value_strcmp$81 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_81=strcmp(argv[(signed long int)i], "-p");
+              tmp_if_expr_82 = !(return_value_strcmp_81 != 0) ? (_Bool)1 : (_Bool)0;
             }
-            tmp_if_expr$83 = tmp_if_expr$82 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_83 = tmp_if_expr_82 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$83 = (_Bool)0;
-          if(tmp_if_expr$83)
+            tmp_if_expr_83 = (_Bool)0;
+          if(tmp_if_expr_83)
           {
             i = i + 1;
             default_prefix=atoi(argv[(signed long int)i]);
@@ -2851,26 +2851,26 @@ signed int main(signed int argc, char **argv)
           {
             if(!(1 + i >= argc))
             {
-              return_value_strcmp$76=strcmp(argv[(signed long int)i], "--ipset-reduce");
-              if(return_value_strcmp$76 == 0)
-                tmp_if_expr$78 = (_Bool)1;
+              return_value_strcmp_76=strcmp(argv[(signed long int)i], "--ipset-reduce");
+              if(return_value_strcmp_76 == 0)
+                tmp_if_expr_78 = (_Bool)1;
 
               else
               {
-                return_value_strcmp$77=strcmp(argv[(signed long int)i], "--reduce-factor");
-                tmp_if_expr$78 = !(return_value_strcmp$77 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_strcmp_77=strcmp(argv[(signed long int)i], "--reduce-factor");
+                tmp_if_expr_78 = !(return_value_strcmp_77 != 0) ? (_Bool)1 : (_Bool)0;
               }
-              tmp_if_expr$79 = tmp_if_expr$78 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_79 = tmp_if_expr_78 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$79 = (_Bool)0;
-            if(tmp_if_expr$79)
+              tmp_if_expr_79 = (_Bool)0;
+            if(tmp_if_expr_79)
             {
               i = i + 1;
-              signed int return_value_atoi$3;
-              return_value_atoi$3=atoi(argv[(signed long int)i]);
-              ipset_reduce_factor = 100 + return_value_atoi$3;
+              signed int return_value_atoi_3;
+              return_value_atoi_3=atoi(argv[(signed long int)i]);
+              ipset_reduce_factor = 100 + return_value_atoi_3;
               mode = 7;
             }
 
@@ -2878,21 +2878,21 @@ signed int main(signed int argc, char **argv)
             {
               if(!(1 + i >= argc))
               {
-                return_value_strcmp$72=strcmp(argv[(signed long int)i], "--ipset-reduce-entries");
-                if(return_value_strcmp$72 == 0)
-                  tmp_if_expr$74 = (_Bool)1;
+                return_value_strcmp_72=strcmp(argv[(signed long int)i], "--ipset-reduce-entries");
+                if(return_value_strcmp_72 == 0)
+                  tmp_if_expr_74 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$73=strcmp(argv[(signed long int)i], "--reduce-entries");
-                  tmp_if_expr$74 = !(return_value_strcmp$73 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_73=strcmp(argv[(signed long int)i], "--reduce-entries");
+                  tmp_if_expr_74 = !(return_value_strcmp_73 != 0) ? (_Bool)1 : (_Bool)0;
                 }
-                tmp_if_expr$75 = tmp_if_expr$74 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_75 = tmp_if_expr_74 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$75 = (_Bool)0;
-              if(tmp_if_expr$75)
+                tmp_if_expr_75 = (_Bool)0;
+              if(tmp_if_expr_75)
               {
                 i = i + 1;
                 ipset_reduce_min_accepted=atoi(argv[(signed long int)i]);
@@ -2901,100 +2901,100 @@ signed int main(signed int argc, char **argv)
 
               else
               {
-                return_value_strcmp$61=strcmp(argv[(signed long int)i], "--optimize");
-                if(return_value_strcmp$61 == 0)
-                  tmp_if_expr$63 = (_Bool)1;
+                return_value_strcmp_61=strcmp(argv[(signed long int)i], "--optimize");
+                if(return_value_strcmp_61 == 0)
+                  tmp_if_expr_63 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$62=strcmp(argv[(signed long int)i], "--combine");
-                  tmp_if_expr$63 = !(return_value_strcmp$62 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_62=strcmp(argv[(signed long int)i], "--combine");
+                  tmp_if_expr_63 = !(return_value_strcmp_62 != 0) ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$63)
-                  tmp_if_expr$65 = (_Bool)1;
+                if(tmp_if_expr_63)
+                  tmp_if_expr_65 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$64=strcmp(argv[(signed long int)i], "--merge");
-                  tmp_if_expr$65 = !(return_value_strcmp$64 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_64=strcmp(argv[(signed long int)i], "--merge");
+                  tmp_if_expr_65 = !(return_value_strcmp_64 != 0) ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$65)
-                  tmp_if_expr$67 = (_Bool)1;
+                if(tmp_if_expr_65)
+                  tmp_if_expr_67 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$66=strcmp(argv[(signed long int)i], "--union");
-                  tmp_if_expr$67 = !(return_value_strcmp$66 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_66=strcmp(argv[(signed long int)i], "--union");
+                  tmp_if_expr_67 = !(return_value_strcmp_66 != 0) ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$67)
-                  tmp_if_expr$69 = (_Bool)1;
+                if(tmp_if_expr_67)
+                  tmp_if_expr_69 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$68=strcmp(argv[(signed long int)i], "--union-all");
-                  tmp_if_expr$69 = !(return_value_strcmp$68 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_68=strcmp(argv[(signed long int)i], "--union-all");
+                  tmp_if_expr_69 = !(return_value_strcmp_68 != 0) ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$69)
-                  tmp_if_expr$71 = (_Bool)1;
+                if(tmp_if_expr_69)
+                  tmp_if_expr_71 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$70=strcmp(argv[(signed long int)i], "-J");
-                  tmp_if_expr$71 = !(return_value_strcmp$70 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_70=strcmp(argv[(signed long int)i], "-J");
+                  tmp_if_expr_71 = !(return_value_strcmp_70 != 0) ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$71)
+                if(tmp_if_expr_71)
                   mode = 1;
 
                 else
                 {
-                  return_value_strcmp$56=strcmp(argv[(signed long int)i], "--common");
-                  if(return_value_strcmp$56 == 0)
-                    tmp_if_expr$58 = (_Bool)1;
+                  return_value_strcmp_56=strcmp(argv[(signed long int)i], "--common");
+                  if(return_value_strcmp_56 == 0)
+                    tmp_if_expr_58 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcmp$57=strcmp(argv[(signed long int)i], "--intersect");
-                    tmp_if_expr$58 = !(return_value_strcmp$57 != 0) ? (_Bool)1 : (_Bool)0;
+                    return_value_strcmp_57=strcmp(argv[(signed long int)i], "--intersect");
+                    tmp_if_expr_58 = !(return_value_strcmp_57 != 0) ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$58)
-                    tmp_if_expr$60 = (_Bool)1;
+                  if(tmp_if_expr_58)
+                    tmp_if_expr_60 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcmp$59=strcmp(argv[(signed long int)i], "--intersect-all");
-                    tmp_if_expr$60 = !(return_value_strcmp$59 != 0) ? (_Bool)1 : (_Bool)0;
+                    return_value_strcmp_59=strcmp(argv[(signed long int)i], "--intersect-all");
+                    tmp_if_expr_60 = !(return_value_strcmp_59 != 0) ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$60)
+                  if(tmp_if_expr_60)
                     mode = 8;
 
                   else
                   {
-                    return_value_strcmp$49=strcmp(argv[(signed long int)i], "--exclude-next");
-                    if(return_value_strcmp$49 == 0)
-                      tmp_if_expr$51 = (_Bool)1;
+                    return_value_strcmp_49=strcmp(argv[(signed long int)i], "--exclude-next");
+                    if(return_value_strcmp_49 == 0)
+                      tmp_if_expr_51 = (_Bool)1;
 
                     else
                     {
-                      return_value_strcmp$50=strcmp(argv[(signed long int)i], "--except");
-                      tmp_if_expr$51 = !(return_value_strcmp$50 != 0) ? (_Bool)1 : (_Bool)0;
+                      return_value_strcmp_50=strcmp(argv[(signed long int)i], "--except");
+                      tmp_if_expr_51 = !(return_value_strcmp_50 != 0) ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$51)
-                      tmp_if_expr$53 = (_Bool)1;
+                    if(tmp_if_expr_51)
+                      tmp_if_expr_53 = (_Bool)1;
 
                     else
                     {
-                      return_value_strcmp$52=strcmp(argv[(signed long int)i], "--complement-next");
-                      tmp_if_expr$53 = !(return_value_strcmp$52 != 0) ? (_Bool)1 : (_Bool)0;
+                      return_value_strcmp_52=strcmp(argv[(signed long int)i], "--complement-next");
+                      tmp_if_expr_53 = !(return_value_strcmp_52 != 0) ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$53)
-                      tmp_if_expr$55 = (_Bool)1;
+                    if(tmp_if_expr_53)
+                      tmp_if_expr_55 = (_Bool)1;
 
                     else
                     {
-                      return_value_strcmp$54=strcmp(argv[(signed long int)i], "--complement");
-                      tmp_if_expr$55 = !(return_value_strcmp$54 != 0) ? (_Bool)1 : (_Bool)0;
+                      return_value_strcmp_54=strcmp(argv[(signed long int)i], "--complement");
+                      tmp_if_expr_55 = !(return_value_strcmp_54 != 0) ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$55)
+                    if(tmp_if_expr_55)
                     {
                       mode = 9;
                       read_second = 1;
@@ -3008,16 +3008,16 @@ signed int main(signed int argc, char **argv)
 
                     else
                     {
-                      return_value_strcmp$46=strcmp(argv[(signed long int)i], "--diff");
-                      if(return_value_strcmp$46 == 0)
-                        tmp_if_expr$48 = (_Bool)1;
+                      return_value_strcmp_46=strcmp(argv[(signed long int)i], "--diff");
+                      if(return_value_strcmp_46 == 0)
+                        tmp_if_expr_48 = (_Bool)1;
 
                       else
                       {
-                        return_value_strcmp$47=strcmp(argv[(signed long int)i], "--diff-next");
-                        tmp_if_expr$48 = !(return_value_strcmp$47 != 0) ? (_Bool)1 : (_Bool)0;
+                        return_value_strcmp_47=strcmp(argv[(signed long int)i], "--diff-next");
+                        tmp_if_expr_48 = !(return_value_strcmp_47 != 0) ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$48)
+                      if(tmp_if_expr_48)
                       {
                         mode = 10;
                         read_second = 1;
@@ -3031,20 +3031,20 @@ signed int main(signed int argc, char **argv)
 
                       else
                       {
-                        return_value_strcmp$45=strcmp(argv[(signed long int)i], "--compare");
-                        if(return_value_strcmp$45 == 0)
+                        return_value_strcmp_45=strcmp(argv[(signed long int)i], "--compare");
+                        if(return_value_strcmp_45 == 0)
                           mode = 2;
 
                         else
                         {
-                          return_value_strcmp$44=strcmp(argv[(signed long int)i], "--compare-first");
-                          if(return_value_strcmp$44 == 0)
+                          return_value_strcmp_44=strcmp(argv[(signed long int)i], "--compare-first");
+                          if(return_value_strcmp_44 == 0)
                             mode = 3;
 
                           else
                           {
-                            return_value_strcmp$43=strcmp(argv[(signed long int)i], "--compare-next");
-                            if(return_value_strcmp$43 == 0)
+                            return_value_strcmp_43=strcmp(argv[(signed long int)i], "--compare-next");
+                            if(return_value_strcmp_43 == 0)
                             {
                               mode = 4;
                               read_second = 1;
@@ -3058,95 +3058,95 @@ signed int main(signed int argc, char **argv)
 
                             else
                             {
-                              return_value_strcmp$40=strcmp(argv[(signed long int)i], "--count-unique");
-                              if(return_value_strcmp$40 == 0)
-                                tmp_if_expr$42 = (_Bool)1;
+                              return_value_strcmp_40=strcmp(argv[(signed long int)i], "--count-unique");
+                              if(return_value_strcmp_40 == 0)
+                                tmp_if_expr_42 = (_Bool)1;
 
                               else
                               {
-                                return_value_strcmp$41=strcmp(argv[(signed long int)i], "-C");
-                                tmp_if_expr$42 = !(return_value_strcmp$41 != 0) ? (_Bool)1 : (_Bool)0;
+                                return_value_strcmp_41=strcmp(argv[(signed long int)i], "-C");
+                                tmp_if_expr_42 = !(return_value_strcmp_41 != 0) ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$42)
+                              if(tmp_if_expr_42)
                                 mode = 5;
 
                               else
                               {
-                                return_value_strcmp$39=strcmp(argv[(signed long int)i], "--count-unique-all");
-                                if(return_value_strcmp$39 == 0)
+                                return_value_strcmp_39=strcmp(argv[(signed long int)i], "--count-unique-all");
+                                if(return_value_strcmp_39 == 0)
                                   mode = 6;
 
                                 else
                                 {
-                                  return_value_strcmp$38=strcmp(argv[(signed long int)i], "--version");
-                                  if(return_value_strcmp$38 == 0)
+                                  return_value_strcmp_38=strcmp(argv[(signed long int)i], "--version");
+                                  if(return_value_strcmp_38 == 0)
                                     version();
 
                                   else
                                   {
-                                    return_value_strcmp$35=strcmp(argv[(signed long int)i], "--help");
-                                    if(return_value_strcmp$35 == 0)
-                                      tmp_if_expr$37 = (_Bool)1;
+                                    return_value_strcmp_35=strcmp(argv[(signed long int)i], "--help");
+                                    if(return_value_strcmp_35 == 0)
+                                      tmp_if_expr_37 = (_Bool)1;
 
                                     else
                                     {
-                                      return_value_strcmp$36=strcmp(argv[(signed long int)i], "-h");
-                                      tmp_if_expr$37 = !(return_value_strcmp$36 != 0) ? (_Bool)1 : (_Bool)0;
+                                      return_value_strcmp_36=strcmp(argv[(signed long int)i], "-h");
+                                      tmp_if_expr_37 = !(return_value_strcmp_36 != 0) ? (_Bool)1 : (_Bool)0;
                                     }
-                                    if(tmp_if_expr$37)
+                                    if(tmp_if_expr_37)
                                       usage(argv[(signed long int)0]);
 
                                     else
                                     {
-                                      return_value_strcmp$34=strcmp(argv[(signed long int)i], "-v");
-                                      if(return_value_strcmp$34 == 0)
+                                      return_value_strcmp_34=strcmp(argv[(signed long int)i], "-v");
+                                      if(return_value_strcmp_34 == 0)
                                         debug = 1;
 
                                       else
                                       {
-                                        return_value_strcmp$31=strcmp(argv[(signed long int)i], "--print-ranges");
-                                        if(return_value_strcmp$31 == 0)
-                                          tmp_if_expr$33 = (_Bool)1;
+                                        return_value_strcmp_31=strcmp(argv[(signed long int)i], "--print-ranges");
+                                        if(return_value_strcmp_31 == 0)
+                                          tmp_if_expr_33 = (_Bool)1;
 
                                         else
                                         {
-                                          return_value_strcmp$32=strcmp(argv[(signed long int)i], "-j");
-                                          tmp_if_expr$33 = !(return_value_strcmp$32 != 0) ? (_Bool)1 : (_Bool)0;
+                                          return_value_strcmp_32=strcmp(argv[(signed long int)i], "-j");
+                                          tmp_if_expr_33 = !(return_value_strcmp_32 != 0) ? (_Bool)1 : (_Bool)0;
                                         }
-                                        if(tmp_if_expr$33)
+                                        if(tmp_if_expr_33)
                                           print = 1;
 
                                         else
                                         {
-                                          return_value_strcmp$30=strcmp(argv[(signed long int)i], "--print-binary");
-                                          if(return_value_strcmp$30 == 0)
+                                          return_value_strcmp_30=strcmp(argv[(signed long int)i], "--print-binary");
+                                          if(return_value_strcmp_30 == 0)
                                             print = 4;
 
                                           else
                                           {
-                                            return_value_strcmp$27=strcmp(argv[(signed long int)i], "--print-single-ips");
-                                            if(return_value_strcmp$27 == 0)
-                                              tmp_if_expr$29 = (_Bool)1;
+                                            return_value_strcmp_27=strcmp(argv[(signed long int)i], "--print-single-ips");
+                                            if(return_value_strcmp_27 == 0)
+                                              tmp_if_expr_29 = (_Bool)1;
 
                                             else
                                             {
-                                              return_value_strcmp$28=strcmp(argv[(signed long int)i], "-1");
-                                              tmp_if_expr$29 = !(return_value_strcmp$28 != 0) ? (_Bool)1 : (_Bool)0;
+                                              return_value_strcmp_28=strcmp(argv[(signed long int)i], "-1");
+                                              tmp_if_expr_29 = !(return_value_strcmp_28 != 0) ? (_Bool)1 : (_Bool)0;
                                             }
-                                            if(tmp_if_expr$29)
+                                            if(tmp_if_expr_29)
                                               print = 3;
 
                                             else
                                             {
                                               if(!(1 + i >= argc))
                                               {
-                                                return_value_strcmp$25=strcmp(argv[(signed long int)i], "--print-prefix");
-                                                tmp_if_expr$26 = !(return_value_strcmp$25 != 0) ? (_Bool)1 : (_Bool)0;
+                                                return_value_strcmp_25=strcmp(argv[(signed long int)i], "--print-prefix");
+                                                tmp_if_expr_26 = !(return_value_strcmp_25 != 0) ? (_Bool)1 : (_Bool)0;
                                               }
 
                                               else
-                                                tmp_if_expr$26 = (_Bool)0;
-                                              if(tmp_if_expr$26)
+                                                tmp_if_expr_26 = (_Bool)0;
+                                              if(tmp_if_expr_26)
                                               {
                                                 i = i + 1;
                                                 print_prefix_ips = argv[(signed long int)i];
@@ -3157,13 +3157,13 @@ signed int main(signed int argc, char **argv)
                                               {
                                                 if(!(1 + i >= argc))
                                                 {
-                                                  return_value_strcmp$23=strcmp(argv[(signed long int)i], "--print-prefix-ips");
-                                                  tmp_if_expr$24 = !(return_value_strcmp$23 != 0) ? (_Bool)1 : (_Bool)0;
+                                                  return_value_strcmp_23=strcmp(argv[(signed long int)i], "--print-prefix-ips");
+                                                  tmp_if_expr_24 = !(return_value_strcmp_23 != 0) ? (_Bool)1 : (_Bool)0;
                                                 }
 
                                                 else
-                                                  tmp_if_expr$24 = (_Bool)0;
-                                                if(tmp_if_expr$24)
+                                                  tmp_if_expr_24 = (_Bool)0;
+                                                if(tmp_if_expr_24)
                                                 {
                                                   i = i + 1;
                                                   print_prefix_ips = argv[(signed long int)i];
@@ -3173,13 +3173,13 @@ signed int main(signed int argc, char **argv)
                                                 {
                                                   if(!(1 + i >= argc))
                                                   {
-                                                    return_value_strcmp$21=strcmp(argv[(signed long int)i], "--print-prefix-nets");
-                                                    tmp_if_expr$22 = !(return_value_strcmp$21 != 0) ? (_Bool)1 : (_Bool)0;
+                                                    return_value_strcmp_21=strcmp(argv[(signed long int)i], "--print-prefix-nets");
+                                                    tmp_if_expr_22 = !(return_value_strcmp_21 != 0) ? (_Bool)1 : (_Bool)0;
                                                   }
 
                                                   else
-                                                    tmp_if_expr$22 = (_Bool)0;
-                                                  if(tmp_if_expr$22)
+                                                    tmp_if_expr_22 = (_Bool)0;
+                                                  if(tmp_if_expr_22)
                                                   {
                                                     i = i + 1;
                                                     print_prefix_nets = argv[(signed long int)i];
@@ -3189,13 +3189,13 @@ signed int main(signed int argc, char **argv)
                                                   {
                                                     if(!(1 + i >= argc))
                                                     {
-                                                      return_value_strcmp$19=strcmp(argv[(signed long int)i], "--print-suffix");
-                                                      tmp_if_expr$20 = !(return_value_strcmp$19 != 0) ? (_Bool)1 : (_Bool)0;
+                                                      return_value_strcmp_19=strcmp(argv[(signed long int)i], "--print-suffix");
+                                                      tmp_if_expr_20 = !(return_value_strcmp_19 != 0) ? (_Bool)1 : (_Bool)0;
                                                     }
 
                                                     else
-                                                      tmp_if_expr$20 = (_Bool)0;
-                                                    if(tmp_if_expr$20)
+                                                      tmp_if_expr_20 = (_Bool)0;
+                                                    if(tmp_if_expr_20)
                                                     {
                                                       i = i + 1;
                                                       print_suffix_ips = argv[(signed long int)i];
@@ -3206,13 +3206,13 @@ signed int main(signed int argc, char **argv)
                                                     {
                                                       if(!(1 + i >= argc))
                                                       {
-                                                        return_value_strcmp$17=strcmp(argv[(signed long int)i], "--print-suffix-ips");
-                                                        tmp_if_expr$18 = !(return_value_strcmp$17 != 0) ? (_Bool)1 : (_Bool)0;
+                                                        return_value_strcmp_17=strcmp(argv[(signed long int)i], "--print-suffix-ips");
+                                                        tmp_if_expr_18 = !(return_value_strcmp_17 != 0) ? (_Bool)1 : (_Bool)0;
                                                       }
 
                                                       else
-                                                        tmp_if_expr$18 = (_Bool)0;
-                                                      if(tmp_if_expr$18)
+                                                        tmp_if_expr_18 = (_Bool)0;
+                                                      if(tmp_if_expr_18)
                                                       {
                                                         i = i + 1;
                                                         print_suffix_ips = argv[(signed long int)i];
@@ -3222,13 +3222,13 @@ signed int main(signed int argc, char **argv)
                                                       {
                                                         if(!(1 + i >= argc))
                                                         {
-                                                          return_value_strcmp$15=strcmp(argv[(signed long int)i], "--print-suffix-nets");
-                                                          tmp_if_expr$16 = !(return_value_strcmp$15 != 0) ? (_Bool)1 : (_Bool)0;
+                                                          return_value_strcmp_15=strcmp(argv[(signed long int)i], "--print-suffix-nets");
+                                                          tmp_if_expr_16 = !(return_value_strcmp_15 != 0) ? (_Bool)1 : (_Bool)0;
                                                         }
 
                                                         else
-                                                          tmp_if_expr$16 = (_Bool)0;
-                                                        if(tmp_if_expr$16)
+                                                          tmp_if_expr_16 = (_Bool)0;
+                                                        if(tmp_if_expr_16)
                                                         {
                                                           i = i + 1;
                                                           print_suffix_nets = argv[(signed long int)i];
@@ -3236,33 +3236,33 @@ signed int main(signed int argc, char **argv)
 
                                                         else
                                                         {
-                                                          return_value_strcmp$14=strcmp(argv[(signed long int)i], "--header");
-                                                          if(return_value_strcmp$14 == 0)
+                                                          return_value_strcmp_14=strcmp(argv[(signed long int)i], "--header");
+                                                          if(return_value_strcmp_14 == 0)
                                                             header = 1;
 
                                                           else
                                                           {
-                                                            return_value_strcmp$13=strcmp(argv[(signed long int)i], "--quiet");
-                                                            if(return_value_strcmp$13 == 0)
+                                                            return_value_strcmp_13=strcmp(argv[(signed long int)i], "--quiet");
+                                                            if(return_value_strcmp_13 == 0)
                                                               quiet = 1;
 
                                                             else
                                                             {
-                                                              return_value_strcmp$12=strcmp(argv[(signed long int)i], "--dont-fix-network");
-                                                              if(return_value_strcmp$12 == 0)
+                                                              return_value_strcmp_12=strcmp(argv[(signed long int)i], "--dont-fix-network");
+                                                              if(return_value_strcmp_12 == 0)
                                                                 cidr_use_network = 0;
 
                                                               else
                                                               {
                                                                 if(!(1 + i >= argc))
                                                                 {
-                                                                  return_value_strcmp$10=strcmp(argv[(signed long int)i], "--dns-threads");
-                                                                  tmp_if_expr$11 = !(return_value_strcmp$10 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                  return_value_strcmp_10=strcmp(argv[(signed long int)i], "--dns-threads");
+                                                                  tmp_if_expr_11 = !(return_value_strcmp_10 != 0) ? (_Bool)1 : (_Bool)0;
                                                                 }
 
                                                                 else
-                                                                  tmp_if_expr$11 = (_Bool)0;
-                                                                if(tmp_if_expr$11)
+                                                                  tmp_if_expr_11 = (_Bool)0;
+                                                                if(tmp_if_expr_11)
                                                                 {
                                                                   i = i + 1;
                                                                   dns_threads_max=atoi(argv[(signed long int)i]);
@@ -3273,28 +3273,28 @@ signed int main(signed int argc, char **argv)
 
                                                                 else
                                                                 {
-                                                                  return_value_strcmp$9=strcmp(argv[(signed long int)i], "--dns-silent");
-                                                                  if(return_value_strcmp$9 == 0)
+                                                                  return_value_strcmp_9=strcmp(argv[(signed long int)i], "--dns-silent");
+                                                                  if(return_value_strcmp_9 == 0)
                                                                     dns_silent = 1;
 
                                                                   else
                                                                   {
-                                                                    return_value_strcmp$8=strcmp(argv[(signed long int)i], "--dns-progress");
-                                                                    if(return_value_strcmp$8 == 0)
+                                                                    return_value_strcmp_8=strcmp(argv[(signed long int)i], "--dns-progress");
+                                                                    if(return_value_strcmp_8 == 0)
                                                                       dns_progress = 1;
 
                                                                     else
                                                                     {
-                                                                      return_value_strcmp$5=strcmp(argv[(signed long int)i], "--has-compare");
-                                                                      if(return_value_strcmp$5 == 0)
-                                                                        tmp_if_expr$7 = (_Bool)1;
+                                                                      return_value_strcmp_5=strcmp(argv[(signed long int)i], "--has-compare");
+                                                                      if(return_value_strcmp_5 == 0)
+                                                                        tmp_if_expr_7 = (_Bool)1;
 
                                                                       else
                                                                       {
-                                                                        return_value_strcmp$6=strcmp(argv[(signed long int)i], "--has-reduce");
-                                                                        tmp_if_expr$7 = !(return_value_strcmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                        return_value_strcmp_6=strcmp(argv[(signed long int)i], "--has-reduce");
+                                                                        tmp_if_expr_7 = !(return_value_strcmp_6 != 0) ? (_Bool)1 : (_Bool)0;
                                                                       }
-                                                                      if(tmp_if_expr$7)
+                                                                      if(tmp_if_expr_7)
                                                                       {
                                                                         fprintf(stderr, "yes, compare and reduce is present.\n");
                                                                         exit(0);
@@ -3302,9 +3302,9 @@ signed int main(signed int argc, char **argv)
 
                                                                       else
                                                                       {
-                                                                        signed int return_value_strcmp$4;
-                                                                        return_value_strcmp$4=strcmp(argv[(signed long int)i], "-");
-                                                                        if(return_value_strcmp$4 == 0)
+                                                                        signed int return_value_strcmp_4;
+                                                                        return_value_strcmp_4=strcmp(argv[(signed long int)i], "-");
+                                                                        if(return_value_strcmp_4 == 0)
                                                                           ips=ipset_load((const char *)(void *)0);
 
                                                                         else
@@ -3402,9 +3402,9 @@ signed int main(signed int argc, char **argv)
         if(!(header == 0))
           printf("entries,unique_ips\n");
 
-        unsigned long int return_value_ipset_unique_ips$90;
-        return_value_ipset_unique_ips$90=ipset_unique_ips(root);
-        printf("%lu,%lu\n", root->lines, return_value_ipset_unique_ips$90);
+        unsigned long int return_value_ipset_unique_ips_90;
+        return_value_ipset_unique_ips_90=ipset_unique_ips(root);
+        printf("%lu,%lu\n", root->lines, return_value_ipset_unique_ips_90);
       }
 
   }
@@ -3412,7 +3412,7 @@ signed int main(signed int argc, char **argv)
   else
     if(mode == 8)
     {
-      struct ipset *main$$1$$4$$common = (struct ipset *)(void *)0;
+      struct ipset *main__1__4__common = (struct ipset *)(void *)0;
       struct ipset *ips2 = (struct ipset *)(void *)0;
       if(root->next == ((struct ipset *)NULL))
       {
@@ -3420,16 +3420,16 @@ signed int main(signed int argc, char **argv)
         exit(1);
       }
 
-      main$$1$$4$$common=ipset_common(root, root->next);
+      main__1__4__common=ipset_common(root, root->next);
       ips = root->next->next;
       for( ; !(ips == ((struct ipset *)NULL)); ips = ips->next)
       {
-        ips2=ipset_common(main$$1$$4$$common, ips);
-        ipset_free(main$$1$$4$$common);
-        main$$1$$4$$common = ips2;
+        ips2=ipset_common(main__1__4__common, ips);
+        ipset_free(main__1__4__common);
+        main__1__4__common = ips2;
       }
       gettimeofday(&print_dt, (struct timezone *)(void *)0);
-      ipset_print(main$$1$$4$$common, print);
+      ipset_print(main__1__4__common, print);
     }
 
     else
@@ -3469,7 +3469,7 @@ signed int main(signed int argc, char **argv)
       else
         if(mode == 2)
         {
-          struct ipset *main$$1$$6$$ips2;
+          struct ipset *main__1__6__ips2;
           if(root->next == ((struct ipset *)NULL))
           {
             fprintf(stderr, "%s: two ipsets at least are needed to be compared.\n", PROG);
@@ -3482,20 +3482,20 @@ signed int main(signed int argc, char **argv)
           ips = root;
           for( ; !(ips == ((struct ipset *)NULL)); ips = ips->next)
           {
-            main$$1$$6$$ips2 = ips;
-            for( ; !(main$$1$$6$$ips2 == ((struct ipset *)NULL)); main$$1$$6$$ips2 = main$$1$$6$$ips2->next)
+            main__1__6__ips2 = ips;
+            for( ; !(main__1__6__ips2 == ((struct ipset *)NULL)); main__1__6__ips2 = main__1__6__ips2->next)
             {
               struct ipset *comips;
-              if(!(ips == main$$1$$6$$ips2))
+              if(!(ips == main__1__6__ips2))
               {
-                comips=ipset_common(ips, main$$1$$6$$ips2);
+                comips=ipset_common(ips, main__1__6__ips2);
                 if(comips == ((struct ipset *)NULL))
                 {
-                  fprintf(stderr, "%s: Cannot find the common IPs of ipset %s and %s\n", PROG, (const void *)ips->filename, (const void *)main$$1$$6$$ips2->filename);
+                  fprintf(stderr, "%s: Cannot find the common IPs of ipset %s and %s\n", PROG, (const void *)ips->filename, (const void *)main__1__6__ips2->filename);
                   exit(1);
                 }
 
-                fprintf(stdout, "%s,%s,%lu,%lu,%lu,%lu,%lu,%lu\n", (const void *)ips->filename, (const void *)main$$1$$6$$ips2->filename, ips->lines, main$$1$$6$$ips2->lines, ips->unique_ips, main$$1$$6$$ips2->unique_ips, (ips->unique_ips + main$$1$$6$$ips2->unique_ips) - comips->unique_ips, comips->unique_ips);
+                fprintf(stdout, "%s,%s,%lu,%lu,%lu,%lu,%lu,%lu\n", (const void *)ips->filename, (const void *)main__1__6__ips2->filename, ips->lines, main__1__6__ips2->lines, ips->unique_ips, main__1__6__ips2->unique_ips, (ips->unique_ips + main__1__6__ips2->unique_ips) - comips->unique_ips, comips->unique_ips);
                 ipset_free(comips);
               }
 
@@ -3507,7 +3507,7 @@ signed int main(signed int argc, char **argv)
         else
           if(mode == 4)
           {
-            struct ipset *main$$1$$7$$ips2;
+            struct ipset *main__1__7__ips2;
             if(second == ((struct ipset *)NULL))
             {
               fprintf(stderr, "%s: no files given after the --compare-next parameter.\n", PROG);
@@ -3520,18 +3520,18 @@ signed int main(signed int argc, char **argv)
             ips = root;
             for( ; !(ips == ((struct ipset *)NULL)); ips = ips->next)
             {
-              main$$1$$7$$ips2 = second;
-              for( ; !(main$$1$$7$$ips2 == ((struct ipset *)NULL)); main$$1$$7$$ips2 = main$$1$$7$$ips2->next)
+              main__1__7__ips2 = second;
+              for( ; !(main__1__7__ips2 == ((struct ipset *)NULL)); main__1__7__ips2 = main__1__7__ips2->next)
               {
                 struct ipset *common;
-                common=ipset_common(ips, main$$1$$7$$ips2);
+                common=ipset_common(ips, main__1__7__ips2);
                 if(common == ((struct ipset *)NULL))
                 {
-                  fprintf(stderr, "%s: Cannot find the common IPs of ipset %s and %s\n", PROG, (const void *)ips->filename, (const void *)main$$1$$7$$ips2->filename);
+                  fprintf(stderr, "%s: Cannot find the common IPs of ipset %s and %s\n", PROG, (const void *)ips->filename, (const void *)main__1__7__ips2->filename);
                   exit(1);
                 }
 
-                fprintf(stdout, "%s,%s,%lu,%lu,%lu,%lu,%lu,%lu\n", (const void *)ips->filename, (const void *)main$$1$$7$$ips2->filename, ips->lines, main$$1$$7$$ips2->lines, ips->unique_ips, main$$1$$7$$ips2->unique_ips, (ips->unique_ips + main$$1$$7$$ips2->unique_ips) - common->unique_ips, common->unique_ips);
+                fprintf(stdout, "%s,%s,%lu,%lu,%lu,%lu,%lu,%lu\n", (const void *)ips->filename, (const void *)main__1__7__ips2->filename, ips->lines, main__1__7__ips2->lines, ips->unique_ips, main__1__7__ips2->unique_ips, (ips->unique_ips + main__1__7__ips2->unique_ips) - common->unique_ips, common->unique_ips);
                 ipset_free(common);
               }
             }
@@ -3553,18 +3553,18 @@ signed int main(signed int argc, char **argv)
               ips = root;
               for( ; !(ips == ((struct ipset *)NULL)); ips = ips->next)
               {
-                struct ipset *main$$1$$8$$2$$1$$comips;
+                struct ipset *main__1__8__2__1__comips;
                 if(!(ips == first))
                 {
-                  main$$1$$8$$2$$1$$comips=ipset_common(ips, first);
-                  if(main$$1$$8$$2$$1$$comips == ((struct ipset *)NULL))
+                  main__1__8__2__1__comips=ipset_common(ips, first);
+                  if(main__1__8__2__1__comips == ((struct ipset *)NULL))
                   {
                     fprintf(stderr, "%s: Cannot find the comips IPs of ipset %s and %s\n", PROG, (const void *)ips->filename, (const void *)first->filename);
                     exit(1);
                   }
 
-                  printf("%s,%lu,%lu,%lu\n", (const void *)ips->filename, ips->lines, ips->unique_ips, main$$1$$8$$2$$1$$comips->unique_ips);
-                  ipset_free(main$$1$$8$$2$$1$$comips);
+                  printf("%s,%lu,%lu,%lu\n", (const void *)ips->filename, ips->lines, ips->unique_ips, main__1__8__2__1__comips->unique_ips);
+                  ipset_free(main__1__8__2__1__comips);
                 }
 
               }
@@ -3644,9 +3644,9 @@ static inline unsigned int netmask(signed int prefix)
 // file iprange.c line 93
 static inline unsigned int network(unsigned int addr, signed int prefix)
 {
-  unsigned int return_value_netmask$1;
-  return_value_netmask$1=netmask(prefix);
-  return addr & return_value_netmask$1;
+  unsigned int return_value_netmask_1;
+  return_value_netmask_1=netmask(prefix);
+  return addr & return_value_netmask_1;
 }
 
 // parse_hostname
@@ -3655,133 +3655,133 @@ static inline signed int parse_hostname(char *line, signed int lineid, char *ips
 {
   char *s = line;
   signed int i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if((signed int)*s == 32)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     s = s + 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  signed int tmp_post$11;
-  char *tmp_post$12;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  signed int tmp_post_11;
+  char *tmp_post_12;
   do
   {
     if(!(i >= len))
     {
       if((signed int)*s >= 48)
-        tmp_if_expr$2 = (signed int)*s <= 57 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)*s <= 57 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         if((signed int)*s >= 97)
-          tmp_if_expr$3 = (signed int)*s <= 122 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)*s <= 122 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
-        tmp_if_expr$6 = (_Bool)1;
+      if(tmp_if_expr_4)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
         if((signed int)*s >= 65)
-          tmp_if_expr$5 = (signed int)*s <= 90 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (signed int)*s <= 90 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (_Bool)0;
+        tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (_Bool)1;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)*s == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = (signed int)*s == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = (signed int)*s == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = (signed int)*s == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = (signed int)*s == 46 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = (signed int)*s == 46 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(!tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(!tmp_if_expr_10)
       break;
 
-    tmp_post$11 = i;
+    tmp_post_11 = i;
     i = i + 1;
-    tmp_post$12 = s;
+    tmp_post_12 = s;
     s = s + 1l;
-    ipstr[(signed long int)tmp_post$11] = *tmp_post$12;
+    ipstr[(signed long int)tmp_post_11] = *tmp_post_12;
   }
   while((_Bool)1);
   ipstr[(signed long int)i] = (char)0;
-  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr_13;
   do
   {
     if((signed int)*s == 32)
-      tmp_if_expr$13 = (_Bool)1;
+      tmp_if_expr_13 = (_Bool)1;
 
     else
-      tmp_if_expr$13 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$13)
+      tmp_if_expr_13 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_13)
       break;
 
     s = s + 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$14;
+  _Bool tmp_if_expr_14;
   if((signed int)*s == 35)
-    tmp_if_expr$14 = (_Bool)1;
+    tmp_if_expr_14 = (_Bool)1;
 
   else
-    tmp_if_expr$14 = (signed int)*s == 59 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  if(tmp_if_expr$14)
+    tmp_if_expr_14 = (signed int)*s == 59 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  if(tmp_if_expr_14)
     return 3;
 
   else
   {
     if((signed int)*s == 13)
-      tmp_if_expr$15 = (_Bool)1;
+      tmp_if_expr_15 = (_Bool)1;
 
     else
-      tmp_if_expr$15 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$15)
-      tmp_if_expr$16 = (_Bool)1;
+      tmp_if_expr_15 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_15)
+      tmp_if_expr_16 = (_Bool)1;
 
     else
-      tmp_if_expr$16 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$16)
+      tmp_if_expr_16 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_16)
       return 3;
 
     else
@@ -3798,69 +3798,69 @@ static inline signed int parse_line(char *line, signed int lineid, char *ipstr, 
 {
   char *s = line;
   signed int i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if((signed int)*s == 32)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     s = s + 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)*s == 35)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)*s == 59 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  signed int tmp_post$9;
-  char *tmp_post$10;
-  signed int return_value_parse_hostname$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$23;
-  signed int tmp_post$25;
-  char *tmp_post$26;
-  _Bool tmp_if_expr$28;
-  _Bool tmp_if_expr$29;
-  _Bool tmp_if_expr$30;
-  _Bool tmp_if_expr$31;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)*s == 59 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  signed int tmp_post_9;
+  char *tmp_post_10;
+  signed int return_value_parse_hostname_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_23;
+  signed int tmp_post_25;
+  char *tmp_post_26;
+  _Bool tmp_if_expr_28;
+  _Bool tmp_if_expr_29;
+  _Bool tmp_if_expr_30;
+  _Bool tmp_if_expr_31;
+  if(tmp_if_expr_2)
     return 0;
 
   else
   {
     if((signed int)*s == 13)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       return 0;
 
     else
@@ -3870,39 +3870,39 @@ static inline signed int parse_line(char *line, signed int lineid, char *ipstr, 
         if(!(i >= len))
         {
           if((signed int)*s >= 48)
-            tmp_if_expr$5 = (signed int)*s <= 57 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (signed int)*s <= 57 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (signed int)*s == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_6 = (signed int)*s == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = (signed int)*s == 47 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = (signed int)*s == 47 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(!tmp_if_expr$8)
+          tmp_if_expr_8 = (_Bool)0;
+        if(!tmp_if_expr_8)
           break;
 
-        tmp_post$9 = i;
+        tmp_post_9 = i;
         i = i + 1;
-        tmp_post$10 = s;
+        tmp_post_10 = s;
         s = s + 1l;
-        ipstr[(signed long int)tmp_post$9] = *tmp_post$10;
+        ipstr[(signed long int)tmp_post_9] = *tmp_post_10;
       }
       while((_Bool)1);
       if(i == 0)
       {
-        return_value_parse_hostname$11=parse_hostname(line, lineid, ipstr, ipstr2, len);
-        return return_value_parse_hostname$11;
+        return_value_parse_hostname_11=parse_hostname(line, lineid, ipstr, ipstr2, len);
+        return return_value_parse_hostname_11;
       }
 
       else
@@ -3911,68 +3911,68 @@ static inline signed int parse_line(char *line, signed int lineid, char *ipstr, 
         do
         {
           if((signed int)*s == 32)
-            tmp_if_expr$12 = (_Bool)1;
+            tmp_if_expr_12 = (_Bool)1;
 
           else
-            tmp_if_expr$12 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$12)
+            tmp_if_expr_12 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_12)
             break;
 
           s = s + 1l;
         }
         while((_Bool)1);
         if((signed int)*s == 35)
-          tmp_if_expr$13 = (_Bool)1;
+          tmp_if_expr_13 = (_Bool)1;
 
         else
-          tmp_if_expr$13 = (signed int)*s == 59 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$13)
+          tmp_if_expr_13 = (signed int)*s == 59 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_13)
           return 1;
 
         else
         {
           if((signed int)*s == 13)
-            tmp_if_expr$14 = (_Bool)1;
+            tmp_if_expr_14 = (_Bool)1;
 
           else
-            tmp_if_expr$14 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$14)
-            tmp_if_expr$15 = (_Bool)1;
+            tmp_if_expr_14 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_14)
+            tmp_if_expr_15 = (_Bool)1;
 
           else
-            tmp_if_expr$15 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$15)
+            tmp_if_expr_15 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_15)
             return 1;
 
           else
           {
             if(!((signed int)*s == 45))
             {
-              signed int return_value_parse_hostname$16;
-              return_value_parse_hostname$16=parse_hostname(line, lineid, ipstr, ipstr2, len);
-              return return_value_parse_hostname$16;
+              signed int return_value_parse_hostname_16;
+              return_value_parse_hostname_16=parse_hostname(line, lineid, ipstr, ipstr2, len);
+              return return_value_parse_hostname_16;
             }
 
             s = s + 1l;
             do
             {
               if((signed int)*s == 32)
-                tmp_if_expr$17 = (_Bool)1;
+                tmp_if_expr_17 = (_Bool)1;
 
               else
-                tmp_if_expr$17 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
-              if(!tmp_if_expr$17)
+                tmp_if_expr_17 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
+              if(!tmp_if_expr_17)
                 break;
 
               s = s + 1l;
             }
             while((_Bool)1);
             if((signed int)*s == 35)
-              tmp_if_expr$18 = (_Bool)1;
+              tmp_if_expr_18 = (_Bool)1;
 
             else
-              tmp_if_expr$18 = (signed int)*s == 59 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$18)
+              tmp_if_expr_18 = (signed int)*s == 59 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_18)
             {
               fprintf(stderr, "%s: Ignoring text on line %d, expected an ip address after -, but found '%s'\n", PROG, lineid, s);
               return 1;
@@ -3981,16 +3981,16 @@ static inline signed int parse_line(char *line, signed int lineid, char *ipstr, 
             else
             {
               if((signed int)*s == 13)
-                tmp_if_expr$19 = (_Bool)1;
+                tmp_if_expr_19 = (_Bool)1;
 
               else
-                tmp_if_expr$19 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$19)
-                tmp_if_expr$20 = (_Bool)1;
+                tmp_if_expr_19 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_19)
+                tmp_if_expr_20 = (_Bool)1;
 
               else
-                tmp_if_expr$20 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$20)
+                tmp_if_expr_20 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_20)
               {
                 fprintf(stderr, "%s: Incomplete range on line %d, expected an ip address after -, but line ended\n", PROG, lineid);
                 return 1;
@@ -4004,84 +4004,84 @@ static inline signed int parse_line(char *line, signed int lineid, char *ipstr, 
                   if(!(i >= len))
                   {
                     if((signed int)*s >= 48)
-                      tmp_if_expr$21 = (signed int)*s <= 57 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_21 = (signed int)*s <= 57 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$21 = (_Bool)0;
-                    if(tmp_if_expr$21)
-                      tmp_if_expr$22 = (_Bool)1;
+                      tmp_if_expr_21 = (_Bool)0;
+                    if(tmp_if_expr_21)
+                      tmp_if_expr_22 = (_Bool)1;
 
                     else
-                      tmp_if_expr$22 = (signed int)*s == 46 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$22)
-                      tmp_if_expr$23 = (_Bool)1;
+                      tmp_if_expr_22 = (signed int)*s == 46 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_22)
+                      tmp_if_expr_23 = (_Bool)1;
 
                     else
-                      tmp_if_expr$23 = (signed int)*s == 47 ? (_Bool)1 : (_Bool)0;
-                    tmp_if_expr$24 = tmp_if_expr$23 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_23 = (signed int)*s == 47 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_24 = tmp_if_expr_23 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$24 = (_Bool)0;
-                  if(!tmp_if_expr$24)
+                    tmp_if_expr_24 = (_Bool)0;
+                  if(!tmp_if_expr_24)
                     break;
 
-                  tmp_post$25 = i;
+                  tmp_post_25 = i;
                   i = i + 1;
-                  tmp_post$26 = s;
+                  tmp_post_26 = s;
                   s = s + 1l;
-                  ipstr2[(signed long int)tmp_post$25] = *tmp_post$26;
+                  ipstr2[(signed long int)tmp_post_25] = *tmp_post_26;
                 }
                 while((_Bool)1);
                 if(i == 0)
                 {
-                  signed int return_value_parse_hostname$27;
-                  return_value_parse_hostname$27=parse_hostname(line, lineid, ipstr, ipstr2, len);
-                  return return_value_parse_hostname$27;
+                  signed int return_value_parse_hostname_27;
+                  return_value_parse_hostname_27=parse_hostname(line, lineid, ipstr, ipstr2, len);
+                  return return_value_parse_hostname_27;
                 }
 
                 ipstr2[(signed long int)i] = (char)0;
                 do
                 {
                   if((signed int)*s == 32)
-                    tmp_if_expr$28 = (_Bool)1;
+                    tmp_if_expr_28 = (_Bool)1;
 
                   else
-                    tmp_if_expr$28 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
-                  if(!tmp_if_expr$28)
+                    tmp_if_expr_28 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
+                  if(!tmp_if_expr_28)
                     break;
 
                   s = s + 1l;
                 }
                 while((_Bool)1);
                 if((signed int)*s == 35)
-                  tmp_if_expr$29 = (_Bool)1;
+                  tmp_if_expr_29 = (_Bool)1;
 
                 else
-                  tmp_if_expr$29 = (signed int)*s == 59 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$29)
+                  tmp_if_expr_29 = (signed int)*s == 59 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_29)
                   return 2;
 
                 else
                 {
                   if((signed int)*s == 13)
-                    tmp_if_expr$30 = (_Bool)1;
+                    tmp_if_expr_30 = (_Bool)1;
 
                   else
-                    tmp_if_expr$30 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$30)
-                    tmp_if_expr$31 = (_Bool)1;
+                    tmp_if_expr_30 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_30)
+                    tmp_if_expr_31 = (_Bool)1;
 
                   else
-                    tmp_if_expr$31 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$31)
+                    tmp_if_expr_31 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_31)
                     return 2;
 
                   else
                   {
-                    signed int return_value_parse_hostname$32;
-                    return_value_parse_hostname$32=parse_hostname(line, lineid, ipstr, ipstr2, len);
-                    return return_value_parse_hostname$32;
+                    signed int return_value_parse_hostname_32;
+                    return_value_parse_hostname_32=parse_hostname(line, lineid, ipstr, ipstr2, len);
+                    return return_value_parse_hostname_32;
                   }
                 }
               }
@@ -4100,20 +4100,20 @@ static inline void print_addr(unsigned int addr, signed int prefix)
   if(prefix >= 0 && !(prefix >= 33))
     prefix_counters[(signed long int)prefix] = prefix_counters[(signed long int)prefix] + 1;
 
-  char *return_value_ip2str$1;
-  char *return_value_ip2str$2;
+  char *return_value_ip2str_1;
+  char *return_value_ip2str_2;
   if(split_range_disable_printing == 0)
   {
     if(!(prefix >= 32))
     {
-      return_value_ip2str$1=ip2str(addr);
-      printf("%s%s/%d%s\n", print_prefix_nets, return_value_ip2str$1, prefix, print_suffix_nets);
+      return_value_ip2str_1=ip2str(addr);
+      printf("%s%s/%d%s\n", print_prefix_nets, return_value_ip2str_1, prefix, print_suffix_nets);
     }
 
     else
     {
-      return_value_ip2str$2=ip2str(addr);
-      printf("%s%s%s\n", print_prefix_ips, return_value_ip2str$2, print_suffix_ips);
+      return_value_ip2str_2=ip2str(addr);
+      printf("%s%s%s\n", print_prefix_ips, return_value_ip2str_2, print_suffix_ips);
     }
   }
 
@@ -4126,34 +4126,34 @@ static inline void print_addr_range(unsigned int lo, unsigned int hi)
   if(!(hi >= lo))
   {
     unsigned int t = hi;
-    char *return_value_ip2str$1;
-    return_value_ip2str$1=ip2str(lo);
-    fprintf(stderr, "%s: WARNING: invalid range reversed start=%s", PROG, return_value_ip2str$1);
-    char *return_value_ip2str$2;
-    return_value_ip2str$2=ip2str(hi);
-    fprintf(stderr, " end=%s\n", return_value_ip2str$2);
+    char *return_value_ip2str_1;
+    return_value_ip2str_1=ip2str(lo);
+    fprintf(stderr, "%s: WARNING: invalid range reversed start=%s", PROG, return_value_ip2str_1);
+    char *return_value_ip2str_2;
+    return_value_ip2str_2=ip2str(hi);
+    fprintf(stderr, " end=%s\n", return_value_ip2str_2);
     hi = lo;
     lo = t;
   }
 
   if(lo == hi)
   {
-    char *return_value_ip2str$3;
-    return_value_ip2str$3=ip2str(lo);
-    printf("%s%s-", print_prefix_ips, return_value_ip2str$3);
-    char *return_value_ip2str$4;
-    return_value_ip2str$4=ip2str(hi);
-    printf("%s%s\n", return_value_ip2str$4, print_suffix_ips);
+    char *return_value_ip2str_3;
+    return_value_ip2str_3=ip2str(lo);
+    printf("%s%s-", print_prefix_ips, return_value_ip2str_3);
+    char *return_value_ip2str_4;
+    return_value_ip2str_4=ip2str(hi);
+    printf("%s%s\n", return_value_ip2str_4, print_suffix_ips);
   }
 
   else
   {
-    char *return_value_ip2str$5;
-    return_value_ip2str$5=ip2str(lo);
-    printf("%s%s-", print_prefix_nets, return_value_ip2str$5);
-    char *return_value_ip2str$6;
-    return_value_ip2str$6=ip2str(hi);
-    printf("%s%s\n", return_value_ip2str$6, print_suffix_nets);
+    char *return_value_ip2str_5;
+    return_value_ip2str_5=ip2str(lo);
+    printf("%s%s-", print_prefix_nets, return_value_ip2str_5);
+    char *return_value_ip2str_6;
+    return_value_ip2str_6=ip2str(hi);
+    printf("%s%s\n", return_value_ip2str_6, print_suffix_nets);
   }
 }
 
@@ -4161,9 +4161,9 @@ static inline void print_addr_range(unsigned int lo, unsigned int hi)
 // file iprange.c line 344
 static inline void print_addr_single(unsigned int x)
 {
-  char *return_value_ip2str$1;
-  return_value_ip2str$1=ip2str(x);
-  printf("%s%s%s\n", print_prefix_ips, return_value_ip2str$1, print_suffix_ips);
+  char *return_value_ip2str_1;
+  return_value_ip2str_1=ip2str(x);
+  printf("%s%s%s\n", print_prefix_ips, return_value_ip2str_1, print_suffix_ips);
 }
 
 // set_bit
@@ -4187,12 +4187,12 @@ static inline signed int split_range(unsigned int addr, signed int prefix, unsig
   if(!(hi >= lo))
   {
     unsigned int t = hi;
-    char *return_value_ip2str$1;
-    return_value_ip2str$1=ip2str(lo);
-    fprintf(stderr, "%s: WARNING: invalid range reversed start=%s", PROG, return_value_ip2str$1);
-    char *return_value_ip2str$2;
-    return_value_ip2str$2=ip2str(hi);
-    fprintf(stderr, " end=%s\n", return_value_ip2str$2);
+    char *return_value_ip2str_1;
+    return_value_ip2str_1=ip2str(lo);
+    fprintf(stderr, "%s: WARNING: invalid range reversed start=%s", PROG, return_value_ip2str_1);
+    char *return_value_ip2str_2;
+    return_value_ip2str_2=ip2str(hi);
+    fprintf(stderr, " end=%s\n", return_value_ip2str_2);
     hi = lo;
     lo = t;
   }
@@ -4232,26 +4232,26 @@ static inline signed int split_range(unsigned int addr, signed int prefix, unsig
         upper_half=set_bit(addr, prefix, 1);
         if(!(hi >= upper_half))
         {
-          signed int return_value_split_range$3;
-          return_value_split_range$3=split_range(lower_half, prefix, lo, hi);
-          return return_value_split_range$3;
+          signed int return_value_split_range_3;
+          return_value_split_range_3=split_range(lower_half, prefix, lo, hi);
+          return return_value_split_range_3;
         }
 
         else
           if(lo >= upper_half)
           {
-            signed int return_value_split_range$4;
-            return_value_split_range$4=split_range(upper_half, prefix, lo, hi);
-            return return_value_split_range$4;
+            signed int return_value_split_range_4;
+            return_value_split_range_4=split_range(upper_half, prefix, lo, hi);
+            return return_value_split_range_4;
           }
 
-        unsigned int return_value_broadcast$5;
-        return_value_broadcast$5=broadcast(lower_half, prefix);
-        signed int return_value_split_range$6;
-        return_value_split_range$6=split_range(lower_half, prefix, lo, return_value_broadcast$5);
-        signed int return_value_split_range$7;
-        return_value_split_range$7=split_range(upper_half, prefix, upper_half, hi);
-        return return_value_split_range$6 + return_value_split_range$7;
+        unsigned int return_value_broadcast_5;
+        return_value_broadcast_5=broadcast(lower_half, prefix);
+        signed int return_value_split_range_6;
+        return_value_split_range_6=split_range(lower_half, prefix, lo, return_value_broadcast_5);
+        signed int return_value_split_range_7;
+        return_value_split_range_7=split_range(upper_half, prefix, upper_half, hi);
+        return return_value_split_range_6 + return_value_split_range_7;
       }
   }
 }
@@ -4264,28 +4264,28 @@ static inline struct network_addr str_to_netaddr(char *ipstr, signed int *err)
   char *prefixstr;
   struct network_addr netaddr;
   prefixstr=strchr(ipstr, 47);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(prefixstr == ((char *)NULL)))
   {
     *prefixstr = (char)0;
     prefixstr = prefixstr + 1l;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
     prefix=strtol(prefixstr, (char **)(void *)0, 10);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*prefixstr == 0 ? (_Bool)1 : (_Bool)0;
-    if(prefix >= 33l || !(prefix >= 0l) || tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*prefixstr == 0 ? (_Bool)1 : (_Bool)0;
+    if(prefix >= 33l || !(prefix >= 0l) || tmp_if_expr_4)
     {
       unsigned int mask;
-      unsigned int return_value_a_to_hl$2;
-      return_value_a_to_hl$2=a_to_hl(prefixstr, err);
-      mask = ~return_value_a_to_hl$2;
+      unsigned int return_value_a_to_hl_2;
+      return_value_a_to_hl_2=a_to_hl(prefixstr, err);
+      mask = ~return_value_a_to_hl_2;
       prefix = (signed long int)32;
       for( ; !((1u & mask) == 0u); prefix = prefix - 1l)
         mask = mask >> 1;
@@ -4304,11 +4304,11 @@ static inline struct network_addr str_to_netaddr(char *ipstr, signed int *err)
 
   }
 
-  unsigned int return_value_a_to_hl$5;
+  unsigned int return_value_a_to_hl_5;
   if(!(cidr_use_network == 0))
   {
-    return_value_a_to_hl$5=a_to_hl(ipstr, err);
-    netaddr.addr=network(return_value_a_to_hl$5, (signed int)prefix);
+    return_value_a_to_hl_5=a_to_hl(ipstr, err);
+    netaddr.addr=network(return_value_a_to_hl_5, (signed int)prefix);
   }
 
   else

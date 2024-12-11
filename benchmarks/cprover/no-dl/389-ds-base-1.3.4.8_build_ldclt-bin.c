@@ -1,74 +1,74 @@
-// #anon_enum$PR_FAILURE=-1$PR_SUCCESS=0
+// #anon_enum_PR_FAILURE=-1_PR_SUCCESS=0
 // file /usr/include/nspr/prtypes.h line 483
-enum anonymous$13 { PR_FAILURE=-1, PR_SUCCESS=0 };
+enum anonymous_13 { PR_FAILURE=-1, PR_SUCCESS=0 };
 
-// #anon_enum$ssl_variant_stream=0$ssl_variant_datagram=1
+// #anon_enum_ssl_variant_stream=0_ssl_variant_datagram=1
 // file /usr/include/nss/sslt.h line 218
-enum anonymous$14 { ssl_variant_stream=0, ssl_variant_datagram=1 };
+enum anonymous_14 { ssl_variant_stream=0, ssl_variant_datagram=1 };
 
-// tag-#anon#ST[*{S8}$S8$'mech'|*{S8}$S8$'authid'|*{S8}$S8$'username'|*{S8}$S8$'passwd'|*{S8}$S8$'realm']
+// tag-#anon#ST[*{S8}_S8_'mech'|*{S8}_S8_'authid'|*{S8}_S8_'username'|*{S8}_S8_'passwd'|*{S8}_S8_'realm']
 // file ../ldap/servers/slapd/tools/ldaptool-sasl.c line 53
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{S8}$S8$'type'|S32'length'|U32'$pad0'|*{S8}$S8$'value'|S32'dontFree'|U32'$pad1']
+// tag-#anon#ST[*{S8}_S8_'type'|S32'length'|U32'_pad0'|*{S8}_S8_'value'|S32'dontFree'|U32'_pad1']
 // file ../ldap/servers/slapd/tools/ldclt/ldclt.h line 381
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']
+// tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 126
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']
+// tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 111
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']
+// tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val']
+// tag-#anon#ST[ARR16{U64}_U64_'__val']
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[S32'si_pid'|U32'si_uid']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']
+// tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']
+// tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']
+// tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 119
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'|*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}$SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}$SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#$|*{V}$V$)->V$'sa_sigaction']
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'|*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}_SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}_SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#_|*{V}_V_)->V_'sa_sigaction']
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-PK11SlotInfoStr
 // file /usr/include/nss/secmodt.h line 32
@@ -281,7 +281,7 @@ extern void PL_strfree(char *);
 extern char * PL_strndup(const char *, unsigned int);
 // PR_CallOnce
 // file /usr/include/nspr/prinit.h line 201
-extern enum anonymous$13 PR_CallOnce(struct PRCallOnceType *, enum anonymous$13 (*)(void));
+extern enum anonymous_13 PR_CallOnce(struct PRCallOnceType *, enum anonymous_13 (*)(void));
 // PR_GetDirectorySeparator
 // file /usr/include/nspr/prsystem.h line 22
 extern char PR_GetDirectorySeparator(void);
@@ -299,7 +299,7 @@ extern void PR_Lock(struct PRLock *);
 extern struct PRLock * PR_NewLock(void);
 // PR_Unlock
 // file /usr/include/nspr/prlock.h line 85
-extern enum anonymous$13 PR_Unlock(struct PRLock *);
+extern enum anonymous_13 PR_Unlock(struct PRLock *);
 // PR_smprintf
 // file /usr/include/nspr/prprf.h line 44
 extern char * PR_smprintf(const char *, ...);
@@ -308,10 +308,10 @@ extern char * PR_smprintf(const char *, ...);
 extern void PR_smprintf_free(char *);
 // SSL_VersionRangeGetSupported
 // file /usr/include/nss/ssl.h line 437
-extern enum _SECStatus SSL_VersionRangeGetSupported(enum anonymous$14, struct SSLVersionRangeStr *);
+extern enum _SECStatus SSL_VersionRangeGetSupported(enum anonymous_14, struct SSLVersionRangeStr *);
 // SSL_VersionRangeSetDefault
 // file /usr/include/nss/ssl.h line 449
-extern enum _SECStatus SSL_VersionRangeSetDefault(enum anonymous$14, const struct SSLVersionRangeStr *);
+extern enum _SECStatus SSL_VersionRangeSetDefault(enum anonymous_14, const struct SSLVersionRangeStr *);
 // __ctype_b_loc
 // file /usr/include/ctype.h line 79
 extern const unsigned short int ** __ctype_b_loc(void);
@@ -515,7 +515,7 @@ signed int getPending(struct thread_context *tttctx, struct timeval *timeout);
 extern signed int getThreadStatus(struct thread_context *tttctx, signed int *status);
 // get_default
 // file ../ldap/servers/slapd/tools/ldaptool-sasl.c line 179
-static signed int get_default(struct anonymous$15 *defaults, struct sasl_interact *interact, unsigned int flags);
+static signed int get_default(struct anonymous_15 *defaults, struct sasl_interact *interact, unsigned int flags);
 // get_new_value
 // file ../ldap/servers/slapd/tools/ldaptool-sasl.c line 218
 static signed int get_new_value(struct sasl_interact *interact, unsigned int flags);
@@ -557,7 +557,7 @@ extern signed int incrementNbOpers(struct thread_context *tttctx);
 signed int initMainThread(void);
 // internal_ol_init_init
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 458
-static enum anonymous$13 internal_ol_init_init(void);
+static enum anonymous_13 internal_ol_init_init(void);
 // ldap_abandon_ext
 // file /usr/include/ldap.h line 1114
 extern signed int ldap_abandon_ext(struct ldap *, signed int, struct ldapcontrol **, struct ldapcontrol **);
@@ -707,22 +707,22 @@ extern void ldclt_flush_genldif(void);
 static char * ldclt_get_sec_pwd(struct PK11SlotInfoStr *slot, signed int retry, void *arg);
 // ldclt_mutex_init
 // file ../ldap/servers/slapd/tools/ldclt/port.h line 56
-extern signed int ldclt_mutex_init(union anonymous$0 *mutex);
+extern signed int ldclt_mutex_init(union anonymous_0 *mutex);
 // ldclt_mutex_lock
 // file ../ldap/servers/slapd/tools/ldclt/port.h line 57
-extern signed int ldclt_mutex_lock(union anonymous$0 *mutex);
+extern signed int ldclt_mutex_lock(union anonymous_0 *mutex);
 // ldclt_mutex_unlock
 // file ../ldap/servers/slapd/tools/ldclt/port.h line 58
-extern signed int ldclt_mutex_unlock(union anonymous$0 *mutex);
+extern signed int ldclt_mutex_unlock(union anonymous_0 *mutex);
 // ldclt_sleep
 // file ../ldap/servers/slapd/tools/ldclt/port.h line 59
 extern void ldclt_sleep(signed int nseconds);
 // ldclt_thread_create
 // file ../ldap/servers/slapd/tools/ldclt/port.h line 60
 extern signed int ldclt_thread_create(unsigned long int *tid, void * (*fct)(void *), void *param);
-// ldclt_thread_create::fct$object
+// ldclt_thread_create::fct_object
 //
-void * fct$object(void *);
+void * fct_object(void *);
 // ldclt_write_genldif
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 2557
 void ldclt_write_genldif(char *str, signed int lgth);
@@ -806,13 +806,13 @@ extern signed int printf(const char *, ...);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 749
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // randomString
 // file ../ldap/servers/slapd/tools/ldclt/ldclt.h line 718
 extern signed int randomString(struct thread_context *tttctx, signed int nbDigits);
@@ -893,13 +893,13 @@ signed int shutdownThreads(void);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 219
-extern signed int sigaddset(struct anonymous$1 *, signed int);
+extern signed int sigaddset(struct anonymous_1 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 213
-extern signed int sigemptyset(struct anonymous$1 *);
+extern signed int sigemptyset(struct anonymous_1 *);
 // sigfillset
 // file /usr/include/signal.h line 216
-extern signed int sigfillset(struct anonymous$1 *);
+extern signed int sigfillset(struct anonymous_1 *);
 // sleep
 // file /usr/include/unistd.h line 447
 extern unsigned int sleep(unsigned int);
@@ -953,7 +953,7 @@ extern void * threadMain(void *arg);
 extern signed long int time(signed long int *);
 // trapVector
 // file ../ldap/servers/slapd/tools/ldclt/ldclt.c line 835
-void trapVector(signed int sig, struct anonymous$11 *siginfo, void *truc);
+void trapVector(signed int sig, struct anonymous_11 *siginfo, void *truc);
 // tttctxInit
 // file ../ldap/servers/slapd/tools/ldclt/ldclt.c line 238
 signed int tttctxInit(signed int num, struct thread_context *tttctx);
@@ -970,7 +970,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file ../ldap/servers/slapd/tools/ldclt/scalab01.c line 615
 signed int writeAttrValue(struct ldap *ldapCtx, char *ident, char *dn, char *attname, char *value);
 
-struct anonymous$15
+struct anonymous_15
 {
   // mech
   char *mech;
@@ -984,7 +984,7 @@ struct anonymous$15
   char *realm;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // type
   char *type;
@@ -996,7 +996,7 @@ struct anonymous$16
   signed int dontFree;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // _call_addr
   void *_call_addr;
@@ -1006,7 +1006,7 @@ struct anonymous$9
   unsigned int _arch;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // _lower
   void *_lower;
@@ -1014,23 +1014,23 @@ struct anonymous$6
   void *_upper;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_addr
   void *si_addr;
   // si_addr_lsb
   signed short int si_addr_lsb;
   // si_addr_bnd
-  struct anonymous$6 si_addr_bnd;
+  struct anonymous_6 si_addr_bnd;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // si_pid
   signed int si_pid;
@@ -1038,7 +1038,7 @@ struct anonymous$2
   unsigned int si_uid;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_pid
   signed int si_pid;
@@ -1060,7 +1060,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_pid
   signed int si_pid;
@@ -1070,7 +1070,7 @@ struct anonymous$4
   union sigval si_sigval;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // si_tid
   signed int si_tid;
@@ -1080,7 +1080,7 @@ struct anonymous$3
   union sigval si_sigval;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_band
   signed long int si_band;
@@ -1088,27 +1088,27 @@ struct anonymous$8
   signed int si_fd;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$2 _kill;
+  struct anonymous_2 _kill;
   // _timer
-  struct anonymous$3 _timer;
+  struct anonymous_3 _timer;
   // _rt
-  struct anonymous$4 _rt;
+  struct anonymous_4 _rt;
   // _sigchld
-  struct anonymous$5 _sigchld;
+  struct anonymous_5 _sigchld;
   // _sigfault
-  struct anonymous$7 _sigfault;
+  struct anonymous_7 _sigfault;
   // _sigpoll
-  struct anonymous$8 _sigpoll;
+  struct anonymous_8 _sigpoll;
   // _sigsys
-  struct anonymous$9 _sigsys;
+  struct anonymous_9 _sigsys;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_signo
   signed int si_signo;
@@ -1117,15 +1117,15 @@ struct anonymous$11
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$10 _sifields;
+  union anonymous_10 _sifields;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$11 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_11 *, void *);
 };
 
 union anonymous
@@ -1164,7 +1164,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1181,7 +1181,7 @@ struct PRCallOnceType
   // inProgress
   signed int inProgress;
   // status
-  enum anonymous$13 status;
+  enum anonymous_13 status;
 };
 
 struct SSLVersionRangeStr
@@ -1273,7 +1273,7 @@ struct _simpl_op
   // dn
   char *dn;
   // attribs
-  struct anonymous$16 attribs[40l];
+  struct anonymous_16 attribs[40l];
   // newRdn
   char *newRdn;
   // newParent
@@ -1509,7 +1509,7 @@ struct main_context
   // errorsBad
   signed int errorsBad;
   // errors_mutex
-  union anonymous$0 errors_mutex;
+  union anonymous_0 errors_mutex;
   // exitStatus
   signed int exitStatus;
   // filter
@@ -1535,7 +1535,7 @@ struct main_context
   // imagesLast
   signed int imagesLast;
   // imagesLast_mutex
-  union anonymous$0 imagesLast_mutex;
+  union anonymous_0 imagesLast_mutex;
   // inactivMax
   signed int inactivMax;
   // incr
@@ -1547,7 +1547,7 @@ struct main_context
   // lastVal
   signed int lastVal;
   // lastVal_mutex
-  union anonymous$0 lastVal_mutex;
+  union anonymous_0 lastVal_mutex;
   // ldapauth
   signed int ldapauth;
   // maxErrors
@@ -1567,7 +1567,7 @@ struct main_context
   // opListTail
   struct oper *opListTail;
   // opListTail_mutex
-  union anonymous$0 opListTail_mutex;
+  union anonymous_0 opListTail_mutex;
   // passwd
   char *passwd;
   // passwdNbDigit
@@ -1669,7 +1669,7 @@ struct oper
   // dn
   char *dn;
   // attribs
-  struct anonymous$16 attribs[40l];
+  struct anonymous_16 attribs[40l];
   // newRdn
   char *newRdn;
   // newParent
@@ -1677,7 +1677,7 @@ struct oper
   // skipped
   signed int skipped;
   // skipped_mutex
-  union anonymous$0 skipped_mutex;
+  union anonymous_0 skipped_mutex;
   // next
   struct oper *next;
 };
@@ -1723,11 +1723,11 @@ struct scalab01_context
   // list
   struct isp_user *list;
   // list_mutex
-  union anonymous$0 list_mutex;
+  union anonymous_0 list_mutex;
   // locking
   char *locking[4096l];
   // locking_mutex
-  union anonymous$0 locking_mutex;
+  union anonymous_0 locking_mutex;
   // lockingMax
   signed int lockingMax;
   // maxcnxnb
@@ -1735,7 +1735,7 @@ struct scalab01_context
   // nbcnx
   signed int nbcnx;
   // nbcnx_mutex
-  union anonymous$0 nbcnx_mutex;
+  union anonymous_0 nbcnx_mutex;
   // wait
   signed int wait;
 };
@@ -1743,9 +1743,9 @@ struct scalab01_context
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$12 __sigaction_handler;
+  union anonymous_12 __sigaction_handler;
   // sa_mask
-  struct anonymous$1 sa_mask;
+  struct anonymous_1 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1821,7 +1821,7 @@ struct thread_context
   // nbOpers
   signed int nbOpers;
   // nbOpers_mutex
-  union anonymous$0 nbOpers_mutex;
+  union anonymous_0 nbOpers_mutex;
   // object
   struct vers_object *object;
   // pendingNb
@@ -1829,7 +1829,7 @@ struct thread_context
   // status
   signed int status;
   // status_mutex
-  union anonymous$0 status_mutex;
+  union anonymous_0 status_mutex;
   // tid
   unsigned long int tid;
   // thrdId
@@ -1909,7 +1909,7 @@ struct vers_field
   // cnt
   signed int cnt;
   // cnt_mutex
-  union anonymous$0 cnt_mutex;
+  union anonymous_0 cnt_mutex;
   // commonField
   struct vers_field *commonField;
   // cst
@@ -1961,7 +1961,7 @@ signed int masterPort = 16000;
 struct main_context mctx;
 // ol_init_callOnce
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 454
-static struct PRCallOnceType ol_init_callOnce = { .initialized=0, .inProgress=0, .status=(enum anonymous$13)0 };
+static struct PRCallOnceType ol_init_callOnce = { .initialized=0, .inProgress=0, .status=(enum anonymous_13)0 };
 // ol_init_lock
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 455
 static struct PRLock *ol_init_lock = (struct PRLock *)(void *)0;
@@ -1996,19 +1996,19 @@ signed int addAttrToList(char *list)
 {
   signed int start;
   signed int end;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(list == ((char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(list);
-    tmp_if_expr$2 = !(return_value_strlen$1 != 0ul) ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(list);
+    tmp_if_expr_2 = !(return_value_strlen_1 != 0ul) ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int return_value_strlen$3;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$2)
+  unsigned long int return_value_strlen_3;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_2)
   {
     fprintf(stderr, "Error: missing attrlist\n");
     return -1;
@@ -2019,8 +2019,8 @@ signed int addAttrToList(char *list)
     start = 0;
     do
     {
-      return_value_strlen$3=strlen(list);
-      if((unsigned long int)start >= return_value_strlen$3)
+      return_value_strlen_3=strlen(list);
+      if((unsigned long int)start >= return_value_strlen_3)
         break;
 
       if(mctx.attrlistNb == 39)
@@ -2033,19 +2033,19 @@ signed int addAttrToList(char *list)
       do
       {
         if(!((signed int)list[(signed long int)end] == 0))
-          tmp_if_expr$4 = (signed int)list[(signed long int)end] != 58 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)list[(signed long int)end] != 58 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         end = end + 1;
       }
       while((_Bool)1);
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc((unsigned long int)((1 + end) - start));
-      mctx.attrlist[(signed long int)mctx.attrlistNb] = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc((unsigned long int)((1 + end) - start));
+      mctx.attrlist[(signed long int)mctx.attrlistNb] = (char *)return_value_malloc_5;
       strncpy(mctx.attrlist[(signed long int)mctx.attrlistNb], &list[(signed long int)start], (unsigned long int)(end - start));
       mctx.attrlist[(signed long int)mctx.attrlistNb][(signed long int)(end - start)] = (char)0;
       mctx.attrlistNb = mctx.attrlistNb + 1;
@@ -2060,18 +2060,18 @@ signed int addAttrToList(char *list)
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 1281
 signed int addAttrib(struct ldapmod **attrs, signed int nb, struct ldapmod *newattr)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ldapmod) /*24ul*/ );
-  attrs[(signed long int)nb] = (struct ldapmod *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ldapmod) /*24ul*/ );
+  attrs[(signed long int)nb] = (struct ldapmod *)return_value_malloc_1;
   if(attrs[(signed long int)nb] == ((struct ldapmod *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    printf("ldclt[%d]: Txxx: cannot malloc(attrs[%d]), error=%d (%s)\n", mctx.pid, nb, *return_value___errno_location$2, return_value_strerror$4);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    printf("ldclt[%d]: Txxx: cannot malloc(attrs[%d]), error=%d (%s)\n", mctx.pid, nb, *return_value___errno_location_2, return_value_strerror_4);
     return -1;
   }
 
@@ -2088,9 +2088,9 @@ extern signed int addErrorStat(signed int err)
   ret=ldclt_mutex_lock(&mctx.errors_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: Cannot mutex_lock(errors_mutex), error=%d (%s)\n", mctx.pid, ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: Cannot mutex_lock(errors_mutex), error=%d (%s)\n", mctx.pid, ret, return_value_strerror_1);
     fflush(stderr);
     return -1;
   }
@@ -2105,9 +2105,9 @@ extern signed int addErrorStat(signed int err)
   else
     if(!(err >= 0))
     {
-      signed int return_value_abs$2;
-      return_value_abs$2=abs(err);
-      mctx.negativeErrors[(signed long int)return_value_abs$2] = mctx.negativeErrors[(signed long int)return_value_abs$2] + 1;
+      signed int return_value_abs_2;
+      return_value_abs_2=abs(err);
+      mctx.negativeErrors[(signed long int)return_value_abs_2] = mctx.negativeErrors[(signed long int)return_value_abs_2] + 1;
     }
 
     else
@@ -2115,16 +2115,16 @@ extern signed int addErrorStat(signed int err)
   ret=ldclt_mutex_unlock(&mctx.errors_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: Cannot mutex_unlock(errors_mutex), error=%d (%s)\n", mctx.pid, ret, return_value_strerror$3);
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: Cannot mutex_unlock(errors_mutex), error=%d (%s)\n", mctx.pid, ret, return_value_strerror_3);
     fflush(stderr);
     return -1;
   }
 
-  signed int return_value_ignoreError$5;
-  return_value_ignoreError$5=ignoreError(err);
-  if(return_value_ignoreError$5 == 0)
+  signed int return_value_ignoreError_5;
+  return_value_ignoreError_5=ignoreError(err);
+  if(return_value_ignoreError_5 == 0)
   {
     if(err >= 0x7b || !(err >= -18))
     {
@@ -2142,9 +2142,9 @@ extern signed int addErrorStat(signed int err)
     else
       if(!(err >= 0))
       {
-        signed int return_value_abs$4;
-        return_value_abs$4=abs(err);
-        if(!(mctx.maxErrors >= mctx.negativeErrors[(signed long int)return_value_abs$4]))
+        signed int return_value_abs_4;
+        return_value_abs_4=abs(err);
+        if(!(mctx.maxErrors >= mctx.negativeErrors[(signed long int)return_value_abs_4]))
         {
           printf("ldclt[%d]: Max error limit reached - exiting.\n", mctx.pid);
           printGlobalStatistics();
@@ -2186,19 +2186,19 @@ signed int basicInit(void)
   mctx.timeval.tv_usec = (signed long int)0;
   mctx.timevalZero.tv_sec = (signed long int)0;
   mctx.timevalZero.tv_usec = (signed long int)0;
-  signed int return_value_utilsInit$1;
-  return_value_utilsInit$1=utilsInit();
-  signed int return_value_readObject$7;
-  unsigned long int return_value_strlen$13;
-  _Bool tmp_if_expr$14;
-  unsigned long int return_value_strlen$17;
-  _Bool tmp_if_expr$18;
-  unsigned long int return_value_strlen$24;
-  _Bool tmp_if_expr$25;
-  unsigned long int return_value_fread$33;
-  signed int return_value_loadImages$36;
-  signed int return_value_scalab01_init$46;
-  if(!(return_value_utilsInit$1 >= 0))
+  signed int return_value_utilsInit_1;
+  return_value_utilsInit_1=utilsInit();
+  signed int return_value_readObject_7;
+  unsigned long int return_value_strlen_13;
+  _Bool tmp_if_expr_14;
+  unsigned long int return_value_strlen_17;
+  _Bool tmp_if_expr_18;
+  unsigned long int return_value_strlen_24;
+  _Bool tmp_if_expr_25;
+  unsigned long int return_value_fread_33;
+  signed int return_value_loadImages_36;
+  signed int return_value_scalab01_init_46;
+  if(!(return_value_utilsInit_1 >= 0))
   {
     fprintf(stderr, "Cannot initialize utilities.\n");
     return -1;
@@ -2243,11 +2243,11 @@ signed int basicInit(void)
         mctx.genldifFile=open(mctx.genldifName, oflags, 0666);
         if(mctx.genldifFile == -1)
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          fprintf(stderr, "ldclt: %s\n", return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          fprintf(stderr, "ldclt: %s\n", return_value_strerror_3);
           fprintf(stderr, "Error: cannot create %s\n", mctx.genldifName);
           fflush(stderr);
           return -1;
@@ -2261,9 +2261,9 @@ signed int basicInit(void)
         ret=ldclt_mutex_init(&mctx.lastVal_mutex);
         if(!(ret == 0))
         {
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(ret);
-          fprintf(stderr, "ldclt: %s\n", return_value_strerror$4);
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(ret);
+          fprintf(stderr, "ldclt: %s\n", return_value_strerror_4);
           fprintf(stderr, "Error: cannot initiate lastVal_mutex\n");
           fflush(stderr);
           return -1;
@@ -2274,9 +2274,9 @@ signed int basicInit(void)
 
       if(mctx.nbThreads >= 55)
       {
-        signed int return_value_getrlimit$5;
-        return_value_getrlimit$5=getrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &rlp);
-        if(!(return_value_getrlimit$5 >= 0))
+        signed int return_value_getrlimit_5;
+        return_value_getrlimit_5=getrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &rlp);
+        if(!(return_value_getrlimit_5 >= 0))
         {
           perror("ldclt");
           fprintf(stderr, "Error: cannot getrlimit()\n");
@@ -2285,9 +2285,9 @@ signed int basicInit(void)
         }
 
         rlp.rlim_cur = rlp.rlim_max;
-        signed int return_value_setrlimit$6;
-        return_value_setrlimit$6=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &rlp);
-        if(!(return_value_setrlimit$6 >= 0))
+        signed int return_value_setrlimit_6;
+        return_value_setrlimit_6=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &rlp);
+        if(!(return_value_setrlimit_6 >= 0))
         {
           perror("ldclt");
           fprintf(stderr, "Error: cannot setrlimit()\n");
@@ -2302,8 +2302,8 @@ signed int basicInit(void)
 
       if(!((1u & mctx.mod2) == 0u))
       {
-        return_value_readObject$7=readObject(&mctx.object);
-        if(!(return_value_readObject$7 >= 0))
+        return_value_readObject_7=readObject(&mctx.object);
+        if(!(return_value_readObject_7 >= 0))
         {
           printf("Error: cannot parse %s\n", mctx.object.fname);
           return -1;
@@ -2313,9 +2313,9 @@ signed int basicInit(void)
 
       if((4u & mctx.mod2) == 0u && !((671088640u & mctx.mode) == 0u))
       {
-        signed int return_value_parseFilter$8;
-        return_value_parseFilter$8=parseFilter(mctx.filter, &mctx.randomHead, &mctx.randomTail, &mctx.randomNbDigit);
-        if(!(return_value_parseFilter$8 >= 0))
+        signed int return_value_parseFilter_8;
+        return_value_parseFilter_8=parseFilter(mctx.filter, &mctx.randomHead, &mctx.randomTail, &mctx.randomNbDigit);
+        if(!(return_value_parseFilter_8 >= 0))
         {
           printf("Error: cannot parse filter...\n");
           return -1;
@@ -2325,9 +2325,9 @@ signed int basicInit(void)
 
       if(!((2097152u & mctx.mode) == 0u))
       {
-        signed int return_value_parseFilter$9;
-        return_value_parseFilter$9=parseFilter(mctx.baseDN, &mctx.baseDNHead, &mctx.baseDNTail, &mctx.baseDNNbDigit);
-        if(!(return_value_parseFilter$9 >= 0))
+        signed int return_value_parseFilter_9;
+        return_value_parseFilter_9=parseFilter(mctx.baseDN, &mctx.baseDNHead, &mctx.baseDNTail, &mctx.baseDNNbDigit);
+        if(!(return_value_parseFilter_9 >= 0))
         {
           printf("Error: cannot parse base DN...\n");
           return -1;
@@ -2337,17 +2337,17 @@ signed int basicInit(void)
 
       if(!((2048u & mctx.mode) == 0u))
       {
-        signed int return_value_parseFilter$10;
-        return_value_parseFilter$10=parseFilter(mctx.bindDN, &mctx.bindDNHead, &mctx.bindDNTail, &mctx.bindDNNbDigit);
-        if(!(return_value_parseFilter$10 >= 0))
+        signed int return_value_parseFilter_10;
+        return_value_parseFilter_10=parseFilter(mctx.bindDN, &mctx.bindDNHead, &mctx.bindDNTail, &mctx.bindDNNbDigit);
+        if(!(return_value_parseFilter_10 >= 0))
         {
           printf("Error: cannot parse bind DN...\n");
           return -1;
         }
 
-        signed int return_value_parseFilter$11;
-        return_value_parseFilter$11=parseFilter(mctx.passwd, &mctx.passwdHead, &mctx.passwdTail, &mctx.passwdNbDigit);
-        if(!(return_value_parseFilter$11 >= 0))
+        signed int return_value_parseFilter_11;
+        return_value_parseFilter_11=parseFilter(mctx.passwd, &mctx.passwdHead, &mctx.passwdTail, &mctx.passwdNbDigit);
+        if(!(return_value_parseFilter_11 >= 0))
         {
           printf("Error: cannot parse password...\n");
           return -1;
@@ -2357,9 +2357,9 @@ signed int basicInit(void)
 
       if(!((128u & mctx.mod2) == 0u))
       {
-        signed int return_value_parseFilter$12;
-        return_value_parseFilter$12=parseFilter(mctx.sasl_authid, &mctx.sasl_authid_head, &mctx.sasl_authid_tail, &mctx.sasl_authid_nbdigit);
-        if(!(return_value_parseFilter$12 >= 0))
+        signed int return_value_parseFilter_12;
+        return_value_parseFilter_12=parseFilter(mctx.sasl_authid, &mctx.sasl_authid_head, &mctx.sasl_authid_tail, &mctx.sasl_authid_nbdigit);
+        if(!(return_value_parseFilter_12 >= 0))
         {
           printf("Error: cannot parse bind DN...\n");
           return -1;
@@ -2372,26 +2372,26 @@ signed int basicInit(void)
         i = 0;
         do
         {
-          return_value_strlen$13=strlen(mctx.attrpl);
-          if(!((unsigned long int)i >= return_value_strlen$13))
-            tmp_if_expr$14 = (signed int)mctx.attrpl[(signed long int)i] != 58 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_13=strlen(mctx.attrpl);
+          if(!((unsigned long int)i >= return_value_strlen_13))
+            tmp_if_expr_14 = (signed int)mctx.attrpl[(signed long int)i] != 58 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$14 = (_Bool)0;
-          if(!tmp_if_expr$14)
+            tmp_if_expr_14 = (_Bool)0;
+          if(!tmp_if_expr_14)
             break;
 
           i = i + 1;
         }
         while((_Bool)1);
-        void *return_value_malloc$15;
-        return_value_malloc$15=malloc((unsigned long int)(i + 1));
-        mctx.attrplName = (char *)return_value_malloc$15;
+        void *return_value_malloc_15;
+        return_value_malloc_15=malloc((unsigned long int)(i + 1));
+        mctx.attrplName = (char *)return_value_malloc_15;
         strncpy(mctx.attrplName, mctx.attrpl, (unsigned long int)i);
         mctx.attrplName[(signed long int)i] = (char)0;
-        signed int return_value_parseFilter$16;
-        return_value_parseFilter$16=parseFilter(mctx.attrpl + (signed long int)i + (signed long int)1, &mctx.attrplHead, &mctx.attrplTail, &mctx.attrplNbDigit);
-        if(!(return_value_parseFilter$16 >= 0))
+        signed int return_value_parseFilter_16;
+        return_value_parseFilter_16=parseFilter(mctx.attrpl + (signed long int)i + (signed long int)1, &mctx.attrplHead, &mctx.attrplTail, &mctx.attrplNbDigit);
+        if(!(return_value_parseFilter_16 >= 0))
         {
           printf("Error: cannot parse attreplace...\n");
           return -1;
@@ -2404,40 +2404,40 @@ signed int basicInit(void)
         i = 0;
         do
         {
-          return_value_strlen$17=strlen(mctx.attrpl);
-          if(!((unsigned long int)i >= return_value_strlen$17))
-            tmp_if_expr$18 = (signed int)mctx.attrpl[(signed long int)i] != 58 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_17=strlen(mctx.attrpl);
+          if(!((unsigned long int)i >= return_value_strlen_17))
+            tmp_if_expr_18 = (signed int)mctx.attrpl[(signed long int)i] != 58 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$18 = (_Bool)0;
-          if(!tmp_if_expr$18)
+            tmp_if_expr_18 = (_Bool)0;
+          if(!tmp_if_expr_18)
             break;
 
           i = i + 1;
         }
         while((_Bool)1);
-        void *return_value_malloc$19;
-        return_value_malloc$19=malloc((unsigned long int)(i + 1));
-        mctx.attRef = (char *)return_value_malloc$19;
+        void *return_value_malloc_19;
+        return_value_malloc_19=malloc((unsigned long int)(i + 1));
+        mctx.attRef = (char *)return_value_malloc_19;
         strncpy(mctx.attRef, mctx.attrpl, (unsigned long int)i);
         mctx.attRef[(signed long int)i] = (char)0;
-        unsigned long int return_value_strlen$20;
-        return_value_strlen$20=strlen(mctx.attrpl + (signed long int)i);
-        void *return_value_malloc$21;
-        return_value_malloc$21=malloc(return_value_strlen$20 + (unsigned long int)2);
-        mctx.attRefDef = (char *)return_value_malloc$21;
+        unsigned long int return_value_strlen_20;
+        return_value_strlen_20=strlen(mctx.attrpl + (signed long int)i);
+        void *return_value_malloc_21;
+        return_value_malloc_21=malloc(return_value_strlen_20 + (unsigned long int)2);
+        mctx.attRefDef = (char *)return_value_malloc_21;
         if(mctx.attRefDef == ((char *)NULL))
         {
           printf("Error: unable to allocate memory for attRefDef\n");
           return -1;
         }
 
-        unsigned long int return_value_strlen$22;
-        return_value_strlen$22=strlen(mctx.attrpl + (signed long int)i + (signed long int)1);
-        strncpy(mctx.attRefDef, mctx.attrpl + (signed long int)i + (signed long int)1, return_value_strlen$22);
-        unsigned long int return_value_strlen$23;
-        return_value_strlen$23=strlen(mctx.attrpl + (signed long int)i + (signed long int)1);
-        mctx.attRefDef[(signed long int)return_value_strlen$23] = (char)0;
+        unsigned long int return_value_strlen_22;
+        return_value_strlen_22=strlen(mctx.attrpl + (signed long int)i + (signed long int)1);
+        strncpy(mctx.attRefDef, mctx.attrpl + (signed long int)i + (signed long int)1, return_value_strlen_22);
+        unsigned long int return_value_strlen_23;
+        return_value_strlen_23=strlen(mctx.attrpl + (signed long int)i + (signed long int)1);
+        mctx.attRefDef[(signed long int)return_value_strlen_23] = (char)0;
       }
 
       if(!((1024u & mctx.mod2) == 0u) && !(mctx.attrpl == ((char *)NULL)))
@@ -2445,40 +2445,40 @@ signed int basicInit(void)
         i = 0;
         do
         {
-          return_value_strlen$24=strlen(mctx.attrpl);
-          if(!((unsigned long int)i >= return_value_strlen$24))
-            tmp_if_expr$25 = (signed int)mctx.attrpl[(signed long int)i] != 58 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_24=strlen(mctx.attrpl);
+          if(!((unsigned long int)i >= return_value_strlen_24))
+            tmp_if_expr_25 = (signed int)mctx.attrpl[(signed long int)i] != 58 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$25 = (_Bool)0;
-          if(!tmp_if_expr$25)
+            tmp_if_expr_25 = (_Bool)0;
+          if(!tmp_if_expr_25)
             break;
 
           i = i + 1;
         }
         while((_Bool)1);
-        void *return_value_malloc$26;
-        return_value_malloc$26=malloc((unsigned long int)(i + 1));
-        mctx.attrplName = (char *)return_value_malloc$26;
+        void *return_value_malloc_26;
+        return_value_malloc_26=malloc((unsigned long int)(i + 1));
+        mctx.attrplName = (char *)return_value_malloc_26;
         strncpy(mctx.attrplName, mctx.attrpl, (unsigned long int)i);
         mctx.attrplName[(signed long int)i] = (char)0;
-        unsigned long int return_value_strlen$27;
-        return_value_strlen$27=strlen(mctx.attrpl + (signed long int)i);
-        void *return_value_malloc$28;
-        return_value_malloc$28=malloc(return_value_strlen$27 + (unsigned long int)2);
-        mctx.attrplFile = (char *)return_value_malloc$28;
+        unsigned long int return_value_strlen_27;
+        return_value_strlen_27=strlen(mctx.attrpl + (signed long int)i);
+        void *return_value_malloc_28;
+        return_value_malloc_28=malloc(return_value_strlen_27 + (unsigned long int)2);
+        mctx.attrplFile = (char *)return_value_malloc_28;
         if(mctx.attrplFile == ((char *)NULL))
         {
           printf("Error: unable to allocate memory for attreplfile\n");
           return -1;
         }
 
-        unsigned long int return_value_strlen$29;
-        return_value_strlen$29=strlen(mctx.attrpl + (signed long int)i + (signed long int)1);
-        strncpy(mctx.attrplFile, mctx.attrpl + (signed long int)i + (signed long int)1, return_value_strlen$29);
-        unsigned long int return_value_strlen$30;
-        return_value_strlen$30=strlen(mctx.attrpl + (signed long int)i + (signed long int)1);
-        mctx.attrplFile[(signed long int)return_value_strlen$30] = (char)0;
+        unsigned long int return_value_strlen_29;
+        return_value_strlen_29=strlen(mctx.attrpl + (signed long int)i + (signed long int)1);
+        strncpy(mctx.attrplFile, mctx.attrpl + (signed long int)i + (signed long int)1, return_value_strlen_29);
+        unsigned long int return_value_strlen_30;
+        return_value_strlen_30=strlen(mctx.attrpl + (signed long int)i + (signed long int)1);
+        mctx.attrplFile[(signed long int)return_value_strlen_30] = (char)0;
         fd=open(mctx.attrplFile, 00);
         if(fd == -1)
         {
@@ -2488,9 +2488,9 @@ signed int basicInit(void)
 
         else
           printf("file opened for reading\n");
-        signed int return_value_fstat$31;
-        return_value_fstat$31=fstat(fd, &file_st);
-        if(!(return_value_fstat$31 >= 0))
+        signed int return_value_fstat_31;
+        return_value_fstat_31=fstat(fd, &file_st);
+        if(!(return_value_fstat_31 >= 0))
         {
           printf("attr replace file [%s] does not exist, exit\n", mctx.attrplFile);
           close(fd);
@@ -2512,14 +2512,14 @@ signed int basicInit(void)
 
         else
           printf("file opened for reading\n");
-        void *return_value_malloc$32;
-        return_value_malloc$32=malloc((unsigned long int)(mctx.attrplFileSize + 1));
-        mctx.attrplFileContent = (char *)return_value_malloc$32;
+        void *return_value_malloc_32;
+        return_value_malloc_32=malloc((unsigned long int)(mctx.attrplFileSize + 1));
+        mctx.attrplFileContent = (char *)return_value_malloc_32;
         i = 0;
         do
         {
-          return_value_fread$33=fread((void *)buffer, (unsigned long int)1024, (unsigned long int)1, attrF);
-          ret = (signed int)return_value_fread$33;
+          return_value_fread_33=fread((void *)buffer, (unsigned long int)1024, (unsigned long int)1, attrF);
+          ret = (signed int)return_value_fread_33;
           if(ret == 0)
             break;
 
@@ -2535,9 +2535,9 @@ signed int basicInit(void)
         }
 
         mctx.attrplFileContent[(signed long int)mctx.attrplFileSize] = (char)0;
-        signed int return_value_fclose$34;
-        return_value_fclose$34=fclose(attrF);
-        if(return_value_fclose$34 == -1)
+        signed int return_value_fclose_34;
+        return_value_fclose_34=fclose(attrF);
+        if(return_value_fclose_34 == -1)
         {
           printf("ERROR closing attr file [%s]\n", mctx.attrplFile);
           return -1;
@@ -2559,9 +2559,9 @@ signed int basicInit(void)
       ret=ldclt_mutex_init(&mctx.errors_mutex);
       if(!(ret == 0))
       {
-        char *return_value_strerror$35;
-        return_value_strerror$35=strerror(ret);
-        fprintf(stderr, "ldclt: %s\n", return_value_strerror$35);
+        char *return_value_strerror_35;
+        return_value_strerror_35=strerror(ret);
+        fprintf(stderr, "ldclt: %s\n", return_value_strerror_35);
         fprintf(stderr, "Error: cannot initiate errors_mutex\n");
         fflush(stderr);
         return -1;
@@ -2569,8 +2569,8 @@ signed int basicInit(void)
 
       if(!((8454144u & mctx.mode) == 0u))
       {
-        return_value_loadImages$36=loadImages(mctx.imagesDir);
-        if(!(return_value_loadImages$36 >= 0))
+        return_value_loadImages_36=loadImages(mctx.imagesDir);
+        if(!(return_value_loadImages_36 >= 0))
           return -1;
 
       }
@@ -2580,39 +2580,39 @@ signed int basicInit(void)
         ret=ldclt_mutex_init(&mctx.opListTail_mutex);
         if(!(ret == 0))
         {
-          char *return_value_strerror$37;
-          return_value_strerror$37=strerror(ret);
-          fprintf(stderr, "ldclt: %s\n", return_value_strerror$37);
+          char *return_value_strerror_37;
+          return_value_strerror_37=strerror(ret);
+          fprintf(stderr, "ldclt: %s\n", return_value_strerror_37);
           fprintf(stderr, "Error: cannot initiate opListTail_mutex\n");
           fflush(stderr);
           return -1;
         }
 
-        void *return_value_malloc$38;
-        return_value_malloc$38=malloc(sizeof(struct oper) /*1368ul*/ );
-        mctx.opListTail = (struct oper *)return_value_malloc$38;
+        void *return_value_malloc_38;
+        return_value_malloc_38=malloc(sizeof(struct oper) /*1368ul*/ );
+        mctx.opListTail = (struct oper *)return_value_malloc_38;
         if(mctx.opListTail == ((struct oper *)NULL))
         {
-          signed int *return_value___errno_location$39;
-          return_value___errno_location$39=__errno_location();
-          signed int *return_value___errno_location$40;
-          return_value___errno_location$40=__errno_location();
-          char *return_value_strerror$41;
-          return_value_strerror$41=strerror(*return_value___errno_location$40);
-          printf("Error: cannot malloc(mctx.opListTail), error=%d (%s)\n", *return_value___errno_location$39, return_value_strerror$41);
+          signed int *return_value___errno_location_39;
+          return_value___errno_location_39=__errno_location();
+          signed int *return_value___errno_location_40;
+          return_value___errno_location_40=__errno_location();
+          char *return_value_strerror_41;
+          return_value_strerror_41=strerror(*return_value___errno_location_40);
+          printf("Error: cannot malloc(mctx.opListTail), error=%d (%s)\n", *return_value___errno_location_39, return_value_strerror_41);
           return -1;
         }
 
         mctx.opListTail->dn=strdup("Dummy initial dn");
         if(mctx.opListTail->dn == ((char *)NULL))
         {
-          signed int *return_value___errno_location$42;
-          return_value___errno_location$42=__errno_location();
-          signed int *return_value___errno_location$43;
-          return_value___errno_location$43=__errno_location();
-          char *return_value_strerror$44;
-          return_value_strerror$44=strerror(*return_value___errno_location$43);
-          printf("Error: cannot strdup(mctx.opListTail->dn), error=%d (%s)\n", *return_value___errno_location$42, return_value_strerror$44);
+          signed int *return_value___errno_location_42;
+          return_value___errno_location_42=__errno_location();
+          signed int *return_value___errno_location_43;
+          return_value___errno_location_43=__errno_location();
+          char *return_value_strerror_44;
+          return_value_strerror_44=strerror(*return_value___errno_location_43);
+          printf("Error: cannot strdup(mctx.opListTail->dn), error=%d (%s)\n", *return_value___errno_location_42, return_value_strerror_44);
           return -1;
         }
 
@@ -2624,9 +2624,9 @@ signed int basicInit(void)
         ret=ldclt_mutex_init(&mctx.opListTail->skipped_mutex);
         if(!(ret == 0))
         {
-          char *return_value_strerror$45;
-          return_value_strerror$45=strerror(ret);
-          fprintf(stderr, "ldclt: %s\n", return_value_strerror$45);
+          char *return_value_strerror_45;
+          return_value_strerror_45=strerror(ret);
+          fprintf(stderr, "ldclt: %s\n", return_value_strerror_45);
           fprintf(stderr, "Error: cannot initiate opListTail->skipped_mutex\n");
           fflush(stderr);
           return -1;
@@ -2636,8 +2636,8 @@ signed int basicInit(void)
 
       if(!((1024u & mctx.mode) == 0u))
       {
-        return_value_scalab01_init$46=scalab01_init();
-        if(!(return_value_scalab01_init$46 >= 0))
+        return_value_scalab01_init_46=scalab01_init();
+        if(!(return_value_scalab01_init_46 >= 0))
         {
           fprintf(stderr, "ldclt: cannot init scalab01\n");
           fflush(stderr);
@@ -2659,49 +2659,49 @@ char * buildArgListString(signed int argc, char **argv)
   signed int i;
   lgth = 0;
   i = 0;
-  char *return_value_strchr$3;
+  char *return_value_strchr_3;
   for( ; !(i >= argc); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(argv[(signed long int)i]);
-    lgth = lgth + (signed int)(return_value_strlen$1 + (unsigned long int)1);
-    char *return_value_strchr$2;
-    return_value_strchr$2=strchr(argv[(signed long int)i], 32);
-    _Bool tmp_if_expr$4;
-    if(!(return_value_strchr$2 == ((char *)NULL)))
-      tmp_if_expr$4 = (_Bool)1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(argv[(signed long int)i]);
+    lgth = lgth + (signed int)(return_value_strlen_1 + (unsigned long int)1);
+    char *return_value_strchr_2;
+    return_value_strchr_2=strchr(argv[(signed long int)i], 32);
+    _Bool tmp_if_expr_4;
+    if(!(return_value_strchr_2 == ((char *)NULL)))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_strchr$3=strchr(argv[(signed long int)i], 9);
-      tmp_if_expr$4 = return_value_strchr$3 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      return_value_strchr_3=strchr(argv[(signed long int)i], 9);
+      tmp_if_expr_4 = return_value_strchr_3 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       lgth = lgth + 2;
 
   }
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc((unsigned long int)lgth);
-  argvList = (char *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc((unsigned long int)lgth);
+  argvList = (char *)return_value_malloc_5;
   argvList[(signed long int)0] = (char)0;
   strcat(argvList, argv[(signed long int)0]);
   i = 1;
-  char *return_value_strchr$7;
+  char *return_value_strchr_7;
   for( ; !(i >= argc); i = i + 1)
   {
     strcat(argvList, " ");
-    char *return_value_strchr$6;
-    return_value_strchr$6=strchr(argv[(signed long int)i], 32);
-    _Bool tmp_if_expr$8;
-    if(return_value_strchr$6 == ((char *)NULL))
+    char *return_value_strchr_6;
+    return_value_strchr_6=strchr(argv[(signed long int)i], 32);
+    _Bool tmp_if_expr_8;
+    if(return_value_strchr_6 == ((char *)NULL))
     {
-      return_value_strchr$7=strchr(argv[(signed long int)i], 9);
-      tmp_if_expr$8 = return_value_strchr$7 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      return_value_strchr_7=strchr(argv[(signed long int)i], 9);
+      tmp_if_expr_8 = return_value_strchr_7 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
       strcat(argvList, argv[(signed long int)i]);
 
     else
@@ -2718,11 +2718,11 @@ char * buildArgListString(signed int argc, char **argv)
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 193
 signed int buildNewBindDN(struct thread_context *tttctx)
 {
-  signed int return_value_getBindAndPasswdFromFile$1;
+  signed int return_value_getBindAndPasswdFromFile_1;
   if(!((16u & mctx.mod2) == 0u))
   {
-    return_value_getBindAndPasswdFromFile$1=getBindAndPasswdFromFile(tttctx);
-    return return_value_getBindAndPasswdFromFile$1;
+    return_value_getBindAndPasswdFromFile_1=getBindAndPasswdFromFile(tttctx);
+    return return_value_getBindAndPasswdFromFile_1;
   }
 
   if((2048u & mctx.mode) == 0u)
@@ -2754,9 +2754,9 @@ signed int buildNewEntry(struct thread_context *tttctx, char *newDn, struct ldap
   signed int nbAttribs;
   struct ldapmod attribute;
   signed int i;
-  signed int return_value_buildRandomRdnOrFilter$1;
-  return_value_buildRandomRdnOrFilter$1=buildRandomRdnOrFilter(tttctx);
-  if(!(return_value_buildRandomRdnOrFilter$1 >= 0))
+  signed int return_value_buildRandomRdnOrFilter_1;
+  return_value_buildRandomRdnOrFilter_1=buildRandomRdnOrFilter(tttctx);
+  if(!(return_value_buildRandomRdnOrFilter_1 >= 0))
     return -1;
 
   else
@@ -2769,9 +2769,9 @@ signed int buildNewEntry(struct thread_context *tttctx, char *newDn, struct ldap
 
     if(!((1u & mctx.mod2) == 0u))
     {
-      signed int return_value_buildVersatileObject$2;
-      return_value_buildVersatileObject$2=buildVersatileObject(tttctx, tttctx->object, attrs);
-      if(!(return_value_buildVersatileObject$2 >= 0))
+      signed int return_value_buildVersatileObject_2;
+      return_value_buildVersatileObject_2=buildVersatileObject(tttctx, tttctx->object, attrs);
+      if(!(return_value_buildVersatileObject_2 >= 0))
         return -1;
 
       if(!((2u & mctx.mode) == 0u))
@@ -2797,11 +2797,11 @@ signed int buildNewEntry(struct thread_context *tttctx, char *newDn, struct ldap
     if(!((65536u & mctx.mode) == 0u))
       attribute.mod_vals.modv_strvals=strList1("inetOrgPerson");
 
-    signed int tmp_post$3 = nbAttribs;
+    signed int tmp_post_3 = nbAttribs;
     nbAttribs = nbAttribs + 1;
-    signed int return_value_addAttrib$4;
-    return_value_addAttrib$4=addAttrib(attrs, tmp_post$3, &attribute);
-    if(!(return_value_addAttrib$4 >= 0))
+    signed int return_value_addAttrib_4;
+    return_value_addAttrib_4=addAttrib(attrs, tmp_post_3, &attribute);
+    if(!(return_value_addAttrib_4 >= 0))
       return -1;
 
     else
@@ -2813,45 +2813,45 @@ signed int buildNewEntry(struct thread_context *tttctx, char *newDn, struct ldap
       attribute.mod_op = 0x0000;
       attribute.mod_type = tttctx->buf2;
       attribute.mod_vals.modv_strvals=strList1(&tttctx->bufFilter[(signed long int)(i + 1)]);
-      signed int tmp_post$5 = nbAttribs;
+      signed int tmp_post_5 = nbAttribs;
       nbAttribs = nbAttribs + 1;
-      signed int return_value_addAttrib$6;
-      return_value_addAttrib$6=addAttrib(attrs, tmp_post$5, &attribute);
-      if(!(return_value_addAttrib$6 >= 0))
+      signed int return_value_addAttrib_6;
+      return_value_addAttrib_6=addAttrib(attrs, tmp_post_5, &attribute);
+      if(!(return_value_addAttrib_6 >= 0))
         return -1;
 
       else
       {
         if(!((42008576u & mctx.mode) == 0u))
         {
-          signed int return_value_strcmp$9;
-          return_value_strcmp$9=strcmp(tttctx->buf2, "cn");
-          if(!(return_value_strcmp$9 == 0))
+          signed int return_value_strcmp_9;
+          return_value_strcmp_9=strcmp(tttctx->buf2, "cn");
+          if(!(return_value_strcmp_9 == 0))
           {
             attribute.mod_op = 0x0000;
             attribute.mod_type = "cn";
             attribute.mod_vals.modv_strvals=strList1("toto cn");
-            signed int tmp_post$7 = nbAttribs;
+            signed int tmp_post_7 = nbAttribs;
             nbAttribs = nbAttribs + 1;
-            signed int return_value_addAttrib$8;
-            return_value_addAttrib$8=addAttrib(attrs, tmp_post$7, &attribute);
-            if(!(return_value_addAttrib$8 >= 0))
+            signed int return_value_addAttrib_8;
+            return_value_addAttrib_8=addAttrib(attrs, tmp_post_7, &attribute);
+            if(!(return_value_addAttrib_8 >= 0))
               return -1;
 
           }
 
-          signed int return_value_strcmp$12;
-          return_value_strcmp$12=strcmp(tttctx->buf2, "sn");
-          if(!(return_value_strcmp$12 == 0))
+          signed int return_value_strcmp_12;
+          return_value_strcmp_12=strcmp(tttctx->buf2, "sn");
+          if(!(return_value_strcmp_12 == 0))
           {
             attribute.mod_op = 0x0000;
             attribute.mod_type = "sn";
             attribute.mod_vals.modv_strvals=strList1("toto sn");
-            signed int tmp_post$10 = nbAttribs;
+            signed int tmp_post_10 = nbAttribs;
             nbAttribs = nbAttribs + 1;
-            signed int return_value_addAttrib$11;
-            return_value_addAttrib$11=addAttrib(attrs, tmp_post$10, &attribute);
-            if(!(return_value_addAttrib$11 >= 0))
+            signed int return_value_addAttrib_11;
+            return_value_addAttrib_11=addAttrib(attrs, tmp_post_10, &attribute);
+            if(!(return_value_addAttrib_11 >= 0))
               return -1;
 
           }
@@ -2861,11 +2861,11 @@ signed int buildNewEntry(struct thread_context *tttctx, char *newDn, struct ldap
             attribute.mod_op = 0x0000;
             attribute.mod_type = "secretary";
             attribute.mod_vals.modv_strvals=strList1(newDn);
-            signed int tmp_post$13 = nbAttribs;
+            signed int tmp_post_13 = nbAttribs;
             nbAttribs = nbAttribs + 1;
-            signed int return_value_addAttrib$14;
-            return_value_addAttrib$14=addAttrib(attrs, tmp_post$13, &attribute);
-            if(!(return_value_addAttrib$14 >= 0))
+            signed int return_value_addAttrib_14;
+            return_value_addAttrib_14=addAttrib(attrs, tmp_post_13, &attribute);
+            if(!(return_value_addAttrib_14 >= 0))
               return -1;
 
           }
@@ -2876,16 +2876,16 @@ signed int buildNewEntry(struct thread_context *tttctx, char *newDn, struct ldap
         {
           attribute.mod_op = 0x0000 | 0x0080;
           attribute.mod_type = "jpegPhoto";
-          signed int return_value_getImage$15;
-          return_value_getImage$15=getImage(&attribute);
-          if(!(return_value_getImage$15 >= 0))
+          signed int return_value_getImage_15;
+          return_value_getImage_15=getImage(&attribute);
+          if(!(return_value_getImage_15 >= 0))
             return -1;
 
-          signed int tmp_post$16 = nbAttribs;
+          signed int tmp_post_16 = nbAttribs;
           nbAttribs = nbAttribs + 1;
-          signed int return_value_addAttrib$17;
-          return_value_addAttrib$17=addAttrib(attrs, tmp_post$16, &attribute);
-          if(!(return_value_addAttrib$17 >= 0))
+          signed int return_value_addAttrib_17;
+          return_value_addAttrib_17=addAttrib(attrs, tmp_post_16, &attribute);
+          if(!(return_value_addAttrib_17 >= 0))
             return -1;
 
         }
@@ -2909,9 +2909,9 @@ signed int buildNewModAttrib(struct thread_context *tttctx, char *newDn, struct 
 {
   signed int nbAttribs;
   struct ldapmod attribute;
-  signed int return_value_buildRandomRdnOrFilter$1;
-  return_value_buildRandomRdnOrFilter$1=buildRandomRdnOrFilter(tttctx);
-  if(!(return_value_buildRandomRdnOrFilter$1 >= 0))
+  signed int return_value_buildRandomRdnOrFilter_1;
+  return_value_buildRandomRdnOrFilter_1=buildRandomRdnOrFilter(tttctx);
+  if(!(return_value_buildRandomRdnOrFilter_1 >= 0))
     return -1;
 
   else
@@ -2924,11 +2924,11 @@ signed int buildNewModAttrib(struct thread_context *tttctx, char *newDn, struct 
     attribute.mod_op = 0x0002;
     attribute.mod_type = mctx.attrplName;
     attribute.mod_vals.modv_strvals=strList1(tttctx->bufAttrpl);
-    signed int tmp_post$2 = nbAttribs;
+    signed int tmp_post_2 = nbAttribs;
     nbAttribs = nbAttribs + 1;
-    signed int return_value_addAttrib$3;
-    return_value_addAttrib$3=addAttrib(attrs, tmp_post$2, &attribute);
-    if(!(return_value_addAttrib$3 >= 0))
+    signed int return_value_addAttrib_3;
+    return_value_addAttrib_3=addAttrib(attrs, tmp_post_2, &attribute);
+    if(!(return_value_addAttrib_3 >= 0))
       return -1;
 
     else
@@ -2943,22 +2943,22 @@ signed int buildNewModAttribFile(struct thread_context *tttctx, char *newDn, str
   signed int nbAttribs;
   struct ldapmod attribute;
   struct berval *bv;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct berval) /*16ul*/ );
-  bv = (struct berval *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)2 * sizeof(struct berval *) /*8ul*/ );
-  attribute.mod_vals.modv_bvals = (struct berval **)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct berval) /*16ul*/ );
+  bv = (struct berval *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)2 * sizeof(struct berval *) /*8ul*/ );
+  attribute.mod_vals.modv_bvals = (struct berval **)return_value_malloc_2;
   signed int rc = 0;
-  signed int return_value_buildRandomRdnOrFilter$3;
-  signed int return_value_addAttrib$5;
+  signed int return_value_buildRandomRdnOrFilter_3;
+  signed int return_value_addAttrib_5;
   if(attribute.mod_vals.modv_bvals == ((struct berval **)NULL) || bv == ((struct berval *)NULL))
     rc = -1;
 
   else
   {
-    return_value_buildRandomRdnOrFilter$3=buildRandomRdnOrFilter(tttctx);
-    if(!(return_value_buildRandomRdnOrFilter$3 >= 0))
+    return_value_buildRandomRdnOrFilter_3=buildRandomRdnOrFilter(tttctx);
+    if(!(return_value_buildRandomRdnOrFilter_3 >= 0))
       rc = -1;
 
     else
@@ -2974,10 +2974,10 @@ signed int buildNewModAttribFile(struct thread_context *tttctx, char *newDn, str
       attribute.mod_type = mctx.attrplName;
       attribute.mod_vals.modv_bvals[(signed long int)0] = bv;
       attribute.mod_vals.modv_bvals[(signed long int)1] = (struct berval *)(void *)0;
-      signed int tmp_post$4 = nbAttribs;
+      signed int tmp_post_4 = nbAttribs;
       nbAttribs = nbAttribs + 1;
-      return_value_addAttrib$5=addAttrib(attrs, tmp_post$4, &attribute);
-      if(!(return_value_addAttrib$5 >= 0))
+      return_value_addAttrib_5=addAttrib(attrs, tmp_post_4, &attribute);
+      if(!(return_value_addAttrib_5 >= 0))
         rc = -1;
 
       else
@@ -3072,13 +3072,13 @@ signed int buildRandomRdnOrFilter(struct thread_context *tttctx)
 
       else
       {
-        _Bool tmp_if_expr$1;
+        _Bool tmp_if_expr_1;
         if(!((262144u & mctx.mode) == 0u))
-          tmp_if_expr$1 = tttctx->lastVal + mctx.incr > mctx.randomHigh ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = tttctx->lastVal + mctx.incr > mctx.randomHigh ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
         {
           printf("ldclt[%d]: %s: Hit top incremental value %d > %d\n", mctx.pid, (const void *)tttctx->thrdId, tttctx->lastVal + mctx.incr, mctx.randomHigh);
           return -1;
@@ -3109,7 +3109,7 @@ char * buildVersatileAttribute(struct thread_context *tttctx, struct vers_object
 {
   struct vers_field *field;
   signed int num;
-  signed long int return_value_lrand48$3;
+  signed long int return_value_lrand48_3;
   if(attrib->buf == ((char *)NULL))
     return attrib->field->cst;
 
@@ -3194,13 +3194,13 @@ char * buildVersatileAttribute(struct thread_context *tttctx, struct vers_object
             num = field->cnt;
             field->cnt = field->cnt + 1;
           }
-          signed int tmp_if_expr$1;
+          signed int tmp_if_expr_1;
           if(!((2048u & mctx.mod2) == 0u))
-            tmp_if_expr$1 = 0;
+            tmp_if_expr_1 = 0;
 
           else
-            tmp_if_expr$1 = field->nb;
-          sprintf(tttctx->buf2, "%0*d", tmp_if_expr$1, num);
+            tmp_if_expr_1 = field->nb;
+          sprintf(tttctx->buf2, "%0*d", tmp_if_expr_1, num);
           strcat(attrib->buf, tttctx->buf2);
           if(!(field->var == -1))
             strcpy(object->var[(signed long int)field->var], tttctx->buf2);
@@ -3228,13 +3228,13 @@ char * buildVersatileAttribute(struct thread_context *tttctx, struct vers_object
             num = field->cnt;
             field->cnt = field->cnt + 1;
           }
-          signed int tmp_if_expr$2;
+          signed int tmp_if_expr_2;
           if(!((2048u & mctx.mod2) == 0u))
-            tmp_if_expr$2 = 0;
+            tmp_if_expr_2 = 0;
 
           else
-            tmp_if_expr$2 = field->nb;
-          sprintf(tttctx->buf2, "%0*d", tmp_if_expr$2, num);
+            tmp_if_expr_2 = field->nb;
+          sprintf(tttctx->buf2, "%0*d", tmp_if_expr_2, num);
           strcat(attrib->buf, tttctx->buf2);
           if(!(field->var == -1))
             strcpy(object->var[(signed long int)field->var], tttctx->buf2);
@@ -3243,8 +3243,8 @@ char * buildVersatileAttribute(struct thread_context *tttctx, struct vers_object
         }
         case 5:
         {
-          return_value_lrand48$3=lrand48();
-          num = (signed int)(return_value_lrand48$3 % (signed long int)field->dlf->strNb);
+          return_value_lrand48_3=lrand48();
+          num = (signed int)(return_value_lrand48_3 % (signed long int)field->dlf->strNb);
           strcat(attrib->buf, field->dlf->str[(signed long int)num]);
           if(!(field->var == -1))
             strcpy(object->var[(signed long int)field->var], field->dlf->str[(signed long int)num]);
@@ -3253,13 +3253,13 @@ char * buildVersatileAttribute(struct thread_context *tttctx, struct vers_object
         }
         case 6:
         {
-          signed int tmp_if_expr$4;
+          signed int tmp_if_expr_4;
           if(!((2048u & mctx.mod2) == 0u))
-            tmp_if_expr$4 = 0;
+            tmp_if_expr_4 = 0;
 
           else
-            tmp_if_expr$4 = field->nb;
-          rnd(tttctx->buf2, field->low, field->high, tmp_if_expr$4);
+            tmp_if_expr_4 = field->nb;
+          rnd(tttctx->buf2, field->low, field->high, tmp_if_expr_4);
           strcat(attrib->buf, tttctx->buf2);
           if(!(field->var == -1))
             strcpy(object->var[(signed long int)field->var], tttctx->buf2);
@@ -3314,11 +3314,11 @@ signed int buildVersatileObject(struct thread_context *tttctx, struct vers_objec
   attribute.mod_op = 0x0000;
   attribute.mod_type = tttctx->bufObject1;
   attribute.mod_vals.modv_strvals=strList1(&tttctx->bufFilter[(signed long int)(i + 1)]);
-  signed int tmp_post$1 = nbAttribs;
+  signed int tmp_post_1 = nbAttribs;
   nbAttribs = nbAttribs + 1;
-  signed int return_value_addAttrib$2;
-  return_value_addAttrib$2=addAttrib(attrs, tmp_post$1, &attribute);
-  if(!(return_value_addAttrib$2 >= 0))
+  signed int return_value_addAttrib_2;
+  return_value_addAttrib_2=addAttrib(attrs, tmp_post_1, &attribute);
+  if(!(return_value_addAttrib_2 >= 0))
     return -1;
 
   else
@@ -3333,11 +3333,11 @@ signed int buildVersatileObject(struct thread_context *tttctx, struct vers_objec
         return -1;
 
       attribute.mod_vals.modv_strvals=strList1(newValue);
-      signed int tmp_post$3 = nbAttribs;
+      signed int tmp_post_3 = nbAttribs;
       nbAttribs = nbAttribs + 1;
-      signed int return_value_addAttrib$4;
-      return_value_addAttrib$4=addAttrib(attrs, tmp_post$3, &attribute);
-      if(!(return_value_addAttrib$4 >= 0))
+      signed int return_value_addAttrib_4;
+      return_value_addAttrib_4=addAttrib(attrs, tmp_post_3, &attribute);
+      if(!(return_value_addAttrib_4 >= 0))
         return -1;
 
     }
@@ -3352,7 +3352,7 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
   struct ldap *ld = (struct ldap *)(void *)0;
   struct berval cred = { .bv_len=(unsigned long int)0, .bv_val=(char *)(void *)0 };
   signed int v2v3 = 3;
-  const char *connectToLDAP$$1$$passwd = (const char *)(void *)0;
+  const char *connectToLDAP__1__passwd = (const char *)(void *)0;
   char *ldapurl = (char *)(void *)0;
   signed int thrdNum = 0;
   signed int ret = -1;
@@ -3362,11 +3362,11 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
     thrdNum = tttctx->thrdNum;
 
   ldapurl=PR_smprintf("ldap%s://%s:%d/", (mode & (unsigned int)0x00000020) != 0u ? "s" : "", mctx.hostname, mctx.port);
-  enum anonymous$13 return_value_PR_CallOnce$1;
-  return_value_PR_CallOnce$1=PR_CallOnce(&ol_init_callOnce, internal_ol_init_init);
-  signed int return_value_referralSetup$12;
-  signed int return_value_buildNewBindDN$19;
-  if(!((signed int)return_value_PR_CallOnce$1 == PR_SUCCESS))
+  enum anonymous_13 return_value_PR_CallOnce_1;
+  return_value_PR_CallOnce_1=PR_CallOnce(&ol_init_callOnce, internal_ol_init_init);
+  signed int return_value_referralSetup_12;
+  signed int return_value_buildNewBindDN_19;
+  if(!((signed int)return_value_PR_CallOnce_1 == PR_SUCCESS))
     printf("Could not perform internal ol_init init\n");
 
   else
@@ -3376,11 +3376,11 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
     if(!(ret == 0))
     {
       PR_Unlock(ol_init_lock);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_my_ldap_err2string$3;
-      return_value_my_ldap_err2string$3=my_ldap_err2string(ret);
-      printf("ldclt[%d]: T%03d: Cannot ldap_initialize (%s), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, ldapurl, *return_value___errno_location$2, ret, return_value_my_ldap_err2string$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_my_ldap_err2string_3;
+      return_value_my_ldap_err2string_3=my_ldap_err2string(ret);
+      printf("ldclt[%d]: T%03d: Cannot ldap_initialize (%s), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, ldapurl, *return_value___errno_location_2, ret, return_value_my_ldap_err2string_3);
       fflush(stdout);
       goto done;
     }
@@ -3397,11 +3397,11 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
       ret=ldap_set_option(ld, 0x6006, (const void *)&ssl_strength);
       if(!(ret == 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_my_ldap_err2string$5;
-        return_value_my_ldap_err2string$5=my_ldap_err2string(ret);
-        printf("ldclt[%d]: T%03d: Cannot ldap_set_option(ld, LDAP_OPT_X_TLS_REQUIRE_CERT), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, *return_value___errno_location$4, ret, return_value_my_ldap_err2string$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_my_ldap_err2string_5;
+        return_value_my_ldap_err2string_5=my_ldap_err2string(ret);
+        printf("ldclt[%d]: T%03d: Cannot ldap_set_option(ld, LDAP_OPT_X_TLS_REQUIRE_CERT), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, *return_value___errno_location_4, ret, return_value_my_ldap_err2string_5);
         fflush(stdout);
         free((void *)certdir);
         goto done;
@@ -3410,32 +3410,32 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
       ret=ldap_set_option(ld, 0x6003, (const void *)certdir);
       if(!(ret == 0))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_my_ldap_err2string$7;
-        return_value_my_ldap_err2string$7=my_ldap_err2string(ret);
-        printf("ldclt[%d]: T%03d: Cannot ldap_set_option(ld, LDAP_OPT_X_CACERTDIR, %s), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, certdir, *return_value___errno_location$6, ret, return_value_my_ldap_err2string$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_my_ldap_err2string_7;
+        return_value_my_ldap_err2string_7=my_ldap_err2string(ret);
+        printf("ldclt[%d]: T%03d: Cannot ldap_set_option(ld, LDAP_OPT_X_CACERTDIR, %s), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, certdir, *return_value___errno_location_6, ret, return_value_my_ldap_err2string_7);
         fflush(stdout);
         free((void *)certdir);
         goto done;
       }
 
-      enum _SECStatus return_value_NSS_Initialize$8;
-      return_value_NSS_Initialize$8=NSS_Initialize(certdir, "", "", "secmod.db", (unsigned int)0x1);
-      ret = (signed int)return_value_NSS_Initialize$8;
+      enum _SECStatus return_value_NSS_Initialize_8;
+      return_value_NSS_Initialize_8=NSS_Initialize(certdir, "", "", "secmod.db", (unsigned int)0x1);
+      ret = (signed int)return_value_NSS_Initialize_8;
       if(!(ret == SECSuccess))
       {
-        signed int return_value_PR_GetError$9;
-        return_value_PR_GetError$9=PR_GetError();
-        printf("ldclt[%d]: T%03d: Cannot NSS_Initialize(%s) %d\n", mctx.pid, thrdNum, certdir, return_value_PR_GetError$9);
+        signed int return_value_PR_GetError_9;
+        return_value_PR_GetError_9=PR_GetError();
+        printf("ldclt[%d]: T%03d: Cannot NSS_Initialize(%s) %d\n", mctx.pid, thrdNum, certdir, return_value_PR_GetError_9);
         fflush(stdout);
         goto done;
       }
 
-      SSL_VersionRangeGetSupported((enum anonymous$14)ssl_variant_stream, &enabledNSSVersions);
+      SSL_VersionRangeGetSupported((enum anonymous_14)ssl_variant_stream, &enabledNSSVersions);
       range.min = enabledNSSVersions.min;
       range.max = enabledNSSVersions.max;
-      SSL_VersionRangeSetDefault((enum anonymous$14)ssl_variant_stream, &range);
+      SSL_VersionRangeSetDefault((enum anonymous_14)ssl_variant_stream, &range);
       if(!((64u & mode) == 0u))
       {
         ret=ldclt_clientauth(tttctx, ld, certdir, mctx.cltcertname, mctx.keydbpin);
@@ -3450,11 +3450,11 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
       ret=ldap_set_option(ld, 0x600f, (const void *)&optval);
       if(!(ret == 0))
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        char *return_value_my_ldap_err2string$11;
-        return_value_my_ldap_err2string$11=my_ldap_err2string(ret);
-        printf("ldclt[%d]: T%03d: Cannot ldap_set_option(ld, LDAP_OPT_X_TLS_NEWCTX), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, *return_value___errno_location$10, ret, return_value_my_ldap_err2string$11);
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        char *return_value_my_ldap_err2string_11;
+        return_value_my_ldap_err2string_11=my_ldap_err2string(ret);
+        printf("ldclt[%d]: T%03d: Cannot ldap_set_option(ld, LDAP_OPT_X_TLS_NEWCTX), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, *return_value___errno_location_10, ret, return_value_my_ldap_err2string_11);
         fflush(stdout);
         free((void *)certdir);
         goto done;
@@ -3464,15 +3464,15 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
     }
 
     if(!((64u & mode) == 0u))
-      connectToLDAP$$1$$passwd = (const char *)(void *)0;
+      connectToLDAP__1__passwd = (const char *)(void *)0;
 
     else
     {
-      connectToLDAP$$1$$passwd = bufPasswd != ((const char *)NULL) ? bufPasswd : mctx.passwd;
-      if(!(connectToLDAP$$1$$passwd == ((const char *)NULL)))
+      connectToLDAP__1__passwd = bufPasswd != ((const char *)NULL) ? bufPasswd : mctx.passwd;
+      if(!(connectToLDAP__1__passwd == ((const char *)NULL)))
       {
-        cred.bv_val = (char *)connectToLDAP$$1$$passwd;
-        cred.bv_len=strlen(connectToLDAP$$1$$passwd);
+        cred.bv_val = (char *)connectToLDAP__1__passwd;
+        cred.bv_len=strlen(connectToLDAP__1__passwd);
       }
 
     }
@@ -3493,8 +3493,8 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
     {
       if(!(tttctx == ((struct thread_context *)NULL)))
       {
-        return_value_referralSetup$12=referralSetup(tttctx);
-        if(!(return_value_referralSetup$12 >= 0))
+        return_value_referralSetup_12=referralSetup(tttctx);
+        if(!(return_value_referralSetup_12 >= 0))
         {
           ret = -1;
           goto done;
@@ -3536,21 +3536,21 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
             if(!(tttctx == ((struct thread_context *)NULL)))
               tttctx->binded = 0;
 
-            signed int return_value_ignoreError$16;
-            return_value_ignoreError$16=ignoreError(ret);
-            if(!(return_value_ignoreError$16 == 0))
+            signed int return_value_ignoreError_16;
+            return_value_ignoreError_16=ignoreError(ret);
+            if(!(return_value_ignoreError_16 == 0))
             {
               if((8u & mode) == 0u)
               {
-                char *return_value_my_ldap_err2string$13;
-                return_value_my_ldap_err2string$13=my_ldap_err2string(ret);
-                printf("ldclt[%d]: T%03d: Cannot ldap_sasl_bind_s, error=%d (%s)\n", mctx.pid, thrdNum, ret, return_value_my_ldap_err2string$13);
+                char *return_value_my_ldap_err2string_13;
+                return_value_my_ldap_err2string_13=my_ldap_err2string(ret);
+                printf("ldclt[%d]: T%03d: Cannot ldap_sasl_bind_s, error=%d (%s)\n", mctx.pid, thrdNum, ret, return_value_my_ldap_err2string_13);
                 fflush(stdout);
               }
 
-              signed int return_value_addErrorStat$14;
-              return_value_addErrorStat$14=addErrorStat(ret);
-              if(!(return_value_addErrorStat$14 >= 0))
+              signed int return_value_addErrorStat_14;
+              return_value_addErrorStat_14=addErrorStat(ret);
+              if(!(return_value_addErrorStat_14 >= 0))
                 ret = -1;
 
               else
@@ -3560,9 +3560,9 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
 
             else
             {
-              char *return_value_my_ldap_err2string$15;
-              return_value_my_ldap_err2string$15=my_ldap_err2string(ret);
-              printf("ldclt[%d]: T%03d: Cannot ldap_sasl_bind_s, error=%d (%s)\n", mctx.pid, thrdNum, ret, return_value_my_ldap_err2string$15);
+              char *return_value_my_ldap_err2string_15;
+              return_value_my_ldap_err2string_15=my_ldap_err2string(ret);
+              printf("ldclt[%d]: T%03d: Cannot ldap_sasl_bind_s, error=%d (%s)\n", mctx.pid, thrdNum, ret, return_value_my_ldap_err2string_15);
               fflush(stdout);
               if(!(tttctx == ((struct thread_context *)NULL)))
                 tttctx->exitStatus = 4;
@@ -3624,14 +3624,14 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
 
               if((8u & mode) == 0u)
               {
-                char *return_value_my_ldap_err2string$17;
-                return_value_my_ldap_err2string$17=my_ldap_err2string(ret);
-                fprintf(stderr, "Error: could not bind: %d:%s\n", ret, return_value_my_ldap_err2string$17);
+                char *return_value_my_ldap_err2string_17;
+                return_value_my_ldap_err2string_17=my_ldap_err2string(ret);
+                fprintf(stderr, "Error: could not bind: %d:%s\n", ret, return_value_my_ldap_err2string_17);
               }
 
-              signed int return_value_addErrorStat$18;
-              return_value_addErrorStat$18=addErrorStat(ret);
-              if(!(return_value_addErrorStat$18 >= 0))
+              signed int return_value_addErrorStat_18;
+              return_value_addErrorStat_18=addErrorStat(ret);
+              if(!(return_value_addErrorStat_18 >= 0))
                 goto done;
 
             }
@@ -3651,8 +3651,8 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
               const char *passwd = (const char *)(void *)0;
               if(!(tttctx == ((struct thread_context *)NULL)))
               {
-                return_value_buildNewBindDN$19=buildNewBindDN(tttctx);
-                if(!(return_value_buildNewBindDN$19 >= 0))
+                return_value_buildNewBindDN_19=buildNewBindDN(tttctx);
+                if(!(return_value_buildNewBindDN_19 >= 0))
                 {
                   ret = -1;
                   goto done;
@@ -3660,13 +3660,13 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
 
               }
 
-              _Bool tmp_if_expr$20;
+              _Bool tmp_if_expr_20;
               if(!(tttctx == ((struct thread_context *)NULL)))
-                tmp_if_expr$20 = tttctx->bufPasswd != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_20 = tttctx->bufPasswd != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$20 = (_Bool)0;
-              if(tmp_if_expr$20)
+                tmp_if_expr_20 = (_Bool)0;
+              if(tmp_if_expr_20)
               {
                 binddn = tttctx->bufBindDN;
                 passwd = tttctx->bufPasswd;
@@ -3712,21 +3712,21 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
                 if(!(tttctx == ((struct thread_context *)NULL)))
                   tttctx->binded = 0;
 
-                signed int return_value_ignoreError$24;
-                return_value_ignoreError$24=ignoreError(ret);
-                if(!(return_value_ignoreError$24 == 0))
+                signed int return_value_ignoreError_24;
+                return_value_ignoreError_24=ignoreError(ret);
+                if(!(return_value_ignoreError_24 == 0))
                 {
                   if((8u & mode) == 0u)
                   {
-                    char *return_value_my_ldap_err2string$21;
-                    return_value_my_ldap_err2string$21=my_ldap_err2string(ret);
-                    printf("ldclt[%d]: T%03d: Cannot ldap_simple_bind_s (%s, %s), error=%d (%s)\n", mctx.pid, thrdNum, binddn, passwd != ((const char *)NULL) ? passwd : "NO PASSWORD PROVIDED", ret, return_value_my_ldap_err2string$21);
+                    char *return_value_my_ldap_err2string_21;
+                    return_value_my_ldap_err2string_21=my_ldap_err2string(ret);
+                    printf("ldclt[%d]: T%03d: Cannot ldap_simple_bind_s (%s, %s), error=%d (%s)\n", mctx.pid, thrdNum, binddn, passwd != ((const char *)NULL) ? passwd : "NO PASSWORD PROVIDED", ret, return_value_my_ldap_err2string_21);
                     fflush(stdout);
                   }
 
-                  signed int return_value_addErrorStat$22;
-                  return_value_addErrorStat$22=addErrorStat(ret);
-                  if(!(return_value_addErrorStat$22 >= 0))
+                  signed int return_value_addErrorStat_22;
+                  return_value_addErrorStat_22=addErrorStat(ret);
+                  if(!(return_value_addErrorStat_22 >= 0))
                     ret = -1;
 
                   else
@@ -3736,9 +3736,9 @@ extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bu
 
                 else
                 {
-                  char *return_value_my_ldap_err2string$23;
-                  return_value_my_ldap_err2string$23=my_ldap_err2string(ret);
-                  printf("ldclt[%d]: T%03d: Cannot ldap_simple_bind_s (%s, %s), error=%d (%s)\n", mctx.pid, thrdNum, binddn, passwd != ((const char *)NULL) ? passwd : "NO PASSWORD PROVIDED", ret, return_value_my_ldap_err2string$23);
+                  char *return_value_my_ldap_err2string_23;
+                  return_value_my_ldap_err2string_23=my_ldap_err2string(ret);
+                  printf("ldclt[%d]: T%03d: Cannot ldap_simple_bind_s (%s, %s), error=%d (%s)\n", mctx.pid, thrdNum, binddn, passwd != ((const char *)NULL) ? passwd : "NO PASSWORD PROVIDED", ret, return_value_my_ldap_err2string_23);
                   fflush(stdout);
                   if(!(tttctx == ((struct thread_context *)NULL)))
                     tttctx->exitStatus = 4;
@@ -3791,18 +3791,18 @@ extern signed int connectToServer(struct thread_context *tttctx)
           return -1;
         }
 
-        signed int return_value_close$4;
-        return_value_close$4=close((signed int)fd);
-        if(!(return_value_close$4 >= 0))
+        signed int return_value_close_4;
+        return_value_close_4=close((signed int)fd);
+        if(!(return_value_close_4 >= 0))
         {
           perror("ldctx");
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          printf("ldclt[%d]: T%03d: cannot close(fd=%d), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (signed int)fd, *return_value___errno_location$1, return_value_strerror$3);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          printf("ldclt[%d]: T%03d: cannot close(fd=%d), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (signed int)fd, *return_value___errno_location_1, return_value_strerror_3);
           return -1;
         }
 
@@ -3811,9 +3811,9 @@ extern signed int connectToServer(struct thread_context *tttctx)
       ret=ldap_unbind_ext(tttctx->ldapCtx, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0);
       if(!(ret == 0x00))
       {
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(ret);
-        fprintf(stderr, "ldclt[%d]: T%03d: cannot ldap_unbind(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror$5);
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(ret);
+        fprintf(stderr, "ldclt[%d]: T%03d: cannot ldap_unbind(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror_5);
         fflush(stderr);
         addErrorStat(ret);
         return -1;
@@ -3850,9 +3850,9 @@ signed int copyVersAttribute(struct vers_attribute *srcattr, struct vers_attribu
   struct vers_field *dst;
   dstattr->name = srcattr->name;
   dstattr->src = srcattr->src;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct vers_field) /*96ul*/ );
-  dstattr->field = (struct vers_field *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct vers_field) /*96ul*/ );
+  dstattr->field = (struct vers_field *)return_value_malloc_1;
   src = srcattr->field;
   dst = dstattr->field;
   while(!(src == ((struct vers_field *)NULL)))
@@ -3862,21 +3862,21 @@ signed int copyVersAttribute(struct vers_attribute *srcattr, struct vers_attribu
     src = src->next;
     if(!(src == ((struct vers_field *)NULL)))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct vers_field) /*96ul*/ );
-      dst->next = (struct vers_field *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct vers_field) /*96ul*/ );
+      dst->next = (struct vers_field *)return_value_malloc_2;
       dst = dst->next;
     }
 
   }
-  void *return_value_malloc$3;
+  void *return_value_malloc_3;
   if(srcattr->buf == ((char *)NULL))
     dstattr->buf = (char *)(void *)0;
 
   else
   {
-    return_value_malloc$3=malloc((unsigned long int)512);
-    dstattr->buf = (char *)return_value_malloc$3;
+    return_value_malloc_3=malloc((unsigned long int)512);
+    dstattr->buf = (char *)return_value_malloc_3;
   }
   return 0;
 }
@@ -3887,41 +3887,41 @@ struct vers_object * copyVersObject(struct vers_object *srcobj)
 {
   struct vers_object *newobj;
   signed int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct vers_object) /*1368ul*/ );
-  newobj = (struct vers_object *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct vers_object) /*1368ul*/ );
+  newobj = (struct vers_object *)return_value_malloc_1;
   newobj->attribsNb = srcobj->attribsNb;
   newobj->fname = srcobj->fname;
   i = 0;
-  void *return_value_malloc$2;
+  void *return_value_malloc_2;
   for( ; !(65 + i >= 72); i = i + 1)
     if(srcobj->var[(signed long int)i] == ((char *)NULL))
       newobj->var[(signed long int)i] = (char *)(void *)0;
 
     else
     {
-      return_value_malloc$2=malloc((unsigned long int)512);
-      newobj->var[(signed long int)i] = (char *)return_value_malloc$2;
+      return_value_malloc_2=malloc((unsigned long int)512);
+      newobj->var[(signed long int)i] = (char *)return_value_malloc_2;
     }
   if(!(srcobj->rdn == ((struct vers_attribute *)NULL)))
   {
     newobj->rdnName=strdup(srcobj->rdnName);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(struct vers_attribute) /*32ul*/ );
-    newobj->rdn = (struct vers_attribute *)return_value_malloc$3;
-    signed int return_value_copyVersAttribute$4;
-    return_value_copyVersAttribute$4=copyVersAttribute(srcobj->rdn, newobj->rdn);
-    if(!(return_value_copyVersAttribute$4 >= 0))
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(struct vers_attribute) /*32ul*/ );
+    newobj->rdn = (struct vers_attribute *)return_value_malloc_3;
+    signed int return_value_copyVersAttribute_4;
+    return_value_copyVersAttribute_4=copyVersAttribute(srcobj->rdn, newobj->rdn);
+    if(!(return_value_copyVersAttribute_4 >= 0))
       return (struct vers_object *)(void *)0;
 
   }
 
   i = 0;
-  signed int return_value_copyVersAttribute$5;
+  signed int return_value_copyVersAttribute_5;
   for( ; !(i >= srcobj->attribsNb); i = i + 1)
   {
-    return_value_copyVersAttribute$5=copyVersAttribute(&srcobj->attribs[(signed long int)i], &newobj->attribs[(signed long int)i]);
-    if(!(return_value_copyVersAttribute$5 >= 0))
+    return_value_copyVersAttribute_5=copyVersAttribute(&srcobj->attribs[(signed long int)i], &newobj->attribs[(signed long int)i]);
+    if(!(return_value_copyVersAttribute_5 >= 0))
       return (struct vers_object *)(void *)0;
 
   }
@@ -3964,10 +3964,10 @@ signed int createMissingNodes(struct thread_context *tttctx, char *newDN, struct
     if((signed int)*nodeDN == 0)
       break;
 
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
   if((signed int)*nodeDN == 0)
   {
     printf("ldclt[%d]: T%03d: Reach top of DN for %s\n", mctx.pid, tttctx->thrdNum, newDN);
@@ -3984,11 +3984,11 @@ signed int createMissingNodes(struct thread_context *tttctx, char *newDN, struct
     do
     {
       if(!((signed int)nodeDN[(signed long int)i] == 61))
-        tmp_if_expr$1 = (signed int)nodeDN[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)nodeDN[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       i = i + 1;
@@ -4009,11 +4009,11 @@ signed int createMissingNodes(struct thread_context *tttctx, char *newDN, struct
       do
       {
         if(!((signed int)nodeDN[(signed long int)j] == 44))
-          tmp_if_expr$2 = (signed int)nodeDN[(signed long int)j] != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)nodeDN[(signed long int)j] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         j = j + 1;
@@ -4030,21 +4030,21 @@ signed int createMissingNodes(struct thread_context *tttctx, char *newDN, struct
       {
         strncpy(attrVal, nodeDN + (signed long int)i + (signed long int)1, (unsigned long int)((j - i) - 1));
         attrVal[(signed long int)((j - i) - 1)] = (char)0;
-        signed int return_value_strcmp$5;
-        return_value_strcmp$5=strcmp(attrName, "o");
-        if(return_value_strcmp$5 == 0)
+        signed int return_value_strcmp_5;
+        return_value_strcmp_5=strcmp(attrName, "o");
+        if(return_value_strcmp_5 == 0)
           objClass = "organization";
 
         else
         {
-          return_value_strcmp$4=strcmp(attrName, "ou");
-          if(return_value_strcmp$4 == 0)
+          return_value_strcmp_4=strcmp(attrName, "ou");
+          if(return_value_strcmp_4 == 0)
             objClass = "organizationalUnit";
 
           else
           {
-            return_value_strcmp$3=strcmp(attrName, "cn");
-            if(return_value_strcmp$3 == 0)
+            return_value_strcmp_3=strcmp(attrName, "cn");
+            if(return_value_strcmp_3 == 0)
               objClass = "organizationalRole";
 
             else
@@ -4078,11 +4078,11 @@ signed int createMissingNodes(struct thread_context *tttctx, char *newDN, struct
         attribute.mod_op = 0x0000;
         attribute.mod_type = "objectclass";
         attribute.mod_vals.modv_strvals=strList1(objClass);
-        signed int tmp_post$6 = nbAttribs;
+        signed int tmp_post_6 = nbAttribs;
         nbAttribs = nbAttribs + 1;
-        signed int return_value_addAttrib$7;
-        return_value_addAttrib$7=addAttrib(attrs, tmp_post$6, &attribute);
-        if(!(return_value_addAttrib$7 >= 0))
+        signed int return_value_addAttrib_7;
+        return_value_addAttrib_7=addAttrib(attrs, tmp_post_6, &attribute);
+        if(!(return_value_addAttrib_7 >= 0))
           return -1;
 
         else
@@ -4090,11 +4090,11 @@ signed int createMissingNodes(struct thread_context *tttctx, char *newDN, struct
           attribute.mod_op = 0x0000;
           attribute.mod_type = attrName;
           attribute.mod_vals.modv_strvals=strList1(attrVal);
-          signed int tmp_post$8 = nbAttribs;
+          signed int tmp_post_8 = nbAttribs;
           nbAttribs = nbAttribs + 1;
-          signed int return_value_addAttrib$9;
-          return_value_addAttrib$9=addAttrib(attrs, tmp_post$8, &attribute);
-          if(!(return_value_addAttrib$9 >= 0))
+          signed int return_value_addAttrib_9;
+          return_value_addAttrib_9=addAttrib(attrs, tmp_post_8, &attribute);
+          if(!(return_value_addAttrib_9 >= 0))
             return -1;
 
           else
@@ -4105,23 +4105,23 @@ signed int createMissingNodes(struct thread_context *tttctx, char *newDN, struct
               if(ret == 0x20)
               {
                 printf("ldclt[%d]: T%03d: Parent of %s doesn't exist, looping\n", mctx.pid, tttctx->thrdNum, nodeDN);
-                signed int return_value_createMissingNodes$11;
-                return_value_createMissingNodes$11=createMissingNodes(tttctx, nodeDN, cnx);
-                if(!(return_value_createMissingNodes$11 >= 0))
+                signed int return_value_createMissingNodes_11;
+                return_value_createMissingNodes_11=createMissingNodes(tttctx, nodeDN, cnx);
+                if(!(return_value_createMissingNodes_11 >= 0))
                   return -1;
 
                 else
                 {
                   cnx = (struct ldap *)(void *)0;
-                  signed int return_value_createMissingNodes$10;
-                  return_value_createMissingNodes$10=createMissingNodes(tttctx, newDN, cnx);
-                  return return_value_createMissingNodes$10;
+                  signed int return_value_createMissingNodes_10;
+                  return_value_createMissingNodes_10=createMissingNodes(tttctx, newDN, cnx);
+                  return return_value_createMissingNodes_10;
                 }
               }
 
-              char *return_value_my_ldap_err2string$12;
-              return_value_my_ldap_err2string$12=my_ldap_err2string(ret);
-              printf("ldclt[%d]: T%03d: Cannot add (%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, nodeDN, ret, return_value_my_ldap_err2string$12);
+              char *return_value_my_ldap_err2string_12;
+              return_value_my_ldap_err2string_12=my_ldap_err2string(ret);
+              printf("ldclt[%d]: T%03d: Cannot add (%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, nodeDN, ret, return_value_my_ldap_err2string_12);
               fflush(stdout);
               addErrorStat(ret);
               return -1;
@@ -4129,9 +4129,9 @@ signed int createMissingNodes(struct thread_context *tttctx, char *newDN, struct
 
             if(!(ret == 0x44))
             {
-              signed int return_value_incrementNbOpers$13;
-              return_value_incrementNbOpers$13=incrementNbOpers(tttctx);
-              if(!(return_value_incrementNbOpers$13 >= 0))
+              signed int return_value_incrementNbOpers_13;
+              return_value_incrementNbOpers_13=incrementNbOpers(tttctx);
+              if(!(return_value_incrementNbOpers_13 >= 0))
                 return -1;
 
             }
@@ -4139,16 +4139,16 @@ signed int createMissingNodes(struct thread_context *tttctx, char *newDN, struct
             else
               if(!((8192u & mctx.mode) == 0u))
               {
-                signed int return_value_incrementNbOpers$14;
-                return_value_incrementNbOpers$14=incrementNbOpers(tttctx);
-                if(!(return_value_incrementNbOpers$14 >= 0))
+                signed int return_value_incrementNbOpers_14;
+                return_value_incrementNbOpers_14=incrementNbOpers(tttctx);
+                if(!(return_value_incrementNbOpers_14 >= 0))
                   return -1;
 
               }
 
-            signed int return_value_freeAttrib$15;
-            return_value_freeAttrib$15=freeAttrib(attrs);
-            if(!(return_value_freeAttrib$15 >= 0))
+            signed int return_value_freeAttrib_15;
+            return_value_freeAttrib_15=freeAttrib(attrs);
+            if(!(return_value_freeAttrib_15 >= 0))
               return -1;
 
             else
@@ -4165,23 +4165,23 @@ signed int createMissingNodes(struct thread_context *tttctx, char *newDN, struct
 extern struct data_list_file * dataListFile(char *fname)
 {
   struct data_list_file *dlf = mctx.dlf;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(dlf == ((struct data_list_file *)NULL)); dlf = dlf->next)
   {
-    return_value_strcmp$1=strcmp(fname, dlf->fname);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(fname, dlf->fname);
+    if(return_value_strcmp_1 == 0)
       return dlf;
 
   }
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct data_list_file) /*32ul*/ );
-  dlf = (struct data_list_file *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct data_list_file) /*32ul*/ );
+  dlf = (struct data_list_file *)return_value_malloc_2;
   dlf->next = mctx.dlf;
   mctx.dlf = dlf;
   dlf->fname=strdup(fname);
-  signed int return_value_loadDataListFile$3;
-  return_value_loadDataListFile$3=loadDataListFile(dlf);
-  if(!(return_value_loadDataListFile$3 >= 0))
+  signed int return_value_loadDataListFile_3;
+  return_value_loadDataListFile_3=loadDataListFile(dlf);
+  if(!(return_value_loadDataListFile_3 >= 0))
     return (struct data_list_file *)(void *)0;
 
   else
@@ -4195,14 +4195,14 @@ signed int decodeExecParams(char *optarg)
   char *suboptions;
   char *subvalue;
   suboptions = optarg;
-  signed int return_value_addAttrToList$2;
-  signed int return_value_addAttrToList$3;
-  signed int return_value_decodeRdnParam$4;
+  signed int return_value_addAttrToList_2;
+  signed int return_value_addAttrToList_3;
+  signed int return_value_decodeRdnParam_4;
   while(!((signed int)*suboptions == 0))
   {
-    signed int return_value_getsubopt$1;
-    return_value_getsubopt$1=getsubopt(&suboptions, execParams, &subvalue);
-    switch(return_value_getsubopt$1)
+    signed int return_value_getsubopt_1;
+    return_value_getsubopt_1=getsubopt(&suboptions, execParams, &subvalue);
+    switch(return_value_getsubopt_1)
     {
       case 5:
       {
@@ -4245,8 +4245,8 @@ signed int decodeExecParams(char *optarg)
       }
       case 38:
       {
-        return_value_addAttrToList$2=addAttrToList(subvalue);
-        return return_value_addAttrToList$2;
+        return_value_addAttrToList_2=addAttrToList(subvalue);
+        return return_value_addAttrToList_2;
       }
       case 27:
       {
@@ -4450,8 +4450,8 @@ signed int decodeExecParams(char *optarg)
       case 39:
       {
         mctx.mode = mctx.mode | (unsigned int)0x00000080;
-        return_value_addAttrToList$3=addAttrToList(subvalue);
-        return return_value_addAttrToList$3;
+        return_value_addAttrToList_3=addAttrToList(subvalue);
+        return return_value_addAttrToList_3;
       }
       case 28:
       {
@@ -4525,8 +4525,8 @@ signed int decodeExecParams(char *optarg)
       }
       case 42:
       {
-        return_value_decodeRdnParam$4=decodeRdnParam(subvalue);
-        if(!(return_value_decodeRdnParam$4 >= 0))
+        return_value_decodeRdnParam_4=decodeRdnParam(subvalue);
+        if(!(return_value_decodeRdnParam_4 >= 0))
           return -1;
 
         mctx.mod2 = mctx.mod2 | (unsigned int)0x00000004;
@@ -4659,51 +4659,51 @@ signed int decodeHow(char *how)
   if(!((2u & mctx.mode) == 0u))
     printf("decodeHow: how=\"%s\"\n", how);
 
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(how, "INCRFROMFILE");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(how, "INCRFROMFILE");
+  if(return_value_strcmp_1 == 0)
     return 1;
 
   else
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(how, "INCRFROMFILENOLOOP");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(how, "INCRFROMFILENOLOOP");
+    if(return_value_strcmp_2 == 0)
       return 2;
 
     else
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(how, "INCRN");
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(how, "INCRN");
+      if(return_value_strcmp_3 == 0)
         return 3;
 
       else
       {
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(how, "INCRNNOLOOP");
-        if(return_value_strcmp$4 == 0)
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(how, "INCRNNOLOOP");
+        if(return_value_strcmp_4 == 0)
           return 4;
 
         else
         {
-          signed int return_value_strcmp$5;
-          return_value_strcmp$5=strcmp(how, "RNDFROMFILE");
-          if(return_value_strcmp$5 == 0)
+          signed int return_value_strcmp_5;
+          return_value_strcmp_5=strcmp(how, "RNDFROMFILE");
+          if(return_value_strcmp_5 == 0)
             return 5;
 
           else
           {
-            signed int return_value_strcmp$6;
-            return_value_strcmp$6=strcmp(how, "RNDN");
-            if(return_value_strcmp$6 == 0)
+            signed int return_value_strcmp_6;
+            return_value_strcmp_6=strcmp(how, "RNDN");
+            if(return_value_strcmp_6 == 0)
               return 6;
 
             else
             {
-              signed int return_value_strcmp$7;
-              return_value_strcmp$7=strcmp(how, "RNDS");
-              if(return_value_strcmp$7 == 0)
+              signed int return_value_strcmp_7;
+              return_value_strcmp_7=strcmp(how, "RNDS");
+              if(return_value_strcmp_7 == 0)
                 return 7;
 
               else
@@ -4721,20 +4721,20 @@ signed int decodeHow(char *how)
 signed int decodeRdnParam(char *value)
 {
   signed int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct vers_attribute) /*32ul*/ );
-  mctx.object.rdn = (struct vers_attribute *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct vers_attribute) /*32ul*/ );
+  mctx.object.rdn = (struct vers_attribute *)return_value_malloc_1;
   mctx.object.rdn->buf = (char *)(void *)0;
   i = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   do
   {
     if(!((signed int)value[(signed long int)i] == 0))
-      tmp_if_expr$2 = (signed int)value[(signed long int)i] != 58 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)value[(signed long int)i] != 58 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     i = i + 1;
@@ -4748,14 +4748,14 @@ signed int decodeRdnParam(char *value)
 
   else
   {
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)(i + 1));
-    mctx.object.rdnName = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)(i + 1));
+    mctx.object.rdnName = (char *)return_value_malloc_3;
     strncpy(mctx.object.rdnName, value, (unsigned long int)i);
     mctx.object.rdnName[(signed long int)i] = (char)0;
-    signed int return_value_parseAttribValue$4;
-    return_value_parseAttribValue$4=parseAttribValue("-e rdn=", &mctx.object, value + (signed long int)i + (signed long int)1, mctx.object.rdn);
-    if(!(return_value_parseAttribValue$4 >= 0))
+    signed int return_value_parseAttribValue_4;
+    return_value_parseAttribValue_4=parseAttribValue("-e rdn=", &mctx.object, value + (signed long int)i + (signed long int)1, mctx.object.rdn);
+    if(!(return_value_parseAttribValue_4 >= 0))
       return -1;
 
     else
@@ -4775,23 +4775,23 @@ signed int decodeReferralParams(char *val)
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(val, "on");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(val, "on");
+    if(return_value_strcmp_1 == 0)
       return 1;
 
     else
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(val, "off");
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(val, "off");
+      if(return_value_strcmp_2 == 0)
         return 0;
 
       else
       {
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(val, "rebind");
-        if(return_value_strcmp$3 == 0)
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(val, "rebind");
+        if(return_value_strcmp_3 == 0)
           return 2;
 
         else
@@ -4813,9 +4813,9 @@ signed int decodeScopeParams(char *optarg)
   suboptions = optarg;
   while(!((signed int)*suboptions == 0))
   {
-    signed int return_value_getsubopt$1;
-    return_value_getsubopt$1=getsubopt(&suboptions, scopeParams, &subvalue);
-    switch(return_value_getsubopt$1)
+    signed int return_value_getsubopt_1;
+    return_value_getsubopt_1=getsubopt(&suboptions, scopeParams, &subvalue);
+    switch(return_value_getsubopt_1)
     {
       case 2:
       {
@@ -4865,9 +4865,9 @@ extern char * dnFromMessage(struct thread_context *tttctx, struct ldapmsg *res)
 __CPROVER_DUMP_L3:
   ;
   tttctx->matcheddnp = (char *)(void *)0;
-  char *return_value_my_ldap_err2string$1;
-  return_value_my_ldap_err2string$1=my_ldap_err2string(ret);
-  printf("ldclt[%d]: T%03d: Cannot ldap_parse_result(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$1);
+  char *return_value_my_ldap_err2string_1;
+  return_value_my_ldap_err2string_1=my_ldap_err2string(ret);
+  printf("ldclt[%d]: T%03d: Cannot ldap_parse_result(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_1);
   fflush(stdout);
   static char *notFound = "*** not found by ldclt ***";
   return notFound;
@@ -4882,12 +4882,12 @@ extern signed int doAbandon(struct thread_context *tttctx)
   char **attrlist;
   struct timeval mytimeout;
   signed int msgid;
-  signed int return_value_connectToServer$1;
-  return_value_connectToServer$1=connectToServer(tttctx);
-  signed int return_value_ignoreError$3;
-  signed int return_value_ignoreError$7;
-  signed int return_value_ignoreError$11;
-  if(!(return_value_connectToServer$1 >= 0))
+  signed int return_value_connectToServer_1;
+  return_value_connectToServer_1=connectToServer(tttctx);
+  signed int return_value_ignoreError_3;
+  signed int return_value_ignoreError_7;
+  signed int return_value_ignoreError_11;
+  if(!(return_value_connectToServer_1 >= 0))
     return -1;
 
   else
@@ -4896,9 +4896,9 @@ extern signed int doAbandon(struct thread_context *tttctx)
 
     else
     {
-      signed int return_value_buildRandomRdnOrFilter$2;
-      return_value_buildRandomRdnOrFilter$2=buildRandomRdnOrFilter(tttctx);
-      if(!(return_value_buildRandomRdnOrFilter$2 >= 0))
+      signed int return_value_buildRandomRdnOrFilter_2;
+      return_value_buildRandomRdnOrFilter_2=buildRandomRdnOrFilter(tttctx);
+      if(!(return_value_buildRandomRdnOrFilter_2 >= 0))
         return -1;
 
       else
@@ -4913,21 +4913,21 @@ extern signed int doAbandon(struct thread_context *tttctx)
           ret=ldap_result(tttctx->ldapCtx, -1, 0x00, &mytimeout, &res);
           if(!(ret >= 0))
           {
-            _Bool tmp_if_expr$4;
+            _Bool tmp_if_expr_4;
             if(!((8u & mctx.mode) == 0u))
             {
-              return_value_ignoreError$3=ignoreError(ret);
-              tmp_if_expr$4 = return_value_ignoreError$3 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_ignoreError_3=ignoreError(ret);
+              tmp_if_expr_4 = return_value_ignoreError_3 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(!tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(!tmp_if_expr_4)
               printErrorFromLdap(tttctx, res, ret, "Cannot ldap_result()");
 
-            signed int return_value_addErrorStat$5;
-            return_value_addErrorStat$5=addErrorStat(ret);
-            if(!(return_value_addErrorStat$5 >= 0))
+            signed int return_value_addErrorStat_5;
+            return_value_addErrorStat_5=addErrorStat(ret);
+            if(!(return_value_addErrorStat_5 >= 0))
               return -1;
 
           }
@@ -4938,26 +4938,26 @@ extern signed int doAbandon(struct thread_context *tttctx)
             ret=ldap_msgfree(res);
             if(!(ret >= 0))
             {
-              _Bool tmp_if_expr$8;
+              _Bool tmp_if_expr_8;
               if(!((8u & mctx.mode) == 0u))
               {
-                return_value_ignoreError$7=ignoreError(ret);
-                tmp_if_expr$8 = return_value_ignoreError$7 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_ignoreError_7=ignoreError(ret);
+                tmp_if_expr_8 = return_value_ignoreError_7 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$8 = (_Bool)0;
-              if(!tmp_if_expr$8)
+                tmp_if_expr_8 = (_Bool)0;
+              if(!tmp_if_expr_8)
               {
-                char *return_value_my_ldap_err2string$6;
-                return_value_my_ldap_err2string$6=my_ldap_err2string(ret);
-                printf("ldclt[%d]: T%03d: Cannot ldap_msgfree(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$6);
+                char *return_value_my_ldap_err2string_6;
+                return_value_my_ldap_err2string_6=my_ldap_err2string(ret);
+                printf("ldclt[%d]: T%03d: Cannot ldap_msgfree(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_6);
                 fflush(stdout);
               }
 
-              signed int return_value_addErrorStat$9;
-              return_value_addErrorStat$9=addErrorStat(ret);
-              if(!(return_value_addErrorStat$9 >= 0))
+              signed int return_value_addErrorStat_9;
+              return_value_addErrorStat_9=addErrorStat(ret);
+              if(!(return_value_addErrorStat_9 >= 0))
                 return -1;
 
             }
@@ -5010,9 +5010,9 @@ extern signed int doAbandon(struct thread_context *tttctx)
 
           if(!(ret == 0))
           {
-            signed int return_value_ldap_get_option$14;
-            return_value_ldap_get_option$14=ldap_get_option(tttctx->ldapCtx, 0x0031, (void *)&ret);
-            if(!(return_value_ldap_get_option$14 >= 0))
+            signed int return_value_ldap_get_option_14;
+            return_value_ldap_get_option_14=ldap_get_option(tttctx->ldapCtx, 0x0031, (void *)&ret);
+            if(!(return_value_ldap_get_option_14 >= 0))
             {
               printf("ldclt[%d]: T%03d: Cannot ldap_get_option(LDAP_OPT_ERROR_NUMBER)\n", mctx.pid, tttctx->thrdNum);
               fflush(stdout);
@@ -5021,26 +5021,26 @@ extern signed int doAbandon(struct thread_context *tttctx)
 
             else
             {
-              _Bool tmp_if_expr$12;
+              _Bool tmp_if_expr_12;
               if(!((8u & mctx.mode) == 0u))
               {
-                return_value_ignoreError$11=ignoreError(ret);
-                tmp_if_expr$12 = return_value_ignoreError$11 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_ignoreError_11=ignoreError(ret);
+                tmp_if_expr_12 = return_value_ignoreError_11 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$12 = (_Bool)0;
-              if(!tmp_if_expr$12)
+                tmp_if_expr_12 = (_Bool)0;
+              if(!tmp_if_expr_12)
               {
-                char *return_value_my_ldap_err2string$10;
-                return_value_my_ldap_err2string$10=my_ldap_err2string(ret);
-                printf("ldclt[%d]: T%03d: Cannot ldap_search(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$10);
+                char *return_value_my_ldap_err2string_10;
+                return_value_my_ldap_err2string_10=my_ldap_err2string(ret);
+                printf("ldclt[%d]: T%03d: Cannot ldap_search(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_10);
                 fflush(stdout);
               }
 
-              signed int return_value_addErrorStat$13;
-              return_value_addErrorStat$13=addErrorStat(ret);
-              if(!(return_value_addErrorStat$13 >= 0))
+              signed int return_value_addErrorStat_13;
+              return_value_addErrorStat_13=addErrorStat(ret);
+              if(!(return_value_addErrorStat_13 >= 0))
                 return -1;
 
             }
@@ -5051,9 +5051,9 @@ extern signed int doAbandon(struct thread_context *tttctx)
             if(msgid >= 0)
               ldap_abandon_ext(tttctx->ldapCtx, msgid, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0);
 
-            signed int return_value_incrementNbOpers$15;
-            return_value_incrementNbOpers$15=incrementNbOpers(tttctx);
-            if(!(return_value_incrementNbOpers$15 >= 0))
+            signed int return_value_incrementNbOpers_15;
+            return_value_incrementNbOpers_15=incrementNbOpers(tttctx);
+            if(!(return_value_incrementNbOpers_15 >= 0))
               return -1;
 
             tttctx->pendingNb = tttctx->pendingNb + 1;
@@ -5078,12 +5078,12 @@ extern signed int doAddEntry(struct thread_context *tttctx)
   struct ldapmod *attrs[40l];
   signed int ret;
   signed int retry;
-  signed int return_value_connectToServer$1;
-  return_value_connectToServer$1=connectToServer(tttctx);
-  signed int return_value_ignoreError$4;
-  signed int return_value_ignoreError$14;
-  signed int return_value_createMissingNodes$17;
-  if(!(return_value_connectToServer$1 >= 0))
+  signed int return_value_connectToServer_1;
+  return_value_connectToServer_1=connectToServer(tttctx);
+  signed int return_value_ignoreError_4;
+  signed int return_value_ignoreError_14;
+  signed int return_value_createMissingNodes_17;
+  if(!(return_value_connectToServer_1 >= 0))
     return -1;
 
   else
@@ -5094,9 +5094,9 @@ extern signed int doAddEntry(struct thread_context *tttctx)
     {
       if((4u & mctx.mode) == 0u)
       {
-        signed int return_value_buildNewEntry$2;
-        return_value_buildNewEntry$2=buildNewEntry(tttctx, newDn, attrs);
-        if(!(return_value_buildNewEntry$2 >= 0))
+        signed int return_value_buildNewEntry_2;
+        return_value_buildNewEntry_2=buildNewEntry(tttctx, newDn, attrs);
+        if(!(return_value_buildNewEntry_2 >= 0))
           return -1;
 
         retry = 1;
@@ -5105,35 +5105,35 @@ extern signed int doAddEntry(struct thread_context *tttctx)
           ret=ldap_add_ext_s(tttctx->ldapCtx, newDn, attrs, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0);
           if(!(ret == 0x00))
           {
-            _Bool tmp_if_expr$5;
+            _Bool tmp_if_expr_5;
             if(!((8u & mctx.mode) == 0u))
             {
-              return_value_ignoreError$4=ignoreError(ret);
-              tmp_if_expr$5 = return_value_ignoreError$4 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_ignoreError_4=ignoreError(ret);
+              tmp_if_expr_5 = return_value_ignoreError_4 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$5 = (_Bool)0;
-            if(!tmp_if_expr$5)
+              tmp_if_expr_5 = (_Bool)0;
+            if(!tmp_if_expr_5)
             {
-              char *return_value_my_ldap_err2string$3;
-              return_value_my_ldap_err2string$3=my_ldap_err2string(ret);
-              printf("ldclt[%d]: T%03d: Cannot add (%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)newDn, ret, return_value_my_ldap_err2string$3);
+              char *return_value_my_ldap_err2string_3;
+              return_value_my_ldap_err2string_3=my_ldap_err2string(ret);
+              printf("ldclt[%d]: T%03d: Cannot add (%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)newDn, ret, return_value_my_ldap_err2string_3);
               fflush(stdout);
             }
 
-            signed int return_value_addErrorStat$6;
-            return_value_addErrorStat$6=addErrorStat(ret);
-            if(!(return_value_addErrorStat$6 >= 0))
+            signed int return_value_addErrorStat_6;
+            return_value_addErrorStat_6=addErrorStat(ret);
+            if(!(return_value_addErrorStat_6 >= 0))
               return -1;
 
             if(!(ret == 0x20))
             {
               if(ret == 0x44 && !((8192u & mctx.mode) == 0u))
               {
-                signed int return_value_incrementNbOpers$7;
-                return_value_incrementNbOpers$7=incrementNbOpers(tttctx);
-                if(!(return_value_incrementNbOpers$7 >= 0))
+                signed int return_value_incrementNbOpers_7;
+                return_value_incrementNbOpers_7=incrementNbOpers(tttctx);
+                if(!(return_value_incrementNbOpers_7 >= 0))
                   return -1;
 
               }
@@ -5143,9 +5143,9 @@ extern signed int doAddEntry(struct thread_context *tttctx)
 
             else
             {
-              signed int return_value_createMissingNodes$8;
-              return_value_createMissingNodes$8=createMissingNodes(tttctx, newDn, (struct ldap *)(void *)0);
-              if(!(return_value_createMissingNodes$8 >= 0))
+              signed int return_value_createMissingNodes_8;
+              return_value_createMissingNodes_8=createMissingNodes(tttctx, newDn, (struct ldap *)(void *)0);
+              if(!(return_value_createMissingNodes_8 >= 0))
               {
                 retry = 0;
                 printf("ldclt[%d]: T%03d: Cannot create the intermediate nodes for %s\n", mctx.pid, tttctx->thrdNum, (const void *)newDn);
@@ -5165,24 +5165,24 @@ extern signed int doAddEntry(struct thread_context *tttctx)
           else
           {
             retry = 0;
-            signed int return_value_incrementNbOpers$9;
-            return_value_incrementNbOpers$9=incrementNbOpers(tttctx);
-            if(!(return_value_incrementNbOpers$9 >= 0))
+            signed int return_value_incrementNbOpers_9;
+            return_value_incrementNbOpers_9=incrementNbOpers(tttctx);
+            if(!(return_value_incrementNbOpers_9 >= 0))
               return -1;
 
           }
         }
-        signed int return_value_freeAttrib$10;
-        return_value_freeAttrib$10=freeAttrib(attrs);
-        if(!(return_value_freeAttrib$10 >= 0))
+        signed int return_value_freeAttrib_10;
+        return_value_freeAttrib_10=freeAttrib(attrs);
+        if(!(return_value_freeAttrib_10 >= 0))
           return -1;
 
         return 0;
       }
 
-      signed int return_value_getPending$11;
-      return_value_getPending$11=getPending(tttctx, &mctx.timeval);
-      if(!(return_value_getPending$11 >= 0))
+      signed int return_value_getPending_11;
+      return_value_getPending_11=getPending(tttctx, &mctx.timeval);
+      if(!(return_value_getPending_11 >= 0))
         return -1;
 
       else
@@ -5224,17 +5224,17 @@ extern signed int doAddEntry(struct thread_context *tttctx)
 
           }
 
-          signed int return_value_buildNewEntry$12;
-          return_value_buildNewEntry$12=buildNewEntry(tttctx, newDn, attrs);
-          if(!(return_value_buildNewEntry$12 >= 0))
+          signed int return_value_buildNewEntry_12;
+          return_value_buildNewEntry_12=buildNewEntry(tttctx, newDn, attrs);
+          if(!(return_value_buildNewEntry_12 >= 0))
             return -1;
 
           ret=ldap_add_ext(tttctx->ldapCtx, newDn, attrs, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0, &msgid);
           if(!(ret >= 0))
           {
-            signed int return_value_ldap_get_option$19;
-            return_value_ldap_get_option$19=ldap_get_option(tttctx->ldapCtx, 0x0031, (void *)&ret);
-            if(!(return_value_ldap_get_option$19 >= 0))
+            signed int return_value_ldap_get_option_19;
+            return_value_ldap_get_option_19=ldap_get_option(tttctx->ldapCtx, 0x0031, (void *)&ret);
+            if(!(return_value_ldap_get_option_19 >= 0))
             {
               printf("ldclt[%d]: T%03d: Cannot ldap_get_option(LDAP_OPT_ERROR_NUMBER)\n", mctx.pid, tttctx->thrdNum);
               fflush(stdout);
@@ -5243,41 +5243,41 @@ extern signed int doAddEntry(struct thread_context *tttctx)
 
             else
             {
-              _Bool tmp_if_expr$15;
+              _Bool tmp_if_expr_15;
               if(!((8u & mctx.mode) == 0u))
               {
-                return_value_ignoreError$14=ignoreError(ret);
-                tmp_if_expr$15 = return_value_ignoreError$14 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_ignoreError_14=ignoreError(ret);
+                tmp_if_expr_15 = return_value_ignoreError_14 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$15 = (_Bool)0;
-              if(!tmp_if_expr$15)
+                tmp_if_expr_15 = (_Bool)0;
+              if(!tmp_if_expr_15)
               {
-                char *return_value_my_ldap_err2string$13;
-                return_value_my_ldap_err2string$13=my_ldap_err2string(ret);
-                printf("ldclt[%d]: T%03d: Cannot add(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$13);
+                char *return_value_my_ldap_err2string_13;
+                return_value_my_ldap_err2string_13=my_ldap_err2string(ret);
+                printf("ldclt[%d]: T%03d: Cannot add(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_13);
                 fflush(stdout);
               }
 
-              signed int return_value_addErrorStat$16;
-              return_value_addErrorStat$16=addErrorStat(ret);
-              if(!(return_value_addErrorStat$16 >= 0))
+              signed int return_value_addErrorStat_16;
+              return_value_addErrorStat_16=addErrorStat(ret);
+              if(!(return_value_addErrorStat_16 >= 0))
                 return -1;
 
               if(ret == 0x20)
               {
-                return_value_createMissingNodes$17=createMissingNodes(tttctx, newDn, (struct ldap *)(void *)0);
-                if(!(return_value_createMissingNodes$17 >= 0))
+                return_value_createMissingNodes_17=createMissingNodes(tttctx, newDn, (struct ldap *)(void *)0);
+                if(!(return_value_createMissingNodes_17 >= 0))
                   return -1;
 
               }
 
               if(ret == 0x44 && !((8192u & mctx.mode) == 0u))
               {
-                signed int return_value_incrementNbOpers$18;
-                return_value_incrementNbOpers$18=incrementNbOpers(tttctx);
-                if(!(return_value_incrementNbOpers$18 >= 0))
+                signed int return_value_incrementNbOpers_18;
+                return_value_incrementNbOpers_18=incrementNbOpers(tttctx);
+                if(!(return_value_incrementNbOpers_18 >= 0))
                   return -1;
 
               }
@@ -5287,14 +5287,14 @@ extern signed int doAddEntry(struct thread_context *tttctx)
 
           else
           {
-            signed int return_value_msgIdAdd$20;
-            return_value_msgIdAdd$20=msgIdAdd(tttctx, msgid, newDn, newDn, attrs);
-            if(!(return_value_msgIdAdd$20 >= 0))
+            signed int return_value_msgIdAdd_20;
+            return_value_msgIdAdd_20=msgIdAdd(tttctx, msgid, newDn, newDn, attrs);
+            if(!(return_value_msgIdAdd_20 >= 0))
               return -1;
 
-            signed int return_value_incrementNbOpers$21;
-            return_value_incrementNbOpers$21=incrementNbOpers(tttctx);
-            if(!(return_value_incrementNbOpers$21 >= 0))
+            signed int return_value_incrementNbOpers_21;
+            return_value_incrementNbOpers_21=incrementNbOpers(tttctx);
+            if(!(return_value_incrementNbOpers_21 >= 0))
               return -1;
 
             tttctx->pendingNb = tttctx->pendingNb + 1;
@@ -5316,11 +5316,11 @@ extern signed int doAttrFileReplace(struct thread_context *tttctx)
   struct ldapmod *attrs[40l];
   signed int ret;
   signed int msgid;
-  signed int return_value_connectToServer$1;
-  return_value_connectToServer$1=connectToServer(tttctx);
-  signed int return_value_ignoreError$4;
-  signed int return_value_ignoreError$12;
-  if(!(return_value_connectToServer$1 >= 0))
+  signed int return_value_connectToServer_1;
+  return_value_connectToServer_1=connectToServer(tttctx);
+  signed int return_value_ignoreError_4;
+  signed int return_value_ignoreError_12;
+  if(!(return_value_connectToServer_1 >= 0))
     return -1;
 
   else
@@ -5331,34 +5331,34 @@ extern signed int doAttrFileReplace(struct thread_context *tttctx)
     {
       if((4u & mctx.mode) == 0u)
       {
-        signed int return_value_buildNewModAttribFile$2;
-        return_value_buildNewModAttribFile$2=buildNewModAttribFile(tttctx, newDn, attrs);
-        if(!(return_value_buildNewModAttribFile$2 >= 0))
+        signed int return_value_buildNewModAttribFile_2;
+        return_value_buildNewModAttribFile_2=buildNewModAttribFile(tttctx, newDn, attrs);
+        if(!(return_value_buildNewModAttribFile_2 >= 0))
           return -1;
 
         ret=ldap_modify_ext_s(tttctx->ldapCtx, newDn, attrs, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0);
         if(!(ret == 0x00))
         {
-          _Bool tmp_if_expr$5;
+          _Bool tmp_if_expr_5;
           if(!((8u & mctx.mode) == 0u))
           {
-            return_value_ignoreError$4=ignoreError(ret);
-            tmp_if_expr$5 = return_value_ignoreError$4 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_ignoreError_4=ignoreError(ret);
+            tmp_if_expr_5 = return_value_ignoreError_4 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(!tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(!tmp_if_expr_5)
           {
-            char *return_value_my_ldap_err2string$3;
-            return_value_my_ldap_err2string$3=my_ldap_err2string(ret);
-            printf("ldclt[%d]: T%03d: AttriFileReplace Error Cannot modify (%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)newDn, ret, return_value_my_ldap_err2string$3);
+            char *return_value_my_ldap_err2string_3;
+            return_value_my_ldap_err2string_3=my_ldap_err2string(ret);
+            printf("ldclt[%d]: T%03d: AttriFileReplace Error Cannot modify (%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)newDn, ret, return_value_my_ldap_err2string_3);
             fflush(stdout);
           }
 
-          signed int return_value_addErrorStat$6;
-          return_value_addErrorStat$6=addErrorStat(ret);
-          if(!(return_value_addErrorStat$6 >= 0))
+          signed int return_value_addErrorStat_6;
+          return_value_addErrorStat_6=addErrorStat(ret);
+          if(!(return_value_addErrorStat_6 >= 0))
             return -1;
 
         }
@@ -5366,23 +5366,23 @@ extern signed int doAttrFileReplace(struct thread_context *tttctx)
         else
         {
           printf("ldclt[%d]: T%03d: AttriFileReplace modify (%s) success ,\n", mctx.pid, tttctx->thrdNum, (const void *)newDn);
-          signed int return_value_incrementNbOpers$7;
-          return_value_incrementNbOpers$7=incrementNbOpers(tttctx);
-          if(!(return_value_incrementNbOpers$7 >= 0))
+          signed int return_value_incrementNbOpers_7;
+          return_value_incrementNbOpers_7=incrementNbOpers(tttctx);
+          if(!(return_value_incrementNbOpers_7 >= 0))
             return -1;
 
         }
-        signed int return_value_freeAttrib$8;
-        return_value_freeAttrib$8=freeAttrib(attrs);
-        if(!(return_value_freeAttrib$8 >= 0))
+        signed int return_value_freeAttrib_8;
+        return_value_freeAttrib_8=freeAttrib(attrs);
+        if(!(return_value_freeAttrib_8 >= 0))
           return -1;
 
         return 0;
       }
 
-      signed int return_value_getPending$9;
-      return_value_getPending$9=getPending(tttctx, &mctx.timeval);
-      if(!(return_value_getPending$9 >= 0))
+      signed int return_value_getPending_9;
+      return_value_getPending_9=getPending(tttctx, &mctx.timeval);
+      if(!(return_value_getPending_9 >= 0))
         return -1;
 
       else
@@ -5423,48 +5423,48 @@ extern signed int doAttrFileReplace(struct thread_context *tttctx)
 
           }
 
-          signed int return_value_buildNewModAttrib$10;
-          return_value_buildNewModAttrib$10=buildNewModAttrib(tttctx, newDn, attrs);
-          if(!(return_value_buildNewModAttrib$10 >= 0))
+          signed int return_value_buildNewModAttrib_10;
+          return_value_buildNewModAttrib_10=buildNewModAttrib(tttctx, newDn, attrs);
+          if(!(return_value_buildNewModAttrib_10 >= 0))
             return -1;
 
           ret=ldap_modify_ext(tttctx->ldapCtx, newDn, attrs, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0, &msgid);
           if(!(ret == 0x00))
           {
-            _Bool tmp_if_expr$13;
+            _Bool tmp_if_expr_13;
             if(!((8u & mctx.mode) == 0u))
             {
-              return_value_ignoreError$12=ignoreError(ret);
-              tmp_if_expr$13 = return_value_ignoreError$12 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_ignoreError_12=ignoreError(ret);
+              tmp_if_expr_13 = return_value_ignoreError_12 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$13 = (_Bool)0;
-            if(!tmp_if_expr$13)
+              tmp_if_expr_13 = (_Bool)0;
+            if(!tmp_if_expr_13)
             {
-              char *return_value_my_ldap_err2string$11;
-              return_value_my_ldap_err2string$11=my_ldap_err2string(ret);
-              printf("ldclt[%d]: T%03d: Cannot modify(%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)newDn, ret, return_value_my_ldap_err2string$11);
+              char *return_value_my_ldap_err2string_11;
+              return_value_my_ldap_err2string_11=my_ldap_err2string(ret);
+              printf("ldclt[%d]: T%03d: Cannot modify(%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)newDn, ret, return_value_my_ldap_err2string_11);
               fflush(stdout);
             }
 
-            signed int return_value_addErrorStat$14;
-            return_value_addErrorStat$14=addErrorStat(ret);
-            if(!(return_value_addErrorStat$14 >= 0))
+            signed int return_value_addErrorStat_14;
+            return_value_addErrorStat_14=addErrorStat(ret);
+            if(!(return_value_addErrorStat_14 >= 0))
               return -1;
 
           }
 
           else
           {
-            signed int return_value_msgIdAdd$15;
-            return_value_msgIdAdd$15=msgIdAdd(tttctx, msgid, newDn, newDn, attrs);
-            if(!(return_value_msgIdAdd$15 >= 0))
+            signed int return_value_msgIdAdd_15;
+            return_value_msgIdAdd_15=msgIdAdd(tttctx, msgid, newDn, newDn, attrs);
+            if(!(return_value_msgIdAdd_15 >= 0))
               return -1;
 
-            signed int return_value_incrementNbOpers$16;
-            return_value_incrementNbOpers$16=incrementNbOpers(tttctx);
-            if(!(return_value_incrementNbOpers$16 >= 0))
+            signed int return_value_incrementNbOpers_16;
+            return_value_incrementNbOpers_16=incrementNbOpers(tttctx);
+            if(!(return_value_incrementNbOpers_16 >= 0))
               return -1;
 
             tttctx->pendingNb = tttctx->pendingNb + 1;
@@ -5486,11 +5486,11 @@ extern signed int doAttrReplace(struct thread_context *tttctx)
   struct ldapmod *attrs[40l];
   signed int ret;
   signed int msgid;
-  signed int return_value_connectToServer$1;
-  return_value_connectToServer$1=connectToServer(tttctx);
-  signed int return_value_ignoreError$4;
-  signed int return_value_ignoreError$12;
-  if(!(return_value_connectToServer$1 >= 0))
+  signed int return_value_connectToServer_1;
+  return_value_connectToServer_1=connectToServer(tttctx);
+  signed int return_value_ignoreError_4;
+  signed int return_value_ignoreError_12;
+  if(!(return_value_connectToServer_1 >= 0))
     return -1;
 
   else
@@ -5501,57 +5501,57 @@ extern signed int doAttrReplace(struct thread_context *tttctx)
     {
       if((4u & mctx.mode) == 0u)
       {
-        signed int return_value_buildNewModAttrib$2;
-        return_value_buildNewModAttrib$2=buildNewModAttrib(tttctx, newDn, attrs);
-        if(!(return_value_buildNewModAttrib$2 >= 0))
+        signed int return_value_buildNewModAttrib_2;
+        return_value_buildNewModAttrib_2=buildNewModAttrib(tttctx, newDn, attrs);
+        if(!(return_value_buildNewModAttrib_2 >= 0))
           return -1;
 
         ret=ldap_modify_ext_s(tttctx->ldapCtx, newDn, attrs, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0);
         if(!(ret == 0x00))
         {
-          _Bool tmp_if_expr$5;
+          _Bool tmp_if_expr_5;
           if(!((8u & mctx.mode) == 0u))
           {
-            return_value_ignoreError$4=ignoreError(ret);
-            tmp_if_expr$5 = return_value_ignoreError$4 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_ignoreError_4=ignoreError(ret);
+            tmp_if_expr_5 = return_value_ignoreError_4 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(!tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(!tmp_if_expr_5)
           {
-            char *return_value_my_ldap_err2string$3;
-            return_value_my_ldap_err2string$3=my_ldap_err2string(ret);
-            printf("ldclt[%d]: T%03d: Cannot modify (%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)newDn, ret, return_value_my_ldap_err2string$3);
+            char *return_value_my_ldap_err2string_3;
+            return_value_my_ldap_err2string_3=my_ldap_err2string(ret);
+            printf("ldclt[%d]: T%03d: Cannot modify (%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)newDn, ret, return_value_my_ldap_err2string_3);
             fflush(stdout);
           }
 
-          signed int return_value_addErrorStat$6;
-          return_value_addErrorStat$6=addErrorStat(ret);
-          if(!(return_value_addErrorStat$6 >= 0))
+          signed int return_value_addErrorStat_6;
+          return_value_addErrorStat_6=addErrorStat(ret);
+          if(!(return_value_addErrorStat_6 >= 0))
             return -1;
 
         }
 
         else
         {
-          signed int return_value_incrementNbOpers$7;
-          return_value_incrementNbOpers$7=incrementNbOpers(tttctx);
-          if(!(return_value_incrementNbOpers$7 >= 0))
+          signed int return_value_incrementNbOpers_7;
+          return_value_incrementNbOpers_7=incrementNbOpers(tttctx);
+          if(!(return_value_incrementNbOpers_7 >= 0))
             return -1;
 
         }
-        signed int return_value_freeAttrib$8;
-        return_value_freeAttrib$8=freeAttrib(attrs);
-        if(!(return_value_freeAttrib$8 >= 0))
+        signed int return_value_freeAttrib_8;
+        return_value_freeAttrib_8=freeAttrib(attrs);
+        if(!(return_value_freeAttrib_8 >= 0))
           return -1;
 
         return 0;
       }
 
-      signed int return_value_getPending$9;
-      return_value_getPending$9=getPending(tttctx, &mctx.timeval);
-      if(!(return_value_getPending$9 >= 0))
+      signed int return_value_getPending_9;
+      return_value_getPending_9=getPending(tttctx, &mctx.timeval);
+      if(!(return_value_getPending_9 >= 0))
         return -1;
 
       else
@@ -5592,48 +5592,48 @@ extern signed int doAttrReplace(struct thread_context *tttctx)
 
           }
 
-          signed int return_value_buildNewModAttrib$10;
-          return_value_buildNewModAttrib$10=buildNewModAttrib(tttctx, newDn, attrs);
-          if(!(return_value_buildNewModAttrib$10 >= 0))
+          signed int return_value_buildNewModAttrib_10;
+          return_value_buildNewModAttrib_10=buildNewModAttrib(tttctx, newDn, attrs);
+          if(!(return_value_buildNewModAttrib_10 >= 0))
             return -1;
 
           ret=ldap_modify_ext(tttctx->ldapCtx, newDn, attrs, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0, &msgid);
           if(!(ret == 0x00))
           {
-            _Bool tmp_if_expr$13;
+            _Bool tmp_if_expr_13;
             if(!((8u & mctx.mode) == 0u))
             {
-              return_value_ignoreError$12=ignoreError(ret);
-              tmp_if_expr$13 = return_value_ignoreError$12 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_ignoreError_12=ignoreError(ret);
+              tmp_if_expr_13 = return_value_ignoreError_12 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$13 = (_Bool)0;
-            if(!tmp_if_expr$13)
+              tmp_if_expr_13 = (_Bool)0;
+            if(!tmp_if_expr_13)
             {
-              char *return_value_my_ldap_err2string$11;
-              return_value_my_ldap_err2string$11=my_ldap_err2string(ret);
-              printf("ldclt[%d]: T%03d: Cannot modify(%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)newDn, ret, return_value_my_ldap_err2string$11);
+              char *return_value_my_ldap_err2string_11;
+              return_value_my_ldap_err2string_11=my_ldap_err2string(ret);
+              printf("ldclt[%d]: T%03d: Cannot modify(%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)newDn, ret, return_value_my_ldap_err2string_11);
               fflush(stdout);
             }
 
-            signed int return_value_addErrorStat$14;
-            return_value_addErrorStat$14=addErrorStat(ret);
-            if(!(return_value_addErrorStat$14 >= 0))
+            signed int return_value_addErrorStat_14;
+            return_value_addErrorStat_14=addErrorStat(ret);
+            if(!(return_value_addErrorStat_14 >= 0))
               return -1;
 
           }
 
           else
           {
-            signed int return_value_msgIdAdd$15;
-            return_value_msgIdAdd$15=msgIdAdd(tttctx, msgid, newDn, newDn, attrs);
-            if(!(return_value_msgIdAdd$15 >= 0))
+            signed int return_value_msgIdAdd_15;
+            return_value_msgIdAdd_15=msgIdAdd(tttctx, msgid, newDn, newDn, attrs);
+            if(!(return_value_msgIdAdd_15 >= 0))
               return -1;
 
-            signed int return_value_incrementNbOpers$16;
-            return_value_incrementNbOpers$16=incrementNbOpers(tttctx);
-            if(!(return_value_incrementNbOpers$16 >= 0))
+            signed int return_value_incrementNbOpers_16;
+            return_value_incrementNbOpers_16=incrementNbOpers(tttctx);
+            if(!(return_value_incrementNbOpers_16 >= 0))
               return -1;
 
             tttctx->pendingNb = tttctx->pendingNb + 1;
@@ -5651,9 +5651,9 @@ extern signed int doAttrReplace(struct thread_context *tttctx)
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 3361
 extern signed int doBindOnly(struct thread_context *tttctx)
 {
-  signed int return_value_connectToServer$1;
-  return_value_connectToServer$1=connectToServer(tttctx);
-  if(!(return_value_connectToServer$1 >= 0))
+  signed int return_value_connectToServer_1;
+  return_value_connectToServer_1=connectToServer(tttctx);
+  if(!(return_value_connectToServer_1 >= 0))
     return -1;
 
   else
@@ -5670,9 +5670,9 @@ extern signed int doBindOnly(struct thread_context *tttctx)
 
     __CPROVER_DUMP_L2:
       ;
-      signed int return_value_incrementNbOpers$2;
-      return_value_incrementNbOpers$2=incrementNbOpers(tttctx);
-      if(!(return_value_incrementNbOpers$2 >= 0))
+      signed int return_value_incrementNbOpers_2;
+      return_value_incrementNbOpers_2=incrementNbOpers(tttctx);
+      if(!(return_value_incrementNbOpers_2 >= 0))
         return -1;
 
       else
@@ -5686,11 +5686,11 @@ extern signed int doDeleteEntry(struct thread_context *tttctx)
 {
   signed int ret;
   char delDn[1024l];
-  signed int return_value_connectToServer$1;
-  return_value_connectToServer$1=connectToServer(tttctx);
-  signed int return_value_ignoreError$4;
-  signed int return_value_ignoreError$12;
-  if(!(return_value_connectToServer$1 >= 0))
+  signed int return_value_connectToServer_1;
+  return_value_connectToServer_1=connectToServer(tttctx);
+  signed int return_value_ignoreError_4;
+  signed int return_value_ignoreError_12;
+  if(!(return_value_connectToServer_1 >= 0))
     return -1;
 
   else
@@ -5701,9 +5701,9 @@ extern signed int doDeleteEntry(struct thread_context *tttctx)
     {
       if((4u & mctx.mode) == 0u)
       {
-        signed int return_value_buildRandomRdnOrFilter$2;
-        return_value_buildRandomRdnOrFilter$2=buildRandomRdnOrFilter(tttctx);
-        if(!(return_value_buildRandomRdnOrFilter$2 >= 0))
+        signed int return_value_buildRandomRdnOrFilter_2;
+        return_value_buildRandomRdnOrFilter_2=buildRandomRdnOrFilter(tttctx);
+        if(!(return_value_buildRandomRdnOrFilter_2 >= 0))
           return -1;
 
         snprintf(delDn, sizeof(char [1024l]) /*1024ul*/ , "%s,%s", tttctx->bufFilter, tttctx->bufBaseDN);
@@ -5711,33 +5711,33 @@ extern signed int doDeleteEntry(struct thread_context *tttctx)
         ret=ldap_delete_ext_s(tttctx->ldapCtx, delDn, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0);
         if(!(ret == 0x00))
         {
-          _Bool tmp_if_expr$5;
+          _Bool tmp_if_expr_5;
           if(!((8u & mctx.mode) == 0u))
           {
-            return_value_ignoreError$4=ignoreError(ret);
-            tmp_if_expr$5 = return_value_ignoreError$4 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_ignoreError_4=ignoreError(ret);
+            tmp_if_expr_5 = return_value_ignoreError_4 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(!tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(!tmp_if_expr_5)
           {
-            char *return_value_my_ldap_err2string$3;
-            return_value_my_ldap_err2string$3=my_ldap_err2string(ret);
-            printf("ldclt[%d]: T%03d: Cannot ldap_delete (%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)delDn, ret, return_value_my_ldap_err2string$3);
+            char *return_value_my_ldap_err2string_3;
+            return_value_my_ldap_err2string_3=my_ldap_err2string(ret);
+            printf("ldclt[%d]: T%03d: Cannot ldap_delete (%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)delDn, ret, return_value_my_ldap_err2string_3);
             fflush(stdout);
           }
 
-          signed int return_value_addErrorStat$6;
-          return_value_addErrorStat$6=addErrorStat(ret);
-          if(!(return_value_addErrorStat$6 >= 0))
+          signed int return_value_addErrorStat_6;
+          return_value_addErrorStat_6=addErrorStat(ret);
+          if(!(return_value_addErrorStat_6 >= 0))
             return -1;
 
           if(ret == 0x20 && !((8192u & mctx.mode) == 0u))
           {
-            signed int return_value_incrementNbOpers$7;
-            return_value_incrementNbOpers$7=incrementNbOpers(tttctx);
-            if(!(return_value_incrementNbOpers$7 >= 0))
+            signed int return_value_incrementNbOpers_7;
+            return_value_incrementNbOpers_7=incrementNbOpers(tttctx);
+            if(!(return_value_incrementNbOpers_7 >= 0))
               return -1;
 
           }
@@ -5746,18 +5746,18 @@ extern signed int doDeleteEntry(struct thread_context *tttctx)
 
         else
         {
-          signed int return_value_incrementNbOpers$8;
-          return_value_incrementNbOpers$8=incrementNbOpers(tttctx);
-          if(!(return_value_incrementNbOpers$8 >= 0))
+          signed int return_value_incrementNbOpers_8;
+          return_value_incrementNbOpers_8=incrementNbOpers(tttctx);
+          if(!(return_value_incrementNbOpers_8 >= 0))
             return -1;
 
         }
         return 0;
       }
 
-      signed int return_value_getPending$9;
-      return_value_getPending$9=getPending(tttctx, &mctx.timeval);
-      if(!(return_value_getPending$9 >= 0))
+      signed int return_value_getPending_9;
+      return_value_getPending_9=getPending(tttctx, &mctx.timeval);
+      if(!(return_value_getPending_9 >= 0))
         return -1;
 
       else
@@ -5799,9 +5799,9 @@ extern signed int doDeleteEntry(struct thread_context *tttctx)
 
           }
 
-          signed int return_value_buildRandomRdnOrFilter$10;
-          return_value_buildRandomRdnOrFilter$10=buildRandomRdnOrFilter(tttctx);
-          if(!(return_value_buildRandomRdnOrFilter$10 >= 0))
+          signed int return_value_buildRandomRdnOrFilter_10;
+          return_value_buildRandomRdnOrFilter_10=buildRandomRdnOrFilter(tttctx);
+          if(!(return_value_buildRandomRdnOrFilter_10 >= 0))
             return -1;
 
           snprintf(delDn, sizeof(char [1024l]) /*1024ul*/ , "%s,%s", tttctx->bufFilter, tttctx->bufBaseDN);
@@ -5809,9 +5809,9 @@ extern signed int doDeleteEntry(struct thread_context *tttctx)
           ret=ldap_delete_ext(tttctx->ldapCtx, delDn, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0, &msgid);
           if(!(ret >= 0))
           {
-            signed int return_value_ldap_get_option$16;
-            return_value_ldap_get_option$16=ldap_get_option(tttctx->ldapCtx, 0x0031, (void *)&ret);
-            if(!(return_value_ldap_get_option$16 >= 0))
+            signed int return_value_ldap_get_option_16;
+            return_value_ldap_get_option_16=ldap_get_option(tttctx->ldapCtx, 0x0031, (void *)&ret);
+            if(!(return_value_ldap_get_option_16 >= 0))
             {
               printf("ldclt[%d]: T%03d: Cannot ldap_get_option(LDAP_OPT_ERROR_NUMBER)\n", mctx.pid, tttctx->thrdNum);
               fflush(stdout);
@@ -5820,33 +5820,33 @@ extern signed int doDeleteEntry(struct thread_context *tttctx)
 
             else
             {
-              _Bool tmp_if_expr$13;
+              _Bool tmp_if_expr_13;
               if(!((8u & mctx.mode) == 0u))
               {
-                return_value_ignoreError$12=ignoreError(ret);
-                tmp_if_expr$13 = return_value_ignoreError$12 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_ignoreError_12=ignoreError(ret);
+                tmp_if_expr_13 = return_value_ignoreError_12 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$13 = (_Bool)0;
-              if(!tmp_if_expr$13)
+                tmp_if_expr_13 = (_Bool)0;
+              if(!tmp_if_expr_13)
               {
-                char *return_value_my_ldap_err2string$11;
-                return_value_my_ldap_err2string$11=my_ldap_err2string(ret);
-                printf("ldclt[%d]: T%03d: Cannot ldap_delete(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$11);
+                char *return_value_my_ldap_err2string_11;
+                return_value_my_ldap_err2string_11=my_ldap_err2string(ret);
+                printf("ldclt[%d]: T%03d: Cannot ldap_delete(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_11);
                 fflush(stdout);
               }
 
-              signed int return_value_addErrorStat$14;
-              return_value_addErrorStat$14=addErrorStat(ret);
-              if(!(return_value_addErrorStat$14 >= 0))
+              signed int return_value_addErrorStat_14;
+              return_value_addErrorStat_14=addErrorStat(ret);
+              if(!(return_value_addErrorStat_14 >= 0))
                 return -1;
 
               if(ret == 0x20 && !((8192u & mctx.mode) == 0u))
               {
-                signed int return_value_incrementNbOpers$15;
-                return_value_incrementNbOpers$15=incrementNbOpers(tttctx);
-                if(!(return_value_incrementNbOpers$15 >= 0))
+                signed int return_value_incrementNbOpers_15;
+                return_value_incrementNbOpers_15=incrementNbOpers(tttctx);
+                if(!(return_value_incrementNbOpers_15 >= 0))
                   return -1;
 
               }
@@ -5856,9 +5856,9 @@ extern signed int doDeleteEntry(struct thread_context *tttctx)
 
           else
           {
-            signed int return_value_incrementNbOpers$17;
-            return_value_incrementNbOpers$17=incrementNbOpers(tttctx);
-            if(!(return_value_incrementNbOpers$17 >= 0))
+            signed int return_value_incrementNbOpers_17;
+            return_value_incrementNbOpers_17=incrementNbOpers(tttctx);
+            if(!(return_value_incrementNbOpers_17 >= 0))
               return -1;
 
             tttctx->pendingNb = tttctx->pendingNb + 1;
@@ -5891,16 +5891,16 @@ extern signed int doExactSearch(struct thread_context *tttctx)
   char *dn;
   struct ldapcontrol **resctrls;
   struct ldapcontrol **rcp;
-  signed int return_value_connectToServer$1;
-  return_value_connectToServer$1=connectToServer(tttctx);
-  signed int return_value_ignoreError$3;
-  signed int return_value_ignoreError$6;
-  _Bool tmp_if_expr$10;
-  signed int return_value_ignoreError$17;
-  signed int return_value_ignoreError$20;
-  signed int return_value_ignoreError$24;
-  signed int return_value_ignoreError$28;
-  if(!(return_value_connectToServer$1 >= 0))
+  signed int return_value_connectToServer_1;
+  return_value_connectToServer_1=connectToServer(tttctx);
+  signed int return_value_ignoreError_3;
+  signed int return_value_ignoreError_6;
+  _Bool tmp_if_expr_10;
+  signed int return_value_ignoreError_17;
+  signed int return_value_ignoreError_20;
+  signed int return_value_ignoreError_24;
+  signed int return_value_ignoreError_28;
+  if(!(return_value_connectToServer_1 >= 0))
     return -1;
 
   else
@@ -5909,9 +5909,9 @@ extern signed int doExactSearch(struct thread_context *tttctx)
 
     else
     {
-      signed int return_value_buildRandomRdnOrFilter$2;
-      return_value_buildRandomRdnOrFilter$2=buildRandomRdnOrFilter(tttctx);
-      if(!(return_value_buildRandomRdnOrFilter$2 >= 0))
+      signed int return_value_buildRandomRdnOrFilter_2;
+      return_value_buildRandomRdnOrFilter_2=buildRandomRdnOrFilter(tttctx);
+      if(!(return_value_buildRandomRdnOrFilter_2 >= 0))
         return -1;
 
       else
@@ -5948,24 +5948,24 @@ extern signed int doExactSearch(struct thread_context *tttctx)
 
           else
           {
-            _Bool tmp_if_expr$4;
+            _Bool tmp_if_expr_4;
             if(!((8u & mctx.mode) == 0u))
             {
-              return_value_ignoreError$3=ignoreError(ret);
-              tmp_if_expr$4 = return_value_ignoreError$3 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_ignoreError_3=ignoreError(ret);
+              tmp_if_expr_4 = return_value_ignoreError_3 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(!tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(!tmp_if_expr_4)
               fprintf(stderr, "ldclt[%d]: T%03d: ldclt_create_deref_control() failed, error=%d\n", mctx.pid, tttctx->thrdNum, ret);
 
             if(!(dctrl == ((struct ldapcontrol *)NULL)))
               ldap_control_free(dctrl);
 
-            signed int return_value_addErrorStat$5;
-            return_value_addErrorStat$5=addErrorStat(ret);
-            if(!(return_value_addErrorStat$5 >= 0))
+            signed int return_value_addErrorStat_5;
+            return_value_addErrorStat_5=addErrorStat(ret);
+            if(!(return_value_addErrorStat_5 >= 0))
               return -1;
 
           }
@@ -5976,28 +5976,28 @@ extern signed int doExactSearch(struct thread_context *tttctx)
           ret=ldap_search_ext_s(tttctx->ldapCtx, tttctx->bufBaseDN, mctx.scope, tttctx->bufFilter, attrlist, mctx.attrsonly, ctrlsp, (struct ldapcontrol **)(void *)0, (struct timeval *)(void *)0, -1, &res);
           if(!(ret == 0x00))
           {
-            _Bool tmp_if_expr$7;
+            _Bool tmp_if_expr_7;
             if(!((8u & mctx.mode) == 0u))
             {
-              return_value_ignoreError$6=ignoreError(ret);
-              tmp_if_expr$7 = return_value_ignoreError$6 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_ignoreError_6=ignoreError(ret);
+              tmp_if_expr_7 = return_value_ignoreError_6 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            if(!tmp_if_expr$7)
+              tmp_if_expr_7 = (_Bool)0;
+            if(!tmp_if_expr_7)
               printErrorFromLdap(tttctx, res, ret, "Cannot ldap_search()");
 
-            signed int return_value_addErrorStat$8;
-            return_value_addErrorStat$8=addErrorStat(ret);
-            if(!(return_value_addErrorStat$8 >= 0))
+            signed int return_value_addErrorStat_8;
+            return_value_addErrorStat_8=addErrorStat(ret);
+            if(!(return_value_addErrorStat_8 >= 0))
               goto bail;
 
             if(ret == 0x20 && !((8192u & mctx.mode) == 0u))
             {
-              signed int return_value_incrementNbOpers$9;
-              return_value_incrementNbOpers$9=incrementNbOpers(tttctx);
-              if(!(return_value_incrementNbOpers$9 >= 0))
+              signed int return_value_incrementNbOpers_9;
+              return_value_incrementNbOpers_9=incrementNbOpers(tttctx);
+              if(!(return_value_incrementNbOpers_9 >= 0))
                 goto bail;
 
             }
@@ -6028,28 +6028,28 @@ extern signed int doExactSearch(struct thread_context *tttctx)
                         do
                         {
                           if(!(rcp == ((struct ldapcontrol **)NULL)))
-                            tmp_if_expr$10 = *rcp != ((struct ldapcontrol *)NULL) ? (_Bool)1 : (_Bool)0;
+                            tmp_if_expr_10 = *rcp != ((struct ldapcontrol *)NULL) ? (_Bool)1 : (_Bool)0;
 
                           else
-                            tmp_if_expr$10 = (_Bool)0;
-                          if(!tmp_if_expr$10)
+                            tmp_if_expr_10 = (_Bool)0;
+                          if(!tmp_if_expr_10)
                             break;
 
                           if(!((2u & mctx.mode) == 0u))
                           {
-                            char *tmp_if_expr$11;
+                            char *tmp_if_expr_11;
                             if(!((*rcp)->ldctl_oid == ((char *)NULL)))
-                              tmp_if_expr$11 = (*rcp)->ldctl_oid;
+                              tmp_if_expr_11 = (*rcp)->ldctl_oid;
 
                             else
-                              tmp_if_expr$11 = "none";
-                            char *tmp_if_expr$12;
+                              tmp_if_expr_11 = "none";
+                            char *tmp_if_expr_12;
                             if(!((*rcp)->ldctl_value.bv_val == ((char *)NULL)))
-                              tmp_if_expr$12 = (*rcp)->ldctl_value.bv_val;
+                              tmp_if_expr_12 = (*rcp)->ldctl_value.bv_val;
 
                             else
-                              tmp_if_expr$12 = "none";
-                            printf("dn: [%s] -> deref oid: %s, value: %s\n", dn, tmp_if_expr$11, tmp_if_expr$12);
+                              tmp_if_expr_12 = "none";
+                            printf("dn: [%s] -> deref oid: %s, value: %s\n", dn, tmp_if_expr_11, tmp_if_expr_12);
                           }
 
                           rcp = rcp + 1l;
@@ -6070,16 +6070,16 @@ extern signed int doExactSearch(struct thread_context *tttctx)
                     parse_rc=ldap_parse_result(tttctx->ldapCtx, e, &rc, &matcheddn, &errmsg, (char ***)(void *)0, (struct ldapcontrol ***)(void *)0, 0);
                     if(!(parse_rc == 0x00))
                     {
-                      char *return_value_ldap_err2string$13;
-                      return_value_ldap_err2string$13=ldap_err2string(parse_rc);
-                      printf("ldap_parse_result error: [%s]\n", return_value_ldap_err2string$13);
+                      char *return_value_ldap_err2string_13;
+                      return_value_ldap_err2string_13=ldap_err2string(parse_rc);
+                      printf("ldap_parse_result error: [%s]\n", return_value_ldap_err2string_13);
                     }
 
                     if(!(rc == 0x00))
                     {
-                      char *return_value_ldap_err2string$14;
-                      return_value_ldap_err2string$14=ldap_err2string(rc);
-                      printf("ldap_search_ext_s error: [%s]\n", return_value_ldap_err2string$14);
+                      char *return_value_ldap_err2string_14;
+                      return_value_ldap_err2string_14=ldap_err2string(rc);
+                      printf("ldap_search_ext_s error: [%s]\n", return_value_ldap_err2string_14);
                     }
 
                   }
@@ -6094,34 +6094,34 @@ extern signed int doExactSearch(struct thread_context *tttctx)
               goto bail;
             }
 
-            signed int return_value_incrementNbOpers$15;
-            return_value_incrementNbOpers$15=incrementNbOpers(tttctx);
-            if(!(return_value_incrementNbOpers$15 >= 0))
+            signed int return_value_incrementNbOpers_15;
+            return_value_incrementNbOpers_15=incrementNbOpers(tttctx);
+            if(!(return_value_incrementNbOpers_15 >= 0))
               goto bail;
 
             ret=ldap_msgfree(res);
             if(!(ret >= 0))
             {
-              _Bool tmp_if_expr$18;
+              _Bool tmp_if_expr_18;
               if(!((8u & mctx.mode) == 0u))
               {
-                return_value_ignoreError$17=ignoreError(ret);
-                tmp_if_expr$18 = return_value_ignoreError$17 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_ignoreError_17=ignoreError(ret);
+                tmp_if_expr_18 = return_value_ignoreError_17 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$18 = (_Bool)0;
-              if(!tmp_if_expr$18)
+                tmp_if_expr_18 = (_Bool)0;
+              if(!tmp_if_expr_18)
               {
-                char *return_value_my_ldap_err2string$16;
-                return_value_my_ldap_err2string$16=my_ldap_err2string(ret);
-                printf("ldclt[%d]: T%03d: Cannot ldap_msgfree(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$16);
+                char *return_value_my_ldap_err2string_16;
+                return_value_my_ldap_err2string_16=my_ldap_err2string(ret);
+                printf("ldclt[%d]: T%03d: Cannot ldap_msgfree(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_16);
                 fflush(stdout);
               }
 
-              signed int return_value_addErrorStat$19;
-              return_value_addErrorStat$19=addErrorStat(ret);
-              if(!(return_value_addErrorStat$19 >= 0))
+              signed int return_value_addErrorStat_19;
+              return_value_addErrorStat_19=addErrorStat(ret);
+              if(!(return_value_addErrorStat_19 >= 0))
                 goto bail;
 
             }
@@ -6140,21 +6140,21 @@ extern signed int doExactSearch(struct thread_context *tttctx)
             ret=ldap_result(tttctx->ldapCtx, -1, 1, &mctx.timeval, &res);
             if(!(ret >= 0))
             {
-              _Bool tmp_if_expr$21;
+              _Bool tmp_if_expr_21;
               if(!((8u & mctx.mode) == 0u))
               {
-                return_value_ignoreError$20=ignoreError(ret);
-                tmp_if_expr$21 = return_value_ignoreError$20 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_ignoreError_20=ignoreError(ret);
+                tmp_if_expr_21 = return_value_ignoreError_20 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$21 = (_Bool)0;
-              if(!tmp_if_expr$21)
+                tmp_if_expr_21 = (_Bool)0;
+              if(!tmp_if_expr_21)
                 printErrorFromLdap(tttctx, res, ret, "Cannot ldap_result()");
 
-              signed int return_value_addErrorStat$22;
-              return_value_addErrorStat$22=addErrorStat(ret);
-              if(!(return_value_addErrorStat$22 >= 0))
+              signed int return_value_addErrorStat_22;
+              return_value_addErrorStat_22=addErrorStat(ret);
+              if(!(return_value_addErrorStat_22 >= 0))
                 goto bail;
 
             }
@@ -6165,26 +6165,26 @@ extern signed int doExactSearch(struct thread_context *tttctx)
               ret=ldap_msgfree(res);
               if(!(ret >= 0))
               {
-                _Bool tmp_if_expr$25;
+                _Bool tmp_if_expr_25;
                 if(!((8u & mctx.mode) == 0u))
                 {
-                  return_value_ignoreError$24=ignoreError(ret);
-                  tmp_if_expr$25 = return_value_ignoreError$24 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_ignoreError_24=ignoreError(ret);
+                  tmp_if_expr_25 = return_value_ignoreError_24 != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$25 = (_Bool)0;
-                if(!tmp_if_expr$25)
+                  tmp_if_expr_25 = (_Bool)0;
+                if(!tmp_if_expr_25)
                 {
-                  char *return_value_my_ldap_err2string$23;
-                  return_value_my_ldap_err2string$23=my_ldap_err2string(ret);
-                  printf("ldclt[%d]: T%03d: Cannot ldap_msgfree(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$23);
+                  char *return_value_my_ldap_err2string_23;
+                  return_value_my_ldap_err2string_23=my_ldap_err2string(ret);
+                  printf("ldclt[%d]: T%03d: Cannot ldap_msgfree(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_23);
                   fflush(stdout);
                 }
 
-                signed int return_value_addErrorStat$26;
-                return_value_addErrorStat$26=addErrorStat(ret);
-                if(!(return_value_addErrorStat$26 >= 0))
+                signed int return_value_addErrorStat_26;
+                return_value_addErrorStat_26=addErrorStat(ret);
+                if(!(return_value_addErrorStat_26 >= 0))
                   goto bail;
 
               }
@@ -6232,9 +6232,9 @@ extern signed int doExactSearch(struct thread_context *tttctx)
             ret=ldap_search_ext(tttctx->ldapCtx, tttctx->bufBaseDN, mctx.scope, tttctx->bufFilter, attrlist, mctx.attrsonly, ctrlsp, (struct ldapcontrol **)(void *)0, (struct timeval *)(void *)0, -1, &msgid);
             if(!(ret >= 0))
             {
-              signed int return_value_ldap_get_option$32;
-              return_value_ldap_get_option$32=ldap_get_option(tttctx->ldapCtx, 0x0031, (void *)&ret);
-              if(!(return_value_ldap_get_option$32 >= 0))
+              signed int return_value_ldap_get_option_32;
+              return_value_ldap_get_option_32=ldap_get_option(tttctx->ldapCtx, 0x0031, (void *)&ret);
+              if(!(return_value_ldap_get_option_32 >= 0))
               {
                 printf("ldclt[%d]: T%03d: Cannot ldap_get_option(LDAP_OPT_ERROR_NUMBER)\n", mctx.pid, tttctx->thrdNum);
                 fflush(stdout);
@@ -6243,33 +6243,33 @@ extern signed int doExactSearch(struct thread_context *tttctx)
 
               else
               {
-                _Bool tmp_if_expr$29;
+                _Bool tmp_if_expr_29;
                 if(!((8u & mctx.mode) == 0u))
                 {
-                  return_value_ignoreError$28=ignoreError(ret);
-                  tmp_if_expr$29 = return_value_ignoreError$28 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_ignoreError_28=ignoreError(ret);
+                  tmp_if_expr_29 = return_value_ignoreError_28 != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$29 = (_Bool)0;
-                if(!tmp_if_expr$29)
+                  tmp_if_expr_29 = (_Bool)0;
+                if(!tmp_if_expr_29)
                 {
-                  char *return_value_my_ldap_err2string$27;
-                  return_value_my_ldap_err2string$27=my_ldap_err2string(ret);
-                  printf("ldclt[%d]: T%03d: Cannot ldap_search(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$27);
+                  char *return_value_my_ldap_err2string_27;
+                  return_value_my_ldap_err2string_27=my_ldap_err2string(ret);
+                  printf("ldclt[%d]: T%03d: Cannot ldap_search(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_27);
                   fflush(stdout);
                 }
 
-                signed int return_value_addErrorStat$30;
-                return_value_addErrorStat$30=addErrorStat(ret);
-                if(!(return_value_addErrorStat$30 >= 0))
+                signed int return_value_addErrorStat_30;
+                return_value_addErrorStat_30=addErrorStat(ret);
+                if(!(return_value_addErrorStat_30 >= 0))
                   return -1;
 
                 if(ret == 0x20 && !((8192u & mctx.mode) == 0u))
                 {
-                  signed int return_value_incrementNbOpers$31;
-                  return_value_incrementNbOpers$31=incrementNbOpers(tttctx);
-                  if(!(return_value_incrementNbOpers$31 >= 0))
+                  signed int return_value_incrementNbOpers_31;
+                  return_value_incrementNbOpers_31=incrementNbOpers(tttctx);
+                  if(!(return_value_incrementNbOpers_31 >= 0))
                     goto bail;
 
                 }
@@ -6279,9 +6279,9 @@ extern signed int doExactSearch(struct thread_context *tttctx)
 
             else
             {
-              signed int return_value_incrementNbOpers$33;
-              return_value_incrementNbOpers$33=incrementNbOpers(tttctx);
-              if(!(return_value_incrementNbOpers$33 >= 0))
+              signed int return_value_incrementNbOpers_33;
+              return_value_incrementNbOpers_33=incrementNbOpers(tttctx);
+              if(!(return_value_incrementNbOpers_33 >= 0))
                 goto bail;
 
               tttctx->pendingNb = tttctx->pendingNb + 1;
@@ -6313,41 +6313,41 @@ extern signed int doGenldif(struct thread_context *tttctx)
   char newDn[1024l];
   struct ldapmod *attrs[40l];
   signed int i;
-  signed int return_value_buildNewEntry$1;
-  return_value_buildNewEntry$1=buildNewEntry(tttctx, newDn, attrs);
-  if(!(return_value_buildNewEntry$1 >= 0))
+  signed int return_value_buildNewEntry_1;
+  return_value_buildNewEntry_1=buildNewEntry(tttctx, newDn, attrs);
+  if(!(return_value_buildNewEntry_1 >= 0))
     return -1;
 
   else
   {
     ldclt_write_genldif("dn: ", 4);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(newDn);
-    ldclt_write_genldif(newDn, (signed int)return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(newDn);
+    ldclt_write_genldif(newDn, (signed int)return_value_strlen_2);
     ldclt_write_genldif("\n", 1);
     i = 0;
     for( ; !(attrs[(signed long int)i] == ((struct ldapmod *)NULL)); i = i + 1)
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(attrs[(signed long int)i]->mod_type);
-      ldclt_write_genldif(attrs[(signed long int)i]->mod_type, (signed int)return_value_strlen$3);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(attrs[(signed long int)i]->mod_type);
+      ldclt_write_genldif(attrs[(signed long int)i]->mod_type, (signed int)return_value_strlen_3);
       ldclt_write_genldif(": ", 2);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(attrs[(signed long int)i]->mod_vals.modv_strvals[(signed long int)0]);
-      ldclt_write_genldif(attrs[(signed long int)i]->mod_vals.modv_strvals[(signed long int)0], (signed int)return_value_strlen$4);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(attrs[(signed long int)i]->mod_vals.modv_strvals[(signed long int)0]);
+      ldclt_write_genldif(attrs[(signed long int)i]->mod_vals.modv_strvals[(signed long int)0], (signed int)return_value_strlen_4);
       ldclt_write_genldif("\n", 1);
     }
     ldclt_write_genldif("\n", 1);
-    signed int return_value_incrementNbOpers$5;
-    return_value_incrementNbOpers$5=incrementNbOpers(tttctx);
-    if(!(return_value_incrementNbOpers$5 >= 0))
+    signed int return_value_incrementNbOpers_5;
+    return_value_incrementNbOpers_5=incrementNbOpers(tttctx);
+    if(!(return_value_incrementNbOpers_5 >= 0))
       return -1;
 
     else
     {
-      signed int return_value_freeAttrib$6;
-      return_value_freeAttrib$6=freeAttrib(attrs);
-      if(!(return_value_freeAttrib$6 >= 0))
+      signed int return_value_freeAttrib_6;
+      return_value_freeAttrib_6=freeAttrib(attrs);
+      if(!(return_value_freeAttrib_6 >= 0))
         return -1;
 
       else
@@ -6365,11 +6365,11 @@ extern signed int doRename(struct thread_context *tttctx)
   signed int retry;
   signed int retryed;
   signed int msgid;
-  signed int return_value_connectToServer$1;
-  return_value_connectToServer$1=connectToServer(tttctx);
-  signed int return_value_ignoreError$6;
-  signed int return_value_ignoreError$13;
-  if(!(return_value_connectToServer$1 >= 0))
+  signed int return_value_connectToServer_1;
+  return_value_connectToServer_1=connectToServer(tttctx);
+  signed int return_value_ignoreError_6;
+  signed int return_value_ignoreError_13;
+  if(!(return_value_connectToServer_1 >= 0))
     return -1;
 
   else
@@ -6378,18 +6378,18 @@ extern signed int doRename(struct thread_context *tttctx)
 
     else
     {
-      signed int return_value_buildRandomRdnOrFilter$2;
-      return_value_buildRandomRdnOrFilter$2=buildRandomRdnOrFilter(tttctx);
-      if(!(return_value_buildRandomRdnOrFilter$2 >= 0))
+      signed int return_value_buildRandomRdnOrFilter_2;
+      return_value_buildRandomRdnOrFilter_2=buildRandomRdnOrFilter(tttctx);
+      if(!(return_value_buildRandomRdnOrFilter_2 >= 0))
         return -1;
 
       else
       {
         snprintf(oldDn, sizeof(char [1024l]) /*1024ul*/ , "%s,%s", tttctx->bufFilter, tttctx->bufBaseDN);
         oldDn[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1)] = (char)0;
-        signed int return_value_buildRandomRdnOrFilter$3;
-        return_value_buildRandomRdnOrFilter$3=buildRandomRdnOrFilter(tttctx);
-        if(!(return_value_buildRandomRdnOrFilter$3 >= 0))
+        signed int return_value_buildRandomRdnOrFilter_3;
+        return_value_buildRandomRdnOrFilter_3=buildRandomRdnOrFilter(tttctx);
+        if(!(return_value_buildRandomRdnOrFilter_3 >= 0))
           return -1;
 
         else
@@ -6407,42 +6407,42 @@ extern signed int doRename(struct thread_context *tttctx)
               if(ret == 0x00)
               {
                 retry = 0;
-                signed int return_value_incrementNbOpers$4;
-                return_value_incrementNbOpers$4=incrementNbOpers(tttctx);
-                if(!(return_value_incrementNbOpers$4 >= 0))
+                signed int return_value_incrementNbOpers_4;
+                return_value_incrementNbOpers_4=incrementNbOpers(tttctx);
+                if(!(return_value_incrementNbOpers_4 >= 0))
                   return -1;
 
               }
 
               else
               {
-                _Bool tmp_if_expr$7;
+                _Bool tmp_if_expr_7;
                 if(!((8u & mctx.mode) == 0u))
                 {
-                  return_value_ignoreError$6=ignoreError(ret);
-                  tmp_if_expr$7 = return_value_ignoreError$6 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_ignoreError_6=ignoreError(ret);
+                  tmp_if_expr_7 = return_value_ignoreError_6 != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$7 = (_Bool)0;
-                if(!tmp_if_expr$7)
+                  tmp_if_expr_7 = (_Bool)0;
+                if(!tmp_if_expr_7)
                 {
-                  char *return_value_my_ldap_err2string$5;
-                  return_value_my_ldap_err2string$5=my_ldap_err2string(ret);
-                  printf("ldclt[%d]: T%03d: Cannot rename (%s, %s, %s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)oldDn, tttctx->bufFilter, tttctx->bufBaseDN, ret, return_value_my_ldap_err2string$5);
+                  char *return_value_my_ldap_err2string_5;
+                  return_value_my_ldap_err2string_5=my_ldap_err2string(ret);
+                  printf("ldclt[%d]: T%03d: Cannot rename (%s, %s, %s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)oldDn, tttctx->bufFilter, tttctx->bufBaseDN, ret, return_value_my_ldap_err2string_5);
                   fflush(stdout);
                 }
 
-                signed int return_value_addErrorStat$8;
-                return_value_addErrorStat$8=addErrorStat(ret);
-                if(!(return_value_addErrorStat$8 >= 0))
+                signed int return_value_addErrorStat_8;
+                return_value_addErrorStat_8=addErrorStat(ret);
+                if(!(return_value_addErrorStat_8 >= 0))
                   return -1;
 
                 if(!((8192u & mctx.mode) == 0u) && (ret == 0x02 || ret == 0x20 || ret == 0x44))
                 {
-                  signed int return_value_incrementNbOpers$9;
-                  return_value_incrementNbOpers$9=incrementNbOpers(tttctx);
-                  if(!(return_value_incrementNbOpers$9 >= 0))
+                  signed int return_value_incrementNbOpers_9;
+                  return_value_incrementNbOpers_9=incrementNbOpers(tttctx);
+                  if(!(return_value_incrementNbOpers_9 >= 0))
                     return -1;
 
                 }
@@ -6452,9 +6452,9 @@ extern signed int doRename(struct thread_context *tttctx)
 
                 else
                 {
-                  signed int return_value_createMissingNodes$10;
-                  return_value_createMissingNodes$10=createMissingNodes(tttctx, tttctx->bufBaseDN, (struct ldap *)(void *)0);
-                  if(!(return_value_createMissingNodes$10 >= 0))
+                  signed int return_value_createMissingNodes_10;
+                  return_value_createMissingNodes_10=createMissingNodes(tttctx, tttctx->bufBaseDN, (struct ldap *)(void *)0);
+                  if(!(return_value_createMissingNodes_10 >= 0))
                   {
                     retry = 0;
                     printf("ldclt[%d]: T%03d: Cannot create the intermediate nodes for %s\n", mctx.pid, tttctx->thrdNum, tttctx->bufBaseDN);
@@ -6477,9 +6477,9 @@ extern signed int doRename(struct thread_context *tttctx)
 
           else
           {
-            signed int return_value_getPending$11;
-            return_value_getPending$11=getPending(tttctx, &mctx.timeval);
-            if(!(return_value_getPending$11 >= 0))
+            signed int return_value_getPending_11;
+            return_value_getPending_11=getPending(tttctx, &mctx.timeval);
+            if(!(return_value_getPending_11 >= 0))
               return -1;
 
             else
@@ -6527,9 +6527,9 @@ extern signed int doRename(struct thread_context *tttctx)
                   ret=ldap_rename(tttctx->ldapCtx, oldDn, tttctx->bufFilter, (const char *)(void *)0, 1, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0, &msgid);
                 if(!(ret >= 0))
                 {
-                  signed int return_value_ldap_get_option$18;
-                  return_value_ldap_get_option$18=ldap_get_option(tttctx->ldapCtx, 0x0031, (void *)&ret);
-                  if(!(return_value_ldap_get_option$18 >= 0))
+                  signed int return_value_ldap_get_option_18;
+                  return_value_ldap_get_option_18=ldap_get_option(tttctx->ldapCtx, 0x0031, (void *)&ret);
+                  if(!(return_value_ldap_get_option_18 >= 0))
                   {
                     printf("ldclt[%d]: T%03d: Cannot ldap_get_option(LDAP_OPT_ERROR_NUMBER)\n", mctx.pid, tttctx->thrdNum);
                     fflush(stdout);
@@ -6538,42 +6538,42 @@ extern signed int doRename(struct thread_context *tttctx)
 
                   else
                   {
-                    _Bool tmp_if_expr$14;
+                    _Bool tmp_if_expr_14;
                     if(!((8u & mctx.mode) == 0u))
                     {
-                      return_value_ignoreError$13=ignoreError(ret);
-                      tmp_if_expr$14 = return_value_ignoreError$13 != 0 ? (_Bool)1 : (_Bool)0;
+                      return_value_ignoreError_13=ignoreError(ret);
+                      tmp_if_expr_14 = return_value_ignoreError_13 != 0 ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$14 = (_Bool)0;
-                    if(!tmp_if_expr$14)
+                      tmp_if_expr_14 = (_Bool)0;
+                    if(!tmp_if_expr_14)
                     {
-                      char *return_value_my_ldap_err2string$12;
-                      return_value_my_ldap_err2string$12=my_ldap_err2string(ret);
-                      printf("ldclt[%d]: T%03d: Cannot rename (%s, %s, %s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)oldDn, tttctx->bufFilter, tttctx->bufBaseDN, ret, return_value_my_ldap_err2string$12);
+                      char *return_value_my_ldap_err2string_12;
+                      return_value_my_ldap_err2string_12=my_ldap_err2string(ret);
+                      printf("ldclt[%d]: T%03d: Cannot rename (%s, %s, %s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, (const void *)oldDn, tttctx->bufFilter, tttctx->bufBaseDN, ret, return_value_my_ldap_err2string_12);
                       fflush(stdout);
                     }
 
-                    signed int return_value_addErrorStat$15;
-                    return_value_addErrorStat$15=addErrorStat(ret);
-                    if(!(return_value_addErrorStat$15 >= 0))
+                    signed int return_value_addErrorStat_15;
+                    return_value_addErrorStat_15=addErrorStat(ret);
+                    if(!(return_value_addErrorStat_15 >= 0))
                       return -1;
 
                     if(!((8192u & mctx.mode) == 0u) && (ret == 0x02 || ret == 0x20 || ret == 0x44))
                     {
-                      signed int return_value_incrementNbOpers$16;
-                      return_value_incrementNbOpers$16=incrementNbOpers(tttctx);
-                      if(!(return_value_incrementNbOpers$16 >= 0))
+                      signed int return_value_incrementNbOpers_16;
+                      return_value_incrementNbOpers_16=incrementNbOpers(tttctx);
+                      if(!(return_value_incrementNbOpers_16 >= 0))
                         return -1;
 
                     }
 
                     if(ret == 0x02)
                     {
-                      signed int return_value_createMissingNodes$17;
-                      return_value_createMissingNodes$17=createMissingNodes(tttctx, tttctx->bufBaseDN, (struct ldap *)(void *)0);
-                      if(!(return_value_createMissingNodes$17 >= 0))
+                      signed int return_value_createMissingNodes_17;
+                      return_value_createMissingNodes_17=createMissingNodes(tttctx, tttctx->bufBaseDN, (struct ldap *)(void *)0);
+                      if(!(return_value_createMissingNodes_17 >= 0))
                         return -1;
 
                     }
@@ -6583,14 +6583,14 @@ extern signed int doRename(struct thread_context *tttctx)
 
                 else
                 {
-                  signed int return_value_msgIdAdd$19;
-                  return_value_msgIdAdd$19=msgIdAdd(tttctx, msgid, tttctx->bufBaseDN, oldDn, (struct ldapmod **)(void *)0);
-                  if(!(return_value_msgIdAdd$19 >= 0))
+                  signed int return_value_msgIdAdd_19;
+                  return_value_msgIdAdd_19=msgIdAdd(tttctx, msgid, tttctx->bufBaseDN, oldDn, (struct ldapmod **)(void *)0);
+                  if(!(return_value_msgIdAdd_19 >= 0))
                     return -1;
 
-                  signed int return_value_incrementNbOpers$20;
-                  return_value_incrementNbOpers$20=incrementNbOpers(tttctx);
-                  if(!(return_value_incrementNbOpers$20 >= 0))
+                  signed int return_value_incrementNbOpers_20;
+                  return_value_incrementNbOpers_20=incrementNbOpers(tttctx);
+                  if(!(return_value_incrementNbOpers_20 >= 0))
                     return -1;
 
                   tttctx->pendingNb = tttctx->pendingNb + 1;
@@ -6614,7 +6614,7 @@ extern signed int doScalab01(struct thread_context *tttctx)
   signed int duration;
   signed int res;
   signed int doloop;
-  signed int return_value_rndlim$1;
+  signed int return_value_rndlim_1;
   do
   {
     res=scalab01_modemIncr(tttctx->thrdId);
@@ -6630,16 +6630,16 @@ extern signed int doScalab01(struct thread_context *tttctx)
 
     else
     {
-      signed int tmp_if_expr$2;
+      signed int tmp_if_expr_2;
       if(s1ctx.wait == 0)
-        tmp_if_expr$2 = 10;
+        tmp_if_expr_2 = 10;
 
       else
       {
-        return_value_rndlim$1=rndlim(0, s1ctx.wait);
-        tmp_if_expr$2 = return_value_rndlim$1;
+        return_value_rndlim_1=rndlim(0, s1ctx.wait);
+        tmp_if_expr_2 = return_value_rndlim_1;
       }
-      ldclt_sleep(tmp_if_expr$2);
+      ldclt_sleep(tmp_if_expr_2);
       continue;
 
     __CPROVER_DUMP_L5:
@@ -6648,10 +6648,10 @@ extern signed int doScalab01(struct thread_context *tttctx)
     }
   }
   while((_Bool)1);
-  signed int return_value_connectToServer$3;
-  return_value_connectToServer$3=connectToServer(tttctx);
-  signed int return_value_rndlim$13;
-  if(!(return_value_connectToServer$3 >= 0))
+  signed int return_value_connectToServer_3;
+  return_value_connectToServer_3=connectToServer(tttctx);
+  signed int return_value_rndlim_13;
+  if(!(return_value_connectToServer_3 >= 0))
     return -1;
 
   else
@@ -6663,14 +6663,14 @@ extern signed int doScalab01(struct thread_context *tttctx)
       doloop = 1;
       while(!(doloop == 0))
       {
-        signed int return_value_scalab01Lock$4;
-        return_value_scalab01Lock$4=scalab01Lock(tttctx);
-        if(!(return_value_scalab01Lock$4 == 0))
+        signed int return_value_scalab01Lock_4;
+        return_value_scalab01Lock_4=scalab01Lock(tttctx);
+        if(!(return_value_scalab01Lock_4 == 0))
         {
-          if(return_value_scalab01Lock$4 == 1)
+          if(return_value_scalab01Lock_4 == 1)
             goto __CPROVER_DUMP_L12;
 
-          if(return_value_scalab01Lock$4 == -1)
+          if(return_value_scalab01Lock_4 == -1)
             goto __CPROVER_DUMP_L13;
 
         }
@@ -6693,9 +6693,9 @@ extern signed int doScalab01(struct thread_context *tttctx)
       __CPROVER_DUMP_L14:
         ;
       }
-      signed int return_value_readAttrValue$5;
-      return_value_readAttrValue$5=readAttrValue(tttctx->ldapCtx, tttctx->thrdId, tttctx->bufBindDN, "ntUserFlags", buf);
-      if(!(return_value_readAttrValue$5 >= 0))
+      signed int return_value_readAttrValue_5;
+      return_value_readAttrValue_5=readAttrValue(tttctx->ldapCtx, tttctx->thrdId, tttctx->bufBindDN, "ntUserFlags", buf);
+      if(!(return_value_readAttrValue_5 >= 0))
       {
         printf("ldclt[%d]: %s: Cannot read lock attribute of %s\n", mctx.pid, (const void *)tttctx->thrdId, tttctx->bufBindDN);
         fflush(stdout);
@@ -6708,27 +6708,27 @@ extern signed int doScalab01(struct thread_context *tttctx)
         if(!((2u & mctx.mode) == 0u))
           printf("ldclt[%d]: %s: entry %s lock read\n", mctx.pid, (const void *)tttctx->thrdId, tttctx->bufBindDN);
 
-        signed int return_value_strcmp$7;
-        return_value_strcmp$7=strcmp(buf, "1");
-        if(return_value_strcmp$7 == 0)
+        signed int return_value_strcmp_7;
+        return_value_strcmp_7=strcmp(buf, "1");
+        if(return_value_strcmp_7 == 0)
         {
-          signed int return_value_scalab01_modemDecr$6;
-          return_value_scalab01_modemDecr$6=scalab01_modemDecr(tttctx->thrdId);
-          if(!(return_value_scalab01_modemDecr$6 >= 0))
+          signed int return_value_scalab01_modemDecr_6;
+          return_value_scalab01_modemDecr_6=scalab01_modemDecr(tttctx->thrdId);
+          if(!(return_value_scalab01_modemDecr_6 >= 0))
             return -1;
 
           return 0;
         }
 
-        signed int return_value_writeAttrValue$9;
-        return_value_writeAttrValue$9=writeAttrValue(tttctx->ldapCtx, tttctx->thrdId, tttctx->bufBindDN, "ntUserFlags", "1");
-        if(!(return_value_writeAttrValue$9 >= 0))
+        signed int return_value_writeAttrValue_9;
+        return_value_writeAttrValue_9=writeAttrValue(tttctx->ldapCtx, tttctx->thrdId, tttctx->bufBindDN, "ntUserFlags", "1");
+        if(!(return_value_writeAttrValue_9 >= 0))
         {
           printf("ldclt[%d]: %s: Cannot write lock attribute of %s\n", mctx.pid, (const void *)tttctx->thrdId, tttctx->bufBindDN);
           fflush(stdout);
-          signed int return_value_scalab01_modemDecr$8;
-          return_value_scalab01_modemDecr$8=scalab01_modemDecr(tttctx->thrdId);
-          if(!(return_value_scalab01_modemDecr$8 >= 0))
+          signed int return_value_scalab01_modemDecr_8;
+          return_value_scalab01_modemDecr_8=scalab01_modemDecr(tttctx->thrdId);
+          if(!(return_value_scalab01_modemDecr_8 >= 0))
             return -1;
 
           return 0;
@@ -6737,17 +6737,17 @@ extern signed int doScalab01(struct thread_context *tttctx)
         if(!((2u & mctx.mode) == 0u))
           printf("ldclt[%d]: %s: entry %s lock written\n", mctx.pid, (const void *)tttctx->thrdId, tttctx->bufBindDN);
 
-        signed int return_value_scalab01Unlock$10;
-        return_value_scalab01Unlock$10=scalab01Unlock(tttctx);
-        if(!(return_value_scalab01Unlock$10 >= 0))
+        signed int return_value_scalab01Unlock_10;
+        return_value_scalab01Unlock_10=scalab01Unlock(tttctx);
+        if(!(return_value_scalab01Unlock_10 >= 0))
           return -1;
 
         else
         {
           duration=rndlim(1, s1ctx.cnxduration);
-          signed int return_value_scalab01_addLogin$11;
-          return_value_scalab01_addLogin$11=scalab01_addLogin(tttctx, tttctx->bufBindDN, duration);
-          if(!(return_value_scalab01_addLogin$11 >= 0))
+          signed int return_value_scalab01_addLogin_11;
+          return_value_scalab01_addLogin_11=scalab01_addLogin(tttctx, tttctx->bufBindDN, duration);
+          if(!(return_value_scalab01_addLogin_11 >= 0))
           {
             printf("ldclt[%d]: %s: Cannot memorize new login of %s\n", mctx.pid, (const void *)tttctx->thrdId, tttctx->bufBindDN);
             fflush(stdout);
@@ -6759,17 +6759,17 @@ extern signed int doScalab01(struct thread_context *tttctx)
             if(!((2u & mctx.mode) == 0u))
               printf("ldclt[%d]: %s: entry %s login added duration %6d\n", mctx.pid, (const void *)tttctx->thrdId, tttctx->bufBindDN, duration);
 
-            signed int return_value_incrementNbOpers$12;
-            return_value_incrementNbOpers$12=incrementNbOpers(tttctx);
-            if(!(return_value_incrementNbOpers$12 >= 0))
+            signed int return_value_incrementNbOpers_12;
+            return_value_incrementNbOpers_12=incrementNbOpers(tttctx);
+            if(!(return_value_incrementNbOpers_12 >= 0))
               return -1;
 
             else
             {
               if(s1ctx.wait >= 1)
               {
-                return_value_rndlim$13=rndlim(0, s1ctx.wait);
-                ldclt_sleep(return_value_rndlim$13);
+                return_value_rndlim_13=rndlim(0, s1ctx.wait);
+                ldclt_sleep(return_value_rndlim_13);
               }
 
               return 0;
@@ -6930,19 +6930,19 @@ signed int getBindAndPasswdFromFile(struct thread_context *tttctx)
 {
   signed int num;
   signed int i;
-  signed long int return_value_lrand48$1;
-  return_value_lrand48$1=lrand48();
-  num = (signed int)(return_value_lrand48$1 % (signed long int)mctx.rndBindDlf->strNb);
+  signed long int return_value_lrand48_1;
+  return_value_lrand48_1=lrand48();
+  num = (signed int)(return_value_lrand48_1 % (signed long int)mctx.rndBindDlf->strNb);
   i = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   do
   {
     if(!((signed int)mctx.rndBindDlf->str[(signed long int)num][(signed long int)i] == 0))
-      tmp_if_expr$2 = (signed int)mctx.rndBindDlf->str[(signed long int)num][(signed long int)i] != 9 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)mctx.rndBindDlf->str[(signed long int)num][(signed long int)i] != 9 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     i = i + 1;
@@ -6981,18 +6981,18 @@ signed int getBindAndPasswdFromFile(struct thread_context *tttctx)
 char * getExtend(char *str)
 {
   signed int i;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  i = (signed int)(return_value_strlen$1 - (unsigned long int)1);
-  _Bool tmp_if_expr$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  i = (signed int)(return_value_strlen_1 - (unsigned long int)1);
+  _Bool tmp_if_expr_2;
   do
   {
     if(i >= 0)
-      tmp_if_expr$2 = (signed int)str[(signed long int)i] != 46 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)str[(signed long int)i] != 46 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     i = i - 1;
@@ -7018,9 +7018,9 @@ extern signed int getImage(struct ldapmod *attribute)
   ret=ldclt_mutex_lock(&mctx.imagesLast_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "Cannot mutex_lock(imagesLast_mutex), error=%d (%s)\n", ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "Cannot mutex_lock(imagesLast_mutex), error=%d (%s)\n", ret, return_value_strerror_1);
     fflush(stderr);
     return -1;
   }
@@ -7033,40 +7033,40 @@ extern signed int getImage(struct ldapmod *attribute)
   ret=ldclt_mutex_unlock(&mctx.imagesLast_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    fprintf(stderr, "Cannot mutex_unlock(imagesLast_mutex), error=%d (%s)\n", ret, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    fprintf(stderr, "Cannot mutex_unlock(imagesLast_mutex), error=%d (%s)\n", ret, return_value_strerror_2);
     fflush(stderr);
     return -1;
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)2 * sizeof(struct berval *) /*8ul*/ );
-  attribute->mod_vals.modv_bvals = (struct berval **)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)2 * sizeof(struct berval *) /*8ul*/ );
+  attribute->mod_vals.modv_bvals = (struct berval **)return_value_malloc_3;
   if(attribute->mod_vals.modv_bvals == ((struct berval **)NULL))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    printf("Error: cannot malloc(attribute->mod_bvalues), error=%d (%s)\n", *return_value___errno_location$4, return_value_strerror$6);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    printf("Error: cannot malloc(attribute->mod_bvalues), error=%d (%s)\n", *return_value___errno_location_4, return_value_strerror_6);
     return -1;
   }
 
-  void *return_value_malloc$7;
-  return_value_malloc$7=malloc(sizeof(struct berval) /*16ul*/ );
-  attribute->mod_vals.modv_bvals[(signed long int)0] = (struct berval *)return_value_malloc$7;
+  void *return_value_malloc_7;
+  return_value_malloc_7=malloc(sizeof(struct berval) /*16ul*/ );
+  attribute->mod_vals.modv_bvals[(signed long int)0] = (struct berval *)return_value_malloc_7;
   if(*attribute->mod_vals.modv_bvals == ((struct berval *)NULL))
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    char *return_value_strerror$10;
-    return_value_strerror$10=strerror(*return_value___errno_location$9);
-    printf("Error: cannot malloc(attribute->mod_bvalues[0]), error=%d (%s)\n", *return_value___errno_location$8, return_value_strerror$10);
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    char *return_value_strerror_10;
+    return_value_strerror_10=strerror(*return_value___errno_location_9);
+    printf("Error: cannot malloc(attribute->mod_bvalues[0]), error=%d (%s)\n", *return_value___errno_location_8, return_value_strerror_10);
     return -1;
   }
 
@@ -7119,14 +7119,14 @@ signed int getPending(struct thread_context *tttctx, struct timeval *timeout)
 
         else
           return -1;
-  _Bool tmp_if_expr$24;
+  _Bool tmp_if_expr_24;
   if(timeout == &mctx.timevalZero)
-    tmp_if_expr$24 = (_Bool)1;
+    tmp_if_expr_24 = (_Bool)1;
 
   else
-    tmp_if_expr$24 = tttctx->pendingNb >= mctx.asyncMin ? (_Bool)1 : (_Bool)0;
-  signed int return_value_ignoreError$21;
-  if(tmp_if_expr$24)
+    tmp_if_expr_24 = tttctx->pendingNb >= mctx.asyncMin ? (_Bool)1 : (_Bool)0;
+  signed int return_value_ignoreError_21;
+  if(tmp_if_expr_24)
   {
     ret=ldap_result(tttctx->ldapCtx, -1, 1, timeout, &res);
     if(!(ret == 0))
@@ -7134,24 +7134,24 @@ signed int getPending(struct thread_context *tttctx, struct timeval *timeout)
       msgOk = 1;
       if(!(ret >= 0))
       {
-        signed int return_value_ignoreError$2;
-        return_value_ignoreError$2=ignoreError(ret);
-        if(return_value_ignoreError$2 == 0)
+        signed int return_value_ignoreError_2;
+        return_value_ignoreError_2=ignoreError(ret);
+        if(return_value_ignoreError_2 == 0)
         {
           msgOk = 0;
           if((8u & mctx.mode) == 0u)
           {
-            char *return_value_my_ldap_err2string$1;
-            return_value_my_ldap_err2string$1=my_ldap_err2string(ret);
-            printf("ldclt[%d]: T%03d: Cannot ldap_result(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$1);
+            char *return_value_my_ldap_err2string_1;
+            return_value_my_ldap_err2string_1=my_ldap_err2string(ret);
+            printf("ldclt[%d]: T%03d: Cannot ldap_result(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_1);
             fflush(stdout);
           }
 
         }
 
-        signed int return_value_addErrorStat$3;
-        return_value_addErrorStat$3=addErrorStat(ret);
-        if(!(return_value_addErrorStat$3 >= 0))
+        signed int return_value_addErrorStat_3;
+        return_value_addErrorStat_3=addErrorStat(ret);
+        if(!(return_value_addErrorStat_3 >= 0))
           return -1;
 
       }
@@ -7165,9 +7165,9 @@ signed int getPending(struct thread_context *tttctx, struct timeval *timeout)
           msgOk = 0;
           printf("ldclt[%d]: T%03d: bad result type 0x%02x\n", mctx.pid, tttctx->thrdNum, type);
           fflush(stdout);
-          signed int return_value_msgIdDel$4;
-          return_value_msgIdDel$4=msgIdDel(tttctx, msgid, 1);
-          if(!(return_value_msgIdDel$4 >= 0))
+          signed int return_value_msgIdDel_4;
+          return_value_msgIdDel_4=msgIdDel(tttctx, msgid, 1);
+          if(!(return_value_msgIdDel_4 >= 0))
             return -1;
 
           return 0;
@@ -7177,18 +7177,18 @@ signed int getPending(struct thread_context *tttctx, struct timeval *timeout)
         ret=ldap_parse_result(tttctx->ldapCtx, res, &errcodep, (char **)(void *)0, &addErrMsg, (char ***)(void *)0, (struct ldapcontrol ***)(void *)0, 0);
         if(!(ret >= 0))
         {
-          signed int return_value_ignoreError$7;
-          return_value_ignoreError$7=ignoreError(ret);
-          if(return_value_ignoreError$7 == 0)
+          signed int return_value_ignoreError_7;
+          return_value_ignoreError_7=ignoreError(ret);
+          if(return_value_ignoreError_7 == 0)
           {
             msgOk = 0;
             if((8u & mctx.mode) == 0u)
             {
-              char *return_value_msgIdStr$5;
-              return_value_msgIdStr$5=msgIdStr(tttctx, msgid);
-              char *return_value_my_ldap_err2string$6;
-              return_value_my_ldap_err2string$6=my_ldap_err2string(ret);
-              printf("ldclt[%d]: T%03d: Cannot ldap_parse_result(%s), error=%d (%s", mctx.pid, tttctx->thrdNum, return_value_msgIdStr$5, ret, return_value_my_ldap_err2string$6);
+              char *return_value_msgIdStr_5;
+              return_value_msgIdStr_5=msgIdStr(tttctx, msgid);
+              char *return_value_my_ldap_err2string_6;
+              return_value_my_ldap_err2string_6=my_ldap_err2string(ret);
+              printf("ldclt[%d]: T%03d: Cannot ldap_parse_result(%s), error=%d (%s", mctx.pid, tttctx->thrdNum, return_value_msgIdStr_5, ret, return_value_my_ldap_err2string_6);
               if(!(addErrMsg == ((char *)NULL)))
               {
                 if(!((signed int)*addErrMsg == 0))
@@ -7205,32 +7205,32 @@ signed int getPending(struct thread_context *tttctx, struct timeval *timeout)
 
           }
 
-          signed int return_value_msgIdDel$8;
-          return_value_msgIdDel$8=msgIdDel(tttctx, msgid, 1);
-          if(!(return_value_msgIdDel$8 >= 0))
+          signed int return_value_msgIdDel_8;
+          return_value_msgIdDel_8=msgIdDel(tttctx, msgid, 1);
+          if(!(return_value_msgIdDel_8 >= 0))
             return -1;
 
-          signed int return_value_addErrorStat$9;
-          return_value_addErrorStat$9=addErrorStat(ret);
-          if(!(return_value_addErrorStat$9 >= 0))
+          signed int return_value_addErrorStat_9;
+          return_value_addErrorStat_9=addErrorStat(ret);
+          if(!(return_value_addErrorStat_9 >= 0))
             return -1;
 
         }
 
         if(!(errcodep == 0x00))
         {
-          signed int return_value_ignoreError$12;
-          return_value_ignoreError$12=ignoreError(ret);
-          if(return_value_ignoreError$12 == 0)
+          signed int return_value_ignoreError_12;
+          return_value_ignoreError_12=ignoreError(ret);
+          if(return_value_ignoreError_12 == 0)
           {
             msgOk = 0;
             if((8u & mctx.mode) == 0u)
             {
-              char *return_value_msgIdStr$10;
-              return_value_msgIdStr$10=msgIdStr(tttctx, msgid);
-              char *return_value_my_ldap_err2string$11;
-              return_value_my_ldap_err2string$11=my_ldap_err2string(errcodep);
-              printf("ldclt[%d]: T%03d: Cannot %s(%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, verb, return_value_msgIdStr$10, errcodep, return_value_my_ldap_err2string$11);
+              char *return_value_msgIdStr_10;
+              return_value_msgIdStr_10=msgIdStr(tttctx, msgid);
+              char *return_value_my_ldap_err2string_11;
+              return_value_my_ldap_err2string_11=my_ldap_err2string(errcodep);
+              printf("ldclt[%d]: T%03d: Cannot %s(%s), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, verb, return_value_msgIdStr_10, errcodep, return_value_my_ldap_err2string_11);
               fflush(stdout);
             }
 
@@ -7238,37 +7238,37 @@ signed int getPending(struct thread_context *tttctx, struct timeval *timeout)
 
           if(errcodep == 0x20 && ((unsigned long int)expected == 105ul || (unsigned long int)expected == 109ul))
           {
-            char *return_value_msgIdStr$14;
-            return_value_msgIdStr$14=msgIdStr(tttctx, msgid);
-            signed int return_value_createMissingNodes$15;
-            return_value_createMissingNodes$15=createMissingNodes(tttctx, return_value_msgIdStr$14, (struct ldap *)(void *)0);
-            if(!(return_value_createMissingNodes$15 >= 0))
+            char *return_value_msgIdStr_14;
+            return_value_msgIdStr_14=msgIdStr(tttctx, msgid);
+            signed int return_value_createMissingNodes_15;
+            return_value_createMissingNodes_15=createMissingNodes(tttctx, return_value_msgIdStr_14, (struct ldap *)(void *)0);
+            if(!(return_value_createMissingNodes_15 >= 0))
             {
-              char *return_value_msgIdStr$13;
-              return_value_msgIdStr$13=msgIdStr(tttctx, msgid);
-              printf("ldclt[%d]: T%03d: Cannot create the intermediate nodes for %s\n", mctx.pid, tttctx->thrdNum, return_value_msgIdStr$13);
+              char *return_value_msgIdStr_13;
+              return_value_msgIdStr_13=msgIdStr(tttctx, msgid);
+              printf("ldclt[%d]: T%03d: Cannot create the intermediate nodes for %s\n", mctx.pid, tttctx->thrdNum, return_value_msgIdStr_13);
               fflush(stdout);
               return -1;
             }
 
             if((8u & mctx.mode) == 0u && !((1u & mctx.mode) == 0u))
             {
-              char *return_value_msgIdStr$16;
-              return_value_msgIdStr$16=msgIdStr(tttctx, msgid);
-              printf("ldclt[%d]: T%03d: Intermediate nodes created for %s\n", mctx.pid, tttctx->thrdNum, return_value_msgIdStr$16);
+              char *return_value_msgIdStr_16;
+              return_value_msgIdStr_16=msgIdStr(tttctx, msgid);
+              printf("ldclt[%d]: T%03d: Intermediate nodes created for %s\n", mctx.pid, tttctx->thrdNum, return_value_msgIdStr_16);
               fflush(stdout);
             }
 
           }
 
-          signed int return_value_msgIdDel$17;
-          return_value_msgIdDel$17=msgIdDel(tttctx, msgid, 1);
-          if(!(return_value_msgIdDel$17 >= 0))
+          signed int return_value_msgIdDel_17;
+          return_value_msgIdDel_17=msgIdDel(tttctx, msgid, 1);
+          if(!(return_value_msgIdDel_17 >= 0))
             return -1;
 
-          signed int return_value_addErrorStat$18;
-          return_value_addErrorStat$18=addErrorStat(errcodep);
-          if(!(return_value_addErrorStat$18 >= 0))
+          signed int return_value_addErrorStat_18;
+          return_value_addErrorStat_18=addErrorStat(errcodep);
+          if(!(return_value_addErrorStat_18 >= 0))
             return -1;
 
         }
@@ -7276,9 +7276,9 @@ signed int getPending(struct thread_context *tttctx, struct timeval *timeout)
         else
           if(mctx.slavesNb == 0)
           {
-            signed int return_value_msgIdDel$19;
-            return_value_msgIdDel$19=msgIdDel(tttctx, msgid, 1);
-            if(!(return_value_msgIdDel$19 >= 0))
+            signed int return_value_msgIdDel_19;
+            return_value_msgIdDel_19=msgIdDel(tttctx, msgid, 1);
+            if(!(return_value_msgIdDel_19 >= 0))
               return -1;
 
           }
@@ -7287,26 +7287,26 @@ signed int getPending(struct thread_context *tttctx, struct timeval *timeout)
         ret=ldap_msgfree(res);
         if(!(ret >= 0))
         {
-          _Bool tmp_if_expr$22;
+          _Bool tmp_if_expr_22;
           if(!((8u & mctx.mode) == 0u))
           {
-            return_value_ignoreError$21=ignoreError(ret);
-            tmp_if_expr$22 = return_value_ignoreError$21 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_ignoreError_21=ignoreError(ret);
+            tmp_if_expr_22 = return_value_ignoreError_21 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$22 = (_Bool)0;
-          if(!tmp_if_expr$22)
+            tmp_if_expr_22 = (_Bool)0;
+          if(!tmp_if_expr_22)
           {
-            char *return_value_my_ldap_err2string$20;
-            return_value_my_ldap_err2string$20=my_ldap_err2string(ret);
-            printf("ldclt[%d]: T%03d: Cannot ldap_msgfree(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$20);
+            char *return_value_my_ldap_err2string_20;
+            return_value_my_ldap_err2string_20=my_ldap_err2string(ret);
+            printf("ldclt[%d]: T%03d: Cannot ldap_msgfree(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_20);
             fflush(stdout);
           }
 
-          signed int return_value_addErrorStat$23;
-          return_value_addErrorStat$23=addErrorStat(ret);
-          if(!(return_value_addErrorStat$23 >= 0))
+          signed int return_value_addErrorStat_23;
+          return_value_addErrorStat_23=addErrorStat(ret);
+          if(!(return_value_addErrorStat_23 >= 0))
             return -1;
 
         }
@@ -7316,11 +7316,11 @@ signed int getPending(struct thread_context *tttctx, struct timeval *timeout)
 
   }
 
-  signed int return_value_getPending$25;
+  signed int return_value_getPending_25;
   if(!(msgOk == 0))
   {
-    return_value_getPending$25=getPending(tttctx, &mctx.timevalZero);
-    return return_value_getPending$25;
+    return_value_getPending_25=getPending(tttctx, &mctx.timevalZero);
+    return return_value_getPending_25;
   }
 
   return 0;
@@ -7334,9 +7334,9 @@ extern signed int getThreadStatus(struct thread_context *tttctx, signed int *sta
   ret=ldclt_mutex_lock(&tttctx->status_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: Cannot mutex_lock(T%03d), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: Cannot mutex_lock(T%03d), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror_1);
     fprintf(stderr, "ldclt[%d]: Problem in getThreadStatus()\n", mctx.pid);
     fflush(stderr);
     return -1;
@@ -7346,9 +7346,9 @@ extern signed int getThreadStatus(struct thread_context *tttctx, signed int *sta
   ret=ldclt_mutex_unlock(&tttctx->status_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: Cannot mutex_unlock(T%03d), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: Cannot mutex_unlock(T%03d), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror_2);
     fprintf(stderr, "ldclt[%d]: Problem in getThreadStatus()\n", mctx.pid);
     fflush(stderr);
     return -1;
@@ -7359,10 +7359,10 @@ extern signed int getThreadStatus(struct thread_context *tttctx, signed int *sta
 
 // get_default
 // file ../ldap/servers/slapd/tools/ldaptool-sasl.c line 179
-static signed int get_default(struct anonymous$15 *defaults, struct sasl_interact *interact, unsigned int flags)
+static signed int get_default(struct anonymous_15 *defaults, struct sasl_interact *interact, unsigned int flags)
 {
   const char *defvalue = interact->defresult;
-  if(!(defaults == ((struct anonymous$15 *)NULL)))
+  if(!(defaults == ((struct anonymous_15 *)NULL)))
     switch(interact->id)
     {
       case (unsigned long int)0x4002:
@@ -7390,9 +7390,9 @@ static signed int get_default(struct anonymous$15 *defaults, struct sasl_interac
     if(interact->result == NULL)
       return -10;
 
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((char *)interact->result);
-    interact->len = (unsigned int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((char *)interact->result);
+    interact->len = (unsigned int)return_value_strlen_1;
   }
 
   return 0x00;
@@ -7405,13 +7405,13 @@ static signed int get_new_value(struct sasl_interact *interact, unsigned int fla
   char *newvalue = (char *)(void *)0;
   char str[1024l];
   signed int len = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(interact->id == 16389ul)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = interact->id == (unsigned long int)0x4006 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = interact->id == (unsigned long int)0x4006 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(!(interact->challenge == ((const char *)NULL)))
       fprintf(stderr, "Challenge: %s\n", interact->challenge);
@@ -7421,29 +7421,29 @@ static signed int get_new_value(struct sasl_interact *interact, unsigned int fla
   if(!(interact->result == NULL))
     fprintf(stderr, "Default: %s\n", (char *)interact->result);
 
-  const char *tmp_if_expr$2;
+  const char *tmp_if_expr_2;
   if(!(interact->prompt == ((const char *)NULL)))
-    tmp_if_expr$2 = interact->prompt;
+    tmp_if_expr_2 = interact->prompt;
 
   else
-    tmp_if_expr$2 = "Interact";
-  snprintf(str, sizeof(char [1024l]) /*1024ul*/ , "%s:", tmp_if_expr$2);
+    tmp_if_expr_2 = "Interact";
+  snprintf(str, sizeof(char [1024l]) /*1024ul*/ , "%s:", tmp_if_expr_2);
   str[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1)] = (char)0;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(interact->id == 16388ul)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = interact->id == (unsigned long int)0x4006 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = interact->id == (unsigned long int)0x4006 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
     newvalue=ldaptool_getpass(str);
     if(newvalue == ((char *)NULL))
       return 0x34;
 
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(newvalue);
-    len = (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(newvalue);
+    len = (signed int)return_value_strlen_3;
   }
 
   else
@@ -7453,9 +7453,9 @@ static signed int get_new_value(struct sasl_interact *interact, unsigned int fla
     if(newvalue == ((char *)NULL))
       return 0x34;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(str);
-    len = (signed int)return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(str);
+    len = (signed int)return_value_strlen_4;
     if(len >= 1)
     {
       if((signed int)str[(signed long int)(len + -1)] == 10)
@@ -7472,9 +7472,9 @@ static signed int get_new_value(struct sasl_interact *interact, unsigned int fla
     if(!(interact->result == NULL))
       free((void *)interact->result);
 
-    char *return_value_strdup$6;
-    return_value_strdup$6=strdup(newvalue);
-    interact->result = (const void *)return_value_strdup$6;
+    char *return_value_strdup_6;
+    return_value_strdup_6=strdup(newvalue);
+    interact->result = (const void *)return_value_strdup_6;
     memset((void *)newvalue, 0, (unsigned long int)len);
     if(interact->result == NULL)
       return -10;
@@ -7487,9 +7487,9 @@ static signed int get_new_value(struct sasl_interact *interact, unsigned int fla
     if(interact->result == NULL)
       interact->result = (const void *)"";
 
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen((const char *)interact->result);
-    interact->len = (unsigned int)return_value_strlen$7;
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen((const char *)interact->result);
+    interact->len = (unsigned int)return_value_strlen_7;
   }
   return 0x00;
 }
@@ -7528,9 +7528,9 @@ extern signed int incrementCommonCounter(struct thread_context *tttctx)
   ret=ldclt_mutex_lock(&mctx.lastVal_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: T%03d: cannot mutex_lock(lastVal_mutex), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: T%03d: cannot mutex_lock(lastVal_mutex), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror_1);
     fflush(stderr);
     return -1;
   }
@@ -7546,9 +7546,9 @@ extern signed int incrementCommonCounter(struct thread_context *tttctx)
   ret=ldclt_mutex_unlock(&mctx.lastVal_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: T%03d: cannot mutex_unlock(lastVal_mutex), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: T%03d: cannot mutex_unlock(lastVal_mutex), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror_2);
     fflush(stderr);
     return -1;
   }
@@ -7568,9 +7568,9 @@ extern signed int incrementCommonCounterObject(struct thread_context *tttctx, st
   ret=ldclt_mutex_lock(&field->cnt_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(field->cnt_mutex), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(field->cnt_mutex), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror_1);
     fflush(stderr);
     return -1;
   }
@@ -7617,9 +7617,9 @@ extern signed int incrementCommonCounterObject(struct thread_context *tttctx, st
   ret=ldclt_mutex_unlock(&field->cnt_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(field->cnt_mutex), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(field->cnt_mutex), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror_2);
     fflush(stderr);
     return -1;
   }
@@ -7638,9 +7638,9 @@ extern signed int incrementNbOpers(struct thread_context *tttctx)
   ret=ldclt_mutex_lock(&tttctx->nbOpers_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: T%03d: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: T%03d: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror_1);
     fflush(stderr);
     return -1;
   }
@@ -7649,9 +7649,9 @@ extern signed int incrementNbOpers(struct thread_context *tttctx)
   ret=ldclt_mutex_unlock(&tttctx->nbOpers_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: T%03d: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: T%03d: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror_2);
     fflush(stderr);
     return -1;
   }
@@ -7661,9 +7661,9 @@ extern signed int incrementNbOpers(struct thread_context *tttctx)
   {
     if(tttctx->totOpers >= tttctx->totalReq)
     {
-      signed int return_value_setThreadStatus$3;
-      return_value_setThreadStatus$3=setThreadStatus(tttctx, 10);
-      if(!(return_value_setThreadStatus$3 >= 0))
+      signed int return_value_setThreadStatus_3;
+      return_value_setThreadStatus_3=setThreadStatus(tttctx, 10);
+      if(!(return_value_setThreadStatus_3 >= 0))
         tttctx->status = 9;
 
     }
@@ -7684,9 +7684,9 @@ signed int initMainThread(void)
   sigemptyset(&act.sa_mask);
   sigaddset(&act.sa_mask, 2);
   sigfillset(&act.sa_mask);
-  signed int return_value_sigaction$1;
-  return_value_sigaction$1=sigaction(2, &act, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$1 >= 0))
+  signed int return_value_sigaction_1;
+  return_value_sigaction_1=sigaction(2, &act, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_1 >= 0))
   {
     perror("ldclt");
     fprintf(stderr, "ldclt[%d]: Error: cannot sigaction(SIGINT)\n", mctx.pid);
@@ -7702,9 +7702,9 @@ signed int initMainThread(void)
     sigemptyset(&act.sa_mask);
     sigaddset(&act.sa_mask, 3);
     sigfillset(&act.sa_mask);
-    signed int return_value_sigaction$2;
-    return_value_sigaction$2=sigaction(3, &act, (struct sigaction *)(void *)0);
-    if(!(return_value_sigaction$2 >= 0))
+    signed int return_value_sigaction_2;
+    return_value_sigaction_2=sigaction(3, &act, (struct sigaction *)(void *)0);
+    if(!(return_value_sigaction_2 >= 0))
     {
       perror("ldclt");
       fprintf(stderr, "ldclt[%d]: Error: cannot sigaction(SIGQUIT)\n", mctx.pid);
@@ -7719,7 +7719,7 @@ signed int initMainThread(void)
 
 // internal_ol_init_init
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 458
-static enum anonymous$13 internal_ol_init_init(void)
+static enum anonymous_13 internal_ol_init_init(void)
 {
   ol_init_lock=PR_NewLock();
   if(ol_init_lock == ((struct PRLock *)NULL))
@@ -7727,18 +7727,18 @@ static enum anonymous$13 internal_ol_init_init(void)
     signed int errorCode;
     errorCode=PR_GetError();
     printf("internal_ol_init_init PR_NewLock failed %d\n", errorCode);
-    return (enum anonymous$13)PR_FAILURE;
+    return (enum anonymous_13)PR_FAILURE;
   }
 
-  return (enum anonymous$13)PR_SUCCESS;
+  return (enum anonymous_13)PR_SUCCESS;
 }
 
 // ldaptool_free_defaults
 // file ../ldap/servers/slapd/tools/ldaptool-sasl.c line 130
 void ldaptool_free_defaults(void *defaults)
 {
-  struct anonymous$15 *sasl_defaults = (struct anonymous$15 *)defaults;
-  if(!(sasl_defaults == ((struct anonymous$15 *)NULL)))
+  struct anonymous_15 *sasl_defaults = (struct anonymous_15 *)defaults;
+  if(!(sasl_defaults == ((struct anonymous_15 *)NULL)))
   {
     if(!(sasl_defaults->mech == ((char *)NULL)))
       free((void *)sasl_defaults->mech);
@@ -7753,7 +7753,7 @@ void ldaptool_free_defaults(void *defaults)
       free((void *)sasl_defaults->passwd);
 
     free((void *)sasl_defaults);
-    sasl_defaults = (struct anonymous$15 *)(void *)0;
+    sasl_defaults = (struct anonymous_15 *)(void *)0;
   }
 
 }
@@ -7763,9 +7763,9 @@ void ldaptool_free_defaults(void *defaults)
 char * ldaptool_getpass(const char *prompt)
 {
   char *pass;
-  char *return_value_getpass$1;
-  return_value_getpass$1=getpass(prompt);
-  pass = (char *)return_value_getpass$1;
+  char *return_value_getpass_1;
+  return_value_getpass_1=getpass(prompt);
+  pass = (char *)return_value_getpass_1;
   return pass;
 }
 
@@ -7774,7 +7774,7 @@ char * ldaptool_getpass(const char *prompt)
 signed int ldaptool_sasl_interact(struct ldap *ld, unsigned int flags, void *defaults, void *prompts)
 {
   struct sasl_interact *interact = (struct sasl_interact *)(void *)0;
-  struct anonymous$15 *sasldefaults = (struct anonymous$15 *)defaults;
+  struct anonymous_15 *sasldefaults = (struct anonymous_15 *)defaults;
   signed int rc;
   if(prompts == NULL)
     return -9;
@@ -7788,13 +7788,13 @@ signed int ldaptool_sasl_interact(struct ldap *ld, unsigned int flags, void *def
       if(!(rc == 0x00))
         return rc;
 
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(flags == 1U)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (interact->result == (void *)0 ? (flags == 0U ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (interact->result == (void *)0 ? (flags == 0U ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         rc=get_new_value(interact, flags);
         if(!(rc == 0x00))
@@ -7811,12 +7811,12 @@ signed int ldaptool_sasl_interact(struct ldap *ld, unsigned int flags, void *def
 // file ../ldap/servers/slapd/tools/ldaptool-sasl.c line 72
 void * ldaptool_set_sasl_defaults(struct ldap *ld, unsigned int flags, char *mech, char *authid, char *username, char *passwd, char *realm)
 {
-  struct anonymous$15 *defaults;
+  struct anonymous_15 *defaults;
   char *login = (char *)(void *)0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct anonymous$15) /*40ul*/ , (unsigned long int)1);
-  defaults = (struct anonymous$15 *)return_value_calloc$1;
-  if(defaults == ((struct anonymous$15 *)NULL))
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct anonymous_15) /*40ul*/ , (unsigned long int)1);
+  defaults = (struct anonymous_15 *)return_value_calloc_1;
+  if(defaults == ((struct anonymous_15 *)NULL))
     return (void *)0;
 
   else
@@ -7874,9 +7874,9 @@ extern void ldcltExit(signed int status)
 {
   signed long int tim;
   tim=time((signed long int *)(void *)0);
-  char *return_value_ctime$1;
-  return_value_ctime$1=ctime(&tim);
-  printf("ldclt[%d]: Ending at %s", mctx.pid, return_value_ctime$1);
+  char *return_value_ctime_1;
+  return_value_ctime_1=ctime(&tim);
+  printf("ldclt[%d]: Ending at %s", mctx.pid, return_value_ctime_1);
   printf("ldclt[%d]: Exit status %d - ", mctx.pid, status);
   switch(status)
   {
@@ -7959,23 +7959,23 @@ static signed int ldclt_clientauth(struct thread_context *tttctx, struct ldap *l
     slot=PK11_GetInternalKeySlot();
   if(slot == ((struct PK11SlotInfoStr *)NULL))
   {
-    signed int return_value_PR_GetError$1;
-    return_value_PR_GetError$1=PR_GetError();
-    printf("ldclt[%d]: T%03d: Cannot find slot for token %s - %d\n", mctx.pid, thrdNum, token_name != ((char *)NULL) ? token_name : "internal", return_value_PR_GetError$1);
+    signed int return_value_PR_GetError_1;
+    return_value_PR_GetError_1=PR_GetError();
+    printf("ldclt[%d]: T%03d: Cannot find slot for token %s - %d\n", mctx.pid, thrdNum, token_name != ((char *)NULL) ? token_name : "internal", return_value_PR_GetError_1);
     fflush(stdout);
     goto done;
   }
 
   NSS_SetDomesticPolicy();
   PK11_SetPasswordFunc(ldclt_get_sec_pwd);
-  enum _SECStatus return_value_PK11_Authenticate$2;
-  return_value_PK11_Authenticate$2=PK11_Authenticate(slot, 0, (void *)pwd);
-  rc = (signed int)return_value_PK11_Authenticate$2;
+  enum _SECStatus return_value_PK11_Authenticate_2;
+  return_value_PK11_Authenticate_2=PK11_Authenticate(slot, 0, (void *)pwd);
+  rc = (signed int)return_value_PK11_Authenticate_2;
   if(!(rc == SECSuccess))
   {
-    signed int return_value_PR_GetError$3;
-    return_value_PR_GetError$3=PR_GetError();
-    printf("ldclt[%d]: T%03d: Cannot authenticate to token %s - %d\n", mctx.pid, thrdNum, token_name != ((char *)NULL) ? token_name : "internal", return_value_PR_GetError$3);
+    signed int return_value_PR_GetError_3;
+    return_value_PR_GetError_3=PR_GetError();
+    printf("ldclt[%d]: T%03d: Cannot authenticate to token %s - %d\n", mctx.pid, thrdNum, token_name != ((char *)NULL) ? token_name : "internal", return_value_PR_GetError_3);
     fflush(stdout);
     goto done;
   }
@@ -7983,11 +7983,11 @@ static signed int ldclt_clientauth(struct thread_context *tttctx, struct ldap *l
   rc=ldap_set_option(ld, 0x6004, (const void *)certname);
   if(!(rc == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_my_ldap_err2string$5;
-    return_value_my_ldap_err2string$5=my_ldap_err2string(rc);
-    printf("ldclt[%d]: T%03d: Cannot ldap_set_option(ld, LDAP_OPT_X_CERTFILE, %s), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, certname, *return_value___errno_location$4, rc, return_value_my_ldap_err2string$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_my_ldap_err2string_5;
+    return_value_my_ldap_err2string_5=my_ldap_err2string(rc);
+    printf("ldclt[%d]: T%03d: Cannot ldap_set_option(ld, LDAP_OPT_X_CERTFILE, %s), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, certname, *return_value___errno_location_4, rc, return_value_my_ldap_err2string_5);
     fflush(stdout);
     goto done;
   }
@@ -7995,11 +7995,11 @@ static signed int ldclt_clientauth(struct thread_context *tttctx, struct ldap *l
   rc=ldap_set_option(ld, 0x6005, (const void *)pwd);
   if(!(rc == 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_my_ldap_err2string$7;
-    return_value_my_ldap_err2string$7=my_ldap_err2string(rc);
-    printf("ldclt[%d]: T%03d: Cannot ldap_set_option(ld, LDAP_OPT_X_KEYFILE, %s), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, pwd, *return_value___errno_location$6, rc, return_value_my_ldap_err2string$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_my_ldap_err2string_7;
+    return_value_my_ldap_err2string_7=my_ldap_err2string(rc);
+    printf("ldclt[%d]: T%03d: Cannot ldap_set_option(ld, LDAP_OPT_X_KEYFILE, %s), errno=%d ldaperror=%d:%s\n", mctx.pid, thrdNum, pwd, *return_value___errno_location_6, rc, return_value_my_ldap_err2string_7);
     fflush(stdout);
     goto done;
   }
@@ -8021,42 +8021,42 @@ signed int ldclt_create_deref_control(struct ldap *ld, char *derefAttr, char **a
   struct berelement *ber;
   signed int rc;
   struct berval *bv = (struct berval *)(void *)0;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(ld == ((struct ldap *)NULL))
     return -9;
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(attrs == ((char **)NULL) || ctrlp == ((struct ldapcontrol **)NULL) || derefAttr == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (char *)(void *)0 == *attrs ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (char *)(void *)0 == *attrs ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strlen$2=strlen(*attrs);
-      tmp_if_expr$3 = (unsigned long int)0 == return_value_strlen$2 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_2=strlen(*attrs);
+      tmp_if_expr_3 = (unsigned long int)0 == return_value_strlen_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return -9;
 
     else
     {
-      signed int return_value_ldclt_alloc_ber$4;
-      return_value_ldclt_alloc_ber$4=ldclt_alloc_ber(ld, &ber);
-      if(!(return_value_ldclt_alloc_ber$4 == 0x00))
+      signed int return_value_ldclt_alloc_ber_4;
+      return_value_ldclt_alloc_ber_4=ldclt_alloc_ber(ld, &ber);
+      if(!(return_value_ldclt_alloc_ber_4 == 0x00))
         return -10;
 
       else
       {
-        signed int return_value_ber_printf$5;
-        return_value_ber_printf$5=ber_printf(ber, "{{s{v}}}", derefAttr, attrs);
-        if((unsigned long int)return_value_ber_printf$5 == 18446744073709551615ul)
+        signed int return_value_ber_printf_5;
+        return_value_ber_printf_5=ber_printf(ber, "{{s{v}}}", derefAttr, attrs);
+        if((unsigned long int)return_value_ber_printf_5 == 18446744073709551615ul)
         {
           ber_free(ber, 1);
           return -3;
@@ -8064,9 +8064,9 @@ signed int ldclt_create_deref_control(struct ldap *ld, char *derefAttr, char **a
 
         else
         {
-          signed int return_value_ber_flatten$6;
-          return_value_ber_flatten$6=ber_flatten(ber, &bv);
-          if((unsigned long int)return_value_ber_flatten$6 == 18446744073709551615ul)
+          signed int return_value_ber_flatten_6;
+          return_value_ber_flatten_6=ber_flatten(ber, &bv);
+          if((unsigned long int)return_value_ber_flatten_6 == 18446744073709551615ul)
           {
             ber_bvfree(bv);
             ber_free(ber, 1);
@@ -8101,22 +8101,22 @@ static char * ldclt_dirname(const char *path)
   sep=PR_GetDirectorySeparator();
   char *ptr = (char *)(void *)0;
   char *ret = (char *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(path == ((const char *)NULL)))
   {
     ptr=strrchr(path, (signed int)sep);
-    tmp_if_expr$1 = ptr != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ptr != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = ptr[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = ptr[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     ret=PL_strndup(path, (unsigned int)(ptr - path));
 
   else
@@ -8138,36 +8138,36 @@ extern void ldclt_flush_genldif(void)
 static char * ldclt_get_sec_pwd(struct PK11SlotInfoStr *slot, signed int retry, void *arg)
 {
   char *pwd = (char *)arg;
-  char *return_value_PL_strdup$1;
-  return_value_PL_strdup$1=PL_strdup(pwd);
-  return return_value_PL_strdup$1;
+  char *return_value_PL_strdup_1;
+  return_value_PL_strdup_1=PL_strdup(pwd);
+  return return_value_PL_strdup_1;
 }
 
 // ldclt_mutex_init
 // file ../ldap/servers/slapd/tools/ldclt/port.h line 56
-extern signed int ldclt_mutex_init(union anonymous$0 *mutex)
+extern signed int ldclt_mutex_init(union anonymous_0 *mutex)
 {
-  signed int return_value_pthread_mutex_init$1;
-  return_value_pthread_mutex_init$1=pthread_mutex_init(mutex, (const union anonymous *)(void *)0);
-  return return_value_pthread_mutex_init$1;
+  signed int return_value_pthread_mutex_init_1;
+  return_value_pthread_mutex_init_1=pthread_mutex_init(mutex, (const union anonymous *)(void *)0);
+  return return_value_pthread_mutex_init_1;
 }
 
 // ldclt_mutex_lock
 // file ../ldap/servers/slapd/tools/ldclt/port.h line 57
-extern signed int ldclt_mutex_lock(union anonymous$0 *mutex)
+extern signed int ldclt_mutex_lock(union anonymous_0 *mutex)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(mutex);
-  return return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(mutex);
+  return return_value_pthread_mutex_lock_1;
 }
 
 // ldclt_mutex_unlock
 // file ../ldap/servers/slapd/tools/ldclt/port.h line 58
-extern signed int ldclt_mutex_unlock(union anonymous$0 *mutex)
+extern signed int ldclt_mutex_unlock(union anonymous_0 *mutex)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(mutex);
-  return return_value_pthread_mutex_unlock$1;
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(mutex);
+  return return_value_pthread_mutex_unlock_1;
 }
 
 // ldclt_sleep
@@ -8181,9 +8181,9 @@ extern void ldclt_sleep(signed int nseconds)
 // file ../ldap/servers/slapd/tools/ldclt/port.h line 60
 extern signed int ldclt_thread_create(unsigned long int *tid, void * (*fct)(void *), void *param)
 {
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(tid, (const union pthread_attr_t *)(void *)0, fct, param);
-  return return_value_pthread_create$1;
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(tid, (const union pthread_attr_t *)(void *)0, fct, param);
+  return return_value_pthread_create_1;
 }
 
 // ldclt_write_genldif
@@ -8192,9 +8192,9 @@ void ldclt_write_genldif(char *str, signed int lgth)
 {
   if(ldclt_write_genldif_buf == ((char *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)65536);
-    ldclt_write_genldif_buf = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)65536);
+    ldclt_write_genldif_buf = (char *)return_value_malloc_1;
     ldclt_write_genldif_pt = ldclt_write_genldif_buf;
     ldclt_write_genldif_nb = 0;
   }
@@ -8214,10 +8214,10 @@ signed int loadDataListFile(struct data_list_file *dlf)
   struct _IO_FILE *ifile;
   char line[512l];
   ifile=fopen(dlf->fname, "r");
-  char *return_value_fgets$1;
-  char *return_value_fgets$4;
-  unsigned long int return_value_strlen$6;
-  unsigned long int return_value_strlen$5;
+  char *return_value_fgets_1;
+  char *return_value_fgets_4;
+  unsigned long int return_value_strlen_6;
+  unsigned long int return_value_strlen_5;
   if(ifile == ((struct _IO_FILE *)NULL))
   {
     perror(dlf->fname);
@@ -8230,19 +8230,19 @@ signed int loadDataListFile(struct data_list_file *dlf)
     dlf->strNb = 0;
     do
     {
-      return_value_fgets$1=fgets(line, 512, ifile);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(line, 512, ifile);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       dlf->strNb = dlf->strNb + 1;
     }
     while((_Bool)1);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)dlf->strNb * sizeof(char *) /*8ul*/ );
-    dlf->str = (char **)return_value_malloc$2;
-    signed int return_value_fseek$3;
-    return_value_fseek$3=fseek(ifile, (signed long int)0, 0);
-    if(!(return_value_fseek$3 == 0))
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)dlf->strNb * sizeof(char *) /*8ul*/ );
+    dlf->str = (char **)return_value_malloc_2;
+    signed int return_value_fseek_3;
+    return_value_fseek_3=fseek(ifile, (signed long int)0, 0);
+    if(!(return_value_fseek_3 == 0))
     {
       perror(dlf->fname);
       fprintf(stderr, "Error: cannot rewind file \"%s\"\n", dlf->fname);
@@ -8255,19 +8255,19 @@ signed int loadDataListFile(struct data_list_file *dlf)
       dlf->strNb = 0;
       do
       {
-        return_value_fgets$4=fgets(line, 512, ifile);
-        if(return_value_fgets$4 == ((char *)NULL))
+        return_value_fgets_4=fgets(line, 512, ifile);
+        if(return_value_fgets_4 == ((char *)NULL))
           break;
 
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(line);
-        if(return_value_strlen$7 >= 1ul)
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(line);
+        if(return_value_strlen_7 >= 1ul)
         {
-          return_value_strlen$6=strlen(line);
-          if((signed int)line[-1l + (signed long int)return_value_strlen$6] == 10)
+          return_value_strlen_6=strlen(line);
+          if((signed int)line[-1l + (signed long int)return_value_strlen_6] == 10)
           {
-            return_value_strlen$5=strlen(line);
-            line[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] = (char)0;
+            return_value_strlen_5=strlen(line);
+            line[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] = (char)0;
           }
 
         }
@@ -8276,9 +8276,9 @@ signed int loadDataListFile(struct data_list_file *dlf)
         dlf->strNb = dlf->strNb + 1;
       }
       while((_Bool)1);
-      signed int return_value_fclose$8;
-      return_value_fclose$8=fclose(ifile);
-      if(!(return_value_fclose$8 == 0))
+      signed int return_value_fclose_8;
+      return_value_fclose_8=fclose(ifile);
+      if(!(return_value_fclose_8 == 0))
       {
         perror(dlf->fname);
         fprintf(stderr, "Error: cannot fclose file \"%s\"\n", dlf->fname);
@@ -8309,9 +8309,9 @@ extern signed int loadImages(char *dirpath)
   ret=ldclt_mutex_init(&mctx.imagesLast_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt: %s\n", return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt: %s\n", return_value_strerror_1);
     fprintf(stderr, "Error: cannot initiate imagesLast_mutex\n");
     fflush(stderr);
     rc = -1;
@@ -8336,43 +8336,43 @@ extern signed int loadImages(char *dirpath)
         break;
 
       fileName = direntp->d_name;
-      char *return_value_getExtend$14;
-      return_value_getExtend$14=getExtend(fileName);
-      signed int return_value_strcmp$15;
-      return_value_strcmp$15=strcmp(return_value_getExtend$14, "jpg");
-      if(return_value_strcmp$15 == 0)
+      char *return_value_getExtend_14;
+      return_value_getExtend_14=getExtend(fileName);
+      signed int return_value_strcmp_15;
+      return_value_strcmp_15=strcmp(return_value_getExtend_14, "jpg");
+      if(return_value_strcmp_15 == 0)
       {
         mctx.imagesNb = mctx.imagesNb + 1;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)mctx.images, (unsigned long int)mctx.imagesNb * sizeof(struct image) /*24ul*/ );
-        mctx.images = (struct image *)return_value_realloc$2;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)mctx.images, (unsigned long int)mctx.imagesNb * sizeof(struct image) /*24ul*/ );
+        mctx.images = (struct image *)return_value_realloc_2;
         if(mctx.images == ((struct image *)NULL))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          printf("Error: cannot realloc(mctx.images), error=%d (%s)\n", *return_value___errno_location$3, return_value_strerror$5);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          printf("Error: cannot realloc(mctx.images), error=%d (%s)\n", *return_value___errno_location_3, return_value_strerror_5);
           rc = -1;
           break;
         }
 
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(fileName);
-        void *return_value_malloc$7;
-        return_value_malloc$7=malloc(return_value_strlen$6 + (unsigned long int)1);
-        (mctx.images + (signed long int)(mctx.imagesNb - 1))->name = (char *)return_value_malloc$7;
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(fileName);
+        void *return_value_malloc_7;
+        return_value_malloc_7=malloc(return_value_strlen_6 + (unsigned long int)1);
+        (mctx.images + (signed long int)(mctx.imagesNb - 1))->name = (char *)return_value_malloc_7;
         if((mctx.images + (signed long int)(mctx.imagesNb + -1))->name == ((char *)NULL))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          char *return_value_strerror$10;
-          return_value_strerror$10=strerror(*return_value___errno_location$9);
-          printf("Error: cannot malloc(mctx.images[%d]).name, error=%d (%s)\n", mctx.imagesNb - 1, *return_value___errno_location$8, return_value_strerror$10);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          char *return_value_strerror_10;
+          return_value_strerror_10=strerror(*return_value___errno_location_9);
+          printf("Error: cannot malloc(mctx.images[%d]).name, error=%d (%s)\n", mctx.imagesNb - 1, *return_value___errno_location_8, return_value_strerror_10);
           rc = -1;
           break;
         }
@@ -8390,9 +8390,9 @@ extern signed int loadImages(char *dirpath)
           break;
         }
 
-        signed int return_value_fstat$11;
-        return_value_fstat$11=fstat(fd, &stat_buf);
-        if(!(return_value_fstat$11 >= 0))
+        signed int return_value_fstat_11;
+        return_value_fstat_11=fstat(fd, &stat_buf);
+        if(!(return_value_fstat_11 >= 0))
         {
           perror(name);
           fprintf(stderr, "Cannot stat(%s)\n", (const void *)name);
@@ -8402,9 +8402,9 @@ extern signed int loadImages(char *dirpath)
         }
 
         (mctx.images + (signed long int)(mctx.imagesNb - 1))->length = (signed int)stat_buf.st_size;
-        void *return_value_mmap$12;
-        return_value_mmap$12=mmap(NULL, (unsigned long int)stat_buf.st_size, 0x1, 0x01, fd, (signed long int)0);
-        (mctx.images + (signed long int)(mctx.imagesNb - 1))->data = (char *)return_value_mmap$12;
+        void *return_value_mmap_12;
+        return_value_mmap_12=mmap(NULL, (unsigned long int)stat_buf.st_size, 0x1, 0x01, fd, (signed long int)0);
+        (mctx.images + (signed long int)(mctx.imagesNb - 1))->data = (char *)return_value_mmap_12;
         if((mctx.images + (signed long int)(mctx.imagesNb + -1))->data == (char *)-1)
         {
           perror(name);
@@ -8414,9 +8414,9 @@ extern signed int loadImages(char *dirpath)
           break;
         }
 
-        signed int return_value_close$13;
-        return_value_close$13=close(fd);
-        if(!(return_value_close$13 >= 0))
+        signed int return_value_close_13;
+        return_value_close_13=close(fd);
+        if(!(return_value_close_13 >= 0))
         {
           perror(name);
           fprintf(stderr, "Cannot close(%s)\n", (const void *)name);
@@ -8434,11 +8434,11 @@ extern signed int loadImages(char *dirpath)
 
 exit:
   ;
-  signed int return_value_closedir$16;
+  signed int return_value_closedir_16;
   if(!(dirp == ((struct __dirstream *)NULL)))
   {
-    return_value_closedir$16=closedir(dirp);
-    if(!(return_value_closedir$16 >= 0))
+    return_value_closedir_16=closedir(dirp);
+    if(!(return_value_closedir_16 >= 0))
     {
       perror(dirpath);
       fprintf(stderr, "Cannot closedir(%s)\n", dirpath);
@@ -8521,10 +8521,10 @@ signed int main(signed int argc, char **argv)
   i = 0;
   for( ; !(65 + i >= 72); i = i + 1)
     mctx.object.var[(signed long int)i] = (char *)(void *)0;
-  signed int return_value_decodeExecParams$1;
-  signed int return_value_atoi$2;
-  signed int return_value_saslSetParam$4;
-  signed int return_value_decodeScopeParams$5;
+  signed int return_value_decodeExecParams_1;
+  signed int return_value_atoi_2;
+  signed int return_value_saslSetParam_4;
+  signed int return_value_decodeScopeParams_5;
   do
   {
     opt_ret=getopt(argc, argv, "a:b:D:e:E:f:h:i:I:n:N:o:p:qQr:R:s:S:t:T:vVw:W:Z:H");
@@ -8552,8 +8552,8 @@ signed int main(signed int argc, char **argv)
       }
       case 101:
       {
-        return_value_decodeExecParams$1=decodeExecParams(optarg);
-        if(!(return_value_decodeExecParams$1 >= 0))
+        return_value_decodeExecParams_1=decodeExecParams(optarg);
+        if(!(return_value_decodeExecParams_1 >= 0))
           ldcltExit(2);
 
         break;
@@ -8584,8 +8584,8 @@ signed int main(signed int argc, char **argv)
         i = 0;
         for( ; !(i >= mctx.ignErrNb); i = i + 1)
         {
-          return_value_atoi$2=atoi(optarg);
-          if(mctx.ignErr[(signed long int)i] == return_value_atoi$2)
+          return_value_atoi_2=atoi(optarg);
+          if(mctx.ignErr[(signed long int)i] == return_value_atoi_2)
             found = 1;
 
         }
@@ -8598,9 +8598,9 @@ signed int main(signed int argc, char **argv)
           ldcltExit(2);
         }
 
-        signed int tmp_post$3 = mctx.ignErrNb;
+        signed int tmp_post_3 = mctx.ignErrNb;
         mctx.ignErrNb = mctx.ignErrNb + 1;
-        mctx.ignErr[(signed long int)tmp_post$3]=atoi(optarg);
+        mctx.ignErr[(signed long int)tmp_post_3]=atoi(optarg);
         break;
       }
       case 110:
@@ -8615,8 +8615,8 @@ signed int main(signed int argc, char **argv)
       }
       case 111:
       {
-        return_value_saslSetParam$4=saslSetParam(optarg);
-        if(!(return_value_saslSetParam$4 >= 0))
+        return_value_saslSetParam_4=saslSetParam(optarg);
+        if(!(return_value_saslSetParam_4 >= 0))
           ldcltExit(2);
 
         mctx.mod2 = mctx.mod2 | (unsigned int)0x00000040;
@@ -8655,8 +8655,8 @@ signed int main(signed int argc, char **argv)
       }
       case 115:
       {
-        return_value_decodeScopeParams$5=decodeScopeParams(optarg);
-        if(!(return_value_decodeScopeParams$5 >= 0))
+        return_value_decodeScopeParams_5=decodeScopeParams(optarg);
+        if(!(return_value_decodeScopeParams_5 >= 0))
           ldcltExit(2);
 
         break;
@@ -8846,18 +8846,18 @@ signed int main(signed int argc, char **argv)
     ldcltExit(2);
   }
 
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(!(mctx.filter == ((char *)NULL)))
   {
     i = 0;
     do
     {
       if(!((signed int)mctx.filter[(signed long int)i] == 0))
-        tmp_if_expr$6 = (signed int)mctx.filter[(signed long int)i] != 61 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (signed int)mctx.filter[(signed long int)i] != 61 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(!tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(!tmp_if_expr_6)
         break;
 
       i = i + 1;
@@ -9015,12 +9015,12 @@ signed int main(signed int argc, char **argv)
     ldcltExit(2);
   }
 
-  signed int return_value_basicInit$7;
-  return_value_basicInit$7=basicInit();
-  if(!(return_value_basicInit$7 >= 0))
+  signed int return_value_basicInit_7;
+  return_value_basicInit_7=basicInit();
+  if(!(return_value_basicInit_7 >= 0))
     ldcltExit(7);
 
-  char *return_value_my_ldap_err2string$8;
+  char *return_value_my_ldap_err2string_8;
   if(!((1u & mctx.mode) == 0u))
   {
     printf("%s\n", argvList);
@@ -9167,8 +9167,8 @@ signed int main(signed int argc, char **argv)
     i = 0;
     for( ; !(i >= mctx.ignErrNb); i = i + 1)
     {
-      return_value_my_ldap_err2string$8=my_ldap_err2string(mctx.ignErr[(signed long int)i]);
-      printf("Ignore error       = %d (%s)\n", mctx.ignErr[(signed long int)i], return_value_my_ldap_err2string$8);
+      return_value_my_ldap_err2string_8=my_ldap_err2string(mctx.ignErr[(signed long int)i]);
+      printf("Ignore error       = %d (%s)\n", mctx.ignErr[(signed long int)i], return_value_my_ldap_err2string_8);
     }
     fflush(stdout);
     if(mctx.slavesNb >= 1)
@@ -9183,27 +9183,27 @@ signed int main(signed int argc, char **argv)
   }
 
   tim=time((signed long int *)(void *)0);
-  char *return_value_ctime$9;
-  return_value_ctime$9=ctime(&tim);
-  printf("ldclt[%d]: Starting at %s\n", mctx.pid, return_value_ctime$9);
-  signed int return_value_runThem$10;
-  return_value_runThem$10=runThem();
-  if(!(return_value_runThem$10 >= 0))
+  char *return_value_ctime_9;
+  return_value_ctime_9=ctime(&tim);
+  printf("ldclt[%d]: Starting at %s\n", mctx.pid, return_value_ctime_9);
+  signed int return_value_runThem_10;
+  return_value_runThem_10=runThem();
+  if(!(return_value_runThem_10 >= 0))
     ldcltExit(99);
 
-  signed int return_value_initMainThread$11;
-  return_value_initMainThread$11=initMainThread();
-  if(!(return_value_initMainThread$11 >= 0))
+  signed int return_value_initMainThread_11;
+  return_value_initMainThread_11=initMainThread();
+  if(!(return_value_initMainThread_11 >= 0))
     ldcltExit(99);
 
-  signed int return_value_monitorThem$12;
-  return_value_monitorThem$12=monitorThem();
-  if(!(return_value_monitorThem$12 >= 0))
+  signed int return_value_monitorThem_12;
+  return_value_monitorThem_12=monitorThem();
+  if(!(return_value_monitorThem_12 >= 0))
     ldcltExit(99);
 
-  signed int return_value_printGlobalStatistics$13;
-  return_value_printGlobalStatistics$13=printGlobalStatistics();
-  if(!(return_value_printGlobalStatistics$13 >= 0))
+  signed int return_value_printGlobalStatistics_13;
+  return_value_printGlobalStatistics_13=printGlobalStatistics();
+  if(!(return_value_printGlobalStatistics_13 >= 0))
     ldcltExit(99);
 
   ldcltExit(mctx.exitStatus);
@@ -9244,9 +9244,9 @@ signed int monitorThem(void)
       ret=ldclt_mutex_lock(&tctx[(signed long int)i].nbOpers_mutex);
       if(!(ret == 0))
       {
-        char *return_value_strerror$1;
-        return_value_strerror$1=strerror(ret);
-        fprintf(stderr, "ldclt[%d]: Cannot mutex_lock(T%03d), error=%d (%s)\n", mctx.pid, tctx[(signed long int)i].thrdNum, ret, return_value_strerror$1);
+        char *return_value_strerror_1;
+        return_value_strerror_1=strerror(ret);
+        fprintf(stderr, "ldclt[%d]: Cannot mutex_lock(T%03d), error=%d (%s)\n", mctx.pid, tctx[(signed long int)i].thrdNum, ret, return_value_strerror_1);
         fflush(stderr);
         return -1;
       }
@@ -9256,9 +9256,9 @@ signed int monitorThem(void)
       ret=ldclt_mutex_unlock(&tctx[(signed long int)i].nbOpers_mutex);
       if(!(ret == 0))
       {
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(ret);
-        fprintf(stderr, "ldclt[%d]: Cannot mutex_unlock(T%03d), error=%d (%s)\n", mctx.pid, tctx[(signed long int)i].thrdNum, ret, return_value_strerror$2);
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(ret);
+        fprintf(stderr, "ldclt[%d]: Cannot mutex_unlock(T%03d), error=%d (%s)\n", mctx.pid, tctx[(signed long int)i].thrdNum, ret, return_value_strerror_2);
         fflush(stderr);
         return -1;
       }
@@ -9276,9 +9276,9 @@ signed int monitorThem(void)
       else
       {
         tctx[(signed long int)i].active = tctx[(signed long int)i].active - 1;
-        signed int return_value_getThreadStatus$3;
-        return_value_getThreadStatus$3=getThreadStatus(&tctx[(signed long int)i], &status);
-        if(!(return_value_getThreadStatus$3 >= 0))
+        signed int return_value_getThreadStatus_3;
+        return_value_getThreadStatus_3=getThreadStatus(&tctx[(signed long int)i], &status);
+        if(!(return_value_getThreadStatus_3 >= 0))
         {
           printf("ldclt[%d]: T%03d: Cannot get status\n", mctx.pid, tctx[(signed long int)i].thrdNum);
           status = 2;
@@ -9314,9 +9314,9 @@ signed int monitorThem(void)
     mctx.nbSamples = mctx.nbSamples - 1;
     if(mctx.nbSamples == 0)
     {
-      signed int return_value_shutdownThreads$4;
-      return_value_shutdownThreads$4=shutdownThreads();
-      if(!(return_value_shutdownThreads$4 >= 0))
+      signed int return_value_shutdownThreads_4;
+      return_value_shutdownThreads_4=shutdownThreads();
+      if(!(return_value_shutdownThreads_4 >= 0))
         printf("ldclt[%d]: Problem while shutting down threads,\n", mctx.pid);
 
       allDead = 1;
@@ -9328,9 +9328,9 @@ signed int monitorThem(void)
       mctx.globStatsCnt = mctx.globStatsCnt - 1;
       if(mctx.globStatsCnt == 0)
       {
-        signed int return_value_printGlobalStatistics$5;
-        return_value_printGlobalStatistics$5=printGlobalStatistics();
-        if(!(return_value_printGlobalStatistics$5 >= 0))
+        signed int return_value_printGlobalStatistics_5;
+        return_value_printGlobalStatistics_5=printGlobalStatistics();
+        if(!(return_value_printGlobalStatistics_5 >= 0))
         {
           printf("ldclt[%d]: Cannot print global statistics...\n", mctx.pid);
           printf("ldclt[%d]: Bye-bye...", mctx.pid);
@@ -9362,18 +9362,18 @@ extern signed int msgIdAdd(struct thread_context *tttctx, signed int msgid, char
 
   if(tttctx->firstMsgId == ((struct msgid_cell *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct msgid_cell) /*2072ul*/ );
-    tttctx->firstMsgId = (struct msgid_cell *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct msgid_cell) /*2072ul*/ );
+    tttctx->firstMsgId = (struct msgid_cell *)return_value_malloc_1;
     if(tttctx->firstMsgId == ((struct msgid_cell *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      printf("ldclt[%d]: T%03d: cannot malloc(tttctx->firstMsgId), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location$2, return_value_strerror$4);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      printf("ldclt[%d]: T%03d: cannot malloc(tttctx->firstMsgId), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location_2, return_value_strerror_4);
       return -1;
     }
 
@@ -9382,18 +9382,18 @@ extern signed int msgIdAdd(struct thread_context *tttctx, signed int msgid, char
 
   else
   {
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc(sizeof(struct msgid_cell) /*2072ul*/ );
-    tttctx->lastMsgId->next = (struct msgid_cell *)return_value_malloc$5;
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc(sizeof(struct msgid_cell) /*2072ul*/ );
+    tttctx->lastMsgId->next = (struct msgid_cell *)return_value_malloc_5;
     if(tttctx->lastMsgId->next == ((struct msgid_cell *)NULL))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      printf("ldclt[%d]: T%03d: cannot malloc(tttctx->lastMsgId->next), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location$6, return_value_strerror$8);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      printf("ldclt[%d]: T%03d: cannot malloc(tttctx->lastMsgId->next), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location_6, return_value_strerror_8);
       return -1;
     }
 
@@ -9450,7 +9450,7 @@ extern signed int msgIdDel(struct thread_context *tttctx, signed int msgid, sign
   if(!((2u & mctx.mode) == 0u))
     printf("ldclt[%d]: T%03d: msgIdDel (%d)\n", mctx.pid, tttctx->thrdNum, msgid);
 
-  signed int return_value_freeAttrib$1;
+  signed int return_value_freeAttrib_1;
   if(!(tttctx->firstMsgId == ((struct msgid_cell *)NULL)))
   {
     if(tttctx->firstMsgId->msgid == msgid)
@@ -9475,8 +9475,8 @@ extern signed int msgIdDel(struct thread_context *tttctx, signed int msgid, sign
         pt->next = ptToFree->next;
         if(!(freeAttr == 0))
         {
-          return_value_freeAttrib$1=freeAttrib(ptToFree->attribs);
-          if(!(return_value_freeAttrib$1 >= 0))
+          return_value_freeAttrib_1=freeAttrib(ptToFree->attribs);
+          if(!(return_value_freeAttrib_1 >= 0))
             return -1;
 
         }
@@ -9512,16 +9512,16 @@ extern char * msgIdStr(struct thread_context *tttctx, signed int msgid)
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 76
 extern char * my_ldap_err2string(signed int err)
 {
-  char *return_value_ldap_err2string$2;
-  return_value_ldap_err2string$2=ldap_err2string(err);
-  char *return_value_ldap_err2string$1;
-  if(return_value_ldap_err2string$2 == ((char *)NULL))
+  char *return_value_ldap_err2string_2;
+  return_value_ldap_err2string_2=ldap_err2string(err);
+  char *return_value_ldap_err2string_1;
+  if(return_value_ldap_err2string_2 == ((char *)NULL))
     return "ldap_err2string() returns a NULL pointer !!!";
 
   else
   {
-    return_value_ldap_err2string$1=ldap_err2string(err);
-    return return_value_ldap_err2string$1;
+    return_value_ldap_err2string_1=ldap_err2string(err);
+    return return_value_ldap_err2string_1;
   }
 }
 
@@ -9539,24 +9539,24 @@ extern signed int parseAttribValue(char *fname, struct vers_object *obj, char *l
   field = (struct vers_field *)(void *)0;
   start = 0;
   end = start;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_6;
   while(!((signed int)line[(signed long int)end] == 0))
   {
     if(field == ((struct vers_field *)NULL))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct vers_field) /*96ul*/ );
-      field = (struct vers_field *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct vers_field) /*96ul*/ );
+      field = (struct vers_field *)return_value_malloc_1;
       field->next = (struct vers_field *)(void *)0;
       attrib->field = field;
     }
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct vers_field) /*96ul*/ );
-      field->next = (struct vers_field *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct vers_field) /*96ul*/ );
+      field->next = (struct vers_field *)return_value_malloc_2;
       field = field->next;
       field->next = (struct vers_field *)(void *)0;
     }
@@ -9567,11 +9567,11 @@ extern signed int parseAttribValue(char *fname, struct vers_object *obj, char *l
       do
       {
         if(!((signed int)line[(signed long int)end] == 0))
-          tmp_if_expr$3 = (signed int)line[(signed long int)end] != 93 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)line[(signed long int)end] != 93 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(!tmp_if_expr_3)
           break;
 
         end = end + 1;
@@ -9585,17 +9585,17 @@ extern signed int parseAttribValue(char *fname, struct vers_object *obj, char *l
         return -1;
       }
 
-      signed int return_value_parseVariant$4;
-      return_value_parseVariant$4=parseVariant(variant, fname, line, obj, field);
-      if(!(return_value_parseVariant$4 >= 0))
+      signed int return_value_parseVariant_4;
+      return_value_parseVariant_4=parseVariant(variant, fname, line, obj, field);
+      if(!(return_value_parseVariant_4 >= 0))
         return -1;
 
       end = end + 1;
       if(attrib->buf == ((char *)NULL))
       {
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc((unsigned long int)512);
-        attrib->buf = (char *)return_value_malloc$5;
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc((unsigned long int)512);
+        attrib->buf = (char *)return_value_malloc_5;
         if(!((2u & mctx.mode) == 0u))
           printf("parseAttribValue: buffer allocated\n");
 
@@ -9609,20 +9609,20 @@ extern signed int parseAttribValue(char *fname, struct vers_object *obj, char *l
       do
       {
         if(!((signed int)line[(signed long int)end] == 0))
-          tmp_if_expr$6 = (signed int)line[(signed long int)end] != 91 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (signed int)line[(signed long int)end] != 91 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(!tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(!tmp_if_expr_6)
           break;
 
         end = end + 1;
       }
       while((_Bool)1);
       field->how = 0;
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc((unsigned long int)((1 + end) - start));
-      field->cst = (char *)return_value_malloc$7;
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc((unsigned long int)((1 + end) - start));
+      field->cst = (char *)return_value_malloc_7;
       strncpy(field->cst, line + (signed long int)start, (unsigned long int)(end - start));
       field->cst[(signed long int)(end - start)] = (char)0;
     }
@@ -9636,10 +9636,10 @@ signed int parseFilter(char *src, char **head, char **tail, signed int *ndigits)
 {
   signed int i;
   signed int j;
-  unsigned long int return_value_strlen$1;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$7;
-  _Bool tmp_if_expr$8;
+  unsigned long int return_value_strlen_1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_7;
+  _Bool tmp_if_expr_8;
   if(src == ((char *)NULL))
   {
     printf("Error: NULL source string is passed.\n");
@@ -9651,30 +9651,30 @@ signed int parseFilter(char *src, char **head, char **tail, signed int *ndigits)
     i = 0;
     do
     {
-      return_value_strlen$1=strlen(src);
-      if(!((unsigned long int)i >= return_value_strlen$1))
-        tmp_if_expr$2 = (signed int)src[(signed long int)i] != 88 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_1=strlen(src);
+      if(!((unsigned long int)i >= return_value_strlen_1))
+        tmp_if_expr_2 = (signed int)src[(signed long int)i] != 88 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       i = i + 1;
     }
     while((_Bool)1);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)(i + 1));
-    *head = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)(i + 1));
+    *head = (char *)return_value_malloc_3;
     if(*head == ((char *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      printf("Error: cannot malloc(*head), error=%d (%s)\n", *return_value___errno_location$4, return_value_strerror$6);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      printf("Error: cannot malloc(*head), error=%d (%s)\n", *return_value___errno_location_4, return_value_strerror_6);
       return -1;
     }
 
@@ -9683,32 +9683,32 @@ signed int parseFilter(char *src, char **head, char **tail, signed int *ndigits)
     j = i;
     do
     {
-      return_value_strlen$7=strlen(src);
-      if(!((unsigned long int)i >= return_value_strlen$7))
-        tmp_if_expr$8 = (signed int)src[(signed long int)j] == 88 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_7=strlen(src);
+      if(!((unsigned long int)i >= return_value_strlen_7))
+        tmp_if_expr_8 = (signed int)src[(signed long int)j] == 88 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(!tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(!tmp_if_expr_8)
         break;
 
       j = j + 1;
     }
     while((_Bool)1);
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen(src);
-    void *return_value_malloc$10;
-    return_value_malloc$10=malloc((return_value_strlen$9 - (unsigned long int)j) + (unsigned long int)1);
-    *tail = (char *)return_value_malloc$10;
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen(src);
+    void *return_value_malloc_10;
+    return_value_malloc_10=malloc((return_value_strlen_9 - (unsigned long int)j) + (unsigned long int)1);
+    *tail = (char *)return_value_malloc_10;
     if(*tail == ((char *)NULL))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      signed int *return_value___errno_location$12;
-      return_value___errno_location$12=__errno_location();
-      char *return_value_strerror$13;
-      return_value_strerror$13=strerror(*return_value___errno_location$12);
-      printf("Error: cannot malloc(*tail), error=%d (%s)\n", *return_value___errno_location$11, return_value_strerror$13);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      signed int *return_value___errno_location_12;
+      return_value___errno_location_12=__errno_location();
+      char *return_value_strerror_13;
+      return_value_strerror_13=strerror(*return_value___errno_location_12);
+      printf("Error: cannot malloc(*tail), error=%d (%s)\n", *return_value___errno_location_11, return_value_strerror_13);
       return -1;
     }
 
@@ -9726,14 +9726,14 @@ signed int parseLine(char *line, char *fname, struct vers_object *obj)
   if(!((2u & mctx.mode) == 0u))
     printf("parseLine: line=\"%s\"\n", line);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)*line == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -9749,11 +9749,11 @@ signed int parseLine(char *line, char *fname, struct vers_object *obj)
       do
       {
         if(!((signed int)line[(signed long int)end] == 0))
-          tmp_if_expr$2 = (signed int)line[(signed long int)end] != 58 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)line[(signed long int)end] != 58 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         end = end + 1;
@@ -9769,17 +9769,17 @@ signed int parseLine(char *line, char *fname, struct vers_object *obj)
       {
         obj->attribs[(signed long int)obj->attribsNb].buf = (char *)(void *)0;
         obj->attribs[(signed long int)obj->attribsNb].src=strdup(line);
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc((unsigned long int)(1 + end));
-        obj->attribs[(signed long int)obj->attribsNb].name = (char *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc((unsigned long int)(1 + end));
+        obj->attribs[(signed long int)obj->attribsNb].name = (char *)return_value_malloc_3;
         strncpy(obj->attribs[(signed long int)obj->attribsNb].name, line, (unsigned long int)end);
         obj->attribs[(signed long int)obj->attribsNb].name[(signed long int)end] = (char)0;
         end = end + 1;
         for( ; (signed int)line[(signed long int)end] == 32; end = end + 1)
           ;
-        signed int return_value_parseAttribValue$4;
-        return_value_parseAttribValue$4=parseAttribValue(fname, obj, line + (signed long int)end, &obj->attribs[(signed long int)obj->attribsNb]);
-        if(!(return_value_parseAttribValue$4 >= 0))
+        signed int return_value_parseAttribValue_4;
+        return_value_parseAttribValue_4=parseAttribValue(fname, obj, line + (signed long int)end, &obj->attribs[(signed long int)obj->attribsNb]);
+        if(!(return_value_parseAttribValue_4 >= 0))
           return -1;
 
         else
@@ -9805,22 +9805,22 @@ signed int parseVariant(char *variant, char *fname, char *line, struct vers_obje
   if(!((2u & mctx.mode) == 0u))
     printf("parseVariant: variant=\"%s\"\n", variant);
 
-  void *return_value_malloc$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
+  void *return_value_malloc_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
   if((signed int)variant[1l] == 0)
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!((signed int)*variant >= 65))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)variant[(signed long int)0] > 72 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)variant[(signed long int)0] > 72 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       fprintf(stderr, "Error: bad variable in %s : \"%s\"\n", fname, line);
       fprintf(stderr, "Error: must be in [%c-%c]\n", 65, 72);
@@ -9839,13 +9839,13 @@ signed int parseVariant(char *variant, char *fname, char *line, struct vers_obje
 
     else
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!((signed int)*variant >= 65))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)variant[(signed long int)0] > 72 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)variant[(signed long int)0] > 72 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         fprintf(stderr, "Error: bad variable in %s : \"%s\"\n", fname, line);
         fprintf(stderr, "Error: must be in [%c-%c]\n", 65, 72);
@@ -9857,8 +9857,8 @@ signed int parseVariant(char *variant, char *fname, char *line, struct vers_obje
       variant = variant + 1l;
       if(obj->var[(signed long int)field->var] == ((char *)NULL))
       {
-        return_value_malloc$3=malloc((unsigned long int)512);
-        obj->var[(signed long int)field->var] = (char *)return_value_malloc$3;
+        return_value_malloc_3=malloc((unsigned long int)512);
+        obj->var[(signed long int)field->var] = (char *)return_value_malloc_3;
       }
 
     }
@@ -9866,11 +9866,11 @@ signed int parseVariant(char *variant, char *fname, char *line, struct vers_obje
     do
     {
       if(!((signed int)variant[(signed long int)end] == 0))
-        tmp_if_expr$4 = (signed int)variant[(signed long int)end] != 40 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)variant[(signed long int)end] != 40 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(!tmp_if_expr_4)
         break;
 
       end = end + 1;
@@ -9892,16 +9892,16 @@ signed int parseVariant(char *variant, char *fname, char *line, struct vers_obje
       do
       {
         if(!((signed int)variant[(signed long int)end] == 0))
-          tmp_if_expr$5 = (signed int)variant[(signed long int)end] != 59 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (signed int)variant[(signed long int)end] != 59 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (signed int)variant[(signed long int)end] != 41 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (signed int)variant[(signed long int)end] != 41 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(!tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(!tmp_if_expr_6)
           break;
 
         end = end + 1;
@@ -9928,16 +9928,16 @@ signed int parseVariant(char *variant, char *fname, char *line, struct vers_obje
           do
           {
             if(!((signed int)variant[(signed long int)end] == 0))
-              tmp_if_expr$7 = (signed int)variant[(signed long int)end] != 59 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = (signed int)variant[(signed long int)end] != 59 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            if(tmp_if_expr$7)
-              tmp_if_expr$8 = (signed int)variant[(signed long int)end] != 41 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = (_Bool)0;
+            if(tmp_if_expr_7)
+              tmp_if_expr_8 = (signed int)variant[(signed long int)end] != 41 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$8 = (_Bool)0;
-            if(!tmp_if_expr$8)
+              tmp_if_expr_8 = (_Bool)0;
+            if(!tmp_if_expr_8)
               break;
 
             end = end + 1;
@@ -9963,11 +9963,11 @@ signed int parseVariant(char *variant, char *fname, char *line, struct vers_obje
           do
           {
             if(!((signed int)variant[(signed long int)end] == 0))
-              tmp_if_expr$9 = (signed int)variant[(signed long int)end] != 41 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_9 = (signed int)variant[(signed long int)end] != 41 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$9 = (_Bool)0;
-            if(!tmp_if_expr$9)
+              tmp_if_expr_9 = (_Bool)0;
+            if(!tmp_if_expr_9)
               break;
 
             end = end + 1;
@@ -10011,20 +10011,20 @@ signed int parseVariant(char *variant, char *fname, char *line, struct vers_obje
           field->high = field->dlf->strNb - 1;
           if(!((512u & mctx.mode) == 0u))
           {
-            _Bool tmp_if_expr$11;
+            _Bool tmp_if_expr_11;
             if(field->how == 1)
-              tmp_if_expr$11 = (_Bool)1;
+              tmp_if_expr_11 = (_Bool)1;
 
             else
-              tmp_if_expr$11 = field->how == 2 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$11)
+              tmp_if_expr_11 = field->how == 2 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_11)
             {
               ret=ldclt_mutex_init(&field->cnt_mutex);
               if(!(ret == 0))
               {
-                char *return_value_strerror$10;
-                return_value_strerror$10=strerror(ret);
-                fprintf(stderr, "ldclt: %s\n", return_value_strerror$10);
+                char *return_value_strerror_10;
+                return_value_strerror_10=strerror(ret);
+                fprintf(stderr, "ldclt: %s\n", return_value_strerror_10);
                 fprintf(stderr, "Error: cannot initiate cnt_mutex in %s for %s\n", fname, line);
                 fflush(stderr);
                 return -1;
@@ -10050,20 +10050,20 @@ signed int parseVariant(char *variant, char *fname, char *line, struct vers_obje
           field->nb=atoi(third);
           if(!((512u & mctx.mode) == 0u))
           {
-            _Bool tmp_if_expr$13;
+            _Bool tmp_if_expr_13;
             if(field->how == 3)
-              tmp_if_expr$13 = (_Bool)1;
+              tmp_if_expr_13 = (_Bool)1;
 
             else
-              tmp_if_expr$13 = field->how == 4 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$13)
+              tmp_if_expr_13 = field->how == 4 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_13)
             {
               ret=ldclt_mutex_init(&field->cnt_mutex);
               if(!(ret == 0))
               {
-                char *return_value_strerror$12;
-                return_value_strerror$12=strerror(ret);
-                fprintf(stderr, "ldclt: %s\n", return_value_strerror$12);
+                char *return_value_strerror_12;
+                return_value_strerror_12=strerror(ret);
+                fprintf(stderr, "ldclt: %s\n", return_value_strerror_12);
                 fprintf(stderr, "Error: cannot initiate cnt_mutex in %s for %s\n", fname, line);
                 fflush(stderr);
                 return -1;
@@ -10101,10 +10101,10 @@ signed int printErrorFromLdap(struct thread_context *tttctx, struct ldapmsg *res
   signed int ret;
   char *addErrMsg;
   signed int errcodep;
-  char *return_value_my_ldap_err2string$1;
-  return_value_my_ldap_err2string$1=my_ldap_err2string(errcode);
-  printf("ldclt[%d]: T%03d: %s, error=%d (%s", mctx.pid, tttctx->thrdNum, errmsg, errcode, return_value_my_ldap_err2string$1);
-  char *return_value_my_ldap_err2string$3;
+  char *return_value_my_ldap_err2string_1;
+  return_value_my_ldap_err2string_1=my_ldap_err2string(errcode);
+  printf("ldclt[%d]: T%03d: %s, error=%d (%s", mctx.pid, tttctx->thrdNum, errmsg, errcode, return_value_my_ldap_err2string_1);
+  char *return_value_my_ldap_err2string_3;
   if(res == ((struct ldapmsg *)NULL))
   {
     printf(") -- NULL result\n");
@@ -10118,16 +10118,16 @@ signed int printErrorFromLdap(struct thread_context *tttctx, struct ldapmsg *res
     {
       printf(")\n");
       printf("ldclt[%d]: T%03d: errcodep = %d\n", mctx.pid, tttctx->thrdNum, errcodep);
-      char *return_value_my_ldap_err2string$2;
-      return_value_my_ldap_err2string$2=my_ldap_err2string(ret);
-      printf("ldclt[%d]: T%03d: Cannot ldap_parse_result(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string$2);
+      char *return_value_my_ldap_err2string_2;
+      return_value_my_ldap_err2string_2=my_ldap_err2string(ret);
+      printf("ldclt[%d]: T%03d: Cannot ldap_parse_result(), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_my_ldap_err2string_2);
       return -1;
     }
 
     if(!(errcodep == errcode))
     {
-      return_value_my_ldap_err2string$3=my_ldap_err2string(errcodep);
-      printf("ldclt[%d]: errcodep=%d (%s)", mctx.pid, errcodep, return_value_my_ldap_err2string$3);
+      return_value_my_ldap_err2string_3=my_ldap_err2string(errcodep);
+      printf("ldclt[%d]: errcodep=%d (%s)", mctx.pid, errcodep, return_value_my_ldap_err2string_3);
     }
 
     if(!(addErrMsg == ((char *)NULL)))
@@ -10187,9 +10187,9 @@ extern signed int printGlobalStatistics(void)
     if(mctx.errors[(signed long int)i] >= 1)
     {
       found = 1;
-      char *return_value_my_ldap_err2string$1;
-      return_value_my_ldap_err2string$1=my_ldap_err2string(i);
-      sprintf(buf, "(%s)", return_value_my_ldap_err2string$1);
+      char *return_value_my_ldap_err2string_1;
+      return_value_my_ldap_err2string_1=my_ldap_err2string(i);
+      sprintf(buf, "(%s)", return_value_my_ldap_err2string_1);
       printf("ldclt[%d]: Global error %2d %s occurs %5d times\n", mctx.pid, i, (const void *)buf, mctx.errors[(signed long int)i]);
     }
 
@@ -10198,9 +10198,9 @@ extern signed int printGlobalStatistics(void)
     if(mctx.negativeErrors[(signed long int)i] >= 1)
     {
       found = 1;
-      char *return_value_my_ldap_err2string$2;
-      return_value_my_ldap_err2string$2=my_ldap_err2string(-i);
-      sprintf(buf, "(%s)", return_value_my_ldap_err2string$2);
+      char *return_value_my_ldap_err2string_2;
+      return_value_my_ldap_err2string_2=my_ldap_err2string(-i);
+      sprintf(buf, "(%s)", return_value_my_ldap_err2string_2);
       printf("ldclt[%d]: Global error %2d %s occurs %5d times\n", mctx.pid, -i, (const void *)buf, mctx.negativeErrors[(signed long int)i]);
     }
 
@@ -10293,11 +10293,11 @@ signed int readAttrValue(struct ldap *ldapCtx, char *ident, char *dn, char *attn
   char *filter;
   attrs[(signed long int)0] = attname;
   attrs[(signed long int)1] = (char *)(void *)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(attname);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(((unsigned long int)4 + return_value_strlen$1) * sizeof(char) /*1ul*/ );
-  filter = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(attname);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(((unsigned long int)4 + return_value_strlen_1) * sizeof(char) /*1ul*/ );
+  filter = (char *)return_value_malloc_2;
   if(filter == ((char *)NULL))
   {
     printf("ldclt[%d]: %s: Out of memory\n", mctx.pid, ident);
@@ -10312,9 +10312,9 @@ signed int readAttrValue(struct ldap *ldapCtx, char *ident, char *dn, char *attn
     free((void *)filter);
     if(!(ret == 0x00))
     {
-      char *return_value_my_ldap_err2string$3;
-      return_value_my_ldap_err2string$3=my_ldap_err2string(ret);
-      printf("ldclt[%d]: %s: Cannot ldap_search (%s in %s), error=%d (%s)\n", mctx.pid, ident, attname, dn, ret, return_value_my_ldap_err2string$3);
+      char *return_value_my_ldap_err2string_3;
+      return_value_my_ldap_err2string_3=my_ldap_err2string(ret);
+      printf("ldclt[%d]: %s: Cannot ldap_search (%s in %s), error=%d (%s)\n", mctx.pid, ident, attname, dn, ret, return_value_my_ldap_err2string_3);
       fflush(stdout);
       return -1;
     }
@@ -10332,9 +10332,9 @@ signed int readAttrValue(struct ldap *ldapCtx, char *ident, char *dn, char *attn
         if(aname == ((char *)NULL))
           break;
 
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(aname, attname);
-        if(return_value_strcmp$4 == 0)
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(aname, attname);
+        if(return_value_strcmp_4 == 0)
         {
           struct berval **vals;
           vals=ldap_get_values_len(ldapCtx, cur, aname);
@@ -10373,9 +10373,9 @@ extern signed int readObject(struct vers_object *obj)
   char line[512l];
   signed int rc = 0;
   ifile=fopen(obj->fname, "r");
-  char *return_value_fgets$1;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$2;
+  char *return_value_fgets_1;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_2;
   if(ifile == ((struct _IO_FILE *)NULL))
   {
     perror(obj->fname);
@@ -10386,26 +10386,26 @@ extern signed int readObject(struct vers_object *obj)
   else
     do
     {
-      return_value_fgets$1=fgets(line, 512, ifile);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(line, 512, ifile);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(line);
-      if(return_value_strlen$4 >= 1ul)
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(line);
+      if(return_value_strlen_4 >= 1ul)
       {
-        return_value_strlen$3=strlen(line);
-        if((signed int)line[-1l + (signed long int)return_value_strlen$3] == 10)
+        return_value_strlen_3=strlen(line);
+        if((signed int)line[-1l + (signed long int)return_value_strlen_3] == 10)
         {
-          return_value_strlen$2=strlen(line);
-          line[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+          return_value_strlen_2=strlen(line);
+          line[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
         }
 
       }
 
-      signed int return_value_parseLine$5;
-      return_value_parseLine$5=parseLine(line, obj->fname, obj);
-      if(!(return_value_parseLine$5 >= 0))
+      signed int return_value_parseLine_5;
+      return_value_parseLine_5=parseLine(line, obj->fname, obj);
+      if(!(return_value_parseLine_5 >= 0))
       {
         rc = -1;
         goto done;
@@ -10416,11 +10416,11 @@ extern signed int readObject(struct vers_object *obj)
 
 done:
   ;
-  signed int return_value_fclose$6;
+  signed int return_value_fclose_6;
   if(!(ifile == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fclose$6=fclose(ifile);
-    if(!(return_value_fclose$6 == 0))
+    return_value_fclose_6=fclose(ifile);
+    if(!(return_value_fclose_6 == 0))
     {
       perror(obj->fname);
       fprintf(stderr, "Error: cannot fclose file \"%s\"\n", obj->fname);
@@ -10447,9 +10447,9 @@ signed int refRebindProc(struct ldap *ldapCtx, const char *url, unsigned long in
   tttctx = (struct thread_context *)arg;
   cred.bv_val = tttctx->bufPasswd;
   cred.bv_len=strlen(tttctx->bufPasswd);
-  signed int return_value_ldap_sasl_bind_s$1;
-  return_value_ldap_sasl_bind_s$1=ldap_sasl_bind_s(ldapCtx, tttctx->bufBindDN, (char *)0, &cred, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0, (struct berval **)(void *)0);
-  return return_value_ldap_sasl_bind_s$1;
+  signed int return_value_ldap_sasl_bind_s_1;
+  return_value_ldap_sasl_bind_s_1=ldap_sasl_bind_s(ldapCtx, tttctx->bufBindDN, (char *)0, &cred, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0, (struct berval **)(void *)0);
+  return return_value_ldap_sasl_bind_s_1;
 }
 
 // referralSetup
@@ -10484,18 +10484,18 @@ signed int referralSetup(struct thread_context *tttctx)
 // file ../ldap/servers/slapd/tools/ldclt/utils.h line 46
 extern void rnd(char *buf, signed int low, signed int high, signed int ndigits)
 {
-  signed long int return_value_lrand48$1;
-  return_value_lrand48$1=lrand48();
-  sprintf(buf, "%0*d", ndigits, (signed int)((signed long int)low + return_value_lrand48$1 % (signed long int)((high - low) + 1)));
+  signed long int return_value_lrand48_1;
+  return_value_lrand48_1=lrand48();
+  sprintf(buf, "%0*d", ndigits, (signed int)((signed long int)low + return_value_lrand48_1 % (signed long int)((high - low) + 1)));
 }
 
 // rndlim
 // file ../ldap/servers/slapd/tools/ldclt/utils.h line 47
 extern signed int rndlim(signed int low, signed int high)
 {
-  signed long int return_value_lrand48$1;
-  return_value_lrand48$1=lrand48();
-  return (signed int)((signed long int)low + return_value_lrand48$1 % (signed long int)((high - low) + 1));
+  signed long int return_value_lrand48_1;
+  return_value_lrand48_1=lrand48();
+  return (signed int)((signed long int)low + return_value_lrand48_1 % (signed long int)((high - low) + 1));
 }
 
 // rndstr
@@ -10510,14 +10510,14 @@ extern void rndstr(char *buf, signed int ndigits)
   charNum = 0;
   byteNum = 4;
   rndArray = (char *)&rndNum;
-  const unsigned short int **return_value___ctype_b_loc$9;
+  const unsigned short int **return_value___ctype_b_loc_9;
   for( ; !(charNum >= ndigits); byteNum = byteNum + 1)
   {
     if(byteNum == 4)
     {
-      signed long int return_value_lrand48$1;
-      return_value_lrand48$1=lrand48();
-      rndNum = (unsigned int)return_value_lrand48$1;
+      signed long int return_value_lrand48_1;
+      return_value_lrand48_1=lrand48();
+      rndNum = (unsigned int)return_value_lrand48_1;
       byteNum = 0;
     }
 
@@ -10526,25 +10526,25 @@ extern void rndstr(char *buf, signed int ndigits)
     {
       if((signed int)newChar == 34 || (signed int)newChar == 35 || (signed int)newChar == 43 || (signed int)newChar == 44 || (signed int)newChar == 59 || (signed int)newChar == 60 || (signed int)newChar == 61 || (signed int)newChar == 62)
       {
-        _Bool tmp_if_expr$7;
+        _Bool tmp_if_expr_7;
         if(charNum >= 1)
-          tmp_if_expr$7 = (signed int)buf[(signed long int)(charNum - 1)] == 92 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (signed int)buf[(signed long int)(charNum - 1)] == 92 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
         {
           if(!(3 + charNum >= ndigits))
           {
-            signed int tmp_post$2 = charNum;
+            signed int tmp_post_2 = charNum;
             charNum = charNum + 1;
-            buf[(signed long int)tmp_post$2] = (char)92;
-            signed int tmp_post$3 = charNum;
+            buf[(signed long int)tmp_post_2] = (char)92;
+            signed int tmp_post_3 = charNum;
             charNum = charNum + 1;
-            buf[(signed long int)tmp_post$3] = (char)92;
-            signed int tmp_post$4 = charNum;
+            buf[(signed long int)tmp_post_3] = (char)92;
+            signed int tmp_post_4 = charNum;
             charNum = charNum + 1;
-            buf[(signed long int)tmp_post$4] = newChar;
+            buf[(signed long int)tmp_post_4] = newChar;
           }
 
         }
@@ -10552,12 +10552,12 @@ extern void rndstr(char *buf, signed int ndigits)
         else
           if(!(2 + charNum >= ndigits))
           {
-            signed int tmp_post$5 = charNum;
+            signed int tmp_post_5 = charNum;
             charNum = charNum + 1;
-            buf[(signed long int)tmp_post$5] = (char)92;
-            signed int tmp_post$6 = charNum;
+            buf[(signed long int)tmp_post_5] = (char)92;
+            signed int tmp_post_6 = charNum;
             charNum = charNum + 1;
-            buf[(signed long int)tmp_post$6] = newChar;
+            buf[(signed long int)tmp_post_6] = newChar;
           }
 
       }
@@ -10565,12 +10565,12 @@ extern void rndstr(char *buf, signed int ndigits)
       else
         if((-128 & (signed int)newChar) == 0)
         {
-          return_value___ctype_b_loc$9=__ctype_b_loc();
-          if((2 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)newChar]) == 0)
+          return_value___ctype_b_loc_9=__ctype_b_loc();
+          if((2 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)newChar]) == 0)
           {
-            signed int tmp_post$8 = charNum;
+            signed int tmp_post_8 = charNum;
             charNum = charNum + 1;
-            buf[(signed long int)tmp_post$8] = newChar;
+            buf[(signed long int)tmp_post_8] = newChar;
           }
 
         }
@@ -10593,9 +10593,9 @@ signed int runThem(void)
     ret=ldclt_thread_create(&dummy, scalab01_control, (void *)0);
     if(!(ret == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(ret);
-      fprintf(stderr, "ldclt[%d]: %s\n", mctx.pid, return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(ret);
+      fprintf(stderr, "ldclt[%d]: %s\n", mctx.pid, return_value_strerror_1);
       fprintf(stderr, "ldclt[%d]: Error: cannot create thread scalab01_control\n", mctx.pid);
       fflush(stderr);
       return -1;
@@ -10610,17 +10610,17 @@ signed int runThem(void)
     if(!((2u & mctx.mode) == 0u))
       printf("ldclt[%d]: Creating thread T%03d\n", mctx.pid, i);
 
-    signed int return_value_tttctxInit$2;
-    return_value_tttctxInit$2=tttctxInit(i, &tctx[(signed long int)i]);
-    if(!(return_value_tttctxInit$2 >= 0))
+    signed int return_value_tttctxInit_2;
+    return_value_tttctxInit_2=tttctxInit(i, &tctx[(signed long int)i]);
+    if(!(return_value_tttctxInit_2 >= 0))
       return -1;
 
     ret=ldclt_thread_create(&tctx[(signed long int)i].tid, threadMain, (void *)&tctx[(signed long int)i]);
     if(!(ret == 0))
     {
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(ret);
-      fprintf(stderr, "ldclt[%d]: %s\n", mctx.pid, return_value_strerror$3);
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(ret);
+      fprintf(stderr, "ldclt[%d]: %s\n", mctx.pid, return_value_strerror_3);
       fprintf(stderr, "ldclt[%d]: Error: cannot create thread T%03d\n", mctx.pid, i);
       fflush(stderr);
       return -1;
@@ -10636,14 +10636,14 @@ signed int saslSetParam(char *saslarg)
 {
   char *attr = (char *)(void *)0;
   signed int argnamelen;
-  signed int return_value_strncasecmp$12;
-  signed int return_value_strncasecmp$11;
-  signed int return_value_strncasecmp$10;
-  signed int return_value_strncasecmp$9;
-  signed int return_value_strncasecmp$8;
-  signed int return_value_strncasecmp$6;
-  signed int return_value_strncasecmp$4;
-  signed int return_value_strncasecmp$2;
+  signed int return_value_strncasecmp_12;
+  signed int return_value_strncasecmp_11;
+  signed int return_value_strncasecmp_10;
+  signed int return_value_strncasecmp_9;
+  signed int return_value_strncasecmp_8;
+  signed int return_value_strncasecmp_6;
+  signed int return_value_strncasecmp_4;
+  signed int return_value_strncasecmp_2;
   if(saslarg == ((char *)NULL))
   {
     fprintf(stderr, "Error: missing SASL argument\n");
@@ -10663,9 +10663,9 @@ signed int saslSetParam(char *saslarg)
     {
       argnamelen = (signed int)(attr - saslarg);
       attr = attr + 1l;
-      signed int return_value_strncasecmp$13;
-      return_value_strncasecmp$13=strncasecmp(saslarg, "secProp", (unsigned long int)argnamelen);
-      if(return_value_strncasecmp$13 == 0)
+      signed int return_value_strncasecmp_13;
+      return_value_strncasecmp_13=strncasecmp(saslarg, "secProp", (unsigned long int)argnamelen);
+      if(return_value_strncasecmp_13 == 0)
       {
         if(!(mctx.sasl_secprops == ((char *)NULL)))
         {
@@ -10684,8 +10684,8 @@ signed int saslSetParam(char *saslarg)
 
       else
       {
-        return_value_strncasecmp$12=strncasecmp(saslarg, "realm", (unsigned long int)argnamelen);
-        if(return_value_strncasecmp$12 == 0)
+        return_value_strncasecmp_12=strncasecmp(saslarg, "realm", (unsigned long int)argnamelen);
+        if(return_value_strncasecmp_12 == 0)
         {
           if(!(mctx.sasl_realm == ((char *)NULL)))
           {
@@ -10704,8 +10704,8 @@ signed int saslSetParam(char *saslarg)
 
         else
         {
-          return_value_strncasecmp$11=strncasecmp(saslarg, "authzid", (unsigned long int)argnamelen);
-          if(return_value_strncasecmp$11 == 0)
+          return_value_strncasecmp_11=strncasecmp(saslarg, "authzid", (unsigned long int)argnamelen);
+          if(return_value_strncasecmp_11 == 0)
           {
             if(!(mctx.sasl_username == ((char *)NULL)))
             {
@@ -10724,8 +10724,8 @@ signed int saslSetParam(char *saslarg)
 
           else
           {
-            return_value_strncasecmp$10=strncasecmp(saslarg, "authid", (unsigned long int)argnamelen);
-            if(return_value_strncasecmp$10 == 0)
+            return_value_strncasecmp_10=strncasecmp(saslarg, "authid", (unsigned long int)argnamelen);
+            if(return_value_strncasecmp_10 == 0)
             {
               if(!(mctx.sasl_authid == ((char *)NULL)))
               {
@@ -10744,8 +10744,8 @@ signed int saslSetParam(char *saslarg)
 
             else
             {
-              return_value_strncasecmp$9=strncasecmp(saslarg, "mech", (unsigned long int)argnamelen);
-              if(return_value_strncasecmp$9 == 0)
+              return_value_strncasecmp_9=strncasecmp(saslarg, "mech", (unsigned long int)argnamelen);
+              if(return_value_strncasecmp_9 == 0)
               {
                 if(!(mctx.sasl_mech == ((char *)NULL)))
                 {
@@ -10764,51 +10764,51 @@ signed int saslSetParam(char *saslarg)
 
               else
               {
-                return_value_strncasecmp$8=strncasecmp(saslarg, "flags", (unsigned long int)argnamelen);
-                if(return_value_strncasecmp$8 == 0)
+                return_value_strncasecmp_8=strncasecmp(saslarg, "flags", (unsigned long int)argnamelen);
+                if(return_value_strncasecmp_8 == 0)
                 {
                   signed int len;
-                  unsigned long int return_value_strlen$1;
-                  return_value_strlen$1=strlen(attr);
-                  len = (signed int)return_value_strlen$1;
-                  _Bool tmp_if_expr$7;
+                  unsigned long int return_value_strlen_1;
+                  return_value_strlen_1=strlen(attr);
+                  len = (signed int)return_value_strlen_1;
+                  _Bool tmp_if_expr_7;
                   if(!(len == 0))
                   {
-                    return_value_strncasecmp$6=strncasecmp(attr, "automatic", (unsigned long int)len);
-                    tmp_if_expr$7 = !(return_value_strncasecmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+                    return_value_strncasecmp_6=strncasecmp(attr, "automatic", (unsigned long int)len);
+                    tmp_if_expr_7 = !(return_value_strncasecmp_6 != 0) ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$7 = (_Bool)0;
-                  if(tmp_if_expr$7)
+                    tmp_if_expr_7 = (_Bool)0;
+                  if(tmp_if_expr_7)
                     mctx.sasl_flags = 0U;
 
                   else
                   {
-                    _Bool tmp_if_expr$5;
+                    _Bool tmp_if_expr_5;
                     if(!(len == 0))
                     {
-                      return_value_strncasecmp$4=strncasecmp(attr, "interactive", (unsigned long int)len);
-                      tmp_if_expr$5 = !(return_value_strncasecmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+                      return_value_strncasecmp_4=strncasecmp(attr, "interactive", (unsigned long int)len);
+                      tmp_if_expr_5 = !(return_value_strncasecmp_4 != 0) ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$5 = (_Bool)0;
-                    if(tmp_if_expr$5)
+                      tmp_if_expr_5 = (_Bool)0;
+                    if(tmp_if_expr_5)
                       mctx.sasl_flags = 1U;
 
                     else
                     {
-                      _Bool tmp_if_expr$3;
+                      _Bool tmp_if_expr_3;
                       if(!(len == 0))
                       {
-                        return_value_strncasecmp$2=strncasecmp(attr, "quiet", (unsigned long int)len);
-                        tmp_if_expr$3 = !(return_value_strncasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+                        return_value_strncasecmp_2=strncasecmp(attr, "quiet", (unsigned long int)len);
+                        tmp_if_expr_3 = !(return_value_strncasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
                       }
 
                       else
-                        tmp_if_expr$3 = (_Bool)0;
-                      if(tmp_if_expr$3)
+                        tmp_if_expr_3 = (_Bool)0;
+                      if(tmp_if_expr_3)
                         mctx.sasl_flags = 2U;
 
                       else
@@ -10845,21 +10845,21 @@ signed int scalab01Lock(struct thread_context *tttctx)
   ret=ldclt_mutex_lock(&s1ctx.locking_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror_1);
     fflush(stderr);
     return -1;
   }
 
   res = 1;
   i = 0;
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   for( ; !(i >= s1ctx.lockingMax); i = i + 1)
     if(!(s1ctx.locking[(signed long int)i] == ((char *)NULL)))
     {
-      return_value_strcmp$2=strcmp(s1ctx.locking[(signed long int)i], tttctx->bufBindDN);
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(s1ctx.locking[(signed long int)i], tttctx->bufBindDN);
+      if(return_value_strcmp_2 == 0)
       {
         res = 0;
         break;
@@ -10867,18 +10867,18 @@ signed int scalab01Lock(struct thread_context *tttctx)
 
     }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(res == 1)
   {
     i = 0;
     do
     {
       if(!(i >= s1ctx.lockingMax))
-        tmp_if_expr$3 = s1ctx.locking[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = s1ctx.locking[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
       i = i + 1;
@@ -10901,9 +10901,9 @@ signed int scalab01Lock(struct thread_context *tttctx)
   ret=ldclt_mutex_unlock(&s1ctx.locking_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror$4);
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror_4);
     fflush(stderr);
     return -1;
   }
@@ -10920,20 +10920,20 @@ signed int scalab01Unlock(struct thread_context *tttctx)
   ret=ldclt_mutex_lock(&s1ctx.locking_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror_1);
     fflush(stderr);
     return -1;
   }
 
   i = 0;
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   for( ; !(i >= s1ctx.lockingMax); i = i + 1)
     if(!(s1ctx.locking[(signed long int)i] == ((char *)NULL)))
     {
-      return_value_strcmp$2=strcmp(s1ctx.locking[(signed long int)i], tttctx->bufBindDN);
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(s1ctx.locking[(signed long int)i], tttctx->bufBindDN);
+      if(return_value_strcmp_2 == 0)
       {
         s1ctx.locking[(signed long int)i] = (char *)(void *)0;
         break;
@@ -10944,9 +10944,9 @@ signed int scalab01Unlock(struct thread_context *tttctx)
   ret=ldclt_mutex_unlock(&s1ctx.locking_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror$3);
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror_3);
     fflush(stderr);
     return -1;
   }
@@ -10962,18 +10962,18 @@ signed int scalab01_addLogin(struct thread_context *tttctx, char *dn, signed int
   struct isp_user *new;
   struct isp_user *cur;
   signed int rc = 0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct isp_user) /*1040ul*/ );
-  new = (struct isp_user *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct isp_user) /*1040ul*/ );
+  new = (struct isp_user *)return_value_malloc_1;
   if(new == ((struct isp_user *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "ldclt[%d]: %s: cannot malloc(isp_user), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, *return_value___errno_location$2, return_value_strerror$4);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "ldclt[%d]: %s: cannot malloc(isp_user), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, *return_value___errno_location_2, return_value_strerror_4);
     fflush(stderr);
     return -1;
   }
@@ -10986,9 +10986,9 @@ signed int scalab01_addLogin(struct thread_context *tttctx, char *dn, signed int
   ret=ldclt_mutex_lock(&s1ctx.list_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror$5);
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror_5);
     fflush(stderr);
     rc = -1;
     goto error;
@@ -11041,9 +11041,9 @@ done:
   ret=ldclt_mutex_unlock(&s1ctx.list_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror$6);
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, ret, return_value_strerror_6);
     fflush(stderr);
     rc = -1;
   }
@@ -11085,9 +11085,9 @@ extern void * scalab01_control(void *arg)
   signed int ret;
   signed int nbTot;
   signed int nbU;
-  signed int return_value_scalab01_connectSuperuser$1;
-  return_value_scalab01_connectSuperuser$1=scalab01_connectSuperuser();
-  if(!(return_value_scalab01_connectSuperuser$1 >= 0))
+  signed int return_value_scalab01_connectSuperuser_1;
+  return_value_scalab01_connectSuperuser_1=scalab01_connectSuperuser();
+  if(!(return_value_scalab01_connectSuperuser_1 >= 0))
     ldcltExit(4);
 
   while((_Bool)1)
@@ -11098,9 +11098,9 @@ extern void * scalab01_control(void *arg)
     ret=ldclt_mutex_lock(&s1ctx.list_mutex);
     if(!(ret == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(ret);
-      fprintf(stderr, "ldclt[%d]: ctrl: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, ret, return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(ret);
+      fprintf(stderr, "ldclt[%d]: ctrl: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, ret, return_value_strerror_2);
       fflush(stderr);
       ldcltExit(99);
     }
@@ -11111,13 +11111,13 @@ extern void * scalab01_control(void *arg)
       cur->counter = cur->counter - 1;
       nbTot = nbTot + 1;
     }
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(s1ctx.list == ((struct isp_user *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = s1ctx.list->counter > 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = s1ctx.list->counter > 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       head = (struct isp_user *)(void *)0;
 
     else
@@ -11133,18 +11133,18 @@ extern void * scalab01_control(void *arg)
     ret=ldclt_mutex_unlock(&s1ctx.list_mutex);
     if(!(ret == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(ret);
-      fprintf(stderr, "ldclt[%d]: ctrl: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, ret, return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(ret);
+      fprintf(stderr, "ldclt[%d]: ctrl: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, ret, return_value_strerror_4);
       fflush(stderr);
       ldcltExit(99);
     }
 
     while(!(head == ((struct isp_user *)NULL)))
     {
-      signed int return_value_scalab01_unlock$5;
-      return_value_scalab01_unlock$5=scalab01_unlock(head);
-      if(!(return_value_scalab01_unlock$5 >= 0))
+      signed int return_value_scalab01_unlock_5;
+      return_value_scalab01_unlock_5=scalab01_unlock(head);
+      if(!(return_value_scalab01_unlock_5 >= 0))
       {
         printf("ldclt[%d]: ctrl: cannot unlock %s\n", mctx.pid, (const void *)head->dn);
         ldcltExit(99);
@@ -11180,9 +11180,9 @@ extern signed int scalab01_init(void)
   ret=ldclt_mutex_init(&s1ctx.list_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s\n", mctx.pid, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s\n", mctx.pid, return_value_strerror_1);
     fprintf(stderr, "ldclt[%d]: Error: cannot initiate s1ctx.list_mutex\n", mctx.pid);
     fflush(stderr);
     return -1;
@@ -11191,9 +11191,9 @@ extern signed int scalab01_init(void)
   ret=ldclt_mutex_init(&s1ctx.locking_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s\n", mctx.pid, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s\n", mctx.pid, return_value_strerror_2);
     fprintf(stderr, "ldclt[%d]: Error: cannot initiate s1ctx.locking_mutex\n", mctx.pid);
     fflush(stderr);
     return -1;
@@ -11202,9 +11202,9 @@ extern signed int scalab01_init(void)
   ret=ldclt_mutex_init(&s1ctx.nbcnx_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s\n", mctx.pid, return_value_strerror$3);
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s\n", mctx.pid, return_value_strerror_3);
     fprintf(stderr, "ldclt[%d]: Error: cannot initiate s1ctx.nbcnx_mutex\n", mctx.pid);
     fflush(stderr);
     return -1;
@@ -11221,9 +11221,9 @@ signed int scalab01_modemDecr(char *ident)
   ret=ldclt_mutex_lock(&s1ctx.nbcnx_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, ident, ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, ident, ret, return_value_strerror_1);
     fflush(stderr);
     return -1;
   }
@@ -11232,9 +11232,9 @@ signed int scalab01_modemDecr(char *ident)
   ret=ldclt_mutex_unlock(&s1ctx.nbcnx_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, ident, ret, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, ident, ret, return_value_strerror_2);
     fflush(stderr);
     return -1;
   }
@@ -11251,9 +11251,9 @@ signed int scalab01_modemIncr(char *ident)
   ret=ldclt_mutex_lock(&s1ctx.nbcnx_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, ident, ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_lock(), error=%d (%s)\n", mctx.pid, ident, ret, return_value_strerror_1);
     fflush(stderr);
     return -1;
   }
@@ -11269,9 +11269,9 @@ signed int scalab01_modemIncr(char *ident)
   ret=ldclt_mutex_unlock(&s1ctx.nbcnx_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, ident, ret, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: %s: cannot mutex_unlock(), error=%d (%s)\n", mctx.pid, ident, ret, return_value_strerror_2);
     fflush(stderr);
     return -1;
   }
@@ -11285,9 +11285,9 @@ signed int scalab01_unlock(struct isp_user *user)
 {
   signed int account;
   char buf[20l];
-  signed int return_value_readAttrValue$1;
-  return_value_readAttrValue$1=readAttrValue(s1ctx.ldapCtx, "ctrl", user->dn, "ntUserUnitsPerWeek", buf);
-  if(!(return_value_readAttrValue$1 >= 0))
+  signed int return_value_readAttrValue_1;
+  return_value_readAttrValue_1=readAttrValue(s1ctx.ldapCtx, "ctrl", user->dn, "ntUserUnitsPerWeek", buf);
+  if(!(return_value_readAttrValue_1 >= 0))
   {
     printf("ldclt[%d]: ctrl: Cannot read accounting attribute of %s\n", mctx.pid, (const void *)user->dn);
     fflush(stdout);
@@ -11306,9 +11306,9 @@ signed int scalab01_unlock(struct isp_user *user)
       account = 0;
     }
     sprintf(buf, "%d", account + user->cost);
-    signed int return_value_writeAttrValue$2;
-    return_value_writeAttrValue$2=writeAttrValue(s1ctx.ldapCtx, "ctrl", user->dn, "ntUserUnitsPerWeek", buf);
-    if(!(return_value_writeAttrValue$2 >= 0))
+    signed int return_value_writeAttrValue_2;
+    return_value_writeAttrValue_2=writeAttrValue(s1ctx.ldapCtx, "ctrl", user->dn, "ntUserUnitsPerWeek", buf);
+    if(!(return_value_writeAttrValue_2 >= 0))
     {
       printf("ldclt[%d]: ctrl: Cannot write accounting attribute of %s\n", mctx.pid, (const void *)user->dn);
       fflush(stdout);
@@ -11317,9 +11317,9 @@ signed int scalab01_unlock(struct isp_user *user)
 
     else
     {
-      signed int return_value_writeAttrValue$3;
-      return_value_writeAttrValue$3=writeAttrValue(s1ctx.ldapCtx, "ctrl", user->dn, "ntUserFlags", "0");
-      if(!(return_value_writeAttrValue$3 >= 0))
+      signed int return_value_writeAttrValue_3;
+      return_value_writeAttrValue_3=writeAttrValue(s1ctx.ldapCtx, "ctrl", user->dn, "ntUserFlags", "0");
+      if(!(return_value_writeAttrValue_3 >= 0))
       {
         printf("ldclt[%d]: ctrl: Cannot write lock (unlock) attribute of %s\n", mctx.pid, (const void *)user->dn);
         fflush(stdout);
@@ -11331,9 +11331,9 @@ signed int scalab01_unlock(struct isp_user *user)
         if(!((2u & mctx.mode) == 0u))
           printf("ldclt[%d]: ctrl: entry %s unlocked\n", mctx.pid, (const void *)user->dn);
 
-        signed int return_value_scalab01_modemDecr$4;
-        return_value_scalab01_modemDecr$4=scalab01_modemDecr("ctrl");
-        if(!(return_value_scalab01_modemDecr$4 >= 0))
+        signed int return_value_scalab01_modemDecr_4;
+        return_value_scalab01_modemDecr_4=scalab01_modemDecr("ctrl");
+        if(!(return_value_scalab01_modemDecr_4 >= 0))
           return -1;
 
         else
@@ -11347,9 +11347,9 @@ signed int scalab01_unlock(struct isp_user *user)
 // file ../ldap/servers/slapd/tools/ldclt/ldclt.h line 719
 extern char ** selectRandomAttrList(struct thread_context *tttctx)
 {
-  signed int return_value_rndlim$1;
-  return_value_rndlim$1=rndlim(0, mctx.attrlistNb - 1);
-  tttctx->attrlist[(signed long int)0] = mctx.attrlist[(signed long int)return_value_rndlim$1];
+  signed int return_value_rndlim_1;
+  return_value_rndlim_1=rndlim(0, mctx.attrlistNb - 1);
+  tttctx->attrlist[(signed long int)0] = mctx.attrlist[(signed long int)return_value_rndlim_1];
   return tttctx->attrlist;
 }
 
@@ -11361,9 +11361,9 @@ extern signed int setThreadStatus(struct thread_context *tttctx, signed int stat
   ret=ldclt_mutex_lock(&tttctx->status_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: Cannot mutex_lock(T%03d), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: Cannot mutex_lock(T%03d), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror_1);
     fprintf(stderr, "ldclt[%d]: Problem in setThreadStatus()\n", mctx.pid);
     fflush(stderr);
     return -1;
@@ -11373,9 +11373,9 @@ extern signed int setThreadStatus(struct thread_context *tttctx, signed int stat
   ret=ldclt_mutex_unlock(&tttctx->status_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    fprintf(stderr, "ldclt[%d]: Cannot mutex_unlock(T%03d), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    fprintf(stderr, "ldclt[%d]: Cannot mutex_unlock(T%03d), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, ret, return_value_strerror_2);
     fprintf(stderr, "ldclt[%d]: Problem in setThreadStatus()\n", mctx.pid);
     fflush(stderr);
     return -1;
@@ -11399,9 +11399,9 @@ signed int shutdownThreads(void)
     ret=ldclt_mutex_lock(&tctx[(signed long int)i].status_mutex);
     if(!(ret == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(ret);
-      fprintf(stderr, "Cannot mutex_lock(T%03d), error=%d (%s)\n", tctx[(signed long int)i].thrdNum, ret, return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(ret);
+      fprintf(stderr, "Cannot mutex_lock(T%03d), error=%d (%s)\n", tctx[(signed long int)i].thrdNum, ret, return_value_strerror_1);
       printf("Cannot command shutdwon to thread %d\n", tctx[(signed long int)i].thrdNum);
       return -1;
     }
@@ -11412,9 +11412,9 @@ signed int shutdownThreads(void)
     ret=ldclt_mutex_unlock(&tctx[(signed long int)i].status_mutex);
     if(!(ret == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(ret);
-      fprintf(stderr, "Cannot mutex_unlock(T%03d), error=%d (%s)\n", tctx[(signed long int)i].thrdNum, ret, return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(ret);
+      fprintf(stderr, "Cannot mutex_unlock(T%03d), error=%d (%s)\n", tctx[(signed long int)i].thrdNum, ret, return_value_strerror_2);
       printf("Cannot command shutdwon to thread %d\n", tctx[(signed long int)i].thrdNum);
       return -1;
     }
@@ -11432,9 +11432,9 @@ signed int shutdownThreads(void)
       i = 0;
       for( ; !(i >= mctx.nbThreads); i = i + 1)
       {
-        signed int return_value_getThreadStatus$3;
-        return_value_getThreadStatus$3=getThreadStatus(&tctx[(signed long int)i], &status);
-        if(!(return_value_getThreadStatus$3 >= 0))
+        signed int return_value_getThreadStatus_3;
+        return_value_getThreadStatus_3=getThreadStatus(&tctx[(signed long int)i], &status);
+        if(!(return_value_getThreadStatus_3 >= 0))
         {
           printf("Cannot command shutdown to thread %d\n", tctx[(signed long int)i].thrdNum);
           return -1;
@@ -11468,18 +11468,18 @@ signed int shutdownThreads(void)
 extern char ** strList1(char *str1)
 {
   char **p;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)2 * sizeof(char *) /*8ul*/ );
-  p = (char **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)2 * sizeof(char *) /*8ul*/ );
+  p = (char **)return_value_malloc_1;
   if(p == ((char **)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    printf("ldclt[%d]: Txxx: cannot malloc(p), error=%d (%s)\n", mctx.pid, *return_value___errno_location$2, return_value_strerror$4);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    printf("ldclt[%d]: Txxx: cannot malloc(p), error=%d (%s)\n", mctx.pid, *return_value___errno_location_2, return_value_strerror_4);
     ldcltExit(8);
   }
 
@@ -11496,19 +11496,19 @@ extern void * threadMain(void *arg)
   signed int go = 1;
   signed int status;
   tttctx = (struct thread_context *)arg;
-  signed int return_value_setThreadStatus$1;
-  return_value_setThreadStatus$1=setThreadStatus(tttctx, 0);
-  void *return_value_malloc$2;
-  signed int return_value_doAddEntry$46;
-  signed int return_value_doAttrReplace$47;
-  signed int return_value_doAttrFileReplace$48;
-  signed int return_value_doDeleteEntry$49;
-  signed int return_value_doBindOnly$50;
-  signed int return_value_doExactSearch$51;
-  signed int return_value_doRename$52;
-  signed int return_value_doScalab01$53;
-  signed int return_value_doGenldif$54;
-  if(!(return_value_setThreadStatus$1 >= 0))
+  signed int return_value_setThreadStatus_1;
+  return_value_setThreadStatus_1=setThreadStatus(tttctx, 0);
+  void *return_value_malloc_2;
+  signed int return_value_doAddEntry_46;
+  signed int return_value_doAttrReplace_47;
+  signed int return_value_doAttrFileReplace_48;
+  signed int return_value_doDeleteEntry_49;
+  signed int return_value_doBindOnly_50;
+  signed int return_value_doExactSearch_51;
+  signed int return_value_doRename_52;
+  signed int return_value_doScalab01_53;
+  signed int return_value_doGenldif_54;
+  if(!(return_value_setThreadStatus_1 >= 0))
   {
     tttctx->status = 9;
     return (void *)0;
@@ -11531,26 +11531,26 @@ extern void * threadMain(void *arg)
     {
       if(!((4u & mctx.mod2) == 0u))
       {
-        return_value_malloc$2=malloc((unsigned long int)512);
-        tttctx->bufFilter = (char *)return_value_malloc$2;
+        return_value_malloc_2=malloc((unsigned long int)512);
+        tttctx->bufFilter = (char *)return_value_malloc_2;
       }
 
       else
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(mctx.filter);
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(return_value_strlen$3 + (unsigned long int)1);
-        tttctx->bufFilter = (char *)return_value_malloc$4;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(mctx.filter);
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(return_value_strlen_3 + (unsigned long int)1);
+        tttctx->bufFilter = (char *)return_value_malloc_4;
         if(tttctx->bufFilter == ((char *)NULL))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          char *return_value_strerror$7;
-          return_value_strerror$7=strerror(*return_value___errno_location$6);
-          printf("ldclt[%d]: %s: cannot malloc(tttctx->bufFilter), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, *return_value___errno_location$5, return_value_strerror$7);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          char *return_value_strerror_7;
+          return_value_strerror_7=strerror(*return_value___errno_location_6);
+          printf("ldclt[%d]: %s: cannot malloc(tttctx->bufFilter), error=%d (%s)\n", mctx.pid, (const void *)tttctx->thrdId, *return_value___errno_location_5, return_value_strerror_7);
           ldcltExit(7);
         }
 
@@ -11559,9 +11559,9 @@ extern void * threadMain(void *arg)
 
         else
         {
-          unsigned long int return_value_strlen$8;
-          return_value_strlen$8=strlen(mctx.randomHead);
-          tttctx->startRandom = (signed int)return_value_strlen$8;
+          unsigned long int return_value_strlen_8;
+          return_value_strlen_8=strlen(mctx.randomHead);
+          tttctx->startRandom = (signed int)return_value_strlen_8;
           strcpy(tttctx->bufFilter, mctx.randomHead);
           strcpy(&tttctx->bufFilter[(signed long int)(tttctx->startRandom + mctx.randomNbDigit)], mctx.randomTail);
           if(!((2u & mctx.mode) == 0u))
@@ -11572,20 +11572,20 @@ extern void * threadMain(void *arg)
 
         }
       }
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(mctx.baseDN);
-      void *return_value_malloc$10;
-      return_value_malloc$10=malloc(return_value_strlen$9 + (unsigned long int)1);
-      tttctx->bufBaseDN = (char *)return_value_malloc$10;
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(mctx.baseDN);
+      void *return_value_malloc_10;
+      return_value_malloc_10=malloc(return_value_strlen_9 + (unsigned long int)1);
+      tttctx->bufBaseDN = (char *)return_value_malloc_10;
       if(tttctx->bufBaseDN == ((char *)NULL))
       {
-        signed int *return_value___errno_location$11;
-        return_value___errno_location$11=__errno_location();
-        signed int *return_value___errno_location$12;
-        return_value___errno_location$12=__errno_location();
-        char *return_value_strerror$13;
-        return_value_strerror$13=strerror(*return_value___errno_location$12);
-        printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufBaseDN), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location$11, return_value_strerror$13);
+        signed int *return_value___errno_location_11;
+        return_value___errno_location_11=__errno_location();
+        signed int *return_value___errno_location_12;
+        return_value___errno_location_12=__errno_location();
+        char *return_value_strerror_13;
+        return_value_strerror_13=strerror(*return_value___errno_location_12);
+        printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufBaseDN), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location_11, return_value_strerror_13);
         ldcltExit(7);
       }
 
@@ -11594,28 +11594,28 @@ extern void * threadMain(void *arg)
 
       else
       {
-        unsigned long int return_value_strlen$14;
-        return_value_strlen$14=strlen(mctx.baseDNHead);
-        tttctx->startBaseDN = (signed int)return_value_strlen$14;
+        unsigned long int return_value_strlen_14;
+        return_value_strlen_14=strlen(mctx.baseDNHead);
+        tttctx->startBaseDN = (signed int)return_value_strlen_14;
         strcpy(tttctx->bufBaseDN, mctx.baseDNHead);
         strcpy(&tttctx->bufBaseDN[(signed long int)(tttctx->startBaseDN + mctx.baseDNNbDigit)], mctx.baseDNTail);
       }
       if(!(mctx.bindDN == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$15;
-        return_value_strlen$15=strlen(mctx.bindDN);
-        void *return_value_malloc$16;
-        return_value_malloc$16=malloc(return_value_strlen$15 + (unsigned long int)1);
-        tttctx->bufBindDN = (char *)return_value_malloc$16;
+        unsigned long int return_value_strlen_15;
+        return_value_strlen_15=strlen(mctx.bindDN);
+        void *return_value_malloc_16;
+        return_value_malloc_16=malloc(return_value_strlen_15 + (unsigned long int)1);
+        tttctx->bufBindDN = (char *)return_value_malloc_16;
         if(tttctx->bufBindDN == ((char *)NULL))
         {
-          signed int *return_value___errno_location$17;
-          return_value___errno_location$17=__errno_location();
-          signed int *return_value___errno_location$18;
-          return_value___errno_location$18=__errno_location();
-          char *return_value_strerror$19;
-          return_value_strerror$19=strerror(*return_value___errno_location$18);
-          printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufBindDN), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location$17, return_value_strerror$19);
+          signed int *return_value___errno_location_17;
+          return_value___errno_location_17=__errno_location();
+          signed int *return_value___errno_location_18;
+          return_value___errno_location_18=__errno_location();
+          char *return_value_strerror_19;
+          return_value_strerror_19=strerror(*return_value___errno_location_18);
+          printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufBindDN), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location_17, return_value_strerror_19);
           ldcltExit(7);
         }
 
@@ -11624,9 +11624,9 @@ extern void * threadMain(void *arg)
 
         else
         {
-          unsigned long int return_value_strlen$20;
-          return_value_strlen$20=strlen(mctx.bindDNHead);
-          tttctx->startBindDN = (signed int)return_value_strlen$20;
+          unsigned long int return_value_strlen_20;
+          return_value_strlen_20=strlen(mctx.bindDNHead);
+          tttctx->startBindDN = (signed int)return_value_strlen_20;
           strcpy(tttctx->bufBindDN, mctx.bindDNHead);
           strcpy(&tttctx->bufBindDN[(signed long int)(tttctx->startBindDN + mctx.bindDNNbDigit)], mctx.bindDNTail);
         }
@@ -11634,20 +11634,20 @@ extern void * threadMain(void *arg)
 
       if(!(mctx.passwd == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$21;
-        return_value_strlen$21=strlen(mctx.passwd);
-        void *return_value_malloc$22;
-        return_value_malloc$22=malloc(return_value_strlen$21 + (unsigned long int)1);
-        tttctx->bufPasswd = (char *)return_value_malloc$22;
+        unsigned long int return_value_strlen_21;
+        return_value_strlen_21=strlen(mctx.passwd);
+        void *return_value_malloc_22;
+        return_value_malloc_22=malloc(return_value_strlen_21 + (unsigned long int)1);
+        tttctx->bufPasswd = (char *)return_value_malloc_22;
         if(tttctx->bufPasswd == ((char *)NULL))
         {
-          signed int *return_value___errno_location$23;
-          return_value___errno_location$23=__errno_location();
-          signed int *return_value___errno_location$24;
-          return_value___errno_location$24=__errno_location();
-          char *return_value_strerror$25;
-          return_value_strerror$25=strerror(*return_value___errno_location$24);
-          printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufPasswd), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location$23, return_value_strerror$25);
+          signed int *return_value___errno_location_23;
+          return_value___errno_location_23=__errno_location();
+          signed int *return_value___errno_location_24;
+          return_value___errno_location_24=__errno_location();
+          char *return_value_strerror_25;
+          return_value_strerror_25=strerror(*return_value___errno_location_24);
+          printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufPasswd), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location_23, return_value_strerror_25);
           ldcltExit(7);
         }
 
@@ -11656,9 +11656,9 @@ extern void * threadMain(void *arg)
 
         else
         {
-          unsigned long int return_value_strlen$26;
-          return_value_strlen$26=strlen(mctx.passwdHead);
-          tttctx->startPasswd = (signed int)return_value_strlen$26;
+          unsigned long int return_value_strlen_26;
+          return_value_strlen_26=strlen(mctx.passwdHead);
+          tttctx->startPasswd = (signed int)return_value_strlen_26;
           strcpy(tttctx->bufPasswd, mctx.passwdHead);
           strcpy(&tttctx->bufPasswd[(signed long int)(tttctx->startPasswd + mctx.passwdNbDigit)], mctx.passwdTail);
         }
@@ -11668,31 +11668,31 @@ extern void * threadMain(void *arg)
 
     if(!((16u & mctx.mod2) == 0u))
     {
-      void *return_value_malloc$27;
-      return_value_malloc$27=malloc((unsigned long int)1024);
-      tttctx->bufBindDN = (char *)return_value_malloc$27;
-      void *return_value_malloc$28;
-      return_value_malloc$28=malloc((unsigned long int)1024);
-      tttctx->bufPasswd = (char *)return_value_malloc$28;
+      void *return_value_malloc_27;
+      return_value_malloc_27=malloc((unsigned long int)1024);
+      tttctx->bufBindDN = (char *)return_value_malloc_27;
+      void *return_value_malloc_28;
+      return_value_malloc_28=malloc((unsigned long int)1024);
+      tttctx->bufPasswd = (char *)return_value_malloc_28;
       mctx.passwd = "foo bar";
     }
 
     if(!(mctx.sasl_authid == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$29;
-      return_value_strlen$29=strlen(mctx.sasl_authid);
-      void *return_value_malloc$30;
-      return_value_malloc$30=malloc(return_value_strlen$29 + (unsigned long int)1);
-      tttctx->bufSaslAuthid = (char *)return_value_malloc$30;
+      unsigned long int return_value_strlen_29;
+      return_value_strlen_29=strlen(mctx.sasl_authid);
+      void *return_value_malloc_30;
+      return_value_malloc_30=malloc(return_value_strlen_29 + (unsigned long int)1);
+      tttctx->bufSaslAuthid = (char *)return_value_malloc_30;
       if(tttctx->bufSaslAuthid == ((char *)NULL))
       {
-        signed int *return_value___errno_location$31;
-        return_value___errno_location$31=__errno_location();
-        signed int *return_value___errno_location$32;
-        return_value___errno_location$32=__errno_location();
-        char *return_value_strerror$33;
-        return_value_strerror$33=strerror(*return_value___errno_location$32);
-        printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufSaslAuthid), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location$31, return_value_strerror$33);
+        signed int *return_value___errno_location_31;
+        return_value___errno_location_31=__errno_location();
+        signed int *return_value___errno_location_32;
+        return_value___errno_location_32=__errno_location();
+        char *return_value_strerror_33;
+        return_value_strerror_33=strerror(*return_value___errno_location_32);
+        printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufSaslAuthid), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location_31, return_value_strerror_33);
         ldcltExit(7);
       }
 
@@ -11701,9 +11701,9 @@ extern void * threadMain(void *arg)
 
       else
       {
-        unsigned long int return_value_strlen$34;
-        return_value_strlen$34=strlen(mctx.sasl_authid_head);
-        tttctx->startSaslAuthid = (signed int)return_value_strlen$34;
+        unsigned long int return_value_strlen_34;
+        return_value_strlen_34=strlen(mctx.sasl_authid_head);
+        tttctx->startSaslAuthid = (signed int)return_value_strlen_34;
         strcpy(tttctx->bufSaslAuthid, mctx.sasl_authid_head);
         strcpy(&tttctx->bufSaslAuthid[(signed long int)(tttctx->startSaslAuthid + mctx.sasl_authid_nbdigit)], mctx.sasl_authid_tail);
       }
@@ -11711,26 +11711,26 @@ extern void * threadMain(void *arg)
 
     if(!((16384u & mctx.mode) == 0u))
     {
-      unsigned long int return_value_strlen$35;
-      return_value_strlen$35=strlen(mctx.attrpl);
-      void *return_value_malloc$36;
-      return_value_malloc$36=malloc(return_value_strlen$35 + (unsigned long int)1);
-      tttctx->bufAttrpl = (char *)return_value_malloc$36;
+      unsigned long int return_value_strlen_35;
+      return_value_strlen_35=strlen(mctx.attrpl);
+      void *return_value_malloc_36;
+      return_value_malloc_36=malloc(return_value_strlen_35 + (unsigned long int)1);
+      tttctx->bufAttrpl = (char *)return_value_malloc_36;
       if(tttctx->bufAttrpl == ((char *)NULL))
       {
-        signed int *return_value___errno_location$37;
-        return_value___errno_location$37=__errno_location();
-        signed int *return_value___errno_location$38;
-        return_value___errno_location$38=__errno_location();
-        char *return_value_strerror$39;
-        return_value_strerror$39=strerror(*return_value___errno_location$38);
-        printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufAttrpl), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location$37, return_value_strerror$39);
+        signed int *return_value___errno_location_37;
+        return_value___errno_location_37=__errno_location();
+        signed int *return_value___errno_location_38;
+        return_value___errno_location_38=__errno_location();
+        char *return_value_strerror_39;
+        return_value_strerror_39=strerror(*return_value___errno_location_38);
+        printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufAttrpl), error=%d (%s)\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location_37, return_value_strerror_39);
         ldcltExit(7);
       }
 
-      unsigned long int return_value_strlen$40;
-      return_value_strlen$40=strlen(mctx.attrplHead);
-      tttctx->startAttrpl = (signed int)return_value_strlen$40;
+      unsigned long int return_value_strlen_40;
+      return_value_strlen_40=strlen(mctx.attrplHead);
+      tttctx->startAttrpl = (signed int)return_value_strlen_40;
       strcpy(tttctx->bufAttrpl, mctx.attrplHead);
       strcpy(&tttctx->bufAttrpl[(signed long int)(tttctx->startAttrpl + mctx.attrplNbDigit)], mctx.attrplTail);
     }
@@ -11740,22 +11740,22 @@ extern void * threadMain(void *arg)
       tttctx->bufAttrpl = mctx.attrplFileContent;
       if(tttctx->bufAttrpl == ((char *)NULL))
       {
-        signed int *return_value___errno_location$41;
-        return_value___errno_location$41=__errno_location();
-        signed int *return_value___errno_location$42;
-        return_value___errno_location$42=__errno_location();
-        char *return_value_strerror$43;
-        return_value_strerror$43=strerror(*return_value___errno_location$42);
-        printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufAttrpl), error=%d (%s), can we read file [%s]\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location$41, return_value_strerror$43, mctx.attrplFile);
+        signed int *return_value___errno_location_41;
+        return_value___errno_location_41=__errno_location();
+        signed int *return_value___errno_location_42;
+        return_value___errno_location_42=__errno_location();
+        char *return_value_strerror_43;
+        return_value_strerror_43=strerror(*return_value___errno_location_42);
+        printf("ldclt[%d]: T%03d: cannot malloc(tttctx->bufAttrpl), error=%d (%s), can we read file [%s]\n", mctx.pid, tttctx->thrdNum, *return_value___errno_location_41, return_value_strerror_43, mctx.attrplFile);
         ldcltExit(7);
       }
 
     }
 
     status = 2;
-    signed int return_value_setThreadStatus$44;
-    return_value_setThreadStatus$44=setThreadStatus(tttctx, 2);
-    if(!(return_value_setThreadStatus$44 >= 0))
+    signed int return_value_setThreadStatus_44;
+    return_value_setThreadStatus_44=setThreadStatus(tttctx, 2);
+    if(!(return_value_setThreadStatus_44 >= 0))
       status = 9;
 
     while(!(go == 0) && !(status == 9) && !(status == 10))
@@ -11763,9 +11763,9 @@ extern void * threadMain(void *arg)
       if(mctx.waitSec >= 1)
       {
         ldclt_sleep(mctx.waitSec);
-        signed int return_value_getThreadStatus$45;
-        return_value_getThreadStatus$45=getThreadStatus(tttctx, &status);
-        if(!(return_value_getThreadStatus$45 >= 0))
+        signed int return_value_getThreadStatus_45;
+        return_value_getThreadStatus_45=getThreadStatus(tttctx, &status);
+        if(!(return_value_getThreadStatus_45 >= 0))
           break;
 
         if(status == 10)
@@ -11775,8 +11775,8 @@ extern void * threadMain(void *arg)
 
       if(!((67108864u & tttctx->mode) == 0u))
       {
-        return_value_doAddEntry$46=doAddEntry(tttctx);
-        if(!(return_value_doAddEntry$46 >= 0))
+        return_value_doAddEntry_46=doAddEntry(tttctx);
+        if(!(return_value_doAddEntry_46 >= 0))
         {
           go = 0;
           continue;
@@ -11786,8 +11786,8 @@ extern void * threadMain(void *arg)
 
       if(!((16384u & tttctx->mode) == 0u))
       {
-        return_value_doAttrReplace$47=doAttrReplace(tttctx);
-        if(!(return_value_doAttrReplace$47 >= 0))
+        return_value_doAttrReplace_47=doAttrReplace(tttctx);
+        if(!(return_value_doAttrReplace_47 >= 0))
         {
           go = 0;
           continue;
@@ -11797,8 +11797,8 @@ extern void * threadMain(void *arg)
 
       if(!((1024u & mctx.mod2) == 0u))
       {
-        return_value_doAttrFileReplace$48=doAttrFileReplace(tttctx);
-        if(!(return_value_doAttrFileReplace$48 >= 0))
+        return_value_doAttrFileReplace_48=doAttrFileReplace(tttctx);
+        if(!(return_value_doAttrFileReplace_48 >= 0))
         {
           go = 0;
           continue;
@@ -11808,8 +11808,8 @@ extern void * threadMain(void *arg)
 
       if(!((16777216u & tttctx->mode) == 0u))
       {
-        return_value_doDeleteEntry$49=doDeleteEntry(tttctx);
-        if(!(return_value_doDeleteEntry$49 >= 0))
+        return_value_doDeleteEntry_49=doDeleteEntry(tttctx);
+        if(!(return_value_doDeleteEntry_49 >= 0))
         {
           go = 0;
           continue;
@@ -11819,8 +11819,8 @@ extern void * threadMain(void *arg)
 
       if(!((32u & mctx.mod2) == 0u))
       {
-        return_value_doBindOnly$50=doBindOnly(tttctx);
-        if(!(return_value_doBindOnly$50 >= 0))
+        return_value_doBindOnly_50=doBindOnly(tttctx);
+        if(!(return_value_doBindOnly_50 >= 0))
         {
           go = 0;
           continue;
@@ -11830,8 +11830,8 @@ extern void * threadMain(void *arg)
 
       if(!((0x80000000 & tttctx->mode) == 0u))
       {
-        return_value_doExactSearch$51=doExactSearch(tttctx);
-        if(!(return_value_doExactSearch$51 >= 0))
+        return_value_doExactSearch_51=doExactSearch(tttctx);
+        if(!(return_value_doExactSearch_51 >= 0))
         {
           go = 0;
           continue;
@@ -11841,8 +11841,8 @@ extern void * threadMain(void *arg)
 
       if(!((131072u & tttctx->mode) == 0u))
       {
-        return_value_doRename$52=doRename(tttctx);
-        if(!(return_value_doRename$52 >= 0))
+        return_value_doRename_52=doRename(tttctx);
+        if(!(return_value_doRename_52 >= 0))
         {
           go = 0;
           continue;
@@ -11852,8 +11852,8 @@ extern void * threadMain(void *arg)
 
       if(!((1024u & tttctx->mode) == 0u))
       {
-        return_value_doScalab01$53=doScalab01(tttctx);
-        if(!(return_value_doScalab01$53 >= 0))
+        return_value_doScalab01_53=doScalab01(tttctx);
+        if(!(return_value_doScalab01_53 >= 0))
         {
           go = 0;
           continue;
@@ -11863,8 +11863,8 @@ extern void * threadMain(void *arg)
 
       if(!((2u & mctx.mod2) == 0u))
       {
-        return_value_doGenldif$54=doGenldif(tttctx);
-        if(!(return_value_doGenldif$54 >= 0))
+        return_value_doGenldif_54=doGenldif(tttctx);
+        if(!(return_value_doGenldif_54 >= 0))
         {
           ldclt_flush_genldif();
           go = 0;
@@ -11875,9 +11875,9 @@ extern void * threadMain(void *arg)
 
       if(!((256u & mctx.mod2) == 0u))
       {
-        signed int return_value_doAbandon$55;
-        return_value_doAbandon$55=doAbandon(tttctx);
-        if(!(return_value_doAbandon$55 >= 0))
+        signed int return_value_doAbandon_55;
+        return_value_doAbandon_55=doAbandon(tttctx);
+        if(!(return_value_doAbandon_55 >= 0))
         {
           go = 0;
           continue;
@@ -11885,17 +11885,17 @@ extern void * threadMain(void *arg)
 
       }
 
-      signed int return_value_getThreadStatus$56;
-      return_value_getThreadStatus$56=getThreadStatus(tttctx, &status);
-      if(!(return_value_getThreadStatus$56 >= 0))
+      signed int return_value_getThreadStatus_56;
+      return_value_getThreadStatus_56=getThreadStatus(tttctx, &status);
+      if(!(return_value_getThreadStatus_56 >= 0))
         break;
 
     }
     printf("ldclt[%d]: T%03d: thread is dead.\n", mctx.pid, tttctx->thrdNum);
     fflush(stdout);
-    signed int return_value_setThreadStatus$57;
-    return_value_setThreadStatus$57=setThreadStatus(tttctx, 9);
-    if(!(return_value_setThreadStatus$57 >= 0))
+    signed int return_value_setThreadStatus_57;
+    return_value_setThreadStatus_57=setThreadStatus(tttctx, 9);
+    if(!(return_value_setThreadStatus_57 >= 0))
     {
       ldclt_sleep(1);
       tttctx->status = 9;
@@ -11907,7 +11907,7 @@ extern void * threadMain(void *arg)
 
 // trapVector
 // file ../ldap/servers/slapd/tools/ldclt/ldclt.c line 835
-void trapVector(signed int sig, struct anonymous$11 *siginfo, void *truc)
+void trapVector(signed int sig, struct anonymous_11 *siginfo, void *truc)
 {
   printf("\n");
   printGlobalStatistics();
@@ -11937,9 +11937,9 @@ signed int tttctxInit(signed int num, struct thread_context *tttctx)
   sprintf(tttctx->thrdId, "T%03d", tttctx->thrdNum);
   if(!((1u & mctx.mod2) == 0u))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)512);
-    tttctx->bufObject1 = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)512);
+    tttctx->bufObject1 = (char *)return_value_malloc_1;
     tttctx->object=copyVersObject(&mctx.object);
     if(tttctx->object == ((struct vers_object *)NULL))
       return -1;
@@ -11949,9 +11949,9 @@ signed int tttctxInit(signed int num, struct thread_context *tttctx)
   ret=ldclt_mutex_init(&tttctx->nbOpers_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    fprintf(stderr, "ldclt: %s\n", return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    fprintf(stderr, "ldclt: %s\n", return_value_strerror_2);
     fprintf(stderr, "Error: cannot initiate nbOpers_mutex %s\n", (const void *)tttctx->thrdId);
     fflush(stderr);
     return -1;
@@ -11960,9 +11960,9 @@ signed int tttctxInit(signed int num, struct thread_context *tttctx)
   ret=ldclt_mutex_init(&tttctx->status_mutex);
   if(!(ret == 0))
   {
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(ret);
-    fprintf(stderr, "ldclt: %s\n", return_value_strerror$3);
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(ret);
+    fprintf(stderr, "ldclt: %s\n", return_value_strerror_3);
     fprintf(stderr, "Error: cannot initiate status_mutex %s\n", (const void *)tttctx->thrdId);
     fflush(stderr);
     return -1;
@@ -12106,9 +12106,9 @@ signed int writeAttrValue(struct ldap *ldapCtx, char *ident, char *dn, char *att
   ret=ldap_modify_ext_s(ldapCtx, dn, attrsmod, (struct ldapcontrol **)(void *)0, (struct ldapcontrol **)(void *)0);
   if(!(ret == 0x00))
   {
-    char *return_value_my_ldap_err2string$1;
-    return_value_my_ldap_err2string$1=my_ldap_err2string(ret);
-    printf("ldclt[%d]: %s: Cannot ldap_modify_ext_s (%s in %s), error=%d (%s)\n", mctx.pid, ident, attname, dn, ret, return_value_my_ldap_err2string$1);
+    char *return_value_my_ldap_err2string_1;
+    return_value_my_ldap_err2string_1=my_ldap_err2string(ret);
+    printf("ldclt[%d]: %s: Cannot ldap_modify_ext_s (%s in %s), error=%d (%s)\n", mctx.pid, ident, attname, dn, ret, return_value_my_ldap_err2string_1);
     fflush(stdout);
     return -1;
   }

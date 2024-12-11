@@ -1,422 +1,422 @@
-// #anon_enum$DBUS_BUS_SESSION=0$DBUS_BUS_SYSTEM=1$DBUS_BUS_STARTER=2
+// #anon_enum_DBUS_BUS_SESSION=0_DBUS_BUS_SYSTEM=1_DBUS_BUS_STARTER=2
 // file /usr/include/dbus-1.0/dbus/dbus-shared.h line 56
-enum anonymous$6 { DBUS_BUS_SESSION=0, DBUS_BUS_SYSTEM=1, DBUS_BUS_STARTER=2 };
+enum anonymous_6 { DBUS_BUS_SESSION=0, DBUS_BUS_SYSTEM=1, DBUS_BUS_STARTER=2 };
 
-// #anon_enum$JCS_UNKNOWN=0$JCS_GRAYSCALE=1$JCS_RGB=2$JCS_YCbCr=3$JCS_CMYK=4$JCS_YCCK=5$JCS_EXT_RGB=6$JCS_EXT_RGBX=7$JCS_EXT_BGR=8$JCS_EXT_BGRX=9$JCS_EXT_XBGR=10$JCS_EXT_XRGB=11$JCS_EXT_RGBA=12$JCS_EXT_BGRA=13$JCS_EXT_ABGR=14$JCS_EXT_ARGB=15$JCS_RGB565=16
+// #anon_enum_JCS_UNKNOWN=0_JCS_GRAYSCALE=1_JCS_RGB=2_JCS_YCbCr=3_JCS_CMYK=4_JCS_YCCK=5_JCS_EXT_RGB=6_JCS_EXT_RGBX=7_JCS_EXT_BGR=8_JCS_EXT_BGRX=9_JCS_EXT_XBGR=10_JCS_EXT_XRGB=11_JCS_EXT_RGBA=12_JCS_EXT_BGRA=13_JCS_EXT_ABGR=14_JCS_EXT_ARGB=15_JCS_RGB565=16
 // file /usr/include/jpeglib.h line 215
-enum anonymous$0 { JCS_UNKNOWN=0, JCS_GRAYSCALE=1, JCS_RGB=2, JCS_YCbCr=3, JCS_CMYK=4, JCS_YCCK=5, JCS_EXT_RGB=6, JCS_EXT_RGBX=7, JCS_EXT_BGR=8, JCS_EXT_BGRX=9, JCS_EXT_XBGR=10, JCS_EXT_XRGB=11, JCS_EXT_RGBA=12, JCS_EXT_BGRA=13, JCS_EXT_ABGR=14, JCS_EXT_ARGB=15, JCS_RGB565=16 };
+enum anonymous_0 { JCS_UNKNOWN=0, JCS_GRAYSCALE=1, JCS_RGB=2, JCS_YCbCr=3, JCS_CMYK=4, JCS_YCCK=5, JCS_EXT_RGB=6, JCS_EXT_RGBX=7, JCS_EXT_BGR=8, JCS_EXT_BGRX=9, JCS_EXT_XBGR=10, JCS_EXT_XRGB=11, JCS_EXT_RGBA=12, JCS_EXT_BGRA=13, JCS_EXT_ABGR=14, JCS_EXT_ARGB=15, JCS_RGB565=16 };
 
-// #anon_enum$JDCT_ISLOW=0$JDCT_IFAST=1$JDCT_FLOAT=2
+// #anon_enum_JDCT_ISLOW=0_JDCT_IFAST=1_JDCT_FLOAT=2
 // file /usr/include/jpeglib.h line 244
-enum anonymous$5 { JDCT_ISLOW=0, JDCT_IFAST=1, JDCT_FLOAT=2 };
+enum anonymous_5 { JDCT_ISLOW=0, JDCT_IFAST=1, JDCT_FLOAT=2 };
 
-// tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$}$*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$$'get_param_descr'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'get_help'|]
+// tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_}_*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#__'get_param_descr'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'get_help'|]
 // file /usr/include/xine.h line 834
-struct anonymous$69;
+struct anonymous_69;
 
-// tag-#anon#ST[*{S8}$S8$'filename'||S64'filesize'||S64'filemtime'||*{V}$V$'lib_handle'||S32'ref'||S32'no_unload'|]
+// tag-#anon#ST[*{S8}_S8_'filename'||S64'filesize'||S64'filemtime'||*{V}_V_'lib_handle'||S32'ref'||S32'no_unload'|]
 // file /usr/include/xine/plugin_catalog.h line 35
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{S8}$S8$'origin'||*{S8}$S8$'mrl'||*{S8}$S8$'link'||S64'size'||U32'type'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'origin'||*{S8}_S8_'mrl'||*{S8}_S8_'link'||S64'size'||U32'type'||U32'_pad0'|]
 // file /usr/include/xine.h line 1067
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[*{S8}$S8$'res_name'||*{S8}$S8$'res_class'|]
+// tag-#anon#ST[*{S8}_S8_'res_name'||*{S8}_S8_'res_class'|]
 // file /usr/include/X11/Xutil.h line 189
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'filename'||S64'filesize'||S64'filemtime'||*{V}$V$'lib_handle'||S32'ref'||S32'no_unload'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'filename'||S64'filesize'||S64'filemtime'||*{V}$V$'lib_handle'||S32'ref'||S32'no_unload'|]#$'file'||*{SYM#tag-#anon#ST[U8'type'||U8'API'||U48'$pad0'||*{cS8}$cS8$'id'||U32'version'||U32'$pad1'||*{cV}$cV$'special_info'||*{*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$$'init'|]#}$SYM#tag-#anon#ST[U8'type'||U8'API'||U48'$pad0'||*{cS8}$cS8$'id'||U32'version'||U32'$pad1'||*{cV}$cV$'special_info'||*{*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$$'init'|]#$'info'||*{V}$V$'plugin_class'||*{SYM#tag-xine_list_s#}$SYM#tag-xine_list_s#$'config_entry_list'||S32'ref'||S32'priority'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'filename'||S64'filesize'||S64'filemtime'||*{V}_V_'lib_handle'||S32'ref'||S32'no_unload'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'filename'||S64'filesize'||S64'filemtime'||*{V}_V_'lib_handle'||S32'ref'||S32'no_unload'|]#_'file'||*{SYM#tag-#anon#ST[U8'type'||U8'API'||U48'_pad0'||*{cS8}_cS8_'id'||U32'version'||U32'_pad1'||*{cV}_cV_'special_info'||*{*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V__'init'|]#}_SYM#tag-#anon#ST[U8'type'||U8'API'||U48'_pad0'||*{cS8}_cS8_'id'||U32'version'||U32'_pad1'||*{cV}_cV_'special_info'||*{*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V__'init'|]#_'info'||*{V}_V_'plugin_class'||*{SYM#tag-xine_list_s#}_SYM#tag-xine_list_s#_'config_entry_list'||S32'ref'||S32'priority'|]
 // file /usr/include/xine/plugin_catalog.h line 44
-struct anonymous$75;
+struct anonymous_75;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'filename'||S64'filesize'||S64'filemtime'||*{V}$V$'lib_handle'||S32'ref'||S32'no_unload'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'filename'||S64'filesize'||S64'filemtime'||*{V}$V$'lib_handle'||S32'ref'||S32'no_unload'|]#$'file'||*{SYM#tag-#anon#ST[U8'type'||U8'API'||U48'$pad0'||*{cS8}$cS8$'id'||U32'version'||U32'$pad1'||*{cV}$cV$'special_info'||*{*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$$'init'|]#}$SYM#tag-#anon#ST[U8'type'||U8'API'||U48'$pad0'||*{cS8}$cS8$'id'||U32'version'||U32'$pad1'||*{cV}$cV$'special_info'||*{*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$$'init'|]#$'info'||*{V}$V$'plugin_class'||*{SYM#tag-xine_list_s#}$SYM#tag-xine_list_s#$'config_entry_list'||S32'ref'||S32'priority'|]$link1
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'filename'||S64'filesize'||S64'filemtime'||*{V}_V_'lib_handle'||S32'ref'||S32'no_unload'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'filename'||S64'filesize'||S64'filemtime'||*{V}_V_'lib_handle'||S32'ref'||S32'no_unload'|]#_'file'||*{SYM#tag-#anon#ST[U8'type'||U8'API'||U48'_pad0'||*{cS8}_cS8_'id'||U32'version'||U32'_pad1'||*{cV}_cV_'special_info'||*{*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V__'init'|]#}_SYM#tag-#anon#ST[U8'type'||U8'API'||U48'_pad0'||*{cS8}_cS8_'id'||U32'version'||U32'_pad1'||*{cV}_cV_'special_info'||*{*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V__'init'|]#_'info'||*{V}_V_'plugin_class'||*{SYM#tag-xine_list_s#}_SYM#tag-xine_list_s#_'config_entry_list'||S32'ref'||S32'priority'|]_link1
 // file /usr/include/xine/plugin_catalog.h line 44
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visual'||U64'visualid'||S32'screen'||S32'depth'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'colormap_size'||S32'bits_per_rgb'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visual'||U64'visualid'||S32'screen'||S32'depth'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'colormap_size'||S32'bits_per_rgb'|]
 // file /usr/include/X11/Xutil.h line 287
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}$S8$'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'$pad0'||*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#$'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'||S32'qlen'||U32'$pad2'||U64'last_request_read'||U64'request'||*{S8}$S8$'private11'||*{S8}$S8$'private12'||*{S8}$S8$'private13'||*{S8}$S8$'private14'||U32'max_request_size'||U32'$pad3'||*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'||*{S8}$S8$'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}$S8$'private17'||*{S8}$S8$'private18'||S32'private19'||U32'$pad4'||*{S8}$S8$'xdefaults'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}_S8_'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'_pad0'||*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#_'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'||S32'qlen'||U32'_pad2'||U64'last_request_read'||U64'request'||*{S8}_S8_'private11'||*{S8}_S8_'private12'||*{S8}_S8_'private13'||*{S8}_S8_'private14'||U32'max_request_size'||U32'_pad3'||*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'||*{S8}_S8_'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}_S8_'private17'||*{S8}_S8_'private18'||S32'private19'||U32'_pad4'||*{S8}_S8_'xdefaults'|]
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$'post'||*{S8}$S8$'name'||*{S8}$S8$'args'||S32'enable'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_'post'||*{S8}_S8_'name'||*{S8}_S8_'args'||S32'enable'||U32'_pad0'|]
 // file xine/post.h line 32
-struct anonymous$73;
+struct anonymous_73;
 
-// tag-#anon#ST[*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$'post'||*{S8}$S8$'name'||*{S8}$S8$'args'||S32'enable'||U32'$pad0'|]$link1
+// tag-#anon#ST[*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_'post'||*{S8}_S8_'name'||*{S8}_S8_'args'||S32'enable'||U32'_pad0'|]_link1
 // file xine/post.h line 32
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$'post'||*{SYM#tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$}$*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$$'get_param_descr'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'get_help'|]#}$SYM#tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$}$*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$$'get_param_descr'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'get_help'|]#$'api'||*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$'descr'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'param'||*{S8}$S8$'param_data'||S32'x'||S32'y'||S32'readonly'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'properties_names'|]
+// tag-#anon#ST[*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_'post'||*{SYM#tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_}_*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#__'get_param_descr'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'get_help'|]#}_SYM#tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_}_*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#__'get_param_descr'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'get_help'|]#_'api'||*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_'descr'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'param'||*{S8}_S8_'param_data'||S32'x'||S32'y'||S32'readonly'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'properties_names'|]
 // file xine/post.c line 46
-struct anonymous$72;
+struct anonymous_72;
 
-// tag-#anon#ST[*{SYM#tag-xine_stream_s#}$SYM#tag-xine_stream_s#$'stream'||*{V}$V$'data'||S32'data_length'||S32'type'||SYM#tag-timeval#'tv'|]
+// tag-#anon#ST[*{SYM#tag-xine_stream_s#}_SYM#tag-xine_stream_s#_'stream'||*{V}_V_'data'||S32'data_length'||S32'type'||SYM#tag-timeval#'tv'|]
 // file /usr/include/xine.h line 1847
-struct anonymous$88;
+struct anonymous_88;
 
-// tag-#anon#ST[*{SYM#tag-xine_stream_s#}$SYM#tag-xine_stream_s#$'stream'||*{V}$V$'data'||S32'data_length'||S32'type'||SYM#tag-timeval#'tv'|]$link1
+// tag-#anon#ST[*{SYM#tag-xine_stream_s#}_SYM#tag-xine_stream_s#_'stream'||*{V}_V_'data'||S32'data_length'||S32'type'||SYM#tag-timeval#'tv'|]_link1
 // file /usr/include/xine.h line 1847
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{U8}$U8$'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]
+// tag-#anon#ST[*{U8}_U8_'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]
 // file /usr/include/xine.h line 1380
-struct anonymous$94;
+struct anonymous_94;
 
-// tag-#anon#ST[*{V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$|*{S32}$S32$|*{S32}$S32$)->V}$V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$|*{S32}$S32$|*{S32}$S32$)->V$'frame_output_cb'||*{V}$V$'user_data'|]
+// tag-#anon#ST[*{V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_|*{S32}_S32_|*{S32}_S32_)->V}_V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_|*{S32}_S32_|*{S32}_S32_)->V_'frame_output_cb'||*{V}_V_'user_data'|]
 // file /usr/include/xine.h line 1441
-struct anonymous$91;
+struct anonymous_91;
 
-// tag-#anon#ST[*{V}$V$'display'||S32'screen'||U32'$pad0'||U64'd'||*{V}$V$'user_data'||*{V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$)->V}$V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$)->V$'dest_size_cb'||*{V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$|*{S32}$S32$|*{S32}$S32$)->V}$V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$|*{S32}$S32$|*{S32}$S32$)->V$'frame_output_cb'||*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'lock_display'||*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'unlock_display'|]
+// tag-#anon#ST[*{V}_V_'display'||S32'screen'||U32'_pad0'||U64'd'||*{V}_V_'user_data'||*{V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_)->V}_V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_)->V_'dest_size_cb'||*{V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_|*{S32}_S32_|*{S32}_S32_)->V}_V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_|*{S32}_S32_|*{S32}_S32_)->V_'frame_output_cb'||*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'lock_display'||*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'unlock_display'|]
 // file /usr/include/xine.h line 1197
-struct anonymous$92;
+struct anonymous_92;
 
-// tag-#anon#ST[*{V}$V$'reserved'|]
+// tag-#anon#ST[*{V}_V_'reserved'|]
 // file /usr/include/xine/xine_internal.h line 78
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[*{V}$V$'user_data'||S32'supported_formats'||U32'$pad0'||*{V(*{V}$V$|S32|S32|S32|F64|*{V}$V$|*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|S32|S32|S32|F64|*{V}$V$|*{V}$V$|*{V}$V$)->V$'raw_output_cb'||*{V(*{V}$V$|S32|*{SYM#tag-#anon#ST[*{U8}$U8$'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#}$SYM#tag-#anon#ST[*{U8}$U8$'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#$)->V}$V(*{V}$V$|S32|*{SYM#tag-#anon#ST[*{U8}$U8$'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#}$SYM#tag-#anon#ST[*{U8}$U8$'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#$)->V$'raw_overlay_cb'|]
+// tag-#anon#ST[*{V}_V_'user_data'||S32'supported_formats'||U32'_pad0'||*{V(*{V}_V_|S32|S32|S32|F64|*{V}_V_|*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|S32|S32|S32|F64|*{V}_V_|*{V}_V_|*{V}_V_)->V_'raw_output_cb'||*{V(*{V}_V_|S32|*{SYM#tag-#anon#ST[*{U8}_U8_'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#}_SYM#tag-#anon#ST[*{U8}_U8_'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#_)->V}_V(*{V}_V_|S32|*{SYM#tag-#anon#ST[*{U8}_U8_'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#}_SYM#tag-#anon#ST[*{U8}_U8_'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#_)->V_'raw_overlay_cb'|]
 // file /usr/include/xine.h line 1390
-struct anonymous$93;
+struct anonymous_93;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$98;
+struct anonymous_98;
 
-// tag-#anon#ST[ARR17{U8}$U8$'bits'||ARR256{U8}$U8$'huffval'||U24'$pad0'||S32'sent_table'|]
+// tag-#anon#ST[ARR17{U8}_U8_'bits'||ARR256{U8}_U8_'huffval'||U24'_pad0'||S32'sent_table'|]
 // file /usr/include/jpeglib.h line 101
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
-struct anonymous$102;
+struct anonymous_102;
 
-// tag-#anon#ST[ARR64{U16}$U16$'quantval'||S32'sent_table'|]
+// tag-#anon#ST[ARR64{U16}_U16_'quantval'||S32'sent_table'|]
 // file /usr/include/jpeglib.h line 84
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$101;
+struct anonymous_101;
 
 // tag-#anon#ST[S16'red'||S16'redMask'||S16'green'||S16'greenMask'||S16'blue'||S16'blueMask'||S16'alpha'||S16'alphaMask'|]
 // file /usr/include/X11/extensions/Xrender.h line 35
-struct anonymous$89;
+struct anonymous_89;
 
 // tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'|]
 // file /usr/include/X11/Xlib.h line 430
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$76;
+struct anonymous_76;
 
-// tag-#anon#ST[S32'component_id'||S32'component_index'||S32'h_samp_factor'||S32'v_samp_factor'||S32'quant_tbl_no'||S32'dc_tbl_no'||S32'ac_tbl_no'||U32'width_in_blocks'||U32'height_in_blocks'||S32'DCT_scaled_size'||U32'downsampled_width'||U32'downsampled_height'||S32'component_needed'||S32'MCU_width'||S32'MCU_height'||S32'MCU_blocks'||S32'MCU_sample_width'||S32'last_col_width'||S32'last_row_height'||U32'$pad0'||*{SYM#tag-#anon#ST[ARR64{U16}$U16$'quantval'||S32'sent_table'|]#}$SYM#tag-#anon#ST[ARR64{U16}$U16$'quantval'||S32'sent_table'|]#$'quant_table'||*{V}$V$'dct_table'|]
+// tag-#anon#ST[S32'component_id'||S32'component_index'||S32'h_samp_factor'||S32'v_samp_factor'||S32'quant_tbl_no'||S32'dc_tbl_no'||S32'ac_tbl_no'||U32'width_in_blocks'||U32'height_in_blocks'||S32'DCT_scaled_size'||U32'downsampled_width'||U32'downsampled_height'||S32'component_needed'||S32'MCU_width'||S32'MCU_height'||S32'MCU_blocks'||S32'MCU_sample_width'||S32'last_col_width'||S32'last_row_height'||U32'_pad0'||*{SYM#tag-#anon#ST[ARR64{U16}_U16_'quantval'||S32'sent_table'|]#}_SYM#tag-#anon#ST[ARR64{U16}_U16_'quantval'||S32'sent_table'|]#_'quant_table'||*{V}_V_'dct_table'|]
 // file /usr/include/jpeglib.h line 117
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'comps_in_scan'||ARR4{S32}$S32$'component_index'||S32'Ss'||S32'Se'||S32'Ah'||S32'Al'|]
+// tag-#anon#ST[S32'comps_in_scan'||ARR4{S32}_S32_'component_index'||S32'Ss'||S32'Se'||S32'Ah'||S32'Al'|]
 // file /usr/include/jpeglib.h line 190
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'count'||U32'$pad0'||U64'holder'|]
+// tag-#anon#ST[S32'count'||U32'_pad0'||U64'holder'|]
 // file /usr/include/xine/xine_internal.h line 179
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]
+// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$78;
+struct anonymous_78;
 
-// tag-#anon#ST[S32'function'||U32'$pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'$pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'$pad2'|]
+// tag-#anon#ST[S32'function'||U32'_pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'_pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'_pad2'|]
 // file /usr/include/X11/Xlib.h line 181
-struct anonymous$77;
+struct anonymous_77;
 
 // tag-#anon#ST[S32'screen_number'||S16'x_org'||S16'y_org'||S16'width'||S16'height'|]
 // file /usr/include/X11/extensions/Xinerama.h line 32
-struct anonymous$90;
+struct anonymous_90;
 
-// tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]
+// tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]
 // file /usr/include/xine.h line 829
-struct anonymous$70;
+struct anonymous_70;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'$pad1'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'_pad1'|]
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$64;
+struct anonymous_64;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]
 // file /usr/include/xine.h line 816
-struct anonymous$71;
+struct anonymous_71;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'|]
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$66;
+struct anonymous_66;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'$pad2'||*{V}$V$'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'_pad2'||*{V}_V_'data'|]
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$67;
+struct anonymous_67;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'from_configure'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'from_configure'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$47;
+struct anonymous_47;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$48;
+struct anonymous_48;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$52;
+struct anonymous_52;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'override_redirect'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'override_redirect'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$59;
+struct anonymous_59;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$56;
+struct anonymous_56;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'detail'||U32'$pad3'||U64'value_mask'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'detail'||U32'_pad3'||U64'value_mask'|]
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 870
-struct anonymous$60;
+struct anonymous_60;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||ARR32{S8}$S8$'key_vector'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||ARR32{S8}_S8_'key_vector'|]
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$65;
+struct anonymous_65;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'mode'||S32'detail'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'mode'||S32'detail'|]
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$40;
+struct anonymous_40;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$63;
+struct anonymous_63;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'width'||S32'height'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'width'||S32'height'|]
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$53;
+struct anonymous_53;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$57;
+struct anonymous_57;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$61;
+struct anonymous_61;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'message_type'||S32'format'||U32'$pad2'||SYM#tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]#'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'message_type'||S32'format'||U32'_pad2'||SYM#tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]#'data'|]
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$62;
+struct anonymous_62;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'$pad2'||S32'same_screen'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'_pad2'||S32'same_screen'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'selection'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'selection'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$58;
+struct anonymous_58;
 
 // tag-#anon#ST[S32'width'||S32'height'||S32'aspect'||S32'pan_scan'|]
 // file /usr/include/xine.h line 1912
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'width'||S32'height'||S32'crop_left'||S32'crop_right'||S32'crop_top'||S32'crop_bottom'||S32'ratio_code'||S32'interlaced'||S32'format'||S32'img_size'||*{U8}$U8$'img'|]
+// tag-#anon#ST[S32'width'||S32'height'||S32'crop_left'||S32'crop_right'||S32'crop_top'||S32'crop_bottom'||S32'ratio_code'||S32'interlaced'||S32'format'||S32'img_size'||*{U8}_U8_'img'|]
 // file /usr/include/xine.h line 434
-struct anonymous$30;
+struct anonymous_30;
 
 // tag-#anon#ST[S32'x'||S32'y'|]
 // file /usr/include/X11/Xutil.h line 88
-struct anonymous$86;
+struct anonymous_86;
 
-// tag-#anon#ST[S64'flags'||S32'x'||S32'y'||S32'width'||S32'height'||S32'min_width'||S32'min_height'||S32'max_width'||S32'max_height'||S32'width_inc'||S32'height_inc'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'min_aspect'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'max_aspect'||S32'base_width'||S32'base_height'||S32'win_gravity'||U32'$pad0'|]
+// tag-#anon#ST[S64'flags'||S32'x'||S32'y'||S32'width'||S32'height'||S32'min_width'||S32'min_height'||S32'max_width'||S32'max_height'||S32'width_inc'||S32'height_inc'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'min_aspect'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'max_aspect'||S32'base_width'||S32'base_height'||S32'win_gravity'||U32'_pad0'|]
 // file /usr/include/X11/Xutil.h line 81
-struct anonymous$87;
+struct anonymous_87;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'||*{V}$V$'object'||*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'destructor'||S32'count'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'||*{V}_V_'object'||*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'destructor'||S32'count'||U32'_pad0'|]
 // file /usr/include/xine/refcounter.h line 25
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[SYM#tag-driver_hook_s#'h'||*{SYM#tag-xine_stream_s#}$SYM#tag-xine_stream_s#$'prev_stream'||*{SYM#tag-xine_stream_s#}$SYM#tag-xine_stream_s#$'xvdr_stream'||*{SYM#tag-metronom_s#}$SYM#tag-metronom_s#$'xvdr_metronom'|]
+// tag-#anon#ST[SYM#tag-driver_hook_s#'h'||*{SYM#tag-xine_stream_s#}_SYM#tag-xine_stream_s#_'prev_stream'||*{SYM#tag-xine_stream_s#}_SYM#tag-xine_stream_s#_'xvdr_stream'||*{SYM#tag-metronom_s#}_SYM#tag-metronom_s#_'xvdr_metronom'|]
 // file xine/vo_lastpts.c line 29
-struct anonymous$83;
+struct anonymous_83;
 
-// tag-#anon#ST[SYM#tag-driver_hook_s#'h'||*{V}$V$'handle'||*{V(*{V}$V$|*{SYM#tag-vo_frame_s#}$SYM#tag-vo_frame_s#$)->V}$V(*{V}$V$|*{SYM#tag-vo_frame_s#}$SYM#tag-vo_frame_s#$)->V$'cb'|]
+// tag-#anon#ST[SYM#tag-driver_hook_s#'h'||*{V}_V_'handle'||*{V(*{V}_V_|*{SYM#tag-vo_frame_s#}_SYM#tag-vo_frame_s#_)->V}_V(*{V}_V_|*{SYM#tag-vo_frame_s#}_SYM#tag-vo_frame_s#_)->V_'cb'|]
 // file xine/vo_frameoutput.c line 27
-struct anonymous$84;
+struct anonymous_84;
 
-// tag-#anon#ST[SYM#tag-driver_hook_s#'h'||ARR50{*{SYM#tag-vo_overlay_s#}$SYM#tag-vo_overlay_s#$}$*{SYM#tag-vo_overlay_s#}$SYM#tag-vo_overlay_s#$$'overlay'|]
+// tag-#anon#ST[SYM#tag-driver_hook_s#'h'||ARR50{*{SYM#tag-vo_overlay_s#}_SYM#tag-vo_overlay_s#_}_*{SYM#tag-vo_overlay_s#}_SYM#tag-vo_overlay_s#__'overlay'|]
 // file xine/vo_osdreorder.c line 23
-struct anonymous$82;
+struct anonymous_82;
 
-// tag-#anon#ST[SYM#tag-driver_hook_s#'h'||U8'enable'||U8'unscaled_supported'||U8'custom_extent_supported'||U8'argb_supported'||U8'video_window_supported'||U8'$pad0'||U16'output_width'||U16'output_height'||U16'$pad1'||U32'factor_x'||U32'factor_y'||U16'x_move'||U16'y_move'||*{SYM#tag-osd_data_s#}$SYM#tag-osd_data_s#$'active_osds'|]
+// tag-#anon#ST[SYM#tag-driver_hook_s#'h'||U8'enable'||U8'unscaled_supported'||U8'custom_extent_supported'||U8'argb_supported'||U8'video_window_supported'||U8'_pad0'||U16'output_width'||U16'output_height'||U16'_pad1'||U32'factor_x'||U32'factor_y'||U16'x_move'||U16'y_move'||*{SYM#tag-osd_data_s#}_SYM#tag-osd_data_s#_'active_osds'|]
 // file xine/vo_osdscaler.c line 178
-struct anonymous$80;
+struct anonymous_80;
 
-// tag-#anon#ST[SYM#tag-xine_video_port_s#'vo'||*{SYM#tag-vo_driver_s#}$SYM#tag-vo_driver_s#$'driver'|]
+// tag-#anon#ST[SYM#tag-xine_video_port_s#'vo'||*{SYM#tag-vo_driver_s#}_SYM#tag-vo_driver_s#_'driver'|]
 // file xine/vo_hook.c line 142
-struct anonymous$79;
+struct anonymous_79;
 
-// tag-#anon#ST[U16'extent_width'||U16'extent_height'||U32'layer'||U8'scaling'||U24'$pad0'|]
+// tag-#anon#ST[U16'extent_width'||U16'extent_height'||U32'layer'||U8'scaling'||U24'_pad0'|]
 // file xine/vo_props.h line 55
-struct anonymous$81;
+struct anonymous_81;
 
-// tag-#anon#ST[U64'background_pixmap'||U64'background_pixel'||U64'border_pixmap'||U64'border_pixel'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U32'$pad0'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'$pad1'||S64'event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'$pad2'||U64'colormap'||U64'cursor'|]
+// tag-#anon#ST[U64'background_pixmap'||U64'background_pixel'||U64'border_pixmap'||U64'border_pixel'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U32'_pad0'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'_pad1'||S64'event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'_pad2'||U64'colormap'||U64'cursor'|]
 // file /usr/include/X11/Xlib.h line 290
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[U64'id'||S32'type'||S32'depth'||SYM#tag-#anon#ST[S16'red'||S16'redMask'||S16'green'||S16'greenMask'||S16'blue'||S16'blueMask'||S16'alpha'||S16'alphaMask'|]#'direct'||U64'colormap'|]
 // file /usr/include/X11/extensions/Xrender.h line 46
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]
 // file /usr/include/X11/Xlib.h line 410
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[U64'shmseg'||S32'shmid'||U32'$pad0'||*{S8}$S8$'shmaddr'||S32'readOnly'||U32'$pad1'|]
+// tag-#anon#ST[U64'shmseg'||S32'shmid'||U32'_pad0'||*{S8}_S8_'shmaddr'||S32'readOnly'||U32'_pad1'|]
 // file /usr/include/X11/extensions/XShm.h line 50
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[U8'type'||U8'API'||U48'$pad0'||*{cS8}$cS8$'id'||U32'version'||U32'$pad1'||*{cV}$cV$'special_info'||*{*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$$'init'|]
+// tag-#anon#ST[U8'type'||U8'API'||U48'_pad0'||*{cS8}_cS8_'id'||U32'version'||U32'_pad1'||*{cV}_cV_'special_info'||*{*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V__'init'|]
 // file /usr/include/xine/xine_plugin.h line 50
-struct anonymous$74;
+struct anonymous_74;
 
-// tag-#anon#ST[U8'type'||U8'API'||U48'$pad0'||*{cS8}$cS8$'id'||U32'version'||U32'$pad1'||*{cV}$cV$'special_info'||*{*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{SYM#tag-xine_s#}$SYM#tag-xine_s#$|*{V}$V$)->*{V}$V$$'init'|]$link1
+// tag-#anon#ST[U8'type'||U8'API'||U48'_pad0'||*{cS8}_cS8_'id'||U32'version'||U32'_pad1'||*{cV}_cV_'special_info'||*{*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{SYM#tag-xine_s#}_SYM#tag-xine_s#_|*{V}_V_)->*{V}_V__'init'|]_link1
 // file /usr/include/xine/xine_plugin.h line 50
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#UN[*{SYM#tag-osd_clut_s#}$SYM#tag-osd_clut_s#$'palette'||U64'dummy02'|]
+// tag-#anon#UN[*{SYM#tag-osd_clut_s#}_SYM#tag-osd_clut_s#_'palette'||U64'dummy02'|]
 // file tools/osd_command.h line 102
-union anonymous$103;
+union anonymous_103;
 
-// tag-#anon#UN[*{SYM#tag-osd_rle_elem_s#}$SYM#tag-osd_rle_elem_s#$'data'||*{U8}$U8$'raw_data'||U64'dummy01'|]
+// tag-#anon#UN[*{SYM#tag-osd_rle_elem_s#}_SYM#tag-osd_rle_elem_s#_'data'||*{U8}_U8_'raw_data'||U64'dummy01'|]
 // file tools/osd_command.h line 96
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[*{V}$V$'vis'||SYM#tag-#anon#ST[*{V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$|*{S32}$S32$|*{S32}$S32$)->V}$V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$|*{S32}$S32$|*{S32}$S32$)->V$'frame_output_cb'||*{V}$V$'user_data'|]#'vis_fb'||SYM#tag-#anon#ST[*{V}$V$'display'||S32'screen'||U32'$pad0'||U64'd'||*{V}$V$'user_data'||*{V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$)->V}$V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$)->V$'dest_size_cb'||*{V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$|*{S32}$S32$|*{S32}$S32$)->V}$V(*{V}$V$|S32|S32|F64|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{S32}$S32$|*{F64}$F64$|*{S32}$S32$|*{S32}$S32$)->V$'frame_output_cb'||*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'lock_display'||*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'unlock_display'|]#'vis_x11'||SYM#tag-#anon#ST[*{V}$V$'user_data'||S32'supported_formats'||U32'$pad0'||*{V(*{V}$V$|S32|S32|S32|F64|*{V}$V$|*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|S32|S32|S32|F64|*{V}$V$|*{V}$V$|*{V}$V$)->V$'raw_output_cb'||*{V(*{V}$V$|S32|*{SYM#tag-#anon#ST[*{U8}$U8$'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#}$SYM#tag-#anon#ST[*{U8}$U8$'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#$)->V}$V(*{V}$V$|S32|*{SYM#tag-#anon#ST[*{U8}$U8$'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#}$SYM#tag-#anon#ST[*{U8}$U8$'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#$)->V$'raw_overlay_cb'|]#'vis_raw'|]
+// tag-#anon#UN[*{V}_V_'vis'||SYM#tag-#anon#ST[*{V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_|*{S32}_S32_|*{S32}_S32_)->V}_V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_|*{S32}_S32_|*{S32}_S32_)->V_'frame_output_cb'||*{V}_V_'user_data'|]#'vis_fb'||SYM#tag-#anon#ST[*{V}_V_'display'||S32'screen'||U32'_pad0'||U64'd'||*{V}_V_'user_data'||*{V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_)->V}_V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_)->V_'dest_size_cb'||*{V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_|*{S32}_S32_|*{S32}_S32_)->V}_V(*{V}_V_|S32|S32|F64|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{S32}_S32_|*{F64}_F64_|*{S32}_S32_|*{S32}_S32_)->V_'frame_output_cb'||*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'lock_display'||*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'unlock_display'|]#'vis_x11'||SYM#tag-#anon#ST[*{V}_V_'user_data'||S32'supported_formats'||U32'_pad0'||*{V(*{V}_V_|S32|S32|S32|F64|*{V}_V_|*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|S32|S32|S32|F64|*{V}_V_|*{V}_V_|*{V}_V_)->V_'raw_output_cb'||*{V(*{V}_V_|S32|*{SYM#tag-#anon#ST[*{U8}_U8_'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#}_SYM#tag-#anon#ST[*{U8}_U8_'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#_)->V}_V(*{V}_V_|S32|*{SYM#tag-#anon#ST[*{U8}_U8_'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#}_SYM#tag-#anon#ST[*{U8}_U8_'ovl_rgba'||S32'ovl_w'||S32'ovl_h'||S32'ovl_x'||S32'ovl_y'|]#_)->V_'raw_overlay_cb'|]#'vis_raw'|]
 // file xine_frontend_internal.h line 61
-union anonymous$27;
+union anonymous_27;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$99;
+union anonymous_99;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]
+// tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$68;
+union anonymous_68;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR8{S32}$S32$'i'||ARR80{S8}$S8$'s'|]
+// tag-#anon#UN[ARR8{S32}_S32_'i'||ARR80{S8}_S8_'s'|]
 // file /usr/include/jpeglib.h line 736
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$7;
+union anonymous_7;
 
 // tag-#anon#UN[SYM#tag-frontend_s#'fe'||SYM#tag-fe_s#'x'|]
 // file xine_sxfe_frontend.c line 106
-union anonymous$10;
+union anonymous_10;
 
 // tag-#anon#UN[U8'cb'||U8'g'|]
 // file tools/osd_command.h line 51
-union anonymous$95;
+union anonymous_95;
 
 // tag-#anon#UN[U8'cr'||U8'b'|]
 // file tools/osd_command.h line 55
-union anonymous$96;
+union anonymous_96;
 
 // tag-#anon#UN[U8'y'||U8'r'|]
 // file tools/osd_command.h line 59
-union anonymous$97;
+union anonymous_97;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$100;
+union anonymous_100;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$85;
+union anonymous_85;
 
 // tag-_DBusGConnection
 // file /usr/include/dbus-1.0/dbus/dbus-glib.h line 38
@@ -532,9 +532,9 @@ struct argb_layer_s;
 
 // tag-audio_buffer_s
 // file /usr/include/xine/audio_out.h line 148
-struct audio_buffer_s$0;
+struct audio_buffer_s_0;
 
-// tag-audio_buffer_s$link1
+// tag-audio_buffer_s_link1
 // file /usr/include/xine/audio_out.h line 148
 struct audio_buffer_s;
 
@@ -558,11 +558,11 @@ struct cfg_entry_s;
 // file /usr/include/xine/configfile.h line 44
 struct config_values_s;
 
-// tag-demux_class_s$link1
+// tag-demux_class_s_link1
 // file /usr/include/xine/demux.h line 44
 struct demux_class_s;
 
-// tag-demux_plugin_s$link1
+// tag-demux_plugin_s_link1
 // file /usr/include/xine/demux.h line 45
 struct demux_plugin_s;
 
@@ -576,9 +576,9 @@ struct extra_info_s;
 
 // tag-fe_s
 // file xine_frontend_internal.h line 21
-struct fe_s$0;
+struct fe_s_0;
 
-// tag-fe_s$link1
+// tag-fe_s_link1
 // file xine_frontend_internal.h line 21
 struct fe_s;
 
@@ -610,15 +610,15 @@ struct in_addr;
 // file /usr/include/xine/input_plugin.h line 37
 struct input_class_s;
 
-// tag-input_class_s$link1
+// tag-input_class_s_link1
 // file /usr/include/xine/input_plugin.h line 37
-struct input_class_s$0;
+struct input_class_s_0;
 
 // tag-input_plugin_s
 // file /usr/include/xine/input_plugin.h line 38
-struct input_plugin_s$0;
+struct input_plugin_s_0;
 
-// tag-input_plugin_s$link1
+// tag-input_plugin_s_link1
 // file /usr/include/xine/input_plugin.h line 38
 struct input_plugin_s;
 
@@ -702,9 +702,9 @@ struct metronom_clock_s;
 // file /usr/include/xine/metronom.h line 52
 struct metronom_s;
 
-// tag-metronom_s$link1
+// tag-metronom_s_link1
 // file /usr/include/xine/metronom.h line 52
-struct metronom_s$0;
+struct metronom_s_0;
 
 // tag-option
 // file /usr/include/getopt.h line 104
@@ -732,9 +732,9 @@ struct osd_ft2context_s;
 
 // tag-osd_object_s
 // file /usr/include/xine/osd.h line 32
-struct osd_object_s$0;
+struct osd_object_s_0;
 
-// tag-osd_object_s$link1
+// tag-osd_object_s_link1
 // file /usr/include/xine/osd.h line 32
 struct osd_object_s;
 
@@ -744,9 +744,9 @@ struct osd_rect_s;
 
 // tag-osd_renderer_s
 // file /usr/include/xine/osd.h line 33
-struct osd_renderer_s$0;
+struct osd_renderer_s_0;
 
-// tag-osd_renderer_s$link1
+// tag-osd_renderer_s_link1
 // file /usr/include/xine/osd.h line 33
 struct osd_renderer_s;
 
@@ -756,9 +756,9 @@ struct osd_rle_elem_s;
 
 // tag-plugin_catalog_s
 // file /usr/include/xine/plugin_catalog.h line 53
-struct plugin_catalog_s$0;
+struct plugin_catalog_s_0;
 
-// tag-plugin_catalog_s$link1
+// tag-plugin_catalog_s_link1
 // file /usr/include/xine/plugin_catalog.h line 53
 struct plugin_catalog_s;
 
@@ -768,9 +768,9 @@ struct pollfd;
 
 // tag-post_plugins_s
 // file xine/post.h line 40
-struct post_plugins_s$0;
+struct post_plugins_s_0;
 
-// tag-post_plugins_s$link1
+// tag-post_plugins_s_link1
 // file xine/post.h line 40
 struct post_plugins_s;
 
@@ -884,17 +884,17 @@ struct timezone;
 
 // tag-vdr_input_plugin_funcs_s
 // file xine_input_vdr.h line 27
-struct vdr_input_plugin_funcs_s$0;
+struct vdr_input_plugin_funcs_s_0;
 
-// tag-vdr_input_plugin_funcs_s$link1
+// tag-vdr_input_plugin_funcs_s_link1
 // file xine_input_vdr.h line 27
 struct vdr_input_plugin_funcs_s;
 
 // tag-vdr_input_plugin_if_s
 // file xine_input_vdr.h line 23
-struct vdr_input_plugin_if_s$0;
+struct vdr_input_plugin_if_s_0;
 
-// tag-vdr_input_plugin_if_s$link1
+// tag-vdr_input_plugin_if_s_link1
 // file xine_input_vdr.h line 23
 struct vdr_input_plugin_if_s;
 
@@ -910,9 +910,9 @@ struct video_overlay_event_s;
 // file /usr/include/xine/video_out.h line 52
 struct video_overlay_manager_s;
 
-// tag-video_overlay_manager_s$link1
+// tag-video_overlay_manager_s_link1
 // file /usr/include/xine/video_out.h line 52
-struct video_overlay_manager_s$0;
+struct video_overlay_manager_s_0;
 
 // tag-video_overlay_object_s
 // file /usr/include/xine/video_overlay.h line 42
@@ -922,17 +922,17 @@ struct video_overlay_object_s;
 // file /usr/include/xine/video_out.h line 49
 struct vo_driver_s;
 
-// tag-vo_driver_s$link1
+// tag-vo_driver_s_link1
 // file /usr/include/xine/video_out.h line 49
-struct vo_driver_s$0;
+struct vo_driver_s_0;
 
 // tag-vo_frame_s
 // file /usr/include/xine/video_out.h line 48
 struct vo_frame_s;
 
-// tag-vo_frame_s$link1
+// tag-vo_frame_s_link1
 // file /usr/include/xine/video_out.h line 48
-struct vo_frame_s$0;
+struct vo_frame_s_0;
 
 // tag-vo_overlay_s
 // file /usr/include/xine/video_out.h line 51
@@ -940,9 +940,9 @@ struct vo_overlay_s;
 
 // tag-xine_audio_port_s
 // file /usr/include/xine.h line 83
-struct xine_audio_port_s$0;
+struct xine_audio_port_s_0;
 
-// tag-xine_audio_port_s$link1
+// tag-xine_audio_port_s_link1
 // file /usr/include/xine.h line 83
 struct xine_audio_port_s;
 
@@ -952,9 +952,9 @@ struct xine_cfg_entry_s;
 
 // tag-xine_event_queue_s
 // file /usr/include/xine.h line 2132
-struct xine_event_queue_s$0;
+struct xine_event_queue_s_0;
 
-// tag-xine_event_queue_s$link1
+// tag-xine_event_queue_s_link1
 // file /usr/include/xine.h line 2132
 struct xine_event_queue_s;
 
@@ -976,17 +976,17 @@ struct xine_post_out_s;
 
 // tag-xine_post_s
 // file /usr/include/xine.h line 627
-struct xine_post_s$0;
+struct xine_post_s_0;
 
-// tag-xine_post_s$link1
+// tag-xine_post_s_link1
 // file /usr/include/xine.h line 627
 struct xine_post_s;
 
 // tag-xine_s
 // file /usr/include/xine.h line 81
-struct xine_s$0;
+struct xine_s_0;
 
-// tag-xine_s$link1
+// tag-xine_s_link1
 // file /usr/include/xine.h line 81
 struct xine_s;
 
@@ -996,9 +996,9 @@ struct xine_sarray_s;
 
 // tag-xine_stream_s
 // file /usr/include/xine.h line 82
-struct xine_stream_s$0;
+struct xine_stream_s_0;
 
-// tag-xine_stream_s$link1
+// tag-xine_stream_s_link1
 // file /usr/include/xine.h line 82
 struct xine_stream_s;
 
@@ -1010,9 +1010,9 @@ struct xine_ticket_s;
 // file /usr/include/xine.h line 84
 struct xine_video_port_s;
 
-// tag-xine_video_port_s$link1
+// tag-xine_video_port_s_link1
 // file /usr/include/xine.h line 84
-struct xine_video_port_s$0;
+struct xine_video_port_s_0;
 
 #ifndef NULL
 #define NULL ((void*)0)
@@ -1047,13 +1047,13 @@ static void JpegCompressTermDestination(struct jpeg_compress_struct * const cinf
 static void SignalHandler(signed int signum);
 // XAllocClassHint
 // file /usr/include/X11/Xutil.h line 366
-extern struct anonymous$9 * XAllocClassHint(void);
+extern struct anonymous_9 * XAllocClassHint(void);
 // XAllocNamedColor
 // file /usr/include/X11/Xlib.h line 1988
-extern signed int XAllocNamedColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous$18 *, struct anonymous$18 *);
+extern signed int XAllocNamedColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous_18 *, struct anonymous_18 *);
 // XButtonEvent_handler
 // file xine_sxfe_frontend.c line 2884
-static void XButtonEvent_handler(struct sxfe_s *this, struct anonymous$37 *bev);
+static void XButtonEvent_handler(struct sxfe_s *this, struct anonymous_37 *bev);
 // XChangeProperty
 // file /usr/include/X11/Xlib.h line 2068
 extern signed int XChangeProperty(struct _XDisplay *, unsigned long int, unsigned long int, unsigned long int, signed int, signed int, const unsigned char *, signed int);
@@ -1065,28 +1065,28 @@ extern signed int XCheckMaskEvent(struct _XDisplay *, signed long int, union _XE
 extern signed int XCloseDisplay(struct _XDisplay *);
 // XConfigureEvent_handler
 // file xine_sxfe_frontend.c line 2758
-static void XConfigureEvent_handler(struct sxfe_s *this, struct anonymous$51 *cev);
+static void XConfigureEvent_handler(struct sxfe_s *this, struct anonymous_51 *cev);
 // XCreateBitmapFromData
 // file /usr/include/X11/Xlib.h line 1604
 extern unsigned long int XCreateBitmapFromData(struct _XDisplay *, unsigned long int, const char *, unsigned int, unsigned int);
 // XCreateColormap
 // file /usr/include/X11/Xlib.h line 1552
-extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous$16 *, signed int);
+extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous_16 *, signed int);
 // XCreateGC
 // file /usr/include/X11/Xlib.h line 1584
-extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$77 *);
+extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_77 *);
 // XCreateImage
 // file /usr/include/X11/Xlib.h line 1441
-extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous$16 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous_16 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
 // XCreatePixmap
 // file /usr/include/X11/Xlib.h line 1597
 extern unsigned long int XCreatePixmap(struct _XDisplay *, unsigned long int, unsigned int, unsigned int, unsigned int);
 // XCreatePixmapCursor
 // file /usr/include/X11/Xlib.h line 1558
-extern unsigned long int XCreatePixmapCursor(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$18 *, struct anonymous$18 *, unsigned int, unsigned int);
+extern unsigned long int XCreatePixmapCursor(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_18 *, struct anonymous_18 *, unsigned int, unsigned int);
 // XCreateWindow
 // file /usr/include/X11/Xlib.h line 1636
-extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous$16 *, unsigned long int, struct anonymous$8 *);
+extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous_16 *, unsigned long int, struct anonymous_8 *);
 // XDefineCursor
 // file /usr/include/X11/Xlib.h line 2231
 extern signed int XDefineCursor(struct _XDisplay *, unsigned long int, unsigned long int);
@@ -1113,7 +1113,7 @@ extern signed int XFreeGC(struct _XDisplay *, struct _XGC *);
 extern signed int XFreePixmap(struct _XDisplay *, unsigned long int);
 // XGetVisualInfo
 // file /usr/include/X11/Xutil.h line 471
-extern struct anonymous$17 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous$17 *, signed int *);
+extern struct anonymous_17 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous_17 *, signed int *);
 // XInitThreads
 // file /usr/include/X11/Xlib.h line 1734
 extern signed int XInitThreads(void);
@@ -1122,7 +1122,7 @@ extern signed int XInitThreads(void);
 extern unsigned long int XInternAtom(struct _XDisplay *, const char *, signed int);
 // XKeyEvent_handler
 // file xine_sxfe_frontend.c line 2687
-static void XKeyEvent_handler(struct sxfe_s *this, struct anonymous$36 *kev);
+static void XKeyEvent_handler(struct sxfe_s *this, struct anonymous_36 *kev);
 // XKeysymToString
 // file /usr/include/X11/Xlib.h line 1518
 extern char * XKeysymToString(unsigned long int);
@@ -1131,7 +1131,7 @@ extern char * XKeysymToString(unsigned long int);
 extern void XLockDisplay(struct _XDisplay *);
 // XLookupString
 // file /usr/include/X11/Xutil.h line 534
-extern signed int XLookupString(struct anonymous$36 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
+extern signed int XLookupString(struct anonymous_36 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
 // XLowerWindow
 // file /usr/include/X11/Xlib.h line 2791
 extern signed int XLowerWindow(struct _XDisplay *, unsigned long int);
@@ -1143,7 +1143,7 @@ extern signed int XMapRaised(struct _XDisplay *, unsigned long int);
 extern signed int XMapWindow(struct _XDisplay *, unsigned long int);
 // XMotionEvent_handler
 // file xine_sxfe_frontend.c line 2843
-static void XMotionEvent_handler(struct sxfe_s *this, struct anonymous$38 *mev);
+static void XMotionEvent_handler(struct sxfe_s *this, struct anonymous_38 *mev);
 // XMoveWindow
 // file /usr/include/X11/Xlib.h line 2834
 extern signed int XMoveWindow(struct _XDisplay *, unsigned long int, signed int, signed int);
@@ -1167,13 +1167,13 @@ extern signed int XRaiseWindow(struct _XDisplay *, unsigned long int);
 void XRenderComposite(struct _XDisplay *, signed int, unsigned long int, unsigned long int, unsigned long int, signed int, signed int, signed int, signed int, signed int, signed int, unsigned int, unsigned int);
 // XRenderCreatePicture
 // file /usr/include/X11/extensions/Xrender.h line 241
-unsigned long int XRenderCreatePicture(struct _XDisplay *, unsigned long int, const struct anonymous$21 *, unsigned long int, const struct _XRenderPictureAttributes *);
+unsigned long int XRenderCreatePicture(struct _XDisplay *, unsigned long int, const struct anonymous_21 *, unsigned long int, const struct _XRenderPictureAttributes *);
 // XRenderFindStandardFormat
 // file /usr/include/X11/extensions/Xrender.h line 232
-struct anonymous$21 * XRenderFindStandardFormat(struct _XDisplay *, signed int);
+struct anonymous_21 * XRenderFindStandardFormat(struct _XDisplay *, signed int);
 // XRenderFindVisualFormat
 // file /usr/include/X11/extensions/Xrender.h line 216
-struct anonymous$21 * XRenderFindVisualFormat(struct _XDisplay *, const struct anonymous$16 *);
+struct anonymous_21 * XRenderFindVisualFormat(struct _XDisplay *, const struct anonymous_16 *);
 // XRenderFreePicture
 // file /usr/include/X11/extensions/Xrender.h line 272
 void XRenderFreePicture(struct _XDisplay *, unsigned long int);
@@ -1197,13 +1197,13 @@ extern signed int XSelectInput(struct _XDisplay *, unsigned long int, signed lon
 extern signed int XSendEvent(struct _XDisplay *, unsigned long int, signed int, signed long int, union _XEvent *);
 // XSetClassHint
 // file /usr/include/X11/Xutil.h line 583
-extern signed int XSetClassHint(struct _XDisplay *, unsigned long int, struct anonymous$9 *);
+extern signed int XSetClassHint(struct _XDisplay *, unsigned long int, struct anonymous_9 *);
 // XSetForeground
 // file /usr/include/X11/Xlib.h line 3227
 extern signed int XSetForeground(struct _XDisplay *, struct _XGC *, unsigned long int);
 // XSetNormalHints
 // file /usr/include/X11/Xutil.h line 596
-extern signed int XSetNormalHints(struct _XDisplay *, unsigned long int, struct anonymous$87 *);
+extern signed int XSetNormalHints(struct _XDisplay *, unsigned long int, struct anonymous_87 *);
 // XSetScreenSaver
 // file /usr/include/X11/Xlib.h line 3284
 extern signed int XSetScreenSaver(struct _XDisplay *, signed int, signed int, signed int, signed int);
@@ -1215,19 +1215,19 @@ extern signed int XSetWMProtocols(struct _XDisplay *, unsigned long int, unsigne
 extern void XShapeCombineMask(struct _XDisplay *, unsigned long int, signed int, signed int, signed int, unsigned long int, signed int);
 // XShapeCombineRectangles
 // file /usr/include/X11/extensions/shape.h line 73
-extern void XShapeCombineRectangles(struct _XDisplay *, unsigned long int, signed int, signed int, signed int, struct anonymous$20 *, signed int, signed int, signed int);
+extern void XShapeCombineRectangles(struct _XDisplay *, unsigned long int, signed int, signed int, signed int, struct anonymous_20 *, signed int, signed int, signed int);
 // XShapeQueryExtension
 // file /usr/include/X11/extensions/shape.h line 51
 extern signed int XShapeQueryExtension(struct _XDisplay *, signed int *, signed int *);
 // XShmAttach
 // file /usr/include/X11/extensions/XShm.h line 78
-signed int XShmAttach(struct _XDisplay *, struct anonymous$31 *);
+signed int XShmAttach(struct _XDisplay *, struct anonymous_31 *);
 // XShmCreateImage
 // file /usr/include/X11/extensions/XShm.h line 111
-struct _XImage * XShmCreateImage(struct _XDisplay *, struct anonymous$16 *, unsigned int, signed int, char *, struct anonymous$31 *, unsigned int, unsigned int);
+struct _XImage * XShmCreateImage(struct _XDisplay *, struct anonymous_16 *, unsigned int, signed int, char *, struct anonymous_31 *, unsigned int, unsigned int);
 // XShmDetach
 // file /usr/include/X11/extensions/XShm.h line 83
-signed int XShmDetach(struct _XDisplay *, struct anonymous$31 *);
+signed int XShmDetach(struct _XDisplay *, struct anonymous_31 *);
 // XShmGetEventBase
 // file /usr/include/X11/extensions/XShm.h line 63
 signed int XShmGetEventBase(struct _XDisplay *);
@@ -1257,7 +1257,7 @@ extern signed int XUnmapWindow(struct _XDisplay *, unsigned long int);
 signed int XineramaIsActive(struct _XDisplay *);
 // XineramaQueryScreens
 // file /usr/include/X11/extensions/Xinerama.h line 66
-struct anonymous$90 * XineramaQueryScreens(struct _XDisplay *, signed int *);
+struct anonymous_90 * XineramaQueryScreens(struct _XDisplay *, signed int *);
 // __asprintf_chk
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 158
 extern signed int __asprintf_chk(char ** restrict , signed int, const char *, ...);
@@ -1296,22 +1296,22 @@ extern signed int __poll_chk(struct pollfd *, unsigned long int, signed int, uns
 extern signed int __poll_chk_warn(struct pollfd *, unsigned long int, signed int, unsigned long int);
 // __pplugin_retrieve_parameters
 // file xine/post.c line 62
-static signed int __pplugin_retrieve_parameters(struct anonymous$72 *pobj);
+static signed int __pplugin_retrieve_parameters(struct anonymous_72 *pobj);
 // __pplugin_update_parameters
 // file xine/post.c line 112
-static void __pplugin_update_parameters(struct xine_post_s$0 *post, char *args);
+static void __pplugin_update_parameters(struct xine_post_s_0 *post, char *args);
 // __printf_chk
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 87
 extern signed int __printf_chk(signed int, const char *, ...);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 682
-extern void __pthread_register_cancel(struct anonymous$102 *);
+extern void __pthread_register_cancel(struct anonymous_102 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 694
-extern void __pthread_unregister_cancel(struct anonymous$102 *);
+extern void __pthread_unregister_cancel(struct anonymous_102 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 735
-extern void __pthread_unwind_next(struct anonymous$102 *);
+extern void __pthread_unwind_next(struct anonymous_102 *);
 // __rawmemchr
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 393
 extern void * __rawmemchr(const void *, signed int);
@@ -1326,13 +1326,13 @@ extern signed long int __read_chk(signed int, void *, unsigned long int, unsigne
 extern signed long int __read_chk_warn(signed int, void *, unsigned long int, unsigned long int);
 // __recvfrom_alias
 // file /usr/include/x86_64-linux-gnu/bits/socket2.h line 51
-extern signed long int __recvfrom_alias(signed int, void *, unsigned long int, signed int, union anonymous$85, unsigned int *);
+extern signed long int __recvfrom_alias(signed int, void *, unsigned long int, signed int, union anonymous_85, unsigned int *);
 // __recvfrom_chk
 // file /usr/include/x86_64-linux-gnu/bits/socket2.h line 47
-extern signed long int __recvfrom_chk(signed int, void *, unsigned long int, unsigned long int, signed int, union anonymous$85, unsigned int *);
+extern signed long int __recvfrom_chk(signed int, void *, unsigned long int, unsigned long int, signed int, union anonymous_85, unsigned int *);
 // __recvfrom_chk_warn
 // file /usr/include/x86_64-linux-gnu/bits/socket2.h line 55
-extern signed long int __recvfrom_chk_warn(signed int, void *, unsigned long int, unsigned long int, signed int, union anonymous$85, unsigned int *);
+extern signed long int __recvfrom_chk_warn(signed int, void *, unsigned long int, unsigned long int, signed int, union anonymous_85, unsigned int *);
 // __sigsetjmp
 // file /usr/include/pthread.h line 745
 extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
@@ -1365,16 +1365,16 @@ extern void __syslog_chk(signed int, signed int, const char *, ...);
 extern signed int __xstat(signed int, const char *, struct stat *);
 // _applugin_enable_post
 // file xine/post.c line 692
-static signed int _applugin_enable_post(struct post_plugins_s$0 *fe, const char *name, const char *args, signed int *found);
+static signed int _applugin_enable_post(struct post_plugins_s_0 *fe, const char *name, const char *args, signed int *found);
 // _applugin_rewire
 // file xine/post.c line 614
-static void _applugin_rewire(struct post_plugins_s$0 *fe);
+static void _applugin_rewire(struct post_plugins_s_0 *fe);
 // _applugin_rewire_from_post_elements
 // file xine/post.c line 452
-static void _applugin_rewire_from_post_elements(struct post_plugins_s$0 *fe, struct anonymous$73 **post_elements, signed int post_elements_num);
+static void _applugin_rewire_from_post_elements(struct post_plugins_s_0 *fe, struct anonymous_73 **post_elements, signed int post_elements_num);
 // _applugin_unwire
 // file xine/post.c line 399
-static void _applugin_unwire(struct post_plugins_s$0 *fe);
+static void _applugin_unwire(struct post_plugins_s_0 *fe);
 // _pp_args
 // file xine/post.c line 715
 static const char * _pp_args(const char *initstr);
@@ -1383,34 +1383,34 @@ static const char * _pp_args(const char *initstr);
 static char * _pp_name_strdup(const char *initstr);
 // _pplugin_disable_post
 // file xine/post.c line 779
-static signed int _pplugin_disable_post(struct post_plugins_s$0 *fe, const char *name, struct anonymous$73 **post_elements, signed int post_elements_num);
+static signed int _pplugin_disable_post(struct post_plugins_s_0 *fe, const char *name, struct anonymous_73 **post_elements, signed int post_elements_num);
 // _pplugin_enable_post
 // file xine/post.c line 642
-static signed int _pplugin_enable_post(struct post_plugins_s$0 *fe, const char *name, const char *args, struct anonymous$73 **post_elements, signed int post_elements_num, signed int *found);
+static signed int _pplugin_enable_post(struct post_plugins_s_0 *fe, const char *name, const char *args, struct anonymous_73 **post_elements, signed int post_elements_num, signed int *found);
 // _pplugin_join_deinterlace_and_post_elements
 // file xine/post.c line 486
-static struct anonymous$73 ** _pplugin_join_deinterlace_and_post_elements(struct post_plugins_s$0 *fe, signed int *post_elements_num);
+static struct anonymous_73 ** _pplugin_join_deinterlace_and_post_elements(struct post_plugins_s_0 *fe, signed int *post_elements_num);
 // _pplugin_join_visualization_and_post_elements
 // file xine/post.c line 558
-static struct anonymous$73 ** _pplugin_join_visualization_and_post_elements(struct post_plugins_s$0 *fe, signed int *post_elements_num);
+static struct anonymous_73 ** _pplugin_join_visualization_and_post_elements(struct post_plugins_s_0 *fe, signed int *post_elements_num);
 // _pplugin_unload_post
 // file xine/post.c line 822
-static signed int _pplugin_unload_post(struct post_plugins_s$0 *fe, const char *name, struct anonymous$73 ***post_elements, signed int *post_elements_num);
+static signed int _pplugin_unload_post(struct post_plugins_s_0 *fe, const char *name, struct anonymous_73 ***post_elements, signed int *post_elements_num);
 // _pplugin_update_parameter
 // file xine/post.c line 106
-static void _pplugin_update_parameter(struct anonymous$72 *pobj);
+static void _pplugin_update_parameter(struct anonymous_72 *pobj);
 // _vpplugin_enable_post
 // file xine/post.c line 679
-static signed int _vpplugin_enable_post(struct post_plugins_s$0 *fe, const char *name, const char *args, signed int *found);
+static signed int _vpplugin_enable_post(struct post_plugins_s_0 *fe, const char *name, const char *args, signed int *found);
 // _vpplugin_rewire
 // file xine/post.c line 600
-static void _vpplugin_rewire(struct post_plugins_s$0 *fe);
+static void _vpplugin_rewire(struct post_plugins_s_0 *fe);
 // _vpplugin_rewire_from_post_elements
 // file xine/post.c line 407
-static void _vpplugin_rewire_from_post_elements(struct post_plugins_s$0 *fe, struct anonymous$73 **post_elements, signed int post_elements_num);
+static void _vpplugin_rewire_from_post_elements(struct post_plugins_s_0 *fe, struct anonymous_73 **post_elements, signed int post_elements_num);
 // _vpplugin_unwire
 // file xine/post.c line 391
-static void _vpplugin_unwire(struct post_plugins_s$0 *fe);
+static void _vpplugin_unwire(struct post_plugins_s_0 *fe);
 // _x_stream_info_set
 // file /usr/include/xine/info_helper.h line 41
 void _x_stream_info_set(struct xine_stream_s *, signed int, signed int);
@@ -1425,43 +1425,43 @@ extern signed int access(const char *, signed int);
 extern unsigned int alarm(unsigned int);
 // applugin_disable_post
 // file xine/post.c line 809
-signed int applugin_disable_post(struct post_plugins_s$0 *fe, const char *name);
+signed int applugin_disable_post(struct post_plugins_s_0 *fe, const char *name);
 // applugin_enable_post
 // file xine/post.c line 751
-signed int applugin_enable_post(struct post_plugins_s$0 *fe, const char *initstr, signed int *found);
+signed int applugin_enable_post(struct post_plugins_s_0 *fe, const char *initstr, signed int *found);
 // applugin_parse_and_store_post
 // file xine/post.c line 384
-void applugin_parse_and_store_post(struct post_plugins_s$0 *fe, const char *post_chain);
+void applugin_parse_and_store_post(struct post_plugins_s_0 *fe, const char *post_chain);
 // applugin_rewire_posts
 // file xine/post.c line 635
-void applugin_rewire_posts(struct post_plugins_s$0 *fe);
+void applugin_rewire_posts(struct post_plugins_s_0 *fe);
 // applugin_unload_post
 // file xine/post.c line 887
-signed int applugin_unload_post(struct post_plugins_s$0 *fe, const char *name);
+signed int applugin_unload_post(struct post_plugins_s_0 *fe, const char *name);
 // asprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 176
 static inline signed int asprintf(char ** restrict __ptr, const char * restrict __fmt, ...);
-// asprintf$link1
+// asprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 176
-static inline signed int asprintf$link1(char ** restrict __ptr$link1, const char * restrict __fmt$link1, ...);
-// asprintf$link2
+static inline signed int asprintf_link1(char ** restrict __ptr_link1, const char * restrict __fmt_link1, ...);
+// asprintf_link2
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 176
-static inline signed int asprintf$link2(char ** restrict __ptr$link2, const char * restrict __fmt$link2, ...);
-// asprintf$link3
+static inline signed int asprintf_link2(char ** restrict __ptr_link2, const char * restrict __fmt_link2, ...);
+// asprintf_link3
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 176
-static inline signed int asprintf$link3(char ** restrict __ptr$link3, const char * restrict __fmt$link3, ...);
+static inline signed int asprintf_link3(char ** restrict __ptr_link3, const char * restrict __fmt_link3, ...);
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1);
+static inline signed int atoi_link1(const char *__nptr_link1);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$85, unsigned int);
-// bindTexImage$object
+extern signed int bind(signed int, union anonymous_85, unsigned int);
+// bindTexImage_object
 //
-void bindTexImage$object(struct _XDisplay *, unsigned long int, signed int, signed int *);
+void bindTexImage_object(struct _XDisplay *, unsigned long int, signed int, signed int *);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -1476,7 +1476,7 @@ void cec_stop(void);
 extern double ceil(double);
 // check_for_scaling
 // file xine/vo_osdscaler.c line 236
-static signed int check_for_scaling(struct anonymous$80 *this, struct vo_frame_s *frame, struct vo_overlay_s *overlay);
+static signed int check_for_scaling(struct anonymous_80 *this, struct vo_frame_s *frame, struct vo_overlay_s *overlay);
 // check_mouse_cursor_hide
 // file xine_sxfe_frontend.c line 2946
 static void check_mouse_cursor_hide(struct sxfe_s *this, signed long int elapsed);
@@ -1488,7 +1488,7 @@ extern signed int close(signed int);
 static void configure_audio_out(const struct fe_s *this, const char *audio_driver, const char *audio_port);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$85, unsigned int);
+extern signed int connect(signed int, union anonymous_85, unsigned int);
 // create_windows
 // file xine_sxfe_frontend.c line 1471
 static void create_windows(struct sxfe_s *this);
@@ -1497,7 +1497,7 @@ static void create_windows(struct sxfe_s *this);
 extern signed int daemon(signed int, signed int);
 // dbus_g_bus_get
 // file /usr/include/dbus-1.0/dbus/dbus-glib.h line 109
-struct _DBusGConnection * dbus_g_bus_get(enum anonymous$6, struct _GError **);
+struct _DBusGConnection * dbus_g_bus_get(enum anonymous_6, struct _GError **);
 // dbus_g_error_get_name
 // file /usr/include/dbus-1.0/dbus/dbus-glib.h line 100
 const char * dbus_g_error_get_name(struct _GError *);
@@ -1515,7 +1515,7 @@ struct _DBusGProxy * dbus_g_proxy_new_for_name(struct _DBusGConnection *, const 
 static double detect_display_ratio(struct _XDisplay *dpy, signed int screen);
 // detect_xvdr_metronom
 // file xine/vo_lastpts.c line 36
-static void detect_xvdr_metronom(struct anonymous$83 *this, struct xine_stream_s$0 *stream);
+static void detect_xvdr_metronom(struct anonymous_83 *this, struct xine_stream_s_0 *stream);
 // disable_DPMS
 // file xine_sxfe_frontend.c line 1343
 static void disable_DPMS(struct sxfe_s *this);
@@ -1540,9 +1540,9 @@ extern void * dlsym(void *, const char *);
 // elapsed
 // file tools/time_ms.h line 28
 static unsigned long int elapsed(unsigned long int t);
-// elapsed$link1
+// elapsed_link1
 // file tools/time_ms.h line 28
-static unsigned long int elapsed$link1(unsigned long int t$link1);
+static unsigned long int elapsed_link1(unsigned long int t_link1);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -1555,9 +1555,9 @@ static char * fe_compress_grab_frame(struct fe_s *this, signed int *size, signed
 // fe_control
 // file xine_frontend.c line 1472
 static void * fe_control(struct frontend_s *this_gen, const char *cmd);
-// fe_creator$object
+// fe_creator_object
 //
-struct frontend_s * fe_creator$object(void);
+struct frontend_s * fe_creator_object(void);
 // fe_dest_pixel_aspect
 // file xine_frontend.c line 222
 static double fe_dest_pixel_aspect(const struct fe_s *this, double video_pixel_aspect, signed int video_width, signed int video_height);
@@ -1621,12 +1621,12 @@ extern signed int fflush(struct _IO_FILE *);
 // fgets
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 253
 static inline char * fgets(char * restrict __s, signed int __n, struct _IO_FILE * restrict __stream);
-// fgets$link1
+// fgets_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 253
-static inline char * fgets$link1(char * restrict __s$link1, signed int __n$link1, struct _IO_FILE * restrict __stream$link1);
+static inline char * fgets_link1(char * restrict __s_link1, signed int __n_link1, struct _IO_FILE * restrict __stream_link1);
 // find_argb_visual
 // file xine_sxfe_frontend.c line 774
-static struct anonymous$16 * find_argb_visual(struct _XDisplay *dpy, signed int scr);
+static struct anonymous_16 * find_argb_visual(struct _XDisplay *dpy, signed int scr);
 // find_input_plugin
 // file xine_frontend.c line 191
 static signed int find_input_plugin(struct fe_s *this);
@@ -1639,18 +1639,18 @@ extern struct _IO_FILE * fopen(const char *, const char *);
 // fprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
 static inline signed int fprintf(struct _IO_FILE * restrict __stream, const char * restrict __fmt, ...);
-// fprintf$link1
+// fprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link1(struct _IO_FILE * restrict __stream$link1, const char * restrict __fmt$link1, ...);
-// fprintf$link2
+static inline signed int fprintf_link1(struct _IO_FILE * restrict __stream_link1, const char * restrict __fmt_link1, ...);
+// fprintf_link2
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link2(struct _IO_FILE * restrict __stream$link2, const char * restrict __fmt$link2, ...);
-// fprintf$link3
+static inline signed int fprintf_link2(struct _IO_FILE * restrict __stream_link2, const char * restrict __fmt_link2, ...);
+// fprintf_link3
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link3(struct _IO_FILE * restrict __stream$link3, const char * restrict __fmt$link3, ...);
-// fprintf$link4
+static inline signed int fprintf_link3(struct _IO_FILE * restrict __stream_link3, const char * restrict __fmt_link3, ...);
+// fprintf_link4
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link4(struct _IO_FILE * restrict __stream$link4, const char * restrict __fmt$link4, ...);
+static inline signed int fprintf_link4(struct _IO_FILE * restrict __stream_link4, const char * restrict __fmt_link4, ...);
 // free
 // file /usr/include/stdlib.h line 483
 extern void free(void *);
@@ -1734,10 +1734,10 @@ void glVertex3f(float, float, float);
 extern struct __GLXFBConfigRec ** glXChooseFBConfig(struct _XDisplay *, signed int, const signed int *, signed int *);
 // glXChooseVisual
 // file /usr/include/GL/glx.h line 187
-extern struct anonymous$17 * glXChooseVisual(struct _XDisplay *, signed int, signed int *);
+extern struct anonymous_17 * glXChooseVisual(struct _XDisplay *, signed int, signed int *);
 // glXCreateContext
 // file /usr/include/GL/glx.h line 190
-extern struct __GLXcontextRec * glXCreateContext(struct _XDisplay *, struct anonymous$17 *, struct __GLXcontextRec *, signed int);
+extern struct __GLXcontextRec * glXCreateContext(struct _XDisplay *, struct anonymous_17 *, struct __GLXcontextRec *, signed int);
 // glXCreatePixmap
 // file /usr/include/GL/glx.h line 259
 extern unsigned long int glXCreatePixmap(struct _XDisplay *, struct __GLXFBConfigRec *, unsigned long int, const signed int *);
@@ -1785,7 +1785,7 @@ static signed int hud_osd_command(struct frontend_s *this_gen, struct osd_comman
 static void hud_osd_draw(struct sxfe_s *this, struct osd_command_s *cmd);
 // hud_osd_focus
 // file xine_sxfe_frontend.c line 1280
-static void hud_osd_focus(struct sxfe_s *this, struct anonymous$40 *fev);
+static void hud_osd_focus(struct sxfe_s *this, struct anonymous_40 *fev);
 // hud_osd_hide
 // file xine_sxfe_frontend.c line 957
 static void hud_osd_hide(struct sxfe_s *this);
@@ -1815,7 +1815,7 @@ void init_fe(struct fe_s *fe);
 static void input_event_cb(struct frontend_s *this_gen, const char *keymap, const char *key);
 // intercept_video_driver
 // file xine_frontend.c line 50
-static void intercept_video_driver(struct xine_video_port_s$0 *video_port);
+static void intercept_video_driver(struct xine_video_port_s_0 *video_port);
 // isatty
 // file /usr/include/unistd.h line 779
 extern signed int isatty(signed int);
@@ -1846,9 +1846,9 @@ extern unsigned int jpeg_write_scanlines(struct jpeg_compress_struct *, unsigned
 // kbd_receiver_thread
 // file xine_frontend_kbd.c line 169
 static void * kbd_receiver_thread(void *fe_gen);
-// kbd_receiver_thread::1::3::__cancel_routine$object
+// kbd_receiver_thread::1::3::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // kbd_receiver_thread_cleanup
 // file xine_frontend_kbd.c line 155
 static void kbd_receiver_thread_cleanup(void *arg);
@@ -1876,24 +1876,24 @@ static void lircd_connect(void);
 // list_plugins_type
 // file xine_frontend.c line 146
 static void list_plugins_type(struct xine_s *xine, const char *msg, const char * const * (*list_func)(struct xine_s *));
-// list_plugins_type::list_func$object
+// list_plugins_type::list_func_object
 //
-const char * const * list_func$object(struct xine_s *);
+const char * const * list_func_object(struct xine_s *);
 // list_xine_plugins
 // file xine_frontend.c line 162
 void list_xine_plugins(struct frontend_s *fe, signed int verbose);
-// main::$tmp::return_value_signal$64$object
+// main::_tmp::return_value_signal_64_object
 //
-void return_value_signal$64$object(signed int);
-// main::$tmp::return_value_signal$65$object
+void return_value_signal_64_object(signed int);
+// main::_tmp::return_value_signal_65_object
 //
-void return_value_signal$65$object(signed int);
-// main::$tmp::return_value_signal$66$object
+void return_value_signal_65_object(signed int);
+// main::_tmp::return_value_signal_66_object
 //
-void return_value_signal$66$object(signed int);
-// main::$tmp::return_value_signal$67$object
+void return_value_signal_66_object(signed int);
+// main::_tmp::return_value_signal_67_object
 //
-void return_value_signal$67$object(signed int);
+void return_value_signal_67_object(signed int);
 // make_dirs
 // file xine_frontend.c line 118
 static void make_dirs(const char *file);
@@ -1903,27 +1903,27 @@ extern void * malloc(unsigned long int);
 // memcpy
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
 static inline void * memcpy(void * restrict __dest, const void * restrict __src, unsigned long int __len);
-// memcpy$link1
+// memcpy_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link1(void * restrict __dest$link1, const void * restrict __src$link1, unsigned long int __len$link1);
-// memcpy$link2
+static inline void * memcpy_link1(void * restrict __dest_link1, const void * restrict __src_link1, unsigned long int __len_link1);
+// memcpy_link2
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link2(void * restrict __dest$link2, const void * restrict __src$link2, unsigned long int __len$link2);
-// memcpy$link3
+static inline void * memcpy_link2(void * restrict __dest_link2, const void * restrict __src_link2, unsigned long int __len_link2);
+// memcpy_link3
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link3(void * restrict __dest$link3, const void * restrict __src$link3, unsigned long int __len$link3);
-// memcpy$link4
+static inline void * memcpy_link3(void * restrict __dest_link3, const void * restrict __src_link3, unsigned long int __len_link3);
+// memcpy_link4
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link4(void * restrict __dest$link4, const void * restrict __src$link4, unsigned long int __len$link4);
+static inline void * memcpy_link4(void * restrict __dest_link4, const void * restrict __src_link4, unsigned long int __len_link4);
 // memmove
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 57
 static inline void * memmove(void *__dest, const void *__src, unsigned long int __len);
 // memset
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
 static inline void * memset(void *__dest, signed int __ch, unsigned long int __len);
-// memset$link1
+// memset_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
-static inline void * memset$link1(void *__dest$link1, signed int __ch$link1, unsigned long int __len$link1);
+static inline void * memset_link1(void *__dest_link1, signed int __ch_link1, unsigned long int __len_link1);
 // mkdir
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 320
 extern signed int mkdir(const char *, unsigned int);
@@ -1951,9 +1951,9 @@ static signed int opengl_init(struct sxfe_s *this);
 // opengl_init_dl
 // file xine_sxfe_frontend.c line 1723
 static signed int opengl_init_dl(struct sxfe_s *this);
-// opengl_init_dl::1::glXGetProcAddressARB$object
+// opengl_init_dl::1::glXGetProcAddressARB_object
 //
-void * glXGetProcAddressARB$object(unsigned char *);
+void * glXGetProcAddressARB_object(unsigned char *);
 // opengl_osd_command
 // file xine_sxfe_frontend.c line 1613
 static signed int opengl_osd_command(struct frontend_s *this_gen, struct osd_command_s *cmd);
@@ -2038,24 +2038,24 @@ static signed int osdscaler_set_property(struct vo_driver_s *self, signed int pr
 // poll
 // file /usr/include/x86_64-linux-gnu/bits/poll2.h line 36
 static inline signed int poll(struct pollfd *__fds, unsigned long int __nfds, signed int __timeout);
-// poll$link1
+// poll_link1
 // file /usr/include/x86_64-linux-gnu/bits/poll2.h line 36
-static inline signed int poll$link1(struct pollfd *__fds$link1, unsigned long int __nfds$link1, signed int __timeout$link1);
-// poll$link2
+static inline signed int poll_link1(struct pollfd *__fds_link1, unsigned long int __nfds_link1, signed int __timeout_link1);
+// poll_link2
 // file /usr/include/x86_64-linux-gnu/bits/poll2.h line 36
-static inline signed int poll$link2(struct pollfd *__fds$link2, unsigned long int __nfds$link2, signed int __timeout$link2);
+static inline signed int poll_link2(struct pollfd *__fds_link2, unsigned long int __nfds_link2, signed int __timeout_link2);
 // pplugin_parse_and_load
 // file xine/post.c line 229
-static struct anonymous$73 ** pplugin_parse_and_load(struct post_plugins_s$0 *fe, signed int plugin_type, const char *pchain, signed int *post_elements_num);
+static struct anonymous_73 ** pplugin_parse_and_load(struct post_plugins_s_0 *fe, signed int plugin_type, const char *pchain, signed int *post_elements_num);
 // pplugin_parse_and_store_post
 // file xine/post.c line 308
-void pplugin_parse_and_store_post(struct post_plugins_s$0 *fe, signed int plugin_type, const char *post_chain);
+void pplugin_parse_and_store_post(struct post_plugins_s_0 *fe, signed int plugin_type, const char *post_chain);
 // printf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 102
 static inline signed int printf(const char * restrict __fmt, ...);
-// printf$link1
+// printf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 102
-static inline signed int printf$link1(const char * restrict __fmt$link1, ...);
+static inline signed int printf_link1(const char * restrict __fmt_link1, ...);
 // pthread_attr_destroy
 // file /usr/include/pthread.h line 292
 extern signed int pthread_attr_destroy(union pthread_attr_t *);
@@ -2079,13 +2079,13 @@ extern signed int pthread_attr_setscope(union pthread_attr_t *, signed int);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$19 *, const union anonymous$12 *);
+extern signed int pthread_cond_init(union anonymous_19 *, const union anonymous_12 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$19 *);
+extern signed int pthread_cond_signal(union anonymous_19 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$19 *, union anonymous$7 *);
+extern signed int pthread_cond_wait(union anonymous_19 *, union anonymous_7 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -2097,25 +2097,25 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$7 *);
+extern signed int pthread_mutex_destroy(union anonymous_7 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$7 *, const union anonymous$12 *);
+extern signed int pthread_mutex_init(union anonymous_7 *, const union anonymous_12 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$7 *);
+extern signed int pthread_mutex_lock(union anonymous_7 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$7 *);
+extern signed int pthread_mutex_unlock(union anonymous_7 *);
 // pthread_testcancel
 // file /usr/include/pthread.h line 520
 extern void pthread_testcancel(void);
 // read
 // file /usr/include/x86_64-linux-gnu/bits/unistd.h line 34
 static inline signed long int read(signed int __fd, void *__buf, unsigned long int __nbytes);
-// read$link1
+// read_link1
 // file /usr/include/x86_64-linux-gnu/bits/unistd.h line 34
-static inline signed long int read$link1(signed int __fd$link1, void *__buf$link1, unsigned long int __nbytes$link1);
+static inline signed long int read_link1(signed int __fd_link1, void *__buf_link1, unsigned long int __nbytes_link1);
 // read_key
 // file xine_frontend_kbd.c line 53
 static signed int read_key(void);
@@ -2127,7 +2127,7 @@ static unsigned long int read_key_seq(void);
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/bits/socket2.h line 64
-static inline signed long int recvfrom(signed int __fd, void * restrict __buf, unsigned long int __n, signed int __flags, union anonymous$85 __addr, unsigned int * restrict __addr_len);
+static inline signed long int recvfrom(signed int __fd, void * restrict __buf, unsigned long int __n, signed int __flags, union anonymous_85 __addr, unsigned int * restrict __addr_len);
 // rle_compress
 // file tools/rle.c line 29
 unsigned int rle_compress(struct osd_rle_elem_s **rle_data, const unsigned char *data, unsigned int w, unsigned int h);
@@ -2166,16 +2166,16 @@ void rle_uncompress_rgba(unsigned int *dst, unsigned int w, unsigned int h, unsi
 static void rle_uncompress_u32(unsigned int *dst, unsigned int w, unsigned int h, unsigned int stride, struct osd_rle_elem_s *rle_data, unsigned int num_rle, unsigned int *lut);
 // scale_overlay
 // file xine/vo_osdscaler.c line 335
-static struct vo_overlay_s * scale_overlay(struct anonymous$80 *this, struct vo_frame_s *frame, struct vo_overlay_s *overlay);
+static struct vo_overlay_s * scale_overlay(struct anonymous_80 *this, struct vo_frame_s *frame, struct vo_overlay_s *overlay);
 // sched_get_priority_min
 // file /usr/include/sched.h line 71
 extern signed int sched_get_priority_min(signed int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$98 *, struct anonymous$98 *, struct anonymous$98 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_98 *, struct anonymous_98 *, struct anonymous_98 *, struct timeval *);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous$85, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_85, unsigned int);
 // set_above
 // file xine_sxfe_frontend.c line 418
 static void set_above(struct sxfe_s *this, signed int stay_above);
@@ -2218,9 +2218,9 @@ extern void (*signal(signed int, void (*)(signed int)))(signed int);
 // slave_receiver_thread
 // file xine_frontend_kbd.c line 257
 static void * slave_receiver_thread(void *fe_gen);
-// slave_receiver_thread::1::1::__cancel_routine$object
+// slave_receiver_thread::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // slave_receiver_thread_cleanup
 // file xine_frontend_kbd.c line 250
 static void slave_receiver_thread_cleanup(void *arg);
@@ -2230,27 +2230,27 @@ extern unsigned int sleep(unsigned int);
 // snprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
 static inline signed int snprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, ...);
-// snprintf$link1
+// snprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
-static inline signed int snprintf$link1(char * restrict __s$link1, unsigned long int __n$link1, const char * restrict __fmt$link1, ...);
-// snprintf$link2
+static inline signed int snprintf_link1(char * restrict __s_link1, unsigned long int __n_link1, const char * restrict __fmt_link1, ...);
+// snprintf_link2
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
-static inline signed int snprintf$link2(char * restrict __s$link2, unsigned long int __n$link2, const char * restrict __fmt$link2, ...);
-// snprintf$link3
+static inline signed int snprintf_link2(char * restrict __s_link2, unsigned long int __n_link2, const char * restrict __fmt_link2, ...);
+// snprintf_link3
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
-static inline signed int snprintf$link3(char * restrict __s$link3, unsigned long int __n$link3, const char * restrict __fmt$link3, ...);
+static inline signed int snprintf_link3(char * restrict __s_link3, unsigned long int __n_link3, const char * restrict __fmt_link3, ...);
 // socket
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 113
 extern signed int socket(signed int, signed int, signed int);
 // sprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 31
 static inline signed int sprintf(char * restrict __s, const char * restrict __fmt, ...);
-// sprintf$link1
+// sprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 31
-static inline signed int sprintf$link1(char * restrict __s$link1, const char * restrict __fmt$link1, ...);
-// sprintf$link2
+static inline signed int sprintf_link1(char * restrict __s_link1, const char * restrict __fmt_link1, ...);
+// sprintf_link2
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 31
-static inline signed int sprintf$link2(char * restrict __s$link2, const char * restrict __fmt$link2, ...);
+static inline signed int sprintf_link2(char * restrict __s_link2, const char * restrict __fmt_link2, ...);
 // sscanf
 // file /usr/include/stdio.h line 433
 extern signed int sscanf(const char *, const char *, ...);
@@ -2263,24 +2263,24 @@ extern signed int strcasecmp(const char *, const char *);
 // strcat
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 146
 static inline char * strcat(char * restrict __dest, const char * restrict __src);
-// strcat$link1
+// strcat_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 146
-static inline char * strcat$link1(char * restrict __dest$link1, const char * restrict __src$link1);
-// strcat$link2
+static inline char * strcat_link1(char * restrict __dest_link1, const char * restrict __src_link1);
+// strcat_link2
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 146
-static inline char * strcat$link2(char * restrict __dest$link2, const char * restrict __src$link2);
+static inline char * strcat_link2(char * restrict __dest_link2, const char * restrict __src_link2);
 // strcatrealloc
 // file xine_frontend_main.c line 69
 static char * strcatrealloc(char *dest, const char *src);
 // strcpy
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 108
 static inline char * strcpy(char * restrict __dest, const char * restrict __src);
-// strcpy$link1
+// strcpy_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 108
-static inline char * strcpy$link1(char * restrict __dest$link1, const char * restrict __src$link1);
-// strcpy$link2
+static inline char * strcpy_link1(char * restrict __dest_link1, const char * restrict __src_link1);
+// strcpy_link2
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 108
-static inline char * strcpy$link2(char * restrict __dest$link2, const char * restrict __src$link2);
+static inline char * strcpy_link2(char * restrict __dest_link2, const char * restrict __src_link2);
 // strerror
 // file /usr/include/string.h line 412
 extern char * strerror(signed int);
@@ -2302,9 +2302,9 @@ extern signed int strncmp(const char *, const char *, unsigned long int);
 // strncpy
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 123
 static inline char * strncpy(char * restrict __dest, const char * restrict __src, unsigned long int __len);
-// strncpy$link1
+// strncpy_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 123
-static inline char * strncpy$link1(char * restrict __dest$link1, const char * restrict __src$link1, unsigned long int __len$link1);
+static inline char * strncpy_link1(char * restrict __dest_link1, const char * restrict __src_link1, unsigned long int __len_link1);
 // strrchr
 // file /usr/include/string.h line 262
 extern char * strrchr(const char *, signed int);
@@ -2343,7 +2343,7 @@ static void sxfe_interrupt(struct frontend_s *this_gen);
 static signed int sxfe_run(struct frontend_s *this_gen);
 // sxfe_toggle_fullscreen
 // file xine_sxfe_frontend.c line 2542
-static void sxfe_toggle_fullscreen(struct fe_s$0 *this_gen, signed int fullscreen);
+static void sxfe_toggle_fullscreen(struct fe_s_0 *this_gen, signed int fullscreen);
 // sxfe_xine_open
 // file xine_sxfe_frontend.c line 3134
 static signed int sxfe_xine_open(struct frontend_s *this_gen, const char *mrl);
@@ -2371,9 +2371,9 @@ extern signed long int time(signed long int *);
 // time_ms
 // file tools/time_ms.h line 16
 static unsigned long int time_ms(void);
-// time_ms$link1
+// time_ms_link1
 // file tools/time_ms.h line 16
-static unsigned long int time_ms$link1(void);
+static unsigned long int time_ms_link1(void);
 // udp_discovery_broadcast
 // file tools/vdrdiscovery.c line 105
 signed int udp_discovery_broadcast(signed int fd_discovery, signed int server_port, const char *server_address);
@@ -2458,60 +2458,60 @@ void vo_def_update_frame_format(struct vo_driver_s *self, struct vo_frame_s *img
 // vo_frameoutput_init
 // file xine/vo_frameoutput.c line 61
 struct vo_driver_s * vo_frameoutput_init(void *handle, void (*cb)(void *, struct vo_frame_s *));
-// vo_frameoutput_init::cb$object
+// vo_frameoutput_init::cb_object
 //
-void cb$object(void *, struct vo_frame_s *);
+void cb_object(void *, struct vo_frame_s *);
 // vo_lastpts_init
 // file xine/vo_lastpts.c line 99
 struct vo_driver_s * vo_lastpts_init(void);
 // vo_proxy_hooks_init
 // file xine/vo_hook.c line 99
 static void vo_proxy_hooks_init(struct vo_driver_s *drv, struct vo_driver_s *next_driver);
-// vo_proxy_hooks_init::$tmp::tmp_if_expr$1$object
+// vo_proxy_hooks_init::_tmp::tmp_if_expr_1_object
 //
-unsigned int tmp_if_expr$1$object(struct vo_driver_s *);
-// vo_proxy_hooks_init::$tmp::tmp_if_expr$10$object
+unsigned int tmp_if_expr_1_object(struct vo_driver_s *);
+// vo_proxy_hooks_init::_tmp::tmp_if_expr_10_object
 //
-void tmp_if_expr$10$object(struct vo_driver_s *);
-// vo_proxy_hooks_init::$tmp::tmp_if_expr$2$object
+void tmp_if_expr_10_object(struct vo_driver_s *);
+// vo_proxy_hooks_init::_tmp::tmp_if_expr_2_object
 //
-struct vo_frame_s * tmp_if_expr$2$object(struct vo_driver_s *);
-// vo_proxy_hooks_init::$tmp::tmp_if_expr$3$object
+struct vo_frame_s * tmp_if_expr_2_object(struct vo_driver_s *);
+// vo_proxy_hooks_init::_tmp::tmp_if_expr_3_object
 //
-void tmp_if_expr$3$object(struct vo_driver_s *, struct vo_frame_s *, unsigned int, unsigned int, double, signed int, signed int);
-// vo_proxy_hooks_init::$tmp::tmp_if_expr$4$object
+void tmp_if_expr_3_object(struct vo_driver_s *, struct vo_frame_s *, unsigned int, unsigned int, double, signed int, signed int);
+// vo_proxy_hooks_init::_tmp::tmp_if_expr_4_object
 //
-void tmp_if_expr$4$object(struct vo_driver_s *, struct vo_frame_s *);
-// vo_proxy_hooks_init::$tmp::tmp_if_expr$5$object
+void tmp_if_expr_4_object(struct vo_driver_s *, struct vo_frame_s *);
+// vo_proxy_hooks_init::_tmp::tmp_if_expr_5_object
 //
-signed int tmp_if_expr$5$object(struct vo_driver_s *, signed int);
-// vo_proxy_hooks_init::$tmp::tmp_if_expr$6$object
+signed int tmp_if_expr_5_object(struct vo_driver_s *, signed int);
+// vo_proxy_hooks_init::_tmp::tmp_if_expr_6_object
 //
-signed int tmp_if_expr$6$object(struct vo_driver_s *, signed int, signed int);
-// vo_proxy_hooks_init::$tmp::tmp_if_expr$7$object
+signed int tmp_if_expr_6_object(struct vo_driver_s *, signed int, signed int);
+// vo_proxy_hooks_init::_tmp::tmp_if_expr_7_object
 //
-void tmp_if_expr$7$object(struct vo_driver_s *, signed int, signed int *, signed int *);
-// vo_proxy_hooks_init::$tmp::tmp_if_expr$8$object
+void tmp_if_expr_7_object(struct vo_driver_s *, signed int, signed int *, signed int *);
+// vo_proxy_hooks_init::_tmp::tmp_if_expr_8_object
 //
-signed int tmp_if_expr$8$object(struct vo_driver_s *, signed int, void *);
-// vo_proxy_hooks_init::$tmp::tmp_if_expr$9$object
+signed int tmp_if_expr_8_object(struct vo_driver_s *, signed int, void *);
+// vo_proxy_hooks_init::_tmp::tmp_if_expr_9_object
 //
-signed int tmp_if_expr$9$object(struct vo_driver_s *);
+signed int tmp_if_expr_9_object(struct vo_driver_s *);
 // vpplugin_disable_post
 // file xine/post.c line 796
-signed int vpplugin_disable_post(struct post_plugins_s$0 *fe, const char *name);
+signed int vpplugin_disable_post(struct post_plugins_s_0 *fe, const char *name);
 // vpplugin_enable_post
 // file xine/post.c line 723
-signed int vpplugin_enable_post(struct post_plugins_s$0 *fe, const char *initstr, signed int *found);
+signed int vpplugin_enable_post(struct post_plugins_s_0 *fe, const char *initstr, signed int *found);
 // vpplugin_parse_and_store_post
 // file xine/post.c line 377
-void vpplugin_parse_and_store_post(struct post_plugins_s$0 *fe, const char *post_chain);
+void vpplugin_parse_and_store_post(struct post_plugins_s_0 *fe, const char *post_chain);
 // vpplugin_rewire_posts
 // file xine/post.c line 628
-void vpplugin_rewire_posts(struct post_plugins_s$0 *fe);
+void vpplugin_rewire_posts(struct post_plugins_s_0 *fe);
 // vpplugin_unload_post
 // file xine/post.c line 873
-signed int vpplugin_unload_post(struct post_plugins_s$0 *fe, const char *name);
+signed int vpplugin_unload_post(struct post_plugins_s_0 *fe, const char *name);
 // vsnprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 74
 static inline signed int vsnprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, void **__ap);
@@ -2535,7 +2535,7 @@ void xine_close(struct xine_stream_s *);
 void xine_close_audio_driver(struct xine_s *, struct xine_audio_port_s *);
 // xine_close_video_driver
 // file /usr/include/xine.h line 152
-void xine_close_video_driver(struct xine_s *, struct xine_video_port_s$0 *);
+void xine_close_video_driver(struct xine_s *, struct xine_video_port_s_0 *);
 // xine_config_load
 // file /usr/include/xine.h line 1711
 void xine_config_load(struct xine_s *, const char *);
@@ -2562,10 +2562,10 @@ static signed int xine_control(struct frontend_s *this_gen, const char *cmd);
 void xine_dispose(struct xine_stream_s *);
 // xine_event_cb
 // file xine_frontend.c line 408
-static void xine_event_cb(void *user_data, const struct anonymous$15 *event);
+static void xine_event_cb(void *user_data, const struct anonymous_15 *event);
 // xine_event_create_listener_thread
 // file /usr/include/xine.h line 2164
-void xine_event_create_listener_thread(struct xine_event_queue_s *, void (*)(void *, const struct anonymous$15 *), void *);
+void xine_event_create_listener_thread(struct xine_event_queue_s *, void (*)(void *, const struct anonymous_15 *), void *);
 // xine_event_dispose_queue
 // file /usr/include/xine.h line 2142
 void xine_event_dispose_queue(struct xine_event_queue_s *);
@@ -2574,13 +2574,13 @@ void xine_event_dispose_queue(struct xine_event_queue_s *);
 struct xine_event_queue_s * xine_event_new_queue(struct xine_stream_s *);
 // xine_event_send
 // file /usr/include/xine.h line 2174
-void xine_event_send(struct xine_stream_s *, const struct anonymous$15 *);
+void xine_event_send(struct xine_stream_s *, const struct anonymous_15 *);
 // xine_exit
 // file /usr/include/xine.h line 173
 void xine_exit(struct xine_s *);
-// xine_fast_memcpy$object
+// xine_fast_memcpy_object
 //
-void * xine_fast_memcpy$object(void *, const void *, unsigned long int);
+void * xine_fast_memcpy_object(void *, const void *, unsigned long int);
 // xine_get_audio_source
 // file /usr/include/xine.h line 766
 struct xine_post_out_s * xine_get_audio_source(struct xine_stream_s *);
@@ -2640,7 +2640,7 @@ signed int xine_open(struct xine_stream_s *, const char *);
 struct xine_audio_port_s * xine_open_audio_driver(struct xine_s *, const char *, void *);
 // xine_open_video_driver
 // file /usr/include/xine.h line 148
-struct xine_video_port_s$0 * xine_open_video_driver(struct xine_s *, const char *, signed int, void *);
+struct xine_video_port_s_0 * xine_open_video_driver(struct xine_s *, const char *, signed int, void *);
 // xine_osd_command
 // file xine_frontend.c line 1340
 static signed int xine_osd_command(struct frontend_s *this_gen, struct osd_command_s *cmd);
@@ -2652,19 +2652,19 @@ signed int xine_play(struct xine_stream_s *, signed int, signed int);
 signed int xine_port_send_gui_data(struct xine_video_port_s *, signed int, void *);
 // xine_post_dispose
 // file /usr/include/xine.h line 773
-void xine_post_dispose(struct xine_s$0 *, struct xine_post_s$0 *);
+void xine_post_dispose(struct xine_s_0 *, struct xine_post_s_0 *);
 // xine_post_init
 // file /usr/include/xine.h line 660
-struct xine_post_s$0 * xine_post_init(struct xine_s$0 *, const char *, signed int, struct xine_audio_port_s$0 **, struct xine_video_port_s **);
+struct xine_post_s_0 * xine_post_init(struct xine_s_0 *, const char *, signed int, struct xine_audio_port_s_0 **, struct xine_video_port_s **);
 // xine_post_input
 // file /usr/include/xine.h line 729
-struct xine_post_in_s * xine_post_input(struct xine_post_s$0 *, const char *);
+struct xine_post_in_s * xine_post_input(struct xine_post_s_0 *, const char *);
 // xine_post_list_outputs
 // file /usr/include/xine.h line 726
-const char * const * xine_post_list_outputs(struct xine_post_s$0 *);
+const char * const * xine_post_list_outputs(struct xine_post_s_0 *);
 // xine_post_output
 // file /usr/include/xine.h line 732
-struct xine_post_out_s * xine_post_output(struct xine_post_s$0 *, const char *);
+struct xine_post_out_s * xine_post_output(struct xine_post_s_0 *, const char *);
 // xine_post_wire
 // file /usr/include/xine.h line 738
 signed int xine_post_wire(struct xine_post_out_s *, struct xine_post_in_s *);
@@ -2673,7 +2673,7 @@ signed int xine_post_wire(struct xine_post_out_s *, struct xine_post_in_s *);
 signed int xine_post_wire_audio_port(struct xine_post_out_s *, struct xine_audio_port_s *);
 // xine_post_wire_video_port
 // file /usr/include/xine.h line 749
-signed int xine_post_wire_video_port(struct xine_post_out_s *, struct xine_video_port_s$0 *);
+signed int xine_post_wire_video_port(struct xine_post_out_s *, struct xine_video_port_s_0 *);
 // xine_queue_pes_packet
 // file xine_frontend.c line 1349
 static signed int xine_queue_pes_packet(struct frontend_s *this_gen, signed int stream, unsigned long int pos, const char *data, signed int len);
@@ -2685,10 +2685,10 @@ void xine_set_param(struct xine_stream_s *, signed int, signed int);
 void xine_stop(struct xine_stream_s *);
 // xine_stream_new
 // file /usr/include/xine.h line 191
-struct xine_stream_s * xine_stream_new(struct xine_s *, struct xine_audio_port_s *, struct xine_video_port_s$0 *);
+struct xine_stream_s * xine_stream_new(struct xine_s *, struct xine_audio_port_s *, struct xine_video_port_s_0 *);
 // xrender_surf_adopt
 // file xine_sxfe_frontend.c line 744
-static struct _xrender_surf * xrender_surf_adopt(struct _XDisplay *dpy, unsigned long int draw, struct anonymous$16 *vis, signed int w, signed int h);
+static struct _xrender_surf * xrender_surf_adopt(struct _XDisplay *dpy, unsigned long int draw, struct anonymous_16 *vis, signed int w, signed int h);
 // xrender_surf_blend
 // file xine_sxfe_frontend.c line 715
 static void xrender_surf_blend(struct _XDisplay *dpy, struct _xrender_surf *src, struct _xrender_surf *dst, signed int x, signed int y, signed int w, signed int h, double scale_x, double scale_y, signed int smooth, signed int *new_x, signed int *new_y, signed int *new_w, signed int *new_h);
@@ -2697,21 +2697,21 @@ static void xrender_surf_blend(struct _XDisplay *dpy, struct _xrender_surf *src,
 static void xrender_surf_free(struct _XDisplay *dpy, struct _xrender_surf *rs);
 // xrender_surf_new
 // file xine_sxfe_frontend.c line 692
-static struct _xrender_surf * xrender_surf_new(struct _XDisplay *dpy, unsigned long int draw, struct anonymous$16 *vis, signed int w, signed int h, signed int alpha);
+static struct _xrender_surf * xrender_surf_new(struct _XDisplay *dpy, unsigned long int draw, struct anonymous_16 *vis, signed int w, signed int h, signed int alpha);
 
-struct anonymous$69
+struct anonymous_69
 {
   // set_parameters
-  signed int (*set_parameters)(struct xine_post_s$0 *, void *);
+  signed int (*set_parameters)(struct xine_post_s_0 *, void *);
   // get_parameters
-  signed int (*get_parameters)(struct xine_post_s$0 *, void *);
+  signed int (*get_parameters)(struct xine_post_s_0 *, void *);
   // get_param_descr
-  struct anonymous$70 * (*get_param_descr)(void);
+  struct anonymous_70 * (*get_param_descr)(void);
   // get_help
   char * (*get_help)(void);
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // filename
   char *filename;
@@ -2727,7 +2727,7 @@ struct anonymous$22
   signed int no_unload;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // origin
   char *origin;
@@ -2741,7 +2741,7 @@ struct anonymous$28
   unsigned int type;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // res_name
   char *res_name;
@@ -2749,12 +2749,12 @@ struct anonymous$9
   char *res_class;
 };
 
-struct anonymous$75
+struct anonymous_75
 {
   // file
-  struct anonymous$22 *file;
+  struct anonymous_22 *file;
   // info
-  struct anonymous$74 *info;
+  struct anonymous_74 *info;
   // plugin_class
   void *plugin_class;
   // config_entry_list
@@ -2765,12 +2765,12 @@ struct anonymous$75
   signed int priority;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // file
-  struct anonymous$22 *file;
+  struct anonymous_22 *file;
   // info
-  struct anonymous$23 *info;
+  struct anonymous_23 *info;
   // plugin_class
   void *plugin_class;
   // config_entry_list
@@ -2781,10 +2781,10 @@ struct anonymous$24
   signed int priority;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // visual
-  struct anonymous$16 *visual;
+  struct anonymous_16 *visual;
   // visualid
   unsigned long int visualid;
   // screen
@@ -2805,7 +2805,7 @@ struct anonymous$17
   signed int bits_per_rgb;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -2824,11 +2824,11 @@ struct anonymous$33
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$78 *depths;
+  struct anonymous_78 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$16 *root_visual;
+  struct anonymous_16 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -2849,7 +2849,7 @@ struct anonymous$33
   signed long int root_input_mask;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -2886,7 +2886,7 @@ struct anonymous$34
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$32 *pixmap_format;
+  struct anonymous_32 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -2922,7 +2922,7 @@ struct anonymous$34
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$33 *screens;
+  struct anonymous_33 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -2941,7 +2941,7 @@ struct anonymous$34
   char *xdefaults;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -2953,7 +2953,7 @@ struct anonymous$32
   signed int scanline_pad;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -2973,10 +2973,10 @@ struct anonymous$16
   signed int map_entries;
 };
 
-struct anonymous$73
+struct anonymous_73
 {
   // post
-  struct xine_post_s$0 *post;
+  struct xine_post_s_0 *post;
   // name
   char *name;
   // args
@@ -2985,7 +2985,7 @@ struct anonymous$73
   signed int enable;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // post
   struct xine_post_s *post;
@@ -2997,16 +2997,16 @@ struct anonymous$26
   signed int enable;
 };
 
-struct anonymous$72
+struct anonymous_72
 {
   // post
-  struct xine_post_s$0 *post;
+  struct xine_post_s_0 *post;
   // api
-  struct anonymous$69 *api;
+  struct anonymous_69 *api;
   // descr
-  struct anonymous$70 *descr;
+  struct anonymous_70 *descr;
   // param
-  struct anonymous$71 *param;
+  struct anonymous_71 *param;
   // param_data
   char *param_data;
   // x
@@ -3027,10 +3027,10 @@ struct timeval
   signed long int tv_usec;
 };
 
-struct anonymous$88
+struct anonymous_88
 {
   // stream
-  struct xine_stream_s$0 *stream;
+  struct xine_stream_s_0 *stream;
   // data
   void *data;
   // data_length
@@ -3041,7 +3041,7 @@ struct anonymous$88
   struct timeval tv;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // stream
   struct xine_stream_s *stream;
@@ -3055,7 +3055,7 @@ struct anonymous$15
   struct timeval tv;
 };
 
-struct anonymous$94
+struct anonymous_94
 {
   // ovl_rgba
   unsigned char *ovl_rgba;
@@ -3069,7 +3069,7 @@ struct anonymous$94
   signed int ovl_y;
 };
 
-struct anonymous$91
+struct anonymous_91
 {
   // frame_output_cb
   void (*frame_output_cb)(void *, signed int, signed int, double, signed int *, signed int *, signed int *, signed int *, double *, signed int *, signed int *);
@@ -3077,7 +3077,7 @@ struct anonymous$91
   void *user_data;
 };
 
-struct anonymous$92
+struct anonymous_92
 {
   // display
   void *display;
@@ -3097,13 +3097,13 @@ struct anonymous$92
   void (*unlock_display)(void *);
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // reserved
   void *reserved;
 };
 
-struct anonymous$93
+struct anonymous_93
 {
   // user_data
   void *user_data;
@@ -3112,16 +3112,16 @@ struct anonymous$93
   // raw_output_cb
   void (*raw_output_cb)(void *, signed int, signed int, signed int, double, void *, void *, void *);
   // raw_overlay_cb
-  void (*raw_overlay_cb)(void *, signed int, struct anonymous$94 *);
+  void (*raw_overlay_cb)(void *, signed int, struct anonymous_94 *);
 };
 
-struct anonymous$98
+struct anonymous_98
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // bits
   unsigned char bits[17l];
@@ -3131,7 +3131,7 @@ struct anonymous$3
   signed int sent_table;
 };
 
-struct anonymous$101
+struct anonymous_101
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -3139,15 +3139,15 @@ struct anonymous$101
   signed int __mask_was_saved;
 };
 
-struct anonymous$102
+struct anonymous_102
 {
   // __cancel_jmp_buf
-  struct anonymous$101 __cancel_jmp_buf[1l];
+  struct anonymous_101 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // quantval
   unsigned short int quantval[64l];
@@ -3155,7 +3155,7 @@ struct anonymous$1
   signed int sent_table;
 };
 
-struct anonymous$89
+struct anonymous_89
 {
   // red
   signed short int red;
@@ -3175,7 +3175,7 @@ struct anonymous$89
   signed short int alphaMask;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // x
   signed short int x;
@@ -3187,7 +3187,7 @@ struct anonymous$20
   unsigned short int height;
 };
 
-struct anonymous$76
+struct anonymous_76
 {
   // __lock
   signed int __lock;
@@ -3207,7 +3207,7 @@ struct anonymous$76
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // component_id
   signed int component_id;
@@ -3248,12 +3248,12 @@ struct anonymous$2
   // last_row_height
   signed int last_row_height;
   // quant_table
-  struct anonymous$1 *quant_table;
+  struct anonymous_1 *quant_table;
   // dct_table
   void *dct_table;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // comps_in_scan
   signed int comps_in_scan;
@@ -3269,7 +3269,7 @@ struct anonymous$4
   signed int Al;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // count
   signed int count;
@@ -3277,17 +3277,17 @@ struct anonymous$11
   unsigned long int holder;
 };
 
-struct anonymous$78
+struct anonymous_78
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$16 *visuals;
+  struct anonymous_16 *visuals;
 };
 
-struct anonymous$77
+struct anonymous_77
 {
   // function
   signed int function;
@@ -3337,7 +3337,7 @@ struct anonymous$77
   char dashes;
 };
 
-struct anonymous$90
+struct anonymous_90
 {
   // screen_number
   signed int screen_number;
@@ -3351,15 +3351,15 @@ struct anonymous$90
   signed short int height;
 };
 
-struct anonymous$70
+struct anonymous_70
 {
   // struct_size
   signed int struct_size;
   // parameter
-  struct anonymous$71 *parameter;
+  struct anonymous_71 *parameter;
 };
 
-struct anonymous$64
+struct anonymous_64
 {
   // type
   signed int type;
@@ -3377,7 +3377,7 @@ struct anonymous$64
   unsigned char minor_code;
 };
 
-struct anonymous$71
+struct anonymous_71
 {
   // type
   signed int type;
@@ -3399,7 +3399,7 @@ struct anonymous$71
   const char *description;
 };
 
-struct anonymous$66
+struct anonymous_66
 {
   // type
   signed int type;
@@ -3415,7 +3415,7 @@ struct anonymous$66
   signed int evtype;
 };
 
-struct anonymous$67
+struct anonymous_67
 {
   // type
   signed int type;
@@ -3435,7 +3435,7 @@ struct anonymous$67
   void *data;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // type
   signed int type;
@@ -3453,7 +3453,7 @@ struct anonymous$43
   signed int minor_code;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // type
   signed int type;
@@ -3481,7 +3481,7 @@ struct anonymous$42
   signed int minor_code;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // type
   signed int type;
@@ -3497,7 +3497,7 @@ struct anonymous$46
   unsigned long int window;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // type
   signed int type;
@@ -3515,7 +3515,7 @@ struct anonymous$47
   signed int from_configure;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // type
   signed int type;
@@ -3533,7 +3533,7 @@ struct anonymous$48
   signed int override_redirect;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // type
   signed int type;
@@ -3551,7 +3551,7 @@ struct anonymous$55
   signed int place;
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // type
   signed int type;
@@ -3571,7 +3571,7 @@ struct anonymous$52
   signed int y;
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // type
   signed int type;
@@ -3601,7 +3601,7 @@ struct anonymous$51
   signed int override_redirect;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // type
   signed int type;
@@ -3625,7 +3625,7 @@ struct anonymous$50
   signed int override_redirect;
 };
 
-struct anonymous$59
+struct anonymous_59
 {
   // type
   signed int type;
@@ -3649,7 +3649,7 @@ struct anonymous$59
   unsigned long int time;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // type
   signed int type;
@@ -3665,7 +3665,7 @@ struct anonymous$49
   unsigned long int window;
 };
 
-struct anonymous$56
+struct anonymous_56
 {
   // type
   signed int type;
@@ -3683,7 +3683,7 @@ struct anonymous$56
   signed int place;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // type
   signed int type;
@@ -3711,7 +3711,7 @@ struct anonymous$45
   signed int override_redirect;
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // type
   signed int type;
@@ -3743,7 +3743,7 @@ struct anonymous$54
   unsigned long int value_mask;
 };
 
-struct anonymous$60
+struct anonymous_60
 {
   // type
   signed int type;
@@ -3765,7 +3765,7 @@ struct anonymous$60
   unsigned long int time;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
   signed int type;
@@ -3779,7 +3779,7 @@ struct anonymous$35
   unsigned long int window;
 };
 
-struct anonymous$65
+struct anonymous_65
 {
   // type
   signed int type;
@@ -3795,7 +3795,7 @@ struct anonymous$65
   char key_vector[32l];
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // type
   signed int type;
@@ -3813,7 +3813,7 @@ struct anonymous$40
   signed int detail;
 };
 
-struct anonymous$63
+struct anonymous_63
 {
   // type
   signed int type;
@@ -3833,7 +3833,7 @@ struct anonymous$63
   signed int count;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // type
   signed int type;
@@ -3849,7 +3849,7 @@ struct anonymous$44
   signed int state;
 };
 
-struct anonymous$53
+struct anonymous_53
 {
   // type
   signed int type;
@@ -3867,7 +3867,7 @@ struct anonymous$53
   signed int height;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // type
   signed int type;
@@ -3891,7 +3891,7 @@ struct anonymous$41
   signed int count;
 };
 
-struct anonymous$57
+struct anonymous_57
 {
   // type
   signed int type;
@@ -3911,7 +3911,7 @@ struct anonymous$57
   signed int state;
 };
 
-struct anonymous$61
+struct anonymous_61
 {
   // type
   signed int type;
@@ -3931,7 +3931,7 @@ struct anonymous$61
   signed int state;
 };
 
-union anonymous$68
+union anonymous_68
 {
   // b
   char b[20l];
@@ -3941,7 +3941,7 @@ union anonymous$68
   signed long int l[5l];
 };
 
-struct anonymous$62
+struct anonymous_62
 {
   // type
   signed int type;
@@ -3958,10 +3958,10 @@ struct anonymous$62
   // format
   signed int format;
   // data
-  union anonymous$68 data;
+  union anonymous_68 data;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // type
   signed int type;
@@ -3999,7 +3999,7 @@ struct anonymous$39
   unsigned int state;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
   signed int type;
@@ -4033,7 +4033,7 @@ struct anonymous$38
   signed int same_screen;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // type
   signed int type;
@@ -4067,7 +4067,7 @@ struct anonymous$37
   signed int same_screen;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // type
   signed int type;
@@ -4101,7 +4101,7 @@ struct anonymous$36
   signed int same_screen;
 };
 
-struct anonymous$58
+struct anonymous_58
 {
   // type
   signed int type;
@@ -4119,7 +4119,7 @@ struct anonymous$58
   unsigned long int time;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // width
   signed int width;
@@ -4131,7 +4131,7 @@ struct anonymous$14
   signed int pan_scan;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // width
   signed int width;
@@ -4157,7 +4157,7 @@ struct anonymous$30
   unsigned char *img;
 };
 
-struct anonymous$86
+struct anonymous_86
 {
   // x
   signed int x;
@@ -4165,7 +4165,7 @@ struct anonymous$86
   signed int y;
 };
 
-struct anonymous$87
+struct anonymous_87
 {
   // flags
   signed long int flags;
@@ -4190,9 +4190,9 @@ struct anonymous$87
   // height_inc
   signed int height_inc;
   // min_aspect
-  struct anonymous$86 min_aspect;
+  struct anonymous_86 min_aspect;
   // max_aspect
-  struct anonymous$86 max_aspect;
+  struct anonymous_86 max_aspect;
   // base_width
   signed int base_width;
   // base_height
@@ -4229,7 +4229,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -4239,10 +4239,10 @@ union anonymous$7
   signed long int __align;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // lock
-  union anonymous$7 lock;
+  union anonymous_7 lock;
   // object
   void *object;
   // destructor
@@ -4293,19 +4293,19 @@ struct driver_hook_s
   struct vo_driver_s *orig_driver;
 };
 
-struct anonymous$83
+struct anonymous_83
 {
   // h
   struct driver_hook_s h;
   // prev_stream
-  struct xine_stream_s$0 *prev_stream;
+  struct xine_stream_s_0 *prev_stream;
   // xvdr_stream
-  struct xine_stream_s$0 *xvdr_stream;
+  struct xine_stream_s_0 *xvdr_stream;
   // xvdr_metronom
   struct metronom_s *xvdr_metronom;
 };
 
-struct anonymous$84
+struct anonymous_84
 {
   // h
   struct driver_hook_s h;
@@ -4369,7 +4369,7 @@ struct vo_overlay_s
   struct argb_layer_s *argb_layer;
 };
 
-struct anonymous$82
+struct anonymous_82
 {
   // h
   struct driver_hook_s h;
@@ -4377,7 +4377,7 @@ struct anonymous$82
   struct vo_overlay_s *overlay[50l];
 };
 
-struct anonymous$80
+struct anonymous_80
 {
   // h
   struct driver_hook_s h;
@@ -4412,7 +4412,7 @@ struct xine_video_port_s
   // get_capabilities
   unsigned int (*get_capabilities)(struct xine_video_port_s *);
   // open
-  void (*open)(struct xine_video_port_s *, struct xine_stream_s$0 *);
+  void (*open)(struct xine_video_port_s *, struct xine_stream_s_0 *);
   // get_frame
   struct vo_frame_s * (*get_frame)(struct xine_video_port_s *, unsigned int, unsigned int, double, signed int, signed int);
   // new_grab_video_frame
@@ -4432,16 +4432,16 @@ struct xine_video_port_s
   // set_property
   signed int (*set_property)(struct xine_video_port_s *, signed int, signed int);
   // status
-  signed int (*status)(struct xine_video_port_s *, struct xine_stream_s$0 *, signed int *, signed int *, signed long int *);
+  signed int (*status)(struct xine_video_port_s *, struct xine_stream_s_0 *, signed int *, signed int *, signed long int *);
   // close
-  void (*close)(struct xine_video_port_s *, struct xine_stream_s$0 *);
+  void (*close)(struct xine_video_port_s *, struct xine_stream_s_0 *);
   // exit
   void (*exit)(struct xine_video_port_s *);
   // driver
   struct vo_driver_s *driver;
 };
 
-struct anonymous$79
+struct anonymous_79
 {
   // vo
   struct xine_video_port_s vo;
@@ -4449,7 +4449,7 @@ struct anonymous$79
   struct vo_driver_s *driver;
 };
 
-struct anonymous$81
+struct anonymous_81
 {
   // extent_width
   unsigned short int extent_width;
@@ -4461,7 +4461,7 @@ struct anonymous$81
   unsigned char scaling;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // background_pixmap
   unsigned long int background_pixmap;
@@ -4495,7 +4495,7 @@ struct anonymous$8
   unsigned long int cursor;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // id
   unsigned long int id;
@@ -4504,12 +4504,12 @@ struct anonymous$21
   // depth
   signed int depth;
   // direct
-  struct anonymous$89 direct;
+  struct anonymous_89 direct;
   // colormap
   unsigned long int colormap;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // pixel
   unsigned long int pixel;
@@ -4525,7 +4525,7 @@ struct anonymous$18
   char pad;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // shmseg
   unsigned long int shmseg;
@@ -4537,7 +4537,7 @@ struct anonymous$31
   signed int readOnly;
 };
 
-struct anonymous$74
+struct anonymous_74
 {
   // type
   unsigned char type;
@@ -4550,10 +4550,10 @@ struct anonymous$74
   // special_info
   const void *special_info;
   // init
-  void * (*init)(struct xine_s$0 *, void *);
+  void * (*init)(struct xine_s_0 *, void *);
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // type
   unsigned char type;
@@ -4569,7 +4569,7 @@ struct anonymous$23
   void * (*init)(struct xine_s *, void *);
 };
 
-union anonymous$103
+union anonymous_103
 {
   // palette
   struct osd_clut_s *palette;
@@ -4577,7 +4577,7 @@ union anonymous$103
   unsigned long int dummy02;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // data
   struct osd_rle_elem_s *data;
@@ -4587,19 +4587,19 @@ union anonymous$13
   unsigned long int dummy01;
 };
 
-union anonymous$27
+union anonymous_27
 {
   // vis
   void *vis;
   // vis_fb
-  struct anonymous$91 vis_fb;
+  struct anonymous_91 vis_fb;
   // vis_x11
-  struct anonymous$92 vis_x11;
+  struct anonymous_92 vis_x11;
   // vis_raw
-  struct anonymous$93 vis_raw;
+  struct anonymous_93 vis_raw;
 };
 
-union anonymous$99
+union anonymous_99
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -4609,7 +4609,7 @@ union anonymous$99
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __size
   char __size[4l];
@@ -4625,10 +4625,10 @@ union anonymous
   char s[80l];
 };
 
-union anonymous$19
+union anonymous_19
 {
   // __data
-  struct anonymous$76 __data;
+  struct anonymous_76 __data;
   // __size
   char __size[48l];
   // __align
@@ -4685,40 +4685,40 @@ struct frontend_s
   void (*fe_message_cb)(void *, const char *, const char *);
 };
 
-struct fe_s$0
+struct fe_s_0
 {
   // fe
   struct frontend_s fe;
   // dest_pixel_aspect
-  double (*dest_pixel_aspect)(struct fe_s$0 *, double, signed int, signed int);
+  double (*dest_pixel_aspect)(struct fe_s_0 *, double, signed int, signed int);
   // frame_output_handler
   void (*frame_output_handler)(void *, signed int, signed int, double, signed int *, signed int *, signed int *, signed int *, double *, signed int *, signed int *);
   // update_display_size_cb
-  void (*update_display_size_cb)(struct fe_s$0 *);
+  void (*update_display_size_cb)(struct fe_s_0 *);
   // toggle_fullscreen_cb
-  void (*toggle_fullscreen_cb)(struct fe_s$0 *, signed int);
+  void (*toggle_fullscreen_cb)(struct fe_s_0 *, signed int);
   // frame_draw_cb
   void (*frame_draw_cb)(void *, struct vo_frame_s *);
   // xine
-  struct xine_s$0 *xine;
+  struct xine_s_0 *xine;
   // stream
-  struct xine_stream_s$0 *stream;
+  struct xine_stream_s_0 *stream;
   // slave_stream
-  struct xine_stream_s$0 *slave_stream;
+  struct xine_stream_s_0 *slave_stream;
   // input_plugin
-  struct vdr_input_plugin_if_s$0 *input_plugin;
+  struct vdr_input_plugin_if_s_0 *input_plugin;
   // video_port
   struct xine_video_port_s *video_port;
   // video_port_none
   struct xine_video_port_s *video_port_none;
   // audio_port
-  struct xine_audio_port_s$0 *audio_port;
+  struct xine_audio_port_s_0 *audio_port;
   // audio_port_none
-  struct xine_audio_port_s$0 *audio_port_none;
+  struct xine_audio_port_s_0 *audio_port_none;
   // event_queue
-  struct xine_event_queue_s$0 *event_queue;
+  struct xine_event_queue_s_0 *event_queue;
   // postplugins
-  struct post_plugins_s$0 *postplugins;
+  struct post_plugins_s_0 *postplugins;
   // video_port_name
   char *video_port_name;
   // aspect_controller
@@ -4727,8 +4727,8 @@ struct fe_s$0
   char *configfile;
   // xine_visual_type
   signed int xine_visual_type;
-  // $anon0
-  union anonymous$27 $anon0;
+  // _anon0
+  union anonymous_27 _anon0;
   // video_aspect
   double video_aspect;
   // display_ratio
@@ -4767,15 +4767,15 @@ struct fe_s$0
   signed long int shutdown_time;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // fe
   struct frontend_s fe;
   // x
-  struct fe_s$0 x;
+  struct fe_s_0 x;
 };
 
-union anonymous$95
+union anonymous_95
 {
   // cb
   unsigned char cb;
@@ -4783,7 +4783,7 @@ union anonymous$95
   unsigned char g;
 };
 
-union anonymous$96
+union anonymous_96
 {
   // cr
   unsigned char cr;
@@ -4791,7 +4791,7 @@ union anonymous$96
   unsigned char b;
 };
 
-union anonymous$97
+union anonymous_97
 {
   // y
   unsigned char y;
@@ -4799,7 +4799,7 @@ union anonymous$97
   unsigned char r;
 };
 
-union anonymous$100
+union anonymous_100
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -4829,7 +4829,7 @@ union anonymous$100
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$85
+union anonymous_85
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -4982,71 +4982,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$35 xany;
+  struct anonymous_35 xany;
   // xkey
-  struct anonymous$36 xkey;
+  struct anonymous_36 xkey;
   // xbutton
-  struct anonymous$37 xbutton;
+  struct anonymous_37 xbutton;
   // xmotion
-  struct anonymous$38 xmotion;
+  struct anonymous_38 xmotion;
   // xcrossing
-  struct anonymous$39 xcrossing;
+  struct anonymous_39 xcrossing;
   // xfocus
-  struct anonymous$40 xfocus;
+  struct anonymous_40 xfocus;
   // xexpose
-  struct anonymous$41 xexpose;
+  struct anonymous_41 xexpose;
   // xgraphicsexpose
-  struct anonymous$42 xgraphicsexpose;
+  struct anonymous_42 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$43 xnoexpose;
+  struct anonymous_43 xnoexpose;
   // xvisibility
-  struct anonymous$44 xvisibility;
+  struct anonymous_44 xvisibility;
   // xcreatewindow
-  struct anonymous$45 xcreatewindow;
+  struct anonymous_45 xcreatewindow;
   // xdestroywindow
-  struct anonymous$46 xdestroywindow;
+  struct anonymous_46 xdestroywindow;
   // xunmap
-  struct anonymous$47 xunmap;
+  struct anonymous_47 xunmap;
   // xmap
-  struct anonymous$48 xmap;
+  struct anonymous_48 xmap;
   // xmaprequest
-  struct anonymous$49 xmaprequest;
+  struct anonymous_49 xmaprequest;
   // xreparent
-  struct anonymous$50 xreparent;
+  struct anonymous_50 xreparent;
   // xconfigure
-  struct anonymous$51 xconfigure;
+  struct anonymous_51 xconfigure;
   // xgravity
-  struct anonymous$52 xgravity;
+  struct anonymous_52 xgravity;
   // xresizerequest
-  struct anonymous$53 xresizerequest;
+  struct anonymous_53 xresizerequest;
   // xconfigurerequest
-  struct anonymous$54 xconfigurerequest;
+  struct anonymous_54 xconfigurerequest;
   // xcirculate
-  struct anonymous$55 xcirculate;
+  struct anonymous_55 xcirculate;
   // xcirculaterequest
-  struct anonymous$56 xcirculaterequest;
+  struct anonymous_56 xcirculaterequest;
   // xproperty
-  struct anonymous$57 xproperty;
+  struct anonymous_57 xproperty;
   // xselectionclear
-  struct anonymous$58 xselectionclear;
+  struct anonymous_58 xselectionclear;
   // xselectionrequest
-  struct anonymous$59 xselectionrequest;
+  struct anonymous_59 xselectionrequest;
   // xselection
-  struct anonymous$60 xselection;
+  struct anonymous_60 xselection;
   // xcolormap
-  struct anonymous$61 xcolormap;
+  struct anonymous_61 xcolormap;
   // xclient
-  struct anonymous$62 xclient;
+  struct anonymous_62 xclient;
   // xmapping
-  struct anonymous$63 xmapping;
+  struct anonymous_63 xmapping;
   // xerror
-  struct anonymous$64 xerror;
+  struct anonymous_64 xerror;
   // xkeymap
-  struct anonymous$65 xkeymap;
+  struct anonymous_65 xkeymap;
   // xgeneric
-  struct anonymous$66 xgeneric;
+  struct anonymous_66 xgeneric;
   // xcookie
-  struct anonymous$67 xcookie;
+  struct anonymous_67 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -5066,7 +5066,7 @@ struct _XExtData
 struct funcs
 {
   // create_image
-  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous$16 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous_16 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
   // destroy_image
   signed int (*destroy_image)(struct _XImage *);
   // get_pixel
@@ -5170,7 +5170,7 @@ struct _mwmhints
 struct _xrender_surf
 {
   // vis
-  struct anonymous$16 *vis;
+  struct anonymous_16 *vis;
   // draw
   unsigned long int draw;
   // pic
@@ -5198,7 +5198,7 @@ struct ao_format_s
 struct argb_layer_s
 {
   // mutex
-  union anonymous$7 mutex;
+  union anonymous_7 mutex;
   // buffer
   unsigned int *buffer;
   // x1
@@ -5213,10 +5213,10 @@ struct argb_layer_s
   signed int ref_count;
 };
 
-struct audio_buffer_s$0
+struct audio_buffer_s_0
 {
   // next
-  struct audio_buffer_s$0 *next;
+  struct audio_buffer_s_0 *next;
   // mem
   signed short int *mem;
   // mem_size
@@ -5232,7 +5232,7 @@ struct audio_buffer_s$0
   // extra_info
   struct extra_info_s *extra_info;
   // stream
-  struct xine_stream_s$0 *stream;
+  struct xine_stream_s_0 *stream;
   // format
   struct ao_format_s format;
 };
@@ -5392,7 +5392,7 @@ struct config_values_s
   // new_entry_cbdata
   void *new_entry_cbdata;
   // config_lock
-  union anonymous$7 config_lock;
+  union anonymous_7 config_lock;
   // current_version
   signed int current_version;
 };
@@ -5470,7 +5470,7 @@ struct fe_s
   // toggle_fullscreen_cb
   void (*toggle_fullscreen_cb)(struct fe_s *, signed int);
   // frame_draw_cb
-  void (*frame_draw_cb)(void *, struct vo_frame_s$0 *);
+  void (*frame_draw_cb)(void *, struct vo_frame_s_0 *);
   // xine
   struct xine_s *xine;
   // stream
@@ -5480,9 +5480,9 @@ struct fe_s
   // input_plugin
   struct vdr_input_plugin_if_s *input_plugin;
   // video_port
-  struct xine_video_port_s$0 *video_port;
+  struct xine_video_port_s_0 *video_port;
   // video_port_none
-  struct xine_video_port_s$0 *video_port_none;
+  struct xine_video_port_s_0 *video_port_none;
   // audio_port
   struct xine_audio_port_s *audio_port;
   // audio_port_none
@@ -5499,8 +5499,8 @@ struct fe_s
   char *configfile;
   // xine_visual_type
   signed int xine_visual_type;
-  // $anon0
-  union anonymous$27 $anon0;
+  // _anon0
+  union anonymous_27 _anon0;
   // video_aspect
   double video_aspect;
   // display_ratio
@@ -5552,9 +5552,9 @@ struct fifo_buffer_s
   // fifo_empty_cb_data
   void *fifo_empty_cb_data;
   // mutex
-  union anonymous$7 mutex;
+  union anonymous_7 mutex;
   // not_empty
-  union anonymous$19 not_empty;
+  union anonymous_19 not_empty;
   // put
   void (*put)(struct fifo_buffer_s *, struct buf_element_s *);
   // get
@@ -5590,9 +5590,9 @@ struct fifo_buffer_s
   // buffer_pool_top
   struct buf_element_s *buffer_pool_top;
   // buffer_pool_mutex
-  union anonymous$7 buffer_pool_mutex;
+  union anonymous_7 buffer_pool_mutex;
   // buffer_pool_cond_not_empty
-  union anonymous$19 buffer_pool_cond_not_empty;
+  union anonymous_19 buffer_pool_cond_not_empty;
   // buffer_pool_num_free
   signed int buffer_pool_num_free;
   // buffer_pool_capacity
@@ -5626,7 +5626,7 @@ struct grab_data_s
 struct in6_addr
 {
   // __in6_u
-  union anonymous$99 __in6_u;
+  union anonymous_99 __in6_u;
 };
 
 struct in_addr
@@ -5638,7 +5638,7 @@ struct in_addr
 struct input_class_s
 {
   // get_instance
-  struct input_plugin_s$0 * (*get_instance)(struct input_class_s *, struct xine_stream_s$0 *, const char *);
+  struct input_plugin_s_0 * (*get_instance)(struct input_class_s *, struct xine_stream_s_0 *, const char *);
   // identifier
   const char *identifier;
   // description
@@ -5646,7 +5646,7 @@ struct input_class_s
   // text_domain
   const char *text_domain;
   // get_dir
-  struct anonymous$28 ** (*get_dir)(struct input_class_s *, const char *, signed int *);
+  struct anonymous_28 ** (*get_dir)(struct input_class_s *, const char *, signed int *);
   // get_autoplay_list
   const char * const * (*get_autoplay_list)(struct input_class_s *, signed int *);
   // dispose
@@ -5655,10 +5655,10 @@ struct input_class_s
   signed int (*eject_media)(struct input_class_s *);
 };
 
-struct input_class_s$0
+struct input_class_s_0
 {
   // get_instance
-  struct input_plugin_s * (*get_instance)(struct input_class_s$0 *, struct xine_stream_s *, const char *);
+  struct input_plugin_s * (*get_instance)(struct input_class_s_0 *, struct xine_stream_s *, const char *);
   // identifier
   const char *identifier;
   // description
@@ -5666,43 +5666,43 @@ struct input_class_s$0
   // text_domain
   const char *text_domain;
   // get_dir
-  struct anonymous$28 ** (*get_dir)(struct input_class_s$0 *, const char *, signed int *);
+  struct anonymous_28 ** (*get_dir)(struct input_class_s_0 *, const char *, signed int *);
   // get_autoplay_list
-  const char * const * (*get_autoplay_list)(struct input_class_s$0 *, signed int *);
+  const char * const * (*get_autoplay_list)(struct input_class_s_0 *, signed int *);
   // dispose
-  void (*dispose)(struct input_class_s$0 *);
+  void (*dispose)(struct input_class_s_0 *);
   // eject_media
-  signed int (*eject_media)(struct input_class_s$0 *);
+  signed int (*eject_media)(struct input_class_s_0 *);
 };
 
-struct input_plugin_s$0
+struct input_plugin_s_0
 {
   // open
-  signed int (*open)(struct input_plugin_s$0 *);
+  signed int (*open)(struct input_plugin_s_0 *);
   // get_capabilities
-  unsigned int (*get_capabilities)(struct input_plugin_s$0 *);
+  unsigned int (*get_capabilities)(struct input_plugin_s_0 *);
   // read
-  signed long int (*read)(struct input_plugin_s$0 *, void *, signed long int);
+  signed long int (*read)(struct input_plugin_s_0 *, void *, signed long int);
   // read_block
-  struct buf_element_s * (*read_block)(struct input_plugin_s$0 *, struct fifo_buffer_s *, signed long int);
+  struct buf_element_s * (*read_block)(struct input_plugin_s_0 *, struct fifo_buffer_s *, signed long int);
   // seek
-  signed long int (*seek)(struct input_plugin_s$0 *, signed long int, signed int);
+  signed long int (*seek)(struct input_plugin_s_0 *, signed long int, signed int);
   // seek_time
-  signed long int (*seek_time)(struct input_plugin_s$0 *, signed int, signed int);
+  signed long int (*seek_time)(struct input_plugin_s_0 *, signed int, signed int);
   // get_current_pos
-  signed long int (*get_current_pos)(struct input_plugin_s$0 *);
+  signed long int (*get_current_pos)(struct input_plugin_s_0 *);
   // get_current_time
-  signed int (*get_current_time)(struct input_plugin_s$0 *);
+  signed int (*get_current_time)(struct input_plugin_s_0 *);
   // get_length
-  signed long int (*get_length)(struct input_plugin_s$0 *);
+  signed long int (*get_length)(struct input_plugin_s_0 *);
   // get_blocksize
-  unsigned int (*get_blocksize)(struct input_plugin_s$0 *);
+  unsigned int (*get_blocksize)(struct input_plugin_s_0 *);
   // get_mrl
-  const char * (*get_mrl)(struct input_plugin_s$0 *);
+  const char * (*get_mrl)(struct input_plugin_s_0 *);
   // get_optional_data
-  signed int (*get_optional_data)(struct input_plugin_s$0 *, void *, signed int);
+  signed int (*get_optional_data)(struct input_plugin_s_0 *, void *, signed int);
   // dispose
-  void (*dispose)(struct input_plugin_s$0 *);
+  void (*dispose)(struct input_plugin_s_0 *);
   // input_class
   struct input_class_s *input_class;
   // node
@@ -5738,7 +5738,7 @@ struct input_plugin_s
   // dispose
   void (*dispose)(struct input_plugin_s *);
   // input_class
-  struct input_class_s$0 *input_class;
+  struct input_class_s_0 *input_class;
   // node
   void *node;
 };
@@ -5808,7 +5808,7 @@ struct jpeg_compress_struct
   // input_components
   signed int input_components;
   // in_color_space
-  enum anonymous$0 in_color_space;
+  enum anonymous_0 in_color_space;
   // input_gamma
   double input_gamma;
   // data_precision
@@ -5816,15 +5816,15 @@ struct jpeg_compress_struct
   // num_components
   signed int num_components;
   // jpeg_color_space
-  enum anonymous$0 jpeg_color_space;
+  enum anonymous_0 jpeg_color_space;
   // comp_info
-  struct anonymous$2 *comp_info;
+  struct anonymous_2 *comp_info;
   // quant_tbl_ptrs
-  struct anonymous$1 *quant_tbl_ptrs[4l];
+  struct anonymous_1 *quant_tbl_ptrs[4l];
   // dc_huff_tbl_ptrs
-  struct anonymous$3 *dc_huff_tbl_ptrs[4l];
+  struct anonymous_3 *dc_huff_tbl_ptrs[4l];
   // ac_huff_tbl_ptrs
-  struct anonymous$3 *ac_huff_tbl_ptrs[4l];
+  struct anonymous_3 *ac_huff_tbl_ptrs[4l];
   // arith_dc_L
   unsigned char arith_dc_L[16l];
   // arith_dc_U
@@ -5834,7 +5834,7 @@ struct jpeg_compress_struct
   // num_scans
   signed int num_scans;
   // scan_info
-  const struct anonymous$4 *scan_info;
+  const struct anonymous_4 *scan_info;
   // raw_data_in
   signed int raw_data_in;
   // arith_code
@@ -5846,7 +5846,7 @@ struct jpeg_compress_struct
   // smoothing_factor
   signed int smoothing_factor;
   // dct_method
-  enum anonymous$5 dct_method;
+  enum anonymous_5 dct_method;
   // restart_interval
   unsigned int restart_interval;
   // restart_in_rows
@@ -5878,7 +5878,7 @@ struct jpeg_compress_struct
   // comps_in_scan
   signed int comps_in_scan;
   // cur_comp_info
-  struct anonymous$2 *cur_comp_info[4l];
+  struct anonymous_2 *cur_comp_info[4l];
   // MCUs_per_row
   unsigned int MCUs_per_row;
   // MCU_rows_in_scan
@@ -5914,7 +5914,7 @@ struct jpeg_compress_struct
   // entropy
   struct jpeg_entropy_encoder *entropy;
   // script_space
-  struct anonymous$4 *script_space;
+  struct anonymous_4 *script_space;
   // script_space_size
   signed int script_space_size;
 };
@@ -6073,28 +6073,28 @@ struct metronom_s
   void (*exit)(struct metronom_s *);
 };
 
-struct metronom_s$0
+struct metronom_s_0
 {
   // set_audio_rate
-  void (*set_audio_rate)(struct metronom_s$0 *, signed long int);
+  void (*set_audio_rate)(struct metronom_s_0 *, signed long int);
   // got_video_frame
-  void (*got_video_frame)(struct metronom_s$0 *, struct vo_frame_s$0 *);
+  void (*got_video_frame)(struct metronom_s_0 *, struct vo_frame_s_0 *);
   // got_audio_samples
-  signed long int (*got_audio_samples)(struct metronom_s$0 *, signed long int, signed int);
+  signed long int (*got_audio_samples)(struct metronom_s_0 *, signed long int, signed int);
   // got_spu_packet
-  signed long int (*got_spu_packet)(struct metronom_s$0 *, signed long int);
+  signed long int (*got_spu_packet)(struct metronom_s_0 *, signed long int);
   // handle_audio_discontinuity
-  void (*handle_audio_discontinuity)(struct metronom_s$0 *, signed int, signed long int);
+  void (*handle_audio_discontinuity)(struct metronom_s_0 *, signed int, signed long int);
   // handle_video_discontinuity
-  void (*handle_video_discontinuity)(struct metronom_s$0 *, signed int, signed long int);
+  void (*handle_video_discontinuity)(struct metronom_s_0 *, signed int, signed long int);
   // set_option
-  void (*set_option)(struct metronom_s$0 *, signed int, signed long int);
+  void (*set_option)(struct metronom_s_0 *, signed int, signed long int);
   // get_option
-  signed long int (*get_option)(struct metronom_s$0 *, signed int);
+  signed long int (*get_option)(struct metronom_s_0 *, signed int);
   // set_master
-  void (*set_master)(struct metronom_s$0 *, struct metronom_s$0 *);
+  void (*set_master)(struct metronom_s_0 *, struct metronom_s_0 *);
   // exit
-  void (*exit)(struct metronom_s$0 *);
+  void (*exit)(struct metronom_s_0 *);
 };
 
 struct option
@@ -6111,12 +6111,12 @@ struct option
 
 struct osd_clut_s
 {
-  // $anon0
-  union anonymous$95 $anon0;
-  // $anon1
-  union anonymous$96 $anon1;
-  // $anon2
-  union anonymous$97 $anon2;
+  // _anon0
+  union anonymous_95 _anon0;
+  // _anon1
+  union anonymous_96 _anon1;
+  // _anon2
+  union anonymous_97 _anon2;
   // alpha
   unsigned char alpha;
 } __attribute__ ((__packed__));
@@ -6159,12 +6159,12 @@ struct osd_command_s
   unsigned int datalen;
   // num_rle
   unsigned int num_rle;
-  // $anon0
-  union anonymous$13 $anon0;
+  // _anon0
+  union anonymous_13 _anon0;
   // colors
   unsigned int colors;
-  // $anon1
-  union anonymous$103 $anon1;
+  // _anon1
+  union anonymous_103 _anon1;
   // dirty_area
   struct osd_rect_s dirty_area;
   // flags
@@ -6189,12 +6189,12 @@ struct osd_data_s
   struct osd_data_s *next;
 };
 
-struct osd_object_s$0
+struct osd_object_s_0
 {
   // next
-  struct osd_object_s$0 *next;
+  struct osd_object_s_0 *next;
   // renderer
-  struct osd_renderer_s$0 *renderer;
+  struct osd_renderer_s_0 *renderer;
   // width
   signed int width;
   // height
@@ -6319,62 +6319,62 @@ struct video_overlay_event_s
   struct video_overlay_object_s object;
 };
 
-struct osd_renderer_s$0
+struct osd_renderer_s_0
 {
   // stream
-  struct xine_stream_s$0 *stream;
+  struct xine_stream_s_0 *stream;
   // new_object
-  struct osd_object_s$0 * (*new_object)(struct osd_renderer_s$0 *, signed int, signed int);
+  struct osd_object_s_0 * (*new_object)(struct osd_renderer_s_0 *, signed int, signed int);
   // free_object
-  void (*free_object)(struct osd_object_s$0 *);
+  void (*free_object)(struct osd_object_s_0 *);
   // show
-  signed int (*show)(struct osd_object_s$0 *, signed long int);
+  signed int (*show)(struct osd_object_s_0 *, signed long int);
   // hide
-  signed int (*hide)(struct osd_object_s$0 *, signed long int);
+  signed int (*hide)(struct osd_object_s_0 *, signed long int);
   // point
-  void (*point)(struct osd_object_s$0 *, signed int, signed int, signed int);
+  void (*point)(struct osd_object_s_0 *, signed int, signed int, signed int);
   // line
-  void (*line)(struct osd_object_s$0 *, signed int, signed int, signed int, signed int, signed int);
+  void (*line)(struct osd_object_s_0 *, signed int, signed int, signed int, signed int, signed int);
   // filled_rect
-  void (*filled_rect)(struct osd_object_s$0 *, signed int, signed int, signed int, signed int, signed int);
+  void (*filled_rect)(struct osd_object_s_0 *, signed int, signed int, signed int, signed int, signed int);
   // set_palette
-  void (*set_palette)(struct osd_object_s$0 *, const unsigned int *, const unsigned char *);
+  void (*set_palette)(struct osd_object_s_0 *, const unsigned int *, const unsigned char *);
   // set_text_palette
-  void (*set_text_palette)(struct osd_object_s$0 *, signed int, signed int);
+  void (*set_text_palette)(struct osd_object_s_0 *, signed int, signed int);
   // get_palette
-  void (*get_palette)(struct osd_object_s$0 *, unsigned int *, unsigned char *);
+  void (*get_palette)(struct osd_object_s_0 *, unsigned int *, unsigned char *);
   // set_position
-  void (*set_position)(struct osd_object_s$0 *, signed int, signed int);
+  void (*set_position)(struct osd_object_s_0 *, signed int, signed int);
   // set_font
-  signed int (*set_font)(struct osd_object_s$0 *, const char *, signed int);
+  signed int (*set_font)(struct osd_object_s_0 *, const char *, signed int);
   // set_encoding
-  signed int (*set_encoding)(struct osd_object_s$0 *, const char *);
+  signed int (*set_encoding)(struct osd_object_s_0 *, const char *);
   // render_text
-  signed int (*render_text)(struct osd_object_s$0 *, signed int, signed int, const char *, signed int);
+  signed int (*render_text)(struct osd_object_s_0 *, signed int, signed int, const char *, signed int);
   // get_text_size
-  signed int (*get_text_size)(struct osd_object_s$0 *, const char *, signed int *, signed int *);
+  signed int (*get_text_size)(struct osd_object_s_0 *, const char *, signed int *, signed int *);
   // close
-  void (*close)(struct osd_renderer_s$0 *);
+  void (*close)(struct osd_renderer_s_0 *);
   // clear
-  void (*clear)(struct osd_object_s$0 *);
+  void (*clear)(struct osd_object_s_0 *);
   // draw_bitmap
-  void (*draw_bitmap)(struct osd_object_s$0 *, unsigned char *, signed int, signed int, signed int, signed int, unsigned char *);
+  void (*draw_bitmap)(struct osd_object_s_0 *, unsigned char *, signed int, signed int, signed int, signed int, unsigned char *);
   // show_unscaled
-  signed int (*show_unscaled)(struct osd_object_s$0 *, signed long int);
+  signed int (*show_unscaled)(struct osd_object_s_0 *, signed long int);
   // get_capabilities
-  unsigned int (*get_capabilities)(struct osd_object_s$0 *);
+  unsigned int (*get_capabilities)(struct osd_object_s_0 *);
   // set_extent
-  void (*set_extent)(struct osd_object_s$0 *, signed int, signed int);
+  void (*set_extent)(struct osd_object_s_0 *, signed int, signed int);
   // set_argb_buffer
-  void (*set_argb_buffer)(struct osd_object_s$0 *, unsigned int *, signed int, signed int, signed int, signed int);
+  void (*set_argb_buffer)(struct osd_object_s_0 *, unsigned int *, signed int, signed int, signed int, signed int);
   // set_video_window
-  void (*set_video_window)(struct osd_object_s$0 *, signed int, signed int, signed int, signed int);
+  void (*set_video_window)(struct osd_object_s_0 *, signed int, signed int, signed int, signed int);
   // osd_mutex
-  union anonymous$7 osd_mutex;
+  union anonymous_7 osd_mutex;
   // event
   struct video_overlay_event_s event;
   // osds
-  struct osd_object_s$0 *osds;
+  struct osd_object_s_0 *osds;
   // fonts
   struct osd_font_s *fonts;
   // textpalette
@@ -6432,7 +6432,7 @@ struct osd_renderer_s
   // set_video_window
   void (*set_video_window)(struct osd_object_s *, signed int, signed int, signed int, signed int);
   // osd_mutex
-  union anonymous$7 osd_mutex;
+  union anonymous_7 osd_mutex;
   // event
   struct video_overlay_event_s event;
   // osds
@@ -6451,7 +6451,7 @@ struct osd_rle_elem_s
   unsigned short int color;
 } __attribute__ ((__packed__));
 
-struct plugin_catalog_s$0
+struct plugin_catalog_s_0
 {
   // plugin_lists
   struct xine_sarray_s *plugin_lists[8l];
@@ -6460,17 +6460,17 @@ struct plugin_catalog_s$0
   // file_list
   struct xine_list_s *file_list;
   // audio_decoder_map
-  struct anonymous$75 *audio_decoder_map[128l][10l];
+  struct anonymous_75 *audio_decoder_map[128l][10l];
   // video_decoder_map
-  struct anonymous$75 *video_decoder_map[128l][10l];
+  struct anonymous_75 *video_decoder_map[128l][10l];
   // spu_decoder_map
-  struct anonymous$75 *spu_decoder_map[128l][10l];
+  struct anonymous_75 *spu_decoder_map[128l][10l];
   // ids
   const char *ids[256l];
   // prio_desc
   char *prio_desc[128l];
   // lock
-  union anonymous$7 lock;
+  union anonymous_7 lock;
   // plugin_count
   signed int plugin_count;
   // decoder_count
@@ -6486,17 +6486,17 @@ struct plugin_catalog_s
   // file_list
   struct xine_list_s *file_list;
   // audio_decoder_map
-  struct anonymous$24 *audio_decoder_map[128l][10l];
+  struct anonymous_24 *audio_decoder_map[128l][10l];
   // video_decoder_map
-  struct anonymous$24 *video_decoder_map[128l][10l];
+  struct anonymous_24 *video_decoder_map[128l][10l];
   // spu_decoder_map
-  struct anonymous$24 *spu_decoder_map[128l][10l];
+  struct anonymous_24 *spu_decoder_map[128l][10l];
   // ids
   const char *ids[256l];
   // prio_desc
   char *prio_desc[128l];
   // lock
-  union anonymous$7 lock;
+  union anonymous_7 lock;
   // plugin_count
   signed int plugin_count;
   // decoder_count
@@ -6513,22 +6513,22 @@ struct pollfd
   signed short int revents;
 };
 
-struct post_plugins_s$0
+struct post_plugins_s_0
 {
   // static_post_plugins
   char *static_post_plugins;
   // video_source
-  struct xine_stream_s$0 *video_source;
+  struct xine_stream_s_0 *video_source;
   // audio_source
-  struct xine_stream_s$0 *audio_source;
+  struct xine_stream_s_0 *audio_source;
   // pip_stream
-  struct xine_stream_s$0 *pip_stream;
+  struct xine_stream_s_0 *pip_stream;
   // xine
-  struct xine_s$0 *xine;
+  struct xine_s_0 *xine;
   // video_port
   struct xine_video_port_s *video_port;
   // audio_port
-  struct xine_audio_port_s$0 *audio_port;
+  struct xine_audio_port_s_0 *audio_port;
   // post_audio_elements_num
   signed int post_audio_elements_num;
   // post_video_elements_num
@@ -6538,13 +6538,13 @@ struct post_plugins_s$0
   // post_pip_elements_num
   signed int post_pip_elements_num;
   // post_audio_elements
-  struct anonymous$73 **post_audio_elements;
+  struct anonymous_73 **post_audio_elements;
   // post_video_elements
-  struct anonymous$73 **post_video_elements;
+  struct anonymous_73 **post_video_elements;
   // post_vis_elements
-  struct anonymous$73 **post_vis_elements;
+  struct anonymous_73 **post_vis_elements;
   // post_pip_elements
-  struct anonymous$73 **post_pip_elements;
+  struct anonymous_73 **post_pip_elements;
   // post_audio_enable
   signed int post_audio_enable;
   // post_video_enable
@@ -6568,7 +6568,7 @@ struct post_plugins_s
   // xine
   struct xine_s *xine;
   // video_port
-  struct xine_video_port_s$0 *video_port;
+  struct xine_video_port_s_0 *video_port;
   // audio_port
   struct xine_audio_port_s *audio_port;
   // post_audio_elements_num
@@ -6580,13 +6580,13 @@ struct post_plugins_s
   // post_pip_elements_num
   signed int post_pip_elements_num;
   // post_audio_elements
-  struct anonymous$26 **post_audio_elements;
+  struct anonymous_26 **post_audio_elements;
   // post_video_elements
-  struct anonymous$26 **post_video_elements;
+  struct anonymous_26 **post_video_elements;
   // post_vis_elements
-  struct anonymous$26 **post_vis_elements;
+  struct anonymous_26 **post_vis_elements;
   // post_pip_elements
-  struct anonymous$26 **post_pip_elements;
+  struct anonymous_26 **post_pip_elements;
   // post_audio_enable
   signed int post_audio_enable;
   // post_video_enable
@@ -6656,7 +6656,7 @@ struct scratch_buffer_s
   // cur
   signed int cur;
   // lock
-  union anonymous$7 lock;
+  union anonymous_7 lock;
 };
 
 struct shmid_ds
@@ -6787,8 +6787,8 @@ struct stat
 
 struct sxfe_s
 {
-  // $anon0
-  union anonymous$10 $anon0;
+  // _anon0
+  union anonymous_10 _anon0;
   // fe_xine_open
   signed int (*fe_xine_open)(struct frontend_s *, const char *);
   // fe_xine_play
@@ -6874,7 +6874,7 @@ struct sxfe_s
   // touchscreen
   unsigned char touchscreen : 1;
   // video_win_mutex
-  union anonymous$7 video_win_mutex;
+  union anonymous_7 video_win_mutex;
   // video_win_active
   unsigned char video_win_active;
   // video_win_changed
@@ -6904,19 +6904,19 @@ struct sxfe_s
   // opengl_drawing_thread
   unsigned long int opengl_drawing_thread;
   // opengl_redraw_mutex
-  union anonymous$7 opengl_redraw_mutex;
+  union anonymous_7 opengl_redraw_mutex;
   // opengl_redraw_cv
-  union anonymous$19 opengl_redraw_cv;
+  union anonymous_19 opengl_redraw_cv;
   // opengl_redraw_request_nr
   unsigned int opengl_redraw_request_nr;
   // opengl_redraw_served_nr
   unsigned int opengl_redraw_served_nr;
   // opengl_redraw_finished_mutex
-  union anonymous$7 opengl_redraw_finished_mutex;
+  union anonymous_7 opengl_redraw_finished_mutex;
   // opengl_redraw_finished_cv
-  union anonymous$19 opengl_redraw_finished_cv;
+  union anonymous_19 opengl_redraw_finished_cv;
   // opengl_osd_texture_img_mutex
-  union anonymous$7 opengl_osd_texture_img_mutex;
+  union anonymous_7 opengl_osd_texture_img_mutex;
   // video_frame_pixmap
   unsigned long int video_frame_pixmap;
   // video_frame_gc
@@ -6942,7 +6942,7 @@ struct sxfe_s
   // hud_img
   struct _XImage *hud_img;
   // hud_vis
-  struct anonymous$16 *hud_vis;
+  struct anonymous_16 *hud_vis;
   // surf_win
   struct _xrender_surf *surf_win;
   // surf_img
@@ -6966,7 +6966,7 @@ struct sxfe_s
   // shape_mask_picture
   unsigned long int shape_mask_picture;
   // hud_shminfo
-  struct anonymous$31 hud_shminfo;
+  struct anonymous_31 hud_shminfo;
 };
 
 struct tJpegCompressData_s
@@ -7005,14 +7005,14 @@ struct timezone
   signed int tz_dsttime;
 };
 
-struct vdr_input_plugin_funcs_s$0
+struct vdr_input_plugin_funcs_s_0
 {
   // push_input_write
-  signed int (*push_input_write)(struct vdr_input_plugin_if_s$0 *, signed int, unsigned long int, const char *, signed int);
+  signed int (*push_input_write)(struct vdr_input_plugin_if_s_0 *, signed int, unsigned long int, const char *, signed int);
   // push_input_control
-  signed int (*push_input_control)(struct vdr_input_plugin_if_s$0 *, const char *);
+  signed int (*push_input_control)(struct vdr_input_plugin_if_s_0 *, const char *);
   // push_input_osd
-  signed int (*push_input_osd)(struct vdr_input_plugin_if_s$0 *, struct osd_command_s *);
+  signed int (*push_input_osd)(struct vdr_input_plugin_if_s_0 *, struct osd_command_s *);
   // xine_input_event
   void (*xine_input_event)(struct frontend_s *, const char *, const char *);
   // intercept_osd
@@ -7022,7 +7022,7 @@ struct vdr_input_plugin_funcs_s$0
   // fe_handle
   struct frontend_s *fe_handle;
   // post_vdr_event
-  signed int (*post_vdr_event)(struct vdr_input_plugin_if_s$0 *, const char *);
+  signed int (*post_vdr_event)(struct vdr_input_plugin_if_s_0 *, const char *);
 };
 
 struct vdr_input_plugin_funcs_s
@@ -7045,12 +7045,12 @@ struct vdr_input_plugin_funcs_s
   signed int (*post_vdr_event)(struct vdr_input_plugin_if_s *, const char *);
 };
 
-struct vdr_input_plugin_if_s$0
+struct vdr_input_plugin_if_s_0
 {
   // input_plugin
-  struct input_plugin_s$0 input_plugin;
+  struct input_plugin_s_0 input_plugin;
   // f
-  struct vdr_input_plugin_funcs_s$0 f;
+  struct vdr_input_plugin_funcs_s_0 f;
 };
 
 struct vdr_input_plugin_if_s
@@ -7097,56 +7097,56 @@ struct video_overlay_manager_s
   void (*multiple_overlay_blend)(struct video_overlay_manager_s *, signed long int, struct vo_driver_s *, struct vo_frame_s *, signed int);
 };
 
-struct video_overlay_manager_s$0
+struct video_overlay_manager_s_0
 {
   // init
-  void (*init)(struct video_overlay_manager_s$0 *);
+  void (*init)(struct video_overlay_manager_s_0 *);
   // dispose
-  void (*dispose)(struct video_overlay_manager_s$0 *);
+  void (*dispose)(struct video_overlay_manager_s_0 *);
   // get_handle
-  signed int (*get_handle)(struct video_overlay_manager_s$0 *, signed int);
+  signed int (*get_handle)(struct video_overlay_manager_s_0 *, signed int);
   // free_handle
-  void (*free_handle)(struct video_overlay_manager_s$0 *, signed int);
+  void (*free_handle)(struct video_overlay_manager_s_0 *, signed int);
   // add_event
-  signed int (*add_event)(struct video_overlay_manager_s$0 *, void *);
+  signed int (*add_event)(struct video_overlay_manager_s_0 *, void *);
   // flush_events
-  void (*flush_events)(struct video_overlay_manager_s$0 *);
+  void (*flush_events)(struct video_overlay_manager_s_0 *);
   // redraw_needed
-  signed int (*redraw_needed)(struct video_overlay_manager_s$0 *, signed long int);
+  signed int (*redraw_needed)(struct video_overlay_manager_s_0 *, signed long int);
   // multiple_overlay_blend
-  void (*multiple_overlay_blend)(struct video_overlay_manager_s$0 *, signed long int, struct vo_driver_s$0 *, struct vo_frame_s$0 *, signed int);
+  void (*multiple_overlay_blend)(struct video_overlay_manager_s_0 *, signed long int, struct vo_driver_s_0 *, struct vo_frame_s_0 *, signed int);
 };
 
-struct vo_driver_s$0
+struct vo_driver_s_0
 {
   // get_capabilities
-  unsigned int (*get_capabilities)(struct vo_driver_s$0 *);
+  unsigned int (*get_capabilities)(struct vo_driver_s_0 *);
   // alloc_frame
-  struct vo_frame_s$0 * (*alloc_frame)(struct vo_driver_s$0 *);
+  struct vo_frame_s_0 * (*alloc_frame)(struct vo_driver_s_0 *);
   // update_frame_format
-  void (*update_frame_format)(struct vo_driver_s$0 *, struct vo_frame_s$0 *, unsigned int, unsigned int, double, signed int, signed int);
+  void (*update_frame_format)(struct vo_driver_s_0 *, struct vo_frame_s_0 *, unsigned int, unsigned int, double, signed int, signed int);
   // display_frame
-  void (*display_frame)(struct vo_driver_s$0 *, struct vo_frame_s$0 *);
+  void (*display_frame)(struct vo_driver_s_0 *, struct vo_frame_s_0 *);
   // overlay_begin
-  void (*overlay_begin)(struct vo_driver_s$0 *, struct vo_frame_s$0 *, signed int);
+  void (*overlay_begin)(struct vo_driver_s_0 *, struct vo_frame_s_0 *, signed int);
   // overlay_blend
-  void (*overlay_blend)(struct vo_driver_s$0 *, struct vo_frame_s$0 *, struct vo_overlay_s *);
+  void (*overlay_blend)(struct vo_driver_s_0 *, struct vo_frame_s_0 *, struct vo_overlay_s *);
   // overlay_end
-  void (*overlay_end)(struct vo_driver_s$0 *, struct vo_frame_s$0 *);
+  void (*overlay_end)(struct vo_driver_s_0 *, struct vo_frame_s_0 *);
   // get_property
-  signed int (*get_property)(struct vo_driver_s$0 *, signed int);
+  signed int (*get_property)(struct vo_driver_s_0 *, signed int);
   // set_property
-  signed int (*set_property)(struct vo_driver_s$0 *, signed int, signed int);
+  signed int (*set_property)(struct vo_driver_s_0 *, signed int, signed int);
   // get_property_min_max
-  void (*get_property_min_max)(struct vo_driver_s$0 *, signed int, signed int *, signed int *);
+  void (*get_property_min_max)(struct vo_driver_s_0 *, signed int, signed int *, signed int *);
   // gui_data_exchange
-  signed int (*gui_data_exchange)(struct vo_driver_s$0 *, signed int, void *);
+  signed int (*gui_data_exchange)(struct vo_driver_s_0 *, signed int, void *);
   // redraw_needed
-  signed int (*redraw_needed)(struct vo_driver_s$0 *);
+  signed int (*redraw_needed)(struct vo_driver_s_0 *);
   // new_grab_video_frame
-  struct xine_grab_video_frame_s * (*new_grab_video_frame)(struct vo_driver_s$0 *);
+  struct xine_grab_video_frame_s * (*new_grab_video_frame)(struct vo_driver_s_0 *);
   // dispose
-  void (*dispose)(struct vo_driver_s$0 *);
+  void (*dispose)(struct vo_driver_s_0 *);
   // node
   void *node;
 };
@@ -7154,7 +7154,7 @@ struct vo_driver_s$0
 struct vo_frame_s
 {
   // proc_provide_standard_frame_data
-  void (*proc_provide_standard_frame_data)(struct vo_frame_s *, struct anonymous$30 *);
+  void (*proc_provide_standard_frame_data)(struct vo_frame_s *, struct anonymous_30 *);
   // proc_duplicate_frame_data
   void (*proc_duplicate_frame_data)(struct vo_frame_s *, struct vo_frame_s *);
   // proc_frame
@@ -7164,7 +7164,7 @@ struct vo_frame_s
   // field
   void (*field)(struct vo_frame_s *, signed int);
   // draw
-  signed int (*draw)(struct vo_frame_s *, struct xine_stream_s$0 *);
+  signed int (*draw)(struct vo_frame_s *, struct xine_stream_s_0 *);
   // lock
   void (*lock)(struct vo_frame_s *);
   // free
@@ -7202,7 +7202,7 @@ struct vo_frame_s
   // lock_counter
   signed int lock_counter;
   // mutex
-  union anonymous$7 mutex;
+  union anonymous_7 mutex;
   // extra_info
   struct extra_info_s *extra_info;
   // width
@@ -7226,7 +7226,7 @@ struct vo_frame_s
   // driver
   struct vo_driver_s *driver;
   // stream
-  struct xine_stream_s$0 *stream;
+  struct xine_stream_s_0 *stream;
   // overlay_offset_x
   signed int overlay_offset_x;
   // overlay_offset_y
@@ -7241,26 +7241,26 @@ struct vo_frame_s
   signed int is_first;
 };
 
-struct vo_frame_s$0
+struct vo_frame_s_0
 {
   // proc_provide_standard_frame_data
-  void (*proc_provide_standard_frame_data)(struct vo_frame_s$0 *, struct anonymous$30 *);
+  void (*proc_provide_standard_frame_data)(struct vo_frame_s_0 *, struct anonymous_30 *);
   // proc_duplicate_frame_data
-  void (*proc_duplicate_frame_data)(struct vo_frame_s$0 *, struct vo_frame_s$0 *);
+  void (*proc_duplicate_frame_data)(struct vo_frame_s_0 *, struct vo_frame_s_0 *);
   // proc_frame
-  void (*proc_frame)(struct vo_frame_s$0 *);
+  void (*proc_frame)(struct vo_frame_s_0 *);
   // proc_slice
-  void (*proc_slice)(struct vo_frame_s$0 *, unsigned char **);
+  void (*proc_slice)(struct vo_frame_s_0 *, unsigned char **);
   // field
-  void (*field)(struct vo_frame_s$0 *, signed int);
+  void (*field)(struct vo_frame_s_0 *, signed int);
   // draw
-  signed int (*draw)(struct vo_frame_s$0 *, struct xine_stream_s *);
+  signed int (*draw)(struct vo_frame_s_0 *, struct xine_stream_s *);
   // lock
-  void (*lock)(struct vo_frame_s$0 *);
+  void (*lock)(struct vo_frame_s_0 *);
   // free
-  void (*free)(struct vo_frame_s$0 *);
+  void (*free)(struct vo_frame_s_0 *);
   // dispose
-  void (*dispose)(struct vo_frame_s$0 *);
+  void (*dispose)(struct vo_frame_s_0 *);
   // pts
   signed long int pts;
   // vpts
@@ -7292,7 +7292,7 @@ struct vo_frame_s$0
   // lock_counter
   signed int lock_counter;
   // mutex
-  union anonymous$7 mutex;
+  union anonymous_7 mutex;
   // extra_info
   struct extra_info_s *extra_info;
   // width
@@ -7312,9 +7312,9 @@ struct vo_frame_s$0
   // accel_data
   void *accel_data;
   // port
-  struct xine_video_port_s$0 *port;
+  struct xine_video_port_s_0 *port;
   // driver
-  struct vo_driver_s$0 *driver;
+  struct vo_driver_s_0 *driver;
   // stream
   struct xine_stream_s *stream;
   // overlay_offset_x
@@ -7322,39 +7322,39 @@ struct vo_frame_s$0
   // overlay_offset_y
   signed int overlay_offset_y;
   // future_frame
-  struct vo_frame_s$0 *future_frame;
+  struct vo_frame_s_0 *future_frame;
   // next
-  struct vo_frame_s$0 *next;
+  struct vo_frame_s_0 *next;
   // id
   signed int id;
   // is_first
   signed int is_first;
 };
 
-struct xine_audio_port_s$0
+struct xine_audio_port_s_0
 {
   // get_capabilities
-  unsigned int (*get_capabilities)(struct xine_audio_port_s$0 *);
+  unsigned int (*get_capabilities)(struct xine_audio_port_s_0 *);
   // get_property
-  signed int (*get_property)(struct xine_audio_port_s$0 *, signed int);
+  signed int (*get_property)(struct xine_audio_port_s_0 *, signed int);
   // set_property
-  signed int (*set_property)(struct xine_audio_port_s$0 *, signed int, signed int);
+  signed int (*set_property)(struct xine_audio_port_s_0 *, signed int, signed int);
   // open
-  signed int (*open)(struct xine_audio_port_s$0 *, struct xine_stream_s$0 *, unsigned int, unsigned int, signed int);
+  signed int (*open)(struct xine_audio_port_s_0 *, struct xine_stream_s_0 *, unsigned int, unsigned int, signed int);
   // get_buffer
-  struct audio_buffer_s$0 * (*get_buffer)(struct xine_audio_port_s$0 *);
+  struct audio_buffer_s_0 * (*get_buffer)(struct xine_audio_port_s_0 *);
   // put_buffer
-  void (*put_buffer)(struct xine_audio_port_s$0 *, struct audio_buffer_s$0 *, struct xine_stream_s$0 *);
+  void (*put_buffer)(struct xine_audio_port_s_0 *, struct audio_buffer_s_0 *, struct xine_stream_s_0 *);
   // close
-  void (*close)(struct xine_audio_port_s$0 *, struct xine_stream_s$0 *);
+  void (*close)(struct xine_audio_port_s_0 *, struct xine_stream_s_0 *);
   // exit
-  void (*exit)(struct xine_audio_port_s$0 *);
+  void (*exit)(struct xine_audio_port_s_0 *);
   // control
-  signed int (*control)(struct xine_audio_port_s$0 *, signed int, ...);
+  signed int (*control)(struct xine_audio_port_s_0 *, signed int, ...);
   // flush
-  void (*flush)(struct xine_audio_port_s$0 *);
+  void (*flush)(struct xine_audio_port_s_0 *);
   // status
-  signed int (*status)(struct xine_audio_port_s$0 *, struct xine_stream_s$0 *, unsigned int *, unsigned int *, signed int *);
+  signed int (*status)(struct xine_audio_port_s_0 *, struct xine_stream_s_0 *, unsigned int *, unsigned int *, signed int *);
 };
 
 struct xine_audio_port_s
@@ -7417,24 +7417,24 @@ struct xine_cfg_entry_s
   void *callback_data;
 };
 
-struct xine_event_queue_s$0
+struct xine_event_queue_s_0
 {
   // events
   struct xine_list_s *events;
   // lock
-  union anonymous$7 lock;
+  union anonymous_7 lock;
   // new_event
-  union anonymous$19 new_event;
+  union anonymous_19 new_event;
   // events_processed
-  union anonymous$19 events_processed;
+  union anonymous_19 events_processed;
   // stream
-  struct xine_stream_s$0 *stream;
+  struct xine_stream_s_0 *stream;
   // listener_thread
   unsigned long int *listener_thread;
   // user_data
   void *user_data;
   // callback
-  void (*callback)(void *, const struct anonymous$88 *);
+  void (*callback)(void *, const struct anonymous_88 *);
   // callback_running
   signed int callback_running;
 };
@@ -7444,11 +7444,11 @@ struct xine_event_queue_s
   // events
   struct xine_list_s *events;
   // lock
-  union anonymous$7 lock;
+  union anonymous_7 lock;
   // new_event
-  union anonymous$19 new_event;
+  union anonymous_19 new_event;
   // events_processed
-  union anonymous$19 events_processed;
+  union anonymous_19 events_processed;
   // stream
   struct xine_stream_s *stream;
   // listener_thread
@@ -7456,7 +7456,7 @@ struct xine_event_queue_s
   // user_data
   void *user_data;
   // callback
-  void (*callback)(void *, const struct anonymous$15 *);
+  void (*callback)(void *, const struct anonymous_15 *);
   // callback_running
   signed int callback_running;
 };
@@ -7511,10 +7511,10 @@ struct xine_post_out_s
   signed int type;
 };
 
-struct xine_post_s$0
+struct xine_post_s_0
 {
   // audio_input
-  struct xine_audio_port_s$0 **audio_input;
+  struct xine_audio_port_s_0 **audio_input;
   // video_input
   struct xine_video_port_s **video_input;
   // type
@@ -7526,17 +7526,17 @@ struct xine_post_s
   // audio_input
   struct xine_audio_port_s **audio_input;
   // video_input
-  struct xine_video_port_s$0 **video_input;
+  struct xine_video_port_s_0 **video_input;
   // type
   signed int type;
 };
 
-struct xine_s$0
+struct xine_s_0
 {
   // config
   struct config_values_s *config;
   // plugin_catalog
-  struct plugin_catalog_s$0 *plugin_catalog;
+  struct plugin_catalog_s_0 *plugin_catalog;
   // verbosity
   signed int verbosity;
   // demux_strategy
@@ -7548,11 +7548,11 @@ struct xine_s$0
   // streams
   struct xine_list_s *streams;
   // streams_lock
-  union anonymous$7 streams_lock;
+  union anonymous_7 streams_lock;
   // clock
   struct metronom_clock_s *clock;
   // basedir_handle
-  struct anonymous$25 basedir_handle;
+  struct anonymous_25 basedir_handle;
 };
 
 struct xine_s
@@ -7572,43 +7572,43 @@ struct xine_s
   // streams
   struct xine_list_s *streams;
   // streams_lock
-  union anonymous$7 streams_lock;
+  union anonymous_7 streams_lock;
   // clock
   struct metronom_clock_s *clock;
   // basedir_handle
-  struct anonymous$25 basedir_handle;
+  struct anonymous_25 basedir_handle;
   // port_ticket
   struct xine_ticket_s *port_ticket;
   // log_lock
-  union anonymous$7 log_lock;
+  union anonymous_7 log_lock;
   // log_cb
   void (*log_cb)(void *, signed int);
   // log_cb_user_data
   void *log_cb_user_data;
 };
 
-struct xine_stream_s$0
+struct xine_stream_s_0
 {
   // xine
-  struct xine_s$0 *xine;
+  struct xine_s_0 *xine;
   // metronom
   struct metronom_s *metronom;
   // input_plugin
-  struct input_plugin_s$0 *input_plugin;
+  struct input_plugin_s_0 *input_plugin;
   // video_out
   struct xine_video_port_s *video_out;
   // video_fifo
   struct fifo_buffer_s *video_fifo;
   // audio_out
-  struct xine_audio_port_s$0 *audio_out;
+  struct xine_audio_port_s_0 *audio_out;
   // audio_fifo
   struct fifo_buffer_s *audio_fifo;
   // osd_renderer
-  struct osd_renderer_s$0 *osd_renderer;
+  struct osd_renderer_s_0 *osd_renderer;
   // master
-  struct xine_stream_s$0 *master;
+  struct xine_stream_s_0 *master;
   // slave
-  struct xine_stream_s$0 *slave;
+  struct xine_stream_s_0 *slave;
   // spu_decoder_plugin
   struct spu_decoder_s *spu_decoder_plugin;
   // video_driver
@@ -7634,11 +7634,11 @@ struct xine_stream_s
   // xine
   struct xine_s *xine;
   // metronom
-  struct metronom_s$0 *metronom;
+  struct metronom_s_0 *metronom;
   // input_plugin
   struct input_plugin_s *input_plugin;
   // video_out
-  struct xine_video_port_s$0 *video_out;
+  struct xine_video_port_s_0 *video_out;
   // video_fifo
   struct fifo_buffer_s *video_fifo;
   // audio_out
@@ -7654,7 +7654,7 @@ struct xine_stream_s
   // spu_decoder_plugin
   struct spu_decoder_s *spu_decoder_plugin;
   // video_driver
-  struct vo_driver_s$0 *video_driver;
+  struct vo_driver_s_0 *video_driver;
   // audio_channel_auto
   signed int audio_channel_auto;
   // spu_decoder_streamtype
@@ -7672,7 +7672,7 @@ struct xine_stream_s
   // status
   signed int status;
   // speed_change_lock
-  union anonymous$7 speed_change_lock;
+  union anonymous_7 speed_change_lock;
   // ignore_speed_change
   unsigned int ignore_speed_change : 1;
   // video_thread_created
@@ -7698,7 +7698,7 @@ struct xine_stream_s
   // keep_ao_driver_open
   unsigned int keep_ao_driver_open : 1;
   // eject_class
-  struct input_class_s$0 *eject_class;
+  struct input_class_s_0 *eject_class;
   // demux_plugin
   struct demux_plugin_s *demux_plugin;
   // video_thread
@@ -7734,27 +7734,27 @@ struct xine_stream_s
   // spu_channel_pan_scan
   signed int spu_channel_pan_scan;
   // frontend_lock
-  union anonymous$7 frontend_lock;
+  union anonymous_7 frontend_lock;
   // info_mutex
-  union anonymous$7 info_mutex;
+  union anonymous_7 info_mutex;
   // stream_info_public
   signed int stream_info_public[99l];
   // stream_info
   signed int stream_info[99l];
   // meta_mutex
-  union anonymous$7 meta_mutex;
+  union anonymous_7 meta_mutex;
   // meta_info_public
   char *meta_info_public[99l];
   // meta_info
   char *meta_info[99l];
   // first_frame_lock
-  union anonymous$7 first_frame_lock;
+  union anonymous_7 first_frame_lock;
   // first_frame_reached
-  union anonymous$19 first_frame_reached;
+  union anonymous_19 first_frame_reached;
   // counter_lock
-  union anonymous$7 counter_lock;
+  union anonymous_7 counter_lock;
   // counter_changed
-  union anonymous$19 counter_changed;
+  union anonymous_19 counter_changed;
   // header_count_audio
   signed int header_count_audio;
   // header_count_video
@@ -7766,21 +7766,21 @@ struct xine_stream_s
   // event_queues
   struct xine_list_s *event_queues;
   // event_queues_lock
-  union anonymous$7 event_queues_lock;
+  union anonymous_7 event_queues_lock;
   // demux_thread
   unsigned long int demux_thread;
   // demux_lock
-  union anonymous$7 demux_lock;
+  union anonymous_7 demux_lock;
   // demux_action_lock
-  union anonymous$7 demux_action_lock;
+  union anonymous_7 demux_action_lock;
   // demux_resume
-  union anonymous$19 demux_resume;
+  union anonymous_19 demux_resume;
   // demux_mutex
-  union anonymous$7 demux_mutex;
+  union anonymous_7 demux_mutex;
   // current_extra_info
   struct extra_info_s *current_extra_info;
   // current_extra_info_lock
-  union anonymous$7 current_extra_info_lock;
+  union anonymous_7 current_extra_info_lock;
   // video_seek_count
   signed int video_seek_count;
   // delay_finish_event
@@ -7796,7 +7796,7 @@ struct xine_stream_s
   // broadcaster
   struct broadcaster_s *broadcaster;
   // refcounter
-  struct anonymous$29 *refcounter;
+  struct anonymous_29 *refcounter;
 };
 
 struct xine_ticket_s
@@ -7824,13 +7824,13 @@ struct xine_ticket_s
   // dispose
   void (*dispose)(struct xine_ticket_s *);
   // lock
-  union anonymous$7 lock;
+  union anonymous_7 lock;
   // revoke_lock
-  union anonymous$7 revoke_lock;
+  union anonymous_7 revoke_lock;
   // issued
-  union anonymous$19 issued;
+  union anonymous_19 issued;
   // revoked
-  union anonymous$19 revoked;
+  union anonymous_19 revoked;
   // tickets_granted
   signed int tickets_granted;
   // irrevocable_tickets
@@ -7842,45 +7842,45 @@ struct xine_ticket_s
   // atomic_revoker_thread
   unsigned long int atomic_revoker_thread;
   // port_rewiring_lock
-  union anonymous$7 port_rewiring_lock;
+  union anonymous_7 port_rewiring_lock;
   // holder_threads
-  struct anonymous$11 *holder_threads;
+  struct anonymous_11 *holder_threads;
   // holder_thread_count
   unsigned int holder_thread_count;
 };
 
-struct xine_video_port_s$0
+struct xine_video_port_s_0
 {
   // get_capabilities
-  unsigned int (*get_capabilities)(struct xine_video_port_s$0 *);
+  unsigned int (*get_capabilities)(struct xine_video_port_s_0 *);
   // open
-  void (*open)(struct xine_video_port_s$0 *, struct xine_stream_s *);
+  void (*open)(struct xine_video_port_s_0 *, struct xine_stream_s *);
   // get_frame
-  struct vo_frame_s$0 * (*get_frame)(struct xine_video_port_s$0 *, unsigned int, unsigned int, double, signed int, signed int);
+  struct vo_frame_s_0 * (*get_frame)(struct xine_video_port_s_0 *, unsigned int, unsigned int, double, signed int, signed int);
   // new_grab_video_frame
-  struct xine_grab_video_frame_s * (*new_grab_video_frame)(struct xine_video_port_s$0 *);
+  struct xine_grab_video_frame_s * (*new_grab_video_frame)(struct xine_video_port_s_0 *);
   // get_last_frame
-  struct vo_frame_s$0 * (*get_last_frame)(struct xine_video_port_s$0 *);
+  struct vo_frame_s_0 * (*get_last_frame)(struct xine_video_port_s_0 *);
   // enable_ovl
-  void (*enable_ovl)(struct xine_video_port_s$0 *, signed int);
+  void (*enable_ovl)(struct xine_video_port_s_0 *, signed int);
   // get_overlay_manager
-  struct video_overlay_manager_s$0 * (*get_overlay_manager)(struct xine_video_port_s$0 *);
+  struct video_overlay_manager_s_0 * (*get_overlay_manager)(struct xine_video_port_s_0 *);
   // flush
-  void (*flush)(struct xine_video_port_s$0 *);
+  void (*flush)(struct xine_video_port_s_0 *);
   // trigger_drawing
-  void (*trigger_drawing)(struct xine_video_port_s$0 *);
+  void (*trigger_drawing)(struct xine_video_port_s_0 *);
   // get_property
-  signed int (*get_property)(struct xine_video_port_s$0 *, signed int);
+  signed int (*get_property)(struct xine_video_port_s_0 *, signed int);
   // set_property
-  signed int (*set_property)(struct xine_video_port_s$0 *, signed int, signed int);
+  signed int (*set_property)(struct xine_video_port_s_0 *, signed int, signed int);
   // status
-  signed int (*status)(struct xine_video_port_s$0 *, struct xine_stream_s *, signed int *, signed int *, signed long int *);
+  signed int (*status)(struct xine_video_port_s_0 *, struct xine_stream_s *, signed int *, signed int *, signed long int *);
   // close
-  void (*close)(struct xine_video_port_s$0 *, struct xine_stream_s *);
+  void (*close)(struct xine_video_port_s_0 *, struct xine_stream_s *);
   // exit
-  void (*exit)(struct xine_video_port_s$0 *);
+  void (*exit)(struct xine_video_port_s_0 *);
   // driver
-  struct vo_driver_s$0 *driver;
+  struct vo_driver_s_0 *driver;
 };
 
 
@@ -7999,9 +7999,9 @@ static signed int JpegCompressEmptyOutputBuffer(struct jpeg_compress_struct * co
   {
     signed int Used = jcd->size;
     jcd->size = jcd->size + 500000;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)jcd->mem, (unsigned long int)jcd->size);
-    jcd->mem = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)jcd->mem, (unsigned long int)jcd->size);
+    jcd->mem = (unsigned char *)return_value_realloc_1;
     if(!(jcd->mem == ((unsigned char *)NULL)))
     {
       cinfo->dest->next_output_byte = jcd->mem + (signed long int)Used;
@@ -8023,9 +8023,9 @@ static void JpegCompressInitDestination(struct jpeg_compress_struct * const cinf
   {
     jcd->size = 500000;
     cinfo->dest->free_in_buffer = (unsigned long int)jcd->size;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)jcd->size);
-    jcd->mem = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)jcd->size);
+    jcd->mem = (unsigned char *)return_value_malloc_1;
     cinfo->dest->next_output_byte = jcd->mem;
   }
 
@@ -8042,9 +8042,9 @@ static void JpegCompressTermDestination(struct jpeg_compress_struct * const cinf
     if(!(Used >= jcd->size))
     {
       jcd->size = Used;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)jcd->mem, (unsigned long int)jcd->size);
-      jcd->mem = (unsigned char *)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)jcd->mem, (unsigned long int)jcd->size);
+      jcd->mem = (unsigned char *)return_value_realloc_1;
     }
 
   }
@@ -8086,7 +8086,7 @@ static void SignalHandler(signed int signum)
 
 // XButtonEvent_handler
 // file xine_sxfe_frontend.c line 2884
-static void XButtonEvent_handler(struct sxfe_s *this, struct anonymous$37 *bev)
+static void XButtonEvent_handler(struct sxfe_s *this, struct anonymous_37 *bev)
 {
   switch(bev->button)
   {
@@ -8094,14 +8094,14 @@ static void XButtonEvent_handler(struct sxfe_s *this, struct anonymous$37 *bev)
     {
       if(!(this->touchscreen == 0))
       {
-        signed int x = (bev->x * 4) / (signed int)this->$anon0.x.width;
-        signed int y = (bev->y * 3) / (signed int)this->$anon0.x.height;
+        signed int x = (bev->x * 4) / (signed int)this->_anon0.x.width;
+        signed int y = (bev->y * 3) / (signed int)this->_anon0.x.height;
         static const char * const map[3l][4l] = { { "Menu", "Up", "Back", "Ok" }, { "Left", "Down", "Right", "Ok" }, { "Red", "Green", "Yellow", "Blue" } };
         if(!(map[(signed long int)y][(signed long int)x] == ((const char *)NULL)))
         {
           char tmp[128l];
           sprintf(tmp, "KEY %s", map[(signed long int)y][(signed long int)x]);
-          this->$anon0.x.fe.send_event((struct frontend_s *)this, tmp);
+          this->_anon0.x.fe.send_event((struct frontend_s *)this, tmp);
         }
 
         break;
@@ -8109,7 +8109,7 @@ static void XButtonEvent_handler(struct sxfe_s *this, struct anonymous$37 *bev)
 
       if(!(bev->time + -this->prev_click_time >= 500ul))
       {
-        this->$anon0.x.toggle_fullscreen_cb(&this->$anon0.x, -1);
+        this->_anon0.x.toggle_fullscreen_cb(&this->_anon0.x, -1);
         this->prev_click_time = (unsigned long int)0;
       }
 
@@ -8160,14 +8160,14 @@ static void XButtonEvent_handler(struct sxfe_s *this, struct anonymous$37 *bev)
 
 // XConfigureEvent_handler
 // file xine_sxfe_frontend.c line 2758
-static void XConfigureEvent_handler(struct sxfe_s *this, struct anonymous$51 *cev)
+static void XConfigureEvent_handler(struct sxfe_s *this, struct anonymous_51 *cev)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_7;
   if(!(cev->window == this->opengl_window))
   {
     if(!(cev->window == (unsigned long int)this->window_id))
@@ -8177,16 +8177,16 @@ static void XConfigureEvent_handler(struct sxfe_s *this, struct anonymous$51 *ce
 
       if(!(this->fullscreen == 0))
       {
-        if(!(cev->width == (signed int)this->$anon0.x.width))
-          tmp_if_expr$1 = (_Bool)1;
+        if(!(cev->width == (signed int)this->_anon0.x.width))
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = cev->height != (signed int)this->$anon0.x.height ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = cev->height != (signed int)this->_anon0.x.height ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           do
             if(SysLogLevel >= 2)
-              x_syslog(6, "[vdr-sxfe]  ", "Root window size changed. Resizing video window from %dx%d to %dx%d", this->$anon0.x.width, this->$anon0.x.height, cev->width, cev->height);
+              x_syslog(6, "[vdr-sxfe]  ", "Root window size changed. Resizing video window from %dx%d to %dx%d", this->_anon0.x.width, this->_anon0.x.height, cev->width, cev->height);
 
           while((_Bool)0);
           XLockDisplay(this->display);
@@ -8207,42 +8207,42 @@ static void XConfigureEvent_handler(struct sxfe_s *this, struct anonymous$51 *ce
       if(!(this->hud == 0))
         hud_osd_resize(this, cev->window, cev->width, cev->height);
 
-      if(!((signed int)this->$anon0.x.width == cev->width))
-        tmp_if_expr$5 = (_Bool)1;
+      if(!((signed int)this->_anon0.x.width == cev->width))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)this->$anon0.x.height != cev->height ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)this->_anon0.x.height != cev->height ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
       {
         if(!(this->fullscreen == 0))
-          tmp_if_expr$2 = this->window[(signed long int)1] == cev->window ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = this->window[(signed long int)1] == cev->window ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
           if(this->fullscreen == 0)
-            tmp_if_expr$3 = this->window[(signed long int)0] == cev->window ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = this->window[(signed long int)0] == cev->window ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (_Bool)0;
+          tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           do
             if(SysLogLevel >= 3)
-              x_syslog(7, "[vdr-sxfe]  ", "Video window size changed from %dx%d to %dx%d", this->$anon0.x.width, this->$anon0.x.height, cev->width, cev->height);
+              x_syslog(7, "[vdr-sxfe]  ", "Video window size changed from %dx%d to %dx%d", this->_anon0.x.width, this->_anon0.x.height, cev->width, cev->height);
 
           while((_Bool)0);
-          this->$anon0.x.width = (unsigned short int)cev->width;
-          this->$anon0.x.height = (unsigned short int)cev->height;
+          this->_anon0.x.width = (unsigned short int)cev->width;
+          this->_anon0.x.height = (unsigned short int)cev->height;
           char str[128l];
-          snprintf(str, sizeof(char [128l]) /*128ul*/ , "INFO WINDOW %dx%d", this->$anon0.x.width, this->$anon0.x.height);
-          this->$anon0.x.fe.send_event((struct frontend_s *)this, str);
+          snprintf(str, sizeof(char [128l]) /*128ul*/ , "INFO WINDOW %dx%d", this->_anon0.x.width, this->_anon0.x.height);
+          this->_anon0.x.fe.send_event((struct frontend_s *)this, str);
         }
 
       }
@@ -8257,9 +8257,9 @@ static void XConfigureEvent_handler(struct sxfe_s *this, struct anonymous$51 *ce
 
           while((_Bool)0);
           this->check_move = (unsigned char)0;
-          if(!((signed int)this->$anon0.x.xpos == cev->x))
+          if(!((signed int)this->_anon0.x.xpos == cev->x))
           {
-            if(!((signed int)this->$anon0.x.ypos == cev->y))
+            if(!((signed int)this->_anon0.x.ypos == cev->y))
             {
               XLockDisplay(this->display);
               XMoveWindow(this->display, this->window[(signed long int)0], cev->x, cev->y);
@@ -8275,22 +8275,22 @@ static void XConfigureEvent_handler(struct sxfe_s *this, struct anonymous$51 *ce
       if(this->fullscreen == 0)
       {
         if(cev->x == 0)
-          tmp_if_expr$7 = cev->y == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = cev->y == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
         {
           signed int tmp_x;
           signed int tmp_y;
           unsigned long int tmp_win;
           XLockDisplay(this->display);
-          signed int return_value_XTranslateCoordinates$6;
-          return_value_XTranslateCoordinates$6=XTranslateCoordinates(this->display, cev->window, this->root_window, 0, 0, &tmp_x, &tmp_y, &tmp_win);
-          if(!(return_value_XTranslateCoordinates$6 == 0))
+          signed int return_value_XTranslateCoordinates_6;
+          return_value_XTranslateCoordinates_6=XTranslateCoordinates(this->display, cev->window, this->root_window, 0, 0, &tmp_x, &tmp_y, &tmp_win);
+          if(!(return_value_XTranslateCoordinates_6 == 0))
           {
-            this->$anon0.x.xpos = (unsigned short int)tmp_x;
-            this->$anon0.x.ypos = (unsigned short int)tmp_y;
+            this->_anon0.x.xpos = (unsigned short int)tmp_x;
+            this->_anon0.x.ypos = (unsigned short int)tmp_y;
           }
 
           XUnlockDisplay(this->display);
@@ -8298,8 +8298,8 @@ static void XConfigureEvent_handler(struct sxfe_s *this, struct anonymous$51 *ce
 
         else
         {
-          this->$anon0.x.xpos = (unsigned short int)cev->x;
-          this->$anon0.x.ypos = (unsigned short int)cev->y;
+          this->_anon0.x.xpos = (unsigned short int)cev->x;
+          this->_anon0.x.ypos = (unsigned short int)cev->y;
         }
       }
 
@@ -8310,7 +8310,7 @@ static void XConfigureEvent_handler(struct sxfe_s *this, struct anonymous$51 *ce
 
 // XKeyEvent_handler
 // file xine_sxfe_frontend.c line 2687
-static void XKeyEvent_handler(struct sxfe_s *this, struct anonymous$36 *kev)
+static void XKeyEvent_handler(struct sxfe_s *this, struct anonymous_36 *kev)
 {
   if(!(kev->keycode == 0u))
   {
@@ -8355,12 +8355,12 @@ static void XKeyEvent_handler(struct sxfe_s *this, struct anonymous$36 *kev)
           break;
         }
         case (unsigned long int)0xff1b:
-          if(this->$anon0.fe.fe_message_cb == ((void (*)(void *, const char *, const char *))NULL))
+          if(this->_anon0.fe.fe_message_cb == ((void (*)(void *, const char *, const char *))NULL))
             fe_event = "QUIT";
 
       }
       if(!(fe_event == ((const char *)NULL)))
-        this->$anon0.x.fe.send_event((struct frontend_s *)this, fe_event);
+        this->_anon0.x.fe.send_event((struct frontend_s *)this, fe_event);
 
       else
         if(this->no_x_kbd == 0)
@@ -8380,7 +8380,7 @@ static void XKeyEvent_handler(struct sxfe_s *this, struct anonymous$36 *kev)
               ks_name = keyname;
             }
 
-            this->$anon0.x.fe.send_input_event((struct frontend_s *)this, "XKeySym", ks_name, 0, 0);
+            this->_anon0.x.fe.send_input_event((struct frontend_s *)this, "XKeySym", ks_name, 0, 0);
           }
 
         }
@@ -8393,13 +8393,13 @@ static void XKeyEvent_handler(struct sxfe_s *this, struct anonymous$36 *kev)
 
 // XMotionEvent_handler
 // file xine_sxfe_frontend.c line 2843
-static void XMotionEvent_handler(struct sxfe_s *this, struct anonymous$38 *mev)
+static void XMotionEvent_handler(struct sxfe_s *this, struct anonymous_38 *mev)
 {
   if(!(this->mousecursor_timeout >= 1))
     set_cursor(this->display, this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)], 1);
 
   this->mousecursor_timeout = 2000;
-  signed int return_value_XCheckMaskEvent$1;
+  signed int return_value_XCheckMaskEvent_1;
   if(!(this->dragging == 0))
   {
     if(this->fullscreen == 0)
@@ -8410,17 +8410,17 @@ static void XMotionEvent_handler(struct sxfe_s *this, struct anonymous$38 *mev)
       XLockDisplay(this->display);
       do
       {
-        return_value_XCheckMaskEvent$1=XCheckMaskEvent(this->display, 1L << 13, (union _XEvent *)mev);
-        if(return_value_XCheckMaskEvent$1 == 0)
+        return_value_XCheckMaskEvent_1=XCheckMaskEvent(this->display, 1L << 13, (union _XEvent *)mev);
+        if(return_value_XCheckMaskEvent_1 == 0)
           break;
 
       }
       while((_Bool)1);
       XTranslateCoordinates(this->display, this->window[(signed long int)0], this->root_window, 0, 0, &xpos, &ypos, &tmp_win);
       xpos = xpos + (mev->x_root - (signed int)this->dragging_x);
-      this->$anon0.x.xpos = (unsigned short int)xpos;
+      this->_anon0.x.xpos = (unsigned short int)xpos;
       ypos = ypos + (mev->y_root - (signed int)this->dragging_y);
-      this->$anon0.x.ypos = (unsigned short int)ypos;
+      this->_anon0.x.ypos = (unsigned short int)ypos;
       this->dragging_x = (unsigned short int)mev->x_root;
       this->dragging_y = (unsigned short int)mev->y_root;
       XMoveWindow(this->display, this->window[(signed long int)0], xpos, ypos);
@@ -8440,50 +8440,50 @@ static void XMotionEvent_handler(struct sxfe_s *this, struct anonymous$38 *mev)
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // __pplugin_retrieve_parameters
 // file xine/post.c line 62
-static signed int __pplugin_retrieve_parameters(struct anonymous$72 *pobj)
+static signed int __pplugin_retrieve_parameters(struct anonymous_72 *pobj)
 {
   struct xine_post_in_s *input_api;
-  struct xine_post_in_s *return_value_xine_post_input$5;
-  return_value_xine_post_input$5=xine_post_input(pobj->post, "parameters");
-  input_api = (struct xine_post_in_s *)return_value_xine_post_input$5;
-  void *return_value_calloc$2;
-  void *return_value_realloc$3;
+  struct xine_post_in_s *return_value_xine_post_input_5;
+  return_value_xine_post_input_5=xine_post_input(pobj->post, "parameters");
+  input_api = (struct xine_post_in_s *)return_value_xine_post_input_5;
+  void *return_value_calloc_2;
+  void *return_value_realloc_3;
   if(!(input_api == ((struct xine_post_in_s *)NULL)))
   {
-    struct anonymous$69 *post_api;
-    struct anonymous$70 *api_descr;
-    struct anonymous$71 *parm;
+    struct anonymous_69 *post_api;
+    struct anonymous_70 *api_descr;
+    struct anonymous_71 *parm;
     signed int pnum = 0;
-    post_api = (struct anonymous$69 *)input_api->data;
+    post_api = (struct anonymous_69 *)input_api->data;
     api_descr=post_api->get_param_descr();
     parm = api_descr->parameter;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)api_descr->struct_size);
-    pobj->param_data = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)api_descr->struct_size);
+    pobj->param_data = (char *)return_value_malloc_1;
     if(!(parm->type == 0))
     {
       post_api->get_parameters(pobj->post, (void *)pobj->param_data);
       if(pnum == 0)
       {
-        return_value_calloc$2=calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
-        pobj->properties_names = (char **)return_value_calloc$2;
+        return_value_calloc_2=calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
+        pobj->properties_names = (char **)return_value_calloc_2;
       }
 
       else
       {
-        return_value_realloc$3=realloc((void *)pobj->properties_names, sizeof(char *) /*8ul*/  * (unsigned long int)(pnum + 2));
-        pobj->properties_names = (char **)return_value_realloc$3;
+        return_value_realloc_3=realloc((void *)pobj->properties_names, sizeof(char *) /*8ul*/  * (unsigned long int)(pnum + 2));
+        pobj->properties_names = (char **)return_value_realloc_3;
       }
-      char *return_value___strdup$4;
-      return_value___strdup$4=__strdup(parm->name);
-      pobj->properties_names[(signed long int)pnum] = return_value___strdup$4;
+      char *return_value___strdup_4;
+      return_value___strdup_4=__strdup(parm->name);
+      pobj->properties_names[(signed long int)pnum] = return_value___strdup_4;
       pobj->properties_names[(signed long int)(pnum + 1)] = (char *)(void *)0;
       pnum = pnum + 1;
       parm = parm + 1l;
@@ -8500,22 +8500,22 @@ static signed int __pplugin_retrieve_parameters(struct anonymous$72 *pobj)
 
 // __pplugin_update_parameters
 // file xine/post.c line 112
-static void __pplugin_update_parameters(struct xine_post_s$0 *post, char *args)
+static void __pplugin_update_parameters(struct xine_post_s_0 *post, char *args)
 {
   char *p;
-  struct anonymous$72 pobj = { .post=post, .api=((struct anonymous$69 *)NULL), .descr=((struct anonymous$70 *)NULL),
-    .param=((struct anonymous$71 *)NULL),
+  struct anonymous_72 pobj = { .post=post, .api=((struct anonymous_69 *)NULL), .descr=((struct anonymous_70 *)NULL),
+    .param=((struct anonymous_71 *)NULL),
     .param_data=((char *)NULL),
     .x=0, .y=0, .readonly=0,
     .properties_names=((char **)NULL) };
-  signed int return_value___pplugin_retrieve_parameters$10;
-  return_value___pplugin_retrieve_parameters$10=__pplugin_retrieve_parameters(&pobj);
-  char *tmp_statement_expression$1;
-  unsigned long int return_value_strlen$9;
-  char *tmp_post$3;
-  signed int return_value_strcasecmp$4;
-  signed long int return_value_strtol$6;
-  if(!(return_value___pplugin_retrieve_parameters$10 == 0))
+  signed int return_value___pplugin_retrieve_parameters_10;
+  return_value___pplugin_retrieve_parameters_10=__pplugin_retrieve_parameters(&pobj);
+  char *tmp_statement_expression_1;
+  unsigned long int return_value_strlen_9;
+  char *tmp_post_3;
+  signed int return_value_strcasecmp_4;
+  signed long int return_value_strtol_6;
+  if(!(return_value___pplugin_retrieve_parameters_10 == 0))
   {
     signed int i;
     if(!(pobj.properties_names == ((char **)NULL)) && !(args == ((char *)NULL)))
@@ -8528,10 +8528,10 @@ static void __pplugin_update_parameters(struct xine_post_s$0 *post, char *args)
           char __r0;
           char __r1;
           char __r2;
-          char *return_value___strsep_g$2;
-          return_value___strsep_g$2=__strsep_g(&args, ",");
-          tmp_statement_expression$1 = return_value___strsep_g$2;
-          param = tmp_statement_expression$1;
+          char *return_value___strsep_g_2;
+          return_value___strsep_g_2=__strsep_g(&args, ",");
+          tmp_statement_expression_1 = return_value___strsep_g_2;
+          param = tmp_statement_expression_1;
           if(param == ((char *)NULL))
             break;
 
@@ -8542,17 +8542,17 @@ static void __pplugin_update_parameters(struct xine_post_s$0 *post, char *args)
 
           if(!(p == ((char *)NULL)))
           {
-            return_value_strlen$9=strlen(p);
-            if(!(return_value_strlen$9 == 0ul))
+            return_value_strlen_9=strlen(p);
+            if(!(return_value_strlen_9 == 0ul))
             {
               signed int param_num = 0;
-              tmp_post$3 = p;
+              tmp_post_3 = p;
               p = p + 1l;
-              *tmp_post$3 = (char)0;
+              *tmp_post_3 = (char)0;
               for( ; !(pobj.properties_names[(signed long int)param_num] == ((char *)NULL)); param_num = param_num + 1)
               {
-                return_value_strcasecmp$4=strcasecmp(pobj.properties_names[(signed long int)param_num], param);
-                if(return_value_strcasecmp$4 == 0)
+                return_value_strcasecmp_4=strcasecmp(pobj.properties_names[(signed long int)param_num], param);
+                if(return_value_strcasecmp_4 == 0)
                   break;
 
               }
@@ -8570,32 +8570,32 @@ static void __pplugin_update_parameters(struct xine_post_s$0 *post, char *args)
                       if(!(pobj.param->enum_values == ((char **)NULL)))
                       {
                         char **values = pobj.param->enum_values;
-                        signed int __pplugin_update_parameters$$1$$1$$1$$2$$1$$1$$1$$1$$1$$i = 0;
-                        while(!(values[(signed long int)__pplugin_update_parameters$$1$$1$$1$$2$$1$$1$$1$$1$$1$$i] == ((char *)NULL)))
+                        signed int __pplugin_update_parameters__1__1__1__2__1__1__1__1__1__i = 0;
+                        while(!(values[(signed long int)__pplugin_update_parameters__1__1__1__2__1__1__1__1__1__i] == ((char *)NULL)))
                         {
-                          signed int return_value_strcasecmp$5;
-                          return_value_strcasecmp$5=strcasecmp(values[(signed long int)__pplugin_update_parameters$$1$$1$$1$$2$$1$$1$$1$$1$$1$$i], p);
-                          if(return_value_strcasecmp$5 == 0)
+                          signed int return_value_strcasecmp_5;
+                          return_value_strcasecmp_5=strcasecmp(values[(signed long int)__pplugin_update_parameters__1__1__1__2__1__1__1__1__1__i], p);
+                          if(return_value_strcasecmp_5 == 0)
                           {
-                            *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = __pplugin_update_parameters$$1$$1$$1$$2$$1$$1$$1$$1$$1$$i;
+                            *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = __pplugin_update_parameters__1__1__1__2__1__1__1__1__1__i;
                             break;
                           }
 
-                          __pplugin_update_parameters$$1$$1$$1$$2$$1$$1$$1$$1$$1$$i = __pplugin_update_parameters$$1$$1$$1$$2$$1$$1$$1$$1$$1$$i + 1;
+                          __pplugin_update_parameters__1__1__1__2__1__1__1__1__1__i = __pplugin_update_parameters__1__1__1__2__1__1__1__1__1__i + 1;
                         }
-                        if(values[(signed long int)__pplugin_update_parameters$$1$$1$$1$$2$$1$$1$$1$$1$$1$$i] == ((char *)NULL))
+                        if(values[(signed long int)__pplugin_update_parameters__1__1__1__2__1__1__1__1__1__i] == ((char *)NULL))
                         {
-                          return_value_strtol$6=strtol(p, &p, 10);
-                          *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol$6;
+                          return_value_strtol_6=strtol(p, &p, 10);
+                          *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol_6;
                         }
 
                       }
 
                       else
                       {
-                        signed long int return_value_strtol$7;
-                        return_value_strtol$7=strtol(p, &p, 10);
-                        *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol$7;
+                        signed long int return_value_strtol_7;
+                        return_value_strtol_7=strtol(p, &p, 10);
+                        *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol_7;
                       }
                       _pplugin_update_parameter(&pobj);
                     }
@@ -8621,12 +8621,12 @@ static void __pplugin_update_parameters(struct xine_post_s$0 *post, char *args)
                       if(pobj.param->type == 3)
                       {
                         signed int maxlen = (signed int)((unsigned long int)pobj.param->size / sizeof(char) /*1ul*/ );
-                        snprintf$link2((char *)(pobj.param_data + (signed long int)pobj.param->offset), (unsigned long int)maxlen, "%s", p);
+                        snprintf_link2((char *)(pobj.param_data + (signed long int)pobj.param->offset), (unsigned long int)maxlen, "%s", p);
                         _pplugin_update_parameter(&pobj);
                       }
 
                       else
-                        fprintf$link1(stderr, "parameter type POST_PARAM_TYPE_STRING not supported yet.\n");
+                        fprintf_link1(stderr, "parameter type POST_PARAM_TYPE_STRING not supported yet.\n");
                     }
 
                     break;
@@ -8634,7 +8634,7 @@ static void __pplugin_update_parameters(struct xine_post_s$0 *post, char *args)
                   case 5:
                   {
                     if(pobj.readonly == 0)
-                      fprintf$link1(stderr, "parameter type POST_PARAM_TYPE_STRINGLIST not supported yet.\n");
+                      fprintf_link1(stderr, "parameter type POST_PARAM_TYPE_STRINGLIST not supported yet.\n");
 
                     break;
                   }
@@ -8642,9 +8642,9 @@ static void __pplugin_update_parameters(struct xine_post_s$0 *post, char *args)
                   {
                     if(pobj.readonly == 0)
                     {
-                      signed long int return_value_strtol$8;
-                      return_value_strtol$8=strtol(p, &p, 10);
-                      *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol$8 != 0 ? 1 : 0;
+                      signed long int return_value_strtol_8;
+                      return_value_strtol_8=strtol(p, &p, 10);
+                      *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol_8 != 0 ? 1 : 0;
                       _pplugin_update_parameter(&pobj);
                     }
 
@@ -8726,17 +8726,17 @@ static inline char * __strpbrk_c3(const char *__s, signed int __accept1, signed 
 static inline char * __strsep_1c(char **__s, char __reject)
 {
   char *__retval = *__s;
-  char *return_value___builtin_strchr$2;
-  char *tmp_post$1;
+  char *return_value___builtin_strchr_2;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2=__builtin_strchr(__retval, (signed int)__reject);
-    *__s = return_value___builtin_strchr$2;
+    return_value___builtin_strchr_2=__builtin_strchr(__retval, (signed int)__reject);
+    *__s = return_value___builtin_strchr_2;
     if(!(*__s == ((char *)NULL)))
     {
-      tmp_post$1 = *__s;
+      tmp_post_1 = *__s;
       *__s = *__s + 1l;
-      *tmp_post$1 = (char)0;
+      *tmp_post_1 = (char)0;
     }
 
   }
@@ -8749,8 +8749,8 @@ static inline char * __strsep_1c(char **__s, char __reject)
 static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
 {
   char *__retval = *__s;
-  _Bool tmp_if_expr$2;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
     char *__cp = __retval;
@@ -8763,15 +8763,15 @@ static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
       }
 
       if(*__cp == __reject1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        tmp_post$1 = __cp;
+        tmp_post_1 = __cp;
         __cp = __cp + 1l;
-        *tmp_post$1 = (char)0;
+        *tmp_post_1 = (char)0;
         break;
       }
 
@@ -8787,9 +8787,9 @@ static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
 static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, char __reject3)
 {
   char *__retval = *__s;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
     char *__cp = __retval;
@@ -8802,20 +8802,20 @@ static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, cha
       }
 
       if(*__cp == __reject1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = *__cp == __reject3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = *__cp == __reject3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        tmp_post$1 = __cp;
+        tmp_post_1 = __cp;
         __cp = __cp + 1l;
-        *tmp_post$1 = (char)0;
+        *tmp_post_1 = (char)0;
         break;
       }
 
@@ -8828,7 +8828,7 @@ static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, cha
 
 // _applugin_enable_post
 // file xine/post.c line 692
-static signed int _applugin_enable_post(struct post_plugins_s$0 *fe, const char *name, const char *args, signed int *found)
+static signed int _applugin_enable_post(struct post_plugins_s_0 *fe, const char *name, const char *args, signed int *found)
 {
   signed int result = 0;
   if(*found == 0)
@@ -8842,12 +8842,12 @@ static signed int _applugin_enable_post(struct post_plugins_s$0 *fe, const char 
 
 // _applugin_rewire
 // file xine/post.c line 614
-static void _applugin_rewire(struct post_plugins_s$0 *fe)
+static void _applugin_rewire(struct post_plugins_s_0 *fe)
 {
   signed int post_elements_num;
-  static struct anonymous$73 **post_elements;
+  static struct anonymous_73 **post_elements;
   post_elements=_pplugin_join_visualization_and_post_elements(fe, &post_elements_num);
-  if(!(post_elements == ((struct anonymous$73 **)NULL)))
+  if(!(post_elements == ((struct anonymous_73 **)NULL)))
   {
     _applugin_rewire_from_post_elements(fe, post_elements, post_elements_num);
     free((void *)post_elements);
@@ -8857,7 +8857,7 @@ static void _applugin_rewire(struct post_plugins_s$0 *fe)
 
 // _applugin_rewire_from_post_elements
 // file xine/post.c line 452
-static void _applugin_rewire_from_post_elements(struct post_plugins_s$0 *fe, struct anonymous$73 **post_elements, signed int post_elements_num)
+static void _applugin_rewire_from_post_elements(struct post_plugins_s_0 *fe, struct anonymous_73 **post_elements, signed int post_elements_num)
 {
   if(!(post_elements_num == 0))
   {
@@ -8908,7 +8908,7 @@ static void _applugin_rewire_from_post_elements(struct post_plugins_s$0 *fe, str
 
 // _applugin_unwire
 // file xine/post.c line 399
-static void _applugin_unwire(struct post_plugins_s$0 *fe)
+static void _applugin_unwire(struct post_plugins_s_0 *fe)
 {
   struct xine_post_out_s *ao_source;
   ao_source=xine_get_audio_source(fe->audio_source);
@@ -8920,9 +8920,9 @@ static void _applugin_unwire(struct post_plugins_s$0 *fe)
 static const char * _pp_args(const char *initstr)
 {
   char *pt;
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(initstr, 58);
-  pt = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(initstr, 58);
+  pt = return_value___builtin_strchr_1;
   if(!(pt == ((char *)NULL)))
   {
     if(pt[1l] == 0)
@@ -8945,13 +8945,13 @@ static const char * _pp_args(const char *initstr)
 static char * _pp_name_strdup(const char *initstr)
 {
   char *name;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(initstr);
-  name = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(initstr);
+  name = return_value___strdup_1;
   char *pt;
-  char *return_value___builtin_strchr$2;
-  return_value___builtin_strchr$2=__builtin_strchr(name, 58);
-  pt = return_value___builtin_strchr$2;
+  char *return_value___builtin_strchr_2;
+  return_value___builtin_strchr_2=__builtin_strchr(name, 58);
+  pt = return_value___builtin_strchr_2;
   if(!(pt == ((char *)NULL)))
     *pt = (char)0;
 
@@ -8960,31 +8960,31 @@ static char * _pp_name_strdup(const char *initstr)
 
 // _pplugin_disable_post
 // file xine/post.c line 779
-static signed int _pplugin_disable_post(struct post_plugins_s$0 *fe, const char *name, struct anonymous$73 **post_elements, signed int post_elements_num)
+static signed int _pplugin_disable_post(struct post_plugins_s_0 *fe, const char *name, struct anonymous_73 **post_elements, signed int post_elements_num)
 {
   signed int i;
   signed int result = 0;
-  _Bool tmp_if_expr$3;
-  signed int tmp_statement_expression$1;
-  if(!(post_elements == ((struct anonymous$73 **)NULL)))
+  _Bool tmp_if_expr_3;
+  signed int tmp_statement_expression_1;
+  if(!(post_elements == ((struct anonymous_73 **)NULL)))
   {
     i = 0;
     for( ; !(i >= post_elements_num); i = i + 1)
-      if(!(post_elements[(signed long int)i] == ((struct anonymous$73 *)NULL)))
+      if(!(post_elements[(signed long int)i] == ((struct anonymous_73 *)NULL)))
       {
         if(name == ((const char *)NULL))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$2;
-          return_value___builtin_strcmp$2=__builtin_strcmp(post_elements[(signed long int)i]->name, name);
-          tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-          tmp_if_expr$3 = !(tmp_statement_expression$1 != 0) ? (_Bool)1 : (_Bool)0;
+          signed int return_value___builtin_strcmp_2;
+          return_value___builtin_strcmp_2=__builtin_strcmp(post_elements[(signed long int)i]->name, name);
+          tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+          tmp_if_expr_3 = !(tmp_statement_expression_1 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           if(post_elements[(signed long int)i]->enable == 1)
           {
@@ -9003,22 +9003,22 @@ static signed int _pplugin_disable_post(struct post_plugins_s$0 *fe, const char 
 
 // _pplugin_enable_post
 // file xine/post.c line 642
-static signed int _pplugin_enable_post(struct post_plugins_s$0 *fe, const char *name, const char *args, struct anonymous$73 **post_elements, signed int post_elements_num, signed int *found)
+static signed int _pplugin_enable_post(struct post_plugins_s_0 *fe, const char *name, const char *args, struct anonymous_73 **post_elements, signed int post_elements_num, signed int *found)
 {
   signed int i;
   signed int result = 0;
   i = 0;
-  signed int tmp_statement_expression$4;
-  char *tmp_if_expr$3;
+  signed int tmp_statement_expression_4;
+  char *tmp_if_expr_3;
   for( ; !(i >= post_elements_num); i = i + 1)
-    if(!(post_elements[(signed long int)i] == ((struct anonymous$73 *)NULL)))
+    if(!(post_elements[(signed long int)i] == ((struct anonymous_73 *)NULL)))
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$5;
-      return_value___builtin_strcmp$5=__builtin_strcmp(post_elements[(signed long int)i]->name, name);
-      tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-      if(tmp_statement_expression$4 == 0)
+      signed int return_value___builtin_strcmp_5;
+      return_value___builtin_strcmp_5=__builtin_strcmp(post_elements[(signed long int)i]->name, name);
+      tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+      if(tmp_statement_expression_4 == 0)
       {
         if(post_elements[(signed long int)i]->enable == 0)
         {
@@ -9034,17 +9034,17 @@ static signed int _pplugin_enable_post(struct post_plugins_s$0 *fe, const char *
             if(!(post_elements[(signed long int)i]->enable == 2))
             {
               char *tmp;
-              char *return_value___strdup$1;
-              return_value___strdup$1=__strdup(args);
-              tmp = return_value___strdup$1;
+              char *return_value___strdup_1;
+              return_value___strdup_1=__strdup(args);
+              tmp = return_value___strdup_1;
               __pplugin_update_parameters(post_elements[(signed long int)i]->post, tmp);
               free((void *)tmp);
               if(!(post_elements[(signed long int)i]->args == ((char *)NULL)))
                 free((void *)post_elements[(signed long int)i]->args);
 
-              char *return_value___strdup$2;
-              return_value___strdup$2=__strdup(args);
-              post_elements[(signed long int)i]->args = return_value___strdup$2;
+              char *return_value___strdup_2;
+              return_value___strdup_2=__strdup(args);
+              post_elements[(signed long int)i]->args = return_value___strdup_2;
             }
 
             else
@@ -9063,11 +9063,11 @@ static signed int _pplugin_enable_post(struct post_plugins_s$0 *fe, const char *
                 if(SysLogLevel >= 3)
                 {
                   if(!(post_elements[(signed long int)i]->args == ((char *)NULL)))
-                    tmp_if_expr$3 = post_elements[(signed long int)i]->args;
+                    tmp_if_expr_3 = post_elements[(signed long int)i]->args;
 
                   else
-                    tmp_if_expr$3 = "none";
-                  x_syslog(7, "[xine-post] ", "      using    : %s", tmp_if_expr$3);
+                    tmp_if_expr_3 = "none";
+                  x_syslog(7, "[xine-post] ", "      using    : %s", tmp_if_expr_3);
                 }
 
               while((_Bool)0);
@@ -9085,9 +9085,9 @@ static signed int _pplugin_enable_post(struct post_plugins_s$0 *fe, const char *
 
 // _pplugin_join_deinterlace_and_post_elements
 // file xine/post.c line 486
-static struct anonymous$73 ** _pplugin_join_deinterlace_and_post_elements(struct post_plugins_s$0 *fe, signed int *post_elements_num)
+static struct anonymous_73 ** _pplugin_join_deinterlace_and_post_elements(struct post_plugins_s_0 *fe, signed int *post_elements_num)
 {
-  struct anonymous$73 **post_elements;
+  struct anonymous_73 **post_elements;
   signed int i = 0;
   signed int j = 0;
   signed int n = 0;
@@ -9099,15 +9099,15 @@ static struct anonymous$73 ** _pplugin_join_deinterlace_and_post_elements(struct
   if(!(fe->post_pip_enable == 0))
     *post_elements_num = *post_elements_num + fe->post_pip_elements_num;
 
-  signed int tmp_statement_expression$2;
+  signed int tmp_statement_expression_2;
   if(*post_elements_num == 0)
-    return (struct anonymous$73 **)(void *)0;
+    return (struct anonymous_73 **)(void *)0;
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)*post_elements_num, sizeof(struct anonymous$73 *) /*8ul*/ );
-    post_elements = (struct anonymous$73 **)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)*post_elements_num, sizeof(struct anonymous_73 *) /*8ul*/ );
+    post_elements = (struct anonymous_73 **)return_value_calloc_1;
     if(!(fe->post_pip_enable == 0))
     {
       i = 0;
@@ -9134,7 +9134,7 @@ static struct anonymous$73 ** _pplugin_join_deinterlace_and_post_elements(struct
     if(*post_elements_num == 0)
     {
       free((void *)post_elements);
-      return (struct anonymous$73 **)(void *)0;
+      return (struct anonymous_73 **)(void *)0;
     }
 
     else
@@ -9148,14 +9148,14 @@ static struct anonymous$73 ** _pplugin_join_deinterlace_and_post_elements(struct
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$3;
-          return_value___builtin_strcmp$3=__builtin_strcmp(post_elements[(signed long int)i]->name, order[(signed long int)p]);
-          tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-          if(tmp_statement_expression$2 == 0)
+          signed int return_value___builtin_strcmp_3;
+          return_value___builtin_strcmp_3=__builtin_strcmp(post_elements[(signed long int)i]->name, order[(signed long int)p]);
+          tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+          if(tmp_statement_expression_2 == 0)
           {
             if(!(i == n))
             {
-              struct anonymous$73 *tmp = post_elements[(signed long int)i];
+              struct anonymous_73 *tmp = post_elements[(signed long int)i];
               j = i;
               for( ; !(n >= j); j = j - 1)
                 post_elements[(signed long int)j] = post_elements[(signed long int)(j - 1)];
@@ -9180,9 +9180,9 @@ static struct anonymous$73 ** _pplugin_join_deinterlace_and_post_elements(struct
 
 // _pplugin_join_visualization_and_post_elements
 // file xine/post.c line 558
-static struct anonymous$73 ** _pplugin_join_visualization_and_post_elements(struct post_plugins_s$0 *fe, signed int *post_elements_num)
+static struct anonymous_73 ** _pplugin_join_visualization_and_post_elements(struct post_plugins_s_0 *fe, signed int *post_elements_num)
 {
-  struct anonymous$73 **post_elements;
+  struct anonymous_73 **post_elements;
   signed int i = 0;
   signed int j = 0;
   signed int n = 0;
@@ -9194,13 +9194,13 @@ static struct anonymous$73 ** _pplugin_join_visualization_and_post_elements(stru
     *post_elements_num = *post_elements_num + fe->post_vis_elements_num;
 
   if(*post_elements_num == 0)
-    return (struct anonymous$73 **)(void *)0;
+    return (struct anonymous_73 **)(void *)0;
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)*post_elements_num, sizeof(struct anonymous$73 *) /*8ul*/ );
-    post_elements = (struct anonymous$73 **)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)*post_elements_num, sizeof(struct anonymous_73 *) /*8ul*/ );
+    post_elements = (struct anonymous_73 **)return_value_calloc_1;
     if(!(fe->post_audio_enable == 0))
     {
       j = 0;
@@ -9227,7 +9227,7 @@ static struct anonymous$73 ** _pplugin_join_visualization_and_post_elements(stru
     if(*post_elements_num == 0)
     {
       free((void *)post_elements);
-      return (struct anonymous$73 **)(void *)0;
+      return (struct anonymous_73 **)(void *)0;
     }
 
     else
@@ -9237,41 +9237,41 @@ static struct anonymous$73 ** _pplugin_join_visualization_and_post_elements(stru
 
 // _pplugin_unload_post
 // file xine/post.c line 822
-static signed int _pplugin_unload_post(struct post_plugins_s$0 *fe, const char *name, struct anonymous$73 ***post_elements, signed int *post_elements_num)
+static signed int _pplugin_unload_post(struct post_plugins_s_0 *fe, const char *name, struct anonymous_73 ***post_elements, signed int *post_elements_num)
 {
   signed int i;
   signed int j;
   signed int result = 0;
-  _Bool tmp_if_expr$1;
-  if(*post_elements == ((struct anonymous$73 **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+  _Bool tmp_if_expr_1;
+  if(*post_elements == ((struct anonymous_73 **)NULL))
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*post_elements_num != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  signed int tmp_statement_expression$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*post_elements_num != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  signed int tmp_statement_expression_2;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     i = 0;
     for( ; !(i >= *post_elements_num); i = i + 1)
-      if(!((*post_elements)[(signed long int)i] == ((struct anonymous$73 *)NULL)))
+      if(!((*post_elements)[(signed long int)i] == ((struct anonymous_73 *)NULL)))
       {
         if(name == ((const char *)NULL))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$3;
-          return_value___builtin_strcmp$3=__builtin_strcmp((*post_elements)[(signed long int)i]->name, name);
-          tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-          tmp_if_expr$4 = !(tmp_statement_expression$2 != 0) ? (_Bool)1 : (_Bool)0;
+          signed int return_value___builtin_strcmp_3;
+          return_value___builtin_strcmp_3=__builtin_strcmp((*post_elements)[(signed long int)i]->name, name);
+          tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+          tmp_if_expr_4 = !(tmp_statement_expression_2 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           if((*post_elements)[(signed long int)i]->enable == 0 || name == ((const char *)NULL))
           {
@@ -9285,7 +9285,7 @@ static signed int _pplugin_unload_post(struct post_plugins_s$0 *fe, const char *
             for( ; !(j >= *post_elements_num + -1); j = j + 1)
               (*post_elements)[(signed long int)j] = (*post_elements)[(signed long int)(j + 1)];
             *post_elements_num = *post_elements_num - 1;
-            (*post_elements)[(signed long int)*post_elements_num] = ((struct anonymous$73 *)NULL);
+            (*post_elements)[(signed long int)*post_elements_num] = ((struct anonymous_73 *)NULL);
             result = 1;
             i = i - 1;
           }
@@ -9302,10 +9302,10 @@ static signed int _pplugin_unload_post(struct post_plugins_s$0 *fe, const char *
 
     if(!(*post_elements_num >= 1))
     {
-      if(!(*post_elements == ((struct anonymous$73 **)NULL)))
+      if(!(*post_elements == ((struct anonymous_73 **)NULL)))
         free((void *)*post_elements);
 
-      *post_elements = (struct anonymous$73 **)(void *)0;
+      *post_elements = (struct anonymous_73 **)(void *)0;
     }
 
     return result;
@@ -9314,7 +9314,7 @@ static signed int _pplugin_unload_post(struct post_plugins_s$0 *fe, const char *
 
 // _pplugin_update_parameter
 // file xine/post.c line 106
-static void _pplugin_update_parameter(struct anonymous$72 *pobj)
+static void _pplugin_update_parameter(struct anonymous_72 *pobj)
 {
   pobj->api->set_parameters(pobj->post, (void *)pobj->param_data);
   pobj->api->get_parameters(pobj->post, (void *)pobj->param_data);
@@ -9322,7 +9322,7 @@ static void _pplugin_update_parameter(struct anonymous$72 *pobj)
 
 // _vpplugin_enable_post
 // file xine/post.c line 679
-static signed int _vpplugin_enable_post(struct post_plugins_s$0 *fe, const char *name, const char *args, signed int *found)
+static signed int _vpplugin_enable_post(struct post_plugins_s_0 *fe, const char *name, const char *args, signed int *found)
 {
   signed int result = 0;
   if(*found == 0)
@@ -9336,12 +9336,12 @@ static signed int _vpplugin_enable_post(struct post_plugins_s$0 *fe, const char 
 
 // _vpplugin_rewire
 // file xine/post.c line 600
-static void _vpplugin_rewire(struct post_plugins_s$0 *fe)
+static void _vpplugin_rewire(struct post_plugins_s_0 *fe)
 {
   signed int post_elements_num;
-  static struct anonymous$73 **post_elements;
+  static struct anonymous_73 **post_elements;
   post_elements=_pplugin_join_deinterlace_and_post_elements(fe, &post_elements_num);
-  if(!(post_elements == ((struct anonymous$73 **)NULL)))
+  if(!(post_elements == ((struct anonymous_73 **)NULL)))
   {
     _vpplugin_rewire_from_post_elements(fe, post_elements, post_elements_num);
     free((void *)post_elements);
@@ -9351,9 +9351,9 @@ static void _vpplugin_rewire(struct post_plugins_s$0 *fe)
 
 // _vpplugin_rewire_from_post_elements
 // file xine/post.c line 407
-static void _vpplugin_rewire_from_post_elements(struct post_plugins_s$0 *fe, struct anonymous$73 **post_elements, signed int post_elements_num)
+static void _vpplugin_rewire_from_post_elements(struct post_plugins_s_0 *fe, struct anonymous_73 **post_elements, signed int post_elements_num)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(!(post_elements_num == 0))
   {
     struct xine_post_out_s *vo_source;
@@ -9394,12 +9394,12 @@ static void _vpplugin_rewire_from_post_elements(struct post_plugins_s$0 *fe, str
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(post_elements[(signed long int)0]->name, "mosaico");
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(post_elements[(signed long int)0]->name, "mosaico");
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
       {
-        if(!(fe->pip_stream == ((struct xine_stream_s$0 *)NULL)))
+        if(!(fe->pip_stream == ((struct xine_stream_s_0 *)NULL)))
         {
           vo_source=xine_get_video_source(fe->pip_stream);
           do
@@ -9427,7 +9427,7 @@ static void _vpplugin_rewire_from_post_elements(struct post_plugins_s$0 *fe, str
 
 // _vpplugin_unwire
 // file xine/post.c line 391
-static void _vpplugin_unwire(struct post_plugins_s$0 *fe)
+static void _vpplugin_unwire(struct post_plugins_s_0 *fe)
 {
   struct xine_post_out_s *vo_source;
   vo_source=xine_get_video_source(fe->video_source);
@@ -9436,21 +9436,21 @@ static void _vpplugin_unwire(struct post_plugins_s$0 *fe)
 
 // applugin_disable_post
 // file xine/post.c line 809
-signed int applugin_disable_post(struct post_plugins_s$0 *fe, const char *name)
+signed int applugin_disable_post(struct post_plugins_s_0 *fe, const char *name)
 {
-  signed int return_value__pplugin_disable_post$1;
-  return_value__pplugin_disable_post$1=_pplugin_disable_post(fe, name, fe->post_audio_elements, fe->post_audio_elements_num);
-  _Bool tmp_if_expr$3;
-  signed int return_value__pplugin_disable_post$2;
-  if(!(return_value__pplugin_disable_post$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value__pplugin_disable_post_1;
+  return_value__pplugin_disable_post_1=_pplugin_disable_post(fe, name, fe->post_audio_elements, fe->post_audio_elements_num);
+  _Bool tmp_if_expr_3;
+  signed int return_value__pplugin_disable_post_2;
+  if(!(return_value__pplugin_disable_post_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value__pplugin_disable_post$2=_pplugin_disable_post(fe, name, fe->post_vis_elements, fe->post_vis_elements_num);
-    tmp_if_expr$3 = return_value__pplugin_disable_post$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value__pplugin_disable_post_2=_pplugin_disable_post(fe, name, fe->post_vis_elements, fe->post_vis_elements_num);
+    tmp_if_expr_3 = return_value__pplugin_disable_post_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     _applugin_unwire(fe);
     return 1;
@@ -9462,7 +9462,7 @@ signed int applugin_disable_post(struct post_plugins_s$0 *fe, const char *name)
 
 // applugin_enable_post
 // file xine/post.c line 751
-signed int applugin_enable_post(struct post_plugins_s$0 *fe, const char *initstr, signed int *found)
+signed int applugin_enable_post(struct post_plugins_s_0 *fe, const char *initstr, signed int *found)
 {
   const char *args;
   args=_pp_args(initstr);
@@ -9500,7 +9500,7 @@ signed int applugin_enable_post(struct post_plugins_s$0 *fe, const char *initstr
 
 // applugin_parse_and_store_post
 // file xine/post.c line 384
-void applugin_parse_and_store_post(struct post_plugins_s$0 *fe, const char *post_chain)
+void applugin_parse_and_store_post(struct post_plugins_s_0 *fe, const char *post_chain)
 {
   pplugin_parse_and_store_post(fe, 0x020000, post_chain);
   pplugin_parse_and_store_post(fe, 0x020001, post_chain);
@@ -9508,7 +9508,7 @@ void applugin_parse_and_store_post(struct post_plugins_s$0 *fe, const char *post
 
 // applugin_rewire_posts
 // file xine/post.c line 635
-void applugin_rewire_posts(struct post_plugins_s$0 *fe)
+void applugin_rewire_posts(struct post_plugins_s_0 *fe)
 {
   _applugin_unwire(fe);
   _applugin_rewire(fe);
@@ -9516,7 +9516,7 @@ void applugin_rewire_posts(struct post_plugins_s$0 *fe)
 
 // applugin_unload_post
 // file xine/post.c line 887
-signed int applugin_unload_post(struct post_plugins_s$0 *fe, const char *name)
+signed int applugin_unload_post(struct post_plugins_s_0 *fe, const char *name)
 {
   signed int result;
   result=applugin_disable_post(fe, name);
@@ -9529,62 +9529,62 @@ signed int applugin_unload_post(struct post_plugins_s$0 *fe, const char *name)
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 176
 static inline signed int asprintf(char ** restrict __ptr, const char * restrict __fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  signed int return_value___asprintf_chk$2;
-  return_value___asprintf_chk$2=__asprintf_chk(__ptr, 2 - 1, __fmt, return_value___builtin_va_arg_pack$1);
-  return return_value___asprintf_chk$2;
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  signed int return_value___asprintf_chk_2;
+  return_value___asprintf_chk_2=__asprintf_chk(__ptr, 2 - 1, __fmt, return_value___builtin_va_arg_pack_1);
+  return return_value___asprintf_chk_2;
 }
 
-// asprintf$link1
+// asprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 176
-static inline signed int asprintf$link1(char ** restrict __ptr$link1, const char * restrict __fmt$link1, ...)
+static inline signed int asprintf_link1(char ** restrict __ptr_link1, const char * restrict __fmt_link1, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link1;
-  return_value___builtin_va_arg_pack$1$link1=__builtin_va_arg_pack();
-  signed int return_value___asprintf_chk$2$link1;
-  return_value___asprintf_chk$2$link1=__asprintf_chk(__ptr$link1, 2 - 1, __fmt$link1, return_value___builtin_va_arg_pack$1$link1);
-  return return_value___asprintf_chk$2$link1;
+  void *return_value___builtin_va_arg_pack_1_link1;
+  return_value___builtin_va_arg_pack_1_link1=__builtin_va_arg_pack();
+  signed int return_value___asprintf_chk_2_link1;
+  return_value___asprintf_chk_2_link1=__asprintf_chk(__ptr_link1, 2 - 1, __fmt_link1, return_value___builtin_va_arg_pack_1_link1);
+  return return_value___asprintf_chk_2_link1;
 }
 
-// asprintf$link2
+// asprintf_link2
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 176
-static inline signed int asprintf$link2(char ** restrict __ptr$link2, const char * restrict __fmt$link2, ...)
+static inline signed int asprintf_link2(char ** restrict __ptr_link2, const char * restrict __fmt_link2, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link2;
-  return_value___builtin_va_arg_pack$1$link2=__builtin_va_arg_pack();
-  signed int return_value___asprintf_chk$2$link2;
-  return_value___asprintf_chk$2$link2=__asprintf_chk(__ptr$link2, 2 - 1, __fmt$link2, return_value___builtin_va_arg_pack$1$link2);
-  return return_value___asprintf_chk$2$link2;
+  void *return_value___builtin_va_arg_pack_1_link2;
+  return_value___builtin_va_arg_pack_1_link2=__builtin_va_arg_pack();
+  signed int return_value___asprintf_chk_2_link2;
+  return_value___asprintf_chk_2_link2=__asprintf_chk(__ptr_link2, 2 - 1, __fmt_link2, return_value___builtin_va_arg_pack_1_link2);
+  return return_value___asprintf_chk_2_link2;
 }
 
-// asprintf$link3
+// asprintf_link3
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 176
-static inline signed int asprintf$link3(char ** restrict __ptr$link3, const char * restrict __fmt$link3, ...)
+static inline signed int asprintf_link3(char ** restrict __ptr_link3, const char * restrict __fmt_link3, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link3;
-  return_value___builtin_va_arg_pack$1$link3=__builtin_va_arg_pack();
-  signed int return_value___asprintf_chk$2$link3;
-  return_value___asprintf_chk$2$link3=__asprintf_chk(__ptr$link3, 2 - 1, __fmt$link3, return_value___builtin_va_arg_pack$1$link3);
-  return return_value___asprintf_chk$2$link3;
+  void *return_value___builtin_va_arg_pack_1_link3;
+  return_value___builtin_va_arg_pack_1_link3=__builtin_va_arg_pack();
+  signed int return_value___asprintf_chk_2_link3;
+  return_value___asprintf_chk_2_link3=__asprintf_chk(__ptr_link3, 2 - 1, __fmt_link3, return_value___builtin_va_arg_pack_1_link3);
+  return return_value___asprintf_chk_2_link3;
 }
 
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1)
+static inline signed int atoi_link1(const char *__nptr_link1)
 {
-  signed long int return_value_strtol$1$link1;
-  return_value_strtol$1$link1=strtol(__nptr$link1, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1;
+  signed long int return_value_strtol_1_link1;
+  return_value_strtol_1_link1=strtol(__nptr_link1, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1;
 }
 
 // cec_start
@@ -9603,18 +9603,18 @@ void cec_stop(void)
 
 // check_for_scaling
 // file xine/vo_osdscaler.c line 236
-static signed int check_for_scaling(struct anonymous$80 *this, struct vo_frame_s *frame, struct vo_overlay_s *overlay)
+static signed int check_for_scaling(struct anonymous_80 *this, struct vo_frame_s *frame, struct vo_overlay_s *overlay)
 {
   signed int extent_width;
   signed int extent_height;
   this->y_move = (unsigned short int)0;
   this->x_move = this->y_move;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  signed int tmp_if_expr$7;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  signed int tmp_if_expr_7;
   if(this->enable == 0)
   {
     do
@@ -9650,12 +9650,12 @@ static signed int check_for_scaling(struct anonymous$80 *this, struct vo_frame_s
       else
         if(!(overlay->hili_rgb_clut == -9999))
         {
-          if(frame->stream == ((struct xine_stream_s$0 *)NULL))
-            tmp_if_expr$1 = (_Bool)1;
+          if(frame->stream == ((struct xine_stream_s_0 *)NULL))
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = frame->stream == (struct xine_stream_s$0 *)-1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = frame->stream == (struct xine_stream_s_0 *)-1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             return 0;
 
           return 0;
@@ -9663,7 +9663,7 @@ static signed int check_for_scaling(struct anonymous$80 *this, struct vo_frame_s
 
         else
         {
-          struct anonymous$81 *data = (struct anonymous$81 *)overlay->hili_color;
+          struct anonymous_81 *data = (struct anonymous_81 *)overlay->hili_color;
           extent_width = (signed int)data->extent_width;
           extent_height = (signed int)data->extent_height;
           if(!((signed int)data->scaling >= 1))
@@ -9694,18 +9694,18 @@ static signed int check_for_scaling(struct anonymous$80 *this, struct vo_frame_s
               else
               {
                 if(!(overlay->unscaled == 0))
-                  tmp_if_expr$4 = this->unscaled_supported != 0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_4 = this->unscaled_supported != 0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$4 = (_Bool)0;
-                if(tmp_if_expr$4)
+                  tmp_if_expr_4 = (_Bool)0;
+                if(tmp_if_expr_4)
                 {
-                  signed int return_value_vo_def_get_property$2;
-                  return_value_vo_def_get_property$2=vo_def_get_property((struct vo_driver_s *)this, 15);
-                  this->output_width = (unsigned short int)return_value_vo_def_get_property$2;
-                  signed int return_value_vo_def_get_property$3;
-                  return_value_vo_def_get_property$3=vo_def_get_property((struct vo_driver_s *)this, 16);
-                  this->output_height = (unsigned short int)return_value_vo_def_get_property$3;
+                  signed int return_value_vo_def_get_property_2;
+                  return_value_vo_def_get_property_2=vo_def_get_property((struct vo_driver_s *)this, 15);
+                  this->output_width = (unsigned short int)return_value_vo_def_get_property_2;
+                  signed int return_value_vo_def_get_property_3;
+                  return_value_vo_def_get_property_3=vo_def_get_property((struct vo_driver_s *)this, 16);
+                  this->output_height = (unsigned short int)return_value_vo_def_get_property_3;
                 }
 
                 else
@@ -9726,11 +9726,11 @@ static signed int check_for_scaling(struct anonymous$80 *this, struct vo_frame_s
 
                 }
                 if(!((signed int)this->output_width >= 128))
-                  tmp_if_expr$5 = (_Bool)1;
+                  tmp_if_expr_5 = (_Bool)1;
 
                 else
-                  tmp_if_expr$5 = (signed int)this->output_height < 128 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$5)
+                  tmp_if_expr_5 = (signed int)this->output_height < 128 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_5)
                 {
                   do
                     if(SysLogLevel >= 2)
@@ -9743,23 +9743,23 @@ static signed int check_for_scaling(struct anonymous$80 *this, struct vo_frame_s
                 else
                 {
                   if(!((signed int)this->output_width + -extent_width >= 0))
-                    tmp_if_expr$6 = -((signed int)this->output_width - extent_width);
+                    tmp_if_expr_6 = -((signed int)this->output_width - extent_width);
 
                   else
-                    tmp_if_expr$6 = (signed int)this->output_width - extent_width;
-                  if(!(extent_width / 20 >= tmp_if_expr$6))
-                    tmp_if_expr$8 = (_Bool)1;
+                    tmp_if_expr_6 = (signed int)this->output_width - extent_width;
+                  if(!(extent_width / 20 >= tmp_if_expr_6))
+                    tmp_if_expr_8 = (_Bool)1;
 
                   else
                   {
                     if(!((signed int)this->output_height + -extent_height >= 0))
-                      tmp_if_expr$7 = -((signed int)this->output_height - extent_height);
+                      tmp_if_expr_7 = -((signed int)this->output_height - extent_height);
 
                     else
-                      tmp_if_expr$7 = (signed int)this->output_height - extent_height;
-                    tmp_if_expr$8 = tmp_if_expr$7 > extent_height / 20 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_7 = (signed int)this->output_height - extent_height;
+                    tmp_if_expr_8 = tmp_if_expr_7 > extent_height / 20 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$8)
+                  if(tmp_if_expr_8)
                   {
                     this->factor_x = (unsigned int)((0x10000 * (signed int)this->output_width) / extent_width);
                     this->factor_y = (unsigned int)((0x10000 * (signed int)this->output_height) / extent_height);
@@ -9800,21 +9800,21 @@ static void check_mouse_cursor_hide(struct sxfe_s *this, signed long int elapsed
 // file xine_frontend.c line 455
 static void configure_audio_out(const struct fe_s *this, const char *audio_driver, const char *audio_port)
 {
-  signed int tmp_statement_expression$5;
-  unsigned long int return_value_strlen$4;
-  _Bool tmp_if_expr$3;
-  char *return_value_strstr$2;
+  signed int tmp_statement_expression_5;
+  unsigned long int return_value_strlen_4;
+  _Bool tmp_if_expr_3;
+  char *return_value_strstr_2;
   if(!(audio_driver == ((const char *)NULL)) && !(audio_port == ((const char *)NULL)))
   {
-    unsigned long int configure_audio_out$$1$$1$$__s1_len;
-    unsigned long int configure_audio_out$$1$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$6;
-    return_value___builtin_strcmp$6=__builtin_strcmp("alsa", audio_driver);
-    tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-    if(tmp_statement_expression$5 == 0)
+    unsigned long int configure_audio_out__1__1____s1_len;
+    unsigned long int configure_audio_out__1__1____s2_len;
+    signed int return_value___builtin_strcmp_6;
+    return_value___builtin_strcmp_6=__builtin_strcmp("alsa", audio_driver);
+    tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+    if(tmp_statement_expression_5 == 0)
     {
-      return_value_strlen$4=strlen(audio_port);
-      if(return_value_strlen$4 >= 1ul)
+      return_value_strlen_4=strlen(audio_port);
+      if(return_value_strlen_4 >= 1ul)
       {
         static char *speaker_arrangement[14l] = { "Mono 1.0", "Stereo 2.0", "Headphones 2.0", "Stereo 2.1", "Surround 3.0", "Surround 4.0", "Surround 4.1", "Surround 5.0", "Surround 5.1", "Surround 6.0", "Surround 6.1", "Surround 7.1", "Pass Through", (char *)(void *)0 };
         xine_config_register_enum(this->xine, "audio.output.speaker_arrangement", 1, speaker_arrangement, "speaker arrangement", "Select how your speakers are arranged, this determines which speakers xine uses for sound output. The individual values are:\n\nMono 1.0: You have only one speaker.\nStereo 2.0: You have two speakers for left and right channel.\nHeadphones 2.0: You use headphones.\nStereo 2.1: You have two speakers for left and right channel, and one subwoofer for the low frequencies.\nSurround 3.0: You have three speakers for left, right and rear channel.\nSurround 4.0: You have four speakers for front left and right and rear left and right channels.\nSurround 4.1: You have four speakers for front left and right and rear left and right channels, and one subwoofer for the low frequencies.\nSurround 5.0: You have five speakers for front left, center and right and rear left and right channels.\nSurround 5.1: You have five speakers for front left, center and right and rear left and right channels, and one subwoofer for the low frequencies.\nSurround 6.0: You have six speakers for front left, center and right and rear left, center and right channels.\nSurround 6.1: You have six speakers for front left, center and right and rear left, center and right channels, and one subwoofer for the low frequencies.\nSurround 7.1: You have seven speakers for front left, center and right, left and right and rear left and right channels, and one subwoofer for the low frequencies.\nPass Through: Your sound system will receive undecoded digital sound from xine. You need to connect a digital surround decoder capable of decoding the formats you want to play to your sound card's digital output.", 10, (void (*)(void *, struct xine_cfg_entry_s *))(void *)0, (void *)0);
@@ -9825,17 +9825,17 @@ static void configure_audio_out(const struct fe_s *this, const char *audio_drive
         this->xine->config->update_string(this->xine->config, "audio.device.alsa_front_device", audio_port);
         this->xine->config->update_string(this->xine->config, "audio.device.alsa_default_device", audio_port);
         this->xine->config->update_string(this->xine->config, "audio.device.alsa_surround51_device", audio_port);
-        char *return_value_strstr$1;
-        return_value_strstr$1=strstr(audio_port, "iec");
-        if(!(return_value_strstr$1 == ((char *)NULL)))
-          tmp_if_expr$3 = (_Bool)1;
+        char *return_value_strstr_1;
+        return_value_strstr_1=strstr(audio_port, "iec");
+        if(!(return_value_strstr_1 == ((char *)NULL)))
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_strstr$2=strstr(audio_port, "spdif");
-          tmp_if_expr$3 = return_value_strstr$2 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          return_value_strstr_2=strstr(audio_port, "spdif");
+          tmp_if_expr_3 = return_value_strstr_2 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           this->xine->config->update_string(this->xine->config, "audio.device.alsa_passthrough_device", audio_port);
           this->xine->config->update_num(this->xine->config, "audio.output.speaker_arrangement", 12);
@@ -9847,46 +9847,46 @@ static void configure_audio_out(const struct fe_s *this, const char *audio_drive
 
   }
 
-  signed int tmp_statement_expression$13;
-  signed int tmp_statement_expression$7;
-  signed int return_value_sscanf$9;
-  signed int return_value_sscanf$11;
+  signed int tmp_statement_expression_13;
+  signed int tmp_statement_expression_7;
+  signed int return_value_sscanf_9;
+  signed int return_value_sscanf_11;
   if(!(audio_driver == ((const char *)NULL)))
   {
-    unsigned long int configure_audio_out$$1$$3$$__s1_len;
-    unsigned long int configure_audio_out$$1$$3$$__s2_len;
-    signed int return_value___builtin_strcmp$14;
-    return_value___builtin_strcmp$14=__builtin_strcmp("oss", audio_driver);
-    tmp_statement_expression$13 = return_value___builtin_strcmp$14;
-    if(tmp_statement_expression$13 == 0)
+    unsigned long int configure_audio_out__1__3____s1_len;
+    unsigned long int configure_audio_out__1__3____s2_len;
+    signed int return_value___builtin_strcmp_14;
+    return_value___builtin_strcmp_14=__builtin_strcmp("oss", audio_driver);
+    tmp_statement_expression_13 = return_value___builtin_strcmp_14;
+    if(tmp_statement_expression_13 == 0)
     {
       if(!(audio_port == ((const char *)NULL)))
       {
         signed int devnum = -2;
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$8;
-        return_value___builtin_strcmp$8=__builtin_strcmp("default", audio_port);
-        tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-        if(tmp_statement_expression$7 == 0)
+        signed int return_value___builtin_strcmp_8;
+        return_value___builtin_strcmp_8=__builtin_strcmp("default", audio_port);
+        tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+        if(tmp_statement_expression_7 == 0)
           devnum = -1;
 
-        signed int return_value_strncmp$10;
-        return_value_strncmp$10=strncmp("/dev/dsp", audio_port, (unsigned long int)8);
-        if(return_value_strncmp$10 == 0)
+        signed int return_value_strncmp_10;
+        return_value_strncmp_10=strncmp("/dev/dsp", audio_port, (unsigned long int)8);
+        if(return_value_strncmp_10 == 0)
         {
-          return_value_sscanf$9=sscanf(audio_port + (signed long int)8, "%d", &devnum);
-          if(!(return_value_sscanf$9 >= 1))
+          return_value_sscanf_9=sscanf(audio_port + (signed long int)8, "%d", &devnum);
+          if(!(return_value_sscanf_9 >= 1))
             devnum = -1;
 
         }
 
-        signed int return_value_strncmp$12;
-        return_value_strncmp$12=strncmp("/dev/sound/dsp", audio_port, (unsigned long int)14);
-        if(return_value_strncmp$12 == 0)
+        signed int return_value_strncmp_12;
+        return_value_strncmp_12=strncmp("/dev/sound/dsp", audio_port, (unsigned long int)14);
+        if(return_value_strncmp_12 == 0)
         {
-          return_value_sscanf$11=sscanf(audio_port + (signed long int)14, "%d", &devnum);
-          if(!(return_value_sscanf$11 >= 1))
+          return_value_sscanf_11=sscanf(audio_port + (signed long int)14, "%d", &devnum);
+          if(!(return_value_sscanf_11 >= 1))
             devnum = -1;
 
         }
@@ -9909,19 +9909,19 @@ static void configure_audio_out(const struct fe_s *this, const char *audio_drive
 // file xine_sxfe_frontend.c line 1471
 static void create_windows(struct sxfe_s *this)
 {
-  struct anonymous$8 xswa;
+  struct anonymous_8 xswa;
   unsigned long int xswa_mask;
   xswa.background_pixel = (unsigned long int)0x00000000;
   xswa.border_pixel = (unsigned long int)0;
   xswa.backing_store = 1;
   xswa_mask = (unsigned long int)(1L << 3 | 1L << 6);
   XLockDisplay(this->display);
-  this->window[(signed long int)0]=XCreateWindow(this->display, this->root_window, (signed int)this->$anon0.x.xpos, (signed int)this->$anon0.x.ypos, (unsigned int)this->$anon0.x.width, (unsigned int)this->$anon0.x.height, (unsigned int)1, (signed int)0L, (unsigned int)1, ((struct anonymous$16 *)NULL), xswa_mask, &xswa);
-  this->window[(signed long int)1]=XCreateWindow(this->display, this->root_window, (signed int)this->xinerama_x, (signed int)this->xinerama_y, (unsigned int)this->$anon0.x.width, (unsigned int)this->$anon0.x.height, (unsigned int)0, (signed int)0L, (unsigned int)1, ((struct anonymous$16 *)NULL), xswa_mask, &xswa);
+  this->window[(signed long int)0]=XCreateWindow(this->display, this->root_window, (signed int)this->_anon0.x.xpos, (signed int)this->_anon0.x.ypos, (unsigned int)this->_anon0.x.width, (unsigned int)this->_anon0.x.height, (unsigned int)1, (signed int)0L, (unsigned int)1, ((struct anonymous_16 *)NULL), xswa_mask, &xswa);
+  this->window[(signed long int)1]=XCreateWindow(this->display, this->root_window, (signed int)this->xinerama_x, (signed int)this->xinerama_y, (unsigned int)this->_anon0.x.width, (unsigned int)this->_anon0.x.height, (unsigned int)0, (signed int)0L, (unsigned int)1, ((struct anonymous_16 *)NULL), xswa_mask, &xswa);
   set_fullscreen_props(this);
-  struct anonymous$9 *classHint;
+  struct anonymous_9 *classHint;
   classHint=XAllocClassHint();
-  if(!(classHint == ((struct anonymous$9 *)NULL)))
+  if(!(classHint == ((struct anonymous_9 *)NULL)))
   {
     classHint->res_name = "VDR";
     classHint->res_class = "VDR";
@@ -9930,7 +9930,7 @@ static void create_windows(struct sxfe_s *this)
     XFree((void *)classHint);
   }
 
-  const char *initial_title = !(this->$anon0.fe.fe_message_cb != ((void (*)(void *, const char *, const char *))NULL)) ? "Connecting to VDR ..." : "Local VDR";
+  const char *initial_title = !(this->_anon0.fe.fe_message_cb != ((void (*)(void *, const char *, const char *))NULL)) ? "Connecting to VDR ..." : "Local VDR";
   XStoreName(this->display, this->window[(signed long int)0], initial_title);
   XStoreName(this->display, this->window[(signed long int)1], initial_title);
   set_icon(this);
@@ -9941,8 +9941,8 @@ static void create_windows(struct sxfe_s *this)
 // file xine_sxfe_frontend.c line 1440
 static double detect_display_ratio(struct _XDisplay *dpy, signed int screen)
 {
-  double res_h = ((double)(&((struct anonymous$34 *)dpy)->screens[(signed long int)screen])->width * 1000.0) / (double)(&((struct anonymous$34 *)dpy)->screens[(signed long int)screen])->mwidth;
-  double res_v = ((double)(&((struct anonymous$34 *)dpy)->screens[(signed long int)screen])->height * 1000.0) / (double)(&((struct anonymous$34 *)dpy)->screens[(signed long int)screen])->mheight;
+  double res_h = ((double)(&((struct anonymous_34 *)dpy)->screens[(signed long int)screen])->width * 1000.0) / (double)(&((struct anonymous_34 *)dpy)->screens[(signed long int)screen])->mwidth;
+  double res_v = ((double)(&((struct anonymous_34 *)dpy)->screens[(signed long int)screen])->height * 1000.0) / (double)(&((struct anonymous_34 *)dpy)->screens[(signed long int)screen])->mheight;
   double display_ratio = res_v / res_h;
   double diff = display_ratio - 1.0;
   if(diff < 0.01 && diff > -1.000000e-2)
@@ -9950,12 +9950,12 @@ static double detect_display_ratio(struct _XDisplay *dpy, signed int screen)
 
   do
     if(SysLogLevel >= 3)
-      x_syslog(7, "[vdr-sxfe]  ", "Display size : %d x %d mm", (&((struct anonymous$34 *)dpy)->screens[(signed long int)screen])->mwidth, (&((struct anonymous$34 *)dpy)->screens[(signed long int)screen])->mheight);
+      x_syslog(7, "[vdr-sxfe]  ", "Display size : %d x %d mm", (&((struct anonymous_34 *)dpy)->screens[(signed long int)screen])->mwidth, (&((struct anonymous_34 *)dpy)->screens[(signed long int)screen])->mheight);
 
   while((_Bool)0);
   do
     if(SysLogLevel >= 3)
-      x_syslog(7, "[vdr-sxfe]  ", "               %d x %d pixels", (&((struct anonymous$34 *)dpy)->screens[(signed long int)screen])->width, (&((struct anonymous$34 *)dpy)->screens[(signed long int)screen])->height);
+      x_syslog(7, "[vdr-sxfe]  ", "               %d x %d pixels", (&((struct anonymous_34 *)dpy)->screens[(signed long int)screen])->width, (&((struct anonymous_34 *)dpy)->screens[(signed long int)screen])->height);
 
   while((_Bool)0);
   do
@@ -9973,7 +9973,7 @@ static double detect_display_ratio(struct _XDisplay *dpy, signed int screen)
 
 // detect_xvdr_metronom
 // file xine/vo_lastpts.c line 36
-static void detect_xvdr_metronom(struct anonymous$83 *this, struct xine_stream_s$0 *stream)
+static void detect_xvdr_metronom(struct anonymous_83 *this, struct xine_stream_s_0 *stream)
 {
   signed long int return_value;
   return_value=stream->metronom->get_option(stream->metronom, 0x1001 + 3);
@@ -9994,19 +9994,19 @@ static void disable_DPMS(struct sxfe_s *this)
 {
   signed int dpms_dummy;
   XLockDisplay(this->display);
-  signed int return_value_DPMSQueryExtension$1;
-  return_value_DPMSQueryExtension$1=DPMSQueryExtension(this->display, &dpms_dummy, &dpms_dummy);
-  _Bool tmp_if_expr$3;
-  signed int return_value_DPMSCapable$2;
-  if(!(return_value_DPMSQueryExtension$1 == 0))
+  signed int return_value_DPMSQueryExtension_1;
+  return_value_DPMSQueryExtension_1=DPMSQueryExtension(this->display, &dpms_dummy, &dpms_dummy);
+  _Bool tmp_if_expr_3;
+  signed int return_value_DPMSCapable_2;
+  if(!(return_value_DPMSQueryExtension_1 == 0))
   {
-    return_value_DPMSCapable$2=DPMSCapable(this->display);
-    tmp_if_expr$3 = return_value_DPMSCapable$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_DPMSCapable_2=DPMSCapable(this->display);
+    tmp_if_expr_3 = return_value_DPMSCapable_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     unsigned short int dpms_level;
     DPMSInfo(this->display, &dpms_level, &this->dpms_state);
@@ -10031,28 +10031,28 @@ static inline signed int discovery_init(signed int port)
   signed int iReuse = 1;
   struct sockaddr_in sin;
   fd_discovery=socket(2, 2, 0);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
-  unsigned short int tmp_statement_expression$12;
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
+  unsigned short int tmp_statement_expression_12;
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
   if(!(fd_discovery >= 0))
   {
     do
       if(SysLogLevel >= 1)
       {
         x_syslog(3, "[discovery] ", "discovery_init: socket() failed");
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(!(*return_value___errno_location$3 == 0))
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(!(*return_value___errno_location_3 == 0))
         {
-          return_value___errno_location$1=__errno_location();
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 58, return_value_strerror$2);
+          return_value___errno_location_1=__errno_location();
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 58, return_value_strerror_2);
         }
 
       }
@@ -10063,40 +10063,40 @@ static inline signed int discovery_init(signed int port)
 
   else
   {
-    signed int return_value_setsockopt$7;
-    return_value_setsockopt$7=setsockopt(fd_discovery, 1, 6, (const void *)&iBroadcast, (unsigned int)sizeof(signed int) /*4ul*/ );
-    if(!(return_value_setsockopt$7 >= 0))
+    signed int return_value_setsockopt_7;
+    return_value_setsockopt_7=setsockopt(fd_discovery, 1, 6, (const void *)&iBroadcast, (unsigned int)sizeof(signed int) /*4ul*/ );
+    if(!(return_value_setsockopt_7 >= 0))
       do
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[discovery] ", "discovery_init: setsockopt(SO_BROADCAST) failed");
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          if(!(*return_value___errno_location$6 == 0))
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          if(!(*return_value___errno_location_6 == 0))
           {
-            return_value___errno_location$4=__errno_location();
-            return_value_strerror$5=strerror(*return_value___errno_location$4);
-            x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 63, return_value_strerror$5);
+            return_value___errno_location_4=__errno_location();
+            return_value_strerror_5=strerror(*return_value___errno_location_4);
+            x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 63, return_value_strerror_5);
           }
 
         }
 
       while((_Bool)0);
 
-    signed int return_value_setsockopt$11;
-    return_value_setsockopt$11=setsockopt(fd_discovery, 1, 2, (const void *)&iReuse, (unsigned int)sizeof(signed int) /*4ul*/ );
-    if(!(return_value_setsockopt$11 >= 0))
+    signed int return_value_setsockopt_11;
+    return_value_setsockopt_11=setsockopt(fd_discovery, 1, 2, (const void *)&iReuse, (unsigned int)sizeof(signed int) /*4ul*/ );
+    if(!(return_value_setsockopt_11 >= 0))
       do
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[discovery] ", "discovery_init: setsockopt(SO_REUSEADDR) failed");
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          if(!(*return_value___errno_location$10 == 0))
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          if(!(*return_value___errno_location_10 == 0))
           {
-            return_value___errno_location$8=__errno_location();
-            return_value_strerror$9=strerror(*return_value___errno_location$8);
-            x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 66, return_value_strerror$9);
+            return_value___errno_location_8=__errno_location();
+            return_value_strerror_9=strerror(*return_value___errno_location_8);
+            x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 66, return_value_strerror_9);
           }
 
         }
@@ -10106,25 +10106,25 @@ static inline signed int discovery_init(signed int port)
     sin.sin_family = (unsigned short int)2;
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$12 = __v;
-    sin.sin_port = tmp_statement_expression$12;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_12 = __v;
+    sin.sin_port = tmp_statement_expression_12;
     sin.sin_addr.s_addr=__bswap_32((unsigned int)0xffffffff);
-    signed int return_value_bind$16;
-    return_value_bind$16=bind(fd_discovery, (struct sockaddr *)&sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_bind$16 >= 0))
+    signed int return_value_bind_16;
+    return_value_bind_16=bind(fd_discovery, (struct sockaddr *)&sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_bind_16 >= 0))
     {
       do
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[discovery] ", "discovery_init: bind() failed");
-          signed int *return_value___errno_location$15;
-          return_value___errno_location$15=__errno_location();
-          if(!(*return_value___errno_location$15 == 0))
+          signed int *return_value___errno_location_15;
+          return_value___errno_location_15=__errno_location();
+          if(!(*return_value___errno_location_15 == 0))
           {
-            return_value___errno_location$13=__errno_location();
-            return_value_strerror$14=strerror(*return_value___errno_location$13);
-            x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 73, return_value_strerror$14);
+            return_value___errno_location_13=__errno_location();
+            return_value_strerror_14=strerror(*return_value___errno_location_13);
+            x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 73, return_value_strerror_14);
           }
 
         }
@@ -10143,7 +10143,7 @@ static inline signed int discovery_init(signed int port)
 // file xine/vo_frameoutput.c line 44
 static void display_frame(struct vo_driver_s *self, struct vo_frame_s *vo_img)
 {
-  struct anonymous$84 *this = (struct anonymous$84 *)self;
+  struct anonymous_84 *this = (struct anonymous_84 *)self;
   do
     if(self == ((struct vo_driver_s *)NULL))
     {
@@ -10181,18 +10181,18 @@ __CPROVER_DUMP_L10:
 // file tools/time_ms.h line 28
 static unsigned long int elapsed(unsigned long int t)
 {
-  unsigned long int return_value_time_ms$1;
-  return_value_time_ms$1=time_ms();
-  return return_value_time_ms$1 - t;
+  unsigned long int return_value_time_ms_1;
+  return_value_time_ms_1=time_ms();
+  return return_value_time_ms_1 - t;
 }
 
-// elapsed$link1
+// elapsed_link1
 // file tools/time_ms.h line 28
-static unsigned long int elapsed$link1(unsigned long int t$link1)
+static unsigned long int elapsed_link1(unsigned long int t_link1)
 {
-  unsigned long int return_value_time_ms$1$link1;
-  return_value_time_ms$1$link1=time_ms$link1();
-  return return_value_time_ms$1$link1 - t$link1;
+  unsigned long int return_value_time_ms_1_link1;
+  return_value_time_ms_1_link1=time_ms_link1();
+  return return_value_time_ms_1_link1 - t_link1;
 }
 
 // fe_compress_grab_frame
@@ -10215,12 +10215,12 @@ static char * fe_compress_grab_frame(struct fe_s *this, signed int *size, signed
     cinfo.image_width = (unsigned int)width;
     cinfo.image_height = (unsigned int)height;
     cinfo.input_components = 3;
-    cinfo.in_color_space = (enum anonymous$0)JCS_RGB;
+    cinfo.in_color_space = (enum anonymous_0)JCS_RGB;
     jpeg_set_defaults(&cinfo);
     jpeg_set_quality(&cinfo, quality, 1);
     jpeg_start_compress(&cinfo, 1);
-    const signed long int jcd$array_size0 = (signed long int)height;
-    unsigned char *rp[jcd$array_size0];
+    const signed long int jcd_array_size0 = (signed long int)height;
+    unsigned char *rp[jcd_array_size0];
     signed int rs = width * 3;
     signed int k = 0;
     for( ; !(k >= height); k = k + 1)
@@ -10234,9 +10234,9 @@ static char * fe_compress_grab_frame(struct fe_s *this, signed int *size, signed
 
   unsigned long int bytes = (unsigned long int)(width * height * 3);
   unsigned char *pnm;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(bytes + (unsigned long int)64);
-  pnm = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(bytes + (unsigned long int)64);
+  pnm = (unsigned char *)return_value_malloc_1;
   if(pnm == ((unsigned char *)NULL))
   {
     do
@@ -10249,11 +10249,11 @@ static char * fe_compress_grab_frame(struct fe_s *this, signed int *size, signed
 
   else
   {
-    sprintf$link1((char *)pnm, "P6\n%d\n%d\n255\n", width, height);
+    sprintf_link1((char *)pnm, "P6\n%d\n%d\n255\n", width, height);
     signed int hdrlen;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen((char *)pnm);
-    hdrlen = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen((char *)pnm);
+    hdrlen = (signed int)return_value_strlen_2;
     xine_fast_memcpy((void *)(pnm + (signed long int)hdrlen), (const void *)frame->img, bytes);
     *size = (signed int)(bytes + (unsigned long int)hdrlen);
     return (char *)pnm;
@@ -10266,20 +10266,20 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 {
   struct fe_s *this = (struct fe_s *)this_gen;
   struct post_plugins_s *posts;
-  signed int return_value_strncmp$29;
-  struct xine_stream_s *tmp_if_expr$1;
-  signed int return_value_strncmp$28;
-  signed int return_value_strncmp$27;
-  _Bool tmp_if_expr$10;
-  signed int return_value_xine_play$9;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
-  signed int return_value_strncmp$26;
-  char *tmp_post$15;
-  signed int return_value_strncmp$18;
-  signed int return_value_atoi$16;
-  signed int return_value_strncmp$25;
-  signed int return_value_strncmp$24;
+  signed int return_value_strncmp_29;
+  struct xine_stream_s *tmp_if_expr_1;
+  signed int return_value_strncmp_28;
+  signed int return_value_strncmp_27;
+  _Bool tmp_if_expr_10;
+  signed int return_value_xine_play_9;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
+  signed int return_value_strncmp_26;
+  char *tmp_post_15;
+  signed int return_value_strncmp_18;
+  signed int return_value_atoi_16;
+  signed int return_value_strncmp_25;
+  signed int return_value_strncmp_24;
   if(cmd == ((const char *)NULL) || this == ((struct fe_s *)NULL))
   {
     do
@@ -10305,9 +10305,9 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 
     else
     {
-      signed int return_value_strncmp$30;
-      return_value_strncmp$30=strncmp(cmd, "SLAVE CLOSED", (unsigned long int)16);
-      if(return_value_strncmp$30 == 0)
+      signed int return_value_strncmp_30;
+      return_value_strncmp_30=strncmp(cmd, "SLAVE CLOSED", (unsigned long int)16);
+      if(return_value_strncmp_30 == 0)
       {
         if(!(this->slave_stream == ((struct xine_stream_s *)NULL)))
           fe_control(this_gen, "SLAVE 0x0\r\n");
@@ -10319,13 +10319,13 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 
       else
       {
-        return_value_strncmp$29=strncmp(cmd, "SLAVE 0x", (unsigned long int)8);
-        if(return_value_strncmp$29 == 0)
+        return_value_strncmp_29=strncmp(cmd, "SLAVE 0x", (unsigned long int)8);
+        if(return_value_strncmp_29 == 0)
         {
           unsigned long int pt;
-          signed int return_value_sscanf$4;
-          return_value_sscanf$4=sscanf(cmd + (signed long int)8, "%lx", &pt);
-          if(return_value_sscanf$4 == 1)
+          signed int return_value_sscanf_4;
+          return_value_sscanf_4=sscanf(cmd + (signed long int)8, "%lx", &pt);
+          if(return_value_sscanf_4 == 1)
           {
             struct xine_stream_s *slave_stream = (struct xine_stream_s *)pt;
             if(!(this->slave_stream == slave_stream))
@@ -10349,20 +10349,20 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 
               this->slave_stream = slave_stream;
               if(!(this->slave_stream == ((struct xine_stream_s *)NULL)))
-                tmp_if_expr$1 = this->slave_stream;
+                tmp_if_expr_1 = this->slave_stream;
 
               else
-                tmp_if_expr$1 = this->stream;
-              this->postplugins->audio_source = tmp_if_expr$1;
+                tmp_if_expr_1 = this->stream;
+              this->postplugins->audio_source = tmp_if_expr_1;
               this->postplugins->video_source = this->postplugins->audio_source;
-              char *return_value_strstr$2;
-              return_value_strstr$2=strstr(cmd, "Video");
-              if(!(return_value_strstr$2 == ((char *)NULL)))
+              char *return_value_strstr_2;
+              return_value_strstr_2=strstr(cmd, "Video");
+              if(!(return_value_strstr_2 == ((char *)NULL)))
                 this->postplugins->audio_source = this->stream;
 
-              char *return_value_strstr$3;
-              return_value_strstr$3=strstr(cmd, "Audio");
-              if(!(return_value_strstr$3 == ((char *)NULL)))
+              char *return_value_strstr_3;
+              return_value_strstr_3=strstr(cmd, "Audio");
+              if(!(return_value_strstr_3 == ((char *)NULL)))
                 this->postplugins->video_source = this->stream;
 
               if(!(this->slave_stream == ((struct xine_stream_s *)NULL)))
@@ -10380,8 +10380,8 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 
         else
         {
-          return_value_strncmp$28=strncmp(cmd, "ENDOFSTREAM", (unsigned long int)11);
-          if(return_value_strncmp$28 == 0)
+          return_value_strncmp_28=strncmp(cmd, "ENDOFSTREAM", (unsigned long int)11);
+          if(return_value_strncmp_28 == 0)
           {
             if(!(this->slave_stream == ((struct xine_stream_s *)NULL)))
               this->slave_playback_finished = (unsigned char)1;
@@ -10390,17 +10390,17 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 
           else
           {
-            return_value_strncmp$27=strncmp(cmd, "SUBSTREAM ", (unsigned long int)10);
-            if(return_value_strncmp$27 == 0)
+            return_value_strncmp_27=strncmp(cmd, "SUBSTREAM ", (unsigned long int)10);
+            if(return_value_strncmp_27 == 0)
             {
               unsigned int pid;
               signed int x;
               signed int y;
               signed int w;
               signed int h;
-              signed int return_value_sscanf$11;
-              return_value_sscanf$11=sscanf(cmd + (signed long int)10, "0x%x %d %d %d %d", &pid, &x, &y, &w, &h);
-              if(return_value_sscanf$11 == 5)
+              signed int return_value_sscanf_11;
+              return_value_sscanf_11=sscanf(cmd + (signed long int)10, "0x%x %d %d %d %d", &pid, &x, &y, &w, &h);
+              if(return_value_sscanf_11 == 5)
               {
                 char mrl[256l];
                 if(posts->pip_stream == ((struct xine_stream_s *)NULL))
@@ -10416,29 +10416,29 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
                     x_syslog(6, "[vdr-fe]    ", "create pip stream done");
 
                 while((_Bool)0);
-                sprintf$link1(mrl, "xvdr+slave://0x%lx#nocache", (unsigned long int)this);
-                signed int return_value_xine_open$8;
-                return_value_xine_open$8=xine_open(posts->pip_stream, mrl);
-                if(return_value_xine_open$8 == 0)
-                  tmp_if_expr$10 = (_Bool)1;
+                sprintf_link1(mrl, "xvdr+slave://0x%lx#nocache", (unsigned long int)this);
+                signed int return_value_xine_open_8;
+                return_value_xine_open_8=xine_open(posts->pip_stream, mrl);
+                if(return_value_xine_open_8 == 0)
+                  tmp_if_expr_10 = (_Bool)1;
 
                 else
                 {
-                  return_value_xine_play$9=xine_play(posts->pip_stream, 0, 0);
-                  tmp_if_expr$10 = !(return_value_xine_play$9 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_xine_play_9=xine_play(posts->pip_stream, 0, 0);
+                  tmp_if_expr_10 = !(return_value_xine_play_9 != 0) ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$10)
+                if(tmp_if_expr_10)
                   do
                     if(SysLogLevel >= 1)
                     {
                       x_syslog(3, "[vdr-fe]    ", "  pip stream open/play failed");
-                      signed int *return_value___errno_location$7;
-                      return_value___errno_location$7=__errno_location();
-                      if(!(*return_value___errno_location$7 == 0))
+                      signed int *return_value___errno_location_7;
+                      return_value___errno_location_7=__errno_location();
+                      if(!(*return_value___errno_location_7 == 0))
                       {
-                        return_value___errno_location$5=__errno_location();
-                        return_value_strerror$6=strerror(*return_value___errno_location$5);
-                        x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend.c", 1554, return_value_strerror$6);
+                        return_value___errno_location_5=__errno_location();
+                        return_value_strerror_6=strerror(*return_value___errno_location_5);
+                        x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend.c", 1554, return_value_strerror_6);
                       }
 
                     }
@@ -10448,7 +10448,7 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
                 else
                 {
                   char params[64l];
-                  sprintf$link1(params, "pip_num=1,x=%d,y=%d,w=%d,h=%d", x, y, w, h);
+                  sprintf_link1(params, "pip_num=1,x=%d,y=%d,w=%d,h=%d", x, y, w, h);
                   fe_post_open(this, "Pip", params);
                   return (void *)posts->pip_stream;
                 }
@@ -10467,26 +10467,26 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 
             else
             {
-              return_value_strncmp$26=strncmp(cmd, "POST ", (unsigned long int)5);
-              if(return_value_strncmp$26 == 0)
+              return_value_strncmp_26=strncmp(cmd, "POST ", (unsigned long int)5);
+              if(return_value_strncmp_26 == 0)
               {
                 char *name;
-                char *return_value___strdup$12;
-                return_value___strdup$12=__strdup(cmd + (signed long int)5);
-                name = return_value___strdup$12;
+                char *return_value___strdup_12;
+                return_value___strdup_12=__strdup(cmd + (signed long int)5);
+                name = return_value___strdup_12;
                 char *args = name;
-                char *fe_control$$1$$12$$pt;
-                char *return_value___builtin_strchr$13;
-                return_value___builtin_strchr$13=__builtin_strchr(name, 13);
-                fe_control$$1$$12$$pt = return_value___builtin_strchr$13;
-                if(!(fe_control$$1$$12$$pt == ((char *)NULL)))
-                  *fe_control$$1$$12$$pt = (char)0;
+                char *fe_control__1__12__pt;
+                char *return_value___builtin_strchr_13;
+                return_value___builtin_strchr_13=__builtin_strchr(name, 13);
+                fe_control__1__12__pt = return_value___builtin_strchr_13;
+                if(!(fe_control__1__12__pt == ((char *)NULL)))
+                  *fe_control__1__12__pt = (char)0;
 
-                char *return_value___builtin_strchr$14;
-                return_value___builtin_strchr$14=__builtin_strchr(name, 10);
-                fe_control$$1$$12$$pt = return_value___builtin_strchr$14;
-                if(!(fe_control$$1$$12$$pt == ((char *)NULL)))
-                  *fe_control$$1$$12$$pt = (char)0;
+                char *return_value___builtin_strchr_14;
+                return_value___builtin_strchr_14=__builtin_strchr(name, 10);
+                fe_control__1__12__pt = return_value___builtin_strchr_14;
+                if(!(fe_control__1__12__pt == ((char *)NULL)))
+                  *fe_control__1__12__pt = (char)0;
 
                 for( ; !(*args == 0); args = args + 1l)
                   if((signed int)*args == 32)
@@ -10494,18 +10494,18 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 
                 if(!(*args == 0))
                 {
-                  tmp_post$15 = args;
+                  tmp_post_15 = args;
                   args = args + 1l;
-                  *tmp_post$15 = (char)0;
+                  *tmp_post_15 = (char)0;
                 }
 
                 for( ; !(*args == 0); args = args + 1l)
                   if(!((signed int)*args == 32))
                     break;
 
-                signed int return_value_strncmp$19;
-                return_value_strncmp$19=strncmp(args, "On", (unsigned long int)2);
-                if(return_value_strncmp$19 == 0)
+                signed int return_value_strncmp_19;
+                return_value_strncmp_19=strncmp(args, "On", (unsigned long int)2);
+                if(return_value_strncmp_19 == 0)
                 {
                   args = args + (signed long int)2;
                   for( ; (signed int)*args == 32; args = args + 1l)
@@ -10515,15 +10515,15 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 
                 else
                 {
-                  return_value_strncmp$18=strncmp(args, "Off", (unsigned long int)3);
-                  if(return_value_strncmp$18 == 0)
+                  return_value_strncmp_18=strncmp(args, "Off", (unsigned long int)3);
+                  if(return_value_strncmp_18 == 0)
                   {
-                    unsigned long int return_value_strlen$17;
-                    return_value_strlen$17=strlen(name);
-                    if(return_value_strlen$17 == 1ul)
+                    unsigned long int return_value_strlen_17;
+                    return_value_strlen_17=strlen(name);
+                    if(return_value_strlen_17 == 1ul)
                     {
-                      return_value_atoi$16=atoi(name);
-                      fe_post_close(this, (const char *)(void *)0, return_value_atoi$16);
+                      return_value_atoi_16=atoi(name);
+                      fe_post_close(this, (const char *)(void *)0, return_value_atoi_16);
                     }
 
                     else
@@ -10543,25 +10543,25 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 
               else
               {
-                return_value_strncmp$25=strncmp(cmd, "GRAB ", (unsigned long int)5);
-                if(return_value_strncmp$25 == 0)
+                return_value_strncmp_25=strncmp(cmd, "GRAB ", (unsigned long int)5);
+                if(return_value_strncmp_25 == 0)
                 {
                   signed int quality;
                   signed int width;
                   signed int height;
                   signed int jpeg;
                   signed int size = 0;
-                  signed int return_value_strncmp$20;
-                  return_value_strncmp$20=strncmp(cmd + (signed long int)5, "JPEG", (unsigned long int)4);
-                  jpeg = (signed int)!(return_value_strncmp$20 != 0);
-                  signed int return_value_sscanf$22;
-                  return_value_sscanf$22=sscanf(cmd + (signed long int)5 + (signed long int)4, "%d %d %d", &quality, &width, &height);
-                  if(return_value_sscanf$22 == 3)
+                  signed int return_value_strncmp_20;
+                  return_value_strncmp_20=strncmp(cmd + (signed long int)5, "JPEG", (unsigned long int)4);
+                  jpeg = (signed int)!(return_value_strncmp_20 != 0);
+                  signed int return_value_sscanf_22;
+                  return_value_sscanf_22=sscanf(cmd + (signed long int)5 + (signed long int)4, "%d %d %d", &quality, &width, &height);
+                  if(return_value_sscanf_22 == 3)
                   {
                     struct grab_data_s *result;
-                    void *return_value_malloc$21;
-                    return_value_malloc$21=malloc(sizeof(struct grab_data_s) /*16ul*/ );
-                    result = (struct grab_data_s *)return_value_malloc$21;
+                    void *return_value_malloc_21;
+                    return_value_malloc_21=malloc(sizeof(struct grab_data_s) /*16ul*/ );
+                    result = (struct grab_data_s *)return_value_malloc_21;
                     result->data=this->fe.grab((struct frontend_s *)this, &size, jpeg, quality, width, height);
                     if(!(result->data == ((char *)NULL)))
                     {
@@ -10579,13 +10579,13 @@ static void * fe_control(struct frontend_s *this_gen, const char *cmd)
 
                 else
                 {
-                  return_value_strncmp$24=strncmp(cmd, "OVERSCAN ", (unsigned long int)9);
-                  if(return_value_strncmp$24 == 0)
+                  return_value_strncmp_24=strncmp(cmd, "OVERSCAN ", (unsigned long int)9);
+                  if(return_value_strncmp_24 == 0)
                   {
                     signed int overscan;
-                    signed int return_value_sscanf$23;
-                    return_value_sscanf$23=sscanf(cmd + (signed long int)9, "%d", &overscan);
-                    if(return_value_sscanf$23 == 1)
+                    signed int return_value_sscanf_23;
+                    return_value_sscanf_23=sscanf(cmd + (signed long int)9, "%d", &overscan);
+                    if(return_value_sscanf_23 == 1)
                     {
                       signed int crop_x = ((overscan * (signed int)this->width) / 100) / 2;
                       signed int crop_y = ((overscan * (signed int)this->height) / 100) / 2;
@@ -10678,9 +10678,9 @@ __CPROVER_DUMP_L9:
 static void fe_frame_output_cb(void *data, signed int video_width, signed int video_height, double video_pixel_aspect, signed int *dest_x, signed int *dest_y, signed int *dest_width, signed int *dest_height, double *dest_pixel_aspect, signed int *win_x, signed int *win_y)
 {
   struct fe_s *this = (struct fe_s *)data;
-  _Bool tmp_if_expr$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  _Bool tmp_if_expr_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(!(this == ((struct fe_s *)NULL)))
   {
     *dest_width = (signed int)this->width;
@@ -10710,15 +10710,15 @@ static void fe_frame_output_cb(void *data, signed int video_width, signed int vi
     {
       _x_stream_info_set(this->stream, 4, (signed int)((10000.0 * video_pixel_aspect * (double)video_width) / (double)video_height));
       if(!((signed int)this->video_width == video_width))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)this->video_height != video_height ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)this->video_height != video_height ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
-        struct anonymous$14 framedata = { .width=video_width, .height=video_height, .aspect=0,
+        struct anonymous_14 framedata = { .width=video_width, .height=video_height, .aspect=0,
     .pan_scan=0 };
-        const struct anonymous$15 event = { .stream=this->stream, .data=(void *)&framedata, .data_length=(signed int)sizeof(struct anonymous$14) /*16ul*/ ,
+        const struct anonymous_15 event = { .stream=this->stream, .data=(void *)&framedata, .data_length=(signed int)sizeof(struct anonymous_14) /*16ul*/ ,
     .type=5,
     .tv={ .tv_sec=0l, .tv_usec=0l } };
         xine_event_send(this->stream, &event);
@@ -10733,27 +10733,27 @@ static void fe_frame_output_cb(void *data, signed int video_width, signed int vi
         if(aspect_diff < -5.000000e-2 || aspect_diff > 0.05)
         {
           char cmd[4096l];
-          signed int return_value_snprintf$6;
-          return_value_snprintf$6=snprintf$link1(cmd, sizeof(char [4096l]) /*4096ul*/ , "%s %d", this->aspect_controller, (signed int)(video_aspect * 10000.0));
-          if(!(return_value_snprintf$6 >= (signed int)sizeof(char [4096l]) /*4096*/ ))
+          signed int return_value_snprintf_6;
+          return_value_snprintf_6=snprintf_link1(cmd, sizeof(char [4096l]) /*4096ul*/ , "%s %d", this->aspect_controller, (signed int)(video_aspect * 10000.0));
+          if(!(return_value_snprintf_6 >= (signed int)sizeof(char [4096l]) /*4096*/ ))
           {
             if(SysLogLevel >= 3)
               x_syslog(7, "[vdr-fe]    ", "Aspect ratio changed, executing %s", (const void *)cmd);
 
-            signed int return_value_system$5;
-            return_value_system$5=system(cmd);
-            if(return_value_system$5 == -1)
+            signed int return_value_system_5;
+            return_value_system_5=system(cmd);
+            if(return_value_system_5 == -1)
             {
               if(SysLogLevel >= 1)
               {
                 x_syslog(3, "[vdr-fe]    ", "Executing /bin/sh -c %s failed", (const void *)cmd);
-                signed int *return_value___errno_location$4;
-                return_value___errno_location$4=__errno_location();
-                if(!(*return_value___errno_location$4 == 0))
+                signed int *return_value___errno_location_4;
+                return_value___errno_location_4=__errno_location();
+                if(!(*return_value___errno_location_4 == 0))
                 {
-                  return_value___errno_location$2=__errno_location();
-                  return_value_strerror$3=strerror(*return_value___errno_location$2);
-                  x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend.c", 401, return_value_strerror$3);
+                  return_value___errno_location_2=__errno_location();
+                  return_value_strerror_3=strerror(*return_value___errno_location_2);
+                  x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend.c", 401, return_value_strerror_3);
                 }
 
               }
@@ -10793,9 +10793,9 @@ static void fe_free(struct frontend_s *this_gen)
 static char * fe_grab(struct frontend_s *this_gen, signed int *size, signed int jpeg, signed int quality, signed int width, signed int height)
 {
   struct fe_s *this = (struct fe_s *)this_gen;
-  signed int return_value_find_input_plugin$1;
-  return_value_find_input_plugin$1=find_input_plugin(this);
-  if(return_value_find_input_plugin$1 == 0)
+  signed int return_value_find_input_plugin_1;
+  return_value_find_input_plugin_1=find_input_plugin(this);
+  if(return_value_find_input_plugin_1 == 0)
     return ((char *)NULL);
 
   else
@@ -10836,7 +10836,7 @@ static char * fe_grab(struct frontend_s *this_gen, signed int *size, signed int 
 static signed int fe_is_finished(struct frontend_s *this_gen, signed int slave_stream)
 {
   struct fe_s *this = (struct fe_s *)this_gen;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(this == ((struct fe_s *)NULL))
     return -1;
 
@@ -10852,11 +10852,11 @@ static signed int fe_is_finished(struct frontend_s *this_gen, signed int slave_s
         if(!(slave_stream == 0))
         {
           if(this->slave_stream == ((struct xine_stream_s *)NULL))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = this->slave_playback_finished != 0 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = this->slave_playback_finished != 0 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_1)
             goto __CPROVER_DUMP_L6;
 
           return 1;
@@ -10869,9 +10869,9 @@ static signed int fe_is_finished(struct frontend_s *this_gen, signed int slave_s
           ;
           if(this->shutdown_timeout >= 1)
           {
-            signed long int return_value_time$2;
-            return_value_time$2=time((signed long int *)(void *)0);
-            if(!(this->shutdown_time >= return_value_time$2))
+            signed long int return_value_time_2;
+            return_value_time_2=time((signed long int *)(void *)0);
+            if(!(this->shutdown_time >= return_value_time_2))
             {
               shutdown_system(this->shutdown_cmd, 0);
               return 1;
@@ -10888,18 +10888,18 @@ static signed int fe_is_finished(struct frontend_s *this_gen, signed int slave_s
 static void fe_post_close(const struct fe_s *this, const char *name, signed int which)
 {
   struct post_plugins_s *posts = this->postplugins;
-  signed int tmp_statement_expression$1;
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_1;
+  signed int tmp_statement_expression_3;
   if(!(this == ((const struct fe_s *)NULL)))
   {
     if(!(name == ((const char *)NULL)))
     {
       unsigned long int __s1_len;
-      unsigned long int fe_post_close$$1$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(name, "AudioVisualization");
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
+      unsigned long int fe_post_close__1__1____s2_len;
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(name, "AudioVisualization");
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
       {
         name = (const char *)(void *)0;
         which = 0;
@@ -10909,12 +10909,12 @@ static void fe_post_close(const struct fe_s *this, const char *name, signed int 
 
     if(!(name == ((const char *)NULL)))
     {
-      unsigned long int fe_post_close$$1$$3$$__s1_len;
+      unsigned long int fe_post_close__1__3____s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(name, "Pip");
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 == 0)
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(name, "Pip");
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 == 0)
       {
         name = (const char *)(void *)0;
         which = 3;
@@ -10929,17 +10929,17 @@ static void fe_post_close(const struct fe_s *this, const char *name, signed int 
           x_syslog(7, "[vdr-fe]    ", "closing post plugin: %s", name);
 
       while((_Bool)0);
-      signed int return_value_applugin_unload_post$5;
-      return_value_applugin_unload_post$5=applugin_unload_post(posts, name);
-      if(!(return_value_applugin_unload_post$5 == 0))
+      signed int return_value_applugin_unload_post_5;
+      return_value_applugin_unload_post_5=applugin_unload_post(posts, name);
+      if(!(return_value_applugin_unload_post_5 == 0))
       {
         applugin_rewire_posts(posts);
         goto __CPROVER_DUMP_L25;
       }
 
-      signed int return_value_vpplugin_unload_post$6;
-      return_value_vpplugin_unload_post$6=vpplugin_unload_post(posts, name);
-      if(!(return_value_vpplugin_unload_post$6 == 0))
+      signed int return_value_vpplugin_unload_post_6;
+      return_value_vpplugin_unload_post_6=vpplugin_unload_post(posts, name);
+      if(!(return_value_vpplugin_unload_post_6 == 0))
       {
         vpplugin_rewire_posts(posts);
         goto __CPROVER_DUMP_L25;
@@ -10952,18 +10952,18 @@ static void fe_post_close(const struct fe_s *this, const char *name, signed int 
     {
       if(!(posts->post_vis_elements_num == 0))
       {
-        if(!(posts->post_vis_elements == ((struct anonymous$26 **)NULL)))
+        if(!(posts->post_vis_elements == ((struct anonymous_26 **)NULL)))
         {
-          if(!(*posts->post_vis_elements == ((struct anonymous$26 *)NULL)))
+          if(!(*posts->post_vis_elements == ((struct anonymous_26 *)NULL)))
           {
             do
               if(SysLogLevel >= 3)
                 x_syslog(7, "[vdr-fe]    ", "Closing audio visualization post plugins");
 
             while((_Bool)0);
-            signed int return_value_applugin_unload_post$7;
-            return_value_applugin_unload_post$7=applugin_unload_post(posts, posts->post_vis_elements[(signed long int)0]->name);
-            if(!(return_value_applugin_unload_post$7 == 0))
+            signed int return_value_applugin_unload_post_7;
+            return_value_applugin_unload_post_7=applugin_unload_post(posts, posts->post_vis_elements[(signed long int)0]->name);
+            if(!(return_value_applugin_unload_post_7 == 0))
               applugin_rewire_posts(posts);
 
           }
@@ -10981,9 +10981,9 @@ static void fe_post_close(const struct fe_s *this, const char *name, signed int 
           x_syslog(7, "[vdr-fe]    ", "Closing audio post plugins");
 
       while((_Bool)0);
-      signed int return_value_applugin_disable_post$8;
-      return_value_applugin_disable_post$8=applugin_disable_post(posts, (const char *)(void *)0);
-      if(!(return_value_applugin_disable_post$8 == 0))
+      signed int return_value_applugin_disable_post_8;
+      return_value_applugin_disable_post_8=applugin_disable_post(posts, (const char *)(void *)0);
+      if(!(return_value_applugin_disable_post_8 == 0))
         applugin_rewire_posts(posts);
 
     }
@@ -10995,9 +10995,9 @@ static void fe_post_close(const struct fe_s *this, const char *name, signed int 
           x_syslog(7, "[vdr-fe]    ", "Closing video post plugins");
 
       while((_Bool)0);
-      signed int return_value_vpplugin_unload_post$9;
-      return_value_vpplugin_unload_post$9=vpplugin_unload_post(posts, (const char *)(void *)0);
-      if(!(return_value_vpplugin_unload_post$9 == 0))
+      signed int return_value_vpplugin_unload_post_9;
+      return_value_vpplugin_unload_post_9=vpplugin_unload_post(posts, (const char *)(void *)0);
+      if(!(return_value_vpplugin_unload_post_9 == 0))
         vpplugin_rewire_posts(posts);
 
     }
@@ -11006,18 +11006,18 @@ static void fe_post_close(const struct fe_s *this, const char *name, signed int 
     {
       if(!(posts->post_pip_elements_num == 0))
       {
-        if(!(posts->post_pip_elements == ((struct anonymous$26 **)NULL)))
+        if(!(posts->post_pip_elements == ((struct anonymous_26 **)NULL)))
         {
-          if(!(*posts->post_pip_elements == ((struct anonymous$26 *)NULL)))
+          if(!(*posts->post_pip_elements == ((struct anonymous_26 *)NULL)))
           {
             do
               if(SysLogLevel >= 3)
                 x_syslog(7, "[vdr-fe]    ", "Closing PIP (mosaico) post plugins");
 
             while((_Bool)0);
-            signed int return_value_vpplugin_unload_post$10;
-            return_value_vpplugin_unload_post$10=vpplugin_unload_post(posts, "mosaico");
-            if(!(return_value_vpplugin_unload_post$10 == 0))
+            signed int return_value_vpplugin_unload_post_10;
+            return_value_vpplugin_unload_post_10=vpplugin_unload_post(posts, "mosaico");
+            if(!(return_value_vpplugin_unload_post_10 == 0))
               vpplugin_rewire_posts(posts);
 
           }
@@ -11042,63 +11042,63 @@ static void fe_post_open(const struct fe_s *this, const char *name, const char *
   struct post_plugins_s *posts = this->postplugins;
   char initstr[1024l];
   signed int found = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(this == ((const struct fe_s *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(this->xine != ((struct xine_s *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = !(this->xine != ((struct xine_s *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(this->stream != ((struct xine_stream_s *)NULL)) ? (_Bool)1 : (_Bool)0;
-  signed int tmp_statement_expression$5;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed int tmp_statement_expression$7;
-  signed int tmp_statement_expression$26;
-  _Bool tmp_if_expr$30;
-  signed int tmp_statement_expression$28;
-  _Bool tmp_if_expr$33;
-  signed int tmp_statement_expression$31;
-  _Bool tmp_if_expr$36;
-  signed int tmp_statement_expression$34;
-  _Bool tmp_if_expr$39;
-  signed int tmp_statement_expression$37;
-  signed int tmp_statement_expression$9;
-  signed int return_value_applugin_enable_post$13;
-  signed int tmp_statement_expression$11;
-  signed int tmp_statement_expression$23;
-  signed int tmp_statement_expression$21;
-  signed int tmp_statement_expression$19;
-  signed int tmp_statement_expression$17;
-  signed int tmp_statement_expression$15;
-  signed int return_value_vpplugin_enable_post$14;
-  signed int return_value_applugin_enable_post$25;
-  if(!(name == ((const char *)NULL)) && !tmp_if_expr$2)
+    tmp_if_expr_2 = !(this->stream != ((struct xine_stream_s *)NULL)) ? (_Bool)1 : (_Bool)0;
+  signed int tmp_statement_expression_5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_statement_expression_7;
+  signed int tmp_statement_expression_26;
+  _Bool tmp_if_expr_30;
+  signed int tmp_statement_expression_28;
+  _Bool tmp_if_expr_33;
+  signed int tmp_statement_expression_31;
+  _Bool tmp_if_expr_36;
+  signed int tmp_statement_expression_34;
+  _Bool tmp_if_expr_39;
+  signed int tmp_statement_expression_37;
+  signed int tmp_statement_expression_9;
+  signed int return_value_applugin_enable_post_13;
+  signed int tmp_statement_expression_11;
+  signed int tmp_statement_expression_23;
+  signed int tmp_statement_expression_21;
+  signed int tmp_statement_expression_19;
+  signed int tmp_statement_expression_17;
+  signed int tmp_statement_expression_15;
+  signed int return_value_vpplugin_enable_post_14;
+  signed int return_value_applugin_enable_post_25;
+  if(!(name == ((const char *)NULL)) && !tmp_if_expr_2)
   {
-    unsigned long int fe_post_open$$1$$1$$__s1_len;
-    unsigned long int fe_post_open$$1$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$6;
-    return_value___builtin_strcmp$6=__builtin_strcmp(name, "Pip");
-    tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-    if(tmp_statement_expression$5 == 0)
+    unsigned long int fe_post_open__1__1____s1_len;
+    unsigned long int fe_post_open__1__1____s2_len;
+    signed int return_value___builtin_strcmp_6;
+    return_value___builtin_strcmp_6=__builtin_strcmp(name, "Pip");
+    tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+    if(tmp_statement_expression_5 == 0)
     {
       posts->post_pip_enable = 1;
       name = "mosaico";
-      if(posts->post_pip_elements == ((struct anonymous$26 **)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+      if(posts->post_pip_elements == ((struct anonymous_26 **)NULL))
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = !(posts->post_vis_elements[(signed long int)0] != ((struct anonymous$26 *)NULL)) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = !(posts->post_vis_elements[(signed long int)0] != ((struct anonymous_26 *)NULL)) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = !(posts->post_vis_elements[(signed long int)0]->enable != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = !(posts->post_vis_elements[(signed long int)0]->enable != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         do
           if(SysLogLevel >= 2)
             x_syslog(6, "[vdr-fe]    ", "enabling picture-in-picture (\"%s:%s\") post plugin", name, args);
@@ -11109,18 +11109,18 @@ static void fe_post_open(const struct fe_s *this, const char *name, const char *
 
     if(!(args == ((const char *)NULL)))
     {
-      snprintf$link1(initstr, sizeof(char [1024l]) /*1024ul*/ , "%s:%s", name, args);
+      snprintf_link1(initstr, sizeof(char [1024l]) /*1024ul*/ , "%s:%s", name, args);
       initstr[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1)] = (char)0;
     }
 
     else
       strn0cpy(initstr, name, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-    unsigned long int fe_post_open$$1$$4$$__s1_len;
-    unsigned long int fe_post_open$$1$$4$$__s2_len;
-    signed int return_value___builtin_strcmp$8;
-    return_value___builtin_strcmp$8=__builtin_strcmp(name, "swscale");
-    tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-    if(tmp_statement_expression$7 == 0)
+    unsigned long int fe_post_open__1__4____s1_len;
+    unsigned long int fe_post_open__1__4____s2_len;
+    signed int return_value___builtin_strcmp_8;
+    return_value___builtin_strcmp_8=__builtin_strcmp(name, "swscale");
+    tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+    if(tmp_statement_expression_7 == 0)
     {
       char *pt;
       pt=strstr(initstr, "output_aspect=auto");
@@ -11160,7 +11160,7 @@ static void fe_post_open(const struct fe_s *this, const char *name, const char *
 
             while((_Bool)0);
         }
-        sprintf$link1(tmp, "%04d", (signed int)(r * 1000.0));
+        sprintf_link1(tmp, "%04d", (signed int)(r * 1000.0));
         strncpy(pt, tmp, (unsigned long int)4);
       }
 
@@ -11171,73 +11171,73 @@ static void fe_post_open(const struct fe_s *this, const char *name, const char *
         x_syslog(7, "[vdr-fe]    ", "opening post plugin: %s", (const void *)initstr);
 
     while((_Bool)0);
-    unsigned long int fe_post_open$$1$$7$$__s1_len;
-    unsigned long int fe_post_open$$1$$7$$__s2_len;
-    signed int return_value___builtin_strcmp$27;
-    return_value___builtin_strcmp$27=__builtin_strcmp(name, "goom");
-    tmp_statement_expression$26 = return_value___builtin_strcmp$27;
-    if(tmp_statement_expression$26 == 0)
-      tmp_if_expr$30 = (_Bool)1;
+    unsigned long int fe_post_open__1__7____s1_len;
+    unsigned long int fe_post_open__1__7____s2_len;
+    signed int return_value___builtin_strcmp_27;
+    return_value___builtin_strcmp_27=__builtin_strcmp(name, "goom");
+    tmp_statement_expression_26 = return_value___builtin_strcmp_27;
+    if(tmp_statement_expression_26 == 0)
+      tmp_if_expr_30 = (_Bool)1;
 
     else
     {
-      unsigned long int fe_post_open$$1$$8$$__s1_len;
-      unsigned long int fe_post_open$$1$$8$$__s2_len;
-      signed int return_value___builtin_strcmp$29;
-      return_value___builtin_strcmp$29=__builtin_strcmp(name, "oscope");
-      tmp_statement_expression$28 = return_value___builtin_strcmp$29;
-      tmp_if_expr$30 = !(tmp_statement_expression$28 != 0) ? (_Bool)1 : (_Bool)0;
+      unsigned long int fe_post_open__1__8____s1_len;
+      unsigned long int fe_post_open__1__8____s2_len;
+      signed int return_value___builtin_strcmp_29;
+      return_value___builtin_strcmp_29=__builtin_strcmp(name, "oscope");
+      tmp_statement_expression_28 = return_value___builtin_strcmp_29;
+      tmp_if_expr_30 = !(tmp_statement_expression_28 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$30)
-      tmp_if_expr$33 = (_Bool)1;
+    if(tmp_if_expr_30)
+      tmp_if_expr_33 = (_Bool)1;
 
     else
     {
-      unsigned long int fe_post_open$$1$$9$$__s1_len;
-      unsigned long int fe_post_open$$1$$9$$__s2_len;
-      signed int return_value___builtin_strcmp$32;
-      return_value___builtin_strcmp$32=__builtin_strcmp(name, "fftscope");
-      tmp_statement_expression$31 = return_value___builtin_strcmp$32;
-      tmp_if_expr$33 = !(tmp_statement_expression$31 != 0) ? (_Bool)1 : (_Bool)0;
+      unsigned long int fe_post_open__1__9____s1_len;
+      unsigned long int fe_post_open__1__9____s2_len;
+      signed int return_value___builtin_strcmp_32;
+      return_value___builtin_strcmp_32=__builtin_strcmp(name, "fftscope");
+      tmp_statement_expression_31 = return_value___builtin_strcmp_32;
+      tmp_if_expr_33 = !(tmp_statement_expression_31 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$33)
-      tmp_if_expr$36 = (_Bool)1;
+    if(tmp_if_expr_33)
+      tmp_if_expr_36 = (_Bool)1;
 
     else
     {
-      unsigned long int fe_post_open$$1$$10$$__s1_len;
-      unsigned long int fe_post_open$$1$$10$$__s2_len;
-      signed int return_value___builtin_strcmp$35;
-      return_value___builtin_strcmp$35=__builtin_strcmp(name, "fftgraph");
-      tmp_statement_expression$34 = return_value___builtin_strcmp$35;
-      tmp_if_expr$36 = !(tmp_statement_expression$34 != 0) ? (_Bool)1 : (_Bool)0;
+      unsigned long int fe_post_open__1__10____s1_len;
+      unsigned long int fe_post_open__1__10____s2_len;
+      signed int return_value___builtin_strcmp_35;
+      return_value___builtin_strcmp_35=__builtin_strcmp(name, "fftgraph");
+      tmp_statement_expression_34 = return_value___builtin_strcmp_35;
+      tmp_if_expr_36 = !(tmp_statement_expression_34 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$36)
-      tmp_if_expr$39 = (_Bool)1;
+    if(tmp_if_expr_36)
+      tmp_if_expr_39 = (_Bool)1;
 
     else
     {
-      unsigned long int fe_post_open$$1$$11$$__s1_len;
-      unsigned long int fe_post_open$$1$$11$$__s2_len;
-      signed int return_value___builtin_strcmp$38;
-      return_value___builtin_strcmp$38=__builtin_strcmp(name, "fooviz");
-      tmp_statement_expression$37 = return_value___builtin_strcmp$38;
-      tmp_if_expr$39 = !(tmp_statement_expression$37 != 0) ? (_Bool)1 : (_Bool)0;
+      unsigned long int fe_post_open__1__11____s1_len;
+      unsigned long int fe_post_open__1__11____s2_len;
+      signed int return_value___builtin_strcmp_38;
+      return_value___builtin_strcmp_38=__builtin_strcmp(name, "fooviz");
+      tmp_statement_expression_37 = return_value___builtin_strcmp_38;
+      tmp_if_expr_39 = !(tmp_statement_expression_37 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$39)
+    if(tmp_if_expr_39)
     {
       if(!(posts->post_vis_elements_num == 0))
       {
-        if(!(posts->post_vis_elements == ((struct anonymous$26 **)NULL)))
+        if(!(posts->post_vis_elements == ((struct anonymous_26 **)NULL)))
         {
-          if(!(*posts->post_vis_elements == ((struct anonymous$26 *)NULL)))
+          if(!(*posts->post_vis_elements == ((struct anonymous_26 *)NULL)))
           {
-            unsigned long int fe_post_open$$1$$12$$1$$__s1_len;
-            unsigned long int fe_post_open$$1$$12$$1$$__s2_len;
-            signed int return_value___builtin_strcmp$10;
-            return_value___builtin_strcmp$10=__builtin_strcmp(name, posts->post_vis_elements[(signed long int)0]->name);
-            tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-            if(!(tmp_statement_expression$9 == 0))
+            unsigned long int fe_post_open__1__12__1____s1_len;
+            unsigned long int fe_post_open__1__12__1____s2_len;
+            signed int return_value___builtin_strcmp_10;
+            return_value___builtin_strcmp_10=__builtin_strcmp(name, posts->post_vis_elements[(signed long int)0]->name);
+            tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+            if(!(tmp_statement_expression_9 == 0))
               fe_post_close(this, (const char *)(void *)0, 0);
 
           }
@@ -11248,19 +11248,19 @@ static void fe_post_open(const struct fe_s *this, const char *name, const char *
 
       if(found == 0)
       {
-        return_value_applugin_enable_post$13=applugin_enable_post(posts, initstr, &found);
-        if(!(return_value_applugin_enable_post$13 == 0))
+        return_value_applugin_enable_post_13=applugin_enable_post(posts, initstr, &found);
+        if(!(return_value_applugin_enable_post_13 == 0))
         {
           posts->post_vis_enable = 1;
           applugin_rewire_posts(posts);
           if(!(args == ((const char *)NULL)))
           {
-            unsigned long int fe_post_open$$1$$12$$3$$1$$__s1_len;
-            unsigned long int fe_post_open$$1$$12$$3$$1$$__s2_len;
-            signed int return_value___builtin_strcmp$12;
-            return_value___builtin_strcmp$12=__builtin_strcmp(name, "goom");
-            tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-            if(tmp_statement_expression$11 == 0)
+            unsigned long int fe_post_open__1__12__3__1____s1_len;
+            unsigned long int fe_post_open__1__12__3__1____s2_len;
+            signed int return_value___builtin_strcmp_12;
+            return_value___builtin_strcmp_12=__builtin_strcmp(name, "goom");
+            tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+            if(tmp_statement_expression_11 == 0)
             {
               signed int val;
               val=get_opt_val(initstr, "fps");
@@ -11287,43 +11287,43 @@ static void fe_post_open(const struct fe_s *this, const char *name, const char *
 
     else
     {
-      unsigned long int fe_post_open$$1$$13$$1$$__s1_len;
-      unsigned long int fe_post_open$$1$$13$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$24;
-      return_value___builtin_strcmp$24=__builtin_strcmp(name, "audiochannel");
-      tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-      if(!(tmp_statement_expression$23 == 0))
+      unsigned long int fe_post_open__1__13__1____s1_len;
+      unsigned long int fe_post_open__1__13__1____s2_len;
+      signed int return_value___builtin_strcmp_24;
+      return_value___builtin_strcmp_24=__builtin_strcmp(name, "audiochannel");
+      tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+      if(!(tmp_statement_expression_23 == 0))
       {
-        unsigned long int fe_post_open$$1$$13$$2$$__s1_len;
-        unsigned long int fe_post_open$$1$$13$$2$$__s2_len;
-        signed int return_value___builtin_strcmp$22;
-        return_value___builtin_strcmp$22=__builtin_strcmp(name, "volnorm");
-        tmp_statement_expression$21 = return_value___builtin_strcmp$22;
-        if(!(tmp_statement_expression$21 == 0))
+        unsigned long int fe_post_open__1__13__2____s1_len;
+        unsigned long int fe_post_open__1__13__2____s2_len;
+        signed int return_value___builtin_strcmp_22;
+        return_value___builtin_strcmp_22=__builtin_strcmp(name, "volnorm");
+        tmp_statement_expression_21 = return_value___builtin_strcmp_22;
+        if(!(tmp_statement_expression_21 == 0))
         {
-          unsigned long int fe_post_open$$1$$13$$3$$__s1_len;
-          unsigned long int fe_post_open$$1$$13$$3$$__s2_len;
-          signed int return_value___builtin_strcmp$20;
-          return_value___builtin_strcmp$20=__builtin_strcmp(name, "stretch");
-          tmp_statement_expression$19 = return_value___builtin_strcmp$20;
-          if(!(tmp_statement_expression$19 == 0))
+          unsigned long int fe_post_open__1__13__3____s1_len;
+          unsigned long int fe_post_open__1__13__3____s2_len;
+          signed int return_value___builtin_strcmp_20;
+          return_value___builtin_strcmp_20=__builtin_strcmp(name, "stretch");
+          tmp_statement_expression_19 = return_value___builtin_strcmp_20;
+          if(!(tmp_statement_expression_19 == 0))
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$18;
-            return_value___builtin_strcmp$18=__builtin_strcmp(name, "upmix_mono");
-            tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-            if(!(tmp_statement_expression$17 == 0))
+            signed int return_value___builtin_strcmp_18;
+            return_value___builtin_strcmp_18=__builtin_strcmp(name, "upmix_mono");
+            tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+            if(!(tmp_statement_expression_17 == 0))
             {
-              unsigned long int fe_post_open$$1$$13$$5$$__s1_len;
-              unsigned long int fe_post_open$$1$$13$$5$$__s2_len;
-              signed int return_value___builtin_strcmp$16;
-              return_value___builtin_strcmp$16=__builtin_strcmp(name, "upmix");
-              tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-              if(!(tmp_statement_expression$15 == 0))
+              unsigned long int fe_post_open__1__13__5____s1_len;
+              unsigned long int fe_post_open__1__13__5____s2_len;
+              signed int return_value___builtin_strcmp_16;
+              return_value___builtin_strcmp_16=__builtin_strcmp(name, "upmix");
+              tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+              if(!(tmp_statement_expression_15 == 0))
               {
-                return_value_vpplugin_enable_post$14=vpplugin_enable_post(posts, initstr, &found);
-                if(!(return_value_vpplugin_enable_post$14 == 0))
+                return_value_vpplugin_enable_post_14=vpplugin_enable_post(posts, initstr, &found);
+                if(!(return_value_vpplugin_enable_post_14 == 0))
                 {
                   posts->post_video_enable = 1;
                   vpplugin_rewire_posts(posts);
@@ -11341,8 +11341,8 @@ static void fe_post_open(const struct fe_s *this, const char *name, const char *
 
       if(found == 0)
       {
-        return_value_applugin_enable_post$25=applugin_enable_post(posts, initstr, &found);
-        if(!(return_value_applugin_enable_post$25 == 0))
+        return_value_applugin_enable_post_25=applugin_enable_post(posts, initstr, &found);
+        if(!(return_value_applugin_enable_post_25 == 0))
         {
           posts->post_audio_enable = 1;
           applugin_rewire_posts(posts);
@@ -11402,26 +11402,26 @@ static void fe_post_unload(const struct fe_s *this)
 // file xine_frontend.c line 899
 static void fe_post_unwire(struct fe_s *this)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(this == ((struct fe_s *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(this->stream != ((struct xine_stream_s *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(this->stream != ((struct xine_stream_s *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  if(!tmp_if_expr_1)
   {
     struct xine_post_out_s *vo_source;
     vo_source=xine_get_video_source(this->stream);
     struct xine_post_out_s *ao_source;
     ao_source=xine_get_audio_source(this->stream);
     if(!(this->slave_stream == ((struct xine_stream_s *)NULL)))
-      tmp_if_expr$2 = this->slave_stream == this->postplugins->audio_source ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = this->slave_stream == this->postplugins->audio_source ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       do
         if(SysLogLevel >= 3)
@@ -11463,11 +11463,11 @@ static void fe_post_unwire(struct fe_s *this)
 
     }
     if(!(this->slave_stream == ((struct xine_stream_s *)NULL)))
-      tmp_if_expr$3 = this->slave_stream == this->postplugins->video_source ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = this->slave_stream == this->postplugins->video_source ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
       do
         if(SysLogLevel >= 3)
@@ -11477,7 +11477,7 @@ static void fe_post_unwire(struct fe_s *this)
       vo_source=xine_get_video_source(this->slave_stream);
       if(!(vo_source == ((struct xine_post_out_s *)NULL)))
       {
-        if(!(this->video_port == ((struct xine_video_port_s$0 *)NULL)))
+        if(!(this->video_port == ((struct xine_video_port_s_0 *)NULL)))
           xine_post_wire_video_port(vo_source, this->video_port);
 
       }
@@ -11493,7 +11493,7 @@ static void fe_post_unwire(struct fe_s *this)
       while((_Bool)0);
       if(!(vo_source == ((struct xine_post_out_s *)NULL)))
       {
-        if(!(this->video_port == ((struct xine_video_port_s$0 *)NULL)))
+        if(!(this->video_port == ((struct xine_video_port_s_0 *)NULL)))
           xine_post_wire_video_port(vo_source, this->video_port);
 
       }
@@ -11508,24 +11508,24 @@ static void fe_post_unwire(struct fe_s *this)
 static signed int fe_send_event(struct frontend_s *this_gen, const char *data)
 {
   struct fe_s *this = (struct fe_s *)this_gen;
-  signed int tmp_statement_expression$14;
-  signed int return_value_strncasecmp$13;
-  signed int return_value_atoi$1;
-  signed int tmp_statement_expression$11;
-  signed int tmp_statement_expression$9;
-  signed int return_value_strncasecmp$8;
-  signed int tmp_statement_expression$6;
+  signed int tmp_statement_expression_14;
+  signed int return_value_strncasecmp_13;
+  signed int return_value_atoi_1;
+  signed int tmp_statement_expression_11;
+  signed int tmp_statement_expression_9;
+  signed int return_value_strncasecmp_8;
+  signed int tmp_statement_expression_6;
   if(data == ((const char *)NULL))
     return 0;
 
   else
   {
     unsigned long int __s1_len;
-    unsigned long int fe_send_event$$1$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$15;
-    return_value___builtin_strcmp$15=__builtin_strcmp(data, "TOGGLE_FULLSCREEN");
-    tmp_statement_expression$14 = return_value___builtin_strcmp$15;
-    if(tmp_statement_expression$14 == 0)
+    unsigned long int fe_send_event__1__1____s2_len;
+    signed int return_value___builtin_strcmp_15;
+    return_value___builtin_strcmp_15=__builtin_strcmp(data, "TOGGLE_FULLSCREEN");
+    tmp_statement_expression_14 = return_value___builtin_strcmp_15;
+    if(tmp_statement_expression_14 == 0)
     {
       if(!(this->toggle_fullscreen_cb == ((void (*)(struct fe_s *, signed int))NULL)))
         this->toggle_fullscreen_cb(this, -1);
@@ -11534,59 +11534,59 @@ static signed int fe_send_event(struct frontend_s *this_gen, const char *data)
 
     else
     {
-      return_value_strncasecmp$13=strncasecmp(data, "FULLSCREEN ", (unsigned long int)11);
-      if(return_value_strncasecmp$13 == 0)
+      return_value_strncasecmp_13=strncasecmp(data, "FULLSCREEN ", (unsigned long int)11);
+      if(return_value_strncasecmp_13 == 0)
       {
         if(!(this->toggle_fullscreen_cb == ((void (*)(struct fe_s *, signed int))NULL)))
         {
-          return_value_atoi$1=atoi(data + (signed long int)11);
-          this->toggle_fullscreen_cb(this, return_value_atoi$1 != 0 ? 1 : 0);
+          return_value_atoi_1=atoi(data + (signed long int)11);
+          this->toggle_fullscreen_cb(this, return_value_atoi_1 != 0 ? 1 : 0);
         }
 
       }
 
       else
       {
-        unsigned long int fe_send_event$$1$$4$$__s1_len;
-        unsigned long int fe_send_event$$1$$4$$__s2_len;
-        signed int return_value___builtin_strcmp$12;
-        return_value___builtin_strcmp$12=__builtin_strcmp(data, "QUIT");
-        tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-        if(tmp_statement_expression$11 == 0)
+        unsigned long int fe_send_event__1__4____s1_len;
+        unsigned long int fe_send_event__1__4____s2_len;
+        signed int return_value___builtin_strcmp_12;
+        return_value___builtin_strcmp_12=__builtin_strcmp(data, "QUIT");
+        tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+        if(tmp_statement_expression_11 == 0)
           this->terminate_key_pressed = (unsigned int)1;
 
         else
         {
-          unsigned long int fe_send_event$$1$$6$$__s1_len;
-          unsigned long int fe_send_event$$1$$6$$__s2_len;
-          signed int return_value___builtin_strcmp$10;
-          return_value___builtin_strcmp$10=__builtin_strcmp(data, "TOGGLE_DEINTERLACE");
-          tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-          if(tmp_statement_expression$9 == 0)
+          unsigned long int fe_send_event__1__6____s1_len;
+          unsigned long int fe_send_event__1__6____s2_len;
+          signed int return_value___builtin_strcmp_10;
+          return_value___builtin_strcmp_10=__builtin_strcmp(data, "TOGGLE_DEINTERLACE");
+          tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+          if(tmp_statement_expression_9 == 0)
           {
-            signed int return_value_xine_get_param$2;
-            return_value_xine_get_param$2=xine_get_param(this->stream, 0x01000000);
-            xine_set_param(this->stream, 0x01000000, return_value_xine_get_param$2 != 0 ? 0 : 1);
+            signed int return_value_xine_get_param_2;
+            return_value_xine_get_param_2=xine_get_param(this->stream, 0x01000000);
+            xine_set_param(this->stream, 0x01000000, return_value_xine_get_param_2 != 0 ? 0 : 1);
           }
 
           else
           {
-            return_value_strncasecmp$8=strncasecmp(data, "DEINTERLACE ", (unsigned long int)12);
-            if(return_value_strncasecmp$8 == 0)
+            return_value_strncasecmp_8=strncasecmp(data, "DEINTERLACE ", (unsigned long int)12);
+            if(return_value_strncasecmp_8 == 0)
             {
-              signed int return_value_atoi$3;
-              return_value_atoi$3=atoi(data + (signed long int)12);
-              xine_set_param(this->stream, 0x01000000, return_value_atoi$3 != 0 ? 1 : 0);
+              signed int return_value_atoi_3;
+              return_value_atoi_3=atoi(data + (signed long int)12);
+              xine_set_param(this->stream, 0x01000000, return_value_atoi_3 != 0 ? 1 : 0);
             }
 
             else
             {
-              unsigned long int fe_send_event$$1$$9$$__s1_len;
+              unsigned long int fe_send_event__1__9____s1_len;
               unsigned long int __s2_len;
-              signed int return_value___builtin_strcmp$7;
-              return_value___builtin_strcmp$7=__builtin_strcmp(data, "POWER_OFF");
-              tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-              if(tmp_statement_expression$6 == 0)
+              signed int return_value___builtin_strcmp_7;
+              return_value___builtin_strcmp_7=__builtin_strcmp(data, "POWER_OFF");
+              tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+              if(tmp_statement_expression_6 == 0)
                 shutdown_system(this->shutdown_cmd, 1);
 
               else
@@ -11602,16 +11602,16 @@ static signed int fe_send_event(struct frontend_s *this_gen, const char *data)
                   return 1;
                 }
 
-                signed int return_value_find_input_plugin$5;
-                return_value_find_input_plugin$5=find_input_plugin(this);
-                if(!(return_value_find_input_plugin$5 == 0))
+                signed int return_value_find_input_plugin_5;
+                return_value_find_input_plugin_5=find_input_plugin(this);
+                if(!(return_value_find_input_plugin_5 == 0))
                 {
                   if(!(this->input_plugin->f.post_vdr_event == ((signed int (*)(struct vdr_input_plugin_if_s *, const char *))NULL)))
                   {
                     char *msg = (char *)(void *)0;
-                    signed int return_value_asprintf$4;
-                    return_value_asprintf$4=asprintf$link1(&msg, "%s\r\n", data);
-                    if(!(return_value_asprintf$4 >= 1))
+                    signed int return_value_asprintf_4;
+                    return_value_asprintf_4=asprintf_link1(&msg, "%s\r\n", data);
+                    if(!(return_value_asprintf_4 >= 1))
                       msg = (char *)(void *)0;
 
                     if(!(msg == ((char *)NULL)))
@@ -11647,11 +11647,11 @@ static signed int fe_send_input_event(struct frontend_s *this_gen, const char *m
       x_syslog(7, "[vdr-fe]    ", "Keypress: %s %s %s %s", map, key, repeat != 0 ? "Repeat" : "", release != 0 ? "Release" : "");
 
   while((_Bool)0);
-  signed long int return_value_time$1;
+  signed long int return_value_time_1;
   if(this->shutdown_timeout >= 1)
   {
-    return_value_time$1=time((signed long int *)(void *)0);
-    this->shutdown_time = return_value_time$1 + (signed long int)this->shutdown_timeout;
+    return_value_time_1=time((signed long int *)(void *)0);
+    this->shutdown_time = return_value_time_1 + (signed long int)this->shutdown_timeout;
   }
 
   if(!(this->fe.fe_message_cb == ((void (*)(void *, const char *, const char *))NULL)))
@@ -11662,27 +11662,27 @@ static signed int fe_send_input_event(struct frontend_s *this_gen, const char *m
 
   else
   {
-    signed int return_value_find_input_plugin$4;
-    return_value_find_input_plugin$4=find_input_plugin(this);
-    if(!(return_value_find_input_plugin$4 == 0))
+    signed int return_value_find_input_plugin_4;
+    return_value_find_input_plugin_4=find_input_plugin(this);
+    if(!(return_value_find_input_plugin_4 == 0))
     {
       if(!(this->input_plugin->f.post_vdr_event == ((signed int (*)(struct vdr_input_plugin_if_s *, const char *))NULL)))
       {
         char *msg = (char *)(void *)0;
         if(!(map == ((const char *)NULL)))
         {
-          signed int return_value_asprintf$2;
-          return_value_asprintf$2=asprintf$link1(&msg, "KEY %s %s %s %s\r\n", map, key, repeat != 0 ? "Repeat" : "", release != 0 ? "Release" : "");
-          if(!(return_value_asprintf$2 >= 0))
+          signed int return_value_asprintf_2;
+          return_value_asprintf_2=asprintf_link1(&msg, "KEY %s %s %s %s\r\n", map, key, repeat != 0 ? "Repeat" : "", release != 0 ? "Release" : "");
+          if(!(return_value_asprintf_2 >= 0))
             msg = (char *)(void *)0;
 
         }
 
         else
         {
-          signed int return_value_asprintf$3;
-          return_value_asprintf$3=asprintf$link1(&msg, "KEY %s\r\n", key);
-          if(!(return_value_asprintf$3 >= 0))
+          signed int return_value_asprintf_3;
+          return_value_asprintf_3=asprintf_link1(&msg, "KEY %s\r\n", key);
+          if(!(return_value_asprintf_3 >= 0))
             msg = (char *)(void *)0;
 
         }
@@ -11721,29 +11721,29 @@ static void fe_shutdown_init(struct frontend_s *this_gen, const char *cmd, signe
 {
   struct fe_s *this = (struct fe_s *)this_gen;
   free((void *)this->shutdown_cmd);
-  char *tmp_if_expr$2;
-  char *return_value___strdup$1;
+  char *tmp_if_expr_2;
+  char *return_value___strdup_1;
   if(!(cmd == ((const char *)NULL)))
   {
-    return_value___strdup$1=__strdup(cmd);
-    tmp_if_expr$2 = return_value___strdup$1;
+    return_value___strdup_1=__strdup(cmd);
+    tmp_if_expr_2 = return_value___strdup_1;
   }
 
   else
-    tmp_if_expr$2 = (char *)(void *)0;
-  this->shutdown_cmd = tmp_if_expr$2;
+    tmp_if_expr_2 = (char *)(void *)0;
+  this->shutdown_cmd = tmp_if_expr_2;
   this->shutdown_timeout = timeout;
-  signed long int tmp_if_expr$4;
-  signed long int return_value_time$3;
+  signed long int tmp_if_expr_4;
+  signed long int return_value_time_3;
   if(!(timeout >= 1))
-    tmp_if_expr$4 = (signed long int)-1;
+    tmp_if_expr_4 = (signed long int)-1;
 
   else
   {
-    return_value_time$3=time((signed long int *)(void *)0);
-    tmp_if_expr$4 = return_value_time$3 + (signed long int)timeout;
+    return_value_time_3=time((signed long int *)(void *)0);
+    tmp_if_expr_4 = return_value_time_3 + (signed long int)timeout;
   }
-  this->shutdown_time = tmp_if_expr$4;
+  this->shutdown_time = tmp_if_expr_4;
 }
 
 // fe_xine_close
@@ -11787,17 +11787,17 @@ __CPROVER_DUMP_L5:
 static void fe_xine_exit(struct frontend_s *this_gen)
 {
   struct fe_s *this = (struct fe_s *)this_gen;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(this == ((struct fe_s *)NULL)))
   {
     if(!(this->xine == ((struct xine_s *)NULL)))
     {
       if(!(this->input_plugin == ((struct vdr_input_plugin_if_s *)NULL)))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = !(this->playback_finished != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = !(this->playback_finished != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         fe_xine_close(this_gen);
 
       fe_post_unload(this);
@@ -11836,10 +11836,10 @@ static void fe_xine_exit(struct frontend_s *this_gen)
 
       this->audio_port = (struct xine_audio_port_s *)(void *)0;
       init_dummy_ports(this, 0);
-      if(!(this->video_port == ((struct xine_video_port_s$0 *)NULL)))
+      if(!(this->video_port == ((struct xine_video_port_s_0 *)NULL)))
         xine_close_video_driver(this->xine, this->video_port);
 
-      this->video_port = (struct xine_video_port_s$0 *)(void *)0;
+      this->video_port = (struct xine_video_port_s_0 *)(void *)0;
       xine_exit(this->xine);
       this->xine = (struct xine_s *)(void *)0;
     }
@@ -11854,41 +11854,41 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
 {
   struct fe_s *this = (struct fe_s *)this_gen;
   struct post_plugins_s *posts = (struct post_plugins_s *)(void *)0;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  char *return_value___strdup$5;
-  const char *return_value_xine_get_homedir$6;
-  signed int return_value_asprintf$7;
-  signed int tmp_statement_expression$8;
-  _Bool tmp_if_expr$18;
-  signed int tmp_statement_expression$16;
-  _Bool tmp_if_expr$15;
-  signed int tmp_statement_expression$13;
-  _Bool tmp_if_expr$12;
-  signed int tmp_statement_expression$10;
-  _Bool tmp_if_expr$22;
-  signed int tmp_statement_expression$20;
-  signed int tmp_statement_expression$23;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  char *return_value___strdup_5;
+  const char *return_value_xine_get_homedir_6;
+  signed int return_value_asprintf_7;
+  signed int tmp_statement_expression_8;
+  _Bool tmp_if_expr_18;
+  signed int tmp_statement_expression_16;
+  _Bool tmp_if_expr_15;
+  signed int tmp_statement_expression_13;
+  _Bool tmp_if_expr_12;
+  signed int tmp_statement_expression_10;
+  _Bool tmp_if_expr_22;
+  signed int tmp_statement_expression_20;
+  signed int tmp_statement_expression_23;
   if(this == ((struct fe_s *)NULL))
     return 0;
 
   else
   {
-    signed int return_value_xine_check_version$4;
-    return_value_xine_check_version$4=xine_check_version(1, 1, 0);
-    if(return_value_xine_check_version$4 == 0)
+    signed int return_value_xine_check_version_4;
+    return_value_xine_check_version_4=xine_check_version(1, 1, 0);
+    if(return_value_xine_check_version_4 == 0)
     {
       do
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[vdr-fe]    ", "xine-lib is too old, require at least xine library version 1.1.0\n");
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          if(!(*return_value___errno_location$3 == 0))
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          if(!(*return_value___errno_location_3 == 0))
           {
-            return_value___errno_location$1=__errno_location();
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend.c", 596, return_value_strerror$2);
+            return_value___errno_location_1=__errno_location();
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend.c", 596, return_value_strerror_2);
           }
 
         }
@@ -11903,7 +11903,7 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
         this->fe.xine_exit(this_gen);
 
       this->stream = (struct xine_stream_s *)(void *)0;
-      this->video_port = (struct xine_video_port_s$0 *)(void *)0;
+      this->video_port = (struct xine_video_port_s_0 *)(void *)0;
       this->audio_port = (struct xine_audio_port_s *)(void *)0;
       this->input_plugin = (struct vdr_input_plugin_if_s *)(void *)0;
       this->xine=xine_new();
@@ -11917,15 +11917,15 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
         this->configfile = (char *)(void *)0;
         if(!(config_file == ((const char *)NULL)))
         {
-          return_value___strdup$5=__strdup(config_file);
-          this->configfile = return_value___strdup$5;
+          return_value___strdup_5=__strdup(config_file);
+          this->configfile = return_value___strdup_5;
         }
 
         else
         {
-          return_value_xine_get_homedir$6=xine_get_homedir();
-          return_value_asprintf$7=asprintf$link1(&this->configfile, "%s%s", return_value_xine_get_homedir$6, (const void *)"/.xine/config_xineliboutput");
-          if(!(return_value_asprintf$7 >= 0))
+          return_value_xine_get_homedir_6=xine_get_homedir();
+          return_value_asprintf_7=asprintf_link1(&this->configfile, "%s%s", return_value_xine_get_homedir_6, (const void *)"/.xine/config_xineliboutput");
+          if(!(return_value_asprintf_7 >= 0))
             return 0;
 
         }
@@ -11945,12 +11945,12 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
         {
           if(!(video_driver == ((const char *)NULL)))
           {
-            unsigned long int fe_xine_init$$1$$4$$1$$__s1_len;
+            unsigned long int fe_xine_init__1__4__1____s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$9;
-            return_value___builtin_strcmp$9=__builtin_strcmp(video_driver, "fb");
-            tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-            if(tmp_statement_expression$8 == 0)
+            signed int return_value___builtin_strcmp_9;
+            return_value___builtin_strcmp_9=__builtin_strcmp(video_driver, "fb");
+            tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+            if(tmp_statement_expression_8 == 0)
               this->xine->config->update_string(this->xine->config, "video.device.fb_device", this->video_port_name);
 
           }
@@ -11960,17 +11960,17 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
         this->playback_finished = (unsigned char)0;
         if(!(video_driver == ((const char *)NULL)))
         {
-          unsigned long int fe_xine_init$$1$$5$$__s1_len;
-          unsigned long int fe_xine_init$$1$$5$$__s2_len;
-          signed int return_value___builtin_strcmp$17;
-          return_value___builtin_strcmp$17=__builtin_strcmp(video_driver, "none");
-          tmp_statement_expression$16 = return_value___builtin_strcmp$17;
-          tmp_if_expr$18 = !(tmp_statement_expression$16 != 0) ? (_Bool)1 : (_Bool)0;
+          unsigned long int fe_xine_init__1__5____s1_len;
+          unsigned long int fe_xine_init__1__5____s2_len;
+          signed int return_value___builtin_strcmp_17;
+          return_value___builtin_strcmp_17=__builtin_strcmp(video_driver, "none");
+          tmp_statement_expression_16 = return_value___builtin_strcmp_17;
+          tmp_if_expr_18 = !(tmp_statement_expression_16 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        if(tmp_if_expr$18)
+          tmp_if_expr_18 = (_Bool)0;
+        if(tmp_if_expr_18)
           this->video_port=xine_open_video_driver(this->xine, video_driver, 0, (void *)0);
 
         else
@@ -11978,40 +11978,40 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
           if(!(video_driver == ((const char *)NULL)))
           {
             unsigned long int __s1_len;
-            unsigned long int fe_xine_init$$1$$6$$__s2_len;
-            signed int return_value___builtin_strcmp$14;
-            return_value___builtin_strcmp$14=__builtin_strcmp(video_driver, "dxr3");
-            tmp_statement_expression$13 = return_value___builtin_strcmp$14;
-            tmp_if_expr$15 = !(tmp_statement_expression$13 != 0) ? (_Bool)1 : (_Bool)0;
+            unsigned long int fe_xine_init__1__6____s2_len;
+            signed int return_value___builtin_strcmp_14;
+            return_value___builtin_strcmp_14=__builtin_strcmp(video_driver, "dxr3");
+            tmp_statement_expression_13 = return_value___builtin_strcmp_14;
+            tmp_if_expr_15 = !(tmp_statement_expression_13 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$15 = (_Bool)0;
-          if(tmp_if_expr$15)
+            tmp_if_expr_15 = (_Bool)0;
+          if(tmp_if_expr_15)
             this->video_port=xine_open_video_driver(this->xine, video_driver, 1, (void *)0);
 
           else
           {
             if(!(video_driver == ((const char *)NULL)))
             {
-              unsigned long int fe_xine_init$$1$$7$$__s1_len;
-              unsigned long int fe_xine_init$$1$$7$$__s2_len;
-              signed int return_value___builtin_strcmp$11;
-              return_value___builtin_strcmp$11=__builtin_strcmp(video_driver, "aadxr3");
-              tmp_statement_expression$10 = return_value___builtin_strcmp$11;
-              tmp_if_expr$12 = !(tmp_statement_expression$10 != 0) ? (_Bool)1 : (_Bool)0;
+              unsigned long int fe_xine_init__1__7____s1_len;
+              unsigned long int fe_xine_init__1__7____s2_len;
+              signed int return_value___builtin_strcmp_11;
+              return_value___builtin_strcmp_11=__builtin_strcmp(video_driver, "aadxr3");
+              tmp_statement_expression_10 = return_value___builtin_strcmp_11;
+              tmp_if_expr_12 = !(tmp_statement_expression_10 != 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$12 = (_Bool)0;
-            if(tmp_if_expr$12)
+              tmp_if_expr_12 = (_Bool)0;
+            if(tmp_if_expr_12)
               this->video_port=xine_open_video_driver(this->xine, video_driver, 2, (void *)0);
 
             else
-              this->video_port=xine_open_video_driver(this->xine, video_driver, this->xine_visual_type, (void *)&this->$anon0.vis);
+              this->video_port=xine_open_video_driver(this->xine, video_driver, this->xine_visual_type, (void *)&this->_anon0.vis);
           }
         }
-        if(this->video_port == ((struct xine_video_port_s$0 *)NULL))
+        if(this->video_port == ((struct xine_video_port_s_0 *)NULL))
         {
           if(SysLogLevel >= 2)
             x_syslog(6, "[vdr-fe]    ", "fe_xine_init: xine_open_video_driver(\"%s\") failed", video_driver != ((const char *)NULL) ? video_driver : "(NULL)");
@@ -12023,13 +12023,13 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
         else
         {
           intercept_video_driver(this->video_port);
-          if(!(this->frame_draw_cb == ((void (*)(void *, struct vo_frame_s$0 *))NULL)))
+          if(!(this->frame_draw_cb == ((void (*)(void *, struct vo_frame_s_0 *))NULL)))
           {
-            struct vo_driver_s$0 *frameoutput;
+            struct vo_driver_s_0 *frameoutput;
             frameoutput=vo_frameoutput_init((void *)this, this->frame_draw_cb);
-            signed int return_value_wire_video_driver$19;
-            return_value_wire_video_driver$19=wire_video_driver(this->video_port, frameoutput);
-            if(return_value_wire_video_driver$19 == 0)
+            signed int return_value_wire_video_driver_19;
+            return_value_wire_video_driver_19=wire_video_driver(this->video_port, frameoutput);
+            if(return_value_wire_video_driver_19 == 0)
             {
               if(SysLogLevel >= 2)
                 x_syslog(6, "[vdr-fe]    ", "wire_video_driver() for frame output handler failed");
@@ -12039,7 +12039,7 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
 
           }
 
-          this->video_port_none = (struct xine_video_port_s$0 *)(void *)0;
+          this->video_port_none = (struct xine_video_port_s_0 *)(void *)0;
           if(!(this->update_display_size_cb == ((void (*)(struct fe_s *))NULL)))
             this->update_display_size_cb(this);
 
@@ -12048,17 +12048,17 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
 
           if(!(audio_driver == ((const char *)NULL)))
           {
-            unsigned long int fe_xine_init$$1$$10$$__s1_len;
-            unsigned long int fe_xine_init$$1$$10$$__s2_len;
-            signed int return_value___builtin_strcmp$21;
-            return_value___builtin_strcmp$21=__builtin_strcmp(audio_driver, "auto");
-            tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-            tmp_if_expr$22 = !(tmp_statement_expression$20 != 0) ? (_Bool)1 : (_Bool)0;
+            unsigned long int fe_xine_init__1__10____s1_len;
+            unsigned long int fe_xine_init__1__10____s2_len;
+            signed int return_value___builtin_strcmp_21;
+            return_value___builtin_strcmp_21=__builtin_strcmp(audio_driver, "auto");
+            tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+            tmp_if_expr_22 = !(tmp_statement_expression_20 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$22 = (_Bool)0;
-          if(tmp_if_expr$22)
+            tmp_if_expr_22 = (_Bool)0;
+          if(tmp_if_expr_22)
             this->audio_port=xine_open_audio_driver(this->xine, (const char *)(void *)0, (void *)0);
 
           else
@@ -12067,12 +12067,12 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
           {
             if(!(audio_driver == ((const char *)NULL)))
             {
-              unsigned long int fe_xine_init$$1$$13$$__s1_len;
-              unsigned long int fe_xine_init$$1$$13$$__s2_len;
-              signed int return_value___builtin_strcmp$24;
-              return_value___builtin_strcmp$24=__builtin_strcmp(audio_driver, "none");
-              tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-              if(!(tmp_statement_expression$23 == 0))
+              unsigned long int fe_xine_init__1__13____s1_len;
+              unsigned long int fe_xine_init__1__13____s2_len;
+              signed int return_value___builtin_strcmp_24;
+              return_value___builtin_strcmp_24=__builtin_strcmp(audio_driver, "none");
+              tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+              if(!(tmp_statement_expression_23 == 0))
               {
                 if(SysLogLevel >= 2)
                   x_syslog(6, "[vdr-fe]    ", "fe_xine_init: xine_open_audio_driver(\"%s%s%s\") failed", audio_driver != ((const char *)NULL) ? audio_driver : "(NULL)", audio_port != ((const char *)NULL) ? ":" : "", audio_port != ((const char *)NULL) ? audio_port : "");
@@ -12107,22 +12107,22 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
             }
 
             this->pes_buffers = (unsigned short int)pes_buffers;
-            void *return_value_calloc$25;
-            return_value_calloc$25=calloc((unsigned long int)1, sizeof(struct post_plugins_s) /*120ul*/ );
-            this->postplugins = (struct post_plugins_s *)return_value_calloc$25;
+            void *return_value_calloc_25;
+            return_value_calloc_25=calloc((unsigned long int)1, sizeof(struct post_plugins_s) /*120ul*/ );
+            this->postplugins = (struct post_plugins_s *)return_value_calloc_25;
             posts = this->postplugins;
             posts->xine = this->xine;
             posts->audio_port = this->audio_port;
             posts->video_port = this->video_port;
             posts->audio_source = this->stream;
             posts->video_source = posts->audio_source;
-            signed int return_value_guess_cpu_count$28;
-            return_value_guess_cpu_count$28=guess_cpu_count();
-            if(return_value_guess_cpu_count$28 >= 2)
+            signed int return_value_guess_cpu_count_28;
+            return_value_guess_cpu_count_28=guess_cpu_count();
+            if(return_value_guess_cpu_count_28 >= 2)
             {
-              signed int return_value_xine_check_version$26;
-              return_value_xine_check_version$26=xine_check_version(1, 1, 9);
-              if(return_value_xine_check_version$26 == 0)
+              signed int return_value_xine_check_version_26;
+              return_value_xine_check_version_26=xine_check_version(1, 1, 9);
+              if(return_value_xine_check_version_26 == 0)
               {
                 if(SysLogLevel >= 2)
                   x_syslog(6, "[vdr-fe]    ", "FFmpeg multithreaded video decoding is not supported in xine-lib < 1.1.9");
@@ -12133,9 +12133,9 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
                 if(SysLogLevel >= 2)
                   x_syslog(6, "[vdr-fe]    ", "Enabling FFmpeg multithreaded video decoding");
 
-              signed int return_value_guess_cpu_count$27;
-              return_value_guess_cpu_count$27=guess_cpu_count();
-              this->xine->config->update_num(this->xine->config, "video.processing.ffmpeg_thread_count", return_value_guess_cpu_count$27);
+              signed int return_value_guess_cpu_count_27;
+              return_value_guess_cpu_count_27=guess_cpu_count();
+              this->xine->config->update_num(this->xine->config, "video.processing.ffmpeg_thread_count", return_value_guess_cpu_count_27);
             }
 
             if(!(static_post_plugins == ((const char *)NULL)))
@@ -12146,15 +12146,15 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
                 if(SysLogLevel >= 3)
                   x_syslog(7, "[vdr-fe]    ", "static post plugins (from command line): %s", static_post_plugins);
 
-                char *return_value___strdup$29;
-                return_value___strdup$29=__strdup(static_post_plugins);
-                posts->static_post_plugins = return_value___strdup$29;
+                char *return_value___strdup_29;
+                return_value___strdup_29=__strdup(static_post_plugins);
+                posts->static_post_plugins = return_value___strdup_29;
                 vpplugin_parse_and_store_post(posts, posts->static_post_plugins);
                 applugin_parse_and_store_post(posts, posts->static_post_plugins);
                 i = 0;
                 if(!(i >= posts->post_audio_elements_num))
                 {
-                  if(!(posts->post_audio_elements[(signed long int)i] == ((struct anonymous$26 *)NULL)))
+                  if(!(posts->post_audio_elements[(signed long int)i] == ((struct anonymous_26 *)NULL)))
                     posts->post_audio_elements[(signed long int)i]->enable = 2;
 
                   i = i + 1;
@@ -12163,7 +12163,7 @@ static signed int fe_xine_init(struct frontend_s *this_gen, const char *audio_dr
                 i = 0;
                 if(!(i >= posts->post_video_elements_num))
                 {
-                  if(!(posts->post_video_elements[(signed long int)i] == ((struct anonymous$26 *)NULL)))
+                  if(!(posts->post_video_elements[(signed long int)i] == ((struct anonymous_26 *)NULL)))
                     posts->post_video_elements[(signed long int)i]->enable = 2;
 
                   i = i + 1;
@@ -12200,9 +12200,9 @@ static signed int fe_xine_open(struct frontend_s *this_gen, const char *mrl)
     this->input_plugin = (struct vdr_input_plugin_if_s *)(void *)0;
     this->playback_finished = (unsigned char)1;
     this->terminate_key_pressed = (unsigned int)0;
-    signed int return_value_asprintf$1;
-    return_value_asprintf$1=asprintf$link1(&url, "%s#nocache", (_Bool)mrl ? mrl : "xvdr://");
-    if(!(return_value_asprintf$1 >= 0))
+    signed int return_value_asprintf_1;
+    return_value_asprintf_1=asprintf_link1(&url, "%s#nocache", (_Bool)mrl ? mrl : "xvdr://");
+    if(!(return_value_asprintf_1 >= 0))
       return 0;
 
     else
@@ -12241,12 +12241,12 @@ static signed int fe_xine_play(struct frontend_s *this_gen)
   {
     fe_post_rewire(this);
     this->input_plugin = (struct vdr_input_plugin_if_s *)(void *)0;
-    signed int return_value_xine_play$1;
-    return_value_xine_play$1=xine_play(this->stream, 0, 0);
-    this->playback_finished = (unsigned char)(return_value_xine_play$1 != 0 ? 0 : 1);
-    signed int return_value_find_input_plugin$2;
-    return_value_find_input_plugin$2=find_input_plugin(this);
-    if(return_value_find_input_plugin$2 == 0)
+    signed int return_value_xine_play_1;
+    return_value_xine_play_1=xine_play(this->stream, 0, 0);
+    this->playback_finished = (unsigned char)(return_value_xine_play_1 != 0 ? 0 : 1);
+    signed int return_value_find_input_plugin_2;
+    return_value_find_input_plugin_2=find_input_plugin(this);
+    if(return_value_find_input_plugin_2 == 0)
       return -1;
 
     else
@@ -12262,7 +12262,7 @@ static signed int fe_xine_play(struct frontend_s *this_gen)
         while((_Bool)0);
 
       char str[128l];
-      snprintf$link1(str, sizeof(char [128l]) /*128ul*/ , "INFO WINDOW %dx%d", this->width, this->height);
+      snprintf_link1(str, sizeof(char [128l]) /*128ul*/ , "INFO WINDOW %dx%d", this->width, this->height);
       this->fe.send_event(&this->fe, str);
       return (signed int)!(this->playback_finished != 0);
     }
@@ -12297,66 +12297,66 @@ static signed int fe_xine_stop(struct frontend_s *this_gen)
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 253
 static inline char * fgets(char * restrict __s, signed int __n, struct _IO_FILE * restrict __stream)
 {
-  char *return_value___fgets_chk$1;
-  char *return_value___fgets_chk_warn$2;
-  char *return_value___fgets_alias$3;
-  return_value___fgets_alias$3=__fgets_alias(__s, __n, __stream);
-  return return_value___fgets_alias$3;
+  char *return_value___fgets_chk_1;
+  char *return_value___fgets_chk_warn_2;
+  char *return_value___fgets_alias_3;
+  return_value___fgets_alias_3=__fgets_alias(__s, __n, __stream);
+  return return_value___fgets_alias_3;
 }
 
-// fgets$link1
+// fgets_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 253
-static inline char * fgets$link1(char * restrict __s$link1, signed int __n$link1, struct _IO_FILE * restrict __stream$link1)
+static inline char * fgets_link1(char * restrict __s_link1, signed int __n_link1, struct _IO_FILE * restrict __stream_link1)
 {
-  char *return_value___fgets_chk$1$link1;
-  char *return_value___fgets_chk_warn$2$link1;
-  char *return_value___fgets_alias$3$link1;
-  return_value___fgets_alias$3$link1=__fgets_alias(__s$link1, __n$link1, __stream$link1);
-  return return_value___fgets_alias$3$link1;
+  char *return_value___fgets_chk_1_link1;
+  char *return_value___fgets_chk_warn_2_link1;
+  char *return_value___fgets_alias_3_link1;
+  return_value___fgets_alias_3_link1=__fgets_alias(__s_link1, __n_link1, __stream_link1);
+  return return_value___fgets_alias_3_link1;
 }
 
 // find_argb_visual
 // file xine_sxfe_frontend.c line 774
-static struct anonymous$16 * find_argb_visual(struct _XDisplay *dpy, signed int scr)
+static struct anonymous_16 * find_argb_visual(struct _XDisplay *dpy, signed int scr)
 {
-  struct anonymous$17 *xvi;
-  struct anonymous$17 template;
+  struct anonymous_17 *xvi;
+  struct anonymous_17 template;
   signed int nvi;
   signed int i;
-  struct anonymous$21 *format;
-  struct anonymous$16 *visual;
+  struct anonymous_21 *format;
+  struct anonymous_16 *visual;
   template.screen = scr;
   template.depth = 32;
   template.class = 4;
   xvi=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x4 | 0x8), &template, &nvi);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  if(xvi == ((struct anonymous$17 *)NULL))
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  if(xvi == ((struct anonymous_17 *)NULL))
   {
     do
       if(SysLogLevel >= 1)
       {
         x_syslog(3, "[vdr-sxfe]  ", "find_argb_visual: XGetVisualInfo failed (no xvi)");
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(!(*return_value___errno_location$3 == 0))
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(!(*return_value___errno_location_3 == 0))
         {
-          return_value___errno_location$1=__errno_location();
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 788, return_value_strerror$2);
+          return_value___errno_location_1=__errno_location();
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 788, return_value_strerror_2);
         }
 
       }
 
     while((_Bool)0);
-    return ((struct anonymous$16 *)NULL);
+    return ((struct anonymous_16 *)NULL);
   }
 
   else
   {
-    visual = ((struct anonymous$16 *)NULL);
+    visual = ((struct anonymous_16 *)NULL);
     i = 0;
     for( ; !(i >= nvi); i = i + 1)
     {
@@ -12378,18 +12378,18 @@ static struct anonymous$16 * find_argb_visual(struct _XDisplay *dpy, signed int 
 
     }
     XFree((void *)xvi);
-    if(visual == ((struct anonymous$16 *)NULL))
+    if(visual == ((struct anonymous_16 *)NULL))
       do
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[vdr-sxfe]  ", "find_argb_visual: No visual found");
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          if(!(*return_value___errno_location$6 == 0))
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          if(!(*return_value___errno_location_6 == 0))
           {
-            return_value___errno_location$4=__errno_location();
-            return_value_strerror$5=strerror(*return_value___errno_location$4);
-            x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 805, return_value_strerror$5);
+            return_value___errno_location_4=__errno_location();
+            return_value_strerror_5=strerror(*return_value___errno_location_4);
+            x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 805, return_value_strerror_5);
           }
 
         }
@@ -12404,28 +12404,28 @@ static struct anonymous$16 * find_argb_visual(struct _XDisplay *dpy, signed int 
 // file xine_frontend.c line 191
 static signed int find_input_plugin(struct fe_s *this)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  signed int tmp_statement_expression$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  signed int tmp_statement_expression_4;
   if(this->input_plugin == ((struct vdr_input_plugin_if_s *)NULL))
   {
     if(this->stream == ((struct xine_stream_s *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(this->stream->input_plugin != ((struct input_plugin_s *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = !(this->stream->input_plugin != ((struct input_plugin_s *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = !(this->stream->input_plugin->input_class != ((struct input_class_s$0 *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = !(this->stream->input_plugin->input_class != ((struct input_class_s_0 *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = this->playback_finished != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = this->playback_finished != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       do
         if(SysLogLevel >= 2)
@@ -12438,10 +12438,10 @@ static signed int find_input_plugin(struct fe_s *this)
 
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$5;
-    return_value___builtin_strcmp$5=__builtin_strcmp(this->stream->input_plugin->input_class->identifier, "xvdr");
-    tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-    if(!(tmp_statement_expression$4 == 0))
+    signed int return_value___builtin_strcmp_5;
+    return_value___builtin_strcmp_5=__builtin_strcmp(this->stream->input_plugin->input_class->identifier, "xvdr");
+    tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+    if(!(tmp_statement_expression_4 == 0))
     {
       do
         if(SysLogLevel >= 2)
@@ -12461,55 +12461,55 @@ static signed int find_input_plugin(struct fe_s *this)
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
 static inline signed int fprintf(struct _IO_FILE * restrict __stream, const char * restrict __fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  signed int return_value___fprintf_chk$2;
-  return_value___fprintf_chk$2=__fprintf_chk(__stream, 2 - 1, __fmt, return_value___builtin_va_arg_pack$1);
-  return return_value___fprintf_chk$2;
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  signed int return_value___fprintf_chk_2;
+  return_value___fprintf_chk_2=__fprintf_chk(__stream, 2 - 1, __fmt, return_value___builtin_va_arg_pack_1);
+  return return_value___fprintf_chk_2;
 }
 
-// fprintf$link1
+// fprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link1(struct _IO_FILE * restrict __stream$link1, const char * restrict __fmt$link1, ...)
+static inline signed int fprintf_link1(struct _IO_FILE * restrict __stream_link1, const char * restrict __fmt_link1, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link1;
-  return_value___builtin_va_arg_pack$1$link1=__builtin_va_arg_pack();
-  signed int return_value___fprintf_chk$2$link1;
-  return_value___fprintf_chk$2$link1=__fprintf_chk(__stream$link1, 2 - 1, __fmt$link1, return_value___builtin_va_arg_pack$1$link1);
-  return return_value___fprintf_chk$2$link1;
+  void *return_value___builtin_va_arg_pack_1_link1;
+  return_value___builtin_va_arg_pack_1_link1=__builtin_va_arg_pack();
+  signed int return_value___fprintf_chk_2_link1;
+  return_value___fprintf_chk_2_link1=__fprintf_chk(__stream_link1, 2 - 1, __fmt_link1, return_value___builtin_va_arg_pack_1_link1);
+  return return_value___fprintf_chk_2_link1;
 }
 
-// fprintf$link2
+// fprintf_link2
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link2(struct _IO_FILE * restrict __stream$link2, const char * restrict __fmt$link2, ...)
+static inline signed int fprintf_link2(struct _IO_FILE * restrict __stream_link2, const char * restrict __fmt_link2, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link2;
-  return_value___builtin_va_arg_pack$1$link2=__builtin_va_arg_pack();
-  signed int return_value___fprintf_chk$2$link2;
-  return_value___fprintf_chk$2$link2=__fprintf_chk(__stream$link2, 2 - 1, __fmt$link2, return_value___builtin_va_arg_pack$1$link2);
-  return return_value___fprintf_chk$2$link2;
+  void *return_value___builtin_va_arg_pack_1_link2;
+  return_value___builtin_va_arg_pack_1_link2=__builtin_va_arg_pack();
+  signed int return_value___fprintf_chk_2_link2;
+  return_value___fprintf_chk_2_link2=__fprintf_chk(__stream_link2, 2 - 1, __fmt_link2, return_value___builtin_va_arg_pack_1_link2);
+  return return_value___fprintf_chk_2_link2;
 }
 
-// fprintf$link3
+// fprintf_link3
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link3(struct _IO_FILE * restrict __stream$link3, const char * restrict __fmt$link3, ...)
+static inline signed int fprintf_link3(struct _IO_FILE * restrict __stream_link3, const char * restrict __fmt_link3, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link3;
-  return_value___builtin_va_arg_pack$1$link3=__builtin_va_arg_pack();
-  signed int return_value___fprintf_chk$2$link3;
-  return_value___fprintf_chk$2$link3=__fprintf_chk(__stream$link3, 2 - 1, __fmt$link3, return_value___builtin_va_arg_pack$1$link3);
-  return return_value___fprintf_chk$2$link3;
+  void *return_value___builtin_va_arg_pack_1_link3;
+  return_value___builtin_va_arg_pack_1_link3=__builtin_va_arg_pack();
+  signed int return_value___fprintf_chk_2_link3;
+  return_value___fprintf_chk_2_link3=__fprintf_chk(__stream_link3, 2 - 1, __fmt_link3, return_value___builtin_va_arg_pack_1_link3);
+  return return_value___fprintf_chk_2_link3;
 }
 
-// fprintf$link4
+// fprintf_link4
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 95
-static inline signed int fprintf$link4(struct _IO_FILE * restrict __stream$link4, const char * restrict __fmt$link4, ...)
+static inline signed int fprintf_link4(struct _IO_FILE * restrict __stream_link4, const char * restrict __fmt_link4, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link4;
-  return_value___builtin_va_arg_pack$1$link4=__builtin_va_arg_pack();
-  signed int return_value___fprintf_chk$2$link4;
-  return_value___fprintf_chk$2$link4=__fprintf_chk(__stream$link4, 2 - 1, __fmt$link4, return_value___builtin_va_arg_pack$1$link4);
-  return return_value___fprintf_chk$2$link4;
+  void *return_value___builtin_va_arg_pack_1_link4;
+  return_value___builtin_va_arg_pack_1_link4=__builtin_va_arg_pack();
+  signed int return_value___fprintf_chk_2_link4;
+  return_value___fprintf_chk_2_link4=__fprintf_chk(__stream_link4, 2 - 1, __fmt_link4, return_value___builtin_va_arg_pack_1_link4);
+  return return_value___fprintf_chk_2_link4;
 }
 
 // get_opt_val
@@ -12519,13 +12519,13 @@ static signed int get_opt_val(const char *s, const char *opt)
   signed int val = -1;
   const char *pt;
   pt=strstr(s, opt);
-  unsigned long int return_value_strlen$1;
-  signed int return_value_sscanf$2;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_sscanf_2;
   if(!(pt == ((const char *)NULL)))
   {
-    return_value_strlen$1=strlen(opt);
-    return_value_sscanf$2=sscanf(pt + (signed long int)return_value_strlen$1 + (signed long int)1, "%d", &val);
-    if(!(return_value_sscanf$2 == 1))
+    return_value_strlen_1=strlen(opt);
+    return_value_sscanf_2=sscanf(pt + (signed long int)return_value_strlen_1 + (signed long int)1, "%d", &val);
+    if(!(return_value_sscanf_2 == 1))
       goto __CPROVER_DUMP_L1;
 
     return val;
@@ -12549,23 +12549,23 @@ extern void gnome_screensaver_control(signed int enable)
   struct _DBusGProxy *proxy;
   signed int ret;
   error = (struct _GError *)(void *)0;
-  connection=dbus_g_bus_get((enum anonymous$6)DBUS_BUS_SESSION, &error);
-  char *tmp_if_expr$1;
-  unsigned int return_value_dbus_g_error_quark$3;
-  unsigned int return_value_dbus_g_error_quark$4;
-  _Bool tmp_if_expr$7;
-  const char *return_value_dbus_g_error_get_name$5;
+  connection=dbus_g_bus_get((enum anonymous_6)DBUS_BUS_SESSION, &error);
+  char *tmp_if_expr_1;
+  unsigned int return_value_dbus_g_error_quark_3;
+  unsigned int return_value_dbus_g_error_quark_4;
+  _Bool tmp_if_expr_7;
+  const char *return_value_dbus_g_error_get_name_5;
   if(connection == ((struct _DBusGConnection *)NULL))
   {
     do
       if(SysLogLevel >= 2)
       {
         if(!(error == ((struct _GError *)NULL)))
-          tmp_if_expr$1 = error->message;
+          tmp_if_expr_1 = error->message;
 
         else
-          tmp_if_expr$1 = "<null>";
-        x_syslog(6, "[scrnsaver] ", "Failed to open connection to bus: %s", tmp_if_expr$1);
+          tmp_if_expr_1 = "<null>";
+        x_syslog(6, "[scrnsaver] ", "Failed to open connection to bus: %s", tmp_if_expr_1);
       }
 
     while((_Bool)0);
@@ -12574,9 +12574,9 @@ extern void gnome_screensaver_control(signed int enable)
 
   else
   {
-    signed int return_value_gnome_sessionmanager_control$2;
-    return_value_gnome_sessionmanager_control$2=gnome_sessionmanager_control(connection, enable);
-    if(return_value_gnome_sessionmanager_control$2 == 0)
+    signed int return_value_gnome_sessionmanager_control_2;
+    return_value_gnome_sessionmanager_control_2=gnome_sessionmanager_control(connection, enable);
+    if(return_value_gnome_sessionmanager_control_2 == 0)
     {
       proxy=dbus_g_proxy_new_for_name(connection, "org.gnome.ScreenSaver", "/org/gnome/ScreenSaver", "org.gnome.ScreenSaver");
       if(proxy == ((struct _DBusGProxy *)NULL))
@@ -12594,8 +12594,8 @@ extern void gnome_screensaver_control(signed int enable)
           ret=dbus_g_proxy_call(proxy, "UnInhibit", &error, (unsigned long int)(7 << 2), cookie, (unsigned long int)(0 << 2), (unsigned long int)(0 << 2));
           if(ret == 0)
           {
-            return_value_dbus_g_error_quark$3=dbus_g_error_quark();
-            if(error->domain == return_value_dbus_g_error_quark$3)
+            return_value_dbus_g_error_quark_3=dbus_g_error_quark();
+            if(error->domain == return_value_dbus_g_error_quark_3)
             {
               if(error->code == 19)
               {
@@ -12620,8 +12620,8 @@ extern void gnome_screensaver_control(signed int enable)
           ret=dbus_g_proxy_call(proxy, "Inhibit", &error, (unsigned long int)(16 << 2), (const void *)"vdr-sxfe", (unsigned long int)(16 << 2), (const void *)"Watching TV", (unsigned long int)(0 << 2), (unsigned long int)(7 << 2), &cookie, (unsigned long int)(0 << 2));
           if(ret == 0)
           {
-            return_value_dbus_g_error_quark$4=dbus_g_error_quark();
-            if(error->domain == return_value_dbus_g_error_quark$4)
+            return_value_dbus_g_error_quark_4=dbus_g_error_quark();
+            if(error->domain == return_value_dbus_g_error_quark_4)
             {
               if(error->code == 19)
               {
@@ -12642,19 +12642,19 @@ extern void gnome_screensaver_control(signed int enable)
         }
         if(ret == 0)
         {
-          unsigned int return_value_dbus_g_error_quark$6;
-          return_value_dbus_g_error_quark$6=dbus_g_error_quark();
-          if(error->domain == return_value_dbus_g_error_quark$6)
-            tmp_if_expr$7 = error->code == 32 ? (_Bool)1 : (_Bool)0;
+          unsigned int return_value_dbus_g_error_quark_6;
+          return_value_dbus_g_error_quark_6=dbus_g_error_quark();
+          if(error->domain == return_value_dbus_g_error_quark_6)
+            tmp_if_expr_7 = error->code == 32 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
             do
               if(SysLogLevel >= 2)
               {
-                return_value_dbus_g_error_get_name$5=dbus_g_error_get_name(error);
-                x_syslog(6, "[scrnsaver] ", "Caught remote method exception %s: %s", return_value_dbus_g_error_get_name$5, error->message);
+                return_value_dbus_g_error_get_name_5=dbus_g_error_get_name(error);
+                x_syslog(6, "[scrnsaver] ", "Caught remote method exception %s: %s", return_value_dbus_g_error_get_name_5, error->message);
               }
 
             while((_Bool)0);
@@ -12689,8 +12689,8 @@ static signed int gnome_sessionmanager_control(struct _DBusGConnection *connecti
   struct _DBusGProxy *proxy;
   signed int ret;
   proxy=dbus_g_proxy_new_for_name(connection, "org.gnome.SessionManager", "/org/gnome/SessionManager", "org.gnome.SessionManager");
-  _Bool tmp_if_expr$3;
-  const char *return_value_dbus_g_error_get_name$1;
+  _Bool tmp_if_expr_3;
+  const char *return_value_dbus_g_error_get_name_1;
   if(proxy == ((struct _DBusGProxy *)NULL))
   {
     do
@@ -12712,19 +12712,19 @@ static signed int gnome_sessionmanager_control(struct _DBusGConnection *connecti
     g_object_unref((void *)proxy);
     if(ret == 0)
     {
-      unsigned int return_value_dbus_g_error_quark$2;
-      return_value_dbus_g_error_quark$2=dbus_g_error_quark();
-      if(error->domain == return_value_dbus_g_error_quark$2)
-        tmp_if_expr$3 = error->code == 32 ? (_Bool)1 : (_Bool)0;
+      unsigned int return_value_dbus_g_error_quark_2;
+      return_value_dbus_g_error_quark_2=dbus_g_error_quark();
+      if(error->domain == return_value_dbus_g_error_quark_2)
+        tmp_if_expr_3 = error->code == 32 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
         do
           if(SysLogLevel >= 2)
           {
-            return_value_dbus_g_error_get_name$1=dbus_g_error_get_name(error);
-            x_syslog(6, "[scrnsaver] ", "Caught remote method exception %s: %s", return_value_dbus_g_error_get_name$1, error->message);
+            return_value_dbus_g_error_get_name_1=dbus_g_error_get_name(error);
+            x_syslog(6, "[scrnsaver] ", "Caught remote method exception %s: %s", return_value_dbus_g_error_get_name_1, error->message);
           }
 
         while((_Bool)0);
@@ -12753,7 +12753,7 @@ static signed int gnome_sessionmanager_control(struct _DBusGConnection *connecti
 static signed int guess_cpu_count(void)
 {
   struct _IO_FILE *f;
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   static signed int cores = -1;
   if(cores >= 0)
     return cores;
@@ -12767,8 +12767,8 @@ static signed int guess_cpu_count(void)
       char buf[256l];
       do
       {
-        return_value_fgets$1=fgets(buf, 255, f);
-        if(return_value_fgets$1 == ((char *)NULL))
+        return_value_fgets_1=fgets(buf, 255, f);
+        if(return_value_fgets_1 == ((char *)NULL))
           break;
 
         sscanf(buf, "processor : %d", &cores);
@@ -12799,7 +12799,7 @@ static signed int guess_cpu_count(void)
 // file xine_sxfe_frontend.c line 810
 static void hud_fill_argb(unsigned int *dst, signed int dst_pitch, struct osd_command_s *cmd)
 {
-  unsigned int *data = (unsigned int *)cmd->$anon0.raw_data;
+  unsigned int *data = (unsigned int *)cmd->_anon0.raw_data;
   unsigned int y;
   dst = dst + (signed long int)((signed int)cmd->y * dst_pitch + (signed int)cmd->x);
   y = (unsigned int)cmd->h;
@@ -12824,7 +12824,7 @@ static void hud_fill_img_memory(unsigned int *dst, signed int dst_pitch, unsigne
 
     else
       if((signed int)cmd->cmd == 2)
-        rle_uncompress_argb(dst + (signed long int)((signed int)cmd->y * dst_pitch) + (signed long int)cmd->x, (unsigned int)cmd->w, (unsigned int)cmd->h, (unsigned int)dst_pitch, cmd->$anon0.data, cmd->num_rle, cmd->$anon1.palette, cmd->colors);
+        rle_uncompress_argb(dst + (signed long int)((signed int)cmd->y * dst_pitch) + (signed long int)cmd->x, (unsigned int)cmd->w, (unsigned int)cmd->h, (unsigned int)dst_pitch, cmd->_anon0.data, cmd->num_rle, cmd->_anon1.palette, cmd->colors);
 
       else
       {
@@ -12848,7 +12848,7 @@ __CPROVER_DUMP_L6:
 static void hud_frame_output_cb(void *data, signed int video_width, signed int video_height, double video_pixel_aspect, signed int *dest_x, signed int *dest_y, signed int *dest_width, signed int *dest_height, double *dest_pixel_aspect, signed int *win_x, signed int *win_y)
 {
   struct sxfe_s *this = (struct sxfe_s *)data;
-  this->$anon0.x.frame_output_handler(data, video_width, video_height, video_pixel_aspect, dest_x, dest_y, dest_width, dest_height, dest_pixel_aspect, win_x, win_y);
+  this->_anon0.x.frame_output_handler(data, video_width, video_height, video_pixel_aspect, dest_x, dest_y, dest_width, dest_height, dest_pixel_aspect, win_x, win_y);
   if(!(this->video_win_active == 0))
   {
     pthread_mutex_lock(&this->video_win_mutex);
@@ -12856,9 +12856,9 @@ static void hud_frame_output_cb(void *data, signed int video_width, signed int v
     {
       unsigned long int win = this->window[(signed long int)!(!(this->fullscreen != 0))];
       struct _XGC *gc;
-      gc=XCreateGC(this->display, win, (unsigned long int)0, (struct anonymous$77 *)(void *)0);
+      gc=XCreateGC(this->display, win, (unsigned long int)0, (struct anonymous_77 *)(void *)0);
       XSetForeground(this->display, gc, (unsigned long int)0x00000000);
-      XFillRectangle(this->display, win, gc, 0, 0, (unsigned int)((signed int)this->$anon0.x.width - 1), (unsigned int)((signed int)this->$anon0.x.height - 1));
+      XFillRectangle(this->display, win, gc, 0, 0, (unsigned int)((signed int)this->_anon0.x.width - 1), (unsigned int)((signed int)this->_anon0.x.height - 1));
       XFreeGC(this->display, gc);
     }
 
@@ -13024,25 +13024,25 @@ static void hud_osd_draw(struct sxfe_s *this, struct osd_command_s *cmd)
   signed int y = (signed int)cmd->y + (signed int)cmd->dirty_area.y1;
   signed int w = ((signed int)cmd->dirty_area.x2 - (signed int)cmd->dirty_area.x1) + 1;
   signed int h = ((signed int)cmd->dirty_area.y2 - (signed int)cmd->dirty_area.y1) + 1;
-  double scale_x = (double)this->$anon0.x.width / (double)this->osd_width;
-  double scale_y = (double)this->$anon0.x.height / (double)this->osd_height;
+  double scale_x = (double)this->_anon0.x.width / (double)this->osd_width;
+  double scale_y = (double)this->_anon0.x.height / (double)this->osd_height;
   signed int mask_changed;
   struct _xrender_surf *dst_surf;
-  struct _xrender_surf *tmp_if_expr$1;
+  struct _xrender_surf *tmp_if_expr_1;
   if(!(this->surf_back_img == ((struct _xrender_surf *)NULL)))
-    tmp_if_expr$1 = this->surf_back_img;
+    tmp_if_expr_1 = this->surf_back_img;
 
   else
-    tmp_if_expr$1 = this->surf_win;
-  dst_surf = tmp_if_expr$1;
+    tmp_if_expr_1 = this->surf_win;
+  dst_surf = tmp_if_expr_1;
   unsigned long int dst_win;
-  unsigned long int tmp_if_expr$2;
+  unsigned long int tmp_if_expr_2;
   if(!(this->surf_back_img == ((struct _xrender_surf *)NULL)))
-    tmp_if_expr$2 = this->surf_back_img->draw;
+    tmp_if_expr_2 = this->surf_back_img->draw;
 
   else
-    tmp_if_expr$2 = this->hud_window;
-  dst_win = tmp_if_expr$2;
+    tmp_if_expr_2 = this->hud_window;
+  dst_win = tmp_if_expr_2;
   unsigned int *shape_mask_mem = this->shape_mask_mem;
   if(!(this->xshm_completion_event == -1))
   {
@@ -13092,19 +13092,19 @@ static void hud_osd_draw(struct sxfe_s *this, struct osd_command_s *cmd)
 
 // hud_osd_focus
 // file xine_sxfe_frontend.c line 1280
-static void hud_osd_focus(struct sxfe_s *this, struct anonymous$40 *fev)
+static void hud_osd_focus(struct sxfe_s *this, struct anonymous_40 *fev)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(this == ((struct sxfe_s *)NULL)))
   {
     if(!(this->hud == 0))
     {
       if(fev->window == this->window[0l])
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = fev->window == this->window[(signed long int)1] ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = fev->window == this->window[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         XLockDisplay(this->display);
         if(fev->type == 9)
@@ -13135,13 +13135,13 @@ static void hud_osd_hide(struct sxfe_s *this)
     {
       XUnmapWindow(this->display, this->hud_window);
       XSetForeground(this->display, this->shape_mask_gc, (unsigned long int)0);
-      XFillRectangle(this->display, this->shape_mask_pixmap, this->shape_mask_gc, 0, 0, (unsigned int)this->$anon0.x.width, (unsigned int)this->$anon0.x.height);
+      XFillRectangle(this->display, this->shape_mask_pixmap, this->shape_mask_gc, 0, 0, (unsigned int)this->_anon0.x.width, (unsigned int)this->_anon0.x.height);
       memset((void *)this->shape_mask_mem, 0, sizeof(unsigned int) /*4ul*/  * (unsigned long int)1920 * (unsigned long int)1200);
       XShapeCombineMask(this->display, this->hud_window, 0, 0, 0, this->shape_mask_pixmap, 0);
     }
 
     XSetForeground(this->display, this->gc, (unsigned long int)0x00000000);
-    XFillRectangle(this->display, this->hud_window, this->gc, 0, 0, (unsigned int)this->$anon0.x.width, (unsigned int)this->$anon0.x.height);
+    XFillRectangle(this->display, this->hud_window, this->gc, 0, 0, (unsigned int)this->_anon0.x.width, (unsigned int)this->_anon0.x.height);
     XFillRectangle(this->display, this->surf_img->draw, this->gc, 0, 0, (unsigned int)((signed int)this->osd_width + 2), (unsigned int)((signed int)this->osd_height + 2));
     XFlush(this->display);
   }
@@ -13163,9 +13163,9 @@ static signed int hud_osd_open(struct sxfe_s *this)
           x_syslog(7, "[vdr-sxfe]  ", "opening HUD OSD window...");
 
       while((_Bool)0);
-      signed int return_value_XRenderQueryExtension$1;
-      return_value_XRenderQueryExtension$1=XRenderQueryExtension(this->display, &dummy, &dummy);
-      if(return_value_XRenderQueryExtension$1 == 0)
+      signed int return_value_XRenderQueryExtension_1;
+      return_value_XRenderQueryExtension_1=XRenderQueryExtension(this->display, &dummy, &dummy);
+      if(return_value_XRenderQueryExtension_1 == 0)
       {
         do
           if(SysLogLevel >= 2)
@@ -13183,7 +13183,7 @@ static signed int hud_osd_open(struct sxfe_s *this)
       }
 
       this->hud_vis=find_argb_visual(this->display, this->screen);
-      if(this->hud_vis == ((struct anonymous$16 *)NULL))
+      if(this->hud_vis == ((struct anonymous_16 *)NULL))
       {
         do
           if(SysLogLevel >= 2)
@@ -13197,23 +13197,23 @@ static signed int hud_osd_open(struct sxfe_s *this)
 
       unsigned long int hud_colormap;
       hud_colormap=XCreateColormap(this->display, this->root_window, this->hud_vis, 0);
-      struct anonymous$8 attributes;
+      struct anonymous_8 attributes;
       attributes.override_redirect = 1;
       attributes.background_pixel = (unsigned long int)0x00000000;
       attributes.border_pixel = (unsigned long int)0;
       attributes.colormap = hud_colormap;
       attributes.backing_store = 2;
-      this->hud_window=XCreateWindow(this->display, this->root_window, (signed int)this->$anon0.x.xpos, (signed int)this->$anon0.x.ypos, (unsigned int)this->$anon0.x.width, (unsigned int)this->$anon0.x.height, (unsigned int)0, 32, (unsigned int)1, this->hud_vis, (unsigned long int)(1L << 1 | 1L << 3 | 1L << 9 | 1L << 13), &attributes);
+      this->hud_window=XCreateWindow(this->display, this->root_window, (signed int)this->_anon0.x.xpos, (signed int)this->_anon0.x.ypos, (unsigned int)this->_anon0.x.width, (unsigned int)this->_anon0.x.height, (unsigned int)0, 32, (unsigned int)1, this->hud_vis, (unsigned long int)(1L << 1 | 1L << 3 | 1L << 9 | 1L << 13), &attributes);
       XSelectInput(this->display, this->hud_window, 1L << 17 | 1L << 15 | 1L << 0 | 1L << 2 | 1L << 21);
       XStoreName(this->display, this->hud_window, "HUD");
-      this->gc=XCreateGC(this->display, this->hud_window, (unsigned long int)0, (struct anonymous$77 *)(void *)0);
+      this->gc=XCreateGC(this->display, this->hud_window, (unsigned long int)0, (struct anonymous_77 *)(void *)0);
       if(!(this->xshm_completion_event == -1))
       {
         this->hud_img=XShmCreateImage(this->display, this->hud_vis, (unsigned int)32, 2, (char *)(void *)0, &this->hud_shminfo, (unsigned int)1920, (unsigned int)1200);
         this->hud_shminfo.shmid=shmget((signed int)0, (unsigned long int)(this->hud_img->bytes_per_line * this->hud_img->height), 01000 | 0777);
-        void *return_value_shmat$2;
-        return_value_shmat$2=shmat(this->hud_shminfo.shmid, NULL, 0);
-        this->hud_img->data = (char *)return_value_shmat$2;
+        void *return_value_shmat_2;
+        return_value_shmat_2=shmat(this->hud_shminfo.shmid, NULL, 0);
+        this->hud_img->data = (char *)return_value_shmat_2;
         this->hud_shminfo.shmaddr = this->hud_img->data;
         this->hud_shminfo.readOnly = 1;
         XShmAttach(this->display, &this->hud_shminfo);
@@ -13226,27 +13226,27 @@ static signed int hud_osd_open(struct sxfe_s *this)
             x_syslog(6, "[vdr-sxfe]  ", "hud_osd_open: XShm not available, falling back to normal (slow) memory");
 
         while((_Bool)0);
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc((unsigned long int)(4 * 1920 * 1200));
-        this->hud_img_mem = (unsigned int *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc((unsigned long int)(4 * 1920 * 1200));
+        this->hud_img_mem = (unsigned int *)return_value_malloc_3;
         this->hud_img=XCreateImage(this->display, this->hud_vis, (unsigned int)32, 2, 0, (char *)this->hud_img_mem, (unsigned int)1920, (unsigned int)1200, 32, 0);
       }
       if(!(this->xshape_hud == 0))
       {
-        signed int return_value_XShapeQueryExtension$6;
-        return_value_XShapeQueryExtension$6=XShapeQueryExtension(this->display, &dummy, &dummy);
-        if(!(return_value_XShapeQueryExtension$6 == 0))
+        signed int return_value_XShapeQueryExtension_6;
+        return_value_XShapeQueryExtension_6=XShapeQueryExtension(this->display, &dummy, &dummy);
+        if(!(return_value_XShapeQueryExtension_6 == 0))
         {
-          this->shape_mask_pixmap=XCreatePixmap(this->display, this->hud_window, (unsigned int)(&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->width, (unsigned int)(&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->height, (unsigned int)1);
-          void *return_value_calloc$4;
-          return_value_calloc$4=calloc(sizeof(unsigned int) /*4ul*/ , (unsigned long int)(1920 * 1200));
-          this->shape_mask_mem = (unsigned int *)return_value_calloc$4;
-          this->shape_mask_gc=XCreateGC(this->display, this->shape_mask_pixmap, (unsigned long int)0, (struct anonymous$77 *)(void *)0);
+          this->shape_mask_pixmap=XCreatePixmap(this->display, this->hud_window, (unsigned int)(&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->width, (unsigned int)(&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->height, (unsigned int)1);
+          void *return_value_calloc_4;
+          return_value_calloc_4=calloc(sizeof(unsigned int) /*4ul*/ , (unsigned long int)(1920 * 1200));
+          this->shape_mask_mem = (unsigned int *)return_value_calloc_4;
+          this->shape_mask_gc=XCreateGC(this->display, this->shape_mask_pixmap, (unsigned long int)0, (struct anonymous_77 *)(void *)0);
           XSetForeground(this->display, this->shape_mask_gc, (unsigned long int)0);
-          XFillRectangle(this->display, this->shape_mask_pixmap, this->shape_mask_gc, 0, 0, (unsigned int)(&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->width, (unsigned int)(&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->height);
-          struct anonymous$21 *return_value_XRenderFindStandardFormat$5;
-          return_value_XRenderFindStandardFormat$5=XRenderFindStandardFormat(this->display, 4);
-          this->shape_mask_picture=XRenderCreatePicture(this->display, this->shape_mask_pixmap, return_value_XRenderFindStandardFormat$5, (unsigned long int)0, (const struct _XRenderPictureAttributes *)(void *)0);
+          XFillRectangle(this->display, this->shape_mask_pixmap, this->shape_mask_gc, 0, 0, (unsigned int)(&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->width, (unsigned int)(&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->height);
+          struct anonymous_21 *return_value_XRenderFindStandardFormat_5;
+          return_value_XRenderFindStandardFormat_5=XRenderFindStandardFormat(this->display, 4);
+          this->shape_mask_picture=XRenderCreatePicture(this->display, this->shape_mask_pixmap, return_value_XRenderFindStandardFormat_5, (unsigned long int)0, (const struct _XRenderPictureAttributes *)(void *)0);
           XShapeCombineMask(this->display, this->hud_window, 0, 0, 0, this->shape_mask_pixmap, 0);
         }
 
@@ -13265,12 +13265,12 @@ static signed int hud_osd_open(struct sxfe_s *this)
       this->surf_win=xrender_surf_adopt(this->display, this->hud_window, this->hud_vis, 1920, 1200);
       this->surf_img=xrender_surf_new(this->display, this->hud_window, this->hud_vis, 1920, 1200, 1);
       if(!(this->xshape_hud == 0))
-        this->surf_back_img=xrender_surf_new(this->display, this->hud_window, this->hud_vis, (&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->width, (&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->height, 1);
+        this->surf_back_img=xrender_surf_new(this->display, this->hud_window, this->hud_vis, (&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->width, (&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->height, 1);
 
       XUnlockDisplay(this->display);
-      this->$anon0.fe.xine_osd_command = hud_osd_command;
-      if(!(this->$anon0.x.scale_video == 0))
-        this->$anon0.x.$anon0.vis_x11.frame_output_cb = hud_frame_output_cb;
+      this->_anon0.fe.xine_osd_command = hud_osd_command;
+      if(!(this->_anon0.x.scale_video == 0))
+        this->_anon0.x._anon0.vis_x11.frame_output_cb = hud_frame_output_cb;
 
       return 1;
     }
@@ -13324,12 +13324,12 @@ static void hud_osd_show(struct sxfe_s *this)
     XSetForeground(this->display, this->gc, (unsigned long int)0x00000000);
     XFillRectangle(this->display, this->surf_img->draw, this->gc, 0, 0, (unsigned int)((signed int)this->osd_width + 2), (unsigned int)((signed int)this->osd_height + 2));
     if(!(this->surf_back_img == ((struct _xrender_surf *)NULL)))
-      XFillRectangle(this->display, this->surf_back_img->draw, this->gc, 0, 0, (unsigned int)this->$anon0.x.width, (unsigned int)this->$anon0.x.height);
+      XFillRectangle(this->display, this->surf_back_img->draw, this->gc, 0, 0, (unsigned int)this->_anon0.x.width, (unsigned int)this->_anon0.x.height);
 
     if(!(this->xshape_hud == 0))
     {
       XSetForeground(this->display, this->shape_mask_gc, (unsigned long int)0);
-      XFillRectangle(this->display, this->shape_mask_pixmap, this->shape_mask_gc, 0, 0, (unsigned int)this->$anon0.x.width, (unsigned int)this->$anon0.x.height);
+      XFillRectangle(this->display, this->shape_mask_pixmap, this->shape_mask_gc, 0, 0, (unsigned int)this->_anon0.x.width, (unsigned int)this->_anon0.x.height);
       memset((void *)this->shape_mask_mem, 0, sizeof(unsigned int) /*4ul*/  * (unsigned long int)1920 * (unsigned long int)1200);
       XShapeCombineMask(this->display, this->hud_window, 0, 0, 0, this->shape_mask_pixmap, 0);
       XRaiseWindow(this->display, this->hud_window);
@@ -13381,10 +13381,10 @@ static void init_dummy_ports(struct fe_s *this, signed int on)
       xine_close_audio_driver(this->xine, this->audio_port_none);
 
     this->audio_port_none = (struct xine_audio_port_s *)(void *)0;
-    if(!(this->video_port_none == ((struct xine_video_port_s$0 *)NULL)))
+    if(!(this->video_port_none == ((struct xine_video_port_s_0 *)NULL)))
       xine_close_video_driver(this->xine, this->video_port_none);
 
-    this->video_port_none = (struct xine_video_port_s$0 *)(void *)0;
+    this->video_port_none = (struct xine_video_port_s_0 *)(void *)0;
   }
 
   else
@@ -13433,13 +13433,13 @@ static void input_event_cb(struct frontend_s *this_gen, const char *keymap, cons
 
 // intercept_video_driver
 // file xine_frontend.c line 50
-static void intercept_video_driver(struct xine_video_port_s$0 *video_port)
+static void intercept_video_driver(struct xine_video_port_s_0 *video_port)
 {
-  struct vo_driver_s$0 *osdscaler;
+  struct vo_driver_s_0 *osdscaler;
   osdscaler=osdscaler_init();
-  signed int return_value_wire_video_driver$1;
-  return_value_wire_video_driver$1=wire_video_driver(video_port, osdscaler);
-  if(return_value_wire_video_driver$1 == 0)
+  signed int return_value_wire_video_driver_1;
+  return_value_wire_video_driver_1=wire_video_driver(video_port, osdscaler);
+  if(return_value_wire_video_driver_1 == 0)
   {
     do
       if(SysLogLevel >= 2)
@@ -13449,11 +13449,11 @@ static void intercept_video_driver(struct xine_video_port_s$0 *video_port)
     osdscaler->dispose(osdscaler);
   }
 
-  struct vo_driver_s$0 *osdreorder;
+  struct vo_driver_s_0 *osdreorder;
   osdreorder=osd_reorder_init();
-  signed int return_value_wire_video_driver$2;
-  return_value_wire_video_driver$2=wire_video_driver(video_port, osdreorder);
-  if(return_value_wire_video_driver$2 == 0)
+  signed int return_value_wire_video_driver_2;
+  return_value_wire_video_driver_2=wire_video_driver(video_port, osdreorder);
+  if(return_value_wire_video_driver_2 == 0)
   {
     do
       if(SysLogLevel >= 2)
@@ -13463,11 +13463,11 @@ static void intercept_video_driver(struct xine_video_port_s$0 *video_port)
     osdreorder->dispose(osdreorder);
   }
 
-  struct vo_driver_s$0 *lastpts;
+  struct vo_driver_s_0 *lastpts;
   lastpts=vo_lastpts_init();
-  signed int return_value_wire_video_driver$3;
-  return_value_wire_video_driver$3=wire_video_driver(video_port, lastpts);
-  if(return_value_wire_video_driver$3 == 0)
+  signed int return_value_wire_video_driver_3;
+  return_value_wire_video_driver_3=wire_video_driver(video_port, lastpts);
+  if(return_value_wire_video_driver_3 == 0)
   {
     do
       if(SysLogLevel >= 2)
@@ -13486,9 +13486,9 @@ static void * kbd_receiver_thread(void *fe_gen)
   struct frontend_s *fe = (struct frontend_s *)fe_gen;
   unsigned long int code = (unsigned long int)0;
   char str[64l];
-  signed int return_value_isatty$1;
-  return_value_isatty$1=isatty(1);
-  if(!(return_value_isatty$1 == 0))
+  signed int return_value_isatty_1;
+  return_value_isatty_1=isatty(1);
+  if(!(return_value_isatty_1 == 0))
   {
     signed int status;
     status=system("setterm -cursor off");
@@ -13509,14 +13509,14 @@ static void * kbd_receiver_thread(void *fe_gen)
 
   }
 
-  signed int return_value_isatty$3;
-  return_value_isatty$3=isatty(0);
-  if(!(return_value_isatty$3 == 0))
+  signed int return_value_isatty_3;
+  return_value_isatty_3=isatty(0);
+  if(!(return_value_isatty_3 == 0))
   {
     tcgetattr(0, &saved_tm);
-    signed int return_value_tcgetattr$2;
-    return_value_tcgetattr$2=tcgetattr(0, &tm);
-    if(return_value_tcgetattr$2 == 0)
+    signed int return_value_tcgetattr_2;
+    return_value_tcgetattr_2=tcgetattr(0, &tm);
+    if(return_value_tcgetattr_2 == 0)
     {
       tm.c_iflag = (unsigned int)0;
       tm.c_lflag = tm.c_lflag & (unsigned int)~(0000002 | 0000010);
@@ -13529,7 +13529,7 @@ static void * kbd_receiver_thread(void *fe_gen)
 
   do
   {
-    struct anonymous$102 __cancel_buf;
+    struct anonymous_102 __cancel_buf;
     void (*__cancel_routine)(void *) = kbd_receiver_thread_cleanup;
     void *__cancel_arg = (void *)0;
     signed int __not_first_call;
@@ -13544,9 +13544,9 @@ static void * kbd_receiver_thread(void *fe_gen)
     do
     {
       alarm((unsigned int)0);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = 0;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = 0;
       code=read_key_seq();
       alarm((unsigned int)3);
       if(!(code == 0ul))
@@ -13576,7 +13576,7 @@ static void * kbd_receiver_thread(void *fe_gen)
 
         __CPROVER_DUMP_L17:
           ;
-          snprintf$link3(str, sizeof(char [64l]) /*64ul*/ , "%016lX", code);
+          snprintf_link3(str, sizeof(char [64l]) /*64ul*/ , "%016lX", code);
           fe->send_input_event(fe, "KBD", str, 0, 0);
         }
       }
@@ -13609,14 +13609,14 @@ static void * kbd_receiver_thread(void *fe_gen)
 // file xine_frontend_kbd.c line 155
 static void kbd_receiver_thread_cleanup(void *arg)
 {
-  signed int return_value_isatty$1;
-  return_value_isatty$1=isatty(0);
-  if(!(return_value_isatty$1 == 0))
+  signed int return_value_isatty_1;
+  return_value_isatty_1=isatty(0);
+  if(!(return_value_isatty_1 == 0))
     tcsetattr(0, 0, &saved_tm);
 
-  signed int return_value_isatty$2;
-  return_value_isatty$2=isatty(1);
-  if(!(return_value_isatty$2 == 0))
+  signed int return_value_isatty_2;
+  return_value_isatty_2=isatty(1);
+  if(!(return_value_isatty_2 == 0))
   {
     signed int status;
     status=system("setterm -cursor on");
@@ -13644,9 +13644,9 @@ void kbd_start(struct frontend_s *fe, signed int slave_mode)
   err=pthread_create(&kbd_thread, (const union pthread_attr_t *)(void *)0, slave_mode != 0 ? slave_receiver_thread : kbd_receiver_thread, (void *)fe);
   if(!(err == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(err);
-    fprintf$link4(stderr, "Can't create new thread for keyboard (%s)\n", return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(err);
+    fprintf_link4(stderr, "Can't create new thread for keyboard (%s)\n", return_value_strerror_1);
   }
 
 }
@@ -13664,7 +13664,7 @@ void kbd_stop(void)
 // file xine/vo_lastpts.c line 53
 static void lastpts_display_frame(struct vo_driver_s *self, struct vo_frame_s *vo_img)
 {
-  struct anonymous$83 *this = (struct anonymous$83 *)self;
+  struct anonymous_83 *this = (struct anonymous_83 *)self;
   do
     if(self == ((struct vo_driver_s *)NULL))
     {
@@ -13689,19 +13689,19 @@ static void lastpts_display_frame(struct vo_driver_s *self, struct vo_frame_s *v
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$1;
-  if(vo_img->stream == ((struct xine_stream_s$0 *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+  _Bool tmp_if_expr_1;
+  if(vo_img->stream == ((struct xine_stream_s_0 *)NULL))
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = vo_img->stream == (struct xine_stream_s$0 *)-1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = vo_img->stream == (struct xine_stream_s_0 *)-1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = vo_img->pts <= (signed long int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = vo_img->pts <= (signed long int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     this->h.orig_driver->display_frame(this->h.orig_driver, vo_img);
 
   else
@@ -13770,9 +13770,9 @@ static void * lirc_receiver_thread(void *fe_gen)
   signed int timeout = -1;
   signed int repeat = 0;
   unsigned long int FirstTime;
-  FirstTime=time_ms$link1();
+  FirstTime=time_ms_link1();
   unsigned long int LastTime;
-  LastTime=time_ms$link1();
+  LastTime=time_ms_link1();
   char buf[128l];
   char LastKeyName[30l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   do
@@ -13780,16 +13780,16 @@ static void * lirc_receiver_thread(void *fe_gen)
       x_syslog(6, "[lirc]      ", "lirc forwarding started");
 
   while((_Bool)0);
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  signed int return_value_nice$3;
-  return_value_nice$3=nice(priority);
-  signed int *return_value___errno_location$2;
-  if(return_value_nice$3 == -1)
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  signed int return_value_nice_3;
+  return_value_nice_3=nice(priority);
+  signed int *return_value___errno_location_2;
+  if(return_value_nice_3 == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 0))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 0))
       do
         if(SysLogLevel >= 3)
           x_syslog(7, "[lirc]      ", "LIRC: Can't nice to value: %d", priority);
@@ -13799,78 +13799,78 @@ static void * lirc_receiver_thread(void *fe_gen)
   }
 
   lircd_connect();
-  signed long int tmp_statement_expression$4;
-  _Bool tmp_if_expr$9;
-  signed long int tmp_statement_expression$7;
-  _Bool tmp_if_expr$13;
-  signed long int tmp_statement_expression$11;
-  _Bool tmp_if_expr$15;
-  signed int *return_value___errno_location$14;
-  signed int *return_value___errno_location$18;
-  char *return_value_strerror$19;
-  signed int tmp_statement_expression$23;
-  unsigned long int return_value_elapsed$22;
-  signed int tmp_statement_expression$26;
-  unsigned long int return_value_elapsed$25;
-  signed int tmp_statement_expression$30;
-  signed int tmp_statement_expression$32;
-  signed int tmp_statement_expression$34;
-  signed int tmp_statement_expression$36;
+  signed long int tmp_statement_expression_4;
+  _Bool tmp_if_expr_9;
+  signed long int tmp_statement_expression_7;
+  _Bool tmp_if_expr_13;
+  signed long int tmp_statement_expression_11;
+  _Bool tmp_if_expr_15;
+  signed int *return_value___errno_location_14;
+  signed int *return_value___errno_location_18;
+  char *return_value_strerror_19;
+  signed int tmp_statement_expression_23;
+  unsigned long int return_value_elapsed_22;
+  signed int tmp_statement_expression_26;
+  unsigned long int return_value_elapsed_25;
+  signed int tmp_statement_expression_30;
+  signed int tmp_statement_expression_32;
+  signed int tmp_statement_expression_34;
+  signed int tmp_statement_expression_36;
   while(fd_lirc >= 0 && !(lirc_device_name == ((const volatile char *)NULL)))
   {
-    struct anonymous$98 set;
+    struct anonymous_98 set;
     signed int ready;
     signed int ret = -1;
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$98) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_98) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     signed long int __d = (signed long int)fd_lirc;
-    signed long int return_value___fdelt_chk$5;
-    return_value___fdelt_chk$5=__fdelt_chk(__d);
-    tmp_statement_expression$4 = return_value___fdelt_chk$5;
-    (&set)->fds_bits[tmp_statement_expression$4] = (&set)->fds_bits[tmp_statement_expression$4] | (signed long int)(1UL << fd_lirc % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+    signed long int return_value___fdelt_chk_5;
+    return_value___fdelt_chk_5=__fdelt_chk(__d);
+    tmp_statement_expression_4 = return_value___fdelt_chk_5;
+    (&set)->fds_bits[tmp_statement_expression_4] = (&set)->fds_bits[tmp_statement_expression_4] | (signed long int)(1UL << fd_lirc % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
     pthread_testcancel();
     if(timeout >= 0)
     {
       struct timeval tv;
       tv.tv_sec = (signed long int)(timeout / 1000);
       tv.tv_usec = (signed long int)((timeout % 1000) * 1000);
-      signed int return_value_select$6;
-      return_value_select$6=select(1024, &set, (struct anonymous$98 *)(void *)0, (struct anonymous$98 *)(void *)0, &tv);
-      if(return_value_select$6 >= 1)
+      signed int return_value_select_6;
+      return_value_select_6=select(1024, &set, (struct anonymous_98 *)(void *)0, (struct anonymous_98 *)(void *)0, &tv);
+      if(return_value_select_6 >= 1)
       {
-        signed long int lirc_receiver_thread$$1$$3$$3$$1$$__d = (signed long int)fd_lirc;
-        signed long int return_value___fdelt_chk$8;
-        return_value___fdelt_chk$8=__fdelt_chk(lirc_receiver_thread$$1$$3$$3$$1$$__d);
-        tmp_statement_expression$7 = return_value___fdelt_chk$8;
-        tmp_if_expr$9 = ((&set)->fds_bits[tmp_statement_expression$7] & (signed long int)(1UL << fd_lirc % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
+        signed long int lirc_receiver_thread__1__3__3__1____d = (signed long int)fd_lirc;
+        signed long int return_value___fdelt_chk_8;
+        return_value___fdelt_chk_8=__fdelt_chk(lirc_receiver_thread__1__3__3__1____d);
+        tmp_statement_expression_7 = return_value___fdelt_chk_8;
+        tmp_if_expr_9 = ((&set)->fds_bits[tmp_statement_expression_7] & (signed long int)(1UL << fd_lirc % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      ready = (signed int)tmp_if_expr$9;
+        tmp_if_expr_9 = (_Bool)0;
+      ready = (signed int)tmp_if_expr_9;
     }
 
     else
     {
-      signed int return_value_select$10;
-      return_value_select$10=select(1024, &set, (struct anonymous$98 *)(void *)0, (struct anonymous$98 *)(void *)0, (struct timeval *)(void *)0);
-      if(return_value_select$10 >= 1)
+      signed int return_value_select_10;
+      return_value_select_10=select(1024, &set, (struct anonymous_98 *)(void *)0, (struct anonymous_98 *)(void *)0, (struct timeval *)(void *)0);
+      if(return_value_select_10 >= 1)
       {
-        signed long int lirc_receiver_thread$$1$$3$$4$$1$$__d = (signed long int)fd_lirc;
-        signed long int return_value___fdelt_chk$12;
-        return_value___fdelt_chk$12=__fdelt_chk(lirc_receiver_thread$$1$$3$$4$$1$$__d);
-        tmp_statement_expression$11 = return_value___fdelt_chk$12;
-        tmp_if_expr$13 = ((&set)->fds_bits[tmp_statement_expression$11] & (signed long int)(1UL << fd_lirc % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
+        signed long int lirc_receiver_thread__1__3__4__1____d = (signed long int)fd_lirc;
+        signed long int return_value___fdelt_chk_12;
+        return_value___fdelt_chk_12=__fdelt_chk(lirc_receiver_thread__1__3__4__1____d);
+        tmp_statement_expression_11 = return_value___fdelt_chk_12;
+        tmp_if_expr_13 = ((&set)->fds_bits[tmp_statement_expression_11] & (signed long int)(1UL << fd_lirc % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$13 = (_Bool)0;
-      ready = (signed int)tmp_if_expr$13;
+        tmp_if_expr_13 = (_Bool)0;
+      ready = (signed int)tmp_if_expr_13;
     }
     pthread_testcancel();
     if(!(ready >= 0))
@@ -13887,36 +13887,36 @@ static void * lirc_receiver_thread(void *fe_gen)
     {
       do
       {
-        signed int *return_value___errno_location$16;
-        return_value___errno_location$16=__errno_location();
-        *return_value___errno_location$16 = 0;
-        signed long int return_value_read$17;
-        return_value_read$17=read(fd_lirc, (void *)buf, sizeof(char [128l]) /*128ul*/ );
-        ret = (signed int)return_value_read$17;
+        signed int *return_value___errno_location_16;
+        return_value___errno_location_16=__errno_location();
+        *return_value___errno_location_16 = 0;
+        signed long int return_value_read_17;
+        return_value_read_17=read(fd_lirc, (void *)buf, sizeof(char [128l]) /*128ul*/ );
+        ret = (signed int)return_value_read_17;
         pthread_testcancel();
         if(!(ret >= 0))
         {
-          return_value___errno_location$14=__errno_location();
-          tmp_if_expr$15 = *return_value___errno_location$14 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_14=__errno_location();
+          tmp_if_expr_15 = *return_value___errno_location_14 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$15 = (_Bool)0;
+          tmp_if_expr_15 = (_Bool)0;
       }
-      while(tmp_if_expr$15);
+      while(tmp_if_expr_15);
       if(!(ret >= 1))
       {
         do
           if(SysLogLevel >= 1)
           {
             x_syslog(3, "[lirc]      ", "LIRC connection lost");
-            signed int *return_value___errno_location$20;
-            return_value___errno_location$20=__errno_location();
-            if(!(*return_value___errno_location$20 == 0))
+            signed int *return_value___errno_location_20;
+            return_value___errno_location_20=__errno_location();
+            if(!(*return_value___errno_location_20 == 0))
             {
-              return_value___errno_location$18=__errno_location();
-              return_value_strerror$19=strerror(*return_value___errno_location$18);
-              x_syslog(3, "[lirc]      ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_lirc.c", 147, return_value_strerror$19);
+              return_value___errno_location_18=__errno_location();
+              return_value_strerror_19=strerror(*return_value___errno_location_18);
+              x_syslog(3, "[lirc]      ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_lirc.c", 147, return_value_strerror_19);
             }
 
           }
@@ -13948,9 +13948,9 @@ static void * lirc_receiver_thread(void *fe_gen)
             x_syslog(7, "[lirc]      ", "LIRC: %s", (const void *)buf);
 
         while((_Bool)0);
-        signed int return_value_sscanf$21;
-        return_value_sscanf$21=sscanf(buf, "%*x %x %29s", &count, (const void *)KeyName);
-        if(!(return_value_sscanf$21 == 2))
+        signed int return_value_sscanf_21;
+        return_value_sscanf_21=sscanf(buf, "%*x %x %29s", &count, (const void *)KeyName);
+        if(!(return_value_sscanf_21 == 2))
         {
           do
             if(SysLogLevel >= 2)
@@ -13962,15 +13962,15 @@ static void * lirc_receiver_thread(void *fe_gen)
 
         if(!(lirc_repeat_emu == 0))
         {
-          unsigned long int lirc_receiver_thread$$1$$3$$6$$3$$3$$__s1_len;
-          unsigned long int lirc_receiver_thread$$1$$3$$6$$3$$3$$__s2_len;
-          signed int return_value___builtin_strcmp$24;
-          return_value___builtin_strcmp$24=__builtin_strcmp(KeyName, LastKeyName);
-          tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-          if(tmp_statement_expression$23 == 0)
+          unsigned long int lirc_receiver_thread__1__3__6__3__3____s1_len;
+          unsigned long int lirc_receiver_thread__1__3__6__3__3____s2_len;
+          signed int return_value___builtin_strcmp_24;
+          return_value___builtin_strcmp_24=__builtin_strcmp(KeyName, LastKeyName);
+          tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+          if(tmp_statement_expression_23 == 0)
           {
-            return_value_elapsed$22=elapsed$link1(LastTime);
-            if(!(return_value_elapsed$22 >= 350ul))
+            return_value_elapsed_22=elapsed_link1(LastTime);
+            if(!(return_value_elapsed_22 >= 350ul))
               count = (unsigned int)(repeat + 1);
 
           }
@@ -13979,15 +13979,15 @@ static void * lirc_receiver_thread(void *fe_gen)
 
         if(count == 0u)
         {
-          unsigned long int lirc_receiver_thread$$1$$3$$6$$3$$4$$1$$__s1_len;
-          unsigned long int lirc_receiver_thread$$1$$3$$6$$3$$4$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$27;
-          return_value___builtin_strcmp$27=__builtin_strcmp(KeyName, LastKeyName);
-          tmp_statement_expression$26 = return_value___builtin_strcmp$27;
-          if(tmp_statement_expression$26 == 0)
+          unsigned long int lirc_receiver_thread__1__3__6__3__4__1____s1_len;
+          unsigned long int lirc_receiver_thread__1__3__6__3__4__1____s2_len;
+          signed int return_value___builtin_strcmp_27;
+          return_value___builtin_strcmp_27=__builtin_strcmp(KeyName, LastKeyName);
+          tmp_statement_expression_26 = return_value___builtin_strcmp_27;
+          if(tmp_statement_expression_26 == 0)
           {
-            return_value_elapsed$25=elapsed$link1(FirstTime);
-            if(!(return_value_elapsed$25 >= 350ul))
+            return_value_elapsed_25=elapsed_link1(FirstTime);
+            if(!(return_value_elapsed_25 >= 350ul))
               continue;
 
           }
@@ -13999,25 +13999,25 @@ static void * lirc_receiver_thread(void *fe_gen)
             alarm((unsigned int)0);
           }
 
-          strcpy$link1(LastKeyName, KeyName);
+          strcpy_link1(LastKeyName, KeyName);
           repeat = 0;
-          FirstTime=time_ms$link1();
+          FirstTime=time_ms_link1();
           timeout = -1;
         }
 
         else
         {
-          unsigned long int return_value_elapsed$28;
-          return_value_elapsed$28=elapsed$link1(LastTime);
-          if(!(return_value_elapsed$28 >= 100ul))
+          unsigned long int return_value_elapsed_28;
+          return_value_elapsed_28=elapsed_link1(LastTime);
+          if(!(return_value_elapsed_28 >= 100ul))
             continue;
 
-          unsigned long int return_value_elapsed$29;
-          return_value_elapsed$29=elapsed$link1(FirstTime);
-          if(!(return_value_elapsed$29 >= 350ul))
+          unsigned long int return_value_elapsed_29;
+          return_value_elapsed_29=elapsed_link1(FirstTime);
+          if(!(return_value_elapsed_29 >= 350ul))
           {
             if(!(lirc_repeat_emu == 0))
-              LastTime=time_ms$link1();
+              LastTime=time_ms_link1();
 
             continue;
           }
@@ -14025,37 +14025,37 @@ static void * lirc_receiver_thread(void *fe_gen)
           repeat = 1;
           timeout = 350;
         }
-        LastTime=time_ms$link1();
+        LastTime=time_ms_link1();
         if(!(gui_hotkeys == 0))
         {
-          unsigned long int lirc_receiver_thread$$1$$3$$6$$3$$6$$1$$__s1_len;
-          unsigned long int lirc_receiver_thread$$1$$3$$6$$3$$6$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$31;
-          return_value___builtin_strcmp$31=__builtin_strcmp(KeyName, "Quit");
-          tmp_statement_expression$30 = return_value___builtin_strcmp$31;
-          if(tmp_statement_expression$30 == 0)
+          unsigned long int lirc_receiver_thread__1__3__6__3__6__1____s1_len;
+          unsigned long int lirc_receiver_thread__1__3__6__3__6__1____s2_len;
+          signed int return_value___builtin_strcmp_31;
+          return_value___builtin_strcmp_31=__builtin_strcmp(KeyName, "Quit");
+          tmp_statement_expression_30 = return_value___builtin_strcmp_31;
+          if(tmp_statement_expression_30 == 0)
           {
             fe->send_event(fe, "QUIT");
             break;
           }
 
-          unsigned long int lirc_receiver_thread$$1$$3$$6$$3$$6$$3$$__s1_len;
-          unsigned long int lirc_receiver_thread$$1$$3$$6$$3$$6$$3$$__s2_len;
-          signed int return_value___builtin_strcmp$33;
-          return_value___builtin_strcmp$33=__builtin_strcmp(KeyName, "PowerOff");
-          tmp_statement_expression$32 = return_value___builtin_strcmp$33;
-          if(tmp_statement_expression$32 == 0)
+          unsigned long int lirc_receiver_thread__1__3__6__3__6__3____s1_len;
+          unsigned long int lirc_receiver_thread__1__3__6__3__6__3____s2_len;
+          signed int return_value___builtin_strcmp_33;
+          return_value___builtin_strcmp_33=__builtin_strcmp(KeyName, "PowerOff");
+          tmp_statement_expression_32 = return_value___builtin_strcmp_33;
+          if(tmp_statement_expression_32 == 0)
           {
             fe->send_event(fe, "POWER_OFF");
             break;
           }
 
-          unsigned long int lirc_receiver_thread$$1$$3$$6$$3$$6$$5$$__s1_len;
-          unsigned long int lirc_receiver_thread$$1$$3$$6$$3$$6$$5$$__s2_len;
-          signed int return_value___builtin_strcmp$35;
-          return_value___builtin_strcmp$35=__builtin_strcmp(KeyName, "Fullscreen");
-          tmp_statement_expression$34 = return_value___builtin_strcmp$35;
-          if(tmp_statement_expression$34 == 0)
+          unsigned long int lirc_receiver_thread__1__3__6__3__6__5____s1_len;
+          unsigned long int lirc_receiver_thread__1__3__6__3__6__5____s2_len;
+          signed int return_value___builtin_strcmp_35;
+          return_value___builtin_strcmp_35=__builtin_strcmp(KeyName, "Fullscreen");
+          tmp_statement_expression_34 = return_value___builtin_strcmp_35;
+          if(tmp_statement_expression_34 == 0)
           {
             if(repeat == 0)
               fe->send_event(fe, "TOGGLE_FULLSCREEN");
@@ -14065,10 +14065,10 @@ static void * lirc_receiver_thread(void *fe_gen)
 
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$37;
-          return_value___builtin_strcmp$37=__builtin_strcmp(KeyName, "Deinterlace");
-          tmp_statement_expression$36 = return_value___builtin_strcmp$37;
-          if(tmp_statement_expression$36 == 0)
+          signed int return_value___builtin_strcmp_37;
+          return_value___builtin_strcmp_37=__builtin_strcmp(KeyName, "Deinterlace");
+          tmp_statement_expression_36 = return_value___builtin_strcmp_37;
+          if(tmp_statement_expression_36 == 0)
           {
             if(repeat == 0)
               fe->send_event(fe, "TOGGLE_DEINTERLACE");
@@ -14087,9 +14087,9 @@ static void * lirc_receiver_thread(void *fe_gen)
 
     if(!(repeat == 0) && (ready == 0 || !(ret >= 5)))
     {
-      unsigned long int return_value_elapsed$38;
-      return_value_elapsed$38=elapsed$link1(LastTime);
-      if(return_value_elapsed$38 >= 500ul)
+      unsigned long int return_value_elapsed_38;
+      return_value_elapsed_38=elapsed_link1(LastTime);
+      if(return_value_elapsed_38 >= 500ul)
       {
         alarm((unsigned int)3);
         fe->send_input_event(fe, "LIRC", LastKeyName, 0, 1);
@@ -14122,9 +14122,9 @@ void lirc_start(struct frontend_s *fe, const char *lirc_dev, signed int repeat_e
     err=pthread_create(&lirc_thread, (const union pthread_attr_t *)(void *)0, lirc_receiver_thread, (void *)fe);
     if(!(err == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(err);
-      fprintf$link3(stderr, "can't create new thread for lirc (%s)\n", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(err);
+      fprintf_link3(stderr, "can't create new thread for lirc (%s)\n", return_value_strerror_1);
     }
 
   }
@@ -14160,10 +14160,10 @@ static void lircd_connect(void)
     fd_lirc = -1;
   }
 
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
   if(lirc_device_name == ((const volatile char *)NULL))
     do
       if(SysLogLevel >= 3)
@@ -14174,7 +14174,7 @@ static void lircd_connect(void)
   else
   {
     addr.sun_family = (unsigned short int)1;
-    strncpy$link1(addr.sun_path, (char *)lirc_device_name, sizeof(char [108l]) /*108ul*/ );
+    strncpy_link1(addr.sun_path, (char *)lirc_device_name, sizeof(char [108l]) /*108ul*/ );
     addr.sun_path[(signed long int)(sizeof(char [108l]) /*108ul*/  - (unsigned long int)1)] = (char)0;
     fd_lirc=socket(1, 1, 0);
     if(!(fd_lirc >= 0))
@@ -14182,13 +14182,13 @@ static void lircd_connect(void)
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[lirc]      ", "lirc error: socket() < 0");
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          if(!(*return_value___errno_location$3 == 0))
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          if(!(*return_value___errno_location_3 == 0))
           {
-            return_value___errno_location$1=__errno_location();
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            x_syslog(3, "[lirc]      ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_lirc.c", 84, return_value_strerror$2);
+            return_value___errno_location_1=__errno_location();
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            x_syslog(3, "[lirc]      ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_lirc.c", 84, return_value_strerror_2);
           }
 
         }
@@ -14197,21 +14197,21 @@ static void lircd_connect(void)
 
     else
     {
-      signed int return_value_connect$7;
-      return_value_connect$7=connect(fd_lirc, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-      if(!(return_value_connect$7 == 0))
+      signed int return_value_connect_7;
+      return_value_connect_7=connect(fd_lirc, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+      if(!(return_value_connect_7 == 0))
       {
         do
           if(SysLogLevel >= 1)
           {
             x_syslog(3, "[lirc]      ", "lirc error: connect(%s) < 0", lirc_device_name);
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            if(!(*return_value___errno_location$6 == 0))
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            if(!(*return_value___errno_location_6 == 0))
             {
-              return_value___errno_location$4=__errno_location();
-              return_value_strerror$5=strerror(*return_value___errno_location$4);
-              x_syslog(3, "[lirc]      ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_lirc.c", 89, return_value_strerror$5);
+              return_value___errno_location_4=__errno_location();
+              return_value_strerror_5=strerror(*return_value___errno_location_4);
+              x_syslog(3, "[lirc]      ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_lirc.c", 89, return_value_strerror_5);
             }
 
           }
@@ -14244,14 +14244,14 @@ static void list_plugins_type(struct xine_s *xine, const char *msg, const char *
   const char * const *list;
   list=list_func(xine);
   printf("%s", msg);
-  const char * const *tmp_post$1;
+  const char * const *tmp_post_1;
   if(!(list == ((const char * const *)NULL)))
   {
     if(!(*list == ((const char *)NULL)))
     {
-      tmp_post$1 = list;
+      tmp_post_1 = list;
       list = list + 1l;
-      printf(" %s", *tmp_post$1);
+      printf(" %s", *tmp_post_1);
     }
 
   }
@@ -14266,13 +14266,13 @@ void list_xine_plugins(struct frontend_s *fe, signed int verbose)
   struct fe_s *this = (struct fe_s *)fe;
   struct xine_s *tmp_xine = (struct xine_s *)(void *)0;
   struct xine_s *xine;
-  struct xine_s *tmp_if_expr$1;
+  struct xine_s *tmp_if_expr_1;
   if(!(this == ((struct fe_s *)NULL)))
-    tmp_if_expr$1 = this->xine;
+    tmp_if_expr_1 = this->xine;
 
   else
-    tmp_if_expr$1 = (struct xine_s *)(void *)0;
-  xine = tmp_if_expr$1;
+    tmp_if_expr_1 = (struct xine_s *)(void *)0;
+  xine = tmp_if_expr_1;
   if(xine == ((struct xine_s *)NULL))
   {
     tmp_xine=xine_new();
@@ -14347,33 +14347,33 @@ signed int main(signed int argc, char **argv)
   const char *power_off_cmd = (const char *)(void *)0;
   struct frontend_s *fe = (struct frontend_s *)(void *)0;
   LogToSysLog = 0;
-  char *return_value_strrchr$2;
-  return_value_strrchr$2=strrchr(argv[(signed long int)0], 47);
-  char *return_value_strrchr$1;
-  if(!(return_value_strrchr$2 == ((char *)NULL)))
+  char *return_value_strrchr_2;
+  return_value_strrchr_2=strrchr(argv[(signed long int)0], 47);
+  char *return_value_strrchr_1;
+  if(!(return_value_strrchr_2 == ((char *)NULL)))
   {
-    return_value_strrchr$1=strrchr(argv[(signed long int)0], 47);
-    exec_name = return_value_strrchr$1 + (signed long int)1;
+    return_value_strrchr_1=strrchr(argv[(signed long int)0], 47);
+    exec_name = return_value_strrchr_1 + (signed long int)1;
   }
 
   xine_get_version(&xmajor, &xminor, &xsub);
   printf("%s %s  (build with xine-lib %d.%d.%d, using xine-lib %d.%d.%d)\n\n", exec_name, (const void *)"2.0.0-cvs", 1, 2, 6, xmajor, xminor, xsub);
-  char *return_value___strdup$3;
-  char *return_value___builtin_strchr$4;
-  char *return_value___strdup$5;
-  char *return_value___builtin_strchr$6;
-  signed int tmp_statement_expression$7;
-  signed int return_value_strncmp$9;
-  signed int return_value_strncmp$10;
-  signed int return_value_strncmp$11;
-  signed int return_value_strncmp$12;
-  char *return_value_strstr$13;
-  char *return_value_strstr$14;
-  char *return_value_strstr$15;
-  signed int return_value_access$16;
-  char *return_value___builtin_strchr$17;
-  char *return_value___strdup$18;
-  char *return_value_strstr$20;
+  char *return_value___strdup_3;
+  char *return_value___builtin_strchr_4;
+  char *return_value___strdup_5;
+  char *return_value___builtin_strchr_6;
+  signed int tmp_statement_expression_7;
+  signed int return_value_strncmp_9;
+  signed int return_value_strncmp_10;
+  signed int return_value_strncmp_11;
+  signed int return_value_strncmp_12;
+  char *return_value_strstr_13;
+  char *return_value_strstr_14;
+  char *return_value_strstr_15;
+  signed int return_value_access_16;
+  char *return_value___builtin_strchr_17;
+  char *return_value___strdup_18;
+  char *return_value_strstr_20;
   do
   {
     c=getopt_long(argc, argv, short_options, long_options, (signed int *)(void *)0);
@@ -14391,10 +14391,10 @@ signed int main(signed int argc, char **argv)
       }
       case 65:
       {
-        return_value___strdup$3=__strdup(optarg);
-        audio_driver = return_value___strdup$3;
-        return_value___builtin_strchr$4=__builtin_strchr(audio_driver, 58);
-        p = return_value___builtin_strchr$4;
+        return_value___strdup_3=__strdup(optarg);
+        audio_driver = return_value___strdup_3;
+        return_value___builtin_strchr_4=__builtin_strchr(audio_driver, 58);
+        p = return_value___builtin_strchr_4;
         if(!(p == ((char *)NULL)))
         {
           *p = (char)0;
@@ -14417,10 +14417,10 @@ signed int main(signed int argc, char **argv)
       }
       case 86:
       {
-        return_value___strdup$5=__strdup(optarg);
-        video_driver = return_value___strdup$5;
-        return_value___builtin_strchr$6=__builtin_strchr(video_driver, 58);
-        p = return_value___builtin_strchr$6;
+        return_value___strdup_5=__strdup(optarg);
+        video_driver = return_value___strdup_5;
+        return_value___builtin_strchr_6=__builtin_strchr(video_driver, 58);
+        p = return_value___builtin_strchr_6;
         if(!(p == ((char *)NULL)))
         {
           *p = (char)0;
@@ -14443,16 +14443,16 @@ signed int main(signed int argc, char **argv)
       }
       case 87:
       {
-        unsigned long int main$$1$$1$$1$$9$$__s1_len;
+        unsigned long int main__1__1__1__9____s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$8;
-        return_value___builtin_strcmp$8=__builtin_strcmp(optarg, "root");
-        tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-        if(tmp_statement_expression$7 == 0)
+        signed int return_value___builtin_strcmp_8;
+        return_value___builtin_strcmp_8=__builtin_strcmp(optarg, "root");
+        tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+        if(tmp_statement_expression_7 == 0)
           window_id = -2;
 
         else
-          window_id=atoi$link1(optarg);
+          window_id=atoi_link1(optarg);
         break;
       }
       case 109:
@@ -14477,20 +14477,20 @@ signed int main(signed int argc, char **argv)
       }
       case 97:
       {
-        return_value_strncmp$9=strncmp(optarg, "auto", (unsigned long int)4);
-        if(return_value_strncmp$9 == 0)
+        return_value_strncmp_9=strncmp(optarg, "auto", (unsigned long int)4);
+        if(return_value_strncmp_9 == 0)
           aspect = 0;
 
-        return_value_strncmp$10=strncmp(optarg, "4:3", (unsigned long int)3);
-        if(return_value_strncmp$10 == 0)
+        return_value_strncmp_10=strncmp(optarg, "4:3", (unsigned long int)3);
+        if(return_value_strncmp_10 == 0)
           aspect = 2;
 
-        return_value_strncmp$11=strncmp(optarg, "16:9", (unsigned long int)4);
-        if(return_value_strncmp$11 == 0)
+        return_value_strncmp_11=strncmp(optarg, "16:9", (unsigned long int)4);
+        if(return_value_strncmp_11 == 0)
           aspect = 3;
 
-        return_value_strncmp$12=strncmp(optarg, "16:10", (unsigned long int)5);
-        if(return_value_strncmp$12 == 0)
+        return_value_strncmp_12=strncmp(optarg, "16:10", (unsigned long int)5);
+        if(return_value_strncmp_12 == 0)
           aspect = 4;
 
         if(aspect == 0)
@@ -14534,8 +14534,8 @@ signed int main(signed int argc, char **argv)
         while((_Bool)0);
         if(!(optarg == ((char *)NULL)))
         {
-          return_value_strstr$13=strstr(optarg, "opengl");
-          if(!(return_value_strstr$13 == ((char *)NULL)))
+          return_value_strstr_13=strstr(optarg, "opengl");
+          if(!(return_value_strstr_13 == ((char *)NULL)))
           {
             hud = hud | 0x4;
             do
@@ -14550,11 +14550,11 @@ signed int main(signed int argc, char **argv)
 
         if(!(optarg == ((char *)NULL)))
         {
-          return_value_strstr$14=strstr(optarg, "xrender");
-          if(!(return_value_strstr$14 == ((char *)NULL)))
+          return_value_strstr_14=strstr(optarg, "xrender");
+          if(!(return_value_strstr_14 == ((char *)NULL)))
             do
             {
-              fprintf$link2(stderr, "XRender HUD OSD not supported\n");
+              fprintf_link2(stderr, "XRender HUD OSD not supported\n");
               exit(-1);
             }
             while((_Bool)0);
@@ -14563,8 +14563,8 @@ signed int main(signed int argc, char **argv)
 
         if(!(optarg == ((char *)NULL)))
         {
-          return_value_strstr$15=strstr(optarg, "xshape");
-          if(!(return_value_strstr$15 == ((char *)NULL)))
+          return_value_strstr_15=strstr(optarg, "xshape");
+          if(!(return_value_strstr_15 == ((char *)NULL)))
           {
             hud = hud | 0x2;
             do
@@ -14590,7 +14590,7 @@ signed int main(signed int argc, char **argv)
       }
       case 119:
       {
-        width=atoi$link1(optarg);
+        width=atoi_link1(optarg);
         do
           if(SysLogLevel >= 2)
             printf("Width: %d\n", width);
@@ -14610,7 +14610,7 @@ signed int main(signed int argc, char **argv)
       }
       case 104:
       {
-        height=atoi$link1(optarg);
+        height=atoi_link1(optarg);
         do
           if(SysLogLevel >= 2)
             printf("Height: %d\n", height);
@@ -14620,7 +14620,7 @@ signed int main(signed int argc, char **argv)
       }
       case 66:
       {
-        pes_buffers=atoi$link1(optarg);
+        pes_buffers=atoi_link1(optarg);
         do
           if(SysLogLevel >= 2)
             printf("Buffers: %d\n", pes_buffers);
@@ -14631,11 +14631,11 @@ signed int main(signed int argc, char **argv)
       case 84:
       {
         tty = optarg;
-        return_value_access$16=access(tty, 4 | 2);
-        if(!(return_value_access$16 >= 0))
+        return_value_access_16=access(tty, 4 | 2);
+        if(!(return_value_access_16 >= 0))
           do
           {
-            fprintf$link2(stderr, "Can't access terminal: %s\n", tty);
+            fprintf_link2(stderr, "Can't access terminal: %s\n", tty);
             exit(-1);
           }
           while((_Bool)0);
@@ -14659,9 +14659,9 @@ signed int main(signed int argc, char **argv)
       }
       case 112:
       {
-        inactivity_timer=atoi$link1(optarg);
-        return_value___builtin_strchr$17=__builtin_strchr(optarg, 58);
-        power_off_cmd = return_value___builtin_strchr$17;
+        inactivity_timer=atoi_link1(optarg);
+        return_value___builtin_strchr_17=__builtin_strchr(optarg, 58);
+        power_off_cmd = return_value___builtin_strchr_17;
         power_off_cmd = power_off_cmd != ((const char *)NULL) ? power_off_cmd + (signed long int)1 : "/sbin/shutdown";
         do
           if(SysLogLevel >= 2)
@@ -14695,14 +14695,14 @@ signed int main(signed int argc, char **argv)
       }
       case 76:
       {
-        return_value___strdup$18=__strdup((_Bool)optarg ? optarg : "/dev/lircd");
-        lirc_dev = return_value___strdup$18;
-        return_value_strstr$20=strstr(lirc_dev, ",repeatemu");
-        if(!(return_value_strstr$20 == ((char *)NULL)))
+        return_value___strdup_18=__strdup((_Bool)optarg ? optarg : "/dev/lircd");
+        lirc_dev = return_value___strdup_18;
+        return_value_strstr_20=strstr(lirc_dev, ",repeatemu");
+        if(!(return_value_strstr_20 == ((char *)NULL)))
         {
-          char *return_value_strstr$19;
-          return_value_strstr$19=strstr(lirc_dev, ",repeatemu");
-          *return_value_strstr$19 = (char)0;
+          char *return_value_strstr_19;
+          return_value_strstr_19=strstr(lirc_dev, ",repeatemu");
+          *return_value_strstr_19 = (char)0;
           repeat_emu = 1;
         }
 
@@ -14723,7 +14723,7 @@ signed int main(signed int argc, char **argv)
         cec_hdmi_port = 0;
         do
         {
-          fprintf$link2(stderr, "HDMI-CEC support not compiled in\n");
+          fprintf_link2(stderr, "HDMI-CEC support not compiled in\n");
           exit(-1);
         }
         while((_Bool)0);
@@ -14876,9 +14876,9 @@ signed int main(signed int argc, char **argv)
   while((_Bool)1);
   if(!(optind >= argc))
   {
-    char *return_value___strdup$21;
-    return_value___strdup$21=__strdup(argv[(signed long int)optind]);
-    mrl = return_value___strdup$21;
+    char *return_value___strdup_21;
+    return_value___strdup_21=__strdup(argv[(signed long int)optind]);
+    mrl = return_value___strdup_21;
     do
       if(SysLogLevel >= 2)
         printf("VDR Server: %s\n", mrl);
@@ -14907,117 +14907,117 @@ signed int main(signed int argc, char **argv)
     stderr=freopen(tty, "w", stderr);
   }
 
-  signed int return_value_strncmp$22;
-  _Bool tmp_if_expr$24;
-  signed int return_value_strncmp$23;
-  _Bool tmp_if_expr$26;
-  signed int return_value_strncmp$25;
-  _Bool tmp_if_expr$28;
-  signed int return_value_strncmp$27;
+  signed int return_value_strncmp_22;
+  _Bool tmp_if_expr_24;
+  signed int return_value_strncmp_23;
+  _Bool tmp_if_expr_26;
+  signed int return_value_strncmp_25;
+  _Bool tmp_if_expr_28;
+  signed int return_value_strncmp_27;
   if(!(mrl == ((char *)NULL)))
   {
-    return_value_strncmp$22=strncmp(mrl, "xvdr:tcp:", (unsigned long int)(4 + 5));
-    if(return_value_strncmp$22 == 0)
-      tmp_if_expr$24 = (_Bool)1;
+    return_value_strncmp_22=strncmp(mrl, "xvdr:tcp:", (unsigned long int)(4 + 5));
+    if(return_value_strncmp_22 == 0)
+      tmp_if_expr_24 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$23=strncmp(mrl, "xvdr:udp:", (unsigned long int)(4 + 5));
-      tmp_if_expr$24 = !(return_value_strncmp$23 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_23=strncmp(mrl, "xvdr:udp:", (unsigned long int)(4 + 5));
+      tmp_if_expr_24 = !(return_value_strncmp_23 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$24)
-      tmp_if_expr$26 = (_Bool)1;
+    if(tmp_if_expr_24)
+      tmp_if_expr_26 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$25=strncmp(mrl, "xvdr:rtp:", (unsigned long int)(4 + 5));
-      tmp_if_expr$26 = !(return_value_strncmp$25 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_25=strncmp(mrl, "xvdr:rtp:", (unsigned long int)(4 + 5));
+      tmp_if_expr_26 = !(return_value_strncmp_25 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$26)
-      tmp_if_expr$28 = (_Bool)1;
+    if(tmp_if_expr_26)
+      tmp_if_expr_28 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$27=strncmp(mrl, "xvdr:pipe:", (unsigned long int)(4 + 6));
-      tmp_if_expr$28 = !(return_value_strncmp$27 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_27=strncmp(mrl, "xvdr:pipe:", (unsigned long int)(4 + 6));
+      tmp_if_expr_28 = !(return_value_strncmp_27 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$28)
+    if(tmp_if_expr_28)
       mrl[(signed long int)4] = (char)43;
 
   }
 
-  _Bool tmp_if_expr$35;
-  signed int tmp_statement_expression$33;
+  _Bool tmp_if_expr_35;
+  signed int tmp_statement_expression_33;
   if(mrl == ((char *)NULL))
-    tmp_if_expr$35 = (_Bool)1;
+    tmp_if_expr_35 = (_Bool)1;
 
   else
   {
-    unsigned long int main$$1$$9$$__s1_len;
-    unsigned long int main$$1$$9$$__s2_len;
-    signed int return_value___builtin_strcmp$34;
-    return_value___builtin_strcmp$34=__builtin_strcmp(mrl, "xvdr:");
-    tmp_statement_expression$33 = return_value___builtin_strcmp$34;
-    tmp_if_expr$35 = !(tmp_statement_expression$33 != 0) ? (_Bool)1 : (_Bool)0;
+    unsigned long int main__1__9____s1_len;
+    unsigned long int main__1__9____s2_len;
+    signed int return_value___builtin_strcmp_34;
+    return_value___builtin_strcmp_34=__builtin_strcmp(mrl, "xvdr:");
+    tmp_statement_expression_33 = return_value___builtin_strcmp_34;
+    tmp_if_expr_35 = !(tmp_statement_expression_33 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$38;
-  signed int tmp_statement_expression$36;
-  if(tmp_if_expr$35)
-    tmp_if_expr$38 = (_Bool)1;
+  _Bool tmp_if_expr_38;
+  signed int tmp_statement_expression_36;
+  if(tmp_if_expr_35)
+    tmp_if_expr_38 = (_Bool)1;
 
   else
   {
-    unsigned long int main$$1$$10$$__s1_len;
-    unsigned long int main$$1$$10$$__s2_len;
-    signed int return_value___builtin_strcmp$37;
-    return_value___builtin_strcmp$37=__builtin_strcmp(mrl, "xvdr+tcp:");
-    tmp_statement_expression$36 = return_value___builtin_strcmp$37;
-    tmp_if_expr$38 = !(tmp_statement_expression$36 != 0) ? (_Bool)1 : (_Bool)0;
+    unsigned long int main__1__10____s1_len;
+    unsigned long int main__1__10____s2_len;
+    signed int return_value___builtin_strcmp_37;
+    return_value___builtin_strcmp_37=__builtin_strcmp(mrl, "xvdr+tcp:");
+    tmp_statement_expression_36 = return_value___builtin_strcmp_37;
+    tmp_if_expr_38 = !(tmp_statement_expression_36 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$41;
-  signed int tmp_statement_expression$39;
-  if(tmp_if_expr$38)
-    tmp_if_expr$41 = (_Bool)1;
+  _Bool tmp_if_expr_41;
+  signed int tmp_statement_expression_39;
+  if(tmp_if_expr_38)
+    tmp_if_expr_41 = (_Bool)1;
 
   else
   {
-    unsigned long int main$$1$$11$$__s1_len;
-    unsigned long int main$$1$$11$$__s2_len;
-    signed int return_value___builtin_strcmp$40;
-    return_value___builtin_strcmp$40=__builtin_strcmp(mrl, "xvdr+udp:");
-    tmp_statement_expression$39 = return_value___builtin_strcmp$40;
-    tmp_if_expr$41 = !(tmp_statement_expression$39 != 0) ? (_Bool)1 : (_Bool)0;
+    unsigned long int main__1__11____s1_len;
+    unsigned long int main__1__11____s2_len;
+    signed int return_value___builtin_strcmp_40;
+    return_value___builtin_strcmp_40=__builtin_strcmp(mrl, "xvdr+udp:");
+    tmp_statement_expression_39 = return_value___builtin_strcmp_40;
+    tmp_if_expr_41 = !(tmp_statement_expression_39 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$44;
-  signed int tmp_statement_expression$42;
-  if(tmp_if_expr$41)
-    tmp_if_expr$44 = (_Bool)1;
+  _Bool tmp_if_expr_44;
+  signed int tmp_statement_expression_42;
+  if(tmp_if_expr_41)
+    tmp_if_expr_44 = (_Bool)1;
 
   else
   {
-    unsigned long int main$$1$$12$$__s1_len;
-    unsigned long int main$$1$$12$$__s2_len;
-    signed int return_value___builtin_strcmp$43;
-    return_value___builtin_strcmp$43=__builtin_strcmp(mrl, "xvdr+rtp:");
-    tmp_statement_expression$42 = return_value___builtin_strcmp$43;
-    tmp_if_expr$44 = !(tmp_statement_expression$42 != 0) ? (_Bool)1 : (_Bool)0;
+    unsigned long int main__1__12____s1_len;
+    unsigned long int main__1__12____s2_len;
+    signed int return_value___builtin_strcmp_43;
+    return_value___builtin_strcmp_43=__builtin_strcmp(mrl, "xvdr+rtp:");
+    tmp_statement_expression_42 = return_value___builtin_strcmp_43;
+    tmp_if_expr_44 = !(tmp_statement_expression_42 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$47;
-  signed int tmp_statement_expression$45;
-  if(tmp_if_expr$44)
-    tmp_if_expr$47 = (_Bool)1;
+  _Bool tmp_if_expr_47;
+  signed int tmp_statement_expression_45;
+  if(tmp_if_expr_44)
+    tmp_if_expr_47 = (_Bool)1;
 
   else
   {
     unsigned long int __s1_len;
-    unsigned long int main$$1$$13$$__s2_len;
-    signed int return_value___builtin_strcmp$46;
-    return_value___builtin_strcmp$46=__builtin_strcmp(mrl, "xvdr+pipe:");
-    tmp_statement_expression$45 = return_value___builtin_strcmp$46;
-    tmp_if_expr$47 = !(tmp_statement_expression$45 != 0) ? (_Bool)1 : (_Bool)0;
+    unsigned long int main__1__13____s2_len;
+    signed int return_value___builtin_strcmp_46;
+    return_value___builtin_strcmp_46=__builtin_strcmp(mrl, "xvdr+pipe:");
+    tmp_statement_expression_45 = return_value___builtin_strcmp_46;
+    tmp_if_expr_47 = !(tmp_statement_expression_45 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_asprintf$30;
-  if(tmp_if_expr$47)
+  signed int return_value_asprintf_30;
+  if(tmp_if_expr_47)
   {
     char address[1024l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     signed int port = -1;
@@ -15026,9 +15026,9 @@ signed int main(signed int argc, char **argv)
         printf("VDR server not given, searching ...\n");
 
     while((_Bool)0);
-    signed int return_value_udp_discovery_find_server$32;
-    return_value_udp_discovery_find_server$32=udp_discovery_find_server(&port, &address[(signed long int)0]);
-    if(!(return_value_udp_discovery_find_server$32 == 0))
+    signed int return_value_udp_discovery_find_server_32;
+    return_value_udp_discovery_find_server_32=udp_discovery_find_server(&port, &address[(signed long int)0]);
+    if(!(return_value_udp_discovery_find_server_32 == 0))
     {
       do
         if(SysLogLevel >= 2)
@@ -15039,9 +15039,9 @@ signed int main(signed int argc, char **argv)
       {
         char *tmp = mrl;
         mrl = (char *)(void *)0;
-        signed int return_value_asprintf$29;
-        return_value_asprintf$29=asprintf$link2(&mrl, "%s//%s:%d", tmp, (const void *)address, port);
-        if(!(return_value_asprintf$29 >= 0))
+        signed int return_value_asprintf_29;
+        return_value_asprintf_29=asprintf_link2(&mrl, "%s//%s:%d", tmp, (const void *)address, port);
+        if(!(return_value_asprintf_29 >= 0))
           return -1;
 
         free((void *)tmp);
@@ -15049,8 +15049,8 @@ signed int main(signed int argc, char **argv)
 
       else
       {
-        return_value_asprintf$30=asprintf$link2(&mrl, "xvdr://%s:%d", (const void *)address, port);
-        if(!(return_value_asprintf$30 >= 0))
+        return_value_asprintf_30=asprintf_link2(&mrl, "xvdr://%s:%d", (const void *)address, port);
+        if(!(return_value_asprintf_30 >= 0))
           return -1;
 
       }
@@ -15063,21 +15063,21 @@ signed int main(signed int argc, char **argv)
           printf("---------------------------------------------------------------\nWARNING: MRL not given and server not found from local network.\n         Trying to connect to default port on local host.\n---------------------------------------------------------------\n");
 
       while((_Bool)0);
-      char *return_value___strdup$31;
-      return_value___strdup$31=__strdup("xvdr://127.0.0.1");
-      mrl = return_value___strdup$31;
+      char *return_value___strdup_31;
+      return_value___strdup_31=__strdup("xvdr://127.0.0.1");
+      mrl = return_value___strdup_31;
     }
   }
 
-  signed int return_value_strncmp$50;
-  signed int return_value_strncmp$49;
+  signed int return_value_strncmp_50;
+  signed int return_value_strncmp_49;
   if(!(mrl == ((char *)NULL)))
   {
-    return_value_strncmp$50=strncmp(mrl, "xvdr:", (unsigned long int)(4 + 1));
-    if(!(return_value_strncmp$50 == 0))
+    return_value_strncmp_50=strncmp(mrl, "xvdr:", (unsigned long int)(4 + 1));
+    if(!(return_value_strncmp_50 == 0))
     {
-      return_value_strncmp$49=strncmp(mrl, "xvdr+", (unsigned long int)(4 + 1));
-      if(!(return_value_strncmp$49 == 0))
+      return_value_strncmp_49=strncmp(mrl, "xvdr+", (unsigned long int)(4 + 1));
+      if(!(return_value_strncmp_49 == 0))
       {
         char *mrl2 = mrl;
         do
@@ -15085,9 +15085,9 @@ signed int main(signed int argc, char **argv)
             printf("WARNING: MRL does not start with 'xvdr:' (%s)\n", mrl);
 
         while((_Bool)0);
-        signed int return_value_asprintf$48;
-        return_value_asprintf$48=asprintf$link2(&mrl, "xvdr://%s", mrl);
-        if(!(return_value_asprintf$48 >= 0))
+        signed int return_value_asprintf_48;
+        return_value_asprintf_48=asprintf_link2(&mrl, "xvdr://%s", mrl);
+        if(!(return_value_asprintf_48 >= 0))
           return -1;
 
         free((void *)mrl2);
@@ -15097,69 +15097,69 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  char *main$$1$$18$$tmp = (char *)(void *)0;
-  char *main$$1$$18$$mrl2 = mrl;
-  _Bool tmp_if_expr$58;
-  char *return_value_strstr$57;
+  char *main__1__18__tmp = (char *)(void *)0;
+  char *main__1__18__mrl2 = mrl;
+  _Bool tmp_if_expr_58;
+  char *return_value_strstr_57;
   if(!(frtp == 0))
   {
-    return_value_strstr$57=strstr(mrl, "rtp:");
-    tmp_if_expr$58 = !(return_value_strstr$57 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    return_value_strstr_57=strstr(mrl, "rtp:");
+    tmp_if_expr_58 = !(return_value_strstr_57 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$58 = (_Bool)0;
-  char *return_value___strdup$51;
-  _Bool tmp_if_expr$56;
-  char *return_value_strstr$55;
-  char *return_value___strdup$52;
-  char *return_value_strstr$54;
-  char *return_value___strdup$53;
-  if(tmp_if_expr$58)
+    tmp_if_expr_58 = (_Bool)0;
+  char *return_value___strdup_51;
+  _Bool tmp_if_expr_56;
+  char *return_value_strstr_55;
+  char *return_value___strdup_52;
+  char *return_value_strstr_54;
+  char *return_value___strdup_53;
+  if(tmp_if_expr_58)
   {
-    return_value___strdup$51=__strdup("xvdr+rtp:");
-    main$$1$$18$$tmp = return_value___strdup$51;
+    return_value___strdup_51=__strdup("xvdr+rtp:");
+    main__1__18__tmp = return_value___strdup_51;
   }
 
   else
   {
     if(!(fudp == 0))
     {
-      return_value_strstr$55=strstr(mrl, "udp:");
-      tmp_if_expr$56 = !(return_value_strstr$55 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_55=strstr(mrl, "udp:");
+      tmp_if_expr_56 = !(return_value_strstr_55 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$56 = (_Bool)0;
-    if(tmp_if_expr$56)
+      tmp_if_expr_56 = (_Bool)0;
+    if(tmp_if_expr_56)
     {
-      return_value___strdup$52=__strdup("xvdr+udp:");
-      main$$1$$18$$tmp = return_value___strdup$52;
+      return_value___strdup_52=__strdup("xvdr+udp:");
+      main__1__18__tmp = return_value___strdup_52;
     }
 
     else
       if(!(ftcp == 0))
       {
-        return_value_strstr$54=strstr(mrl, "tcp:");
-        if(return_value_strstr$54 == ((char *)NULL))
+        return_value_strstr_54=strstr(mrl, "tcp:");
+        if(return_value_strstr_54 == ((char *)NULL))
         {
-          return_value___strdup$53=__strdup("xvdr+tcp:");
-          main$$1$$18$$tmp = return_value___strdup$53;
+          return_value___strdup_53=__strdup("xvdr+tcp:");
+          main__1__18__tmp = return_value___strdup_53;
         }
 
       }
 
   }
-  if(!(main$$1$$18$$tmp == ((char *)NULL)))
+  if(!(main__1__18__tmp == ((char *)NULL)))
   {
-    char *return_value___builtin_strchr$59;
-    return_value___builtin_strchr$59=__builtin_strchr(mrl, 47);
-    mrl=strcatrealloc(main$$1$$18$$tmp, return_value___builtin_strchr$59);
-    free((void *)main$$1$$18$$mrl2);
+    char *return_value___builtin_strchr_59;
+    return_value___builtin_strchr_59=__builtin_strchr(mrl, 47);
+    mrl=strcatrealloc(main__1__18__tmp, return_value___builtin_strchr_59);
+    free((void *)main__1__18__mrl2);
   }
 
-  signed int *return_value___errno_location$60;
-  char *return_value_strerror$61;
+  signed int *return_value___errno_location_60;
+  char *return_value_strerror_61;
   if(!(daemon_mode == 0))
   {
     do
@@ -15167,22 +15167,22 @@ signed int main(signed int argc, char **argv)
         printf("Entering daemon mode\n\n");
 
     while((_Bool)0);
-    signed int return_value_daemon$63;
-    return_value_daemon$63=daemon(1, 0);
-    if(return_value_daemon$63 == -1)
+    signed int return_value_daemon_63;
+    return_value_daemon_63=daemon(1, 0);
+    if(return_value_daemon_63 == -1)
     {
-      fprintf$link2(stderr, "%s: %m\n", exec_name);
+      fprintf_link2(stderr, "%s: %m\n", exec_name);
       do
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[vdr-fe]    ", "daemon() failed");
-          signed int *return_value___errno_location$62;
-          return_value___errno_location$62=__errno_location();
-          if(!(*return_value___errno_location$62 == 0))
+          signed int *return_value___errno_location_62;
+          return_value___errno_location_62=__errno_location();
+          if(!(*return_value___errno_location_62 == 0))
           {
-            return_value___errno_location$60=__errno_location();
-            return_value_strerror$61=strerror(*return_value___errno_location$60);
-            x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_main.c", 572, return_value_strerror$61);
+            return_value___errno_location_60=__errno_location();
+            return_value_strerror_61=strerror(*return_value___errno_location_60);
+            x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_main.c", 572, return_value_strerror_61);
           }
 
         }
@@ -15197,7 +15197,7 @@ signed int main(signed int argc, char **argv)
   signed int return_value_4;
   if(fe == ((struct frontend_s *)NULL))
   {
-    fprintf$link2(stderr, "Error initializing frontend\n");
+    fprintf_link2(stderr, "Error initializing frontend\n");
     return -3;
   }
 
@@ -15207,7 +15207,7 @@ signed int main(signed int argc, char **argv)
     return_value=fe->fe_display_open(fe, xpos, ypos, width, height, fullscreen, hud, opengl, modeswitch, "", aspect, noxkbd, gui_hotkeys, touchscreen, video_port, scale_video, aspect_controller, window_id);
     if(return_value == 0)
     {
-      fprintf$link2(stderr, "Error opening display\n");
+      fprintf_link2(stderr, "Error opening display\n");
       fe->fe_free(fe);
       return -4;
     }
@@ -15218,7 +15218,7 @@ signed int main(signed int argc, char **argv)
       return_value_1=fe->xine_init(fe, audio_driver, audio_device, video_driver, pes_buffers, static_post_plugins, config_file);
       if(return_value_1 == 0)
       {
-        fprintf$link2(stderr, "Error initializing xine\n");
+        fprintf_link2(stderr, "Error initializing xine\n");
         list_xine_plugins(fe, (signed int)(SysLogLevel > 2));
         fe->fe_free(fe);
         return -5;
@@ -15232,24 +15232,24 @@ signed int main(signed int argc, char **argv)
         if(SysLogLevel >= 3)
           list_xine_plugins(fe, (signed int)(SysLogLevel > 2));
 
-        void (*return_value_signal$64)(signed int);
-        return_value_signal$64=signal(1, SignalHandler);
-        if(return_value_signal$64 == (void (*)(signed int))1)
+        void (*return_value_signal_64)(signed int);
+        return_value_signal_64=signal(1, SignalHandler);
+        if(return_value_signal_64 == (void (*)(signed int))1)
           signal(1, (void (*)(signed int))1);
 
-        void (*return_value_signal$65)(signed int);
-        return_value_signal$65=signal(2, SignalHandler);
-        if(return_value_signal$65 == (void (*)(signed int))1)
+        void (*return_value_signal_65)(signed int);
+        return_value_signal_65=signal(2, SignalHandler);
+        if(return_value_signal_65 == (void (*)(signed int))1)
           signal(2, (void (*)(signed int))1);
 
-        void (*return_value_signal$66)(signed int);
-        return_value_signal$66=signal(15, SignalHandler);
-        if(return_value_signal$66 == (void (*)(signed int))1)
+        void (*return_value_signal_66)(signed int);
+        return_value_signal_66=signal(15, SignalHandler);
+        if(return_value_signal_66 == (void (*)(signed int))1)
           signal(15, (void (*)(signed int))1);
 
-        void (*return_value_signal$67)(signed int);
-        return_value_signal$67=signal(13, SignalHandler);
-        if(return_value_signal$67 == (void (*)(signed int))1)
+        void (*return_value_signal_67)(signed int);
+        return_value_signal_67=signal(13, SignalHandler);
+        if(return_value_signal_67 == (void (*)(signed int))1)
           signal(13, (void (*)(signed int))1);
 
         if(firsttry == 0)
@@ -15274,7 +15274,7 @@ signed int main(signed int argc, char **argv)
 
           }
 
-          fprintf$link2(stderr, "Error opening %s\n", mrl);
+          fprintf_link2(stderr, "Error opening %s\n", mrl);
           fe->fe_free(fe);
           return -6;
         }
@@ -15292,7 +15292,7 @@ signed int main(signed int argc, char **argv)
 
             }
 
-            fprintf$link2(stderr, "Error playing %s\n", argv[(signed long int)1]);
+            fprintf_link2(stderr, "Error playing %s\n", argv[(signed long int)1]);
             fe->fe_free(fe);
             return -7;
           }
@@ -15353,44 +15353,44 @@ static void make_dirs(const char *file)
 {
   struct stat st;
   char *s;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(file);
-  s = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(file);
+  s = return_value___strdup_1;
   char *p = s;
-  char *return_value___builtin_strchr$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  char *tmp_post$8;
+  char *return_value___builtin_strchr_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  char *tmp_post_8;
   if((signed int)*p == 47)
   {
     p = p + 1l;
     do
     {
-      return_value___builtin_strchr$2=__builtin_strchr(p, 47);
-      p = return_value___builtin_strchr$2;
+      return_value___builtin_strchr_2=__builtin_strchr(p, 47);
+      p = return_value___builtin_strchr_2;
       if(p == ((char *)NULL))
         break;
 
       *p = (char)0;
-      signed int return_value_stat$7;
-      return_value_stat$7=stat(s, &st);
-      if(!((61440u & st.st_mode) == 16384u) || !(return_value_stat$7 == 0))
+      signed int return_value_stat_7;
+      return_value_stat_7=stat(s, &st);
+      if(!((61440u & st.st_mode) == 16384u) || !(return_value_stat_7 == 0))
       {
-        signed int return_value_mkdir$6;
-        return_value_mkdir$6=mkdir(s, (unsigned int)(0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3));
-        if(return_value_mkdir$6 == -1)
+        signed int return_value_mkdir_6;
+        return_value_mkdir_6=mkdir(s, (unsigned int)(0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3));
+        if(return_value_mkdir_6 == -1)
         {
           do
             if(SysLogLevel >= 1)
             {
               x_syslog(3, "[vdr-fe]    ", "Can't create %s", s);
-              signed int *return_value___errno_location$5;
-              return_value___errno_location$5=__errno_location();
-              if(!(*return_value___errno_location$5 == 0))
+              signed int *return_value___errno_location_5;
+              return_value___errno_location_5=__errno_location();
+              if(!(*return_value___errno_location_5 == 0))
               {
-                return_value___errno_location$3=__errno_location();
-                return_value_strerror$4=strerror(*return_value___errno_location$3);
-                x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend.c", 130, return_value_strerror$4);
+                return_value___errno_location_3=__errno_location();
+                return_value_strerror_4=strerror(*return_value___errno_location_3);
+                x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend.c", 130, return_value_strerror_4);
               }
 
             }
@@ -15406,9 +15406,9 @@ static void make_dirs(const char *file)
         while((_Bool)0);
       }
 
-      tmp_post$8 = p;
+      tmp_post_8 = p;
       p = p + 1l;
-      *tmp_post$8 = (char)47;
+      *tmp_post_8 = (char)47;
     }
     while((_Bool)1);
   }
@@ -15420,80 +15420,80 @@ static void make_dirs(const char *file)
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
 static inline void * memcpy(void * restrict __dest, const void * restrict __src, unsigned long int __len)
 {
-  void *return_value___builtin___memcpy_chk$1;
-  return_value___builtin___memcpy_chk$1=__builtin___memcpy_chk(__dest, __src, __len, 18446744073709551615ul);
-  return return_value___builtin___memcpy_chk$1;
+  void *return_value___builtin___memcpy_chk_1;
+  return_value___builtin___memcpy_chk_1=__builtin___memcpy_chk(__dest, __src, __len, 18446744073709551615ul);
+  return return_value___builtin___memcpy_chk_1;
 }
 
-// memcpy$link1
+// memcpy_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link1(void * restrict __dest$link1, const void * restrict __src$link1, unsigned long int __len$link1)
+static inline void * memcpy_link1(void * restrict __dest_link1, const void * restrict __src_link1, unsigned long int __len_link1)
 {
-  void *return_value___builtin___memcpy_chk$1$link1;
-  return_value___builtin___memcpy_chk$1$link1=__builtin___memcpy_chk(__dest$link1, __src$link1, __len$link1, 18446744073709551615ul);
-  return return_value___builtin___memcpy_chk$1$link1;
+  void *return_value___builtin___memcpy_chk_1_link1;
+  return_value___builtin___memcpy_chk_1_link1=__builtin___memcpy_chk(__dest_link1, __src_link1, __len_link1, 18446744073709551615ul);
+  return return_value___builtin___memcpy_chk_1_link1;
 }
 
-// memcpy$link2
+// memcpy_link2
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link2(void * restrict __dest$link2, const void * restrict __src$link2, unsigned long int __len$link2)
+static inline void * memcpy_link2(void * restrict __dest_link2, const void * restrict __src_link2, unsigned long int __len_link2)
 {
-  void *return_value___builtin___memcpy_chk$1$link2;
-  return_value___builtin___memcpy_chk$1$link2=__builtin___memcpy_chk(__dest$link2, __src$link2, __len$link2, 18446744073709551615ul);
-  return return_value___builtin___memcpy_chk$1$link2;
+  void *return_value___builtin___memcpy_chk_1_link2;
+  return_value___builtin___memcpy_chk_1_link2=__builtin___memcpy_chk(__dest_link2, __src_link2, __len_link2, 18446744073709551615ul);
+  return return_value___builtin___memcpy_chk_1_link2;
 }
 
-// memcpy$link3
+// memcpy_link3
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link3(void * restrict __dest$link3, const void * restrict __src$link3, unsigned long int __len$link3)
+static inline void * memcpy_link3(void * restrict __dest_link3, const void * restrict __src_link3, unsigned long int __len_link3)
 {
-  void *return_value___builtin___memcpy_chk$1$link3;
-  return_value___builtin___memcpy_chk$1$link3=__builtin___memcpy_chk(__dest$link3, __src$link3, __len$link3, 18446744073709551615ul);
-  return return_value___builtin___memcpy_chk$1$link3;
+  void *return_value___builtin___memcpy_chk_1_link3;
+  return_value___builtin___memcpy_chk_1_link3=__builtin___memcpy_chk(__dest_link3, __src_link3, __len_link3, 18446744073709551615ul);
+  return return_value___builtin___memcpy_chk_1_link3;
 }
 
-// memcpy$link4
+// memcpy_link4
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link4(void * restrict __dest$link4, const void * restrict __src$link4, unsigned long int __len$link4)
+static inline void * memcpy_link4(void * restrict __dest_link4, const void * restrict __src_link4, unsigned long int __len_link4)
 {
-  void *return_value___builtin___memcpy_chk$1$link4;
-  return_value___builtin___memcpy_chk$1$link4=__builtin___memcpy_chk(__dest$link4, __src$link4, __len$link4, 18446744073709551615ul);
-  return return_value___builtin___memcpy_chk$1$link4;
+  void *return_value___builtin___memcpy_chk_1_link4;
+  return_value___builtin___memcpy_chk_1_link4=__builtin___memcpy_chk(__dest_link4, __src_link4, __len_link4, 18446744073709551615ul);
+  return return_value___builtin___memcpy_chk_1_link4;
 }
 
 // memmove
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 57
 static inline void * memmove(void *__dest, const void *__src, unsigned long int __len)
 {
-  char *return_value___builtin___memmove_chk$1;
-  return_value___builtin___memmove_chk$1=__builtin___memmove_chk(__dest, __src, __len, 18446744073709551615ul);
-  return (void *)return_value___builtin___memmove_chk$1;
+  char *return_value___builtin___memmove_chk_1;
+  return_value___builtin___memmove_chk_1=__builtin___memmove_chk(__dest, __src, __len, 18446744073709551615ul);
+  return (void *)return_value___builtin___memmove_chk_1;
 }
 
 // memset
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
 static inline void * memset(void *__dest, signed int __ch, unsigned long int __len)
 {
-  void *return_value___builtin___memset_chk$1;
-  return_value___builtin___memset_chk$1=__builtin___memset_chk(__dest, __ch, __len, 18446744073709551615ul);
-  return return_value___builtin___memset_chk$1;
+  void *return_value___builtin___memset_chk_1;
+  return_value___builtin___memset_chk_1=__builtin___memset_chk(__dest, __ch, __len, 18446744073709551615ul);
+  return return_value___builtin___memset_chk_1;
 }
 
-// memset$link1
+// memset_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
-static inline void * memset$link1(void *__dest$link1, signed int __ch$link1, unsigned long int __len$link1)
+static inline void * memset_link1(void *__dest_link1, signed int __ch_link1, unsigned long int __len_link1)
 {
-  void *return_value___builtin___memset_chk$1$link1;
-  return_value___builtin___memset_chk$1$link1=__builtin___memset_chk(__dest$link1, __ch$link1, __len$link1, 18446744073709551615ul);
-  return return_value___builtin___memset_chk$1$link1;
+  void *return_value___builtin___memset_chk_1_link1;
+  return_value___builtin___memset_chk_1_link1=__builtin___memset_chk(__dest_link1, __ch_link1, __len_link1, 18446744073709551615ul);
+  return return_value___builtin___memset_chk_1_link1;
 }
 
 // open_display
 // file xine_sxfe_frontend.c line 1369
 static signed int open_display(struct sxfe_s *this, const char *video_port)
 {
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(video_port == ((const char *)NULL)))
   {
     if(!(*video_port == 0))
@@ -15504,13 +15504,13 @@ static signed int open_display(struct sxfe_s *this, const char *video_port)
           if(SysLogLevel >= 1)
           {
             x_syslog(3, "[vdr-sxfe]  ", "sxfe_display_open: failed to connect to X server (%s)", video_port);
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            if(!(*return_value___errno_location$3 == 0))
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            if(!(*return_value___errno_location_3 == 0))
             {
-              return_value___errno_location$1=__errno_location();
-              return_value_strerror$2=strerror(*return_value___errno_location$1);
-              x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1374, return_value_strerror$2);
+              return_value___errno_location_1=__errno_location();
+              return_value_strerror_2=strerror(*return_value___errno_location_1);
+              x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1374, return_value_strerror_2);
             }
 
           }
@@ -15521,8 +15521,8 @@ static signed int open_display(struct sxfe_s *this, const char *video_port)
 
   }
 
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
   if(this->display == ((struct _XDisplay *)NULL))
   {
     video_port=getenv("DISPLAY");
@@ -15534,13 +15534,13 @@ static signed int open_display(struct sxfe_s *this, const char *video_port)
           if(SysLogLevel >= 1)
           {
             x_syslog(3, "[vdr-sxfe]  ", "sxfe_display_open: failed to connect to X server (%s)", video_port);
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            if(!(*return_value___errno_location$6 == 0))
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            if(!(*return_value___errno_location_6 == 0))
             {
-              return_value___errno_location$4=__errno_location();
-              return_value_strerror$5=strerror(*return_value___errno_location$4);
-              x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1380, return_value_strerror$5);
+              return_value___errno_location_4=__errno_location();
+              return_value_strerror_5=strerror(*return_value___errno_location_4);
+              x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1380, return_value_strerror_5);
             }
 
           }
@@ -15554,8 +15554,8 @@ static signed int open_display(struct sxfe_s *this, const char *video_port)
   if(this->display == ((struct _XDisplay *)NULL))
     this->display=XOpenDisplay((const char *)(void *)0);
 
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
   if(this->display == ((struct _XDisplay *)NULL))
   {
     this->display=XOpenDisplay(":0.0");
@@ -15564,13 +15564,13 @@ static signed int open_display(struct sxfe_s *this, const char *video_port)
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[vdr-sxfe]  ", "sxfe_display_open: failed to connect to X server (:0.0)");
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          if(!(*return_value___errno_location$9 == 0))
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          if(!(*return_value___errno_location_9 == 0))
           {
-            return_value___errno_location$7=__errno_location();
-            return_value_strerror$8=strerror(*return_value___errno_location$7);
-            x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1389, return_value_strerror$8);
+            return_value___errno_location_7=__errno_location();
+            return_value_strerror_8=strerror(*return_value___errno_location_7);
+            x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1389, return_value_strerror_8);
           }
 
         }
@@ -15579,8 +15579,8 @@ static signed int open_display(struct sxfe_s *this, const char *video_port)
 
   }
 
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
   if(this->display == ((struct _XDisplay *)NULL))
   {
     this->display=XOpenDisplay("127.0.0.1:0.0");
@@ -15589,13 +15589,13 @@ static signed int open_display(struct sxfe_s *this, const char *video_port)
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[vdr-sxfe]  ", "sxfe_display_open: failed to connect to X server (127.0.0.1:0.0");
-          signed int *return_value___errno_location$12;
-          return_value___errno_location$12=__errno_location();
-          if(!(*return_value___errno_location$12 == 0))
+          signed int *return_value___errno_location_12;
+          return_value___errno_location_12=__errno_location();
+          if(!(*return_value___errno_location_12 == 0))
           {
-            return_value___errno_location$10=__errno_location();
-            return_value_strerror$11=strerror(*return_value___errno_location$10);
-            x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1394, return_value_strerror$11);
+            return_value___errno_location_10=__errno_location();
+            return_value_strerror_11=strerror(*return_value___errno_location_10);
+            x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1394, return_value_strerror_11);
           }
 
         }
@@ -15604,21 +15604,21 @@ static signed int open_display(struct sxfe_s *this, const char *video_port)
 
   }
 
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
   if(this->display == ((struct _XDisplay *)NULL))
   {
     do
       if(SysLogLevel >= 1)
       {
         x_syslog(3, "[vdr-sxfe]  ", "sxfe_display_open: failed to connect to X server.");
-        signed int *return_value___errno_location$15;
-        return_value___errno_location$15=__errno_location();
-        if(!(*return_value___errno_location$15 == 0))
+        signed int *return_value___errno_location_15;
+        return_value___errno_location_15=__errno_location();
+        if(!(*return_value___errno_location_15 == 0))
         {
-          return_value___errno_location$13=__errno_location();
-          return_value_strerror$14=strerror(*return_value___errno_location$13);
-          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1398, return_value_strerror$14);
+          return_value___errno_location_13=__errno_location();
+          return_value_strerror_14=strerror(*return_value___errno_location_13);
+          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1398, return_value_strerror_14);
         }
 
       }
@@ -15668,15 +15668,15 @@ static void * opengl_draw_frame_thread(void *arg)
   signed short int win_height = (signed short int)-1;
   signed short int win_x = (signed short int)-1;
   signed short int win_y = (signed short int)-1;
-  struct anonymous$20 xrect;
+  struct anonymous_20 xrect;
   float video_tex_width;
   float video_tex_height;
   signed int first_frame = 1;
   signed int force_redirect = 0;
   XLockDisplay(this->display);
-  signed int return_value_opengl_init$1;
-  return_value_opengl_init$1=opengl_init(this);
-  if(!(return_value_opengl_init$1 >= 0))
+  signed int return_value_opengl_init_1;
+  return_value_opengl_init_1=opengl_init(this);
+  if(!(return_value_opengl_init_1 >= 0))
   {
     do
       if(SysLogLevel >= 2)
@@ -15688,16 +15688,16 @@ static void * opengl_draw_frame_thread(void *arg)
   }
 
   XUnlockDisplay(this->display);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
   while((_Bool)1)
   {
     pthread_mutex_lock(&this->opengl_redraw_mutex);
@@ -15708,27 +15708,27 @@ static void * opengl_draw_frame_thread(void *arg)
     if(this->opengl_deinit != 0)
       break;
 
-    if(!((signed int)win_x == (signed int)this->$anon0.x.xpos))
-      tmp_if_expr$2 = (_Bool)1;
+    if(!((signed int)win_x == (signed int)this->_anon0.x.xpos))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)win_y != (signed int)this->$anon0.x.ypos ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)win_y != (signed int)this->_anon0.x.ypos ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)win_width != (signed int)this->$anon0.x.width ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)win_width != (signed int)this->_anon0.x.width ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)win_height != (signed int)this->$anon0.x.height ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)win_height != (signed int)this->_anon0.x.height ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      win_x = (signed short int)this->$anon0.x.xpos;
-      win_y = (signed short int)this->$anon0.x.ypos;
-      win_width = (signed short int)this->$anon0.x.width;
-      win_height = (signed short int)this->$anon0.x.height;
+      win_x = (signed short int)this->_anon0.x.xpos;
+      win_y = (signed short int)this->_anon0.x.ypos;
+      win_width = (signed short int)this->_anon0.x.width;
+      win_height = (signed short int)this->_anon0.x.height;
       force_redirect = 1;
       xrect.x = win_x;
       xrect.y = win_y;
@@ -15776,30 +15776,30 @@ static void * opengl_draw_frame_thread(void *arg)
 
     while((_Bool)0);
     if(!(this->osd_visible == 0) || !(window_mapped == 0))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = this->opengl_always != 0 ? (_Bool)1 : (_Bool)0;
-    draw_frame = (signed int)tmp_if_expr$5;
+      tmp_if_expr_5 = this->opengl_always != 0 ? (_Bool)1 : (_Bool)0;
+    draw_frame = (signed int)tmp_if_expr_5;
     if(!(this->opengl_hud == 0))
-      tmp_if_expr$6 = this->osd_visible != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = this->osd_visible != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if((prev_osd_visible == 0 || !(force_redirect == 0)) && tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)0;
+    if((prev_osd_visible == 0 || !(force_redirect == 0)) && tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = (this->opengl_always != 0 ? (first_frame != 0 || force_redirect != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (this->opengl_always != 0 ? (first_frame != 0 || force_redirect != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
     static unsigned int count = (unsigned int)0;
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
     {
       do
         if(SysLogLevel >= 3)
           x_syslog(7, "[vdr-sxfe]  ", "redirecting video to opengl frame texture");
 
       while((_Bool)0);
-      xine_port_send_gui_data(this->$anon0.x.video_port, 2, (void *)this->video_frame_pixmap);
+      xine_port_send_gui_data(this->_anon0.x.video_port, 2, (void *)this->video_frame_pixmap);
       draw_frame = 0;
       count = (unsigned int)0;
       osd_alpha = osd_alpha - (float)2 * osd_alpha_step;
@@ -15820,7 +15820,7 @@ static void * opengl_draw_frame_thread(void *arg)
                   x_syslog(7, "[vdr-sxfe]  ", "redirecting video to window");
 
               while((_Bool)0);
-              xine_port_send_gui_data(this->$anon0.x.video_port, 2, (void *)this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)]);
+              xine_port_send_gui_data(this->_anon0.x.video_port, 2, (void *)this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)]);
               count = (unsigned int)0;
             }
 
@@ -15906,13 +15906,13 @@ static void * opengl_draw_frame_thread(void *arg)
               if(SysLogLevel >= 1)
               {
                 x_syslog(3, "[vdr-sxfe]  ", "Can't update hud image texture");
-                signed int *return_value___errno_location$10;
-                return_value___errno_location$10=__errno_location();
-                if(!(*return_value___errno_location$10 == 0))
+                signed int *return_value___errno_location_10;
+                return_value___errno_location_10=__errno_location();
+                if(!(*return_value___errno_location_10 == 0))
                 {
-                  return_value___errno_location$8=__errno_location();
-                  return_value_strerror$9=strerror(*return_value___errno_location$8);
-                  x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 2139, return_value_strerror$9);
+                  return_value___errno_location_8=__errno_location();
+                  return_value_strerror_9=strerror(*return_value___errno_location_8);
+                  x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 2139, return_value_strerror_9);
                 }
 
               }
@@ -15942,18 +15942,18 @@ static void * opengl_draw_frame_thread(void *arg)
     }
 
     if(window_mapped == 0 && count == 2u && !(this->osd_visible == 0))
-      tmp_if_expr$12 = (_Bool)1;
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
       if(!(first_frame == 0))
-        tmp_if_expr$11 = this->opengl_always != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = this->opengl_always != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$11 = (_Bool)0;
-      tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = (_Bool)0;
+      tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
     }
-    if(!(force_redirect == 0) || tmp_if_expr$12)
+    if(!(force_redirect == 0) || tmp_if_expr_12)
     {
       do
         if(SysLogLevel >= 3)
@@ -16021,7 +16021,7 @@ static void opengl_fill_argb(unsigned int *dst, signed int dst_pitch, struct osd
   signed int h = ((signed int)cmd->dirty_area.y2 - (signed int)cmd->dirty_area.y1) + 1;
   signed int x;
   signed int y;
-  unsigned int *src = (unsigned int *)cmd->$anon0.raw_data;
+  unsigned int *src = (unsigned int *)cmd->_anon0.raw_data;
   dst = dst + (signed long int)(((signed int)cmd->y + y0) * dst_pitch + (signed int)cmd->x + x0);
   src = src + (signed long int)(y0 * (signed int)cmd->w + x0);
   y = h;
@@ -16045,7 +16045,7 @@ static void opengl_frame_output_cb(void *data, signed int video_width, signed in
   struct sxfe_s *this = (struct sxfe_s *)data;
   opengl_trigger_drawing_thread(this);
   opengl_wait_drawing_finished(this);
-  this->$anon0.x.frame_output_handler(data, video_width, video_height, video_pixel_aspect, dest_x, dest_y, dest_width, dest_height, dest_pixel_aspect, win_x, win_y);
+  this->_anon0.x.frame_output_handler(data, video_width, video_height, video_pixel_aspect, dest_x, dest_y, dest_width, dest_height, dest_pixel_aspect, win_x, win_y);
 }
 
 // opengl_init
@@ -16057,23 +16057,23 @@ static signed int opengl_init(struct sxfe_s *this)
   signed int n;
   struct __GLXFBConfigRec **fbconfigs;
   struct __GLXFBConfigRec *fbcroot;
-  struct anonymous$8 attr;
-  struct anonymous$17 *visinfo;
+  struct anonymous_8 attr;
+  struct anonymous_17 *visinfo;
   const char *gl_version;
   signed int gl_major;
   signed int gl_minor;
   signed int fbc_attr2[10l] = { 4, 8, 1, 9, 1, 10, 1, 5, 1, (signed int)0L };
   unsigned long int glxpixmap;
   const char *glxExtensions;
-  signed int return_value_opengl_init_dl$1;
-  return_value_opengl_init_dl$1=opengl_init_dl(this);
-  _Bool tmp_if_expr$4;
-  char *return_value_strstr$3;
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
-  if(!(return_value_opengl_init_dl$1 >= 0))
+  signed int return_value_opengl_init_dl_1;
+  return_value_opengl_init_dl_1=opengl_init_dl(this);
+  _Bool tmp_if_expr_4;
+  char *return_value_strstr_3;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
+  if(!(return_value_opengl_init_dl_1 >= 0))
     return -1;
 
   else
@@ -16083,9 +16083,9 @@ static signed int opengl_init(struct sxfe_s *this)
         x_syslog(7, "[vdr-sxfe]  ", "Get GLX version ...");
 
     while((_Bool)0);
-    signed int return_value_glXQueryVersion$2;
-    return_value_glXQueryVersion$2=glXQueryVersion(this->display, &glx_major, &glx_minor);
-    if(return_value_glXQueryVersion$2 == 0)
+    signed int return_value_glXQueryVersion_2;
+    return_value_glXQueryVersion_2=glXQueryVersion(this->display, &glx_major, &glx_minor);
+    if(return_value_glXQueryVersion_2 == 0)
     {
       do
         if(SysLogLevel >= 2)
@@ -16107,14 +16107,14 @@ static signed int opengl_init(struct sxfe_s *this)
         const char *exts;
         exts=glXQueryExtensionsString(this->display, this->screen);
         if(exts == ((const char *)NULL))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_strstr$3=strstr(exts, "GLX_SGIX_fbconfig");
-          tmp_if_expr$4 = !(return_value_strstr$3 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+          return_value_strstr_3=strstr(exts, "GLX_SGIX_fbconfig");
+          tmp_if_expr_4 = !(return_value_strstr_3 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           do
             if(SysLogLevel >= 2)
@@ -16144,9 +16144,9 @@ static signed int opengl_init(struct sxfe_s *this)
       else
       {
         glxExtensions=glXQueryExtensionsString(this->display, this->screen);
-        char *return_value_strstr$5;
-        return_value_strstr$5=strstr(glxExtensions, "GLX_EXT_texture_from_pixmap");
-        if(return_value_strstr$5 == ((char *)NULL))
+        char *return_value_strstr_5;
+        return_value_strstr_5=strstr(glxExtensions, "GLX_EXT_texture_from_pixmap");
+        if(return_value_strstr_5 == ((char *)NULL))
         {
           do
             if(SysLogLevel >= 2)
@@ -16163,15 +16163,15 @@ static signed int opengl_init(struct sxfe_s *this)
               x_syslog(7, "[vdr-sxfe]  ", "Found texture from pixmap extension");
 
           while((_Bool)0);
-          signed int return_value_opengl_init_dl$6;
-          return_value_opengl_init_dl$6=opengl_init_dl(this);
-          if(!(return_value_opengl_init_dl$6 >= 0))
+          signed int return_value_opengl_init_dl_6;
+          return_value_opengl_init_dl_6=opengl_init_dl(this);
+          if(!(return_value_opengl_init_dl_6 >= 0))
             return -1;
 
           else
           {
-            this->screen_width = (&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->width;
-            this->screen_height = (&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->height;
+            this->screen_width = (&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->width;
+            this->screen_height = (&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->height;
             static const signed int fbc_attr[21l] = { 0x8010, 0x00000002 | 0x00000001, 0x20D3, 0x00000002, 0x20D1, 1, 5, 1, 12, 0, 11, 0, 8, 1, 9, 1, 10, 1, 0x8011, 0x00000001, (const signed int)0L };
             fbconfigs=glXChooseFBConfig(this->display, this->screen, fbc_attr, &n);
             if(fbconfigs == ((struct __GLXFBConfigRec **)NULL))
@@ -16194,7 +16194,7 @@ static signed int opengl_init(struct sxfe_s *this)
               this->opengl_window=XCreateWindow(this->display, this->root_window, 0, 0, (unsigned int)this->screen_width, (unsigned int)this->screen_height, (unsigned int)0, visinfo->depth, (unsigned int)1, visinfo->visual, (unsigned long int)(1L << 13 | 1L << 9), &attr);
               XSelectInput(this->display, this->opengl_window, 1L << 17 | 1L << 15 | 1L << 0 | 1L << 2 | 1L << 21);
               if(!(this->xshape_hud == 0))
-                XShapeCombineRectangles(this->display, this->opengl_window, 2, 0, 0, (struct anonymous$20 *)(void *)0, 0, 0, 0);
+                XShapeCombineRectangles(this->display, this->opengl_window, 2, 0, 0, (struct anonymous_20 *)(void *)0, 0, 0, 0);
 
               this->opengl_context=glXCreateContext(this->display, visinfo, ((struct __GLXcontextRec *)NULL), 1);
               XFree((void *)visinfo);
@@ -16204,13 +16204,13 @@ static signed int opengl_init(struct sxfe_s *this)
                   if(SysLogLevel >= 1)
                   {
                     x_syslog(3, "[vdr-sxfe]  ", "Can't create glx context");
-                    signed int *return_value___errno_location$9;
-                    return_value___errno_location$9=__errno_location();
-                    if(!(*return_value___errno_location$9 == 0))
+                    signed int *return_value___errno_location_9;
+                    return_value___errno_location_9=__errno_location();
+                    if(!(*return_value___errno_location_9 == 0))
                     {
-                      return_value___errno_location$7=__errno_location();
-                      return_value_strerror$8=strerror(*return_value___errno_location$7);
-                      x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1916, return_value_strerror$8);
+                      return_value___errno_location_7=__errno_location();
+                      return_value_strerror_8=strerror(*return_value___errno_location_7);
+                      x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1916, return_value_strerror_8);
                     }
 
                   }
@@ -16222,22 +16222,22 @@ static signed int opengl_init(struct sxfe_s *this)
               else
               {
                 glXMakeCurrent(this->display, this->opengl_window, this->opengl_context);
-                const unsigned char *return_value_glGetString$13;
-                return_value_glGetString$13=glGetString((unsigned int)0x1F02);
-                gl_version = (const char *)return_value_glGetString$13;
+                const unsigned char *return_value_glGetString_13;
+                return_value_glGetString_13=glGetString((unsigned int)0x1F02);
+                gl_version = (const char *)return_value_glGetString_13;
                 if(gl_version == ((const char *)NULL))
                 {
                   do
                     if(SysLogLevel >= 1)
                     {
                       x_syslog(3, "[vdr-sxfe]  ", "Failed to initialize GL");
-                      signed int *return_value___errno_location$12;
-                      return_value___errno_location$12=__errno_location();
-                      if(!(*return_value___errno_location$12 == 0))
+                      signed int *return_value___errno_location_12;
+                      return_value___errno_location_12=__errno_location();
+                      if(!(*return_value___errno_location_12 == 0))
                       {
-                        return_value___errno_location$10=__errno_location();
-                        return_value_strerror$11=strerror(*return_value___errno_location$10);
-                        x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1922, return_value_strerror$11);
+                        return_value___errno_location_10=__errno_location();
+                        return_value_strerror_11=strerror(*return_value___errno_location_10);
+                        x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1922, return_value_strerror_11);
                       }
 
                     }
@@ -16280,8 +16280,8 @@ static signed int opengl_init(struct sxfe_s *this)
                       glBlendFunc((unsigned int)0x0302, (unsigned int)0x0303);
                       glClearColor((float)0.0, (float)0.0, (float)0.0, (float)1.0);
                       set_cursor(this->display, this->opengl_window, 0);
-                      this->video_frame_pixmap=XCreatePixmap(this->display, this->opengl_window, (unsigned int)this->screen_width, (unsigned int)this->screen_height, (unsigned int)(&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->root_depth);
-                      this->video_frame_gc=XCreateGC(this->display, this->video_frame_pixmap, (unsigned long int)0, (struct anonymous$77 *)(void *)0);
+                      this->video_frame_pixmap=XCreatePixmap(this->display, this->opengl_window, (unsigned int)this->screen_width, (unsigned int)this->screen_height, (unsigned int)(&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->root_depth);
+                      this->video_frame_gc=XCreateGC(this->display, this->video_frame_pixmap, (unsigned long int)0, (struct anonymous_77 *)(void *)0);
                       static const signed int pixmapAttribs[5l] = { 0x20D6, 0x20DC, 0x20D5, 0x20DA, (const signed int)0L };
                       glxpixmap=glXCreatePixmap(this->display, fbcroot, this->video_frame_pixmap, pixmapAttribs);
                       glGenTextures(1, &this->video_frame_texture);
@@ -16311,23 +16311,23 @@ static signed int opengl_init_dl(struct sxfe_s *this)
 {
   void *dlhand;
   dlhand=dlopen((const char *)(void *)0, 0x00001);
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(dlhand == NULL)
   {
     do
       if(SysLogLevel >= 1)
       {
-        char *return_value_dlerror$1;
-        return_value_dlerror$1=dlerror();
-        x_syslog(3, "[vdr-sxfe]  ", "opengl_init(): dlopen failed (%s)", return_value_dlerror$1);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(!(*return_value___errno_location$4 == 0))
+        char *return_value_dlerror_1;
+        return_value_dlerror_1=dlerror();
+        x_syslog(3, "[vdr-sxfe]  ", "opengl_init(): dlopen failed (%s)", return_value_dlerror_1);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(!(*return_value___errno_location_4 == 0))
         {
-          return_value___errno_location$2=__errno_location();
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1730, return_value_strerror$3);
+          return_value___errno_location_2=__errno_location();
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 1730, return_value_strerror_3);
         }
 
       }
@@ -16339,9 +16339,9 @@ static signed int opengl_init_dl(struct sxfe_s *this)
   else
   {
     void * (*glXGetProcAddressARB)(unsigned char *) = (void * (*)(unsigned char *))(void *)0;
-    void *return_value_dlsym$5;
-    return_value_dlsym$5=dlsym(dlhand, "glXGetProcAddressARB");
-    glXGetProcAddressARB = (void * (*)(unsigned char *))return_value_dlsym$5;
+    void *return_value_dlsym_5;
+    return_value_dlsym_5=dlsym(dlhand, "glXGetProcAddressARB");
+    glXGetProcAddressARB = (void * (*)(unsigned char *))return_value_dlsym_5;
     if(!(glXGetProcAddressARB == ((void * (*)(unsigned char *))NULL)))
     {
       void *return_value;
@@ -16364,12 +16364,12 @@ static signed int opengl_init_dl(struct sxfe_s *this)
 
       while((_Bool)0);
       dlerror();
-      void *return_value_dlsym$6;
-      return_value_dlsym$6=dlsym(dlhand, "glXBindTexImageEXT");
-      bindTexImage = (void (*)(struct _XDisplay *, unsigned long int, signed int, signed int *))return_value_dlsym$6;
-      char *return_value_dlerror$7;
-      return_value_dlerror$7=dlerror();
-      if(!(return_value_dlerror$7 == ((char *)NULL)))
+      void *return_value_dlsym_6;
+      return_value_dlsym_6=dlsym(dlhand, "glXBindTexImageEXT");
+      bindTexImage = (void (*)(struct _XDisplay *, unsigned long int, signed int, signed int *))return_value_dlsym_6;
+      char *return_value_dlerror_7;
+      return_value_dlerror_7=dlerror();
+      if(!(return_value_dlerror_7 == ((char *)NULL)))
       {
         do
           if(SysLogLevel >= 2)
@@ -16395,15 +16395,15 @@ static signed int opengl_init_dl(struct sxfe_s *this)
 static signed int opengl_osd_command(struct frontend_s *this_gen, struct osd_command_s *cmd)
 {
   struct sxfe_s *this = (struct sxfe_s *)this_gen;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(cmd == ((struct osd_command_s *)NULL)) && !(this == ((struct sxfe_s *)NULL)))
   {
     if(!(this->opengl_always == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = this->opengl_hud != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = this->opengl_hud != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       osd_command(this, cmd);
       if((0x10 & (signed int)cmd->flags) == 0)
@@ -16474,7 +16474,7 @@ static void opengl_osd_draw(struct sxfe_s *this, struct osd_command_s *cmd)
     }
     case 2:
     {
-      rle_uncompress_rgba(dst + (signed long int)((signed int)cmd->y * (signed int)this->osd_width) + (signed long int)cmd->x, (unsigned int)cmd->w, (unsigned int)cmd->h, (unsigned int)this->osd_width, cmd->$anon0.data, cmd->num_rle, cmd->$anon1.palette, cmd->colors);
+      rle_uncompress_rgba(dst + (signed long int)((signed int)cmd->y * (signed int)this->osd_width) + (signed long int)cmd->x, (unsigned int)cmd->w, (unsigned int)cmd->h, (unsigned int)this->osd_width, cmd->_anon0.data, cmd->num_rle, cmd->_anon1.palette, cmd->colors);
       break;
     }
     default:
@@ -16511,9 +16511,9 @@ static void opengl_osd_show(struct sxfe_s *this)
     this->video_win_active = (unsigned char)0;
     free((void *)this->opengl_osd_texture_img);
     unsigned long int size = sizeof(unsigned int) /*4ul*/  * (unsigned long int)this->osd_width * (unsigned long int)this->osd_height;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size);
-    this->opengl_osd_texture_img = (unsigned int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size);
+    this->opengl_osd_texture_img = (unsigned int *)return_value_malloc_1;
     memset((void *)this->opengl_osd_texture_img, 0, size);
     this->opengl_osd_texture_img_updated = (unsigned char)1;
     pthread_mutex_unlock(&this->opengl_osd_texture_img_mutex);
@@ -16531,13 +16531,13 @@ static signed int opengl_start(struct sxfe_s *this)
       x_syslog(7, "[vdr-sxfe]  ", "sxfe_display_open: starting opengl drawing thread");
 
   while((_Bool)0);
-  pthread_mutex_init(&this->opengl_redraw_mutex, (const union anonymous$12 *)(void *)0);
-  pthread_cond_init(&this->opengl_redraw_cv, (const union anonymous$12 *)(void *)0);
+  pthread_mutex_init(&this->opengl_redraw_mutex, (const union anonymous_12 *)(void *)0);
+  pthread_cond_init(&this->opengl_redraw_cv, (const union anonymous_12 *)(void *)0);
   this->opengl_redraw_request_nr = (unsigned int)0;
   this->opengl_redraw_served_nr = (unsigned int)0;
-  pthread_mutex_init(&this->opengl_redraw_finished_mutex, (const union anonymous$12 *)(void *)0);
-  pthread_cond_init(&this->opengl_redraw_finished_cv, (const union anonymous$12 *)(void *)0);
-  pthread_mutex_init(&this->opengl_osd_texture_img_mutex, (const union anonymous$12 *)(void *)0);
+  pthread_mutex_init(&this->opengl_redraw_finished_mutex, (const union anonymous_12 *)(void *)0);
+  pthread_cond_init(&this->opengl_redraw_finished_cv, (const union anonymous_12 *)(void *)0);
+  pthread_mutex_init(&this->opengl_osd_texture_img_mutex, (const union anonymous_12 *)(void *)0);
   union pthread_attr_t attr;
   struct sched_param param;
   pthread_attr_init(&attr);
@@ -16546,41 +16546,41 @@ static signed int opengl_start(struct sxfe_s *this)
   param.__sched_priority=sched_get_priority_min(0);
   pthread_attr_setschedparam(&attr, &param);
   pthread_attr_setscope(&attr, 0);
-  this->$anon0.x.$anon0.vis_x11.frame_output_cb = opengl_frame_output_cb;
-  this->$anon0.fe.xine_osd_command = opengl_osd_command;
+  this->_anon0.x._anon0.vis_x11.frame_output_cb = opengl_frame_output_cb;
+  this->_anon0.fe.xine_osd_command = opengl_osd_command;
   this->osd_width = (unsigned short int)720;
   this->osd_height = (unsigned short int)576;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)this->osd_width * (unsigned long int)this->osd_height);
-  this->opengl_osd_texture_img = (unsigned int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)this->osd_width * (unsigned long int)this->osd_height);
+  this->opengl_osd_texture_img = (unsigned int *)return_value_malloc_1;
   memset((void *)this->opengl_osd_texture_img, 0, sizeof(unsigned int) /*4ul*/  * (unsigned long int)this->osd_width * (unsigned long int)this->osd_height);
   this->opengl_osd_texture_img_updated = (unsigned char)0;
   signed int dummy;
-  signed int return_value_XShapeQueryExtension$2;
-  return_value_XShapeQueryExtension$2=XShapeQueryExtension(this->display, &dummy, &dummy);
-  if(!(return_value_XShapeQueryExtension$2 == 0))
+  signed int return_value_XShapeQueryExtension_2;
+  return_value_XShapeQueryExtension_2=XShapeQueryExtension(this->display, &dummy, &dummy);
+  if(!(return_value_XShapeQueryExtension_2 == 0))
     this->opengl_xshape_available = (unsigned char)1;
 
   else
     this->opengl_xshape_available = (unsigned char)0;
-  signed int return_value_pthread_create$6;
-  return_value_pthread_create$6=pthread_create(&this->opengl_drawing_thread, &attr, opengl_draw_frame_thread, (void *)this);
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  if(!(return_value_pthread_create$6 == 0))
+  signed int return_value_pthread_create_6;
+  return_value_pthread_create_6=pthread_create(&this->opengl_drawing_thread, &attr, opengl_draw_frame_thread, (void *)this);
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  if(!(return_value_pthread_create_6 == 0))
   {
     pthread_attr_destroy(&attr);
     do
       if(SysLogLevel >= 1)
       {
         x_syslog(3, "[vdr-sxfe]  ", "sxfe_display_open: can not start OpenGL drawing thread");
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        if(!(*return_value___errno_location$5 == 0))
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        if(!(*return_value___errno_location_5 == 0))
         {
-          return_value___errno_location$3=__errno_location();
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 2228, return_value_strerror$4);
+          return_value___errno_location_3=__errno_location();
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 2228, return_value_strerror_4);
         }
 
       }
@@ -16623,8 +16623,8 @@ void opengl_wait_drawing_finished(struct sxfe_s *this)
 // file xine_sxfe_frontend.c line 662
 static signed int osd_command(struct sxfe_s *this, struct osd_command_s *cmd)
 {
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   switch((signed int)cmd->cmd)
   {
     case 1:
@@ -16638,17 +16638,17 @@ static signed int osd_command(struct sxfe_s *this, struct osd_command_s *cmd)
 
       while((_Bool)0);
       if((signed int)cmd->w >= 1)
-        tmp_if_expr$1 = (signed int)cmd->w;
+        tmp_if_expr_1 = (signed int)cmd->w;
 
       else
-        tmp_if_expr$1 = 720;
-      this->osd_width = (unsigned short int)tmp_if_expr$1;
+        tmp_if_expr_1 = 720;
+      this->osd_width = (unsigned short int)tmp_if_expr_1;
       if((signed int)cmd->h >= 1)
-        tmp_if_expr$2 = (signed int)cmd->h;
+        tmp_if_expr_2 = (signed int)cmd->h;
 
       else
-        tmp_if_expr$2 = 576;
-      this->osd_height = (unsigned short int)tmp_if_expr$2;
+        tmp_if_expr_2 = 576;
+      this->osd_height = (unsigned short int)tmp_if_expr_2;
       break;
     }
     case 9:
@@ -16693,12 +16693,12 @@ static void osd_data_dispose(struct osd_data_s *data)
 static struct osd_data_s * osd_data_init(struct vo_overlay_s *ovl, struct osd_data_s *next, unsigned int factor_x, unsigned int factor_y)
 {
   struct osd_data_s *data;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct osd_data_s) /*2688ul*/ );
-  data = (struct osd_data_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct osd_data_s) /*2688ul*/ );
+  data = (struct osd_data_s *)return_value_calloc_1;
   data->source = ovl;
   data->next = next;
-  memcpy$link3((void *)&data->ovl, (const void *)ovl, sizeof(struct vo_overlay_s) /*2656ul*/ );
+  memcpy_link3((void *)&data->ovl, (const void *)ovl, sizeof(struct vo_overlay_s) /*2656ul*/ );
   signed int num_rle = data->ovl.num_rle;
   signed int x2 = ovl->x + ovl->width + 1;
   signed int y2 = ovl->y + ovl->height + 1;
@@ -16728,9 +16728,9 @@ static struct osd_data_s * osd_data_init(struct vo_overlay_s *ovl, struct osd_da
 
   }
 
-  struct osd_rle_elem_s *return_value_rle_scale_nearest$2;
-  return_value_rle_scale_nearest$2=rle_scale_nearest((struct osd_rle_elem_s *)ovl->rle, &num_rle, (unsigned int)ovl->width, (unsigned int)ovl->height, (unsigned int)data->ovl.width, (unsigned int)data->ovl.height);
-  data->ovl.rle = (struct rle_elem_s *)return_value_rle_scale_nearest$2;
+  struct osd_rle_elem_s *return_value_rle_scale_nearest_2;
+  return_value_rle_scale_nearest_2=rle_scale_nearest((struct osd_rle_elem_s *)ovl->rle, &num_rle, (unsigned int)ovl->width, (unsigned int)ovl->height, (unsigned int)data->ovl.width, (unsigned int)data->ovl.height);
+  data->ovl.rle = (struct rle_elem_s *)return_value_rle_scale_nearest_2;
   data->ovl.num_rle = num_rle;
   data->scaled = (unsigned char)1;
   return data;
@@ -16740,13 +16740,13 @@ static struct osd_data_s * osd_data_init(struct vo_overlay_s *ovl, struct osd_da
 // file xine/vo_osdscaler.c line 99
 static void osd_data_remove(struct osd_data_s **list, struct osd_data_s *data)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(list == ((struct osd_data_s **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*list != ((struct osd_data_s *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(*list != ((struct osd_data_s *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     if(data == *list)
     {
@@ -16777,15 +16777,15 @@ __CPROVER_DUMP_L7:
 // file xine_sxfe_frontend.c line 602
 static void osd_fill_lut8(unsigned int *dst, signed int dst_pitch, signed int argb, struct osd_command_s *cmd)
 {
-  unsigned char *data = cmd->$anon0.raw_data;
+  unsigned char *data = cmd->_anon0.raw_data;
   unsigned int x;
   unsigned int y;
   unsigned int lut[256l];
   if(!(argb == 0))
-    rle_palette_to_argb(lut, cmd->$anon1.palette, cmd->colors);
+    rle_palette_to_argb(lut, cmd->_anon1.palette, cmd->colors);
 
   else
-    rle_palette_to_rgba(lut, cmd->$anon1.palette, cmd->colors);
+    rle_palette_to_rgba(lut, cmd->_anon1.palette, cmd->colors);
   dst = dst + (signed long int)((signed int)cmd->y * dst_pitch + (signed int)cmd->x);
   y = (unsigned int)cmd->h;
   for( ; !(y == 0u); y = y - 1u)
@@ -16809,7 +16809,7 @@ static signed int osd_level(struct vo_overlay_s *overlay)
 
   else
   {
-    struct anonymous$81 *data = (struct anonymous$81 *)overlay->hili_color;
+    struct anonymous_81 *data = (struct anonymous_81 *)overlay->hili_color;
     return (signed int)data->layer;
   }
 }
@@ -16818,10 +16818,10 @@ static signed int osd_level(struct vo_overlay_s *overlay)
 // file xine/vo_osdreorder.c line 92
 struct vo_driver_s * osd_reorder_init(void)
 {
-  struct anonymous$82 *this;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$82) /*528ul*/ );
-  this = (struct anonymous$82 *)return_value_calloc$1;
+  struct anonymous_82 *this;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_82) /*528ul*/ );
+  this = (struct anonymous_82 *)return_value_calloc_1;
   this->h.vo.overlay_blend = osdreorder_overlay_blend;
   this->h.vo.overlay_end = osdreorder_overlay_end;
   return &this->h.vo;
@@ -16836,44 +16836,44 @@ static void osd_set_video_window(struct sxfe_s *this, struct osd_command_s *cmd)
       x_syslog(7, "[vdr-sxfe]  ", "unscaled video window: %d,%d %dx%d", cmd->x, cmd->y, cmd->w, cmd->h);
 
   while((_Bool)0);
-  double scale_x = (double)this->$anon0.x.width / (double)this->osd_width;
-  double scale_y = (double)this->$anon0.x.height / (double)this->osd_height;
+  double scale_x = (double)this->_anon0.x.width / (double)this->osd_width;
+  double scale_y = (double)this->_anon0.x.height / (double)this->osd_height;
   signed int x = (signed int)cmd->x;
   signed int y = (signed int)cmd->y;
   signed int w = (signed int)cmd->w;
   signed int h = (signed int)cmd->h;
-  double return_value_ceil$1;
-  return_value_ceil$1=ceil((double)(x > 0 ? x - 1 : 0) * scale_x);
-  x = (signed int)return_value_ceil$1;
-  double return_value_ceil$2;
-  return_value_ceil$2=ceil((double)(y > 0 ? y - 1 : 0) * scale_y);
-  y = (signed int)return_value_ceil$2;
-  double return_value_floor$3;
-  return_value_floor$3=floor((double)(w + 2) * scale_x);
-  w = (signed int)return_value_floor$3;
-  double return_value_floor$4;
-  return_value_floor$4=floor((double)(h + 2) * scale_y);
-  h = (signed int)return_value_floor$4;
+  double return_value_ceil_1;
+  return_value_ceil_1=ceil((double)(x > 0 ? x - 1 : 0) * scale_x);
+  x = (signed int)return_value_ceil_1;
+  double return_value_ceil_2;
+  return_value_ceil_2=ceil((double)(y > 0 ? y - 1 : 0) * scale_y);
+  y = (signed int)return_value_ceil_2;
+  double return_value_floor_3;
+  return_value_floor_3=floor((double)(w + 2) * scale_x);
+  w = (signed int)return_value_floor_3;
+  double return_value_floor_4;
+  return_value_floor_4=floor((double)(h + 2) * scale_y);
+  h = (signed int)return_value_floor_4;
   pthread_mutex_lock(&this->video_win_mutex);
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(x == (signed int)this->video_win_x))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = y != (signed int)this->video_win_y ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_5 = y != (signed int)this->video_win_y ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = w != (signed int)this->video_win_w ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_6 = w != (signed int)this->video_win_w ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = h != (signed int)this->video_win_h ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = h != (signed int)this->video_win_h ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_7)
     this->video_win_changed = (unsigned char)1;
 
   this->video_win_x = (unsigned short int)x;
@@ -16893,23 +16893,23 @@ static void osd_set_video_window(struct sxfe_s *this, struct osd_command_s *cmd)
 // file xine/vo_osdreorder.c line 53
 static void osdreorder_overlay_blend(struct vo_driver_s *self, struct vo_frame_s *frame, struct vo_overlay_s *overlay)
 {
-  struct anonymous$82 *this = (struct anonymous$82 *)self;
+  struct anonymous_82 *this = (struct anonymous_82 *)self;
   signed int my_level;
   my_level=osd_level(overlay);
   signed int i = 0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_osd_level$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_osd_level_1;
   do
   {
     if(!(this->overlay[(signed long int)i] == ((struct vo_overlay_s *)NULL)))
     {
-      return_value_osd_level$1=osd_level(this->overlay[(signed long int)i]);
-      tmp_if_expr$2 = return_value_osd_level$1 >= my_level ? (_Bool)1 : (_Bool)0;
+      return_value_osd_level_1=osd_level(this->overlay[(signed long int)i]);
+      tmp_if_expr_2 = return_value_osd_level_1 >= my_level ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     i = i + 1;
@@ -16929,7 +16929,7 @@ __CPROVER_DUMP_L6:
 // file xine/vo_osdreorder.c line 74
 static void osdreorder_overlay_end(struct vo_driver_s *self, struct vo_frame_s *vo_img)
 {
-  struct anonymous$82 *this = (struct anonymous$82 *)self;
+  struct anonymous_82 *this = (struct anonymous_82 *)self;
   signed int i = 0;
   if(!(this->overlay[(signed long int)i] == ((struct vo_overlay_s *)NULL)))
   {
@@ -16947,7 +16947,7 @@ static void osdreorder_overlay_end(struct vo_driver_s *self, struct vo_frame_s *
 // file xine/vo_osdscaler.c line 457
 static void osdscaler_dispose(struct vo_driver_s *self)
 {
-  struct anonymous$80 *this = (struct anonymous$80 *)self;
+  struct anonymous_80 *this = (struct anonymous_80 *)self;
   osd_data_clear(this->active_osds);
   vo_def_dispose(self);
 }
@@ -16956,32 +16956,32 @@ static void osdscaler_dispose(struct vo_driver_s *self)
 // file xine/vo_osdscaler.c line 411
 static unsigned int osdscaler_get_capabilities(struct vo_driver_s *self)
 {
-  unsigned int return_value_vo_def_get_capabilities$1;
-  return_value_vo_def_get_capabilities$1=vo_def_get_capabilities(self);
-  return return_value_vo_def_get_capabilities$1 | (unsigned int)0x01000000;
+  unsigned int return_value_vo_def_get_capabilities_1;
+  return_value_vo_def_get_capabilities_1=vo_def_get_capabilities(self);
+  return return_value_vo_def_get_capabilities_1 | (unsigned int)0x01000000;
 }
 
 // osdscaler_get_property
 // file xine/vo_osdscaler.c line 420
 static signed int osdscaler_get_property(struct vo_driver_s *self, signed int prop)
 {
-  struct anonymous$80 *this = (struct anonymous$80 *)self;
+  struct anonymous_80 *this = (struct anonymous_80 *)self;
   if(prop == 0x1001)
     return (signed int)this->enable;
 
-  signed int return_value_vo_def_get_property$1;
-  return_value_vo_def_get_property$1=vo_def_get_property(self, prop);
-  return return_value_vo_def_get_property$1;
+  signed int return_value_vo_def_get_property_1;
+  return_value_vo_def_get_property_1=vo_def_get_property(self, prop);
+  return return_value_vo_def_get_property_1;
 }
 
 // osdscaler_init
 // file xine/vo_osdscaler.c line 470
 struct vo_driver_s * osdscaler_init(void)
 {
-  struct anonymous$80 *this;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$80) /*160ul*/ );
-  this = (struct anonymous$80 *)return_value_calloc$1;
+  struct anonymous_80 *this;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_80) /*160ul*/ );
+  this = (struct anonymous_80 *)return_value_calloc_1;
   this->h.vo.overlay_begin = osdscaler_overlay_begin;
   this->h.vo.overlay_blend = osdscaler_overlay_blend;
   this->h.vo.overlay_end = osdscaler_overlay_end;
@@ -16997,7 +16997,7 @@ struct vo_driver_s * osdscaler_init(void)
 // file xine/vo_osdscaler.c line 208
 static void osdscaler_overlay_begin(struct vo_driver_s *self, struct vo_frame_s *frame, signed int changed)
 {
-  struct anonymous$80 *this = (struct anonymous$80 *)self;
+  struct anonymous_80 *this = (struct anonymous_80 *)self;
   if(this->h.orig_driver == ((struct vo_driver_s *)NULL))
   {
     do
@@ -17013,9 +17013,9 @@ static void osdscaler_overlay_begin(struct vo_driver_s *self, struct vo_frame_s 
     osd_data_clear(this->active_osds);
     this->active_osds = (struct osd_data_s *)(void *)0;
     unsigned long int caps;
-    unsigned int return_value_vo_def_get_capabilities$1;
-    return_value_vo_def_get_capabilities$1=vo_def_get_capabilities(self);
-    caps = (unsigned long int)return_value_vo_def_get_capabilities$1;
+    unsigned int return_value_vo_def_get_capabilities_1;
+    return_value_vo_def_get_capabilities_1=vo_def_get_capabilities(self);
+    caps = (unsigned long int)return_value_vo_def_get_capabilities_1;
     this->unscaled_supported = (unsigned char)!(!((caps & (unsigned long int)0x00000010) != 0ul));
     this->custom_extent_supported = (unsigned char)!(!((caps & (unsigned long int)0x01000000) != 0ul));
     this->argb_supported = (unsigned char)!(!((caps & (unsigned long int)0x02000000) != 0ul));
@@ -17031,7 +17031,7 @@ static void osdscaler_overlay_begin(struct vo_driver_s *self, struct vo_frame_s 
 // file xine/vo_osdscaler.c line 380
 static void osdscaler_overlay_blend(struct vo_driver_s *self, struct vo_frame_s *frame, struct vo_overlay_s *overlay)
 {
-  struct anonymous$80 *this = (struct anonymous$80 *)self;
+  struct anonymous_80 *this = (struct anonymous_80 *)self;
   overlay=scale_overlay(this, frame, overlay);
   if(!(this->h.orig_driver->overlay_blend == ((void (*)(struct vo_driver_s *, struct vo_frame_s *, struct vo_overlay_s *))NULL)))
     this->h.orig_driver->overlay_blend(this->h.orig_driver, frame, overlay);
@@ -17042,7 +17042,7 @@ static void osdscaler_overlay_blend(struct vo_driver_s *self, struct vo_frame_s 
 // file xine/vo_osdscaler.c line 394
 static void osdscaler_overlay_end(struct vo_driver_s *self, struct vo_frame_s *vo_img)
 {
-  struct anonymous$80 *this = (struct anonymous$80 *)self;
+  struct anonymous_80 *this = (struct anonymous_80 *)self;
   if(!(this->h.orig_driver->overlay_end == ((void (*)(struct vo_driver_s *, struct vo_frame_s *))NULL)))
     this->h.orig_driver->overlay_end(this->h.orig_driver, vo_img);
 
@@ -17052,7 +17052,7 @@ static void osdscaler_overlay_end(struct vo_driver_s *self, struct vo_frame_s *v
 // file xine/vo_osdscaler.c line 435
 static signed int osdscaler_set_property(struct vo_driver_s *self, signed int prop, signed int val)
 {
-  struct anonymous$80 *this = (struct anonymous$80 *)self;
+  struct anonymous_80 *this = (struct anonymous_80 *)self;
   if(prop == 0x1001)
   {
     if(!((signed int)this->enable == val))
@@ -17061,110 +17061,110 @@ static signed int osdscaler_set_property(struct vo_driver_s *self, signed int pr
     return (signed int)this->enable;
   }
 
-  signed int return_value_vo_def_set_property$1;
-  return_value_vo_def_set_property$1=vo_def_set_property(self, prop, val);
-  return return_value_vo_def_set_property$1;
+  signed int return_value_vo_def_set_property_1;
+  return_value_vo_def_set_property_1=vo_def_set_property(self, prop, val);
+  return return_value_vo_def_set_property_1;
 }
 
 // poll
 // file /usr/include/x86_64-linux-gnu/bits/poll2.h line 36
 static inline signed int poll(struct pollfd *__fds, unsigned long int __nfds, signed int __timeout)
 {
-  signed int return_value___poll_chk$1;
-  signed int return_value___poll_chk_warn$2;
-  signed int return_value___poll_alias$3;
-  return_value___poll_alias$3=__poll_alias(__fds, __nfds, __timeout);
-  return return_value___poll_alias$3;
+  signed int return_value___poll_chk_1;
+  signed int return_value___poll_chk_warn_2;
+  signed int return_value___poll_alias_3;
+  return_value___poll_alias_3=__poll_alias(__fds, __nfds, __timeout);
+  return return_value___poll_alias_3;
 }
 
-// poll$link1
+// poll_link1
 // file /usr/include/x86_64-linux-gnu/bits/poll2.h line 36
-static inline signed int poll$link1(struct pollfd *__fds$link1, unsigned long int __nfds$link1, signed int __timeout$link1)
+static inline signed int poll_link1(struct pollfd *__fds_link1, unsigned long int __nfds_link1, signed int __timeout_link1)
 {
-  signed int return_value___poll_chk$1$link1;
-  signed int return_value___poll_chk_warn$2$link1;
-  signed int return_value___poll_alias$3$link1;
-  return_value___poll_alias$3$link1=__poll_alias(__fds$link1, __nfds$link1, __timeout$link1);
-  return return_value___poll_alias$3$link1;
+  signed int return_value___poll_chk_1_link1;
+  signed int return_value___poll_chk_warn_2_link1;
+  signed int return_value___poll_alias_3_link1;
+  return_value___poll_alias_3_link1=__poll_alias(__fds_link1, __nfds_link1, __timeout_link1);
+  return return_value___poll_alias_3_link1;
 }
 
-// poll$link2
+// poll_link2
 // file /usr/include/x86_64-linux-gnu/bits/poll2.h line 36
-static inline signed int poll$link2(struct pollfd *__fds$link2, unsigned long int __nfds$link2, signed int __timeout$link2)
+static inline signed int poll_link2(struct pollfd *__fds_link2, unsigned long int __nfds_link2, signed int __timeout_link2)
 {
-  signed int return_value___poll_chk$1$link2;
-  signed int return_value___poll_chk_warn$2$link2;
-  signed int return_value___poll_alias$3$link2;
-  return_value___poll_alias$3$link2=__poll_alias(__fds$link2, __nfds$link2, __timeout$link2);
-  return return_value___poll_alias$3$link2;
+  signed int return_value___poll_chk_1_link2;
+  signed int return_value___poll_chk_warn_2_link2;
+  signed int return_value___poll_alias_3_link2;
+  return_value___poll_alias_3_link2=__poll_alias(__fds_link2, __nfds_link2, __timeout_link2);
+  return return_value___poll_alias_3_link2;
 }
 
 // pplugin_parse_and_load
 // file xine/post.c line 229
-static struct anonymous$73 ** pplugin_parse_and_load(struct post_plugins_s$0 *fe, signed int plugin_type, const char *pchain, signed int *post_elements_num)
+static struct anonymous_73 ** pplugin_parse_and_load(struct post_plugins_s_0 *fe, signed int plugin_type, const char *pchain, signed int *post_elements_num)
 {
-  struct anonymous$73 **post_elements = (struct anonymous$73 **)(void *)0;
+  struct anonymous_73 **post_elements = (struct anonymous_73 **)(void *)0;
   *post_elements_num = 0;
-  unsigned long int return_value_strlen$15;
-  char *tmp_statement_expression$2;
-  unsigned long int return_value_strlen$14;
-  char *tmp_post$5;
-  unsigned long int return_value_strlen$7;
-  void *return_value_calloc$8;
-  void *return_value_realloc$9;
-  char *tmp_if_expr$13;
-  char *return_value___strdup$12;
+  unsigned long int return_value_strlen_15;
+  char *tmp_statement_expression_2;
+  unsigned long int return_value_strlen_14;
+  char *tmp_post_5;
+  unsigned long int return_value_strlen_7;
+  void *return_value_calloc_8;
+  void *return_value_realloc_9;
+  char *tmp_if_expr_13;
+  char *return_value___strdup_12;
   if(!(pchain == ((const char *)NULL)))
   {
-    return_value_strlen$15=strlen(pchain);
-    if(!(return_value_strlen$15 == 0ul))
+    return_value_strlen_15=strlen(pchain);
+    if(!(return_value_strlen_15 == 0ul))
     {
       char *post_chain;
       char *freeme;
       char *p;
-      char *return_value___strdup$1;
-      return_value___strdup$1=__strdup(pchain);
-      post_chain = return_value___strdup$1;
+      char *return_value___strdup_1;
+      return_value___strdup_1=__strdup(pchain);
+      post_chain = return_value___strdup_1;
       freeme = post_chain;
       do
       {
         char __r0;
         char __r1;
         char __r2;
-        char *return_value___strsep_g$3;
-        return_value___strsep_g$3=__strsep_g(&post_chain, ";");
-        tmp_statement_expression$2 = return_value___strsep_g$3;
-        p = tmp_statement_expression$2;
+        char *return_value___strsep_g_3;
+        return_value___strsep_g_3=__strsep_g(&post_chain, ";");
+        tmp_statement_expression_2 = return_value___strsep_g_3;
+        p = tmp_statement_expression_2;
         if(p == ((char *)NULL))
           break;
 
         if(!(p == ((char *)NULL)))
         {
-          return_value_strlen$14=strlen(p);
-          if(!(return_value_strlen$14 == 0ul))
+          return_value_strlen_14=strlen(p);
+          if(!(return_value_strlen_14 == 0ul))
           {
             char *plugin;
             char *args = (char *)(void *)0;
-            struct xine_post_s$0 *post;
+            struct xine_post_s_0 *post;
             for( ; (signed int)*p == 32; p = p + 1l)
               ;
-            char *return_value___strdup$4;
-            return_value___strdup$4=__strdup(p);
-            plugin = return_value___strdup$4;
-            char *return_value___builtin_strchr$6;
-            return_value___builtin_strchr$6=__builtin_strchr(plugin, 58);
-            p = return_value___builtin_strchr$6;
+            char *return_value___strdup_4;
+            return_value___strdup_4=__strdup(p);
+            plugin = return_value___strdup_4;
+            char *return_value___builtin_strchr_6;
+            return_value___builtin_strchr_6=__builtin_strchr(plugin, 58);
+            p = return_value___builtin_strchr_6;
             if(!(p == ((char *)NULL)))
             {
-              tmp_post$5 = p;
+              tmp_post_5 = p;
               p = p + 1l;
-              *tmp_post$5 = (char)0;
+              *tmp_post_5 = (char)0;
             }
 
             if(!(p == ((char *)NULL)))
             {
-              return_value_strlen$7=strlen(p);
-              if(return_value_strlen$7 >= 2ul)
+              return_value_strlen_7=strlen(p);
+              if(return_value_strlen_7 >= 2ul)
                 args = p;
 
             }
@@ -17174,48 +17174,48 @@ static struct anonymous$73 ** pplugin_parse_and_load(struct post_plugins_s$0 *fe
 
             else
               post=xine_post_init(fe->xine, plugin, 0, &fe->audio_port, &fe->video_port);
-            if(!(post == ((struct xine_post_s$0 *)NULL)) && !(plugin_type == 0))
+            if(!(post == ((struct xine_post_s_0 *)NULL)) && !(plugin_type == 0))
             {
               if(!(post->type == plugin_type))
               {
                 xine_post_dispose(fe->xine, post);
-                post = (struct xine_post_s$0 *)(void *)0;
+                post = (struct xine_post_s_0 *)(void *)0;
               }
 
             }
 
-            if(!(post == ((struct xine_post_s$0 *)NULL)))
+            if(!(post == ((struct xine_post_s_0 *)NULL)))
             {
               if(*post_elements_num == 0)
               {
-                return_value_calloc$8=calloc((unsigned long int)2, sizeof(struct anonymous$73 *) /*8ul*/ );
-                post_elements = (struct anonymous$73 **)return_value_calloc$8;
+                return_value_calloc_8=calloc((unsigned long int)2, sizeof(struct anonymous_73 *) /*8ul*/ );
+                post_elements = (struct anonymous_73 **)return_value_calloc_8;
               }
 
               else
               {
-                return_value_realloc$9=realloc((void *)post_elements, sizeof(struct anonymous$73 *) /*8ul*/  * (unsigned long int)(*post_elements_num + 2));
-                post_elements = (struct anonymous$73 **)return_value_realloc$9;
+                return_value_realloc_9=realloc((void *)post_elements, sizeof(struct anonymous_73 *) /*8ul*/  * (unsigned long int)(*post_elements_num + 2));
+                post_elements = (struct anonymous_73 **)return_value_realloc_9;
               }
-              void *return_value_calloc$10;
-              return_value_calloc$10=calloc((unsigned long int)1, sizeof(struct anonymous$73) /*32ul*/ );
-              post_elements[(signed long int)*post_elements_num] = (struct anonymous$73 *)return_value_calloc$10;
+              void *return_value_calloc_10;
+              return_value_calloc_10=calloc((unsigned long int)1, sizeof(struct anonymous_73) /*32ul*/ );
+              post_elements[(signed long int)*post_elements_num] = (struct anonymous_73 *)return_value_calloc_10;
               post_elements[(signed long int)*post_elements_num]->post = post;
-              char *return_value___strdup$11;
-              return_value___strdup$11=__strdup(plugin);
-              post_elements[(signed long int)*post_elements_num]->name = return_value___strdup$11;
+              char *return_value___strdup_11;
+              return_value___strdup_11=__strdup(plugin);
+              post_elements[(signed long int)*post_elements_num]->name = return_value___strdup_11;
               if(!(args == ((char *)NULL)))
               {
-                return_value___strdup$12=__strdup(args);
-                tmp_if_expr$13 = return_value___strdup$12;
+                return_value___strdup_12=__strdup(args);
+                tmp_if_expr_13 = return_value___strdup_12;
               }
 
               else
-                tmp_if_expr$13 = (char *)(void *)0;
-              post_elements[(signed long int)*post_elements_num]->args = tmp_if_expr$13;
+                tmp_if_expr_13 = (char *)(void *)0;
+              post_elements[(signed long int)*post_elements_num]->args = tmp_if_expr_13;
               post_elements[(signed long int)*post_elements_num]->enable = 0;
               *post_elements_num = *post_elements_num + 1;
-              post_elements[(signed long int)*post_elements_num] = (struct anonymous$73 *)(void *)0;
+              post_elements[(signed long int)*post_elements_num] = (struct anonymous_73 *)(void *)0;
               __pplugin_update_parameters(post, args);
             }
 
@@ -17236,11 +17236,11 @@ static struct anonymous$73 ** pplugin_parse_and_load(struct post_plugins_s$0 *fe
 
 // pplugin_parse_and_store_post
 // file xine/post.c line 308
-void pplugin_parse_and_store_post(struct post_plugins_s$0 *fe, signed int plugin_type, const char *post_chain)
+void pplugin_parse_and_store_post(struct post_plugins_s_0 *fe, signed int plugin_type, const char *post_chain)
 {
-  struct anonymous$73 ***_post_elements;
+  struct anonymous_73 ***_post_elements;
   signed int *_post_elements_num;
-  struct anonymous$73 **posts = (struct anonymous$73 **)(void *)0;
+  struct anonymous_73 **posts = (struct anonymous_73 **)(void *)0;
   signed int num;
   switch(plugin_type)
   {
@@ -17269,19 +17269,19 @@ void pplugin_parse_and_store_post(struct post_plugins_s$0 *fe, signed int plugin
     }
   }
   posts=pplugin_parse_and_load(fe, plugin_type, post_chain, &num);
-  if(!(posts == ((struct anonymous$73 **)NULL)))
+  if(!(posts == ((struct anonymous_73 **)NULL)))
   {
     if(!(*_post_elements_num == 0))
     {
       signed int i;
       signed int ptot = *_post_elements_num + num;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)*_post_elements, sizeof(struct anonymous$73 *) /*8ul*/  * (unsigned long int)(ptot + 1));
-      *_post_elements = (struct anonymous$73 **)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)*_post_elements, sizeof(struct anonymous_73 *) /*8ul*/  * (unsigned long int)(ptot + 1));
+      *_post_elements = (struct anonymous_73 **)return_value_realloc_1;
       i = *_post_elements_num;
       for( ; !(i >= ptot); i = i + 1)
         (*_post_elements)[(signed long int)i] = posts[(signed long int)(i - *_post_elements_num)];
-      (*_post_elements)[(signed long int)i] = (struct anonymous$73 *)(void *)0;
+      (*_post_elements)[(signed long int)i] = (struct anonymous_73 *)(void *)0;
       *_post_elements_num = *_post_elements_num + num;
     }
 
@@ -17292,24 +17292,24 @@ void pplugin_parse_and_store_post(struct post_plugins_s$0 *fe, signed int plugin
     }
     if(SysLogLevel >= 3)
     {
-      signed int pplugin_parse_and_store_post$$1$$2$$3$$ptot = *_post_elements_num;
-      signed int pplugin_parse_and_store_post$$1$$2$$3$$i;
+      signed int pplugin_parse_and_store_post__1__2__3__ptot = *_post_elements_num;
+      signed int pplugin_parse_and_store_post__1__2__3__i;
       char s[4096l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-      pplugin_parse_and_store_post$$1$$2$$3$$i = 0;
-      for( ; !(pplugin_parse_and_store_post$$1$$2$$3$$i >= pplugin_parse_and_store_post$$1$$2$$3$$ptot); pplugin_parse_and_store_post$$1$$2$$3$$i = pplugin_parse_and_store_post$$1$$2$$3$$i + 1)
-        if(!((*_post_elements)[(signed long int)pplugin_parse_and_store_post$$1$$2$$3$$i] == ((struct anonymous$73 *)NULL)))
+      pplugin_parse_and_store_post__1__2__3__i = 0;
+      for( ; !(pplugin_parse_and_store_post__1__2__3__i >= pplugin_parse_and_store_post__1__2__3__ptot); pplugin_parse_and_store_post__1__2__3__i = pplugin_parse_and_store_post__1__2__3__i + 1)
+        if(!((*_post_elements)[(signed long int)pplugin_parse_and_store_post__1__2__3__i] == ((struct anonymous_73 *)NULL)))
         {
-          if(!((*_post_elements)[(signed long int)pplugin_parse_and_store_post$$1$$2$$3$$i]->post == ((struct xine_post_s$0 *)NULL)))
+          if(!((*_post_elements)[(signed long int)pplugin_parse_and_store_post__1__2__3__i]->post == ((struct xine_post_s_0 *)NULL)))
           {
-            if(!((*_post_elements)[(signed long int)pplugin_parse_and_store_post$$1$$2$$3$$i]->enable == 0))
-              strcat$link1(s, "*");
+            if(!((*_post_elements)[(signed long int)pplugin_parse_and_store_post__1__2__3__i]->enable == 0))
+              strcat_link1(s, "*");
 
-            if(!((*_post_elements)[(signed long int)pplugin_parse_and_store_post$$1$$2$$3$$i]->name == ((char *)NULL)))
-              strcat$link1(s, (*_post_elements)[(signed long int)pplugin_parse_and_store_post$$1$$2$$3$$i]->name);
+            if(!((*_post_elements)[(signed long int)pplugin_parse_and_store_post__1__2__3__i]->name == ((char *)NULL)))
+              strcat_link1(s, (*_post_elements)[(signed long int)pplugin_parse_and_store_post__1__2__3__i]->name);
 
             else
-              strcat$link1(s, "<no name!>");
-            strcat$link1(s, " ");
+              strcat_link1(s, "<no name!>");
+            strcat_link1(s, " ");
           }
 
         }
@@ -17329,44 +17329,44 @@ void pplugin_parse_and_store_post(struct post_plugins_s$0 *fe, signed int plugin
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 102
 static inline signed int printf(const char * restrict __fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  signed int return_value___printf_chk$2;
-  return_value___printf_chk$2=__printf_chk(2 - 1, __fmt, return_value___builtin_va_arg_pack$1);
-  return return_value___printf_chk$2;
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  signed int return_value___printf_chk_2;
+  return_value___printf_chk_2=__printf_chk(2 - 1, __fmt, return_value___builtin_va_arg_pack_1);
+  return return_value___printf_chk_2;
 }
 
-// printf$link1
+// printf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 102
-static inline signed int printf$link1(const char * restrict __fmt$link1, ...)
+static inline signed int printf_link1(const char * restrict __fmt_link1, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link1;
-  return_value___builtin_va_arg_pack$1$link1=__builtin_va_arg_pack();
-  signed int return_value___printf_chk$2$link1;
-  return_value___printf_chk$2$link1=__printf_chk(2 - 1, __fmt$link1, return_value___builtin_va_arg_pack$1$link1);
-  return return_value___printf_chk$2$link1;
+  void *return_value___builtin_va_arg_pack_1_link1;
+  return_value___builtin_va_arg_pack_1_link1=__builtin_va_arg_pack();
+  signed int return_value___printf_chk_2_link1;
+  return_value___printf_chk_2_link1=__printf_chk(2 - 1, __fmt_link1, return_value___builtin_va_arg_pack_1_link1);
+  return return_value___printf_chk_2_link1;
 }
 
 // read
 // file /usr/include/x86_64-linux-gnu/bits/unistd.h line 34
 static inline signed long int read(signed int __fd, void *__buf, unsigned long int __nbytes)
 {
-  signed long int return_value___read_chk$1;
-  signed long int return_value___read_chk_warn$2;
-  signed long int return_value___read_alias$3;
-  return_value___read_alias$3=__read_alias(__fd, __buf, __nbytes);
-  return return_value___read_alias$3;
+  signed long int return_value___read_chk_1;
+  signed long int return_value___read_chk_warn_2;
+  signed long int return_value___read_alias_3;
+  return_value___read_alias_3=__read_alias(__fd, __buf, __nbytes);
+  return return_value___read_alias_3;
 }
 
-// read$link1
+// read_link1
 // file /usr/include/x86_64-linux-gnu/bits/unistd.h line 34
-static inline signed long int read$link1(signed int __fd$link1, void *__buf$link1, unsigned long int __nbytes$link1)
+static inline signed long int read_link1(signed int __fd_link1, void *__buf_link1, unsigned long int __nbytes_link1)
 {
-  signed long int return_value___read_chk$1$link1;
-  signed long int return_value___read_chk_warn$2$link1;
-  signed long int return_value___read_alias$3$link1;
-  return_value___read_alias$3$link1=__read_alias(__fd$link1, __buf$link1, __nbytes$link1);
-  return return_value___read_alias$3$link1;
+  signed long int return_value___read_chk_1_link1;
+  signed long int return_value___read_chk_warn_2_link1;
+  signed long int return_value___read_alias_3_link1;
+  return_value___read_alias_3_link1=__read_alias(__fd_link1, __buf_link1, __nbytes_link1);
+  return return_value___read_alias_3_link1;
 }
 
 // read_key
@@ -17378,24 +17378,24 @@ static signed int read_key(void)
   struct pollfd pfd;
   pfd.fd = 0;
   pfd.events = (signed short int)0x001;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   pthread_testcancel();
-  err=poll$link1(&pfd, (unsigned long int)1, 50);
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  signed int *return_value___errno_location$12;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
+  err=poll_link1(&pfd, (unsigned long int)1, 50);
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  signed int *return_value___errno_location_12;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
   if(err == 1)
   {
     pthread_testcancel();
-    signed long int return_value_read$2;
-    return_value_read$2=read$link1(0, (void *)&ch, (unsigned long int)1);
-    err = (signed int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read_link1(0, (void *)&ch, (unsigned long int)1);
+    err = (signed int)return_value_read_2;
     if(err == 1)
       return (signed int)ch;
 
@@ -17404,13 +17404,13 @@ static signed int read_key(void)
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[console]   ", "read_key: read(stdin) failed");
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          if(!(*return_value___errno_location$5 == 0))
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          if(!(*return_value___errno_location_5 == 0))
           {
-            return_value___errno_location$3=__errno_location();
-            return_value_strerror$4=strerror(*return_value___errno_location$3);
-            x_syslog(3, "[console]   ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_kbd.c", 71, return_value_strerror$4);
+            return_value___errno_location_3=__errno_location();
+            return_value_strerror_4=strerror(*return_value___errno_location_3);
+            x_syslog(3, "[console]   ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_kbd.c", 71, return_value_strerror_4);
           }
 
         }
@@ -17422,13 +17422,13 @@ static signed int read_key(void)
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[console]   ", "read_key: read(stdin) failed: no stdin");
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          if(!(*return_value___errno_location$8 == 0))
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          if(!(*return_value___errno_location_8 == 0))
           {
-            return_value___errno_location$6=__errno_location();
-            return_value_strerror$7=strerror(*return_value___errno_location$6);
-            x_syslog(3, "[console]   ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_kbd.c", 73, return_value_strerror$7);
+            return_value___errno_location_6=__errno_location();
+            return_value_strerror_7=strerror(*return_value___errno_location_6);
+            x_syslog(3, "[console]   ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_kbd.c", 73, return_value_strerror_7);
           }
 
         }
@@ -17440,20 +17440,20 @@ static signed int read_key(void)
   else
     if(!(err >= 0))
     {
-      return_value___errno_location$12=__errno_location();
-      if(!(*return_value___errno_location$12 == 4))
+      return_value___errno_location_12=__errno_location();
+      if(!(*return_value___errno_location_12 == 4))
       {
         do
           if(SysLogLevel >= 1)
           {
             x_syslog(3, "[console]   ", "read_key: poll(stdin) failed");
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            if(!(*return_value___errno_location$11 == 0))
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            if(!(*return_value___errno_location_11 == 0))
             {
-              return_value___errno_location$9=__errno_location();
-              return_value_strerror$10=strerror(*return_value___errno_location$9);
-              x_syslog(3, "[console]   ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_kbd.c", 77, return_value_strerror$10);
+              return_value___errno_location_9=__errno_location();
+              return_value_strerror_10=strerror(*return_value___errno_location_9);
+              x_syslog(3, "[console]   ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend_kbd.c", 77, return_value_strerror_10);
             }
 
           }
@@ -17538,13 +17538,13 @@ static unsigned long int read_key_seq(void)
 
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/bits/socket2.h line 64
-static inline signed long int recvfrom(signed int __fd, void * restrict __buf, unsigned long int __n, signed int __flags, union anonymous$85 __addr, unsigned int * restrict __addr_len)
+static inline signed long int recvfrom(signed int __fd, void * restrict __buf, unsigned long int __n, signed int __flags, union anonymous_85 __addr, unsigned int * restrict __addr_len)
 {
-  signed long int return_value___recvfrom_chk$1;
-  signed long int return_value___recvfrom_chk_warn$2;
-  signed long int return_value___recvfrom_alias$3;
-  return_value___recvfrom_alias$3=__recvfrom_alias(__fd, __buf, __n, __flags, __addr, __addr_len);
-  return return_value___recvfrom_alias$3;
+  signed long int return_value___recvfrom_chk_1;
+  signed long int return_value___recvfrom_chk_warn_2;
+  signed long int return_value___recvfrom_alias_3;
+  return_value___recvfrom_alias_3=__recvfrom_alias(__fd, __buf, __n, __flags, __addr, __addr_len);
+  return return_value___recvfrom_alias_3;
 }
 
 // rle_compress
@@ -17559,13 +17559,13 @@ unsigned int rle_compress(struct osd_rle_elem_s **rle_data, const unsigned char 
   unsigned int num_rle = (unsigned int)0;
   unsigned int rle_size = (unsigned int)8128;
   const unsigned char *c;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)((unsigned int)4 * rle_size));
-  rle_p = (struct osd_rle_elem_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)((unsigned int)4 * rle_size));
+  rle_p = (struct osd_rle_elem_s *)return_value_malloc_1;
   rle_base = rle_p;
   y = (unsigned int)0;
-  struct osd_rle_elem_s *tmp_post$3;
-  struct osd_rle_elem_s *tmp_post$4;
+  struct osd_rle_elem_s *tmp_post_3;
+  struct osd_rle_elem_s *tmp_post_4;
   for( ; !(y >= h); y = y + 1u)
   {
     rle.len = (unsigned short int)0;
@@ -17581,15 +17581,15 @@ unsigned int rle_compress(struct osd_rle_elem_s **rle_data, const unsigned char 
           if(!(rle_size >= num_rle + h + 1u + -y))
           {
             rle_size = rle_size * (unsigned int)2;
-            void *return_value_realloc$2;
-            return_value_realloc$2=realloc((void *)rle_base, (unsigned long int)((unsigned int)4 * rle_size));
-            rle_base = (struct osd_rle_elem_s *)return_value_realloc$2;
+            void *return_value_realloc_2;
+            return_value_realloc_2=realloc((void *)rle_base, (unsigned long int)((unsigned int)4 * rle_size));
+            rle_base = (struct osd_rle_elem_s *)return_value_realloc_2;
             rle_p = rle_base + (signed long int)num_rle;
           }
 
-          tmp_post$3 = rle_p;
+          tmp_post_3 = rle_p;
           rle_p = rle_p + 1l;
-          *tmp_post$3 = rle;
+          *tmp_post_3 = rle;
           num_rle = num_rle + 1u;
         }
 
@@ -17601,9 +17601,9 @@ unsigned int rle_compress(struct osd_rle_elem_s **rle_data, const unsigned char 
         rle.len = rle.len + 1;
       x = x + 1u;
     }
-    tmp_post$4 = rle_p;
+    tmp_post_4 = rle_p;
     rle_p = rle_p + 1l;
-    *tmp_post$4 = rle;
+    *tmp_post_4 = rle;
     num_rle = num_rle + 1u;
   }
   *rle_data = rle_base;
@@ -17626,9 +17626,9 @@ unsigned long int rle_compress_hdmv(unsigned char **rle_data, const unsigned cha
     {
       unsigned long int used = (unsigned long int)(rle - *rle_data);
       rle_size = rle_size < (unsigned long int)1 ? (unsigned long int)((w * h) / (unsigned int)16) : rle_size * (unsigned long int)2;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)*rle_data, rle_size);
-      *rle_data = (unsigned char *)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)*rle_data, rle_size);
+      *rle_data = (unsigned char *)return_value_realloc_1;
       rle = *rle_data + (signed long int)used;
     }
 
@@ -17665,9 +17665,9 @@ unsigned long int rle_compress_hdmv(unsigned char **rle_data, const unsigned cha
 unsigned int rle_compress_net(unsigned char **rle_data, unsigned int *elems, const unsigned char *data, unsigned int w, unsigned int h)
 {
   *elems=rle_compress((struct osd_rle_elem_s **)rle_data, data, w, h);
-  unsigned int return_value_rle_recompress_net$1;
-  return_value_rle_recompress_net$1=rle_recompress_net(*rle_data, *((struct osd_rle_elem_s **)rle_data), *elems);
-  return return_value_rle_recompress_net$1;
+  unsigned int return_value_rle_recompress_net_1;
+  return_value_rle_recompress_net_1=rle_recompress_net(*rle_data, *((struct osd_rle_elem_s **)rle_data), *elems);
+  return return_value_rle_recompress_net_1;
 }
 
 // rle_palette_to_argb
@@ -17676,7 +17676,7 @@ void rle_palette_to_argb(unsigned int *argb, struct osd_clut_s *palette, unsigne
 {
   unsigned int i = (unsigned int)0;
   for( ; !(i >= entries); i = i + 1u)
-    argb[(signed long int)i] = (unsigned int)((signed int)(palette + (signed long int)i)->alpha << 24 | (signed int)(palette + (signed long int)i)->$anon2.r << 16 | (signed int)(palette + (signed long int)i)->$anon0.g << 8 | (signed int)(palette + (signed long int)i)->$anon1.b);
+    argb[(signed long int)i] = (unsigned int)((signed int)(palette + (signed long int)i)->alpha << 24 | (signed int)(palette + (signed long int)i)->_anon2.r << 16 | (signed int)(palette + (signed long int)i)->_anon0.g << 8 | (signed int)(palette + (signed long int)i)->_anon1.b);
 }
 
 // rle_palette_to_rgba
@@ -17685,7 +17685,7 @@ void rle_palette_to_rgba(unsigned int *rgba, struct osd_clut_s *palette, unsigne
 {
   unsigned int i = (unsigned int)0;
   for( ; !(i >= entries); i = i + 1u)
-    rgba[(signed long int)i] = (unsigned int)((signed int)(palette + (signed long int)i)->$anon2.r << 24 | (signed int)(palette + (signed long int)i)->$anon0.g << 16 | (signed int)(palette + (signed long int)i)->$anon1.b << 8 | (signed int)(palette + (signed long int)i)->alpha);
+    rgba[(signed long int)i] = (unsigned int)((signed int)(palette + (signed long int)i)->_anon2.r << 24 | (signed int)(palette + (signed long int)i)->_anon0.g << 16 | (signed int)(palette + (signed long int)i)->_anon1.b << 8 | (signed int)(palette + (signed long int)i)->alpha);
 }
 
 // rle_recompress_net
@@ -17694,33 +17694,33 @@ unsigned int rle_recompress_net(unsigned char *raw, struct osd_rle_elem_s *data,
 {
   unsigned char *raw0 = raw;
   unsigned int i = (unsigned int)0;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
   for( ; !(i >= elems); i = i + 1u)
   {
     unsigned short int len = (data + (signed long int)i)->len;
     unsigned short int color = (data + (signed long int)i)->color;
     if((signed int)len >= 0x80)
     {
-      tmp_post$1 = raw;
+      tmp_post_1 = raw;
       raw = raw + 1l;
-      *tmp_post$1 = (unsigned char)((signed int)len >> 8 | 0x80);
-      tmp_post$2 = raw;
+      *tmp_post_1 = (unsigned char)((signed int)len >> 8 | 0x80);
+      tmp_post_2 = raw;
       raw = raw + 1l;
-      *tmp_post$2 = (unsigned char)((signed int)len & 0xff);
+      *tmp_post_2 = (unsigned char)((signed int)len & 0xff);
     }
 
     else
     {
-      tmp_post$3 = raw;
+      tmp_post_3 = raw;
       raw = raw + 1l;
-      *tmp_post$3 = (unsigned char)((signed int)len & 0x7f);
+      *tmp_post_3 = (unsigned char)((signed int)len & 0x7f);
     }
-    tmp_post$4 = raw;
+    tmp_post_4 = raw;
     raw = raw + 1l;
-    *tmp_post$4 = (unsigned char)color;
+    *tmp_post_4 = (unsigned char)color;
   }
   return (unsigned int)(raw - raw0);
 }
@@ -17736,23 +17736,23 @@ struct osd_rle_elem_s * rle_scale_nearest(const struct osd_rle_elem_s *old_rle, 
   unsigned int factor_x = ((unsigned int)0x100 * new_w) / old_w;
   unsigned int factor_y = ((unsigned int)0x100 * new_h) / old_h;
   unsigned int rle_size;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(!((new_h * (unsigned int)*rle_elems) / h >= 8128u))
-    tmp_if_expr$1 = (unsigned int)8128;
+    tmp_if_expr_1 = (unsigned int)8128;
 
   else
-    tmp_if_expr$1 = ((unsigned int)*rle_elems * new_h) / h;
-  rle_size = tmp_if_expr$1;
+    tmp_if_expr_1 = ((unsigned int)*rle_elems * new_h) / h;
+  rle_size = tmp_if_expr_1;
   unsigned int num_rle = (unsigned int)0;
   struct osd_rle_elem_s *new_rle;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct osd_rle_elem_s) /*4ul*/  * (unsigned long int)rle_size);
-  new_rle = (struct osd_rle_elem_s *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct osd_rle_elem_s) /*4ul*/  * (unsigned long int)rle_size);
+  new_rle = (struct osd_rle_elem_s *)return_value_malloc_2;
   struct osd_rle_elem_s *new_rle_start = new_rle;
-  signed int tmp_post$4;
-  struct osd_rle_elem_s *tmp_post$6;
-  struct osd_rle_elem_s *tmp_post$7;
-  unsigned int tmp_post$8;
+  signed int tmp_post_4;
+  struct osd_rle_elem_s *tmp_post_6;
+  struct osd_rle_elem_s *tmp_post_7;
+  unsigned int tmp_post_8;
   while(!(old_y >= old_h))
   {
     unsigned int elems_current_line = (unsigned int)0;
@@ -17777,9 +17777,9 @@ struct osd_rle_elem_s * rle_scale_nearest(const struct osd_rle_elem_s *old_rle, 
         if(1u + num_rle >= rle_size)
         {
           rle_size = rle_size * (unsigned int)2;
-          void *return_value_realloc$3;
-          return_value_realloc$3=realloc((void *)new_rle_start, (unsigned long int)((unsigned int)4 * rle_size));
-          new_rle_start = (struct osd_rle_elem_s *)return_value_realloc$3;
+          void *return_value_realloc_3;
+          return_value_realloc_3=realloc((void *)new_rle_start, (unsigned long int)((unsigned int)4 * rle_size));
+          new_rle_start = (struct osd_rle_elem_s *)return_value_realloc_3;
           new_rle = new_rle_start + (signed long int)num_rle;
         }
 
@@ -17799,9 +17799,9 @@ struct osd_rle_elem_s * rle_scale_nearest(const struct osd_rle_elem_s *old_rle, 
 
       do
       {
-        tmp_post$4 = dup;
+        tmp_post_4 = dup;
         dup = dup - 1;
-        if(tmp_post$4 == 0)
+        if(tmp_post_4 == 0)
           break;
 
         if(1u + new_y >= new_h)
@@ -17812,9 +17812,9 @@ struct osd_rle_elem_s * rle_scale_nearest(const struct osd_rle_elem_s *old_rle, 
         if(1u + elems_current_line + num_rle >= rle_size)
         {
           rle_size = rle_size * (unsigned int)2;
-          void *return_value_realloc$5;
-          return_value_realloc$5=realloc((void *)new_rle_start, (unsigned long int)((unsigned int)4 * rle_size));
-          new_rle_start = (struct osd_rle_elem_s *)return_value_realloc$5;
+          void *return_value_realloc_5;
+          return_value_realloc_5=realloc((void *)new_rle_start, (unsigned long int)((unsigned int)4 * rle_size));
+          new_rle_start = (struct osd_rle_elem_s *)return_value_realloc_5;
           new_rle = new_rle_start + (signed long int)num_rle;
         }
 
@@ -17822,11 +17822,11 @@ struct osd_rle_elem_s * rle_scale_nearest(const struct osd_rle_elem_s *old_rle, 
         n = (unsigned int)0;
         for( ; !(n >= elems_current_line); n = n + 1u)
         {
-          tmp_post$6 = new_rle;
+          tmp_post_6 = new_rle;
           new_rle = new_rle + 1l;
-          tmp_post$7 = prevline;
+          tmp_post_7 = prevline;
           prevline = prevline + 1l;
-          *tmp_post$6 = *tmp_post$7;
+          *tmp_post_6 = *tmp_post_7;
           num_rle = num_rle + 1u;
         }
         new_y = new_y + 1u;
@@ -17847,9 +17847,9 @@ struct osd_rle_elem_s * rle_scale_nearest(const struct osd_rle_elem_s *old_rle, 
 
         do
         {
-          tmp_post$8 = skip;
+          tmp_post_8 = skip;
           skip = skip - 1u;
-          if(tmp_post$8 == 0u)
+          if(tmp_post_8 == 0u)
             break;
 
           if(old_y >= old_h)
@@ -17889,17 +17889,17 @@ signed int rle_uncompress_hdmv(struct osd_rle_elem_s **data, unsigned int w, uns
   unsigned int x = (unsigned int)0;
   unsigned int y = (unsigned int)0;
   struct osd_rle_elem_s *rlep;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)((unsigned int)2 * num_rle), sizeof(struct osd_rle_elem_s) /*4ul*/ );
-  rlep = (struct osd_rle_elem_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)((unsigned int)2 * num_rle), sizeof(struct osd_rle_elem_s) /*4ul*/ );
+  rlep = (struct osd_rle_elem_s *)return_value_calloc_1;
   const unsigned char *end = rle_data + (signed long int)rle_size;
   *data = rlep;
-  const unsigned char *tmp_post$2;
-  const unsigned char *tmp_post$3;
-  const unsigned char *tmp_post$4;
-  const unsigned char *tmp_post$5;
-  const unsigned char *tmp_post$6;
-  _Bool tmp_if_expr$7;
+  const unsigned char *tmp_post_2;
+  const unsigned char *tmp_post_3;
+  const unsigned char *tmp_post_4;
+  const unsigned char *tmp_post_5;
+  const unsigned char *tmp_post_6;
+  _Bool tmp_if_expr_7;
   while(!(y >= h))
   {
     if(rle_data >= end || rle_count >= 2u * num_rle)
@@ -17910,9 +17910,9 @@ signed int rle_uncompress_hdmv(struct osd_rle_elem_s **data, unsigned int w, uns
     }
 
     unsigned int byte;
-    tmp_post$2 = rle_data;
+    tmp_post_2 = rle_data;
     rle_data = rle_data + 1l;
-    byte = (unsigned int)*tmp_post$2;
+    byte = (unsigned int)*tmp_post_2;
     if(!(byte == 0u))
     {
       rlep->color = (unsigned short int)byte;
@@ -17921,9 +17921,9 @@ signed int rle_uncompress_hdmv(struct osd_rle_elem_s **data, unsigned int w, uns
 
     else
     {
-      tmp_post$3 = rle_data;
+      tmp_post_3 = rle_data;
       rle_data = rle_data + 1l;
-      byte = (unsigned int)*tmp_post$3;
+      byte = (unsigned int)*tmp_post_3;
       if((128u & byte) == 0u)
       {
         rlep->color = (unsigned short int)0;
@@ -17932,9 +17932,9 @@ signed int rle_uncompress_hdmv(struct osd_rle_elem_s **data, unsigned int w, uns
 
         else
         {
-          tmp_post$4 = rle_data;
+          tmp_post_4 = rle_data;
           rle_data = rle_data + 1l;
-          rlep->len = (unsigned short int)((byte & (unsigned int)0x3f) << 8 | (unsigned int)*tmp_post$4);
+          rlep->len = (unsigned short int)((byte & (unsigned int)0x3f) << 8 | (unsigned int)*tmp_post_4);
         }
       }
 
@@ -17945,23 +17945,23 @@ signed int rle_uncompress_hdmv(struct osd_rle_elem_s **data, unsigned int w, uns
 
         else
         {
-          tmp_post$5 = rle_data;
+          tmp_post_5 = rle_data;
           rle_data = rle_data + 1l;
-          rlep->len = (unsigned short int)((byte & (unsigned int)0x3f) << 8 | (unsigned int)*tmp_post$5);
+          rlep->len = (unsigned short int)((byte & (unsigned int)0x3f) << 8 | (unsigned int)*tmp_post_5);
         }
-        tmp_post$6 = rle_data;
+        tmp_post_6 = rle_data;
         rle_data = rle_data + 1l;
-        rlep->color = (unsigned short int)*tmp_post$6;
+        rlep->color = (unsigned short int)*tmp_post_6;
       }
     }
     if((signed int)rlep->len >= 1)
     {
       if((signed int)rlep->len == 1 && !(x == 0u))
-        tmp_if_expr$7 = (rlep + (signed long int)-1)->color == rlep->color ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (rlep + (signed long int)-1)->color == rlep->color ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
       {
         (rlep + (signed long int)-1)->len = (rlep + (signed long int)-1)->len + 1;
         x = x + 1u;
@@ -18082,12 +18082,12 @@ __CPROVER_DUMP_L6:
 
 // scale_overlay
 // file xine/vo_osdscaler.c line 335
-static struct vo_overlay_s * scale_overlay(struct anonymous$80 *this, struct vo_frame_s *frame, struct vo_overlay_s *overlay)
+static struct vo_overlay_s * scale_overlay(struct anonymous_80 *this, struct vo_frame_s *frame, struct vo_overlay_s *overlay)
 {
-  signed int return_value_check_for_scaling$2;
-  return_value_check_for_scaling$2=check_for_scaling(this, frame, overlay);
-  _Bool tmp_if_expr$1;
-  if(!(return_value_check_for_scaling$2 == 0))
+  signed int return_value_check_for_scaling_2;
+  return_value_check_for_scaling_2=check_for_scaling(this, frame, overlay);
+  _Bool tmp_if_expr_1;
+  if(!(return_value_check_for_scaling_2 == 0))
   {
     struct osd_data_s *scaled = this->active_osds;
     for( ; !(scaled == ((struct osd_data_s *)NULL)); scaled = scaled->next)
@@ -18097,11 +18097,11 @@ static struct vo_overlay_s * scale_overlay(struct anonymous$80 *this, struct vo_
     if(!(scaled == ((struct osd_data_s *)NULL)))
     {
       if(!(scaled->output_width == this->output_width))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = scaled->output_height != this->output_height ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = scaled->output_height != this->output_height ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         osd_data_remove(&this->active_osds, scaled);
         scaled = (struct osd_data_s *)(void *)0;
@@ -18147,15 +18147,15 @@ static void set_above(struct sxfe_s *this, signed int stay_above)
     ev.xclient.data.l[(signed long int)0] = (signed long int)(stay_above != 0 ? 1 : 0);
     XLockDisplay(this->display);
     ev.xclient.data.l[(signed long int)1] = (signed long int)this->xa_NET_WM_STATE_ABOVE;
-    XSendEvent(this->display, (&((struct anonymous$34 *)this->display)->screens[(signed long int)((struct anonymous$34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
+    XSendEvent(this->display, (&((struct anonymous_34 *)this->display)->screens[(signed long int)((struct anonymous_34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
     XUnlockDisplay(this->display);
     XLockDisplay(this->display);
     ev.xclient.data.l[(signed long int)1] = (signed long int)this->xa_NET_WM_STATE_STAYS_ON_TOP;
-    XSendEvent(this->display, (&((struct anonymous$34 *)this->display)->screens[(signed long int)((struct anonymous$34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
+    XSendEvent(this->display, (&((struct anonymous_34 *)this->display)->screens[(signed long int)((struct anonymous_34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
     XUnlockDisplay(this->display);
     XLockDisplay(this->display);
     ev.xclient.data.l[(signed long int)1] = (signed long int)this->xa_NET_WM_STATE_STICKY;
-    XSendEvent(this->display, (&((struct anonymous$34 *)this->display)->screens[(signed long int)((struct anonymous$34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
+    XSendEvent(this->display, (&((struct anonymous_34 *)this->display)->screens[(signed long int)((struct anonymous_34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
     XUnlockDisplay(this->display);
     propvalue[(signed long int)0] = (signed long int)(stay_above != 0 ? 6 : 4);
     XLockDisplay(this->display);
@@ -18193,11 +18193,11 @@ static void set_cursor(struct _XDisplay *dpy, unsigned long int win, const signe
   {
     const char bm_no_data[8l] = { (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0, (const char)0 };
     unsigned long int no_ptr;
-    struct anonymous$18 black;
-    struct anonymous$18 dummy;
+    struct anonymous_18 black;
+    struct anonymous_18 dummy;
     unsigned long int bm_no;
     bm_no=XCreateBitmapFromData(dpy, win, bm_no_data, (unsigned int)8, (unsigned int)8);
-    XAllocNamedColor(dpy, (&((struct anonymous$34 *)dpy)->screens[(signed long int)((struct anonymous$34 *)dpy)->default_screen])->cmap, "black", &black, &dummy);
+    XAllocNamedColor(dpy, (&((struct anonymous_34 *)dpy)->screens[(signed long int)((struct anonymous_34 *)dpy)->default_screen])->cmap, "black", &black, &dummy);
     no_ptr=XCreatePixmapCursor(dpy, bm_no, bm_no, &black, &black, (unsigned int)0, (unsigned int)0);
     XDefineCursor(dpy, win, (unsigned long int)0L);
     XDefineCursor(dpy, win, no_ptr);
@@ -18209,12 +18209,12 @@ static void set_cursor(struct _XDisplay *dpy, unsigned long int win, const signe
 // file xine_sxfe_frontend.c line 301
 static void set_fs_size_hint(struct sxfe_s *this)
 {
-  struct anonymous$87 hint;
+  struct anonymous_87 hint;
   hint.flags = 1L << 1 | 1L << 0 | 1L << 2 | 1L << 3;
   hint.x = (signed int)this->xinerama_x;
   hint.y = (signed int)this->xinerama_y;
-  hint.width = (signed int)this->$anon0.x.width;
-  hint.height = (signed int)this->$anon0.x.height;
+  hint.width = (signed int)this->_anon0.x.width;
+  hint.height = (signed int)this->_anon0.x.height;
   XLockDisplay(this->display);
   XSetNormalHints(this->display, this->window[(signed long int)1], &hint);
   XUnlockDisplay(this->display);
@@ -18239,21 +18239,21 @@ static void set_fullscreen_props(struct sxfe_s *this)
     ev.xclient.data.l[(signed long int)0] = (signed long int)1;
     XLockDisplay(this->display);
     ev.xclient.data.l[(signed long int)1] = (signed long int)this->xa_NET_WM_STATE_FULLSCREEN;
-    XSendEvent(this->display, (&((struct anonymous$34 *)this->display)->screens[(signed long int)((struct anonymous$34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
+    XSendEvent(this->display, (&((struct anonymous_34 *)this->display)->screens[(signed long int)((struct anonymous_34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
     XUnlockDisplay(this->display);
     XLockDisplay(this->display);
     ev.xclient.data.l[(signed long int)1] = (signed long int)this->xa_NET_WM_STATE_ABOVE;
-    XSendEvent(this->display, (&((struct anonymous$34 *)this->display)->screens[(signed long int)((struct anonymous$34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
+    XSendEvent(this->display, (&((struct anonymous_34 *)this->display)->screens[(signed long int)((struct anonymous_34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
     XUnlockDisplay(this->display);
     XLockDisplay(this->display);
     ev.xclient.data.l[(signed long int)1] = (signed long int)this->xa_NET_WM_STATE_STAYS_ON_TOP;
-    XSendEvent(this->display, (&((struct anonymous$34 *)this->display)->screens[(signed long int)((struct anonymous$34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
+    XSendEvent(this->display, (&((struct anonymous_34 *)this->display)->screens[(signed long int)((struct anonymous_34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
     XUnlockDisplay(this->display);
     XLockDisplay(this->display);
     ev.xclient.message_type = this->xa_NET_ACTIVE_WINDOW;
     ev.xclient.data.l[(signed long int)0] = (signed long int)0;
     ev.xclient.data.l[(signed long int)1] = (signed long int)0;
-    XSendEvent(this->display, (&((struct anonymous$34 *)this->display)->screens[(signed long int)((struct anonymous$34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
+    XSendEvent(this->display, (&((struct anonymous_34 *)this->display)->screens[(signed long int)((struct anonymous_34 *)this->display)->default_screen])->root, 0, 1L << 19 | 1L << 20, &ev);
     XUnlockDisplay(this->display);
   }
 
@@ -18265,8 +18265,8 @@ static void set_icon(struct sxfe_s *this)
 {
   XLockDisplay(this->display);
   signed long int q[1026l];
-  /* tag-#anon#lST[cU32'width'||cU32'height'||lARR4097{cU8}$cU8$'pixel_data'|] */
-struct anonymous$104
+  /* tag-#anon#lST[cU32'width'||cU32'height'||lARR4097{cU8}_cU8_'pixel_data'|] */
+struct anonymous_104
 {
   // width
   const unsigned int width;
@@ -18278,14 +18278,14 @@ struct anonymous$104
 
 /* */
   ;
-  static const struct anonymous$104 vdrlogo_32x32 = { .width=(const unsigned int)32, .height=(const unsigned int)32, .pixel_data={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 140, 'v', 166, 26, '<', 25, 'x', 'c', 'T', '5', 136, 'F', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 's', 'Z', 150, 31, 'F', '$', '|', '^', ';', 24, 'y', 'c', ';', 24, 'y', 'c', ';', 24, 'y', 'c', 'C', '!', '~', 'c', 'Y', '7', 133, 'U', 153, 136, 181, 'F', 'L', '.', 130, 'c', '<', 24, 'y', 'c', ';', 24, 'y', 'c', ';', 24, 'y', 'c', ';', 24, 'y', 'c', ';', 24, 'y', 'c', ';', 24, 'y', 'c', 'E', '"', 127, 'c', 'U', '4', 128, 'J', 'v', '^', 151, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 163, 148, 196, 8, 'B', 27, 'z', 236, 'I', '!', '~', 246, 205, 190, 217, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'R', '3', 130, 'a', '>', 20, 'z', 247, ':', 15, 'y', 255, ':', 15, 'x', 255, ':', 15, 'x', 255, ':', 15, 'x', 255, ':', 15, 'y', 255, ':', 15, '|', 255, '>', 21, '{', 255, '_', 'C', 132, 255, 'M', '*', 128, 255, ':', 16, 'x', 255, ':', 16, 'x', 255, ':', 16, 'w', 255, ':', 16, 'w', 255, ':', 16, 'w', 255, ':', 15, 'x', 255, ':', 15, 'y', 255, '@', 25, '|', 239, 'e', 'H', 141, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'R', '.', 132, 149, ';', 15, 'z', 255, 't', 'Y', 153, 'e', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'm', 'T', 147, ' ', '=', 20, 'z', 251, '=', 27, 'n', 255, '>', '!', 'f', 255, 'l', 'a', 'x', 172, 'f', '^', 'n', 137, 'f', ']', 'q', 137, 'e', ']', 'r', 144, '_', 'O', 'v', 172, 'J', '*', 'x', 243, ';', 15, 'y', 255, 'c', 'H', 141, 229, 'g', 'b', 'j', 'v', 'g', 'b', 'j', 's', 'k', 'f', 'm', 's', 'n', 'i', 'p', 's', 'q', 'k', 'r', 's', 'o', 'i', 'v', '|', '^', 'G', '|', 188, '<', 19, 'y', 255, 'E', 30, '~', 234, 186, 170, 208, 17, 0, 0, 0, 0, 0, 0, 0, 0, 'u', '\\', 177, ';', 18, 'z', 255, 'Y', '7', 135, 196, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'O', '+', 132, 130, ';', 17, 'u', 255, 'M', '4', 't', 248, ';', 16, 'y', 255, 'r', 'f', 135, 'Y', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 160, 151, 174, '"', 'J', '(', 127, 225, ':', 17, '{', 255, 's', 'Z', 155, 'J', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 226, 224, 227, 1, 'P', '*', 131, 182, ';', 15, 'x', 255, 'z', 'i', 144, 'a', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'K', '&', 132, 206, 'A', 26, '{', 253, 163, 152, 180, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 221, 203, 242, 3, 'C', 28, '}', 224, 'M', '1', 't', 248, 'J', '&', 127, 169, ':', 16, 'x', 255, 'r', 'f', 135, 'Y', 0, 0, 0, 0, 'd', 'd', 'd', 6, 20, 20, 20, 193, 29, 29, 29, 193, 'Z', 'Z', 'Z', 18, 'h', 'L', 143, 'X', ';', 15, '{', 255, '[', '=', 138, 181, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'G', '!', '~', 169, ':', 15, 'y', 255, 's', 'e', 133, '{', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'W', '7', 131, 'g', '9', 16, 'z', 255, 'i', 'M', 145, '}', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '\\', ';', 141, 'F', ':', 16, 'y', 255, 'e', 'U', '{', 168, '?', 22, 'y', 152, ':', 16, 'x', 255, 'r', 'f', 135, 'Y', 0, 0, 0, 0, 'f', 'g', 'g', '$', 'G', 'B', '3', 255, 'N', 'K', 'F', 255, 'J', 'J', 'J', 127, 153, 133, 180, 17, '=', 19, 'x', 255, 'T', '2', 129, 240, 221, 223, 208, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 158, 139, 187, 15, 'Y', '7', 136, 'i', '<', 19, 'y', 250, '?', 26, 'o', 255, 146, 142, 151, 'H', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 138, 't', 170, 13, '@', 24, '}', 244, 'T', '2', 135, 216, 233, 227, 229, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'H', '#', '~', 170, '=', 25, 'r', 255, 149, 142, 152, 'E', '?', 22, 'y', 152, ':', 16, 'x', 255, 'r', 'f', 135, 'Y', 0, 0, 0, 0, 146, 143, 144, '"', 176, 141, 255, 159, 139, 'K', 255, 158, 234, 218, 246, 6, 'F', 30, 129, 255, 'L', '\'', '|', 255, 'H', '$', 130, 246, '@', 24, '}', 245, '@', 24, '}', 245, 'A', 23, '{', 245, '=', 19, 'y', 253, ';', 15, 'x', 255, ';', 25, 'n', 255, 'j', '_', 'w', 172, 215, 210, 214, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'I', '&', 129, 158, '>', 20, 'z', 255, 150, 131, 143, 0, 0, 0, 0, '|', 'b', 162, 20, '=', 20, '{', 247, 'V', '@', 'x', 224, 228, 226, 227, 2, '?', 22, 'y', 152, ':', 16, 'x', 255, 'r', 'f', 135, 'Y', 0, 0, 0, 0, 'T', 'U', 'U', 158, 235, 234, 235, 255, 237, 236, 236, 255, '(', '\'', '(', 246, 'M', 'J', 'P', '2', 'B', 25, '}', 255, 'I', '\'', 'z', 255, 'b', 'N', 129, 239, 'T', '?', 'v', 245, 'P', '8', 'v', 247, '<', 23, 'u', 255, ':', 17, 'x', 255, 'U', 'D', 'q', 216, 127, '}', 131, ']', 219, 221, 218, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'e', 'M', 146, ';', ';', 16, 'z', 255, 'a', 'C', 140, 147, 0, 0, 0, 0, 'L', '*', 133, 'n', ':', 17, 'w', 255, 'o', 'd', '}', 130, 0, 0, 0, 0, '?', 22, 'y', 152, ':', 16, 'x', 255, 'r', 'f', 135, 'Y', 'Y', '\\', '\\', ' ', 152, 152, 154, 250, 244, 245, 245, 255, 246, 246, 246, 255, '|', '|', '}', 250, '-', '8', 215, ':', 15, 'x', 255, 'U', '9', '}', 250, 223, 226, 218, 3, 0, 0, 0, 0, 224, 224, 216, 2, 131, 'w', 152, 'T', 'E', ' ', 'z', 245, '<', 19, '{', 247, 'W', '7', 136, 'D', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 215, 197, 239, 1, 'G', '"', '}', 216, 'O', ',', 131, 235, 222, 210, 231, 6, 'F', 31, '~', 209, 'F', '&', 'r', 253, 173, 172, 174, '$', 0, 0, 0, 0, '?', 22, 'y', 152, ':', 15, 'x', 255, 128, 't', 142, 'c', 178, 146, 'D', 145, 186, 176, 142, 255, 243, 244, 245, 255, 246, 246, 246, 255, 138, 129, '^', 251, '#', '%', 255, ':', 15, 'x', 255, '[', 'H', 'x', 194, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'x', 'b', 154, ']', '<', 20, 'z', 255, '>', 23, 'z', 235, 132, 'l', 162, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'R', '2', 133, 't', ';', 16, 'z', 255, 'y', '`', 153, 'w', ';', 17, 'v', 255, '`', 'N', 'z', 195, 0, 0, 0, 0, 0, 0, 0, 0, '@', 23, 'z', 152, ':', 15, 'y', 255, 162, 143, 'r', 165, 237, 186, 17, 255, 200, 160, 16, 255, 217, 214, 211, 255, 212, 212, 212, 255, 201, 153, 31, 255, 223, 175, 21, 255, 'S', '-', '^', 255, '|', 'u', 131, 'e', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '_', '?', 140, 171, 16, 'z', 255, 'M', '*', 130, 178, 247, 241, 243, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 133, 'o', 166, 23, '?', 22, '{', 249, 'J', '$', 127, 248, ':', 20, 's', 255, 130, '{', 134, '`', 0, 0, 0, 0, 0, 0, 0, 0, '?', 22, 'z', 152, ';', 15, 'x', 255, 'g', 'G', 128, 213, '}', 'Q', 'B', 255, 140, '\\', 'C', 255, '<', ' ', 'L', 255, '$', 13, 'H', 255, 135, '^', 21, 255, 'V', '9', ',', 255, 'T', 'M', '_', 199, 202, 207, 199, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 162, 141, 185, 22, 'I', '$', 128, 237, ';', 16, 'z', 255, '_', 'C', 139, 'Y', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'M', '+', 130, 177, 16, 'z', 255, 'P', '5', 'u', 241, 203, 204, 199, 13, 0, 0, 0, 0, 0, 0, 0, 0, '>', 21, 'x', 153, ';', 15, 'y', 255, ':', 16, 'y', 255, ':', 15, 'y', 255, ';', 15, 'y', 255, 15, 'z', 255, '<', 20, 'p', 255, '@', ')', '`', 254, 'b', 'X', 'o', 178, 182, 180, 171, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'u', '\\', 155, '`', '<', 17, 'y', 255, 'A', 28, '|', 233, 133, 's', 166, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 145, 137, 153, 'k', 'c', 't', 143, '|', 'y', 134, 'a', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 132, 'y', 141, 'M', 'j', 'c', 'x', 143, 'k', 'a', 'v', 141, 'l', 'b', 'x', 143, 'k', 'a', 'r', 141, 'i', 'c', 'r', 133, 130, 130, 132, 'i', 176, 177, 169, '&', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 240, 237, 231, 3, 'w', 'o', 130, 'z', 'j', '`', 'u', 141, 143, 144, 147, '?', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
+  static const struct anonymous_104 vdrlogo_32x32 = { .width=(const unsigned int)32, .height=(const unsigned int)32, .pixel_data={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 140, 'v', 166, 26, '<', 25, 'x', 'c', 'T', '5', 136, 'F', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 's', 'Z', 150, 31, 'F', '_', '|', '^', ';', 24, 'y', 'c', ';', 24, 'y', 'c', ';', 24, 'y', 'c', 'C', '!', '~', 'c', 'Y', '7', 133, 'U', 153, 136, 181, 'F', 'L', '.', 130, 'c', '<', 24, 'y', 'c', ';', 24, 'y', 'c', ';', 24, 'y', 'c', ';', 24, 'y', 'c', ';', 24, 'y', 'c', ';', 24, 'y', 'c', 'E', '"', 127, 'c', 'U', '4', 128, 'J', 'v', '^', 151, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 163, 148, 196, 8, 'B', 27, 'z', 236, 'I', '!', '~', 246, 205, 190, 217, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'R', '3', 130, 'a', '>', 20, 'z', 247, ':', 15, 'y', 255, ':', 15, 'x', 255, ':', 15, 'x', 255, ':', 15, 'x', 255, ':', 15, 'y', 255, ':', 15, '|', 255, '>', 21, '{', 255, '_', 'C', 132, 255, 'M', '*', 128, 255, ':', 16, 'x', 255, ':', 16, 'x', 255, ':', 16, 'w', 255, ':', 16, 'w', 255, ':', 16, 'w', 255, ':', 15, 'x', 255, ':', 15, 'y', 255, '@', 25, '|', 239, 'e', 'H', 141, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'R', '.', 132, 149, ';', 15, 'z', 255, 't', 'Y', 153, 'e', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'm', 'T', 147, ' ', '=', 20, 'z', 251, '=', 27, 'n', 255, '>', '!', 'f', 255, 'l', 'a', 'x', 172, 'f', '^', 'n', 137, 'f', ']', 'q', 137, 'e', ']', 'r', 144, '_', 'O', 'v', 172, 'J', '*', 'x', 243, ';', 15, 'y', 255, 'c', 'H', 141, 229, 'g', 'b', 'j', 'v', 'g', 'b', 'j', 's', 'k', 'f', 'm', 's', 'n', 'i', 'p', 's', 'q', 'k', 'r', 's', 'o', 'i', 'v', '|', '^', 'G', '|', 188, '<', 19, 'y', 255, 'E', 30, '~', 234, 186, 170, 208, 17, 0, 0, 0, 0, 0, 0, 0, 0, 'u', '\\', 177, ';', 18, 'z', 255, 'Y', '7', 135, 196, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'O', '+', 132, 130, ';', 17, 'u', 255, 'M', '4', 't', 248, ';', 16, 'y', 255, 'r', 'f', 135, 'Y', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 160, 151, 174, '"', 'J', '(', 127, 225, ':', 17, '{', 255, 's', 'Z', 155, 'J', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 226, 224, 227, 1, 'P', '*', 131, 182, ';', 15, 'x', 255, 'z', 'i', 144, 'a', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'K', '&', 132, 206, 'A', 26, '{', 253, 163, 152, 180, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 221, 203, 242, 3, 'C', 28, '}', 224, 'M', '1', 't', 248, 'J', '&', 127, 169, ':', 16, 'x', 255, 'r', 'f', 135, 'Y', 0, 0, 0, 0, 'd', 'd', 'd', 6, 20, 20, 20, 193, 29, 29, 29, 193, 'Z', 'Z', 'Z', 18, 'h', 'L', 143, 'X', ';', 15, '{', 255, '[', '=', 138, 181, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'G', '!', '~', 169, ':', 15, 'y', 255, 's', 'e', 133, '{', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'W', '7', 131, 'g', '9', 16, 'z', 255, 'i', 'M', 145, '}', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '\\', ';', 141, 'F', ':', 16, 'y', 255, 'e', 'U', '{', 168, '?', 22, 'y', 152, ':', 16, 'x', 255, 'r', 'f', 135, 'Y', 0, 0, 0, 0, 'f', 'g', 'g', '_', 'G', 'B', '3', 255, 'N', 'K', 'F', 255, 'J', 'J', 'J', 127, 153, 133, 180, 17, '=', 19, 'x', 255, 'T', '2', 129, 240, 221, 223, 208, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 158, 139, 187, 15, 'Y', '7', 136, 'i', '<', 19, 'y', 250, '?', 26, 'o', 255, 146, 142, 151, 'H', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 138, 't', 170, 13, '@', 24, '}', 244, 'T', '2', 135, 216, 233, 227, 229, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'H', '#', '~', 170, '=', 25, 'r', 255, 149, 142, 152, 'E', '?', 22, 'y', 152, ':', 16, 'x', 255, 'r', 'f', 135, 'Y', 0, 0, 0, 0, 146, 143, 144, '"', 176, 141, 255, 159, 139, 'K', 255, 158, 234, 218, 246, 6, 'F', 30, 129, 255, 'L', '\'', '|', 255, 'H', '_', 130, 246, '@', 24, '}', 245, '@', 24, '}', 245, 'A', 23, '{', 245, '=', 19, 'y', 253, ';', 15, 'x', 255, ';', 25, 'n', 255, 'j', '_', 'w', 172, 215, 210, 214, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'I', '&', 129, 158, '>', 20, 'z', 255, 150, 131, 143, 0, 0, 0, 0, '|', 'b', 162, 20, '=', 20, '{', 247, 'V', '@', 'x', 224, 228, 226, 227, 2, '?', 22, 'y', 152, ':', 16, 'x', 255, 'r', 'f', 135, 'Y', 0, 0, 0, 0, 'T', 'U', 'U', 158, 235, 234, 235, 255, 237, 236, 236, 255, '(', '\'', '(', 246, 'M', 'J', 'P', '2', 'B', 25, '}', 255, 'I', '\'', 'z', 255, 'b', 'N', 129, 239, 'T', '?', 'v', 245, 'P', '8', 'v', 247, '<', 23, 'u', 255, ':', 17, 'x', 255, 'U', 'D', 'q', 216, 127, '}', 131, ']', 219, 221, 218, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'e', 'M', 146, ';', ';', 16, 'z', 255, 'a', 'C', 140, 147, 0, 0, 0, 0, 'L', '*', 133, 'n', ':', 17, 'w', 255, 'o', 'd', '}', 130, 0, 0, 0, 0, '?', 22, 'y', 152, ':', 16, 'x', 255, 'r', 'f', 135, 'Y', 'Y', '\\', '\\', ' ', 152, 152, 154, 250, 244, 245, 245, 255, 246, 246, 246, 255, '|', '|', '}', 250, '-', '8', 215, ':', 15, 'x', 255, 'U', '9', '}', 250, 223, 226, 218, 3, 0, 0, 0, 0, 224, 224, 216, 2, 131, 'w', 152, 'T', 'E', ' ', 'z', 245, '<', 19, '{', 247, 'W', '7', 136, 'D', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 215, 197, 239, 1, 'G', '"', '}', 216, 'O', ',', 131, 235, 222, 210, 231, 6, 'F', 31, '~', 209, 'F', '&', 'r', 253, 173, 172, 174, '_', 0, 0, 0, 0, '?', 22, 'y', 152, ':', 15, 'x', 255, 128, 't', 142, 'c', 178, 146, 'D', 145, 186, 176, 142, 255, 243, 244, 245, 255, 246, 246, 246, 255, 138, 129, '^', 251, '#', '%', 255, ':', 15, 'x', 255, '[', 'H', 'x', 194, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'x', 'b', 154, ']', '<', 20, 'z', 255, '>', 23, 'z', 235, 132, 'l', 162, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'R', '2', 133, 't', ';', 16, 'z', 255, 'y', '`', 153, 'w', ';', 17, 'v', 255, '`', 'N', 'z', 195, 0, 0, 0, 0, 0, 0, 0, 0, '@', 23, 'z', 152, ':', 15, 'y', 255, 162, 143, 'r', 165, 237, 186, 17, 255, 200, 160, 16, 255, 217, 214, 211, 255, 212, 212, 212, 255, 201, 153, 31, 255, 223, 175, 21, 255, 'S', '-', '^', 255, '|', 'u', 131, 'e', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '_', '?', 140, 171, 16, 'z', 255, 'M', '*', 130, 178, 247, 241, 243, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 133, 'o', 166, 23, '?', 22, '{', 249, 'J', '_', 127, 248, ':', 20, 's', 255, 130, '{', 134, '`', 0, 0, 0, 0, 0, 0, 0, 0, '?', 22, 'z', 152, ';', 15, 'x', 255, 'g', 'G', 128, 213, '}', 'Q', 'B', 255, 140, '\\', 'C', 255, '<', ' ', 'L', 255, '_', 13, 'H', 255, 135, '^', 21, 255, 'V', '9', ',', 255, 'T', 'M', '_', 199, 202, 207, 199, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 162, 141, 185, 22, 'I', '_', 128, 237, ';', 16, 'z', 255, '_', 'C', 139, 'Y', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'M', '+', 130, 177, 16, 'z', 255, 'P', '5', 'u', 241, 203, 204, 199, 13, 0, 0, 0, 0, 0, 0, 0, 0, '>', 21, 'x', 153, ';', 15, 'y', 255, ':', 16, 'y', 255, ':', 15, 'y', 255, ';', 15, 'y', 255, 15, 'z', 255, '<', 20, 'p', 255, '@', ')', '`', 254, 'b', 'X', 'o', 178, 182, 180, 171, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'u', '\\', 155, '`', '<', 17, 'y', 255, 'A', 28, '|', 233, 133, 's', 166, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 145, 137, 153, 'k', 'c', 't', 143, '|', 'y', 134, 'a', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 132, 'y', 141, 'M', 'j', 'c', 'x', 143, 'k', 'a', 'v', 141, 'l', 'b', 'x', 143, 'k', 'a', 'r', 141, 'i', 'c', 'r', 133, 130, 130, 132, 'i', 176, 177, 169, '&', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 240, 237, 231, 3, 'w', 'o', 130, 'z', 'j', '`', 'u', 141, 143, 144, 147, '?', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
   unsigned int *p = (unsigned int *)&vdrlogo_32x32;
   unsigned int i = (unsigned int)0;
   for( ; !(i >= vdrlogo_32x32.height * vdrlogo_32x32.width + 2u); i = i + 1u)
     q[(signed long int)i] = (signed long int)p[(signed long int)i];
-  unsigned long int return_value_XInternAtom$1;
-  return_value_XInternAtom$1=XInternAtom(this->display, "_NET_WM_ICON", 0);
-  XChangeProperty(this->display, this->window[(signed long int)0], return_value_XInternAtom$1, (unsigned long int)6, 32, 0, (unsigned char *)q, (signed int)((unsigned int)2 + vdrlogo_32x32.width * vdrlogo_32x32.height));
+  unsigned long int return_value_XInternAtom_1;
+  return_value_XInternAtom_1=XInternAtom(this->display, "_NET_WM_ICON", 0);
+  XChangeProperty(this->display, this->window[(signed long int)0], return_value_XInternAtom_1, (unsigned long int)6, 32, 0, (unsigned char *)q, (signed int)((unsigned int)2 + vdrlogo_32x32.width * vdrlogo_32x32.height));
   XUnlockDisplay(this->display);
 }
 
@@ -18294,8 +18294,8 @@ struct anonymous$104
 static void shutdown_system(char *cmd, signed int user_requested)
 {
   const char *reason = user_requested != 0 ? "User requested system shutdown" : "Inactivity timer elapsed";
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(cmd == ((char *)NULL)))
   {
     do
@@ -18303,20 +18303,20 @@ static void shutdown_system(char *cmd, signed int user_requested)
         x_syslog(6, "[vdr-fe]    ", "%s. Executing '%s'", reason, cmd);
 
     while((_Bool)0);
-    signed int return_value_system$4;
-    return_value_system$4=system(cmd);
-    if(return_value_system$4 == -1)
+    signed int return_value_system_4;
+    return_value_system_4=system(cmd);
+    if(return_value_system_4 == -1)
       do
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[vdr-fe]    ", "Can't execute %s", cmd);
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          if(!(*return_value___errno_location$3 == 0))
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          if(!(*return_value___errno_location_3 == 0))
           {
-            return_value___errno_location$1=__errno_location();
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend.c", 112, return_value_strerror$2);
+            return_value___errno_location_1=__errno_location();
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            x_syslog(3, "[vdr-fe]    ", "   (ERROR (%s,%d): %s)", (const void *)"xine_frontend.c", 112, return_value_strerror_2);
           }
 
         }
@@ -18341,11 +18341,11 @@ static void * slave_receiver_thread(void *fe_gen)
   char str[128l];
   char *pt;
   tcgetattr(0, &saved_tm);
-  char *tmp_statement_expression$6;
+  char *tmp_statement_expression_6;
   signed int return_value;
   do
   {
-    struct anonymous$102 __cancel_buf;
+    struct anonymous_102 __cancel_buf;
     void (*__cancel_routine)(void *) = slave_receiver_thread_cleanup;
     void *__cancel_arg = (void *)0;
     signed int __not_first_call;
@@ -18359,46 +18359,46 @@ static void * slave_receiver_thread(void *fe_gen)
     __pthread_register_cancel(&__cancel_buf);
     do
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 0;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 0;
       str[(signed long int)0] = (char)0;
       pthread_testcancel();
-      char *return_value_fgets$2;
-      return_value_fgets$2=fgets$link1(str, (signed int)sizeof(char [128l]) /*128ul*/ , stdin);
-      if(!(return_value_fgets$2 == ((char *)NULL)))
+      char *return_value_fgets_2;
+      return_value_fgets_2=fgets_link1(str, (signed int)sizeof(char [128l]) /*128ul*/ , stdin);
+      if(!(return_value_fgets_2 == ((char *)NULL)))
       {
         pthread_testcancel();
-        char *return_value___builtin_strchr$3;
-        return_value___builtin_strchr$3=__builtin_strchr(str, 13);
-        pt = return_value___builtin_strchr$3;
+        char *return_value___builtin_strchr_3;
+        return_value___builtin_strchr_3=__builtin_strchr(str, 13);
+        pt = return_value___builtin_strchr_3;
         if(!(pt == ((char *)NULL)))
           *pt = (char)0;
 
-        char *return_value___builtin_strchr$4;
-        return_value___builtin_strchr$4=__builtin_strchr(str, 10);
-        pt = return_value___builtin_strchr$4;
+        char *return_value___builtin_strchr_4;
+        return_value___builtin_strchr_4=__builtin_strchr(str, 10);
+        pt = return_value___builtin_strchr_4;
         if(!(pt == ((char *)NULL)))
           *pt = (char)0;
 
-        signed int return_value_strncasecmp$5;
-        return_value_strncasecmp$5=strncasecmp(str, "QUIT", (unsigned long int)4);
-        if(return_value_strncasecmp$5 == 0)
+        signed int return_value_strncasecmp_5;
+        return_value_strncasecmp_5=strncasecmp(str, "QUIT", (unsigned long int)4);
+        if(return_value_strncasecmp_5 == 0)
           fe->send_event(fe, "QUIT");
 
         else
         {
-          signed int return_value_strncasecmp$8;
-          return_value_strncasecmp$8=strncasecmp(str, "FULLSCREEN", (unsigned long int)10);
-          if(return_value_strncasecmp$8 == 0)
+          signed int return_value_strncasecmp_8;
+          return_value_strncasecmp_8=strncasecmp(str, "FULLSCREEN", (unsigned long int)10);
+          if(return_value_strncasecmp_8 == 0)
           {
             char __a0;
             char __a1;
             char __a2;
-            char *return_value___builtin_strpbrk$7;
-            return_value___builtin_strpbrk$7=__builtin_strpbrk(str + (signed long int)10, "01");
-            tmp_statement_expression$6 = return_value___builtin_strpbrk$7;
-            if(!(tmp_statement_expression$6 == ((char *)NULL)))
+            char *return_value___builtin_strpbrk_7;
+            return_value___builtin_strpbrk_7=__builtin_strpbrk(str + (signed long int)10, "01");
+            tmp_statement_expression_6 = return_value___builtin_strpbrk_7;
+            if(!(tmp_statement_expression_6 == ((char *)NULL)))
               fe->send_event(fe, str);
 
             else
@@ -18407,16 +18407,16 @@ static void * slave_receiver_thread(void *fe_gen)
 
           else
           {
-            signed int return_value_strncasecmp$9;
-            return_value_strncasecmp$9=strncasecmp(str, "DEINTERLACE ", (unsigned long int)12);
-            if(return_value_strncasecmp$9 == 0)
+            signed int return_value_strncasecmp_9;
+            return_value_strncasecmp_9=strncasecmp(str, "DEINTERLACE ", (unsigned long int)12);
+            if(return_value_strncasecmp_9 == 0)
               fe->send_event(fe, str);
 
             else
             {
-              signed int return_value_strncasecmp$10;
-              return_value_strncasecmp$10=strncasecmp(str, "HITK ", (unsigned long int)5);
-              if(return_value_strncasecmp$10 == 0)
+              signed int return_value_strncasecmp_10;
+              return_value_strncasecmp_10=strncasecmp(str, "HITK ", (unsigned long int)5);
+              if(return_value_strncasecmp_10 == 0)
                 fe->send_input_event(fe, (const char *)(void *)0, str + (signed long int)5, 0, 0);
 
               else
@@ -18465,113 +18465,113 @@ static void slave_receiver_thread_cleanup(void *arg)
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
 static inline signed int snprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  signed int return_value___builtin___snprintf_chk$2;
-  return_value___builtin___snprintf_chk$2=__builtin___snprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, return_value___builtin_va_arg_pack$1);
-  return return_value___builtin___snprintf_chk$2;
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  signed int return_value___builtin___snprintf_chk_2;
+  return_value___builtin___snprintf_chk_2=__builtin___snprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, return_value___builtin_va_arg_pack_1);
+  return return_value___builtin___snprintf_chk_2;
 }
 
-// snprintf$link1
+// snprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
-static inline signed int snprintf$link1(char * restrict __s$link1, unsigned long int __n$link1, const char * restrict __fmt$link1, ...)
+static inline signed int snprintf_link1(char * restrict __s_link1, unsigned long int __n_link1, const char * restrict __fmt_link1, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link1;
-  return_value___builtin_va_arg_pack$1$link1=__builtin_va_arg_pack();
-  signed int return_value___builtin___snprintf_chk$2$link1;
-  return_value___builtin___snprintf_chk$2$link1=__builtin___snprintf_chk(__s$link1, __n$link1, 2 - 1, 18446744073709551615ul, __fmt$link1, return_value___builtin_va_arg_pack$1$link1);
-  return return_value___builtin___snprintf_chk$2$link1;
+  void *return_value___builtin_va_arg_pack_1_link1;
+  return_value___builtin_va_arg_pack_1_link1=__builtin_va_arg_pack();
+  signed int return_value___builtin___snprintf_chk_2_link1;
+  return_value___builtin___snprintf_chk_2_link1=__builtin___snprintf_chk(__s_link1, __n_link1, 2 - 1, 18446744073709551615ul, __fmt_link1, return_value___builtin_va_arg_pack_1_link1);
+  return return_value___builtin___snprintf_chk_2_link1;
 }
 
-// snprintf$link2
+// snprintf_link2
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
-static inline signed int snprintf$link2(char * restrict __s$link2, unsigned long int __n$link2, const char * restrict __fmt$link2, ...)
+static inline signed int snprintf_link2(char * restrict __s_link2, unsigned long int __n_link2, const char * restrict __fmt_link2, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link2;
-  return_value___builtin_va_arg_pack$1$link2=__builtin_va_arg_pack();
-  signed int return_value___builtin___snprintf_chk$2$link2;
-  return_value___builtin___snprintf_chk$2$link2=__builtin___snprintf_chk(__s$link2, __n$link2, 2 - 1, 18446744073709551615ul, __fmt$link2, return_value___builtin_va_arg_pack$1$link2);
-  return return_value___builtin___snprintf_chk$2$link2;
+  void *return_value___builtin_va_arg_pack_1_link2;
+  return_value___builtin_va_arg_pack_1_link2=__builtin_va_arg_pack();
+  signed int return_value___builtin___snprintf_chk_2_link2;
+  return_value___builtin___snprintf_chk_2_link2=__builtin___snprintf_chk(__s_link2, __n_link2, 2 - 1, 18446744073709551615ul, __fmt_link2, return_value___builtin_va_arg_pack_1_link2);
+  return return_value___builtin___snprintf_chk_2_link2;
 }
 
-// snprintf$link3
+// snprintf_link3
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 61
-static inline signed int snprintf$link3(char * restrict __s$link3, unsigned long int __n$link3, const char * restrict __fmt$link3, ...)
+static inline signed int snprintf_link3(char * restrict __s_link3, unsigned long int __n_link3, const char * restrict __fmt_link3, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link3;
-  return_value___builtin_va_arg_pack$1$link3=__builtin_va_arg_pack();
-  signed int return_value___builtin___snprintf_chk$2$link3;
-  return_value___builtin___snprintf_chk$2$link3=__builtin___snprintf_chk(__s$link3, __n$link3, 2 - 1, 18446744073709551615ul, __fmt$link3, return_value___builtin_va_arg_pack$1$link3);
-  return return_value___builtin___snprintf_chk$2$link3;
+  void *return_value___builtin_va_arg_pack_1_link3;
+  return_value___builtin_va_arg_pack_1_link3=__builtin_va_arg_pack();
+  signed int return_value___builtin___snprintf_chk_2_link3;
+  return_value___builtin___snprintf_chk_2_link3=__builtin___snprintf_chk(__s_link3, __n_link3, 2 - 1, 18446744073709551615ul, __fmt_link3, return_value___builtin_va_arg_pack_1_link3);
+  return return_value___builtin___snprintf_chk_2_link3;
 }
 
 // sprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 31
 static inline signed int sprintf(char * restrict __s, const char * restrict __fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  signed int return_value___builtin___sprintf_chk$2;
-  return_value___builtin___sprintf_chk$2=__builtin___sprintf_chk(__s, 2 - 1, 18446744073709551615ul, __fmt, return_value___builtin_va_arg_pack$1);
-  return return_value___builtin___sprintf_chk$2;
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  signed int return_value___builtin___sprintf_chk_2;
+  return_value___builtin___sprintf_chk_2=__builtin___sprintf_chk(__s, 2 - 1, 18446744073709551615ul, __fmt, return_value___builtin_va_arg_pack_1);
+  return return_value___builtin___sprintf_chk_2;
 }
 
-// sprintf$link1
+// sprintf_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 31
-static inline signed int sprintf$link1(char * restrict __s$link1, const char * restrict __fmt$link1, ...)
+static inline signed int sprintf_link1(char * restrict __s_link1, const char * restrict __fmt_link1, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link1;
-  return_value___builtin_va_arg_pack$1$link1=__builtin_va_arg_pack();
-  signed int return_value___builtin___sprintf_chk$2$link1;
-  return_value___builtin___sprintf_chk$2$link1=__builtin___sprintf_chk(__s$link1, 2 - 1, 18446744073709551615ul, __fmt$link1, return_value___builtin_va_arg_pack$1$link1);
-  return return_value___builtin___sprintf_chk$2$link1;
+  void *return_value___builtin_va_arg_pack_1_link1;
+  return_value___builtin_va_arg_pack_1_link1=__builtin_va_arg_pack();
+  signed int return_value___builtin___sprintf_chk_2_link1;
+  return_value___builtin___sprintf_chk_2_link1=__builtin___sprintf_chk(__s_link1, 2 - 1, 18446744073709551615ul, __fmt_link1, return_value___builtin_va_arg_pack_1_link1);
+  return return_value___builtin___sprintf_chk_2_link1;
 }
 
-// sprintf$link2
+// sprintf_link2
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 31
-static inline signed int sprintf$link2(char * restrict __s$link2, const char * restrict __fmt$link2, ...)
+static inline signed int sprintf_link2(char * restrict __s_link2, const char * restrict __fmt_link2, ...)
 {
-  void *return_value___builtin_va_arg_pack$1$link2;
-  return_value___builtin_va_arg_pack$1$link2=__builtin_va_arg_pack();
-  signed int return_value___builtin___sprintf_chk$2$link2;
-  return_value___builtin___sprintf_chk$2$link2=__builtin___sprintf_chk(__s$link2, 2 - 1, 18446744073709551615ul, __fmt$link2, return_value___builtin_va_arg_pack$1$link2);
-  return return_value___builtin___sprintf_chk$2$link2;
+  void *return_value___builtin_va_arg_pack_1_link2;
+  return_value___builtin_va_arg_pack_1_link2=__builtin_va_arg_pack();
+  signed int return_value___builtin___sprintf_chk_2_link2;
+  return_value___builtin___sprintf_chk_2_link2=__builtin___sprintf_chk(__s_link2, 2 - 1, 18446744073709551615ul, __fmt_link2, return_value___builtin_va_arg_pack_1_link2);
+  return return_value___builtin___sprintf_chk_2_link2;
 }
 
 // stat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // strcat
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 146
 static inline char * strcat(char * restrict __dest, const char * restrict __src)
 {
-  char *return_value___builtin___strcat_chk$1;
-  return_value___builtin___strcat_chk$1=__builtin___strcat_chk(__dest, __src, 18446744073709551615ul);
-  return return_value___builtin___strcat_chk$1;
+  char *return_value___builtin___strcat_chk_1;
+  return_value___builtin___strcat_chk_1=__builtin___strcat_chk(__dest, __src, 18446744073709551615ul);
+  return return_value___builtin___strcat_chk_1;
 }
 
-// strcat$link1
+// strcat_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 146
-static inline char * strcat$link1(char * restrict __dest$link1, const char * restrict __src$link1)
+static inline char * strcat_link1(char * restrict __dest_link1, const char * restrict __src_link1)
 {
-  char *return_value___builtin___strcat_chk$1$link1;
-  return_value___builtin___strcat_chk$1$link1=__builtin___strcat_chk(__dest$link1, __src$link1, 18446744073709551615ul);
-  return return_value___builtin___strcat_chk$1$link1;
+  char *return_value___builtin___strcat_chk_1_link1;
+  return_value___builtin___strcat_chk_1_link1=__builtin___strcat_chk(__dest_link1, __src_link1, 18446744073709551615ul);
+  return return_value___builtin___strcat_chk_1_link1;
 }
 
-// strcat$link2
+// strcat_link2
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 146
-static inline char * strcat$link2(char * restrict __dest$link2, const char * restrict __src$link2)
+static inline char * strcat_link2(char * restrict __dest_link2, const char * restrict __src_link2)
 {
-  char *return_value___builtin___strcat_chk$1$link2;
-  return_value___builtin___strcat_chk$1$link2=__builtin___strcat_chk(__dest$link2, __src$link2, 18446744073709551615ul);
-  return return_value___builtin___strcat_chk$1$link2;
+  char *return_value___builtin___strcat_chk_1_link2;
+  return_value___builtin___strcat_chk_1_link2=__builtin___strcat_chk(__dest_link2, __src_link2, 18446744073709551615ul);
+  return return_value___builtin___strcat_chk_1_link2;
 }
 
 // strcatrealloc
@@ -18579,43 +18579,43 @@ static inline char * strcat$link2(char * restrict __dest$link2, const char * res
 static char * strcatrealloc(char *dest, const char *src)
 {
   unsigned long int l;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(src == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*src != 0) ? (_Bool)1 : (_Bool)0;
-  unsigned long int tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*src != 0) ? (_Bool)1 : (_Bool)0;
+  unsigned long int tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  if(tmp_if_expr_1)
     return dest;
 
   else
   {
     if(!(dest == ((char *)NULL)))
     {
-      return_value_strlen$2=strlen(dest);
-      tmp_if_expr$3 = return_value_strlen$2;
+      return_value_strlen_2=strlen(dest);
+      tmp_if_expr_3 = return_value_strlen_2;
     }
 
     else
-      tmp_if_expr$3 = (unsigned long int)0;
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(src);
-    l = tmp_if_expr$3 + return_value_strlen$4 + (unsigned long int)1;
+      tmp_if_expr_3 = (unsigned long int)0;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(src);
+    l = tmp_if_expr_3 + return_value_strlen_4 + (unsigned long int)1;
     if(!(dest == ((char *)NULL)))
     {
-      void *return_value_realloc$5;
-      return_value_realloc$5=realloc((void *)dest, l);
-      dest = (char *)return_value_realloc$5;
-      strcat$link2(dest, src);
+      void *return_value_realloc_5;
+      return_value_realloc_5=realloc((void *)dest, l);
+      dest = (char *)return_value_realloc_5;
+      strcat_link2(dest, src);
     }
 
     else
     {
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc(l);
-      dest = (char *)return_value_malloc$6;
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc(l);
+      dest = (char *)return_value_malloc_6;
       strcpy(dest, src);
     }
     return dest;
@@ -18626,27 +18626,27 @@ static char * strcatrealloc(char *dest, const char *src)
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 108
 static inline char * strcpy(char * restrict __dest, const char * restrict __src)
 {
-  char *return_value___builtin___strcpy_chk$1;
-  return_value___builtin___strcpy_chk$1=__builtin___strcpy_chk(__dest, __src, 18446744073709551615ul);
-  return return_value___builtin___strcpy_chk$1;
+  char *return_value___builtin___strcpy_chk_1;
+  return_value___builtin___strcpy_chk_1=__builtin___strcpy_chk(__dest, __src, 18446744073709551615ul);
+  return return_value___builtin___strcpy_chk_1;
 }
 
-// strcpy$link1
+// strcpy_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 108
-static inline char * strcpy$link1(char * restrict __dest$link1, const char * restrict __src$link1)
+static inline char * strcpy_link1(char * restrict __dest_link1, const char * restrict __src_link1)
 {
-  char *return_value___builtin___strcpy_chk$1$link1;
-  return_value___builtin___strcpy_chk$1$link1=__builtin___strcpy_chk(__dest$link1, __src$link1, 18446744073709551615ul);
-  return return_value___builtin___strcpy_chk$1$link1;
+  char *return_value___builtin___strcpy_chk_1_link1;
+  return_value___builtin___strcpy_chk_1_link1=__builtin___strcpy_chk(__dest_link1, __src_link1, 18446744073709551615ul);
+  return return_value___builtin___strcpy_chk_1_link1;
 }
 
-// strcpy$link2
+// strcpy_link2
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 108
-static inline char * strcpy$link2(char * restrict __dest$link2, const char * restrict __src$link2)
+static inline char * strcpy_link2(char * restrict __dest_link2, const char * restrict __src_link2)
 {
-  char *return_value___builtin___strcpy_chk$1$link2;
-  return_value___builtin___strcpy_chk$1$link2=__builtin___strcpy_chk(__dest$link2, __src$link2, 18446744073709551615ul);
-  return return_value___builtin___strcpy_chk$1$link2;
+  char *return_value___builtin___strcpy_chk_1_link2;
+  return_value___builtin___strcpy_chk_1_link2=__builtin___strcpy_chk(__dest_link2, __src_link2, 18446744073709551615ul);
+  return return_value___builtin___strcpy_chk_1_link2;
 }
 
 // strn0cpy
@@ -18654,19 +18654,19 @@ static inline char * strcpy$link2(char * restrict __dest$link2, const char * res
 char * strn0cpy(char *dest, const char *src, signed int n)
 {
   char *s = dest;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     n = n - 1;
     if(!(n == 0))
     {
       *dest = *src;
-      tmp_if_expr$1 = (signed int)*dest != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*dest != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     dest = dest + 1l;
@@ -18681,35 +18681,35 @@ char * strn0cpy(char *dest, const char *src, signed int n)
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 153
 static inline char * strncat(char * restrict __dest, const char * restrict __src, unsigned long int __len)
 {
-  char *return_value___builtin___strncat_chk$1;
-  return_value___builtin___strncat_chk$1=__builtin___strncat_chk(__dest, __src, __len, 18446744073709551615ul);
-  return return_value___builtin___strncat_chk$1;
+  char *return_value___builtin___strncat_chk_1;
+  return_value___builtin___strncat_chk_1=__builtin___strncat_chk(__dest, __src, __len, 18446744073709551615ul);
+  return return_value___builtin___strncat_chk_1;
 }
 
 // strncpy
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 123
 static inline char * strncpy(char * restrict __dest, const char * restrict __src, unsigned long int __len)
 {
-  char *return_value___builtin___strncpy_chk$1;
-  return_value___builtin___strncpy_chk$1=__builtin___strncpy_chk(__dest, __src, __len, 18446744073709551615ul);
-  return return_value___builtin___strncpy_chk$1;
+  char *return_value___builtin___strncpy_chk_1;
+  return_value___builtin___strncpy_chk_1=__builtin___strncpy_chk(__dest, __src, __len, 18446744073709551615ul);
+  return return_value___builtin___strncpy_chk_1;
 }
 
-// strncpy$link1
+// strncpy_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 123
-static inline char * strncpy$link1(char * restrict __dest$link1, const char * restrict __src$link1, unsigned long int __len$link1)
+static inline char * strncpy_link1(char * restrict __dest_link1, const char * restrict __src_link1, unsigned long int __len_link1)
 {
-  char *return_value___builtin___strncpy_chk$1$link1;
-  return_value___builtin___strncpy_chk$1$link1=__builtin___strncpy_chk(__dest$link1, __src$link1, __len$link1, 18446744073709551615ul);
-  return return_value___builtin___strncpy_chk$1$link1;
+  char *return_value___builtin___strncpy_chk_1_link1;
+  return_value___builtin___strncpy_chk_1_link1=__builtin___strncpy_chk(__dest_link1, __src_link1, __len_link1, 18446744073709551615ul);
+  return return_value___builtin___strncpy_chk_1_link1;
 }
 
 // sxfe_dest_size_cb
 // file xine_sxfe_frontend.c line 266
 static void sxfe_dest_size_cb(void *data, signed int video_width, signed int video_height, double video_pixel_aspect, signed int *dest_width, signed int *dest_height, double *dest_pixel_aspect)
 {
-  struct fe_s$0 *this = (struct fe_s$0 *)data;
-  if(!(this == ((struct fe_s$0 *)NULL)))
+  struct fe_s_0 *this = (struct fe_s_0 *)data;
+  if(!(this == ((struct fe_s_0 *)NULL)))
   {
     *dest_width = (signed int)this->width;
     *dest_height = (signed int)this->height;
@@ -18723,40 +18723,40 @@ static void sxfe_dest_size_cb(void *data, signed int video_width, signed int vid
 static void sxfe_display_close(struct frontend_s *this_gen)
 {
   struct sxfe_s *this = (struct sxfe_s *)this_gen;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(this == ((struct sxfe_s *)NULL)))
   {
-    if(!(this->$anon0.x.xine == ((struct xine_s$0 *)NULL)))
-      this->$anon0.fe.xine_exit(this_gen);
+    if(!(this->_anon0.x.xine == ((struct xine_s_0 *)NULL)))
+      this->_anon0.fe.xine_exit(this_gen);
 
     if(!(this->display == ((struct _XDisplay *)NULL)))
     {
       if(!(this->opengl_always == 0))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = this->opengl_hud != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = this->opengl_hud != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
       {
         void *status;
         this->opengl_deinit = (unsigned char)1;
         opengl_trigger_drawing_thread(this);
-        signed int return_value_pthread_join$4;
-        return_value_pthread_join$4=pthread_join(this->opengl_drawing_thread, &status);
-        if(!(return_value_pthread_join$4 == 0))
+        signed int return_value_pthread_join_4;
+        return_value_pthread_join_4=pthread_join(this->opengl_drawing_thread, &status);
+        if(!(return_value_pthread_join_4 == 0))
           do
             if(SysLogLevel >= 1)
             {
               x_syslog(3, "[vdr-sxfe]  ", "sxfe_display_close: can not join opengl drawing thread!");
-              signed int *return_value___errno_location$3;
-              return_value___errno_location$3=__errno_location();
-              if(!(*return_value___errno_location$3 == 0))
+              signed int *return_value___errno_location_3;
+              return_value___errno_location_3=__errno_location();
+              if(!(*return_value___errno_location_3 == 0))
               {
-                return_value___errno_location$1=__errno_location();
-                return_value_strerror$2=strerror(*return_value___errno_location$1);
-                x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 3088, return_value_strerror$2);
+                return_value___errno_location_1=__errno_location();
+                return_value_strerror_2=strerror(*return_value___errno_location_1);
+                x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 3088, return_value_strerror_2);
               }
 
             }
@@ -18785,8 +18785,8 @@ static void sxfe_display_close(struct frontend_s *this_gen)
       pthread_mutex_destroy(&this->video_win_mutex);
     }
 
-    free((void *)this->$anon0.x.aspect_controller);
-    this->$anon0.x.aspect_controller = (char *)(void *)0;
+    free((void *)this->_anon0.x.aspect_controller);
+    this->_anon0.x.aspect_controller = (char *)(void *)0;
   }
 
 }
@@ -18799,25 +18799,25 @@ static signed int sxfe_display_config(struct frontend_s *this_gen, signed int xp
   if(!(this->fullscreen_state_forced == 0))
     fullscreen = this->fullscreen != 0 ? 1 : 0;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(fullscreen == 0)
   {
-    if(!((signed int)this->$anon0.x.width == width))
-      tmp_if_expr$1 = (_Bool)1;
+    if(!((signed int)this->_anon0.x.width == width))
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)this->$anon0.x.height != height ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)this->_anon0.x.height != height ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
-      this->$anon0.x.width = (unsigned short int)width;
-      this->$anon0.x.height = (unsigned short int)height;
+      this->_anon0.x.width = (unsigned short int)width;
+      this->_anon0.x.height = (unsigned short int)height;
       XLockDisplay(this->display);
-      XResizeWindow(this->display, this->window[(signed long int)0], (unsigned int)this->$anon0.x.width, (unsigned int)this->$anon0.x.height);
+      XResizeWindow(this->display, this->window[(signed long int)0], (unsigned int)this->_anon0.x.width, (unsigned int)this->_anon0.x.height);
       XUnlockDisplay(this->display);
       if(fullscreen == 0)
       {
         if(this->fullscreen == 0)
-          xine_port_send_gui_data(this->$anon0.x.video_port, 2, (void *)this->window[(signed long int)0]);
+          xine_port_send_gui_data(this->_anon0.x.video_port, 2, (void *)this->window[(signed long int)0]);
 
       }
 
@@ -18844,11 +18844,11 @@ static signed int sxfe_display_config(struct frontend_s *this_gen, signed int xp
     XMapRaised(this->display, this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)]);
     if(fullscreen == 0)
     {
-      XResizeWindow(this->display, this->window[(signed long int)0], (unsigned int)this->$anon0.x.width, (unsigned int)this->$anon0.x.height);
-      XMoveWindow(this->display, this->window[(signed long int)0], (signed int)this->$anon0.x.xpos, (signed int)this->$anon0.x.ypos);
+      XResizeWindow(this->display, this->window[(signed long int)0], (unsigned int)this->_anon0.x.width, (unsigned int)this->_anon0.x.height);
+      XMoveWindow(this->display, this->window[(signed long int)0], (signed int)this->_anon0.x.xpos, (signed int)this->_anon0.x.ypos);
       do
         if(SysLogLevel >= 3)
-          x_syslog(7, "[vdr-sxfe]  ", "sxfe_display_config: XMoveWindow called with x=%d and y=%d", this->$anon0.x.xpos, this->$anon0.x.ypos);
+          x_syslog(7, "[vdr-sxfe]  ", "sxfe_display_config: XMoveWindow called with x=%d and y=%d", this->_anon0.x.xpos, this->_anon0.x.ypos);
 
       while((_Bool)0);
       this->check_move = (unsigned char)1;
@@ -18858,24 +18858,24 @@ static signed int sxfe_display_config(struct frontend_s *this_gen, signed int xp
     else
     {
       set_fullscreen_props(this);
-      XResizeWindow(this->display, this->window[(signed long int)1], (unsigned int)this->$anon0.x.width, (unsigned int)this->$anon0.x.height);
+      XResizeWindow(this->display, this->window[(signed long int)1], (unsigned int)this->_anon0.x.width, (unsigned int)this->_anon0.x.height);
       XMoveWindow(this->display, this->window[(signed long int)1], (signed int)this->xinerama_x, (signed int)this->xinerama_y);
     }
     XSync(this->display, 0);
-    signed int return_value_XTranslateCoordinates$2;
-    return_value_XTranslateCoordinates$2=XTranslateCoordinates(this->display, this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)], this->root_window, 0, 0, &tmp_x, &tmp_y, &tmp_win);
-    if(!(return_value_XTranslateCoordinates$2 == 0))
+    signed int return_value_XTranslateCoordinates_2;
+    return_value_XTranslateCoordinates_2=XTranslateCoordinates(this->display, this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)], this->root_window, 0, 0, &tmp_x, &tmp_y, &tmp_win);
+    if(!(return_value_XTranslateCoordinates_2 == 0))
     {
-      this->$anon0.x.xpos = (unsigned short int)tmp_x;
-      this->$anon0.x.ypos = (unsigned short int)tmp_y;
+      this->_anon0.x.xpos = (unsigned short int)tmp_x;
+      this->_anon0.x.ypos = (unsigned short int)tmp_y;
     }
 
     XUnlockDisplay(this->display);
-    xine_port_send_gui_data(this->$anon0.x.video_port, 2, (void *)this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)]);
+    xine_port_send_gui_data(this->_anon0.x.video_port, 2, (void *)this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)]);
   }
 
-  this->$anon0.x.aspect = (unsigned char)aspect;
-  this->$anon0.x.scale_video = (unsigned char)scale_video;
+  this->_anon0.x.aspect = (unsigned char)aspect;
+  this->_anon0.x.scale_video = (unsigned char)scale_video;
   return 1;
 }
 
@@ -18894,16 +18894,16 @@ static signed int sxfe_display_open(struct frontend_s *this_gen, signed int xpos
 {
   struct sxfe_s *this = (struct sxfe_s *)this_gen;
   if(!(this->display == ((struct _XDisplay *)NULL)))
-    this->$anon0.fe.fe_display_close(this_gen);
+    this->_anon0.fe.fe_display_close(this_gen);
 
   do
     if(SysLogLevel >= 3)
       x_syslog(7, "[vdr-sxfe]  ", "sxfe_display_open(width=%d, height=%d, fullscreen=%d, display=%s)", width, height, fullscreen, video_port);
 
   while((_Bool)0);
-  pthread_mutex_init(&this->video_win_mutex, (const union anonymous$12 *)(void *)0);
-  if(!(this->$anon0.fe.fe_message_cb == ((void (*)(void *, const char *, const char *))NULL)))
-    this->$anon0.fe.fe_message_cb(this->$anon0.fe.fe_message_h, "XKeySym", "");
+  pthread_mutex_init(&this->video_win_mutex, (const union anonymous_12 *)(void *)0);
+  if(!(this->_anon0.fe.fe_message_cb == ((void (*)(void *, const char *, const char *))NULL)))
+    this->_anon0.fe.fe_message_cb(this->_anon0.fe.fe_message_h, "XKeySym", "");
 
   this->osd_width = (unsigned short int)720;
   this->osd_height = (unsigned short int)576;
@@ -18940,24 +18940,24 @@ static signed int sxfe_display_open(struct frontend_s *this_gen, signed int xpos
         this->xshape_hud = (unsigned char)!(!((hud & 0x2) != 0));
       }
 
-  this->$anon0.x.xpos = (unsigned short int)xpos;
-  this->$anon0.x.ypos = (unsigned short int)ypos;
-  this->$anon0.x.width = (unsigned short int)width;
-  this->$anon0.x.height = (unsigned short int)height;
-  this->$anon0.x.aspect = (unsigned char)aspect;
-  this->$anon0.x.overscan = (unsigned char)0;
-  this->$anon0.x.scale_video = (unsigned char)scale_video;
-  char *tmp_if_expr$2;
-  char *return_value___strdup$1;
+  this->_anon0.x.xpos = (unsigned short int)xpos;
+  this->_anon0.x.ypos = (unsigned short int)ypos;
+  this->_anon0.x.width = (unsigned short int)width;
+  this->_anon0.x.height = (unsigned short int)height;
+  this->_anon0.x.aspect = (unsigned char)aspect;
+  this->_anon0.x.overscan = (unsigned char)0;
+  this->_anon0.x.scale_video = (unsigned char)scale_video;
+  char *tmp_if_expr_2;
+  char *return_value___strdup_1;
   if(!(aspect_controller == ((const char *)NULL)))
   {
-    return_value___strdup$1=__strdup(aspect_controller);
-    tmp_if_expr$2 = return_value___strdup$1;
+    return_value___strdup_1=__strdup(aspect_controller);
+    tmp_if_expr_2 = return_value___strdup_1;
   }
 
   else
-    tmp_if_expr$2 = (char *)(void *)0;
-  this->$anon0.x.aspect_controller = tmp_if_expr$2;
+    tmp_if_expr_2 = (char *)(void *)0;
+  this->_anon0.x.aspect_controller = tmp_if_expr_2;
   this->video_win_active = (unsigned char)0;
   this->origxpos = (unsigned short int)0;
   this->origypos = (unsigned short int)0;
@@ -18974,24 +18974,24 @@ static signed int sxfe_display_open(struct frontend_s *this_gen, signed int xpos
   this->gui_hotkeys = (unsigned char)!(!(gui_hotkeys != 0));
   this->no_x_kbd = (unsigned char)!(!(no_x_kbd != 0));
   this->touchscreen = (unsigned char)!(!(touchscreen != 0));
-  signed int return_value_XInitThreads$6;
-  return_value_XInitThreads$6=XInitThreads();
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  _Bool tmp_if_expr$11;
-  if(return_value_XInitThreads$6 == 0)
+  signed int return_value_XInitThreads_6;
+  return_value_XInitThreads_6=XInitThreads();
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  _Bool tmp_if_expr_11;
+  if(return_value_XInitThreads_6 == 0)
   {
     do
       if(SysLogLevel >= 1)
       {
         x_syslog(3, "[vdr-sxfe]  ", "sxfe_display_open: XInitThreads failed");
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        if(!(*return_value___errno_location$5 == 0))
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        if(!(*return_value___errno_location_5 == 0))
         {
-          return_value___errno_location$3=__errno_location();
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 2340, return_value_strerror$4);
+          return_value___errno_location_3=__errno_location();
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 2340, return_value_strerror_4);
         }
 
       }
@@ -19003,24 +19003,24 @@ static signed int sxfe_display_open(struct frontend_s *this_gen, signed int xpos
 
   else
   {
-    signed int return_value_open_display$7;
-    return_value_open_display$7=open_display(this, video_port);
-    if(return_value_open_display$7 == 0)
+    signed int return_value_open_display_7;
+    return_value_open_display_7=open_display(this, video_port);
+    if(return_value_open_display_7 == 0)
       return 0;
 
     else
     {
       XLockDisplay(this->display);
-      this->screen = ((struct anonymous$34 *)this->display)->default_screen;
-      this->root_window = (&((struct anonymous$34 *)this->display)->screens[(signed long int)((struct anonymous$34 *)this->display)->default_screen])->root;
+      this->screen = ((struct anonymous_34 *)this->display)->default_screen;
+      this->root_window = (&((struct anonymous_34 *)this->display)->screens[(signed long int)((struct anonymous_34 *)this->display)->default_screen])->root;
       this->xshm_completion_event = -1;
-      signed int return_value_XShmQueryExtension$9;
-      return_value_XShmQueryExtension$9=XShmQueryExtension(this->display);
-      if(return_value_XShmQueryExtension$9 == 1)
+      signed int return_value_XShmQueryExtension_9;
+      return_value_XShmQueryExtension_9=XShmQueryExtension(this->display);
+      if(return_value_XShmQueryExtension_9 == 1)
       {
-        signed int return_value_XShmGetEventBase$8;
-        return_value_XShmGetEventBase$8=XShmGetEventBase(this->display);
-        this->xshm_completion_event = return_value_XShmGetEventBase$8 + 0;
+        signed int return_value_XShmGetEventBase_8;
+        return_value_XShmGetEventBase_8=XShmGetEventBase(this->display);
+        this->xshm_completion_event = return_value_XShmGetEventBase_8 + 0;
       }
 
       init_atoms(this);
@@ -19048,8 +19048,8 @@ static signed int sxfe_display_open(struct frontend_s *this_gen, signed int xpos
       XSelectInput(this->display, this->window[(signed long int)1], 1L << 17 | 1L << 15 | 1L << 0 | 1L << 2 | 1L << 21 | 1L << 6);
       XSelectInput(this->display, this->root_window, 1L << 17);
       XMapRaised(this->display, this->window[(signed long int)!(!(this->fullscreen != 0))]);
-      XMoveWindow(this->display, this->window[(signed long int)0], (signed int)this->$anon0.x.xpos, (signed int)this->$anon0.x.ypos);
-      this->$anon0.x.display_ratio=detect_display_ratio(this->display, this->screen);
+      XMoveWindow(this->display, this->window[(signed long int)0], (signed int)this->_anon0.x.xpos, (signed int)this->_anon0.x.ypos);
+      this->_anon0.x.display_ratio=detect_display_ratio(this->display, this->screen);
       XSetWMProtocols(this->display, this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)], &this->xa_WM_DELETE_WINDOW, 1);
       if(!(this->window_id >= 1))
       {
@@ -19060,32 +19060,32 @@ static signed int sxfe_display_open(struct frontend_s *this_gen, signed int xpos
       XSetScreenSaver(this->display, 0, 0, 2, 2);
       disable_DPMS(this);
       gnome_screensaver_control(0);
-      this->$anon0.x.xine_visual_type = 1;
-      this->$anon0.x.$anon0.vis_x11.display = (void *)this->display;
-      this->$anon0.x.$anon0.vis_x11.screen = this->screen;
-      this->$anon0.x.$anon0.vis_x11.d = this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)];
-      this->$anon0.x.$anon0.vis_x11.dest_size_cb = sxfe_dest_size_cb;
-      this->$anon0.x.$anon0.vis_x11.frame_output_cb = this->$anon0.x.frame_output_handler;
-      this->$anon0.x.$anon0.vis_x11.user_data = (void *)this;
+      this->_anon0.x.xine_visual_type = 1;
+      this->_anon0.x._anon0.vis_x11.display = (void *)this->display;
+      this->_anon0.x._anon0.vis_x11.screen = this->screen;
+      this->_anon0.x._anon0.vis_x11.d = this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)];
+      this->_anon0.x._anon0.vis_x11.dest_size_cb = sxfe_dest_size_cb;
+      this->_anon0.x._anon0.vis_x11.frame_output_cb = this->_anon0.x.frame_output_handler;
+      this->_anon0.x._anon0.vis_x11.user_data = (void *)this;
       set_fullscreen_props(this);
       XUnlockDisplay(this->display);
       if(!(this->opengl_always == 0))
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_11 = (_Bool)1;
 
       else
-        tmp_if_expr$11 = this->opengl_hud != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$11)
+        tmp_if_expr_11 = this->opengl_hud != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_11)
       {
-        signed int return_value_opengl_start$10;
-        return_value_opengl_start$10=opengl_start(this);
-        if(return_value_opengl_start$10 == 0)
+        signed int return_value_opengl_start_10;
+        return_value_opengl_start_10=opengl_start(this);
+        if(return_value_opengl_start_10 == 0)
           return 0;
 
       }
 
-      signed int return_value_hud_osd_open$12;
-      return_value_hud_osd_open$12=hud_osd_open(this);
-      if(return_value_hud_osd_open$12 == 0)
+      signed int return_value_hud_osd_open_12;
+      return_value_hud_osd_open_12=hud_osd_open(this);
+      if(return_value_hud_osd_open_12 == 0)
         return 0;
 
       else
@@ -19099,22 +19099,22 @@ static signed int sxfe_display_open(struct frontend_s *this_gen, signed int xpos
 static struct frontend_s * sxfe_get_frontend(void)
 {
   struct sxfe_s *this;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct sxfe_s) /*1160ul*/ );
-  this = (struct sxfe_s *)return_value_calloc$1;
-  init_fe((struct fe_s$0 *)this);
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct sxfe_s) /*1160ul*/ );
+  this = (struct sxfe_s *)return_value_calloc_1;
+  init_fe((struct fe_s_0 *)this);
   this->window_id = -1;
-  this->$anon0.fe.fe_display_open = sxfe_display_open;
-  this->$anon0.fe.fe_display_config = sxfe_display_config;
-  this->$anon0.fe.fe_display_edid = sxfe_display_edid;
-  this->$anon0.fe.fe_display_close = sxfe_display_close;
-  this->$anon0.fe.fe_run = sxfe_run;
-  this->$anon0.fe.fe_interrupt = sxfe_interrupt;
-  this->$anon0.x.toggle_fullscreen_cb = sxfe_toggle_fullscreen;
-  this->fe_xine_open = this->$anon0.fe.xine_open;
-  this->fe_xine_play = this->$anon0.fe.xine_play;
-  this->$anon0.fe.xine_open = sxfe_xine_open;
-  this->$anon0.fe.xine_play = sxfe_xine_play;
+  this->_anon0.fe.fe_display_open = sxfe_display_open;
+  this->_anon0.fe.fe_display_config = sxfe_display_config;
+  this->_anon0.fe.fe_display_edid = sxfe_display_edid;
+  this->_anon0.fe.fe_display_close = sxfe_display_close;
+  this->_anon0.fe.fe_run = sxfe_run;
+  this->_anon0.fe.fe_interrupt = sxfe_interrupt;
+  this->_anon0.x.toggle_fullscreen_cb = sxfe_toggle_fullscreen;
+  this->fe_xine_open = this->_anon0.fe.xine_open;
+  this->fe_xine_play = this->_anon0.fe.xine_play;
+  this->_anon0.fe.xine_open = sxfe_xine_open;
+  this->_anon0.fe.xine_play = sxfe_xine_play;
   return (struct frontend_s *)this;
 }
 
@@ -19123,27 +19123,27 @@ static struct frontend_s * sxfe_get_frontend(void)
 static void sxfe_interrupt(struct frontend_s *this_gen)
 {
   struct sxfe_s *this = (struct sxfe_s *)this_gen;
-  struct anonymous$62 event = { .type=33, .serial=0ul, .send_event=0, .display=this->display, .window=this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)],
+  struct anonymous_62 event = { .type=33, .serial=0ul, .send_event=0, .display=this->display, .window=this->window[(signed long int)(this->fullscreen != 0 ? 1 : 0)],
     .message_type=this->xa_SXFE_INTERRUPT,
     .format=32,
     .data={ .l={ 0l, 0l, 0l, 0l, 0l } } };
   XLockDisplay(this->display);
-  signed int return_value_XSendEvent$4;
-  return_value_XSendEvent$4=XSendEvent(event.display, event.window, 1, (signed long int)0, (union _XEvent *)&event);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_XSendEvent$4 == 0)
+  signed int return_value_XSendEvent_4;
+  return_value_XSendEvent_4=XSendEvent(event.display, event.window, 1, (signed long int)0, (union _XEvent *)&event);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_XSendEvent_4 == 0)
     do
       if(SysLogLevel >= 1)
       {
         x_syslog(3, "[vdr-sxfe]  ", "sxfe_interrupt: XSendEvent(ClientMessage) FAILED\n");
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(!(*return_value___errno_location$3 == 0))
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(!(*return_value___errno_location_3 == 0))
         {
-          return_value___errno_location$1=__errno_location();
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 2677, return_value_strerror$2);
+          return_value___errno_location_1=__errno_location();
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          x_syslog(3, "[vdr-sxfe]  ", "   (ERROR (%s,%d): %s)", (const void *)"xine_sxfe_frontend.c", 2677, return_value_strerror_2);
         }
 
       }
@@ -19159,44 +19159,44 @@ static void sxfe_interrupt(struct frontend_s *this_gen)
 static signed int sxfe_run(struct frontend_s *this_gen)
 {
   struct sxfe_s *this = (struct sxfe_s *)this_gen;
-  signed int return_value_XPending$3;
-  return_value_XPending$3=XPending(this->display);
-  if(return_value_XPending$3 == 0)
+  signed int return_value_XPending_3;
+  return_value_XPending_3=XPending(this->display);
+  if(return_value_XPending_3 == 0)
   {
     unsigned long int poll_time = (unsigned long int)0;
     const signed int poll_timeout = 50;
-    struct pollfd pfd = { .fd=((struct anonymous$34 *)this->display)->fd, .events=(signed short int)0x001,
+    struct pollfd pfd = { .fd=((struct anonymous_34 *)this->display)->fd, .events=(signed short int)0x001,
     .revents=0 };
     if(this->mousecursor_timeout >= 1)
       poll_time=time_ms();
 
-    signed int return_value_poll$1;
-    return_value_poll$1=poll(&pfd, (unsigned long int)1, poll_timeout);
-    if((0x001 & (signed int)pfd.revents) == 0 || !(return_value_poll$1 >= 1))
+    signed int return_value_poll_1;
+    return_value_poll_1=poll(&pfd, (unsigned long int)1, poll_timeout);
+    if((0x001 & (signed int)pfd.revents) == 0 || !(return_value_poll_1 >= 1))
     {
       if(this->mousecursor_timeout >= 1)
         check_mouse_cursor_hide(this, (signed long int)poll_timeout);
 
       signed int return_value;
-      return_value=this->$anon0.x.fe.xine_is_finished((struct frontend_s *)this, 0);
+      return_value=this->_anon0.x.fe.xine_is_finished((struct frontend_s *)this, 0);
       return (signed int)!(return_value != 0);
     }
 
     if(!(poll_time == 0ul))
     {
-      unsigned long int return_value_elapsed$2;
-      return_value_elapsed$2=elapsed(poll_time);
-      check_mouse_cursor_hide(this, (signed long int)return_value_elapsed$2);
+      unsigned long int return_value_elapsed_2;
+      return_value_elapsed_2=elapsed(poll_time);
+      check_mouse_cursor_hide(this, (signed long int)return_value_elapsed_2);
     }
 
   }
 
-  signed int return_value_XPending$4;
-  struct anonymous$62 *cmessage;
+  signed int return_value_XPending_4;
+  struct anonymous_62 *cmessage;
   do
   {
-    return_value_XPending$4=XPending(this->display);
-    if(!(return_value_XPending$4 >= 1))
+    return_value_XPending_4=XPending(this->display);
+    if(!(return_value_XPending_4 >= 1))
       break;
 
     union _XEvent event;
@@ -19208,20 +19208,20 @@ static signed int sxfe_run(struct frontend_s *this_gen)
       case 12:
       {
         if(event.xexpose.count == 0)
-          xine_port_send_gui_data(this->$anon0.x.video_port, 3, (void *)&event);
+          xine_port_send_gui_data(this->_anon0.x.video_port, 3, (void *)&event);
 
         break;
       }
       case 22:
       {
-        XConfigureEvent_handler(this, (struct anonymous$51 *)&event);
+        XConfigureEvent_handler(this, (struct anonymous_51 *)&event);
         break;
       }
       case 9:
 
       case 10:
       {
-        hud_osd_focus(this, (struct anonymous$40 *)&event);
+        hud_osd_focus(this, (struct anonymous_40 *)&event);
         break;
       }
       case 5:
@@ -19231,24 +19231,24 @@ static signed int sxfe_run(struct frontend_s *this_gen)
       }
       case 6:
       {
-        XMotionEvent_handler(this, (struct anonymous$38 *)&event);
+        XMotionEvent_handler(this, (struct anonymous_38 *)&event);
         break;
       }
       case 4:
       {
-        XButtonEvent_handler(this, (struct anonymous$37 *)&event);
+        XButtonEvent_handler(this, (struct anonymous_37 *)&event);
         break;
       }
       case 2:
 
       case 3:
       {
-        XKeyEvent_handler(this, (struct anonymous$36 *)&event);
+        XKeyEvent_handler(this, (struct anonymous_36 *)&event);
         break;
       }
       case 33:
       {
-        cmessage = (struct anonymous$62 *)&event;
+        cmessage = (struct anonymous_62 *)&event;
         if(cmessage->message_type == this->xa_SXFE_INTERRUPT)
           do
             if(SysLogLevel >= 3)
@@ -19263,45 +19263,45 @@ static signed int sxfe_run(struct frontend_s *this_gen)
               x_syslog(7, "[vdr-sxfe]  ", "ClientMessage: WM_DELETE_WINDOW");
 
           while((_Bool)0);
-          this->$anon0.x.fe.send_event((struct frontend_s *)this, "QUIT");
+          this->_anon0.x.fe.send_event((struct frontend_s *)this, "QUIT");
         }
 
       }
     }
     if(event.type == this->xshm_completion_event)
-      xine_port_send_gui_data(this->$anon0.x.video_port, 1, (void *)&event);
+      xine_port_send_gui_data(this->_anon0.x.video_port, 1, (void *)&event);
 
   }
   while((_Bool)1);
   signed int return_value_1;
-  return_value_1=this->$anon0.x.fe.xine_is_finished((struct frontend_s *)this, 0);
+  return_value_1=this->_anon0.x.fe.xine_is_finished((struct frontend_s *)this, 0);
   return (signed int)!(return_value_1 != 0);
 }
 
 // sxfe_toggle_fullscreen
 // file xine_sxfe_frontend.c line 2542
-static void sxfe_toggle_fullscreen(struct fe_s$0 *this_gen, signed int fullscreen)
+static void sxfe_toggle_fullscreen(struct fe_s_0 *this_gen, signed int fullscreen)
 {
   struct sxfe_s *this = (struct sxfe_s *)this_gen;
   signed int force = (signed int)this->fullscreen_state_forced;
   this->fullscreen_state_forced = (unsigned char)0;
   if(this->fullscreen == 0)
   {
-    this->origwidth = this->$anon0.x.width;
-    this->origheight = this->$anon0.x.height;
-    this->origxpos = this->$anon0.x.xpos;
-    this->origypos = this->$anon0.x.ypos;
+    this->origwidth = this->_anon0.x.width;
+    this->origheight = this->_anon0.x.height;
+    this->origxpos = this->_anon0.x.xpos;
+    this->origypos = this->_anon0.x.ypos;
   }
 
   else
   {
-    this->$anon0.x.xpos = this->origxpos;
-    this->$anon0.x.ypos = this->origypos;
+    this->_anon0.x.xpos = this->origxpos;
+    this->_anon0.x.ypos = this->origypos;
   }
   if(!(fullscreen >= 0))
     fullscreen = (signed int)!(this->fullscreen != 0);
 
-  this->$anon0.fe.fe_display_config((struct frontend_s *)this, -1, -1, (signed int)this->origwidth, (signed int)this->origheight, fullscreen, 0, (const char *)(void *)0, (signed int)this->$anon0.x.aspect, (signed int)this->$anon0.x.scale_video);
+  this->_anon0.fe.fe_display_config((struct frontend_s *)this, -1, -1, (signed int)this->origwidth, (signed int)this->origheight, fullscreen, 0, (const char *)(void *)0, (signed int)this->_anon0.x.aspect, (signed int)this->_anon0.x.scale_video);
   this->fullscreen_state_forced = (unsigned char)!(force != 0);
 }
 
@@ -19312,37 +19312,37 @@ static signed int sxfe_xine_open(struct frontend_s *this_gen, const char *mrl)
   struct sxfe_s *this = (struct sxfe_s *)this_gen;
   signed int result;
   result=this->fe_xine_open(this_gen, mrl);
-  signed int return_value_strncmp$6;
-  char *return_value_strstr$5;
-  _Bool tmp_if_expr$2;
-  char *return_value___builtin_strchr$1;
+  signed int return_value_strncmp_6;
+  char *return_value_strstr_5;
+  _Bool tmp_if_expr_2;
+  char *return_value___builtin_strchr_1;
   if(!(mrl == ((const char *)NULL)) && !(result == 0))
   {
-    return_value_strncmp$6=strncmp(mrl, "xvdr", (unsigned long int)4);
-    if(return_value_strncmp$6 == 0)
+    return_value_strncmp_6=strncmp(mrl, "xvdr", (unsigned long int)4);
+    if(return_value_strncmp_6 == 0)
     {
-      return_value_strstr$5=strstr(mrl, "//");
-      if(!(return_value_strstr$5 == ((char *)NULL)))
+      return_value_strstr_5=strstr(mrl, "//");
+      if(!(return_value_strstr_5 == ((char *)NULL)))
       {
         char *name = (char *)(void *)0;
         char *end;
-        char *return_value_strstr$3;
-        return_value_strstr$3=strstr(mrl, "//");
-        signed int return_value_asprintf$4;
-        return_value_asprintf$4=asprintf(&name, "VDR - %s", return_value_strstr$3 + (signed long int)2);
-        if(return_value_asprintf$4 >= 0)
+        char *return_value_strstr_3;
+        return_value_strstr_3=strstr(mrl, "//");
+        signed int return_value_asprintf_4;
+        return_value_asprintf_4=asprintf(&name, "VDR - %s", return_value_strstr_3 + (signed long int)2);
+        if(return_value_asprintf_4 >= 0)
         {
           end=strstr(name, ":37890");
           if(!(end == ((char *)NULL)))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
           {
-            return_value___builtin_strchr$1=__builtin_strchr(name, 35);
-            end = return_value___builtin_strchr$1;
-            tmp_if_expr$2 = (char *)(void *)0 != end ? (_Bool)1 : (_Bool)0;
+            return_value___builtin_strchr_1=__builtin_strchr(name, 35);
+            end = return_value___builtin_strchr_1;
+            tmp_if_expr_2 = (char *)(void *)0 != end ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$2)
+          if(tmp_if_expr_2)
             *end = (char)0;
 
           XStoreName(this->display, this->window[(signed long int)0], name);
@@ -19366,34 +19366,34 @@ static signed int sxfe_xine_play(struct frontend_s *this_gen)
   struct sxfe_s *this = (struct sxfe_s *)this_gen;
   signed int result;
   result=this->fe_xine_play(this_gen);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(result == 0))
   {
-    if(!(this->$anon0.x.input_plugin == ((struct vdr_input_plugin_if_s$0 *)NULL)))
+    if(!(this->_anon0.x.input_plugin == ((struct vdr_input_plugin_if_s_0 *)NULL)))
     {
       if(!(this->hud == 0))
       {
         if(SysLogLevel >= 3)
           x_syslog(7, "[vdr-sxfe]  ", "sxfe_xine_play: Enabling HUD OSD");
 
-        this->$anon0.x.input_plugin->f.fe_handle = this_gen;
-        this->$anon0.x.input_plugin->f.intercept_osd = hud_osd_command;
-        this->$anon0.x.fe.send_event((struct frontend_s *)this, "INFO ARGBOSD");
+        this->_anon0.x.input_plugin->f.fe_handle = this_gen;
+        this->_anon0.x.input_plugin->f.intercept_osd = hud_osd_command;
+        this->_anon0.x.fe.send_event((struct frontend_s *)this, "INFO ARGBOSD");
       }
 
       if(!(this->opengl_always == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = this->opengl_hud != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = this->opengl_hud != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         if(SysLogLevel >= 3)
           x_syslog(7, "[vdr-sxfe]  ", "sxfe_xine_play: Enabling OpenGL OSD");
 
-        this->$anon0.x.input_plugin->f.fe_handle = this_gen;
-        this->$anon0.x.input_plugin->f.intercept_osd = opengl_osd_command;
-        this->$anon0.x.fe.send_event((struct frontend_s *)this, "INFO ARGBOSD");
+        this->_anon0.x.input_plugin->f.fe_handle = this_gen;
+        this->_anon0.x.input_plugin->f.intercept_osd = opengl_osd_command;
+        this->_anon0.x.fe.send_event((struct frontend_s *)this, "INFO ARGBOSD");
       }
 
     }
@@ -19407,9 +19407,9 @@ static signed int sxfe_xine_play(struct frontend_s *this_gen)
 // file /usr/include/x86_64-linux-gnu/bits/syslog.h line 29
 static inline void syslog(signed int __pri, const char *__fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  __syslog_chk(__pri, 2 - 1, __fmt, return_value___builtin_va_arg_pack$1);
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  __syslog_chk(__pri, 2 - 1, __fmt, return_value___builtin_va_arg_pack_1);
 }
 
 // time_ms
@@ -19417,24 +19417,24 @@ static inline void syslog(signed int __pri, const char *__fmt, ...)
 static unsigned long int time_ms(void)
 {
   struct timeval t;
-  signed int return_value_xine_monotonic_clock$1;
-  return_value_xine_monotonic_clock$1=xine_monotonic_clock(&t, (struct timezone *)(void *)0);
-  if(return_value_xine_monotonic_clock$1 == 0)
+  signed int return_value_xine_monotonic_clock_1;
+  return_value_xine_monotonic_clock_1=xine_monotonic_clock(&t, (struct timezone *)(void *)0);
+  if(return_value_xine_monotonic_clock_1 == 0)
     return (unsigned long int)t.tv_sec * 1000ULL + (unsigned long int)t.tv_usec / 1000ULL;
 
   else
     return (unsigned long int)0;
 }
 
-// time_ms$link1
+// time_ms_link1
 // file tools/time_ms.h line 16
-static unsigned long int time_ms$link1(void)
+static unsigned long int time_ms_link1(void)
 {
-  struct timeval t$link1;
-  signed int return_value_gettimeofday$1;
-  return_value_gettimeofday$1=gettimeofday(&t$link1, (struct timezone *)(void *)0);
-  if(return_value_gettimeofday$1 == 0)
-    return (unsigned long int)t$link1.tv_sec * 1000ULL + (unsigned long int)t$link1.tv_usec / 1000ULL;
+  struct timeval t_link1;
+  signed int return_value_gettimeofday_1;
+  return_value_gettimeofday_1=gettimeofday(&t_link1, (struct timezone *)(void *)0);
+  if(return_value_gettimeofday_1 == 0)
+    return (unsigned long int)t_link1.tv_sec * 1000ULL + (unsigned long int)t_link1.tv_usec / 1000ULL;
 
   else
     return (unsigned long int)0;
@@ -19446,17 +19446,17 @@ signed int udp_discovery_broadcast(signed int fd_discovery, signed int server_po
 {
   char *msg = (char *)(void *)0;
   signed int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(server_address == ((const char *)NULL)))
-    tmp_if_expr$1 = *server_address != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *server_address != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
-    result=asprintf$link3(&msg, "VDR xineliboutput DISCOVERY 1.0\r\nServer port: %d\r\nServer address: %s\r\nServer version: xineliboutput-2.0.0-cvs\r\n\r\n", server_port, server_address);
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
+    result=asprintf_link3(&msg, "VDR xineliboutput DISCOVERY 1.0\r\nServer port: %d\r\nServer address: %s\r\nServer version: xineliboutput-2.0.0-cvs\r\n\r\n", server_port, server_address);
 
   else
-    result=asprintf$link3(&msg, "VDR xineliboutput DISCOVERY 1.0\r\nServer port: %d\r\nServer version: xineliboutput-2.0.0-cvs\r\n\r\n", server_port);
+    result=asprintf_link3(&msg, "VDR xineliboutput DISCOVERY 1.0\r\nServer port: %d\r\nServer version: xineliboutput-2.0.0-cvs\r\n\r\n", server_port);
   if(result >= 0)
   {
     result=udp_discovery_send(fd_discovery, 37890, msg);
@@ -19476,7 +19476,7 @@ signed int udp_discovery_find_server(signed int *port, char *address)
   signed int trycount = 0;
   signed int err = 0;
   *port = 37890;
-  strcpy$link2(address, "vdr");
+  strcpy_link2(address, "vdr");
   fd_discovery=discovery_init(37890);
   if(!(fd_discovery >= 0))
     return 0;
@@ -19489,14 +19489,14 @@ signed int udp_discovery_find_server(signed int *port, char *address)
       if(trycount >= 4)
         break;
 
-      signed int return_value_udp_discovery_search$8;
-      return_value_udp_discovery_search$8=udp_discovery_search(fd_discovery, 37890);
-      err = (signed int)(return_value_udp_discovery_search$8 >= 0);
+      signed int return_value_udp_discovery_search_8;
+      return_value_udp_discovery_search_8=udp_discovery_search(fd_discovery, 37890);
+      err = (signed int)(return_value_udp_discovery_search_8 >= 0);
       if(!(err == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
         do
         {
           err=udp_discovery_recv(fd_discovery, buf, 500, &from);
@@ -19511,12 +19511,12 @@ signed int udp_discovery_find_server(signed int *port, char *address)
               x_syslog(7, "[discovery] ", "Reveived broadcast: %d bytes from %d.%d.%d.%d \n%s", err, tmp >> 24 & (unsigned int)0xff, tmp >> 16 & (unsigned int)0xff, tmp >> 8 & (unsigned int)0xff, tmp & (unsigned int)0xff, (const void *)buf);
 
           while((_Bool)0);
-          unsigned long int return_value_strlen$6;
+          unsigned long int return_value_strlen_6;
           static const char mystring[47l] = { 'V', 'D', 'R', ' ', 'x', 'i', 'n', 'e', 'l', 'i', 'b', 'o', 'u', 't', 'p', 'u', 't', ' ', 'D', 'I', 'S', 'C', 'O', 'V', 'E', 'R', 'Y', ' ', '1', '.', '0', '\r', '\n', 'S', 'e', 'r', 'v', 'e', 'r', ' ', 'p', 'o', 'r', 't', ':', ' ', 0 };
-          return_value_strlen$6=strlen(mystring);
-          signed int return_value_strncmp$7;
-          return_value_strncmp$7=strncmp(mystring, buf, return_value_strlen$6);
-          if(return_value_strncmp$7 == 0)
+          return_value_strlen_6=strlen(mystring);
+          signed int return_value_strncmp_7;
+          return_value_strncmp_7=strncmp(mystring, buf, return_value_strlen_6);
+          if(return_value_strncmp_7 == 0)
           {
             char *iploc;
             do
@@ -19525,16 +19525,16 @@ signed int udp_discovery_find_server(signed int *port, char *address)
 
             while((_Bool)0);
             close(fd_discovery);
-            sprintf$link2(address, "%d.%d.%d.%d", tmp >> 24 & (unsigned int)0xff, tmp >> 16 & (unsigned int)0xff, tmp >> 8 & (unsigned int)0xff, tmp & (unsigned int)0xff);
-            unsigned long int return_value_strlen$2;
-            return_value_strlen$2=strlen(mystring);
-            iploc=strstr(buf + (signed long int)return_value_strlen$2, "Server address: ");
+            sprintf_link2(address, "%d.%d.%d.%d", tmp >> 24 & (unsigned int)0xff, tmp >> 16 & (unsigned int)0xff, tmp >> 8 & (unsigned int)0xff, tmp & (unsigned int)0xff);
+            unsigned long int return_value_strlen_2;
+            return_value_strlen_2=strlen(mystring);
+            iploc=strstr(buf + (signed long int)return_value_strlen_2, "Server address: ");
             if(!(iploc == ((char *)NULL)))
             {
               unsigned int svraddr;
-              unsigned long int return_value_strlen$3;
-              return_value_strlen$3=strlen("Server address: ");
-              iploc = iploc + (signed long int)return_value_strlen$3;
+              unsigned long int return_value_strlen_3;
+              return_value_strlen_3=strlen("Server address: ");
+              iploc = iploc + (signed long int)return_value_strlen_3;
               svraddr=inet_addr(iploc);
               if(svraddr == 0u || svraddr == 0xffffffff)
                 do
@@ -19546,7 +19546,7 @@ signed int udp_discovery_find_server(signed int *port, char *address)
               else
               {
                 svraddr=__bswap_32(svraddr);
-                sprintf$link2(address, "%d.%d.%d.%d", svraddr >> 24 & (unsigned int)0xff, svraddr >> 16 & (unsigned int)0xff, svraddr >> 8 & (unsigned int)0xff, svraddr & (unsigned int)0xff);
+                sprintf_link2(address, "%d.%d.%d.%d", svraddr >> 24 & (unsigned int)0xff, svraddr >> 16 & (unsigned int)0xff, svraddr >> 8 & (unsigned int)0xff, svraddr & (unsigned int)0xff);
                 do
                   if(SysLogLevel >= 2)
                     x_syslog(6, "[discovery] ", "Replacing broadcast source address %d.%d.%d.%d with server-given address %s", tmp >> 24 & (unsigned int)0xff, tmp >> 16 & (unsigned int)0xff, tmp >> 8 & (unsigned int)0xff, tmp & (unsigned int)0xff, address);
@@ -19556,11 +19556,11 @@ signed int udp_discovery_find_server(signed int *port, char *address)
             }
 
             *port = -1;
-            unsigned long int return_value_strlen$4;
-            return_value_strlen$4=strlen(mystring);
-            signed int return_value_sscanf$5;
-            return_value_sscanf$5=sscanf(buf + (signed long int)return_value_strlen$4, "%d", port);
-            if(return_value_sscanf$5 == 1)
+            unsigned long int return_value_strlen_4;
+            return_value_strlen_4=strlen(mystring);
+            signed int return_value_sscanf_5;
+            return_value_sscanf_5=sscanf(buf + (signed long int)return_value_strlen_4, "%d", port);
+            if(return_value_sscanf_5 == 1)
             {
               if(*port >= 1000)
               {
@@ -19598,21 +19598,21 @@ signed int udp_discovery_find_server(signed int *port, char *address)
 // file tools/vdrdiscovery.c line 81
 signed int udp_discovery_init(void)
 {
-  signed int return_value_discovery_init$1;
-  return_value_discovery_init$1=discovery_init(37890);
-  return return_value_discovery_init$1;
+  signed int return_value_discovery_init_1;
+  return_value_discovery_init_1=discovery_init(37890);
+  return return_value_discovery_init_1;
 }
 
 // udp_discovery_is_valid_search
 // file tools/vdrdiscovery.c line 185
 signed int udp_discovery_is_valid_search(const char *buf)
 {
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   static const char id_string[41l] = { 'V', 'D', 'R', ' ', 'x', 'i', 'n', 'e', 'l', 'i', 'b', 'o', 'u', 't', 'p', 'u', 't', ' ', 'D', 'I', 'S', 'C', 'O', 'V', 'E', 'R', 'Y', ' ', '1', '.', '0', '\r', '\n', 'C', 'l', 'i', 'e', 'n', 't', ':', 0 };
-  return_value_strlen$1=strlen(id_string);
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(id_string, buf, return_value_strlen$1);
-  if(return_value_strncmp$2 == 0)
+  return_value_strlen_1=strlen(id_string);
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(id_string, buf, return_value_strlen_1);
+  if(return_value_strncmp_2 == 0)
   {
     do
       if(SysLogLevel >= 2)
@@ -19642,12 +19642,12 @@ signed int udp_discovery_recv(signed int fd_discovery, char *buf, signed int tim
   signed int err;
   pfd.fd = fd_discovery;
   pfd.events = (signed short int)0x001;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  err=poll$link2(&pfd, (unsigned long int)1, timeout);
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  err=poll_link2(&pfd, (unsigned long int)1, timeout);
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(!(err >= 1))
   {
     if(!(err >= 0))
@@ -19655,13 +19655,13 @@ signed int udp_discovery_recv(signed int fd_discovery, char *buf, signed int tim
         if(SysLogLevel >= 1)
         {
           x_syslog(3, "[discovery] ", "broadcast poll error");
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          if(!(*return_value___errno_location$4 == 0))
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          if(!(*return_value___errno_location_4 == 0))
           {
-            return_value___errno_location$2=__errno_location();
-            return_value_strerror$3=strerror(*return_value___errno_location$2);
-            x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 169, return_value_strerror$3);
+            return_value___errno_location_2=__errno_location();
+            return_value_strerror_3=strerror(*return_value___errno_location_2);
+            x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 169, return_value_strerror_3);
           }
 
         }
@@ -19673,11 +19673,11 @@ signed int udp_discovery_recv(signed int fd_discovery, char *buf, signed int tim
 
   else
   {
-    memset$link1((void *)source, 0, (unsigned long int)sourcelen);
-    memset$link1((void *)buf, 0, (unsigned long int)1024);
-    signed long int return_value_recvfrom$5;
-    return_value_recvfrom$5=recvfrom(fd_discovery, (void *)buf, (unsigned long int)(1024 - 1), 0, (struct sockaddr *)source, &sourcelen);
-    err = (signed int)return_value_recvfrom$5;
+    memset_link1((void *)source, 0, (unsigned long int)sourcelen);
+    memset_link1((void *)buf, 0, (unsigned long int)1024);
+    signed long int return_value_recvfrom_5;
+    return_value_recvfrom_5=recvfrom(fd_discovery, (void *)buf, (unsigned long int)(1024 - 1), 0, (struct sockaddr *)source, &sourcelen);
+    err = (signed int)return_value_recvfrom_5;
     if(!(err >= 1))
       do
         if(SysLogLevel >= 3)
@@ -19695,7 +19695,7 @@ static inline signed int udp_discovery_search(signed int fd_discovery, signed in
 {
   char *msg = (char *)(void *)0;
   signed int result;
-  result=asprintf$link3(&msg, "VDR xineliboutput DISCOVERY 1.0\r\nClient: %s:%d\r\n\r\n", (const void *)"255.255.255.255", port);
+  result=asprintf_link3(&msg, "VDR xineliboutput DISCOVERY 1.0\r\nClient: %s:%d\r\n\r\n", (const void *)"255.255.255.255", port);
   if(result >= 0)
   {
     result=udp_discovery_send(fd_discovery, port, msg);
@@ -19711,34 +19711,34 @@ static inline signed int udp_discovery_send(signed int fd_discovery, signed int 
 {
   struct sockaddr_in sin;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(msg);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(msg);
+  len = (signed int)return_value_strlen_1;
   sin.sin_family = (unsigned short int)2;
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_2;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)port;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$2 = __v;
-  sin.sin_port = tmp_statement_expression$2;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_2 = __v;
+  sin.sin_port = tmp_statement_expression_2;
   sin.sin_addr.s_addr = (unsigned int)0xffffffff;
-  signed long int return_value_sendto$6;
-  return_value_sendto$6=sendto(fd_discovery, (const void *)msg, (unsigned long int)len, 0, (struct sockaddr *)&sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  if(!((signed long int)len == return_value_sendto$6))
+  signed long int return_value_sendto_6;
+  return_value_sendto_6=sendto(fd_discovery, (const void *)msg, (unsigned long int)len, 0, (struct sockaddr *)&sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  if(!((signed long int)len == return_value_sendto_6))
   {
     do
       if(SysLogLevel >= 1)
       {
         x_syslog(3, "[discovery] ", "UDP broadcast send failed (discovery)");
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        if(!(*return_value___errno_location$5 == 0))
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        if(!(*return_value___errno_location_5 == 0))
         {
-          return_value___errno_location$3=__errno_location();
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 97, return_value_strerror$4);
+          return_value___errno_location_3=__errno_location();
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          x_syslog(3, "[discovery] ", "   (ERROR (%s,%d): %s)", (const void *)"tools/vdrdiscovery.c", 97, return_value_strerror_4);
         }
 
       }
@@ -19760,7 +19760,7 @@ signed int unwire_video_driver(struct xine_video_port_s *video_port, struct vo_d
   if(next == hook)
   {
     video_port->driver = next->orig_driver;
-    ((struct anonymous$79 *)video_port)->driver = next->orig_driver;
+    ((struct anonymous_79 *)video_port)->driver = next->orig_driver;
     next->orig_driver = (struct vo_driver_s *)(void *)0;
     return 1;
   }
@@ -19812,8 +19812,8 @@ static void update_mask(unsigned int *dst, signed int dst_pitch, unsigned int *m
 static void update_screen_size(struct sxfe_s *this)
 {
   XLockDisplay(this->display);
-  this->$anon0.x.width = (unsigned short int)(&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->width;
-  this->$anon0.x.height = (unsigned short int)(&((struct anonymous$34 *)this->display)->screens[(signed long int)this->screen])->height;
+  this->_anon0.x.width = (unsigned short int)(&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->width;
+  this->_anon0.x.height = (unsigned short int)(&((struct anonymous_34 *)this->display)->screens[(signed long int)this->screen])->height;
   XUnlockDisplay(this->display);
   update_xinerama_info(this);
 }
@@ -19823,28 +19823,28 @@ static void update_screen_size(struct sxfe_s *this)
 static void update_window_title(struct sxfe_s *this)
 {
   XLockDisplay(this->display);
-  char *return_value_strstr$1;
-  signed int return_value_asprintf$3;
-  if(this->$anon0.fe.fe_message_cb == ((void (*)(void *, const char *, const char *))NULL))
+  char *return_value_strstr_1;
+  signed int return_value_asprintf_3;
+  if(this->_anon0.fe.fe_message_cb == ((void (*)(void *, const char *, const char *))NULL))
   {
     char *name = (char *)(void *)0;
-    signed int return_value_XFetchName$4;
-    return_value_XFetchName$4=XFetchName(this->display, this->window[(signed long int)0], &name);
-    if(!(name == ((char *)NULL)) && !(return_value_XFetchName$4 == 0))
+    signed int return_value_XFetchName_4;
+    return_value_XFetchName_4=XFetchName(this->display, this->window[(signed long int)0], &name);
+    if(!(name == ((char *)NULL)) && !(return_value_XFetchName_4 == 0))
     {
       char *newname = (char *)(void *)0;
-      char *return_value_strstr$2;
-      return_value_strstr$2=strstr(name, " (top)");
-      if(!(return_value_strstr$2 == ((char *)NULL)))
+      char *return_value_strstr_2;
+      return_value_strstr_2=strstr(name, " (top)");
+      if(!(return_value_strstr_2 == ((char *)NULL)))
       {
-        return_value_strstr$1=strstr(name, " (top)");
-        *return_value_strstr$1 = (char)0;
+        return_value_strstr_1=strstr(name, " (top)");
+        *return_value_strstr_1 = (char)0;
       }
 
       if(!(this->stay_above == 0))
       {
-        return_value_asprintf$3=asprintf(&newname, "%s (top)", name);
-        if(!(return_value_asprintf$3 >= 0))
+        return_value_asprintf_3=asprintf(&newname, "%s (top)", name);
+        if(!(return_value_asprintf_3 >= 0))
           newname = (char *)(void *)0;
 
       }
@@ -19878,13 +19878,13 @@ static void update_xinerama_info(struct sxfe_s *this)
   this->xinerama_y = (unsigned short int)0;
   this->xinerama_x = this->xinerama_y;
   XLockDisplay(this->display);
-  signed int return_value_XineramaIsActive$1;
+  signed int return_value_XineramaIsActive_1;
   if(screen >= -1)
   {
-    return_value_XineramaIsActive$1=XineramaIsActive(this->display);
-    if(!(return_value_XineramaIsActive$1 == 0))
+    return_value_XineramaIsActive_1=XineramaIsActive(this->display);
+    if(!(return_value_XineramaIsActive_1 == 0))
     {
-      struct anonymous$90 *screens;
+      struct anonymous_90 *screens;
       signed int num_screens;
       screens=XineramaQueryScreens(this->display, &num_screens);
       if(screen >= num_screens)
@@ -19912,8 +19912,8 @@ static void update_xinerama_info(struct sxfe_s *this)
 
       this->xinerama_x = (unsigned short int)(screens + (signed long int)screen)->x_org;
       this->xinerama_y = (unsigned short int)(screens + (signed long int)screen)->y_org;
-      this->$anon0.x.width = (unsigned short int)(screens + (signed long int)screen)->width;
-      this->$anon0.x.height = (unsigned short int)(screens + (signed long int)screen)->height;
+      this->_anon0.x.width = (unsigned short int)(screens + (signed long int)screen)->width;
+      this->_anon0.x.height = (unsigned short int)(screens + (signed long int)screen)->height;
       XFree((void *)screens);
     }
 
@@ -20055,10 +20055,10 @@ void vo_def_update_frame_format(struct vo_driver_s *self, struct vo_frame_s *img
 // file xine/vo_frameoutput.c line 61
 struct vo_driver_s * vo_frameoutput_init(void *handle, void (*cb)(void *, struct vo_frame_s *))
 {
-  struct anonymous$84 *this;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$84) /*144ul*/ );
-  this = (struct anonymous$84 *)return_value_calloc$1;
+  struct anonymous_84 *this;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_84) /*144ul*/ );
+  this = (struct anonymous_84 *)return_value_calloc_1;
   this->h.vo.display_frame = display_frame;
   this->handle = handle;
   this->cb = cb;
@@ -20069,10 +20069,10 @@ struct vo_driver_s * vo_frameoutput_init(void *handle, void (*cb)(void *, struct
 // file xine/vo_lastpts.c line 99
 struct vo_driver_s * vo_lastpts_init(void)
 {
-  struct anonymous$83 *this;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$83) /*152ul*/ );
-  this = (struct anonymous$83 *)return_value_calloc$1;
+  struct anonymous_83 *this;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_83) /*152ul*/ );
+  this = (struct anonymous_83 *)return_value_calloc_1;
   this->h.vo.display_frame = lastpts_display_frame;
   return &this->h.vo;
 }
@@ -20081,76 +20081,76 @@ struct vo_driver_s * vo_lastpts_init(void)
 // file xine/vo_hook.c line 99
 static void vo_proxy_hooks_init(struct vo_driver_s *drv, struct vo_driver_s *next_driver)
 {
-  unsigned int (*tmp_if_expr$1)(struct vo_driver_s *);
+  unsigned int (*tmp_if_expr_1)(struct vo_driver_s *);
   if(!(drv->get_capabilities == ((unsigned int (*)(struct vo_driver_s *))NULL)))
-    tmp_if_expr$1 = drv->get_capabilities;
+    tmp_if_expr_1 = drv->get_capabilities;
 
   else
-    tmp_if_expr$1 = vo_def_get_capabilities;
-  drv->get_capabilities = tmp_if_expr$1;
-  struct vo_frame_s * (*tmp_if_expr$2)(struct vo_driver_s *);
+    tmp_if_expr_1 = vo_def_get_capabilities;
+  drv->get_capabilities = tmp_if_expr_1;
+  struct vo_frame_s * (*tmp_if_expr_2)(struct vo_driver_s *);
   if(!(drv->alloc_frame == ((struct vo_frame_s * (*)(struct vo_driver_s *))NULL)))
-    tmp_if_expr$2 = drv->alloc_frame;
+    tmp_if_expr_2 = drv->alloc_frame;
 
   else
-    tmp_if_expr$2 = vo_def_alloc_frame;
-  drv->alloc_frame = tmp_if_expr$2;
-  void (*tmp_if_expr$3)(struct vo_driver_s *, struct vo_frame_s *, unsigned int, unsigned int, double, signed int, signed int);
+    tmp_if_expr_2 = vo_def_alloc_frame;
+  drv->alloc_frame = tmp_if_expr_2;
+  void (*tmp_if_expr_3)(struct vo_driver_s *, struct vo_frame_s *, unsigned int, unsigned int, double, signed int, signed int);
   if(!(drv->update_frame_format == ((void (*)(struct vo_driver_s *, struct vo_frame_s *, unsigned int, unsigned int, double, signed int, signed int))NULL)))
-    tmp_if_expr$3 = drv->update_frame_format;
+    tmp_if_expr_3 = drv->update_frame_format;
 
   else
-    tmp_if_expr$3 = vo_def_update_frame_format;
-  drv->update_frame_format = tmp_if_expr$3;
-  void (*tmp_if_expr$4)(struct vo_driver_s *, struct vo_frame_s *);
+    tmp_if_expr_3 = vo_def_update_frame_format;
+  drv->update_frame_format = tmp_if_expr_3;
+  void (*tmp_if_expr_4)(struct vo_driver_s *, struct vo_frame_s *);
   if(!(drv->display_frame == ((void (*)(struct vo_driver_s *, struct vo_frame_s *))NULL)))
-    tmp_if_expr$4 = drv->display_frame;
+    tmp_if_expr_4 = drv->display_frame;
 
   else
-    tmp_if_expr$4 = vo_def_display_frame;
-  drv->display_frame = tmp_if_expr$4;
-  signed int (*tmp_if_expr$5)(struct vo_driver_s *, signed int);
+    tmp_if_expr_4 = vo_def_display_frame;
+  drv->display_frame = tmp_if_expr_4;
+  signed int (*tmp_if_expr_5)(struct vo_driver_s *, signed int);
   if(!(drv->get_property == ((signed int (*)(struct vo_driver_s *, signed int))NULL)))
-    tmp_if_expr$5 = drv->get_property;
+    tmp_if_expr_5 = drv->get_property;
 
   else
-    tmp_if_expr$5 = vo_def_get_property;
-  drv->get_property = tmp_if_expr$5;
-  signed int (*tmp_if_expr$6)(struct vo_driver_s *, signed int, signed int);
+    tmp_if_expr_5 = vo_def_get_property;
+  drv->get_property = tmp_if_expr_5;
+  signed int (*tmp_if_expr_6)(struct vo_driver_s *, signed int, signed int);
   if(!(drv->set_property == ((signed int (*)(struct vo_driver_s *, signed int, signed int))NULL)))
-    tmp_if_expr$6 = drv->set_property;
+    tmp_if_expr_6 = drv->set_property;
 
   else
-    tmp_if_expr$6 = vo_def_set_property;
-  drv->set_property = tmp_if_expr$6;
-  void (*tmp_if_expr$7)(struct vo_driver_s *, signed int, signed int *, signed int *);
+    tmp_if_expr_6 = vo_def_set_property;
+  drv->set_property = tmp_if_expr_6;
+  void (*tmp_if_expr_7)(struct vo_driver_s *, signed int, signed int *, signed int *);
   if(!(drv->get_property_min_max == ((void (*)(struct vo_driver_s *, signed int, signed int *, signed int *))NULL)))
-    tmp_if_expr$7 = drv->get_property_min_max;
+    tmp_if_expr_7 = drv->get_property_min_max;
 
   else
-    tmp_if_expr$7 = vo_def_get_property_min_max;
-  drv->get_property_min_max = tmp_if_expr$7;
-  signed int (*tmp_if_expr$8)(struct vo_driver_s *, signed int, void *);
+    tmp_if_expr_7 = vo_def_get_property_min_max;
+  drv->get_property_min_max = tmp_if_expr_7;
+  signed int (*tmp_if_expr_8)(struct vo_driver_s *, signed int, void *);
   if(!(drv->gui_data_exchange == ((signed int (*)(struct vo_driver_s *, signed int, void *))NULL)))
-    tmp_if_expr$8 = drv->gui_data_exchange;
+    tmp_if_expr_8 = drv->gui_data_exchange;
 
   else
-    tmp_if_expr$8 = vo_def_gui_data_exchange;
-  drv->gui_data_exchange = tmp_if_expr$8;
-  signed int (*tmp_if_expr$9)(struct vo_driver_s *);
+    tmp_if_expr_8 = vo_def_gui_data_exchange;
+  drv->gui_data_exchange = tmp_if_expr_8;
+  signed int (*tmp_if_expr_9)(struct vo_driver_s *);
   if(!(drv->redraw_needed == ((signed int (*)(struct vo_driver_s *))NULL)))
-    tmp_if_expr$9 = drv->redraw_needed;
+    tmp_if_expr_9 = drv->redraw_needed;
 
   else
-    tmp_if_expr$9 = vo_def_redraw_needed;
-  drv->redraw_needed = tmp_if_expr$9;
-  void (*tmp_if_expr$10)(struct vo_driver_s *);
+    tmp_if_expr_9 = vo_def_redraw_needed;
+  drv->redraw_needed = tmp_if_expr_9;
+  void (*tmp_if_expr_10)(struct vo_driver_s *);
   if(!(drv->dispose == ((void (*)(struct vo_driver_s *))NULL)))
-    tmp_if_expr$10 = drv->dispose;
+    tmp_if_expr_10 = drv->dispose;
 
   else
-    tmp_if_expr$10 = vo_def_dispose;
-  drv->dispose = tmp_if_expr$10;
+    tmp_if_expr_10 = vo_def_dispose;
+  drv->dispose = tmp_if_expr_10;
   if(drv->new_grab_video_frame == ((struct xine_grab_video_frame_s * (*)(struct vo_driver_s *))NULL))
   {
     if(!(next_driver->new_grab_video_frame == ((struct xine_grab_video_frame_s * (*)(struct vo_driver_s *))NULL)))
@@ -20193,21 +20193,21 @@ static void vo_proxy_hooks_init(struct vo_driver_s *drv, struct vo_driver_s *nex
 
 // vpplugin_disable_post
 // file xine/post.c line 796
-signed int vpplugin_disable_post(struct post_plugins_s$0 *fe, const char *name)
+signed int vpplugin_disable_post(struct post_plugins_s_0 *fe, const char *name)
 {
-  signed int return_value__pplugin_disable_post$1;
-  return_value__pplugin_disable_post$1=_pplugin_disable_post(fe, name, fe->post_video_elements, fe->post_video_elements_num);
-  _Bool tmp_if_expr$3;
-  signed int return_value__pplugin_disable_post$2;
-  if(!(return_value__pplugin_disable_post$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value__pplugin_disable_post_1;
+  return_value__pplugin_disable_post_1=_pplugin_disable_post(fe, name, fe->post_video_elements, fe->post_video_elements_num);
+  _Bool tmp_if_expr_3;
+  signed int return_value__pplugin_disable_post_2;
+  if(!(return_value__pplugin_disable_post_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value__pplugin_disable_post$2=_pplugin_disable_post(fe, name, fe->post_pip_elements, fe->post_pip_elements_num);
-    tmp_if_expr$3 = return_value__pplugin_disable_post$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value__pplugin_disable_post_2=_pplugin_disable_post(fe, name, fe->post_pip_elements, fe->post_pip_elements_num);
+    tmp_if_expr_3 = return_value__pplugin_disable_post_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     _vpplugin_unwire(fe);
     return 1;
@@ -20219,7 +20219,7 @@ signed int vpplugin_disable_post(struct post_plugins_s$0 *fe, const char *name)
 
 // vpplugin_enable_post
 // file xine/post.c line 723
-signed int vpplugin_enable_post(struct post_plugins_s$0 *fe, const char *initstr, signed int *found)
+signed int vpplugin_enable_post(struct post_plugins_s_0 *fe, const char *initstr, signed int *found)
 {
   char *name;
   name=_pp_name_strdup(initstr);
@@ -20257,7 +20257,7 @@ signed int vpplugin_enable_post(struct post_plugins_s$0 *fe, const char *initstr
 
 // vpplugin_parse_and_store_post
 // file xine/post.c line 377
-void vpplugin_parse_and_store_post(struct post_plugins_s$0 *fe, const char *post_chain)
+void vpplugin_parse_and_store_post(struct post_plugins_s_0 *fe, const char *post_chain)
 {
   pplugin_parse_and_store_post(fe, 0x010000, post_chain);
   pplugin_parse_and_store_post(fe, 0x010002, post_chain);
@@ -20265,7 +20265,7 @@ void vpplugin_parse_and_store_post(struct post_plugins_s$0 *fe, const char *post
 
 // vpplugin_rewire_posts
 // file xine/post.c line 628
-void vpplugin_rewire_posts(struct post_plugins_s$0 *fe)
+void vpplugin_rewire_posts(struct post_plugins_s_0 *fe)
 {
   _vpplugin_unwire(fe);
   _vpplugin_rewire(fe);
@@ -20273,7 +20273,7 @@ void vpplugin_rewire_posts(struct post_plugins_s$0 *fe)
 
 // vpplugin_unload_post
 // file xine/post.c line 873
-signed int vpplugin_unload_post(struct post_plugins_s$0 *fe, const char *name)
+signed int vpplugin_unload_post(struct post_plugins_s_0 *fe, const char *name)
 {
   signed int result;
   result=vpplugin_disable_post(fe, name);
@@ -20286,16 +20286,16 @@ signed int vpplugin_unload_post(struct post_plugins_s$0 *fe, const char *name)
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 74
 static inline signed int vsnprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, void **__ap)
 {
-  signed int return_value___builtin___vsnprintf_chk$1;
-  return_value___builtin___vsnprintf_chk$1=__builtin___vsnprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, __ap);
-  return return_value___builtin___vsnprintf_chk$1;
+  signed int return_value___builtin___vsnprintf_chk_1;
+  return_value___builtin___vsnprintf_chk_1=__builtin___vsnprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, __ap);
+  return return_value___builtin___vsnprintf_chk_1;
 }
 
 // wire_video_driver
 // file xine/vo_hook.c line 152
 signed int wire_video_driver(struct xine_video_port_s *video_port, struct vo_driver_s *hook)
 {
-  struct vo_driver_s *vos_driver = ((struct anonymous$79 *)video_port)->driver;
+  struct vo_driver_s *vos_driver = ((struct anonymous_79 *)video_port)->driver;
   if(!(video_port->driver == vos_driver))
   {
     do
@@ -20311,7 +20311,7 @@ signed int wire_video_driver(struct xine_video_port_s *video_port, struct vo_dri
     vo_proxy_hooks_init(hook, video_port->driver);
     ((struct driver_hook_s *)hook)->orig_driver = video_port->driver;
     video_port->driver = hook;
-    ((struct anonymous$79 *)video_port)->driver = hook;
+    ((struct anonymous_79 *)video_port)->driver = hook;
     return 1;
   }
 }
@@ -20320,46 +20320,46 @@ signed int wire_video_driver(struct xine_video_port_s *video_port, struct vo_dri
 // file tools/rle.c line 210
 static unsigned char * write_rle_hdmv(unsigned char *rle_data, unsigned int color, unsigned int len)
 {
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   if(!(color == 0u) && !(len >= 4u))
   {
     unsigned int i = (unsigned int)0;
     for( ; !(i >= len); i = i + 1u)
     {
-      tmp_post$1 = rle_data;
+      tmp_post_1 = rle_data;
       rle_data = rle_data + 1l;
-      *tmp_post$1 = (unsigned char)color;
+      *tmp_post_1 = (unsigned char)color;
     }
     return rle_data;
   }
 
-  unsigned char *tmp_post$2 = rle_data;
+  unsigned char *tmp_post_2 = rle_data;
   rle_data = rle_data + 1l;
-  *tmp_post$2 = (unsigned char)0;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
+  *tmp_post_2 = (unsigned char)0;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
   if(color == 0u)
   {
     if(!(len >= 64u))
     {
-      tmp_post$3 = rle_data;
+      tmp_post_3 = rle_data;
       rle_data = rle_data + 1l;
-      *tmp_post$3 = (unsigned char)len;
+      *tmp_post_3 = (unsigned char)len;
     }
 
     else
     {
-      tmp_post$4 = rle_data;
+      tmp_post_4 = rle_data;
       rle_data = rle_data + 1l;
-      *tmp_post$4 = (unsigned char)((unsigned int)0x40 | len >> 8 & (unsigned int)0x3f);
-      tmp_post$5 = rle_data;
+      *tmp_post_4 = (unsigned char)((unsigned int)0x40 | len >> 8 & (unsigned int)0x3f);
+      tmp_post_5 = rle_data;
       rle_data = rle_data + 1l;
-      *tmp_post$5 = (unsigned char)(len & (unsigned int)0xff);
+      *tmp_post_5 = (unsigned char)(len & (unsigned int)0xff);
     }
   }
 
@@ -20367,23 +20367,23 @@ static unsigned char * write_rle_hdmv(unsigned char *rle_data, unsigned int colo
   {
     if(!(len >= 64u))
     {
-      tmp_post$6 = rle_data;
+      tmp_post_6 = rle_data;
       rle_data = rle_data + 1l;
-      *tmp_post$6 = (unsigned char)((unsigned int)0x80 | len);
+      *tmp_post_6 = (unsigned char)((unsigned int)0x80 | len);
     }
 
     else
     {
-      tmp_post$7 = rle_data;
+      tmp_post_7 = rle_data;
       rle_data = rle_data + 1l;
-      *tmp_post$7 = (unsigned char)((unsigned int)(0x80 | 0x40) | len >> 8 & (unsigned int)0x3f);
-      tmp_post$8 = rle_data;
+      *tmp_post_7 = (unsigned char)((unsigned int)(0x80 | 0x40) | len >> 8 & (unsigned int)0x3f);
+      tmp_post_8 = rle_data;
       rle_data = rle_data + 1l;
-      *tmp_post$8 = (unsigned char)(len & (unsigned int)0xff);
+      *tmp_post_8 = (unsigned char)(len & (unsigned int)0xff);
     }
-    tmp_post$9 = rle_data;
+    tmp_post_9 = rle_data;
     rle_data = rle_data + 1l;
-    *tmp_post$9 = (unsigned char)color;
+    *tmp_post_9 = (unsigned char)color;
   }
   return rle_data;
 }
@@ -20399,16 +20399,16 @@ void x_syslog(signed int level, const char *module, const char *fmt, ...)
   buf[(signed long int)(sizeof(char [512l]) /*512ul*/  - (unsigned long int)1)] = (char)0;
   if(LogToSysLog == 0)
   {
-    signed long int return_value_syscall$1;
-    return_value_syscall$1=syscall((signed long int)186);
-    fprintf(stderr, "[%ld] %s%s\n", (signed long int)return_value_syscall$1, module, (const void *)buf);
+    signed long int return_value_syscall_1;
+    return_value_syscall_1=syscall((signed long int)186);
+    fprintf(stderr, "[%ld] %s%s\n", (signed long int)return_value_syscall_1, module, (const void *)buf);
   }
 
   else
   {
-    signed long int return_value_syscall$2;
-    return_value_syscall$2=syscall((signed long int)186);
-    syslog(level, "[%ld] %s%s", (signed long int)return_value_syscall$2, module, (const void *)buf);
+    signed long int return_value_syscall_2;
+    return_value_syscall_2=syscall((signed long int)186);
+    syslog(level, "[%ld] %s%s", (signed long int)return_value_syscall_2, module, (const void *)buf);
   }
   argp = ((void **)NULL);
 }
@@ -20418,9 +20418,9 @@ void x_syslog(signed int level, const char *module, const char *fmt, ...)
 static signed int xine_control(struct frontend_s *this_gen, const char *cmd)
 {
   struct fe_s *this = (struct fe_s *)this_gen;
-  signed int return_value_find_input_plugin$1;
-  return_value_find_input_plugin$1=find_input_plugin(this);
-  if(return_value_find_input_plugin$1 == 0)
+  signed int return_value_find_input_plugin_1;
+  return_value_find_input_plugin_1=find_input_plugin(this);
+  if(return_value_find_input_plugin_1 == 0)
     return -1;
 
   else
@@ -20433,7 +20433,7 @@ static signed int xine_control(struct frontend_s *this_gen, const char *cmd)
 
 // xine_event_cb
 // file xine_frontend.c line 408
-static void xine_event_cb(void *user_data, const struct anonymous$15 *event)
+static void xine_event_cb(void *user_data, const struct anonymous_15 *event)
 {
   struct fe_s *this = (struct fe_s *)user_data;
   if(event->type == 1)
@@ -20465,9 +20465,9 @@ static void xine_event_cb(void *user_data, const struct anonymous$15 *event)
 static signed int xine_osd_command(struct frontend_s *this_gen, struct osd_command_s *cmd)
 {
   struct fe_s *this = (struct fe_s *)this_gen;
-  signed int return_value_find_input_plugin$1;
-  return_value_find_input_plugin$1=find_input_plugin(this);
-  if(return_value_find_input_plugin$1 == 0)
+  signed int return_value_find_input_plugin_1;
+  return_value_find_input_plugin_1=find_input_plugin(this);
+  if(return_value_find_input_plugin_1 == 0)
     return -1;
 
   else
@@ -20483,9 +20483,9 @@ static signed int xine_osd_command(struct frontend_s *this_gen, struct osd_comma
 static signed int xine_queue_pes_packet(struct frontend_s *this_gen, signed int stream, unsigned long int pos, const char *data, signed int len)
 {
   struct fe_s *this = (struct fe_s *)this_gen;
-  signed int return_value_find_input_plugin$1;
-  return_value_find_input_plugin$1=find_input_plugin(this);
-  if(return_value_find_input_plugin$1 == 0)
+  signed int return_value_find_input_plugin_1;
+  return_value_find_input_plugin_1=find_input_plugin(this);
+  if(return_value_find_input_plugin_1 == 0)
     return 0;
 
   else
@@ -20498,14 +20498,14 @@ static signed int xine_queue_pes_packet(struct frontend_s *this_gen, signed int 
 
 // xrender_surf_adopt
 // file xine_sxfe_frontend.c line 744
-static struct _xrender_surf * xrender_surf_adopt(struct _XDisplay *dpy, unsigned long int draw, struct anonymous$16 *vis, signed int w, signed int h)
+static struct _xrender_surf * xrender_surf_adopt(struct _XDisplay *dpy, unsigned long int draw, struct anonymous_16 *vis, signed int w, signed int h)
 {
   struct _xrender_surf *rs;
-  struct anonymous$21 *fmt;
+  struct anonymous_21 *fmt;
   struct _XRenderPictureAttributes att;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _xrender_surf) /*32ul*/ );
-  rs = (struct _xrender_surf *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _xrender_surf) /*32ul*/ );
+  rs = (struct _xrender_surf *)return_value_calloc_1;
   fmt=XRenderFindVisualFormat(dpy, vis);
   rs->w = (unsigned short int)w;
   rs->h = (unsigned short int)h;
@@ -20542,18 +20542,18 @@ static void xrender_surf_blend(struct _XDisplay *dpy, struct _xrender_surf *src,
   xf.matrix[(signed long int)2][(signed long int)2] = (signed int)(1.0 * (double)65536);
   XRenderSetPictureFilter(dpy, src->pic, smooth != 0 ? "bilinear" : "nearest", (signed int *)(void *)0, 0);
   XRenderSetPictureTransform(dpy, src->pic, &xf);
-  double return_value_ceil$1;
-  return_value_ceil$1=ceil((double)(x > 0 ? x - 1 : 0) * scale_x);
-  x = (signed int)return_value_ceil$1;
-  double return_value_ceil$2;
-  return_value_ceil$2=ceil((double)(y > 0 ? y - 1 : 0) * scale_y);
-  y = (signed int)return_value_ceil$2;
-  double return_value_floor$3;
-  return_value_floor$3=floor((double)(w + 2) * scale_x);
-  w = (signed int)return_value_floor$3;
-  double return_value_floor$4;
-  return_value_floor$4=floor((double)(h + 2) * scale_y);
-  h = (signed int)return_value_floor$4;
+  double return_value_ceil_1;
+  return_value_ceil_1=ceil((double)(x > 0 ? x - 1 : 0) * scale_x);
+  x = (signed int)return_value_ceil_1;
+  double return_value_ceil_2;
+  return_value_ceil_2=ceil((double)(y > 0 ? y - 1 : 0) * scale_y);
+  y = (signed int)return_value_ceil_2;
+  double return_value_floor_3;
+  return_value_floor_3=floor((double)(w + 2) * scale_x);
+  w = (signed int)return_value_floor_3;
+  double return_value_floor_4;
+  return_value_floor_4=floor((double)(h + 2) * scale_y);
+  h = (signed int)return_value_floor_4;
   XRenderComposite(dpy, 1, src->pic, (unsigned long int)0L, dst->pic, x, y, 0, 0, x, y, (unsigned int)w, (unsigned int)h);
   *new_x = x;
   *new_y = y;
@@ -20574,14 +20574,14 @@ static void xrender_surf_free(struct _XDisplay *dpy, struct _xrender_surf *rs)
 
 // xrender_surf_new
 // file xine_sxfe_frontend.c line 692
-static struct _xrender_surf * xrender_surf_new(struct _XDisplay *dpy, unsigned long int draw, struct anonymous$16 *vis, signed int w, signed int h, signed int alpha)
+static struct _xrender_surf * xrender_surf_new(struct _XDisplay *dpy, unsigned long int draw, struct anonymous_16 *vis, signed int w, signed int h, signed int alpha)
 {
   struct _xrender_surf *rs;
-  struct anonymous$21 *fmt;
+  struct anonymous_21 *fmt;
   struct _XRenderPictureAttributes att;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _xrender_surf) /*32ul*/ );
-  rs = (struct _xrender_surf *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _xrender_surf) /*32ul*/ );
+  rs = (struct _xrender_surf *)return_value_calloc_1;
   fmt=XRenderFindStandardFormat(dpy, alpha != 0 ? 0 : 1);
   rs->w = (unsigned short int)w;
   rs->h = (unsigned short int)h;

@@ -1,162 +1,162 @@
-// tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]
+// tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]
 // file /usr/include/tcutil.h line 591
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]
+// tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]
 // file /usr/include/tcutil.h line 1447
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{S8}$S8$'name'||S32'type'||U32'$pad0'||*{V}$V$'db'||*{V}$V$'cc'|]
+// tag-#anon#ST[*{S8}_S8_'name'||S32'type'||U32'_pad0'||*{V}_V_'db'||*{V}_V_'cc'|]
 // file /usr/include/tctdb.h line 41
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]
+// tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]
 // file /usr/include/tcutil.h line 164
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]
 // file /usr/include/tcutil.h line 288
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#$'array'||S32'anum'||S32'start'||S32'num'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#_'array'||S32'anum'||S32'start'||S32'num'||U32'_pad0'|]
 // file /usr/include/tcutil.h line 293
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'wmtx'||*{S8}$S8$'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}$V$'aiocbs'||S32'aiocbi'||U32'$pad0'||U64'aioend'|]#}$SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'wmtx'||*{S8}$S8$'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}$V$'aiocbs'||S32'aiocbi'||U32'$pad0'||U64'aioend'|]#$'ulog'||U64'ts'||S32'num'||S32'fd'||*{S8}$S8$'rbuf'||S32'rsiz'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'wmtx'||*{S8}$S8$'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}$V$'aiocbs'||S32'aiocbi'||U32'$pad0'||U64'aioend'|]#}$SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'wmtx'||*{S8}$S8$'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}$V$'aiocbs'||S32'aiocbi'||U32'$pad0'||U64'aioend'|]#$'ulog'||U64'ts'||S32'num'||S32'fd'||*{S8}$S8$'rbuf'||S32'rsiz'||U32'$pad0'|]#$'ulrd'||S32'id'||S32'rnum'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'wmtx'||*{S8}_S8_'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}_V_'aiocbs'||S32'aiocbi'||U32'_pad0'||U64'aioend'|]#}_SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'wmtx'||*{S8}_S8_'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}_V_'aiocbs'||S32'aiocbi'||U32'_pad0'||U64'aioend'|]#_'ulog'||U64'ts'||S32'num'||S32'fd'||*{S8}_S8_'rbuf'||S32'rsiz'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'wmtx'||*{S8}_S8_'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}_V_'aiocbs'||S32'aiocbi'||U32'_pad0'||U64'aioend'|]#}_SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'wmtx'||*{S8}_S8_'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}_V_'aiocbs'||S32'aiocbi'||U32'_pad0'||U64'aioend'|]#_'ulog'||U64'ts'||S32'num'||S32'fd'||*{S8}_S8_'rbuf'||S32'rsiz'||U32'_pad0'|]#_'ulrd'||S32'id'||S32'rnum'|]
 // file ttultest.c line 22
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'cmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||*{S8}$S8$'opaque'||B'open'||B'wmode'||U16'$pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'$pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'nodec'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}$U64$'hist'||S32'hnum'||U32'$pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'$pad3'||*{S8}$S8$'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'cmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||*{S8}$S8$'opaque'||B'open'||B'wmode'||U16'$pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'$pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'nodec'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}$U64$'hist'||S32'hnum'||U32'$pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'$pad3'||*{S8}$S8$'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#$'bdb'||U64'clock'||U64'id'||S32'kidx'||S32'vidx'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'cmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||*{S8}_S8_'opaque'||B'open'||B'wmode'||U16'_pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'_pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'nodec'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}_U64_'hist'||S32'hnum'||U32'_pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'_pad3'||*{S8}_S8_'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'cmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||*{S8}_S8_'opaque'||B'open'||B'wmode'||U16'_pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'_pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'nodec'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}_U64_'hist'||S32'hnum'||U32'_pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'_pad3'||*{S8}_S8_'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#_'bdb'||U64'clock'||U64'id'||S32'kidx'||S32'vidx'|]
 // file /usr/include/tcbdb.h line 104
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'wmtx'||*{S8}$S8$'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}$V$'aiocbs'||S32'aiocbi'||U32'$pad0'||U64'aioend'|]#}$SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'wmtx'||*{S8}$S8$'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}$V$'aiocbs'||S32'aiocbi'||U32'$pad0'||U64'aioend'|]#$'ulog'||U64'ts'||S32'num'||S32'fd'||*{S8}$S8$'rbuf'||S32'rsiz'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'wmtx'||*{S8}_S8_'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}_V_'aiocbs'||S32'aiocbi'||U32'_pad0'||U64'aioend'|]#}_SYM#tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'wmtx'||*{S8}_S8_'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}_V_'aiocbs'||S32'aiocbi'||U32'_pad0'||U64'aioend'|]#_'ulog'||U64'ts'||S32'num'||S32'fd'||*{S8}_S8_'rbuf'||S32'rsiz'||U32'_pad0'|]
 // file ./tculog.h line 59
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'$pad0'||*{S8}$S8$'host'||S32'port'||U32'$pad1'||*{S8}$S8$'expr'||S32'fd'||U32'$pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#}$SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#$'sock'||F64'timeout'||S32'opts'||U32'$pad3'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'$pad0'||*{S8}$S8$'host'||S32'port'||U32'$pad1'||*{S8}$S8$'expr'||S32'fd'||U32'$pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#}$SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#$'sock'||F64'timeout'||S32'opts'||U32'$pad3'|]#$'rdb'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#$'array'||S32'anum'||S32'start'||S32'num'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#$'array'||S32'anum'||S32'start'||S32'num'||U32'$pad0'|]#$'args'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'hint'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'_pad0'||*{S8}_S8_'host'||S32'port'||U32'_pad1'||*{S8}_S8_'expr'||S32'fd'||U32'_pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#}_SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#_'sock'||F64'timeout'||S32'opts'||U32'_pad3'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'_pad0'||*{S8}_S8_'host'||S32'port'||U32'_pad1'||*{S8}_S8_'expr'||S32'fd'||U32'_pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#}_SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#_'sock'||F64'timeout'||S32'opts'||U32'_pad3'|]#_'rdb'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#_'array'||S32'anum'||S32'start'||S32'num'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#_'array'||S32'anum'||S32'start'||S32'num'||U32'_pad0'|]#_'args'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'hint'|]
 // file tcrdb.h line 550
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'root'||*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'|]
+// tag-#anon#ST[*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'root'||*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'|]
 // file /usr/include/tcutil.h line 1030
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{V(SYM#tag-sigval#)->V}$V(SYM#tag-sigval#)->V$'_function'||*{SYM#tag-pthread_attr_t#}$SYM#tag-pthread_attr_t#$'_attribute'|]
+// tag-#anon#ST[*{V(SYM#tag-sigval#)->V}_V(SYM#tag-sigval#)->V_'_function'||*{SYM#tag-pthread_attr_t#}_SYM#tag-pthread_attr_t#_'_attribute'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 327
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{V}$V$'mmtx'||*{SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'root'||*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'root'||*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'|]#$'tree'|]
+// tag-#anon#ST[*{V}_V_'mmtx'||*{SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'root'||*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'root'||*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'|]#_'tree'|]
 // file /usr/include/tcutil.h line 1802
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{V}$V$'mmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||B'open'||B'wmode'||U8'opts'||U8'$pad0'||S32'lcnum'||S32'ncnum'||U32'$pad1'||S64'iccmax'||F64'iccsync'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||S32'type'||U32'$pad0'||*{V}$V$'db'||*{V}$V$'cc'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||S32'type'||U32'$pad0'||*{V}$V$'db'||*{V}$V$'cc'|]#$'idxs'||S32'inum'||B'tran'||U24'$pad2'|]
+// tag-#anon#ST[*{V}_V_'mmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||B'open'||B'wmode'||U8'opts'||U8'_pad0'||S32'lcnum'||S32'ncnum'||U32'_pad1'||S64'iccmax'||F64'iccsync'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||S32'type'||U32'_pad0'||*{V}_V_'db'||*{V}_V_'cc'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||S32'type'||U32'_pad0'||*{V}_V_'db'||*{V}_V_'cc'|]#_'idxs'||S32'inum'||B'tran'||U24'_pad2'|]
 // file /usr/include/tctdb.h line 48
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'amtx'||*{V}$V$'rmtxs'||*{V}$V$'tmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U16'$pad0'||U32'width'||U64'limsiz'||S32'wsiz'||S32'rsiz'||U64'limid'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'min'||U64'max'||U64'iter'||*{S8}$S8$'map'||*{U8}$U8$'array'||S32'ecode'||B'fatal'||U24'$pad1'||U64'inode'||S64'mtime'||B'tran'||U24'$pad2'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad3'||S64'cnt_writerec'||S64'cnt_readrec'||S64'cnt_truncfile'|]
+// tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'amtx'||*{V}_V_'rmtxs'||*{V}_V_'tmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U16'_pad0'||U32'width'||U64'limsiz'||S32'wsiz'||S32'rsiz'||U64'limid'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'min'||U64'max'||U64'iter'||*{S8}_S8_'map'||*{U8}_U8_'array'||S32'ecode'||B'fatal'||U24'_pad1'||U64'inode'||S64'mtime'||B'tran'||U24'_pad2'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad3'||S64'cnt_writerec'||S64'cnt_readrec'||S64'cnt_truncfile'|]
 // file /usr/include/tcfdb.h line 39
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'cmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||*{S8}$S8$'opaque'||B'open'||B'wmode'||U16'$pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'$pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'nodec'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}$U64$'hist'||S32'hnum'||U32'$pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'$pad3'||*{S8}$S8$'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]
+// tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'cmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||*{S8}_S8_'opaque'||B'open'||B'wmode'||U16'_pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'_pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'nodec'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}_U64_'hist'||S32'hnum'||U32'_pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'_pad3'||*{S8}_S8_'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]
 // file /usr/include/tcbdb.h line 40
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]
+// tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]
 // file /usr/include/tchdb.h line 39
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{cS8}$cS8$'cbuf'||S32'csiz'||U32'$pad0'||*{S8}$S8$'obuf'||S32'osiz'||U32'$pad1'|]
+// tag-#anon#ST[*{cS8}_cS8_'cbuf'||S32'csiz'||U32'_pad0'||*{S8}_S8_'obuf'||S32'osiz'||U32'_pad1'|]
 // file tcrdb.c line 34
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[*{cS8}$cS8$'vbuf'||S32'vsiz'||S32'width'|]
+// tag-#anon#ST[*{cS8}_cS8_'vbuf'||S32'vsiz'||S32'width'|]
 // file tculog.c line 25
 struct anonymous;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'wmtx'||*{S8}$S8$'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}$V$'aiocbs'||S32'aiocbi'||U32'$pad0'||U64'aioend'|]
+// tag-#anon#ST[ARR31{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'rmtxs'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]#'rwlck'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cnd'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'wmtx'||*{S8}_S8_'base'||U64'limsiz'||S32'max'||S32'fd'||U64'size'||*{V}_V_'aiocbs'||S32'aiocbi'||U32'_pad0'||U64'aioend'|]
 // file ./tculog.h line 44
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]
+// tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]
 // file ttutil.h line 48
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S32'fd'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#}$SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#$'sock'||*{S8}$S8$'rbuf'||S32'rsiz'||U16'mid'||U16'$pad1'|]
+// tag-#anon#ST[S32'fd'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#}_SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#_'sock'||*{S8}_S8_'rbuf'||S32'rsiz'||U16'mid'||U16'_pad1'|]
 // file tculog.h line 68
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'omode'||U32'$pad0'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'mdb'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'root'||*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'root'||*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'|]#$'tree'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'root'||*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'root'||*{SYM#tag-_TCTREEREC#}$SYM#tag-_TCTREEREC#$'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'|]#$'tree'|]#$'ndb'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'cmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||*{S8}$S8$'opaque'||B'open'||B'wmode'||U16'$pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'$pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'nodec'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}$U64$'hist'||S32'hnum'||U32'$pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'$pad3'||*{S8}$S8$'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'cmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||*{S8}$S8$'opaque'||B'open'||B'wmode'||U16'$pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'$pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'nodec'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}$U64$'hist'||S32'hnum'||U32'$pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'$pad3'||*{S8}$S8$'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#$'bdb'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'amtx'||*{V}$V$'rmtxs'||*{V}$V$'tmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U16'$pad0'||U32'width'||U64'limsiz'||S32'wsiz'||S32'rsiz'||U64'limid'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'min'||U64'max'||U64'iter'||*{S8}$S8$'map'||*{U8}$U8$'array'||S32'ecode'||B'fatal'||U24'$pad1'||U64'inode'||S64'mtime'||B'tran'||U24'$pad2'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad3'||S64'cnt_writerec'||S64'cnt_readrec'||S64'cnt_truncfile'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'amtx'||*{V}$V$'rmtxs'||*{V}$V$'tmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U16'$pad0'||U32'width'||U64'limsiz'||S32'wsiz'||S32'rsiz'||U64'limid'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'min'||U64'max'||U64'iter'||*{S8}$S8$'map'||*{U8}$U8$'array'||S32'ecode'||B'fatal'||U24'$pad1'||U64'inode'||S64'mtime'||B'tran'||U24'$pad2'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad3'||S64'cnt_writerec'||S64'cnt_readrec'||S64'cnt_truncfile'|]#$'fdb'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||B'open'||B'wmode'||U8'opts'||U8'$pad0'||S32'lcnum'||S32'ncnum'||U32'$pad1'||S64'iccmax'||F64'iccsync'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||S32'type'||U32'$pad0'||*{V}$V$'db'||*{V}$V$'cc'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||S32'type'||U32'$pad0'||*{V}$V$'db'||*{V}$V$'cc'|]#$'idxs'||S32'inum'||B'tran'||U24'$pad2'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||B'open'||B'wmode'||U8'opts'||U8'$pad0'||S32'lcnum'||S32'ncnum'||U32'$pad1'||S64'iccmax'||F64'iccsync'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||S32'type'||U32'$pad0'||*{V}$V$'db'||*{V}$V$'cc'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||S32'type'||U32'$pad0'||*{V}$V$'db'||*{V}$V$'cc'|]#$'idxs'||S32'inum'||B'tran'||U24'$pad2'|]#$'tdb'||S64'capnum'||S64'capsiz'||U32'capcnt'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'cmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||*{S8}$S8$'opaque'||B'open'||B'wmode'||U16'$pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'$pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'nodec'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}$U64$'hist'||S32'hnum'||U32'$pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'$pad3'||*{S8}$S8$'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'cmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||*{S8}$S8$'opaque'||B'open'||B'wmode'||U16'$pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'$pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'nodec'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}$U64$'hist'||S32'hnum'||U32'$pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'$pad3'||*{S8}$S8$'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#$'bdb'||U64'clock'||U64'id'||S32'kidx'||S32'vidx'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'cmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||*{S8}$S8$'opaque'||B'open'||B'wmode'||U16'$pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'$pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'nodec'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}$U64$'hist'||S32'hnum'||U32'$pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'$pad3'||*{S8}$S8$'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'cmtx'||*{SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}$SYM#tag-#anon#ST[*{V}$V$'mmtx'||*{V}$V$'rmtxs'||*{V}$V$'dmtx'||*{V}$V$'wmtx'||*{V}$V$'eckey'||*{S8}$S8$'rpath'||U8'type'||U8'flags'||U48'$pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'$pad1'||*{S8}$S8$'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}$S8$'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}$U32$'ba32'||*{U64}$U64$'ba64'||U32'align'||U32'runit'||B'zmode'||U24'$pad2'||S32'fbpmax'||*{V}$V$'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpool'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'mmtxs'||*{V}$V$'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$}$*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$$'maps'||S32'iter'||U32'$pad0'|]#$'recc'||U32'rcnum'||U32'$pad4'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'enc'||*{V}$V$'encop'||*{*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$}$*{V}$V$(*{cV}$cV$|S32|*{S32}$S32$|*{V}$V$)->*{V}$V$$'dec'||*{V}$V$'decop'||S32'ecode'||B'fatal'||U24'$pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'$pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'$pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#$'hdb'||*{S8}$S8$'opaque'||B'open'||B'wmode'||U16'$pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'$pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$}$*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$$'buckets'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'first'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'last'||*{SYM#tag-_TCMAPREC#}$SYM#tag-_TCMAPREC#$'cur'||U32'bnum'||U32'$pad0'||U64'rnum'||U64'msiz'|]#$'nodec'||*{S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32}$S32(*{cS8}$cS8$|S32|*{cS8}$cS8$|S32|*{V}$V$)->S32$'cmp'||*{V}$V$'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}$U64$'hist'||S32'hnum'||U32'$pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'$pad3'||*{S8}$S8$'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#$'bdb'||U64'clock'||U64'id'||S32'kidx'||S32'vidx'|]#$'cur'||*{V}$V$'skel'|]
+// tag-#anon#ST[S32'omode'||U32'_pad0'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'mdb'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'root'||*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'root'||*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'|]#_'tree'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'root'||*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'root'||*{SYM#tag-_TCTREEREC#}_SYM#tag-_TCTREEREC#_'cur'||U64'rnum'||U64'msiz'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'|]#_'tree'|]#_'ndb'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'cmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||*{S8}_S8_'opaque'||B'open'||B'wmode'||U16'_pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'_pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'nodec'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}_U64_'hist'||S32'hnum'||U32'_pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'_pad3'||*{S8}_S8_'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'cmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||*{S8}_S8_'opaque'||B'open'||B'wmode'||U16'_pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'_pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'nodec'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}_U64_'hist'||S32'hnum'||U32'_pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'_pad3'||*{S8}_S8_'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#_'bdb'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'amtx'||*{V}_V_'rmtxs'||*{V}_V_'tmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U16'_pad0'||U32'width'||U64'limsiz'||S32'wsiz'||S32'rsiz'||U64'limid'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'min'||U64'max'||U64'iter'||*{S8}_S8_'map'||*{U8}_U8_'array'||S32'ecode'||B'fatal'||U24'_pad1'||U64'inode'||S64'mtime'||B'tran'||U24'_pad2'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad3'||S64'cnt_writerec'||S64'cnt_readrec'||S64'cnt_truncfile'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'amtx'||*{V}_V_'rmtxs'||*{V}_V_'tmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U16'_pad0'||U32'width'||U64'limsiz'||S32'wsiz'||S32'rsiz'||U64'limid'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'min'||U64'max'||U64'iter'||*{S8}_S8_'map'||*{U8}_U8_'array'||S32'ecode'||B'fatal'||U24'_pad1'||U64'inode'||S64'mtime'||B'tran'||U24'_pad2'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad3'||S64'cnt_writerec'||S64'cnt_readrec'||S64'cnt_truncfile'|]#_'fdb'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||B'open'||B'wmode'||U8'opts'||U8'_pad0'||S32'lcnum'||S32'ncnum'||U32'_pad1'||S64'iccmax'||F64'iccsync'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||S32'type'||U32'_pad0'||*{V}_V_'db'||*{V}_V_'cc'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||S32'type'||U32'_pad0'||*{V}_V_'db'||*{V}_V_'cc'|]#_'idxs'||S32'inum'||B'tran'||U24'_pad2'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||B'open'||B'wmode'||U8'opts'||U8'_pad0'||S32'lcnum'||S32'ncnum'||U32'_pad1'||S64'iccmax'||F64'iccsync'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||S32'type'||U32'_pad0'||*{V}_V_'db'||*{V}_V_'cc'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||S32'type'||U32'_pad0'||*{V}_V_'db'||*{V}_V_'cc'|]#_'idxs'||S32'inum'||B'tran'||U24'_pad2'|]#_'tdb'||S64'capnum'||S64'capsiz'||U32'capcnt'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'cmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||*{S8}_S8_'opaque'||B'open'||B'wmode'||U16'_pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'_pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'nodec'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}_U64_'hist'||S32'hnum'||U32'_pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'_pad3'||*{S8}_S8_'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'cmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||*{S8}_S8_'opaque'||B'open'||B'wmode'||U16'_pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'_pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'nodec'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}_U64_'hist'||S32'hnum'||U32'_pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'_pad3'||*{S8}_S8_'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#_'bdb'||U64'clock'||U64'id'||S32'kidx'||S32'vidx'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'cmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||*{S8}_S8_'opaque'||B'open'||B'wmode'||U16'_pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'_pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'nodec'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}_U64_'hist'||S32'hnum'||U32'_pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'_pad3'||*{S8}_S8_'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'cmtx'||*{SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#}_SYM#tag-#anon#ST[*{V}_V_'mmtx'||*{V}_V_'rmtxs'||*{V}_V_'dmtx'||*{V}_V_'wmtx'||*{V}_V_'eckey'||*{S8}_S8_'rpath'||U8'type'||U8'flags'||U48'_pad0'||U64'bnum'||U8'apow'||U8'fpow'||U8'opts'||U40'_pad1'||*{S8}_S8_'path'||S32'fd'||U32'omode'||U64'rnum'||U64'fsiz'||U64'frec'||U64'dfcur'||U64'iter'||*{S8}_S8_'map'||U64'msiz'||U64'xmsiz'||U64'xfsiz'||*{U32}_U32_'ba32'||*{U64}_U64_'ba64'||U32'align'||U32'runit'||B'zmode'||U24'_pad2'||S32'fbpmax'||*{V}_V_'fbpool'||S32'fbpnum'||S32'fbpmis'||B'async'||U56'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpool'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'drpdef'||U64'drpoff'||*{SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{V}_V_}_*{V}_V__'mmtxs'||*{V}_V_'imtx'||*{*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_}_*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#__'maps'||S32'iter'||U32'_pad0'|]#_'recc'||U32'rcnum'||U32'_pad4'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'enc'||*{V}_V_'encop'||*{*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V_}_*{V}_V_(*{cV}_cV_|S32|*{S32}_S32_|*{V}_V_)->*{V}_V__'dec'||*{V}_V_'decop'||S32'ecode'||B'fatal'||U24'_pad5'||U64'inode'||S64'mtime'||U32'dfunit'||U32'dfcnt'||B'tran'||U24'_pad6'||S32'walfd'||U64'walend'||S32'dbgfd'||U32'_pad7'||vS64'cnt_writerec'||vS64'cnt_reuserec'||vS64'cnt_moverec'||vS64'cnt_readrec'||vS64'cnt_searchfbp'||vS64'cnt_insertfbp'||vS64'cnt_splicefbp'||vS64'cnt_dividefbp'||vS64'cnt_mergefbp'||vS64'cnt_reducefbp'||vS64'cnt_appenddrp'||vS64'cnt_deferdrp'||vS64'cnt_flushdrp'||vS64'cnt_adjrecc'||vS64'cnt_defrag'||vS64'cnt_shiftrec'||vS64'cnt_trunc'|]#_'hdb'||*{S8}_S8_'opaque'||B'open'||B'wmode'||U16'_pad0'||U32'lmemb'||U32'nmemb'||U8'opts'||U24'_pad1'||U64'root'||U64'first'||U64'last'||U64'lnum'||U64'nnum'||U64'rnum'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'leafc'||*{SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_}_*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#__'buckets'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'first'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'last'||*{SYM#tag-_TCMAPREC#}_SYM#tag-_TCMAPREC#_'cur'||U32'bnum'||U32'_pad0'||U64'rnum'||U64'msiz'|]#_'nodec'||*{S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32}_S32(*{cS8}_cS8_|S32|*{cS8}_cS8_|S32|*{V}_V_)->S32_'cmp'||*{V}_V_'cmpop'||U32'lcnum'||U32'ncnum'||U32'lsmax'||U32'lschk'||U64'capnum'||*{U64}_U64_'hist'||S32'hnum'||U32'_pad2'||vU64'hleaf'||vU64'lleaf'||B'tran'||U56'_pad3'||*{S8}_S8_'rbopaque'||vU64'clock'||vS64'cnt_saveleaf'||vS64'cnt_loadleaf'||vS64'cnt_killleaf'||vS64'cnt_adjleafc'||vS64'cnt_savenode'||vS64'cnt_loadnode'||vS64'cnt_adjnodec'|]#_'bdb'||U64'clock'||U64'id'||S32'kidx'||S32'vidx'|]#_'cur'||*{V}_V_'skel'|]
 // file /usr/include/tcadb.h line 43
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'$pad0'||*{S8}$S8$'host'||S32'port'||U32'$pad1'||*{S8}$S8$'expr'||S32'fd'||U32'$pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#}$SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#$'sock'||F64'timeout'||S32'opts'||U32'$pad3'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'_pad0'||*{S8}_S8_'host'||S32'port'||U32'_pad1'||*{S8}_S8_'expr'||S32'fd'||U32'_pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#}_SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#_'sock'||F64'timeout'||S32'opts'||U32'_pad3'|]
 // file tcrdb.h line 39
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[U64'tid'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'$pad0'||*{S8}$S8$'host'||S32'port'||U32'$pad1'||*{S8}$S8$'expr'||S32'fd'||U32'$pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#}$SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#$'sock'||F64'timeout'||S32'opts'||U32'$pad3'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'$pad0'||*{S8}$S8$'host'||S32'port'||U32'$pad1'||*{S8}$S8$'expr'||S32'fd'||U32'$pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#}$SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#$'sock'||F64'timeout'||S32'opts'||U32'$pad3'|]#$'rdb'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#$'array'||S32'anum'||S32'start'||S32'num'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#$'array'||S32'anum'||S32'start'||S32'num'||U32'$pad0'|]#$'args'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'hint'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'$pad0'||*{S8}$S8$'host'||S32'port'||U32'$pad1'||*{S8}$S8$'expr'||S32'fd'||U32'$pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#}$SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#$'sock'||F64'timeout'||S32'opts'||U32'$pad3'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'$pad0'||*{S8}$S8$'host'||S32'port'||U32'$pad1'||*{S8}$S8$'expr'||S32'fd'||U32'$pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#}$SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}$S8$'buf'||U32'$pad0'||*{S8}$S8$'rp'||*{S8}$S8$'ep'||B'end'||U56'$pad1'||F64'to'||F64'dl'|]#$'sock'||F64'timeout'||S32'opts'||U32'$pad3'|]#$'rdb'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#$'array'||S32'anum'||S32'start'||S32'num'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#$'array'||S32'anum'||S32'start'||S32'num'||U32'$pad0'|]#$'args'||*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||S32'asize'|]#$'hint'|]#$'qry'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#$'array'||S32'anum'||S32'start'||S32'num'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'ptr'||S32'size'||U32'$pad0'|]#$'array'||S32'anum'||S32'start'||S32'num'||U32'$pad0'|]#$'res'||S32'max'||S32'skip'|]
+// tag-#anon#ST[U64'tid'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'_pad0'||*{S8}_S8_'host'||S32'port'||U32'_pad1'||*{S8}_S8_'expr'||S32'fd'||U32'_pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#}_SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#_'sock'||F64'timeout'||S32'opts'||U32'_pad3'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'_pad0'||*{S8}_S8_'host'||S32'port'||U32'_pad1'||*{S8}_S8_'expr'||S32'fd'||U32'_pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#}_SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#_'sock'||F64'timeout'||S32'opts'||U32'_pad3'|]#_'rdb'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#_'array'||S32'anum'||S32'start'||S32'num'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#_'array'||S32'anum'||S32'start'||S32'num'||U32'_pad0'|]#_'args'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'hint'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'_pad0'||*{S8}_S8_'host'||S32'port'||U32'_pad1'||*{S8}_S8_'expr'||S32'fd'||U32'_pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#}_SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#_'sock'||F64'timeout'||S32'opts'||U32'_pad3'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mmtx'||U32'eckey'||U32'_pad0'||*{S8}_S8_'host'||S32'port'||U32'_pad1'||*{S8}_S8_'expr'||S32'fd'||U32'_pad2'||*{SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#}_SYM#tag-#anon#ST[S32'fd'||ARR65536{S8}_S8_'buf'||U32'_pad0'||*{S8}_S8_'rp'||*{S8}_S8_'ep'||B'end'||U56'_pad1'||F64'to'||F64'dl'|]#_'sock'||F64'timeout'||S32'opts'||U32'_pad3'|]#_'rdb'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#_'array'||S32'anum'||S32'start'||S32'num'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#_'array'||S32'anum'||S32'start'||S32'num'||U32'_pad0'|]#_'args'||*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||S32'asize'|]#_'hint'|]#_'qry'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#_'array'||S32'anum'||S32'start'||S32'num'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'ptr'||S32'size'||U32'_pad0'|]#_'array'||S32'anum'||S32'start'||S32'num'||U32'_pad0'|]#_'res'||S32'max'||S32'skip'|]
 // file tcrdb.c line 26
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#UN[ARR12{S32}$S32$'_pad'||S32'_tid'||SYM#tag-#anon#ST[*{V(SYM#tag-sigval#)->V}$V(SYM#tag-sigval#)->V$'_function'||*{SYM#tag-pthread_attr_t#}$SYM#tag-pthread_attr_t#$'_attribute'|]#'_sigev_thread'|]
+// tag-#anon#UN[ARR12{S32}_S32_'_pad'||S32'_tid'||SYM#tag-#anon#ST[*{V(SYM#tag-sigval#)->V}_V(SYM#tag-sigval#)->V_'_function'||*{SYM#tag-pthread_attr_t#}_SYM#tag-pthread_attr_t#_'_attribute'|]#'_sigev_thread'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 319
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$32;
+union anonymous_32;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$33;
+union anonymous_33;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR8{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$35;
+union anonymous_35;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$19;
+union anonymous_19;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -360,13 +360,13 @@ extern signed int __isnanf(float);
 extern signed int __isnanl(long double);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 682
-extern void __pthread_register_cancel(struct anonymous$4 *);
+extern void __pthread_register_cancel(struct anonymous_4 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 694
-extern void __pthread_unregister_cancel(struct anonymous$4 *);
+extern void __pthread_unregister_cancel(struct anonymous_4 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 735
-extern void __pthread_unwind_next(struct anonymous$4 *);
+extern void __pthread_unwind_next(struct anonymous_4 *);
 // __rawmemchr
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 393
 extern void * __rawmemchr(const void *, signed int);
@@ -387,7 +387,7 @@ signed int _tt_dummyfunc(void);
 signed int _tt_dummyfuncv(signed int a, ...);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$19, unsigned int *);
+extern signed int accept(signed int, union anonymous_19, unsigned int *);
 // aio_error
 // file /usr/include/aio.h line 156
 extern signed int aio_error(struct aiocb *);
@@ -402,7 +402,7 @@ extern signed int aio_suspend(struct aiocb * const *, signed int, struct timespe
 extern signed int aio_write(struct aiocb *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$19, unsigned int);
+extern signed int bind(signed int, union anonymous_19, unsigned int);
 // chdir
 // file /usr/include/unistd.h line 497
 extern signed int chdir(const char *);
@@ -411,7 +411,7 @@ extern signed int chdir(const char *);
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$19, unsigned int);
+extern signed int connect(signed int, union anonymous_19, unsigned int);
 // dup2
 // file /usr/include/unistd.h line 534
 extern signed int dup2(signed int, signed int);
@@ -426,7 +426,7 @@ extern signed int epoll_ctl(signed int, signed int, signed int, struct epoll_eve
 extern signed int epoll_wait(signed int, struct epoll_event *, signed int, signed int);
 // eprint
 // file ttultest.c line 89
-static void eprint(struct anonymous$0 *ulog, const char *func);
+static void eprint(struct anonymous_0 *ulog, const char *func);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -510,25 +510,25 @@ static signed int procthread(const char *base, signed int tnum, signed int rnum,
 static signed int procwrite(const char *base, signed int rnum, signed long int limsiz, _Bool as);
 // pselect
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 118
-extern signed int pselect(signed int, struct anonymous$38 *, struct anonymous$38 *, struct anonymous$38 *, struct timespec *, const struct anonymous$31 *);
+extern signed int pselect(signed int, struct anonymous_38 *, struct anonymous_38 *, struct anonymous_38 *, struct timespec *, const struct anonymous_31 *);
 // pthread_cancel
 // file /usr/include/pthread.h line 515
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$16 *);
+extern signed int pthread_cond_broadcast(union anonymous_16 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$16 *);
+extern signed int pthread_cond_destroy(union anonymous_16 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$16 *, const union anonymous$33 *);
+extern signed int pthread_cond_init(union anonymous_16 *, const union anonymous_33 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$16 *);
+extern signed int pthread_cond_signal(union anonymous_16 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$16 *, union anonymous$7 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_16 *, union anonymous_7 *, struct timespec *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -546,31 +546,31 @@ extern signed int pthread_key_create(unsigned int *, void (*)(void *));
 extern signed int pthread_key_delete(unsigned int);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$7 *);
+extern signed int pthread_mutex_destroy(union anonymous_7 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$7 *, const union anonymous$33 *);
+extern signed int pthread_mutex_init(union anonymous_7 *, const union anonymous_33 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$7 *);
+extern signed int pthread_mutex_lock(union anonymous_7 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$7 *);
+extern signed int pthread_mutex_unlock(union anonymous_7 *);
 // pthread_rwlock_destroy
 // file /usr/include/pthread.h line 895
-extern signed int pthread_rwlock_destroy(union anonymous$3 *);
+extern signed int pthread_rwlock_destroy(union anonymous_3 *);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 890
-extern signed int pthread_rwlock_init(union anonymous$3 *, const union anonymous$2 *);
+extern signed int pthread_rwlock_init(union anonymous_3 *, const union anonymous_2 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$3 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_3 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$3 *);
+extern signed int pthread_rwlock_unlock(union anonymous_3 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$3 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_3 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -579,7 +579,7 @@ extern signed int pthread_setcancelstate(signed int, signed int *);
 extern signed int pthread_setspecific(unsigned int, const void *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$31 *, struct anonymous$31 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_31 *, struct anonymous_31 *);
 // pthread_testcancel
 // file /usr/include/pthread.h line 520
 extern void pthread_testcancel(void);
@@ -591,16 +591,16 @@ static inline signed int putchar(signed int __c);
 extern void qsort(void *, unsigned long int, unsigned long int, signed int (*)(const void *, const void *));
 // rdbcmpsortrecnumasc
 // file tcrdb.c line 2595
-static signed int rdbcmpsortrecnumasc(const struct anonymous$37 *a, const struct anonymous$37 *b);
+static signed int rdbcmpsortrecnumasc(const struct anonymous_37 *a, const struct anonymous_37 *b);
 // rdbcmpsortrecnumdesc
 // file tcrdb.c line 2618
-static signed int rdbcmpsortrecnumdesc(const struct anonymous$37 *a, const struct anonymous$37 *b);
+static signed int rdbcmpsortrecnumdesc(const struct anonymous_37 *a, const struct anonymous_37 *b);
 // rdbcmpsortrecstrasc
 // file tcrdb.c line 2557
-static signed int rdbcmpsortrecstrasc(const struct anonymous$37 *a, const struct anonymous$37 *b);
+static signed int rdbcmpsortrecstrasc(const struct anonymous_37 *a, const struct anonymous_37 *b);
 // rdbcmpsortrecstrdesc
 // file tcrdb.c line 2576
-static signed int rdbcmpsortrecstrdesc(const struct anonymous$37 *a, const struct anonymous$37 *b);
+static signed int rdbcmpsortrecstrdesc(const struct anonymous_37 *a, const struct anonymous_37 *b);
 // recv
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 156
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
@@ -627,10 +627,10 @@ extern signed int setsockopt(signed int, signed int, signed int, const void *, u
 extern signed int shutdown(signed int, signed int);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$31 *, signed int);
+extern signed int sigaddset(struct anonymous_31 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$31 *);
+extern signed int sigemptyset(struct anonymous_31 *);
 // snprintf
 // file /usr/include/stdio.h line 386
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
@@ -651,37 +651,37 @@ static inline signed int stat(const char *__path, struct stat *__statbuf);
 extern unsigned long int strlen(const char *);
 // tcadbadddouble
 // file /usr/include/tcadb.h line 315
-double tcadbadddouble(struct anonymous$8 *, const void *, signed int, double);
+double tcadbadddouble(struct anonymous_8 *, const void *, signed int, double);
 // tcadbaddint
 // file /usr/include/tcadb.h line 304
-signed int tcadbaddint(struct anonymous$8 *, const void *, signed int, signed int);
+signed int tcadbaddint(struct anonymous_8 *, const void *, signed int, signed int);
 // tcadbmisc
 // file /usr/include/tcadb.h line 415
-struct anonymous$1 * tcadbmisc(struct anonymous$8 *, const char *, const struct anonymous$1 *);
+struct anonymous_1 * tcadbmisc(struct anonymous_8 *, const char *, const struct anonymous_1 *);
 // tcadboptimize
 // file /usr/include/tcadb.h line 331
-_Bool tcadboptimize(struct anonymous$8 *, const char *);
+_Bool tcadboptimize(struct anonymous_8 *, const char *);
 // tcadbout
 // file /usr/include/tcadb.h line 180
-_Bool tcadbout(struct anonymous$8 *, const void *, signed int);
+_Bool tcadbout(struct anonymous_8 *, const void *, signed int);
 // tcadbput
 // file /usr/include/tcadb.h line 123
-_Bool tcadbput(struct anonymous$8 *, const void *, signed int, const void *, signed int);
+_Bool tcadbput(struct anonymous_8 *, const void *, signed int, const void *, signed int);
 // tcadbputcat
 // file /usr/include/tcadb.h line 163
-_Bool tcadbputcat(struct anonymous$8 *, const void *, signed int, const void *, signed int);
+_Bool tcadbputcat(struct anonymous_8 *, const void *, signed int, const void *, signed int);
 // tcadbputkeep
 // file /usr/include/tcadb.h line 143
-_Bool tcadbputkeep(struct anonymous$8 *, const void *, signed int, const void *, signed int);
+_Bool tcadbputkeep(struct anonymous_8 *, const void *, signed int, const void *, signed int);
 // tcadbputproc
 // file /usr/include/tcadb.h line 507
-_Bool tcadbputproc(struct anonymous$8 *, const void *, signed int, const void *, signed int, void * (*)(const void *, signed int, signed int *, void *), void *);
+_Bool tcadbputproc(struct anonymous_8 *, const void *, signed int, const void *, signed int, void * (*)(const void *, signed int, signed int *, void *), void *);
 // tcadbsync
 // file /usr/include/tcadb.h line 321
-_Bool tcadbsync(struct anonymous$8 *);
+_Bool tcadbsync(struct anonymous_8 *);
 // tcadbvanish
 // file /usr/include/tcadb.h line 337
-_Bool tcadbvanish(struct anonymous$8 *);
+_Bool tcadbvanish(struct anonymous_8 *);
 // tcatof
 // file /usr/include/tcutil.h line 2484
 double tcatof(const char *);
@@ -702,40 +702,40 @@ signed int tccmplexical(const char *, signed int, const char *, signed int, void
 void tcfree(void *);
 // tclistclear
 // file /usr/include/tcutil.h line 511
-void tclistclear(struct anonymous$1 *);
+void tclistclear(struct anonymous_1 *);
 // tclistdel
 // file /usr/include/tcutil.h line 328
-void tclistdel(struct anonymous$1 *);
+void tclistdel(struct anonymous_1 *);
 // tclistdup
 // file /usr/include/tcutil.h line 322
-struct anonymous$1 * tclistdup(const struct anonymous$1 *);
+struct anonymous_1 * tclistdup(const struct anonymous_1 *);
 // tclistnew
 // file /usr/include/tcutil.h line 303
-struct anonymous$1 * tclistnew(void);
+struct anonymous_1 * tclistnew(void);
 // tclistnew2
 // file /usr/include/tcutil.h line 309
-struct anonymous$1 * tclistnew2(signed int);
+struct anonymous_1 * tclistnew2(signed int);
 // tclistnum
 // file /usr/include/tcutil.h line 334
-signed int tclistnum(const struct anonymous$1 *);
+signed int tclistnum(const struct anonymous_1 *);
 // tclistpop
 // file /usr/include/tcutil.h line 379
-void * tclistpop(struct anonymous$1 *, signed int *);
+void * tclistpop(struct anonymous_1 *, signed int *);
 // tclistpush
 // file /usr/include/tcutil.h line 361
-void tclistpush(struct anonymous$1 *, const void *, signed int);
+void tclistpush(struct anonymous_1 *, const void *, signed int);
 // tclistpush2
 // file /usr/include/tcutil.h line 367
-void tclistpush2(struct anonymous$1 *, const char *);
+void tclistpush2(struct anonymous_1 *, const char *);
 // tclistshift2
 // file /usr/include/tcutil.h line 422
-char * tclistshift2(struct anonymous$1 *);
+char * tclistshift2(struct anonymous_1 *);
 // tclistval
 // file /usr/include/tcutil.h line 346
-const void * tclistval(const struct anonymous$1 *, signed int, signed int *);
+const void * tclistval(const struct anonymous_1 *, signed int, signed int *);
 // tclistval2
 // file /usr/include/tcutil.h line 354
-const char * tclistval2(const struct anonymous$1 *, signed int);
+const char * tclistval2(const struct anonymous_1 *, signed int);
 // tclmin
 // file /usr/include/tcutil.h line 2301
 signed long int tclmin(signed long int, signed long int);
@@ -744,43 +744,43 @@ signed long int tclmin(signed long int, signed long int);
 void * tcmalloc(unsigned long int);
 // tcmapclear
 // file /usr/include/tcutil.h line 825
-void tcmapclear(struct anonymous$25 *);
+void tcmapclear(struct anonymous_25 *);
 // tcmapdel
 // file /usr/include/tcutil.h line 630
-void tcmapdel(struct anonymous$25 *);
+void tcmapdel(struct anonymous_25 *);
 // tcmapget
 // file /usr/include/tcutil.h line 716
-const void * tcmapget(const struct anonymous$25 *, const void *, signed int, signed int *);
+const void * tcmapget(const struct anonymous_25 *, const void *, signed int, signed int *);
 // tcmapget2
 // file /usr/include/tcutil.h line 724
-const char * tcmapget2(const struct anonymous$25 *, const char *);
+const char * tcmapget2(const struct anonymous_25 *, const char *);
 // tcmapiterinit
 // file /usr/include/tcutil.h line 749
-void tcmapiterinit(struct anonymous$25 *);
+void tcmapiterinit(struct anonymous_25 *);
 // tcmapiternext
 // file /usr/include/tcutil.h line 761
-const void * tcmapiternext(struct anonymous$25 *, signed int *);
+const void * tcmapiternext(struct anonymous_25 *, signed int *);
 // tcmapiternext2
 // file /usr/include/tcutil.h line 769
-const char * tcmapiternext2(struct anonymous$25 *);
+const char * tcmapiternext2(struct anonymous_25 *);
 // tcmapiterval
 // file /usr/include/tcutil.h line 960
 const void * tcmapiterval(const void *, signed int *);
 // tcmapnew2
 // file /usr/include/tcutil.h line 610
-struct anonymous$25 * tcmapnew2(unsigned int);
+struct anonymous_25 * tcmapnew2(unsigned int);
 // tcmapput
 // file /usr/include/tcutil.h line 640
-void tcmapput(struct anonymous$25 *, const void *, signed int, const void *, signed int);
+void tcmapput(struct anonymous_25 *, const void *, signed int, const void *, signed int);
 // tcmapput2
 // file /usr/include/tcutil.h line 648
-void tcmapput2(struct anonymous$25 *, const char *, const char *);
+void tcmapput2(struct anonymous_25 *, const char *, const char *);
 // tcmapputkeep
 // file /usr/include/tcutil.h line 659
-_Bool tcmapputkeep(struct anonymous$25 *, const void *, signed int, const void *, signed int);
+_Bool tcmapputkeep(struct anonymous_25 *, const void *, signed int, const void *, signed int);
 // tcmaprnum
 // file /usr/include/tcutil.h line 775
-unsigned long int tcmaprnum(const struct anonymous$25 *);
+unsigned long int tcmaprnum(const struct anonymous_25 *);
 // tcmemdup
 // file /usr/include/tcutil.h line 94
 void * tcmemdup(const void *, unsigned long int);
@@ -789,481 +789,481 @@ void * tcmemdup(const void *, unsigned long int);
 void * tcmyfatal(const char *);
 // tcrdbadddouble
 // file tcrdb.c line 445
-double tcrdbadddouble(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, double num);
-// tcrdbadddouble::1::1::__cancel_routine$object
+double tcrdbadddouble(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, double num);
+// tcrdbadddouble::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbadddoubleimpl
 // file tcrdb.c line 1892
-static double tcrdbadddoubleimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, double num);
-// tcrdbadddoubleimpl::1::2::__cancel_routine$object
+static double tcrdbadddoubleimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, double num);
+// tcrdbadddoubleimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbaddint
 // file tcrdb.c line 433
-signed int tcrdbaddint(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, signed int num);
-// tcrdbaddint::1::1::__cancel_routine$object
+signed int tcrdbaddint(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, signed int num);
+// tcrdbaddint::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbaddintimpl
 // file tcrdb.c line 1843
-static signed int tcrdbaddintimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, signed int num);
-// tcrdbaddintimpl::1::2::__cancel_routine$object
+static signed int tcrdbaddintimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, signed int num);
+// tcrdbaddintimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbatof
 // file tcrdb.c line 2513
 static long double tcrdbatof(const char *str);
 // tcrdbclose
 // file tcrdb.c line 205
-_Bool tcrdbclose(struct anonymous$29 *rdb);
-// tcrdbclose::1::1::__cancel_routine$object
+_Bool tcrdbclose(struct anonymous_29 *rdb);
+// tcrdbclose::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbcloseimpl
 // file tcrdb.c line 1215
-static _Bool tcrdbcloseimpl(struct anonymous$29 *rdb);
+static _Bool tcrdbcloseimpl(struct anonymous_29 *rdb);
 // tcrdbcopy
 // file tcrdb.c line 514
-_Bool tcrdbcopy(struct anonymous$29 *rdb, const char *path);
-// tcrdbcopy::1::1::__cancel_routine$object
+_Bool tcrdbcopy(struct anonymous_29 *rdb, const char *path);
+// tcrdbcopy::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbcopyimpl
 // file tcrdb.c line 2116
-static _Bool tcrdbcopyimpl(struct anonymous$29 *rdb, const char *path);
-// tcrdbcopyimpl::1::2::__cancel_routine$object
+static _Bool tcrdbcopyimpl(struct anonymous_29 *rdb, const char *path);
+// tcrdbcopyimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbdel
 // file tcrdb.c line 128
-void tcrdbdel(struct anonymous$29 *rdb);
+void tcrdbdel(struct anonymous_29 *rdb);
 // tcrdbecode
 // file tcrdb.c line 140
-signed int tcrdbecode(struct anonymous$29 *rdb);
+signed int tcrdbecode(struct anonymous_29 *rdb);
 // tcrdberrmsg
 // file tcrdb.c line 94
 const char * tcrdberrmsg(signed int ecode);
 // tcrdbexpr
 // file tcrdb.c line 562
-const char * tcrdbexpr(struct anonymous$29 *rdb);
-// tcrdbexpr::1::1::__cancel_routine$object
+const char * tcrdbexpr(struct anonymous_29 *rdb);
+// tcrdbexpr::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbexprimpl
 // file tcrdb.c line 2264
-const char * tcrdbexprimpl(struct anonymous$29 *rdb);
+const char * tcrdbexprimpl(struct anonymous_29 *rdb);
 // tcrdbext
 // file tcrdb.c line 457
-void * tcrdbext(struct anonymous$29 *rdb, const char *name, signed int opts, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int *sp);
+void * tcrdbext(struct anonymous_29 *rdb, const char *name, signed int opts, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int *sp);
 // tcrdbext2
 // file tcrdb.c line 470
-char * tcrdbext2(struct anonymous$29 *rdb, const char *name, signed int opts, const char *kstr, const char *vstr);
-// tcrdbext::1::1::__cancel_routine$object
+char * tcrdbext2(struct anonymous_29 *rdb, const char *name, signed int opts, const char *kstr, const char *vstr);
+// tcrdbext::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbextimpl
 // file tcrdb.c line 1946
-static void * tcrdbextimpl(struct anonymous$29 *rdb, const char *name, signed int opts, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int *sp);
-// tcrdbextimpl::1::2::__cancel_routine$object
+static void * tcrdbextimpl(struct anonymous_29 *rdb, const char *name, signed int opts, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int *sp);
+// tcrdbextimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbfwmkeys
 // file tcrdb.c line 414
-struct anonymous$1 * tcrdbfwmkeys(struct anonymous$29 *rdb, const void *pbuf, signed int psiz, signed int max);
+struct anonymous_1 * tcrdbfwmkeys(struct anonymous_29 *rdb, const void *pbuf, signed int psiz, signed int max);
 // tcrdbfwmkeys2
 // file tcrdb.c line 426
-struct anonymous$1 * tcrdbfwmkeys2(struct anonymous$29 *rdb, const char *pstr, signed int max);
-// tcrdbfwmkeys::1::1::__cancel_routine$object
+struct anonymous_1 * tcrdbfwmkeys2(struct anonymous_29 *rdb, const char *pstr, signed int max);
+// tcrdbfwmkeys::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbfwmkeysimpl
 // file tcrdb.c line 1779
-static struct anonymous$1 * tcrdbfwmkeysimpl(struct anonymous$29 *rdb, const void *pbuf, signed int psiz, signed int max);
-// tcrdbfwmkeysimpl::1::2::__cancel_routine$object
+static struct anonymous_1 * tcrdbfwmkeysimpl(struct anonymous_29 *rdb, const void *pbuf, signed int psiz, signed int max);
+// tcrdbfwmkeysimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbget
 // file tcrdb.c line 331
-void * tcrdbget(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, signed int *sp);
+void * tcrdbget(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, signed int *sp);
 // tcrdbget2
 // file tcrdb.c line 343
-char * tcrdbget2(struct anonymous$29 *rdb, const char *kstr);
+char * tcrdbget2(struct anonymous_29 *rdb, const char *kstr);
 // tcrdbget3
 // file tcrdb.c line 351
-_Bool tcrdbget3(struct anonymous$29 *rdb, struct anonymous$25 *recs);
-// tcrdbget3::1::1::__cancel_routine$object
+_Bool tcrdbget3(struct anonymous_29 *rdb, struct anonymous_25 *recs);
+// tcrdbget3::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// tcrdbget::1::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// tcrdbget::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbgetimpl
 // file tcrdb.c line 1530
-static void * tcrdbgetimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, signed int *sp);
-// tcrdbgetimpl::1::2::__cancel_routine$object
+static void * tcrdbgetimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, signed int *sp);
+// tcrdbgetimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbiterinit
 // file tcrdb.c line 382
-_Bool tcrdbiterinit(struct anonymous$29 *rdb);
-// tcrdbiterinit::1::1::__cancel_routine$object
+_Bool tcrdbiterinit(struct anonymous_29 *rdb);
+// tcrdbiterinit::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbiterinitimpl
 // file tcrdb.c line 1701
-static _Bool tcrdbiterinitimpl(struct anonymous$29 *rdb);
+static _Bool tcrdbiterinitimpl(struct anonymous_29 *rdb);
 // tcrdbiternext
 // file tcrdb.c line 394
-void * tcrdbiternext(struct anonymous$29 *rdb, signed int *sp);
+void * tcrdbiternext(struct anonymous_29 *rdb, signed int *sp);
 // tcrdbiternext2
 // file tcrdb.c line 406
-char * tcrdbiternext2(struct anonymous$29 *rdb);
-// tcrdbiternext::1::1::__cancel_routine$object
+char * tcrdbiternext2(struct anonymous_29 *rdb);
+// tcrdbiternext::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbiternextimpl
 // file tcrdb.c line 1734
-static void * tcrdbiternextimpl(struct anonymous$29 *rdb, signed int *sp);
+static void * tcrdbiternextimpl(struct anonymous_29 *rdb, signed int *sp);
 // tcrdblockmethod
 // file tcrdb.c line 1081
-static _Bool tcrdblockmethod(struct anonymous$29 *rdb);
+static _Bool tcrdblockmethod(struct anonymous_29 *rdb);
 // tcrdbmetasearch
 // file tcrdb.c line 906
-struct anonymous$1 * tcrdbmetasearch(struct anonymous$30 **qrys, signed int num, signed int type);
+struct anonymous_1 * tcrdbmetasearch(struct anonymous_30 **qrys, signed int num, signed int type);
 // tcrdbmgetimpl
 // file tcrdb.c line 1583
-static _Bool tcrdbmgetimpl(struct anonymous$29 *rdb, struct anonymous$25 *recs);
-// tcrdbmgetimpl::1::2::__cancel_routine$object
+static _Bool tcrdbmgetimpl(struct anonymous_29 *rdb, struct anonymous_25 *recs);
+// tcrdbmgetimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbmisc
 // file tcrdb.c line 610
-struct anonymous$1 * tcrdbmisc(struct anonymous$29 *rdb, const char *name, signed int opts, const struct anonymous$1 *args);
-// tcrdbmisc::1::1::__cancel_routine$object
+struct anonymous_1 * tcrdbmisc(struct anonymous_29 *rdb, const char *name, signed int opts, const struct anonymous_1 *args);
+// tcrdbmisc::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbmiscimpl
 // file tcrdb.c line 2387
-static struct anonymous$1 * tcrdbmiscimpl(struct anonymous$29 *rdb, const char *name, signed int opts, const struct anonymous$1 *args);
-// tcrdbmiscimpl::1::2::__cancel_routine$object
+static struct anonymous_1 * tcrdbmiscimpl(struct anonymous_29 *rdb, const char *name, signed int opts, const struct anonymous_1 *args);
+// tcrdbmiscimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbnew
 // file tcrdb.c line 111
-struct anonymous$29 * tcrdbnew(void);
+struct anonymous_29 * tcrdbnew(void);
 // tcrdbopen
 // file tcrdb.c line 159
-_Bool tcrdbopen(struct anonymous$29 *rdb, const char *host, signed int port);
+_Bool tcrdbopen(struct anonymous_29 *rdb, const char *host, signed int port);
 // tcrdbopen2
 // file tcrdb.c line 171
-_Bool tcrdbopen2(struct anonymous$29 *rdb, const char *expr);
-// tcrdbopen::1::1::__cancel_routine$object
+_Bool tcrdbopen2(struct anonymous_29 *rdb, const char *expr);
+// tcrdbopen::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbopenimpl
 // file tcrdb.c line 1181
-static _Bool tcrdbopenimpl(struct anonymous$29 *rdb, const char *host, signed int port);
+static _Bool tcrdbopenimpl(struct anonymous_29 *rdb, const char *host, signed int port);
 // tcrdboptimize
 // file tcrdb.c line 490
-_Bool tcrdboptimize(struct anonymous$29 *rdb, const char *params);
-// tcrdboptimize::1::1::__cancel_routine$object
+_Bool tcrdboptimize(struct anonymous_29 *rdb, const char *params);
+// tcrdboptimize::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdboptimizeimpl
 // file tcrdb.c line 2043
-static _Bool tcrdboptimizeimpl(struct anonymous$29 *rdb, const char *params);
-// tcrdboptimizeimpl::1::2::__cancel_routine$object
+static _Bool tcrdboptimizeimpl(struct anonymous_29 *rdb, const char *params);
+// tcrdboptimizeimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbout
 // file tcrdb.c line 312
-_Bool tcrdbout(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz);
+_Bool tcrdbout(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz);
 // tcrdbout2
 // file tcrdb.c line 324
-_Bool tcrdbout2(struct anonymous$29 *rdb, const char *kstr);
-// tcrdbout::1::1::__cancel_routine$object
+_Bool tcrdbout2(struct anonymous_29 *rdb, const char *kstr);
+// tcrdbout::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdboutimpl
 // file tcrdb.c line 1485
-static _Bool tcrdboutimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz);
-// tcrdboutimpl::1::2::__cancel_routine$object
+static _Bool tcrdboutimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz);
+// tcrdboutimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbparasearch
 // file tcrdb.c line 936
-struct anonymous$1 * tcrdbparasearch(struct anonymous$30 **qrys, signed int num);
-// tcrdbparasearch::1::5::compar$object
+struct anonymous_1 * tcrdbparasearch(struct anonymous_30 **qrys, signed int num);
+// tcrdbparasearch::1::5::compar_object
 //
-signed int compar$object(const struct anonymous$37 *, const struct anonymous$37 *);
+signed int compar_object(const struct anonymous_37 *, const struct anonymous_37 *);
 // tcrdbparasearchworker
 // file tcrdb.c line 2491
-static void * tcrdbparasearchworker(struct anonymous$36 *arg);
+static void * tcrdbparasearchworker(struct anonymous_36 *arg);
 // tcrdbput
 // file tcrdb.c line 217
-_Bool tcrdbput(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+_Bool tcrdbput(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
 // tcrdbput2
 // file tcrdb.c line 229
-_Bool tcrdbput2(struct anonymous$29 *rdb, const char *kstr, const char *vstr);
-// tcrdbput::1::1::__cancel_routine$object
+_Bool tcrdbput2(struct anonymous_29 *rdb, const char *kstr, const char *vstr);
+// tcrdbput::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbputcat
 // file tcrdb.c line 255
-_Bool tcrdbputcat(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+_Bool tcrdbputcat(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
 // tcrdbputcat2
 // file tcrdb.c line 267
-_Bool tcrdbputcat2(struct anonymous$29 *rdb, const char *kstr, const char *vstr);
-// tcrdbputcat::1::1::__cancel_routine$object
+_Bool tcrdbputcat2(struct anonymous_29 *rdb, const char *kstr, const char *vstr);
+// tcrdbputcat::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbputcatimpl
 // file tcrdb.c line 1343
-static _Bool tcrdbputcatimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
-// tcrdbputcatimpl::1::2::__cancel_routine$object
+static _Bool tcrdbputcatimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+// tcrdbputcatimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbputimpl
 // file tcrdb.c line 1245
-static _Bool tcrdbputimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
-// tcrdbputimpl::1::2::__cancel_routine$object
+static _Bool tcrdbputimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+// tcrdbputimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbputkeep
 // file tcrdb.c line 236
-_Bool tcrdbputkeep(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+_Bool tcrdbputkeep(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
 // tcrdbputkeep2
 // file tcrdb.c line 248
-_Bool tcrdbputkeep2(struct anonymous$29 *rdb, const char *kstr, const char *vstr);
-// tcrdbputkeep::1::1::__cancel_routine$object
+_Bool tcrdbputkeep2(struct anonymous_29 *rdb, const char *kstr, const char *vstr);
+// tcrdbputkeep::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbputkeepimpl
 // file tcrdb.c line 1294
-static _Bool tcrdbputkeepimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
-// tcrdbputkeepimpl::1::2::__cancel_routine$object
+static _Bool tcrdbputkeepimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+// tcrdbputkeepimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbputnr
 // file tcrdb.c line 293
-_Bool tcrdbputnr(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+_Bool tcrdbputnr(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
 // tcrdbputnr2
 // file tcrdb.c line 305
-_Bool tcrdbputnr2(struct anonymous$29 *rdb, const char *kstr, const char *vstr);
-// tcrdbputnr::1::1::__cancel_routine$object
+_Bool tcrdbputnr2(struct anonymous_29 *rdb, const char *kstr, const char *vstr);
+// tcrdbputnr::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbputnrimpl
 // file tcrdb.c line 1446
-static _Bool tcrdbputnrimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
-// tcrdbputnrimpl::1::2::__cancel_routine$object
+static _Bool tcrdbputnrimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+// tcrdbputnrimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbputshl
 // file tcrdb.c line 274
-_Bool tcrdbputshl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width);
+_Bool tcrdbputshl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width);
 // tcrdbputshl2
 // file tcrdb.c line 286
-_Bool tcrdbputshl2(struct anonymous$29 *rdb, const char *kstr, const char *vstr, signed int width);
-// tcrdbputshl::1::1::__cancel_routine$object
+_Bool tcrdbputshl2(struct anonymous_29 *rdb, const char *kstr, const char *vstr, signed int width);
+// tcrdbputshl::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbputshlimpl
 // file tcrdb.c line 1393
-static _Bool tcrdbputshlimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width);
-// tcrdbputshlimpl::1::2::__cancel_routine$object
+static _Bool tcrdbputshlimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width);
+// tcrdbputshlimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbqryaddcond
 // file tcrdb.c line 790
-void tcrdbqryaddcond(struct anonymous$30 *qry, const char *name, signed int op, const char *expr);
+void tcrdbqryaddcond(struct anonymous_30 *qry, const char *name, signed int op, const char *expr);
 // tcrdbqrydel
 // file tcrdb.c line 781
-void tcrdbqrydel(struct anonymous$30 *qry);
+void tcrdbqrydel(struct anonymous_30 *qry);
 // tcrdbqryhint
 // file tcrdb.c line 899
-const char * tcrdbqryhint(struct anonymous$30 *qry);
+const char * tcrdbqryhint(struct anonymous_30 *qry);
 // tcrdbqrynew
 // file tcrdb.c line 769
-struct anonymous$30 * tcrdbqrynew(struct anonymous$29 *rdb);
+struct anonymous_30 * tcrdbqrynew(struct anonymous_29 *rdb);
 // tcrdbqrypopmeta
 // file tcrdb.c line 2467
-static void tcrdbqrypopmeta(struct anonymous$30 *qry, struct anonymous$1 *res);
+static void tcrdbqrypopmeta(struct anonymous_30 *qry, struct anonymous_1 *res);
 // tcrdbqryrescols
 // file tcrdb.c line 873
-struct anonymous$25 * tcrdbqryrescols(struct anonymous$1 *res, signed int index);
+struct anonymous_25 * tcrdbqryrescols(struct anonymous_1 *res, signed int index);
 // tcrdbqrysearch
 // file tcrdb.c line 833
-struct anonymous$1 * tcrdbqrysearch(struct anonymous$30 *qry);
+struct anonymous_1 * tcrdbqrysearch(struct anonymous_30 *qry);
 // tcrdbqrysearchcount
 // file tcrdb.c line 883
-signed int tcrdbqrysearchcount(struct anonymous$30 *qry);
+signed int tcrdbqrysearchcount(struct anonymous_30 *qry);
 // tcrdbqrysearchget
 // file tcrdb.c line 859
-struct anonymous$1 * tcrdbqrysearchget(struct anonymous$30 *qry);
+struct anonymous_1 * tcrdbqrysearchget(struct anonymous_30 *qry);
 // tcrdbqrysearchout
 // file tcrdb.c line 844
-_Bool tcrdbqrysearchout(struct anonymous$30 *qry);
+_Bool tcrdbqrysearchout(struct anonymous_30 *qry);
 // tcrdbqrysetlimit
 // file tcrdb.c line 820
-void tcrdbqrysetlimit(struct anonymous$30 *qry, signed int max, signed int skip);
+void tcrdbqrysetlimit(struct anonymous_30 *qry, signed int max, signed int skip);
 // tcrdbqrysetorder
 // file tcrdb.c line 806
-void tcrdbqrysetorder(struct anonymous$30 *qry, const char *name, signed int type);
+void tcrdbqrysetorder(struct anonymous_30 *qry, const char *name, signed int type);
 // tcrdbreconnect
 // file tcrdb.c line 1102
-static _Bool tcrdbreconnect(struct anonymous$29 *rdb);
+static _Bool tcrdbreconnect(struct anonymous_29 *rdb);
 // tcrdbrestore
 // file tcrdb.c line 526
-_Bool tcrdbrestore(struct anonymous$29 *rdb, const char *path, unsigned long int ts, signed int opts);
-// tcrdbrestore::1::1::__cancel_routine$object
+_Bool tcrdbrestore(struct anonymous_29 *rdb, const char *path, unsigned long int ts, signed int opts);
+// tcrdbrestore::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbrestoreimpl
 // file tcrdb.c line 2160
-static _Bool tcrdbrestoreimpl(struct anonymous$29 *rdb, const char *path, unsigned long int ts, signed int opts);
-// tcrdbrestoreimpl::1::2::__cancel_routine$object
+static _Bool tcrdbrestoreimpl(struct anonymous_29 *rdb, const char *path, unsigned long int ts, signed int opts);
+// tcrdbrestoreimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbrnum
 // file tcrdb.c line 574
-unsigned long int tcrdbrnum(struct anonymous$29 *rdb);
-// tcrdbrnum::1::1::__cancel_routine$object
+unsigned long int tcrdbrnum(struct anonymous_29 *rdb);
+// tcrdbrnum::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbrnumimpl
 // file tcrdb.c line 2278
-static unsigned long int tcrdbrnumimpl(struct anonymous$29 *rdb);
+static unsigned long int tcrdbrnumimpl(struct anonymous_29 *rdb);
 // tcrdbsend
 // file tcrdb.c line 1136
-static _Bool tcrdbsend(struct anonymous$29 *rdb, const void *buf, signed int size);
+static _Bool tcrdbsend(struct anonymous_29 *rdb, const void *buf, signed int size);
 // tcrdbsetecode
 // file tcrdb.c line 1066
-void tcrdbsetecode(struct anonymous$29 *rdb, signed int ecode);
+void tcrdbsetecode(struct anonymous_29 *rdb, signed int ecode);
 // tcrdbsetmst
 // file tcrdb.c line 538
-_Bool tcrdbsetmst(struct anonymous$29 *rdb, const char *host, signed int port, unsigned long int ts, signed int opts);
+_Bool tcrdbsetmst(struct anonymous_29 *rdb, const char *host, signed int port, unsigned long int ts, signed int opts);
 // tcrdbsetmst2
 // file tcrdb.c line 550
-_Bool tcrdbsetmst2(struct anonymous$29 *rdb, const char *expr, unsigned long int ts, signed int opts);
-// tcrdbsetmst::1::1::__cancel_routine$object
+_Bool tcrdbsetmst2(struct anonymous_29 *rdb, const char *expr, unsigned long int ts, signed int opts);
+// tcrdbsetmst::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbsetmstimpl
 // file tcrdb.c line 2210
-static _Bool tcrdbsetmstimpl(struct anonymous$29 *rdb, const char *host, signed int port, unsigned long int ts, signed int opts);
-// tcrdbsetmstimpl::1::2::__cancel_routine$object
+static _Bool tcrdbsetmstimpl(struct anonymous_29 *rdb, const char *host, signed int port, unsigned long int ts, signed int opts);
+// tcrdbsetmstimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbsize
 // file tcrdb.c line 586
-unsigned long int tcrdbsize(struct anonymous$29 *rdb);
-// tcrdbsize::1::1::__cancel_routine$object
+unsigned long int tcrdbsize(struct anonymous_29 *rdb);
+// tcrdbsize::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbsizeimpl
 // file tcrdb.c line 2312
-static unsigned long int tcrdbsizeimpl(struct anonymous$29 *rdb);
+static unsigned long int tcrdbsizeimpl(struct anonymous_29 *rdb);
 // tcrdbstat
 // file tcrdb.c line 598
-char * tcrdbstat(struct anonymous$29 *rdb);
-// tcrdbstat::1::1::__cancel_routine$object
+char * tcrdbstat(struct anonymous_29 *rdb);
+// tcrdbstat::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbstatimpl
 // file tcrdb.c line 2346
-static char * tcrdbstatimpl(struct anonymous$29 *rdb);
+static char * tcrdbstatimpl(struct anonymous_29 *rdb);
 // tcrdbsync
 // file tcrdb.c line 478
-_Bool tcrdbsync(struct anonymous$29 *rdb);
-// tcrdbsync::1::1::__cancel_routine$object
+_Bool tcrdbsync(struct anonymous_29 *rdb);
+// tcrdbsync::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbsyncimpl
 // file tcrdb.c line 2013
-static _Bool tcrdbsyncimpl(struct anonymous$29 *rdb);
+static _Bool tcrdbsyncimpl(struct anonymous_29 *rdb);
 // tcrdbtblgenuid
 // file tcrdb.c line 755
-signed long int tcrdbtblgenuid(struct anonymous$29 *rdb);
+signed long int tcrdbtblgenuid(struct anonymous_29 *rdb);
 // tcrdbtblget
 // file tcrdb.c line 713
-struct anonymous$25 * tcrdbtblget(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz);
+struct anonymous_25 * tcrdbtblget(struct anonymous_29 *rdb, const void *pkbuf, signed int pksiz);
 // tcrdbtblout
 // file tcrdb.c line 697
-_Bool tcrdbtblout(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz);
+_Bool tcrdbtblout(struct anonymous_29 *rdb, const void *pkbuf, signed int pksiz);
 // tcrdbtblput
 // file tcrdb.c line 628
-_Bool tcrdbtblput(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous$25 *cols);
+_Bool tcrdbtblput(struct anonymous_29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous_25 *cols);
 // tcrdbtblputcat
 // file tcrdb.c line 675
-_Bool tcrdbtblputcat(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous$25 *cols);
+_Bool tcrdbtblputcat(struct anonymous_29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous_25 *cols);
 // tcrdbtblputkeep
 // file tcrdb.c line 650
-_Bool tcrdbtblputkeep(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous$25 *cols);
+_Bool tcrdbtblputkeep(struct anonymous_29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous_25 *cols);
 // tcrdbtblsetindex
 // file tcrdb.c line 739
-_Bool tcrdbtblsetindex(struct anonymous$29 *rdb, const char *name, signed int type);
+_Bool tcrdbtblsetindex(struct anonymous_29 *rdb, const char *name, signed int type);
 // tcrdbtune
 // file tcrdb.c line 147
-_Bool tcrdbtune(struct anonymous$29 *rdb, double timeout, signed int opts);
-// tcrdbtune::1::1::__cancel_routine$object
+_Bool tcrdbtune(struct anonymous_29 *rdb, double timeout, signed int opts);
+// tcrdbtune::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbtuneimpl
 // file tcrdb.c line 1164
-static _Bool tcrdbtuneimpl(struct anonymous$29 *rdb, double timeout, signed int opts);
+static _Bool tcrdbtuneimpl(struct anonymous_29 *rdb, double timeout, signed int opts);
 // tcrdbunlockmethod
 // file tcrdb.c line 1093
-static void tcrdbunlockmethod(struct anonymous$29 *rdb);
+static void tcrdbunlockmethod(struct anonymous_29 *rdb);
 // tcrdbvanish
 // file tcrdb.c line 502
-_Bool tcrdbvanish(struct anonymous$29 *rdb);
-// tcrdbvanish::1::1::__cancel_routine$object
+_Bool tcrdbvanish(struct anonymous_29 *rdb);
+// tcrdbvanish::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbvanishimpl
 // file tcrdb.c line 2085
-static _Bool tcrdbvanishimpl(struct anonymous$29 *rdb);
+static _Bool tcrdbvanishimpl(struct anonymous_29 *rdb);
 // tcrdbvsiz
 // file tcrdb.c line 363
-signed int tcrdbvsiz(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz);
+signed int tcrdbvsiz(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz);
 // tcrdbvsiz2
 // file tcrdb.c line 375
-signed int tcrdbvsiz2(struct anonymous$29 *rdb, const char *kstr);
-// tcrdbvsiz::1::1::__cancel_routine$object
+signed int tcrdbvsiz2(struct anonymous_29 *rdb, const char *kstr);
+// tcrdbvsiz::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcrdbvsizimpl
 // file tcrdb.c line 1658
-static signed int tcrdbvsizimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz);
-// tcrdbvsizimpl::1::2::__cancel_routine$object
+static signed int tcrdbvsizimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz);
+// tcrdbvsizimpl::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcread
 // file /usr/include/tcutil.h line 2912
 _Bool tcread(signed int, void *, unsigned long int);
 // tcreaddir
 // file /usr/include/tcutil.h line 2880
-struct anonymous$1 * tcreaddir(const char *);
+struct anonymous_1 * tcreaddir(const char *);
 // tcrealloc
 // file /usr/include/tcutil.h line 83
 void * tcrealloc(void *, unsigned long int);
 // tcreplclose
 // file tculog.c line 1111
-_Bool tcreplclose(struct anonymous$18 *repl);
+_Bool tcreplclose(struct anonymous_18 *repl);
 // tcrepldel
 // file tculog.c line 1066
-void tcrepldel(struct anonymous$18 *repl);
+void tcrepldel(struct anonymous_18 *repl);
 // tcreplnew
 // file tculog.c line 1057
-struct anonymous$18 * tcreplnew(void);
+struct anonymous_18 * tcreplnew(void);
 // tcreplopen
 // file tculog.c line 1074
-_Bool tcreplopen(struct anonymous$18 *repl, const char *host, signed int port, unsigned long int ts, unsigned int sid);
+_Bool tcreplopen(struct anonymous_18 *repl, const char *host, signed int port, unsigned long int ts, unsigned int sid);
 // tcreplread
 // file tculog.c line 1125
-const char * tcreplread(struct anonymous$18 *repl, signed int *sp, unsigned long int *tsp, unsigned int *sidp);
+const char * tcreplread(struct anonymous_18 *repl, signed int *sp, unsigned long int *tsp, unsigned int *sidp);
 // tcsleep
 // file /usr/include/tcutil.h line 2770
 _Bool tcsleep(double);
@@ -1287,13 +1287,13 @@ signed int tcstricmp(const char *, const char *);
 _Bool tcstrifwm(const char *, const char *);
 // tcstrsplit
 // file /usr/include/tcutil.h line 2450
-struct anonymous$1 * tcstrsplit(const char *, const char *);
+struct anonymous_1 * tcstrsplit(const char *, const char *);
 // tcstrsplit2
 // file /usr/include/tcutil.h line 2701
-struct anonymous$1 * tcstrsplit2(const void *, signed int);
+struct anonymous_1 * tcstrsplit2(const void *, signed int);
 // tcstrsplit4
 // file /usr/include/tcutil.h line 2721
-struct anonymous$25 * tcstrsplit4(const void *, signed int);
+struct anonymous_25 * tcstrsplit4(const void *, signed int);
 // tcstrsqzspc
 // file /usr/include/tcutil.h line 2400
 char * tcstrsqzspc(char *);
@@ -1308,133 +1308,133 @@ char * tcstrtrim(char *);
 double tctime(void);
 // tculogadbadddouble
 // file tculog.c line 688
-double tculogadbadddouble(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, double num);
+double tculogadbadddouble(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, double num);
 // tculogadbaddint
 // file tculog.c line 656
-signed int tculogadbaddint(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, signed int num);
+signed int tculogadbaddint(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, signed int num);
 // tculogadbmisc
 // file tculog.c line 786
-struct anonymous$1 * tculogadbmisc(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const char *name, const struct anonymous$1 *args);
+struct anonymous_1 * tculogadbmisc(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const char *name, const struct anonymous_1 *args);
 // tculogadboptimize
 // file tculog.c line 738
-_Bool tculogadboptimize(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const char *params);
+_Bool tculogadboptimize(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const char *params);
 // tculogadbout
 // file tculog.c line 626
-_Bool tculogadbout(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz);
+_Bool tculogadbout(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz);
 // tculogadbput
 // file tculog.c line 478
-_Bool tculogadbput(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+_Bool tculogadbput(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
 // tculogadbputcat
 // file tculog.c line 548
-_Bool tculogadbputcat(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+_Bool tculogadbputcat(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
 // tculogadbputkeep
 // file tculog.c line 513
-_Bool tculogadbputkeep(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
+_Bool tculogadbputkeep(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz);
 // tculogadbputshl
 // file tculog.c line 583
-_Bool tculogadbputshl(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width);
+_Bool tculogadbputshl(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width);
 // tculogadbputshlproc
 // file tculog.c line 1191
 static void * tculogadbputshlproc(const void *vbuf, signed int vsiz, signed int *sp, struct anonymous *op);
 // tculogadbredo
 // file tculog.c line 868
-_Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, _Bool *cp);
+_Bool tculogadbredo(struct anonymous_8 *adb, const char *ptr, signed int size, struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, _Bool *cp);
 // tculogadbrestore
 // file tculog.c line 836
-_Bool tculogadbrestore(struct anonymous$8 *adb, const char *path, unsigned long int ts, _Bool con, struct anonymous$0 *ulog);
+_Bool tculogadbrestore(struct anonymous_8 *adb, const char *path, unsigned long int ts, _Bool con, struct anonymous_0 *ulog);
 // tculogadbsync
 // file tculog.c line 719
-_Bool tculogadbsync(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb);
+_Bool tculogadbsync(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb);
 // tculogadbvanish
 // file tculog.c line 767
-_Bool tculogadbvanish(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb);
+_Bool tculogadbvanish(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb);
 // tculogbegin
 // file tculog.c line 168
-_Bool tculogbegin(struct anonymous$0 *ulog, signed int idx);
+_Bool tculogbegin(struct anonymous_0 *ulog, signed int idx);
 // tculogclose
 // file ./tculog.h line 105
-_Bool tculogclose(struct anonymous$0 *ulog);
+_Bool tculogclose(struct anonymous_0 *ulog);
 // tculogdel
 // file ./tculog.h line 84
-void tculogdel(struct anonymous$0 *ulog);
+void tculogdel(struct anonymous_0 *ulog);
 // tculogend
 // file tculog.c line 187
-_Bool tculogend(struct anonymous$0 *ulog, signed int idx);
+_Bool tculogend(struct anonymous_0 *ulog, signed int idx);
 // tculogflushaiocbp
 // file tculog.c line 1164
 static _Bool tculogflushaiocbp(struct aiocb *aiocbp);
 // tculognew
 // file ./tculog.h line 79
-struct anonymous$0 * tculognew(void);
+struct anonymous_0 * tculognew(void);
 // tculogopen
 // file ./tculog.h line 99
-_Bool tculogopen(struct anonymous$0 *ulog, const char *base, unsigned long int limsiz);
+_Bool tculogopen(struct anonymous_0 *ulog, const char *base, unsigned long int limsiz);
 // tculogrmtxidx
 // file tculog.c line 156
-signed int tculogrmtxidx(struct anonymous$0 *ulog, const char *kbuf, signed int ksiz);
+signed int tculogrmtxidx(struct anonymous_0 *ulog, const char *kbuf, signed int ksiz);
 // tculogsetaio
 // file ./tculog.h line 90
-_Bool tculogsetaio(struct anonymous$0 *ulog);
+_Bool tculogsetaio(struct anonymous_0 *ulog);
 // tculogwrite
 // file ./tculog.h line 138
-_Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int sid, unsigned int mid, const void *ptr, signed int size);
-// tculogwrite::1::1::2::2::__cancel_routine$object
+_Bool tculogwrite(struct anonymous_0 *ulog, unsigned long int ts, unsigned int sid, unsigned int mid, const void *ptr, signed int size);
+// tculogwrite::1::1::2::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// tculogwrite::1::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// tculogwrite::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tculrddel
 // file ./tculog.h line 151
-void tculrddel(struct anonymous$6 *ulrd);
+void tculrddel(struct anonymous_6 *ulrd);
 // tculrdnew
 // file ./tculog.h line 146
-struct anonymous$6 * tculrdnew(struct anonymous$0 *ulog, unsigned long int ts);
+struct anonymous_6 * tculrdnew(struct anonymous_0 *ulog, unsigned long int ts);
 // tculrdread
 // file ./tculog.h line 171
-const void * tculrdread(struct anonymous$6 *ulrd, signed int *sp, unsigned long int *tsp, unsigned int *sidp, unsigned int *midp);
+const void * tculrdread(struct anonymous_6 *ulrd, signed int *sp, unsigned long int *tsp, unsigned int *sidp, unsigned int *midp);
 // tculrdwait
 // file tculog.c line 372
-void tculrdwait(struct anonymous$6 *ulrd);
-// tculrdwait::1::1::__cancel_routine$object
+void tculrdwait(struct anonymous_6 *ulrd);
+// tculrdwait::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // tcurlbreak
 // file /usr/include/tcutil.h line 2975
-struct anonymous$25 * tcurlbreak(const char *);
+struct anonymous_25 * tcurlbreak(const char *);
 // tcwrite
 // file /usr/include/tcutil.h line 2904
 _Bool tcwrite(signed int, const void *, unsigned long int);
 // tcxstrcat
 // file /usr/include/tcutil.h line 204
-void tcxstrcat(struct anonymous$27 *, const void *, signed int);
+void tcxstrcat(struct anonymous_27 *, const void *, signed int);
 // tcxstrcat2
 // file /usr/include/tcutil.h line 210
-void tcxstrcat2(struct anonymous$27 *, const char *);
+void tcxstrcat2(struct anonymous_27 *, const char *);
 // tcxstrclear
 // file /usr/include/tcutil.h line 230
-void tcxstrclear(struct anonymous$27 *);
+void tcxstrclear(struct anonymous_27 *);
 // tcxstrdel
 // file /usr/include/tcutil.h line 197
-void tcxstrdel(struct anonymous$27 *);
+void tcxstrdel(struct anonymous_27 *);
 // tcxstrnew
 // file /usr/include/tcutil.h line 173
-struct anonymous$27 * tcxstrnew(void);
+struct anonymous_27 * tcxstrnew(void);
 // tcxstrnew3
 // file /usr/include/tcutil.h line 185
-struct anonymous$27 * tcxstrnew3(signed int);
+struct anonymous_27 * tcxstrnew3(signed int);
 // tcxstrprintf
 // file /usr/include/tcutil.h line 241
-void tcxstrprintf(struct anonymous$27 *, const char *, ...);
+void tcxstrprintf(struct anonymous_27 *, const char *, ...);
 // tcxstrptr
 // file /usr/include/tcutil.h line 218
-const void * tcxstrptr(const struct anonymous$27 *);
+const void * tcxstrptr(const struct anonymous_27 *);
 // tcxstrsize
 // file /usr/include/tcutil.h line 224
-signed int tcxstrsize(const struct anonymous$27 *);
+signed int tcxstrsize(const struct anonymous_27 *);
 // tcxstrtomalloc
 // file /usr/include/tcutil.h line 271
-void * tcxstrtomalloc(struct anonymous$27 *);
+void * tcxstrtomalloc(struct anonymous_27 *);
 // threadread
 // file ttultest.c line 282
 static void * threadread(void *targ);
@@ -1467,31 +1467,31 @@ double ttgetloadavg(void);
 _Bool ttgetlocalhostname(char *name);
 // tthttpfetch
 // file ttutil.c line 617
-signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct anonymous$25 *resheads, struct anonymous$27 *resbody);
-// tthttpfetch::1::1::2::1::1::1::2::1::2::1::2::7::2::2::2::1::1::__cancel_routine$object
+signed int tthttpfetch(const char *url, struct anonymous_25 *reqheads, struct anonymous_25 *resheads, struct anonymous_27 *resbody);
+// tthttpfetch::1::1::2::1::1::1::2::1::2::1::2::7::2::2::2::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// tthttpfetch::1::1::2::1::1::1::2::1::2::1::2::7::2::2::2::1::4::__cancel_routine$object
+void __cancel_routine_object(void *);
+// tthttpfetch::1::1::2::1::1::1::2::1::2::1::2::7::2::2::2::1::4::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// tthttpfetch::1::1::2::1::1::1::2::1::2::1::2::7::2::2::3::2::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// tthttpfetch::1::1::2::1::1::1::2::1::2::1::2::7::2::2::3::2::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// tthttpfetch::1::1::2::1::1::1::2::1::2::1::2::7::2::2::4::1::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// tthttpfetch::1::1::2::1::1::1::2::1::2::1::2::7::2::2::4::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// tthttpfetch::1::1::2::1::1::1::2::1::2::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// tthttpfetch::1::1::2::1::1::1::2::1::2::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// tthttpfetch::1::1::2::1::1::1::2::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// tthttpfetch::1::1::2::1::1::1::2::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// tthttpfetch::1::1::2::1::1::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// tthttpfetch::1::1::2::1::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// tthttpfetch::1::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// tthttpfetch::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // ttopenservsock
 // file ttutil.c line 159
 signed int ttopenservsock(const char *addr, signed int port);
@@ -1510,9 +1510,9 @@ void ttpackdouble(double num, char *buf);
 // ttservaddtimedhandler
 // file ttutil.c line 935
 void ttservaddtimedhandler(struct _TTSERV *serv, double freq, void (*do_timed)(void *), void *opq);
-// ttservaddtimedhandler::do_timed$object
+// ttservaddtimedhandler::do_timed_object
 //
-void do_timed$object(void *);
+void do_timed_object(void *);
 // ttservconf
 // file ttutil.c line 896
 _Bool ttservconf(struct _TTSERV *serv, const char *host, signed int port);
@@ -1522,12 +1522,12 @@ void ttservdel(struct _TTSERV *serv);
 // ttservdeqtasks
 // file ttutil.c line 1308
 static void * ttservdeqtasks(void *argp);
-// ttservdeqtasks::1::3::1::3::2::1::2::1::__cancel_routine$object
+// ttservdeqtasks::1::3::1::3::2::1::2::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// ttservdeqtasks::1::3::1::3::2::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// ttservdeqtasks::1::3::1::3::2::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // ttserviskilled
 // file ttutil.c line 1215
 _Bool ttserviskilled(struct _TTSERV *serv);
@@ -1543,27 +1543,27 @@ struct _TTSERV * ttservnew(void);
 // ttservsetloghandler
 // file ttutil.c line 927
 void ttservsetloghandler(struct _TTSERV *serv, void (*do_log)(signed int, const char *, void *), void *opq);
-// ttservsetloghandler::do_log$object
+// ttservsetloghandler::do_log_object
 //
-void do_log$object(signed int, const char *, void *);
+void do_log_object(signed int, const char *, void *);
 // ttservsettaskhandler
 // file ttutil.c line 947
-void ttservsettaskhandler(struct _TTSERV *serv, void (*do_task)(struct anonymous$17 *, void *, struct _TTREQ *), void *opq);
-// ttservsettaskhandler::do_task$object
+void ttservsettaskhandler(struct _TTSERV *serv, void (*do_task)(struct anonymous_17 *, void *, struct _TTREQ *), void *opq);
+// ttservsettaskhandler::do_task_object
 //
-void do_task$object(struct anonymous$17 *, void *, struct _TTREQ *);
+void do_task_object(struct anonymous_17 *, void *, struct _TTREQ *);
 // ttservsettermhandler
 // file ttutil.c line 955
 void ttservsettermhandler(struct _TTSERV *serv, void (*do_term)(void *), void *opq);
-// ttservsettermhandler::do_term$object
+// ttservsettermhandler::do_term_object
 //
-void do_term$object(void *);
+void do_term_object(void *);
 // ttservstart
 // file ttutil.c line 963
 _Bool ttservstart(struct _TTSERV *serv);
 // ttservtask
 // file ttutil.c line 1298
-static void ttservtask(struct anonymous$17 *sock, struct _TTREQ *req);
+static void ttservtask(struct anonymous_17 *sock, struct _TTREQ *req);
 // ttservtimer
 // file ttutil.c line 1247
 static void * ttservtimer(void *argp);
@@ -1572,52 +1572,52 @@ static void * ttservtimer(void *argp);
 void ttservtune(struct _TTSERV *serv, signed int thnum, double timeout);
 // ttsockcheckend
 // file ttutil.c line 602
-_Bool ttsockcheckend(struct anonymous$17 *sock);
+_Bool ttsockcheckend(struct anonymous_17 *sock);
 // ttsockcheckpfsiz
 // file ttutil.c line 609
-signed int ttsockcheckpfsiz(struct anonymous$17 *sock);
+signed int ttsockcheckpfsiz(struct anonymous_17 *sock);
 // ttsockdel
 // file ttutil.c line 313
-void ttsockdel(struct anonymous$17 *sock);
+void ttsockdel(struct anonymous_17 *sock);
 // ttsockgetc
 // file ttutil.c line 494
-signed int ttsockgetc(struct anonymous$17 *sock);
+signed int ttsockgetc(struct anonymous_17 *sock);
 // ttsockgetint32
 // file ttutil.c line 584
-unsigned int ttsockgetint32(struct anonymous$17 *sock);
+unsigned int ttsockgetint32(struct anonymous_17 *sock);
 // ttsockgetint64
 // file ttutil.c line 593
-unsigned long int ttsockgetint64(struct anonymous$17 *sock);
+unsigned long int ttsockgetint64(struct anonymous_17 *sock);
 // ttsockgets
 // file ttutil.c line 532
-_Bool ttsockgets(struct anonymous$17 *sock, char *buf, signed int size);
+_Bool ttsockgets(struct anonymous_17 *sock, char *buf, signed int size);
 // ttsockgets2
 // file ttutil.c line 555
-char * ttsockgets2(struct anonymous$17 *sock);
-// ttsockgets2::1::1::__cancel_routine$object
+char * ttsockgets2(struct anonymous_17 *sock);
+// ttsockgets2::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // ttsocknew
 // file ttutil.c line 299
-struct anonymous$17 * ttsocknew(signed int fd);
+struct anonymous_17 * ttsocknew(signed int fd);
 // ttsockprintf
 // file ttutil.c line 365
-_Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...);
-// ttsockprintf::1::1::__cancel_routine$object
+_Bool ttsockprintf(struct anonymous_17 *sock, const char *format, ...);
+// ttsockprintf::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // ttsockrecv
 // file ttutil.c line 471
-_Bool ttsockrecv(struct anonymous$17 *sock, char *buf, signed int size);
+_Bool ttsockrecv(struct anonymous_17 *sock, char *buf, signed int size);
 // ttsocksend
 // file ttutil.c line 328
-_Bool ttsocksend(struct anonymous$17 *sock, const void *buf, signed int size);
+_Bool ttsocksend(struct anonymous_17 *sock, const void *buf, signed int size);
 // ttsocksetlife
 // file ttutil.c line 320
-void ttsocksetlife(struct anonymous$17 *sock, double lifetime);
+void ttsocksetlife(struct anonymous_17 *sock, double lifetime);
 // ttsockungetc
 // file ttutil.c line 523
-void ttsockungetc(struct anonymous$17 *sock, signed int c);
+void ttsockungetc(struct anonymous_17 *sock, signed int c);
 // ttstrtots
 // file ./ttutil.h line 479
 unsigned long int ttstrtots(const char *str);
@@ -1646,7 +1646,7 @@ static inline signed int vprintf(const char * restrict __fmt, void **__arg);
 // file /usr/include/stdio.h line 390
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 
-struct anonymous$25
+struct anonymous_25
 {
   // buckets
   struct _TCMAPREC **buckets;
@@ -1664,19 +1664,19 @@ struct anonymous$25
   unsigned long int msiz;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // mmtxs
   void **mmtxs;
   // imtx
   void *imtx;
   // maps
-  struct anonymous$25 **maps;
+  struct anonymous_25 **maps;
   // iter
   signed int iter;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // name
   char *name;
@@ -1688,7 +1688,7 @@ struct anonymous$28
   void *cc;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // ptr
   char *ptr;
@@ -1698,7 +1698,7 @@ struct anonymous$27
   signed int asize;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // ptr
   char *ptr;
@@ -1706,10 +1706,10 @@ struct anonymous$34
   signed int size;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // array
-  struct anonymous$34 *array;
+  struct anonymous_34 *array;
   // anum
   signed int anum;
   // start
@@ -1718,20 +1718,20 @@ struct anonymous$1
   signed int num;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // ulrd
-  struct anonymous$6 *ulrd;
+  struct anonymous_6 *ulrd;
   // id
   signed int id;
   // rnum
   signed int rnum;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // bdb
-  struct anonymous$12 *bdb;
+  struct anonymous_12 *bdb;
   // clock
   unsigned long int clock;
   // id
@@ -1742,10 +1742,10 @@ struct anonymous$15
   signed int vidx;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // ulog
-  struct anonymous$0 *ulog;
+  struct anonymous_0 *ulog;
   // ts
   unsigned long int ts;
   // num
@@ -1758,17 +1758,17 @@ struct anonymous$6
   signed int rsiz;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // rdb
-  struct anonymous$29 *rdb;
+  struct anonymous_29 *rdb;
   // args
-  struct anonymous$1 *args;
+  struct anonymous_1 *args;
   // hint
-  struct anonymous$27 *hint;
+  struct anonymous_27 *hint;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // root
   struct _TCTREEREC *root;
@@ -1784,7 +1784,7 @@ struct anonymous$22
   void *cmpop;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // _function
   void (*_function)(union sigval);
@@ -1792,20 +1792,20 @@ struct anonymous$20
   union pthread_attr_t *_attribute;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // mmtx
   void *mmtx;
   // tree
-  struct anonymous$22 *tree;
+  struct anonymous_22 *tree;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // mmtx
   void *mmtx;
   // hdb
-  struct anonymous$11 *hdb;
+  struct anonymous_11 *hdb;
   // open
   _Bool open;
   // wmode
@@ -1821,14 +1821,14 @@ struct anonymous$14
   // iccsync
   double iccsync;
   // idxs
-  struct anonymous$28 *idxs;
+  struct anonymous_28 *idxs;
   // inum
   signed int inum;
   // tran
   _Bool tran;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // mmtx
   void *mmtx;
@@ -1902,14 +1902,14 @@ struct anonymous$13
   signed long int cnt_truncfile;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // mmtx
   void *mmtx;
   // cmtx
   void *cmtx;
   // hdb
-  struct anonymous$11 *hdb;
+  struct anonymous_11 *hdb;
   // opaque
   char *opaque;
   // open
@@ -1935,9 +1935,9 @@ struct anonymous$12
   // rnum
   unsigned long int rnum;
   // leafc
-  struct anonymous$25 *leafc;
+  struct anonymous_25 *leafc;
   // nodec
-  struct anonymous$25 *nodec;
+  struct anonymous_25 *nodec;
   // cmp
   signed int (*cmp)(const char *, signed int, const char *, signed int, void *);
   // cmpop
@@ -1982,7 +1982,7 @@ struct anonymous$12
   volatile signed long int cnt_adjnodec;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // mmtx
   void *mmtx;
@@ -2053,13 +2053,13 @@ struct anonymous$11
   // async
   _Bool async;
   // drpool
-  struct anonymous$27 *drpool;
+  struct anonymous_27 *drpool;
   // drpdef
-  struct anonymous$27 *drpdef;
+  struct anonymous_27 *drpdef;
   // drpoff
   unsigned long int drpoff;
   // recc
-  struct anonymous$9 *recc;
+  struct anonymous_9 *recc;
   // rcnum
   unsigned int rcnum;
   // enc
@@ -2126,7 +2126,7 @@ struct anonymous$11
   volatile signed long int cnt_trunc;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // cbuf
   const char *cbuf;
@@ -2148,19 +2148,19 @@ struct anonymous
   signed int width;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -2168,10 +2168,10 @@ struct anonymous$5
   signed int __mask_was_saved;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // __cancel_jmp_buf
-  struct anonymous$5 __cancel_jmp_buf[1l];
+  struct anonymous_5 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
@@ -2204,7 +2204,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2214,7 +2214,7 @@ union anonymous$7
   signed long int __align;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // __lock
   signed int __lock;
@@ -2242,17 +2242,17 @@ struct anonymous$23
   unsigned int __flags;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$23 __data;
+  struct anonymous_23 __data;
   // __size
   char __size[56l];
   // __align
   signed long int __align;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // __lock
   signed int __lock;
@@ -2272,26 +2272,26 @@ struct anonymous$24
   unsigned int __broadcast_seq;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __data
-  struct anonymous$24 __data;
+  struct anonymous_24 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // rmtxs
-  union anonymous$7 rmtxs[31l];
+  union anonymous_7 rmtxs[31l];
   // rwlck
-  union anonymous$3 rwlck;
+  union anonymous_3 rwlck;
   // cnd
-  union anonymous$16 cnd;
+  union anonymous_16 cnd;
   // wmtx
-  union anonymous$7 wmtx;
+  union anonymous_7 wmtx;
   // base
   char *base;
   // limsiz
@@ -2310,7 +2310,7 @@ struct anonymous$0
   unsigned long int aioend;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // fd
   signed int fd;
@@ -2328,12 +2328,12 @@ struct anonymous$17
   double dl;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // fd
   signed int fd;
   // sock
-  struct anonymous$17 *sock;
+  struct anonymous_17 *sock;
   // rbuf
   char *rbuf;
   // rsiz
@@ -2342,22 +2342,22 @@ struct anonymous$18
   unsigned short int mid;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // omode
   signed int omode;
   // mdb
-  struct anonymous$9 *mdb;
+  struct anonymous_9 *mdb;
   // ndb
-  struct anonymous$10 *ndb;
+  struct anonymous_10 *ndb;
   // hdb
-  struct anonymous$11 *hdb;
+  struct anonymous_11 *hdb;
   // bdb
-  struct anonymous$12 *bdb;
+  struct anonymous_12 *bdb;
   // fdb
-  struct anonymous$13 *fdb;
+  struct anonymous_13 *fdb;
   // tdb
-  struct anonymous$14 *tdb;
+  struct anonymous_14 *tdb;
   // capnum
   signed long int capnum;
   // capsiz
@@ -2365,15 +2365,15 @@ struct anonymous$8
   // capcnt
   unsigned int capcnt;
   // cur
-  struct anonymous$15 *cur;
+  struct anonymous_15 *cur;
   // skel
   void *skel;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // mmtx
-  union anonymous$7 mmtx;
+  union anonymous_7 mmtx;
   // eckey
   unsigned int eckey;
   // host
@@ -2385,38 +2385,38 @@ struct anonymous$29
   // fd
   signed int fd;
   // sock
-  struct anonymous$17 *sock;
+  struct anonymous_17 *sock;
   // timeout
   double timeout;
   // opts
   signed int opts;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // tid
   unsigned long int tid;
   // qry
-  struct anonymous$30 *qry;
+  struct anonymous_30 *qry;
   // res
-  struct anonymous$1 *res;
+  struct anonymous_1 *res;
   // max
   signed int max;
   // skip
   signed int skip;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // _pad
   signed int _pad[12l];
   // _tid
   signed int _tid;
   // _sigev_thread
-  struct anonymous$20 _sigev_thread;
+  struct anonymous_20 _sigev_thread;
 };
 
-union anonymous$32
+union anonymous_32
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2426,7 +2426,7 @@ union anonymous$32
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$33
+union anonymous_33
 {
   // __size
   char __size[4l];
@@ -2434,7 +2434,7 @@ union anonymous$33
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __size
   char __size[8l];
@@ -2442,7 +2442,7 @@ union anonymous$2
   signed long int __align;
 };
 
-union anonymous$35
+union anonymous_35
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2472,7 +2472,7 @@ union anonymous$35
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2645,15 +2645,15 @@ struct _TTSERV
   // port
   unsigned short int port;
   // queue
-  struct anonymous$1 *queue;
+  struct anonymous_1 *queue;
   // qmtx
-  union anonymous$7 qmtx;
+  union anonymous_7 qmtx;
   // qcnd
-  union anonymous$16 qcnd;
+  union anonymous_16 qcnd;
   // tmtx
-  union anonymous$7 tmtx;
+  union anonymous_7 tmtx;
   // tcnd
-  union anonymous$16 tcnd;
+  union anonymous_16 tcnd;
   // thnum
   signed int thnum;
   // timeout
@@ -2669,7 +2669,7 @@ struct _TTSERV
   // timernum
   signed int timernum;
   // do_task
-  void (*do_task)(struct anonymous$17 *, void *, struct _TTREQ *);
+  void (*do_task)(struct anonymous_17 *, void *, struct _TTREQ *);
   // opq_task
   void *opq_task;
   // do_term
@@ -2685,7 +2685,7 @@ struct __jmp_buf_tag
   // __mask_was_saved
   signed int __mask_was_saved;
   // __saved_mask
-  struct anonymous$31 __saved_mask;
+  struct anonymous_31 __saved_mask;
 };
 
 struct addrinfo
@@ -2725,7 +2725,7 @@ struct sigevent
   // sigev_notify
   signed int sigev_notify;
   // _sigev_un
-  union anonymous$21 _sigev_un;
+  union anonymous_21 _sigev_un;
 };
 
 struct aiocb
@@ -2783,7 +2783,7 @@ struct epoll_event
 struct in6_addr
 {
   // __in6_u
-  union anonymous$32 __in6_u;
+  union anonymous_32 __in6_u;
 };
 
 struct in_addr
@@ -2930,7 +2930,7 @@ signed int _tt_dummyfuncv(signed int a, ...)
 
 // eprint
 // file ttultest.c line 89
-static void eprint(struct anonymous$0 *ulog, const char *func)
+static void eprint(struct anonymous_0 *ulog, const char *func)
 {
   fprintf(stderr, "%s: %s: error:\n", g_progname, func);
 }
@@ -2939,9 +2939,9 @@ static void eprint(struct anonymous$0 *ulog, const char *func)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf)
 {
-  signed int return_value___fxstat$1;
-  return_value___fxstat$1=__fxstat(1, __fd, __statbuf);
-  return return_value___fxstat$1;
+  signed int return_value___fxstat_1;
+  return_value___fxstat_1=__fxstat(1, __fd, __statbuf);
+  return return_value___fxstat_1;
 }
 
 // iprintf
@@ -2959,42 +2959,42 @@ static void iprintf(const char *format, ...)
 signed int main(signed int argc, char **argv)
 {
   g_progname = argv[(signed long int)0];
-  double return_value_tctime$1;
-  return_value_tctime$1=tctime();
-  srand((unsigned int)(return_value_tctime$1 * (double)1000) % ((unsigned int)0x7fffffff * 2U + 1U));
+  double return_value_tctime_1;
+  return_value_tctime_1=tctime();
+  srand((unsigned int)(return_value_tctime_1 * (double)1000) % ((unsigned int)0x7fffffff * 2U + 1U));
   if(!(argc >= 2))
     usage();
 
   signed int rv = 0;
-  signed int tmp_statement_expression$6;
+  signed int tmp_statement_expression_6;
   unsigned long int __s1_len;
-  unsigned long int main$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$7;
-  return_value___builtin_strcmp$7=__builtin_strcmp(argv[(signed long int)1], "write");
-  tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-  signed int tmp_statement_expression$4;
-  signed int tmp_statement_expression$2;
-  if(tmp_statement_expression$6 == 0)
+  unsigned long int main__1__1____s2_len;
+  signed int return_value___builtin_strcmp_7;
+  return_value___builtin_strcmp_7=__builtin_strcmp(argv[(signed long int)1], "write");
+  tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+  signed int tmp_statement_expression_4;
+  signed int tmp_statement_expression_2;
+  if(tmp_statement_expression_6 == 0)
     rv=runwrite(argc, argv);
 
   else
   {
-    unsigned long int main$$1$$3$$__s1_len;
-    unsigned long int main$$1$$3$$__s2_len;
-    signed int return_value___builtin_strcmp$5;
-    return_value___builtin_strcmp$5=__builtin_strcmp(argv[(signed long int)1], "read");
-    tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-    if(tmp_statement_expression$4 == 0)
+    unsigned long int main__1__3____s1_len;
+    unsigned long int main__1__3____s2_len;
+    signed int return_value___builtin_strcmp_5;
+    return_value___builtin_strcmp_5=__builtin_strcmp(argv[(signed long int)1], "read");
+    tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+    if(tmp_statement_expression_4 == 0)
       rv=runread(argc, argv);
 
     else
     {
-      unsigned long int main$$1$$5$$__s1_len;
+      unsigned long int main__1__5____s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$3;
-      return_value___builtin_strcmp$3=__builtin_strcmp(argv[(signed long int)1], "thread");
-      tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-      if(tmp_statement_expression$2 == 0)
+      signed int return_value___builtin_strcmp_3;
+      return_value___builtin_strcmp_3=__builtin_strcmp(argv[(signed long int)1], "thread");
+      tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+      if(tmp_statement_expression_2 == 0)
         rv=runthread(argc, argv);
 
       else
@@ -3014,20 +3014,20 @@ static signed int procread(const char *base, unsigned long int ts, _Bool pm)
   _Bool err = (_Bool)0;
   double stime;
   stime=tctime();
-  struct anonymous$0 *ulog;
+  struct anonymous_0 *ulog;
   ulog=tculognew();
-  _Bool return_value_tculogopen$1;
-  return_value_tculogopen$1=tculogopen(ulog, base, (unsigned long int)0);
-  if(return_value_tculogopen$1 == (_Bool)0)
+  _Bool return_value_tculogopen_1;
+  return_value_tculogopen_1=tculogopen(ulog, base, (unsigned long int)0);
+  if(return_value_tculogopen_1 == (_Bool)0)
   {
     eprint(ulog, "tculogopen");
     err = (_Bool)1;
   }
 
-  struct anonymous$6 *ulrd;
+  struct anonymous_6 *ulrd;
   ulrd=tculrdnew(ulog, ts);
-  const void *return_value_tculrdread$2;
-  if(!(ulrd == ((struct anonymous$6 *)NULL)))
+  const void *return_value_tculrdread_2;
+  if(!(ulrd == ((struct anonymous_6 *)NULL)))
   {
     const char *rbuf;
     signed int rsiz;
@@ -3037,21 +3037,21 @@ static signed int procread(const char *base, unsigned long int ts, _Bool pm)
     signed int i = 1;
     do
     {
-      return_value_tculrdread$2=tculrdread(ulrd, &rsiz, &rts, &rsid, &rmid);
-      rbuf = (const char *)return_value_tculrdread$2;
+      return_value_tculrdread_2=tculrdread(ulrd, &rsiz, &rts, &rsid, &rmid);
+      rbuf = (const char *)return_value_tculrdread_2;
       if(rbuf == ((const char *)NULL))
         break;
 
       if(!(pm == (_Bool)0))
       {
         printf("%llu\t%u:%u\t", (unsigned long long int)rts, (unsigned int)rsid, (unsigned int)rmid);
-        signed int procread$$1$$2$$1$$1$$1$$i = 0;
-        for( ; !(procread$$1$$2$$1$$1$$1$$i >= rsiz); procread$$1$$2$$1$$1$$1$$i = procread$$1$$2$$1$$1$$1$$i + 1)
+        signed int procread__1__2__1__1__1__i = 0;
+        for( ; !(procread__1__2__1__1__1__i >= rsiz); procread__1__2__1__1__1__i = procread__1__2__1__1__1__i + 1)
         {
-          if(procread$$1$$2$$1$$1$$1$$i >= 1)
+          if(procread__1__2__1__1__1__i >= 1)
             putchar(32);
 
-          printf("%02X", ((unsigned char *)rbuf)[(signed long int)procread$$1$$2$$1$$1$$1$$i]);
+          printf("%02X", ((unsigned char *)rbuf)[(signed long int)procread__1__2__1__1__1__i]);
         }
         putchar(10);
       }
@@ -3075,9 +3075,9 @@ static signed int procread(const char *base, unsigned long int ts, _Bool pm)
     tculrddel(ulrd);
   }
 
-  _Bool return_value_tculogclose$3;
-  return_value_tculogclose$3=tculogclose(ulog);
-  if(return_value_tculogclose$3 == (_Bool)0)
+  _Bool return_value_tculogclose_3;
+  return_value_tculogclose_3=tculogclose(ulog);
+  if(return_value_tculogclose_3 == (_Bool)0)
   {
     eprint(ulog, "tculogclose");
     err = (_Bool)1;
@@ -3086,9 +3086,9 @@ static signed int procread(const char *base, unsigned long int ts, _Bool pm)
   tculogdel(ulog);
   if(pm == (_Bool)0)
   {
-    double return_value_tctime$4;
-    return_value_tctime$4=tctime();
-    iprintf("time: %.3f\n", return_value_tctime$4 - stime);
+    double return_value_tctime_4;
+    return_value_tctime_4=tctime();
+    iprintf("time: %.3f\n", return_value_tctime_4 - stime);
     iprintf("%s\n\n", err != (_Bool)0 ? "error" : "ok");
   }
 
@@ -3103,13 +3103,13 @@ static signed int procthread(const char *base, signed int tnum, signed int rnum,
   _Bool err = (_Bool)0;
   double stime;
   stime=tctime();
-  struct anonymous$0 *ulog;
+  struct anonymous_0 *ulog;
   ulog=tculognew();
-  _Bool return_value_tculogsetaio$1;
+  _Bool return_value_tculogsetaio_1;
   if(!(as == (_Bool)0))
   {
-    return_value_tculogsetaio$1=tculogsetaio(ulog);
-    if(return_value_tculogsetaio$1 == (_Bool)0)
+    return_value_tculogsetaio_1=tculogsetaio(ulog);
+    if(return_value_tculogsetaio_1 == (_Bool)0)
     {
       eprint(ulog, "tculogsetaio");
       err = (_Bool)1;
@@ -3117,64 +3117,64 @@ static signed int procthread(const char *base, signed int tnum, signed int rnum,
 
   }
 
-  _Bool return_value_tculogopen$2;
-  return_value_tculogopen$2=tculogopen(ulog, base, (unsigned long int)limsiz);
-  if(return_value_tculogopen$2 == (_Bool)0)
+  _Bool return_value_tculogopen_2;
+  return_value_tculogopen_2=tculogopen(ulog, base, (unsigned long int)limsiz);
+  if(return_value_tculogopen_2 == (_Bool)0)
   {
     eprint(ulog, "tculogopen");
     err = (_Bool)1;
   }
 
-  const signed long int ulog$array_size0 = (signed long int)tnum;
-  struct anonymous$26 targs[ulog$array_size0];
-  const signed long int targs$array_size0 = (signed long int)tnum;
-  unsigned long int threads[targs$array_size0];
-  signed int procthread$$1$$3$$i = 0;
-  signed int return_value_pthread_create$3;
-  for( ; !(procthread$$1$$3$$i >= tnum); procthread$$1$$3$$i = procthread$$1$$3$$i + 1)
+  const signed long int ulog_array_size0 = (signed long int)tnum;
+  struct anonymous_26 targs[ulog_array_size0];
+  const signed long int targs_array_size0 = (signed long int)tnum;
+  unsigned long int threads[targs_array_size0];
+  signed int procthread__1__3__i = 0;
+  signed int return_value_pthread_create_3;
+  for( ; !(procthread__1__3__i >= tnum); procthread__1__3__i = procthread__1__3__i + 1)
   {
-    targs[(signed long int)procthread$$1$$3$$i].ulrd=tculrdnew(ulog, (unsigned long int)0);
-    targs[(signed long int)procthread$$1$$3$$i].id = procthread$$1$$3$$i;
-    targs[(signed long int)procthread$$1$$3$$i].rnum = rnum;
-    if(targs[(signed long int)procthread$$1$$3$$i].ulrd == ((struct anonymous$6 *)NULL))
+    targs[(signed long int)procthread__1__3__i].ulrd=tculrdnew(ulog, (unsigned long int)0);
+    targs[(signed long int)procthread__1__3__i].id = procthread__1__3__i;
+    targs[(signed long int)procthread__1__3__i].rnum = rnum;
+    if(targs[(signed long int)procthread__1__3__i].ulrd == ((struct anonymous_6 *)NULL))
     {
       eprint(ulog, "tculrdnew");
-      targs[(signed long int)procthread$$1$$3$$i].id = -1;
+      targs[(signed long int)procthread__1__3__i].id = -1;
       err = (_Bool)1;
     }
 
     else
     {
-      return_value_pthread_create$3=pthread_create(threads + (signed long int)procthread$$1$$3$$i, (const union pthread_attr_t *)(void *)0, threadread, (void *)(targs + (signed long int)procthread$$1$$3$$i));
-      if(!(return_value_pthread_create$3 == 0))
+      return_value_pthread_create_3=pthread_create(threads + (signed long int)procthread__1__3__i, (const union pthread_attr_t *)(void *)0, threadread, (void *)(targs + (signed long int)procthread__1__3__i));
+      if(!(return_value_pthread_create_3 == 0))
       {
         eprint(ulog, "pthread_create");
-        targs[(signed long int)procthread$$1$$3$$i].id = -1;
+        targs[(signed long int)procthread__1__3__i].id = -1;
         err = (_Bool)1;
       }
 
     }
   }
   signed int sid;
-  signed int return_value_getpid$4;
-  return_value_getpid$4=getpid();
-  sid = return_value_getpid$4 & 65535;
-  signed int procthread$$1$$4$$i = 1;
-  for( ; rnum >= procthread$$1$$4$$i; procthread$$1$$4$$i = procthread$$1$$4$$i + 1)
+  signed int return_value_getpid_4;
+  return_value_getpid_4=getpid();
+  sid = return_value_getpid_4 & 65535;
+  signed int procthread__1__4__i = 1;
+  for( ; rnum >= procthread__1__4__i; procthread__1__4__i = procthread__1__4__i + 1)
   {
     char buf[32l];
     signed int len;
-    len=sprintf(buf, "%08d", procthread$$1$$4$$i);
-    _Bool return_value_tculogwrite$5;
-    return_value_tculogwrite$5=tculogwrite(ulog, (unsigned long int)0, (unsigned int)sid, (unsigned int)sid, (const void *)buf, len);
-    if(return_value_tculogwrite$5 == (_Bool)0)
+    len=sprintf(buf, "%08d", procthread__1__4__i);
+    _Bool return_value_tculogwrite_5;
+    return_value_tculogwrite_5=tculogwrite(ulog, (unsigned long int)0, (unsigned int)sid, (unsigned int)sid, (const void *)buf, len);
+    if(return_value_tculogwrite_5 == (_Bool)0)
     {
       eprint(ulog, "tculogwrite");
       err = (_Bool)1;
       break;
     }
 
-    if(procthread$$1$$4$$i % (rnum / 10) == 0 && rnum >= 251)
+    if(procthread__1__4__i % (rnum / 10) == 0 && rnum >= 251)
       tcsleep(0.1);
 
   }
@@ -3183,9 +3183,9 @@ static signed int procthread(const char *base, signed int tnum, signed int rnum,
     if(!(targs[(signed long int)i].id == -1))
     {
       void *rv;
-      signed int return_value_pthread_join$6;
-      return_value_pthread_join$6=pthread_join(threads[(signed long int)i], &rv);
-      if(!(return_value_pthread_join$6 == 0))
+      signed int return_value_pthread_join_6;
+      return_value_pthread_join_6=pthread_join(threads[(signed long int)i], &rv);
+      if(!(return_value_pthread_join_6 == 0))
       {
         eprint(ulog, "pthread_join");
         err = (_Bool)1;
@@ -3198,18 +3198,18 @@ static signed int procthread(const char *base, signed int tnum, signed int rnum,
       tculrddel(targs[(signed long int)i].ulrd);
     }
 
-  _Bool return_value_tculogclose$7;
-  return_value_tculogclose$7=tculogclose(ulog);
-  if(return_value_tculogclose$7 == (_Bool)0)
+  _Bool return_value_tculogclose_7;
+  return_value_tculogclose_7=tculogclose(ulog);
+  if(return_value_tculogclose_7 == (_Bool)0)
   {
     eprint(ulog, "tculogclose");
     err = (_Bool)1;
   }
 
   tculogdel(ulog);
-  double return_value_tctime$8;
-  return_value_tctime$8=tctime();
-  iprintf("time: %.3f\n", return_value_tctime$8 - stime);
+  double return_value_tctime_8;
+  return_value_tctime_8=tctime();
+  iprintf("time: %.3f\n", return_value_tctime_8 - stime);
   iprintf("%s\n\n", err != (_Bool)0 ? "error" : "ok");
   return err != (_Bool)0 ? 1 : 0;
 }
@@ -3222,13 +3222,13 @@ static signed int procwrite(const char *base, signed int rnum, signed long int l
   _Bool err = (_Bool)0;
   double stime;
   stime=tctime();
-  struct anonymous$0 *ulog;
+  struct anonymous_0 *ulog;
   ulog=tculognew();
-  _Bool return_value_tculogsetaio$1;
+  _Bool return_value_tculogsetaio_1;
   if(!(as == (_Bool)0))
   {
-    return_value_tculogsetaio$1=tculogsetaio(ulog);
-    if(return_value_tculogsetaio$1 == (_Bool)0)
+    return_value_tculogsetaio_1=tculogsetaio(ulog);
+    if(return_value_tculogsetaio_1 == (_Bool)0)
     {
       eprint(ulog, "tculogsetaio");
       err = (_Bool)1;
@@ -3236,27 +3236,27 @@ static signed int procwrite(const char *base, signed int rnum, signed long int l
 
   }
 
-  _Bool return_value_tculogopen$2;
-  return_value_tculogopen$2=tculogopen(ulog, base, (unsigned long int)limsiz);
-  if(return_value_tculogopen$2 == (_Bool)0)
+  _Bool return_value_tculogopen_2;
+  return_value_tculogopen_2=tculogopen(ulog, base, (unsigned long int)limsiz);
+  if(return_value_tculogopen_2 == (_Bool)0)
   {
     eprint(ulog, "tculogopen");
     err = (_Bool)1;
   }
 
   signed int sid;
-  signed int return_value_getpid$3;
-  return_value_getpid$3=getpid();
-  sid = return_value_getpid$3 & 65535;
+  signed int return_value_getpid_3;
+  return_value_getpid_3=getpid();
+  sid = return_value_getpid_3 & 65535;
   signed int i = 1;
   for( ; rnum >= i; i = i + 1)
   {
     char buf[32l];
     signed int len;
     len=sprintf(buf, "%08d", i);
-    _Bool return_value_tculogwrite$4;
-    return_value_tculogwrite$4=tculogwrite(ulog, (unsigned long int)0, (unsigned int)sid, (unsigned int)sid, (const void *)buf, len);
-    if(return_value_tculogwrite$4 == (_Bool)0)
+    _Bool return_value_tculogwrite_4;
+    return_value_tculogwrite_4=tculogwrite(ulog, (unsigned long int)0, (unsigned int)sid, (unsigned int)sid, (const void *)buf, len);
+    if(return_value_tculogwrite_4 == (_Bool)0)
     {
       eprint(ulog, "tculogwrite");
       err = (_Bool)1;
@@ -3273,18 +3273,18 @@ static signed int procwrite(const char *base, signed int rnum, signed long int l
     }
 
   }
-  _Bool return_value_tculogclose$5;
-  return_value_tculogclose$5=tculogclose(ulog);
-  if(return_value_tculogclose$5 == (_Bool)0)
+  _Bool return_value_tculogclose_5;
+  return_value_tculogclose_5=tculogclose(ulog);
+  if(return_value_tculogclose_5 == (_Bool)0)
   {
     eprint(ulog, "tculogclose");
     err = (_Bool)1;
   }
 
   tculogdel(ulog);
-  double return_value_tctime$6;
-  return_value_tctime$6=tctime();
-  iprintf("time: %.3f\n", return_value_tctime$6 - stime);
+  double return_value_tctime_6;
+  return_value_tctime_6=tctime();
+  iprintf("time: %.3f\n", return_value_tctime_6 - stime);
   iprintf("%s\n\n", err != (_Bool)0 ? "error" : "ok");
   return err != (_Bool)0 ? 1 : 0;
 }
@@ -3293,17 +3293,17 @@ static signed int procwrite(const char *base, signed int rnum, signed long int l
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 79
 static inline signed int putchar(signed int __c)
 {
-  signed int return_value__IO_putc$1;
-  return_value__IO_putc$1=_IO_putc(__c, stdout);
-  return return_value__IO_putc$1;
+  signed int return_value__IO_putc_1;
+  return_value__IO_putc_1=_IO_putc(__c, stdout);
+  return return_value__IO_putc_1;
 }
 
 // rdbcmpsortrecnumasc
 // file tcrdb.c line 2595
-static signed int rdbcmpsortrecnumasc(const struct anonymous$37 *a, const struct anonymous$37 *b)
+static signed int rdbcmpsortrecnumasc(const struct anonymous_37 *a, const struct anonymous_37 *b)
 {
   /* assertion a && b */
-  assert(a != ((const struct anonymous$37 *)NULL) && b != ((const struct anonymous$37 *)NULL));
+  assert(a != ((const struct anonymous_37 *)NULL) && b != ((const struct anonymous_37 *)NULL));
   if(a->obuf == ((char *)NULL))
   {
     if(b->obuf == ((char *)NULL))
@@ -3341,10 +3341,10 @@ static signed int rdbcmpsortrecnumasc(const struct anonymous$37 *a, const struct
 
 // rdbcmpsortrecnumdesc
 // file tcrdb.c line 2618
-static signed int rdbcmpsortrecnumdesc(const struct anonymous$37 *a, const struct anonymous$37 *b)
+static signed int rdbcmpsortrecnumdesc(const struct anonymous_37 *a, const struct anonymous_37 *b)
 {
   /* assertion a && b */
-  assert(a != ((const struct anonymous$37 *)NULL) && b != ((const struct anonymous$37 *)NULL));
+  assert(a != ((const struct anonymous_37 *)NULL) && b != ((const struct anonymous_37 *)NULL));
   if(a->obuf == ((char *)NULL))
   {
     if(b->obuf == ((char *)NULL))
@@ -3382,10 +3382,10 @@ static signed int rdbcmpsortrecnumdesc(const struct anonymous$37 *a, const struc
 
 // rdbcmpsortrecstrasc
 // file tcrdb.c line 2557
-static signed int rdbcmpsortrecstrasc(const struct anonymous$37 *a, const struct anonymous$37 *b)
+static signed int rdbcmpsortrecstrasc(const struct anonymous_37 *a, const struct anonymous_37 *b)
 {
   /* assertion a && b */
-  assert(a != ((const struct anonymous$37 *)NULL) && b != ((const struct anonymous$37 *)NULL));
+  assert(a != ((const struct anonymous_37 *)NULL) && b != ((const struct anonymous_37 *)NULL));
   if(a->obuf == ((char *)NULL))
   {
     if(b->obuf == ((char *)NULL))
@@ -3405,18 +3405,18 @@ static signed int rdbcmpsortrecstrasc(const struct anonymous$37 *a, const struct
 
     else
     {
-      signed int return_value_tccmplexical$1;
-      return_value_tccmplexical$1=tccmplexical(a->obuf, a->osiz, b->obuf, b->osiz, (void *)0);
-      return return_value_tccmplexical$1;
+      signed int return_value_tccmplexical_1;
+      return_value_tccmplexical_1=tccmplexical(a->obuf, a->osiz, b->obuf, b->osiz, (void *)0);
+      return return_value_tccmplexical_1;
     }
 }
 
 // rdbcmpsortrecstrdesc
 // file tcrdb.c line 2576
-static signed int rdbcmpsortrecstrdesc(const struct anonymous$37 *a, const struct anonymous$37 *b)
+static signed int rdbcmpsortrecstrdesc(const struct anonymous_37 *a, const struct anonymous_37 *b)
 {
   /* assertion a && b */
-  assert(a != ((const struct anonymous$37 *)NULL) && b != ((const struct anonymous$37 *)NULL));
+  assert(a != ((const struct anonymous_37 *)NULL) && b != ((const struct anonymous_37 *)NULL));
   if(a->obuf == ((char *)NULL))
   {
     if(b->obuf == ((char *)NULL))
@@ -3436,9 +3436,9 @@ static signed int rdbcmpsortrecstrdesc(const struct anonymous$37 *a, const struc
 
     else
     {
-      signed int return_value_tccmplexical$1;
-      return_value_tccmplexical$1=tccmplexical(a->obuf, a->osiz, b->obuf, b->osiz, (void *)0);
-      return -return_value_tccmplexical$1;
+      signed int return_value_tccmplexical_1;
+      return_value_tccmplexical_1=tccmplexical(a->obuf, a->osiz, b->obuf, b->osiz, (void *)0);
+      return -return_value_tccmplexical_1;
     }
 }
 
@@ -3450,24 +3450,24 @@ static signed int runread(signed int argc, char **argv)
   unsigned long int ts = (unsigned long int)0;
   _Bool pm = (_Bool)0;
   signed int i = 2;
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
   for( ; !(i >= argc); i = i + 1)
   {
     if(base == ((char *)NULL))
-      tmp_if_expr$5 = (signed int)argv[(signed long int)i][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (signed int)argv[(signed long int)i][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
-      unsigned long int runread$$1$$1$$1$$1$$1$$__s1_len;
-      unsigned long int runread$$1$$1$$1$$1$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(argv[(signed long int)i], "-ts");
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 == 0)
+      unsigned long int runread__1__1__1__1__1____s1_len;
+      unsigned long int runread__1__1__1__1__1____s2_len;
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(argv[(signed long int)i], "-ts");
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 == 0)
       {
         i = i + 1;
         if(i >= argc)
@@ -3480,10 +3480,10 @@ static signed int runread(signed int argc, char **argv)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(argv[(signed long int)i], "-pm");
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(tmp_statement_expression$1 == 0)
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(argv[(signed long int)i], "-pm");
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(tmp_statement_expression_1 == 0)
           pm = (_Bool)1;
 
         else
@@ -3516,24 +3516,24 @@ static signed int runthread(signed int argc, char **argv)
   signed long int limsiz = (signed long int)0;
   _Bool as = (_Bool)0;
   signed int i = 2;
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
   for( ; !(i >= argc); i = i + 1)
   {
     if(base == ((char *)NULL))
-      tmp_if_expr$5 = (signed int)argv[(signed long int)i][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (signed int)argv[(signed long int)i][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
-      unsigned long int runthread$$1$$1$$1$$1$$1$$__s1_len;
-      unsigned long int runthread$$1$$1$$1$$1$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(argv[(signed long int)i], "-lim");
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 == 0)
+      unsigned long int runthread__1__1__1__1__1____s1_len;
+      unsigned long int runthread__1__1__1__1__1____s2_len;
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(argv[(signed long int)i], "-lim");
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 == 0)
       {
         i = i + 1;
         if(i >= argc)
@@ -3546,10 +3546,10 @@ static signed int runthread(signed int argc, char **argv)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(argv[(signed long int)i], "-as");
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(tmp_statement_expression$1 == 0)
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(argv[(signed long int)i], "-as");
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(tmp_statement_expression_1 == 0)
           as = (_Bool)1;
 
         else
@@ -3576,13 +3576,13 @@ static signed int runthread(signed int argc, char **argv)
     usage();
 
   signed int tnum;
-  signed long int return_value_tcatoi$6;
-  return_value_tcatoi$6=tcatoi(tstr);
-  tnum = (signed int)return_value_tcatoi$6;
+  signed long int return_value_tcatoi_6;
+  return_value_tcatoi_6=tcatoi(tstr);
+  tnum = (signed int)return_value_tcatoi_6;
   signed int rnum;
-  signed long int return_value_tcatoi$7;
-  return_value_tcatoi$7=tcatoi(rstr);
-  rnum = (signed int)return_value_tcatoi$7;
+  signed long int return_value_tcatoi_7;
+  return_value_tcatoi_7=tcatoi(rstr);
+  rnum = (signed int)return_value_tcatoi_7;
   if(!(rnum >= 1) || !(tnum >= 1))
     usage();
 
@@ -3600,24 +3600,24 @@ static signed int runwrite(signed int argc, char **argv)
   signed long int limsiz = (signed long int)0;
   _Bool as = (_Bool)0;
   signed int i = 2;
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
   for( ; !(i >= argc); i = i + 1)
   {
     if(base == ((char *)NULL))
-      tmp_if_expr$5 = (signed int)argv[(signed long int)i][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (signed int)argv[(signed long int)i][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
-      unsigned long int runwrite$$1$$1$$1$$1$$1$$__s1_len;
+      unsigned long int runwrite__1__1__1__1__1____s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(argv[(signed long int)i], "-lim");
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 == 0)
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(argv[(signed long int)i], "-lim");
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 == 0)
       {
         i = i + 1;
         if(i >= argc)
@@ -3629,11 +3629,11 @@ static signed int runwrite(signed int argc, char **argv)
       else
       {
         unsigned long int __s1_len;
-        unsigned long int runwrite$$1$$1$$1$$1$$3$$__s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(argv[(signed long int)i], "-as");
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(tmp_statement_expression$1 == 0)
+        unsigned long int runwrite__1__1__1__1__3____s2_len;
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(argv[(signed long int)i], "-as");
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(tmp_statement_expression_1 == 0)
           as = (_Bool)1;
 
         else
@@ -3656,9 +3656,9 @@ static signed int runwrite(signed int argc, char **argv)
     usage();
 
   signed int rnum;
-  signed long int return_value_tcatoi$6;
-  return_value_tcatoi$6=tcatoi(rstr);
-  rnum = (signed int)return_value_tcatoi$6;
+  signed long int return_value_tcatoi_6;
+  return_value_tcatoi_6=tcatoi(rstr);
+  rnum = (signed int)return_value_tcatoi_6;
   if(!(rnum >= 1))
     usage();
 
@@ -3671,24 +3671,24 @@ static signed int runwrite(signed int argc, char **argv)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // tcrdbadddouble
 // file tcrdb.c line 445
-double tcrdbadddouble(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, double num)
+double tcrdbadddouble(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, double num)
 {
   /* assertion rdb && kbuf && ksiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0);
-  _Bool return_value_tcrdblockmethod$2;
-  return_value_tcrdblockmethod$2=tcrdblockmethod(rdb);
-  double return_value_nan$1;
-  if(return_value_tcrdblockmethod$2 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0);
+  _Bool return_value_tcrdblockmethod_2;
+  return_value_tcrdblockmethod_2=tcrdblockmethod(rdb);
+  double return_value_nan_1;
+  if(return_value_tcrdblockmethod_2 == (_Bool)0)
   {
-    return_value_nan$1=nan("");
-    return return_value_nan$1;
+    return_value_nan_1=nan("");
+    return return_value_nan_1;
   }
 
   else
@@ -3696,7 +3696,7 @@ double tcrdbadddouble(struct anonymous$29 *rdb, const void *kbuf, signed int ksi
     double rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -3726,33 +3726,33 @@ double tcrdbadddouble(struct anonymous$29 *rdb, const void *kbuf, signed int ksi
 
 // tcrdbadddoubleimpl
 // file tcrdb.c line 1892
-static double tcrdbadddoubleimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, double num)
+static double tcrdbadddoubleimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, double num)
 {
   /* assertion rdb && kbuf && ksiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0);
-  _Bool tmp_if_expr$2;
-  double return_value_nan$3;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0);
+  _Bool tmp_if_expr_2;
+  double return_value_nan_3;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       tcrdbsetecode(rdb, 1);
-      double return_value_nan$1;
-      return_value_nan$1=nan("");
-      return return_value_nan$1;
+      double return_value_nan_1;
+      return_value_nan_1=nan("");
+      return return_value_nan_1;
     }
 
-    _Bool return_value_tcrdbreconnect$4;
-    return_value_tcrdbreconnect$4=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$4 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_4;
+    return_value_tcrdbreconnect_4=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_4 == (_Bool)0)
     {
-      return_value_nan$3=nan("");
-      return return_value_nan$3;
+      return_value_nan_3=nan("");
+      return return_value_nan_3;
     }
 
   }
@@ -3762,24 +3762,24 @@ static double tcrdbadddoubleimpl(struct anonymous$29 *rdb, const void *kbuf, sig
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  * (unsigned long int)2 + (unsigned long int)ksiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$6;
-  void *return_value_tcmalloc$5;
+  unsigned char *tmp_if_expr_6;
+  void *return_value_tcmalloc_5;
   if(!(rsiz >= 65536))
-    tmp_if_expr$6 = stack;
+    tmp_if_expr_6 = stack;
 
   else
   {
-    return_value_tcmalloc$5=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$6 = (unsigned char *)return_value_tcmalloc$5;
+    return_value_tcmalloc_5=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_6 = (unsigned char *)return_value_tcmalloc_5;
   }
-  buf = tmp_if_expr$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  _Bool tmp_if_expr$11;
-  _Bool return_value_ttsockcheckend$10;
+  buf = tmp_if_expr_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  _Bool tmp_if_expr_11;
+  _Bool return_value_ttsockcheckend_10;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -3794,12 +3794,12 @@ static double tcrdbadddoubleimpl(struct anonymous$29 *rdb, const void *kbuf, sig
     do
     {
       unsigned char *wp = buf;
-      tmp_post$7 = wp;
+      tmp_post_7 = wp;
       wp = wp + 1l;
-      *tmp_post$7 = (unsigned char)0xc8;
-      tmp_post$8 = wp;
+      *tmp_post_7 = (unsigned char)0xc8;
+      tmp_post_8 = wp;
       wp = wp + 1l;
-      *tmp_post$8 = (unsigned char)0x61;
+      *tmp_post_8 = (unsigned char)0x61;
       unsigned int lnum = (unsigned int)(((unsigned long int)(unsigned int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)ksiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -3808,25 +3808,25 @@ static double tcrdbadddoubleimpl(struct anonymous$29 *rdb, const void *kbuf, sig
       wp = wp + (signed long int)sizeof(char [16l]) /*16ul*/ ;
       memcpy((void *)wp, kbuf, (unsigned long int)ksiz);
       wp = wp + (signed long int)ksiz;
-      _Bool return_value_tcrdbsend$12;
-      return_value_tcrdbsend$12=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$12 == (_Bool)0))
+      _Bool return_value_tcrdbsend_12;
+      return_value_tcrdbsend_12=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_12 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
         if(code == 0)
         {
-          _Bool return_value_ttsockrecv$9;
-          return_value_ttsockrecv$9=ttsockrecv(rdb->sock, dbuf, (signed int)sizeof(char [16l]) /*16ul*/ );
-          if(!(return_value_ttsockrecv$9 == (_Bool)0))
+          _Bool return_value_ttsockrecv_9;
+          return_value_ttsockrecv_9=ttsockrecv(rdb->sock, dbuf, (signed int)sizeof(char [16l]) /*16ul*/ );
+          if(!(return_value_ttsockrecv_9 == (_Bool)0))
           {
-            return_value_ttsockcheckend$10=ttsockcheckend(rdb->sock);
-            tmp_if_expr$11 = !(return_value_ttsockcheckend$10 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+            return_value_ttsockcheckend_10=ttsockcheckend(rdb->sock);
+            tmp_if_expr_11 = !(return_value_ttsockcheckend_10 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$11 = (_Bool)0;
-          if(tmp_if_expr$11)
+            tmp_if_expr_11 = (_Bool)0;
+          if(tmp_if_expr_11)
             sum=ttunpackdouble(dbuf);
 
           else
@@ -3851,13 +3851,13 @@ static double tcrdbadddoubleimpl(struct anonymous$29 *rdb, const void *kbuf, sig
 
 // tcrdbaddint
 // file tcrdb.c line 433
-signed int tcrdbaddint(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, signed int num)
+signed int tcrdbaddint(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, signed int num)
 {
   /* assertion rdb && kbuf && ksiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0);
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0);
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return -0x7fffffff - 1;
 
   else
@@ -3865,7 +3865,7 @@ signed int tcrdbaddint(struct anonymous$29 *rdb, const void *kbuf, signed int ks
     signed int rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -3895,27 +3895,27 @@ signed int tcrdbaddint(struct anonymous$29 *rdb, const void *kbuf, signed int ks
 
 // tcrdbaddintimpl
 // file tcrdb.c line 1843
-static signed int tcrdbaddintimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, signed int num)
+static signed int tcrdbaddintimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, signed int num)
 {
   /* assertion rdb && kbuf && ksiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0);
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0);
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return -0x7fffffff - 1;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return -0x7fffffff - 1;
 
   }
@@ -3924,22 +3924,22 @@ static signed int tcrdbaddintimpl(struct anonymous$29 *rdb, const void *kbuf, si
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2 + (unsigned long int)ksiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
   if(!(rsiz >= 65536))
-    tmp_if_expr$4 = stack;
+    tmp_if_expr_4 = stack;
 
   else
   {
-    return_value_tcmalloc$3=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+    return_value_tcmalloc_3=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
   }
-  buf = tmp_if_expr$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  buf = tmp_if_expr_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -3954,12 +3954,12 @@ static signed int tcrdbaddintimpl(struct anonymous$29 *rdb, const void *kbuf, si
     do
     {
       unsigned char *wp = buf;
-      tmp_post$5 = wp;
+      tmp_post_5 = wp;
       wp = wp + 1l;
-      *tmp_post$5 = (unsigned char)0xc8;
-      tmp_post$6 = wp;
+      *tmp_post_5 = (unsigned char)0xc8;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0x60;
+      *tmp_post_6 = (unsigned char)0x60;
       unsigned int lnum = (unsigned int)(((unsigned long int)(unsigned int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)ksiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -3968,20 +3968,20 @@ static signed int tcrdbaddintimpl(struct anonymous$29 *rdb, const void *kbuf, si
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       memcpy((void *)wp, kbuf, (unsigned long int)ksiz);
       wp = wp + (signed long int)ksiz;
-      _Bool return_value_tcrdbsend$9;
-      return_value_tcrdbsend$9=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$9 == (_Bool)0))
+      _Bool return_value_tcrdbsend_9;
+      return_value_tcrdbsend_9=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_9 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
         if(code == 0)
         {
-          unsigned int return_value_ttsockgetint32$7;
-          return_value_ttsockgetint32$7=ttsockgetint32(rdb->sock);
-          sum = (signed int)return_value_ttsockgetint32$7;
-          _Bool return_value_ttsockcheckend$8;
-          return_value_ttsockcheckend$8=ttsockcheckend(rdb->sock);
-          if(!(return_value_ttsockcheckend$8 == (_Bool)0))
+          unsigned int return_value_ttsockgetint32_7;
+          return_value_ttsockgetint32_7=ttsockgetint32(rdb->sock);
+          sum = (signed int)return_value_ttsockgetint32_7;
+          _Bool return_value_ttsockcheckend_8;
+          return_value_ttsockcheckend_8=ttsockcheckend(rdb->sock);
+          if(!(return_value_ttsockcheckend_8 == (_Bool)0))
           {
             tcrdbsetecode(rdb, 5);
             sum = -1;
@@ -4026,26 +4026,26 @@ static long double tcrdbatof(const char *str)
     if((signed int)*str == 43)
       str = str + 1l;
 
-  _Bool return_value_tcstrifwm$2;
-  return_value_tcstrifwm$2=tcstrifwm(str, "inf");
-  signed int return_value___builtin_huge_vall$1;
-  long double return_value_nanl$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  if(!(return_value_tcstrifwm$2 == (_Bool)0))
+  _Bool return_value_tcstrifwm_2;
+  return_value_tcstrifwm_2=tcstrifwm(str, "inf");
+  signed int return_value___builtin_huge_vall_1;
+  long double return_value_nanl_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  if(!(return_value_tcstrifwm_2 == (_Bool)0))
   {
-    return_value___builtin_huge_vall$1=__builtin_huge_vall();
-    return (long double)(return_value___builtin_huge_vall$1 * sign);
+    return_value___builtin_huge_vall_1=__builtin_huge_vall();
+    return (long double)(return_value___builtin_huge_vall_1 * sign);
   }
 
   else
   {
-    _Bool return_value_tcstrifwm$4;
-    return_value_tcstrifwm$4=tcstrifwm(str, "nan");
-    if(!(return_value_tcstrifwm$4 == (_Bool)0))
+    _Bool return_value_tcstrifwm_4;
+    return_value_tcstrifwm_4=tcstrifwm(str, "nan");
+    if(!(return_value_tcstrifwm_4 == (_Bool)0))
     {
-      return_value_nanl$3=nanl("");
-      return return_value_nanl$3;
+      return_value_nanl_3=nanl("");
+      return return_value_nanl_3;
     }
 
     else
@@ -4055,11 +4055,11 @@ static long double tcrdbatof(const char *str)
       while(!((signed int)*str == 0))
       {
         if(!((signed int)*str >= 48))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = (signed int)*str > 57 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (signed int)*str > 57 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
           break;
 
         num = (num * (long double)10 + (long double)*str) - (long double)48;
@@ -4079,11 +4079,11 @@ static long double tcrdbatof(const char *str)
             break;
 
           if(!((signed int)*str >= 48))
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (signed int)*str > 57 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (signed int)*str > 57 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
             break;
 
           fract = fract + (long double)((signed int)*str - 48) / base;
@@ -4100,13 +4100,13 @@ static long double tcrdbatof(const char *str)
 
 // tcrdbclose
 // file tcrdb.c line 205
-_Bool tcrdbclose(struct anonymous$29 *rdb)
+_Bool tcrdbclose(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -4114,7 +4114,7 @@ _Bool tcrdbclose(struct anonymous$29 *rdb)
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -4144,10 +4144,10 @@ _Bool tcrdbclose(struct anonymous$29 *rdb)
 
 // tcrdbcloseimpl
 // file tcrdb.c line 1215
-static _Bool tcrdbcloseimpl(struct anonymous$29 *rdb)
+static _Bool tcrdbcloseimpl(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL));
   if(!(rdb->fd >= 0))
   {
     tcrdbsetecode(rdb, 1);
@@ -4158,9 +4158,9 @@ static _Bool tcrdbcloseimpl(struct anonymous$29 *rdb)
   {
     _Bool err = (_Bool)0;
     ttsockdel(rdb->sock);
-    _Bool return_value_ttclosesock$1;
-    return_value_ttclosesock$1=ttclosesock(rdb->fd);
-    if(return_value_ttclosesock$1 == (_Bool)0)
+    _Bool return_value_ttclosesock_1;
+    return_value_ttclosesock_1=ttclosesock(rdb->fd);
+    if(return_value_ttclosesock_1 == (_Bool)0)
     {
       tcrdbsetecode(rdb, 9999);
       err = (_Bool)1;
@@ -4172,20 +4172,20 @@ static _Bool tcrdbcloseimpl(struct anonymous$29 *rdb)
     rdb->host = (char *)(void *)0;
     rdb->port = -1;
     rdb->fd = -1;
-    rdb->sock = (struct anonymous$17 *)(void *)0;
+    rdb->sock = (struct anonymous_17 *)(void *)0;
     return !(err != (_Bool)0);
   }
 }
 
 // tcrdbcopy
 // file tcrdb.c line 514
-_Bool tcrdbcopy(struct anonymous$29 *rdb, const char *path)
+_Bool tcrdbcopy(struct anonymous_29 *rdb, const char *path)
 {
   /* assertion rdb && path */
-  assert(rdb != ((struct anonymous$29 *)NULL) && path != ((const char *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && path != ((const char *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -4193,7 +4193,7 @@ _Bool tcrdbcopy(struct anonymous$29 *rdb, const char *path)
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -4223,55 +4223,55 @@ _Bool tcrdbcopy(struct anonymous$29 *rdb, const char *path)
 
 // tcrdbcopyimpl
 // file tcrdb.c line 2116
-static _Bool tcrdbcopyimpl(struct anonymous$29 *rdb, const char *path)
+static _Bool tcrdbcopyimpl(struct anonymous_29 *rdb, const char *path)
 {
   /* assertion rdb && path */
-  assert(rdb != ((struct anonymous$29 *)NULL) && path != ((const char *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && path != ((const char *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
 
   _Bool err = (_Bool)0;
   signed int psiz;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(path);
-  psiz = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(path);
+  psiz = (signed int)return_value_strlen_3;
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  + (unsigned long int)psiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$5;
-  void *return_value_tcmalloc$4;
+  unsigned char *tmp_if_expr_5;
+  void *return_value_tcmalloc_4;
   if(!(rsiz >= 65536))
-    tmp_if_expr$5 = stack;
+    tmp_if_expr_5 = stack;
 
   else
   {
-    return_value_tcmalloc$4=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$5 = (unsigned char *)return_value_tcmalloc$4;
+    return_value_tcmalloc_4=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_5 = (unsigned char *)return_value_tcmalloc_4;
   }
-  buf = tmp_if_expr$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
+  buf = tmp_if_expr_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -4286,20 +4286,20 @@ static _Bool tcrdbcopyimpl(struct anonymous$29 *rdb, const char *path)
     do
     {
       unsigned char *wp = buf;
-      tmp_post$6 = wp;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0xc8;
-      tmp_post$7 = wp;
+      *tmp_post_6 = (unsigned char)0xc8;
+      tmp_post_7 = wp;
       wp = wp + 1l;
-      *tmp_post$7 = (unsigned char)0x73;
+      *tmp_post_7 = (unsigned char)0x73;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)psiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)psiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)psiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)psiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       memcpy((void *)wp, (const void *)path, (unsigned long int)psiz);
       wp = wp + (signed long int)psiz;
-      _Bool return_value_tcrdbsend$8;
-      return_value_tcrdbsend$8=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$8 == (_Bool)0))
+      _Bool return_value_tcrdbsend_8;
+      return_value_tcrdbsend_8=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_8 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
@@ -4327,10 +4327,10 @@ static _Bool tcrdbcopyimpl(struct anonymous$29 *rdb, const char *path)
 
 // tcrdbdel
 // file tcrdb.c line 128
-void tcrdbdel(struct anonymous$29 *rdb)
+void tcrdbdel(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL));
   if(rdb->fd >= 0)
     tcrdbclose(rdb);
 
@@ -4347,13 +4347,13 @@ void tcrdbdel(struct anonymous$29 *rdb)
 
 // tcrdbecode
 // file tcrdb.c line 140
-signed int tcrdbecode(struct anonymous$29 *rdb)
+signed int tcrdbecode(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(rdb->eckey);
-  return (signed int)(signed long int)return_value_pthread_getspecific$1;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(rdb->eckey);
+  return (signed int)(signed long int)return_value_pthread_getspecific_1;
 }
 
 // tcrdberrmsg
@@ -4387,13 +4387,13 @@ const char * tcrdberrmsg(signed int ecode)
 
 // tcrdbexpr
 // file tcrdb.c line 562
-const char * tcrdbexpr(struct anonymous$29 *rdb)
+const char * tcrdbexpr(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (const char *)(void *)0;
 
   else
@@ -4401,7 +4401,7 @@ const char * tcrdbexpr(struct anonymous$29 *rdb)
     const char *rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -4431,10 +4431,10 @@ const char * tcrdbexpr(struct anonymous$29 *rdb)
 
 // tcrdbexprimpl
 // file tcrdb.c line 2264
-const char * tcrdbexprimpl(struct anonymous$29 *rdb)
+const char * tcrdbexprimpl(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL));
   if(rdb->host == ((char *)NULL))
   {
     tcrdbsetecode(rdb, 1);
@@ -4447,13 +4447,13 @@ const char * tcrdbexprimpl(struct anonymous$29 *rdb)
 
 // tcrdbext
 // file tcrdb.c line 457
-void * tcrdbext(struct anonymous$29 *rdb, const char *name, signed int opts, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int *sp)
+void * tcrdbext(struct anonymous_29 *rdb, const char *name, signed int opts, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int *sp)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (void *)0;
 
   else
@@ -4461,7 +4461,7 @@ void * tcrdbext(struct anonymous$29 *rdb, const char *name, signed int opts, con
     void *rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -4491,71 +4491,71 @@ void * tcrdbext(struct anonymous$29 *rdb, const char *name, signed int opts, con
 
 // tcrdbext2
 // file tcrdb.c line 470
-char * tcrdbext2(struct anonymous$29 *rdb, const char *name, signed int opts, const char *kstr, const char *vstr)
+char * tcrdbext2(struct anonymous_29 *rdb, const char *name, signed int opts, const char *kstr, const char *vstr)
 {
   /* assertion rdb && name && kstr && vstr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && name != ((const char *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL) && name != ((const char *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
   signed int vsiz;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(kstr);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(vstr);
-  void *return_value_tcrdbext$3;
-  return_value_tcrdbext$3=tcrdbext(rdb, name, opts, (const void *)kstr, (signed int)return_value_strlen$1, (const void *)vstr, (signed int)return_value_strlen$2, &vsiz);
-  return (char *)return_value_tcrdbext$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(kstr);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(vstr);
+  void *return_value_tcrdbext_3;
+  return_value_tcrdbext_3=tcrdbext(rdb, name, opts, (const void *)kstr, (signed int)return_value_strlen_1, (const void *)vstr, (signed int)return_value_strlen_2, &vsiz);
+  return (char *)return_value_tcrdbext_3;
 }
 
 // tcrdbextimpl
 // file tcrdb.c line 1946
-static void * tcrdbextimpl(struct anonymous$29 *rdb, const char *name, signed int opts, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int *sp)
+static void * tcrdbextimpl(struct anonymous_29 *rdb, const char *name, signed int opts, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int *sp)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (void *)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (void *)0;
 
   }
 
   char *xbuf = (char *)(void *)0;
   signed int nsiz;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(name);
-  nsiz = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(name);
+  nsiz = (signed int)return_value_strlen_3;
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 + (unsigned long int)nsiz + (unsigned long int)ksiz + (unsigned long int)vsiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$5;
-  void *return_value_tcmalloc$4;
+  unsigned char *tmp_if_expr_5;
+  void *return_value_tcmalloc_4;
   if(!(rsiz >= 65536))
-    tmp_if_expr$5 = stack;
+    tmp_if_expr_5 = stack;
 
   else
   {
-    return_value_tcmalloc$4=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$5 = (unsigned char *)return_value_tcmalloc$4;
+    return_value_tcmalloc_4=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_5 = (unsigned char *)return_value_tcmalloc_4;
   }
-  buf = tmp_if_expr$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
+  buf = tmp_if_expr_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -4570,12 +4570,12 @@ static void * tcrdbextimpl(struct anonymous$29 *rdb, const char *name, signed in
     do
     {
       unsigned char *wp = buf;
-      tmp_post$6 = wp;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0xc8;
-      tmp_post$7 = wp;
+      *tmp_post_6 = (unsigned char)0xc8;
+      tmp_post_7 = wp;
       wp = wp + 1l;
-      *tmp_post$7 = (unsigned char)0x68;
+      *tmp_post_7 = (unsigned char)0x68;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)nsiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)nsiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)nsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)nsiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -4594,28 +4594,28 @@ static void * tcrdbextimpl(struct anonymous$29 *rdb, const char *name, signed in
       wp = wp + (signed long int)ksiz;
       memcpy((void *)wp, vbuf, (unsigned long int)vsiz);
       wp = wp + (signed long int)vsiz;
-      _Bool return_value_tcrdbsend$12;
-      return_value_tcrdbsend$12=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$12 == (_Bool)0))
+      _Bool return_value_tcrdbsend_12;
+      return_value_tcrdbsend_12=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_12 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
         if(code == 0)
         {
           signed int xsiz;
-          unsigned int return_value_ttsockgetint32$8;
-          return_value_ttsockgetint32$8=ttsockgetint32(rdb->sock);
-          xsiz = (signed int)return_value_ttsockgetint32$8;
-          _Bool return_value_ttsockcheckend$11;
-          return_value_ttsockcheckend$11=ttsockcheckend(rdb->sock);
-          if(return_value_ttsockcheckend$11 == (_Bool)0 && xsiz >= 0)
+          unsigned int return_value_ttsockgetint32_8;
+          return_value_ttsockgetint32_8=ttsockgetint32(rdb->sock);
+          xsiz = (signed int)return_value_ttsockgetint32_8;
+          _Bool return_value_ttsockcheckend_11;
+          return_value_ttsockcheckend_11=ttsockcheckend(rdb->sock);
+          if(return_value_ttsockcheckend_11 == (_Bool)0 && xsiz >= 0)
           {
-            void *return_value_tcmalloc$9;
-            return_value_tcmalloc$9=tcmalloc((unsigned long int)(xsiz + 1));
-            xbuf = (char *)return_value_tcmalloc$9;
-            _Bool return_value_ttsockrecv$10;
-            return_value_ttsockrecv$10=ttsockrecv(rdb->sock, xbuf, xsiz);
-            if(!(return_value_ttsockrecv$10 == (_Bool)0))
+            void *return_value_tcmalloc_9;
+            return_value_tcmalloc_9=tcmalloc((unsigned long int)(xsiz + 1));
+            xbuf = (char *)return_value_tcmalloc_9;
+            _Bool return_value_ttsockrecv_10;
+            return_value_ttsockrecv_10=ttsockrecv(rdb->sock, xbuf, xsiz);
+            if(!(return_value_ttsockrecv_10 == (_Bool)0))
             {
               xbuf[(signed long int)xsiz] = (char)0;
               *sp = xsiz;
@@ -4651,25 +4651,25 @@ static void * tcrdbextimpl(struct anonymous$29 *rdb, const char *name, signed in
 
 // tcrdbfwmkeys
 // file tcrdb.c line 414
-struct anonymous$1 * tcrdbfwmkeys(struct anonymous$29 *rdb, const void *pbuf, signed int psiz, signed int max)
+struct anonymous_1 * tcrdbfwmkeys(struct anonymous_29 *rdb, const void *pbuf, signed int psiz, signed int max)
 {
   /* assertion rdb && pbuf && psiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && pbuf != NULL && psiz >= 0);
-  _Bool return_value_tcrdblockmethod$2;
-  return_value_tcrdblockmethod$2=tcrdblockmethod(rdb);
-  struct anonymous$1 *return_value_tclistnew2$1;
-  if(return_value_tcrdblockmethod$2 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && pbuf != NULL && psiz >= 0);
+  _Bool return_value_tcrdblockmethod_2;
+  return_value_tcrdblockmethod_2=tcrdblockmethod(rdb);
+  struct anonymous_1 *return_value_tclistnew2_1;
+  if(return_value_tcrdblockmethod_2 == (_Bool)0)
   {
-    return_value_tclistnew2$1=tclistnew2(1);
-    return return_value_tclistnew2$1;
+    return_value_tclistnew2_1=tclistnew2(1);
+    return return_value_tclistnew2_1;
   }
 
   else
   {
-    struct anonymous$1 *rv;
+    struct anonymous_1 *rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -4699,43 +4699,43 @@ struct anonymous$1 * tcrdbfwmkeys(struct anonymous$29 *rdb, const void *pbuf, si
 
 // tcrdbfwmkeys2
 // file tcrdb.c line 426
-struct anonymous$1 * tcrdbfwmkeys2(struct anonymous$29 *rdb, const char *pstr, signed int max)
+struct anonymous_1 * tcrdbfwmkeys2(struct anonymous_29 *rdb, const char *pstr, signed int max)
 {
   /* assertion rdb && pstr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && pstr != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(pstr);
-  struct anonymous$1 *return_value_tcrdbfwmkeys$2;
-  return_value_tcrdbfwmkeys$2=tcrdbfwmkeys(rdb, (const void *)pstr, (signed int)return_value_strlen$1, max);
-  return return_value_tcrdbfwmkeys$2;
+  assert(rdb != ((struct anonymous_29 *)NULL) && pstr != ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(pstr);
+  struct anonymous_1 *return_value_tcrdbfwmkeys_2;
+  return_value_tcrdbfwmkeys_2=tcrdbfwmkeys(rdb, (const void *)pstr, (signed int)return_value_strlen_1, max);
+  return return_value_tcrdbfwmkeys_2;
 }
 
 // tcrdbfwmkeysimpl
 // file tcrdb.c line 1779
-static struct anonymous$1 * tcrdbfwmkeysimpl(struct anonymous$29 *rdb, const void *pbuf, signed int psiz, signed int max)
+static struct anonymous_1 * tcrdbfwmkeysimpl(struct anonymous_29 *rdb, const void *pbuf, signed int psiz, signed int max)
 {
   /* assertion rdb && pbuf && psiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && pbuf != NULL && psiz >= 0);
-  struct anonymous$1 *keys;
+  assert(rdb != ((struct anonymous_29 *)NULL) && pbuf != NULL && psiz >= 0);
+  struct anonymous_1 *keys;
   keys=tclistnew();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
-      return (struct anonymous$1 *)(void *)0;
+      return (struct anonymous_1 *)(void *)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
-      return (struct anonymous$1 *)(void *)0;
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
+      return (struct anonymous_1 *)(void *)0;
 
   }
 
@@ -4745,24 +4745,24 @@ static struct anonymous$1 * tcrdbfwmkeysimpl(struct anonymous$29 *rdb, const voi
 
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
   if(!(rsiz >= 65536))
-    tmp_if_expr$4 = stack;
+    tmp_if_expr_4 = stack;
 
   else
   {
-    return_value_tcmalloc$3=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+    return_value_tcmalloc_3=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
   }
-  buf = tmp_if_expr$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_if_expr$11;
-  void *return_value_tcmalloc$10;
+  buf = tmp_if_expr_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_if_expr_11;
+  void *return_value_tcmalloc_10;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -4777,12 +4777,12 @@ static struct anonymous$1 * tcrdbfwmkeysimpl(struct anonymous$29 *rdb, const voi
     do
     {
       unsigned char *wp = buf;
-      tmp_post$5 = wp;
+      tmp_post_5 = wp;
       wp = wp + 1l;
-      *tmp_post$5 = (unsigned char)0xc8;
-      tmp_post$6 = wp;
+      *tmp_post_5 = (unsigned char)0xc8;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0x58;
+      *tmp_post_6 = (unsigned char)0x58;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)psiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)psiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)psiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)psiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -4791,32 +4791,32 @@ static struct anonymous$1 * tcrdbfwmkeysimpl(struct anonymous$29 *rdb, const voi
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       memcpy((void *)wp, pbuf, (unsigned long int)psiz);
       wp = wp + (signed long int)psiz;
-      _Bool return_value_tcrdbsend$14;
-      return_value_tcrdbsend$14=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$14 == (_Bool)0))
+      _Bool return_value_tcrdbsend_14;
+      return_value_tcrdbsend_14=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_14 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
         if(code == 0)
         {
           signed int knum;
-          unsigned int return_value_ttsockgetint32$7;
-          return_value_ttsockgetint32$7=ttsockgetint32(rdb->sock);
-          knum = (signed int)return_value_ttsockgetint32$7;
-          _Bool return_value_ttsockcheckend$13;
-          return_value_ttsockcheckend$13=ttsockcheckend(rdb->sock);
-          if(return_value_ttsockcheckend$13 == (_Bool)0 && knum >= 0)
+          unsigned int return_value_ttsockgetint32_7;
+          return_value_ttsockgetint32_7=ttsockgetint32(rdb->sock);
+          knum = (signed int)return_value_ttsockgetint32_7;
+          _Bool return_value_ttsockcheckend_13;
+          return_value_ttsockcheckend_13=ttsockcheckend(rdb->sock);
+          if(return_value_ttsockcheckend_13 == (_Bool)0 && knum >= 0)
           {
             signed int i = 0;
             for( ; !(i >= knum); i = i + 1)
             {
               signed int ksiz;
-              unsigned int return_value_ttsockgetint32$8;
-              return_value_ttsockgetint32$8=ttsockgetint32(rdb->sock);
-              ksiz = (signed int)return_value_ttsockgetint32$8;
-              _Bool return_value_ttsockcheckend$9;
-              return_value_ttsockcheckend$9=ttsockcheckend(rdb->sock);
-              if(!(return_value_ttsockcheckend$9 == (_Bool)0))
+              unsigned int return_value_ttsockgetint32_8;
+              return_value_ttsockgetint32_8=ttsockgetint32(rdb->sock);
+              ksiz = (signed int)return_value_ttsockgetint32_8;
+              _Bool return_value_ttsockcheckend_9;
+              return_value_ttsockcheckend_9=ttsockcheckend(rdb->sock);
+              if(!(return_value_ttsockcheckend_9 == (_Bool)0))
               {
                 tcrdbsetecode(rdb, 5);
                 break;
@@ -4824,17 +4824,17 @@ static struct anonymous$1 * tcrdbfwmkeysimpl(struct anonymous$29 *rdb, const voi
 
               char *kbuf;
               if(!(ksiz >= 65536))
-                tmp_if_expr$11 = stack;
+                tmp_if_expr_11 = stack;
 
               else
               {
-                return_value_tcmalloc$10=tcmalloc((unsigned long int)(ksiz + 1));
-                tmp_if_expr$11 = (unsigned char *)return_value_tcmalloc$10;
+                return_value_tcmalloc_10=tcmalloc((unsigned long int)(ksiz + 1));
+                tmp_if_expr_11 = (unsigned char *)return_value_tcmalloc_10;
               }
-              kbuf = (char *)tmp_if_expr$11;
-              _Bool return_value_ttsockrecv$12;
-              return_value_ttsockrecv$12=ttsockrecv(rdb->sock, kbuf, ksiz);
-              if(!(return_value_ttsockrecv$12 == (_Bool)0))
+              kbuf = (char *)tmp_if_expr_11;
+              _Bool return_value_ttsockrecv_12;
+              return_value_ttsockrecv_12=ttsockrecv(rdb->sock, kbuf, ksiz);
+              if(!(return_value_ttsockrecv_12 == (_Bool)0))
                 tclistpush(keys, (const void *)kbuf, ksiz);
 
               else
@@ -4867,13 +4867,13 @@ static struct anonymous$1 * tcrdbfwmkeysimpl(struct anonymous$29 *rdb, const voi
 
 // tcrdbget
 // file tcrdb.c line 331
-void * tcrdbget(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, signed int *sp)
+void * tcrdbget(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, signed int *sp)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && sp */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && sp != ((signed int *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && sp != ((signed int *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (void *)0;
 
   else
@@ -4881,7 +4881,7 @@ void * tcrdbget(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, sig
     void *rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -4911,27 +4911,27 @@ void * tcrdbget(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, sig
 
 // tcrdbget2
 // file tcrdb.c line 343
-char * tcrdbget2(struct anonymous$29 *rdb, const char *kstr)
+char * tcrdbget2(struct anonymous_29 *rdb, const char *kstr)
 {
   /* assertion rdb && kstr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kstr != ((const char *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL) && kstr != ((const char *)NULL));
   signed int vsiz;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(kstr);
-  void *return_value_tcrdbget$2;
-  return_value_tcrdbget$2=tcrdbget(rdb, (const void *)kstr, (signed int)return_value_strlen$1, &vsiz);
-  return (char *)return_value_tcrdbget$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(kstr);
+  void *return_value_tcrdbget_2;
+  return_value_tcrdbget_2=tcrdbget(rdb, (const void *)kstr, (signed int)return_value_strlen_1, &vsiz);
+  return (char *)return_value_tcrdbget_2;
 }
 
 // tcrdbget3
 // file tcrdb.c line 351
-_Bool tcrdbget3(struct anonymous$29 *rdb, struct anonymous$25 *recs)
+_Bool tcrdbget3(struct anonymous_29 *rdb, struct anonymous_25 *recs)
 {
   /* assertion rdb && recs */
-  assert(rdb != ((struct anonymous$29 *)NULL) && recs != ((struct anonymous$25 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && recs != ((struct anonymous_25 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -4939,7 +4939,7 @@ _Bool tcrdbget3(struct anonymous$29 *rdb, struct anonymous$25 *recs)
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -4969,27 +4969,27 @@ _Bool tcrdbget3(struct anonymous$29 *rdb, struct anonymous$25 *recs)
 
 // tcrdbgetimpl
 // file tcrdb.c line 1530
-static void * tcrdbgetimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, signed int *sp)
+static void * tcrdbgetimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, signed int *sp)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && sp */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && sp != ((signed int *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && sp != ((signed int *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (void *)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (void *)0;
 
   }
@@ -4998,22 +4998,22 @@ static void * tcrdbgetimpl(struct anonymous$29 *rdb, const void *kbuf, signed in
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  + (unsigned long int)ksiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
   if(!(rsiz >= 65536))
-    tmp_if_expr$4 = stack;
+    tmp_if_expr_4 = stack;
 
   else
   {
-    return_value_tcmalloc$3=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+    return_value_tcmalloc_3=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
   }
-  buf = tmp_if_expr$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  buf = tmp_if_expr_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -5028,39 +5028,39 @@ static void * tcrdbgetimpl(struct anonymous$29 *rdb, const void *kbuf, signed in
     do
     {
       unsigned char *wp = buf;
-      tmp_post$5 = wp;
+      tmp_post_5 = wp;
       wp = wp + 1l;
-      *tmp_post$5 = (unsigned char)0xc8;
-      tmp_post$6 = wp;
+      *tmp_post_5 = (unsigned char)0xc8;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0x30;
+      *tmp_post_6 = (unsigned char)0x30;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)ksiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       memcpy((void *)wp, kbuf, (unsigned long int)ksiz);
       wp = wp + (signed long int)ksiz;
-      _Bool return_value_tcrdbsend$11;
-      return_value_tcrdbsend$11=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$11 == (_Bool)0))
+      _Bool return_value_tcrdbsend_11;
+      return_value_tcrdbsend_11=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_11 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
         if(code == 0)
         {
           signed int vsiz;
-          unsigned int return_value_ttsockgetint32$7;
-          return_value_ttsockgetint32$7=ttsockgetint32(rdb->sock);
-          vsiz = (signed int)return_value_ttsockgetint32$7;
-          _Bool return_value_ttsockcheckend$10;
-          return_value_ttsockcheckend$10=ttsockcheckend(rdb->sock);
-          if(return_value_ttsockcheckend$10 == (_Bool)0 && vsiz >= 0)
+          unsigned int return_value_ttsockgetint32_7;
+          return_value_ttsockgetint32_7=ttsockgetint32(rdb->sock);
+          vsiz = (signed int)return_value_ttsockgetint32_7;
+          _Bool return_value_ttsockcheckend_10;
+          return_value_ttsockcheckend_10=ttsockcheckend(rdb->sock);
+          if(return_value_ttsockcheckend_10 == (_Bool)0 && vsiz >= 0)
           {
-            void *return_value_tcmalloc$8;
-            return_value_tcmalloc$8=tcmalloc((unsigned long int)(vsiz + 1));
-            vbuf = (char *)return_value_tcmalloc$8;
-            _Bool return_value_ttsockrecv$9;
-            return_value_ttsockrecv$9=ttsockrecv(rdb->sock, vbuf, vsiz);
-            if(!(return_value_ttsockrecv$9 == (_Bool)0))
+            void *return_value_tcmalloc_8;
+            return_value_tcmalloc_8=tcmalloc((unsigned long int)(vsiz + 1));
+            vbuf = (char *)return_value_tcmalloc_8;
+            _Bool return_value_ttsockrecv_9;
+            return_value_ttsockrecv_9=ttsockrecv(rdb->sock, vbuf, vsiz);
+            if(!(return_value_ttsockrecv_9 == (_Bool)0))
             {
               vbuf[(signed long int)vsiz] = (char)0;
               *sp = vsiz;
@@ -5096,13 +5096,13 @@ static void * tcrdbgetimpl(struct anonymous$29 *rdb, const void *kbuf, signed in
 
 // tcrdbiterinit
 // file tcrdb.c line 382
-_Bool tcrdbiterinit(struct anonymous$29 *rdb)
+_Bool tcrdbiterinit(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -5110,7 +5110,7 @@ _Bool tcrdbiterinit(struct anonymous$29 *rdb)
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -5140,27 +5140,27 @@ _Bool tcrdbiterinit(struct anonymous$29 *rdb)
 
 // tcrdbiterinitimpl
 // file tcrdb.c line 1701
-static _Bool tcrdbiterinitimpl(struct anonymous$29 *rdb)
+static _Bool tcrdbiterinitimpl(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -5168,15 +5168,15 @@ static _Bool tcrdbiterinitimpl(struct anonymous$29 *rdb)
   _Bool err = (_Bool)0;
   unsigned char buf[65536l];
   unsigned char *wp = buf;
-  unsigned char *tmp_post$3 = wp;
+  unsigned char *tmp_post_3 = wp;
   wp = wp + 1l;
-  *tmp_post$3 = (unsigned char)0xc8;
-  unsigned char *tmp_post$4 = wp;
+  *tmp_post_3 = (unsigned char)0xc8;
+  unsigned char *tmp_post_4 = wp;
   wp = wp + 1l;
-  *tmp_post$4 = (unsigned char)0x50;
-  _Bool return_value_tcrdbsend$5;
-  return_value_tcrdbsend$5=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-  if(!(return_value_tcrdbsend$5 == (_Bool)0))
+  *tmp_post_4 = (unsigned char)0x50;
+  _Bool return_value_tcrdbsend_5;
+  return_value_tcrdbsend_5=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+  if(!(return_value_tcrdbsend_5 == (_Bool)0))
   {
     signed int code;
     code=ttsockgetc(rdb->sock);
@@ -5195,13 +5195,13 @@ static _Bool tcrdbiterinitimpl(struct anonymous$29 *rdb)
 
 // tcrdbiternext
 // file tcrdb.c line 394
-void * tcrdbiternext(struct anonymous$29 *rdb, signed int *sp)
+void * tcrdbiternext(struct anonymous_29 *rdb, signed int *sp)
 {
   /* assertion rdb && sp */
-  assert(rdb != ((struct anonymous$29 *)NULL) && sp != ((signed int *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && sp != ((signed int *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (void *)0;
 
   else
@@ -5209,7 +5209,7 @@ void * tcrdbiternext(struct anonymous$29 *rdb, signed int *sp)
     void *rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -5239,39 +5239,39 @@ void * tcrdbiternext(struct anonymous$29 *rdb, signed int *sp)
 
 // tcrdbiternext2
 // file tcrdb.c line 406
-char * tcrdbiternext2(struct anonymous$29 *rdb)
+char * tcrdbiternext2(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL));
   signed int vsiz;
-  void *return_value_tcrdbiternext$1;
-  return_value_tcrdbiternext$1=tcrdbiternext(rdb, &vsiz);
-  return (char *)return_value_tcrdbiternext$1;
+  void *return_value_tcrdbiternext_1;
+  return_value_tcrdbiternext_1=tcrdbiternext(rdb, &vsiz);
+  return (char *)return_value_tcrdbiternext_1;
 }
 
 // tcrdbiternextimpl
 // file tcrdb.c line 1734
-static void * tcrdbiternextimpl(struct anonymous$29 *rdb, signed int *sp)
+static void * tcrdbiternextimpl(struct anonymous_29 *rdb, signed int *sp)
 {
   /* assertion rdb && sp */
-  assert(rdb != ((struct anonymous$29 *)NULL) && sp != ((signed int *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && sp != ((signed int *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (void *)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (void *)0;
 
   }
@@ -5279,34 +5279,34 @@ static void * tcrdbiternextimpl(struct anonymous$29 *rdb, signed int *sp)
   char *vbuf = (char *)(void *)0;
   unsigned char buf[65536l];
   unsigned char *wp = buf;
-  unsigned char *tmp_post$3 = wp;
+  unsigned char *tmp_post_3 = wp;
   wp = wp + 1l;
-  *tmp_post$3 = (unsigned char)0xc8;
-  unsigned char *tmp_post$4 = wp;
+  *tmp_post_3 = (unsigned char)0xc8;
+  unsigned char *tmp_post_4 = wp;
   wp = wp + 1l;
-  *tmp_post$4 = (unsigned char)0x51;
-  _Bool return_value_tcrdbsend$9;
-  return_value_tcrdbsend$9=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-  if(!(return_value_tcrdbsend$9 == (_Bool)0))
+  *tmp_post_4 = (unsigned char)0x51;
+  _Bool return_value_tcrdbsend_9;
+  return_value_tcrdbsend_9=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+  if(!(return_value_tcrdbsend_9 == (_Bool)0))
   {
     signed int code;
     code=ttsockgetc(rdb->sock);
     if(code == 0)
     {
       signed int vsiz;
-      unsigned int return_value_ttsockgetint32$5;
-      return_value_ttsockgetint32$5=ttsockgetint32(rdb->sock);
-      vsiz = (signed int)return_value_ttsockgetint32$5;
-      _Bool return_value_ttsockcheckend$8;
-      return_value_ttsockcheckend$8=ttsockcheckend(rdb->sock);
-      if(return_value_ttsockcheckend$8 == (_Bool)0 && vsiz >= 0)
+      unsigned int return_value_ttsockgetint32_5;
+      return_value_ttsockgetint32_5=ttsockgetint32(rdb->sock);
+      vsiz = (signed int)return_value_ttsockgetint32_5;
+      _Bool return_value_ttsockcheckend_8;
+      return_value_ttsockcheckend_8=ttsockcheckend(rdb->sock);
+      if(return_value_ttsockcheckend_8 == (_Bool)0 && vsiz >= 0)
       {
-        void *return_value_tcmalloc$6;
-        return_value_tcmalloc$6=tcmalloc((unsigned long int)(vsiz + 1));
-        vbuf = (char *)return_value_tcmalloc$6;
-        _Bool return_value_ttsockrecv$7;
-        return_value_ttsockrecv$7=ttsockrecv(rdb->sock, vbuf, vsiz);
-        if(!(return_value_ttsockrecv$7 == (_Bool)0))
+        void *return_value_tcmalloc_6;
+        return_value_tcmalloc_6=tcmalloc((unsigned long int)(vsiz + 1));
+        vbuf = (char *)return_value_tcmalloc_6;
+        _Bool return_value_ttsockrecv_7;
+        return_value_ttsockrecv_7=ttsockrecv(rdb->sock, vbuf, vsiz);
+        if(!(return_value_ttsockrecv_7 == (_Bool)0))
         {
           vbuf[(signed long int)vsiz] = (char)0;
           *sp = vsiz;
@@ -5333,13 +5333,13 @@ static void * tcrdbiternextimpl(struct anonymous$29 *rdb, signed int *sp)
 
 // tcrdblockmethod
 // file tcrdb.c line 1081
-static _Bool tcrdblockmethod(struct anonymous$29 *rdb)
+static _Bool tcrdblockmethod(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&rdb->mmtx);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&rdb->mmtx);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     tcrdbsetecode(rdb, 9999);
     return (_Bool)0;
@@ -5351,35 +5351,35 @@ static _Bool tcrdblockmethod(struct anonymous$29 *rdb)
 
 // tcrdbmetasearch
 // file tcrdb.c line 906
-struct anonymous$1 * tcrdbmetasearch(struct anonymous$30 **qrys, signed int num, signed int type)
+struct anonymous_1 * tcrdbmetasearch(struct anonymous_30 **qrys, signed int num, signed int type)
 {
   /* assertion qrys && num >= 0 */
-  assert(qrys != ((struct anonymous$30 **)NULL) && num >= 0);
-  struct anonymous$1 *return_value_tclistnew2$1;
-  struct anonymous$1 *return_value_tcrdbqrysearch$2;
+  assert(qrys != ((struct anonymous_30 **)NULL) && num >= 0);
+  struct anonymous_1 *return_value_tclistnew2_1;
+  struct anonymous_1 *return_value_tcrdbqrysearch_2;
   if(!(num >= 1))
   {
-    return_value_tclistnew2$1=tclistnew2(1);
-    return return_value_tclistnew2$1;
+    return_value_tclistnew2_1=tclistnew2(1);
+    return return_value_tclistnew2_1;
   }
 
   else
     if(!(num >= 2))
     {
-      return_value_tcrdbqrysearch$2=tcrdbqrysearch(qrys[(signed long int)0]);
-      return return_value_tcrdbqrysearch$2;
+      return_value_tcrdbqrysearch_2=tcrdbqrysearch(qrys[(signed long int)0]);
+      return return_value_tcrdbqrysearch_2;
     }
 
     else
     {
-      struct anonymous$30 *qry = qrys[(signed long int)0];
-      struct anonymous$1 *args;
+      struct anonymous_30 *qry = qrys[(signed long int)0];
+      struct anonymous_1 *args;
       args=tclistdup(qry->args);
       signed int i = 1;
       for( ; !(i >= num); i = i + 1)
       {
         tclistpush(args, (const void *)"next", 4);
-        const struct anonymous$1 *targs = qrys[(signed long int)i]->args;
+        const struct anonymous_1 *targs = qrys[(signed long int)i]->args;
         signed int tanum;
         tanum=tclistnum(targs);
         signed int j = 0;
@@ -5387,24 +5387,24 @@ struct anonymous$1 * tcrdbmetasearch(struct anonymous$30 **qrys, signed int num,
         {
           signed int vsiz;
           const char *vbuf;
-          const void *return_value_tclistval$3;
-          return_value_tclistval$3=tclistval(targs, j, &vsiz);
-          vbuf = (const char *)return_value_tclistval$3;
+          const void *return_value_tclistval_3;
+          return_value_tclistval_3=tclistval(targs, j, &vsiz);
+          vbuf = (const char *)return_value_tclistval_3;
           tclistpush(args, (const void *)vbuf, vsiz);
         }
       }
       char buf[32l];
       signed int len;
       len=sprintf(buf, "mstype");
-      signed int return_value_sprintf$4;
-      return_value_sprintf$4=sprintf(buf + (signed long int)len + (signed long int)1, "%d", type);
-      len = len + 1 + return_value_sprintf$4;
+      signed int return_value_sprintf_4;
+      return_value_sprintf_4=sprintf(buf + (signed long int)len + (signed long int)1, "%d", type);
+      len = len + 1 + return_value_sprintf_4;
       tclistpush(args, (const void *)buf, len);
       tcxstrclear(qry->hint);
-      struct anonymous$1 *rv;
+      struct anonymous_1 *rv;
       rv=tcrdbmisc(qry->rdb, "metasearch", 1, args);
       tclistdel(args);
-      if(rv == ((struct anonymous$1 *)NULL))
+      if(rv == ((struct anonymous_1 *)NULL))
         rv=tclistnew2(1);
 
       tcrdbqrypopmeta(qrys[(signed long int)0], rv);
@@ -5414,40 +5414,40 @@ struct anonymous$1 * tcrdbmetasearch(struct anonymous$30 **qrys, signed int num,
 
 // tcrdbmgetimpl
 // file tcrdb.c line 1583
-static _Bool tcrdbmgetimpl(struct anonymous$29 *rdb, struct anonymous$25 *recs)
+static _Bool tcrdbmgetimpl(struct anonymous_29 *rdb, struct anonymous_25 *recs)
 {
   /* assertion rdb && recs */
-  assert(rdb != ((struct anonymous$29 *)NULL) && recs != ((struct anonymous$25 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && recs != ((struct anonymous_25 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
 
   _Bool err = (_Bool)0;
-  struct anonymous$27 *xstr;
+  struct anonymous_27 *xstr;
   xstr=tcxstrnew();
-  const void *return_value_tcmapiternext$4;
-  char *tmp_if_expr$10;
-  void *return_value_tcmalloc$9;
+  const void *return_value_tcmapiternext_4;
+  char *tmp_if_expr_10;
+  void *return_value_tcmalloc_9;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = (void (*)(void *))tcxstrdel;
     void *__cancel_arg = (void *)xstr;
     signed int __not_first_call;
@@ -5466,9 +5466,9 @@ static _Bool tcrdbmgetimpl(struct anonymous$29 *rdb, struct anonymous$25 *recs)
       magic[(signed long int)1] = (unsigned char)0x31;
       tcxstrcat(xstr, (const void *)magic, (signed int)sizeof(unsigned char [2l]) /*2ul*/ );
       unsigned int num;
-      unsigned long int return_value_tcmaprnum$3;
-      return_value_tcmaprnum$3=tcmaprnum(recs);
-      num = (unsigned int)return_value_tcmaprnum$3;
+      unsigned long int return_value_tcmaprnum_3;
+      return_value_tcmaprnum_3=tcmaprnum(recs);
+      num = (unsigned int)return_value_tcmaprnum_3;
       num = (unsigned int)(((unsigned long int)num & 0x000000ffUL) << 24 | ((unsigned long int)num & 0x0000ff00UL) << 8 | ((unsigned long int)num & 0x00ff0000UL) >> 8 | ((unsigned long int)num & 0xff000000UL) >> 24);
       tcxstrcat(xstr, (const void *)&num, (signed int)sizeof(unsigned int) /*4ul*/ );
       tcmapiterinit(recs);
@@ -5476,8 +5476,8 @@ static _Bool tcrdbmgetimpl(struct anonymous$29 *rdb, struct anonymous$25 *recs)
       signed int ksiz;
       do
       {
-        return_value_tcmapiternext$4=tcmapiternext(recs, &ksiz);
-        kbuf = (const char *)return_value_tcmapiternext$4;
+        return_value_tcmapiternext_4=tcmapiternext(recs, &ksiz);
+        kbuf = (const char *)return_value_tcmapiternext_4;
         if(kbuf == ((const char *)NULL))
           break;
 
@@ -5488,40 +5488,40 @@ static _Bool tcrdbmgetimpl(struct anonymous$29 *rdb, struct anonymous$25 *recs)
       while((_Bool)1);
       tcmapclear(recs);
       char stack[65536l];
-      const void *return_value_tcxstrptr$13;
-      return_value_tcxstrptr$13=tcxstrptr(xstr);
-      signed int return_value_tcxstrsize$14;
-      return_value_tcxstrsize$14=tcxstrsize(xstr);
-      _Bool return_value_tcrdbsend$15;
-      return_value_tcrdbsend$15=tcrdbsend(rdb, return_value_tcxstrptr$13, return_value_tcxstrsize$14);
-      if(!(return_value_tcrdbsend$15 == (_Bool)0))
+      const void *return_value_tcxstrptr_13;
+      return_value_tcxstrptr_13=tcxstrptr(xstr);
+      signed int return_value_tcxstrsize_14;
+      return_value_tcxstrsize_14=tcxstrsize(xstr);
+      _Bool return_value_tcrdbsend_15;
+      return_value_tcrdbsend_15=tcrdbsend(rdb, return_value_tcxstrptr_13, return_value_tcxstrsize_14);
+      if(!(return_value_tcrdbsend_15 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
         signed int rnum;
-        unsigned int return_value_ttsockgetint32$5;
-        return_value_ttsockgetint32$5=ttsockgetint32(rdb->sock);
-        rnum = (signed int)return_value_ttsockgetint32$5;
+        unsigned int return_value_ttsockgetint32_5;
+        return_value_ttsockgetint32_5=ttsockgetint32(rdb->sock);
+        rnum = (signed int)return_value_ttsockgetint32_5;
         if(code == 0)
         {
-          _Bool return_value_ttsockcheckend$12;
-          return_value_ttsockcheckend$12=ttsockcheckend(rdb->sock);
-          if(return_value_ttsockcheckend$12 == (_Bool)0 && rnum >= 0)
+          _Bool return_value_ttsockcheckend_12;
+          return_value_ttsockcheckend_12=ttsockcheckend(rdb->sock);
+          if(return_value_ttsockcheckend_12 == (_Bool)0 && rnum >= 0)
           {
             signed int i = 0;
             for( ; !(i >= rnum); i = i + 1)
             {
               signed int rksiz;
-              unsigned int return_value_ttsockgetint32$6;
-              return_value_ttsockgetint32$6=ttsockgetint32(rdb->sock);
-              rksiz = (signed int)return_value_ttsockgetint32$6;
+              unsigned int return_value_ttsockgetint32_6;
+              return_value_ttsockgetint32_6=ttsockgetint32(rdb->sock);
+              rksiz = (signed int)return_value_ttsockgetint32_6;
               signed int rvsiz;
-              unsigned int return_value_ttsockgetint32$7;
-              return_value_ttsockgetint32$7=ttsockgetint32(rdb->sock);
-              rvsiz = (signed int)return_value_ttsockgetint32$7;
-              _Bool return_value_ttsockcheckend$8;
-              return_value_ttsockcheckend$8=ttsockcheckend(rdb->sock);
-              if(!(return_value_ttsockcheckend$8 == (_Bool)0))
+              unsigned int return_value_ttsockgetint32_7;
+              return_value_ttsockgetint32_7=ttsockgetint32(rdb->sock);
+              rvsiz = (signed int)return_value_ttsockgetint32_7;
+              _Bool return_value_ttsockcheckend_8;
+              return_value_ttsockcheckend_8=ttsockcheckend(rdb->sock);
+              if(!(return_value_ttsockcheckend_8 == (_Bool)0))
               {
                 tcrdbsetecode(rdb, 5);
                 err = (_Bool)1;
@@ -5531,17 +5531,17 @@ static _Bool tcrdbmgetimpl(struct anonymous$29 *rdb, struct anonymous$25 *recs)
               signed int rsiz = rksiz + rvsiz;
               char *rbuf;
               if(!(rsiz >= 65536))
-                tmp_if_expr$10 = stack;
+                tmp_if_expr_10 = stack;
 
               else
               {
-                return_value_tcmalloc$9=tcmalloc((unsigned long int)(rsiz + 1));
-                tmp_if_expr$10 = (char *)return_value_tcmalloc$9;
+                return_value_tcmalloc_9=tcmalloc((unsigned long int)(rsiz + 1));
+                tmp_if_expr_10 = (char *)return_value_tcmalloc_9;
               }
-              rbuf = tmp_if_expr$10;
-              _Bool return_value_ttsockrecv$11;
-              return_value_ttsockrecv$11=ttsockrecv(rdb->sock, rbuf, rsiz);
-              if(!(return_value_ttsockrecv$11 == (_Bool)0))
+              rbuf = tmp_if_expr_10;
+              _Bool return_value_ttsockrecv_11;
+              return_value_ttsockrecv_11=ttsockrecv(rdb->sock, rbuf, rsiz);
+              if(!(return_value_ttsockrecv_11 == (_Bool)0))
                 tcmapput(recs, (const void *)rbuf, rksiz, (const void *)(rbuf + (signed long int)rksiz), rvsiz);
 
               else
@@ -5585,21 +5585,21 @@ static _Bool tcrdbmgetimpl(struct anonymous$29 *rdb, struct anonymous$25 *recs)
 
 // tcrdbmisc
 // file tcrdb.c line 610
-struct anonymous$1 * tcrdbmisc(struct anonymous$29 *rdb, const char *name, signed int opts, const struct anonymous$1 *args)
+struct anonymous_1 * tcrdbmisc(struct anonymous_29 *rdb, const char *name, signed int opts, const struct anonymous_1 *args)
 {
   /* assertion rdb && name && args */
-  assert(rdb != ((struct anonymous$29 *)NULL) && name != ((const char *)NULL) && args != ((const struct anonymous$1 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
-    return (struct anonymous$1 *)(void *)0;
+  assert(rdb != ((struct anonymous_29 *)NULL) && name != ((const char *)NULL) && args != ((const struct anonymous_1 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
+    return (struct anonymous_1 *)(void *)0;
 
   else
   {
-    struct anonymous$1 *rv;
+    struct anonymous_1 *rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -5629,41 +5629,41 @@ struct anonymous$1 * tcrdbmisc(struct anonymous$29 *rdb, const char *name, signe
 
 // tcrdbmiscimpl
 // file tcrdb.c line 2387
-static struct anonymous$1 * tcrdbmiscimpl(struct anonymous$29 *rdb, const char *name, signed int opts, const struct anonymous$1 *args)
+static struct anonymous_1 * tcrdbmiscimpl(struct anonymous_29 *rdb, const char *name, signed int opts, const struct anonymous_1 *args)
 {
   /* assertion rdb && name && args */
-  assert(rdb != ((struct anonymous$29 *)NULL) && name != ((const char *)NULL) && args != ((const struct anonymous$1 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && name != ((const char *)NULL) && args != ((const struct anonymous_1 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
-      return (struct anonymous$1 *)(void *)0;
+      return (struct anonymous_1 *)(void *)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
-      return (struct anonymous$1 *)(void *)0;
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
+      return (struct anonymous_1 *)(void *)0;
 
   }
 
   _Bool err = (_Bool)0;
-  struct anonymous$1 *res = (struct anonymous$1 *)(void *)0;
-  struct anonymous$27 *xstr;
+  struct anonymous_1 *res = (struct anonymous_1 *)(void *)0;
+  struct anonymous_27 *xstr;
   xstr=tcxstrnew();
-  signed int return_value_tclistnum$5;
-  char *tmp_if_expr$11;
-  void *return_value_tcmalloc$10;
+  signed int return_value_tclistnum_5;
+  char *tmp_if_expr_11;
+  void *return_value_tcmalloc_10;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = (void (*)(void *))tcxstrdel;
     void *__cancel_arg = (void *)xstr;
     signed int __not_first_call;
@@ -5682,31 +5682,31 @@ static struct anonymous$1 * tcrdbmiscimpl(struct anonymous$29 *rdb, const char *
       magic[(signed long int)1] = (unsigned char)0x90;
       tcxstrcat(xstr, (const void *)magic, (signed int)sizeof(unsigned char [2l]) /*2ul*/ );
       signed int nsiz;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(name);
-      nsiz = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(name);
+      nsiz = (signed int)return_value_strlen_3;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)nsiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)nsiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)nsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)nsiz & 0xff000000UL) >> 24);
       tcxstrcat(xstr, (const void *)&num, (signed int)sizeof(unsigned int) /*4ul*/ );
       num = (unsigned int)(((unsigned long int)(unsigned int)opts & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)opts & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)opts & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)opts & 0xff000000UL) >> 24);
       tcxstrcat(xstr, (const void *)&num, (signed int)sizeof(unsigned int) /*4ul*/ );
-      signed int return_value_tclistnum$4;
-      return_value_tclistnum$4=tclistnum(args);
-      num = (unsigned int)return_value_tclistnum$4;
+      signed int return_value_tclistnum_4;
+      return_value_tclistnum_4=tclistnum(args);
+      num = (unsigned int)return_value_tclistnum_4;
       num = (unsigned int)(((unsigned long int)num & 0x000000ffUL) << 24 | ((unsigned long int)num & 0x0000ff00UL) << 8 | ((unsigned long int)num & 0x00ff0000UL) >> 8 | ((unsigned long int)num & 0xff000000UL) >> 24);
       tcxstrcat(xstr, (const void *)&num, (signed int)sizeof(unsigned int) /*4ul*/ );
       tcxstrcat(xstr, (const void *)name, nsiz);
       signed int i = 0;
       do
       {
-        return_value_tclistnum$5=tclistnum(args);
-        if(i >= return_value_tclistnum$5)
+        return_value_tclistnum_5=tclistnum(args);
+        if(i >= return_value_tclistnum_5)
           break;
 
         signed int rsiz;
         const char *rbuf;
-        const void *return_value_tclistval$6;
-        return_value_tclistval$6=tclistval(args, i, &rsiz);
-        rbuf = (const char *)return_value_tclistval$6;
+        const void *return_value_tclistval_6;
+        return_value_tclistval_6=tclistval(args, i, &rsiz);
+        rbuf = (const char *)return_value_tclistval_6;
         num = (unsigned int)(((unsigned long int)(unsigned int)rsiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)rsiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)rsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)rsiz & 0xff000000UL) >> 24);
         tcxstrcat(xstr, (const void *)&num, (signed int)sizeof(unsigned int) /*4ul*/ );
         tcxstrcat(xstr, (const void *)rbuf, rsiz);
@@ -5714,37 +5714,37 @@ static struct anonymous$1 * tcrdbmiscimpl(struct anonymous$29 *rdb, const char *
       }
       while((_Bool)1);
       char stack[65536l];
-      const void *return_value_tcxstrptr$14;
-      return_value_tcxstrptr$14=tcxstrptr(xstr);
-      signed int return_value_tcxstrsize$15;
-      return_value_tcxstrsize$15=tcxstrsize(xstr);
-      _Bool return_value_tcrdbsend$16;
-      return_value_tcrdbsend$16=tcrdbsend(rdb, return_value_tcxstrptr$14, return_value_tcxstrsize$15);
-      if(!(return_value_tcrdbsend$16 == (_Bool)0))
+      const void *return_value_tcxstrptr_14;
+      return_value_tcxstrptr_14=tcxstrptr(xstr);
+      signed int return_value_tcxstrsize_15;
+      return_value_tcxstrsize_15=tcxstrsize(xstr);
+      _Bool return_value_tcrdbsend_16;
+      return_value_tcrdbsend_16=tcrdbsend(rdb, return_value_tcxstrptr_14, return_value_tcxstrsize_15);
+      if(!(return_value_tcrdbsend_16 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
         signed int rnum;
-        unsigned int return_value_ttsockgetint32$7;
-        return_value_ttsockgetint32$7=ttsockgetint32(rdb->sock);
-        rnum = (signed int)return_value_ttsockgetint32$7;
+        unsigned int return_value_ttsockgetint32_7;
+        return_value_ttsockgetint32_7=ttsockgetint32(rdb->sock);
+        rnum = (signed int)return_value_ttsockgetint32_7;
         if(code == 0)
         {
-          _Bool return_value_ttsockcheckend$13;
-          return_value_ttsockcheckend$13=ttsockcheckend(rdb->sock);
-          if(return_value_ttsockcheckend$13 == (_Bool)0 && rnum >= 0)
+          _Bool return_value_ttsockcheckend_13;
+          return_value_ttsockcheckend_13=ttsockcheckend(rdb->sock);
+          if(return_value_ttsockcheckend_13 == (_Bool)0 && rnum >= 0)
           {
             res=tclistnew2(rnum);
-            signed int tcrdbmiscimpl$$1$$2$$2$$2$$1$$1$$1$$i = 0;
-            for( ; !(tcrdbmiscimpl$$1$$2$$2$$2$$1$$1$$1$$i >= rnum); tcrdbmiscimpl$$1$$2$$2$$2$$1$$1$$1$$i = tcrdbmiscimpl$$1$$2$$2$$2$$1$$1$$1$$i + 1)
+            signed int tcrdbmiscimpl__1__2__2__2__1__1__1__i = 0;
+            for( ; !(tcrdbmiscimpl__1__2__2__2__1__1__1__i >= rnum); tcrdbmiscimpl__1__2__2__2__1__1__1__i = tcrdbmiscimpl__1__2__2__2__1__1__1__i + 1)
             {
               signed int esiz;
-              unsigned int return_value_ttsockgetint32$8;
-              return_value_ttsockgetint32$8=ttsockgetint32(rdb->sock);
-              esiz = (signed int)return_value_ttsockgetint32$8;
-              _Bool return_value_ttsockcheckend$9;
-              return_value_ttsockcheckend$9=ttsockcheckend(rdb->sock);
-              if(!(return_value_ttsockcheckend$9 == (_Bool)0))
+              unsigned int return_value_ttsockgetint32_8;
+              return_value_ttsockgetint32_8=ttsockgetint32(rdb->sock);
+              esiz = (signed int)return_value_ttsockgetint32_8;
+              _Bool return_value_ttsockcheckend_9;
+              return_value_ttsockcheckend_9=ttsockcheckend(rdb->sock);
+              if(!(return_value_ttsockcheckend_9 == (_Bool)0))
               {
                 tcrdbsetecode(rdb, 5);
                 err = (_Bool)1;
@@ -5753,17 +5753,17 @@ static struct anonymous$1 * tcrdbmiscimpl(struct anonymous$29 *rdb, const char *
 
               char *ebuf;
               if(!(esiz >= 65536))
-                tmp_if_expr$11 = stack;
+                tmp_if_expr_11 = stack;
 
               else
               {
-                return_value_tcmalloc$10=tcmalloc((unsigned long int)(esiz + 1));
-                tmp_if_expr$11 = (char *)return_value_tcmalloc$10;
+                return_value_tcmalloc_10=tcmalloc((unsigned long int)(esiz + 1));
+                tmp_if_expr_11 = (char *)return_value_tcmalloc_10;
               }
-              ebuf = tmp_if_expr$11;
-              _Bool return_value_ttsockrecv$12;
-              return_value_ttsockrecv$12=ttsockrecv(rdb->sock, ebuf, esiz);
-              if(!(return_value_ttsockrecv$12 == (_Bool)0))
+              ebuf = tmp_if_expr_11;
+              _Bool return_value_ttsockrecv_12;
+              return_value_ttsockrecv_12=ttsockrecv(rdb->sock, ebuf, esiz);
+              if(!(return_value_ttsockrecv_12 == (_Bool)0))
                 tclistpush(res, (const void *)ebuf, esiz);
 
               else
@@ -5802,10 +5802,10 @@ static struct anonymous$1 * tcrdbmiscimpl(struct anonymous$29 *rdb, const char *
     __cancel_routine(__cancel_arg);
   }
   while((_Bool)0);
-  if(!(res == ((struct anonymous$1 *)NULL)) && !(err == (_Bool)0))
+  if(!(res == ((struct anonymous_1 *)NULL)) && !(err == (_Bool)0))
   {
     tclistdel(res);
-    res = (struct anonymous$1 *)(void *)0;
+    res = (struct anonymous_1 *)(void *)0;
   }
 
   return res;
@@ -5813,27 +5813,27 @@ static struct anonymous$1 * tcrdbmiscimpl(struct anonymous$29 *rdb, const char *
 
 // tcrdbnew
 // file tcrdb.c line 111
-struct anonymous$29 * tcrdbnew(void)
+struct anonymous_29 * tcrdbnew(void)
 {
-  struct anonymous$29 *rdb;
-  void *return_value_tcmalloc$1;
-  return_value_tcmalloc$1=tcmalloc(sizeof(struct anonymous$29) /*104ul*/ );
-  rdb = (struct anonymous$29 *)return_value_tcmalloc$1;
-  signed int return_value_pthread_mutex_init$2;
-  return_value_pthread_mutex_init$2=pthread_mutex_init(&rdb->mmtx, (const union anonymous$33 *)(void *)0);
-  if(!(return_value_pthread_mutex_init$2 == 0))
+  struct anonymous_29 *rdb;
+  void *return_value_tcmalloc_1;
+  return_value_tcmalloc_1=tcmalloc(sizeof(struct anonymous_29) /*104ul*/ );
+  rdb = (struct anonymous_29 *)return_value_tcmalloc_1;
+  signed int return_value_pthread_mutex_init_2;
+  return_value_pthread_mutex_init_2=pthread_mutex_init(&rdb->mmtx, (const union anonymous_33 *)(void *)0);
+  if(!(return_value_pthread_mutex_init_2 == 0))
     tcmyfatal("pthread_mutex_init failed");
 
-  signed int return_value_pthread_key_create$3;
-  return_value_pthread_key_create$3=pthread_key_create(&rdb->eckey, (void (*)(void *))(void *)0);
-  if(!(return_value_pthread_key_create$3 == 0))
+  signed int return_value_pthread_key_create_3;
+  return_value_pthread_key_create_3=pthread_key_create(&rdb->eckey, (void (*)(void *))(void *)0);
+  if(!(return_value_pthread_key_create_3 == 0))
     tcmyfatal("pthread_key_create failed");
 
   rdb->host = (char *)(void *)0;
   rdb->port = -1;
   rdb->expr = (char *)(void *)0;
   rdb->fd = -1;
-  rdb->sock = (struct anonymous$17 *)(void *)0;
+  rdb->sock = (struct anonymous_17 *)(void *)0;
   rdb->timeout = (double)((unsigned int)0x7fffffff * 2U + 1U);
   rdb->opts = 0;
   tcrdbsetecode(rdb, 0);
@@ -5842,13 +5842,13 @@ struct anonymous$29 * tcrdbnew(void)
 
 // tcrdbopen
 // file tcrdb.c line 159
-_Bool tcrdbopen(struct anonymous$29 *rdb, const char *host, signed int port)
+_Bool tcrdbopen(struct anonymous_29 *rdb, const char *host, signed int port)
 {
   /* assertion rdb && host */
-  assert(rdb != ((struct anonymous$29 *)NULL) && host != ((const char *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && host != ((const char *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -5856,7 +5856,7 @@ _Bool tcrdbopen(struct anonymous$29 *rdb, const char *host, signed int port)
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -5886,29 +5886,29 @@ _Bool tcrdbopen(struct anonymous$29 *rdb, const char *host, signed int port)
 
 // tcrdbopen2
 // file tcrdb.c line 171
-_Bool tcrdbopen2(struct anonymous$29 *rdb, const char *expr)
+_Bool tcrdbopen2(struct anonymous_29 *rdb, const char *expr)
 {
   /* assertion rdb && expr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && expr != ((const char *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL) && expr != ((const char *)NULL));
   _Bool err = (_Bool)0;
   signed int port;
   char *host;
   host=ttbreakservexpr(expr, &port);
   char *pv;
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(expr, 35);
-  pv = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(expr, 35);
+  pv = return_value___builtin_strchr_1;
   double tout = 0.0;
-  char *tmp_post$3;
-  _Bool tmp_if_expr$11;
-  signed int return_value_tcstricmp$10;
-  signed int return_value_tcstricmp$8;
-  signed int return_value_tcstricmp$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_tcstricmp$6;
+  char *tmp_post_3;
+  _Bool tmp_if_expr_11;
+  signed int return_value_tcstricmp_10;
+  signed int return_value_tcstricmp_8;
+  signed int return_value_tcstricmp_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_tcstricmp_6;
   if(!(pv == ((char *)NULL)))
   {
-    struct anonymous$1 *elems;
+    struct anonymous_1 *elems;
     elems=tcstrsplit(pv + (signed long int)1, "#");
     signed int ln;
     ln=tclistnum(elems);
@@ -5916,25 +5916,25 @@ _Bool tcrdbopen2(struct anonymous$29 *rdb, const char *expr)
     for( ; !(i >= ln); i = i + 1)
     {
       const char *elem = (const char *)(void *)(elems->array + (signed long int)(i + elems->start))->ptr;
-      char *return_value___builtin_strchr$2;
-      return_value___builtin_strchr$2=__builtin_strchr(elem, 61);
-      pv = return_value___builtin_strchr$2;
+      char *return_value___builtin_strchr_2;
+      return_value___builtin_strchr_2=__builtin_strchr(elem, 61);
+      pv = return_value___builtin_strchr_2;
       if(!(pv == ((char *)NULL)))
       {
-        tmp_post$3 = pv;
+        tmp_post_3 = pv;
         pv = pv + 1l;
-        *tmp_post$3 = (char)0;
-        signed int return_value_tcstricmp$9;
-        return_value_tcstricmp$9=tcstricmp(elem, "host");
-        if(return_value_tcstricmp$9 == 0)
-          tmp_if_expr$11 = (_Bool)1;
+        *tmp_post_3 = (char)0;
+        signed int return_value_tcstricmp_9;
+        return_value_tcstricmp_9=tcstricmp(elem, "host");
+        if(return_value_tcstricmp_9 == 0)
+          tmp_if_expr_11 = (_Bool)1;
 
         else
         {
-          return_value_tcstricmp$10=tcstricmp(elem, "name");
-          tmp_if_expr$11 = !(return_value_tcstricmp$10 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_tcstricmp_10=tcstricmp(elem, "name");
+          tmp_if_expr_11 = !(return_value_tcstricmp_10 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$11)
+        if(tmp_if_expr_11)
         {
           tcfree((void *)host);
           host=ttbreakservexpr(pv, (signed int *)(void *)0);
@@ -5942,26 +5942,26 @@ _Bool tcrdbopen2(struct anonymous$29 *rdb, const char *expr)
 
         else
         {
-          return_value_tcstricmp$8=tcstricmp(elem, "port");
-          if(return_value_tcstricmp$8 == 0)
+          return_value_tcstricmp_8=tcstricmp(elem, "port");
+          if(return_value_tcstricmp_8 == 0)
           {
-            signed long int return_value_tcatoi$4;
-            return_value_tcatoi$4=tcatoi(pv);
-            port = (signed int)return_value_tcatoi$4;
+            signed long int return_value_tcatoi_4;
+            return_value_tcatoi_4=tcatoi(pv);
+            port = (signed int)return_value_tcatoi_4;
           }
 
           else
           {
-            return_value_tcstricmp$5=tcstricmp(elem, "tout");
-            if(return_value_tcstricmp$5 == 0)
-              tmp_if_expr$7 = (_Bool)1;
+            return_value_tcstricmp_5=tcstricmp(elem, "tout");
+            if(return_value_tcstricmp_5 == 0)
+              tmp_if_expr_7 = (_Bool)1;
 
             else
             {
-              return_value_tcstricmp$6=tcstricmp(elem, "timeout");
-              tmp_if_expr$7 = !(return_value_tcstricmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_tcstricmp_6=tcstricmp(elem, "timeout");
+              tmp_if_expr_7 = !(return_value_tcstricmp_6 != 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$7)
+            if(tmp_if_expr_7)
               tout=tcatof(pv);
 
           }
@@ -5975,9 +5975,9 @@ _Bool tcrdbopen2(struct anonymous$29 *rdb, const char *expr)
   if(tout > 0.000000)
     tcrdbtune(rdb, tout, 1);
 
-  _Bool return_value_tcrdbopen$12;
-  return_value_tcrdbopen$12=tcrdbopen(rdb, host, port);
-  if(return_value_tcrdbopen$12 == (_Bool)0)
+  _Bool return_value_tcrdbopen_12;
+  return_value_tcrdbopen_12=tcrdbopen(rdb, host, port);
+  if(return_value_tcrdbopen_12 == (_Bool)0)
     err = (_Bool)1;
 
   tcfree((void *)host);
@@ -5986,10 +5986,10 @@ _Bool tcrdbopen2(struct anonymous$29 *rdb, const char *expr)
 
 // tcrdbopenimpl
 // file tcrdb.c line 1181
-static _Bool tcrdbopenimpl(struct anonymous$29 *rdb, const char *host, signed int port)
+static _Bool tcrdbopenimpl(struct anonymous_29 *rdb, const char *host, signed int port)
 {
   /* assertion rdb && host */
-  assert(rdb != ((struct anonymous$29 *)NULL) && host != ((const char *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL) && host != ((const char *)NULL));
   if(rdb->fd >= 0)
   {
     tcrdbsetecode(rdb, 1);
@@ -6005,9 +6005,9 @@ static _Bool tcrdbopenimpl(struct anonymous$29 *rdb, const char *host, signed in
     else
     {
       char addr[1024l];
-      _Bool return_value_ttgethostaddr$1;
-      return_value_ttgethostaddr$1=ttgethostaddr(host, addr);
-      if(return_value_ttgethostaddr$1 == (_Bool)0)
+      _Bool return_value_ttgethostaddr_1;
+      return_value_ttgethostaddr_1=ttgethostaddr(host, addr);
+      if(return_value_ttgethostaddr_1 == (_Bool)0)
       {
         tcrdbsetecode(rdb, 2);
         return (_Bool)0;
@@ -6038,13 +6038,13 @@ static _Bool tcrdbopenimpl(struct anonymous$29 *rdb, const char *host, signed in
 
 // tcrdboptimize
 // file tcrdb.c line 490
-_Bool tcrdboptimize(struct anonymous$29 *rdb, const char *params)
+_Bool tcrdboptimize(struct anonymous_29 *rdb, const char *params)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -6052,7 +6052,7 @@ _Bool tcrdboptimize(struct anonymous$29 *rdb, const char *params)
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -6082,27 +6082,27 @@ _Bool tcrdboptimize(struct anonymous$29 *rdb, const char *params)
 
 // tcrdboptimizeimpl
 // file tcrdb.c line 2043
-static _Bool tcrdboptimizeimpl(struct anonymous$29 *rdb, const char *params)
+static _Bool tcrdboptimizeimpl(struct anonymous_29 *rdb, const char *params)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -6111,29 +6111,29 @@ static _Bool tcrdboptimizeimpl(struct anonymous$29 *rdb, const char *params)
     params = "";
 
   signed int psiz;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(params);
-  psiz = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(params);
+  psiz = (signed int)return_value_strlen_3;
   _Bool err = (_Bool)0;
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  + (unsigned long int)psiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$5;
-  void *return_value_tcmalloc$4;
+  unsigned char *tmp_if_expr_5;
+  void *return_value_tcmalloc_4;
   if(!(rsiz >= 65536))
-    tmp_if_expr$5 = stack;
+    tmp_if_expr_5 = stack;
 
   else
   {
-    return_value_tcmalloc$4=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$5 = (unsigned char *)return_value_tcmalloc$4;
+    return_value_tcmalloc_4=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_5 = (unsigned char *)return_value_tcmalloc_4;
   }
-  buf = tmp_if_expr$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
+  buf = tmp_if_expr_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -6148,20 +6148,20 @@ static _Bool tcrdboptimizeimpl(struct anonymous$29 *rdb, const char *params)
     do
     {
       unsigned char *wp = buf;
-      tmp_post$6 = wp;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0xc8;
-      tmp_post$7 = wp;
+      *tmp_post_6 = (unsigned char)0xc8;
+      tmp_post_7 = wp;
       wp = wp + 1l;
-      *tmp_post$7 = (unsigned char)0x71;
+      *tmp_post_7 = (unsigned char)0x71;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)psiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)psiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)psiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)psiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       memcpy((void *)wp, (const void *)params, (unsigned long int)psiz);
       wp = wp + (signed long int)psiz;
-      _Bool return_value_tcrdbsend$8;
-      return_value_tcrdbsend$8=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$8 == (_Bool)0))
+      _Bool return_value_tcrdbsend_8;
+      return_value_tcrdbsend_8=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_8 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
@@ -6189,13 +6189,13 @@ static _Bool tcrdboptimizeimpl(struct anonymous$29 *rdb, const char *params)
 
 // tcrdbout
 // file tcrdb.c line 312
-_Bool tcrdbout(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz)
+_Bool tcrdbout(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0);
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0);
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -6203,7 +6203,7 @@ _Bool tcrdbout(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz)
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -6233,40 +6233,40 @@ _Bool tcrdbout(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz)
 
 // tcrdbout2
 // file tcrdb.c line 324
-_Bool tcrdbout2(struct anonymous$29 *rdb, const char *kstr)
+_Bool tcrdbout2(struct anonymous_29 *rdb, const char *kstr)
 {
   /* assertion rdb && kstr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kstr != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(kstr);
-  _Bool return_value_tcrdbout$2;
-  return_value_tcrdbout$2=tcrdbout(rdb, (const void *)kstr, (signed int)return_value_strlen$1);
-  return return_value_tcrdbout$2;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kstr != ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(kstr);
+  _Bool return_value_tcrdbout_2;
+  return_value_tcrdbout_2=tcrdbout(rdb, (const void *)kstr, (signed int)return_value_strlen_1);
+  return return_value_tcrdbout_2;
 }
 
 // tcrdboutimpl
 // file tcrdb.c line 1485
-static _Bool tcrdboutimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz)
+static _Bool tcrdboutimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0);
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0);
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -6275,22 +6275,22 @@ static _Bool tcrdboutimpl(struct anonymous$29 *rdb, const void *kbuf, signed int
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  + (unsigned long int)ksiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
   if(!(rsiz >= 65536))
-    tmp_if_expr$4 = stack;
+    tmp_if_expr_4 = stack;
 
   else
   {
-    return_value_tcmalloc$3=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+    return_value_tcmalloc_3=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
   }
-  buf = tmp_if_expr$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  buf = tmp_if_expr_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -6305,20 +6305,20 @@ static _Bool tcrdboutimpl(struct anonymous$29 *rdb, const void *kbuf, signed int
     do
     {
       unsigned char *wp = buf;
-      tmp_post$5 = wp;
+      tmp_post_5 = wp;
       wp = wp + 1l;
-      *tmp_post$5 = (unsigned char)0xc8;
-      tmp_post$6 = wp;
+      *tmp_post_5 = (unsigned char)0xc8;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0x20;
+      *tmp_post_6 = (unsigned char)0x20;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)ksiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       memcpy((void *)wp, kbuf, (unsigned long int)ksiz);
       wp = wp + (signed long int)ksiz;
-      _Bool return_value_tcrdbsend$7;
-      return_value_tcrdbsend$7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$7 == (_Bool)0))
+      _Bool return_value_tcrdbsend_7;
+      return_value_tcrdbsend_7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_7 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
@@ -6346,80 +6346,80 @@ static _Bool tcrdboutimpl(struct anonymous$29 *rdb, const void *kbuf, signed int
 
 // tcrdbparasearch
 // file tcrdb.c line 936
-struct anonymous$1 * tcrdbparasearch(struct anonymous$30 **qrys, signed int num)
+struct anonymous_1 * tcrdbparasearch(struct anonymous_30 **qrys, signed int num)
 {
   /* assertion qrys && num >= 0 */
-  assert(qrys != ((struct anonymous$30 **)NULL) && num >= 0);
-  struct anonymous$1 *return_value_tclistnew2$1;
-  struct anonymous$1 *return_value_tcrdbqrysearchget$2;
-  signed int return_value_tclistnum$3;
-  signed int tmp_statement_expression$17;
-  const char *return_value_tclistval2$5;
-  signed long int return_value_tcatoi$6;
-  const char *return_value_tclistval2$8;
-  signed long int return_value_tcatoi$9;
-  signed int tmp_statement_expression$15;
-  unsigned long int tmp_if_expr$20;
-  unsigned long int return_value_strlen$19;
+  assert(qrys != ((struct anonymous_30 **)NULL) && num >= 0);
+  struct anonymous_1 *return_value_tclistnew2_1;
+  struct anonymous_1 *return_value_tcrdbqrysearchget_2;
+  signed int return_value_tclistnum_3;
+  signed int tmp_statement_expression_17;
+  const char *return_value_tclistval2_5;
+  signed long int return_value_tcatoi_6;
+  const char *return_value_tclistval2_8;
+  signed long int return_value_tcatoi_9;
+  signed int tmp_statement_expression_15;
+  unsigned long int tmp_if_expr_20;
+  unsigned long int return_value_strlen_19;
   if(!(num >= 1))
   {
-    return_value_tclistnew2$1=tclistnew2(1);
-    return return_value_tclistnew2$1;
+    return_value_tclistnew2_1=tclistnew2(1);
+    return return_value_tclistnew2_1;
   }
 
   else
     if(!(num >= 2))
     {
-      return_value_tcrdbqrysearchget$2=tcrdbqrysearchget(qrys[(signed long int)0]);
-      return return_value_tcrdbqrysearchget$2;
+      return_value_tcrdbqrysearchget_2=tcrdbqrysearchget(qrys[(signed long int)0]);
+      return return_value_tcrdbqrysearchget_2;
     }
 
     else
     {
       signed int ocs = 1;
       pthread_setcancelstate(1, &ocs);
-      struct anonymous$1 *oargs = qrys[(signed long int)0]->args;
+      struct anonymous_1 *oargs = qrys[(signed long int)0]->args;
       char *oname = (char *)(void *)0;
       signed int otype = 0;
       signed int max = 0x7fffffff / 2;
       signed int skip = 0;
-      signed int tcrdbparasearch$$1$$1$$i = 0;
+      signed int tcrdbparasearch__1__1__i = 0;
       do
       {
-        return_value_tclistnum$3=tclistnum(oargs);
-        if(tcrdbparasearch$$1$$1$$i >= return_value_tclistnum$3)
+        return_value_tclistnum_3=tclistnum(oargs);
+        if(tcrdbparasearch__1__1__i >= return_value_tclistnum_3)
           break;
 
-        signed int tcrdbparasearch$$1$$1$$1$$osiz;
-        const char *tcrdbparasearch$$1$$1$$1$$obuf;
-        const void *return_value_tclistval$4;
-        return_value_tclistval$4=tclistval(oargs, tcrdbparasearch$$1$$1$$i, &tcrdbparasearch$$1$$1$$1$$osiz);
-        tcrdbparasearch$$1$$1$$1$$obuf = (const char *)return_value_tclistval$4;
+        signed int tcrdbparasearch__1__1__1__osiz;
+        const char *tcrdbparasearch__1__1__1__obuf;
+        const void *return_value_tclistval_4;
+        return_value_tclistval_4=tclistval(oargs, tcrdbparasearch__1__1__i, &tcrdbparasearch__1__1__1__osiz);
+        tcrdbparasearch__1__1__1__obuf = (const char *)return_value_tclistval_4;
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$18;
-        return_value___builtin_strcmp$18=__builtin_strcmp(tcrdbparasearch$$1$$1$$1$$obuf, "setlimit");
-        tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-        if(tmp_statement_expression$17 == 0)
+        signed int return_value___builtin_strcmp_18;
+        return_value___builtin_strcmp_18=__builtin_strcmp(tcrdbparasearch__1__1__1__obuf, "setlimit");
+        tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+        if(tmp_statement_expression_17 == 0)
         {
-          struct anonymous$1 *elems;
-          elems=tcstrsplit2((const void *)tcrdbparasearch$$1$$1$$1$$obuf, tcrdbparasearch$$1$$1$$1$$osiz);
-          signed int return_value_tclistnum$7;
-          return_value_tclistnum$7=tclistnum(elems);
-          if(return_value_tclistnum$7 >= 2)
+          struct anonymous_1 *elems;
+          elems=tcstrsplit2((const void *)tcrdbparasearch__1__1__1__obuf, tcrdbparasearch__1__1__1__osiz);
+          signed int return_value_tclistnum_7;
+          return_value_tclistnum_7=tclistnum(elems);
+          if(return_value_tclistnum_7 >= 2)
           {
-            return_value_tclistval2$5=tclistval2(elems, 1);
-            return_value_tcatoi$6=tcatoi(return_value_tclistval2$5);
-            max = (signed int)return_value_tcatoi$6;
+            return_value_tclistval2_5=tclistval2(elems, 1);
+            return_value_tcatoi_6=tcatoi(return_value_tclistval2_5);
+            max = (signed int)return_value_tcatoi_6;
           }
 
-          signed int return_value_tclistnum$10;
-          return_value_tclistnum$10=tclistnum(elems);
-          if(return_value_tclistnum$10 >= 3)
+          signed int return_value_tclistnum_10;
+          return_value_tclistnum_10=tclistnum(elems);
+          if(return_value_tclistnum_10 >= 3)
           {
-            return_value_tclistval2$8=tclistval2(elems, 2);
-            return_value_tcatoi$9=tcatoi(return_value_tclistval2$8);
-            skip = (signed int)return_value_tcatoi$9;
+            return_value_tclistval2_8=tclistval2(elems, 2);
+            return_value_tcatoi_9=tcatoi(return_value_tclistval2_8);
+            skip = (signed int)return_value_tcatoi_9;
           }
 
           tclistdel(elems);
@@ -6427,124 +6427,124 @@ struct anonymous$1 * tcrdbparasearch(struct anonymous$30 **qrys, signed int num)
 
         else
         {
-          unsigned long int tcrdbparasearch$$1$$1$$1$$3$$__s1_len;
-          unsigned long int tcrdbparasearch$$1$$1$$1$$3$$__s2_len;
-          signed int return_value___builtin_strcmp$16;
-          return_value___builtin_strcmp$16=__builtin_strcmp(tcrdbparasearch$$1$$1$$1$$obuf, "setorder");
-          tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-          if(tmp_statement_expression$15 == 0)
+          unsigned long int tcrdbparasearch__1__1__1__3____s1_len;
+          unsigned long int tcrdbparasearch__1__1__1__3____s2_len;
+          signed int return_value___builtin_strcmp_16;
+          return_value___builtin_strcmp_16=__builtin_strcmp(tcrdbparasearch__1__1__1__obuf, "setorder");
+          tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+          if(tmp_statement_expression_15 == 0)
           {
-            struct anonymous$1 *tcrdbparasearch$$1$$1$$1$$4$$elems;
-            tcrdbparasearch$$1$$1$$1$$4$$elems=tcstrsplit2((const void *)tcrdbparasearch$$1$$1$$1$$obuf, tcrdbparasearch$$1$$1$$1$$osiz);
-            signed int return_value_tclistnum$14;
-            return_value_tclistnum$14=tclistnum(tcrdbparasearch$$1$$1$$1$$4$$elems);
-            if(return_value_tclistnum$14 >= 3)
+            struct anonymous_1 *tcrdbparasearch__1__1__1__4__elems;
+            tcrdbparasearch__1__1__1__4__elems=tcstrsplit2((const void *)tcrdbparasearch__1__1__1__obuf, tcrdbparasearch__1__1__1__osiz);
+            signed int return_value_tclistnum_14;
+            return_value_tclistnum_14=tclistnum(tcrdbparasearch__1__1__1__4__elems);
+            if(return_value_tclistnum_14 >= 3)
             {
-              const char *return_value_tclistval2$11;
-              return_value_tclistval2$11=tclistval2(tcrdbparasearch$$1$$1$$1$$4$$elems, 1);
-              oname=tcstrdup((const void *)return_value_tclistval2$11);
-              const char *return_value_tclistval2$12;
-              return_value_tclistval2$12=tclistval2(tcrdbparasearch$$1$$1$$1$$4$$elems, 2);
-              signed long int return_value_tcatoi$13;
-              return_value_tcatoi$13=tcatoi(return_value_tclistval2$12);
-              otype = (signed int)return_value_tcatoi$13;
+              const char *return_value_tclistval2_11;
+              return_value_tclistval2_11=tclistval2(tcrdbparasearch__1__1__1__4__elems, 1);
+              oname=tcstrdup((const void *)return_value_tclistval2_11);
+              const char *return_value_tclistval2_12;
+              return_value_tclistval2_12=tclistval2(tcrdbparasearch__1__1__1__4__elems, 2);
+              signed long int return_value_tcatoi_13;
+              return_value_tcatoi_13=tcatoi(return_value_tclistval2_12);
+              otype = (signed int)return_value_tcatoi_13;
             }
 
-            tclistdel(tcrdbparasearch$$1$$1$$1$$4$$elems);
+            tclistdel(tcrdbparasearch__1__1__1__4__elems);
           }
 
         }
-        tcrdbparasearch$$1$$1$$i = tcrdbparasearch$$1$$1$$i + 1;
+        tcrdbparasearch__1__1__i = tcrdbparasearch__1__1__i + 1;
       }
       while((_Bool)1);
       signed int onsiz;
       if(!(oname == ((char *)NULL)))
       {
-        return_value_strlen$19=strlen(oname);
-        tmp_if_expr$20 = return_value_strlen$19;
+        return_value_strlen_19=strlen(oname);
+        tmp_if_expr_20 = return_value_strlen_19;
       }
 
       else
-        tmp_if_expr$20 = (unsigned long int)0;
-      onsiz = (signed int)tmp_if_expr$20;
+        tmp_if_expr_20 = (unsigned long int)0;
+      onsiz = (signed int)tmp_if_expr_20;
       if(max >= 1073741824 || !(max >= 1))
         max = 0x7fffffff / 2;
 
       if(!(skip >= 0))
         skip = 0;
 
-      const signed long int onsiz$array_size0 = (signed long int)num;
-      struct anonymous$36 args[onsiz$array_size0];
+      const signed long int onsiz_array_size0 = (signed long int)num;
+      struct anonymous_36 args[onsiz_array_size0];
       signed int i = 0;
       for( ; !(i >= num); i = i + 1)
       {
-        struct anonymous$36 *arg = args + (signed long int)i;
+        struct anonymous_36 *arg = args + (signed long int)i;
         arg->qry = qrys[(signed long int)i];
-        arg->res = (struct anonymous$1 *)(void *)0;
+        arg->res = (struct anonymous_1 *)(void *)0;
         arg->max = max;
         arg->skip = skip;
-        signed int return_value_pthread_create$21;
-        return_value_pthread_create$21=pthread_create(&arg->tid, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))tcrdbparasearchworker, (void *)arg);
-        if(!(return_value_pthread_create$21 == 0))
-          arg->qry = (struct anonymous$30 *)(void *)0;
+        signed int return_value_pthread_create_21;
+        return_value_pthread_create_21=pthread_create(&arg->tid, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))tcrdbparasearchworker, (void *)arg);
+        if(!(return_value_pthread_create_21 == 0))
+          arg->qry = (struct anonymous_30 *)(void *)0;
 
       }
       signed int all = 0;
-      signed int tcrdbparasearch$$1$$3$$i = 0;
-      for( ; !(tcrdbparasearch$$1$$3$$i >= num); tcrdbparasearch$$1$$3$$i = tcrdbparasearch$$1$$3$$i + 1)
+      signed int tcrdbparasearch__1__3__i = 0;
+      for( ; !(tcrdbparasearch__1__3__i >= num); tcrdbparasearch__1__3__i = tcrdbparasearch__1__3__i + 1)
       {
-        struct anonymous$36 *tcrdbparasearch$$1$$3$$1$$arg = args + (signed long int)tcrdbparasearch$$1$$3$$i;
-        if(!(tcrdbparasearch$$1$$3$$1$$arg->qry == ((struct anonymous$30 *)NULL)))
-          pthread_join(tcrdbparasearch$$1$$3$$1$$arg->tid, (void **)(void *)0);
+        struct anonymous_36 *tcrdbparasearch__1__3__1__arg = args + (signed long int)tcrdbparasearch__1__3__i;
+        if(!(tcrdbparasearch__1__3__1__arg->qry == ((struct anonymous_30 *)NULL)))
+          pthread_join(tcrdbparasearch__1__3__1__arg->tid, (void **)(void *)0);
 
-        if(!(tcrdbparasearch$$1$$3$$1$$arg->res == ((struct anonymous$1 *)NULL)))
+        if(!(tcrdbparasearch__1__3__1__arg->res == ((struct anonymous_1 *)NULL)))
         {
-          tcrdbqrypopmeta(tcrdbparasearch$$1$$3$$1$$arg->qry, tcrdbparasearch$$1$$3$$1$$arg->res);
-          signed int return_value_tclistnum$22;
-          return_value_tclistnum$22=tclistnum(tcrdbparasearch$$1$$3$$1$$arg->res);
-          all = all + return_value_tclistnum$22;
+          tcrdbqrypopmeta(tcrdbparasearch__1__3__1__arg->qry, tcrdbparasearch__1__3__1__arg->res);
+          signed int return_value_tclistnum_22;
+          return_value_tclistnum_22=tclistnum(tcrdbparasearch__1__3__1__arg->res);
+          all = all + return_value_tclistnum_22;
         }
 
       }
-      struct anonymous$37 *recs;
-      void *return_value_tcmalloc$23;
-      return_value_tcmalloc$23=tcmalloc(sizeof(struct anonymous$37) /*32ul*/  * (unsigned long int)all + (unsigned long int)1);
-      recs = (struct anonymous$37 *)return_value_tcmalloc$23;
+      struct anonymous_37 *recs;
+      void *return_value_tcmalloc_23;
+      return_value_tcmalloc_23=tcmalloc(sizeof(struct anonymous_37) /*32ul*/  * (unsigned long int)all + (unsigned long int)1);
+      recs = (struct anonymous_37 *)return_value_tcmalloc_23;
       signed int rnum = 0;
-      signed int tcrdbparasearch$$1$$4$$i = 0;
-      for( ; !(tcrdbparasearch$$1$$4$$i >= num); tcrdbparasearch$$1$$4$$i = tcrdbparasearch$$1$$4$$i + 1)
+      signed int tcrdbparasearch__1__4__i = 0;
+      for( ; !(tcrdbparasearch__1__4__i >= num); tcrdbparasearch__1__4__i = tcrdbparasearch__1__4__i + 1)
       {
-        struct anonymous$36 *tcrdbparasearch$$1$$4$$1$$arg = args + (signed long int)tcrdbparasearch$$1$$4$$i;
-        if(!(tcrdbparasearch$$1$$4$$1$$arg->res == ((struct anonymous$1 *)NULL)))
+        struct anonymous_36 *tcrdbparasearch__1__4__1__arg = args + (signed long int)tcrdbparasearch__1__4__i;
+        if(!(tcrdbparasearch__1__4__1__arg->res == ((struct anonymous_1 *)NULL)))
         {
           signed int tnum;
-          tnum=tclistnum(tcrdbparasearch$$1$$4$$1$$arg->res);
+          tnum=tclistnum(tcrdbparasearch__1__4__1__arg->res);
           signed int j = 0;
           for( ; !(j >= tnum); j = j + 1)
           {
             signed int csiz;
             const char *cbuf;
-            const void *return_value_tclistval$24;
-            return_value_tclistval$24=tclistval(tcrdbparasearch$$1$$4$$1$$arg->res, j, &csiz);
-            cbuf = (const char *)return_value_tclistval$24;
+            const void *return_value_tclistval_24;
+            return_value_tclistval_24=tclistval(tcrdbparasearch__1__4__1__arg->res, j, &csiz);
+            cbuf = (const char *)return_value_tclistval_24;
             (recs + (signed long int)rnum)->cbuf = cbuf;
             (recs + (signed long int)rnum)->csiz = csiz;
             (recs + (signed long int)rnum)->obuf = (char *)(void *)0;
             (recs + (signed long int)rnum)->osiz = 0;
             if(!(oname == ((char *)NULL)))
             {
-              struct anonymous$25 *cols;
+              struct anonymous_25 *cols;
               cols=tcstrsplit4((const void *)cbuf, csiz);
               signed int osiz;
               const char *obuf;
-              const void *return_value_tcmapget$25;
-              return_value_tcmapget$25=tcmapget(cols, (const void *)oname, onsiz, &osiz);
-              obuf = (const char *)return_value_tcmapget$25;
+              const void *return_value_tcmapget_25;
+              return_value_tcmapget_25=tcmapget(cols, (const void *)oname, onsiz, &osiz);
+              obuf = (const char *)return_value_tcmapget_25;
               if(!(obuf == ((const char *)NULL)))
               {
-                void *return_value_tcmemdup$26;
-                return_value_tcmemdup$26=tcmemdup((const void *)obuf, (unsigned long int)osiz);
-                (recs + (signed long int)rnum)->obuf = (char *)return_value_tcmemdup$26;
+                void *return_value_tcmemdup_26;
+                return_value_tcmemdup_26=tcmemdup((const void *)obuf, (unsigned long int)osiz);
+                (recs + (signed long int)rnum)->obuf = (char *)return_value_tcmemdup_26;
                 (recs + (signed long int)rnum)->osiz = osiz;
               }
 
@@ -6558,7 +6558,7 @@ struct anonymous$1 * tcrdbparasearch(struct anonymous$30 **qrys, signed int num)
       }
       if(!(oname == ((char *)NULL)))
       {
-        signed int (*compar)(const struct anonymous$37 *, const struct anonymous$37 *) = (signed int (*)(const struct anonymous$37 *, const struct anonymous$37 *))(void *)0;
+        signed int (*compar)(const struct anonymous_37 *, const struct anonymous_37 *) = (signed int (*)(const struct anonymous_37 *, const struct anonymous_37 *))(void *)0;
         switch(otype)
         {
           case 0:
@@ -6579,27 +6579,27 @@ struct anonymous$1 * tcrdbparasearch(struct anonymous$30 **qrys, signed int num)
           case 3:
             compar = rdbcmpsortrecnumdesc;
         }
-        if(!(compar == ((signed int (*)(const struct anonymous$37 *, const struct anonymous$37 *))NULL)))
-          qsort((void *)recs, (unsigned long int)rnum, sizeof(struct anonymous$37) /*32ul*/ , (signed int (*)(const void *, const void *))compar);
+        if(!(compar == ((signed int (*)(const struct anonymous_37 *, const struct anonymous_37 *))NULL)))
+          qsort((void *)recs, (unsigned long int)rnum, sizeof(struct anonymous_37) /*32ul*/ , (signed int (*)(const void *, const void *))compar);
 
-        signed int tcrdbparasearch$$1$$5$$2$$i = 0;
-        for( ; !(tcrdbparasearch$$1$$5$$2$$i >= rnum); tcrdbparasearch$$1$$5$$2$$i = tcrdbparasearch$$1$$5$$2$$i + 1)
-          tcfree((void *)(recs + (signed long int)tcrdbparasearch$$1$$5$$2$$i)->obuf);
+        signed int tcrdbparasearch__1__5__2__i = 0;
+        for( ; !(tcrdbparasearch__1__5__2__i >= rnum); tcrdbparasearch__1__5__2__i = tcrdbparasearch__1__5__2__i + 1)
+          tcfree((void *)(recs + (signed long int)tcrdbparasearch__1__5__2__i)->obuf);
       }
 
-      struct anonymous$1 *res;
-      signed long int return_value_tclmin$27;
-      return_value_tclmin$27=tclmin((signed long int)rnum, (signed long int)max);
-      res=tclistnew2((signed int)return_value_tclmin$27);
-      struct anonymous$25 *uset;
+      struct anonymous_1 *res;
+      signed long int return_value_tclmin_27;
+      return_value_tclmin_27=tclmin((signed long int)rnum, (signed long int)max);
+      res=tclistnew2((signed int)return_value_tclmin_27);
+      struct anonymous_25 *uset;
       uset=tcmapnew2((unsigned int)(rnum + 1));
-      signed int tcrdbparasearch$$1$$6$$i = 0;
-      for( ; max >= 1 && !(tcrdbparasearch$$1$$6$$i >= rnum); tcrdbparasearch$$1$$6$$i = tcrdbparasearch$$1$$6$$i + 1)
+      signed int tcrdbparasearch__1__6__i = 0;
+      for( ; max >= 1 && !(tcrdbparasearch__1__6__i >= rnum); tcrdbparasearch__1__6__i = tcrdbparasearch__1__6__i + 1)
       {
-        struct anonymous$37 *rec = recs + (signed long int)tcrdbparasearch$$1$$6$$i;
-        _Bool return_value_tcmapputkeep$28;
-        return_value_tcmapputkeep$28=tcmapputkeep(uset, (const void *)rec->cbuf, rec->csiz, (const void *)"", 0);
-        if(!(return_value_tcmapputkeep$28 == (_Bool)0))
+        struct anonymous_37 *rec = recs + (signed long int)tcrdbparasearch__1__6__i;
+        _Bool return_value_tcmapputkeep_28;
+        return_value_tcmapputkeep_28=tcmapputkeep(uset, (const void *)rec->cbuf, rec->csiz, (const void *)"", 0);
+        if(!(return_value_tcmapputkeep_28 == (_Bool)0))
         {
           if(skip >= 1)
             skip = skip - 1;
@@ -6613,12 +6613,12 @@ struct anonymous$1 * tcrdbparasearch(struct anonymous$30 **qrys, signed int num)
 
       }
       tcmapdel(uset);
-      signed int tcrdbparasearch$$1$$7$$i = 0;
-      for( ; !(tcrdbparasearch$$1$$7$$i >= num); tcrdbparasearch$$1$$7$$i = tcrdbparasearch$$1$$7$$i + 1)
+      signed int tcrdbparasearch__1__7__i = 0;
+      for( ; !(tcrdbparasearch__1__7__i >= num); tcrdbparasearch__1__7__i = tcrdbparasearch__1__7__i + 1)
       {
-        struct anonymous$36 *tcrdbparasearch$$1$$7$$1$$arg = args + (signed long int)tcrdbparasearch$$1$$7$$i;
-        if(!(tcrdbparasearch$$1$$7$$1$$arg->res == ((struct anonymous$1 *)NULL)))
-          tclistdel(tcrdbparasearch$$1$$7$$1$$arg->res);
+        struct anonymous_36 *tcrdbparasearch__1__7__1__arg = args + (signed long int)tcrdbparasearch__1__7__i;
+        if(!(tcrdbparasearch__1__7__1__arg->res == ((struct anonymous_1 *)NULL)))
+          tclistdel(tcrdbparasearch__1__7__1__arg->res);
 
       }
       tcfree((void *)recs);
@@ -6630,26 +6630,26 @@ struct anonymous$1 * tcrdbparasearch(struct anonymous$30 **qrys, signed int num)
 
 // tcrdbparasearchworker
 // file tcrdb.c line 2491
-static void * tcrdbparasearchworker(struct anonymous$36 *arg)
+static void * tcrdbparasearchworker(struct anonymous_36 *arg)
 {
   /* assertion arg */
-  assert(arg != ((struct anonymous$36 *)NULL));
-  struct anonymous$30 *qry = arg->qry;
-  struct anonymous$1 *args;
+  assert(arg != ((struct anonymous_36 *)NULL));
+  struct anonymous_30 *qry = arg->qry;
+  struct anonymous_1 *args;
   args=tclistdup(qry->args);
   tclistpush2(args, "get");
-  struct anonymous$27 *xstr;
+  struct anonymous_27 *xstr;
   xstr=tcxstrnew();
   tcxstrcat2(xstr, "setlimit");
   tcxstrcat(xstr, (const void *)"\0", 1);
   tcxstrprintf(xstr, "%d", arg->max + arg->skip);
   tcxstrcat(xstr, (const void *)"\0", 1);
   tcxstrprintf(xstr, "%d", 0);
-  const void *return_value_tcxstrptr$1;
-  return_value_tcxstrptr$1=tcxstrptr(xstr);
-  signed int return_value_tcxstrsize$2;
-  return_value_tcxstrsize$2=tcxstrsize(xstr);
-  tclistpush(args, return_value_tcxstrptr$1, return_value_tcxstrsize$2);
+  const void *return_value_tcxstrptr_1;
+  return_value_tcxstrptr_1=tcxstrptr(xstr);
+  signed int return_value_tcxstrsize_2;
+  return_value_tcxstrsize_2=tcxstrsize(xstr);
+  tclistpush(args, return_value_tcxstrptr_1, return_value_tcxstrsize_2);
   tcxstrdel(xstr);
   arg->res=tcrdbmisc(qry->rdb, "search", 1, args);
   tclistdel(args);
@@ -6658,13 +6658,13 @@ static void * tcrdbparasearchworker(struct anonymous$36 *arg)
 
 // tcrdbput
 // file tcrdb.c line 217
-_Bool tcrdbput(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+_Bool tcrdbput(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -6672,7 +6672,7 @@ _Bool tcrdbput(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, cons
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -6702,28 +6702,28 @@ _Bool tcrdbput(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, cons
 
 // tcrdbput2
 // file tcrdb.c line 229
-_Bool tcrdbput2(struct anonymous$29 *rdb, const char *kstr, const char *vstr)
+_Bool tcrdbput2(struct anonymous_29 *rdb, const char *kstr, const char *vstr)
 {
   /* assertion rdb && kstr && vstr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(kstr);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(vstr);
-  _Bool return_value_tcrdbput$3;
-  return_value_tcrdbput$3=tcrdbput(rdb, (const void *)kstr, (signed int)return_value_strlen$1, (const void *)vstr, (signed int)return_value_strlen$2);
-  return return_value_tcrdbput$3;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(kstr);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(vstr);
+  _Bool return_value_tcrdbput_3;
+  return_value_tcrdbput_3=tcrdbput(rdb, (const void *)kstr, (signed int)return_value_strlen_1, (const void *)vstr, (signed int)return_value_strlen_2);
+  return return_value_tcrdbput_3;
 }
 
 // tcrdbputcat
 // file tcrdb.c line 255
-_Bool tcrdbputcat(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+_Bool tcrdbputcat(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -6731,7 +6731,7 @@ _Bool tcrdbputcat(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, c
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -6761,42 +6761,42 @@ _Bool tcrdbputcat(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, c
 
 // tcrdbputcat2
 // file tcrdb.c line 267
-_Bool tcrdbputcat2(struct anonymous$29 *rdb, const char *kstr, const char *vstr)
+_Bool tcrdbputcat2(struct anonymous_29 *rdb, const char *kstr, const char *vstr)
 {
   /* assertion rdb && kstr && vstr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(kstr);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(vstr);
-  _Bool return_value_tcrdbputcat$3;
-  return_value_tcrdbputcat$3=tcrdbputcat(rdb, (const void *)kstr, (signed int)return_value_strlen$1, (const void *)vstr, (signed int)return_value_strlen$2);
-  return return_value_tcrdbputcat$3;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(kstr);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(vstr);
+  _Bool return_value_tcrdbputcat_3;
+  return_value_tcrdbputcat_3=tcrdbputcat(rdb, (const void *)kstr, (signed int)return_value_strlen_1, (const void *)vstr, (signed int)return_value_strlen_2);
+  return return_value_tcrdbputcat_3;
 }
 
 // tcrdbputcatimpl
 // file tcrdb.c line 1343
-static _Bool tcrdbputcatimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+static _Bool tcrdbputcatimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -6805,22 +6805,22 @@ static _Bool tcrdbputcatimpl(struct anonymous$29 *rdb, const void *kbuf, signed 
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2 + (unsigned long int)ksiz + (unsigned long int)vsiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
   if(!(rsiz >= 65536))
-    tmp_if_expr$4 = stack;
+    tmp_if_expr_4 = stack;
 
   else
   {
-    return_value_tcmalloc$3=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+    return_value_tcmalloc_3=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
   }
-  buf = tmp_if_expr$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  buf = tmp_if_expr_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -6835,12 +6835,12 @@ static _Bool tcrdbputcatimpl(struct anonymous$29 *rdb, const void *kbuf, signed 
     do
     {
       unsigned char *wp = buf;
-      tmp_post$5 = wp;
+      tmp_post_5 = wp;
       wp = wp + 1l;
-      *tmp_post$5 = (unsigned char)0xc8;
-      tmp_post$6 = wp;
+      *tmp_post_5 = (unsigned char)0xc8;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0x12;
+      *tmp_post_6 = (unsigned char)0x12;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)ksiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -6851,9 +6851,9 @@ static _Bool tcrdbputcatimpl(struct anonymous$29 *rdb, const void *kbuf, signed 
       wp = wp + (signed long int)ksiz;
       memcpy((void *)wp, vbuf, (unsigned long int)vsiz);
       wp = wp + (signed long int)vsiz;
-      _Bool return_value_tcrdbsend$7;
-      return_value_tcrdbsend$7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$7 == (_Bool)0))
+      _Bool return_value_tcrdbsend_7;
+      return_value_tcrdbsend_7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_7 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
@@ -6881,27 +6881,27 @@ static _Bool tcrdbputcatimpl(struct anonymous$29 *rdb, const void *kbuf, signed 
 
 // tcrdbputimpl
 // file tcrdb.c line 1245
-static _Bool tcrdbputimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+static _Bool tcrdbputimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -6910,22 +6910,22 @@ static _Bool tcrdbputimpl(struct anonymous$29 *rdb, const void *kbuf, signed int
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2 + (unsigned long int)ksiz + (unsigned long int)vsiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
   if(!(rsiz >= 65536))
-    tmp_if_expr$4 = stack;
+    tmp_if_expr_4 = stack;
 
   else
   {
-    return_value_tcmalloc$3=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+    return_value_tcmalloc_3=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
   }
-  buf = tmp_if_expr$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  buf = tmp_if_expr_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -6940,12 +6940,12 @@ static _Bool tcrdbputimpl(struct anonymous$29 *rdb, const void *kbuf, signed int
     do
     {
       unsigned char *wp = buf;
-      tmp_post$5 = wp;
+      tmp_post_5 = wp;
       wp = wp + 1l;
-      *tmp_post$5 = (unsigned char)0xc8;
-      tmp_post$6 = wp;
+      *tmp_post_5 = (unsigned char)0xc8;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0x10;
+      *tmp_post_6 = (unsigned char)0x10;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)ksiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -6956,9 +6956,9 @@ static _Bool tcrdbputimpl(struct anonymous$29 *rdb, const void *kbuf, signed int
       wp = wp + (signed long int)ksiz;
       memcpy((void *)wp, vbuf, (unsigned long int)vsiz);
       wp = wp + (signed long int)vsiz;
-      _Bool return_value_tcrdbsend$7;
-      return_value_tcrdbsend$7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$7 == (_Bool)0))
+      _Bool return_value_tcrdbsend_7;
+      return_value_tcrdbsend_7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_7 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
@@ -6986,13 +6986,13 @@ static _Bool tcrdbputimpl(struct anonymous$29 *rdb, const void *kbuf, signed int
 
 // tcrdbputkeep
 // file tcrdb.c line 236
-_Bool tcrdbputkeep(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+_Bool tcrdbputkeep(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -7000,7 +7000,7 @@ _Bool tcrdbputkeep(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, 
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -7030,42 +7030,42 @@ _Bool tcrdbputkeep(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, 
 
 // tcrdbputkeep2
 // file tcrdb.c line 248
-_Bool tcrdbputkeep2(struct anonymous$29 *rdb, const char *kstr, const char *vstr)
+_Bool tcrdbputkeep2(struct anonymous_29 *rdb, const char *kstr, const char *vstr)
 {
   /* assertion rdb && kstr && vstr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(kstr);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(vstr);
-  _Bool return_value_tcrdbputkeep$3;
-  return_value_tcrdbputkeep$3=tcrdbputkeep(rdb, (const void *)kstr, (signed int)return_value_strlen$1, (const void *)vstr, (signed int)return_value_strlen$2);
-  return return_value_tcrdbputkeep$3;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(kstr);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(vstr);
+  _Bool return_value_tcrdbputkeep_3;
+  return_value_tcrdbputkeep_3=tcrdbputkeep(rdb, (const void *)kstr, (signed int)return_value_strlen_1, (const void *)vstr, (signed int)return_value_strlen_2);
+  return return_value_tcrdbputkeep_3;
 }
 
 // tcrdbputkeepimpl
 // file tcrdb.c line 1294
-static _Bool tcrdbputkeepimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+static _Bool tcrdbputkeepimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -7074,22 +7074,22 @@ static _Bool tcrdbputkeepimpl(struct anonymous$29 *rdb, const void *kbuf, signed
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2 + (unsigned long int)ksiz + (unsigned long int)vsiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
   if(!(rsiz >= 65536))
-    tmp_if_expr$4 = stack;
+    tmp_if_expr_4 = stack;
 
   else
   {
-    return_value_tcmalloc$3=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+    return_value_tcmalloc_3=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
   }
-  buf = tmp_if_expr$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  buf = tmp_if_expr_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -7104,12 +7104,12 @@ static _Bool tcrdbputkeepimpl(struct anonymous$29 *rdb, const void *kbuf, signed
     do
     {
       unsigned char *wp = buf;
-      tmp_post$5 = wp;
+      tmp_post_5 = wp;
       wp = wp + 1l;
-      *tmp_post$5 = (unsigned char)0xc8;
-      tmp_post$6 = wp;
+      *tmp_post_5 = (unsigned char)0xc8;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0x11;
+      *tmp_post_6 = (unsigned char)0x11;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)ksiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -7120,9 +7120,9 @@ static _Bool tcrdbputkeepimpl(struct anonymous$29 *rdb, const void *kbuf, signed
       wp = wp + (signed long int)ksiz;
       memcpy((void *)wp, vbuf, (unsigned long int)vsiz);
       wp = wp + (signed long int)vsiz;
-      _Bool return_value_tcrdbsend$7;
-      return_value_tcrdbsend$7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$7 == (_Bool)0))
+      _Bool return_value_tcrdbsend_7;
+      return_value_tcrdbsend_7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_7 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
@@ -7150,13 +7150,13 @@ static _Bool tcrdbputkeepimpl(struct anonymous$29 *rdb, const void *kbuf, signed
 
 // tcrdbputnr
 // file tcrdb.c line 293
-_Bool tcrdbputnr(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+_Bool tcrdbputnr(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -7164,7 +7164,7 @@ _Bool tcrdbputnr(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, co
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -7194,42 +7194,42 @@ _Bool tcrdbputnr(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, co
 
 // tcrdbputnr2
 // file tcrdb.c line 305
-_Bool tcrdbputnr2(struct anonymous$29 *rdb, const char *kstr, const char *vstr)
+_Bool tcrdbputnr2(struct anonymous_29 *rdb, const char *kstr, const char *vstr)
 {
   /* assertion rdb && kstr && vstr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(kstr);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(vstr);
-  _Bool return_value_tcrdbputnr$3;
-  return_value_tcrdbputnr$3=tcrdbputnr(rdb, (const void *)kstr, (signed int)return_value_strlen$1, (const void *)vstr, (signed int)return_value_strlen$2);
-  return return_value_tcrdbputnr$3;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(kstr);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(vstr);
+  _Bool return_value_tcrdbputnr_3;
+  return_value_tcrdbputnr_3=tcrdbputnr(rdb, (const void *)kstr, (signed int)return_value_strlen_1, (const void *)vstr, (signed int)return_value_strlen_2);
+  return return_value_tcrdbputnr_3;
 }
 
 // tcrdbputnrimpl
 // file tcrdb.c line 1446
-static _Bool tcrdbputnrimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+static _Bool tcrdbputnrimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -7238,22 +7238,22 @@ static _Bool tcrdbputnrimpl(struct anonymous$29 *rdb, const void *kbuf, signed i
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2 + (unsigned long int)ksiz + (unsigned long int)vsiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
   if(!(rsiz >= 65536))
-    tmp_if_expr$4 = stack;
+    tmp_if_expr_4 = stack;
 
   else
   {
-    return_value_tcmalloc$3=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+    return_value_tcmalloc_3=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
   }
-  buf = tmp_if_expr$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  buf = tmp_if_expr_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -7268,12 +7268,12 @@ static _Bool tcrdbputnrimpl(struct anonymous$29 *rdb, const void *kbuf, signed i
     do
     {
       unsigned char *wp = buf;
-      tmp_post$5 = wp;
+      tmp_post_5 = wp;
       wp = wp + 1l;
-      *tmp_post$5 = (unsigned char)0xc8;
-      tmp_post$6 = wp;
+      *tmp_post_5 = (unsigned char)0xc8;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0x18;
+      *tmp_post_6 = (unsigned char)0x18;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)ksiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -7284,9 +7284,9 @@ static _Bool tcrdbputnrimpl(struct anonymous$29 *rdb, const void *kbuf, signed i
       wp = wp + (signed long int)ksiz;
       memcpy((void *)wp, vbuf, (unsigned long int)vsiz);
       wp = wp + (signed long int)vsiz;
-      _Bool return_value_tcrdbsend$7;
-      return_value_tcrdbsend$7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(return_value_tcrdbsend$7 == (_Bool)0)
+      _Bool return_value_tcrdbsend_7;
+      return_value_tcrdbsend_7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(return_value_tcrdbsend_7 == (_Bool)0)
         err = (_Bool)1;
 
 
@@ -7303,13 +7303,13 @@ static _Bool tcrdbputnrimpl(struct anonymous$29 *rdb, const void *kbuf, signed i
 
 // tcrdbputshl
 // file tcrdb.c line 274
-_Bool tcrdbputshl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width)
+_Bool tcrdbputshl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 && width >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0 && width >= 0);
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0 && width >= 0);
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -7317,7 +7317,7 @@ _Bool tcrdbputshl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, c
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -7347,42 +7347,42 @@ _Bool tcrdbputshl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, c
 
 // tcrdbputshl2
 // file tcrdb.c line 286
-_Bool tcrdbputshl2(struct anonymous$29 *rdb, const char *kstr, const char *vstr, signed int width)
+_Bool tcrdbputshl2(struct anonymous_29 *rdb, const char *kstr, const char *vstr, signed int width)
 {
   /* assertion rdb && kstr && vstr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(kstr);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(vstr);
-  _Bool return_value_tcrdbputshl$3;
-  return_value_tcrdbputshl$3=tcrdbputshl(rdb, (const void *)kstr, (signed int)return_value_strlen$1, (const void *)vstr, (signed int)return_value_strlen$2, width);
-  return return_value_tcrdbputshl$3;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kstr != ((const char *)NULL) && vstr != ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(kstr);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(vstr);
+  _Bool return_value_tcrdbputshl_3;
+  return_value_tcrdbputshl_3=tcrdbputshl(rdb, (const void *)kstr, (signed int)return_value_strlen_1, (const void *)vstr, (signed int)return_value_strlen_2, width);
+  return return_value_tcrdbputshl_3;
 }
 
 // tcrdbputshlimpl
 // file tcrdb.c line 1393
-static _Bool tcrdbputshlimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width)
+static _Bool tcrdbputshlimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width)
 {
   /* assertion rdb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 && width >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0 && width >= 0);
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0 && width >= 0);
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -7391,22 +7391,22 @@ static _Bool tcrdbputshlimpl(struct anonymous$29 *rdb, const void *kbuf, signed 
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)3 + (unsigned long int)ksiz + (unsigned long int)vsiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
   if(!(rsiz >= 65536))
-    tmp_if_expr$4 = stack;
+    tmp_if_expr_4 = stack;
 
   else
   {
-    return_value_tcmalloc$3=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+    return_value_tcmalloc_3=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
   }
-  buf = tmp_if_expr$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  buf = tmp_if_expr_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -7421,12 +7421,12 @@ static _Bool tcrdbputshlimpl(struct anonymous$29 *rdb, const void *kbuf, signed 
     do
     {
       unsigned char *wp = buf;
-      tmp_post$5 = wp;
+      tmp_post_5 = wp;
       wp = wp + 1l;
-      *tmp_post$5 = (unsigned char)0xc8;
-      tmp_post$6 = wp;
+      *tmp_post_5 = (unsigned char)0xc8;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0x13;
+      *tmp_post_6 = (unsigned char)0x13;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)ksiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -7440,9 +7440,9 @@ static _Bool tcrdbputshlimpl(struct anonymous$29 *rdb, const void *kbuf, signed 
       wp = wp + (signed long int)ksiz;
       memcpy((void *)wp, vbuf, (unsigned long int)vsiz);
       wp = wp + (signed long int)vsiz;
-      _Bool return_value_tcrdbsend$7;
-      return_value_tcrdbsend$7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$7 == (_Bool)0))
+      _Bool return_value_tcrdbsend_7;
+      return_value_tcrdbsend_7=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_7 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
@@ -7470,11 +7470,11 @@ static _Bool tcrdbputshlimpl(struct anonymous$29 *rdb, const void *kbuf, signed 
 
 // tcrdbqryaddcond
 // file tcrdb.c line 790
-void tcrdbqryaddcond(struct anonymous$30 *qry, const char *name, signed int op, const char *expr)
+void tcrdbqryaddcond(struct anonymous_30 *qry, const char *name, signed int op, const char *expr)
 {
   /* assertion qry && name && expr */
-  assert(qry != ((struct anonymous$30 *)NULL) && name != ((const char *)NULL) && expr != ((const char *)NULL));
-  struct anonymous$27 *xstr;
+  assert(qry != ((struct anonymous_30 *)NULL) && name != ((const char *)NULL) && expr != ((const char *)NULL));
+  struct anonymous_27 *xstr;
   xstr=tcxstrnew();
   tcxstrcat2(xstr, "addcond");
   tcxstrcat(xstr, (const void *)"\0", 1);
@@ -7483,20 +7483,20 @@ void tcrdbqryaddcond(struct anonymous$30 *qry, const char *name, signed int op, 
   tcxstrprintf(xstr, "%d", op);
   tcxstrcat(xstr, (const void *)"\0", 1);
   tcxstrcat2(xstr, expr);
-  const void *return_value_tcxstrptr$1;
-  return_value_tcxstrptr$1=tcxstrptr(xstr);
-  signed int return_value_tcxstrsize$2;
-  return_value_tcxstrsize$2=tcxstrsize(xstr);
-  tclistpush(qry->args, return_value_tcxstrptr$1, return_value_tcxstrsize$2);
+  const void *return_value_tcxstrptr_1;
+  return_value_tcxstrptr_1=tcxstrptr(xstr);
+  signed int return_value_tcxstrsize_2;
+  return_value_tcxstrsize_2=tcxstrsize(xstr);
+  tclistpush(qry->args, return_value_tcxstrptr_1, return_value_tcxstrsize_2);
   tcxstrdel(xstr);
 }
 
 // tcrdbqrydel
 // file tcrdb.c line 781
-void tcrdbqrydel(struct anonymous$30 *qry)
+void tcrdbqrydel(struct anonymous_30 *qry)
 {
   /* assertion qry */
-  assert(qry != ((struct anonymous$30 *)NULL));
+  assert(qry != ((struct anonymous_30 *)NULL));
   tcxstrdel(qry->hint);
   tclistdel(qry->args);
   tcfree((void *)qry);
@@ -7504,25 +7504,25 @@ void tcrdbqrydel(struct anonymous$30 *qry)
 
 // tcrdbqryhint
 // file tcrdb.c line 899
-const char * tcrdbqryhint(struct anonymous$30 *qry)
+const char * tcrdbqryhint(struct anonymous_30 *qry)
 {
   /* assertion qry */
-  assert(qry != ((struct anonymous$30 *)NULL));
-  const void *return_value_tcxstrptr$1;
-  return_value_tcxstrptr$1=tcxstrptr(qry->hint);
-  return (const char *)return_value_tcxstrptr$1;
+  assert(qry != ((struct anonymous_30 *)NULL));
+  const void *return_value_tcxstrptr_1;
+  return_value_tcxstrptr_1=tcxstrptr(qry->hint);
+  return (const char *)return_value_tcxstrptr_1;
 }
 
 // tcrdbqrynew
 // file tcrdb.c line 769
-struct anonymous$30 * tcrdbqrynew(struct anonymous$29 *rdb)
+struct anonymous_30 * tcrdbqrynew(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  struct anonymous$30 *qry;
-  void *return_value_tcmalloc$1;
-  return_value_tcmalloc$1=tcmalloc(sizeof(struct anonymous$30) /*24ul*/ );
-  qry = (struct anonymous$30 *)return_value_tcmalloc$1;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  struct anonymous_30 *qry;
+  void *return_value_tcmalloc_1;
+  return_value_tcmalloc_1=tcmalloc(sizeof(struct anonymous_30) /*24ul*/ );
+  qry = (struct anonymous_30 *)return_value_tcmalloc_1;
   qry->rdb = rdb;
   qry->args=tclistnew();
   qry->hint=tcxstrnew();
@@ -7532,44 +7532,44 @@ struct anonymous$30 * tcrdbqrynew(struct anonymous$29 *rdb)
 
 // tcrdbqrypopmeta
 // file tcrdb.c line 2467
-static void tcrdbqrypopmeta(struct anonymous$30 *qry, struct anonymous$1 *res)
+static void tcrdbqrypopmeta(struct anonymous_30 *qry, struct anonymous_1 *res)
 {
   /* assertion qry && res */
-  assert(qry != ((struct anonymous$30 *)NULL) && res != ((struct anonymous$1 *)NULL));
+  assert(qry != ((struct anonymous_30 *)NULL) && res != ((struct anonymous_1 *)NULL));
   signed int i;
-  signed int return_value_tclistnum$1;
-  return_value_tclistnum$1=tclistnum(res);
-  i = return_value_tclistnum$1 - 1;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  signed int return_value_tclistnum_1;
+  return_value_tclistnum_1=tclistnum(res);
+  i = return_value_tclistnum_1 - 1;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   for( ; i >= 0; i = i - 1)
   {
     signed int pksiz;
     const char *pkbuf;
-    const void *return_value_tclistval$2;
-    return_value_tclistval$2=tclistval(res, i, &pksiz);
-    pkbuf = (const char *)return_value_tclistval$2;
+    const void *return_value_tclistval_2;
+    return_value_tclistval_2=tclistval(res, i, &pksiz);
+    pkbuf = (const char *)return_value_tclistval_2;
     if(pksiz >= 11)
-      tmp_if_expr$5 = (signed int)pkbuf[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (signed int)pkbuf[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (signed int)pkbuf[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (signed int)pkbuf[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
     {
-      signed int return_value_memcmp$4;
-      return_value_memcmp$4=memcmp((const void *)(pkbuf + (signed long int)2), (const void *)"[[HINT]]\n", (unsigned long int)9);
-      if(return_value_memcmp$4 == 0)
+      signed int return_value_memcmp_4;
+      return_value_memcmp_4=memcmp((const void *)(pkbuf + (signed long int)2), (const void *)"[[HINT]]\n", (unsigned long int)9);
+      if(return_value_memcmp_4 == 0)
       {
         signed int hsiz;
         char *hbuf;
-        void *return_value_tclistpop$3;
-        return_value_tclistpop$3=tclistpop(res, &hsiz);
-        hbuf = (char *)return_value_tclistpop$3;
+        void *return_value_tclistpop_3;
+        return_value_tclistpop_3=tclistpop(res, &hsiz);
+        hbuf = (char *)return_value_tclistpop_3;
         tcxstrcat(qry->hint, (const void *)(hbuf + (signed long int)10), hsiz - 10);
         tcfree((void *)hbuf);
       }
@@ -7585,42 +7585,42 @@ static void tcrdbqrypopmeta(struct anonymous$30 *qry, struct anonymous$1 *res)
 
 // tcrdbqryrescols
 // file tcrdb.c line 873
-struct anonymous$25 * tcrdbqryrescols(struct anonymous$1 *res, signed int index)
+struct anonymous_25 * tcrdbqryrescols(struct anonymous_1 *res, signed int index)
 {
   /* assertion res && index >= 0 */
-  assert(res != ((struct anonymous$1 *)NULL) && index >= 0);
-  signed int return_value_tclistnum$1;
-  return_value_tclistnum$1=tclistnum(res);
-  if(index >= return_value_tclistnum$1)
-    return (struct anonymous$25 *)(void *)0;
+  assert(res != ((struct anonymous_1 *)NULL) && index >= 0);
+  signed int return_value_tclistnum_1;
+  return_value_tclistnum_1=tclistnum(res);
+  if(index >= return_value_tclistnum_1)
+    return (struct anonymous_25 *)(void *)0;
 
   else
   {
     signed int csiz;
     const char *cbuf;
-    const void *return_value_tclistval$2;
-    return_value_tclistval$2=tclistval(res, index, &csiz);
-    cbuf = (const char *)return_value_tclistval$2;
-    struct anonymous$25 *return_value_tcstrsplit4$3;
-    return_value_tcstrsplit4$3=tcstrsplit4((const void *)cbuf, csiz);
-    return return_value_tcstrsplit4$3;
+    const void *return_value_tclistval_2;
+    return_value_tclistval_2=tclistval(res, index, &csiz);
+    cbuf = (const char *)return_value_tclistval_2;
+    struct anonymous_25 *return_value_tcstrsplit4_3;
+    return_value_tcstrsplit4_3=tcstrsplit4((const void *)cbuf, csiz);
+    return return_value_tcstrsplit4_3;
   }
 }
 
 // tcrdbqrysearch
 // file tcrdb.c line 833
-struct anonymous$1 * tcrdbqrysearch(struct anonymous$30 *qry)
+struct anonymous_1 * tcrdbqrysearch(struct anonymous_30 *qry)
 {
   /* assertion qry */
-  assert(qry != ((struct anonymous$30 *)NULL));
+  assert(qry != ((struct anonymous_30 *)NULL));
   tcxstrclear(qry->hint);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(qry->rdb, "search", 1, qry->args);
-  struct anonymous$1 *return_value_tclistnew2$1;
-  if(rv == ((struct anonymous$1 *)NULL))
+  struct anonymous_1 *return_value_tclistnew2_1;
+  if(rv == ((struct anonymous_1 *)NULL))
   {
-    return_value_tclistnew2$1=tclistnew2(1);
-    return return_value_tclistnew2$1;
+    return_value_tclistnew2_1=tclistnew2(1);
+    return return_value_tclistnew2_1;
   }
 
   else
@@ -7632,39 +7632,39 @@ struct anonymous$1 * tcrdbqrysearch(struct anonymous$30 *qry)
 
 // tcrdbqrysearchcount
 // file tcrdb.c line 883
-signed int tcrdbqrysearchcount(struct anonymous$30 *qry)
+signed int tcrdbqrysearchcount(struct anonymous_30 *qry)
 {
   /* assertion qry */
-  assert(qry != ((struct anonymous$30 *)NULL));
-  struct anonymous$1 *args;
+  assert(qry != ((struct anonymous_30 *)NULL));
+  struct anonymous_1 *args;
   args=tclistdup(qry->args);
   tclistpush2(args, "count");
   tcxstrclear(qry->hint);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(qry->rdb, "search", 1, args);
   tclistdel(args);
-  signed long int tmp_if_expr$4;
-  const char *return_value_tclistval2$2;
-  signed long int return_value_tcatoi$3;
-  if(rv == ((struct anonymous$1 *)NULL))
+  signed long int tmp_if_expr_4;
+  const char *return_value_tclistval2_2;
+  signed long int return_value_tcatoi_3;
+  if(rv == ((struct anonymous_1 *)NULL))
     return 0;
 
   else
   {
     tcrdbqrypopmeta(qry, rv);
     signed int count;
-    signed int return_value_tclistnum$1;
-    return_value_tclistnum$1=tclistnum(rv);
-    if(return_value_tclistnum$1 >= 1)
+    signed int return_value_tclistnum_1;
+    return_value_tclistnum_1=tclistnum(rv);
+    if(return_value_tclistnum_1 >= 1)
     {
-      return_value_tclistval2$2=tclistval2(rv, 0);
-      return_value_tcatoi$3=tcatoi(return_value_tclistval2$2);
-      tmp_if_expr$4 = return_value_tcatoi$3;
+      return_value_tclistval2_2=tclistval2(rv, 0);
+      return_value_tcatoi_3=tcatoi(return_value_tclistval2_2);
+      tmp_if_expr_4 = return_value_tcatoi_3;
     }
 
     else
-      tmp_if_expr$4 = (signed long int)0;
-    count = (signed int)tmp_if_expr$4;
+      tmp_if_expr_4 = (signed long int)0;
+    count = (signed int)tmp_if_expr_4;
     tclistdel(rv);
     return count;
   }
@@ -7672,22 +7672,22 @@ signed int tcrdbqrysearchcount(struct anonymous$30 *qry)
 
 // tcrdbqrysearchget
 // file tcrdb.c line 859
-struct anonymous$1 * tcrdbqrysearchget(struct anonymous$30 *qry)
+struct anonymous_1 * tcrdbqrysearchget(struct anonymous_30 *qry)
 {
   /* assertion qry */
-  assert(qry != ((struct anonymous$30 *)NULL));
-  struct anonymous$1 *args;
+  assert(qry != ((struct anonymous_30 *)NULL));
+  struct anonymous_1 *args;
   args=tclistdup(qry->args);
   tclistpush2(args, "get");
   tcxstrclear(qry->hint);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(qry->rdb, "search", 1, args);
   tclistdel(args);
-  struct anonymous$1 *return_value_tclistnew2$1;
-  if(rv == ((struct anonymous$1 *)NULL))
+  struct anonymous_1 *return_value_tclistnew2_1;
+  if(rv == ((struct anonymous_1 *)NULL))
   {
-    return_value_tclistnew2$1=tclistnew2(1);
-    return return_value_tclistnew2$1;
+    return_value_tclistnew2_1=tclistnew2(1);
+    return return_value_tclistnew2_1;
   }
 
   else
@@ -7699,18 +7699,18 @@ struct anonymous$1 * tcrdbqrysearchget(struct anonymous$30 *qry)
 
 // tcrdbqrysearchout
 // file tcrdb.c line 844
-_Bool tcrdbqrysearchout(struct anonymous$30 *qry)
+_Bool tcrdbqrysearchout(struct anonymous_30 *qry)
 {
   /* assertion qry */
-  assert(qry != ((struct anonymous$30 *)NULL));
-  struct anonymous$1 *args;
+  assert(qry != ((struct anonymous_30 *)NULL));
+  struct anonymous_1 *args;
   args=tclistdup(qry->args);
   tclistpush2(args, "out");
   tcxstrclear(qry->hint);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(qry->rdb, "search", 0, args);
   tclistdel(args);
-  if(rv == ((struct anonymous$1 *)NULL))
+  if(rv == ((struct anonymous_1 *)NULL))
     return (_Bool)0;
 
   else
@@ -7723,56 +7723,56 @@ _Bool tcrdbqrysearchout(struct anonymous$30 *qry)
 
 // tcrdbqrysetlimit
 // file tcrdb.c line 820
-void tcrdbqrysetlimit(struct anonymous$30 *qry, signed int max, signed int skip)
+void tcrdbqrysetlimit(struct anonymous_30 *qry, signed int max, signed int skip)
 {
-  struct anonymous$27 *xstr;
+  struct anonymous_27 *xstr;
   xstr=tcxstrnew();
   tcxstrcat2(xstr, "setlimit");
   tcxstrcat(xstr, (const void *)"\0", 1);
   tcxstrprintf(xstr, "%d", max);
   tcxstrcat(xstr, (const void *)"\0", 1);
   tcxstrprintf(xstr, "%d", skip);
-  const void *return_value_tcxstrptr$1;
-  return_value_tcxstrptr$1=tcxstrptr(xstr);
-  signed int return_value_tcxstrsize$2;
-  return_value_tcxstrsize$2=tcxstrsize(xstr);
-  tclistpush(qry->args, return_value_tcxstrptr$1, return_value_tcxstrsize$2);
+  const void *return_value_tcxstrptr_1;
+  return_value_tcxstrptr_1=tcxstrptr(xstr);
+  signed int return_value_tcxstrsize_2;
+  return_value_tcxstrsize_2=tcxstrsize(xstr);
+  tclistpush(qry->args, return_value_tcxstrptr_1, return_value_tcxstrsize_2);
   tcxstrdel(xstr);
 }
 
 // tcrdbqrysetorder
 // file tcrdb.c line 806
-void tcrdbqrysetorder(struct anonymous$30 *qry, const char *name, signed int type)
+void tcrdbqrysetorder(struct anonymous_30 *qry, const char *name, signed int type)
 {
   /* assertion qry && name */
-  assert(qry != ((struct anonymous$30 *)NULL) && name != ((const char *)NULL));
-  struct anonymous$27 *xstr;
+  assert(qry != ((struct anonymous_30 *)NULL) && name != ((const char *)NULL));
+  struct anonymous_27 *xstr;
   xstr=tcxstrnew();
   tcxstrcat2(xstr, "setorder");
   tcxstrcat(xstr, (const void *)"\0", 1);
   tcxstrcat2(xstr, name);
   tcxstrcat(xstr, (const void *)"\0", 1);
   tcxstrprintf(xstr, "%d", type);
-  const void *return_value_tcxstrptr$1;
-  return_value_tcxstrptr$1=tcxstrptr(xstr);
-  signed int return_value_tcxstrsize$2;
-  return_value_tcxstrsize$2=tcxstrsize(xstr);
-  tclistpush(qry->args, return_value_tcxstrptr$1, return_value_tcxstrsize$2);
+  const void *return_value_tcxstrptr_1;
+  return_value_tcxstrptr_1=tcxstrptr(xstr);
+  signed int return_value_tcxstrsize_2;
+  return_value_tcxstrsize_2=tcxstrsize(xstr);
+  tclistpush(qry->args, return_value_tcxstrptr_1, return_value_tcxstrsize_2);
   tcxstrdel(xstr);
 }
 
 // tcrdbreconnect
 // file tcrdb.c line 1102
-static _Bool tcrdbreconnect(struct anonymous$29 *rdb)
+static _Bool tcrdbreconnect(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  if(!(rdb->sock == ((struct anonymous$17 *)NULL)))
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  if(!(rdb->sock == ((struct anonymous_17 *)NULL)))
   {
     ttsockdel(rdb->sock);
     ttclosesock(rdb->fd);
     rdb->fd = -1;
-    rdb->sock = (struct anonymous$17 *)(void *)0;
+    rdb->sock = (struct anonymous_17 *)(void *)0;
   }
 
   signed int fd;
@@ -7782,9 +7782,9 @@ static _Bool tcrdbreconnect(struct anonymous$29 *rdb)
   else
   {
     char addr[1024l];
-    _Bool return_value_ttgethostaddr$1;
-    return_value_ttgethostaddr$1=ttgethostaddr(rdb->host, addr);
-    if(return_value_ttgethostaddr$1 == (_Bool)0)
+    _Bool return_value_ttgethostaddr_1;
+    return_value_ttgethostaddr_1=ttgethostaddr(rdb->host, addr);
+    if(return_value_ttgethostaddr_1 == (_Bool)0)
     {
       tcrdbsetecode(rdb, 2);
       return (_Bool)0;
@@ -7808,13 +7808,13 @@ static _Bool tcrdbreconnect(struct anonymous$29 *rdb)
 
 // tcrdbrestore
 // file tcrdb.c line 526
-_Bool tcrdbrestore(struct anonymous$29 *rdb, const char *path, unsigned long int ts, signed int opts)
+_Bool tcrdbrestore(struct anonymous_29 *rdb, const char *path, unsigned long int ts, signed int opts)
 {
   /* assertion rdb && path */
-  assert(rdb != ((struct anonymous$29 *)NULL) && path != ((const char *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && path != ((const char *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -7822,7 +7822,7 @@ _Bool tcrdbrestore(struct anonymous$29 *rdb, const char *path, unsigned long int
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -7852,55 +7852,55 @@ _Bool tcrdbrestore(struct anonymous$29 *rdb, const char *path, unsigned long int
 
 // tcrdbrestoreimpl
 // file tcrdb.c line 2160
-static _Bool tcrdbrestoreimpl(struct anonymous$29 *rdb, const char *path, unsigned long int ts, signed int opts)
+static _Bool tcrdbrestoreimpl(struct anonymous_29 *rdb, const char *path, unsigned long int ts, signed int opts)
 {
   /* assertion rdb && path */
-  assert(rdb != ((struct anonymous$29 *)NULL) && path != ((const char *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && path != ((const char *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
 
   _Bool err = (_Bool)0;
   signed int psiz;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(path);
-  psiz = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(path);
+  psiz = (signed int)return_value_strlen_3;
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  + sizeof(unsigned int) /*4ul*/  + (unsigned long int)psiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$5;
-  void *return_value_tcmalloc$4;
+  unsigned char *tmp_if_expr_5;
+  void *return_value_tcmalloc_4;
   if(!(rsiz >= 65536))
-    tmp_if_expr$5 = stack;
+    tmp_if_expr_5 = stack;
 
   else
   {
-    return_value_tcmalloc$4=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$5 = (unsigned char *)return_value_tcmalloc$4;
+    return_value_tcmalloc_4=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_5 = (unsigned char *)return_value_tcmalloc_4;
   }
-  buf = tmp_if_expr$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
+  buf = tmp_if_expr_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -7915,12 +7915,12 @@ static _Bool tcrdbrestoreimpl(struct anonymous$29 *rdb, const char *path, unsign
     do
     {
       unsigned char *wp = buf;
-      tmp_post$6 = wp;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0xc8;
-      tmp_post$7 = wp;
+      *tmp_post_6 = (unsigned char)0xc8;
+      tmp_post_7 = wp;
       wp = wp + 1l;
-      *tmp_post$7 = (unsigned char)0x74;
+      *tmp_post_7 = (unsigned char)0x74;
       unsigned int lnum = (unsigned int)(((unsigned long int)(unsigned int)psiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)psiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)psiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)psiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -7932,9 +7932,9 @@ static _Bool tcrdbrestoreimpl(struct anonymous$29 *rdb, const char *path, unsign
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       memcpy((void *)wp, (const void *)path, (unsigned long int)psiz);
       wp = wp + (signed long int)psiz;
-      _Bool return_value_tcrdbsend$8;
-      return_value_tcrdbsend$8=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$8 == (_Bool)0))
+      _Bool return_value_tcrdbsend_8;
+      return_value_tcrdbsend_8=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_8 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
@@ -7962,13 +7962,13 @@ static _Bool tcrdbrestoreimpl(struct anonymous$29 *rdb, const char *path, unsign
 
 // tcrdbrnum
 // file tcrdb.c line 574
-unsigned long int tcrdbrnum(struct anonymous$29 *rdb)
+unsigned long int tcrdbrnum(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (unsigned long int)0;
 
   else
@@ -7976,7 +7976,7 @@ unsigned long int tcrdbrnum(struct anonymous$29 *rdb)
     unsigned long int rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -8006,52 +8006,52 @@ unsigned long int tcrdbrnum(struct anonymous$29 *rdb)
 
 // tcrdbrnumimpl
 // file tcrdb.c line 2278
-static unsigned long int tcrdbrnumimpl(struct anonymous$29 *rdb)
+static unsigned long int tcrdbrnumimpl(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (unsigned long int)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (unsigned long int)0;
 
   }
 
   unsigned char buf[65536l];
   unsigned char *wp = buf;
-  unsigned char *tmp_post$3 = wp;
+  unsigned char *tmp_post_3 = wp;
   wp = wp + 1l;
-  *tmp_post$3 = (unsigned char)0xc8;
-  unsigned char *tmp_post$4 = wp;
+  *tmp_post_3 = (unsigned char)0xc8;
+  unsigned char *tmp_post_4 = wp;
   wp = wp + 1l;
-  *tmp_post$4 = (unsigned char)0x80;
+  *tmp_post_4 = (unsigned char)0x80;
   unsigned long int rnum = (unsigned long int)0;
-  _Bool return_value_tcrdbsend$6;
-  return_value_tcrdbsend$6=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-  if(!(return_value_tcrdbsend$6 == (_Bool)0))
+  _Bool return_value_tcrdbsend_6;
+  return_value_tcrdbsend_6=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+  if(!(return_value_tcrdbsend_6 == (_Bool)0))
   {
     signed int code;
     code=ttsockgetc(rdb->sock);
     if(code == 0)
     {
       rnum=ttsockgetint64(rdb->sock);
-      _Bool return_value_ttsockcheckend$5;
-      return_value_ttsockcheckend$5=ttsockcheckend(rdb->sock);
-      if(!(return_value_ttsockcheckend$5 == (_Bool)0))
+      _Bool return_value_ttsockcheckend_5;
+      return_value_ttsockcheckend_5=ttsockcheckend(rdb->sock);
+      if(!(return_value_ttsockcheckend_5 == (_Bool)0))
       {
         rnum = (unsigned long int)0;
         tcrdbsetecode(rdb, 5);
@@ -8068,26 +8068,26 @@ static unsigned long int tcrdbrnumimpl(struct anonymous$29 *rdb)
 
 // tcrdbsend
 // file tcrdb.c line 1136
-static _Bool tcrdbsend(struct anonymous$29 *rdb, const void *buf, signed int size)
+static _Bool tcrdbsend(struct anonymous_29 *rdb, const void *buf, signed int size)
 {
   /* assertion rdb && buf && size >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && buf != NULL && size >= 0);
-  _Bool return_value_ttsockcheckend$3;
-  return_value_ttsockcheckend$3=ttsockcheckend(rdb->sock);
-  if(!(return_value_ttsockcheckend$3 == (_Bool)0))
+  assert(rdb != ((struct anonymous_29 *)NULL) && buf != NULL && size >= 0);
+  _Bool return_value_ttsockcheckend_3;
+  return_value_ttsockcheckend_3=ttsockcheckend(rdb->sock);
+  if(!(return_value_ttsockcheckend_3 == (_Bool)0))
   {
     if((1 & rdb->opts) == 0)
       return (_Bool)0;
 
     tcsleep(0.1);
-    _Bool return_value_tcrdbreconnect$1;
-    return_value_tcrdbreconnect$1=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$1 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_1;
+    return_value_tcrdbreconnect_1=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_1 == (_Bool)0)
       return (_Bool)0;
 
-    _Bool return_value_ttsocksend$2;
-    return_value_ttsocksend$2=ttsocksend(rdb->sock, buf, size);
-    if(!(return_value_ttsocksend$2 == (_Bool)0))
+    _Bool return_value_ttsocksend_2;
+    return_value_ttsocksend_2=ttsocksend(rdb->sock, buf, size);
+    if(!(return_value_ttsocksend_2 == (_Bool)0))
       return (_Bool)1;
 
     tcrdbsetecode(rdb, 4);
@@ -8095,9 +8095,9 @@ static _Bool tcrdbsend(struct anonymous$29 *rdb, const void *buf, signed int siz
   }
 
   ttsocksetlife(rdb->sock, rdb->timeout);
-  _Bool return_value_ttsocksend$4;
-  return_value_ttsocksend$4=ttsocksend(rdb->sock, buf, size);
-  if(!(return_value_ttsocksend$4 == (_Bool)0))
+  _Bool return_value_ttsocksend_4;
+  return_value_ttsocksend_4=ttsocksend(rdb->sock, buf, size);
+  if(!(return_value_ttsocksend_4 == (_Bool)0))
     return (_Bool)1;
 
   else
@@ -8109,17 +8109,17 @@ static _Bool tcrdbsend(struct anonymous$29 *rdb, const void *buf, signed int siz
     else
     {
       tcsleep(0.1);
-      _Bool return_value_tcrdbreconnect$5;
-      return_value_tcrdbreconnect$5=tcrdbreconnect(rdb);
-      if(return_value_tcrdbreconnect$5 == (_Bool)0)
+      _Bool return_value_tcrdbreconnect_5;
+      return_value_tcrdbreconnect_5=tcrdbreconnect(rdb);
+      if(return_value_tcrdbreconnect_5 == (_Bool)0)
         return (_Bool)0;
 
       else
       {
         ttsocksetlife(rdb->sock, rdb->timeout);
-        _Bool return_value_ttsocksend$6;
-        return_value_ttsocksend$6=ttsocksend(rdb->sock, buf, size);
-        if(!(return_value_ttsocksend$6 == (_Bool)0))
+        _Bool return_value_ttsocksend_6;
+        return_value_ttsocksend_6=ttsocksend(rdb->sock, buf, size);
+        if(!(return_value_ttsocksend_6 == (_Bool)0))
           return (_Bool)1;
 
         else
@@ -8134,22 +8134,22 @@ static _Bool tcrdbsend(struct anonymous$29 *rdb, const void *buf, signed int siz
 
 // tcrdbsetecode
 // file tcrdb.c line 1066
-void tcrdbsetecode(struct anonymous$29 *rdb, signed int ecode)
+void tcrdbsetecode(struct anonymous_29 *rdb, signed int ecode)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL));
   pthread_setspecific(rdb->eckey, (void *)(signed long int)ecode);
 }
 
 // tcrdbsetmst
 // file tcrdb.c line 538
-_Bool tcrdbsetmst(struct anonymous$29 *rdb, const char *host, signed int port, unsigned long int ts, signed int opts)
+_Bool tcrdbsetmst(struct anonymous_29 *rdb, const char *host, signed int port, unsigned long int ts, signed int opts)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -8157,7 +8157,7 @@ _Bool tcrdbsetmst(struct anonymous$29 *rdb, const char *host, signed int port, u
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -8187,17 +8187,17 @@ _Bool tcrdbsetmst(struct anonymous$29 *rdb, const char *host, signed int port, u
 
 // tcrdbsetmst2
 // file tcrdb.c line 550
-_Bool tcrdbsetmst2(struct anonymous$29 *rdb, const char *expr, unsigned long int ts, signed int opts)
+_Bool tcrdbsetmst2(struct anonymous_29 *rdb, const char *expr, unsigned long int ts, signed int opts)
 {
   /* assertion rdb && expr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && expr != ((const char *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL) && expr != ((const char *)NULL));
   _Bool err = (_Bool)0;
   signed int port;
   char *host;
   host=ttbreakservexpr(expr, &port);
-  _Bool return_value_tcrdbsetmst$1;
-  return_value_tcrdbsetmst$1=tcrdbsetmst(rdb, host, port, ts, opts);
-  if(return_value_tcrdbsetmst$1 == (_Bool)0)
+  _Bool return_value_tcrdbsetmst_1;
+  return_value_tcrdbsetmst_1=tcrdbsetmst(rdb, host, port, ts, opts);
+  if(return_value_tcrdbsetmst_1 == (_Bool)0)
     err = (_Bool)1;
 
   tcfree((void *)host);
@@ -8206,27 +8206,27 @@ _Bool tcrdbsetmst2(struct anonymous$29 *rdb, const char *expr, unsigned long int
 
 // tcrdbsetmstimpl
 // file tcrdb.c line 2210
-static _Bool tcrdbsetmstimpl(struct anonymous$29 *rdb, const char *host, signed int port, unsigned long int ts, signed int opts)
+static _Bool tcrdbsetmstimpl(struct anonymous_29 *rdb, const char *host, signed int port, unsigned long int ts, signed int opts)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -8239,28 +8239,28 @@ static _Bool tcrdbsetmstimpl(struct anonymous$29 *rdb, const char *host, signed 
 
   _Bool err = (_Bool)0;
   signed int hsiz;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(host);
-  hsiz = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(host);
+  hsiz = (signed int)return_value_strlen_3;
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)3 + (unsigned long int)hsiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$5;
-  void *return_value_tcmalloc$4;
+  unsigned char *tmp_if_expr_5;
+  void *return_value_tcmalloc_4;
   if(!(rsiz >= 65536))
-    tmp_if_expr$5 = stack;
+    tmp_if_expr_5 = stack;
 
   else
   {
-    return_value_tcmalloc$4=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$5 = (unsigned char *)return_value_tcmalloc$4;
+    return_value_tcmalloc_4=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_5 = (unsigned char *)return_value_tcmalloc_4;
   }
-  buf = tmp_if_expr$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
+  buf = tmp_if_expr_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -8275,12 +8275,12 @@ static _Bool tcrdbsetmstimpl(struct anonymous$29 *rdb, const char *host, signed 
     do
     {
       unsigned char *wp = buf;
-      tmp_post$6 = wp;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0xc8;
-      tmp_post$7 = wp;
+      *tmp_post_6 = (unsigned char)0xc8;
+      tmp_post_7 = wp;
       wp = wp + 1l;
-      *tmp_post$7 = (unsigned char)0x78;
+      *tmp_post_7 = (unsigned char)0x78;
       unsigned int lnum = (unsigned int)(((unsigned long int)(unsigned int)hsiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)hsiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)hsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)hsiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -8295,9 +8295,9 @@ static _Bool tcrdbsetmstimpl(struct anonymous$29 *rdb, const char *host, signed 
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       memcpy((void *)wp, (const void *)host, (unsigned long int)hsiz);
       wp = wp + (signed long int)hsiz;
-      _Bool return_value_tcrdbsend$8;
-      return_value_tcrdbsend$8=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$8 == (_Bool)0))
+      _Bool return_value_tcrdbsend_8;
+      return_value_tcrdbsend_8=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_8 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
@@ -8325,13 +8325,13 @@ static _Bool tcrdbsetmstimpl(struct anonymous$29 *rdb, const char *host, signed 
 
 // tcrdbsize
 // file tcrdb.c line 586
-unsigned long int tcrdbsize(struct anonymous$29 *rdb)
+unsigned long int tcrdbsize(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (unsigned long int)0;
 
   else
@@ -8339,7 +8339,7 @@ unsigned long int tcrdbsize(struct anonymous$29 *rdb)
     unsigned long int rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -8369,52 +8369,52 @@ unsigned long int tcrdbsize(struct anonymous$29 *rdb)
 
 // tcrdbsizeimpl
 // file tcrdb.c line 2312
-static unsigned long int tcrdbsizeimpl(struct anonymous$29 *rdb)
+static unsigned long int tcrdbsizeimpl(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (unsigned long int)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (unsigned long int)0;
 
   }
 
   unsigned char buf[65536l];
   unsigned char *wp = buf;
-  unsigned char *tmp_post$3 = wp;
+  unsigned char *tmp_post_3 = wp;
   wp = wp + 1l;
-  *tmp_post$3 = (unsigned char)0xc8;
-  unsigned char *tmp_post$4 = wp;
+  *tmp_post_3 = (unsigned char)0xc8;
+  unsigned char *tmp_post_4 = wp;
   wp = wp + 1l;
-  *tmp_post$4 = (unsigned char)0x81;
+  *tmp_post_4 = (unsigned char)0x81;
   unsigned long int size = (unsigned long int)0;
-  _Bool return_value_tcrdbsend$6;
-  return_value_tcrdbsend$6=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-  if(!(return_value_tcrdbsend$6 == (_Bool)0))
+  _Bool return_value_tcrdbsend_6;
+  return_value_tcrdbsend_6=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+  if(!(return_value_tcrdbsend_6 == (_Bool)0))
   {
     signed int code;
     code=ttsockgetc(rdb->sock);
     if(code == 0)
     {
       size=ttsockgetint64(rdb->sock);
-      _Bool return_value_ttsockcheckend$5;
-      return_value_ttsockcheckend$5=ttsockcheckend(rdb->sock);
-      if(!(return_value_ttsockcheckend$5 == (_Bool)0))
+      _Bool return_value_ttsockcheckend_5;
+      return_value_ttsockcheckend_5=ttsockcheckend(rdb->sock);
+      if(!(return_value_ttsockcheckend_5 == (_Bool)0))
       {
         size = (unsigned long int)0;
         tcrdbsetecode(rdb, 5);
@@ -8431,13 +8431,13 @@ static unsigned long int tcrdbsizeimpl(struct anonymous$29 *rdb)
 
 // tcrdbstat
 // file tcrdb.c line 598
-char * tcrdbstat(struct anonymous$29 *rdb)
+char * tcrdbstat(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (char *)(void *)0;
 
   else
@@ -8445,7 +8445,7 @@ char * tcrdbstat(struct anonymous$29 *rdb)
     char *rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -8475,62 +8475,62 @@ char * tcrdbstat(struct anonymous$29 *rdb)
 
 // tcrdbstatimpl
 // file tcrdb.c line 2346
-static char * tcrdbstatimpl(struct anonymous$29 *rdb)
+static char * tcrdbstatimpl(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (char *)(void *)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (char *)(void *)0;
 
   }
 
   unsigned char buf[65536l];
   unsigned char *wp = buf;
-  unsigned char *tmp_post$3 = wp;
+  unsigned char *tmp_post_3 = wp;
   wp = wp + 1l;
-  *tmp_post$3 = (unsigned char)0xc8;
-  unsigned char *tmp_post$4 = wp;
+  *tmp_post_3 = (unsigned char)0xc8;
+  unsigned char *tmp_post_4 = wp;
   wp = wp + 1l;
-  *tmp_post$4 = (unsigned char)0x88;
+  *tmp_post_4 = (unsigned char)0x88;
   unsigned int size = (unsigned int)0;
-  _Bool return_value_tcrdbsend$8;
-  return_value_tcrdbsend$8=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-  _Bool tmp_if_expr$7;
-  _Bool return_value_ttsockrecv$6;
-  if(!(return_value_tcrdbsend$8 == (_Bool)0))
+  _Bool return_value_tcrdbsend_8;
+  return_value_tcrdbsend_8=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+  _Bool tmp_if_expr_7;
+  _Bool return_value_ttsockrecv_6;
+  if(!(return_value_tcrdbsend_8 == (_Bool)0))
   {
     signed int code;
     code=ttsockgetc(rdb->sock);
     if(code == 0)
     {
       size=ttsockgetint32(rdb->sock);
-      _Bool return_value_ttsockcheckend$5;
-      return_value_ttsockcheckend$5=ttsockcheckend(rdb->sock);
-      if(size >= 65536u || !(return_value_ttsockcheckend$5 == (_Bool)0))
-        tmp_if_expr$7 = (_Bool)1;
+      _Bool return_value_ttsockcheckend_5;
+      return_value_ttsockcheckend_5=ttsockcheckend(rdb->sock);
+      if(size >= 65536u || !(return_value_ttsockcheckend_5 == (_Bool)0))
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_ttsockrecv$6=ttsockrecv(rdb->sock, (char *)buf, (signed int)size);
-        tmp_if_expr$7 = !(return_value_ttsockrecv$6 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+        return_value_ttsockrecv_6=ttsockrecv(rdb->sock, (char *)buf, (signed int)size);
+        tmp_if_expr_7 = !(return_value_ttsockrecv_6 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
       {
         size = (unsigned int)0;
         tcrdbsetecode(rdb, 5);
@@ -8550,21 +8550,21 @@ static char * tcrdbstatimpl(struct anonymous$29 *rdb)
 
   else
   {
-    void *return_value_tcmemdup$9;
-    return_value_tcmemdup$9=tcmemdup((const void *)buf, (unsigned long int)size);
-    return (char *)return_value_tcmemdup$9;
+    void *return_value_tcmemdup_9;
+    return_value_tcmemdup_9=tcmemdup((const void *)buf, (unsigned long int)size);
+    return (char *)return_value_tcmemdup_9;
   }
 }
 
 // tcrdbsync
 // file tcrdb.c line 478
-_Bool tcrdbsync(struct anonymous$29 *rdb)
+_Bool tcrdbsync(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -8572,7 +8572,7 @@ _Bool tcrdbsync(struct anonymous$29 *rdb)
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -8602,27 +8602,27 @@ _Bool tcrdbsync(struct anonymous$29 *rdb)
 
 // tcrdbsyncimpl
 // file tcrdb.c line 2013
-static _Bool tcrdbsyncimpl(struct anonymous$29 *rdb)
+static _Bool tcrdbsyncimpl(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -8630,15 +8630,15 @@ static _Bool tcrdbsyncimpl(struct anonymous$29 *rdb)
   _Bool err = (_Bool)0;
   unsigned char buf[65536l];
   unsigned char *wp = buf;
-  unsigned char *tmp_post$3 = wp;
+  unsigned char *tmp_post_3 = wp;
   wp = wp + 1l;
-  *tmp_post$3 = (unsigned char)0xc8;
-  unsigned char *tmp_post$4 = wp;
+  *tmp_post_3 = (unsigned char)0xc8;
+  unsigned char *tmp_post_4 = wp;
   wp = wp + 1l;
-  *tmp_post$4 = (unsigned char)0x70;
-  _Bool return_value_tcrdbsend$5;
-  return_value_tcrdbsend$5=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-  if(!(return_value_tcrdbsend$5 == (_Bool)0))
+  *tmp_post_4 = (unsigned char)0x70;
+  _Bool return_value_tcrdbsend_5;
+  return_value_tcrdbsend_5=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+  if(!(return_value_tcrdbsend_5 == (_Bool)0))
   {
     signed int code;
     code=ttsockgetc(rdb->sock);
@@ -8657,28 +8657,28 @@ static _Bool tcrdbsyncimpl(struct anonymous$29 *rdb)
 
 // tcrdbtblgenuid
 // file tcrdb.c line 755
-signed long int tcrdbtblgenuid(struct anonymous$29 *rdb)
+signed long int tcrdbtblgenuid(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  struct anonymous$1 *args;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  struct anonymous_1 *args;
   args=tclistnew2(1);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(rdb, "genuid", 0, args);
   tclistdel(args);
-  const char *return_value_tclistval2$1;
-  if(rv == ((struct anonymous$1 *)NULL))
+  const char *return_value_tclistval2_1;
+  if(rv == ((struct anonymous_1 *)NULL))
     return (signed long int)-1;
 
   else
   {
     signed long int uid = (signed long int)-1;
-    signed int return_value_tclistnum$2;
-    return_value_tclistnum$2=tclistnum(rv);
-    if(return_value_tclistnum$2 >= 1)
+    signed int return_value_tclistnum_2;
+    return_value_tclistnum_2=tclistnum(rv);
+    if(return_value_tclistnum_2 >= 1)
     {
-      return_value_tclistval2$1=tclistval2(rv, 0);
-      uid=tcatoi(return_value_tclistval2$1);
+      return_value_tclistval2_1=tclistval2(rv, 0);
+      uid=tcatoi(return_value_tclistval2_1);
     }
 
     tclistdel(rv);
@@ -8688,29 +8688,29 @@ signed long int tcrdbtblgenuid(struct anonymous$29 *rdb)
 
 // tcrdbtblget
 // file tcrdb.c line 713
-struct anonymous$25 * tcrdbtblget(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz)
+struct anonymous_25 * tcrdbtblget(struct anonymous_29 *rdb, const void *pkbuf, signed int pksiz)
 {
   /* assertion rdb && pkbuf && pksiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && pkbuf != NULL && pksiz >= 0);
-  struct anonymous$1 *args;
+  assert(rdb != ((struct anonymous_29 *)NULL) && pkbuf != NULL && pksiz >= 0);
+  struct anonymous_1 *args;
   args=tclistnew2(1);
   tclistpush(args, pkbuf, pksiz);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(rdb, "get", 1, args);
   tclistdel(args);
-  if(rv == ((struct anonymous$1 *)NULL))
+  if(rv == ((struct anonymous_1 *)NULL))
   {
-    signed int return_value_tcrdbecode$1;
-    return_value_tcrdbecode$1=tcrdbecode(rdb);
-    if(return_value_tcrdbecode$1 == 9999)
+    signed int return_value_tcrdbecode_1;
+    return_value_tcrdbecode_1=tcrdbecode(rdb);
+    if(return_value_tcrdbecode_1 == 9999)
       tcrdbsetecode(rdb, 7);
 
-    return (struct anonymous$25 *)(void *)0;
+    return (struct anonymous_25 *)(void *)0;
   }
 
   signed int num;
   num=tclistnum(rv);
-  struct anonymous$25 *cols;
+  struct anonymous_25 *cols;
   cols=tcmapnew2((unsigned int)(num / 2 + 1));
   num = num - 1;
   signed int i = 0;
@@ -8718,14 +8718,14 @@ struct anonymous$25 * tcrdbtblget(struct anonymous$29 *rdb, const void *pkbuf, s
   {
     signed int ksiz;
     const char *kbuf;
-    const void *return_value_tclistval$2;
-    return_value_tclistval$2=tclistval(rv, i, &ksiz);
-    kbuf = (const char *)return_value_tclistval$2;
+    const void *return_value_tclistval_2;
+    return_value_tclistval_2=tclistval(rv, i, &ksiz);
+    kbuf = (const char *)return_value_tclistval_2;
     signed int vsiz;
     const char *vbuf;
-    const void *return_value_tclistval$3;
-    return_value_tclistval$3=tclistval(rv, i + 1, &vsiz);
-    vbuf = (const char *)return_value_tclistval$3;
+    const void *return_value_tclistval_3;
+    return_value_tclistval_3=tclistval(rv, i + 1, &vsiz);
+    vbuf = (const char *)return_value_tclistval_3;
     tcmapput(cols, (const void *)kbuf, ksiz, (const void *)vbuf, vsiz);
   }
   tclistdel(rv);
@@ -8734,21 +8734,21 @@ struct anonymous$25 * tcrdbtblget(struct anonymous$29 *rdb, const void *pkbuf, s
 
 // tcrdbtblout
 // file tcrdb.c line 697
-_Bool tcrdbtblout(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz)
+_Bool tcrdbtblout(struct anonymous_29 *rdb, const void *pkbuf, signed int pksiz)
 {
   /* assertion rdb && pkbuf && pksiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && pkbuf != NULL && pksiz >= 0);
-  struct anonymous$1 *args;
+  assert(rdb != ((struct anonymous_29 *)NULL) && pkbuf != NULL && pksiz >= 0);
+  struct anonymous_1 *args;
   args=tclistnew2(1);
   tclistpush(args, pkbuf, pksiz);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(rdb, "out", 0, args);
   tclistdel(args);
-  if(rv == ((struct anonymous$1 *)NULL))
+  if(rv == ((struct anonymous_1 *)NULL))
   {
-    signed int return_value_tcrdbecode$1;
-    return_value_tcrdbecode$1=tcrdbecode(rdb);
-    if(return_value_tcrdbecode$1 == 9999)
+    signed int return_value_tcrdbecode_1;
+    return_value_tcrdbecode_1=tcrdbecode(rdb);
+    if(return_value_tcrdbecode_1 == 9999)
       tcrdbsetecode(rdb, 7);
 
     return (_Bool)0;
@@ -8760,39 +8760,39 @@ _Bool tcrdbtblout(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz)
 
 // tcrdbtblput
 // file tcrdb.c line 628
-_Bool tcrdbtblput(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous$25 *cols)
+_Bool tcrdbtblput(struct anonymous_29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous_25 *cols)
 {
   /* assertion rdb && pkbuf && pksiz >= 0 && cols */
-  assert(rdb != ((struct anonymous$29 *)NULL) && pkbuf != NULL && pksiz >= 0 && cols != ((struct anonymous$25 *)NULL));
-  struct anonymous$1 *args;
-  unsigned long int return_value_tcmaprnum$1;
-  return_value_tcmaprnum$1=tcmaprnum(cols);
-  args=tclistnew2((signed int)(return_value_tcmaprnum$1 * (unsigned long int)2 + (unsigned long int)1));
+  assert(rdb != ((struct anonymous_29 *)NULL) && pkbuf != NULL && pksiz >= 0 && cols != ((struct anonymous_25 *)NULL));
+  struct anonymous_1 *args;
+  unsigned long int return_value_tcmaprnum_1;
+  return_value_tcmaprnum_1=tcmaprnum(cols);
+  args=tclistnew2((signed int)(return_value_tcmaprnum_1 * (unsigned long int)2 + (unsigned long int)1));
   tclistpush(args, pkbuf, pksiz);
   tcmapiterinit(cols);
   const char *kbuf;
   signed int ksiz;
-  const void *return_value_tcmapiternext$2;
+  const void *return_value_tcmapiternext_2;
   do
   {
-    return_value_tcmapiternext$2=tcmapiternext(cols, &ksiz);
-    kbuf = (const char *)return_value_tcmapiternext$2;
+    return_value_tcmapiternext_2=tcmapiternext(cols, &ksiz);
+    kbuf = (const char *)return_value_tcmapiternext_2;
     if(kbuf == ((const char *)NULL))
       break;
 
     signed int vsiz;
     const char *vbuf;
-    const void *return_value_tcmapiterval$3;
-    return_value_tcmapiterval$3=tcmapiterval((const void *)kbuf, &vsiz);
-    vbuf = (const char *)return_value_tcmapiterval$3;
+    const void *return_value_tcmapiterval_3;
+    return_value_tcmapiterval_3=tcmapiterval((const void *)kbuf, &vsiz);
+    vbuf = (const char *)return_value_tcmapiterval_3;
     tclistpush(args, (const void *)kbuf, ksiz);
     tclistpush(args, (const void *)vbuf, vsiz);
   }
   while((_Bool)1);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(rdb, "put", 0, args);
   tclistdel(args);
-  if(rv == ((struct anonymous$1 *)NULL))
+  if(rv == ((struct anonymous_1 *)NULL))
     return (_Bool)0;
 
   else
@@ -8804,39 +8804,39 @@ _Bool tcrdbtblput(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz,
 
 // tcrdbtblputcat
 // file tcrdb.c line 675
-_Bool tcrdbtblputcat(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous$25 *cols)
+_Bool tcrdbtblputcat(struct anonymous_29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous_25 *cols)
 {
   /* assertion rdb && pkbuf && pksiz >= 0 && cols */
-  assert(rdb != ((struct anonymous$29 *)NULL) && pkbuf != NULL && pksiz >= 0 && cols != ((struct anonymous$25 *)NULL));
-  struct anonymous$1 *args;
-  unsigned long int return_value_tcmaprnum$1;
-  return_value_tcmaprnum$1=tcmaprnum(cols);
-  args=tclistnew2((signed int)(return_value_tcmaprnum$1 * (unsigned long int)2 + (unsigned long int)1));
+  assert(rdb != ((struct anonymous_29 *)NULL) && pkbuf != NULL && pksiz >= 0 && cols != ((struct anonymous_25 *)NULL));
+  struct anonymous_1 *args;
+  unsigned long int return_value_tcmaprnum_1;
+  return_value_tcmaprnum_1=tcmaprnum(cols);
+  args=tclistnew2((signed int)(return_value_tcmaprnum_1 * (unsigned long int)2 + (unsigned long int)1));
   tclistpush(args, pkbuf, pksiz);
   tcmapiterinit(cols);
   const char *kbuf;
   signed int ksiz;
-  const void *return_value_tcmapiternext$2;
+  const void *return_value_tcmapiternext_2;
   do
   {
-    return_value_tcmapiternext$2=tcmapiternext(cols, &ksiz);
-    kbuf = (const char *)return_value_tcmapiternext$2;
+    return_value_tcmapiternext_2=tcmapiternext(cols, &ksiz);
+    kbuf = (const char *)return_value_tcmapiternext_2;
     if(kbuf == ((const char *)NULL))
       break;
 
     signed int vsiz;
     const char *vbuf;
-    const void *return_value_tcmapiterval$3;
-    return_value_tcmapiterval$3=tcmapiterval((const void *)kbuf, &vsiz);
-    vbuf = (const char *)return_value_tcmapiterval$3;
+    const void *return_value_tcmapiterval_3;
+    return_value_tcmapiterval_3=tcmapiterval((const void *)kbuf, &vsiz);
+    vbuf = (const char *)return_value_tcmapiterval_3;
     tclistpush(args, (const void *)kbuf, ksiz);
     tclistpush(args, (const void *)vbuf, vsiz);
   }
   while((_Bool)1);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(rdb, "putcat", 0, args);
   tclistdel(args);
-  if(rv == ((struct anonymous$1 *)NULL))
+  if(rv == ((struct anonymous_1 *)NULL))
     return (_Bool)0;
 
   else
@@ -8848,43 +8848,43 @@ _Bool tcrdbtblputcat(struct anonymous$29 *rdb, const void *pkbuf, signed int pks
 
 // tcrdbtblputkeep
 // file tcrdb.c line 650
-_Bool tcrdbtblputkeep(struct anonymous$29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous$25 *cols)
+_Bool tcrdbtblputkeep(struct anonymous_29 *rdb, const void *pkbuf, signed int pksiz, struct anonymous_25 *cols)
 {
   /* assertion rdb && pkbuf && pksiz >= 0 && cols */
-  assert(rdb != ((struct anonymous$29 *)NULL) && pkbuf != NULL && pksiz >= 0 && cols != ((struct anonymous$25 *)NULL));
-  struct anonymous$1 *args;
-  unsigned long int return_value_tcmaprnum$1;
-  return_value_tcmaprnum$1=tcmaprnum(cols);
-  args=tclistnew2((signed int)(return_value_tcmaprnum$1 * (unsigned long int)2 + (unsigned long int)1));
+  assert(rdb != ((struct anonymous_29 *)NULL) && pkbuf != NULL && pksiz >= 0 && cols != ((struct anonymous_25 *)NULL));
+  struct anonymous_1 *args;
+  unsigned long int return_value_tcmaprnum_1;
+  return_value_tcmaprnum_1=tcmaprnum(cols);
+  args=tclistnew2((signed int)(return_value_tcmaprnum_1 * (unsigned long int)2 + (unsigned long int)1));
   tclistpush(args, pkbuf, pksiz);
   tcmapiterinit(cols);
   const char *kbuf;
   signed int ksiz;
-  const void *return_value_tcmapiternext$2;
+  const void *return_value_tcmapiternext_2;
   do
   {
-    return_value_tcmapiternext$2=tcmapiternext(cols, &ksiz);
-    kbuf = (const char *)return_value_tcmapiternext$2;
+    return_value_tcmapiternext_2=tcmapiternext(cols, &ksiz);
+    kbuf = (const char *)return_value_tcmapiternext_2;
     if(kbuf == ((const char *)NULL))
       break;
 
     signed int vsiz;
     const char *vbuf;
-    const void *return_value_tcmapiterval$3;
-    return_value_tcmapiterval$3=tcmapiterval((const void *)kbuf, &vsiz);
-    vbuf = (const char *)return_value_tcmapiterval$3;
+    const void *return_value_tcmapiterval_3;
+    return_value_tcmapiterval_3=tcmapiterval((const void *)kbuf, &vsiz);
+    vbuf = (const char *)return_value_tcmapiterval_3;
     tclistpush(args, (const void *)kbuf, ksiz);
     tclistpush(args, (const void *)vbuf, vsiz);
   }
   while((_Bool)1);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(rdb, "putkeep", 0, args);
   tclistdel(args);
-  if(rv == ((struct anonymous$1 *)NULL))
+  if(rv == ((struct anonymous_1 *)NULL))
   {
-    signed int return_value_tcrdbecode$4;
-    return_value_tcrdbecode$4=tcrdbecode(rdb);
-    if(return_value_tcrdbecode$4 == 9999)
+    signed int return_value_tcrdbecode_4;
+    return_value_tcrdbecode_4=tcrdbecode(rdb);
+    if(return_value_tcrdbecode_4 == 9999)
       tcrdbsetecode(rdb, 6);
 
     return (_Bool)0;
@@ -8896,20 +8896,20 @@ _Bool tcrdbtblputkeep(struct anonymous$29 *rdb, const void *pkbuf, signed int pk
 
 // tcrdbtblsetindex
 // file tcrdb.c line 739
-_Bool tcrdbtblsetindex(struct anonymous$29 *rdb, const char *name, signed int type)
+_Bool tcrdbtblsetindex(struct anonymous_29 *rdb, const char *name, signed int type)
 {
   /* assertion rdb && name */
-  assert(rdb != ((struct anonymous$29 *)NULL) && name != ((const char *)NULL));
-  struct anonymous$1 *args;
+  assert(rdb != ((struct anonymous_29 *)NULL) && name != ((const char *)NULL));
+  struct anonymous_1 *args;
   args=tclistnew2(2);
   tclistpush2(args, name);
   char typestr[32l];
   sprintf(typestr, "%d", type);
   tclistpush2(args, typestr);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcrdbmisc(rdb, "setindex", 0, args);
   tclistdel(args);
-  if(rv == ((struct anonymous$1 *)NULL))
+  if(rv == ((struct anonymous_1 *)NULL))
     return (_Bool)0;
 
   else
@@ -8921,13 +8921,13 @@ _Bool tcrdbtblsetindex(struct anonymous$29 *rdb, const char *name, signed int ty
 
 // tcrdbtune
 // file tcrdb.c line 147
-_Bool tcrdbtune(struct anonymous$29 *rdb, double timeout, signed int opts)
+_Bool tcrdbtune(struct anonymous_29 *rdb, double timeout, signed int opts)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -8935,7 +8935,7 @@ _Bool tcrdbtune(struct anonymous$29 *rdb, double timeout, signed int opts)
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -8965,10 +8965,10 @@ _Bool tcrdbtune(struct anonymous$29 *rdb, double timeout, signed int opts)
 
 // tcrdbtuneimpl
 // file tcrdb.c line 1164
-static _Bool tcrdbtuneimpl(struct anonymous$29 *rdb, double timeout, signed int opts)
+static _Bool tcrdbtuneimpl(struct anonymous_29 *rdb, double timeout, signed int opts)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
+  assert(rdb != ((struct anonymous_29 *)NULL));
   if(rdb->fd >= 0)
   {
     tcrdbsetecode(rdb, 1);
@@ -8985,26 +8985,26 @@ static _Bool tcrdbtuneimpl(struct anonymous$29 *rdb, double timeout, signed int 
 
 // tcrdbunlockmethod
 // file tcrdb.c line 1093
-static void tcrdbunlockmethod(struct anonymous$29 *rdb)
+static void tcrdbunlockmethod(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&rdb->mmtx);
-  if(!(return_value_pthread_mutex_unlock$1 == 0))
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&rdb->mmtx);
+  if(!(return_value_pthread_mutex_unlock_1 == 0))
     tcrdbsetecode(rdb, 9999);
 
 }
 
 // tcrdbvanish
 // file tcrdb.c line 502
-_Bool tcrdbvanish(struct anonymous$29 *rdb)
+_Bool tcrdbvanish(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -9012,7 +9012,7 @@ _Bool tcrdbvanish(struct anonymous$29 *rdb)
     _Bool rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -9042,27 +9042,27 @@ _Bool tcrdbvanish(struct anonymous$29 *rdb)
 
 // tcrdbvanishimpl
 // file tcrdb.c line 2085
-static _Bool tcrdbvanishimpl(struct anonymous$29 *rdb)
+static _Bool tcrdbvanishimpl(struct anonymous_29 *rdb)
 {
   /* assertion rdb */
-  assert(rdb != ((struct anonymous$29 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return (_Bool)0;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return (_Bool)0;
 
   }
@@ -9070,15 +9070,15 @@ static _Bool tcrdbvanishimpl(struct anonymous$29 *rdb)
   _Bool err = (_Bool)0;
   unsigned char buf[65536l];
   unsigned char *wp = buf;
-  unsigned char *tmp_post$3 = wp;
+  unsigned char *tmp_post_3 = wp;
   wp = wp + 1l;
-  *tmp_post$3 = (unsigned char)0xc8;
-  unsigned char *tmp_post$4 = wp;
+  *tmp_post_3 = (unsigned char)0xc8;
+  unsigned char *tmp_post_4 = wp;
   wp = wp + 1l;
-  *tmp_post$4 = (unsigned char)0x72;
-  _Bool return_value_tcrdbsend$5;
-  return_value_tcrdbsend$5=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-  if(!(return_value_tcrdbsend$5 == (_Bool)0))
+  *tmp_post_4 = (unsigned char)0x72;
+  _Bool return_value_tcrdbsend_5;
+  return_value_tcrdbsend_5=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+  if(!(return_value_tcrdbsend_5 == (_Bool)0))
   {
     signed int code;
     code=ttsockgetc(rdb->sock);
@@ -9097,13 +9097,13 @@ static _Bool tcrdbvanishimpl(struct anonymous$29 *rdb)
 
 // tcrdbvsiz
 // file tcrdb.c line 363
-signed int tcrdbvsiz(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz)
+signed int tcrdbvsiz(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0);
-  _Bool return_value_tcrdblockmethod$1;
-  return_value_tcrdblockmethod$1=tcrdblockmethod(rdb);
-  if(return_value_tcrdblockmethod$1 == (_Bool)0)
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0);
+  _Bool return_value_tcrdblockmethod_1;
+  return_value_tcrdblockmethod_1=tcrdblockmethod(rdb);
+  if(return_value_tcrdblockmethod_1 == (_Bool)0)
     return -1;
 
   else
@@ -9111,7 +9111,7 @@ signed int tcrdbvsiz(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz
     signed int rv;
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))tcrdbunlockmethod;
       void *__cancel_arg = (void *)rdb;
       signed int __not_first_call;
@@ -9141,40 +9141,40 @@ signed int tcrdbvsiz(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz
 
 // tcrdbvsiz2
 // file tcrdb.c line 375
-signed int tcrdbvsiz2(struct anonymous$29 *rdb, const char *kstr)
+signed int tcrdbvsiz2(struct anonymous_29 *rdb, const char *kstr)
 {
   /* assertion rdb && kstr */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kstr != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(kstr);
-  signed int return_value_tcrdbvsiz$2;
-  return_value_tcrdbvsiz$2=tcrdbvsiz(rdb, (const void *)kstr, (signed int)return_value_strlen$1);
-  return return_value_tcrdbvsiz$2;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kstr != ((const char *)NULL));
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(kstr);
+  signed int return_value_tcrdbvsiz_2;
+  return_value_tcrdbvsiz_2=tcrdbvsiz(rdb, (const void *)kstr, (signed int)return_value_strlen_1);
+  return return_value_tcrdbvsiz_2;
 }
 
 // tcrdbvsizimpl
 // file tcrdb.c line 1658
-static signed int tcrdbvsizimpl(struct anonymous$29 *rdb, const void *kbuf, signed int ksiz)
+static signed int tcrdbvsizimpl(struct anonymous_29 *rdb, const void *kbuf, signed int ksiz)
 {
   /* assertion rdb && kbuf && ksiz >= 0 */
-  assert(rdb != ((struct anonymous$29 *)NULL) && kbuf != NULL && ksiz >= 0);
-  _Bool tmp_if_expr$1;
+  assert(rdb != ((struct anonymous_29 *)NULL) && kbuf != NULL && ksiz >= 0);
+  _Bool tmp_if_expr_1;
   if(!(rdb->fd >= 0))
   {
     if(rdb->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((rdb->opts & 1) != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       tcrdbsetecode(rdb, 1);
       return -1;
     }
 
-    _Bool return_value_tcrdbreconnect$2;
-    return_value_tcrdbreconnect$2=tcrdbreconnect(rdb);
-    if(return_value_tcrdbreconnect$2 == (_Bool)0)
+    _Bool return_value_tcrdbreconnect_2;
+    return_value_tcrdbreconnect_2=tcrdbreconnect(rdb);
+    if(return_value_tcrdbreconnect_2 == (_Bool)0)
       return -1;
 
   }
@@ -9183,22 +9183,22 @@ static signed int tcrdbvsizimpl(struct anonymous$29 *rdb, const void *kbuf, sign
   signed int rsiz = (signed int)((unsigned long int)2 + sizeof(unsigned int) /*4ul*/  + (unsigned long int)ksiz);
   unsigned char stack[65536l];
   unsigned char *buf;
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
   if(!(rsiz >= 65536))
-    tmp_if_expr$4 = stack;
+    tmp_if_expr_4 = stack;
 
   else
   {
-    return_value_tcmalloc$3=tcmalloc((unsigned long int)rsiz);
-    tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+    return_value_tcmalloc_3=tcmalloc((unsigned long int)rsiz);
+    tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
   }
-  buf = tmp_if_expr$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  buf = tmp_if_expr_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = free;
     void *__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
     signed int __not_first_call;
@@ -9213,31 +9213,31 @@ static signed int tcrdbvsizimpl(struct anonymous$29 *rdb, const void *kbuf, sign
     do
     {
       unsigned char *wp = buf;
-      tmp_post$5 = wp;
+      tmp_post_5 = wp;
       wp = wp + 1l;
-      *tmp_post$5 = (unsigned char)0xc8;
-      tmp_post$6 = wp;
+      *tmp_post_5 = (unsigned char)0xc8;
+      tmp_post_6 = wp;
       wp = wp + 1l;
-      *tmp_post$6 = (unsigned char)0x38;
+      *tmp_post_6 = (unsigned char)0x38;
       unsigned int num = (unsigned int)(((unsigned long int)(unsigned int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)(unsigned int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)(unsigned int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)(unsigned int)ksiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&num, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       memcpy((void *)wp, kbuf, (unsigned long int)ksiz);
       wp = wp + (signed long int)ksiz;
-      _Bool return_value_tcrdbsend$9;
-      return_value_tcrdbsend$9=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
-      if(!(return_value_tcrdbsend$9 == (_Bool)0))
+      _Bool return_value_tcrdbsend_9;
+      return_value_tcrdbsend_9=tcrdbsend(rdb, (const void *)buf, (signed int)(wp - buf));
+      if(!(return_value_tcrdbsend_9 == (_Bool)0))
       {
         signed int code;
         code=ttsockgetc(rdb->sock);
         if(code == 0)
         {
-          unsigned int return_value_ttsockgetint32$7;
-          return_value_ttsockgetint32$7=ttsockgetint32(rdb->sock);
-          vsiz = (signed int)return_value_ttsockgetint32$7;
-          _Bool return_value_ttsockcheckend$8;
-          return_value_ttsockcheckend$8=ttsockcheckend(rdb->sock);
-          if(!(return_value_ttsockcheckend$8 == (_Bool)0))
+          unsigned int return_value_ttsockgetint32_7;
+          return_value_ttsockgetint32_7=ttsockgetint32(rdb->sock);
+          vsiz = (signed int)return_value_ttsockgetint32_7;
+          _Bool return_value_ttsockcheckend_8;
+          return_value_ttsockcheckend_8=ttsockcheckend(rdb->sock);
+          if(!(return_value_ttsockcheckend_8 == (_Bool)0))
           {
             tcrdbsetecode(rdb, 5);
             vsiz = -1;
@@ -9263,10 +9263,10 @@ static signed int tcrdbvsizimpl(struct anonymous$29 *rdb, const void *kbuf, sign
 
 // tcreplclose
 // file tculog.c line 1111
-_Bool tcreplclose(struct anonymous$18 *repl)
+_Bool tcreplclose(struct anonymous_18 *repl)
 {
   /* assertion repl */
-  assert(repl != ((struct anonymous$18 *)NULL));
+  assert(repl != ((struct anonymous_18 *)NULL));
   if(!(repl->fd >= 0))
     return (_Bool)0;
 
@@ -9275,23 +9275,23 @@ _Bool tcreplclose(struct anonymous$18 *repl)
     _Bool err = (_Bool)0;
     tcfree((void *)repl->rbuf);
     ttsockdel(repl->sock);
-    _Bool return_value_ttclosesock$1;
-    return_value_ttclosesock$1=ttclosesock(repl->fd);
-    if(return_value_ttclosesock$1 == (_Bool)0)
+    _Bool return_value_ttclosesock_1;
+    return_value_ttclosesock_1=ttclosesock(repl->fd);
+    if(return_value_ttclosesock_1 == (_Bool)0)
       err = (_Bool)1;
 
     repl->fd = -1;
-    repl->sock = (struct anonymous$17 *)(void *)0;
+    repl->sock = (struct anonymous_17 *)(void *)0;
     return !(err != (_Bool)0);
   }
 }
 
 // tcrepldel
 // file tculog.c line 1066
-void tcrepldel(struct anonymous$18 *repl)
+void tcrepldel(struct anonymous_18 *repl)
 {
   /* assertion repl */
-  assert(repl != ((struct anonymous$18 *)NULL));
+  assert(repl != ((struct anonymous_18 *)NULL));
   if(repl->fd >= 0)
     tcreplclose(repl);
 
@@ -9300,26 +9300,26 @@ void tcrepldel(struct anonymous$18 *repl)
 
 // tcreplnew
 // file tculog.c line 1057
-struct anonymous$18 * tcreplnew(void)
+struct anonymous_18 * tcreplnew(void)
 {
-  struct anonymous$18 *repl;
-  void *return_value_tcmalloc$1;
-  return_value_tcmalloc$1=tcmalloc(sizeof(struct anonymous$18) /*32ul*/ );
-  repl = (struct anonymous$18 *)return_value_tcmalloc$1;
+  struct anonymous_18 *repl;
+  void *return_value_tcmalloc_1;
+  return_value_tcmalloc_1=tcmalloc(sizeof(struct anonymous_18) /*32ul*/ );
+  repl = (struct anonymous_18 *)return_value_tcmalloc_1;
   repl->fd = -1;
-  repl->sock = (struct anonymous$17 *)(void *)0;
+  repl->sock = (struct anonymous_17 *)(void *)0;
   return repl;
 }
 
 // tcreplopen
 // file tculog.c line 1074
-_Bool tcreplopen(struct anonymous$18 *repl, const char *host, signed int port, unsigned long int ts, unsigned int sid)
+_Bool tcreplopen(struct anonymous_18 *repl, const char *host, signed int port, unsigned long int ts, unsigned int sid)
 {
   /* assertion repl && host && port >= 0 */
-  assert(repl != ((struct anonymous$18 *)NULL) && host != ((const char *)NULL) && port >= 0);
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  _Bool tmp_if_expr$8;
+  assert(repl != ((struct anonymous_18 *)NULL) && host != ((const char *)NULL) && port >= 0);
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  _Bool tmp_if_expr_8;
   if(repl->fd >= 0)
     return (_Bool)0;
 
@@ -9332,9 +9332,9 @@ _Bool tcreplopen(struct anonymous$18 *repl, const char *host, signed int port, u
       sid = (unsigned int)0x7fffffff;
 
     char addr[1024l];
-    _Bool return_value_ttgethostaddr$1;
-    return_value_ttgethostaddr$1=ttgethostaddr(host, addr);
-    if(return_value_ttgethostaddr$1 == (_Bool)0)
+    _Bool return_value_ttgethostaddr_1;
+    return_value_ttgethostaddr_1=ttgethostaddr(host, addr);
+    if(return_value_ttgethostaddr_1 == (_Bool)0)
       return (_Bool)0;
 
     else
@@ -9348,12 +9348,12 @@ _Bool tcreplopen(struct anonymous$18 *repl, const char *host, signed int port, u
       {
         unsigned char buf[65536l];
         unsigned char *wp = buf;
-        tmp_post$2 = wp;
+        tmp_post_2 = wp;
         wp = wp + 1l;
-        *tmp_post$2 = (unsigned char)0xc8;
-        tmp_post$3 = wp;
+        *tmp_post_2 = (unsigned char)0xc8;
+        tmp_post_3 = wp;
         wp = wp + 1l;
-        *tmp_post$3 = (unsigned char)0xa0;
+        *tmp_post_3 = (unsigned char)0xa0;
         unsigned long int llnum = (ts & 0x00000000000000ffULL) << 56 | (ts & 0x000000000000ff00ULL) << 40 | (ts & 0x0000000000ff0000ULL) << 24 | (ts & 0x00000000ff000000ULL) << 8 | (ts & 0x000000ff00000000ULL) >> 8 | (ts & 0x0000ff0000000000ULL) >> 24 | (ts & 0x00ff000000000000ULL) >> 40 | (ts & 0xff00000000000000ULL) >> 56;
         memcpy((void *)wp, (const void *)&llnum, sizeof(unsigned long int) /*8ul*/ );
         wp = wp + (signed long int)sizeof(unsigned long int) /*8ul*/ ;
@@ -9362,13 +9362,13 @@ _Bool tcreplopen(struct anonymous$18 *repl, const char *host, signed int port, u
         wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
         repl->fd = fd;
         repl->sock=ttsocknew(fd);
-        void *return_value_tcmalloc$4;
-        return_value_tcmalloc$4=tcmalloc((unsigned long int)65536);
-        repl->rbuf = (char *)return_value_tcmalloc$4;
+        void *return_value_tcmalloc_4;
+        return_value_tcmalloc_4=tcmalloc((unsigned long int)65536);
+        repl->rbuf = (char *)return_value_tcmalloc_4;
         repl->rsiz = 65536;
-        _Bool return_value_ttsocksend$5;
-        return_value_ttsocksend$5=ttsocksend(repl->sock, (const void *)buf, (signed int)(wp - buf));
-        if(return_value_ttsocksend$5 == (_Bool)0)
+        _Bool return_value_ttsocksend_5;
+        return_value_ttsocksend_5=ttsocksend(repl->sock, (const void *)buf, (signed int)(wp - buf));
+        if(return_value_ttsocksend_5 == (_Bool)0)
         {
           tcreplclose(repl);
           return (_Bool)0;
@@ -9376,17 +9376,17 @@ _Bool tcreplopen(struct anonymous$18 *repl, const char *host, signed int port, u
 
         else
         {
-          unsigned int return_value_ttsockgetint32$6;
-          return_value_ttsockgetint32$6=ttsockgetint32(repl->sock);
-          repl->mid = (unsigned short int)return_value_ttsockgetint32$6;
-          _Bool return_value_ttsockcheckend$7;
-          return_value_ttsockcheckend$7=ttsockcheckend(repl->sock);
-          if(!(return_value_ttsockcheckend$7 == (_Bool)0))
-            tmp_if_expr$8 = (_Bool)1;
+          unsigned int return_value_ttsockgetint32_6;
+          return_value_ttsockgetint32_6=ttsockgetint32(repl->sock);
+          repl->mid = (unsigned short int)return_value_ttsockgetint32_6;
+          _Bool return_value_ttsockcheckend_7;
+          return_value_ttsockcheckend_7=ttsockcheckend(repl->sock);
+          if(!(return_value_ttsockcheckend_7 == (_Bool)0))
+            tmp_if_expr_8 = (_Bool)1;
 
           else
-            tmp_if_expr$8 = (signed int)repl->mid < 1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$8)
+            tmp_if_expr_8 = (signed int)repl->mid < 1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_8)
           {
             tcreplclose(repl);
             return (_Bool)0;
@@ -9402,19 +9402,19 @@ _Bool tcreplopen(struct anonymous$18 *repl, const char *host, signed int port, u
 
 // tcreplread
 // file tculog.c line 1125
-const char * tcreplread(struct anonymous$18 *repl, signed int *sp, unsigned long int *tsp, unsigned int *sidp)
+const char * tcreplread(struct anonymous_18 *repl, signed int *sp, unsigned long int *tsp, unsigned int *sidp)
 {
   /* assertion repl && sp && tsp */
-  assert(repl != ((struct anonymous$18 *)NULL) && sp != ((signed int *)NULL) && tsp != ((unsigned long int *)NULL));
+  assert(repl != ((struct anonymous_18 *)NULL) && sp != ((signed int *)NULL) && tsp != ((unsigned long int *)NULL));
   signed int ocs = 1;
   pthread_setcancelstate(0, &ocs);
   ttsocksetlife(repl->sock, 60.0);
   signed int c;
   c=ttsockgetc(repl->sock);
-  _Bool tmp_if_expr$4;
-  _Bool return_value_ttsockrecv$3;
-  _Bool tmp_if_expr$6;
-  _Bool return_value_ttsockcheckend$5;
+  _Bool tmp_if_expr_4;
+  _Bool return_value_ttsockrecv_3;
+  _Bool tmp_if_expr_6;
+  _Bool return_value_ttsockcheckend_5;
   if(c == 0xca)
   {
     *sp = 0;
@@ -9440,31 +9440,31 @@ const char * tcreplread(struct anonymous$18 *repl, signed int *sp, unsigned long
       rsiz=ttsockgetint32(repl->sock);
       if(!((unsigned int)repl->rsiz >= 1u + rsiz))
       {
-        void *return_value_tcrealloc$1;
-        return_value_tcrealloc$1=tcrealloc((void *)repl->rbuf, (unsigned long int)(rsiz + (unsigned int)1));
-        repl->rbuf = (char *)return_value_tcrealloc$1;
+        void *return_value_tcrealloc_1;
+        return_value_tcrealloc_1=tcrealloc((void *)repl->rbuf, (unsigned long int)(rsiz + (unsigned int)1));
+        repl->rbuf = (char *)return_value_tcrealloc_1;
         repl->rsiz = (signed int)(rsiz + (unsigned int)1);
       }
 
-      _Bool return_value_ttsockcheckend$2;
-      return_value_ttsockcheckend$2=ttsockcheckend(repl->sock);
-      if(!(return_value_ttsockcheckend$2 == (_Bool)0))
-        tmp_if_expr$4 = (_Bool)1;
+      _Bool return_value_ttsockcheckend_2;
+      return_value_ttsockcheckend_2=ttsockcheckend(repl->sock);
+      if(!(return_value_ttsockcheckend_2 == (_Bool)0))
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value_ttsockrecv$3=ttsockrecv(repl->sock, repl->rbuf, (signed int)rsiz);
-        tmp_if_expr$4 = !(return_value_ttsockrecv$3 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+        return_value_ttsockrecv_3=ttsockrecv(repl->sock, repl->rbuf, (signed int)rsiz);
+        tmp_if_expr_4 = !(return_value_ttsockrecv_3 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
-        tmp_if_expr$6 = (_Bool)1;
+      if(tmp_if_expr_4)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_ttsockcheckend$5=ttsockcheckend(repl->sock);
-        tmp_if_expr$6 = return_value_ttsockcheckend$5 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+        return_value_ttsockcheckend_5=ttsockcheckend(repl->sock);
+        tmp_if_expr_6 = return_value_ttsockcheckend_5 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
       {
         pthread_setcancelstate(ocs, (signed int *)(void *)0);
         return (const char *)(void *)0;
@@ -9483,52 +9483,52 @@ const char * tcreplread(struct anonymous$18 *repl, signed int *sp, unsigned long
 
 // tculogadbadddouble
 // file tculog.c line 688
-double tculogadbadddouble(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, double num)
+double tculogadbadddouble(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, double num)
 {
   /* assertion ulog && adb && kbuf && ksiz >= 0 */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL) && kbuf != NULL && ksiz >= 0);
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL) && kbuf != NULL && ksiz >= 0);
   signed int rmidx;
   rmidx=tculogrmtxidx(ulog, (const char *)kbuf, ksiz);
   _Bool dolog;
-  _Bool tmp_if_expr$2;
-  _Bool return_value_tculogbegin$1;
+  _Bool tmp_if_expr_2;
+  _Bool return_value_tculogbegin_1;
   if(IEEE_FLOAT_NOTEQUAL(num, 0.000000))
   {
-    return_value_tculogbegin$1=tculogbegin(ulog, rmidx);
-    tmp_if_expr$2 = return_value_tculogbegin$1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_tculogbegin_1=tculogbegin(ulog, rmidx);
+    tmp_if_expr_2 = return_value_tculogbegin_1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  dolog = tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  dolog = tmp_if_expr_2;
   double rnum;
   rnum=tcadbadddouble(adb, kbuf, ksiz, num);
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
   if(!(dolog == (_Bool)0))
   {
     unsigned char mstack[65536l];
     signed int msiz = (signed int)(sizeof(unsigned char) /*1ul*/  * (unsigned long int)3 + sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  * (unsigned long int)2 + (unsigned long int)ksiz);
     unsigned char *mbuf;
     if(!(msiz >= 65536))
-      tmp_if_expr$4 = mstack;
+      tmp_if_expr_4 = mstack;
 
     else
     {
-      return_value_tcmalloc$3=tcmalloc((unsigned long int)(msiz + 1));
-      tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+      return_value_tcmalloc_3=tcmalloc((unsigned long int)(msiz + 1));
+      tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
     }
-    mbuf = tmp_if_expr$4;
+    mbuf = tmp_if_expr_4;
     unsigned char *wp = mbuf;
-    tmp_post$5 = wp;
+    tmp_post_5 = wp;
     wp = wp + 1l;
-    *tmp_post$5 = (unsigned char)0xc8;
-    tmp_post$6 = wp;
+    *tmp_post_5 = (unsigned char)0xc8;
+    tmp_post_6 = wp;
     wp = wp + 1l;
-    *tmp_post$6 = (unsigned char)0x61;
+    *tmp_post_6 = (unsigned char)0x61;
     unsigned int lnum = (unsigned int)(((unsigned long int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)ksiz & 0xff000000UL) >> 24);
     memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -9536,14 +9536,14 @@ double tculogadbadddouble(struct anonymous$0 *ulog, unsigned int sid, unsigned i
     wp = wp + (signed long int)(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)2);
     memcpy((void *)wp, kbuf, (unsigned long int)ksiz);
     wp = wp + (signed long int)ksiz;
-    tmp_post$7 = wp;
+    tmp_post_7 = wp;
     wp = wp + 1l;
-    signed int return_value___isnan$8;
-    return_value___isnan$8=__isnan(rnum);
-    *tmp_post$7 = (unsigned char)(return_value___isnan$8 != 0 ? 1 : 0);
-    _Bool return_value_tculogwrite$9;
-    return_value_tculogwrite$9=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
-    if(return_value_tculogwrite$9 == (_Bool)0)
+    signed int return_value___isnan_8;
+    return_value___isnan_8=__isnan(rnum);
+    *tmp_post_7 = (unsigned char)(return_value___isnan_8 != 0 ? 1 : 0);
+    _Bool return_value_tculogwrite_9;
+    return_value_tculogwrite_9=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
+    if(return_value_tculogwrite_9 == (_Bool)0)
       rnum = (double)(-0x7fffffff - 1);
 
     if(!(mbuf == mstack))
@@ -9557,52 +9557,52 @@ double tculogadbadddouble(struct anonymous$0 *ulog, unsigned int sid, unsigned i
 
 // tculogadbaddint
 // file tculog.c line 656
-signed int tculogadbaddint(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, signed int num)
+signed int tculogadbaddint(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, signed int num)
 {
   /* assertion ulog && adb && kbuf && ksiz >= 0 */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL) && kbuf != NULL && ksiz >= 0);
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL) && kbuf != NULL && ksiz >= 0);
   signed int rmidx;
   rmidx=tculogrmtxidx(ulog, (const char *)kbuf, ksiz);
   _Bool dolog;
-  _Bool tmp_if_expr$2;
-  _Bool return_value_tculogbegin$1;
+  _Bool tmp_if_expr_2;
+  _Bool return_value_tculogbegin_1;
   if(!(num == 0))
   {
-    return_value_tculogbegin$1=tculogbegin(ulog, rmidx);
-    tmp_if_expr$2 = return_value_tculogbegin$1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_tculogbegin_1=tculogbegin(ulog, rmidx);
+    tmp_if_expr_2 = return_value_tculogbegin_1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  dolog = tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  dolog = tmp_if_expr_2;
   signed int rnum;
   rnum=tcadbaddint(adb, kbuf, ksiz, num);
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
   if(!(dolog == (_Bool)0))
   {
     unsigned char mstack[65536l];
     signed int msiz = (signed int)(sizeof(unsigned char) /*1ul*/  * (unsigned long int)3 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2 + (unsigned long int)ksiz);
     unsigned char *mbuf;
     if(!(msiz >= 65536))
-      tmp_if_expr$4 = mstack;
+      tmp_if_expr_4 = mstack;
 
     else
     {
-      return_value_tcmalloc$3=tcmalloc((unsigned long int)(msiz + 1));
-      tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+      return_value_tcmalloc_3=tcmalloc((unsigned long int)(msiz + 1));
+      tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
     }
-    mbuf = tmp_if_expr$4;
+    mbuf = tmp_if_expr_4;
     unsigned char *wp = mbuf;
-    tmp_post$5 = wp;
+    tmp_post_5 = wp;
     wp = wp + 1l;
-    *tmp_post$5 = (unsigned char)0xc8;
-    tmp_post$6 = wp;
+    *tmp_post_5 = (unsigned char)0xc8;
+    tmp_post_6 = wp;
     wp = wp + 1l;
-    *tmp_post$6 = (unsigned char)0x60;
+    *tmp_post_6 = (unsigned char)0x60;
     unsigned int lnum = (unsigned int)(((unsigned long int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)ksiz & 0xff000000UL) >> 24);
     memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -9611,12 +9611,12 @@ signed int tculogadbaddint(struct anonymous$0 *ulog, unsigned int sid, unsigned 
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
     memcpy((void *)wp, kbuf, (unsigned long int)ksiz);
     wp = wp + (signed long int)ksiz;
-    tmp_post$7 = wp;
+    tmp_post_7 = wp;
     wp = wp + 1l;
-    *tmp_post$7 = (unsigned char)(rnum == -0x7fffffff - 1 ? 1 : 0);
-    _Bool return_value_tculogwrite$8;
-    return_value_tculogwrite$8=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
-    if(return_value_tculogwrite$8 == (_Bool)0)
+    *tmp_post_7 = (unsigned char)(rnum == -0x7fffffff - 1 ? 1 : 0);
+    _Bool return_value_tculogwrite_8;
+    return_value_tculogwrite_8=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
+    if(return_value_tculogwrite_8 == (_Bool)0)
       rnum = -0x7fffffff - 1;
 
     if(!(mbuf == mstack))
@@ -9630,25 +9630,25 @@ signed int tculogadbaddint(struct anonymous$0 *ulog, unsigned int sid, unsigned 
 
 // tculogadbmisc
 // file tculog.c line 786
-struct anonymous$1 * tculogadbmisc(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const char *name, const struct anonymous$1 *args)
+struct anonymous_1 * tculogadbmisc(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const char *name, const struct anonymous_1 *args)
 {
   /* assertion ulog && adb && name && args */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL) && name != ((const char *)NULL) && args != ((const struct anonymous$1 *)NULL));
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL) && name != ((const char *)NULL) && args != ((const struct anonymous_1 *)NULL));
   _Bool dolog;
   dolog=tculogbegin(ulog, -1);
-  struct anonymous$1 *rv;
+  struct anonymous_1 *rv;
   rv=tcadbmisc(adb, name, args);
-  unsigned char *tmp_if_expr$3;
-  void *return_value_tcmalloc$2;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$7;
+  unsigned char *tmp_if_expr_3;
+  void *return_value_tcmalloc_2;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_7;
   if(!(dolog == (_Bool)0))
   {
     signed int nsiz;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(name);
-    nsiz = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(name);
+    nsiz = (signed int)return_value_strlen_1;
     signed int anum;
     anum=tclistnum(args);
     signed int msiz = (signed int)(sizeof(unsigned char) /*1ul*/  * (unsigned long int)3 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2 + (unsigned long int)nsiz);
@@ -9662,21 +9662,21 @@ struct anonymous$1 * tculogadbmisc(struct anonymous$0 *ulog, unsigned int sid, u
     unsigned char mstack[65536l];
     unsigned char *mbuf;
     if(!(msiz >= 65536))
-      tmp_if_expr$3 = mstack;
+      tmp_if_expr_3 = mstack;
 
     else
     {
-      return_value_tcmalloc$2=tcmalloc((unsigned long int)(msiz + 1));
-      tmp_if_expr$3 = (unsigned char *)return_value_tcmalloc$2;
+      return_value_tcmalloc_2=tcmalloc((unsigned long int)(msiz + 1));
+      tmp_if_expr_3 = (unsigned char *)return_value_tcmalloc_2;
     }
-    mbuf = tmp_if_expr$3;
+    mbuf = tmp_if_expr_3;
     unsigned char *wp = mbuf;
-    tmp_post$4 = wp;
+    tmp_post_4 = wp;
     wp = wp + 1l;
-    *tmp_post$4 = (unsigned char)0xc8;
-    tmp_post$5 = wp;
+    *tmp_post_4 = (unsigned char)0xc8;
+    tmp_post_5 = wp;
     wp = wp + 1l;
-    *tmp_post$5 = (unsigned char)0x90;
+    *tmp_post_5 = (unsigned char)0x90;
     unsigned int lnum = (unsigned int)(((unsigned long int)nsiz & 0x000000ffUL) << 24 | ((unsigned long int)nsiz & 0x0000ff00UL) << 8 | ((unsigned long int)nsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)nsiz & 0xff000000UL) >> 24);
     memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -9685,31 +9685,31 @@ struct anonymous$1 * tculogadbmisc(struct anonymous$0 *ulog, unsigned int sid, u
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
     memcpy((void *)wp, (const void *)name, (unsigned long int)nsiz);
     wp = wp + (signed long int)nsiz;
-    signed int tculogadbmisc$$1$$1$$2$$i = 0;
-    for( ; !(tculogadbmisc$$1$$1$$2$$i >= anum); tculogadbmisc$$1$$1$$2$$i = tculogadbmisc$$1$$1$$2$$i + 1)
+    signed int tculogadbmisc__1__1__2__i = 0;
+    for( ; !(tculogadbmisc__1__1__2__i >= anum); tculogadbmisc__1__1__2__i = tculogadbmisc__1__1__2__i + 1)
     {
-      signed int tculogadbmisc$$1$$1$$2$$1$$esiz;
+      signed int tculogadbmisc__1__1__2__1__esiz;
       const char *ebuf;
-      const void *return_value_tclistval$6;
-      return_value_tclistval$6=tclistval(args, tculogadbmisc$$1$$1$$2$$i, &tculogadbmisc$$1$$1$$2$$1$$esiz);
-      ebuf = (const char *)return_value_tclistval$6;
-      lnum = (unsigned int)(((unsigned long int)tculogadbmisc$$1$$1$$2$$1$$esiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbmisc$$1$$1$$2$$1$$esiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbmisc$$1$$1$$2$$1$$esiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbmisc$$1$$1$$2$$1$$esiz & 0xff000000UL) >> 24);
+      const void *return_value_tclistval_6;
+      return_value_tclistval_6=tclistval(args, tculogadbmisc__1__1__2__i, &tculogadbmisc__1__1__2__1__esiz);
+      ebuf = (const char *)return_value_tclistval_6;
+      lnum = (unsigned int)(((unsigned long int)tculogadbmisc__1__1__2__1__esiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbmisc__1__1__2__1__esiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbmisc__1__1__2__1__esiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbmisc__1__1__2__1__esiz & 0xff000000UL) >> 24);
       memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
       wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
-      memcpy((void *)wp, (const void *)ebuf, (unsigned long int)tculogadbmisc$$1$$1$$2$$1$$esiz);
-      wp = wp + (signed long int)tculogadbmisc$$1$$1$$2$$1$$esiz;
+      memcpy((void *)wp, (const void *)ebuf, (unsigned long int)tculogadbmisc__1__1__2__1__esiz);
+      wp = wp + (signed long int)tculogadbmisc__1__1__2__1__esiz;
     }
-    tmp_post$7 = wp;
+    tmp_post_7 = wp;
     wp = wp + 1l;
-    *tmp_post$7 = (unsigned char)(rv != ((struct anonymous$1 *)NULL) ? 0 : 1);
-    _Bool return_value_tculogwrite$8;
-    return_value_tculogwrite$8=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
-    if(return_value_tculogwrite$8 == (_Bool)0)
+    *tmp_post_7 = (unsigned char)(rv != ((struct anonymous_1 *)NULL) ? 0 : 1);
+    _Bool return_value_tculogwrite_8;
+    return_value_tculogwrite_8=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
+    if(return_value_tculogwrite_8 == (_Bool)0)
     {
-      if(!(rv == ((struct anonymous$1 *)NULL)))
+      if(!(rv == ((struct anonymous_1 *)NULL)))
         tclistdel(rv);
 
-      rv = (struct anonymous$1 *)(void *)0;
+      rv = (struct anonymous_1 *)(void *)0;
     }
 
     if(!(mbuf == mstack))
@@ -9723,59 +9723,59 @@ struct anonymous$1 * tculogadbmisc(struct anonymous$0 *ulog, unsigned int sid, u
 
 // tculogadboptimize
 // file tculog.c line 738
-_Bool tculogadboptimize(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const char *params)
+_Bool tculogadboptimize(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const char *params)
 {
   /* assertion ulog && adb */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL));
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL));
   _Bool err = (_Bool)0;
   _Bool dolog;
   dolog=tculogbegin(ulog, -1);
-  _Bool return_value_tcadboptimize$1;
-  return_value_tcadboptimize$1=tcadboptimize(adb, params);
-  if(return_value_tcadboptimize$1 == (_Bool)0)
+  _Bool return_value_tcadboptimize_1;
+  return_value_tcadboptimize_1=tcadboptimize(adb, params);
+  if(return_value_tcadboptimize_1 == (_Bool)0)
     err = (_Bool)1;
 
-  unsigned char *tmp_if_expr$4;
-  void *return_value_tcmalloc$3;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
+  unsigned char *tmp_if_expr_4;
+  void *return_value_tcmalloc_3;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
   if(!(dolog == (_Bool)0))
   {
     signed int psiz;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(params);
-    psiz = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(params);
+    psiz = (signed int)return_value_strlen_2;
     unsigned char mstack[65536l];
     signed int msiz = (signed int)(sizeof(unsigned char) /*1ul*/  * (unsigned long int)3 + sizeof(unsigned int) /*4ul*/  + (unsigned long int)psiz);
     unsigned char *mbuf;
     if(!(msiz >= 65536))
-      tmp_if_expr$4 = mstack;
+      tmp_if_expr_4 = mstack;
 
     else
     {
-      return_value_tcmalloc$3=tcmalloc((unsigned long int)(msiz + 1));
-      tmp_if_expr$4 = (unsigned char *)return_value_tcmalloc$3;
+      return_value_tcmalloc_3=tcmalloc((unsigned long int)(msiz + 1));
+      tmp_if_expr_4 = (unsigned char *)return_value_tcmalloc_3;
     }
-    mbuf = tmp_if_expr$4;
+    mbuf = tmp_if_expr_4;
     unsigned char *wp = mbuf;
-    tmp_post$5 = wp;
+    tmp_post_5 = wp;
     wp = wp + 1l;
-    *tmp_post$5 = (unsigned char)0xc8;
-    tmp_post$6 = wp;
+    *tmp_post_5 = (unsigned char)0xc8;
+    tmp_post_6 = wp;
     wp = wp + 1l;
-    *tmp_post$6 = (unsigned char)0x71;
+    *tmp_post_6 = (unsigned char)0x71;
     unsigned int lnum = (unsigned int)(((unsigned long int)psiz & 0x000000ffUL) << 24 | ((unsigned long int)psiz & 0x0000ff00UL) << 8 | ((unsigned long int)psiz & 0x00ff0000UL) >> 8 | ((unsigned long int)psiz & 0xff000000UL) >> 24);
     memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
     memcpy((void *)wp, (const void *)params, (unsigned long int)psiz);
     wp = wp + (signed long int)psiz;
-    tmp_post$7 = wp;
+    tmp_post_7 = wp;
     wp = wp + 1l;
-    *tmp_post$7 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
-    _Bool return_value_tculogwrite$8;
-    return_value_tculogwrite$8=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
-    if(return_value_tculogwrite$8 == (_Bool)0)
+    *tmp_post_7 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
+    _Bool return_value_tculogwrite_8;
+    return_value_tculogwrite_8=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
+    if(return_value_tculogwrite_8 == (_Bool)0)
       err = (_Bool)1;
 
     if(!(mbuf == mstack))
@@ -9789,57 +9789,57 @@ _Bool tculogadboptimize(struct anonymous$0 *ulog, unsigned int sid, unsigned int
 
 // tculogadbout
 // file tculog.c line 626
-_Bool tculogadbout(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz)
+_Bool tculogadbout(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz)
 {
   /* assertion ulog && adb && kbuf && ksiz >= 0 */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL) && kbuf != NULL && ksiz >= 0);
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL) && kbuf != NULL && ksiz >= 0);
   _Bool err = (_Bool)0;
   signed int rmidx;
   rmidx=tculogrmtxidx(ulog, (const char *)kbuf, ksiz);
   _Bool dolog;
   dolog=tculogbegin(ulog, rmidx);
-  _Bool return_value_tcadbout$1;
-  return_value_tcadbout$1=tcadbout(adb, kbuf, ksiz);
-  if(return_value_tcadbout$1 == (_Bool)0)
+  _Bool return_value_tcadbout_1;
+  return_value_tcadbout_1=tcadbout(adb, kbuf, ksiz);
+  if(return_value_tcadbout_1 == (_Bool)0)
     err = (_Bool)1;
 
-  unsigned char *tmp_if_expr$3;
-  void *return_value_tcmalloc$2;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  unsigned char *tmp_if_expr_3;
+  void *return_value_tcmalloc_2;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   if(!(dolog == (_Bool)0))
   {
     unsigned char mstack[65536l];
     signed int msiz = (signed int)(sizeof(unsigned char) /*1ul*/  * (unsigned long int)3 + sizeof(unsigned int) /*4ul*/  + (unsigned long int)ksiz);
     unsigned char *mbuf;
     if(!(msiz >= 65536))
-      tmp_if_expr$3 = mstack;
+      tmp_if_expr_3 = mstack;
 
     else
     {
-      return_value_tcmalloc$2=tcmalloc((unsigned long int)(msiz + 1));
-      tmp_if_expr$3 = (unsigned char *)return_value_tcmalloc$2;
+      return_value_tcmalloc_2=tcmalloc((unsigned long int)(msiz + 1));
+      tmp_if_expr_3 = (unsigned char *)return_value_tcmalloc_2;
     }
-    mbuf = tmp_if_expr$3;
+    mbuf = tmp_if_expr_3;
     unsigned char *wp = mbuf;
-    tmp_post$4 = wp;
+    tmp_post_4 = wp;
     wp = wp + 1l;
-    *tmp_post$4 = (unsigned char)0xc8;
-    tmp_post$5 = wp;
+    *tmp_post_4 = (unsigned char)0xc8;
+    tmp_post_5 = wp;
     wp = wp + 1l;
-    *tmp_post$5 = (unsigned char)0x20;
+    *tmp_post_5 = (unsigned char)0x20;
     unsigned int lnum = (unsigned int)(((unsigned long int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)ksiz & 0xff000000UL) >> 24);
     memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
     memcpy((void *)wp, kbuf, (unsigned long int)ksiz);
     wp = wp + (signed long int)ksiz;
-    tmp_post$6 = wp;
+    tmp_post_6 = wp;
     wp = wp + 1l;
-    *tmp_post$6 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
-    _Bool return_value_tculogwrite$7;
-    return_value_tculogwrite$7=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
-    if(return_value_tculogwrite$7 == (_Bool)0)
+    *tmp_post_6 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
+    _Bool return_value_tculogwrite_7;
+    return_value_tculogwrite_7=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
+    if(return_value_tculogwrite_7 == (_Bool)0)
       err = (_Bool)1;
 
     if(!(mbuf == mstack))
@@ -9853,46 +9853,46 @@ _Bool tculogadbout(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid,
 
 // tculogadbput
 // file tculog.c line 478
-_Bool tculogadbput(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+_Bool tculogadbput(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion ulog && adb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
   _Bool err = (_Bool)0;
   signed int rmidx;
   rmidx=tculogrmtxidx(ulog, (const char *)kbuf, ksiz);
   _Bool dolog;
   dolog=tculogbegin(ulog, rmidx);
-  _Bool return_value_tcadbput$1;
-  return_value_tcadbput$1=tcadbput(adb, kbuf, ksiz, vbuf, vsiz);
-  if(return_value_tcadbput$1 == (_Bool)0)
+  _Bool return_value_tcadbput_1;
+  return_value_tcadbput_1=tcadbput(adb, kbuf, ksiz, vbuf, vsiz);
+  if(return_value_tcadbput_1 == (_Bool)0)
     err = (_Bool)1;
 
-  unsigned char *tmp_if_expr$3;
-  void *return_value_tcmalloc$2;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  unsigned char *tmp_if_expr_3;
+  void *return_value_tcmalloc_2;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   if(!(dolog == (_Bool)0))
   {
     unsigned char mstack[65536l];
     signed int msiz = (signed int)(sizeof(unsigned char) /*1ul*/  * (unsigned long int)3 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2 + (unsigned long int)ksiz + (unsigned long int)vsiz);
     unsigned char *mbuf;
     if(!(msiz >= 65536))
-      tmp_if_expr$3 = mstack;
+      tmp_if_expr_3 = mstack;
 
     else
     {
-      return_value_tcmalloc$2=tcmalloc((unsigned long int)(msiz + 1));
-      tmp_if_expr$3 = (unsigned char *)return_value_tcmalloc$2;
+      return_value_tcmalloc_2=tcmalloc((unsigned long int)(msiz + 1));
+      tmp_if_expr_3 = (unsigned char *)return_value_tcmalloc_2;
     }
-    mbuf = tmp_if_expr$3;
+    mbuf = tmp_if_expr_3;
     unsigned char *wp = mbuf;
-    tmp_post$4 = wp;
+    tmp_post_4 = wp;
     wp = wp + 1l;
-    *tmp_post$4 = (unsigned char)0xc8;
-    tmp_post$5 = wp;
+    *tmp_post_4 = (unsigned char)0xc8;
+    tmp_post_5 = wp;
     wp = wp + 1l;
-    *tmp_post$5 = (unsigned char)0x10;
+    *tmp_post_5 = (unsigned char)0x10;
     unsigned int lnum = (unsigned int)(((unsigned long int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)ksiz & 0xff000000UL) >> 24);
     memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -9903,12 +9903,12 @@ _Bool tculogadbput(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid,
     wp = wp + (signed long int)ksiz;
     memcpy((void *)wp, vbuf, (unsigned long int)vsiz);
     wp = wp + (signed long int)vsiz;
-    tmp_post$6 = wp;
+    tmp_post_6 = wp;
     wp = wp + 1l;
-    *tmp_post$6 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
-    _Bool return_value_tculogwrite$7;
-    return_value_tculogwrite$7=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
-    if(return_value_tculogwrite$7 == (_Bool)0)
+    *tmp_post_6 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
+    _Bool return_value_tculogwrite_7;
+    return_value_tculogwrite_7=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
+    if(return_value_tculogwrite_7 == (_Bool)0)
       err = (_Bool)1;
 
     if(!(mbuf == mstack))
@@ -9922,46 +9922,46 @@ _Bool tculogadbput(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid,
 
 // tculogadbputcat
 // file tculog.c line 548
-_Bool tculogadbputcat(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+_Bool tculogadbputcat(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion ulog && adb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
   _Bool err = (_Bool)0;
   signed int rmidx;
   rmidx=tculogrmtxidx(ulog, (const char *)kbuf, ksiz);
   _Bool dolog;
   dolog=tculogbegin(ulog, rmidx);
-  _Bool return_value_tcadbputcat$1;
-  return_value_tcadbputcat$1=tcadbputcat(adb, kbuf, ksiz, vbuf, vsiz);
-  if(return_value_tcadbputcat$1 == (_Bool)0)
+  _Bool return_value_tcadbputcat_1;
+  return_value_tcadbputcat_1=tcadbputcat(adb, kbuf, ksiz, vbuf, vsiz);
+  if(return_value_tcadbputcat_1 == (_Bool)0)
     err = (_Bool)1;
 
-  unsigned char *tmp_if_expr$3;
-  void *return_value_tcmalloc$2;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  unsigned char *tmp_if_expr_3;
+  void *return_value_tcmalloc_2;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   if(!(dolog == (_Bool)0))
   {
     unsigned char mstack[65536l];
     signed int msiz = (signed int)(sizeof(unsigned char) /*1ul*/  * (unsigned long int)3 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2 + (unsigned long int)ksiz + (unsigned long int)vsiz);
     unsigned char *mbuf;
     if(!(msiz >= 65536))
-      tmp_if_expr$3 = mstack;
+      tmp_if_expr_3 = mstack;
 
     else
     {
-      return_value_tcmalloc$2=tcmalloc((unsigned long int)(msiz + 1));
-      tmp_if_expr$3 = (unsigned char *)return_value_tcmalloc$2;
+      return_value_tcmalloc_2=tcmalloc((unsigned long int)(msiz + 1));
+      tmp_if_expr_3 = (unsigned char *)return_value_tcmalloc_2;
     }
-    mbuf = tmp_if_expr$3;
+    mbuf = tmp_if_expr_3;
     unsigned char *wp = mbuf;
-    tmp_post$4 = wp;
+    tmp_post_4 = wp;
     wp = wp + 1l;
-    *tmp_post$4 = (unsigned char)0xc8;
-    tmp_post$5 = wp;
+    *tmp_post_4 = (unsigned char)0xc8;
+    tmp_post_5 = wp;
     wp = wp + 1l;
-    *tmp_post$5 = (unsigned char)0x12;
+    *tmp_post_5 = (unsigned char)0x12;
     unsigned int lnum = (unsigned int)(((unsigned long int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)ksiz & 0xff000000UL) >> 24);
     memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -9972,12 +9972,12 @@ _Bool tculogadbputcat(struct anonymous$0 *ulog, unsigned int sid, unsigned int m
     wp = wp + (signed long int)ksiz;
     memcpy((void *)wp, vbuf, (unsigned long int)vsiz);
     wp = wp + (signed long int)vsiz;
-    tmp_post$6 = wp;
+    tmp_post_6 = wp;
     wp = wp + 1l;
-    *tmp_post$6 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
-    _Bool return_value_tculogwrite$7;
-    return_value_tculogwrite$7=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
-    if(return_value_tculogwrite$7 == (_Bool)0)
+    *tmp_post_6 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
+    _Bool return_value_tculogwrite_7;
+    return_value_tculogwrite_7=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
+    if(return_value_tculogwrite_7 == (_Bool)0)
       err = (_Bool)1;
 
     if(!(mbuf == mstack))
@@ -9991,46 +9991,46 @@ _Bool tculogadbputcat(struct anonymous$0 *ulog, unsigned int sid, unsigned int m
 
 // tculogadbputkeep
 // file tculog.c line 513
-_Bool tculogadbputkeep(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
+_Bool tculogadbputkeep(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz)
 {
   /* assertion ulog && adb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0);
   _Bool err = (_Bool)0;
   signed int rmidx;
   rmidx=tculogrmtxidx(ulog, (const char *)kbuf, ksiz);
   _Bool dolog;
   dolog=tculogbegin(ulog, rmidx);
-  _Bool return_value_tcadbputkeep$1;
-  return_value_tcadbputkeep$1=tcadbputkeep(adb, kbuf, ksiz, vbuf, vsiz);
-  if(return_value_tcadbputkeep$1 == (_Bool)0)
+  _Bool return_value_tcadbputkeep_1;
+  return_value_tcadbputkeep_1=tcadbputkeep(adb, kbuf, ksiz, vbuf, vsiz);
+  if(return_value_tcadbputkeep_1 == (_Bool)0)
     err = (_Bool)1;
 
-  unsigned char *tmp_if_expr$3;
-  void *return_value_tcmalloc$2;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  unsigned char *tmp_if_expr_3;
+  void *return_value_tcmalloc_2;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   if(!(dolog == (_Bool)0))
   {
     unsigned char mstack[65536l];
     signed int msiz = (signed int)(sizeof(unsigned char) /*1ul*/  * (unsigned long int)3 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2 + (unsigned long int)ksiz + (unsigned long int)vsiz);
     unsigned char *mbuf;
     if(!(msiz >= 65536))
-      tmp_if_expr$3 = mstack;
+      tmp_if_expr_3 = mstack;
 
     else
     {
-      return_value_tcmalloc$2=tcmalloc((unsigned long int)(msiz + 1));
-      tmp_if_expr$3 = (unsigned char *)return_value_tcmalloc$2;
+      return_value_tcmalloc_2=tcmalloc((unsigned long int)(msiz + 1));
+      tmp_if_expr_3 = (unsigned char *)return_value_tcmalloc_2;
     }
-    mbuf = tmp_if_expr$3;
+    mbuf = tmp_if_expr_3;
     unsigned char *wp = mbuf;
-    tmp_post$4 = wp;
+    tmp_post_4 = wp;
     wp = wp + 1l;
-    *tmp_post$4 = (unsigned char)0xc8;
-    tmp_post$5 = wp;
+    *tmp_post_4 = (unsigned char)0xc8;
+    tmp_post_5 = wp;
     wp = wp + 1l;
-    *tmp_post$5 = (unsigned char)0x11;
+    *tmp_post_5 = (unsigned char)0x11;
     unsigned int lnum = (unsigned int)(((unsigned long int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)ksiz & 0xff000000UL) >> 24);
     memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -10041,12 +10041,12 @@ _Bool tculogadbputkeep(struct anonymous$0 *ulog, unsigned int sid, unsigned int 
     wp = wp + (signed long int)ksiz;
     memcpy((void *)wp, vbuf, (unsigned long int)vsiz);
     wp = wp + (signed long int)vsiz;
-    tmp_post$6 = wp;
+    tmp_post_6 = wp;
     wp = wp + 1l;
-    *tmp_post$6 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
-    _Bool return_value_tculogwrite$7;
-    return_value_tculogwrite$7=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
-    if(return_value_tculogwrite$7 == (_Bool)0)
+    *tmp_post_6 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
+    _Bool return_value_tculogwrite_7;
+    return_value_tculogwrite_7=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
+    if(return_value_tculogwrite_7 == (_Bool)0)
       err = (_Bool)1;
 
     if(!(mbuf == mstack))
@@ -10060,10 +10060,10 @@ _Bool tculogadbputkeep(struct anonymous$0 *ulog, unsigned int sid, unsigned int 
 
 // tculogadbputshl
 // file tculog.c line 583
-_Bool tculogadbputshl(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width)
+_Bool tculogadbputshl(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb, const void *kbuf, signed int ksiz, const void *vbuf, signed int vsiz, signed int width)
 {
   /* assertion ulog && adb && kbuf && ksiz >= 0 && vbuf && vsiz >= 0 && width >= 0 */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0 && width >= 0);
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL) && kbuf != NULL && ksiz >= 0 && vbuf != NULL && vsiz >= 0 && width >= 0);
   _Bool err = (_Bool)0;
   signed int rmidx;
   rmidx=tculogrmtxidx(ulog, (const char *)kbuf, ksiz);
@@ -10073,37 +10073,37 @@ _Bool tculogadbputshl(struct anonymous$0 *ulog, unsigned int sid, unsigned int m
   op.vbuf = (const char *)vbuf;
   op.vsiz = vsiz;
   op.width = width;
-  _Bool return_value_tcadbputproc$1;
-  return_value_tcadbputproc$1=tcadbputproc(adb, kbuf, ksiz, vbuf, vsiz, (void * (*)(const void *, signed int, signed int *, void *))tculogadbputshlproc, (void *)&op);
-  if(return_value_tcadbputproc$1 == (_Bool)0)
+  _Bool return_value_tcadbputproc_1;
+  return_value_tcadbputproc_1=tcadbputproc(adb, kbuf, ksiz, vbuf, vsiz, (void * (*)(const void *, signed int, signed int *, void *))tculogadbputshlproc, (void *)&op);
+  if(return_value_tcadbputproc_1 == (_Bool)0)
     err = (_Bool)1;
 
-  unsigned char *tmp_if_expr$3;
-  void *return_value_tcmalloc$2;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  unsigned char *tmp_if_expr_3;
+  void *return_value_tcmalloc_2;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   if(!(dolog == (_Bool)0))
   {
     unsigned char mstack[65536l];
     signed int msiz = (signed int)(sizeof(unsigned char) /*1ul*/  * (unsigned long int)3 + sizeof(unsigned int) /*4ul*/  * (unsigned long int)3 + (unsigned long int)ksiz + (unsigned long int)vsiz);
     unsigned char *mbuf;
     if(!(msiz >= 65536))
-      tmp_if_expr$3 = mstack;
+      tmp_if_expr_3 = mstack;
 
     else
     {
-      return_value_tcmalloc$2=tcmalloc((unsigned long int)(msiz + 1));
-      tmp_if_expr$3 = (unsigned char *)return_value_tcmalloc$2;
+      return_value_tcmalloc_2=tcmalloc((unsigned long int)(msiz + 1));
+      tmp_if_expr_3 = (unsigned char *)return_value_tcmalloc_2;
     }
-    mbuf = tmp_if_expr$3;
+    mbuf = tmp_if_expr_3;
     unsigned char *wp = mbuf;
-    tmp_post$4 = wp;
+    tmp_post_4 = wp;
     wp = wp + 1l;
-    *tmp_post$4 = (unsigned char)0xc8;
-    tmp_post$5 = wp;
+    *tmp_post_4 = (unsigned char)0xc8;
+    tmp_post_5 = wp;
     wp = wp + 1l;
-    *tmp_post$5 = (unsigned char)0x13;
+    *tmp_post_5 = (unsigned char)0x13;
     unsigned int lnum = (unsigned int)(((unsigned long int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)ksiz & 0xff000000UL) >> 24);
     memcpy((void *)wp, (const void *)&lnum, sizeof(unsigned int) /*4ul*/ );
     wp = wp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
@@ -10117,12 +10117,12 @@ _Bool tculogadbputshl(struct anonymous$0 *ulog, unsigned int sid, unsigned int m
     wp = wp + (signed long int)ksiz;
     memcpy((void *)wp, vbuf, (unsigned long int)vsiz);
     wp = wp + (signed long int)vsiz;
-    tmp_post$6 = wp;
+    tmp_post_6 = wp;
     wp = wp + 1l;
-    *tmp_post$6 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
-    _Bool return_value_tculogwrite$7;
-    return_value_tculogwrite$7=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
-    if(return_value_tculogwrite$7 == (_Bool)0)
+    *tmp_post_6 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
+    _Bool return_value_tculogwrite_7;
+    return_value_tculogwrite_7=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, msiz);
+    if(return_value_tculogwrite_7 == (_Bool)0)
       err = (_Bool)1;
 
     if(!(mbuf == mstack))
@@ -10141,13 +10141,13 @@ static void * tculogadbputshlproc(const void *vbuf, signed int vsiz, signed int 
   /* assertion vbuf && vsiz >= 0 && sp && op */
   assert(vbuf != NULL && vsiz >= 0 && sp != ((signed int *)NULL) && op != ((struct anonymous *)NULL));
   signed int rsiz;
-  signed long int return_value_tclmin$1;
-  return_value_tclmin$1=tclmin((signed long int)(vsiz + op->vsiz), (signed long int)op->width);
-  rsiz = (signed int)return_value_tclmin$1;
+  signed long int return_value_tclmin_1;
+  return_value_tclmin_1=tclmin((signed long int)(vsiz + op->vsiz), (signed long int)op->width);
+  rsiz = (signed int)return_value_tclmin_1;
   char *rbuf;
-  void *return_value_tcmalloc$2;
-  return_value_tcmalloc$2=tcmalloc((unsigned long int)(rsiz + 1));
-  rbuf = (char *)return_value_tcmalloc$2;
+  void *return_value_tcmalloc_2;
+  return_value_tcmalloc_2=tcmalloc((unsigned long int)(rsiz + 1));
+  rbuf = (char *)return_value_tcmalloc_2;
   char *wp = rbuf;
   signed int wsiz = rsiz;
   signed int left = wsiz - op->vsiz;
@@ -10167,13 +10167,13 @@ static void * tculogadbputshlproc(const void *vbuf, signed int vsiz, signed int 
 
 // tculogadbredo
 // file tculog.c line 868
-_Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, _Bool *cp)
+_Bool tculogadbredo(struct anonymous_8 *adb, const char *ptr, signed int size, struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, _Bool *cp)
 {
   /* assertion adb && ptr && size >= 0 */
-  assert(adb != ((struct anonymous$8 *)NULL) && ptr != ((const char *)NULL) && size >= 0);
-  const unsigned char *tmp_post$1;
-  const unsigned char *tmp_post$2;
-  signed int return_value___isnan$8;
+  assert(adb != ((struct anonymous_8 *)NULL) && ptr != ((const char *)NULL) && size >= 0);
+  const unsigned char *tmp_post_1;
+  const unsigned char *tmp_post_2;
+  signed int return_value___isnan_8;
   if(!((unsigned long int)size >= sizeof(unsigned char) * 3 /*3ul*/ ))
     return (_Bool)0;
 
@@ -10181,13 +10181,13 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
   {
     const unsigned char *rp = (unsigned char *)ptr;
     signed int magic;
-    tmp_post$1 = rp;
+    tmp_post_1 = rp;
     rp = rp + 1l;
-    magic = (signed int)*tmp_post$1;
+    magic = (signed int)*tmp_post_1;
     signed int cmd;
-    tmp_post$2 = rp;
+    tmp_post_2 = rp;
     rp = rp + 1l;
-    cmd = (signed int)*tmp_post$2;
+    cmd = (signed int)*tmp_post_2;
     _Bool exp = (_Bool)((signed int)((unsigned char *)ptr)[(signed long int)(size - 1)] == 0 ? 1 : 0);
     size = size - (signed int)(sizeof(unsigned char) /*1ul*/  * (unsigned long int)3);
     if(!(magic == 0xc8))
@@ -10203,17 +10203,17 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
         {
           if((unsigned long int)size >= sizeof(unsigned int) * 2 /*8ul*/ )
           {
-            unsigned int tculogadbredo$$1$$1$$1$$ksiz;
-            memcpy((void *)&tculogadbredo$$1$$1$$1$$ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
-            tculogadbredo$$1$$1$$1$$ksiz = (unsigned int)(((unsigned long int)tculogadbredo$$1$$1$$1$$ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo$$1$$1$$1$$ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo$$1$$1$$1$$ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo$$1$$1$$1$$ksiz & 0xff000000UL) >> 24);
+            unsigned int tculogadbredo__1__1__1__ksiz;
+            memcpy((void *)&tculogadbredo__1__1__1__ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
+            tculogadbredo__1__1__1__ksiz = (unsigned int)(((unsigned long int)tculogadbredo__1__1__1__ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo__1__1__1__ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo__1__1__1__ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo__1__1__1__ksiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
             unsigned int vsiz;
             memcpy((void *)&vsiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
             vsiz = (unsigned int)(((unsigned long int)vsiz & 0x000000ffUL) << 24 | ((unsigned long int)vsiz & 0x0000ff00UL) << 8 | ((unsigned long int)vsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)vsiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
-            _Bool return_value_tculogadbput$3;
-            return_value_tculogadbput$3=tculogadbput(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo$$1$$1$$1$$ksiz, (const void *)(rp + (signed long int)tculogadbredo$$1$$1$$1$$ksiz), (signed int)vsiz);
-            if(!(return_value_tculogadbput$3 == exp))
+            _Bool return_value_tculogadbput_3;
+            return_value_tculogadbput_3=tculogadbput(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo__1__1__1__ksiz, (const void *)(rp + (signed long int)tculogadbredo__1__1__1__ksiz), (signed int)vsiz);
+            if(!(return_value_tculogadbput_3 == exp))
               *cp = (_Bool)0;
 
           }
@@ -10226,17 +10226,17 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
         {
           if((unsigned long int)size >= sizeof(unsigned int) * 2 /*8ul*/ )
           {
-            unsigned int tculogadbredo$$1$$1$$3$$ksiz;
-            memcpy((void *)&tculogadbredo$$1$$1$$3$$ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
-            tculogadbredo$$1$$1$$3$$ksiz = (unsigned int)(((unsigned long int)tculogadbredo$$1$$1$$3$$ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo$$1$$1$$3$$ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo$$1$$1$$3$$ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo$$1$$1$$3$$ksiz & 0xff000000UL) >> 24);
+            unsigned int tculogadbredo__1__1__3__ksiz;
+            memcpy((void *)&tculogadbredo__1__1__3__ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
+            tculogadbredo__1__1__3__ksiz = (unsigned int)(((unsigned long int)tculogadbredo__1__1__3__ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo__1__1__3__ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo__1__1__3__ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo__1__1__3__ksiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
-            unsigned int tculogadbredo$$1$$1$$3$$vsiz;
-            memcpy((void *)&tculogadbredo$$1$$1$$3$$vsiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
-            tculogadbredo$$1$$1$$3$$vsiz = (unsigned int)(((unsigned long int)tculogadbredo$$1$$1$$3$$vsiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo$$1$$1$$3$$vsiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo$$1$$1$$3$$vsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo$$1$$1$$3$$vsiz & 0xff000000UL) >> 24);
+            unsigned int tculogadbredo__1__1__3__vsiz;
+            memcpy((void *)&tculogadbredo__1__1__3__vsiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
+            tculogadbredo__1__1__3__vsiz = (unsigned int)(((unsigned long int)tculogadbredo__1__1__3__vsiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo__1__1__3__vsiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo__1__1__3__vsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo__1__1__3__vsiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
-            _Bool return_value_tculogadbputkeep$4;
-            return_value_tculogadbputkeep$4=tculogadbputkeep(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo$$1$$1$$3$$ksiz, (const void *)(rp + (signed long int)tculogadbredo$$1$$1$$3$$ksiz), (signed int)tculogadbredo$$1$$1$$3$$vsiz);
-            if(!(return_value_tculogadbputkeep$4 == exp))
+            _Bool return_value_tculogadbputkeep_4;
+            return_value_tculogadbputkeep_4=tculogadbputkeep(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo__1__1__3__ksiz, (const void *)(rp + (signed long int)tculogadbredo__1__1__3__ksiz), (signed int)tculogadbredo__1__1__3__vsiz);
+            if(!(return_value_tculogadbputkeep_4 == exp))
               *cp = (_Bool)0;
 
           }
@@ -10249,17 +10249,17 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
         {
           if((unsigned long int)size >= sizeof(unsigned int) * 2 /*8ul*/ )
           {
-            unsigned int tculogadbredo$$1$$1$$5$$ksiz;
-            memcpy((void *)&tculogadbredo$$1$$1$$5$$ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
-            tculogadbredo$$1$$1$$5$$ksiz = (unsigned int)(((unsigned long int)tculogadbredo$$1$$1$$5$$ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo$$1$$1$$5$$ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo$$1$$1$$5$$ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo$$1$$1$$5$$ksiz & 0xff000000UL) >> 24);
+            unsigned int tculogadbredo__1__1__5__ksiz;
+            memcpy((void *)&tculogadbredo__1__1__5__ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
+            tculogadbredo__1__1__5__ksiz = (unsigned int)(((unsigned long int)tculogadbredo__1__1__5__ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo__1__1__5__ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo__1__1__5__ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo__1__1__5__ksiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
-            unsigned int tculogadbredo$$1$$1$$5$$vsiz;
-            memcpy((void *)&tculogadbredo$$1$$1$$5$$vsiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
-            tculogadbredo$$1$$1$$5$$vsiz = (unsigned int)(((unsigned long int)tculogadbredo$$1$$1$$5$$vsiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo$$1$$1$$5$$vsiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo$$1$$1$$5$$vsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo$$1$$1$$5$$vsiz & 0xff000000UL) >> 24);
+            unsigned int tculogadbredo__1__1__5__vsiz;
+            memcpy((void *)&tculogadbredo__1__1__5__vsiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
+            tculogadbredo__1__1__5__vsiz = (unsigned int)(((unsigned long int)tculogadbredo__1__1__5__vsiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo__1__1__5__vsiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo__1__1__5__vsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo__1__1__5__vsiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
-            _Bool return_value_tculogadbputcat$5;
-            return_value_tculogadbputcat$5=tculogadbputcat(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo$$1$$1$$5$$ksiz, (const void *)(rp + (signed long int)tculogadbredo$$1$$1$$5$$ksiz), (signed int)tculogadbredo$$1$$1$$5$$vsiz);
-            if(!(return_value_tculogadbputcat$5 == exp))
+            _Bool return_value_tculogadbputcat_5;
+            return_value_tculogadbputcat_5=tculogadbputcat(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo__1__1__5__ksiz, (const void *)(rp + (signed long int)tculogadbredo__1__1__5__ksiz), (signed int)tculogadbredo__1__1__5__vsiz);
+            if(!(return_value_tculogadbputcat_5 == exp))
               *cp = (_Bool)0;
 
           }
@@ -10272,21 +10272,21 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
         {
           if((unsigned long int)size >= sizeof(unsigned int) * 3 /*12ul*/ )
           {
-            unsigned int tculogadbredo$$1$$1$$7$$ksiz;
-            memcpy((void *)&tculogadbredo$$1$$1$$7$$ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
-            tculogadbredo$$1$$1$$7$$ksiz = (unsigned int)(((unsigned long int)tculogadbredo$$1$$1$$7$$ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo$$1$$1$$7$$ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo$$1$$1$$7$$ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo$$1$$1$$7$$ksiz & 0xff000000UL) >> 24);
+            unsigned int tculogadbredo__1__1__7__ksiz;
+            memcpy((void *)&tculogadbredo__1__1__7__ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
+            tculogadbredo__1__1__7__ksiz = (unsigned int)(((unsigned long int)tculogadbredo__1__1__7__ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo__1__1__7__ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo__1__1__7__ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo__1__1__7__ksiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
-            unsigned int tculogadbredo$$1$$1$$7$$vsiz;
-            memcpy((void *)&tculogadbredo$$1$$1$$7$$vsiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
-            tculogadbredo$$1$$1$$7$$vsiz = (unsigned int)(((unsigned long int)tculogadbredo$$1$$1$$7$$vsiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo$$1$$1$$7$$vsiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo$$1$$1$$7$$vsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo$$1$$1$$7$$vsiz & 0xff000000UL) >> 24);
+            unsigned int tculogadbredo__1__1__7__vsiz;
+            memcpy((void *)&tculogadbredo__1__1__7__vsiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
+            tculogadbredo__1__1__7__vsiz = (unsigned int)(((unsigned long int)tculogadbredo__1__1__7__vsiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo__1__1__7__vsiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo__1__1__7__vsiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo__1__1__7__vsiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
             unsigned int width;
             memcpy((void *)&width, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
             width = (unsigned int)(((unsigned long int)width & 0x000000ffUL) << 24 | ((unsigned long int)width & 0x0000ff00UL) << 8 | ((unsigned long int)width & 0x00ff0000UL) >> 8 | ((unsigned long int)width & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
-            _Bool return_value_tculogadbputshl$6;
-            return_value_tculogadbputshl$6=tculogadbputshl(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo$$1$$1$$7$$ksiz, (const void *)(rp + (signed long int)tculogadbredo$$1$$1$$7$$ksiz), (signed int)tculogadbredo$$1$$1$$7$$vsiz, (signed int)width);
-            if(!(return_value_tculogadbputshl$6 == exp))
+            _Bool return_value_tculogadbputshl_6;
+            return_value_tculogadbputshl_6=tculogadbputshl(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo__1__1__7__ksiz, (const void *)(rp + (signed long int)tculogadbredo__1__1__7__ksiz), (signed int)tculogadbredo__1__1__7__vsiz, (signed int)width);
+            if(!(return_value_tculogadbputshl_6 == exp))
               *cp = (_Bool)0;
 
           }
@@ -10303,9 +10303,9 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
             memcpy((void *)&ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
             ksiz = (unsigned int)(((unsigned long int)ksiz & 0x000000ffUL) << 24 | ((unsigned long int)ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)ksiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
-            _Bool return_value_tculogadbout$7;
-            return_value_tculogadbout$7=tculogadbout(ulog, sid, mid, adb, (const void *)rp, (signed int)ksiz);
-            if(!(return_value_tculogadbout$7 == exp))
+            _Bool return_value_tculogadbout_7;
+            return_value_tculogadbout_7=tculogadbout(ulog, sid, mid, adb, (const void *)rp, (signed int)ksiz);
+            if(!(return_value_tculogadbout_7 == exp))
               *cp = (_Bool)0;
 
           }
@@ -10318,16 +10318,16 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
         {
           if((unsigned long int)size >= sizeof(unsigned int) * 2 /*8ul*/ )
           {
-            unsigned int tculogadbredo$$1$$1$$11$$ksiz;
-            memcpy((void *)&tculogadbredo$$1$$1$$11$$ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
-            tculogadbredo$$1$$1$$11$$ksiz = (unsigned int)(((unsigned long int)tculogadbredo$$1$$1$$11$$ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo$$1$$1$$11$$ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo$$1$$1$$11$$ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo$$1$$1$$11$$ksiz & 0xff000000UL) >> 24);
+            unsigned int tculogadbredo__1__1__11__ksiz;
+            memcpy((void *)&tculogadbredo__1__1__11__ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
+            tculogadbredo__1__1__11__ksiz = (unsigned int)(((unsigned long int)tculogadbredo__1__1__11__ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo__1__1__11__ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo__1__1__11__ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo__1__1__11__ksiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
             signed int num;
             memcpy((void *)&num, (const void *)rp, sizeof(signed int) /*4ul*/ );
             num = (signed int)(((unsigned long int)num & 0x000000ffUL) << 24 | ((unsigned long int)num & 0x0000ff00UL) << 8 | ((unsigned long int)num & 0x00ff0000UL) >> 8 | ((unsigned long int)num & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(signed int) /*4ul*/ ;
             signed int rnum;
-            rnum=tculogadbaddint(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo$$1$$1$$11$$ksiz, num);
+            rnum=tculogadbaddint(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo__1__1__11__ksiz, num);
             if(rnum == -2147483648 && !(exp == (_Bool)0))
               *cp = (_Bool)0;
 
@@ -10341,19 +10341,19 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
         {
           if((unsigned long int)size >= sizeof(unsigned int) * 5 /*20ul*/ )
           {
-            unsigned int tculogadbredo$$1$$1$$13$$ksiz;
-            memcpy((void *)&tculogadbredo$$1$$1$$13$$ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
-            tculogadbredo$$1$$1$$13$$ksiz = (unsigned int)(((unsigned long int)tculogadbredo$$1$$1$$13$$ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo$$1$$1$$13$$ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo$$1$$1$$13$$ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo$$1$$1$$13$$ksiz & 0xff000000UL) >> 24);
+            unsigned int tculogadbredo__1__1__13__ksiz;
+            memcpy((void *)&tculogadbredo__1__1__13__ksiz, (const void *)rp, sizeof(unsigned int) /*4ul*/ );
+            tculogadbredo__1__1__13__ksiz = (unsigned int)(((unsigned long int)tculogadbredo__1__1__13__ksiz & 0x000000ffUL) << 24 | ((unsigned long int)tculogadbredo__1__1__13__ksiz & 0x0000ff00UL) << 8 | ((unsigned long int)tculogadbredo__1__1__13__ksiz & 0x00ff0000UL) >> 8 | ((unsigned long int)tculogadbredo__1__1__13__ksiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
-            double tculogadbredo$$1$$1$$13$$num;
-            tculogadbredo$$1$$1$$13$$num=ttunpackdouble((char *)rp);
+            double tculogadbredo__1__1__13__num;
+            tculogadbredo__1__1__13__num=ttunpackdouble((char *)rp);
             rp = rp + (signed long int)(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)2);
-            double tculogadbredo$$1$$1$$13$$rnum;
-            tculogadbredo$$1$$1$$13$$rnum=tculogadbadddouble(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo$$1$$1$$13$$ksiz, tculogadbredo$$1$$1$$13$$num);
+            double tculogadbredo__1__1__13__rnum;
+            tculogadbredo__1__1__13__rnum=tculogadbadddouble(ulog, sid, mid, adb, (const void *)rp, (signed int)tculogadbredo__1__1__13__ksiz, tculogadbredo__1__1__13__num);
             if(!(exp == (_Bool)0))
             {
-              return_value___isnan$8=__isnan(tculogadbredo$$1$$1$$13$$rnum);
-              if(!(return_value___isnan$8 == 0))
+              return_value___isnan_8=__isnan(tculogadbredo__1__1__13__rnum);
+              if(!(return_value___isnan_8 == 0))
                 *cp = (_Bool)0;
 
             }
@@ -10368,9 +10368,9 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
         {
           if(size == 0)
           {
-            _Bool return_value_tculogadbsync$9;
-            return_value_tculogadbsync$9=tculogadbsync(ulog, sid, mid, adb);
-            if(!(return_value_tculogadbsync$9 == exp))
+            _Bool return_value_tculogadbsync_9;
+            return_value_tculogadbsync_9=tculogadbsync(ulog, sid, mid, adb);
+            if(!(return_value_tculogadbsync_9 == exp))
               *cp = (_Bool)0;
 
           }
@@ -10388,12 +10388,12 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
             psiz = (unsigned int)(((unsigned long int)psiz & 0x000000ffUL) << 24 | ((unsigned long int)psiz & 0x0000ff00UL) << 8 | ((unsigned long int)psiz & 0x00ff0000UL) >> 8 | ((unsigned long int)psiz & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
             char *params;
-            void *return_value_tcmemdup$10;
-            return_value_tcmemdup$10=tcmemdup((const void *)rp, (unsigned long int)psiz);
-            params = (char *)return_value_tcmemdup$10;
-            _Bool return_value_tculogadboptimize$11;
-            return_value_tculogadboptimize$11=tculogadboptimize(ulog, sid, mid, adb, params);
-            if(!(return_value_tculogadboptimize$11 == exp))
+            void *return_value_tcmemdup_10;
+            return_value_tcmemdup_10=tcmemdup((const void *)rp, (unsigned long int)psiz);
+            params = (char *)return_value_tcmemdup_10;
+            _Bool return_value_tculogadboptimize_11;
+            return_value_tculogadboptimize_11=tculogadboptimize(ulog, sid, mid, adb, params);
+            if(!(return_value_tculogadboptimize_11 == exp))
               *cp = (_Bool)0;
 
             tcfree((void *)params);
@@ -10407,9 +10407,9 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
         {
           if(size == 0)
           {
-            _Bool return_value_tculogadbvanish$12;
-            return_value_tculogadbvanish$12=tculogadbvanish(ulog, sid, mid, adb);
-            if(!(return_value_tculogadbvanish$12 == exp))
+            _Bool return_value_tculogadbvanish_12;
+            return_value_tculogadbvanish_12=tculogadbvanish(ulog, sid, mid, adb);
+            if(!(return_value_tculogadbvanish_12 == exp))
               *cp = (_Bool)0;
 
           }
@@ -10431,11 +10431,11 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
             anum = (unsigned int)(((unsigned long int)anum & 0x000000ffUL) << 24 | ((unsigned long int)anum & 0x0000ff00UL) << 8 | ((unsigned long int)anum & 0x00ff0000UL) >> 8 | ((unsigned long int)anum & 0xff000000UL) >> 24);
             rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
             char *name;
-            void *return_value_tcmemdup$13;
-            return_value_tcmemdup$13=tcmemdup((const void *)rp, (unsigned long int)nsiz);
-            name = (char *)return_value_tcmemdup$13;
+            void *return_value_tcmemdup_13;
+            return_value_tcmemdup_13=tcmemdup((const void *)rp, (unsigned long int)nsiz);
+            name = (char *)return_value_tcmemdup_13;
             rp = rp + (signed long int)nsiz;
-            struct anonymous$1 *args;
+            struct anonymous_1 *args;
             args=tclistnew2((signed int)anum);
             signed int i = 0;
             for( ; !((unsigned int)i >= anum); i = i + 1)
@@ -10447,9 +10447,9 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
               tclistpush(args, (const void *)rp, (signed int)esiz);
               rp = rp + (signed long int)esiz;
             }
-            struct anonymous$1 *res;
+            struct anonymous_1 *res;
             res=tculogadbmisc(ulog, sid, mid, adb, name, args);
-            if(!(res == ((struct anonymous$1 *)NULL)))
+            if(!(res == ((struct anonymous_1 *)NULL)))
             {
               if(exp == (_Bool)0)
                 *cp = (_Bool)0;
@@ -10479,21 +10479,21 @@ _Bool tculogadbredo(struct anonymous$8 *adb, const char *ptr, signed int size, s
 
 // tculogadbrestore
 // file tculog.c line 836
-_Bool tculogadbrestore(struct anonymous$8 *adb, const char *path, unsigned long int ts, _Bool con, struct anonymous$0 *ulog)
+_Bool tculogadbrestore(struct anonymous_8 *adb, const char *path, unsigned long int ts, _Bool con, struct anonymous_0 *ulog)
 {
   /* assertion adb && path */
-  assert(adb != ((struct anonymous$8 *)NULL) && path != ((const char *)NULL));
+  assert(adb != ((struct anonymous_8 *)NULL) && path != ((const char *)NULL));
   _Bool err = (_Bool)0;
-  struct anonymous$0 *sulog;
+  struct anonymous_0 *sulog;
   sulog=tculognew();
-  _Bool return_value_tculogopen$4;
-  return_value_tculogopen$4=tculogopen(sulog, path, (unsigned long int)0);
-  const void *return_value_tculrdread$1;
-  if(!(return_value_tculogopen$4 == (_Bool)0))
+  _Bool return_value_tculogopen_4;
+  return_value_tculogopen_4=tculogopen(sulog, path, (unsigned long int)0);
+  const void *return_value_tculrdread_1;
+  if(!(return_value_tculogopen_4 == (_Bool)0))
   {
-    struct anonymous$6 *ulrd;
+    struct anonymous_6 *ulrd;
     ulrd=tculrdnew(sulog, ts);
-    if(!(ulrd == ((struct anonymous$6 *)NULL)))
+    if(!(ulrd == ((struct anonymous_6 *)NULL)))
     {
       const char *rbuf;
       signed int rsiz;
@@ -10502,15 +10502,15 @@ _Bool tculogadbrestore(struct anonymous$8 *adb, const char *path, unsigned long 
       unsigned int rmid;
       do
       {
-        return_value_tculrdread$1=tculrdread(ulrd, &rsiz, &rts, &rsid, &rmid);
-        rbuf = (const char *)return_value_tculrdread$1;
+        return_value_tculrdread_1=tculrdread(ulrd, &rsiz, &rts, &rsid, &rmid);
+        rbuf = (const char *)return_value_tculrdread_1;
         if(rbuf == ((const char *)NULL))
           break;
 
         _Bool cc;
-        _Bool return_value_tculogadbredo$2;
-        return_value_tculogadbredo$2=tculogadbredo(adb, rbuf, rsiz, ulog, rsid, rmid, &cc);
-        if(return_value_tculogadbredo$2 == (_Bool)0 || cc == (_Bool)0 && !(con == (_Bool)0))
+        _Bool return_value_tculogadbredo_2;
+        return_value_tculogadbredo_2=tculogadbredo(adb, rbuf, rsiz, ulog, rsid, rmid, &cc);
+        if(return_value_tculogadbredo_2 == (_Bool)0 || cc == (_Bool)0 && !(con == (_Bool)0))
         {
           err = (_Bool)1;
           break;
@@ -10523,9 +10523,9 @@ _Bool tculogadbrestore(struct anonymous$8 *adb, const char *path, unsigned long 
 
     else
       err = (_Bool)1;
-    _Bool return_value_tculogclose$3;
-    return_value_tculogclose$3=tculogclose(sulog);
-    if(return_value_tculogclose$3 == (_Bool)0)
+    _Bool return_value_tculogclose_3;
+    return_value_tculogclose_3=tculogclose(sulog);
+    if(return_value_tculogclose_3 == (_Bool)0)
       err = (_Bool)1;
 
   }
@@ -10538,37 +10538,37 @@ _Bool tculogadbrestore(struct anonymous$8 *adb, const char *path, unsigned long 
 
 // tculogadbsync
 // file tculog.c line 719
-_Bool tculogadbsync(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb)
+_Bool tculogadbsync(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb)
 {
   /* assertion ulog && adb */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL));
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL));
   _Bool err = (_Bool)0;
   _Bool dolog;
   dolog=tculogbegin(ulog, -1);
-  _Bool return_value_tcadbsync$1;
-  return_value_tcadbsync$1=tcadbsync(adb);
-  if(return_value_tcadbsync$1 == (_Bool)0)
+  _Bool return_value_tcadbsync_1;
+  return_value_tcadbsync_1=tcadbsync(adb);
+  if(return_value_tcadbsync_1 == (_Bool)0)
     err = (_Bool)1;
 
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
   if(!(dolog == (_Bool)0))
   {
     unsigned char mbuf[(signed long int)(sizeof(unsigned char) * 3) /*3l*/ ];
     unsigned char *wp = mbuf;
-    tmp_post$2 = wp;
+    tmp_post_2 = wp;
     wp = wp + 1l;
-    *tmp_post$2 = (unsigned char)0xc8;
-    tmp_post$3 = wp;
+    *tmp_post_2 = (unsigned char)0xc8;
+    tmp_post_3 = wp;
     wp = wp + 1l;
-    *tmp_post$3 = (unsigned char)0x70;
-    tmp_post$4 = wp;
+    *tmp_post_3 = (unsigned char)0x70;
+    tmp_post_4 = wp;
     wp = wp + 1l;
-    *tmp_post$4 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
-    _Bool return_value_tculogwrite$5;
-    return_value_tculogwrite$5=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, (signed int)(wp - mbuf));
-    if(return_value_tculogwrite$5 == (_Bool)0)
+    *tmp_post_4 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
+    _Bool return_value_tculogwrite_5;
+    return_value_tculogwrite_5=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, (signed int)(wp - mbuf));
+    if(return_value_tculogwrite_5 == (_Bool)0)
       err = (_Bool)1;
 
     tculogend(ulog, -1);
@@ -10579,37 +10579,37 @@ _Bool tculogadbsync(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid
 
 // tculogadbvanish
 // file tculog.c line 767
-_Bool tculogadbvanish(struct anonymous$0 *ulog, unsigned int sid, unsigned int mid, struct anonymous$8 *adb)
+_Bool tculogadbvanish(struct anonymous_0 *ulog, unsigned int sid, unsigned int mid, struct anonymous_8 *adb)
 {
   /* assertion ulog && adb */
-  assert(ulog != ((struct anonymous$0 *)NULL) && adb != ((struct anonymous$8 *)NULL));
+  assert(ulog != ((struct anonymous_0 *)NULL) && adb != ((struct anonymous_8 *)NULL));
   _Bool err = (_Bool)0;
   _Bool dolog;
   dolog=tculogbegin(ulog, -1);
-  _Bool return_value_tcadbvanish$1;
-  return_value_tcadbvanish$1=tcadbvanish(adb);
-  if(return_value_tcadbvanish$1 == (_Bool)0)
+  _Bool return_value_tcadbvanish_1;
+  return_value_tcadbvanish_1=tcadbvanish(adb);
+  if(return_value_tcadbvanish_1 == (_Bool)0)
     err = (_Bool)1;
 
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
   if(!(dolog == (_Bool)0))
   {
     unsigned char mbuf[(signed long int)(sizeof(unsigned char) * 3) /*3l*/ ];
     unsigned char *wp = mbuf;
-    tmp_post$2 = wp;
+    tmp_post_2 = wp;
     wp = wp + 1l;
-    *tmp_post$2 = (unsigned char)0xc8;
-    tmp_post$3 = wp;
+    *tmp_post_2 = (unsigned char)0xc8;
+    tmp_post_3 = wp;
     wp = wp + 1l;
-    *tmp_post$3 = (unsigned char)0x72;
-    tmp_post$4 = wp;
+    *tmp_post_3 = (unsigned char)0x72;
+    tmp_post_4 = wp;
     wp = wp + 1l;
-    *tmp_post$4 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
-    _Bool return_value_tculogwrite$5;
-    return_value_tculogwrite$5=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, (signed int)(wp - mbuf));
-    if(return_value_tculogwrite$5 == (_Bool)0)
+    *tmp_post_4 = (unsigned char)(err != (_Bool)0 ? 1 : 0);
+    _Bool return_value_tculogwrite_5;
+    return_value_tculogwrite_5=tculogwrite(ulog, (unsigned long int)0, sid, mid, (const void *)mbuf, (signed int)(wp - mbuf));
+    if(return_value_tculogwrite_5 == (_Bool)0)
       err = (_Bool)1;
 
     tculogend(ulog, -1);
@@ -10620,10 +10620,10 @@ _Bool tculogadbvanish(struct anonymous$0 *ulog, unsigned int sid, unsigned int m
 
 // tculogbegin
 // file tculog.c line 168
-_Bool tculogbegin(struct anonymous$0 *ulog, signed int idx)
+_Bool tculogbegin(struct anonymous_0 *ulog, signed int idx)
 {
   /* assertion ulog */
-  assert(ulog != ((struct anonymous$0 *)NULL));
+  assert(ulog != ((struct anonymous_0 *)NULL));
   if(ulog->base == ((char *)NULL))
     return (_Bool)0;
 
@@ -10633,9 +10633,9 @@ _Bool tculogbegin(struct anonymous$0 *ulog, signed int idx)
       signed int i = 0;
       for( ; !(i >= 31); i = i + 1)
       {
-        signed int return_value_pthread_mutex_lock$1;
-        return_value_pthread_mutex_lock$1=pthread_mutex_lock(ulog->rmtxs + (signed long int)i);
-        if(!(return_value_pthread_mutex_lock$1 == 0))
+        signed int return_value_pthread_mutex_lock_1;
+        return_value_pthread_mutex_lock_1=pthread_mutex_lock(ulog->rmtxs + (signed long int)i);
+        if(!(return_value_pthread_mutex_lock_1 == 0))
         {
           i = i - 1;
           for( ; i >= 0; i = i - 1)
@@ -10649,19 +10649,19 @@ _Bool tculogbegin(struct anonymous$0 *ulog, signed int idx)
 
     else
     {
-      signed int return_value_pthread_mutex_lock$2;
-      return_value_pthread_mutex_lock$2=pthread_mutex_lock(ulog->rmtxs + (signed long int)idx);
-      return return_value_pthread_mutex_lock$2 == 0;
+      signed int return_value_pthread_mutex_lock_2;
+      return_value_pthread_mutex_lock_2=pthread_mutex_lock(ulog->rmtxs + (signed long int)idx);
+      return return_value_pthread_mutex_lock_2 == 0;
     }
 }
 
 // tculogclose
 // file ./tculog.h line 105
-_Bool tculogclose(struct anonymous$0 *ulog)
+_Bool tculogclose(struct anonymous_0 *ulog)
 {
   /* assertion ulog */
-  assert(ulog != ((struct anonymous$0 *)NULL));
-  signed int return_value_close$2;
+  assert(ulog != ((struct anonymous_0 *)NULL));
+  signed int return_value_close_2;
   if(ulog->base == ((char *)NULL))
     return (_Bool)0;
 
@@ -10674,9 +10674,9 @@ _Bool tculogclose(struct anonymous$0 *ulog)
       signed int i = 0;
       for( ; !(i >= 64); i = i + 1)
       {
-        _Bool return_value_tculogflushaiocbp$1;
-        return_value_tculogflushaiocbp$1=tculogflushaiocbp(aiocbs + (signed long int)i);
-        if(return_value_tculogflushaiocbp$1 == (_Bool)0)
+        _Bool return_value_tculogflushaiocbp_1;
+        return_value_tculogflushaiocbp_1=tculogflushaiocbp(aiocbs + (signed long int)i);
+        if(return_value_tculogflushaiocbp_1 == (_Bool)0)
           err = (_Bool)1;
 
       }
@@ -10684,8 +10684,8 @@ _Bool tculogclose(struct anonymous$0 *ulog)
 
     if(!(ulog->fd == -1))
     {
-      return_value_close$2=close(ulog->fd);
-      if(!(return_value_close$2 == 0))
+      return_value_close_2=close(ulog->fd);
+      if(!(return_value_close_2 == 0))
         err = (_Bool)1;
 
     }
@@ -10698,10 +10698,10 @@ _Bool tculogclose(struct anonymous$0 *ulog)
 
 // tculogdel
 // file ./tculog.h line 84
-void tculogdel(struct anonymous$0 *ulog)
+void tculogdel(struct anonymous_0 *ulog)
 {
   /* assertion ulog */
-  assert(ulog != ((struct anonymous$0 *)NULL));
+  assert(ulog != ((struct anonymous_0 *)NULL));
   if(!(ulog->base == ((char *)NULL)))
     tculogclose(ulog);
 
@@ -10719,28 +10719,28 @@ void tculogdel(struct anonymous$0 *ulog)
 
 // tculogend
 // file tculog.c line 187
-_Bool tculogend(struct anonymous$0 *ulog, signed int idx)
+_Bool tculogend(struct anonymous_0 *ulog, signed int idx)
 {
   /* assertion ulog */
-  assert(ulog != ((struct anonymous$0 *)NULL));
+  assert(ulog != ((struct anonymous_0 *)NULL));
   if(!(idx >= 0))
   {
     _Bool err = (_Bool)0;
     signed int i = 31 - 1;
     for( ; i >= 0; i = i - 1)
     {
-      signed int return_value_pthread_mutex_unlock$1;
-      return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(ulog->rmtxs + (signed long int)i);
-      if(!(return_value_pthread_mutex_unlock$1 == 0))
+      signed int return_value_pthread_mutex_unlock_1;
+      return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(ulog->rmtxs + (signed long int)i);
+      if(!(return_value_pthread_mutex_unlock_1 == 0))
         err = (_Bool)1;
 
     }
     return !(err != (_Bool)0);
   }
 
-  signed int return_value_pthread_mutex_unlock$2;
-  return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(ulog->rmtxs + (signed long int)idx);
-  return return_value_pthread_mutex_unlock$2 == 0;
+  signed int return_value_pthread_mutex_unlock_2;
+  return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(ulog->rmtxs + (signed long int)idx);
+  return return_value_pthread_mutex_unlock_2 == 0;
 }
 
 // tculogflushaiocbp
@@ -10768,17 +10768,17 @@ static _Bool tculogflushaiocbp(struct aiocb *aiocbp)
         break;
       }
 
-      signed int return_value_aio_suspend$1;
-      return_value_aio_suspend$1=aio_suspend((struct aiocb * const *)(void *)&aiocbp, 1, (struct timespec *)(void *)0);
-      if(return_value_aio_suspend$1 == -1)
+      signed int return_value_aio_suspend_1;
+      return_value_aio_suspend_1=aio_suspend((struct aiocb * const *)(void *)&aiocbp, 1, (struct timespec *)(void *)0);
+      if(return_value_aio_suspend_1 == -1)
         err = (_Bool)1;
 
     }
     tcfree((void *)(char *)aiocbp->aio_buf);
     aiocbp->aio_buf = (void *)0;
-    signed long int return_value_aio_return$2;
-    return_value_aio_return$2=aio_return(aiocbp);
-    if(!((unsigned long int)return_value_aio_return$2 == aiocbp->aio_nbytes))
+    signed long int return_value_aio_return_2;
+    return_value_aio_return_2=aio_return(aiocbp);
+    if(!((unsigned long int)return_value_aio_return_2 == aiocbp->aio_nbytes))
       err = (_Bool)1;
 
     return !(err != (_Bool)0);
@@ -10787,34 +10787,34 @@ static _Bool tculogflushaiocbp(struct aiocb *aiocbp)
 
 // tculognew
 // file ./tculog.h line 79
-struct anonymous$0 * tculognew(void)
+struct anonymous_0 * tculognew(void)
 {
-  struct anonymous$0 *ulog;
-  void *return_value_tcmalloc$1;
-  return_value_tcmalloc$1=tcmalloc(sizeof(struct anonymous$0) /*1440ul*/ );
-  ulog = (struct anonymous$0 *)return_value_tcmalloc$1;
+  struct anonymous_0 *ulog;
+  void *return_value_tcmalloc_1;
+  return_value_tcmalloc_1=tcmalloc(sizeof(struct anonymous_0) /*1440ul*/ );
+  ulog = (struct anonymous_0 *)return_value_tcmalloc_1;
   signed int i = 0;
   for( ; !(i >= 31); i = i + 1)
   {
-    signed int return_value_pthread_mutex_init$2;
-    return_value_pthread_mutex_init$2=pthread_mutex_init(ulog->rmtxs + (signed long int)i, (const union anonymous$33 *)(void *)0);
-    if(!(return_value_pthread_mutex_init$2 == 0))
+    signed int return_value_pthread_mutex_init_2;
+    return_value_pthread_mutex_init_2=pthread_mutex_init(ulog->rmtxs + (signed long int)i, (const union anonymous_33 *)(void *)0);
+    if(!(return_value_pthread_mutex_init_2 == 0))
       tcmyfatal("pthread_mutex_init failed");
 
   }
-  signed int return_value_pthread_rwlock_init$3;
-  return_value_pthread_rwlock_init$3=pthread_rwlock_init(&ulog->rwlck, (const union anonymous$2 *)(void *)0);
-  if(!(return_value_pthread_rwlock_init$3 == 0))
+  signed int return_value_pthread_rwlock_init_3;
+  return_value_pthread_rwlock_init_3=pthread_rwlock_init(&ulog->rwlck, (const union anonymous_2 *)(void *)0);
+  if(!(return_value_pthread_rwlock_init_3 == 0))
     tcmyfatal("pthread_rwlock_init failed");
 
-  signed int return_value_pthread_cond_init$4;
-  return_value_pthread_cond_init$4=pthread_cond_init(&ulog->cnd, (const union anonymous$33 *)(void *)0);
-  if(!(return_value_pthread_cond_init$4 == 0))
+  signed int return_value_pthread_cond_init_4;
+  return_value_pthread_cond_init_4=pthread_cond_init(&ulog->cnd, (const union anonymous_33 *)(void *)0);
+  if(!(return_value_pthread_cond_init_4 == 0))
     tcmyfatal("pthread_cond_init failed");
 
-  signed int return_value_pthread_mutex_init$5;
-  return_value_pthread_mutex_init$5=pthread_mutex_init(&ulog->wmtx, (const union anonymous$33 *)(void *)0);
-  if(!(return_value_pthread_mutex_init$5 == 0))
+  signed int return_value_pthread_mutex_init_5;
+  return_value_pthread_mutex_init_5=pthread_mutex_init(&ulog->wmtx, (const union anonymous_33 *)(void *)0);
+  if(!(return_value_pthread_mutex_init_5 == 0))
     tcmyfatal("pthread_mutex_init failed");
 
   ulog->base = (char *)(void *)0;
@@ -10830,26 +10830,26 @@ struct anonymous$0 * tculognew(void)
 
 // tculogopen
 // file ./tculog.h line 99
-_Bool tculogopen(struct anonymous$0 *ulog, const char *base, unsigned long int limsiz)
+_Bool tculogopen(struct anonymous_0 *ulog, const char *base, unsigned long int limsiz)
 {
   /* assertion ulog && base */
-  assert(ulog != ((struct anonymous$0 *)NULL) && base != ((const char *)NULL));
+  assert(ulog != ((struct anonymous_0 *)NULL) && base != ((const char *)NULL));
   if(!(ulog->base == ((char *)NULL)))
     return (_Bool)0;
 
   else
   {
     struct stat sbuf;
-    signed int return_value_stat$1;
-    return_value_stat$1=stat(base, &sbuf);
-    if(return_value_stat$1 == -1 || !((61440u & sbuf.st_mode) == 16384u))
+    signed int return_value_stat_1;
+    return_value_stat_1=stat(base, &sbuf);
+    if(return_value_stat_1 == -1 || !((61440u & sbuf.st_mode) == 16384u))
       return (_Bool)0;
 
     else
     {
-      struct anonymous$1 *names;
+      struct anonymous_1 *names;
       names=tcreaddir(base);
-      if(names == ((struct anonymous$1 *)NULL))
+      if(names == ((struct anonymous_1 *)NULL))
         return (_Bool)0;
 
       else
@@ -10862,19 +10862,19 @@ _Bool tculogopen(struct anonymous$0 *ulog, const char *base, unsigned long int l
         {
           const char *name;
           name=tclistval2(names, i);
-          _Bool return_value_tcstrbwm$2;
-          return_value_tcstrbwm$2=tcstrbwm(name, ".ulog");
-          if(!(return_value_tcstrbwm$2 == (_Bool)0))
+          _Bool return_value_tcstrbwm_2;
+          return_value_tcstrbwm_2=tcstrbwm(name, ".ulog");
+          if(!(return_value_tcstrbwm_2 == (_Bool)0))
           {
             signed int id;
-            signed long int return_value_tcatoi$3;
-            return_value_tcatoi$3=tcatoi(name);
-            id = (signed int)return_value_tcatoi$3;
+            signed long int return_value_tcatoi_3;
+            return_value_tcatoi_3=tcatoi(name);
+            id = (signed int)return_value_tcatoi_3;
             char *path;
             path=tcsprintf("%s/%08d%s", base, id, (const void *)".ulog");
-            signed int return_value_stat$4;
-            return_value_stat$4=stat(path, &sbuf);
-            if(return_value_stat$4 == 0)
+            signed int return_value_stat_4;
+            return_value_stat_4=stat(path, &sbuf);
+            if(return_value_stat_4 == 0)
             {
               if((61440u & sbuf.st_mode) == 32768u)
               {
@@ -10901,10 +10901,10 @@ _Bool tculogopen(struct anonymous$0 *ulog, const char *base, unsigned long int l
         struct aiocb *aiocbs = (struct aiocb *)ulog->aiocbs;
         if(!(aiocbs == ((struct aiocb *)NULL)))
         {
-          signed int tculogopen$$1$$2$$1$$i = 0;
-          for( ; !(tculogopen$$1$$2$$1$$i >= 64); tculogopen$$1$$2$$1$$i = tculogopen$$1$$2$$1$$i + 1)
+          signed int tculogopen__1__2__1__i = 0;
+          for( ; !(tculogopen__1__2__1__i >= 64); tculogopen__1__2__1__i = tculogopen__1__2__1__i + 1)
           {
-            struct aiocb *aiocbp = aiocbs + (signed long int)tculogopen$$1$$2$$1$$i;
+            struct aiocb *aiocbp = aiocbs + (signed long int)tculogopen__1__2__1__i;
             aiocbp->aio_fildes = 0;
             aiocbp->aio_buf = (void *)0;
             aiocbp->aio_nbytes = (unsigned long int)0;
@@ -10921,19 +10921,19 @@ _Bool tculogopen(struct anonymous$0 *ulog, const char *base, unsigned long int l
 
 // tculogrmtxidx
 // file tculog.c line 156
-signed int tculogrmtxidx(struct anonymous$0 *ulog, const char *kbuf, signed int ksiz)
+signed int tculogrmtxidx(struct anonymous_0 *ulog, const char *kbuf, signed int ksiz)
 {
   /* assertion ulog && kbuf && ksiz >= 0 */
-  assert(ulog != ((struct anonymous$0 *)NULL) && kbuf != ((const char *)NULL) && ksiz >= 0);
-  _Bool tmp_if_expr$1;
+  assert(ulog != ((struct anonymous_0 *)NULL) && kbuf != ((const char *)NULL) && ksiz >= 0);
+  _Bool tmp_if_expr_1;
   if(ulog->base == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(ulog->aiocbs != NULL) ? (_Bool)1 : (_Bool)0;
-  signed int tmp_post$2;
-  const char *tmp_post$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(ulog->aiocbs != NULL) ? (_Bool)1 : (_Bool)0;
+  signed int tmp_post_2;
+  const char *tmp_post_3;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -10941,14 +10941,14 @@ signed int tculogrmtxidx(struct anonymous$0 *ulog, const char *kbuf, signed int 
     unsigned int hash = (unsigned int)19780211;
     do
     {
-      tmp_post$2 = ksiz;
+      tmp_post_2 = ksiz;
       ksiz = ksiz - 1;
-      if(tmp_post$2 == 0)
+      if(tmp_post_2 == 0)
         break;
 
-      tmp_post$3 = kbuf;
+      tmp_post_3 = kbuf;
       kbuf = kbuf + 1l;
-      hash = hash * (unsigned int)41 + (unsigned int)*((unsigned char *)tmp_post$3);
+      hash = hash * (unsigned int)41 + (unsigned int)*((unsigned char *)tmp_post_3);
     }
     while((_Bool)1);
     return (signed int)(hash % (unsigned int)31);
@@ -10957,25 +10957,25 @@ signed int tculogrmtxidx(struct anonymous$0 *ulog, const char *kbuf, signed int 
 
 // tculogsetaio
 // file ./tculog.h line 90
-_Bool tculogsetaio(struct anonymous$0 *ulog)
+_Bool tculogsetaio(struct anonymous_0 *ulog)
 {
   /* assertion ulog */
-  assert(ulog != ((struct anonymous$0 *)NULL));
-  _Bool tmp_if_expr$1;
+  assert(ulog != ((struct anonymous_0 *)NULL));
+  _Bool tmp_if_expr_1;
   if(!(ulog->base == ((char *)NULL)))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ulog->aiocbs != NULL ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = ulog->aiocbs != NULL ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (_Bool)0;
 
   else
   {
     struct aiocb *aiocbs;
-    void *return_value_tcmalloc$2;
-    return_value_tcmalloc$2=tcmalloc(sizeof(struct aiocb) /*168ul*/  * (unsigned long int)64);
-    aiocbs = (struct aiocb *)return_value_tcmalloc$2;
+    void *return_value_tcmalloc_2;
+    return_value_tcmalloc_2=tcmalloc(sizeof(struct aiocb) /*168ul*/  * (unsigned long int)64);
+    aiocbs = (struct aiocb *)return_value_tcmalloc_2;
     signed int i = 0;
     for( ; !(i >= 64); i = i + 1)
       memset((void *)(aiocbs + (signed long int)i), 0, sizeof(struct aiocb) /*168ul*/ );
@@ -10986,17 +10986,17 @@ _Bool tculogsetaio(struct anonymous$0 *ulog)
 
 // tculogwrite
 // file ./tculog.h line 138
-_Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int sid, unsigned int mid, const void *ptr, signed int size)
+_Bool tculogwrite(struct anonymous_0 *ulog, unsigned long int ts, unsigned int sid, unsigned int mid, const void *ptr, signed int size)
 {
   /* assertion ulog && ptr && size >= 0 */
-  assert(ulog != ((struct anonymous$0 *)NULL) && ptr != NULL && size >= 0);
-  double return_value_tctime$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_fstat$3;
-  unsigned char *tmp_if_expr$6;
-  void *return_value_tcmalloc$5;
-  unsigned char *tmp_post$7;
-  signed int return_value_aio_write$9;
+  assert(ulog != ((struct anonymous_0 *)NULL) && ptr != NULL && size >= 0);
+  double return_value_tctime_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_fstat_3;
+  unsigned char *tmp_if_expr_6;
+  void *return_value_tcmalloc_5;
+  unsigned char *tmp_post_7;
+  signed int return_value_aio_write_9;
   if(ulog->base == ((char *)NULL))
     return (_Bool)0;
 
@@ -11004,21 +11004,21 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
   {
     if(!(ts >= 1ul))
     {
-      return_value_tctime$1=tctime();
-      ts = (unsigned long int)(return_value_tctime$1 * (double)1000000);
+      return_value_tctime_1=tctime();
+      ts = (unsigned long int)(return_value_tctime_1 * (double)1000000);
     }
 
     _Bool err = (_Bool)0;
-    signed int return_value_pthread_rwlock_wrlock$2;
-    return_value_pthread_rwlock_wrlock$2=pthread_rwlock_wrlock(&ulog->rwlck);
-    if(!(return_value_pthread_rwlock_wrlock$2 == 0))
+    signed int return_value_pthread_rwlock_wrlock_2;
+    return_value_pthread_rwlock_wrlock_2=pthread_rwlock_wrlock(&ulog->rwlck);
+    if(!(return_value_pthread_rwlock_wrlock_2 == 0))
       return (_Bool)0;
 
     else
     {
       do
       {
-        struct anonymous$4 __cancel_buf;
+        struct anonymous_4 __cancel_buf;
         void (*__cancel_routine)(void *) = (void (*)(void *))pthread_rwlock_unlock;
         void *__cancel_arg = (void *)&ulog->rwlck;
         signed int __not_first_call;
@@ -11036,21 +11036,21 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
           {
             char *path;
             path=tcsprintf("%s/%08d%s", ulog->base, ulog->max, (const void *)".ulog");
-            signed int tculogwrite$$1$$1$$2$$1$$fd;
-            tculogwrite$$1$$1$$2$$1$$fd=open(path, 01 | 0100 | 02000, 00644);
+            signed int tculogwrite__1__1__2__1__fd;
+            tculogwrite__1__1__2__1__fd=open(path, 01 | 0100 | 02000, 00644);
             tcfree((void *)path);
             struct stat sbuf;
-            if(!(tculogwrite$$1$$1$$2$$1$$fd == -1))
+            if(!(tculogwrite__1__1__2__1__fd == -1))
             {
-              return_value_fstat$3=fstat(tculogwrite$$1$$1$$2$$1$$fd, &sbuf);
-              tmp_if_expr$4 = return_value_fstat$3 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_fstat_3=fstat(tculogwrite__1__1__2__1__fd, &sbuf);
+              tmp_if_expr_4 = return_value_fstat_3 == 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(tmp_if_expr_4)
             {
-              ulog->fd = tculogwrite$$1$$1$$2$$1$$fd;
+              ulog->fd = tculogwrite__1__1__2__1__fd;
               ulog->size = (unsigned long int)sbuf.st_size;
             }
 
@@ -11062,34 +11062,34 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
           unsigned char stack[65536l];
           unsigned char *buf;
           if(!(rsiz >= 65536))
-            tmp_if_expr$6 = stack;
+            tmp_if_expr_6 = stack;
 
           else
           {
-            return_value_tcmalloc$5=tcmalloc((unsigned long int)rsiz);
-            tmp_if_expr$6 = (unsigned char *)return_value_tcmalloc$5;
+            return_value_tcmalloc_5=tcmalloc((unsigned long int)rsiz);
+            tmp_if_expr_6 = (unsigned char *)return_value_tcmalloc_5;
           }
-          buf = tmp_if_expr$6;
+          buf = tmp_if_expr_6;
           do
           {
-            struct anonymous$4 tculogwrite$$1$$1$$2$$2$$__cancel_buf;
-            void (*tculogwrite$$1$$1$$2$$2$$__cancel_routine)(void *) = free;
-            void *tculogwrite$$1$$1$$2$$2$$__cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
-            signed int tculogwrite$$1$$1$$2$$2$$__not_first_call;
-            tculogwrite$$1$$1$$2$$2$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tculogwrite$$1$$1$$2$$2$$__cancel_buf.__cancel_jmp_buf, 0);
-            if(!((signed long int)tculogwrite$$1$$1$$2$$2$$__not_first_call == 0l))
+            struct anonymous_4 tculogwrite__1__1__2__2____cancel_buf;
+            void (*tculogwrite__1__1__2__2____cancel_routine)(void *) = free;
+            void *tculogwrite__1__1__2__2____cancel_arg = (void *)(buf == stack ? (unsigned char *)(void *)0 : buf);
+            signed int tculogwrite__1__1__2__2____not_first_call;
+            tculogwrite__1__1__2__2____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tculogwrite__1__1__2__2____cancel_buf.__cancel_jmp_buf, 0);
+            if(!((signed long int)tculogwrite__1__1__2__2____not_first_call == 0l))
             {
-              tculogwrite$$1$$1$$2$$2$$__cancel_routine(tculogwrite$$1$$1$$2$$2$$__cancel_arg);
-              __pthread_unwind_next(&tculogwrite$$1$$1$$2$$2$$__cancel_buf);
+              tculogwrite__1__1__2__2____cancel_routine(tculogwrite__1__1__2__2____cancel_arg);
+              __pthread_unwind_next(&tculogwrite__1__1__2__2____cancel_buf);
             }
 
-            __pthread_register_cancel(&tculogwrite$$1$$1$$2$$2$$__cancel_buf);
+            __pthread_register_cancel(&tculogwrite__1__1__2__2____cancel_buf);
             do
             {
               unsigned char *wp = buf;
-              tmp_post$7 = wp;
+              tmp_post_7 = wp;
               wp = wp + 1l;
-              *tmp_post$7 = (unsigned char)0xc9;
+              *tmp_post_7 = (unsigned char)0xc9;
               unsigned long int llnum = (ts & 0x00000000000000ffULL) << 56 | (ts & 0x000000000000ff00ULL) << 40 | (ts & 0x0000000000ff0000ULL) << 24 | (ts & 0x00000000ff000000ULL) << 8 | (ts & 0x000000ff00000000ULL) >> 8 | (ts & 0x0000ff0000000000ULL) >> 24 | (ts & 0x00ff000000000000ULL) >> 40 | (ts & 0xff00000000000000ULL) >> 56;
               memcpy((void *)wp, (const void *)&llnum, sizeof(unsigned long int) /*8ul*/ );
               wp = wp + (signed long int)sizeof(unsigned long int) /*8ul*/ ;
@@ -11112,9 +11112,9 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
                   if(!(aiocbp->aio_buf == NULL))
                   {
                     signed long int aioend = (signed long int)((unsigned long int)aiocbp->aio_offset + aiocbp->aio_nbytes);
-                    _Bool return_value_tculogflushaiocbp$8;
-                    return_value_tculogflushaiocbp$8=tculogflushaiocbp(aiocbp);
-                    if(!(return_value_tculogflushaiocbp$8 == (_Bool)0))
+                    _Bool return_value_tculogflushaiocbp_8;
+                    return_value_tculogflushaiocbp_8=tculogflushaiocbp(aiocbp);
+                    if(!(return_value_tculogflushaiocbp_8 == (_Bool)0))
                       ulog->aioend = (unsigned long int)aioend;
 
                     else
@@ -11127,13 +11127,13 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
                   aiocbp->aio_nbytes = (unsigned long int)rsiz;
                   do
                   {
-                    return_value_aio_write$9=aio_write(aiocbp);
-                    if(return_value_aio_write$9 == 0)
+                    return_value_aio_write_9=aio_write(aiocbp);
+                    if(return_value_aio_write_9 == 0)
                       break;
 
-                    signed int *return_value___errno_location$10;
-                    return_value___errno_location$10=__errno_location();
-                    if(!(*return_value___errno_location$10 == 11))
+                    signed int *return_value___errno_location_10;
+                    return_value___errno_location_10=__errno_location();
+                    if(!(*return_value___errno_location_10 == 11))
                     {
                       tcfree((void *)(char *)aiocbp->aio_buf);
                       aiocbp->aio_buf = (void *)0;
@@ -11145,9 +11145,9 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
                     for( ; !(i >= 64); i = i + 1)
                       if(!(i == ulog->aiocbi))
                       {
-                        _Bool return_value_tculogflushaiocbp$11;
-                        return_value_tculogflushaiocbp$11=tculogflushaiocbp(aiocbs + (signed long int)i);
-                        if(return_value_tculogflushaiocbp$11 == (_Bool)0)
+                        _Bool return_value_tculogflushaiocbp_11;
+                        return_value_tculogflushaiocbp_11=tculogflushaiocbp(aiocbs + (signed long int)i);
+                        if(return_value_tculogflushaiocbp_11 == (_Bool)0)
                         {
                           err = (_Bool)1;
                           break;
@@ -11162,9 +11162,9 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
 
                 else
                 {
-                  _Bool return_value_tcwrite$12;
-                  return_value_tcwrite$12=tcwrite(ulog->fd, (const void *)buf, (unsigned long int)rsiz);
-                  if(return_value_tcwrite$12 == (_Bool)0)
+                  _Bool return_value_tcwrite_12;
+                  return_value_tcwrite_12=tcwrite(ulog->fd, (const void *)buf, (unsigned long int)rsiz);
+                  if(return_value_tcwrite_12 == (_Bool)0)
                     err = (_Bool)1;
 
                 }
@@ -11175,12 +11175,12 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
                   {
                     if(!(aiocbs == ((struct aiocb *)NULL)))
                     {
-                      signed int tculogwrite$$1$$1$$2$$2$$2$$1$$3$$1$$1$$1$$i = 0;
-                      for( ; !(tculogwrite$$1$$1$$2$$2$$2$$1$$3$$1$$1$$1$$i >= 64); tculogwrite$$1$$1$$2$$2$$2$$1$$3$$1$$1$$1$$i = tculogwrite$$1$$1$$2$$2$$2$$1$$3$$1$$1$$1$$i + 1)
+                      signed int tculogwrite__1__1__2__2__2__1__3__1__1__1__i = 0;
+                      for( ; !(tculogwrite__1__1__2__2__2__1__3__1__1__1__i >= 64); tculogwrite__1__1__2__2__2__1__3__1__1__1__i = tculogwrite__1__1__2__2__2__1__3__1__1__1__i + 1)
                       {
-                        _Bool return_value_tculogflushaiocbp$13;
-                        return_value_tculogflushaiocbp$13=tculogflushaiocbp(aiocbs + (signed long int)tculogwrite$$1$$1$$2$$2$$2$$1$$3$$1$$1$$1$$i);
-                        if(return_value_tculogflushaiocbp$13 == (_Bool)0)
+                        _Bool return_value_tculogflushaiocbp_13;
+                        return_value_tculogflushaiocbp_13=tculogflushaiocbp(aiocbs + (signed long int)tculogwrite__1__1__2__2__2__1__3__1__1__1__i);
+                        if(return_value_tculogflushaiocbp_13 == (_Bool)0)
                           err = (_Bool)1;
 
                       }
@@ -11188,16 +11188,16 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
                       ulog->aioend = (unsigned long int)0;
                     }
 
-                    char *tculogwrite$$1$$1$$2$$2$$2$$1$$3$$1$$path;
-                    tculogwrite$$1$$1$$2$$2$$2$$1$$3$$1$$path=tcsprintf("%s/%08d%s", ulog->base, ulog->max + 1, (const void *)".ulog");
+                    char *tculogwrite__1__1__2__2__2__1__3__1__path;
+                    tculogwrite__1__1__2__2__2__1__3__1__path=tcsprintf("%s/%08d%s", ulog->base, ulog->max + 1, (const void *)".ulog");
                     signed int fd;
-                    fd=open(tculogwrite$$1$$1$$2$$2$$2$$1$$3$$1$$path, 01 | 0100 | 02000, 00644);
-                    tcfree((void *)tculogwrite$$1$$1$$2$$2$$2$$1$$3$$1$$path);
+                    fd=open(tculogwrite__1__1__2__2__2__1__3__1__path, 01 | 0100 | 02000, 00644);
+                    tcfree((void *)tculogwrite__1__1__2__2__2__1__3__1__path);
                     if(!(fd == 0))
                     {
-                      signed int return_value_close$14;
-                      return_value_close$14=close(ulog->fd);
-                      if(!(return_value_close$14 == 0))
+                      signed int return_value_close_14;
+                      return_value_close_14=close(ulog->fd);
+                      if(!(return_value_close_14 == 0))
                         err = (_Bool)1;
 
                       ulog->fd = fd;
@@ -11209,9 +11209,9 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
                       err = (_Bool)1;
                   }
 
-                  signed int return_value_pthread_cond_broadcast$15;
-                  return_value_pthread_cond_broadcast$15=pthread_cond_broadcast(&ulog->cnd);
-                  if(!(return_value_pthread_cond_broadcast$15 == 0))
+                  signed int return_value_pthread_cond_broadcast_15;
+                  return_value_pthread_cond_broadcast_15=pthread_cond_broadcast(&ulog->cnd);
+                  if(!(return_value_pthread_cond_broadcast_15 == 0))
                     err = (_Bool)1;
 
                 }
@@ -11225,8 +11225,8 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
               ;
             }
             while((_Bool)0);
-            __pthread_unregister_cancel(&tculogwrite$$1$$1$$2$$2$$__cancel_buf);
-            tculogwrite$$1$$1$$2$$2$$__cancel_routine(tculogwrite$$1$$1$$2$$2$$__cancel_arg);
+            __pthread_unregister_cancel(&tculogwrite__1__1__2__2____cancel_buf);
+            tculogwrite__1__1__2__2____cancel_routine(tculogwrite__1__1__2__2____cancel_arg);
           }
           while((_Bool)0);
 
@@ -11245,10 +11245,10 @@ _Bool tculogwrite(struct anonymous$0 *ulog, unsigned long int ts, unsigned int s
 
 // tculrddel
 // file ./tculog.h line 151
-void tculrddel(struct anonymous$6 *ulrd)
+void tculrddel(struct anonymous_6 *ulrd)
 {
   /* assertion ulrd */
-  assert(ulrd != ((struct anonymous$6 *)NULL));
+  assert(ulrd != ((struct anonymous_6 *)NULL));
   if(!(ulrd->fd == -1))
     close(ulrd->fd);
 
@@ -11258,28 +11258,28 @@ void tculrddel(struct anonymous$6 *ulrd)
 
 // tculrdnew
 // file ./tculog.h line 146
-struct anonymous$6 * tculrdnew(struct anonymous$0 *ulog, unsigned long int ts)
+struct anonymous_6 * tculrdnew(struct anonymous_0 *ulog, unsigned long int ts)
 {
   /* assertion ulog */
-  assert(ulog != ((struct anonymous$0 *)NULL));
+  assert(ulog != ((struct anonymous_0 *)NULL));
   if(ulog->base == ((char *)NULL))
-    return (struct anonymous$6 *)(void *)0;
+    return (struct anonymous_6 *)(void *)0;
 
   else
   {
-    signed int return_value_pthread_rwlock_rdlock$1;
-    return_value_pthread_rwlock_rdlock$1=pthread_rwlock_rdlock(&ulog->rwlck);
-    if(!(return_value_pthread_rwlock_rdlock$1 == 0))
-      return (struct anonymous$6 *)(void *)0;
+    signed int return_value_pthread_rwlock_rdlock_1;
+    return_value_pthread_rwlock_rdlock_1=pthread_rwlock_rdlock(&ulog->rwlck);
+    if(!(return_value_pthread_rwlock_rdlock_1 == 0))
+      return (struct anonymous_6 *)(void *)0;
 
     else
     {
-      struct anonymous$1 *names;
+      struct anonymous_1 *names;
       names=tcreaddir(ulog->base);
-      if(names == ((struct anonymous$1 *)NULL))
+      if(names == ((struct anonymous_1 *)NULL))
       {
         pthread_rwlock_unlock(&ulog->rwlck);
-        return (struct anonymous$6 *)(void *)0;
+        return (struct anonymous_6 *)(void *)0;
       }
 
       else
@@ -11287,25 +11287,25 @@ struct anonymous$6 * tculrdnew(struct anonymous$0 *ulog, unsigned long int ts)
         signed int ln;
         ln=tclistnum(names);
         signed int max = 0;
-        signed int tculrdnew$$1$$2$$i = 0;
-        for( ; !(tculrdnew$$1$$2$$i >= ln); tculrdnew$$1$$2$$i = tculrdnew$$1$$2$$i + 1)
+        signed int tculrdnew__1__2__i = 0;
+        for( ; !(tculrdnew__1__2__i >= ln); tculrdnew__1__2__i = tculrdnew__1__2__i + 1)
         {
           const char *name;
-          name=tclistval2(names, tculrdnew$$1$$2$$i);
-          _Bool return_value_tcstrbwm$2;
-          return_value_tcstrbwm$2=tcstrbwm(name, ".ulog");
-          if(!(return_value_tcstrbwm$2 == (_Bool)0))
+          name=tclistval2(names, tculrdnew__1__2__i);
+          _Bool return_value_tcstrbwm_2;
+          return_value_tcstrbwm_2=tcstrbwm(name, ".ulog");
+          if(!(return_value_tcstrbwm_2 == (_Bool)0))
           {
             signed int id;
-            signed long int return_value_tcatoi$3;
-            return_value_tcatoi$3=tcatoi(name);
-            id = (signed int)return_value_tcatoi$3;
-            char *tculrdnew$$1$$2$$1$$path;
-            tculrdnew$$1$$2$$1$$path=tcsprintf("%s/%08d%s", ulog->base, id, (const void *)".ulog");
+            signed long int return_value_tcatoi_3;
+            return_value_tcatoi_3=tcatoi(name);
+            id = (signed int)return_value_tcatoi_3;
+            char *tculrdnew__1__2__1__path;
+            tculrdnew__1__2__1__path=tcsprintf("%s/%08d%s", ulog->base, id, (const void *)".ulog");
             struct stat sbuf;
-            signed int return_value_stat$4;
-            return_value_stat$4=stat(tculrdnew$$1$$2$$1$$path, &sbuf);
-            if(return_value_stat$4 == 0)
+            signed int return_value_stat_4;
+            return_value_stat_4=stat(tculrdnew__1__2__1__path, &sbuf);
+            if(return_value_stat_4 == 0)
             {
               if((61440u & sbuf.st_mode) == 32768u)
               {
@@ -11316,7 +11316,7 @@ struct anonymous$6 * tculrdnew(struct anonymous$0 *ulog, unsigned long int ts)
 
             }
 
-            tcfree((void *)tculrdnew$$1$$2$$1$$path);
+            tcfree((void *)tculrdnew__1__2__1__path);
           }
 
         }
@@ -11338,12 +11338,12 @@ struct anonymous$6 * tculrdnew(struct anonymous$0 *ulog, unsigned long int ts)
             break;
 
           signed int rsiz = (signed int)(sizeof(unsigned char) /*1ul*/  + sizeof(unsigned long int) /*8ul*/ );
-          const signed long int rsiz$array_size0 = (signed long int)rsiz;
-          unsigned char buf[rsiz$array_size0];
+          const signed long int rsiz_array_size0 = (signed long int)rsiz;
+          unsigned char buf[rsiz_array_size0];
           unsigned long int fts = (unsigned long int)9223372036854775807L;
-          _Bool return_value_tcread$5;
-          return_value_tcread$5=tcread(fd, (void *)buf, (unsigned long int)rsiz);
-          if(!(return_value_tcread$5 == (_Bool)0))
+          _Bool return_value_tcread_5;
+          return_value_tcread_5=tcread(fd, (void *)buf, (unsigned long int)rsiz);
+          if(!(return_value_tcread_5 == (_Bool)0))
           {
             memcpy((void *)&fts, (const void *)(buf + (signed long int)sizeof(unsigned char) /*1ul*/ ), sizeof(unsigned long int) /*8ul*/ );
             fts = (fts & 0x00000000000000ffULL) << 56 | (fts & 0x000000000000ff00ULL) << 40 | (fts & 0x0000000000ff0000ULL) << 24 | (fts & 0x00000000ff000000ULL) << 8 | (fts & 0x000000ff00000000ULL) >> 8 | (fts & 0x0000ff0000000000ULL) >> 24 | (fts & 0x00ff000000000000ULL) >> 40 | (fts & 0xff00000000000000ULL) >> 56;
@@ -11358,17 +11358,17 @@ struct anonymous$6 * tculrdnew(struct anonymous$0 *ulog, unsigned long int ts)
         if(!(num >= 1))
           num = 1;
 
-        struct anonymous$6 *urld;
-        void *return_value_tcmalloc$6;
-        return_value_tcmalloc$6=tcmalloc(sizeof(struct anonymous$6) /*40ul*/ );
-        urld = (struct anonymous$6 *)return_value_tcmalloc$6;
+        struct anonymous_6 *urld;
+        void *return_value_tcmalloc_6;
+        return_value_tcmalloc_6=tcmalloc(sizeof(struct anonymous_6) /*40ul*/ );
+        urld = (struct anonymous_6 *)return_value_tcmalloc_6;
         urld->ulog = ulog;
         urld->ts = ts;
         urld->num = num;
         urld->fd = -1;
-        void *return_value_tcmalloc$7;
-        return_value_tcmalloc$7=tcmalloc((unsigned long int)65536);
-        urld->rbuf = (char *)return_value_tcmalloc$7;
+        void *return_value_tcmalloc_7;
+        return_value_tcmalloc_7=tcmalloc((unsigned long int)65536);
+        urld->rbuf = (char *)return_value_tcmalloc_7;
         urld->rsiz = 65536;
         pthread_rwlock_unlock(&ulog->rwlck);
         return urld;
@@ -11379,16 +11379,16 @@ struct anonymous$6 * tculrdnew(struct anonymous$0 *ulog, unsigned long int ts)
 
 // tculrdread
 // file ./tculog.h line 171
-const void * tculrdread(struct anonymous$6 *ulrd, signed int *sp, unsigned long int *tsp, unsigned int *sidp, unsigned int *midp)
+const void * tculrdread(struct anonymous_6 *ulrd, signed int *sp, unsigned long int *tsp, unsigned int *sidp, unsigned int *midp)
 {
   /* assertion ulrd && sp && tsp && sidp && midp */
-  assert(ulrd != ((struct anonymous$6 *)NULL) && sp != ((signed int *)NULL) && tsp != ((unsigned long int *)NULL) && sidp != ((unsigned int *)NULL) && midp != ((unsigned int *)NULL));
-  struct anonymous$0 *ulog = ulrd->ulog;
-  signed int return_value_pthread_rwlock_rdlock$1;
-  return_value_pthread_rwlock_rdlock$1=pthread_rwlock_rdlock(&ulog->rwlck);
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  if(!(return_value_pthread_rwlock_rdlock$1 == 0))
+  assert(ulrd != ((struct anonymous_6 *)NULL) && sp != ((signed int *)NULL) && tsp != ((unsigned long int *)NULL) && sidp != ((unsigned int *)NULL) && midp != ((unsigned int *)NULL));
+  struct anonymous_0 *ulog = ulrd->ulog;
+  signed int return_value_pthread_rwlock_rdlock_1;
+  return_value_pthread_rwlock_rdlock_1=pthread_rwlock_rdlock(&ulog->rwlck);
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  if(!(return_value_pthread_rwlock_rdlock_1 == 0))
     return (void *)0;
 
   else
@@ -11408,8 +11408,8 @@ const void * tculrdread(struct anonymous$6 *ulrd, signed int *sp, unsigned long 
     }
 
     signed int rsiz = (signed int)(sizeof(unsigned char) /*1ul*/  + sizeof(unsigned long int) /*8ul*/  + sizeof(unsigned int) /*4ul*/  * (unsigned long int)2);
-    const signed long int rsiz$array_size0 = (signed long int)rsiz;
-    unsigned char buf[rsiz$array_size0];
+    const signed long int rsiz_array_size0 = (signed long int)rsiz;
+    unsigned char buf[rsiz_array_size0];
     unsigned long int ts;
     unsigned int sid;
     unsigned int mid;
@@ -11421,21 +11421,21 @@ const void * tculrdread(struct anonymous$6 *ulrd, signed int *sp, unsigned long 
         if(ulrd->num == ulog->max)
         {
           struct stat sbuf;
-          signed int return_value_fstat$2;
-          return_value_fstat$2=fstat(ulrd->fd, &sbuf);
-          if(return_value_fstat$2 == -1)
-            tmp_if_expr$4 = (_Bool)1;
+          signed int return_value_fstat_2;
+          return_value_fstat_2=fstat(ulrd->fd, &sbuf);
+          if(return_value_fstat_2 == -1)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
             if(!((unsigned long int)sbuf.st_size >= ulog->size))
-              tmp_if_expr$3 = (unsigned long int)sbuf.st_size >= ulog->aioend ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = (unsigned long int)sbuf.st_size >= ulog->aioend ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = (_Bool)0;
+            tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
           {
             pthread_rwlock_unlock(&ulog->rwlck);
             return (void *)0;
@@ -11445,18 +11445,18 @@ const void * tculrdread(struct anonymous$6 *ulrd, signed int *sp, unsigned long 
 
       }
 
-      _Bool return_value_tcread$5;
-      return_value_tcread$5=tcread(ulrd->fd, (void *)buf, (unsigned long int)rsiz);
-      if(return_value_tcread$5 == (_Bool)0)
+      _Bool return_value_tcread_5;
+      return_value_tcread_5=tcread(ulrd->fd, (void *)buf, (unsigned long int)rsiz);
+      if(return_value_tcread_5 == (_Bool)0)
       {
         if(!(ulrd->num >= ulog->max))
         {
           close(ulrd->fd);
           ulrd->num = ulrd->num + 1;
-          char *tculrdread$$1$$2$$2$$1$$path;
-          tculrdread$$1$$2$$2$$1$$path=tcsprintf("%s/%08d%s", ulog->base, ulrd->num, (const void *)".ulog");
-          ulrd->fd=open(tculrdread$$1$$2$$2$$1$$path, 00, 00644);
-          tcfree((void *)tculrdread$$1$$2$$2$$1$$path);
+          char *tculrdread__1__2__2__1__path;
+          tculrdread__1__2__2__1__path=tcsprintf("%s/%08d%s", ulog->base, ulrd->num, (const void *)".ulog");
+          ulrd->fd=open(tculrdread__1__2__2__1__path, 00, 00644);
+          tcfree((void *)tculrdread__1__2__2__1__path);
           if(ulrd->fd == -1)
           {
             pthread_rwlock_unlock(&ulog->rwlck);
@@ -11493,15 +11493,15 @@ const void * tculrdread(struct anonymous$6 *ulrd, signed int *sp, unsigned long 
       rp = rp + (signed long int)sizeof(unsigned int) /*4ul*/ ;
       if(!((unsigned int)ulrd->rsiz >= 1u + size))
       {
-        void *return_value_tcrealloc$6;
-        return_value_tcrealloc$6=tcrealloc((void *)ulrd->rbuf, (unsigned long int)(size + (unsigned int)1));
-        ulrd->rbuf = (char *)return_value_tcrealloc$6;
+        void *return_value_tcrealloc_6;
+        return_value_tcrealloc_6=tcrealloc((void *)ulrd->rbuf, (unsigned long int)(size + (unsigned int)1));
+        ulrd->rbuf = (char *)return_value_tcrealloc_6;
         ulrd->rsiz = (signed int)(size + (unsigned int)1);
       }
 
-      _Bool return_value_tcread$7;
-      return_value_tcread$7=tcread(ulrd->fd, (void *)ulrd->rbuf, (unsigned long int)size);
-      if(return_value_tcread$7 == (_Bool)0)
+      _Bool return_value_tcread_7;
+      return_value_tcread_7=tcread(ulrd->fd, (void *)ulrd->rbuf, (unsigned long int)size);
+      if(return_value_tcread_7 == (_Bool)0)
       {
         pthread_rwlock_unlock(&ulog->rwlck);
         return (void *)0;
@@ -11523,17 +11523,17 @@ const void * tculrdread(struct anonymous$6 *ulrd, signed int *sp, unsigned long 
 
 // tculrdwait
 // file tculog.c line 372
-void tculrdwait(struct anonymous$6 *ulrd)
+void tculrdwait(struct anonymous_6 *ulrd)
 {
   /* assertion ulrd */
-  assert(ulrd != ((struct anonymous$6 *)NULL));
-  struct anonymous$0 *ulog = ulrd->ulog;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&ulog->wmtx);
-  if(return_value_pthread_mutex_lock$1 == 0)
+  assert(ulrd != ((struct anonymous_6 *)NULL));
+  struct anonymous_0 *ulog = ulrd->ulog;
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&ulog->wmtx);
+  if(return_value_pthread_mutex_lock_1 == 0)
     do
     {
-      struct anonymous$4 __cancel_buf;
+      struct anonymous_4 __cancel_buf;
       void (*__cancel_routine)(void *) = (void (*)(void *))pthread_mutex_unlock;
       void *__cancel_arg = (void *)&ulog->wmtx;
       signed int __not_first_call;
@@ -11551,9 +11551,9 @@ void tculrdwait(struct anonymous$6 *ulrd)
         pthread_setcancelstate(0, &ocs);
         struct timeval tv;
         struct timespec ts;
-        signed int return_value_gettimeofday$2;
-        return_value_gettimeofday$2=gettimeofday(&tv, (struct timezone *)(void *)0);
-        if(return_value_gettimeofday$2 == 0)
+        signed int return_value_gettimeofday_2;
+        return_value_gettimeofday_2=gettimeofday(&tv, (struct timezone *)(void *)0);
+        if(return_value_gettimeofday_2 == 0)
         {
           ts.tv_sec = tv.tv_sec + (signed long int)1;
           ts.tv_nsec = tv.tv_usec * (signed long int)1000;
@@ -11582,22 +11582,22 @@ void tculrdwait(struct anonymous$6 *ulrd)
 // file ttultest.c line 282
 static void * threadread(void *targ)
 {
-  struct anonymous$6 *ulrd = ((struct anonymous$26 *)targ)->ulrd;
-  signed int id = ((struct anonymous$26 *)targ)->id;
-  signed int rnum = ((struct anonymous$26 *)targ)->rnum;
+  struct anonymous_6 *ulrd = ((struct anonymous_26 *)targ)->ulrd;
+  signed int id = ((struct anonymous_26 *)targ)->id;
+  signed int rnum = ((struct anonymous_26 *)targ)->rnum;
   const char *rbuf;
   signed int rsiz;
   unsigned long int rts;
   unsigned int rsid;
   unsigned int rmid;
   signed int i = 1;
-  const void *return_value_tculrdread$1;
+  const void *return_value_tculrdread_1;
   while(rnum >= i)
   {
     do
     {
-      return_value_tculrdread$1=tculrdread(ulrd, &rsiz, &rts, &rsid, &rmid);
-      rbuf = (const char *)return_value_tculrdread$1;
+      return_value_tculrdread_1=tculrdread(ulrd, &rsiz, &rts, &rsid, &rmid);
+      rbuf = (const char *)return_value_tculrdread_1;
       if(rbuf == ((const char *)NULL))
         break;
 
@@ -11624,10 +11624,10 @@ signed int ttacceptsock(signed int fd, char *addr, signed int *pp)
 {
   /* assertion fd >= 0 */
   assert(fd >= 0);
-  unsigned short int tmp_statement_expression$5;
-  signed int *return_value___errno_location$1;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  unsigned short int tmp_statement_expression_5;
+  signed int *return_value___errno_location_1;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
     struct sockaddr_in sain;
@@ -11651,9 +11651,9 @@ signed int ttacceptsock(signed int fd, char *addr, signed int *pp)
       setsockopt(cfd, 6, 1, (const void *)(char *)&optint, (unsigned int)sizeof(signed int) /*4ul*/ );
       if(!(addr == ((char *)NULL)))
       {
-        signed int return_value_getnameinfo$4;
-        return_value_getnameinfo$4=getnameinfo((struct sockaddr *)&sain, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ , addr, (unsigned int)1024, (char *)(void *)0, (unsigned int)0, 1);
-        if(!(return_value_getnameinfo$4 == 0))
+        signed int return_value_getnameinfo_4;
+        return_value_getnameinfo_4=getnameinfo((struct sockaddr *)&sain, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ , addr, (unsigned int)1024, (char *)(void *)0, (unsigned int)0, 1);
+        if(!(return_value_getnameinfo_4 == 0))
           sprintf(addr, "0.0.0.0");
 
       }
@@ -11662,25 +11662,25 @@ signed int ttacceptsock(signed int fd, char *addr, signed int *pp)
       {
         unsigned short int __v;
         unsigned short int __x = (unsigned short int)sain.sin_port;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-        tmp_statement_expression$5 = __v;
-        *pp = (signed int)tmp_statement_expression$5;
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+        tmp_statement_expression_5 = __v;
+        *pp = (signed int)tmp_statement_expression_5;
       }
 
       return cfd;
     }
 
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 4)
-      tmp_if_expr$3 = (_Bool)1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 4)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
     }
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
   return -1;
 }
 
@@ -11690,9 +11690,9 @@ signed int ttacceptsockunix(signed int fd)
 {
   /* assertion fd >= 0 */
   assert(fd >= 0);
-  signed int *return_value___errno_location$1;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
     signed int cfd;
@@ -11711,17 +11711,17 @@ signed int ttacceptsockunix(signed int fd)
       return cfd;
     }
 
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 4)
-      tmp_if_expr$3 = (_Bool)1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 4)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
     }
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
   return -1;
 }
 
@@ -11734,29 +11734,29 @@ char * ttbreakservexpr(const char *expr, signed int *pp)
   char *host;
   host=tcstrdup((const void *)expr);
   char *pv;
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(host, 35);
-  pv = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(host, 35);
+  pv = return_value___builtin_strchr_1;
   if(!(pv == ((char *)NULL)))
     *pv = (char)0;
 
   signed int port = -1;
-  char *return_value___builtin_strchr$2;
-  return_value___builtin_strchr$2=__builtin_strchr(host, 58);
-  pv = return_value___builtin_strchr$2;
-  char *tmp_post$3;
-  signed long int return_value_tcatoi$4;
+  char *return_value___builtin_strchr_2;
+  return_value___builtin_strchr_2=__builtin_strchr(host, 58);
+  pv = return_value___builtin_strchr_2;
+  char *tmp_post_3;
+  signed long int return_value_tcatoi_4;
   if(!(pv == ((char *)NULL)))
   {
-    tmp_post$3 = pv;
+    tmp_post_3 = pv;
     pv = pv + 1l;
-    *tmp_post$3 = (char)0;
+    *tmp_post_3 = (char)0;
     if((signed int)*pv >= 48)
     {
       if(!((signed int)*pv >= 58))
       {
-        return_value_tcatoi$4=tcatoi(pv);
-        port = (signed int)return_value_tcatoi$4;
+        return_value_tcatoi_4=tcatoi(pv);
+        port = (signed int)return_value_tcatoi_4;
       }
 
     }
@@ -11786,34 +11786,34 @@ _Bool ttclosesock(signed int fd)
   /* assertion fd >= 0 */
   assert(fd >= 0);
   _Bool err = (_Bool)0;
-  signed int return_value_shutdown$3;
-  return_value_shutdown$3=shutdown(fd, 2);
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$1;
-  if(!(return_value_shutdown$3 == 0))
+  signed int return_value_shutdown_3;
+  return_value_shutdown_3=shutdown(fd, 2);
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_1;
+  if(!(return_value_shutdown_3 == 0))
   {
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 107))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 107))
     {
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 104))
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 104))
         err = (_Bool)1;
 
     }
 
   }
 
-  signed int return_value_close$6;
-  return_value_close$6=close(fd);
-  signed int *return_value___errno_location$5;
-  signed int *return_value___errno_location$4;
-  if(!(return_value_close$6 == 0))
+  signed int return_value_close_6;
+  return_value_close_6=close(fd);
+  signed int *return_value___errno_location_5;
+  signed int *return_value___errno_location_4;
+  if(!(return_value_close_6 == 0))
   {
-    return_value___errno_location$5=__errno_location();
-    if(!(*return_value___errno_location$5 == 107))
+    return_value___errno_location_5=__errno_location();
+    if(!(*return_value___errno_location_5 == 107))
     {
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 104))
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 104))
         err = (_Bool)1;
 
     }
@@ -11892,11 +11892,11 @@ _Bool ttdaemonize(void)
 {
   fflush(stdout);
   fflush(stderr);
-  signed int return_value_fork$1;
-  return_value_fork$1=fork();
-  if(!(return_value_fork$1 == -1))
+  signed int return_value_fork_1;
+  return_value_fork_1=fork();
+  if(!(return_value_fork_1 == -1))
   {
-    if(return_value_fork$1 == 0)
+    if(return_value_fork_1 == 0)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -11913,18 +11913,18 @@ _Bool ttdaemonize(void)
 
 __CPROVER_DUMP_L4:
   ;
-  signed int return_value_setsid$2;
-  return_value_setsid$2=setsid();
-  if(return_value_setsid$2 == -1)
+  signed int return_value_setsid_2;
+  return_value_setsid_2=setsid();
+  if(return_value_setsid_2 == -1)
     return (_Bool)0;
 
   else
   {
-    signed int return_value_fork$3;
-    return_value_fork$3=fork();
-    if(!(return_value_fork$3 == -1))
+    signed int return_value_fork_3;
+    return_value_fork_3=fork();
+    if(!(return_value_fork_3 == -1))
     {
-      if(return_value_fork$3 == 0)
+      if(return_value_fork_3 == 0)
         goto __CPROVER_DUMP_L7;
 
     }
@@ -11942,9 +11942,9 @@ __CPROVER_DUMP_L4:
   __CPROVER_DUMP_L9:
     ;
     umask((unsigned int)0);
-    signed int return_value_chdir$4;
-    return_value_chdir$4=chdir("/");
-    if(return_value_chdir$4 == -1)
+    signed int return_value_chdir_4;
+    return_value_chdir_4=chdir("/");
+    if(return_value_chdir_4 == -1)
       return (_Bool)0;
 
     else
@@ -11985,9 +11985,9 @@ _Bool ttgethostaddr(const char *name, char *addr)
   hints.ai_canonname = (char *)(void *)0;
   hints.ai_addr = (struct sockaddr *)(void *)0;
   hints.ai_next = (struct addrinfo *)(void *)0;
-  signed int return_value_getaddrinfo$1;
-  return_value_getaddrinfo$1=getaddrinfo(name, (const char *)(void *)0, &hints, &result);
-  if(!(return_value_getaddrinfo$1 == 0))
+  signed int return_value_getaddrinfo_1;
+  return_value_getaddrinfo_1=getaddrinfo(name, (const char *)(void *)0, &hints, &result);
+  if(!(return_value_getaddrinfo_1 == 0))
   {
     *addr = (char)0;
     return (_Bool)0;
@@ -12009,9 +12009,9 @@ _Bool ttgethostaddr(const char *name, char *addr)
 
       else
       {
-        signed int return_value_getnameinfo$2;
-        return_value_getnameinfo$2=getnameinfo(result->ai_addr, result->ai_addrlen, addr, (unsigned int)1024, (char *)(void *)0, (unsigned int)0, 1);
-        if(!(return_value_getnameinfo$2 == 0))
+        signed int return_value_getnameinfo_2;
+        return_value_getnameinfo_2=getnameinfo(result->ai_addr, result->ai_addrlen, addr, (unsigned int)1024, (char *)(void *)0, (unsigned int)0, 1);
+        if(!(return_value_getnameinfo_2 == 0))
         {
           freeaddrinfo(result);
           return (_Bool)0;
@@ -12032,18 +12032,18 @@ double ttgetloadavg(void)
   double avgs[3l];
   signed int anum;
   anum=getloadavg(avgs, (signed int)(sizeof(double [3l]) /*24ul*/  / sizeof(double) /*8ul*/ ));
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   if(!(anum >= 1))
     return 0.0;
 
   else
   {
     if(anum == 1)
-      tmp_if_expr$1 = avgs[(signed long int)0];
+      tmp_if_expr_1 = avgs[(signed long int)0];
 
     else
-      tmp_if_expr$1 = avgs[(signed long int)1];
-    return tmp_if_expr$1;
+      tmp_if_expr_1 = avgs[(signed long int)1];
+    return tmp_if_expr_1;
   }
 }
 
@@ -12053,9 +12053,9 @@ _Bool ttgetlocalhostname(char *name)
 {
   /* assertion name */
   assert(name != ((char *)NULL));
-  signed int return_value_gethostname$1;
-  return_value_gethostname$1=gethostname(name, (unsigned long int)(1024 - 1));
-  if(!(return_value_gethostname$1 == 0))
+  signed int return_value_gethostname_1;
+  return_value_gethostname_1=gethostname(name, (unsigned long int)(1024 - 1));
+  if(!(return_value_gethostname_1 == 0))
   {
     sprintf(name, "localhost");
     return (_Bool)0;
@@ -12067,42 +12067,42 @@ _Bool ttgetlocalhostname(char *name)
 
 // tthttpfetch
 // file ttutil.c line 617
-signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct anonymous$25 *resheads, struct anonymous$27 *resbody)
+signed int tthttpfetch(const char *url, struct anonymous_25 *reqheads, struct anonymous_25 *resheads, struct anonymous_27 *resbody)
 {
   /* assertion url */
   assert(url != ((const char *)NULL));
   signed int code = -1;
-  struct anonymous$25 *elems;
+  struct anonymous_25 *elems;
   elems=tcurlbreak(url);
-  signed int return_value_tcstricmp$44;
-  signed long int tmp_if_expr$2;
-  signed long int return_value_tcatoi$1;
-  _Bool tmp_if_expr$6;
-  signed int return_value_tcstricmp$5;
-  _Bool tmp_if_expr$8;
-  _Bool return_value_tcstrfwm$13;
-  _Bool return_value_ttsockgets$15;
-  char *tmp_post$17;
-  signed int tmp_statement_expression$22;
-  signed int tmp_statement_expression$20;
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$32;
-  signed int return_value_ttsockgetc$31;
-  signed int tmp_post$38;
+  signed int return_value_tcstricmp_44;
+  signed long int tmp_if_expr_2;
+  signed long int return_value_tcatoi_1;
+  _Bool tmp_if_expr_6;
+  signed int return_value_tcstricmp_5;
+  _Bool tmp_if_expr_8;
+  _Bool return_value_tcstrfwm_13;
+  _Bool return_value_ttsockgets_15;
+  char *tmp_post_17;
+  signed int tmp_statement_expression_22;
+  signed int tmp_statement_expression_20;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_32;
+  signed int return_value_ttsockgetc_31;
+  signed int tmp_post_38;
   do
   {
-    struct anonymous$4 tthttpfetch$$1$$1$$__cancel_buf;
-    void (*tthttpfetch$$1$$1$$__cancel_routine)(void *) = (void (*)(void *))tcmapdel;
-    void *tthttpfetch$$1$$1$$__cancel_arg = (void *)elems;
-    signed int tthttpfetch$$1$$1$$__not_first_call;
-    tthttpfetch$$1$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch$$1$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-    if(!((signed long int)tthttpfetch$$1$$1$$__not_first_call == 0l))
+    struct anonymous_4 tthttpfetch__1__1____cancel_buf;
+    void (*tthttpfetch__1__1____cancel_routine)(void *) = (void (*)(void *))tcmapdel;
+    void *tthttpfetch__1__1____cancel_arg = (void *)elems;
+    signed int tthttpfetch__1__1____not_first_call;
+    tthttpfetch__1__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch__1__1____cancel_buf.__cancel_jmp_buf, 0);
+    if(!((signed long int)tthttpfetch__1__1____not_first_call == 0l))
     {
-      tthttpfetch$$1$$1$$__cancel_routine(tthttpfetch$$1$$1$$__cancel_arg);
-      __pthread_unwind_next(&tthttpfetch$$1$$1$$__cancel_buf);
+      tthttpfetch__1__1____cancel_routine(tthttpfetch__1__1____cancel_arg);
+      __pthread_unwind_next(&tthttpfetch__1__1____cancel_buf);
     }
 
-    __pthread_register_cancel(&tthttpfetch$$1$$1$$__cancel_buf);
+    __pthread_register_cancel(&tthttpfetch__1__1____cancel_buf);
     do
     {
       const char *scheme;
@@ -12119,8 +12119,8 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
       query=tcmapget2(elems, "query");
       if(!(scheme == ((const char *)NULL)))
       {
-        return_value_tcstricmp$44=tcstricmp(scheme, "http");
-        if(return_value_tcstricmp$44 == 0)
+        return_value_tcstricmp_44=tcstricmp(scheme, "http");
+        if(return_value_tcstricmp_44 == 0)
         {
           if(!(host == ((const char *)NULL)))
           {
@@ -12130,13 +12130,13 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
             signed int pnum;
             if(!(port == ((const char *)NULL)))
             {
-              return_value_tcatoi$1=tcatoi(port);
-              tmp_if_expr$2 = return_value_tcatoi$1;
+              return_value_tcatoi_1=tcatoi(port);
+              tmp_if_expr_2 = return_value_tcatoi_1;
             }
 
             else
-              tmp_if_expr$2 = (signed long int)80;
-            pnum = (signed int)tmp_if_expr$2;
+              tmp_if_expr_2 = (signed long int)80;
+            pnum = (signed int)tmp_if_expr_2;
             if(!(pnum >= 1))
               pnum = 80;
 
@@ -12145,62 +12145,62 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
 
             char addr[1024l];
             signed int fd;
-            _Bool return_value_ttgethostaddr$43;
-            return_value_ttgethostaddr$43=ttgethostaddr(host, addr);
-            if(!(return_value_ttgethostaddr$43 == (_Bool)0))
+            _Bool return_value_ttgethostaddr_43;
+            return_value_ttgethostaddr_43=ttgethostaddr(host, addr);
+            if(!(return_value_ttgethostaddr_43 == (_Bool)0))
             {
               fd=ttopensock(addr, pnum);
               if(!(fd == -1))
                 do
                 {
-                  struct anonymous$4 tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_buf;
-                  void (*tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_routine)(void *) = (void (*)(void *))ttclosesock;
-                  void *tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_arg = (void *)(signed long int)fd;
-                  signed int tthttpfetch$$1$$1$$2$$1$$1$$1$$__not_first_call;
-                  tthttpfetch$$1$$1$$2$$1$$1$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-                  if(!((signed long int)tthttpfetch$$1$$1$$2$$1$$1$$1$$__not_first_call == 0l))
+                  struct anonymous_4 tthttpfetch__1__1__2__1__1__1____cancel_buf;
+                  void (*tthttpfetch__1__1__2__1__1__1____cancel_routine)(void *) = (void (*)(void *))ttclosesock;
+                  void *tthttpfetch__1__1__2__1__1__1____cancel_arg = (void *)(signed long int)fd;
+                  signed int tthttpfetch__1__1__2__1__1__1____not_first_call;
+                  tthttpfetch__1__1__2__1__1__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch__1__1__2__1__1__1____cancel_buf.__cancel_jmp_buf, 0);
+                  if(!((signed long int)tthttpfetch__1__1__2__1__1__1____not_first_call == 0l))
                   {
-                    tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_routine(tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_arg);
-                    __pthread_unwind_next(&tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_buf);
+                    tthttpfetch__1__1__2__1__1__1____cancel_routine(tthttpfetch__1__1__2__1__1__1____cancel_arg);
+                    __pthread_unwind_next(&tthttpfetch__1__1__2__1__1__1____cancel_buf);
                   }
 
-                  __pthread_register_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_buf);
+                  __pthread_register_cancel(&tthttpfetch__1__1__2__1__1__1____cancel_buf);
                   do
                   {
-                    struct anonymous$17 *sock;
+                    struct anonymous_17 *sock;
                     sock=ttsocknew(fd);
                     do
                     {
-                      struct anonymous$4 tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_buf;
-                      void (*tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_routine)(void *) = (void (*)(void *))ttsockdel;
-                      void *tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_arg = (void *)sock;
-                      signed int tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__not_first_call;
-                      tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-                      if(!((signed long int)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__not_first_call == 0l))
+                      struct anonymous_4 tthttpfetch__1__1__2__1__1__1__2__1____cancel_buf;
+                      void (*tthttpfetch__1__1__2__1__1__1__2__1____cancel_routine)(void *) = (void (*)(void *))ttsockdel;
+                      void *tthttpfetch__1__1__2__1__1__1__2__1____cancel_arg = (void *)sock;
+                      signed int tthttpfetch__1__1__2__1__1__1__2__1____not_first_call;
+                      tthttpfetch__1__1__2__1__1__1__2__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch__1__1__2__1__1__1__2__1____cancel_buf.__cancel_jmp_buf, 0);
+                      if(!((signed long int)tthttpfetch__1__1__2__1__1__1__2__1____not_first_call == 0l))
                       {
-                        tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_routine(tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_arg);
-                        __pthread_unwind_next(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_buf);
+                        tthttpfetch__1__1__2__1__1__1__2__1____cancel_routine(tthttpfetch__1__1__2__1__1__1__2__1____cancel_arg);
+                        __pthread_unwind_next(&tthttpfetch__1__1__2__1__1__1__2__1____cancel_buf);
                       }
 
-                      __pthread_register_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_buf);
+                      __pthread_register_cancel(&tthttpfetch__1__1__2__1__1__1__2__1____cancel_buf);
                       do
                       {
-                        struct anonymous$27 *obuf;
+                        struct anonymous_27 *obuf;
                         obuf=tcxstrnew();
                         do
                         {
-                          struct anonymous$4 tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_buf;
-                          void (*tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_routine)(void *) = (void (*)(void *))tcxstrdel;
-                          void *tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_arg = (void *)obuf;
-                          signed int tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__not_first_call;
-                          tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-                          if(!((signed long int)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__not_first_call == 0l))
+                          struct anonymous_4 tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_buf;
+                          void (*tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_routine)(void *) = (void (*)(void *))tcxstrdel;
+                          void *tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_arg = (void *)obuf;
+                          signed int tthttpfetch__1__1__2__1__1__1__2__1__2__1____not_first_call;
+                          tthttpfetch__1__1__2__1__1__1__2__1__2__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_buf.__cancel_jmp_buf, 0);
+                          if(!((signed long int)tthttpfetch__1__1__2__1__1__1__2__1__2__1____not_first_call == 0l))
                           {
-                            tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_routine(tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_arg);
-                            __pthread_unwind_next(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_buf);
+                            tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_routine(tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_arg);
+                            __pthread_unwind_next(&tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_buf);
                           }
 
-                          __pthread_register_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_buf);
+                          __pthread_register_cancel(&tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_buf);
                           do
                           {
                             if(!(query == ((const char *)NULL)))
@@ -12217,15 +12217,15 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                             if(!(authority == ((const char *)NULL)))
                             {
                               char *enc;
-                              unsigned long int return_value_strlen$3;
-                              return_value_strlen$3=strlen(authority);
-                              enc=tcbaseencode(authority, (signed int)return_value_strlen$3);
+                              unsigned long int return_value_strlen_3;
+                              return_value_strlen_3=strlen(authority);
+                              enc=tcbaseencode(authority, (signed int)return_value_strlen_3);
                               tcxstrprintf(obuf, "Authorization: Basic %s\r\n", enc);
                               tcfree((void *)enc);
                             }
 
                             double tout = (double)-1;
-                            if(!(reqheads == ((struct anonymous$25 *)NULL)))
+                            if(!(reqheads == ((struct anonymous_25 *)NULL)))
                             {
                               tcmapiterinit(reqheads);
                               const char *name;
@@ -12235,25 +12235,25 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                                 if(name == ((const char *)NULL))
                                   break;
 
-                                char *return_value___builtin_strchr$4;
-                                return_value___builtin_strchr$4=__builtin_strchr(name, 58);
-                                if(!(return_value___builtin_strchr$4 == ((char *)NULL)))
-                                  tmp_if_expr$6 = (_Bool)1;
+                                char *return_value___builtin_strchr_4;
+                                return_value___builtin_strchr_4=__builtin_strchr(name, 58);
+                                if(!(return_value___builtin_strchr_4 == ((char *)NULL)))
+                                  tmp_if_expr_6 = (_Bool)1;
 
                                 else
                                 {
-                                  return_value_tcstricmp$5=tcstricmp(name, "connection");
-                                  tmp_if_expr$6 = !(return_value_tcstricmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+                                  return_value_tcstricmp_5=tcstricmp(name, "connection");
+                                  tmp_if_expr_6 = !(return_value_tcstricmp_5 != 0) ? (_Bool)1 : (_Bool)0;
                                 }
-                                if(!tmp_if_expr$6)
+                                if(!tmp_if_expr_6)
                                 {
-                                  signed int return_value_tcstricmp$10;
-                                  return_value_tcstricmp$10=tcstricmp(name, "x-tt-timeout");
-                                  if(return_value_tcstricmp$10 == 0)
+                                  signed int return_value_tcstricmp_10;
+                                  return_value_tcstricmp_10=tcstricmp(name, "x-tt-timeout");
+                                  if(return_value_tcstricmp_10 == 0)
                                   {
-                                    const char *return_value_tcmapget2$7;
-                                    return_value_tcmapget2$7=tcmapget2(reqheads, name);
-                                    tout=tcatof(return_value_tcmapget2$7);
+                                    const char *return_value_tcmapget2_7;
+                                    return_value_tcmapget2_7=tcmapget2(reqheads, name);
+                                    tout=tcatof(return_value_tcmapget2_7);
                                   }
 
                                   else
@@ -12277,15 +12277,15 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                                       }
 
                                       if((signed int)*wp == 45)
-                                        tmp_if_expr$8 = (_Bool)1;
+                                        tmp_if_expr_8 = (_Bool)1;
 
                                       else
-                                        tmp_if_expr$8 = (signed int)*wp == 32 ? (_Bool)1 : (_Bool)0;
-                                      head = tmp_if_expr$8;
+                                        tmp_if_expr_8 = (signed int)*wp == 32 ? (_Bool)1 : (_Bool)0;
+                                      head = tmp_if_expr_8;
                                     }
-                                    const char *return_value_tcmapget2$9;
-                                    return_value_tcmapget2$9=tcmapget2(reqheads, name);
-                                    tcxstrprintf(obuf, "%s: %s\r\n", cap, return_value_tcmapget2$9);
+                                    const char *return_value_tcmapget2_9;
+                                    return_value_tcmapget2_9=tcmapget2(reqheads, name);
+                                    tcxstrprintf(obuf, "%s: %s\r\n", cap, return_value_tcmapget2_9);
                                     tcfree((void *)cap);
                                   }
                                 }
@@ -12298,31 +12298,31 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                             if(tout > 0.000000)
                               ttsocksetlife(sock, tout);
 
-                            const void *return_value_tcxstrptr$40;
-                            return_value_tcxstrptr$40=tcxstrptr(obuf);
-                            signed int return_value_tcxstrsize$41;
-                            return_value_tcxstrsize$41=tcxstrsize(obuf);
-                            _Bool return_value_ttsocksend$42;
-                            return_value_ttsocksend$42=ttsocksend(sock, return_value_tcxstrptr$40, return_value_tcxstrsize$41);
-                            if(!(return_value_ttsocksend$42 == (_Bool)0))
+                            const void *return_value_tcxstrptr_40;
+                            return_value_tcxstrptr_40=tcxstrptr(obuf);
+                            signed int return_value_tcxstrsize_41;
+                            return_value_tcxstrsize_41=tcxstrsize(obuf);
+                            _Bool return_value_ttsocksend_42;
+                            return_value_ttsocksend_42=ttsocksend(sock, return_value_tcxstrptr_40, return_value_tcxstrsize_41);
+                            if(!(return_value_ttsocksend_42 == (_Bool)0))
                             {
                               char line[4096l];
-                              _Bool return_value_ttsockgets$14;
-                              return_value_ttsockgets$14=ttsockgets(sock, line, 4096);
-                              if(!(return_value_ttsockgets$14 == (_Bool)0))
+                              _Bool return_value_ttsockgets_14;
+                              return_value_ttsockgets_14=ttsockgets(sock, line, 4096);
+                              if(!(return_value_ttsockgets_14 == (_Bool)0))
                               {
-                                return_value_tcstrfwm$13=tcstrfwm(line, "HTTP/");
-                                if(!(return_value_tcstrfwm$13 == (_Bool)0))
+                                return_value_tcstrfwm_13=tcstrfwm(line, "HTTP/");
+                                if(!(return_value_tcstrfwm_13 == (_Bool)0))
                                 {
                                   tcstrsqzspc(line);
                                   const char *rp;
-                                  char *return_value___builtin_strchr$11;
-                                  return_value___builtin_strchr$11=__builtin_strchr(line, 32);
-                                  rp = return_value___builtin_strchr$11;
-                                  signed long int return_value_tcatoi$12;
-                                  return_value_tcatoi$12=tcatoi(rp + (signed long int)1);
-                                  code = (signed int)return_value_tcatoi$12;
-                                  if(!(resheads == ((struct anonymous$25 *)NULL)))
+                                  char *return_value___builtin_strchr_11;
+                                  return_value___builtin_strchr_11=__builtin_strchr(line, 32);
+                                  rp = return_value___builtin_strchr_11;
+                                  signed long int return_value_tcatoi_12;
+                                  return_value_tcatoi_12=tcatoi(rp + (signed long int)1);
+                                  code = (signed int)return_value_tcatoi_12;
+                                  if(!(resheads == ((struct anonymous_25 *)NULL)))
                                     tcmapput2(resheads, "STATUS", line);
 
                                 }
@@ -12335,8 +12335,8 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                                 _Bool chunked = (_Bool)0;
                                 do
                                 {
-                                  return_value_ttsockgets$15=ttsockgets(sock, line, 4096);
-                                  if(return_value_ttsockgets$15 == (_Bool)0)
+                                  return_value_ttsockgets_15=ttsockgets(sock, line, 4096);
+                                  if(return_value_ttsockgets_15 == (_Bool)0)
                                     break;
 
                                   if((signed int)line[0l] == 0)
@@ -12344,99 +12344,99 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
 
                                   tcstrsqzspc(line);
                                   char *pv;
-                                  char *return_value___builtin_strchr$16;
-                                  return_value___builtin_strchr$16=__builtin_strchr(line, 58);
-                                  pv = return_value___builtin_strchr$16;
+                                  char *return_value___builtin_strchr_16;
+                                  return_value___builtin_strchr_16=__builtin_strchr(line, 58);
+                                  pv = return_value___builtin_strchr_16;
                                   if(!(pv == ((char *)NULL)))
                                   {
-                                    tmp_post$17 = pv;
+                                    tmp_post_17 = pv;
                                     pv = pv + 1l;
-                                    *tmp_post$17 = (char)0;
+                                    *tmp_post_17 = (char)0;
                                     for( ; (signed int)*pv == 32; pv = pv + 1l)
                                       ;
                                     tcstrtolower(line);
                                     unsigned long int __s1_len;
                                     unsigned long int __s2_len;
-                                    signed int return_value___builtin_strcmp$23;
-                                    return_value___builtin_strcmp$23=__builtin_strcmp(line, "content-length");
-                                    tmp_statement_expression$22 = return_value___builtin_strcmp$23;
-                                    if(tmp_statement_expression$22 == 0)
+                                    signed int return_value___builtin_strcmp_23;
+                                    return_value___builtin_strcmp_23=__builtin_strcmp(line, "content-length");
+                                    tmp_statement_expression_22 = return_value___builtin_strcmp_23;
+                                    if(tmp_statement_expression_22 == 0)
                                     {
-                                      signed long int return_value_tcatoi$18;
-                                      return_value_tcatoi$18=tcatoi(pv);
-                                      clen = (signed int)return_value_tcatoi$18;
+                                      signed long int return_value_tcatoi_18;
+                                      return_value_tcatoi_18=tcatoi(pv);
+                                      clen = (signed int)return_value_tcatoi_18;
                                     }
 
                                     else
                                     {
-                                      unsigned long int tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$1$$4$$__s1_len;
-                                      unsigned long int tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$1$$4$$__s2_len;
-                                      signed int return_value___builtin_strcmp$21;
-                                      return_value___builtin_strcmp$21=__builtin_strcmp(line, "transfer-encoding");
-                                      tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-                                      if(tmp_statement_expression$20 == 0)
+                                      unsigned long int tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__1__4____s1_len;
+                                      unsigned long int tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__1__4____s2_len;
+                                      signed int return_value___builtin_strcmp_21;
+                                      return_value___builtin_strcmp_21=__builtin_strcmp(line, "transfer-encoding");
+                                      tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+                                      if(tmp_statement_expression_20 == 0)
                                       {
-                                        signed int return_value_tcstricmp$19;
-                                        return_value_tcstricmp$19=tcstricmp(pv, "chunked");
-                                        if(return_value_tcstricmp$19 == 0)
+                                        signed int return_value_tcstricmp_19;
+                                        return_value_tcstricmp_19=tcstricmp(pv, "chunked");
+                                        if(return_value_tcstricmp_19 == 0)
                                           chunked = (_Bool)1;
 
                                       }
 
                                     }
-                                    if(!(resheads == ((struct anonymous$25 *)NULL)))
+                                    if(!(resheads == ((struct anonymous_25 *)NULL)))
                                       tcmapput2(resheads, line, pv);
 
                                   }
 
                                 }
                                 while((_Bool)1);
-                                _Bool return_value_ttsockcheckend$39;
-                                return_value_ttsockcheckend$39=ttsockcheckend(sock);
-                                if(return_value_ttsockcheckend$39 == (_Bool)0)
+                                _Bool return_value_ttsockcheckend_39;
+                                return_value_ttsockcheckend_39=ttsockcheckend(sock);
+                                if(return_value_ttsockcheckend_39 == (_Bool)0)
                                 {
-                                  if(!(resbody == ((struct anonymous$27 *)NULL)))
+                                  if(!(resbody == ((struct anonymous_27 *)NULL)))
                                   {
                                     _Bool err = (_Bool)0;
                                     char *body;
                                     signed int bsiz;
                                     if(code == 304)
                                     {
-                                      void *return_value_tcmemdup$24;
-                                      return_value_tcmemdup$24=tcmemdup((const void *)"", (unsigned long int)0);
-                                      body = (char *)return_value_tcmemdup$24;
+                                      void *return_value_tcmemdup_24;
+                                      return_value_tcmemdup_24=tcmemdup((const void *)"", (unsigned long int)0);
+                                      body = (char *)return_value_tcmemdup_24;
                                       bsiz = 0;
                                     }
 
                                     else
                                       if(!(chunked == (_Bool)0))
                                       {
-                                        signed int tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$asiz = 4096;
-                                        void *return_value_tcmalloc$25;
-                                        return_value_tcmalloc$25=tcmalloc((unsigned long int)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$asiz);
-                                        body = (char *)return_value_tcmalloc$25;
+                                        signed int tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__asiz = 4096;
+                                        void *return_value_tcmalloc_25;
+                                        return_value_tcmalloc_25=tcmalloc((unsigned long int)tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__asiz);
+                                        body = (char *)return_value_tcmalloc_25;
                                         bsiz = 0;
                                         while((_Bool)1)
                                         {
                                           do
                                           {
-                                            struct anonymous$4 tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__cancel_buf;
-                                            void (*tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__cancel_routine)(void *) = free;
-                                            void *tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__cancel_arg = (void *)body;
-                                            signed int tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__not_first_call;
-                                            tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-                                            if(!((signed long int)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__not_first_call == 0l))
+                                            struct anonymous_4 tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____cancel_buf;
+                                            void (*tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____cancel_routine)(void *) = free;
+                                            void *tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____cancel_arg = (void *)body;
+                                            signed int tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____not_first_call;
+                                            tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____cancel_buf.__cancel_jmp_buf, 0);
+                                            if(!((signed long int)tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____not_first_call == 0l))
                                             {
-                                              tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__cancel_routine(tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__cancel_arg);
-                                              __pthread_unwind_next(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__cancel_buf);
+                                              tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____cancel_routine(tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____cancel_arg);
+                                              __pthread_unwind_next(&tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____cancel_buf);
                                             }
 
-                                            __pthread_register_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__cancel_buf);
+                                            __pthread_register_cancel(&tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____cancel_buf);
                                             do
                                             {
-                                              _Bool return_value_ttsockgets$26;
-                                              return_value_ttsockgets$26=ttsockgets(sock, line, 4096);
-                                              if(return_value_ttsockgets$26 == (_Bool)0)
+                                              _Bool return_value_ttsockgets_26;
+                                              return_value_ttsockgets_26=ttsockgets(sock, line, 4096);
+                                              if(return_value_ttsockgets_26 == (_Bool)0)
                                                 err = (_Bool)1;
 
 
@@ -12444,38 +12444,38 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                                               ;
                                             }
                                             while((_Bool)0);
-                                            __pthread_unregister_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$1$$1$$__cancel_buf);
+                                            __pthread_unregister_cancel(&tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__1__1____cancel_buf);
                                           }
                                           while((_Bool)0);
                                           if(!(err == (_Bool)0))
-                                            tmp_if_expr$27 = (_Bool)1;
+                                            tmp_if_expr_27 = (_Bool)1;
 
                                           else
-                                            tmp_if_expr$27 = (signed int)line[0l] == 0 ? (_Bool)1 : (_Bool)0;
-                                          if(tmp_if_expr$27)
+                                            tmp_if_expr_27 = (signed int)line[0l] == 0 ? (_Bool)1 : (_Bool)0;
+                                          if(tmp_if_expr_27)
                                             break;
 
                                           signed int size;
-                                          signed long int return_value_tcatoih$28;
-                                          return_value_tcatoih$28=tcatoih(line);
-                                          size = (signed int)return_value_tcatoih$28;
+                                          signed long int return_value_tcatoih_28;
+                                          return_value_tcatoih_28=tcatoih(line);
+                                          size = (signed int)return_value_tcatoih_28;
                                           if(size + bsiz >= 268435457)
                                           {
                                             err = (_Bool)1;
                                             break;
                                           }
 
-                                          if(!(tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$asiz >= size + bsiz))
+                                          if(!(tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__asiz >= size + bsiz))
                                           {
-                                            tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$asiz = bsiz * 2 + size;
-                                            void *return_value_tcrealloc$29;
-                                            return_value_tcrealloc$29=tcrealloc((void *)body, (unsigned long int)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$2$$asiz);
-                                            body = (char *)return_value_tcrealloc$29;
+                                            tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__asiz = bsiz * 2 + size;
+                                            void *return_value_tcrealloc_29;
+                                            return_value_tcrealloc_29=tcrealloc((void *)body, (unsigned long int)tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__2__asiz);
+                                            body = (char *)return_value_tcrealloc_29;
                                           }
 
                                           do
                                           {
-                                            struct anonymous$4 __cancel_buf;
+                                            struct anonymous_4 __cancel_buf;
                                             void (*__cancel_routine)(void *) = free;
                                             void *__cancel_arg = (void *)body;
                                             signed int __not_first_call;
@@ -12492,17 +12492,17 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                                               if(size >= 1)
                                                 ttsockrecv(sock, body + (signed long int)bsiz, size);
 
-                                              signed int return_value_ttsockgetc$30;
-                                              return_value_ttsockgetc$30=ttsockgetc(sock);
-                                              if(!(return_value_ttsockgetc$30 == 13))
-                                                tmp_if_expr$32 = (_Bool)1;
+                                              signed int return_value_ttsockgetc_30;
+                                              return_value_ttsockgetc_30=ttsockgetc(sock);
+                                              if(!(return_value_ttsockgetc_30 == 13))
+                                                tmp_if_expr_32 = (_Bool)1;
 
                                               else
                                               {
-                                                return_value_ttsockgetc$31=ttsockgetc(sock);
-                                                tmp_if_expr$32 = return_value_ttsockgetc$31 != 10 ? (_Bool)1 : (_Bool)0;
+                                                return_value_ttsockgetc_31=ttsockgetc(sock);
+                                                tmp_if_expr_32 = return_value_ttsockgetc_31 != 10 ? (_Bool)1 : (_Bool)0;
                                               }
-                                              if(tmp_if_expr$32)
+                                              if(tmp_if_expr_32)
                                                 err = (_Bool)1;
 
 
@@ -12525,38 +12525,38 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                                         {
                                           if(clen >= 268435457)
                                           {
-                                            void *return_value_tcmemdup$33;
-                                            return_value_tcmemdup$33=tcmemdup((const void *)"", (unsigned long int)0);
-                                            body = (char *)return_value_tcmemdup$33;
+                                            void *return_value_tcmemdup_33;
+                                            return_value_tcmemdup_33=tcmemdup((const void *)"", (unsigned long int)0);
+                                            body = (char *)return_value_tcmemdup_33;
                                             bsiz = 0;
                                             err = (_Bool)1;
                                           }
 
                                           else
                                           {
-                                            void *return_value_tcmalloc$34;
-                                            return_value_tcmalloc$34=tcmalloc((unsigned long int)clen);
-                                            body = (char *)return_value_tcmalloc$34;
+                                            void *return_value_tcmalloc_34;
+                                            return_value_tcmalloc_34=tcmalloc((unsigned long int)clen);
+                                            body = (char *)return_value_tcmalloc_34;
                                             bsiz = 0;
                                             do
                                             {
-                                              struct anonymous$4 tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__cancel_buf;
-                                              void (*tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__cancel_routine)(void *) = free;
-                                              void *tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__cancel_arg = (void *)body;
-                                              signed int tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__not_first_call;
-                                              tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-                                              if(!((signed long int)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__not_first_call == 0l))
+                                              struct anonymous_4 tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____cancel_buf;
+                                              void (*tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____cancel_routine)(void *) = free;
+                                              void *tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____cancel_arg = (void *)body;
+                                              signed int tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____not_first_call;
+                                              tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____cancel_buf.__cancel_jmp_buf, 0);
+                                              if(!((signed long int)tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____not_first_call == 0l))
                                               {
-                                                tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__cancel_routine(tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__cancel_arg);
-                                                __pthread_unwind_next(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__cancel_buf);
+                                                tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____cancel_routine(tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____cancel_arg);
+                                                __pthread_unwind_next(&tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____cancel_buf);
                                               }
 
-                                              __pthread_register_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__cancel_buf);
+                                              __pthread_register_cancel(&tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____cancel_buf);
                                               do
                                               {
-                                                _Bool return_value_ttsockrecv$35;
-                                                return_value_ttsockrecv$35=ttsockrecv(sock, body, clen);
-                                                if(!(return_value_ttsockrecv$35 == (_Bool)0))
+                                                _Bool return_value_ttsockrecv_35;
+                                                return_value_ttsockrecv_35=ttsockrecv(sock, body, clen);
+                                                if(!(return_value_ttsockrecv_35 == (_Bool)0))
                                                   bsiz = clen;
 
                                                 else
@@ -12566,7 +12566,7 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                                                 ;
                                               }
                                               while((_Bool)0);
-                                              __pthread_unregister_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$3$$2$$1$$__cancel_buf);
+                                              __pthread_unregister_cancel(&tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__3__2__1____cancel_buf);
                                             }
                                             while((_Bool)0);
                                           }
@@ -12575,27 +12575,27 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                                         else
                                         {
                                           signed int asiz = 4096;
-                                          void *return_value_tcmalloc$36;
-                                          return_value_tcmalloc$36=tcmalloc((unsigned long int)asiz);
-                                          body = (char *)return_value_tcmalloc$36;
+                                          void *return_value_tcmalloc_36;
+                                          return_value_tcmalloc_36=tcmalloc((unsigned long int)asiz);
+                                          body = (char *)return_value_tcmalloc_36;
                                           bsiz = 0;
                                           while((_Bool)1)
                                           {
                                             signed int c;
                                             do
                                             {
-                                              struct anonymous$4 tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__cancel_buf;
-                                              void (*tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__cancel_routine)(void *) = free;
-                                              void *tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__cancel_arg = (void *)body;
-                                              signed int tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__not_first_call;
-                                              tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-                                              if(!((signed long int)tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__not_first_call == 0l))
+                                              struct anonymous_4 tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____cancel_buf;
+                                              void (*tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____cancel_routine)(void *) = free;
+                                              void *tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____cancel_arg = (void *)body;
+                                              signed int tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____not_first_call;
+                                              tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____cancel_buf.__cancel_jmp_buf, 0);
+                                              if(!((signed long int)tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____not_first_call == 0l))
                                               {
-                                                tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__cancel_routine(tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__cancel_arg);
-                                                __pthread_unwind_next(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__cancel_buf);
+                                                tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____cancel_routine(tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____cancel_arg);
+                                                __pthread_unwind_next(&tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____cancel_buf);
                                               }
 
-                                              __pthread_register_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__cancel_buf);
+                                              __pthread_register_cancel(&tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____cancel_buf);
                                               do
                                               {
                                                 c=ttsockgetc(sock);
@@ -12604,7 +12604,7 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                                                 ;
                                               }
                                               while((_Bool)0);
-                                              __pthread_unregister_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$2$$7$$2$$2$$4$$1$$1$$__cancel_buf);
+                                              __pthread_unregister_cancel(&tthttpfetch__1__1__2__1__1__1__2__1__2__1__2__7__2__2__4__1__1____cancel_buf);
                                             }
                                             while((_Bool)0);
                                             if(c == -1)
@@ -12619,21 +12619,21 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                                             if(bsiz >= asiz)
                                             {
                                               asiz = bsiz * 2;
-                                              void *return_value_tcrealloc$37;
-                                              return_value_tcrealloc$37=tcrealloc((void *)body, (unsigned long int)asiz);
-                                              body = (char *)return_value_tcrealloc$37;
+                                              void *return_value_tcrealloc_37;
+                                              return_value_tcrealloc_37=tcrealloc((void *)body, (unsigned long int)asiz);
+                                              body = (char *)return_value_tcrealloc_37;
                                             }
 
-                                            tmp_post$38 = bsiz;
+                                            tmp_post_38 = bsiz;
                                             bsiz = bsiz + 1;
-                                            body[(signed long int)tmp_post$38] = (char)c;
+                                            body[(signed long int)tmp_post_38] = (char)c;
                                           }
                                         }
                                     if(!(err == (_Bool)0))
                                       code = -1;
 
                                     else
-                                      if(!(resbody == ((struct anonymous$27 *)NULL)))
+                                      if(!(resbody == ((struct anonymous_27 *)NULL)))
                                         tcxstrcat(resbody, (const void *)body, bsiz);
 
                                     tcfree((void *)body);
@@ -12650,8 +12650,8 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                             ;
                           }
                           while((_Bool)0);
-                          __pthread_unregister_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_buf);
-                          tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_routine(tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$2$$1$$__cancel_arg);
+                          __pthread_unregister_cancel(&tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_buf);
+                          tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_routine(tthttpfetch__1__1__2__1__1__1__2__1__2__1____cancel_arg);
                         }
                         while((_Bool)0);
 
@@ -12659,8 +12659,8 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                         ;
                       }
                       while((_Bool)0);
-                      __pthread_unregister_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_buf);
-                      tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_routine(tthttpfetch$$1$$1$$2$$1$$1$$1$$2$$1$$__cancel_arg);
+                      __pthread_unregister_cancel(&tthttpfetch__1__1__2__1__1__1__2__1____cancel_buf);
+                      tthttpfetch__1__1__2__1__1__1__2__1____cancel_routine(tthttpfetch__1__1__2__1__1__1__2__1____cancel_arg);
                     }
                     while((_Bool)0);
 
@@ -12668,8 +12668,8 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
                     ;
                   }
                   while((_Bool)0);
-                  __pthread_unregister_cancel(&tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_buf);
-                  tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_routine(tthttpfetch$$1$$1$$2$$1$$1$$1$$__cancel_arg);
+                  __pthread_unregister_cancel(&tthttpfetch__1__1__2__1__1__1____cancel_buf);
+                  tthttpfetch__1__1__2__1__1__1____cancel_routine(tthttpfetch__1__1__2__1__1__1____cancel_arg);
                 }
                 while((_Bool)0);
 
@@ -12686,8 +12686,8 @@ signed int tthttpfetch(const char *url, struct anonymous$25 *reqheads, struct an
       ;
     }
     while((_Bool)0);
-    __pthread_unregister_cancel(&tthttpfetch$$1$$1$$__cancel_buf);
-    tthttpfetch$$1$$1$$__cancel_routine(tthttpfetch$$1$$1$$__cancel_arg);
+    __pthread_unregister_cancel(&tthttpfetch__1__1____cancel_buf);
+    tthttpfetch__1__1____cancel_routine(tthttpfetch__1__1____cancel_arg);
   }
   while((_Bool)0);
   return code;
@@ -12702,12 +12702,12 @@ signed int ttopenservsock(const char *addr, signed int port)
   struct sockaddr_in sain;
   memset((void *)&sain, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   sain.sin_family = (unsigned short int)2;
-  signed int return_value_inet_aton$1;
-  return_value_inet_aton$1=inet_aton(addr != ((const char *)NULL) ? addr : "0.0.0.0", &sain.sin_addr);
-  unsigned short int tmp_statement_expression$2;
-  _Bool tmp_if_expr$6;
-  signed int return_value_listen$5;
-  if(return_value_inet_aton$1 == 0)
+  signed int return_value_inet_aton_1;
+  return_value_inet_aton_1=inet_aton(addr != ((const char *)NULL) ? addr : "0.0.0.0", &sain.sin_addr);
+  unsigned short int tmp_statement_expression_2;
+  _Bool tmp_if_expr_6;
+  signed int return_value_listen_5;
+  if(return_value_inet_aton_1 == 0)
     return -1;
 
   else
@@ -12715,9 +12715,9 @@ signed int ttopenservsock(const char *addr, signed int port)
     unsigned short int snum = (unsigned short int)port;
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)snum;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    sain.sin_port = tmp_statement_expression$2;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = __v;
+    sain.sin_port = tmp_statement_expression_2;
     signed int fd;
     fd=socket(2, 1, 0);
     if(fd == -1)
@@ -12726,9 +12726,9 @@ signed int ttopenservsock(const char *addr, signed int port)
     else
     {
       signed int optint = 1;
-      signed int return_value_setsockopt$3;
-      return_value_setsockopt$3=setsockopt(fd, 1, 2, (const void *)(char *)&optint, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_setsockopt$3 == 0))
+      signed int return_value_setsockopt_3;
+      return_value_setsockopt_3=setsockopt(fd, 1, 2, (const void *)(char *)&optint, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_setsockopt_3 == 0))
       {
         close(fd);
         return -1;
@@ -12736,17 +12736,17 @@ signed int ttopenservsock(const char *addr, signed int port)
 
       else
       {
-        signed int return_value_bind$4;
-        return_value_bind$4=bind(fd, (struct sockaddr *)&sain, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-        if(!(return_value_bind$4 == 0))
-          tmp_if_expr$6 = (_Bool)1;
+        signed int return_value_bind_4;
+        return_value_bind_4=bind(fd, (struct sockaddr *)&sain, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+        if(!(return_value_bind_4 == 0))
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value_listen$5=listen(fd, 128);
-          tmp_if_expr$6 = return_value_listen$5 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_listen_5=listen(fd, 128);
+          tmp_if_expr_6 = return_value_listen_5 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
         {
           close(fd);
           return -1;
@@ -12765,8 +12765,8 @@ signed int ttopenservsockunix(const char *path)
 {
   /* assertion path */
   assert(path != ((const char *)NULL));
-  _Bool tmp_if_expr$3;
-  signed int return_value_listen$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_listen_2;
   if((signed int)*path == 0)
     return -1;
 
@@ -12783,17 +12783,17 @@ signed int ttopenservsockunix(const char *path)
 
     else
     {
-      signed int return_value_bind$1;
-      return_value_bind$1=bind(fd, (struct sockaddr *)&saun, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-      if(!(return_value_bind$1 == 0))
-        tmp_if_expr$3 = (_Bool)1;
+      signed int return_value_bind_1;
+      return_value_bind_1=bind(fd, (struct sockaddr *)&saun, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+      if(!(return_value_bind_1 == 0))
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_listen$2=listen(fd, 128);
-        tmp_if_expr$3 = return_value_listen$2 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_listen_2=listen(fd, 128);
+        tmp_if_expr_3 = return_value_listen_2 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
       {
         close(fd);
         return -1;
@@ -12814,11 +12814,11 @@ signed int ttopensock(const char *addr, signed int port)
   struct sockaddr_in sain;
   memset((void *)&sain, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   sain.sin_family = (unsigned short int)2;
-  signed int return_value_inet_aton$1;
-  return_value_inet_aton$1=inet_aton(addr, &sain.sin_addr);
-  unsigned short int tmp_statement_expression$2;
-  double return_value_tctime$4;
-  if(return_value_inet_aton$1 == 0)
+  signed int return_value_inet_aton_1;
+  return_value_inet_aton_1=inet_aton(addr, &sain.sin_addr);
+  unsigned short int tmp_statement_expression_2;
+  double return_value_tctime_4;
+  if(return_value_inet_aton_1 == 0)
     return -1;
 
   else
@@ -12826,9 +12826,9 @@ signed int ttopensock(const char *addr, signed int port)
     unsigned short int snum = (unsigned short int)port;
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)snum;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    sain.sin_port = tmp_statement_expression$2;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = __v;
+    sain.sin_port = tmp_statement_expression_2;
     signed int fd;
     fd=socket(2, 1, 0);
     if(fd == -1)
@@ -12848,9 +12848,9 @@ signed int ttopensock(const char *addr, signed int port)
       optint = 1;
       setsockopt(fd, 6, 1, (const void *)(char *)&optint, (unsigned int)sizeof(signed int) /*4ul*/ );
       double dl;
-      double return_value_tctime$3;
-      return_value_tctime$3=tctime();
-      dl = return_value_tctime$3 + 5.0;
+      double return_value_tctime_3;
+      return_value_tctime_3=tctime();
+      dl = return_value_tctime_3 + 5.0;
       do
       {
         signed int ocs = 1;
@@ -12858,9 +12858,9 @@ signed int ttopensock(const char *addr, signed int port)
         signed int rv;
         rv=connect(fd, (struct sockaddr *)&sain, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
         signed int en;
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        en = *return_value___errno_location$5;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        en = *return_value___errno_location_5;
         pthread_setcancelstate(ocs, (signed int *)(void *)0);
         if(rv == 0)
           return fd;
@@ -12868,9 +12868,9 @@ signed int ttopensock(const char *addr, signed int port)
         if(!(en == 4) && !(en == 11) && !(en == 110) && !(en == 114) && !(en == 115))
           break;
 
-        return_value_tctime$4=tctime();
+        return_value_tctime_4=tctime();
       }
-      while(return_value_tctime$4 <= dl);
+      while(return_value_tctime_4 <= dl);
       close(fd);
       return -1;
     }
@@ -12889,7 +12889,7 @@ signed int ttopensockunix(const char *path)
   snprintf(saun.sun_path, (unsigned long int)108, "%s", path);
   signed int fd;
   fd=socket(1, 1, 0);
-  double return_value_tctime$2;
+  double return_value_tctime_2;
   if(fd == -1)
     return -1;
 
@@ -12905,9 +12905,9 @@ signed int ttopensockunix(const char *path)
     opttv.tv_usec = (signed long int)((0.25 - (double)(signed int)0.25) * (double)1000000);
     setsockopt(fd, 1, 21, (const void *)(char *)&opttv, (unsigned int)sizeof(struct timeval) /*16ul*/ );
     double dl;
-    double return_value_tctime$1;
-    return_value_tctime$1=tctime();
-    dl = return_value_tctime$1 + 5.0;
+    double return_value_tctime_1;
+    return_value_tctime_1=tctime();
+    dl = return_value_tctime_1 + 5.0;
     do
     {
       signed int ocs = 1;
@@ -12915,9 +12915,9 @@ signed int ttopensockunix(const char *path)
       signed int rv;
       rv=connect(fd, (struct sockaddr *)&saun, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
       signed int en;
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      en = *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      en = *return_value___errno_location_3;
       pthread_setcancelstate(ocs, (signed int *)(void *)0);
       if(rv == 0)
         return fd;
@@ -12925,9 +12925,9 @@ signed int ttopensockunix(const char *path)
       if(!(en == 4) && !(en == 11) && !(en == 110) && !(en == 114) && !(en == 115))
         break;
 
-      return_value_tctime$2=tctime();
+      return_value_tctime_2=tctime();
     }
-    while(return_value_tctime$2 <= dl);
+    while(return_value_tctime_2 <= dl);
     close(fd);
     return -1;
   }
@@ -12944,10 +12944,10 @@ void ttpackdouble(double num, char *buf)
   dfract=modf(num, &dinteg);
   signed long int linteg;
   signed long int lfract;
-  signed int return_value___fpclassify$2;
-  return_value___fpclassify$2=__fpclassify(dinteg);
-  signed int return_value___isinf$1;
-  if(return_value___fpclassify$2 == 4 || IEEE_FLOAT_EQUAL(dinteg, 0.000000))
+  signed int return_value___fpclassify_2;
+  return_value___fpclassify_2=__fpclassify(dinteg);
+  signed int return_value___isinf_1;
+  if(return_value___fpclassify_2 == 4 || IEEE_FLOAT_EQUAL(dinteg, 0.000000))
   {
     linteg = (signed long int)dinteg;
     lfract = (signed long int)(dfract * (double)1000000000000);
@@ -12955,8 +12955,8 @@ void ttpackdouble(double num, char *buf)
 
   else
   {
-    return_value___isinf$1=__isinf(dinteg);
-    if(!(return_value___isinf$1 == 0))
+    return_value___isinf_1=__isinf(dinteg);
+    if(!(return_value___isinf_1 == 0))
     {
       linteg = dinteg > (double)0 ? 9223372036854775807L : -9223372036854775807L - (signed long int)1;
       lfract = (signed long int)0;
@@ -12998,16 +12998,16 @@ _Bool ttservconf(struct _TTSERV *serv, const char *host, signed int port)
   /* assertion serv */
   assert(serv != ((struct _TTSERV *)NULL));
   _Bool err = (_Bool)0;
-  _Bool tmp_if_expr$1;
-  _Bool return_value_ttgethostaddr$2;
+  _Bool tmp_if_expr_1;
+  _Bool return_value_ttgethostaddr_2;
   if(!(port >= 1))
   {
     if(host == ((const char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)host[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)host[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       err = (_Bool)1;
       serv->addr[(signed long int)0] = (char)0;
@@ -13019,8 +13019,8 @@ _Bool ttservconf(struct _TTSERV *serv, const char *host, signed int port)
   else
     if(!(host == ((const char *)NULL)))
     {
-      return_value_ttgethostaddr$2=ttgethostaddr(host, serv->addr);
-      if(return_value_ttgethostaddr$2 == (_Bool)0)
+      return_value_ttgethostaddr_2=ttgethostaddr(host, serv->addr);
+      if(return_value_ttgethostaddr_2 == (_Bool)0)
       {
         err = (_Bool)1;
         serv->addr[(signed long int)0] = (char)0;
@@ -13055,41 +13055,41 @@ static void * ttservdeqtasks(void *argp)
   struct _TTREQ *req = (struct _TTREQ *)argp;
   struct _TTSERV *serv = req->serv;
   _Bool err = (_Bool)0;
-  signed int return_value_pthread_setcancelstate$1;
-  return_value_pthread_setcancelstate$1=pthread_setcancelstate(1, (signed int *)(void *)0);
-  if(!(return_value_pthread_setcancelstate$1 == 0))
+  signed int return_value_pthread_setcancelstate_1;
+  return_value_pthread_setcancelstate_1=pthread_setcancelstate(1, (signed int *)(void *)0);
+  if(!(return_value_pthread_setcancelstate_1 == 0))
   {
     err = (_Bool)1;
     ttservlog(serv, 2, "pthread_setcancelstate failed");
   }
 
-  struct anonymous$31 sigset;
+  struct anonymous_31 sigset;
   sigemptyset(&sigset);
   sigaddset(&sigset, 13);
-  struct anonymous$31 oldsigset;
+  struct anonymous_31 oldsigset;
   sigemptyset(&sigset);
-  signed int return_value_pthread_sigmask$2;
-  return_value_pthread_sigmask$2=pthread_sigmask(0, &sigset, &oldsigset);
-  if(!(return_value_pthread_sigmask$2 == 0))
+  signed int return_value_pthread_sigmask_2;
+  return_value_pthread_sigmask_2=pthread_sigmask(0, &sigset, &oldsigset);
+  if(!(return_value_pthread_sigmask_2 == 0))
   {
     err = (_Bool)1;
     ttservlog(serv, 2, "pthread_sigmask failed");
   }
 
   _Bool empty = (_Bool)0;
-  signed int tmp_if_expr$5;
-  signed int return_value_pthread_cond_timedwait$4;
+  signed int tmp_if_expr_5;
+  signed int return_value_pthread_cond_timedwait_4;
   while(serv->term == (_Bool)0)
   {
-    signed int return_value_pthread_mutex_lock$11;
-    return_value_pthread_mutex_lock$11=pthread_mutex_lock(&serv->qmtx);
-    if(return_value_pthread_mutex_lock$11 == 0)
+    signed int return_value_pthread_mutex_lock_11;
+    return_value_pthread_mutex_lock_11=pthread_mutex_lock(&serv->qmtx);
+    if(return_value_pthread_mutex_lock_11 == 0)
     {
       struct timeval tv;
       struct timespec ts;
-      signed int return_value_gettimeofday$3;
-      return_value_gettimeofday$3=gettimeofday(&tv, (struct timezone *)(void *)0);
-      if(return_value_gettimeofday$3 == 0)
+      signed int return_value_gettimeofday_3;
+      return_value_gettimeofday_3=gettimeofday(&tv, (struct timezone *)(void *)0);
+      if(return_value_gettimeofday_3 == 0)
       {
         ts.tv_sec = tv.tv_sec;
         ts.tv_nsec = (signed long int)((double)tv.tv_usec * 1000.0 + 0.2 * 1000000000.0);
@@ -13109,22 +13109,22 @@ static void * ttservdeqtasks(void *argp)
       signed int code;
       if(!(empty == (_Bool)0))
       {
-        return_value_pthread_cond_timedwait$4=pthread_cond_timedwait(&serv->qcnd, &serv->qmtx, &ts);
-        tmp_if_expr$5 = return_value_pthread_cond_timedwait$4;
+        return_value_pthread_cond_timedwait_4=pthread_cond_timedwait(&serv->qcnd, &serv->qmtx, &ts);
+        tmp_if_expr_5 = return_value_pthread_cond_timedwait_4;
       }
 
       else
-        tmp_if_expr$5 = 0;
-      code = tmp_if_expr$5;
+        tmp_if_expr_5 = 0;
+      code = tmp_if_expr_5;
       if(code == 0 || code == 4 || code == 110)
       {
         void *val;
-        char *return_value_tclistshift2$6;
-        return_value_tclistshift2$6=tclistshift2(serv->queue);
-        val = (void *)return_value_tclistshift2$6;
-        signed int return_value_pthread_mutex_unlock$7;
-        return_value_pthread_mutex_unlock$7=pthread_mutex_unlock(&serv->qmtx);
-        if(!(return_value_pthread_mutex_unlock$7 == 0))
+        char *return_value_tclistshift2_6;
+        return_value_tclistshift2_6=tclistshift2(serv->queue);
+        val = (void *)return_value_tclistshift2_6;
+        signed int return_value_pthread_mutex_unlock_7;
+        return_value_pthread_mutex_unlock_7=pthread_mutex_unlock(&serv->qmtx);
+        if(!(return_value_pthread_mutex_unlock_7 == 0))
         {
           err = (_Bool)1;
           ttservlog(serv, 2, "pthread_mutex_unlock failed");
@@ -13137,7 +13137,7 @@ static void * ttservdeqtasks(void *argp)
           tcfree(val);
           do
           {
-            struct anonymous$4 __cancel_buf;
+            struct anonymous_4 __cancel_buf;
             void (*__cancel_routine)(void *) = (void (*)(void *))close;
             void *__cancel_arg = (void *)(signed long int)cfd;
             signed int __not_first_call;
@@ -13151,22 +13151,22 @@ static void * ttservdeqtasks(void *argp)
             __pthread_register_cancel(&__cancel_buf);
             do
             {
-              struct anonymous$17 *sock;
+              struct anonymous_17 *sock;
               sock=ttsocknew(cfd);
               do
               {
-                struct anonymous$4 ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_buf;
-                void (*ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_routine)(void *) = (void (*)(void *))ttsockdel;
-                void *ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_arg = (void *)sock;
-                signed int ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__not_first_call;
-                ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-                if(!((signed long int)ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__not_first_call == 0l))
+                struct anonymous_4 ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_buf;
+                void (*ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_routine)(void *) = (void (*)(void *))ttsockdel;
+                void *ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_arg = (void *)sock;
+                signed int ttservdeqtasks__1__3__1__3__2__1__2__1____not_first_call;
+                ttservdeqtasks__1__3__1__3__2__1__2__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_buf.__cancel_jmp_buf, 0);
+                if(!((signed long int)ttservdeqtasks__1__3__1__3__2__1__2__1____not_first_call == 0l))
                 {
-                  ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_routine(ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_arg);
-                  __pthread_unwind_next(&ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_buf);
+                  ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_routine(ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_arg);
+                  __pthread_unwind_next(&ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_buf);
                 }
 
-                __pthread_register_cancel(&ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_buf);
+                __pthread_register_cancel(&ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_buf);
                 do
                 {
                   _Bool reuse;
@@ -13195,8 +13195,8 @@ static void * ttservdeqtasks(void *argp)
                   ;
                 }
                 while((_Bool)0);
-                __pthread_unregister_cancel(&ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_buf);
-                ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_routine(ttservdeqtasks$$1$$3$$1$$3$$2$$1$$2$$1$$__cancel_arg);
+                __pthread_unregister_cancel(&ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_buf);
+                ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_routine(ttservdeqtasks__1__3__1__3__2__1__2__1____cancel_arg);
               }
               while((_Bool)0);
 
@@ -13213,9 +13213,9 @@ static void * ttservdeqtasks(void *argp)
             memset((void *)&ev, 0, sizeof(struct epoll_event) /*12ul*/ );
             ev.events = (unsigned int)(1 | 1073741824);
             ev.data.fd = cfd;
-            signed int return_value_epoll_ctl$8;
-            return_value_epoll_ctl$8=epoll_ctl(req->epfd, 3, cfd, &ev);
-            if(!(return_value_epoll_ctl$8 == 0))
+            signed int return_value_epoll_ctl_8;
+            return_value_epoll_ctl_8=epoll_ctl(req->epfd, 3, cfd, &ev);
+            if(!(return_value_epoll_ctl_8 == 0))
             {
               close(cfd);
               err = (_Bool)1;
@@ -13226,17 +13226,17 @@ static void * ttservdeqtasks(void *argp)
 
           else
           {
-            signed int return_value_epoll_ctl$9;
-            return_value_epoll_ctl$9=epoll_ctl(req->epfd, 2, cfd, (struct epoll_event *)(void *)0);
-            if(!(return_value_epoll_ctl$9 == 0))
+            signed int return_value_epoll_ctl_9;
+            return_value_epoll_ctl_9=epoll_ctl(req->epfd, 2, cfd, (struct epoll_event *)(void *)0);
+            if(!(return_value_epoll_ctl_9 == 0))
             {
               err = (_Bool)1;
               ttservlog(serv, 2, "epoll_ctl failed");
             }
 
-            _Bool return_value_ttclosesock$10;
-            return_value_ttclosesock$10=ttclosesock(cfd);
-            if(return_value_ttclosesock$10 == (_Bool)0)
+            _Bool return_value_ttclosesock_10;
+            return_value_ttclosesock_10=ttclosesock(cfd);
+            if(return_value_ttclosesock_10 == (_Bool)0)
             {
               err = (_Bool)1;
               ttservlog(serv, 2, "close failed");
@@ -13268,9 +13268,9 @@ static void * ttservdeqtasks(void *argp)
     pthread_setcancelstate(1, (signed int *)(void *)0);
     req->mtime=tctime();
   }
-  signed int return_value_pthread_sigmask$12;
-  return_value_pthread_sigmask$12=pthread_sigmask(2, &oldsigset, (struct anonymous$31 *)(void *)0);
-  if(!(return_value_pthread_sigmask$12 == 0))
+  signed int return_value_pthread_sigmask_12;
+  return_value_pthread_sigmask_12=pthread_sigmask(2, &oldsigset, (struct anonymous_31 *)(void *)0);
+  if(!(return_value_pthread_sigmask_12 == 0))
   {
     err = (_Bool)1;
     ttservlog(serv, 2, "pthread_sigmask failed");
@@ -13320,31 +13320,31 @@ void ttservlog(struct _TTSERV *serv, signed int level, const char *format, ...)
 struct _TTSERV * ttservnew(void)
 {
   struct _TTSERV *serv;
-  void *return_value_tcmalloc$1;
-  return_value_tcmalloc$1=tcmalloc(sizeof(struct _TTSERV) /*2704ul*/ );
-  serv = (struct _TTSERV *)return_value_tcmalloc$1;
+  void *return_value_tcmalloc_1;
+  return_value_tcmalloc_1=tcmalloc(sizeof(struct _TTSERV) /*2704ul*/ );
+  serv = (struct _TTSERV *)return_value_tcmalloc_1;
   serv->host[(signed long int)0] = (char)0;
   serv->addr[(signed long int)0] = (char)0;
   serv->port = (unsigned short int)0;
   serv->queue=tclistnew();
-  signed int return_value_pthread_mutex_init$2;
-  return_value_pthread_mutex_init$2=pthread_mutex_init(&serv->qmtx, (const union anonymous$33 *)(void *)0);
-  if(!(return_value_pthread_mutex_init$2 == 0))
+  signed int return_value_pthread_mutex_init_2;
+  return_value_pthread_mutex_init_2=pthread_mutex_init(&serv->qmtx, (const union anonymous_33 *)(void *)0);
+  if(!(return_value_pthread_mutex_init_2 == 0))
     tcmyfatal("pthread_mutex_init failed");
 
-  signed int return_value_pthread_cond_init$3;
-  return_value_pthread_cond_init$3=pthread_cond_init(&serv->qcnd, (const union anonymous$33 *)(void *)0);
-  if(!(return_value_pthread_cond_init$3 == 0))
+  signed int return_value_pthread_cond_init_3;
+  return_value_pthread_cond_init_3=pthread_cond_init(&serv->qcnd, (const union anonymous_33 *)(void *)0);
+  if(!(return_value_pthread_cond_init_3 == 0))
     tcmyfatal("pthread_cond_init failed");
 
-  signed int return_value_pthread_mutex_init$4;
-  return_value_pthread_mutex_init$4=pthread_mutex_init(&serv->tmtx, (const union anonymous$33 *)(void *)0);
-  if(!(return_value_pthread_mutex_init$4 == 0))
+  signed int return_value_pthread_mutex_init_4;
+  return_value_pthread_mutex_init_4=pthread_mutex_init(&serv->tmtx, (const union anonymous_33 *)(void *)0);
+  if(!(return_value_pthread_mutex_init_4 == 0))
     tcmyfatal("pthread_mutex_init failed");
 
-  signed int return_value_pthread_cond_init$5;
-  return_value_pthread_cond_init$5=pthread_cond_init(&serv->tcnd, (const union anonymous$33 *)(void *)0);
-  if(!(return_value_pthread_cond_init$5 == 0))
+  signed int return_value_pthread_cond_init_5;
+  return_value_pthread_cond_init_5=pthread_cond_init(&serv->tcnd, (const union anonymous_33 *)(void *)0);
+  if(!(return_value_pthread_cond_init_5 == 0))
     tcmyfatal("pthread_cond_init failed");
 
   serv->thnum = 5;
@@ -13353,7 +13353,7 @@ struct _TTSERV * ttservnew(void)
   serv->do_log = (void (*)(signed int, const char *, void *))(void *)0;
   serv->opq_log = (void *)0;
   serv->timernum = 0;
-  serv->do_task = (void (*)(struct anonymous$17 *, void *, struct _TTREQ *))(void *)0;
+  serv->do_task = (void (*)(struct anonymous_17 *, void *, struct _TTREQ *))(void *)0;
   serv->opq_task = (void *)0;
   serv->do_term = (void (*)(void *))(void *)0;
   serv->opq_term = (void *)0;
@@ -13372,10 +13372,10 @@ void ttservsetloghandler(struct _TTSERV *serv, void (*do_log)(signed int, const 
 
 // ttservsettaskhandler
 // file ttutil.c line 947
-void ttservsettaskhandler(struct _TTSERV *serv, void (*do_task)(struct anonymous$17 *, void *, struct _TTREQ *), void *opq)
+void ttservsettaskhandler(struct _TTSERV *serv, void (*do_task)(struct anonymous_17 *, void *, struct _TTREQ *), void *opq)
 {
   /* assertion serv && do_task */
-  assert(serv != ((struct _TTSERV *)NULL) && do_task != ((void (*)(struct anonymous$17 *, void *, struct _TTREQ *))NULL));
+  assert(serv != ((struct _TTSERV *)NULL) && do_task != ((void (*)(struct anonymous_17 *, void *, struct _TTREQ *))NULL));
   serv->do_task = do_task;
   serv->opq_task = opq;
 }
@@ -13397,7 +13397,7 @@ _Bool ttservstart(struct _TTSERV *serv)
   /* assertion serv */
   assert(serv != ((struct _TTSERV *)NULL));
   signed int lfd;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!((signed int)serv->port >= 1))
   {
     lfd=ttopenservsockunix(serv->host);
@@ -13412,11 +13412,11 @@ _Bool ttservstart(struct _TTSERV *serv)
   else
   {
     if(!((signed int)serv->addr[0l] == 0))
-      tmp_if_expr$1 = serv->addr;
+      tmp_if_expr_1 = serv->addr;
 
     else
-      tmp_if_expr$1 = (char *)(void *)0;
-    lfd=ttopenservsock(tmp_if_expr$1, (signed int)serv->port);
+      tmp_if_expr_1 = (char *)(void *)0;
+    lfd=ttopenservsock(tmp_if_expr_1, (signed int)serv->port);
     if(lfd == -1)
     {
       ttservlog(serv, 2, "ttopenservsock failed");
@@ -13426,11 +13426,11 @@ _Bool ttservstart(struct _TTSERV *serv)
   }
   signed int epfd;
   epfd=epoll_create(256);
-  char *tmp_if_expr$9;
-  signed int return_value_pthread_cancel$17;
-  signed int return_value_tclistnum$22;
-  signed int return_value_unlink$27;
-  signed int return_value_close$28;
+  char *tmp_if_expr_9;
+  signed int return_value_pthread_cancel_17;
+  signed int return_value_tclistnum_22;
+  signed int return_value_unlink_27;
+  signed int return_value_close_28;
   if(epfd == -1)
   {
     close(lfd);
@@ -13440,22 +13440,22 @@ _Bool ttservstart(struct _TTSERV *serv)
 
   else
   {
-    signed int return_value_getpid$2;
-    return_value_getpid$2=getpid();
-    ttservlog(serv, 3, "service started: %d", return_value_getpid$2);
+    signed int return_value_getpid_2;
+    return_value_getpid_2=getpid();
+    ttservlog(serv, 3, "service started: %d", return_value_getpid_2);
     _Bool err = (_Bool)0;
-    signed int ttservstart$$1$$4$$i = 0;
-    for( ; !(ttservstart$$1$$4$$i >= serv->timernum); ttservstart$$1$$4$$i = ttservstart$$1$$4$$i + 1)
+    signed int ttservstart__1__4__i = 0;
+    for( ; !(ttservstart__1__4__i >= serv->timernum); ttservstart__1__4__i = ttservstart__1__4__i + 1)
     {
-      struct _TTTIMER *ttservstart$$1$$4$$1$$timer = serv->timers + (signed long int)ttservstart$$1$$4$$i;
-      ttservstart$$1$$4$$1$$timer->alive = (_Bool)0;
-      ttservstart$$1$$4$$1$$timer->serv = serv;
-      signed int return_value_pthread_create$3;
-      return_value_pthread_create$3=pthread_create(&ttservstart$$1$$4$$1$$timer->thid, (const union pthread_attr_t *)(void *)0, ttservtimer, (void *)ttservstart$$1$$4$$1$$timer);
-      if(return_value_pthread_create$3 == 0)
+      struct _TTTIMER *ttservstart__1__4__1__timer = serv->timers + (signed long int)ttservstart__1__4__i;
+      ttservstart__1__4__1__timer->alive = (_Bool)0;
+      ttservstart__1__4__1__timer->serv = serv;
+      signed int return_value_pthread_create_3;
+      return_value_pthread_create_3=pthread_create(&ttservstart__1__4__1__timer->thid, (const union pthread_attr_t *)(void *)0, ttservtimer, (void *)ttservstart__1__4__1__timer);
+      if(return_value_pthread_create_3 == 0)
       {
-        ttservlog(serv, 1, "timer thread %d started", ttservstart$$1$$4$$i + 1);
-        ttservstart$$1$$4$$1$$timer->alive = (_Bool)1;
+        ttservlog(serv, 1, "timer thread %d started", ttservstart__1__4__i + 1);
+        ttservstart__1__4__1__timer->alive = (_Bool)1;
       }
 
       else
@@ -13465,36 +13465,36 @@ _Bool ttservstart(struct _TTSERV *serv)
       }
     }
     signed int thnum = serv->thnum;
-    const signed long int thnum$array_size0 = (signed long int)thnum;
-    struct _TTREQ reqs[thnum$array_size0];
-    signed int ttservstart$$1$$5$$i = 0;
-    for( ; !(ttservstart$$1$$5$$i >= thnum); ttservstart$$1$$5$$i = ttservstart$$1$$5$$i + 1)
+    const signed long int thnum_array_size0 = (signed long int)thnum;
+    struct _TTREQ reqs[thnum_array_size0];
+    signed int ttservstart__1__5__i = 0;
+    for( ; !(ttservstart__1__5__i >= thnum); ttservstart__1__5__i = ttservstart__1__5__i + 1)
     {
-      reqs[(signed long int)ttservstart$$1$$5$$i].alive = (_Bool)1;
-      reqs[(signed long int)ttservstart$$1$$5$$i].serv = serv;
-      reqs[(signed long int)ttservstart$$1$$5$$i].epfd = epfd;
-      reqs[(signed long int)ttservstart$$1$$5$$i].mtime=tctime();
-      reqs[(signed long int)ttservstart$$1$$5$$i].keep = (_Bool)0;
-      reqs[(signed long int)ttservstart$$1$$5$$i].idx = ttservstart$$1$$5$$i;
-      signed int return_value_pthread_create$4;
-      return_value_pthread_create$4=pthread_create(&reqs[(signed long int)ttservstart$$1$$5$$i].thid, (const union pthread_attr_t *)(void *)0, ttservdeqtasks, (void *)(reqs + (signed long int)ttservstart$$1$$5$$i));
-      if(return_value_pthread_create$4 == 0)
-        ttservlog(serv, 1, "worker thread %d started", ttservstart$$1$$5$$i + 1);
+      reqs[(signed long int)ttservstart__1__5__i].alive = (_Bool)1;
+      reqs[(signed long int)ttservstart__1__5__i].serv = serv;
+      reqs[(signed long int)ttservstart__1__5__i].epfd = epfd;
+      reqs[(signed long int)ttservstart__1__5__i].mtime=tctime();
+      reqs[(signed long int)ttservstart__1__5__i].keep = (_Bool)0;
+      reqs[(signed long int)ttservstart__1__5__i].idx = ttservstart__1__5__i;
+      signed int return_value_pthread_create_4;
+      return_value_pthread_create_4=pthread_create(&reqs[(signed long int)ttservstart__1__5__i].thid, (const union pthread_attr_t *)(void *)0, ttservdeqtasks, (void *)(reqs + (signed long int)ttservstart__1__5__i));
+      if(return_value_pthread_create_4 == 0)
+        ttservlog(serv, 1, "worker thread %d started", ttservstart__1__5__i + 1);
 
       else
       {
-        reqs[(signed long int)ttservstart$$1$$5$$i].alive = (_Bool)0;
+        reqs[(signed long int)ttservstart__1__5__i].alive = (_Bool)0;
         err = (_Bool)1;
         ttservlog(serv, 2, "pthread_create (ttservdeqtasks) failed");
       }
     }
-    struct epoll_event ttservstart$$1$$ev;
-    memset((void *)&ttservstart$$1$$ev, 0, sizeof(struct epoll_event) /*12ul*/ );
-    ttservstart$$1$$ev.events = (unsigned int)1;
-    ttservstart$$1$$ev.data.fd = lfd;
-    signed int return_value_epoll_ctl$5;
-    return_value_epoll_ctl$5=epoll_ctl(epfd, 1, lfd, &ttservstart$$1$$ev);
-    if(!(return_value_epoll_ctl$5 == 0))
+    struct epoll_event ttservstart__1__ev;
+    memset((void *)&ttservstart__1__ev, 0, sizeof(struct epoll_event) /*12ul*/ );
+    ttservstart__1__ev.events = (unsigned int)1;
+    ttservstart__1__ev.data.fd = lfd;
+    signed int return_value_epoll_ctl_5;
+    return_value_epoll_ctl_5=epoll_ctl(epfd, 1, lfd, &ttservstart__1__ev);
+    if(!(return_value_epoll_ctl_5 == 0))
     {
       err = (_Bool)1;
       ttservlog(serv, 2, "epoll_ctl failed");
@@ -13531,9 +13531,9 @@ _Bool ttservstart(struct _TTSERV *serv)
               memset((void *)&ev, 0, sizeof(struct epoll_event) /*12ul*/ );
               ev.events = (unsigned int)(1 | 1073741824);
               ev.data.fd = cfd;
-              signed int return_value_epoll_ctl$6;
-              return_value_epoll_ctl$6=epoll_ctl(epfd, 1, cfd, &ev);
-              if(!(return_value_epoll_ctl$6 == 0))
+              signed int return_value_epoll_ctl_6;
+              return_value_epoll_ctl_6=epoll_ctl(epfd, 1, cfd, &ev);
+              if(!(return_value_epoll_ctl_6 == 0))
               {
                 close(cfd);
                 err = (_Bool)1;
@@ -13546,14 +13546,14 @@ _Bool ttservstart(struct _TTSERV *serv)
             {
               err = (_Bool)1;
               ttservlog(serv, 2, "ttacceptsock failed");
-              signed int return_value_epoll_ctl$7;
-              return_value_epoll_ctl$7=epoll_ctl(epfd, 2, lfd, (struct epoll_event *)(void *)0);
-              if(!(return_value_epoll_ctl$7 == 0))
+              signed int return_value_epoll_ctl_7;
+              return_value_epoll_ctl_7=epoll_ctl(epfd, 2, lfd, (struct epoll_event *)(void *)0);
+              if(!(return_value_epoll_ctl_7 == 0))
                 ttservlog(serv, 2, "epoll_ctl failed");
 
-              signed int return_value_close$8;
-              return_value_close$8=close(lfd);
-              if(!(return_value_close$8 == 0))
+              signed int return_value_close_8;
+              return_value_close_8=close(lfd);
+              if(!(return_value_close_8 == 0))
                 ttservlog(serv, 2, "close failed");
 
               tcsleep(0.1);
@@ -13568,23 +13568,23 @@ _Bool ttservstart(struct _TTSERV *serv)
               else
               {
                 if(!((signed int)serv->addr[0l] == 0))
-                  tmp_if_expr$9 = serv->addr;
+                  tmp_if_expr_9 = serv->addr;
 
                 else
-                  tmp_if_expr$9 = (char *)(void *)0;
-                lfd=ttopenservsock(tmp_if_expr$9, (signed int)serv->port);
+                  tmp_if_expr_9 = (char *)(void *)0;
+                lfd=ttopenservsock(tmp_if_expr_9, (signed int)serv->port);
                 if(lfd == -1)
                   ttservlog(serv, 2, "ttopenservsock failed");
 
               }
               if(lfd >= 0)
               {
-                memset((void *)&ttservstart$$1$$ev, 0, sizeof(struct epoll_event) /*12ul*/ );
-                ttservstart$$1$$ev.events = (unsigned int)1;
-                ttservstart$$1$$ev.data.fd = lfd;
-                signed int return_value_epoll_ctl$10;
-                return_value_epoll_ctl$10=epoll_ctl(epfd, 1, lfd, &ttservstart$$1$$ev);
-                if(return_value_epoll_ctl$10 == 0)
+                memset((void *)&ttservstart__1__ev, 0, sizeof(struct epoll_event) /*12ul*/ );
+                ttservstart__1__ev.events = (unsigned int)1;
+                ttservstart__1__ev.data.fd = lfd;
+                signed int return_value_epoll_ctl_10;
+                return_value_epoll_ctl_10=epoll_ctl(epfd, 1, lfd, &ttservstart__1__ev);
+                if(return_value_epoll_ctl_10 == 0)
                   ttservlog(serv, 3, "listening restarted");
 
                 else
@@ -13596,23 +13596,23 @@ _Bool ttservstart(struct _TTSERV *serv)
 
           else
           {
-            signed int ttservstart$$1$$7$$1$$1$$1$$2$$cfd = events[(signed long int)i].data.fd;
-            signed int return_value_pthread_mutex_lock$13;
-            return_value_pthread_mutex_lock$13=pthread_mutex_lock(&serv->qmtx);
-            if(return_value_pthread_mutex_lock$13 == 0)
+            signed int ttservstart__1__7__1__1__1__2__cfd = events[(signed long int)i].data.fd;
+            signed int return_value_pthread_mutex_lock_13;
+            return_value_pthread_mutex_lock_13=pthread_mutex_lock(&serv->qmtx);
+            if(return_value_pthread_mutex_lock_13 == 0)
             {
-              tclistpush(serv->queue, (const void *)&ttservstart$$1$$7$$1$$1$$1$$2$$cfd, (signed int)sizeof(signed int) /*4ul*/ );
-              signed int return_value_pthread_mutex_unlock$11;
-              return_value_pthread_mutex_unlock$11=pthread_mutex_unlock(&serv->qmtx);
-              if(!(return_value_pthread_mutex_unlock$11 == 0))
+              tclistpush(serv->queue, (const void *)&ttservstart__1__7__1__1__1__2__cfd, (signed int)sizeof(signed int) /*4ul*/ );
+              signed int return_value_pthread_mutex_unlock_11;
+              return_value_pthread_mutex_unlock_11=pthread_mutex_unlock(&serv->qmtx);
+              if(!(return_value_pthread_mutex_unlock_11 == 0))
               {
                 err = (_Bool)1;
                 ttservlog(serv, 2, "pthread_mutex_unlock failed");
               }
 
-              signed int return_value_pthread_cond_signal$12;
-              return_value_pthread_cond_signal$12=pthread_cond_signal(&serv->qcnd);
-              if(!(return_value_pthread_cond_signal$12 == 0))
+              signed int return_value_pthread_cond_signal_12;
+              return_value_pthread_cond_signal_12=pthread_cond_signal(&serv->qcnd);
+              if(!(return_value_pthread_cond_signal_12 == 0))
               {
                 err = (_Bool)1;
                 ttservlog(serv, 2, "pthread_cond_signal failed");
@@ -13630,9 +13630,9 @@ _Bool ttservstart(struct _TTSERV *serv)
 
       else
       {
-        signed int *return_value___errno_location$14;
-        return_value___errno_location$14=__errno_location();
-        if(*return_value___errno_location$14 == 4)
+        signed int *return_value___errno_location_14;
+        return_value___errno_location_14=__errno_location();
+        if(*return_value___errno_location_14 == 4)
           ttservlog(serv, 1, "signal interruption");
 
         else
@@ -13645,41 +13645,41 @@ _Bool ttservstart(struct _TTSERV *serv)
       {
         double ctime;
         ctime=tctime();
-        signed int ttservstart$$1$$7$$3$$1$$i = 0;
-        for( ; !(ttservstart$$1$$7$$3$$1$$i >= thnum); ttservstart$$1$$7$$3$$1$$i = ttservstart$$1$$7$$3$$1$$i + 1)
+        signed int ttservstart__1__7__3__1__i = 0;
+        for( ; !(ttservstart__1__7__3__1__i >= thnum); ttservstart__1__7__3__1__i = ttservstart__1__7__3__1__i + 1)
         {
-          double itime = ctime - reqs[(signed long int)ttservstart$$1$$7$$3$$1$$i].mtime;
+          double itime = ctime - reqs[(signed long int)ttservstart__1__7__3__1__i].mtime;
           if(itime > serv->timeout + 0.2 + 0.25 + 0.25)
           {
-            return_value_pthread_cancel$17=pthread_cancel(reqs[(signed long int)ttservstart$$1$$7$$3$$1$$i].thid);
-            if(return_value_pthread_cancel$17 == 0)
+            return_value_pthread_cancel_17=pthread_cancel(reqs[(signed long int)ttservstart__1__7__3__1__i].thid);
+            if(return_value_pthread_cancel_17 == 0)
             {
-              ttservlog(serv, 1, "worker thread %d canceled by timeout", ttservstart$$1$$7$$3$$1$$i + 1);
-              void *ttservstart$$1$$7$$3$$1$$1$$1$$rv;
-              signed int return_value_pthread_join$16;
-              return_value_pthread_join$16=pthread_join(reqs[(signed long int)ttservstart$$1$$7$$3$$1$$i].thid, &ttservstart$$1$$7$$3$$1$$1$$1$$rv);
-              if(return_value_pthread_join$16 == 0)
+              ttservlog(serv, 1, "worker thread %d canceled by timeout", ttservstart__1__7__3__1__i + 1);
+              void *ttservstart__1__7__3__1__1__1__rv;
+              signed int return_value_pthread_join_16;
+              return_value_pthread_join_16=pthread_join(reqs[(signed long int)ttservstart__1__7__3__1__i].thid, &ttservstart__1__7__3__1__1__1__rv);
+              if(return_value_pthread_join_16 == 0)
               {
-                if(!(ttservstart$$1$$7$$3$$1$$1$$1$$rv == NULL) && !(ttservstart$$1$$7$$3$$1$$1$$1$$rv == (void *)-1))
+                if(!(ttservstart__1__7__3__1__1__1__rv == NULL) && !(ttservstart__1__7__3__1__1__1__rv == (void *)-1))
                   err = (_Bool)1;
 
-                reqs[(signed long int)ttservstart$$1$$7$$3$$1$$i].mtime=tctime();
-                signed int return_value_pthread_create$15;
-                return_value_pthread_create$15=pthread_create(&reqs[(signed long int)ttservstart$$1$$7$$3$$1$$i].thid, (const union pthread_attr_t *)(void *)0, ttservdeqtasks, (void *)(reqs + (signed long int)ttservstart$$1$$7$$3$$1$$i));
-                if(!(return_value_pthread_create$15 == 0))
+                reqs[(signed long int)ttservstart__1__7__3__1__i].mtime=tctime();
+                signed int return_value_pthread_create_15;
+                return_value_pthread_create_15=pthread_create(&reqs[(signed long int)ttservstart__1__7__3__1__i].thid, (const union pthread_attr_t *)(void *)0, ttservdeqtasks, (void *)(reqs + (signed long int)ttservstart__1__7__3__1__i));
+                if(!(return_value_pthread_create_15 == 0))
                 {
-                  reqs[(signed long int)ttservstart$$1$$7$$3$$1$$i].alive = (_Bool)0;
+                  reqs[(signed long int)ttservstart__1__7__3__1__i].alive = (_Bool)0;
                   err = (_Bool)1;
                   ttservlog(serv, 2, "pthread_create (ttservdeqtasks) failed");
                 }
 
                 else
-                  ttservlog(serv, 1, "worker thread %d started", ttservstart$$1$$7$$3$$1$$i + 1);
+                  ttservlog(serv, 1, "worker thread %d started", ttservstart__1__7__3__1__i + 1);
               }
 
               else
               {
-                reqs[(signed long int)ttservstart$$1$$7$$3$$1$$i].alive = (_Bool)0;
+                reqs[(signed long int)ttservstart__1__7__3__1__i].alive = (_Bool)0;
                 err = (_Bool)1;
                 ttservlog(serv, 2, "pthread_join failed");
               }
@@ -13692,17 +13692,17 @@ _Bool ttservstart(struct _TTSERV *serv)
 
     }
     ttservlog(serv, 3, "listening finished");
-    signed int return_value_pthread_cond_broadcast$18;
-    return_value_pthread_cond_broadcast$18=pthread_cond_broadcast(&serv->qcnd);
-    if(!(return_value_pthread_cond_broadcast$18 == 0))
+    signed int return_value_pthread_cond_broadcast_18;
+    return_value_pthread_cond_broadcast_18=pthread_cond_broadcast(&serv->qcnd);
+    if(!(return_value_pthread_cond_broadcast_18 == 0))
     {
       err = (_Bool)1;
       ttservlog(serv, 2, "pthread_cond_broadcast failed");
     }
 
-    signed int return_value_pthread_cond_broadcast$19;
-    return_value_pthread_cond_broadcast$19=pthread_cond_broadcast(&serv->tcnd);
-    if(!(return_value_pthread_cond_broadcast$19 == 0))
+    signed int return_value_pthread_cond_broadcast_19;
+    return_value_pthread_cond_broadcast_19=pthread_cond_broadcast(&serv->tcnd);
+    if(!(return_value_pthread_cond_broadcast_19 == 0))
     {
       err = (_Bool)1;
       ttservlog(serv, 2, "pthread_cond_broadcast failed");
@@ -13712,21 +13712,21 @@ _Bool ttservstart(struct _TTSERV *serv)
     if(!(serv->do_term == ((void (*)(void *))NULL)))
       serv->do_term(serv->opq_term);
 
-    signed int ttservstart$$1$$10$$i = 0;
-    for( ; !(ttservstart$$1$$10$$i >= thnum); ttservstart$$1$$10$$i = ttservstart$$1$$10$$i + 1)
-      if(!(reqs[(signed long int)ttservstart$$1$$10$$i].alive == (_Bool)0))
+    signed int ttservstart__1__10__i = 0;
+    for( ; !(ttservstart__1__10__i >= thnum); ttservstart__1__10__i = ttservstart__1__10__i + 1)
+      if(!(reqs[(signed long int)ttservstart__1__10__i].alive == (_Bool)0))
       {
-        signed int return_value_pthread_cancel$20;
-        return_value_pthread_cancel$20=pthread_cancel(reqs[(signed long int)ttservstart$$1$$10$$i].thid);
-        if(return_value_pthread_cancel$20 == 0)
-          ttservlog(serv, 1, "worker thread %d was canceled", ttservstart$$1$$10$$i + 1);
+        signed int return_value_pthread_cancel_20;
+        return_value_pthread_cancel_20=pthread_cancel(reqs[(signed long int)ttservstart__1__10__i].thid);
+        if(return_value_pthread_cancel_20 == 0)
+          ttservlog(serv, 1, "worker thread %d was canceled", ttservstart__1__10__i + 1);
 
         void *rv;
-        signed int return_value_pthread_join$21;
-        return_value_pthread_join$21=pthread_join(reqs[(signed long int)ttservstart$$1$$10$$i].thid, &rv);
-        if(return_value_pthread_join$21 == 0)
+        signed int return_value_pthread_join_21;
+        return_value_pthread_join_21=pthread_join(reqs[(signed long int)ttservstart__1__10__i].thid, &rv);
+        if(return_value_pthread_join_21 == 0)
         {
-          ttservlog(serv, 1, "worker thread %d finished", ttservstart$$1$$10$$i + 1);
+          ttservlog(serv, 1, "worker thread %d finished", ttservstart__1__10__i + 1);
           if(!(rv == NULL) && !(rv == (void *)-1))
             err = (_Bool)1;
 
@@ -13739,33 +13739,33 @@ _Bool ttservstart(struct _TTSERV *serv)
         }
       }
 
-    signed int return_value_tclistnum$23;
-    return_value_tclistnum$23=tclistnum(serv->queue);
-    if(return_value_tclistnum$23 >= 1)
+    signed int return_value_tclistnum_23;
+    return_value_tclistnum_23=tclistnum(serv->queue);
+    if(return_value_tclistnum_23 >= 1)
     {
-      return_value_tclistnum$22=tclistnum(serv->queue);
-      ttservlog(serv, 1, "%d requests discarded", return_value_tclistnum$22);
+      return_value_tclistnum_22=tclistnum(serv->queue);
+      ttservlog(serv, 1, "%d requests discarded", return_value_tclistnum_22);
     }
 
     tclistclear(serv->queue);
-    signed int ttservstart$$1$$11$$i = 0;
-    for( ; !(ttservstart$$1$$11$$i >= serv->timernum); ttservstart$$1$$11$$i = ttservstart$$1$$11$$i + 1)
+    signed int ttservstart__1__11__i = 0;
+    for( ; !(ttservstart__1__11__i >= serv->timernum); ttservstart__1__11__i = ttservstart__1__11__i + 1)
     {
-      struct _TTTIMER *timer = serv->timers + (signed long int)ttservstart$$1$$11$$i;
+      struct _TTTIMER *timer = serv->timers + (signed long int)ttservstart__1__11__i;
       if(!(timer->alive == (_Bool)0))
       {
-        void *ttservstart$$1$$11$$1$$rv;
-        signed int return_value_pthread_cancel$24;
-        return_value_pthread_cancel$24=pthread_cancel(timer->thid);
-        if(return_value_pthread_cancel$24 == 0)
-          ttservlog(serv, 1, "timer thread %d was canceled", ttservstart$$1$$11$$i + 1);
+        void *ttservstart__1__11__1__rv;
+        signed int return_value_pthread_cancel_24;
+        return_value_pthread_cancel_24=pthread_cancel(timer->thid);
+        if(return_value_pthread_cancel_24 == 0)
+          ttservlog(serv, 1, "timer thread %d was canceled", ttservstart__1__11__i + 1);
 
-        signed int return_value_pthread_join$25;
-        return_value_pthread_join$25=pthread_join(timer->thid, &ttservstart$$1$$11$$1$$rv);
-        if(return_value_pthread_join$25 == 0)
+        signed int return_value_pthread_join_25;
+        return_value_pthread_join_25=pthread_join(timer->thid, &ttservstart__1__11__1__rv);
+        if(return_value_pthread_join_25 == 0)
         {
-          ttservlog(serv, 1, "timer thread %d finished", ttservstart$$1$$11$$i + 1);
-          if(!(ttservstart$$1$$11$$1$$rv == NULL) && !(ttservstart$$1$$11$$1$$rv == (void *)-1))
+          ttservlog(serv, 1, "timer thread %d finished", ttservstart__1__11__i + 1);
+          if(!(ttservstart__1__11__1__rv == NULL) && !(ttservstart__1__11__1__rv == (void *)-1))
             err = (_Bool)1;
 
         }
@@ -13778,9 +13778,9 @@ _Bool ttservstart(struct _TTSERV *serv)
       }
 
     }
-    signed int return_value_close$26;
-    return_value_close$26=close(epfd);
-    if(!(return_value_close$26 == 0))
+    signed int return_value_close_26;
+    return_value_close_26=close(epfd);
+    if(!(return_value_close_26 == 0))
     {
       err = (_Bool)1;
       ttservlog(serv, 2, "epoll_close failed");
@@ -13788,8 +13788,8 @@ _Bool ttservstart(struct _TTSERV *serv)
 
     if(!((signed int)serv->port >= 1))
     {
-      return_value_unlink$27=unlink(serv->host);
-      if(return_value_unlink$27 == -1)
+      return_value_unlink_27=unlink(serv->host);
+      if(return_value_unlink_27 == -1)
       {
         err = (_Bool)1;
         ttservlog(serv, 2, "unlink failed");
@@ -13799,8 +13799,8 @@ _Bool ttservstart(struct _TTSERV *serv)
 
     if(lfd >= 0)
     {
-      return_value_close$28=close(lfd);
-      if(!(return_value_close$28 == 0))
+      return_value_close_28=close(lfd);
+      if(!(return_value_close_28 == 0))
       {
         err = (_Bool)1;
         ttservlog(serv, 2, "close failed");
@@ -13816,10 +13816,10 @@ _Bool ttservstart(struct _TTSERV *serv)
 
 // ttservtask
 // file ttutil.c line 1298
-static void ttservtask(struct anonymous$17 *sock, struct _TTREQ *req)
+static void ttservtask(struct anonymous_17 *sock, struct _TTREQ *req)
 {
   struct _TTSERV *serv = req->serv;
-  if(!(serv->do_task == ((void (*)(struct anonymous$17 *, void *, struct _TTREQ *))NULL)))
+  if(!(serv->do_task == ((void (*)(struct anonymous_17 *, void *, struct _TTREQ *))NULL)))
     serv->do_task(sock, serv->opq_task, req);
 
 }
@@ -13831,9 +13831,9 @@ static void * ttservtimer(void *argp)
   struct _TTTIMER *timer = (struct _TTTIMER *)argp;
   struct _TTSERV *serv = timer->serv;
   _Bool err = (_Bool)0;
-  signed int return_value_pthread_setcancelstate$1;
-  return_value_pthread_setcancelstate$1=pthread_setcancelstate(1, (signed int *)(void *)0);
-  if(!(return_value_pthread_setcancelstate$1 == 0))
+  signed int return_value_pthread_setcancelstate_1;
+  return_value_pthread_setcancelstate_1=pthread_setcancelstate(1, (signed int *)(void *)0);
+  if(!(return_value_pthread_setcancelstate_1 == 0))
   {
     err = (_Bool)1;
     ttservlog(serv, 2, "pthread_setcancelstate failed");
@@ -13845,15 +13845,15 @@ static void * ttservtimer(void *argp)
   freqd=modf(timer->freq_timed, &freqi);
   while(serv->term == (_Bool)0)
   {
-    signed int return_value_pthread_mutex_lock$4;
-    return_value_pthread_mutex_lock$4=pthread_mutex_lock(&serv->tmtx);
-    if(return_value_pthread_mutex_lock$4 == 0)
+    signed int return_value_pthread_mutex_lock_4;
+    return_value_pthread_mutex_lock_4=pthread_mutex_lock(&serv->tmtx);
+    if(return_value_pthread_mutex_lock_4 == 0)
     {
       struct timeval tv;
       struct timespec ts;
-      signed int return_value_gettimeofday$2;
-      return_value_gettimeofday$2=gettimeofday(&tv, (struct timezone *)(void *)0);
-      if(return_value_gettimeofday$2 == 0)
+      signed int return_value_gettimeofday_2;
+      return_value_gettimeofday_2=gettimeofday(&tv, (struct timezone *)(void *)0);
+      if(return_value_gettimeofday_2 == 0)
       {
         ts.tv_sec = tv.tv_sec + (signed long int)(signed int)freqi;
         ts.tv_nsec = (signed long int)((double)tv.tv_usec * 1000.0 + freqd * 1000000000.0);
@@ -13874,9 +13874,9 @@ static void * ttservtimer(void *argp)
       code=pthread_cond_timedwait(&serv->tcnd, &serv->tmtx, &ts);
       if(code == 0 || code == 4 || code == 110)
       {
-        signed int return_value_pthread_mutex_unlock$3;
-        return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&serv->tmtx);
-        if(!(return_value_pthread_mutex_unlock$3 == 0))
+        signed int return_value_pthread_mutex_unlock_3;
+        return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&serv->tmtx);
+        if(!(return_value_pthread_mutex_unlock_3 == 0))
         {
           err = (_Bool)1;
           ttservlog(serv, 2, "pthread_mutex_unlock failed");
@@ -13921,19 +13921,19 @@ void ttservtune(struct _TTSERV *serv, signed int thnum, double timeout)
 
 // ttsockcheckend
 // file ttutil.c line 602
-_Bool ttsockcheckend(struct anonymous$17 *sock)
+_Bool ttsockcheckend(struct anonymous_17 *sock)
 {
   /* assertion sock */
-  assert(sock != ((struct anonymous$17 *)NULL));
+  assert(sock != ((struct anonymous_17 *)NULL));
   return sock->end;
 }
 
 // ttsockcheckpfsiz
 // file ttutil.c line 609
-signed int ttsockcheckpfsiz(struct anonymous$17 *sock)
+signed int ttsockcheckpfsiz(struct anonymous_17 *sock)
 {
   /* assertion sock */
-  assert(sock != ((struct anonymous$17 *)NULL));
+  assert(sock != ((struct anonymous_17 *)NULL));
   if(!(sock->end == (_Bool)0))
     return 0;
 
@@ -13943,28 +13943,28 @@ signed int ttsockcheckpfsiz(struct anonymous$17 *sock)
 
 // ttsockdel
 // file ttutil.c line 313
-void ttsockdel(struct anonymous$17 *sock)
+void ttsockdel(struct anonymous_17 *sock)
 {
   /* assertion sock */
-  assert(sock != ((struct anonymous$17 *)NULL));
+  assert(sock != ((struct anonymous_17 *)NULL));
   tcfree((void *)sock);
 }
 
 // ttsockgetc
 // file ttutil.c line 494
-signed int ttsockgetc(struct anonymous$17 *sock)
+signed int ttsockgetc(struct anonymous_17 *sock)
 {
   /* assertion sock */
-  assert(sock != ((struct anonymous$17 *)NULL));
-  char *tmp_post$1;
-  _Bool return_value_ttwaitsock$4;
-  _Bool tmp_if_expr$3;
-  double return_value_tctime$2;
+  assert(sock != ((struct anonymous_17 *)NULL));
+  char *tmp_post_1;
+  _Bool return_value_ttwaitsock_4;
+  _Bool tmp_if_expr_3;
+  double return_value_tctime_2;
   if(!(sock->rp >= sock->ep))
   {
-    tmp_post$1 = sock->rp;
+    tmp_post_1 = sock->rp;
     sock->rp = sock->rp + 1l;
-    return (signed int)*((unsigned char *)tmp_post$1);
+    return (signed int)*((unsigned char *)tmp_post_1);
   }
 
   else
@@ -13976,8 +13976,8 @@ signed int ttsockgetc(struct anonymous$17 *sock)
       pthread_setcancelstate(0, &ocs);
       if(sock->to > 0.0)
       {
-        return_value_ttwaitsock$4=ttwaitsock(sock->fd, 0, sock->to);
-        if(return_value_ttwaitsock$4 == (_Bool)0)
+        return_value_ttwaitsock_4=ttwaitsock(sock->fd, 0, sock->to);
+        if(return_value_ttwaitsock_4 == (_Bool)0)
         {
           pthread_setcancelstate(ocs, (signed int *)(void *)0);
           return -1;
@@ -13986,12 +13986,12 @@ signed int ttsockgetc(struct anonymous$17 *sock)
       }
 
       signed int rv;
-      signed long int return_value_recv$5;
-      return_value_recv$5=recv(sock->fd, (void *)sock->buf, (unsigned long int)65536, 0);
-      rv = (signed int)return_value_recv$5;
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      en = *return_value___errno_location$6;
+      signed long int return_value_recv_5;
+      return_value_recv_5=recv(sock->fd, (void *)sock->buf, (unsigned long int)65536, 0);
+      rv = (signed int)return_value_recv_5;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      en = *return_value___errno_location_6;
       pthread_setcancelstate(ocs, (signed int *)(void *)0);
       if(rv >= 1)
       {
@@ -14009,14 +14009,14 @@ signed int ttsockgetc(struct anonymous$17 *sock)
 
       if(en == 4 || en == 11)
       {
-        return_value_tctime$2=tctime();
-        tmp_if_expr$3 = return_value_tctime$2 <= sock->dl ? (_Bool)1 : (_Bool)0;
+        return_value_tctime_2=tctime();
+        tmp_if_expr_3 = return_value_tctime_2 <= sock->dl ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
     }
-    while(tmp_if_expr$3);
+    while(tmp_if_expr_3);
     sock->end = (_Bool)1;
     return -1;
   }
@@ -14024,10 +14024,10 @@ signed int ttsockgetc(struct anonymous$17 *sock)
 
 // ttsockgetint32
 // file ttutil.c line 584
-unsigned int ttsockgetint32(struct anonymous$17 *sock)
+unsigned int ttsockgetint32(struct anonymous_17 *sock)
 {
   /* assertion sock */
-  assert(sock != ((struct anonymous$17 *)NULL));
+  assert(sock != ((struct anonymous_17 *)NULL));
   unsigned int num;
   ttsockrecv(sock, (char *)&num, (signed int)sizeof(unsigned int) /*4ul*/ );
   return (unsigned int)(((unsigned long int)num & 0x000000ffUL) << 24 | ((unsigned long int)num & 0x0000ff00UL) << 8 | ((unsigned long int)num & 0x00ff0000UL) >> 8 | ((unsigned long int)num & 0xff000000UL) >> 24);
@@ -14035,10 +14035,10 @@ unsigned int ttsockgetint32(struct anonymous$17 *sock)
 
 // ttsockgetint64
 // file ttutil.c line 593
-unsigned long int ttsockgetint64(struct anonymous$17 *sock)
+unsigned long int ttsockgetint64(struct anonymous_17 *sock)
 {
   /* assertion sock */
-  assert(sock != ((struct anonymous$17 *)NULL));
+  assert(sock != ((struct anonymous_17 *)NULL));
   unsigned long int num;
   ttsockrecv(sock, (char *)&num, (signed int)sizeof(unsigned long int) /*8ul*/ );
   return (num & 0x00000000000000ffULL) << 56 | (num & 0x000000000000ff00ULL) << 40 | (num & 0x0000000000ff0000ULL) << 24 | (num & 0x00000000ff000000ULL) << 8 | (num & 0x000000ff00000000ULL) >> 8 | (num & 0x0000ff0000000000ULL) >> 24 | (num & 0x00ff000000000000ULL) >> 40 | (num & 0xff00000000000000ULL) >> 56;
@@ -14046,14 +14046,14 @@ unsigned long int ttsockgetint64(struct anonymous$17 *sock)
 
 // ttsockgets
 // file ttutil.c line 532
-_Bool ttsockgets(struct anonymous$17 *sock, char *buf, signed int size)
+_Bool ttsockgets(struct anonymous_17 *sock, char *buf, signed int size)
 {
   /* assertion sock && buf && size > 0 */
-  assert(sock != ((struct anonymous$17 *)NULL) && buf != ((char *)NULL) && size > 0);
+  assert(sock != ((struct anonymous_17 *)NULL) && buf != ((char *)NULL) && size > 0);
   _Bool err = (_Bool)0;
   size = size - 1;
   char *wp = buf;
-  char *tmp_post$1;
+  char *tmp_post_1;
   while(size >= 1)
   {
     signed int c;
@@ -14069,9 +14069,9 @@ _Bool ttsockgets(struct anonymous$17 *sock, char *buf, signed int size)
 
     if(!(c == 13))
     {
-      tmp_post$1 = wp;
+      tmp_post_1 = wp;
       wp = wp + 1l;
-      *tmp_post$1 = (char)c;
+      *tmp_post_1 = (char)c;
       size = size - 1;
     }
 
@@ -14082,16 +14082,16 @@ _Bool ttsockgets(struct anonymous$17 *sock, char *buf, signed int size)
 
 // ttsockgets2
 // file ttutil.c line 555
-char * ttsockgets2(struct anonymous$17 *sock)
+char * ttsockgets2(struct anonymous_17 *sock)
 {
   /* assertion sock */
-  assert(sock != ((struct anonymous$17 *)NULL));
+  assert(sock != ((struct anonymous_17 *)NULL));
   _Bool err = (_Bool)0;
-  struct anonymous$27 *xstr;
+  struct anonymous_27 *xstr;
   xstr=tcxstrnew3(4096);
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = (void (*)(void *))tcxstrdel;
     void *__cancel_arg = (void *)xstr;
     signed int __not_first_call;
@@ -14141,21 +14141,21 @@ char * ttsockgets2(struct anonymous$17 *sock)
     __pthread_unregister_cancel(&__cancel_buf);
   }
   while((_Bool)0);
-  void *return_value_tcxstrtomalloc$1;
-  return_value_tcxstrtomalloc$1=tcxstrtomalloc(xstr);
-  return (char *)return_value_tcxstrtomalloc$1;
+  void *return_value_tcxstrtomalloc_1;
+  return_value_tcxstrtomalloc_1=tcxstrtomalloc(xstr);
+  return (char *)return_value_tcxstrtomalloc_1;
 }
 
 // ttsocknew
 // file ttutil.c line 299
-struct anonymous$17 * ttsocknew(signed int fd)
+struct anonymous_17 * ttsocknew(signed int fd)
 {
   /* assertion fd >= 0 */
   assert(fd >= 0);
-  struct anonymous$17 *sock;
-  void *return_value_tcmalloc$1;
-  return_value_tcmalloc$1=tcmalloc(sizeof(struct anonymous$17) /*65584ul*/ );
-  sock = (struct anonymous$17 *)return_value_tcmalloc$1;
+  struct anonymous_17 *sock;
+  void *return_value_tcmalloc_1;
+  return_value_tcmalloc_1=tcmalloc(sizeof(struct anonymous_17) /*65584ul*/ );
+  sock = (struct anonymous_17 *)return_value_tcmalloc_1;
   sock->fd = fd;
   sock->rp = sock->buf;
   sock->ep = sock->buf;
@@ -14167,27 +14167,27 @@ struct anonymous$17 * ttsocknew(signed int fd)
 
 // ttsockprintf
 // file ttutil.c line 365
-_Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...)
+_Bool ttsockprintf(struct anonymous_17 *sock, const char *format, ...)
 {
   /* assertion sock && format */
-  assert(sock != ((struct anonymous$17 *)NULL) && format != ((const char *)NULL));
+  assert(sock != ((struct anonymous_17 *)NULL) && format != ((const char *)NULL));
   _Bool err = (_Bool)0;
-  struct anonymous$27 *xstr;
+  struct anonymous_27 *xstr;
   xstr=tcxstrnew();
-  char *return_value___builtin_strchr$1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$3;
-  const char *tmp_post$4;
-  signed int tmp_post$5;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$18;
-  char *return_value___builtin_strchr$17;
+  char *return_value___builtin_strchr_1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_3;
+  const char *tmp_post_4;
+  signed int tmp_post_5;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_18;
+  char *return_value___builtin_strchr_17;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = (void (*)(void *))tcxstrdel;
     void *__cancel_arg = (void *)xstr;
     signed int __not_first_call;
@@ -14213,8 +14213,8 @@ _Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...)
           format = format + 1l;
           do
           {
-            return_value___builtin_strchr$1=__builtin_strchr("0123456789 .+-hlLz", (signed int)*format);
-            if(return_value___builtin_strchr$1 == ((char *)NULL))
+            return_value___builtin_strchr_1=__builtin_strchr("0123456789 .+-hlLz", (signed int)*format);
+            if(return_value___builtin_strchr_1 == ((char *)NULL))
               break;
 
             if((signed int)*format == 0)
@@ -14224,23 +14224,23 @@ _Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...)
               break;
 
             if((signed int)*format == 108)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = (signed int)*format == 76 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = (signed int)*format == 76 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
               lnum = lnum + 1;
 
-            tmp_post$3 = cblen;
+            tmp_post_3 = cblen;
             cblen = cblen + 1;
-            tmp_post$4 = format;
+            tmp_post_4 = format;
             format = format + 1l;
-            cbuf[(signed long int)tmp_post$3] = *tmp_post$4;
+            cbuf[(signed long int)tmp_post_3] = *tmp_post_4;
           }
           while((_Bool)1);
-          tmp_post$5 = cblen;
+          tmp_post_5 = cblen;
           cblen = cblen + 1;
-          cbuf[(signed long int)tmp_post$5] = *format;
+          cbuf[(signed long int)tmp_post_5] = *format;
           cbuf[(signed long int)cblen] = (char)0;
           signed int tlen;
           char *tmp;
@@ -14260,24 +14260,24 @@ _Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...)
             {
               if(lnum >= 2)
               {
-                signed long long int return_value_gcc_builtin_va_arg$6;
-                return_value_gcc_builtin_va_arg$6=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$6));
-                tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg$6);
+                signed long long int return_value_gcc_builtin_va_arg_6;
+                return_value_gcc_builtin_va_arg_6=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_6));
+                tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg_6);
               }
 
               else
                 if(lnum >= 1)
                 {
-                  signed long int return_value_gcc_builtin_va_arg$7;
-                  return_value_gcc_builtin_va_arg$7=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$7));
-                  tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg$7);
+                  signed long int return_value_gcc_builtin_va_arg_7;
+                  return_value_gcc_builtin_va_arg_7=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_7));
+                  tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg_7);
                 }
 
                 else
                 {
-                  signed int return_value_gcc_builtin_va_arg$8;
-                  return_value_gcc_builtin_va_arg$8=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$8));
-                  tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg$8);
+                  signed int return_value_gcc_builtin_va_arg_8;
+                  return_value_gcc_builtin_va_arg_8=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_8));
+                  tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg_8);
                 }
               tcxstrcat(xstr, (const void *)tbuf, tlen);
               break;
@@ -14294,24 +14294,24 @@ _Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...)
             {
               if(lnum >= 2)
               {
-                unsigned long long int return_value_gcc_builtin_va_arg$9;
-                return_value_gcc_builtin_va_arg$9=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$9));
-                tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg$9);
+                unsigned long long int return_value_gcc_builtin_va_arg_9;
+                return_value_gcc_builtin_va_arg_9=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_9));
+                tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg_9);
               }
 
               else
                 if(lnum >= 1)
                 {
-                  unsigned long int return_value_gcc_builtin_va_arg$10;
-                  return_value_gcc_builtin_va_arg$10=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$10));
-                  tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg$10);
+                  unsigned long int return_value_gcc_builtin_va_arg_10;
+                  return_value_gcc_builtin_va_arg_10=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_10));
+                  tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg_10);
                 }
 
                 else
                 {
-                  unsigned int return_value_gcc_builtin_va_arg$11;
-                  return_value_gcc_builtin_va_arg$11=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$11));
-                  tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg$11);
+                  unsigned int return_value_gcc_builtin_va_arg_11;
+                  return_value_gcc_builtin_va_arg_11=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_11));
+                  tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg_11);
                 }
               tcxstrcat(xstr, (const void *)tbuf, tlen);
               break;
@@ -14328,16 +14328,16 @@ _Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...)
             {
               if(lnum >= 1)
               {
-                long double return_value_gcc_builtin_va_arg$12;
-                return_value_gcc_builtin_va_arg$12=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$12));
-                tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg$12);
+                long double return_value_gcc_builtin_va_arg_12;
+                return_value_gcc_builtin_va_arg_12=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_12));
+                tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg_12);
               }
 
               else
               {
-                double return_value_gcc_builtin_va_arg$13;
-                return_value_gcc_builtin_va_arg$13=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$13));
-                tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg$13);
+                double return_value_gcc_builtin_va_arg_13;
+                return_value_gcc_builtin_va_arg_13=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_13));
+                tlen=sprintf(tbuf, cbuf, return_value_gcc_builtin_va_arg_13);
               }
               tcxstrcat(xstr, (const void *)tbuf, tlen);
               break;
@@ -14374,23 +14374,23 @@ _Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...)
                   default:
                   {
                     if((signed int)*tmp >= 0)
-                      tmp_if_expr$14 = (signed int)*tmp <= 0x8 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_14 = (signed int)*tmp <= 0x8 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$14 = (_Bool)0;
-                    if(tmp_if_expr$14)
-                      tmp_if_expr$16 = (_Bool)1;
+                      tmp_if_expr_14 = (_Bool)0;
+                    if(tmp_if_expr_14)
+                      tmp_if_expr_16 = (_Bool)1;
 
                     else
                     {
                       if((signed int)*tmp >= 0x0e)
-                        tmp_if_expr$15 = (signed int)*tmp <= 0x1f ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_15 = (signed int)*tmp <= 0x1f ? (_Bool)1 : (_Bool)0;
 
                       else
-                        tmp_if_expr$15 = (_Bool)0;
-                      tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_15 = (_Bool)0;
+                      tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(!tmp_if_expr$16)
+                    if(!tmp_if_expr_16)
                       tcxstrcat(xstr, (const void *)tmp, 1);
 
                   }
@@ -14407,21 +14407,21 @@ _Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...)
               {
                 unsigned char c = *((unsigned char *)tmp);
                 if((signed int)c >= 48 && !((signed int)c >= 58) || (signed int)c >= 65 && !((signed int)c >= 91) || (signed int)c >= 97 && !((signed int)c >= 123))
-                  tmp_if_expr$19 = (_Bool)1;
+                  tmp_if_expr_19 = (_Bool)1;
 
                 else
                 {
                   if(!((signed int)c == 0))
                   {
-                    return_value___builtin_strchr$17=__builtin_strchr("_-.", (signed int)c);
-                    tmp_if_expr$18 = return_value___builtin_strchr$17 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+                    return_value___builtin_strchr_17=__builtin_strchr("_-.", (signed int)c);
+                    tmp_if_expr_18 = return_value___builtin_strchr_17 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$18 = (_Bool)0;
-                  tmp_if_expr$19 = tmp_if_expr$18 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_18 = (_Bool)0;
+                  tmp_if_expr_19 = tmp_if_expr_18 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$19)
+                if(tmp_if_expr_19)
                   tcxstrcat(xstr, (const void *)tmp, 1);
 
                 else
@@ -14441,13 +14441,13 @@ _Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...)
         else
           tcxstrcat(xstr, (const void *)format, 1);
       va_end(ap);
-      const void *return_value_tcxstrptr$20;
-      return_value_tcxstrptr$20=tcxstrptr(xstr);
-      signed int return_value_tcxstrsize$21;
-      return_value_tcxstrsize$21=tcxstrsize(xstr);
-      _Bool return_value_ttsocksend$22;
-      return_value_ttsocksend$22=ttsocksend(sock, return_value_tcxstrptr$20, return_value_tcxstrsize$21);
-      if(return_value_ttsocksend$22 == (_Bool)0)
+      const void *return_value_tcxstrptr_20;
+      return_value_tcxstrptr_20=tcxstrptr(xstr);
+      signed int return_value_tcxstrsize_21;
+      return_value_tcxstrsize_21=tcxstrsize(xstr);
+      _Bool return_value_ttsocksend_22;
+      return_value_ttsocksend_22=ttsocksend(sock, return_value_tcxstrptr_20, return_value_tcxstrsize_21);
+      if(return_value_ttsocksend_22 == (_Bool)0)
         err = (_Bool)1;
 
 
@@ -14464,11 +14464,11 @@ _Bool ttsockprintf(struct anonymous$17 *sock, const char *format, ...)
 
 // ttsockrecv
 // file ttutil.c line 471
-_Bool ttsockrecv(struct anonymous$17 *sock, char *buf, signed int size)
+_Bool ttsockrecv(struct anonymous_17 *sock, char *buf, signed int size)
 {
   /* assertion sock && buf && size >= 0 */
-  assert(sock != ((struct anonymous$17 *)NULL) && buf != ((char *)NULL) && size >= 0);
-  char *tmp_post$1;
+  assert(sock != ((struct anonymous_17 *)NULL) && buf != ((char *)NULL) && size >= 0);
+  char *tmp_post_1;
   if(sock->ep >= sock->rp + (signed long int)size)
   {
     memcpy((void *)buf, (const void *)sock->rp, (unsigned long int)size);
@@ -14490,9 +14490,9 @@ _Bool ttsockrecv(struct anonymous$17 *sock, char *buf, signed int size)
         break;
       }
 
-      tmp_post$1 = wp;
+      tmp_post_1 = wp;
       wp = wp + 1l;
-      *tmp_post$1 = (char)c;
+      *tmp_post_1 = (char)c;
       size = size - 1;
     }
     return !(err != (_Bool)0);
@@ -14501,21 +14501,21 @@ _Bool ttsockrecv(struct anonymous$17 *sock, char *buf, signed int size)
 
 // ttsocksend
 // file ttutil.c line 328
-_Bool ttsocksend(struct anonymous$17 *sock, const void *buf, signed int size)
+_Bool ttsocksend(struct anonymous_17 *sock, const void *buf, signed int size)
 {
   /* assertion sock && buf && size >= 0 */
-  assert(sock != ((struct anonymous$17 *)NULL) && buf != NULL && size >= 0);
+  assert(sock != ((struct anonymous_17 *)NULL) && buf != NULL && size >= 0);
   const char *rp = (const char *)buf;
-  _Bool return_value_ttwaitsock$1;
-  double return_value_tctime$4;
+  _Bool return_value_ttwaitsock_1;
+  double return_value_tctime_4;
   do
   {
     signed int ocs = 1;
     pthread_setcancelstate(0, &ocs);
     if(sock->to > 0.0)
     {
-      return_value_ttwaitsock$1=ttwaitsock(sock->fd, 1, sock->to);
-      if(return_value_ttwaitsock$1 == (_Bool)0)
+      return_value_ttwaitsock_1=ttwaitsock(sock->fd, 1, sock->to);
+      if(return_value_ttwaitsock_1 == (_Bool)0)
       {
         pthread_setcancelstate(ocs, (signed int *)(void *)0);
         return (_Bool)0;
@@ -14524,13 +14524,13 @@ _Bool ttsocksend(struct anonymous$17 *sock, const void *buf, signed int size)
     }
 
     signed int wb;
-    signed long int return_value_send$2;
-    return_value_send$2=send(sock->fd, (const void *)rp, (unsigned long int)size, 0);
-    wb = (signed int)return_value_send$2;
+    signed long int return_value_send_2;
+    return_value_send_2=send(sock->fd, (const void *)rp, (unsigned long int)size, 0);
+    wb = (signed int)return_value_send_2;
     signed int en;
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    en = *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    en = *return_value___errno_location_3;
     pthread_setcancelstate(ocs, (signed int *)(void *)0);
     if(!(wb == -1))
     {
@@ -14547,8 +14547,8 @@ _Bool ttsocksend(struct anonymous$17 *sock, const void *buf, signed int size)
         return (_Bool)0;
       }
 
-      return_value_tctime$4=tctime();
-      if(return_value_tctime$4 > sock->dl)
+      return_value_tctime_4=tctime();
+      if(return_value_tctime_4 > sock->dl)
       {
         sock->end = (_Bool)1;
         return (_Bool)0;
@@ -14572,22 +14572,22 @@ _Bool ttsocksend(struct anonymous$17 *sock, const void *buf, signed int size)
 
 // ttsocksetlife
 // file ttutil.c line 320
-void ttsocksetlife(struct anonymous$17 *sock, double lifetime)
+void ttsocksetlife(struct anonymous_17 *sock, double lifetime)
 {
   /* assertion sock && lifetime >= 0 */
-  assert(sock != ((struct anonymous$17 *)NULL) && lifetime >= (double)0);
+  assert(sock != ((struct anonymous_17 *)NULL) && lifetime >= (double)0);
   sock->to = lifetime >= (double)0x7fffffff ? 0.0 : lifetime;
-  double return_value_tctime$1;
-  return_value_tctime$1=tctime();
-  sock->dl = return_value_tctime$1 + lifetime;
+  double return_value_tctime_1;
+  return_value_tctime_1=tctime();
+  sock->dl = return_value_tctime_1 + lifetime;
 }
 
 // ttsockungetc
 // file ttutil.c line 523
-void ttsockungetc(struct anonymous$17 *sock, signed int c)
+void ttsockungetc(struct anonymous_17 *sock, signed int c)
 {
   /* assertion sock */
-  assert(sock != ((struct anonymous$17 *)NULL));
+  assert(sock != ((struct anonymous_17 *)NULL));
   if(!(sock->buf >= sock->rp))
   {
     sock->rp = sock->rp - 1l;
@@ -14602,18 +14602,18 @@ unsigned long int ttstrtots(const char *str)
 {
   /* assertion str */
   assert(str != ((const char *)NULL));
-  signed int return_value_tcstricmp$1;
-  return_value_tcstricmp$1=tcstricmp(str, "now");
-  if(return_value_tcstricmp$1 == 0)
+  signed int return_value_tcstricmp_1;
+  return_value_tcstricmp_1=tcstricmp(str, "now");
+  if(return_value_tcstricmp_1 == 0)
     str = "-1";
 
   signed long int ts;
   ts=tcatoi(str);
-  double return_value_tctime$2;
+  double return_value_tctime_2;
   if(!(ts >= 0l))
   {
-    return_value_tctime$2=tctime();
-    ts = (signed long int)(return_value_tctime$2 * (double)1000000);
+    return_value_tctime_2=tctime();
+    ts = (signed long int)(return_value_tctime_2 * (double)1000000);
   }
 
   return (unsigned long int)ts;
@@ -14633,25 +14633,25 @@ double ttunpackdouble(const char *buf)
   lfract = (signed long int)(((unsigned long int)lfract & 0x00000000000000ffULL) << 56 | ((unsigned long int)lfract & 0x000000000000ff00ULL) << 40 | ((unsigned long int)lfract & 0x0000000000ff0000ULL) << 24 | ((unsigned long int)lfract & 0x00000000ff000000ULL) << 8 | ((unsigned long int)lfract & 0x000000ff00000000ULL) >> 8 | ((unsigned long int)lfract & 0x0000ff0000000000ULL) >> 24 | ((unsigned long int)lfract & 0x00ff000000000000ULL) >> 40 | ((unsigned long int)lfract & 0xff00000000000000ULL) >> 56);
   if(lfract == -9223372036854775808l && linteg == -9223372036854775808l)
   {
-    float return_value___builtin_nanf$1;
-    return_value___builtin_nanf$1=__builtin_nanf("");
-    return (double)return_value___builtin_nanf$1;
+    float return_value___builtin_nanf_1;
+    return_value___builtin_nanf_1=__builtin_nanf("");
+    return (double)return_value___builtin_nanf_1;
   }
 
   else
     if(linteg == 9223372036854775807L)
     {
-      float return_value___builtin_inff$2;
-      return_value___builtin_inff$2=__builtin_inff();
-      return (double)return_value___builtin_inff$2;
+      float return_value___builtin_inff_2;
+      return_value___builtin_inff_2=__builtin_inff();
+      return (double)return_value___builtin_inff_2;
     }
 
     else
       if(linteg == -9223372036854775808l)
       {
-        float return_value___builtin_inff$3;
-        return_value___builtin_inff$3=__builtin_inff();
-        return (double)-return_value___builtin_inff$3;
+        float return_value___builtin_inff_3;
+        return_value___builtin_inff_3=__builtin_inff();
+        return (double)-return_value___builtin_inff_3;
       }
 
   return (double)linteg + (double)lfract / (double)1000000000000;
@@ -14663,16 +14663,16 @@ _Bool ttwaitsock(signed int fd, signed int mode, double timeout)
 {
   /* assertion fd >= 0 && mode >= 0 && timeout >= 0 */
   assert(fd >= 0 && mode >= 0 && timeout >= (double)0);
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   while((_Bool)1)
   {
-    struct anonymous$38 set;
+    struct anonymous_38 set;
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$38) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_38) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&set)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -14687,29 +14687,29 @@ _Bool ttwaitsock(signed int fd, signed int mode, double timeout)
     {
       case 0:
       {
-        rv=pselect(fd + 1, &set, (struct anonymous$38 *)(void *)0, (struct anonymous$38 *)(void *)0, &ts, (const struct anonymous$31 *)(void *)0);
+        rv=pselect(fd + 1, &set, (struct anonymous_38 *)(void *)0, (struct anonymous_38 *)(void *)0, &ts, (const struct anonymous_31 *)(void *)0);
         break;
       }
       case 1:
       {
-        rv=pselect(fd + 1, (struct anonymous$38 *)(void *)0, &set, (struct anonymous$38 *)(void *)0, &ts, (const struct anonymous$31 *)(void *)0);
+        rv=pselect(fd + 1, (struct anonymous_38 *)(void *)0, &set, (struct anonymous_38 *)(void *)0, &ts, (const struct anonymous_31 *)(void *)0);
         break;
       }
       case 2:
-        rv=pselect(fd + 1, (struct anonymous$38 *)(void *)0, (struct anonymous$38 *)(void *)0, &set, &ts, (const struct anonymous$31 *)(void *)0);
+        rv=pselect(fd + 1, (struct anonymous_38 *)(void *)0, (struct anonymous_38 *)(void *)0, &set, &ts, (const struct anonymous_31 *)(void *)0);
     }
     if(rv >= 1)
       return (_Bool)1;
 
     if(rv == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 != 22 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 != 22 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       break;
 
   }
@@ -14734,8 +14734,8 @@ static void usage(void)
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 36
 static inline signed int vprintf(const char * restrict __fmt, void **__arg)
 {
-  signed int return_value_vfprintf$1;
-  return_value_vfprintf$1=vfprintf(stdout, __fmt, __arg);
-  return return_value_vfprintf$1;
+  signed int return_value_vfprintf_1;
+  return_value_vfprintf_1=vfprintf(stdout, __fmt, __arg);
+  return return_value_vfprintf_1;
 }
 
